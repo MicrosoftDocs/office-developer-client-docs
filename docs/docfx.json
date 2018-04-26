@@ -47,11 +47,11 @@
     "fileMetadata": {
 	"ms.technology": 
        { 
-         
+         "project/**.md" : "dev-overview"
        },
 	 "ms.prod": 
        { 
-         
+         "project/**.md" : "project"
        }
 	   
 	   },
