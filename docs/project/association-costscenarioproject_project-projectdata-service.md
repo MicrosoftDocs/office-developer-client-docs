@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 0aa119b5-f44b-4f5d-afec-11c2a345ae2a
 description: "The CostScenarioProject_Project association relates cost scenario projects to a project."

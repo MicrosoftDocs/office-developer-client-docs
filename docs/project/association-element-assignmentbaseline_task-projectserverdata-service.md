@@ -6,7 +6,7 @@ manager: luken
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 5c315c24-ca47-4f04-a651-1f486054d7a5
 description: "The AssignmentBaseline_Task_Task_AssignmentsBaselines association relates assignment baselines to a task and relates a task to its assignment baselines."

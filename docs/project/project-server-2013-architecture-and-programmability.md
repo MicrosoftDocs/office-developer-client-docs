@@ -16,7 +16,7 @@ f1_keywords:
 - Project Server programmability
 keywords:
 - project 2013, architecture and programmability,Programmability, Project Server,Project 2013, benefits for EPM,Architecture, and Project Server
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 9ea3b3c1-fb90-454a-b8e6-abc44fca663d
 description: "The articles in this section describe the overall architecture of the Enterprise Project Management (EPM) solution, which combines Project Professional 2013, Project Server 2013, Project Web App, and SharePoint Server 2013."

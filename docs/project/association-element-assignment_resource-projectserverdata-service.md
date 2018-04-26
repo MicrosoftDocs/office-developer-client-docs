@@ -6,7 +6,7 @@ manager: luken
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 1f19d901-b237-43b9-ad81-901ac140fb34
 description: "The Assignment_Resource_Resource_Assignments association relates assignments to a resource and relates a resource to its assignments."

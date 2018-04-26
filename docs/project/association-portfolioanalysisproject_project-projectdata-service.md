@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: c937d352-25f5-40b1-8c7b-ebc83d91a32f
 description: "The PortfolioAnalysisProject_Project association relates portfolio analysis projects to a project."

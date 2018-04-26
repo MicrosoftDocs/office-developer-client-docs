@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 5/19/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 901cae08-55a1-4ae3-b2c0-cef25480e3d1
 description: "Specifies the collection of cost scenario projects for project portfolio analysis in the ReportingData schema."

@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 5/19/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: a8b0ffb7-4701-47b2-979b-6e5078d81f53
 description: "Specifies the collection of risks in the ReportingData schema."

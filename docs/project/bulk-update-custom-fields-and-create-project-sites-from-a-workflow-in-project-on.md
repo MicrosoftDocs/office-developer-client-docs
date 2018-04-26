@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 8/10/2016
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 815131c6-190c-4f29-83bf-c853eee72821
 description: "To help customers get the most out of Project Online and improve our service extensibility and flexibility, we've added two methods to the client-side object model that you can use in Project Online apps and workflows."

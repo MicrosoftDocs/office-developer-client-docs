@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 182e0ae3-0592-482f-865f-68d51027e2d7
 description: "Contains the properties that define the reporting data for a cost scenario project in the ProjectData service."

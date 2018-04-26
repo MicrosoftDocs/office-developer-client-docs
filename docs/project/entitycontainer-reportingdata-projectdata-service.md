@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 22b825bd-462d-4013-82d7-e7a41ab2919c
 description: "Contains definitions of entity sets and association sets, for internal use in queries of the ProjectData service."

@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 5/19/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: a8ad065e-f14a-441b-a981-fbbf4689390b
 description: "Specifies the collection of portfolio analysis projects in the ReportingData schema."

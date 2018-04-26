@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: f2953fb6-f406-4042-abca-5eb9ea2d6305
 description: "The BusinessDriver_CreatedByResource association relates business drivers to a resource."

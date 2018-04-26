@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 18cb39e8-3c62-4ef0-9dca-3870bea8e2b8
 description: "The Deliverable_ParentTasks association relates deliverables to parent tasks."

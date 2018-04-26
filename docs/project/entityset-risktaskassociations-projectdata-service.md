@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 5/19/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 718d5206-9d63-47a8-b224-35957d1443a3
 description: "Specifies the collection of risk to task associations in the ReportingData schema."

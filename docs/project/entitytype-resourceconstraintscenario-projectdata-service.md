@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 2708f1c3-fd31-4c8d-b67a-79c9fcc1bf4b
 description: "Contains the properties that define the reporting data for a resource constraint scenario in the ProjectData service."

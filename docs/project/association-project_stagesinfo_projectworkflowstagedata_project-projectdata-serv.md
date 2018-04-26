@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 34485d06-c5bd-4df2-ba68-c0cfb4ac2919
 description: "The Project_StagesInfo_ProjectWorkflowStageData_Project association relates a project to workflow stage information and relates workflow stage data to a project."

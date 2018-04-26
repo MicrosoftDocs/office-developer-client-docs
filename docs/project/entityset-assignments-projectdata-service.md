@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 5/19/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: bcbb6dbd-1b24-4cd7-a161-ccc563b1306e
 description: "Specifies the collection of assignments in the ReportingData schema."

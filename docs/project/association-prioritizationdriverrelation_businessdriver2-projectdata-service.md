@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 2451cad6-cdb2-4a9e-a32d-e3cb6ddbe9dc
 description: "The PrioritizationDriverRelation_BusinessDriver2 association relates project prioritizations in a portfolio analysis to the second business driver."

@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 5/19/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 7aae98fd-a0a3-49b7-a3a8-fe013d0a7fc4
 description: "Specifies the collection of project prioritization drivers for portfolio analyses in the ReportingData schema."

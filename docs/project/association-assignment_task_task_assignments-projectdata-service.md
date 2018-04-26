@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: f1f72c30-dc0e-4766-991a-eed774578467
 description: "The Assignment_Task_Task_Assignment association relates assignments to the task that contains them and relates a task to its assignments."

@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 2de2d0a1-0a05-4a3e-8ba5-79b18d0f0e8e
 description: "The ProjectBaseline_Project association relates project baselines to a project."

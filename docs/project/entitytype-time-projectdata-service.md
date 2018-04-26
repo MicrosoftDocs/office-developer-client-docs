@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: d636fb03-0288-493e-939b-7d4f7361911a
 description: "Contains the properties that define the reporting data for the time entity in the ProjectData service."

@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 5/19/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: b027af4d-3c32-42e3-8f53-0f2345b776df
 description: "Specifies the collection of resources in the ReportingData schema."

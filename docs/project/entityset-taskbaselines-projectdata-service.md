@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 5/19/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: e732e1d4-5e6d-40ee-9869-9b2994dae14a
 description: "Specifies the collection of task baselines in the ReportingData schema."

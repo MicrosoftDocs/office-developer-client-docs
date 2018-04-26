@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: a94ca722-8b50-480c-8e4e-db3ae6a575a0
 description: "The ResourceConstraintScenario_CreatedByResource association relates portfolio analysis resource constraint scenarios to a resource."

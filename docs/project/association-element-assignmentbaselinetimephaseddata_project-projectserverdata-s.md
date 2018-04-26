@@ -6,7 +6,7 @@ manager: luken
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: b61e7a7e-be40-436f-95a6-1d4b0f2d2a3d
 description: "The AssignmentBaselineTimephasedData_Project association relates assignment baseline timephased data to a project."

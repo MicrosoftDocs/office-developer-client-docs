@@ -13,7 +13,7 @@ f1_keywords:
 - VBA
 keywords:
 - vba, project object model,Project, programmability,Programmability, Project VBA,Visual Basic for Applications, Project object model,VBA, object model,VBA,Visual Basic for Applications
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 0ad49ff6-8dff-4379-a52c-d292c53c2bc0
 description: "The Project 2013 desktop client applications—Project Standard 2013 and Project Professional 2013—can be customized and extended by using VBA to write macros. You can use Visual Studio 2012 to customize the ribbon user interface and create complex add-ins. Office Add-ins enables a new extensibility model for task panes in Project that are built on a common Office 2013 platform. Project Standard 2013 and Project Professional 2013 can run general Office Add-ins and use task pane add-ins that are developed specifically for Project to integrate with SharePoint, other websites and web applications, and external data."

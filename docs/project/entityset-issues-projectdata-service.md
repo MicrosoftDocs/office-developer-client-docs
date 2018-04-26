@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 5/19/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 00d9fcc1-247d-4781-9ff4-0dbb788d9bdb
 description: "Specifies the collection of issues in the ReportingData schema."

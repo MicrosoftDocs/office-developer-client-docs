@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 9/17/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: eac6be6a-9a20-4bc0-8da2-b2fd93aab04f
 description: "The Project Server Interface (PSI) can help to automate many server-side processes in on-premises installations of Project Server 2013. But, several functions require the use of Microsoft Project Professional 2013."

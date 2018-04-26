@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 78c499a7-00e6-47bc-88c6-18040efbc99b
 description: "The Microsoft.Office.Project.Server namespace contains the ReportingData entity container, which defines entity sets and association sets for queries of the ProjectData service."

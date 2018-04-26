@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 5/19/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 0e4841f5-134b-41c3-b8f3-4d24d92bb97f
 description: "Specifies the collection of resource constraint scenarios for portfolio analyses in the ReportingData schema."

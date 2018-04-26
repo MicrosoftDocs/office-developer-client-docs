@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 9/17/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 60d2afc8-10b6-465d-8ce8-c073da6e5054
 description: "Learn information to help you create projects in Visual Studio by using the WCF-based code samples that are included in the Project Server Interface (PSI) reference topics."

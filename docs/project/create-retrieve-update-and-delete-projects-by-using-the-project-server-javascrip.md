@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 8/10/2016
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 6b690938-05bc-46a3-a40e-30f081403767
 description: "The scenarios in this article show how to get the current ProjectContext instance; retrieve and iterate through the collection of published projects on the server; create, retrieve, check out, and delete a project; and change a project's properties."

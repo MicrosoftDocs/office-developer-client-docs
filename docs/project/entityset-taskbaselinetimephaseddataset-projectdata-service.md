@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 5/19/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 3ab5481a-cb53-4c77-8061-63479b2bfa9a
 description: "Specifies the collection of timephased data in task baselines in the ReportingData schema."

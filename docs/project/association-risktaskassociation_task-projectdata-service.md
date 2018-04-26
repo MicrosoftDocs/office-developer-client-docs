@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 782243d9-e2e9-4351-bee3-5ea41d953eaa
 description: "The RiskTaskAssociation_Task association relates a task to a risk task association."

@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: df6ed347-cf9b-4339-9657-f59615b2aaa3
 description: "TaskTimephasedData_Task_Task_TimephasedInfo association relates a task timephased data to a task and relates a task to timephased information."

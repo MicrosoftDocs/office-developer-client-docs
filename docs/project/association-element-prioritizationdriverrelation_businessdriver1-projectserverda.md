@@ -6,7 +6,7 @@ manager: luken
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 1d44d647-1504-4d31-a7ec-2f9f6f284dfc
 description: "The PrioritizationDriverRelation_BusinessDriver1 association relates project prioritizations in a portfolio analysis to the first business driver."

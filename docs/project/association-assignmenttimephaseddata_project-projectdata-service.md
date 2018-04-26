@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: edbf51cf-de02-49ce-b577-281845703923
 description: "The AssignmentTimephasedData_Project association relates assignment timephased data to a project."

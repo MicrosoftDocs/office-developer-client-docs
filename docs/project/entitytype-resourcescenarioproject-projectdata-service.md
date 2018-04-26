@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 6f12da5a-10ee-4980-8881-ad6978bf9ced
 description: "Contains the properties that define the reporting data for a resource scenario project in the ProjectData service."

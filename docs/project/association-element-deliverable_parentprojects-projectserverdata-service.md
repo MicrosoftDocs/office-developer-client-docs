@@ -6,7 +6,7 @@ manager: luken
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: f0de64bc-d5cc-46a9-8e13-3d273bb817ba
 description: "The Deliverable_ParentProjects association relates the deliverable to its parent projects."

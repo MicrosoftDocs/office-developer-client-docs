@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 11/8/2016
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 5740d0b2-5d36-40e4-9e83-577cb186359f
 description: "This article describes Microsoft Project Online application development for desktop applications using the .NET Framework 4.0. The application described in this article retrieves information from the hosting server."

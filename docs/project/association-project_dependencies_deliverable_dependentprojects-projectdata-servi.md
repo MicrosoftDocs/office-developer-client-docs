@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 7515b2e8-d9ee-4813-8644-948d8082d5a4
 description: "The Project_Dependencies_Deliverable_DependentProjects association relates project to dependencies and relates deliverables to dependent projects."

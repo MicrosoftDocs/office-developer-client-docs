@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: d2efaa4d-adaa-4b20-bb8f-7ced043661b2
 description: "The Project_Assignments_Assignment_Project association relates a project to the assignments that it contains and relates assignments to a project."

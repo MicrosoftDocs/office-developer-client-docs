@@ -6,7 +6,7 @@ manager: luken
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 3d1149b6-2eb4-4775-b0c5-08595682b92f
 description: "The PortfolioAnalysis_Prioritization association relates portfolio analyses to a prioritization."

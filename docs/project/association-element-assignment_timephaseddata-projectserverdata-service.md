@@ -6,7 +6,7 @@ manager: luken
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 25dffad6-5825-4bd0-9815-671b642da8ff
 description: "The AssignmentTimephasedData_Assignment_Assignment_TimephasedData association relates assignment timephased data to its assignment and relates an assignment to its timephased data."

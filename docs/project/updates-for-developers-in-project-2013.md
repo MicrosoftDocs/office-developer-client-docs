@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 9/29/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 5b2b22cd-6e28-43a8-9092-b411da8bfb53
 description: "Extensibility features in Project Server 2013 work with add-ins for Project Online and with on-premises installations. New features include a client-side object model (CSOM), REST interfaces, an OData service for reporting, remote event receivers, declarative workflows, and task pane add-ins for Project clients. Also learn about deprecated features that should not be used for new development."

@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 5/19/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 1dd3ae37-2e6b-4fcd-aafc-fecabd654fc3
 description: "Specifies the collection of resource scenario projects for portfolio analyses in the ReportingData schema."

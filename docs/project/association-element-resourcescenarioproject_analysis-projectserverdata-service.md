@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 6c5baa7e-4175-4157-b79f-5e252c5a4b5e
 description: "The ResourceScenarioProject_Analysis association relates resource scenario projects to an analysis."

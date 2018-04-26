@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: be513f90-4808-4a5c-a200-168ce3d8e545
 description: "Contains the properties that define the reporting data for a risk task association in the ProjectData service."

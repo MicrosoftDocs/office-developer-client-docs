@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 5/19/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: fad2b25b-2de7-4b2f-95f4-9cd6d00d29f2
 description: "Specifies the collection of projects in the ReportingData schema."

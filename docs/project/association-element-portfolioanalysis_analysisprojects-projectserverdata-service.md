@@ -6,7 +6,7 @@ manager: luken
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 787cd979-0dd6-4dcd-9781-4e69f6344ff6
 description: "The PortfolioAnalysis_AnalysisProjects_PortfolioAnalysisProject_Analysis association relates a portfolio analysis to the analysis projects that it contains and relates portfolio analysis projects to an analysis."

@@ -6,7 +6,7 @@ manager: luken
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: cc062254-fdb5-4eb4-b0ea-2bd91ae60aa7
 description: "The BusinessDriver_Departments_BusinessDriverDepartment_BusinessDriver association relates a business driver to departments that it contains and relates business driver departments to a business driver."

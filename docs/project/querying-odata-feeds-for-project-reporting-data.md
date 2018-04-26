@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 8/10/2016
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 3eafda3b-f006-48be-baa6-961b2ed9fe01
 description: "To read reporting data in Project Server 2013, there are multiple ways to do OData queries of the ProjectData service. The Business Intelligence Center in Project Web App includes a Data Connections page, where you can choose the Office Data Connection (ODC) for Project Server OData reporting. Choosing the default ODC opens an Excel 2013 workbook, where you can create pivot tables, pivot charts, and PowerView reports. There are several default reports that are included with Project Server 2013."

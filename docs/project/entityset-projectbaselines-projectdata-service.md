@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 5/19/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: ab4d5d06-4a82-4bd1-9d2f-98dfb08295a7
 description: "Specifies the collection of project baselines in the ReportingData schema."

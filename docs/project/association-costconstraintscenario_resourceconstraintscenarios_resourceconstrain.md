@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 367f7155-2747-46ca-9e24-bfa8f685ed6c
 description: "The CostConstraintScenario_ResourceConstraintScenarios_ResourceConstraintScenario_CostConstraintScenario association relates a cost constraint scenario to the resource constraint scenarios that it contains and relates resource constraint scenarios to a cost constraint scenario."

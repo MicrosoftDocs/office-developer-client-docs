@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 626d9f90-49b3-44f1-89e6-54d9fc0d313f
 description: "The TaskBaseline_Task_Task_Baselines association relates a task to task baselines and relates task baselines to a task."

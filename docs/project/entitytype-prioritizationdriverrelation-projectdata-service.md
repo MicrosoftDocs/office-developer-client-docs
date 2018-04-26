@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 69526adc-2c16-45dd-a86b-e298fb376b22
 description: "Contains the properties that define the reporting data for a prioritization driver relation in the ProjectData service."

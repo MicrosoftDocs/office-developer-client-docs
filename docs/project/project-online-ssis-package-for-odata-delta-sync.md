@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 8/10/2016
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: e0d725da-9e0b-4a19-b8a2-da969eb636c8
 description: "For best performance when replicating PWA data to a SQL Server database for Project Online reporting, we recommend that you schedule regular synchronizations and update only changed data. The Project Online: SSIS package for OData delta sync sample package demonstrates how to configure a delta sync that compares the last sync date to the modified date on the Project entity to retrieve data only for projects that have changed since the last sync."

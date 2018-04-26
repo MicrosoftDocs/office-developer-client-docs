@@ -6,7 +6,7 @@ manager: luken
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: d8b731cd-7013-4b19-9acb-7fde18e62598
 description: "The PortfolioAnalysis_ModifiedByResource relates portfolio analysis to the resource that did modifications."

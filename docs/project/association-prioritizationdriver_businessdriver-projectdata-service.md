@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 34ef04e3-0ee8-48ce-9308-c3e5319447a1
 description: "The PrioritizationDriver_BusinessDriver association relates prioritization drivers to a business driver."

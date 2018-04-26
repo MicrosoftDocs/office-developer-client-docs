@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 5/19/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: ac124fc4-5b3b-4835-8b4a-ba5783b22d6d
 description: "Specifies the collection of tasks in the ReportingData schema."

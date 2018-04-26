@@ -6,7 +6,7 @@ manager: luken
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: b64f6073-5e44-4cf6-8f71-1c7a95153863
 description: "The AssignmentTimephasedData_Task association relates assignment timephased data to a task."

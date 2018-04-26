@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: e8d11cc8-ab75-42e6-b898-1c7ea54272cd
 description: "The TimesheetLine_TimesheetClass association relates a timesheet line to a timesheet class."

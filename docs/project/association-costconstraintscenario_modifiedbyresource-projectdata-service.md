@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: dc1ca8ca-36d8-4d6a-b3cc-b48b0759df99
 description: "The CostConstraintScenario_ModifiedByResource association relates cost constraint scenarios to a resource."

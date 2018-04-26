@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: d276a89f-6589-4785-9fb1-93e710aa0973
 description: "The TaskBaselineTimephasedData_Task_Task_BaselinesTimephasedDataSet association relates task baseline timephased data to a task and relates a task to a baseline timephased dataset."

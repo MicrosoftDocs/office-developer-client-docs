@@ -6,7 +6,7 @@ manager: luken
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: b2c0d56a-d17c-4920-b040-7a7a6cab85bc
 description: "The Prioritization_ModifiedByResource association relates portfolio analysis prioritizations to the resource that modified prioritizations."

@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 5/19/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 861e4734-9a92-4b86-b906-f25c73a3ba1d
 description: "Specifies the collection of timesheet periods in the ReportingData schema."

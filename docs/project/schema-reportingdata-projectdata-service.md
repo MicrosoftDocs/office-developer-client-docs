@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: c7f231f3-346b-4982-890f-afe014e02d6d
 description: "Specifies the ReportingData namespace, which defines entity types and associations used to query the ProjectData OData service for reporting data."

@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 05c4eaed-81e7-4ba2-a6ac-c6c51d7decde
 description: "The ResourceTimephasedData_Resource_Resource_TimephasedInfoDataSet association relates resource timephased data to a resource and relates a resource to timephased information."

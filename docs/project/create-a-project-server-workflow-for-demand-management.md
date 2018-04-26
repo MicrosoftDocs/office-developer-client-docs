@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 8/10/2016
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: b0e4a3b3-d1df-454d-b74c-b980b0b456f6
 description: "This article describes how to create a simple workflow by using SharePoint Designer 2013. You can export the workflow to Visio 2013 for visualization and editing, or use Visio 2013 to design Project Server 2013 workflows and import the design into SharePoint Designer 2013 for publication to Project Web App. For more information about the SharePoint workflow platform and creating workflows with Visio 2013 and SharePoint Designer 2013, see the Workflows in SharePoint 2013 articles in the SharePoint 2013 developer documentation."

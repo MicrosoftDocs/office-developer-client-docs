@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 7e3c9b7e-0d8d-483d-92ea-9355badbb8eb
 description: "Contains the properties that define the reporting data for a timesheet period in the ProjectData service."

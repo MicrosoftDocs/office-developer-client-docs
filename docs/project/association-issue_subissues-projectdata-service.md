@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 887d838f-9c17-4e03-b52a-e37e9fd6f831
 description: "The Issue_SubIssues association relates issues to subissues."

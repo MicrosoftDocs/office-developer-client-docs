@@ -6,7 +6,7 @@ manager: luken
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 1949a26e-4b8f-4919-beb7-74b8ccaa568d
 description: "The Issue_RelatedRisks_Risk_RelatedIssues association relates issues to related risks and risks to related issues."

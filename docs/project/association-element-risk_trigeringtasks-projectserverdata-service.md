@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: f82fe4ee-b0c5-49a0-bfeb-57c4dfbf59db
 description: "The Risk_Tasks_Task_Risks association relates risks to tasks and relates tasks to risks."

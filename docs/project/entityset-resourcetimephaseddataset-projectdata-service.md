@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 5/19/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 9bc69658-df33-4388-9f4a-1bfdad182cc7
 description: "Specifies the collection of resource timephased data in the ReportingData schema."

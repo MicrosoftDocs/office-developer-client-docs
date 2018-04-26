@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 07d76c59-20d7-47db-8126-52cdc29f4e69
 description: "Contains the properties that define the reporting data for an issue in the ProjectData service."

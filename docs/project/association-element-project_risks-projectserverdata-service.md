@@ -6,7 +6,7 @@ manager: luken
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 48692756-c492-482c-bf34-7d396dbc44c7
 description: "The Project_Risks_Risk_Project association relates a project to the risks that it contains and relates a risk to its project."

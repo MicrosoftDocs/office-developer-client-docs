@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: b7a3fd4f-21b2-43d3-9da6-ea45132db305
 description: "The PortfolioAnalysis_CostConstraintScenarios_CostConstraintScenario_Analysis association relates a portfolio analysis to the cost constraint scenarios that it contains and relates a collection of cost constraint scenarios to its portfolio analysis."

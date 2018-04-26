@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 9/15/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: da7f2b16-cbd6-4a98-b577-31841e60a656
 description: "Find links to information in this section about the major parts of the Project 2013 platform, getting started with CSOM development by using JavaScript and the .NET Framework, task pane add-ins in Project Professional 2013, the Project Server Interface, and the OData reporting service."

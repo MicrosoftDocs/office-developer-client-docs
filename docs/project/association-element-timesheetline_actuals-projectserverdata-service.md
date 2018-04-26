@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: c3339e2a-88ce-4b1d-a842-842b9d44b739
 description: "The TimesheetLine_Actuals_TimesheetLineActualData_TimesheetLine association relates a timesheet line to actual data and relates timesheet line actual data to a timesheet line."

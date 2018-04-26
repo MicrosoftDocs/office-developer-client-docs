@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: e41be1c3-6678-455f-9ed7-cb75b4e1e206
 description: "The AssignmentBaseline_Assignment_Assignment_Baseline association relates an assignment baseline to the assignments that it contains and relates an assignment to its baseline."

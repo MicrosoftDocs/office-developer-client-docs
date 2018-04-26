@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 30d8a8a1-1efa-4ffe-9930-f23d4567da07
 description: "The PortfolioAnalysis_CreatedByResource relates portfolio analyses to the creating resource."

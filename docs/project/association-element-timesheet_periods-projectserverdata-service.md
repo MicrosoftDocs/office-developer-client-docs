@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: d698f8b8-882c-48d1-9c35-0580008ae67b
 description: "The Timesheet_Periods association relates a timesheet period to its timesheet."

@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 5/19/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 13a1d026-e444-4305-b14b-58a067a1365f
 description: "Specifies the collection of business drivers for project portfolio analysis in the ReportingData schema."

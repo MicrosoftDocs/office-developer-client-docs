@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: e2c4c02d-ee36-4aad-95fe-657fdaae49f1
 description: "The TaskBaseline_Project association relates task baselines to a project."

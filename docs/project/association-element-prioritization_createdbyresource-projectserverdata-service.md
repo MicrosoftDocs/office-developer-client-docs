@@ -6,7 +6,7 @@ manager: luken
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: a04098a2-91e4-43a1-b364-3eb293c0bed2
 description: "The Prioritization_CreatedByResource association relates prioritizations to a resource."

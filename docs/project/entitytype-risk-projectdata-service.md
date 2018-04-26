@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 22e3e080-964d-4434-a633-73ac4c7b4cb7
 description: "Contains the properties that define the reporting data for a risk in the ProjectData service."

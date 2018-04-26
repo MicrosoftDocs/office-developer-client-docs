@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 2f542dfe-53b4-478c-8d91-73281b8bc59c
 description: "The TimesheetLine_ApproverResource association relates an approver resource to its timesheet line."

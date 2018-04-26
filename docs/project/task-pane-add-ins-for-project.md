@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 9/10/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 44712b7c-aead-433d-8c0e-76407264166c
 description: "Project Standard 2013 and Project Professional 2013 both support task pane Office Add-ins. You can use task pane add-ins to integrate project, task, resource, and view data in a project with other Office 2013 client applications, SharePoint applications, Web Parts, other webpages, and external data."

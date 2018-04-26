@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 5/19/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 3d97c166-8e38-4bb9-b8b7-31afa0a391d3
 description: "Specifies the collection of deliverables in the ReportingData schema."

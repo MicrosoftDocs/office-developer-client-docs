@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 20aed496-9f0f-4f2f-8a45-37f83d0b720a
 description: "Contains the properties that define the reporting data for a portfolio analysis project in the ProjectData service."

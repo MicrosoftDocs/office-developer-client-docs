@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: b9c7642b-1496-41a9-988c-fa40fd3a3877
 description: "TaskTimephasedData_Project association relates task timephased data to its project."

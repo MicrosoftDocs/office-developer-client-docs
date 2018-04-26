@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: a5028be5-d7c4-41cb-8f88-32f2a9bb6d13
 description: "Contains the properties that define the reporting data for project workflow stage data in the ProjectData service."

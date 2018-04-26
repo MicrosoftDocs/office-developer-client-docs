@@ -6,7 +6,7 @@ manager: luken
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 6ac8d1ff-8c29-481d-97f1-2d4e207bf89e
 description: "The PortfolioAnalysis_ResourceConstraintScenarios_ResourceConstraintScenario_Analysis association relates portfolio analyses to resource constraint scenarios."

@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 7e32b926-bbfa-42f8-9098-aa716c53da49
 description: "The CostScenarioProject_Analysis association relates cost scenarios projects to a portfolio analysis."

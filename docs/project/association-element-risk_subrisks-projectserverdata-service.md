@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: b76718fd-1f28-408d-a62d-57270595ff1e
 description: "The Risk_SubRisks association relates risks to subrisks."

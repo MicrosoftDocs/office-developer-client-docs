@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 5/19/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 1679b6e3-7a6a-4747-a584-89d9a086dfa3
 description: "Specifies the collection of project workflow stage data in the ReportingData schema."

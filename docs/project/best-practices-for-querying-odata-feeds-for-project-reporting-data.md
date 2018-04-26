@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 8/10/2016
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: a01a3bef-093d-4b01-9f3b-c76cba070ad1
 description: "You can speed up your download times and access your Project Web App (PWA) data faster by reducing payload size. Project 2013 provides the ProjectData service as the OData source for PWA reporting data for both Project Server 2013 and Project Online. By following best practices for querying ProjectData—such as filtering data requests and creating delta syncs—you can greatly improve performance when reporting in Excel, replicating data with SQL Server Integration Services (SSIS) packages, or reporting in custom apps."

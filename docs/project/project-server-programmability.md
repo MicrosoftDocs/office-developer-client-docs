@@ -25,7 +25,7 @@ f1_keywords:
 - WSS
 keywords:
 - project 2013, architecture and programmability,PSI,Projects, versions,Programmability, Project Server,PSI, limitations,Project Server Interface, unsupported features,Project Server Interface, PDS compatibility,Project Server Interface, generic,Project Server, project versions,Versions, projects,Project Server, databases,Project 2013, platform,Project Server Interface, use scenarios,Project Server, events,Project Server,Project Data Service, compatibility with PSI,Project Server Interface
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: a93d2153-5132-4289-af51-69350471e248
 description: "Learn about the major programmability features in Project Server 2013. This article includes information about porting applications that were built for previous versions of Project Server."

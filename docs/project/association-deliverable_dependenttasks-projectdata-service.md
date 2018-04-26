@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 65dbed5f-b0f8-473c-a253-96a4c030680b
 description: "The Deliverable_DependentTasks association relates the deliverable to its dependent tasks."

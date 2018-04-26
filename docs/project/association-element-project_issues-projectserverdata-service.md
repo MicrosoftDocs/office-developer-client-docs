@@ -6,7 +6,7 @@ manager: luken
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 59a35f88-b862-4e3c-a2af-451f63fe54fe
 description: "The Project_Issues_Issue_Project association relates a project to the issues that it contains and relates a collection of issues to its project."

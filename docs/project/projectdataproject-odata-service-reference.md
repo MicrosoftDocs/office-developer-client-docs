@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 8/10/2016
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 1ed14ee9-1a1a-4960-9b66-c24ef92cdf6b
 description: "ProjectData is a WCF Data Service, also known as an OData service. The ProjectData service is implemented with the OData V3 libraries."

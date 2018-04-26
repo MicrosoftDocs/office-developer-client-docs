@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 0107a5dd-6224-4680-bb62-c5c9efee3a1b
 description: "Contains the properties that define the reporting data for a business driver in the ProjectData service."

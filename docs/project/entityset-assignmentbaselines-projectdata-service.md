@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 5/19/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: a365a05e-e1d6-4f29-87fd-06ce5eae9cab
 description: "Specifies the collection of assignment baselines in the ReportingData schema."

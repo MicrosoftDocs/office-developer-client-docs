@@ -16,7 +16,7 @@ f1_keywords:
 - SDK Project
 keywords:
 - sdk, project 2013,Project 2013, SDK overview
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: f66adbf1-5cb5-4dd0-be08-45e1c88c010c
 description: "Find documentation, code samples, how-to articles, and programming references to help build apps for the Office Store or a private app catalog and to customize and integrate Project Server and the Project clients with a wide variety of other desktop and business applications for enterprise project management."

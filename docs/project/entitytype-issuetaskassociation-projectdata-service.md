@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 78b13b57-e8b6-4f34-96a8-148970cfcce9
 description: "Contains the properties that define the reporting data for an issue task association in the ProjectData service."

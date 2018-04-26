@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: f7ca9b07-2897-4d1e-add6-0cb67c99f6ee
 description: "The TimesheetLineActualData_Time association relates timesheet line actual data to a time entity."

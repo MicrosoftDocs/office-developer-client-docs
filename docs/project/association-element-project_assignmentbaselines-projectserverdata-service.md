@@ -6,7 +6,7 @@ manager: luken
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 03c9e2fe-eafe-4630-baeb-5510fffb0201
 description: "The Project_AssignmentBaselines_AssignmentBaseline_Project association relates a project to the assignment baselines that it contains and relates assignment baselines to a project."

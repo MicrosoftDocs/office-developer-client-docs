@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: cfc58a05-d526-4f72-b36b-6d42d7c22d9c
 description: "Contains the properties that define the reporting data for resource timephased data in the ProjectData service."

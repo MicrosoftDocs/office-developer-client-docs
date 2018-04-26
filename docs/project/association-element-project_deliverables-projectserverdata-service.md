@@ -6,7 +6,7 @@ manager: luken
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 50b5fb74-2fc5-49bd-bbdd-2109732c67bf
 description: "The Project_Deliverables_Deliverable_Project association relates a project to the deliverables that it contains and relates deliverables to projects."

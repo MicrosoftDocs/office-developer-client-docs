@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 5/19/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: e686d1c8-4ae7-4593-b75b-b9524ab42fa4
 description: "Specifies the collection of cost constraint scenarios for project portfolio analysis in the ReportingData schema."

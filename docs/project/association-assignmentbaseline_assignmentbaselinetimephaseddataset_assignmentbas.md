@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 0412c222-fbee-4d0d-9fac-e8fee5c7b6cc
 description: "The AssignmentBaseline_AssignmentBaselineTimephasedDataSet_AssignmentBaselineTimephasedData_Baseline association relates an assignment baseline to assignment baseline timephased data and relates assignment baseline timephased data to its baseline."

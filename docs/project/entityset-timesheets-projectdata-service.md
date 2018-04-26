@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 5/19/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 0cc93f37-6bf3-491e-8d8c-11594a11e4dc
 description: "Specifies the collection of timesheets in the ReportingData schema."

@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 9afade56-4b68-42c7-952b-13fa7d1e17bf
 description: "The Prioritization_PrioritizationDrivers_PrioritizationDriver_Prioritization association relates a prioritization to the prioritization drivers that it contains and relates a collection of prioritization drivers to its prioritization."

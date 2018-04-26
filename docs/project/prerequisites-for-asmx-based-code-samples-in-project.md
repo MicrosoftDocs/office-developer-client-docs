@@ -14,7 +14,7 @@ f1_keywords:
 - PSI programming
 keywords:
 - code samples, project server,Project Server, programming,PSI, compiling code samples,PSI, programming
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: df584b25-4460-46c8-89a8-3b2c94d20bba
 description: "Learn information to help you create projects in Visual Studio by using the ASMX-based code samples that are included in the Project Server Interface (PSI) reference topics."

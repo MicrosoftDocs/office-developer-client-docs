@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 9b8adcf5-8842-4928-b94b-56db3defbdcc
 description: "Contains the properties that define the reporting data for timesheet line actual data in the ProjectData service."

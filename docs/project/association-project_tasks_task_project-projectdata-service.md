@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 9b72a411-b62e-4050-a406-a7d6107e46d1
 description: "The Project_Tasks_Task_Project association relates a project to the tasks that it contains and relates a task to its project."

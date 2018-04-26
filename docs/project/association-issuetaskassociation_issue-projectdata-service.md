@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: b83348b5-69a2-48b0-add9-f91dd97bb599
 description: "The IssueTaskAssociation_Issue association relates an issue task association to an issue."

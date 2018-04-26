@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 0cb988be-4a83-4789-90a3-690501409018
 description: "The ResourceScenarioProject_Project association relates a resource scenario project to its project."

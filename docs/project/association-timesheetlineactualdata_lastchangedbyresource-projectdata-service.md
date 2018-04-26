@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
  
-ms.prod: null
+ 
 localization_priority: Normal
 ms.assetid: 68c1bdf0-4f5c-483c-a8e0-cc109e6a4dbb
 description: "The TimesheetLineActualData_LastChangedByResource association relates timesheet line actual data to a resource."
