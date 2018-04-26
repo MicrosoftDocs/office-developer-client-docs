@@ -1,0 +1,28 @@
+---
+title: "[Access VBA reference]"
+  
+  
+ms.date: 1/1/1900
+ms.audience: Developer
+ 
+  
+localization_priority: Normal
+ms.assetid: 2a7b2d1c-35c5-41b0-920c-d78606e71ec1
+description: "{insert summary}"
+---
+
+# [Access VBA reference]
+
+{insert summary}
+  
+{insert introductory content}
+  
+## {insert section title text}
+
+{insert body text}
+  
+### {insert subsection title text}
+
+{insert body text}
+  
+

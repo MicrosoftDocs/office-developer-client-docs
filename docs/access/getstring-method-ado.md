@@ -1,0 +1,55 @@
+---
+title: "GetString Method (ADO)"
+ 
+ 
+manager: soliver
+ms.date: 11/16/2014
+ms.audience: Developer
+ms.topic: reference
+  
+localization_priority: Normal
+ms.assetid: f496305e-a1f5-7014-7808-7e4961e5f0fa
+
+---
+
+# GetString Method (ADO)
+
+Returns the [Recordset](recordset-object-ado.md) as a string. 
+  
+## Syntax
+
+ *Variant*  =  *recordset*  . **GetString**( *StringFormat*  ,  *NumRows*  ,  *ColumnDelimiter*  ,  *RowDelimiter*  ,  *NullExpr*  ) 
+  
+## Return Value
+
+Returns the **Recordset** as a string-valued **Variant** (BSTR). 
+  
+## Parameters
+
+-  *StringFormat* 
+    
+- A [StringFormatEnum](stringformatenum.md) value that specifies how the **Recordset** should be converted to a string. The  *RowDelimiter*  ,  *ColumnDelimiter*  , and  *NullExpr*  parameters are used only with a  *StringFormat*  of **adClipString**. 
+    
+-  *NumRows* 
+    
+- Optional. The number of rows to be converted in the **Recordset**. If  *NumRows*  is not specified, or if it is greater than the total number of rows in the **Recordset**, then all the rows in the **Recordset** are converted. 
+    
+-  *ColumnDelimiter* 
+    
+- Optional. A delimiter used between columns, if specified, otherwise the TAB character.
+    
+-  *RowDelimiter* 
+    
+- Optional. A delimiter used between rows, if specified, otherwise the CARRIAGE RETURN character.
+    
+-  *NullExpr* 
+    
+- Optional. An expression used in place of a null value, if specified, otherwise the empty string.
+    
+## Remarks
+
+Row data, but no schema data, is saved to the string. Therefore, a **Recordset** cannot be reopened using this string. 
+  
+This method is equivalent to the RDO **GetClipString** method. 
+  
+

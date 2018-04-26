@@ -1,0 +1,51 @@
+---
+title: "OpenVisualBasicModule Macro Action"
+ 
+ 
+manager: soliver
+ms.date: 7/29/2015
+ms.audience: Developer
+ms.topic: reference
+f1_keywords:
+- vbaac10.chm50916
+  
+localization_priority: Normal
+ms.assetid: 26eb31c8-3c65-b17d-46cd-c8967434a7a0
+description: "You can use the OpenVisualBasicModule action to open a specified Visual Basic for Applications (VBA) module at a specified procedure. This can be a Sub procedure, a Function procedure, or an event procedure."
+---
+
+# OpenVisualBasicModule Macro Action
+
+You can use the **OpenVisualBasicModule** action to open a specified Visual Basic for Applications (VBA) module at a specified procedure. This can be a Sub procedure, a Function procedure, or an event procedure. 
+  
+> [!NOTE]
+> This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the **See Also** section of this article. 
+  
+## Setting
+
+The **OpenVisualBasicModule** action has the following arguments. 
+  
+|**Action argument**|**Description**|
+|:-----|:-----|
+|**Module Name** <br/> |The name of the module you want to open. You can leave this argument blank if you want to search all the standard modules in the database for a procedure and open the appropriate module at that procedure. If you run a macro containing the **OpenVisualBasicModule** action in a library database, Microsoft Access first looks for the module with this name in the library database, and then in the current database.  <br/> |
+|**Procedure Name** <br/> |The name of the procedure you want to open the module to. If you leave this argument blank, the module opens to the Declarations section.  <br/> |
+   
+> [!NOTE]
+> You must enter a valid name in either the **Module Name** or **Procedure Name** argument. 
+  
+## Remarks
+
+You can use this action to open an event procedure by specifying the **Module Name** argument and the **Procedure Name** argument. For example, to open the **Click** event procedure of the PrintInvoice button on the form Orders, set the **Module Name** argument to **Form.Orders** and set the **Procedure Name** argument to **PrintInvoice_Click**. To view the event procedure for a form or report, the form or report must be open.
+  
+Similarly, to open a procedure in a class module, you must specify the module name, although the class module does not have to open.
+  
+To open a private procedure, the module containing it must be open.
+  
+This action has the same effect as right-clicking a module in the Navigation Pane and then clicking **Design View**. This action also enables you to specify a procedure name and to search the standard modules in a database for procedures.
+  
+> [!TIP]
+> You can select a module in the Navigation Pane and drag it to a macro action row. This automatically creates an **OpenVisualBasicModule** action that opens the module to the Declarations section. 
+  
+To run the **OpenVisualBasicModule** action in a VBA module, use the **OpenModule** method of the **DoCmd** object. 
+  
+

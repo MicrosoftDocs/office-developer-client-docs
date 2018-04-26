@@ -5,6 +5,388 @@
        href: configure-udfs-in-excel-online-in-office-online-server-preview.md
      - name: Office for Mac
        href: https://msdn.microsoft.com/en-us/library/office/mt654019.aspx
+     - name: Access
+       href: access/access.md
+       items:
+        - name: Access VBA reference
+          href: https://msdn.microsoft.com/en-us/library/mt346046.aspx
+        - name: Access custom web app reference
+          href: access/access-custom-web-app-reference.md
+          items:
+          - name: Concepts (Access custom web app)
+            href: access/concepts-access-custom-web-app.md
+            items:
+            - name: Reserved Words (Access custom web app)
+              href: access/reserved-words-access-custom-web-app.md
+            - name: 'How to: Create and customize a web app in Access'
+              href: access/how-to-create-and-customize-a-web-app-in-access.md
+            - name: Custom numeric formats for the Format function (Access custom web app)
+              href: access/custom-numeric-formats-for-the-format-function-access-custom-web-app.md
+            - name: Custom date and time formats for the Format function (Access custom web app)
+              href: access/custom-date-and-time-formats-for-the-format-function-access-custom-web-app.md
+            - name: 'How to: Filter a view by using a macro in an Access app'
+              href: access/how-to-filter-a-view-by-using-a-macro-in-an-access-app.md
+          - name: Access SQL and expressions reference (Access custom web app)
+            href: access/access-sql-and-expressions-reference-access-custom-web-app.md
+            items:
+            - name: Conversion functions (Access custom web app)
+              href: access/conversion-functions-access-custom-web-app.md
+              items:
+              - name: Cast Function (Access custom web app)
+                href: access/cast-function-access-custom-web-app.md
+              - name: Coalesce Function (Access custom web app)
+                href: access/coalesce-function-access-custom-web-app.md
+              - name: DateWithTimeFromParts Function (Access custom web app)
+                href: access/datewithtimefromparts-function-access-custom-web-app.md
+              - name: Format Function (Access custom web app)
+                href: access/format-function-access-custom-web-app.md
+              - name: Parse Function (Access custom web app)
+                href: access/parse-function-access-custom-web-app.md
+              - name: TimeFromParts Function  (Access custom web app)
+                href: access/timefromparts-functionaccess-custom-web-app.md
+              - name: Try_Parse Function (Access custom web app)
+                href: access/try_parse-function-access-custom-web-app.md
+            - name: Database functions (Access custom web app)
+              href: access/database-functions-access-custom-web-app.md
+              items:
+              - name: UserDisplayName Function (Access custom web app)
+                href: access/userdisplayname-function-access-custom-web-app.md
+              - name: UserEmailAddress Function (Access custom web app)
+                href: access/useremailaddress-function-access-custom-web-app.md
+              - name: Update Function (Access custom web app)
+                href: access/update-function-access-custom-web-app.md
+            - name: Date/time functions  (Access custom web app)
+              href: access/date-time-functionsaccess-custom-web-app.md
+              items:
+              - name: DateAdd Function (Access custom web app)
+                href: access/dateadd-function-access-custom-web-app.md
+              - name: DateDiff Function (Access custom web app)
+                href: access/datediff-function-access-custom-web-app.md
+              - name: DateFromParts Function (Access custom web app)
+                href: access/datefromparts-function-access-custom-web-app.md
+              - name: DatePart Function (Access custom web app)
+                href: access/datepart-function-access-custom-web-app.md
+              - name: Day Function (Access custom web app)
+                href: access/day-function-access-custom-web-app.md
+              - name: EOMonth Function (Access custom web app)
+                href: access/eomonth-function-access-custom-web-app.md
+              - name: Month Function (Access custom web app)
+                href: access/month-function-access-custom-web-app.md
+              - name: Now Function (Access custom web app)
+                href: access/now-function-access-custom-web-app.md
+              - name: Today Function (Access custom web app)
+                href: access/today-function-access-custom-web-app.md
+              - name: Year Function (Access custom web app)
+                href: access/year-function-access-custom-web-app.md
+            - name: Inspection functions (Access custom web app)
+              href: access/inspection-functions-access-custom-web-app.md
+              items:
+              - name: Try_Convert Function (Access custom web app)
+                href: access/try_convert-function-access-custom-web-app.md
+            - name: Math functions (Access custom web app)
+              href: access/math-functions-access-custom-web-app.md
+              items:
+              - name: Abs Function (Access custom web app)
+                href: access/abs-function-access-custom-web-app.md
+              - name: Avg Function (Access custom web app)
+                href: access/avg-function-access-custom-web-app.md
+              - name: Ceiling Function (Access custom web app)
+                href: access/ceiling-function-access-custom-web-app.md
+              - name: Count Function (Access custom web app)
+                href: access/count-function-access-custom-web-app.md
+              - name: Exp Function (Access custom web app)
+                href: access/exp-function-access-custom-web-app.md
+              - name: Floor Function (Access custom web app)
+                href: access/floor-function-access-custom-web-app.md
+              - name: Log10 Function (Access custom web app)
+                href: access/log10-function-access-custom-web-app.md
+              - name: Log Function (Access custom web app)
+                href: access/log-function-access-custom-web-app.md
+              - name: Max Function (Access custom web app)
+                href: access/max-function-access-custom-web-app.md
+              - name: Min Function (Access custom web app)
+                href: access/min-function-access-custom-web-app.md
+              - name: Pi Function (Access custom web app)
+                href: access/pi-function-access-custom-web-app.md
+              - name: Power Function (Access custom web app)
+                href: access/power-function-access-custom-web-app.md
+              - name: Rand Function (Access custom web app)
+                href: access/rand-function-access-custom-web-app.md
+              - name: Round Function (Access custom web app)
+                href: access/round-function-access-custom-web-app.md
+              - name: Sign Function (Access custom web app)
+                href: access/sign-function-access-custom-web-app.md
+              - name: StDev Function (Access custom web app)
+                href: access/stdev-function-access-custom-web-app.md
+              - name: Sqrt Function (Access custom web app)
+                href: access/sqrt-function-access-custom-web-app.md
+              - name: Sum Function (Access custom web app)
+                href: access/sum-function-access-custom-web-app.md
+              - name: Var Function (Access custom web app)
+                href: access/var-function-access-custom-web-app.md
+            - name: Program flow functions (Access custom web app)
+              href: access/program-flow-functions-access-custom-web-app.md
+              items:
+              - name: Choose Function (Access custom web app)
+                href: access/choose-function-access-custom-web-app.md
+              - name: IIf Function (Access custom web app)
+                href: access/iif-function-access-custom-web-app.md
+            - name: Text functions (Access custom web app)
+              href: access/text-functions-access-custom-web-app.md
+              items:
+              - name: CharIndex Function (Access custom web app)
+                href: access/charindex-function-access-custom-web-app.md
+              - name: Concat Function (Access custom web app)
+                href: access/concat-function-access-custom-web-app.md
+              - name: Left Function (Access custom web app)
+                href: access/left-function-access-custom-web-app.md
+              - name: Len Function (Access custom web app)
+                href: access/len-function-access-custom-web-app.md
+              - name: Lower Function (Access custom web app)
+                href: access/lower-function-access-custom-web-app.md
+              - name: LTrim Function (Access custom web app)
+                href: access/ltrim-function-access-custom-web-app.md
+              - name: Replace Function (Access custom web app)
+                href: access/replace-function-access-custom-web-app.md
+              - name: Replicate Function (Access custom web app)
+                href: access/replicate-function-access-custom-web-app.md
+              - name: Right Function (Access custom web app)
+                href: access/right-function-access-custom-web-app.md
+              - name: RTrim Function (Access custom web app)
+                href: access/rtrim-function-access-custom-web-app.md
+              - name: Stuff Function (Access custom web app)
+                href: access/stuff-function-access-custom-web-app.md
+              - name: SubString Function (Access custom web app)
+                href: access/substring-function-access-custom-web-app.md
+              - name: Upper Function (Access custom web app)
+                href: access/upper-function-access-custom-web-app.md
+            - name: Operators (Access custom web app)
+              href: access/operators-access-custom-web-app.md
+              items:
+              - name: Arithmetic Operators (Access custom web app)
+                href: access/arithmetic-operators-access-custom-web-app.md
+                items:
+                - name: '- (Subtract) (Access custom web app)'
+                  href: access/subtractaccess-custom-web-app.md
+                - name: '* (Multiply) (Access custom web app)'
+                  href: access/multiplyaccess-custom-web-app.md
+                - name: / (Divide) (Access custom web app)
+                  href: access/divideaccess-custom-web-app.md
+                - name: + (Add) (Access custom web app)
+                  href: access/plusaddaccess-custom-web-app.md
+                - name: Mod (Access custom web app)
+                  href: access/mod-access-custom-web-app.md
+              - name: Comparison Operators (Access custom web app)
+                href: access/comparison-operators-access-custom-web-app.md
+                items:
+                - name: '&lt; (Less Than) (Access custom web app)'
+                  href: access/less-thanaccess-custom-web-app.md
+                - name: '&lt;= (Less Than or Equal To) (Access custom web app)'
+                  href: access/equalsless-than-or-equal-toaccess-custom-web-app.md
+                - name: '&lt;&gt; (Not Equal To) (Access custom web app)'
+                  href: access/not-equal-toaccess-custom-web-app.md
+                - name: = (Equals) (Access custom web app)
+                  href: access/equalsequalsaccess-custom-web-app.md
+                - name: '&gt; (Greater Than) (Access custom web app)'
+                  href: access/greater-thanaccess-custom-web-app.md
+                - name: '&gt;= (Greater Than or Equal To) (Access custom web app)'
+                  href: access/equalsgreater-than-or-equal-toaccess-custom-web-app.md
+                - name: BETWEEN (Access custom web app)
+                  href: access/between-access-custom-web-app.md
+                - name: IN (Access custom web app)
+                  href: access/in-access-custom-web-app.md
+                - name: LIKE (Access custom web app)
+                  href: access/like-access-custom-web-app.md
+              - name: Logical Operators (Access custom web app)
+                href: access/logical-operators-access-custom-web-app.md
+                items:
+                - name: AND (Access custom web app)
+                  href: access/and-access-custom-web-app.md
+                - name: NOT (Access custom web app)
+                  href: access/not-access-custom-web-app.md
+                - name: OR (Access custom web app)
+                  href: access/or-access-custom-web-app.md
+                - name: IS [NOT] NULL (Access custom web app)
+                  href: access/is-not-null-access-custom-web-app.md
+              - name: String Operators (Access custom web app)
+                href: access/string-operators-access-custom-web-app.md
+                items:
+                - name: + (String Concatenation Operator) (Access custom web app)
+                  href: access/plusstring-concatenation-operatoraccess-custom-web-app.md
+          - name: Macro function reference (Access custom web app)
+            href: access/macro-function-reference-access-custom-web-app.md
+            items:
+            - name: Data blocks  (Access custom web app)
+              href: access/data-blocksaccess-custom-web-app.md
+              items:
+              - name: CreateRecord Data Block (Access custom web app)
+                href: access/createrecord-data-block-access-custom-web-app.md
+              - name: EditRecord Data Block (Access custom web app)
+                href: access/editrecord-data-block-access-custom-web-app.md
+              - name: ForEachRecord Data Block (Access custom web app)
+                href: access/foreachrecord-data-block-access-custom-web-app.md
+              - name: LookupRecord Data Block (Access custom web app)
+                href: access/lookuprecord-data-block-access-custom-web-app.md
+            - name: Data actions (Access custom web app)
+              href: access/data-actions-access-custom-web-app.md
+              items:
+              - name: StopMacro Macro Action (Access custom web app)
+                href: access/stopmacro-macro-action-access-custom-web-app.md
+              - name: CancelRecordChange Macro Action (Access custom web app)
+                href: access/cancelrecordchange-macro-action-access-custom-web-app.md
+              - name: DeleteRecord Data Macro Action (Access custom web app)
+                href: access/deleterecord-data-macro-action-access-custom-web-app.md
+              - name: RaiseError Macro Action (Access custom web app)
+                href: access/raiseerror-macro-action-access-custom-web-app.md
+              - name: SetField Macro Action (Access custom web app)
+                href: access/setfield-macro-action-access-custom-web-app.md
+              - name: SetLocalVar Macro Action (Access custom web app)
+                href: access/setlocalvar-macro-action-access-custom-web-app.md
+              - name: ExitForEachRecord Macro Action (Access custom web app)
+                href: access/exitforeachrecord-macro-action-access-custom-web-app.md
+              - name: SetReturnVar Macro Action (Access custom web app)
+                href: access/setreturnvar-macro-action-access-custom-web-app.md
+            - name: Data entry operations (Access custom web app)
+              href: access/data-entry-operations-access-custom-web-app.md
+              items:
+              - name: DeleteRecord Macro Action (Access custom web app)
+                href: access/deleterecord-macro-action-access-custom-web-app.md
+              - name: EditRecord Macro Action (Access custom web app)
+                href: access/editrecord-macro-action-access-custom-web-app.md
+              - name: NewRecord Macro Action (Access custom web app)
+                href: access/newrecord-macro-action-access-custom-web-app.md
+              - name: SaveRecord Macro Action (Access custom web app)
+                href: access/saverecord-macro-action-access-custom-web-app.md
+              - name: UndoRecord Macro Action (Access custom web app)
+                href: access/undorecord-macro-action-access-custom-web-app.md
+            - name: Database objects (Access custom web app)
+              href: access/database-objects-access-custom-web-app.md
+              items:
+              - name: GoToControl Macro Action (Access custom web app)
+                href: access/gotocontrol-macro-action-access-custom-web-app.md
+              - name: GoToRecord Macro Action (Access custom web app)
+                href: access/gotorecord-macro-action-access-custom-web-app.md
+              - name: SetProperty Macro Action (Access custom web app)
+                href: access/setproperty-macro-action-access-custom-web-app.md
+            - name: Filter/query/search (Access custom web app)
+              href: access/filter-query-search-access-custom-web-app.md
+              items:
+              - name: RequeryRecords Macro Action (Access custom web app)
+                href: access/requeryrecords-macro-action-access-custom-web-app.md
+            - name: Macro commands (Access custom web app)
+              href: access/macro-commands-access-custom-web-app.md
+              items:
+              - name: RunDataMacro Macro Action (Access custom web app)
+                href: access/rundatamacro-macro-action-access-custom-web-app.md
+              - name: RunMacro Macro Action (Access custom web app)
+                href: access/runmacro-macro-action-access-custom-web-app.md
+              - name: SetVariable Macro Action (Access custom web app)
+                href: access/setvariable-macro-action-access-custom-web-app.md
+            - name: Program flow (Access custom web app)
+              href: access/program-flow-access-custom-web-app.md
+              items:
+              - name: Comment Macro Block (Access custom web app)
+                href: access/comment-macro-block-access-custom-web-app.md
+              - name: If...Then...Else Macro Block (Access custom web app)
+                href: access/ifthenelse-macro-block-access-custom-web-app.md
+              - name: Group Macro Block (Access custom web app)
+                href: access/group-macro-block-access-custom-web-app.md
+            - name: User interface commands (Access custom web app)
+              href: access/user-interface-commands-access-custom-web-app.md
+              items:
+              - name: ChangeView Macro Action (Access custom web app)
+                href: access/changeview-macro-action-access-custom-web-app.md
+              - name: ClosePopup Macro Action (Access custom web app)
+                href: access/closepopup-macro-action-access-custom-web-app.md
+              - name: MessageBox Macro Action (Access custom web app)
+                href: access/messagebox-macro-action-access-custom-web-app.md
+              - name: OpenPopup Macro Action (Access custom web app)
+                href: access/openpopup-macro-action-access-custom-web-app.md
+        - name: Access desktop database reference
+          href: https://msdn.microsoft.com/en-us/library/dn142571.aspx       
+     - name: Excel
+       href: 
+       items:
+        - name: Excel VBA reference
+          href: https://msdn.microsoft.com/en-us/library/office/ee861528.aspx
+        - name: Excel Primary Interop Assembly Reference
+          href: https://msdn.microsoft.com/en-us/library/office/ff597926.aspx
+        - name: Excel XLL SDK
+          href: excel-xll/welcome-to-the-excel-software-development-kit.md
+          items:
+          - name: Getting Started
+            href: excel-xll/getting-started-with-the-excel-xll-sdk.md
+            items:
+            - name: Programming with the C API in Excel
+              href: excel-xll/programming-with-the-c-api-in-excel.md
+            - name: What's New in the C API for Excel
+              href: excel-xll/what-s-new-in-the-c-api-for-excel.md
+            - name: Known Issues
+              href: excel-xll/known-issues-in-excel-xll-development.md
+          - name: Developing Excel XLLs
+            href: excel-xll/developing-excel-xlls.md
+            items:
+            - name: Excel Programming Concepts
+              href: excel-xll/excel-programming-concepts.md
+              items:
+              - name: Excel Commands, Functions, and States
+                href: excel-xll/excel-commands-functions-and-states.md
+              - name: Excel Worksheet and Expression Evaluation
+                href: excel-xll/excel-worksheet-and-expression-evaluation.md
+              - name: Worksheet References
+                href: excel-xll/worksheet-references.md
+              - name: Data Types Used by Excel
+                href: excel-xll/data-types-used-by-excel.md
+              - name: Excel Recalculation
+                href: excel-xll/excel-recalculation.md
+            - name: Working with DLLs
+              href: excel-xll/working-with-dlls.md
+              items:
+              - name: Developing DLLs
+                href: excel-xll/developing-dlls.md
+              - name: 'How to: Access DLLs in Excel'
+                href: excel-xll/how-to-access-dlls-in-excel.md
+              - name: Calling User-Defined Functions from DLLs
+                href: excel-xll/calling-user-defined-functions-from-dlls.md
+            - name: Accessing XLL Code in Excel
+              href: excel-xll/accessing-xll-code-in-excel.md
+            - name: 'How to: Call XLL Functions from the Function Wizard or Replace Dialog Boxes'
+              href: excel-xll/how-to-call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes.md
+            - name: Calling into Excel from the DLL or XLL
+              href: excel-xll/calling-into-excel-from-the-dll-or-xll.md
+            - name: Creating XLLs
+              href: excel-xll/creating-xlls.md
+            - name: Handling Events
+              href: excel-xll/handling-events.md
+            - name: Evaluating Names and Other Worksheet Formula Expressions
+              href: excel-xll/evaluating-names-and-other-worksheet-formula-expressions.md
+            - name: Multithreading and Memory Management
+              href: excel-xll/multithreading-and-memory-management.md
+              items:
+              - name: Memory Management in Excel
+                href: excel-xll/memory-management-in-excel.md
+              - name: Multithreading and Memory Contention in Excel
+                href: excel-xll/multithreading-and-memory-contention-in-excel.md
+              - name: Multithreaded Recalculation in Excel
+                href: excel-xll/multithreaded-recalculation-in-excel.md
+            - name: Asynchronous User-Defined Functions
+              href: excel-xll/asynchronous-user-defined-functions.md
+            - name: Cluster Safe Functions
+              href: excel-xll/cluster-safe-functions.md
+            - name: Permitting User Breaks in Lengthy Operations
+              href: excel-xll/permitting-user-breaks-in-lengthy-operations.md
+            - name: Displaying Dialog Boxes from Within a DLL or XLL
+              href: excel-xll/displaying-dialog-boxes-from-within-a-dll-or-xll.md
+            - name: 'How to: Access Excel Instance and Main Window Handles'
+              href: excel-xll/how-to-access-excel-instance-and-main-window-handles.md
+            - name: Backward Compatibility
+              href: excel-xll/backward-compatibility.md
+          - name: Developing Excel Cluster Connectors
+            href: excel-xll/developing-excel-cluster-connectors.md
+          - name: API Function Reference
+            href: https://msdn.microsoft.com/en-us/library/office/bb687837.aspx     
+        - name: Tips for optimizing performance obstructions
+          href: https://msdn.microsoft.com/en-us/library/office/mt709003.aspx         
      - name: Project
        href: project.md
        items:
@@ -395,89 +777,6 @@
                    href: https://msdn.microsoft.com/en-us/library/office/ee767707.aspx
                  - name: JavaScript API reference
                    href: https://msdn.microsoft.com/en-us/library/office/jj712612.aspx
-     - name: Excel
-       href: 
-       items:
-        - name: Excel VBA reference
-          href: https://msdn.microsoft.com/en-us/library/office/ee861528.aspx
-        - name: Excel Primary Interop Assembly Reference
-          href: https://msdn.microsoft.com/en-us/library/office/ff597926.aspx
-        - name: Excel XLL SDK
-          href: excel-xll/welcome-to-the-excel-software-development-kit.md
-          items:
-          - name: Getting Started
-            href: excel-xll/getting-started-with-the-excel-xll-sdk.md
-            items:
-            - name: Programming with the C API in Excel
-              href: excel-xll/programming-with-the-c-api-in-excel.md
-            - name: What's New in the C API for Excel
-              href: excel-xll/what-s-new-in-the-c-api-for-excel.md
-            - name: Known Issues
-              href: excel-xll/known-issues-in-excel-xll-development.md
-          - name: Developing Excel XLLs
-            href: excel-xll/developing-excel-xlls.md
-            items:
-            - name: Excel Programming Concepts
-              href: excel-xll/excel-programming-concepts.md
-              items:
-              - name: Excel Commands, Functions, and States
-                href: excel-xll/excel-commands-functions-and-states.md
-              - name: Excel Worksheet and Expression Evaluation
-                href: excel-xll/excel-worksheet-and-expression-evaluation.md
-              - name: Worksheet References
-                href: excel-xll/worksheet-references.md
-              - name: Data Types Used by Excel
-                href: excel-xll/data-types-used-by-excel.md
-              - name: Excel Recalculation
-                href: excel-xll/excel-recalculation.md
-            - name: Working with DLLs
-              href: excel-xll/working-with-dlls.md
-              items:
-              - name: Developing DLLs
-                href: excel-xll/developing-dlls.md
-              - name: 'How to: Access DLLs in Excel'
-                href: excel-xll/how-to-access-dlls-in-excel.md
-              - name: Calling User-Defined Functions from DLLs
-                href: excel-xll/calling-user-defined-functions-from-dlls.md
-            - name: Accessing XLL Code in Excel
-              href: excel-xll/accessing-xll-code-in-excel.md
-            - name: 'How to: Call XLL Functions from the Function Wizard or Replace Dialog Boxes'
-              href: excel-xll/how-to-call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes.md
-            - name: Calling into Excel from the DLL or XLL
-              href: excel-xll/calling-into-excel-from-the-dll-or-xll.md
-            - name: Creating XLLs
-              href: excel-xll/creating-xlls.md
-            - name: Handling Events
-              href: excel-xll/handling-events.md
-            - name: Evaluating Names and Other Worksheet Formula Expressions
-              href: excel-xll/evaluating-names-and-other-worksheet-formula-expressions.md
-            - name: Multithreading and Memory Management
-              href: excel-xll/multithreading-and-memory-management.md
-              items:
-              - name: Memory Management in Excel
-                href: excel-xll/memory-management-in-excel.md
-              - name: Multithreading and Memory Contention in Excel
-                href: excel-xll/multithreading-and-memory-contention-in-excel.md
-              - name: Multithreaded Recalculation in Excel
-                href: excel-xll/multithreaded-recalculation-in-excel.md
-            - name: Asynchronous User-Defined Functions
-              href: excel-xll/asynchronous-user-defined-functions.md
-            - name: Cluster Safe Functions
-              href: excel-xll/cluster-safe-functions.md
-            - name: Permitting User Breaks in Lengthy Operations
-              href: excel-xll/permitting-user-breaks-in-lengthy-operations.md
-            - name: Displaying Dialog Boxes from Within a DLL or XLL
-              href: excel-xll/displaying-dialog-boxes-from-within-a-dll-or-xll.md
-            - name: 'How to: Access Excel Instance and Main Window Handles'
-              href: excel-xll/how-to-access-excel-instance-and-main-window-handles.md
-            - name: Backward Compatibility
-              href: excel-xll/backward-compatibility.md
-          - name: Developing Excel Cluster Connectors
-            href: excel-xll/developing-excel-cluster-connectors.md
-          - name: API Function Reference
-            href: https://msdn.microsoft.com/en-us/library/office/bb687837.aspx     
-        - name: Tips for optimizing performance obstructions
-          href: https://msdn.microsoft.com/en-us/library/office/mt709003.aspx         
      - name: SwayURI
        href: swayuri.md
      - name: Office URI Schemes

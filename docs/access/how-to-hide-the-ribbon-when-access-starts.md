@@ -1,0 +1,52 @@
+---
+title: "How to Hide the Ribbon When Access Starts"
+ 
+ 
+manager: soliver
+ms.date: 7/29/2015
+ms.audience: Developer
+ms.topic: overview
+  
+localization_priority: Normal
+ms.assetid: f98bab58-8094-1c56-f70b-ced2e7849574
+description: "By default, Microsoft Access does not provide a method for hiding the ribbon. This topic describes how to load a customized ribbon that hides all of the built-in tabs."
+---
+
+# How to: Hide the Ribbon When Access Starts
+
+By default, Microsoft Access does not provide a method for hiding the ribbon. This topic describes how to load a customized ribbon that hides all of the built-in tabs.
+  
+To load the customized ribbon when Access starts, you should store its settings in a table named **USysRibbons**. 
+  
+ The **USysRibbons** table must be created using specific column names in order for the ribbon customizations to be implemented. The following table lists the settings to use when creating the **USysRibbons** table. 
+  
+|**Column Name**|**Data Type**|**Description**|
+|:-----|:-----|:-----|
+|**RibbonName** <br/> |Text  <br/> |Contains the name of the custom ribbon to be associated with this customization.  <br/> |
+|**RibbonXML** <br/> |Memo  <br/> |Contains the Ribbon Extensibility XML (RibbonX) that defines the ribbon customization.  <br/> |
+   
+The following table lists the ribbon customization settings to store in the **USysRibbons** table. 
+  
+|**Column Name**|**Value**|
+|:-----|:-----|
+|**RibbonName** <br/> |HideTheRibbon  <br/> |
+|**RibbonXML** <br/> |\<CustomUI xmlns="http://schemas.microsoft.com/office/2006/01/CustomUI"\> \<ribbon startFromScratch="true"/\>\</CustomUI\>  <br/> |
+   
+## Applying a Custom Ribbon When Access Starts
+
+To apply a custom ribbon so that it is available when the application starts, use the following procedure:
+  
+1. Follow the process described previously to make the customized ribbon available to the application.
+    
+2. Close and then restart the application.
+    
+3. Click the **Microsoft Office Button**![](media/O12FileMenuButton_ZA10077102.gif) and then click **Access Options**.
+    
+4. Click the **Current Database** option and then, in the **Ribbon and Toolbar Options** section, click the **Ribbon Name** list and select **HideTheRibbon**. 
+    
+5. Close and then restart the application.
+    
+> [!NOTE]
+> For more information about the ribbon UI in other Office applications, see [Overview of the Office Fluent Ribbon](http://msdn.microsoft.com/library/773c202c-f5f9-c4f6-f833-0dd56eb21a8f%28Office.15%29.aspx). 
+  
+

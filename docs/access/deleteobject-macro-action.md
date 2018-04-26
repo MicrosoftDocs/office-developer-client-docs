@@ -1,0 +1,44 @@
+---
+title: "DeleteObject Macro Action"
+  
+  
+manager: soliver
+ms.date: 7/29/2015
+ms.audience: Developer
+ 
+f1_keywords:
+- vbaac10.chm152112
+  
+localization_priority: Normal
+ms.assetid: a8deb2a7-4e73-8696-b8c1-3a3939d813f7
+description: "You can use the DeleteObject action to delete a specified database object."
+---
+
+# DeleteObject Macro Action
+
+You can use the **DeleteObject** action to delete a specified database object. 
+  
+> [!NOTE]
+> This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the **See Also** section of this article. 
+  
+## Setting
+
+The **DeleteObject** action has the following arguments. 
+  
+|**Action argument**|**Description**|
+|:-----|:-----|
+|**Object Type** <br/> |The type of object to delete. Click **Table**, **Query**, **Form**, **Report**, **Macro**, **Module**, **Data Access Page**, **Server View**, **Diagram**, **Stored Procedure**, or **Function** in the **Object Type** box in the **Action Arguments** section of the Macro Builder pane. To delete the object selected in the Navigation Pane, leave this argument blank.  <br/> |
+|**Object Name** <br/> |The name of the object to delete. The **Object Name** box shows all objects in the database of the type selected by the **Object Type** argument. If you leave the **Object Type** box blank, leave this box blank also. If you run a macro containing the **DeleteObject** action in a library database, Microsoft Office Access 2007 first looks for the object with this name in the library database, and then in the current database.  <br/> |
+   
+> [!CAUTION]
+> If you leave the **Object Type** and **Object Name** boxes blank, Access deletes the object selected in the Navigation Pane without displaying a warning message when it encounters the **DeleteObject** action. 
+  
+## Remarks
+
+You can use the **DeleteObject** action to delete temporary objects you have created while running the macro. For example, you could use the **OpenQuery** action to run a make-table query that creates a temporary table. When you are finished using the temporary table, you can use the **DeleteObject** action to delete it. 
+  
+This action has the same effect as selecting an object in the Navigation Pane and then pressing the DEL key, or right-clicking the object in the Navigation Pane and clicking **Delete**.
+  
+To run the **DeleteObject** action in a Visual Basic for Applications module, you can use the **DeleteObject** method of the **DoCmd** object. 
+  
+

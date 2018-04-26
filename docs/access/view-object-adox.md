@@ -1,0 +1,31 @@
+---
+title: "View Object (ADOX)"
+ 
+ 
+manager: soliver
+ms.date: 11/16/2014
+ms.audience: Developer
+ms.topic: reference
+  
+localization_priority: Normal
+ms.assetid: 3b2e9972-8a0d-eaa3-1c93-ae0665a47f02
+
+---
+
+# View Object (ADOX)
+
+Represents a filtered set of records or a virtual table. When used in conjunction with the ADO [Command](command-object-ado.md) object, the **View** object can be used for adding, deleting, or modifying views. 
+  
+## Remarks
+
+A view is a virtual table, created from other database tables or views. The **View** object allows you to create a view without having to know or use the provider's "CREATE VIEW" syntax. 
+  
+With the properties of a **View** object, you can: 
+  
+- Identify the view with the [Name](name-property-adox.md) property. 
+    
+- Specify the ADO **Command** object that can be used to add, delete, or modify views with the [Command](command-property-adox.md) property. 
+    
+- Return date information with the [DateCreated](datecreated-property-adox.md) and [DateModified](datemodified-property-adox.md) properties. 
+    
+
