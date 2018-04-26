@@ -36,9 +36,25 @@
     "externalReference": [],
     "globalMetadata": {
       "breadcrumb_path": "/office/client/breadcrumb/toc.json",
-      "extendBreadcrumb": true
+      "extendBreadcrumb": true,
+	  "ms.author": "o365devx", 
+	  "author": "o365devx",
+       "ms.topic": "conceptual",
+	   "ms.suite": "office" ,
+	   "ms.prod" : "office",
+	   "ms.technology" : ""
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+	"ms.technology": 
+       { 
+         
+       },
+	 "ms.prod": 
+       { 
+         
+       }
+	   
+	   },
     "template": [],
     "dest": "officedocs-dev-client-docs",
     "markdownEngineName": "markdig"
