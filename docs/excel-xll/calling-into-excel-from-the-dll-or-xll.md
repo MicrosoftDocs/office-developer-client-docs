@@ -64,7 +64,7 @@ All four of these functions return an integer value that informs the caller whet
 |4  <br/> |**xlretInvCount** <br/> |The number of arguments supplied in the call is not correct.  <br/> |
 |8  <br/> |**xlretInvXloper** <br/> |One or more of the argument **XLOPER** or **XLOPER12** values are not properly formed or populated.  <br/> |
 |16  <br/> |**xlretStackOvfl** <br/> |Excel detected a risk that the operation might overflow its stack and, therefore, did not call the function.  <br/> |
-|32  <br/> |**xlretFailed** <br/> |The command or function failed for a reason not described by one of the other return values. An operation that would require too much memory, for example, would fail with this error. This could happen during an attempt to convert a very large reference to an **xltypeMulti** array by using the [xlCoerce](http://msdn.microsoft.com/library/guid_9d47c16c-a7e7-4998-b594-9cf001827b7b%28Office.15%29.aspx) function.  <br/> |
+|32  <br/> |**xlretFailed** <br/> |The command or function failed for a reason not described by one of the other return values. An operation that would require too much memory, for example, would fail with this error. This could happen during an attempt to convert a very large reference to an **xltypeMulti** array by using the xlCoerce function.  <br/> |
 |64  <br/> |**xlretUncalced** <br/> |The operation attempted to retrieve the value of an uncalculated cell. To preserve recalculation integrity in Excel, worksheet functions are not permitted to do this. However, XLL commands and functions registered as macro sheet functions are permitted to access uncalculated cell values.  <br/> |
 |128  <br/> |**xlretNotThreadSafe** <br/> |(Starting in Excel 2007) An XLL worksheet function registered as thread safe attempted to call a C API function that is not thread safe. For example, a thread-safe function cannot call the XLM function **xlfGetCell**.  <br/> |
 |256  <br/> |**xlRetInvAsynchronousContext** <br/> |(Starting in Excel 2010) The asynchronous function handle is invalid.  <br/> |
@@ -72,7 +72,7 @@ All four of these functions return an integer value that informs the caller whet
    
 If the function returns one of the failure values in the table (that is, it does not return **xlretSuccess**), the **XLOPER** or **XLOPER12** return value will also be set to **#VALUE!**. In certain circumstances, checking for this might be a sufficient test of success, but you should note that a call can return both **xlretSuccess** and **#VALUE!**.
   
-If a call to the C API results in either **xlretUncalced** or **xlretAbort**, your DLL or XLL code should return control to Excel before making any other C API calls (other than calls to the [xlfree](http://msdn.microsoft.com/library/guid_8ce2eef2-0138-495d-b6cb-bbb727a3cda4%28Office.15%29.aspx) function to release Excel-allocated memory resources in **XLOPER** and **XLOPER12** values). 
+If a call to the C API results in either **xlretUncalced** or **xlretAbort**, your DLL or XLL code should return control to Excel before making any other C API calls (other than calls to the xlfree function to release Excel-allocated memory resources in **XLOPER** and **XLOPER12** values). 
   
 ### Command or Function Enumeration Argument: xlfn
 
@@ -164,7 +164,7 @@ Excel supports a small number of functions that are only accessible from a DLL o
 |:-----|:-----|:-----|
 |[xlFree](8ce2eef2-0138-495d-b6cb-bbb727a3cda4.md) <br/> |0 | xlSpecial  <br/> |Frees Excel-allocated memory resources.  <br/> |
 |[xlStack](xlstack.md) <br/> |1 | xlSpecial  <br/> |Returns the free space on the Excel stack.  <br/> |
-|[xlCoerce](9d47c16c-a7e7-4998-b594-9cf001827b7b.md) <br/> |2 | xlSpecial  <br/> |Converts between **XLOPER** and **XLOPER12** types  <br/> |
+|[xlCoerce](xlcoerce.md) <br/> |2 | xlSpecial  <br/> |Converts between **XLOPER** and **XLOPER12** types  <br/> |
 |[xlSet](xlset.md) <br/> |3 | xlSpecial  <br/> |Provides a fast method of setting cell values.  <br/> |
 |[xlSheetId](xlsheetid.md) <br/> |4 | xlSpecial  <br/> |Obtains a worksheet name from its internal ID.  <br/> |
 |[xlSheetNm](xlsheetnm.md) <br/> |5 | xlSpecial  <br/> |Obtains a worksheet internal ID from its name.  <br/> |
