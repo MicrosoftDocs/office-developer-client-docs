@@ -168,7 +168,7 @@
                 items:
                 - name: '- (Subtract) (Access custom web app)'
                   href: access/subtractaccess-custom-web-app.md
-                - name: '* (Multiply) (Access custom web app)'
+                - name: '\* (Multiply) (Access custom web app)'
                   href: access/multiplyaccess-custom-web-app.md
                 - name: / (Divide) (Access custom web app)
                   href: access/divideaccess-custom-web-app.md
@@ -179,17 +179,17 @@
               - name: Comparison Operators (Access custom web app)
                 href: access/comparison-operators-access-custom-web-app.md
                 items:
-                - name: '&lt; (Less Than) (Access custom web app)'
+                - name: '\< (Less Than) (Access custom web app)'
                   href: access/less-thanaccess-custom-web-app.md
-                - name: '&lt;= (Less Than or Equal To) (Access custom web app)'
+                - name: '\<= (Less Than or Equal To) (Access custom web app)'
                   href: access/equalsless-than-or-equal-toaccess-custom-web-app.md
-                - name: '&lt;&gt; (Not Equal To) (Access custom web app)'
+                - name: '\<> (Not Equal To) (Access custom web app)'
                   href: access/not-equal-toaccess-custom-web-app.md
                 - name: = (Equals) (Access custom web app)
                   href: access/equalsequalsaccess-custom-web-app.md
-                - name: '&gt; (Greater Than) (Access custom web app)'
+                - name: '\> (Greater Than) (Access custom web app)'
                   href: access/greater-thanaccess-custom-web-app.md
-                - name: '&gt;= (Greater Than or Equal To) (Access custom web app)'
+                - name: '\>= (Greater Than or Equal To) (Access custom web app)'
                   href: access/equalsgreater-than-or-equal-toaccess-custom-web-app.md
                 - name: BETWEEN (Access custom web app)
                   href: access/between-access-custom-web-app.md
