@@ -162,7 +162,7 @@ Excel supports a small number of functions that are only accessible from a DLL o
   
 ||||
 |:-----|:-----|:-----|
-|[xlFree](8ce2eef2-0138-495d-b6cb-bbb727a3cda4.md) <br/> |0 | xlSpecial  <br/> |Frees Excel-allocated memory resources.  <br/> |
+|[xlFree](xlfree.md) <br/> |0 | xlSpecial  <br/> |Frees Excel-allocated memory resources.  <br/> |
 |[xlStack](xlstack.md) <br/> |1 | xlSpecial  <br/> |Returns the free space on the Excel stack.  <br/> |
 |[xlCoerce](xlcoerce.md) <br/> |2 | xlSpecial  <br/> |Converts between **XLOPER** and **XLOPER12** types  <br/> |
 |[xlSet](xlset.md) <br/> |3 | xlSpecial  <br/> |Provides a fast method of setting cell values.  <br/> |
