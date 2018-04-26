@@ -18,383 +18,383 @@
                  - name: JavaScript API reference
                    href: https://msdn.microsoft.com/en-us/library/office/jj712612.aspx
                  - name: Conceptual and how-to articles
-                   href: project-conceptual-and-how-to-articles.md
+                   href: project/project-conceptual-and-how-to-articles.md
                    items:
                    - name: Updates for Project developers
-                     href: updates-for-developers-in-project-2013.md
+                     href: project/updates-for-developers-in-project-2013.md
                    - name: Architecture and programmability
-                     href: project-server-2013-architecture-and-programmability.md
+                     href: project/project-server-2013-architecture-and-programmability.md
                      items:
                      - name: Project Server architecture
-                       href: project-server-2013-architecture.md
+                       href: project/project-server-2013-architecture.md
                      - name: Project Server programmability
-                       href: project-server-programmability.md
+                       href: project/project-server-programmability.md
                      - name: What the PSI does and does not do
-                       href: what-the-psi-does-and-does-not-do.md
+                       href: project/what-the-psi-does-and-does-not-do.md
                      - name: What the CSOM does and does not do
-                       href: what-the-csom-does-and-does-not-do.md
+                       href: project/what-the-csom-does-and-does-not-do.md
                    - name: Client-side object model (CSOM) for Project
-                     href: client-side-object-model-csom-for-project-2013.md
+                     href: project/client-side-object-model-csom-for-project-2013.md
                      items:
                      - name: Getting started with the CSOM and .NET
-                       href: getting-started-with-the-project-server-csom-and-net.md
+                       href: project/getting-started-with-the-project-server-csom-and-net.md
                      - name: Getting started with the JavaScript object model
-                       href: getting-started-with-the-project-server-2013-javascript-object-model.md
+                       href: project/getting-started-with-the-project-server-2013-javascript-object-model.md
                      - name: Developing a Project Online application
-                       href: developing-a-project-online-application-using-the-client-side-object-model.md
+                       href: project/developing-a-project-online-application-using-the-client-side-object-model.md
                      - name: Accessing Project Online enterprise custom fields
-                       href: accessing-project-online-enterprise-custom-fields.md
+                       href: project/accessing-project-online-enterprise-custom-fields.md
                      - name: From 0 to 60 with Project Online
-                       href: from-0-to-60-with-project-online.md
+                       href: project/from-0-to-60-with-project-online.md
                      - name: Developing a Project Online add-in using JSOM
-                       href: developing-a-project-online-add-in-using-the-javascript-object-model-jsom.md
+                       href: project/developing-a-project-online-add-in-using-the-javascript-object-model-jsom.md
                    - name: Project client programming
-                     href: project-client-programming.md
+                     href: project/project-client-programming.md
                    - name: Project programming tasks
-                     href: project-programming-tasks.md
+                     href: project/project-programming-tasks.md
                      items:
                      - name: Getting started developing Project Server workflows
-                       href: getting-started-developing-project-server-workflows.md
+                       href: project/getting-started-developing-project-server-workflows.md
                        items:
                        - name: Create a Project Server workflow for Demand Management
-                         href: create-a-project-server-workflow-for-demand-management.md
+                         href: project/create-a-project-server-workflow-for-demand-management.md
                      - name: Bulk update custom fields and create project sites from a workflow in Project Online
-                       href: bulk-update-custom-fields-and-create-project-sites-from-a-workflow-in-project-on.md
+                       href: project/bulk-update-custom-fields-and-create-project-sites-from-a-workflow-in-project-on.md
                      - name: Work with projects by using the JavaScript object model
-                       href: create-retrieve-update-and-delete-projects-by-using-the-project-server-javascrip.md
+                       href: project/create-retrieve-update-and-delete-projects-by-using-the-project-server-javascrip.md
                      - name: Create a SharePoint-hosted Project Server add-in
-                       href: create-a-sharepoint-hosted-project-server-add-in.md
+                       href: project/create-a-sharepoint-hosted-project-server-add-in.md
                      - name: Get the project ID in an add-in part on a Project Details Page
-                       href: get-the-project-id-in-an-add-in-part-on-a-project-details-page.md
+                       href: project/get-the-project-id-in-an-add-in-part-on-a-project-details-page.md
                    - name: Programming references
-                     href: project-2013-programming-references.md
+                     href: project/project-2013-programming-references.md
                      items:
                      - name: PSI reference overview
-                       href: project-psi-reference-overview.md
+                       href: project/project-psi-reference-overview.md
                      - name: Prerequisites for ASMX-based code samples
-                       href: prerequisites-for-asmx-based-code-samples-in-project.md
+                       href: project/prerequisites-for-asmx-based-code-samples-in-project.md
                      - name: Prerequisites for WCF-based code samples
-                       href: prerequisites-for-wcf-based-code-samples-in-project.md
+                       href: project/prerequisites-for-wcf-based-code-samples-in-project.md
                      - name: Project Server error codes
-                       href: project-server-error-codes.md
+                       href: project/project-server-error-codes.md
                      - name: ProjectData - OData service reference
-                       href: projectdataproject-odata-service-reference.md
+                       href: project/projectdataproject-odata-service-reference.md
                        items:
                        - name: Querying OData feeds for Project reporting data
-                         href: querying-odata-feeds-for-project-reporting-data.md
+                         href: project/querying-odata-feeds-for-project-reporting-data.md
                        - name: Best practices for querying OData feeds for reporting data
-                         href: best-practices-for-querying-odata-feeds-for-project-reporting-data.md
+                         href: project/best-practices-for-querying-odata-feeds-for-project-reporting-data.md
                        - name: Replicate Project Online Reporting Data to a SQL Server database using the OData protocol
-                         href: replicate-project-online-reporting-data-to-a-sql-server-database-using-the-odata.md
+                         href: project/replicate-project-online-reporting-data-to-a-sql-server-database-using-the-odata.md
                        - name: 'Project Online: SSIS package for OData delta sync'
-                         href: project-online-ssis-package-for-odata-delta-sync.md
+                         href: project/project-online-ssis-package-for-odata-delta-sync.md
                        - name: 'Schema: ReportingData'
-                         href: schema-reportingdata-projectdata-service.md
+                         href: project/schema-reportingdata-projectdata-service.md
                          items:
                          - name: 'EntityType: Assignment'
-                           href: entitytype-assignment-projectdata-service.md
+                           href: project/entitytype-assignment-projectdata-service.md
                          - name: 'EntityType: AssignmentBaseline'
-                           href: entitytype-assignmentbaseline-projectdata-service.md
+                           href: project/entitytype-assignmentbaseline-projectdata-service.md
                          - name: 'EntityType: AssignmentBaselineTimephasedData'
-                           href: entitytype-assignmentbaselinetimephaseddata-projectdata-service.md
+                           href: project/entitytype-assignmentbaselinetimephaseddata-projectdata-service.md
                          - name: 'EntityType: AssignmentTimephasedData'
-                           href: entitytype-assignmenttimephaseddata-projectdata-service.md
+                           href: project/entitytype-assignmenttimephaseddata-projectdata-service.md
                          - name: 'EntityType: BusinessDriver'
-                           href: entitytype-businessdriver-projectdata-service.md
+                           href: project/entitytype-businessdriver-projectdata-service.md
                          - name: 'EntityType: BusinessDriverDepartment'
-                           href: entitytype-businessdriverdepartment-projectdata-service.md
+                           href: project/entitytype-businessdriverdepartment-projectdata-service.md
                          - name: 'EntityType: CostConstraintScenario'
-                           href: entitytype-costconstraintscenario-projectdata-service.md
+                           href: project/entitytype-costconstraintscenario-projectdata-service.md
                          - name: 'EntityType: CostScenarioProject'
-                           href: entitytype-costscenarioproject-projectdata-service.md
+                           href: project/entitytype-costscenarioproject-projectdata-service.md
                          - name: 'EntityType: Deliverable'
-                           href: entitytype-deliverable-projectdata-service.md
+                           href: project/entitytype-deliverable-projectdata-service.md
                          - name: 'EntityType: Issue'
-                           href: entitytype-issue-projectdata-service.md
+                           href: project/entitytype-issue-projectdata-service.md
                          - name: 'EntityType: IssueTaskAssociation'
-                           href: entitytype-issuetaskassociation-projectdata-service.md
+                           href: project/entitytype-issuetaskassociation-projectdata-service.md
                          - name: 'EntityType: PortfolioAnalysis'
-                           href: entitytype-portfolioanalysis-projectdata-service.md
+                           href: project/entitytype-portfolioanalysis-projectdata-service.md
                          - name: 'EntityType: PortfolioAnalysisProject'
-                           href: entitytype-portfolioanalysisproject-projectdata-service.md
+                           href: project/entitytype-portfolioanalysisproject-projectdata-service.md
                          - name: 'EntityType: Prioritization'
-                           href: entitytype-prioritization-projectdata-service.md
+                           href: project/entitytype-prioritization-projectdata-service.md
                          - name: 'EntityType: PrioritizationDriver'
-                           href: entitytype-prioritizationdriver-projectdata-service.md
+                           href: project/entitytype-prioritizationdriver-projectdata-service.md
                          - name: 'EntityType: PrioritizationDriverRelation'
-                           href: entitytype-prioritizationdriverrelation-projectdata-service.md
+                           href: project/entitytype-prioritizationdriverrelation-projectdata-service.md
                          - name: 'EntityType: Project'
-                           href: entitytype-project-projectdata-service.md
+                           href: project/entitytype-project-projectdata-service.md
                          - name: 'EntityType: ProjectBaseline'
-                           href: entitytype-projectbaseline-projectdata-service.md
+                           href: project/entitytype-projectbaseline-projectdata-service.md
                          - name: 'EntityType: ProjectWorkflowStageData'
-                           href: entitytype-projectworkflowstagedata-projectdata-service.md
+                           href: project/entitytype-projectworkflowstagedata-projectdata-service.md
                          - name: 'EntityType: Resource'
-                           href: entitytype-resource-projectdata-service.md
+                           href: project/entitytype-resource-projectdata-service.md
                          - name: 'EntityType: ResourceConstraintScenario'
-                           href: entitytype-resourceconstraintscenario-projectdata-service.md
+                           href: project/entitytype-resourceconstraintscenario-projectdata-service.md
                          - name: 'EntityType: ResourceScenarioProject'
-                           href: entitytype-resourcescenarioproject-projectdata-service.md
+                           href: project/entitytype-resourcescenarioproject-projectdata-service.md
                          - name: 'EntityType: ResourceTimephasedData'
-                           href: entitytype-resourcetimephaseddata-projectdata-service.md
+                           href: project/entitytype-resourcetimephaseddata-projectdata-service.md
                          - name: 'EntityType: Risk'
-                           href: entitytype-risk-projectdata-service.md
+                           href: project/entitytype-risk-projectdata-service.md
                          - name: 'EntityType: RiskTaskAssociation'
-                           href: entitytype-risktaskassociation-projectdata-service.md
+                           href: project/entitytype-risktaskassociation-projectdata-service.md
                          - name: 'EntityType: Task'
-                           href: entitytype-task-projectdata-service.md
+                           href: project/entitytype-task-projectdata-service.md
                          - name: 'EntityType: TaskBaseline'
-                           href: entitytype-taskbaseline-projectdata-service.md
+                           href: project/entitytype-taskbaseline-projectdata-service.md
                          - name: 'EntityType: TaskBaselineTimephasedData'
-                           href: entitytype-taskbaselinetimephaseddata-projectdata-service.md
+                           href: project/entitytype-taskbaselinetimephaseddata-projectdata-service.md
                          - name: 'EntityType: TaskTimephasedData'
-                           href: entitytype-tasktimephaseddata-projectdata-service.md
+                           href: project/entitytype-tasktimephaseddata-projectdata-service.md
                          - name: 'EntityType: Time'
-                           href: entitytype-time-projectdata-service.md
+                           href: project/entitytype-time-projectdata-service.md
                          - name: 'EntityType: Timesheet'
-                           href: entitytype-timesheet-projectdata-service.md
+                           href: project/entitytype-timesheet-projectdata-service.md
                          - name: 'EntityType: TimesheetClass'
-                           href: entitytype-timesheetclass-projectdata-service.md
+                           href: project/entitytype-timesheetclass-projectdata-service.md
                          - name: 'EntityType: TimesheetLine'
-                           href: entitytype-timesheetline-projectdata-service.md
+                           href: project/entitytype-timesheetline-projectdata-service.md
                          - name: 'EntityType: TimesheetLineActualData'
-                           href: entitytype-timesheetlineactualdata-projectdata-service.md
+                           href: project/entitytype-timesheetlineactualdata-projectdata-service.md
                          - name: 'EntityType: TimesheetPeriod'
-                           href: entitytype-element-timesheetperiod-projectserverdata-service.md
+                           href: project/entitytype-element-timesheetperiod-projectserverdata-service.md
                          - name: 'Association: Assignment_Resource_Resource_Assignments'
-                           href: association-element-assignment_resource-projectserverdata-service.md
+                           href: project/association-element-assignment_resource-projectserverdata-service.md
                          - name: 'Association: Assignment_Task_Task_Assignments'
-                           href: association-assignment_task_task_assignments-projectdata-service.md
+                           href: project/association-assignment_task_task_assignments-projectdata-service.md
                          - name: 'Association: AssignmentBaseline_Assignment_Assignment_Baseline'
-                           href: association-assignmentbaseline_assignment_assignment_baseline-projectdata-servic.md
+                           href: project/association-assignmentbaseline_assignment_assignment_baseline-projectdata-servic.md
                          - name: 'Association: AssignmentBaseline_AssignmentBaselineTimephasedDataSet_AssignmentBaselineTimephasedData_Baseline'
-                           href: association-assignmentbaseline_assignmentbaselinetimephaseddataset_assignmentbas.md
+                           href: project/association-assignmentbaseline_assignmentbaselinetimephaseddataset_assignmentbas.md
                          - name: 'Association: AssignmentBaseline_Task_Task_AssignmentsBaselines'
-                           href: association-element-assignmentbaseline_task-projectserverdata-service.md
+                           href: project/association-element-assignmentbaseline_task-projectserverdata-service.md
                          - name: 'Association: AssignmentBaselineTimephasedData_Assignment'
-                           href: association-assignmentbaselinetimephaseddata_assignment-projectdata-service.md
+                           href: project/association-assignmentbaselinetimephaseddata_assignment-projectdata-service.md
                          - name: 'Association: AssignmentBaselineTimephasedData_Project'
-                           href: association-element-assignmentbaselinetimephaseddata_project-projectserverdata-s.md
+                           href: project/association-element-assignmentbaselinetimephaseddata_project-projectserverdata-s.md
                          - name: 'Association: AssignmentBaselineTimephasedData_Tasks_Task_AssignmentsBaselineTimephasedData'
-                           href: association-assignmentbaselinetimephaseddata_tasks_task_assignmentsbaselinetimep.md
+                           href: project/association-assignmentbaselinetimephaseddata_tasks_task_assignmentsbaselinetimep.md
                          - name: 'Association: AssignmentTimephasedData_Assignment_Assignment_TimephasedData'
-                           href: association-element-assignment_timephaseddata-projectserverdata-service.md
+                           href: project/association-element-assignment_timephaseddata-projectserverdata-service.md
                          - name: 'Association: AssignmentTimephasedData_Project'
-                           href: association-assignmenttimephaseddata_project-projectdata-service.md
+                           href: project/association-assignmenttimephaseddata_project-projectdata-service.md
                          - name: 'Association: AssignmentTimephasedData_Task'
-                           href: association-element-assignmenttimephaseddata_task-projectserverdata-service.md
+                           href: project/association-element-assignmenttimephaseddata_task-projectserverdata-service.md
                          - name: 'Association: BusinessDriver_CreatedByResource'
-                           href: association-businessdriver_createdbyresource-projectdata-service.md
+                           href: project/association-businessdriver_createdbyresource-projectdata-service.md
                          - name: 'Association: BusinessDriver_Departments_BusinessDriverDepartment_BusinessDriver'
-                           href: association-element-businessdriver_departments-projectserverdata-service.md
+                           href: project/association-element-businessdriver_departments-projectserverdata-service.md
                          - name: 'Association: BusinessDriver_ModifiedByResource'
-                           href: association-businessdriver_modifiedbyresource-projectdata-service.md
+                           href: project/association-businessdriver_modifiedbyresource-projectdata-service.md
                          - name: 'Association: CostConstraintScenario_CostScenarioProjects_CostScenarioProject_CostConstraintScenario'
-                           href: association-costconstraintscenario_costscenarioprojects_costscenarioproject_cost.md
+                           href: project/association-costconstraintscenario_costscenarioprojects_costscenarioproject_cost.md
                          - name: 'Association: CostConstraintScenario_CreatedByResource'
-                           href: association-costconstraintscenario_createdbyresource-projectdata-service.md
+                           href: project/association-costconstraintscenario_createdbyresource-projectdata-service.md
                          - name: 'Association: CostConstraintScenario_ModifiedByResource'
-                           href: association-costconstraintscenario_modifiedbyresource-projectdata-service.md
+                           href: project/association-costconstraintscenario_modifiedbyresource-projectdata-service.md
                          - name: 'Association: CostConstraintScenario_ResourceConstraintScenarios_ResourceConstraintScenario_CostConstraintScenario'
-                           href: association-costconstraintscenario_resourceconstraintscenarios_resourceconstrain.md
+                           href: project/association-costconstraintscenario_resourceconstraintscenarios_resourceconstrain.md
                          - name: 'Association: CostScenarioProject_Analysis'
-                           href: association-costscenarioproject_analysis-projectdata-service.md
+                           href: project/association-costscenarioproject_analysis-projectdata-service.md
                          - name: 'Association: CostScenarioProject_Project'
-                           href: association-costscenarioproject_project-projectdata-service.md
+                           href: project/association-costscenarioproject_project-projectdata-service.md
                          - name: 'Association: Deliverable_DependentTasks'
-                           href: association-deliverable_dependenttasks-projectdata-service.md
+                           href: project/association-deliverable_dependenttasks-projectdata-service.md
                          - name: 'Association: Deliverable_ParentProjects'
-                           href: association-element-deliverable_parentprojects-projectserverdata-service.md
+                           href: project/association-element-deliverable_parentprojects-projectserverdata-service.md
                          - name: 'Association: Deliverable_ParentTasks'
-                           href: association-deliverable_parenttasks-projectdata-service.md
+                           href: project/association-deliverable_parenttasks-projectdata-service.md
                          - name: 'Association: Issue_RelatedRisks_Risk_RelatedIssues'
-                           href: association-element-issue_relatedrisks-projectserverdata-service.md
+                           href: project/association-element-issue_relatedrisks-projectserverdata-service.md
                          - name: 'Association: Issue_SubIssues'
-                           href: association-issue_subissues-projectdata-service.md
+                           href: project/association-issue_subissues-projectdata-service.md
                          - name: 'Association: PortfolioAnalysis_AnalysisProjects_PortfolioAnalysisProject_Analysis'
-                           href: association-element-portfolioanalysis_analysisprojects-projectserverdata-service.md
+                           href: project/association-element-portfolioanalysis_analysisprojects-projectserverdata-service.md
                          - name: 'Association: PortfolioAnalysis_CostConstraintScenarios_CostConstraintScenario_Analysis'
-                           href: association-portfolioanalysis_costconstraintscenarios_costconstraintscenario_ana.md
+                           href: project/association-portfolioanalysis_costconstraintscenarios_costconstraintscenario_ana.md
                          - name: 'Association: PortfolioAnalysis_CreatedByResource'
-                           href: association-portfolioanalysis_createdbyresource-projectdata-service.md
+                           href: project/association-portfolioanalysis_createdbyresource-projectdata-service.md
                          - name: 'Association: PortfolioAnalysis_ModifiedByResource'
-                           href: association-element-portfolioanalysis_modifiedbyresource-projectserverdata-servi.md
+                           href: project/association-element-portfolioanalysis_modifiedbyresource-projectserverdata-servi.md
                          - name: 'Association: PortfolioAnalysis_Prioritization'
-                           href: association-element-portfolioanalysis_prioritization-projectserverdata-service.md
+                           href: project/association-element-portfolioanalysis_prioritization-projectserverdata-service.md
                          - name: 'Association: PortfolioAnalysis_ResourceConstraintScenarios_ResourceConstraintScenario_Analysis'
-                           href: association-element-portfolioanalysis_resourceconstraintscenarios-projectserverd.md
+                           href: project/association-element-portfolioanalysis_resourceconstraintscenarios-projectserverd.md
                          - name: 'Association: PortfolioAnalysisProject_Project'
-                           href: association-portfolioanalysisproject_project-projectdata-service.md
+                           href: project/association-portfolioanalysisproject_project-projectdata-service.md
                          - name: 'Association: Prioritization_CreatedByResource'
-                           href: association-element-prioritization_createdbyresource-projectserverdata-service.md
+                           href: project/association-element-prioritization_createdbyresource-projectserverdata-service.md
                          - name: 'Association: Prioritization_ModifiedByResource'
-                           href: association-element-prioritization_modifiedbyresource-projectserverdata-service.md
+                           href: project/association-element-prioritization_modifiedbyresource-projectserverdata-service.md
                          - name: 'Association: Prioritization_PrioritizationDriverRelations_PrioritizationDriverRelation_Prioritization'
-                           href: association-prioritization_prioritizationdriverrelations_prioritizationdriverrel.md
+                           href: project/association-prioritization_prioritizationdriverrelations_prioritizationdriverrel.md
                          - name: 'Association: Prioritization_PrioritizationDrivers_PrioritizationDriver_Prioritization'
-                           href: association-prioritization_prioritizationdrivers_prioritizationdriver_prioritiza.md
+                           href: project/association-prioritization_prioritizationdrivers_prioritizationdriver_prioritiza.md
                          - name: 'Association: PrioritizationDriver_BusinessDriver'
-                           href: association-prioritizationdriver_businessdriver-projectdata-service.md
+                           href: project/association-prioritizationdriver_businessdriver-projectdata-service.md
                          - name: 'Association: PrioritizationDriverRelation_BusinessDriver1'
-                           href: association-element-prioritizationdriverrelation_businessdriver1-projectserverda.md
+                           href: project/association-element-prioritizationdriverrelation_businessdriver1-projectserverda.md
                          - name: 'Association: PrioritizationDriverRelation_BusinessDriver2'
-                           href: association-prioritizationdriverrelation_businessdriver2-projectdata-service.md
+                           href: project/association-prioritizationdriverrelation_businessdriver2-projectdata-service.md
                          - name: 'Association: Project_AssignmentBaselines_AssignmentBaseline_Project'
-                           href: association-element-project_assignmentbaselines-projectserverdata-service.md
+                           href: project/association-element-project_assignmentbaselines-projectserverdata-service.md
                          - name: 'Association: Project_Assignments_Assignment_Project'
-                           href: association-project_assignments_assignment_project-projectdata-service.md
+                           href: project/association-project_assignments_assignment_project-projectdata-service.md
                          - name: 'Association: Project_Deliverables_Deliverable_Project'
-                           href: association-element-project_deliverables-projectserverdata-service.md
+                           href: project/association-element-project_deliverables-projectserverdata-service.md
                          - name: 'Association: Project_Dependencies_Deliverable_DependentProjects'
-                           href: association-project_dependencies_deliverable_dependentprojects-projectdata-servi.md
+                           href: project/association-project_dependencies_deliverable_dependentprojects-projectdata-servi.md
                          - name: 'Association: Project_Issues_Issue_Project'
-                           href: association-element-project_issues-projectserverdata-service.md
+                           href: project/association-element-project_issues-projectserverdata-service.md
                          - name: 'Association: Project_Risks_Risk_Project'
-                           href: association-element-project_risks-projectserverdata-service.md
+                           href: project/association-element-project_risks-projectserverdata-service.md
                          - name: 'Association: Project_StagesInfo_ProjectWorkflowStageData_Project'
-                           href: association-project_stagesinfo_projectworkflowstagedata_project-projectdata-serv.md
+                           href: project/association-project_stagesinfo_projectworkflowstagedata_project-projectdata-serv.md
                          - name: 'Association: Project_Tasks_Task_Project'
-                           href: association-project_tasks_task_project-projectdata-service.md
+                           href: project/association-project_tasks_task_project-projectdata-service.md
                          - name: 'Association: ProjectBaseline_Project'
-                           href: association-element-projectbaseline_project-projectserverdata-service.md
+                           href: project/association-element-projectbaseline_project-projectserverdata-service.md
                          - name: 'Association: ResourceConstraintScenario_CreatedByResource'
-                           href: association-resourceconstraintscenario_createdbyresource-projectdata-service.md
+                           href: project/association-resourceconstraintscenario_createdbyresource-projectdata-service.md
                          - name: 'Association: ResourceConstraintScenario_ModifiedByResource'
-                           href: association-resourceconstraintscenario_modifiedbyresource-projectdata-service.md
+                           href: project/association-resourceconstraintscenario_modifiedbyresource-projectdata-service.md
                          - name: 'Association: ResourceConstraintScenario_ResourceScenarioProjects_ResourceScenarioProject_ResourceConstraintScenario'
-                           href: association-element-resourceconstraintscenario_resourcescenarioprojects-projects.md
+                           href: project/association-element-resourceconstraintscenario_resourcescenarioprojects-projects.md
                          - name: 'Association: ResourceScenarioProject_Analysis'
-                           href: association-element-resourcescenarioproject_analysis-projectserverdata-service.md
+                           href: project/association-element-resourcescenarioproject_analysis-projectserverdata-service.md
                          - name: 'Association: ResourceScenarioProject_CostConstraintScenario'
-                           href: association-resourcescenarioproject_costconstraintscenario-projectdata-service.md
+                           href: project/association-resourcescenarioproject_costconstraintscenario-projectdata-service.md
                          - name: 'Association: ResourceScenarioProject_Project'
-                           href: association-element-resourcescenarioproject_project-projectserverdata-service.md
+                           href: project/association-element-resourcescenarioproject_project-projectserverdata-service.md
                          - name: 'Association: ResourceTimephasedData_Resource_Resource_TimephasedInfoDataSet'
-                           href: association-resourcetimephaseddata_resource_resource_timephasedinfodataset-proje.md
+                           href: project/association-resourcetimephaseddata_resource_resource_timephasedinfodataset-proje.md
                          - name: 'Association: Risk_SubRisks'
-                           href: association-element-risk_subrisks-projectserverdata-service.md
+                           href: project/association-element-risk_subrisks-projectserverdata-service.md
                          - name: 'Association: Risk_Tasks_Task_Risks'
-                           href: association-element-risk_trigeringtasks-projectserverdata-service.md
+                           href: project/association-element-risk_trigeringtasks-projectserverdata-service.md
                          - name: 'Association: TaskBaseline_Project'
-                           href: association-element-taskbaseline_project-projectserverdata-service.md
+                           href: project/association-element-taskbaseline_project-projectserverdata-service.md
                          - name: 'Association: TaskBaseline_Task_Task_Baselines'
-                           href: association-element-taskbaseline_task-projectserverdata-service.md
+                           href: project/association-element-taskbaseline_task-projectserverdata-service.md
                          - name: 'Association: TaskBaseline_TaskBaselineTimephasedDataSet_TaskBaselineTimephasedData_TaskBaselines'
-                           href: association-taskbaseline_taskbaselinetimephaseddataset_taskbaselinetimephaseddat.md
+                           href: project/association-taskbaseline_taskbaselinetimephaseddataset_taskbaselinetimephaseddat.md
                          - name: 'Association: TaskBaselineTimephasedData_Project'
-                           href: association-element-taskbaselinetimephaseddata_project-projectserverdata-service.md
+                           href: project/association-element-taskbaselinetimephaseddata_project-projectserverdata-service.md
                          - name: 'Association: TaskBaselineTimephasedData_Task_Task_BaselinesTimephasedDataSet'
-                           href: association-taskbaselinetimephaseddata_task_task_baselinestimephaseddataset-proj.md
+                           href: project/association-taskbaselinetimephaseddata_task_task_baselinestimephaseddataset-proj.md
                          - name: 'Association: TaskTimephasedData_Project'
-                           href: association-tasktimephaseddata_project-projectdata-service.md
+                           href: project/association-tasktimephaseddata_project-projectdata-service.md
                          - name: 'Association: TaskTimephasedData_Task_Task_TimephasedInfo'
-                           href: association-tasktimephaseddata_task_task_timephasedinfo-projectdata-service.md
+                           href: project/association-tasktimephaseddata_task_task_timephasedinfo-projectdata-service.md
                          - name: 'Association: Timesheet_Periods'
-                           href: association-element-timesheet_periods-projectserverdata-service.md
+                           href: project/association-element-timesheet_periods-projectserverdata-service.md
                          - name: 'Association: TimesheetLine_Actuals_TimesheetLineActualData_TimesheetLine'
-                           href: association-element-timesheetline_actuals-projectserverdata-service.md
+                           href: project/association-element-timesheetline_actuals-projectserverdata-service.md
                          - name: 'Association: TimesheetLine_ApproverResource'
-                           href: association-timesheetline_approverresource-projectdata-service.md
+                           href: project/association-timesheetline_approverresource-projectdata-service.md
                          - name: 'Association: TimesheetLine_Timesheet_Timesheet_Lines'
-                           href: association-timesheetline_timesheet_timesheet_lines-projectdata-service.md
+                           href: project/association-timesheetline_timesheet_timesheet_lines-projectdata-service.md
                          - name: 'Association: TimesheetLine_TimesheetClass'
-                           href: association-element-timesheetline_timesheetclass-projectserverdata-service.md
+                           href: project/association-element-timesheetline_timesheetclass-projectserverdata-service.md
                          - name: 'Association: TimesheetLineActualData_LastChangedByResource'
-                           href: association-timesheetlineactualdata_lastchangedbyresource-projectdata-service.md
+                           href: project/association-timesheetlineactualdata_lastchangedbyresource-projectdata-service.md
                          - name: 'Association: TimesheetLineActualData_Time'
-                           href: association-element-timesheetlineactualdata_time-projectserverdata-service.md
+                           href: project/association-element-timesheetlineactualdata_time-projectserverdata-service.md
                          - name: 'Association: IssueTaskAssociation_Issue'
-                           href: association-issuetaskassociation_issue-projectdata-service.md
+                           href: project/association-issuetaskassociation_issue-projectdata-service.md
                          - name: 'Association: IssueTaskAssociation_Task'
-                           href: association-issuetaskassociation_task-projectdata-service.md
+                           href: project/association-issuetaskassociation_task-projectdata-service.md
                          - name: 'Association: IssueTaskAssociation_Project'
-                           href: association-issuetaskassociation_project-projectdata-service.md
+                           href: project/association-issuetaskassociation_project-projectdata-service.md
                          - name: 'Association: IssueTaskAssociation_RelatedProject'
-                           href: association-issuetaskassociation_relatedproject-projectdata-service.md
+                           href: project/association-issuetaskassociation_relatedproject-projectdata-service.md
                          - name: 'Association: RiskTaskAssociation_Risk'
-                           href: association-risktaskassociation_risk-projectdata-service.md
+                           href: project/association-risktaskassociation_risk-projectdata-service.md
                          - name: 'Association: RiskTaskAssociation_Task'
-                           href: association-risktaskassociation_task-projectdata-service.md
+                           href: project/association-risktaskassociation_task-projectdata-service.md
                          - name: 'Association: RiskTaskAssociation_Project'
-                           href: association-risktaskassociation_project-projectdata-service.md
+                           href: project/association-risktaskassociation_project-projectdata-service.md
                          - name: 'Association: RiskTaskAssociation_RelatedProject'
-                           href: association-risktaskassociation_relatedproject-projectdata-service.md
+                           href: project/association-risktaskassociation_relatedproject-projectdata-service.md
                        - name: 'Schema: Microsoft.Office.Project.Server'
-                         href: schema-microsoft-office-project-server-projectdata-service.md
+                         href: project/schema-microsoft-office-project-server-projectdata-service.md
                          items:
                          - name: 'EntityContainer: ReportingData'
-                           href: entitycontainer-reportingdata-projectdata-service.md
+                           href: project/entitycontainer-reportingdata-projectdata-service.md
                            items:
                            - name: 'EntitySet: AssignmentBaselines'
-                             href: entityset-assignmentbaselines-projectdata-service.md
+                             href: project/entityset-assignmentbaselines-projectdata-service.md
                            - name: 'EntitySet: AssignmentBaselineTimephasedDataSet'
-                             href: entityset-assignmentbaselinetimephaseddataset-projectdata-service.md
+                             href: project/entityset-assignmentbaselinetimephaseddataset-projectdata-service.md
                            - name: 'EntitySet: Assignments'
-                             href: entityset-assignments-projectdata-service.md
+                             href: project/entityset-assignments-projectdata-service.md
                            - name: 'EntitySet: AssignmentTimephasedDataSet'
-                             href: entityset-assignmenttimephaseddataset-projectdata-service.md
+                             href: project/entityset-assignmenttimephaseddataset-projectdata-service.md
                            - name: 'EntitySet: BusinessDriverDepartments'
-                             href: entityset-businessdriverdepartments-projectdata-service.md
+                             href: project/entityset-businessdriverdepartments-projectdata-service.md
                            - name: 'EntitySet: BusinessDrivers'
-                             href: entityset-businessdrivers-projectdata-service.md
+                             href: project/entityset-businessdrivers-projectdata-service.md
                            - name: 'EntitySet: CostConstraintScenarios'
-                             href: entityset-costconstraintscenarios-projectdata-service.md
+                             href: project/entityset-costconstraintscenarios-projectdata-service.md
                            - name: 'EntitySet: CostScenarioProjects'
-                             href: entityset-costscenarioprojects-projectdata-service.md
+                             href: project/entityset-costscenarioprojects-projectdata-service.md
                            - name: 'EntitySet: Deliverables'
-                             href: entityset-deliverables-projectdata-service.md
+                             href: project/entityset-deliverables-projectdata-service.md
                            - name: 'EntitySet: Issues'
-                             href: entityset-issues-projectdata-service.md
+                             href: project/entityset-issues-projectdata-service.md
                            - name: 'EntitySet: IssueTaskAssociations'
-                             href: entityset-issuetaskassociations-projectdata-service.md
+                             href: project/entityset-issuetaskassociations-projectdata-service.md
                            - name: 'EntitySet: PortfolioAnalyses'
-                             href: entityset-portfolioanalyses-projectdata-service.md
+                             href: project/entityset-portfolioanalyses-projectdata-service.md
                            - name: 'EntitySet: PortfolioAnalysisProjects'
-                             href: entityset-portfolioanalysisprojects-projectdata-service.md
+                             href: project/entityset-portfolioanalysisprojects-projectdata-service.md
                            - name: 'EntitySet: PrioritizationDriverRelations'
-                             href: entityset-prioritizationdriverrelations-projectdata-service.md
+                             href: project/entityset-prioritizationdriverrelations-projectdata-service.md
                            - name: 'EntitySet: PrioritizationDrivers'
-                             href: entityset-prioritizationdrivers-projectdata-service.md
+                             href: project/entityset-prioritizationdrivers-projectdata-service.md
                            - name: 'EntitySet: Prioritizations'
-                             href: entityset-prioritizations-projectdata-service.md
+                             href: project/entityset-prioritizations-projectdata-service.md
                            - name: 'EntitySet: ProjectBaselines'
-                             href: entityset-projectbaselines-projectdata-service.md
+                             href: project/entityset-projectbaselines-projectdata-service.md
                            - name: 'EntitySet: Projects'
-                             href: entityset-projects-projectdata-service.md
+                             href: project/entityset-projects-projectdata-service.md
                            - name: 'EntitySet: ProjectWorkflowStageDataSet'
-                             href: entityset-projectworkflowstagedataset-projectdata-service.md
+                             href: project/entityset-projectworkflowstagedataset-projectdata-service.md
                            - name: 'EntitySet: ResourceConstraintScenarios'
-                             href: entityset-resourceconstraintscenarios-projectdata-service.md
+                             href: project/entityset-resourceconstraintscenarios-projectdata-service.md
                            - name: 'EntitySet: Resources'
-                             href: entityset-resources-projectdata-service.md
+                             href: project/entityset-resources-projectdata-service.md
                            - name: 'EntitySet: ResourceScenarioProjects'
-                             href: entityset-resourcescenarioprojects-projectdata-service.md
+                             href: project/entityset-resourcescenarioprojects-projectdata-service.md
                            - name: 'EntitySet: ResourceTimephasedDataSet'
-                             href: entityset-resourcetimephaseddataset-projectdata-service.md
+                             href: project/entityset-resourcetimephaseddataset-projectdata-service.md
                            - name: 'EntitySet: Risks'
-                             href: entityset-risks-projectdata-service.md
+                             href: project/entityset-risks-projectdata-service.md
                            - name: 'EntitySet: RiskTaskAssociations'
-                             href: entityset-risktaskassociations-projectdata-service.md
+                             href: project/entityset-risktaskassociations-projectdata-service.md
                            - name: 'EntitySet: TaskBaselines'
-                             href: entityset-taskbaselines-projectdata-service.md
+                             href: project/entityset-taskbaselines-projectdata-service.md
                            - name: 'EntitySet: TaskBaselineTimephasedDataSet'
-                             href: entityset-taskbaselinetimephaseddataset-projectdata-service.md
+                             href: project/entityset-taskbaselinetimephaseddataset-projectdata-service.md
                            - name: 'EntitySet: Tasks'
-                             href: entityset-tasks-projectdata-service.md
+                             href: project/entityset-tasks-projectdata-service.md
                            - name: 'EntitySet: TaskTimephasedDataSet'
-                             href: entityset-tasktimephaseddataset-projectdata-service.md
+                             href: project/entityset-tasktimephaseddataset-projectdata-service.md
                            - name: 'EntitySet: TimeSet'
-                             href: entityset-timeset-projectdata-service.md
+                             href: project/entityset-timeset-projectdata-service.md
                            - name: 'EntitySet: TimesheetClasses'
-                             href: entityset-timesheetclasses-projectdata-service.md
+                             href: project/entityset-timesheetclasses-projectdata-service.md
                            - name: 'EntitySet: TimesheetLineActualDataSet'
-                             href: entityset-timesheetlineactualdataset-projectdata-service.md
+                             href: project/entityset-timesheetlineactualdataset-projectdata-service.md
                            - name: 'EntitySet: TimesheetLines'
-                             href: entityset-timesheetlines-projectdata-service.md
+                             href: project/entityset-timesheetlines-projectdata-service.md
                            - name: 'EntitySet: TimesheetPeriods'
-                             href: entityset-timesheetperiods-projectdata-service.md
+                             href: project/entityset-timesheetperiods-projectdata-service.md
                            - name: 'EntitySet: Timesheets'
-                             href: entityset-timesheets-projectdata-service.md
+                             href: project/entityset-timesheets-projectdata-service.md
      - name: SwayURI
        href: sway/swayuri.md
      - name: Office URI Schemes
