@@ -11,12 +11,8 @@
            - name: Project VBA reference
              href: https://msdn.microsoft.com/en-us/library/office/ee861523.aspx
            - name: Developer documentation
-             href: index.md
+             href: 
              items:
-                 - name: Class library and web service reference
-                   href: https://msdn.microsoft.com/en-us/library/office/ee767707.aspx
-                 - name: JavaScript API reference
-                   href: https://msdn.microsoft.com/en-us/library/office/jj712612.aspx
                  - name: Conceptual and how-to articles
                    href: project/project-conceptual-and-how-to-articles.md
                    items:
@@ -395,8 +391,12 @@
                              href: project/entityset-timesheetperiods-projectdata-service.md
                            - name: 'EntitySet: Timesheets'
                              href: project/entityset-timesheets-projectdata-service.md
+                 - name: Class library and web service reference
+                   href: https://msdn.microsoft.com/en-us/library/office/ee767707.aspx
+                 - name: JavaScript API reference
+                   href: https://msdn.microsoft.com/en-us/library/office/jj712612.aspx
      - name: SwayURI
-       href: sway/swayuri.md
+       href: swayuri.md
      - name: Office URI Schemes
        href: office-uri-schemes.md
 
