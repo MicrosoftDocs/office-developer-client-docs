@@ -52,7 +52,8 @@
          "project/**.md" : "dev-overview",
 		 "excel-xll/**.md" : "excel-xll",
 		 "access/**.md" : "ecustom-web-app",
-		 "word/**.md" : "content-controls"
+		 "word/**.md" : "content-controls",
+		 "integration/**.md" : "integration"
        },
 	 "ms.prod": 
        { 

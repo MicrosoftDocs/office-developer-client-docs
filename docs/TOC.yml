@@ -1,6 +1,21 @@
 - name: Office client development
   href: office-client-development.md
   items: 
+     - name: Integrate with Office
+       href: integration/integrate-with-office.md
+       items:
+          - name: Integrate with Office from iOS applications
+            href: integration/integrate-with-office-from-ios-applications.md
+          - name: Office support for the iOS Document Picker
+            href: integration/office-for-ios-support-for-the-ios-document-picker.md
+          - name: Integrate with Office from Windows universal apps
+            href: integration/integrate-with-office-from-windows-universal-apps.md
+          - name: Integrate with Office from Win32 sync clients
+            href: integration/integrate-with-office-from-win32-sync-clients.md
+          - name: Office for Android support for the Android Storage Access Framework
+            href: integration/office-for-android-support-for-the-android-storage-access-framework.md
+          - name: Integrate with Office from Android applications
+            href: integration/integrate-with-office-from-android-applications.md
      - name: Office Online Server Preview
        href: configure-udfs-in-excel-online-in-office-online-server-preview.md
      - name: Office for Mac
