@@ -1,6 +1,6 @@
 ---
 title: "Automating InfoPath from an External Application"
- : null
+  
  
 manager: soliver
 ms.date: 3/9/2015

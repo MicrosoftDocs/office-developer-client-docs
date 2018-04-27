@@ -42,9 +42,6 @@
          href: shttps://msdn.microsoft.com/en-us/library/office/gg264383.aspx
        - name: Office Primary Interop Assembly Reference
          href: https://msdn.microsoft.com/en-us/library/office/ff597925.aspx
-         items:
-         - name: Class Library
-           href: shared/off-class-library.md
        - name: Open XML SDK 2.5
          href: https://msdn.microsoft.com/en-us/library/office/bb448854.aspx
        - name: Using CSISyncClient to control the ODC
@@ -435,7 +432,187 @@
        href:
        items:
             - name: InfoPath developer reference for form templates
-              href: https://msdn.microsoft.com/en-us/library/office/aa945282.aspx
+              href: 
+              items:
+                - name: Developing InfoPath Form Templates with Code
+                  href: infopath/form-templates/developing-infopath-form-templates-with-code.md
+                  items:
+                  - name: Getting Started Developing Form Templates with Code
+                    href: infopath/form-templates/getting-started-developing-form-templates-with-code.md
+                    items:
+                    - name: What's New for InfoPath Developers
+                      href: infopath/form-templates/what-s-new-for-infopath-developers.md
+                    - name: Understanding InfoPath Object Models and Development Environment
+                      href: infopath/form-templates/understanding-infopath-object-models-and-development-environment.md
+                    - name: 'How to: Develop with Visual Studio'
+                      href: infopath/form-templates/how-to-develop-with-visual-studio.md
+                    - name: 'How to: Install Local .NET Framework Help for Visual Studio Tools for Applications'
+                      href: infopath/form-templates/how-to-install-local-net-framework-help-for-visual-studio-tools-for-applications.md
+                    - name: 'How to: Add an Event Handler'
+                      href: infopath/form-templates/how-to-add-an-event-handler.md
+                    - name: 'How to: Preview and Debug InfoPath Form Templates with Code'
+                      href: infopath/form-templates/how-to-preview-and-debug-infopath-form-templates-with-code.md
+                    - name: 'How to: Preview and Debug Form Templates that Require Full Trust'
+                      href: infopath/form-templates/how-to-preview-and-debug-form-templates-that-require-full-trust.md
+                    - name: 'Walkthrough: Creating a Basic Form Template with Code'
+                      href: infopath/form-templates/walkthrough-creating-a-basic-form-template-with-code.md
+                    - name: 'How to: Log Values to a Field for Debugging'
+                      href: infopath/form-templates/how-to-log-values-to-a-field-for-debugging.md
+                    - name: 'How to: Open or Convert a Form Template Created with the InfoPath Toolkit'
+                      href: infopath/form-templates/how-to-open-or-convert-a-form-template-created-with-the-infopath-toolkit.md
+                    - name: 'How to: Deploy InfoPath Form Templates with Code'
+                      href: infopath/form-templates/how-to-deploy-infopath-form-templates-with-code.md
+                    - name: How Do I...In InfoPath Form Templates with Code
+                      href: infopath/form-templates/how-do-iin-infopath-form-templates-with-code.md
+                    - name: 'How to: Work with the XPathNavigator and XPathNodeIterator Classes'
+                      href: infopath/form-templates/how-to-work-with-the-xpathnavigator-and-xpathnodeiterator-classes.md
+                    - name: 'How to: Use SharePoint Object Model Members'
+                      href: infopath/form-templates/how-to-use-sharepoint-object-model-members.md
+                    - name: Publishing Forms with Code
+                      href: infopath/form-templates/publishing-forms-with-code.md
+                    - name: Sample Sandboxed Solutions
+                      href: infopath/form-templates/sample-sandboxed-solutions.md
+                    - name: Additional Resources for InfoPath Form Template Developers
+                      href: infopath/form-templates/additional-resources-for-infopath-form-template-developers.md
+                  - name: Understanding the InfoPath Object Model and Common Developer Tasks
+                    href: infopath/form-templates/understanding-the-infopath-object-model-and-common-developer-tasks.md
+                    items:
+                    - name: 'How to: Access Application Data'
+                      href: infopath/form-templates/how-to-access-application-data.md
+                    - name: 'How to: Respond to Form Events'
+                      href: infopath/form-templates/how-to-respond-to-form-events.md
+                    - name: 'How to: Access Form Data'
+                      href: infopath/form-templates/how-to-access-form-data.md
+                    - name: 'How to: Access External Data Sources'
+                      href: infopath/form-templates/how-to-access-external-data-sources.md
+                    - name: 'How to: Write Conditional Logic That Determines the Run-time Environment'
+                      href: infopath/form-templates/how-to-write-conditional-logic-that-determines-the-run-time-environment.md
+                    - name: 'How to: Work with Form Windows'
+                      href: infopath/form-templates/how-to-work-with-form-windows.md
+                    - name: 'How to: Work with Views'
+                      href: infopath/form-templates/how-to-work-with-views.md
+                    - name: 'How to: Work with Offline Solutions'
+                      href: infopath/form-templates/how-to-work-with-offline-solutions.md
+                    - name: 'How to: Work with Digital Signatures'
+                      href: infopath/form-templates/how-to-work-with-digital-signatures.md
+                    - name: 'How to: Handle Errors'
+                      href: infopath/form-templates/how-to-handle-errors.md
+                    - name: 'How to: Work with Information Rights Management Settings'
+                      href: infopath/form-templates/how-to-work-with-information-rights-management-settings.md
+                    - name: 'How to: Add and Reference Custom Assemblies'
+                      href: infopath/form-templates/how-to-add-and-reference-custom-assemblies.md
+                  - name: Security in InfoPath Form Templates with Code
+                    href: infopath/form-templates/security-in-infopath-form-templates-with-code.md
+                    items:
+                    - name: About the Security Model for Form Templates with Code
+                      href: infopath/form-templates/about-the-security-model-for-form-templates-with-code.md
+                    - name: Additional InfoPath Form Security Concepts
+                      href: infopath/form-templates/additional-infopath-form-security-concepts.md
+                    - name: Security Guidelines for Developing InfoPath Forms
+                      href: infopath/form-templates/security-guidelines-for-developing-infopath-forms.md
+                    - name: 'How to: Configure Security Settings for Form Templates with Code'
+                      href: infopath/form-templates/how-to-configure-security-settings-for-form-templates-with-code.md
+                    - name: Security Levels, E-Mail Deployment, and Remote Form Templates
+                      href: infopath/form-templates/security-levels-e-mail-deployment-and-remote-form-templates.md
+                    - name: Understanding Fully Trusted Forms
+                      href: infopath/form-templates/understanding-fully-trusted-forms.md
+                    - name: Digitally Signing Data in InfoPath Forms
+                      href: infopath/form-templates/digitally-signing-data-in-infopath-forms.md
+                    - name: Deploying Signed InfoPath Form Templates
+                      href: infopath/form-templates/deploying-signed-infopath-form-templates.md
+                  - name: Working with SharePoint and InfoPath Forms Services
+                    href: infopath/form-templates/working-with-sharepoint-and-infopath-forms-services.md
+                    items:
+                    - name: Creating InfoPath Form Templates That Work With InfoPath Forms Services
+                      href: infopath/form-templates/creating-infopath-form-templates-that-work-with-infopath-forms-services.md
+                    - name: SharePoint Workflow Support in InfoPath Forms
+                      href: infopath/form-templates/sharepoint-workflow-support-in-infopath-forms.md
+                  - name: Additional InfoPath Development Concepts
+                    href: infopath/form-templates/additional-infopath-development-concepts.md
+                    items:
+                    - name: About Form Template Components
+                      href: infopath/form-templates/about-form-template-components.md
+                    - name: About InfoPath Support for XML Technologies
+                      href: infopath/form-templates/about-infopath-support-for-xml-technologies.md
+                    - name: Guidelines for Improving the Performance of InfoPath Forms
+                      href: infopath/form-templates/guidelines-for-improving-the-performance-of-infopath-forms.md
+                    - name: Working with XML Schemas in InfoPath
+                      href: infopath/form-templates/working-with-xml-schemas-in-infopath.md
+                    - name: Using Custom XSLT in InfoPath Form Templates
+                      href: infopath/form-templates/using-custom-xslt-in-infopath-form-templates.md
+                    - name: Hosting InfoPath as an XML Editor in Another Application
+                      href: infopath/form-templates/hosting-infopath-as-an-xml-editor-in-another-application.md
+                    - name: Rich Text and Web Services
+                      href: infopath/form-templates/rich-text-and-web-services.md
+                    - name: InfoPath, RPC Encoding and Web Services
+                      href: infopath/form-templates/infopath-rpc-encoding-and-web-services.md
+                    - name: Integrate an InfoPath Form with a Microsoft Access Database
+                      href: infopath/form-templates/integrate-an-infopath-form-with-a-microsoft-access-database.md
+                    - name: Create an ActiveX Control that can Bind to InfoPath Form Data
+                      href: infopath/form-templates/create-an-activex-control-that-can-bind-to-infopath-form-data.md
+                    - name: Enable Custom Merging of InfoPath Forms
+                      href: infopath/form-templates/enable-custom-merging-of-infopath-forms.md
+                - name: Developing Form Templates Using the InfoPath 2003 Object Model
+                  href: infopath/form-templates/developing-form-templates-using-the-infopath-2003-object-model.md
+                  items:
+                  - name: Getting Started Developing Form Templates Using the InfoPath 2003 Object Model
+                    href: infopath/form-templates/getting-started-developing-form-templates-using-the-infopath-2003-object-model.md
+                    items:
+                    - name: 'How to: Create a Form Template Using the InfoPath 2003 Object Model'
+                      href: infopath/form-templates/how-to-create-a-form-template-using-the-infopath-2003-object-model.md
+                    - name: 'Walkthrough: Creating and Debugging a Basic Form Template Using the InfoPath 2003 Object Model'
+                      href: infopath/form-templates/walkthrough-creating-and-debugging-a-basic-form-template-using-the-infopath-2003.md
+                    - name: Common Tasks for Developing Form Templates Using the InfoPath 2003 Object Model
+                      href: infopath/form-templates/common-tasks-for-developing-form-templates-using-the-infopath-2003-object-model.md
+                    - name: 'How to: Use Microsoft.Office.Interop.InfoPath.SemiTrust Members That Are Not Compatible with InfoPath 2003'
+                      href: infopath/form-templates/how-to-use-microsoft-office-interop-infopath-semitrust-members-that-are-not-comp.md
+                  - name: Creating Form Templates Using the InfoPath 2003 Object Model
+                    href: infopath/form-templates/creating-form-templates-using-the-infopath-2003-object-model.md
+                    items:
+                    - name: Initialization and Clean-up Code Using InfoPath 2003 Object Model
+                      href: infopath/form-templates/initialization-and-clean-up-code-using-infopath-2003-object-model.md
+                    - name: 'How to: Debug InfoPath Projects Using the InfoPath 2003 Object Model'
+                      href: infopath/form-templates/how-to-debug-infopath-projects-using-the-infopath-2003-object-model.md
+                    - name: 'How to: Add an Event Handler Using the InfoPath 2003 Object Model'
+                      href: infopath/form-templates/how-to-add-an-event-handler-using-the-infopath-2003-object-model.md
+                    - name: Threading Support in InfoPath Projects Using the InfoPath 2003 Object Model
+                      href: infopath/form-templates/threading-support-in-infopath-projects-using-the-infopath-2003-object-model.md
+                    - name: Working with MSXML and System.Xml Using the InfoPath 2003 Object Model
+                      href: infopath/form-templates/working-with-msxml-and-system-xml-using-the-infopath-2003-object-model.md
+                  - name: Understanding the InfoPath 2003 Object Model
+                    href: infopath/form-templates/understanding-the-infopath-2003-object-model.md
+                    items:
+                    - name: InfoPath 2003 Compatible Object Models
+                      href: infopath/form-templates/infopath-2003-compatible-object-models.md
+                    - name: 'How to: Access Application Data Using the InfoPath 2003 Object Model'
+                      href: infopath/form-templates/how-to-access-application-data-using-the-infopath-2003-object-model.md
+                    - name: 'How to: Access External Data Sources Using the InfoPath 2003 Object Model'
+                      href: infopath/form-templates/how-to-access-external-data-sources-using-the-infopath-2003-object-model.md
+                    - name: 'How to: Access Form Data Using the InfoPath 2003 Object Model'
+                      href: infopath/form-templates/how-to-access-form-data-using-the-infopath-2003-object-model.md
+                    - name: 'How to: Display Alerts and Dialog Boxes Using the InfoPath 2003 Object Model'
+                      href: infopath/form-templates/how-to-display-alerts-and-dialog-boxes-using-the-infopath-2003-object-model.md
+                    - name: 'How to: Handle Errors Using the InfoPath 2003 Object Model'
+                      href: infopath/form-templates/how-to-handle-errors-using-the-infopath-2003-object-model.md
+                    - name: 'How to: Respond to Form Events Using the InfoPath 2003 Object Model'
+                      href: infopath/form-templates/how-to-respond-to-form-events-using-the-infopath-2003-object-model.md
+                    - name: 'How to: Work with Form Windows Using the InfoPath 2003 Object Model'
+                      href: infopath/form-templates/how-to-work-with-form-windows-using-the-infopath-2003-object-model.md
+                    - name: 'How to: Work with Views Using the InfoPath 2003 Object Model'
+                      href: infopath/form-templates/how-to-work-with-views-using-the-infopath-2003-object-model.md
+                    - name: 'How to: Work with Digital Signatures Using the InfoPath 2003 Object Model'
+                      href: infopath/form-templates/how-to-work-with-digital-signatures-using-the-infopath-2003-object-model.md
+                    - name: 'How to: Work with Offline Solutions Using the InfoPath 2003 Object Model'
+                      href: infopath/form-templates/how-to-work-with-offline-solutions-using-the-infopath-2003-object-model.md
+                  - name: Troubleshooting Form Templates That Use the InfoPath 2003 Object Model
+                    href: infopath/form-templates/troubleshooting-form-templates-that-use-the-infopath-2003-object-model.md
+                    items:
+                    - name: Troubleshooting Form Templates That Use the InfoPath 2003 Object Model at Run Time
+                      href: infopath/form-templates/troubleshooting-form-templates-that-use-the-infopath-2003-object-model-at-run-ti.md
+                    - name: Troubleshooting Form Templates That Use the InfoPath 2003 Object Model At Design Time
+                      href: infopath/form-templates/troubleshooting-form-templates-that-use-the-infopath-2003-object-model-at-design.md
+                - name: Class library reference for InfoPath form templates
+                  href: https://msdn.microsoft.com/en-us/library/office/ee526341.aspx
             - name: InfoPath developer reference for external automation
               href: 
               items:

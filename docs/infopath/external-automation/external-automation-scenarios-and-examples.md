@@ -1,6 +1,6 @@
 ---
 title: "External Automation Scenarios and Examples"
- : null
+  
  
 manager: soliver
 ms.date: 11/16/2014

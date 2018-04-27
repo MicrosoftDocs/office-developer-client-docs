@@ -1,6 +1,6 @@
 ---
 title: "About the InfoPath XML Interop Assembly"
- : null
+  
  
 manager: soliver
 ms.date: 11/16/2014

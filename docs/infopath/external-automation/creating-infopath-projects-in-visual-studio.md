@@ -1,6 +1,6 @@
 ---
 title: "Creating InfoPath Projects in Visual Studio"
- : null
+  
  
 manager: soliver
 ms.date: 11/10/2016

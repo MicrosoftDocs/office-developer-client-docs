@@ -1,6 +1,6 @@
 ---
 title: "Automating InfoPath from Other Applications"
- : null
+  
  
 manager: soliver
 ms.date: 11/16/2014

@@ -55,7 +55,8 @@
 		 "word/**.md" : "content-controls",
 		 "integration/**.md" : "integration",
 		 "shared/**.md" : "telemetry",
-		 "infopath/external-automation/**.md" : "external-automation"
+		 "infopath/external-automation/**.md" : "external-automation",
+		 "infopath/form-templates/**.md" : "form-templates"
        },
 	 "ms.prod": 
        { 
@@ -63,7 +64,7 @@
 		 "excel-xll/**.md" : "excel",
 		 "access/**.md" : "access",
 		 "word/**.md" : "word",
-		 "infopath/external-automation/**.md" : "word"
+		 "infopath/**.md" : "infopath"
        }
 	   
 	   },

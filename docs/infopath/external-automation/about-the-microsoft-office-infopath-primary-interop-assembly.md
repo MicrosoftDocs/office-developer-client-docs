@@ -1,6 +1,6 @@
 ---
 title: "and Visual Basic, the .NET Programmability Support option in the InfoPath setup program installs three interop assemblies. Interop assemblies are .NET assemblies that act as a bridge between managed and unmanaged code, mapping COM object members to equivalent .NET managed members.'"
- : null
+  
  
 manager: soliver
 ms.date: 11/16/2014
