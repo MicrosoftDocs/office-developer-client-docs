@@ -112,6 +112,6 @@ thisXDocument.UI.Alert(xmldoc)
 ```
 
 > [!NOTE]
-> To learn more about the XML DOM and all of the properties and methods that it supports, see the [MSXML SDK](guid_b24aafc2-bf1b-4702-bf1c-b7ae3597eb0c) on MSDN. 
+> To learn more about the XML DOM and all of the properties and methods that it supports, see the MSXML SDK on MSDN. 
   
 

@@ -77,7 +77,7 @@ To distribute an ActiveX control, you can write an installer that installs the c
 
 #### Other resources
 
-[Lab 6: Adding ActiveX Controls in InfoPath 2003](7655ed94-ae96-4d7e-b529-a0dfd2e70a94)
+Lab 6: Adding ActiveX Controls in InfoPath 2003
   
 [Creating an InfoPath Custom Control using C# and .NET (InfoPath Team Blog)](http://blogs.msdn.com/infopath/archive/2005/04/15/creating-an-infopath-custom-control-using-c-and-net.aspx)
 

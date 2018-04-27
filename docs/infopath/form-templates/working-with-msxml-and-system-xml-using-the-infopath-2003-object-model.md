@@ -22,7 +22,7 @@ To use members of the **System.Xml** namespace in a managed code project that us
   
  **Notes**
   
-- To view reference information about MSXML, see the [MSXML SDK](guid_b24aafc2-bf1b-4702-bf1c-b7ae3597eb0c).
+- To view reference information about MSXML, see the MSXML SDK.
     
 - Members of the MSXML object model that are wrapped by the [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) namespace cannot be assigned to delegates in the form code of managed-code form templates. 
     

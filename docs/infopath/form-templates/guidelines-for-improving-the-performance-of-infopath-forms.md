@@ -14,6 +14,6 @@ description: "Designing an InfoPath form template for better performance require
 
 # Guidelines for Improving the Performance of InfoPath Forms
 
-Designing an InfoPath form template for better performance requires you to be careful with the size and number of views, the size and structure of the XML, and the amount of file and picture controls you use. You also need to be careful how you structure your digital signatures, and the size and number of data connections in the form. By following the guidelines and best practices in the article [Improving the Performance of InfoPath 2007 Forms](7eff0c13-c6d9-4a8c-9031-e88016cd47b4), you can avoid performance problems when designing a form template and troubleshoot the same problems in existing form templates.
+Designing an InfoPath form template for better performance requires you to be careful with the size and number of views, the size and structure of the XML, and the amount of file and picture controls you use. You also need to be careful how you structure your digital signatures, and the size and number of data connections in the form. By following the guidelines and best practices in the article Improving the Performance of InfoPath 2007 Forms, you can avoid performance problems when designing a form template and troubleshoot the same problems in existing form templates.
   
 

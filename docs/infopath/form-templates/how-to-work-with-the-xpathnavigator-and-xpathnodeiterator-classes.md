@@ -72,7 +72,7 @@ Dim emailAlias As XPathNavigator = _
 emailAlias.SetValue(Me.Application.User.UserName.ToString())
 ```
 
-For information about how to create XPath expressions, see the [XPath Reference](6da1b6e3-256e-4919-8848-53b425f72ed1) on MSDN, and the [XML Path Language (XPath) Version 1.0 W3C Recommendation](http://www.w3.org/TR/xpath).
+For information about how to create XPath expressions, see the XPath Reference on MSDN, and the [XML Path Language (XPath) Version 1.0 W3C Recommendation](http://www.w3.org/TR/xpath).
   
 ### Setting the Value of a Node That Has the xsi:nil Attribute
 
@@ -150,9 +150,9 @@ myDate.SetValue(strCurDate)
   
 ### Selecting and Setting a Set of Repeating Nodes
 
-To specify a set of repeating fields or groups that are of an indeterminate number, use the **Select** method of the **XPathNavigator** class. This method returns an [XPathNodeIterator](frlrfSystemXmlXPathXPathNodeIteratorClassTopic) object that you can use to iterate over the specified collection of nodes. 
+To specify a set of repeating fields or groups that are of an indeterminate number, use the **Select** method of the **XPathNavigator** class. This method returns an XPathNodeIterator object that you can use to iterate over the specified collection of nodes. 
   
-The following example assumes that your form template contains a **Bulleted List** or similar repeating control that is bound to a repeating element named  `field1`. The XPath of the field is passed to the **Select** method, and the returned **XPathNodeIterator** is assigned to the  `nodes` variable. You use the [MoveNext](frlrfSystemXmlXPathXPathNodeIteratorClassMoveNextTopic) method to iterate over the collection of nodes, and the [Current](frlrfSystemXmlXPathXPathNodeIteratorClassCurrentTopic) property to return an **XPathNavigator** object positioned on the current node. Finally, use the **Value** property to retrieve and display the value of each repeating field. 
+The following example assumes that your form template contains a **Bulleted List** or similar repeating control that is bound to a repeating element named  `field1`. The XPath of the field is passed to the **Select** method, and the returned **XPathNodeIterator** is assigned to the  `nodes` variable. You use the MoveNext method to iterate over the collection of nodes, and the Current property to return an **XPathNavigator** object positioned on the current node. Finally, use the **Value** property to retrieve and display the value of each repeating field. 
   
 ```cs
 string message = String.Empty;
@@ -329,6 +329,6 @@ For Each selectedNode In selectedNodes
 Next
 ```
 
-For more information about how to work with XML data from InfoPath form templates, see [Working with XML Data Using the XPathNavigator Class in InfoPath 2007 Form Templates](3760f879-b412-4b4e-afd2-23b7a83ef091).
+For more information about how to work with XML data from InfoPath form templates, see Working with XML Data Using the XPathNavigator Class in InfoPath 2007 Form Templates.
   
 
