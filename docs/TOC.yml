@@ -430,7 +430,33 @@
           - name: API Function Reference
             href: https://msdn.microsoft.com/en-us/library/office/bb687837.aspx     
         - name: Tips for optimizing performance obstructions
-          href: https://msdn.microsoft.com/en-us/library/office/mt709003.aspx         
+          href: https://msdn.microsoft.com/en-us/library/office/mt709003.aspx
+     - name: Infopath
+       href:
+       items:
+            - name: InfoPath developer reference for form templates
+              href: https://msdn.microsoft.com/en-us/library/office/aa945282.aspx
+            - name: InfoPath developer reference for external automation
+              href: 
+              items:
+                - name: Creating InfoPath Projects in Visual Studio
+                  href: infopath/external-automation/creating-infopath-projects-in-visual-studio.md
+                  items:
+                  - name: 'How to: Create a COM Add-in to Add Custom Features to InfoPath'
+                    href: infopath/external-automation/how-to-create-a-com-add-in-to-add-custom-features-to-infopath.md
+                - name: Automating InfoPath from Other Applications
+                  href: infopath/external-automation/automating-infopath-from-other-applications.md
+                  items:
+                  - name: About the Microsoft Office InfoPath Primary Interop Assembly
+                    href: infopath/external-automation/about-the-microsoft-office-infopath-primary-interop-assembly.md
+                  - name: About the InfoPath XML Interop Assembly
+                    href: infopath/external-automation/about-the-infopath-xml-interop-assembly.md
+                  - name: External Automation Scenarios and Examples
+                    href: infopath/external-automation/external-automation-scenarios-and-examples.md
+                  - name: Automating InfoPath from an External Application
+                    href: infopath/external-automation/automating-infopath-from-an-external-application.md
+                - name: Class library reference for InfoPath external automation
+                  href: https://msdn.microsoft.com/en-us/library/office/ff663147.aspx          
      - name: Project
        href: project.md
        items:

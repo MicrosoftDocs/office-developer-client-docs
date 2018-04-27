@@ -54,14 +54,16 @@
 		 "access/**.md" : "ecustom-web-app",
 		 "word/**.md" : "content-controls",
 		 "integration/**.md" : "integration",
-		 "shared/**.md" : "telemetry"
+		 "shared/**.md" : "telemetry",
+		 "infopath/external-automation/**.md" : "external-automation"
        },
 	 "ms.prod": 
        { 
          "project/**.md" : "project",
 		 "excel-xll/**.md" : "excel",
 		 "access/**.md" : "access",
-		 "word/**.md" : "word"
+		 "word/**.md" : "word",
+		 "infopath/external-automation/**.md" : "word"
        }
 	   
 	   },
