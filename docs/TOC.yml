@@ -777,6 +777,15 @@
                    href: https://msdn.microsoft.com/en-us/library/office/ee767707.aspx
                  - name: JavaScript API reference
                    href: https://msdn.microsoft.com/en-us/library/office/jj712612.aspx
+     - name: Word
+       href: word/word.md
+       items:
+          - name: Content controls in Word
+            href: word/content-controls-in-word.md
+          - name: Word VBA reference
+            href: https://msdn.microsoft.com/en-us/library/ee861527.aspx
+          - name: Word Primary Interop Assembly Reference
+            href: https://msdn.microsoft.com/en-us/library/ff597928.aspx
      - name: SwayURI
        href: swayuri.md
      - name: Office URI Schemes

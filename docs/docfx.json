@@ -51,13 +51,15 @@
        { 
          "project/**.md" : "dev-overview",
 		 "excel-xll/**.md" : "excel-xll",
-		 "access/**.md" : "ecustom-web-app"
+		 "access/**.md" : "ecustom-web-app",
+		 "word/**.md" : "content-controls"
        },
 	 "ms.prod": 
        { 
          "project/**.md" : "project",
 		 "excel-xll/**.md" : "excel",
-		 "access/**.md" : "access"
+		 "access/**.md" : "access",
+		 "word/**.md" : "word"
        }
 	   
 	   },
