@@ -20,6 +20,35 @@
        href: configure-udfs-in-excel-online-in-office-online-server-preview.md
      - name: Office for Mac
        href: https://msdn.microsoft.com/en-us/library/office/mt654019.aspx
+     - name: Office shared
+       href: shared/office-shared.md
+       items:
+       - name: Compatibility Between the 32-bit and 64-bit Versions of Office
+         href: shared/compatibility-between-the-32-bit-and-64-bit-versions-of-office.md
+       - name: Integrating IM applications with Office
+         href: shared/integrating-im-applications-with-office.md
+       - name: Manageability applications and the Office 365 click-to-run installer
+         href: shared/integrating-manageability-applications-with-the-office-365-click-to-run-installe.md
+       - name: Office telemetry log
+         href: shared/office-telemetry-log.md
+         items:
+         - name: Troubleshooting Office files and custom solutions with the telemetry log
+           href: shared/troubleshooting-office-files-and-custom-solutions-with-the-telemetry-log.md
+         - name: Compatibility issues in Office
+           href: shared/compatibility-issues-in-office.md
+       - name: Office VBA Object library reference
+         href: https://msdn.microsoft.com/en-us/library/office/ff862474.aspx
+       - name: Office VBA language reference
+         href: shttps://msdn.microsoft.com/en-us/library/office/gg264383.aspx
+       - name: Office Primary Interop Assembly Reference
+         href: https://msdn.microsoft.com/en-us/library/office/ff597925.aspx
+         items:
+         - name: Class Library
+           href: shared/off-class-library.md
+       - name: Open XML SDK 2.5
+         href: https://msdn.microsoft.com/en-us/library/office/bb448854.aspx
+       - name: Using CSISyncClient to control the ODC
+         href: shared/using-csisyncclient-to-control-the-office-document-cache-odc.md
      - name: Access
        href: access/access.md
        items:

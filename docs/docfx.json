@@ -53,7 +53,8 @@
 		 "excel-xll/**.md" : "excel-xll",
 		 "access/**.md" : "ecustom-web-app",
 		 "word/**.md" : "content-controls",
-		 "integration/**.md" : "integration"
+		 "integration/**.md" : "integration",
+		 "shared/**.md" : "telemetry",
        },
 	 "ms.prod": 
        { 
