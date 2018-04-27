@@ -43,7 +43,7 @@
 	  "ms.author": "o365devx", 
 	  "author": "o365devx",
        "ms.topic": "conceptual",
-	   "ms.suite": "office" ,
+	   "ms.suite": "office",
 	   "ms.prod" : "office"
     },
     "fileMetadata": {
@@ -54,7 +54,7 @@
 		 "access/**.md" : "ecustom-web-app",
 		 "word/**.md" : "content-controls",
 		 "integration/**.md" : "integration",
-		 "shared/**.md" : "telemetry",
+		 "shared/**.md" : "telemetry"
        },
 	 "ms.prod": 
        { 
