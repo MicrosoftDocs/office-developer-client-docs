@@ -634,7 +634,7 @@
                     href: infopath/external-automation/automating-infopath-from-an-external-application.md
                 - name: Class library reference for InfoPath external automation
                   href: https://msdn.microsoft.com/en-us/library/office/ff663147.aspx          
-    - name: OneNote
+     - name: OneNote
       href: onenote/onenote.md
       items:
       - name: OneNote developer reference
@@ -650,7 +650,7 @@
           href: 
         - name: Error codes
           href:   
-    - name: Project
+     - name: Project
        href: project.md
        items:
            - name: Project VBA reference
