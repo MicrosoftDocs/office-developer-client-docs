@@ -2667,18 +2667,18 @@
              - name: User-defined Cells Section
                href: visio/user-defined-cells-section.md
        - name: Visio file format reference
-          href: visio/visio-file-format-reference.md
-          items:
-          - name: Introduction to the Visio file format (.vsdx)
-            href: visio/introduction-to-the-visio-file-formatvsdx.md
-          - name: 'How to: Manipulate the Visio file format programmatically'
-            href: visio/how-to-manipulate-the-visio-file-format-programmatically.md
-          - name: Schema map
-            href: https://msdn.microsoft.com/en-us/library/office/jj684223.aspx
-          - name: Elements
-            href: https://msdn.microsoft.com/EN-US/library/office/jj717831.aspx
-          - name: Types
-            href: https://msdn.microsoft.com/en-us/library/office/jj684184.aspx 
+         href: visio/visio-file-format-reference.md
+         items:
+         - name: Introduction to the Visio file format (.vsdx)
+           href: visio/introduction-to-the-visio-file-formatvsdx.md
+         - name: 'How to: Manipulate the Visio file format programmatically'
+           href: visio/how-to-manipulate-the-visio-file-format-programmatically.md
+         - name: Schema map
+           href: https://msdn.microsoft.com/en-us/library/office/jj684223.aspx
+         - name: Elements
+           href: https://msdn.microsoft.com/EN-US/library/office/jj717831.aspx
+         - name: Types
+           href: https://msdn.microsoft.com/en-us/library/office/jj684184.aspx 
      - name: Word
        href: word/word.md
        items:
