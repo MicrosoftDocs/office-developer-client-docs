@@ -64,7 +64,8 @@
 		 "excel-xll/**.md" : "excel",
 		 "access/**.md" : "access",
 		 "word/**.md" : "word",
-		 "infopath/**.md" : "infopath"
+		 "infopath/**.md" : "infopath",
+		 "onenote/**.md" : "onenote"
        }
 	   
 	   },
