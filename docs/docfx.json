@@ -73,7 +73,8 @@
 		 "word/**.md" : "word",
 		 "infopath/**.md" : "infopath",
 		 "onenote/**.md" : "onenote",
-		 "outlook/**.md" : "outlook"
+		 "outlook/**.md" : "outlook",
+		 "visio/**.md" : "visio"
        }
 	   
 	   },

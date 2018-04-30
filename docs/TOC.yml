@@ -2483,6 +2483,202 @@
                    href: https://msdn.microsoft.com/en-us/library/office/ee767707.aspx
                  - name: JavaScript API reference
                    href: https://msdn.microsoft.com/en-us/library/office/jj712612.aspx
+     - name: Visio
+       href: visio/visio.md
+       items:
+       - name: Visio VBA reference
+         href: https://msdn.microsoft.com/EN-US/library/office/ee861526.aspx
+       - name: Visio Save as Web Reference
+         href: https://msdn.microsoft.com/EN-US/library/office/ff767184.aspx
+       - name: Visio Viewer reference
+         href: https://msdn.microsoft.com/EN-US/library/office/ff766866.aspx
+       - name: Visio ShapeSheet reference
+         href: visio/visio-shapesheet-reference.md
+         items:
+         - name: What's new for Visio ShapeSheet developers
+           href: visio/what-s-new-for-visio-shapesheet-developers.md
+         - name: Concepts
+           href: visio/concepts-visio-shapesheet.md
+           items:
+           - name: About Cell References
+             href: visio/about-cell-references.md
+           - name: About Currency Constants
+             href: visio/about-currency-constants.md
+           - name: About Date, Time, and Duration Values
+             href: visio/about-date-time-and-duration-values.md
+           - name: About Error Values
+             href: visio/about-error-values.md
+           - name: About Format Pictures
+             href: visio/about-format-pictures.md
+           - name: About Formulas
+             href: visio/about-formulas.md
+           - name: About Functions
+             href: visio/about-functions.md
+           - name: About Operators
+             href: visio/about-operators.md
+           - name: About Security Settings and Running Code in Visio
+             href: visio/about-security-settings-and-running-code-in-visio-shapesheet.md
+           - name: About Strings
+             href: visio/about-strings.md
+           - name: About the Formula Tracing Window
+             href: visio/about-the-formula-tracing-window.md
+           - name: About the ShapeSheet Spreadsheet
+             href: visio/about-the-shapesheet-spreadsheet.md
+           - name: About the Style Explorer Window
+             href: visio/about-the-style-explorer-window.md
+           - name: About Units of Measure
+             href: visio/about-units-of-measure-visio-shapesheet-reference.md
+         - name: Common tasks
+           href: visio/common-tasks-visio-shapesheet.md
+           items:
+           - name: Add, Change, or Delete Rows in the ShapeSheet
+             href: visio/add-change-or-delete-rows-in-the-shapesheet.md
+           - name: Add, Show, Hide, or Delete a Section
+             href: visio/add-show-hide-or-delete-a-section.md
+           - name: Change the Name and View the ID of a Shape
+             href: visio/change-the-name-and-view-the-id-of-a-shape.md
+           - name: Copy and Paste a Formula from One Cell into Another
+             href: visio/copy-and-paste-a-formula-from-one-cell-into-another.md
+           - name: Display Formulas or Values in Cells
+             href: visio/display-formulas-or-values-in-cells.md
+           - name: Edit a Part of a Formula
+             href: visio/edit-a-part-of-a-formula.md
+           - name: Enter an Empty Formula
+             href: visio/enter-an-empty-formula.md
+           - name: Move Around a ShapeSheet Window
+             href: visio/move-around-a-shapesheet-window.md
+           - name: Open Each ShapeSheet in the Same Window
+             href: visio/open-each-shapesheet-in-the-same-window.md
+           - name: Open the ShapeSheet for a Shape, Page, or Document
+             href: visio/open-the-shapesheet-for-a-shape-page-or-document.md
+           - name: Reference a Cell in a Formula
+             href: visio/reference-a-cell-in-a-formula.md
+           - name: Run in Developer Mode (Display the Developer Tab)
+             href: visio/run-in-developer-mode-display-the-developer-tab.md
+           - name: Show an Object in the ShapeSheet Window
+             href: visio/show-an-object-in-the-shapesheet-window.md
+           - name: Type a New Formula for a Cell
+             href: visio/type-a-new-formula-for-a-cell.md
+         - name: Reference
+           href: https://msdn.microsoft.com/EN-US/library/office/ff765103.aspx
+           items:
+           - name: Cells
+             href: https://msdn.microsoft.com/EN-US/library/office/jj945060.aspx
+           - name: Functions
+             href: https://msdn.microsoft.com/EN-US/library/office/jj945061.aspx
+           - name: Rows
+             href: https://msdn.microsoft.com/EN-US/library/office/jj945059.aspx
+           - name: Sections
+             href: https://msdn.microsoft.com/EN-US/library/office/jj945062.aspx
+             href: visio/sections-visio-shapesheet-reference.md
+             items:
+             - name: 1-D Endpoints Section
+               href: visio/1-d-endpoints-section.md
+             - name: 3-D Rotation Properties Section
+               href: visio/3-d-rotation-properties-section.md
+             - name: Action Tag Section
+               href: visio/action-tag-section.md
+             - name: Actions Section
+               href: visio/actions-section.md
+             - name: Additional Effect Properties Section
+               href: visio/additional-effect-properties-section.md
+             - name: Alignment Section
+               href: visio/alignment-section.md
+             - name: Annotation Section
+               href: visio/annotation-section.md
+             - name: Bevel Properties Section
+               href: visio/bevel-properties-section.md
+             - name: Change Shape Behavior Section
+               href: visio/change-shape-behavior-section.md
+             - name: Character Section
+               href: visio/character-section.md
+             - name: Connection Points Section
+               href: visio/connection-points-section.md
+             - name: Controls Section
+               href: visio/controls-section.md
+             - name: Document Properties Section
+               href: visio/document-properties-section.md
+             - name: Events Section
+               href: visio/events-section.md
+             - name: Fill Format Section
+               href: visio/fill-format-section.md
+             - name: Fill Gradient Section
+               href: visio/fill-gradient-section.md
+             - name: Foreign Image Info Section
+               href: visio/foreign-image-info-section.md
+             - name: Geometry Section
+               href: visio/geometry-section.md
+             - name: Glue Info Section
+               href: visio/glue-info-section.md
+             - name: Gradient Properties Section
+               href: visio/gradient-properties-section.md
+             - name: Group Properties Section
+               href: visio/group-properties-section.md
+             - name: Hyperlinks Section
+               href: visio/hyperlinks-section.md
+             - name: Image Properties Section
+               href: visio/image-properties-section.md
+             - name: Layer Membership Section
+               href: visio/layer-membership-section.md
+             - name: Layers Section
+               href: visio/layers-section.md
+             - name: Line Format Section
+               href: visio/line-format-section.md
+             - name: Line Gradient Section
+               href: visio/line-gradient-section.md
+             - name: Miscellaneous Section
+               href: visio/miscellaneous-section.md
+             - name: Page Layout Section
+               href: visio/page-layout-section.md
+             - name: Page Properties Section
+               href: visio/page-properties-section.md
+             - name: Paragraph Section
+               href: visio/paragraph-section.md
+             - name: Print Properties Section
+               href: visio/print-properties-section.md
+             - name: Protection Section
+               href: visio/protection-section.md
+             - name: Quick Style Section
+               href: visio/quick-style-section.md
+             - name: Reviewer Section
+               href: visio/reviewer-section.md
+             - name: Ruler &amp; Grid Section
+               href: visio/rulergrid-section.md
+             - name: Scratch Section
+               href: visio/scratch-section.md
+             - name: Shape Data Section
+               href: visio/shape-data-section.md
+             - name: Shape Layout Section
+               href: visio/shape-layout-section.md
+             - name: Shape Transform Section
+               href: visio/shape-transform-section.md
+             - name: Style Properties Section
+               href: visio/style-properties-section.md
+             - name: Tabs Section
+               href: visio/tabs-section.md
+             - name: Text Block Format Section
+               href: visio/text-block-format-section.md
+             - name: Text Fields Section
+               href: visio/text-fields-section.md
+             - name: Text Transform Section
+               href: visio/text-transform-section.md
+             - name: Theme Properties Section
+               href: visio/theme-properties-section.md
+             - name: User-defined Cells Section
+               href: visio/user-defined-cells-section.md
+       - name: Visio file format reference
+          href: visio/visio-file-format-reference.md
+          items:
+          - name: Introduction to the Visio file format (.vsdx)
+            href: visio/introduction-to-the-visio-file-formatvsdx.md
+          - name: 'How to: Manipulate the Visio file format programmatically'
+            href: visio/how-to-manipulate-the-visio-file-format-programmatically.md
+          - name: Schema map
+            href: https://msdn.microsoft.com/en-us/library/office/jj684223.aspx
+          - name: Elements
+            href: https://msdn.microsoft.com/EN-US/library/office/jj717831.aspx
+          - name: Types
+            href: https://msdn.microsoft.com/en-us/library/office/jj684184.aspx 
      - name: Word
        href: word/word.md
        items:
