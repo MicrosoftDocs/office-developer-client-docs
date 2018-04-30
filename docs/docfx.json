@@ -56,7 +56,9 @@
 		 "integration/**.md" : "integration",
 		 "shared/**.md" : "telemetry",
 		 "infopath/external-automation/**.md" : "external-automation",
-		 "infopath/form-templates/**.md" : "form-templates"
+		 "infopath/form-templates/**.md" : "form-templates",
+		 "onenote/**.md" : "dev-overview",
+		 "outlook/**.md" : "dev-overview",		 
        },
 	 "ms.prod": 
        { 
@@ -65,7 +67,8 @@
 		 "access/**.md" : "access",
 		 "word/**.md" : "word",
 		 "infopath/**.md" : "infopath",
-		 "onenote/**.md" : "onenote"
+		 "onenote/**.md" : "onenote",
+		 "outlook/**.md" : "outlook",
        }
 	   
 	   },

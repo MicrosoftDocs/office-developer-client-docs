@@ -649,7 +649,16 @@
             - name: Enumerations
               href: 
             - name: Error codes
-              href:   
+              href:
+    - name: Outlook
+      href: outlook/outlook.md
+      items:
+      - name: Selecting an API or technology for developing solutions for Outlook
+        href: outlook/selecting-an-api-or-technology-for-developing-solutions-for-outlook.md
+      - name: Outlook VBA reference
+        href: https://msdn.microsoft.com/EN-US/library/office/ee861520.aspx
+      - name: Outlook Primary Interop Assembly Reference
+        href: https://msdn.microsoft.com/EN-US/library/office/bb652780.aspx             
      - name: Project
        href: project.md
        items:
