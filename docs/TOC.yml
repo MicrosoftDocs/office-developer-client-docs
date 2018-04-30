@@ -753,6 +753,65 @@
                 href: outlook/social-connector/testing-activities.md
             - name: Reference
               href: https://msdn.microsoft.com/en-us/library/office/ff759382.aspx
+          - name: Outlook auxiliary reference
+            href: outlook/auxiliary/welcome-to-the-outlook-auxiliary-reference.md
+            items:
+            - name: Concepts
+              href: outlook/auxiliary/concepts-outlook-auxiliary-reference.md
+              items:
+              - name: Outlook account management
+                href: outlook/auxiliary/outlook-account-management.md
+                items:
+                - name: About the Account Management API
+                  href: outlook/auxiliary/about-the-account-management-api.md
+                - name: About anti-spam settings
+                  href: outlook/auxiliary/about-anti-spam-settings.md
+                - name: Managing message downloads for POP3 accounts
+                  href: outlook/auxiliary/managing-message-downloads-for-pop3-accounts.md
+                  items:
+                  - name: Locating the message download history for a POP3 account
+                    href: outlook/auxiliary/locating-the-message-download-history-for-a-pop3-account.md
+                  - name: Parsing the message download history for a POP3 account
+                    href: outlook/auxiliary/parsing-the-message-download-history-for-a-pop3-account.md
+              - name: About the Data Degradation Layer API
+                href: outlook/auxiliary/about-the-data-degradation-layer-api.md
+              - name: About APIs exported by Outlook
+                href: outlook/auxiliary/about-apis-exported-by-outlook.md
+              - name: Outlook configuration
+                href: outlook/auxiliary/outlook-configuration.md
+                items:
+                - name: About conflict resolution for custom item types
+                  href: outlook/auxiliary/about-conflict-resolution-for-custom-item-types.md
+                - name: About the last update time of an Offline Address Book
+                  href: outlook/auxiliary/about-the-last-update-time-of-an-offline-address-book.md
+                - name: About registering a new domain for automatic configuration
+                  href: outlook/auxiliary/about-registering-a-new-domain-for-automatic-configuration.md
+              - name: Outlook calendars and appointments
+                href: outlook/auxiliary/outlook-calendars-and-appointments.md
+                items:
+                - name: About the Free/Busy API
+                  href: outlook/auxiliary/about-the-free-busy-api.md
+                - name: About meeting requests as informational updates and full updates
+                  href: outlook/auxiliary/about-meeting-requests-as-informational-updates-and-full-updates.md
+                - name: About rebasing calendars programmatically for Daylight Saving Time
+                  href: outlook/auxiliary/about-rebasing-calendars-programmatically-for-daylight-saving-time.md
+                - name: About persisting TZDEFINITION to a stream to commit to a binary property
+                  href: outlook/auxiliary/about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property.md
+              - name: Sample tasks
+                href: outlook/auxiliary/sample-tasks.md
+                items:
+                - name: 'How to: Determine whether an Outlook item has been modified but not saved'
+                  href: outlook/auxiliary/how-to-determine-whether-an-outlook-item-has-been-modified-but-not-saved-outlook.md
+                - name: 'How to: Parse a stream from a binary property to read the TZDEFINITION structure'
+                  href: outlook/auxiliary/how-to-parse-a-stream-from-a-binary-property-to-read-the-tzdefinition-structure.md
+                - name: 'How to: Parse a stream from a binary property to read the TZREG structure'
+                  href: outlook/auxiliary/how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md
+                - name: 'How to: Read time zone properties from an appointment'
+                  href: outlook/auxiliary/how-to-read-time-zone-properties-from-an-appointment.md
+                - name: 'How to: Use relative time to access free/busy data'
+                  href: outlook/auxiliary/how-to-use-relative-time-to-access-free-busy-data.md
+            - name: Reference
+              href: https://msdn.microsoft.com/EN-US/library/office/gg394256.aspx      
           - name: Outlook MAPI Reference
             href: outlook/mapi/outlook-mapi-reference.md
             items:

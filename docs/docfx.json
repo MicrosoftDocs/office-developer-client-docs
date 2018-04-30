@@ -60,7 +60,8 @@
 		 "onenote/**.md" : "dev-overview",
 		 "outlook/**.md" : "dev-overview",	
 		 "outlook/mapi/**.md" : "mapi",
-		 "outlook/social-connector/**.md" : "social-connector"
+		 "outlook/social-connector/**.md" : "social-connector",
+		 "outlook/auxiliary/**.md" : "auxiliary"
 		 
        },
 	 "ms.prod": 

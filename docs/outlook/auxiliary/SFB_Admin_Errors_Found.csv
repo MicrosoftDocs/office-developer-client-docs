@@ -1,0 +1,83 @@
+Error Type,Topic Guid,Message
+Warning,01a46083-03d0-4333-920c-01a9f17f68cb,Found herf tag with an image in file:01a46083-03d0-4333-920c-01a9f17f68cb.md total found:28
+Warning,01a46083-03d0-4333-920c-01a9f17f68cb,Found invalid msdn links in md file:01a46083-03d0-4333-920c-01a9f17f68cb.md
+Warning,01a46083-03d0-4333-920c-01a9f17f68cb,Found a an ul list inside a table in html file:01a46083-03d0-4333-920c-01a9f17f68cb.xml
+Warning,04e00e49-c12d-4517-8574-410741d0fa06,Missing tables headers in file:04e00e49-c12d-4517-8574-410741d0fa06.md
+Warning,08121e33-7820-4a31-b6da-06a4a54ec43f,Missing tables headers in file:08121e33-7820-4a31-b6da-06a4a54ec43f.md
+Warning,0c518245-2c52-435d-98ad-ffad72a4527b,Found invalid msdn links in md file:0c518245-2c52-435d-98ad-ffad72a4527b.md
+Warning,1127956a-37aa-c39e-60b4-343dcc4ead82,Missing tables headers in file:1127956a-37aa-c39e-60b4-343dcc4ead82.md
+Warning,12cfe096-6882-c0be-b248-87567cb71e83,Missing tables headers in file:12cfe096-6882-c0be-b248-87567cb71e83.md
+Warning,14e0c469-31dc-fbe2-0d45-da602df04f13,Missing tables headers in file:14e0c469-31dc-fbe2-0d45-da602df04f13.md
+Warning,17c5e44e-ae56-8de7-3579-90171d996411,Missing tables headers in file:17c5e44e-ae56-8de7-3579-90171d996411.md
+Warning,17df868b-d329-cefa-bd16-84960cbf5921,Missing tables headers in file:17df868b-d329-cefa-bd16-84960cbf5921.md
+Warning,1951643d-e3ca-4d04-bc0c-10d9d0b35dad,Found a an ol list inside a table in html file:1951643d-e3ca-4d04-bc0c-10d9d0b35dad.xml
+Warning,1cf5b314-39fa-996f-fd88-00380ffbc4de,Missing tables headers in file:1cf5b314-39fa-996f-fd88-00380ffbc4de.md
+Warning,1fd848c7-038e-4e2f-8997-c8509b31df79,Found a an ul list inside a table in html file:1fd848c7-038e-4e2f-8997-c8509b31df79.xml
+Warning,22d7c1e8-48b9-4768-b4de-9a9f32a3aabb,Missing tables headers in file:22d7c1e8-48b9-4768-b4de-9a9f32a3aabb.md
+Warning,260ee328-e73f-48bc-7762-d592b7d42afc,Missing tables headers in file:260ee328-e73f-48bc-7762-d592b7d42afc.md
+Warning,265028b7-a583-f6ba-0214-5a4322f98f35,Missing tables headers in file:265028b7-a583-f6ba-0214-5a4322f98f35.md
+Warning,27732f6d-e030-4080-9684-69293a57598b,Missing tables headers in file:27732f6d-e030-4080-9684-69293a57598b.md
+Warning,2de5c77c-3fac-cfb6-3719-68df4013cf11,Missing tables headers in file:2de5c77c-3fac-cfb6-3719-68df4013cf11.md
+Warning,30d8268e-0c64-401d-8799-e8e1ba78b88f,Missing tables headers in file:30d8268e-0c64-401d-8799-e8e1ba78b88f.md
+Warning,33cb89cb-c967-760c-6bc4-94118a4f872c,Missing tables headers in file:33cb89cb-c967-760c-6bc4-94118a4f872c.md
+Warning,360854bb-e9be-a784-e80b-3f18418ded1b,Missing tables headers in file:360854bb-e9be-a784-e80b-3f18418ded1b.md
+Warning,3b355b98-dd7d-4f16-8257-367e5dd61b34,Missing tables headers in file:3b355b98-dd7d-4f16-8257-367e5dd61b34.md
+Warning,3f0853fc-f9f2-4314-ac55-47fe1e52d019,Missing tables headers in file:3f0853fc-f9f2-4314-ac55-47fe1e52d019.md
+Warning,4202cafc-9011-406d-90b3-8dabf531c90b,Missing tables headers in file:4202cafc-9011-406d-90b3-8dabf531c90b.md
+Warning,4c6d44d2-238b-42d8-896b-51d513c9e14c,Found a an ul list inside a table in html file:4c6d44d2-238b-42d8-896b-51d513c9e14c.xml
+Warning,4c6d44d2-238b-42d8-896b-51d513c9e14c,Found nested table in md file:4c6d44d2-238b-42d8-896b-51d513c9e14c.md
+Warning,4c6d44d2-238b-42d8-896b-51d513c9e14c,Fixing missing end table tag in file:4c6d44d2-238b-42d8-896b-51d513c9e14c.md
+Warning,4c6d44d2-238b-42d8-896b-51d513c9e14c,Fixing missing end table tag in file:4c6d44d2-238b-42d8-896b-51d513c9e14c.md
+Warning,4c6d44d2-238b-42d8-896b-51d513c9e14c,Fixing missing end table tag in file:4c6d44d2-238b-42d8-896b-51d513c9e14c.md
+Warning,4c6d44d2-238b-42d8-896b-51d513c9e14c,Found invalid tables saving file:4c6d44d2-238b-42d8-896b-51d513c9e14c.md
+Warning,52003a4e-1b61-2965-5204-6601652dd15b,Missing tables headers in file:52003a4e-1b61-2965-5204-6601652dd15b.md
+Warning,544c87e5-887d-82ec-bf1a-0d95027fe0ec,Missing tables headers in file:544c87e5-887d-82ec-bf1a-0d95027fe0ec.md
+Warning,5633d70c-ca3e-4b9d-8e85-ef98f85f1961,Missing tables headers in file:5633d70c-ca3e-4b9d-8e85-ef98f85f1961.md
+Warning,599bfc7d-7b62-7cc1-69ff-6db04c96a49b,Missing tables headers in file:599bfc7d-7b62-7cc1-69ff-6db04c96a49b.md
+Warning,5acca047-ff2a-716c-8dd4-b676fce1a3cf,Missing tables headers in file:5acca047-ff2a-716c-8dd4-b676fce1a3cf.md
+Warning,5f2abb1a-fcf5-4d06-9576-34a50e21c911,Missing tables headers in file:5f2abb1a-fcf5-4d06-9576-34a50e21c911.md
+Warning,6301d6b6-34fa-af8d-e682-605d35cfdf47,Missing tables headers in file:6301d6b6-34fa-af8d-e682-605d35cfdf47.md
+Warning,69e1f5bc-354c-4c33-84a1-b1aa10d4b650,Found a an ul list inside a table in html file:69e1f5bc-354c-4c33-84a1-b1aa10d4b650.xml
+Warning,69e1f5bc-354c-4c33-84a1-b1aa10d4b650,Found nested table in md file:69e1f5bc-354c-4c33-84a1-b1aa10d4b650.md
+Warning,69e1f5bc-354c-4c33-84a1-b1aa10d4b650,Fixing missing end table tag in file:69e1f5bc-354c-4c33-84a1-b1aa10d4b650.md
+Warning,69e1f5bc-354c-4c33-84a1-b1aa10d4b650,Found invalid tables saving file:69e1f5bc-354c-4c33-84a1-b1aa10d4b650.md
+Warning,6ab5924d-2e03-25df-7ce2-e13d6b69291b,Missing tables headers in file:6ab5924d-2e03-25df-7ce2-e13d6b69291b.md
+Warning,70b6ecc8-6be3-0f05-3291-ac5b7f2ecfdb,Missing tables headers in file:70b6ecc8-6be3-0f05-3291-ac5b7f2ecfdb.md
+Warning,780ade1c-88d0-04d2-ba7e-251c19c43438,Missing tables headers in file:780ade1c-88d0-04d2-ba7e-251c19c43438.md
+Warning,7b7cb295-fc77-a8b9-aac9-e548f3b4afcb,Missing tables headers in file:7b7cb295-fc77-a8b9-aac9-e548f3b4afcb.md
+Warning,84b16927-964e-24be-feaa-e0c11cf062f3,Missing tables headers in file:84b16927-964e-24be-feaa-e0c11cf062f3.md
+Warning,8b8368d2-b04b-42a5-fdc3-955fc873c2f5,Missing tables headers in file:8b8368d2-b04b-42a5-fdc3-955fc873c2f5.md
+Warning,8e5b42e3-844f-488c-ba6f-b74c447b1d59,Missing tables headers in file:8e5b42e3-844f-488c-ba6f-b74c447b1d59.md
+Warning,9124fa30-d58b-8354-91e9-8d2237a8251d,Missing tables headers in file:9124fa30-d58b-8354-91e9-8d2237a8251d.md
+Warning,9641a5a2-af6a-4999-b42b-5e9a004b47fc,Missing tables headers in file:9641a5a2-af6a-4999-b42b-5e9a004b47fc.md
+Warning,9cfbf12c-a71c-092b-d86a-c5585b0f1edb,Missing tables headers in file:9cfbf12c-a71c-092b-d86a-c5585b0f1edb.md
+Warning,9f4663ac-13d3-6c46-f839-ba6bca4047a3,Missing tables headers in file:9f4663ac-13d3-6c46-f839-ba6bca4047a3.md
+Warning,a395ca32-c315-4cd2-b93c-43c74fa017ba,Missing tables headers in file:a395ca32-c315-4cd2-b93c-43c74fa017ba.md
+Warning,a409c49b-b390-021e-2ec1-7a5932a0c8de,Missing tables headers in file:a409c49b-b390-021e-2ec1-7a5932a0c8de.md
+Warning,b72124aa-2e85-057c-9343-a40af60b91a0,Missing tables headers in file:b72124aa-2e85-057c-9343-a40af60b91a0.md
+Warning,b86242f3-dfd7-398e-a054-93db85b69752,Missing tables headers in file:b86242f3-dfd7-398e-a054-93db85b69752.md
+Warning,b94d848e-868a-5d5e-ad82-39ed9bd5b357,Missing tables headers in file:b94d848e-868a-5d5e-ad82-39ed9bd5b357.md
+Warning,c53cfe28-603c-49c5-bce6-b4401c7c5091,Missing tables headers in file:c53cfe28-603c-49c5-bce6-b4401c7c5091.md
+Warning,c64db8ea-d6ad-4fb9-97aa-958e5a0daf8f,Missing tables headers in file:c64db8ea-d6ad-4fb9-97aa-958e5a0daf8f.md
+Warning,c75f908e-c462-4608-9d27-8287d963d735,Missing tables headers in file:c75f908e-c462-4608-9d27-8287d963d735.md
+Warning,c9a80ad3-6311-fe07-b6f7-9fd63424753b,Missing tables headers in file:c9a80ad3-6311-fe07-b6f7-9fd63424753b.md
+Warning,cd1bf05a-30df-436f-856b-d5280c20b694,Missing tables headers in file:cd1bf05a-30df-436f-856b-d5280c20b694.md
+Warning,d2e01e3c-634b-4052-8ed1-87f7863cfec5,Missing tables headers in file:d2e01e3c-634b-4052-8ed1-87f7863cfec5.md
+Warning,d592a396-f935-c44c-409f-b849c327cfbd,Missing tables headers in file:d592a396-f935-c44c-409f-b849c327cfbd.md
+Warning,d67bd395-d324-217d-8ddc-1d48dd724383,Missing tables headers in file:d67bd395-d324-217d-8ddc-1d48dd724383.md
+Warning,d82986c1-3a1e-48de-b6c9-b4bc64a88ee2,Missing tables headers in file:d82986c1-3a1e-48de-b6c9-b4bc64a88ee2.md
+Warning,dcbab309-8754-40d8-94d1-5567f2989487,Missing tables headers in file:dcbab309-8754-40d8-94d1-5567f2989487.md
+Warning,de0436de-5cd6-4e13-8794-6dfbdb1e4ea0,Missing tables headers in file:de0436de-5cd6-4e13-8794-6dfbdb1e4ea0.md
+Warning,de3c35ef-84a3-b991-7c98-3eca720c9ba0,Missing tables headers in file:de3c35ef-84a3-b991-7c98-3eca720c9ba0.md
+Warning,e1bc4900-d261-f692-386b-139ef6960212,Missing tables headers in file:e1bc4900-d261-f692-386b-139ef6960212.md
+Warning,e316a424-d789-4ce5-bcc6-263049f3659e,Missing tables headers in file:e316a424-d789-4ce5-bcc6-263049f3659e.md
+Warning,ec0aac33-624e-48f7-8177-8f7b8db6af7d,Missing tables headers in file:ec0aac33-624e-48f7-8177-8f7b8db6af7d.md
+Warning,f199a97f-55d6-9297-adc4-e9f7b4b5f58b,Missing tables headers in file:f199a97f-55d6-9297-adc4-e9f7b4b5f58b.md
+Warning,f46e8aa3-d2c2-45a2-93fe-1c40107fbf16,Missing tables headers in file:f46e8aa3-d2c2-45a2-93fe-1c40107fbf16.md
+Warning,f5db43e9-687b-d467-1be1-3737e3f91c27,Missing tables headers in file:f5db43e9-687b-d467-1be1-3737e3f91c27.md
+Warning,f8054fd9-85ba-fcf6-c96d-a54095d5238c,Missing tables headers in file:f8054fd9-85ba-fcf6-c96d-a54095d5238c.md
+Warning,fad9c0fd-b523-db98-ee0d-78aad5914ff2,Missing tables headers in file:fad9c0fd-b523-db98-ee0d-78aad5914ff2.md
+Warning,fc2972da-80e9-50e2-10b3-585eb63e9103,Missing tables headers in file:fc2972da-80e9-50e2-10b3-585eb63e9103.md
+Warning,fe447899-d37a-4775-a09d-13ba3a878008,Missing tables headers in file:fe447899-d37a-4775-a09d-13ba3a878008.md
+Warning,ffe48267-d6c7-c1d0-9298-272b31fd8102,Missing tables headers in file:ffe48267-d6c7-c1d0-9298-272b31fd8102.md
+
