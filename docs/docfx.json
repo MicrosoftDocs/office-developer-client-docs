@@ -58,7 +58,8 @@
 		 "infopath/external-automation/**.md" : "external-automation",
 		 "infopath/form-templates/**.md" : "form-templates",
 		 "onenote/**.md" : "dev-overview",
-		 "outlook/**.md" : "dev-overview",		 
+		 "outlook/**.md" : "dev-overview",	
+		 "outlook/mapi/**.md" : "mapi"	 
        },
 	 "ms.prod": 
        { 
@@ -68,7 +69,7 @@
 		 "word/**.md" : "word",
 		 "infopath/**.md" : "infopath",
 		 "onenote/**.md" : "onenote",
-		 "outlook/**.md" : "outlook",
+		 "outlook/**.md" : "outlook"
        }
 	   
 	   },

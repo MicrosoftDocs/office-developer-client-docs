@@ -1,0 +1,54 @@
+---
+title: "Upload Delete Status State"
+ 
+ 
+manager: soliver
+ms.date: 3/9/2015
+ms.audience: Developer
+ 
+ 
+localization_priority: Normal
+ms.assetid: dee566ad-b46d-1015-4b0b-6c3313060142
+description: "Last modified: March 09, 2015"
+---
+
+# Upload Delete Status State
+
+ **Last modified:** March 09, 2015 
+  
+ * **Applies to:** Outlook * 
+  
+ This topic describes what happens during the upload delete status state of the replication state machine. 
+  
+## Quick Info
+
+|||
+|:-----|:-----|
+|State Identifier:  <br/> |**LR_SYNC_UPLOAD_MESSAGE_DEL** <br/> |
+|Related Data Structure:  <br/> |**[UPDEL](updel.md)** <br/> |
+|From this state:  <br/> |[Upload table state](upload-table-state.md) <br/> |
+|To this state:  <br/> |Upload table state  <br/> |
+   
+> [!NOTE]
+> The replication state machine is a deterministic state machine. A client departing from one state to another must eventually return to the former from the latter. 
+  
+## Description
+
+This state initiates updating on a server those Outlook items (mail, calendar, contact, task, note, or journal) that have been deleted in a folder on a local store specified in a preceding upload table state. During this state, Outlook initializes members in the associated **UPDEL** data structure with information for the items that have been deleted or moved from the folder. 
+  
+The client then deletes the specified items in the folder on the server. To distinguish items that have been moved as opposed to having been deleted, the client must check the  *pupmov*  members identified in the **UPDEL** structure. 
+  
+When this state ends, Outlook clears the internal information indicating that the item has been deleted; consequently, Outlook will no longer have a record of the item. The local store returns to the upload table state.
+  
+## See also
+
+#### Concepts
+
+[About the Replication API](about-the-replication-api.md)
+  
+[MAPI Constants](mapi-constants.md)
+  
+[About the Replication State Machine](about-the-replication-state-machine.md)
+  
+[SYNCSTATE](syncstate.md)
+

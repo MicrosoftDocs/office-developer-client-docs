@@ -1,0 +1,38 @@
+---
+title: "HandsOffFromNormal State"
+ 
+ 
+manager: soliver
+ms.date: 3/9/2015
+ms.audience: Developer
+ 
+ 
+localization_priority: Normal
+api_type:
+- COM
+ms.assetid: 1afe6a2e-a5e6-4844-9f82-908894fc6759
+description: "Last modified: March 09, 2015"
+---
+
+# HandsOffFromNormal State
+
+ **Last modified:** March 09, 2015 
+  
+ * **Applies to:** Outlook * 
+  
+The HandsOffFromNormal state is very similar to the [HandsOffAfterSave](handsoffaftersave-state.md) state. It is part of the process of saving the contents of a form to permanent storage. When in this state, the form object should refrain from making changes to the in-memory copies of values of the message's properties, because there may not be another opportunity to save those changes. The following table describes allowed transitions from the HandsOffFromNormal state. 
+  
+|****IPersistMessage** method**|**Action**|**New state**|
+|:-----|:-----|:-----|
+|[IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md)(  _pMessage !=_ NULL)  <br/> |Replace the message object's message with  _pMessage_, which is the replacement for the message revoked by the previous call to [IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md). The data in the new message is guaranteed to be the same as in the revoked message. The message should not be marked as clean, nor should [IMAPIViewAdviseSink::OnSaved](imapiviewadvisesink-onsaved.md) be called after this call. If the **SaveCompleted** call succeeds, enter the [Normal](normal-state.md) state. Otherwise, stay in the HandsOffFromNormal state.  <br/> |Normal or HandsOffFromNormal  <br/> |
+|**IPersistMessage::SaveCompleted**(  _pMessage ==_ NULL)  <br/> |Set the last error to E_UNEXPECTED.  <br/> |HandsOffFromNormal  <br/> |
+|**HandsOffMessage**, [IPersistMessage::Save](ipersistmessage-save.md), [IPersistMessage::InitNew](ipersistmessage-initnew.md), or [IPersistMessage::Load](ipersistmessage-load.md) <br/> |Set the last error to E_UNEXPECTED.  <br/> |HandsOffFromNormal  <br/> |
+|[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |Return the last error.  <br/> |HandsOffFromNormal  <br/> |
+|Other [IPersistMessage : IUnknown](ipersistmessageiunknown.md) methods or methods from other interfaces  <br/> |Set the last error to E_UNEXPECTED.  <br/> |HandsOffFromNormal  <br/> |
+   
+## See also
+
+#### Concepts
+
+[Form States](form-states.md)
+
