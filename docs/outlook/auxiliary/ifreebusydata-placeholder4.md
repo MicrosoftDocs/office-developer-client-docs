@@ -1,12 +1,12 @@
 ---
 title: "IFreeBusyDataPlaceholder4"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-ms.topic: reference
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: 58119969-1d56-5b38-57ac-d8adf5097ef0
 description: "This member is a placeholder and is not supported."

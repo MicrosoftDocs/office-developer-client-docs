@@ -1,12 +1,12 @@
 ---
 title: "IOlkErrorUnknownGetLastError"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
-ms.topic: reference
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: 3f332de3-470d-9bc2-0c65-684bb58bcd7a
 description: "Gets a message string for the specified error."

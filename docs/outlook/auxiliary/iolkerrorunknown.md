@@ -1,15 +1,14 @@
 ---
 title: "IOlkErrorUnknown"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
-ms.topic: reference
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: 9cfbf12c-a71c-092b-d86a-c5585b0f1edb
-
 ---
 
 # IOlkErrorUnknown

@@ -1,12 +1,12 @@
 ---
 title: "PROP_ACCT_USER_EMAIL_ADDR"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
-ms.topic: reference
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: fe447899-d37a-4775-a09d-13ba3a878008
 description: "Specifies the email address for the account."

@@ -1,12 +1,12 @@
 ---
 title: "How to Parse a stream from a binary property to read the TZREG structure"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-ms.topic: overview
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: 9e36e0d9-a28b-5978-0e23-f76e1bf506b5
 description: "This topic shows how to read the TZREG structure from the persisted format stored in the binary property PidLidTimeZoneStruct."

@@ -1,12 +1,12 @@
 ---
 title: "PROP_ACCT_USER_DISPLAY_NAME"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
-ms.topic: reference
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: ffe48267-d6c7-c1d0-9298-272b31fd8102
 description: "Returns or sets the user display name."

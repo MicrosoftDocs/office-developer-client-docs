@@ -1,12 +1,12 @@
 ---
 title: "PROP_MAPI_IDENTITY_ENTRYID"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
-ms.topic: reference
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: c64db8ea-d6ad-4fb9-97aa-958e5a0daf8f
 description: "Retrieves or sets the address book entry ID for the account."

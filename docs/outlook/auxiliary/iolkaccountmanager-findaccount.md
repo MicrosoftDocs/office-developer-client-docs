@@ -1,12 +1,12 @@
 ---
 title: "IOlkAccountManagerFindAccount"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
-ms.topic: reference
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: 31004aec-7bd2-6e12-83eb-1a32da121c54
 description: "Finds an account by property value."

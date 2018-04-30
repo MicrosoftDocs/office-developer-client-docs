@@ -1,12 +1,12 @@
 ---
 title: "Outlook"
-ms.author: lindalu
-author: lindalu
+ 
+ 
 manager: kelbow
 ms.date: 12/13/2017
 ms.audience: Developer
-ms.topic: overview
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: 59d639e4-d171-4556-a1b9-bf9ecb1f85cf
 description: "Find how-to content, sample code, SDK and API documentation, VBA references, training, and technical articles for developing solutions and customizing Outlook."

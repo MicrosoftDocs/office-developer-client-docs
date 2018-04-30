@@ -1,15 +1,14 @@
 ---
 title: "New in Outlook for developers"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 9/17/2015
 ms.audience: Developer
-ms.topic: overview
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: 4c6d44d2-238b-42d8-896b-51d513c9e14c
-
 description: "This document provides a top-level view of the additions and enhancements for developers in Microsoft Outlook 2013, including mail apps, third party weather data services for the Weather Bar, and inline response. The document also describes changes to the Outlook Social Connector, Office Mobile Service, support for Outlook 2013 coexisting with a previous version of Outlook, and new performance criteria for add-ins. For developers who are ready to get a jump start on the Outlook platform, this document provides you with sufficient information to begin coding against Outlook 2013."
 ---
 

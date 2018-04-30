@@ -1,12 +1,12 @@
 ---
 title: "PROP_MAPI_TRANSPORT_FLAGS"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
-ms.topic: reference
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: 12cfe096-6882-c0be-b248-87567cb71e83
 description: "Represents transport settings that Outlook uses to determine the necessary synchronization tasks and to disable the user interface (UI) elements that the account does not support."

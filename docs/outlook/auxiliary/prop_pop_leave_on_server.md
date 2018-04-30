@@ -1,12 +1,12 @@
 ---
 title: "PROP_POP_LEAVE_ON_SERVER"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
-ms.topic: overview
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: 22d7c1e8-48b9-4768-b4de-9a9f32a3aabb
 description: "Specifies leaving a copy of a message on the server for a POP account."

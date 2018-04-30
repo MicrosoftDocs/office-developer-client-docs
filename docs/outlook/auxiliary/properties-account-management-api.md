@@ -1,12 +1,12 @@
 ---
 title: "Properties (Account management API)"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
-ms.topic: overview
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: a5204ddd-5af4-4dd8-bc83-af96ac390786
 description: "This section describes the properties in the Account Management API."

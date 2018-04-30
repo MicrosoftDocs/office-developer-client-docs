@@ -1,12 +1,12 @@
 ---
 title: "IEnumFBBlockClone"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
-ms.topic: reference
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: 5af36a87-e782-df63-4190-a608758fef50
 description: "Creates a copy of the enumerator, using the same time restriction but setting the cursor to the beginning of the enumerator."

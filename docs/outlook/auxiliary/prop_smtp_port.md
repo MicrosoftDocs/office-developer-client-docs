@@ -1,12 +1,12 @@
 ---
 title: "PROP_SMTP_PORT"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
-ms.topic: overview
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: 5f2abb1a-fcf5-4d06-9576-34a50e21c911
 description: "Represents the port number of the SMTP account."

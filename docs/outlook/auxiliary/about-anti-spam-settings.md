@@ -1,12 +1,12 @@
 ---
 title: "About anti-spam settings"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
-ms.topic: overview
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: 04e00e49-c12d-4517-8574-410741d0fa06
 description: "Outlook allows users to specify settings for each account to help protect the account from spam. Such anti-spam settings are stored in a section designated for that account in the user's profile. Use the PROP_ACCT_PREFERENCES_UID property to obtain the unique ID (UID) for the section in the profile that stores the user's preferences for this account, including the anti-spam settings."

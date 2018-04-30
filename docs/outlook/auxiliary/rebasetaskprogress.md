@@ -1,12 +1,12 @@
 ---
 title: "RebaseTaskProgress"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
-ms.topic: overview
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: 8b8368d2-b04b-42a5-fdc3-955fc873c2f5
 description: "Reports progress for enumeration and rebasing of appointments."

@@ -1,12 +1,12 @@
 ---
 title: "About registering a new domain for automatic configuration"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
-ms.topic: overview
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: a7ab8a50-dd30-4ba5-b6d8-e6d1f482e6f1
 description: "Outlook provides a way to specify a new message service domain for automatic configuration and allow the message service provider to configure the account."

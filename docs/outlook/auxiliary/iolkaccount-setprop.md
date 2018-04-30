@@ -1,12 +1,12 @@
 ---
 title: "IOlkAccountSetProp"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
-ms.topic: reference
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: 883b1c5d-47dd-a006-b5f1-130691bdd019
 description: "Sets the value of the specified account property."

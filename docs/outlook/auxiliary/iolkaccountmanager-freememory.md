@@ -1,12 +1,12 @@
 ---
 title: "IOlkAccountManagerFreeMemory"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-ms.topic: reference
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: acb67186-ab38-e918-5402-2526307a5bd0
 description: "Frees memory allocated by the IOlkAccountManager interface."

@@ -1,15 +1,14 @@
 ---
 title: "IOlkAccountNotify"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
-ms.topic: reference
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: 360854bb-e9be-a784-e80b-3f18418ded1b
-
 ---
 
 # IOlkAccountNotify

@@ -1,12 +1,12 @@
 ---
 title: "PROP_ACCT_MINI_UID"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
-ms.topic: overview
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: 30d8268e-0c64-401d-8799-e8e1ba78b88f
 description: "Returns an account identifier that is unique across Outlook profiles."

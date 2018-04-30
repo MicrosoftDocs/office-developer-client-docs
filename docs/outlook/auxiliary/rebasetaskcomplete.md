@@ -1,12 +1,12 @@
 ---
 title: "RebaseTaskComplete"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
-ms.topic: overview
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: 2de5c77c-3fac-cfb6-3719-68df4013cf11
 description: "Reports completion for rebasing of appointments."

@@ -1,12 +1,12 @@
 ---
 title: "PROP_SMTP_PASSWORD"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
-ms.topic: overview
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: dcbab309-8754-40d8-94d1-5567f2989487
 description: "Represents the password of the SMTP account."

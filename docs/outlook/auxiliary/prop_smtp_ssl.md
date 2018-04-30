@@ -1,12 +1,12 @@
 ---
 title: "PROP_SMTP_SSL"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
-ms.topic: overview
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: f46e8aa3-d2c2-45a2-93fe-1c40107fbf16
 description: "Specifies whether to use Secure Socket Layer (SSL) protocol for the SMTP account."

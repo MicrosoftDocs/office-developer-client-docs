@@ -1,15 +1,14 @@
 ---
 title: "IOlkAccountHelper"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 12/7/2015
 ms.audience: Developer
-ms.topic: reference
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: fc2972da-80e9-50e2-10b3-585eb63e9103
-
 ---
 
 # IOlkAccountHelper

@@ -1,12 +1,12 @@
 ---
 title: "IEnumFBBlockRestrict"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-ms.topic: reference
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: 887cea55-8f1c-45ec-3100-d03e1213d7c9
 description: "Restricts the enumeration to a specified time period."

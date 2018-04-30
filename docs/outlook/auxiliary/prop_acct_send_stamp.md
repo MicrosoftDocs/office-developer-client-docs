@@ -1,12 +1,12 @@
 ---
 title: "PROP_ACCT_SEND_STAMP"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
-ms.topic: reference
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: b86242f3-dfd7-398e-a054-93db85b69752
 description: "Returns the accountsendstamp."

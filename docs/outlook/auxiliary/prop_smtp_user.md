@@ -1,12 +1,12 @@
 ---
 title: "PROP_SMTP_USER"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
-ms.topic: overview
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: c75f908e-c462-4608-9d27-8287d963d735
 description: "Represents the user name for the SMTP account."

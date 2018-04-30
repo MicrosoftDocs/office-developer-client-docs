@@ -1,12 +1,12 @@
 ---
 title: "IOlkAccountSaveChanges"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
-ms.topic: reference
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: 8f1ab61e-7d1c-50d5-ae21-8cb4b08d729c
 description: "Commits changes to the account object by writing to the registry store."

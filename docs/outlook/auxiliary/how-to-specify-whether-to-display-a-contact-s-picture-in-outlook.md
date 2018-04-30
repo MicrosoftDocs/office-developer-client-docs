@@ -1,12 +1,12 @@
 ---
 title: "code similar to the code sample in this topic to achieve the same in your managed Outlook solution.'"
-ms.author: mroberts
-author: mroberts
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
-ms.topic: overview
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: 0c518245-2c52-435d-98ad-ffad72a4527b
 description: "This topic shows how to use the dispidShowSenderPhoto dispatch ID to invoke the corresponding method on a Microsoft Outlook Explorer or Inspector object, to specify whether to display a contact's picture in the explorer or inspector window, according to a Boolean argument. Specifying true as the argument turns on the display, and false turns off the display. Note that the solution does not require the Outlook object model, but nonetheless, you can use C# code similar to the code sample in this topic to achieve the same in your managed Outlook solution."

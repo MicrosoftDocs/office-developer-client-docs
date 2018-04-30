@@ -1,12 +1,12 @@
 ---
 title: "PidTagPrimarySendAccount"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
-ms.topic: overview
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: e1bc4900-d261-f692-386b-139ef6960212
 description: "Specifies the primary accountsendstamp for a message."

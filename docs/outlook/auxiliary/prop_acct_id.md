@@ -1,12 +1,12 @@
 ---
 title: "PROP_ACCT_ID"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
-ms.topic: reference
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: b72124aa-2e85-057c-9343-a40af60b91a0
 description: "Returns an identifier that uniquely identifies an account within the profile in which the account is created."

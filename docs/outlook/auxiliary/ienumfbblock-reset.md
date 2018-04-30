@@ -1,12 +1,12 @@
 ---
 title: "IEnumFBBlockReset"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-ms.topic: reference
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: 54bd69c3-a9fa-d2ac-9a91-67187c92fc8a
 description: "Resets the enumerator by setting the cursor to the beginning."

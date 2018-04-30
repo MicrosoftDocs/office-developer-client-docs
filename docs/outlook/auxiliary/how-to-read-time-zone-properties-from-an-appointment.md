@@ -1,12 +1,12 @@
 ---
 title: "How to Read time zone properties from an appointment"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-ms.topic: overview
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: ba1b9425-6c16-cab2-da0a-a21734118098
 description: "This topic shows a function, ReadTimeZones, that calls the two functions, BinToTZDEFINITION and BinToTZREG, to read the time zone properties, PidLidAppointmentTimeZoneDefinitionStartDisplay and PidLidTimeZoneStruct, from an appointment."

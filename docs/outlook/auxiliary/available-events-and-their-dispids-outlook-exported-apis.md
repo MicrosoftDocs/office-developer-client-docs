@@ -1,12 +1,12 @@
 ---
 title: "Available events and their dispids (Outlook exported APIs)"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
-ms.topic: overview
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: 1fd848c7-038e-4e2f-8997-c8509b31df79
 description: "This section describes the dispatch identifiers for the events that Outlook makes available."

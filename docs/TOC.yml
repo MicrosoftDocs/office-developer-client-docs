@@ -753,6 +753,51 @@
                 href: outlook/social-connector/testing-activities.md
             - name: Reference
               href: https://msdn.microsoft.com/en-us/library/office/ff759382.aspx
+          - name: Extending the Weather Bar in Outlook
+            href: outlook/weather/extending-the-weather-bar-in-outlook.md
+            items:
+            - name: Outlook Weather Information XML Schema
+              href: outlook/weather/outlook-weather-information-xml-schema.md
+              items:
+              - name: Schema map
+                href: outlook/weather/schema-map-outlook-weather-information-schema.md
+              - name: Elements
+                href: outlook/weather/elements-outlook-weather-information-schema.md
+                items:
+                - name: current element
+                  href: outlook/weather/current-element-weathertype-complextypeoutlook-weather-information-schema.md
+                - name: forecast element
+                  href: outlook/weather/forecast-element-weathertype-complextypeoutlook-weather-information-schema.md
+                - name: weather element
+                  href: outlook/weather/weather-element-weatherdata-elementoutlook-weather-information-schema.md
+                - name: weatherdata element
+                  href: outlook/weather/weatherdata-element-outlook-weather-information-schema.md
+              - name: Types
+                href: outlook/weather/types-outlook-weather-information-schema.md
+                items:
+                - name: currentType complexType
+                  href: outlook/weather/currenttype-complextype-outlook-weather-information-schema.md
+                - name: forecastType complexType
+                  href: outlook/weather/forecasttype-complextype-outlook-weather-information-schema.md
+                - name: weatherType complexType
+                  href: outlook/weather/weathertype-complextype-outlook-weather-information-schema.md
+            - name: Outlook Weather Location XML Schema
+              href: outlook/weather/outlook-weather-location-xml-schema.md
+              items:
+              - name: Schema map
+                href: outlook/weather/schema-map-outlook-weather-location-schema.md
+              - name: Elements
+                href: outlook/weather/elements-outlook-weather-location-schema.md
+                items:
+                - name: weather element
+                  href: outlook/weather/weather-element-weatherdata-elementoutlook-weather-location-schema.md
+                - name: weatherdata element
+                  href: outlook/weather/weatherdata-element-outlook-weather-location-schema.md
+              - name: Types
+                href: outlook/weather/types-outlook-weather-location-schema.md
+                items:
+                - name: weatherType complexType
+                  href: outlook/weather/weathertype-complextype-outlook-weather-location-schema.md          
           - name: Outlook auxiliary reference
             href: outlook/auxiliary/welcome-to-the-outlook-auxiliary-reference.md
             items:

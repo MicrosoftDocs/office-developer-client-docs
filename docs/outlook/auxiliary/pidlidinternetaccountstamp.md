@@ -1,12 +1,12 @@
 ---
 title: "PidLidInternetAccountStamp"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
-ms.topic: overview
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: 52003a4e-1b61-2965-5204-6601652dd15b
 description: "Returns the account stamp of the account that delivered the message."

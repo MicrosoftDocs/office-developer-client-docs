@@ -1,12 +1,12 @@
 ---
 title: "IOlkEnumReset"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-ms.topic: reference
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: cd822240-a895-65da-6a0e-76657c15a69e
 description: "Resets the enumerator to the beginning."

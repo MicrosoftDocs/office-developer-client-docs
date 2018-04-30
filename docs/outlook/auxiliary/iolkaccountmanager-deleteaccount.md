@@ -1,12 +1,12 @@
 ---
 title: "IOlkAccountManagerDeleteAccount"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
-ms.topic: reference
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: df210364-fe20-8e33-a455-9902f04ec739
 description: "Deletes the specified account."

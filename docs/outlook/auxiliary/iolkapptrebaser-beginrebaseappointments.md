@@ -1,12 +1,12 @@
 ---
 title: "IOlkApptRebaserBeginRebaseAppointments"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-ms.topic: reference
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: ed50422e-9edf-4b73-1789-340b70532621
 description: "Begins a task for appointment rebasing given a list of appointments, usually obtained from IOlkApptRebaser::EndEnumerateAppointments."

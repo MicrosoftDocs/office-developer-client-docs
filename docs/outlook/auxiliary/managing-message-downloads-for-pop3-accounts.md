@@ -1,12 +1,12 @@
 ---
 title: "Managing message downloads for POP3 accounts"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-ms.topic: overview
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: b4218aa6-1591-49db-9782-f286135fc79a
 description: "This section describes how the POP3 provider of Outlook uses the Unique ID Listing (UIDL) history on a POP3 account to identify messages that the provider has downloaded or deleted from the POP3 server, to avoid downloading the same message more than once."

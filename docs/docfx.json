@@ -61,7 +61,8 @@
 		 "outlook/**.md" : "dev-overview",	
 		 "outlook/mapi/**.md" : "mapi",
 		 "outlook/social-connector/**.md" : "social-connector",
-		 "outlook/auxiliary/**.md" : "auxiliary"
+		 "outlook/auxiliary/**.md" : "auxiliary",
+		 "outlook/weather/**.md" : "weather",
 		 
        },
 	 "ms.prod": 

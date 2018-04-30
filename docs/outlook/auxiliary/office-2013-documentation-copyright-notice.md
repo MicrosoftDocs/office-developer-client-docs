@@ -1,12 +1,12 @@
 ---
 title: "Office 2013 documentation copyright notice"
-ms.author: umas
-author: umas
+ 
+ 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-ms.topic: overview
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: a9c2f3d9-cea2-49a3-b709-40dc614b9f86
 description: "This document is providedas-is. Information and views expressed in this document, including URL and other Internet Web site references, may change without notice. You bear the risk of using it."

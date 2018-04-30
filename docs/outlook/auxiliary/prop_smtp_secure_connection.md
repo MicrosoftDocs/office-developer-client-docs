@@ -1,12 +1,12 @@
 ---
 title: "PROP_SMTP_SECURE_CONNECTION"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
-ms.topic: overview
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: e316a424-d789-4ce5-bcc6-263049f3659e
 description: "Specifies the type of encrypted connection to use for an SMTP account."

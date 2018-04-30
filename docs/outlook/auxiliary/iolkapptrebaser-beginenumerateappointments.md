@@ -1,12 +1,12 @@
 ---
 title: "IOlkApptRebaserBeginEnumerateAppointments"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-ms.topic: reference
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: 8946703a-aaa8-6b3f-aa68-931365db620d
 description: "Begins a task for appointment enumeration in a calendar folder to find the appointments that need rebasing."

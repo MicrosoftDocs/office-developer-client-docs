@@ -1,12 +1,12 @@
 ---
 title: "PROP_SMTP_USE_AUTH"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
-ms.topic: overview
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: c53cfe28-603c-49c5-bce6-b4401c7c5091
 description: "Specifies whether to use authentication for the SMTP account."

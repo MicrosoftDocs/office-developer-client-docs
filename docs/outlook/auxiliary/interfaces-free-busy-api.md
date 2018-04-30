@@ -1,12 +1,12 @@
 ---
 title: "Interfaces (Free/busy API)"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
-ms.topic: overview
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: 85bcd5b9-321a-489d-9304-e7bd11e1fb2c
 description: "This section describes the interfaces in the Free/Busy API."

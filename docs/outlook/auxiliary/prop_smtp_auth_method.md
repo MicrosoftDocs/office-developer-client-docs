@@ -1,12 +1,12 @@
 ---
 title: "PROP_SMTP_AUTH_METHOD"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
-ms.topic: overview
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: 4202cafc-9011-406d-90b3-8dabf531c90b
 description: "Specifies the authentication method to use for the SMTP account."

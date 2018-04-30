@@ -1,12 +1,12 @@
 ---
 title: "IEnumFBBlockNext"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
-ms.topic: reference
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: 9b46358c-bcab-f097-8746-fabfd4722b3c
 description: "Gets the next specified number of blocks of free/busy data in an enumeration."

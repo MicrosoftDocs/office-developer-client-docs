@@ -1,0 +1,27 @@
+---
+title: "Elements (Outlook Weather Information Schema)"
+ 
+ 
+manager: soliver
+ms.date: 11/16/2014
+ms.audience: Developer
+ms.topic: reference
+ 
+localization_priority: Normal
+ms.assetid: 45fbc451-06f0-133d-9818-55574e202091
+description: "This topic lists the elements in the Outlook Weather Information XML schema."
+---
+
+# Elements (Outlook Weather Information Schema)
+
+This topic lists the elements in the Outlook Weather Information XML schema.
+  
+- [current element](current-element-weathertype-complextypeoutlook-weather-information-schema.md)
+    
+- [forecast element](forecast-element-weathertype-complextypeoutlook-weather-information-schema.md)
+    
+- [weather element](weather-element-weatherdata-elementoutlook-weather-information-schema.md)
+    
+- [weatherdata element](weatherdata-element-outlook-weather-information-schema.md)
+    
+

@@ -1,15 +1,14 @@
 ---
 title: "IOlkEnum"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 12/8/2015
 ms.audience: Developer
-ms.topic: reference
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: 33cb89cb-c967-760c-6bc4-94118a4f872c
-
 ---
 
 # IOlkEnum

@@ -1,12 +1,12 @@
 ---
 title: "PidLidInternetAccountName"
-ms.author: soliver
-author: soliver
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
-ms.topic: overview
-ms.prod: office-online-server
+ 
+ 
 localization_priority: Normal
 ms.assetid: 5acca047-ff2a-716c-8dd4-b676fce1a3cf
 description: "Returns the display name of the account that delivered the message."
