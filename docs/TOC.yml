@@ -635,21 +635,21 @@
                 - name: Class library reference for InfoPath external automation
                   href: https://msdn.microsoft.com/en-us/library/office/ff663147.aspx          
      - name: OneNote
-      href: onenote/onenote.md
-      items:
-      - name: OneNote developer reference
-        href: onenote/onenote-developer-reference.md
-        items:
-        - name: Window interfaces
-          href: 
-        - name: Quick Filing dialog box interfaces
-          href: 
-        - name: Application interface
-          href: 
-        - name: Enumerations
-          href: 
-        - name: Error codes
-          href:   
+       href: onenote/onenote.md
+       items:
+          - name: OneNote developer reference
+            href: onenote/onenote-developer-reference.md
+            items:
+            - name: Window interfaces
+              href: 
+            - name: Quick Filing dialog box interfaces
+              href: 
+            - name: Application interface
+              href: 
+            - name: Enumerations
+              href: 
+            - name: Error codes
+              href:   
      - name: Project
        href: project.md
        items:
@@ -1049,7 +1049,7 @@
             href: https://msdn.microsoft.com/en-us/library/ee861527.aspx
           - name: Word Primary Interop Assembly Reference
             href: https://msdn.microsoft.com/en-us/library/ff597928.aspx
-     - name: SwayURI
+     - name: Sway URI scheme
        href: swayuri.md
      - name: Office URI Schemes
        href: office-uri-schemes.md
