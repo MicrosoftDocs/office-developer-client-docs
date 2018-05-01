@@ -20,7 +20,7 @@ Android 4.4 (API level 19) introduces the Storage Access Framework (SAF). The SA
   
 ## Implement a document provider
 
-If you're developing an app that provides storage services for documents, you can make your files available through the SAF by [writing a custom document provider](https://developer.android.com/guide/topics/providers/document-provider.mdl). Office apps can then invoke the [ACTION_OPEN_DOCUMENT](https://developer.android.com/reference/android/content/Intent.mdl) and/or [ACTION_CREATE_DOCUMENT](https://developer.android.com/reference/android/content/Intent.mdl) intent to receive the files returned by your document provider. Note that the intent might include filters to further refine the criteria. 
+If you're developing an app that provides storage services for documents, you can make your files available through the SAF by [writing a custom document provider](https://developer.android.com/guide/topics/providers/document-provider.html). Office apps can then invoke the [ACTION_OPEN_DOCUMENT](https://developer.android.com/reference/android/content/Intent.html) and/or [ACTION_CREATE_DOCUMENT](https://developer.android.com/reference/android/content/Intent.html) intent to receive the files returned by your document provider. Note that the intent might include filters to further refine the criteria. 
   
 ## Enable free consumer edits
 
@@ -37,10 +37,10 @@ Users can sign in to the Office apps with a free Microsoft account to create or 
 
 - [Integrate with Office](integrate-with-office.md)
     
-- [Content Provider Basics](https://developer.android.com/guide/topics/providers/content-provider-basics.mdl)
+- [Content Provider Basics](hhttps://developer.android.com/guide/topics/providers/content-provider-basics.html)
     
-- [Creating a Content Provider](https://developer.android.com/guide/topics/providers/content-provider-creating.mdl)
+- [Creating a Content Provider](https://developer.android.com/guide/topics/providers/content-provider-creating.html)
     
-- [Storage Access Framework Developer Guide](https://developer.android.com/guide/topics/providers/document-provider.mdl)
+- [Storage Access Framework Developer Guide](https://developer.android.com/guide/topics/providers/document-provider.html)
     
 

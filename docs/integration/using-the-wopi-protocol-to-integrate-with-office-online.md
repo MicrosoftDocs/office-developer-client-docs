@@ -14,6 +14,6 @@ description: "This content is no longer available at this location. To continue,
 
 # Using the WOPI protocol to integrate with Office Online
 
-This content is no longer available at this location. To continue, see [Using the WOPI protocol to integrate with Office Online](https://wopi.readthedocs.org/en/latest/intro.mdl) on GitHub. 
+This content is no longer available at this location. To continue, see [Using the WOPI protocol to integrate with Office Online](https://wopi.readthedocs.org/en/latest/intro.html) on GitHub. 
   
 

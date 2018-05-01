@@ -32,11 +32,11 @@ Your referring application will first need to verify that a particular Office ap
     
 - Word
     
-Use the [canOpenURL](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplication_Class/index.mdl) method to determine whether your application can open the resource. This method takes the URL for the resource as a parameter, and returns **No** if the application that accepts the URL is not available. If **canOpenURL** returns **No**, you'll need to prompt the user to install Office.
+Use the [canOpenURL](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplication_Class/index.html) method to determine whether your application can open the resource. This method takes the URL for the resource as a parameter, and returns **No** if the application that accepts the URL is not available. If **canOpenURL** returns **No**, you'll need to prompt the user to install Office.
   
 ### Prompt the user to install Office
 
- If a particular Office application is not installed, you can use an [SKProductViewController](https://developer.apple.com/library/ios/documentation/StoreKit/Reference/SKITunesProductViewController_Ref/index.mdl) object to render the iTunes app store in your application and show the user the Office application to install. The following table lists the iTunes identifier to use to invoke each Office application in the Store Kit Product View Controller. 
+ If a particular Office application is not installed, you can use an [SKProductViewController](https://developer.apple.com/library/ios/documentation/StoreKit/Reference/SKITunesProductViewController_Ref/index.html) object to render the iTunes app store in your application and show the user the Office application to install. The following table lists the iTunes identifier to use to invoke each Office application in the Store Kit Product View Controller. 
   
 |**Office application**|**iTunes identifier**|
 |:-----|:-----|
@@ -130,10 +130,10 @@ Schema format:
 ## Additional resources
 <a name="bk_addresources"> </a>
 
-- [canOpenURL method](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplication_Class/index.mdl)
+- [canOpenURL method](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplication_Class/index.html)
     
-- [UIApplication class](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplication_Class/index.mdl)
+- [UIApplication class](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplication_Class/index.html)
     
-- [SKProductViewController object](https://developer.apple.com/library/ios/documentation/StoreKit/Reference/SKITunesProductViewController_Ref/index.mdl)
+- [SKProductViewController object](https://developer.apple.com/library/ios/documentation/StoreKit/Reference/SKITunesProductViewController_Ref/index.html)
     
 

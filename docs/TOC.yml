@@ -16,7 +16,7 @@
             href: integration/office-for-android-support-for-the-android-storage-access-framework.md
           - name: Integrate with Office from Android applications
             href: integration/integrate-with-office-from-android-applications.md
-     - name: Office Online Server Preview
+     - name: Office Online Server
        href: configure-udfs-in-excel-online-in-office-online-server-preview.md
      - name: Office for Mac
        href: https://msdn.microsoft.com/en-us/library/office/mt654019.aspx
@@ -39,7 +39,7 @@
        - name: Office VBA Object library reference
          href: https://msdn.microsoft.com/en-us/library/office/ff862474.aspx
        - name: Office VBA language reference
-         href: shttps://msdn.microsoft.com/en-us/library/office/gg264383.aspx
+         href: https://msdn.microsoft.com/en-us/library/office/gg264383.aspx
        - name: Office Primary Interop Assembly Reference
          href: https://msdn.microsoft.com/en-us/library/office/ff597925.aspx
        - name: Open XML SDK 2.5
@@ -2094,7 +2094,10 @@
             - name: Reference
               href: https://msdn.microsoft.com/EN-US/library/office/cc842118.aspx
      - name: PowerPoint
-       href: https://msdn.microsoft.com/en-us/library/office/ee861525.aspx
+       href: 
+       items:
+        - name: PowerPoint VBA reference
+          href: https://msdn.microsoft.com/en-us/library/office/ee861525.aspx
      - name: Project
        href: project.md
        items:

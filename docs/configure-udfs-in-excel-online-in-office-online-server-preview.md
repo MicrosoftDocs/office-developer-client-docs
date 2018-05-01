@@ -77,9 +77,9 @@ Use the following Windows PowerShell cmdlets to work with UDFs:
 
 The following files provide a sample workbook that uses a UDF and the UDF binary:
   
-- [BooleanDataType.xlsx](http://download.microsoft.com/download/6/7/F/67F724FD-1186-4209-BFF1-FBFD99E959D9/User Defined Function Assemblies/BooleanDataType.xlsx) -- a sample workbook that uses a UDF 
+- [BooleanDataType.xlsx](http://download.microsoft.com/download/6/7/F/67F724FD-1186-4209-BFF1-FBFD99E959D9/User%20Defined%20Function%20Assemblies/BooleanDataType.xlsx) -- a sample workbook that uses a UDF 
     
-- [EcsUdfsCommonSet.dll](http://download.microsoft.com/download/6/7/F/67F724FD-1186-4209-BFF1-FBFD99E959D9/User Defined Function Assemblies/EcsUdfsCommonSet.dll) -- the UDF binary 
+- [EcsUdfsCommonSet.dll](http://download.microsoft.com/download/6/7/F/67F724FD-1186-4209-BFF1-FBFD99E959D9/User%20Defined%20Function%20Assemblies/EcsUdfsCommonSet.dll) -- the UDF binary 
     
 ## Additional resources
 <a name="bk_addresources"> </a>
