@@ -2093,6 +2093,8 @@
                     href: outlook/mapi/loading-message-store-providers.md
             - name: Reference
               href: https://msdn.microsoft.com/EN-US/library/office/cc842118.aspx
+     - name: PowerPoint
+       href: https://msdn.microsoft.com/en-us/library/office/ee861525.aspx
      - name: Project
        href: project.md
        items:
@@ -2483,6 +2485,11 @@
                    href: https://msdn.microsoft.com/en-us/library/office/ee767707.aspx
                  - name: JavaScript API reference
                    href: https://msdn.microsoft.com/en-us/library/office/jj712612.aspx
+     - name: Publisher
+       href: 
+       items: 
+        - name: Publisher VBA reference
+          href: https://msdn.microsoft.com/en-us/library/office/ee861522.aspx
      - name: Visio
        href: visio/visio.md
        items:
