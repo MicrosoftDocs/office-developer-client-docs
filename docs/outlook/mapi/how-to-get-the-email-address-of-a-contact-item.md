@@ -1,15 +1,13 @@
 ---
 title: "How to Get the Email Address of a Contact Item"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 032f7242-5500-1e21-06d3-b2d947eb1043
 description: "Last modified: June 25, 2012"
+ 
+ 
 ---
 
 # How to: Get the Email Address of a Contact Item

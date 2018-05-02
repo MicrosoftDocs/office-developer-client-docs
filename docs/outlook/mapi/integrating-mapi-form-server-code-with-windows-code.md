@@ -1,17 +1,15 @@
 ---
 title: "Integrating MAPI Form Server Code with Windows Code"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 47ec3e97-ad2b-43ea-842a-b2a0675eef48
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Integrating MAPI Form Server Code with Windows Code

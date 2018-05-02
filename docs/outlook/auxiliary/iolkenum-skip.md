@@ -1,15 +1,13 @@
 ---
 title: "IOlkEnumSkip"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: e83e409c-f201-df9d-5e30-879adf15318d
 description: "Skips a specified number of accounts in the enumerator."
+ 
+ 
 ---
 
 # IOlkEnum::Skip

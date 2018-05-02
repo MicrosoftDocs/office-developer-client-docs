@@ -1,17 +1,15 @@
 ---
 title: "Profile Tables"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: cd8d60df-98fb-4e08-b547-0836bb31be79
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Profile Tables

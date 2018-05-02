@@ -1,15 +1,13 @@
 ---
 title: "How to Obtain a Contact Message Given a Contacts Address Book Entry"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: a263894b-b3da-f1e4-a7da-ca3695bddc94
 description: "Last modified: August 13, 2013"
+ 
+ 
 ---
 
 # How to: Obtain a Contact Message Given a Contacts Address Book Entry

@@ -1,17 +1,15 @@
 ---
 title: "Receiving Messages by Using Message Store Providers"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 4763951e-ccfd-453e-b99c-5c7d5efb90c2
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Receiving Messages by Using Message Store Providers

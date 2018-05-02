@@ -1,17 +1,15 @@
 ---
 title: "Implementing Standard Form Verbs"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: f89f7c58-6358-4523-9788-676f189b5e69
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Implementing Standard Form Verbs

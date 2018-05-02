@@ -1,17 +1,15 @@
 ---
 title: "Mappings and Mapping Signatures"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 773f6671-cc21-4d1f-a11d-308bc71c852d
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Mappings and Mapping Signatures

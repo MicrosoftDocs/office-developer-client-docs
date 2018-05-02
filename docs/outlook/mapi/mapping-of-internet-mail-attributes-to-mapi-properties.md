@@ -1,17 +1,15 @@
 ---
 title: "Mapping of Internet Mail Attributes to MAPI Properties"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 79d1d2ba-34fe-4851-918f-adbc69c20eee
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Mapping of Internet Mail Attributes to MAPI Properties

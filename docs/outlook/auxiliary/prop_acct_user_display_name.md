@@ -1,15 +1,13 @@
 ---
 title: "PROP_ACCT_USER_DISPLAY_NAME"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: ffe48267-d6c7-c1d0-9298-272b31fd8102
 description: "Returns or sets the user display name."
+ 
+ 
 ---
 
 # PROP_ACCT_USER_DISPLAY_NAME

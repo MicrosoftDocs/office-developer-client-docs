@@ -1,17 +1,15 @@
 ---
 title: "HandsOffFromNormal State"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 1afe6a2e-a5e6-4844-9f82-908894fc6759
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # HandsOffFromNormal State

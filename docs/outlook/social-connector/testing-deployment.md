@@ -1,15 +1,13 @@
 ---
 title: "Testing Deployment"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 8b585200-33e7-4607-a603-0c7e52a6b09d
 description: "This topic describes some scenarios that you should test for regarding installing and uninstalling an Outlook Social Connector (OSC) provider."
+ 
+ 
 ---
 
 # Testing Deployment

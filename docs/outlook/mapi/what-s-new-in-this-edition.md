@@ -1,17 +1,15 @@
 ---
 title: "What's New in This Edition"
- 
- 
 manager: soliver
 ms.date: 12/7/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a24cad75-1237-469f-b7f3-cbbb88f80d44
 description: "Last modified: December 07, 2015"
+ 
+ 
 ---
 
 # What's New in This Edition

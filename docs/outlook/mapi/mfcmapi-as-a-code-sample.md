@@ -1,17 +1,15 @@
 ---
 title: "MFCMAPI as a Code Sample"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: f98eb842-fe76-4f60-b5e2-d2217d1a66ad
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # MFCMAPI as a Code Sample

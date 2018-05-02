@@ -1,17 +1,15 @@
 ---
 title: "Handling an Outgoing Message"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: f40c2e0b-1a35-4901-868f-af6c191c921e
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Handling an Outgoing Message

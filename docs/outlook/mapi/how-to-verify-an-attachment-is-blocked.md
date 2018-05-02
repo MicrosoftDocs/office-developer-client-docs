@@ -1,15 +1,13 @@
 ---
 title: "How to Verify an Attachment is Blocked"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 69663470-45f3-86ed-e015-eba32b5a7233
 description: "Last modified: June 25, 2012"
+ 
+ 
 ---
 
 # How to: Verify an Attachment is Blocked

@@ -1,15 +1,13 @@
 ---
 title: "Concepts (Outlook auxiliary reference)"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: fa68a055-9e58-40ef-886e-4e8ebb08a2a9
 description: "This section describes the four APIs in the Outlook 2013 Auxiliary Reference and provides sample tasks that use those APIs."
+ 
+ 
 ---
 
 # Concepts (Outlook auxiliary reference)

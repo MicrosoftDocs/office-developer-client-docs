@@ -1,17 +1,15 @@
 ---
 title: "Maintaining a Form Library"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 8488f7ec-e44b-4d1a-ba42-baea8c71d350
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Maintaining a Form Library

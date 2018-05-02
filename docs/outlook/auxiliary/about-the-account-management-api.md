@@ -1,15 +1,13 @@
 ---
 title: "About the Account Management API"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: eb6b921d-ecf8-3ce5-87ba-ac1632416b05
 description: "The Account Management API provides access to account information and supports notifications of account changes. As clients of this API, mail providers do the following:"
+ 
+ 
 ---
 
 # About the Account Management API

@@ -1,17 +1,15 @@
 ---
 title: "Writing a Remote Viewer"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: f4d7d42f-688a-4199-b972-dd42528c0cdf
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Writing a Remote Viewer

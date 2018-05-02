@@ -1,15 +1,13 @@
 ---
 title: "Capabilities XML Elements"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 1951643d-e3ca-4d04-bc0c-10d9d0b35dad
 description: "The tables in this topic describe child elements of the capabilities XML and are grouped by the areas they support. The default value of each capabilities element is false. If the element is not specified in the capabilities XML returned by the ISocialProvider::GetCapabilities method, the value of the element is equal to false."
+ 
+ 
 ---
 
 # Capabilities XML Elements

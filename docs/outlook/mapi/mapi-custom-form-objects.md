@@ -1,17 +1,15 @@
 ---
 title: "MAPI Custom Form Objects"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 306d62b1-d541-4039-9759-3903f62e0f26
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # MAPI Custom Form Objects

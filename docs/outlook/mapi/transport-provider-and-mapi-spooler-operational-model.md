@@ -1,17 +1,15 @@
 ---
 title: "Transport Provider and MAPI Spooler Operational Model"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b0f8d8f0-fed7-4a7c-bc40-e935f159591d
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Transport Provider and MAPI Spooler Operational Model

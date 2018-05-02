@@ -1,17 +1,15 @@
 ---
 title: "TNEF-Tagged Message Text"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 8c65339e-240c-412d-9b71-69c746468bfb
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # TNEF-Tagged Message Text

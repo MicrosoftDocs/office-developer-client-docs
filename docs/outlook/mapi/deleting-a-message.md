@@ -1,17 +1,15 @@
 ---
 title: "Deleting a Message"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 9ed166b4-6b7b-478f-bbe5-4115bb818ac0
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Deleting a Message

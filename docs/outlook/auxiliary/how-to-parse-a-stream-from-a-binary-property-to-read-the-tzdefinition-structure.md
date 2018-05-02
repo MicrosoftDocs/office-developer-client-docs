@@ -1,15 +1,13 @@
 ---
 title: "How to Parse a stream from a binary property to read the TZDEFINITION structure"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 039b3a45-bd57-51f5-1485-a3f6d1bde85a
 description: "This topic shows how to read the TZDEFINITION structure from the persisted format stored in a binary property."
+ 
+ 
 ---
 
 # How to: Parse a stream from a binary property to read the TZDEFINITION structure

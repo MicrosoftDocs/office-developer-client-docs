@@ -1,17 +1,15 @@
 ---
 title: "Implementing the IClassFactory Interface for Form Servers"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 22402261-c0fc-49bd-a222-e31989d6ff30
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Implementing the IClassFactory Interface for Form Servers

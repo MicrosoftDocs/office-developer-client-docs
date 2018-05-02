@@ -1,17 +1,15 @@
 ---
 title: "Implementing an Advise Sink Object"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7461c4f6-7030-4ba2-ada4-26ebfbbfa001
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Implementing an Advise Sink Object

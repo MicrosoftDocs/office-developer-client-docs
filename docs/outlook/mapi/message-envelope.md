@@ -1,17 +1,15 @@
 ---
 title: "Message Envelope"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 613956da-c49b-4836-9fde-4601510e8b89
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Message Envelope

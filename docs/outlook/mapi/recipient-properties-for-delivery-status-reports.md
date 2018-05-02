@@ -1,17 +1,15 @@
 ---
 title: "Recipient Properties for Delivery Status Reports"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 9b2e287e-1cf8-4b8f-b92c-a065ed264d02
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Recipient Properties for Delivery Status Reports

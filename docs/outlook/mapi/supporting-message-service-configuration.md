@@ -1,17 +1,15 @@
 ---
 title: "Supporting Message Service Configuration"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: bb6ab537-2876-474b-be7a-84734ace2bae
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Supporting Message Service Configuration

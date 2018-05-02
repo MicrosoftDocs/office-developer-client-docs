@@ -1,17 +1,15 @@
 ---
 title: "Forcing a Notification"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 9c7d6605-73ee-468c-981b-e0853106c9ba
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Forcing a Notification

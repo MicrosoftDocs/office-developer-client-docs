@@ -1,17 +1,15 @@
 ---
 title: "Sending Messages by Using TNEF Custom Attachment Processing"
- 
- 
 manager: soliver
 ms.date: 12/7/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: da318b6f-128a-44b5-8357-a130022030a1
 description: "Last modified: December 07, 2015"
+ 
+ 
 ---
 
 # Sending Messages by Using TNEF Custom Attachment Processing

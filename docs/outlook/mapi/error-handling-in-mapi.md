@@ -1,17 +1,15 @@
 ---
 title: "Error Handling in MAPI"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 99e2c485-af84-46f4-84b4-fca2117b5a21
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Error Handling in MAPI

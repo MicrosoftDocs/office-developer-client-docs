@@ -1,17 +1,15 @@
 ---
 title: "MAPI Session Handling"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3bc4aea5-ab01-4ba5-a4ad-7a9a76c6bf55
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # MAPI Session Handling

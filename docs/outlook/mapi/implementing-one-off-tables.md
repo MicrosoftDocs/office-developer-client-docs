@@ -1,17 +1,15 @@
 ---
 title: "Implementing One-Off Tables"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 57933d44-d47a-4e7f-ba95-b49b4934d0a5
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Implementing One-Off Tables

@@ -1,17 +1,15 @@
 ---
 title: "MAPI File Formats"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3f214001-cd17-40d5-af90-33db1b283797
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # MAPI File Formats

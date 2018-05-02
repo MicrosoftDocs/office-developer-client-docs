@@ -1,17 +1,15 @@
 ---
 title: "TNEF Stream Syntax"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 1353d494-c266-4715-afe7-14543a1bbe1b
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # TNEF Stream Syntax

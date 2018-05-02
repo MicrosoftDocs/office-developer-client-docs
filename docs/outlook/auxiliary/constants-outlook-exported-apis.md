@@ -1,15 +1,13 @@
 ---
 title: "Constants (Outlook exported APIs)"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 7590a30e-3fd8-7ae3-f077-c80f6cc21d7b
 description: "This topic contains constant definitions for APIs that Outlook exports."
+ 
+ 
 ---
 
 # Constants (Outlook exported APIs)

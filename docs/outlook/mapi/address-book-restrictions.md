@@ -1,17 +1,15 @@
 ---
 title: "Address Book Restrictions"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 6ace8c03-45a7-484b-8c12-516ac0e40dc2
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Address Book Restrictions

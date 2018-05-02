@@ -1,17 +1,15 @@
 ---
 title: "Implementing a Form Viewer"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a567185c-bd72-4307-928c-08cac5494c1a
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Implementing a Form Viewer

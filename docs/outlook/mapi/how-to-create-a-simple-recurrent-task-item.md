@@ -1,17 +1,15 @@
 ---
 title: "How to Create a Simple Recurrent Task Item"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: e9ee8865-0983-439e-8405-7946c5ec8762
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # How to: Create a Simple Recurrent Task Item

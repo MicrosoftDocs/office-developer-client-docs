@@ -1,17 +1,15 @@
 ---
 title: "Using Thread-Safe Objects"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: e688db5e-d1a1-4afc-998f-b3d31eb6239b
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Using Thread-Safe Objects

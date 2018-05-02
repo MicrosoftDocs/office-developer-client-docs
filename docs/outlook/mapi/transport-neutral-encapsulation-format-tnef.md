@@ -1,17 +1,15 @@
 ---
 title: "Transport-Neutral Encapsulation Format (TNEF)"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 98d4fe3c-3908-4cd2-bfdb-ff1874a80b24
 description: "Last modified: March 12, 2013"
+ 
+ 
 ---
 
 # Transport-Neutral Encapsulation Format (TNEF)

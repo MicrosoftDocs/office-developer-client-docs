@@ -1,17 +1,15 @@
 ---
 title: "Writing Form Server Code"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: ff33badc-ceed-4364-b99c-8af3af83ceb6
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Writing Form Server Code

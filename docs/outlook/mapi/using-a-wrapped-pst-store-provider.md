@@ -1,15 +1,13 @@
 ---
 title: "Using a Wrapped PST Store Provider"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 98f08432-e86c-cba6-45fd-5a6c94d50aaf
 description: "Last modified: July 03, 2012"
+ 
+ 
 ---
 
 # Using a Wrapped PST Store Provider

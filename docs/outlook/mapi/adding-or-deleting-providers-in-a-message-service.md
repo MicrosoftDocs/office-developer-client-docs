@@ -1,17 +1,15 @@
 ---
 title: "Adding or Deleting Providers in a Message Service"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 44bb4d34-ca96-4d5a-93fe-85e09bd7971d
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Adding or Deleting Providers in a Message Service

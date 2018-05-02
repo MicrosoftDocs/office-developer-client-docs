@@ -1,17 +1,15 @@
 ---
 title: "About Display Table Notifications"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 085151e9-4809-4d2b-ae4d-e318355e1f5a
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # About Display Table Notifications

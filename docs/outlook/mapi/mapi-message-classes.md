@@ -1,17 +1,15 @@
 ---
 title: "MAPI Message Classes"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 64ef2bbb-585c-4908-8ad4-a1c954057e9b
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # MAPI Message Classes

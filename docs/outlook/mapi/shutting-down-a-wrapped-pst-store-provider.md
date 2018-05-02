@@ -1,15 +1,13 @@
 ---
 title: "Shutting Down a Wrapped PST Store Provider"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 0c9e5917-1b96-323d-bf8b-1d3aa1f677d0
 description: "Last modified: July 02, 2012"
+ 
+ 
 ---
 
 # Shutting Down a Wrapped PST Store Provider

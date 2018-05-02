@@ -1,15 +1,13 @@
 ---
 title: "PROP_ACCT_PREFERENCES_UID"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: ec0aac33-624e-48f7-8177-8f7b8db6af7d
 description: "Retrieves the unique identifier (UID) for the profile section that stores the account preferences."
+ 
+ 
 ---
 
 # PROP_ACCT_PREFERENCES_UID

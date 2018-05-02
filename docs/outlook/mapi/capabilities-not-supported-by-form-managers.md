@@ -1,17 +1,15 @@
 ---
 title: "Capabilities Not Supported by Form Managers"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b51e9e03-a333-4fdc-b6fe-87bd4e947b9f
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Capabilities Not Supported by Form Managers

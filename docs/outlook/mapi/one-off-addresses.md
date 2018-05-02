@@ -1,17 +1,15 @@
 ---
 title: "One-Off Addresses"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 9224c694-b26f-42c7-9404-ee2dd832cfbb
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # One-Off Addresses

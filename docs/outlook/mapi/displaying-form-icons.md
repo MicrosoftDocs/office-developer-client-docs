@@ -1,17 +1,15 @@
 ---
 title: "Displaying Form Icons"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 197e72ab-f9d6-4889-a677-0ce4c27b1aad
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Displaying Form Icons

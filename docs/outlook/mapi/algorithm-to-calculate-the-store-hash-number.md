@@ -1,15 +1,13 @@
 ---
 title: "Algorithm to Calculate the Store Hash Number"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 489e0d74-8ecd-23ba-c874-18fd8c50fd12
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Algorithm to Calculate the Store Hash Number

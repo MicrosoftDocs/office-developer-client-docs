@@ -1,17 +1,15 @@
 ---
 title: "Property Names and Property Sets"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: cb216f5c-c965-4372-a15b-82090a410266
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Property Names and Property Sets

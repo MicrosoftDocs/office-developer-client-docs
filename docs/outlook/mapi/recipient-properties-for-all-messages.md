@@ -1,17 +1,15 @@
 ---
 title: "Recipient Properties for All Messages"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 18c96796-f38d-4058-9c51-9c5a14990846
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Recipient Properties for All Messages

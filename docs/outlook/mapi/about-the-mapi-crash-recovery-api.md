@@ -1,15 +1,13 @@
 ---
 title: "About the MAPI Crash Recovery API"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: bc1e1f55-1959-a4a9-a24d-f006af531c9a
 description: "Last modified: June 25, 2012"
+ 
+ 
 ---
 
 # About the MAPI Crash Recovery API

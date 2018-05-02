@@ -1,17 +1,15 @@
 ---
 title: "Posting a Message"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: cc3e1546-e58b-413f-82d7-4efeb86b0000
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Posting a Message

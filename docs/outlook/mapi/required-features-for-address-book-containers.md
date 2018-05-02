@@ -1,17 +1,15 @@
 ---
 title: "Required Features for Address Book Containers"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3e221944-5dc9-4cce-8b47-73af84427aea
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Required Features for Address Book Containers

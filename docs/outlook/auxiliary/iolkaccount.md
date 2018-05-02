@@ -1,14 +1,12 @@
 ---
 title: "IOlkAccount"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 7b7cb295-fc77-a8b9-aac9-e548f3b4afcb
+ 
+ 
 ---
 
 # IOlkAccount

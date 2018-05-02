@@ -1,0 +1,85 @@
+---
+title: "ADRLIST"
+ 
+ 
+manager: soliver
+ms.date: 3/9/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+api_name:
+- ADRLIST
+api_type:
+- COM
+ms.assetid: 85f0d8a5-6dd3-4f33-b31a-246d286d6286
+description: "Last modified: March 09, 2015"
+---
+
+# ADRLIST
+
+ **Last modified:** March 09, 2015 
+  
+ * **Applies to:** Outlook * 
+  
+Describes zero or more properties that belong to one or more recipients. 
+  
+|||
+|:-----|:-----|
+|Header file:  <br/> |Mapidefs.h  <br/> |
+|Related macros:  <br/> |[CbADRLIST](cbadrlist.md), [CbNewADRLIST](cbnewadrlist.md), [CbNewADRLIST](cbnewadrlist.md) <br/> |
+   
+```
+typedef struct _ADRLIST
+{
+  ULONG cEntries;
+  ADRENTRY aEntries[MAPI_DIM];
+} ADRLIST, FAR *LPADRLIST;
+
+```
+
+## Members
+
+ **cEntries**
+  
+> Count of entries in the array specified by the **aEntries** member. 
+    
+ **aEntries**
+  
+> Array of [ADRENTRY](adrentry.md) structures, one structure for each recipient. 
+    
+## Remarks
+
+An **ADRLIST** structure contains one or more **ADRENTRY** structures, each describing the properties of a recipient. A recipient can be unresolved. This means that it is lacking an entry identifier in its array of property values. A resolved recipient means that the **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)) property is included. Typically, resolved recipients also have an e-mail address the **PR_EMAIL_ADDRESS** ( [PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) property. However, the e-mail address is not required. **ADRLIST** structures are used, for example, to describe the recipient list for an outgoing message and by MAPI to display the entries in the address book. 
+  
+ **ADRLIST** structures resemble [SRowSet](srowset.md) structures the structures used for representing rows in tables. In fact, these two structures are designed so that they can be used interchangeably. Both contain an array of structures describing a group of properties and a count of the values in the array. Whereas in the **ADRLIST** structure, the array contains [ADRENTRY](adrentry.md) structures, in the **SRowSet** structure the array contains [SRow](srow.md) structures. **ADRENTRY** structures and **SRow** structures are identical in layout. Because **ADRLIST** and **SRowSet** structures follow the same allocation rules, an **SRowSet** structure that is retrieved from the contents table of an address book container can be cast to an **ADRLIST** structure and used as is. 
+  
+The following illustration shows the layout of an **ADRLIST** structure. 
+  
+ **ADRLIST components**
+  
+![ADRLIST components](media/amapi_18.gif)
+  
+The **ADRENTRY** and [SPropValue](spropvalue.md) portions in an **ADRLIST** structure must be allocated and freed independently of the other parts. That is, each **SPropValue** structure must be allocated individually after memory for the **ADRENTRY** structure has been allocated and freed before the **ADRENTRY** structure is freed. This independence in handling memory allows recipients and individual recipient properties to be freely added or deleted from the address list. 
+  
+The [MAPIAllocateBuffer](mapiallocatebuffer.md) and [MAPIFreeBuffer](mapifreebuffer.md) functions must be used to allocate and free the **ADRLIST** structure and all its parts. 
+  
+If a recipient list is too large to fit in memory, clients can call the [IMessage::ModifyRecipients](imessage-modifyrecipients.md) method to work with a subset of the list. Clients should not use the address book common dialog boxes in this situation. 
+  
+For more information about how to allocate memory for **ADRENTRY** structures, see [Managing Memory for ADRLIST and SRowSet Structures](managing-memory-for-adrlist-and-srowset-structures.md). 
+  
+## See also
+
+#### Reference
+
+[ADRENTRY](adrentry.md)
+  
+[CbNewADRLIST](cbnewadrlist.md)
+  
+[IMessage::ModifyRecipients](imessage-modifyrecipients.md)
+  
+[SRowSet](srowset.md)
+#### Concepts
+
+[MAPI Structures](mapi-structures.md)
+

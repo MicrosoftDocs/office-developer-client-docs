@@ -1,14 +1,12 @@
 ---
 title: "IEnumFBBlock"
- 
- 
 manager: soliver
 ms.date: 12/8/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: fad9c0fd-b523-db98-ee0d-78aad5914ff2
+ 
+ 
 ---
 
 # IEnumFBBlock

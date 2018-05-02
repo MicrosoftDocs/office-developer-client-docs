@@ -1,17 +1,15 @@
 ---
 title: "SMTP Addresses"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 42015740-a94f-4628-bf32-b7fc2fdb9ff6
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # SMTP Addresses

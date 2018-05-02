@@ -1,17 +1,15 @@
 ---
 title: "Setting Table Position with a Fractional Value"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 80d31611-e508-4b17-b482-bedf76db26ff
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Setting Table Position with a Fractional Value

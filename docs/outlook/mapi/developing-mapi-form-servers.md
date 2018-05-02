@@ -1,17 +1,15 @@
 ---
 title: "Developing MAPI Form Servers"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 30672a2d-2d39-4292-b21a-97a38485d1de
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Developing MAPI Form Servers

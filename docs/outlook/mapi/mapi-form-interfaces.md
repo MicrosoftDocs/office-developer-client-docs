@@ -1,17 +1,15 @@
 ---
 title: "MAPI Form Interfaces"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 611213c9-e758-4366-b193-fc62181d3d1f
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # MAPI Form Interfaces

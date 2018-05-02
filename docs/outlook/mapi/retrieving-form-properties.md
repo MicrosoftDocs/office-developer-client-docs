@@ -1,17 +1,15 @@
 ---
 title: "Retrieving Form Properties"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 9dec5ad6-af34-4c5e-848b-5c3909d0c0a1
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Retrieving Form Properties

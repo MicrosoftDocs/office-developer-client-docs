@@ -1,0 +1,68 @@
+---
+title: "DTBLMVLISTBOX"
+ 
+ 
+manager: soliver
+ms.date: 3/9/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+api_name:
+- MAPI.DTBLMVLISTBOX
+api_type:
+- COM
+ms.assetid: 1c22f842-d0e7-44f0-a7d5-c9c2aa6b8820
+description: "Last modified: March 09, 2015"
+---
+
+# DTBLMVLISTBOX
+
+ **Last modified:** March 09, 2015 
+  
+ * **Applies to:** Outlook * 
+  
+Describes a multi-valued list that will be displayed in a dialog box that is built from a display table.
+  
+|||
+|:-----|:-----|
+|Header file:  <br/> |Mapidefs.h  <br/> |
+   
+```
+typedef struct _DTBLMVLISTBOX
+{
+  ULONG ulFlags;
+  ULONG ulMVPropTag;
+} DTBLMVLISTBOX, FAR * LPDTBLMVLISTBOX;
+
+```
+
+## Members
+
+ **ulFlags**
+  
+> Reserved; must be zero.
+    
+ **ulMVPropTag**
+  
+> Property tag for a multi-valued property of type PT_MV_TSTRING.
+    
+## Remarks
+
+A **DTBLMVLISTBOX** structure describes a standard multi-valued list that has a read-only list of items. By using a standard multi-valued list, the values are displayed immediately. 
+  
+The data that is displayed comes from the property identified in the **ulMVPropTag** member. There is no requirement to read from the property interface that is associated with the display table. Also, because users are not able to make selections from these types of lists, data is not written to the property interface. 
+  
+Only multi-valued string properties are supported for the multi-valued list; other multi-valued property types are not supported. 
+  
+For an overview of display tables, see [Display Tables](display-tables.md). For information about how to implement a display table, see [Implementing a Display Table](display-table-implementation.md).
+  
+## See also
+
+#### Reference
+
+[DTCTL](dtctl.md)
+#### Concepts
+
+[MAPI Structures](mapi-structures.md)
+

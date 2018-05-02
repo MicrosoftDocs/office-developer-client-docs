@@ -1,17 +1,15 @@
 ---
 title: "Building a Restriction"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 12abbd8c-f825-493e-af42-344371d9658e
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Building a Restriction

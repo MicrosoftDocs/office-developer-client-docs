@@ -1,17 +1,15 @@
 ---
 title: "Types of Client Applications"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 52ce22a9-3ec2-481c-bb91-7a5bcca817f5
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Types of Client Applications

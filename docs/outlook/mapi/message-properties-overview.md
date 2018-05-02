@@ -1,17 +1,15 @@
 ---
 title: "Message Properties Overview"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 447f54de-9f0d-4f73-89b6-bed9cfea9c15
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Message Properties Overview

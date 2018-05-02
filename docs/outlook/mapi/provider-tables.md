@@ -1,17 +1,15 @@
 ---
 title: "Provider Tables"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 99709a4c-cb52-436e-a322-02ded5d65ce5
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Provider Tables

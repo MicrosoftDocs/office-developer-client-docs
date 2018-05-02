@@ -1,17 +1,15 @@
 ---
 title: "Message Store Features"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: d9167cd2-fc88-46b1-9a26-151955fb606c
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Message Store Features

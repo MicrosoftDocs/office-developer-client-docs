@@ -1,17 +1,15 @@
 ---
 title: "MAPI Folders"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 8fac3c92-d2f5-479e-a368-ca82bddd8e30
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # MAPI Folders

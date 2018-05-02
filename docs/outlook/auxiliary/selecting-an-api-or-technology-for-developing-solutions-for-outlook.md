@@ -1,15 +1,13 @@
 ---
 title: "Selecting an API or technology for developing solutions for Outlook"
- 
- 
 manager: soliver
 ms.date: 10/21/2016
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 01a46083-03d0-4333-920c-01a9f17f68cb
 description: "This article describes the APIs and technologies you can use to extend Outlook 2013, and helps you decide the appropriate API or technology for your scenario."
+ 
+ 
 ---
 
 # Selecting an API or technology for developing solutions for Outlook

@@ -1,17 +1,15 @@
 ---
 title: "Centralizing the Receipt of NDRs"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: fbe1f4f6-28f8-40b8-b551-192c0ba48c18
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Centralizing the Receipt of NDRs

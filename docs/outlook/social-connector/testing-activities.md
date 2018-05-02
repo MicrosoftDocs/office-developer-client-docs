@@ -1,15 +1,13 @@
 ---
 title: "Testing Activities"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 98343c36-5e32-4d07-b474-adfeca693135
 description: "This topic describes tests and scenarios to verify that the Outlook Social Connector (OSC) provider uses on-demand synchronization to appropriately return activities of friends and non-friends."
+ 
+ 
 ---
 
 # Testing Activities

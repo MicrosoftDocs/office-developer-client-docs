@@ -1,17 +1,15 @@
 ---
 title: "Using the MAPI Utilities"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 5f0e5c97-5089-47cb-b604-2292b2ff945c
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Using the MAPI Utilities

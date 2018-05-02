@@ -1,17 +1,15 @@
 ---
 title: "Permissions for MAPI Objects and Properties"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 32669cbe-5460-4043-99cc-c609608f48da
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Permissions for MAPI Objects and Properties

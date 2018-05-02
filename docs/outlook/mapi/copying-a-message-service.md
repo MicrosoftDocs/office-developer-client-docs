@@ -1,17 +1,15 @@
 ---
 title: "Copying a Message Service"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 01e8ad76-973a-42fa-96aa-f41aabc12b4f
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Copying a Message Service

@@ -1,17 +1,15 @@
 ---
 title: "Acting as a Host Address Book Provider"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: f06a1034-ee49-4a09-831e-9752713228a8
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Acting as a Host Address Book Provider

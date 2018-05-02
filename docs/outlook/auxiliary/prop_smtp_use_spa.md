@@ -1,15 +1,13 @@
 ---
 title: "PROP_SMTP_USE_SPA"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: d82986c1-3a1e-48de-b6c9-b4bc64a88ee2
 description: "Specifies whether to use Secure Password Authentication (SPA) for the SMTP account."
+ 
+ 
 ---
 
 # PROP_SMTP_USE_SPA

@@ -1,15 +1,13 @@
 ---
 title: "Account management API reference"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 68fef652-5db7-4273-a0ad-b196c5fa114b
 description: "This section provides reference content for the Account Management API, which provides access to account information, supports notifications of account changes, protecting accounts from spam and managing message downloads for POP3 accounts."
+ 
+ 
 ---
 
 # Account management API reference

@@ -1,17 +1,15 @@
 ---
 title: "Sorting and Categorization"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 853c48e4-ef5b-49da-b281-f72784c598ce
 description: "Last modified: November 08, 2011"
+ 
+ 
 ---
 
 # Sorting and Categorization

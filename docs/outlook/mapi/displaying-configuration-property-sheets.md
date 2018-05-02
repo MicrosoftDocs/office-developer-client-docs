@@ -1,17 +1,15 @@
 ---
 title: "Displaying Configuration Property Sheets"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: c9386b98-615f-488c-8212-11d9abebbdcf
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Displaying Configuration Property Sheets

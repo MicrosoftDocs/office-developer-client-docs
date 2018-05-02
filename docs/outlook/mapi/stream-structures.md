@@ -1,15 +1,13 @@
 ---
 title: "Stream Structures"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 9e305071-b6a5-4bd8-892e-25553d04bb15
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Stream Structures

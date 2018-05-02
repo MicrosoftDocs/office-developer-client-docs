@@ -1,17 +1,15 @@
 ---
 title: "Client Naming Responsibilities"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: dbb6ba5f-18c8-426f-9f50-ce6f2fd1dc5b
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Client Naming Responsibilities

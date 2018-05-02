@@ -1,17 +1,15 @@
 ---
 title: "Shutting Down a Message Store Provider"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: e38219db-f867-4c1d-9973-0e025779e8b6
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Shutting Down a Message Store Provider

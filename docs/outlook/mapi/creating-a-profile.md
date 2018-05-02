@@ -1,17 +1,15 @@
 ---
 title: "Creating a Profile"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 80867adf-6786-47a9-9d3f-4aef4a7d7c66
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Creating a Profile

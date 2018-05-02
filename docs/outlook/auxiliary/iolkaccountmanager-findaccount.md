@@ -1,15 +1,13 @@
 ---
 title: "IOlkAccountManagerFindAccount"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 31004aec-7bd2-6e12-83eb-1a32da121c54
 description: "Finds an account by property value."
+ 
+ 
 ---
 
 # IOlkAccountManager::FindAccount

@@ -1,15 +1,13 @@
 ---
 title: "Registering a Provider"
- 
- 
 manager: soliver
 ms.date: 3/5/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: b60b3634-4c8b-4273-97a0-0a8a5a8a5342
 description: "This topic describes the Windows registry locations that are used when you install an Outlook Social Connector (OSC) provider."
+ 
+ 
 ---
 
 # Registering a Provider

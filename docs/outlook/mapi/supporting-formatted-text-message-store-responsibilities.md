@@ -1,17 +1,15 @@
 ---
 title: "Supporting Formatted Text Message Store Responsibilities"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a97993c2-52e4-4b71-ac03-2c02d82447d8
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Supporting Formatted Text: Message Store Responsibilities

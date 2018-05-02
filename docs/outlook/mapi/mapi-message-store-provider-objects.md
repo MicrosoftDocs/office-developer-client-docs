@@ -1,17 +1,15 @@
 ---
 title: "MAPI Message Store Provider Objects"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 87a452e6-dedf-414d-b7cf-07c8b02dd94a
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # MAPI Message Store Provider Objects

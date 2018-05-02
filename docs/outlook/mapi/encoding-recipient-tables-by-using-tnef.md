@@ -1,17 +1,15 @@
 ---
 title: "Encoding Recipient Tables by Using TNEF"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: cd2f595f-4dd0-4704-b670-6857d6c843ca
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Encoding Recipient Tables by Using TNEF

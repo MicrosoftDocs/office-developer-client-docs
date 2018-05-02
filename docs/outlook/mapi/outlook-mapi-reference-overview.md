@@ -1,17 +1,15 @@
 ---
 title: "Outlook MAPI Reference Overview"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 4c126d0c-d7c0-45c0-801c-c9f1e44c9db6
 description: "Last modified: February 01, 2013"
+ 
+ 
 ---
 
 # Outlook MAPI Reference Overview

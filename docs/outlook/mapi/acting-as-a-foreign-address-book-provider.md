@@ -1,17 +1,15 @@
 ---
 title: "Acting as a Foreign Address Book Provider"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 6d532ed4-7dc5-46a9-995a-72bc97d16f6e
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Acting as a Foreign Address Book Provider

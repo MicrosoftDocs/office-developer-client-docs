@@ -1,17 +1,15 @@
 ---
 title: "attFrom"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 2d405268-bb33-4863-be38-2d17e8fc956e
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # attFrom

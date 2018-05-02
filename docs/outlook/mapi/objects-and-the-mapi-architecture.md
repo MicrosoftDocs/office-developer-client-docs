@@ -1,17 +1,15 @@
 ---
 title: "Objects and the MAPI Architecture"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: c3bcbda5-820d-4ef5-bffd-c254eea9dff6
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Objects and the MAPI Architecture

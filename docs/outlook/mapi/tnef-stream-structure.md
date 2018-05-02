@@ -1,17 +1,15 @@
 ---
 title: "TNEF Stream Structure"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 8eda1251-3858-4832-ac43-d817b4a7ea59
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # TNEF Stream Structure

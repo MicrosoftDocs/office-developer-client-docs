@@ -1,15 +1,13 @@
 ---
 title: "Sample tasks"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: a4572cd2-0dc1-439a-a265-0195766a4013
 description: "This section contains sample tasks that use the APIs available in the Outlook 2013 Auxiliary Reference."
+ 
+ 
 ---
 
 # Sample tasks

@@ -1,15 +1,13 @@
 ---
 title: "Interfaces (Free/busy API)"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 85bcd5b9-321a-489d-9304-e7bd11e1fb2c
 description: "This section describes the interfaces in the Free/Busy API."
+ 
+ 
 ---
 
 # Interfaces (Free/busy API)

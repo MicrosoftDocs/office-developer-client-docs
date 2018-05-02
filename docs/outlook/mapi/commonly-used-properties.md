@@ -1,17 +1,15 @@
 ---
 title: "Commonly Used Properties"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 887c5e82-170f-4c3c-986f-465c05fbbdbe
 description: "Last modified: November 08, 2011"
+ 
+ 
 ---
 
 # Commonly Used Properties

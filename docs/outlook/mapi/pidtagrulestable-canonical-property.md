@@ -1,0 +1,64 @@
+---
+title: "PidTagRulesTable Canonical Property"
+ 
+ 
+manager: soliver
+ms.date: 3/9/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+api_type:
+- COM
+ms.assetid: fc520720-8190-4dff-8f6c-1bebf7080b57
+description: "Last modified: March 09, 2015"
+---
+
+# PidTagRulesTable Canonical Property
+
+ **Last modified:** March 09, 2015 
+  
+ * **Applies to:** Outlook * 
+  
+Contains a table with all rules applied to a folder.
+  
+|||
+|:-----|:-----|
+|Associated properties:  <br/> |PR_RULES_TABLE  <br/> |
+|Identifier:  <br/> |0x3FE1  <br/> |
+|Data type:  <br/> |PT_OBJECT  <br/> |
+|Area:  <br/> |Server Side Rules  <br/> |
+   
+## Remarks
+
+This property is present on all folder objects on an Exchange Server that have rules. Values included in this property are used for reading and modifying rules. You can use the [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method with the **IID_IExchangeModifyTable** interface identifier to obtain an [IExchangeModifyTable : IUnknown](iexchangemodifytableiunknown.md) interface to the rules table on a folder. You can use this interface to read and modify those rules. 
+  
+## Related Resources
+
+### Header Files
+
+Mapidefs.h
+  
+> Provides data type definitions.
+    
+Mapitags.h
+  
+> Contains definitions of properties listed as associated properties. 
+    
+## See also
+
+#### Reference
+
+[IExchangeModifyTable : IUnknown](iexchangemodifytableiunknown.md)
+  
+[IMAPIProp::OpenProperty](imapiprop-openproperty.md)
+#### Concepts
+
+[MAPI Properties](mapi-properties.md)
+  
+[MAPI Canonical Properties](mapi-canonical-properties.md)
+  
+[Mapping Canonical Property Names to MAPI Names](mapping-canonical-property-names-to-mapi-names.md)
+  
+[Mapping MAPI Names to Canonical Property Names](mapping-mapi-names-to-canonical-property-names.md)
+

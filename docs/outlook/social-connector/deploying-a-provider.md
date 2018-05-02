@@ -1,15 +1,13 @@
 ---
 title: "Deploying a Provider"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: c5e816b5-2ff2-4f59-ba54-c3ed291f8bba
 description: "The recommended method of deploying a Outlook Social Connector (OSC) provider is to use a Windows Installer (.msi) package. After downloading the installation package to a local hard disk, the Office end user installs the OSC provider. Once provider installation is complete, the user can connect to the OSC provider and provide logon credentials to the social network account. If the user decides to uninstall the OSC provider, the user can use Programs and Features in Control Panel to uninstall."
+ 
+ 
 ---
 
 # Deploying a Provider

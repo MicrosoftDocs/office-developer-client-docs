@@ -1,17 +1,15 @@
 ---
 title: "Hierarchy Tables"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b8aa6b36-d6e5-4e1f-8ac5-5d6a78a70bf8
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Hierarchy Tables

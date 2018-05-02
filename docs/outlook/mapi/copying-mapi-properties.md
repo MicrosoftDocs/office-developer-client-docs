@@ -1,17 +1,15 @@
 ---
 title: "Copying MAPI Properties"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a52f4bcd-6e17-4623-a469-53be1f2758b1
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Copying MAPI Properties

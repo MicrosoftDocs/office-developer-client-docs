@@ -1,15 +1,13 @@
 ---
 title: "Nickname cache"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 2813c102-6778-4443-ab4b-b573f3568705
 description: "Last modified: January 30, 2013"
+ 
+ 
 ---
 
 # Nickname cache

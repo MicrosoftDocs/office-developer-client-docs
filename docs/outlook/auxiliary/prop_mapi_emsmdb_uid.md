@@ -1,15 +1,13 @@
 ---
 title: "PROP_MAPI_EMSMDB_UID"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 8e5b42e3-844f-488c-ba6f-b74c447b1d59
 description: "Represents an ACCT_BIN structure that contains the UID of an Exchange account."
+ 
+ 
 ---
 
 # PROP_MAPI_EMSMDB_UID

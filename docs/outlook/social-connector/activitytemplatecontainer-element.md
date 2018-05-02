@@ -1,15 +1,13 @@
 ---
 title: "activityTemplateContainer Element"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 74662f25-5e18-4d0b-999c-a144427ad9e3
 description: "An activityTemplateContainer element is a template that allows you to format your activity feed items and reuse XML that specifies a layout. Use IDs (applicationID and templateID) to match a feed item (activityDetails) to a template (activityTemplateContainer). Store the layout data as part of the activityTemplate element. To reference data that is pulled from the individual activity feed item, use template variables as placeholders for information such as people, links, and text."
+ 
+ 
 ---
 
 # activityTemplateContainer Element

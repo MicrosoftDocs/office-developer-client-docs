@@ -1,17 +1,15 @@
 ---
 title: "Receiving Messages by Using TNEF Custom Attachment Processing"
- 
- 
 manager: soliver
 ms.date: 12/7/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: bb5082fa-8fe3-46fe-b2de-b6dd1af79ea7
 description: "Last modified: December 07, 2015"
+ 
+ 
 ---
 
 # Receiving Messages by Using TNEF Custom Attachment Processing

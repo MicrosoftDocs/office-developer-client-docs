@@ -1,17 +1,15 @@
 ---
 title: "Constructing Entry Identifiers"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: bc2a9116-948e-4da3-96b8-26d73bcd63c4
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Constructing Entry Identifiers

@@ -1,14 +1,12 @@
 ---
 title: "IOlkAccountNotify"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 360854bb-e9be-a784-e80b-3f18418ded1b
+ 
+ 
 ---
 
 # IOlkAccountNotify

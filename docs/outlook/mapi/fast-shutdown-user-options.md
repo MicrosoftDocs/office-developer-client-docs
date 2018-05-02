@@ -1,17 +1,15 @@
 ---
 title: "Fast Shutdown User Options"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 220aeab5-20f6-4520-96c9-8aaa0e8ea15b
 description: "Last modified: June 26, 2012"
+ 
+ 
 ---
 
 # Fast Shutdown User Options

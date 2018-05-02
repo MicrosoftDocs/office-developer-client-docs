@@ -1,17 +1,15 @@
 ---
 title: "Choosing a Message Class"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 5ca8edd2-41b7-40e2-b755-b28eecb49786
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Choosing a Message Class

@@ -1,17 +1,15 @@
 ---
 title: "MAPI Canonical Properties"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 29151beb-7436-401a-8072-58d4facd8458
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # MAPI Canonical Properties

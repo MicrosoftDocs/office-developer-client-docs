@@ -1,17 +1,15 @@
 ---
 title: "Form Server Interactions"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 1087b8d6-0ac4-4290-86d2-b70d2619fd75
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Form Server Interactions

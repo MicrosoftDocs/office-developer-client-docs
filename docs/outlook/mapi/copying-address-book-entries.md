@@ -1,17 +1,15 @@
 ---
 title: "Copying Address Book Entries"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 285abeb4-45c8-4e82-9a16-b935b4651afe
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Copying Address Book Entries

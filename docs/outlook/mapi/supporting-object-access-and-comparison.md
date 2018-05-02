@@ -1,17 +1,15 @@
 ---
 title: "Supporting Object Access and Comparison"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: aac7c6c5-6896-4824-ba36-81bb292777a9
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Supporting Object Access and Comparison

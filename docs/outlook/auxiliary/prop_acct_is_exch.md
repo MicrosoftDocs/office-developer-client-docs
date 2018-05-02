@@ -1,15 +1,13 @@
 ---
 title: "PROP_ACCT_IS_EXCH"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 599bfc7d-7b62-7cc1-69ff-6db04c96a49b
 description: "True if the account is an Exchange account."
+ 
+ 
 ---
 
 # PROP_ACCT_IS_EXCH

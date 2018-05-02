@@ -1,17 +1,15 @@
 ---
 title: "Sending Messages Message Store Provider Tasks"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: acbfd3ae-bfdc-4103-bed2-6bcf7b9c448c
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Sending Messages: Message Store Provider Tasks

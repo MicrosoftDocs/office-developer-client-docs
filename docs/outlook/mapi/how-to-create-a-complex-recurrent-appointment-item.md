@@ -1,17 +1,15 @@
 ---
 title: "How to Create a Complex Recurrent Appointment Item"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: da9626da-5ba5-4f18-954c-4e23971d23e8
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # How to: Create a Complex Recurrent Appointment Item

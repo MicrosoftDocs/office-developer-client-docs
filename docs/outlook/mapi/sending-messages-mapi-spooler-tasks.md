@@ -1,17 +1,15 @@
 ---
 title: "Sending Messages MAPI Spooler Tasks"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 81c65f21-03ba-43eb-a6d4-d311e660ac5c
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Sending Messages: MAPI Spooler Tasks

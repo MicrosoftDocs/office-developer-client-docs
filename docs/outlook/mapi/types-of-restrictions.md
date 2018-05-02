@@ -1,17 +1,15 @@
 ---
 title: "Types of Restrictions"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 0d3bd58b-7100-4117-91ac-27139715c85b
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Types of Restrictions

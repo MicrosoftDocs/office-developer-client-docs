@@ -1,17 +1,15 @@
 ---
 title: "MAPI Forms Notifications"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 97ff2733-a2b1-4da0-b628-00850fc7925b
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # MAPI Forms Notifications

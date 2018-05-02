@@ -1,17 +1,15 @@
 ---
 title: "Tips for Better Table Performance"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: ac82f7e8-6453-4b4f-8223-3c23d09ca4c6
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Tips for Better Table Performance

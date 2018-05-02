@@ -1,17 +1,15 @@
 ---
 title: "Opening an Attachment"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: c0350698-5304-40cd-903d-279471f3c226
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Opening an Attachment

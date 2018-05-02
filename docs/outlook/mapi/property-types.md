@@ -1,17 +1,15 @@
 ---
 title: "Property Types"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 71967150-1005-4c85-90f1-76fc7876c0d0
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Property Types

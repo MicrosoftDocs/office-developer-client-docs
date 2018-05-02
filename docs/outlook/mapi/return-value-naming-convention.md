@@ -1,17 +1,15 @@
 ---
 title: "Return Value Naming Convention"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 2c1cdd7b-82f1-46f2-a7ce-e0efe857b7cd
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Return Value Naming Convention

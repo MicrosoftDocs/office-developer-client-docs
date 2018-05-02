@@ -1,17 +1,15 @@
 ---
 title: "MAPI Message Store Provider Overview"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: eae44469-b217-4d05-b47f-5a0b1fab7056
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # MAPI Message Store Provider Overview

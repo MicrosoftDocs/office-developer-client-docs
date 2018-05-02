@@ -1,17 +1,15 @@
 ---
 title: "Optional Report Message Properties"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 5a473c40-6e94-48aa-b040-8308d17efbe8
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Optional Report Message Properties

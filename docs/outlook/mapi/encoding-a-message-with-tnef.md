@@ -1,17 +1,15 @@
 ---
 title: "Encoding a Message with TNEF"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 6b86d9a9-6876-4885-ae1e-8571b25b85cc
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Encoding a Message with TNEF

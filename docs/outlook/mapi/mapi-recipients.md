@@ -1,17 +1,15 @@
 ---
 title: "MAPI Recipients"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 88a4360d-6ab8-466e-8ebd-af80227ee00a
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # MAPI Recipients

@@ -1,17 +1,15 @@
 ---
 title: "Creating a Recipient List"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 270f86dd-2c1f-47eb-80f7-9d0d63936d61
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Creating a Recipient List

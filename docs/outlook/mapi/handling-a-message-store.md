@@ -1,17 +1,15 @@
 ---
 title: "Handling a Message Store"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7eca0e1f-a855-4ef7-b892-0bddee59de5e
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Handling a Message Store

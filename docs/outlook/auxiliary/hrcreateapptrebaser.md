@@ -1,15 +1,13 @@
 ---
 title: "HrCreateApptRebaser"
- 
- 
 manager: soliver
 ms.date: 12/7/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 265028b7-a583-f6ba-0214-5a4322f98f35
 description: "Initializes an IOlkApptRebaser object for use in rebasing appointments in Outlook calendars."
+ 
+ 
 ---
 
 # HrCreateApptRebaser

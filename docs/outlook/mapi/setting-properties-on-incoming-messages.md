@@ -1,17 +1,15 @@
 ---
 title: "Setting Properties on Incoming Messages"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: cf4a0501-f42b-4652-a239-003022686475
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Setting Properties on Incoming Messages

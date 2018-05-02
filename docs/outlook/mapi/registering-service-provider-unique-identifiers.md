@@ -1,17 +1,15 @@
 ---
 title: "Registering Service Provider Unique Identifiers"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 964fceb4-8a1c-46c1-98e1-a325c9259f8b
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Registering Service Provider Unique Identifiers

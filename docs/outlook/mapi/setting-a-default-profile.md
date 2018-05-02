@@ -1,17 +1,15 @@
 ---
 title: "Setting a Default Profile"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 1d1e862d-ba49-48a1-bb51-0af861323b7b
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Setting a Default Profile

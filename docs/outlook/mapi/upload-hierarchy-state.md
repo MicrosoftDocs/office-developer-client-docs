@@ -1,15 +1,13 @@
 ---
 title: "Upload Hierarchy State"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: e39c4198-4913-5e86-900a-32e5ba5d801c
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Upload Hierarchy State

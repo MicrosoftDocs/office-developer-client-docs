@@ -1,17 +1,15 @@
 ---
 title: "Selecting a Receive Folder"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 144c7179-b390-479f-a2aa-324974f04eba
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Selecting a Receive Folder

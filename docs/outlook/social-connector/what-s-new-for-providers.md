@@ -1,15 +1,13 @@
 ---
 title: "What's New for Providers"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 92f59a0d-3834-424d-ad81-167fdeba9bd0
 description: "This topic lists the major changes in Outlook Social Connector 2013 (OSC). It presents a comparison of the features available between Outlook Social Connector 2013 and Outlook Social Connector 1.1. It also describes interface members and XML elements that have been added, changed, or deprecated."
+ 
+ 
 ---
 
 # What's New for Providers

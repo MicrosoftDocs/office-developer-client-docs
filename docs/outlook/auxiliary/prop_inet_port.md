@@ -1,15 +1,13 @@
 ---
 title: "PROP_INET_PORT"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 5633d70c-ca3e-4b9d-8e85-ef98f85f1961
 description: "Represents the port number for a general Internet mailbox."
+ 
+ 
 ---
 
 # PROP_INET_PORT

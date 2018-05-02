@@ -1,17 +1,15 @@
 ---
 title: "MAPI Architecture Overview"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 00d2993c-d66a-4a00-9fb2-98696d29a007
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # MAPI Architecture Overview

@@ -1,17 +1,15 @@
 ---
 title: "Opening Message Text"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: e37fc9d8-433b-41b4-84f2-42a952063f35
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Opening Message Text

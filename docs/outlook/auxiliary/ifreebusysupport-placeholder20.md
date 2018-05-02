@@ -1,15 +1,13 @@
 ---
 title: "IFreeBusySupportPlaceholder20"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 756b9395-25d8-3f98-d664-ad827bd167f6
 description: "This member is a placeholder and is not supported."
+ 
+ 
 ---
 
 # IFreeBusySupport::Placeholder20

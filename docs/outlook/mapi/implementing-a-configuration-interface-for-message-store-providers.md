@@ -1,17 +1,15 @@
 ---
 title: "Implementing a Configuration Interface for Message Store Providers"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 508e6950-d483-4cbe-b817-8016f4aa5cd8
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Implementing a Configuration Interface for Message Store Providers

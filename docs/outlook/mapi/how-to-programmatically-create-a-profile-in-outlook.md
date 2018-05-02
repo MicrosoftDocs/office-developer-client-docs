@@ -1,15 +1,13 @@
 ---
 title: "How to Programmatically Create a Profile in Outlook"
- 
- 
 manager: soliver
 ms.date: 6/2/2016
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 2a8561a9-df09-453a-b415-c45910625870
 description: "This topic describes how to programmatically update a profile in Outlook 2016 by adding a MAPI property to the emsuid section of the Profile object."
+ 
+ 
 ---
 
 # How to: Programmatically Create a Profile in Outlook

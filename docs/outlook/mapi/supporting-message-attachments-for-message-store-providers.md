@@ -1,17 +1,15 @@
 ---
 title: "Supporting Message Attachments for Message Store Providers"
- 
- 
 manager: soliver
 ms.date: 12/7/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: d5fabc40-71e8-4afa-9846-533da605ce6c
 description: "Last modified: December 07, 2015"
+ 
+ 
 ---
 
 # Supporting Message Attachments for Message Store Providers

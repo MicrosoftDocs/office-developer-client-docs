@@ -1,15 +1,13 @@
 ---
 title: "IOlkAccountManagerAdvise"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: c88f087e-4ff4-0837-186d-b6e761468a4d
 description: "Registers a client with the account manager for notifications regarding all accounts."
+ 
+ 
 ---
 
 # IOlkAccountManager::Advise

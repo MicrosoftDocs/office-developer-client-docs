@@ -1,17 +1,15 @@
 ---
 title: "How to Read and Parse a Recurrence Pattern"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 75113097-b3ae-4d20-9796-85c62a592ef0
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # How to: Read and Parse a Recurrence Pattern

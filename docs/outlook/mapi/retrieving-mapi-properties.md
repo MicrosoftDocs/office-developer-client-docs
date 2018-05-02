@@ -1,17 +1,15 @@
 ---
 title: "Retrieving MAPI Properties"
- 
- 
 manager: soliver
 ms.date: 12/7/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: bd3f9f59-9020-46e6-9560-86a7a0eeca20
 description: "Last modified: December 07, 2015"
+ 
+ 
 ---
 
 # Retrieving MAPI Properties

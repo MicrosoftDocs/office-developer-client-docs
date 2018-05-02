@@ -1,15 +1,13 @@
 ---
 title: "Getting Ready to Release an OSC Provider"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: a7d28349-3121-49ae-ad28-043789e2d205
 description: "This section suggests tests you can do before you release your Outlook Social Connector (OSC) provider. You can start referring to the topics in this section and carry out some of these tests during your development and testing phases, but you should have completed these tests by the time you release. These tests verify the basic functionality of your implementation of the OSC provider interfaces with respect to the capabilities you specify for the OSC provider. Also, even though the OSC is a feature shared by multiple Office client applications, these tests use Outlook as the client to test the fundamental functionality. You should determine whether other tests are necessary for features specific to your provider."
+ 
+ 
 ---
 
 # Getting Ready to Release an OSC Provider

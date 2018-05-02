@@ -1,17 +1,15 @@
 ---
 title: "Interaction of MAPI Providers and Components"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 2c0e010b-0432-4ef7-a243-3a4b46f0a19d
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Interaction of MAPI Providers and Components

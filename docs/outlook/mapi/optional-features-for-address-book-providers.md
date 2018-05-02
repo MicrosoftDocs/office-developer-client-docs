@@ -1,17 +1,15 @@
 ---
 title: "Optional Features for Address Book Providers"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: f1558259-7f0b-4731-80d2-88e51e203df0
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Optional Features for Address Book Providers

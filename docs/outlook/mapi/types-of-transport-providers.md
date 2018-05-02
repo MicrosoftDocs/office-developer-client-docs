@@ -1,17 +1,15 @@
 ---
 title: "Types of Transport Providers"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 772ecab1-7e91-415b-bae8-af8ffb7b7ed9
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Types of Transport Providers

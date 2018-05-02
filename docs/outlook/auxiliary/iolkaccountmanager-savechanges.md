@@ -1,15 +1,13 @@
 ---
 title: "IOlkAccountManagerSaveChanges"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 32a5d4b7-ead7-24e7-58f2-750232263a0d
 description: "Saves changes to the specified account."
+ 
+ 
 ---
 
 # IOlkAccountManager::SaveChanges

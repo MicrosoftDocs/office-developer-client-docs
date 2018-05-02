@@ -1,17 +1,15 @@
 ---
 title: "Threading in MAPI"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 259297d2-acd7-4bc5-9a77-0df92cbfa33e
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Threading in MAPI

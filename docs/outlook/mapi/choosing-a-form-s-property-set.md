@@ -1,17 +1,15 @@
 ---
 title: "Choosing a Form's Property Set"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 5680fed2-b2e7-4c4b-9ba8-2c497b9c433c
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Choosing a Form's Property Set

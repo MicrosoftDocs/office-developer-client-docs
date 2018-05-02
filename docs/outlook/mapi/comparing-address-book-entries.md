@@ -1,17 +1,15 @@
 ---
 title: "Comparing Address Book Entries"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: e375367b-d107-4768-95de-00b8b9dc3511
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Comparing Address Book Entries

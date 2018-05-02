@@ -1,17 +1,15 @@
 ---
 title: "Synchronizing Text and Formatting"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: d7e166f0-1214-4571-b9a8-366960772a7a
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Synchronizing Text and Formatting

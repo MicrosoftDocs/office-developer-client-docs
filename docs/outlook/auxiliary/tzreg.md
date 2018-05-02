@@ -1,15 +1,13 @@
 ---
 title: "TZREG"
- 
- 
 manager: soliver
 ms.date: 12/7/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: a353e1a3-0187-20af-b9ba-43438f6024d5
 description: "Defines when daylight saving time starts, when the return to standard time occurs, and how many hours the daylight saving shift is."
+ 
+ 
 ---
 
 # TZREG

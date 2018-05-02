@@ -1,15 +1,13 @@
 ---
 title: "About the Offline State API"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 18b0d284-c224-a022-47d9-b2d82a32f996
 description: "Last modified: June 25, 2012"
+ 
+ 
 ---
 
 # About the Offline State API

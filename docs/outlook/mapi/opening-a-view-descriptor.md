@@ -1,17 +1,15 @@
 ---
 title: "Opening a View Descriptor"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 1940feb0-9e0f-4d96-9fb9-b9a35a0aa661
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Opening a View Descriptor

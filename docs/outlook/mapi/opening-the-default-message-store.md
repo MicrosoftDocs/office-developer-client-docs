@@ -1,17 +1,15 @@
 ---
 title: "Opening the Default Message Store"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 670fb896-9aaf-4a96-83f7-76237409e956
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Opening the Default Message Store

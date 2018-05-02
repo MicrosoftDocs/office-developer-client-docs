@@ -1,17 +1,15 @@
 ---
 title: "Creating a Distribution List"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b63a6024-910d-4569-a3b4-c3ebf0b32c3d
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Creating a Distribution List

@@ -1,17 +1,15 @@
 ---
 title: "Retrieving Data from Table Rows"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 19a42794-a3a2-4336-af2a-473f24431252
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Retrieving Data from Table Rows

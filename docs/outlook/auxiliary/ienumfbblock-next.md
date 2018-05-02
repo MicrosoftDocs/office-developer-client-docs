@@ -1,15 +1,13 @@
 ---
 title: "IEnumFBBlockNext"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 9b46358c-bcab-f097-8746-fabfd4722b3c
 description: "Gets the next specified number of blocks of free/busy data in an enumeration."
+ 
+ 
 ---
 
 # IEnumFBBlock::Next

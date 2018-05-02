@@ -1,17 +1,15 @@
 ---
 title: "File Format of Form Configuration Files"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 86e4ebd9-6df2-4346-9ce9-580f80a83884
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # File Format of Form Configuration Files

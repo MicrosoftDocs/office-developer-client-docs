@@ -1,17 +1,15 @@
 ---
 title: "TNEF Correlation in X.400 Gateways and Transports"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 0ffa0802-bfdd-4993-b4a3-142e5d15bfb4
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # TNEF Correlation in X.400 Gateways and Transports

@@ -1,15 +1,13 @@
 ---
 title: "ACCT_VARIANT"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 4664df83-cf81-36d4-189d-4a09be371638
 description: "A variable of this data type holds the value of a property, which is of a variant data type."
+ 
+ 
 ---
 
 # ACCT_VARIANT

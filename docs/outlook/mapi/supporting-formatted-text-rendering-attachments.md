@@ -1,17 +1,15 @@
 ---
 title: "Supporting Formatted Text Rendering Attachments"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 68abe85b-5dc0-40d0-8917-30ea002aa816
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Supporting Formatted Text: Rendering Attachments

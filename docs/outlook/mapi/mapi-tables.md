@@ -1,17 +1,15 @@
 ---
 title: "MAPI Tables"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7974cae1-10f1-42e9-8be4-c02f2bd86714
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # MAPI Tables

@@ -1,15 +1,13 @@
 ---
 title: "About the Replication API"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 5133045a-b1e2-7728-5cd5-6d85eb940cf9
 description: "Last modified: June 25, 2012"
+ 
+ 
 ---
 
 # About the Replication API

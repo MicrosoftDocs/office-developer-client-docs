@@ -1,17 +1,15 @@
 ---
 title: "Property Entries in MapiSvc.inf Message Service Sections"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 714f99e2-80fc-4785-b707-611d8a6c229f
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Property Entries in MapiSvc.inf Message Service Sections

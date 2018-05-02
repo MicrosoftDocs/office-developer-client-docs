@@ -1,17 +1,15 @@
 ---
 title: "Gateway Mappable Properties"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3a51ee7e-d030-4f04-915b-ff8bd351207d
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Gateway Mappable Properties

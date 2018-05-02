@@ -1,15 +1,13 @@
 ---
 title: "How to Remove Custom Form Definition Saved With a Message"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 6a270f0c-104a-84a1-9adf-aea166f89071
 description: "Last modified: June 25, 2012"
+ 
+ 
 ---
 
 # How to: Remove Custom Form Definition Saved With a Message

@@ -1,17 +1,15 @@
 ---
 title: "Avoiding Certain Methods at Startup"
- 
- 
 manager: soliver
 ms.date: 12/7/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7bb86fc8-d1ae-4937-9919-86c3a0f5651d
 description: "Last modified: December 07, 2015"
+ 
+ 
 ---
 
 # Avoiding Certain Methods at Startup

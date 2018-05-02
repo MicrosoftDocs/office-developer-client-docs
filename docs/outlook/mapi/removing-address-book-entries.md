@@ -1,17 +1,15 @@
 ---
 title: "Removing Address Book Entries"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 107ebcd7-b612-4139-b676-c3851f15bc74
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Removing Address Book Entries

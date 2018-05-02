@@ -1,17 +1,15 @@
 ---
 title: "Implementing an Address Book Provider Entry Point Function"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 9375b351-1c84-4728-bcdf-e3e7a44820ed
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Implementing an Address Book Provider Entry Point Function

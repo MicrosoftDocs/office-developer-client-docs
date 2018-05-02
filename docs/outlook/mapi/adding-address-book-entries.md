@@ -1,17 +1,15 @@
 ---
 title: "Adding Address Book Entries"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 63444a65-d56a-4dbd-9aa6-e60f18ba8104
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Adding Address Book Entries

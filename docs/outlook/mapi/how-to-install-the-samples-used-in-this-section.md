@@ -1,17 +1,15 @@
 ---
 title: "How to Install the Samples Used in This Section"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 810f54bf-5b78-46b8-a617-4f61ff816400
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # How to: Install the Samples Used in This Section

@@ -22,7 +22,7 @@ Microsoft Excel enables your DLL to access built-in Excel commands, worksheet fu
   
 ## Excel4, Excel4v, Excel12, and Excel12v Functions
 
-Excel enables your DLL to access the commands and functions through the callback functions [Excel4](excel4-excel12.md), [Excel4v](excel4v-excel12v.md), [Excel12](excel4-excel12.md), and [Excel12v](excel4v-excel12v.md).
+Excel enables your DLL to access the commands and functions through the callback functions [Excel4](https://msdn.microsoft.com/en-us/library/office/bb687835.aspx), [Excel4v](https://msdn.microsoft.com/en-us/library/office/bb687917.aspx), [Excel12](https://msdn.microsoft.com/en-us/library/office/bb687835.aspx), and [Excel12v](https://msdn.microsoft.com/en-us/library/office/bb687917.aspx).
   
 The **Excel4** and **Excel4v** functions were introduced in Excel version 4. They work with the **XLOPER** data structure. Excel 2007 introduced two new callback functions, **Excel12** and **Excel12v**, which work with the **XLOPER12** data structure. The **Excel4** and **Excel4v** functions are exported by the library Xlcall32.lib, which must be included in your DLL or XLL project. **Excel12** and **Excel12v** are included in the SDK C++ source file Xlcall.cpp, which must be included in your project if you want to access Excel functionality by using **XLOPER12** structures. 
   

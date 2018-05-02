@@ -1,15 +1,13 @@
 ---
 title: "About the Sample Wrapped PST Store Provider"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 953391ce-31a2-3271-365a-284cf5e15d82
 description: "Last modified: July 03, 2012"
+ 
+ 
 ---
 
 # About the Sample Wrapped PST Store Provider

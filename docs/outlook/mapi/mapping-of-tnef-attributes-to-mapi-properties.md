@@ -1,17 +1,15 @@
 ---
 title: "Mapping of TNEF Attributes to MAPI Properties"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 1a724fac-2e64-48a7-92b5-d7cf1528cb2c
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Mapping of TNEF Attributes to MAPI Properties

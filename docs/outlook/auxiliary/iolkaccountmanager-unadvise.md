@@ -1,15 +1,13 @@
 ---
 title: "IOlkAccountManagerUnadvise"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: ea5cbf9f-25cc-9cca-9be0-d2deed576153
 description: "Unregisters a client with the account manager for notifications for all accounts."
+ 
+ 
 ---
 
 # IOlkAccountManager::Unadvise

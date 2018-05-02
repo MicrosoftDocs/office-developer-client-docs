@@ -1,17 +1,15 @@
 ---
 title: "Creating a Form Configuration File"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: aaf3b33d-ad2d-4ef8-847f-1ab1eaf08706
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Creating a Form Configuration File

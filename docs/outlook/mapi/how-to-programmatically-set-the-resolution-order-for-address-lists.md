@@ -1,15 +1,13 @@
 ---
 title: "How to Programmatically Set the Resolution Order for Address Lists"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: f9559afb-8db1-ce72-3e11-9b3d47bb80b6
 description: "Last modified: July 06, 2012"
+ 
+ 
 ---
 
 # How to: Programmatically Set the Resolution Order for Address Lists

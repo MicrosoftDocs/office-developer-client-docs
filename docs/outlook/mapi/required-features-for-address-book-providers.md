@@ -1,17 +1,15 @@
 ---
 title: "Required Features for Address Book Providers"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: e2ccddd7-65e8-41f6-8e21-a4ae98190a96
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Required Features for Address Book Providers

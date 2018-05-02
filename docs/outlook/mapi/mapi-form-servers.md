@@ -1,17 +1,15 @@
 ---
 title: "MAPI Form Servers"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 855292b8-028e-4c1e-87ed-3f20b9ba584a
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # MAPI Form Servers

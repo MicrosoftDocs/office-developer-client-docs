@@ -1,17 +1,15 @@
 ---
 title: "Logging on to MAPI"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 05bafe43-a78a-4659-92f0-0b4fe444c64f
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Logging on to MAPI

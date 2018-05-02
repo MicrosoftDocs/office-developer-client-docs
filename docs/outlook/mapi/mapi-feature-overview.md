@@ -1,17 +1,15 @@
 ---
 title: "MAPI Feature Overview"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 22cf56c5-2804-40a8-99e6-a6d127897720
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # MAPI Feature Overview

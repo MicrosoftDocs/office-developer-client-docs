@@ -1,17 +1,15 @@
 ---
 title: "Sending or Receiving a Message on Demand"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 479404c5-4926-402a-aa12-75dd23276d75
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Sending or Receiving a Message on Demand

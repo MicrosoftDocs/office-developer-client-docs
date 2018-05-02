@@ -1,17 +1,15 @@
 ---
 title: "Loading Message Store Providers"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 632d3ef9-43c5-429a-84d7-2dce543d49fb
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Loading Message Store Providers

@@ -1,17 +1,15 @@
 ---
 title: "Registering for a Notification"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 45625387-dbd2-4ca8-926b-ef87998d01d7
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Registering for a Notification

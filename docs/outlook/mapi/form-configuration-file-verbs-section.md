@@ -1,17 +1,15 @@
 ---
 title: "Form Configuration File [Verbs] Section"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: e7e1f371-9e9a-4bec-a0b3-87753a16f5e0
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Form Configuration File [Verbs] Section

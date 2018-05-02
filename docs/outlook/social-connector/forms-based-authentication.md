@@ -1,15 +1,13 @@
 ---
 title: "Forms-Based Authentication"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 282b2377-45ba-4f0c-a7d9-830fa3505c93
 description: "The Outlook Social Connector (OSC) calls the ISocialProvider::GetCapabilities method to determine the capabilities of the OSC provider for a social network. The OSC uses the returned capabilities to determine how to support an Office user who is logging on to this social network. If the useLogonWebAuth element in the returned capabilities XML indicates that the OSC provider supports forms-based authentication, the OSC can make the following calling sequence to allow a user to log on to that social network:"
+ 
+ 
 ---
 
 # Forms-Based Authentication

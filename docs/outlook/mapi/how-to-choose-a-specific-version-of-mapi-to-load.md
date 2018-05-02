@@ -1,17 +1,15 @@
 ---
 title: "How to Choose a Specific Version of MAPI to Load"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 85539a7f-74b6-4267-86ea-00da2c900c34
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # How to: Choose a Specific Version of MAPI to Load

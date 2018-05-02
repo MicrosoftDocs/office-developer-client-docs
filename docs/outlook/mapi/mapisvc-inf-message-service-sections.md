@@ -1,17 +1,15 @@
 ---
 title: "MapiSvc.inf Message Service Sections"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 799668e3-3427-4870-bd70-e65ec6fee29d
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # MapiSvc.inf Message Service Sections

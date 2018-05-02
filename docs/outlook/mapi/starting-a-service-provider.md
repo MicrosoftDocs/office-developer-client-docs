@@ -1,17 +1,15 @@
 ---
 title: "Starting a Service Provider"
- 
- 
 manager: soliver
 ms.date: 12/7/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: c4b61cc3-d9fe-4616-a05c-d1e4096b5abd
 description: "Last modified: December 07, 2015"
+ 
+ 
 ---
 
 # Starting a Service Provider

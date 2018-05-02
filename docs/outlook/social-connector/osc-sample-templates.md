@@ -1,15 +1,13 @@
 ---
 title: "OSC Sample Templates"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 896932d7-bd71-4a55-aa58-394a9ccf0d5e
 description: "Accompanying the Outlook Social Connector 2013 Provider Reference are several provider templates in C++, C#, and Visual Basic. You can download the templates at Outlook Social Connector 2013: Provider templates."
+ 
+ 
 ---
 
 # OSC Sample Templates

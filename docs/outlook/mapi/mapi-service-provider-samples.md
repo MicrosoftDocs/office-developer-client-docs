@@ -1,17 +1,15 @@
 ---
 title: "MAPI Service Provider Samples"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 953c97ef-bc38-4e30-9906-b16373cd33c2
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # MAPI Service Provider Samples

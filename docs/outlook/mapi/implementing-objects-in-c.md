@@ -1,17 +1,15 @@
 ---
 title: "Implementing Objects in C"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 24fc4d78-726d-40ff-bad2-25dc298bd51a
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Implementing Objects in C

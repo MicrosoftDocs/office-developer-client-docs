@@ -1,15 +1,13 @@
 ---
 title: "Content Retired Notice (MAPI)"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 2dd5d24d-0fbb-43bd-bc41-93c29536e342
 description: "Last modified: October 05, 2012"
+ 
+ 
 ---
 
 # Content Retired Notice (MAPI)

@@ -1,17 +1,15 @@
 ---
 title: "Client Shutdown in MAPI"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 04ec21b8-8cd8-4d2d-92e7-aa73f4315e1e
 description: "Last modified: June 26, 2012"
+ 
+ 
 ---
 
 # Client Shutdown in MAPI

@@ -1,17 +1,15 @@
 ---
 title: "Handling Table Notification"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: edc9bc71-4885-4783-b465-0bafa20eff73
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Handling Table Notification

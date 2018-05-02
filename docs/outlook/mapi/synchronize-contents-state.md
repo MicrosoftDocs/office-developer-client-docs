@@ -1,15 +1,13 @@
 ---
 title: "Synchronize Contents State"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 52216bc3-8cbd-3856-ea46-78f7d0dd66ff
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Synchronize Contents State

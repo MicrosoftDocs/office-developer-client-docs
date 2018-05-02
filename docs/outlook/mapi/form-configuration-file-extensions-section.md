@@ -1,17 +1,15 @@
 ---
 title: "Form Configuration File [Extensions] Section"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 4817e446-982d-491c-abcf-cc888a771afa
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Form Configuration File [Extensions] Section

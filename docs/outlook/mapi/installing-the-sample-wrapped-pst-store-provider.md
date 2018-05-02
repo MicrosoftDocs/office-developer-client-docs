@@ -1,15 +1,13 @@
 ---
 title: "Installing the Sample Wrapped PST Store Provider"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 90ce0ea3-ba73-cb57-0fa9-8898bc4ac9de
 description: "Last modified: July 05, 2012"
+ 
+ 
 ---
 
 # Installing the Sample Wrapped PST Store Provider

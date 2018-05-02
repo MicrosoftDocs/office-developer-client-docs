@@ -1,17 +1,15 @@
 ---
 title: "Implementing Address Book Provider Logon and Logoff"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: c4a1fb5d-ae23-445b-a6f0-ef430b03fc9a
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Implementing Address Book Provider Logon and Logoff

@@ -1,17 +1,15 @@
 ---
 title: "Copying or Moving a Message or a Folder"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 72290fd3-00d7-4055-bbfa-0c47b6e0f62d
 description: "Last modified: November 08, 2011"
+ 
+ 
 ---
 
 # Copying or Moving a Message or a Folder

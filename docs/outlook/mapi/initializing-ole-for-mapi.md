@@ -1,17 +1,15 @@
 ---
 title: "Initializing OLE for MAPI"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 53b65299-69f8-4fc0-8d9b-f666e814aaac
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Initializing OLE for MAPI

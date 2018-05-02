@@ -1,17 +1,15 @@
 ---
 title: "Message Service Tables"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b93ab837-3918-4427-b013-bedc6f5276e4
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Message Service Tables

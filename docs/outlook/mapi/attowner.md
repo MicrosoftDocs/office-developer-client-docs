@@ -1,17 +1,15 @@
 ---
 title: "attOwner"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3c6a4050-fd97-42ce-abb1-118254b367bd
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # attOwner

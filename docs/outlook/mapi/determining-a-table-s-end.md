@@ -1,17 +1,15 @@
 ---
 title: "Determining a Table's End"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: c879e972-05f4-4716-8fc2-db5b22f34ca8
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Determining a Table's End

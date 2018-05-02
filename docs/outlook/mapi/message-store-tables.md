@@ -1,17 +1,15 @@
 ---
 title: "Message Store Tables"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: cdb7d8c5-8e35-47ff-8be7-2cb17e341ad3
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Message Store Tables

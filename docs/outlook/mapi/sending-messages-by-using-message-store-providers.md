@@ -1,17 +1,15 @@
 ---
 title: "Sending Messages by Using Message Store Providers"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7632d784-00d8-48fd-a73b-73778efbef7f
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Sending Messages by Using Message Store Providers

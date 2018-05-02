@@ -1,15 +1,13 @@
 ---
 title: "IFreeBusyDataEnumBlocks"
- 
- 
 manager: soliver
 ms.date: 2/18/2016
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 0cd5a5ae-118f-c7da-4eda-e97590fc39d4
 description: "Gets an interface that enumerates free/busy blocks of data for a user within a specified time range."
+ 
+ 
 ---
 
 # IFreeBusyData::EnumBlocks

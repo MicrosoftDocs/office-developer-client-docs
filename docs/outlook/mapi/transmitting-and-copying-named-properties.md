@@ -1,17 +1,15 @@
 ---
 title: "Transmitting and Copying Named Properties"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 37075cfc-461d-4983-9045-d9f1da6739be
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Transmitting and Copying Named Properties

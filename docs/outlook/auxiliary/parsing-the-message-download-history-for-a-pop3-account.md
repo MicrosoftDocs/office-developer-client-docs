@@ -1,15 +1,13 @@
 ---
 title: "Parsing the message download history for a POP3 account"
- 
- 
 manager: soliver
 ms.date: 9/17/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 394e1430-04d6-4d61-be13-eb695309fa73
 description: "This topic describes the structure of the POP3 BLOB that represents the message download history of a POP3 account, to identify the messages that have been downloaded or deleted on that account."
+ 
+ 
 ---
 
 # Parsing the message download history for a POP3 account

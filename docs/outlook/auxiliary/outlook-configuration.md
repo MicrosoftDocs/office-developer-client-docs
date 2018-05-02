@@ -1,15 +1,13 @@
 ---
 title: "Outlook configuration"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: ff1a6843-6dd6-4527-9fc1-70da288cb9e7
 description: "This section describes how to configure Outlook to resolve item conflicts, determine the update time for an Offline Address Book, and register a domain for automatic configuration."
+ 
+ 
 ---
 
 # Outlook configuration

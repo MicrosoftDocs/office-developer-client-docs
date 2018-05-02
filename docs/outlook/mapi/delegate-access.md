@@ -1,17 +1,15 @@
 ---
 title: "Delegate Access"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a863494f-0071-4d97-a6c4-26707ee00e04
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Delegate Access

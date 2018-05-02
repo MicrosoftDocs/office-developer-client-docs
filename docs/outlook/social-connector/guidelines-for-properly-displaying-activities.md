@@ -1,15 +1,13 @@
 ---
 title: "Guidelines for Properly Displaying Activities"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 55268188-8432-4145-9527-f5888949fc24
 description: "Outlook Social Connector (OSC) providers can set the getActivities and dynamicActivitiesLookupEx elements to have the OSC store activity items in memory. This topic describes the OSC provider extensibility APIs that the OSC calls to get or refresh activities and activity owner details, if the OSC provider supports synchronizing activity feeds from the social network. The topic also lists a few child elements of the activityFeed element that the OSC provider should set for the OSC to display activities properly in the Office Contact Card or Outlook People Pane."
+ 
+ 
 ---
 
 # Guidelines for Properly Displaying Activities

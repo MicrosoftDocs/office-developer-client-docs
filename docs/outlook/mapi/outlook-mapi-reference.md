@@ -1,15 +1,13 @@
 ---
 title: "Outlook MAPI Reference"
- 
- 
 manager: soliver
 ms.date: 4/4/2016
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 3d980b86-7001-4869-9780-121c6bfc7275
 description: "Last modified: April 04, 2016"
+ 
+ 
 ---
 
 # Outlook MAPI Reference

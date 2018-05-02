@@ -1,17 +1,15 @@
 ---
 title: "Verifying Service Provider Configuration"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: dc23dc61-7b51-43ab-a184-ce0bdac91d03
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Verifying Service Provider Configuration

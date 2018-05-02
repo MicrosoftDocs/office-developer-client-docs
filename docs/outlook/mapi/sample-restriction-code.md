@@ -1,17 +1,15 @@
 ---
 title: "Sample Restriction Code"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 9b82097c-dbd6-4ba0-a6cb-292301f9402b
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Sample Restriction Code

@@ -1,17 +1,15 @@
 ---
 title: "Operating Environment Issues"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7622b531-cc4d-4146-8a57-5a3356de3b45
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Operating Environment Issues

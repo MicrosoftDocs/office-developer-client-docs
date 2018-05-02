@@ -1,17 +1,15 @@
 ---
 title: "TNEF Correlation"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 93d1716d-a0be-45aa-85d2-6c9be65f5fd2
 description: "Last modified: March 12, 2013"
+ 
+ 
 ---
 
 # TNEF Correlation

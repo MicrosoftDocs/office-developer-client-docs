@@ -1,17 +1,15 @@
 ---
 title: "MAPI Property Tags"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 380dad4c-7fbf-4c49-b67c-ab612c923499
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # MAPI Property Tags

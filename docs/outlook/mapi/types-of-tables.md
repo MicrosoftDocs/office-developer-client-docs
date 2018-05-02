@@ -1,17 +1,15 @@
 ---
 title: "Types of Tables"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a1fc4f20-511f-4721-8f09-ec2a5fd0ccb0
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Types of Tables

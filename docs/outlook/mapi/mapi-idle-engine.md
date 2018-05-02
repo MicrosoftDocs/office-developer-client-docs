@@ -1,17 +1,15 @@
 ---
 title: "MAPI Idle Engine"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 755d096a-2a61-44d2-a765-5d464a857756
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # MAPI Idle Engine

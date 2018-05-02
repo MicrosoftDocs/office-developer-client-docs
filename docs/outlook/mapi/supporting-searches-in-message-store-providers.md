@@ -1,17 +1,15 @@
 ---
 title: "Supporting Searches in Message Store Providers"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 30a3fe28-31ca-4eb8-9353-f75f6d339dc7
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Supporting Searches in Message Store Providers

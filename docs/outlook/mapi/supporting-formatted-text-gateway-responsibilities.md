@@ -1,17 +1,15 @@
 ---
 title: "Supporting Formatted Text Gateway Responsibilities"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: de737118-5f3b-464f-b036-f4a3489d411a
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Supporting Formatted Text: Gateway Responsibilities

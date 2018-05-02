@@ -1,15 +1,13 @@
 ---
 title: "Using Multiple Exchange Accounts"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 4e1804bf-4c50-4942-a7ab-9a8caf1be7e5
 description: "Last modified: June 25, 2012"
+ 
+ 
 ---
 
 # Using Multiple Exchange Accounts

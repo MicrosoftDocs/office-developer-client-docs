@@ -1,14 +1,12 @@
 ---
 title: "IFreeBusyData"
- 
- 
 manager: soliver
 ms.date: 12/8/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: c9a80ad3-6311-fe07-b6f7-9fd63424753b
+ 
+ 
 ---
 
 # IFreeBusyData

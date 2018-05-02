@@ -1,17 +1,15 @@
 ---
 title: "Installing a Form into a Library"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 303c9dcb-f9b5-4cea-b5f2-3eba01aa3b09
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Installing a Form into a Library

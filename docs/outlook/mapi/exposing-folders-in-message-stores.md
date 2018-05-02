@@ -1,17 +1,15 @@
 ---
 title: "Exposing Folders in Message Stores"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: d9309e47-2a92-4576-9921-c89cc48472c2
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Exposing Folders in Message Stores

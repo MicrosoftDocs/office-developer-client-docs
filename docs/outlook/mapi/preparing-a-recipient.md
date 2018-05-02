@@ -1,17 +1,15 @@
 ---
 title: "Preparing a Recipient"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 9573f10c-66e1-4e87-93f0-89687e906b8b
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Preparing a Recipient

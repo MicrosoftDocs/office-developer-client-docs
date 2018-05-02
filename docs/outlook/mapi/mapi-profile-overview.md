@@ -1,17 +1,15 @@
 ---
 title: "MAPI Profile Overview"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: d6c57be6-2397-4ab1-a912-028454dffc44
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # MAPI Profile Overview

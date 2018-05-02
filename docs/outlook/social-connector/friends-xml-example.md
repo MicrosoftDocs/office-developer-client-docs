@@ -1,15 +1,13 @@
 ---
 title: "Friends XML Example"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 83afbdef-4f12-4673-a0c1-bbf86274558f
 description: "The XML example in this topic is a friend XML string returned to the Outlook Social Connector (OSC) after it calls the ISocialPerson::GetFriendsAndColleagues method. The example shows the friends XML for two friends, each delimited by the person element. Each friend specifies a unique value for the userID element on the social network."
+ 
+ 
 ---
 
 # Friends XML Example

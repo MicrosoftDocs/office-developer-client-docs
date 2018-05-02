@@ -1,17 +1,15 @@
 ---
 title: "TNEF Correlation in SMTP Gateways and Transports"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 593f57d7-2891-40d1-a661-478a62d490ff
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # TNEF Correlation in SMTP Gateways and Transports

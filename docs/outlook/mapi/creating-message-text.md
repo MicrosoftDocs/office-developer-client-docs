@@ -1,17 +1,15 @@
 ---
 title: "Creating Message Text"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 70d1fb24-91a9-4043-8c9d-be1523012e6b
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Creating Message Text

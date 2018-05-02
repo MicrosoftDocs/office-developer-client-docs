@@ -1,15 +1,13 @@
 ---
 title: "MAPI Samples"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 641659f2-3c0a-43af-96f1-2521b4b06680
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # MAPI Samples

@@ -1,17 +1,15 @@
 ---
 title: "Validating and Initializing a Message Store"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 74f0a1fe-2a79-4b32-ab88-85a8839a2639
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Validating and Initializing a Message Store

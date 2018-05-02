@@ -1,15 +1,13 @@
 ---
 title: "Outlook Messaging API (MAPI) Reference Copyright Notice"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: e3538355-8ce9-4c79-9970-aea828818d26
 description: "Last modified: June 22, 2012"
+ 
+ 
 ---
 
 # Outlook Messaging API (MAPI) Reference Copyright Notice

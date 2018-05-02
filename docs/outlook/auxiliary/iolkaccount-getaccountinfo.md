@@ -1,15 +1,13 @@
 ---
 title: "IOlkAccountGetAccountInfo"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 97f08cde-d6e4-8935-1758-4018a3baf682
 description: "Gets the type and categories information for the specified account."
+ 
+ 
 ---
 
 # IOlkAccount::GetAccountInfo

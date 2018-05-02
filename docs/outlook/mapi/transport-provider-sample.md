@@ -1,17 +1,15 @@
 ---
 title: "Transport Provider Sample"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: ec6eb6c0-bfe3-4989-9071-89a14c0e7bdd
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Transport Provider Sample

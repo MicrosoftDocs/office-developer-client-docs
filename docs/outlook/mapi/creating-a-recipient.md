@@ -1,17 +1,15 @@
 ---
 title: "Creating a Recipient"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 586c901f-d9f9-44f2-a328-051775a81265
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Creating a Recipient

@@ -1,15 +1,13 @@
 ---
 title: "IOlkApptRebaserEndEnumerateAppointments"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: bc4506c7-7a4f-940d-d0a6-e0fab4561a88
 description: "Waits for appointment enumeration in a calendar folder to complete and returns a list of appointments that need rebasing."
+ 
+ 
 ---
 
 # IOlkApptRebaser::EndEnumerateAppointments

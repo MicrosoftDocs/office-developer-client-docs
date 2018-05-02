@@ -1,17 +1,15 @@
 ---
 title: "Getting and Setting Properties with GetProps and SetProps"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 309d2b3d-dc71-4222-b293-4bfc467b5429
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Getting and Setting Properties with GetProps and SetProps

@@ -1,17 +1,15 @@
 ---
 title: "Implementing a Progress Indicator"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3a062a88-e87e-4c0c-944e-544a8f080930
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Implementing a Progress Indicator

@@ -1,17 +1,15 @@
 ---
 title: "Working with Unicode Columns"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 2cd55464-263f-4f83-b874-524271773934
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Working with Unicode Columns

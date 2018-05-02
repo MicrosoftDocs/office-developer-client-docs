@@ -1,17 +1,15 @@
 ---
 title: "Implementing a Logon Object"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 41e5c88c-d79d-4e9f-81f4-c4365cfaa15d
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Implementing a Logon Object

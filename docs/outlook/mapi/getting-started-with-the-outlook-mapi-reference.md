@@ -1,15 +1,13 @@
 ---
 title: "Getting Started with the Outlook MAPI Reference"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: a191f5e0-2a60-4d01-9010-892360b3bfa6
 description: "Last modified: February 01, 2013"
+ 
+ 
 ---
 
 # Getting Started with the Outlook MAPI Reference

@@ -1,17 +1,15 @@
 ---
 title: "MAPI Service Providers"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 6511e1b5-697e-4ed1-80af-aa8ca56fd045
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # MAPI Service Providers

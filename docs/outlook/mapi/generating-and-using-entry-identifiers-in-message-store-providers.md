@@ -1,17 +1,15 @@
 ---
 title: "Generating and Using Entry Identifiers in Message Store Providers"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 0c43546a-4788-4852-bc89-d6baa4f33c94
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Generating and Using Entry Identifiers in Message Store Providers

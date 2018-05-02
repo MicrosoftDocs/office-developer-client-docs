@@ -1,17 +1,15 @@
 ---
 title: "Opening a Message"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 142c4975-08df-4501-9996-557aa44eafb3
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Opening a Message

@@ -1,15 +1,13 @@
 ---
 title: "Upload Message State"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 7fdc1494-4f40-38bd-d363-144ca70e5906
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Upload Message State

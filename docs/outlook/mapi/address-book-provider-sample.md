@@ -1,17 +1,15 @@
 ---
 title: "Address Book Provider Sample"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 2ccf1643-5604-4fee-92cc-3d6af00e7f98
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Address Book Provider Sample

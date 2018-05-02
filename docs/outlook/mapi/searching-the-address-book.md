@@ -1,17 +1,15 @@
 ---
 title: "Searching the Address Book"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 20ff2b63-e4a3-4ba9-bad0-2c1873fb69b5
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Searching the Address Book

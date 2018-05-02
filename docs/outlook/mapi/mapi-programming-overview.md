@@ -1,17 +1,15 @@
 ---
 title: "MAPI Programming Overview"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 30ac637a-874f-4660-b5d0-d28d69486f64
 description: "Last modified: June 25, 2012"
+ 
+ 
 ---
 
 # MAPI Programming Overview

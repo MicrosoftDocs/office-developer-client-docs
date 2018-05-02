@@ -1,17 +1,15 @@
 ---
 title: "HandsOffAfterSave State"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: ffdfed49-2c52-445c-8051-6e566f61eedc
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # HandsOffAfterSave State

@@ -1,17 +1,15 @@
 ---
 title: "How to Display a Progress Indicator"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 20f5ad5a-b700-4fb5-9658-f71da5a06a12
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # How to: Display a Progress Indicator

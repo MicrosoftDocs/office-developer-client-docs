@@ -50,7 +50,7 @@ Registration tells Excel the following about a DLL entry point:
     
   - Which function category it should be listed under.
     
-This is all achieved using the C API function [xlfRegister](xlfregister-form-1.md), equivalent to the XLM function **REGISTER**.
+This is all achieved using the C API function [xlfRegister](https://msdn.microsoft.com/en-us/library/office/bb687900.aspx), equivalent to the XLM function **REGISTER**.
   
 ## Calling XLL Functions Directly from Excel
 
@@ -64,11 +64,11 @@ Once they are registered, XLL worksheet and macro sheet functions can be called 
     
 - The condition and limit fields in a conditional format dialog box.
     
-- From another add-in via the C API function [xlUDF](xludf.md).
+- From another add-in via the C API function [xlUDF](https://msdn.microsoft.com/en-us/library/office/bb687892.aspx).
     
 - From Visual Basic for Applications (VBA) via the **Application.Run** method. 
     
-You can obtain a reference to the calling cell or range of cells within your function using the C API function **xlfCaller**. If the function was called from the cell's conditional format expression, you are still returned a reference to the associated cell or cells, so you cannot assume that the cell's formula contains the XLL function. If your function was called from a VBA user-defined function (UDF), **xlfCaller** again returns the address of the cells that called the VBA function. For more information, see [xlfCaller](xlfcaller.md).
+You can obtain a reference to the calling cell or range of cells within your function using the C API function **xlfCaller**. If the function was called from the cell's conditional format expression, you are still returned a reference to the associated cell or cells, so you cannot assume that the cell's formula contains the XLL function. If your function was called from a VBA user-defined function (UDF), **xlfCaller** again returns the address of the cells that called the VBA function. For more information, see [xlfCaller](https://msdn.microsoft.com/en-us/library/office/bb687912.aspx).
   
 > [!NOTE]
 > Excel also calls XLL function code from the **Paste Function Wizard** and **Replace** dialog boxes. You might need to restrict your code's normal running in the case of the **Paste Function Arguments** dialog box, especially where your function can take a long time to execute. To detect if your function is being called from either of these dialog boxes, you must implement some code in your project that iterates through all the open windows to determine if the front window is one of these dialog boxes, and, if so, which one. 
@@ -105,7 +105,7 @@ short WINAPI xll_cmd_name(void)
 
 Excel ignores the return value unless it is called from an XLM macro sheet, in which case the return value is converted to **TRUE** or **FALSE**. You should therefore return 1 if your command executed successfully, and 0 if it failed or was canceled by the user.
   
-You can obtain information about how your command was invoked using the C API function **xlfCaller**. For more information, see [xlfCaller](xlfcaller.md).
+You can obtain information about how your command was invoked using the C API function **xlfCaller**. For more information, see [xlfCaller](https://msdn.microsoft.com/en-us/library/office/bb687912.aspx).
   
 Starting in Excel 2007 user interface is very different from earlier versions. The C API functions that permit the addition and deletion of custom menu bars, menus, submenus, menu items, custom toolbars and toolbar buttons are still supported in most cases. However, they may not always make the added item available in a way that your users are familiar with. You should carefully check that any added functionality is still accessible, or implement a version-specific customization. Starting in Excel 2007 the user interface is best customized by using a managed code module that can then be tightly coupled to your XLL commands.
   
@@ -117,7 +117,7 @@ Starting in Excel 2007 user interface is very different from earlier versions. T
   
 [How to: Call XLL Functions from the Function Wizard or Replace Dialog Boxes](how-to-call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes.md)
   
-[Add-in Manager and XLL Interface Functions](add-in-manager-and-xll-interface-functions.md)
+[Add-in Manager and XLL Interface Functions](https://msdn.microsoft.com/en-us/library/office/bb687914.aspx)
   
 [Developing Excel XLLs](developing-excel-xlls.md)
 

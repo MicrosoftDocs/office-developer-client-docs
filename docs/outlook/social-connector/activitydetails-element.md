@@ -1,15 +1,13 @@
 ---
 title: "activityDetails Element"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: c103d48d-53ca-4b19-b16f-2862379587ef
 description: "The activityDetails element stores the raw data for a single activity feed item. Each activity feed item must have its own activityDetails element. Data in the activityDetails element is referenced in activity templates by using name elements. Every piece of data in the activityDetails element must have a name element."
+ 
+ 
 ---
 
 # activityDetails Element

@@ -1,17 +1,15 @@
 ---
 title: "About Table Notifications"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 00c9c6c2-fc21-4b9c-91fa-629450a22d37
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # About Table Notifications

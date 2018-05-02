@@ -1,17 +1,15 @@
 ---
 title: "MAPI Sessions"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: c5a7c137-393e-40ff-a2b9-afe02da2435a
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # MAPI Sessions

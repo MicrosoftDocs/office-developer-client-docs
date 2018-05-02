@@ -1,17 +1,15 @@
 ---
 title: "Calling MAPI from Windows Services"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: debf7ec3-e9f9-4912-b9a2-fc0953a56a01
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Calling MAPI from Windows Services

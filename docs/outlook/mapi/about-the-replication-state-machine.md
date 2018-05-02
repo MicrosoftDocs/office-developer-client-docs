@@ -1,15 +1,13 @@
 ---
 title: "About the Replication State Machine"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: cf36c6cb-57b4-7b2b-e23d-e0bc8696de96
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # About the Replication State Machine

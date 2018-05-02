@@ -1,17 +1,15 @@
 ---
 title: "MAPI Object and Interface Overview"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: d4ece3af-cb54-4727-8072-0c055381ec11
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # MAPI Object and Interface Overview

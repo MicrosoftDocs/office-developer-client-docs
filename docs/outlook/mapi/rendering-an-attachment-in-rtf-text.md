@@ -1,17 +1,15 @@
 ---
 title: "Rendering an Attachment in RTF Text"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 26372539-e9fe-464d-95c7-90b58c20b98f
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Rendering an Attachment in RTF Text

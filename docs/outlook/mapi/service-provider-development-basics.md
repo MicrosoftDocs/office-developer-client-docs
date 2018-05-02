@@ -1,17 +1,15 @@
 ---
 title: "Service Provider Development Basics"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 00efb70f-405e-4efb-94bc-b39c310332cf
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Service Provider Development Basics

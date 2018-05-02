@@ -1,17 +1,15 @@
 ---
 title: "Implementing the IUnknown Interface"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 01bba63b-a2a1-490e-8b78-5c9ba8d9547b
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Implementing the IUnknown Interface

@@ -1,17 +1,15 @@
 ---
 title: "Status Tables"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: f2b2aca7-757f-4260-96a5-d0af55189711
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Status Tables

@@ -1,17 +1,15 @@
 ---
 title: "Launching a New Compose Form"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: ffceaa03-76f2-42e0-b28d-226f1f9cc889
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Launching a New Compose Form

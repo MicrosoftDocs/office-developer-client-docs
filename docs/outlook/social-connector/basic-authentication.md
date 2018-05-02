@@ -1,15 +1,13 @@
 ---
 title: "Basic Authentication"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 89349d1e-365a-442e-9ba3-2df601d9323c
 description: "The Outlook Social Connector (OSC) calls the ISocialProvider::GetCapabilities method to determine the capabilities of the OSC provider for a social network. The OSC uses the returned capabilities to determine how to support an Office user who is logging on to this social network. If the useLogonWebAuth element in the returned capabilities XML indicates that the OSC provider supports basic authentication, the OSC can make the following calling sequence to allow a user to log on to that social network:"
+ 
+ 
 ---
 
 # Basic Authentication

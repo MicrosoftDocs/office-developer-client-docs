@@ -1,17 +1,15 @@
 ---
 title: "Control Object Implementation"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 4ad62ff0-c527-4e75-a2af-b5906a7588e8
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Control Object Implementation

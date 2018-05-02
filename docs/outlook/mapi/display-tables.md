@@ -1,17 +1,15 @@
 ---
 title: "Display Tables"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: c314ff6d-3e60-4b81-87ac-6ca6753ff633
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Display Tables

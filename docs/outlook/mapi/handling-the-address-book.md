@@ -1,17 +1,15 @@
 ---
 title: "Handling the Address Book"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b685244a-fe1b-4416-85d3-4bd86ccbc3aa
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Handling the Address Book

@@ -1,15 +1,13 @@
 ---
 title: "IOlkAccountHelperGetIdentity"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: ea8b8f02-959f-cd71-9cfe-5ebdf4bae2bc
 description: "Gets the profile name of an account."
+ 
+ 
 ---
 
 # IOlkAccountHelper::GetIdentity

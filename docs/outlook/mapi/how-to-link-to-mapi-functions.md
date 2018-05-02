@@ -1,17 +1,15 @@
 ---
 title: "How to Link to MAPI Functions"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: be72a893-a3bc-4dea-8234-47f3e1db4515
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # How to: Link to MAPI Functions

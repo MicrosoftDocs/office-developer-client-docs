@@ -1,17 +1,15 @@
 ---
 title: "Using MAPI Objects"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: e342c1bd-8bee-4b02-a93f-e3941f4716c1
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Using MAPI Objects

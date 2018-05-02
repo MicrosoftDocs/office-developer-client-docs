@@ -1,17 +1,15 @@
 ---
 title: "Supporting Formatted Text in Outgoing Messages Client Responsibilities"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7238b1a9-01ed-46a0-a625-26763323317d
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Supporting Formatted Text in Outgoing Messages: Client Responsibilities

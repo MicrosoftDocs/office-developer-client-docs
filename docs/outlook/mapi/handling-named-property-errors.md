@@ -1,17 +1,15 @@
 ---
 title: "Handling Named Property Errors"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: f56c56d8-db46-4c69-876f-2bbb4a5c1185
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Handling Named Property Errors

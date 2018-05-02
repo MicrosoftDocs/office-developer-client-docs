@@ -1,17 +1,15 @@
 ---
 title: "MAPI Report Messages"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 824eb670-16b7-49bf-9992-39fe0586a552
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # MAPI Report Messages

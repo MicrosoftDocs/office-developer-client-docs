@@ -1,0 +1,66 @@
+---
+title: "SBinaryArray"
+ 
+ 
+manager: soliver
+ms.date: 3/9/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+api_name:
+- MAPI.SBinaryArray
+api_type:
+- COM
+ms.assetid: 2d5b7302-cad2-4522-beb1-7c6c711f42e6
+description: "Last modified: March 09, 2015"
+---
+
+# SBinaryArray
+
+ **Last modified:** March 09, 2015 
+  
+ * **Applies to:** Outlook * 
+  
+Contains an array of binary values. 
+  
+|||
+|:-----|:-----|
+|Header file:  <br/> |Mapidefs.h  <br/> |
+   
+```
+typedef struct _SBinaryArray
+{
+  ULONG cValues;
+  SBinary FAR *lpbin;
+} SBinaryArray;
+
+```
+
+## Members
+
+ **cValues**
+  
+> Count of values in the array pointed to by the **lpbin** member. 
+    
+ **lpbin**
+  
+> Pointer to an array of [SBinary](sbinary.md) structures that holds the binary values. 
+    
+## Remarks
+
+The **SBinaryArray** structure is used to describe properties of type PT_MV_BINARY. 
+  
+For more information about PT_MV_BINARY, see [List of Property Types](property-types.md).
+  
+## See also
+
+#### Reference
+
+[SBinary](sbinary.md)
+  
+[SPropValue](spropvalue.md)
+#### Concepts
+
+[MAPI Structures](mapi-structures.md)
+

@@ -1,15 +1,13 @@
 ---
 title: "Activity Feed XML Example"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: aa50ca36-8d01-4770-9d9c-30a5baa146ff
 description: "The XML example in this topic is an activity feed XML string returned to the Outlook Social Connector (OSC) after it calls the ISocialSession2::GetActivitiesEx method for a social network."
+ 
+ 
 ---
 
 # Activity Feed XML Example

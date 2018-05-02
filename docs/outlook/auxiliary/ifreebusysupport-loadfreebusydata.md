@@ -1,15 +1,13 @@
 ---
 title: "IFreeBusySupportLoadFreeBusyData"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: f0baa310-7a53-07ee-0a7d-33dd1fb465c2
 description: "Returns, for each specified user, an interface for enumerating free/busy blocks of data within a time range."
+ 
+ 
 ---
 
 # IFreeBusySupport::LoadFreeBusyData

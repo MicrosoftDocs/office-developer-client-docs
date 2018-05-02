@@ -1,17 +1,15 @@
 ---
 title: "MAPI-Implemented Objects"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 5d07c259-0ceb-4ea5-98b4-b01720edfe2a
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # MAPI-Implemented Objects

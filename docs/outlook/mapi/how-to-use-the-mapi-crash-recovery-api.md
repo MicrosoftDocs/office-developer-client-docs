@@ -1,15 +1,13 @@
 ---
 title: "How to Use the MAPI Crash Recovery API"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 1a9871c2-b9bb-332e-b67e-85c50f7f685c
 description: "Last modified: June 25, 2012"
+ 
+ 
 ---
 
 # How to: Use the MAPI Crash Recovery API

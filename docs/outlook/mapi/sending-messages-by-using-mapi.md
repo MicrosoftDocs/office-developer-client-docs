@@ -1,17 +1,15 @@
 ---
 title: "Sending Messages by Using MAPI"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3edfbfff-ea15-4926-bf0f-47137251d921
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Sending Messages by Using MAPI

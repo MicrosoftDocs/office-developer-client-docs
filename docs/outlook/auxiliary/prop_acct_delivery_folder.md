@@ -1,15 +1,13 @@
 ---
 title: "PROP_ACCT_DELIVERY_FOLDER"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: a409c49b-b390-021e-2ec1-7a5932a0c8de
 description: "Represents the Entry ID of the default delivery folder for the account."
+ 
+ 
 ---
 
 # PROP_ACCT_DELIVERY_FOLDER

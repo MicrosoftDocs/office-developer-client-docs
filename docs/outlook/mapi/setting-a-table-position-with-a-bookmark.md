@@ -1,17 +1,15 @@
 ---
 title: "Setting a Table Position with a Bookmark"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 56ab37f9-5aa6-4e9d-9dc8-b3d95aa19f35
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Setting a Table Position with a Bookmark

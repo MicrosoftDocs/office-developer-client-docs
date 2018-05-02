@@ -1,15 +1,13 @@
 ---
 title: "Upload Read Status State"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 4d45574e-df87-8c44-4aa7-d41b38406f0a
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Upload Read Status State

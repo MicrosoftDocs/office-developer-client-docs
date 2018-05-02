@@ -37,7 +37,7 @@ Consider including definitions similar to these in your XLL project code and rep
 
 ## Getting the Running Version
 
-You should detect which version is running using  `Excel4(xlfGetWorkspace, &amp;version, 1, &amp;arg)`, where  `arg` is a numeric **XLOPER** set to 2 and version is a string **XLOPER** which can then be coerced to an integer. For Microsoft Excel 2013, this is 15.0. You should do this in, or from, the [xlAutoOpen](xlautoopen.md) function. You can then set a global variable that informs all of the modules in your project which version of Excel is running. Your code can then decide whether to call the C API using **Excel12** and **XLOPER12**s, or using **Excel4** using **XLOPER**s.
+You should detect which version is running using  `Excel4(xlfGetWorkspace, &amp;version, 1, &amp;arg)`, where  `arg` is a numeric **XLOPER** set to 2 and version is a string **XLOPER** which can then be coerced to an integer. For Microsoft Excel 2013, this is 15.0. You should do this in, or from, the [xlAutoOpen](https://msdn.microsoft.com/en-us/library/office/bb687860.aspx) function. You can then set a global variable that informs all of the modules in your project which version of Excel is running. Your code can then decide whether to call the C API using **Excel12** and **XLOPER12**s, or using **Excel4** using **XLOPER**s.
   
 You can call **XLCallVer** to discover the C API version, but this does not indicate which of the pre-Excel 2007 versions you are running. 
   
@@ -67,13 +67,13 @@ This approach leads to the possibility that a worksheet running in Excel 2003 co
   
 ## New Worksheet Functions and Analysis Toolpak Functions
 
-Analysis Toolpak (ATP) functions are part of Excel starting in Excel 2007. Previously, an XLL could only call an ATP function by using [xlUDF](xludf.md). Starting in Excel 2007, the ATP functions should be called using the function enumerations defined in xlcall.h. The example in Calling User-defined Functions from DLLs demonstrates the two different methods.
+Analysis Toolpak (ATP) functions are part of Excel starting in Excel 2007. Previously, an XLL could only call an ATP function by using [xlUDF](https://msdn.microsoft.com/en-us/library/office/bb687892.aspx). Starting in Excel 2007, the ATP functions should be called using the function enumerations defined in xlcall.h. The example in Calling User-defined Functions from DLLs demonstrates the two different methods.
   
 ## See also
 
 #### Concepts
 
-[C API Callback Functions Excel4, Excel12](c-api-callback-functions-excel4-excel12.md)
+[C API Callback Functions Excel4, Excel12](https://msdn.microsoft.com/en-us/library/office/bb687824.aspx)
   
 [Programming with the C API in Excel](programming-with-the-c-api-in-excel.md)
   

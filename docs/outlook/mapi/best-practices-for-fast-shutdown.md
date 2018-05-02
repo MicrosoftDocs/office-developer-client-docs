@@ -1,17 +1,15 @@
 ---
 title: "Best Practices for Fast Shutdown"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: ae8a9214-e53f-4c57-8dbe-aa7cc6903aa8
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Best Practices for Fast Shutdown

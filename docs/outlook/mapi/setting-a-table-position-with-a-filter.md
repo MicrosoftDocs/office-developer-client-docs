@@ -1,17 +1,15 @@
 ---
 title: "Setting a Table Position with a Filter"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 0d66124b-a018-4db4-b55b-a0e5ed467e14
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Setting a Table Position with a Filter

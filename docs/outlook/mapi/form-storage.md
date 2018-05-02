@@ -1,17 +1,15 @@
 ---
 title: "Form Storage"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 6ddf9158-3c10-408a-aeaf-5a382c4339e7
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Form Storage

@@ -1,17 +1,15 @@
 ---
 title: "How to Create a Simple Mail Item"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: bbf99c4b-3008-4475-a60a-648eaed59d01
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # How to: Create a Simple Mail Item

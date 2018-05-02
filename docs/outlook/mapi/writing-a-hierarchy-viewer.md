@@ -1,17 +1,15 @@
 ---
 title: "Writing a Hierarchy Viewer"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 4c939a8c-8148-4add-b181-5a12e6d32309
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Writing a Hierarchy Viewer

@@ -1,15 +1,13 @@
 ---
 title: "How to Manage a Message in an OST Without Invoking a Synchronization in Cached Exchange Mode"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 3a1f0aa2-813f-222c-f871-0501de5d9dec
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # How to: Manage a Message in an OST Without Invoking a Synchronization in Cached Exchange Mode

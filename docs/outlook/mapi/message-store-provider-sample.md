@@ -1,17 +1,15 @@
 ---
 title: "Message Store Provider Sample"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: f1e4077b-7a95-440d-a326-a8dc9cdab4fe
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Message Store Provider Sample

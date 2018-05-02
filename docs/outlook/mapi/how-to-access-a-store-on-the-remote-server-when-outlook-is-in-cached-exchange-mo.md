@@ -1,15 +1,13 @@
 ---
 title: "How to Access a Store on the Remote Server When Outlook is in Cached Exchange Mode"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 5c6df156-4015-2d0f-26b7-07055a3f7810
 description: "Last modified: July 02, 2012"
+ 
+ 
 ---
 
 # How to: Access a Store on the Remote Server When Outlook is in Cached Exchange Mode

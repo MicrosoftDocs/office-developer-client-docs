@@ -1,17 +1,15 @@
 ---
 title: "Mapping MAPI Names to Canonical Property Names"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 38376abb-60de-40f1-9bc9-d8c4f9e3368b
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Mapping MAPI Names to Canonical Property Names

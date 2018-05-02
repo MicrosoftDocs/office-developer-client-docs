@@ -1,17 +1,15 @@
 ---
 title: "Sending a Reply"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 90dafeae-6b61-40e3-8341-d6a11799d0f2
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Sending a Reply

@@ -1,17 +1,15 @@
 ---
 title: "Implementing a Sample Object"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 23b6ad1a-0b50-429f-8819-ab72c56581c2
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Implementing a Sample Object

@@ -1,17 +1,15 @@
 ---
 title: "Attachment Tables"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 92a07f7b-d34c-4085-ab11-eadcd918fa1b
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Attachment Tables

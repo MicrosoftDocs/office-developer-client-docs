@@ -1,17 +1,15 @@
 ---
 title: "Developing a MAPI Address Book Provider"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 821cc42d-eebb-4327-b2d4-594421a5c22c
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Developing a MAPI Address Book Provider

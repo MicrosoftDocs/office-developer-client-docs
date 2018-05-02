@@ -1,17 +1,15 @@
 ---
 title: "Canceling a Notification"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: decd5d7d-1f47-47c2-b9c4-be0e652c99dd
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Canceling a Notification

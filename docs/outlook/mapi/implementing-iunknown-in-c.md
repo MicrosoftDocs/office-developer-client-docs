@@ -1,17 +1,15 @@
 ---
 title: "Implementing IUnknown in C"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 807b6dc4-cdb7-40a4-87d7-ebc1ad5fab76
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Implementing IUnknown in C

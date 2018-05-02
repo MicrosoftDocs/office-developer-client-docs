@@ -1,17 +1,15 @@
 ---
 title: "Resending an Undelivered Message"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 71768db3-a107-47c6-8e6b-775e8d40ac36
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Resending an Undelivered Message

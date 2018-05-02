@@ -57,7 +57,7 @@ void MyAsyncUDF(LPXLOPER12 arg1, LPXLOPER12 pxAsyncHandle)
 
 ### Returning Values
 
-When the result of the asynchronous call is ready, the XLL add-in returns the result to Excel by performing a callback of type [xlAsyncReturn](xlasyncreturn.md).
+When the result of the asynchronous call is ready, the XLL add-in returns the result to Excel by performing a callback of type [xlAsyncReturn](https://msdn.microsoft.com/en-us/library/office/ff475860.aspx).
   
  **xlAsyncReturn** is the only callback you can use on non-calculation threads during recalculation. Therefore, the asynchronous part of an asynchronous UDF should not perform any other callbacks. 
   

@@ -1,15 +1,13 @@
 ---
 title: "Upload Delete Status State"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: dee566ad-b46d-1015-4b0b-6c3313060142
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Upload Delete Status State

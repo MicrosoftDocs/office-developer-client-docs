@@ -1,17 +1,15 @@
 ---
 title: "Message Services and Profiles"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: df0db1e4-69c8-44ec-bb2a-d31fc8a564b9
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Message Services and Profiles

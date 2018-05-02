@@ -1,15 +1,13 @@
 ---
 title: "Developing a Provider with the OSC XML Schema"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 0872b1b9-c21f-4bba-8cf1-4b010d8d7fb6
 description: "The Outlook Social Connector (OSC) provider XML schema defines the format of a significant amount of information that is passed from a social network through the network's OSC provider to the OSC. The XML schema allows an OSC provider to specify capabilities of the provider, friends, and activity feed items on the social network, by using the three main elements, capabilities, friends, and activityFeed, and their child elements. The OSC provider implements interfaces and their methods in the OSC provider extensibility, returning XML strings as output parameters that comply with the OSC provider XML schema. The OSC calls these methods to obtain information that it can understand as defined by the XML schema."
+ 
+ 
 ---
 
 # Developing a Provider with the OSC XML Schema

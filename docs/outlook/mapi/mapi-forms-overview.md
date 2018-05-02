@@ -1,17 +1,15 @@
 ---
 title: "MAPI Forms Overview"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 1b3afeaa-4ede-41eb-a3c1-b8947a46ef97
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # MAPI Forms Overview

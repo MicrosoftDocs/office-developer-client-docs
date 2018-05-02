@@ -1,17 +1,15 @@
 ---
 title: "Accessing the Members of a Distribution List"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: f724cac8-2d5d-42bc-a15e-99f77a99ce21
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Accessing the Members of a Distribution List

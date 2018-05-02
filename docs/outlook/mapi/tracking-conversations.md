@@ -1,17 +1,15 @@
 ---
 title: "Tracking Conversations"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 0500dee8-a39d-45ce-87b1-c515e92e083d
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Tracking Conversations

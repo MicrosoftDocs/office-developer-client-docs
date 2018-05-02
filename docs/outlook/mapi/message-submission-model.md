@@ -1,17 +1,15 @@
 ---
 title: "Message Submission Model"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 4bcd19f6-c225-43ac-8c27-c46388e9097a
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Message Submission Model

@@ -1,17 +1,15 @@
 ---
 title: "Disk Instances and Cache Tables"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: d556ff4d-e2f3-4c83-a93f-b1bfda5abc8c
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Disk Instances and Cache Tables

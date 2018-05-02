@@ -1,17 +1,15 @@
 ---
 title: "Displaying Table Rows and Columns"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 49567a8d-b58d-4636-bead-a1f84b4f111d
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Displaying Table Rows and Columns

@@ -1,17 +1,15 @@
 ---
 title: "Using a Table to Work with Properties"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: c18ed9f7-c053-4453-b0b1-06234cdfb025
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Using a Table to Work with Properties

@@ -1,15 +1,13 @@
 ---
 title: "IOlkAccountManagerInit"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 0e5ffb61-1469-bc91-f237-27d1156179cd
 description: "Initializes the account manager for use."
+ 
+ 
 ---
 
 # IOlkAccountManager::Init

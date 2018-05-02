@@ -1,17 +1,15 @@
 ---
 title: "Calling QueryRows for Small Tables"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 8c38bb0f-de0b-4d70-9f6d-db652445e137
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Calling QueryRows for Small Tables

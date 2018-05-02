@@ -1,17 +1,15 @@
 ---
 title: "Folder-Associated Information Tables"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b72a0d36-c489-41d6-af57-72fbf4b7a3f5
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Folder-Associated Information Tables

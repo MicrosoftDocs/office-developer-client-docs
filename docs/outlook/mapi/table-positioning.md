@@ -1,17 +1,15 @@
 ---
 title: "Table Positioning"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a0cbbc93-8074-4e86-b660-ee7bab910587
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Table Positioning

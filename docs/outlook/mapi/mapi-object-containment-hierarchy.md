@@ -1,17 +1,15 @@
 ---
 title: "MAPI Object Containment Hierarchy"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 33747835-6eeb-4e07-8f92-3cfa81eecd0f
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # MAPI Object Containment Hierarchy

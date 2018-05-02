@@ -1,15 +1,13 @@
 ---
 title: "Relating the OSC with Outlook and Social Networks"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: f33705cc-8add-42be-9d9f-f4e9245d83f5
 description: "The Outlook Social Connector (OSC) can display in the Office Contact Card and Outlook People Pane activities, status, or photo updates for a coworker, friend, or any person you are associated with. By default, the OSC displays the Outlook emails, attachments, and meeting requests received from a selected person. If the selected person and the Office user collaborate on a SharePoint site, the OSC also displays document updates and other site activities from that SharePoint site. Depending on the contexts of association that the Office user is interested in, the Office user can install OSC providers for line-of-business applications, internal corporate websites, or a variety of professional and social network sites, such as LinkedIn, Facebook, and Windows Live."
+ 
+ 
 ---
 
 # Relating the OSC with Outlook and Social Networks

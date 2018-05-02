@@ -1,17 +1,15 @@
 ---
 title: "MAPI Address Book"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 6703ba3f-54a5-4059-b10a-1d42a9e81be1
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # MAPI Address Book

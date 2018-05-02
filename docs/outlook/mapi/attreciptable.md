@@ -1,17 +1,15 @@
 ---
 title: "attRecipTable"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b0465a67-3c4c-422b-9aa0-7c4c556cbd50
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # attRecipTable

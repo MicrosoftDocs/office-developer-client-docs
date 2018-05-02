@@ -1,17 +1,15 @@
 ---
 title: "Implementing Security"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 62db34a0-887c-4607-94ad-d8cae68b35c2
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Implementing Security

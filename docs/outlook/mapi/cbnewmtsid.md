@@ -1,0 +1,50 @@
+---
+title: "CbNewMTSID"
+ 
+ 
+manager: soliver
+ms.date: 3/9/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+api_name:
+- MAPI.CbNewMTSID
+api_type:
+- COM
+ms.assetid: fd5ef226-39e6-4604-a751-2f6cc49c4895
+description: "Last modified: March 09, 2015"
+---
+
+# CbNewMTSID
+
+ **Last modified:** March 09, 2015 
+  
+ * **Applies to:** Outlook * 
+  
+Computes the number of bytes that should be allocated for a new [MTSID](mtsid.md) structure with a message transfer agent identifier of a specified size. 
+  
+|||
+|:-----|:-----|
+|Header file:  <br/> |Mapidefs.h  <br/> |
+|Related structure:  <br/> |**MTSID** <br/> |
+   
+```
+CbNewMTSID (_cb)
+```
+
+## Parameters
+
+ __cb_
+  
+> Count of bytes for the message transfer agent identifier to be included in the new **MTSID** structure. 
+    
+## See also
+
+#### Reference
+
+[MTSID](mtsid.md)
+#### Concepts
+
+[Macros Related to Structures](macros-related-to-structures.md)
+

@@ -1,17 +1,15 @@
 ---
 title: "Form States"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: dfc9fbf1-90d4-4756-92d9-032ac56a9c50
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Form States

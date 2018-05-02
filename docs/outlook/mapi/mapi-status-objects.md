@@ -1,17 +1,15 @@
 ---
 title: "MAPI Status Objects"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 38310619-1b1d-4934-8533-d0612676c0b0
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # MAPI Status Objects

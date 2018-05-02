@@ -1,15 +1,13 @@
 ---
 title: "IOlkApptRebaserEndRebaseAppointments"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: e47d5a8d-6a13-f430-fbfd-00df04b4a006
 description: "Waits for appointment rebasing to complete and retrieves the results."
+ 
+ 
 ---
 
 # IOlkApptRebaser::EndRebaseAppointments

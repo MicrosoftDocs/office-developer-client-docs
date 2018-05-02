@@ -1,17 +1,15 @@
 ---
 title: "Implementing Objects in C++"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: d1a050ff-3cf9-4bf7-812d-b7c1b31056e7
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Implementing Objects in C++

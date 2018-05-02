@@ -1,17 +1,15 @@
 ---
 title: "Opening a Message Store"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 43b23fd7-999a-42c0-8f4d-47f5de266bdb
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Opening a Message Store

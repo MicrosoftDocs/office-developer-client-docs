@@ -1,17 +1,15 @@
 ---
 title: "Managing Memory for ADRLIST and SRowSet Structures"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: d009f6b6-d151-4d52-b7cc-a15127142354
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Managing Memory for ADRLIST and SRowSet Structures

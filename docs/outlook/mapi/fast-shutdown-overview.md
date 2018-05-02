@@ -1,17 +1,15 @@
 ---
 title: "Fast Shutdown Overview"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a7830d73-427c-4f8b-86f4-51e040c142c3
 description: "Last modified: June 26, 2012"
+ 
+ 
 ---
 
 # Fast Shutdown Overview

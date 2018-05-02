@@ -1,17 +1,15 @@
 ---
 title: "Supporting RTF Text for Message Store Providers"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 0022fe70-cf11-49a5-9c97-a6bc5b5b13aa
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Supporting RTF Text for Message Store Providers

@@ -1,14 +1,12 @@
 ---
 title: "How to Create an Outlook profile using MFCMAPI"
- 
- 
 ms.date: 5/18/2016
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 85581bc7-2d81-46af-8836-adef39c933fc
 description: "MFCMAPI provides access to MAPI stores to facilitate investigation of Exchange and Outlook issues and to provide developers with support for MAPI development."
+ 
+ 
 ---
 
 # How to: Create an Outlook profile using MFCMAPI

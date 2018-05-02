@@ -1,17 +1,15 @@
 ---
 title: "Displaying a Folder Contents Table"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 14a4c123-776d-4a32-9688-8a4402dd1f53
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Displaying a Folder Contents Table

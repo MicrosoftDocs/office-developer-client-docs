@@ -1,17 +1,15 @@
 ---
 title: "Writing an Automated Client"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b8f9ac1a-b377-4f83-8fb6-ed85ab9053d0
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Writing an Automated Client

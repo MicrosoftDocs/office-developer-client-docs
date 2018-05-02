@@ -1,17 +1,15 @@
 ---
 title: "One-Off Entry Identifiers"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 741d21ae-f14a-4b7f-80aa-91d0f0ff3f34
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # One-Off Entry Identifiers

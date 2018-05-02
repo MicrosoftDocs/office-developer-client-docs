@@ -1,17 +1,15 @@
 ---
 title: "Creating a Profile by Using Custom Code"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 5632cd25-58f5-4b9c-906c-cd377abc3daf
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Creating a Profile by Using Custom Code

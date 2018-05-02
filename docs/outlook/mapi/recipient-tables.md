@@ -1,17 +1,15 @@
 ---
 title: "Recipient Tables"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 02e77317-54c4-4fca-9ab4-835998ce07ce
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Recipient Tables

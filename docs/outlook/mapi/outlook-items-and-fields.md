@@ -1,15 +1,13 @@
 ---
 title: "Outlook Items and Fields"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 605fab0f-c045-4d2b-a2da-447a111f66a9
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Outlook Items and Fields

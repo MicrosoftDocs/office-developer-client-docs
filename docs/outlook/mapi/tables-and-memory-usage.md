@@ -1,17 +1,15 @@
 ---
 title: "Tables and Memory Usage"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7ac11e60-6b2c-4241-96e2-20219f84d949
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Tables and Memory Usage

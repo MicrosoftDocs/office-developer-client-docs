@@ -1,17 +1,15 @@
 ---
 title: "Creating Display Tables and Related Structures"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a8548040-13ed-4a9f-a7ca-de610f94d7df
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Creating Display Tables and Related Structures

@@ -1,17 +1,15 @@
 ---
 title: "MAPI Object Inheritance Hierarchy"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3dc0b79f-e346-416d-ac81-42eba6b6d3b2
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # MAPI Object Inheritance Hierarchy

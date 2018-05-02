@@ -1,15 +1,13 @@
 ---
 title: "Debugging a Provider"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: d2dfaeed-7635-4c6b-9c35-b955ca1a85e9
 description: "There are several ways you can debug an Outlook Social Connector (OSC) provider:"
+ 
+ 
 ---
 
 # Debugging a Provider

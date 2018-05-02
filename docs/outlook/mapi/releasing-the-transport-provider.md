@@ -1,17 +1,15 @@
 ---
 title: "Releasing the Transport Provider"
- 
- 
 manager: soliver
 ms.date: 12/7/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: e0f37485-55c9-40f0-bc8c-48f7297f9f50
 description: "Last modified: December 07, 2015"
+ 
+ 
 ---
 
 # Releasing the Transport Provider

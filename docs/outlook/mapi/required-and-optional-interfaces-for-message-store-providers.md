@@ -1,17 +1,15 @@
 ---
 title: "Required and Optional Interfaces for Message Store Providers"
- 
- 
 manager: soliver
 ms.date: 12/7/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: cc62e57e-82a4-4f37-8d1b-7cdf828b951e
 description: "Last modified: December 07, 2015"
+ 
+ 
 ---
 
 # Required and Optional Interfaces for Message Store Providers

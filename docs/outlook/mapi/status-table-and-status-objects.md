@@ -1,17 +1,15 @@
 ---
 title: "Status Table and Status Objects"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 203765c1-4b08-4032-a5bf-18f3e752a899
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Status Table and Status Objects

@@ -1,15 +1,13 @@
 ---
 title: "IOlkEnumGetNext"
- 
- 
 manager: soliver
 ms.date: 12/7/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: b387f896-c213-fc07-a12a-33917e620837
 description: "Gets the next account in the enumerator."
+ 
+ 
 ---
 
 # IOlkEnum::GetNext

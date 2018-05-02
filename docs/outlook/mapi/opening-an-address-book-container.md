@@ -1,17 +1,15 @@
 ---
 title: "Opening an Address Book Container"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 89383b27-618c-4ccb-9e16-f66235c98bfe
 description: "Last modified: November 08, 2011"
+ 
+ 
 ---
 
 # Opening an Address Book Container

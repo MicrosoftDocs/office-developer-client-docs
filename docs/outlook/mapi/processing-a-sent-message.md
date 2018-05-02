@@ -1,17 +1,15 @@
 ---
 title: "Processing a Sent Message"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 55b3e692-753d-45e9-a40d-22adc81b75da
 description: "Last modified: March 09, 2015"
+ 
+ 
 ---
 
 # Processing a Sent Message

@@ -1,17 +1,15 @@
 ---
 title: "Working with Large Columns"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 452acccf-22fd-4450-b50f-eaa2b2c94515
 description: "Last modified: July 23, 2011"
+ 
+ 
 ---
 
 # Working with Large Columns
