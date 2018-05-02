@@ -246,7 +246,7 @@ For example, you can see that ProjectId and TaskId are the keys for the Task ent
 </EntityType>
 ```
 
-See the [ProjectData OData service schema reference](schema-reportingdata-projectdata-service.md) to find keys for other entity types. 
+See the [ProjectData OData service schema reference](https://msdn.microsoft.com/en-us/library/office/jj163529.aspx) to find keys for other entity types. 
   
 ## Additional resources
 <a name="ProjODataSSISToolAddResources"> </a>
@@ -255,7 +255,7 @@ See the [ProjectData OData service schema reference](schema-reportingdata-projec
     
 - [ProjectData - Project OData service reference](projectdataproject-odata-service-reference.md)
     
-- [Schema: ReportingData (ProjectData service)](schema-reportingdata-projectdata-service.md)
+- [Schema: ReportingData (ProjectData service)](https://msdn.microsoft.com/en-us/library/office/jj163529.aspx)
     
 - [Project Online](http://technet.microsoft.com/en-us/projectserver/fp123547.aspx)
     

@@ -33,7 +33,7 @@ The XML content of an Entity Data Model is also known as a Service Metadata Docu
 
 1. The URL of the **ProjectData** service is  `http://ServerName/ProjectServerName/_api/ProjectData`. For example, if your Project Web App site is  `http://MyServer/pwa`, to get the Service Metadata Document, enter the following URL in a browser: http:// _MyServer_/pwa/_api/ProjectData/$metadata. 
     
-2. Save the XML data in a file; for example, save as a file named ProjectData.xml. The [ReportingData Schema element](schema-reportingdata-projectdata-service.md) contains **EntityType** elements and **Association** elements. The [ReportingData EntityContainer element](entitycontainer-reportingdata-projectdata-service.md) contains **EntitySet** elements and **AssociationSet** elements. 
+2. Save the XML data in a file; for example, save as a file named ProjectData.xml. The [ReportingData Schema element](https://msdn.microsoft.com/en-us/library/office/jj163529.aspx) contains **EntityType** elements and **Association** elements. The [ReportingData EntityContainer element](https://msdn.microsoft.com/en-us/library/office/jj163018.aspx) contains **EntitySet** elements and **AssociationSet** elements. 
     
 3. To format the ProjectData.xml file for easier reading, open the file in Visual Studio, choose **Advanced** on the **Edit** menu, and then choose **Format Document**. Or, choose the **Format Document** icon on the **XML Editor** toolbar. 
     
@@ -66,7 +66,7 @@ The XML content of an Entity Data Model is also known as a Service Metadata Docu
     
 6. To get the collection of projects, and the associations and properties of each project, use  `http://ServerName/ProjectServerName/_api/ProjectData/Projects`.
     
-7. To get the associations and properties of a specific project, specify the primary key of the **Project** entity type (see the **Key** element in [EntityType element: Project](entitytype-project-projectdata-service.md)). For example, the **ProjectId** property is the primary key of the **Project** entity. **ProjectId** is of type **Edm.Guid**. The query for a specific project can be expressed as  `http://ServerName/ProjectServerName/_api/ProjectData/Projects(guid'263fc8d7-427c-e111-92fc-00155d3ba208')`.
+7. To get the associations and properties of a specific project, specify the primary key of the **Project** entity type (see the **Key** element in [EntityType element: Project](https://msdn.microsoft.com/en-us/library/office/jj163049.aspx)). For example, the **ProjectId** property is the primary key of the **Project** entity. **ProjectId** is of type **Edm.Guid**. The query for a specific project can be expressed as  `http://ServerName/ProjectServerName/_api/ProjectData/Projects(guid'263fc8d7-427c-e111-92fc-00155d3ba208')`.
     
     The **link** elements in the XML results show the URL extensions for the associations of that project. For example, the **href** attributes in the following **link** elements show how to get the collection of assignments and tasks in the project. 
     
@@ -81,7 +81,7 @@ The XML content of an Entity Data Model is also known as a Service Metadata Docu
   . . .
   ```
 
-    The [EntityType element: Project](entitytype-project-projectdata-service.md) reference topic lists all the associations and properties that are available for the **Project** entity type. For example, the query results include the actual start date and the number of hours of actual work completed on the project, as follows: 
+    The [EntityType element: Project](https://msdn.microsoft.com/en-us/library/office/jj163049.aspx) reference topic lists all the associations and properties that are available for the **Project** entity type. For example, the query results include the actual start date and the number of hours of actual work completed on the project, as follows: 
     
   ```XML
   . . .
@@ -115,7 +115,7 @@ The XML content of an Entity Data Model is also known as a Service Metadata Docu
   </content>
   ```
 
-10. Because one of the **NavigationProperty** elements in [EntityType element: Project](entitytype-project-projectdata-service.md) uses the [Association element: Project_Tasks_Task_Project ](association-project_tasks_task_project-projectdata-service.md) relationship, you can use the following query to get all of the tasks in the project:  `http://ServerName/ProjectServerName/_api/ProjectData/Projects(guid'263fc8d7-427c-e111-92fc-00155d3ba208')/Tasks`. The results include the **link** elements for the entity associations of each task, and the properties of each task. The project summary task is the first task in the results, where  `TaskIndex = 0`.
+10. Because one of the **NavigationProperty** elements in [EntityType element: Project](https://msdn.microsoft.com/en-us/library/office/jj163049.aspx) uses the [Association element: Project_Tasks_Task_Project ](https://msdn.microsoft.com/en-us/library/office/jj163386.aspx) relationship, you can use the following query to get all of the tasks in the project:  `http://ServerName/ProjectServerName/_api/ProjectData/Projects(guid'263fc8d7-427c-e111-92fc-00155d3ba208')/Tasks`. The results include the **link** elements for the entity associations of each task, and the properties of each task. The project summary task is the first task in the results, where  `TaskIndex = 0`.
     
     In a query that starts with a project, the XML result shows both a primary key and a foreign key for each task association. For example, the XML data includes the association for a specific task and the association for the assignments in that task. In the following XML results of the query, **ProjectId** is the primary key, and **TaskId** is the foreign key. The [EntityType element: Task](entitytype-task-projectdata-service.md) topic shows both keys. 
     
@@ -131,7 +131,7 @@ The XML content of an Entity Data Model is also known as a Service Metadata Docu
   . . .
   ```
 
-You can walk the entity data model by using REST queries. Each **EntityType** element in the [ReportingData Schema element](schema-reportingdata-projectdata-service.md) lists the properties and associations that are available for that entity. In addition to the basic queries, you can use query string options such as  _$select_,  _$skip_,  _$top_,  _$filter_, and  _$orderby_. The  _$links_ query option and the  _$expand_ query option are not implemented in the **ProjectData** service. For more information, see [Query String Options](http://www.odata.org/documentation/uri-conventions#QueryStringOptions) in the Odata.org documentation. 
+You can walk the entity data model by using REST queries. Each **EntityType** element in the [ReportingData Schema element](https://msdn.microsoft.com/en-us/library/office/jj163529.aspx) lists the properties and associations that are available for that entity. In addition to the basic queries, you can use query string options such as  _$select_,  _$skip_,  _$top_,  _$filter_, and  _$orderby_. The  _$links_ query option and the  _$expand_ query option are not implemented in the **ProjectData** service. For more information, see [Query String Options](http://www.odata.org/documentation/uri-conventions#QueryStringOptions) in the Odata.org documentation. 
 > [!NOTE]
 > The **ProjectData** service implements paging for the entity sets, to limit the number of entities that can be returned in one query. You can use the **Get-SPProjectOdataConfiguration** command or the Set-SPProjectOdataConfiguration command in the SharePoint 2013 Management Shell to get or set the limits for a specified entity such as **Tasks**, or for all 33 entities. For more information, see [ProjectData - OData service reference](projectdataproject-odata-service-reference.md). 
   
