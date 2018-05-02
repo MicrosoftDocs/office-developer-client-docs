@@ -117,7 +117,7 @@ The XML content of an Entity Data Model is also known as a Service Metadata Docu
 
 10. Because one of the **NavigationProperty** elements in [EntityType element: Project](https://msdn.microsoft.com/en-us/library/office/jj163049.aspx) uses the [Association element: Project_Tasks_Task_Project ](https://msdn.microsoft.com/en-us/library/office/jj163386.aspx) relationship, you can use the following query to get all of the tasks in the project:  `http://ServerName/ProjectServerName/_api/ProjectData/Projects(guid'263fc8d7-427c-e111-92fc-00155d3ba208')/Tasks`. The results include the **link** elements for the entity associations of each task, and the properties of each task. The project summary task is the first task in the results, where  `TaskIndex = 0`.
     
-    In a query that starts with a project, the XML result shows both a primary key and a foreign key for each task association. For example, the XML data includes the association for a specific task and the association for the assignments in that task. In the following XML results of the query, **ProjectId** is the primary key, and **TaskId** is the foreign key. The [EntityType element: Task](entitytype-task-projectdata-service.md) topic shows both keys. 
+    In a query that starts with a project, the XML result shows both a primary key and a foreign key for each task association. For example, the XML data includes the association for a specific task and the association for the assignments in that task. In the following XML results of the query, **ProjectId** is the primary key, and **TaskId** is the foreign key. The [EntityType element: Task](https://msdn.microsoft.com/en-us/library/office/jj163598.aspx) topic shows both keys. 
     
   ```XML
   . . .

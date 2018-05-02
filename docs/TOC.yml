@@ -637,19 +637,19 @@
      - name: OneNote
        href: onenote/onenote.md
        items:
-          - name: OneNote developer reference
-            href: onenote/onenote-developer-reference.md
-            items:
-            - name: Window interfaces
-              href: 
-            - name: Quick Filing dialog box interfaces
-              href: 
-            - name: Application interface
-              href: 
-            - name: Enumerations
-              href: 
-            - name: Error codes
-              href:
+       - name: OneNote developer reference
+         href: onenote/onenote-developer-reference.md
+         items:
+         - name: Window interfaces
+           href: onenote/window-interfaces-onenote.md
+         - name: Quick Filing dialog box interfaces
+           href: onenote/quick-filing-dialog-box-interfaces-onenote.md
+         - name: Application interface
+           href: onenote/application-interface-onenote.md
+         - name: Enumerations
+           href: onenote/enumerations-onenote-developer-reference.md
+         - name: Error codes
+           href: onenote/error-codes-onenote.md
      - name: Outlook
        href: outlook/outlook.md
        items:
