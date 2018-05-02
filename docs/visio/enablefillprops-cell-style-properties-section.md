@@ -1,0 +1,42 @@
+---
+title: "EnableFillProps Cell (Style Properties Section)"
+ 
+ 
+manager: soliver
+ms.date: 3/9/2015
+ms.audience: Developer
+ms.topic: reference
+f1_keywords:
+- Vis_DSS.chm300
+ 
+localization_priority: Normal
+ms.assetid: 2b3334de-588c-6cf3-bc88-be03ae71b1a6
+description: "Determines whether a style includes fill properties."
+---
+
+# EnableFillProps Cell (Style Properties Section)
+
+Determines whether a style includes fill properties.
+  
+|**Value**|**Description**|
+|:-----|:-----|
+|TRUE  <br/> |Include fill properties.  <br/> |
+|FALSE  <br/> |Exclude fill properties.  <br/> |
+   
+## Remarks
+
+To get a reference to the EnableFillProps cell by name from another formula, or from a program using the **CellsU** property, use: 
+  
+|||
+|:-----|:-----|
+|Cell name:  <br/> |EnableFillProps  <br/> |
+   
+To get a reference to the EnableFillProps cell by index from a program, use the **CellsSRC** property with the following arguments: 
+  
+|||
+|:-----|:-----|
+|Section index:  <br/> |**visSectionObject** <br/> |
+|Row index:  <br/> |**visRowStyle** <br/> |
+|Cell index:  <br/> |**visStyleIncludesFill** <br/> |
+   
+

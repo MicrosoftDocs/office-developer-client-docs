@@ -1,0 +1,41 @@
+---
+title: "DOOLEVERB Function"
+ 
+ 
+manager: soliver
+ms.date: 3/9/2015
+ms.audience: Developer
+ms.topic: reference
+f1_keywords:
+- Vis_DSS.chm82251421
+ 
+localization_priority: Normal
+ms.assetid: d276c122-6326-75a7-220c-6a78e94e0db0
+description: "Executes a verb for the OLE object."
+---
+
+# DOOLEVERB Function
+
+Executes a verb for the OLE object.
+  
+## Syntax
+
+DOOLEVERB(" ** *verb* ** ") 
+  
+### Parameters
+
+|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|:-----|:-----|:-----|:-----|
+| _"verb"_ <br/> |Required  <br/> |**String** <br/> |The verb to execute.  <br/> |
+   
+## Remarks
+
+In earlier versions of Visio, this function appears as _DOOLEVERB. Visio versions 4.0 and later accept either style. 
+  
+## Example
+
+DOOLEVERB("edit")
+  
+Runs the OLE object program and displays the linked or embedded object so that it can be edited.
+  
+

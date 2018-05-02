@@ -2267,16 +2267,1326 @@
            - name: Type a New Formula for a Cell
              href: visio/type-a-new-formula-for-a-cell.md
          - name: Reference
-           href: https://msdn.microsoft.com/EN-US/library/office/ff765103.aspx
+           href: visio/reference-visio-shapesheet.md
            items:
            - name: Cells
-             href: https://msdn.microsoft.com/EN-US/library/office/jj945060.aspx
+             href: visio/cells-visio-shapesheet-reference.md
+             items:
+             - name: A Cell (Geometry Section)
+               href: visio/a-cell-geometry-section.md
+             - name: Action Cell (Actions Section)
+               href: visio/action-cell-actions-section.md
+             - name: Active Cell (Layers Section)
+               href: visio/active-cell-layers-section.md
+             - name: AddMarkup Cell (Document Properties Section)
+               href: visio/addmarkup-cell-document-properties-section.md
+             - name: Address Cell (Hyperlinks Section)
+               href: visio/address-cell-hyperlinks-section.md
+             - name: AlignBottom Cell (Alignment Section)
+               href: visio/alignbottom-cell-alignment-section.md
+             - name: AlignCenter Cell (Alignment Section)
+               href: visio/aligncenter-cell-alignment-section.md
+             - name: AlignLeft Cell (Alignment Section)
+               href: visio/alignleft-cell-alignment-section.md
+             - name: Alignment Cell (Tabs Section)
+               href: visio/alignment-cell-tabs-section.md
+             - name: AlignMiddle Cell (Alignment Section)
+               href: visio/alignmiddle-cell-alignment-section.md
+             - name: AlignRight Cell (Alignment Section)
+               href: visio/alignright-cell-alignment-section.md
+             - name: AlignTop Cell (Alignment Section)
+               href: visio/aligntop-cell-alignment-section.md
+             - name: Angle Cell (Shape Transform Section)
+               href: visio/angle-cell-shape-transform-section.md
+             - name: AsianFont Cell (Character Section)
+               href: visio/asianfont-cell-character-section.md
+             - name: Ask Cell (Shape Data Section)
+               href: visio/ask-cell-shape-data-section.md
+             - name: AvenueSizeX Cell (Page Layout Section)
+               href: visio/avenuesizex-cell-page-layout-section.md
+             - name: AvenueSizeY Cell (Page Layout Section)
+               href: visio/avenuesizey-cell-page-layout-section.md
+             - name: AvoidPageBreaks Cell (Page Layout Section)
+               href: visio/avoidpagebreaks-cell-page-layout-section.md
+             - name: B Cell (Geometry Section)
+               href: visio/b-cell-geometry-section.md
+             - name: BeginArrow Cell (Line Format Section)
+               href: visio/beginarrow-cell-line-format-section.md
+             - name: BeginArrowSize Cell (Line Format Section)
+               href: visio/beginarrowsize-cell-line-format-section.md
+             - name: BeginGroup Cell (Actions Section)
+               href: visio/begingroup-cell-actions-section.md
+             - name: BeginX Cell (1-D Endpoints Section)
+               href: visio/beginx-cell-1-d-endpoints-section.md
+             - name: BeginY Cell (1-D Endpoints Section)
+               href: visio/beginy-cell-1-d-endpoints-section.md
+             - name: BegTrigger Cell (Glue Info Section)
+               href: visio/begtrigger-cell-glue-info-section.md
+             - name: BevelBottomHeight Cell (Bevel Properties Section)
+               href: visio/bevelbottomheight-cell-bevel-properties-section.md
+             - name: BevelBottomType Cell (Bevel Properties Section)
+               href: visio/bevelbottomtype-cell-bevel-properties-section.md
+             - name: BevelBottomWidth Cell (Bevel Properties Section)
+               href: visio/bevelbottomwidth-cell-bevel-properties-section.md
+             - name: BevelContourColor Cell (Bevel Properties Section)
+               href: visio/bevelcontourcolor-cell-bevel-properties-section.md
+             - name: BevelContourSize Cell (Bevel Properties Section)
+               href: visio/bevelcontoursize-cell-bevel-properties-section.md
+             - name: BevelDepthColor Cell (Bevel Properties Section)
+               href: visio/beveldepthcolor-cell-bevel-properties-section.md
+             - name: BevelDepthSize Cell (Bevel Properties Section)
+               href: visio/beveldepthsize-cell-bevel-properties-section.md
+             - name: BevelLightingAngle Cell (Bevel Properties Section)
+               href: visio/bevellightingangle-cell-bevel-properties-section.md
+             - name: BevelLightingType Cell (Bevel Properties Section)
+               href: visio/bevellightingtype-cell-bevel-properties-section.md
+             - name: BevelMaterialType Cell (Bevel Properties Section)
+               href: visio/bevelmaterialtype-cell-bevel-properties-section.md
+             - name: BevelTopHeight Cell (Bevel Properties Section)
+               href: visio/beveltopheight-cell-bevel-properties-section.md
+             - name: BevelTopType Cell (Bevel Properties Section)
+               href: visio/beveltoptype-cell-bevel-properties-section.md
+             - name: BevelTopWidth Cell (Bevel Properties Section)
+               href: visio/beveltopwidth-cell-bevel-properties-section.md
+             - name: BlockSizeX Cell (Page Layout Section)
+               href: visio/blocksizex-cell-page-layout-section.md
+             - name: BlockSizeY Cell (Page Layout Section)
+               href: visio/blocksizey-cell-page-layout-section.md
+             - name: Blur Cell (Image Properties Section)
+               href: visio/blur-cell-image-properties-section.md
+             - name: BottomMargin Cell (Text Block Format Section)
+               href: visio/bottommargin-cell-text-block-format-section.md
+             - name: Brightness Cell (Image Properties Section)
+               href: visio/brightness-cell-image-properties-section.md
+             - name: Bullet Cell (Paragraph Section)
+               href: visio/bullet-cell-paragraph-section.md
+             - name: BulletFont Cell (Paragraph Section)
+               href: visio/bulletfont-cell-paragraph-section.md
+             - name: BulletSize Cell (Paragraph Section)
+               href: visio/bulletsize-cell-paragraph-section.md
+             - name: BulletString Cell (Paragraph Section)
+               href: visio/bulletstring-cell-paragraph-section.md
+             - name: ButtonFace Cell (Action Tags Section)
+               href: visio/buttonface-cell-action-tags-section.md
+             - name: ButtonFace Cell (Actions Section)
+               href: visio/buttonface-cell-actions-section.md
+             - name: C Cell (Geometry Section)
+               href: visio/c-cell-geometry-section.md
+             - name: Calendar Cell (Miscellaneous Section)
+               href: visio/calendar-cell-miscellaneous-section.md
+             - name: Calendar Cell (Shape Data Section)
+               href: visio/calendar-cell-shape-data-section.md
+             - name: Calendar Cell (Text Fields Section)
+               href: visio/calendar-cell-text-fields-section.md
+             - name: Can Glue Cell (Controls Section)
+               href: visio/can-glue-cell-controls-section.md
+             - name: Case Cell (Character Section)
+               href: visio/case-cell-character-section.md
+             - name: CenterX Cell (Print Properties Section)
+               href: visio/centerx-cell-print-properties-section.md
+             - name: CenterY Cell (Print Properties Section)
+               href: visio/centery-cell-print-properties-section.md
+             - name: Checked Cell (Actions Section)
+               href: visio/checked-cell-actions-section.md
+             - name: ClippingPath Cell (Foreign Image Info Section)
+               href: visio/clippingpath-cell-foreign-image-info-section.md
+             - name: Color Cell (Character Section)
+               href: visio/color-cell-character-section.md
+             - name: Color Cell (Layers Section)
+               href: visio/color-cell-layers-section.md
+             - name: Color Cell (Reviewer Section)
+               href: visio/color-cell-reviewer-section.md
+             - name: ColorSchemeIndex Cell (Theme Properties Section)
+               href: visio/colorschemeindex-cell-theme-properties-section.md
+             - name: Comment Cell (Annotation Section)
+               href: visio/comment-cell-annotation-section.md
+             - name: Comment Cell (Miscellaneous Section)
+               href: visio/comment-cell-miscellaneous-section.md
+             - name: ComplexScriptFont Cell (Character Section)
+               href: visio/complexscriptfont-cell-character-section.md
+             - name: ComplexScriptSize Cell (Character Section)
+               href: visio/complexscriptsize-cell-character-section.md
+             - name: CompoundType Cell (Line Format Section)
+               href: visio/compoundtype-cell-line-format-section.md
+             - name: ConFixedCode Cell (Shape Layout Section)
+               href: visio/confixedcode-cell-shape-layout-section.md
+             - name: ConLineJumpCode Cell (Shape Layout Section)
+               href: visio/conlinejumpcode-cell-shape-layout-section.md
+             - name: ConLineJumpDirX Cell (Shape Layout Section)
+               href: visio/conlinejumpdirx-cell-shape-layout-section.md
+             - name: ConLineJumpDirY Cell (Shape Layout Section)
+               href: visio/conlinejumpdiry-cell-shape-layout-section.md
+             - name: ConLineJumpStyle Cell (Shape Layout Section)
+               href: visio/conlinejumpstyle-cell-shape-layout-section.md
+             - name: ConLineRouteExt Cell (Shape Layout Section)
+               href: visio/conlinerouteext-cell-shape-layout-section.md
+             - name: ConnectorSchemeIndex Cell (Theme Properties Section)
+               href: visio/connectorschemeindex-cell-theme-properties-section.md
+             - name: Contrast Cell (Image Properties Section)
+               href: visio/contrast-cell-image-properties-section.md
+             - name: CtrlAsInput Cell (Page Layout Section)
+               href: visio/ctrlasinput-cell-page-layout-section.md
+             - name: D Cell (Connection Points Section)
+               href: visio/d-cell-connection-points-section.md
+             - name: D Cell (Geometry Section)
+               href: visio/d-cell-geometry-section.md
+             - name: Date Cell (Annotation Section)
+               href: visio/date-cell-annotation-section.md
+             - name: Default Cell (Hyperlinks Section)
+               href: visio/default-cell-hyperlinks-section.md
+             - name: DefaultTabstop Cell (Text Block Format Section)
+               href: visio/defaulttabstop-cell-text-block-format-section.md
+             - name: Denoise Cell (Image Properties Section)
+               href: visio/denoise-cell-image-properties-section.md
+             - name: Description Cell (Action Tags Section)
+               href: visio/description-cell-action-tags-section.md
+             - name: Description Cell (Hyperlinks Section)
+               href: visio/description-cell-hyperlinks-section.md
+             - name: DirX / A Cell (Connection Points Section)
+               href: visio/dirxa-cell-connection-points-section.md
+             - name: DirY / B Cell (Connection Points Section)
+               href: visio/diryb-cell-connection-points-section.md
+             - name: Disabled Cell (Action Tags Section)
+               href: visio/disabled-cell-action-tags-section.md
+             - name: Disabled Cell (Actions Section)
+               href: visio/disabled-cell-actions-section.md
+             - name: DisplayLevel Cell (Shape Layout Section)
+               href: visio/displaylevel-cell-shape-layout-section.md
+             - name: DisplayMode Cell (Group Properties Section)
+               href: visio/displaymode-cell-group-properties-section.md
+             - name: DisplayMode Cell (Action Tags Section)
+               href: visio/displaymode-cell-action-tags-section.md
+             - name: DistanceFromGround Cell (3-D Rotation Properties)
+               href: visio/distancefromground-cell-3-d-rotation-properties.md
+             - name: DocLangID Cell (Document Properties Section)
+               href: visio/doclangid-cell-document-properties-section.md
+             - name: DocLockDuplicatePage Cell (Document Properties Section)
+               href: visio/doclockduplicatepage-cell-document-properties-section.md
+             - name: DocLockReplace Cell (Document Properties Section)
+               href: visio/doclockreplace-cell-document-properties-section.md
+             - name: DontMoveChildren Cell (Group Properties Section)
+               href: visio/dontmovechildren-cell-group-properties-section.md
+             - name: DoubleStrikethrough Cell (Character Section)
+               href: visio/doublestrikethrough-cell-character-section.md
+             - name: DoubleULine Cell (Character Section)
+               href: visio/doubleuline-cell-character-section.md
+             - name: DrawingResizeType Cell (Page Properties Section)
+               href: visio/drawingresizetype-cell-page-properties-section.md
+             - name: DrawingScale Cell (Page Properties Section)
+               href: visio/drawingscale-cell-page-properties-section.md
+             - name: DrawingScaleType Cell (Page Properties Section)
+               href: visio/drawingscaletype-cell-page-properties-section.md
+             - name: DrawingSizeType Cell (Page Properties Section)
+               href: visio/drawingsizetype-cell-page-properties-section.md
+             - name: DropOnPageScale Cell (Miscellaneous Section)
+               href: visio/droponpagescale-cell-miscellaneous-section.md
+             - name: DynamicsOff Cell (Page Layout Section)
+               href: visio/dynamicsoff-cell-page-layout-section.md
+             - name: DynFeedback Cell (Miscellaneous Section)
+               href: visio/dynfeedback-cell-miscellaneous-section.md
+             - name: E Cell (Geometry Section)
+               href: visio/e-cell-geometry-section.md
+             - name: EffectSchemeIndex Cell (Theme Properties Section)
+               href: visio/effectschemeindex-cell-theme-properties-section.md
+             - name: EmbellishmentIndex Cell (Theme Properties Section)
+               href: visio/embellishmentindex-cell-theme-properties-section.md
+             - name: EnableFillProps Cell (Style Properties Section)
+               href: visio/enablefillprops-cell-style-properties-section.md
+             - name: EnableGrid Cell (Page Layout Section)
+               href: visio/enablegrid-cell-page-layout-section.md
+             - name: EnableLineProps Cell (Style Properties Section)
+               href: visio/enablelineprops-cell-style-properties-section.md
+             - name: EnableTextProps Cell (Style Properties Section)
+               href: visio/enabletextprops-cell-style-properties-section.md
+             - name: EndArrow Cell (Line Format Section)
+               href: visio/endarrow-cell-line-format-section.md
+             - name: EndArrowSize Cell (Line Format Section)
+               href: visio/endarrowsize-cell-line-format-section.md
+             - name: EndTrigger Cell (Glue Info Section)
+               href: visio/endtrigger-cell-glue-info-section.md
+             - name: EndX Cell (1-D Endpoints Section)
+               href: visio/endx-cell-1-d-endpoints-section.md
+             - name: EndY Cell (1-D Endpoints Section)
+               href: visio/endy-cell-1-d-endpoints-section.md
+             - name: EventDblClick Cell (Events Section)
+               href: visio/eventdblclick-cell-events-section.md
+             - name: EventDrop Cell (Events Section)
+               href: visio/eventdrop-cell-events-section.md
+             - name: EventMultiDrop Cell (Events Section)
+               href: visio/eventmultidrop-cell-events-section.md
+             - name: EventXFMod Cell (Events Section)
+               href: visio/eventxfmod-cell-events-section.md
+             - name: ExtraInfo Cell (Hyperlinks Section)
+               href: visio/extrainfo-cell-hyperlinks-section.md
+             - name: FillBkgnd Cell (Fill Format Section)
+               href: visio/fillbkgnd-cell-fill-format-section.md
+             - name: FillBkgndTrans Cell (Fill Format Section)
+               href: visio/fillbkgndtrans-cell-fill-format-section.md
+             - name: FillForegnd Cell (Fill Format Section)
+               href: visio/fillforegnd-cell-fill-format-section.md
+             - name: FillForegndTrans Cell (Fill Format Section)
+               href: visio/fillforegndtrans-cell-fill-format-section.md
+             - name: FillGradientAngle Cell (Gradient Properties Section)
+               href: visio/fillgradientangle-cell-gradient-properties-section.md
+             - name: FillGradientDir Cell (Gradient Properties Section)
+               href: visio/fillgradientdir-cell-gradient-properties-section.md
+             - name: FillGradientEnabled Cell (Gradient Properties Section)
+               href: visio/fillgradientenabled-cell-gradient-properties-section.md
+             - name: FillPattern Cell (Fill Format Section)
+               href: visio/fillpattern-cell-fill-format-section.md
+             - name: Flags Cell (Paragraph Section)
+               href: visio/flags-cell-paragraph-section.md
+             - name: FlipX Cell (Shape Transform Section)
+               href: visio/flipx-cell-shape-transform-section.md
+             - name: FlipY Cell (Shape Transform Section)
+               href: visio/flipy-cell-shape-transform-section.md
+             - name: FlyoutChild Cell (Actions Section)
+               href: visio/flyoutchild-cell-actions-section.md
+             - name: Font Cell (Character Section)
+               href: visio/font-cell-character-section.md
+             - name: FontSchemeIndex Cell (Theme Properties Section
+               href: visio/fontschemeindex-cell-theme-properties-section.md
+             - name: Format Cell (Shape Data Section)
+               href: visio/format-cell-shape-data-section.md
+             - name: Format Cell (Text Fields Section)
+               href: visio/format-cell-text-fields-section.md
+             - name: Frame Cell (Hyperlinks Section)
+               href: visio/frame-cell-hyperlinks-section.md
+             - name: Gamma Cell (Image Properties Section)
+               href: visio/gamma-cell-image-properties-section.md
+             - name: GlowColor Cell (Additional Effect Properties Section)
+               href: visio/glowcolor-cell-additional-effect-properties-section.md
+             - name: GlowColorTrans Cell (Additional Effect Properties Section)
+               href: visio/glowcolortrans-cell-additional-effect-properties-section.md
+             - name: GlowSize Cell (Additional Effect Properties Section)
+               href: visio/glowsize-cell-additional-effect-properties-section.md
+             - name: Glue Cell (Layers Section)
+               href: visio/glue-cell-layers-section.md
+             - name: GlueType Cell (Glue Info Section)
+               href: visio/gluetype-cell-glue-info-section.md
+             - name: HAlign Cell (Paragraph Section)
+               href: visio/halign-cell-paragraph-section.md
+             - name: Height Cell (Shape Transform Section)
+               href: visio/height-cell-shape-transform-section.md
+             - name: HideForApply Cell (Style Properties Section)
+               href: visio/hideforapply-cell-style-properties-section.md
+             - name: HideText Cell (Miscellaneous Section)
+               href: visio/hidetext-cell-miscellaneous-section.md
+             - name: ImgHeight Cell (Foreign Image Info Section)
+               href: visio/imgheight-cell-foreign-image-info-section.md
+             - name: ImgOffsetX Cell (Foreign Image Info Section)
+               href: visio/imgoffsetx-cell-foreign-image-info-section.md
+             - name: ImgOffsetY Cell (Foreign Image Info Section)
+               href: visio/imgoffsety-cell-foreign-image-info-section.md
+             - name: ImgWidth Cell (Foreign Image Info Section)
+               href: visio/imgwidth-cell-foreign-image-info-section.md
+             - name: IndFirst Cell (Paragraph Section)
+               href: visio/indfirst-cell-paragraph-section.md
+             - name: IndLeft Cell (Paragraph Section)
+               href: visio/indleft-cell-paragraph-section.md
+             - name: IndRight Cell (Paragraph Section)
+               href: visio/indright-cell-paragraph-section.md
+             - name: InhibitSnap Cell (Page Properties Section)
+               href: visio/inhibitsnap-cell-page-properties-section.md
+             - name: Initials Cell (Reviewer Section)
+               href: visio/initials-cell-reviewer-section.md
+             - name: Invisible Cell (Actions Section)
+               href: visio/invisible-cell-actions-section.md
+             - name: Invisible Cell (Hyperlinks Section)
+               href: visio/invisible-cell-hyperlinks-section.md
+             - name: Invisible Cell (Shape Data Section)
+               href: visio/invisible-cell-shape-data-section.md
+             - name: IsDropSource Cell (Miscellaneous Section)
+               href: visio/isdropsource-cell-miscellaneous-section.md
+             - name: IsDropTarget Cell (Group Properties Section)
+               href: visio/isdroptarget-cell-group-properties-section.md
+             - name: IsSnapTarget Cell (Group Properties Section)
+               href: visio/issnaptarget-cell-group-properties-section.md
+             - name: IsTextEditTarget Cell (Group Properties Section)
+               href: visio/istextedittarget-cell-group-properties-section.md
+             - name: KeepTextFlat Cell (3-D Rotation Properties Section)
+               href: visio/keeptextflat-cell-3-d-rotation-properties-section.md
+             - name: Label Cell (Shape Data Section)
+               href: visio/label-cell-shape-data-section.md
+             - name: LangID Cell (Shape Data Section)
+               href: visio/langid-cell-shape-data-section.md
+             - name: LangID Cell (Miscellaneous Section)
+               href: visio/langid-cell-miscellaneous-section.md
+             - name: LangID Cell (Character Section)
+               href: visio/langid-cell-character-section.md
+             - name: LangID Cell (Annotation Section)
+               href: visio/langid-cell-annotation-section.md
+             - name: LeftMargin Cell (Text Block Format Section)
+               href: visio/leftmargin-cell-text-block-format-section.md
+             - name: LineAdjustFrom Cell (Page Layout Section)
+               href: visio/lineadjustfrom-cell-page-layout-section.md
+             - name: LineAdjustTo Cell (Page Layout Section)
+               href: visio/lineadjustto-cell-page-layout-section.md
+             - name: LineCap Cell (Line Format Section)
+               href: visio/linecap-cell-line-format-section.md
+             - name: LineColor Cell (Line Format Section)
+               href: visio/linecolor-cell-line-format-section.md
+             - name: LineColorTrans Cell (Line Format Section)
+               href: visio/linecolortrans-cell-line-format-section.md
+             - name: LineGradientAngle Cell (Gradient Properties Section)
+               href: visio/linegradientangle-cell-gradient-properties-section.md
+             - name: LineGradientDir Cell (Gradient Properties Section)
+               href: visio/linegradientdir-cell-gradient-properties-section.md
+             - name: LineGradientEnabled Cell (Gradient Properties Section)
+               href: visio/linegradientenabled-cell-gradient-properties-section.md
+             - name: LineJumpCode Cell (Page Layout Section)
+               href: visio/linejumpcode-cell-page-layout-section.md
+             - name: LineJumpFactorX Cell (Page Layout Section)
+               href: visio/linejumpfactorx-cell-page-layout-section.md
+             - name: LineJumpFactorY Cell (Page Layout Section)
+               href: visio/linejumpfactory-cell-page-layout-section.md
+             - name: LineJumpStyle Cell (Page Layout Section)
+               href: visio/linejumpstyle-cell-page-layout-section.md
+             - name: LinePattern Cell (Line Format Section)
+               href: visio/linepattern-cell-line-format-section.md
+             - name: LineRouteExt Cell (Page Layout Section)
+               href: visio/linerouteext-cell-page-layout-section.md
+             - name: LineToLineX Cell (Page Layout Section)
+               href: visio/linetolinex-cell-page-layout-section.md
+             - name: LineToLineY Cell (Page Layout Section)
+               href: visio/linetoliney-cell-page-layout-section.md
+             - name: LineToNodeX Cell (Page Layout Section)
+               href: visio/linetonodex-cell-page-layout-section.md
+             - name: LineToNodeY Cell (Page Layout Section)
+               href: visio/linetonodey-cell-page-layout-section.md
+             - name: LineWeight Cell (Line Format Section)
+               href: visio/lineweight-cell-line-format-section.md
+             - name: LocalizeMerge Cell (Miscellaneous Section)
+               href: visio/localizemerge-cell-miscellaneous-section.md
+             - name: Lock Cell (Layers Section)
+               href: visio/lock-cell-layers-section.md
+             - name: LockAspect Cell (Protection Section)
+               href: visio/lockaspect-cell-protection-section.md
+             - name: LockBegin Cell (Protection Section)
+               href: visio/lockbegin-cell-protection-section.md
+             - name: LockCalcWH Cell (Protection Section)
+               href: visio/lockcalcwh-cell-protection-section.md
+             - name: LockCrop Cell (Protection Section)
+               href: visio/lockcrop-cell-protection-section.md
+             - name: LockCustProp Cell (Protection Section)
+               href: visio/lockcustprop-cell-protection-section.md
+             - name: LockDelete Cell (Protection Section)
+               href: visio/lockdelete-cell-protection-section.md
+             - name: LockEnd Cell (Protection Section)
+               href: visio/lockend-cell-protection-section.md
+             - name: LockFormat Cell (Protection Section)
+               href: visio/lockformat-cell-protection-section.md
+             - name: LockFromGroupFormat Cell (Protection Section)
+               href: visio/lockfromgroupformat-cell-protection-section.md
+             - name: LockGroup Cell (Protection Section)
+               href: visio/lockgroup-cell-protection-section.md
+             - name: LockHeight Cell (Protection Section)
+               href: visio/lockheight-cell-protection-section.md
+             - name: LockMoveX Cell (Protection Section)
+               href: visio/lockmovex-cell-protection-section.md
+             - name: LockMoveY Cell (Protection Section)
+               href: visio/lockmovey-cell-protection-section.md
+             - name: LockPreview Cell (Document Properties Section)
+               href: visio/lockpreview-cell-document-properties-section.md
+             - name: LockReplace Cell (Protection Section)
+               href: visio/lockreplace-cell-protection-section.md
+             - name: LockRotate Cell (Protection Section)
+               href: visio/lockrotate-cell-protection-section.md
+             - name: LockSelect Cell (Protection Section)
+               href: visio/lockselect-cell-protection-section.md
+             - name: LockTextEdit Cell (Protection Section)
+               href: visio/locktextedit-cell-protection-section.md
+             - name: LockThemeColors Cell (Protection Section)
+               href: visio/lockthemecolors-cell-protection-section.md
+             - name: LockThemeConnectors Cell (Protection Section)
+               href: visio/lockthemeconnectors-cell-protection-section.md
+             - name: LockThemeFonts Cell (Protection Section)
+               href: visio/lockthemefonts-cell-protection-section.md
+             - name: LockThemeIndex Cell (Protection Section)
+               href: visio/lockthemeindex-cell-protection-section.md
+             - name: LockThemeEffects Cell (Protection Section)
+               href: visio/lockthemeeffects-cell-protection-section.md
+             - name: LockVariation Cell (Protection Section)
+               href: visio/lockvariation-cell-protection-section.md
+             - name: LockVtxEdit Cell (Protection Section)
+               href: visio/lockvtxedit-cell-protection-section.md
+             - name: LockWidth Cell (Protection Section)
+               href: visio/lockwidth-cell-protection-section.md
+             - name: LocPinX Cell (Shape Transform Section)
+               href: visio/locpinx-cell-shape-transform-section.md
+             - name: LocPinY Cell (Shape Transform Section)
+               href: visio/locpiny-cell-shape-transform-section.md
+             - name: Menu Cell (Actions Section)
+               href: visio/menu-cell-actions-section.md
+             - name: Name Cell (Reviewer Section)
+               href: visio/name-cell-reviewer-section.md
+             - name: NewWindow Cell (Hyperlinks Section)
+               href: visio/newwindow-cell-hyperlinks-section.md
+             - name: NoAlignBox Cell (Miscellaneous Section)
+               href: visio/noalignbox-cell-miscellaneous-section.md
+             - name: NoCoauth Cell (Document Properties Section)
+               href: visio/nocoauth-cell-document-properties-section.md
+             - name: NoCtlHandles Cell (Miscellaneous Section)
+               href: visio/noctlhandles-cell-miscellaneous-section.md
+             - name: NoFill Cell (Geometry Section)
+               href: visio/nofill-cell-geometry-section.md
+             - name: NoLine Cell (Geometry Section)
+               href: visio/noline-cell-geometry-section.md
+             - name: NoLiveDynamics Cell (Miscellaneous Section)
+               href: visio/nolivedynamics-cell-miscellaneous-section.md
+             - name: NonPrinting Cell (Miscellaneous Section)
+               href: visio/nonprinting-cell-miscellaneous-section.md
+             - name: NoObjHandles Cell (Miscellaneous Section)
+               href: visio/noobjhandles-cell-miscellaneous-section.md
+             - name: NoProofing Cell (Miscellaneous Section)
+               href: visio/noproofing-cell-miscellaneous-section.md
+             - name: NoQuickDrag Cell (Geometry Section)
+               href: visio/noquickdrag-cell-geometry-section.md
+             - name: NoShow Cell (Geometry Section)
+               href: visio/noshow-cell-geometry-section.md
+             - name: NoSnap Cell (Geometry Section)
+               href: visio/nosnap-cell-geometry-section.md
+             - name: ObjectKind Cell (Text Fields Section)
+               href: visio/objectkind-cell-text-fields-section.md
+             - name: ObjType Cell (Miscellaneous Section)
+               href: visio/objtype-cell-miscellaneous-section.md
+             - name: OnPage Cell (Print Properties Section)
+               href: visio/onpage-cell-print-properties-section.md
+             - name: OutputFormat Cell (Document Properties Section)
+               href: visio/outputformat-cell-document-properties-section.md
+             - name: Overline Cell (Character Section)
+               href: visio/overline-cell-character-section.md
+             - name: PageBottomMargin Cell (Print Properties Section)
+               href: visio/pagebottommargin-cell-print-properties-section.md
+             - name: PageHeight Cell (Page Properties Section)
+               href: visio/pageheight-cell-page-properties-section.md
+             - name: PageLeftMargin Cell (Print Properties Section)
+               href: visio/pageleftmargin-cell-print-properties-section.md
+             - name: PageLineJumpDirX Cell (Page Layout Section)
+               href: visio/pagelinejumpdirx-cell-page-layout-section.md
+             - name: PageLineJumpDirY Cell (Page Layout Section)
+               href: visio/pagelinejumpdiry-cell-page-layout-section.md
+             - name: PageLockDuplicate Cell (Page Properties Section)
+               href: visio/pagelockduplicate-cell-page-properties-section.md
+             - name: PageLockReplace Cell (Page Properties Section)
+               href: visio/pagelockreplace-cell-page-properties-section.md
+             - name: PageRightMargin Cell (Print Properties Section)
+               href: visio/pagerightmargin-cell-print-properties-section.md
+             - name: PageScale Cell (Page Properties Section)
+               href: visio/pagescale-cell-page-properties-section.md
+             - name: PageShapeSplit Cell (Page Layout Section)
+               href: visio/pageshapesplit-cell-page-layout-section.md
+             - name: PagesX Cell (Print Properties Section)
+               href: visio/pagesx-cell-print-properties-section.md
+             - name: PagesY Cell (Print Properties Section)
+               href: visio/pagesy-cell-print-properties-section.md
+             - name: PageTopMargin Cell (Print Properties Section)
+               href: visio/pagetopmargin-cell-print-properties-section.md
+             - name: PageWidth Cell (Page Properties Section)
+               href: visio/pagewidth-cell-page-properties-section.md
+             - name: PaperKind Cell (Print Properties Section)
+               href: visio/paperkind-cell-print-properties-section.md
+             - name: PaperSource Cell (PrintProperties Section)
+               href: visio/papersource-cell-printproperties-section.md
+             - name: Perspective Cell (3-D Rotation Properties Section)
+               href: visio/perspective-cell-3-d-rotation-properties-section.md
+             - name: PinX Cell (Shape Transform Section)
+               href: visio/pinx-cell-shape-transform-section.md
+             - name: PinY Cell (Shape Transform Section)
+               href: visio/piny-cell-shape-transform-section.md
+             - name: PlaceDepth Cell (Page Layout Section)
+               href: visio/placedepth-cell-page-layout-section.md
+             - name: PlaceFlip Cell (Page Layout Section)
+               href: visio/placeflip-cell-page-layout-section.md
+             - name: PlaceStyle Cell (Page Layout Section)
+               href: visio/placestyle-cell-page-layout-section.md
+             - name: PlowCode Cell (Page Layout Section)
+               href: visio/plowcode-cell-page-layout-section.md
+             - name: Pos Cell (Character Section)
+               href: visio/pos-cell-character-section.md
+             - name: Position Cell (Tabs Section)
+               href: visio/position-cell-tabs-section.md
+             - name: PreviewQuality Cell (Document Properties Section)
+               href: visio/previewquality-cell-document-properties-section.md
+             - name: PreviewScope Cell (Document Properties Section)
+               href: visio/previewscope-cell-document-properties-section.md
+             - name: Print Cell (Layers Section)
+               href: visio/print-cell-layers-section.md
+             - name: PrintGrid Cell (Print Properties Section)
+               href: visio/printgrid-cell-print-properties-section.md
+             - name: PrintPageOrientation Cell (Print Properties Section)
+               href: visio/printpageorientation-cell-print-properties-section.md
+             - name: Prompt Cell (Actions Section)
+               href: visio/prompt-cell-actions-section.md
+             - name: Prompt Cell (Shape Data Section)
+               href: visio/prompt-cell-shape-data-section.md
+             - name: Prompt Cell (User-Defined Cells Section)
+               href: visio/prompt-cell-user-defined-cells-section.md
+             - name: QuickStyleEffectsMatrix Cell (Quick Style Section)
+               href: visio/quickstyleeffectsmatrix-cell-quick-style-section.md
+             - name: QuickStyleFillColor Cell (Quick Style Section)
+               href: visio/quickstylefillcolor-cell-quick-style-section.md
+             - name: QuickStyleFillMatrix Cell (Quick Style Section)
+               href: visio/quickstylefillmatrix-cell-quick-style-section.md
+             - name: QuickStyleFontColor Cell (Quick Style Section)
+               href: visio/quickstylefontcolor-cell-quick-style-section.md
+             - name: QuickStyleFontMatrix Cell (Quick Style Section)
+               href: visio/quickstylefontmatrix-cell-quick-style-section.md
+             - name: QuickStyleLineColor Cell (Quick Style Section)
+               href: visio/quickstylelinecolor-cell-quick-style-section.md
+             - name: QuickStyleLineMatrix Cell (Quick Style Section)
+               href: visio/quickstylelinematrix-cell-quick-style-section.md
+             - name: QuickStyleShadowColor Cell (Quick Style Section)
+               href: visio/quickstyleshadowcolor-cell-quick-style-section.md
+             - name: QuickStyleType Cell (Quick Style Section)
+               href: visio/quickstyletype-cell-quick-style-section.md
+             - name: QuickStyleVariation Cell (Quick Style Section)
+               href: visio/quickstylevariation-cell-quick-style-section.md
+             - name: ReadOnly Cell (Actions Section)
+               href: visio/readonly-cell-actions-section.md
+             - name: ReflectionBlur Cell (Additional Effect Properties Section)
+               href: visio/reflectionblur-cell-additional-effect-properties-section.md
+             - name: ReflectionDist Cell (Additional Effect Properties Section)
+               href: visio/reflectiondist-cell-additional-effect-properties-section.md
+             - name: ReflectionSize Cell (Additional Effect Properties Section)
+               href: visio/reflectionsize-cell-additional-effect-properties-section.md
+             - name: ReflectionTrans Cell (Additional Effect Properties Section)
+               href: visio/reflectiontrans-cell-additional-effect-properties-section.md
+             - name: Relationships Cell (Shape Layout Section)
+               href: visio/relationships-cell-shape-layout-section.md
+             - name: ReplaceCopyCells Cell (Change Shape Behavior Section)
+               href: visio/replacecopycells-cell-change-shape-behavior-section.md
+             - name: ReplaceLockFormat Cell (Change Shape Behavior Section)
+               href: visio/replacelockformat-cell-change-shape-behavior-section.md
+             - name: ReplaceLockShapeData Cell (Change Shape Behavior Section)
+               href: visio/replacelockshapedata-cell-change-shape-behavior-section.md
+             - name: ReplaceLockText Cell (Change Shape Behavior Section)
+               href: visio/replacelocktext-cell-change-shape-behavior-section.md
+             - name: ResizeMode Cell (Shape Transform Section)
+               href: visio/resizemode-cell-shape-transform-section.md
+             - name: ResizePage Cell (Page Layout Section)
+               href: visio/resizepage-cell-page-layout-section.md
+             - name: RightMargin Cell (Text Block Format Section)
+               href: visio/rightmargin-cell-text-block-format-section.md
+             - name: RotateGradientWithShape Cell (Gradient Properties Section)
+               href: visio/rotategradientwithshape-cell-gradient-properties-section.md
+             - name: RotationType Cell (3-D Rotation Properties Section)
+               href: visio/rotationtype-cell-3-d-rotation-properties-section.md
+             - name: RotationXAngle Cell (3-D Rotation Properties Section)
+               href: visio/rotationxangle-cell-3-d-rotation-properties-section.md
+             - name: RotationYAngle Cell (3-D Rotation Properties Section)
+               href: visio/rotationyangle-cell-3-d-rotation-properties-section.md
+             - name: RotationZAngle Cell (3-D Rotation Properties Section)
+               href: visio/rotationzangle-cell-3-d-rotation-properties-section.md
+             - name: Rounding Cell (Line Format Section)
+               href: visio/rounding-cell-line-format-section.md
+             - name: RouteStyle Cell (Page Layout Section)
+               href: visio/routestyle-cell-page-layout-section.md
+             - name: Scale Cell (Character Section)
+               href: visio/scale-cell-character-section.md
+             - name: ScaleX Cell (Print Properties Section)
+               href: visio/scalex-cell-print-properties-section.md
+             - name: ScaleY Cell (Print Properties Section)
+               href: visio/scaley-cell-print-properties-section.md
+             - name: SelectMode Cell (Group Properties Section)
+               href: visio/selectmode-cell-group-properties-section.md
+             - name: ShapeFixedCode Cell (Shape Layout Section)
+               href: visio/shapefixedcode-cell-shape-layout-section.md
+             - name: ShapePermeablePlace Cell (Shape Layout Section)
+               href: visio/shapepermeableplace-cell-shape-layout-section.md
+             - name: ShapePermeableX Cell (Shape Layout Section)
+               href: visio/shapepermeablex-cell-shape-layout-section.md
+             - name: ShapePermeableY Cell (Shape Layout Section)
+               href: visio/shapepermeabley-cell-shape-layout-section.md
+             - name: ShapePlaceFlip Cell (Shape Layout Section)
+               href: visio/shapeplaceflip-cell-shape-layout-section.md
+             - name: ShapePlaceStyle Cell (Shape Layout Section)
+               href: visio/shapeplacestyle-cell-shape-layout-section.md
+             - name: ShapePlowCode Cell (Shape Layout Section)
+               href: visio/shapeplowcode-cell-shape-layout-section.md
+             - name: ShapeRouteStyle Cell (Shape Layout Section)
+               href: visio/shaperoutestyle-cell-shape-layout-section.md
+             - name: ShapeShdwBlur Cell (Fill Format Section)
+               href: visio/shapeshdwblur-cell-fill-format-section.md
+             - name: ShapeShdwObliqueAngle Cell (Fill Format Section)
+               href: visio/shapeshdwobliqueangle-cell-fill-format-section.md
+             - name: ShapeShdwOffsetX Cell (Fill Format Section)
+               href: visio/shapeshdwoffsetx-cell-fill-format-section.md
+             - name: ShapeShdwOffsetY Cell (Fill Format Section)
+               href: visio/shapeshdwoffsety-cell-fill-format-section.md
+             - name: ShapeShdwScaleFactor Cell (Fill Format Section)
+               href: visio/shapeshdwscalefactor-cell-fill-format-section.md
+             - name: ShapeShdwShow Cell (Fill Format Section)
+               href: visio/shapeshdwshow-cell-fill-format-section.md
+             - name: ShapeShdwType Cell (Fill Format Section)
+               href: visio/shapeshdwtype-cell-fill-format-section.md
+             - name: ShapeSplit Cell (Shape Layout Section)
+               href: visio/shapesplit-cell-shape-layout-section.md
+             - name: ShapeSplittable Cell (Shape Layout Section)
+               href: visio/shapesplittable-cell-shape-layout-section.md
+             - name: Sharpen Cell (Image Properties Section)
+               href: visio/sharpen-cell-image-properties-section.md
+             - name: ShdwForegnd Cell (Fill Format Section)
+               href: visio/shdwforegnd-cell-fill-format-section.md
+             - name: ShdwForegndTrans Cell (Fill Format Section)
+               href: visio/shdwforegndtrans-cell-fill-format-section.md
+             - name: ShdwObliqueAngle Cell (Page Properties Section)
+               href: visio/shdwobliqueangle-cell-page-properties-section.md
+             - name: ShdwOffsetX Cell (Page Properties Section)
+               href: visio/shdwoffsetx-cell-page-properties-section.md
+             - name: ShdwOffsetY Cell (Page Properties Section)
+               href: visio/shdwoffsety-cell-page-properties-section.md
+             - name: ShdwPattern Cell (Fill Format Section)
+               href: visio/shdwpattern-cell-fill-format-section.md
+             - name: ShdwScaleFactor Cell (Page Properties Section)
+               href: visio/shdwscalefactor-cell-page-properties-section.md
+             - name: ShdwType Cell (Page Properties Section)
+               href: visio/shdwtype-cell-page-properties-section.md
+             - name: Size Cell (Character Section)
+               href: visio/size-cell-character-section.md
+             - name: SketchAmount Cell (Additional Effect Properties Section)
+               href: visio/sketchamount-cell-additional-effect-properties-section.md
+             - name: SketchEnabled Cell (Additional Effect Properties Section)
+               href: visio/sketchenabled-cell-additional-effect-properties-section.md
+             - name: SketchFillChange Cell (Additional Effect Properties Section)
+               href: visio/sketchfillchange-cell-additional-effect-properties-section.md
+             - name: SketchLineChange Cell (Additional Effect Properties Section)
+               href: visio/sketchlinechange-cell-additional-effect-properties-section.md
+             - name: SketchLineWeight Cell (Additional Effect Properties Section)
+               href: visio/sketchlineweight-cell-additional-effect-properties-section.md
+             - name: SketchSeed Cell (Additional Effect Properties Section)
+               href: visio/sketchseed-cell-additional-effect-properties-section.md
+             - name: Snap Cell (Layers Section)
+               href: visio/snap-cell-layers-section.md
+             - name: SoftEdgesSize Cell (Additional Effect Properties Section)
+               href: visio/softedgessize-cell-additional-effect-properties-section.md
+             - name: SortKey Cell (Actions Section)
+               href: visio/sortkey-cell-actions-section.md
+             - name: SortKey Cell (Hyperlinks Section)
+               href: visio/sortkey-cell-hyperlinks-section.md
+             - name: SortKey Cell (Shape Data Section)
+               href: visio/sortkey-cell-shape-data-section.md
+             - name: Spacing Cell (Character Section)
+               href: visio/spacing-cell-character-section.md
+             - name: SpAfter Cell (Paragraph Section)
+               href: visio/spafter-cell-paragraph-section.md
+             - name: SpBefore Cell (Paragraph Section)
+               href: visio/spbefore-cell-paragraph-section.md
+             - name: SpLine Cell (Paragraph Section)
+               href: visio/spline-cell-paragraph-section.md
+             - name: Strikethru Cell (Character Section)
+               href: visio/strikethru-cell-character-section.md
+             - name: Style Cell (Character Section)
+               href: visio/style-cell-character-section.md
+             - name: SubAddress Cell (Hyperlinks Section)
+               href: visio/subaddress-cell-hyperlinks-section.md
+             - name: TagName Cell (Action Tags Section)
+               href: visio/tagname-cell-action-tags-section.md
+             - name: TagName Cell (Actions Section)
+               href: visio/tagname-cell-actions-section.md
+             - name: TextBkgnd Cell (Text Block Format Section)
+               href: visio/textbkgnd-cell-text-block-format-section.md
+             - name: TextBkgndTrans Cell (Text Block Format Section)
+               href: visio/textbkgndtrans-cell-text-block-format-section.md
+             - name: TextDirection Cell (Text Block Format Section)
+               href: visio/textdirection-cell-text-block-format-section.md
+             - name: TextPosAfterBullet Cell (Paragraph Section)
+               href: visio/textposafterbullet-cell-paragraph-section.md
+             - name: TheData Cell (Events Section)
+               href: visio/thedata-cell-events-section.md
+             - name: ThemeIndex Cell (Theme Properties Section)
+               href: visio/themeindex-cell-theme-properties-section.md
+             - name: TheText Cell (Events Section)
+               href: visio/thetext-cell-events-section.md
+             - name: Tip Cell (Controls Section)
+               href: visio/tip-cell-controls-section.md
+             - name: TopMargin Cell (Text Block Format Section)
+               href: visio/topmargin-cell-text-block-format-section.md
+             - name: Transparency Cell (Character Section)
+               href: visio/transparency-cell-character-section.md
+             - name: Transparency Cell (Image Properties Section)
+               href: visio/transparency-cell-image-properties-section.md
+             - name: Transparency Cell (Layers Section)
+               href: visio/transparency-cell-layers-section.md
+             - name: TxtAngle Cell (Text Transform Section)
+               href: visio/txtangle-cell-text-transform-section.md
+             - name: TxtHeight Cell (Text Transform Section)
+               href: visio/txtheight-cell-text-transform-section.md
+             - name: TxtLocPinX Cell (Text Transform Section)
+               href: visio/txtlocpinx-cell-text-transform-section.md
+             - name: TxtLocPinY Cell (Text Transform Section)
+               href: visio/txtlocpiny-cell-text-transform-section.md
+             - name: TxtPinX Cell (Text Transform Section)
+               href: visio/txtpinx-cell-text-transform-section.md
+             - name: TxtPinY Cell (Text Transform Section)
+               href: visio/txtpiny-cell-text-transform-section.md
+             - name: TxtWidth Cell (Text Transform Section)
+               href: visio/txtwidth-cell-text-transform-section.md
+             - name: Type / C Cell (Connection Points Section)
+               href: visio/typec-cell-connection-points-section.md
+             - name: Type Cell (Shape Data Section)
+               href: visio/type-cell-shape-data-section.md
+             - name: Type Cell (Text Fields Section)
+               href: visio/type-cell-text-fields-section.md
+             - name: UICategory Cell (Text Fields Section)
+               href: visio/uicategory-cell-text-fields-section.md
+             - name: UICode Cell (Text Fields Section)
+               href: visio/uicode-cell-text-fields-section.md
+             - name: UIFormat Cell (Text Fields Section)
+               href: visio/uiformat-cell-text-fields-section.md
+             - name: UIVisibility Cell (Page Properties Section)
+               href: visio/uivisibility-cell-page-properties-section.md
+             - name: UpdateAlignBox Cell (Miscellaneous Section)
+               href: visio/updatealignbox-cell-miscellaneous-section.md
+             - name: UseGroupGradient Cell (Gradient Properties Section)
+               href: visio/usegroupgradient-cell-gradient-properties-section.md
+             - name: Value Cell (Shape Data Section)
+               href: visio/value-cell-shape-data-section.md
+             - name: Value Cell (Text Fields Section)
+               href: visio/value-cell-text-fields-section.md
+             - name: Value Cell (User-Defined Cells Section)
+               href: visio/value-cell-user-defined-cells-section.md
+             - name: VariationColorIndex Cell (Theme Properties Section)
+               href: visio/variationcolorindex-cell-theme-properties-section.md
+             - name: VariationStyleIndex Cell (Theme Properties Section)
+               href: visio/variationstyleindex-cell-theme-properties-section.md
+             - name: VerticalAlign Cell (Text Block Format Section)
+               href: visio/verticalalign-cell-text-block-format-section.md
+             - name: ViewMarkup Cell (Document Properties Section)
+               href: visio/viewmarkup-cell-document-properties-section.md
+             - name: Visible Cell (Layers Section)
+               href: visio/visible-cell-layers-section.md
+             - name: WalkPreference Cell (Glue Info Section)
+               href: visio/walkpreference-cell-glue-info-section.md
+             - name: Width Cell (Shape Transform Section)
+               href: visio/width-cell-shape-transform-section.md
+             - name: X Behavior Cell (Controls Section)
+               href: visio/x-behavior-cell-controls-section.md
+             - name: X Cell (Action Tags Section)
+               href: visio/x-cell-action-tags-section.md
+             - name: X Cell (Annotation Section)
+               href: visio/x-cell-annotation-section.md
+             - name: X Cell (Connection Points Section)
+               href: visio/x-cell-connection-points-section.md
+             - name: X Cell (Controls Section)
+               href: visio/x-cell-controls-section.md
+             - name: X Cell (Geometry Section)
+               href: visio/x-cell-geometry-section.md
+             - name: X Dynamics Cell (Controls Section)
+               href: visio/x-dynamics-cell-controls-section.md
+             - name: X Justify Cell (Action Tags Section)
+               href: visio/x-justify-cell-action-tags-section.md
+             - name: XGridDensity Cell (Ruler &amp; Grid Section)
+               href: visio/xgriddensity-cell-rulergrid-section.md
+             - name: XGridOrigin Cell (Ruler &amp; Grid Section)
+               href: visio/xgridorigin-cell-rulergrid-section.md
+             - name: XGridSpacing Cell (Ruler &amp; Grid Section)
+               href: visio/xgridspacing-cell-rulergrid-section.md
+             - name: XRulerDensity Cell (Ruler &amp; Grid Section)
+               href: visio/xrulerdensity-cell-rulergrid-section.md
+             - name: XRulerOrigin Cell (Ruler &amp; Grid Section)
+               href: visio/xrulerorigin-cell-rulergrid-section.md
+             - name: Y Behavior Cell (Controls Section)
+               href: visio/y-behavior-cell-controls-section.md
+             - name: Y Cell (Action Tags Section)
+               href: visio/y-cell-action-tags-section.md
+             - name: Y Cell (Annotation Section)
+               href: visio/y-cell-annotation-section.md
+             - name: Y Cell (Connection Points Section)
+               href: visio/y-cell-connection-points-section.md
+             - name: Y Cell (Controls Section)
+               href: visio/y-cell-controls-section.md
+             - name: Y Cell (Geometry Section)
+               href: visio/y-cell-geometry-section.md
+             - name: Y Dynamics Cell (Controls Section)
+               href: visio/y-dynamics-cell-controls-section.md
+             - name: Y Justify Cell (Action Tags Section)
+               href: visio/y-justify-cell-action-tags-section.md
+             - name: YGridDensity Cell (Ruler &amp; Grid Section)
+               href: visio/ygriddensity-cell-rulergrid-section.md
+             - name: YGridOrigin Cell (Ruler &amp; Grid Section)
+               href: visio/ygridorigin-cell-rulergrid-section.md
+             - name: YGridSpacing Cell (Ruler &amp; Grid Section)
+               href: visio/ygridspacing-cell-rulergrid-section.md
+             - name: YRulerDensity Cell (Ruler &amp; Grid Section)
+               href: visio/yrulerdensity-cell-rulergrid-section.md
+             - name: YRulerOrigin Cell (Ruler &amp; Grid Section)
+               href: visio/yrulerorigin-cell-rulergrid-section.md
            - name: Functions
-             href: https://msdn.microsoft.com/EN-US/library/office/jj945061.aspx
+             href: visio/functions-visio-shapesheet-reference.md
+             items:
+             - name: ABS Function
+               href: visio/abs-function-visioshapesheet.md
+             - name: ACOS Function
+               href: visio/acos-function.md
+             - name: AND Function
+               href: visio/and-function.md
+             - name: ANG360 Function
+               href: visio/ang360-function.md
+             - name: ANGLEALONGPATH Function
+               href: visio/anglealongpath-function.md
+             - name: ANGLETOLOC Function
+               href: visio/angletoloc-function.md
+             - name: ANGLETOPAR Function
+               href: visio/angletopar-function.md
+             - name: ARG Function
+               href: visio/arg-function.md
+             - name: ASIN Function
+               href: visio/asin-function.md
+             - name: ATAN2 Function
+               href: visio/atan2-function.md
+             - name: ATAN Function
+               href: visio/atan-function.md
+             - name: BITAND Function
+               href: visio/bitand-function.md
+             - name: BITNOT Function
+               href: visio/bitnot-function.md
+             - name: BITOR Function
+               href: visio/bitor-function.md
+             - name: BITXOR Function
+               href: visio/bitxor-function.md
+             - name: BKGPAGENAME Function
+               href: visio/bkgpagename-function.md
+             - name: BLEND Function
+               href: visio/blend-function.md
+             - name: BLOB Function
+               href: visio/blob-function.md
+             - name: BLUE Function
+               href: visio/blue-function.md
+             - name: BOUNDINGBOXDIST Function
+               href: visio/boundingboxdist-function.md
+             - name: BOUNDINGBOXRECT Function
+               href: visio/boundingboxrect-function.md
+             - name: BOUND Function
+               href: visio/bound-function.md
+             - name: CALLOUTCOUNT Function
+               href: visio/calloutcount-function.md
+             - name: CALLOUTTARGETREF Function
+               href: visio/callouttargetref-function.md
+             - name: CALLTHIS Function
+               href: visio/callthis-function.md
+             - name: CATEGORY Function
+               href: visio/category-function.md
+             - name: CEILING Function
+               href: visio/ceiling-function.md
+             - name: CHAR Function
+               href: visio/char-function.md
+             - name: COMPANY Function
+               href: visio/company-function.md
+             - name: CONTAINERCOUNT Function
+               href: visio/containercount-function.md
+             - name: CONTAINERMEMBERCOUNT Function
+               href: visio/containermembercount-function.md
+             - name: CONTAINERSHEETREF Function
+               href: visio/containersheetref-function.md
+             - name: COSH Function
+               href: visio/cosh-function.md
+             - name: COS Function
+               href: visio/cos-function-visioshapesheet.md
+             - name: CREATOR Function
+               href: visio/creator-function.md
+             - name: CY Function
+               href: visio/cy-function.md
+             - name: DATA1 Function
+               href: visio/data1-function.md
+             - name: DATA2 Function
+               href: visio/data2-function.md
+             - name: DATA3 Function
+               href: visio/data3-function.md
+             - name: DATETIME Function
+               href: visio/datetime-function.md
+             - name: DATEVALUE Function
+               href: visio/datevalue-function-visioshapesheet.md
+             - name: DATE Function
+               href: visio/date-function-visioshapesheet.md
+             - name: DAYOFYEAR Function
+               href: visio/dayofyear-function.md
+             - name: DAY Function
+               href: visio/day-function-visioshapesheet.md
+             - name: DECIMALSEP Function
+               href: visio/decimalsep-function.md
+             - name: DEFAULTEVENT Function
+               href: visio/defaultevent-function.md
+             - name: DEG Function
+               href: visio/deg-function.md
+             - name: DEPENDSON Function
+               href: visio/dependson-function.md
+             - name: DESCRIPTION Function
+               href: visio/description-function.md
+             - name: DIRECTORY Function
+               href: visio/directory-function.md
+             - name: DISTTOPATH Function
+               href: visio/disttopath-function.md
+             - name: DOCCREATION Function
+               href: visio/doccreation-function.md
+             - name: DOCLASTEDIT Function
+               href: visio/doclastedit-function.md
+             - name: DOCLASTPRINT Function
+               href: visio/doclastprint-function.md
+             - name: DOCLASTSAVE Function
+               href: visio/doclastsave-function.md
+             - name: DOCMD Function
+               href: visio/docmd-function.md
+             - name: DOOLEVERB Function
+               href: visio/dooleverb-function.md
+             - name: EVALCELL Function
+               href: visio/evalcell-function.md
+             - name: EVALTEXT Function
+               href: visio/evaltext-function.md
+             - name: FIELDPICTURE Function
+               href: visio/fieldpicture-function.md
+             - name: FILENAME Function
+               href: visio/filename-function.md
+             - name: FIND Function
+               href: visio/find-function.md
+             - name: FLOOR Function
+               href: visio/floor-function.md
+             - name: FONT Function
+               href: visio/font-function.md
+             - name: FONTTOID Function
+               href: visio/fonttoid-function.md
+             - name: FORMATEX Function
+               href: visio/formatex-function.md
+             - name: FORMAT Function
+               href: visio/format-function.md
+             - name: FORMULAEXISTS Function
+               href: visio/formulaexists-function.md
+             - name: GETREF Function
+               href: visio/getref-function.md
+             - name: GETVAL Function
+               href: visio/getval-function.md
+             - name: GOTOPAGE Function
+               href: visio/gotopage-function.md
+             - name: GRAVITY Function
+               href: visio/gravity-function.md
+             - name: GREEN Function
+               href: visio/green-function.md
+             - name: GUARD Function
+               href: visio/guard-function.md
+             - name: HASCATEGORY Function
+               href: visio/hascategory-function.md
+             - name: HELP Function
+               href: visio/help-function.md
+             - name: HOUR Function
+               href: visio/hour-function-visioshapesheet.md
+             - name: HSL Function
+               href: visio/hsl-function.md
+             - name: HUEDIFF Function
+               href: visio/huediff-function.md
+             - name: HUE Function
+               href: visio/hue-function.md
+             - name: HYPERLINKBASE Function
+               href: visio/hyperlinkbase-function.md
+             - name: HYPERLINK Function
+               href: visio/hyperlink-function.md
+             - name: ID Function
+               href: visio/id-function.md
+             - name: IFERROR Function
+               href: visio/iferror-function.md
+             - name: IF Function
+               href: visio/if-function.md
+             - name: INDEX Function
+               href: visio/index-function.md
+             - name: INTERSECTX Function
+               href: visio/intersectx-function.md
+             - name: INTERSECTY Function
+               href: visio/intersecty-function.md
+             - name: INTUP Function
+               href: visio/intup-function.md
+             - name: INT Function
+               href: visio/int-function.md
+             - name: IS1D Function
+               href: visio/is1d-function.md
+             - name: ISERRNA Function
+               href: visio/iserrna-function.md
+             - name: ISERROR Function
+               href: visio/iserror-function-visioshapesheet.md
+             - name: ISERRVALUE Function
+               href: visio/iserrvalue-function.md
+             - name: ISERR Function
+               href: visio/iserr-function.md
+             - name: ISTHEMED Function
+               href: visio/isthemed-function.md
+             - name: KEYWORDS Function
+               href: visio/keywords-function.md
+             - name: LANGUAGE
+               href: visio/language-function.md
+             - name: LEFT Function
+               href: visio/left-function-visioshapesheet.md
+             - name: LEN Function
+               href: visio/len-function-visioshapesheet.md
+             - name: LISTMEMBERCOUNT Function
+               href: visio/listmembercount-function.md
+             - name: LISTORDER Function
+               href: visio/listorder-function.md
+             - name: LISTSEP Function
+               href: visio/listsep-function.md
+             - name: LISTSHEETREF Function
+               href: visio/listsheetref-function.md
+             - name: LN Function
+               href: visio/ln-function.md
+             - name: LOCALFORMULAEXISTS Function
+               href: visio/localformulaexists-function.md
+             - name: LOCTOLOC Function
+               href: visio/loctoloc-function.md
+             - name: LOCTOPAR Function
+               href: visio/loctopar-function.md
+             - name: LOC Function
+               href: visio/loc-function-visioshapesheet.md
+             - name: LOG10 Function
+               href: visio/log10-function.md
+             - name: LOOKUP Function
+               href: visio/lookup-function.md
+             - name: LOWER Function
+               href: visio/lower-function.md
+             - name: LUMDIFF Function
+               href: visio/lumdiff-function.md
+             - name: LUM Function
+               href: visio/lum-function.md
+             - name: MAGNITUDE Function
+               href: visio/magnitude-function.md
+             - name: MANAGER Function
+               href: visio/manager-function.md
+             - name: MASTERNAME Function
+               href: visio/mastername-function.md
+             - name: MAX Function
+               href: visio/max-function.md
+             - name: MID Function
+               href: visio/mid-function-visioshapesheet.md
+             - name: MINUTE Function
+               href: visio/minute-function-visioshapesheet.md
+             - name: MIN Function
+               href: visio/min-function.md
+             - name: MODULUS Function
+               href: visio/modulus-function.md
+             - name: MONTH Function
+               href: visio/month-function-visioshapesheet.md
+             - name: MSOSHADE Function
+               href: visio/msoshade-function.md
+             - name: MSOTINT Function
+               href: visio/msotint-function.md
+             - name: NAME Function
+               href: visio/name-function.md
+             - name: NA Function
+               href: visio/na-function.md
+             - name: NEARESTPOINTONPATH Function
+               href: visio/nearestpointonpath-function.md
+             - name: NOT Function
+               href: visio/not-function.md
+             - name: NOW Function
+               href: visio/now-function-visioshapesheet.md
+             - name: NURBS Function
+               href: visio/nurbs-function.md
+             - name: OPENFILE Function
+               href: visio/openfile-function.md
+             - name: OPENGROUPWIN Function
+               href: visio/opengroupwin-function.md
+             - name: OPENSHEETWIN Function
+               href: visio/opensheetwin-function.md
+             - name: OPENTEXTWIN Function
+               href: visio/opentextwin-function.md
+             - name: OR Function
+               href: visio/or-function.md
+             - name: PAGECOUNT Function
+               href: visio/pagecount-function.md
+             - name: PAGENAME Function
+               href: visio/pagename-function.md
+             - name: PAGENUMBER Function
+               href: visio/pagenumber-function.md
+             - name: PAR Function
+               href: visio/par-function.md
+             - name: PATHLENGTH Function
+               href: visio/pathlength-function.md
+             - name: PATHSEGMENT Function
+               href: visio/pathsegment-function.md
+             - name: PI Function
+               href: visio/pi-function.md
+             - name: PLAYSOUND Function
+               href: visio/playsound-function.md
+             - name: PNTX Function
+               href: visio/pntx-function.md
+             - name: PNTY Function
+               href: visio/pnty-function.md
+             - name: PNT Function
+               href: visio/pnt-function.md
+             - name: POINTALONGPATH Function
+               href: visio/pointalongpath-function.md
+             - name: POLYLINE Function
+               href: visio/polyline-function.md
+             - name: POW Function
+               href: visio/pow-function.md
+             - name: QUEUEMARKEREVENT Function
+               href: visio/queuemarkerevent-function.md
+             - name: RAD Function
+               href: visio/rad-function.md
+             - name: RAND Function
+               href: visio/rand-function.md
+             - name: RECTSECT Function
+               href: visio/rectsect-function.md
+             - name: RED Function
+               href: visio/red-function.md
+             - name: REF Function
+               href: visio/ref-function.md
+             - name: REPLACE Function
+               href: visio/replace-function-visioshapesheet.md
+             - name: REPT Function
+               href: visio/rept-function.md
+             - name: REWIDEN Function
+               href: visio/rewiden-function.md
+             - name: RGB Function
+               href: visio/rgb-function-visioshapesheet.md
+             - name: RIGHT Function
+               href: visio/right-function-visioshapesheet.md
+             - name: ROUND Function
+               href: visio/round-function-visioshapesheet.md
+             - name: RUNADDONWARGS Function
+               href: visio/runaddonwargs-function.md
+             - name: RUNADDON Function
+               href: visio/runaddon-function.md
+             - name: RUNMACRO Function
+               href: visio/runmacro-function.md
+             - name: SATDIFF Function
+               href: visio/satdiff-function.md
+             - name: SAT Function
+               href: visio/sat-function.md
+             - name: SECOND Function
+               href: visio/second-function-visioshapesheet.md
+             - name: SEGMENTCOUNT Function
+               href: visio/segmentcount-function.md
+             - name: SETATREFEVAL Function
+               href: visio/setatrefeval-function.md
+             - name: SETATREFEXPR Function
+               href: visio/setatrefexpr-function.md
+             - name: SETATREF Function
+               href: visio/setatref-function.md
+             - name: SETF Function
+               href: visio/setf-function.md
+             - name: SHADE Function
+               href: visio/shade-function.md
+             - name: SHAPETEXT Function
+               href: visio/shapetext-function.md
+             - name: SHEETREF Function
+               href: visio/sheetref-function.md
+             - name: SIGN Function
+               href: visio/sign-function.md
+             - name: SINH Function
+               href: visio/sinh-function.md
+             - name: SIN Function
+               href: visio/sin-function-visioshapesheet.md
+             - name: SQRT Function
+               href: visio/sqrt-function.md
+             - name: STRSAMEEX Function
+               href: visio/strsameex-function.md
+             - name: STRSAME Function
+               href: visio/strsame-function.md
+             - name: SUBJECT Function
+               href: visio/subject-function.md
+             - name: SUBSTITUTE Function
+               href: visio/substitute-function.md
+             - name: SUM Function
+               href: visio/sum-function.md
+             - name: TANH Function
+               href: visio/tanh-function.md
+             - name: TAN Function
+               href: visio/tan-function-visioshapesheet.md
+             - name: TEXTHEIGHT Function
+               href: visio/textheight-function.md
+             - name: TEXTWIDTH Function
+               href: visio/textwidth-function.md
+             - name: THEME Function
+               href: visio/theme-function.md
+             - name: THEMECBV Function
+               href: visio/themecbv-function.md
+             - name: THEMEGUARD Function
+               href: visio/themeguard-function.md
+             - name: THEMERESTORE Function
+               href: visio/themerestore-function.md
+             - name: THEMEVAL Function
+               href: visio/themeval-function.md
+             - name: TIMEVALUE Function
+               href: visio/timevalue-function-visioshapesheet.md
+             - name: TIME Function
+               href: visio/time-function-visioshapesheet.md
+             - name: TINT Function
+               href: visio/tint-function.md
+             - name: TITLE Function
+               href: visio/title-function.md
+             - name: TONE Function
+               href: visio/tone-function.md
+             - name: TRIM Function
+               href: visio/trim-function.md
+             - name: TRUNC Function
+               href: visio/trunc-function.md
+             - name: TYPEDESC Function
+               href: visio/typedesc-function.md
+             - name: TYPE Function
+               href: visio/type-function.md
+             - name: UNICHAR Function
+               href: visio/unichar-function.md
+             - name: UPPER Function
+               href: visio/upper-function.md
+             - name: USERUI Function
+               href: visio/userui-function.md
+             - name: USE Function
+               href: visio/use-function.md
+             - name: VERSION Function
+               href: visio/version-function.md
+             - name: WEEKDAY Function
+               href: visio/weekday-function-visioshapesheet.md
+             - name: YEAR Function
+               href: visio/year-function-visioshapesheet.md
            - name: Rows
-             href: https://msdn.microsoft.com/EN-US/library/office/jj945059.aspx
+             href: visio/rows-visio-shapesheet-reference.md
+             items:
+             - name: Actions Row (Actions Section)
+               href: visio/actions-row-actions-section.md
+             - name: ArcTo Row (Geometry Section)
+               href: visio/arcto-row-geometry-section.md
+             - name: Connection Points Row (Connection Points Section)
+               href: visio/connection-points-row-connection-points-section.md
+             - name: Controls Row (Controls Section)
+               href: visio/controls-row-controls-section.md
+             - name: Ellipse Row (Geometry Section)
+               href: visio/ellipse-row-geometry-section.md
+             - name: EllipticalArcTo Row (Geometry Section)
+               href: visio/ellipticalarcto-row-geometry-section.md
+             - name: Gradient Stop Row (Fill Gradient Section)
+               href: visio/gradient-stop-row-fill-gradient-section.md
+             - name: Gradient Stop Row (Line Gradient Section)
+               href: visio/gradient-stop-row-line-gradient-section.md
+             - name: Hyperlink Row (Hyperlinks Section)
+               href: visio/hyperlink-row-hyperlinks-section.md
+             - name: InfiniteLine Row (Geometry Section)
+               href: visio/infiniteline-row-geometry-section.md
+             - name: LineTo Row (Geometry Section)
+               href: visio/lineto-row-geometry-section.md
+             - name: MoveTo Row (Geometry Section)
+               href: visio/moveto-row-geometry-section.md
+             - name: NURBSTo Row (Geometry Section)
+               href: visio/nurbsto-row-geometry-section.md
+             - name: PolylineTo Row (Geometry Section)
+               href: visio/polylineto-row-geometry-section.md
+             - name: RelCubBezTo Row (Geometry Section)
+               href: visio/relcubbezto-row-geometry-section.md
+             - name: RelEllipticalArcTo Row (Geometry Section)
+               href: visio/relellipticalarcto-row-geometry-section.md
+             - name: RelLineTo Row (Geometry Section)
+               href: visio/rellineto-row-geometry-section.md
+             - name: RelMoveTo Row (Geometry Section)
+               href: visio/relmoveto-row-geometry-section.md
+             - name: RelQuadBezTo Row (Geometry Section)
+               href: visio/relquadbezto-row-geometry-section.md
+             - name: Shape Data Row (Shape Data Section)
+               href: visio/shape-data-row-shape-data-section.md
+             - name: Smart Tags Row (Action Tags Section)
+               href: visio/smart-tags-row-action-tags-section.md
+             - name: SplineKnot Row (Geometry Section)
+               href: visio/splineknot-row-geometry-section.md
+             - name: SplineStart Row (Geometry Section)
+               href: visio/splinestart-row-geometry-section.md
+             - name: User-defined Cells Row (User-defined Cells Section)
+               href: visio/user-defined-cells-row-user-defined-cells-section.md
            - name: Sections
-             href: https://msdn.microsoft.com/EN-US/library/office/jj945062.aspx
              href: visio/sections-visio-shapesheet-reference.md
              items:
              - name: 1-D Endpoints Section
@@ -2381,11 +3691,649 @@
          - name: 'How to: Manipulate the Visio file format programmatically'
            href: visio/how-to-manipulate-the-visio-file-format-programmatically.md
          - name: Schema map
-           href: https://msdn.microsoft.com/en-us/library/office/jj684223.aspx
+           href: visio/schema-mapvisio-xml.md
          - name: Elements
-           href: https://msdn.microsoft.com/EN-US/library/office/jj717831.aspx
+           href: visio/elementsvisio-xml.md
+           items:
+           - name: AttachedToolbars element
+             href: visio/attachedtoolbars-element-documentsettings_type-complextypevisio-xml.md
+           - name: AuthorEntry element
+             href: visio/authorentry-element-authorlist_type-complextypevisio-xml.md
+           - name: AuthorList element
+             href: visio/authorlist-element-comments_type-complextypevisio-xml.md
+           - name: AutoLinkComparison element
+             href: visio/autolinkcomparison-element-datarecordset_type-complextypevisio-xml.md
+           - name: Cell element
+             href: visio/cell-elementvisio-xml.md
+           - name: Cell element (Action Tag Section)
+             href: visio/cell-element-action-tag-sectionvisio-xml.md
+           - name: Cell element (Actions Row)
+             href: visio/cell-element-actions-rowvisio-xml.md
+           - name: Cell element (ArcTo Row)
+             href: visio/cell-element-arcto-rowvisio-xml.md
+           - name: Cell element (Character Section)
+             href: visio/cell-element-character-sectionvisio-xml.md
+           - name: Cell element (Connection Row)
+             href: visio/cell-element-connection-rowvisio-xml.md
+           - name: Cell element (Controls Row)
+             href: visio/cell-element-controls-rowvisio-xml.md
+           - name: Cell element (Ellipse Row)
+             href: visio/cell-element-ellipse-rowvisio-xml.md
+           - name: Cell element (EllipticalArcTo Row)
+             href: visio/cell-element-ellipticalarcto-rowvisio-xml.md
+           - name: Cell element (Field Section)
+             href: visio/cell-element-field-sectionvisio-xml.md
+           - name: Cell element (Fill Gradient Section)
+             href: visio/cell-element-fill-gradient-sectionvisio-xml.md
+           - name: Cell element (Geometry Section)
+             href: visio/cell-element-geometry-sectionvisio-xml.md
+           - name: Cell element (Hyperlink Row)
+             href: visio/cell-element-hyperlink-rowvisio-xml.md
+           - name: Cell element (InfiniteLine Row)
+             href: visio/cell-element-infiniteline-rowvisio-xml.md
+           - name: Cell element (Layer Section)
+             href: visio/cell-element-layer-sectionvisio-xml.md
+           - name: Cell element (Line Gradient Section)
+             href: visio/cell-element-line-gradient-sectionvisio-xml.md
+           - name: Cell element (LineTo Row)
+             href: visio/cell-element-lineto-rowvisio-xml.md
+           - name: Cell element (MoveTo Row)
+             href: visio/cell-element-moveto-rowvisio-xml.md
+           - name: Cell element (NURBSTo Row)
+             href: visio/cell-element-nurbsto-rowvisio-xml.md
+           - name: Cell element (Paragraph Section)
+             href: visio/cell-element-paragraph-sectionvisio-xml.md
+           - name: Cell element (PolyLineTo Row)
+             href: visio/cell-element-polylineto-rowvisio-xml.md
+           - name: Cell element (RelCubBezTo Row)
+             href: visio/cell-element-relcubbezto-rowvisio-xml.md
+           - name: Cell element (RelEllipticalArcTo Row)
+             href: visio/cell-element-relellipticalarcto-rowvisio-xml.md
+           - name: Cell element (RelLineTo Row)
+             href: visio/cell-element-rellineto-rowvisio-xml.md
+           - name: Cell element (RelMoveTo Row)
+             href: visio/cell-element-relmoveto-rowvisio-xml.md
+           - name: Cell element (RelQuadBezTo Row)
+             href: visio/cell-element-relquadbezto-rowvisio-xml.md
+           - name: Cell element (Scratch Section)
+             href: visio/cell-element-scratch-sectionvisio-xml.md
+           - name: Cell element (Shape Data Section)
+             href: visio/cell-element-shape-data-sectionvisio-xml.md
+           - name: Cell element (SplineKnot Row)
+             href: visio/cell-element-splineknot-rowvisio-xml.md
+           - name: Cell element (SplineStart Row)
+             href: visio/cell-element-splinestart-rowvisio-xml.md
+           - name: Cell element (Tabs Section)
+             href: visio/cell-element-tabs-sectionvisio-xml.md
+           - name: Cell element (User-defined Cells Section)
+             href: visio/cell-element-user-defined-cells-sectionvisio-xml.md
+           - name: ColorEntry element
+             href: visio/colorentry-element-colors_type-complextypevisio-xml.md
+           - name: Colors element
+             href: visio/colors-element-visiodocument_type-complextypevisio-xml.md
+           - name: CommentEntry element
+             href: visio/commententry-element-commentlist_type-complextypevisio-xml.md
+           - name: CommentList element
+             href: visio/commentlist-element-comments_type-complextypevisio-xml.md
+           - name: Comments element
+             href: visio/comments-element-comments_type-complextypevisio-xml.md
+           - name: Connect element
+             href: visio/connect-element-connects_type-complextypevisio-xml.md
+           - name: Connects element
+             href: visio/connects-element-pagecontents_type-complextypevisio-xml.md
+           - name: cp element
+             href: visio/cp-element-text_type-complextypevisio-xml.md
+           - name: CustomMenusFile element
+             href: visio/custommenusfile-element-documentsettings_type-complextypevisio-xml.md
+           - name: CustomToolbarsFile element
+             href: visio/customtoolbarsfile-element-documentsettings_type-complextypevisio-xml.md
+           - name: Data1 element
+             href: visio/data1-element-shapesheet_type-complextypevisio-xml.md
+           - name: Data2 element
+             href: visio/data2-element-shapesheet_type-complextypevisio-xml.md
+           - name: Data3 element
+             href: visio/data3-element-shapesheet_type-complextypevisio-xml.md
+           - name: DataColumn element
+             href: visio/datacolumn-element-datacolumns_type-complextypevisio-xml.md
+           - name: DataColumns element
+             href: visio/datacolumns-element-datarecordset_type-complextypevisio-xml.md
+           - name: DataConnection element
+             href: visio/dataconnection-element-dataconnections_type-complextypevisio-xml.md
+           - name: DataConnections element
+             href: visio/dataconnections-elementvisio-xml.md
+           - name: DataRecordSet element
+             href: visio/datarecordset-element-datarecordsets_type-complextypevisio-xml.md
+           - name: DataRecordSets element
+             href: visio/datarecordsets-elementvisio-xml.md
+           - name: DocumentSettings element
+             href: visio/documentsettings-element-visiodocument_type-complextypevisio-xml.md
+           - name: DocumentSheet element
+             href: visio/documentsheet-element-visiodocument_type-complextypevisio-xml.md
+           - name: DynamicGridEnabled element (DocumentSettings_Type complexType)
+             href: visio/dynamicgridenabled-element-documentsettings_type-complextypevisio-xml.md
+           - name: DynamicGridEnabled element (Window_Type complexType)
+             href: visio/dynamicgridenabled-element-window_type-complextypevisio-xml.md
+           - name: EventItem element
+             href: visio/eventitem-element-eventlist_type-complextypevisio-xml.md
+           - name: EventList element
+             href: visio/eventlist-element-visiodocument_type-complextypevisio-xml.md
+           - name: FaceName element
+             href: visio/facename-element-facenames_type-complextypevisio-xml.md
+           - name: FaceNames element
+             href: visio/facenames-element-visiodocument_type-complextypevisio-xml.md
+           - name: fld element
+             href: visio/fld-element-text_type-complextypevisio-xml.md
+           - name: FooterCenter element
+             href: visio/footercenter-element-headerfooter_type-complextypevisio-xml.md
+           - name: FooterLeft element
+             href: visio/footerleft-element-headerfooter_type-complextypevisio-xml.md
+           - name: FooterMargin element
+             href: visio/footermargin-element-headerfooter_type-complextypevisio-xml.md
+           - name: FooterRight element
+             href: visio/footerright-element-headerfooter_type-complextypevisio-xml.md
+           - name: ForeignData element
+             href: visio/foreigndata-element-shapesheet_type-complextypevisio-xml.md
+           - name: GlueSettings element (DocumentSettings_Type complexType)
+             href: visio/gluesettings-element-documentsettings_type-complextypevisio-xml.md
+           - name: GlueSettings element (Window_Type complexType)
+             href: visio/gluesettings-element-window_type-complextypevisio-xml.md
+           - name: HeaderCenter element
+             href: visio/headercenter-element-headerfooter_type-complextypevisio-xml.md
+           - name: HeaderFooter element
+             href: visio/headerfooter-element-visiodocument_type-complextypevisio-xml.md
+           - name: HeaderFooterFont element
+             href: visio/headerfooterfont-element-headerfooter_type-complextypevisio-xml.md
+           - name: HeaderLeft element
+             href: visio/headerleft-element-headerfooter_type-complextypevisio-xml.md
+           - name: HeaderMargin element
+             href: visio/headermargin-element-headerfooter_type-complextypevisio-xml.md
+           - name: HeaderRight element
+             href: visio/headerright-element-headerfooter_type-complextypevisio-xml.md
+           - name: Icon element (Master_Type complexType)
+             href: visio/icon-element-master_type-complextypevisio-xml.md
+           - name: Icon element (MasterShortcut_Type complexType)
+             href: visio/icon-element-mastershortcut_type-complextypevisio-xml.md
+           - name: Issue element
+             href: visio/issue-element-issues_type-complextypevisio-xml.md
+           - name: Issues element
+             href: visio/issues-element-validation_type-complextypevisio-xml.md
+           - name: IssueTarget element
+             href: visio/issuetarget-element-issue_type-complextypevisio-xml.md
+           - name: Master element
+             href: visio/master-element-masters_type-complextypevisio-xml.md
+           - name: MasterContents element
+             href: visio/mastercontents-elementvisio-xml.md
+           - name: Masters element
+             href: visio/masters-elementvisio-xml.md
+           - name: MasterShortcut element
+             href: visio/mastershortcut-element-masters_type-complextypevisio-xml.md
+           - name: Page element
+             href: visio/page-element-pages_type-complextypevisio-xml.md
+           - name: PageContents element
+             href: visio/pagecontents-elementvisio-xml.md
+           - name: Pages element
+             href: visio/pages-elementvisio-xml.md
+           - name: PageSheet element (Master_Type complexType)
+             href: visio/pagesheet-element-master_type-complextypevisio-xml.md
+           - name: PageSheet element (Page_Type complexType)
+             href: visio/pagesheet-element-page_type-complextypevisio-xml.md
+           - name: pp element
+             href: visio/pp-element-text_type-complextypevisio-xml.md
+           - name: PrimaryKey element
+             href: visio/primarykey-element-datarecordset_type-complextypevisio-xml.md
+           - name: ProtectBkgnds element
+             href: visio/protectbkgnds-element-documentsettings_type-complextypevisio-xml.md
+           - name: ProtectMasters element
+             href: visio/protectmasters-element-documentsettings_type-complextypevisio-xml.md
+           - name: ProtectShapes element
+             href: visio/protectshapes-element-documentsettings_type-complextypevisio-xml.md
+           - name: ProtectStyles element
+             href: visio/protectstyles-element-documentsettings_type-complextypevisio-xml.md
+           - name: PublishedPage element
+             href: visio/publishedpage-element-publishsettings_type-complextypevisio-xml.md
+           - name: PublishSettings element
+             href: visio/publishsettings-element-visiodocument_type-complextypevisio-xml.md
+           - name: RefBy element (Cell_Type complexType)
+             href: visio/refby-element-cell_type-complextypevisio-xml.md
+           - name: RefBy element (Trigger_Type complexType)
+             href: visio/refby-element-trigger_type-complextypevisio-xml.md
+           - name: RefreshableData element
+             href: visio/refreshabledata-element-publishsettings_type-complextypevisio-xml.md
+           - name: RefreshConflict element
+             href: visio/refreshconflict-element-datarecordset_type-complextypevisio-xml.md
+           - name: Rel element (DataRecordSet_Type complexType)
+             href: visio/rel-element-datarecordset_type-complextypevisio-xml.md
+           - name: Rel element (ForeignData_Type complexType)
+             href: visio/rel-element-foreigndata_type-complextypevisio-xml.md
+           - name: Rel element (Master_Type complexType)
+             href: visio/rel-element-master_type-complextypevisio-xml.md
+           - name: Rel element (Page_Type complexType)
+             href: visio/rel-element-page_type-complextypevisio-xml.md
+           - name: Rel element (Solution_Type complexType)
+             href: visio/rel-element-solution_type-complextypevisio-xml.md
+           - name: Row element (Actions Section)
+             href: visio/row-element-actions-sectionvisio-xml.md
+           - name: Row element (Action Tag Section)
+             href: visio/row-element-action-tag-sectionvisio-xml.md
+           - name: Row element (Character Section)
+             href: visio/row-element-character-sectionvisio-xml.md
+           - name: Row element (Connection Section)
+             href: visio/row-element-connection-sectionvisio-xml.md
+           - name: Row element (Controls Section)
+             href: visio/row-element-controls-sectionvisio-xml.md
+           - name: Row element (Field Section)
+             href: visio/row-element-field-sectionvisio-xml.md
+           - name: Row element (Fill Gradient Section)
+             href: visio/row-element-fill-gradient-sectionvisio-xml.md
+           - name: Row element (Geometry Section)
+             href: visio/row-element-geometry-sectionvisio-xml.md
+           - name: Row element (Hyperlink Section)
+             href: visio/row-element-hyperlink-sectionvisio-xml.md
+           - name: Row element (Layer Section)
+             href: visio/row-element-layer-sectionvisio-xml.md
+           - name: Row element (Line Gradient Section)
+             href: visio/row-element-line-gradient-sectionvisio-xml.md
+           - name: Row element (Paragraph Section)
+             href: visio/row-element-paragraph-sectionvisio-xml.md
+           - name: Row element (Scratch Section)
+             href: visio/row-element-scratch-sectionvisio-xml.md
+           - name: Row element (Shape Data Section)
+             href: visio/row-element-shape-data-sectionvisio-xml.md
+           - name: Row element (Tabs Section)
+             href: visio/row-element-tabs-sectionvisio-xml.md
+           - name: Row element (User-defined Cells Section)
+             href: visio/row-element-user-defined-cells-sectionvisio-xml.md
+           - name: RowKeyValue element
+             href: visio/rowkeyvalue-element-primarykey_type-complextypevisio-xml.md
+           - name: RowMap element
+             href: visio/rowmap-element-datarecordset_type-complextypevisio-xml.md
+           - name: Rule element
+             href: visio/rule-element-ruleset_type-complextypevisio-xml.md
+           - name: RuleFilter element
+             href: visio/rulefilter-element-rule_type-complextypevisio-xml.md
+           - name: RuleInfo element
+             href: visio/ruleinfo-element-issue_type-complextypevisio-xml.md
+           - name: RuleSet element
+             href: visio/ruleset-element-rulesets_type-complextypevisio-xml.md
+           - name: RuleSetFlags element
+             href: visio/rulesetflags-element-ruleset_type-complextypevisio-xml.md
+           - name: RuleSets element
+             href: visio/rulesets-element-validation_type-complextypevisio-xml.md
+           - name: RuleTest element
+             href: visio/ruletest-element-rule_type-complextypevisio-xml.md
+           - name: Section element
+             href: visio/section-element-sheet_type-complextypevisio-xml.md
+           - name: Shape element
+             href: visio/shape-element-shapes_type-complextypevisio-xml.md
+           - name: Shapes element (PageContents_Type complexType)
+             href: visio/shapes-element-pagecontents_type-complextypevisio-xml.md
+           - name: Shapes element (ShapeSheet_Type complexType)
+             href: visio/shapes-element-shapesheet_type-complextypevisio-xml.md
+           - name: ShowConnectionPoints element
+             href: visio/showconnectionpoints-element-window_type-complextypevisio-xml.md
+           - name: ShowGrid element
+             href: visio/showgrid-element-window_type-complextypevisio-xml.md
+           - name: ShowGuides element
+             href: visio/showguides-element-window_type-complextypevisio-xml.md
+           - name: ShowPageBreaks element
+             href: visio/showpagebreaks-element-window_type-complextypevisio-xml.md
+           - name: ShowRulers element
+             href: visio/showrulers-element-window_type-complextypevisio-xml.md
+           - name: SnapAngle element
+             href: visio/snapangle-element-snapangles_type-complextypevisio-xml.md
+           - name: SnapAngles element (DocumentSettings_Type complexType)
+             href: visio/snapangles-element-documentsettings_type-complextypevisio-xml.md
+           - name: SnapAngles element (Window_Type complexType)
+             href: visio/snapangles-element-window_type-complextypevisio-xml.md
+           - name: SnapExtensions element (DocumentSettings_Type complexType)
+             href: visio/snapextensions-element-documentsettings_type-complextypevisio-xml.md
+           - name: SnapExtensions element (Window_Type complexType)
+             href: visio/snapextensions-element-window_type-complextypevisio-xml.md
+           - name: SnapSettings element (DocumentSettings_Type complexType)
+             href: visio/snapsettings-element-documentsettings_type-complextypevisio-xml.md
+           - name: SnapSettings element (Window_Type complexType)
+             href: visio/snapsettings-element-window_type-complextypevisio-xml.md
+           - name: Solution element
+             href: visio/solution-element-solutions_type-complextypevisio-xml.md
+           - name: Solutions element
+             href: visio/solutions-elementvisio-xml.md
+           - name: StencilGroup element
+             href: visio/stencilgroup-element-window_type-complextypevisio-xml.md
+           - name: StencilGroupPos element
+             href: visio/stencilgrouppos-element-window_type-complextypevisio-xml.md
+           - name: StyleSheet element
+             href: visio/stylesheet-element-stylesheets_type-complextypevisio-xml.md
+           - name: StyleSheets element
+             href: visio/stylesheets-element-visiodocument_type-complextypevisio-xml.md
+           - name: TabSplitterPos element
+             href: visio/tabsplitterpos-element-window_type-complextypevisio-xml.md
+           - name: Text element
+             href: visio/text-element-shapesheet_type-complextypevisio-xml.md
+           - name: tp element
+             href: visio/tp-element-text_type-complextypevisio-xml.md
+           - name: Trigger element
+             href: visio/trigger-elementvisio-xml.md
+           - name: Validation element
+             href: visio/validation-elementvisio-xml.md
+           - name: ValidationProperties element
+             href: visio/validationproperties-element-validation_type-complextypevisio-xml.md
+           - name: VisioDocument element
+             href: visio/visiodocument-elementvisio-xml.md
+           - name: Window element
+             href: visio/window-element-windows_type-complextypevisio-xml.md
+           - name: Windows element
+             href: visio/windows-elementvisio-xml.md
          - name: Types
-           href: https://msdn.microsoft.com/en-us/library/office/jj684184.aspx 
+           href: visio/typesvisio-xml.md
+           items:
+           - name: Actions_Type complexType
+             href: visio/actions_type-complextypevisio-xml.md
+           - name: ActionsRow_Type complexType
+             href: visio/actionsrow_type-complextypevisio-xml.md
+           - name: ActionTag_Type complexType
+             href: visio/actiontag_type-complextypevisio-xml.md
+           - name: ActionTagRow_Type complexType
+             href: visio/actiontagrow_type-complextypevisio-xml.md
+           - name: ArcTo_Type complexType
+             href: visio/arcto_type-complextypevisio-xml.md
+           - name: AttachedToolbars_Type complexType
+             href: visio/attachedtoolbars_type-complextypevisio-xml.md
+           - name: AuthorEntry_Type complexType
+             href: visio/authorentry_type-complextypevisio-xml.md
+           - name: AuthorList_Type complexType
+             href: visio/authorlist_type-complextypevisio-xml.md
+           - name: AutoLinkComparison_Type complexType
+             href: visio/autolinkcomparison_type-complextypevisio-xml.md
+           - name: Cell_Type complexType
+             href: visio/cell_type-complextypevisio-xml.md
+           - name: CellDef_Type complexType
+             href: visio/celldef_type-complextypevisio-xml.md
+           - name: Character_Type complexType
+             href: visio/character_type-complextypevisio-xml.md
+           - name: CharacterRow_Type complexType
+             href: visio/characterrow_type-complextypevisio-xml.md
+           - name: ColorEntry_Type complexType
+             href: visio/colorentry_type-complextypevisio-xml.md
+           - name: Colors_Type complexType
+             href: visio/colors_type-complextypevisio-xml.md
+           - name: CommentEntry_Type complexType
+             href: visio/commententry_type-complextypevisio-xml.md
+           - name: CommentList_Type complexType
+             href: visio/commentlist_type-complextypevisio-xml.md
+           - name: Comments_Type complexType
+             href: visio/comments_type-complextypevisio-xml.md
+           - name: Connect_Type complexType
+             href: visio/connect_type-complextypevisio-xml.md
+           - name: Connection_Type complexType
+             href: visio/connection_type-complextypevisio-xml.md
+           - name: ConnectionRow_Type complexType
+             href: visio/connectionrow_type-complextypevisio-xml.md
+           - name: Connects_Type complexType
+             href: visio/connects_type-complextypevisio-xml.md
+           - name: Control_Type complexType
+             href: visio/control_type-complextypevisio-xml.md
+           - name: ControlRow_Type complexType
+             href: visio/controlrow_type-complextypevisio-xml.md
+           - name: cp_Type complexType
+             href: visio/cp_type-complextypevisio-xml.md
+           - name: CustomMenusFile_Type complexType
+             href: visio/custommenusfile_type-complextypevisio-xml.md
+           - name: CustomToolbarsFile_Type complexType
+             href: visio/customtoolbarsfile_type-complextypevisio-xml.md
+           - name: Data_Type complexType
+             href: visio/data_type-complextypevisio-xml.md
+           - name: DataColumn_Type complexType
+             href: visio/datacolumn_type-complextypevisio-xml.md
+           - name: DataColumns_Type complexType
+             href: visio/datacolumns_type-complextypevisio-xml.md
+           - name: DataConnection_Type complexType
+             href: visio/dataconnection_type-complextypevisio-xml.md
+           - name: DataConnections_Type complexType
+             href: visio/dataconnections_type-complextypevisio-xml.md
+           - name: DataRecordSet_Type complexType
+             href: visio/datarecordset_type-complextypevisio-xml.md
+           - name: DataRecordSets_Type complexType
+             href: visio/datarecordsets_type-complextypevisio-xml.md
+           - name: DocumentSettings_Type complexType
+             href: visio/documentsettings_type-complextypevisio-xml.md
+           - name: DocumentSheet_Type complexType
+             href: visio/documentsheet_type-complextypevisio-xml.md
+           - name: DynamicGridEnabled_Type complexType
+             href: visio/dynamicgridenabled_type-complextypevisio-xml.md
+           - name: Ellipse_Type complexType
+             href: visio/ellipse_type-complextypevisio-xml.md
+           - name: EllipticalArcTo_Type complexType
+             href: visio/ellipticalarcto_type-complextypevisio-xml.md
+           - name: EventItem_Type complexType
+             href: visio/eventitem_type-complextypevisio-xml.md
+           - name: EventList_Type complexType
+             href: visio/eventlist_type-complextypevisio-xml.md
+           - name: Extensions_Type complexType
+             href: visio/extensions_type-complextypevisio-xml.md
+           - name: FaceName_Type complexType
+             href: visio/facename_type-complextypevisio-xml.md
+           - name: FaceNames_Type complexType
+             href: visio/facenames_type-complextypevisio-xml.md
+           - name: Field_Type complexType
+             href: visio/field_type-complextypevisio-xml.md
+           - name: FieldRow_Type complexType
+             href: visio/fieldrow_type-complextypevisio-xml.md
+           - name: FillGradient_Type complexType
+             href: visio/fillgradient_type-complextypevisio-xml.md
+           - name: FillGradientRow_Type complexType
+             href: visio/fillgradientrow_type-complextypevisio-xml.md
+           - name: fld_Type complexType
+             href: visio/fld_type-complextypevisio-xml.md
+           - name: FooterCenter_Type complexType
+             href: visio/footercenter_type-complextypevisio-xml.md
+           - name: FooterLeft_Type complexType
+             href: visio/footerleft_type-complextypevisio-xml.md
+           - name: FooterMargin_Type complexType
+             href: visio/footermargin_type-complextypevisio-xml.md
+           - name: FooterRight_Type complexType
+             href: visio/footerright_type-complextypevisio-xml.md
+           - name: ForeignData_Type complexType
+             href: visio/foreigndata_type-complextypevisio-xml.md
+           - name: FunctionDef_Type complexType
+             href: visio/functiondef_type-complextypevisio-xml.md
+           - name: Geometry_Type complexType
+             href: visio/geometry_type-complextypevisio-xml.md
+           - name: GlueSettings_Type complexType
+             href: visio/gluesettings_type-complextypevisio-xml.md
+           - name: HeaderCenter_Type complexType
+             href: visio/headercenter_type-complextypevisio-xml.md
+           - name: HeaderFooter_Type complexType
+             href: visio/headerfooter_type-complextypevisio-xml.md
+           - name: HeaderFooterFont_Type complexType
+             href: visio/headerfooterfont_type-complextypevisio-xml.md
+           - name: HeaderLeft_Type complexType
+             href: visio/headerleft_type-complextypevisio-xml.md
+           - name: HeaderMargin_Type complexType
+             href: visio/headermargin_type-complextypevisio-xml.md
+           - name: HeaderRight_Type complexType
+             href: visio/headerright_type-complextypevisio-xml.md
+           - name: Hyperlink_Type complexType
+             href: visio/hyperlink_type-complextypevisio-xml.md
+           - name: HyperlinkRow_Type complexType
+             href: visio/hyperlinkrow_type-complextypevisio-xml.md
+           - name: Icon_Type complexType
+             href: visio/icon_type-complextypevisio-xml.md
+           - name: InfiniteLine_Type complexType
+             href: visio/infiniteline_type-complextypevisio-xml.md
+           - name: Issue_Type complexType
+             href: visio/issue_type-complextypevisio-xml.md
+           - name: Issues_Type complexType
+             href: visio/issues_type-complextypevisio-xml.md
+           - name: IssueTarget_Type complexType
+             href: visio/issuetarget_type-complextypevisio-xml.md
+           - name: Layer_Type complexType
+             href: visio/layer_type-complextypevisio-xml.md
+           - name: LayerRow_Type complexType
+             href: visio/layerrow_type-complextypevisio-xml.md
+           - name: LineGradient_Type complexType
+             href: visio/linegradient_type-complextypevisio-xml.md
+           - name: LineGradientRow_Type complexType
+             href: visio/linegradientrow_type-complextypevisio-xml.md
+           - name: LineTo_Type complexType
+             href: visio/lineto_type-complextypevisio-xml.md
+           - name: Master_Type complexType
+             href: visio/master_type-complextypevisio-xml.md
+           - name: Masters_Type complexType
+             href: visio/masters_type-complextypevisio-xml.md
+           - name: MasterShortcut_Type complexType
+             href: visio/mastershortcut_type-complextypevisio-xml.md
+           - name: MoveTo_Type complexType
+             href: visio/moveto_type-complextypevisio-xml.md
+           - name: NURBSTo_Type complexType
+             href: visio/nurbsto_type-complextypevisio-xml.md
+           - name: Page_Type complexType
+             href: visio/page_type-complextypevisio-xml.md
+           - name: PageContents_Type complexType
+             href: visio/pagecontents_type-complextypevisio-xml.md
+           - name: Pages_Type complexType
+             href: visio/pages_type-complextypevisio-xml.md
+           - name: PageSheet_Type complexType
+             href: visio/pagesheet_type-complextypevisio-xml.md
+           - name: Paragraph_Type complexType
+             href: visio/paragraph_type-complextypevisio-xml.md
+           - name: ParagraphRow_Type complexType
+             href: visio/paragraphrow_type-complextypevisio-xml.md
+           - name: PolylineTo_Type complexType
+             href: visio/polylineto_type-complextypevisio-xml.md
+           - name: pp_Type complexType
+             href: visio/pp_type-complextypevisio-xml.md
+           - name: PrimaryKey_Type complexType
+             href: visio/primarykey_type-complextypevisio-xml.md
+           - name: Property_Type complexType
+             href: visio/property_type-complextypevisio-xml.md
+           - name: PropertyRow_Type complexType
+             href: visio/propertyrow_type-complextypevisio-xml.md
+           - name: ProtectBkgnds_Type complexType
+             href: visio/protectbkgnds_type-complextypevisio-xml.md
+           - name: ProtectMasters_Type complexType
+             href: visio/protectmasters_type-complextypevisio-xml.md
+           - name: ProtectShapes_Type complexType
+             href: visio/protectshapes_type-complextypevisio-xml.md
+           - name: ProtectStyles_Type complexType
+             href: visio/protectstyles_type-complextypevisio-xml.md
+           - name: PublishedPage_Type complexType
+             href: visio/publishedpage_type-complextypevisio-xml.md
+           - name: PublishSettings_Type complexType
+             href: visio/publishsettings_type-complextypevisio-xml.md
+           - name: RefBy_Type complexType
+             href: visio/refby_type-complextypevisio-xml.md
+           - name: RefreshableData_Type complexType
+             href: visio/refreshabledata_type-complextypevisio-xml.md
+           - name: RefreshConflict_Type complexType
+             href: visio/refreshconflict_type-complextypevisio-xml.md
+           - name: Rel_Type complexType
+             href: visio/rel_type-complextypevisio-xml.md
+           - name: RelCubBezTo_Type complexType
+             href: visio/relcubbezto_type-complextypevisio-xml.md
+           - name: RelEllipticalArcTo_Type complexType
+             href: visio/relellipticalarcto_type-complextypevisio-xml.md
+           - name: RelLineTo_Type complexType
+             href: visio/rellineto_type-complextypevisio-xml.md
+           - name: RelMoveTo_Type complexType
+             href: visio/relmoveto_type-complextypevisio-xml.md
+           - name: RelQuadBezTo_Type complexType
+             href: visio/relquadbezto_type-complextypevisio-xml.md
+           - name: Row_Type complexType
+             href: visio/row_type-complextypevisio-xml.md
+           - name: RowDef_Type complexType
+             href: visio/rowdef_type-complextypevisio-xml.md
+           - name: RowKeyValue_Type complexType
+             href: visio/rowkeyvalue_type-complextypevisio-xml.md
+           - name: RowMap_Type complexType
+             href: visio/rowmap_type-complextypevisio-xml.md
+           - name: Rule_Type complexType
+             href: visio/rule_type-complextypevisio-xml.md
+           - name: RuleFilter_Type complexType
+             href: visio/rulefilter_type-complextypevisio-xml.md
+           - name: RuleInfo_Type complexType
+             href: visio/ruleinfo_type-complextypevisio-xml.md
+           - name: RuleSet_Type complexType
+             href: visio/ruleset_type-complextypevisio-xml.md
+           - name: RuleSetFlags_Type complexType
+             href: visio/rulesetflags_type-complextypevisio-xml.md
+           - name: RuleSets_Type complexType
+             href: visio/rulesets_type-complextypevisio-xml.md
+           - name: RuleTest_Type complexType
+             href: visio/ruletest_type-complextypevisio-xml.md
+           - name: Scratch_Type complexType
+             href: visio/scratch_type-complextypevisio-xml.md
+           - name: ScratchRow_Type complexType
+             href: visio/scratchrow_type-complextypevisio-xml.md
+           - name: Section_Type complexType
+             href: visio/section_type-complextypevisio-xml.md
+           - name: SectionDef_Type complexType
+             href: visio/sectiondef_type-complextypevisio-xml.md
+           - name: Shapes_Type complexType
+             href: visio/shapes_type-complextypevisio-xml.md
+           - name: ShapeSheet_Type complexType
+             href: visio/shapesheet_type-complextypevisio-xml.md
+           - name: Sheet_Type complexType
+             href: visio/sheet_type-complextypevisio-xml.md
+           - name: ShowConnectionPoints_Type complexType
+             href: visio/showconnectionpoints_type-complextypevisio-xml.md
+           - name: ShowGrid_Type complexType
+             href: visio/showgrid_type-complextypevisio-xml.md
+           - name: ShowGuides_Type complexType
+             href: visio/showguides_type-complextypevisio-xml.md
+           - name: ShowPageBreaks_Type complexType
+             href: visio/showpagebreaks_type-complextypevisio-xml.md
+           - name: ShowRulers_Type complexType
+             href: visio/showrulers_type-complextypevisio-xml.md
+           - name: SnapAngle_Type complexType
+             href: visio/snapangle_type-complextypevisio-xml.md
+           - name: SnapAngles_Type complexType
+             href: visio/snapangles_type-complextypevisio-xml.md
+           - name: SnapExtensions_Type complexType
+             href: visio/snapextensions_type-complextypevisio-xml.md
+           - name: SnapSettings_Type complexType
+             href: visio/snapsettings_type-complextypevisio-xml.md
+           - name: Solution_Type complexType
+             href: visio/solution_type-complextypevisio-xml.md
+           - name: Solutions_Type complexType
+             href: visio/solutions_type-complextypevisio-xml.md
+           - name: SplineKnot_Type complexType
+             href: visio/splineknot_type-complextypevisio-xml.md
+           - name: SplineStart_Type complexType
+             href: visio/splinestart_type-complextypevisio-xml.md
+           - name: StencilGroup_Type complexType
+             href: visio/stencilgroup_type-complextypevisio-xml.md
+           - name: StencilGroupPos_Type complexType
+             href: visio/stencilgrouppos_type-complextypevisio-xml.md
+           - name: StyleSheet_Type complexType
+             href: visio/stylesheet_type-complextypevisio-xml.md
+           - name: StyleSheets_Type complexType
+             href: visio/stylesheets_type-complextypevisio-xml.md
+           - name: Tabs_Type complexType
+             href: visio/tabs_type-complextypevisio-xml.md
+           - name: TabSplitterPos_Type complexType
+             href: visio/tabsplitterpos_type-complextypevisio-xml.md
+           - name: TabsRow_Type complexType
+             href: visio/tabsrow_type-complextypevisio-xml.md
+           - name: Text_Type complexType
+             href: visio/text_type-complextypevisio-xml.md
+           - name: tp_Type complexType
+             href: visio/tp_type-complextypevisio-xml.md
+           - name: Trigger_Type complexType
+             href: visio/trigger_type-complextypevisio-xml.md
+           - name: User_Type complexType
+             href: visio/user_type-complextypevisio-xml.md
+           - name: UserRow_Type complexType
+             href: visio/userrow_type-complextypevisio-xml.md
+           - name: Validation_Type complexType
+             href: visio/validation_type-complextypevisio-xml.md
+           - name: ValidationProperties_Type complexType
+             href: visio/validationproperties_type-complextypevisio-xml.md
+           - name: VisioDocument_Type complexType
+             href: visio/visiodocument_type-complextypevisio-xml.md
+           - name: Window_Type complexType
+             href: visio/window_type-complextypevisio-xml.md
+           - name: Windows_Type complexType
+             href: visio/windows_type-complextypevisio-xml.md
      - name: Word
        href: word/word.md
        items:
