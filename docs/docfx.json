@@ -41,7 +41,7 @@
       "breadcrumb_path": "/office/client/breadcrumb/toc.json",
       "extendBreadcrumb": true,
 	  "ms.author": "o365devx", 
-	  "author": "o365devx",
+	   "author": "o365devx",
        "ms.topic": "conceptual",
 	   "ms.suite": "office",
 	   "ms.prod" : "office"
