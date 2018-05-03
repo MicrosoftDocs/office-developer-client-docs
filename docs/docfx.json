@@ -38,11 +38,12 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "/office/client/breadcrumb/toc.json",
+      "breadcrumb_path": "/office/client-developer/breadcrumb/toc.json",
       "extendBreadcrumb": true,
 	  "ms.author": "o365devx", 
 	   "author": "o365devx",
        "ms.topic": "conceptual",
+	   "uhfHeaderId": "MSDocsHeader-Dev_Office",
 	   "ms.suite": "office",
 	   "ms.prod" : "office"
     },
@@ -51,7 +52,7 @@
        { 
          "project/**.md" : "dev-overview",
 		 "excel-xll/**.md" : "excel-xll",
-		 "access/**.md" : "ecustom-web-app",
+		 "access/**.md" : "custom-web-app",
 		 "word/**.md" : "content-controls",
 		 "integration/**.md" : "integration",
 		 "shared/**.md" : "telemetry",
