@@ -892,7 +892,7 @@
                 href: outlook/weather/types-outlook-weather-location-schema.md
                 items:
                 - name: weatherType complexType
-                  href: outlook/weather/weathertype-complextype-outlook-weather-location-schema.md          
+                  href: outlook/weather/weathertype-complextype-outlook-weather-location-schema.md         
           - name: Outlook auxiliary reference
             href: outlook/auxiliary/welcome-to-the-outlook-auxiliary-reference.md
             items:
