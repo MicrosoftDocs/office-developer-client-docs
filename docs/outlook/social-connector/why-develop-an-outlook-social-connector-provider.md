@@ -1,13 +1,15 @@
 ---
 title: "Why Develop an Outlook Social Connector Provider"
+ms.author: soliver
+author: soliver
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
+ms.topic: overview
+ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3e8cf5a1-31d1-4d69-8db3-511b6880eb89
 description: "An Outlook Social Connector (OSC) provider allows Office users to view within an Office client application an aggregation of social information updates applied on a professional or social network site. SharePoint Server, SharePoint Workspace, Lync client, and all Office client applications that support presence information and the Contact Card support the OSC."
- 
- 
 ---
 
 # Why Develop an Outlook Social Connector Provider

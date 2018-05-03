@@ -1,13 +1,15 @@
 ---
 title: "PROP_ACCT_SENTITEMS_EID"
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
+ms.topic: reference
+ 
 localization_priority: Normal
 ms.assetid: f199a97f-55d6-9297-adc4-e9f7b4b5f58b
 description: "Represents the Entry ID of the default folder for sent items for the account."
- 
- 
 ---
 
 # PROP_ACCT_SENTITEMS_EID

@@ -1,13 +1,15 @@
 ---
 title: "IFreeBusyDataGetFBPublishRange"
+ 
+ 
 manager: soliver
 ms.date: 9/23/2016
 ms.audience: Developer
+ms.topic: reference
+ 
 localization_priority: Normal
 ms.assetid: 1a8bbe0c-17d1-9349-4c63-f257faf4edda
 description: "Gets a preset time range for an enumeration of free/busy blocks of data for a user."
- 
- 
 ---
 
 # IFreeBusyData::GetFBPublishRange

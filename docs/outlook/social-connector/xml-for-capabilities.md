@@ -1,13 +1,15 @@
 ---
 title: "XML for Capabilities"
+ms.author: soliver
+author: soliver
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
+ms.topic: overview
+ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: edad1223-a55f-4e4a-8e90-3471f2f559ac
 description: "The capabilities element in the (OSC) provider XML schema allows an OSC provider to specify its functionality. Such functionality includes the following:"
- 
- 
 ---
 
 # XML for Capabilities

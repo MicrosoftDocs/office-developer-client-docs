@@ -1,5 +1,7 @@
 ---
 title: "ISocialSessionSiteUrl"
+ms.author: soliver
+author: soliver
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,8 +10,6 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 95281e78-6517-428a-93c5-2e4a168d4661
 description: "Sets the social network site URL."
- 
- 
 ---
 
 # ISocialSession::SiteUrl

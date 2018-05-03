@@ -1,15 +1,17 @@
 ---
-title: "[Outlook VBA reference]"
+title: "[Outlook MAPI Reference]"
+ms.author: soliver
+author: soliver
 ms.date: 1/1/1900
 ms.audience: ITPro
+ms.topic: overview
+ms.prod: office-online-server
 localization_priority: Normal
-ms.assetid: c0fbaeca-fbc8-4857-b458-d0fc74d5f804
+ms.assetid: 245ee38c-3167-4713-9189-8a61e4625ebc
 description: "{insert summary}"
- 
- 
 ---
 
-# [Outlook VBA reference]
+# [Outlook MAPI Reference]
 
 {insert summary}
   

@@ -1,5 +1,7 @@
 ---
 title: "ISocialProfile  ISocialPerson"
+ms.author: soliver
+author: soliver
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -8,8 +10,6 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 4dbfdb6c-a930-4efb-85c3-dc2757ddcf83
 description: "Represents the logged-on user."
- 
- 
 ---
 
 # ISocialProfile : ISocialPerson

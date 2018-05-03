@@ -1,13 +1,15 @@
 ---
 title: "PROP_ACCT_DELIVERY_STORE"
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
+ms.topic: reference
+ 
 localization_priority: Normal
 ms.assetid: f5db43e9-687b-d467-1be1-3737e3f91c27
 description: "Represents the Entry ID of the default delivery store for the account."
- 
- 
 ---
 
 # PROP_ACCT_DELIVERY_STORE

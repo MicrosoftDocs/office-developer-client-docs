@@ -1,13 +1,15 @@
 ---
 title: "IOlkAccountManagerDeleteAccount"
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
+ms.topic: reference
+ 
 localization_priority: Normal
 ms.assetid: df210364-fe20-8e33-a455-9902f04ec739
 description: "Deletes the specified account."
- 
- 
 ---
 
 # IOlkAccountManager::DeleteAccount

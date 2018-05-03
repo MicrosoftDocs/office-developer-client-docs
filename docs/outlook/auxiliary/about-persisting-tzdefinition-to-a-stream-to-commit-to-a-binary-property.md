@@ -1,13 +1,15 @@
 ---
 title: "About persisting TZDEFINITION to a stream to commit to a binary property"
+ 
+ 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
+ms.topic: overview
+ 
 localization_priority: Normal
 ms.assetid: 0dec535d-d48f-39a5-97d5-0bd109134b3b
 description: "The time zone properties, PidLidAppointmentTimeZoneDefinitionEndDisplay, PidLidAppointmentTimeZoneDefinitionRecur, and PidLidAppointmentTimeZoneDefinitionStartDisplay are binary named properties, each of which contains a stream that maps to the persisted format of a TZDEFINITION structure."
- 
- 
 ---
 
 # About persisting TZDEFINITION to a stream to commit to a binary property

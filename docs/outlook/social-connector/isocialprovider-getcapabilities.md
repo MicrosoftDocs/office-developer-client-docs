@@ -1,5 +1,7 @@
 ---
 title: "ISocialProviderGetCapabilities"
+ms.author: soliver
+author: soliver
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,8 +10,6 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f40d5405-12e3-475b-b731-d2223ab70c1d
 description: "Gets a string that describes provider capabilities."
- 
- 
 ---
 
 # ISocialProvider::GetCapabilities

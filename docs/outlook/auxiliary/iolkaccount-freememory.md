@@ -1,13 +1,15 @@
 ---
 title: "IOlkAccountFreeMemory"
+ 
+ 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
+ms.topic: reference
+ 
 localization_priority: Normal
 ms.assetid: 3b2ee5aa-7639-d86d-447e-50bda54aa3ec
 description: "Frees memory allocated by the IOlkAccount interface."
- 
- 
 ---
 
 # IOlkAccount::FreeMemory

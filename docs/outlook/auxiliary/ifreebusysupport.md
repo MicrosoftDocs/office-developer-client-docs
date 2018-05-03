@@ -1,12 +1,14 @@
 ---
 title: "IFreeBusySupport"
+ 
+ 
 manager: soliver
 ms.date: 12/8/2015
 ms.audience: Developer
+ms.topic: reference
+ 
 localization_priority: Normal
 ms.assetid: 17df868b-d329-cefa-bd16-84960cbf5921
- 
- 
 ---
 
 # IFreeBusySupport

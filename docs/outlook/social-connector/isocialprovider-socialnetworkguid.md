@@ -1,5 +1,7 @@
 ---
 title: "ISocialProviderSocialNetworkGuid"
+ms.author: soliver
+author: soliver
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,8 +10,6 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3c07f71d-b906-4a7f-b20a-4a7f558dbf11
 description: "Returns a GUID that represents a unique identifier for the social network."
- 
- 
 ---
 
 # ISocialProvider::SocialNetworkGuid

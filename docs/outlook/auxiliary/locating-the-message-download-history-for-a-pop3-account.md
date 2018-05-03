@@ -1,13 +1,15 @@
 ---
 title: "Locating the message download history for a POP3 account"
+ 
+ 
 manager: soliver
 ms.date: 9/17/2015
 ms.audience: Developer
+ms.topic: overview
+ 
 localization_priority: Normal
 ms.assetid: 90a51150-5c2c-4d5b-8717-5dacc8532744
 description: "This topic describes how a mail client can access the PidTagAttachDataBinary property to get the message download history for a POP3 account."
- 
- 
 ---
 
 # Locating the message download history for a POP3 account

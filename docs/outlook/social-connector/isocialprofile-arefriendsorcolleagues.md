@@ -1,5 +1,7 @@
 ---
 title: "ISocialProfileAreFriendsOrColleagues"
+ms.author: soliver
+author: soliver
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,8 +10,6 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a0b586cd-65f6-4792-851c-4d36eaeec56d
 description: "Determines whether the specified users are friends."
- 
- 
 ---
 
 # ISocialProfile::AreFriendsOrColleagues

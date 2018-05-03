@@ -1,13 +1,15 @@
 ---
 title: "Constants (Account management API)"
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
+ms.topic: overview
+ 
 localization_priority: Normal
 ms.assetid: 2a15e5df-b8e3-9c37-b1ee-2881d010e30b
 description: "This topic contains constant definitions, class identifiers, and interface identifiers for the Account Management API."
- 
- 
 ---
 
 # Constants (Account management API)

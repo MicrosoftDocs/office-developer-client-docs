@@ -1,13 +1,15 @@
 ---
 title: "Quick Steps for Learning to Develop a Provider"
+ms.author: soliver
+author: soliver
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
+ms.topic: overview
+ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 13c0ae8c-d268-4bf0-942d-2a6160142f5e
 description: "This topic suggests a few steps to learn about developing an Outlook Social Connector (OSC) provider."
- 
- 
 ---
 
 # Quick Steps for Learning to Develop a Provider

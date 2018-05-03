@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: reference
- 
+ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: de3c35ef-84a3-b991-7c98-3eca720c9ba0
 description: "Specifies the weather conditions of a location."

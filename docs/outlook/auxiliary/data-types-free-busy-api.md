@@ -1,13 +1,15 @@
 ---
 title: "Data types (Free/busy API)"
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
+ms.topic: overview
+ 
 localization_priority: Normal
 ms.assetid: 18b829c5-644d-4756-864b-b8da67e0d760
 description: "This section describes the data types in the Free/Busy API."
- 
- 
 ---
 
 # Data types (Free/busy API)

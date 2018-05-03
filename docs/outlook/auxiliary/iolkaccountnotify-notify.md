@@ -1,13 +1,15 @@
 ---
 title: "IOlkAccountNotifyNotify"
+ 
+ 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
+ms.topic: reference
+ 
 localization_priority: Normal
 ms.assetid: dbce1c47-1252-ddeb-64ae-d52118e6821f
 description: "Notifies the client of changes to the specified account."
- 
- 
 ---
 
 # IOlkAccountNotify::Notify

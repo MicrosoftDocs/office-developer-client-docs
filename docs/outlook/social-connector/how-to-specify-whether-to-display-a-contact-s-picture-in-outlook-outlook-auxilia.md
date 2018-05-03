@@ -1,13 +1,15 @@
 ---
 title: "How to Specify whether to display a contact's picture in Outlook (Outlook Auxiliary Reference)"
+ms.author: krowley
+author: kccross
 manager: soliver
 ms.date: 12/7/2015
 ms.audience: Developer
+ms.topic: overview
+ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8a454399-0b5c-488a-9b87-5a21a2f0dace
 description: "This topic shows how to use the dispidShowSenderPhoto dispatch ID to invoke the corresponding method on an Outlook Explorer or Inspector object, to specify whether to display a contact's picture in the explorer or inspector window, according to a Boolean argument. Specifying VARIANT_TRUE as the argument turns on the display, and VARIANT_FALSE turns off the display."
- 
- 
 ---
 
 # How to: Specify whether to display a contact's picture in Outlook (Outlook Auxiliary Reference)

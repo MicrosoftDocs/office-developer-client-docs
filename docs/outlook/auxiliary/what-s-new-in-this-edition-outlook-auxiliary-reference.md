@@ -1,13 +1,15 @@
 ---
 title: "What's new in this edition (Outlook Auxiliary Reference)"
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
+ms.topic: overview
+ 
 localization_priority: Normal
 ms.assetid: 6ab5924d-2e03-25df-7ce2-e13d6b69291b
 description: "This topic describes what is new in the current edition of the Outlook 2013 Auxiliary Reference."
- 
- 
 ---
 
 # What's new in this edition (Outlook Auxiliary Reference)

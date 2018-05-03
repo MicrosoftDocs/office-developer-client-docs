@@ -1,5 +1,7 @@
 ---
 title: "ISocialPersonGetFriendsAndColleagues"
+ms.author: soliver
+author: soliver
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,8 +10,6 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 62d5b815-f199-499e-85eb-2dff21a8216e
 description: "Gets a string that represents a collection of people."
- 
- 
 ---
 
 # ISocialPerson::GetFriendsAndColleagues
@@ -30,7 +30,7 @@ HRESULT _stdcall GetFriendsAndColleagues([out, retval] BSTR* personsCollection);
 
 The OSC calls **GetFriendsAndColleagues** if the OSC provider supports cached or hybrid synchronization of friends on the social network. When the OSC initially calls the **GetFriendsAndColleagues** method for the Outlook user who is logged on to the social network, **GetFriendsAndColleagues** returns an XML string that represents friends of the logged-on user on the social network. The XML string complies with the **friends** XML schema definition and specifies a **person** element (which also complies with the OSC provider schema definition) for each friend. 
   
-When **GetFriendsAndColleagues** returns the friends information for the logged-on user, the OSC stores that information in a contacts folder. This folder is specific to the social network and resides in the logged-on user's default Outlook store. For more information about how the OSC caches friends' information in a contacts folder, see [Synchronizing Friends and Activities](../../outlook-social-connector-provider-reference/developing-a-provider-with-the-osc-xml-schema/synchronizing-friends-and-activities.md).
+When **GetFriendsAndColleagues** returns the friends information for the logged-on user, the OSC stores that information in a contacts folder. This folder is specific to the social network and resides in the logged-on user's default Outlook store. For more information about how the OSC caches friends' information in a contacts folder, see [Synchronizing Friends and Activities](synchronizing-friends-and-activities.md).
   
 Information for each friend returned in the  _personsCollection_ parameter complies with the XML schema definition for **person**. The **person** element supports many pieces of information for each friend, including the SMTP email addresses (which map to the **emailAddress**, **emailAddress2**, and **emailAddress3** elements) that the friend has specified on the social network, and the user ID (which maps to the **userID** element) that identifies that friend on the social network. 
   
@@ -45,5 +45,5 @@ However, if the selected Outlook user does not specify that same SMTP address on
 [ISocialPerson : IUnknown](isocialpersoniunknown.md)
 #### Concepts
 
-[Getting Friends Information](../../outlook-social-connector-provider-reference/osc-typical-calling-sequences/getting-friends-information.md)
+[Getting Friends Information](getting-friends-information.md)
 

@@ -1,13 +1,15 @@
 ---
 title: "ACCT_BIN"
+ 
+ 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
+ms.topic: reference
+ 
 localization_priority: Normal
 ms.assetid: 5b57296c-61d7-e517-7ab7-44a9cc1f7ffc
 description: "A variable of this data type holds a binary value."
- 
- 
 ---
 
 # ACCT_BIN

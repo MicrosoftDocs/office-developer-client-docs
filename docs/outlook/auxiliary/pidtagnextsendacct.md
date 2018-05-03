@@ -1,13 +1,15 @@
 ---
 title: "PidTagNextSendAcct"
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
+ms.topic: overview
+ 
 localization_priority: Normal
 ms.assetid: 1cf5b314-39fa-996f-fd88-00380ffbc4de
 description: "Specifies the secondary accountsendstamp for the message."
- 
- 
 ---
 
 # PidTagNextSendAcct

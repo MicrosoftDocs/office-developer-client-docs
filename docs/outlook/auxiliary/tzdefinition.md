@@ -1,13 +1,15 @@
 ---
 title: "TZDEFINITION"
+ 
+ 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
+ms.topic: reference
+ 
 localization_priority: Normal
 ms.assetid: 0ae21571-2299-6407-807c-428668bb6798
 description: "Represents an entire time zone including all historical, current, and future time zone shift rules for daylight saving time."
- 
- 
 ---
 
 # TZDEFINITION

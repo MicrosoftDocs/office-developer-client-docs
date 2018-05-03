@@ -1,13 +1,15 @@
 ---
 title: "Installation Checklist"
+ms.author: soliver
+author: soliver
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
+ms.topic: overview
+ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9dfb9b6d-2fb4-45bf-a12f-bd10a799ce29
 description: "This topic describes prerequisites for successfully installing an Outlook Social Connector (OSC) provider, and the installation checks that your provider installer should complete to work correctly."
- 
- 
 ---
 
 # Installation Checklist

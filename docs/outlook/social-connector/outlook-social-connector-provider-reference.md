@@ -1,13 +1,15 @@
 ---
 title: "Outlook Social Connector provider reference"
+ms.author: soliver
+author: soliver
 manager: soliver
 ms.date: 4/4/2016
 ms.audience: Developer
+ms.topic: overview
+ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 13661393-adf6-4870-86c4-303262317675
 description: "The Outlook Social Connector 2013 provides a communication hub for personal and professional communications. The Outlook Social Connector (OSC) works with SharePoint Server, SharePoint Workspace, Lync client, and all Office client applications that support presence information and the Contact Card support the OSC. In Outlook in particular, just by selecting an Outlook item such as an email or meeting request and clicking the sender or a recipient in that item, without leaving Outlook, users can see in the People Pane activities, photos, and status updates of this person on their favorite social networks. Users can conveniently see all the Outlook emails, attachments, and meetings received from this person. In an organizational environment, users on a SharePoint site can also see in the People Pane document updates and other site activities of this person on the SharePoint site."
- 
- 
 ---
 
 # Outlook Social Connector provider reference

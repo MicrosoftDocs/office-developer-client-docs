@@ -1,13 +1,15 @@
 ---
 title: "Getting started (Outlook auxiliary reference)"
+ 
+ 
 manager: soliver
 ms.date: 9/10/2015
 ms.audience: Developer
+ms.topic: overview
+ 
 localization_priority: Normal
 ms.assetid: 7b7059c0-ebe0-79d3-067a-040430e105cb
 description: "The Outlook Auxiliary Reference contains conceptual content and reference documentation for four sets of APIs, code samples, and a redistributable installer that allow developers to extend and integrate with Outlook. APIs in this reference are exposed by Outlook for extensibility, outside of the Outlook object model."
- 
- 
 ---
 
 # Getting started (Outlook auxiliary reference)

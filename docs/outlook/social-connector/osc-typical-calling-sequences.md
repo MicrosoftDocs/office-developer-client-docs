@@ -1,13 +1,15 @@
 ---
 title: "OSC Typical Calling Sequences"
+ms.author: soliver
+author: soliver
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
+ms.topic: overview
+ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f61960f7-e018-4d2e-8e32-426ed46d9064
 description: "This section describes the Outlook Social Connector (OSC) typical calling sequences of members in the OSC provider extensibility interfaces, which an OSC provider implements. The typical calling sequences illustrate how and when the OSC uses such interfaces and methods, to let you better determine how to implement a given member on a provider extensibility interface. The actual calling sequence can vary depending on the capabilities returned by the ISocialProvider::GetCapabilities method. Examples of capabilities include the following:"
- 
- 
 ---
 
 # OSC Typical Calling Sequences

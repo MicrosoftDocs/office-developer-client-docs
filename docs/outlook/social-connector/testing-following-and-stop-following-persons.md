@@ -1,13 +1,15 @@
 ---
 title: "Testing Following and Stop-Following Persons"
+ms.author: soliver
+author: soliver
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
+ms.topic: overview
+ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c603c3c6-62c8-4895-93e1-b2e146dfaa4f
 description: "This topic describes scenarios to test the Outlook Social Connector (OSC) provider's ability to follow a friend, and to stop following a friend on the social network."
- 
- 
 ---
 
 # Testing Following and Stop-Following Persons

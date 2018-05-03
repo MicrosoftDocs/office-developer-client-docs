@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
- 
+ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1120ad84-577f-6a72-cd3d-bb9bf3ffaa08
 description: "This topic lists the types in the Outlook Weather Information XML schema."

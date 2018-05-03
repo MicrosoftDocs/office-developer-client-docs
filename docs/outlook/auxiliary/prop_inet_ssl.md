@@ -1,13 +1,15 @@
 ---
 title: "PROP_INET_SSL"
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
+ms.topic: overview
+ 
 localization_priority: Normal
 ms.assetid: 27732f6d-e030-4080-9684-69293a57598b
 description: "Specifies whether to use Secure Socket Layer (SSL) for a general Internet mailbox."
- 
- 
 ---
 
 # PROP_INET_SSL

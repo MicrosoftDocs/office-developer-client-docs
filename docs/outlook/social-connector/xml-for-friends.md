@@ -1,13 +1,15 @@
 ---
 title: "XML for Friends"
+ms.author: soliver
+author: soliver
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
+ms.topic: overview
+ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3362639a-8098-47ab-ba94-ee89e4920032
 description: "The friends element in the Microsoft Outlook Social Connector (OSC) provider XML schema allows an OSC provider to specify information for a list of persons associated with an Outlook user in the social network. If the OSC provider supports cached synchronization, this list of person will contain only friends of the Outlook user on the social network. If the OSC supports on-demand or hybrid synchronization, this list may contain both friends and non-friends of the Outlook user. Each person in the list is represented as a person element in the XML schema, which supports details such as first name, last name, and email addresses. OSC providers use the friends and person elements regardless of how they want the OSC to synchronize friend information from the social network. Note that the child elements of person are similar to some of the properties of an Outlook contact, which facilitates storing friends in an Outlook contacts folder specific to the social network, if the social network supports cached or hybrid synchronization of friends to an Outlook contacts folder."
- 
- 
 ---
 
 # XML for Friends

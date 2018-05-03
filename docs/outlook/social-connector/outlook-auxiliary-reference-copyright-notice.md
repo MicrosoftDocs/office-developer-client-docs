@@ -1,13 +1,15 @@
 ---
 title: "Outlook auxiliary reference copyright notice"
+ms.author: mroberts
+author: mroberts
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
+ms.topic: overview
+ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 94e13811-04ec-e381-99ff-cb8f42d4bf1e
 description: "This document is providedas-is. Information and views expressed in this document, including URL and other Internet Web site references, may change without notice. You bear the risk of using it."
- 
- 
 ---
 
 # Outlook auxiliary reference copyright notice

@@ -1,13 +1,15 @@
 ---
 title: "PROP_INET_SERVER"
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
+ms.topic: overview
+ 
 localization_priority: Normal
 ms.assetid: cd1bf05a-30df-436f-856b-d5280c20b694
 description: "Represents the server name of a general Internet mailbox."
- 
- 
 ---
 
 # PROP_INET_SERVER

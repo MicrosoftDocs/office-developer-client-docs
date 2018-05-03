@@ -1,13 +1,15 @@
 ---
 title: "Getting Started with Developing an Outlook Social Connector Provider"
+ms.author: soliver
+author: soliver
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
+ms.topic: overview
+ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1c65d2df-86a3-48d5-9fec-a9040f3b878c
 description: "The Outlook Social Connector (OSC) Provider Reference describes how to develop an OSC provider by using OSC provider extensibility. If you are new to developing solutions for Outlook, see Selecting an API or Technology for Developing Outlook Solutions to identify the APIs and technologies that are most appropriate for your needs. This section gives an overview of the OSC, how an OSC provider can be useful, quick steps for learning to develop a provider, technical requirements, best practices for developing a provider, and what's new in this release."
- 
- 
 ---
 
 # Getting Started with Developing an Outlook Social Connector Provider

@@ -1,5 +1,7 @@
 ---
 title: "ISocialPerson  IUnknown"
+ms.author: soliver
+author: soliver
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -8,8 +10,6 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 17a2fa12-a7ef-4a95-9875-72ec6f8ceac9
 description: "Represents a person on the social network."
- 
- 
 ---
 
 # ISocialPerson : IUnknown

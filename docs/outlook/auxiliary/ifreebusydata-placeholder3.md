@@ -1,13 +1,15 @@
 ---
 title: "IFreeBusyDataPlaceholder3"
+ 
+ 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
+ms.topic: reference
+ 
 localization_priority: Normal
 ms.assetid: af60dae9-1e55-db73-1bb4-cdedcbb21bc6
 description: "This member is a placeholder and is not supported."
- 
- 
 ---
 
 # IFreeBusyData::Placeholder3

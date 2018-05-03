@@ -1,13 +1,15 @@
 ---
 title: "IOlkAccountGetProp"
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
+ms.topic: reference
+ 
 localization_priority: Normal
 ms.assetid: 5725eb52-3a78-897d-f9e3-c5a494fb78c0
 description: "Gets the value of the specified account property."
- 
- 
 ---
 
 # IOlkAccount::GetProp

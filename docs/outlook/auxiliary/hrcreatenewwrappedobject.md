@@ -1,13 +1,15 @@
 ---
 title: "HrCreateNewWrappedObject"
+ 
+ 
 manager: soliver
 ms.date: 12/7/2015
 ms.audience: Developer
+ms.topic: overview
+ 
 localization_priority: Normal
 ms.assetid: 780ade1c-88d0-04d2-ba7e-251c19c43438
 description: "Creates an object that a client can access in a preferred character format."
- 
- 
 ---
 
 # HrCreateNewWrappedObject

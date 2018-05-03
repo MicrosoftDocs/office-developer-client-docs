@@ -1,5 +1,7 @@
 ---
 title: "ISocialSession  IUnknown"
+ms.author: soliver
+author: soliver
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -8,8 +10,6 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0fe423d7-b044-479b-89ad-c39620eedd65
 description: "Represents a connection to a social network site."
- 
- 
 ---
 
 # ISocialSession : IUnknown

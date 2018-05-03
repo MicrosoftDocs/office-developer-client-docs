@@ -1,13 +1,15 @@
 ---
 title: "About conflict resolution for custom item types"
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
+ms.topic: overview
+ 
 localization_priority: Normal
 ms.assetid: 3f0853fc-f9f2-4314-ac55-47fe1e52d019
 description: "This topic describes how to resolve conflicts for custom item types that you create in Outlook."
- 
- 
 ---
 
 # About conflict resolution for custom item types

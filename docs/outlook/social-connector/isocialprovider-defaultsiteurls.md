@@ -1,5 +1,7 @@
 ---
 title: "ISocialProviderDefaultSiteUrls"
+ms.author: soliver
+author: soliver
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,8 +10,6 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 322ea2e9-d6c9-48f9-a927-7162346d16a4
 description: "Returns an array of strings that specify site URLs for the Outlook Social Connector (OSC) provider."
- 
- 
 ---
 
 # ISocialProvider::DefaultSiteUrls

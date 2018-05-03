@@ -1,13 +1,15 @@
 ---
 title: "HrProcessConvActionForSentItem"
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
+ms.topic: overview
+ 
 localization_priority: Normal
 ms.assetid: 08121e33-7820-4a31-b6da-06a4a54ec43f
 description: "Performs post-send categorization on a mail item based on its PidTagConversationId."
- 
- 
 ---
 
 # HrProcessConvActionForSentItem

@@ -1,13 +1,15 @@
 ---
 title: "XML for Activities"
+ms.author: soliver
+author: soliver
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
+ms.topic: overview
+ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: acc4a555-a3bf-4a79-86dc-aba6477733b8
 description: "This topic contains an example scenario that shows the Outlook Social Connector (OSC) provider extensibility API calls that an OSC provider implements and the OSC makes to obtain activities information. Information is expressed in XML strings that conform to the OSC provider XML schema."
- 
- 
 ---
 
 # XML for Activities

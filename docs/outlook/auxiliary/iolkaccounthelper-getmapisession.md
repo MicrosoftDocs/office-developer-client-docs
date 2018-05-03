@@ -1,13 +1,15 @@
 ---
 title: "IOlkAccountHelperGetMapiSession"
+ 
+ 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
+ms.topic: reference
+ 
 localization_priority: Normal
 ms.assetid: a431787c-6e9a-9be1-165f-98c778d12e3e
 description: "Opens a MAPI session and maintains a reference to the session for the account manager."
- 
- 
 ---
 
 # IOlkAccountHelper::GetMapiSession

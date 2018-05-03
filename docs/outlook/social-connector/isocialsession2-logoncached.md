@@ -1,5 +1,7 @@
 ---
 title: "ISocialSession2LogonCached"
+ms.author: soliver
+author: soliver
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,8 +10,6 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8cac444b-0e81-44ff-a7a0-87793b533e26
 description: "Logs on to the social network site by using cached credentials."
- 
- 
 ---
 
 # ISocialSession2::LogonCached

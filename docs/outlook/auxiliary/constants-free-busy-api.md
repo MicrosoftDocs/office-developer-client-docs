@@ -1,13 +1,15 @@
 ---
 title: "Constants (Free/busy API)"
+ 
+ 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
+ms.topic: overview
+ 
 localization_priority: Normal
 ms.assetid: ff756bf1-9395-5e50-4f55-1eb0365a84ed
 description: "This topic contains constant definitions, class identifiers, and interface identifiers for the Free/Busy API."
- 
- 
 ---
 
 # Constants (Free/busy API)

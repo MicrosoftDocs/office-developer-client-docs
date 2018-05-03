@@ -1,5 +1,7 @@
 ---
 title: "ISocialProviderSocialNetworkIcon"
+ms.author: soliver
+author: soliver
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,8 +10,6 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8b51675f-77b7-4df0-8496-b1e8958c6544
 description: "Returns an array of bytes that represents the icon for the social network."
- 
- 
 ---
 
 # ISocialProvider::SocialNetworkIcon

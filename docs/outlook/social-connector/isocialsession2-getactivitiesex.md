@@ -1,5 +1,7 @@
 ---
 title: "ISocialSession2GetActivitiesEx"
+ms.author: soliver
+author: soliver
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,8 +10,6 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: bfe30c22-017b-42e0-93be-c85d674c07e3
 description: "Gets a string that represents a collection of activities of each of the users specified by the hashedAddresses parameter."
- 
- 
 ---
 
 # ISocialSession2::GetActivitiesEx
@@ -36,7 +36,7 @@ HRESULT _stdcall GetActivitiesEx([in] SAFEARRAY(BSTR) hashedAddresses, [in] DATE
     
 ## Remarks
 
-The OSC calls **GetActivitiesEx** if the OSC provider supports on-demand synchronization of activities. The OSC stores the information returned in  _activities_ in memory. For more information about how the OSC uses and updates this information in memory, see [Synchronizing Friends and Activities](../../outlook-social-connector-provider-reference/developing-a-provider-with-the-osc-xml-schema/synchronizing-friends-and-activities.md).
+The OSC calls **GetActivitiesEx** if the OSC provider supports on-demand synchronization of activities. The OSC stores the information returned in  _activities_ in memory. For more information about how the OSC uses and updates this information in memory, see [Synchronizing Friends and Activities](synchronizing-friends-and-activities.md).
   
 Starting in Outlook Social Connector 2013, the OSC supports only on-demand synchronization of activities and calls only **GetActivitiesEx** to get activities. To support on-demand activities lookup, set **cacheActivities** as **false**, and **getActivities** and **dynamicActivitiesLookupEx** as **true**, and the OSC will call **GetActivitiesEx**.
   
@@ -55,5 +55,5 @@ Activities that the **GetActivitiesEx** method returns must have a creation time
 [ISocialSession2 : IUnknown](isocialsession2iunknown.md)
 #### Concepts
 
-[Synchronizing Friends and Activities](../../outlook-social-connector-provider-reference/developing-a-provider-with-the-osc-xml-schema/synchronizing-friends-and-activities.md)
+[Synchronizing Friends and Activities](synchronizing-friends-and-activities.md)
 

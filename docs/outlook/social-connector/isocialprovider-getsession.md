@@ -1,5 +1,7 @@
 ---
 title: "ISocialProviderGetSession"
+ms.author: soliver
+author: soliver
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,8 +10,6 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 371b48c5-6d77-4d2d-890c-bb234c7eaabc
 description: "Gets an ISocialSession interface."
- 
- 
 ---
 
 # ISocialProvider::GetSession

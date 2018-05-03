@@ -1,5 +1,7 @@
 ---
 title: "ISocialSession2FollowPersonEx"
+ms.author: soliver
+author: soliver
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,8 +10,6 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 17b4af7f-7967-422b-996c-792705c93ad3
 description: "Adds the person identified by the emailAddresses and displayName parameters as a friend for the logged-on user on the social network."
- 
- 
 ---
 
 # ISocialSession2::FollowPersonEx

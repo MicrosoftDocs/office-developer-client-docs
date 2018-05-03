@@ -1,13 +1,15 @@
 ---
 title: "FBBlock_1"
+ 
+ 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
+ms.topic: overview
+ 
 localization_priority: Normal
 ms.assetid: da67171d-d25f-3424-1409-33189ac63a12
 description: "Defines a free/busy block of data. This is an item on a calendar represented by an appointment or meeting request."
- 
- 
 ---
 
 # FBBlock_1

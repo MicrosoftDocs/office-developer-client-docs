@@ -1,5 +1,7 @@
 ---
 title: "ISocialSessionLogonWeb"
+ms.author: soliver
+author: soliver
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,8 +10,6 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f4217030-5fd1-4ec4-a83f-752717fbb787
 description: "Logs on to the social network site by using forms-based authentication."
- 
- 
 ---
 
 # ISocialSession::LogonWeb
@@ -61,5 +61,5 @@ For information about error codes, see [Outlook Social Connector Provider Error 
 [ISocialSession : IUnknown](isocialsessioniunknown.md)
 #### Concepts
 
-[Forms-Based Authentication](../../outlook-social-connector-provider-reference/osc-typical-calling-sequences/forms-based-authentication.md)
+[Forms-Based Authentication](forms-based-authentication.md)
 

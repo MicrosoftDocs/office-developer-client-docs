@@ -1,5 +1,7 @@
 ---
 title: "ISocialPersonGetPicture"
+ms.author: soliver
+author: soliver
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,8 +10,6 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 02fcaf25-42b5-4584-95c6-d44a3d035128
 description: "Gets an array of bytes that contains the picture resource for the person."
- 
- 
 ---
 
 # ISocialPerson::GetPicture
