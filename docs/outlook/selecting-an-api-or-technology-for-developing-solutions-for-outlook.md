@@ -159,7 +159,7 @@ The following tables show evaluation criteria for the Outlook object model and P
 |Setup permissions  <br/> |No special permissions are required to install applications that use the Outlook object model or PIA. However, local administrator rights are required to install Office and Outlook.  <br/> |
 |Run-time permissions  <br/> |No special permissions are required to run applications that use the Outlook object model or PIA.  <br/> |
 |Built-in security features  <br/> |The Outlook object model and PIA communicate with Exchange by using MAPI and with Active Directory by using Active Directory Service Interfaces (ADSI). The current security context of the user who is running the application is used to determine what resources that code can access. By default, add-ins are trusted for full access to all objects, properties, and methods in the Outlook object model or PIA. IT administrators can exercise control over which add-ins and objects can access the Outlook object model or PIA. The Outlook object model and PIA prevent code that is run outside the Outlook process from accessing secure objects and methods.  <br/> |
-|Security monitoring features  <br/> | Outlook monitors the following metrics of an add-in to determine whether it should disable the add-in:  <br/>  Startup  <br/>  Shutdown  <br/>  Folder switch  <br/>  Item open  <br/> **Invoke** frequency  <br/>  Administrators can use group policy to override user settings and control the add-ins that run on the user's computers.  <br/>  For more information, see [Performance criteria for keeping add-ins enabled](new-in-outlook-for-developers.md#ol15WhatsNew_AddinDisabling).  <br/> |
+|Security monitoring features  <br/> | Outlook monitors the following metrics of an add-in to determine whether it should disable the add-in:  <br/>  Startup  <br/>  Shutdown  <br/>  Folder switch  <br/>  Item open  <br/> **Invoke** frequency  <br/>  Administrators can use group policy to override user settings and control the add-ins that run on the user's computers.  <br/>  For more information, see [Performance criteria for keeping add-ins enabled](https://msdn.microsoft.com/en-us/library/office/4c6d44d2-238b-42d8-896b-51d513c9e14c#ol15WhatsNew_AddinDisabling).  <br/> |
    
 #### Deployment criteria
 
@@ -420,7 +420,7 @@ For more information about the auxiliary APIs, see the [Additional resources—A
 > [!NOTE]
 > The discussion of automating Outlook in this section and the next is outside the scope of Office Add-ins, which are intended to extend the functionality of the Office client or web application but not to automate it. 
   
-Outlook supports automation by using add-ins that run in the same foreground process as the Outlook process, and by standalone solutions that run in their own separate process outside of the Outlook process. Generally, to automate Outlook, use an add-in to interact with Outlook through the object model, PIA, or MAPI, and in less common scenarios, through an auxiliary API (such as [HrProcessConvActionForSentItem](hrprocessconvactionforsentitem.md)). Use an out-of-process solution only when it's necessary (for example, when you're writing a MAPI client application that uses the Tzmovelib.dll file to rebase Outlook calendars for customers, or enumerating numerous items in a folder and modifying the items' properties in a background thread to optimize performance). 
+Outlook supports automation by using add-ins that run in the same foreground process as the Outlook process, and by standalone solutions that run in their own separate process outside of the Outlook process. Generally, to automate Outlook, use an add-in to interact with Outlook through the object model, PIA, or MAPI, and in less common scenarios, through an auxiliary API (such as [HrProcessConvActionForSentItem](auxiliary/hrprocessconvactionforsentitem.md)). Use an out-of-process solution only when it's necessary (for example, when you're writing a MAPI client application that uses the Tzmovelib.dll file to rebase Outlook calendars for customers, or enumerating numerous items in a folder and modifying the items' properties in a background thread to optimize performance). 
   
 Add-ins are the preferred solution to automate Outlook, because Outlook trusts only the [Application](http://msdn.microsoft.com/library/797003e7-ecd1-eccb-eaaf-32d6ddde8348%28Office.15%29.aspx) object passed to the add-in during the [OnConnection(Object, ext_ConnectMode, Object, Array)](https://msdn.microsoft.com/library/Extensibility.IDTExtensibility2.OnConnection.aspx) event of the add-in. You can avoid the display of security warnings of the Object Model Guard by deriving all objects, properties, and methods from this **Application** object. If the add-in creates a new instance of the **Application** object, Outlook does not trust that object, even if the add-in is on the list of trusted add-ins. Any objects, properties, and methods derived from such an **Application** object will not be trusted and the blocked properties and methods will invoke security warnings. For more information about the Outlook Object Model Guard, see [Security Behavior of the Outlook Object Model](http://msdn.microsoft.com/library/4aa3b7c7-5f3f-41ce-bbf3-75d8ecbd6d4f%28Office.15%29.aspx).
   
@@ -829,33 +829,33 @@ The following resources provide more information about the Outlook auxiliary API
   
 ### Account management
 
-- [About the Account Management API](about-the-account-management-api.md)
+- [About the Account Management API](auxiliary/about-the-account-management-api.md)
     
-- [Account management API reference](account-management-api-reference.md)
+- [Account management API reference](auxiliary/account-management-api-reference.md)
     
-- [About anti-spam settings](about-anti-spam-settings.md)
+- [About anti-spam settings](auxiliary/about-anti-spam-settings.md)
     
 ### Categorizing items
 
-- [HrProcessConvActionForSentItem](hrprocessconvactionforsentitem.md)
+- [HrProcessConvActionForSentItem](auxiliary/hrprocessconvactionforsentitem.md)
     
 ### Contact pictures
 
-- [How to: Specify whether to display a contact's picture in Outlook (Outlook Auxiliary Reference)](how-to-specify-whether-to-display-a-contact-s-picture-in-outlook-outlook-auxilia.md)
+- [How to: Specify whether to display a contact's picture in Outlook (Outlook Auxiliary Reference)](auxiliary/how-to-specify-whether-to-display-a-contact-s-picture-in-outlook-outlook-auxilia.md)
     
 ### Data degradation
 
-- [About the Data Degradation Layer API](about-the-data-degradation-layer-api.md)
+- [About the Data Degradation Layer API](auxiliary/about-the-data-degradation-layer-api.md)
     
-- [Data degradation layer API reference](data-degradation-layer-api-reference.md)
+- [Data degradation layer API reference](auxiliary/data-degradation-layer-api-reference.md)
     
 ### Free/busy status
 
-- [About the Free/Busy API](about-the-free-busy-api.md)
+- [About the Free/Busy API](auxiliary/about-the-free-busy-api.md)
     
-- [How to: Use relative time to access free/busy data](how-to-use-relative-time-to-access-free-busy-data.md)
+- [How to: Use relative time to access free/busy data](auxiliary/how-to-use-relative-time-to-access-free-busy-data.md)
     
-- [Free/busy API reference](free-busy-api-reference.md)
+- [Free/busy API reference](auxiliary/free-busy-api-reference.md)
     
 ### Item currency
 
@@ -863,15 +863,15 @@ The following resources provide more information about the Outlook auxiliary API
     
 ### Rebase calendars
 
-- [About rebasing calendars programmatically for Daylight Saving Time](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
+- [About rebasing calendars programmatically for Daylight Saving Time](auxiliary/about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
     
-- [About persisting TZDEFINITION to a stream to commit to a binary property](about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property.md)
+- [About persisting TZDEFINITION to a stream to commit to a binary property](auxiliary/about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property.md)
     
-- [How to: Parse a stream from a binary property to read the TZDEFINITION structure](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzdefinition-structure.md)
+- [How to: Parse a stream from a binary property to read the TZDEFINITION structure](auxiliary/how-to-parse-a-stream-from-a-binary-property-to-read-the-tzdefinition-structure.md)
     
-- [How to: Parse a stream from a binary property to read the TZREG structure](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md)
+- [How to: Parse a stream from a binary property to read the TZREG structure](auxiliary/how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md)
     
-- [How to: Read time zone properties from an appointment](how-to-read-time-zone-properties-from-an-appointment.md)
+- [How to: Read time zone properties from an appointment](auxiliary/how-to-read-time-zone-properties-from-an-appointment.md)
     
 ## Additional resources—primary references, resources, and code samples
 <a name="OLSelectAPI_AdditionalResourcesRefCode"> </a>
@@ -888,15 +888,15 @@ The following resources provide more information about the primary Outlook refer
     
 - [Outlook MAPI Reference](http://msdn.microsoft.com/library/3d980b86-7001-4869-9780-121c6bfc7275%28Office.15%29.aspx)
     
-- [Outlook 2013 Auxiliary Reference](welcome-to-the-outlook-auxiliary-reference.md)
+- [Outlook 2013 Auxiliary Reference](auxiliary/welcome-to-the-outlook-auxiliary-reference.md)
     
-- [Outlook Social Connector provider reference](outlook-social-connector-provider-reference.md)
+- [Outlook Social Connector provider reference](social-connector/outlook-social-connector-provider-reference.md)
     
-- [Extending the Weather Bar in Outlook](extending-the-weather-bar-in-outlook.md)
+- [Extending the Weather Bar in Outlook](weather/extending-the-weather-bar-in-outlook.md)
     
-- [Outlook Weather Information XML Schema](outlook-weather-information-xml-schema.md)
+- [Outlook Weather Information XML Schema](weather/outlook-weather-information-xml-schema.md)
     
-- [Outlook Weather Location XML Schema](outlook-weather-location-xml-schema.md)
+- [Outlook Weather Location XML Schema](weather/outlook-weather-location-xml-schema.md)
     
 - [What's New in XML Schemas for Outlook 2010](http://msdn.microsoft.com/library/52f91e6f-a774-488c-8e55-111ae8f68f8a%28Office.15%29.aspx)
     
@@ -914,6 +914,6 @@ The following resources provide more information about the primary Outlook refer
     
 - [MAPI Samples](http://msdn.microsoft.com/library/641659f2-3c0a-43af-96f1-2521b4b06680%28Office.15%29.aspx)
     
-- Auxiliary API code samples: [Sample tasks](sample-tasks.md)
+- Auxiliary API code samples: [Sample tasks](auxiliary/sample-tasks.md)
     
 
