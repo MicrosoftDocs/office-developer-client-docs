@@ -1,7 +1,5 @@
 ---
 title: "Outlook Social Connector Provider Reference"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,6 +8,8 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 157aed97-1cb9-465d-b7eb-343771cc0cba
 description: "This section contains reference topics for Outlook Social Connector (OSC) provider extensibility."
+ 
+ 
 ---
 
 # Outlook Social Connector Provider Reference

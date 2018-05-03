@@ -1,7 +1,5 @@
 ---
 title: "Outlook Social Connector Provider Interfaces"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -10,6 +8,8 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8f92b2c7-9f47-4c84-874b-fec1a2a5b555
 description: "The Outlook Social Connector (OSC) is an Office feature shared by Office client applications that connects to social and business networks so users can stay in touch with the people in their networks without leaving Office."
+ 
+ 
 ---
 
 # Outlook Social Connector Provider Interfaces

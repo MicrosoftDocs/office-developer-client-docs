@@ -1,7 +1,5 @@
 ---
 title: "ISocialProvider  IUnknown"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -10,6 +8,8 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1c9f4dd4-65f6-446f-8b86-a375ce402658
 description: "Represents an instance of an Outlook Social Connector (OSC) provider."
+ 
+ 
 ---
 
 # ISocialProvider : IUnknown

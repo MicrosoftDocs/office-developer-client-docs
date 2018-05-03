@@ -1,7 +1,5 @@
 ---
 title: "Outlook Social Connector Provider XML Schema"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,6 +8,8 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5a88adf0-9265-4d49-976d-de0d93269aa9
 description: "All XML that is returned by OSC providers in OSC provider extensibility methods must comply with the following OSC provider XML schema. The OSC schema is reproduced here in its entirety. The current schema definition file, OutlookSocialProvider1_1.xsd, is also provided in the download for the provider templates that accompany this article. For more information, see Outlook Social Connector 2013: Provider templates."
+ 
+ 
 ---
 
 # Outlook Social Connector Provider XML Schema

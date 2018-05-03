@@ -1,7 +1,5 @@
 ---
 title: "ISocialSession2  IUnknown"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -10,6 +8,8 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f516e86e-0158-472b-9711-fe7491b24404
 description: "Supports adding friends, on-demand or hybrid synchronization of friends, on-demand synchronization of activities, or logging on to the social network by using cached credentials."
+ 
+ 
 ---
 
 # ISocialSession2 : IUnknown

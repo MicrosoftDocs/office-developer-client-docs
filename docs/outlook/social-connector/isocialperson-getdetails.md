@@ -1,7 +1,5 @@
 ---
 title: "ISocialPersonGetDetails"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,6 +8,8 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9ca3172a-82a3-4483-b0aa-4e848930f6ed
 description: "Gets a string that represents details for the person, such as the first name, last name, and a URL to a profile picture."
+ 
+ 
 ---
 
 # ISocialPerson::GetDetails

@@ -1,7 +1,5 @@
 ---
 title: "ISocialSession2GetActivitiesEx"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,6 +8,8 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: bfe30c22-017b-42e0-93be-c85d674c07e3
 description: "Gets a string that represents a collection of activities of each of the users specified by the hashedAddresses parameter."
+ 
+ 
 ---
 
 # ISocialSession2::GetActivitiesEx

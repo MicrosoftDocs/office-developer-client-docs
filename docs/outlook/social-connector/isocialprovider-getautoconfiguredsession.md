@@ -1,7 +1,5 @@
 ---
 title: "ISocialProviderGetAutoConfiguredSession"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,6 +8,8 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d8d41ced-c2bb-482e-b0bc-1b46c82121bd
 description: "Gets an automatically configured ISocialSession interface."
+ 
+ 
 ---
 
 # ISocialProvider::GetAutoConfiguredSession

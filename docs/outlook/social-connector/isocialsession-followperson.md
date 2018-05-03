@@ -1,7 +1,5 @@
 ---
 title: "ISocialSessionFollowPerson"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,6 +8,8 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: de7f56e2-c131-4955-b945-0a72043e0f5a
 description: "Adds the person identified by the emailAddress parameter as a friend for the logged-on user on the social network."
+ 
+ 
 ---
 
 # ISocialSession::FollowPerson

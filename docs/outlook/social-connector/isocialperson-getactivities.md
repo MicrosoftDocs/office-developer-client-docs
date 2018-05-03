@@ -1,7 +1,5 @@
 ---
 title: "ISocialPersonGetActivities"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,6 +8,8 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: cf727140-f6e7-4718-bd74-1f8feeccf70c
 description: "This method has been deprecated in Outlook Social Connector 2013."
+ 
+ 
 ---
 
 # ISocialPerson::GetActivities

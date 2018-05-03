@@ -1,7 +1,5 @@
 ---
 title: "ISocialSessionFindPerson"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,6 +8,8 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a86cb847-5d49-44b8-b2bc-0e35e70395b4
 description: "Gets a string that represents one or more persons who match the userID parameter."
+ 
+ 
 ---
 
 # ISocialSession::FindPerson

@@ -1,7 +1,5 @@
 ---
 title: "ISocialPersonGetFriendsAndColleagues"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,6 +8,8 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 62d5b815-f199-499e-85eb-2dff21a8216e
 description: "Gets a string that represents a collection of people."
+ 
+ 
 ---
 
 # ISocialPerson::GetFriendsAndColleagues

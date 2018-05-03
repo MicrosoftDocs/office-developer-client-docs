@@ -1,7 +1,5 @@
 ---
 title: "ISocialSessionLogon"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,6 +8,8 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8b3c9a23-6378-4054-ad1c-193fc15c473c
 description: "Logs on to the social network site by using the specified user name and password."
+ 
+ 
 ---
 
 # ISocialSession::Logon
