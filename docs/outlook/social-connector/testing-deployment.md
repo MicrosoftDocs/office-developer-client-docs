@@ -1,7 +1,7 @@
 ---
 title: "Testing Deployment"
-ms.author: soliver
-author: soliver
+ms.author: null
+author: null
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer

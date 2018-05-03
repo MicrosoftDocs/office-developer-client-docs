@@ -1,7 +1,7 @@
 ---
 title: "Registering a Provider"
-ms.author: soliver
-author: soliver
+ms.author: null
+author: null
 manager: soliver
 ms.date: 3/5/2015
 ms.audience: Developer

@@ -1,7 +1,7 @@
 ---
 title: "Downloading the Samples"
-ms.author: soliver
-author: soliver
+ms.author: null
+author: null
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer

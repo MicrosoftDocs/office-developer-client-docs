@@ -1,7 +1,7 @@
 ---
 title: "How to Specify whether to display a contact's picture in Outlook (Outlook Auxiliary Reference)"
-ms.author: krowley
-author: kccross
+ms.author: null
+author: null
 manager: soliver
 ms.date: 12/7/2015
 ms.audience: Developer

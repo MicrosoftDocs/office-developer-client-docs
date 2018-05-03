@@ -1,7 +1,7 @@
 ---
 title: "Testing Capabilities, Authentication, and Configuration"
-ms.author: soliver
-author: soliver
+ms.author: null
+author: null
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -9,7 +9,6 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 69e1f5bc-354c-4c33-84a1-b1aa10d4b650
-
 description: "This topic describes tests for getting capabilities, and scenarios around configuring an account and authenticating a user for a social network."
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "code similar to the code sample in this topic to achieve the same in your managed Outlook solution.'"
-ms.author: mroberts
-author: mroberts
+ms.author: null
+author: null
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
