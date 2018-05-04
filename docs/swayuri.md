@@ -8,12 +8,12 @@ localization_priority: Normal
 ms.assetid: 11daa75b-87fc-4e63-8e02-09ab9307c8f8
 ---
 
-![Collapse section](../icons/collapse_all.gif "Collapse section")
-![Expand section](../icons/expand_all.gif "Expand section")
-![](../icons/collapse_all.gif) ![](../icons/expand_all.gif)
-![](../icons/dropdown.gif) ![](../icons/dropdownHover.gif) ![Copy
-code](../icons/copycode.gif "Copy code") ![Copy code
-hover](../icons/copycodeHighlight.gif "Copy code hover")
+![Collapse section](media/collapse_all.gif "Collapse section")
+![Expand section](media/expand_all.gif "Expand section")
+![](media/collapse_all.gif) ![](media/expand_all.gif)
+![](media/dropdown.gif) ![](media/dropdownHover.gif) ![Copy
+code](media/copycode.gif "Copy code") ![Copy code
+hover](media/copycodeHighlight.gif "Copy code hover")
 <table>
 <tbody>
 <tr class="odd">
@@ -65,7 +65,7 @@ Visual Basic
 
 {insert body text}
 
-![Footer](../icons/footer.gif "Footer")
+![Footer](media/footer.gif "Footer")
 
 [© 2013 Microsoft Corporation. All rights
 reserved.](office-2013-documentation-copyright-notice.htm)
