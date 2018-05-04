@@ -1,7 +1,7 @@
 ---
 title: "Outlook Social Connector provider reference"
-ms.author: null
-author: null
+ 
+ 
 manager: soliver
 ms.date: 4/4/2016
 ms.audience: Developer

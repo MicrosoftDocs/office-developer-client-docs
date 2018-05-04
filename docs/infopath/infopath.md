@@ -23,9 +23,9 @@ Find how-to content, technical articles, references, and blog posts for developi
   
  **References**
   
-[Developer reference for form templates with code](infopath-developer-reference-for-form-templates.md)
+[Developer reference for form templates with code](form-templates/infopath-developer-reference-for-form-templates.md)
   
-[Developer reference for external automation](infopath-developer-reference-for-external-automation.md)
+[Developer reference for external automation](external-automation/infopath-developer-reference-for-external-automation.md)
   
  **Community**
   

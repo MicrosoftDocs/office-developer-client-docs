@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
  * **Applies to:** Outlook * 
   
-Determines the state of a document file on a server that implements [[MS-LISTSWS]](30b364cc-3837-4e83-9ce8-1963292e2ee5).
+Determines the state of a document file on a server that implements [MS-LISTSWS].
   
 |||
 |:-----|:-----|

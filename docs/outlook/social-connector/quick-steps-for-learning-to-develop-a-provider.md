@@ -1,7 +1,7 @@
 ---
 title: "Quick Steps for Learning to Develop a Provider"
-ms.author: null
-author: null
+ 
+ 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer

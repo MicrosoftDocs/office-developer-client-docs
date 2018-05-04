@@ -1,7 +1,7 @@
 ---
 title: "XML for Capabilities"
-ms.author: null
-author: null
+ 
+ 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
