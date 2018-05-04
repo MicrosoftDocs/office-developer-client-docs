@@ -5,7 +5,7 @@ title: "Displaying Dialog Boxes from Within a DLL or XLL"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
+ms.topic: overview
 keywords:
 - xlls [excel 2007], displaying dialog boxes from,dialog boxes [Excel 2007], displaying from a DLL or XLL,DLLs [Excel 2007], displaying dialog boxes from
  

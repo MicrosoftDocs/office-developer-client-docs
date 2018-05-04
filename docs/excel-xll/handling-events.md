@@ -5,7 +5,7 @@ title: "Handling Events"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
+ms.topic: overview
  
 localization_priority: Normal
 ms.assetid: b67fcb83-a0e2-4349-88f5-bcc181306eac

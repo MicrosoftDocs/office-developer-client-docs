@@ -5,7 +5,7 @@ title: "Excel Commands, Functions, and States"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
+ms.topic: overview
 keywords:
 - states [excel 2007],commands [Excel 2007],worksheet functions [Excel 2007],macro-sheet functions [Excel 2007],Excel states
  

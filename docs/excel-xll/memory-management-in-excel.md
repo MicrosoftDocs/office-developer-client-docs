@@ -5,7 +5,7 @@ title: "Memory Management in Excel"
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
+ms.topic: overview
 keywords:
 - xloper12 memory [excel 2007],managing memory in Excel,Excel stack,strings [Excel 2007], managing memory,memory management in Excel,XLOPER memory [Excel 2007],memory [Excel 2007], management guidelines
  

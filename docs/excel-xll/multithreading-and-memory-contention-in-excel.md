@@ -5,7 +5,7 @@ title: "Multithreading and Memory Contention in Excel"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
+ms.topic: reference
 keywords:
 - multithreading in excel,memory contention in Excel,functions [Excel 2007], thread-safe,thread-safe functions [Excel 2007],thread-local memory [Excel 2007]
  

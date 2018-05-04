@@ -5,7 +5,7 @@ title: "Calling User-Defined Functions from DLLs"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
+ms.topic: overview
 keywords:
 - udfs [excel 2007], calling from dlls,user-defined functions [Excel 2007], calling from DLLs,DLLs [Excel 2007], calling UDFs
  

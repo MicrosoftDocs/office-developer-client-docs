@@ -5,7 +5,7 @@ title: "Getting Started with the Excel XLL SDK"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
+ms.topic: overview
 keywords:
 - excel 2007 xll software development kit, getting started
  

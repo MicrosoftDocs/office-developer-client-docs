@@ -5,7 +5,7 @@ title: "Data Types Used by Excel"
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
+ms.topic: reference
 keywords:
 - registration data types [excel 2007],Excel data types,strings [Excel 2007],numbers [Excel 2007],data structures [Excel 2007],data types [Excel 2007]
  

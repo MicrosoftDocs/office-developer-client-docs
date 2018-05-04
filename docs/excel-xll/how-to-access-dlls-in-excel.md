@@ -5,7 +5,7 @@ title: "How to Access DLLs in Excel"
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
+ms.topic: overview
 keywords:
 - accessing dlls [excel 2007],DLLs [Excel 2007], accessing in Excel
  

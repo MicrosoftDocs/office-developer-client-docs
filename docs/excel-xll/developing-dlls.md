@@ -5,7 +5,7 @@ title: "Developing DLLs"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
+ms.topic: overview
 keywords:
 - dlls [excel 2007], creating,creating DLLs [Excel 2007]
  

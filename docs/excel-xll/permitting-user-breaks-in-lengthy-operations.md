@@ -5,7 +5,7 @@ title: "Permitting User Breaks in Lengthy Operations"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
+ms.topic: overview
 keywords:
 - xlabort function [excel 2007],concurrent tasks [Excel 2007],user breaks [Excel 2007]
  

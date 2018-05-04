@@ -5,7 +5,7 @@ title: "Known Issues in Excel XLL Development"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
+ms.topic: overview
 keywords:
 - known issues [excel 2007]
  

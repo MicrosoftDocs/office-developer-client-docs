@@ -5,7 +5,7 @@ title: "Developing Excel XLLs"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
+ms.topic: overview
 keywords:
 - add-ins [excel 2007],developing XLLs [Excel 2007],XLLs [Excel 2007], developing
  
