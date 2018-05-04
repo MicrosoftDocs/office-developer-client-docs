@@ -601,10 +601,10 @@
         - name: Tips for optimizing performance obstructions
           href: https://msdn.microsoft.com/en-us/library/office/mt709003.aspx
      - name: Infopath
-       href:
+       href: infopath/infopath.md
        items:
             - name: InfoPath developer reference for form templates
-              href: 
+              href: infopath/form-templates/infopath-developer-reference-for-form-templates.md
               items:
                 - name: Developing InfoPath Form Templates with Code
                   href: infopath/form-templates/developing-infopath-form-templates-with-code.md
@@ -786,7 +786,7 @@
                 - name: Class library reference for InfoPath form templates
                   href: https://msdn.microsoft.com/en-us/library/office/ee526341.aspx
             - name: InfoPath developer reference for external automation
-              href: 
+              href: infopath/external-automation/infopath-developer-reference-for-external-automation.md
               items:
                 - name: Creating InfoPath Projects in Visual Studio
                   href: infopath/external-automation/creating-infopath-projects-in-visual-studio.md

@@ -50,7 +50,7 @@ enum PictureCompressLevel
 
 ### Protocol Specifications
 
-[[MS-OXPROPS]](f6ab1613-aefe-447d-a49c-18217230b148)
+[[MS-OXPROPS]] 
   
 > Provides property set definitions and references to related Exchange Server protocol specifications.
     

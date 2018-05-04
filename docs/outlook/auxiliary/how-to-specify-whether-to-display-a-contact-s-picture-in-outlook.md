@@ -66,5 +66,5 @@ This setting works in conjunction with the  `TurnOffPhotograph` policy key as we
 
 #### Concepts
 
-[How to: Specify whether to display a contact's picture in Outlook (Outlook Auxiliary Reference)](how-to-specify-whether-to-display-a-contact-s-picture-in-outlook-outlook-auxilia.md)
+[How to: Specify whether to display a contact's picture in Outlook (Outlook Auxiliary Reference)](https://msdn.microsoft.com/en-us/library/office/gg262879.aspx)
 

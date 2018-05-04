@@ -50,6 +50,6 @@ Additionally, using the dispatch identifiers, **dispidFDirty** and **dispidShowS
   
 - [How to: Determine whether an Outlook item has been modified but not saved (Outlook Auxiliary Reference)](how-to-determine-whether-an-outlook-item-has-been-modified-but-not-saved-outlook.md)
     
-- [How to: Specify whether to display a contact's picture in Outlook (Outlook Auxiliary Reference)](how-to-specify-whether-to-display-a-contact-s-picture-in-outlook-outlook-auxilia.md)
+- [How to: Specify whether to display a contact's picture in Outlook (Outlook Auxiliary Reference)](https://msdn.microsoft.com/en-us/library/office/gg262879.aspx)
     
 

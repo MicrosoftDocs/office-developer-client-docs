@@ -40,7 +40,7 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
   
  **Other resources
   
-**[Tips for Optimizing Excel Performance Obstructions](tips-for-optimizing-excel-performance-obstructions.md)[Office VBA Object library reference](http://msdn.microsoft.com/library/727c4e1c-e13c-7bac-e833-b1322607dfd3%28Office.15%29.aspx)
+**[Tips for Optimizing Excel Performance Obstructions](https://msdn.microsoft.com/en-us/library/office/mt709003.aspx)[Office VBA Object library reference](http://msdn.microsoft.com/library/727c4e1c-e13c-7bac-e833-b1322607dfd3%28Office.15%29.aspx)
   
 [Office VBA language reference](http://msdn.microsoft.com/library/9c1e8386-0309-c52c-856b-963220382eb8%28Office.15%29.aspx)
   

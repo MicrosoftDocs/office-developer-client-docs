@@ -33,7 +33,7 @@ Indicates the original sender of the message for messages that request receipts.
 
 ### Protocol Specifications
 
-[[MS-OXPROPS]](f6ab1613-aefe-447d-a49c-18217230b148)
+[[MS-OXPROPS]] 
   
 > Provides references to related Exchange Server protocol specifications.
     

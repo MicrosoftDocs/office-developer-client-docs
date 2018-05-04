@@ -40,7 +40,7 @@ This documentation contains the following information:
     
 - [Document Conventions](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
     
-- [OneNote Developer Reference Copyright Information](onenote-developer-reference-copyright-information.md)
+- [OneNote Developer Reference Copyright Information](https://msdn.microsoft.com/en-us/library/office/jj680116.aspx)
     
 - [Microsoft Online Privacy Notice](http://privacy.microsoft.com/en-us/default.mspx)
     

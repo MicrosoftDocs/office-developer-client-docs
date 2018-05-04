@@ -16,7 +16,7 @@ description: "The Outlook Auxiliary Reference contains conceptual content and re
 
 The Outlook Auxiliary Reference contains conceptual content and reference documentation for four sets of APIs, code samples, and a redistributable installer that allow developers to extend and integrate with Outlook. APIs in this reference are exposed by Outlook for extensibility, outside of the Outlook object model. 
   
-If you are new to developing solutions for Outlook, see [Selecting an API or technology for developing solutions for Outlook](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md) to identify the APIs and technologies that are most appropriate for your needs. For specific information about the Outlook object model, see the [Outlook VBA reference](http://msdn.microsoft.com/library/75e4ad96-62a2-49d2-bc51-48ceab50634c%28Office.15%29.aspx). For specific information on Messaging API (MAPI) supported by Outlook, see the [Outlook MAPI Reference](http://msdn.microsoft.com/library/3d980b86-7001-4869-9780-121c6bfc7275%28Office.15%29.aspx).
+If you are new to developing solutions for Outlook, see [Selecting an API or technology for developing solutions for Outlook](../selecting-an-api-or-technology-for-developing-solutions-for-outlook.md) to identify the APIs and technologies that are most appropriate for your needs. For specific information about the Outlook object model, see the [Outlook VBA reference](http://msdn.microsoft.com/library/75e4ad96-62a2-49d2-bc51-48ceab50634c%28Office.15%29.aspx). For specific information on Messaging API (MAPI) supported by Outlook, see the [Outlook MAPI Reference](http://msdn.microsoft.com/library/3d980b86-7001-4869-9780-121c6bfc7275%28Office.15%29.aspx).
   
 The conceptual discussion includes the following subjects:
   
@@ -60,7 +60,7 @@ The reference content includes the following:
     
   - [How to: Read time zone properties from an appointment](how-to-read-time-zone-properties-from-an-appointment.md)
     
-  - [How to: Specify whether to display a contact's picture in Outlook (Outlook Auxiliary Reference)](how-to-specify-whether-to-display-a-contact-s-picture-in-outlook-outlook-auxilia.md)
+  - [How to: Specify whether to display a contact's picture in Outlook (Outlook Auxiliary Reference)](https://msdn.microsoft.com/en-us/library/office/gg262879.aspx)
     
   - [How to: Use relative time to access free/busy data](how-to-use-relative-time-to-access-free-busy-data.md)
     
