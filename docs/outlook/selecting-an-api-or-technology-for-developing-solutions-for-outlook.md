@@ -841,7 +841,7 @@ The following resources provide more information about the Outlook auxiliary API
     
 ### Contact pictures
 
-- [How to: Specify whether to display a contact's picture in Outlook (Outlook Auxiliary Reference)](auxiliary/how-to-specify-whether-to-display-a-contact-s-picture-in-outlook-outlook-auxilia.md)
+- [How to: Specify whether to display a contact's picture in Outlook (Outlook Auxiliary Reference)](https://msdn.microsoft.com/en-us/library/office/gg262879.aspx)
     
 ### Data degradation
 
@@ -859,7 +859,7 @@ The following resources provide more information about the Outlook auxiliary API
     
 ### Item currency
 
-- [How to: Determine whether an Outlook item has been modified but not saved (Outlook Auxiliary Reference)](how-to-determine-whether-an-outlook-item-has-been-modified-but-not-saved-outlook.md)
+- [How to: Determine whether an Outlook item has been modified but not saved (Outlook Auxiliary Reference)](auxiliary/how-to-determine-whether-an-outlook-item-has-been-modified-but-not-saved-outlook.md)
     
 ### Rebase calendars
 

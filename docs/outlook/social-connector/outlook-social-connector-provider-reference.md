@@ -20,7 +20,7 @@ A social network can develop a provider for the OSC to synchronize and surface s
   
 The Outlook Social Connector 2013 Provider Reference describes how to develop an OSC provider using OSC provider extensibility. 
   
-If you are new to developing solutions for Outlook, see [Selecting an API or technology for developing solutions for Outlook](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md) to identify the APIs and technologies that are most appropriate for your needs. 
+If you are new to developing solutions for Outlook, see [Selecting an API or technology for developing solutions for Outlook](../selecting-an-api-or-technology-for-developing-solutions-for-outlook.md) to identify the APIs and technologies that are most appropriate for your needs. 
   
 ## In This Section
 

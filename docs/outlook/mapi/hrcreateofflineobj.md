@@ -52,7 +52,7 @@ IMAPIOfflineMgr** ppOffline
 
 None.
   
-[HrOpenOfflineObj](HV10237188)
+HrOpenOfflineObj
   
 ## Example
 

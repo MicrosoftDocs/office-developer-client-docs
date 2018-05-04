@@ -35,7 +35,7 @@ Because the default MAPI client supports on-demand installation using the Window
 > [!NOTE]
 > This information about explicit linking may be superfluous to your needs with the introduction of the MAPIStubLibrary.lib discussed in the following section. Like the implicit model, the new library manages everything and implements the explicit linking logic that loads Outlook's MAPI directly. 
   
-For more information about explicit linking, see [Linking Explicitly](1e13d960-a195-4e6d-9864-7d8f3a701f4b).
+For more information about explicit linking, see Linking Explicitly.
   
 ### To call MAPI API elements without the MAPI library and the Windows MAPI stub
 
@@ -60,14 +60,15 @@ For more information about explicit linking, see [Linking Explicitly](1e13d960-a
    
 2. Call the [FGetComponentPath](fgetcomponentpath.md) function to get the path and DLL name that implements the MAPI subsystem. For more information, see [How to: Choose a Specific Version of MAPI to Load](how-to-choose-a-specific-version-of-mapi-to-load.md).
     
-3. Load the DLL by calling the [LoadLibrary](d936b4dd-058c-48e1-834b-b47ef6d8ef65) function. 
+3. Load the DLL by calling the LoadLibrary function. 
     
-4. Initialize the MAPI function pointer array by calling the [GetProcAddress](a0d7fc09-f888-4f46-a571-d3719a627597) function. 
+4. Initialize the MAPI function pointer array by calling the GetProcAddress function. 
     
     The following example shows the previous steps:
     
   ```
   void InitializeMapiFunctions()
+  {
   {
       // Get the DLL path and name of the actual MAPI implementation.
       FGetComponentPath(g_szMapiComponentGUID, NULL, szMAPIDLL, MAX_PATH);
