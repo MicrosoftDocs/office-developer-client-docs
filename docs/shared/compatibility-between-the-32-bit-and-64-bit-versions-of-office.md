@@ -268,6 +268,6 @@ You should use these functions to retrieve pointers to strings, variables and ob
 ## Additional Resources
 <a name="odc_office_Compatibility32bit64bit_AdditionalResources"> </a>
 
-- [Anatomy of a Declare Statement](http://msdn.microsoft.com/library/deovrAnatomyOfDeclareStatement.aspx)
+- [Anatomy of a Declare Statement](https://msdn.microsoft.com/en-us/library/office/aa671659.aspx)
     
 
