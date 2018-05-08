@@ -6205,7 +6205,7 @@
         - name: PowerPoint VBA reference
           href: https://msdn.microsoft.com/en-us/library/office/ee861525.aspx
      - name: Project
-       href: project.md
+       href: project/project.md
        items:
            - name: Project VBA reference
              href: https://msdn.microsoft.com/en-us/library/office/ee861523.aspx
