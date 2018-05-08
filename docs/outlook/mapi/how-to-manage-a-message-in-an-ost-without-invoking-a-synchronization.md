@@ -66,7 +66,7 @@ If the **OpenEntry** method returns the **MAPI_E_INTERFACE_NOT_SUPPORTED** error
 
 [About MAPI Additions](about-mapi-additions.md)
   
-[How to: Access a Store on the Remote Server When Outlook is in Cached Exchange Mode](how-to-access-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mo.md)
+[How to: Access a Store on the Remote Server When Outlook is in Cached Exchange Mode](how-to-access-a-store-on-remote-server-when-outlook-is-in-cached-exchange-mode.md)
   
 [How to: Open a Store on the Remote Server When Outlook is in Cached Exchange Mode](how-to-open-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode.md)
 

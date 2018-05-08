@@ -20,7 +20,7 @@ This section contains tips for solving common problems that you might encounter 
   
 ## In this section
 
-[Troubleshooting Form Templates That Use the InfoPath 2003 Object Model at Run Time](troubleshooting-form-templates-that-use-the-infopath-2003-object-model-at-run-ti.md)
+[Troubleshooting Form Templates That Use the InfoPath 2003 Object Model at Run Time](troubleshooting-form-templates-that-use-infopath-2003-object-model-at-runtime.md)
   
 > Describes troubleshooting issues that might arise while you are building and previewing InfoPath managed code form templates that use the InfoPath 2003-compatible object model.
     

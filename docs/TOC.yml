@@ -28,7 +28,7 @@
        - name: Integrating IM applications with Office
          href: shared/integrating-im-applications-with-office.md
        - name: Manageability applications and the Office 365 click-to-run installer
-         href: shared/integrating-manageability-applications-with-the-office-365-click-to-run-installe.md
+         href: shared/manageability-applications-with-the-office-365-click-to-run-installer.md
        - name: Office telemetry log
          href: shared/office-telemetry-log.md
          items:
@@ -737,7 +737,7 @@
                     - name: Common Tasks for Developing Form Templates Using the InfoPath 2003 Object Model
                       href: infopath/form-templates/common-tasks-for-developing-form-templates-using-the-infopath-2003-object-model.md
                     - name: 'How to: Use Microsoft.Office.Interop.InfoPath.SemiTrust Members That Are Not Compatible with InfoPath 2003'
-                      href: infopath/form-templates/how-to-use-microsoft-office-interop-infopath-semitrust-members-that-are-not-comp.md
+                      href: infopath/form-templates/how-to-use-microsoft-office-interop-infopath-semitrust-members.md
                   - name: Creating Form Templates Using the InfoPath 2003 Object Model
                     href: infopath/form-templates/creating-form-templates-using-the-infopath-2003-object-model.md
                     items:
@@ -780,7 +780,7 @@
                     href: infopath/form-templates/troubleshooting-form-templates-that-use-the-infopath-2003-object-model.md
                     items:
                     - name: Troubleshooting Form Templates That Use the InfoPath 2003 Object Model at Run Time
-                      href: infopath/form-templates/troubleshooting-form-templates-that-use-the-infopath-2003-object-model-at-run-ti.md
+                      href: infopath/form-templates/troubleshooting-form-templates-that-use-infopath-2003-object-model-at-runtime.md
                     - name: Troubleshooting Form Templates That Use the InfoPath 2003 Object Model At Design Time
                       href: infopath/form-templates/troubleshooting-form-templates-that-use-the-infopath-2003-object-model-at-design.md
                 - name: Class library reference for InfoPath form templates
@@ -1625,7 +1625,7 @@
                     - name: Calling MAPI from Windows Services
                       href: outlook/mapi/calling-mapi-from-windows-services.md
                   - name: 'How to: Access a Store on the Remote Server When Outlook is in Cached Exchange Mode'
-                    href: outlook/mapi/how-to-access-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mo.md
+                    href: outlook/mapi/how-to-access-a-store-on-remote-server-when-outlook-is-in-cached-exchange-mode.md
                   - name: 'How to: Create an Outlook profile using MFCMAPI'
                     href: outlook/mapi/how-to-create-an-outlook-profile-using-mfcmapi.md
                   - name: 'How to: Detect the Version of Exchange Server in an Outlook Profile'
@@ -1637,7 +1637,7 @@
                   - name: 'How to: Get the Path of a Specific Version of MAPI for the Default Mail Client'
                     href: outlook/mapi/how-to-get-the-path-of-a-specific-version-of-mapi-for-the-default-mail-client.md
                   - name: 'How to: Manage a Message in an OST Without Invoking a Synchronization in Cached Exchange Mode'
-                    href: outlook/mapi/how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization-in-cached-e.md
+                    href: outlook/mapi/how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md
                   - name: 'How to: Obtain a Contact Message Given a Contacts Address Book Entry'
                     href: outlook/mapi/how-to-obtain-a-contact-message-given-a-contacts-address-book-entry.md
                   - name: 'How to: Access a Message on an IMAP Store Without Downloading the Entire Message'
@@ -1651,7 +1651,7 @@
                   - name: 'How to: Remove Custom Form Definition Saved With a Message'
                     href: outlook/mapi/how-to-remove-custom-form-definition-saved-with-a-message.md
                   - name: 'How to: Retrieve the Body of a Message in Compressed RTF and Convert It to Its Native Format'
-                    href: outlook/mapi/how-to-retrieve-the-body-of-a-message-in-compressed-rtf-and-convert-it-to-its-na.md
+                    href: outlook/mapi/how-to-retrieve-the-body-of-a-message-in-compressed-rtf-and-convert.md
                   - name: 'How to: Use the MAPI Crash Recovery API'
                     href: outlook/mapi/how-to-use-the-mapi-crash-recovery-api.md
                   - name: 'How to: Verify an Attachment is Blocked'

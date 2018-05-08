@@ -32,7 +32,7 @@ This section provides information on how to get started creating managed-code fo
   
 > Helps you quickly find the answers to common questions about developing form templates with business logic that works against the InfoPath 2003-compatible object model.
     
-[How to: Use Microsoft.Office.Interop.InfoPath.SemiTrust Members That Are Not Compatible with InfoPath 2003](how-to-use-microsoft-office-interop-infopath-semitrust-members-that-are-not-comp.md)
+[How to: Use Microsoft.Office.Interop.InfoPath.SemiTrust Members That Are Not Compatible with InfoPath 2003](how-to-use-microsoft-office-interop-infopath-semitrust-members.md)
   
 > Discusses how to work with new object model members that were added to the [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) namespace in Office InfoPath 2007 and InfoPath 2010. 
     
