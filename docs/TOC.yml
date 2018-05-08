@@ -6254,9 +6254,9 @@
                        - name: Create a Project Server workflow for Demand Management
                          href: project/create-a-project-server-workflow-for-demand-management.md
                      - name: Bulk update custom fields and create project sites from a workflow in Project Online
-                       href: project/bulk-update-custom-fields-and-create-project-sites-from-a-workflow-in-project-on.md
+                       href: project/bulk-update-custom-fields-and-create-project-sites-from-a-workflow-in-project.md
                      - name: Work with projects by using the JavaScript object model
-                       href: project/create-retrieve-update-and-delete-projects-by-using-the-project-server-javascrip.md
+                       href: project/create-retrieve-update-and-delete-projects-using-the-project-server-javascript.md
                      - name: Create a SharePoint-hosted Project Server add-in
                        href: project/create-a-sharepoint-hosted-project-server-add-in.md
                      - name: Get the project ID in an add-in part on a Project Details Page
