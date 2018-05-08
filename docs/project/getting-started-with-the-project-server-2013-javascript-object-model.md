@@ -266,7 +266,7 @@ My Application Page
 ## Additional resources
 <a name="pj15_GetStartedJSOM_AR"> </a>
 
-- [Create, retrieve, update, and delete projects by using the Project Server JavaScript object model](create-retrieve-update-and-delete-projects-by-using-the-project-server-javascrip.md)
+- [Create, retrieve, update, and delete projects by using the Project Server JavaScript object model](create-retrieve-update-and-delete-projects-using-the-project-server-javascript.md)
     
 - [Client-side object model (CSOM) for Project 2013](client-side-object-model-csom-for-project-2013.md)
     

@@ -23,9 +23,9 @@ This section includes some "how-to" articles that show how to use the JavaScript
 
 [Getting started developing Project Server workflows](getting-started-developing-project-server-workflows.md)
   
-[Bulk update custom fields and create project sites from a workflow in Project Online](bulk-update-custom-fields-and-create-project-sites-from-a-workflow-in-project-on.md)
+[Bulk update custom fields and create project sites from a workflow in Project Online](bulk-update-custom-fields-and-create-project-sites-from-a-workflow-in-project.md)
   
-[Create, retrieve, update, and delete projects by using the Project Server JavaScript object model](create-retrieve-update-and-delete-projects-by-using-the-project-server-javascrip.md)
+[Create, retrieve, update, and delete projects by using the Project Server JavaScript object model](create-retrieve-update-and-delete-projects-using-the-project-server-javascript.md)
   
 [Create a SharePoint-hosted Project Server add-in](create-a-sharepoint-hosted-project-server-add-in.md) : includes a section on how to modify the Project Web App ribbon 
   
