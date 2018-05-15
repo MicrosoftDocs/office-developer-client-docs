@@ -6210,7 +6210,7 @@
            - name: Project VBA reference
              href: https://msdn.microsoft.com/en-us/library/office/ee861523.aspx
            - name: Developer documentation
-             href: 
+             href: project-2013-developer-documentation.md
              items:
                  - name: Conceptual and how-to articles
                    href: project/project-conceptual-and-how-to-articles.md
