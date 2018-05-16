@@ -196,7 +196,7 @@ Project Server 2013 processes and PSI methods have error code numbers that are g
 
 <a name="pj15_ErrorCodes_ActiveCache"></a>
 
-## Table 4. Active cache error codes
+## Table 4. Active cache
 
 |Active cache error code|Description|
 |:-----|:-----|
@@ -218,7 +218,7 @@ Project Server 2013 processes and PSI methods have error code numbers that are g
 
 <a name="pj15_ErrorCodes_ActiveDirectory"></a>
 
-## Table 5. Active Directory synchronization error codes
+## Table 5. Active Directory synchronization
 
 |Active Directory synchronization error code|Description|
 |:-----|:-----|
@@ -232,9 +232,9 @@ Project Server 2013 processes and PSI methods have error code numbers that are g
 
 <a name="pj15_ErrorCodes_Admin"></a>
 
-## Table 6. Admin web service error codes
+## Table 6. Admin web service
 
-|Admin error code|Description|
+|Admin web service error code|Description|
 |:-----|:-----|
 |AdminViewNameAlreadyExists = 16600  <br/> |The view name already exists. Names must be unique.  <br/> |
 |AdminViewInvalidDividerPosition = 16601  <br/> |The divider position is not valid.  <br/> |
@@ -270,9 +270,9 @@ Project Server 2013 processes and PSI methods have error code numbers that are g
 
 <a name="pj15_ErrorCodes_Archive"></a>
 
-## Table 7. Archive web service error codes
+## Table 7. Archive web service
 
-|Archive (backup and restore) error code|Description|
+|Archive web service (backup and restore) error code|Description|
 |:-----|:-----|
 |ArchiveProjectFailure = 25000  <br/> |The project archive operation failed.  <br/> |
 |ArchiveProjectsFailed = 25001  <br/> |Cannot save any of the projects in the Archive database.  <br/> |
@@ -309,7 +309,7 @@ Project Server 2013 processes and PSI methods have error code numbers that are g
 
 <a name="pj15_ErrorCodes_Assignments"></a>
 
-## Table 8. Assignment error codes
+## Table 8. Assignment
 
 |Assignment error code|Description|
 |:-----|:-----|
@@ -329,7 +329,7 @@ Project Server 2013 processes and PSI methods have error code numbers that are g
 
 <a name="pj15_ErrorCodes_Calendar"></a>
 
-## Table 9. Calendar error codes
+## Table 9. Calendar
 
 |Calendar error code|Description|
 |:-----|:-----|
@@ -370,9 +370,9 @@ Project Server 2013 processes and PSI methods have error code numbers that are g
 
 <a name="pj15_ErrorCodes_CBS"></a>
 
-## Table 10. CubeAdmin and Cube Build Service error codes
+## Table 10. CubeAdmin and Cube Build Service
 
-|Cube Build Service (CBS) error code|Description|
+|CubeAdmin and Cube Build Service (CBS) error code|Description|
 |:-----|:-----|
 |CBSGeneralFailure = 17001  <br/> |Failure in the Cube Build Service (CBS). This is a general error code that could result from many different causes.  <br/> |
 |CBSDsoNotInstalled = 17002  <br/> |The CBS needs the Decision Support Objects (DSO) component installed for Analysis Services.  <br/> |
@@ -411,7 +411,7 @@ Project Server 2013 processes and PSI methods have error code numbers that are g
 
 <a name="pj15_ErrorCodes_CICO"></a>
 
-## Table 11. Check in and check out error codes
+## Table 11. Check in and check out
 
 |Check in - check out error code|Description|
 |:-----|:-----|
@@ -425,7 +425,7 @@ Project Server 2013 processes and PSI methods have error code numbers that are g
 
 <a name="pj15_ErrorCodes_CustomFields"></a>
 
-## Table 12. Custom field error codes
+## Table 12. Custom field
 
 |Custom field error code|Description|
 |:-----|:-----|
@@ -505,7 +505,7 @@ Project Server 2013 processes and PSI methods have error code numbers that are g
 
 <a name="pj15_ErrorCodes_LookupTables"></a>
 
-## Table 13. Lookup table error codes
+## Table 13. Lookup table
 
 |Lookup table error code|Description|
 |:-----|:-----|
@@ -559,7 +559,7 @@ Error codes in Table 14 include items for project detail pages (PDPs), Exchange 
 
 ## Table 14. Miscellaneous error codes
 
-|Error code|Description|
+|Miscellaneous error code|Description|
 |:-----|:-----|
 |AuditingUpdateFailure = 31000  <br/> |Not used.  <br/> |
 |AuditingCannotDeleteFeature = 31001  <br/> |Not used.  <br/> |
@@ -601,7 +601,7 @@ Error codes in Table 14 include items for project detail pages (PDPs), Exchange 
 
 <a name="pj15_ErrorCodes_Notifications"></a>
 
-## Table 15. Notification error codes
+## Table 15. Notification
 
 |Notification error code|Description|
 |:-----|:-----|
@@ -618,7 +618,7 @@ All error codes in Table 16 are for the Optimizer, which is a component used in 
 
 <a name="pj15_ErrorCodes_Optimizer"></a>
 
-## Table 16. Optimizer error codes (project portfolio analysis)
+## Table 16. Optimizer (project portfolio analysis)
 
 |Optimizer error code|Description|
 |:-----|:-----|
@@ -739,7 +739,7 @@ The error codes in Table 17 are for the Planner, which is a component used in pr
 
 <a name="pj15_ErrorCodes_Planner"></a>
 
-## Table 17. Planner error codes (project portfolio analysis)
+## Table 17. Planner (project portfolio analysis)
 
 |Planner error code|Description|
 |:-----|:-----|
@@ -805,7 +805,7 @@ The error codes in Table 17 are for the Planner, which is a component used in pr
 
 <a name="pj15_ErrorCodes_Projects"></a>
 
-## Table 18. Project error codes
+## Table 18. Project
 
 |Project error code|Description|
 |:-----|:-----|
@@ -905,7 +905,7 @@ The error codes in Table 17 are for the Planner, which is a component used in pr
 
 <a name="pj15_ErrorCodes_RDS"></a>
 
-## Table 19. Reporting Data Service (RDS) error codes
+## Table 19. Reporting Data Service (RDS)
 
 |RDS error code|Description|
 |:-----|:-----|
@@ -945,7 +945,7 @@ The error codes in Table 17 are for the Planner, which is a component used in pr
 
 <a name="pj15_ErrorCodes_Resources"></a>
 
-## Table 20. Resource error codes
+## Table 20. Resource
 
 |Resource error code|Description|
 |:-----|:-----|
@@ -1023,7 +1023,7 @@ The error codes in Table 17 are for the Planner, which is a component used in pr
 
 <a name="pj15_ErrorCodes_ResourcePlans"></a>
 
-## Table 21. Resource plan error codes
+## Table 21. Resource plan
 
 |Resource plan error code|Description|
 |:-----|:-----|
@@ -1045,9 +1045,9 @@ The error codes in Table 22 are for **Rules** methods in the **PWA** web service
 
 <a name="pj15_ErrorCodes_Rules"></a>
 
-## Table 22. Rules error codes
+## Table 22. Rules
 
-|Rule error code|Description|
+|Rules error code|Description|
 |:-----|:-----|
 |RulesNameTooLong = 21001  <br/> |The name of the approval rule is too long. Internal use only in Project Web App.  <br/> |
 |RulesDescriptionTooLong = 21002  <br/> |The rule description is too long. Internal use only in Project Web App.  <br/> |
@@ -1061,7 +1061,7 @@ The error codes in Table 22 are for **Rules** methods in the **PWA** web service
 
 <a name="pj15_ErrorCodes_Security"></a>
 
-## Table 23. Security error codes
+## Table 23. Security
 
 |Security error code|Description|
 |:-----|:-----|
@@ -1119,7 +1119,7 @@ The error codes in Table 22 are for **Rules** methods in the **PWA** web service
 
 <a name="pj15_ErrorCodes_Events"></a>
 
-## Table 24. Project Server event error codes
+## Table 24. Project Server event
 
 |Project Server event error code|Description|
 |:-----|:-----|
@@ -1137,9 +1137,9 @@ The error codes in Table 22 are for **Rules** methods in the **PWA** web service
 
 <a name="pj15_ErrorCodes_Statusing"></a>
 
-## Table 25. Statusing web service error codes
+## Table 25. Statusing web service 
 
-|Statusing error code|Description|
+|Statusing web service error code|Description|
 |:-----|:-----|
 |StatusingInvalidEntity = 3102  <br/> |The entity for **Statusing** is not valid.  <br/> |
 |StatusingGetDataForTaskFailed = 3103  <br/> |Failed to get data for task status.  <br/> |
@@ -1178,7 +1178,7 @@ The error codes in Table 26 are for **StatusReports** methods in the **PWA** web
 
 <a name="pj15_ErrorCodes_StatusReports"></a>
 
-## Table 26. StatusReports error codes
+## Table 26. StatusReports 
 
 |Status report error code|Description|
 |:-----|:-----|
@@ -1189,7 +1189,7 @@ The error codes in Table 26 are for **StatusReports** methods in the **PWA** web
 
 <a name="pj15_ErrorCodes_Tasks"></a>
 
-## Table 27. Task error codes
+## Table 27. Task 
 
 |Task error code|Description|
 |:-----|:-----|
@@ -1238,7 +1238,7 @@ The error codes in Table 26 are for **StatusReports** methods in the **PWA** web
 
 <a name="pj15_ErrorCodes_Timesheets"></a>
 
-## Table 28. Timesheet error codes
+## Table 28. Timesheet 
 
 |Timesheet error code|Description|
 |:-----|:-----|
@@ -1258,7 +1258,7 @@ The error codes in Table 26 are for **StatusReports** methods in the **PWA** web
 
 <a name="pj15_ErrorCodes_UserDelegation"></a>
 
-## Table 29. User delegation error codes
+## Table 29. User delegation 
 
 |User delegation error code|Description|
 |:-----|:-----|
@@ -1276,7 +1276,7 @@ The error codes in Table 26 are for **StatusReports** methods in the **PWA** web
 
 <a name="pj15_ErrorCodes_Workflow"></a>
 
-## Table 30. Workflow error codes
+## Table 30. Workflow 
 
 |Workflow error code|Description|
 |:-----|:-----|
@@ -1350,7 +1350,7 @@ The error codes in Table 26 are for **StatusReports** methods in the **PWA** web
 
 <a name="pj15_ErrorCodes_WSS"></a>
 
-## Table 31. WssInterop and ObjectLinkProvider (SharePoint integration) error codes
+## Table 31. WssInterop and ObjectLinkProvider (SharePoint integration)
 
 |SharePoint integration error code|Description|
 |:-----|:-----|
