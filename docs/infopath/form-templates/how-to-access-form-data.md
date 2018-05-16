@@ -1,5 +1,5 @@
 ---
-title: "How to Access Form Data"
+title: "Access Form Data"
 manager: soliver
 ms.date: 12/7/2015
 ms.audience: Developer
@@ -10,7 +10,7 @@ ms.assetid: fd7374d3-a268-4e30-9872-7579cd681bd0
 description: "When you want to extend the functionality of an InfoPath form, it is often necessary to programmatically access information about the form's underlying XML document, access the data that the XML document contains, or perform some action on the XML document. The InfoPath object model supports accessing and manipulating a form's underlying XML document through the use of the XmlForm class in association with the XmlFormCollection class."
 ---
 
-# How to: Access Form Data
+# Access Form Data
 
 When you want to extend the functionality of an InfoPath form, it is often necessary to programmatically access information about the form's underlying XML document, access the data that the XML document contains, or perform some action on the XML document. The InfoPath object model supports accessing and manipulating a form's underlying XML document through the use of the [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) class in association with the [XmlFormCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.aspx) class. 
   
@@ -148,7 +148,7 @@ MessageBox.Show(myDoc)
 > [!NOTE]
 > Because InfoPath treats the **MainDataSource** property as a default property of the **XmlForm** object accessed when using the **this** or **Me** keywords, you can omit it from the line of code used to create the **XPathNavigator** object. 
   
-To learn more about the **XPathNavigator** class in an InfoPath form template's business logic, see [How to: Work with the XPathNavigator and XPathNodeIterator Classes](how-to-work-with-the-xpathnavigator-and-xpathnodeiterator-classes.md).
+To learn more about the **XPathNavigator** class in an InfoPath form template's business logic, see [Work with the XPathNavigator and XPathNodeIterator Classes](how-to-work-with-the-xpathnavigator-and-xpathnodeiterator-classes.md).
   
 ### Accessing Data About a Form's Form Template File
 

@@ -31,7 +31,7 @@ Development of Project Server apps with Visual Studio requires the following:
   
 - Ensure that you have installed the most recent service packs and Windows updates on your local development computer. The operating system can be Windows 7, Windows 8, Windows Server 2008, or Windows Server 2012.
     
-- You must have a computer that has SharePoint Server 2013 and Project Server 2013 installed, where the computer is configured for app isolation and sideloading of apps. Sideloading enables Visual Studio to temporarily install the app for debugging. You can use an on-premises installation of SharePoint and Project Server. For more information, see [How to: Set up an on-premises development environment for apps for SharePoint](http://msdn.microsoft.com/en-us/library/fp179923%28Office.15%29.aspx).
+- You must have a computer that has SharePoint Server 2013 and Project Server 2013 installed, where the computer is configured for app isolation and sideloading of apps. Sideloading enables Visual Studio to temporarily install the app for debugging. You can use an on-premises installation of SharePoint and Project Server. For more information, see [Set up an on-premises development environment for apps for SharePoint](http://msdn.microsoft.com/en-us/library/fp179923%28Office.15%29.aspx).
     
     > [!NOTE]
     > For an on-premises installation, configure an isolated app domain  *before*  you create a corporate app catalog. 
@@ -40,7 +40,7 @@ Development of Project Server apps with Visual Studio requires the following:
     
 - Verify that the Project Web App instance you will be using for development and testing is accessible in the browser.
     
-For information about using the online tools, see [How to: Set up an environment for developing apps for SharePoint on Office 365](http://msdn.microsoft.com/en-us/library/fp161179.aspx). For a walkthrough of building a simple app for Project Server that uses the online tools, see the EPMSource blog series, [Building your first Project Server app](http://epmsource.com/2012/11/20/building-your-first-project-server-app-part-zerothe-introduction/).
+For information about using the online tools, see [Set up an environment for developing apps for SharePoint on Office 365](http://msdn.microsoft.com/en-us/library/fp161179.aspx). For a walkthrough of building a simple app for Project Server that uses the online tools, see the EPMSource blog series, [Building your first Project Server app](http://epmsource.com/2012/11/20/building-your-first-project-server-app-part-zerothe-introduction/).
   
 ## Using Visual Studio to create a Project Server app
 <a name="pj15_StatusingApp_UsingVisualStudio"> </a>
@@ -502,7 +502,7 @@ When single entry mode is on, the Tasks page ribbon is defined by the Tied Mode 
 Although the groups and controls in each region look similar, a control for the tied mode can call a different function than the same control for the non-tied mode. Procedure 4 shows how to add a button control for the **QuickStatus** app when single entry mode is off (the **Single Entry Mode** check box is clear). 
   
 > [!NOTE]
-> For general information about adding custom actions to a ribbon or to a menu in a SharePoint application, see [How to: Create custom actions to deploy with apps for SharePoint](http://msdn.microsoft.com/en-us/library/jj163954.aspx). 
+> For general information about adding custom actions to a ribbon or to a menu in a SharePoint application, see [Create custom actions to deploy with apps for SharePoint](http://msdn.microsoft.com/en-us/library/jj163954.aspx). 
   
 ### Procedure 4. To add a ribbon custom action to the Tasks page
 

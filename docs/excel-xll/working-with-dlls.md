@@ -24,7 +24,7 @@ This section includes information about creating and calling DLLs that work with
   
 > Describes the benefits of using DLLs and how to create them.
     
-[How to: Access DLLs in Excel](how-to-access-dlls-in-excel.md)
+[Access DLLs in Excel](how-to-access-dlls-in-excel.md)
   
 > Describes how to call DLL functions and commands through a Visual Basic for Applications (VBA) code module, directly from a worksheet, or from the Excel user interface. 
     

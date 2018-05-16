@@ -463,7 +463,7 @@ Additional settings are managed by SharePoint Server 2013 for each Project Web A
     
 - [Walkthrough: Developing PSI applications using WCF](http://msdn.microsoft.com/library/65707234-c3da-44e4-8364-32a6be28f645%28Office.15%29.aspx)
     
-- [How to: Use Impersonation with WCF](http://msdn.microsoft.com/library/e3597901-2f02-44a2-8076-d32aae540b38%28Office.15%29.aspx)
+- [Use Impersonation with WCF](http://msdn.microsoft.com/library/e3597901-2f02-44a2-8076-d32aae540b38%28Office.15%29.aspx)
     
 - [Project PSI reference overview](project-psi-reference-overview.md)
     

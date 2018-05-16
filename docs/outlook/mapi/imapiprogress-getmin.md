@@ -52,7 +52,7 @@ The value of the flag setting affects whether the progress object understands th
 
 Initialize the minimum value to 1. Service providers can reset this value by calling the **IMAPIProgress::SetLimits** method. For more information about how to implement **GetMin** and the other [IMAPIProgress](imapiprogressiunknown.md) methods, see [Implementing a Progress Indicator](implementing-a-progress-indicator.md).
   
-For more information about how and when to make calls to a progress object, see [How to: Display a Progress Indicator](how-to-display-a-progress-indicator.md).
+For more information about how and when to make calls to a progress object, see [Display a Progress Indicator](how-to-display-a-progress-indicator.md).
   
 ## MFCMAPI Reference
 
@@ -77,7 +77,7 @@ For MFCMAPI sample code, see the following table.
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
   
-[How to: Display a Progress Indicator](how-to-display-a-progress-indicator.md)
+[Display a Progress Indicator](how-to-display-a-progress-indicator.md)
   
 [Implementing a Progress Indicator](implementing-a-progress-indicator.md)
 

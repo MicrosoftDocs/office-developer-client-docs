@@ -1,5 +1,5 @@
 ---
-title: "How to Display a Progress Indicator"
+title: "Display a Progress Indicator"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
  
 ---
 
-# How to: Display a Progress Indicator
+# Display a Progress Indicator
 
   
   

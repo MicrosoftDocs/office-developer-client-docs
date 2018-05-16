@@ -1,5 +1,5 @@
 ---
-title: "How to Work with Form Windows"
+title: "Work with Form Windows"
  
  
 manager: soliver
@@ -14,7 +14,7 @@ ms.assetid: 32ae2427-882b-45f8-8754-0e8c27fc23ba
 description: "When working programmatically with an InfoPath form, you can write code to access the form's windows, and then customize some of the items that they contain. The InfoPath object model provided by the Microsoft.Office.InfoPath namespace supports access to a form's windows through the use of the Window class in association with the WindowCollection class."
 ---
 
-# How to: Work with Form Windows
+# Work with Form Windows
 
 When working programmatically with an InfoPath form, you can write code to access the form's windows, and then customize some of the items that they contain. The InfoPath object model provided by the [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) namespace supports access to a form's windows through the use of the [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) class in association with the [WindowCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WindowCollection.aspx) class. 
   

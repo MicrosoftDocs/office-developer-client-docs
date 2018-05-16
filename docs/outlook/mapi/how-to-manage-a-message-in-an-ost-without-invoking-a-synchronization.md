@@ -1,5 +1,5 @@
 ---
-title: "How to Manage a Message in an OST Without Invoking a Synchronization in Cached Exchange Mode"
+title: "Manage a Message in an OST Without Invoking a Synchronization in Cached Exchange Mode"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,7 +10,7 @@ description: "Last modified: July 23, 2011"
  
 ---
 
-# How to: Manage a Message in an OST Without Invoking a Synchronization in Cached Exchange Mode
+# Manage a Message in an OST Without Invoking a Synchronization in Cached Exchange Mode
 
   
   
@@ -66,7 +66,7 @@ If the **OpenEntry** method returns the **MAPI_E_INTERFACE_NOT_SUPPORTED** error
 
 [About MAPI Additions](about-mapi-additions.md)
   
-[How to: Access a Store on the Remote Server When Outlook is in Cached Exchange Mode](how-to-access-a-store-on-remote-server-when-outlook-is-in-cached-exchange-mode.md)
+[Access a Store on the Remote Server When Outlook is in Cached Exchange Mode](how-to-access-a-store-on-remote-server-when-outlook-is-in-cached-exchange-mode.md)
   
-[How to: Open a Store on the Remote Server When Outlook is in Cached Exchange Mode](how-to-open-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode.md)
+[Open a Store on the Remote Server When Outlook is in Cached Exchange Mode](how-to-open-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode.md)
 

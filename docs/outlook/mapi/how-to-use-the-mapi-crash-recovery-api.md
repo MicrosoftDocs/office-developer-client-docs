@@ -1,5 +1,5 @@
 ---
-title: "How to Use the MAPI Crash Recovery API"
+title: "Use the MAPI Crash Recovery API"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,7 +10,7 @@ description: "Last modified: June 25, 2012"
  
 ---
 
-# How to: Use the MAPI Crash Recovery API
+# Use the MAPI Crash Recovery API
 
   
   

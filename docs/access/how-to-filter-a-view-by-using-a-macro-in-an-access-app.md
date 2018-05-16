@@ -1,5 +1,5 @@
 ---
-title: "How to Filter a view by using a macro in an Access app"
+title: "Filter a view by using a macro in an Access app"
  
  
 manager: kelbow
@@ -12,7 +12,7 @@ ms.assetid: db4dbb71-1b22-4dfd-bc07-5f7d694fc038
 description: "Learn how to filter a view in an Access app by using the RequeryRecords macro action and a data macro."
 ---
 
-# How to: Filter a view by using a macro in an Access app
+# Filter a view by using a macro in an Access app
 
 Learn how to filter a view in an Access app by using the RequeryRecords macro action and a data macro.
   

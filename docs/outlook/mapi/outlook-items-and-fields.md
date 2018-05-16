@@ -32,7 +32,7 @@ Each user-defined field of an item has a value that is stored in a corresponding
 
 #### Concepts
 
-[How to: Add a Definition for a New User-Defined Field](how-to-add-a-definition-for-a-new-user-defined-field.md)
+[Add a Definition for a New User-Defined Field](how-to-add-a-definition-for-a-new-user-defined-field.md)
   
 [PropertyDefinition Stream Sample](propertydefinition-stream-sample.md)
   

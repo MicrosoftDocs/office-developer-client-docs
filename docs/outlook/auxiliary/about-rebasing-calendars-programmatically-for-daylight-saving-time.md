@@ -66,11 +66,11 @@ To obtain the Tzmovelib.dll assembly, download the OutlookTimeZoneMoveLibRedist.
 
 [About persisting TZDEFINITION to a stream to commit to a binary property](about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property.md)
   
-[How to: Parse a stream from a binary property to read the TZDEFINITION structure](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzdefinition-structure.md)
+[Parse a stream from a binary property to read the TZDEFINITION structure](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzdefinition-structure.md)
   
-[How to: Parse a stream from a binary property to read the TZREG structure](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md)
+[Parse a stream from a binary property to read the TZREG structure](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md)
   
-[How to: Read time zone properties from an appointment](how-to-read-time-zone-properties-from-an-appointment.md)
+[Read time zone properties from an appointment](how-to-read-time-zone-properties-from-an-appointment.md)
 #### Other resources
 
 [Daylight Saving Time Help and Support Center](http://support.microsoft.com/gp/cp_dst)

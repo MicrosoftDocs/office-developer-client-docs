@@ -1,5 +1,5 @@
 ---
-title: "How to Work with Offline Solutions Using the InfoPath 2003 Object Model"
+title: "Work with Offline Solutions Using the InfoPath 2003 Object Model"
  
  
 manager: soliver
@@ -14,7 +14,7 @@ ms.assetid: 634ccd8c-0b5f-4161-875c-0e546a517377
 description: "The InfoPath 2003-compatible object model provides the MachineOnlineState property of the Application object which enables your form code to check whether the user's computer is connected to the network. Your form code can perform different actions depending on the state of the connection."
 ---
 
-# How to: Work with Offline Solutions Using the InfoPath 2003 Object Model
+# Work with Offline Solutions Using the InfoPath 2003 Object Model
 
 The InfoPath 2003-compatible object model provides the [MachineOnlineState](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._Application2.MachineOnlineState.aspx) property of the [Application](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Application.aspx) object which enables your form code to check whether the user's computer is connected to the network. Your form code can perform different actions depending on the state of the connection. 
   

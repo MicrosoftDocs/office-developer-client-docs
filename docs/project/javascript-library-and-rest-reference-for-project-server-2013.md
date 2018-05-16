@@ -46,6 +46,6 @@ The **ProjectServer** resource is described in [ProjectServer resources in the R
     
 - [Getting started with the JavaScript object model](getting-started-with-the-project-server-2013-javascript-object-model.md)
     
-- [How to: Work with projects by using the JavaScript object model](create-retrieve-update-and-delete-projects-using-the-project-server-javascript.md)
+- [Work with projects by using the JavaScript object model](create-retrieve-update-and-delete-projects-using-the-project-server-javascript.md)
     
 

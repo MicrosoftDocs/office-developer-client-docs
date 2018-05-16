@@ -22,13 +22,13 @@ This topic is designed to help you quickly find the answers to common questions 
 
 Common tasks performed when creating and developing projects.
   
-- [How to: Create a Form Template Using the InfoPath 2003 Object Model](how-to-create-a-form-template-using-the-infopath-2003-object-model.md)
+- [Create a Form Template Using the InfoPath 2003 Object Model](how-to-create-a-form-template-using-the-infopath-2003-object-model.md)
     
-- [How to: Add an Event Handler Using the InfoPath 2003 Object Model](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)
+- [Add an Event Handler Using the InfoPath 2003 Object Model](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)
     
-- [How to: Debug InfoPath Projects Using the InfoPath 2003 Object Model](how-to-debug-infopath-projects-using-the-infopath-2003-object-model.md)
+- [Debug InfoPath Projects Using the InfoPath 2003 Object Model](how-to-debug-infopath-projects-using-the-infopath-2003-object-model.md)
     
-- [How to: Add and Reference Custom Assemblies](how-to-add-and-reference-custom-assemblies.md)
+- [Add and Reference Custom Assemblies](how-to-add-and-reference-custom-assemblies.md)
     
 - [Walkthrough: Creating and Debugging a Basic Form Template Using the InfoPath 2003 Object Model](walkthrough-creating-and-debugging-a-basic-form-template-using-the-infopath-2003.md)
     
@@ -36,19 +36,19 @@ Common tasks performed when creating and developing projects.
 
 Common tasks performed when programming managed-code form templates.
   
-- [How to: Respond to Form Events Using the InfoPath 2003 Object Model](how-to-respond-to-form-events-using-the-infopath-2003-object-model.md)
+- [Respond to Form Events Using the InfoPath 2003 Object Model](how-to-respond-to-form-events-using-the-infopath-2003-object-model.md)
     
-- [How to: Work with Views Using the InfoPath 2003 Object Model](how-to-work-with-views-using-the-infopath-2003-object-model.md)
+- [Work with Views Using the InfoPath 2003 Object Model](how-to-work-with-views-using-the-infopath-2003-object-model.md)
     
-- [How to: Work with Form Windows Using the InfoPath 2003 Object Model](how-to-work-with-form-windows-using-the-infopath-2003-object-model.md)
+- [Work with Form Windows Using the InfoPath 2003 Object Model](how-to-work-with-form-windows-using-the-infopath-2003-object-model.md)
     
-- [How to: Display Alerts and Dialog Boxes Using the InfoPath 2003 Object Model](how-to-display-alerts-and-dialog-boxes-using-the-infopath-2003-object-model.md)
+- [Display Alerts and Dialog Boxes Using the InfoPath 2003 Object Model](how-to-display-alerts-and-dialog-boxes-using-the-infopath-2003-object-model.md)
     
-- [How to: Handle Errors Using the InfoPath 2003 Object Model](how-to-handle-errors-using-the-infopath-2003-object-model.md)
+- [Handle Errors Using the InfoPath 2003 Object Model](how-to-handle-errors-using-the-infopath-2003-object-model.md)
     
-- [How to: Work with Digital Signatures Using the InfoPath 2003 Object Model](how-to-work-with-digital-signatures-using-the-infopath-2003-object-model.md)
+- [Work with Digital Signatures Using the InfoPath 2003 Object Model](how-to-work-with-digital-signatures-using-the-infopath-2003-object-model.md)
     
-- [How to: Work with Offline Solutions Using the InfoPath 2003 Object Model](how-to-work-with-offline-solutions-using-the-infopath-2003-object-model.md)
+- [Work with Offline Solutions Using the InfoPath 2003 Object Model](how-to-work-with-offline-solutions-using-the-infopath-2003-object-model.md)
     
 - [Working with MSXML and System.Xml Using the InfoPath 2003 Object Model](working-with-msxml-and-system-xml-using-the-infopath-2003-object-model.md)
     
@@ -56,11 +56,11 @@ Common tasks performed when programming managed-code form templates.
 
 Common tasks performed when working with data.
   
-- [How to: Access Application Data Using the InfoPath 2003 Object Model](how-to-access-application-data-using-the-infopath-2003-object-model.md)
+- [Access Application Data Using the InfoPath 2003 Object Model](how-to-access-application-data-using-the-infopath-2003-object-model.md)
     
-- [How to: Access External Data Sources Using the InfoPath 2003 Object Model](how-to-access-external-data-sources-using-the-infopath-2003-object-model.md)
+- [Access External Data Sources Using the InfoPath 2003 Object Model](how-to-access-external-data-sources-using-the-infopath-2003-object-model.md)
     
-- [How to: Access Form Data Using the InfoPath 2003 Object Model](how-to-access-form-data-using-the-infopath-2003-object-model.md)
+- [Access Form Data Using the InfoPath 2003 Object Model](how-to-access-form-data-using-the-infopath-2003-object-model.md)
     
 ## Security and Deployment
 
@@ -68,11 +68,11 @@ Common tasks and information about security and deploying managed-code form temp
   
 - [About the Security Model for Form Templates with Code](about-the-security-model-for-form-templates-with-code.md)
     
-- [How to: Deploy InfoPath Form Templates with Code](how-to-deploy-infopath-form-templates-with-code.md)
+- [Deploy InfoPath Form Templates with Code](how-to-deploy-infopath-form-templates-with-code.md)
     
-- [How to: Configure Security Settings for Form Templates with Code](how-to-configure-security-settings-for-form-templates-with-code.md)
+- [Configure Security Settings for Form Templates with Code](how-to-configure-security-settings-for-form-templates-with-code.md)
     
-- [How to: Preview and Debug Form Templates that Require Full Trust](how-to-preview-and-debug-form-templates-that-require-full-trust.md)
+- [Preview and Debug Form Templates that Require Full Trust](how-to-preview-and-debug-form-templates-that-require-full-trust.md)
     
 ## See also
 

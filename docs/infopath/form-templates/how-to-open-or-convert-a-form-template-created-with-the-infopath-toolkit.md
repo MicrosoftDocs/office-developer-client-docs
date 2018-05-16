@@ -1,5 +1,5 @@
 ---
-title: "How to Open or Convert a Form Template Created with the InfoPath Toolkit"
+title: "Open or Convert a Form Template Created with the InfoPath Toolkit"
  
  
 manager: soliver
@@ -14,7 +14,7 @@ ms.assetid: af8eca2e-ba9a-4c37-94af-662815fff518
 description: "If you created an InfoPath 2003 managed code form template using one of the InfoPath 2003 Toolkits for Visual Studio and want to maintain compatibility with InfoPath 2003, you can continue to work on and further develop your form template project by opening it in Microsoft InfoPath and Visual Studio 2012."
 ---
 
-# How to: Open or Convert a Form Template Created with the InfoPath Toolkit
+# Open or Convert a Form Template Created with the InfoPath Toolkit
 
 If you created an InfoPath 2003 managed code form template using one of the InfoPath 2003 Toolkits for Visual Studio and want to maintain compatibility with InfoPath 2003, you can continue to work on and further develop your form template project by opening it in Microsoft InfoPath and Visual Studio 2012.
   

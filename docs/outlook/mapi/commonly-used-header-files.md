@@ -40,7 +40,7 @@ Each reference topic includes a table that names the MAPI header file where the 
 |Mapix.h  <br/> |Defines flags and interfaces that MAPI implements for clients.  <br/> |
 |Mspst.h  <br/> |Defines properties of the personal information store (.pst file).  <br/> |
    
-For information about how to obtain MAPI header files, see [How to: Install MAPI Header Files](how-to-install-mapi-header-files.md).
+For information about how to obtain MAPI header files, see [Install MAPI Header Files](how-to-install-mapi-header-files.md).
   
 ## See also
 

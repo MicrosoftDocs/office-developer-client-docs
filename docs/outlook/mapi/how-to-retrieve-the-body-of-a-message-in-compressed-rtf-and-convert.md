@@ -1,5 +1,5 @@
 ---
-title: "How to Retrieve the Body of a Message in Compressed RTF and Convert It to Its Native Format"
+title: "Retrieve the Body of a Message in Compressed RTF and Convert It to Its Native Format"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,7 +10,7 @@ description: "Last modified: June 25, 2012"
  
 ---
 
-# How to: Retrieve the Body of a Message in Compressed RTF and Convert It to Its Native Format
+# Retrieve the Body of a Message in Compressed RTF and Convert It to Its Native Format
 
   
   

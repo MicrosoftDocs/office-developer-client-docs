@@ -24,7 +24,7 @@ This section discusses the security model for Microsoft InfoPath form templates 
   
 > Describes the security model for managed-code form templates.
     
-[How to: Configure Security Settings for Form Templates with Code](how-to-configure-security-settings-for-form-templates-with-code.md)
+[Configure Security Settings for Form Templates with Code](how-to-configure-security-settings-for-form-templates-with-code.md)
   
 > Describes how to configure .NET Framework security settings for managed code form templates.
     

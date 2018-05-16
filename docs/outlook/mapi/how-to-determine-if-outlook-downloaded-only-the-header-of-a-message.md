@@ -1,5 +1,5 @@
 ---
-title: "How to Determine if Outlook Downloaded Only the Header of a Message"
+title: "Determine if Outlook Downloaded Only the Header of a Message"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,7 +10,7 @@ description: "Last modified: June 25, 2012"
  
 ---
 
-# How to: Determine if Outlook Downloaded Only the Header of a Message
+# Determine if Outlook Downloaded Only the Header of a Message
 
   
   

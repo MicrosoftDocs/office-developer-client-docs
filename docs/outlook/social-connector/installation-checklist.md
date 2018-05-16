@@ -48,7 +48,7 @@ The provider setup package should perform a series of installation checks, as sh
   
 The following procedure describes the installation checks outlined in Figure 1.
   
-1. As a prerequisite, detect whether Outlook is installed or present, and if installed or present, determine whether the version of Outlook supports the OSC. For more information about detecting the installed version of Outlook, see [How to: Check the Version of Outlook](http://msdn.microsoft.com/library/672fc380-a29b-4e99-9211-949fd5065723%28Office.15%29.aspx).
+1. As a prerequisite, detect whether Outlook is installed or present, and if installed or present, determine whether the version of Outlook supports the OSC. For more information about detecting the installed version of Outlook, see [Check the Version of Outlook](http://msdn.microsoft.com/library/672fc380-a29b-4e99-9211-949fd5065723%28Office.15%29.aspx).
     
   - If the installed version of Outlook is earlier than Outlook 2003, the provider installation procedure cannot complete. Inform the user to obtain a supported version of Outlook and the OSC before proceeding to install the OSC provider.
     

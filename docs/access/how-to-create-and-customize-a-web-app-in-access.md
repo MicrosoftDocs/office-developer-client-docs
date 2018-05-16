@@ -1,5 +1,5 @@
 ---
-title: "How to Create and customize a web app in Access"
+title: "Create and customize a web app in Access"
  
  
 manager: kelbow
@@ -12,7 +12,7 @@ ms.assetid: 628745f4-82e9-4838-9726-6f3e506a654f
 
 ---
 
-# How to: Create and customize a web app in Access
+# Create and customize a web app in Access
 
 ## Introduction
 <a name="ac15_CreateAndCustomizeWebApp_Introduction"> </a>

@@ -1,5 +1,5 @@
 ---
-title: "How to Obtain a Contact Message Given a Contacts Address Book Entry"
+title: "Obtain a Contact Message Given a Contacts Address Book Entry"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,7 +10,7 @@ description: "Last modified: August 13, 2013"
  
 ---
 
-# How to: Obtain a Contact Message Given a Contacts Address Book Entry
+# Obtain a Contact Message Given a Contacts Address Book Entry
  
   
 **Applies to**: Outlook 

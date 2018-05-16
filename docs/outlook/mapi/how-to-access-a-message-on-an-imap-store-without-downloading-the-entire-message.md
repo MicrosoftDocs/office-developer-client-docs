@@ -1,5 +1,5 @@
 ---
-title: "How to Access a Message on an IMAP Store Without Downloading the Entire Message"
+title: "Access a Message on an IMAP Store Without Downloading the Entire Message"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,7 +10,7 @@ description: "Last modified: July 23, 2011"
  
 ---
 
-# How to: Access a Message on an IMAP Store Without Downloading the Entire Message
+# Access a Message on an IMAP Store Without Downloading the Entire Message
 
   
   

@@ -1,5 +1,5 @@
 ---
-title: "How to Preview and Debug Form Templates that Require Full Trust"
+title: "Preview and Debug Form Templates that Require Full Trust"
  
  
 manager: soliver
@@ -14,7 +14,7 @@ ms.assetid: 5c491666-06f0-42ec-967e-1c70cd5e03a0
 description: "By default, if you attempt to debug or preview a managed-code project that contains code that invokes an object model member that requires full trust, such as the LoginName property which requires access to information about the user's login domain, Microsoft InfoPath will display the following error messages."
 ---
 
-# How to: Preview and Debug Form Templates that Require Full Trust
+# Preview and Debug Form Templates that Require Full Trust
 
 By default, if you attempt to debug or preview a managed-code project that contains code that invokes an object model member that requires full trust, such as the **LoginName** property which requires access to information about the user's login domain, Microsoft InfoPath will display the following error messages. 
   
@@ -42,16 +42,16 @@ To allow the form template's business logic to call this member when it is being
     
 5. Select **Full Trust**, and then click **OK**.
     
-After this procedure is performed, you can debug your project as described in [How to: Preview and Debug InfoPath Form Templates with Code](how-to-preview-and-debug-infopath-form-templates-with-code.md).
+After this procedure is performed, you can debug your project as described in [Preview and Debug InfoPath Form Templates with Code](how-to-preview-and-debug-infopath-form-templates-with-code.md).
   
 > [!NOTE]
-> Successfully deploying a managed code form template that requires full trust requires additional steps, such as digitally signing, or installing and registering the form template. For information on deploying a managed code form template after it is debugged see, [How to: Deploy InfoPath Form Templates with Code](how-to-deploy-infopath-form-templates-with-code.md). 
+> Successfully deploying a managed code form template that requires full trust requires additional steps, such as digitally signing, or installing and registering the form template. For information on deploying a managed code form template after it is debugged see, [Deploy InfoPath Form Templates with Code](how-to-deploy-infopath-form-templates-with-code.md). 
   
 ## See also
 
 #### Concepts
 
-[How to: Preview and Debug InfoPath Form Templates with Code](how-to-preview-and-debug-infopath-form-templates-with-code.md)
+[Preview and Debug InfoPath Form Templates with Code](how-to-preview-and-debug-infopath-form-templates-with-code.md)
   
-[How to: Deploy InfoPath Form Templates with Code](how-to-deploy-infopath-form-templates-with-code.md)
+[Deploy InfoPath Form Templates with Code](how-to-deploy-infopath-form-templates-with-code.md)
 

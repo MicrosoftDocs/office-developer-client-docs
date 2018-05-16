@@ -20,12 +20,12 @@ ms.assetid: 9171b1b2-470e-428f-a026-e348d28d9dc2
   
 - [Reserved Words (Access custom web app)](reserved-words-access-custom-web-app.md)
     
-- [How to: Create and customize a web app in Access](how-to-create-and-customize-a-web-app-in-access.md)
+- [Create and customize a web app in Access](how-to-create-and-customize-a-web-app-in-access.md)
     
 - [Custom numeric formats for the Format function (Access custom web app)](custom-numeric-formats-for-the-format-function-access-custom-web-app.md)
     
 - [Custom date and time formats for the Format function (Access custom web app)](custom-date-and-time-formats-for-the-format-function-access-custom-web-app.md)
     
-- [How to: Filter a view by using a macro in an Access app](how-to-filter-a-view-by-using-a-macro-in-an-access-app.md)
+- [Filter a view by using a macro in an Access app](how-to-filter-a-view-by-using-a-macro-in-an-access-app.md)
     
 

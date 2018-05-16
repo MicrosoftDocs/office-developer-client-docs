@@ -1,5 +1,5 @@
 ---
-title: "How to Configure Security Settings for Form Templates with Code"
+title: "Configure Security Settings for Form Templates with Code"
  
  
 manager: soliver
@@ -14,7 +14,7 @@ ms.assetid: 24d1a322-581f-497e-b97b-bd02c4516551
 description: "You can customize the permission set that is applied to an InfoPath managed code form template by using the .NET Configuration snap-in."
 ---
 
-# How to: Configure Security Settings for Form Templates with Code
+# Configure Security Settings for Form Templates with Code
 
 You can customize the permission set that is applied to an InfoPath managed code form template by using the .NET Configuration snap-in.
   
@@ -56,7 +56,7 @@ If you prefer, you can manage the permission set for all InfoPath managed code f
 You can create code groups under the **InfoPath Form Templates** group to grant the full trust permission set to form templates from a particular URL or UNC location. After doing this, every form template published to the specified location will run fully trusted. 
   
 > [!NOTE]
-> A form template that is loaded from the local computer (My Computer Zone code group) is loaded by InfoPath using a random URL. For this reason, you cannot use the following procedure to grant the FullTrust permission set to such a form template. To grant a locally installed form template the FullTrust permission set, use one of the procedures that are described in the "Deploying Form Templates That Require Full Trust" section of the [How to: Deploy InfoPath Form Templates with Code](how-to-deploy-infopath-form-templates-with-code.md) topic. 
+> A form template that is loaded from the local computer (My Computer Zone code group) is loaded by InfoPath using a random URL. For this reason, you cannot use the following procedure to grant the FullTrust permission set to such a form template. To grant a locally installed form template the FullTrust permission set, use one of the procedures that are described in the "Deploying Form Templates That Require Full Trust" section of the [Deploy InfoPath Form Templates with Code](how-to-deploy-infopath-form-templates-with-code.md) topic. 
   
 ### To assign FullTrust to InfoPath forms at a specific URL or UNC location
 

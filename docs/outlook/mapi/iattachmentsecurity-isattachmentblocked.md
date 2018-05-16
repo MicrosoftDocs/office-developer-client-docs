@@ -47,5 +47,5 @@ HRESULT IAttachmentSecurity::IsAttachmentBlocked(
 
 [MAPI Constants](mapi-constants.md)
   
-[How to: Verify an Attachment is Blocked](how-to-verify-an-attachment-is-blocked.md)
+[Verify an Attachment is Blocked](how-to-verify-an-attachment-is-blocked.md)
 

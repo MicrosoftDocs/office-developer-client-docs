@@ -1,5 +1,5 @@
 ---
-title: "How to Manipulate the Visio file format programmatically"
+title: "Manipulate the Visio file format programmatically"
  
  
 manager: soliver
@@ -13,7 +13,7 @@ ms.assetid: 5f5e2288-7539-41b8-916d-410be028ed9b
 description: ""
 ---
 
-# How to: Manipulate the Visio file format programmatically
+# Manipulate the Visio file format programmatically
 
 ![How to topic](media/mod_icon_howto.png)
   
@@ -1195,10 +1195,10 @@ For more information about Al's work with the Visio file format, see the links i
     
 - [Visio Developer Center](http://msdn.microsoft.com/en-us/office/aa905478.aspx)
     
-- [How to: Manipulate Office Open XML Formats Documents](http://msdn.microsoft.com/en-us/library/aa982683%28v=office.12%29.aspx)
+- [Manipulate Office Open XML Formats Documents](http://msdn.microsoft.com/en-us/library/aa982683%28v=office.12%29.aspx)
     
-- [How to: Create a Document with Namespaces (C#) (LINQ to XML)](http://msdn.microsoft.com/en-us/library/bb387075.aspx)
+- [Create a Document with Namespaces (C#) (LINQ to XML)](http://msdn.microsoft.com/en-us/library/bb387075.aspx)
     
-- [How to: Add Custom XML Parts to Documents Without Starting Microsoft Office](http://msdn.microsoft.com/en-us/library/bb608597%28VS.90%29.aspx)
+- [Add Custom XML Parts to Documents Without Starting Microsoft Office](http://msdn.microsoft.com/en-us/library/bb608597%28VS.90%29.aspx)
     
 

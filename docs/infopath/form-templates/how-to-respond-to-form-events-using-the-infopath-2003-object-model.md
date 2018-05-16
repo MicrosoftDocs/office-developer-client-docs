@@ -1,5 +1,5 @@
 ---
-title: "How to Respond to Form Events Using the InfoPath 2003 Object Model"
+title: "Respond to Form Events Using the InfoPath 2003 Object Model"
  
  
 manager: soliver
@@ -14,13 +14,13 @@ ms.assetid: 59e9c1ed-32a8-4bcd-bdfc-9aa568a34d2a
 description: "You can write code to respond to various events that can occur as a user fills out a form. To work with events in InfoPath, you create event handlers in the InfoPath designer."
 ---
 
-# How to: Respond to Form Events Using the InfoPath 2003 Object Model
+# Respond to Form Events Using the InfoPath 2003 Object Model
 
 You can write code to respond to various events that can occur as a user fills out a form. To work with events in InfoPath, you create event handlers in the InfoPath designer.
   
 InfoPath event handlers should be created in the InfoPath designer because, when using the InfoPath 2003-compatible object model, InfoPath automatically adds the correct declaration and applies an attribute ([InfoPathEventHandlerAttribute](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathEventHandlerAttribute.aspx) ) in a form's code file (FormCode.cs or FormCode.vb) to identify and sink the event handler. After you have created an event handler, you should not alter its declaration and attribute in the form's code file. 
   
-For information about creating the InfoPath event handlers, see [How to: Add an Event Handler Using the InfoPath 2003 Object Model](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
+For information about creating the InfoPath event handlers, see [Add an Event Handler Using the InfoPath 2003 Object Model](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
   
 ## Overview of the Event Objects
 

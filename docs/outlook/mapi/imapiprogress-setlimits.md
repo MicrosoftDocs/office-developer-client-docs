@@ -64,7 +64,7 @@ When MAPI_TOP_LEVEL is not set, the minimum and maximum values are considered lo
   
 For more information about how to implement **SetLimits** and the other [IMAPIProgress](imapiprogressiunknown.md) methods, see [Implementing a Progress Indicator](implementing-a-progress-indicator.md).
   
-For more information about how and when to make calls to a progress object, see [How to: Display a Progress Indicator](how-to-display-a-progress-indicator.md).
+For more information about how and when to make calls to a progress object, see [Display a Progress Indicator](how-to-display-a-progress-indicator.md).
   
 ## MFCMAPI Reference
 
@@ -89,7 +89,7 @@ For MFCMAPI sample code, see the following table.
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
   
-[How to: Display a Progress Indicator](how-to-display-a-progress-indicator.md)
+[Display a Progress Indicator](how-to-display-a-progress-indicator.md)
   
 [Implementing a Progress Indicator](implementing-a-progress-indicator.md)
 

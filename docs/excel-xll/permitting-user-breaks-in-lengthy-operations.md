@@ -36,5 +36,5 @@ When you detect a break condition in a command, you typically clear the conditio
   
 [Developing Excel XLLs](developing-excel-xlls.md)
   
-[How to: Access Excel Instance and Main Window Handles](how-to-access-excel-instance-and-main-window-handles.md)
+[Access Excel Instance and Main Window Handles](how-to-access-excel-instance-and-main-window-handles.md)
 

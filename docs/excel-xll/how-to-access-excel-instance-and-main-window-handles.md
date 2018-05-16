@@ -1,5 +1,5 @@
 ---
-title: "How to Access Excel Instance and Main Window Handles"
+title: "Access Excel Instance and Main Window Handles"
  
  
 manager: soliver
@@ -14,7 +14,7 @@ ms.assetid: 21e1dbdc-06fa-4514-9437-c4cffc3b4621
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---
 
-# How to: Access Excel Instance and Main Window Handles
+# Access Excel Instance and Main Window Handles
 
  **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   

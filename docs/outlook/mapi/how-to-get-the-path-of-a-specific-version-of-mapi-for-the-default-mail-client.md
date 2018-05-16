@@ -1,5 +1,5 @@
 ---
-title: "How to Get the Path of a Specific Version of MAPI for the Default Mail Client"
+title: "Get the Path of a Specific Version of MAPI for the Default Mail Client"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,7 +10,7 @@ description: "Last modified: July 23, 2011"
  
 ---
 
-# How to: Get the Path of a Specific Version of MAPI for the Default Mail Client
+# Get the Path of a Specific Version of MAPI for the Default Mail Client
 
   
   

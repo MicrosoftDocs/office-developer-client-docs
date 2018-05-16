@@ -53,5 +53,5 @@ This method is used to indicate the time range of calendar items for which to re
   
 [IFreeBusyData::GetFBPublishRange](ifreebusydata-getfbpublishrange.md)
   
-[How to: Use relative time to access free/busy data](how-to-use-relative-time-to-access-free-busy-data.md)
+[Use relative time to access free/busy data](how-to-use-relative-time-to-access-free-busy-data.md)
 

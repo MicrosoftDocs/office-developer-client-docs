@@ -1,5 +1,5 @@
 ---
-title: "How to Work with Digital Signatures"
+title: "Work with Digital Signatures"
  
  
 manager: soliver
@@ -14,7 +14,7 @@ ms.assetid: fd13fb71-aecf-47bb-8a6b-db70bd90ceeb
 description: "The object model of the Microsoft.Office.InfoPath namespace provides features for working with digital signatures programmatically."
 ---
 
-# How to: Work with Digital Signatures
+# Work with Digital Signatures
 
 The object model of the [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) namespace provides features for working with digital signatures programmatically. 
   

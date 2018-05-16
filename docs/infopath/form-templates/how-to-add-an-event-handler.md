@@ -1,5 +1,5 @@
 ---
-title: "How to Add an Event Handler"
+title: "Add an Event Handler"
  
  
 manager: soliver
@@ -14,7 +14,7 @@ ms.assetid: d69393fb-fb5a-4edb-abc0-38f5d7e80bcc
 description: "This topic describes the procedures for adding event handlers to an Microsoft InfoPath managed code form template using Visual Studio 2012. To add an event handler to a form template, you start with the form template open in the InfoPath Designer, and then select the appropriate user interface command for the event you want to write code for. After you select the command for an event in the InfoPath Designer, the focus automatically switches to the skeleton event handler for that event in the Visual Studio 2012 code editor."
 ---
 
-# How to: Add an Event Handler
+# Add an Event Handler
 
 This topic describes the procedures for adding event handlers to an Microsoft InfoPath managed code form template using Visual Studio 2012. To add an event handler to a form template, you start with the form template open in the InfoPath Designer, and then select the appropriate user interface command for the event you want to write code for. After you select the command for an event in the InfoPath Designer, the focus automatically switches to the skeleton event handler for that event in the Visual Studio 2012 code editor.
   

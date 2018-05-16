@@ -66,5 +66,5 @@ Call **MAPICrashRecovery** with the **MAPICRASH_RECOVER** and **MAPICRASH_SYSTEM
 
 [About the MAPI Crash Recovery API](about-the-mapi-crash-recovery-api.md)
   
-[How to: Use the MAPI Crash Recovery API](how-to-use-the-mapi-crash-recovery-api.md)
+[Use the MAPI Crash Recovery API](how-to-use-the-mapi-crash-recovery-api.md)
 

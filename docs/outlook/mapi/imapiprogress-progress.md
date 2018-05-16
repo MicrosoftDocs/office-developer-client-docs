@@ -66,7 +66,7 @@ Not all three of the parameters to **IMAPIProgress::Progress** are required. The
   
 If you are copying all messages in a single folder, set  _ulTotal_ to the total number of messages being copied. If you are copying a folder, set  _ulTotal_ to the number of subfolders in the folder. If the folder to be copied contains no subfolders and only messages, set  _ulTotal_ to 1. 
   
-For more information about how and when to make calls to a progress object, see [How to: Display a Progress Indicator](how-to-display-a-progress-indicator.md).
+For more information about how and when to make calls to a progress object, see [Display a Progress Indicator](how-to-display-a-progress-indicator.md).
   
 ## MFCMAPI Reference
 
@@ -87,7 +87,7 @@ For MFCMAPI sample code, see the following table.
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
   
-[How to: Display a Progress Indicator](how-to-display-a-progress-indicator.md)
+[Display a Progress Indicator](how-to-display-a-progress-indicator.md)
   
 [Implementing a Progress Indicator](implementing-a-progress-indicator.md)
 

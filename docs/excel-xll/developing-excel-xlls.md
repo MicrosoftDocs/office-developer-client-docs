@@ -30,7 +30,7 @@ The C API has none of the higher-level rapid development features of Microsoft V
   
 [Accessing XLL Code in Excel](accessing-xll-code-in-excel.md)
   
-[How to: Call XLL Functions from the Function Wizard or Replace Dialog Boxes](how-to-call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes.md)
+[Call XLL Functions from the Function Wizard or Replace Dialog Boxes](how-to-call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes.md)
   
 [Calling into Excel from the DLL or XLL](calling-into-excel-from-the-dll-or-xll.md)
   
@@ -48,7 +48,7 @@ The C API has none of the higher-level rapid development features of Microsoft V
   
 [Displaying Dialog Boxes from Within a DLL or XLL](displaying-dialog-boxes-from-within-a-dll-or-xll.md)
   
-[How to: Access Excel Instance and Main Window Handles](how-to-access-excel-instance-and-main-window-handles.md)
+[Access Excel Instance and Main Window Handles](how-to-access-excel-instance-and-main-window-handles.md)
   
 [Backward Compatibility](backward-compatibility.md)
   

@@ -444,7 +444,7 @@ Additional settings are managed by SharePoint Server 2013 for each Project Web A
 
 - [Prerequisites for WCF-based code samples in Project](prerequisites-for-wcf-based-code-samples-in-project.md)
     
-- [How to: Use Impersonation with WCF](http://msdn.microsoft.com/library/e3597901-2f02-44a2-8076-d32aae540b38%28Office.15%29.aspx)
+- [Use Impersonation with WCF](http://msdn.microsoft.com/library/e3597901-2f02-44a2-8076-d32aae540b38%28Office.15%29.aspx)
     
 - [Project PSI reference overview](project-psi-reference-overview.md)
     

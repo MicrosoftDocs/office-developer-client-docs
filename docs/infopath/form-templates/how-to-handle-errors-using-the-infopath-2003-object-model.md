@@ -1,5 +1,5 @@
 ---
-title: "How to Handle Errors Using the InfoPath 2003 Object Model"
+title: "Handle Errors Using the InfoPath 2003 Object Model"
  
  
 manager: soliver
@@ -14,7 +14,7 @@ ms.assetid: eeb05205-d6f4-4931-b9a9-55a663bb1a25
 description: "When creating custom applications, developers must often perform error handling that involves writing programming code to check for errors raised by the application or to create and raise custom errors. The InfoPath 2003-compatible object model supports error handling through the use of the ErrorObject object in association with the ErrorsCollection collection."
 ---
 
-# How to: Handle Errors Using the InfoPath 2003 Object Model
+# Handle Errors Using the InfoPath 2003 Object Model
 
 When creating custom applications, developers must often perform error handling that involves writing programming code to check for errors raised by the application or to create and raise custom errors. The InfoPath 2003-compatible object model supports error handling through the use of the [ErrorObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ErrorObject.aspx) object in association with the [ErrorsCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ErrorsCollection.aspx) collection. 
   

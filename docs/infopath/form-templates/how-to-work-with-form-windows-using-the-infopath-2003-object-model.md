@@ -1,5 +1,5 @@
 ---
-title: "How to Work with Form Windows Using the InfoPath 2003 Object Model"
+title: "Work with Form Windows Using the InfoPath 2003 Object Model"
  
  
 manager: soliver
@@ -15,7 +15,7 @@ ms.assetid: fbcf3a04-ee0f-40a6-8edd-583ae203e2e1
 description: "When working programmatically with an InfoPath form, you can write code to access the form's windows, and then customize some of the items that they contain. The InfoPath 2003-compatible object model supports access to a form's windows through the use of the WindowObject interface in association with the WindowsCollection interface."
 ---
 
-# How to: Work with Form Windows Using the InfoPath 2003 Object Model
+# Work with Form Windows Using the InfoPath 2003 Object Model
 
 When working programmatically with an InfoPath form, you can write code to access the form's windows, and then customize some of the items that they contain. The InfoPath 2003-compatible object model supports access to a form's windows through the use of the [WindowObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.WindowObject.aspx) interface in association with the [WindowsCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.WindowsCollection.aspx) interface. 
   

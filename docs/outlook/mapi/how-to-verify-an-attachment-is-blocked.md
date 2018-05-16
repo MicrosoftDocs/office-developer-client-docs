@@ -1,5 +1,5 @@
 ---
-title: "How to Verify an Attachment is Blocked"
+title: "Verify an Attachment is Blocked"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,7 +10,7 @@ description: "Last modified: June 25, 2012"
  
 ---
 
-# How to: Verify an Attachment is Blocked
+# Verify an Attachment is Blocked
 
   
   

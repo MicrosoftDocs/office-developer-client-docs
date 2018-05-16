@@ -1,5 +1,5 @@
 ---
-title: "How to Detect the Version of Exchange Server in an Outlook Profile"
+title: "Detect the Version of Exchange Server in an Outlook Profile"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,7 +10,7 @@ description: "Last modified: July 03, 2012"
  
 ---
 
-# How to: Detect the Version of Exchange Server in an Outlook Profile
+# Detect the Version of Exchange Server in an Outlook Profile
 
  
   

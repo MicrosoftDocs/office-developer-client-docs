@@ -58,5 +58,5 @@ This method also resets the enumeration.
   
 [IEnumFBBlock::Skip](ienumfbblock-skip.md)
   
-[How to: Use relative time to access free/busy data](how-to-use-relative-time-to-access-free-busy-data.md)
+[Use relative time to access free/busy data](how-to-use-relative-time-to-access-free-busy-data.md)
 

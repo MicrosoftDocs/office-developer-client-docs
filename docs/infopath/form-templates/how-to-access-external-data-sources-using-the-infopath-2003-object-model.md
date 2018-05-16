@@ -1,5 +1,5 @@
 ---
-title: "How to Access External Data Sources Using the InfoPath 2003 Object Model"
+title: "Access External Data Sources Using the InfoPath 2003 Object Model"
  
  
 manager: soliver
@@ -14,7 +14,7 @@ ms.assetid: 9fd9ca47-abf1-48dd-8668-dfee27161793
 description: "When working with an InfoPath form template that uses the InfoPath 2003 compatible object model, you can write code to access the form's secondary data sources and manipulate the data that they contain."
 ---
 
-# How to: Access External Data Sources Using the InfoPath 2003 Object Model
+# Access External Data Sources Using the InfoPath 2003 Object Model
 
 When working with an InfoPath form template that uses the InfoPath 2003 compatible object model, you can write code to access the form's secondary data sources and manipulate the data that they contain.
   

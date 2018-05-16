@@ -1,5 +1,5 @@
 ---
-title: "How to Programmatically Create a Profile in Outlook"
+title: "Programmatically Create a Profile in Outlook"
 manager: soliver
 ms.date: 6/2/2016
 ms.audience: Developer
@@ -10,7 +10,7 @@ description: "This topic describes how to programmatically update a profile in O
  
 ---
 
-# How to: Programmatically Create a Profile in Outlook
+# Programmatically Create a Profile in Outlook
 
 This topic describes how to programmatically update a profile in Outlook 2016 by adding a MAPI property to the **emsuid** section of the Profile object. 
   
@@ -319,6 +319,6 @@ Cleanup:
   
 ## See also
 
-[How To: Create an Outlook profile using MFCMAPI](https://msdn.microsoft.com/en-us/library/office/mt723322.aspx)
+[Create an Outlook profile using MFCMAPI](https://msdn.microsoft.com/en-us/library/office/mt723322.aspx)
   
 

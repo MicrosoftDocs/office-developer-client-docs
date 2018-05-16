@@ -21,7 +21,7 @@ This documentation contains the following information:
   
 - [Introduction to the Visio file format (.vsdx)](introduction-to-the-visio-file-formatvsdx.md)
     
-- [How to: Manipulate the Visio file format programmatically](how-to-manipulate-the-visio-file-format-programmatically.md)
+- [Manipulate the Visio file format programmatically](how-to-manipulate-the-visio-file-format-programmatically.md)
     
 - [Schema map](schema-mapvisio-xml.md): Displays the XML schema of the Visio file format.
     

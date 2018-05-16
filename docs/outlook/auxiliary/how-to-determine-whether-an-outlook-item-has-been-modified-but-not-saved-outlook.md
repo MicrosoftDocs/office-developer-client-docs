@@ -1,5 +1,5 @@
 ---
-title: "How to Determine whether an Outlook item has been modified but not saved (Outlook Auxiliary Reference)"
+title: "Determine whether an Outlook item has been modified but not saved (Outlook Auxiliary Reference)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 65fba557-5fb0-42de-8715-eccda1f3c648
 description: "This topic shows how to use the dispidFDirty dispatch ID to invoke the corresponding property on an Outlook item, to see whether the item has been modified and has not been saved."
 ---
 
-# How to: Determine whether an Outlook item has been modified but not saved (Outlook Auxiliary Reference)
+# Determine whether an Outlook item has been modified but not saved (Outlook Auxiliary Reference)
 
 This topic shows how to use the **dispidFDirty** dispatch ID to invoke the corresponding property on an Outlook item, to see whether the item has been modified and has not been saved. 
   

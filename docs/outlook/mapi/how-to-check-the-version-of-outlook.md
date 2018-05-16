@@ -1,5 +1,5 @@
 ---
-title: "How to Check the Version of Outlook"
+title: "Check the Version of Outlook"
 manager: soliver
 ms.date: 12/7/2015
 ms.audience: Developer
@@ -10,7 +10,7 @@ description: "Last modified: December 07, 2015"
  
 ---
 
-# How to: Check the Version of Outlook
+# Check the Version of Outlook
 
  
   

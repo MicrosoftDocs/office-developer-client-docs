@@ -63,5 +63,5 @@ A free/busy provider can also subsequently use the returned [IEnumFBBlock](ienum
   
 [IFreeBusyData::SetFBRange](ifreebusydata-setfbrange.md)
   
-[How to: Use relative time to access free/busy data](how-to-use-relative-time-to-access-free-busy-data.md)
+[Use relative time to access free/busy data](how-to-use-relative-time-to-access-free-busy-data.md)
 

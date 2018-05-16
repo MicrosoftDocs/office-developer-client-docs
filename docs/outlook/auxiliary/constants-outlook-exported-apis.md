@@ -52,9 +52,9 @@ Outlook exposes the following dispatch identifiers (dispids) so that developers 
   
 [About APIs exported by Outlook](about-apis-exported-by-outlook.md)
   
-[How to: Determine whether an Outlook item has been modified but not saved (Outlook Auxiliary Reference)](how-to-determine-whether-an-outlook-item-has-been-modified-but-not-saved-outlook.md)
+[Determine whether an Outlook item has been modified but not saved (Outlook Auxiliary Reference)](how-to-determine-whether-an-outlook-item-has-been-modified-but-not-saved-outlook.md)
   
-[How to: Specify whether to display a contact's picture in Outlook (Outlook Auxiliary Reference)](https://msdn.microsoft.com/en-us/library/office/gg262879.aspx)
+[Specify whether to display a contact's picture in Outlook (Outlook Auxiliary Reference)](https://msdn.microsoft.com/en-us/library/office/gg262879.aspx)
   
 [Available events and their dispids (Outlook exported APIs)](available-events-and-their-dispids-outlook-exported-apis.md)
 

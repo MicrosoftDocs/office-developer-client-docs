@@ -1,5 +1,5 @@
 ---
-title: "How to Work with Information Rights Management Settings"
+title: "Work with Information Rights Management Settings"
  
  
 manager: soliver
@@ -14,7 +14,7 @@ ms.assetid: 4ad91898-b23e-4410-8839-a65259e53d37
 description: "There are two types of Information Rights Management (IRM) settings available in Microsoft InfoPath: one for protecting access to InfoPath form templates, and one for controlling access to and actions on form data contained in completed forms."
 ---
 
-# How to: Work with Information Rights Management Settings
+# Work with Information Rights Management Settings
 
 There are two types of Information Rights Management (IRM) settings available in Microsoft InfoPath: one for protecting access to InfoPath form templates, and one for controlling access to and actions on form data contained in completed forms.
   

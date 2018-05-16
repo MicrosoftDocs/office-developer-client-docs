@@ -158,5 +158,5 @@ Data elements in this stream are stored in little-endian byte order, immediately
 
 [FolderUserFields Stream Sample](folderuserfields-stream-sample.md)
   
-[How to: Add a Definition for a New User-Defined Field](how-to-add-a-definition-for-a-new-user-defined-field.md)
+[Add a Definition for a New User-Defined Field](how-to-add-a-definition-for-a-new-user-defined-field.md)
 

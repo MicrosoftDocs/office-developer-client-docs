@@ -1,5 +1,5 @@
 ---
-title: "How to Add and Reference Custom Assemblies"
+title: "Add and Reference Custom Assemblies"
  
  
 manager: soliver
@@ -14,7 +14,7 @@ ms.assetid: 20e1f43e-8279-48fc-8f34-16a2729dbc9b
 description: "When you add a reference to a custom assembly in a managed-code form template project, that assembly is included within the form template file (.xsn) when your project is compiled and published."
 ---
 
-# How to: Add and Reference Custom Assemblies
+# Add and Reference Custom Assemblies
 
 When you add a reference to a custom assembly in a managed-code form template project, that assembly is included within the form template file (.xsn) when your project is compiled and published.
   
@@ -36,5 +36,5 @@ If you do want to move custom assemblies that you reference to a location within
 
 #### Tasks
 
-[How to: Create a Form Template Using the InfoPath 2003 Object Model](how-to-create-a-form-template-using-the-infopath-2003-object-model.md)
+[Create a Form Template Using the InfoPath 2003 Object Model](how-to-create-a-form-template-using-the-infopath-2003-object-model.md)
 

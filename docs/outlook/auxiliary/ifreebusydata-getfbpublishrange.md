@@ -52,7 +52,7 @@ A free/busy provider calls [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.
 
 #### Concepts
 
-[How to: Use relative time to access free/busy data](how-to-use-relative-time-to-access-free-busy-data.md)
+[Use relative time to access free/busy data](how-to-use-relative-time-to-access-free-busy-data.md)
   
 [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md)
   

@@ -44,5 +44,5 @@ Outlook 2010 and Outlook 2013 solutions can query this interface to see if an at
 
 [MAPI Constants](mapi-constants.md)
   
-[How to: Verify an Attachment is Blocked](how-to-verify-an-attachment-is-blocked.md)
+[Verify an Attachment is Blocked](how-to-verify-an-attachment-is-blocked.md)
 

@@ -1,5 +1,5 @@
 ---
-title: "How to Call XLL Functions from the Function Wizard or Replace Dialog Boxes"
+title: "Call XLL Functions from the Function Wizard or Replace Dialog Boxes"
  
  
 manager: soliver
@@ -14,7 +14,7 @@ ms.assetid: dc7e840e-6d1d-427b-97f9-7912e60ec954
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---
 
-# How to: Call XLL Functions from the Function Wizard or Replace Dialog Boxes
+# Call XLL Functions from the Function Wizard or Replace Dialog Boxes
 
  **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   

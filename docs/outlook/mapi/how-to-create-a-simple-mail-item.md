@@ -1,5 +1,5 @@
 ---
-title: "How to Create a Simple Mail Item"
+title: "Create a Simple Mail Item"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
  
 ---
 
-# How to: Create a Simple Mail Item
+# Create a Simple Mail Item
 
   
   
@@ -20,7 +20,7 @@ description: "Last modified: July 23, 2011"
   
 MAPI can be used to create and send a message that requests a read receipt. When a read receipt is requested, the messaging system generates and returns a read report to the sender when the recipient opens the message.
   
-For information about how to download, view, and run the code from the MFCMAPI application and CreateOutlookItemsAddin project referenced in this topic, see [How to: Install the Samples Used in This Section](how-to-install-the-samples-used-in-this-section.md).
+For information about how to download, view, and run the code from the MFCMAPI application and CreateOutlookItemsAddin project referenced in this topic, see [Install the Samples Used in This Section](how-to-install-the-samples-used-in-this-section.md).
   
 ### 
 

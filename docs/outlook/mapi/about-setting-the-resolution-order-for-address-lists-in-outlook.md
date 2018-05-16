@@ -22,7 +22,7 @@ MAPI supports the **[SetSearchPath](iaddrbook-getsearchpath.md)** method in the 
   
 The following are code examples of how to specify a custom search path for address lists.
   
-- [How to: Programmatically Set the Resolution Order for Address Lists](how-to-programmatically-set-the-resolution-order-for-address-lists.md)
+- [Programmatically Set the Resolution Order for Address Lists](how-to-programmatically-set-the-resolution-order-for-address-lists.md)
     
 - [KB 292590: How To Change Address Book Sort Order with SetSearchPath](http://support.microsoft.com/kb/292590)
     

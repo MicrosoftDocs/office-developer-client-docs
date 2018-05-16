@@ -79,5 +79,5 @@ Because the **MAPI_NATIVE_BODY** flag cannot be combined with the **MAPI_MODIFY*
 
 #### Concepts
 
-[How to: Retrieve the Body of a Message in Compressed RTF and Convert It to Its Native Format](how-to-retrieve-the-body-of-a-message-in-compressed-rtf-and-convert.md)
+[Retrieve the Body of a Message in Compressed RTF and Convert It to Its Native Format](how-to-retrieve-the-body-of-a-message-in-compressed-rtf-and-convert.md)
 

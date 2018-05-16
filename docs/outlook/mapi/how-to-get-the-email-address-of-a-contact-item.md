@@ -1,5 +1,5 @@
 ---
-title: "How to Get the Email Address of a Contact Item"
+title: "Get the Email Address of a Contact Item"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,7 +10,7 @@ description: "Last modified: June 25, 2012"
  
 ---
 
-# How to: Get the Email Address of a Contact Item
+# Get the Email Address of a Contact Item
 
   
   

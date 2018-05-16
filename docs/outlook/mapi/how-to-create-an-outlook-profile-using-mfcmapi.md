@@ -1,5 +1,5 @@
 ---
-title: "How to Create an Outlook profile using MFCMAPI"
+title: "Create an Outlook profile using MFCMAPI"
 ms.date: 5/18/2016
 ms.audience: Developer
 localization_priority: Normal
@@ -9,7 +9,7 @@ description: "MFCMAPI provides access to MAPI stores to facilitate investigation
  
 ---
 
-# How to: Create an Outlook profile using MFCMAPI
+# Create an Outlook profile using MFCMAPI
 
 MFCMAPI provides access to MAPI stores to facilitate investigation of Exchange and Outlook issues and to provide developers with support for MAPI development.
   
@@ -112,6 +112,6 @@ For Troubleshooting tips, see [How to configure an Outlook profile using MFCMAPI
 
 - [Outlook MAPI Reference](https://msdn.microsoft.com/en-us/library/office/cc765775.aspx)
     
-- [How to: Programmatically Create a Profile in Outlook](https://msdn.microsoft.com/en-us/library/office/mt707568.aspx)
+- [Programmatically Create a Profile in Outlook](https://msdn.microsoft.com/en-us/library/office/mt707568.aspx)
     
 

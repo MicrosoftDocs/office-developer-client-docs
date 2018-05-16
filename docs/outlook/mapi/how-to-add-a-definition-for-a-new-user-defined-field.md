@@ -1,5 +1,5 @@
 ---
-title: "How to Add a Definition for a New User-Defined Field"
+title: "Add a Definition for a New User-Defined Field"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,7 +10,7 @@ description: "Last modified: July 23, 2011"
  
 ---
 
-# How to: Add a Definition for a New User-Defined Field
+# Add a Definition for a New User-Defined Field
 
   
   

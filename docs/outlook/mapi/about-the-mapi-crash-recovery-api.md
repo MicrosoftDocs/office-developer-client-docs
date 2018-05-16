@@ -34,5 +34,5 @@ Functions:
 
 #### Concepts
 
-[How to: Use the MAPI Crash Recovery API](how-to-use-the-mapi-crash-recovery-api.md)
+[Use the MAPI Crash Recovery API](how-to-use-the-mapi-crash-recovery-api.md)
 

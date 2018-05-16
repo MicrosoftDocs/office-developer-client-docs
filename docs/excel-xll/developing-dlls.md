@@ -205,7 +205,7 @@ Note that the directive must be placed within the body of the function and is on
 
 #### Concepts
 
-[How to: Access DLLs in Excel](how-to-access-dlls-in-excel.md)
+[Access DLLs in Excel](how-to-access-dlls-in-excel.md)
   
 [Calling into Excel from the DLL or XLL](calling-into-excel-from-the-dll-or-xll.md)
   

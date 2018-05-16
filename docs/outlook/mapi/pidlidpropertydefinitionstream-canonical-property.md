@@ -58,7 +58,7 @@ Mapidefs.h
 
 [Outlook Items and Fields](outlook-items-and-fields.md)
   
-[How to: Add a Definition for a New User-Defined Field](how-to-add-a-definition-for-a-new-user-defined-field.md)
+[Add a Definition for a New User-Defined Field](how-to-add-a-definition-for-a-new-user-defined-field.md)
   
 [PropertyDefinition Stream Sample](propertydefinition-stream-sample.md)
   

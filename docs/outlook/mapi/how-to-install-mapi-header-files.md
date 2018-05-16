@@ -1,5 +1,5 @@
 ---
-title: "How to Install MAPI Header Files"
+title: "Install MAPI Header Files"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
  
 ---
 
-# How to: Install MAPI Header Files
+# Install MAPI Header Files
 
   
   
@@ -32,7 +32,7 @@ For a list of MAPI header files, see [Commonly Used Header Files](commonly-used-
 
 [MAPI Programming Overview](mapi-programming-overview.md)
   
-[How to: Link to MAPI Functions](how-to-link-to-mapi-functions.md)
+[Link to MAPI Functions](how-to-link-to-mapi-functions.md)
   
 [Commonly Used Header Files](commonly-used-header-files.md)
 

@@ -44,7 +44,7 @@ MAPI applications include standalone applications such as Microsoft Communicator
 |64-bit  <br/> |64-bit  <br/> |64-bit  <br/> |No specific action is necessary.  <br/> |
 |64-bit  <br/> |32-bit  <br/> |32-bit or 64-bit  <br/> |Rebuild the application as a 32-bit application. Otherwise, all MAPI method and function calls (except for **MAPISendMail**) will fail.  <br/> |
    
-The following sections further explain each scenario. For scenarios that require rebuilding the MAPI application, see [How to: Link to MAPI Functions](how-to-link-to-mapi-functions.md) for additional information regarding linking to and calling MAPI functions. 
+The following sections further explain each scenario. For scenarios that require rebuilding the MAPI application, see [Link to MAPI Functions](how-to-link-to-mapi-functions.md) for additional information regarding linking to and calling MAPI functions. 
   
 ### 32-Bit MAPI Application and 32-Bit Outlook
 
@@ -80,5 +80,5 @@ However, one function call among all Simple MAPI and MAPI elements, **MAPISendMa
 
 #### Concepts
 
-[How to: Link to MAPI Functions](how-to-link-to-mapi-functions.md)
+[Link to MAPI Functions](how-to-link-to-mapi-functions.md)
 

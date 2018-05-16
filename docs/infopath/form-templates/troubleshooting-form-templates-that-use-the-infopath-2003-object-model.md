@@ -30,11 +30,11 @@ This section contains tips for solving common problems that you might encounter 
     
 ## Related sections
 
-[How to: Deploy InfoPath Form Templates with Code](how-to-deploy-infopath-form-templates-with-code.md)
+[Deploy InfoPath Form Templates with Code](how-to-deploy-infopath-form-templates-with-code.md)
   
 > Provides information on deploying your solutions, including security concerns as well as issues to consider when choosing a deployment model.
     
-[How to: Handle Errors Using the InfoPath 2003 Object Model](how-to-handle-errors-using-the-infopath-2003-object-model.md)
+[Handle Errors Using the InfoPath 2003 Object Model](how-to-handle-errors-using-the-infopath-2003-object-model.md)
   
 > Explains how to handle errors in InfoPath managed-code solutions.
     
