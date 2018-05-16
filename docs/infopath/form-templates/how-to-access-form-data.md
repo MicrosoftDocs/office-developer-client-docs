@@ -1,14 +1,10 @@
 ---
 title: "How to Access Form Data"
- 
- 
 manager: soliver
 ms.date: 12/7/2015
 ms.audience: Developer
- 
 keywords:
 - form data [infopath 2007],forms [InfoPath 2007], accessing properties,form templates [InfoPath 2007], accessing properties,opening forms [InfoPath 2007],printing forms [InfoPath 2007],forms [InfoPath 2007], printing,closing forms [InfoPath 2007],InfoPath 2007, accessing form data,forms [InfoPath 2007], accessing data source,forms [InfoPath 2007], closing,forms [InfoPath 2007], opening,printing [InfoPath 2007], forms,forms [InfoPath 2007], creating
- 
 localization_priority: Normal
 ms.assetid: fd7374d3-a268-4e30-9872-7579cd681bd0
 description: "When you want to extend the functionality of an InfoPath form, it is often necessary to programmatically access information about the form's underlying XML document, access the data that the XML document contains, or perform some action on the XML document. The InfoPath object model supports accessing and manipulating a form's underlying XML document through the use of the XmlForm class in association with the XmlFormCollection class."
@@ -61,7 +57,7 @@ The [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFo
 |[DataSources](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.DataSources.aspx) property  <br/> |Gets the [DataSourceCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.aspx) object associated with the form.  <br/> |
 |[Dirty](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Dirty.aspx) property  <br/> |Gets a value that indicates whether the data in a form has been modified since it was last saved.  <br/> |
 |[Errors](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Errors.aspx) property  <br/> |Gets a reference to the [FormErrorCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.aspx) that is associated with a form.  <br/> |
-|[Extension](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Extension.aspx) property  <br/> |Gets an [System.Object](https://msdn.microsoft.com/library/system.object%28v=vs.110%29.aspx) for accessing the functions and global variables contained in a form's primary form code file using [System.Reflection](N:System.Reflection).  <br/> |
+|[Extension](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Extension.aspx) property  <br/> |Gets an [System.Object](https://msdn.microsoft.com/library/system.object%28v=vs.110%29.aspx) for accessing the functions and global variables contained in a form's primary form code file using [System.Reflection](https://msdn.microsoft.com/en-us/library/system.reflection(v=vs.110).aspx).  <br/> |
 |[FormState](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.FormState.aspx) property  <br/> |Gets a reference to a property bag of type [System.Collections.IDictionary](https://msdn.microsoft.com/library/system.collections.idictionary%28v=vs.110%29.aspx) that browser-enabled forms can use to maintain state information across sessions on the server.  <br/> |
 |[Host](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Host.aspx) property  <br/> |Gets a [System.Object](https://msdn.microsoft.com/library/system.object%28v=vs.110%29.aspx) that code running in a hosted instance of InfoPath can use to access the object model of the host application.  <br/> |
 |[Hosted](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Hosted.aspx) property  <br/> |Gets whether InfoPath is hosted as a control in another application.  <br/> |
@@ -95,7 +91,7 @@ XmlFormCollection myForms = this.Application.XmlForms;
 MessageBox.Show("Forms open: " + myForms.Count);
 ```
 
-```VB.net
+```vb
 // Create variable for accessing the XmlFormCollection.
 Dim myForms As XmlFormCollection = Me.Application.XmlForms
 ' Display the number of forms that are currently open.
@@ -120,7 +116,7 @@ MessageBox.Show(
    "Form URI: " + this.Uri);
 ```
 
-```VB.net
+```vb
 MessageBox.Show( _
    "Is new: " &amp; Me.New &amp; System.Environment.NewLine &amp; _
    "Is read-only: " &amp; Me.ReadOnly &amp; System.Environment.NewLine + _
@@ -130,7 +126,7 @@ MessageBox.Show( _
 
 ### Accessing a Form's Data Source
 
-A key property of the **XmlForm** class with respect to form data is the **MainDataSource** property. This property returns a reference to a [DataSource](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.aspx) object that represents the underlying XML data of the current form, which is also referred to as the form's main or primary data source. The **DataSource** class provides the [CreateNavigator](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.CreateNavigator.aspx) method, which creates a [XPathNavigator](T:System.Xml.XPath.XPathNavigator) object positioned at the root of the form's underlying XML document. The properties and methods of the **XPathNavigator** class can then be used to navigate and edit the form's underlying XML data. 
+A key property of the **XmlForm** class with respect to form data is the **MainDataSource** property. This property returns a reference to a [DataSource](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.aspx) object that represents the underlying XML data of the current form, which is also referred to as the form's main or primary data source. The **DataSource** class provides the [CreateNavigator](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.CreateNavigator.aspx) method, which creates a [XPathNavigator](https://msdn.microsoft.com/library/system.xml.xpath.xpathnavigator%28v=vs.110%29.aspx) object positioned at the root of the form's underlying XML document. The properties and methods of the **XPathNavigator** class can then be used to navigate and edit the form's underlying XML data. 
   
 The following example uses the **MainDataSource** property of the **XmlForm** class to create an **XPathNavigator** object positioned at the root of the form's main data source. The **OuterXml** property of the **XPathNavigator** class is then used to return and display all of the contents of a form's underlying XML document. 
   
@@ -141,7 +137,7 @@ string myDoc = this.MainDataSource.CreateNavigator.OuterXml.ToString();
 MessageBox.Show(myDoc);
 ```
 
-```VB.net
+```vb
 ' Get outer XML of the underlying XML document.
 Dim myDoc As String myDoc = _
    Me.MainDataSource.CreateNavigator.OuterXml.ToString()
@@ -171,7 +167,7 @@ MessageBox.Show(this.Template.Manifest.OuterXml,
    "Form Definition File XML");
 ```
 
-```VB.net
+```vb
 ' Display form template properties.
 MessageBox.Show( _
    "Cache ID: " &amp; Me.Template.CacheId &amp; System.Environment.NewLine &amp;
