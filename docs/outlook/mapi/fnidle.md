@@ -1,7 +1,5 @@
 ---
 title: "FNIDLE"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -17,9 +15,7 @@ description: "Last modified: March 09, 2015"
 ---
 
 # FNIDLE
-
-  
-  
+ 
 **Applies to**: Outlook 
   
 Defines an idle routine that the MAPI idle engine calls periodically according to priority. 
@@ -57,7 +53,7 @@ The client or provider must limit the execution time of each state of an idle ro
   
 The client or provider must call the MAPI function [MAPIInitIdle](mapiinitidle.md) before it can register its own idle routine with a call to the [FtgRegisterIdleRoutine](ftgregisteridleroutine.md) function. 
   
-The following functions deal with the MAPI idle engine and with idle routines based on the [FNIDLE](#_mapi1book_fnidle) function prototype: 
+The following functions deal with the MAPI idle engine and with idle routines based on the FNIDLE function prototype: 
   
 |**Idle routine function**|**Usage**|
 |:-----|:-----|
@@ -68,7 +64,7 @@ The following functions deal with the MAPI idle engine and with idle routines ba
 |[MAPIDeInitIdle](mapideinitidle.md) <br/> |Shuts down the MAPI idle engine for the calling application.  <br/> |
 |[MAPIInitIdle](mapiinitidle.md) <br/> |Initializes the MAPI idle engine for the calling application.  <br/> |
    
- **ChangeIdleRoutine**, **DeregisterIdleRoutine**, and **EnableIdleRoutine** take as an input parameter the function tag returned by **FtgRegisterIdleRoutine**. 
+**ChangeIdleRoutine**, **DeregisterIdleRoutine**, and **EnableIdleRoutine** take as an input parameter the function tag returned by **FtgRegisterIdleRoutine**. 
   
 When all foreground tasks for the platform become idle, the MAPI idle engine calls the highest priority idle routine that is ready to execute. There is no guarantee of calling order among idle routines of the same priority. 
   
