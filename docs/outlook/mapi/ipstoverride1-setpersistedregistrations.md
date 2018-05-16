@@ -18,9 +18,9 @@ description: "Last modified: November 08, 2011"
 
 # IPSTOVERRIDE1::SetPersistedRegistrations
 
- **Last modified:** November 08, 2011 
+ 
   
- * **Applies to:** Outlook * 
+**Applies to**: Outlook 
   
 Registers Personal Folders (.pst) files for automatic unlocking, avoiding further calls to the HrTrustedPSTOverrideHandlerCallback.
   

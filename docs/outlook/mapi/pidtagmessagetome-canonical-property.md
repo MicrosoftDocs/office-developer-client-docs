@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagMessageToMe Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains TRUE if this messaging user is specifically named as a primary (To) recipient of this message and is not part of a distribution list. 
   

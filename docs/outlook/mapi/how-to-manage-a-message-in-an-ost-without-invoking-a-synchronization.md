@@ -12,9 +12,9 @@ description: "Last modified: July 23, 2011"
 
 # How to: Manage a Message in an OST Without Invoking a Synchronization in Cached Exchange Mode
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 This topic contains a code sample in C++ that shows how to use  `IID_IMessageRaw` in **[IMsgStore::OpenEntry](imsgstore-openentry.md)** to obtain an **[IMessage](imessageimapiprop.md)** interface that manages a message in an offline folders file (OST) without forcing a download of the whole message when the client is in Cached Exchange Mode. 
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagRoamingDatatypes Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a bitmask that indicates which stream properties exist on the message.
   

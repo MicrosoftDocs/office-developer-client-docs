@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Displaying Configuration Property Sheets
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Transport providers use the [IMAPISupport::DoConfigPropsheet](imapisupport-doconfigpropsheet.md) method to implement configuration property sheets. When calling **DoConfigPropSheet**, the transport provider passes in a pointer to an array of properties along with information about how to display them. MAPI then presents the properties to the user by means of a standard dialog box. You are strongly encouraged to use this property sheet mechanism when implementing your transport provider due to the benefit to the user of a consistent interface.
   

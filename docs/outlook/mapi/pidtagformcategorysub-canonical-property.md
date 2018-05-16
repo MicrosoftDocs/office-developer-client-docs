@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagFormCategorySub Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the subcategory of a form, as defined by a client application. 
   

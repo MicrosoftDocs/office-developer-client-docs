@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # FEqualNames
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Determines whether two MAPI named properties are the same. 
   

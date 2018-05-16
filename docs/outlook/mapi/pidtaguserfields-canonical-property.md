@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagUserFields Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the name, data type, and other information about a user-defined field.
   

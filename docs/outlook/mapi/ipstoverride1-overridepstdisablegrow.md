@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IPSTOVERRIDE1::OverridePSTDisableGrow
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Unlocks a Personal Folders (.pst) file for a session, overriding the PSTDisableGrow policy.
   

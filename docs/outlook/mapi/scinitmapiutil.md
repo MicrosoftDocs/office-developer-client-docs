@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # ScInitMapiUtil
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Replaces [MAPIInitialize](mapiinitialize.md) when only select utility functions are being used. 
   

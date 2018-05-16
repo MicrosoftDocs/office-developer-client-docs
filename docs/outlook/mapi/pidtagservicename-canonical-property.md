@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagServiceName Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the name of a message service as set by the user in the MapiSvc.inf file.
   

@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Updating MAPI Properties
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Clients and service providers can update a property value by calling:
   

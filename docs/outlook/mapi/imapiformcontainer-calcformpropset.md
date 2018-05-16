@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMAPIFormContainer::CalcFormPropSet
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Returns an array of the properties used by all forms installed in a form container.
   

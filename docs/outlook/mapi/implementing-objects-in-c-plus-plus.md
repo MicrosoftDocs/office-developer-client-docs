@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Implementing Objects in C++
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 C++ clients and service providers define MAPI objects by creating classes that inherit from the interfaces they are implementing. Each of the interface methods is public, as are the constructor and destructor for the class. If the class has additional methods, they can be public or private, depending on the implementation. All data members are private. 
   

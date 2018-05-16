@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidAutoLog Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies whether to create a journal for each action associated with this contact.
   

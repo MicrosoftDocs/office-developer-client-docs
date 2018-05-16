@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Transport Provider Overview
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 A transport provider is a dynamic-link library (DLL) which acts as an intermediary between the MAPI subsystem and one or more underlying messaging systems. A messaging system is some specific mechanism by which messages are sent and received. Some examples of messaging systems are:
   

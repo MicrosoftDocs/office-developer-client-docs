@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # How to: Choose a Specific Version of MAPI to Load
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 When linking explicitly to an implementation of MAPI, you must carefully select which implementation to load. 
   

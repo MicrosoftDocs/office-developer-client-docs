@@ -16,9 +16,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagSearchFolderTag Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the value used to synchronize this definition message with the matching search folder container.
   

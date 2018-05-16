@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IFolderSupport : IUnknown
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Provides information about a folder's support for sharing.
   

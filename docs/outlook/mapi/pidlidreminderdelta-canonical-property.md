@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidReminderDelta Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the interval, in minutes, between the time when the reminder first becomes overdue and the start time of the calendar object.
   

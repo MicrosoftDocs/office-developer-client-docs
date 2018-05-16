@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Working with Large Columns
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Columns with string or binary property data can be large, possibly many thousands of bytes long. Because including one or more columns with hundreds of bytes in a view is often impractical, MAPI enables table implementers to truncate the value, most often to 255 bytes and less often to 510 bytes. Whenever possible, table implementers should include the full value of a property in a table column. The recommended alternative is to include only the first 255 bytes.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IPSTOVERRIDEREQ : IUnknown
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Accesses resources of a Personal Folders file (PST) store provider.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IProviderAdmin::GetProviderTable
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Provides access to the message service's provider table, a list of the service providers in the message service.
   

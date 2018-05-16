@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Loading a Message Into a Form
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 To load an existing message into a form using a form server, use one of the following strategies.
   

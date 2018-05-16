@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMAPIViewAdviseSink::OnNewMessage
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Notifies the form viewer that a new or an existing message has been loaded in a form.
   

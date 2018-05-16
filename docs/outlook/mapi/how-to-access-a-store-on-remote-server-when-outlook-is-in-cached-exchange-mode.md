@@ -12,9 +12,9 @@ description: "Last modified: July 02, 2012"
 
 # How to: Access a Store on the Remote Server When Outlook is in Cached Exchange Mode
 
- **Last modified:** July 02, 2012 
+ 
   
- * **Applies to:** Outlook * 
+**Applies to**: Outlook 
   
 This topic contains a code sample in C++ that shows how to use the **MAPI_NO_CACHE** flag to open a folder or a message on a message store on the remote server when Microsoft Office Outlook is in Cached Exchange Mode. 
   

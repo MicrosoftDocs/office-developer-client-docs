@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagAbSearchPathUpdate Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a list of entry identifiers for address book containers explicitly configured by the user. 
   

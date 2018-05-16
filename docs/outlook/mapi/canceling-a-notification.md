@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Canceling a Notification
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 To cancel a notification, clients call an advise source's **Unadvise** method. Calling **Unadvise** is important because it causes the service provider to release its reference to your advise sink. As long as a service provider maintains a reference to an advise sink, the advise sink can continue to receive [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) calls. In fact, because of the asynchronous nature of event notification, clients can be notified even after a successful **Unadvise** call. Clients must be able to handle the receipt of notifications at any time. 
   

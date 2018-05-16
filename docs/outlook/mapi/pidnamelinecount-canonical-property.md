@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidNameLineCount Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the number of lines in the file that is attached to the document.
   

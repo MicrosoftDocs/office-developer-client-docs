@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagSearchFolderTemplateId Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the ID of the template that is being used for the search.
   

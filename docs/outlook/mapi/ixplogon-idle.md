@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IXPLogon::Idle
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Indicates that the system is idle, enabling the transport provider to perform low-priority operations.
   

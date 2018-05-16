@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMSProvider::SpoolerLogon
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Logs the MAPI spooler on to a message store.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagPhysicalForwardingAddress Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the physical forwarding address of a message recipient and is used only with message reports.
   

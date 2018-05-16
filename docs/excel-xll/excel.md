@@ -15,7 +15,7 @@ description: "Find how-to content, sample code, SDK and API documentation, VBA r
 
 Find how-to content, sample code, SDK and API documentation, VBA references, training, and technical articles for developing solutions and customizing Excel.
   
- **Last modified:** December 13, 2017 
+ 
   
  * **Applies to:** Excel 2013 | Excel 2016 * 
   

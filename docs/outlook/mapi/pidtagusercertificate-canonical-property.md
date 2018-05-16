@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagUserCertificate Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains an ASN.1 authentication certificate for a messaging user. 
   

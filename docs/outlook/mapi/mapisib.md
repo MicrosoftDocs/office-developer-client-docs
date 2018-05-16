@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # MAPISIB
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 This structure is used with [IMAPISync::SynchronizeInBackground](imapisyncsynchronizeinbackground.md).
   

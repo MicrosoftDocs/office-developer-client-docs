@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # TNEF Stream Syntax
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 This topic presents a Bakus-Nauer like description of the TNEF stream syntax. In this description, nonterminal elements that have a further definition are in italics. Constants and literal items are in bold. Sequences of elements are listed in order on a single line. For example, the  _Stream_ item consists of the constant **TNEF_SIGNATURE**, followed by a  _Key_, followed by an  _Object_. When an item has more than one possible implementation, the alternatives are listed on consecutive lines. For example, an  _Object_ can consist of a  _Message_Seq_, a  _Message_Seq_ followed by an  _Attach_Seq_, or just an  _Attach_Seq_.
   

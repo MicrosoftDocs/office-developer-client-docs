@@ -12,9 +12,9 @@ description: "Last modified: March 09, 2015"
 
 # About Registering Stores for Indexing
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 This topic is specific to Instant Search in Microsoft Office Outlook 2007.
   

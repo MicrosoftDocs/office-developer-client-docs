@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IProfSect : IMAPIProp
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Works with the properties of profile section objects. 
   

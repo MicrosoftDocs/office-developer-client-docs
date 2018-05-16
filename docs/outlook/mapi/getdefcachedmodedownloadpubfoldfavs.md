@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # GetDefCachedModeDownloadPubFoldFavs
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Indicates whether Cached Exchange Mode for the **Public Folder Favorites** folder is enabled, and whether this is enforced by policy. 
   

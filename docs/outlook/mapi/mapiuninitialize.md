@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # MAPIUninitialize
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Decrements the reference count, cleans up, and deletes per-instance global data for the MAPI DLL. 
   

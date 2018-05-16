@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMSLogon::Logoff
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Logs off a message store provider. 
   

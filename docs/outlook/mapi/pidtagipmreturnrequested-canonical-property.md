@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagIpmReturnRequested Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains TRUE if this message should be returned with a report.
   

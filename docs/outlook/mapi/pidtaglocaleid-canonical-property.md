@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagLocaleId Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Establishes the language locale for translating system-generated messages, such as delivery reports.
   

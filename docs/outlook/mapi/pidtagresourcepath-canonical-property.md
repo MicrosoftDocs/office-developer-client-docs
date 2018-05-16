@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagResourcePath Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a path to the service provider's server.
   

@@ -18,9 +18,9 @@ description: "Last modified: June 26, 2012"
 
 # IMAPISync : SynchronizeInBackground
 
- **Last modified:** June 26, 2012 
+ 
   
- * **Applies to:** Outlook * 
+**Applies to**: Outlook 
   
  Initiates a synchronization. This method is called by Microsoft Outlook 2010 and Microsoft Outlook 2013 and implemented by message store providers. 
   

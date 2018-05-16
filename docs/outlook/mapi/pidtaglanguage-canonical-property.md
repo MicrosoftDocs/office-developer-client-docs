@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagLanguage Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a value that indicates the language in which the messaging user is writing messages.
   

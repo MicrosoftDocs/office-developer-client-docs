@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IPropData::HrSetObjAccess
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Sets the access level for the object.
   

@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IPSTX::GetLastError
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Gets extended information about the last error.
   

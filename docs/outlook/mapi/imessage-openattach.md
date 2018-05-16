@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMessage::OpenAttach
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Opens an attachment. 
   

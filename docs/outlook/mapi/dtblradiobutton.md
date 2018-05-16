@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # DTBLRADIOBUTTON
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Describes one radio button that will be part of a radio button group. The radio button group will be used in a dialog box that is built from a display table.
   

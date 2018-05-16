@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Opening a Message Store
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Depending on the profile, a client will need to open one or more message stores during a typical session. Opening a message store means gaining access to a pointer to its [IMsgStore : IMAPIProp](imsgstoreimapiprop.md) implementation. The **IMsgStore** interface provides methods for notification, making folder assignments, and accessing folders and messages. 
   

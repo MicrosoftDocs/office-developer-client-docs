@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagOtherAddressCountry Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the mail user's other country/region.
   

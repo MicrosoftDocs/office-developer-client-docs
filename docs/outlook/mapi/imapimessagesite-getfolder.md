@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIMessageSite::GetFolder
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Returns the folder in which the current message was created or opened, if such a folder exists. This method returns NULL in the  _ppFolder_ parameter for embedded messages, which are not stored directly in a folder. 
   

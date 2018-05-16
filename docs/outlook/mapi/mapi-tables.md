@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # MAPI Tables
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 A MAPI table is a MAPI object that is used to view a collection of properties belonging to other MAPI objects of a particular type. MAPI tables are structured in a row and column format with each row representing an object and each column representing a property of the object. One of the properties usually included in each row is the **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)) property, an identifier that can be used to open and modify the object. 
   

@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Creating a Message Attachment
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 A message attachment is some additional data, such as a file, another message, or an OLE object, that you can send or save along with a message. Each attachment has a collection of properties that identifies it and describes its type and how it is rendered. Like recipients, message attachments can only be accessed through the message to which they belong. Therefore, for an attachment to be usable, its message must be open.
   

@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Getting and Setting Multiple Properties
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 By getting and setting as many properties as possible with the least number of calls, remote activity is curtailed and the overhead involved with each property is reduced. Although service providers try to collect properties before making a remote procedure call for retrieval or modification, you can optimize this effort by requesting multiple properties to begin with.
   

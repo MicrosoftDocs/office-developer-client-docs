@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidMeetingWorkspaceUrl Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the URL of the meeting workspace that is associated with a calendar object.
   

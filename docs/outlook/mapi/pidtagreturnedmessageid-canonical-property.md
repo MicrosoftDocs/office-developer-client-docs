@@ -16,9 +16,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagReturnedMessageid Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains TRUE if the original message is being returned with a nonread report.
   

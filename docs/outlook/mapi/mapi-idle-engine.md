@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # MAPI Idle Engine
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 MAPI provides several functions that are collectively known as the idle engine. These functions allow clients, address book providers, and message store providers to perform various tasks during slow times in the session or in response to a slow time. For example, clients and service providers can defer slow operations or close files that have remained unused for a lengthy period. Transport providers typically do not use the idle engine because the **IXPLogon::Idle** method takes its place. For more information, see [IXPLogon::Idle](ixplogon-idle.md).
   

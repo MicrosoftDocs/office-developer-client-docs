@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Support Object Overview
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 MAPI furnishes a support object, an object that implements the [IMAPISupport : IUnknown](imapisupportiunknown.md) interface, for all service providers during logon and for all message services during configuration. 
   

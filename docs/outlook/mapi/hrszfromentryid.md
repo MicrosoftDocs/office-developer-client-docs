@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # HrSzFromEntryID
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Encodes an entry identifier into an ASCII string. 
   

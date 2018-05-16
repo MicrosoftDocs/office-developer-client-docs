@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIProgress : IUnknown
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Implements a progress object that provides client applications with a progress indicator. A progress indicator is a user-interface display that shows the percentage of completion of an operation, such as copying folders between message stores. MAPI and client applications implement progress objects and service providers use them. 
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagAlternateRecipientAllowed Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains TRUE if the sender permits auto forwarding of this message. 
   

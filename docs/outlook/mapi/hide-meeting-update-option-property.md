@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # Hide Meeting Update Option Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Hides the option to send meeting updates to only added or deleted attendees.
   

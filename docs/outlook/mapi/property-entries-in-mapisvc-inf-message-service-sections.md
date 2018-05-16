@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Property Entries in MapiSvc.inf Message Service Sections
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Entries that set properties use this format:
   

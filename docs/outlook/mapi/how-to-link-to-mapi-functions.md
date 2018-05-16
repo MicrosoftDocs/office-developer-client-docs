@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # How to: Link to MAPI Functions
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 There are three methods of linking: implicit linking, explicit linking, and a new hybrid model using the MAPI Stub Library.
   

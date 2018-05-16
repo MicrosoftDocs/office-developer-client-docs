@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagDeltaY Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the height of a dialog box control in standard Windows dialog units. 
   

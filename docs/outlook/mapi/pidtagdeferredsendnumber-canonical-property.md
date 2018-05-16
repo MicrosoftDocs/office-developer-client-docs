@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagDeferredSendNumber Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a number that can be used to compute the deferment of sending a message.
   

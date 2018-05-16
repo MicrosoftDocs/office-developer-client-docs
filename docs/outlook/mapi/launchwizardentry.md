@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # LAUNCHWIZARDENTRY
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Defines a function that starts the Profile Wizard application for the purpose of adding one or more message services to a profile. 
   

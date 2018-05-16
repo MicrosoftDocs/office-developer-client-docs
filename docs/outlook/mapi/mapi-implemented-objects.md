@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # MAPI-Implemented Objects
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 MAPI implements several objects for use by client applications and service providers. The session object allows clients to use session services, to access tables, and to communicate with service providers. The address book object provides clients with integrated access to all of the different address book providers. 
   

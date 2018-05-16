@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMsgStore::NotifyNewMail
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Informs the message store that a new message has arrived. This method is called only by the MAPI spooler.
   

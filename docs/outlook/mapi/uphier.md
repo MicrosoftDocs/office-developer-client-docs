@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # UPHIER
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Information for synchronizing a folder hierarchy during the [upload hierarchy state](upload-hierarchy-state.md).
   

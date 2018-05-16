@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # Implementing Standard Form Verbs
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 MAPI defines a set of standard verbs, or actions taken when a user makes a menu selection or clicks a button, that all form viewers should support. Each verb has a constant associated with it for identification, defined in the EXCHFORM.H header file. The following table lists the standard form verbs and their associated constants:
   

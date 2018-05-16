@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMSCapabilities::GetCapabilities
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Gets information about what a store can support based on the specified selector.
   

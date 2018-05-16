@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Opening a View Descriptor
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Many folders can be opened with a normal view, a default view, or any number of personalized views. A view describes how to display the contents of a folder. The normal view is used when there is no alternative view and when you are opening the folder for the first time. When an alternative view does exist, you must use it to open the folder.
   

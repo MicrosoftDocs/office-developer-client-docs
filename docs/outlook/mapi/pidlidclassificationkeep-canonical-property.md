@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidClassificationKeep Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Indicates whether the message classification should persist with the message if the message is forwarded or replied.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # FtNegFt
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Computes the two's complement of an unsigned 64-bit integer. 
   

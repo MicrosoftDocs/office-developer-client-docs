@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # SSizeRestriction
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Describes a size restriction which is used to test the size of a property value. 
   

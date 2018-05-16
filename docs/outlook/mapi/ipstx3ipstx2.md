@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IPSTX3 : IPSTX2
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 This interface provides helper functionality when performing replication through the IOSTX interface.
   

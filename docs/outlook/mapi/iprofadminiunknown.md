@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IProfAdmin : IUnknown
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Supports the administration of profiles. 
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagAutoForwarded Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains TRUE if the client requests an X-MS-Exchange-Organization-AutoForwarded header field.
   

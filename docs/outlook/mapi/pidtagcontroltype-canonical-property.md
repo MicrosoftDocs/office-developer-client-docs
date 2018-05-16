@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagControlType Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a value indicating a control type for a control used in a dialog box. 
   

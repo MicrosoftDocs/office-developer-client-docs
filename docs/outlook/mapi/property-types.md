@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # Property Types
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 MAPI supports both single-value and multiple-value properties. With a single-value property, there is one value of the base type for the property. With a multiple-value property, there are multiple values of the base type. 
   

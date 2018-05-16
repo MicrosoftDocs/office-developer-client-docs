@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # DTBLGROUPBOX
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Describes a group box control that will be used in a dialog box built from a display table.
   

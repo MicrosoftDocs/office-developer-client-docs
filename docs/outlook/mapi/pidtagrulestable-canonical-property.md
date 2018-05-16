@@ -16,9 +16,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagRulesTable Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a table with all rules applied to a folder.
   

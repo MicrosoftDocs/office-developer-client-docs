@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIProp : IUnknown
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Enables clients, service providers, and MAPI to work with properties. All objects that support properties implement this interface.
   

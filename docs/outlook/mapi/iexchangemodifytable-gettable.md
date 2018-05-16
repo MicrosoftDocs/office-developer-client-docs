@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IExchangeModifyTable::GetTable
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Returns a pointer to an interface for a MAPI table object.
   

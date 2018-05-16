@@ -12,9 +12,9 @@ description: "Last modified: July 23, 2011"
 
 # Stream Structures
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Definitions of user-defined fields of a Microsoft Outlook item are stored in the [PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md) property. The value of this property is a binary stream that contains definitions of user-defined fields and data-binding settings for built-in fields for the Outlook item. This section provides information about the structure of the binary stream, broken down in the following stream structures. 
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidFileUnderId Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies how to generate and recompute the value of the **dispidFileUnder** ( [PidLidFileUnder](pidlidfileunder-canonical-property.md)) property when other contact name properties change.
   

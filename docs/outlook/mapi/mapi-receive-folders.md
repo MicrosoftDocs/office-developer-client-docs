@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # MAPI Receive Folders
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 A receive folder holds inbound messages of a particular message class. Receive folder associations can be established by clients, by the message store provider, or by MAPI. MAPI has two default receive folders: the root folder of the message store, and the Inbox folder of the interpersonal message (IPM) subtree. The root folder of the message store is the default receive folder for all interprocess communication (IPC) messages.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagUrlComponentName Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The URL component name for a message. 
   

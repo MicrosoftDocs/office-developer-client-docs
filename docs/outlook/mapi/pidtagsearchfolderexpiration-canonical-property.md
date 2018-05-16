@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagSearchFolderExpiration Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the time at which the search folder container will be stale and should be updated or recreated.
   

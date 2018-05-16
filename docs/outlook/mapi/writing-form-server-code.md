@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # Writing Form Server Code
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 You can think of a form server as the following: 
   

@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Formatted Text in MAPI
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The text of a message can be stored and transmitted using plain text or formatted text. Formatted text enhances the message text by altering its appearance with, for example, one or more fonts, font sizes, or text colors. It is recommended that all clients and whenever possible, all message store providers, support formatted text. Supporting formatted text in messages adds value by improving message readability and making message handling easier and more efficient.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidIsException Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Indicates that the object that represents an exception (including an orphan instance).
   

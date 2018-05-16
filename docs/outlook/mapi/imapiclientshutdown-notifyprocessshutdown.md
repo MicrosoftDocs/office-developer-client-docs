@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMAPIClientShutdown::NotifyProcessShutdown
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Indicates the intention of the MAPI client to proceed with shut down.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidSharingProviderGuid Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the sharing provider globally unique identifier (GUID). This is a property of a sharing message.
   

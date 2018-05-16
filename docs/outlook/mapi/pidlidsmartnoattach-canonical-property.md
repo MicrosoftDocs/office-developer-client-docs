@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidSmartNoAttach Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Represents whether the attachments on a message are considered as hidden.
   

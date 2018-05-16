@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IAddrBook::SetDefaultDir
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Establishes the specified container as the default address book container.
   

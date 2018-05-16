@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Attached Files and Messages
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 If MIME with TNEF is used while encoding message content,all attachment properties and content are in the TNEF stream. The TNEF itself is a single, binary attached file named Winmail.dat, encoded as described for MIME without TNEF. 
   

@@ -14,9 +14,9 @@ description: "Last modified: December 07, 2015"
 
 # Required and Optional Interfaces for Message Store Providers
 
- **Last modified:** December 07, 2015 
+ 
   
- * **Applies to:** Outlook * 
+**Applies to**: Outlook 
   
 MAPI defines a set of interfaces that relate to message store providers. Because of the wide range of features that a message store can choose to implement, some of these interfaces are required and some are not. The following table lists the MAPI interfaces that are related to message store providers, specifies whether the interfaces are required or optional, and describes their purpose.
   

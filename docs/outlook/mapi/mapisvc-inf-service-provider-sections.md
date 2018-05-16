@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # MapiSvc.inf Service Provider Sections
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 mapisvc.inf includes one service provider section for each of the entries listed in the **Providers** entry in the preceding message services section. **Service** provider sections are similar to message service sections in that both types of sections contain entries in this format: 
   

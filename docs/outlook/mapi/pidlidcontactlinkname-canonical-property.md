@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidContactLinkName Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the elements of the **dispidContacts** ( [PidLidContacts](pidlidcontacts-canonical-property.md)) property.
   

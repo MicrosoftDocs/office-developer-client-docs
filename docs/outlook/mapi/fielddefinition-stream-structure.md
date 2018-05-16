@@ -12,9 +12,9 @@ description: "Last modified: March 09, 2015"
 
 # FieldDefinition Stream Structure
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 A FieldDefinition stream structure contains either the field definition of a user-defined field, or a set of data-binding settings for a built-in field.
   

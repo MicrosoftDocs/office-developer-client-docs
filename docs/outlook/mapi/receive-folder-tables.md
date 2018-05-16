@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Receive Folder Tables
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 A receive folder table contains information for all the folders designated as receive folders for a message store. A receive folder is a folder where incoming messages of a particular message class are placed. Message store providers implement receive folder tables and client applications use them by making a call to the [IMsgStore::GetReceiveFolderTable](imsgstore-getreceivefoldertable.md) method. 
   

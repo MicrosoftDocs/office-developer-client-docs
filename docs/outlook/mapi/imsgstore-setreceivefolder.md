@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMsgStore::SetReceiveFolder
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Establishes a folder as the destination for incoming messages of a particular message class.
   

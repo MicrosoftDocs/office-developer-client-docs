@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IXPLogon : IUnknown
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Gives the MAPI spooler access to a transport provider. 
   

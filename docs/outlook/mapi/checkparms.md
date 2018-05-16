@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # CheckParms
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Calls an internal function to validate debugging parameters on service provider methods called by MAPI. 
   

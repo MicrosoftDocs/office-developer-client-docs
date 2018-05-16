@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidLogEnd Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Represents the end date and time for the journal message.
   

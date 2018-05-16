@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagTypeOfX400User Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 This property contains the type of a message recipient for use in a report.
   

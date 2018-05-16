@@ -12,9 +12,9 @@ description: "Last modified: June 25, 2012"
 
 # About the Offline State API
 
- **Last modified:** June 25, 2012 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The Offline State API supports callbacks indicating changes in a user's connection state in Microsoft Outlook 2013 and Microsoft Outlook 2010—for example, from being online in Outlook 2013 or Outlook 2010 to being offline. The API uses a global offline object in Outlook 2013 or Outlook 2010 to track such changes for a given user account profile. Notification is the only supported form of callback. As clients of this API, mail providers who want to be notified of such connection state changes do the following:
   

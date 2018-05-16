@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Managing Memory for ADRLIST and SRowSet Structures
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The requirement to allocate all memory for a buffer whenever possible with a single **MAPIAllocateBuffer** call does not apply when using the address list, or **ADRLIST**, and row set, or **SRowSet**, structures. 
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IAddrBook::Advise
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Registers a client or service provider to receive notifications about changes to one or more entries in the address book.
   

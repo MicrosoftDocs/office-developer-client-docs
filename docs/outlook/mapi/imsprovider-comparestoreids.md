@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMSProvider::CompareStoreIDs
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Compares two message store entry identifiers to determine whether they refer to the same store object.
   

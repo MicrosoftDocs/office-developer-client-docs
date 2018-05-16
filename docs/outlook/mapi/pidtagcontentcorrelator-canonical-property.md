@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagContentCorrelator Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a value the message sender can use to match a report with the original message.
   

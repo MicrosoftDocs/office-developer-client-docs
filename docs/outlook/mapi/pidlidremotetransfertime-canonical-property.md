@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidRemoteTransferTime Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Indicates the transfer time, in seconds, for a remote item.
   

@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Implementing Service Provider Logon
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 MAPI calls a method in your provider object to begin the logon process by using the pointer that you return from your entry point function. The method varies as follows, depending on the type of your service provider:
   

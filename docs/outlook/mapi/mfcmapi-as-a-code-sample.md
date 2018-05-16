@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # MFCMAPI as a Code Sample
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The MFCMAPI sample uses the Messaging API to provide access to MAPI stores through a graphical user interface. After you download this sample, you can use the source files to examine example usage cases for many of the MAPI interfaces and references. For more information, see [MAPI Interfaces](mapi-interfaces.md).
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # DTPAGE
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Describes the dialog box that is built from a display table by the [BuildDisplayTable](builddisplaytable.md) function. 
   

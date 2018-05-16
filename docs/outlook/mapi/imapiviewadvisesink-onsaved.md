@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMAPIViewAdviseSink::OnSaved
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Notifies the form viewer that the current message in a form has been saved.
   

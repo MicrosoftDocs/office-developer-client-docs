@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # ScRelocProps
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Adjusts the pointers in an [SPropValue](spropvalue.md) array after the array and its data have been copied or moved to a new location. 
   

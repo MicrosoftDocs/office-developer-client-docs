@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Resolving a Recipient Name
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 When a message is addressed, a recipient list is built with properties relating to each recipient. By the time the message is sent, one of those properties must be the recipient's long-term entry identifier. To ensure that each recipient includes the **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)) property, pass the [ADRLIST](adrlist.md) structure describing your recipient list in the contents of the  _lpAdrList_ parameter in a call to [IAddrBook::ResolveName](iaddrbook-resolvename.md).
   

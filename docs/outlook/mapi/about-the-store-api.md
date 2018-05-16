@@ -12,9 +12,9 @@ description: "Last modified: June 25, 2012"
 
 # About the Store API
 
- **Last modified:** June 25, 2012 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The Store API provides miscellaneous store functionality to store providers. It provides the following defintions, data types, properties, and interfaces.
   

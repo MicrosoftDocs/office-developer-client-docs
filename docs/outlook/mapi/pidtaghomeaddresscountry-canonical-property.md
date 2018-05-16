@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagHomeAddressCountry Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the county in a contact's address.
   

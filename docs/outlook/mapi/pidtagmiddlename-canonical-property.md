@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagMiddleName Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the middle name of a contact.
   

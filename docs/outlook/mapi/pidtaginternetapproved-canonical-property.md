@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagInternetApproved Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Maps to the MIME Approved header.
   

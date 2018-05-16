@@ -18,9 +18,9 @@ description: "Last modified: February 24, 2013"
 
 # IPSTOVERRIDEREQ::RegisterTrustedPSTOverrideHandler
 
- **Last modified:** February 24, 2013 
+ 
   
- * **Applies to:** Outlook * 
+**Applies to**: Outlook 
   
 Initiates the unlocking procedure for a Personal Folders (.pst) file.
   

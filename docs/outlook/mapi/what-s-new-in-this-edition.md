@@ -14,9 +14,9 @@ description: "Last modified: December 07, 2015"
 
 # What's New in This Edition
 
- **Last modified:** December 07, 2015 
+ 
   
- * **Applies to:** Outlook * 
+**Applies to**: Outlook 
   
 The Microsoft Outlook 2013 MAPI Reference has been updated to include documentation for various new features. 
   

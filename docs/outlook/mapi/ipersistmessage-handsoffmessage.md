@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IPersistMessage::HandsOffMessage
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Causes the form to release its current message.
   

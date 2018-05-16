@@ -14,9 +14,9 @@ description: "Last modified: December 07, 2015"
 
 # Avoiding Certain Methods at Startup
 
- **Last modified:** December 07, 2015 
+ 
   
- * **Applies to:** Outlook * 
+**Applies to**: Outlook 
   
 To improve performance at startup time, avoid making the following calls:
   

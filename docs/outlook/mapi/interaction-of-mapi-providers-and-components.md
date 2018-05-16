@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Interaction of MAPI Providers and Components
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 MAPI service providers of any kind must follow certain guidelines to work with other MAPI components. Each service provider must:
   

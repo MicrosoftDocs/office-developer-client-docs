@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # HrGetOneProp
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Retrieves the value of a single property from a property interface, that is, an interface derived from [IMAPIProp](imapipropiunknown.md). 
   

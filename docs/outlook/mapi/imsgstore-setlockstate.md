@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMsgStore::SetLockState
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Locks or unlocks a message. This method is called only by the MAPI spooler.
   

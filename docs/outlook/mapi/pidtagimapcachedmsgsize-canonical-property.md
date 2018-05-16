@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagImapCachedMsgsize Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the size of the cached Internet Message Access Protocol message.
   

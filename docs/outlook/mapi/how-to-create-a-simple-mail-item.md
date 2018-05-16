@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # How to: Create a Simple Mail Item
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 MAPI can be used to create and send a message that requests a read receipt. When a read receipt is requested, the messaging system generates and returns a read report to the sender when the recipient opens the message.
   

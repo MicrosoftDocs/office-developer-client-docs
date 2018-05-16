@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # ITnef::OpenTaggedBody
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Opens a stream interface on the text of an encapsulated message.
   

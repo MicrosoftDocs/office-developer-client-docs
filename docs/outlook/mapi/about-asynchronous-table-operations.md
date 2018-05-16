@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # About Asynchronous Table Operations
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The **IMAPITable** interface includes three methods that operate asynchronously and three methods for controlling an asynchronous operation. The following table lists these methods: 
   

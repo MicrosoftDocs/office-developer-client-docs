@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # Outgoing Queue Tables
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 An outgoing queue table contains information about all the outgoing messages for a message store. Message store providers implement outgoing queue tables for the MAPI spooler to use. Stores that do not support the sending or receiving of messages need not implement this table. 
   

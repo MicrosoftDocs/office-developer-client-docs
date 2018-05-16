@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIProviderShutdown : IUnknown
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Allows the MAPI subsystem to inform a MAPI provider of the fast shutdown of a MAPI client, so that the MAPI provider can respond to the shutdown.
   

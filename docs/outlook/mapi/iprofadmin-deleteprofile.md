@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IProfAdmin::DeleteProfile
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Deletes a profile.
   

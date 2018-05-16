@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IContabAdmin : IUnknown
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Removes contact folders from the Microsoft Outlook 2010 and Microsoft Outlook 2013 address book.
   

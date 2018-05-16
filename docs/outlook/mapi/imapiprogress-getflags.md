@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIProgress::GetFlags
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Returns flag settings from the progress object for the level of operation on which progress information is calculated.
   

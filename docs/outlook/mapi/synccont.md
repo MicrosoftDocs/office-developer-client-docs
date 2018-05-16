@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # SYNCCONT
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Information for synchronizing the contents of specified folders in a local store with the server during the [synchronize contents state](synchronize-contents-state.md). This involves just uploading, or a full synchronization involving an upload and then a download.
   

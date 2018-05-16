@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidResendTime Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 If set on a nondelivery report, denotes the time the message was resent.
   

@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Creating Display Tables and Related Structures
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Creating a display table is similar to writing a program with a scripting language. You can create a display table either by calling [BuildDisplayTable](builddisplaytable.md) or writing custom code to populate the rows and columns of the table. In general, you should use the **BuildDisplayTable** technique because it is simpler. 
   

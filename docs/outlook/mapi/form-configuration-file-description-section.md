@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Form Configuration File [Description] Section
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The **[Description]** section lists all properties of the form that are associated with controls in the form's user interface, plus attributes that are used in locating the form. The **MessageClass**, **Clsid**, and **DisplayName** entries, which identify the name of the form's message class, its GUID, and the message class's display name, respectively, are required entries used to locate the form within the form library. The remaining entries are optional. The format of the **[Description]** section is: 
   

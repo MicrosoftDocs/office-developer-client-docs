@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagProofOfDelivery Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 This property contains an ASN.1 proof of delivery value.
   

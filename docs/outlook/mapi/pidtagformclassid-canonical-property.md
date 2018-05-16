@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagFormClassId Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the 128-bit Object Linking and Embedding (OLE) globally unique identifier (GUID) of a form. 
   

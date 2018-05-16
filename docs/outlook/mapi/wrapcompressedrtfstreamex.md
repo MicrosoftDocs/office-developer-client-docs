@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # WrapCompressedRTFStreamEx
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Decompresses the the body of an e-mail message that is in compressed Rich Text Format (RTF), indicates the format of the decompressed stream, optionally converts the decompressed stream to its native format, and returns either the decompressed stream or the converted native stream.
   

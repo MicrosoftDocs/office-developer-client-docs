@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IABLogon::OpenEntry
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Opens a container, messaging user, or distribution list, and returns a pointer to an interface implementation to provide further access.
   

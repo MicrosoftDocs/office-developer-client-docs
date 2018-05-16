@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IOSTX::SyncHdrBeg
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Starts synchronization for a message header.
   

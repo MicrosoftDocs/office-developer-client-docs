@@ -12,9 +12,9 @@ description: "Last modified: July 23, 2011"
 
 # Monitoring Connection State Changes Using an Offline State Add-in
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Before you can use an offline state add-in to monitor connection state changes, you must implement functions to set up and initialize the add-in. For more information, see [Setting Up an Offline State Add-in](setting-up-an-offline-state-add-in.md).
   

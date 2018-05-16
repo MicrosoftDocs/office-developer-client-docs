@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidNamePresentationFormat Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the presentation format of the file that is attached to the document.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPISession::AdminServices
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Returns an [IMsgServiceAdmin](imsgserviceadminiunknown.md) pointer for making changes to message services. 
   

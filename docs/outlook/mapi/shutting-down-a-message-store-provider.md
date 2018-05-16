@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Shutting Down a Message Store Provider
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 If your provider is a message store provider, it can be shut down in one of the following ways:
   

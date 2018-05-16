@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagReplyRequested Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains TRUE if a message sender requests a reply from a recipient.
   

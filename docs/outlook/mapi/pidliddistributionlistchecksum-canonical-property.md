@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidDistributionListChecksum Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the 32-bit cyclic redundancy check (CRC-32) polynomial checksum for a personal distribution list.
   

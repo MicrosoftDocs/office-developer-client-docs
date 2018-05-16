@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # How to: Create a Simple Recurrent Task Item
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 MAPI can be used to create to create task items. This topic describes how to create a simple recurrent task item.
   

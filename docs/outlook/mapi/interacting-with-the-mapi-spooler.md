@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Interacting with the MAPI Spooler
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The methods in the [IXPLogon : IUnknown](ixplogoniunknown.md) interface are used by the MAPI spooler when calling the transport provider. It should be possible for most types of transport providers to implement most of these methods so that they return quickly. This is desirable because if a method takes a long time to return then it should be broken up with calls back to the MAPI spooler to release the CPU for other tasks. 
   

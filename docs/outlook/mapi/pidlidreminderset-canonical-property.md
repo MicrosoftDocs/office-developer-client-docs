@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidReminderSet Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies whether a reminder is set on the object.
   

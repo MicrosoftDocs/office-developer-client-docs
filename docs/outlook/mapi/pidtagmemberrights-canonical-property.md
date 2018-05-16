@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagMemberRights Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a set of bits that indicated the rights of this member on a folder or mailbox.
   

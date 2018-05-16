@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagGender Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the gender of the messaging user.
   

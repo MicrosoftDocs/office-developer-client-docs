@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagDistributionListExpansionProhibited Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains TRUE if a message transfer agent (MTA) is prohibited from expanding distribution lists.
   

@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Developing a MAPI Transport Provider
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 You should be familiar with the MAPI subsystem architecture, the C++ language, and with writing dynamic-link libraries (DLLs) for the various Windows platforms before developing a transport provider.
   

@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IPersistMessage::GetClassID
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Returns an identifier that represents the form server that can manage the form. 
   

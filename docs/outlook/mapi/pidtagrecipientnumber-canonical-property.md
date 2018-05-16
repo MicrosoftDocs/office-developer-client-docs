@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagRecipientNumber Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Represents the recipient number of a recipient on the message.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagProviderDllName Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the base file name of the MAPI service provider dynamic-link library (DLL).
   

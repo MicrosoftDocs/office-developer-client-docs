@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagRtfSyncTrailingCount Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a count of the ignorable characters that appear after the significant characters of the message.
   

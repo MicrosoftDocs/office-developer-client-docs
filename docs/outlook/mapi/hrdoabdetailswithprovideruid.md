@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # HrDoABDetailsWithProviderUID
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Ensures that the **OpenEntry** method is opened by the expected Exchange address book provider. This function works similarly to [IAddrBook::Details](iaddrbook-details.md) but opens **entryID** using the Exchange address book identified by  _pEmsabpUID_.
   

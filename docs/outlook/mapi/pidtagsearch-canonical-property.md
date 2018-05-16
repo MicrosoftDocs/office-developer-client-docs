@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagSearch Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a container object that is used for advanced searches.
   

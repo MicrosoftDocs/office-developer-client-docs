@@ -12,9 +12,9 @@ description: "Last modified: July 03, 2012"
 
 # How to: Detect the Version of Exchange Server in an Outlook Profile
 
- **Last modified:** July 03, 2012 
+ 
   
- * **Applies to:** Outlook * 
+**Applies to**: Outlook 
   
 This topic includes a code sample in C++ that shows how to use the **[PR_PROFILE_SERVER_VERSION](pidtagprofileserverversion-canonical-property.md)** property and **[PR_PROFILE_SERVER_FULL_VERSION](pidtagprofileserverfullversion-canonical-property.md)** property to obtain version information of the Microsoft Exchange Server that the active account is connected to. 
   

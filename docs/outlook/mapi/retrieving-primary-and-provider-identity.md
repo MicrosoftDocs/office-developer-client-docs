@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Retrieving Primary and Provider Identity
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Service providers, typically address book providers, have the option of supplying an identity that can be used to represent the session in a variety of situations. Three properties describe a provider's identity:
   

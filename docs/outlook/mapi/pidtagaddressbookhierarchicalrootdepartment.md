@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagAddressBookHierarchicalRootDepartment
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
  Contains the distinguished name (DN) of the hierarchical address root (HAB). 
   

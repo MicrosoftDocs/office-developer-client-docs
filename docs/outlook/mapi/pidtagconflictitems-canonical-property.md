@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagConflictItems Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains one or more entry IDs of items that have been involved in an automatic conflict resolution.
   

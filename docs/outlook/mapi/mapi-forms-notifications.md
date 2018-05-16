@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # MAPI Forms Notifications
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Registering for and handling notifications from form objects is a different process than for other MAPI objects. Advise sinks for form notifications implement either the **IMAPIViewAdviseSink** or **IMAPIFormAdviseSink** interface rather than **IMAPIAdviseSink**. [IMAPIViewAdviseSink : IUnknown](imapiviewadvisesinkiunknown.md) and [IMAPIFormAdviseSink : IUnknown](imapiformadvisesinkiunknown.md) each have multiple methods, one for each of the possible events that the corresponding advise source is capable of generating. For example, **IMAPIFormAdviseSink** has two methods: [IMAPIFormAdviseSink::OnChange](imapiformadvisesink-onchange.md) to handle a change to the form viewer's status and [IMAPIFormAdviseSink::OnActivateNext](imapiformadvisesink-onactivatenext.md) to display a new message with the correct form. 
   

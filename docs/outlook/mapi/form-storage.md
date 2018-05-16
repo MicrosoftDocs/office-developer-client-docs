@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Form Storage
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Although it is not necessary to know all the details of how forms are physically stored, it is useful to understand a few of the main concepts. Therefore, before describing the three types of form libraries supported by the default form manager, this topic gives an overview of how forms are stored.
   

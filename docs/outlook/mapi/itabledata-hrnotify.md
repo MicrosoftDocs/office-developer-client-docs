@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # ITableData::HrNotify
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Sends a notification for a table row.
   

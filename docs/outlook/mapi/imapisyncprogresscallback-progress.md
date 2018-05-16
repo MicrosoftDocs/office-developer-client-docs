@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMAPISyncProgressCallback::Progress
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Updates the status in the Send/Receive dialog. The store provider periodically calls this function.
   

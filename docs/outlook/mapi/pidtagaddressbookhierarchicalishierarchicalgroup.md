@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagAddressBookHierarchicalIsHierarchicalGroup
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains TRUE if the distribution list is also a departmental group. This property is available only on distribution lists.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # HrComposeEID
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Creates a compound entry identifier for an object, usually a message in a message store. 
   

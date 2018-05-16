@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # FtMulDwDw
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Multiplies one unsigned 32-bit integer by another.
   

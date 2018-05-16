@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Optional Transport Provider Features
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Optional features transport providers can implement include:
   

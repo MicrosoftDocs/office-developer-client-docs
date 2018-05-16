@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # SCODE
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 A 32-bit status value that is used to describe an error or warning. 
   

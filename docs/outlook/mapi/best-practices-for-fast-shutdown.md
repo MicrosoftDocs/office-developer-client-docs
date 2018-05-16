@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Best Practices for Fast Shutdown
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 This topic recommends best practices for administrators, MAPI clients, and MAPI providers to use Windows registry settings and the fast shutdown interfaces to minimize data loss during client shutdown.
   

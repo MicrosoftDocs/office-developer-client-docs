@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # SizedDtblLabel
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Creates a named structure that includes a [DTBLLABEL](dtbllabel.md) structure for describing a label control and the associated label of a specified length. 
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagRuleMsgProvider Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains additional information about the client application that owns an extended rule.
   

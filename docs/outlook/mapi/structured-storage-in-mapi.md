@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # Structured Storage in MAPI
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Structured storage refers to the hierarchical organization of storage introduced with COM. In a structured storage environment, storage is organized into two or three types of objects: 
   

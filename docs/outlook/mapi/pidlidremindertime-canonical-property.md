@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidReminderTime Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the initial signal time for a reminder.
   

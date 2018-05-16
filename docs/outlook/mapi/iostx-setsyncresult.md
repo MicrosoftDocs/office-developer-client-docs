@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IOSTX::SetSyncResult
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Sets the result of the synchronization.
   

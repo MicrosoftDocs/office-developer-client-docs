@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # DTBLBUTTON
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains information about a button control for a dialog box built from a display table.
   

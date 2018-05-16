@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # Contents Tables
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 A contents table contains information about objects in a MAPI container. Address book providers implement contents tables for each of their containers, and message store and remote transport providers implement contents tables for their folders. The contents table of an address book container lists information about its messaging user and distribution list objects, while the contents table of a folder lists information about its messages. Contents tables are used primarily by client applications. 
   

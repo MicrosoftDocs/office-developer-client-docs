@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidNameRightsManagementLicense Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Caches the use license for the rights-managed e-mail message.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagX400ContentType Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 This property contains the content type for a submitted message.
   

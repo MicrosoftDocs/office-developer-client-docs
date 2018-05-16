@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMSLogon::OpenStatusEntry
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Opens a status object.
   

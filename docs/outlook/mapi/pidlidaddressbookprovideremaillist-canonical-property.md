@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidAddressBookProviderEmailList Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies which electronic address properties are set on the contact. 
   

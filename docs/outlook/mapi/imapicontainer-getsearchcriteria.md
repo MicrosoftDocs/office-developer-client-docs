@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIContainer::GetSearchCriteria
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Obtains the search criteria for the container.
   

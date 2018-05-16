@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # EXTENDED_NOTIFICATION
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Describes information that relates to an event that is service provider-specific. 
   

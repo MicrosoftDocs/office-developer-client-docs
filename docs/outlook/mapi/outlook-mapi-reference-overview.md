@@ -14,9 +14,9 @@ description: "Last modified: February 01, 2013"
 
 # Outlook MAPI Reference Overview
 
- **Last modified:** February 01, 2013 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 This topic provides overview information about the Outlook 2013 MAPI Reference documentation.
   

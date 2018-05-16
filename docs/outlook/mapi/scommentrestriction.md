@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # SCommentRestriction
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Describes a comment restriction, which is used to annotate a restriction. 
   

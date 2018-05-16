@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagAddressBookChooseDirectoryAutomatically Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Enables Microsoft Outlook 2010 and Microsoft Outlook 2013 to choose the most appropriate global address list (GAL) or contact folder for the current mailbox.
   

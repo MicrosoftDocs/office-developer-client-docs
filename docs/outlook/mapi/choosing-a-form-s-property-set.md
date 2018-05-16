@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Choosing a Form's Property Set
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 When you implement your form server, you need to have a property for each piece of information that your message class needs. These properties can be predefined MAPI properties, or they can be custom properties that you define. For more information about working with properties, see [MAPI Property Overview](mapi-property-overview.md).
   

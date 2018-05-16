@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagRuleSequence Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 A value used to determine the order in which rules are evaluated and executed. 
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidAddressBookProviderArrayType Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the state of the contact's electronic addresses and represents a set of bit flags.
   

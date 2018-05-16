@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidCategories Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies a list of categories for an item.
   

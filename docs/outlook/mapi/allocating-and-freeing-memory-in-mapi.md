@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # Allocating and Freeing Memory in MAPI
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 In addition to specifying how to allocate and free memory, MAPI defines a model for knowing when memory passed between public interface method and API function calls should be freed. The model applies only to memory allocated for parameters that are not pointers to interfaces, such as strings and pointers to structures. Interface pointers use the reference counting mechanism implemented through **IUnknown**. When allocating and freeing non-MAPI related memory internally within a client application or service provider, use whatever mechanism makes sense. 
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidOwnerCriticalChange Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the date and time when a meeting request was sent by the organizer.
   

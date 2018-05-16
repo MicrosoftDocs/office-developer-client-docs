@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # attRecipTable
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 When a recipient table is being encoded, each recipient is encoded as a row of MAPI properties. The format is as follows: 
   

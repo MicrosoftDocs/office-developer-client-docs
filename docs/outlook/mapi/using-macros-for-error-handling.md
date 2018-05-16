@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # Using Macros for Error Handling
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 There are several macros for making it easier to work with HRESULT values.
   

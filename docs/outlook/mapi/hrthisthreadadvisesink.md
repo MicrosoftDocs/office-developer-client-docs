@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # HrThisThreadAdviseSink
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Creates an advise sink that wraps an existing advise sink for thread safety. 
   

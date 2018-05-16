@@ -16,9 +16,9 @@ description: "Last modified: March 09, 2015"
 
 # MAPI Data Types
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The following alphabetized entries contain documentation for the data types used in MAPI methods, functions, and structures. 
   

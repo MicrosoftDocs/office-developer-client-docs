@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # MAPI Forms
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 After reading this overview of the MAPI form architecture, you will have an understanding of what MAPI forms are and how they interact with other components of the MAPI subsystem. The purpose of this section is to give you the conceptual knowledge you need to implement your own MAPI form servers.
   

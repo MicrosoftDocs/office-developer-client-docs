@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagLocation Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the location of the recipient in a format that is useful to the recipient's organization. 
   

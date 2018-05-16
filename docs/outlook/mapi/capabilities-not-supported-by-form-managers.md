@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Capabilities Not Supported by Form Managers
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The following features are not supported by the default form manager for performance reasons but can be supported by custom form managers.
   

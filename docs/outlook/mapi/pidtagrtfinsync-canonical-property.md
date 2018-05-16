@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagRtfInSync Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains TRUE if the **PR_RTF_COMPRESSED** ( [PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) property has the same text content as the **PR_BODY** ( [PidTagBody](pidtagbody-canonical-property.md)) property for this message.
   

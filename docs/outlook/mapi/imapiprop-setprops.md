@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIProp::SetProps
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Updates one or more properties.
   

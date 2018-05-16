@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidToDoTitle Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains user-specifiable text to identify this message object in a consolidated to-do list.
   

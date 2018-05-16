@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # SKEY
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Source key for an Outlook item.
   

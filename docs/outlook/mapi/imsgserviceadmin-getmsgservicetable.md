@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMsgServiceAdmin::GetMsgServiceTable
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Provides access to the message service table, a list of the message services in the profile.
   

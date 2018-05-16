@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagCorrelate Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains TRUE if the sender of a message requests the correlation feature of the messaging system.
   

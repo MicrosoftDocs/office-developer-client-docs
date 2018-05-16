@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Setting Table Position with a Fractional Value
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Table users can move to a position that represents an approximate percentage of rows in relation to the total. Rather than moving to an exact row, this method of positioning divides the table into portions based on fractions. Table users can move, for example, to a table's half-way point or to the row that is 7/8 of the way through the table. 
   

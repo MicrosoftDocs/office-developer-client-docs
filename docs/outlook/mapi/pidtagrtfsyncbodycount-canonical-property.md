@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagRtfSyncBodyCount Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a count of the significant characters of the message text.
   

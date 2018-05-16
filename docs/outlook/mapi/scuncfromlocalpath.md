@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # ScUNCFromLocalPath
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Locates a universal naming convention (UNC) path counterpart to the given local path.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagOtherAddressPostalCode Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the postal code for the mail user's other postal address.
   

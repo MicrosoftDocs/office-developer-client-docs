@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Creating Outlook Items by Using MAPI
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The topics in this section demonstrate how to create Outlook items using MAPI.
   

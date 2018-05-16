@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagIdentitySearchKey Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the search key for a service provider's identity as defined within a messaging system. 
   

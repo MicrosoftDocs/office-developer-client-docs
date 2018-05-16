@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # NOTIFCALLBACK
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Defines a callback function that MAPI calls to send an event notification. This callback function can only be used when wrapped in an advise sink object created by calling the [HrAllocAdviseSink](hrallocadvisesink.md) function. 
   

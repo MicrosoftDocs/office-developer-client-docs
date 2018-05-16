@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Tips for Working with Tables
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Working with a MAPI table is a little like working with a relational database table. A user can limit the number of rows and columns in the view and specify their order. Rows can be retrieved one at a time or in groups. A cursor that keeps track of the current position can be moved to a specific place in the table. 
   

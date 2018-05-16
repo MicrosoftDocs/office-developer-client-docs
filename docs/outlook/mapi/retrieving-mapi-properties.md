@@ -14,9 +14,9 @@ description: "Last modified: December 07, 2015"
 
 # Retrieving MAPI Properties
 
- **Last modified:** December 07, 2015 
+ 
   
- * **Applies to:** Outlook * 
+**Applies to**: Outlook 
   
 When a client or service provider retrieves a property from an object, the object makes available the property's value, type, and identifier. 
   

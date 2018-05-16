@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMessage::SubmitMessage
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Saves all of the message's properties and marks the message as ready to be sent.
   

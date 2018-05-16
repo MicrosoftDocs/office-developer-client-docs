@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagMemberEntryId Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the directory object entry identifier of a system access control list (SACL) table member.
   

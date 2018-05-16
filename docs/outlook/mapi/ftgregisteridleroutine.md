@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # FtgRegisterIdleRoutine
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Adds a [FNIDLE](fnidle.md) function-based idle routine to the MAPI system. 
   

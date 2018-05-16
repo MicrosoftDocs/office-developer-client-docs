@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Timing a Notification
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Because event notification is an asynchronous process, you can be notified at any time, not necessarily immediately after the event has occurred.
   

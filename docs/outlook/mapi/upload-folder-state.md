@@ -12,9 +12,9 @@ description: "Last modified: March 09, 2015"
 
 # Upload Folder State
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
  This topic describes what happens during the upload folder state of the replication state machine. 
   

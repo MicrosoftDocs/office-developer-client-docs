@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # FollowUpStatus
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the different follow-up statuses for a message.
   

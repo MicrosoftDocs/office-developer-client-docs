@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # DTBLCHECKBOX
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains information about a check box that will be used in a dialog box built from a display table. 
   

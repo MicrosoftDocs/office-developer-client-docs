@@ -14,9 +14,9 @@ description: "Last modified: July 05, 2012"
 
 # DNTBL
 
- **Last modified:** July 05, 2012 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Information for downloading the contents of a folder from the server during the [download table state](download-table-state.md), as part of a full synchronization for contents on a store.
   

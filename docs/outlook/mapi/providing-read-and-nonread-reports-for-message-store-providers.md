@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Providing Read and Nonread Reports for Message Store Providers
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 If a message store provider can receive messages, it is required to support read reports and nonread reports of messages received by the message store provider. If a received message contains the **PR_READ_RECEIPT_REQUESTED** ( [PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) property and that property's value is TRUE, the message store should send a notification message to the sender when the user opens the message, indicating that the message has been read. Similarly, if the user deletes the message before opening it, the message store should issue a reply to the sender indicating that the message was not read.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagConversationIndex Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a binary value that indicates the relative position of this message within a conversation thread. 
   

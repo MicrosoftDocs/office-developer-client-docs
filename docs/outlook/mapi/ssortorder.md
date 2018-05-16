@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # SSortOrder
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Defines how to sort the rows of a table, what column to use as the sort key, and the direction of the sort. 
   

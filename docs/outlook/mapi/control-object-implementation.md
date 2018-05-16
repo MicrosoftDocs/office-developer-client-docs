@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Control Object Implementation
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Control objects, or objects that support the [IMAPIControl : IUnknown](imapicontroliunknown.md) interface, are implemented by providers to add functionality to a button that appears on a MAPI dialog box. Control objects can only be implemented for buttons. 
   

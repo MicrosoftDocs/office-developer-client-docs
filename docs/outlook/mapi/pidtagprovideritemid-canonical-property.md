@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagProviderItemId Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies an identifier for a folder or an item in a store.
   

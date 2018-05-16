@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Sending Messages: Transport Provider Tasks
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
  **To transmit a message, transport providers**
   

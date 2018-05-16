@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMsgStore::Unadvise
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Cancels the sending of notifications previously set up with a call to the [IMsgStore::Advise](imsgstore-advise.md) method. 
   

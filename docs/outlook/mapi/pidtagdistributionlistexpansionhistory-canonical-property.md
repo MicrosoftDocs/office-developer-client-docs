@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagDistributionListExpansionHistory Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a history showing how a distribution list has been expanded during message transmission. 
   

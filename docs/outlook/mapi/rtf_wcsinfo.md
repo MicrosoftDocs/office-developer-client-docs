@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # RTF_WCSINFO
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 This structure enables you to specify information to decompress the body of a message in compressed Rich Text Format (RTF) and, optionally, return the body stream in its native format.
   

@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # MAPI Service Provider Samples
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 This section contains code samples of three MAPI service providers:
   

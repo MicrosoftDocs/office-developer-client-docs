@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMAPIOfflineMgr::Advise
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Registers a client to receive callbacks on an offline object.
   

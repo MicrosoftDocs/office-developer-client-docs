@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIViewContext::GetViewStatus
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Retrieves the current viewer status. 
   

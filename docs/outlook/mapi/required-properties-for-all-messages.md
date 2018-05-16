@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # Required Properties for All Messages
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The following table describes properties that clients can expect to set or see supported on messages of all classes.
   

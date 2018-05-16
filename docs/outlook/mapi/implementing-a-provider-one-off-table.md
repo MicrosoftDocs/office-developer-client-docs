@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Implementing a Provider One-Off Table
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 MAPI calls your provider's [IABLogon::GetOneOffTable](iablogon-getoneofftable.md) method when the user of a client application adds a recipient to an outgoing message. Typically, the types of addresses requested are unique to your messaging system. If your provider supports recipient creation, it must supply a one-off table that exposes templates for every type of supported recipient address. If your provider does not support recipient creation, return MAPI_E_NO_SUPPORT from the **GetOneOffTable** call. 
   

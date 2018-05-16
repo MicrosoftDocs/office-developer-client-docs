@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # MAPIOFFLINE_CALLBACK_TYPE
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Enumeration of supported types of callbacks.
   

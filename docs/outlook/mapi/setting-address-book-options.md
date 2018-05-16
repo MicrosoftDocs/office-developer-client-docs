@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Setting Address Book Options
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 You can set three properties that describe options for using the address book:
   

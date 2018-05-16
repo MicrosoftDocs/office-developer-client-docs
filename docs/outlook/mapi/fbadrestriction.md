@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # FBadRestriction
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Validates a restriction used to limit a table view. 
   

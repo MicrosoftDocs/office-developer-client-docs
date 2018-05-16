@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Rendering an Attachment in Plain Text
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 To render an attachment in a message with plain text, retrieve the attachment's **PR_RENDERING_POSITION** ( [PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) property and apply it to the data in the **PR_ATTACH_RENDERING** ( [PidTagAttachRendering](pidtagattachrendering-canonical-property.md)) property. There are two ways to retrieve **PR_RENDERING_POSITION**:
   

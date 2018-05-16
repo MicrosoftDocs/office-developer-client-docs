@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagFtpSite Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the contact's File Transfer Protocol (FTP) URL. FTP is a protocol that is used to transfer data, as specified in [RFC959].
   

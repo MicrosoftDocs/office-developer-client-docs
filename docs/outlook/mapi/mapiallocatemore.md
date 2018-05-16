@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # MAPIAllocateMore
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Allocates a memory buffer that is linked to another buffer previously allocated with the [MAPIAllocateBuffer](mapiallocatebuffer.md) function. 
   

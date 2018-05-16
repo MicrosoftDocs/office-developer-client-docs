@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # Message Store Provider Sample
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The Sample Wrapped PST Store Provider uses a Personal Folders file (PST) provider as the back end for storing data. The wrapped PST store provider should be used together with the Replication API. 
   

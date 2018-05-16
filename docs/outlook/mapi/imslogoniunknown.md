@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMSLogon : IUnknown
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Accesses resources in a message store logon object.
   

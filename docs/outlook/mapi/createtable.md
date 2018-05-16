@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # CreateTable
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Creates structures and an object handle for an [ITableData](itabledataiunknown.md) object which can be used to create table contents. 
   

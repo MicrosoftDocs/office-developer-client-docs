@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IPersistMessage : IUnknown
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Enables form viewers to handle the storage of a form and to transition between the various states.
   

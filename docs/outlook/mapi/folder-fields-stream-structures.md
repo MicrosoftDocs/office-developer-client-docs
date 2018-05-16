@@ -12,9 +12,9 @@ description: "Last modified: March 09, 2015"
 
 # Folder Fields Stream Structures
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 A message's [PidTagUserFields](pidtaguserfields-canonical-property.md) property contains a binary stream, FolderUserFields, which contains the folder user-defined field definitions. This topic describes the stream structures for folder user-defined field definitions. 
   

@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Choosing a Message Class
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 As described in [MAPI Message Classes](mapi-message-classes.md), message classes are important for establishing the relationship between types of custom messages and, by extension, between form servers themselves. Fortunately, choosing a message class string is fairly simple. The message class string of a message class is an arbitrary string, but it should use the following conventions:
   

@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Developing a MAPI Address Book Provider
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 An address book provider supplies recipient information to client applications, to message store and transport providers, and to MAPI. Recipient information is organized hierarchically into storage compartments known as containers. Every address book in the profile contributes one or more top-level, or parent, containers to the MAPI address book, an integrated view of recipient information from all address book providers in a session. It is through the MAPI address book that clients and other service providers gain access to the data of an address book provider.
   

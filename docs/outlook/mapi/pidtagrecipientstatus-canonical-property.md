@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagRecipientStatus Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a value that is used by the MAPI spooler in assigning delivery responsibility among transport providers.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIViewContext::ActivateNext
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Activates the next or previous message in the view order. 
   

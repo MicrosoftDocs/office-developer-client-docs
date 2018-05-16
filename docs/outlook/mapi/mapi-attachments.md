@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # MAPI Attachments
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Some message store providers enable clients to associate added information in the form of files, OLE objects, messages, or binary data with messages. This added information is called a message's attachment. Because attachments are created, maintained, and accessed only through their messages, they are considered message subobjects. Rather than having an entry identifier for access, attachments have a sequential number known as an attachment number. This number uniquely identifies the attachment within its message, but not necessarily within the message store. Two different messages can have different attachments with the same attachment number. Attachment numbers are only valid as long as the message is open and are stored in the **PR_ATTACH_NUM** ( [PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) property.
   

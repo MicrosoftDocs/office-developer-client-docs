@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagSmtpAddress Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the SMTP address for the address book object.
   

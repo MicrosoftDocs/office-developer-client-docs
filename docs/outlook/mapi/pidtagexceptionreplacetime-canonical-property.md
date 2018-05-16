@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagExceptionReplaceTime Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Indicates the original date and time when the instance in the recurrence pattern would have occurred if it were not an exception.
   

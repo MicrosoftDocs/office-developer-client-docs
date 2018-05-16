@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagNonIpmSubtreeEntryId Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Shows the entry ID of the **NON_IPM_SUBTREE** folder in an Exchange Public Folder store. 
   

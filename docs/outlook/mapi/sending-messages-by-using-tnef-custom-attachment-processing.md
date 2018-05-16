@@ -14,9 +14,9 @@ description: "Last modified: December 07, 2015"
 
 # Sending Messages by Using TNEF Custom Attachment Processing
 
- **Last modified:** December 07, 2015 
+ 
   
- * **Applies to:** Outlook * 
+**Applies to**: Outlook 
   
 To customize attachment processing when sending a message:
   

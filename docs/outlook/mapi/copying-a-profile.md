@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Copying a Profile
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 One way to create a profile is to copy from an existing profile and alter the necessary message services and service providers. Copying a profile involves using a profile administration object, provided by MAPI through the [MAPIAdminProfiles](mapiadminprofiles.md) function. 
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagJunkIncludeContacts Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Indicates whether e-mail addresses of the contacts in the Contacts folder are treated specially with respect to the spam filter.
   

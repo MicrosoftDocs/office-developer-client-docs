@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidSharingResponseTime Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the time at which the recipient of the sharing request sent a sharing response. This is a property of a sharing message.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagBodyHtml Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the Hypertext Markup Language (HTML) version of the message text. 
   

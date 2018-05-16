@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IAddrBook::PrepareRecips
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Prepares a recipient list for later use by the messaging system. 
   

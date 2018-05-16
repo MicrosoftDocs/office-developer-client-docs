@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # CHANGE_PROP_TYPE
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Updates the property type of a property tag to a specified value. The property identifier is unchanged. 
   

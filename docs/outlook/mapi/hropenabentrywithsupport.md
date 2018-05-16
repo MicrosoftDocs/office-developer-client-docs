@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # HrOpenABEntryWithSupport
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Do not use this function.
   

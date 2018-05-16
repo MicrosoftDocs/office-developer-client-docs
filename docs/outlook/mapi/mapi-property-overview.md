@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # MAPI Property Overview
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 A property is an attribute of a MAPI object. Properties describe something about the object, such as the subject line of a message or the address type of a messaging user. MAPI defines many properties, some to describe many objects and some that are appropriate only for an object of a particular type. Clients and service providers can extend MAPI's set of predefined properties by creating new, custom properties. Clients can define properties to describe new message classes, and service providers can define properties to expose the unique features of their messaging system.
   

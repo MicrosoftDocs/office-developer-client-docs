@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagTitle Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the recipient's job title.
   

@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # How to: Create a Complex Recurrent Appointment Item
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 MAPI can be used to create recurring appointment items.
   

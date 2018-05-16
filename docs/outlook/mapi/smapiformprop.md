@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # SMAPIFormProp
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Describes a named property used with a form. 
   

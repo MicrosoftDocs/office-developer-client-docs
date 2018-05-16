@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IProviderAdmin::GetLastError
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Returns a [MAPIERROR](mapierror.md) structure that contains information about the previous error that occurred to the provider administration object. 
   

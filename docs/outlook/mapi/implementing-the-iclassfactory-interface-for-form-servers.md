@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # Implementing the IClassFactory Interface for Form Servers
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 [IClassFactory](http://msdn.microsoft.com/en-us/library/ms694364%28VS.85%29.aspx) is the OLE interface that client applications use to create new form objects of your form server's message class. The following table lists the **IClassFactory** methods that are required. 
   

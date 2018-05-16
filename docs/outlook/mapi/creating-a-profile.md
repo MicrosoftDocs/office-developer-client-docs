@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Creating a Profile
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 A client can create a profile in one of two ways, by using the Profile Wizard, or by writing custom code.
   

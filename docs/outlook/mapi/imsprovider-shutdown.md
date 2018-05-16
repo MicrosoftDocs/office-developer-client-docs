@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMSProvider::Shutdown
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Closes a message store provider in an orderly fashion.
   

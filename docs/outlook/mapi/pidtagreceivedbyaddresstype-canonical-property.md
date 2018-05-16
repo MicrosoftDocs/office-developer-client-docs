@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagReceivedByAddressType Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the e-mail address type, such as SMTP, for the messaging user who actually receives the message.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagStoreRecordKey Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the unique binary-comparable identifier (record key) of the message store in which an object resides.
   

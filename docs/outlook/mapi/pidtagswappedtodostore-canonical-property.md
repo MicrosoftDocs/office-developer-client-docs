@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagSwappedToDoStore Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Determines the need for post-transmit processing of an e-mail.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # HrDecomposeMsgID
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Separates the ASCII representation of the compound entry identifier of an object, usually a message in a message store, into the entry identifier of that object in the store and the store's entry identifier. 
   

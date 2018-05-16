@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # Recipient Properties for All Messages
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The following properties are typically present for all message recipients. **PR_EMAIL_ADDRESS** and **PR_SEARCH_KEY** are optional; all of the other properties are required. 
   

@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # MAPI Transport Provider Overview
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Transport providers handle message transmission and reception and implement security, if necessary. They also take care of any necessary preprocessing and postprocessing tasks. There is typically one transport provider for every active messaging system.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PropCopyMore
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Copies a single property value from a source location to a destination location. 
   

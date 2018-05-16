@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagAbProviderId Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains an address book provider's [MAPIUID](mapiuid.md) structure. 
   

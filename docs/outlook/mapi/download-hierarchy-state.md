@@ -12,9 +12,9 @@ description: "Last modified: March 09, 2015"
 
 # Download Hierarchy State
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
  This topic describes what happens during the download hierarchy state of the replication state machine. 
   

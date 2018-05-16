@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Acting as a Host Address Book Provider
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 A host provider is an address book provider that includes recipients from other providers in its containers and relies on the implementation of the recipients by the other providers to partially control their maintenance. A host provider uses the template identifiers of these foreign recipients to bind the data for these recipients to code in the foreign provider. This binding process is initiated when your provider retrieves the **PR_TEMPLATEID** ( [PidTagTemplateid](pidtagtemplateid-canonical-property.md)) property of a recipient and passes it in a call to [IMAPISupport::OpenTemplateID](imapisupport-opentemplateid.md). 
   

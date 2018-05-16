@@ -12,9 +12,9 @@ description: "Last modified: March 09, 2015"
 
 # PropertyDefinition Stream Sample
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 This topic describes an example of a PropertyDefinition stream. The stream contains a definition of a user-defined field,  `TextField1`. The type is **Text**, and the definition is in the PropDefV2 format.
   

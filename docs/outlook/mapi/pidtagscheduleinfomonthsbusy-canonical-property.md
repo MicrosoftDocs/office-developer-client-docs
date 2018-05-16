@@ -16,9 +16,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagScheduleInfoMonthsBusy Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the months for which free/busy data of type busy is present in the free/busy message.
   

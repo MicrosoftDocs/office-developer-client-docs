@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # CreateIProp
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Creates a property data object, that is, an [IPropData](ipropdataimapiprop.md) object. 
   

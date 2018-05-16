@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Creating Message Text
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Although some messages are made up of nothing more than a recipient list and a subject line, the content of most messages, specifically IPM.Note messages, includes text. Message text can be plain or formatted and is stored in three properties: **PR_BODY** ( [PidTagBody](pidtagbody-canonical-property.md)), **PR_HTML** ( [PidTagHtml](pidtaghtml-canonical-property.md)), and **PR_RTF_COMPRESSED** ( [PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). If your client is plain text-based, set **PR_BODY**. If you support formatted text in the Rich Text Format (RTF), set either **PR_RTF_COMPRESSED** only or both **PR_RTF_COMPRESSED** and **PR_BODY**, depending on the message store provider that you are using. When an RTF-aware client is using an RTF-aware message store, it sets **PR_RTF_COMPRESSED** only. When an RTF-aware client is using a non-RTF-aware message store, it sets both properties. If your client supports HTML, set the **PR_HTML** property. 
   

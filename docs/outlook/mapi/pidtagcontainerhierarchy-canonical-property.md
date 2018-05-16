@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagContainerHierarchy Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains an embedded hierarchy table object that provides information about the child containers. 
   

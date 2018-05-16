@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Creating a Recipient List
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 A recipient list is an [ADRLIST](adrlist.md) structure that contains an array of property value structures for each message recipient — destination for the message. A recipient can represent a human user, a machine, or a folder. All messages to be sent require at least one recipient that has been through the name resolution process — a process for ensuring that the **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)) property is included in the recipient's property value array. 
   

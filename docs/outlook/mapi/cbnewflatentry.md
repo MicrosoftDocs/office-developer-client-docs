@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # CbNewFLATENTRY
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Computes the number of bytes that should be allocated for a new [FLATENTRY](flatentry.md) structure that contains an entry identifier of a specified byte size. 
   

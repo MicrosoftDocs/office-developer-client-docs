@@ -14,9 +14,9 @@ description: "Last modified: December 07, 2015"
 
 # Receiving Messages by Using TNEF Custom Attachment Processing
 
- **Last modified:** December 07, 2015 
+ 
   
- * **Applies to:** Outlook * 
+**Applies to**: Outlook 
   
 To receive a TNEF message with customized attachment processing:
   

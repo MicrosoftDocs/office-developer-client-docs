@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # DeregisterIdleRoutine
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Removes a [FNIDLE](fnidle.md) based idle routine from the MAPI system. 
   

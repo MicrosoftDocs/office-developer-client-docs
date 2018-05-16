@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Downloading the Outlook MAPI Samples
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The Microsoft Outlook MAPI samples include an address book provider, a message store provider, and a transport provider.
   

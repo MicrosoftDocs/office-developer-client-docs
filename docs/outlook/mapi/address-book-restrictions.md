@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Address Book Restrictions
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Address book providers are required to support three types of restrictions on the contents tables of their containers:
   

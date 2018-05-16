@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagRemoteValidateOk Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 This property contains TRUE if the remote viewer is allowed to call the [IMAPIStatus::ValidateState](imapistatus-validatestate.md) method. 
   

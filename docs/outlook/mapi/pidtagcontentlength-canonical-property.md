@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagContentLength Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a message length, in bytes, passed to a client application or service provider to determine if a message of that length can be delivered. 
   

@@ -14,9 +14,9 @@ description: "Last modified: November 08, 2011"
 
 # Commonly Used Properties
 
- **Last modified:** November 08, 2011 
+ 
   
- * **Applies to:** Outlook * 
+**Applies to**: Outlook 
   
 Lists of required and optional MAPI properties are documented in several places.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidSideEffects Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Controls how a message object is handled by the client when acting on end-user input.
   

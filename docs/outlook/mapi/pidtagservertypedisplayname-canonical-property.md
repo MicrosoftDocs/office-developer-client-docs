@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagServerTypeDisplayName Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the Unicode string to display in the status bar with this property.
   

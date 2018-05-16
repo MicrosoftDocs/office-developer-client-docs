@@ -12,9 +12,9 @@ description: "Last modified: June 25, 2012"
 
 # Using Multiple Exchange Accounts
 
- **Last modified:** June 25, 2012 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Microsoft Outlook 2010 and Microsoft Outlook 2013 support integration with multiple exchange e-mail accounts. In Outlook 2010 or Outlook 2013, a user could add two exchange accounts to the same profile and still enjoy rich Exchange features such as the published global address list (GAL), Exchange Out-of-Office configuration, and folder sharing.
   

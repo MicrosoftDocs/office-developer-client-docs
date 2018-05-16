@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IXPProvider::TransportLogon
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Establishes a session in which a client application logs on to a transport provider. 
   

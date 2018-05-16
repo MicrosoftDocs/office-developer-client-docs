@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidWorkAddressPostOfficeBox Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the post office box portion of the contact's work.
   

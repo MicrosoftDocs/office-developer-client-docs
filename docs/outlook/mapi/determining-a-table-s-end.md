@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Determining a Table's End
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
  A common error is to assume that the end of the table has been reached when: 
   

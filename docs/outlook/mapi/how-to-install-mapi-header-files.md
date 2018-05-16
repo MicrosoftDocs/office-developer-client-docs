@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # How to: Install MAPI Header Files
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 This topic describes how to obtain and install MAPI header files and library files.
   

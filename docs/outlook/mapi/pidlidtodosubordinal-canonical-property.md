@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidToDoSubOrdinal Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Acts as a tie breaker when the **dispidToDoOrdinalDate** ( [PidLidToDoOrdinalDate](pidlidtodoordinaldate-canonical-property.md)) property sorts objects and the result in a tie.
   

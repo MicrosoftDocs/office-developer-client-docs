@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # ITnef::Finish
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Finishes processing for all Transport-Neutral Encapsulation Format (TNEF) operations that are queued and waiting. 
   

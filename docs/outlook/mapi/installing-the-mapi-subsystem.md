@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # Installing the MAPI Subsystem
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Supported versions of Windows install the MAPI stub library, Mapi32.dll, in the  _\<drive\>_\Windows\System32 folder. 
   

@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # MAPI Service Providers
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 There are three common types of service providers:
   

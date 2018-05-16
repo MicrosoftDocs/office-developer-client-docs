@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # SBitMaskRestriction
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Describes a bitmask restriction, which is used to perform a bitwise **AND** operation and test the result. 
   

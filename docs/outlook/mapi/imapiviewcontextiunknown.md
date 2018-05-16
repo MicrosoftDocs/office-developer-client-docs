@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIViewContext : IUnknown
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Manages a form in a client application's form viewer. 
   

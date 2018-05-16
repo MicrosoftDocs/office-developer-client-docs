@@ -14,9 +14,9 @@ description: "Last modified: February 20, 2012"
 
 # MNLS_IsBadStringPtrW
 
- **Last modified:** February 20, 2012 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Verifies that a pointer to a wide string is valid.
   

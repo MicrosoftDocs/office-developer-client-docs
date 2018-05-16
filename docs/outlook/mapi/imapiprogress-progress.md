@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIProgress::Progress
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Updates the progress indicator with a display of the progress as it is made toward completion of the operation. 
   

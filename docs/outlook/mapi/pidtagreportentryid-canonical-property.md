@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagReportEntryId Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the entry identifier for the recipient who should receive reports for this message.
   

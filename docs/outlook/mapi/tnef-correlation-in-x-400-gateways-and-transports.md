@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # TNEF Correlation in X.400 Gateways and Transports
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Gateways and transports that connect to X.400-based systems, use the value of the IM_THIS_IPM X.400 attribute and the **attMessageID** TNEF attribute to implement TNEF correlation. 
   

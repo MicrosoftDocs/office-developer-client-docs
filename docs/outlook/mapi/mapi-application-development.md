@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # MAPI Application Development
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The topics in this section apply to developers of client applications and service providers. These topics are arranged in order of importance. That is, topics that are critical to all programmers appear first and topics that are either of minimal importance or do not apply to all programmers appear last.
   

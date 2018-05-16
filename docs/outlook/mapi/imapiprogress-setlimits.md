@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIProgress::SetLimits
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Sets the lower and upper limits for the number of items in the operation, and the flags that control how progress information is calculated for the operation.
   

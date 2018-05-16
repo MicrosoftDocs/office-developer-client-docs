@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # SPropertyRestriction
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Describes a property restriction that is used to match a constant with the value of a property.
   

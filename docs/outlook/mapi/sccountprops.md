@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # ScCountProps
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Determines the size, in bytes, of a property value array and validates the memory associated with the array. 
   

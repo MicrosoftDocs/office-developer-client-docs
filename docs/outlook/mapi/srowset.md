@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # SRowSet
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains an array of [SRow](srow.md) structures. Each **SRow** structure describes a row from a table. 
   

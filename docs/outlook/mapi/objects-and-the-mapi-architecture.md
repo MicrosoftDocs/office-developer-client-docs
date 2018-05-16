@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Objects and the MAPI Architecture
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 All of the objects that MAPI defines fall into one or more layers in the MAPI architecture. The client interface layer contains all the objects that a client application, form viewer, or form server can implement. The service provider interface layer contains the objects that a service provider of any type can implement. This layer includes objects implemented by address books, message stores, transport providers, and form libraries. The layer that represents the MAPI subsystem is positioned between the client and service provider interface layers. The MAPI layer contains all of the objects that MAPI implements for clients or service providers to use. 
   

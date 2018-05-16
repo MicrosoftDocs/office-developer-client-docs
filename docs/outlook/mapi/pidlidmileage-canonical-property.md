@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidMileage Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the mileage information that is associated with an item.
   

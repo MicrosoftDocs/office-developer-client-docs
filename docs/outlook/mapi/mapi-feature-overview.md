@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # MAPI Feature Overview
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 MAPI has several key features that enable it to provide a consistent way for developers to work with and use different messaging systems in a seamless fashion. These features include a comprehensive and open programming interface, and support for industry standards. 
   

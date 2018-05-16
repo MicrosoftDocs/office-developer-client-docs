@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPITable::Unadvise
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Cancels the sending of notifications previously set up with a call to the [IMAPITable::Advise](imapitable-advise.md) method. 
   

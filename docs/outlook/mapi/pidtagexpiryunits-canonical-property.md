@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagExpiryUnits Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Describes the unit of time when the **PR_EXPIRY_NUMBER** ( [PidTagExpiryNumber](pidtagexpirynumber-canonical-property.md)) property multiplies.
   

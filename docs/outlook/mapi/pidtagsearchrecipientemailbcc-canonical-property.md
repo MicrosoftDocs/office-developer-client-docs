@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagSearchRecipientEmailBcc Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a Unicode string that is being queried in the list of email addresses or display names of recipients addressed in the **BCC** line of unsent messages on the store. 
   

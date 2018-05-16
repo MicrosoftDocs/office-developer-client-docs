@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMAPIViewAdviseSink::OnShutdown
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Notifies the form viewer that a form is being closed.
   

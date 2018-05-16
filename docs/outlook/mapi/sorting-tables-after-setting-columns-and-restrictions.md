@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Sorting Tables After Setting Columns and Restrictions
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 When you need to limit the view of a sorted table, always make the following **IMAPITable** calls in the following order: 
   

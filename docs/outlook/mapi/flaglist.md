@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # FLAGLIST
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a list of flags used to indicate the status of address entries during the name resolution process.
   

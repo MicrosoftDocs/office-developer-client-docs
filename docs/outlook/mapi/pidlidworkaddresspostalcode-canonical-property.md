@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidWorkAddressPostalCode Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the postal code (ZIP code) portion of the contact's work address.
   

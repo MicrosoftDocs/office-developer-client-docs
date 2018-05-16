@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagNonDeliveryReportDiagCode Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a diagnostic code that forms part of a nondelivery report.
   

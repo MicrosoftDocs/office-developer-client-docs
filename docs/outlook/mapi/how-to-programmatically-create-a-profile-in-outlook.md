@@ -14,7 +14,7 @@ description: "This topic describes how to programmatically update a profile in O
 
 This topic describes how to programmatically update a profile in Outlook 2016 by adding a MAPI property to the **emsuid** section of the Profile object. 
   
- **Last modified:** June 02, 2016 
+
   
  * **Applies to:** Office 365 | Outlook | Outlook 2016 * 
   

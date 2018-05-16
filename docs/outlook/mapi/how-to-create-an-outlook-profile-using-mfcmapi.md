@@ -13,7 +13,7 @@ description: "MFCMAPI provides access to MAPI stores to facilitate investigation
 
 MFCMAPI provides access to MAPI stores to facilitate investigation of Exchange and Outlook issues and to provide developers with support for MAPI development.
   
- **Last modified:** May 18, 2016 
+ 
   
  * **Applies to:** Office 365 | Outlook | Outlook 2016 * 
   

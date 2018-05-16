@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Centralizing the Receipt of NDRs
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
  **To have nondelivery reports (NDRs) arrive at a central location when multiple instances of your client are running simultaneously**
   

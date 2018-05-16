@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # SRow
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Describes a row from a table that contains selected properties for a specific object. 
   

@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # Gateway Mappable Properties
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Gateway-mappable properties are properties that may require translation when sent from one messaging domain to another. MAPI's gateway-mappable properties enable messages to include information that requires a gateway to ensure the destination messaging system uses it properly. Although gateway developers are not required to provide this translation capability, they should consider gateway-mappable properties as an opportunity to improve handling of message content.
   

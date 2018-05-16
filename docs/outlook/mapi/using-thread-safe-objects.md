@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Using Thread-Safe Objects
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Client applications can assume that objects used directly or as callbacks are always thread-safe except in the following cases:
   

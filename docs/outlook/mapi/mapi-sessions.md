@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # MAPI Sessions
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Before the client application can call an underlying messaging system, it must establish a session, or connection, with the MAPI subsystem.
   

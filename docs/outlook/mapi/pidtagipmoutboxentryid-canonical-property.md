@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagIpmOutboxEntryId Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the entry identifier of the standard interpersonal message (IPM) Outbox folder. 
   

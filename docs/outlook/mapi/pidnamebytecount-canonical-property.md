@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidNameByteCount Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the size, in bytes, of the file that is attached to the document.
   

@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # TNEF-Tagged Message Text
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Tagged message text is used by TNEF to resolve attachment positions in the parent message. This is done by adding a place holder in the message text at the position of the attachment. This place holder, or attachment tag, describes the attachment in such a way that TNEF knows how to resolve the attachment and its position. The tags are formatted as follows:
   

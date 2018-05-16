@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPISupport::SpoolerNotify
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Notifies the MAPI spooler of a change in status or a request for service. 
   

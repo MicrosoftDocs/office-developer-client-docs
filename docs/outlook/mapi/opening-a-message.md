@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Opening a Message
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
  **To open a message**
   

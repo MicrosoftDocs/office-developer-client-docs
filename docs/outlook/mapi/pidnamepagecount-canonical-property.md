@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidNamePageCount Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the page count of the file attached to the document.
   

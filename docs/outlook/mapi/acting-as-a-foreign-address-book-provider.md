@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Acting as a Foreign Address Book Provider
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 A foreign provider is an address book provider that: 
   

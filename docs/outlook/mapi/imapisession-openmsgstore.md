@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPISession::OpenMsgStore
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Opens a message store and returns an [IMsgStore](imsgstoreimapiprop.md) pointer for further access. 
   

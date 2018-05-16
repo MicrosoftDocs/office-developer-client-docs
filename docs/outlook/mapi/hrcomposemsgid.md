@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # HrComposeMsgID
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Creates an ASCII string representing a compound entry identifier for an object, usually a message in a message store. 
   

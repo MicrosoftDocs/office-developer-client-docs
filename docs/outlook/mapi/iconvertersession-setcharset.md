@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IConverterSession::SetCharSet
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies an optional character set that the MAPI to MIME converter use when converting a MAPI message to a MIME stream.
   

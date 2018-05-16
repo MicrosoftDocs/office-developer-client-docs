@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagJunkAddRecipientsToSafeSendersList Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Indicates whether or not the mail recipients are to be added to the safe senders list.
   

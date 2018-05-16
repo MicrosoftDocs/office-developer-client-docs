@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIClientShutdown : IUnknown
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Enables a MAPI client to carry out fast shutdown of the client process. 
   

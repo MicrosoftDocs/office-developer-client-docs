@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # SPropAttrArray
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a list of attributes for properties of an object. 
   

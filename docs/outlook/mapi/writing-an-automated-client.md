@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Writing an Automated Client
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 An automated client application is an application that runs unattended, displaying no user interface.
   

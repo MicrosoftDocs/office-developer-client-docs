@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidOldWhenEndWhole Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Indicates the original value of the **dispidApptEndWhole** ( [PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)) property before a meeting update.
   

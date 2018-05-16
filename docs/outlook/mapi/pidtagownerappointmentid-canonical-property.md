@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagOwnerAppointmentId Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains an identifier for an appointment in the owner's schedule.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIFolder::CopyMessages
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Copies or moves one or more messages.
   

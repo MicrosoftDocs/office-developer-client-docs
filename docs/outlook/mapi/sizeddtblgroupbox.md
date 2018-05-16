@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # SizedDtblGroupBox
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Creates a named structure that includes a [DTBLGROUPBOX](dtblgroupbox.md) structure for describing a group box control and a label of a specified length. 
   

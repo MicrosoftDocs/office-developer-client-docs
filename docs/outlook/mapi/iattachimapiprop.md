@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IAttach : IMAPIProp
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Maintains and provides access to the properties of attachments in messages. The **IAttach** interface has no unique methods of its own. For more information about how to use attachments, see [MAPI Attachments](mapi-attachments.md) and [Attachment Tables](attachment-tables.md). 
   

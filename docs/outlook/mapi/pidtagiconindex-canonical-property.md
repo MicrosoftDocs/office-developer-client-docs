@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagIconIndex Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a number that indicates which icon to use when you display a group of e-mail objects.
   

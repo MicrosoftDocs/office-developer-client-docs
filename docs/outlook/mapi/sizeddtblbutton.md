@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # SizedDtblButton
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Creates a named structure that includes a [DTBLBUTTON](dtblbutton.md) structure for describing a button and a label of a specified length. 
   

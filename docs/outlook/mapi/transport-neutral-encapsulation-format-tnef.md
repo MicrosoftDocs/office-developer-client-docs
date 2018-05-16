@@ -14,9 +14,9 @@ description: "Last modified: March 12, 2013"
 
 # Transport-Neutral Encapsulation Format (TNEF)
 
- **Last modified:** March 12, 2013 
+ 
   
- * **Applies to:** Outlook * 
+**Applies to**: Outlook 
   
 TNEF is a format for converting a set of MAPI properties—a MAPI message—into a serial data stream. The TNEF functions are primarily used by transport providers that need to encode MAPI message properties for transmission through a messaging system that does not support those properties directly. For example, an SMTP-based transport uses TNEF to encode properties like **PR_SENT_REPRESENTING_NAME** ( [PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md)), which do not have direct representations in the structure of an SMTP message.
   

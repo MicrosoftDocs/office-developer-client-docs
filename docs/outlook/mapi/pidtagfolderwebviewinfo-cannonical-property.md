@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagFolderWebViewInfo Cannonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the URL for the home page of a folder in Microsoft Outlook. This property contains a binary stream called **WebViewPersistenceObject**.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidVerbResponse Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the voting option that a respondent selected.
   

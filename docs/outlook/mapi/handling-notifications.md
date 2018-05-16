@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Handling Notifications
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Notifications enable one object to inform another object that it has undergone a change. The type of change is referred to as an event. MAPI defines several events for which notifications are generated. 
   

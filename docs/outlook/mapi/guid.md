@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # GUID
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Describes a globally unique identifier (GUID). 
   

@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMAPIControl::GetState
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Retrieves a value that indicates whether the button control is enabled or disabled.
   

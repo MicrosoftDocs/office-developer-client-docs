@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # Handling Message Store Notification
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 To register for message store notifications, call either the [IMAPISession::Advise](imapisession-advise.md) or [IMsgStore::Advise](imsgstore-advise.md) method and specify a message store, folder, or message entry identifier in the contents of the  _lpEntryID_ parameter. Message store providers support both object and table notifications. Whether you register with particular message store objects, with the folder hierarchy and contents tables that describe these objects, or with both objects and tables depends on the notifications you expect to see, the calls you make to perform operations, and how the message store provider supports notification. 
   

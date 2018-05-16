@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # Mapping of TNEF Attributes to MAPI Properties
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The following table lists all the attributes defined in the TNEF implementation and their mappings to MAPI properties. In some cases, multiple MAPI properties are encoded as a single attribute. Some attributes have extended descriptions later in this section.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagInstanceKey Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a value that uniquely identifies a row in a table. 
   

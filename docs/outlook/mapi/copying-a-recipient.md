@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Copying a Recipient
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 To copy one or more recipients from one container into another or the same container, first check that the target container is modifiable. Containers that are modifiable set the AB_MODIFIABLE flag in their **PR_CONTAINER_FLAGS** ( [PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)) property.
   

@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # MAPI Constants
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 This topic contains constant definitions, MAPI interface declarations, and class and interface identifiers used by the MAPI APIs.
   

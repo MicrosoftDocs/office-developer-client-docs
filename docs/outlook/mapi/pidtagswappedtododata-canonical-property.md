@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagSwappedToDoData Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Maintains a second set of property values that do not affect the flagged state of the Message object.
   

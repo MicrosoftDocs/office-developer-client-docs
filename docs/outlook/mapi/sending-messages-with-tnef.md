@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Sending Messages with TNEF
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Many transport providers automatically send all outgoing messages with the Transport Neutral Encapsulation Format (TNEF). TNEF is used to transmit the formatted text that many clients and message store providers support in their messages, attachments of various types, and custom properties for custom message classes. Although the default mode for most transport providers is to send outgoing messages with TNEF, some transport providers do not support it. The lack of support for TNEF is not an issue for standard messaging clients that send and receive IPM messages. However, for form-based clients or clients that require custom properties, the use of TNEF is essential. Designers of clients that rely on forms or custom properties must be aware of the capabilities of the transport providers that they use.
   

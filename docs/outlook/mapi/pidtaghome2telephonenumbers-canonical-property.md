@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagHome2TelephoneNumbers Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a list of secondary telephone numbers at the recipient's home.
   

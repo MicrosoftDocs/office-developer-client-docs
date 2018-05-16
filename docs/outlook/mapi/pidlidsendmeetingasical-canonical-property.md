@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidSendMeetingAsIcal Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies if a meeting request should be sent as an iCal message.
   

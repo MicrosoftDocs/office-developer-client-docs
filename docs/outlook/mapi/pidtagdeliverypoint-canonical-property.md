@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagDeliveryPoint Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the nature of the functional entity by means of which a message was or would have been delivered to the recipient. 
   

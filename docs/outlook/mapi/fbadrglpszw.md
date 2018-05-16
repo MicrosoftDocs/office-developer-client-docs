@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # FBadRglpszW
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Validates all strings in an array of Unicode strings. 
   

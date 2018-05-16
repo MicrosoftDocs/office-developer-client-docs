@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IXPLogon::FlushQueues
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Requests that the transport provider immediately deliver all pending inbound or outbound messages.
   

@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagProfileServerFullVersion Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies complete version and build information about the Microsoft Exchange Server to which accounts in a profile are connected.
   

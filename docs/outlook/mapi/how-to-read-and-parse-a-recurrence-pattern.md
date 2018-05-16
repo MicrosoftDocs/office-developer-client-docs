@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # How to: Read and Parse a Recurrence Pattern
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 MAPI can be used to read and parse a recurrence pattern for an appointment.
   

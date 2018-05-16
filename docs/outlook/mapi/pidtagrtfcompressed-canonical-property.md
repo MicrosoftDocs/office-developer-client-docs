@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagRtfCompressed Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the Rich Text Format (RTF) version of the message text, usually in compressed form. 
   

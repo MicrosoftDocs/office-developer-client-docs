@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # FNIDLE
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Defines an idle routine that the MAPI idle engine calls periodically according to priority. 
   

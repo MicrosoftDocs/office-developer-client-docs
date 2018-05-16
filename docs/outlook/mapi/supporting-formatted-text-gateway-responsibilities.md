@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Supporting Formatted Text: Gateway Responsibilities
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
  **To handle Rich Text Format for outgoing messages, gateways**
   

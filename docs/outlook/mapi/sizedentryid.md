@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # SizedENTRYID
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Creates a named [ENTRYID](entryid.md) structure that contains an **ab** member of a specified size. 
   

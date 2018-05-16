@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # GetTnefStreamCodepage
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Determines the code page for a Transport-Neutral Encapsulation Format (TNEF) stream.
   

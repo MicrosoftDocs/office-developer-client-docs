@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # LTID
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Generic Long Term ID of an object in an Outlook store.
   

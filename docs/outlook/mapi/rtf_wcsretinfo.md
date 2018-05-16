@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # RTF_WCSRETINFO
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 This structure provides information about a stream in native format returned from decompressing the body of a message that is encapsulated in compressed Rich Text Format (RTF).
   

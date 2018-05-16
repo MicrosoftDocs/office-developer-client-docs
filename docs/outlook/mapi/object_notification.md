@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # OBJECT_NOTIFICATION
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains information about an object that has undergone a change, such as being copied or modified.
   

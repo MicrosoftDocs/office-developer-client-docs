@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIProp::GetIDsFromNames
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Provides the property identifiers that correspond to one or more property names.
   

@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # Creating a Recipient
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Clients create recipients when they are addressing messages and when they are adding entries to modifiable address book containers. MAPI provides three methods for creating recipients:
   

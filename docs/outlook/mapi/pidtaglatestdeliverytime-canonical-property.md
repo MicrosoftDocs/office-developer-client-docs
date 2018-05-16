@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagLatestDeliveryTime Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the latest date and time when a message transfer agent (MTA) should deliver a message. 
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagExpiryNumber Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Defines the expiry send time in conjunction with the **PR_EXPIRY_UNITS** ( [PidTagExpiryUnits](pidtagexpiryunits-canonical-property.md)) property.
   

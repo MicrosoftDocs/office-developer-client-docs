@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # SzFindSz
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Locates the first occurrence of a null-terminated substring in a null-terminated string. 
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # ENTRYID
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains an entry identifier for a MAPI object. 
   

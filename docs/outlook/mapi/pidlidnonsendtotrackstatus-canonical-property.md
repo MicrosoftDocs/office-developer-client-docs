@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidNonSendToTrackStatus Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the value for each attendee listed in the **dispidNonSendableTo** ( [PidLidNonSendableTo](pidlidnonsendableto-canonical-property.md)) property.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagExtendedRuleMessageActions Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains additional information about the named properties used in a Folder Associated Information (FAI) message.
   

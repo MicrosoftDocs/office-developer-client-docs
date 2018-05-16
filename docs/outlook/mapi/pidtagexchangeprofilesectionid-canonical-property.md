@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagExchangeProfileSectionId Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a dynamically generated GUID used to determine an account when you are using multiple Microsoft Exchange Server accounts.
   

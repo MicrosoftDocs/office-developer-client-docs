@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IABLogon::Advise
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Registers the caller to receive notification of specified events that affect a container, messaging user, or distribution list.
   

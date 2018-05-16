@@ -16,9 +16,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagPstPasswordSzNew Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the new password to use for future access to the personal folder store.
   

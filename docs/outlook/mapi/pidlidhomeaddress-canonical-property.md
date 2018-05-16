@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidHomeAddress Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the complete address of the contact's home address.
   

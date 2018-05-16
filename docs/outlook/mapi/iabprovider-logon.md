@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IABProvider::Logon
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Establishes a connection to an active session.
   

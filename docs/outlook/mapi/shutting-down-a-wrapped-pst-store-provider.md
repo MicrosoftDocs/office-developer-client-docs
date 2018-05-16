@@ -12,9 +12,9 @@ description: "Last modified: July 02, 2012"
 
 # Shutting Down a Wrapped PST Store Provider
 
- **Last modified:** July 02, 2012 
+ 
   
- * **Applies to:** Outlook * 
+**Applies to**: Outlook 
   
 After you finish using a wrapped Personal Folders file (PST) store provider, you must properly shut down the wrapped PST store provider. For more information about using the wrapped PST store provider, see [Using a Wrapped PST Store Provider](using-a-wrapped-pst-store-provider.md).
   

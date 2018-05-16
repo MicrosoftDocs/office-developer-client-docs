@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagNonDeliveryReportFromSearchKey Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 If set on a nondelivery report, denotes the search key of the failed Send-As user.
   

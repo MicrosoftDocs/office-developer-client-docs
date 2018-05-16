@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagBusiness2TelephoneNumbers Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a list of telephone numbers for a business.
   

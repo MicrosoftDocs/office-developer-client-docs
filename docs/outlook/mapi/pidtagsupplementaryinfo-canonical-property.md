@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagSupplementaryInfo Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains additional information for use in a report.
   

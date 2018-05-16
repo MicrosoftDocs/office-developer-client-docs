@@ -14,9 +14,9 @@ description: "Last modified: February 20, 2012"
 
 # MNLS_CompareStringW
 
- **Last modified:** February 20, 2012 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Compares two Unicode strings.
   

@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Displaying a Folder Contents Table
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The contents table of a folder contains summary information about all of its messages. Summary information about new incoming messages appears in the contents table of the receive folder for the message class. To make this information available to users, retrieve the table and display the columns and rows as appropriate.
   

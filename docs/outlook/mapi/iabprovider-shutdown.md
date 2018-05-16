@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IABProvider::Shutdown
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Cancels a connection to an active session.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagCorrelateMtsid Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the message transfer system (MTS) identifier used in correlating reports with sent messages.
   

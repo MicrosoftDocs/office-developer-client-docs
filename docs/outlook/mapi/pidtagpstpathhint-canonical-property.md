@@ -16,9 +16,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagPstPathHint Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Provides the personal storage table (.pst file) name, which the user can edit, for the configuration dialog box. 
   

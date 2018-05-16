@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # MAPIOpenFormMgr
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Opens an [IMAPIFormMgr](imapiformmgriunknown.md) interface on a form library provider object in the context of an existing session. 
   

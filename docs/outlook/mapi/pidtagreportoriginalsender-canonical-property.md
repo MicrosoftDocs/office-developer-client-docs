@@ -16,9 +16,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagReportOriginalSender Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Indicates the original sender of the message for messages that request receipts.
   

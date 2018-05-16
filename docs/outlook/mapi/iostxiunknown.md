@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IOSTX : IUnknown
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Provides synchronization methods. This interface retrieves the necessary information to replicate local changes to the server and server changes to the local store.
   

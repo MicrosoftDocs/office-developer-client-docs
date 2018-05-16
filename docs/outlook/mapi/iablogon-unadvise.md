@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IABLogon::Unadvise
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Cancels notifications that were previously set up with a call to the [IABLogon::Advise](iablogon-advise.md) method. 
   

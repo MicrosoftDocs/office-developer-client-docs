@@ -16,9 +16,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagReportDispositionMode Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Indicates the disposition of the receipt for messages that request receipts. 
   

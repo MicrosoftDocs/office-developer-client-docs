@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Property Names and Property Sets
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The name of every named property has two parts:
   

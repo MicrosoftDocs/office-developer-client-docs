@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMsgStore::AbortSubmit
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Attempts to remove a message from the outgoing queue.
   

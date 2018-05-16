@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Composing a New Message by Using a Form
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 To use a form to compose a new message, first create a new custom message object.
   

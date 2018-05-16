@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagRead Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Indicates whether a table row has been read.
   

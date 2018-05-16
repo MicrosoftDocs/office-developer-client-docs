@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Sending Messages: MAPI Spooler Tasks
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The MAPI spooler is involved in the message transmission process when the message store is not tightly coupled with a transport provider, when the tightly coupled store and transport cannot handle a recipient, and when the message requires preprocessing.
   

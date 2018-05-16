@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # RemovePreprocessInfo
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Removes preprocessed information written by a [PreprocessMessage](preprocessmessage.md) based function from a message. 
   

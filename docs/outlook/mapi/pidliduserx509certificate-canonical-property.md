@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidUserX509Certificate Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains X.509 version 3 security certificates for a messaging user.
   

@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # Required Features for Address Book Providers
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Address book providers can work with recipient information that is temporary or permanent, local or remote, understandable by one or more messaging systems, and formatted for a disk file or database table. There are a variety of features that an address book provider can implement, thereby adding value and improving interoperability with clients and other providers. However, a few features are required.
   

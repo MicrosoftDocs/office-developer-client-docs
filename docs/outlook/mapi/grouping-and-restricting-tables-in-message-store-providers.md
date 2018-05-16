@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # Grouping and Restricting Tables in Message Store Providers
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Client applications frequently allow users some control over how the contents of a folder are displayed. Typically, a user can choose to have messages grouped according to the value of one or more message properties, or can choose to exclude messages that match certain criteria. This is done by using the [IMAPITable : IUnknown](imapitableiunknown.md) interface. Client applications can restrict the rows returned from the table to whatever criteria the user specifies. Therefore, a message store provider needs to implement the following **IMAPITable** methods. 
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # CbNewSPropProblemArray
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Computes the number of bytes to be allocated for a new [SPropProblemArray](spropproblemarray.md) structure that contains a specified number of [SPropProblem](spropproblem.md) structures. 
   

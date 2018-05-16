@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMSLogon::CompareEntryIDs
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Compares two entry identifiers to determine whether they refer to the same object. MAPI refers this call to a service provider only if the unique identifiers (UIDs) in both entry identifiers to be compared are handled by that provider.
   

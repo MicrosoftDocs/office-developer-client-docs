@@ -16,9 +16,9 @@ description: "Last modified: March 09, 2015"
 
 # MAPI Interfaces
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The documentation for each interface consists of an introductory section that includes a brief description of the interface's purpose followed by a table that contains the following information.
   

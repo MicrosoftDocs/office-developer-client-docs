@@ -14,9 +14,9 @@ description: "Last modified: December 07, 2015"
 
 # Releasing the Transport Provider
 
- **Last modified:** December 07, 2015 
+ 
   
- * **Applies to:** Outlook * 
+**Applies to**: Outlook 
   
 When MAPI or the MAPI spooler finishes using a transport logon object:
   

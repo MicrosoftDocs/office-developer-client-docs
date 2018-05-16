@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidScriptStream Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Represents the code written in Visual Basic Scripting Edition (VBScript) behind the custom form associated with the message.
   

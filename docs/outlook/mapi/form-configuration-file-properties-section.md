@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Form Configuration File [Properties] Section
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The **[Properties]** section lists the complete set of properties that the form uses and publishes; that is, the properties it creates in its custom messages that MAPI client applications can use when displaying columns, filtering contents tables, setting up search-results folders, and so on. Each entry in this property list references a subsequent **[Property.** _string_ **]** section as shown following. 
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagParentDisplay Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the display name of the folder where a message was found during a search.
   

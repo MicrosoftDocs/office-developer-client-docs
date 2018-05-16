@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Working with Unicode Columns
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Character strings in tables can be represented using standard 8-bit characters, which are property type PT_STRING8, or 16-bit Unicode characters, which are property type PT_UNICODE. Table implementers are free to choose whether or not their tables support Unicode strings. Because Unicode adds value for both clients and service providers by extending the feature set, supporting Unicode wherever possible is recommended. 
   

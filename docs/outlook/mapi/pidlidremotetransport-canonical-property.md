@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidRemoteTransport Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Identifies what account the header item is associated with, primarily to implement the POP Leave on Server functionality. 
   

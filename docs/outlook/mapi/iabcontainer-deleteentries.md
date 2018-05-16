@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IABContainer::DeleteEntries
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Removes one or more entries, typically messaging users, distribution lists, or other containers.
   

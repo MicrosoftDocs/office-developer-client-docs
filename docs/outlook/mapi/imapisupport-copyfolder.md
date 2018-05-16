@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPISupport::CopyFolder
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Copies or moves a folder from its current parent folder to another parent folder.
   

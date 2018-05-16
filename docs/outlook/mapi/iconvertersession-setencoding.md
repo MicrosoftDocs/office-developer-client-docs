@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IConverterSession::SetEncoding
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Initializes the encoding to be used during conversion.
   

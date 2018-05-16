@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Permissions for MAPI Objects and Properties
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Access permission, or the set of permissable operations, can be a characteristic of MAPI objects and of individual properties supported by those objects. Object access is determined by an object's parent. For a message, its folder determines access permissions. For a messaging user or distribution list, its address book container makes this determination. When an object such as a message resides in two folders, the permissions for the two copies of the object can be different. 
   

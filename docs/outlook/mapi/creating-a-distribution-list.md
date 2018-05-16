@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Creating a Distribution List
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Clients can create a distribution list directly into a modifiable container such as the personal address book (PAB).
   

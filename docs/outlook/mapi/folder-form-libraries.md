@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Folder Form Libraries
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 In some cases, you might want to associate one or more forms with a specific folder. For example, employees in your organization could all have a Progress Report folder in their personal message store for creating and storing progress reports. Because the progress report is specific to each user's Progress Report folder, it might not be appropriate to store the progress report form in the system wide form library. However, a copy of the progress report form can be kept in the associated-contents table of each user's Progress Report folder. This restricts the user from using progress report forms outside of the designated folder.
   

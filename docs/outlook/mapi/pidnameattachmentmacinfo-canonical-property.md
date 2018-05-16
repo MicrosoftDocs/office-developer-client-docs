@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidNameAttachmentMacInfo Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains an [RFC3282] attachment value that is comprised of appropriate header and resource fork data used by Macintosh-based e-mail clients.
   

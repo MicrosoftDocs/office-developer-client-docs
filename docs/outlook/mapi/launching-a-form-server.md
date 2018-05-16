@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Launching a Form Server
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The series of interactions that occurs when a form is loaded from persistent storage (that is, from a form library) to display a message is as follows:
   

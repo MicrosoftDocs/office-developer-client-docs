@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagRowid Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a unique identifier for a recipient in a recipient table or status table.
   

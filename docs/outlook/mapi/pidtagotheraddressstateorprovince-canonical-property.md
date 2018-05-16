@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagOtherAddressStateOrProvince Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the name of state or province used in the other address.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # HrAddColumnsEx
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Adds or moves columns to the beginning of an existing table. 
   

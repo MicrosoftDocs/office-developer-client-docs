@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # MAPI Form Servers
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 From the user's perspective, a form is usually a property sheet for a message or a data-entry form that enables users to enter structured information. However, it can be any user interface that is associated with a message class. From a programmer's point of view, a form consists of:
   

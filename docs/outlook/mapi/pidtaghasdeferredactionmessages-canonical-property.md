@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagHasDeferredActionMessages Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains TRUE if a message has at least one deferred action rule.
   

@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Encoding a Message with TNEF
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 When a message is submitted, the transport provider can create a file that is used to contain the message during transmission. Next, an [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) interface is wrapped around the file. The transport provider then uses [ITnef](itnefiunknown.md) methods to write the message properties to the stream in a tagged format that enables the properties to be easily decoded by the receiving transport providers. 
   

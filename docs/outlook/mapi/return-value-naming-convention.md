@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Return Value Naming Convention
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The MAPICODE.H header file contains many of the values that a client or service provider might return from an interface method implementation or might see returned from a call.
   

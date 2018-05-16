@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidAllAttendeesString Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies a list of all the attendees except for the organizer, including resources and unsendable attendees.
   

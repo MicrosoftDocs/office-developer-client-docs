@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagStoreProvider Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a provider-defined [MAPIUID](mapiuid.md) structure that indicates the type of the message store. 
   

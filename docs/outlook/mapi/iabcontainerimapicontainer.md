@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IABContainer : IMAPIContainer
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Provides access to address book containers. MAPI and client applications call the methods of **IABContainer** to perform name resolution and to create, copy, and delete recipients. 
   

@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # MAPI Character Sets
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 MAPI-compliant client applications and service providers can use ANSI characters (single byte) or Unicode characters (double byte). OEM character sets are not supported. An OEM string passed to a MAPI method or function will cause that method or function to fail. Client applications that work with filenames in the OEM character set must be careful to convert them to ANSI before passing them to a MAPI method or function.
   

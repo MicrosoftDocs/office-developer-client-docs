@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidSharingRemoteType Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the type of the remote shared folder. This is a property of a sharing message.
   

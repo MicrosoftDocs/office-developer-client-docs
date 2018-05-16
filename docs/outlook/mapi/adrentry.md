@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # ADRENTRY
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Describes zero or more properties that belong to a recipient.
   

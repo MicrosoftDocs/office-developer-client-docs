@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIProp::DeleteProps
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Deletes one or more properties from an object. 
   
