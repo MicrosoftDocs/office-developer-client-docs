@@ -1,7 +1,5 @@
 ---
 title: "IXPLogonTransportNotify"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -18,9 +16,9 @@ description: "Last modified: July 23, 2011"
 
 # IXPLogon::TransportNotify
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Signals the occurrence of an event about which the transport provider requested notification.
   
@@ -99,25 +97,13 @@ The provider must synchronize access to its data on this call, because the MAPI 
   
 ## See also
 
-#### Reference
-
-[IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md)
-  
-[IMAPISupport::SpoolerYield](imapisupport-spooleryield.md)
-  
-[IMsgStore::AbortSubmit](imsgstore-abortsubmit.md)
-  
-[IXPLogon::EndMessage](ixplogon-endmessage.md)
-  
-[IXPLogon::Poll](ixplogon-poll.md)
-  
-[IXPLogon::StartMessage](ixplogon-startmessage.md)
-  
-[IXPLogon::SubmitMessage](ixplogon-submitmessage.md)
-  
-[IXPLogon::TransportNotify](#_mapi1book_ixplogon_transportnotify)
-  
-[IXPProvider::TransportLogon](ixpprovider-transportlogon.md)
-  
-[IXPLogon : IUnknown](ixplogoniunknown.md)
+- [IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md) 
+- [IMAPISupport::SpoolerYield](imapisupport-spooleryield.md) 
+- [IMsgStore::AbortSubmit](imsgstore-abortsubmit.md) 
+- [IXPLogon::EndMessage](ixplogon-endmessage.md) 
+- [IXPLogon::Poll](ixplogon-poll.md)
+- [IXPLogon::StartMessage](ixplogon-startmessage.md)
+- [IXPLogon::SubmitMessage](ixplogon-submitmessage.md)
+- [IXPProvider::TransportLogon](ixpprovider-transportlogon.md)
+- [IXPLogon : IUnknown](ixplogoniunknown.md)
 

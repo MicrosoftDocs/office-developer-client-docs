@@ -1,12 +1,8 @@
 ---
 title: "Integrating manageability applications with the Office 365 click-to-run installer"
- 
- 
 manager: kelbow
 ms.date: 10/22/2017
 ms.audience: ITPro
- 
- 
 localization_priority: Normal
 ms.assetid: c0fa8fed-1585-4566-a9be-ef6d6d1b4ce8
 description: "Learn how to integrate the Office 365 Click-to-Run installer with a software management solution."
@@ -36,7 +32,7 @@ The Office 365 Click-to-Run installer implements a COM-based interface, **IUpdat
   
 This interface can be invoked as follows:
   
-```
+```cs
 hr = CoCreateInstance(CLSID_UpdateNotifyObject, NULL, CLSCTX_ALL,
        IID_IUpdateNotify, 
       (void **)&amp;p); 
@@ -46,7 +42,7 @@ The call will only succeed if the caller is running under elevated privileges, a
   
 The **IUpdateNotify** COM interface exposes three asynchronous functions responsible for validating the commands and parameters and scheduling execution with the Click-to-Run installation service. 
   
-```
+```cs
 HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
 HRESULT Apply([in] LPWSTR pcwszParameters) // Apply update content.
 HRESULT Cancel() // Cancel the download action.
@@ -55,7 +51,7 @@ HRESULT Cancel() // Cancel the download action.
 
 A forth method, **Status**, can be used to get information about the status of the last executed command or the status of the currently executing command (i.e. success, failure, detailed error codes).
   
-```
+```cs
 HRESULT status([out] _UPDATE_STATUS_REPORT* pUpdateStatusReport) // Get status of current action. 
 typedef struct _UPDATE_STATUS_REPORT  
 {  
@@ -106,7 +102,7 @@ There are four states that the Click-to-Run installation service may be in durin
 - **Status**: Returns **APPLY_WIP** to indicate that apply work is in progress. 
     
 > [!NOTE]
-> **Note:** Since OfficeC2RCOM is a COM+ service and is dynamically loaded, you need to call **CoCreateInstance** every time you call a method on this class to ensure that you get the expected result. The COM+ service will handle creating a new instance if necessary. When one of the methods is called for the first time, COM+ will load the **IUpdateNotify** object and run it within one of the dllhost.exe instances. The new object will stay active for about 3 minutes in idle. If a subsequent call is made within three minutes of the last call, the **IUpdateNotify** object will remain loaded and a new instance is not created. If no call is made within three minutes, the IUpdateNotify object will be unloaded and a new **IUpdateNotify** object will be created when the next call is made. 
+> Since OfficeC2RCOM is a COM+ service and is dynamically loaded, you need to call **CoCreateInstance** every time you call a method on this class to ensure that you get the expected result. The COM+ service will handle creating a new instance if necessary. When one of the methods is called for the first time, COM+ will load the **IUpdateNotify** object and run it within one of the dllhost.exe instances. The new object will stay active for about 3 minutes in idle. If a subsequent call is made within three minutes of the last call, the **IUpdateNotify** object will remain loaded and a new instance is not created. If no call is made within three minutes, the IUpdateNotify object will be unloaded and a new **IUpdateNotify** object will be created when the next call is made. 
   
 ## Click-to-Run installer COM API reference guide
 
@@ -122,7 +118,7 @@ In the following API reference documentation:
     
 ### Apply
 
-```
+```cs
 HRESULT Apply([in] LPWSTR pcwszParameters) // Apply update content.
 ```
 
@@ -142,7 +138,9 @@ HRESULT Apply([in] LPWSTR pcwszParameters) // Apply update content.
 |**E_ACCESSDENIED** <br/> |The caller is not running with elevated privileges.  <br/> |
 |**E_INVALIDARG** <br/> |Invalid parameters were passed.  <br/> |
 |**E_ILLEGAL_METHOD_CALL** <br/> |Action is not allowed at this time. See [Remarks](#bk_ApplyRemark) for more information.  <br/> |
-   
+
+<a name="bk_ApplyRemark"></a>
+
 #### Remarks
 
 - If any Office application is running when the **Apply** action is triggered, the **Apply** action will fail. Passing  `forceappshutdown=true` to the **Apply** method will cause the **OfficeClickToRun** service to immediately shut down any Office applications that are running and apply the update. The user may experience data as they are not prompted to save changes to open documents.. 
@@ -165,7 +163,7 @@ HRESULT Apply([in] LPWSTR pcwszParameters) // Apply update content.
     
 ### Cancel
 
-```
+```cs
 HRESULT Cancel() // Cancel the download action.
 ```
 
@@ -175,14 +173,16 @@ HRESULT Cancel() // Cancel the download action.
 |:-----|:-----|
 |S_OK  <br/> |Action was successfully submitted to the Click-to-Run service for execution.  <br/> |
 |E_ILLEGAL_METHOD_CALL  <br/> |Action is not allowed at this time. See the [Remarks](#bk_CancelRemarks) section for more information  <br/> |
-   
+
+<a name="bk_CancelRemarks"></a>
+
 #### Remarks
 
 - This method can only be triggered when the COM status id **eDOWNLOAD_WIP**. It will attempt to cancel the current download action. The COM status will change to **eDOWNLOAD_CANCELLING** and eventually change to **eDOWNLOAD_CANCELED**. The COM status will return **E_ILLEGAL_METHOD_CALL** if triggered at any other time. 
     
 ### Download
 
-```
+```cs
 HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
 ```
 
@@ -206,7 +206,9 @@ HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
 |**E_ACCESSDENIED** <br/> |The caller is not running with elevated privileges.  <br/> |
 |**E_INVALIDARG** <br/> |Invalid parameters were passed.  <br/> |
 |**E_ILLEGAL_METHOD_CALL** <br/> |Action is not allowed at this time. See [Remarks](#bk_DownloadRemark) for more information.  <br/> |
-   
+
+<a name="bk_DownloadRemark"></a>
+
 #### Remarks
 
 - You must specify  _downloadsource_ and  _contentid_ as a pair. If not, the **Download** method will return an **E_INVALIDARG** error. 
@@ -247,7 +249,7 @@ HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
 
 ### Status
 
-```
+```cs
 typdef struct _UPDATE_STATUS_REPORT
 {
     UPDATE_STATUS status;
@@ -273,7 +275,7 @@ HRESULT status([out] _UPDATE_STATUS_REPORT&amp; pUpdateStatusReport) // Get stat
 
 - The status field of the  `UPDATE_STATUS_REPORT` contains the status of the current action. One of the following status values is returned: 
     
-  ```
+  ```js
   typedef enum _UPDATE_STATUS
   {
   eUPDATE_UNKNOWN = 0,
@@ -295,7 +297,7 @@ HRESULT status([out] _UPDATE_STATUS_REPORT&amp; pUpdateStatusReport) // Get stat
     
 - If the error less than  `UDPATE_ERROR_CODE::eUNKNOWN`, the error is one of the following pre-defined error codes:
     
-  ```
+  ```js
   typedef enum _UPDATE_ERROR_CODE
   {
   eOK = 0,
@@ -323,7 +325,7 @@ HRESULT status([out] _UPDATE_STATUS_REPORT&amp; pUpdateStatusReport) // Get stat
     
 - • The contentid field is used for calls to **Status** after **Download** has initiated and returns the contentid that was passed in to the **Download** call. It is a best practice to initialize this field to **null** before you call the **Status** method and then check the value after **Status** has been returned. If the value is still **null**, that means there is no contentid to return. If the value is not **null**, you need to free it with a call to **SysFreeString()**. Here is a code snippet of how to call **Status** after **Download**.
     
-  ```
+  ```js
   std::wstring contentID;
   UPDATE_STATUS_REPORT statusReport;
   statusReport.status = eUPDATE_UNKNOWN;
@@ -374,7 +376,7 @@ The minimum requirement for a customized BITS interface to work with Office C2R 
   
 - For **IBackgroundCopyManager**:
     
-  ```
+  ```cs
   HRESULT _stdcall CreateJob(
                       [in] LPWSTR DisplayName, 
                       [in] BG_JOB_TYPE Type, 
@@ -391,7 +393,7 @@ The minimum requirement for a customized BITS interface to work with Office C2R 
 
 - For **IBackgroundCopyJob**:
     
-  ```
+  ```cs
   HRESULT _stdcall AddFile(
                       [in] LPWSTR RemoteUrl, 
                       [in] LPWSTR LocalName)
@@ -405,7 +407,7 @@ The minimum requirement for a customized BITS interface to work with Office C2R 
 
 - For **IBackgroundCopyJob3**:
     
-  ```
+  ```cs
   HRESULT _stdcall AddFileWithRanges(
                       [in] LPWSTR RemoteUrl, 
                       [in] LPWSTR LocalName,
@@ -434,7 +436,7 @@ The minimum requirement for a customized BITS interface to work with Office C2R 
 
 - For **IBackgroundCopyError**:
     
-  ```
+  ```cs
   HRESULT _stdcall GetErrorDescription(
         [in]  DWORD  LanguageId,
         [out] LPWSTR *ppErrorDescription);
@@ -443,7 +445,7 @@ The minimum requirement for a customized BITS interface to work with Office C2R 
 
 - For **IBackgroundCopyFile**:
     
-  ```
+  ```cs
   HRESULT _stdcall GetLocalName([out] LPWSTR *ppName); 
   HRESULT _stdcall GetRemoteName([out] LPWSTR *ppName);
   
@@ -526,7 +528,7 @@ baseURL branch="Monthly" URL="http://officecdn.microsoft.com/pr/492350f6-3a01-4f
 
 Image creation tools may verify the integrity of the downloaded .dat files by comparing a computed HASH value with the supplied HASH value associated with each of the .dat files. Below is an example of a .dat file from the Monthly channel with build version 16.0.4229.1004 and language set to Bulgarian.
   
-```
+```dat
 File name="stream.x64.bg-bg.dat" hashLocation="s641026.cab/stream.x64.bg-bg.hash" hashAlgo="Sha256" relativePath="/office/data/%version%/" language="1026"
 ```
 
@@ -536,7 +538,7 @@ File name="stream.x64.bg-bg.dat" hashLocation="s641026.cab/stream.x64.bg-bg.hash
     
 To validate the integrity of the stream.x64.bg-bg.dat file, open the stream.x64.bg-bg.hash and read the hash value from the first line of text in the hash file. Compare this to the has value that you computed using the specified hashing algorithm to verify that the values match. Use the following C# code to read the hash.
   
-```
+```cs
 string[] readHashes = System.IO.File.ReadAllLines(tmpFile, Encoding.Unicode);
 string readHash = readHashes.First();
 
@@ -648,7 +650,7 @@ The following are examples that use the Monthly channel (as defined by the  `<ba
 
 Image creation tools may verify the integrity of the downloaded .dat files by comparing a computed HASH value with the supplied HASH value associated with each of the .dat files. Following is an example of a .dat file from the Monthly channel with build version 16.0.4229.1004 and language set to Bulgarian:
   
-```
+```xml
 <File name="stream.x64.bg-bg.dat" hashLocation="s641026.cab/stream.x64.bg-bg.hash" hashAlgo="Sha256" relativePath="/office/data/%version%/" language="1026"/>
 ```
 
