@@ -1,11 +1,8 @@
 ---
 title: "Project Server error codes"
-
- 
 manager: soliver
 ms.date: 9/17/2015
 ms.audience: Developer
- 
 f1_keywords:
 - error codes
 - errors
@@ -14,7 +11,6 @@ f1_keywords:
 - PSI errors
 keywords:
 - psi, error codes,Error codes, Project Server,PSErrorID,Project Server Interface, error codes,Project Server, error codes
- 
 localization_priority: Normal
 ms.assetid: db78a09c-ebef-47cc-8623-40abe117aa08
 description: "This topic contains tables of error codes for the Project Server Interface (PSI) in Project Server 2013. The tables are arranged by functional area and by error code range."
@@ -23,19 +19,23 @@ description: "This topic contains tables of error codes for the Project Server I
 # Project Server error codes
 
 This topic contains tables of error codes for the Project Server Interface (PSI) in Project Server 2013. The tables are arranged by functional area and by error code range.
-  
-|||
-|:-----|:-----|
-|||
    
-Project Server 2013 processes and PSI methods have error code numbers that are generally arranged by functional area. The [Microsoft.Office.Project.Server.Library.PSErrorID](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.PSErrorID.aspx) enumeration is duplicated in [WebSvcProject.PSErrorID](https://msdn.microsoft.com/library/WebSvcProject.PSErrorID.aspx) ; they list the error codes in alphabetical order by name. This topic lists the error codes in tables that are arranged by the PSI class or functional area and by the error identifier (ID) number. 
+Project Server 2013 processes and PSI methods have error code numbers that are generally arranged by functional area. The [Microsoft.Office.Project.Server.Library.PSErrorID](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.PSErrorID.aspx) enumeration is duplicated in [WebSvcProject.PSErrorID](https://msdn.microsoft.com/library/WebSvcProject.PSErrorID.aspx); they list the error codes in alphabetical order by name. This topic lists the error codes in tables that are arranged by the PSI class or functional area and by the error identifier (ID) number. 
   
 > [!NOTE]
->  Many of the error codes are general and can have multiple possible causes. For more information about errors, you can do the following: >  For ASMX-based applications, use **System.Web.Services.Protocols.SoapException** with the **PSClientError** object to show a list or hierarchy of errors in a PSI method call. See [Error Code Example for ASMX](#pj15_ErrorCodes_ASMXExample). >  For WCF-based applications, you can use **System.ServiceModel.FaultException** to get a **PSClientError** object and also to get additional error information. See [Error Code Example for WCF](#pj15_ErrorCodes_WCFExample). >  Use the application event log on the Project Server computer. >  Use the Unified Logging Service (ULS) trace logs. For an explanation, see the  *Checking Errors*  section in [Getting Started with Development for Project 2010](http://msdn.microsoft.com/en-us/library/gg607685.aspx). >  For more information about using ULS logs, see the Project Support blog article [Project Server 2010: What to Expect when you get the Unexpected](http://blogs.msdn.com/b/brismith/archive/2010/03/24/project-server-2010-what-to-expect-when-you-get-the-unexpected.aspx), or search the blog for "reading ULS logs." >  To help find or watch for specific issues in ULS data, use the [ULS Viewer](http://www.codeproject.com/Articles/458052/ULS-Log-Viewer). >  Use the Microsoft SQL Server Profiler to help catch or monitor database errors. For more information, see [SQL Server Profiler](http://msdn.microsoft.com/library/3ad5f33d-559e-41a4-bde6-bb98792f7f1a.aspx). >  Many of the error codes are used only internally. For example, because the **ExchangeSync** and **PWA** web services are not supported for third-party development, you are not likely to see error codes from methods in those areas, such as the **Rules** and **StatusReports** methods. However, tables in this article include all Project Server error codes for completeness. 
+>  Many of the error codes are general and can have multiple possible causes. For more information about errors, you can do the following: 
+> - For ASMX-based applications, use **System.Web.Services.Protocols.SoapException** with the **PSClientError** object to show a list or hierarchy of errors in a PSI method call. See [Error Code Example for ASMX](#pj15_ErrorCodes_ASMXExample). 
+> - For WCF-based applications, you can use **System.ServiceModel.FaultException** to get a **PSClientError** object and also to get additional error information. See [Error Code Example for WCF](#pj15_ErrorCodes_WCFExample). 
+> - Use the application event log on the Project Server computer.
+> - Use the Unified Logging Service (ULS) trace logs. For an explanation, see the *Checking Errors* section in [Getting Started with Development for Project 2010](http://msdn.microsoft.com/en-us/library/gg607685.aspx). 
+> - For more information about using ULS logs, see the Project Support blog article [Project Server 2010: What to Expect when you get the Unexpected](http://blogs.msdn.com/b/brismith/archive/2010/03/24/project-server-2010-what-to-expect-when-you-get-the-unexpected.aspx), and search the blog for "reading ULS logs." 
+> - To help find or watch for specific issues in ULS data, use the [ULS Viewer](http://www.codeproject.com/Articles/458052/ULS-Log-Viewer). 
+> - Use the Microsoft SQL Server Profiler to help catch or monitor database errors. For more information, see [SQL Server Profiler](http://msdn.microsoft.com/library/3ad5f33d-559e-41a4-bde6-bb98792f7f1a.aspx). 
+> - Many of the error codes are used only internally. For example, because the **ExchangeSync** and **PWA** web services are not supported for third-party development, you are not likely to see error codes from methods in those areas, such as the **Rules** and **StatusReports** methods. However, tables in this article include all Project Server error codes for completeness. 
   
-**Table 1. Error code functional areas and related number ranges**
+## Table 1. Error code functional areas and related number ranges
 
-|****Project Server functional area****|****Error code number ranges****|
+|Project Server functional area|Error code number ranges|
 |:-----|:-----|
 |[Table 3: General error codes](#pj15_ErrorCodes_General) <br/> |0 - 99; 500 - 999; 9131; 10000 - 10099; 20000 - 20099; 26000 - 26099  <br/> |
 |[Table 4: Active cache](#pj15_ErrorCodes_ActiveCache) <br/> |12000 - 12099  <br/> |
@@ -67,9 +67,9 @@ Project Server 2013 processes and PSI methods have error code numbers that are g
 |[Table 30: Workflow](#pj15_ErrorCodes_Workflow) <br/> |35000 - 35999: Workflow  <br/> |
 |[Table 31: WSSInterop and ObjectLinkProvider (SharePoint integration)](#pj15_ErrorCodes_WSS) <br/> |16400 - 16499: SharePoint integration and project workspaces  <br/> 18000 - 18099: Object Link Provider and SharePoint project import  <br/> |
    
-**Table 2. Error code table by number range**
+## Table 2. Error code table by number range
 
-|****Error code range****|****Error code table****|
+|Error code range|Error code table|
 |:-----|:-----|
 |0 - 99  <br/> |[Table 3: General error codes](#pj15_ErrorCodes_General), except 77 is in [Table 9: Calendar](#pj15_ErrorCodes_Calendar) <br/> |
 |100 - 119  <br/> |[Table 18: Projects](#pj15_ErrorCodes_Projects) <br/> |
@@ -110,10 +110,12 @@ Project Server 2013 processes and PSI methods have error code numbers that are g
 |40500 - 40999  <br/> 42000 - 42999  <br/> |[Table 14: Miscellaneous](#pj15_ErrorCodes_Miscellaneous) ( **ExchangeSync**; internal use)  <br/> Project Web App timeline  <br/> |
 |43000 - 43500  <br/> |[Table 29: User delegation](#pj15_ErrorCodes_UserDelegation) <br/> |
 |50000 - 51999  <br/> |[Table 14: Miscellaneous](#pj15_ErrorCodes_Miscellaneous) (Database errors)  <br/> |
-   
-**Table 3. General error codes**
 
-|****General error code****|****Description****|
+<a name="pj15_ErrorCodes_General"></a>
+
+## Table 3. General error codes
+
+|General error code|Description|
 |:-----|:-----|
 |NoError = 0; Success = 0  <br/> |No error, or success.  <br/> |
 |GeneralRequestInvalidParameter = 6  <br/> |One of the request nodes or parameters is either not valid, or not valid within the context of the request.  <br/> |
@@ -192,9 +194,9 @@ Project Server 2013 processes and PSI methods have error code numbers that are g
 |GeneralSPValidateFormDigestError = 26031  <br/> |Error validating the form digest in a Project Web App callback, usually because of a timeout.  <br/> |
 |GeneralDelegationActiveForCurrentUser = 26032  <br/> |The current user has an active delegation. This error is raised by web methods in the **WinProj** service for Project Professional.  <br/> |
    
-**Table 4. Active cache error codes**
+## Table 4. Active cache error codes
 
-|****Active cache error code****|****Description****|
+|Active cache error code|Description|
 |:-----|:-----|
 |ActiveCacheInvalidDataFormat = 12000  <br/> |The data format is not valid.  <br/> |
 |ActiveCacheUnsupportedDataFormatVersion = 12001  <br/> |The data format version is unsupported.  <br/> |
@@ -212,9 +214,9 @@ Project Server 2013 processes and PSI methods have error code numbers that are g
 |ActiveCacheUnsupportedProjectProfessionalVersion = 12015  <br/> |The Project Professional version is unsupported.  <br/> |
 |ActiveCacheGeneralSQLException = 12016  <br/> |There is a general SQL error.  <br/> |
    
-**Table 5. Active Directory synchronization error codes**
+## Table 5. Active Directory synchronization error codes
 
-|****Active Directory synchronization error code****|****Description****|
+|Active Directory synchronization error code|Description|
 |:-----|:-----|
 |AdSyncUpdateTimerJobFailed = 27002  <br/> |The update timer job failed for synchronization with Active Directory directory services.  <br/> |
 |AdSyncDeleteTimerJobFailed = 27003  <br/> |The delete timer job failed for synchronization with Active Directory.  <br/> |
@@ -224,9 +226,9 @@ Project Server 2013 processes and PSI methods have error code numbers that are g
 |SRADelayedUpgradeFailed = 27301  <br/> |The SRA asynchronous update action failed.  <br/> |
 |(27000 - 27999)  <br/> |Other synchronization errors for Active Directory are not enumerated within Project Server.  <br/> |
    
-**Table 6. Admin web service error codes**
+## Table 6. Admin web service error codes
 
-|****Admin error code****|****Description****|
+|Admin error code|Description|
 |:-----|:-----|
 |AdminViewNameAlreadyExists = 16600  <br/> |The view name already exists. Names must be unique.  <br/> |
 |AdminViewInvalidDividerPosition = 16601  <br/> |The divider position is not valid.  <br/> |
@@ -260,9 +262,9 @@ Project Server 2013 processes and PSI methods have error code numbers that are g
 |AdminInvalidServerFlags = 28035  <br/> |One or more flags in Project Server settings are not valid.  <br/> |
 |AdminNullProjectProfessionalVersions = 28036  <br/> |One or more Project Professional versions are null.  <br/> |
    
-**Table 7. Archive web service error codes**
+## Table 7. Archive web service error codes
 
-|****Archive (backup and restore) error code****|****Description****|
+|Archive (backup and restore) error code|Description|
 |:-----|:-----|
 |ArchiveProjectFailure = 25000  <br/> |The project archive operation failed.  <br/> |
 |ArchiveProjectsFailed = 25001  <br/> |Cannot save any of the projects in the Archive database.  <br/> |
@@ -297,9 +299,9 @@ Project Server 2013 processes and PSI methods have error code numbers that are g
 |ArchiveReadProjectArchiveRetentionSettingFailed = 25033  <br/> |Failed to read the project archive retention settings.  <br/> |
 |RestoreResourcesFailed = 29021  <br/> |Cannot restore the resources.  <br/> |
    
-**Table 8. Assignment error codes**
+## Table 8. Assignment error codes
 
-|****Assignment error code****|****Description****|
+|Assignment error code|Description|
 |:-----|:-----|
 |AssignmentNotFound = 120  <br/> |Assignment not found.  <br/> |
 |AssignmentWrongTrackingMethod = 122  <br/> |The assignment has the wrong tracking method.  <br/> |
@@ -315,9 +317,9 @@ Project Server 2013 processes and PSI methods have error code numbers that are g
 |AssignmentAlreadyAssignedToResource = 138  <br/> |The resource already had the assignment.  <br/> |
 |AssignmentInvalidOwner = 139  <br/> |The assignment owner is not valid.  <br/> |
    
-**Table 9. Calendar error codes**
+## Table 9. Calendar error codes
 
-|****Calendar error code****|****Description****|
+|Calendar error code|Description|
 |:-----|:-----|
 |CalendarUidInvalid = 77  <br/> |The calendar GUID is not valid.  <br/> |
 |CalendarOnlyOneShiftIsNull = 13000  <br/> |Only one shift is null.  <br/> |
@@ -354,9 +356,9 @@ Project Server 2013 processes and PSI methods have error code numbers that are g
 |CalendarCannotDeleteCalendarUsedByEnterpriseResource = 13042  <br/> |The calendar is in use by an enterprise resource and cannot be deleted.  <br/> |
 |CalendarFilterInvalid = 13043  <br/> |The filter is not valid for a calendar.  <br/> |
    
-**Table 10. CubeAdmin and Cube Build Service error codes**
+## Table 10. CubeAdmin and Cube Build Service error codes
 
-|****Cube Build Service (CBS) error code****|****Description****|
+|Cube Build Service (CBS) error code|Description|
 |:-----|:-----|
 |CBSGeneralFailure = 17001  <br/> |Failure in the Cube Build Service (CBS). This is a general error code that could result from many different causes.  <br/> |
 |CBSDsoNotInstalled = 17002  <br/> |The CBS needs the Decision Support Objects (DSO) component installed for Analysis Services.  <br/> |
@@ -393,9 +395,9 @@ Project Server 2013 processes and PSI methods have error code numbers that are g
 |CBSErrorMaxOlapDatabaseCountReached = 17034  <br/> |Reached the maximum OLAP database count.  <br/> |
 |CBSErrorReadingCubeFieldsSettings = 17035  <br/> |Error reading cube fields settings.  <br/> |
    
-**Table 11. Check in and check out error codes**
+## Table 11. Check in and check out error codes
 
-|****Check in - check out error code****|****Description****|
+|Check in - check out error code|Description|
 |:-----|:-----|
 |CICOCheckedOutToOtherUser = 10100  <br/> |Checked out to another user.  <br/> |
 |CICOAlreadyCheckedOutToYou = 10101  <br/> |Already checked out to you.  <br/> |
@@ -405,9 +407,9 @@ Project Server 2013 processes and PSI methods have error code numbers that are g
 |CICOAlreadyCheckedOutInSameSession = 10105  <br/> |Already checked out in the same session.  <br/> |
 |CICOCannotCheckOutVisibilityModeProjectWithMppInDocLib = 10106  <br/> |Cannot check out visibility mode project with an mpp file in the doc library.  <br/> |
    
-**Table 12. Custom field error codes**
+## Table 12. Custom field error codes
 
-|****Custom field error code****|****Description****|
+|Custom field error code|Description|
 |:-----|:-----|
 |CustomFieldInvalidPropertyType = 11500  <br/> |The property type is not valid.  <br/> |
 |CustomFieldInvalidScope = 11503  <br/> |The custom field scope is not valid.  <br/> |
@@ -483,9 +485,9 @@ Project Server 2013 processes and PSI methods have error code numbers that are g
 |CustomFieldFormulaFieldCannotReferenceWorkflowControlledField = 11749  <br/> |A field in the formula cannot reference a field controlled by a workflow.  <br/> |
 |CustomFieldWorkflowCustomFieldBeingReferencedByFormula = 11750  <br/> |A formula is trying to reference a workflow custom field.  <br/> |
    
-**Table 13. Lookup table error codes**
+## Table 13. Lookup table error codes
 
-|****Lookup table error code****|****Description****|
+|Lookup table error code|Description|
 |:-----|:-----|
 |LookupTableMaskNotDefined = 11000  <br/> |The lookup table code mask is not defined.  <br/> |
 |LookupTableMaskHasTooManyValues = 11001  <br/> |The lookup table code mask has too many values.  <br/> |
@@ -533,9 +535,9 @@ Error codes in Table 14 include items for project detail pages (PDPs), Exchange 
 > [!NOTE]
 > The auditing error codes are not used in Project Server 2013. 
   
-**Table 14. Miscellaneous error codes**
+## Table 14. Miscellaneous error codes
 
-|****Error code****|****Description****|
+|Error code|Description|
 |:-----|:-----|
 |AuditingUpdateFailure = 31000  <br/> |Not used.  <br/> |
 |AuditingCannotDeleteFeature = 31001  <br/> |Not used.  <br/> |
@@ -575,9 +577,9 @@ Error codes in Table 14 include items for project detail pages (PDPs), Exchange 
 |DatabaseUndefinedError = 50000  <br/> |The database is not defined.  <br/> |
 |DatabaseCannotInsertDuplicateKeyError = 50001  <br/> |The database cannot insert a duplicate key.  <br/> |
    
-**Table 15. Notification error codes**
+## Table 15. Notification error codes
 
-|****Notification error code****|****Description****|
+|Notification error code|Description|
 |:-----|:-----|
 |NotificationReminderUnknown = 16050  <br/> |Unknown reminder notification.  <br/> |
 |NotificationReminderParentNotSubscribed = 16051  <br/> |There is no subscription to the parent of the reminder notification.  <br/> |
@@ -590,9 +592,9 @@ Error codes in Table 14 include items for project detail pages (PDPs), Exchange 
    
 All error codes in Table 16 are for the Optimizer, which is a component used in project portfolio analysis.
   
-**Table 16. Optimizer error codes (project portfolio analysis)**
+## Table 16. Optimizer error codes (project portfolio analysis)
 
-|****Optimizer error code****|****Description****|
+|Optimizer error code|Description|
 |:-----|:-----|
 |OptimizerDepInvalidDepType = 29000  <br/> |The optimizer **DEPENDENCY_TYPE** value in the [OptimizerDependencyDataSet.OptimizerDependenciesRow](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.OptimizerDependencyDataSet.OptimizerDependenciesRow.aspx) is not valid. See [Optimizer.DependencyTypes](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.Optimizer.DependencyTypes.aspx) .  <br/> |
 |OptimizerDepInvalidEntityType = 29001  <br/> |The entity type is not valid. See the [Entities](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.EntityCollection.Entities.aspx) property.  <br/> |
@@ -709,9 +711,9 @@ All error codes in Table 16 are for the Optimizer, which is a component used in 
    
 The error codes in Table 17 are for the Planner, which is a component used in project portfolio analysis.
   
-**Table 17. Planner error codes (project portfolio analysis)**
+## Table 17. Planner error codes (project portfolio analysis)
 
-|****Planner error code****|****Description****|
+|Planner error code|Description|
 |:-----|:-----|
 |PlannerSolutionMessageDeleteFailed = 28000  <br/> |Queue error: the message to delete the planner solution failed.  <br/> |
 |PlannerSolutionMessageCreateFailed = 28001  <br/> |Queue error: the message to create the planner solution failed.  <br/> |
@@ -773,9 +775,9 @@ The error codes in Table 17 are for the Planner, which is a component used in pr
 |PlannerInvalidForceLookupTableValue = 28923  <br/> |The forced value of a lookup table is not valid.  <br/> |
 |PlannerNoHiredResource = 28924  <br/> |There is no resource hired for the proposal.  <br/> |
    
-**Table 18. Project error codes**
+## Table 18. Project error codes
 
-|****Project error code****|****Description****|
+|Project error code|Description|
 |:-----|:-----|
 |ProjectGlobalNotFound = 100  <br/> |Cannot find the enterprise global template.  <br/> |
 |ProjectGlobalCannotBeDeleted = 101  <br/> |Cannot delete the enterprise global template.  <br/> |
@@ -871,9 +873,9 @@ The error codes in Table 17 are for the Planner, which is a component used in pr
 |GeneralDalDatabaseIsReadOnly = 26034  <br/> |Project drilldown load failed. Database is read-only.  <br/> |
 |GeneralDatabaseCommunicationError = 26035  <br/> |There can be many different causes, such as network or authentication problems.  <br/> |
    
-**Table 19. Reporting Data Service (RDS) error codes**
+## Table 19. Reporting Data Service (RDS) error codes
 
-|****RDS error code****|****Description****|
+|RDS error code|Description|
 |:-----|:-----|
 |ReportingAttributeCubeSettingsChangedMessageFailed = 24000  <br/> |The RDS change message failed for a cube settings attribute.  <br/> |
 |ReportingBaseCalendarChangeMessageFailed = 24001  <br/> |The RDS change message failed for a base calendar.  <br/> |
@@ -909,9 +911,9 @@ The error codes in Table 17 are for the Planner, which is a component used in pr
 |ReportingSolutionCommitedDecisionChangedMessageFailed = 24031  <br/> |The RDS message failed to change the committed decision for the solution.  <br/> |
 |ReportingDelayedUpgradeFailed = 24032  <br/> |The RDB delayed upgrade failed.  <br/> |
    
-**Table 20. Resource error codes**
+## Table 20. Resource error codes
 
-|****Resource error code****|****Description****|
+|Resource error code|Description|
 |:-----|:-----|
 |ResourceNotFound = 2000  <br/> |Resource not found.  <br/> |
 |ResourceAlreadyExists = 2001  <br/> |Resource already exists.  <br/> |
@@ -985,9 +987,9 @@ The error codes in Table 17 are for the Planner, which is a component used in pr
 |ResourceExchangeSyncFlagAndPrincipalNameMismatch = 2096  <br/> |Mismatch between the Exchange Server synchronization flag and the principal name for the resource.  <br/> |
 |ResourceUnsupportedUserUpdateInSharePointSecurityMode = 2097  <br/> |User creation is unsupported in SharePoint Security Mode.  <br/> |
    
-**Table 21. Resource plan error codes**
+## Table 21. Resource plan error codes
 
-|****Resource plan error code****|****Description****|
+|Resource plan error code|Description|
 |:-----|:-----|
 |ResourcePlanProjectPublishIncomplete = 30000  <br/> |Did not complete publishing the project for the resource plan.  <br/> |
 |ResourcePlanInvalidResourceType = 30001  <br/> |The resource type in the resource plan is not valid.  <br/> |
@@ -1005,9 +1007,9 @@ The error codes in Table 17 are for the Planner, which is a component used in pr
    
 The error codes in Table 22 are for **Rules** methods in the **PWA** web service. They are used internally. 
   
-**Table 22. Rules error codes**
+## Table 22. Rules error codes
 
-|****Rule error code****|****Description****|
+|Rule error code|Description|
 |:-----|:-----|
 |RulesNameTooLong = 21001  <br/> |The name of the approval rule is too long. Internal use only in Project Web App.  <br/> |
 |RulesDescriptionTooLong = 21002  <br/> |The rule description is too long. Internal use only in Project Web App.  <br/> |
@@ -1019,9 +1021,9 @@ The error codes in Table 22 are for **Rules** methods in the **PWA** web service
 |RulesDescriptionInvalidCharacters = 21009  <br/> |There are one or more characters in the rule description that are not valid. Internal use only in Project Web App.  <br/> |
 |RulesInvalidValueType = 21010  <br/> |The value type in the rule is not valid. Internal use only in Project Web App.  <br/> |
    
-**Table 23. Security error codes**
+## Table 23. Security error codes
 
-|****Security error code****|****Description****|
+|Security error code|Description|
 |:-----|:-----|
 |SecurityGroupCouldNotBeCreated = 19001  <br/> |Cannot create security group.  <br/> |
 |SecurityFieldAccessIDInvalid = 19003  <br/> |The security field access code identification number is not valid.  <br/> |
@@ -1075,9 +1077,9 @@ The error codes in Table 22 are for **Rules** methods in the **PWA** web service
 |SecurityCategoryPermissionMustHaveMatchingRelation = 19098  <br/> |A category permission must have a matching security category relation.  <br/> |
 |SecurityCategoryProjectAlreadyHasSecurityProjectCategory = 19099  <br/> |The list of selected categories already has a project security category.  <br/> |
    
-**Table 24. Project Server event error codes**
+## Table 24. Project Server event error codes
 
-|****Project Server event error code****|****Description****|
+|Project Server event error code|Description|
 |:-----|:-----|
 |ServerEventInvalidEventId = 19033  <br/> |The Project Server event identification number is not valid.  <br/> |
 |ServerEventServiceNotFound = 22003  <br/> |The Project Server Eventing service is not found. This error is not used in Project Server code, but it maps to a raw Unified Logging Service (ULS) event.  <br/> |
@@ -1091,9 +1093,9 @@ The error codes in Table 22 are for **Rules** methods in the **PWA** web service
 |ServerEventHandlerDuplicateName = 22012  <br/> |Duplicate name for the Project Server event handler.  <br/> |
 |ServerEventHandlerNullAssemblyNameAndEndpointUrl = 22013  <br/> |Validate that there is either an endpoint URL or an assembly name.  <br/> |
    
-**Table 25. Statusing web service error codes**
+## Table 25. Statusing web service error codes
 
-|****Statusing error code****|****Description****|
+|Statusing error code|Description|
 |:-----|:-----|
 |StatusingInvalidEntity = 3102  <br/> |The entity for **Statusing** is not valid.  <br/> |
 |StatusingGetDataForTaskFailed = 3103  <br/> |Failed to get data for task status.  <br/> |
@@ -1130,18 +1132,18 @@ The error codes in Table 22 are for **Rules** methods in the **PWA** web service
    
 The error codes in Table 26 are for **StatusReports** methods in the **PWA** web service. They are used internally in Project Web App. 
   
-**Table 26. StatusReports error codes**
+## Table 26. StatusReports error codes
 
-|****Status report error code****|****Description****|
+|Status report error code|Description|
 |:-----|:-----|
 |StatusReportsUnknownError = 12100  <br/> |Unknown error in **StatusReports**.  <br/> |
 |StatusReportsPeriodUnmatched = 12101  <br/> |Cannot match the status report period.  <br/> |
 |StatusReportsPeriodUnavailable = 12102  <br/> |The status report period is unavailable.  <br/> |
 |StatusReportsInvalidFormInput = 12103  <br/> |Data in the status report form is not valid.  <br/> |
    
-**Table 27. Task error codes**
+## Table 27. Task error codes
 
-|****Task error code****|****Description****|
+|Task error code|Description|
 |:-----|:-----|
 |TaskIDInvalid = 7001  <br/> |The task GUID is not valid.  <br/> |
 |TaskNameTooLong = 7003  <br/> |Task name too long.  <br/> |
@@ -1186,9 +1188,9 @@ The error codes in Table 26 are for **StatusReports** methods in the **PWA** web
 |TaskCannotCreateOrModifySubTasksUnderTasksWithAssignments = 7046  <br/> |Cannot create or modify subtasks under a summary task that has assignments.  <br/> |
 |TaskLinkCannotEditExternal = 7047  <br/> |Cannot edit the link to an external task.  <br/> |
    
-**Table 28. Timesheet error codes**
+## Table 28. Timesheet error codes
 
-|****Timesheet error code****|****Description****|
+|Timesheet error code|Description|
 |:-----|:-----|
 |TimesheetMaxHourPerDayExceeded = 3201  <br/> |Exceeded maximum hours per day for timesheet.  <br/> |
 |TimesheetHoursPerTSLimitExceeded = 3202  <br/> |Exceeded the limit for number of hours in a timesheet.  <br/> |
@@ -1204,9 +1206,9 @@ The error codes in Table 26 are for **StatusReports** methods in the **PWA** web
 |TimesheetLineHasNonExistentItem = 3213  <br/> |The timesheet line includes an item that does not exist.  <br/> |
 |TimesheetLineInvalidStatus = 3214  <br/> |The status for the timesheet line is not valid.  <br/> |
    
-**Table 29. User delegation error codes**
+## Table 29. User delegation error codes
 
-|****User delegation error code****|****Description****|
+|User delegation error code|Description|
 |:-----|:-----|
 |UserDelegationExpired = 43000  <br/> |The user delegation has expired.  <br/> |
 |UserDelegationCannotSelfDelegate = 43001  <br/> |A user cannot delegate to himself or herself.  <br/> |
@@ -1220,9 +1222,9 @@ The error codes in Table 26 are for **StatusReports** methods in the **PWA** web
 |UserDelegationUserCannotLogon = 43010  <br/> |The user cannot log on to Project Server.  <br/> |
 |UserDelegationUserIsInactive = 43011  <br/> |The user delegate is inactive.  <br/> |
    
-**Table 30. Workflow error codes**
+## Table 30. Workflow error codes
 
-|****Workflow error code****|****Description****|
+|Workflow error code|Description|
 |:-----|:-----|
 |WorkflowPhasesCannotCreatePhase = 35000  <br/> |Cannot create the workflow phase.  <br/> |
 |WorkflowPhasesCannotUpdatePhase = 35001  <br/> |Cannot update the workflow phase.  <br/> |
@@ -1292,9 +1294,9 @@ The error codes in Table 26 are for **StatusReports** methods in the **PWA** web
 |EnterpriseProjectTypeWorkflowStatusPDPNotAllowed = 35224  <br/> |A project details page for the workflow status is not allowed for the enterprise project type.  <br/> |
 |EnterpriseProjectTypeCannotChangeWorkflowAssociation = 35225  <br/> |The project already has an enterprise project type (EPT); you cannot change the EPT for the project.  <br/> |
    
-**Table 31. WssInterop and ObjectLinkProvider (SharePoint integration) error codes**
+## Table 31. WssInterop and ObjectLinkProvider (SharePoint integration) error codes
 
-|****SharePoint integration error code****|****Description****|
+|SharePoint integration error code|Description|
 |:-----|:-----|
 |WSSCreateSiteFailure = 16400  <br/> |Failed to create SharePoint site for project workspace.  <br/> |
 |WSSCannotCreateWebWithBlankName = 16401  <br/> |Cannot create SharePoint website with a blank name.  <br/> |
