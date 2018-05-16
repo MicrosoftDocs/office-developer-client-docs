@@ -423,7 +423,7 @@ Project Server 2013 processes and PSI methods have error code numbers that are g
 |CICOAlreadyCheckedOutInSameSession = 10105  <br/> |Already checked out in the same session.  <br/> |
 |CICOCannotCheckOutVisibilityModeProjectWithMppInDocLib = 10106  <br/> |Cannot check out visibility mode project with an mpp file in the doc library.  <br/> |
 
-<a name="#pj15_ErrorCodes_CustomFields"></a>
+<a name="pj15_ErrorCodes_CustomFields"></a>
 
 ## Table 12. Custom field error codes
 
