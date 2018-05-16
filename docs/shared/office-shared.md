@@ -13,7 +13,7 @@ description: "Find how-to content, sample code, SDK and API documentation, VBA r
 Find how-to content, sample code, SDK and API documentation, VBA references, training, and technical articles for developing solutions and customizing Office.
   
 > [!NOTE]
-> Interested in developing solutions that extend the Office experience across [multiple platforms](https://dev.office.com/add-in-availability)? Check out the new [Office Add-ins model](http://dev.office.com/docs/add-ins/overview/office-add-ins). 
+> Interested in developing solutions that extend the Office experience across [multiple platforms](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-in-availability)? Check out the new [Office Add-ins model](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins). 
   
 ### Viewed most
   

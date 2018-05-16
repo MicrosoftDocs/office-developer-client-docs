@@ -12,9 +12,9 @@ description: "Find how-to content, sample code, SDK and API documentation, VBA r
 Find how-to content, sample code, SDK and API documentation, VBA references, training, and articles for developing solutions and customizing Office.
   
 > [!NOTE]
-> Interested in developing solutions that extend the Office experience across [multiple platforms](https://dev.office.com/add-in-availability)? Check out the new [Office Add-ins model](http://dev.office.com/docs/add-ins/overview/office-add-ins). 
+> Interested in developing solutions that extend the Office experience across [multiple platforms](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-in-availability)? Check out the new [Office Add-ins model](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins). 
   
- **Viewed most**
+### Viewed most
   
 [Office VBA Object library reference](https://msdn.microsoft.com/EN-US/library/office/ff862474.aspx)
   
@@ -22,23 +22,23 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
   
 [Office 2010](https://msdn.microsoft.com/en-us/library/office/cc313152%28v=office.12%29.aspx)
   
- **Office Add-ins**
+### Office Add-ins
   
 [Get started](https://dev.office.com/getting-started/addins)
   
 [Platform overview](https://msdn.microsoft.com/EN-US/library/office/jj220082.aspx)
   
- **SharePoint Add-ins**
+### SharePoint Add-ins
   
 [Get started](https://dev.office.com/getting-started)
   
 [Platform overview](https://msdn.microsoft.com/en-us/library/office/fp179930.aspx)
   
- **Visual Studio Tools for Office**
+### Visual Studio Tools for Office
   
 [VSTO Add-ins for Office](https://msdn.microsoft.com/en-us/library/jj620922.aspx)
   
- **Office client VBA references**
+### Office client VBA references
   
 [Access](https://msdn.microsoft.com/en-us/library/fp179695.aspx)
   
@@ -66,13 +66,13 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
   
 [Word](https://msdn.microsoft.com/en-us/library/fp179696.aspx)
   
- **Code samples**
+### Code samples
   
 [Office client code samples on dev.office.com](https://dev.office.com/code-samples)
   
 [VBA code samples on MSDN](https://code.msdn.microsoft.com/office/site/search?query=VBA&amp;f%5B0%5D.Value=VBA&amp;f%5B0%5D.Type=SearchText&amp;ac=4)
   
- **Other resources**
+### Other resources
   
 [Open XML SDK](http://msdn.microsoft.com/library/f6a9ae68-7989-4208-97f5-3c945137a0ab%28Office.15%29.aspx)
   
