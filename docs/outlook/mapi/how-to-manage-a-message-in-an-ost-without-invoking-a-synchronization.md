@@ -1,22 +1,18 @@
 ---
-title: "Manage a Message in an OST Without Invoking a Synchronization in Cached Exchange Mode"
+title: "Manage messages in OST without invoking a synchronization in Cached Exchange mode"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 3a1f0aa2-813f-222c-f871-0501de5d9dec
-description: "Last modified: July 23, 2011"
- 
- 
+description: "Contains a code sample in C++ that shows how to use IID_IMessageRaw in IMsgStore::OpenEntry to obtain an IMessage interface that manages a message in an offline folders file (OST) without forcing a download of the whole message when the client is in Cached Exchange Mode."
 ---
 
-# Manage a Message in an OST Without Invoking a Synchronization in Cached Exchange Mode
+# Manage messages in OST without invoking a synchronization in Cached Exchange mode
 
-  
-  
 **Applies to**: Outlook 
   
-This topic contains a code sample in C++ that shows how to use  `IID_IMessageRaw` in **[IMsgStore::OpenEntry](imsgstore-openentry.md)** to obtain an **[IMessage](imessageimapiprop.md)** interface that manages a message in an offline folders file (OST) without forcing a download of the whole message when the client is in Cached Exchange Mode. 
+This topic contains a code sample in C++ that shows how to use `IID_IMessageRaw` in **[IMsgStore::OpenEntry](imsgstore-openentry.md)** to obtain an **[IMessage](imessageimapiprop.md)** interface that manages a message in an offline folders file (OST) without forcing a download of the whole message when the client is in Cached Exchange Mode. 
   
 When a client is in Cached Exchange Mode, messages in the OST can be in one of two states:
   
@@ -30,7 +26,7 @@ If you use  `IID_IMessageRaw` or  `IID_IMessage` to request an **IMessage** inte
   
 The following example shows how to call the **OpenEntry** method, passing  `IID_IMessageRaw` instead of  `IID_IMessage`.
   
-```
+```cpp
 HRESULT HrOpenRawMessage ( 
     LPMDB lpMSB,  
     ULONG cbEntryID,  
@@ -54,19 +50,13 @@ HRESULT HrOpenRawMessage (
 ```
 
 If the **OpenEntry** method returns the **MAPI_E_INTERFACE_NOT_SUPPORTED** error code, it indicates that the message store does not support accessing the message in raw mode. In this situation, try the **OpenEntry** method again by passing  `IID_IMessage`.
-  
-## 
 
 > [!IMPORTANT]
 >  `IID_IMessageRaw` might not be defined in the downloadable header file that you currently have. In this case, you can add it to your code by using the following definition. Use the DEFINE_OLEGUID macro defined in the Microsoft Windows Software Development Kit (SDK) header file guiddef.h to associate the GUID symbolic name with its value. >  `#if !defined(INITGUID) || defined(USES_IID_IMessageRaw)`>  `DEFINE_OLEGUID(IID_IMessageRaw,0x0002038A, 0, 0);`>  `#endif`
   
 ## See also
 
-#### Concepts
-
-[About MAPI Additions](about-mapi-additions.md)
-  
-[Access a Store on the Remote Server When Outlook is in Cached Exchange Mode](how-to-access-a-store-on-remote-server-when-outlook-is-in-cached-exchange-mode.md)
-  
-[Open a Store on the Remote Server When Outlook is in Cached Exchange Mode](how-to-open-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode.md)
+- [About MAPI Additions](about-mapi-additions.md) 
+- [Access a Store on the Remote Server When Outlook is in Cached Exchange Mode](how-to-access-a-store-on-remote-server-when-outlook-is-in-cached-exchange-mode.md)
+- [Open a Store on the Remote Server When Outlook is in Cached Exchange Mode](how-to-open-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode.md)
 

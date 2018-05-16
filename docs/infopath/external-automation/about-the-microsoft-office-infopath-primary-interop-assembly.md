@@ -1,17 +1,13 @@
 ---
-title: "and Visual Basic, the .NET Programmability Support option in the InfoPath setup program installs three interop assemblies. Interop assemblies are .NET assemblies that act as a bridge between managed and unmanaged code, mapping COM object members to equivalent .NET managed members.'"
-  
- 
+title: About the Microsoft Office InfoPath Primary Interop Assembly
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
 keywords:
 - infopath 2007, primary interop assembly,InfoPath primary interop assembly,PIAs [InfoPath 2007],primary interop assemblies [InfoPath 2007]
- 
 localization_priority: Normal
 ms.assetid: 1b3ae03c-6951-49e4-a489-4712d3f7ba72
-description: "The InfoPath application is built as a Component Object Model (COM) application that exposes its programmability interfaces for external automation as COM interfaces. To support the creation of InfoPath solutions that use managed-code languages such as Visual C# and Visual Basic, the .NET Programmability Support option in the InfoPath setup program installs three interop assemblies. Interop assemblies are .NET assemblies that act as a bridge between managed and unmanaged code, mapping COM object members to equivalent .NET managed members."
+description: "To support the creation of InfoPath solutions that use managed-code languages such as Visual C# and Visual Basic, the .NET Programmability Support option in the InfoPath setup program installs three interop assemblies."
 ---
 
 # About the Microsoft Office InfoPath Primary Interop Assembly
@@ -51,7 +47,7 @@ Application myApp =
     new Microsoft.Office.Interop.InfoPath.Application();
 ```
 
-```VB.net
+```vb
 Dim myApp As Application = _
     New Microsoft.Office.Interop.InfoPath.Application()
 ```
@@ -66,7 +62,7 @@ XDocument myXDoc = myApp.XDocuments.Open(
     (int) XdDocumentVersionMode.xdFailOnVersionOlder);
 ```
 
-```VB.net
+```vb
 Dim myXDoc As XDocument = myApp.XDocuments.Open( _
     "c:\\temp\\Form1.xml", _
     XdDocumentVersionMode.xdFailOnVersionOlder)
@@ -80,7 +76,7 @@ To work with the contents of the underlying XML document for the form using Micr
 IXMLDOMDocument2 doc= myXDoc.DOM as IXMLDOMDocument2;
 ```
 
-```VB.net
+```vb
 Dim doc As IXMLDOMDocument2 = myXDoc.DOM
 ```
 
@@ -102,13 +98,11 @@ If an InfoPath object model member contains an optional parameter, and you do no
 myXDocument.View.SelectNodes(group1, Type.Missing, Type.Missing);
 ```
 
-```VB.net
+```vb
 myXDocument.View.SelectNodes(group1, Type.Missing, Type.Missing)
 ```
 
 ## See also
 
-#### Concepts
-
-[External Automation Scenarios and Examples](external-automation-scenarios-and-examples.md)
+- [External Automation Scenarios and Examples](external-automation-scenarios-and-examples.md)
 

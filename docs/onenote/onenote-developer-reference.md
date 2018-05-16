@@ -1,14 +1,11 @@
 ---
-title: "to show how to perform some tasks in OneNote. The OneNote 2013 API enables users to programmatically access and edit OneNote content. Users can also make changes to the view of OneNote windows.'"
-
+title: OneNote developer reference
 manager: soliver
 ms.date: 5/16/2016
 ms.audience: Developer
-
-
 localization_priority: Normal
 ms.assetid: 4c4ef9e8-6b30-481b-8023-2e1280bcbcc9
-description: "This reference contains conceptual overviews and programmatic references to guide you in developing solutions for OneNote 2013 desktop client applications. It includes all the additions and changes to the OneNote 2013 application programming interface (API), and provides code samples in C# to show how to perform some tasks in OneNote. The OneNote 2013 API enables users to programmatically access and edit OneNote content. Users can also make changes to the view of OneNote windows."
+description: "This reference contains conceptual overviews and programmatic references to guide you in developing solutions for OneNote 2013 desktop client applications."
 ---
 
 # OneNote developer reference

@@ -1,5 +1,5 @@
 ---
-title: "Integrating manageability applications with the Office 365 click-to-run installer"
+title: "Integrating manageability applications with Office 365 click-to-run installer"
 manager: kelbow
 ms.date: 10/22/2017
 ms.audience: ITPro
@@ -8,7 +8,7 @@ ms.assetid: c0fa8fed-1585-4566-a9be-ef6d6d1b4ce8
 description: "Learn how to integrate the Office 365 Click-to-Run installer with a software management solution."
 ---
 
-# Integrating manageability applications with the Office 365 click-to-run installer
+# Integrating manageability applications with Office 365 click-to-run installer
 
 Learn how to integrate the Office 365 Click-to-Run installer with a software management solution.
   

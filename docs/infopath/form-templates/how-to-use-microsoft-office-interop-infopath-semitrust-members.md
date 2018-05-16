@@ -1,20 +1,16 @@
 ---
-title: "Use Microsoft.Office.Interop.InfoPath.SemiTrust Members That Are Not Compatible with InfoPath 2003"
- 
- 
+title: "Use Microsoft.Office.Interop.InfoPath.SemiTrust members not compatible with InfoPath"
 manager: soliver
 ms.date: 11/16/2014
-ms.audience: Developer
- 
+ms.audience: Developer 
 keywords:
 - infopath 2003-compatible form templates, using infopath 2007 features
- 
 localization_priority: Normal
 ms.assetid: d082f3a3-387a-4db1-bbad-495c326b8ee3
-description: "When you add code to a form template that was created with the Microsoft Office InfoPath 2003 Toolkit or create a new form template that works with the InfoPath 2003-compatible object model (as described in How to: Create a Form Template Using the InfoPath 2003 Object Model), by default, Microsoft InfoPath will use a subset of the objects and members provided by the Microsoft.Office.Interop.InfoPath.SemiTrust namespace that are identical to those used by InfoPath 2003. This is done to provide compatibility with InfoPath 2003. However, the object model provided by the Microsoft.Office.Interop.InfoPath.SemiTrust namespace includes additional objects and members that provide new functionality that was added to Office InfoPath 2007 and InfoPath."
+description: "The object model provided by the Microsoft.Office.Interop.InfoPath.SemiTrust namespace includes objects and members that provide new functionality that was added to Office InfoPath 2007 and InfoPath."
 ---
 
-# Use Microsoft.Office.Interop.InfoPath.SemiTrust Members That Are Not Compatible with InfoPath 2003
+# Use Microsoft.Office.Interop.InfoPath.SemiTrust members not compatible with InfoPath
 
 When you add code to a form template that was created with the Microsoft Office InfoPath 2003 Toolkit or create a new form template that works with the InfoPath 2003-compatible object model (as described in [Create a Form Template Using the InfoPath 2003 Object Model](how-to-create-a-form-template-using-the-infopath-2003-object-model.md)), by default, Microsoft InfoPath will use a subset of the objects and members provided by the [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) namespace that are identical to those used by InfoPath 2003. This is done to provide compatibility with InfoPath 2003. However, the object model provided by the [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) namespace includes additional objects and members that provide new functionality that was added to Office InfoPath 2007 and InfoPath. 
   
@@ -40,7 +36,7 @@ To access the new objects and members that are available in the **Microsoft.Offi
 _XDocument3 thisXDocument3 = (_XDocument3)thisXDocument;
 ```
 
-```VB.net
+```vb
 ' Declare an object variable of type _XDocument3 and
 ' cast the object returned by the thisXDocument variable to
 ' the same type.
@@ -55,7 +51,7 @@ Dim thisXDocument3 As _XDocument3 = _
 _Application3 thisApplication3 = (_Application3)thisXDocument;
 ```
 
-```VB.net
+```vb
 ' Declare an object variable of type _Application3 and
 ' cast the object returned by the thisXApplication variable to
 ' the same type.
@@ -79,7 +75,7 @@ _XDocument3 thisXDocument3 = (_XDocument3)thisXDocument;
 thisXDocument.UI.Alert(thisDocument3.Permission.Enabled.ToString());
 ```
 
-```VB.net
+```vb
 ' Declare an object variable of type _XDocument3 and
 ' cast the object returned by the thisXDocument variable to
 ' the same type.
@@ -110,7 +106,7 @@ ViewInfo2 thisView = (ViewInfo2)thisXDocument3.ViewInfos["View2"];
 thisXDocument3.UI.Alert(thisView.HideName.ToString());
 ```
 
-```VB.net
+```vb
 ' Declare an object variable of type _XDocument3 and
 ' cast the object returned by the thisXDocument variable to
 ' the same type.

@@ -1,20 +1,16 @@
 ---
-title: "Replicate Project Online Reporting Data to a SQL Server database using the OData protocol"
-
- 
+title: "Replicate Project Online Reporting Data to a SQL Server database"
 manager: soliver
 ms.date: 8/10/2016
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: dcb1ca53-0fa9-4b58-ad70-bc2061cfd68e
-description: "This topic describes how you can use SQL Server Integration Services (SSIS) to replicate your reporting data from Project Online to a separate SQL Server database, using the Open Data protocol (OData). It explains how to install the add-on, the high level details of the replication process and how to get started in Visual Studio with the Integration Services project template to create a project that automatically pulls your data based on a schedule."
+description: "This topic describes how you can use SQL Server Integration Services (SSIS) to replicate your reporting data from Project Online to a separate SQL Server database by using the Open Data protocol (OData)."
 ---
 
-# Replicate Project Online Reporting Data to a SQL Server database using the OData protocol
+# Replicate Project Online Reporting Data to a SQL Server database
 
-This topic describes how you can use SQL Server Integration Services (SSIS) to replicate your reporting data from Project Online to a separate SQL Server database, using the Open Data protocol (OData). It explains how to install the add-on, the high level details of the replication process and how to get started in Visual Studio with the Integration Services project template to create a project that automatically pulls your data based on a schedule.
+This topic describes how you can use SQL Server Integration Services (SSIS) to replicate your reporting data from Project Online to a separate SQL Server database by using the Open Data protocol (OData). It explains how to install the add-on, the high level details of the replication process and how to get started in Visual Studio with the Integration Services project template to create a project that automatically pulls your data based on a schedule.
   
 ## Creating an Integration Services Project for replicating the Project Online data
 <a name="ProjODataSSISToolCreatePrj"> </a>

@@ -1,20 +1,16 @@
 ---
-title: "Walkthrough Creating and Debugging a Basic Form Template Using the InfoPath 2003 Object Model"
- 
- 
+title: 'Walkthrough: Create and debug a basic form template using the InfoPath object model'
 manager: soliver
 ms.date: 1/13/2015
 ms.audience: Developer
- 
 keywords:
 - form templates [infopath 2007], walkthroughs,form templates [InfoPath 2007], creating InfoPath 2003-compatible,InfoPath 2003-compatible form templates, walkthroughs
- 
 localization_priority: Normal
 ms.assetid: 7658705f-c062-49a1-bea6-837737df2425
 description: "This topic provides a walkthrough of creating a basic InfoPath managed code form template that works with the InfoPath 2003-compatible object model provided by the Microsoft.Office.Interop.InfoPath.SemiTrust namespace."
 ---
 
-# Walkthrough: Creating and Debugging a Basic Form Template Using the InfoPath 2003 Object Model
+# Walkthrough: Create and debug a basic form template using the InfoPath object model
 
 This topic provides a walkthrough of creating a basic InfoPath managed code form template that works with the InfoPath 2003-compatible object model provided by the [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) namespace. 
   
