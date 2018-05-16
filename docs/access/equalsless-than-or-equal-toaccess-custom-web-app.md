@@ -1,18 +1,15 @@
 ---
-title: "\<= (Less Than or Equal To) (Access custom web app)"
- 
- 
+title: "Less Than or Equal To (Access custom web app)"
 manager: kelbow
 ms.date: 9/5/2017
 ms.audience: Developer
-ms.topic: reference
-  
+ms.topic: reference 
 localization_priority: Normal
 ms.assetid: dc0dc67a-aadf-4a5c-9264-e8df1dcd183f
 description: "Compares two expressions. When you compare non-null expressions, the result is TRUE if the left operand has a value lower than or equal to the right operand; otherwise, the result is FALSE."
 ---
 
-# \<= (Less Than or Equal To) (Access custom web app)
+# Less Than or Equal To (Access custom web app)
 
 Compares two expressions. When you compare non-null expressions, the result is TRUE if the left operand has a value lower than or equal to the right operand; otherwise, the result is FALSE.
   
@@ -21,12 +18,14 @@ Compares two expressions. When you compare non-null expressions, the result is T
   
 ## Syntax
 
- *expression*  \<=  *expression* 
+`<= (Less Than or Equal To)`
+
+*expression*  \<=  *expression* 
   
- *expression*  Is any valid expression. Both expressions must have implicitly convertible data types. The conversion depends on the rules of data type precedence. 
+*expression*  Is any valid expression. Both expressions must have implicitly convertible data types. The conversion depends on the rules of data type precedence. 
   
 ## Return Type
 
- **Boolean**
+**Boolean**
   
 

@@ -1,15 +1,12 @@
 ---
 title: "Visio file format reference"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: 38aedff8-e7b5-0758-c573-0ffa6a244c9c
-description: "This reference contains a conceptual overview topic and reference topics, including examples, to guide you in developing solutions with the Visio file format (\*.vsdx)."
+description: "This reference contains a conceptual overview topic and reference topics, including examples, to guide you in developing solutions with the Visio file format."
 ---
 
 # Visio file format reference

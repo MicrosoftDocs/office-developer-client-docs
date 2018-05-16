@@ -1,17 +1,14 @@
 ---
 title: "ANG360 Function"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251392
- 
 localization_priority: Normal
 ms.assetid: 23e6899d-0a94-a7d8-8de2-091e0531f163
-description: "Normalizes an angle's range to be 0 \<= result \< 2PI radians (0 \<= result \< 360 degrees)."
+description: "Normalizes an angle's range."
 ---
 
 # ANG360 Function

@@ -1,7 +1,5 @@
 ---
 title: "SwayURI"
-ms.author: idsprodb
-author: idsprodb
 ms.date: 1/1/1900
 ms.audience: ITPro
 ms.topic: article
