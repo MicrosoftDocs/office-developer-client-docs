@@ -15,7 +15,7 @@ MFCMAPI provides access to MAPI stores to facilitate investigation of Exchange a
   
  
   
- * **Applies to:** Office 365 | Outlook | Outlook 2016 * 
+**Applies to**: Office 365 | Outlook | Outlook 2016 
   
 For non-developers, it is recommended that you use the Outlook user interface to create profiles for Exchange 2013.
   

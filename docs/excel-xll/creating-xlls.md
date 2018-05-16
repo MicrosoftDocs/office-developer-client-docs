@@ -16,7 +16,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # Creating XLLs
 
- * **Applies to:** Excel 2013 | Office 2013 | Visual Studio * 
+**Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 If your DLL is self-contained or relies only on other libraries, you must know how to enable Microsoft Excel to access its functions and commands. For more information, see [How to: Access DLLs in Excel](how-to-access-dlls-in-excel.md). 
   

@@ -16,7 +16,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # Excel Programming Concepts
 
- * **Applies to:** Excel 2013 | Office 2013 | Visual Studio * 
+ **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 This section provides information about Excel commands and functions, Excel states, worksheet and expression evaluation, active vs. current worksheet, and worksheet references.
   

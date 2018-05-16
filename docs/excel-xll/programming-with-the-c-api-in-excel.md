@@ -16,7 +16,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # Programming with the C API in Excel
 
- * **Applies to:** Excel 2013 | Office 2013 | Visual Studio * 
+ **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 You can use the Microsoft Excel 2013 XLL Software Development Kit and the C API to create high-performance worksheet functions for Excel 2013. The upgrades to the Excel 2013 C API reflect ongoing support for users for whom the performance of third-party or in-house functionality is critical.
   

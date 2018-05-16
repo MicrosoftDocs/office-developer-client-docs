@@ -143,7 +143,7 @@ Now you're ready to configure the settings for the SQL reporting database to be 
     
 ### Testing the data synchronization
 
-You can now test the package to see the data flowing between the source OData feed and the destination SQL Server database. In the Visual Studio **Debug** menu, click **Start Debugging**, or use the keyboard shortcut **F5** to execute the package. 
+You can now test the package to see the data flowing between the source OData feed and the destination SQL Server database. In the Visual Studio*Debug** menu, click **Start Debugging**, or use the keyboard shortcut **F5** to execute the package. 
   
 **Figure 6. Data Flow tab results when running the package**
 

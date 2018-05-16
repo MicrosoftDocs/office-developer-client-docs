@@ -22,7 +22,7 @@ Address book, message store, and transport providers use a unique identifier kno
   
 1. Define a constant.
     
-2. Invoke the Visual Studio **Create GUID** tool. 
+2. Invoke the Visual Studio*Create GUID** tool. 
     
 For example, an address book provider might include the following constant in a header file to define a **MAPIUID**:
   

@@ -16,7 +16,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # Evaluating Names and Other Worksheet Formula Expressions
 
- * **Applies to:** Excel 2013 | Office 2013 | Visual Studio * 
+ **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 One of the most important features that Excel exposes through the C API is the ability to convert any string formula that can legally be entered into a worksheet to a value, or array of values. This is essential for XLL functions and commands that must read the contents of defined names, for example. This ability is exposed through the [xlfEvaluate function](xlfevaluate.md), as shown in this example.
   

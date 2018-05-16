@@ -18,7 +18,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # UnhookExcelWindow
 
- * **Applies to:** Excel 2013 | Office 2013 | Visual Studio * 
+ **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 Removes the **ExcelCursorProc** that was previously installed by **HookExcelWindow**. This would have been done so that **ExcelCursorProc** was called before the Microsoft Excel main **WndProc**.
   

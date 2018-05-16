@@ -17,7 +17,7 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
   
  
   
- * **Applies to:** Excel 2013 | Excel 2016 * 
+ **Applies to**: Excel 2013 | Excel 2016 
   
 > [!NOTE]
 > Interested in developing solutions that extend the Office experience across [multiple platforms](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-in-availability)? Check out the new [Excel add-ins model](https://docs.microsoft.com/en-us/office/dev/add-ins/excel/excel-add-ins-overview). 

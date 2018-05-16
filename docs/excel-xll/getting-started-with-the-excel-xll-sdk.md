@@ -16,7 +16,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # Getting Started with the Excel XLL SDK
 
- * **Applies to:** Excel 2013 | Office 2013 | Visual Studio * 
+ **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 The Microsoft Excel 2013 XLL Software Development Kit (SDK) provides information to help you get started with creating DLL add-ins for Excel 2013 that use the C API. This section provides information about the C API and also links to reference documentation to help you get started with Excel 2013 XLL development.
   

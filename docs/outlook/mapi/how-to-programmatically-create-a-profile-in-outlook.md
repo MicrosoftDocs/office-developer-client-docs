@@ -16,7 +16,7 @@ This topic describes how to programmatically update a profile in Outlook 2016 by
   
 
   
- * **Applies to:** Office 365 | Outlook | Outlook 2016 * 
+**Applies to**: Office 365 | Outlook | Outlook 2016 
   
 In MAPI, you can update a profile by setting the property **PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W (0x6641001F)**, as indicated in the procedure below. 
   

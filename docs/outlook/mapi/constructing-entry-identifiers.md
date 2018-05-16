@@ -49,7 +49,7 @@ The first byte of the 4-byte **abFlags** member describes the type and use of th
     
 - MAPI_NOTRESERVED — Indicates that the entry identifier can be used by other service providers for other objects.
     
-The **ab** member of entry identifiers that is created by address book and message store providers is composed of two pieces: a 16-byte [MAPIUID](mapiuid.md) structure that identifies the service provider, and a piece to identify the object. **MAPIUID** is a structure that contains a globally unique identifier, or GUID. A GUID is a byte-order-independent identifier that can be created by using the Microsoft Visual Studio **Create GUID** tool. 
+The **ab** member of entry identifiers that is created by address book and message store providers is composed of two pieces: a 16-byte [MAPIUID](mapiuid.md) structure that identifies the service provider, and a piece to identify the object. **MAPIUID** is a structure that contains a globally unique identifier, or GUID. A GUID is a byte-order-independent identifier that can be created by using the Microsoft Visual Studio*Create GUID** tool. 
   
 A service provider registers its **MAPIUID** structure with MAPI during the logon process in a call to the [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md) method. When a client calls an **OpenEntry** method to access an object, MAPI uses the **MAPIUID** structure to determine which service provider can provide that access. Service providers should use the same **MAPIUID** structure for all versions of their DLL. This enables clients with the newer version to respond to messages sent and saved with the older version. 
   

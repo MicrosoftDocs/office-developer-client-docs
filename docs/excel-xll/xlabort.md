@@ -18,7 +18,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # xlAbort
 
- * **Applies to:** Excel 2013 | Office 2013 | Visual Studio * 
+ **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 Yields the processor to other tasks in the system and checks whether the user has pressed **ESC** to cancel a macro. If the user has pressed **ESC** during a workbook recalculation, it can also be detected from within a worksheet function by calling this function. 
   

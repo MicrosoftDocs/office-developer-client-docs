@@ -16,7 +16,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # Multithreading and Memory Contention in Excel
 
- * **Applies to:** Excel 2013 | Office 2013 | Visual Studio * 
+ **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 Versions of Microsoft Excel earlier than Excel 2007 use a single thread for all worksheet calculations. However, starting in Excel 2007, Excel can be configured to use from 1 to 1024 concurrent threads for worksheet calculation. On a multi-processor or multi-core computer, the default number of threads is equal to the number of processors or cores. Therefore, thread-safe cells, or cells that only contain functions that are thread safe, can be allotted to concurrent threads, subject to the usual recalculation logic of needing to be calculated after their precedents.
   

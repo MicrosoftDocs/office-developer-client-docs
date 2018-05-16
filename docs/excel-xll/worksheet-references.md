@@ -16,7 +16,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # Worksheet References
 
- * **Applies to:** Excel 2013 | Office 2013 | Visual Studio * 
+ **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 A reference in Microsoft Excel is a data type that refers to a rectangular block of cells (which can be just one cell), or in some cases, a number of disjoint blocks of cells. Internally, Excel uses one reference type for cells on the current sheet, known as an internal reference. Any cell that is not on the current sheet is described by another type of reference known as an external reference. See the next section for the definition of active and current.
   

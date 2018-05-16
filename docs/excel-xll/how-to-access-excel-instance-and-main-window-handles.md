@@ -16,7 +16,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # How to: Access Excel Instance and Main Window Handles
 
- * **Applies to:** Excel 2013 | Office 2013 | Visual Studio * 
+ **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 To program in the Windows environment, sometimes you must know the Microsoft Excel instance handle or main window handle. For example, these handles are useful when you are creating and displaying custom Windows dialog boxes.
   
