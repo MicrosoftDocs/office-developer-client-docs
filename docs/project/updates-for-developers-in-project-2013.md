@@ -282,7 +282,7 @@ Office Add-ins provide a new avenue for selling solutions and integrating Projec
   
 For more information about developing apps, and using the programmability features and the CSOM of SharePoint Server 2013, see [SharePoint for developers](http://msdn.microsoft.com/en-US/sharepoint) and [Office for developers](http://msdn.microsoft.com/en-US/office).
   
-## Additional resources
+## See also
 <a name="pj15_WhatsNew_AR"> </a>
 
 - [Project Server 2013 architecture](project-server-2013-architecture.md)

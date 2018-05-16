@@ -344,7 +344,7 @@ Open the Resource Center in Project Web App, edit a resource, and then set the v
     m:type="Edm.Decimal">24</d:TestResDur>
 ```
 
-## Additional resources
+## See also
 <a name="pj15_QueryingOData_AR"> </a>
 
 - [Use OData query operations in SharePoint REST requests](http://msdn.microsoft.com/library/d4b5c277-ed50-420c-8a9b-860342284b72%28Office.15%29.aspx)

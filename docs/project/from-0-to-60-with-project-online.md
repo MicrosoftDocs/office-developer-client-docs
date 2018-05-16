@@ -184,7 +184,7 @@ Each sample application has an article to explain the highlights of working with
     
 - [Accessing Project Online enterprise custom fields](accessing-project-online-enterprise-custom-fields.md)
     
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - For documentation and samples related to Project Online and application development using CSOM, see the [Project Development Portal](http://dev.office.com/project.aspx).

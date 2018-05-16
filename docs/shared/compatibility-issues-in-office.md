@@ -122,7 +122,7 @@ These messages can appear if the add-in or macro-enabled document code uses an o
 |10152  <br/> |Office 2013  <br/> |Excel 2013  <br/> ||OM Hidden: _Global.Assistant  <br/> |The property **_Global.Assistant** has been hidden. It remains part of the object model for backward compatibility, but you should not use it in new applications.  <br/> |
 |10153  <br/> |Office 2013  <br/> |Excel 2013  <br/> ||OM Hidden: Shapes.AddChart  <br/> |The **Shapes.AddChart** method is hidden. It remains part of the object model for backward compatibility, but you should not use it in new applications. Use the **Shapes.AddChart2** method instead.  <br/> > [!NOTE]> The **Shapes.AddChart2** method applies a default title to the new chart. If you need to change the title of the chart after it has been added to the file, use the **Chart.ChartTitle** property or edit the title manually.           |
    
-## Additional resources
+## See also
 <a name="OEV_CompatIssues_Hidden"> </a>
 
 - [Compatibility and telemetry in Office](http://technet.microsoft.com/library/f1a9a3c6-a3d3-44c6-aec8-14cd834ebaeb)

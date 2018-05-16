@@ -278,7 +278,7 @@ In the following code sample, you can see how to open a .vsdx file, read the lis
 
 10. Press F5 to debug the solution. When the program has completed running, press any key to exit.
     
-## Additional resources
+## See also
 <a name="vis15_IntroVSDX_Resources"> </a>
 
 For more information about the Visio 2013 file format, the Open Packaging Convention, or how to work with Visio 2013or Office OpenXML files programmatically, see the following resources:

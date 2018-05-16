@@ -321,7 +321,7 @@ Some of the PSI services contain duplicate **DataSet** classes. For example, the
   
 When you are navigating the namespaces and classes of the PSI reference, for example to see the web methods for the **Project** service, expand the **[Project web service]** namespace in the **Contents** list, and then expand the **Project** class. 
   
-## Additional resources
+## See also
 <a name="pj15_PSIRefOverview_AR"> </a>
 
 - [Project Server 2013 architecture](project-server-2013-architecture.md)

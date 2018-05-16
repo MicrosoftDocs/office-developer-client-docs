@@ -29,7 +29,7 @@ This documentation contains the following information:
     
 - [Types](typesvisio-xml.md): Provides information about the XML types that can appear in the Visio file format.
     
-## Additional resources
+## See also
 
 - [Visio for developers](http://msdn.microsoft.com/en-us/office/aa905478.aspx)
     

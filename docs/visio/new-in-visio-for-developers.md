@@ -217,7 +217,7 @@ The following table lists the deprecated objects and members introduced in Visio
 |:-----|:-----|
 |**Window** object  <br/> |**PageTabWidth** property  <br/> |
    
-## Additional resources
+## See also
 <a name="vis15_WhatsNew_Additional"> </a>
 
 - [Visio for developers](http://msdn.microsoft.com/en-us/office/aa905478.aspx)

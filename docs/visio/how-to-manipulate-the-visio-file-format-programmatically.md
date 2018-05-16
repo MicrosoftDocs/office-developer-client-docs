@@ -1182,7 +1182,7 @@ We would like to recognize the contribution and input of Visio MVP **Al Edlund**
   
 For more information about Al's work with the Visio file format, see the links in the Additional Resources section that follows.
   
-## Additional resources
+## See also
 <a name="vis15_ManipulateFF_Additional"> </a>
 
 - By Al Edlund:

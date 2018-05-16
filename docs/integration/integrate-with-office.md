@@ -34,7 +34,7 @@ If you are a cloud storage provider, you can register for our [partner program](
     
 - [Integrate with Office from Android applications](integrate-with-office-from-android-applications.md)
     
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Office client development](https://msdn.microsoft.com/en-us/library/dn833103.aspx)

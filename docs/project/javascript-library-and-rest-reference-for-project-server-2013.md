@@ -37,7 +37,7 @@ The **ProjectServer** resource is described in [ProjectServer resources in the R
 
 - [PS.js JavaScript library and REST reference](http://msdn.microsoft.com/library/5a140021-380a-d9e0-e36d-106df85f56d6%28Office.15%29.aspx) Contains information about the JavaScript object model and the REST interface for Project Server 2013. 
     
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Project 2013 developer documentation](project-2013-developer-documentation.md)

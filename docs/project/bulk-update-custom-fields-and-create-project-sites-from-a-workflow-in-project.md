@@ -219,7 +219,7 @@ We've added the **CreateProjectSite** method so you can choose when to create pr
     
      ![Binding the dictionary to the request](media/61a5a0a8-405f-44eb-b5e7-80b11f7caec3.png)
   
-## Additional resources
+## See also
 <a name="CreateProjectSite"> </a>
 
 - [Project programming tasks](project-programming-tasks.md)

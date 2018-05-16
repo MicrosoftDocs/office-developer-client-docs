@@ -81,7 +81,7 @@ To interpret resource tag 1 in this BLOB: the message with the UID  `0BC535DB-EA
   
 You can similarly parse the remaining 22 resource tags for that BLOB.
   
-## Additional resources
+## See also
 <a name="OL15Con_AuxRef_ParsingMsgsHistory_AdditionalRsc"> </a>
 
 - [Managing message downloads for POP3 accounts](managing-message-downloads-for-pop3-accounts.md)

@@ -229,7 +229,7 @@ For the project summary task, the PSI limitations are the same as for Project Pr
     
   - [PROJ_OPT_TASK_UPDATES_RES](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.ProjectRow.PROJ_OPT_TASK_UPDATES_RES.aspx)
     
-## Additional resources
+## See also
 <a name="pj14_WhatPSIDoes_AR"> </a>
 
 - [What the CSOM does and does not do](what-the-csom-does-and-does-not-do.md)

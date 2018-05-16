@@ -1173,7 +1173,7 @@ table td, th {
 
 The **QuickStatus** app is a relatively simple example of how to write apps that can be installed on Project Server 2013 and Project Online. The [Testing the QuickStatus app](#pj15_StatusingApp_Testing) section lists several improvements that can be made for better usability. The **QuickStatus** app uses JavaScript functions to update assignment status for Project Web App. But, changing the assignment percent complete is not a recommended project management practice. Another approach would be to update the actual start date and remaining duration of assigned tasks. For a discussion of the issues, see [Update Better](http://www.mpug.com/articles/update-better) in the MPUG newsletter. 
   
-## Additional resources
+## See also
 <a name="pj15_StatusingApp_AdditionalResources"> </a>
 
 - [Project Server programming tasks](project-programming-tasks.md)

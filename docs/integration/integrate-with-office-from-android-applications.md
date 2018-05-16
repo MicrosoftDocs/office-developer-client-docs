@@ -100,7 +100,7 @@ Schema format:
   
  `|u|<document URL>`
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Integrate with Office](integrate-with-office.md)

@@ -1538,7 +1538,7 @@ PSClientError output:
 CustomFieldRequiredValueNotProvided
 ```
 
-## Additional resources
+## See also
 <a name="pj15_ErrorCodes_AR"> </a>
 
 - [Microsoft.Office.Project.Server.Library.PSErrorID](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.PSErrorID.aspx)

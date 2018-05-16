@@ -31,7 +31,7 @@ The **TimeFromParts** function contains the following arguments.
 | *Minute*  <br/> |Integer expression specifying minutes.  <br/> |
 | *Second*  <br/> |Integer expression specifying seconds.  <br/> |
    
-## Additional resources
+## See also
 
  **TimeFromParts** returns a fully initialized time value. If the arguments are invalid, then an error is raised. If any of the parameters are null, null is returned. 
   

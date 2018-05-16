@@ -575,7 +575,7 @@ namespace QueueCreateProject
 }
 ```
 
-## Additional resources
+## See also
 <a name="pj15_GettingStartedCSOM_AR"> </a>
 
 - [Updates for developers in Project 2013](updates-for-developers-in-project-2013.md)

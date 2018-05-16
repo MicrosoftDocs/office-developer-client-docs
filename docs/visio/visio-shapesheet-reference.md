@@ -30,7 +30,7 @@ This documentation contains the following sections:
     
 - [Reference](reference-visio-shapesheet.md): Provides reference materials for the Visio ShapeSheet functions, cells, rows, and sections.
     
-## Additional resources
+## See also
 
 - [Visio Developer Center](http://msdn.microsoft.com/en-us/office/aa905478.aspx)
     

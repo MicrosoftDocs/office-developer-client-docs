@@ -456,7 +456,7 @@ Following are some of the links on the Server Settings page to use for typical c
     
 Additional settings are managed by SharePoint Server 2013 for each Project Web App instance, rather than by a specific Project Web App Server Settings page. In the SharePoint Central Administration application, choose **General Application Settings**, choose **Manage** under **Project Server Settings**, and then choose the Project Web App instance in the drop-down list on the Server Settings page. For example, choose **Server Side Event Handlers** to add or delete event handlers for the selected Project Web App instance. 
   
-## Additional resources
+## See also
 <a name="pj15_PrerequisitesWCF_AR"> </a>
 
 - [Prerequisites for ASMX-based code samples in Project](prerequisites-for-asmx-based-code-samples-in-project.md)

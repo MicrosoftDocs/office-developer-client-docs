@@ -248,7 +248,7 @@ For example, you can see that ProjectId and TaskId are the keys for the Task ent
 
 See the [ProjectData OData service schema reference](https://msdn.microsoft.com/en-us/library/office/jj163529.aspx) to find keys for other entity types. 
   
-## Additional resources
+## See also
 <a name="ProjODataSSISToolAddResources"> </a>
 
 - [Project 2013 developer documentation](project-2013-developer-documentation.md)

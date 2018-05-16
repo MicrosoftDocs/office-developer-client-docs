@@ -204,7 +204,7 @@ The ListPWACustomFields method retrieves and lists the ECFs associated with proj
 
 The method does not check to see whether a project uses a specific ECF.
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Project Development Portal](http://dev.office.com/project.aspx)

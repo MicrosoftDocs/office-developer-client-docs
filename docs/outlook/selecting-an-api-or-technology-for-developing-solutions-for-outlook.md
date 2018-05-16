@@ -1,10 +1,8 @@
 ---
 title: "Selecting an API or technology for developing solutions for Outlook"
-
 manager: soliver
 ms.date: 10/21/2016
 ms.audience: Developer
-
 localization_priority: Normal
 ms.assetid: 01a46083-03d0-4333-920c-01a9f17f68cb
 description: "This article describes the APIs and technologies you can use to extend Outlook 2013, and helps you decide the appropriate API or technology for your scenario."
@@ -483,14 +481,14 @@ If you are interested in plugging in a third-party weather data service to the W
   
 Once you have decided on the APIs or technologies to use in your solution, you can refer to additional documentation and code samples in the [Additional resources—primary references, resources, and code samples](#OLSelectAPI_AdditionalResourcesRefCode) section for more information. 
   
-## Additional resources—Office Add-ins
+## See also: Office Add-ins
 <a name="OLSelectAPI_AdditionalResourcesApps"> </a>
 
 [Office Add-ins platform overview](http://msdn.microsoft.com/library/e64de870-ce22-4331-92e7-76d35279bf91%28Office.15%29.aspx) provides a good introduction of Office Add-ins, including the architecture and development life cycle. 
   
 See [Outlook add-ins](http://msdn.microsoft.com/library/71e64bc9-e347-4f5d-8948-0a47b5dd93e6%28Office.15%29.aspx) for a detailed roadmap of resources about developing mail apps. 
   
-## Additional resources—object model and PIA
+## See also: Object model and PIA
 <a name="OLSelectAPI_AdditionalResourcesObjModelPIA"> </a>
 
 The following resources provide more information about using the object model and PIA.
@@ -822,7 +820,7 @@ See the following task-related properties in some item objects such as the [Mail
     
 - [SolutionsModule](http://msdn.microsoft.com/library/4597765e-a95d-bf07-2ac4-103218ebc696%28Office.15%29.aspx) object 
     
-## Additional resources—Auxiliary APIs
+## See also: Auxiliary APIs
 <a name="OLSelectAPI_AdditionalResourcesAuxAPIs"> </a>
 
 The following resources provide more information about the Outlook auxiliary APIs.
@@ -873,7 +871,7 @@ The following resources provide more information about the Outlook auxiliary API
     
 - [How to: Read time zone properties from an appointment](auxiliary/how-to-read-time-zone-properties-from-an-appointment.md)
     
-## Additional resources—primary references, resources, and code samples
+## See also: Primary references, resources, and code samples
 <a name="OLSelectAPI_AdditionalResourcesRefCode"> </a>
 
 The following resources provide more information about the primary Outlook references, resources, and code samples.

@@ -638,7 +638,7 @@ Value: Red
 
 ```
 
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - For documentation and samples related to Project Online and application development using CSOM, see the [Project Development Portal](http://dev.office.com/project.aspx).

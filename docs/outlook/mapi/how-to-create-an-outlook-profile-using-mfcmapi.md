@@ -107,7 +107,7 @@ For non-developers, it is recommended that you use the Outlook user interface to
     
 For Troubleshooting tips, see [How to configure an Outlook profile using MFCMAPI for Exchange 2013](https://blogs.msdn.microsoft.com/dvespa/2014/01/16/how-to-configure-an-outlook-profile-using-mfcmapi-for-exchange-2013)
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Outlook MAPI Reference](https://msdn.microsoft.com/en-us/library/office/cc765775.aspx)

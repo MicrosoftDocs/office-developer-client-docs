@@ -280,7 +280,7 @@ For all of these reasons, Project Professional and Project Web App do not make d
   
 The schemas for the draft, published, and archive tables are not documented. You can use the reporting tables to help generate reports, and the schema for the reporting tables and views is documented in the Project 2013 SDK download. For the OData schema of the reporting data, see [ProjectData - Project OData service reference](projectdataproject-odata-service-reference.md).
   
-## Additional resources
+## See also
 <a name="pj15_Programmability_AR"> </a>
 
 - [Updates for developers in Project 2013](updates-for-developers-in-project-2013.md)

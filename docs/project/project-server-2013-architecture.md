@@ -260,7 +260,7 @@ Project Server allows the published version of a project to be updated while a p
     
 3. If there is a conflict, the project manager is notified and must resolve the conflict before the draft version can be published.
     
-## Additional resources
+## See also
 <a name="pj15_Architecture_AR"> </a>
 
 - [Project 2013 overview for developers](http://msdn.microsoft.com/library/8da91ab0-af4f-429f-8241-490600e3f7bd%28Office.15%29.aspx)

@@ -349,7 +349,7 @@ function QueryFailed(sender, args) {
 }
 ```
 
-## Additional resources
+## See also
 <a name="pj15_CRUDProjectsJSOM_AR"> </a>
 
 - [Project programming tasks](project-programming-tasks.md)

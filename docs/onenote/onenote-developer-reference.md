@@ -30,7 +30,7 @@ This documentation contains the following information:
 > [!NOTE]
 > The APIs described in this documentation are intended only for OneNote Win32 desktop client solutions in unconnected scenarios. For connected scenarios, use the recommended OneNote service APIs. To learn more, visit [dev.onenote.com](http://go.microsoft.com/fwlink/?LinkID=390615). 
   
-## Additional resources
+## See also
 
 - [OneNote for developers](http://go.microsoft.com/fwlink/?LinkID=390615)
     

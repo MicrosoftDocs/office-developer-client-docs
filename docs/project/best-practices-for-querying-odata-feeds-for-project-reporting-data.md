@@ -203,7 +203,7 @@ When using SSIS to replicate reporting data to a SQL Server database, we recomme
   
 You can [download a sample SSIS package](http://www.microsoft.com/en-us/download/details.aspx?id=43736) that demonstrates best practices for querying **ProjectData** OData feeds. To learn about the sample's data flows, see [Project Online: SSIS package for OData delta sync](project-online-ssis-package-for-odata-delta-sync.md).
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [ProjectData - Project OData service reference](projectdataproject-odata-service-reference.md)
