@@ -1,13 +1,12 @@
+---
 description: "Find how-to content, sample code, SDK and API documentation, VBA references, training, and technical articles for developing solutions and customizing PowerPoint."
+
 ---
 
 # PowerPoint
 
 Find how-to content, sample code, SDK and API documentation, VBA references, training, and technical articles for developing solutions and customizing PowerPoint.
-  
- **Last modified:** December 13, 2017 
-  
- * **Applies to:** PowerPoint 2013 | PowerPoint 2016 * 
+
   
 > [!NOTE]
 > Interested in developing solutions that extend the Office experience across [multiple platforms](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-in-availability)? Check out the new [Office Add-ins model](https://docs.microsoft.com/en-us/office/dev/add-ins/). 
