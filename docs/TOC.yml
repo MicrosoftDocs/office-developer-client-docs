@@ -6292,7 +6292,7 @@
                  - name: JavaScript API reference
                    href: https://msdn.microsoft.com/en-us/library/office/jj712612.aspx
      - name: Publisher
-       href: 
+       href: publisher.md
        items: 
         - name: Publisher VBA reference
           href: https://msdn.microsoft.com/en-us/library/office/ee861522.aspx
