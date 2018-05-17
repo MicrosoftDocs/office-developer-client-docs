@@ -201,7 +201,7 @@
                 href: access/substring-function-access-custom-web-app.md
               - name: Upper Function
                 href: access/upper-function-access-custom-web-app.md
-            - name: Operators (Access custom web app)
+            - name: Operators
               href: access/operators-access-custom-web-app.md
               items:
               - name: Arithmetic Operators
@@ -8451,6 +8451,6 @@
             href: https://msdn.microsoft.com/en-us/library/ff597928.aspx
      - name: Sway URI scheme
        href: swayuri.md
-     - name: Office URI Schemes
+     - name: Office URI schemes
        href: office-uri-schemes.md
 
