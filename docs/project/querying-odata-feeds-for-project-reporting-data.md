@@ -46,7 +46,7 @@ The XML content of an Entity Data Model is also known as a Service Metadata Docu
         
     5. Choose **OK**, and then restart Internet Explorer.
     
-5. To get the list of **EntitySet** elements, which are the primary entity collections that are available in the **ProjectData** service, use the following URL in the browser:  `http://ServerName/ProjectServerName/_api/ProjectData`
+5. To get the list of **EntitySet** elements, which are the primary entity collections that are available in the **ProjectData** service, use the following URL in the browser: `http://ServerName/ProjectServerName/_api/ProjectData`
     
     In the XML result, for example, the **collection** elements show that you can directly query for **Projects** and for **ProjectBaselines**.
     

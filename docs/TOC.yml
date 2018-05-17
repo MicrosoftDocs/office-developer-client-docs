@@ -254,7 +254,7 @@
                 items:
                 - name: String Concatenation operator
                   href: access/plusstring-concatenation-operatoraccess-custom-web-app.md
-          - name: Macro function reference (Access custom web app)
+          - name: Macro function reference
             href: access/macro-function-reference-access-custom-web-app.md
             items:
             - name: Data blocks 
