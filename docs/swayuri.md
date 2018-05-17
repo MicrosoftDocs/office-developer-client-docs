@@ -50,3 +50,4 @@ The `<ms-sway>` scheme defines a URI syntax for opening a Sway or for invoking t
 ms-sway:id=CyrvEYLmFKi1B2_I&auth_upn=account@email.com&auth_pvr=WindowsLiveId&invoking_app=MyApp
 ``` 
 
+
