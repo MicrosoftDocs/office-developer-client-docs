@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Handling Table Notification
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 As an alternative to registering directly with an advise source object, such as a folder or a messaging user, a client can register for notifications on a contents or hierarchy table. Tracking changes to address book entries, folders, and messages through a contents or hierarchy table can be simpler and more straightforward than through individual objects. For example, you can call [IMAPITable::Advise](imapitable-advise.md) on a folder's hierarchy table to discover when changes occur to one of its subfolders. If you support the viewing of remote messages, register with the status table to observe activity by transport providers and the MAPI spooler. 
   

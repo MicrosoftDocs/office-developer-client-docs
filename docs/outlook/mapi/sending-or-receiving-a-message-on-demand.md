@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Sending or Receiving a Message on Demand
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Clients typically rely on the MAPI subsystem — the MAPI spooler and the service providers — to handle the timing of message transmission and reception. However, you can alter this timing by using the status object of either the MAPI spooler or a transport provider.
   

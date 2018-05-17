@@ -1,5 +1,5 @@
 ---
-title: "How to Work with Views"
+title: "Work with Views"
  
  
 manager: soliver
@@ -14,7 +14,7 @@ ms.assetid: 947b33c3-2acc-45d2-a89d-a712b6bc53df
 description: "When working with an InfoPath form template, you can write code to access the form's views, and then perform a variety of actions on the data that the views contain. The InfoPath object model provided by the Microsoft.Office.InfoPath namespace supports access to a form's views through the use of the members of the View class."
 ---
 
-# How to: Work with Views
+# Work with Views
 
 When working with an InfoPath form template, you can write code to access the form's views, and then perform a variety of actions on the data that the views contain. The InfoPath object model provided by the [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) namespace supports access to a form's views through the use of the members of the [View](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.aspx) class. 
   

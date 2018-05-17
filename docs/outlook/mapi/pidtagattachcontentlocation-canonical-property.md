@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagAttachContentLocation Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the content location header of a Multipurpose Internet Mail Extensions (MIME) message attachment. 
   

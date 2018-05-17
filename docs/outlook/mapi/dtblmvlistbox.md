@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # DTBLMVLISTBOX
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Describes a multi-valued list that will be displayed in a dialog box that is built from a display table.
   

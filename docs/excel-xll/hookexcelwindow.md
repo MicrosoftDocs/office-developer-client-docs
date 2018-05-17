@@ -18,7 +18,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # HookExcelWindow
 
- * **Applies to:** Excel 2013 | Office 2013 | Visual Studio * 
+ **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 Installs **ExcelCursorProc** so that it is called before the Microsoft Excel main **WndProc**.
   

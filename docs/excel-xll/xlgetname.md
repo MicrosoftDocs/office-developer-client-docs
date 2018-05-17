@@ -18,7 +18,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # xlGetName
 
- * **Applies to:** Excel 2013 | Office 2013 | Visual Studio * 
+ **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 Returns the full path and file name of the DLL in the form of a string.
   

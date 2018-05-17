@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # FBadSortOrderSet
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Validates a sort order set by verifying its memory allocation. 
   

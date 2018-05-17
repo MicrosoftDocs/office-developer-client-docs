@@ -1,5 +1,5 @@
 ---
-title: "How to Access Application Data"
+title: "Access Application Data"
  
  
 manager: soliver
@@ -14,7 +14,7 @@ ms.assetid: 2698d059-9955-4eec-85a6-79defb64e07e
 description: "The InfoPath managed code object model provides objects and collections that can be used to gain access to information about the InfoPath application, including information related to a form's underlying XML document and the form definition (.xsf) file. This data is accessed through the top-level object in the InfoPath object model hierarchy, which is instantiated by using the Application class."
 ---
 
-# How to: Access Application Data
+# Access Application Data
 
 The InfoPath managed code object model provides objects and collections that can be used to gain access to information about the InfoPath application, including information related to a form's underlying XML document and the form definition (.xsf) file. This data is accessed through the top-level object in the InfoPath object model hierarchy, which is instantiated by using the [Application](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Application.aspx) class. 
   

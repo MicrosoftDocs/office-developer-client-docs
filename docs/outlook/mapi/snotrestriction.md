@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # SNotRestriction
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Describes a **NOT** restriction, which is used to apply a logical **NOT** operation to a restriction. 
   

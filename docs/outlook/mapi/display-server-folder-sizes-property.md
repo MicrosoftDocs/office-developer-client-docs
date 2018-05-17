@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # Display Server Folder Sizes Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Displays the sizes of specified folders on the server in the Outlook **Folder Size** dialog box. 
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIMessageSite : IUnknown
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Manipulates messages and is implemented by the form viewer code (typically a client application) that responds to such manipulation.
   

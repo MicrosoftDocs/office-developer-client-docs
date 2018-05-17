@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidWorkAddressState Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the state or province portion of the contact's work mailing address.
   

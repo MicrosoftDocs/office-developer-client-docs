@@ -1,18 +1,15 @@
 ---
-title: "\>= (Greater Than or Equal To) (Access custom web app)"
- 
- 
+title: "Greater Than or Equal To (Access custom web app)"
 manager: kelbow
 ms.date: 9/5/2017
 ms.audience: Developer
 ms.topic: reference
-  
 localization_priority: Normal
 ms.assetid: cceb8dcb-5ce1-4c32-b057-6201b62a646f
 description: "Compares two expressions for greater than or equal."
 ---
 
-# \>= (Greater Than or Equal To) (Access custom web app)
+# Greater Than or Equal To (Access custom web app)
 
 Compares two expressions for greater than or equal.
   
@@ -21,13 +18,15 @@ Compares two expressions for greater than or equal.
   
 ## Syntax
 
- *expression*  \>=  *expression* 
+`>= (Greater Than or Equal To)`
+
+*expression*  \>=  *expression* 
   
- *expression*  Is any valid expression. Both expressions must have implicitly convertible data types. The conversion depends on the rules of data type precedence. 
+*expression*  Is any valid expression. Both expressions must have implicitly convertible data types. The conversion depends on the rules of data type precedence. 
   
 ## Return Type
 
- **Boolean**
+**Boolean**
   
 ## Remarks
 

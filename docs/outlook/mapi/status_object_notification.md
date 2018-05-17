@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # STATUS_OBJECT_NOTIFICATION
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Describes a status object that has been affected by a change. 
   

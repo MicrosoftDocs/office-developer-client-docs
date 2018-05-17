@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagAttachLongPathname Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains an attachment's fully-qualified long path and filename. 
   

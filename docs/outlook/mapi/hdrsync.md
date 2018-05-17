@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # HDRSYNC
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Information for synchronizing a message header during the [download message header state](download-message-header-state.md).
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagHobbies Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the names of the hobbies of the messaging user.
   

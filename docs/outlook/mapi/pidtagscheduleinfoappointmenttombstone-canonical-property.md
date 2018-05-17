@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagScheduleInfoAppointmentTombstone Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a list of data blocks that represent meetings that have been declined.
   

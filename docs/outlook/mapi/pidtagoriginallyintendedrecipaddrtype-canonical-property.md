@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagOriginallyIntendedRecipAddrtype Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the address type of the originally intended recipient of an autoforwarded message.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPITable::SeekRow
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Moves the cursor to a specific position in the table.
   

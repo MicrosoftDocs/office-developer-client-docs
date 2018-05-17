@@ -25,7 +25,7 @@ Before you start, make sure that you meet the following requirements.
     
 - Check with the farm administrator to make sure that the Microsoft SharePoint Foundation Sandboxed Code Service is running on the server. For more information, see [Publishing Forms with Code](publishing-forms-with-code.md).
     
-- The programming language that you have selected for the form template is either **C#** or **Visual Basic** without any earlier version name after it. The InfoPath 2007-compatible and InfoPath 2003-compatible versions of the programming languages and object models are not supported for sandboxed solutions. For more information about how to specify the programming language, see [How to: Develop with Visual Studio](how-to-develop-with-visual-studio.md).
+- The programming language that you have selected for the form template is either **C#** or **Visual Basic** without any earlier version name after it. The InfoPath 2007-compatible and InfoPath 2003-compatible versions of the programming languages and object models are not supported for sandboxed solutions. For more information about how to specify the programming language, see [Develop with Visual Studio](how-to-develop-with-visual-studio.md).
     
 Perform the following steps to create a form template that sorts the data in a **Repeating Table** control on the form. 
   
@@ -196,7 +196,7 @@ From code in an InfoPath form, you can use the SharePoint object model to create
     
     If your form is not saved yet, you are prompted to save it. And then, the code editor window opens with the cursor in the  `myCombo_Changed` event handler. 
     
-6. Add a reference to the Microsoft.SharePoint.dll assembly as described earlier in this topic. For more information about referencing the Microsoft.SharePoint assembly, see [How to: Use SharePoint Object Model Members](how-to-use-sharepoint-object-model-members.md).
+6. Add a reference to the Microsoft.SharePoint.dll assembly as described earlier in this topic. For more information about referencing the Microsoft.SharePoint assembly, see [Use SharePoint Object Model Members](how-to-use-sharepoint-object-model-members.md).
     
 7. Paste the following code into the  `myCombo_Changed` event handler. 
     

@@ -19,7 +19,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # FreeXLOperT/FreeXLOper12T
 
- * **Applies to:** Excel 2013 | Office 2013 | Visual Studio * 
+ **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 Framework function that frees memory associated with an **XLOPER**/ **XLOPER12**. The function assumes that the memory was allocated with calls to malloc within the DLL. If the memory was allocated by Microsoft Excel or in some other way or by some other process, this function should not be used to free the memory. Use [xlFree](xlfree.md) to free memory allocated by Excel for **XLOPER**/ **XLOPER12**s. 
   

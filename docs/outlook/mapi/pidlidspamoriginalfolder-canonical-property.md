@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidSpamOriginalFolder Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Indicates which folder a message was in before it was filtered into the junk e-mail folder.
   

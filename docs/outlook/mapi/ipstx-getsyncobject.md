@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IPSTX::GetSyncObject
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Starts a synchronization session and gets the associated **[IOSTX](iostxiunknown.md)** interface. 
   

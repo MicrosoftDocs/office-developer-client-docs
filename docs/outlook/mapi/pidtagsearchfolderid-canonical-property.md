@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagSearchFolderId Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a globally unique identifier (GUID) that identifies the search folder.
   

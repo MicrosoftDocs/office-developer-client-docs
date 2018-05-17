@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagIdentityDisplay Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the display name for a service provider's identity as defined within a messaging system. 
   

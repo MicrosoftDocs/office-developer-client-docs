@@ -16,7 +16,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # Welcome to the Excel Software Development Kit
 
- * **Applies to:** Excel 2013 | Office 2013 | Visual Studio * 
+ **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 Welcome to the Excel 2013 XLL Software Development Kit (SDK) documentation. This reference contains conceptual overviews, programming tasks, and samples to help you develop Microsoft Excel 2013 XLLs.
   

@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Displaying Recipient Information
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 MAPI provides a common dialog box for showing recipient details. The details dialog box is created from a display table and an **IMAPIProp** implementation. The display table describes the appearance of the details display and the **IMAPIProp** implementation controls the data for the recipient. Your provider is responsible for supplying the display table and the **IMAPIProp** implementation for each recipient. 
   

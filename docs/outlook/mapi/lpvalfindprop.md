@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # LpValFindProp
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Searches for a specified property in a property set.
   

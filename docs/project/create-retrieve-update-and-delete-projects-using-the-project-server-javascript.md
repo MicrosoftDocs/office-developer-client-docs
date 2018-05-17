@@ -1,20 +1,16 @@
 ---
-title: "Create, retrieve, update, and delete projects by using the Project Server JavaScript object model"
-
- 
+title: "Create, retrieve, update, and delete projects"
 manager: soliver
 ms.date: 8/10/2016
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 6b690938-05bc-46a3-a40e-30f081403767
-description: "The scenarios in this article show how to get the current ProjectContext instance; retrieve and iterate through the collection of published projects on the server; create, retrieve, check out, and delete a project; and change a project's properties."
+description: "Get the current ProjectContext instance; retrieve and iterate through the collection of published projects on the server; create, retrieve, check out, and delete a project by using the Project Server JavaScript object model; and change a project's properties."
 ---
 
-# Create, retrieve, update, and delete projects by using the Project Server JavaScript object model
+# Create, retrieve, update, and delete projects
 
-The scenarios in this article show how to get the current **ProjectContext** instance; retrieve and iterate through the collection of published projects on the server; create, retrieve, check out, and delete a project; and change a project's properties. 
+The scenarios in this article show how to get the current **ProjectContext** instance; retrieve and iterate through the collection of published projects on the server; create, retrieve, check out, and delete a project by using the Project Server JavaScript object model; and change a project's properties. 
   
 > [!NOTE]
 > These scenarios define custom code in the markup of a SharePoint application page but do not use the code-behind file that Visual Studio 2012 creates for the page. 
@@ -349,11 +345,11 @@ function QueryFailed(sender, args) {
 }
 ```
 
-## Additional resources
 <a name="pj15_CRUDProjectsJSOM_AR"> </a>
 
+## See also
+
 - [Project programming tasks](project-programming-tasks.md)
-    
 - [Client-side object model (CSOM) for Project 2013](client-side-object-model-csom-for-project-2013.md)
     
 

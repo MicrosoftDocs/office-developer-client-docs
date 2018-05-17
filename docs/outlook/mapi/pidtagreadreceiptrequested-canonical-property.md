@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagReadReceiptRequested Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains TRUE if a message sender wants the messaging system to generate a read report when the recipient has read a message.
   

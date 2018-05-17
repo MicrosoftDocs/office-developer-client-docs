@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # FORMPRINTSETUP
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Describes the print setup information for the form object. 
   

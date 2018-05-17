@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # ChangeIdleRoutine
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Changes some or all of the characteristics of a [FNIDLE](fnidle.md) based idle routine. 
   

@@ -16,7 +16,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # Memory Management in Excel
 
- * **Applies to:** Excel 2013 | Office 2013 | Visual Studio * 
+ **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 Memory management is the most important concern if you want to create efficient and stable XLLs. Failure to manage memory well can lead to a range of problems in Microsoft Excel—from minor problems such as inefficient memory allocation and initialization and small memory leaks, to major problems such as the destabilization of Excel.
   

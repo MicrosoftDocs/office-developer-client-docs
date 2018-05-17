@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidNameContentClass Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains an [RFC3282] Content-Class header field value.
   

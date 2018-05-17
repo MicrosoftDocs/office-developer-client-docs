@@ -65,7 +65,7 @@ Note that the [TZREG](tzreg.md) structure is persisted here differently than whe
 
 [Constants (Outlook exported APIs)](constants-outlook-exported-apis.md)
   
-[How to: Parse a stream from a binary property to read the TZDEFINITION structure](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzdefinition-structure.md)
+[Parse a stream from a binary property to read the TZDEFINITION structure](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzdefinition-structure.md)
   
-[How to: Read time zone properties from an appointment](how-to-read-time-zone-properties-from-an-appointment.md)
+[Read time zone properties from an appointment](how-to-read-time-zone-properties-from-an-appointment.md)
 

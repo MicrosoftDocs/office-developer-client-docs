@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Saving a Message in the Inbox
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
  **To store a message in the Inbox without any recipients**
   

@@ -12,9 +12,9 @@ description: "Last modified: July 05, 2012"
 
 # Setting Up an Offline State Add-in
 
- **Last modified:** July 05, 2012 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 To implement an offline state add-in, you must implement connection, initialization, and other setup functions. In this topic, these connection, initialization, and setup functions are demonstrated by using code examples from the Sample Offline State Add-in. The Sample Offline State Add-in is a COM add-in that adds an **Offline State** menu to Outlook and uses the Offline State API. Through the **Offline State** menu, you can enable or disable state monitoring, check the current state, and change the current state. For more information about downloading and installing the Sample Offline State Add-in, see [Installing the Sample Offline State Add-in](installing-the-sample-offline-state-add-in.md). For more information about the Offline State API, see [About the Offline State API](about-the-offline-state-api.md).
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # UlAddRef
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Provides an alternative way to invoke the OLE method **IUnknown::AddRef**. 
   

@@ -19,7 +19,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # fDialog/fDialog12
 
- * **Applies to:** Excel 2013 | Office 2013 | Visual Studio * 
+ **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 Example user-defined command that demonstrates how to create a Microsoft Excel UDD (user-defined dialog box) within a DLL by using the dialog box capabilities in the C API. When GENERIC.xll is loaded, it creates a user-defined menu, Generic, through which this command is accessed.
   

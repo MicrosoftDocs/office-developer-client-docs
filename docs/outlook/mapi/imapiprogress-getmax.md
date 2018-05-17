@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIProgress::GetMax
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Returns the maximum number of items in the operation for which progress information is displayed.
   
@@ -48,7 +48,7 @@ The maximum value represents the end of the operation in numeric form. The value
   
 The value of the flag setting affects whether the progress object understands the maximum value to be local or global. When the MAPI_TOP_LEVEL flag is set, the maximum value is considered to be global and is used to calculate progress for the entire operation. When MAPI_TOP_LEVEL is not set, the maximum value is considered to be local, and providers use it internally to display progress for lower level subobjects. Progress objects save the local maximum value only to return it to a provider through a **GetMax** call. 
   
-For more information about how and when to make calls to a progress object, see [How to: Display a Progress Indicator](how-to-display-a-progress-indicator.md).
+For more information about how and when to make calls to a progress object, see [Display a Progress Indicator](how-to-display-a-progress-indicator.md).
   
 ## Notes to Implementers
 
@@ -77,7 +77,7 @@ For MFCMAPI sample code, see the following table.
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
   
-[How to: Display a Progress Indicator](how-to-display-a-progress-indicator.md)
+[Display a Progress Indicator](how-to-display-a-progress-indicator.md)
   
 [Implementing a Progress Indicator](implementing-a-progress-indicator.md)
 

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidPercentComplete Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Indicates the progress the user has made on a task. 
   

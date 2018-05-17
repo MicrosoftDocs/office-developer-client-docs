@@ -1,5 +1,5 @@
 ---
-title: "How to Deploy InfoPath Form Templates with Code"
+title: "Deploy InfoPath Form Templates with Code"
  
  
 manager: soliver
@@ -14,7 +14,7 @@ ms.assetid: ab66e26d-74ee-4211-b387-1385183a6803
 description: "The form code for an InfoPath managed code form template is compiled as an assembly that runs under the common language runtime (CLR). This means that whenever you need to make changes to the form code, you must open its project in Visual Studio 2012, make changes in the code editor, recompile your form template, and then re-deploy the form template. Additionally, because the private assembly for a managed code form template is running under a hosted CLR application domain, the security settings for forms that require full trust differ somewhat from form templates that do not require full trust."
 ---
 
-# How to: Deploy InfoPath Form Templates with Code
+# Deploy InfoPath Form Templates with Code
 
 The form code for an InfoPath managed code form template is compiled as an assembly that runs under the common language runtime (CLR). This means that whenever you need to make changes to the form code, you must open its project in Visual Studio 2012, make changes in the code editor, recompile your form template, and then re-deploy the form template. Additionally, because the private assembly for a managed code form template is running under a hosted CLR application domain, the security settings for forms that require full trust differ somewhat from form templates that do not require full trust.
   
@@ -55,7 +55,7 @@ If the form code for your form template does use InfoPath object model members t
  **Notes**
 - To digitally sign a form, you must have an authenticated code signing certificate installed on your computer. To acquire such a certificate, you must contact a certification authority or your network administrator.
     
-- If you need to make changes to the form after publishing, you must repeat the procedure and re-sign the form template. This is because altering the form invalidates the digital signature. During the development of a form that requires full trust permissions you can use the procedure described in [How to: Preview and Debug Form Templates that Require Full Trust](how-to-preview-and-debug-form-templates-that-require-full-trust.md) to register the form template on your local computer. 
+- If you need to make changes to the form after publishing, you must repeat the procedure and re-sign the form template. This is because altering the form invalidates the digital signature. During the development of a form that requires full trust permissions you can use the procedure described in [Preview and Debug Form Templates that Require Full Trust](how-to-preview-and-debug-form-templates-that-require-full-trust.md) to register the form template on your local computer. 
     
 ## Configuring .NET Framework Security Settings
 
@@ -72,16 +72,16 @@ For additional control over the permissions granted to managed code running in a
     
     The form template is compiled and the **Publishing Wizard** is launched. Follow the steps in the **Publishing Wizard** to deploy your form template. For more information about using the **Publishing Wizard**, search InfoPath Help for "Publish a form template".
     
-3. Perform the procedure described in the "Assigning FullTrust to Forms at a Specific URL or UNC" section of the [How to: Configure Security Settings for Form Templates with Code](how-to-configure-security-settings-for-form-templates-with-code.md)
+3. Perform the procedure described in the "Assigning FullTrust to Forms at a Specific URL or UNC" section of the [Configure Security Settings for Form Templates with Code](how-to-configure-security-settings-for-form-templates-with-code.md)
     
 ## See also
 
 #### Tasks
 
-[How to: Configure Security Settings for Form Templates with Code](how-to-configure-security-settings-for-form-templates-with-code.md)
+[Configure Security Settings for Form Templates with Code](how-to-configure-security-settings-for-form-templates-with-code.md)
 #### Concepts
 
 [About the Security Model for Form Templates with Code](about-the-security-model-for-form-templates-with-code.md)
   
-[How to: Preview and Debug Form Templates that Require Full Trust](how-to-preview-and-debug-form-templates-that-require-full-trust.md)
+[Preview and Debug Form Templates that Require Full Trust](how-to-preview-and-debug-form-templates-that-require-full-trust.md)
 

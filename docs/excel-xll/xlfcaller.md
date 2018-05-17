@@ -18,7 +18,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # xlfCaller
 
- * **Applies to:** Excel 2013 | Office 2013 | Visual Studio * 
+ **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 Returns information about the cell, range of cells, command on a menu, tool on a toolbar, or object that called the DLL command or function that is currently running.
   

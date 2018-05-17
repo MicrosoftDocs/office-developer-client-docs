@@ -1,5 +1,5 @@
 ---
-title: "How to Access Application Data Using the InfoPath 2003 Object Model"
+title: "Access Application Data Using the InfoPath 2003 Object Model"
  
  
 manager: soliver
@@ -14,7 +14,7 @@ ms.assetid: da604c72-c760-4aa3-9574-d59c392753df
 description: "The InfoPath 2003-compatible object model provides objects and collections that can be used to gain access to information about the InfoPath application, including information related to a form's underlying XML document and the form definition (.xsf) file. This data is accessed through the top-level object in the InfoPath object model hierarchy, which is instantiated by using the Application interface."
 ---
 
-# How to: Access Application Data Using the InfoPath 2003 Object Model
+# Access Application Data Using the InfoPath 2003 Object Model
 
 The InfoPath 2003-compatible object model provides objects and collections that can be used to gain access to information about the InfoPath application, including information related to a form's underlying XML document and the form definition (.xsf) file. This data is accessed through the top-level object in the InfoPath object model hierarchy, which is instantiated by using the [Application](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Application.aspx) interface. 
   

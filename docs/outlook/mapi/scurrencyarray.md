@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # SCurrencyArray
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains an array of currency values that are used to describe a property of type PT_MV_CURRENCY. 
   

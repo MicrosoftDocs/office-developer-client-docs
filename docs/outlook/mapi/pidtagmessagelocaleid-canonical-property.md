@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagMessageLocaleId Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the Windows LCID of the end user who created this message.
   

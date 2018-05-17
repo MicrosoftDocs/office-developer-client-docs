@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagTemplateid Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)), expressed as a permanent entry ID format.
   

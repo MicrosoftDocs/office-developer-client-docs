@@ -111,7 +111,7 @@ For example, if you use the CSOM to create a project, and then edit the project 
   
 To capture the data in a CSOM request over HTTP or HTTPS, you can use a web debugging tool such as [Fiddler](http://www.fiddler2.com) (http://www.fiddler2.com). For a code example that implements a test for request size and includes a solution that breaks a large request into to smaller groups, see [DraftProject.Update](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.DraftProject.Update.aspx) . 
   
-## Additional resources
+## See also
 <a name="pj15_WhatTheCSOM_AR"> </a>
 
 - [Client-side object model (CSOM) for Project Server](client-side-object-model-csom-for-project-2013.md)

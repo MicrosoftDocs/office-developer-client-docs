@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # BuildDisplayTable
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Creates a display table from the property page data contained in one or more [DTPAGE](dtpage.md) structures. 
   

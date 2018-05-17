@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidYomiCompanyName Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the phonetic pronunciation of the contact's company name.
   

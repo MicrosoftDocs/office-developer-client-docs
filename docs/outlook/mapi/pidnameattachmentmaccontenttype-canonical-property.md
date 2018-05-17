@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidNameAttachmentMacContentType Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains an [RFC3282] Content-Type header field value for attachments that are used by Macintosh-based e-mail clients.
   

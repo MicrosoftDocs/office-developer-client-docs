@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Using a Table to Work with Properties
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Many properties are available both from the objects that support them and as columns on tables. Whenever possible, retrieve these properties through the table.
   

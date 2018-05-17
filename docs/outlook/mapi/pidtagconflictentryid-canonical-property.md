@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagConflictEntryId Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the EntryID of the conflict resolution message.
   

@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Implementing a Progress Indicator
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Many of the operations initiated by clients take a significant amount of time. One of the input parameters to these potentially lengthy operations is a pointer to a progress object — an object that implements the [IMAPIProgress : IUnknown](imapiprogressiunknown.md) interface. Progress objects control the appearance and display of progress indicators and are implemented by clients and by MAPI. You can choose whether or not to implement a progress object. The MAPI implementation is available for service providers to use if you elect not to supply an implementation. 
   

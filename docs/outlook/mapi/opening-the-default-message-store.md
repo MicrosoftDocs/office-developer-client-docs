@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Opening the Default Message Store
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 In any particular session, one message store acts as the default message store. A default message store has the following characteristics:
   

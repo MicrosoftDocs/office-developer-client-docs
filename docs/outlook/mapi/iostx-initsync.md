@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IOSTX::InitSync
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Informs the local message store that synchronization is about to start.
   

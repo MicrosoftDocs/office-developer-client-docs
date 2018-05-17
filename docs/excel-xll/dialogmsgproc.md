@@ -18,7 +18,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # DIALOGMsgProc
 
- * **Applies to:** Excel 2013 | Office 2013 | Visual Studio * 
+**Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 This procedure is associated with the native Windows dialog box that [fShowDialog](fshowdialog.md) displays. It provides the service routines called by Windows for the events (messages) that occur when the user operates one of the dialog box's buttons, entry fields, or controls. 
   

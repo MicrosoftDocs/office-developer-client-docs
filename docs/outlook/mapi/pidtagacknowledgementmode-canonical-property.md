@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagAcknowledgementMode Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the identifier of the mode for message acknowledgment.
   

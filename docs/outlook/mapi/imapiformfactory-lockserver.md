@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMAPIFormFactory::LockServer
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Keeps an open form server in memory.
   

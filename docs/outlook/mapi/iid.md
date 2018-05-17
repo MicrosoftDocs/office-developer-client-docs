@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IID
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Describes a [GUID](guid.md) structure used to describe an identifier for a MAPI interface. 
   

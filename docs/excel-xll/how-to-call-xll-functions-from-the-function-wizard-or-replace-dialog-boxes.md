@@ -1,5 +1,5 @@
 ---
-title: "How to Call XLL Functions from the Function Wizard or Replace Dialog Boxes"
+title: "Call XLL Functions from the Function Wizard or Replace Dialog Boxes"
  
  
 manager: soliver
@@ -14,9 +14,9 @@ ms.assetid: dc7e840e-6d1d-427b-97f9-7912e60ec954
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---
 
-# How to: Call XLL Functions from the Function Wizard or Replace Dialog Boxes
+# Call XLL Functions from the Function Wizard or Replace Dialog Boxes
 
- * **Applies to:** Excel 2013 | Office 2013 | Visual Studio * 
+ **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 Microsoft Excel usually calls XLL functions during the normal recalculation of the workbook, or a part of it if the calculation is under the control of a macro. Remember that the function might not reside in a cell formula but might be part of a named range definition, or a conditional formatting expression.
   

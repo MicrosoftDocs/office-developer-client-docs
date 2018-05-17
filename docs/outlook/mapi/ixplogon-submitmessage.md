@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IXPLogon::SubmitMessage
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Indicates that the MAPI spooler has a message for the transport provider to deliver.
   

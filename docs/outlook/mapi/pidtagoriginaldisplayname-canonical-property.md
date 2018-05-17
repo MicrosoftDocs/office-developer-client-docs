@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagOriginalDisplayName Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the original display name for an entry copied from an address book to a personal address book or other writable address book.
   

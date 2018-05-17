@@ -18,7 +18,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # xlfRegister (Form 1)
 
- * **Applies to:** Excel 2013 | Office 2013 | Visual Studio * 
+ **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 Can be called from a DLL or XLL command that has itself been called by Microsoft Excel. This is equal to calling **REGISTER** from an Excel XLM macro sheet. 
   

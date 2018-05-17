@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagReplyRecipientNames Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a list of display names for recipients that are to get a reply.
   

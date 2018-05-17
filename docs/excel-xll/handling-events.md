@@ -14,7 +14,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # Handling Events
 
- * **Applies to:** Excel 2013 | Office 2013 | Visual Studio * 
+ **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 Starting in Excel 2010, XLLs can receive events designed to manage the asynchronous function life cycle. The events are as follows:
   

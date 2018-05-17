@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Finding Sent or Saved Messages
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
  **To locate all the outgoing messages that you have saved or sent**
   

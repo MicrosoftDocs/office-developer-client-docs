@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidTimeZone Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies information about the time zone of a recurring meeting.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # ScCopyNotifications
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Copies a group of event notifications to a single block of memory. 
   

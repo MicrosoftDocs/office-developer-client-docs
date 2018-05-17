@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # HrAllocAdviseSink
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Creates an advise sink object, given a context specified by the calling implementation and a callback function to be triggered by an event notification. 
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # FLATENTRYLIST
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains an array of [FLATENTRY](flatentry.md) structures. 
   

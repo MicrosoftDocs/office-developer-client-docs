@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # MAPI Extended Errors
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Implementers of interface methods can choose to simply return success (S_OK) and failure (MAPI_E_CALL_FAILED) or differentiate between error conditions, returning as many error values as make sense for the situation. Most situations can use one of the error values defined by MAPI in the MAPICODE.H header file. However, for situations that are not covered by a predefined value, the value MAPI_E_EXTENDED_ERROR can be used. MAPI_E_EXTENDED_ERROR indicates to the caller that more information about the error is available. The caller retrieves the additional information by calling the **GetLastError** method on the same object that returned MAPI_E_EXTENDED_ERROR. 
   

@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # attOriginalMessageClass
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 A message class is stored as a string. The encoded string usually holds the MAPI-specified name of the message class.
   

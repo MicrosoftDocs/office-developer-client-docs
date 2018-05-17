@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIControl : IUnknown
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Enables and disables a button control, and performs tasks when a user of a client application clicks the enabled control. Service providers implement control objects to create custom buttons on dialog boxes, such as configuration property sheets, that are defined by using display tables. 
   

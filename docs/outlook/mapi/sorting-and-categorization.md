@@ -14,9 +14,9 @@ description: "Last modified: November 08, 2011"
 
 # Sorting and Categorization
 
- **Last modified:** November 08, 2011 
+ 
   
- * **Applies to:** Outlook * 
+**Applies to**: Outlook 
   
 Sorting a table places rows in an order that makes sense for its viewer. For example, one viewer might prefer to see the contents table of a folder sorted by message subject so that all the threads of a conversation are together while another viewer might want the messages sorted by the name of the sender. A newly instantiated table is not necessarily sorted in any particular order. 
   

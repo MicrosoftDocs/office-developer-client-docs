@@ -1,5 +1,5 @@
 ---
-title: "How to Link to MAPI Functions"
+title: "Link to MAPI Functions"
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -12,11 +12,11 @@ description: "Last modified: March 09, 2015"
  
 ---
 
-# How to: Link to MAPI Functions
+# Link to MAPI Functions
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 There are three methods of linking: implicit linking, explicit linking, and a new hybrid model using the MAPI Stub Library.
   
@@ -58,7 +58,7 @@ For more information about explicit linking, see Linking Explicitly.
 |x64 or x86 natively  <br/> |**%windir%\system32\mapi32.dll** <br/> |
 |x86 on WoW mode  <br/> |**%windir%\syswow64\mapi32.dll** <br/> |
    
-2. Call the [FGetComponentPath](fgetcomponentpath.md) function to get the path and DLL name that implements the MAPI subsystem. For more information, see [How to: Choose a Specific Version of MAPI to Load](how-to-choose-a-specific-version-of-mapi-to-load.md).
+2. Call the [FGetComponentPath](fgetcomponentpath.md) function to get the path and DLL name that implements the MAPI subsystem. For more information, see [Choose a Specific Version of MAPI to Load](how-to-choose-a-specific-version-of-mapi-to-load.md).
     
 3. Load the DLL by calling the LoadLibrary function. 
     
@@ -135,9 +135,9 @@ To access the MAPI Stub Library files and for information about how to build and
   
 [Installing the MAPI Subsystem](installing-the-mapi-subsystem.md)
   
-[How to: Install MAPI Header Files](how-to-install-mapi-header-files.md)
+[Install MAPI Header Files](how-to-install-mapi-header-files.md)
   
-[How to: Choose a Specific Version of MAPI to Load](how-to-choose-a-specific-version-of-mapi-to-load.md)
+[Choose a Specific Version of MAPI to Load](how-to-choose-a-specific-version-of-mapi-to-load.md)
 #### Other resources
 
 [Determining Which Linking Method to Use](http://msdn.microsoft.com/en-us/library/253b8k2c.aspx)

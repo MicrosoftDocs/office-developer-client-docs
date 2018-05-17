@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidPostalAddressId Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies which physical address is the contact's mailing address.
   

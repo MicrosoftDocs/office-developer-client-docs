@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidTaskActualEffort Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Indicates the number of minutes that the user performed a task.
   

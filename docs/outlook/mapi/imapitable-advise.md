@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPITable::Advise
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Registers an advise sink object to receive notification of specified events affecting the table.
   

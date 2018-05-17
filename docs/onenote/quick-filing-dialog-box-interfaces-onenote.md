@@ -1,15 +1,11 @@
 ---
 title: "Quick Filing dialog box interfaces (OneNote)"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: overview
- 
 localization_priority: Normal
 ms.assetid: d83e39f0-b259-4c33-8f3e-e03e94c2403d
-
 description: "This topic describes the interfaces that you can use to programmatically customize the Quick Filing dialog box in OneNote 2013."
 ---
 
@@ -304,9 +300,6 @@ namespace SampleQFD
 ```
 
 ## See also
-<a name="odc_IQuickFilingDialog"> </a>
 
-#### Concepts
-
-[OneNote developer reference](onenote-developer-reference.md)
+- [OneNote developer reference](onenote-developer-reference.md)
 

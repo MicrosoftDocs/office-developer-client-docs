@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagScheduleInfoFreeBusyTentative Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the blocks of times for which the free/busy status is tentative.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # FBadRowSet
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Validates all table rows included in a set of table rows.
   

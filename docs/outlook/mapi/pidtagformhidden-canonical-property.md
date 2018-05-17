@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagFormHidden Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains TRUE if a form is to be suppressed from display by compose menus and dialog boxes. 
   

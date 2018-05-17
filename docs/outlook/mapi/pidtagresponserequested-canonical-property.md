@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagResponseRequested Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains TRUE if the message sender wants a response to a meeting request.
   

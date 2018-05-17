@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IPSTOVERRIDE1 : IUnknown
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Allows a Personal Folders file (PST) store provider to override the PSTDisableGrow policy.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # NOTIFKEY
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Uniquely identifies a connection between an advise sink, an advise source, and MAPI.
   

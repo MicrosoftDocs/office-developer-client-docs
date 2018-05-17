@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # MAPI Address Book
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The integrated address book is an object that MAPI implements to provide access to an integrated collection of addressing information from all of the address book providers in the profile. With the address book, client applications and service providers do not have to differentiate between the unique addressing schemes of messaging systems. Instead, they can look up the addresses of any recipients in any messaging system, as long as the address book provider for the messaging system is installed.
   

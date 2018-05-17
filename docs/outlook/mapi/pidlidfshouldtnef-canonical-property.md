@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidFShouldTNEF Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Indicates whether to encode an item with Transport Neutral Encapsulation Format (TNEF). 
   

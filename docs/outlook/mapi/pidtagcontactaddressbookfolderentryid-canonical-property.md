@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagContactAddressBookFolderEntryId Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains an identifier for the Contacts folder in the message store where mail users are kept. 
   

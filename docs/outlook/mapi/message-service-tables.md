@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # Message Service Tables
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The message service table contains information about the message services in the current profile. There is one message service table for every MAPI session, implemented by MAPI and used by special purpose client applications that provide configuration support. 
   

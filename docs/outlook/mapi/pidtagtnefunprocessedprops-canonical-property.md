@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagTnefUnprocessedProps Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Serializes properties when filtering Transport Neutral Encapsulation Format (TNEF).
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagOrganizationalIdNumber Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains an organizational ID number for the contact, such as an employee ID number.
   

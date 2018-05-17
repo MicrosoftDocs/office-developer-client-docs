@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagFormHostMap Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a host map of available forms. 
   

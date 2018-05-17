@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Required Functionality for Transport Providers
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Every MAPI transport provider must:
   

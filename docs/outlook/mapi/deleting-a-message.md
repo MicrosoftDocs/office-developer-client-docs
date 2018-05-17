@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Deleting a Message
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 A client can delete a message when it is open and the user is reading it, or when it is closed and the user is viewing the contents table. To protect a user from inadvertently removing a message, MAPI defines message deletion as a two step process:
   

@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # Recipient Properties for Delivery Status Reports
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The following properties are present for delivery status reports for recipients. **PR_DELIVER_TIME** ( [PidTagDeliverTime](pidtagdelivertime-canonical-property.md)) is not used on non-delivery reports. **PR_NDR_DIAG_CODE** ( [PidTagNonDeliveryReportDiagCode](pidtagnondeliveryreportdiagcode-canonical-property.md)) and **PR_NDR_REASON_CODE** ( [PidTagNonDeliveryReportReasonCode](pidtagnondeliveryreportreasoncode-canonical-property.md)) are used only on non-delivery reports.
   

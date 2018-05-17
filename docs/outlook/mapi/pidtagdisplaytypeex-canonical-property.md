@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagDisplayTypeEx Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the type of an entry, with respect to how the entry should be displayed in a row in a table for the Global Address List. 
   

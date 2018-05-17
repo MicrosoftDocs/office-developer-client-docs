@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Mappings and Mapping Signatures
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 When a service provider supports named properties, each set of identifier and name pairs is referred to as a mapping. Service providers can support one mapping or several. That is, one message store provider, for example, can implement the **GetIDsFromNames** and **GetNamesFromIDs** methods for all of its message, folder, and message store objects to work with a single list of names and their corresponding identifiers. Another message store provider might have one list for every folder and the messages contained within it, or implement a unique list for every message and every folder. Message store providers that use a unique mapping for every message must not allow named properties to appear in their folder contents tables because for a given property name, the property identifier will differ from message to message. MAPI recommends that providers keep it simple and operate with a single list for all of their objects including tables. 
   

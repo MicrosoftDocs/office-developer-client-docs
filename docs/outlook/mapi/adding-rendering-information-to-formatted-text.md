@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Adding Rendering Information to Formatted Text
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 To indicate the location in formatted text where an attachment is rendered, you must insert a sequence of placeholder characters in the message's **PR_RTF_COMPRESSED** ( [PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) property. The placeholder sequence is made up of the following characters:  `\objattph`.
   

@@ -12,9 +12,9 @@ description: "Last modified: July 03, 2012"
 
 # About the Sample Wrapped PST Store Provider
 
- **Last modified:** July 03, 2012 
+ 
   
- * **Applies to:** Outlook * 
+**Applies to**: Outlook 
   
 ## Overview of Message Store Providers
 

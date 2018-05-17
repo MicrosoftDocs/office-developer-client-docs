@@ -33,7 +33,7 @@ The Project 2013 SDK download includes the **Project OM Test** sample add-in tha
   
 The **HelloProject_OData** sample add-in for Project Professional 2013 was developed with Visual Studio 2012. The add-in uses a REST query of the **ProjectData** service to get reporting data for project cost and other information, and then compares the current project with the average values for all projects in Project Web App. 
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Task pane add-ins for Project](http://msdn.microsoft.com/en-us/library/office/apps/fp161143%28v=office.15%29)

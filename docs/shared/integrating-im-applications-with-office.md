@@ -1002,7 +1002,7 @@ Table 12 shows the members that must be implemented in the classes that inherit 
 |**LocaleId** property  <br/> |Gets the locale ID.  <br/> |
 |**Value** property  <br/> |Gets the string.  <br/> |
    
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [UCCollaborationLib](http://msdn.microsoft.com/library/UCCollaborationLib) namespace 

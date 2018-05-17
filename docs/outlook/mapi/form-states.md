@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Form States
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Form objects can be in one of five distinct states, depending on what methods have been called in them and whether any errors have occurred in performing those methods. The states are described in the following topics:
   

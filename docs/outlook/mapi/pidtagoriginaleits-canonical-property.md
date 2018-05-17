@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagOriginalEits Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a copy of the original encoded information types (EITs) for message text.
   

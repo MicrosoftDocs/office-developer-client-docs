@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IPersistMessage::IsDirty
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Checks the form for changes that were made since the last save.
   

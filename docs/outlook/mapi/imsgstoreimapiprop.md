@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMsgStore : IMAPIProp
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Provides access to message store information and to messages and folders.
   

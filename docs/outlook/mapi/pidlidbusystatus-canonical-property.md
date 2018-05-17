@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidBusyStatus Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Represents the user's availability for an appointment.
   

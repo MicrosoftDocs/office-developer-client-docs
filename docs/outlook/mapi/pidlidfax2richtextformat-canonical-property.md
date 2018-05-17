@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidFax2RichTextFormat Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the rich text format of the home contact's fax address. 
   

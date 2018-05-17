@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Implementing Security
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 If the messaging system requires it, the transport provider is responsible for implementing an appropriate level of security for access to the messaging system. Each incoming or outgoing message sent through a transport provider by the MAPI spooler is handled in the context of a provider logon session. The transport provider can display a logon dialog box to the user that prompts for a user's credentials before establishing such a connection. Alternatively, the transport provider can store the user's previously entered credentials in the secure property range within a profile section and use them for access without prompting.
   

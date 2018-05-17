@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIFormContainer::RemoveForm
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Removes a particular form from a form container.
   

@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # TNEF Stream Structure
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 A TNEF stream begins with a 32-bit signature that identifies the stream as a TNEF stream. Following the signature is a 16-bit unsigned integer that is used as a key to cross-reference attachments to their location in the tagged message text. The remainder of the stream is a sequence of TNEF attributes. Message attributes appear first in the TNEF stream, and attachment attributes follow. Attributes that belong to a particular attachment are grouped together, beginning with the **attAttachRenddata** attribute. 
   

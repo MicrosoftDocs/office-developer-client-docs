@@ -1,5 +1,5 @@
 ---
-title: "How to Respond to Form Events"
+title: "Respond to Form Events"
  
  
 manager: soliver
@@ -14,13 +14,13 @@ ms.assetid: 754db64b-179f-4385-8dd9-c20c9407b186
 description: "You can write code to respond to various events that can occur as a user fills out a form. To work with events in InfoPath, you add event handlers while working with a form template in design mode."
 ---
 
-# How to: Respond to Form Events
+# Respond to Form Events
 
 You can write code to respond to various events that can occur as a user fills out a form. To work with events in InfoPath, you add event handlers while working with a form template in design mode.
   
 InfoPath event handlers should always be created in design mode because InfoPath automatically adds the correct declaration for sinking the event to the **InternalStartup** method and inserts the event handler's code skeleton into a form's code file (FormCode.cs or FormCode.vb). After you have created an event handler, you should not alter its declaration in the form's code file. 
   
-For information about creating the InfoPath event handlers, see [How to: Add an Event Handler](how-to-add-an-event-handler.md).
+For information about creating the InfoPath event handlers, see [Add an Event Handler](how-to-add-an-event-handler.md).
   
 ## Overview of the Event Classes
 

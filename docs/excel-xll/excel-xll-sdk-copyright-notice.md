@@ -14,7 +14,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # Excel XLL SDK copyright notice
 
- * **Applies to:** Excel 2013 | Office 2013 | Visual Studio * 
+ **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 This document is provided "as-is". Information and views expressed in this document, including URL and other Internet Web site references, may change without notice. You bear the risk of using it. 
   

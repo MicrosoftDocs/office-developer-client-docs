@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIMessageSite::GetSession
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Returns the MAPI session in which the current message was created or opened.
   

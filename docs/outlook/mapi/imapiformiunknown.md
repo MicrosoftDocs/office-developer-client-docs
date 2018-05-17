@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIForm : IUnknown
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Enables form viewers to work with form view contexts and form notification, to perform form verbs, and to shut down forms.
   

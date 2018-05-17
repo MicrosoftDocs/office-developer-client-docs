@@ -1,15 +1,12 @@
 ---
 title: "Visio file format reference"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: 38aedff8-e7b5-0758-c573-0ffa6a244c9c
-description: "This reference contains a conceptual overview topic and reference topics, including examples, to guide you in developing solutions with the Visio file format (\*.vsdx)."
+description: "This reference contains a conceptual overview topic and reference topics, including examples, to guide you in developing solutions with the Visio file format."
 ---
 
 # Visio file format reference
@@ -24,7 +21,7 @@ This documentation contains the following information:
   
 - [Introduction to the Visio file format (.vsdx)](introduction-to-the-visio-file-formatvsdx.md)
     
-- [How to: Manipulate the Visio file format programmatically](how-to-manipulate-the-visio-file-format-programmatically.md)
+- [Manipulate the Visio file format programmatically](how-to-manipulate-the-visio-file-format-programmatically.md)
     
 - [Schema map](schema-mapvisio-xml.md): Displays the XML schema of the Visio file format.
     
@@ -32,7 +29,7 @@ This documentation contains the following information:
     
 - [Types](typesvisio-xml.md): Provides information about the XML types that can appear in the Visio file format.
     
-## Additional resources
+## See also
 
 - [Visio for developers](http://msdn.microsoft.com/en-us/office/aa905478.aspx)
     

@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # NoScribble State
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The NoScribble state indicates that changes to a message are being saved. The actual saving of values stored in the form object's user interface occurs when the form object's [IPersistMessage::Save](ipersistmessage-save.md) method is called by the client application. The following table describes allowed transitions from the NoScribble state. 
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # ScCreateConversationIndex
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Indicates where in a message thread a message belongs. 
   

@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMAPIFolder::SaveContentsSort
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Sets the default sort order for a folder's contents table.
   

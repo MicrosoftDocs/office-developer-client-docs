@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagInReplyToId Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the original message's **PR_INTERNET_MESSAGE_ID** ( [PidTagInternetMessageId](pidtaginternetmessageid-canonical-property.md)) property value.
   

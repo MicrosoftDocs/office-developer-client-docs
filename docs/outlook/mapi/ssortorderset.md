@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # SSortOrderSet
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Defines a collection of sort keys for a table that is used for standard or categorized sorting.
   

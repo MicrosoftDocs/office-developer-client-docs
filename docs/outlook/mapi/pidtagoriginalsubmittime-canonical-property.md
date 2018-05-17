@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagOriginalSubmitTime Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the original submission date and time of the message in the report.
   

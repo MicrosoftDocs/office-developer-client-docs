@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Expanding Distribution Lists
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
  **To prompt MAPI to expand a distribution list**
   

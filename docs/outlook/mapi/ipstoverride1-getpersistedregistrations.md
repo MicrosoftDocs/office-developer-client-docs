@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IPSTOVERRIDE1::GetPersistedRegistrations
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Retrieves the list of registrations for the Personal Folders (.pst) file.
   

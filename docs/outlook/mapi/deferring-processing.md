@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Deferring Processing
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Pass the MAPI_DEFERRED_ERRORS flag to method calls as much as possible. Many of the MAPI method calls have been optimized to accept this flag, causing the provider to either postpone the requested task until multiple tasks can be performed at once or you can wait no longer for the results.
   

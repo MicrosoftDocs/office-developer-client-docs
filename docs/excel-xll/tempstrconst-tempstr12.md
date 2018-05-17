@@ -19,7 +19,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # TempStrConst/TempStr12
 
- * **Applies to:** Excel 2013 | Office 2013 | Visual Studio * 
+ **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 Framework library function that creates a temporary **XLOPER/XLOPER12** that contains an **xltypeStr** string, taking a null-terminated source string as input. The function allocates a new memory buffer and copies the passed-in string into it. The input string is not altered and so is declared as **const**.
   

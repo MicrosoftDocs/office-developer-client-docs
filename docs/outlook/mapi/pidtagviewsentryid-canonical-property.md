@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagViewsEntryId Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the entry identifier of the user-defined Views folder.
   

@@ -24,15 +24,15 @@ This section discusses initialization and clean-up code, how to add event handle
   
 > Discusses how to write initialization and clean-up code in the _Startup and _Shutdown methods of your project.
     
-[How to: Add an Event Handler Using the InfoPath 2003 Object Model](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)
+[Add an Event Handler Using the InfoPath 2003 Object Model](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)
   
 > Discusses how to add event handlers and the attributes that are applied to identify event handlers.
     
-[How to: Debug InfoPath Projects Using the InfoPath 2003 Object Model](how-to-debug-infopath-projects-using-the-infopath-2003-object-model.md)
+[Debug InfoPath Projects Using the InfoPath 2003 Object Model](how-to-debug-infopath-projects-using-the-infopath-2003-object-model.md)
   
 > Discusses how to debug InfoPath managed-code projects.
     
-[How to: Deploy InfoPath Form Templates with Code](how-to-deploy-infopath-form-templates-with-code.md)
+[Deploy InfoPath Form Templates with Code](how-to-deploy-infopath-form-templates-with-code.md)
   
 > Discusses how to deploy InfoPath managed-code projects.
     

@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Implementing Thread-Safe Objects
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 With objects that are returned from interface method calls directly, it is the provider's responsibility to ensure thread-safety. With callback objects, it is the client application's responsibility.
   

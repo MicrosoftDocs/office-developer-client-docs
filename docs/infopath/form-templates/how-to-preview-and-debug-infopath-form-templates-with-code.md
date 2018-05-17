@@ -1,5 +1,5 @@
 ---
-title: "How to Preview and Debug InfoPath Form Templates with Code"
+title: "Preview and Debug InfoPath Form Templates with Code"
  
  
 manager: soliver
@@ -14,14 +14,14 @@ ms.assetid: c8387f1c-b34c-490e-8bf9-d824bf98d826
 description: "Microsoft InfoPath with Visual Studio 2012 enables debugging by running form code in preview mode. When you start debugging form code, your project is compiled and InfoPath displays your form in the InfoPath preview window. When a line of code that has a breakpoint set for it is encountered, the focus moves to the code editor. When you continue past a breakpoint, the focus moves back to the preview window. Debugging stops when you close the preview window."
 ---
 
-# How to: Preview and Debug InfoPath Form Templates with Code
+# Preview and Debug InfoPath Form Templates with Code
 
 Microsoft InfoPath with Visual Studio 2012 enables debugging by running form code in preview mode. When you start debugging form code, your project is compiled and InfoPath displays your form in the InfoPath preview window. When a line of code that has a breakpoint set for it is encountered, the focus moves to the code editor. When you continue past a breakpoint, the focus moves back to the preview window. Debugging stops when you close the preview window.
   
 You can also modify the form options of the form template to preview and debug using a specific user role, a sample data file, or by specifying the domain to which the form will be published. 
   
 > [!NOTE]
-> It is not possible to debug form templates after they are deployed at run time from Visual Studio 2012. This includes form templates that are compatible only with InfoPath, as well as those that are compatible with InfoPath and the Web browser using InfoPath Forms Services. However, it is possible to log values to a field from code at run time to help with debugging a form template's business logic. For information about how to do that, see [How to: Log Values to a Field for Debugging](how-to-log-values-to-a-field-for-debugging.md). 
+> It is not possible to debug form templates after they are deployed at run time from Visual Studio 2012. This includes form templates that are compatible only with InfoPath, as well as those that are compatible with InfoPath and the Web browser using InfoPath Forms Services. However, it is possible to log values to a field from code at run time to help with debugging a form template's business logic. For information about how to do that, see [Log Values to a Field for Debugging](how-to-log-values-to-a-field-for-debugging.md). 
   
 ## Debugging in Preview Mode
 
@@ -46,7 +46,7 @@ You can also modify the form options of the form template to preview and debug u
 6. When you are finished debugging, close the preview window; or on the **Debug** menu, click **Stop Debugging**.
     
 > [!NOTE]
-> To debug an InfoPath managed code form template when using an object model member that requires full trust, you must configure your form template as described in [How to: Preview and Debug Form Templates that Require Full Trust](how-to-preview-and-debug-form-templates-that-require-full-trust.md). 
+> To debug an InfoPath managed code form template when using an object model member that requires full trust, you must configure your form template as described in [Preview and Debug Form Templates that Require Full Trust](how-to-preview-and-debug-form-templates-that-require-full-trust.md). 
   
 ## Using a Sample Data File
 

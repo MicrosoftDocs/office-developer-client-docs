@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagMessageSubmissionId Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a message transfer system (MTS) identifier for the message transfer agent (MTA).
   

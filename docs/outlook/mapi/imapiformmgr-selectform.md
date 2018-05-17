@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIFormMgr::SelectForm
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Presents a dialog box that enables the user to select a form, and returns a form information object that describes that form.
   

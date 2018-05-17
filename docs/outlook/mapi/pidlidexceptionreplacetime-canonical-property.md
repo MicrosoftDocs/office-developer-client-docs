@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidExceptionReplaceTime Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the date and time within the recurrence pattern that the exception will replace.
   

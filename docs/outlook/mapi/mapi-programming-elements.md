@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # MAPI Programming Elements
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 This section contains conceptual overviews of the programming elements in the [MAPI Reference](mapi-reference.md). 
   

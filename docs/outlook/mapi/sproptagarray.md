@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # SPropTagArray
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains an array of property tags. 
   

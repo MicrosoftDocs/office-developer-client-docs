@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidDistributionListName Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the name of the personal distribution list.
   

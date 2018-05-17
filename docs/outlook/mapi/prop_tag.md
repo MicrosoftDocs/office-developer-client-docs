@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PROP_TAG
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Returns a property tag created by combining a specified property type and identifier. 
   

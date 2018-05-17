@@ -355,7 +355,7 @@ The following classes and members of the InfoPath managed code object model prov
 The following classes and members of the InfoPath managed code object model provided by the [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) namespace are supported only in InfoPath. 
   
 > [!NOTE]
-> These object model members can be used in the code of a browser-enabled form template, if you write conditional logic that determines whether the form is opened in the browser or InfoPath . For more information, see [How to: Write Conditional Logic That Determines the Run-time Environment](how-to-write-conditional-logic-that-determines-the-run-time-environment.md). 
+> These object model members can be used in the code of a browser-enabled form template, if you write conditional logic that determines whether the form is opened in the browser or InfoPath . For more information, see [Write Conditional Logic That Determines the Run-time Environment](how-to-write-conditional-logic-that-determines-the-run-time-environment.md). 
   
 |**Parent Class**|**Members**|
 |:-----|:-----|

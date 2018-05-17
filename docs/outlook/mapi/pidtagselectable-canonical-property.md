@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagSelectable Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains TRUE if the entry in the one-off table can be selected. 
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IAttachmentSecurity : IUnknown
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Allows Microsoft Outlook 2010 and Microsoft Outlook 2013 solutions to find out if an attachment is considered unsafe and blocked for viewing and indexing.
   
@@ -44,5 +44,5 @@ Outlook 2010 and Outlook 2013 solutions can query this interface to see if an at
 
 [MAPI Constants](mapi-constants.md)
   
-[How to: Verify an Attachment is Blocked](how-to-verify-an-attachment-is-blocked.md)
+[Verify an Attachment is Blocked](how-to-verify-an-attachment-is-blocked.md)
 

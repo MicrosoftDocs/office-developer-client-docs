@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidTaskStartDate Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The date when the user expects to begin the task.
   

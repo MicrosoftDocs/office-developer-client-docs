@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # FBadRglpNameID
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Validates an array of structures that describe named properties and verifies their allocation. 
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagJunkPermanentlyDelete Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Signifies, if set to 1, that messages identified as spam may be permanently deleted.
   

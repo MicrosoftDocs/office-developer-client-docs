@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMAPIFolder::SetMessageStatus
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Sets the status associated with a message (for example, whether that message is marked for deletion).
   

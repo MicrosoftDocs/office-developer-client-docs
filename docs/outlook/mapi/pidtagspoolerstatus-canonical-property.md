@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagSpoolerStatus Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the status of the message based on information that is available to the MAPI spooler.
   

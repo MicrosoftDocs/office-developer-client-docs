@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IFolderSupport::GetSupportMask
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Gets information about a folder's support for sharing.
   

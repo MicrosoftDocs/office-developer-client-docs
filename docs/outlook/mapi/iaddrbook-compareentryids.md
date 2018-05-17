@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IAddrBook::CompareEntryIDs
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Compares two entry identifiers that belong to a particular address book provider to determine whether they refer to the same address book object. 
   

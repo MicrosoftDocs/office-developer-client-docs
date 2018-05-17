@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IPropData::HrAddObjProps
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Adds one or more properties of type PT_OBJECT to the object.
   

@@ -16,7 +16,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # Calling User-Defined Functions from DLLs
 
- * **Applies to:** Excel 2013 | Office 2013 | Visual Studio * 
+**Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 Calling user-defined functions (UDFs) from a worksheet is as simple as calling built-in functions: You enter the function via a cell formula. However, from the C API, there are no pre-defined function codes to use with the call-backs. To enable you to call UDFs, the C API exports an XLL-only function, the [xlUDF ](xludf.md) function. The function's first argument is the function name as a string, and subsequent arguments are those that the UDF would normally expect. 
   

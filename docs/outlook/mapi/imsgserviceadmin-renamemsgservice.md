@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMsgServiceAdmin::RenameMsgService
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Deprecated. Assigns a new name to a message service. 
   

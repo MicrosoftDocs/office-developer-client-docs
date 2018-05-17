@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIOfflineNotify : IUnknown
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Supports Microsoft Outlook 2010 and Microsoft Outlook 2013 in sending notification callbacks to a client.
   

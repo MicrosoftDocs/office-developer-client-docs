@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # HrValidateIPMSubtree
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Adds standard interpersonal message (IPM) folders to a message store. 
   

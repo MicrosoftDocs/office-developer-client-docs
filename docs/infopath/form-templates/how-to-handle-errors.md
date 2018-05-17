@@ -1,5 +1,5 @@
 ---
-title: "How to Handle Errors"
+title: "Handle Errors"
  
  
 manager: soliver
@@ -14,7 +14,7 @@ ms.assetid: 132cb698-d9a5-4767-b3d1-5dd1343a1ff4
 description: "When creating custom applications, developers must often perform error handling that involves writing programming code to check for errors raised by the application or to create and raise custom errors. The InfoPath object model provided by the Microsoft.Office.InfoPath namespace supports error handling through the use of the FormError class in association with the FormErrorCollection class."
 ---
 
-# How to: Handle Errors
+# Handle Errors
 
 When creating custom applications, developers must often perform error handling that involves writing programming code to check for errors raised by the application or to create and raise custom errors. The InfoPath object model provided by the [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) namespace supports error handling through the use of the [FormError](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.aspx) class in association with the [FormErrorCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.aspx) class. 
   

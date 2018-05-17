@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # Synchronizing Text and Formatting
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The main challenge in sending Rich Text Format (RTF) messages is keeping the text synchronized with the formatting. To ensure that when messages arrive at their destination they are as their originators intended and that the text and formatting are synchronized, MAPI provides the [RTFSync](rtfsync.md) function. **RTFSync** is typically called by RTF-aware clients before displaying incoming messages and by the MAPI spooler when it downloads messages to a transport provider. Callers specify the area of possible discrepancy by passing one or two flags to **RTFSync**:
   

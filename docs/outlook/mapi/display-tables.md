@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # Display Tables
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 A display table describes how to show a specific type of dialog box — one having one or more tabbed property pages dedicated to displaying and possibly editing one or more properties. Associated with every display table is an [IMAPIProp : IUnknown](imapipropiunknown.md) interface implementation. The **IMAPIProp** implementation maintains the property data that is presented in the dialog box. 
   

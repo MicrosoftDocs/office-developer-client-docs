@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidLogDuration Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Represents the duration, in minutes, of a journal message.
   

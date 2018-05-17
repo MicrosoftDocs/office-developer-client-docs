@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Form Configuration File [Verbs] Section
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The **[Verbs]** section lists the complete set of verbs supported by the form. The format of the **[Verbs]** section is: 
   

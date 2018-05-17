@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMsgServiceAdmin::CopyMsgService
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Copies a message service into a profile. 
   

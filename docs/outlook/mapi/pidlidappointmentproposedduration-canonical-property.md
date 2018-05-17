@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidAppointmentProposedDuration Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Indicates the proposed value for the **dispidApptDuration** ( [PidLidAppointmentDuration](pidlidappointmentduration-canonical-property.md)) property for a counter proposal.
   

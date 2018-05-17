@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidTaskRecurrence Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a RecurrencePattern structure that provides information about recurring tasks.
   
@@ -34,7 +34,7 @@ Contains a RecurrencePattern structure that provides information about recurring
    
 ## Remarks
 
-For information about how to create and specify a RecurrencePattern structure, see [How to: Create a Simple Recurrent Task Item](how-to-create-a-simple-recurrent-task-item.md).
+For information about how to create and specify a RecurrencePattern structure, see [Create a Simple Recurrent Task Item](how-to-create-a-simple-recurrent-task-item.md).
   
 ## Related Resources
 

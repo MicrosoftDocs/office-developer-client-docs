@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIAdviseSink : IUnknown
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Implements an advise sink object for handling notification. A pointer to an advise sink object is passed in a call to a service provider's **Advise** method, the mechanism used to register for notification. 
   

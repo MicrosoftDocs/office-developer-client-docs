@@ -16,7 +16,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # xlRunningOnCluster
 
- * **Applies to:** Excel 2013 | Office 2013 | Visual Studio * 
+ **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 Returns a value that indicates whether the user-defined function is running on a cluster. 
   

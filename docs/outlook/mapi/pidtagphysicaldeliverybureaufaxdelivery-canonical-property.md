@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagPhysicalDeliveryBureauFaxDelivery Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains TRUE if the messaging system should use a fax bureau for physical delivery of this message.
   

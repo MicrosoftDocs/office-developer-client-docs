@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # MAPIINIT_0
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Conveys options to the [MAPIInitialize](mapiinitialize.md) function. 
   

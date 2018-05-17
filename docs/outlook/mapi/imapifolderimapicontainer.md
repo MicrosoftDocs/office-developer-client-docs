@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIFolder : IMAPIContainer
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Performs operations on the messages and subfolders in a folder.
   

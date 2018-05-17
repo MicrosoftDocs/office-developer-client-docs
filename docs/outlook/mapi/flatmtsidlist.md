@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # FLATMTSIDLIST
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains an array of [MTSID](mtsid.md) structures, each of which contains an X.400 message transport system (MTS) entry identifier. 
   

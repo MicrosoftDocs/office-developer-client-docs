@@ -18,7 +18,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # fExit
 
- * **Applies to:** Excel 2013 | Office 2013 | Visual Studio * 
+ **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 Example user-defined command that unloads GENERIC.xll. When GENERIC.xll is loaded, it creates a user-defined menu, Generic, through which this command is accessed. 
   

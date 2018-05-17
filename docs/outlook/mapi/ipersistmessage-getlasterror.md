@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IPersistMessage::GetLastError
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Returns a [MAPIERROR](mapierror.md) structure that contains information about the previous error in the form object. 
   

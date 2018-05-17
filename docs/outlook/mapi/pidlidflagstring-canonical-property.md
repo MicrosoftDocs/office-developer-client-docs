@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidFlagString Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains an index that identifies one of a set of pre-defined text strings associated with the flag.
   

@@ -57,291 +57,291 @@
           - name: Concepts (Access custom web app)
             href: access/concepts-access-custom-web-app.md
             items:
-            - name: Reserved Words (Access custom web app)
+            - name: Reserved Words
               href: access/reserved-words-access-custom-web-app.md
-            - name: 'How to: Create and customize a web app in Access'
+            - name: Create and customize a web app in Access
               href: access/how-to-create-and-customize-a-web-app-in-access.md
-            - name: Custom numeric formats for the Format function (Access custom web app)
+            - name: Custom numeric formats for the Format function
               href: access/custom-numeric-formats-for-the-format-function-access-custom-web-app.md
-            - name: Custom date and time formats for the Format function (Access custom web app)
+            - name: Custom date and time formats for the Format function
               href: access/custom-date-and-time-formats-for-the-format-function-access-custom-web-app.md
-            - name: 'How to: Filter a view by using a macro in an Access app'
+            - name: Filter a view by using a macro in an Access app
               href: access/how-to-filter-a-view-by-using-a-macro-in-an-access-app.md
           - name: Access SQL and expressions reference (Access custom web app)
             href: access/access-sql-and-expressions-reference-access-custom-web-app.md
             items:
-            - name: Conversion functions (Access custom web app)
+            - name: Conversion functions
               href: access/conversion-functions-access-custom-web-app.md
               items:
-              - name: Cast Function (Access custom web app)
+              - name: Cast Function
                 href: access/cast-function-access-custom-web-app.md
-              - name: Coalesce Function (Access custom web app)
+              - name: Coalesce Function
                 href: access/coalesce-function-access-custom-web-app.md
-              - name: DateWithTimeFromParts Function (Access custom web app)
+              - name: DateWithTimeFromParts Function
                 href: access/datewithtimefromparts-function-access-custom-web-app.md
-              - name: Format Function (Access custom web app)
+              - name: Format Function
                 href: access/format-function-access-custom-web-app.md
-              - name: Parse Function (Access custom web app)
+              - name: Parse Function
                 href: access/parse-function-access-custom-web-app.md
-              - name: TimeFromParts Function  (Access custom web app)
+              - name: TimeFromParts Function 
                 href: access/timefromparts-functionaccess-custom-web-app.md
-              - name: Try_Parse Function (Access custom web app)
+              - name: Try_Parse Function
                 href: access/try_parse-function-access-custom-web-app.md
-            - name: Database functions (Access custom web app)
+            - name: Database functions
               href: access/database-functions-access-custom-web-app.md
               items:
-              - name: UserDisplayName Function (Access custom web app)
+              - name: UserDisplayName Function
                 href: access/userdisplayname-function-access-custom-web-app.md
-              - name: UserEmailAddress Function (Access custom web app)
+              - name: UserEmailAddress Function
                 href: access/useremailaddress-function-access-custom-web-app.md
-              - name: Update Function (Access custom web app)
+              - name: Update Function
                 href: access/update-function-access-custom-web-app.md
-            - name: Date/time functions  (Access custom web app)
+            - name: Date/time functions 
               href: access/date-time-functionsaccess-custom-web-app.md
               items:
-              - name: DateAdd Function (Access custom web app)
+              - name: DateAdd Function
                 href: access/dateadd-function-access-custom-web-app.md
-              - name: DateDiff Function (Access custom web app)
+              - name: DateDiff Function
                 href: access/datediff-function-access-custom-web-app.md
-              - name: DateFromParts Function (Access custom web app)
+              - name: DateFromParts Function
                 href: access/datefromparts-function-access-custom-web-app.md
-              - name: DatePart Function (Access custom web app)
+              - name: DatePart Function
                 href: access/datepart-function-access-custom-web-app.md
-              - name: Day Function (Access custom web app)
+              - name: Day Function
                 href: access/day-function-access-custom-web-app.md
-              - name: EOMonth Function (Access custom web app)
+              - name: EOMonth Function
                 href: access/eomonth-function-access-custom-web-app.md
-              - name: Month Function (Access custom web app)
+              - name: Month Function
                 href: access/month-function-access-custom-web-app.md
-              - name: Now Function (Access custom web app)
+              - name: Now Function
                 href: access/now-function-access-custom-web-app.md
-              - name: Today Function (Access custom web app)
+              - name: Today Function
                 href: access/today-function-access-custom-web-app.md
-              - name: Year Function (Access custom web app)
+              - name: Year Function
                 href: access/year-function-access-custom-web-app.md
-            - name: Inspection functions (Access custom web app)
+            - name: Inspection functions
               href: access/inspection-functions-access-custom-web-app.md
               items:
-              - name: Try_Convert Function (Access custom web app)
+              - name: Try_Convert Function
                 href: access/try_convert-function-access-custom-web-app.md
-            - name: Math functions (Access custom web app)
+            - name: Math functions
               href: access/math-functions-access-custom-web-app.md
               items:
-              - name: Abs Function (Access custom web app)
+              - name: Abs Function
                 href: access/abs-function-access-custom-web-app.md
-              - name: Avg Function (Access custom web app)
+              - name: Avg Function
                 href: access/avg-function-access-custom-web-app.md
-              - name: Ceiling Function (Access custom web app)
+              - name: Ceiling Function
                 href: access/ceiling-function-access-custom-web-app.md
-              - name: Count Function (Access custom web app)
+              - name: Count Function
                 href: access/count-function-access-custom-web-app.md
-              - name: Exp Function (Access custom web app)
+              - name: Exp Function
                 href: access/exp-function-access-custom-web-app.md
-              - name: Floor Function (Access custom web app)
+              - name: Floor Function
                 href: access/floor-function-access-custom-web-app.md
-              - name: Log10 Function (Access custom web app)
+              - name: Log10 Function
                 href: access/log10-function-access-custom-web-app.md
-              - name: Log Function (Access custom web app)
+              - name: Log Function
                 href: access/log-function-access-custom-web-app.md
-              - name: Max Function (Access custom web app)
+              - name: Max Function
                 href: access/max-function-access-custom-web-app.md
-              - name: Min Function (Access custom web app)
+              - name: Min Function
                 href: access/min-function-access-custom-web-app.md
-              - name: Pi Function (Access custom web app)
+              - name: Pi Function
                 href: access/pi-function-access-custom-web-app.md
-              - name: Power Function (Access custom web app)
+              - name: Power Function
                 href: access/power-function-access-custom-web-app.md
-              - name: Rand Function (Access custom web app)
+              - name: Rand Function
                 href: access/rand-function-access-custom-web-app.md
-              - name: Round Function (Access custom web app)
+              - name: Round Function
                 href: access/round-function-access-custom-web-app.md
-              - name: Sign Function (Access custom web app)
+              - name: Sign Function
                 href: access/sign-function-access-custom-web-app.md
-              - name: StDev Function (Access custom web app)
+              - name: StDev Function
                 href: access/stdev-function-access-custom-web-app.md
-              - name: Sqrt Function (Access custom web app)
+              - name: Sqrt Function
                 href: access/sqrt-function-access-custom-web-app.md
-              - name: Sum Function (Access custom web app)
+              - name: Sum Function
                 href: access/sum-function-access-custom-web-app.md
-              - name: Var Function (Access custom web app)
+              - name: Var Function
                 href: access/var-function-access-custom-web-app.md
-            - name: Program flow functions (Access custom web app)
+            - name: Program flow functions
               href: access/program-flow-functions-access-custom-web-app.md
               items:
-              - name: Choose Function (Access custom web app)
+              - name: Choose Function
                 href: access/choose-function-access-custom-web-app.md
-              - name: IIf Function (Access custom web app)
+              - name: IIf Function
                 href: access/iif-function-access-custom-web-app.md
-            - name: Text functions (Access custom web app)
+            - name: Text functions
               href: access/text-functions-access-custom-web-app.md
               items:
-              - name: CharIndex Function (Access custom web app)
+              - name: CharIndex Function
                 href: access/charindex-function-access-custom-web-app.md
-              - name: Concat Function (Access custom web app)
+              - name: Concat Function
                 href: access/concat-function-access-custom-web-app.md
-              - name: Left Function (Access custom web app)
+              - name: Left Function
                 href: access/left-function-access-custom-web-app.md
-              - name: Len Function (Access custom web app)
+              - name: Len Function
                 href: access/len-function-access-custom-web-app.md
-              - name: Lower Function (Access custom web app)
+              - name: Lower Function
                 href: access/lower-function-access-custom-web-app.md
-              - name: LTrim Function (Access custom web app)
+              - name: LTrim Function
                 href: access/ltrim-function-access-custom-web-app.md
-              - name: Replace Function (Access custom web app)
+              - name: Replace Function
                 href: access/replace-function-access-custom-web-app.md
-              - name: Replicate Function (Access custom web app)
+              - name: Replicate Function
                 href: access/replicate-function-access-custom-web-app.md
-              - name: Right Function (Access custom web app)
+              - name: Right Function
                 href: access/right-function-access-custom-web-app.md
-              - name: RTrim Function (Access custom web app)
+              - name: RTrim Function
                 href: access/rtrim-function-access-custom-web-app.md
-              - name: Stuff Function (Access custom web app)
+              - name: Stuff Function
                 href: access/stuff-function-access-custom-web-app.md
-              - name: SubString Function (Access custom web app)
+              - name: SubString Function
                 href: access/substring-function-access-custom-web-app.md
-              - name: Upper Function (Access custom web app)
+              - name: Upper Function
                 href: access/upper-function-access-custom-web-app.md
             - name: Operators (Access custom web app)
               href: access/operators-access-custom-web-app.md
               items:
-              - name: Arithmetic Operators (Access custom web app)
+              - name: Arithmetic Operators
                 href: access/arithmetic-operators-access-custom-web-app.md
                 items:
-                - name: '- (Subtract) (Access custom web app)'
+                - name: Subtract
                   href: access/subtractaccess-custom-web-app.md
-                - name: '* (Multiply) (Access custom web app)'
+                - name: Multiply
                   href: access/multiplyaccess-custom-web-app.md
-                - name: / (Divide) (Access custom web app)
+                - name: Divide
                   href: access/divideaccess-custom-web-app.md
-                - name: + (Add) (Access custom web app)
+                - name: Add
                   href: access/plusaddaccess-custom-web-app.md
-                - name: Mod (Access custom web app)
+                - name: Mod
                   href: access/mod-access-custom-web-app.md
-              - name: Comparison Operators (Access custom web app)
+              - name: Comparison Operators
                 href: access/comparison-operators-access-custom-web-app.md
                 items:
-                - name: '< (Less Than) (Access custom web app)'
+                - name: Less Than
                   href: access/less-thanaccess-custom-web-app.md
-                - name: '<= (Less Than or Equal To) (Access custom web app)'
+                - name: Less Than or Equal To
                   href: access/equalsless-than-or-equal-toaccess-custom-web-app.md
-                - name: '<> (Not Equal To) (Access custom web app)'
+                - name: Not Equal To
                   href: access/not-equal-toaccess-custom-web-app.md
-                - name: = (Equals) (Access custom web app)
+                - name: Equals
                   href: access/equalsequalsaccess-custom-web-app.md
-                - name: '> (Greater Than) (Access custom web app)'
+                - name: Greater Than
                   href: access/greater-thanaccess-custom-web-app.md
-                - name: '>= (Greater Than or Equal To) (Access custom web app)'
+                - name: Greater Than or Equal To
                   href: access/equalsgreater-than-or-equal-toaccess-custom-web-app.md
-                - name: BETWEEN (Access custom web app)
+                - name: BETWEEN
                   href: access/between-access-custom-web-app.md
-                - name: IN (Access custom web app)
+                - name: IN
                   href: access/in-access-custom-web-app.md
-                - name: LIKE (Access custom web app)
+                - name: LIKE
                   href: access/like-access-custom-web-app.md
-              - name: Logical Operators (Access custom web app)
+              - name: Logical Operators
                 href: access/logical-operators-access-custom-web-app.md
                 items:
-                - name: AND (Access custom web app)
+                - name: AND
                   href: access/and-access-custom-web-app.md
-                - name: NOT (Access custom web app)
+                - name: NOT
                   href: access/not-access-custom-web-app.md
-                - name: OR (Access custom web app)
+                - name: OR
                   href: access/or-access-custom-web-app.md
-                - name: IS [NOT] NULL (Access custom web app)
+                - name: IS [NOT] NULL
                   href: access/is-not-null-access-custom-web-app.md
-              - name: String Operators (Access custom web app)
+              - name: String Operators
                 href: access/string-operators-access-custom-web-app.md
                 items:
-                - name: + (String Concatenation Operator) (Access custom web app)
+                - name: String Concatenation Operator
                   href: access/plusstring-concatenation-operatoraccess-custom-web-app.md
           - name: Macro function reference (Access custom web app)
             href: access/macro-function-reference-access-custom-web-app.md
             items:
-            - name: Data blocks  (Access custom web app)
+            - name: Data blocks 
               href: access/data-blocksaccess-custom-web-app.md
               items:
-              - name: CreateRecord Data Block (Access custom web app)
+              - name: CreateRecord Data Block
                 href: access/createrecord-data-block-access-custom-web-app.md
-              - name: EditRecord Data Block (Access custom web app)
+              - name: EditRecord Data Block
                 href: access/editrecord-data-block-access-custom-web-app.md
-              - name: ForEachRecord Data Block (Access custom web app)
+              - name: ForEachRecord Data Block
                 href: access/foreachrecord-data-block-access-custom-web-app.md
-              - name: LookupRecord Data Block (Access custom web app)
+              - name: LookupRecord Data Block
                 href: access/lookuprecord-data-block-access-custom-web-app.md
-            - name: Data actions (Access custom web app)
+            - name: Data actions
               href: access/data-actions-access-custom-web-app.md
               items:
-              - name: StopMacro Macro Action (Access custom web app)
+              - name: StopMacro Macro Action
                 href: access/stopmacro-macro-action-access-custom-web-app.md
-              - name: CancelRecordChange Macro Action (Access custom web app)
+              - name: CancelRecordChange Macro Action
                 href: access/cancelrecordchange-macro-action-access-custom-web-app.md
-              - name: DeleteRecord Data Macro Action (Access custom web app)
+              - name: DeleteRecord Data Macro Action
                 href: access/deleterecord-data-macro-action-access-custom-web-app.md
-              - name: RaiseError Macro Action (Access custom web app)
+              - name: RaiseError Macro Action
                 href: access/raiseerror-macro-action-access-custom-web-app.md
-              - name: SetField Macro Action (Access custom web app)
+              - name: SetField Macro Action
                 href: access/setfield-macro-action-access-custom-web-app.md
-              - name: SetLocalVar Macro Action (Access custom web app)
+              - name: SetLocalVar Macro Action
                 href: access/setlocalvar-macro-action-access-custom-web-app.md
-              - name: ExitForEachRecord Macro Action (Access custom web app)
+              - name: ExitForEachRecord Macro Action
                 href: access/exitforeachrecord-macro-action-access-custom-web-app.md
-              - name: SetReturnVar Macro Action (Access custom web app)
+              - name: SetReturnVar Macro Action
                 href: access/setreturnvar-macro-action-access-custom-web-app.md
-            - name: Data entry operations (Access custom web app)
+            - name: Data entry operations
               href: access/data-entry-operations-access-custom-web-app.md
               items:
-              - name: DeleteRecord Macro Action (Access custom web app)
+              - name: DeleteRecord Macro Action
                 href: access/deleterecord-macro-action-access-custom-web-app.md
-              - name: EditRecord Macro Action (Access custom web app)
+              - name: EditRecord Macro Action
                 href: access/editrecord-macro-action-access-custom-web-app.md
-              - name: NewRecord Macro Action (Access custom web app)
+              - name: NewRecord Macro Action
                 href: access/newrecord-macro-action-access-custom-web-app.md
-              - name: SaveRecord Macro Action (Access custom web app)
+              - name: SaveRecord Macro Action
                 href: access/saverecord-macro-action-access-custom-web-app.md
-              - name: UndoRecord Macro Action (Access custom web app)
+              - name: UndoRecord Macro Action
                 href: access/undorecord-macro-action-access-custom-web-app.md
-            - name: Database objects (Access custom web app)
+            - name: Database objects
               href: access/database-objects-access-custom-web-app.md
               items:
-              - name: GoToControl Macro Action (Access custom web app)
+              - name: GoToControl Macro Action
                 href: access/gotocontrol-macro-action-access-custom-web-app.md
-              - name: GoToRecord Macro Action (Access custom web app)
+              - name: GoToRecord Macro Action
                 href: access/gotorecord-macro-action-access-custom-web-app.md
-              - name: SetProperty Macro Action (Access custom web app)
+              - name: SetProperty Macro Action
                 href: access/setproperty-macro-action-access-custom-web-app.md
-            - name: Filter/query/search (Access custom web app)
+            - name: Filter/query/search
               href: access/filter-query-search-access-custom-web-app.md
               items:
-              - name: RequeryRecords Macro Action (Access custom web app)
+              - name: RequeryRecords Macro Action
                 href: access/requeryrecords-macro-action-access-custom-web-app.md
-            - name: Macro commands (Access custom web app)
+            - name: Macro commands
               href: access/macro-commands-access-custom-web-app.md
               items:
-              - name: RunDataMacro Macro Action (Access custom web app)
+              - name: RunDataMacro Macro Action
                 href: access/rundatamacro-macro-action-access-custom-web-app.md
-              - name: RunMacro Macro Action (Access custom web app)
+              - name: RunMacro Macro Action
                 href: access/runmacro-macro-action-access-custom-web-app.md
-              - name: SetVariable Macro Action (Access custom web app)
+              - name: SetVariable Macro Action
                 href: access/setvariable-macro-action-access-custom-web-app.md
-            - name: Program flow (Access custom web app)
+            - name: Program flow
               href: access/program-flow-access-custom-web-app.md
               items:
-              - name: Comment Macro Block (Access custom web app)
+              - name: Comment Macro Block
                 href: access/comment-macro-block-access-custom-web-app.md
-              - name: If...Then...Else Macro Block (Access custom web app)
+              - name: If...Then...Else Macro Block
                 href: access/ifthenelse-macro-block-access-custom-web-app.md
-              - name: Group Macro Block (Access custom web app)
+              - name: Group Macro Block
                 href: access/group-macro-block-access-custom-web-app.md
-            - name: User interface commands (Access custom web app)
+            - name: User interface commands
               href: access/user-interface-commands-access-custom-web-app.md
               items:
-              - name: ChangeView Macro Action (Access custom web app)
+              - name: ChangeView Macro Action
                 href: access/changeview-macro-action-access-custom-web-app.md
-              - name: ClosePopup Macro Action (Access custom web app)
+              - name: ClosePopup Macro Action
                 href: access/closepopup-macro-action-access-custom-web-app.md
-              - name: MessageBox Macro Action (Access custom web app)
+              - name: MessageBox Macro Action
                 href: access/messagebox-macro-action-access-custom-web-app.md
-              - name: OpenPopup Macro Action (Access custom web app)
+              - name: OpenPopup Macro Action
                 href: access/openpopup-macro-action-access-custom-web-app.md
         - name: Access desktop database reference
           href: https://msdn.microsoft.com/en-us/library/dn142571.aspx       
@@ -385,13 +385,13 @@
               items:
               - name: Developing DLLs
                 href: excel-xll/developing-dlls.md
-              - name: 'How to: Access DLLs in Excel'
+              - name: Access DLLs in Excel
                 href: excel-xll/how-to-access-dlls-in-excel.md
               - name: Calling User-Defined Functions from DLLs
                 href: excel-xll/calling-user-defined-functions-from-dlls.md
             - name: Accessing XLL Code in Excel
               href: excel-xll/accessing-xll-code-in-excel.md
-            - name: 'How to: Call XLL Functions from the Function Wizard or Replace Dialog Boxes'
+            - name: Call XLL Functions from the Function Wizard or Replace Dialog Boxes
               href: excel-xll/how-to-call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes.md
             - name: Calling into Excel from the DLL or XLL
               href: excel-xll/calling-into-excel-from-the-dll-or-xll.md
@@ -418,7 +418,7 @@
               href: excel-xll/permitting-user-breaks-in-lengthy-operations.md
             - name: Displaying Dialog Boxes from Within a DLL or XLL
               href: excel-xll/displaying-dialog-boxes-from-within-a-dll-or-xll.md
-            - name: 'How to: Access Excel Instance and Main Window Handles'
+            - name: Access Excel Instance and Main Window Handles
               href: excel-xll/how-to-access-excel-instance-and-main-window-handles.md
             - name: Backward Compatibility
               href: excel-xll/backward-compatibility.md
@@ -616,29 +616,29 @@
                       href: infopath/form-templates/what-s-new-for-infopath-developers.md
                     - name: Understanding InfoPath Object Models and Development Environment
                       href: infopath/form-templates/understanding-infopath-object-models-and-development-environment.md
-                    - name: 'How to: Develop with Visual Studio'
+                    - name: Develop with Visual Studio
                       href: infopath/form-templates/how-to-develop-with-visual-studio.md
-                    - name: 'How to: Install Local .NET Framework Help for Visual Studio Tools for Applications'
+                    - name: Install Local .NET Framework Help for Visual Studio Tools for Applications
                       href: infopath/form-templates/how-to-install-local-net-framework-help-for-visual-studio-tools-for-applications.md
-                    - name: 'How to: Add an Event Handler'
+                    - name: Add an Event Handler
                       href: infopath/form-templates/how-to-add-an-event-handler.md
-                    - name: 'How to: Preview and Debug InfoPath Form Templates with Code'
+                    - name: Preview and Debug InfoPath Form Templates with Code
                       href: infopath/form-templates/how-to-preview-and-debug-infopath-form-templates-with-code.md
-                    - name: 'How to: Preview and Debug Form Templates that Require Full Trust'
+                    - name: Preview and Debug Form Templates that Require Full Trust
                       href: infopath/form-templates/how-to-preview-and-debug-form-templates-that-require-full-trust.md
                     - name: 'Walkthrough: Creating a Basic Form Template with Code'
                       href: infopath/form-templates/walkthrough-creating-a-basic-form-template-with-code.md
-                    - name: 'How to: Log Values to a Field for Debugging'
+                    - name: Log Values to a Field for Debugging
                       href: infopath/form-templates/how-to-log-values-to-a-field-for-debugging.md
-                    - name: 'How to: Open or Convert a Form Template Created with the InfoPath Toolkit'
+                    - name: Open or Convert a Form Template Created with the InfoPath Toolkit
                       href: infopath/form-templates/how-to-open-or-convert-a-form-template-created-with-the-infopath-toolkit.md
-                    - name: 'How to: Deploy InfoPath Form Templates with Code'
+                    - name: Deploy InfoPath Form Templates with Code
                       href: infopath/form-templates/how-to-deploy-infopath-form-templates-with-code.md
                     - name: How Do I...In InfoPath Form Templates with Code
                       href: infopath/form-templates/how-do-iin-infopath-form-templates-with-code.md
-                    - name: 'How to: Work with the XPathNavigator and XPathNodeIterator Classes'
+                    - name: Work with the XPathNavigator and XPathNodeIterator Classes
                       href: infopath/form-templates/how-to-work-with-the-xpathnavigator-and-xpathnodeiterator-classes.md
-                    - name: 'How to: Use SharePoint Object Model Members'
+                    - name: Use SharePoint Object Model Members
                       href: infopath/form-templates/how-to-use-sharepoint-object-model-members.md
                     - name: Publishing Forms with Code
                       href: infopath/form-templates/publishing-forms-with-code.md
@@ -649,29 +649,29 @@
                   - name: Understanding the InfoPath Object Model and Common Developer Tasks
                     href: infopath/form-templates/understanding-the-infopath-object-model-and-common-developer-tasks.md
                     items:
-                    - name: 'How to: Access Application Data'
+                    - name: Access Application Data
                       href: infopath/form-templates/how-to-access-application-data.md
-                    - name: 'How to: Respond to Form Events'
+                    - name: Respond to Form Events
                       href: infopath/form-templates/how-to-respond-to-form-events.md
-                    - name: 'How to: Access Form Data'
+                    - name: Access Form Data
                       href: infopath/form-templates/how-to-access-form-data.md
-                    - name: 'How to: Access External Data Sources'
+                    - name: Access External Data Sources
                       href: infopath/form-templates/how-to-access-external-data-sources.md
-                    - name: 'How to: Write Conditional Logic That Determines the Run-time Environment'
+                    - name: Write Conditional Logic That Determines the Run-time Environment
                       href: infopath/form-templates/how-to-write-conditional-logic-that-determines-the-run-time-environment.md
-                    - name: 'How to: Work with Form Windows'
+                    - name: Work with Form Windows
                       href: infopath/form-templates/how-to-work-with-form-windows.md
-                    - name: 'How to: Work with Views'
+                    - name: Work with Views
                       href: infopath/form-templates/how-to-work-with-views.md
-                    - name: 'How to: Work with Offline Solutions'
+                    - name: Work with Offline Solutions
                       href: infopath/form-templates/how-to-work-with-offline-solutions.md
-                    - name: 'How to: Work with Digital Signatures'
+                    - name: Work with Digital Signatures
                       href: infopath/form-templates/how-to-work-with-digital-signatures.md
-                    - name: 'How to: Handle Errors'
+                    - name: Handle Errors
                       href: infopath/form-templates/how-to-handle-errors.md
-                    - name: 'How to: Work with Information Rights Management Settings'
+                    - name: Work with Information Rights Management Settings
                       href: infopath/form-templates/how-to-work-with-information-rights-management-settings.md
-                    - name: 'How to: Add and Reference Custom Assemblies'
+                    - name: Add and Reference Custom Assemblies
                       href: infopath/form-templates/how-to-add-and-reference-custom-assemblies.md
                   - name: Security in InfoPath Form Templates with Code
                     href: infopath/form-templates/security-in-infopath-form-templates-with-code.md
@@ -682,7 +682,7 @@
                       href: infopath/form-templates/additional-infopath-form-security-concepts.md
                     - name: Security Guidelines for Developing InfoPath Forms
                       href: infopath/form-templates/security-guidelines-for-developing-infopath-forms.md
-                    - name: 'How to: Configure Security Settings for Form Templates with Code'
+                    - name: Configure Security Settings for Form Templates with Code
                       href: infopath/form-templates/how-to-configure-security-settings-for-form-templates-with-code.md
                     - name: Security Levels, E-Mail Deployment, and Remote Form Templates
                       href: infopath/form-templates/security-levels-e-mail-deployment-and-remote-form-templates.md
@@ -730,22 +730,22 @@
                   - name: Getting Started Developing Form Templates Using the InfoPath 2003 Object Model
                     href: infopath/form-templates/getting-started-developing-form-templates-using-the-infopath-2003-object-model.md
                     items:
-                    - name: 'How to: Create a Form Template Using the InfoPath 2003 Object Model'
+                    - name: Create a Form Template Using the InfoPath 2003 Object Model
                       href: infopath/form-templates/how-to-create-a-form-template-using-the-infopath-2003-object-model.md
-                    - name: 'Walkthrough: Creating and Debugging a Basic Form Template Using the InfoPath 2003 Object Model'
+                    - name: 'Walkthrough: Creating and Debugging a Basic Form Template Using the InfoPath 2003 Object Model
                       href: infopath/form-templates/walkthrough-creating-and-debugging-a-basic-form-template-using-the-infopath-2003.md
                     - name: Common Tasks for Developing Form Templates Using the InfoPath 2003 Object Model
                       href: infopath/form-templates/common-tasks-for-developing-form-templates-using-the-infopath-2003-object-model.md
-                    - name: 'How to: Use Microsoft.Office.Interop.InfoPath.SemiTrust Members That Are Not Compatible with InfoPath 2003'
+                    - name: Use Microsoft.Office.Interop.InfoPath.SemiTrust Members That Are Not Compatible with InfoPath 2003'
                       href: infopath/form-templates/how-to-use-microsoft-office-interop-infopath-semitrust-members.md
                   - name: Creating Form Templates Using the InfoPath 2003 Object Model
                     href: infopath/form-templates/creating-form-templates-using-the-infopath-2003-object-model.md
                     items:
                     - name: Initialization and Clean-up Code Using InfoPath 2003 Object Model
                       href: infopath/form-templates/initialization-and-clean-up-code-using-infopath-2003-object-model.md
-                    - name: 'How to: Debug InfoPath Projects Using the InfoPath 2003 Object Model'
+                    - name: Debug InfoPath Projects Using the InfoPath 2003 Object Model
                       href: infopath/form-templates/how-to-debug-infopath-projects-using-the-infopath-2003-object-model.md
-                    - name: 'How to: Add an Event Handler Using the InfoPath 2003 Object Model'
+                    - name: Add an Event Handler Using the InfoPath 2003 Object Model
                       href: infopath/form-templates/how-to-add-an-event-handler-using-the-infopath-2003-object-model.md
                     - name: Threading Support in InfoPath Projects Using the InfoPath 2003 Object Model
                       href: infopath/form-templates/threading-support-in-infopath-projects-using-the-infopath-2003-object-model.md
@@ -756,25 +756,25 @@
                     items:
                     - name: InfoPath 2003 Compatible Object Models
                       href: infopath/form-templates/infopath-2003-compatible-object-models.md
-                    - name: 'How to: Access Application Data Using the InfoPath 2003 Object Model'
+                    - name: Access Application Data Using the InfoPath 2003 Object Model
                       href: infopath/form-templates/how-to-access-application-data-using-the-infopath-2003-object-model.md
-                    - name: 'How to: Access External Data Sources Using the InfoPath 2003 Object Model'
+                    - name: Access External Data Sources Using the InfoPath 2003 Object Model
                       href: infopath/form-templates/how-to-access-external-data-sources-using-the-infopath-2003-object-model.md
-                    - name: 'How to: Access Form Data Using the InfoPath 2003 Object Model'
+                    - name: Access Form Data Using the InfoPath 2003 Object Model
                       href: infopath/form-templates/how-to-access-form-data-using-the-infopath-2003-object-model.md
-                    - name: 'How to: Display Alerts and Dialog Boxes Using the InfoPath 2003 Object Model'
+                    - name: Display Alerts and Dialog Boxes Using the InfoPath 2003 Object Model
                       href: infopath/form-templates/how-to-display-alerts-and-dialog-boxes-using-the-infopath-2003-object-model.md
-                    - name: 'How to: Handle Errors Using the InfoPath 2003 Object Model'
+                    - name: Handle Errors Using the InfoPath 2003 Object Model
                       href: infopath/form-templates/how-to-handle-errors-using-the-infopath-2003-object-model.md
-                    - name: 'How to: Respond to Form Events Using the InfoPath 2003 Object Model'
+                    - name: Respond to Form Events Using the InfoPath 2003 Object Model
                       href: infopath/form-templates/how-to-respond-to-form-events-using-the-infopath-2003-object-model.md
-                    - name: 'How to: Work with Form Windows Using the InfoPath 2003 Object Model'
+                    - name: Work with Form Windows Using the InfoPath 2003 Object Model
                       href: infopath/form-templates/how-to-work-with-form-windows-using-the-infopath-2003-object-model.md
-                    - name: 'How to: Work with Views Using the InfoPath 2003 Object Model'
+                    - name: Work with Views Using the InfoPath 2003 Object Model
                       href: infopath/form-templates/how-to-work-with-views-using-the-infopath-2003-object-model.md
-                    - name: 'How to: Work with Digital Signatures Using the InfoPath 2003 Object Model'
+                    - name: Work with Digital Signatures Using the InfoPath 2003 Object Model
                       href: infopath/form-templates/how-to-work-with-digital-signatures-using-the-infopath-2003-object-model.md
-                    - name: 'How to: Work with Offline Solutions Using the InfoPath 2003 Object Model'
+                    - name: Work with Offline Solutions Using the InfoPath 2003 Object Model
                       href: infopath/form-templates/how-to-work-with-offline-solutions-using-the-infopath-2003-object-model.md
                   - name: Troubleshooting Form Templates That Use the InfoPath 2003 Object Model
                     href: infopath/form-templates/troubleshooting-form-templates-that-use-the-infopath-2003-object-model.md
@@ -791,7 +791,7 @@
                 - name: Creating InfoPath Projects in Visual Studio
                   href: infopath/external-automation/creating-infopath-projects-in-visual-studio.md
                   items:
-                  - name: 'How to: Create a COM Add-in to Add Custom Features to InfoPath'
+                  - name: Create a COM Add-in to Add Custom Features to InfoPath
                     href: infopath/external-automation/how-to-create-a-com-add-in-to-add-custom-features-to-infopath.md
                 - name: Automating InfoPath from Other Applications
                   href: infopath/external-automation/automating-infopath-from-other-applications.md
@@ -1112,15 +1112,15 @@
               - name: Sample tasks
                 href: outlook/auxiliary/sample-tasks.md
                 items:
-                - name: 'How to: Determine whether an Outlook item has been modified but not saved'
+                - name: Determine whether an Outlook item has been modified but not saved
                   href: outlook/auxiliary/how-to-determine-whether-an-outlook-item-has-been-modified-but-not-saved-outlook.md
-                - name: 'How to: Parse a stream from a binary property to read the TZDEFINITION structure'
+                - name: Parse a stream from a binary property to read the TZDEFINITION structure
                   href: outlook/auxiliary/how-to-parse-a-stream-from-a-binary-property-to-read-the-tzdefinition-structure.md
-                - name: 'How to: Parse a stream from a binary property to read the TZREG structure'
+                - name: Parse a stream from a binary property to read the TZREG structure
                   href: outlook/auxiliary/how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md
-                - name: 'How to: Read time zone properties from an appointment'
+                - name: Read time zone properties from an appointment
                   href: outlook/auxiliary/how-to-read-time-zone-properties-from-an-appointment.md
-                - name: 'How to: Use relative time to access free/busy data'
+                - name: Use relative time to access free/busy data
                   href: outlook/auxiliary/how-to-use-relative-time-to-access-free-busy-data.md
             - name: Reference
               href: outlook/auxiliary/reference-outlook-auxiliary-reference.md
@@ -1487,15 +1487,15 @@
               - name: Creating Outlook Items by Using MAPI
                 href: outlook/mapi/creating-outlook-items-by-using-mapi.md
                 items:
-                - name: 'How to: Install the Samples Used in This Section'
+                - name: Install the Samples Used in This Section
                   href: outlook/mapi/how-to-install-the-samples-used-in-this-section.md
-                - name: 'How to: Create a Simple Mail Item'
+                - name: Create a Simple Mail Item
                   href: outlook/mapi/how-to-create-a-simple-mail-item.md
-                - name: 'How to: Create a Simple Recurrent Task Item'
+                - name: Create a Simple Recurrent Task Item
                   href: outlook/mapi/how-to-create-a-simple-recurrent-task-item.md
-                - name: 'How to: Create a Complex Recurrent Appointment Item'
+                - name: Create a Complex Recurrent Appointment Item
                   href: outlook/mapi/how-to-create-a-complex-recurrent-appointment-item.md
-                - name: 'How to: Read and Parse a Recurrence Pattern'
+                - name: Read and Parse a Recurrence Pattern
                   href: outlook/mapi/how-to-read-and-parse-a-recurrence-pattern.md
             - name: Concepts
               href: outlook/mapi/mapi-concepts.md
@@ -1603,13 +1603,13 @@
                   items:
                   - name: Installing the MAPI Subsystem
                     href: outlook/mapi/installing-the-mapi-subsystem.md
-                  - name: 'How to: Install MAPI Header Files'
+                  - name: Install MAPI Header Files
                     href: outlook/mapi/how-to-install-mapi-header-files.md
-                  - name: 'How to: Link to MAPI Functions'
+                  - name: Link to MAPI Functions
                     href: outlook/mapi/how-to-link-to-mapi-functions.md
-                  - name: 'How to: Choose a Specific Version of MAPI to Load'
+                  - name: Choose a Specific Version of MAPI to Load
                     href: outlook/mapi/how-to-choose-a-specific-version-of-mapi-to-load.md
-                  - name: 'How to: Check the Version of Outlook'
+                  - name: Check the Version of Outlook
                     href: outlook/mapi/how-to-check-the-version-of-outlook.md
                   - name: Testing and Debugging
                     href: outlook/mapi/testing-and-debugging.md
@@ -1624,37 +1624,37 @@
                       href: outlook/mapi/building-mapi-applications-on-32-bit-and-64-bit-platforms.md
                     - name: Calling MAPI from Windows Services
                       href: outlook/mapi/calling-mapi-from-windows-services.md
-                  - name: 'How to: Access a Store on the Remote Server When Outlook is in Cached Exchange Mode'
+                  - name: Access a Store on the Remote Server When Outlook is in Cached Exchange Mode
                     href: outlook/mapi/how-to-access-a-store-on-remote-server-when-outlook-is-in-cached-exchange-mode.md
-                  - name: 'How to: Create an Outlook profile using MFCMAPI'
+                  - name: Create an Outlook profile using MFCMAPI
                     href: outlook/mapi/how-to-create-an-outlook-profile-using-mfcmapi.md
-                  - name: 'How to: Detect the Version of Exchange Server in an Outlook Profile'
+                  - name: Detect the Version of Exchange Server in an Outlook Profile
                     href: outlook/mapi/how-to-detect-the-version-of-exchange-server-in-an-outlook-profile.md
-                  - name: 'How to: Determine if Outlook Downloaded Only the Header of a Message'
+                  - name: Determine if Outlook Downloaded Only the Header of a Message
                     href: outlook/mapi/how-to-determine-if-outlook-downloaded-only-the-header-of-a-message.md
-                  - name: 'How to: Get the Email Address of a Contact Item'
+                  - name: Get the Email Address of a Contact Item
                     href: outlook/mapi/how-to-get-the-email-address-of-a-contact-item.md
-                  - name: 'How to: Get the Path of a Specific Version of MAPI for the Default Mail Client'
+                  - name: Get the Path of a Specific Version of MAPI for the Default Mail Client
                     href: outlook/mapi/how-to-get-the-path-of-a-specific-version-of-mapi-for-the-default-mail-client.md
-                  - name: 'How to: Manage a Message in an OST Without Invoking a Synchronization in Cached Exchange Mode'
+                  - name: Manage a Message in an OST Without Invoking a Synchronization in Cached Exchange Mode
                     href: outlook/mapi/how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md
-                  - name: 'How to: Obtain a Contact Message Given a Contacts Address Book Entry'
+                  - name: Obtain a Contact Message Given a Contacts Address Book Entry
                     href: outlook/mapi/how-to-obtain-a-contact-message-given-a-contacts-address-book-entry.md
-                  - name: 'How to: Access a Message on an IMAP Store Without Downloading the Entire Message'
+                  - name: Access a Message on an IMAP Store Without Downloading the Entire Message
                     href: outlook/mapi/how-to-access-a-message-on-an-imap-store-without-downloading-the-entire-message.md
-                  - name: 'How to: Open a Store on the Remote Server When Outlook is in Cached Exchange Mode'
+                  - name: Open a Store on the Remote Server When Outlook is in Cached Exchange Mode
                     href: outlook/mapi/how-to-open-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode.md
-                  - name: 'How to: Programmatically Set the Resolution Order for Address Lists'
+                  - name: Programmatically Set the Resolution Order for Address Lists
                     href: outlook/mapi/how-to-programmatically-set-the-resolution-order-for-address-lists.md
-                  - name: 'How to: Programmatically Create a Profile in Outlook'
+                  - name: Programmatically Create a Profile in Outlook
                     href: outlook/mapi/how-to-programmatically-create-a-profile-in-outlook.md
-                  - name: 'How to: Remove Custom Form Definition Saved With a Message'
+                  - name: Remove Custom Form Definition Saved With a Message
                     href: outlook/mapi/how-to-remove-custom-form-definition-saved-with-a-message.md
-                  - name: 'How to: Retrieve the Body of a Message in Compressed RTF and Convert It to Its Native Format'
+                  - name: Retrieve the Body of a Message in Compressed RTF and Convert It to Its Native Format
                     href: outlook/mapi/how-to-retrieve-the-body-of-a-message-in-compressed-rtf-and-convert.md
-                  - name: 'How to: Use the MAPI Crash Recovery API'
+                  - name: Use the MAPI Crash Recovery API
                     href: outlook/mapi/how-to-use-the-mapi-crash-recovery-api.md
-                  - name: 'How to: Verify an Attachment is Blocked'
+                  - name: Verify an Attachment is Blocked
                     href: outlook/mapi/how-to-verify-an-attachment-is-blocked.md
                 - name: Tables
                   href: outlook/mapi/mapi-tables.md
@@ -2109,7 +2109,7 @@
                   - name: Outlook Items and Fields
                     href: outlook/mapi/outlook-items-and-fields.md
                     items:
-                    - name: 'How to: Add a Definition for a New User-Defined Field'
+                    - name: Add a Definition for a New User-Defined Field
                       href: outlook/mapi/how-to-add-a-definition-for-a-new-user-defined-field.md
                     - name: PropertyDefinition Stream Sample
                       href: outlook/mapi/propertydefinition-stream-sample.md
@@ -2506,7 +2506,7 @@
                     items:
                     - name: Progress Objects
                       href: outlook/mapi/mapi-progress-objects.md
-                    - name: 'How to: Display a Progress Indicator'
+                    - name: Display a Progress Indicator
                       href: outlook/mapi/how-to-display-a-progress-indicator.md
                 - name: Developing a MAPI Address Book Provider
                   href: outlook/mapi/developing-a-mapi-address-book-provider.md
@@ -7794,7 +7794,7 @@
          items:
          - name: Introduction to the Visio file format (.vsdx)
            href: visio/introduction-to-the-visio-file-formatvsdx.md
-         - name: 'How to: Manipulate the Visio file format programmatically'
+         - name: Manipulate the Visio file format programmatically
            href: visio/how-to-manipulate-the-visio-file-format-programmatically.md
          - name: Schema map
            href: visio/schema-mapvisio-xml.md

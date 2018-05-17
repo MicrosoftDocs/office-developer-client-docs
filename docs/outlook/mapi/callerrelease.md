@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # CALLERRELEASE
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Defines a callback function that can release a table data object when a table view is being released. 
   

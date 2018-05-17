@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # MAPIOpenLocalFormContainer
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Returns an interface pointer to the local form library. 
   

@@ -1,20 +1,16 @@
 ---
-title: "Walkthrough Creating and Debugging a Basic Form Template Using the InfoPath 2003 Object Model"
- 
- 
+title: 'Walkthrough: Create and debug a basic form template using the InfoPath object model'
 manager: soliver
 ms.date: 1/13/2015
 ms.audience: Developer
- 
 keywords:
 - form templates [infopath 2007], walkthroughs,form templates [InfoPath 2007], creating InfoPath 2003-compatible,InfoPath 2003-compatible form templates, walkthroughs
- 
 localization_priority: Normal
 ms.assetid: 7658705f-c062-49a1-bea6-837737df2425
 description: "This topic provides a walkthrough of creating a basic InfoPath managed code form template that works with the InfoPath 2003-compatible object model provided by the Microsoft.Office.Interop.InfoPath.SemiTrust namespace."
 ---
 
-# Walkthrough: Creating and Debugging a Basic Form Template Using the InfoPath 2003 Object Model
+# Walkthrough: Create and debug a basic form template using the InfoPath object model
 
 This topic provides a walkthrough of creating a basic InfoPath managed code form template that works with the InfoPath 2003-compatible object model provided by the [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) namespace. 
   
@@ -24,7 +20,7 @@ In the following example, you will learn how to display a simple alert dialog bo
   
 ### Create a new InfoPath form template that works with the InfoPath 2003-compatible object model
 
-1. Create a new form template that works with the InfoPath 2003-compatible object model, as described in [How to: Create a Form Template Using the InfoPath 2003 Object Model](how-to-create-a-form-template-using-the-infopath-2003-object-model.md).
+1. Create a new form template that works with the InfoPath 2003-compatible object model, as described in [Create a Form Template Using the InfoPath 2003 Object Model](how-to-create-a-form-template-using-the-infopath-2003-object-model.md).
     
 2. Name the form template project HelloWorld and save it. 
     
@@ -42,7 +38,7 @@ In the following example, you will learn how to display a simple alert dialog bo
     
 5. Click **Edit Form Code**.
     
-    An event handler skeleton for the [OnClick](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._ButtonEventSink_Event.OnClick.aspx) event is created and the focus moves to the code editor in Visual Studio 2012. For more information on working with event handlers, see [How to: Add an Event Handler Using the InfoPath 2003 Object Model](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md). 
+    An event handler skeleton for the [OnClick](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._ButtonEventSink_Event.OnClick.aspx) event is created and the focus moves to the code editor in Visual Studio 2012. For more information on working with event handlers, see [Add an Event Handler Using the InfoPath 2003 Object Model](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md). 
     
     You are now ready to add form code to the event handler for the button.
     
@@ -165,7 +161,7 @@ By using the .NET Framework classes, you can get access to functionality that wa
     
     The employee text box should now be populated with your username. 
     
-For information on how to deploy a managed code form template, see [How to: Deploy InfoPath Form Templates with Code](how-to-deploy-infopath-form-templates-with-code.md). For information on the InfoPath object model and common programming tasks in managed code form templates that work with the InfoPath 2003-compatible object model, see [Understanding the InfoPath 2003 Object Model](understanding-the-infopath-2003-object-model.md). 
+For information on how to deploy a managed code form template, see [Deploy InfoPath Form Templates with Code](how-to-deploy-infopath-form-templates-with-code.md). For information on the InfoPath object model and common programming tasks in managed code form templates that work with the InfoPath 2003-compatible object model, see [Understanding the InfoPath 2003 Object Model](understanding-the-infopath-2003-object-model.md). 
   
 ## See also
 
@@ -176,5 +172,5 @@ For information on how to deploy a managed code form template, see [How to: Depl
 [InfoPath 2003 Compatible Object Models](infopath-2003-compatible-object-models.md)
 #### Other resources
 
-[How to: Add an Event Handler Using the InfoPath 2003 Object Model](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)
+[Add an Event Handler Using the InfoPath 2003 Object Model](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)
 

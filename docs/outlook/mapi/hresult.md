@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # HRESULT
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 A 32-bit value that is used to describe an error or warning.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagOtherAddressCity Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the name of the mail user's other locality, such as the town or city.
   

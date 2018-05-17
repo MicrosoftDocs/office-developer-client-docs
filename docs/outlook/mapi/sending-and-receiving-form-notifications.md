@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Sending and Receiving Form Notifications
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Form notifications are used in MAPI to facilitate communication both from the form to your viewer as well as from your viewer to the form.
   

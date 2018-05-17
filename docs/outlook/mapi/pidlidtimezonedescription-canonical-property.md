@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidTimeZoneDescription Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies a string description of the time zone.
   

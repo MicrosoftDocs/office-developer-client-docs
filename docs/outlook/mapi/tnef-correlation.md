@@ -14,9 +14,9 @@ description: "Last modified: March 12, 2013"
 
 # TNEF Correlation
 
- **Last modified:** March 12, 2013 
+ 
   
- * **Applies to:** Outlook * 
+**Applies to**: Outlook 
   
 Some messaging systems perform a correlation check on any Transport-Neutral Encapsulation Format (TNEF) stream attached to an inbound message to verify that the TNEF stream does in fact belong to that message. This involves matching the value of some field in the header of the inbound message with a copy of that value stored in some property in the TNEF stream. Values that are presumably unique for each message, such as message ID numbers, are typically used for this. The transport or gateway that created the TNEF stream is responsible for choosing an appropriate value from the message header and placing a copy into an appropriate property before encoding the outgoing message's properties into the TNEF stream. Gateways or transports that receive the message can then extract that property from the TNEF stream and verify that its value matches the value of the corresponding header field on the inbound message.
   

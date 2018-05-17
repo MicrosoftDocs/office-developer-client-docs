@@ -1,5 +1,5 @@
 ---
-title: "How to Add an Event Handler Using the InfoPath 2003 Object Model"
+title: "Add an Event Handler Using the InfoPath 2003 Object Model"
  
  
 manager: soliver
@@ -14,7 +14,7 @@ ms.assetid: 0520df55-2d91-4cc5-be31-82144a2db4f6
 description: "The menu commands for adding event handler functions in a form template project that is compatible with the InfoPath 2003 object model are essentially the same as those for other types of form templates. For example, in order to add an OnLoad event handler, with the form template open in the InfoPath designer, click the On Load Event command on the Developer tab. The focus automatically switches to the form code for the OnLoad event handler in the Visual Studio 2012 code editor."
 ---
 
-# How to: Add an Event Handler Using the InfoPath 2003 Object Model
+# Add an Event Handler Using the InfoPath 2003 Object Model
 
 The menu commands for adding event handler functions in a form template project that is compatible with the InfoPath 2003 object model are essentially the same as those for other types of form templates. For example, in order to add an **OnLoad** event handler, with the form template open in the InfoPath designer, click the **On Load Event** command on the **Developer** tab. The focus automatically switches to the form code for the **OnLoad** event handler in the Visual Studio 2012 code editor. 
   
@@ -280,5 +280,5 @@ If you run an obfuscator utility on the assembly that is generated when a manage
 
 #### Concepts
 
-[How to: Respond to Form Events Using the InfoPath 2003 Object Model](how-to-respond-to-form-events-using-the-infopath-2003-object-model.md)
+[Respond to Form Events Using the InfoPath 2003 Object Model](how-to-respond-to-form-events-using-the-infopath-2003-object-model.md)
 

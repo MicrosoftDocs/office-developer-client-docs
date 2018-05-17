@@ -16,7 +16,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # Developing DLLs
 
- * **Applies to:** Excel 2013 | Office 2013 | Visual Studio * 
+**Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 A library is a body of compiled code that provides some functionality and data to an executable application. Libraries can be either statically linked or dynamically linked, and they conventionally have the file name extensions .lib and .dll respectively. Static libraries (such as the C run-time library) are linked to the application at compilation and so become part of the resulting executable. The application loads a DLL when it is needed, usually when the application starts up. One DLL can load and dynamically link to another DLL.
   
@@ -205,7 +205,7 @@ Note that the directive must be placed within the body of the function and is on
 
 #### Concepts
 
-[How to: Access DLLs in Excel](how-to-access-dlls-in-excel.md)
+[Access DLLs in Excel](how-to-access-dlls-in-excel.md)
   
 [Calling into Excel from the DLL or XLL](calling-into-excel-from-the-dll-or-xll.md)
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagWizardNoPabPage Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 This property contains TRUE if the profile wizard is to suppress the personal address book (PAB) page.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagTnefCorrelationKey Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a value that correlates a Transport Neutral Encapsulation Format (TNEF) attachment with a message.
   

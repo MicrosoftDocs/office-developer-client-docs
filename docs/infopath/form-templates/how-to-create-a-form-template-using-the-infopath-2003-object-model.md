@@ -1,5 +1,5 @@
 ---
-title: "How to Create a Form Template Using the InfoPath 2003 Object Model"
+title: "Create a Form Template Using the InfoPath 2003 Object Model"
  
  
 manager: soliver
@@ -14,7 +14,7 @@ ms.assetid: c746aeb1-902c-440e-830b-5b9efad0ca04
 description: "The procedures in this topic describe how to create a form template that works with the InfoPath 2003-compatible object model."
 ---
 
-# How to: Create a Form Template Using the InfoPath 2003 Object Model
+# Create a Form Template Using the InfoPath 2003 Object Model
 
 The procedures in this topic describe how to create a form template that works with the InfoPath 2003-compatible object model.
   
@@ -33,7 +33,7 @@ The procedures in this topic describe how to create a form template that works w
     
 5. Click **OK**.
     
-6. Design your form template, and then add event handlers in Visual Studio 2012, as described in [How to: Add an Event Handler Using the InfoPath 2003 Object Model](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
+6. Design your form template, and then add event handlers in Visual Studio 2012, as described in [Add an Event Handler Using the InfoPath 2003 Object Model](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
     
 ## See also
 

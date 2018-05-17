@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IAddrBook::CreateOneOff
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Creates an entry identifier for a one-off address.
   

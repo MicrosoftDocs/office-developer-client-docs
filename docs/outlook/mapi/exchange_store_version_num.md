@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # EXCHANGE_STORE_VERSION_NUM
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Stores version information for the Microsoft Exchange Server that accounts in a Microsoft Office Outlook profile are connected to.
   

@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # Uninitialized State
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The Uninitialized state is the initial state form objects should be in when they are first created. Form objects become initialized with message data when a client application calls the [IPersistMessage::InitNew](ipersistmessage-initnew.md) or [IPersistMessage::Load](ipersistmessage-load.md) method on the form object. The following table describes allowed transitions from the Unitialized state. 
   

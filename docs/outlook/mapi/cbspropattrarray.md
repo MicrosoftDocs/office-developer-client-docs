@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # CbSPropAttrArray
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Computes the number of bytes in an existing [SPropAttrArray](spropattrarray.md) structure. 
   

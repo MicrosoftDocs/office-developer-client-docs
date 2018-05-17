@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # MAPI Record and Search Keys
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Record keys and search keys are binary identifiers that are assigned to many MAPI objects. Unlike an object's entry identifier, its record or search key is directly comparable as well as transmittable. 
   

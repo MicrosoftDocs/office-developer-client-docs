@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagContactAddressBookMultipleAddressFlag Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a flag that is TRUE when the provider supports multiple e-mail addresses per contact item.
   

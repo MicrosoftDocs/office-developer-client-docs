@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagMessageEditorFormat Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the format for an editor to use to display a message.
   

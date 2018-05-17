@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidAppointmentProposalNumber Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the number of attendees who have sent counter proposals that have not been accepted or rejected by the organizer.
   

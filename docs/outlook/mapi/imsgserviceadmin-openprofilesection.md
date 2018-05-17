@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMsgServiceAdmin::OpenProfileSection
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Opens a section of the current profile and returns an [IProfSect](iprofsectimapiprop.md) pointer for further access. 
   

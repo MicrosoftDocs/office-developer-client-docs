@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # SExistRestriction
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Describes an exist restriction which is used to test whether a particular property exists as a column in the table. 
   

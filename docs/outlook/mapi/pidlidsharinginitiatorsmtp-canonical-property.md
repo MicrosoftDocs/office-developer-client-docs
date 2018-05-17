@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidSharingInitiatorSmtp Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the SMTP address of the user who initiated the sharing message. This is a property of a sharing message. 
   

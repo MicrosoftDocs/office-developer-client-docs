@@ -16,7 +16,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # Data Types Used by Excel
 
- * **Applies to:** Excel 2013 | Office 2013 | Visual Studio * 
+**Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 Microsoft Excel exchanges several ANSI C/C++ types and also some Excel-specific data structures. These are mentioned here to provide a context for other sections, and they are discussed in detail in the [xlfRegister (Form 1)](xlfregister-form-1.md) topic. 
   

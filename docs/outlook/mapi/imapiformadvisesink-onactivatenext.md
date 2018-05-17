@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIFormAdviseSink::OnActivateNext
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Indicates whether the form can handle the message class of the next message to display.
   

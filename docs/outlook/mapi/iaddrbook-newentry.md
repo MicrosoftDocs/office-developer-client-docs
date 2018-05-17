@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IAddrBook::NewEntry
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Adds a new recipient to an address book container or to the recipient list of an outgoing message.
   

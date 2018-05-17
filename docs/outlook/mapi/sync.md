@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # SYNC
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Information for starting synchronization between a local store and a server. This information is used during the [synchronize state](synchronize-state.md).
   

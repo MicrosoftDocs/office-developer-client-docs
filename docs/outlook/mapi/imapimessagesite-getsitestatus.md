@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIMessageSite::GetSiteStatus
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Returns information from a message site object about the message site's capabilities for the current message.
   

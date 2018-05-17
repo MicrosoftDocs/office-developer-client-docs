@@ -16,9 +16,9 @@ description: "Last modified: July 23, 2011"
 
 # MAPI Reference
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 This section documents the MAPI programming elements.
   

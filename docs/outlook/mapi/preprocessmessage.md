@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PreprocessMessage
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Defines a function that preprocesses message contents or the format of a message.
   

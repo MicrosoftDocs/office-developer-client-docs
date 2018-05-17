@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagListHelp Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the value of a Multipurpose Internet Mail Extensions (MIME) message's List-Help header field.
   

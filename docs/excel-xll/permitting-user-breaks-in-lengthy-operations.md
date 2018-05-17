@@ -16,7 +16,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # Permitting User Breaks in Lengthy Operations
 
- * **Applies to:** Excel 2013 | Office 2013 | Visual Studio * 
+ **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 Even though Windows uses preemptive multitasking, where your functions or commands can take a long time to execute, it is good practice to yield some time to the operating system now and again to help it schedule concurrent tasks. Using native Windows calls, you can do this by using the sleep function. Using the C API, you can do it by using the [xlAbort function](xlabort.md), which not only yields the processor for an instant, but also checks to see if the user has pressed the cancel key, **ESC**.
   
@@ -36,5 +36,5 @@ When you detect a break condition in a command, you typically clear the conditio
   
 [Developing Excel XLLs](developing-excel-xlls.md)
   
-[How to: Access Excel Instance and Main Window Handles](how-to-access-excel-instance-and-main-window-handles.md)
+[Access Excel Instance and Main Window Handles](how-to-access-excel-instance-and-main-window-handles.md)
 

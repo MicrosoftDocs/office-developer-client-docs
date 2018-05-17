@@ -1,20 +1,16 @@
 ---
-title: "Replicate Project Online Reporting Data to a SQL Server database using the OData protocol"
-
- 
+title: "Replicate Project Online Reporting Data to a SQL Server database"
 manager: soliver
 ms.date: 8/10/2016
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: dcb1ca53-0fa9-4b58-ad70-bc2061cfd68e
-description: "This topic describes how you can use SQL Server Integration Services (SSIS) to replicate your reporting data from Project Online to a separate SQL Server database, using the Open Data protocol (OData). It explains how to install the add-on, the high level details of the replication process and how to get started in Visual Studio with the Integration Services project template to create a project that automatically pulls your data based on a schedule."
+description: "This topic describes how you can use SQL Server Integration Services (SSIS) to replicate your reporting data from Project Online to a separate SQL Server database by using the Open Data protocol (OData)."
 ---
 
-# Replicate Project Online Reporting Data to a SQL Server database using the OData protocol
+# Replicate Project Online Reporting Data to a SQL Server database
 
-This topic describes how you can use SQL Server Integration Services (SSIS) to replicate your reporting data from Project Online to a separate SQL Server database, using the Open Data protocol (OData). It explains how to install the add-on, the high level details of the replication process and how to get started in Visual Studio with the Integration Services project template to create a project that automatically pulls your data based on a schedule.
+This topic describes how you can use SQL Server Integration Services (SSIS) to replicate your reporting data from Project Online to a separate SQL Server database by using the Open Data protocol (OData). It explains how to install the add-on, the high level details of the replication process and how to get started in Visual Studio with the Integration Services project template to create a project that automatically pulls your data based on a schedule.
   
 ## Creating an Integration Services Project for replicating the Project Online data
 <a name="ProjODataSSISToolCreatePrj"> </a>
@@ -143,7 +139,7 @@ Now you're ready to configure the settings for the SQL reporting database to be 
     
 ### Testing the data synchronization
 
-You can now test the package to see the data flowing between the source OData feed and the destination SQL Server database. In the Visual Studio **Debug** menu, click **Start Debugging**, or use the keyboard shortcut **F5** to execute the package. 
+You can now test the package to see the data flowing between the source OData feed and the destination SQL Server database. In the Visual Studio*Debug** menu, click **Start Debugging**, or use the keyboard shortcut **F5** to execute the package. 
   
 **Figure 6. Data Flow tab results when running the package**
 
@@ -248,7 +244,7 @@ For example, you can see that ProjectId and TaskId are the keys for the Task ent
 
 See the [ProjectData OData service schema reference](https://msdn.microsoft.com/en-us/library/office/jj163529.aspx) to find keys for other entity types. 
   
-## Additional resources
+## See also
 <a name="ProjODataSSISToolAddResources"> </a>
 
 - [Project 2013 developer documentation](project-2013-developer-documentation.md)

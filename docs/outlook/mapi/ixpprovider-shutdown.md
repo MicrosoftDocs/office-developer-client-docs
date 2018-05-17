@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IXPProvider::Shutdown
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Closes down a transport provider in an orderly fashion.
   

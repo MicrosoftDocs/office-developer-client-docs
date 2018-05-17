@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # DTBLCOMBOBOX
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Describes a combo box control that will be used in a dialog box built from a display table.
   

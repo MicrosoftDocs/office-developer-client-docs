@@ -12,9 +12,9 @@ description: "Last modified: October 05, 2012"
 
 # Content Retired Notice (MAPI)
 
- **Last modified:** October 05, 2012 
+
   
- * **Applies to:** Outlook * 
+**Applies to**: Outlook 
   
 The content that you tried to view is no longer available. It may have been deleted or replaced with a more recent version. Explore this set of links to get you up to speed.
   

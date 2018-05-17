@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagScheduleInfoMonthsAway Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a list of the months for which free/busy data of type out of office (OOF) is present in the free/busy message. 
   

@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # MAPI Report Messages
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Report messages present status information about a message to its sender.
   

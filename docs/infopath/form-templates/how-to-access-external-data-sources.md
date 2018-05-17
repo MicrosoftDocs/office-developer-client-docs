@@ -1,5 +1,5 @@
 ---
-title: "How to Access External Data Sources"
+title: "Access External Data Sources"
  
  
 manager: soliver
@@ -14,7 +14,7 @@ ms.assetid: db7c2521-a1ad-4802-b398-79575d3d310a
 description: "When working with an InfoPath form template, you can write code to access the form's secondary data sources and manipulate the data that they contain."
 ---
 
-# How to: Access External Data Sources
+# Access External Data Sources
 
 When working with an InfoPath form template, you can write code to access the form's secondary data sources and manipulate the data that they contain. 
   
@@ -98,7 +98,7 @@ MessageBox.Show("Data source data: " &amp; _
    myDataSource.CreateNavigator().InnerXml.ToString())
 ```
 
-To manipulate the data that is contained in a secondary data source, use the **CreateNavigator** method of the **DataSource** class to return a reference to an **XPathNavigator** object positioned at the node where the secondary data is stored. You can use the properties or methods of the **XPathNavigator** class to manipulate the data. For more information, see [How to: Work with the XPathNavigator and XPathNodeIterator Classes](how-to-work-with-the-xpathnavigator-and-xpathnodeiterator-classes.md).
+To manipulate the data that is contained in a secondary data source, use the **CreateNavigator** method of the **DataSource** class to return a reference to an **XPathNavigator** object positioned at the node where the secondary data is stored. You can use the properties or methods of the **XPathNavigator** class to manipulate the data. For more information, see [Work with the XPathNavigator and XPathNodeIterator Classes](how-to-work-with-the-xpathnavigator-and-xpathnodeiterator-classes.md).
   
 ## Using the DataConnectionCollection and the DataConnection Classes
 

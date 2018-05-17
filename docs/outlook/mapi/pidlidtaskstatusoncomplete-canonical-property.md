@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidTaskStatusOnComplete Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Indicates whether the task assignee has been requested to send an e-mail message update when they complete the assigned task.
   

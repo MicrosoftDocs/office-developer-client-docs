@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Handling a Transport Provider
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Clients communicate with transport providers through status objects supplied by transport providers and the MAPI spooler. Clients access status objects by calling [IMAPISession::GetStatusTable](imapisession-getstatustable.md) to retrieve the status table. Status objects implement the [IMAPIStatus : IMAPIProp](imapistatusimapiprop.md) interface, which has methods for configuring providers, flushing incoming and outgoing message queues, setting passwords, and state validation. For more information about status objects, see [Status Table and Status Objects](status-table-and-status-objects.md).
   

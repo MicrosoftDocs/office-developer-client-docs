@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidFInvited Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Indicates whether or not invitations have been sent for the meeting that this meeting represents.
   

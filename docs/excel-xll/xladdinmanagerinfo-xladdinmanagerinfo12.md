@@ -18,7 +18,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # xlAddInManagerInfo/xlAddInManagerInfo12
 
- * **Applies to:** Excel 2013 | Office 2013 | Visual Studio * 
+ **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 Called by Microsoft Excel when the Add-in Manager is invoked for the first time in an Excel session. This function is used to provide the Add-In Manager with information about your add-in.
   

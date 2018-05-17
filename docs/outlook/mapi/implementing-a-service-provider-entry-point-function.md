@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # Implementing a Service Provider Entry Point Function
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Every service provider DLL has an entry point function that MAPI calls to load it. Be aware that this entry point function is not the same as [DllMain](http://msdn.microsoft.com/en-us/library/ms682583.aspx), the Win32 DLL entry point function.
   

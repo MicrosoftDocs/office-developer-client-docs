@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # SAndRestriction
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Describes an **AND** restriction, which is used to join a group of restrictions using a logical **AND** operation. 
   

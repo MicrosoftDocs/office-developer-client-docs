@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Tips for Better Table Performance
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Because many of the table operations can be time-consuming and there is no way to indicate progress, it is helpful to use the following techniques for improving performance:
   

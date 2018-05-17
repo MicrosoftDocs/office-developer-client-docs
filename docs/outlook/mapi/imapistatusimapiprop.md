@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIStatus : IMAPIProp
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Provides status information about the MAPI subsystem, the integrated address book, and the MAPI spooler. A service provider implements **IMAPIStatus** to supply information about its own status. 
   

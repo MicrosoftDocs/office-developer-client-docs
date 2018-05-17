@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagRoamingBinary Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a message stream associated with a subclass of the **IPM.Configuration** class. 
   

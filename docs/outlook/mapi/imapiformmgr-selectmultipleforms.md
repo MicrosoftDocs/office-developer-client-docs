@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMAPIFormMgr::SelectMultipleForms
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Presents a dialog box that enables the user to select multiple forms, and returns an array of form information objects that describe those forms.
   

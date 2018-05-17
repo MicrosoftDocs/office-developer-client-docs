@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # MAPIUID
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 A byte-order independent version of a [GUID](guid.md) structure that is used to uniquely identify a service provider. 
   

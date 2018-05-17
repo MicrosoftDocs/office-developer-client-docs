@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMAPITable::GetCollapseState
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Returns the data that is needed to rebuild the current collapsed or expanded state of a categorized table.
   

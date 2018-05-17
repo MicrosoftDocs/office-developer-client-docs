@@ -144,7 +144,7 @@ After locating the appropriate message attachment of the hidden message, use **I
 
 You have learned from this topic how to locate the message download history for the Inbox of a POP3 mail client. See [Parsing the message download history for a POP3 account](parsing-the-message-download-history-for-a-pop3-account.md) to learn how to parse this history to identify messages that have been downloaded or deleted for the Inbox. 
   
-## Additional resources
+## See also
 <a name="OL15Con_AuxRef_LocatingMsgsUIDLHistory_AdditionalRsc"> </a>
 
 - [Managing message downloads for POP3 accounts](managing-message-downloads-for-pop3-accounts.md)

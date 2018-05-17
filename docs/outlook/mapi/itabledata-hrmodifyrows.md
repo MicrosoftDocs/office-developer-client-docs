@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # ITableData::HrModifyRows
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Inserts multiple table rows, possibly replacing existing rows.
   

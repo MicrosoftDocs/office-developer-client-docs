@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # SizedSRowSet
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Creates a named [SRowSet](srowset.md) structure that contains a specified number of rows. 
   

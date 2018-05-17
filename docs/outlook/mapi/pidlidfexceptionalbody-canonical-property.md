@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidFExceptionalBody Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Indicates that the exception embedded message object has a body that differs from the recurring calendar object.
   

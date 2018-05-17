@@ -14,15 +14,15 @@ description: "Last modified: July 23, 2011"
 
 # Registering Service Provider Unique Identifiers
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Address book, message store, and transport providers use a unique identifier known as a [MAPIUID](mapiuid.md) to register to service objects of various types. A **MAPIUID** is a 16-byte identifier that contains a GUID. You can create a **MAPIUID** by using the following procedure: 
   
 1. Define a constant.
     
-2. Invoke the Visual Studio **Create GUID** tool. 
+2. Invoke the Visual Studio*Create GUID** tool. 
     
 For example, an address book provider might include the following constant in a header file to define a **MAPIUID**:
   

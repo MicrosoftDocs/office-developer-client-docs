@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Resending an Undelivered Message
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 A transport provider sends a non-delivery report (NDR) when it cannot successfully deliver a message that you have submitted. It is up to the client whether or not users can attempt to resend these undelivered messages. If you support resending messages, you can either use a form provided by MAPI or implement your own. The MAPI form displays the names of the failed recipients and the reason for the delivery failure, if possible, and includes a button that, when selected, allows a user to resend the message.
   

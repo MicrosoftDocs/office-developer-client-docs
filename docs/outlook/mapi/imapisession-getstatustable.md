@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPISession::GetStatusTable
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Provides access to the status table, a table that contains information about all the MAPI resources in the session.
   

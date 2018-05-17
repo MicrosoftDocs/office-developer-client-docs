@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMAPIGetSession::GetMAPISession
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Returns a pointer to the MAPI session associated with the MAPI support object.
   

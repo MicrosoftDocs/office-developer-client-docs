@@ -14,9 +14,9 @@ description: "Last modified: February 21, 2012"
 
 # MNLS_MultiByteToWideChar
 
- **Last modified:** February 21, 2012 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Similar to **MultiByteToWideChar**, which maps a character string to a UTF-16 (wide character) string. The character string is not necessarily from a multibyte character set.
   

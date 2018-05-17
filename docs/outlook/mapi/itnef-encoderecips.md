@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # ITnef::EncodeRecips
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Encodes a view for a message's recipient table in the Transport-Neutral Encapsulation Format (TNEF) data stream for the message.
   

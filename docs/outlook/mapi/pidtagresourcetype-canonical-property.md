@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagResourceType Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a value that indicates the service provider type.
   

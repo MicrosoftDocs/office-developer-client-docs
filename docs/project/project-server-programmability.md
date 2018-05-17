@@ -70,7 +70,7 @@ Customization of the code in ASPX pages, or customization of Project Web App mas
 
 Because Project Web App is a SharePoint application, and project sites are SharePoint sites, you can add custom apps, Web Parts, event handlers, custom fields, and other features by using SharePoint packages (.wsp files) or SharePoint apps (.spapp files). A SharePoint package or an app package can include multiple Project Server entities, where entity definitions are specified in an elements.xml file within the package.
   
-For Project Online, you can add buttons to the Project Web App ribbon, but you can't remove or rename existing product buttons, and you can't create new ribbon tabs. For more information, see [How to: Create custom actions to deploy with apps for SharePoint](http://msdn.microsoft.com/en-us/library/office/apps/jj163954%28v=office.15%29.aspx).
+For Project Online, you can add buttons to the Project Web App ribbon, but you can't remove or rename existing product buttons, and you can't create new ribbon tabs. For more information, see [Create custom actions to deploy with apps for SharePoint](http://msdn.microsoft.com/en-us/library/office/apps/jj163954%28v=office.15%29.aspx).
   
 > [!CAUTION]
 > When you install a SharePoint package or an app package, the types of Project Server entities must appear in the order that the PSEntityProvision.xsd schema specifies or schema validation of the package fails and installation is not completed. 
@@ -280,7 +280,7 @@ For all of these reasons, Project Professional and Project Web App do not make d
   
 The schemas for the draft, published, and archive tables are not documented. You can use the reporting tables to help generate reports, and the schema for the reporting tables and views is documented in the Project 2013 SDK download. For the OData schema of the reporting data, see [ProjectData - Project OData service reference](projectdataproject-odata-service-reference.md).
   
-## Additional resources
+## See also
 <a name="pj15_Programmability_AR"> </a>
 
 - [Updates for developers in Project 2013](updates-for-developers-in-project-2013.md)
@@ -299,7 +299,7 @@ The schemas for the draft, published, and archive tables are not documented. You
     
 - [Project PSI reference overview](project-psi-reference-overview.md)
     
-- [How to: Create custom actions to deploy with apps for SharePoint](http://msdn.microsoft.com/en-us/library/office/apps/jj163954%28v=office.15%29.aspx)
+- [Create custom actions to deploy with apps for SharePoint](http://msdn.microsoft.com/en-us/library/office/apps/jj163954%28v=office.15%29.aspx)
     
 - [Introducing Inactive Tasks in Project 2010](http://blogs.msdn.com/b/project/archive/2010/06/10/introducing-inactive-tasks-in-project-2010.aspx)Link
     

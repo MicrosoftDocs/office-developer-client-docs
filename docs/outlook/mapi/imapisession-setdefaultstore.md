@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPISession::SetDefaultStore
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Establishes a message store as the default message store for the session.
   

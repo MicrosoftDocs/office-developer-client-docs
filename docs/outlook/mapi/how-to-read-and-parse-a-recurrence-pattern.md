@@ -1,5 +1,5 @@
 ---
-title: "How to Read and Parse a Recurrence Pattern"
+title: "Read and Parse a Recurrence Pattern"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,15 +12,15 @@ description: "Last modified: July 23, 2011"
  
 ---
 
-# How to: Read and Parse a Recurrence Pattern
+# Read and Parse a Recurrence Pattern
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 MAPI can be used to read and parse a recurrence pattern for an appointment.
   
-For information about how to download, view, and run the code from the MFCMAPI application project referenced in this topic, see [How to: Install the Samples Used in This Section](how-to-install-the-samples-used-in-this-section.md).
+For information about how to download, view, and run the code from the MFCMAPI application project referenced in this topic, see [Install the Samples Used in This Section](how-to-install-the-samples-used-in-this-section.md).
   
 ### 
 

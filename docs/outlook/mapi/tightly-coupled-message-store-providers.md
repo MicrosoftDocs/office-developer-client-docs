@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Tightly Coupled Message Store Providers
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Message store providers can be tightly coupled with a transport provider. Tightly coupling MAPI service providers means implementing the two providers such that the store provider and transport provider can communicate to make the process of sending and receiving messages more efficient. The benefit of doing this is that performance improvements can result when two service providers can interact with each other directly rather than by means of MAPI spooler. To tightly couple a message store provider to a transport provider, the transport provider must place the message store provider's entry identifier in the **PR_OWN_STORE_ENTRYID** ( [PidTagOwnStoreEntryId](pidtagownstoreentryid-canonical-property.md)) property in the transport provider's row in the MAPI status table. This enables MAPI spooler to connect the store provider to the transport provider.
   

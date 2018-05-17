@@ -242,7 +242,7 @@ Even though Outlook uses MSN Weather by default, if a user has customized the We
 
 The Weather Bar in the Outlook calendar uses MSN Weather by default to provide the weather forecast for a specified location. Users can conveniently see weather information for the locations they care about. Third-party weather data services can also integrate with the Weather Bar by supporting the Outlook Weather Location XML Schema and Outlook Weather Information XML Schema and following a simple web service protocol with Outlook.
   
-## Additional resources
+## See also
 <a name="ol15_weatherbar_additionalrsc"> </a>
 
 - [Outlook Weather Location XML Schema](outlook-weather-location-xml-schema.md)

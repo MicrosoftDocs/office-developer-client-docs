@@ -19,7 +19,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # TempNum/TempNum12
 
- * **Applies to:** Excel 2013 | Office 2013 | Visual Studio * 
+ **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 Framework library function that creates a temporary **XLOPER**/ **XLOPER12** containing a Microsoft Excel worksheet number (an IEEE 8-byte double). 
   

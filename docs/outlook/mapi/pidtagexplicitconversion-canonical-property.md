@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagExplicitConversion Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Indicates that a message sender has requested a message content conversion for a particular recipient.
   

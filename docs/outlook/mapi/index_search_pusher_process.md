@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # INDEX_SEARCH_PUSHER_PROCESS
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the process that is sending a notification to the MAPI Protocol Handler that an object in that store is ready for indexing.
   

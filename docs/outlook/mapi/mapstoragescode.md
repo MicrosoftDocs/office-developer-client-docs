@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # MapStorageSCode
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Maps an SCODE return value from an OLE storage object to an HRESULT type. 
   

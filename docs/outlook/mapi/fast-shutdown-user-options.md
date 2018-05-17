@@ -14,9 +14,9 @@ description: "Last modified: June 26, 2012"
 
 # Fast Shutdown User Options
 
- **Last modified:** June 26, 2012 
+ 
   
- * **Applies to:** Outlook * 
+**Applies to**: Outlook 
   
 This topic describes the three Windows registry settings that are available, starting in Microsoft Outlook 2010 and now including Microsoft Outlook 2013, for fast shutdown of a user's MAPI clients. Administrators can use these registry settings to specify the preferred client shutdown behavior depending on the MAPI providers' support for client fast shutdown. The administrator's setting, in turn, determines how the MAPI subsystem responds to the MAPI client's call to [IMAPIClientShutdown::QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) in terms of available fast shutdown support. 
   

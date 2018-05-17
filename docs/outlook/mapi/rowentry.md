@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # ROWENTRY
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a row and the operation that is performed on that row in a table through the [IExchangeModifyTable](iexchangemodifytableiunknown.md) interface. 
   

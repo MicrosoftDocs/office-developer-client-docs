@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Adding a Message Service
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
  **To add a new message service to a profile and access the new message service**
   

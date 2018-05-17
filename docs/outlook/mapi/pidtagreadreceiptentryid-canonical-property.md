@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagReadReceiptEntryId Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains an entry identifier for the messaging user where the messaging system should direct a read report for this message.
   

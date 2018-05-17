@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IPersistMessage::Load
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Loads the form for a specified message.
   

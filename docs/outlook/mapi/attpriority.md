@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # attPriority
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 MAPI message priorities are mapped to TNEF values for backward compatibility as follows:
   

@@ -61,7 +61,7 @@ By default, an InfoPath form is configured to select automatically either the Re
  **Notes**
 - If you the select the **Restricted** security level for a managed code form template, the code behind the form will not load and run regardless of which object model members are used in the form code. This security level is primarily designed for InfoPath forms that are deployed using e-mail. 
     
-- If you select the **Full Trust** security level, you need to digitally sign or install and register the form. For more information, see [How to: Deploy InfoPath Form Templates with Code](how-to-deploy-infopath-form-templates-with-code.md).
+- If you select the **Full Trust** security level, you need to digitally sign or install and register the form. For more information, see [Deploy InfoPath Form Templates with Code](how-to-deploy-infopath-form-templates-with-code.md).
     
 The following table summarizes the InfoPath security model. The first column lists the level specified for or required by the form. The second and third columns specify whether the form has a URN or URL identifier for its location. The remaining columns specify what is allowed to run. For more information on deployment scenarios and permission sets for managed code form templates, see the "Common Language Runtime Code Access Security Features" section later in this topic.
   
@@ -100,13 +100,13 @@ The default security policy set for the application domain of a managed code for
     
 - If you reference or explicitly load (Assembly.Load) an assembly that is configured with a restricted permission set using Hash, Strong Name, or Publisher evidence to determine its membership condition in a form template project, the assembly will nonetheless be loaded and executed by the form template.
     
-For information on how to create and configure the InfoPath Form Templates code group, see [How to: Configure Security Settings for Form Templates with Code](how-to-configure-security-settings-for-form-templates-with-code.md).
+For information on how to create and configure the InfoPath Form Templates code group, see [Configure Security Settings for Form Templates with Code](how-to-configure-security-settings-for-form-templates-with-code.md).
   
 The following table summarizes the deployment scenarios and permission sets that apply to managed code form templates.
   
 |**Deployment Scenario**|**Permission Set**|**Notes**|
 |:-----|:-----|:-----|
-|The form template is published on the local computer, and the developer is using Visual Studio to write and debug form code.  <br/> |Local Intranet permission set.  <br/> Assemblies installed in the Global Assembly Cache (GAC) and marked with the **AllowPartiallyTrustedCallersAttribute** attribute are granted the Full Trust permission set.  <br/> |By default, form templates running from the local computer are not granted the Full Trust permission set. While developing form templates that use features and calls to object model members that require Full Trust permissions, you can use the procedure described in [How to: Preview and Debug Form Templates that Require Full Trust](how-to-preview-and-debug-form-templates-that-require-full-trust.md).  <br/> |
+|The form template is published on the local computer, and the developer is using Visual Studio to write and debug form code.  <br/> |Local Intranet permission set.  <br/> Assemblies installed in the Global Assembly Cache (GAC) and marked with the **AllowPartiallyTrustedCallersAttribute** attribute are granted the Full Trust permission set.  <br/> |By default, form templates running from the local computer are not granted the Full Trust permission set. While developing form templates that use features and calls to object model members that require Full Trust permissions, you can use the procedure described in [Preview and Debug Form Templates that Require Full Trust](how-to-preview-and-debug-form-templates-that-require-full-trust.md).  <br/> |
 |The form template is published on the local computer and references a custom assembly that requests the Full Trust permission set on the local computer.  <br/> |Local Intranet permission set.  <br/> Assemblies installed in the Global Assembly Cache (GAC) and marked with the **AllowPartiallyTrustedCallersAttribute** attribute are granted the Full Trust permission set. The custom assembly is granted the Local Intranet permission set.  <br/> |To reference external assemblies for use in the form template's code, the developer must use the InfoPath Form Templates code group to grant Full Trust (or the appropriate permission set) to the external assembly referenced in the form template's code. InfoPath does not make any assumptions about external assemblies other than those installed in the Global Assembly Cache (GAC). The developer must explicitly grant the assembly the necessary permissions using the InfoPath Form Templates code group even if the assembly is already trusted though permissions granted in the My_Computer_Zone code group.  <br/> |
 |The form template is published on a shared location in the local intranet, such as a file share, SharePoint Form library, or a Web server.  <br/> |Local Intranet permission set.  <br/> Assemblies installed in the Global Assembly Cache (GAC) and marked with the **AllowPartiallyTrustedCallersAttribute** attribute are granted the Full Trust permission set.  <br/> ||
 |The form template is published on a shared location in the local intranet, such as a file share, SharePoint Form library, or a Web server that is designated as a Trusted site in Internet Explorer.  <br/> |Internet permission set.  <br/> Assemblies signed by Microsoft and ECMA are granted the Full Trust permission set.  <br/> |CLR code access security grants only the Internet permission set to sites that are designated as Trusted sites in Internet Explorer. InfoPath respects this policy. Note that this is unlike an InfoPath form template that uses script for form code, which receives a higher level of permissions when published in a Trusted sites zone.  <br/> |
@@ -116,8 +116,8 @@ The following table summarizes the deployment scenarios and permission sets that
 
 #### Tasks
 
-[How to: Configure Security Settings for Form Templates with Code](how-to-configure-security-settings-for-form-templates-with-code.md)
+[Configure Security Settings for Form Templates with Code](how-to-configure-security-settings-for-form-templates-with-code.md)
 #### Concepts
 
-[How to: Preview and Debug Form Templates that Require Full Trust](how-to-preview-and-debug-form-templates-that-require-full-trust.md)
+[Preview and Debug Form Templates that Require Full Trust](how-to-preview-and-debug-form-templates-that-require-full-trust.md)
 

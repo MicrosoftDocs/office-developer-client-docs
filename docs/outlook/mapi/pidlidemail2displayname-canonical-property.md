@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidEmail2DisplayName Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the user-readable display name for the second e-mail address.
   

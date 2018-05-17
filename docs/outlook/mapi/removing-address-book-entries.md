@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Removing Address Book Entries
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Your container's [IABContainer::DeleteEntries](iabcontainer-deleteentries.md) method is called to remove one or more recipients. **DeleteEntries** has two parameters: an array of entry identifiers representing the recipients to be deleted and a reserved flags value. Deleting a recipient affects the contents table of your container; in addition to deleting the recipient, your container must delete the contents table row that represents the recipient. When the row has been removed from the table, your container must issue a table notification to each registered client. 
   

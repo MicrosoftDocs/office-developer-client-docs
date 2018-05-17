@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPITable::FindRow
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Finds the next row in a table that matches specific search criteria and moves the cursor to that row.
   

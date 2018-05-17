@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # Attachment Tables
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 An attachment table contains information about all of the attachment objects that are associated with a submitted message or a message under composition. 
   

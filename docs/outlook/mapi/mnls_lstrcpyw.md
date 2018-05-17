@@ -14,9 +14,9 @@ description: "Last modified: June 18, 2012"
 
 # MNLS_lstrcpyW
 
- **Last modified:** June 18, 2012 
+ 
   
- * **Applies to:** Outlook * 
+**Applies to**: Outlook 
   
 Copies a string to a buffer.
   

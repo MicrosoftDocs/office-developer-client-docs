@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagRuleId Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies a unique identifier the messaging server generates for each rule when the rule is first created. 
   

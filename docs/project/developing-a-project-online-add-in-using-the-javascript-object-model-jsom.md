@@ -336,7 +336,7 @@ Sample output for the tasks of a single project follows.
   
 ![Screen shot showing the output for a project task](media/f6500a3f-000b-4f3e-9be6-9a74d0bea15e.png)
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - For documentation and samples related to Project Online and application development using CSOM, see the [Project Development Portal](http://dev.office.com/project.aspx).

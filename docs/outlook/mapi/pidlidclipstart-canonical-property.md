@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidClipStart Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the start date and time of the event in Coordinated Universal Times (UTC) for single instance calendar objects, and specifies midnight on the date of the first instance in UTC for a recurring series.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIFormInfo::CalcFormPropSet
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Returns a pointer to the complete set of properties that a form uses.
   

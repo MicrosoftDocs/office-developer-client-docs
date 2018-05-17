@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # MAPI Address Book Provider Objects
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 In addition to the standard provider and logon objects, address book providers implement address book containers, distribution lists, messaging users, tables, status objects, and controls.
   

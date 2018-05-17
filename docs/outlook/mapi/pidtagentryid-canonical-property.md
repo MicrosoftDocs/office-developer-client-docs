@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagEntryId Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a MAPI entry identifier used to open and edit properties of a particular MAPI object. 
   

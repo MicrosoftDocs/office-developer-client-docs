@@ -1,5 +1,5 @@
 ---
-title: "How to Work with Digital Signatures Using the InfoPath 2003 Object Model"
+title: "Work with Digital Signatures Using the InfoPath 2003 Object Model"
  
  
 manager: soliver
@@ -14,7 +14,7 @@ ms.assetid: d6318238-fd45-4854-a3c9-c27c5685bd6b
 description: "The InfoPath 2003-compatible object model provides features for working with digital signatures programmatically."
 ---
 
-# How to: Work with Digital Signatures Using the InfoPath 2003 Object Model
+# Work with Digital Signatures Using the InfoPath 2003 Object Model
 
 The InfoPath 2003-compatible object model provides features for working with digital signatures programmatically.
   

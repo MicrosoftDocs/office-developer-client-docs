@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagDisplayNamePrefix Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the display name prefix (such as Miss, Mr., Mrs.) for the messaging user. 
   

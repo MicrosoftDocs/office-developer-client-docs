@@ -1,5 +1,5 @@
 ---
-title: "How to Get the Path of a Specific Version of MAPI for the Default Mail Client"
+title: "Get the Path of a Specific Version of MAPI for the Default Mail Client"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,11 +10,11 @@ description: "Last modified: July 23, 2011"
  
 ---
 
-# How to: Get the Path of a Specific Version of MAPI for the Default Mail Client
+# Get the Path of a Specific Version of MAPI for the Default Mail Client
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 This topic includes a code sample in C++ that shows how to obtain the path of a specific version of MAPI that is used by the default mail client on a computer. MAPI mail clients have an option to specify in the registry a custom DLL that the MAPI stub library should load and dispatch MAPI calls to. The registry key to set for this custom DLL for a default mail client is **MSIComponentID**, under the **HKLM\Software\Clients\Mail** key of the default mail client. The [FGetComponentPath](fgetcomponentpath.md) function, exported by the MAPI stub library, mapistub.dll, can return the path to the custom version of MAPI specified by the **MSIComponentID** registry key. 
   

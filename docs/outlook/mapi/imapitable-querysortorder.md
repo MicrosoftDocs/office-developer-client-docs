@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMAPITable::QuerySortOrder
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Retrieves the current sort order for a table.
   

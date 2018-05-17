@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagScheduleInfoAutoAcceptAppointments Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains TRUE if a client or server should automatically respond to all meeting requests for the attendee or resource.
   

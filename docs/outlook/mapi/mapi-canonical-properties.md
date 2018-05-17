@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # MAPI Canonical Properties
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 A canonical property is a virtual property that represents a MAPI property, or multiple MAPI properties defined with the same property identifier. Canonical properties are only intended to facilitate consistent identification of MAPI properties in discussions or documentation outside of code. Unlike MAPI-defined tagged property names, canonical property names are not defined as global constants in MAPI header files.
   

@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMAPIClientShutdown::DoFastShutdown
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Indicates the intention of the MAPI client to exit the client process immediately.
   

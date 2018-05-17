@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # MAPI String Properties
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 MAPI provides three different property types to describe string properties:
   

@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # attDate Attributes
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 All MAPI properties relating to dates and times are mapped to TNEF attributes that have the **attDate** prefix. These are all encoded as **DTR** structures. The dates and times for attachment attributes are encoded as **DTR** structures as well. 
   

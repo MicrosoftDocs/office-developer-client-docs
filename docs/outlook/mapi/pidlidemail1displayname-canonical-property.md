@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidEmail1DisplayName Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the user-readable display name for the first e-mail address.
   

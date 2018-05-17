@@ -1,5 +1,5 @@
 ---
-title: "How to Create a COM Add-in to Add Custom Features to InfoPath"
+title: "Create a COM Add-in to Add Custom Features to InfoPath"
   
  
 manager: soliver
@@ -14,7 +14,7 @@ ms.assetid: af0b0bc9-20ef-4503-8b3b-8f2a97b671a2
 description: "Microsoft InfoPath supports COM Add-ins for extending the form editing user experience. Although support for COM Add-ins was first added in InfoPath, other Office applications such as Microsoft Office Word and Microsoft Office Excel have supported COM add-ins since Office 2000."
 ---
 
-# How to: Create a COM Add-in to Add Custom Features to InfoPath
+# Create a COM Add-in to Add Custom Features to InfoPath
 
 Microsoft InfoPath supports COM Add-ins for extending the form editing user experience. Although support for COM Add-ins was first added in InfoPath, other Office applications such as Microsoft Office Word and Microsoft Office Excel have supported COM add-ins since Office 2000.
   
@@ -207,9 +207,9 @@ Any of the events of the **ApplicationEvents** object can be handled by the COM 
   
 [Working with the IDTExtensibility2 Event Procedures](http://go.microsoft.com/fwlink/?LinkID=73471)
   
-[HOW TO: Build an Office COM Add-in With Visual Basic .NET](http://go.microsoft.com/fwlink/?LinkID=73469)
+[Build an Office COM Add-in With Visual Basic .NET](http://go.microsoft.com/fwlink/?LinkID=73469)
   
-[HOW TO: Build an Office COM Add-in With Visual C# .NET](http://go.microsoft.com/fwlink/?LinkID=73472)
+[Build an Office COM Add-in With Visual C# .NET](http://go.microsoft.com/fwlink/?LinkID=73472)
   
 [Creating InfoPath 2007 Add-Ins by Using Visual Studio 2005 Tools for the Office System SE](http://msdn.microsoft.com/en-us/library/bb968857%28office.12%29.aspx)
 

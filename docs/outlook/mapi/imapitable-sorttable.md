@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMAPITable::SortTable
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The **IMAPITable::SortTable** method orders the rows of the table, depending on sort criteria. 
   

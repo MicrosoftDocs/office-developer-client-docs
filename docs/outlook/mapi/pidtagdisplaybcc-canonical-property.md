@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagDisplayBcc Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains an ASCII list of the display names of any blind carbon copy (BCC) message recipients, separated by semicolons (;).
   

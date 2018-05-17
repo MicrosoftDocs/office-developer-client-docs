@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Providing Notifications for Message Store Providers
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 While notifications are optional, they are a very important part of a good message store provider. Client applications and the MAPI spooler rely on notifications from the message store provider to get good performance when submitting outgoing messages or receiving incoming messages. Clients and the MAPI spooler can function without receiving notifications from the message store provider, but they will not be able to inform users of changes in the message store without them. Typically, this means that users will be unable to see that a new message has arrived until their client next opens the message store's receive folder.
   

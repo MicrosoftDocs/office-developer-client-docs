@@ -18,9 +18,9 @@ description: "Last modified: September 07, 2016"
 
 # PidTagAttachMethod Canonical Property
 
- **Last modified:** September 07, 2016 
+ 
   
- * **Applies to:** Outlook * 
+**Applies to**: Outlook 
   
 Contains a MAPI-defined constant representing the way the contents of an attachment can be accessed. 
   

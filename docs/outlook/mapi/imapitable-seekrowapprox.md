@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMAPITable::SeekRowApprox
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Moves the cursor to an approximate fractional position in the table. 
   

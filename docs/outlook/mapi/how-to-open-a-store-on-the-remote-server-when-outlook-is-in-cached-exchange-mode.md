@@ -1,20 +1,16 @@
 ---
-title: "How to Open a Store on the Remote Server When Outlook is in Cached Exchange Mode"
+title: "Open a store on the remote server when Outlook is in Cached Exchange mode"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: cf01eab7-164d-c3b3-8bb0-9281e2119bc5
 description: "Last modified: June 25, 2012"
- 
- 
 ---
 
-# How to: Open a Store on the Remote Server When Outlook is in Cached Exchange Mode
+# Open a store on the remote server when Outlook is in Cached Exchange mode
 
- **Last modified:** June 25, 2012 
-  
- * **Applies to:** Outlook * 
+**Applies to**: Outlook 
   
 This topic contains a code sample in C++ that shows how to use the **MDB_ONLINE** flag to open a message store on the remote server when Microsoft Outlook 2010 or Microsoft Outlook 2013 is in Cached Exchange Mode. 
   
@@ -26,7 +22,7 @@ You cannot open an Exchange store in cached mode and in non-cached mode at the s
   
 The following code sample shows how to call **IMAPISession::OpenMsgStore** with the **MDB_ONLINE** flag set in the  *ulFlags*  parameter to open the default store on the remote server. 
   
-```
+```cpp
 HRESULT HrRemoteMessageStore( 
     LPMAPISESSION lpMAPISession, 
     LPMDB* lppMDB) 
@@ -89,11 +85,7 @@ HRESULT HrRemoteMessageStore(
 
 ## See also
 
-#### Concepts
-
-[About MAPI Additions](about-mapi-additions.md)
-  
-[MAPI Constants](mapi-constants.md)
-  
-[How to: Access a Store on the Remote Server When Outlook is in Cached Exchange Mode](how-to-access-a-store-on-remote-server-when-outlook-is-in-cached-exchange-mode.md)
+- [About MAPI Additions](about-mapi-additions.md) 
+- [MAPI Constants](mapi-constants.md)
+- [Access a Store on the Remote Server When Outlook is in Cached Exchange Mode](how-to-access-a-store-on-remote-server-when-outlook-is-in-cached-exchange-mode.md)
 

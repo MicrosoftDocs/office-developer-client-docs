@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagRecipientCertificate Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a message recipient's ASN.1 certificate for use in a report.
   

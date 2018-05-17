@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidOfflineStatus Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Determines the state of a document file on a server that implements [MS-LISTSWS].
   

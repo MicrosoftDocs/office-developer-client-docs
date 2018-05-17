@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # UPFLD
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Information for uploading a folder during the [upload folder state](upload-folder-state.md).
   

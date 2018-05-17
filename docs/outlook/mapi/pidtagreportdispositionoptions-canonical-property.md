@@ -16,9 +16,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagReportDispositionOptions Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Maps to the MIME Disposition-Options header for messages that request receipts. The value of this property should be an empty string.
   

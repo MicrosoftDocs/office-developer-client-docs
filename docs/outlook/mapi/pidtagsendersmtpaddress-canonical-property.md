@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagSenderSmtpAddress Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the format of the Simple Mail Transport Protocol (SMTP) email address of the sending mailbox owner.
   

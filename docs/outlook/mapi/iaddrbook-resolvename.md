@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IAddrBook::ResolveName
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Performs name resolution, assigning entry identifiers to recipients in a recipient list.
   

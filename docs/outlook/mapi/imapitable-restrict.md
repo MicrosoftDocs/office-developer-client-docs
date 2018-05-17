@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPITable::Restrict
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Applies a filter to a table, reducing the row set to only those rows matching the specified criteria.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # MSProviderInit
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Initializes a message store provider for operation.
   

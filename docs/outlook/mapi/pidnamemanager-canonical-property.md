@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidNameManager Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the manager of the file that is attached to the document.
   

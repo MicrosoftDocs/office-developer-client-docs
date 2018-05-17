@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # Component Object Model and MAPI
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The Windows SDK documentation includes a comprehensive discussion of the rules for implementing objects that conform to the Component Object Model (COM). These rules address how to do the following:
   

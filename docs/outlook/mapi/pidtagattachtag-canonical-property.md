@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagAttachTag Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains an ASN.1 object identifier specifying the application that supplied an attachment. 
   

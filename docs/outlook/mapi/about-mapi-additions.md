@@ -12,9 +12,9 @@ description: "Last modified: July 23, 2011"
 
 # About MAPI Additions
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 MAPI additions are APIs that belong to Messaging Application Programming Interface (MAPI), such as data types, functions, and properties, that were previously not exposed and documented as part of the MAPI Programmer's Reference. They include the following definitions and properties.
   
@@ -234,11 +234,11 @@ The following properties are exposed by store objects and are used in searching 
 
 #### Concepts
 
-[How to: Access a Store on the Remote Server When Outlook is in Cached Exchange Mode](how-to-access-a-store-on-remote-server-when-outlook-is-in-cached-exchange-mode.md)
+[Access a Store on the Remote Server When Outlook is in Cached Exchange Mode](how-to-access-a-store-on-remote-server-when-outlook-is-in-cached-exchange-mode.md)
   
-[How to: Detect the Version of Exchange Server in an Outlook Profile](how-to-detect-the-version-of-exchange-server-in-an-outlook-profile.md)
+[Detect the Version of Exchange Server in an Outlook Profile](how-to-detect-the-version-of-exchange-server-in-an-outlook-profile.md)
   
-[How to: Open a Store on the Remote Server When Outlook is in Cached Exchange Mode](how-to-open-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode.md)
+[Open a Store on the Remote Server When Outlook is in Cached Exchange Mode](how-to-open-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode.md)
   
-[How to: Manage a Message in an OST Without Invoking a Synchronization in Cached Exchange Mode](how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md)
+[Manage a Message in an OST Without Invoking a Synchronization in Cached Exchange Mode](how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md)
 

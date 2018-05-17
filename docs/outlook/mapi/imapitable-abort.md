@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMAPITable::Abort
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Stops any asynchronous operations currently in progress for the table.
   

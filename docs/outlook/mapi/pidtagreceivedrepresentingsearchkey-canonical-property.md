@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagReceivedRepresentingSearchKey Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the search key for the messaging user represented by the receiving user.
   

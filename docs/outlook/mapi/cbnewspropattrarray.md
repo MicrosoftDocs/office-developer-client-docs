@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # CbNewSPropAttrArray
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Computes the number of bytes that should be allocated for a new [SPropAttrArray](spropattrarray.md) structure that contains a specified number of property attributes. 
   

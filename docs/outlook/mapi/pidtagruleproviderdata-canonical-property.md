@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagRuleProviderData Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 An opaque property that the client sets for the exclusive use of the client. 
   

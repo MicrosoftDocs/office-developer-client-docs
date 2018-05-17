@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIFormMgr::SelectFormContainer
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Presents a dialog box that enables the user to select a form container, and returns an interface for the container object the user selected.
   

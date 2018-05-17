@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagAttachDataBinary Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains binary attachment data typically accessed through the Object Linking and Embedding (OLE) **IStream** interface. 
   

@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Read-Only Message Stores
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 A read-only message store is one in which neither the MAPI client nor the MAPI spooler can create, modify, or delete the objects in the message store. There are many reasons why you might want to implement a read-only message store. For example, a credit reporting firm could use a read-only store to allow its customers or employees to see but not change individual credit reports. Choosing to make a read-only message store has implications for the structure of the store provider and for the store itself. For example, a read-only message store cannot have an Outbox folder, because then MAPI clients would request that new outgoing messages be created in that folder. Similarly, it is the store provider's responsibility to ensure the integrity of the underlying storage mechanism.
   

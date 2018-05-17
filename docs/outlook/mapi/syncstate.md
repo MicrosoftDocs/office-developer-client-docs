@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # SYNCSTATE
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 This structure defines the states for the replication state machine.
   

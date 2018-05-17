@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidFax1EntryId Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the EntryID of the contact's business fax address.
   

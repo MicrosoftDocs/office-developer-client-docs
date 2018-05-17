@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Gender
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the possible values for the gender of a messaging user.
   

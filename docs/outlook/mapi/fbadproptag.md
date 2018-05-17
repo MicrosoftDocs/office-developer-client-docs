@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # FBadPropTag
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Validates a specified property tag. 
   

@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMAPIOffline::SetCurrentState
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Sets the current state of an offline object to online or offline.
   

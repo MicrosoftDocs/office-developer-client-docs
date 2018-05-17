@@ -12,9 +12,9 @@ description: "Last modified: July 18, 2013"
 
 # Registering Services and Service Providers in MapiSvc.inf
 
- **Last modified:** July 18, 2013 
+ 
   
- * **Applies to:** Outlook * 
+**Applies to**: Outlook 
   
 Installing a new provider on a system requires updating the MapiSvc.inf file to point to the new provider. Standard properties set during configuration, which include the following, inform MAPI where to find the provider's dynamic-link library (.dll):
   

@@ -50,7 +50,7 @@ Following are examples of some applications that the PSI supports for server-sid
     
 - **Create PSI extensions** ( **Deprecated.** Extensions are deprecated in Project Server 2013, and will not be supported in future releases.) The PSI can be extended with custom services by using the Windows Communication Foundation (WCF) interface. PSI extensions run on the Project Server computer, and can use the same security infrastructure that the built-in PSI services use. Extensions can query the reporting tables, use separate database tables, consolidate PSI calls to save bandwidth, and integrate with third-party applications and other server-side components. For more information, see [Developing PSI Extensions](http://msdn.microsoft.com/library/1b484623-94fb-47c9-84c1-3e68a9133042%28Office.15%29.aspx).
     
-- **Use impersonation in local, full-trust applications** Calls to the WCF interface of the PSI can be impersonated, so that an application assumes the security permissions of the impersonated user. Impersonation should be used sparingly and carefully. Reading and updating status information for other users does not require impersonation. New applications that require impersonation should use the CSOM and the OAuth protocol instead of the PSI. For more information about impersonation with the PSI, see [How to: Use Impersonation with WCF](http://msdn.microsoft.com/library/e3597901-2f02-44a2-8076-d32aae540b38%28Office.15%29.aspx).
+- **Use impersonation in local, full-trust applications** Calls to the WCF interface of the PSI can be impersonated, so that an application assumes the security permissions of the impersonated user. Impersonation should be used sparingly and carefully. Reading and updating status information for other users does not require impersonation. New applications that require impersonation should use the CSOM and the OAuth protocol instead of the PSI. For more information about impersonation with the PSI, see [Use Impersonation with WCF](http://msdn.microsoft.com/library/e3597901-2f02-44a2-8076-d32aae540b38%28Office.15%29.aspx).
     
 > [!NOTE]
 > In some cases, the PSI can be used in client applications with the CSOM and Project Online. If you use an ASMX-based PSI web service, the application must include a method to authenticate the [Microsoft.ProjectServer.Client.ProjectContext](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.ProjectContext.aspx) object in the CSOM and a method to authenticate the **System.Web.Services.Protocols.SoapHttpClientProtocol** client object. For an example that uses a web service with the SharePoint CSOM, see [Remote Authentication in SharePoint Online Using Claims-Based Authentication](http://msdn.microsoft.com/library/49067f7a-3020-478f-ba97-4b7ce3ea9b87%28Office.15%29.aspx). > Because of constrained app-level permissions, the PSI cannot be used in apps that are designed for distribution in the public Office Store. In that case, you can use only the CSOM. 
@@ -229,7 +229,7 @@ For the project summary task, the PSI limitations are the same as for Project Pr
     
   - [PROJ_OPT_TASK_UPDATES_RES](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.ProjectRow.PROJ_OPT_TASK_UPDATES_RES.aspx)
     
-## Additional resources
+## See also
 <a name="pj14_WhatPSIDoes_AR"> </a>
 
 - [What the CSOM does and does not do](what-the-csom-does-and-does-not-do.md)

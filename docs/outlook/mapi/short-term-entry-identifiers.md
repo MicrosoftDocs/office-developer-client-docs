@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Short-Term Entry Identifiers
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 A short-term entry identifier is assigned by a service provider to an object when the identifier must be constructed quickly and does not need to last over time or distance. The uniqueness of a short-term entry identifier is guaranteed only over the life of the current session on the current workstation. Typically, a short-term entry identifier is valid only until the object that it represents is released. 
   

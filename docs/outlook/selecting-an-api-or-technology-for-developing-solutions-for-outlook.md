@@ -1,10 +1,8 @@
 ---
 title: "Selecting an API or technology for developing solutions for Outlook"
-
 manager: soliver
 ms.date: 10/21/2016
 ms.audience: Developer
-
 localization_priority: Normal
 ms.assetid: 01a46083-03d0-4333-920c-01a9f17f68cb
 description: "This article describes the APIs and technologies you can use to extend Outlook 2013, and helps you decide the appropriate API or technology for your scenario."
@@ -483,14 +481,14 @@ If you are interested in plugging in a third-party weather data service to the W
   
 Once you have decided on the APIs or technologies to use in your solution, you can refer to additional documentation and code samples in the [Additional resources—primary references, resources, and code samples](#OLSelectAPI_AdditionalResourcesRefCode) section for more information. 
   
-## Additional resources—Office Add-ins
+## See also: Office Add-ins
 <a name="OLSelectAPI_AdditionalResourcesApps"> </a>
 
 [Office Add-ins platform overview](http://msdn.microsoft.com/library/e64de870-ce22-4331-92e7-76d35279bf91%28Office.15%29.aspx) provides a good introduction of Office Add-ins, including the architecture and development life cycle. 
   
 See [Outlook add-ins](http://msdn.microsoft.com/library/71e64bc9-e347-4f5d-8948-0a47b5dd93e6%28Office.15%29.aspx) for a detailed roadmap of resources about developing mail apps. 
   
-## Additional resources—object model and PIA
+## See also: Object model and PIA
 <a name="OLSelectAPI_AdditionalResourcesObjModelPIA"> </a>
 
 The following resources provide more information about using the object model and PIA.
@@ -509,7 +507,7 @@ The following resources provide more information about using the object model an
     
 - [Using Multiple Accounts for the Same Profile on Outlook](http://msdn.microsoft.com/library/9e06e076-d62a-37c8-4502-709da5a0b104%28Office.15%29.aspx)
     
-- [How to: Obtain Information for Multiple Accounts](http://msdn.microsoft.com/library/af587ee2-429a-252f-ecb6-2f058b9a37a8%28Office.15%29.aspx)
+- [Obtain Information for Multiple Accounts](http://msdn.microsoft.com/library/af587ee2-429a-252f-ecb6-2f058b9a37a8%28Office.15%29.aspx)
     
 - [Manipulating Multiple Exchange Accounts in Outlook 2010](http://msdn.microsoft.com/library/b5a80da9-102d-4617-8a06-49ded01a237a%28Office.15%29.aspx)
     
@@ -520,9 +518,9 @@ The following resources provide more information about using the object model an
     
 - [Access Exchange User or Distribution List Information from the Address Book](http://msdn.microsoft.com/library/077a8666-09c5-e641-0b9b-7d83133d931f%28Office.15%29.aspx)
     
-- [How to: List the Groups that My Manager Belongs to](http://msdn.microsoft.com/library/2f0ff92c-e026-4f62-c039-fbda9aaf1546%28Office.15%29.aspx)
+- [List the Groups that My Manager Belongs to](http://msdn.microsoft.com/library/2f0ff92c-e026-4f62-c039-fbda9aaf1546%28Office.15%29.aspx)
     
-- [How to: List the Name and Office Location of Each Manager Belonging to an Exchange Distribution List](http://msdn.microsoft.com/library/abc26854-62db-be7f-4025-46acbcb42541%28Office.15%29.aspx)
+- [List the Name and Office Location of Each Manager Belonging to an Exchange Distribution List](http://msdn.microsoft.com/library/abc26854-62db-be7f-4025-46acbcb42541%28Office.15%29.aspx)
     
 - [AddressEntries](http://msdn.microsoft.com/library/db91b717-07c6-d1f2-c545-b766ee1f0c6b%28Office.15%29.aspx) object 
     
@@ -537,7 +535,7 @@ The following resources provide more information about using the object model an
 ### Attachments
 <a name="OLSelectAPI_Attachments"> </a>
 
-- [How to: Attach a File to a Mail Item](http://msdn.microsoft.com/library/1d94629b-e713-92cb-32de-c8910612e861%28Office.15%29.aspx)
+- [Attach a File to a Mail Item](http://msdn.microsoft.com/library/1d94629b-e713-92cb-32de-c8910612e861%28Office.15%29.aspx)
     
 - [Attachment file types restricted by Outlook 2010](http://technet.microsoft.com/en-us/library/cc179163.aspx)
     
@@ -581,7 +579,7 @@ The following resources provide more information about using the object model an
     
 - [Best Practices in Developing Managed Outlook Add-Ins](http://msdn.microsoft.com/library/a03246f6-2ca5-4fcb-8e63-a11cfbc8d9a0%28Office.15%29.aspx)
     
-- [How to: Obtain and Log On to an Instance of Outlook ](http://msdn.microsoft.com/library/ef369364-6500-2759-3ef4-ed4411112e96%28Office.15%29.aspx)
+- [Obtain and Log On to an Instance of Outlook ](http://msdn.microsoft.com/library/ef369364-6500-2759-3ef4-ed4411112e96%28Office.15%29.aspx)
     
 - [Automating Outlook from a Visual Basic Application](http://msdn.microsoft.com/library/623f91af-cd50-1ff0-9519-5a39cbcf5d18%28Office.15%29.aspx)
     
@@ -608,7 +606,7 @@ The following resources provide more information about using the object model an
 
 - [Managing Outlook Items as Conversations](http://msdn.microsoft.com/library/d91959d7-07b2-7952-8e6d-a39422d355e0%28Office.15%29.aspx)
     
-- [How to: Obtain and Enumerate Selected Conversations](http://msdn.microsoft.com/library/3bba1e98-b2eb-c53d-354a-bdd899b65a59%28Office.15%29.aspx)
+- [Obtain and Enumerate Selected Conversations](http://msdn.microsoft.com/library/3bba1e98-b2eb-c53d-354a-bdd899b65a59%28Office.15%29.aspx)
     
 - [Conversation](http://msdn.microsoft.com/library/2705d38a-ebc0-e5a7-208b-ffe1f5446b1b%28Office.15%29.aspx) object 
     
@@ -623,7 +621,7 @@ The following resources provide more information about using the object model an
 
 - [Working with Outlook Events](http://msdn.microsoft.com/library/514f8f31-8047-2a9f-cbac-d0a23218f49c%28Office.15%29.aspx)
     
-- [How to: Implement a Wrapper for Inspectors and Track Item-Level Events in Each Inspector](http://msdn.microsoft.com/library/8021dd2b-c36c-492b-b281-783e85140ad8%28Office.15%29.aspx)
+- [Implement a Wrapper for Inspectors and Track Item-Level Events in Each Inspector](http://msdn.microsoft.com/library/8021dd2b-c36c-492b-b281-783e85140ad8%28Office.15%29.aspx)
     
 ### Explorer: inline response
 <a name="OLSelectAPI_InlineResponse"> </a>
@@ -704,7 +702,7 @@ See the following task-related properties in some item objects such as the [Mail
     
 - [Managing Rules in the Outlook Object Model](http://msdn.microsoft.com/library/05ddd643-e9bd-a37d-b680-b8519960a5f6%28Office.15%29.aspx)
     
-- [How to: Create a Rule to Move Specific E-mails to a Folder](http://msdn.microsoft.com/library/e72fa307-8224-c2d2-1318-a18cd8e9f22f%28Office.15%29.aspx)
+- [Create a Rule to Move Specific E-mails to a Folder](http://msdn.microsoft.com/library/e72fa307-8224-c2d2-1318-a18cd8e9f22f%28Office.15%29.aspx)
     
 - [Rules](http://msdn.microsoft.com/library/dd41b4de-bf5f-5532-46c9-394a5d078bec%28Office.15%29.aspx) object 
     
@@ -761,7 +759,7 @@ See the following task-related properties in some item objects such as the [Mail
     
 - [Form Regions](http://msdn.microsoft.com/library/66e80f83-60db-e3b1-47e9-097f855f6512%28Office.15%29.aspx)
     
-- [How to: Create a Form Region](http://msdn.microsoft.com/library/695b95a5-c795-cb4a-8d35-ba12b0007b1f%28Office.15%29.aspx)
+- [Create a Form Region](http://msdn.microsoft.com/library/695b95a5-c795-cb4a-8d35-ba12b0007b1f%28Office.15%29.aspx)
     
 - [Walkthrough: Add a Form Region to an Existing Page on a Form ](http://msdn.microsoft.com/library/3c988dac-f171-966d-cf9a-17139353d604%28Office.15%29.aspx)
     
@@ -822,7 +820,7 @@ See the following task-related properties in some item objects such as the [Mail
     
 - [SolutionsModule](http://msdn.microsoft.com/library/4597765e-a95d-bf07-2ac4-103218ebc696%28Office.15%29.aspx) object 
     
-## Additional resources—Auxiliary APIs
+## See also: Auxiliary APIs
 <a name="OLSelectAPI_AdditionalResourcesAuxAPIs"> </a>
 
 The following resources provide more information about the Outlook auxiliary APIs.
@@ -841,7 +839,7 @@ The following resources provide more information about the Outlook auxiliary API
     
 ### Contact pictures
 
-- [How to: Specify whether to display a contact's picture in Outlook (Outlook Auxiliary Reference)](https://msdn.microsoft.com/en-us/library/office/gg262879.aspx)
+- [Specify whether to display a contact's picture in Outlook (Outlook Auxiliary Reference)](https://msdn.microsoft.com/en-us/library/office/gg262879.aspx)
     
 ### Data degradation
 
@@ -853,13 +851,13 @@ The following resources provide more information about the Outlook auxiliary API
 
 - [About the Free/Busy API](auxiliary/about-the-free-busy-api.md)
     
-- [How to: Use relative time to access free/busy data](auxiliary/how-to-use-relative-time-to-access-free-busy-data.md)
+- [Use relative time to access free/busy data](auxiliary/how-to-use-relative-time-to-access-free-busy-data.md)
     
 - [Free/busy API reference](auxiliary/free-busy-api-reference.md)
     
 ### Item currency
 
-- [How to: Determine whether an Outlook item has been modified but not saved (Outlook Auxiliary Reference)](auxiliary/how-to-determine-whether-an-outlook-item-has-been-modified-but-not-saved-outlook.md)
+- [Determine whether an Outlook item has been modified but not saved (Outlook Auxiliary Reference)](auxiliary/how-to-determine-whether-an-outlook-item-has-been-modified-but-not-saved-outlook.md)
     
 ### Rebase calendars
 
@@ -867,13 +865,13 @@ The following resources provide more information about the Outlook auxiliary API
     
 - [About persisting TZDEFINITION to a stream to commit to a binary property](auxiliary/about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property.md)
     
-- [How to: Parse a stream from a binary property to read the TZDEFINITION structure](auxiliary/how-to-parse-a-stream-from-a-binary-property-to-read-the-tzdefinition-structure.md)
+- [Parse a stream from a binary property to read the TZDEFINITION structure](auxiliary/how-to-parse-a-stream-from-a-binary-property-to-read-the-tzdefinition-structure.md)
     
-- [How to: Parse a stream from a binary property to read the TZREG structure](auxiliary/how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md)
+- [Parse a stream from a binary property to read the TZREG structure](auxiliary/how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md)
     
-- [How to: Read time zone properties from an appointment](auxiliary/how-to-read-time-zone-properties-from-an-appointment.md)
+- [Read time zone properties from an appointment](auxiliary/how-to-read-time-zone-properties-from-an-appointment.md)
     
-## Additional resources—primary references, resources, and code samples
+## See also: Primary references, resources, and code samples
 <a name="OLSelectAPI_AdditionalResourcesRefCode"> </a>
 
 The following resources provide more information about the primary Outlook references, resources, and code samples.

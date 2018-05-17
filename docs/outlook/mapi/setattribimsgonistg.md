@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # SetAttribIMsgOnIStg
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Sets or alters attributes of properties on an [IMessage](imessageimapiprop.md) object supplied by the [OpenIMsgOnIStg](openimsgonistg.md) function. 
   

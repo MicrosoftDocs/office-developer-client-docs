@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # GetInstance
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Copies one value within a multivalued property to a single-valued property of the same type. 
   

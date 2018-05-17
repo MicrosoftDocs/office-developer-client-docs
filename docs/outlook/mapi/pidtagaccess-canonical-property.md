@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagAccess Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a bitmask of flags indicating the operations that are available to the client for the object.
   

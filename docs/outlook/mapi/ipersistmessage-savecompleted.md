@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IPersistMessage::SaveCompleted
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Notifies the form that a save operation has been completed. 
   

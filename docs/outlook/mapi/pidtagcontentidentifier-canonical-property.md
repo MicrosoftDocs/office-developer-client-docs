@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagContentIdentifier Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a key value that enables the message recipient to identify its content.
   

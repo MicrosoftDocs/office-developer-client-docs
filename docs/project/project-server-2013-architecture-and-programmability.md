@@ -54,7 +54,7 @@ The articles in the  *Architecture and programmability*  section do not document
   
 Visual Basic for Applications (VBA) help is available in the Visual Basic editor within Project Standard and Project Professional.
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Updates for developers in Project 2013](updates-for-developers-in-project-2013.md)

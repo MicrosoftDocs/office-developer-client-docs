@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # MAPI Special Folders
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 MAPI defines a few folders that are special because they serve predefined roles as default folders for certain types of messages. These special folders typically cannot be deleted, and they have special entry identifier properties.
   

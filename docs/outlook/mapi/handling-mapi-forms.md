@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Handling MAPI Forms
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 A MAPI form is a viewer for a message of a particular class. Clients that allow their users to work with messages belonging to a variety of message classes must be written to handle a variety of MAPI forms. To handle multiple forms, clients implement a component known as a form viewer which contains the following three objects:
   

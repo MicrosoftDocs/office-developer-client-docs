@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagTransportKey Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a value used by the MAPI spooler to track the progress of an outbound message through the outgoing transport providers.
   

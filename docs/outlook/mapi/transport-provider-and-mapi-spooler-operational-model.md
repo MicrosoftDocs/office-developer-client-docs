@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Transport Provider and MAPI Spooler Operational Model
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Transport provider initialization, startup, processing, shutdown and deinitialization are accomplished by a series of calls from the MAPI spooler to the transport provider. The calls are sequenced as follows:
   

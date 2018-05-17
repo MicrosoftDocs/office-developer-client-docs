@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Accessing the Members of a Distribution List
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
  **To get the members of a distribution list**
   

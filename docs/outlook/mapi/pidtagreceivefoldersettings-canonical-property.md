@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagReceiveFolderSettings Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a table of a message store's receive folder settings.
   

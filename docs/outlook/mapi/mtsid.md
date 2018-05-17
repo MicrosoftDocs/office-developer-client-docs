@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # MTSID
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains an X.400 message transport system (MTS) entry identifier. 
   

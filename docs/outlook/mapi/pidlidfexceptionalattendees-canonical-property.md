@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidFExceptionalAttendees Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Indicates whether this property is a recurring calendar object with one or more exceptions, and at least one of the exception embedded messages has at least one RecipientRow.
   

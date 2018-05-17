@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidLogDocumentPosted Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Indicates whether the document was sent by e-mail or posted to a server folder during journaling.
   

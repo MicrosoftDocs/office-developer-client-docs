@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # MAPI File Formats
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 MAPI publishes the formats of various configuration files that clients and service providers use to describe message services and their service providers and forms.
   

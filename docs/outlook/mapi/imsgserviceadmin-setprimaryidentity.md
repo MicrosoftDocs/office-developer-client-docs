@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMsgServiceAdmin::SetPrimaryIdentity
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Designates a message service to be the supplier of the primary identity for the profile.
   

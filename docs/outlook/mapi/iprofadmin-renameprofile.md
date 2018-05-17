@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IProfAdmin::RenameProfile
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Assigns a new name to a profile.
   

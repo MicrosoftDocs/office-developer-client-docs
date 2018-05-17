@@ -19,7 +19,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # TempActiveRow/TempActiveRow12
 
- * **Applies to:** Excel 2013 | Office 2013 | Visual Studio * 
+ **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 Framework library functions that create a temporary **XLOPER**/ **XLOPER12** containing an external reference to an entire row on the active sheet. 
   

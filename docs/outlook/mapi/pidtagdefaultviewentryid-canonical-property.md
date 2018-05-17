@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagDefaultViewEntryId Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the entry identifier of a folder's default view.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagContentIntegrityCheck Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains an ASN.1 content integrity check value that allows a message sender to protect message content from disclosure to unauthorized recipients.
   

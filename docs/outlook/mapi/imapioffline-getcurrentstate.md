@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMAPIOffline::GetCurrentState
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Gets the current online or offline state of an offline object.
   

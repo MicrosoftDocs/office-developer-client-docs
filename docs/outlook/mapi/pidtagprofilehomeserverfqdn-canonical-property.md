@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagProfileHomeServerFQDN Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Enables Kerberos authentication of a profile configuration.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMsgStore::OpenEntry
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Opens a folder or message and returns an interface pointer for further access. 
   

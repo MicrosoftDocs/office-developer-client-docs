@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIForm::DoVerb
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Requests that the form perform whatever tasks it associates with a specific verb.
   

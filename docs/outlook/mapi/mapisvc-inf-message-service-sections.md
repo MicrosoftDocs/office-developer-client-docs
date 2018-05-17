@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # MapiSvc.inf Message Service Sections
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 mapisvc.inf includes one message service section for each of the entries listed in the **[Services]** section. There are two types of entries in these sections: one for setting certain properties and the other for listing names of sections that are related to the message service being configured. 
   

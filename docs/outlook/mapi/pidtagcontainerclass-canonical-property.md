@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagContainerClass Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a text string describing the type of a folder. Although this property is generally ignored, versions of Microsoft® Exchange Server prior to Exchange Server 2003 Mailbox Manager expect this property to be present.
   

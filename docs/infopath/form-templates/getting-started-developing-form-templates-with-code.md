@@ -28,23 +28,23 @@ This section provides information on how to get started creating managed code fo
   
 > Describes the two kinds of programming models for developing business logic in form templates, and the Visual Studio 2012 development environment supported by InfoPath.
     
-[How to: Develop with Visual Studio](how-to-develop-with-visual-studio.md)
+[Develop with Visual Studio](how-to-develop-with-visual-studio.md)
   
 > Describes how to install the Visual Studio 2012 environment.
     
-[How to: Install Local .NET Framework Help for Visual Studio Tools for Applications](how-to-install-local-net-framework-help-for-visual-studio-tools-for-applications.md)
+[Install Local .NET Framework Help for Visual Studio Tools for Applications](how-to-install-local-net-framework-help-for-visual-studio-tools-for-applications.md)
   
 > Describes how to install a local copy of the .NET Framework documentation for offline use in the Visual Studio 2012 environment.
     
-[How to: Add an Event Handler](how-to-add-an-event-handler.md)
+[Add an Event Handler](how-to-add-an-event-handler.md)
   
 > Describes how to add event handlers to an InfoPath managed code form template. 
     
-[How to: Preview and Debug InfoPath Form Templates with Code](how-to-preview-and-debug-infopath-form-templates-with-code.md)
+[Preview and Debug InfoPath Form Templates with Code](how-to-preview-and-debug-infopath-form-templates-with-code.md)
   
 > Describes how to preview and debug InfoPath managed code form templates.
     
-[How to: Preview and Debug Form Templates that Require Full Trust](how-to-preview-and-debug-form-templates-that-require-full-trust.md)
+[Preview and Debug Form Templates that Require Full Trust](how-to-preview-and-debug-form-templates-that-require-full-trust.md)
   
 > Describes how to preview and debug InfoPath managed code form templates that contain business logic that requires full trust.
     
@@ -52,15 +52,15 @@ This section provides information on how to get started creating managed code fo
   
 > A step-by-step guide that provides an introduction to creating and debugging a basic InfoPath managed code form template 
     
-[How to: Log Values to a Field for Debugging](how-to-log-values-to-a-field-for-debugging.md)
+[Log Values to a Field for Debugging](how-to-log-values-to-a-field-for-debugging.md)
   
 > Describes how to create a multi-line field and a helper function for logging debugging information.
     
-[How to: Open or Convert a Form Template Created with the InfoPath Toolkit](how-to-open-or-convert-a-form-template-created-with-the-infopath-toolkit.md)
+[Open or Convert a Form Template Created with the InfoPath Toolkit](how-to-open-or-convert-a-form-template-created-with-the-infopath-toolkit.md)
   
 > Describes how to open or convert a managed code form template created with the InfoPath 2003 Toolkit and Visual Studio .NET or the InfoPath 2003 Toolkit for Visual Studio 2005.
     
-[How to: Deploy InfoPath Form Templates with Code](how-to-deploy-infopath-form-templates-with-code.md)
+[Deploy InfoPath Form Templates with Code](how-to-deploy-infopath-form-templates-with-code.md)
   
 > Describes how to deploy InfoPath managed code form templates.
     
@@ -68,11 +68,11 @@ This section provides information on how to get started creating managed code fo
   
 > Provides a summary of common tasks for developers of InfoPath managed code form templates.
     
-[How to: Work with the XPathNavigator and XPathNodeIterator Classes](how-to-work-with-the-xpathnavigator-and-xpathnodeiterator-classes.md)
+[Work with the XPathNavigator and XPathNodeIterator Classes](how-to-work-with-the-xpathnavigator-and-xpathnodeiterator-classes.md)
   
 > Provides a summary of the members of the InfoPath managed code object model that use the **XPathNavigator** and **XPathNodeIterator** classes to work with XML data. 
     
-[How to: Use SharePoint Object Model Members](how-to-use-sharepoint-object-model-members.md)
+[Use SharePoint Object Model Members](how-to-use-sharepoint-object-model-members.md)
   
 > Describes how to create a reference to the Microsoft.SharePoint assembly so that you can write code against its object model from form code.
     

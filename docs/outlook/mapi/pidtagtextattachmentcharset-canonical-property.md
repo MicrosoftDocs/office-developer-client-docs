@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagTextAttachmentCharset Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a message attachment's character set value.
   

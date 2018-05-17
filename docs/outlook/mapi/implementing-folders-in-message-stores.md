@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Implementing Folders in Message Stores
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 A great deal of the information that relates to message store provider support for folders is covered in [MAPI Folders](mapi-folders.md). You should be familiar with that information before attempting to implement a message store provider. The [MAPI Folders](mapi-folders.md) section is heavily oriented to the MAPI client's perspective; this topic covers additional information that is important from the message store provider's point of view. 
   

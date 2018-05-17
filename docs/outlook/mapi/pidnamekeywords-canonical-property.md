@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidNameKeywords Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains keywords or categories for the message object.
   

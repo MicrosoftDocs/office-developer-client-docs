@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # Normal State
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The Normal state is where the form object spends most of its time, waiting for client applications to initiate an action such as saving changes or closing the form. The following table describes allowed transitions from the Normal state.
   

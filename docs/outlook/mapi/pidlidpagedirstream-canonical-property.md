@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidPageDirStream Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Represents information about pages of the custom form associated with the message.
   

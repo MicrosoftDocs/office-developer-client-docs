@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagComment Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a comment about the purpose or content of an object. 
   

@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMessage::GetAttachmentTable
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Returns the message's attachment table.
   

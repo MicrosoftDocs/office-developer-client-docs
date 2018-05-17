@@ -16,7 +16,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # Accessing XLL Code in Excel
 
- * **Applies to:** Excel 2013 | Office 2013 | Visual Studio * 
+**Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 To be accessible in Microsoft Excel, the functions and commands that an XLL contains:
   
@@ -115,7 +115,7 @@ Starting in Excel 2007 user interface is very different from earlier versions. T
 
 [Creating XLLs](creating-xlls.md)
   
-[How to: Call XLL Functions from the Function Wizard or Replace Dialog Boxes](how-to-call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes.md)
+[Call XLL Functions from the Function Wizard or Replace Dialog Boxes](how-to-call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes.md)
   
 [Add-in Manager and XLL Interface Functions](add-in-manager-and-xll-interface-functions.md)
   

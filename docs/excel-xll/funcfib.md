@@ -18,7 +18,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # FuncFib
 
- * **Applies to:** Excel 2013 | Office 2013 | Visual Studio * 
+ **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 Example user-defined worksheet function that computes the Nth Fibonacci number. When GENERIC.xll is loaded, it registers this function so that it can be called from the worksheet.
   

@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # MapiSvc.inf [Default Services] Section
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The **[Default Services]** section lists all of the message services that are selected as default message services. These default message services are a subset of the message services listed in the **[Services]** section. When a profile configuration program creates a default profile, the message services in this section are automatically included. 
   

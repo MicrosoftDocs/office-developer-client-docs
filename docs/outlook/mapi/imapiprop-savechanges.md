@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMAPIProp::SaveChanges
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Makes permanent any changes that were made to an object since the last save operation. 
   

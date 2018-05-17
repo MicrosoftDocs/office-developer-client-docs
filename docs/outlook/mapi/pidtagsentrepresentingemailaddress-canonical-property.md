@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagSentRepresentingEmailAddress Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the e-mail address for the messaging user who is represented by the sender.
   

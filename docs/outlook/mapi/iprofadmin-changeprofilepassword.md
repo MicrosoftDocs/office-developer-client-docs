@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IProfAdmin::ChangeProfilePassword
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Deprecated. Changes the password for a profile.
   

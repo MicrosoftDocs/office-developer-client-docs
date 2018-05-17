@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # MAPIOFFLINE_NOTIFY
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 This is the notification for a change in the connection state. It indicates the part of the connection state that has changed, the old connection state, and the new connection state.
   

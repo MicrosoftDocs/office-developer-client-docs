@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # Threading in MAPI
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 A thread is the basic entity to which an operating system allocates CPU time. A thread has its own registers, stack, priority, and storage, but shares an address space and process resources such as access tokens. Threads also share memory, with one thread reading what another thread has written.
   

@@ -1,5 +1,5 @@
 ---
-title: "How to Remove Custom Form Definition Saved With a Message"
+title: "Remove Custom Form Definition Saved With a Message"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,11 +10,11 @@ description: "Last modified: June 25, 2012"
  
 ---
 
-# How to: Remove Custom Form Definition Saved With a Message
+# Remove Custom Form Definition Saved With a Message
 
- **Last modified:** June 25, 2012 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 This topic shows a code sample in C++ that converts a message that has been saved with a custom form definition to a regular message without the form definition.
   

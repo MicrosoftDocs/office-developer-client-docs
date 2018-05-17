@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMAPISupport::Subscribe
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Registers an advise sink to receive notifications through MAPI.
   

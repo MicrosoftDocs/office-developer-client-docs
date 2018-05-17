@@ -32,7 +32,7 @@ Messages for a POP account are identified by unique identifiers (UIDs). An email
     
     This topic describes how to parse the POP3 BLOB that represents the UIDL history for messages in the client Inbox of a POP3 account, to identify the messages that have been downloaded or deleted on that account.
     
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Outlook account management](outlook-account-management.md)

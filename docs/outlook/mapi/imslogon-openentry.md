@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMSLogon::OpenEntry
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Opens a folder or message object and returns a pointer to the object to provide further access. 
   

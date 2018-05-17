@@ -1,5 +1,5 @@
 ---
-title: "How to Programmatically Set the Resolution Order for Address Lists"
+title: "Programmatically Set the Resolution Order for Address Lists"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,11 +10,11 @@ description: "Last modified: July 06, 2012"
  
 ---
 
-# How to: Programmatically Set the Resolution Order for Address Lists
+# Programmatically Set the Resolution Order for Address Lists
 
- **Last modified:** July 06, 2012 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 This topic contains a code sample in C++ that programmatically sets the order of address lists by which recipients in e-mail messages and attendees in meeting requests are resolved.
   

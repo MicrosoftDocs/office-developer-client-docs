@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # MAPI Client Objects
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Standard messaging client applications implement only one object — an advise sink. Advise sinks inherit from the [IMAPIAdviseSink : IUnknown](imapiadvisesinkiunknown.md) interface and are used by MAPI and service providers for event notification. Some clients also implement progress objects to support the display of progress dialog boxes. 
   

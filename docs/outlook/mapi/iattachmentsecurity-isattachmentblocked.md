@@ -18,9 +18,9 @@ description: "Last modified: June 25, 2012"
 
 # IAttachmentSecurity::IsAttachmentBlocked
 
- **Last modified:** June 25, 2012 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Checks if a specified attachment is blocked by Microsoft Outlook 2010 or Microsoft Outlook 2013 for viewing and indexing.
   
@@ -47,5 +47,5 @@ HRESULT IAttachmentSecurity::IsAttachmentBlocked(
 
 [MAPI Constants](mapi-constants.md)
   
-[How to: Verify an Attachment is Blocked](how-to-verify-an-attachment-is-blocked.md)
+[Verify an Attachment is Blocked](how-to-verify-an-attachment-is-blocked.md)
 

@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # Error Handling in MAPI
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Success, warning, and error values are returned using a 32-bit number known as a result handle, or HRESULT. An HRESULT is really not a handle to anything; it is merely a 32-bit value with several fields encoded in the value. A zero result indicates success and a nonzero result indicates failure.
   

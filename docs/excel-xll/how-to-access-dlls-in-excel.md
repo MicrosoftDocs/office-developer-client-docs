@@ -1,5 +1,5 @@
 ---
-title: "How to Access DLLs in Excel"
+title: "Access DLLs in Excel"
  
  
 manager: soliver
@@ -14,9 +14,9 @@ ms.assetid: e2bfd6ea-efa3-45c1-a5b8-2ccb8650c6ab
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---
 
-# How to: Access DLLs in Excel
+# Access DLLs in Excel
 
- * **Applies to:** Excel 2013 | Office 2013 | Visual Studio * 
+ **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 You can access a DLL function or command in Microsoft Excel in several ways:
   

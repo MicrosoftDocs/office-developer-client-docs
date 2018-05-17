@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IXPLogon::AddressTypes
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Returns the types of recipients that the transport provider handles.
   

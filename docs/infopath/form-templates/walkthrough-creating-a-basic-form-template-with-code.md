@@ -1,20 +1,16 @@
 ---
-title: "by opening a form template in the InfoPath designer, and then using one of the user interface commands to add an event handler, which will open the Visual Studio 2012 development environment for writing your code. By default, form template projects created using Visual Studio 2012 work against the managed code object model provided by the Microsoft.Office.InfoPath namespace.'"
- 
- 
+title: 'Walkthrough: Create a basic form template with code'
 manager: soliver
 ms.date: 12/7/2015
 ms.audience: Developer
- 
 keywords:
 - form templates [infopath 2007], creating managed code,managed code form templates [InfoPath 2007], creating,form templates [InfoPath 2007], walkthroughs,InfoPath 2007, walkthroughs
- 
 localization_priority: Normal
 ms.assetid: 0f55c8be-8641-476a-b0c8-c88adb2ac2b9
-description: "In Microsoft InfoPath, you can write business logic in Visual Basic or C# by opening a form template in the InfoPath designer, and then using one of the user interface commands to add an event handler, which will open the Visual Studio 2012 development environment for writing your code. By default, form template projects created using Visual Studio 2012 work against the managed code object model provided by the Microsoft.Office.InfoPath namespace."
+description: "In Microsoft InfoPath, you can write business logic in Visual Basic or C# by opening a form template in the InfoPath designer, and then using one of the user interface commands to add an event handler, which will open the Visual Studio 2012 development environment for writing your code."
 ---
 
-# Walkthrough: Creating a Basic Form Template with Code
+# Walkthrough: Create a basic form template with code
 
 In Microsoft InfoPath, you can write business logic in Visual Basic or C# by opening a form template in the InfoPath designer, and then using one of the user interface commands to add an event handler, which will open the Visual Studio 2012 development environment for writing your code. By default, form template projects created using Visual Studio 2012 work against the managed code object model provided by the [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) namespace. 
   
@@ -153,7 +149,7 @@ First, the [MainDataSource](https://msdn.microsoft.com/library/Microsoft.Office.
   
 The [SelectSingleNode](https://msdn.microsoft.com/library/system.xml.xpath.xpathnavigator.selectsinglenode%28v=vs.100%29.aspx) method of the **XPathNavigator** class is called to select the employee field in the form's data source. Finally, the [SetValue](https://msdn.microsoft.com/library/system.xml.xpath.xpathnavigator.setvalue%28v=vs.100%29.aspx) method is called to set the value of the field with the [UserName](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.User.UserName.aspx) property. 
   
-For more information on working with **System.Xml** in managed code form templates, see [How to: Work with the XPathNavigator and XPathNodeIterator Classes](how-to-work-with-the-xpathnavigator-and-xpathnodeiterator-classes.md).
+For more information on working with **System.Xml** in managed code form templates, see [Work with the XPathNavigator and XPathNodeIterator Classes](how-to-work-with-the-xpathnavigator-and-xpathnodeiterator-classes.md).
   
 ### Add a Loading event handler
 
@@ -198,11 +194,11 @@ For more information on working with **System.Xml** in managed code form templat
     
 ## Next steps
 
-- For information about working with event handlers for other controls and events, see [How to: Add an Event Handler](how-to-add-an-event-handler.md).
+- For information about working with event handlers for other controls and events, see [Add an Event Handler](how-to-add-an-event-handler.md).
     
-- For more information about previewing and debugging code in form templates, see [How to: Preview and Debug InfoPath Form Templates with Code](how-to-preview-and-debug-infopath-form-templates-with-code.md).
+- For more information about previewing and debugging code in form templates, see [Preview and Debug InfoPath Form Templates with Code](how-to-preview-and-debug-infopath-form-templates-with-code.md).
     
-- For information about how to deploy a managed-code form template, see [How to: Deploy InfoPath Form Templates with Code](how-to-deploy-infopath-form-templates-with-code.md).
+- For information about how to deploy a managed-code form template, see [Deploy InfoPath Form Templates with Code](how-to-deploy-infopath-form-templates-with-code.md).
     
 - For information about the InfoPath object model and common programming tasks in managed-code form templates, see [Understanding the InfoPath Object Model and Common Developer Tasks](understanding-the-infopath-object-model-and-common-developer-tasks.md)
     

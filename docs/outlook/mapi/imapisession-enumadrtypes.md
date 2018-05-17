@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMAPISession::EnumAdrTypes
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Deprecated. Returns the address types that can be handled by all of the transport providers in the session. 
   

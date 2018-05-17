@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMAPISession::OpenProfileSection
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Opens a section of the current profile and returns an [IProfSect](iprofsectimapiprop.md) pointer for further access. 
   

@@ -1,18 +1,15 @@
 ---
-title: "\* (Multiply) (Access custom web app)"
- 
- 
+title: "Multiply (Access custom web app)"
 manager: kelbow
 ms.date: 9/5/2017
 ms.audience: Developer
 ms.topic: reference
-  
 localization_priority: Normal
 ms.assetid: b6bd7d2e-3cb8-4be3-9716-1a666c66561e
 description: "Multiplies two expressions."
 ---
 
-# \* (Multiply) (Access custom web app)
+# Multiply (Access custom web app)
 
 Multiplies two expressions.
   
@@ -21,9 +18,11 @@ Multiplies two expressions.
   
 ## Syntax
 
- *expression*  \*  *expression* 
+`* (Multiply)`
+
+*expression*  \*  *expression* 
   
- *expression*  Any valid expression of any one of the data types in the numeric category. 
+*expression*  Any valid expression of any one of the data types in the numeric category. 
   
 ## Return Value
 

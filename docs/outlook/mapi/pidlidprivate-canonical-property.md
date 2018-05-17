@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidPrivate Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Indicates whether the end-user wants this message object hidden from other users who have access to the message object.
   

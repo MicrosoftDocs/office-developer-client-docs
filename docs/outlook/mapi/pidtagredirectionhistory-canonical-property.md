@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagRedirectionHistory Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains information about the route covered by a delivered message.
   

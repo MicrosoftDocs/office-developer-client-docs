@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Searching the Address Book
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 MAPI enables address book providers to implement two levels of search functionality:
   

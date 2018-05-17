@@ -263,7 +263,7 @@ My Application Page
 
 ```
 
-## Additional resources
+## See also
 <a name="pj15_GetStartedJSOM_AR"> </a>
 
 - [Create, retrieve, update, and delete projects by using the Project Server JavaScript object model](create-retrieve-update-and-delete-projects-using-the-project-server-javascript.md)

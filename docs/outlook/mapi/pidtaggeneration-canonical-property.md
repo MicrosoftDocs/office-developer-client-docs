@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagGeneration Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a generational abbreviation that follows the full name of the recipient. 
   

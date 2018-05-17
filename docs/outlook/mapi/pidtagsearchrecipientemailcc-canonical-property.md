@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagSearchRecipientEmailCc Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a Unicode string that is being queried in the list of email addresses or display names of recipients that are addressed in the **CC** line of messages on the store. 
   

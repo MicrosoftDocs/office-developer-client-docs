@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMsgServiceAdmin::DeleteMsgService
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Deletes a message service from a profile.
   

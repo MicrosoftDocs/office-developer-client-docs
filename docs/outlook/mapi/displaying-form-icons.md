@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Displaying Form Icons
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 When displaying a list of messages in a folder, it is helpful to your users if you distinguish messages with custom message classes from the standard IPM.Note messages. Custom message classes correspond to form servers, and form servers provide icons to represent themselves. You can display these icons in the list of messages to alert users to each message's message class before the user opens the messages. Typically, the icon in the form's **PR_MINI_ICON** ( [PidTagMiniIcon](pidtagminiicon-canonical-property.md)) property is the one that should be displayed in the list of messages. Forms also have a **PR_ICON** ( [PidTagIcon](pidtagicon-canonical-property.md)) property that can be displayed when the form is minimized in a property sheet.
   

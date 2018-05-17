@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIProgress::GetFlags
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Returns flag settings from the progress object for the level of operation on which progress information is calculated.
   
@@ -58,7 +58,7 @@ Always initialize the flag to MAPI_TOP_LEVEL and then rely on service providers 
   
 ## Notes to Callers
 
-When you display a progress indicator, make your first call a call to **IMAPIProgress::GetFlags**. The returned value should be MAPI_TOP_LEVEL, because all implementations initialize the contents of the  _lpulFlags_ parameter to this value. For more information about the sequence of calls to a progress object, see [How to: Display a Progress Indicator](how-to-display-a-progress-indicator.md).
+When you display a progress indicator, make your first call a call to **IMAPIProgress::GetFlags**. The returned value should be MAPI_TOP_LEVEL, because all implementations initialize the contents of the  _lpulFlags_ parameter to this value. For more information about the sequence of calls to a progress object, see [Display a Progress Indicator](how-to-display-a-progress-indicator.md).
   
 ## MFCMAPI Reference
 
@@ -79,7 +79,7 @@ For MFCMAPI sample code, see the following table.
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
   
-[How to: Display a Progress Indicator](how-to-display-a-progress-indicator.md)
+[Display a Progress Indicator](how-to-display-a-progress-indicator.md)
   
 [Implementing a Progress Indicator](implementing-a-progress-indicator.md)
 

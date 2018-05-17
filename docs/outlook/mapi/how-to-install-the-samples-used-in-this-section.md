@@ -1,5 +1,5 @@
 ---
-title: "How to Install the Samples Used in This Section"
+title: "Install the Samples Used in This Section"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,11 +12,11 @@ description: "Last modified: July 23, 2011"
  
 ---
 
-# How to: Install the Samples Used in This Section
+# Install the Samples Used in This Section
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 To install the MFCMAPI application and CreateOutlookItemsAddin project to view and run the sample code referenced by the topics in the [Creating Outlook Items by Using MAPI](creating-outlook-items-by-using-mapi.md) section, follow these steps. 
   
@@ -87,11 +87,11 @@ Some topics refer to source code from the MFCMAPI application itself. The follow
 
 #### Concepts
 
-[How to: Create a Simple Mail Item](how-to-create-a-simple-mail-item.md)
+[Create a Simple Mail Item](how-to-create-a-simple-mail-item.md)
   
-[How to: Create a Simple Recurrent Task Item](how-to-create-a-simple-recurrent-task-item.md)
+[Create a Simple Recurrent Task Item](how-to-create-a-simple-recurrent-task-item.md)
   
-[How to: Create a Complex Recurrent Appointment Item](how-to-create-a-complex-recurrent-appointment-item.md)
+[Create a Complex Recurrent Appointment Item](how-to-create-a-complex-recurrent-appointment-item.md)
   
-[How to: Read and Parse a Recurrence Pattern](how-to-read-and-parse-a-recurrence-pattern.md)
+[Read and Parse a Recurrence Pattern](how-to-read-and-parse-a-recurrence-pattern.md)
 

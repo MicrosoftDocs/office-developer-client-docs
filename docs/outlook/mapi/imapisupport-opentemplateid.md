@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMAPISupport::OpenTemplateID
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Opens a recipient entry in a foreign address book provider.
   

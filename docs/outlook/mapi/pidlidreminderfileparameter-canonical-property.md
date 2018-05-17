@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidReminderFileParameter Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the filename of the sound that a client should play when the reminder for that object becomes overdue.
   

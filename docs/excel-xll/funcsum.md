@@ -18,7 +18,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # FuncSum
 
- * **Applies to:** Excel 2013 | Office 2013 | Visual Studio * 
+ **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 Example user-defined worksheet function that takes 1 to 29 arguments and computes their sum. Each argument can be a single number, a range, or an array. When GENERIC.xll is loaded, it registers this function so that it can be called from the worksheet. 
   

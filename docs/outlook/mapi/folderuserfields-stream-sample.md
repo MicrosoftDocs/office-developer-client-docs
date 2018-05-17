@@ -12,9 +12,9 @@ description: "Last modified: March 09, 2015"
 
 # FolderUserFields Stream Sample
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 This topic describes an example of a FolderUserFields stream. The stream contains a definition of a user-defined field,  `TextField1`. The type is **Text**, and the FolderUserFields stream contains both FolderUserFieldsAnsi and FolderUserFieldsUnicode parts. For more information see [Folder Fields Stream Structures](folder-fields-stream-structures.md).
   

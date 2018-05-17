@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidAppointmentProposedEndWhole Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the proposed value for the **dispidApptEndWhole** ( [PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)) property for a counter proposal.
   

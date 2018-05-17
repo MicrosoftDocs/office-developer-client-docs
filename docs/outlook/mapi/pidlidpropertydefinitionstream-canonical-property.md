@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidPropertyDefinitionStream Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Represents definitions of user-defined fields and data-binding settings of built-in fields of a message.
   
@@ -58,7 +58,7 @@ Mapidefs.h
 
 [Outlook Items and Fields](outlook-items-and-fields.md)
   
-[How to: Add a Definition for a New User-Defined Field](how-to-add-a-definition-for-a-new-user-defined-field.md)
+[Add a Definition for a New User-Defined Field](how-to-add-a-definition-for-a-new-user-defined-field.md)
   
 [PropertyDefinition Stream Sample](propertydefinition-stream-sample.md)
   

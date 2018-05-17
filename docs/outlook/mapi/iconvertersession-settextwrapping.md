@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IConverterSession::SetTextWrapping
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Sets the text wrapping width for a MIME stream that the converter will return in [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md).
   

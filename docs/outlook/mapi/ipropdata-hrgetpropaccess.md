@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IPropData::HrGetPropAccess
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Retrieves the access level and status for one or more of the object's properties.
   

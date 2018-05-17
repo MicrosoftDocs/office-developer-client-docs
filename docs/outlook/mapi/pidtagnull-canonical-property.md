@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagNull Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Represents a null value or setting of a property or reserves array space.
   

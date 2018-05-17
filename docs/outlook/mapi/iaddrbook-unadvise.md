@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IAddrBook::Unadvise
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Cancels a notification registration previously established for an address book entry.
   

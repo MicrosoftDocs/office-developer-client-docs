@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # HrIStorageFromStream
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Layers an **IStorage** interface onto an **IStream** object. 
   

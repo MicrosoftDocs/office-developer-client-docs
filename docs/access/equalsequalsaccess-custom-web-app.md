@@ -1,18 +1,14 @@
 ---
-title: "= (Equals) (Access custom web app)"
-  
-  
+title: "Equals(Access custom web app)"
 manager: kelbow
 ms.date: 9/5/2017
 ms.audience: Developer
- 
-  
 localization_priority: Normal
 ms.assetid: 70bc707a-3a61-4d75-816d-0defd0806319
 description: "Compares the equality of two expressions."
 ---
 
-# = (Equals) (Access custom web app)
+# Equals (Access custom web app)
 
 Compares the equality of two expressions.
   
@@ -21,13 +17,15 @@ Compares the equality of two expressions.
   
 ## Syntax
 
- *expression*  =  *expression* 
+`= (Equals)`
+
+*expression*  =  *expression* 
   
- *expression*  Is any valid expression. If the expressions are not of the same data type, the data type for one expression must be implicitly convertible to the data type of the other. The conversion depends on the rules of data type precedence. 
+*expression*  Is any valid expression. If the expressions are not of the same data type, the data type for one expression must be implicitly convertible to the data type of the other. The conversion depends on the rules of data type precedence. 
   
 ## Return Type
 
- **Boolean**
+**Boolean**
   
 ## Remarks
 

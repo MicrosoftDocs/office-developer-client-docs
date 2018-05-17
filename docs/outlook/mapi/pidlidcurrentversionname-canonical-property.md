@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidCurrentVersionName Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a String that indicates the major and minor version number of the Outlook application for an item.
   

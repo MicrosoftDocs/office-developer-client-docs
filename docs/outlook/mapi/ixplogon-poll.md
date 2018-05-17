@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IXPLogon::Poll
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Indicates whether the transport provider has received one or more inbound messages.
   

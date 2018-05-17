@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # LPFNBUTTON
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Defines a callback function that MAPI calls to activate an optional button control in an address book dialog box. This button is typically a **Details** button. 
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # CbMAPIVerbArray
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Computes the number of bytes in an existing [SMAPIVerbArray](smapiverbarray.md) structure that contains a specified number of [SMAPIVerb](smapiverb.md) structures. 
   

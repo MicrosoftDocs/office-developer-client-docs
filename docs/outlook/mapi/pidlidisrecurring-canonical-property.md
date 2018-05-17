@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidIsRecurring Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies whether or not the object is associated with a recurring series.
   

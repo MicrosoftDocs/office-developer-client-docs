@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Retrieving Recipient Properties
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
  **To access one or more properties of an address book entry**
   

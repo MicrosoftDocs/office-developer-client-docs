@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMAPIContainer::OpenEntry
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Opens an object in the container, returning an interface pointer for further access.
   

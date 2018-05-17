@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # MAPIDeInitIdle
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Shuts down the MAPI idle engine for the calling application. 
   

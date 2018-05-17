@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IABLogon::OpenTemplateID
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Opens a recipient entry that has data residing in a host address book provider.
   

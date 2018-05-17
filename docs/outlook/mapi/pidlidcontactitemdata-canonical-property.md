@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidContactItemData Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Used to display the contact information.
   

@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IABContainer::CopyEntries
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Copies one or more entries, typically messaging users or distribution lists.
   

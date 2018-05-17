@@ -1,5 +1,5 @@
 ---
-title: "How to Develop with Visual Studio"
+title: "Develop with Visual Studio"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: e39d633d-d8fb-4e2f-a396-6cb50beb8c3e
 description: "You can greatly enhance the functionality of your InfoPath forms by extending them with managed code developed in Visual Studio 2012. You can then publish your forms with code to form libraries on SharePoint Server 2013."
 ---
 
-# How to: Develop with Visual Studio
+# Develop with Visual Studio
 
 You can greatly enhance the functionality of your InfoPath forms by extending them with managed code developed in Visual Studio 2012. You can then publish your forms with code to form libraries on SharePoint Server 2013.
   
@@ -70,6 +70,6 @@ You can now start to develop with InfoPath 2013 and Visual Studio 2012.
 2. Click **Code Editor** on the **Developer** tab. 
     
 > [!TIP]
-> You can also start the code editor and automatically add event handlers for form and control events using commands on the **Developer** tab, context menus, and other user interface methods. For more information, see [How to: Add an Event Handler](how-to-add-an-event-handler.md)
+> You can also start the code editor and automatically add event handlers for form and control events using commands on the **Developer** tab, context menus, and other user interface methods. For more information, see [Add an Event Handler](how-to-add-an-event-handler.md)
   
 

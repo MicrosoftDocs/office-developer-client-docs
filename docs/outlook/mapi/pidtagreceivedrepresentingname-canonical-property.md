@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagReceivedRepresentingName Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the display name for the messaging user who is represented by the receiving user.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # FBinFromHex
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Converts a string representation of a hexadecimal number to binary data. 
   

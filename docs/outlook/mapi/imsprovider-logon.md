@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMSProvider::Logon
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Logs MAPI on to one instance of a message store provider.
   

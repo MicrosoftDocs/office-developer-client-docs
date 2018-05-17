@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PROP_TYPE
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Returns the property type of a specified property tag.
   

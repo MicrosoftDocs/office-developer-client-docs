@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMAPIClientShutdown::QueryFastShutdown
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Queries the MAPI subsystem for fast shutdown support that is provided by loaded MAPI providers.
   

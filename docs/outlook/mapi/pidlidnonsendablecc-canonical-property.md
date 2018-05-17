@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidNonSendableCc Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a list of all the unsendable attendees who are also optional attendees.
   

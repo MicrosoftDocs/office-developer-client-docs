@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # One-Off Addresses
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 One-off addresses are used to send messages to one-off recipients, recipients that do not have a corresponding entry in any of the session's address book containers. Clients can create one-off addresses when they add new entries to the address book or new recipients to the recipient list of an outgoing message. One-off addresses can be added to any container that is modifiable.
   

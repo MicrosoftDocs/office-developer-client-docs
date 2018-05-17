@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagInternetCodepage Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Indicates the code page used for **PR_BODY** ( [PidTagBody](pidtagbody-canonical-property.md)) or **PR_BODY_HTML** ( [PidTagBodyHtml](pidtagbodyhtml-canonical-property.md)) properties.
   

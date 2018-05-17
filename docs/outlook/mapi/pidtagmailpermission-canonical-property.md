@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagMailPermission Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains TRUE if the messaging user is allowed to send and receive messages. 
   

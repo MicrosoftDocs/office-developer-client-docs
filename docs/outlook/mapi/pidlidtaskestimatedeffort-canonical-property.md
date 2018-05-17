@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidTaskEstimatedEffort Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Indicates the amount of time, in minutes, that the user expects to perform a task.
   

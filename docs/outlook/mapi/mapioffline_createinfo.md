@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # MAPIOFFLINE_CREATEINFO
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 This structure is used with [HrCreateOfflineObj](hrcreateofflineobj.md).
   

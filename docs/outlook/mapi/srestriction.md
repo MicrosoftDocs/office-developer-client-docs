@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # SRestriction
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Describes a filter for limiting the view of a table to particular rows. 
   

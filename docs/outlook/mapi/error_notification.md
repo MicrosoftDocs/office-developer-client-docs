@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # ERROR_NOTIFICATION
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Describes information that relate to a critical error. This causes an error notification to be generated. 
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPISession::GetMsgStoresTable
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Provides access to the message store table that contains information about all the message stores in the session profile.
   

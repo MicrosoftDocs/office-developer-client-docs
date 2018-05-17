@@ -1,5 +1,5 @@
 ---
-title: "How to Choose a Specific Version of MAPI to Load"
+title: "Choose a Specific Version of MAPI to Load"
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -12,11 +12,11 @@ description: "Last modified: March 09, 2015"
  
 ---
 
-# How to: Choose a Specific Version of MAPI to Load
+# Choose a Specific Version of MAPI to Load
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 When linking explicitly to an implementation of MAPI, you must carefully select which implementation to load. 
   
@@ -96,7 +96,7 @@ Because MFCMAPI loads the default implementation of MAPI by default, if you want
     
 9.  `GetComponentPath` then calls **FGetComponentPath**, obtaining the path of the default version of MAPI.
     
-10.  `GetMAPIPath` then returns this path to the caller, which then loads MAPI and explicitly links to it as described in [How to: Link to MAPI Functions](how-to-link-to-mapi-functions.md).
+10.  `GetMAPIPath` then returns this path to the caller, which then loads MAPI and explicitly links to it as described in [Link to MAPI Functions](how-to-link-to-mapi-functions.md).
     
 ## Notes
 
@@ -117,7 +117,7 @@ Because MFCMAPI loads the default implementation of MAPI by default, if you want
 
 [MAPI Programming Overview](mapi-programming-overview.md)
   
-[How to: Link to MAPI Functions](how-to-link-to-mapi-functions.md)
+[Link to MAPI Functions](how-to-link-to-mapi-functions.md)
 #### Other resources
 
 [Mapi32.dll Stub Registry Settings](http://msdn.microsoft.com/en-us/library/ms531218%28EXCHG.10%29.aspx)

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagWeddingAnniversary Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the date of a user's wedding anniversary.
   

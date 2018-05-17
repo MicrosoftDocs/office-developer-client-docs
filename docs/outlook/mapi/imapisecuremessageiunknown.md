@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPISecureMessage : IUnknown
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Defines methods used to manage secure messages.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidFileUnder Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the name under which the contact is filed when displaying a list of contacts.
   

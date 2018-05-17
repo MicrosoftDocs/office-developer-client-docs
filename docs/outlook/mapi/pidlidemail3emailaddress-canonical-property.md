@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidEmail3EmailAddress Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the third e-mail address of the contact.
   

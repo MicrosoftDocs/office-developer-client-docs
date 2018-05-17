@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Designing a Message Service
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Before you begin to write code to support your message service, it is important to create a design. Resolve the following issues in your design process:
   

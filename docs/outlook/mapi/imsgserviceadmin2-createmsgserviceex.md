@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMsgServiceAdmin2::CreateMsgServiceEx
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Adds a message service to the current profile and returns that newly added service UID.
   

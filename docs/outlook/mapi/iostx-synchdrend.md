@@ -18,9 +18,9 @@ description: "Last modified: July 03, 2012"
 
 # IOSTX::SyncHdrEnd
 
- **Last modified:** July 03, 2012 
+ 
   
- * **Applies to:** Outlook * 
+**Applies to**: Outlook 
   
 Ends synchronization for a message header.
   

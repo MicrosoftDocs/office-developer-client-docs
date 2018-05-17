@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagRtfSyncBodyCrc Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the cyclical redundancy check (CRC) computed for the message text.
   

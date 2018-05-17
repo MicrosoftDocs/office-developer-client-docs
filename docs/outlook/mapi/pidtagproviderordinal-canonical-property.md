@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagProviderOrdinal Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the zero-based index of a service provider's position in the provider table.
   

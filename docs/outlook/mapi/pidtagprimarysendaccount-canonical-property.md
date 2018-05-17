@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagPrimarySendAccount Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a string that names the first server that is used to send the message.
   

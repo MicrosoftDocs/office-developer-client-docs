@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagContactAddressBookStoreNames Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the display names of the stores associated with the Address Book.
   

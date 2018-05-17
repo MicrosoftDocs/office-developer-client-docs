@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMsgServiceAdmin2 : IMsgServiceAdmin
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Makes changes to a message service in a profile.
   

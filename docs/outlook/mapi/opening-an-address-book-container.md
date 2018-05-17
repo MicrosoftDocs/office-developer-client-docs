@@ -14,9 +14,9 @@ description: "Last modified: November 08, 2011"
 
 # Opening an Address Book Container
 
- **Last modified:** November 08, 2011 
+ 
   
- * **Applies to:** Outlook * 
+**Applies to**: Outlook 
   
 After opening the MAPI integrated address book, open one or more address book containers to access the recipients within them.
   

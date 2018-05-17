@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # FtSubFt
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Subtracts one unsigned 64-bit integer from another. 
   

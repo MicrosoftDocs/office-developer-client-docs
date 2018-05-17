@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIContainer : IMAPIProp
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Manages high-level operations on container objects such as address books, distribution lists, and folders. The [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md), [IABContainer : IMAPIContainer](iabcontainerimapicontainer.md), and [IDistList : IMAPIContainer](idistlistimapicontainer.md) interfaces are derived from **IMAPIContainer**.
   

@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Developing a MAPI Message Store Provider
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Like other MAPI service providers, message stores are dynamic-link libraries (DLLs) that present the services of an underlying storage mechanism to MAPI client applications and the MAPI spooler. The message store provider presents the underlying storage mechanism as a hierarchical set of folders and messages that MAPI clients and the MAPI spooler can use.
   

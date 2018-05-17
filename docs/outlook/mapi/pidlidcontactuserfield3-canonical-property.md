@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidContactUserField3 Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the third field on the contact that is intended for miscellaneous use for the contact.
   

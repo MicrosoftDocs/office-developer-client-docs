@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IABContainer::CreateEntry
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Creates a new entry, which can be a messaging user, a distribution list, or another container.
   

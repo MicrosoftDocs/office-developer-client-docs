@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidCurrentVersion Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a long that represents the build number of the Outlook application for an item.
   

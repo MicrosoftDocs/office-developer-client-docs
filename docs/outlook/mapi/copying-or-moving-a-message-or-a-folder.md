@@ -14,9 +14,9 @@ description: "Last modified: November 08, 2011"
 
 # Copying or Moving a Message or a Folder
 
- **Last modified:** November 08, 2011 
+ 
   
- * **Applies to:** Outlook * 
+**Applies to**: Outlook 
   
 A client can use one of four methods to copy or move a message or a folder:
   

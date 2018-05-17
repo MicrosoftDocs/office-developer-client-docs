@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # CbNewMTSID
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Computes the number of bytes that should be allocated for a new [MTSID](mtsid.md) structure with a message transfer agent identifier of a specified size. 
   

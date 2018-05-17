@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IABLogon::GetOneOffTable
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Returns a table of one-off templates for creating recipients to be added to the recipient list of an outgoing message.
   

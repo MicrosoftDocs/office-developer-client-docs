@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMAPISupport::ExpandRecips
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Completes a message's recipient list, expanding particular distribution lists.
   

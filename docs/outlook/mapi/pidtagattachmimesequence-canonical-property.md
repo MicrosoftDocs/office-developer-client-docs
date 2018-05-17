@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagAttachMimeSequence Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the MIME sequence number of a MIME message attachment.
   

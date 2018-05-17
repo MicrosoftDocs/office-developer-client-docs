@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # MAPI Form Libraries
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 To help organize form servers and make them easily available to client applications, the MAPI form architecture includes form libraries, which support the installation, administration, replication, and use of form servers.
   

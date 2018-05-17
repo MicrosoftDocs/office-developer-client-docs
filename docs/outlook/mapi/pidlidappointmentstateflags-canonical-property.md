@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidAppointmentStateFlags Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies a bit field that describes the state of the object.
   

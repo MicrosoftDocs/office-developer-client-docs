@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagAgingGranularity Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Represents the unit of time that is used in determining the length of time an item remains in a folder before the item is archived.
   

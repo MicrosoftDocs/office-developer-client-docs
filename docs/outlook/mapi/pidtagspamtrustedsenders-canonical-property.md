@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagSpamTrustedSenders Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a semicolon-delimited list of email addresses and domains that are made up of trusted senders.
   

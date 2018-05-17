@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Deleting a Profile
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
  **To delete a profile**
   

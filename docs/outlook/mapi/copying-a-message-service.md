@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Copying a Message Service
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
  **To copy a message service to a profile**
   

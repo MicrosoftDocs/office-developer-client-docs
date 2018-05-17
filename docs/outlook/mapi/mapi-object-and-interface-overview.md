@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # MAPI Object and Interface Overview
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 A MAPI object is a C++ object class or C data structure inherited from one or more MAPI interfaces, or collections of related functions. These collections of related functions are known to C++ developers as pure virtual functions. For a pure virtual function, MAPI supplies only the function prototype, not an implementation. It is expected that a client application, a service provider, or MAPI will provide this implementation by creating an object class that inherits from the interface and conforms to the function descriptions of the Messaging API. A MAPI interface can be instantiated only through an inherited class.
   

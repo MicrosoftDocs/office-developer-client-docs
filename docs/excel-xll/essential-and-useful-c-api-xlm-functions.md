@@ -16,7 +16,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # Essential and Useful C API XLM Functions
 
- * **Applies to:** Excel 2013 | Office 2013 | Visual Studio * 
+ **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 The functions described in this section are Microsoft Excel callback functions that are particularly useful to DLL and XLL developers. Of these, the **xlfRegister** function is essential for XLLs and DLLs that want to register their functions and commands so that they can be called directly from Excel. The functions **xlfUnregister** and **xlfSetName** are used in combination to unregister DLL and XLL functions and commands. 
   

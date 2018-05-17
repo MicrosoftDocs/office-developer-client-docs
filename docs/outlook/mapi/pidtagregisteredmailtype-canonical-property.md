@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagRegisteredMailType Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 This property contains the type of registration used for physical delivery of a message.
   

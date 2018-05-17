@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagYCoordinate Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the y coordinate of the starting position (the upper-left corner) of a dialog box control, in standard Windows dialog units.
   

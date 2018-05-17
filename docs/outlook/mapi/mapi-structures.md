@@ -16,9 +16,9 @@ description: "Last modified: March 09, 2015"
 
 # MAPI Structures
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The following alphabetized entries describe MAPI structures. For more detailed information, cross references to other publications or to other topics in this documentation are also included.
   

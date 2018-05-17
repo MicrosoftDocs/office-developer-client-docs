@@ -1,5 +1,5 @@
 ---
-title: "How to Access Form Data Using the InfoPath 2003 Object Model"
+title: "Access Form Data Using the InfoPath 2003 Object Model"
  
  
 manager: soliver
@@ -14,7 +14,7 @@ ms.assetid: e0731014-f454-4417-9f90-19f3387f5776
 description: "When you want to extend the functionality of an InfoPath form, it is often necessary to programmatically access information about the form's underlying XML document, access the data that the XML document contains, or perform some action on the XML document. The InfoPath object model supports accessing and manipulating a form's underlying XML document through the use of the XDocument interface in association with the XDocumentsCollection interface."
 ---
 
-# How to: Access Form Data Using the InfoPath 2003 Object Model
+# Access Form Data Using the InfoPath 2003 Object Model
 
 When you want to extend the functionality of an InfoPath form, it is often necessary to programmatically access information about the form's underlying XML document, access the data that the XML document contains, or perform some action on the XML document. The InfoPath object model supports accessing and manipulating a form's underlying XML document through the use of the [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument.aspx) interface in association with the [XDocumentsCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocumentsCollection.aspx) interface. 
   

@@ -1,5 +1,5 @@
 ---
-title: "How to Use relative time to access free/busy data"
+title: "Use relative time to access free/busy data"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 13aa6ae2-47b9-2cf4-a6ef-651f1338dd49
 description: "The IFreeBusyData interface in the Free/Busy API uses a concept of relative time, which is the number of minutes since January 1, 1601, expressed in Universal Time (UTC), and is a value of type LONG ."
 ---
 
-# How to: Use relative time to access free/busy data
+# Use relative time to access free/busy data
 
 The [IFreeBusyData](ifreebusydata.md) interface in the Free/Busy API uses a concept of relative time, which is the number of minutes since January 1, 1601, expressed in Universal Time (UTC), and is a value of type **LONG**. 
   

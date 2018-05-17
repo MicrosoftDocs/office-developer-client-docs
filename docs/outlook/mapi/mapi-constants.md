@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # MAPI Constants
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 This topic contains constant definitions, MAPI interface declarations, and class and interface identifiers used by the MAPI APIs.
   
@@ -685,9 +685,9 @@ DEFINE_GUID(IID_IPSTOVERRIDE1, 0xfbb68d34, 0xf561, 0x44fb, 0xa8, 0xca, 0xae, 0x3
   
 [About Named Properties Used by Outlook](about-named-properties-used-by-outlook.md)
   
-[How to: Access a Store on the Remote Server When Outlook is in Cached Exchange Mode](how-to-access-a-store-on-remote-server-when-outlook-is-in-cached-exchange-mode.md)
+[Access a Store on the Remote Server When Outlook is in Cached Exchange Mode](how-to-access-a-store-on-remote-server-when-outlook-is-in-cached-exchange-mode.md)
   
-[How to: Open a Store on the Remote Server When Outlook is in Cached Exchange Mode](how-to-open-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode.md)
+[Open a Store on the Remote Server When Outlook is in Cached Exchange Mode](how-to-open-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode.md)
   
-[How to: Manage a Message in an OST Without Invoking a Synchronization in Cached Exchange Mode](how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md)
+[Manage a Message in an OST Without Invoking a Synchronization in Cached Exchange Mode](how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md)
 

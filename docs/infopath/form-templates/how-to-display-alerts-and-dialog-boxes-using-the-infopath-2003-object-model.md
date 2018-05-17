@@ -1,5 +1,5 @@
 ---
-title: "How to Display Alerts and Dialog Boxes Using the InfoPath 2003 Object Model"
+title: "Display Alerts and Dialog Boxes Using the InfoPath 2003 Object Model"
  
  
 manager: soliver
@@ -14,7 +14,7 @@ ms.assetid: 721ac58e-56d9-4e3b-93f1-849e0c94d010
 description: "When writing code to extend the functionality of a form template that uses the InfoPath 2003 object model, it is often useful to provide the user with information in a dialog box. Programmatically displaying a dialog box and related user interface elements is accomplished in InfoPath by using the methods of the UIObject interface."
 ---
 
-# How to: Display Alerts and Dialog Boxes Using the InfoPath 2003 Object Model
+# Display Alerts and Dialog Boxes Using the InfoPath 2003 Object Model
 
 When writing code to extend the functionality of a form template that uses the InfoPath 2003 object model, it is often useful to provide the user with information in a dialog box. Programmatically displaying a dialog box and related user interface elements is accomplished in InfoPath by using the methods of the [UIObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UIObject.aspx) interface. 
   
@@ -101,6 +101,6 @@ function BtnClick()
 ```
 
 > [!IMPORTANT]
-> The [ShowModalDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowModalDialog.aspx) method requires Full Trust to run or preview. For more information, see [How to: Preview and Debug Form Templates that Require Full Trust](how-to-preview-and-debug-form-templates-that-require-full-trust.md). 
+> The [ShowModalDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowModalDialog.aspx) method requires Full Trust to run or preview. For more information, see [Preview and Debug Form Templates that Require Full Trust](how-to-preview-and-debug-form-templates-that-require-full-trust.md). 
   
 

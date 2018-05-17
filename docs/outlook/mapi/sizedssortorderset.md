@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # SizedSSortOrderSet
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Creates a named [SSortOrderSet](ssortorderset.md) structure that contains a specified number of sort orders. 
   

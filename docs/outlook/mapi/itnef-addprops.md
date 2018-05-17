@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # ITnef::AddProps
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Enables the calling service provider or gateway to add properties to the encapsulation of a message or an attachment. 
   

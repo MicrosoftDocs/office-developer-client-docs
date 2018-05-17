@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIOfflineMgr : IMAPIOffline
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Supports registering for notification callbacks about connection state changes of a user account.
   

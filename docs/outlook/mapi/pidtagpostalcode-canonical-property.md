@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagPostalCode Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the postal code for the recipient's postal address.
   

@@ -12,9 +12,9 @@ description: "Last modified: March 09, 2015"
 
 # Autocomplete Stream
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 In addition to knowing how Microsoft Outlook interacts with the autocomplete stream, you must also understand the binary format of the autocomplete stream.
   

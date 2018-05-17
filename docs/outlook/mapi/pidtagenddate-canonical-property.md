@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagEndDate Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the ending date and time of an appointment as managed by a scheduling application. 
   

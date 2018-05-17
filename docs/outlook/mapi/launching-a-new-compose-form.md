@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Launching a New Compose Form
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Form server implementers should expect the following sequence of method calls to their form server and form objects when a client application opens a new message for composing:
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagInitialDetailsPane Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Indicates the page of a display template to display first.
   

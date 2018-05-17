@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMAPIFormInfo::MakeIconFromBinary
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Builds an icon from one of the icon properties of a form.
   

@@ -12,9 +12,9 @@ description: "Last modified: June 25, 2012"
 
 # About Named Properties Used by Outlook
 
- **Last modified:** June 25, 2012 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 MAPI provides a facility for assigning names to certain properties, for mapping these names to unique identifiers, and for making this name-to-identifier mapping persistent across sessions. Named properties are identified by a name and a globally unique identifier (GUID) for a property set. The name can be a number or a string. For Microsoft Outlook 2013 or Microsoft Outlook 2010, the property set is often a namespace defined by Outlook 2013 or Outlook 2010, such as **PSETID_Appointment**. 
   
@@ -182,9 +182,9 @@ Named properties in the **PS_PUBLIC_STRINGS** namespace are the following:
 
 [MAPI Constants](mapi-constants.md)
   
-[How to: Determine if Outlook Downloaded Only the Header of a Message](how-to-determine-if-outlook-downloaded-only-the-header-of-a-message.md)
+[Determine if Outlook Downloaded Only the Header of a Message](how-to-determine-if-outlook-downloaded-only-the-header-of-a-message.md)
   
-[How to: Get the Email Address of a Contact Item](how-to-get-the-email-address-of-a-contact-item.md)
+[Get the Email Address of a Contact Item](how-to-get-the-email-address-of-a-contact-item.md)
   
-[How to: Remove Custom Form Definition Saved With a Message](how-to-remove-custom-form-definition-saved-with-a-message.md)
+[Remove Custom Form Definition Saved With a Message](how-to-remove-custom-form-definition-saved-with-a-message.md)
 

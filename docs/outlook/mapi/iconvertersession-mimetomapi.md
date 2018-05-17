@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IConverterSession::MIMEToMAPI
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Converts a MIME stream to a MAPI message.
   

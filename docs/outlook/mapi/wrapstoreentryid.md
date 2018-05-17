@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # WrapStoreEntryID
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Converts a message store's internal entry identifier to an entry identifier more usable by the messaging system. 
   

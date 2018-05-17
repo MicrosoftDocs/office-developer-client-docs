@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMAPISyncProgressCallback::Error
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Provides details that are displayed in the Send/Receive dialog. If errors are encountered during synchronization, the store provider calls this function.
   

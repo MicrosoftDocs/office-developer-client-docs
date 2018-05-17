@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMsgServiceAdmin::CreateMsgService
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Deprecated: The use of [IMsgServiceAdmin2::CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md) is recommended. Adds a message service to the current profile. 
   

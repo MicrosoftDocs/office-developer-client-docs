@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidImapDeleted Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Denotes Internet Mail Access Protocol (IMAP) items that are marked for deletion.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagValidFolderMask Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a bitmask of flags that indicate the validity of the entry identifiers of the folders in a message store.
   

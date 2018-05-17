@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Initializing the Transport Provider
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The transport-spooler interface defines calls the MAPI spooler makes to a transport provider. Transport providers implement these routines in a dynamic-link library (DLL). The first direct entry point into the DLL used by the MAPI spooler must be the transport provider initialization function [XPProviderInit](xpproviderinit.md).
   

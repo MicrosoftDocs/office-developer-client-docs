@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IDistList : IMAPIContainer
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Provides access to distribution lists in modifiable address book containers. **IDistList** can create, copy, and delete distribution lists, in addition to performing name resolution. 
   

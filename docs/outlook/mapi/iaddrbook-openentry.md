@@ -18,9 +18,9 @@ description: "Last modified: February 01, 2013"
 
 # IAddrBook::OpenEntry
 
- **Last modified:** February 01, 2013 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Opens an address book entry and returns a pointer to an interface that can be used to access the entry.
   

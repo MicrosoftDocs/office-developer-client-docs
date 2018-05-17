@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagPhysicalDeliveryMode Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a bitmask of flags that define the physical delivery mode (for example, special delivery) for a message designated for a specific recipient.
   

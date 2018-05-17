@@ -16,9 +16,9 @@ description: "Last modified: December 07, 2015"
 
 # MAPI Functions, Callbacks, and Macros
 
- **Last modified:** December 07, 2015 
+ 
   
- * **Applies to:** Outlook * 
+**Applies to**: Outlook 
   
 The following alphabetic entries contain documentation for the MAPI functions, callbacks, and macros. 
   

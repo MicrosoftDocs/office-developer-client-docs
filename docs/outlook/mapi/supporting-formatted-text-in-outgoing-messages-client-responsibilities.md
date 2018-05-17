@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Supporting Formatted Text in Outgoing Messages: Client Responsibilities
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Client applications set the **PR_BODY** ( [PidTagBody](pidtagbody-canonical-property.md)) property, the **PR_RTF_COMPRESSED** ( [PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) property, or the **PR_HTML** ( [PidTagHtml](pidtaghtml-canonical-property.md)) property for an outgoing message. Clients that support only plain text set only the **PR_BODY** property. Rich Text Format (RTF)-aware clients might set both **PR_BODY** and **PR_RTF_COMPRESSED** properties, or only **PR_RTF_COMPRESSED**, depending on the message store provider being used. HTML-aware clients set the **PR_HTML** property. 
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagHomeTelephoneNumber Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the primary telephone number of the recipient's home. 
   

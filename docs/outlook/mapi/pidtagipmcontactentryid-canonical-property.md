@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagIpmContactEntryId Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the **EntryID** of the Outlook Contacts folder. 
   

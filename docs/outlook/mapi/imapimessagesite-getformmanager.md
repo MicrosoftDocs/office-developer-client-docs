@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIMessageSite::GetFormManager
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Returns a form manager interface, which a form server can use to open another form server.
   

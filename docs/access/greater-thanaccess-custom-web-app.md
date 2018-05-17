@@ -1,18 +1,15 @@
 ---
-title: "\> (Greater Than) (Access custom web app)"
- 
- 
+title: "Greater Than (Access custom web app)"
 manager: kelbow
 ms.date: 9/5/2017
 ms.audience: Developer
 ms.topic: reference
-  
 localization_priority: Normal
 ms.assetid: 5a250d68-7583-406e-84e3-0b03bba97234
 description: "Compares two expressions. When you compare non-null expressions, the result is TRUE if the left operand has a value higher than the right operand; otherwise, the result is FALSE."
 ---
 
-# \> (Greater Than) (Access custom web app)
+# Greater Than (Access custom web app)
 
 Compares two expressions. When you compare non-null expressions, the result is TRUE if the left operand has a value higher than the right operand; otherwise, the result is FALSE.
   
@@ -21,12 +18,14 @@ Compares two expressions. When you compare non-null expressions, the result is T
   
 ## Syntax
 
- *expression*  \>  *expression* 
+`> (Greater Than)`
+
+*expression*  \>  *expression* 
   
- *expression*  Is any valid expression. Both expressions must have implicitly convertible data types. The conversion depends on the rules of data type precedence. 
+*expression*  Is any valid expression. Both expressions must have implicitly convertible data types. The conversion depends on the rules of data type precedence. 
   
 ## Return Type
 
- **Boolean**
+**Boolean**
   
 

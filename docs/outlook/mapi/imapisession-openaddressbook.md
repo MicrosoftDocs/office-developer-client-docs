@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPISession::OpenAddressBook
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Opens the MAPI integrated address book, returning an [IAddrBook](iaddrbookimapiprop.md) pointer for further access. 
   

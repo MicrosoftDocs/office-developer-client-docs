@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagReadReceiptSearchKey Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a search key for the messaging user to which the messaging system should direct a read report for a message.
   

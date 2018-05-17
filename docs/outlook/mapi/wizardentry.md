@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # WIZARDENTRY
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Defines a service provider entry point function which the Profile Wizard calls to retrieve enough information to display the provider's configuration property sheets. 
   

@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # TNEF Correlation in SMTP Gateways and Transports
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Gateways and transports that connect to internet based systems, those that use SMTP, use the value of the MessageID SMTP header and the **PR_TNEF_CORRELATION_KEY** property to implement TNEF correlation. 
   

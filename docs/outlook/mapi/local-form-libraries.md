@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Local Form Libraries
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Local form libraries are stored directly on a user's machine, usually in a file called FRMCACHE.DAT. 
   

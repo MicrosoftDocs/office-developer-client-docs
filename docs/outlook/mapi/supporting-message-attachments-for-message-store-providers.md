@@ -14,9 +14,9 @@ description: "Last modified: December 07, 2015"
 
 # Supporting Message Attachments for Message Store Providers
 
- **Last modified:** December 07, 2015 
+ 
   
- * **Applies to:** Outlook * 
+**Applies to**: Outlook 
   
 Your message store provider does not need to support message attachments. However, many client applications expect to be able to add attachments to messages. If your message store will be used to create or store IPM.Note messages, then you should support message attachments. Default message store providers should also support message attachments. For more information, see [MAPI Message Classes](mapi-message-classes.md), and [Default Message Stores](default-message-stores.md).
   

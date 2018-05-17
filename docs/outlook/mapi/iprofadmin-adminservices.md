@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IProfAdmin::AdminServices
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Provides access to a message service administration object for making changes to the message services in a profile.
   

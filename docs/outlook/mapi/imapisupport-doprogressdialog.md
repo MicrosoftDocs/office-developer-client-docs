@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMAPISupport::DoProgressDialog
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Retrieves a progress object that displays a progress indicator.
   
@@ -60,7 +60,7 @@ S_OK
 
 The **IMAPISupport::DoProgressDialog** method is implemented for address book and message store provider support objects. These providers call **DoProgressDialog** to access the MAPI implementation of the [IMAPIProgress](imapiprogressiunknown.md) interface, which calculates the progress information and displays a standard dialog box. 
   
-For information about how to use a progress object and the **IMAPIProgress** interface, see [How to: Display a Progress Indicator](how-to-display-a-progress-indicator.md).
+For information about how to use a progress object and the **IMAPIProgress** interface, see [Display a Progress Indicator](how-to-display-a-progress-indicator.md).
   
 ## See also
 
@@ -73,5 +73,5 @@ For information about how to use a progress object and the **IMAPIProgress** int
 [IMAPISupport : IUnknown](imapisupportiunknown.md)
 #### Concepts
 
-[How to: Display a Progress Indicator](how-to-display-a-progress-indicator.md)
+[Display a Progress Indicator](how-to-display-a-progress-indicator.md)
 

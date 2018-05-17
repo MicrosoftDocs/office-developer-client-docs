@@ -1,5 +1,5 @@
 ---
-title: "How to Write Conditional Logic That Determines the Run-time Environment"
+title: "Write Conditional Logic That Determines the Run-time Environment"
  
  
 manager: soliver
@@ -14,7 +14,7 @@ ms.assetid: 1a43bbdc-666b-47ef-a5e3-cb477a4deb04
 description: "The Environment property of the Application class gets a reference to an Environment object, which can be used to determine which runtime environment (InfoPath, Web browser, or mobile browser) was used to open the form."
 ---
 
-# How to: Write Conditional Logic That Determines the Run-time Environment
+# Write Conditional Logic That Determines the Run-time Environment
 
 The [Environment](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Application.Environment.aspx) property of the [Application](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Application.aspx) class gets a reference to an [Environment](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Environment.aspx) object, which can be used to determine which runtime environment (InfoPath, Web browser, or mobile browser) was used to open the form. 
   

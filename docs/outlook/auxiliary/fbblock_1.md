@@ -32,7 +32,7 @@ typedef struct  tagFBBlock_1
 
  _m_tmStart_
   
-> The start time for the block, expressed in relative time. For more information, see [How to: Use relative time to access free/busy data](how-to-use-relative-time-to-access-free-busy-data.md).
+> The start time for the block, expressed in relative time. For more information, see [Use relative time to access free/busy data](how-to-use-relative-time-to-access-free-busy-data.md).
     
  _m_tmEnd_
   
@@ -50,5 +50,5 @@ typedef struct  tagFBBlock_1
   
 [IEnumFBBlock::Next](ienumfbblock-next.md)
   
-[How to: Use relative time to access free/busy data](how-to-use-relative-time-to-access-free-busy-data.md)
+[Use relative time to access free/busy data](how-to-use-relative-time-to-access-free-busy-data.md)
 

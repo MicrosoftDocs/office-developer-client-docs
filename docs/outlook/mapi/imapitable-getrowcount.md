@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPITable::GetRowCount
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Returns the total number of rows in the table. 
   

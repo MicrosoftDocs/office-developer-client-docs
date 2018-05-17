@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagProviderDisplay Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the vendor-defined display name for a service provider.
   

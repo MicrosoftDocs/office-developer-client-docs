@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Types of Client Applications
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 There are primarily two types of messaging clients: those that handle interpersonal messages (IPM) and those that handle interprocess communication (IPC) messages. Within those types, messaging client applications can be categorized as follows:
   

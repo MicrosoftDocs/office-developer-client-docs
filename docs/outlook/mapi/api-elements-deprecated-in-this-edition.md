@@ -14,9 +14,9 @@ description: "Last modified: June 25, 2012"
 
 # API Elements Deprecated in This Edition
 
- **Last modified:** June 25, 2012 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The following API elements are deprecated in Microsoft Outlook 2013. They are no longer supported and you should not use them in new projects.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # SPropProblem
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Describes an error that relate to an operation involving a property.
   

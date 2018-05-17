@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidPostRssChannel Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the contents of the \<title\> field from the XML of the Atom \<feed\> or RSS \<channel\>.
   

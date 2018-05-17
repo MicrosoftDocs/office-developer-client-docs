@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTag7BitDisplayName Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a 7-bit ASCII representation of a messaging user's name. 
   

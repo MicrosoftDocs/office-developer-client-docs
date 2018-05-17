@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # One-Off Entry Identifiers
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 One-off entry identifiers are created by MAPI in the **IAddrBook::CreateOneOff** method and by components that do not have access to the MAPI subsystem, such as gateway components. For more information, see [IAddrBook::CreateOneOff](iaddrbook-createoneoff.md). The following illustration shows the format of a one-off entry identifier.
   

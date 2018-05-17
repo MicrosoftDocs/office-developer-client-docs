@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # MAPI Profiles
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 A profile stores information about service providers and message services that are installed on a computer. For every session, a client at logon time selects one profile that describes the providers and services to be used. A client can choose from a collection of profiles and, if desired, establish one as the default. The default profile is the profile that is selected automatically when a client starts a session and has not explicitly specified a profile.
   

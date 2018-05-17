@@ -16,9 +16,9 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # Creating XLLs
 
- * **Applies to:** Excel 2013 | Office 2013 | Visual Studio * 
+**Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
-If your DLL is self-contained or relies only on other libraries, you must know how to enable Microsoft Excel to access its functions and commands. For more information, see [How to: Access DLLs in Excel](how-to-access-dlls-in-excel.md). 
+If your DLL is self-contained or relies only on other libraries, you must know how to enable Microsoft Excel to access its functions and commands. For more information, see [Access DLLs in Excel](how-to-access-dlls-in-excel.md). 
   
 However, if your DLL needs to access Excel functionality (for example, to get the contents of a cell, to call a worksheet function, or to interrogate Excel to obtain workspace information), your code must be able to call back into Excel.
   
@@ -120,7 +120,7 @@ Excel and user-defined functions can run on 64-bit operating systems to take adv
 
 #### Concepts
 
-[How to: Call XLL Functions from the Function Wizard or Replace Dialog Boxes](how-to-call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes.md)
+[Call XLL Functions from the Function Wizard or Replace Dialog Boxes](how-to-call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes.md)
   
 [Add-in Manager and XLL Interface Functions](add-in-manager-and-xll-interface-functions.md)
   

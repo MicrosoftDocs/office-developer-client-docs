@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # MAPIGetDefaultMalloc
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Retrieves the address of the default MAPI memory allocation function.
   

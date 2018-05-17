@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagFreeBusyCountMonths Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the value for calculating the start and end dates of the range of free/busy data to be published to public folders.
   

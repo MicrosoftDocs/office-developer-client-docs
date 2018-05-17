@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIMessageSite::CopyMessage
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Copies the current message to a folder.
   

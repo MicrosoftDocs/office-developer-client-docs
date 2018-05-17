@@ -220,7 +220,7 @@ The following test results are from a tenant that has 37 projects and 40,000 row
 |2nd sync, after modifying one project  <br/> |160 seconds  <br/> |17 seconds  <br/> |
 |3rd sync, after modifying three projects  <br/> |160 seconds  <br/> |24 seconds  <br/> |
    
-## Additional resources
+## See also
 
 - [Project Online: SSIS package for OData delta sync](http://www.microsoft.com/en-us/download/details.aspx?id=43736) download 
     

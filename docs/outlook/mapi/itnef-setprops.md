@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # ITnef::SetProps
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Sets the value of one or more properties for an encapsulated message or attachment without modifying the original message or attachment. 
   

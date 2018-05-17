@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # FILETIME
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Holds an unsigned 64-bit date and time value for a file. This value represents the number of 100-nanosecond units since the start of January 1, 1601. 
   

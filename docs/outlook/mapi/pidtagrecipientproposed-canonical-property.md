@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagRecipientProposed Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Indicates whether a meeting attendee has responded.
   

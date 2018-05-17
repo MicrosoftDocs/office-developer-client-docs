@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # MAPI Architecture Overview
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 MAPI defines a modular architecture, as shown in the following illustration.  
   

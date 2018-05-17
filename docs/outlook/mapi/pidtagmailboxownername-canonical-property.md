@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagMailboxOwnerName Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Displays the name of the owner of the mailbox.
   

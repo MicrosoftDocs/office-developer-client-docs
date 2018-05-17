@@ -1,24 +1,20 @@
 ---
-title: "How to Retrieve the Body of a Message in Compressed RTF and Convert It to Its Native Format"
+title: "Retrieve body of message in compressed RTF and convert to its native format"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 9408da71-4abf-60cf-5412-58c5ceeb2205
 description: "Last modified: June 25, 2012"
- 
- 
 ---
 
-# How to: Retrieve the Body of a Message in Compressed RTF and Convert It to Its Native Format
+# Retrieve body of message in compressed RTF and convert to its native format
 
- **Last modified:** June 25, 2012 
-  
- * **Applies to:** Outlook * 
+**Applies to**: Outlook 
   
 This code example in Microsoft C++ shows you how to use the exported Microsoft Outlook 2010 or Microsoft Outlook 2013 function [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) to access the body of a message that is encapsulated in compressed RTF, and to obtain the body in its native format. 
   
-```
+```cpp
 //These are definitions for the WrapCompressedRTFStreamEx function. 
 typedef HRESULT (STDMETHODCALLTYPE WRAPCOMPRESSEDRTFSTREAMEX) ( 
     LPSTREAM lpCompressedRTFStream, CONST RTF_WCSINFO * pWCSInfo, LPSTREAM * lppUncompressedRTFStream, RTF_WCSRETINFO * pRetInfo); 

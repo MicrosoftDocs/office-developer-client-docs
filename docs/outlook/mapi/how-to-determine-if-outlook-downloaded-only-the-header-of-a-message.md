@@ -1,5 +1,5 @@
 ---
-title: "How to Determine if Outlook Downloaded Only the Header of a Message"
+title: "Determine if Outlook Downloaded Only the Header of a Message"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,11 +10,11 @@ description: "Last modified: June 25, 2012"
  
 ---
 
-# How to: Determine if Outlook Downloaded Only the Header of a Message
+# Determine if Outlook Downloaded Only the Header of a Message
 
- **Last modified:** June 25, 2012 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 This topic shows a code sample in Visual C++ that uses the named [PidLidHeaderItem Canonical Property](pidlidheaderitem-canonical-property.md) to determine whether Microsoft Outlook 2013 has downloaded only the header of a message or the header and the body of a message. 
   

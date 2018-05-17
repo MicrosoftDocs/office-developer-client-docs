@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagSubmitFlags Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a bitmask of flags indicating details about a message submission.
   

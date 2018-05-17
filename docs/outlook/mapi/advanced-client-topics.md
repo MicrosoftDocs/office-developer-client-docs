@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Advanced Client Topics
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 This section includes subtopics on how to implement some of the more uncommon or difficult features in a client application.
   

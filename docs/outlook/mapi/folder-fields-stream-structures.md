@@ -12,9 +12,9 @@ description: "Last modified: March 09, 2015"
 
 # Folder Fields Stream Structures
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 A message's [PidTagUserFields](pidtaguserfields-canonical-property.md) property contains a binary stream, FolderUserFields, which contains the folder user-defined field definitions. This topic describes the stream structures for folder user-defined field definitions. 
   
@@ -158,5 +158,5 @@ Data elements in this stream are stored in little-endian byte order, immediately
 
 [FolderUserFields Stream Sample](folderuserfields-stream-sample.md)
   
-[How to: Add a Definition for a New User-Defined Field](how-to-add-a-definition-for-a-new-user-defined-field.md)
+[Add a Definition for a New User-Defined Field](how-to-add-a-definition-for-a-new-user-defined-field.md)
 

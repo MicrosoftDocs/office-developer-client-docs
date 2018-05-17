@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidAddressCountryCode Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the country code of the contact's mailing address.
   

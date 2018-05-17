@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagExtendedRuleSizeLimit Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the maximum size, in bytes, the user is allowed to accumulate for a single "extended" rule.
   

@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Supporting Message Service Installation
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The setup program for installing your message service should do the following:
   

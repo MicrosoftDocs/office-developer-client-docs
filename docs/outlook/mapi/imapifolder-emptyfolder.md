@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIFolder::EmptyFolder
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Deletes all messages and subfolders from a folder without deleting the folder itself.
   

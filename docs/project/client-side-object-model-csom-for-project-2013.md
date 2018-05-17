@@ -67,7 +67,7 @@ Also, check out these articles that show how to use the CSOM:
   
 - [Bulk update custom fields and create project sites from a workflow in Project Online](bulk-update-custom-fields-and-create-project-sites-from-a-workflow-in-project.md)
     
-- [How to: Work with projects by using the JavaScript object model](create-retrieve-update-and-delete-projects-using-the-project-server-javascript.md)
+- [Work with projects by using the JavaScript object model](create-retrieve-update-and-delete-projects-using-the-project-server-javascript.md)
     
 > [!NOTE]
 > You can also use Visual Studio 2010 for .NET Framework 4 development with the CSOM. 

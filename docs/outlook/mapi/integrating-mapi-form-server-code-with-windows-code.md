@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Integrating MAPI Form Server Code with Windows Code
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Recall that your form server is a Win32 application. As such, there are some tasks related to loading your form server into memory and exiting cleanly. Like all Windows applications, the entry point for your form server is the **WinMain** function. This function is the appropriate place to perform the following tasks: 
   

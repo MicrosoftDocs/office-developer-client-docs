@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Traversing the Inbox Folder
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
  **To cycle through all of the messages in the Inbox**
   

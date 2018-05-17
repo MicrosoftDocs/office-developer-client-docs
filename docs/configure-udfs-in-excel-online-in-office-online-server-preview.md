@@ -81,7 +81,7 @@ The following files provide a sample workbook that uses a UDF and the UDF binary
     
 - [EcsUdfsCommonSet.dll](http://download.microsoft.com/download/6/7/F/67F724FD-1186-4209-BFF1-FBFD99E959D9/User%20Defined%20Function%20Assemblies/EcsUdfsCommonSet.dll) -- the UDF binary 
     
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Configure Excel Online administrative settings](https://technet.microsoft.com/en-us/library/jj219698%28v=office.16%29.aspx)

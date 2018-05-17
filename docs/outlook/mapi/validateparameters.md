@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # ValidateParameters
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Calls an internal function to check the parameters client applications have passed to service providers. 
   

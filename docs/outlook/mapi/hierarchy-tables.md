@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # Hierarchy Tables
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 A hierarchy table contains information about the folders in a message store or the containers in an address book container. Each row of a hierarchy table contains a set of columns with information about one folder or address book container. Hierarchy tables are primarily used by clients and implemented by message store providers to show a tree of folders and subfolders and implemented by address book providers to show a tree of containers in the address book. Containers that cannot hold subcontainers, as indicated by the absence of the AB_SUBCONTAINERS flag in their **PR_CONTAINER_FLAGS** ( [PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)) property, do not implement a hierarchy table.
   

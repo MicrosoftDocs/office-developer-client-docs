@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Supporting Message Service Configuration
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 To support message service configuration, use the following procedure:
   

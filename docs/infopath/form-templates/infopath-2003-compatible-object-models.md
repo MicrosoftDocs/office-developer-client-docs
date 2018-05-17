@@ -1,14 +1,10 @@
 ---
-title: "and Visual Basic managed-code languages, the InfoPath setup program installs three interop assemblies. Interop assemblies are .NET assemblies that act as a bridge between managed and unmanaged code, mapping COM object members to equivalent .NET managed members.'"
- 
- 
+title: InfoPath 2003 Compatible Object Models
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
 keywords:
 - infopath 2003-compatible form templates, object model,InfoPath 2003-compatible object model,object models [InfoPath 2003], compatible with InfoPath 2007,object models [InfoPath 2007], InfoPath 2003 compatible
- 
 localization_priority: Normal
 ms.assetid: e4511af6-d7e7-44ad-a50d-1b7ee04f8215
 description: "Microsoft InfoPath is written as a Component Object Model (COM) application and exposes its programmability interfaces for both external automation and form template script as COM interfaces. To support the creation of InfoPath solutions that use the Visual C# and Visual Basic managed-code languages, the InfoPath setup program installs three interop assemblies. Interop assemblies are .NET assemblies that act as a bridge between managed and unmanaged code, mapping COM object members to equivalent .NET managed members."
@@ -28,7 +24,7 @@ The files for the three interop assemblies installed by InfoPath are named:
     
 This topic discusses the object model exposed through the Microsoft.Office.Interop.InfoPath.SemiTrust interop assembly, which is used exclusively for writing and running managed-code business logic from within InfoPath form templates (.xsn). 
   
-For information on the Microsoft.Office.Interop.InfoPath and Microsoft.Office.Interop.InfoPath.Xml assemblies, see the documentation for the [Microsoft.Office.Interop.InfoPath](N:Microsoft.Office.Interop.InfoPath) and [Microsoft.Office.Interop.InfoPath.Xml](N:Microsoft.Office.Interop.InfoPath.Xml) namespaces. 
+For information about the Microsoft.Office.Interop.InfoPath and Microsoft.Office.Interop.InfoPath.Xml assemblies, see the documentation for the [Microsoft.Office.Interop.InfoPath](https://msdn.microsoft.com/en-us/library/microsoft.office.interop.infopath.aspx) and [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/en-us/library/microsoft.office.interop.infopath.xml.aspx) namespaces. 
   
 ## Important Installation Information
 
@@ -86,7 +82,7 @@ The following shows a simple example that uses the  `thisXDocument` variable to 
 thisXDocument.UI.Alert(thisApplication.Version);
 ```
 
-```VB.net
+```vb
 thisXDocument.UI.Alert(thisApplication.Version)
 ```
 
@@ -110,7 +106,7 @@ IXMLDOMNode group1 =
 thisXDocument.View.SelectNodes(group1, Type.Missing, Type.Missing);
 ```
 
-```VB.net
+```vb
 Dim group1 As IXMLDOMNode = _
    thisXDocument.DOM.selectSingleNode("/my:myFields/my:group1")
 thisXDocument.View.SelectNodes(group1, Type.Missing, Type.Missing)

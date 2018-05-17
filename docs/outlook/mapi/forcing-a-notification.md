@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Forcing a Notification
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 When service providers use the [IMAPISupport : IUnknown](imapisupportiunknown.md) methods for notification, MAPI delivers notifications using a hidden window and its corresponding window procedure. For each process to receive a notification, MAPI posts a special message to the hidden window. This message is named with the constant **szMAPINotificationMsg** which is defined in MAPIDEFS.H. 
   

@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Selecting a Receive Folder
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 A receive folder is where incoming messages of a particular class are placed. For IPM and related report messages, MAPI assigns the Inbox as the default receive folder. For IPC and related report messages, MAPI assigns the root folder of the message store as the default receive folder. You can change these assignments or make additional assignments for other message classes. Making explicit receive folder assignments for your client's supported message classes is optional.
   

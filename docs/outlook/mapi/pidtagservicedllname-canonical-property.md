@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagServiceDllName Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the filename of the DLL containing the message service provider entry point function to call for configuration.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # ScCountNotifications
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Determines the size, in bytes, of an array of event notifications, and validates the memory associated with the array.
   

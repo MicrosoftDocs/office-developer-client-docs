@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPISession::QueryIdentity
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Returns the entry identifier of the object that provides the primary identity for the session.
   

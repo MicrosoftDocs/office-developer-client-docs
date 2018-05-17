@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IPSTX::EmulateSpooler
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Sets a local store to emulate the Outlook Protocol Manager to spool outgoing messages to a server.
   

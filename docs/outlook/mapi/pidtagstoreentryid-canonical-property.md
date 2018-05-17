@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagStoreEntryId Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the unique entry identifier of the message store where an object resides.
   

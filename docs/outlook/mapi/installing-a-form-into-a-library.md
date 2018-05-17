@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Installing a Form into a Library
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The default MAPI form manager supplied with the Windows SDK does not provide a user interface for installing forms in the various form libraries. Because of this, you will have to create a small application — or detailed set of instructions — that users can use to install the form.
   

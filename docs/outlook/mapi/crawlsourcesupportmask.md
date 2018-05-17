@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # CrawlSourceSupportMask
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies whether Microsoft Office Outlook should scan folders in a store, including Contacts, Calendar, and Tasks folders, on startup to populate the Navigation Pane.
   

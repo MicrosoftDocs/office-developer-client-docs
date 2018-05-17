@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidContactLinkSearchKey Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the list of **SearchKeys** for the contact linked to by this message object. 
   

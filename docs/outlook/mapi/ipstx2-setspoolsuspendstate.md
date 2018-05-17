@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IPSTX2::SetSpoolSuspendState
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Sets the suspended state on the spooler.
   

@@ -20,7 +20,7 @@ This section discusses how to create an InfoPath COM Add-in.
   
 ## In this section
 
-[How to: Create a COM Add-in to Add Custom Features to InfoPath](how-to-create-a-com-add-in-to-add-custom-features-to-infopath.md)
+[Create a COM Add-in to Add Custom Features to InfoPath](how-to-create-a-com-add-in-to-add-custom-features-to-infopath.md)
   
 > Describes how to create a COM Add-in to add custom features to InfoPath.
     

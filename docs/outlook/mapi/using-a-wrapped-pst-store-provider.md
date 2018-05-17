@@ -12,9 +12,9 @@ description: "Last modified: July 03, 2012"
 
 # Using a Wrapped PST Store Provider
 
- **Last modified:** July 03, 2012 
+ 
   
- * **Applies to:** Outlook * 
+**Applies to**: Outlook 
   
 Before you can use a wrapped Personal Folders file (PST) store provider, you must initialize and configure the wrapped PST store provider. After the wrapped PST store provider is configured, you must implement functions so that MAPI and the MAPI spooler can log on to the message store provider. For more information about initializing and logging on to a wrapped PST store provider, see [Initializing a Wrapped PST Store Provider](initializing-a-wrapped-pst-store-provider.md) and [Logging On to a Wrapped PST Store Provider](logging-on-to-a-wrapped-pst-store-provider.md).
   

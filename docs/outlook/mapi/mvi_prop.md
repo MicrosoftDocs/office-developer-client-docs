@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # MVI_PROP
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Sets the MVI_FLAG for a specified property. 
   

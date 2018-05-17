@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagTelecommunicationsDeviceForDeafTelephoneNumber Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the messaging user's Telecommunications Device for the Deaf (TTYTDD) telephone number.
   

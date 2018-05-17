@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Sending Messages by Using Message Store Providers
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Message store providers are not required to support outgoing message submissions (that is, the ability for client applications to use the message store provider to send messages). Client applications need to use a message store while sending messages, because the message's data must be stored somewhere between the time that the user is finished composing it and the time that the MAPI spooler gives the message to a transport provider for submission to the underlying messaging system. If your message store provider does not support outgoing message submissions, it cannot be used as the default message store.
   

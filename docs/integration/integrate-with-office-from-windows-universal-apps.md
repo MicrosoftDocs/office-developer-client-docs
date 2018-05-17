@@ -109,7 +109,7 @@ To optimize for file consistency, for example when conflicting edits or errors o
     
   - When a lock is released, notify users of the conflict and provide a path to resolve it within your app.
     
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Integrate with Office](integrate-with-office.md)

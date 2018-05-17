@@ -22,7 +22,7 @@ To provide free/busy information to mail users, a mail provider creates a free/b
   
 - [IFreeBusySupport](ifreebusysupport.md) —This interface supports specification of interfaces that access free/busy data for specified users. It uses [FBUser](fbuser.md) to identify a user. 
     
-- [IFreeBusyData](ifreebusydata.md) —This interface gets and sets a time range for a given user and returns an interface for enumerating free/busy blocks of data within this time range. It uses relative time to get and set this time range. For more information, see [How to: Use relative time to access free/busy data](how-to-use-relative-time-to-access-free-busy-data.md).
+- [IFreeBusyData](ifreebusydata.md) —This interface gets and sets a time range for a given user and returns an interface for enumerating free/busy blocks of data within this time range. It uses relative time to get and set this time range. For more information, see [Use relative time to access free/busy data](how-to-use-relative-time-to-access-free-busy-data.md).
     
 - [IEnumFBBlock](ienumfbblock.md) —This interface supports accessing and enumerating free/busy blocks of data for a user within a time range. 
     

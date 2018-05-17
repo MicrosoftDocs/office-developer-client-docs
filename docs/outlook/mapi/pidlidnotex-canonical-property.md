@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidNoteX Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the distance, in pixels, from the left edge of the screen where a user interface displays a note.
   

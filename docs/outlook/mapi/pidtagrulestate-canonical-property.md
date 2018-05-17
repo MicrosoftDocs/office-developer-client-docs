@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagRuleState Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 A value interpreted as a bitmask combination of flags that specify the state of the rule.
   

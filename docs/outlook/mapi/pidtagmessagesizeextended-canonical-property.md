@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagMessageSizeExtended Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a 64 bit integer version of the **PR_MESSAGE_SIZE** ( [PidTagMessageSize](pidtagmessagesize-canonical-property.md)) property.
   

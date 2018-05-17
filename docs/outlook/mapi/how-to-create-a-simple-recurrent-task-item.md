@@ -1,5 +1,5 @@
 ---
-title: "How to Create a Simple Recurrent Task Item"
+title: "Create a Simple Recurrent Task Item"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,15 +12,15 @@ description: "Last modified: July 23, 2011"
  
 ---
 
-# How to: Create a Simple Recurrent Task Item
+# Create a Simple Recurrent Task Item
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 MAPI can be used to create to create task items. This topic describes how to create a simple recurrent task item.
   
-For information about how to download, view, and run the code from the MFCMAPI application and CreateOutlookItemsAddin project referenced in this topic, see [How to: Install the Samples Used in This Section](how-to-install-the-samples-used-in-this-section.md).
+For information about how to download, view, and run the code from the MFCMAPI application and CreateOutlookItemsAddin project referenced in this topic, see [Install the Samples Used in This Section](how-to-install-the-samples-used-in-this-section.md).
   
 ### 
 

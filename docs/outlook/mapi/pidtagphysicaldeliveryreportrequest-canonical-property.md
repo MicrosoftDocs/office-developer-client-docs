@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagPhysicalDeliveryReportRequest Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the mode of a report to be delivered to a particular message recipient upon completion of physical message delivery or delivery by the message handling system.
   

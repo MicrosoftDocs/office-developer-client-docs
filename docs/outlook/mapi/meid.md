@@ -14,9 +14,9 @@ description: "Last modified: July 03, 2012"
 
 # MEID
 
- **Last modified:** July 03, 2012 
+ 
   
- * **Applies to:** Outlook * 
+**Applies to**: Outlook 
   
 Identifier for an Outlook item. It contains an entry identifier and other relevant information.
   

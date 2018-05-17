@@ -1,5 +1,5 @@
 ---
-title: "How to Parse a stream from a binary property to read the TZDEFINITION structure"
+title: "Parse a stream from a binary property to read the TZDEFINITION structure"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 039b3a45-bd57-51f5-1485-a3f6d1bde85a
 description: "This topic shows how to read the TZDEFINITION structure from the persisted format stored in a binary property."
 ---
 
-# How to: Parse a stream from a binary property to read the TZDEFINITION structure
+# Parse a stream from a binary property to read the TZDEFINITION structure
 
 This topic shows how to read the [TZDEFINITION](tzdefinition.md) structure from the persisted format stored in a binary property. 
   
@@ -87,5 +87,5 @@ TZDEFINITION* BinToTZDEFINITION(ULONG cbDef, LPBYTE lpbDef)
 
 [About persisting TZDEFINITION to a stream to commit to a binary property](about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property.md)
   
-[How to: Read time zone properties from an appointment](how-to-read-time-zone-properties-from-an-appointment.md)
+[Read time zone properties from an appointment](how-to-read-time-zone-properties-from-an-appointment.md)
 

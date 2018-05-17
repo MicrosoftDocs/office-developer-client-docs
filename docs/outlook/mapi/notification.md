@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # NOTIFICATION
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains information about an event that has occurred and the data that has been affected by the event.
   

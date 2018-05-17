@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # SERVICEWIZARDDLGPROC
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Defines a callback function invoked by the Profile Wizard to allow a service provider to react to user events when the provider's property sheets or pages are being shown. 
   

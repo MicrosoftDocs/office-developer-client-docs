@@ -194,7 +194,7 @@ For an on-premises installation of Project Server, you can create a remote event
 > [!NOTE]
 > SharePoint Central Administration is available only for on-premises installations. For Project Online and SharePoint Online, you can add or remove remote event receivers by using a CSOM-based app package. 
   
-On the Server Side Event Handlers page, the process to add a local event handler for an on-premises Project Server installation is nearly the same as the process described in the [How to: Create a Project Server event handler and log an event](http://msdn.microsoft.com/en-us/library/gg615466.aspx) topic for Project Server 2010. The difference is that the New Event Handler page has additional options. For example, choose **Project Creating** in the **Events** list, and then choose **NEW EVENT HANDLER**. On the New Event handler page, the only two required fields are **Name** and **Order** (see Figure 3). If you are adding a local full-trust event handler, add the **Assembly Name** field and the **Class Name** field; leave **Endpoint Url** empty. If you are adding a remote event receiver, add **Endpoint Url**, and leave **Assembly Name** and **Class Name** empty. 
+On the Server Side Event Handlers page, the process to add a local event handler for an on-premises Project Server installation is nearly the same as the process described in the [Create a Project Server event handler and log an event](http://msdn.microsoft.com/en-us/library/gg615466.aspx) topic for Project Server 2010. The difference is that the New Event Handler page has additional options. For example, choose **Project Creating** in the **Events** list, and then choose **NEW EVENT HANDLER**. On the New Event handler page, the only two required fields are **Name** and **Order** (see Figure 3). If you are adding a local full-trust event handler, add the **Assembly Name** field and the **Class Name** field; leave **Endpoint Url** empty. If you are adding a remote event receiver, add **Endpoint Url**, and leave **Assembly Name** and **Class Name** empty. 
   
 > [!CAUTION]
 > If you specify  *both*  the assembly name/class name, and the endpoint URL, Project Server calls only the local (on-premises) event handler. The remote event receiver is ignored. > If you create two event handlers for the same event, where one event handler is local and one is a remote event receiver, and the **Order** value is the same for both, Project Server ignores the remote event receiver. 
@@ -282,7 +282,7 @@ Office Add-ins provide a new avenue for selling solutions and integrating Projec
   
 For more information about developing apps, and using the programmability features and the CSOM of SharePoint Server 2013, see [SharePoint for developers](http://msdn.microsoft.com/en-US/sharepoint) and [Office for developers](http://msdn.microsoft.com/en-US/office).
   
-## Additional resources
+## See also
 <a name="pj15_WhatsNew_AR"> </a>
 
 - [Project Server 2013 architecture](project-server-2013-architecture.md)

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagCreateTemplates Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains an embedded table object that contains dialog box template entry identifiers. 
   

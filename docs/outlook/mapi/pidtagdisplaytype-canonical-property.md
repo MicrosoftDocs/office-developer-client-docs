@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagDisplayType Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a value used to associate an icon with a particular row of a table. 
   

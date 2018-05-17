@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # SzFindLastCh
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Searches for the last occurrence of a character in a null-terminated string. 
   

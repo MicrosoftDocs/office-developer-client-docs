@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIProp::GetProps
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Retrieves the property value of one or more properties of an object.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # ENTRYLIST
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 An array of entry identifiers representing MAPI object that uses the same implementation as the [SBinaryArray](sbinaryarray.md) structure. 
   

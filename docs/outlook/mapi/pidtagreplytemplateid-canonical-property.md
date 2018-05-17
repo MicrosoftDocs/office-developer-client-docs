@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagReplyTemplateId Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the globally unique identifier (GUID) for the reply template.
   

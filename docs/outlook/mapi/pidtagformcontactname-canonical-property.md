@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagFormContactName Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the name of a contact for information about a form. 
   

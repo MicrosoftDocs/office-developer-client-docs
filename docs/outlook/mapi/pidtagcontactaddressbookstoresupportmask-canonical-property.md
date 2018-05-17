@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagContactAddressBookStoreSupportMask Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the **PR_STORE_SUPPORT_MASK** ( [PidTagStoreSupportMask](pidtagcontactaddressbookstoresupportmask-canonical-property.md)) property obtained from the store that contains the Contacts folder.
   

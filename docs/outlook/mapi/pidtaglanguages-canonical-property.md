@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagLanguages Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains an ASCII list of the languages that are incorporated in a message. 
   

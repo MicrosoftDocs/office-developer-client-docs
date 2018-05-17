@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagContactAddressTypes Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a list of address types for a contact.
   

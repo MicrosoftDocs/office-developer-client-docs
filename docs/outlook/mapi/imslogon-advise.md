@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMSLogon::Advise
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Registers an object with a message store provider for notifications about changes in the message store. The message store will then send notifications about changes to the registered object.
   

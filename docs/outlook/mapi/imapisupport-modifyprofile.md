@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMAPISupport::ModifyProfile
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Makes changes to a message store profile section permanent.
   

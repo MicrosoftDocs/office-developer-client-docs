@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # Displaying Table Rows and Columns
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
  A property page can be used by an address book provider to enable users to define new e-mail recipients. 
   

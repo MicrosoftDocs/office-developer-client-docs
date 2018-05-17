@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # OlFlagIcon
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies whether an item is flagged, and if it is, the color associated with the flagged item.
   

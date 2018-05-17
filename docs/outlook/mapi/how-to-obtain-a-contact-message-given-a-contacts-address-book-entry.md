@@ -1,5 +1,5 @@
 ---
-title: "How to Obtain a Contact Message Given a Contacts Address Book Entry"
+title: "Obtain a Contact Message Given a Contacts Address Book Entry"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,11 +10,10 @@ description: "Last modified: August 13, 2013"
  
 ---
 
-# How to: Obtain a Contact Message Given a Contacts Address Book Entry
-
- **Last modified:** August 13, 2013 
+# Obtain a Contact Message Given a Contacts Address Book Entry
+ 
   
- * **Applies to:** Outlook * 
+**Applies to**: Outlook 
   
 This topic contains an example in C++,  `HrOpenContact`, that shows how to use the [CONTAB_ENTRYID](contab_entryid.md) structure that identifies an entry in a Contacts Address Book to obtain the associated MAPI Contact message. 
   

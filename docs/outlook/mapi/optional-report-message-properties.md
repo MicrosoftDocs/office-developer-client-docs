@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # Optional Report Message Properties
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The following properties sometimes appear with report messages:
   

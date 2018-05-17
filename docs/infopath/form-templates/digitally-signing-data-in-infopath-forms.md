@@ -56,5 +56,5 @@ Signed InfoPath forms and digital signatures created by InfoPath will also provi
 
 #### Concepts
 
-[How to: Work with Digital Signatures](how-to-work-with-digital-signatures.md)
+[Work with Digital Signatures](how-to-work-with-digital-signatures.md)
 

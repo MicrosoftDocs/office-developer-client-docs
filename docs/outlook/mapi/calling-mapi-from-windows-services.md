@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Calling MAPI from Windows Services
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 To enable MAPI client applications that are written as Windows services to operate with MAPI-compliant service providers, MAPI imposes several limitations and requirements.
   

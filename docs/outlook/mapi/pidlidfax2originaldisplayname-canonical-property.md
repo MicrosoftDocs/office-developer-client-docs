@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidFax2OriginalDisplayName Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the original display name of the contact's home fax address.
   

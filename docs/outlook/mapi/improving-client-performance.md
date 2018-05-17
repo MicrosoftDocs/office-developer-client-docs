@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Improving Client Performance
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The topics in this section contain tips that help you create a client application with the best possible performance.
   

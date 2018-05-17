@@ -1,5 +1,5 @@
 ---
-title: "How to Create and customize a web app in Access"
+title: "Create and customize a web app in Access"
  
  
 manager: kelbow
@@ -12,7 +12,7 @@ ms.assetid: 628745f4-82e9-4838-9726-6f3e506a654f
 
 ---
 
-# How to: Create and customize a web app in Access
+# Create and customize a web app in Access
 
 ## Introduction
 <a name="ac15_CreateAndCustomizeWebApp_Introduction"> </a>
@@ -240,7 +240,7 @@ Now we're ready to text the customization. Click **Launch App** to open the app 
 
 Using one of the schema templates included with is a good way to jump start the creation of an Access web app. The views that are automatically created for you contain advanced functionally that requires custom code to implement in a Access desktop database. 
   
-## Additional resources
+## See also
 <a name="ac15_CreateAndCustomizeWebApp_AdditionalResources"> </a>
 
 [What's new for Access 2013 developers](http://msdn.microsoft.com/library/df778f51-d65e-4c30-b618-65003ceb39b3%28Office.15%29.aspx)

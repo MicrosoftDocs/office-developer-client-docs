@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Service Provider Development Basics
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 This section contains overview information that you should review prior to creating your own MAPI service providers.
   

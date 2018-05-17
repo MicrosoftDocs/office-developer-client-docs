@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Handling an Incoming Message
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 An incoming message is a message that has been sent across one or more messaging systems. It may have been sent only to you or to many other recipients. Incoming messages are placed in a receive folder designated to hold messages of a particular class. You can set up a different receive folder for each message class that you handle or use one folder for all of the classes.
   

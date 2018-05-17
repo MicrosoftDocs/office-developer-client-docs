@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Deleting a Recipient
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
  **To remove one or more address book entries from a modifiable container**
   

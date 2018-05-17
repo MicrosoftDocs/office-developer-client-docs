@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Registering for a Notification
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 A client can register for address book or message store notifications as part of its initialization process.
   

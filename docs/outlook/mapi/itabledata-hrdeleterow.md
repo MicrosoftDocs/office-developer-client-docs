@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # ITableData::HrDeleteRow
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Deletes a table row.
   

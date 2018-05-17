@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # OpenStreamOnFile
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Allocates and initializes an OLE **IStream** object to access the contents of a file. This function takes an ANSI string as the file name including the path and the file extension, therefore, use of the Unicode version of this function, [OpenStreamOnFileW](openstreamonfilew.md), is recommended.
   

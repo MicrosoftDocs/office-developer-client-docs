@@ -12,9 +12,9 @@ description: "Last modified: July 23, 2011"
 
 # Algorithm to Encode Entry IDs and Attachment IDs
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 A store provider can send as part of a MAPI Uniform Resource Locator (URL) an entry ID and an attachment ID to the MAPI Protocol Handler to identify an object that is ready for indexing. The store provider encodes the entry ID and attachment ID as Unicode strings. This topic shows an algorithm that generates a compact representation of the entry ID or attachment ID.
   

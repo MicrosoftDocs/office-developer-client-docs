@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IProviderAdmin::CreateProvider
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Adds a service provider to the message service. 
   

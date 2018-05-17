@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagClientSubmitTime Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the date and time the message sender submitted a message. 
   

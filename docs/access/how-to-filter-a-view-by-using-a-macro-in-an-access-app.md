@@ -1,5 +1,5 @@
 ---
-title: "How to Filter a view by using a macro in an Access app"
+title: "Filter a view by using a macro in an Access app"
  
  
 manager: kelbow
@@ -12,7 +12,7 @@ ms.assetid: db4dbb71-1b22-4dfd-bc07-5f7d694fc038
 description: "Learn how to filter a view in an Access app by using the RequeryRecords macro action and a data macro."
 ---
 
-# How to: Filter a view by using a macro in an Access app
+# Filter a view by using a macro in an Access app
 
 Learn how to filter a view in an Access app by using the RequeryRecords macro action and a data macro.
   
@@ -270,7 +270,7 @@ Now, we're ready to text the customization. Choose **Launch App** to open the ap
 
 You can use the **RequeryRecords** macro action in a UI macro to filter the view based on the criteria that you choose. Depending on the behavior that you want, you may want to create a data macro to verify that a record meets the criteria before you use the **RequeryRecords** macro action. 
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [What's new for Access 2013 developers](http://msdn.microsoft.com/library/df778f51-d65e-4c30-b618-65003ceb39b3%28Office.15%29.aspx)

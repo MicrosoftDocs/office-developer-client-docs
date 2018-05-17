@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagKeyword Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a keyword that identifies the recipient to the recipient's system administrator.
   

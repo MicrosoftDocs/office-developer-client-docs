@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # TNEF Attributes
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 This section provides additional information about certain TNEF attributes. For more information about the MAPI properties that the attributes are mapped to, see the reference entries for the individual properties.
   

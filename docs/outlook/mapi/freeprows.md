@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # FreeProws
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Destroys an [SRowSet](srowset.md) structure and frees associated memory, including memory allocated for all member arrays and structures. 
   

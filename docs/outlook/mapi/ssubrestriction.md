@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # SSubRestriction
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Describes a sub-object restriction which is used to filter the rows of a message's attachment or recipient table.
   

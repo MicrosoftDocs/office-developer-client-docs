@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # Forwarding a Message
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Forwarding a message involves many of the same tasks as sending an original message. First, you must open the default message store and the folder that is designated to hold outgoing messages, typically the Outbox, and call this folder's [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) method to create the message to be forwarded. You must also open the folder that holds the original message, typically the Inbox. For information about opening different folders, see [Opening a Message Store Folder](opening-a-message-store-folder.md).
   

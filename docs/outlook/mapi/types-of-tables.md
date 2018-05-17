@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # Types of Tables
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 There are many different types of tables, each type differentiated by the information that it presents. Tables enable client applications and service providers to readily access and manipulate the important properties of many types of objects. 
   

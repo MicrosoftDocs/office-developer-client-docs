@@ -18,16 +18,16 @@ This section contains sample tasks that use the APIs available in the Outlook 20
   
 ## In This Section
 
-- [How to: Determine whether an Outlook item has been modified but not saved (Outlook Auxiliary Reference)](how-to-determine-whether-an-outlook-item-has-been-modified-but-not-saved-outlook.md)
+- [Determine whether an Outlook item has been modified but not saved (Outlook Auxiliary Reference)](how-to-determine-whether-an-outlook-item-has-been-modified-but-not-saved-outlook.md)
     
-- [How to: Parse a stream from a binary property to read the TZDEFINITION structure](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzdefinition-structure.md)
+- [Parse a stream from a binary property to read the TZDEFINITION structure](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzdefinition-structure.md)
     
-- [How to: Parse a stream from a binary property to read the TZREG structure](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md)
+- [Parse a stream from a binary property to read the TZREG structure](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md)
     
-- [How to: Read time zone properties from an appointment](how-to-read-time-zone-properties-from-an-appointment.md)
+- [Read time zone properties from an appointment](how-to-read-time-zone-properties-from-an-appointment.md)
     
-- [How to: Specify whether to display a contact's picture in Outlook (Outlook Auxiliary Reference)](https://msdn.microsoft.com/en-us/library/office/gg262879.aspx)
+- [Specify whether to display a contact's picture in Outlook (Outlook Auxiliary Reference)](https://msdn.microsoft.com/en-us/library/office/gg262879.aspx)
     
-- [How to: Use relative time to access free/busy data](how-to-use-relative-time-to-access-free-busy-data.md)
+- [Use relative time to access free/busy data](how-to-use-relative-time-to-access-free-busy-data.md)
     
 

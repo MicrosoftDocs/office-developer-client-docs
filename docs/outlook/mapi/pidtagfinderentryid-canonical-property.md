@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagFinderEntryId Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the entry identifier for the folder where search results are typically created.
   

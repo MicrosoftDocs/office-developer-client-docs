@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IMsgStore::GetReceiveFolderTable
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Provides access to the receive folder table, a table that includes information about all of the receive folders for the message store.
   

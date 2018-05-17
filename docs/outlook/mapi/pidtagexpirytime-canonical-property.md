@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagExpiryTime Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the date and time when the messaging system can invalidate the content of a message. 
   

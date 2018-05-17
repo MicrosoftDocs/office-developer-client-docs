@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # MAPI Custom Form Objects
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Objects for custom forms are implemented by three different components:
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidSharingProviderUrl Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the URL that is related to the sharing provider and identified by the **dispidSharingProviderGuid** ( [PidLidSharingProviderGuid](pidlidsharingproviderguid-canonical-property.md)) property. This is a property of a sharing message.
   

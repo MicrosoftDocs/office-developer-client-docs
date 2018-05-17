@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagReportingDistributionListName Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the display name of a distribution list where the messaging system delivers a report.
   

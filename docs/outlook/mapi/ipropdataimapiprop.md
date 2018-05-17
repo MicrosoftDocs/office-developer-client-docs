@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IPropData : IMAPIProp
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Provides the ability to retrieve and change the access for an object's properties. 
   

@@ -249,7 +249,7 @@ The following example is the complete code in the client Web Part's GetProjectID
 
 ```
 
-## Additional resources
+## See also
 <a name="AdditionalResources"> </a>
 
 - [Project programming tasks](project-programming-tasks.md)

@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IProxyStoreObject::UnwrapNoRef
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Gets a pointer to an unwrapped Internet Message Access Protocol (IMAP) store object that provides access to the underlying Personal Folders file (PST) without invoking synchronization and downloading the items.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagCallbackTelephoneNumber Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a telephone number that the message recipient can use to reach the sender. 
   

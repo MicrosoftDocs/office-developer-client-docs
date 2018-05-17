@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Avoiding Using IStream::SetSize to Extend a Stream
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 When writing to streams, it is sometimes necessary to enlarge them because their initial size is no longer sufficient. Use the OLE method **IStream::Write** to accomplish this rather than **IStream::SetSize**. **IStream::Write** automatically extends the stream, making ** IStream::SetSize ** unnecessary. Calling **IStream::Write** without **IStream::SetSize** can be up to three times faster than making the **SetSize** call prior to **Write**.
   

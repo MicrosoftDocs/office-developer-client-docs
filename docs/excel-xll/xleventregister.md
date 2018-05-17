@@ -14,7 +14,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # xlEventRegister
 
- * **Applies to:** Excel 2013 | Office 2013 | Visual Studio * 
+ **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 Used to register an event handler. Introduced in Excel 2010.
   

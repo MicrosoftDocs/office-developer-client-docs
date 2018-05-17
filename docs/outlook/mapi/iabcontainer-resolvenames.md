@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IABContainer::ResolveNames
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Performs name resolution for one or more recipient entries.
   

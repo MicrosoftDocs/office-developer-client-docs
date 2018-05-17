@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # HrOpenABEntryWithExchangeContext
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Opens the **entryID** using the Exchange Address Book identified by **pEmsmdbUID**. This function works similarly to [IAddrBook::Details](iaddrbook-details.md) except that using this function ensures that the [IAddrBook::OpenEntry](iaddrbook-openentry.md) is opened by using the expected Exchange Address Book Provider. 
   

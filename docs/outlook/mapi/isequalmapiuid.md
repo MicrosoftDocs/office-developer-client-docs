@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IsEqualMAPIUID
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Tests two [MAPIUID](mapiuid.md) structures to determine whether they contain the same identifier. 
   

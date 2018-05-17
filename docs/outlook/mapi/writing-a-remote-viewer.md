@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # Writing a Remote Viewer
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 A remote viewer is a window in a client application that provides controlled access to messages stored on another computer. This controlled access might operate on a slow communications link. Rather than retrieve a complete selection of available messages every time a user opens a folder, the remote viewer first displays only the headers. The user then selects from the headers which of the messages to display in full. Remote viewer clients can allow their users to delete messages before they are ever downloaded. 
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # CloseIMsgSession
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Closes a message session and all the messages created within that session. 
   

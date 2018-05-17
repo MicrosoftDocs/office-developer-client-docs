@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # HrSetOneProp
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Sets or changes the value of a single property on a property interface, that is, an interface derived from [IMAPIProp](imapipropiunknown.md). 
   

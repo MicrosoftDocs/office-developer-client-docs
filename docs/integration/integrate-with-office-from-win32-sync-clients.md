@@ -32,7 +32,7 @@ In order for your Win32 sync client to show up as a root node in the navigation 
 
 In Office, users can create documents in their document libraries with a single action. To add your sync location to the document library, use the [SHAddFolderPathToLibrary function](https://msdn.microsoft.com/en-us/library/windows/desktop/dd378432%28v=vs.85%29.aspx). 
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Integrate with Office](integrate-with-office.md)

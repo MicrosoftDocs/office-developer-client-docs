@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # HrDispatchNotifications
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Forces dispatching of all queued notifications. 
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidNameXSharingFlavor Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Represents the value of the **dispidSharingFlavor** ( [PidLidSharingFlavor](pidlidsharingflavor-canonical-property.md)) property.
   

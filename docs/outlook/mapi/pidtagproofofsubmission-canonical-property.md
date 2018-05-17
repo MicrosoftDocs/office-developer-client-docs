@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagProofOfSubmission Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 This property contains TRUE if a message sender requests proof that the message transfer system has submitted a message for delivery to the originally intended recipient.
   

@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Sending Across Messaging Domains
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 A messaging domain represents one or more messaging systems that share a common address format. Communication across multiple messaging domains involves translating a message sent in the format of the original messaging domain into the format of the destination messaging domain. Because not all address formats are compatible, a gateway is needed to translate the addressing information from the source format into the destination format. To ensure validity across messaging domains, client applications store important addressing information in MAPI properties. In addition, gateways perform the translation, examining the properties known to need translation and changing them to a format that the destination messaging domain can use.
   

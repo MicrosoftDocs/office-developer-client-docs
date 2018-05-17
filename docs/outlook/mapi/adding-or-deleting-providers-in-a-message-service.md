@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Adding or Deleting Providers in a Message Service
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 To add or delete service providers in a message service, use the [IProviderAdmin : IUnknown](iprovideradminiunknown.md) interface. You can retrieve an **IProviderAdmin** pointer by calling [IMsgServiceAdmin::AdminProviders](imsgserviceadmin-adminproviders.md). The provider table, accessable through [IProviderAdmin::GetProviderTable](iprovideradmin-getprovidertable.md), lists information about the service providers currently installed in the message service. Clients and service providers can use the provider table to access the name of the provider DLL file, for example, or the **MAPIUID**, display name, and type of the provider as well as information about the message service. For more information, see [Provider Tables](provider-tables.md).
   

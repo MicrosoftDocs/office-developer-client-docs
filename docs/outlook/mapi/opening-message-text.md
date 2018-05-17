@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Opening Message Text
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The text of a message is stored either in its **PR_BODY** property or **PR_RTF_COMPRESSED** property. For more information, see **PR_BODY** ( [PidTagBody](pidtagbody-canonical-property.md)), **PR_HTML** ( [PidTagHtml](pidtaghtml-canonical-property.md)), and **PR_RTF_COMPRESSED** ( [PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). If you support the Rich Text Format (RTF), open **PR_RTF_COMPRESSED**. If you do not support RTF, open **PR_BODY**. Because the text of a message can be large regardless of whether or not it is formatted, use **IMAPIProp::OpenProperty** to open these properties. For more information, see [IMAPIProp::OpenProperty](imapiprop-openproperty.md).
   

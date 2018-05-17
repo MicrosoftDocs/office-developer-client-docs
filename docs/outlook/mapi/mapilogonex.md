@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # MAPILogonEx
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Logs a client application on to a session with the messaging system. 
   

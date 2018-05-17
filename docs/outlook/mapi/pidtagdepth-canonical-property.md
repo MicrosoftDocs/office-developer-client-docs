@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagDepth Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains an integer that represents the relative level of indentation, or depth, of an object in a hierarchy table.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidFax1EmailAddress Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies the e-mail address of the contact's business fax.
   

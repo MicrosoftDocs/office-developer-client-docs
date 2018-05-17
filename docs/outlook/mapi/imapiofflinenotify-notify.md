@@ -18,9 +18,9 @@ description: "Last modified: June 25, 2012"
 
 # IMAPIOfflineNotify::Notify
 
- **Last modified:** June 25, 2012 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Sends notifications to the client about changes in connection state.
   

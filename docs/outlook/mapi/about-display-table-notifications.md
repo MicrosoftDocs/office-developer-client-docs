@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # About Display Table Notifications
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Notifications on a display table are sent by the service provider responsible for creating the display table to MAPI. MAPI registers for these notifications by calling a display table's [IMAPITable::Advise](imapitable-advise.md) method and specifying the table modified event. 
   

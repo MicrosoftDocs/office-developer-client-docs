@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Supporting Multiple Client Access to Messages in Message Stores
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 It is possible for multiple client applications to open a given message simultaneously. Message store providers do not have to follow any particular rules for governing such access. However, if the client applications modify the message and save their changes, the store provider should comply with the following rules:
   

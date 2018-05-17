@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IXPProvider : IUnknown
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Initializes a transport provider object and shuts down the object when it is no longer needed.
   

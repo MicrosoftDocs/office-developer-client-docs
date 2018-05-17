@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagSearchOwnerId Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains the process ID of the process that is sending notifications to the indexer about objects ready for indexing.
   

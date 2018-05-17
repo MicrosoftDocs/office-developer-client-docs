@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMAPIFormMgr::CalcFormPropSet
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Returns an array of the properties that a group of forms uses.
   

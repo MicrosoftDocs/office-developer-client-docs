@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # Address Book Provider Sample
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 This sample supports a single read-only container for display names and e-mail addresses, which are read from a flat binary file. The sample supports one-off templates and all configuration options except the Profile Wizard.
   

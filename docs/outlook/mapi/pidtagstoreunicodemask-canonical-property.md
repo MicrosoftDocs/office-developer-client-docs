@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidTagStoreUnicodeMask Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Contains a bitmask of flags that client applications should query to determine the characteristics of a message store.
   

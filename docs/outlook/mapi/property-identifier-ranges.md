@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # Property Identifier Ranges
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The following table summarizes the different ranges for property identifiers, describing the owner for the properties in each range.
   

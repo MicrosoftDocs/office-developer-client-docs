@@ -14,9 +14,9 @@ description: "Last modified: March 09, 2015"
 
 # HandsOffAfterSave State
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The HandsOffAfterSave state is part of the process of saving the contents of a form to permanent storage. When in this state, the form object should refrain from making changes to the in-memory copies of values of the message's properties, because there may not be another opportunity to save those changes. The following table describes allowed transitions from the HandsOffAfterSave state.
   

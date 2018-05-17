@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # IAddrBook::GetPAB
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Returns the entry identifier of the container that is designated as the personal address book (PAB).
   

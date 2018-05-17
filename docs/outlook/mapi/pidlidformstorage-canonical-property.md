@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidFormStorage Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Represents the properties of the form that is associated with the message.
   

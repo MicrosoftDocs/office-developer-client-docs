@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # Creating a Profile by Using Custom Code
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 If you choose to write code to create a profile, make sure that you understand how to order profile entries and the type and amount of information that is needed for each entry. The implications of ordering entries in a profile is explained in [MAPI Profiles](mapi-profiles.md).
   

@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IContabAdmin::RemoveStore
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Removes the Contact Address Book (CAB) specified by the given entry ID from the address book hierarchy.
   

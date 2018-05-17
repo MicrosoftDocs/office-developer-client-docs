@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
 
 # IMAPIStatus::ChangePassword
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Modifies a service provider's password without displaying a user interface. This method is optionally supported in status objects that service providers implement.
   

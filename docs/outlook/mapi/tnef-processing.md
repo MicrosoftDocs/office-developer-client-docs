@@ -14,9 +14,9 @@ description: "Last modified: July 05, 2012"
 
 # TNEF Processing
 
- **Last modified:** July 05, 2012 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The following series of actions describe how transports use TNEF methods to process outgoing and incoming messages.
   

@@ -18,9 +18,9 @@ description: "Last modified: March 09, 2015"
 
 # PidLidHeaderItem Canonical Property
 
- **Last modified:** March 09, 2015 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 Specifies whether Microsoft Outlook has downloaded to the client computer only the header of a message, or both the header and body of the message, when Outlook is configured in Cached Exchange Mode.
   

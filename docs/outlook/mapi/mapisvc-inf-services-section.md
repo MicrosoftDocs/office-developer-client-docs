@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # MapiSvc.inf [Services] Section
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 The **[Services]** section lists the message services that are installed on a computer. Entries in this section use the following format: 
   

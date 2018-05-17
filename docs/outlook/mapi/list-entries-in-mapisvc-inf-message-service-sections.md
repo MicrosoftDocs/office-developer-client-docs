@@ -14,9 +14,9 @@ description: "Last modified: July 23, 2011"
 
 # List Entries in MapiSvc.inf Message Service Sections
 
- **Last modified:** July 23, 2011 
   
- * **Applies to:** Outlook * 
+  
+**Applies to**: Outlook 
   
 There are two types of section list entries: one that lists service provider sections and one that lists miscellaneous message service-specific sections. These two types of entries appear in mapisvc.inf using the following formats:
   

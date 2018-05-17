@@ -14,7 +14,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # Asynchronous User-Defined Functions
 
- * **Applies to:** Excel 2013 | Office 2013 | Visual Studio * 
+**Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 Microsoft Excel 2013 can call user-defined functions asynchronously. Calling functions asynchronously can improve performance by allowing several calculations to run at the same time. When you run user-defined functions on a compute cluster, calling functions asynchronously enables several computers to be used to complete the calculations.
   
