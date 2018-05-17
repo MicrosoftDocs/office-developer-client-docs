@@ -8,19 +8,15 @@ api_type:
 - COM
 ms.assetid: 4c126d0c-d7c0-45c0-801c-c9f1e44c9db6
 description: "Last modified: February 01, 2013"
- 
- 
 ---
 
 # Outlook MAPI Reference Overview
 
-  
-  
 **Applies to**: Outlook 
   
 This topic provides overview information about the Outlook 2013 MAPI Reference documentation.
   
-## About This Documentation
+## About this documentation
 
 This documentation applies to the implementation of the Messaging API (MAPI) in Microsoft Outlook 2013. 
   
@@ -63,11 +59,7 @@ The rest of this reference is categorized into the following three types of info
     
 ## See also
 
-#### Other resources
-
-[Getting Started with the Outlook MAPI Reference](getting-started-with-the-outlook-mapi-reference.md)
-  
-[MAPI Samples](mapi-samples.md)
-  
-[MAPI Concepts](mapi-concepts.md)
+- [Getting Started with the Outlook MAPI Reference](getting-started-with-the-outlook-mapi-reference.md)
+- [MAPI Samples](mapi-samples.md)
+- [MAPI Concepts](mapi-concepts.md)
 

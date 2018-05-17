@@ -1,15 +1,11 @@
 ---
 title: "Window interfaces (OneNote)"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: overview
- 
 localization_priority: Normal
 ms.assetid: e6900ad7-c147-4816-93a9-5773170b115a
-
 description: "The Window and Windows interfaces are OneNote 2013 API objects that enables users to work with OneNote windows. These objects allow users to enumerate through the set of OneNote windows and modify certain window properties."
 ---
 
@@ -143,7 +139,5 @@ namespace SampleWND
 
 ## See also
 
-#### Concepts
-
-[OneNote developer reference](onenote-developer-reference.md)
+- [OneNote developer reference](onenote-developer-reference.md)
 

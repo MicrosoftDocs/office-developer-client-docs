@@ -1,15 +1,11 @@
 ---
 title: "Application interface (OneNote)"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: overview
- 
 localization_priority: Normal
 ms.assetid: 87926f7d-e1dc-41d5-8805-6ba91fc7b154
-
 description: "The Application interface includes methods help retrieve, manipulate, and update OneNote information and content. The methods are in four general categories:"
 ---
 
@@ -484,9 +480,6 @@ This section describes the events of the Application interface.
 |**Parameters** <br/> | _bstrActivePageID_—Passes the OneNote ID of the active page.  <br/> |
    
 ## See also
-<a name="ON14DevRef_Application_Events"> </a>
 
-#### Concepts
-
-[OneNote 2013 Developer Reference](onenote-developer-reference.md)
+- [OneNote developer reference](onenote-developer-reference.md)
 

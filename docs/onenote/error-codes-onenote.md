@@ -1,12 +1,9 @@
 ---
 title: "Error codes (OneNote)"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: overview
- 
 localization_priority: Normal
 ms.assetid: 390df5ce-e730-470d-b6e9-0de4a3e904f8
 description: "This topic lists the error codes in the OneNote 2013 object model."
@@ -77,7 +74,5 @@ The following lists the new error codes for OneNote 2013.
    
 ## See also
 
-#### Concepts
-
-[OneNote developer reference](onenote-developer-reference.md)
+- [OneNote developer reference](onenote-developer-reference.md)
 

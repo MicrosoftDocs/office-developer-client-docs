@@ -1,19 +1,15 @@
 ---
-title: "Enumerations (OneNote Developer Reference)"
- 
- 
+title: "Enumerations (OneNote developer reference)"
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: overview
- 
 localization_priority: Normal
 ms.assetid: 62912d6e-c39e-4f8b-8cdb-ae9b6376cbc0
-
 description: "This topic describes the enumerations in the OneNote 2013 object model."
 ---
 
-# Enumerations (OneNote Developer Reference)
+# Enumerations (OneNote developer reference)
 
 This topic describes the enumerations in the OneNote 2013 object model.
   
@@ -210,9 +206,6 @@ When passed to one of the following methods, specifies the version of the OneNot
 |**xsCurrent** <br/> |2  <br/> |References the schema of the current OneNote version.  <br/> > [!NOTE]> We do not recommend using **xsCurrent** in most cases, as it can cause compatibility issues with future versions of OneNote. Instead specify the version of the schema that your app was built to handle, like xs2013.           |
    
 ## See also
-<a name="odc_SpecialLocation"> </a>
 
-#### Concepts
-
-[OneNote developer reference](onenote-developer-reference.md)
+- [OneNote developer reference](onenote-developer-reference.md)
 

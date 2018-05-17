@@ -1,12 +1,9 @@
 ---
 title: "Developing Excel Cluster Connectors"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
- 
 localization_priority: Normal
 ms.assetid: b538ae44-37d2-496b-b6e7-b0e39f6e38cb
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
