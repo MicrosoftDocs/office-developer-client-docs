@@ -157,7 +157,7 @@ The bottom text box and button elements are within **div** elements, so that CSS
 2. In the  `<asp:Content ContentPlaceHolderID="PlaceHolderAdditionalPageHead" runat="server">` control for the page header, add a reference to the PS.js file on the Project Server computer. For testing and debugging, you can use PS.debug.js. 
     
    ```HTML
-  <script type="text/javascript" src="/_layouts/15/ps.debug.js"></script>
+     <script type="text/javascript" src="/_layouts/15/ps.debug.js"></script>
    ```
 
    The app infrastructure uses the `/_layouts/15/` virtual directory for the SharePoint site in IIS. The physical file is  `%ProgramFiles%\Common Files\Microsoft Shared\Web Server Extensions\15\TEMPLATE\LAYOUTS\PS.debug.js`.
@@ -696,15 +696,15 @@ There are several ways to deploy an app to a SharePoint web application such as 
   
 10. On the Quick Status Update details page, choose **ADD IT**. Project Web App displays a dialog box that lists the operations that the QuickStatus app can perform (see Figure 12). The list of operations is derived from the **AppPermissionRequest** elements in the AppManifest.xml file. 
     
-   **Figure 12. Verifying that you trust the Quick Status app**
+    **Figure 12. Verifying that you trust the Quick Status app**
 
-   ![Verifying trust for the QuickStatus app](media/pj15_CreateStatusingApp_AddAppToPWA2Trust.gif)
+    ![Verifying trust for the QuickStatus app](media/pj15_CreateStatusingApp_AddAppToPWA2Trust.gif)
   
 11. In the **Do you trust Quick Status Update** dialog box, choose **Trust It**. The app is added to the Project Web App Site Contents page (see Figure 13).
     
-   **Figure 13. Viewing the Quick Status app on the Site Contents page**
+    **Figure 13. Viewing the Quick Status app on the Site Contents page**
 
-   ![Viewing the QuickStatus app in Site Contents](media/pj15_CreateStatusingApp_AddAppToPWA3.gif)
+    ![Viewing the QuickStatus app in Site Contents](media/pj15_CreateStatusingApp_AddAppToPWA3.gif)
   
 On the Site Contents page, you can select the **Quick Status Update** icon to run the app.
 

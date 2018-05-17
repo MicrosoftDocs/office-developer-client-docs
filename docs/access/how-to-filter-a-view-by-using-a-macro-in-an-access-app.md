@@ -217,9 +217,9 @@ Now, we're ready to create the UI macro that will filter the view.
     
     The macro should resemble the macro shown in Figure 8.
     
-   **Figure 8. UI macro to filter the view**
+    **Figure 8. UI macro to filter the view**
 
-   ![UI macro to filter the view](media/odc_Access2013_FilterFormByUsingMacro_Figure08.jpg)
+    ![UI macro to filter the view](media/odc_Access2013_FilterFormByUsingMacro_Figure08.jpg)
   
 13. Close macro Design View.
     

@@ -20,7 +20,7 @@ description: "Last modified: July 23, 2011"
   
 The **IMAPITable::SortTable** method orders the rows of the table, depending on sort criteria. 
   
-```
+```cpp
 HRESULT SortTable(
 LPSSortOrderSet lpSortCriteria,
 ULONG ulFlags

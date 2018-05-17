@@ -24,7 +24,7 @@ Describes a row in a table that has been affected by some type of event, such as
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _TABLE_NOTIFICATION
 {
   ULONG ulTableEvent;

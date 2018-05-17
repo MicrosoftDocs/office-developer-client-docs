@@ -196,7 +196,7 @@ Procedure 2 shows how to create LINQ queries in Visual C# by using expressions i
     
     The **projectQuery2** variable produces the same query results, by using lambda expressions. The **projectQuery2** variable is of type **IQueryable\<ProjectOData.Project\>**. The .NET Framework internally converts **projectQuery1** to use the method syntax of **projectQuery2**.
     
-        ```cs
+       ```cs
         using System;
         using System.Collections.Generic;
         using System.Linq;
@@ -237,7 +237,7 @@ Procedure 2 shows how to create LINQ queries in Visual C# by using expressions i
                 }
             }
         }
-        ```
+       ```
 
 4. Set a breakpoint after initializing the **projectQuery1** variable, and run the application. Internally, Visual Studio converts the query first to OData method syntax with lambda expressions, and then to a REST query for the OData service. Following is the REST query for **projectQuery1** (all on one line): 
     

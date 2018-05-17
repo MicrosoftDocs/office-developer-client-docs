@@ -20,7 +20,7 @@ description: "Last modified: November 08, 2011"
   
 Registers Personal Folders (.pst) files for automatic unlocking, avoiding further calls to the HrTrustedPSTOverrideHandlerCallback.
   
-```
+```cpp
 HRESULT SetPersistedRegistrations(
   SPropValue *pmval
 );

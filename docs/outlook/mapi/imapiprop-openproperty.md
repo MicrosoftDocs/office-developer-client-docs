@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Returns a pointer to an interface that can be used to access a property.
   
-```
+```cpp
 HRESULT OpenProperty(
   ULONG ulPropTag,
   LPCIID lpiid,

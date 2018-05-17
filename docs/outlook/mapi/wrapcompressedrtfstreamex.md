@@ -24,7 +24,7 @@ Decompresses the the body of an e-mail message that is in compressed Rich Text F
 |Called by:  <br/> |Client  <br/> |
 |Implemented by:  <br/> |Outlook  <br/> |
    
-```
+```cpp
 HRESULT __stdcall WrapCompressedRTFStreamEx( 
     LPSTREAM            lpCompressedRTFStream, 
     CONST RTF_WCSINFO   *pWCSInfo, 

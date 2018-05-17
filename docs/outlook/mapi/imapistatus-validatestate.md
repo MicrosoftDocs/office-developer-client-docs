@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Confirms the external status information available for the MAPI resource or the service provider. This method is supported in all status objects. 
   
-```
+```cpp
 HRESULT ValidateState(
   ULONG_PTR ulUIParam,
   ULONG ulFlags

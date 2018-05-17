@@ -162,9 +162,9 @@ Now that we have field in which to store the phone number, let's create a data m
     
     The macro should resemble the macro shown in Figure 8.
     
-   **Figure 8. GetContactPhone data macro**
+    **Figure 8. GetContactPhone data macro**
 
-   ![GetContactPhone data macro](media/odc_Access15_CreateAndCustomizeWebApp_Figure08.jpg)
+    ![GetContactPhone data macro](media/odc_Access15_CreateAndCustomizeWebApp_Figure08.jpg)
   
 11. Close macro Design View.
     
@@ -216,9 +216,9 @@ Now we should write a user interface (UI) macro that copies the **Work Phone** f
     
     The macro should resemble the macro shown in Figure 9.
     
-   **Figure 9. After Update macro**
+    **Figure 9. After Update macro**
 
-   ![After Update macro](media/odc_Access15_CreateAndCustomizeWebApp_Figure09.jpg)
+    ![After Update macro](media/odc_Access15_CreateAndCustomizeWebApp_Figure09.jpg)
   
 11. Close macro Design View.
     
