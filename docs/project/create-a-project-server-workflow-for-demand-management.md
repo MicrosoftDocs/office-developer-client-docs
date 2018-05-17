@@ -68,103 +68,109 @@ The following detailed procedure includes the same steps as in the [Creating a g
   
 ### To create a Project Server branching workflow (detailed procedure)
 
-1. Plan and design the workflow. A Project Server workflow can integrate with multiple stages and phases in a demand-management process. Because workflows can be complex, you must understand the business requirements and plan a workflow carefully. For a simple example, design a branching workflow that uses the estimated cost of a project proposal to determine whether the proposal is accepted. If the estimated cost is greater than $25,000 USD, reject the proposal; otherwise, accept the proposal and create the project.
+#### Plan and design the workflow.
+
+A Project Server workflow can integrate with multiple stages and phases in a demand-management process. Because workflows can be complex, you must understand the business requirements and plan a workflow carefully. For a simple example, design a branching workflow that uses the estimated cost of a project proposal to determine whether the proposal is accepted. If the estimated cost is greater than $25,000 USD, reject the proposal; otherwise, accept the proposal and create the project.
     
-   Because you can use Visio 2013 and SharePoint Designer 2013 to help design and create workflows for Project Server 2013, you can more easily experiment with workflows than is possible with Project Server 2010. The sample workflow design in this article is the same as in the [Create a branching workflow](http://msdn.microsoft.com/library/a02cafdc-d881-4271-b446-d8b2cd456a52%28Office.15%29.aspx) article in the Project 2010 SDK. You can design and create a test workflow on a remote computer using a test instance of Project Web App—you do not have to create workflows directly on a Project Server 2013 computer. 
+Because you can use Visio 2013 and SharePoint Designer 2013 to help design and create workflows for Project Server 2013, you can more easily experiment with workflows than is possible with Project Server 2010. The sample workflow design in this article is the same as in the [Create a branching workflow](http://msdn.microsoft.com/library/a02cafdc-d881-4271-b446-d8b2cd456a52%28Office.15%29.aspx) article in the Project 2010 SDK. You can design and create a test workflow on a remote computer using a test instance of Project Web App—you do not have to create workflows directly on a Project Server 2013 computer. 
     
-2. In Project Web App, review the available workflow phases and stages, and the enterprise custom fields that are available. If necessary, create the entities that your workflow requires, as in the following steps:
+#### Create the entities that your workflow requires.
+
+In Project Web App, review the available workflow phases and stages, and the enterprise custom fields that are available. If necessary, create the entities that your workflow requires, as in the following steps:
     
-    1. **Workflow phases** The default installation of Project Web App includes the Create, Select, Plan, Manage, and Finished phases. For the branching workflow example, you do not have to create other phases. 
+1. **Workflow phases** The default installation of Project Web App includes the Create, Select, Plan, Manage, and Finished phases. For the branching workflow example, you do not have to create other phases. 
         
-    2. **Enterprise custom fields** The branching workflow requires a project cost custom field that is workflow-controlled. The value of a workflow-controlled custom field is set in a PDP that the workflow uses. For example, choose the **Settings** icon at the top-right of a Project Web App page, choose **PWA Settings**, and then choose **Enterprise Custom Fields and Lookup Tables**.
+2. **Enterprise custom fields** The branching workflow requires a project cost custom field that is workflow-controlled. The value of a workflow-controlled custom field is set in a PDP that the workflow uses. For example, choose the **Settings** icon at the top-right of a Project Web App page, choose **PWA Settings**, and then choose **Enterprise Custom Fields and Lookup Tables**.
         
-        Create a custom field named Proposal Cost for the **Project** entity, and select the type **Cost**. For the description, type Estimated cost of a project proposal. In the **Behavior** section, choose **Behavior controlled by workflow**.
+    Create a custom field named Proposal Cost for the **Project** entity, and select the type **Cost**. For the description, type Estimated cost of a project proposal. In the **Behavior** section, choose **Behavior controlled by workflow**.
         
-    3. **Project detail pages** Edit or create the PDPs that the workflow stages will use. For example, do the following steps: 
+3. **Project detail pages** Edit or create the PDPs that the workflow stages will use. For example, do the following steps: 
         
-       1. Choose **Project Detail Pages** on the Server Settings page, and then choose the **ProjectInformation** PDP. 
+    1. Choose **Project Detail Pages** on the Server Settings page, and then choose the **ProjectInformation** PDP. 
             
-       2. On the **PAGE** tab of the ribbon, in the **Edit** group, choose **Edit Page**.
+    2. On the **PAGE** tab of the ribbon, in the **Edit** group, choose **Edit Page**.
             
-       3. Choose the down arrow at the top-right of the **Basic Info** Web Part, and then choose **Edit Web Part**. Or, on the **WEB PART** tab of the ribbon, in the **Properties** group, choose **Web Part Properties** to show the editor part. 
+    3. Choose the down arrow at the top-right of the **Basic Info** Web Part, and then choose **Edit Web Part**. Or, on the **WEB PART** tab of the ribbon, in the **Properties** group, choose **Web Part Properties** to show the editor part. 
             
-       4. In the **Displayed Project Fields** section of the editor part (see Figure 1), choose **Modify**.
+    4. In the **Displayed Project Fields** section of the editor part (see Figure 1), choose **Modify**.
             
-       5. Add the **Proposal Cost** custom field, move it above the **Owner** field in the **Selected Project Fields** list, and then choose **OK** (see Figure 1).
+    5. Add the **Proposal Cost** custom field, move it above the **Owner** field in the **Selected Project Fields** list, and then choose **OK** (see Figure 1).
       
-       6. In the editor part, choose **OK**, and then choose **Stop Editing** in the **Edit** group, on the **PAGE** tab of the ribbon. Figure 2 shows the **Proposal Cost** custom field that is added to the Project Information PDP. 
+    6. In the editor part, choose **OK**, and then choose **Stop Editing** in the **Edit** group, on the **PAGE** tab of the ribbon. Figure 2 shows the **Proposal Cost** custom field that is added to the Project Information PDP. 
 
-       **Figure 1. Editing the Project Fields Web Part in a PDP**
+    **Figure 1. Editing the Project Fields Web Part in a PDP**
 
-       ![Editing the Project Fields Web Part in a PDP](media/pj15_CreateWorkflowSPD_EditPDP.gif)
+    ![Editing the Project Fields Web Part in a PDP](media/pj15_CreateWorkflowSPD_EditPDP.gif)
 
-       **Figure 2. The edited PDP includes the Proposal Cost custom field**
+    **Figure 2. The edited PDP includes the Proposal Cost custom field**
 
-       ![The edited PDP includes the Proposal Cost field](media/pj15_CreateWorkflowSPD_EditedPDP.gif)
+    ![The edited PDP includes the Proposal Cost field](media/pj15_CreateWorkflowSPD_EditedPDP.gif)
   
-    4. **Workflow stages** Create the stages that are required for each phase of the workflow. On the Server Settings page, choose **Workflow Stages**, and then choose **NEW WORKFLOW STAGE**. Figure 3 shows part of the Add Workflow Stage page.
+4. **Workflow stages** Create the stages that are required for each phase of the workflow. On the Server Settings page, choose **Workflow Stages**, and then choose **NEW WORKFLOW STAGE**. Figure 3 shows part of the Add Workflow Stage page.
     
-       **Figure 3. Adding a workflow stage in Project Web App**
+    **Figure 3. Adding a workflow stage in Project Web App**
 
-       ![Adding a workflow stage in Project Web App](media/pj15_CreateWorkflowSPD_AddWorkflowStage.gif)
+    ![Adding a workflow stage in Project Web App](media/pj15_CreateWorkflowSPD_AddWorkflowStage.gif)
   
-       The branching workflow example uses the four stages that are shown in Table 1. In the **Additional Settings for the Visible Project Detail Page** section of the Add Workflow Stage page (not shown in Figure 3), values are optional; they provide more information on the Workflow Status page. For example, because the Initial Proposal Details PDP requires user input, you can select the **The Project Detail Page requires attention** check box, and then add a specific description such as Set the project name and cost for this PDP.
+    The branching workflow example uses the four stages that are shown in Table 1. In the **Additional Settings for the Visible Project Detail Page** section of the Add Workflow Stage page (not shown in Figure 3), values are optional; they provide more information on the Workflow Status page. For example, because the Initial Proposal Details PDP requires user input, you can select the **The Project Detail Page requires attention** check box, and then add a specific description such as Set the project name and cost for this PDP.
     
-       Figure 4 shows the four stages completed on the Workflow Stages page.
+    Figure 4 shows the four stages completed on the Workflow Stages page.
     
-       **Table 1. Stages for the branching workflow**
+    **Table 1. Stages for the branching workflow**
 
-       |**Name**|**Description**|**Description for Submit**|**Phase**|**Visible PDPs**|**Custom Fields**|
-       |:-----|:-----|:-----|:-----|:-----|:-----|
-       |Initial Proposal Details  <br/> |Set the project name and cost.  <br/> |Submit the project as a proposal.  <br/> |Create  <br/> |Project Information  <br/> Project Details  <br/> |Proposal Cost (required)  <br/> |
-       |Project Details  <br/> |Provide details of the proposed project.  <br/> |Submit details to continue with the project.  <br/> |Create  <br/> |Project Information  <br/> Project Details  <br/> |Proposal Cost (read-only)  <br/> |
-       |Automated Rejection  <br/> |The proposal is rejected, based on the information that is provided.  <br/> | <br/> |Create  <br/> |Project Information  <br/> |Proposal Cost (read-only)  <br/> |
-       |Execution  <br/> |The proposal is accepted, and ready for project management.  <br/> | <br/> |Manage  <br/> |Project Information  <br/> Project Details  <br/> |Proposal Cost (read-only)  <br/> |
+    |**Name**|**Description**|**Description for Submit**|**Phase**|**Visible PDPs**|**Custom Fields**|
+    |:-----|:-----|:-----|:-----|:-----|:-----|
+    |Initial Proposal Details  <br/> |Set the project name and cost.  <br/> |Submit the project as a proposal.  <br/> |Create  <br/> |Project Information  <br/> Project Details  <br/> |Proposal Cost (required)  <br/> |
+    |Project Details  <br/> |Provide details of the proposed project.  <br/> |Submit details to continue with the project.  <br/> |Create  <br/> |Project Information  <br/> Project Details  <br/> |Proposal Cost (read-only)  <br/> |
+    |Automated Rejection  <br/> |The proposal is rejected, based on the information that is provided.  <br/> | <br/> |Create  <br/> |Project Information  <br/> |Proposal Cost (read-only)  <br/> |
+    |Execution  <br/> |The proposal is accepted, and ready for project management.  <br/> | <br/> |Manage  <br/> |Project Information  <br/> Project Details  <br/> |Proposal Cost (read-only)  <br/> |
    
-       **Figure 4. List of the workflow stages in Project Web App**
+    **Figure 4. List of the workflow stages in Project Web App**
 
-       ![List of the workflow stages in Project Web App](media/pj15_CreateWorkflowSPD_WorkflowStages.gif)
+    ![List of the workflow stages in Project Web App](media/pj15_CreateWorkflowSPD_WorkflowStages.gif)
   
-3. In SharePoint Designer 2013, construct the workflow by using declarative statements in the Text-Based Designer. You can start typing at the orange insertion line to get context-sensitive auto-completion statements for the workflow logic and steps, or you can insert the logic and steps by using controls in the **Insert** group on the **WORKFLOW** tab of the ribbon. 
-    
-   1. In the Backstage view of SharePoint Designer 2013, choose **Open Site**. For example, open  `http://ServerName/pwa`. In the **Navigation** pane, choose **Workflows**. Then, on the **WORKFLOWS** tab of the ribbon, in the **New** group, choose **Site Workflow**. For this example, name the workflow Branching Workflow. Ensure that **SharePoint 2013 Workflow - Project Server** is selected in the **Platform Type** drop-down list (see Figure 5). 
-    
-      **Figure 5. Creating a Project Server site workflow**
+#### Construct the workflow in the Text-Based Designer.
 
-      ![Creating a Project Server site workflow](media/pj15_CreateWorkflowSPD_CreateSiteWorkflow.gif)
-  
-   2. Select the **Branching Workflow** tab. Then, on the **WORKFLOW** tab of the ribbon, in the **Manage** group, in the **Views** drop-down list, choose **Text-Based Designer**. To show the view with the blinking orange insertion line (see Figure 6), click within the view.
+In SharePoint Designer 2013, construct the workflow by using declarative statements in the Text-Based Designer. You can start typing at the orange insertion line to get context-sensitive auto-completion statements for the workflow logic and steps, or you can insert the logic and steps by using controls in the **Insert** group on the **WORKFLOW** tab of the ribbon. 
     
-      **Figure 6. Using the Text-Based Designer view for the workflow**
+1. In the Backstage view of SharePoint Designer 2013, choose **Open Site**. For example, open  `http://ServerName/pwa`. In the **Navigation** pane, choose **Workflows**. Then, on the **WORKFLOWS** tab of the ribbon, in the **New** group, choose **Site Workflow**. For this example, name the workflow Branching Workflow. Ensure that **SharePoint 2013 Workflow - Project Server** is selected in the **Platform Type** drop-down list (see Figure 5). 
+    
+    **Figure 5. Creating a Project Server site workflow**
 
-      ![Using the Text-Based Designer view](media/pj15_CreateWorkflowSPD_TextBasedDesigner.gif)
+    ![Creating a Project Server site workflow](media/pj15_CreateWorkflowSPD_CreateSiteWorkflow.gif)
   
-   3. In the **Text-Based Designer** view, add the stages that the workflow uses. On the **WORKFLOW** tab of the ribbon, in the **Insert** group, in the **Stage** drop-down list under **Create**, choose **Initial Proposal Details**.
+2. Select the **Branching Workflow** tab. Then, on the **WORKFLOW** tab of the ribbon, in the **Manage** group, in the **Views** drop-down list, choose **Text-Based Designer**. To show the view with the blinking orange insertion line (see Figure 6), click within the view.
     
-      Similarly, place the orange insertion line below the **Stage: Initial Proposal Details** box, and add the other stages that the workflow uses: **Project Details**, **Automated Rejection**, and **Execution** (see Figure 7). 
-    
-      **Figure 7. Adding a stage to a workflow in SharePoint Designer**
+    **Figure 6. Using the Text-Based Designer view for the workflow**
 
-      ![Adding a stage to a workflow in SPD](media/pj15_CreateWorkflowSPD_AddStageInSPD.gif)
+    ![Using the Text-Based Designer view](media/pj15_CreateWorkflowSPD_TextBasedDesigner.gif)
   
-   4. Add the workflow steps and logic within each stage: 
+3. In the **Text-Based Designer** view, add the stages that the workflow uses. On the **WORKFLOW** tab of the ribbon, in the **Insert** group, in the **Stage** drop-down list under **Create**, choose **Initial Proposal Details**.
     
-       1. In the **Initial Proposal Details** stage, place the orange insertion line at the top of the stage body. In the **Insert** group on the ribbon, choose **Action**, scroll down to **Project Web App Actions**, and then choose **Wait for Project Event**. Choose **this project event**, and then select **Event: When a project is submitted** in the drop-down list. 
+    Similarly, place the orange insertion line below the **Stage: Initial Proposal Details** box, and add the other stages that the workflow uses: **Project Details**, **Automated Rejection**, and **Execution** (see Figure 7). 
     
-       2. In the **Transition to stage** section of the **Initial Proposal Details** stage, insert **If any value equals value**. You can start typing the statement or use the **Condition** control in the **Insert** group on the ribbon. 
+    **Figure 7. Adding a stage to a workflow in SharePoint Designer**
+
+    ![Adding a stage to a workflow in SPD](media/pj15_CreateWorkflowSPD_AddStageInSPD.gif)
+  
+4. Add the workflow steps and logic within each stage: 
     
-       3. Choose the first **value** control, and then choose **fx** to show the **Define Workflow Lookup** dialog box (see Figure 8). In the **Data source** drop-down list, select **Project Data**. In the **Field from source** drop-down list, select **Proposal Cost**.
+    1. In the **Initial Proposal Details** stage, place the orange insertion line at the top of the stage body. In the **Insert** group on the ribbon, choose **Action**, scroll down to **Project Web App Actions**, and then choose **Wait for Project Event**. Choose **this project event**, and then select **Event: When a project is submitted** in the drop-down list. 
+    
+    2. In the **Transition to stage** section of the **Initial Proposal Details** stage, insert **If any value equals value**. You can start typing the statement or use the **Condition** control in the **Insert** group on the ribbon. 
+    
+    3. Choose the first **value** control, and then choose **fx** to show the **Define Workflow Lookup** dialog box (see Figure 8). In the **Data source** drop-down list, select **Project Data**. In the **Field from source** drop-down list, select **Proposal Cost**.
     
        **Figure 8. Defining a lookup value in the workflow**
 
-       ![Defining a lookup value in the workflow](media/pj15_CreateWorkflowSPD_DefineWorkflowLookup.gif)
+       [Defining a lookup value in the workflow](media/pj15_CreateWorkflowSPD_DefineWorkflowLookup.gif)
   
-       4. Complete the  `If` statement so that it shows the following: **If Project Data:Proposal Cost is greater than 25000**
+    4. Complete the  `If` statement so that it shows the following: **If Project Data:Proposal Cost is greater than 25000**
     
        > [!NOTE]
        > Alternately, you could create a workflow variable, set the variable to the custom field value, and then compare the variable with a value. For example, from the **Local Variables** drop-down list on the ribbon, create a variable named **TotalCost** (no spaces) of type **Number**. In the **Define Workflow Lookup** dialog box, select **Workflow Variables and Parameters** for the data source, and then select **Variable: TotalCost** as the field. The **If** statement would then be: **If Variable: TotalCost is greater than 25000**
   
-       5. Place the orange insertion line within the  `If` branch, and then insert **Go to a stage** by using the **Action** control, in the **Insert** group on the ribbon. Choose the **a stage** drop-down control and select the **Automated Rejection** stage. 
+    5. Place the orange insertion line within the  `If` branch, and then insert **Go to a stage** by using the **Action** control, in the **Insert** group on the ribbon. Choose the **a stage** drop-down control and select the **Automated Rejection** stage. 
     
        Similarly, in the  `Else` branch, insert the **Go to Project Details** statement. Figure 9 shows the completed **Initial Proposal Details** stage. 
     
@@ -172,92 +178,95 @@ The following detailed procedure includes the same steps as in the [Creating a g
 
        ![Completed logic for Initial Proposal Details](media/pj15_CreateWorkflowSPD_InitialStageLogic.gif)
   
-       6. In the **Automated Rejection** stage, unless you want to pause the workflow and show some data in a PDP, leave the first section empty. The **Transition to stage** section must contain a transition; because there is no other stage following a rejection, type Go to End of Workflow for the statement. 
+    6. In the **Automated Rejection** stage, unless you want to pause the workflow and show some data in a PDP, leave the first section empty. The **Transition to stage** section must contain a transition; because there is no other stage following a rejection, type Go to End of Workflow for the statement. 
     
-       7. In the **Project Details** stage, add Go to Execution in the **Transition to stage** section. Unless there is additional data to add, or you want to pause the workflow, it is not necessary to wait for a submitted event. 
+    7. In the **Project Details** stage, add Go to Execution in the **Transition to stage** section. Unless there is additional data to add, or you want to pause the workflow, it is not necessary to wait for a submitted event. 
     
-       8. In the **Execution** stage, unless you want to pause the workflow, leave the stage action section empty. In the **Transition to stage** section, add **Go to End of Workflow**.
+    8. In the **Execution** stage, unless you want to pause the workflow, leave the stage action section empty. In the **Transition to stage** section, add **Go to End of Workflow**.
     
-   5. In the **Save** group on the ribbon, choose **Check for Errors** to check for workflow errors (see Figure 10). Fix any errors, and then choose **Save**.
+5. In the **Save** group on the ribbon, choose **Check for Errors** to check for workflow errors (see Figure 10). Fix any errors, and then choose **Save**.
     
-       **Figure 10. Checking the workflow for errors in SharePoint Designer**
+    **Figure 10. Checking the workflow for errors in SharePoint Designer**
 
-       ![Checking for errors in the workflow](media/pj15_CreateWorkflowSPD_SPDCheckForErrors.gif)
+    ![Checking for errors in the workflow](media/pj15_CreateWorkflowSPD_SPDCheckForErrors.gif)
   
-   6. (Optional) In the **Manage** group on the ribbon, in the **Views** drop-down menu, choose **Visual Designer**. In Figure 11, the view is zoomed out to 50%.
+6. (Optional) In the **Manage** group on the ribbon, in the **Views** drop-down menu, choose **Visual Designer**. In Figure 11, the view is zoomed out to 50%.
     
-       You can edit items in the workflow by using the Visual Designer. For example, select the **If any value equals value** condition, choose the tool icon at the bottom-left of the condition, and then select **Value** to show the comparison conditions in the **Properties** dialog box. 
+    You can edit items in the workflow by using the Visual Designer. For example, select the **If any value equals value** condition, choose the tool icon at the bottom-left of the condition, and then select **Value** to show the comparison conditions in the **Properties** dialog box. 
     
-       **Figure 11. Using the Visual Designer for a workflow**
+    **Figure 11. Using the Visual Designer for a workflow**
 
-       ![Using the Visio design view of the workflow](media/pj15_CreateWorkflowSPD_SwitchView.gif)
+    ![Using the Visio design view of the workflow](media/pj15_CreateWorkflowSPD_SwitchView.gif)
   
-       When the workflow is in the Visual Designer view, to save the workflow in a Visio 2013 (.vsdx) file as a backup or for later use, you can choose **Export to Visio**.
+    When the workflow is in the Visual Designer view, to save the workflow in a Visio 2013 (.vsdx) file as a backup or for later use, you can choose **Export to Visio**.
     
-   7. Publish the workflow. When you use SharePoint Designer 2013 to publish the workflow to the active Project Web App site, the workflow is registered to the SharePoint site or in Azure and becomes available within Project Web App for new EPTs.
-    
-4. In Project Web App, create an EPT for the workflow, and then test the workflow by creating a project proposal:
-    
-   1. On the PWA Settings page, choose **Enterprise Project Types**, and then create an EPT named Test Branching Workflow. Clear the **Create new projects as SharePoint Tasks List Projects** check box so that Project Server will maintain full control of projects that are created by the EPT. Select **Branching Workflow** in the **Site Workflow Association** drop-down list, and then select the **Project Information** PDP in the **New Project Page** drop-down list to be the first page that the workflow shows. 
-    
-      **Figure 12. Adding an EPT for the workflow**
+7. Publish the workflow. When you use SharePoint Designer 2013 to publish the workflow to the active Project Web App site, the workflow is registered to the SharePoint site or in Azure and becomes available within Project Web App for new EPTs.
 
-      ![Adding an EPT for the workflow](media/pj15_CreateWorkflowSPD_EPTs.gif)
-  
-       > [!NOTE]
-       > A **Yes** value in the **SharePoint Tasks List Project** column in the table of enterprise project types refers to an EPT that creates a SharePoint tasks list, where the tasks list is visible in Project Web App but SharePoint maintains control of the project. For more information about managing projects as SharePoint tasks lists, see [Project Server 2013 architecture](project-server-2013-architecture.md). 
-  
-   2. Open the Projects page in Project Web App, and then create a project by using the new EPT (see Figure 13). Because **Test Branching Workflow** is associated with **Branching Workflow**, project creation starts under control of the workflow.
-    
-      **Figure 13. Creating a project with the Test Branching Workflow EPT**
+#### Create an EPT for the workflow, and then test the workflow.
 
-      ![Creating a project with the EPT](media/pj15_CreateWorkflowSPD_NewProject.gif)
-  
-   3. When the workflow displays the **Project Information** PDP, add data to the project fields. For example, enter a **Proposal Cost** value of 30000. The U.S. English version of Project Server changes the field to show $30,000 (see Figure 14).
+In Project Web App, create an EPT for the workflow, and then test the workflow by creating a project proposal:
     
-      **Figure 14. Using the edited Project Information PDP**
+1. On the PWA Settings page, choose **Enterprise Project Types**, and then create an EPT named Test Branching Workflow. Clear the **Create new projects as SharePoint Tasks List Projects** check box so that Project Server will maintain full control of projects that are created by the EPT. Select **Branching Workflow** in the **Site Workflow Association** drop-down list, and then select the **Project Information** PDP in the **New Project Page** drop-down list to be the first page that the workflow shows. 
+    
+    **Figure 12. Adding an EPT for the workflow**
 
-      ![Using the edited Project Information PDP](media/pj15_CreateWorkflowSPD_NewProjectStage1.gif)
+    ![Adding an EPT for the workflow](media/pj15_CreateWorkflowSPD_EPTs.gif)
   
-   4. On the **PROJECT** tab of the ribbon, in the **Project** group, choose **Save**. Project Server adds the data in the PDP to the project, and then shows the Workflow Status page (see Figure 15). To see the full description of the Initial Proposal Details stage in the workflow status diagram, hover the pointer over the stage in the workflow visualization diagram.
+    > [!NOTE]
+    > A **Yes** value in the **SharePoint Tasks List Project** column in the table of enterprise project types refers to an EPT that creates a SharePoint tasks list, where the tasks list is visible in Project Web App but SharePoint maintains control of the project. For more information about managing projects as SharePoint tasks lists, see [Project Server 2013 architecture](project-server-2013-architecture.md). 
+  
+2. Open the Projects page in Project Web App, and then create a project by using the new EPT (see Figure 13). Because **Test Branching Workflow** is associated with **Branching Workflow**, project creation starts under control of the workflow.
     
-      The **All Workflow Stages** grid uses a green arrow to show that the Initial Proposal Details stage is waiting for input. This is because the workflow waits for a submit event in the Initial Proposal Details stage. If the workflow did not wait for a submit event, you could choose **Next** in the **Page** group to advance to the next PDP. 
-    
-      **Figure 15. Using the Workflow Status page in the Initial Proposal Details stage**
+    **Figure 13. Creating a project with the Test Branching Workflow EPT**
 
-      ![Workflow status page after the first stage](media/pj15_CreateWorkflowSPD_NewProjectStage1Status.gif)
+    ![Creating a project with the EPT](media/pj15_CreateWorkflowSPD_NewProject.gif)
   
-      The workflow visualization diagram shows the current stage in a green color. In the **Create** phase, the Initial Proposal Details stage is the current stage. 
+3. When the workflow displays the **Project Information** PDP, add data to the project fields. For example, enter a **Proposal Cost** value of 30000. The U.S. English version of Project Server changes the field to show $30,000 (see Figure 14).
     
-   5. On the ribbon, in the **Workflow** group, choose **Submit**.
-    
-      > [!TIP]
-      > If the **Submit** control is disabled, refresh the page. 
-  
-      If the **Proposal Cost** value is greater than $25,000 USD, the workflow moves to the Automated Rejection stage. Figure 16 shows the Automated Rejection stage status when you choose **Submit** again. If the **Proposal Cost** is $25,000 USD or less, the workflow moves to the Project Details stage (see Figure 17). 
-    
-      **Figure 16. The workflow is completed in the Automated Rejection stage**
+    **Figure 14. Using the edited Project Information PDP**
 
-       ![The workflow is completed in Automated Rejection](media/pj15_CreateWorkflowSPD_AutomatedRejectionCompleted.gif)
+    ![Using the edited Project Information PDP](media/pj15_CreateWorkflowSPD_NewProjectStage1.gif)
   
-       Figure 17 shows another test with a project proposal named **Test 2 - Branching**, where the Project Details stage is current in the Create phase. The Manage phase shows in a light blue color, which indicates that phase is not yet active.
+4. On the **PROJECT** tab of the ribbon, in the **Project** group, choose **Save**. Project Server adds the data in the PDP to the project, and then shows the Workflow Status page (see Figure 15). To see the full description of the Initial Proposal Details stage in the workflow status diagram, hover the pointer over the stage in the workflow visualization diagram.
     
-       **Figure 17. The workflow continues to the Project Details stage if the cost is less than $25,000**
+    The **All Workflow Stages** grid uses a green arrow to show that the Initial Proposal Details stage is waiting for input. This is because the workflow waits for a submit event in the Initial Proposal Details stage. If the workflow did not wait for a submit event, you could choose **Next** in the **Page** group to advance to the next PDP. 
+    
+    **Figure 15. Using the Workflow Status page in the Initial Proposal Details stage**
 
-       ![Workflow status at the Project Details stage](media/pj15_CreateWorkflowSPD_ProjectDetailsStage.gif)
+    ![Workflow status page after the first stage](media/pj15_CreateWorkflowSPD_NewProjectStage1Status.gif)
   
-   6. If you advance to the Project Details stage, there is no additional data to add in the default page. Choose **Submit** again to advance to the Execution stage (see Figure 18). 
+    The workflow visualization diagram shows the current stage in a green color. In the **Create** phase, the Initial Proposal Details stage is the current stage. 
     
-      **Figure 18. The workflow is ready to manage in the Execution stage**
+5. On the ribbon, in the **Workflow** group, choose **Submit**.
+    
+    > [!TIP]
+    > If the **Submit** control is disabled, refresh the page. 
+  
+    If the **Proposal Cost** value is greater than $25,000 USD, the workflow moves to the Automated Rejection stage. Figure 16 shows the Automated Rejection stage status when you choose **Submit** again. If the **Proposal Cost** is $25,000 USD or less, the workflow moves to the Project Details stage (see Figure 17). 
+    
+    **Figure 16. The workflow is completed in the Automated Rejection stage**
 
-      ![Workflow status in the Execution stage](media/pj15_CreateWorkflowSPD_ExecutionStage.gif)
+    ![The workflow is completed in Automated Rejection](media/pj15_CreateWorkflowSPD_AutomatedRejectionCompleted.gif)
+  
+    Figure 17 shows another test with a project proposal named **Test 2 - Branching**, where the Project Details stage is current in the Create phase. The Manage phase shows in a light blue color, which indicates that phase is not yet active.
+    
+    **Figure 17. The workflow continues to the Project Details stage if the cost is less than $25,000**
+
+    ![Workflow status at the Project Details stage](media/pj15_CreateWorkflowSPD_ProjectDetailsStage.gif)
+  
+6. If you advance to the Project Details stage, there is no additional data to add in the default page. Choose **Submit** again to advance to the Execution stage (see Figure 18). 
+    
+    **Figure 18. The workflow is ready to manage in the Execution stage**
+
+    ![Workflow status in the Execution stage](media/pj15_CreateWorkflowSPD_ExecutionStage.gif)
   
 In the Project Details stage, the workflow does not wait for a submit event. If the Project Details PDP includes additional required fields, Project Server waits until you add data to the fields before continuing to the Execution stage. As defined in the Branching Workflow, the Execution stage also does not wait for a submit event. In the Execution stage, you can edit the project as a project manager or choose **Close** in the **PROJECT** tab of the ribbon. When you choose **Close**, you can check in the project and edit it later or leave the project checked out.
 
 The **Branching Workflow** project is a simple example that has only one comparison test. The workflow involves three stages in the Create phase and one stage in the Manage phase of Demand Management. To thoroughly test a workflow, you should test all branches of the workflow and use extreme and typical values to see whether the behavior is as expected. 
-  
-## Importing a workflow from Visio
+
 <a name="pj15_CreateWorkflowSPD_ImportingVromVisio"> </a>
+
+## Importing a workflow from Visio
 
 To change the workflow, you can create or modify workflow-controlled custom fields and create or modify workflow phases and stages. You can use SharePoint Designer 2013 to add conditions, actions, loops, and stages, and then save and republish the workflow. To reuse or keep a backup of a workflow, you can export it to a Visio 2013 file. 
   
@@ -277,7 +286,10 @@ You can also create or edit the workflow in Visio 2013 and import the file into 
       When you hover over the Stage shape and choose the **Properties** icon, the selection is disabled. You can set the stage and action properties after you import the workflow diagram to SharePoint Designer 2013. 
     
       > [!NOTE]
-      >  The only shape stencils you should use are the following in the list of Flowchart shapes: > **Actions - SharePoint 2013 Workflow**> **Components - SharePoint 2013 Workflow**> **Conditions - SharePoint 2013 Workflow**
+      >  The only shape stencils you should use are the following in the list of Flowchart shapes: 
+      > - **Actions - SharePoint 2013 Workflow**
+      > - **Components - SharePoint 2013 Workflow**
+      > - **Conditions - SharePoint 2013 Workflow**
   
    2. In the **Shapes** pane, choose **Quick Shapes**, and then drag the Condition shape named **If any value equals value** to the right of the Stage shape. 
     
@@ -293,7 +305,7 @@ You can also create or edit the workflow in Visio 2013 and import the file into 
     
    6. Connect the bottom of the Condition shape to the Enter shape of **Stage 3**. With the **Pointer** tool, right-click the connection, and then choose **No**. Either method works for naming the connectors **Yes** or **No**.
     
-   7. In the **Shapes** pane, choose **Actions - SharePoint 2013 Workflow**, and then drag the **Wait for project event** action to the middle of the shape for **Stage 1** (see Figure 20) 
+   7. In the **Shapes** pane, choose **Actions - SharePoint 2013 Workflow**, and then drag the **Wait for project event** action to the middle of the shape for **Stage 1** (see Figure 20). 
     
       **Figure 20. Completing the workflow in Visio**
 
