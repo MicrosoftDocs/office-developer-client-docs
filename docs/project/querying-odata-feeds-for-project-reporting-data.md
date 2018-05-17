@@ -59,7 +59,7 @@ The XML content of an Entity Data Model is also known as a Service Metadata Docu
     </collection>
     ```
 
-    For more information about those entity sets, see [EntitySet element: Projects](entityset-projects-projectdata-service.md) and [EntitySet element: ProjectBaselines](entityset-projectbaselines-projectdata-service.md).
+    For more information about those entity sets, see [EntitySet element: Projects](https://msdn.microsoft.com/en-us/library/office/jj163621.aspx) and [EntitySet element: ProjectBaselines](https://msdn.microsoft.com/en-us/library/office/jj163480.aspx).
     
 6. To get the collection of projects, and the associations and properties of each project, use  `http://ServerName/ProjectServerName/_api/ProjectData/Projects`.
     
