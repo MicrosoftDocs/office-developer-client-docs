@@ -68,13 +68,13 @@ The following detailed procedure includes the same steps as in the [Creating a g
   
 ### To create a Project Server branching workflow (detailed procedure)
 
-#### Plan and design the workflow.
+#### 1. Plan and design the workflow.
 
 A Project Server workflow can integrate with multiple stages and phases in a demand-management process. Because workflows can be complex, you must understand the business requirements and plan a workflow carefully. For a simple example, design a branching workflow that uses the estimated cost of a project proposal to determine whether the proposal is accepted. If the estimated cost is greater than $25,000 USD, reject the proposal; otherwise, accept the proposal and create the project.
     
 Because you can use Visio 2013 and SharePoint Designer 2013 to help design and create workflows for Project Server 2013, you can more easily experiment with workflows than is possible with Project Server 2010. The sample workflow design in this article is the same as in the [Create a branching workflow](http://msdn.microsoft.com/library/a02cafdc-d881-4271-b446-d8b2cd456a52%28Office.15%29.aspx) article in the Project 2010 SDK. You can design and create a test workflow on a remote computer using a test instance of Project Web App—you do not have to create workflows directly on a Project Server 2013 computer. 
     
-#### Create the entities that your workflow requires.
+#### 2. Create the entities that your workflow requires.
 
 In Project Web App, review the available workflow phases and stages, and the enterprise custom fields that are available. If necessary, create the entities that your workflow requires, as in the following steps:
     
@@ -129,7 +129,7 @@ In Project Web App, review the available workflow phases and stages, and the ent
 
     ![List of the workflow stages in Project Web App](media/pj15_CreateWorkflowSPD_WorkflowStages.gif)
   
-#### Construct the workflow in the Text-Based Designer.
+#### 3. Construct the workflow in the Text-Based Designer.
 
 In SharePoint Designer 2013, construct the workflow by using declarative statements in the Text-Based Designer. You can start typing at the orange insertion line to get context-sensitive auto-completion statements for the workflow logic and steps, or you can insert the logic and steps by using controls in the **Insert** group on the **WORKFLOW** tab of the ribbon. 
     
@@ -163,7 +163,7 @@ In SharePoint Designer 2013, construct the workflow by using declarative stateme
     
        **Figure 8. Defining a lookup value in the workflow**
 
-       [Defining a lookup value in the workflow](media/pj15_CreateWorkflowSPD_DefineWorkflowLookup.gif)
+       ![Defining a lookup value in the workflow](media/pj15_CreateWorkflowSPD_DefineWorkflowLookup.gif)
   
     4. Complete the  `If` statement so that it shows the following: **If Project Data:Proposal Cost is greater than 25000**
     
@@ -202,7 +202,7 @@ In SharePoint Designer 2013, construct the workflow by using declarative stateme
     
 7. Publish the workflow. When you use SharePoint Designer 2013 to publish the workflow to the active Project Web App site, the workflow is registered to the SharePoint site or in Azure and becomes available within Project Web App for new EPTs.
 
-#### Create an EPT for the workflow, and then test the workflow.
+#### 4. Create an EPT for the workflow, and then test the workflow.
 
 In Project Web App, create an EPT for the workflow, and then test the workflow by creating a project proposal:
     
