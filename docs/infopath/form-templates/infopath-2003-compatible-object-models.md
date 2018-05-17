@@ -1,5 +1,5 @@
 ---
-title: InfoPath 2003 Compatible Object Models
+title: InfoPath 2003 compatible object models
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,10 +7,10 @@ keywords:
 - infopath 2003-compatible form templates, object model,InfoPath 2003-compatible object model,object models [InfoPath 2003], compatible with InfoPath 2007,object models [InfoPath 2007], InfoPath 2003 compatible
 localization_priority: Normal
 ms.assetid: e4511af6-d7e7-44ad-a50d-1b7ee04f8215
-description: "Microsoft InfoPath is written as a Component Object Model (COM) application and exposes its programmability interfaces for both external automation and form template script as COM interfaces. To support the creation of InfoPath solutions that use the Visual C# and Visual Basic managed-code languages, the InfoPath setup program installs three interop assemblies. Interop assemblies are .NET assemblies that act as a bridge between managed and unmanaged code, mapping COM object members to equivalent .NET managed members."
+description: "Microsoft InfoPath is written as a Component Object Model (COM) application and exposes its programmability interfaces for both external automation and form template script as COM interfaces."
 ---
 
-# InfoPath 2003 Compatible Object Models
+# InfoPath 2003 compatible object models
 
 Microsoft InfoPath is written as a Component Object Model (COM) application and exposes its programmability interfaces for both external automation and form template script as COM interfaces. To support the creation of InfoPath solutions that use the Visual C# and Visual Basic managed-code languages, the InfoPath setup program installs three interop assemblies. Interop assemblies are .NET assemblies that act as a bridge between managed and unmanaged code, mapping COM object members to equivalent .NET managed members. 
   
@@ -26,7 +26,7 @@ This topic discusses the object model exposed through the Microsoft.Office.Inter
   
 For information about the Microsoft.Office.Interop.InfoPath and Microsoft.Office.Interop.InfoPath.Xml assemblies, see the documentation for the [Microsoft.Office.Interop.InfoPath](https://msdn.microsoft.com/en-us/library/microsoft.office.interop.infopath.aspx) and [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/en-us/library/microsoft.office.interop.infopath.xml) namespaces. 
   
-## Important Installation Information
+## Important installation information
 
 By default, the **Typical** installation option of the InfoPath setup program installs copies of the Microsoft.Office.Interop.InfoPath.SemiTrust and Microsoft.Office.Interop.InfoPath.Xml assemblies in the C:\Program Files\Microsoft Office\Office14 folder. The Microsoft.Office.Interop.InfoPath and Microsoft.Office.Interop.InfoPath.Xml assemblies are also installed in the Global Assembly Cache (GAC), the contents of which can be viewed from the C:\Windows\Assembly folder. 
   
@@ -34,7 +34,7 @@ If these assemblies are not installed, you should confirm that Microsoft InfoPat
   
 For information on downloading the .NET Framework 2.0 Redistributable, see [.NET Framework 2.0 Redistributable. ](http://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=0856eacb-4362-4b0d-8edd-aab15c5e04f5)
   
-## The Microsoft.Office.Interop.InfoPath.SemiTrust Namespace
+## The Microsoft.Office.Interop.InfoPath.SemiTrust namespace
 
 Prior to the release of Microsoft Office InfoPath 2003 Service Pack 1 and the Microsoft Office InfoPath 2003 Toolkit for Visual Studio® .NET, all programming logic for InfoPath form templates was created using Microsoft JScript or Microsoft VBScript written in the Microsoft Script Editor (MSE) development environment. Script written in MSE is interpreted at run time and accesses the COM object model exposed by the IPEDITOR.dll dynamic link library.
   
@@ -42,7 +42,7 @@ To support the creation of form templates that use managed-code languages such a
   
 Although the process of writing managed code for a given task in an InfoPath form template is very similar to performing the same programming task by writing script, the InfoPath 2003-compatible object model exposed when viewing the **Microsoft.Office.Interop.InfoPath.SemiTrust** namespace from the **Object Browser** in Visual Studio 2012 looks much more complex. This is because the .NET Framework interoperability technology used to support the InfoPath 2003-compatible object model requires a COM server to expose all of its public interfaces, as well as some additional constructs required by the .NET Framework itself. 
   
-### How COM Objects are Exposed to the InfoPath 2003 Compatible Object Model
+### How COM objects are exposed to the InfoPath 2003 compatible object model
 
 When working natively with a COM server from high-level languages such as JScript, VBScript, or Visual Basic (but not the .NET version of Visual Basic and Visual C#), the object model that is exposed is simpler than the underlying COM classes and interfaces. For example, when working from these languages, the InfoPath **UI** object exposes a set of seven methods, such as the **Alert** method for displaying a message box to users. 
   
@@ -66,7 +66,7 @@ This same pattern applies to the interfaces for collections, except the coclass 
   
 There are three exceptions to this naming pattern. The coclass interfaces for the COM **Application** and **XDocument** objects do not have "Object" appended to their names. Their names are identical to their corresponding COM objects: [Application](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Application.aspx) and **XDocument**. Additionally, the names of the interfaces implemented by the **Application** and **XDocument** coclass interfaces are prefixed with the underscore character (_): [_Application2](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._Application2.aspx) and [_XDocument2](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.aspx) . The third exception is the COM **DataObject** object. The coclass interface for this object is named [DataSourceObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataSourceObject.aspx) , but just like other InfoPath COM objects, the interface it implements is the [DataObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObject.aspx) interface. 
   
-### How Microsoft XML Core Services (MSXML) 5.0 for Microsoft Office Objects are Exposed to the InfoPath 2003 Compatible Object Model
+### How Microsoft XML Core Services (MSXML) 5.0 for Microsoft Office objects are exposed to the InfoPath 2003 compatible object model
 
 A subset of the objects and members of the object model provided by Microsoft XML Core Services (MSXML), which is also a COM server, are wrapped by interfaces exposed by the Microsoft.Office.Interop.InfoPath.SemiTrust interop assembly. The reason this is necessary is that some of the members of the InfoPath COM object model rely on MSXML and must be able to access these members in a secure manner. The names of interfaces in the **Microsoft.Office.Interop.InfoPath.SemiTrust** namespace that wrap the objects and members of the MSXML object model are the same as the names exposed by the MSXML COM server. In most cases, these names are prefixed with "IXMLDOM" because they are used to work with the XML Document Object Model (DOM). For example, the [DOM](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.DOM.aspx) property of the **XDocument** interface, which is used to return a reference to a form's underlying XML document, returns the [IXMLDOMDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument.aspx) interface that is wrapped by the Microsoft.Office.Interop.InfoPath.SemiTrust interop assembly. You call and use the members of the **IXMLDOMDocument** interface in basically the same way as when using script in form templates that don't use managed code. 
   
@@ -86,7 +86,7 @@ thisXDocument.UI.Alert(thisApplication.Version);
 thisXDocument.UI.Alert(thisApplication.Version)
 ```
 
-### Using the Class Library Reference Documentation
+### Using the Class Library reference documentation
 
 The organization of the **Microsoft.Office.Interop.InfoPath.SemiTrust** namespace Class Library reference documentation reflects the relationships between coclass interfaces and the inherited interfaces they implement. This is described in the "How COM Objects are Exposed to Managed Code" section earlier in this topic. 
   
@@ -96,7 +96,7 @@ However, the link to the members of the coclass interface following the descript
   
 When you press F1 in the Code Editor, the behavior is similar, except that the member on which you invoke F1 Help will be displayed directly, because you are most typically working with members of an interface. However, the fact that a member can be implemented from a versioned interface may be confusing the first time you encounter it. For example, if you type  `thisXDocument.UI.Alert` and place the cursor on  `Alert` and press F1, a topic titled "UI2.Alert Method" is displayed. This is because the **Alert** method is an implementation of a member of the **UI2** interface. 
   
-### Passing Optional Parameters to InfoPath Object Model Members
+### Passing optional parameters to InfoPath object model members
 
 If an InfoPath 2003-compatible object model member contains an optional parameter, and you do not specify a value for that parameter, you must pass the **Type.Missing** field for that parameter instead. Failure to pass the **Type.Missing** field when an actual value is omitted will result in a build error. This is true for code written in both Visual C# and Visual Basic. For example, the [SelectNodes](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.SelectNodes.aspx) method of the [ViewObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ViewObject.aspx) interface includes two optional parameters:  _varEndNode_ and  _varViewContext_. A line of code that does not specify actual values for these optional parameters should look like the following examples.
   
@@ -112,20 +112,14 @@ Dim group1 As IXMLDOMNode = _
 thisXDocument.View.SelectNodes(group1, Type.Missing, Type.Missing)
 ```
 
-### About Common Language Specification Compliance
+### About common language specification compliance
 
 Internally, every interface and member in the Microsoft.Office.Interop.InfoPath.SemiTrust assembly has its **CLSCompliant** attribute set to **false**. Because the reference documentation is generated in part using **System.Reflection**, the description of each interface and member has the phrase "This interface/method/property is not CLS-compliant" appended to it. However, most of the interfaces and members of the [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) namespace actually are CLS-compliant. 
   
 ## See also
 
-#### Concepts
-
-[Common Tasks for Developing Form Templates Using the InfoPath 2003 Object Model](common-tasks-for-developing-form-templates-using-the-infopath-2003-object-model.md)
-  
-[About the Security Model for Form Templates with Code](about-the-security-model-for-form-templates-with-code.md)
-#### Other resources
-
-[Creating Form Templates Using the InfoPath 2003 Object Model](creating-form-templates-using-the-infopath-2003-object-model.md)
-  
-[Understanding the InfoPath 2003 Object Model](understanding-the-infopath-2003-object-model.md)
+- [Common Tasks for Developing Form Templates Using the InfoPath 2003 Object Model](common-tasks-for-developing-form-templates-using-the-infopath-2003-object-model.md)
+- [About the Security Model for Form Templates with Code](about-the-security-model-for-form-templates-with-code.md)
+- [Creating Form Templates Using the InfoPath 2003 Object Model](creating-form-templates-using-the-infopath-2003-object-model.md)
+- [Understanding the InfoPath 2003 Object Model](understanding-the-infopath-2003-object-model.md)
 

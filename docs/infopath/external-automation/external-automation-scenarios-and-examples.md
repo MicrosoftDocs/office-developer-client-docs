@@ -12,7 +12,7 @@ description: "The members provided by the Microsoft Office InfoPath primary inte
 
 # External automation scenarios and examples
 
-The members provided by the Microsoft Office InfoPath primary interop assembly (Microsoft.Office.Interop.InfoPath.dll) and the InfoPath XML interop assembly (Microsoft.Office.Interop.InfoPath.Xml.dll) support writing managed code for automating InfoPath.
+The members provided by the Microsoft Office InfoPath primary interop assembly (Microsoft.Office.Interop.InfoPath.dll) and the InfoPath XML interop assembly (Microsoft.Office.Interop.InfoPath.Xml.dll) support writing managed code for automating InfoPath. 
   
 ## Establishing references to the Microsoft Office InfoPath Primary Interop and InfoPath XML Interop assemblies
 
