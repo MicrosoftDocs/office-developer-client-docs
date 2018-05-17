@@ -24,7 +24,7 @@ The files for the three interop assemblies installed by InfoPath are named:
     
 This topic discusses the object model exposed through the Microsoft.Office.Interop.InfoPath.SemiTrust interop assembly, which is used exclusively for writing and running managed-code business logic from within InfoPath form templates (.xsn). 
   
-For information about the Microsoft.Office.Interop.InfoPath and Microsoft.Office.Interop.InfoPath.Xml assemblies, see the documentation for the [Microsoft.Office.Interop.InfoPath](https://msdn.microsoft.com/en-us/library/microsoft.office.interop.infopath.aspx) and [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/en-us/library/microsoft.office.interop.infopath.xml.aspx) namespaces. 
+For information about the Microsoft.Office.Interop.InfoPath and Microsoft.Office.Interop.InfoPath.Xml assemblies, see the documentation for the [Microsoft.Office.Interop.InfoPath](https://msdn.microsoft.com/en-us/library/microsoft.office.interop.infopath.aspx) and [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/en-us/library/microsoft.office.interop.infopath.xml) namespaces. 
   
 ## Important Installation Information
 

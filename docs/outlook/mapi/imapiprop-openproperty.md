@@ -1,7 +1,5 @@
 ---
 title: "IMAPIPropOpenProperty"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -18,8 +16,6 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIProp::OpenProperty
 
-  
-  
 **Applies to**: Outlook 
   
 Returns a pointer to an interface that can be used to access a property.
@@ -64,9 +60,9 @@ MAPI_MODIFY
   
 > MAPI_MODIFY is required in these situations:
     
-    - When opening a stream property, such as **IID_IStream**, to modify it.
+  - When opening a stream property, such as **IID_IStream**, to modify it.
     
-    - When opening an embedded message attachment, such as [PR_ATTACH_DATA_OBJ](pidtagattachdataobject-canonical-property.md) opened with **IID_IMessage**, to modify it.
+  - When opening an embedded message attachment, such as [PR_ATTACH_DATA_OBJ](pidtagattachdataobject-canonical-property.md) opened with **IID_IMessage**, to modify it.
     
  _lppUnk_
   
@@ -102,7 +98,7 @@ MAPI_E_INVALID_PARAMETER
 
 The **IMAPIProp::OpenProperty** method provides access to a property through a particular interface. **OpenProperty** is an alternative to the [IMAPIProp::GetProps](imapiprop-getprops.md) and [IMAPIProp::SetProps](imapiprop-setprops.md) methods. When either **GetProps** or **SetProps** fails because the property is too large or too complex, call **OpenProperty**. **OpenProperty** is typically used to access properties of type PT_OBJECT. 
   
-## Notes to Callers
+## Notes to callers
 
 To access message attachments, open the **PR_ATTACH_DATA_OBJ** ( [PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)) property with a different interface identifier, depending on the type of attachment. The following table describes how to call **OpenProperty** for the different types of attachments: 
   
@@ -113,7 +109,7 @@ To access message attachments, open the **PR_ATTACH_DATA_OBJ** ( [PidTagAttachDa
 |Message  <br/> |IID_IMessage  <br/> |
 |OLE 2.0  <br/> |IID_IStreamDocfile  <br/> |
    
- **IStreamDocfile** is a derivative of the [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) interface that is based on an OLE 2.0 compound file. **IStreamDocfile** is the best choice for accessing OLE 2.0 attachments because it involves the least amount of overhead. You can use IID_IStreamDocFile for those properties that contain data stored in structured storage available through the [IStorage](http://msdn.microsoft.com/en-us/library/aa380015%28VS.85%29.aspx) interface. 
+**IStreamDocfile** is a derivative of the [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) interface that is based on an OLE 2.0 compound file. **IStreamDocfile** is the best choice for accessing OLE 2.0 attachments because it involves the least amount of overhead. You can use IID_IStreamDocFile for those properties that contain data stored in structured storage available through the [IStorage](http://msdn.microsoft.com/en-us/library/aa380015%28VS.85%29.aspx) interface. 
   
 For more information about how to use **OpenProperty** with attachments, see the **PR_ATTACH_DATA_OBJ** property and [Opening an Attachment](opening-an-attachment.md).
   
@@ -129,7 +125,7 @@ You are responsible for recasting the interface pointer returned in the  _lppUnk
   
 Sometimes setting the flags in the  _ulFlags_ parameter is not enough to indicate the type of access to the property that is required. You can put additional data, such as flags, in the  _ulInterfaceOptions_ parameter. This data is interface dependent. Some interfaces (such as **IStream**) use it, and others do not. For example, when you open a property to be modified with **IStream**, set the STGM_WRITE flag in the  _ulInterfaceOptions_ parameter in addition to MAPI_MODIFY. When you open a table by using the [IMAPITable](imapitableiunknown.md) interface, you can set  _ulInterfaceOptions_ to MAPI_UNICODE to indicate whether the columns in the table that hold string properties should be in Unicode format. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   
@@ -139,24 +135,13 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
-
-[HrIStorageFromStream](hristoragefromstream.md)
-  
-[IMAPIProp::DeleteProps](imapiprop-deleteprops.md)
-  
-[IMAPIProp::GetProps](imapiprop-getprops.md)
-  
-[IMAPIProp::SetProps](imapiprop-setprops.md)
-  
-[IMAPISupport::IStorageFromStream](imapisupport-istoragefromstream.md)
-  
-[IMAPITable : IUnknown](imapitableiunknown.md)
-  
-[IMAPIProp : IUnknown](imapipropiunknown.md)
-#### Concepts
-
-[MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
-  
-[Opening an Attachment](opening-an-attachment.md)
+- [HrIStorageFromStream](hristoragefromstream.md) 
+- [IMAPIProp::DeleteProps](imapiprop-deleteprops.md) 
+- [IMAPIProp::GetProps](imapiprop-getprops.md)
+- [IMAPIProp::SetProps](imapiprop-setprops.md)
+- [IMAPISupport::IStorageFromStream](imapisupport-istoragefromstream.md)
+- [IMAPITable : IUnknown](imapitableiunknown.md)
+- [IMAPIProp : IUnknown](imapipropiunknown.md)
+- [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
+- [Opening an Attachment](opening-an-attachment.md)
 

@@ -1,26 +1,22 @@
 ---
-title: "External Automation Scenarios and Examples"
-  
- 
+title: "External automation scenarios and examples"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
 keywords:
 - automating infopath 2007,forms [InfoPath 2007], adding data programmatically,automation [InfoPath 2007], external scenarios
- 
 localization_priority: Normal
 ms.assetid: dfa880e6-de23-41c4-b80b-6935e0c8563d
 description: "The members provided by the Microsoft Office InfoPath primary interop assembly (Microsoft.Office.Interop.InfoPath.dll) and the InfoPath XML interop assembly (Microsoft.Office.Interop.InfoPath.Xml.dll) support writing managed code for automating InfoPath."
 ---
 
-# External Automation Scenarios and Examples
+# External automation scenarios and examples
 
 The members provided by the Microsoft Office InfoPath primary interop assembly (Microsoft.Office.Interop.InfoPath.dll) and the InfoPath XML interop assembly (Microsoft.Office.Interop.InfoPath.Xml.dll) support writing managed code for automating InfoPath.
   
-## Establishing References to the Microsoft Office InfoPath Primary Interop and InfoPath XML Interop Assemblies
+## Establishing references to the Microsoft Office InfoPath Primary Interop and InfoPath XML Interop assemblies
 
-To write managed code for automating InfoPath, you must establish references to the Microsoft InfoPath primary interop and the InfoPath XML interop assemblies. The Microsoft InfoPath primary interop assembly provides support for interoperability with the COM object model exposed by IPEDITOR.DLL by using the members of the [Microsoft.Office.Interop.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.aspx) namespace. The InfoPath XML interop assembly provides support for interoperability with the COM object model exposed by Microsoft XML Core Services (MSXML) by using the members of the [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.Xml.aspx) namespace. 
+To write managed code for automating InfoPath, you must establish references to the Microsoft InfoPath primary interop and the InfoPath XML interop assemblies. The Microsoft InfoPath primary interop assembly provides support for interoperability with the COM object model exposed by IPEDITOR.DLL by using the members of the [Microsoft.Office.Interop.InfoPath](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.aspx) namespace. The InfoPath XML interop assembly provides support for interoperability with the COM object model exposed by Microsoft XML Core Services (MSXML) by using the members of the [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/en-us/library/microsoft.office.interop.infopath.xml) namespace. 
   
 > [!IMPORTANT]
 > Users of managed-code applications that automate InfoPath must have InfoPath, the Microsoft Office InfoPath primary interop assembly, and the InfoPath XML interop assembly installed on their computers. The **.NET Programmability Support** option in the InfoPath setup program is set to **Run from My Computer** for a typical installation of InfoPath. As a result, as long as the .NET Framework 1.1 Redistributable or .NET Framework 1.1 Software Development Kit (SDK) or later is installed, these interop assemblies will also be installed by default. If these interop assemblies are not available on a user's computer, you must confirm that the .NET Framework 1.1 or later is installed, and then run **Programs and Features** from the **Control Panel** to change setup and set the **.NET Programmability Support** option of InfoPath to **Run from My Computer**. 
@@ -49,7 +45,7 @@ To set a reference to the Microsoft.Office.Interop.InfoPath.Xml interop assembly
     
 4. Click **OK**.
     
-## Automate Changing the Value of a Field
+## Automate changing the value of a field
 
 Suppose one of the customers of the user of an InfoPath sales report form template recently changed its name from "Company A" to "Company B." A developer is asked to write code that will automatically update the sales report forms saved from this form template to reflect the name change. The following scenario assumes a form that contains a text box that is bound to a field named customerName.
   
@@ -133,7 +129,7 @@ Suppose one of the customers of the user of an InfoPath sales report form templa
   }
   ```
 
-  ```VB.net
+  ```vb
   Imports Microsoft.Office.Interop.InfoPath
   Imports Microsoft.Office.Interop.InfoPath.Xml
   Module Module1
@@ -189,7 +185,7 @@ Suppose one of the customers of the user of an InfoPath sales report form templa
     
     The application opens the form saved as Form1.xml and loops through all customerName elements that contain the value Company A and changes that value to Company B. When the operation is complete, a new copy of the form is saved as Form2.xml in the C:\Test folder. 
     
-## Automate Opening a Form and Populating Field Values
+## Automate opening a form and populating field values
 
 The following example automates opening a blank form and populating the first name, last name, and address fields in the form. This scenario assumes a form that contains three text boxes that are bound to fields named FirstName, LastName, and Address.
   
@@ -257,7 +253,7 @@ The following example automates opening a blank form and populating the first na
   }
   ```
 
-  ```VB.net
+  ```vb
   Imports Microsoft.Office.Interop.InfoPath
   Imports Microsoft.Office.Interop.InfoPath.Xml
   Module Module1
@@ -295,9 +291,6 @@ The following example automates opening a blank form and populating the first na
     
 ## See also
 
-#### Concepts
-
-[About the Microsoft Office InfoPath Primary Interop Assembly](about-the-microsoft-office-infopath-primary-interop-assembly.md)
-  
-[About the InfoPath XML Interop Assembly](about-the-infopath-xml-interop-assembly.md)
+- [About the Microsoft Office InfoPath Primary Interop Assembly](about-the-microsoft-office-infopath-primary-interop-assembly.md)
+- [About the InfoPath XML Interop Assembly](about-the-infopath-xml-interop-assembly.md)
 

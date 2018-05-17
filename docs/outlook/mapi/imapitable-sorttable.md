@@ -1,7 +1,5 @@
 ---
 title: "IMAPITableSortTable"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -18,8 +16,6 @@ description: "Last modified: July 23, 2011"
 
 # IMAPITable::SortTable
 
-  
-  
 **Applies to**: Outlook 
   
 The **IMAPITable::SortTable** method orders the rows of the table, depending on sort criteria. 
@@ -33,11 +29,11 @@ ULONG ulFlags
 
 ## Parameters
 
- _lpSortCriteria_
+_lpSortCriteria_
   
 > [in] Pointer to an [SSortOrderSet](ssortorderset.md) structure that contains the sort criteria to apply. Passing an **SSortOrderSet** structure that contains zero columns indicates that the table does not have to be sorted in any particular order. 
     
- _ulFlags_
+_ulFlags_
   
 > [in] Bitmask of flags that controls the timing of the **IMAPITable::SortTable** operation. The following flags can be set: 
     
@@ -67,21 +63,21 @@ MAPI_E_TOO_COMPLEX
   
 > The table cannot perform the operation because the particular sort criteria pointed to by the  _lpSortCriteria_ parameter is too complex. **SortTable** can return MAPI_E_TOO_COMPLEX under the following conditions. 
     
-    - A sort operation is requested for a property column that the implementation cannot sort.
+   - A sort operation is requested for a property column that the implementation cannot sort.
     
-    - The implementation does not support the sort order requested in the **ulOrder** member of the **SSortOrderSet** structure. 
+   - The implementation does not support the sort order requested in the **ulOrder** member of the **SSortOrderSet** structure. 
     
-    - The number of columns to be sorted, as specified in the **cSorts** member in **SSortOrderSet**, is larger than the implementation can handle.
+   - The number of columns to be sorted, as specified in the **cSorts** member in **SSortOrderSet**, is larger than the implementation can handle.
     
-    - A sort operation is requested, as indicated by a property tag in **SSortOrderSet**, based on a property that is not in the available or active set and the implementation does not support sorting on properties not in the available set.
+   - A sort operation is requested, as indicated by a property tag in **SSortOrderSet**, based on a property that is not in the available or active set and the implementation does not support sorting on properties not in the available set.
     
-    - One property is specified multiple times in a sort order set, as indicated by multiple instances of the same property tag, and the implementation cannot perform such a sort operation.
+   - One property is specified multiple times in a sort order set, as indicated by multiple instances of the same property tag, and the implementation cannot perform such a sort operation.
     
-    - A sort operation based on multivalued property columns is requested using MVI_FLAG and the implementation does not support sorting on multivalued properties. 
+   - A sort operation based on multivalued property columns is requested using MVI_FLAG and the implementation does not support sorting on multivalued properties. 
     
-    - A property tag for a property in **SSortOrderSet** specifies a property or type that the implementation does not support. 
+   - A property tag for a property in **SSortOrderSet** specifies a property or type that the implementation does not support. 
     
-    - A sort operation other than one that proceeds through the table from the **PR_RENDERING_POSITION** ( [PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) property forward is specified only for an attachment table that supports this type of sorting.
+   - A sort operation other than one that proceeds through the table from the **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) property forward is specified only for an attachment table that supports this type of sorting.
     
 ## Remarks
 
@@ -97,9 +93,9 @@ All bookmarks for a table are invalidated and should be deleted when a call to *
   
 If you are sorting on a column that contains a multivalued property without the MVI_FLAG flag set, the column's values are treated as a completely ordered tuple. A comparison of two multivalued columns compares the column elements in order, reporting the relation of the columns at the first inequality, and returns equality only if the columns being compared contain the same values in the same order. If one column has fewer values than the other, the reported relation is that of a null value to the other value.
   
-## Notes to Callers
+## Notes to callers
 
- **SortTable** operates synchronously unless you set one of the flags. If you set the TBL_BATCH flag, **SortTable** postpones the sort operation unless you request the data. If the TBL_ASYNC flag is set, **SortTable** operates asynchronously, potentially returning before the completion of the operation. 
+**SortTable** operates synchronously unless you set one of the flags. If you set the TBL_BATCH flag, **SortTable** postpones the sort operation unless you request the data. If the TBL_ASYNC flag is set, **SortTable** operates asynchronously, potentially returning before the completion of the operation. 
   
 Call the [IMAPITable::Abort](imapitable-abort.md) method to stop an asynchronous operation in progress if your sort must be done immediately. If **SortTable** cannot continue because one or more asynchronous operations on the table are in progress, it returns MAPI_E_BUSY. 
   
@@ -109,19 +105,11 @@ Whenever **SortTable** fails, the sort order that was in effect before the failu
   
 ## See also
 
-#### Reference
-
-[IMAPITable::Abort](imapitable-abort.md)
-  
-[IMAPITable::GetRowCount](imapitable-getrowcount.md)
-  
-[IMAPITable::QueryColumns](imapitable-querycolumns.md)
-  
-[IMAPITable::QuerySortOrder](imapitable-querysortorder.md)
-  
-[IMAPITable::SetColumns](imapitable-setcolumns.md)
-  
-[SSortOrderSet](ssortorderset.md)
-  
-[IMAPITable : IUnknown](imapitableiunknown.md)
+- [IMAPITable::Abort](imapitable-abort.md)
+- [IMAPITable::GetRowCount](imapitable-getrowcount.md)
+- [IMAPITable::QueryColumns](imapitable-querycolumns.md)
+- [IMAPITable::QuerySortOrder](imapitable-querysortorder.md)
+- [IMAPITable::SetColumns](imapitable-setcolumns.md)
+- [SSortOrderSet](ssortorderset.md)
+- [IMAPITable : IUnknown](imapitableiunknown.md)
 
