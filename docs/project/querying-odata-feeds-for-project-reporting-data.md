@@ -16,7 +16,7 @@ You can create custom apps that are developed by using the Microsoft .NET Framew
   
 The Project 2013 SDK download includes the **HelloProject_OData** sample Office Add-in, which uses a REST query with JavaScript and jQuery to summarize information from the **ProjectData** service in a task pane within Project Professional 2013. 
   
-Many third-party tools and OData consumer applications are available that can help you to quickly create and test queries. You can paste a REST URL in a browser and view the data in the page source or in a web debugging tool such as [Fiddler](http://www.fiddler2.com) (`http://www.fiddler2.com`). For links to tools such as OData Explorer and LINQPad, choose **Consumers** in the [Open Data Protocol ecosystem](http://msopentech.com/odataorg/ecosystem) (  `http://msopentech.com/odataorg/ecosystem`).
+Many third-party tools and OData consumer applications are available that can help you to quickly create and test queries. You can paste a REST URL in a browser and view the data in the page source or in a web debugging tool such as [Fiddler](http://www.fiddler2.com). For links to tools such as OData Explorer and LINQPad, choose **Consumers** in the [Open Data Protocol ecosystem](http://msopentech.com/odataorg/ecosystem).
   
 For more information about OData queries in SharePoint 2013, see [Use OData query operations in SharePoint REST requests](http://msdn.microsoft.com/library/d4b5c277-ed50-420c-8a9b-860342284b72%28Office.15%29.aspx).
 
