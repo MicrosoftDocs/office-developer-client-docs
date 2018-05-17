@@ -1,12 +1,9 @@
 ---
 title: "Filter a view by using a macro in an Access app"
- 
- 
 manager: kelbow
 ms.date: 8/18/2017
 ms.audience: Developer
-ms.topic: overview
-  
+ms.topic: overview 
 localization_priority: Normal
 ms.assetid: db4dbb71-1b22-4dfd-bc07-5f7d694fc038
 description: "Learn how to filter a view in an Access app by using the RequeryRecords macro action and a data macro."
@@ -18,9 +15,6 @@ Learn how to filter a view in an Access app by using the RequeryRecords macro ac
   
 > [!IMPORTANT]
 > Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices. 
-  
-## Introduction
-<a name="Access2013FilterViewByUsingMacro_Introduction"> </a>
 
 The default list view in an Access app enables you to filter the issues on values that are contained in the fields. There may be instances where you'd like to filter a view based on a set of conditions instead of by matching a value. To do that you must create a macro. This article shows you how to create a macro that filter a view to display tasks that are past due or due in the next 7 days.
   
@@ -53,7 +47,7 @@ Suppose you want to create an Access app that tracks tasks for your business. Be
     
    **Figure 1. Templates that match the search for tasks**
 
-     ![Templates that match the search for issues](media/odc_Access15_CreateAndCustomizeWebApp_Figure01.JPG)
+   ![Templates that match the search for issues](media/odc_Access15_CreateAndCustomizeWebApp_Figure01.JPG)
   
 4. Choose **Tasks**.
     
@@ -86,7 +80,7 @@ The **Status** field contains several possible values. A value of **Completed** 
   
 These facts can be combined into the following SQL WHERE clause.
   
-```
+```sql
 [Tasks].[Due Date]<DateAdd(Day,7,Today()) AND [Tasks].[Status]<>"Completed"
 ```
 
@@ -124,7 +118,7 @@ Now that you've determined the customizations, implement them. The data macro sh
   
    **Figure 1. Add New Action list box**
 
-     ![Add New Action dropdown](media/odc_Access2013_FilterFormByUsingMacro_Figure01.jpg)
+   ![Add New Action dropdown](media/odc_Access2013_FilterFormByUsingMacro_Figure01.jpg)
   
 7. In the **Name** box, enter **TaskFound**. 
     
@@ -136,7 +130,7 @@ Now that you've determined the customizations, implement them. The data macro sh
     
    **Figure 2. TasksDueSoon data macro**
 
-     ![TasksDueSoon data macro](media/odc_Access2013_FilterFormByUsingMacro_Figure02.jpg)
+   ![TasksDueSoon data macro](media/odc_Access2013_FilterFormByUsingMacro_Figure02.jpg)
   
 10. Close macro Design View.
     
@@ -154,13 +148,13 @@ Now, we're ready to add a custom button to the Action Bar.
     
    **Figure 3. Add custom action button**
 
-     ![Add custom action button](media/odc_Access2013_FilterFormByUsingMacro_Figure03.jpg)
+   ![Add custom action button](media/odc_Access2013_FilterFormByUsingMacro_Figure03.jpg)
   
     The new action is displayed as a button with a star icon as shown in Figure 4.
     
    **Figure 4. New Action Bar button**
 
-     ![New Action Bar button](media/odc_Access2013_FilterFormByUsingMacro_Figure04.jpg)
+   ![New Action Bar button](media/odc_Access2013_FilterFormByUsingMacro_Figure04.jpg)
   
 4. Choose the custom Action Bar Button, and then choose the **Data** icon. 
     
@@ -178,7 +172,7 @@ Now, we're ready to create the UI macro that will filter the view.
     
    **Figure 5. Data dialog box**
 
-     ![Data dialog box](media/odc_Access2013_FilterFormByUsingMacro_Figure05.jpg)
+   ![Data dialog box](media/odc_Access2013_FilterFormByUsingMacro_Figure05.jpg)
   
     A blank UI macro is opened in macro Design View.
     
@@ -201,7 +195,7 @@ Now, we're ready to create the UI macro that will filter the view.
   
    **Figure 6. Add New Action list box**
 
-     ![Add New Action dropdown](media/odc_Access2013_FilterFormByUsingMacro_Figure06.jpg)
+   ![Add New Action dropdown](media/odc_Access2013_FilterFormByUsingMacro_Figure06.jpg)
   
 7. In the **Where** box, enter **[Tasks].[Due Date]\<DateAdd(Day,7,Today()) AND [Tasks].[Status]\<\>"Completed"**. 
     
@@ -211,7 +205,7 @@ Now, we're ready to create the UI macro that will filter the view.
     
    **Figure 7. Add Else link**
 
-     ![Add Else link](media/odc_Access2013_FilterFormByUsingMacro_Figure07.jpg)
+   ![Add Else link](media/odc_Access2013_FilterFormByUsingMacro_Figure07.jpg)
   
     An Else clause is added to the If block.
     
@@ -225,7 +219,7 @@ Now, we're ready to create the UI macro that will filter the view.
     
    **Figure 8. UI macro to filter the view**
 
-     ![UI macro to filter the view](media/odc_Access2013_FilterFormByUsingMacro_Figure08.jpg)
+   ![UI macro to filter the view](media/odc_Access2013_FilterFormByUsingMacro_Figure08.jpg)
   
 13. Close macro Design View.
     
@@ -266,12 +260,10 @@ Now, we're ready to create the UI macro that will remove the filter form the vie
 Now, we're ready to text the customization. Choose **Launch App** to open the app in your web browser and then choose the custom FilterTasks Action Bar button. Any tasks past due or due in the next 7 days are displayed. A message is displayed if the app contains no urgent tasks. 
   
 ## Conclusion
-<a name="Access2013FilterViewByUsingMacro_Conclusion"> </a>
 
 You can use the **RequeryRecords** macro action in a UI macro to filter the view based on the criteria that you choose. Depending on the behavior that you want, you may want to create a data macro to verify that a record meets the criteria before you use the **RequeryRecords** macro action. 
   
 ## See also
-<a name="bk_addresources"> </a>
 
 - [What's new for Access 2013 developers](http://msdn.microsoft.com/library/df778f51-d65e-4c30-b618-65003ceb39b3%28Office.15%29.aspx)
     
