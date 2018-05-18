@@ -28,7 +28,7 @@ BLEND( ** *color1* **, ** *color2* **, ** *float[0,1]* ** )
 | _color2_ <br/> |Required  <br/> |**Numeric** <br/> |The Visio color index or RGB value of the second color.  <br/> |
 | _float[0,1]_ <br/> |Required  <br/> |**Float** <br/> |The proportion in which to blend  _color2_ and  _color1_, respectively. A real number from 0 to 1 inclusive.  <br/> |
    
-### Return Value
+### Return value
 
  **RGB**
   

@@ -37,7 +37,7 @@ If this property contains FALSE and the **PR_READ_RECEIPT_REQUESTED** ([PidTagRe
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

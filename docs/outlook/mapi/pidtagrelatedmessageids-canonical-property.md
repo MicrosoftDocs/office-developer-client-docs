@@ -37,7 +37,7 @@ The identifiers use the same specific construction rules as are used for the **P
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

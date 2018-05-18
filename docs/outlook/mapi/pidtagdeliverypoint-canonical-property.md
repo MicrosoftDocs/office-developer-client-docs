@@ -67,7 +67,7 @@ The default value is MAPI_MH_DP_PRIVATE_UA, that is, a MAPI client.
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

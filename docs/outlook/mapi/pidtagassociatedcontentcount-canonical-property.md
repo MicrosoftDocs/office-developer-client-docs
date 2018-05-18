@@ -37,7 +37,7 @@ This property contains the number of entries in the contents table of the folder
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

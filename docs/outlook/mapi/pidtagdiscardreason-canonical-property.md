@@ -37,7 +37,7 @@ The reason contained in this property is used in a nondelivery report for the me
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

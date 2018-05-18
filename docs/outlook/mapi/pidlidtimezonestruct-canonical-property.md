@@ -52,7 +52,7 @@ This property is set on a recurring series to specify time-zone information, and
   
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
@@ -62,7 +62,7 @@ This property is set on a recurring series to specify time-zone information, and
   
 > Specifies the properties and operations for appointment, meeting request, and response messages.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

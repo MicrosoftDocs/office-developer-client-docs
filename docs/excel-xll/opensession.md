@@ -28,7 +28,7 @@ int OpenSession(WCHAR *Params)
   
 > A pointer to semicolon-delimited UNICODE string of parameters for the session. Excel does not use this argument.
     
-## Return Value
+## Return value
 
 A session ID to use in other calls to the cluster connector, if the session was successfully created; otherwise **xlHpcRetCallFailed**.
   

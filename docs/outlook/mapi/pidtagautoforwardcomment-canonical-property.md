@@ -33,7 +33,7 @@ Contains a comment added by the auto-forwarding agent.
    
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

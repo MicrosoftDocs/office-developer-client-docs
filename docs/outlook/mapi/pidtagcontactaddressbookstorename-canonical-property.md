@@ -37,7 +37,7 @@ These properties are on a Contact Address Book container, and a column in the ta
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

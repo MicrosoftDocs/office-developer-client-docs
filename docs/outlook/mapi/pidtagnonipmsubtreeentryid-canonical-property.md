@@ -33,7 +33,7 @@ Shows the entry ID of the **NON_IPM_SUBTREE** folder in an Exchange Public Folde
    
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

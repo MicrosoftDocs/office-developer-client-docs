@@ -38,7 +38,7 @@ This property is only relevant to messages on the store that have not been sent,
   
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -48,7 +48,7 @@ This property is only relevant to messages on the store that have not been sent,
   
 > Specifies the properties and operations for manipulating a search folder list configuration.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

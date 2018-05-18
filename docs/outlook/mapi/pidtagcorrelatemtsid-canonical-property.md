@@ -41,7 +41,7 @@ A client application can maintain a search-results folder of all messages having
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

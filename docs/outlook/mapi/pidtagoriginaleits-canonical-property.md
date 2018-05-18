@@ -33,7 +33,7 @@ Contains a copy of the original encoded information types (EITs) for message tex
    
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

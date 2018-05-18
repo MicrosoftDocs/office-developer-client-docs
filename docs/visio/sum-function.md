@@ -30,7 +30,7 @@ SUM( ** *number1* **, ** *number2* **,..., ** *[numberN]* ** )
 | _number2_ <br/> |Required  <br/> |**Numeric** <br/> |The second number.  <br/> |
 | _numberN_ <br/> |Optional  <br/> |**Numeric** <br/> |The nth number.  <br/> |
    
-### Return Value
+### Return value
 
 Numeric
   

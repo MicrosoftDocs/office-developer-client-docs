@@ -33,7 +33,7 @@ Contains TRUE if a message sender prohibits physical message forwarding for a sp
    
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

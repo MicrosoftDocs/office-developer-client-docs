@@ -38,13 +38,13 @@ This property is set when Microsoft Word is set as the e-mail editor, and it sen
   
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]] 
   
 > Provides property set definitions and references to related Exchange Server protocol specifications.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

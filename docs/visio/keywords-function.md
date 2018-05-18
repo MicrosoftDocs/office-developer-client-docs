@@ -22,7 +22,7 @@ Returns the text from the **Keywords** field of a document's properties.
 
 KEYWORDS ()
   
-### Return Value
+### Return value
 
 String
   

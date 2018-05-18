@@ -39,7 +39,7 @@ For more information on views, see [View Folders](mapi-view-folders.md).
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

@@ -39,7 +39,7 @@ This property appears only as a column entry in the provider table.
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

@@ -52,7 +52,7 @@ The number of subsequent arguments that will be passed to the function. In versi
   
 The optional arguments to the function. All arguments must be pointers to **XLOPER** or **XLOPER12** values. 
   
-## Return Value
+## Return value
 
 Returns one of the following integer ( **int**) values.
   

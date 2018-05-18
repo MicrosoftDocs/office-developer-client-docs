@@ -22,7 +22,7 @@ The REF function returns the error value #REF!.
 
 REF( )
   
-### Return Value
+### Return value
 
 String
   

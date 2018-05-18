@@ -28,7 +28,7 @@ int CloseSession(int SessionId)
   
 > The ID of the session to close. This value must match the value returned by [OpenSession](opensession.md).
     
-## Return Value
+## Return value
 
  **xlHpcRetSuccess** if the session closed; **xlHpcRetInvalidSessionId** if the  _SessionId_ argument is invalid; **xlHpcRetCallFailed** on other failures. 
   

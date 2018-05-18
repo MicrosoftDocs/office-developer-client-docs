@@ -30,7 +30,7 @@ EVALCELL( ** *cellRef* **,[ ** *arg1Name,arg1* ** ],[ ** *arg2Name,arg2* ** ],â€
 | _arg2Name_ <br/> |Optional  <br/> |**String** <br/> |The name of the second argument to be passed to the custom function. Spaces are allowed.  <br/> |
 | _arg2_ <br/> |Optional  <br/> |**Varies** <br/> |Value of the  _arg2_ parameter.  <br/> |
    
-### Return Value
+### Return value
 
 Number
   

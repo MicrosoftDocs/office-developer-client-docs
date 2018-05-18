@@ -22,7 +22,7 @@ Returns the text from the **Subject** field of a document's properties.
 
 SUBJECT ()
   
-### Return Value
+### Return value
 
 String
   

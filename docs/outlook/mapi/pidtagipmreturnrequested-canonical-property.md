@@ -33,7 +33,7 @@ Contains TRUE if this message should be returned with a report.
    
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

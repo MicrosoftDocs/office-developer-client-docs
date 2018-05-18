@@ -37,7 +37,7 @@ If an MTA cannot deliver a message by the time this property specifies, it cance
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

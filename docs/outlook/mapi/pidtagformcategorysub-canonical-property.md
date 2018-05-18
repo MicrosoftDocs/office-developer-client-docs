@@ -37,7 +37,7 @@ These properties are subordinate to the main form category that is provided in t
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

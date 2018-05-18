@@ -39,7 +39,7 @@ The original author property allows for preservation of information from outside
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

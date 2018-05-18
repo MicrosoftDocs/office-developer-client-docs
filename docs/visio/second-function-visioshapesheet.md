@@ -30,7 +30,7 @@ SECOND(" ** *datetime* ** "| ** *expression* ** [, ** *lcid* ** ])
 | _expression_ <br/> |Required  <br/> |**String** <br/> | Any expression that yields a date and time.  <br/> |
 | _lcid_ <br/> |Optional  <br/> |**Numeric** <br/> |The locale identifier to be used in evaluating a nonlocal  _datetime_. The locale identifier is a number described in the system header files.  <br/> |
    
-### Return Value
+### Return value
 
 Integer
   

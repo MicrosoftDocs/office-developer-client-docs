@@ -37,7 +37,7 @@ This property, **PR_YPOS** ([PidTagYCoordinate](pidtagycoordinate-canonical-prop
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

@@ -37,7 +37,7 @@ The array contained in the this property consists of ASN.1 identifiers for each 
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

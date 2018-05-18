@@ -45,7 +45,7 @@ A client or server must not generate a conflict resolve message for associated m
   
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXCSYNC]](http://msdn.microsoft.com/library/fd3e23ef-341a-4a8c-a0e9-6afecbb11c40%28Office.15%29.aspx)
   
@@ -55,7 +55,7 @@ A client or server must not generate a conflict resolve message for associated m
   
 > Defines the basic data structures that are used in remote operations.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

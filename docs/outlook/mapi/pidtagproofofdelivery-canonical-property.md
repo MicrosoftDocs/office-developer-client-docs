@@ -33,7 +33,7 @@ This property contains an ASN.1 proof of delivery value.
    
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

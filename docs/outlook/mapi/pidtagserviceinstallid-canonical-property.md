@@ -37,7 +37,7 @@ These properties may be used as the component parameter of an **MsiProvideQualif
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

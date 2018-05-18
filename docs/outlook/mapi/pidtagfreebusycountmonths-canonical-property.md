@@ -37,7 +37,7 @@ This property's value must be greater than or equal to 0 and less than or equal 
   
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXOPFFB]](http://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
@@ -47,7 +47,7 @@ This property's value must be greater than or equal to 0 and less than or equal 
   
 > Specifies the properties and operations for appointment, meeting request, and response messages.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

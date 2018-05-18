@@ -32,7 +32,7 @@ NEARESTPOINTONPATH( ** *section* **, ** *x* **, ** *y* ** )
 | _x_ <br/> |Required  <br/> |**Double** <br/> |The  _x_-coordinate of the specified point.  <br/> |
 | _y_ <br/> |Required  <br/> |**Double** <br/> |The  _y_-coordinate of the specified point.  <br/> |
    
-### Return Value
+### Return value
 
  **Double**
   

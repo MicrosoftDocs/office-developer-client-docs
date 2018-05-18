@@ -24,7 +24,7 @@ Version Added: Visio 2010
 
 CONTAINERMEMBERCOUNT()
   
-### Return Value
+### Return value
 
  **Integer**
   

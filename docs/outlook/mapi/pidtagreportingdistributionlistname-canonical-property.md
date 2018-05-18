@@ -33,7 +33,7 @@ Contains the display name of a distribution list where the messaging system deli
    
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

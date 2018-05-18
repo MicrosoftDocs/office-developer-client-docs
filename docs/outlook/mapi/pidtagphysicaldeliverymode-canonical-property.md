@@ -33,7 +33,7 @@ Contains a bitmask of flags that define the physical delivery mode (for example,
    
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

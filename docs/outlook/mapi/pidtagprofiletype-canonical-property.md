@@ -45,7 +45,7 @@ The possible values for this property are:
     
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

@@ -37,7 +37,7 @@ This property is available to receiving client applications if the transport pro
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

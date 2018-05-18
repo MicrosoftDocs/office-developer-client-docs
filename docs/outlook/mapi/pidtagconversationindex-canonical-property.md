@@ -43,7 +43,7 @@ All messages that have the same value for **PR_CONVERSATION_TOPIC** can be sorte
   
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -53,7 +53,7 @@ All messages that have the same value for **PR_CONVERSATION_TOPIC** can be sorte
   
 > Specifies the properties and operations that are permissible on e-mail message objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

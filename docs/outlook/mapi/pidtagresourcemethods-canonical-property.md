@@ -65,7 +65,7 @@ STATUS_VALIDATE_STATE
     
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

@@ -37,7 +37,7 @@ This property conveys protected security-related information from its originator
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

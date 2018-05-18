@@ -49,7 +49,7 @@ MSGSTATUS_REMOTE_DOWNLOAD
     
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

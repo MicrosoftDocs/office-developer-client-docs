@@ -69,7 +69,7 @@ MAPI_TRANSPORT_PROVIDER
     
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

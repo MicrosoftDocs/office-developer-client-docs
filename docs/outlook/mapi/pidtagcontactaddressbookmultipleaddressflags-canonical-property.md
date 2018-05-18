@@ -37,7 +37,7 @@ If the flags in this property are TRUE, the provider does not include contacts w
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

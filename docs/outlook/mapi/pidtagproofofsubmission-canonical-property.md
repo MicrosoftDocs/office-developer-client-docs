@@ -33,7 +33,7 @@ This property contains TRUE if a message sender requests proof that the message 
    
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

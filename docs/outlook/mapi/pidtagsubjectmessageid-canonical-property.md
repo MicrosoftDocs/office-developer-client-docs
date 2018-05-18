@@ -37,7 +37,7 @@ This property, like the **PR_REPORT_TAG** ([PidTagReportTag](pidtagreporttag-can
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

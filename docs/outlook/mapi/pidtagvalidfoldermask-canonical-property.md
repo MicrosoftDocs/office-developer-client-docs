@@ -71,7 +71,7 @@ FOLDER_VIEWS_VALID
     
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

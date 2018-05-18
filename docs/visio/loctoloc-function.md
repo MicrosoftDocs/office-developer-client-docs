@@ -30,7 +30,7 @@ LOCTOLOC( ** *srcPoint* **, ** *srcRef* **, ** *dstRef* ** )
 | _srcRef_ <br/> |Required  <br/> |**String** <br/> | A reference to a cell in the source object.  <br/> |
 | _dstRef_ <br/> |Required  <br/> |**String** <br/> | A reference to a cell in the destination object.  <br/> |
    
-### Return Value
+### Return value
 
 String
   

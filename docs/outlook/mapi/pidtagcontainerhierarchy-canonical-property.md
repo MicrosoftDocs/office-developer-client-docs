@@ -49,7 +49,7 @@ To retrieve table contents, a client application should call the [IMAPIContainer
    
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -63,7 +63,7 @@ To retrieve table contents, a client application should call the [IMAPIContainer
   
 > Converts between IETF RFC2445, RFC2446, and RFC2447, and appointment and meeting objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

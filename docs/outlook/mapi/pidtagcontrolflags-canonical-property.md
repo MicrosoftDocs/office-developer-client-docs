@@ -88,7 +88,7 @@ The following table lists the types of controls and all of the flag values that 
    
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

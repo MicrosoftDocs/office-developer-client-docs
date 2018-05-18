@@ -45,7 +45,7 @@ MAPI works only with paths and filenames in the ANSI character set. Client appli
   
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -55,7 +55,7 @@ MAPI works only with paths and filenames in the ANSI character set. Client appli
   
 > Specifies the properties of rights-managed encoded messages.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

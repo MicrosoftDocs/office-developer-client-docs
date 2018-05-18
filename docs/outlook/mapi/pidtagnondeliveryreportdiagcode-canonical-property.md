@@ -229,7 +229,7 @@ MAPI_DIAG_TOO_MANY_RECIPIENTS
     
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

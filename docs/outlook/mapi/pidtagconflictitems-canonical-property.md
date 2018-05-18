@@ -44,7 +44,7 @@ An item exposes the **PR_CONFLICT_ITEMS** property if it is one of the item type
   
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -54,7 +54,7 @@ An item exposes the **PR_CONFLICT_ITEMS** property if it is one of the item type
   
 > Handles synchronizing messaging object data between a server and a client.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

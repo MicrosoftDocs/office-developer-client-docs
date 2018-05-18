@@ -37,7 +37,7 @@ This property does not appear as a property of any object but only as a column i
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

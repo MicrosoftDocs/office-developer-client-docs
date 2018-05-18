@@ -37,7 +37,7 @@ The folder object code page is used if this property is set to zero (0).
   
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -51,7 +51,7 @@ The folder object code page is used if this property is set to zero (0).
   
 > Specifies the method of delivering offline address book (OAB) data from server to client.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

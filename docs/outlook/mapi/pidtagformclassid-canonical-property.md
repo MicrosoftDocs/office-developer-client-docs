@@ -37,7 +37,7 @@ The [MAPIUID](mapiuid.md) structure contains the definition of the unique identi
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

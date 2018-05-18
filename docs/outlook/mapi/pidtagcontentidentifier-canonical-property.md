@@ -33,7 +33,7 @@ Contains a key value that enables the message recipient to identify its content.
    
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

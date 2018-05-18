@@ -37,7 +37,7 @@ A container that does not support advanced search capabilities does not have to 
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

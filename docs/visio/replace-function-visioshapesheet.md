@@ -31,7 +31,7 @@ REPLACE ( ** *old_text* **, ** *start_num* **, ** *num_chars* **, ** *new_text* 
 | _num_chars_ <br/> |Required  <br/> |**Number** <br/> |The number of characters in  _old_text_ that you want to replace  <br/> |
 | _new_text_ <br/> |Required  <br/> |**String** <br/> |The text that will replace characters in  _old_text_.  <br/> |
    
-### Return Value
+### Return value
 
 String
   

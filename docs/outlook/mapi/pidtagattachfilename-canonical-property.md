@@ -43,7 +43,7 @@ MAPI works only with file names, and other strings passed to it, in the American
   
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -65,7 +65,7 @@ MAPI works only with file names, and other strings passed to it, in the American
   
 > Encodes and decodes message and attachment objects to an efficient stream representation.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

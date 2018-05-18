@@ -37,7 +37,7 @@ This property is present on all folder objects on an Exchange Server. Values inc
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

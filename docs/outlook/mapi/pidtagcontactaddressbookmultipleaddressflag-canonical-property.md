@@ -37,7 +37,7 @@ If this property is TRUE, the provider does not allow contacts without e-mail ad
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

@@ -39,7 +39,7 @@ A client application that must route reports to another user should set these pr
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

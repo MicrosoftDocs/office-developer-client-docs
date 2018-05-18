@@ -28,7 +28,7 @@ BITNOT( ** *binary number* ** )
 |:-----|:-----|:-----|:-----|
 | _binary number_ <br/> |Required  <br/> |**Numeric** <br/> |A 16-bit binary number.  <br/> |
    
-### Return Value
+### Return value
 
 16-bit Binary
   

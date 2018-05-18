@@ -37,7 +37,7 @@ The common view folder contains a predefined set of standard view specifiers, wh
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

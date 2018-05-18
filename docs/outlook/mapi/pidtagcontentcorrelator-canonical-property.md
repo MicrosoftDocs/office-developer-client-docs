@@ -37,7 +37,7 @@ The contents of the binary string are defined by the message originator. If set 
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

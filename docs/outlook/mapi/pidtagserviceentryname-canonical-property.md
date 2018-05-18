@@ -41,7 +41,7 @@ For more information on message service entry points, see [Implementing a Servic
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

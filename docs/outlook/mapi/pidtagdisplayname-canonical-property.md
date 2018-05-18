@@ -50,7 +50,7 @@ For status objects, these properties contain the name of the component that can 
   
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -80,7 +80,7 @@ For status objects, these properties contain the name of the component that can 
   
 > Extends the WebDAV protocol that specifies how to request and set the Exchange security descriptor via WebDAV methods.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

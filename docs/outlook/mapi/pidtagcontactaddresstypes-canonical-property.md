@@ -33,7 +33,7 @@ Contains a list of address types for a contact.
    
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

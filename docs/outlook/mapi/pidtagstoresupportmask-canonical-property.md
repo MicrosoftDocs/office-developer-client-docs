@@ -133,7 +133,7 @@ An RTF version of a message can always be stored, even if the message store is n
   
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -143,7 +143,7 @@ An RTF version of a message can always be stored, even if the message store is n
   
 > Describes the format of messages used to send information related to sharing folders on the client.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

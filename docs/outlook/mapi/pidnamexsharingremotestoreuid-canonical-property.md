@@ -34,7 +34,7 @@ Represents the value of the **dispidSharingRemoteStoreUid** ([PidLidSharingRemot
    
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -44,7 +44,7 @@ Represents the value of the **dispidSharingRemoteStoreUid** ([PidLidSharingRemot
   
 > Shares mailbox folders between clients.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

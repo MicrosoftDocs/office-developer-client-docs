@@ -33,7 +33,7 @@ Contains the **EntryIDs** for the delegate information message, the free/busy me
    
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -51,7 +51,7 @@ Contains the **EntryIDs** for the delegate information message, the free/busy me
   
 > Specifies the properties and operations for creating and locating the special folders in a mailbox.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

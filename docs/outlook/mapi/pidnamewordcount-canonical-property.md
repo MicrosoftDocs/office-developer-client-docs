@@ -34,7 +34,7 @@ Specifies the word count of the file that is attached to the document.
    
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -44,7 +44,7 @@ Specifies the word count of the file that is attached to the document.
   
 > Specifies the properties and operations that are permissible on documents.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

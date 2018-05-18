@@ -33,7 +33,7 @@ Contains TRUE if a message sender requests the message transfer agent to attach 
    
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

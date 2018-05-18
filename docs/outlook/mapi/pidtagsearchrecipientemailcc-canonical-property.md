@@ -34,7 +34,7 @@ Contains a Unicode string that is being queried in the list of email addresses o
 > [!NOTE]
 > This MAPI restriction tag, used when you search for email addresses or display names to which the message is sent as a carbon copy, might not be defined in the downloadable header file that you currently have. You can add it to your code by using the following value: >  `#define PR_SEARCH_RECIP_EMAIL_CC_W PROP_TAG(PT_UNICODE, 0x0EA7)`
   
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -44,7 +44,7 @@ Contains a Unicode string that is being queried in the list of email addresses o
   
 > Specifies the properties and operations for manipulating a search folder list configuration.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

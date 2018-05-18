@@ -33,7 +33,7 @@ Contains TRUE if a message transfer agent (MTA) is prohibited from expanding dis
    
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

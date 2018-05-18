@@ -33,7 +33,7 @@ Contains the display name of a provider.
    
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

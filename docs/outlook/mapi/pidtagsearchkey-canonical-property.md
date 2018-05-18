@@ -56,7 +56,7 @@ The following table summarizes important differences among the **PR_ENTRYID** ([
    
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -70,7 +70,7 @@ The following table summarizes important differences among the **PR_ENTRYID** ([
   
 > Specifies the properties and operations for lists of users, contacts, groups, and resources.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

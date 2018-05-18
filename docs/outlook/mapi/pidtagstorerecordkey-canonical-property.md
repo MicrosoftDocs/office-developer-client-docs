@@ -39,7 +39,7 @@ The relationship between this property and **PR_RECORD_KEY** is the same as the 
   
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -49,7 +49,7 @@ The relationship between this property and **PR_RECORD_KEY** is the same as the 
   
 > Converts between IETF RFC2445, RFC2446, and RFC2447, and appointment and meeting objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

@@ -43,7 +43,7 @@ Message store providers should support this property on messages, recipient tabl
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

@@ -39,7 +39,7 @@ The following characters cannot be used in folder names:
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

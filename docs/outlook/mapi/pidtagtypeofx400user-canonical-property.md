@@ -33,7 +33,7 @@ This property contains the type of a message recipient for use in a report.
    
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

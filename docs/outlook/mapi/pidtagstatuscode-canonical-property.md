@@ -81,7 +81,7 @@ STATUS_REMOTE_ACCESS
     
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

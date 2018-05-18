@@ -39,7 +39,7 @@ A client application replying to a message received on behalf of another client 
   
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -57,7 +57,7 @@ A client application replying to a message received on behalf of another client 
   
 > Specifies methods for connecting to and configuring mailboxes as delegates, and interactions with message and calendar objects when they act on behalf of another user.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

@@ -37,7 +37,7 @@ This property is a copy of the recipient's **PR_USER_CERTIFICATE** ([PidTagUserC
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

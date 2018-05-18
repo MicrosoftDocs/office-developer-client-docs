@@ -39,7 +39,7 @@ MAPI works only with filenames, and other strings passed to it, in the ANSI char
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

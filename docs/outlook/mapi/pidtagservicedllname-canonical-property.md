@@ -41,7 +41,7 @@ These properties should specify the base name. MAPI appends the string 32 as app
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

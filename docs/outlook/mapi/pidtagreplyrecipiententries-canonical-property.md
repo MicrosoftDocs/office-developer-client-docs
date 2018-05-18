@@ -41,7 +41,7 @@ If either this property or the **PR_REPLY_RECIPIENT_NAMES** property is set, the
   
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -55,7 +55,7 @@ If either this property or the **PR_REPLY_RECIPIENT_NAMES** property is set, the
   
 > Converts from Internet standard e-mail conventions to message objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

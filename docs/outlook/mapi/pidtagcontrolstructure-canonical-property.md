@@ -46,7 +46,7 @@ This property represents a long pointer that is cast to one of the control struc
    
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

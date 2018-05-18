@@ -27,7 +27,7 @@ TONE( ** *color* **, ** *int* ** )
 | _color_ <br/> |Required  <br/> |**Numeric** <br/> |The Microsoft Visio color index or RGB value of the color.  <br/> |
 | _int_ <br/> |Required  <br/> |**Integer** <br/> |The amount by which to decrease the saturation of the color. Can be positive or negative.  <br/> |
    
-### Return Value
+### Return value
 
  **RGB**
   

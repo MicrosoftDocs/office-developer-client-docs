@@ -37,7 +37,7 @@ These properties contain the unique identifier for the form designer object.
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

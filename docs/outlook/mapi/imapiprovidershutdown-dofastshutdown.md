@@ -28,7 +28,7 @@ Indicates to the MAPI provider that the MAPI client is exiting immediately, so t
 HRESULT DoFastShutdown ();
 ```
 
-## Return Value
+## Return value
 
 S_OK
   

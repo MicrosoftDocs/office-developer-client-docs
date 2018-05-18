@@ -37,7 +37,7 @@ This property specifies the entry identifier for the tightly coupled store, if o
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

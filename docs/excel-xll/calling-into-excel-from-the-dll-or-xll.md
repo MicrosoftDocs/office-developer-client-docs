@@ -174,7 +174,7 @@ Excel supports a small number of functions that are only accessible from a DLL o
 |[xlDefineBinaryName](xldefinebinaryname.md) <br/> |12 | xlSpecial  <br/> |Defines a persistent binary storage name.  <br/> |
 |[xlGetBinaryName](xlgetbinaryname.md) <br/> |13 | xlSpecial  <br/> |Gets a persistent binary storage name's data.  <br/> |
    
-## Return Value XLOPER/XLOPER12: operRes
+## Return value XLOPER/XLOPER12: operRes
 
 The  _operRes_ argument is the second argument to the callbacks and is a pointer to an **XLOPER** ( **Excel4** and **Excel4v**) or **XLOPER12** ( **Excel12** and **Excel12v**). After a successful call, it contains the return value of the function or command. **operRes** can be set to zero (NULL pointer) if no return value is required. The previous contents of **operRes** are overwritten so that any memory previously pointed to must be freed before to the call to avoid memory leaks. 
   

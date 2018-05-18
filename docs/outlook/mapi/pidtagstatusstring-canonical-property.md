@@ -39,7 +39,7 @@ The string is generated on the same side of the remote procedure call as the MAP
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

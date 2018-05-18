@@ -37,7 +37,7 @@ This property indicates which encoded information types (EITs) were used to conv
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

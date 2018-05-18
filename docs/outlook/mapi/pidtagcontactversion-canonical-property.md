@@ -37,7 +37,7 @@ This property is one of the properties that provides identification and access i
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

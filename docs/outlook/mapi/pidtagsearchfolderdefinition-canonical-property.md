@@ -37,7 +37,7 @@ The specific content of each field of the binary large object (BLOB) contained i
   
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -47,7 +47,7 @@ The specific content of each field of the binary large object (BLOB) contained i
   
 > Specifies the properties and operations for manipulating a search folder list configuration.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

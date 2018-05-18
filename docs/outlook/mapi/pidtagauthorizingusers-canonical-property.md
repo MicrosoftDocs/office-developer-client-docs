@@ -37,7 +37,7 @@ The message store does not maintain this property.
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

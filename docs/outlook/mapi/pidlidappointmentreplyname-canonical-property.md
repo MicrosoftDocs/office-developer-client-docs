@@ -38,7 +38,7 @@ This property is only set for a delegator when a delegate responded. The value i
   
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXCDATA]](http://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx)
   
@@ -52,7 +52,7 @@ This property is only set for a delegator when a delegate responded. The value i
   
 > Specifies the properties and operations for appointment, meeting request, and response messages.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

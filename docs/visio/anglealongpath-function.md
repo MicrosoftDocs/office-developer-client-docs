@@ -32,7 +32,7 @@ ANGLEALONGPATH( ** *section* **, ** *travel* ** ** *[,segment]* ** )
 | _travel_ <br/> |Required  <br/> |**Double** <br/> |The percentage along the path from begin point to end point. Must be between 0 and 1.  <br/> |
 | _segment_ <br/> |Optional  <br/> |**Integer** <br/> |The 1-based segment of the path at which to calculate the tangent angle.  <br/> |
    
-### Return Value
+### Return value
 
  **Double**
   

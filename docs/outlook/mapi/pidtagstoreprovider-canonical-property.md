@@ -39,7 +39,7 @@ This property is analogous to the **PR_AB_PROVIDER_ID** ([PidTagAbProviderId](pi
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

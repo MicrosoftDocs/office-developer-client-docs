@@ -28,7 +28,7 @@ LOWER( ** *expression* ** )
 |:-----|:-----|:-----|:-----|
 | _expression_ <br/> |Required  <br/> |**Varies** <br/> | A string, a cell reference, or an expression; the result is converted to a string which is then converted to lowercase.  <br/> |
    
-### Return Value
+### Return value
 
 String
   

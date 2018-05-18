@@ -37,7 +37,7 @@ A client application should update this property, along with the **PR_DISPLAY_NA
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

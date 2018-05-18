@@ -33,13 +33,13 @@ If set on a nondelivery report, denotes the entry ID of the failed Send-As user.
    
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]] 
   
 > Provides references to related Exchange Server protocol specifications.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

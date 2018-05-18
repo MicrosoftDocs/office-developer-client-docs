@@ -37,7 +37,7 @@ These properties and **PR_PROVIDER_DLL_NAME** ([PidTagProviderDllName](pidtagpro
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

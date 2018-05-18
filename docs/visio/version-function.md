@@ -24,7 +24,7 @@ Version Added: Visio 2010
 
 VERSION()
   
-### Return Value
+### Return value
 
 Integer
   

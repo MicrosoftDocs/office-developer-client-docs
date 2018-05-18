@@ -37,7 +37,7 @@ This property is computed by MAPI on profile section objects. MAPI uses it to gr
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

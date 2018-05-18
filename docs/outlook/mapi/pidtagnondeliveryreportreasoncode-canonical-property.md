@@ -33,7 +33,7 @@ Contains a diagnostic code that forms part of a nondelivery report.
    
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

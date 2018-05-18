@@ -34,7 +34,7 @@ Contains the contents of the \<title\> field from the XML of the Atom \<feed\> o
    
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS] ](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -44,7 +44,7 @@ Contains the contents of the \<title\> field from the XML of the Atom \<feed\> o
   
 > Specifies the properties and operations that represent RSS items.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

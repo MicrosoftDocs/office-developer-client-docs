@@ -28,7 +28,7 @@ HUE( ** *expression* ** )
 |:-----|:-----|:-----|:-----|
 | _expression_ <br/> |Required  <br/> |**String** <br/> |An expression that evaluates to a color.  <br/> |
    
-### Return Value
+### Return value
 
 Number
   

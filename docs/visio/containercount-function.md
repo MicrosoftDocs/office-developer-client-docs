@@ -24,7 +24,7 @@ Version Added: Visio 2010
 
 CONTAINERCOUNT()
   
-### Return Value
+### Return value
 
  **Integer**
   

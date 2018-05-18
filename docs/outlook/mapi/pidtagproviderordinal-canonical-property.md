@@ -39,7 +39,7 @@ Obtain the provider table by calling the [IMsgServiceAdmin::GetProviderTable](im
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

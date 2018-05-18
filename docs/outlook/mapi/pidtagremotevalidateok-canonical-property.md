@@ -39,7 +39,7 @@ The transport provider usually sets this property dynamically, by setting the va
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

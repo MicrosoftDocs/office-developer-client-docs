@@ -22,7 +22,7 @@ Returns a random floating point number from 0.0 to 1.0. It returns a different n
 
 RAND( )
   
-### Return Value
+### Return value
 
 Float
   

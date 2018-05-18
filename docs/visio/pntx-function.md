@@ -28,7 +28,7 @@ PNTX( ** *point* ** )
 |:-----|:-----|:-----|:-----|
 | _point_ <br/> |Required  <br/> |**Number** <br/> |The  _x_-coordinate of the point.  <br/> |
    
-### Return Value
+### Return value
 
 Number
   

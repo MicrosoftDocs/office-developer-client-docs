@@ -37,7 +37,7 @@ If this property is TRUE, the messaging system must not perform any content conv
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

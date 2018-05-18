@@ -33,7 +33,7 @@ Contains the mode of a report to be delivered to a particular message recipient 
    
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

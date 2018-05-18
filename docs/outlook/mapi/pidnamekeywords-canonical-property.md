@@ -38,7 +38,7 @@ A multi-string value that specifies the categories for a message object, the len
   
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -52,7 +52,7 @@ A multi-string value that specifies the categories for a message object, the len
   
 > Specifies the properties and operations that are permissible on documents.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

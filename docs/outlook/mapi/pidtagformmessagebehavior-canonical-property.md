@@ -37,7 +37,7 @@ A value of FALSE indicates that the message should be composed as any other inte
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

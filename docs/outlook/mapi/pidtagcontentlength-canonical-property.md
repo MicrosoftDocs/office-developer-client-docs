@@ -33,7 +33,7 @@ Contains a message length, in bytes, passed to a client application or service p
    
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

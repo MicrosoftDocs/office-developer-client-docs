@@ -30,7 +30,7 @@ BOUNDINGBOXRECT( ** *Index* ** )
 |:-----|:-----|:-----|:-----|
 | _Index_ <br/> |Required  <br/> |**Integer** <br/> |The edge of the shape's bounding box for which to get the coordinate. See Remarks for possible values.  <br/> |
    
-### Return Value
+### Return value
 
  **Number**
   

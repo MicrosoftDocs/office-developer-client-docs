@@ -29,7 +29,7 @@ RIGHT( ** *text* ** [, ** *num_chars_opt* ** ])
 | _text_ <br/> |Required  <br/> |**String** <br/> | The text string containing the characters you want to extract.  <br/> |
 | _num_chars_opt_ <br/> |Optional  <br/> |**Number** <br/> |The number of characters you want to extract. The default is 1.  <br/> |
    
-### Return Value
+### Return value
 
 String
   

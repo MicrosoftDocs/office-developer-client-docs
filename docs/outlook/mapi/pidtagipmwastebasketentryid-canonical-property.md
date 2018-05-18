@@ -37,7 +37,7 @@ A client application should move deleted interpersonal messages to the Deleted I
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

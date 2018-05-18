@@ -39,7 +39,7 @@ This property is used in notifications. For example, notifications sent on the d
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

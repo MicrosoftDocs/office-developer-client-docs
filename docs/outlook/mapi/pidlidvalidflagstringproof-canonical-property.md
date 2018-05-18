@@ -40,7 +40,7 @@ Since the value of **PR_MESSAGE_DELIVERY_TIME** cannot be predicted by the sende
   
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -50,7 +50,7 @@ Since the value of **PR_MESSAGE_DELIVERY_TIME** cannot be predicted by the sende
   
 > Specifies the properties and operations related to flagging.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

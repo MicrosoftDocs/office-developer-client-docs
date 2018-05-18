@@ -39,13 +39,13 @@ For more information, see [MAPI Property Type Overview](mapi-property-type-overv
   
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
 > Specifies the properties and operations that are permissible on contacts and personal distribution lists.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

@@ -33,7 +33,7 @@ Contains an identifier for the algorithm used to confirm message content confide
    
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

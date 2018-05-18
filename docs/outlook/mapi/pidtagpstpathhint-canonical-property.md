@@ -35,13 +35,13 @@ If the **PR_PST_PATH** ([PidTagPstPath](pidtagpstpath-canonical-property.md)) pr
   
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]] 
   
 > Provides references to related Exchange Server protocol specifications.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

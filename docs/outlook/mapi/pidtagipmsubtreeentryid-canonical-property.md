@@ -37,7 +37,7 @@ This property represents the root of the IPM hierarchy. IPM clients should not d
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

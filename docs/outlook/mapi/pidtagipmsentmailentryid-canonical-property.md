@@ -37,7 +37,7 @@ After being sent, interpersonal messages are usually placed in the Sent Items fo
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

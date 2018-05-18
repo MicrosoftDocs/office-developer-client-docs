@@ -35,7 +35,7 @@ An X.400 transport provider sets this property in the unread report.
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

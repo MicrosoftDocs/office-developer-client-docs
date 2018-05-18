@@ -33,7 +33,7 @@ Indicates that a message sender has requested a message content conversion for a
    
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

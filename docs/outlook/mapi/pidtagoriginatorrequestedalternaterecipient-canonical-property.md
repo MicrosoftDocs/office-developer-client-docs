@@ -37,7 +37,7 @@ This property is used in autoforwarded messages. If autoforwarding is not permit
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

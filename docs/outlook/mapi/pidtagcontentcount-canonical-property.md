@@ -39,7 +39,7 @@ The number contained in this property does not include associated entries in the
   
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -53,7 +53,7 @@ The number contained in this property does not include associated entries in the
   
 > Includes permissible operations for the core table objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

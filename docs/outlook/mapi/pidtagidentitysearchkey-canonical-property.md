@@ -39,7 +39,7 @@ A service provider furnishing any of the identity properties should furnish all 
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

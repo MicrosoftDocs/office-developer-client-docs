@@ -61,7 +61,7 @@ The following is a sample XML document stored in this property on a Configuratio
 
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -71,7 +71,7 @@ The following is a sample XML document stored in this property on a Configuratio
   
 > Specifies the location and properties of client and server configuration data, such as shared category lists and working hours.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

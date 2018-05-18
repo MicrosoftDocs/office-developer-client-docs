@@ -37,7 +37,7 @@ If you have multiple Contact Address Books configured, this property must be set
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

@@ -39,7 +39,7 @@ These properties appear as a column in the message service table and can be used
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

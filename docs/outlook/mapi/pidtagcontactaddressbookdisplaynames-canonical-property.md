@@ -37,7 +37,7 @@ These properties are defined by the user and the user's organization.
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

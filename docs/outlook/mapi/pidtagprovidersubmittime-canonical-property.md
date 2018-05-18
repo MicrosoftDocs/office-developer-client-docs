@@ -39,7 +39,7 @@ This property corresponds to an X.400 submission envelope per-message attribute.
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

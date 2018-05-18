@@ -37,7 +37,7 @@ This property is used in report generation.
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

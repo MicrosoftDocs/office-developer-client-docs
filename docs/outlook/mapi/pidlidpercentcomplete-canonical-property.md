@@ -40,7 +40,7 @@ For a time-flagged message object, the value of this property must be set to 1.0
   
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -66,7 +66,7 @@ For a time-flagged message object, the value of this property must be set to 1.0
   
 > Handles the order and flow for data transfers between a client and server.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

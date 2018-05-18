@@ -37,7 +37,7 @@ The contact typically contains the name of a person or an alias that is responsi
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

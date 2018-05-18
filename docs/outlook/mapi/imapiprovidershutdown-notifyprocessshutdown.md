@@ -28,7 +28,7 @@ Indicates to the MAPI provider that a MAPI client is going to do a fast shutdown
 HRESULT NotifyProcessShutdown ();
 ```
 
-## Return Value
+## Return value
 
 S_OK
   

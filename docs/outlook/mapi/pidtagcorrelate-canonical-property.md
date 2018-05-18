@@ -39,7 +39,7 @@ This property is used to request the correlation of incoming reports with the or
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

@@ -41,7 +41,7 @@ An address book provider can provide more than one identifier. For example, a pr
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapitags.h
   

@@ -39,7 +39,7 @@ Set this property to FALSE in a corporate directory where some of the entries ar
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

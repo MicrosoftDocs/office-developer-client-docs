@@ -35,7 +35,7 @@ This property is set based on the e-mail message's **PR_SENSITIVITY** ([PidTagSe
   
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -45,7 +45,7 @@ This property is set based on the e-mail message's **PR_SENSITIVITY** ([PidTagSe
   
 > Specifies the properties and operations that are permissible on e-mail messages.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

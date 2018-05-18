@@ -30,7 +30,7 @@ BOUNDINGBOXDIST( ** *Index* ** )
 |:-----|:-----|:-----|:-----|
 | _Index_ <br/> |Required  <br/> |**Number** <br/> |The part of the shape's bounding box to measure and return. See Remarks for possible values.  <br/> |
    
-### Return Value
+### Return value
 
  **Number**
   

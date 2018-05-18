@@ -37,7 +37,7 @@ X.400 environments use this property for both non-delivery and delivery reports.
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

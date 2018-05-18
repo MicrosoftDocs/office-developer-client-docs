@@ -104,7 +104,7 @@ This property can have one the following values:
    
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -113,7 +113,7 @@ This property can have one the following values:
 [[MS-OXCICAL]](http://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
 > 
-### Header Files
+### Header files
 
 Mapidefs.h
   

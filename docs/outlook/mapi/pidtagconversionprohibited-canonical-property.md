@@ -33,7 +33,7 @@ Contains TRUE if message conversions are prohibited by default for the associate
    
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

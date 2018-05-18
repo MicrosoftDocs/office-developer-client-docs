@@ -37,7 +37,7 @@ The **PR_ORIGINALLY_INTENDED_RECIPIENT_NAME** property must be set by the automa
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

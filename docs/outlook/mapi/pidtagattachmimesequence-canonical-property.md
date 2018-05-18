@@ -37,7 +37,7 @@ This property is used for MHTML support. It represents the sequence number of th
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

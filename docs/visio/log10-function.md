@@ -28,7 +28,7 @@ LOG10( ** *number* ** )
 |:-----|:-----|:-----|:-----|
 | _number_ <br/> |Required  <br/> |**Numeric** <br/> | The number whose base 10 logarithm you want to find.  <br/> |
    
-### Return Value
+### Return value
 
 Numeric
   

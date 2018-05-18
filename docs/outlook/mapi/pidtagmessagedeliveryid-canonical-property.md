@@ -33,7 +33,7 @@ Contains a message transfer system (MTS) identifier for a message delivered to a
    
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

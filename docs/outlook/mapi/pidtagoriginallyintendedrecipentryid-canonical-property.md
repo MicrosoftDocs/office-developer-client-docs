@@ -39,7 +39,7 @@ This property corresponds to the X.400 report per-recipient attribute.
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

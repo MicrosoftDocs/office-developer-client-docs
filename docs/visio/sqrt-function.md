@@ -28,7 +28,7 @@ SQRT( ** *number* ** )
 |:-----|:-----|:-----|:-----|
 | _number_ <br/> |Required  <br/> |**Numeric** <br/> |The number whose square root you want to find.  <br/> |
    
-### Return Value
+### Return value
 
 Numeric
   

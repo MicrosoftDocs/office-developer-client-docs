@@ -80,7 +80,7 @@ If the **PersistElementType** value is not one of the ones defined here, the **P
   
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -98,7 +98,7 @@ If the **PersistElementType** value is not one of the ones defined here, the **P
   
 > Identifies and marks e-mail messages that are designed to trick recipients into divulging sensitive information (such as passwords and other personal information) to a non-trustworthy source.
     
-### Header Files
+### Header files
 
 Mapitags.h
   

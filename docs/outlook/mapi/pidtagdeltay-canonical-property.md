@@ -37,7 +37,7 @@ The **PR_XPOS** ([PidTagXCoordinate](pidtagxcoordinate-canonical-property.md)), 
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

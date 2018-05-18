@@ -37,7 +37,7 @@ These properties are meant to be used in conjunction with delivery to a physical
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

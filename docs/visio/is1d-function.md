@@ -24,7 +24,7 @@ Version Added: Visio 2010
 
 IS1D()
   
-### Return Value
+### Return value
 
  **Boolean**
   

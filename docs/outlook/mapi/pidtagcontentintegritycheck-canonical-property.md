@@ -37,7 +37,7 @@ This property provides for non-repudiation of message content. In conjunction wi
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

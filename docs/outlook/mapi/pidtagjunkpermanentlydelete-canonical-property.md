@@ -33,7 +33,7 @@ Signifies, if set to 1, that messages identified as spam may be permanently dele
    
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -43,7 +43,7 @@ Signifies, if set to 1, that messages identified as spam may be permanently dele
   
 > Enables the handling of allow/block lists and the determination of junk e-mail messages.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

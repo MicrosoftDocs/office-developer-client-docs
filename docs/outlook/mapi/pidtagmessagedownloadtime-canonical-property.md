@@ -37,7 +37,7 @@ This property is expressed in seconds and represents the best estimate of the ti
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

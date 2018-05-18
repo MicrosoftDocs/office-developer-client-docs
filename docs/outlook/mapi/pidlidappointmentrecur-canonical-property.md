@@ -46,7 +46,7 @@ The schedule of a recurring series is determined by its recurrence pattern and r
   
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -60,7 +60,7 @@ The schedule of a recurring series is determined by its recurrence pattern and r
   
 > Specifies the properties and the interaction model for e-mail and other object reminders.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

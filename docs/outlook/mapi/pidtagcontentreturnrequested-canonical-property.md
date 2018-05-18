@@ -37,7 +37,7 @@ If this property is not set, MAPI treats it as having a TRUE value.
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

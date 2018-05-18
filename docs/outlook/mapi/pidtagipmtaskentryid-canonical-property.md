@@ -37,7 +37,7 @@ This property is read or written by using the Property and Stream Object protoco
   
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -51,7 +51,7 @@ This property is read or written by using the Property and Stream Object protoco
   
 > Specifies methods for connecting to and configuring mailboxes as delegates, and interactions with message and calendar objects when they act on behalf of another user.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

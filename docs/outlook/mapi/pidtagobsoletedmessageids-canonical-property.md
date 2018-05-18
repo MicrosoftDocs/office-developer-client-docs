@@ -37,7 +37,7 @@ The identifiers contained in this property are standard search keys using the fo
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

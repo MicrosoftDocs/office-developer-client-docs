@@ -37,7 +37,7 @@ The Contact Address Book provider uses this property to evaluate the adequacy of
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

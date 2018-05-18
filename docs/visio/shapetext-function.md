@@ -29,7 +29,7 @@ SHAPETEXT ( ** *shapename!TheText* ** ** *[,flag]* ** )
 | _shapename!TheText_ <br/> |Required  <br/> ||A reference to the cell named TheText in the target shape.  _Shapename!_ is the name of the shape from which you want to retrieve the text.  <br/> |
 | _flag_ <br/> |Optional  <br/> |**Numeric** <br/> |A bit that specifies the format of the text. The default flag (0) shows the text exactly as it is shown in the shape.  <br/> |
    
-### Return Value
+### Return value
 
 String
   

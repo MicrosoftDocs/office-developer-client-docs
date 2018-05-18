@@ -37,7 +37,7 @@ The category name is defined by a client application in a way that is appropriat
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

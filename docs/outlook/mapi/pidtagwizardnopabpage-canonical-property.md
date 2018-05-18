@@ -37,7 +37,7 @@ Service providers can set this property when calling a function based on the [LA
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

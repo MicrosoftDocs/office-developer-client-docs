@@ -28,7 +28,7 @@ int PingSession(int SessionId)
   
 > The ID of the session to ping. This value must match an ID returned by a previous call to [OpenSession](opensession.md).
     
-## Return Value
+## Return value
 
  **xlHpcRetSuccess** if the  _SessionId_ argument is valid; otherwise **xlHpcRetInvalidSessionId**.
   

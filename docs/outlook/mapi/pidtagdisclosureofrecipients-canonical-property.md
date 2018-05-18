@@ -33,7 +33,7 @@ Contains TRUE if disclosure of recipients is allowed.
    
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

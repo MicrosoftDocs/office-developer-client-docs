@@ -33,7 +33,7 @@ Contains the binary-encoded return address of the message originator.
    
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

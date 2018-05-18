@@ -43,7 +43,7 @@ By default, if no custom icons are specified, the provider is represented by the
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

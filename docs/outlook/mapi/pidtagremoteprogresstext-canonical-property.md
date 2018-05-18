@@ -37,7 +37,7 @@ A numeric code associated with this text is passed in the **PR_REMOTE_PROGRESS**
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

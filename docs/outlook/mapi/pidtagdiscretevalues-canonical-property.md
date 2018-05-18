@@ -41,7 +41,7 @@ The recipient table of a nondelivery report contains entries for all recipients 
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

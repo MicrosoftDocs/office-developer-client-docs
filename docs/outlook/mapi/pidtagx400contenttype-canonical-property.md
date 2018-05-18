@@ -33,7 +33,7 @@ This property contains the content type for a submitted message.
    
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

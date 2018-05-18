@@ -119,7 +119,7 @@ STATUS_XP_PREFER_LAST
     
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

@@ -43,7 +43,7 @@ MAPI works only with filenames in the ANSI character set. Client applications th
   
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -61,7 +61,7 @@ MAPI works only with filenames in the ANSI character set. Client applications th
   
 > Specifies the properties and operations that are permissible for representing voice mail and fax messages.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

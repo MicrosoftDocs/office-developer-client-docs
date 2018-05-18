@@ -129,7 +129,7 @@ An RTF version of a message can always be stored, even if the message store is n
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

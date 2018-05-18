@@ -33,7 +33,7 @@ This property corresponds to the **Choose automatically** setting in the Address
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapitags.h
   

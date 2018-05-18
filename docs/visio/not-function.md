@@ -28,7 +28,7 @@ NOT( ** *logicalexpression* ** )
 |:-----|:-----|:-----|:-----|
 | _logicalexpression_ <br/> |Required  <br/> |**String** <br/> |The logical expression to evaluate.  <br/> |
    
-### Return Value
+### Return value
 
 Boolean
   

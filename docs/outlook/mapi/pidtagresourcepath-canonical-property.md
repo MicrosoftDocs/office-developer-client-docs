@@ -41,7 +41,7 @@ MAPI works only with filenames in the American National Standards Institute (ANS
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

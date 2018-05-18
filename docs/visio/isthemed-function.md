@@ -24,7 +24,7 @@ Version Added: Visio 2013
 
  **ISTHEMED**()
   
-## Return Value
+## Return value
 
 Boolean
   

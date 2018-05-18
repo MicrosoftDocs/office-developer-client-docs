@@ -33,7 +33,7 @@ Contains an ASN.1 object identifier that is used for rendering message attachmen
    
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

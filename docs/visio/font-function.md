@@ -33,7 +33,7 @@ Version Added: Visio 2013
 |:-----|:-----|:-----|:-----|
 | _font_name_string_ <br/> |Required  <br/> |**string** <br/> |The name of the font.  <br/> |
    
-## Return Value
+## Return value
 
 Integer
   

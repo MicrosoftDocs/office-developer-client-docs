@@ -37,7 +37,7 @@ These properties contain a sequence of two-character country/region codes that a
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

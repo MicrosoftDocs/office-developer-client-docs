@@ -37,7 +37,7 @@ This is a property on a Contact Address Book profile section.
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

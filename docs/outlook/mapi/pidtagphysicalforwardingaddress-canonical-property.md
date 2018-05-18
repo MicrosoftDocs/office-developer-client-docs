@@ -33,7 +33,7 @@ Contains the physical forwarding address of a message recipient and is used only
    
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

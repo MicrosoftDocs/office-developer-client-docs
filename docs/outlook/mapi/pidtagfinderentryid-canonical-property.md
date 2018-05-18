@@ -37,7 +37,7 @@ The entry identifier contained in this property has the same format as the [ENTR
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

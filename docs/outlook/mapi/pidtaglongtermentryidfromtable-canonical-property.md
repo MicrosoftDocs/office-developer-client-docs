@@ -37,7 +37,7 @@ This property can be used in a contents table to get the entry identifier of an 
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

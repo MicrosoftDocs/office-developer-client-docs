@@ -30,7 +30,7 @@ HSL( ** *hue* **, ** *saturation* **, ** *luminosity* ** )
 | _saturation_ <br/> |Required  <br/> |**Number** <br/> |The color's saturation, expressed as a number in the range 0 to 240, inclusive, or an expression that evaluates to such a number.  <br/> |
 | _luminosity_ <br/> |Required  <br/> |**Number** <br/> | The color's luminosity, expressed as a number in the range 0 to 240, inclusive, or an expression that evaluates to such a number.  <br/> |
    
-### Return Value
+### Return value
 
 Number
   

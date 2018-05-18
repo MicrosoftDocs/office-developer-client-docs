@@ -33,7 +33,7 @@ This property contains the type of registration used for physical delivery of a 
    
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

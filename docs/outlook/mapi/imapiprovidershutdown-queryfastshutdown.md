@@ -28,7 +28,7 @@ Queries the MAPI provider for fast shutdown support.
 HRESULT QueryFastShutdown ();
 ```
 
-## Return Value
+## Return value
 
 S_OK
   

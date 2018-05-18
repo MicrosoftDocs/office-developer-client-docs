@@ -37,7 +37,7 @@ This property is obtained from the stores which contains the Contacts folders. T
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

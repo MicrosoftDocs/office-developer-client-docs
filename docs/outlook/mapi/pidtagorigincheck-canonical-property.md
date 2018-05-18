@@ -37,7 +37,7 @@ This property provides a means for a third party, such as a message transfer age
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

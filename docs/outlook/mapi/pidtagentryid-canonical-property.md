@@ -58,7 +58,7 @@ The following table summarizes important differences among this property, **PR_R
    
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -92,7 +92,7 @@ The following table summarizes important differences among this property, **PR_R
   
 > Specifies the schema and methods that are used to request availability information for users and resources.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

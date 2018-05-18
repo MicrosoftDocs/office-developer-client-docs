@@ -22,7 +22,7 @@ Returns the text from the **Title** field of a document's properties.
 
 TITLE ()
   
-### Return Value
+### Return value
 
 String
   

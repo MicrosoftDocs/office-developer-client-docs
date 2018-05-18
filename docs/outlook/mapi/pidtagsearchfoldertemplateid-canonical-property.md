@@ -39,7 +39,7 @@ For more information about Search Folder Templates see [[MS-OXOSRCH]](http://msd
   
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -49,7 +49,7 @@ For more information about Search Folder Templates see [[MS-OXOSRCH]](http://msd
   
 > Specifies the properties and operations for manipulating a search folder list configuration.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

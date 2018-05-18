@@ -28,7 +28,7 @@ EVALTEXT( ** *shapename!theText* ** )
 |:-----|:-----|:-----|:-----|
 | _shapename!theText_ <br/> |Required  <br/> |**String** <br/> |A cell that is triggered when the associated shape's text composition changes.  <br/> |
    
-### Return Value
+### Return value
 
 String
   

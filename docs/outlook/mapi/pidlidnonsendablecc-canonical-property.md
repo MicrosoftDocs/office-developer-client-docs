@@ -38,7 +38,7 @@ The value for each attendee is the **PR_DISPLAY_NAME** ([PidTagDisplayName](pidt
   
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -52,7 +52,7 @@ The value for each attendee is the **PR_DISPLAY_NAME** ([PidTagDisplayName](pidt
   
 > Converts between IETF RFC2445, RFC2446, and RFC2447, and appointment and meeting objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

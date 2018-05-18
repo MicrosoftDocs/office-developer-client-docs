@@ -37,7 +37,7 @@ This property corresponds to an X.400 report per-message attribute.
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

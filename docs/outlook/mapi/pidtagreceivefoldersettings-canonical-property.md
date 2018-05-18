@@ -41,7 +41,7 @@ This property contains a table of mappings of the receive folders for the messag
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

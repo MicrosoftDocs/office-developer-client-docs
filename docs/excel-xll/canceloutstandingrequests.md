@@ -28,7 +28,7 @@ int CancelOutstandingRequests(int SessionId)
   
 > The ID of the session used by the canceled calculation. This value matches the value returned by [OpenSession](opensession.md).
     
-## Return Value
+## Return value
 
  **xlHpcRetSuccess** if the  _SessionId_ argument is valid; **xlHpcRetInvalidSessionId** if the  _SessionId_ argument is invalid; **xlHpcRetCallFailed** on other failures. 
   

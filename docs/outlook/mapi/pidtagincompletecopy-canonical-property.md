@@ -33,7 +33,7 @@ Contains TRUE if this message is an incomplete copy of another message.
    
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

@@ -33,7 +33,7 @@ Contains the contact's File Transfer Protocol (FTP) URL. FTP is a protocol that 
    
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -47,7 +47,7 @@ Contains the contact's File Transfer Protocol (FTP) URL. FTP is a protocol that 
   
 > Specifies the properties and operations for lists of users, contacts, groups, and resources.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

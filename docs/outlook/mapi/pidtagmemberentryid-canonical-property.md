@@ -37,7 +37,7 @@ This property is used by the [IExchangeModifyTable](iexchangemodifytableiunknown
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

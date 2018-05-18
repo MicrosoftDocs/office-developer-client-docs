@@ -37,7 +37,7 @@ This property is a per-recipient property on a delivery report that indicates th
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

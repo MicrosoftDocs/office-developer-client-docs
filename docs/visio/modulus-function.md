@@ -29,7 +29,7 @@ MODULUS( ** *number* **, ** *divisor* ** )
 | _number_ <br/> |Required  <br/> |**Number** <br/> |The dividend.  <br/> |
 | _divisor_ <br/> |Required  <br/> |**Number** <br/> |The divisor.  <br/> |
    
-### Return Value
+### Return value
 
 Number
   

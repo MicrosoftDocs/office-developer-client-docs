@@ -37,7 +37,7 @@ New profile sections can be created for each message filter. When the informatio
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

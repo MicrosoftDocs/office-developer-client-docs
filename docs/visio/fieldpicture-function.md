@@ -28,7 +28,7 @@ FIELDPICTURE( ** *code* ** )
 |:-----|:-----|:-----|:-----|
 | _code_ <br/> |Required  <br/> |**Number** <br/> | A text field format code.  <br/> |
    
-### Return Value
+### Return value
 
 String
   

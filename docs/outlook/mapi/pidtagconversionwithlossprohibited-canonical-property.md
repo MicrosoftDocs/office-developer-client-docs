@@ -37,7 +37,7 @@ An example of the type of conversion being prohibited is the "lossy" mapping fro
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

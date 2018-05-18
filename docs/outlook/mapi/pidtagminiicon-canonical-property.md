@@ -39,7 +39,7 @@ This property contains a 32 × 32 pixel image of an icon, the same as the conten
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

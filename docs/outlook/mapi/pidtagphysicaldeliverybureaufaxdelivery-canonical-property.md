@@ -33,7 +33,7 @@ Contains TRUE if the messaging system should use a fax bureau for physical deliv
    
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

@@ -38,7 +38,7 @@ Setting this property to the Domain Name of the user's directory server allows d
   
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -48,7 +48,7 @@ Setting this property to the Domain Name of the user's directory server allows d
   
 > Specifies permissible operations for the core message store objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

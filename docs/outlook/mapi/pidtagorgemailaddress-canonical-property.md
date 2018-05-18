@@ -33,7 +33,7 @@ Contains the email address of the originating email account.
    
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

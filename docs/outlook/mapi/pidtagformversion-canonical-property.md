@@ -37,7 +37,7 @@ These properties indicate what design version is currently in effect for the for
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

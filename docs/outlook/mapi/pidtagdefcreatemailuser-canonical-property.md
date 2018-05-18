@@ -39,7 +39,7 @@ This property specifies an entry that can appear in the **PR_CREATE_TEMPLATES** 
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

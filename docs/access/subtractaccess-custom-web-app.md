@@ -25,7 +25,7 @@ Subtracts two numbers. This arithmetic subtraction operator can also subtract a 
   
  *expression*  Any valid expression of any one of the data types in the numeric category except the **bit** data type. Cannot be used with date or time data types. 
   
-## Return Value
+## Return value
 
 Returns the data type of the argument with the higher precedence. 
   

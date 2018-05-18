@@ -41,13 +41,13 @@ A service provider implementation of the [IMAPIFolder::CopyFolder](imapifolder-c
   
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXCFOLD]](http://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
 > Handles folder operations.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

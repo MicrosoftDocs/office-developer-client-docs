@@ -37,7 +37,7 @@ Do not use this property. It is reserved for use by MAPI.
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

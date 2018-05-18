@@ -31,7 +31,7 @@ Contains the principal name of the proxy server that is used by Microsoft Outloo
    
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -45,7 +45,7 @@ Contains the principal name of the proxy server that is used by Microsoft Outloo
   
 > Specifies the properties and operations that are permitted for email message objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

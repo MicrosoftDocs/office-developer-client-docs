@@ -37,7 +37,7 @@ This property must be set by the message store provider receiving the original m
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

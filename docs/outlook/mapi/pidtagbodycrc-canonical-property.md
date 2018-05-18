@@ -39,7 +39,7 @@ A client application uses **PR_BODY_CRC** to aid in comparing message text strin
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

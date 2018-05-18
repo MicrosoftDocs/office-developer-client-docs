@@ -37,7 +37,7 @@ This property provides the basis on which the **PR_MESSAGE_TOKEN** ([PidTagMessa
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

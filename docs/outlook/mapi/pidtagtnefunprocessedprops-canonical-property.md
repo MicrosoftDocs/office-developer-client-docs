@@ -37,7 +37,7 @@ Used by Microsoft Outlook and Outlook Web Access (OWA) for saving the original T
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

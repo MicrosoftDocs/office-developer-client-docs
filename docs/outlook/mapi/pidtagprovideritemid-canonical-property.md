@@ -37,7 +37,7 @@ Store providers can specify a value for this property for a folder or an item, b
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

@@ -39,7 +39,7 @@ These properties and **PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparenten
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

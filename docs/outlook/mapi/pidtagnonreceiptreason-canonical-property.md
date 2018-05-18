@@ -37,7 +37,7 @@ Reasons can include, for example, that the message was discarded.
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

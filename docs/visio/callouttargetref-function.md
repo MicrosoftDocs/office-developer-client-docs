@@ -24,7 +24,7 @@ Version Added: Visio 2010
 
 CALLOUTTARGETREF()!
   
-### Return Value
+### Return value
 
 ShapeSheet reference
   

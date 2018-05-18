@@ -31,7 +31,7 @@ Version Added: Visio 2013
 | _color_ <br/> |Required  <br/> |**Number** <br/> |A number representing an index in the document's color palette.  <br/> |
 | _gradient_stop_number_ <br/> |Required  <br/> |**Number** <br/> |The gradient stop (tint or shade) stored in the gradient settings of the active theme to apply to the color.  <br/> |
    
-## Return Value
+## Return value
 
  **Number**
   

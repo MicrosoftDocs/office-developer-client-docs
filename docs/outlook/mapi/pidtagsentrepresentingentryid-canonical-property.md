@@ -39,7 +39,7 @@ The outgoing transport provider must always leave this property unchanged if it 
   
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -69,7 +69,7 @@ The outgoing transport provider must always leave this property unchanged if it 
   
 > Specifies the properties and operations that are permissible for post objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

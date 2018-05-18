@@ -39,7 +39,7 @@ To create the template objects, call the container object's **CreateEntry** meth
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

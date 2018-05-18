@@ -33,7 +33,7 @@ Signifies, if TRUE, that the phishing stamp on the message should be ignored.
    
 ## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -47,7 +47,7 @@ Signifies, if TRUE, that the phishing stamp on the message should be ignored.
   
 > Identifies and marks e-mail messages that are designed to trick recipients into divulging sensitive information (such as passwords and other personal information) to a non-trustworthy source.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   

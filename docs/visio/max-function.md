@@ -30,7 +30,7 @@ MAX( ** *number1* **, ** *number2* **,..., ** *numberN* ** )
 | _number2_ <br/> |Optional  <br/> |**Varies** <br/> | The second number in the list.  <br/> |
 | _numberN_ <br/> |Optional  <br/> |**Varies** <br/> |The nth number in the list.  <br/> |
    
-### Return Value
+### Return value
 
 Varies
   

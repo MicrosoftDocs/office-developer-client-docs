@@ -37,7 +37,7 @@ Passing this property to the [IMAPIProp::OpenProperty](imapiprop-openproperty.md
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

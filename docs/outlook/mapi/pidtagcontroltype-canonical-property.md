@@ -85,7 +85,7 @@ DTCT_RADIOBUTTON
     
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

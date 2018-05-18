@@ -37,7 +37,7 @@ Form-related properties are read-only.
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

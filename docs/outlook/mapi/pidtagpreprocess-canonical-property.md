@@ -38,7 +38,7 @@ Contains TRUE if the message requires preprocessing.
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

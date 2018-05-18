@@ -41,7 +41,7 @@ These properties may not be unique across time, for example where a profile is d
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

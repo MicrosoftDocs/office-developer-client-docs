@@ -37,7 +37,7 @@ These properties are one of the address properties for the originally intended m
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   

@@ -37,7 +37,7 @@ Outbound messages are usually created in the Outbox folder. Interpersonal messag
   
 ## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
