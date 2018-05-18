@@ -1,12 +1,8 @@
 ---
 title: "Developing a Project Online application using the client-side object model"
-
- 
 manager: soliver
 ms.date: 11/8/2016
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 5740d0b2-5d36-40e4-9e83-577cb186359f
 description: "This article describes Microsoft Project Online application development for desktop applications using the .NET Framework 4.0. The application described in this article retrieves information from the hosting server."
@@ -73,19 +69,19 @@ The application setup consists of creating a new project, linking the appropriat
 
 1. Launch Visual Studio and select **Start A New Project** on the Start Page. 
     
-    The New Project dialog displays available application templates, and data fields for any selected template. 
+   The New Project dialog displays available application templates, and data fields for any selected template. 
     
 2. For this application, specify the following items. Keywords encountered on the screen have a bold attribute:
     
-  - From the Installed templates in the left pane, select **C#** => **Windows** => **Classic desktop**. 
+   - From the Installed templates in the left pane, select **C#** => **Windows** => **Classic desktop**. 
     
-  - At the top of the central pane, select **.NET Framework 4**. 
+   - At the top of the central pane, select **.NET Framework 4**. 
     
-  - From the application types in the central pane, choose **Console Application**. 
+   - From the application types in the central pane, choose **Console Application**. 
     
-  - In the bottom section, specify a name and location for the project, and a solution name. 
+   - In the bottom section, specify a name and location for the project, and a solution name. 
     
-  - Also in the bottom section, check the **Create directory for solution** box. 
+   - Also in the bottom section, check the **Create directory for solution** box. 
     
 3. Click **OK** to create the initial project. 
     
@@ -97,15 +93,15 @@ The VS solution needs the ProjectServerClient assembly from the Project 2103 SDK
     
 2. Check the **Microsoft.ProjectServer.Client.dll**. 
     
-    If needed, click the **Browse…** button at the bottom of the dialog and navigate to the Project 2013 SDK installation directory to locate the assembly. 
+   If needed, click the **Browse…** button at the bottom of the dialog and navigate to the Project 2013 SDK installation directory to locate the assembly. 
     
 3. Click **OK**. 
     
 4. Add the PrjoctServer Client namespace to the .cs file.
     
-  ```
-  using Microsoft.ProjectServer.Client;
-  ```
+   ```cs
+    using Microsoft.ProjectServer.Client;
+   ```
 
 Add the SharePoint 2013 SDK assemblies using the NuGet Package Manager Console. 
   
@@ -113,17 +109,17 @@ Add the SharePoint 2013 SDK assemblies using the NuGet Package Manager Console.
     
 2. In the Package Manager Console, enter the following command and press \<ENTER\>:
     
-  ```
-  Install-Package Microsoft.SharePointOnline.CSOM
-  ```
+   ```cs
+    Install-Package Microsoft.SharePointOnline.CSOM
+   ```
 
-    The **Package Manager Console** provides a description of the command results; and, the VS Solution Explorer displays the SharePoint assemblies in the project references. 
+   The **Package Manager Console** provides a description of the command results; and, the VS Solution Explorer displays the SharePoint assemblies in the project references. 
     
 3. Add the namespaces to the .cs file:
     
-  ```
-  using Microsoft.SharePoint.Client;
-  ```
+   ```cs
+    using Microsoft.SharePoint.Client;
+   ```
 
 The System.Security assembly is part of .NET Framework and was installed with the framework. The sample application needs one more namespace that provides an encrypted string to the hosting system for authentication. Once authenticated, the application can access projects on the hosting system. Add the System.Security namespace to the .cs file in this way:
   
@@ -135,9 +131,9 @@ The System.Security assembly is part of .NET Framework and was installed with th
     
 4. Add the System.Security namespace to the .cs file:
     
-  ```
-  using System.Security;
-  ```
+   ```cs
+    using System.Security;
+   ```
 
 The start of the .cs file should contain the following namespaces:
   
@@ -159,18 +155,18 @@ The start of the .cs file should contain the following namespaces:
 
 Project Online is a SharePoint application, so using SharePoint authentication is the correct approach. The following code fragment prepares to access the hosted environment.
   
-```
-class Program
-{
-    private static ProjectContext projContext;
-    static void Main (string[] args)
+```cs
+    class Program
     {
-        using (ProjectContext projContext = new ProjectContext("https://Contoso.sharepoint.com/sites/pwa"))
+        private static ProjectContext projContext;
+        static void Main (string[] args)
         {
-            SecureString password - new SecureString();
-            foreach (char c in "password".ToCharArray()) password.AppendChar(c);
-            //Using SharePoint method to load Credentials
-            projContext.Credentials = new SharePointOnlineCredentials("sarad@Contoso.onmicrosoft.com", password);
+            using (ProjectContext projContext = new ProjectContext("https://Contoso.sharepoint.com/sites/pwa"))
+            {
+                SecureString password - new SecureString();
+                foreach (char c in "password".ToCharArray()) password.AppendChar(c);
+                //Using SharePoint method to load Credentials
+                projContext.Credentials = new SharePointOnlineCredentials("sarad@Contoso.onmicrosoft.com", password);
 
 ```
 
@@ -178,38 +174,38 @@ Preparations to access the hosted environment include the following items:
   
 - Create a context object for the projects -- this is contained in the following code of the preceding code fragment. 
     
-  ```
-  private static ProjectContext projContext;
-  
-  ```
+   ```cs
+    private static ProjectContext projContext;
+    
+   ```
 
-    The context is inherited by other components, allowing the system to manage the context of the Project object model.
+   The context is inherited by other components, allowing the system to manage the context of the Project object model.
     
 - Identify the host site -- this is done in the following code from the preceding code fragment.
     
-  ```
-  using (ProjectContext projContext = new ProjectContext("https://Contoso.sharepoint.com/sites/pwa"))
-  ```
+   ```cs
+    using (ProjectContext projContext = new ProjectContext("https://Contoso.sharepoint.com/sites/pwa"))
+   ```
 
-    When instantiating the projects context, the application needs to provide the root of the Projects site collection. The application uses a substring of the URL of the root of the Projects. A snapshot of this location is highlighted with a red rectangle in the following illustration. The authentication needs the string from its start through the substring "pwa". In the code listing, the application uses the string "https://XXXXXXXX.sharepoint.com/sites/pwa".
-    
-     ![Screen shot of the URL of the Projects site collection within a red border.](media/d48c4894-5dba-46b6-886a-3c59bfb83c4d.png)
+   When instantiating the projects context, the application needs to provide the root of the Projects site collection. The application uses a substring of the URL of the root of the Projects. A snapshot of this location is highlighted with a red rectangle in the following illustration. The authentication needs the string from its start through the substring "pwa". In the code listing, the application uses the string "https://XXXXXXXX.sharepoint.com/sites/pwa".
+        
+   ![Screen shot of the URL of the Projects site collection within a red border.](media/d48c4894-5dba-46b6-886a-3c59bfb83c4d.png)
   
 - Place the password in a secure string -- this is done in the following code from the preceding code fragment.
     
-  ```
-  SecureString password - new SecureString();
-  foreach (char c in "password".ToCharArray()) password.AppendChar(c);
-  
-  ```
+   ```cs
+    SecureString password - new SecureString();
+    foreach (char c in "password".ToCharArray()) password.AppendChar(c);
+    
+   ```
 
-    The password and user account are the credentials to access the host site. 
+   The password and user account are the credentials to access the host site. 
     
 - Add the user account and password to the credentials portion of the context object -- this is done in the following code from the preceding code fragment.
     
-  ```
-  projContext.Credentials = new SharePointOnlineCredentials("sarad@Contoso.onmicrosoft.com", password);
-  ```
+   ```cs
+    projContext.Credentials = new SharePointOnlineCredentials("sarad@Contoso.onmicrosoft.com", password);
+   ```
 
 The instantiated project context is ready to use.
   
@@ -219,23 +215,23 @@ Project Online and ProjectServer use proxies to communicate with the server for 
   
 1. Establish a context for communication. 
     
-    The context is used by the projects collection, as well as other objects and collections through inheritance, including the tasks collection, assignments collection, the stage object, and custom fields. 
+   The context is used by the projects collection, as well as other objects and collections through inheritance, including the tasks collection, assignments collection, the stage object, and custom fields. 
     
 2. Use the object model to specify an object, collection, or data to retrieve.
     
-    This step uses LINQ as a query or as a method. The specification controls what you receive. Often, this step is embedded as the body of the Load method (step 3). 
+   This step uses LINQ as a query or as a method. The specification controls what you receive. Often, this step is embedded as the body of the Load method (step 3). 
     
 3. Load the retrieval specification from the previous step using the Load() or LoadQuery() method.
     
-    For loading collections and objects, use Load(). For queries with clauses such as "where" and "group", use LoadQuery(). 
+   For loading collections and objects, use Load(). For queries with clauses such as "where" and "group", use LoadQuery(). 
     
 4. Execute the request using the ExecuteQuery() method.
     
-    The ExecuteQuery() method notifies the host that the query or queries are ready to execute. Once the host receives notification, it executes the queries and sends the results to the client. 
+   The ExecuteQuery() method notifies the host that the query or queries are ready to execute. Once the host receives notification, it executes the queries and sends the results to the client. 
     
 With the information at the client, the application can use it. The following code fragment cycles through the published projects and prints the Id and Name for each published project on the host.
   
-```
+```cs
 // Get the list of projects in Project Web App.
 var projects = projContext.Projects;
 projContext.Load(projects);
@@ -249,7 +245,7 @@ foreach (PublishedProject pubProj in projContext.Projects)
 
 Output:
   
-```
+```cs
 Published Project count:2
 1. be80a848-b2ef-e511-80f4-00155dc84e01   A second Project     3/21/2016 10:14:40 PM
 2. 9d730a1a-60ed-e511-80f6-00155dc87d01   Ent_Proj_1   3/18/2016 11:21:14 PM
@@ -262,33 +258,33 @@ Using the actions from the previous code fragment, the application retrieves the
   
 - The ProjectContext is specified for the projects to list. 
     
-  ```
-  var projects = projContext.Projects;
-  ```
+   ```cs
+    var projects = projContext.Projects;
+   ```
 
 - Specify the item to retrieve. 
     
-  ```
-  projContext.Load(projects);
-  ```
+   ```cs
+    projContext.Load(projects);
+   ```
 
-    By only stating the collection, the server retrieves the project collection, populating each project with values for the default set of properties. Accessing properties that are part of the default property set gives successful results. Accessing properties that are not part of the default set results in a "Not initialized" exception.
+   By only stating the collection, the server retrieves the project collection, populating each project with values for the default set of properties. Accessing properties that are part of the default property set gives successful results. Accessing properties that are not part of the default set results in a "Not initialized" exception.
     
 - Load the request (projContext.Load).
     
-    This is part of the previous step.
+   This is part of the previous step.
     
 - Execute the query (ExecuteQuery). 
     
-  ```
-  projContext.ExecuteQuery();
-  ```
+   ```cs
+    projContext.ExecuteQuery();
+   ```
 
 ### Retrieving High-Level Project Information
 
 Properties that are not default properties must be specified in the request to the server. The next code fragment loads the projects collection context as in the previous example. Then, the specification requests additional non-default properties to include in the result. 
   
-```
+```cs
 var projects = projContext.Projects;
 projContext.Load(projects,
     ps => ps.IncludeWithDefaultProperties(
@@ -299,7 +295,7 @@ projContext.ExecuteQuery();
 
 The load statement specifies the projects collection context, and adds the StartDate, Phase, and Stage to the query result. The additional properties can be scalar, objects, or collections. Scalar items can be accessed directly. Objects and collections require additional processing, as in the following code fragment.
   
-```
+```cs
 // Using the previous definition and Load statement …
 projContext.ExecuteQuery();
 foreach (PublishedProject pubProj in projContext.Projects)
@@ -344,7 +340,7 @@ Console.WriteLine("\n\t{0}. \t{1} \n\t{2} \n\t{3} \n", j++, pubProj.Id, pubProj.
 
 Output of the first three projects:
   
-```
+```cs
 Project counts:31
 1. Project ID:  957d5fcd-5cbf-e111-9f1e-00155d022681
         Name:           Acquisition Target Analysis
@@ -370,48 +366,48 @@ Each project has many tasks. So, pulling the tasks for a single project consists
   
 1. Establish the context of the projects collection.
     
-  ```
-  var projects = projContext.Projects;
-  ```
+   ```cs
+    var projects = projContext.Projects;
+   ```
 
 2. Retrieve the project information, including the Task properties.
     
-  ```
-  projContext.Load(projects);
-  ProjContext.ExecuteQuery();
-  foreach (PublishedProject pubProj in projContext.Projects){
-  
-  ```
+   ```cs
+    projContext.Load(projects);
+    ProjContext.ExecuteQuery();
+    foreach (PublishedProject pubProj in projContext.Projects){
+    
+   ```
 
     Note that the application is addressing published projects. The context for the current published project is pubProj. 
     
 3. Establish the context for the Tasks collection.
     
-  ```
-  PublishedTaskCollection collTask = pubProj.Tasks;
-  ```
+   ```cs
+    PublishedTaskCollection collTask = pubProj.Tasks;
+   ```
 
-    The  `pubProj.Tasks` property references the tasks of the current published project. 
+   The `pubProj.Tasks` property references the tasks of the current published project. 
     
 4. Load the specification to retrieve Task collection, including the appropriate non-default properties.
     
-  ```
-  projContext.Load(collTask,
-      tsk => tsk.IncludeWithDefaultProperties(
-          t => t.Id, t => t.Name, t => t.Start,
-          t => t.ScheduledStart, t => t.Completion));
-  
-  ```
+   ```cs
+    projContext.Load(collTask,
+        tsk => tsk.IncludeWithDefaultProperties(
+            t => t.Id, t => t.Name, t => t.Start,
+            t => t.ScheduledStart, t => t.Completion));
+    
+   ```
 
 5. Execute the query to retrieve the Task collection with the appropriate properties.
     
-  ```
-  projContext.ExecuteQuery();
-  ```
+   ```cs
+    projContext.ExecuteQuery();
+   ```
 
 The information is now local. The following code fragment processes the published tasks collection by writing the information to the console.
   
-```
+```cs
     Console.WriteLine("Task collection count: {0}", collTask.Count.ToString());
     if (collTask.Count > 0)
     {
@@ -427,7 +423,7 @@ The information is now local. The following code fragment processes the publishe
 
 Output of tasks for one project:
   
-```
+```cs
 Task collection count: 5
 1. Id:256fa850-b2ef-e511-80f6-00155dc87d01      Name:Load software onto computer
          ScheduledStart:2       Start:4/4/2016 8:00:00 AM       Completion:4/4/2016 8:00:00 AM
@@ -464,7 +460,7 @@ A couple of items are worth noting:
     
 - The Resource is an object. The query for an assignment includes the resource name associated with the assignment.
     
-```
+```cs
 PublishedTaskCollection collTask = pubProj.Tasks;
     projContext.Load(collTask,
         tsk => tsk.IncludeWithDefaultProperties(
@@ -513,7 +509,7 @@ PublishedTaskCollection collTask = pubProj.Tasks;
 
 Output for tasks 52, 75, and 76 of a project:
   
-```
+```cs
 52. Id:2c729e96-54f0-e511-80c6-000d3a33235f     Name:Develop training materials
     Assignment collection count: 1
          Assignments: Robert Lyon,
@@ -544,81 +540,81 @@ This task specifies a retrieval that uses a non-default property with one added 
   
 1. Begin by using the projects context, as described at the beginning of this article.
     
-  ```
-  // Get the list of published projects in Project Web App.
-  var projects = projContext.Projects;
-  
-  ```
+   ```cs
+    // Get the list of published projects in Project Web App.
+    var projects = projContext.Projects;
+    
+   ```
 
 2. Add two items to the projects collection retrieval request in addition to any other non-default properties to retrieve:
     
-  ```
-  projContext.Load(projects,
-      ps => ps.IncludeWithDefaultProperties(
-          p => p.Phase, p => p.Stage,                  // Other nondefault properties
-          p => p.IncludeCustomFields,                  // Gets PublishedProject object 
-                                                       // that contains custom fields
-          p => p.IncludeCustomFields.CustomFields));   // Populates the custom fields
-                  projContext.ExecuteQuery();
-  
-  ```
-
-    The  `p => p.IncludeCustomFields` clause identifies the need to use a project object that supports custom fields. 
+   ```cs
+    projContext.Load(projects,
+        ps => ps.IncludeWithDefaultProperties(
+            p => p.Phase, p => p.Stage,                  // Other nondefault properties
+            p => p.IncludeCustomFields,                  // Gets PublishedProject object 
+                                                        // that contains custom fields
+            p => p.IncludeCustomFields.CustomFields));   // Populates the custom fields
+                    projContext.ExecuteQuery();
     
-    The  `p => p.IncludeCustomFields.CustomFields` clause requests the inclusion of custom field data in the query result. This information is used after the custom field internal name is retrieved. 
+   ```
+
+   The  `p => p.IncludeCustomFields` clause identifies the need to use a project object that supports custom fields. 
+    
+   The  `p => p.IncludeCustomFields.CustomFields` clause requests the inclusion of custom field data in the query result. This information is used after the custom field internal name is retrieved. 
     
 3. Load the request.
     
-    This is part of the previous step.
+   This is part of the previous step.
     
 4. Execute the Query.
     
-  ```
-  projContext.ExecuteQuery()
-  ```
+   ```cs
+    projContext.ExecuteQuery()
+   ```
 
 5. With this information on the client, build a request to retrieve the custom fields associated with the current project.
     
-  ```
-  foreach (PublishedProject pubProj in projContext.Projects)
-  {
-      //Console.WriteLine("\n\t{0}. \t{1} \n\t\t{2} \n\t\t{3} \n", 
-            j++, pubProj.Id, pubProj.Name, pubProj.CreatedDate);
-      CustomFieldCollection collCustF = pubProj.CustomFields;
-                       
-      projContext.Load(collCustF);
-      projContext.ExecuteQuery();
-  
-  ```
+   ```cs
+    foreach (PublishedProject pubProj in projContext.Projects)
+    {
+        //Console.WriteLine("\n\t{0}. \t{1} \n\t\t{2} \n\t\t{3} \n", 
+                j++, pubProj.Id, pubProj.Name, pubProj.CreatedDate);
+        CustomFieldCollection collCustF = pubProj.CustomFields;
+                        
+        projContext.Load(collCustF);
+        projContext.ExecuteQuery();
+    
+   ```
 
 6. Locate the appropriate custom field and retrieve the internal name of the field. 
     
-  ```
-      foreach (CustomField oCF in collCustF)
-      {
-          if (oCF.Name == "Project Health")
-          {
-              Console.WriteLine("Name: {0}", oCF.Name);
-              Console.WriteLine("InternalName: {0}", oCF.InternalName);
-  
-  ```
+   ```cs
+        foreach (CustomField oCF in collCustF)
+        {
+            if (oCF.Name == "Project Health")
+            {
+                Console.WriteLine("Name: {0}", oCF.Name);
+                Console.WriteLine("InternalName: {0}", oCF.InternalName);
+    
+   ```
 
-    The internal name of the custom field is retrieved. High-level items 1 and 2 are now complete.
+   The internal name of the custom field is retrieved. High-level items 1 and 2 are now complete.
     
 7. Return to the project context and retrieve the value of the custom field.
     
-  ```
-  Console.WriteLine("Value: {0}", 
-       pubProj.IncludeCustomFields.FieldValues[oCF.InternalName]);
-  
-  ```
+   ```cs
+    Console.WriteLine("Value: {0}", 
+        pubProj.IncludeCustomFields.FieldValues[oCF.InternalName]);
+    
+   ```
 
-    > [!NOTE]
-    > The value of the custom field is retrieved using the internal name as an index. 
+   > [!NOTE]
+   > The value of the custom field is retrieved using the internal name as an index. 
   
 Output of three projects consisting of project ID, project Name, custom field name, custom field internal name, and custom field value.
   
-```
+```cs
 Project counts:31
 1. Project ID:  957d5fcd-5cbf-e111-9f1e-00155d022681
         Name:           Acquisition Target Analysis
@@ -639,8 +635,7 @@ Value: Red
 ```
 
 ## See also
-<a name="bk_addresources"> </a>
 
-- For documentation and samples related to Project Online and application development using CSOM, see the [Project Development Portal](http://dev.office.com/project.aspx).
+For documentation and samples related to Project Online and application development using CSOM, see the [Project Development Portal](http://dev.office.com/project.aspx).
     
 

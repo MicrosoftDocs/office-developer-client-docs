@@ -1,12 +1,8 @@
 ---
 title: "Developing a Project Online add-in using the JavaScript Object Model (JSOM)"
-
- 
 manager: soliver
 ms.date: 11/8/2016
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 4a4b1ad2-de46-421d-a698-53c20c90b93a
 description: "This article describes Microsoft Project Online Add-in development to enhance your experience with the Project Online. The development project is implemented as a walkthrough. The add-in used for this article reads and displays the project names and IDs of the published projects from your Project Online account and allows you to drill down to retrieve tasks associated with individual projects."
@@ -46,15 +42,15 @@ Add the following items to a supported Windows environment:
     
 - Visual Studio 2013 or newer: 
     
-  - The professional edition of Visual Studio 2015 is ready to go out-of-the box and is available at https://www.visualstudio.com/en-us/products/visual-studio-professional-with-msdn-vs.aspx.
+   - The professional edition of Visual Studio 2015 is ready to go out-of-the box and is available at https://www.visualstudio.com/en-us/products/visual-studio-professional-with-msdn-vs.aspx.
     
-  - The community edition of Visual Studio 2015 is available at https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx. This edition requires manual installation of the Microsoft Office Developer Tools for Visual Studio.
+   - The community edition of Visual Studio 2015 is available at https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx. This edition requires manual installation of the Microsoft Office Developer Tools for Visual Studio.
     
-    The Microsoft Office Developer Tools for Visual Studio are available at https://www.visualstudio.com/en-us/features/office-tools-vs.aspx.
+   The Microsoft Office Developer Tools for Visual Studio are available at https://www.visualstudio.com/en-us/features/office-tools-vs.aspx.
     
 - A Project Online account -- This provides access to the hosting service. For more information about obtaining a Project Online account, see https://products.office.com/en-us/Project/project-online-portfolio-management.
     
-    Ensure that the add-in user has sufficient authorization to access some projects in the Project Online tenant. 
+   Ensure that the add-in user has sufficient authorization to access some projects in the Project Online tenant. 
     
 - Projects on the hosting site that are populated with information.
     
@@ -87,13 +83,13 @@ The Visual Studio wizard asks a few follow-up questions about the Project Online
   
 - What SharePoint site do you want to use for debugging your add-in?
     
-    Specify the URL to your PWA site, such as https://contoso.sharepoint.com/sites/pwa.
+   Specify the URL to your PWA site, such as https://contoso.sharepoint.com/sites/pwa.
     
 - How do you want to host your SharePoint add-in?
     
-    Choose [X] **SharePoint-hosted**
+   Choose [X] **SharePoint-hosted**
     
-    For more information on SharePoint add-ins, including hosting options, see "SharePoint Add-ins" at https://msdn.microsoft.com/en-us/library/office/fp179930.aspx.
+   For more information on SharePoint add-ins, including hosting options, see "SharePoint Add-ins" at https://msdn.microsoft.com/en-us/library/office/fp179930.aspx.
     
 - Click **Next**. 
     
@@ -101,7 +97,7 @@ The second additional dialog asks you to specify the SharePoint Online version f
   
 - What's the earliest version of SharePoint that you want your add-in to target? 
     
-    Choose [X] S **harePoint-Online**. 
+   Choose [X] S **harePoint-Online**. 
     
 - Click **Finish**. 
     
@@ -151,9 +147,7 @@ You can also add files to the project. If so, you'll need to update the Elements
 #### Setting application scope
 
 The add-in needs scope or permission levels defined before the service returns information in query results. For this add-in, use the following scope to the Visual Studio project. This change is made to the AppManifest.xml file in the Permissions tab:
-  
-|
-|
+
 |**Scope**|**Permission**|
 |:-----|:-----|
 |Multiple Projects (Project Server)  <br/> |Read  <br/> |
@@ -166,7 +160,7 @@ The runtime Project Online libraries, PS.js and PS.debug.js, are provided by Pro
   
 Add the following command for PS.js or PS.debug.js definition in the  `<asp:Content ContentPlaceHolderID="PlaceHolderAdditionalPageHead"` element following the "SharePoint:ScriptLink" for sp.js. 
   
-```
+```js
 <SharePoint:ScriptLink name="PS.js" runat="server" OnDemand="false" LoadAfterUI="true" Localizable="false" />
 ```
 
@@ -191,25 +185,25 @@ For details of the user interface, such as the title and the header portion of t
   
 #### Initializing and connecting to the host system
 
-The App.js file contains the JavaScript code. The add-in loads PS.js in the browser, then calls the initializePage function. initializePage retrieves a context to the Project Online endpoint and starts the loadProjects function.
+The App.js file contains the JavaScript code. The add-in loads PS.js in the browser, and then calls the initializePage function. InitializePage retrieves a context to the Project Online endpoint and starts the loadProjects function.
   
-```
-'use strict';
-SP.SOD.executeOrDelayUntilScriptLoaded(initializePage, "PS.js");
-//Project PWA Context and published projects in PWA
-var projContext;
-var projects;
-function initializePage() {
-    //Get the Project context for this web
-    projContext = PS.ProjectContext.get_current();
-    loadProjects();
-}
-//General CSOM failure event handler
-//Invoked when ExecuteQueryAsync returns unsuccessfully
-function onRequestFailed(sender, args) {
-    alert("Failed to execute: " + args.get_message());
-    return;
-};
+```js
+    'use strict';
+    SP.SOD.executeOrDelayUntilScriptLoaded(initializePage, "PS.js");
+    //Project PWA Context and published projects in PWA
+    var projContext;
+    var projects;
+    function initializePage() {
+        //Get the Project context for this web
+        projContext = PS.ProjectContext.get_current();
+        loadProjects();
+    }
+    //General CSOM failure event handler
+    //Invoked when ExecuteQueryAsync returns unsuccessfully
+    function onRequestFailed(sender, args) {
+        alert("Failed to execute: " + args.get_message());
+        return;
+    };
 
 ```
 
@@ -221,18 +215,18 @@ The application retrieves the project name and project Id. Other information abo
   
 If the query succeeds, the add-in continues by calling displayProjects. 
   
-```
-//Query CSOM and get the list of projects in PWA
-function loadProjects() {
-    projects = projContext.get_projects();
-   //Request to server - identifies what to retrieve
-    projContext.load(projects, 'Include(Name, Id)');
-    //Notice to server to execute query
-    projContext.executeQueryAsync(displayProjects, onRequestFailed);
-    // Syntax for requesting more fields to pull down from server
-    // projContext.load(projects, 'Include(Name, Description, StartDate, 
-    // Id, IsCheckedOut)');
-}
+```js
+    //Query CSOM and get the list of projects in PWA
+    function loadProjects() {
+        projects = projContext.get_projects();
+    //Request to server - identifies what to retrieve
+        projContext.load(projects, 'Include(Name, Id)');
+        //Notice to server to execute query
+        projContext.executeQueryAsync(displayProjects, onRequestFailed);
+        // Syntax for requesting more fields to pull down from server
+        // projContext.load(projects, 'Include(Name, Description, StartDate, 
+        // Id, IsCheckedOut)');
+    }
 
 ```
 
@@ -240,27 +234,27 @@ function loadProjects() {
 
 The displayProjects function creates a table, one row per project, and a button to show the tasks for the specific project. 
   
-```
-//Display the projects with names and ids in a table
-function displayProjects() {
-    //Current published project and ID
-    var p, projId;
-    //Project table rows to publish collectively
-    var pTable = []; 
-    var pEnum = projects.getEnumerator();
-    //Build a 3-column table, with one project per row.
-    while (pEnum.moveNext()) {
-        p = pEnum.get_current();
-    
-        //Items used in getting information for table rows:
-        //Current published project object, and ID and name
-        // var project = p;
-        // var projId = p.get_id();
-        // var projName = p.get_name();
-    
-        //Continue processing/working with project object as needed.
+```js
+    //Display the projects with names and ids in a table
+    function displayProjects() {
+        //Current published project and ID
+        var p, projId;
+        //Project table rows to publish collectively
+        var pTable = []; 
+        var pEnum = projects.getEnumerator();
+        //Build a 3-column table, with one project per row.
+        while (pEnum.moveNext()) {
+            p = pEnum.get_current();
+        
+            //Items used in getting information for table rows:
+            //Current published project object, and ID and name
+            // var project = p;
+            // var projId = p.get_id();
+            // var projName = p.get_name();
+        
+            //Continue processing/working with project object as needed.
+        }
     }
-}
 
 ```
 
@@ -273,59 +267,59 @@ The tasks, while part of the add-in, are not part of the initial loading. If the
   
 The btnLoadTasks event handler, with the appropriate project ID, requests the tasks for the specified project from the server. Once retrieved, btnLoadTasks passes the task list to displayTasks to present the tasks onscreen.
   
-```
-//Query CSOM and get the list of tasks for a specific project
-function btnLoadTasks(pid) {
-    //Event handler for the "Show tasks" buttons. 
-    //
-    //The project ID is the sole argument and is used to get the appropriate task 
-    //info from the service.
-    //The project ID is also the button name, and is used to identify where to place
-    //the task information in the table.
-    //
-    //Project ID to pass to the event handler
-    var projId = pid;
-    //
-    //Get the project reference
-    var pProj = projects.getById(projId);
-    //
-    //Get the tasks collection reference associated with the project.
-    var tasks = pProj.get_tasks();
-    //
-    projContext.load(tasks, 'Include(Id, Name, Start, ScheduledStart, Completion)');
-    //
-    //If the query succeeds, displayTasks presents the tasks to the user.
-    projContext.executeQueryAsync(function () { displayTasks(tasks, projId) }, onRequestFailed);
-}
+```js
+    //Query CSOM and get the list of tasks for a specific project
+    function btnLoadTasks(pid) {
+        //Event handler for the "Show tasks" buttons. 
+        //
+        //The project ID is the sole argument and is used to get the appropriate task 
+        //info from the service.
+        //The project ID is also the button name, and is used to identify where to place
+        //the task information in the table.
+        //
+        //Project ID to pass to the event handler
+        var projId = pid;
+        //
+        //Get the project reference
+        var pProj = projects.getById(projId);
+        //
+        //Get the tasks collection reference associated with the project.
+        var tasks = pProj.get_tasks();
+        //
+        projContext.load(tasks, 'Include(Id, Name, Start, ScheduledStart, Completion)');
+        //
+        //If the query succeeds, displayTasks presents the tasks to the user.
+        projContext.executeQueryAsync(function () { displayTasks(tasks, projId) }, onRequestFailed);
+    }
 
 ```
 
 The displayTasks function displays the tasks associated with a specified project immediately beneath the project entry.
   
-```
-//Insert tasks for the specified project immediately underneath the project entry 
-//in the table.
-function displayTasks(tasks, projId) {
-    //selected project ID
-    var pId = projId;
-    //individual task
-    var t;
-    //Task table rows to publish collectively
-    var tTable = [];
-    var tEnum = tasks.getEnumerator();
-    //Build table one task per row.
-    while (tEnum.moveNext()) {
-        t = tEnum.get_current();
-        //
-        //Items used in getting information for table rows:
-        //Current task object, and ID and name
-        // var task = t;
-        // var taskId = t.get_id();
-        // var taskName = t.get_name();
-        
-        //Continue processing/working with task object as needed.
+```js
+    //Insert tasks for the specified project immediately underneath the project entry 
+    //in the table.
+    function displayTasks(tasks, projId) {
+        //selected project ID
+        var pId = projId;
+        //individual task
+        var t;
+        //Task table rows to publish collectively
+        var tTable = [];
+        var tEnum = tasks.getEnumerator();
+        //Build table one task per row.
+        while (tEnum.moveNext()) {
+            t = tEnum.get_current();
+            //
+            //Items used in getting information for table rows:
+            //Current task object, and ID and name
+            // var task = t;
+            // var taskId = t.get_id();
+            // var taskName = t.get_name();
+            
+            //Continue processing/working with task object as needed.
+        }
     }
-}
 
 ```
 
@@ -337,8 +331,7 @@ Sample output for the tasks of a single project follows.
 ![Screen shot showing the output for a project task](media/f6500a3f-000b-4f3e-9be6-9a74d0bea15e.png)
   
 ## See also
-<a name="bk_addresources"> </a>
 
-- For documentation and samples related to Project Online and application development using CSOM, see the [Project Development Portal](http://dev.office.com/project.aspx).
+For documentation and samples related to Project Online and application development using CSOM, see the [Project Development Portal](http://dev.office.com/project.aspx).
     
 

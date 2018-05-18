@@ -1,14 +1,10 @@
 ---
 title: "About the Security Model for Form Templates with Code"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
 keywords:
 - infopath 2007, security,code access security [InfoPath 2007],security [InfoPath 2007], security model for managed code,security [InfoPath 2007], levels,CAS [InfoPath 2007],InfoPath 2003-compatible form templates, security,permissions [InfoPath 2007]
- 
 localization_priority: Normal
 ms.assetid: 5e1c1c72-f98d-4871-9c57-82c315277aa1
 description: "InfoPath managed code form templates support the same security levels as script running in unmanaged form templates, and they also support additional code access security features that apply to managed code running under the common language runtime (CLR) of the .NET Framework."
@@ -42,7 +38,7 @@ In conjunction with the object model security levels that are enforced by the CO
   
 |**Domain Access Security Level**|**Description**|
 |:-----|:-----|
-|Restricted  <br/> |Does not permit any communication outside of the form template. This security level is intended to prevent harmful forms from transmitting any data from your computer to a malicious attacker. When running in this security mode, the following features will not work: Custom Task Pane, Data Connections (except e-mail submit), ActiveX controls, managed code form code, Roles, and Workflow. Managed code form templates cannot run in the Restricted domain. When a managed code form template is set to the **Automatically determine security level** setting in the **Security and Trust** category of the **Form Options** dialog box, the form template will always require at least the Domain security access level to run code.  <br/> > [!IMPORTANT]> The managed code assembly created for a managed code form template will not load and run when a form is opened from a Restricted domain, for example, from an InfoPath form sent as an e-mail attachment. Any form template you wish to deploy as an e-mail attachment must omit the features listed above, and if the form template contains form code, form code must be implemented in JScript or VBScript, and must only utilize object model members with a security level of 0 (zero).           |
+|Restricted  <br/> |Does not permit any communication outside of the form template. This security level is intended to prevent harmful forms from transmitting any data from your computer to a malicious attacker. When running in this security mode, the following features will not work: Custom Task Pane, Data Connections (except e-mail submit), ActiveX controls, managed code form code, Roles, and Workflow. Managed code form templates cannot run in the Restricted domain. When a managed code form template is set to the **Automatically determine security level** setting in the **Security and Trust** category of the **Form Options** dialog box, the form template will always require at least the Domain security access level to run code.  <br/><br/>**IMPORTANT**: The managed code assembly created for a managed code form template will not load and run when a form is opened from a Restricted domain, for example, from an InfoPath form sent as an e-mail attachment. Any form template you wish to deploy as an e-mail attachment must omit the features listed above, and if the form template contains form code, form code must be implemented in JScript or VBScript, and must only utilize object model members with a security level of 0 (zero).           |
 |Domain  <br/> |Restricts a form based on its location in one of the security zones defined by Microsoft Internet Explorer. For example, if the form is located in the Local Intranet zone, it is allowed to communicate with other data inside its own domain but it is not permitted to retrieve data from other domains. The location in a Microsoft Internet Explorer security zone also determines whether ActiveX controls that are marked as unsafe for scripting will be allowed to run.  <br/> |
 |Full Trust  <br/> |Allows you to run a form with full trust on the computer where the form will be used. This security level can only be used when working with a form that is digitally signed with a signature that matches a trusted root publisher on your computer, or by creating an installation program that installs the form and sets the **requireFullTrust** attribute of the **xDocumentClass** element to "yes" in the form definition file (.xsf). By using this setting, your form can access object model calls that require object model security level 3, such as properties and methods that access the file system, and you can disable certain security prompts that appear when running at a more restrictive security level.  <br/> |
    
@@ -58,10 +54,9 @@ By default, an InfoPath form is configured to select automatically either the Re
     
 4. Select the desired security level.
     
- **Notes**
-- If you the select the **Restricted** security level for a managed code form template, the code behind the form will not load and run regardless of which object model members are used in the form code. This security level is primarily designed for InfoPath forms that are deployed using e-mail. 
-    
-- If you select the **Full Trust** security level, you need to digitally sign or install and register the form. For more information, see [Deploy InfoPath Form Templates with Code](how-to-deploy-infopath-form-templates-with-code.md).
+> [!NOTE] 
+> - If you the select the **Restricted** security level for a managed code form template, the code behind the form will not load and run regardless of which object model members are used in the form code. This security level is primarily designed for InfoPath forms that are deployed using e-mail.     
+> - If you select the **Full Trust** security level, you need to digitally sign or install and register the form. For more information, see [Deploy InfoPath Form Templates with Code](how-to-deploy-infopath-form-templates-with-code.md).
     
 The following table summarizes the InfoPath security model. The first column lists the level specified for or required by the form. The second and third columns specify whether the form has a URN or URL identifier for its location. The remaining columns specify what is allowed to run. For more information on deployment scenarios and permission sets for managed code form templates, see the "Common Language Runtime Code Access Security Features" section later in this topic.
   
@@ -94,11 +89,9 @@ In the .NET Framework, by default, a managed code assembly has Full Trust permis
     
 The default security policy set for the application domain of a managed code form template ensures that the InfoPath domain access security levels as well as any additional .NET security restrictions are enforced. To provide additional flexibility, the InfoPath security system recognizes a .NET code access security code group named "InfoPath Form Templates". If this code group is present on a user's computer, its security configuration, and those of any child code groups within it will be applied to the application domain.
   
- **Important**
-  
-- The InfoPath Form Templates code group applies only to the managed code form code assembly itself. As a result, if you grant the Full Trust permission set to InfoPath managed code form code, but you have not installed and registered (or digitally signed) the form template itself (which makes the entire form template fully trusted), calls in the form code to security level 3 object model members will still fail. 
-    
-- If you reference or explicitly load (Assembly.Load) an assembly that is configured with a restricted permission set using Hash, Strong Name, or Publisher evidence to determine its membership condition in a form template project, the assembly will nonetheless be loaded and executed by the form template.
+> [!IMPORTANT] 
+> - The InfoPath Form Templates code group applies only to the managed code form code assembly itself. As a result, if you grant the Full Trust permission set to InfoPath managed code form code, but you have not installed and registered (or digitally signed) the form template itself (which makes the entire form template fully trusted), calls in the form code to security level 3 object model members will still fail.   
+> - If you reference or explicitly load (Assembly.Load) an assembly that is configured with a restricted permission set using Hash, Strong Name, or Publisher evidence to determine its membership condition in a form template project, the assembly will nonetheless be loaded and executed by the form template.
     
 For information on how to create and configure the InfoPath Form Templates code group, see [Configure Security Settings for Form Templates with Code](how-to-configure-security-settings-for-form-templates-with-code.md).
   
@@ -114,10 +107,6 @@ The following table summarizes the deployment scenarios and permission sets that
    
 ## See also
 
-#### Tasks
-
-[Configure Security Settings for Form Templates with Code](how-to-configure-security-settings-for-form-templates-with-code.md)
-#### Concepts
-
-[Preview and Debug Form Templates that Require Full Trust](how-to-preview-and-debug-form-templates-that-require-full-trust.md)
+- [Configure Security Settings for Form Templates with Code](how-to-configure-security-settings-for-form-templates-with-code.md)
+- [Preview and Debug Form Templates that Require Full Trust](how-to-preview-and-debug-form-templates-that-require-full-trust.md)
 

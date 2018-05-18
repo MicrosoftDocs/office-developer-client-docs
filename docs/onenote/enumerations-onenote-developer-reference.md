@@ -203,7 +203,7 @@ When passed to one of the following methods, specifies the version of the OneNot
 |**xs2007** <br/> |0  <br/> |References the OneNote 2007 schema.  <br/> |
 |**xs2010** <br/> |1  <br/> |References the OneNote 2010 schema.  <br/> |
 |**xs2013** <br/> |2  <br/> |References the OneNote 2013 schema.  <br/> |
-|**xsCurrent** <br/> |2  <br/> |References the schema of the current OneNote version.  <br/> > [!NOTE]> We do not recommend using **xsCurrent** in most cases, as it can cause compatibility issues with future versions of OneNote. Instead specify the version of the schema that your app was built to handle, like xs2013.           |
+|**xsCurrent** <br/> |2  <br/> |References the schema of the current OneNote version.  <br/> <br/>**NOTE**: We do not recommend using **xsCurrent** in most cases, as it can cause compatibility issues with future versions of OneNote. Instead specify the version of the schema that your app was built to handle, like xs2013.           |
    
 ## See also
 

@@ -76,7 +76,7 @@ The following tables lists the parameters to set to handle interactions between 
 |**Parameter**|**Description**|
 |:-----|:-----|
 |[ReadActivationMode](https://msdn.microsoft.com/en-us/library/windows/apps/windows.storage.provider.readactivationmode.aspx) <br/> |Set **BeforeAccess** to allow your app to update the file before it sends it to Office.  <br/> |
-|[WriteActivationMode](https://msdn.microsoft.com/en-us/library/windows/apps/windows.storage.provider.writeactivationmode.aspx) <br/> |Set **ReadOnly** to make the file read only. Set **AfterWrite** to ensure that your app will be triggered by the CacheFileUpdater when Office is finished with the file.  <br/> > [!NOTE]> If you do not set **AfterWrite**, your app will not be notified to upload the changes, which means that the user's changes will only be local.           |
+|[WriteActivationMode](https://msdn.microsoft.com/en-us/library/windows/apps/windows.storage.provider.writeactivationmode.aspx) <br/> |Set **ReadOnly** to make the file read only. Set **AfterWrite** to ensure that your app will be triggered by the CacheFileUpdater when Office is finished with the file.  <br/> **NOTE**: If you do not set **AfterWrite**, your app will not be notified to upload the changes, which means that the user's changes will only be local.           |
 |[CachedFileOptions.RequireUpdateOnAccess](https://msdn.microsoft.com/en-us/library/windows/apps/windows.storage.provider.cachedfileoptions.aspx) <br/> |Set this property to ensure that your app can update the file when a user accesses it from the Recent list.  <br/> |
    
 ## Invoking Office from your app

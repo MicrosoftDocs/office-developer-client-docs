@@ -191,7 +191,7 @@ Use Table 1 to identify the keys, entries, and values that must be written in th
 ||ProcessName  <br/> |REG_SZ  <br/> |The process name of the third-party IM client application.  <br/> |litware.exe  <br/> |
 ||GUID  <br/> |REG_SZ  <br/> |A class ID (CLSID) for the root, cocreatable class in the IM application (the class that implements the **IUCOfficeIntegration** interface).  <br/> |(A GUID)  <br/> |
 |HKEY_CURRENT_USER\Software\IM Providers  <br/> |DefaultIMApp  <br/> |REG_SZ  <br/> |The name of the IM client application. This must be the same as the name at the top-level registry key (hive) in the HKEY_LOCAL_MACHINE.  <br/> |Litware  <br/> |
-|HKEY_CURRENT_USER\Software\IM Providers\\<Application name\>  <br/> |UpAndRunning  <br/> |REG_DWORD  <br/> | An integer value between 0 and 2:  <br/>  0—Not running  <br/>  1—Starting  <br/>  2—Running  <br/> > [!NOTE]>  The application name registry key must be the same as the value of the DefaultIMApp entry.           ||
+|HKEY_CURRENT_USER\Software\IM Providers\\<Application name\>  <br/> |UpAndRunning  <br/> |REG_DWORD  <br/> | An integer value between 0 and 2:  <br/>  0—Not running  <br/>  1—Starting  <br/>  2—Running  <br/> <br/>**NOTE**:  The application name registry key must be the same as the value of the DefaultIMApp entry.           ||
    
 ## Implementing the required interfaces for integration with Office
 <a name="off15_IMIntegration_ImplementRequired"> </a>

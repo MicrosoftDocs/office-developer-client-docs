@@ -34,7 +34,7 @@ The **WindowsCollection** interface provides the following properties, which for
 |**Name**|**Description**|
 |:-----|:-----|
 |[Count](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Windows.Count.aspx) property  <br/> |Returns a count of the number of **Window** objects contained in the collection.  <br/> |
-|[Item](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Windows.Item.aspx) property  <br/> |Returns a reference to the specified **Window** object.  <br/> > [!NOTE]> Visual C# accesses collections using an indexer instead of calling the **Item** property. For example,  `thisApplication.Windows[0].Caption`.           |
+|[Item](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Windows.Item.aspx) property  <br/> |Returns a reference to the specified **Window** object.  <br/> **NOTE**: Visual C# accesses collections using an indexer instead of calling the **Item** property. For example,  `thisApplication.Windows[0].Caption`.           |
    
 ## Overview of the Window Object
 

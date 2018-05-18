@@ -1,12 +1,8 @@
 ---
 title: "Understanding Fully Trusted Forms"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 64d62990-6275-edef-c639-b6ba8d10c38c
 description: "InfoPath provides the ability to create fully trusted forms, which are forms that have greater security permissions and can access system resources and other components on a user's computer. This article describes what a fully trusted form is, and why it is used, and create a fully trusted form by manually converting and registering a standard form, or by digitally signing a standard form."
@@ -63,64 +59,63 @@ The following actions, involving both the InfoPath user interface and the form f
     
 6. Add the following attributes to the **xDocumentClass** element in the .xsf file: 
     
-  ```XML
-  requireFullTrust="yes" 
-  name="urn:MyForm:MyCompany" 
-  
-  ```
+   ```xml
+    requireFullTrust="yes" 
+    name="urn:MyForm:MyCompany" 
+   ```
 
-    > [!NOTE]
-    > The values that are used for the URN can be any kind of string value, as long as this value is unique. There must be at least two values after the  `urn:` prefix, and these values must be separated by a colon. In addition, the URN should not exceed 255 characters. 
+   > [!NOTE]
+   > The values that are used for the URN can be any kind of string value, as long as this value is unique. There must be at least two values after the  `urn:` prefix, and these values must be separated by a colon. In addition, the URN should not exceed 255 characters. 
   
 7. Save and close the .xsf file, and then open the XML template (.xml) file that is named  `Template.xml` by default, in a text editor such as Notepad. 
     
 8. Remove the **href** attribute from the  `mso-infoPathSolution` processing instruction and replace it with the same **name** attribute that you used in step 6 for the .xsf file. 
     
-    > [!NOTE]
-    > The URN values that are used for the **name** attribute must be the same in both the .xsf file and XML template file. 
+   > [!NOTE]
+   > The URN values that are used for the **name** attribute must be the same in both the .xsf file and XML template file. 
   
 9. Save and close the XML template file.
     
 10. Repackage the files into the .xsn CAB format with a tool such as makecab.exe.
     
-    > [!NOTE]
-    > Although InfoPath form designer supports repackaging the form files into an .xsn file, doing this will revert the form to a URL-based form. For this reason, you must repackage the files manually to avoid overwriting your changes to the form files. 
+   > [!NOTE]
+   > Although InfoPath form designer supports repackaging the form files into an .xsn file, doing this will revert the form to a URL-based form. For this reason, you must repackage the files manually to avoid overwriting your changes to the form files. 
   
 11. Create a custom installation program by using the **RegisterSolution** method of the InfoPath **Application** object to install the fully trusted form. A simple way to do this is to create a script file that uses the following lines of code (in either Microsoft JScript or VBScript syntax): 
     
-  ```
-  objIPApp = new ActiveXObject("InfoPath.Application"); 
-  objIPApp.RegisterSolution("C:\\MyForms\\MyTrustedForm.xsn"); 
-  objIPApp.Quit(); 
-  objIPApp = null;
-  ```
-
-  ```VB.net
-  Public Sub InstallForm()
-     Dim objIPApp As Object
-     ' Create a reference to the Application object.
-     Set objIPApp = CreateObject("InfoPath.Application")
-     ' Register the InfoPath form template.
-     objIPApp.RegisterSolution ("C:\\My Forms\\MyFormTemplate.xsn")
-     MsgBox "The InfoPath form template has been registered."
-     Set objIPApp = Nothing
-  End Sub
-  
-  ```
-
-    > [!NOTE]
-    > Although this example uses a simple script file, you can also use a more robust installation mechanism such as Microsoft Windows Installer (.msi) files. Be sure, however, to use the **RegisterSolution** method to correctly install the fully trusted form on the target computer. To access the **RegisterSolution** method of the InfoPath the **Application** object from Visual Basic or Visual Studio, set a reference to the Microsoft InfoPath 3.0 Type Library, which is provided by IPEDITOR.dll that is installed in the C:\Program Files\Microsoft Office\Office14 folder. 
-  
-    If you have to remove a fully trusted form, you can use the **UnregisterSolution** method of the **Application** object as shown in the following JScript and VBScript examples. 
+   ```js
+    objIPApp = new ActiveXObject("InfoPath.Application"); 
+    objIPApp.RegisterSolution("C:\\MyForms\\MyTrustedForm.xsn"); 
+    objIPApp.Quit(); 
+    objIPApp = null;
+   ```
+   
+   ```vb
+    Public Sub InstallForm()
+        Dim objIPApp As Object
+        ' Create a reference to the Application object.
+        Set objIPApp = CreateObject("InfoPath.Application")
+        ' Register the InfoPath form template.
+        objIPApp.RegisterSolution ("C:\\My Forms\\MyFormTemplate.xsn")
+        MsgBox "The InfoPath form template has been registered."
+        Set objIPApp = Nothing
+    End Sub
     
-  ```
+   ```
+
+   > [!NOTE] 
+   > Although this example uses a simple script file, you can also use a more robust installation mechanism such as Microsoft Windows Installer (.msi) files. Be sure, however, to use the **RegisterSolution** method to correctly install the fully trusted form on the target computer. To access the **RegisterSolution** method of the InfoPath the **Application** object from Visual Basic or Visual Studio, set a reference to the Microsoft InfoPath 3.0 Type Library, which is provided by IPEDITOR.dll that is installed in the C:\Program Files\Microsoft Office\Office14 folder. 
+  
+   If you have to remove a fully trusted form, you can use the **UnregisterSolution** method of the **Application** object as shown in the following JScript and VBScript examples. 
+    
+  ```js
   objIPApp = new ActiveXObject("InfoPath.Application"); 
   objIPApp.UnregisterSolution("C:\\MyForms\\MyTrustedForm.xsn"); 
   objIPApp.Quit(); 
   objIPApp = null;
   ```
 
-  ```VB.net
+  ```vb
   Public Sub UninstallForm()
      Dim objIPApp As Object
      ' Create a reference to the Application object.
@@ -163,8 +158,8 @@ Digitally signing a form template enables you to deploy a fully trusted form tem
 
 1. In the SharePoint document library, click **Fill Out the Form**.
     
-    > [!NOTE]
-    > After publishing the form template to a SharePoint document library using the **Publishing Wizard**, the template is not displayed as an item in the form library. When you create a form in that document library, the template will be used by default as the template for the new form. 
+   > [!NOTE]
+   > After publishing the form template to a SharePoint document library using the **Publishing Wizard**, the template is not displayed as an item in the form library. When you create a form in that document library, the template will be used by default as the template for the new form. 
   
 2. If the default form template was digitally signed, InfoPath displays a security warning about the digitally signed form template. Select **Always trust files from this publisher and open them automatically**, and then click **Open**.
     

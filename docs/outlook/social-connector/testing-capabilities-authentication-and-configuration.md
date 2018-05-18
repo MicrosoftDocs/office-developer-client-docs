@@ -32,7 +32,7 @@ After getting capabilities, the OSC can proceed to get the icon and name for the
   
 |**Item to test**|**Expected behavior**|
 |:-----|:-----|
-|Social network icon  <br/> | The social network icon is displayed correctly in the following places in the OSC:  <br/>  In the OSC dialog box for **Social Network Accounts**.  <br/>  In the drop-down menu when you attempt to add a person as a friend.  <br/>  In the badge when following a friend.  <br/> > [!NOTE]>  You can access the dialog box for **Social Network Accounts** by clicking the **View** tab in Outlook, in the **People Pane** group, clicking **People Pane**, and then clicking **Account Settings**.           |
+|Social network icon  <br/> | The social network icon is displayed correctly in the following places in the OSC:  <br/>  In the OSC dialog box for **Social Network Accounts**.  <br/>  In the drop-down menu when you attempt to add a person as a friend.  <br/>  In the badge when following a friend.  <br/> <br/>**NOTE**:  You can access the dialog box for **Social Network Accounts** by clicking the **View** tab in Outlook, in the **People Pane** group, clicking **People Pane**, and then clicking **Account Settings**.           |
 |Social network name  <br/> | The social network name is displayed correctly in the following places in the OSC:  <br/>  In the OSC dialog box for **Social Network Accounts**.  <br/>  In the drop-down menu when you attempt to add a person as a friend.  <br/>  As the title of the password dialog box when you attempt to change the existing password.  <br/> |
    
 ### Showing Hyperlinks in Configuration Dialog
