@@ -1,12 +1,8 @@
 ---
 title: "Integrating IM applications with Office"
- 
- 
 manager: soliver
 ms.date: 7/25/2016
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: beba316b-1dfe-4e1b-adae-42418906c177
 description: "This article describes how to configure an instant message (IM) client application so that it integrates with the social features in Office 2013, including displaying presence and sending instant messages from the contact card."
@@ -58,7 +54,8 @@ You can customize an IM client application so that it communicates with Office. 
   
 To enable this integration with Office, an IM client application must implement a set of interfaces that Office provides to connect to it. The APIs for this integration are included in the [UCCollborationLib](http://msdn.microsoft.com/en-au/library/uccollaborationlib.aspx) namespace that is contained in the Microsoft.Office.UC.dll file, which is installed with versions of Office 2013 that include Lync / Skype for Business. The **UCCollaborationLib** namespace includes the interfaces that you must implement to integrate with Office. 
   
- **Important:** The type library for the required interfaces is embedded in Lync 2013/Skype for Business. For third-party integrators, this works only when both Lync 2013 and Skype for Business are installed on the target machine. If you are integrating using Office Standard, you need to extract the type library and install it on the target machine. The [Lync 2013 SDK](https://www.microsoft.com/en-us/download/details.aspx?id=36824) includes the Microsoft.Office.UC.dll file. 
+> [!IMPORTANT] 
+> The type library for the required interfaces is embedded in Lync 2013/Skype for Business. For third-party integrators, this works only when both Lync 2013 and Skype for Business are installed on the target machine. If you are integrating using Office Standard, you need to extract the type library and install it on the target machine. The [Lync 2013 SDK](https://www.microsoft.com/en-us/download/details.aspx?id=36824) includes the Microsoft.Office.UC.dll file. 
   
 > [!NOTE]
 >  A handful of Office 2010 applications can integrate similarly with a third-party IM provider application: Outlook 2010, Word 2010, Excel 2010, PowerPoint 2010, and SharePoint Server 2010 (using an ActiveX control). Many of the steps required for integration with Office 2013 apply to Office 2010 as well. 
@@ -113,10 +110,10 @@ After the Office application establishes a connection to the IM client applicati
     
 3. If the IM client application supports the version of Office passed in as a parameter, the application returns the following hard-coded XML string to the calling code:
     
-     `<authenticationinfo>`
+    `<authenticationinfo>`
     
-    > [!NOTE]
-    > For legacy reasons, the IM client application must return the exact value  `<authenticationinfo>` to the call to **GetAuthenticationInfo** if it supports the version of Office passed in as a parameter. 
+   > [!NOTE]
+   > For legacy reasons, the IM client application must return the exact value  `<authenticationinfo>` to the call to **GetAuthenticationInfo** if it supports the version of Office passed in as a parameter. 
   
 4. If the IM client application fails to return a value, the Office application calls the **GetAuthenticationInfo** method again with the next highest supported version of Office (for example, "14.0.0.0"). 
     
@@ -393,7 +390,7 @@ public IMClientAsyncOperation SignIn(string _userUri, string _domainAndUser,
 
 The following code example demonstrates how to set up the event listener using the _ **ILyncClientEvents** and _ **IUCOfficeIntegrationEvents** interfaces. 
   
-```
+```cs
 using Microsoft.Office.Uc;
 using System;
 using System.Runtime.CompilerServices;
@@ -1003,7 +1000,6 @@ Table 12 shows the members that must be implemented in the classes that inherit 
 |**Value** property  <br/> |Gets the string.  <br/> |
    
 ## See also
-<a name="bk_addresources"> </a>
 
 - [UCCollaborationLib](http://msdn.microsoft.com/library/UCCollaborationLib) namespace 
     

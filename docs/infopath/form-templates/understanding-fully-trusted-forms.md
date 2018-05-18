@@ -78,8 +78,8 @@ The following actions, involving both the InfoPath user interface and the form f
     
 10. Repackage the files into the .xsn CAB format with a tool such as makecab.exe.
     
-   > [!NOTE]
-   > Although InfoPath form designer supports repackaging the form files into an .xsn file, doing this will revert the form to a URL-based form. For this reason, you must repackage the files manually to avoid overwriting your changes to the form files. 
+    > [!NOTE]
+    > Although InfoPath form designer supports repackaging the form files into an .xsn file, doing this will revert the form to a URL-based form. For this reason, you must repackage the files manually to avoid overwriting your changes to the form files. 
   
 11. Create a custom installation program by using the **RegisterSolution** method of the InfoPath **Application** object to install the fully trusted form. A simple way to do this is to create a script file that uses the following lines of code (in either Microsoft JScript or VBScript syntax): 
     

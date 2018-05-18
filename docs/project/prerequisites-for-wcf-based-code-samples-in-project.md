@@ -92,11 +92,11 @@ Before running the code samples, you must set up the development environment, co
     
     There are three ways to add a WCF service reference:
     
-       - Build a PSI proxy assembly named ProjectServerServices.dll, and then set a reference to the assembly. See [Using a PSI proxy assembly and IntelliSense descriptions](#pj15_PrerequisitesWCF_BuildingProxy).
+    - Build a PSI proxy assembly named ProjectServerServices.dll, and then set a reference to the assembly. See [Using a PSI proxy assembly and IntelliSense descriptions](#pj15_PrerequisitesWCF_BuildingProxy).
     
-       - Add a proxy file from the svcutil.exe output to the Visual Studio solution. See [Adding a PSI proxy file](#pj15_PrerequisitesWCF_AddingProxyFile).
+    - Add a proxy file from the svcutil.exe output to the Visual Studio solution. See [Adding a PSI proxy file](#pj15_PrerequisitesWCF_AddingProxyFile).
     
-       - Add a service reference by using Visual Studio. See [Adding a service reference](#pj15_PrerequisitesWCF_AddingServiceReference).
+    - Add a service reference by using Visual Studio. See [Adding a service reference](#pj15_PrerequisitesWCF_AddingServiceReference).
     
 ### Using a PSI proxy assembly and IntelliSense descriptions
 <a name="pj15_PrerequisitesWCF_BuildingProxy"> </a>
@@ -175,8 +175,8 @@ The following steps show how to set a service reference by using Visual Studio 2
     
    - Open the **Internet Information Services (IIS) Manager** dialog box on the Project Server computer. Expand the **SharePoint Web Services** node in the **Connections** pane, and then expand the service virtual directories below that, until you find the directory that includes a PSI folder. Select the directory, choose **Advanced Settings** in the **Actions** pane, and then copy the directory name in the **Virtual Path** field. 
     
-   > [!NOTE]
-   > There can be more than one Project Server Service virtual directory. Ensure that you choose the virtual directory that contains the Project Web App instance that you want. 
+      > [!NOTE]
+      > There can be more than one Project Server Service virtual directory. Ensure that you choose the virtual directory that contains the Project Web App instance that you want. 
   
    - Use the **get-SPServiceApplication** cmdlet in Windows PowerShell that is installed with SharePoint 2013. On the taskbar **Start** menu, choose **All Programs**, choose **Microsoft SharePoint 2013 Products**, and then choose **SharePoint 2013 Management Shell**. Following is the command and the results in the **SharePoint 2013get- Management Shell** window for the defined service applications (your GUIDs will be different). Copy the GUID for the Project Server service application. 
     
@@ -201,8 +201,8 @@ The following steps show how to set a service reference by using Visual Studio 2
         534c37eb-00d7-4ccf-adce-cf9827e95239
        ```
 
-   > [!NOTE]
-   > Remove the dashes in the GUID to get the virtual directory name. 
+      > [!NOTE]
+      > Remove the dashes in the GUID to get the virtual directory name. 
   
    URLs such as  `http://localhost:32843/534c37eb00d74ccfadcecf9827e95239/PSI/Resource.svc` are standard for Project Server services. 
     
@@ -415,7 +415,7 @@ You can verify code sample results in several ways, for example:
     
 - Use **Microsoft SQL Server Management Studio** to run a query on a table of a Project Server database. For example, use the following query to select the top 200 rows of the MSP_WORKFLOW_STAGE_PDPS table to show information about the project detail pages (PDPs) in workflow stages. 
     
-        ```sql
+```sql
         SELECT TOP 200 [STAGE_UID]
                 ,[PDP_UID]
                 ,[PDP_NAME]
@@ -423,8 +423,8 @@ You can verify code sample results in several ways, for example:
                 ,[PDP_ID]
                 ,[PDP_STAGE_DESCRIPTION]
                 ,[PDP_REQUIRES_ATTENTION]
-            FROM [ProjectService].[pub].[MSP_WORKFLOW_STAGE_PDPS]
-        ```
+        FROM [ProjectService].[pub].[MSP_WORKFLOW_STAGE_PDPS]
+```
 
 ## Cleaning up
 <a name="pj15_PrerequisitesWCF_Cleanup"> </a>
