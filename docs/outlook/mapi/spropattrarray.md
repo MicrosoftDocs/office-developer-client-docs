@@ -29,7 +29,7 @@ Contains a list of attributes for properties of an object.
 |Header file:  <br/> |Imessage.h  <br/> |
 |Related macros:  <br/> |[CbNewSPropAttrArray](cbnewspropattrarray.md), [CbSPropAttrArray](cbspropattrarray.md) <br/> |
    
-```
+```cpp
 typedef struct
 {
   ULONG cValues;

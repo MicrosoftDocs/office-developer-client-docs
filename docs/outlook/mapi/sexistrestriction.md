@@ -28,7 +28,7 @@ Describes an exist restriction which is used to test whether a particular proper
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SExistRestriction
 {
   ULONG ulReserved1;

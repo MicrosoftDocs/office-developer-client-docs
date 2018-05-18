@@ -30,7 +30,7 @@ Initializes a message store provider for operation.
 |Implemented by:  <br/> |Message store providers  <br/> |
 |Called by:  <br/> |MAPI  <br/> |
    
-```
+```cpp
 HRESULT MSProviderInit(
   HINSTANCE hInstance,
   LPMALLOC lpMalloc,

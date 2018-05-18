@@ -1,7 +1,5 @@
 ---
 title: "SizedDtblCheckBox"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -17,9 +15,7 @@ description: "Last modified: March 09, 2015"
 ---
 
 # SizedDtblCheckBox
-
-  
-  
+ 
 **Applies to**: Outlook 
   
 Creates a named structure that includes a [DTBLCHECKBOX](dtblcheckbox.md) structure for describing a check box control and a label of a specified length. 
@@ -29,17 +25,17 @@ Creates a named structure that includes a [DTBLCHECKBOX](dtblcheckbox.md) struct
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**DTBLCHECKBOX** <br/> |
    
-```
+```cpp
 SizedDtblCheckBox (n, u)
 ```
 
 ## Parameters
 
- _n_
+_n_
   
 > Length of the label to be included in the new structure.
     
- _u_
+_u_
   
 > Name for the new structure.
     
@@ -47,25 +43,19 @@ SizedDtblCheckBox (n, u)
 
 The **SizedDtblCheckBox** macro lets you define a check box when the number of label characters is known. The new structure is created with the following members: 
   
-```
+```cpp
 DTBLCHECKBOX dtblcheckbox;
 TCHAR lpszLabel[n];
-
 ```
 
 To use a pointer to the resulting structure from the **SizedDtblCheckBox** macro as a **DTBLCHECKBOX** structure pointer, perform the following cast: 
   
-```
-lpDtblCheckBox = (LPDTBLCHECKBOX) &amp;SizedDtblCheckBox;
-
+```cpp
+lpDtblCheckBox = (LPDTBLCHECKBOX) &SizedDtblCheckBox;
 ```
 
 ## See also
 
-#### Reference
-
-[DTBLCHECKBOX](dtblcheckbox.md)
-#### Concepts
-
-[Macros Related to Structures](macros-related-to-structures.md)
+- [DTBLCHECKBOX](dtblcheckbox.md)
+- [Macros Related to Structures](macros-related-to-structures.md)
 

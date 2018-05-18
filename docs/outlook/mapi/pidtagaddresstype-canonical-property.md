@@ -1,7 +1,5 @@
 ---
 title: "PidTagAddressType Canonical Property"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -18,8 +16,6 @@ description: "Last modified: March 09, 2015"
 
 # PidTagAddressType Canonical Property
 
-  
-  
 **Applies to**: Outlook 
   
 Contains the messaging user's e-mail address type, such as SMTP.
@@ -35,11 +31,11 @@ Contains the messaging user's e-mail address type, such as SMTP.
 
 These properties are examples of the base address properties common to all messaging users. It specifies which messaging system MAPI uses to handle a given message.
   
- This property also determines the format of the address string in the **PR_EMAIL_ADRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)). The string it provides can contain only the uppercase alphabetic characters from A through Z and the numbers from 0 through 9.
+This property also determines the format of the address string in the **PR_EMAIL_ADRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)). The string it provides can contain only the uppercase alphabetic characters from A through Z and the numbers from 0 through 9.
   
 Valid examples for the string include: 
   
-```
+```cpp
 FAX
 MHS
 PROFS

@@ -20,7 +20,7 @@ description: "Last modified: July 23, 2011"
   
 The structure is used with [HrCreateOfflineObj](hrcreateofflineobj.md). 
   
-```
+```cpp
 typedef struct
 {
   ULONG            ulSize;

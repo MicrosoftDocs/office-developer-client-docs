@@ -29,7 +29,7 @@ Defines a collection of sort keys for a table that is used for standard or categ
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related macros:  <br/> |[CbNewSSortOrderSet](cbnewssortorderset.md), [CbSSortOrderSet](cbssortorderset.md), [SizedSSortOrderSet](sizedssortorderset.md) <br/> |
    
-```
+```cpp
 typedef struct _SSortOrderSet
 {
   ULONG cSorts;

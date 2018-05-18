@@ -28,7 +28,7 @@ The entries use the same format as entries in the **[Services]** section, as sho
   
 The following entries would be included in the **[Default Services]** section for the mapisvc.inf shown in the earlier illustration: 
   
-```
+```cpp
 [Default Services]
 AB=Default Address Book
 MsgService=My Own Service

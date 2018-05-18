@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 A Win32 character string that can be used to describe ANSI, DBCS, or Unicode strings. For ANSI and DBCS platforms, TCHAR is defined as follows:
   
-```
+```cpp
 typedef char TCHAR;
 
 ```

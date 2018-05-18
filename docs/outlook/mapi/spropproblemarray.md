@@ -29,7 +29,7 @@ Contains an array of one or more [SPropProblem](spropproblem.md) structures.
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related macros:  <br/> |[CbNewSPropProblemArray](cbnewspropproblemarray.md) <br/> [CbSPropProblemArray](cbspropproblemarray.md) <br/> [SizedSPropProblemArray](sizedspropproblemarray.md) <br/> |
    
-```
+```cpp
 typedef struct _SPropProblemArray
 {
   ULONG cProblem;

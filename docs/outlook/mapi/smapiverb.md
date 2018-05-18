@@ -28,7 +28,7 @@ Describes a MAPI verb.
 |:-----|:-----|
 |Header file:  <br/> |Mapiform.h  <br/> |
    
-```
+```cpp
 typedef struct
 {
   ULONG lVerb;

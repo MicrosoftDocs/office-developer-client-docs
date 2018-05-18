@@ -28,7 +28,7 @@ Contains an array of binary values.
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SBinaryArray
 {
   ULONG cValues;

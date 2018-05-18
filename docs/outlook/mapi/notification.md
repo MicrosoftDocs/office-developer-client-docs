@@ -28,7 +28,7 @@ Contains information about an event that has occurred and the data that has been
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct
 {
   ULONG ulEventType;

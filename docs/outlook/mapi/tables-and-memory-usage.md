@@ -1,5 +1,5 @@
 ---
-title: "Tables and Memory Usage"
+title: "Tables and memory usage"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,14 +8,10 @@ api_type:
 - COM
 ms.assetid: 7ac11e60-6b2c-4241-96e2-20219f84d949
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
-# Tables and Memory Usage
+# Tables and memory usage
 
-  
-  
 **Applies to**: Outlook 
   
 An important issue connected with retrieving data from a table is memory usage. Lack of available memory can cause [IMAPITable::QueryRows](imapitable-queryrows.md) and [HrQueryAllRows](hrqueryallrows.md) to fail, returning less than the desired number of rows. Deciding which method or function to use to retrieve table data depends on whether the table can be expected to fit in memory, and if it cannot, if failure is acceptable. 
@@ -36,13 +32,13 @@ To retrieve all of the rows from a table that might or might not fit into memory
   
 To retrieve all of the rows from a table that is not expected to fit into memory, call [IMAPITable::QueryRows](imapitable-queryrows.md) in a loop with a relatively small row count, as the following code sample illustrates: 
   
-```
+```cpp
 HRESULT     hr;
 LPSRowSet   pRows = NULL;
 LONG        irow;
 LONG            cAsk = 50;                  // adjust this value
-while ((hr = pTable->QueryRows(cAsk, 0, &amp;pRows)) == hrSuccess
-        &amp;&amp; pRows->cRows != 0)
+while ((hr = pTable->QueryRows(cAsk, 0, &pRows)) == hrSuccess
+        && pRows->cRows != 0)
 {
     for (irow = 0; irow < prows->cRows; ++irow)
     {
@@ -62,7 +58,5 @@ When this loop completes and all the rows in the table have been processed and  
   
 ## See also
 
-#### Concepts
-
-[MAPI Tables](mapi-tables.md)
+- [MAPI Tables](mapi-tables.md)
 

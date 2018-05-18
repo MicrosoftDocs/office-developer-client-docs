@@ -48,7 +48,7 @@ The **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-p
   
 Two examples of nonstandard property entries follow. The first entry specifies the path to the file used by the Default Address Book as the property value; the second entry specifies a numeric property value. Both entries have meaning specific to the AB message service.
   
-```
+```cpp
 6600001e=full path to file
 66040003=integer
 

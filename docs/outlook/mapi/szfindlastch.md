@@ -30,7 +30,7 @@ Searches for the last occurrence of a character in a null-terminated string.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 LPSTR SzFindLastCh(
   LPCSTR lpsz,
   USHORT ch

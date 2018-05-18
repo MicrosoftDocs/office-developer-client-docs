@@ -30,7 +30,7 @@ Adjusts the pointers in an [SPropValue](spropvalue.md) array after the array and
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 SCODE ScRelocProps(
   int cprop,
   LPSPropValue rgprop,

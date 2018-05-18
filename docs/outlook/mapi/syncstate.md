@@ -1,7 +1,5 @@
 ---
 title: "SYNCSTATE"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,15 +12,13 @@ description: "Last modified: July 23, 2011"
 
 # SYNCSTATE
 
-  
-  
 **Applies to**: Outlook 
   
 This structure defines the states for the replication state machine.
   
 ## Quick Info
 
-```
+```cpp
 typedef enum { 
     LR_SYNC_IDLE = 0, 
     LR_SYNC, 
@@ -42,11 +38,7 @@ typedef enum {
 
 ## See also
 
-#### Concepts
-
-[About the Replication API](about-the-replication-api.md)
-  
-[About the Replication State Machine](about-the-replication-state-machine.md)
-  
-[MAPI Constants](mapi-constants.md)
+- [About the Replication API](about-the-replication-api.md)
+- [About the Replication State Machine](about-the-replication-state-machine.md)
+- [MAPI Constants](mapi-constants.md)
 

@@ -28,7 +28,7 @@ Contains an array of unsigned integer values that are used to describe a propert
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SShortArray
 {
   ULONG cValues;

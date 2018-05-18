@@ -32,7 +32,7 @@ The **MAPICrashRecovery** function checks the state of the Personal Folders file
 |Called by:  <br/> |Client  <br/> |
 |Implemented by:  <br/> |Outlook  <br/> |
    
-```
+```cpp
 void MAPICrashRecovery(ULONG ulFlags);
 ```
 

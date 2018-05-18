@@ -20,7 +20,7 @@ description: "Last modified: February 20, 2012"
   
 Compares two Unicode strings.
   
-```
+```cpp
 int MNLS_CompareStringW (
   LCID lcid,
   DWORD dwFlags,

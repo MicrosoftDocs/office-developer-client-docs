@@ -30,7 +30,7 @@ Decrements the reference count, cleans up, and deletes per-instance global data 
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications  <br/> |
    
-```
+```cpp
 void MAPIUninitialize ( void );
 ```
 

@@ -24,7 +24,7 @@ This is the notification for a change in the connection state. It indicates the 
 
 See **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**. 
   
-```
+```cpp
 typedef struct  
 { 
       ULONG ulSize; 

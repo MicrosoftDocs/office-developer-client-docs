@@ -39,7 +39,7 @@ These properties are used in conjunction with the **PR_ADDRTYPE** ([PidTagAddres
   
 Valid values for this property include: 
   
-```
+```cpp
 network/postoffice/user 
 Bruce@XYZZY.COM 
 /c=US/a=att/p=Microsoft/o=Finance/ou=Purchasing/s=Furthur/g=Joe 

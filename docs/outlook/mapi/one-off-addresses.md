@@ -8,14 +8,10 @@ api_type:
 - COM
 ms.assetid: 9224c694-b26f-42c7-9404-ee2dd832cfbb
 description: "Last modified: March 09, 2015"
- 
- 
 ---
 
 # One-Off Addresses
 
-  
-  
 **Applies to**: Outlook 
   
 One-off addresses are used to send messages to one-off recipients, recipients that do not have a corresponding entry in any of the session's address book containers. Clients can create one-off addresses when they add new entries to the address book or new recipients to the recipient list of an outgoing message. One-off addresses can be added to any container that is modifiable.
@@ -88,7 +84,5 @@ In the calls to **IAddrBook::CreateOneOff** and **IMAPISupport::CreateOneOff**, 
   
 ## See also
 
-#### Reference
-
-[IAddrBook::ResolveName](iaddrbook-resolvename.md)
+- [IAddrBook::ResolveName](iaddrbook-resolvename.md)
 

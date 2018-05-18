@@ -8,14 +8,10 @@ api_type:
 - COM
 ms.assetid: 4ce91a65-17db-4ee2-ad59-01fd5b1f1ea7
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
 # Form Configuration File [Description] Section
-
-  
-  
+ 
 **Applies to**: Outlook 
   
 The **[Description]** section lists all properties of the form that are associated with controls in the form's user interface, plus attributes that are used in locating the form. The **MessageClass**, **Clsid**, and **DisplayName** entries, which identify the name of the form's message class, its GUID, and the message class's display name, respectively, are required entries used to locate the form within the form library. The remaining entries are optional. The format of the **[Description]** section is: 
@@ -70,7 +66,7 @@ The **ComposeInFolder** entry controls whether the form is designed to be placed
   
 The **ComposeCommand** entry is the string to be placed in the client application's compose menu. If this is not specified, the **DisplayName** entry will be used. 
   
-```
+```cpp
 [Description]
 MessageClass = IPM.Help
 Clsid = {00020D31-0000-0000-C000-000000000046}
@@ -87,7 +83,7 @@ Version = 1.00
 Locale = enu
 Hidden = 0
 ComposeInFolder = 0
-ComposeCommand = &amp;Help Desk Request
+ComposeCommand = &Help Desk Request
  
 ```
 

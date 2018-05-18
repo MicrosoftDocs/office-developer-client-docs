@@ -38,7 +38,7 @@ Microsoft Office Outlook 2003, earlier versions of Outlook, and applications tha
   
 Use the following little-endian format when parsing a stream obtained from **dispidTimeZoneStruct**, or when persisting the **TZREG** structure to a stream to commit to the **dispidTimeZoneStruct** binary property. 
   
-```
+```cpp
 long        lBias;           // offset from GMT
 long        lStandardBias;   // offset from bias during standard time
 long        lDaylightBias;   // offset from bias during daylight time

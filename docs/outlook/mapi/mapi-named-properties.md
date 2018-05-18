@@ -8,14 +8,10 @@ api_type:
 - COM
 ms.assetid: 464b1297-9d90-47bd-afc4-3dc63b106cb7
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
 # MAPI Named Properties
-
-  
-  
+ 
 **Applies to**: Outlook 
   
 MAPI provides a facility for assigning names to properties, for mapping these names to unique identifiers, and for making this mapping persistent. Persistent name to identifier mapping ensures that property names remain valid across sessions.
@@ -30,7 +26,7 @@ Creating names for properties is one way for clients to define new properties fo
   
 For example, a client could use code similar to the following code to retrieve the names for all of an object's named properties:
   
-```
+```cpp
 LPSPropTagArray FAR *    lppPropTags = NULL;
 LPGUID                   lpPropSetGuid = NULL;
 ULONG FAR *              lpcPropNames;
@@ -45,9 +41,9 @@ lpMAPIProp->GetNamesFromIDs (lppPropTags,
 
 To request all names from the PS_PUBLIC_STRINGS property set, a client would replace the NULL in the property set parameter to PS_PUBLIC_STRINGS as follows: 
   
-```
+```cpp
 LPSPropTagArray FAR *    lppPropTags = NULL;
-LPGUID                   lpPropSetGuid = &amp;PS_PUBLIC_STRINGS;
+LPGUID                   lpPropSetGuid = &PS_PUBLIC_STRINGS;
 ULONG FAR *              lpcPropNames;
 LPMAPINAMEID FAR * FAR * lpppPropNames;
 lpMAPIProp->GetNamesFromIDs (lppPropTags,
@@ -60,7 +56,5 @@ lpMAPIProp->GetNamesFromIDs (lppPropTags,
 
 ## See also
 
-#### Concepts
-
-[MAPI Property Overview](mapi-property-overview.md)
+- [MAPI Property Overview](mapi-property-overview.md)
 

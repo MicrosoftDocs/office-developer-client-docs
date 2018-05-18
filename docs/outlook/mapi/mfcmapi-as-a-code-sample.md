@@ -1,5 +1,5 @@
 ---
-title: "MFCMAPI as a Code Sample"
+title: "MFCMAPI as a code sample"
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -8,14 +8,10 @@ api_type:
 - COM
 ms.assetid: f98eb842-fe76-4f60-b5e2-d2217d1a66ad
 description: "Last modified: March 09, 2015"
- 
- 
 ---
 
-# MFCMAPI as a Code Sample
-
-  
-  
+# MFCMAPI as a code sample
+ 
 **Applies to**: Outlook 
   
 The MFCMAPI sample uses the Messaging API to provide access to MAPI stores through a graphical user interface. After you download this sample, you can use the source files to examine example usage cases for many of the MAPI interfaces and references. For more information, see [MAPI Interfaces](mapi-interfaces.md).
@@ -24,7 +20,7 @@ The MFCMAPI sample uses the Messaging API to provide access to MAPI stores throu
 |:-----|:-----|
 |Platforms:  <br/> |Microsoft Visual Studio 2008 to compile for Windows 7, Windows Vista, Windows Server 2008, Windows XP SP2, and Windows Server 2003 SP1  <br/> |
    
- **To download MFCMAPI**
+### To download MFCMAPI
   
 1. On the [MFCMAPI](http://codeplex.com/MFCMAPI) page, click the **Source Code** tab. 
     
@@ -40,8 +36,8 @@ The MFCMAPI sample uses the Messaging API to provide access to MAPI stores throu
     
 7. Run Visual Studio 2008 as an administrator.
     
-    > [!NOTE]
-    > If your computer is running Windows XP, you must be logged in as an administrator. If your computer is running Windows Vista, you must be logged in as an administrator and you must right-click the Visual Studio 2008 icon and then click **Run as administrator**. 
+   > [!NOTE]
+   > If your computer is running Windows XP, you must be logged in as an administrator. If your computer is running Windows Vista, you must be logged in as an administrator and you must right-click the Visual Studio 2008 icon and then click **Run as administrator**. 
   
 8. In Visual Studio 2008, click **File**, point to **Open**, and then click **Project/Solution**.
     
@@ -51,9 +47,7 @@ The MFCMAPI sample uses the Messaging API to provide access to MAPI stores throu
     
 11. In the **Save File As** dialog box, click **Save**.
     
-### 
-
- **To use MFCMAPI as a code sample**
+### To use MFCMAPI as a code sample
   
 In **Solution Explorer**, expand the **MFCMapi** project and examine the files in the **Header Files**, **Resource Files**, and **Source Files** nodes for programming scenarios. 
   
@@ -61,7 +55,5 @@ Many method topics in the [MAPI Interfaces](mapi-interfaces.md) section point to
   
 ## See also
 
-#### Other resources
-
-[MAPI Samples](mapi-samples.md)
+- [MAPI Samples](mapi-samples.md)
 

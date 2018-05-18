@@ -30,7 +30,7 @@ Initializes a transport provider for operation.
 |Implemented by:  <br/> |Transport providers  <br/> |
 |Called by:  <br/> |MAPI  <br/> |
    
-```
+```cpp
 HRESULT XPProviderInit(
   HINSTANCE hInstance,
   LPMALLOC lpMalloc,

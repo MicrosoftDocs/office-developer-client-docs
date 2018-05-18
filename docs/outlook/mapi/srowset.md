@@ -29,7 +29,7 @@ Contains an array of [SRow](srow.md) structures. Each **SRow** structure describ
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related macros:  <br/> |[CbNewSRowSet](cbnewsrowset.md), [CbSRowSet](cbsrowset.md), [SizedSRowSet](sizedsrowset.md) <br/> |
    
-```
+```cpp
 typedef struct _SRowSet
 {
   ULONG cRows;

@@ -28,7 +28,7 @@ Describes a size restriction which is used to test the size of a property value.
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SSizeRestriction
 {
   ULONG relop;

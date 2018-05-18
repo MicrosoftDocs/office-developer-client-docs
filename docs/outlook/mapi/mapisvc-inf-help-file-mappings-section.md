@@ -24,7 +24,7 @@ The **[Help File Mappings]** section contains entries that each map one message 
   
 The message service name is the name of the installed message service; the Help file name is the name of the file where the error information resides. The example following shows a typical **[Help File Mappings]** section that contains entries for three services: MAPI, the MsgService service, and the MS service. 
   
-```
+```cpp
 [Help File Mappings]
 MAPI=MAPI.HLP
 MsgService=MYHELP.HLP

@@ -30,7 +30,7 @@ Defines a callback function that can free an **IStorage** interface after the fi
 |Defined function implemented by:  <br/> |Client applications and service providers  <br/> |
 |Defined function called by:  <br/> |MAPI  <br/> |
    
-```
+```cpp
 typedef void (STDAPICALLTYPE MSGCALLRELEASE)(
   ULONG  ulCallerData,
   LPMESSAGE  lpMessage );

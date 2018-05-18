@@ -1,7 +1,5 @@
 ---
 title: "SizedENTRYID"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -18,8 +16,6 @@ description: "Last modified: March 09, 2015"
 
 # SizedENTRYID
 
-  
-  
 **Applies to**: Outlook 
   
 Creates a named [ENTRYID](entryid.md) structure that contains an **ab** member of a specified size. 
@@ -29,17 +25,17 @@ Creates a named [ENTRYID](entryid.md) structure that contains an **ab** member o
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**ENTRYID** <br/> |
    
-```
+```cpp
 SizedENTRYID (_cb, _name)
 ```
 
 ## Parameters
 
- __cb_
+__cb_
   
 > Count of bytes in the **ab** member of the new structure. 
     
- __name_
+__name_
   
 > Name for the new structure.
     
@@ -49,17 +45,13 @@ The **SizedENTRYID** macro lets you define an entry identifier after array lengt
   
 To use the new structure that results from the **SizedENTRYID** macro as a pointer to an **ENTRYID** structure, perform the following cast: 
   
-```
-lpENTRYID = (LPENTRYID) &amp;SizedENTRYID;
+```cpp
+lpENTRYID = (LPENTRYID) &SizedENTRYID;
 
 ```
 
 ## See also
 
-#### Reference
-
-[ENTRYID](entryid.md)
-#### Concepts
-
-[Macros Related to Structures](macros-related-to-structures.md)
+- [ENTRYID](entryid.md)
+- [Macros Related to Structures](macros-related-to-structures.md)
 

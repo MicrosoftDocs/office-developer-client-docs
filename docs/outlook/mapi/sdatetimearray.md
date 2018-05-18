@@ -28,7 +28,7 @@ Contains an array of time values that are used to describe a property of type PT
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SDateTimeArray
 {
   ULONG cValues;

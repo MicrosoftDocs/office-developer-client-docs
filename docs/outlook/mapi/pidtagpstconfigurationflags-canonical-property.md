@@ -1,7 +1,5 @@
 ---
 title: "PidTagPstConfigurationFlags Canonical Property"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -15,8 +13,6 @@ description: "Last modified: March 09, 2015"
 ---
 
 # PidTagPstConfigurationFlags Canonical Property
-
-  
   
 **Applies to**: Outlook 
   
@@ -37,31 +33,31 @@ PST_CONFIG_UNICODE
   
 > Indicates a Unicode .pst file. 
     
-     `#define PST_CONFIG_UNICODE 0x80000000`
+   `#define PST_CONFIG_UNICODE 0x80000000`
     
 PST_CONFIG_CREATE_NOWARN
   
 > When set from the client flags to the [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md) method, treats **ConfigureMsgService** like a [IMsgServiceAdmin::CreateMsgService](imsgserviceadmin-createmsgservice.md) call and skips the "This information service has not been configured" warning. 
     
-     `#define PST_CONFIG_CREATE_NOWARN 0x00000001`
+   `#define PST_CONFIG_CREATE_NOWARN 0x00000001`
     
 PST_CONFIG_PRESERVE_DISPLAY_NAME
   
 > Tells **ConfigureMsgService** to not change the value of the **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property, even though it was supplied. In that case, it was supplied only for new .pst files.
     
-     `#define PST_CONFIG_PRESERVE_DISPLAY_NAME 0x00000002`
+   `#define PST_CONFIG_PRESERVE_DISPLAY_NAME 0x00000002`
     
 OST_CONFIG_POLICY_DELAY_IGNORE_OST
   
 > Tells the configuration code to first display a dialog box to confirm whether an Offline Folder (.ost) file was found and, depending on the user's response, either use the found Offline Folder or enable the user to browse for another Offline Folder.
     
-     `#define OST_CONFIG_POLICY_DELAY_IGNORE_OST 0x00000008`
+   `#define OST_CONFIG_POLICY_DELAY_IGNORE_OST 0x00000008`
     
 OST_CONFIG_CREATE_NEW_DEFAULT
   
 > Copies the .ost file with a new unique name and discards the current name. The existing .ost file remains on the computer but is no longer used in this profile. This typically occurs when Microsoft Outlook no longer permits a particular .ost file, and registry policies do not allow the user to rename the file. 
     
-     `#define OST_CONFIG_CREATE_NEW_DEFAULT_OST 0x00000010`
+   `#define OST_CONFIG_CREATE_NEW_DEFAULT_OST 0x00000010`
     
 ## Related Resources
 

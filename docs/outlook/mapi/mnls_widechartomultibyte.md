@@ -20,7 +20,7 @@ description: "Last modified: February 21, 2012"
   
 This function is similar to **WideCharToMultiByte**, which maps a UTF-16 (wide character) string to a new character string. The new character string is not necessarily from a multibyte character set.
   
-```
+```cpp
 int MNLS_WideCharToMultiByte(
   UINT uCodePage,
   DWORD dwFlags,

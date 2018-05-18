@@ -28,7 +28,7 @@ Contains an array of character strings that are used to describe a property of t
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SWStringArray
 {
   ULONG cValues;

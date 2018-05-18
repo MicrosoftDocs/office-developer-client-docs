@@ -30,7 +30,7 @@ Increments the MAPI subsystem reference count and initializes global data for th
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications  <br/> |
    
-```
+```cpp
 HRESULT MAPIInitialize(
   LPVOID lpMapiInit
 );

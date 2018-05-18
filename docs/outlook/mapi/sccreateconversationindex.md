@@ -30,7 +30,7 @@ Indicates where in a message thread a message belongs.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 SCODE ScCreateConversationIndex(
   ULONG cbParent,
   LPBYTE lpbParent,

@@ -18,7 +18,7 @@ Information for uploading items that have been moved. This information is used d
   
 ## Quick info
 
-```
+```cpp
 struct UPMOV 
 { 
       ULONG          ulFlags; 

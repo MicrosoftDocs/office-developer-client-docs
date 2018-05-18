@@ -30,7 +30,7 @@ Copies the properties defined by an array of [SPropValue](spropvalue.md) structu
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 SCODE ScCopyProps(
   int cprop,
   LPSPropValue rgprop,

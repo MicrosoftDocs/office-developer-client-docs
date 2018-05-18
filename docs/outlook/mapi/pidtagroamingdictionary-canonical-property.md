@@ -1,7 +1,5 @@
 ---
 title: "PidTagRoamingDictionary Canonical Property"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -18,8 +16,6 @@ description: "Last modified: March 09, 2015"
 
 # PidTagRoamingDictionary Canonical Property
 
-  
-  
 **Applies to**: Outlook 
   
 Contains an XML document that describes the roaming dictionary.
@@ -35,7 +31,7 @@ Contains an XML document that describes the roaming dictionary.
 
 This property contains a UNICODE XML document that is using UTF8 encoding. A message with a dictionary stream must set this property with the following schema:
   
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?> 
 <xs:schema targetNamespace="Dictionary.xsd" xmlns="Dictionary.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"> 
    <xs:element name="UserConfiguration"> 
@@ -51,7 +47,7 @@ This property contains a UNICODE XML document that is using UTF8 encoding. A mes
 
 The following is a sample XML document stored in this property on a Configuration Data message: 
   
-```
+```xml
 <?xml version="1.0"?> 
 <UserConfiguration> 
 <Info version="Outlook.12"/> 

@@ -28,7 +28,7 @@ Describes a row from a table that contains selected properties for a specific ob
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SRow
 {
   ULONG ulAdrEntryPad;

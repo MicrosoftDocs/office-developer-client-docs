@@ -24,7 +24,7 @@ The MAPIOFFLINE_NOTIFY_TYPE of a notification identifies if a change in the conn
 
 See **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**. 
   
-```
+```cpp
 typedef enum { 
     MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE_START = 1,  
     MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE = 2,  

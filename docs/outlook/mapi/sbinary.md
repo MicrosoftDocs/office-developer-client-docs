@@ -28,7 +28,7 @@ Describes a property of type PT_BINARY.
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SBinary
 {
   ULONG      cb;

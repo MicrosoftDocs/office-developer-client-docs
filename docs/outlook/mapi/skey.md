@@ -22,7 +22,7 @@ Source key for an Outlook item.
   
 ## Quick Info
 
-```
+```cpp
 struct SKEY 
 { 
     GUID guid; 

@@ -22,7 +22,7 @@ Information for starting synchronization between a local store and a server. Thi
   
 ## Quick Info
 
-```
+```cpp
 struct SYNC 
 { 
     ULONG ulFlags; 

@@ -30,7 +30,7 @@ Defines a service provider entry point function which the Profile Wizard calls t
 |Defined function implemented by:  <br/> |Service providers  <br/> |
 |Defined function called by:  <br/> |MAPI Profile Wizard  <br/> |
    
-```
+```cpp
 ULONG WIZARDENTRY(
   HINSTANCE hProviderDLLInstance,
   LPSTR FAR * lpcsResourceName,

@@ -28,7 +28,7 @@ Contains an array of time values.
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SAppTimeArray
 {
   ULONG cValues;

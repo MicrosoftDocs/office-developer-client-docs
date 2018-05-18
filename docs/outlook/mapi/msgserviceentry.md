@@ -30,7 +30,7 @@ Defines a prototype for a message service entry point function to support messag
 |Defined function implemented by:  <br/> |Message services  <br/> |
 |Defined function called by:  <br/> |MAPI  <br/> |
    
-```
+```cpp
 HRESULT MSGSERVICEENTRY(
   HINSTANCE hInstance,
   LPMALLOC lpMalloc,

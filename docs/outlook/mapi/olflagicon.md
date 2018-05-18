@@ -22,7 +22,7 @@ Specifies whether an item is flagged, and if it is, the color associated with th
   
 ## Quick Info
 
-```
+```cpp
 enum OlFlagIcon { 
     olNoFlagIcon=0, 
     olPurpleFlagIcon=1, 

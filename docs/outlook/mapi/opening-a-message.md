@@ -1,5 +1,5 @@
 ---
-title: "Opening a Message"
+title: "Opening a message"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,17 +8,13 @@ api_type:
 - COM
 ms.assetid: 142c4975-08df-4501-9996-557aa44eafb3
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
-# Opening a Message
-
-  
-  
+# Opening a message
+ 
 **Applies to**: Outlook 
   
- **To open a message**
+### To open a message
   
 1. Retrieve the message's entry identifier from one of the following sources:
     
@@ -36,33 +32,33 @@ description: "Last modified: July 23, 2011"
     
   - [IMAPISession::OpenEntry](imapisession-openentry.md)
     
-    The fastest method is usable only for incoming messages and involves calling the receive folder's **IMAPIFolder::OpenEntry** method. The next fastest method, calling the message store's **IMsgStore::OpenEntry** method, is usable for all messages as is the slowest method, calling **IMAPISession::OpenEntry**.
+  The fastest method is usable only for incoming messages and involves calling the receive folder's **IMAPIFolder::OpenEntry** method. The next fastest method, calling the message store's **IMsgStore::OpenEntry** method, is usable for all messages as is the slowest method, calling **IMAPISession::OpenEntry**.
     
 > [!NOTE]
 > Folders and their contents tables can be closed at any time without adversely affecting any of the messages that were opened from within them. 
   
- **To open a message that has been saved on disk**
+### To open a message that has been saved on disk
   
 1. Call **StgOpenStorage** to retrieve an **IStorage** interface pointer, passing the name of the message file for the  _pwcsName_ parameter. 
     
-  ```
+  ```cpp
   LPSTORAGE pStorage = NULL;
   HRESULT hr = StgOpenStorage (L"MESSAGE.MSG", NULL,
                                STGM_TRANSACTED |
                                STGM_READWRITE |
                                STGM_SHARE_EXCLUSIVE,
-                               NULL, 0, &amp;pStorage);
+                               NULL, 0, &pStorage);
   
   ```
 
 2. Call **OpenIMsgOnIStg** to retrieve an **IMessage** interface pointer to access the message. 
     
-  ```
+  ```cpp
   LPMESSAGE pMessage = NULL;
   LPMALLOC pMalloc = MAPIGetDefaultMalloc();
   hr = OpenIMsgOnIStg (NULL, MAPIAllocateBuffer, MAPIAllocateMore,
                        MAPIFreeBuffer, pMalloc, NULL, pStorage,
-                       NULL, 0, 0, &amp;pMessage);
+                       NULL, 0, 0, &pMessage);
   
   ```
 

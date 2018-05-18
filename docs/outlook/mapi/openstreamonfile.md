@@ -30,7 +30,7 @@ Allocates and initializes an OLE **IStream** object to access the contents of a 
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 HRESULT STDMETHODCALLTYPE OpenStreamOnFile(
   LPALLOCATEBUFFER lpAllocateBuffer,
   LPFREEBUFFER lpFreeBuffer,

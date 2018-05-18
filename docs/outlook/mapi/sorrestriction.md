@@ -28,7 +28,7 @@ Describes an **OR** restriction which is used to apply a logical **OR** operatio
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SOrRestriction
 {
   ULONG cRes;

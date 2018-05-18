@@ -36,7 +36,7 @@ Defines a compression level to apply on image attachments.
 
 The following are valid compression levels:
   
-```
+```cpp
 enum PictureCompressLevel
 {
  pclOriginal = 0,

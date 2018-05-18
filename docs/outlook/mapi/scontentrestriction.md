@@ -28,7 +28,7 @@ Describes a content restriction, which is used to limit a table view to only tho
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SContentRestriction
 {
   ULONG        ulFuzzyLevel;

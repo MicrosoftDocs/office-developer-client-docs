@@ -30,7 +30,7 @@ Converts a null-terminated string of decimal digits into an unsigned integer.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 UINT UFromSz(
   LPCSTR lpsz
 );

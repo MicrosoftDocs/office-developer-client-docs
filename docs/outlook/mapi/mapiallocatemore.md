@@ -30,7 +30,7 @@ Allocates a memory buffer that is linked to another buffer previously allocated 
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 SCODE MAPIAllocateMore(
   ULONG cbSize,
   LPVOID lpObject,

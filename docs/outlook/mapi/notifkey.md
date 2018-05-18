@@ -28,7 +28,7 @@ Uniquely identifies a connection between an advise sink, an advise source, and M
 |:-----|:-----|
 |Header file:  <br/> |Mapispi.h  <br/> |
    
-```
+```cpp
 typedef struct
 {
   ULONG cb;

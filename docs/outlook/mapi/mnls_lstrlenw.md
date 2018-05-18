@@ -23,7 +23,7 @@ Determines the length of the specified Unicode string, excluding the terminating
 > [!TIP]
 > Consider using [StringCchLength](http://msdn.microsoft.com/en-us/library/ms647539%28VS.85%29.aspx) instead. 
   
-```
+```cpp
 int MNLS_lstrlen(
   LPCWSTR lpsz);
 ```

@@ -28,7 +28,7 @@ Maps an enumerated integer value to a display name for that value.
 |:-----|:-----|
 |Header file:  <br/> |Mapiform.h  <br/> |
    
-```
+```cpp
 typedef struct _SMAPIFormPropEnumVal
 {
   LPSTR pszDisplayName;

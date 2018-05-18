@@ -28,7 +28,7 @@ Conveys options to the [MAPIInitialize](mapiinitialize.md) function.
 |:-----|:-----|
 |Header file:  <br/> |MAPIX.H  <br/> |
    
-```
+```cpp
 typedef struct
 {
   ULONG ulVersion;

@@ -28,7 +28,7 @@ Describes a filter for limiting the view of a table to particular rows.
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SRestriction
 {
   ULONG rt;

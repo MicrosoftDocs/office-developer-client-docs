@@ -30,7 +30,7 @@ Provides an alternative way to invoke the OLE method **IUnknown::AddRef**.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 ULONG UlAddRef(
   LPVOID punk
 );

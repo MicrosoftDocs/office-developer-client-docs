@@ -30,7 +30,7 @@ Maps an SCODE return value from an OLE storage object to an HRESULT type.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 SCODE MapStorageSCode(
   SCODE StgSCode
 );

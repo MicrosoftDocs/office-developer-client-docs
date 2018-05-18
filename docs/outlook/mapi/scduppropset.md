@@ -30,7 +30,7 @@ Duplicates a property value array in a single block of MAPI memory combining the
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 SCODE ScDupPropset(
   int cprop,
   LPSPropValue rgprop,

@@ -22,7 +22,7 @@ Specifies the capabilities to return for a store.
   
 ## Quick Info
 
-```
+```cpp
 typedef enum 
 { 
     MSCAP_SEL_RESERVED1 = 0, 

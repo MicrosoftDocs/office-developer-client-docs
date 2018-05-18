@@ -1,7 +1,5 @@
 ---
 title: "SizedDtblGroupBox"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -18,8 +16,6 @@ description: "Last modified: March 09, 2015"
 
 # SizedDtblGroupBox
 
-  
-  
 **Applies to**: Outlook 
   
 Creates a named structure that includes a [DTBLGROUPBOX](dtblgroupbox.md) structure for describing a group box control and a label of a specified length. 
@@ -29,17 +25,17 @@ Creates a named structure that includes a [DTBLGROUPBOX](dtblgroupbox.md) struct
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**DTBLGROUPBOX** <br/> |
    
-```
+```cpp
 SizedDtblGroupBox (n, u)
 ```
 
 ## Parameters
 
- _n_
+_n_
   
 > Length of the group box's label. 
     
- _u_
+_u_
   
 > Name for the new structure.
     
@@ -47,7 +43,7 @@ SizedDtblGroupBox (n, u)
 
 The **SizedDtblGroupBox** macro lets you define a group box control when the length of the label is known. The new structure is created with the following members: 
   
-```
+```cpp
 DTBLGROUPBOX dtblgroupbox;
 TCHAR lpszLabel[n];
 
@@ -55,17 +51,13 @@ TCHAR lpszLabel[n];
 
 To use a pointer to the resulting structure from the **SizedDtblGroupBox** macro as a **DTBLGROUPBOX** structure pointer, perform the following cast: 
   
-```
-lpDtblGroupBox = (LPDTBLGROUPBOX) &amp;SizedDtblGroupBox;
+```cpp
+lpDtblGroupBox = (LPDTBLGROUPBOX) &SizedDtblGroupBox;
 
 ```
 
 ## See also
 
-#### Reference
-
-[DTBLGROUPBOX](dtblgroupbox.md)
-#### Concepts
-
-[Macros Related to Structures](macros-related-to-structures.md)
+- [DTBLGROUPBOX](dtblgroupbox.md)
+- [Macros Related to Structures](macros-related-to-structures.md)
 

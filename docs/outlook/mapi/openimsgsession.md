@@ -30,7 +30,7 @@ Creates and opens a message session that groups the messages created within it.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 SCODE OpenIMsgSession(
   LPMALLOC lpMalloc,
   ULONG ulFlags,

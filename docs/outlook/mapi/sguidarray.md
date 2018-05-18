@@ -28,7 +28,7 @@ Contains an array of [GUID](guid.md) structures that are used to describe a prop
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SGuidArray
 {
   ULONG cValues;

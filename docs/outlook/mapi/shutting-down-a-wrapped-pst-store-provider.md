@@ -28,7 +28,7 @@ The MAPI spooler calls the **[IMSProvider::Shutdown](imsprovider-shutdown.md)** 
   
 ## CMSProvider::ShutDown() Example
 
-```
+```cpp
 STDMETHODIMP CMSProvider::Shutdown(ULONG * pulFlags) 
 { 
     HRESULT hRes = S_OK; 

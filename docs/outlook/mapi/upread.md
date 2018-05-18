@@ -22,7 +22,7 @@ Information for uploading the read state of items during the [upload read status
   
 ## Quick Info
 
-```
+```cpp
 struct UPREAD 
 { 
     PUPREADE pupre; 

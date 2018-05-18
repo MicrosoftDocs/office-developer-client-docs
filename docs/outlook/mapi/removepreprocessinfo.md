@@ -30,7 +30,7 @@ Removes preprocessed information written by a [PreprocessMessage](preprocessmess
 |Defined function implemented by:  <br/> |Transport providers  <br/> |
 |Defined function called by:  <br/> |MAPI spooler  <br/> |
    
-```
+```cpp
 HRESULT RemovePreprocessInfo(
   LPMESSAGE lpMessage
 );

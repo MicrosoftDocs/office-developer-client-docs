@@ -28,7 +28,7 @@ Contains an array of LONG value types that are used to describe a property of ty
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SLongArray
 {
   ULONG cValues;

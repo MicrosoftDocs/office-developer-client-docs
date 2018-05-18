@@ -1,7 +1,5 @@
 ---
 title: "SizedSSortOrderSet"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -18,8 +16,6 @@ description: "Last modified: March 09, 2015"
 
 # SizedSSortOrderSet
 
-  
-  
 **Applies to**: Outlook 
   
 Creates a named [SSortOrderSet](ssortorderset.md) structure that contains a specified number of sort orders. 
@@ -29,17 +25,17 @@ Creates a named [SSortOrderSet](ssortorderset.md) structure that contains a spec
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**SSortOrderSet** <br/> |
    
-```
+```cpp
 SizedSSortOrderSet (_csort,_name)
 ```
 
 ## Parameters
 
- __csort_
+__csort_
   
 > Count of sort orders to be included in the new structure.
     
- __name_
+__name_
   
 > Name for the new structure.
     
@@ -49,17 +45,13 @@ Use the **SizedSSortOrderSet** macro to create a sort order set with explicit bo
   
 To use the new structure that results from the **SizedSSortOrderSet** macro as a pointer to an **SSortOrderSet** structure, perform the following cast: 
   
-```
-lpSSortOrderSet = (LPSSortOrderSet) &amp;SizedSSortOrderSet;
+```cpp
+lpSSortOrderSet = (LPSSortOrderSet) &SizedSSortOrderSet;
 
 ```
 
 ## See also
 
-#### Reference
-
-[SSortOrderSet](ssortorderset.md)
-#### Concepts
-
-[Macros Related to Structures](macros-related-to-structures.md)
+- [SSortOrderSet](ssortorderset.md)
+- [Macros Related to Structures](macros-related-to-structures.md)
 

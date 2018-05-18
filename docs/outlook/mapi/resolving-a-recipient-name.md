@@ -36,7 +36,7 @@ The **PR_ANR** restriction matches the value of the **PR_ANR** property against 
   
 1. Create an [SRestriction](srestriction.md) structure as shown in the following code: 
     
-  ```
+  ```cpp
   SRestriction SRestrict;
   SRestrict.rt = RES_PROPERTY;
   SRestrict.res.resProperty.relop = RELOP_EQ;

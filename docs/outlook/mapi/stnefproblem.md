@@ -28,7 +28,7 @@ Contains information about a property or attribute processing problem that occur
 |:-----|:-----|
 |Header file:  <br/> |Tnef.h  <br/> |
    
-```
+```cpp
 typedef struct _STnefProblem
 {
   ULONG ulComponent;

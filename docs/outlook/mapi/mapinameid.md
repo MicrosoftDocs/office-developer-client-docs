@@ -28,7 +28,7 @@ Describes a named property.
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _MAPINAMEID
 {
   LPGUID lpguid;

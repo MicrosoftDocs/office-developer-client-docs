@@ -24,7 +24,7 @@ Provides information to **[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)**
 
 See **IMAPIOfflineMgr::Advise**. 
   
-```
+```cpp
 typedef struct 
 { 
       ULONG                   ulSize; 

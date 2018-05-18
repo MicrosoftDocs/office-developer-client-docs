@@ -28,7 +28,7 @@ Describes a comment restriction, which is used to annotate a restriction.
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SCommentRestriction
 {
   ULONG          cValues;

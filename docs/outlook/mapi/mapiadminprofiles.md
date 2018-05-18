@@ -30,7 +30,7 @@ Creates a profile administration object.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications  <br/> |
    
-```
+```cpp
 HRESULT MAPIAdminProfiles(
   ULONG ulFlags,
   LPPROFADMIN FAR * lppProfAdmin

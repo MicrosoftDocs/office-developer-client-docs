@@ -22,7 +22,7 @@ Enumeration of supported types of callbacks.
   
 ## Quick Info
 
-```
+```cpp
 typedef enum  
 {  
      MAPIOFFLINE_CALLBACK_TYPE_NOTIFY = 0 

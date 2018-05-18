@@ -1,7 +1,5 @@
 ---
 title: "SizedSRowSet"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -18,8 +16,6 @@ description: "Last modified: March 09, 2015"
 
 # SizedSRowSet
 
-  
-  
 **Applies to**: Outlook 
   
 Creates a named [SRowSet](srowset.md) structure that contains a specified number of rows. 
@@ -29,17 +25,17 @@ Creates a named [SRowSet](srowset.md) structure that contains a specified number
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**SRowSet** <br/> |
    
-```
+```cpp
 SizedSRowSet (_crow, _name)
 ```
 
 ## Parameters
 
- __crow_
+__crow_
   
 > Count of the number of rows to be included in the new structure.
     
- __name_
+__name_
   
 > Name for the new structure.
     
@@ -47,17 +43,13 @@ SizedSRowSet (_crow, _name)
 
 To use the new structure that results from the **SizedSRowSet** macro as a pointer to an **SRowSet** structure, perform the following cast: 
   
-```
-lpSRowSet = (LPSRowSet) &amp;SizedSRowSet;
+```cpp
+lpSRowSet = (LPSRowSet) &SizedSRowSet;
 
 ```
 
 ## See also
 
-#### Reference
-
-[SRowSet](srowset.md)
-#### Concepts
-
-[Macros Related to Structures](macros-related-to-structures.md)
+- [SRowSet](srowset.md)
+- [Macros Related to Structures](macros-related-to-structures.md)
 

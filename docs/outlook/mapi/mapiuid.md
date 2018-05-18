@@ -29,7 +29,7 @@ A byte-order independent version of a [GUID](guid.md) structure that is used to 
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related macro:  <br/> |[IsEqualMAPIUID](isequalmapiuid.md) <br/> |
    
-```
+```cpp
 typedef struct _MAPIUID
 {
   BYTE ab[16];

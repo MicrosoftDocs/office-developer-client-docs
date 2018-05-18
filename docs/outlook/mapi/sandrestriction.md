@@ -28,7 +28,7 @@ Describes an **AND** restriction, which is used to join a group of restrictions 
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SAndRestriction
 {
   ULONG cRes;

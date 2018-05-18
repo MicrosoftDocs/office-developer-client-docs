@@ -28,7 +28,7 @@ Defines how to sort the rows of a table, what column to use as the sort key, and
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SSortOrder
 {
   ULONG ulPropTag;

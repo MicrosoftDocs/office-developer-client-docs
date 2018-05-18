@@ -30,7 +30,7 @@ Shuts down the MAPI idle engine for the calling application.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 void MAPIDeInitIdle( void );
 ```
 

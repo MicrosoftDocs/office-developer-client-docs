@@ -29,7 +29,7 @@ Creates a named structure that includes a [DTBLBUTTON](dtblbutton.md) structure 
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**DTBLBUTTON** <br/> |
    
-```
+```cpp
 SizedDtblButton (n, u)
 ```
 

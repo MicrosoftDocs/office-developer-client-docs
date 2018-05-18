@@ -22,7 +22,7 @@ Queue of long-term ID structures used by the Personal Folders file (PST) store p
   
 ## Quick Info
 
-```
+```cpp
 typedef struct { 
     ULONG    ulVersion; 
     MAPIUID  muidReserved; 

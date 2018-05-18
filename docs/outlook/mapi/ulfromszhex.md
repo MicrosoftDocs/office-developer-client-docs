@@ -30,7 +30,7 @@ Converts a null-terminated string of hexadecimal digits into an unsigned long in
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 ULONG UlFromSzHex(
 LPCSTR lpsz
 );

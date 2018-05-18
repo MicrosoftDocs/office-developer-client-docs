@@ -28,7 +28,7 @@ Contains information about an object that has undergone a change, such as being 
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _OBJECT_NOTIFICATION
 {
   ULONG cbEntryID;

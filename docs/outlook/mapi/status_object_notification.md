@@ -28,7 +28,7 @@ Describes a status object that has been affected by a change.
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct
 {
   ULONG cbEntryID;

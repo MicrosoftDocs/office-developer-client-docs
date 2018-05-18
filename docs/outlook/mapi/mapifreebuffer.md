@@ -30,7 +30,7 @@ Frees a memory buffer allocated with a call to the [MAPIAllocateBuffer](mapiallo
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 ULONG MAPIFreeBuffer(
   LPVOID lpBuffer
 );

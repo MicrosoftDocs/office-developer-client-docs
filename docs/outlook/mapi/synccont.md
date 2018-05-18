@@ -1,7 +1,5 @@
 ---
 title: "SYNCCONT"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,15 +12,13 @@ description: "Last modified: July 23, 2011"
 
 # SYNCCONT
 
-  
-  
 **Applies to**: Outlook 
   
 Information for synchronizing the contents of specified folders in a local store with the server during the [synchronize contents state](synchronize-contents-state.md). This involves just uploading, or a full synchronization involving an upload and then a download.
   
 ## Quick Info
 
-```
+```cpp
 struct SYNCCONT 
 { 
    ULONG   ulFlags; 
@@ -36,41 +32,37 @@ struct SYNCCONT
 
 ## Members
 
- _ulFlags_
+_ulFlags_
   
 > [in] Flags to determine the appropriate behavior during synchronization.
     
-    - UPC_OK
+  - UPC_OK
     
   - [in] Upload or full synchronization was successful. The client sets this after synchronizing information with the server.
     
- _iEnt_
+_iEnt_
   
 > [out] Index to track synchronizing the contents in the number of folders specified by  _cEnt_.
     
- _cEnt_
+_cEnt_
   
 > [out] Number of folders to be replicated.
     
- _pvReserved_
+_pvReserved_
   
 > This member is reserved for the internal use of Outlook and is not supported. 
     
- _ptagaReserved_
+_ptagaReserved_
   
 > This member is reserved for the internal use of Outlook and is not supported. 
     
- _psosReserved_
+_psosReserved_
   
 > This member is reserved for the internal use of Outlook and is not supported. 
     
 ## See also
 
-#### Concepts
-
-[About the Replication API](about-the-replication-api.md)
-  
-[About the Replication State Machine](about-the-replication-state-machine.md)
-  
-[MAPI Constants](mapi-constants.md)
+- [About the Replication API](about-the-replication-api.md)
+- [About the Replication State Machine](about-the-replication-state-machine.md)
+- [MAPI Constants](mapi-constants.md)
 

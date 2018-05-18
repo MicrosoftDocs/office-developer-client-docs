@@ -28,7 +28,7 @@ Describes an error that relate to an operation involving a property.
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SPropProblem
 {
   ULONG ulIndex;

@@ -1,5 +1,5 @@
 ---
-title: "Creating a Distribution List"
+title: "Creating a distribution list"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,7 +10,7 @@ ms.assetid: b63a6024-910d-4569-a3b4-c3ebf0b32c3d
 description: "Last modified: July 23, 2011"
 ---
 
-# Creating a Distribution List
+# Creating a distribution list
 
 **Applies to**: Outlook 
   
@@ -35,7 +35,7 @@ Clients can create a distribution list directly into a modifiable container such
    ```cpp
     LPENTRYID peidPAB = NULL;
     ULONG cbeidPAB = 0;
-    lpIAddrBook->GetPAB(&amp;cbeidPAB, &amp;peidPAB);
+    lpIAddrBook->GetPAB(&cbeidPAB, &peidPAB);
    ```
 
 3. Call [IAddrBook::OpenEntry](iaddrbook-openentry.md) to open the PAB. The  _ulObjType_ output parameter should be set to MAPI_ABCONT. 
@@ -46,8 +46,8 @@ Clients can create a distribution list directly into a modifiable container such
     lpIAddrBook->OpenEntry(cbeidPAB, peidPAB,
                     NULL,
                     MAPI_MODIFY,
-                    &amp;ulObjType,
-                    &amp;lpPABCont);
+                    &ulObjType,
+                    &lpPABCont);
    ```
 
 4. Call the PAB's [IMAPIProp::GetProps](imapiprop-getprops.md) method to retrieve the PR_DEF_CREATE_DL property, the template that it uses to create a distribution list. 
@@ -55,7 +55,7 @@ Clients can create a distribution list directly into a modifiable container such
    ```cpp
     lpPABCont->GetProps(0,
                 tagaDefaultDL,
-                &amp;lpspvDefDLTpl);
+                &lpspvDefDLTpl);
     
    ```
 
@@ -81,7 +81,7 @@ Clients can create a distribution list directly into a modifiable container such
     lpPABCont->CreateEntry(cbeidDefDLTpl,
                     peidDefDLTPL,
                     CREATE_CHECK_DUP_STRICT,
-                    &amp;lpNewPABEntry);
+                    &lpNewPABEntry);
    ```
 
 8. Call the new entry's **IUnknown::QueryInterface** method, passing IID_IDistList as the interface identifier, to determine if the entry is a distribution list and supports the [IDistList : IMAPIContainer](idistlistimapicontainer.md) interface. Because **CreateEntry** returns an **IMAPIProp** pointer rather than the more specific **IMailUser** or **IDistList** pointer, check that a distribution list object was created. If **QueryInterface** succeeds, you can be sure that you have created a distribution list rather than a messaging user. 

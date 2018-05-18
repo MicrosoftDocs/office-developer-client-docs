@@ -28,7 +28,7 @@ Describes a compare property restriction, which tests two properties using a rel
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SComparePropsRestriction
 {
   ULONG relop;

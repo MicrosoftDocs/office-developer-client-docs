@@ -22,7 +22,7 @@ This structure provides information about a stream in native format returned fro
   
 ## Quick Info
 
-```
+```cpp
 typedef struct { 
     ULONG size;    
     ULONG ulStreamFlags; 

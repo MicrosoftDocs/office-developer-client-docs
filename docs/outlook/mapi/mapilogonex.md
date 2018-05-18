@@ -30,7 +30,7 @@ Logs a client application on to a session with the messaging system.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications  <br/> |
    
-```
+```cpp
 HRESULT MAPILogonEx(
   ULONG_PTR ulUIParam,
   LPSTR lpszProfileName,

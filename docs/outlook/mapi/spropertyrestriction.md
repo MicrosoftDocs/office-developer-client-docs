@@ -28,7 +28,7 @@ Describes a property restriction that is used to match a constant with the value
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SPropertyRestriction
 {
   ULONG relop;

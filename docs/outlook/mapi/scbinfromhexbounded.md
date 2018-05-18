@@ -30,7 +30,7 @@ Converts the specified portion of a string representation of a hexadecimal numbe
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 SCODE ScBinFromHexBounded(
   LPSTR sz,
   LPBYTE pb,

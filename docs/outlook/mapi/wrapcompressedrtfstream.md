@@ -30,7 +30,7 @@ Creates a text stream in uncompressed Rich Text Format (RTF) from the compressed
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications  <br/> |
    
-```
+```cpp
 HRESULT WrapCompressedRTFStream(
   LPSTREAM lpCompressedRTFStream,
   ULONG ulflags,

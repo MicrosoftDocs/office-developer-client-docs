@@ -20,7 +20,7 @@ description: "Last modified: June 18, 2012"
   
 Compares two Unicode strings.
   
-```
+```cpp
 int MNLS_lstrcmpW(
   LPCWSTR lpString1,
   LPCWSTR lpString2);

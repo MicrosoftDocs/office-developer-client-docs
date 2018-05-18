@@ -30,7 +30,7 @@ Copies a single property value from a source location to a destination location.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 SCODE PropCopyMore(
   LPSPropValue lpSPropValueDest,
   LPSPropValue lpSPropValueSrc,

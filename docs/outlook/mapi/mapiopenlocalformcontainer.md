@@ -30,7 +30,7 @@ Returns an interface pointer to the local form library.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications  <br/> |
    
-```
+```cpp
 MAPIOpenLocalFormContainer(
   LPMAPIFORMCONTAINER FAR * ppfcnt
 );

@@ -1,7 +1,5 @@
 ---
 title: "RTFSync"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -18,8 +16,6 @@ description: "Last modified: March 09, 2015"
 
 # RTFSync
 
-  
-  
 **Applies to**: Outlook 
   
 Makes sure that the Rich Text Format (RTF) message text matches the plain text version. It is necessary to call this function before reading the RTF version and after modifying the RTF version. 
@@ -30,7 +26,7 @@ Makes sure that the Rich Text Format (RTF) message text matches the plain text v
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |RTF-aware client applications and message store providers  <br/> |
    
-```
+```cpp
 HRESULT RTFSync(
   LPMESSAGE lpMessage,
   ULONG ulFlags,
@@ -40,11 +36,11 @@ HRESULT RTFSync(
 
 ## Parameters
 
- _lpMessage_
+_lpMessage_
   
 > [in] Pointer to the message to be updated.
     
- _ulFlags_
+_ulFlags_
   
 > [in] Bitmask of flags used to indicate the RTF or plain text version of the message has changed. The following flags can be set:
     
@@ -56,9 +52,9 @@ RTF_SYNC_RTF_CHANGED
   
 > The RTF version of the message has changed.
     
-    All other bits in the  _ulFlags_ parameter are reserved for future use. 
+  All other bits in the  _ulFlags_ parameter are reserved for future use. 
     
- _lpfMessageUpdated_
+_lpfMessageUpdated_
   
 > [out] Pointer to a variable indicating whether there is an updated message. TRUE if there is an updated message, FALSE otherwise.
     
@@ -84,7 +80,5 @@ For more information, see [Supporting RTF Text for Message Store Providers](supp
   
 ## See also
 
-#### Reference
-
-[WrapCompressedRTFStream](wrapcompressedrtfstream.md)
+- [WrapCompressedRTFStream](wrapcompressedrtfstream.md)
 

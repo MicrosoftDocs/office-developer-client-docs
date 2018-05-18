@@ -22,7 +22,7 @@ Information for items that have been deleted in a local store. This information 
   
 ## Quick Info
 
-```
+```cpp
 struct UPDEL 
 { 
     PUPDELE pupde; 

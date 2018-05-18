@@ -28,7 +28,7 @@ Contains an array of [LARGE_INTEGER](http://go.microsoft.com/fwlink/?LinkId=1321
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SLargeIntegerArray
 {
   ULONG cValues;

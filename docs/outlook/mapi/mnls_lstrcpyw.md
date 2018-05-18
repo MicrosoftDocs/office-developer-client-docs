@@ -23,7 +23,7 @@ Copies a string to a buffer.
 > [!CAUTION]
 > Do not use. Consider using [StringCchCopy](http://msdn.microsoft.com/en-us/library/ms647527%28VS.85%29.aspx) instead. 
   
-```
+```cpp
 LPWSTR MNLS_lstrcpyW(
  LPWSTR lpString1,
 LPCWSTR lpString2);

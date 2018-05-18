@@ -28,7 +28,7 @@ Describes information that relate to the arrival of a new message.
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _NEWMAIL_NOTIFICATION
 {
   ULONG cbEntryID;

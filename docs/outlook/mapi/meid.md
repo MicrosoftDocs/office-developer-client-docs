@@ -22,7 +22,7 @@ Identifier for an Outlook item. It contains an entry identifier and other releva
   
 ## Quick Info
 
-```
+```cpp
 struct MEID 
 { 
     BYTE abFlags[4]; 

@@ -28,7 +28,7 @@ Describes a **NOT** restriction, which is used to apply a logical **NOT** operat
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SNotRestriction
 {
   ULONG ulReserved;

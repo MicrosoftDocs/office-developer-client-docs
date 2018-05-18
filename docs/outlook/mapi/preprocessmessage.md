@@ -30,7 +30,7 @@ Defines a function that preprocesses message contents or the format of a message
 |Defined function implemented by:  <br/> |Transport providers  <br/> |
 |Defined function called by:  <br/> |MAPI spooler  <br/> |
    
-```
+```cpp
 HRESULT PreprocessMessage(
   LPVOID lpvSession,
   LPMESSAGE lpMessage,

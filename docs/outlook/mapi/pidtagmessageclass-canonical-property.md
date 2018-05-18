@@ -43,7 +43,7 @@ Every message is required to furnish these properties. Normally, the client appl
   
 The values defined by MAPI are: 
   
-```
+```cpp
 IPM.Note for a standard interpersonal message 
 REPORT.<subject message class>.DR for a delivery report 
 REPORT.<subject message class>.NDR for a nondelivery report 

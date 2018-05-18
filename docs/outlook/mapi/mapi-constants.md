@@ -46,7 +46,7 @@ DECLARE_MAPI_INTERFACE_(IAttachmentSecurity, IUnknown)
 };
 ```
 
-## MAPI-MIME Conversion API
+## MAPI-MIME conversion API
 
 This section contains constant definitions and class and interface identifiers for the MAPI-MIME Conversion API.
   

@@ -30,7 +30,7 @@ Converts a message store's internal entry identifier to an entry identifier more
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 WrapStoreEntryID(
   ULONG ulFlags,
   LPSTR szDLLName,

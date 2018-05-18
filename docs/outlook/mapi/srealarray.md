@@ -28,7 +28,7 @@ Contains an array of float values that are used to describe a property of type P
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SRealArray
 {
   ULONG cValues;

@@ -29,7 +29,7 @@ Contains an array of pointers to message class strings.
 |Header file:  <br/> |Mapiform.h  <br/> |
 |Related macro:  <br/> |[CbMessageClassArray](cbmessageclassarray.md) <br/> |
    
-```
+```cpp
 typedef struct 
 {
   ULONG cValues;

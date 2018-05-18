@@ -22,7 +22,7 @@ This structure enables you to specify information to decompress the body of a me
   
 ## Quick Info
 
-```
+```cpp
 typedef struct { 
     ULONG size; 
     ULONG ulFlags; 
