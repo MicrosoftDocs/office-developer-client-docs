@@ -29,7 +29,7 @@ Computes the number of bytes to be allocated for a new [SizedSSortOrderSet](size
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**SSortOrderSet** <br/> |
    
-```
+```cpp
 CbNewSSortOrderSet (_csort)
 ```
 
@@ -41,12 +41,12 @@ CbNewSSortOrderSet (_csort)
     
 ## See also
 
-#### Reference
+
 
 [SizedSSortOrderSet](sizedssortorderset.md)
   
 [SSortOrder](ssortorder.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

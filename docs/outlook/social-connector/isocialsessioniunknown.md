@@ -42,7 +42,7 @@ An OSC provider must implement this interface to communicate with the OSC.
   
 ## See also
 
-#### Concepts
+
 
 [Outlook Social Connector Provider Interfaces](outlook-social-connector-provider-interfaces.md)
 

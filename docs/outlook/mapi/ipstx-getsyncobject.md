@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Starts a synchronization session and gets the associated **[IOSTX](iostxiunknown.md)** interface. 
   
-```
+```cpp
 HRESULT GetSyncObject( 
    IOSTX **ppostx 
 );
@@ -42,7 +42,7 @@ The caller must ensure that the same folder is not synchronized at the same time
   
 ## See also
 
-#### Reference
+
 
 [IPSTX::EmulateSpooler](ipstx-emulatespooler.md)
   

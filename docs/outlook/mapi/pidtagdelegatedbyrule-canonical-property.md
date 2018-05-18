@@ -31,9 +31,9 @@ Indicates whether a folder's message is delegated by a rule.
 |Data type:  <br/> |PT_BOOLEAN  <br/> |
 |Area:  <br/> |MAPI status  <br/> |
    
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXODLGT]](http://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
@@ -43,7 +43,7 @@ Indicates whether a folder's message is delegated by a rule.
   
 > Manipulates incoming e-mail messages on a server.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -55,7 +55,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

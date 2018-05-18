@@ -132,12 +132,12 @@ The following information applies to the Windows registry values listed in the t
     
 ## See also
 
-#### Concepts
+
 
 [Capabilities XML Example](capabilities-xml-example.md)
   
 [XML for Capabilities](xml-for-capabilities.md)
-#### Other resources
+
 
 [Developing a Provider with the OSC XML Schema](developing-a-provider-with-the-osc-xml-schema.md)
   

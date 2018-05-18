@@ -35,9 +35,9 @@ Contains the category of a form.
 
 The category name is defined by a client application in a way that is appropriate to the application. 
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

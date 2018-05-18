@@ -88,7 +88,7 @@ MessageBox.Show("Data source data: " +
    myDataSource.CreateNavigator().InnerXml.ToString());
 ```
 
-```VB.net
+```vb
 ' Instantiate a variable to access the specified data source
 ' from the DataSourceCollection of the form.
 Dim myDataSource As DataSource = _
@@ -117,7 +117,7 @@ ADOQueryConnection myADOConnection =
 MessageBox.Show("Connection string: " + myADOConnection.Connection);
 ```
 
-```VB.net
+```vb
 ' Instantiate a variable to access the specified data connection
 ' from the DataConnectionCollection of the form. 
 ' You must cast to the specific data connection type
@@ -130,7 +130,7 @@ MessageBox.Show("Connection string: " &amp; myADOConnection.Connection)
 
 ## See also
 
-#### Concepts
+
 
 [Creating InfoPath Form Templates That Work With InfoPath Forms Services](creating-infopath-form-templates-that-work-with-infopath-forms-services.md)
 

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Creates a new message.
   
-```
+```cpp
 HRESULT CreateMessage(
   LPCIID lpInterface,
   ULONG ulFlags,
@@ -68,13 +68,13 @@ S_OK
 
 The **IMAPIFolder::CreateMessage** method creates a new message with generic or associated content and assigns an entry identifier. The entry identifier consists of a part that represents the message store provider and a part that represents the individual message. 
   
-## Notes to Implementers
+## Notes to implementers
 
 You can choose whether to set all of the required message properties in **CreateMessage** or in the message's [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method. You do not have to make these properties available until a successful save has occurred. 
   
 For more information about how to work with associated information, see [Folder-Associated Information Tables](folder-associated-information-tables.md) and [Contents Tables](contents-tables.md). 
   
-## Notes to Callers
+## Notes to callers
 
 Some message store providers allow the entry identifier of the new message to be available immediately after **CreateMessage** returns; other message store providers delay its availability until the message is saved. Because not all message store providers generate an entry identifier for a new message until you have called the message's **IMAPIProp::SaveChanges** method, you may be unable to access the entry identifier when **CreateMessage** returns. Also, the new message may not be included in the folder's contents table until the save occurs. 
   
@@ -94,12 +94,12 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIProp::SaveChanges](imapiprop-savechanges.md)
   
 [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

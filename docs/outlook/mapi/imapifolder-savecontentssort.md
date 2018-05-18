@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Sets the default sort order for a folder's contents table.
   
-```
+```cpp
 HRESULT SaveContentsSort(
   LPSSortOrderSet lpSortCriteria,
   ULONG ulFlags
@@ -63,7 +63,7 @@ Not all message store providers support **SaveContentsSort**; it is acceptable f
   
 ## See also
 
-#### Reference
+
 
 [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md)
   

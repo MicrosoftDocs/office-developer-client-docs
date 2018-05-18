@@ -102,7 +102,7 @@ These procedures use a Windows console application to manipulate the "Visio Pack
   
   ```
 
-  ```VB.net
+  ```vb
   Imports System.Xml
   Imports System.Xml.Linq
   Imports System.IO
@@ -121,7 +121,7 @@ These procedures use a Windows console application to manipulate the "Visio Pack
   
   ```
 
-  ```VB.net
+  ```vb
   ' This code stops the execution of the console application
   ' so you can read the output.
   Console.WriteLine("Press any key to continue ...")
@@ -170,7 +170,7 @@ Use the following code to get the full path for the "Visio Package.vsdx" file by
   }
   ```
 
-  ```VB.net
+  ```vb
   Private Function OpenPackage(fileName As String, _
       folder As Environment.SpecialFolder) As Package
       Dim visioPackage As Package = Nothing
@@ -208,7 +208,7 @@ Use the following code to get the full path for the "Visio Package.vsdx" file by
   
   ```
 
-  ```VB.net
+  ```vb
   ' Open the Visio file in a Package object.
   Using visioPackage As Package = OpenPackage("Visio Package.vsdx", _
       Environment.SpecialFolder.Desktop)
@@ -243,7 +243,7 @@ Use the code in the following procedure to get a **PackagePartCollection** objec
   
   ```
 
-  ```VB.net
+  ```vb
   Private Sub IteratePackageParts(filePackage As Package)
       ' Get all of the package parts contained in the package
       ' and then write the URI and content type of each one to the console.
@@ -264,7 +264,7 @@ Use the code in the following procedure to get a **PackagePartCollection** objec
   
   ```
 
-  ```VB.net
+  ```vb
   ' Write the URI and content type of each package part to the console.
   IteratePackageParts(visioPackage)
   
@@ -343,7 +343,7 @@ Use the following procedure to get a **PackagePart** (the Visio Document part) b
   
   ```
 
-  ```VB.net
+  ```vb
   Private Function GetPackagePart(filePackage As Package, relationship As String) _
       As PackagePart
       ' Use the namespace that describes the relationship 
@@ -373,7 +373,7 @@ Use the following procedure to get a **PackagePart** (the Visio Document part) b
   
   ```
 
-  ```VB.net
+  ```vb
   ' Get a reference to the Visio Document part contained in the file package.
   Dim documentPart As PackagePart = GetPackagePart(visioPackage, _
       "http://schemas.microsoft.com/visio/2010/relationships/document")
@@ -414,7 +414,7 @@ Use the following code to get a **PackagePart** from the **Package** by using it
   
   ```
 
-  ```VB.net
+  ```vb
   Private Function GetPackagePart(filePackage As Package, 
       sourcePart As PackagePart, relationship As String) As PackagePart
       ' This gets only the first PackagePart that shares the relationship
@@ -447,7 +447,7 @@ Use the following code to get a **PackagePart** from the **Package** by using it
   
   ```
 
-  ```VB.net
+  ```vb
   ' Get a reference to the collection of pages in the document,
   ' and then to the first page in the document.
   Dim pagesPart As PackagePart = GetPackagePart(visioPackage, documentPart, _
@@ -478,7 +478,7 @@ Use the following procedure to open a **PackagePart** as an XML document in an *
   }
   ```
 
-  ```VB.net
+  ```vb
   Private Function GetXMLFromPart(packagePart As PackagePart) As XDocument
       Dim partXml As XDocument = Nothing
       ' Open the packagePart as a stream and then
@@ -496,7 +496,7 @@ Use the following procedure to open a **PackagePart** as an XML document in an *
   XDocument pageXML = GetXMLFromPart(pagePart);
   ```
 
-  ```VB.net
+  ```vb
   ' Open the XML from the Page Contents part.
   Dim pageXML As XDocument = GetXMLFromPart(pagePart)
   ```
@@ -529,7 +529,7 @@ Use the following code to select the **Shape** elements from an **XDocument** (c
   
   ```
 
-  ```VB.net
+  ```vb
   Private Function GetXElementsByName(partXML As XDocument, _
       elementType As String) As IEnumerable(Of XElement)
       ' Construct a LINQ query that selects elements by their element type.
@@ -562,7 +562,7 @@ Use the following code to select the **Shape** elements from an **XDocument** (c
   }
   ```
 
-  ```VB.net
+  ```vb
   Private Function GetXElementByAttribute(elements As IEnumerable(Of XElement), _
       attributeName As String, attributeValue As String) As XElement
       ' Construct a LINQ query that selects elements from a group
@@ -593,7 +593,7 @@ Use the following code to select the **Shape** elements from an **XDocument** (c
   
   ```
 
-  ```VB.net
+  ```vb
   ' Get all of the shapes from the page by getting
   ' all of the Shape elements from the pageXML document.
   Dim shapesXML As IEnumerable(Of XElement) = GetXElementsByName( _
@@ -621,7 +621,7 @@ textElement.LastNode.ReplaceWith("Start process");
 
 ```
 
-```VB.net
+```vb
 ' Query the XML for the shape to get the Text element, and
 ' return the first Text element node.
 Dim textElements As IEnumerable(Of XElement) =
@@ -667,7 +667,7 @@ Use the following procedure to save the XML from the Visio page back to the Page
   }
   ```
 
-  ```VB.net
+  ```vb
   Private Sub SaveXDocumentToPart(packagePart As PackagePart, _
       partXML As XDocument)
       ' Create a new XmlWriterSettings object to 
@@ -692,7 +692,7 @@ Use the following procedure to save the XML from the Visio page back to the Page
   
   ```
 
-  ```VB.net
+  ```vb
   ' Save the XML back to the Page Contents part.
   SaveXDocumentToPart(pagePart, pageXML)
   
@@ -738,7 +738,7 @@ Use the following procedure to insert a **Cell** element into a **Shape** elemen
   
   ```
 
-  ```VB.net
+  ```vb
   ' Insert a new Cell element in the shape that adds an arbitrary local
   ' ThemeIndex value. This code assumes that the shape does not
   ' alrady have a local ThemeIndex cell.
@@ -808,7 +808,7 @@ Use the following code to change the value of the **PinY** cell of the Start/End
   }
   ```
 
-  ```VB.net
+  ```vb
   Private Sub RecalcDocument(filePackage As Package)
           ' Get the Custom File Properties part from the package and
           ' then extract the XML from it.
@@ -902,7 +902,7 @@ Use the following code to change the value of the **PinY** cell of the Start/End
   
   ```
 
-  ```VB.net
+  ```vb
   Private Function CheckForRecalc(customPropsXDoc As XDocument) As Integer
       ' Set the initial pidValue to -1, which is not an allowed value. 
       ' The calling code test to see whether the pidValue is
@@ -960,7 +960,7 @@ Use the following code to change the value of the **PinY** cell of the Start/End
   
   ```
 
-  ```VB.net
+  ```vb
   ' Change the shape's horizontal position on the page
   ' by getting a reference to the Cell element for the PinY
   ' ShapeSheet cell and changing the value of its V attribute.
@@ -1037,7 +1037,7 @@ Use the following procedure to create a new Ribbon Extensibility part in the Vis
   }
   ```
 
-  ```VB.net
+  ```vb
   Private Function CreateCustomUI() As XDocument
       ' Add a new Custom User Interface document part to the package.
       ' This code adds a new CUSTOM tab to the ribbon for this
@@ -1102,7 +1102,7 @@ Use the following procedure to create a new Ribbon Extensibility part in the Vis
   }
   ```
 
-  ```VB.net
+  ```vb
   Private Sub CreateNewPackagePart(filePackage As Package, _
       partXML As XDocument, packageLocation As Uri, contentType As String, _
       relationship As String)
@@ -1138,7 +1138,7 @@ Use the following procedure to create a new Ribbon Extensibility part in the Vis
       "http://schemas.microsoft.com/office/2006/relationships/ui/extensibility");
   ```
 
-  ```VB.net
+  ```vb
   ' Create a new Ribbon Extensibility part and add it to the file.
   Dim customUIXML As XDocument = CreateCustomUI()
   CreateNewPackagePart(visioPackage, customUIXML, _

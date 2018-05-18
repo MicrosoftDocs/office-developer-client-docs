@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Provides access to the provider table, a listing of the service providers in the profile.
   
-```
+```cpp
 HRESULT GetProviderTable(
   ULONG ulFlags,
   LPMAPITABLE FAR * lppTable
@@ -59,19 +59,19 @@ If the profile has no providers, **GetProviderTable** returns a table with zero 
   
 For a complete list of the columns in the provider table, see [Provider Table](provider-tables.md). 
   
-## Notes to Callers
+## Notes to callers
 
 To retrieve the rows of a provider table in transport order, use the following procedure:
   
-1. Call the [IMAPITable::Restrict](imapitable-restrict.md) method to impose a property restriction that matches the **PR_RESOURCE_TYPE** ( [PidTagResourceType](pidtagresourcetype-canonical-property.md)) property with MAPI_TRANSPORT_PROVIDER.
+1. Call the [IMAPITable::Restrict](imapitable-restrict.md) method to impose a property restriction that matches the **PR_RESOURCE_TYPE** ([PidTagResourceType](pidtagresourcetype-canonical-property.md)) property with MAPI_TRANSPORT_PROVIDER.
     
-2. Call the [IMAPITable::SortTable](imapitable-sorttable.md) method to sort the table by the **PR_PROVIDER_ORDINAL** ( [PidTagProviderOrdinal](pidtagproviderordinal-canonical-property.md)) column. 
+2. Call the [IMAPITable::SortTable](imapitable-sorttable.md) method to sort the table by the **PR_PROVIDER_ORDINAL** ([PidTagProviderOrdinal](pidtagproviderordinal-canonical-property.md)) column. 
     
 3. Call the [IMAPITable::QueryRows](imapitable-queryrows.md) method to get the rows of the table. 
     
 An alternative to these calls is to make a single call to the [HrQueryAllRows](hrqueryallrows.md) function with all of the appropriate data structures passed in. 
   
-If you retrieve the **PR_SERVICE_UID** ( [PidTagServiceUid](pidtagserviceuid-canonical-property.md)) columns in each of the rows, you can use this array of **MAPIUID** structures to set the transport order in a call to [IMsgServiceAdmin::MsgServiceTransportOrder](imsgserviceadmin-msgservicetransportorder.md).
+If you retrieve the **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) columns in each of the rows, you can use this array of **MAPIUID** structures to set the transport order in a call to [IMsgServiceAdmin::MsgServiceTransportOrder](imsgserviceadmin-msgservicetransportorder.md).
   
 Setting the MAPI_UNICODE flag in the  _ulFlags_ parameter does the following: 
   
@@ -83,7 +83,7 @@ Setting the MAPI_UNICODE flag in the  _ulFlags_ parameter does the following:
     
 ## See also
 
-#### Reference
+
 
 [IMsgServiceAdmin::GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md)
   

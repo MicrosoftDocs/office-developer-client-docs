@@ -69,7 +69,7 @@ public void CheckErrors(XPathNavigator xmlNode)
 }
 ```
 
-```VB.net
+```vb
 Public Sub CheckErrors(ByVal xmlNode As XPathNavigator)
    Dim err As FormError
    For Each err In Me.Errors
@@ -86,7 +86,7 @@ The preceding function could be called from one of the form's data validation ev
 CheckErrors(e.Site);
 ```
 
-```VB.net
+```vb
 CheckErrors(e.Site)
 ```
 
@@ -111,7 +111,7 @@ catch (Exception ex)
 }
 ```
 
-```VB.net
+```vb
 Dim queryXMLFile As FileQueryConnection = _
    DirectCast(Me.DataConnections("form1"), FileQueryConnection)
 ' Perform the query.

@@ -33,11 +33,11 @@ Contains TRUE if a client application wants MAPI to delete the associated messag
    
 ## Remarks
 
-A client application uses this property with the **PR_SENTMAIL_ENTRYID** ( [PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) property to control what happens to a message after it is submitted. Either one or the other should be set, but not both. 
+A client application uses this property with the **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) property to control what happens to a message after it is submitted. Either one or the other should be set, but not both. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -51,7 +51,7 @@ A client application uses this property with the **PR_SENTMAIL_ENTRYID** ( [PidT
   
 > Specifies the properties and operations that are permissible for e-mail message objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -63,7 +63,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

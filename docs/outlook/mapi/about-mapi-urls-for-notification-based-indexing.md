@@ -6,14 +6,10 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 9cb35f0a-267e-2d85-1701-02d52578a0b8
 description: "Last modified: November 08, 2011"
- 
- 
 ---
 
 # About MAPI URLs for Notification-Based Indexing
 
- 
-  
 **Applies to**: Outlook 
   
 When a store provider notifies an indexer that an object is ready for indexing, it generates a MAPI URL that uniquely identifies the object to the MAPI Protocol Handler. MAPI URLs are encoded in Unicode, and have the following format: 
@@ -143,7 +139,7 @@ The store provider must write these values to the BLOB in the order shown. The f
     
 ## See also
 
-#### Concepts
+
 
 [About Notification-Based Store Indexing](about-notification-based-store-indexing.md)
   

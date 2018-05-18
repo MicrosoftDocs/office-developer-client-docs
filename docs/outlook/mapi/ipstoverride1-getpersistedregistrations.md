@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Retrieves the list of registrations for the Personal Folders (.pst) file.
   
-```
+```cpp
 HRESULT GetPersistedRegistration(SPropValue **ppmval);
 ```
 
@@ -45,7 +45,7 @@ S_OK
     
 ## See also
 
-#### Reference
+
 
 [IPSTOVERRIDE1 : IUnknown](ipstoverride1iunknown.md)
   

@@ -28,7 +28,7 @@ int ShowOptions(HWND hWndParent)
   
 > A handle to the Excel window.
     
-## Return Value
+## Return value
 
  **xlHpcRetSuccess** if the dialog box was shown; **xlHpcRetCallFailed** if it was not shown. 
   
@@ -38,7 +38,7 @@ Cluster connectors can use this dialog box to get information, such as what clus
   
 ## See also
 
-#### Concepts
+
 
 [Excel Cluster Connector Functions](excel-cluster-connector-functions.md)
 

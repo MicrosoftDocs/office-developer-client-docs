@@ -35,9 +35,9 @@ Contains a reason why a message transfer agent (MTA) has discarded a message.
 
 The reason contained in this property is used in a nondelivery report for the message.
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -49,10 +49,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagNonDeliveryReportReasonCode Canonical Property](pidtagnondeliveryreportreasoncode-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

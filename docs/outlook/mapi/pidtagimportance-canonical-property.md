@@ -33,7 +33,7 @@ Contains a value that indicates the message sender's opinion of the importance o
    
 ## Remarks
 
-This property and the **PR_PRIORITY** ( [PidTagPriority](pidtagpriority-canonical-property.md)) property should not be confused. Importance indicates a value to users, while priority indicates the order or speed at which the message should be sent by the messaging system software. Higher priority usually indicates a higher cost. Higher importance usually is associated with a different display by the user interface. 
+This property and the **PR_PRIORITY** ([PidTagPriority](pidtagpriority-canonical-property.md)) property should not be confused. Importance indicates a value to users, while priority indicates the order or speed at which the message should be sent by the messaging system software. Higher priority usually indicates a higher cost. Higher importance usually is associated with a different display by the user interface. 
   
 This property can have exactly one of the following values:
   
@@ -49,9 +49,9 @@ IMPORTANCE_NORMAL
   
 > The message has normal importance.
     
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -61,7 +61,7 @@ IMPORTANCE_NORMAL
   
 > Handles message and attachment objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -73,7 +73,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

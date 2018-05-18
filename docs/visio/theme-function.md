@@ -22,7 +22,7 @@ THEME()
   
 ## Example
 
-```
+```vb
 Shape.FillForegnd = THEME("FillColor")
 ```
 

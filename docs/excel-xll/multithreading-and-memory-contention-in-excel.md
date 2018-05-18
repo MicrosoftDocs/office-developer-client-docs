@@ -80,7 +80,7 @@ LPXLOPER12 WINAPI mtr_unsafe_example(LPXLOPER12 pxArg)
 {
     static XLOPER12 xRetVal; // memory shared by all threads!!!
 // code sets xRetVal to a function of pxArg ...
-    return &amp;xRetVal;
+    return &xRetVal;
 }
 ```
 
@@ -178,14 +178,14 @@ LPXLOPER get_thread_local_xloper(void)
 {
     TLS_data *pTLS = get_TLS_data();
     if(pTLS)
-        return &amp;(pTLS->xloper_shared_ret_val);
+        return &(pTLS->xloper_shared_ret_val);
     return NULL;
 }
 LPXLOPER12 get_thread_local_xloper12(void)
 {
     TLS_data *pTLS = get_TLS_data();
     if(pTLS)
-        return &amp;(pTLS->xloper12_shared_ret_val);
+        return &(pTLS->xloper12_shared_ret_val);
     return NULL;
 }
 
@@ -207,7 +207,7 @@ int WINAPI xlAutoOpen(void)
     if(xll_initialised)
         return 1;
 // Other initialisation omitted
-    InitializeCriticalSection(&amp;g_csSharedTable);
+    InitializeCriticalSection(&g_csSharedTable);
     xll_initialised = true;
     return 1;
 }
@@ -216,25 +216,25 @@ int WINAPI xlAutoClose(void)
     if(!xll_initialised)
         return 1;
 // Other cleaning up omitted.
-    DeleteCriticalSection(&amp;g_csSharedTable);
+    DeleteCriticalSection(&g_csSharedTable);
     xll_initialised = false;
     return 1;
 }
 #define SHARED_TABLE_SIZE 1000 /* Some value consistent with the table */
-bool read_shared_table_element(unsigned int index, double &amp;d)
+bool read_shared_table_element(unsigned int index, double &d)
 {
     if(index >= SHARED_TABLE_SIZE) return false;
-    EnterCriticalSection(&amp;g_csSharedTable);
+    EnterCriticalSection(&g_csSharedTable);
     d = shared_table[index];
-    LeaveCriticalSection(&amp;g_csSharedTable);
+    LeaveCriticalSection(&g_csSharedTable);
     return true;
 }
 bool set_shared_table_element(unsigned int index, double d)
 {
     if(index >= SHARED_TABLE_SIZE) return false;
-    EnterCriticalSection(&amp;g_csSharedTable);
+    EnterCriticalSection(&g_csSharedTable);
     shared_table[index] = d;
-    LeaveCriticalSection(&amp;g_csSharedTable);
+    LeaveCriticalSection(&g_csSharedTable);
     return true;
 }
 ```
@@ -250,24 +250,24 @@ When you have code that needs access to more than one block of protected memory 
 bool copy_shared_table_element_A_to_B(unsigned int index)
 {
     if(index >= SHARED_TABLE_SIZE) return false;
-    EnterCriticalSection(&amp;g_csSharedTableA);
-    EnterCriticalSection(&amp;g_csSharedTableB);
+    EnterCriticalSection(&g_csSharedTableA);
+    EnterCriticalSection(&g_csSharedTableB);
     shared_table_B[index] = shared_table_A[index];
 // Critical sections should be exited in the order
 // they were entered, NOT as shown here in this
 // deliberately wrong illustration.
-    LeaveCriticalSection(&amp;g_csSharedTableA);
-    LeaveCriticalSection(&amp;g_csSharedTableB);
+    LeaveCriticalSection(&g_csSharedTableA);
+    LeaveCriticalSection(&g_csSharedTableB);
     return true;
 }
 bool copy_shared_table_element_B_to_A(unsigned int index)
 {
     if(index >= SHARED_TABLE_SIZE) return false;
-    EnterCriticalSection(&amp;g_csSharedTableB);
-    EnterCriticalSection(&amp;g_csSharedTableA);
+    EnterCriticalSection(&g_csSharedTableB);
+    EnterCriticalSection(&g_csSharedTableA);
     shared_table_A[index] = shared_table_B[index];
-    LeaveCriticalSection(&amp;g_csSharedTableA);
-    LeaveCriticalSection(&amp;g_csSharedTableB);
+    LeaveCriticalSection(&g_csSharedTableA);
+    LeaveCriticalSection(&g_csSharedTableB);
     return true;
 }
 ```
@@ -275,11 +275,11 @@ bool copy_shared_table_element_B_to_A(unsigned int index)
 If the first function on one thread enters **g_csSharedTableA** while the second on another thread enters **g_csSharedTableB**, both threads hang. The correct approach is to enter in a consistent order and exit in the reverse order, as follows.
   
 ```cs
-    EnterCriticalSection(&amp;g_csSharedTableA);
-    EnterCriticalSection(&amp;g_csSharedTableB);
+    EnterCriticalSection(&g_csSharedTableA);
+    EnterCriticalSection(&g_csSharedTableB);
     // code that accesses both blocks
-    LeaveCriticalSection(&amp;g_csSharedTableB);
-    LeaveCriticalSection(&amp;g_csSharedTableA);
+    LeaveCriticalSection(&g_csSharedTableB);
+    LeaveCriticalSection(&g_csSharedTableA);
 ```
 
 Where possible, it is better from a thread co-operation point of view to isolate access to distinct blocks, as shown here.
@@ -288,12 +288,12 @@ Where possible, it is better from a thread co-operation point of view to isolate
 bool copy_shared_table_element_A_to_B(unsigned int index)
 {
     if(index >= SHARED_TABLE_SIZE) return false;
-    EnterCriticalSection(&amp;g_csSharedTableA);
+    EnterCriticalSection(&g_csSharedTableA);
     double d = shared_table_A[index];
-    LeaveCriticalSection(&amp;g_csSharedTableA);
-    EnterCriticalSection(&amp;g_csSharedTableB);
+    LeaveCriticalSection(&g_csSharedTableA);
+    EnterCriticalSection(&g_csSharedTableB);
     shared_table_B[index] = d;
-    LeaveCriticalSection(&amp;g_csSharedTableB);
+    LeaveCriticalSection(&g_csSharedTableB);
     return true;
 }
 ```
@@ -302,7 +302,7 @@ Where there is a lot of contention for a shared resource, such as frequent short
   
 ## See also
 
-#### Concepts
+
 
 [Memory Management in Excel](memory-management-in-excel.md)
   

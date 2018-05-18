@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Establishes the specified container as the default address book container.
   
-```
+```cpp
 HRESULT SetDefaultDir(
   ULONG cbEntryID,
   LPENTRYID lpEntryID
@@ -64,7 +64,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IAddrBook::GetDefaultDir](iaddrbook-getdefaultdir.md)
   
@@ -75,7 +75,7 @@ For MFCMAPI sample code, see the following table.
 [MAPILogonEx](mapilogonex.md)
   
 [IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

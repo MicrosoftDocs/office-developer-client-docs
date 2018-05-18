@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Creates a text stream in uncompressed Rich Text Format (RTF) from the compressed format used in the **PR_RTF_COMPRESSED** ( [PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) property. 
+Creates a text stream in uncompressed Rich Text Format (RTF) from the compressed format used in the **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) property. 
   
 |||
 |:-----|:-----|
@@ -30,7 +30,7 @@ Creates a text stream in uncompressed Rich Text Format (RTF) from the compressed
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications  <br/> |
    
-```
+```cpp
 HRESULT WrapCompressedRTFStream(
   LPSTREAM lpCompressedRTFStream,
   ULONG ulflags,
@@ -74,11 +74,11 @@ If zero is passed in the  _ulFlags_ parameter, then  _lpCompressedRTFStream_ may
   
  **WrapCompressedRTFStream** assumes that the compressed stream's pointer is set to the beginning of the stream. Certain OLE **IStream** methods are not supported by the returned uncompressed stream. These include **IStream::Clone**, **IStream::LockRegion**, **IStream::Revert**, **IStream::Seek**, **IStream::SetSize**, **IStream::Stat**, and **IStream::UnlockRegion**. In order to copy to the entire stream, a read/write loop is needed. 
   
-Because the client writes new RTF in uncompressed format, it should use **WrapCompressedRTFStream**, instead of directly writing to the stream. RTF-aware clients should search for the STORE_UNCOMPRESSED_RTF flag in the **PR_STORE_SUPPORT_MASK** ( [PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) property and pass it to **WrapCompressed RTFStream** if it is set. 
+Because the client writes new RTF in uncompressed format, it should use **WrapCompressedRTFStream**, instead of directly writing to the stream. RTF-aware clients should search for the STORE_UNCOMPRESSED_RTF flag in the **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) property and pass it to **WrapCompressed RTFStream** if it is set. 
   
 ## See also
 
-#### Reference
+
 
 [RTFSync](rtfsync.md)
 

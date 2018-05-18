@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Specifies the value of the CalendarType field from the **dispidApptRecur** ( [PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)) property.
+Specifies the value of the CalendarType field from the **dispidApptRecur** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)) property.
   
 |||
 |:-----|:-----|
@@ -36,9 +36,9 @@ Specifies the value of the CalendarType field from the **dispidApptRecur** ( [Pi
 
 When the meeting request represents a recurring series or an exception, this is the value of the CalendarType field from the **dispidApptRecur** property. Otherwise, this property is not set and assumed to be 0. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -48,7 +48,7 @@ When the meeting request represents a recurring series or an exception, this is 
   
 > Specifies the properties and operations for appointment, meeting request, and response messages.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

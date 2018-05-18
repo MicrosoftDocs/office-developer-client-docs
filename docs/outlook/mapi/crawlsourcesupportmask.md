@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies whether Microsoft Office Outlook should scan folders in a store, including Contacts, Calendar, and Tasks folders, on startup to populate the Navigation Pane.
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|

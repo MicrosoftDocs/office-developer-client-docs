@@ -1,7 +1,5 @@
 ---
 title: "SizedDtblLabel"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -18,8 +16,6 @@ description: "Last modified: March 09, 2015"
 
 # SizedDtblLabel
 
-  
-  
 **Applies to**: Outlook 
   
 Creates a named structure that includes a [DTBLLABEL](dtbllabel.md) structure for describing a label control and the associated label of a specified length. 
@@ -29,17 +25,17 @@ Creates a named structure that includes a [DTBLLABEL](dtbllabel.md) structure fo
 |Specified in header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure  <br/> |**DTBLLABEL** <br/> |
    
-```
+```cpp
 SizedDtblLabel (n, u)
 ```
 
 ## Parameters
 
- _n_
+_n_
   
 > Length of the label. This includes the ending NULL character. 
     
- _u_
+_u_
   
 > Name for the new structure.
     
@@ -47,25 +43,19 @@ SizedDtblLabel (n, u)
 
 The **SizedDtblLabel** macro lets you define a display table label when the number of characters in the label is known. The new structure is created with the following members: 
   
-```
+```cpp
 DTBLLABEL dtbllabel;
 TCHAR lpszLabelName[n];
-
 ```
 
 To use a pointer to the resulting structure from the **SizedDtblLabel** macro as a **DTBLLABEL** structure pointer, perform the following cast: 
   
-```
-lpDtblLabel = (LPDTBLLABEL) &amp;SizedDtblLabel;
-
+```cpp
+lpDtblLabel = (LPDTBLLABEL) &SizedDtblLabel;
 ```
 
 ## See also
 
-#### Reference
-
-[DTBLLABEL](dtbllabel.md)
-#### Concepts
-
-[Macros Related to Structures](macros-related-to-structures.md)
+- [DTBLLABEL](dtbllabel.md)
+- [Macros Related to Structures](macros-related-to-structures.md)
 

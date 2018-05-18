@@ -20,7 +20,7 @@ description: "Last modified: February 20, 2012"
   
 Compares two Unicode strings.
   
-```
+```cpp
 int MNLS_CompareStringW (
   LCID lcid,
   DWORD dwFlags,
@@ -66,7 +66,7 @@ This function wraps [CompareStringW](http://msdn.microsoft.com/en-us/library/dd3
   
 ## See also
 
-#### Other resources
+
 
 [CompareStringW](http://msdn.microsoft.com/en-us/library/dd317759%28VS.85%29.aspx)
   

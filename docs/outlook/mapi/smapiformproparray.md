@@ -29,7 +29,7 @@ Contains an array of [SMAPIFormProp](smapiformprop.md) structures.
 |Header file:  <br/> |Mapiform.h  <br/> |
 |Related macro:  <br/> |[CbMAPIFormPropArray](cbmapiformproparray.md) <br/> |
    
-```
+```cpp
 typedef struct
 {
   ULONG cProps;
@@ -65,12 +65,12 @@ The **SMAPIFormPropArray** structure is passed as a parameter to the following m
     
 ## See also
 
-#### Reference
+
 
 [CbMAPIFormPropArray](cbmapiformproparray.md)
   
 [SMAPIFormProp](smapiformprop.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

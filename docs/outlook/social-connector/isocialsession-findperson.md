@@ -36,7 +36,7 @@ If one or more persons match the **FindPerson** request, this method returns the
   
 ## See also
 
-#### Reference
+
 
 [ISocialSession : IUnknown](isocialsessioniunknown.md)
 

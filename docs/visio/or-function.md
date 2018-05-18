@@ -30,7 +30,7 @@ OR( ** *logicalexpression1* **, ** *logicalexpression2* **,..., ** *logicalexpre
 | _logicalexpression2_ <br/> |Required  <br/> |**String** <br/> |The second expression whose truth you want to evaluate.  <br/> |
 | _logicalexpressionN_ <br/> |Required  <br/> |**String** <br/> |The Nth expression whose truth you want to evaluate.  <br/> |
    
-### Return Value
+### Return value
 
 Boolean
   

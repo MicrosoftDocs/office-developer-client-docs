@@ -30,7 +30,7 @@ Retrieves the address of the default MAPI memory allocation function.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 LPMALLOC MAPIGetDefaultMalloc( );
 ```
 

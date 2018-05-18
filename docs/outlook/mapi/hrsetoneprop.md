@@ -30,7 +30,7 @@ Sets or changes the value of a single property on a property interface, that is,
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 HrSetOneProp(
   LPMAPIPROP pmp,
   LPSPropValue pprop

@@ -31,9 +31,9 @@ Contains a comment added by the auto-forwarding agent.
 |Data type:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Area:  <br/> |General reporting  <br/> |
    
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -45,7 +45,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

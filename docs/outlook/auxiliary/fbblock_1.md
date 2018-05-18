@@ -16,7 +16,7 @@ description: "Defines a free/busy block of data. This is an item on a calendar r
 
 Defines a free/busy block of data. This is an item on a calendar represented by an appointment or meeting request.
   
-## Quick Info
+## Quick info
 
 ```
 typedef struct  tagFBBlock_1 
@@ -44,7 +44,7 @@ typedef struct  tagFBBlock_1
     
 ## See also
 
-#### Concepts
+
 
 [FBStatus](fbstatus.md)
   

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Performs name resolution, assigning entry identifiers to recipients in a recipient list.
   
-```
+```cpp
 HRESULT ResolveName(
   ULONG_PTR ulUIParam,
   ULONG ulFlags,
@@ -83,15 +83,15 @@ MAPI_E_NOT_FOUND
     
 ## Remarks
 
-Clients and service providers call the **ResolveName** method to initiate the name resolution process. An unresolved entry is an entry that does not yet have an entry identifier or **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)) property.
+Clients and service providers call the **ResolveName** method to initiate the name resolution process. An unresolved entry is an entry that does not yet have an entry identifier or **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) property.
   
  **ResolveName** goes through the following process for each unresolved entry in the address list passed in the  _lpAdrList_ parameter. 
   
 1. If the address type of the recipient adheres to the format of an SMTP address ( _displayname_@ _domain.top-level-domain_), **ResolveName** assigns it a one-off entry identifier. 
     
-2. For each container in the **PR_AB_SEARCH_PATH** ( [PidTagAbSearchPath](pidtagabsearchpath-canonical-property.md)) property, **ResolveName** calls the [IABContainer::ResolveNames](iabcontainer-resolvenames.md) method. **ResolveNames** tries to match the display name of each unresolved recipient with a display name that belongs to one of its entries. 
+2. For each container in the **PR_AB_SEARCH_PATH** ([PidTagAbSearchPath](pidtagabsearchpath-canonical-property.md)) property, **ResolveName** calls the [IABContainer::ResolveNames](iabcontainer-resolvenames.md) method. **ResolveNames** tries to match the display name of each unresolved recipient with a display name that belongs to one of its entries. 
     
-3. If a container does not support **ResolveNames**, **ResolveName** restricts the container's contents table by using a **PR_ANR** ( [PidTagAnr](pidtaganr-canonical-property.md)) property restriction. This restriction causes the container to perform a "best guess" type of search to locate a matching recipient. All containers must support the **PR_ANR** property restriction. 
+3. If a container does not support **ResolveNames**, **ResolveName** restricts the container's contents table by using a **PR_ANR** ([PidTagAnr](pidtaganr-canonical-property.md)) property restriction. This restriction causes the container to perform a "best guess" type of search to locate a matching recipient. All containers must support the **PR_ANR** property restriction. 
     
 4. When a container returns a recipient that matches multiple names, **ResolveName** displays a dialog box if the MAPI_DIALOG flag is set, which lets the user select the correct name. 
     
@@ -103,15 +103,15 @@ If a name cannot be resolved, the client can create a one-off address that has a
   
 MAPI supports Unicode character strings for the **ADRLIST** and the new entry title parameters to **ResolveName**; if you set the MAPI_UNICODE flag, the following properties are returned as type PT_UNICODE in the [ADRENTRY](adrentry.md) structures: 
   
-- **PR_ADDRTYPE** ( [PidTagAddressType](pidtagaddresstype-canonical-property.md))
+- **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))
     
-- **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md))
+- **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))
     
-- **PR_EMAIL_ADDRESS** ( [PidTagEmailAddress](pidtagemailaddress-canonical-property.md))
+- **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))
     
-- **PR_TRANSMITABLE_DISPLAY_NAME** ( [PidTagTransmittableDisplayName](pidtagtransmittabledisplayname-canonical-property.md))
+- **PR_TRANSMITABLE_DISPLAY_NAME** ([PidTagTransmittableDisplayName](pidtagtransmittabledisplayname-canonical-property.md))
     
-However, the **PR_7BIT_DISPLAY_NAME** ( [PidTag7BitDisplayName](pidtag7bitdisplayname-canonical-property.md)) property is always returned as type PT_STRING8.
+However, the **PR_7BIT_DISPLAY_NAME** ([PidTag7BitDisplayName](pidtag7bitdisplayname-canonical-property.md)) property is always returned as type PT_STRING8.
   
 ## MFCMAPI Reference
 
@@ -124,7 +124,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [ADRLIST](adrlist.md)
   
@@ -133,7 +133,7 @@ For MFCMAPI sample code, see the following table.
 [IAddrBook::Address](iaddrbook-address.md)
   
 [IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

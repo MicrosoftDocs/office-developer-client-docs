@@ -28,7 +28,7 @@ Contains an array of doubles used to describe a property of type PT_MV_DOUBLE.
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SDoubleArray
 {
   ULONG cValues;
@@ -53,10 +53,10 @@ For more information about PT_MV_DOUBLE, see [List of Property Types](property-t
   
 ## See also
 
-#### Reference
+
 
 [SPropValue](spropvalue.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

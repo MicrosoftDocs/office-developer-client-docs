@@ -34,11 +34,11 @@ Represents the duration, in minutes, of a journal message.
    
 ## Remarks
 
-The duration, in minutes, of the activity that must be the difference between the **dispidLogEnd** ( [PidLidLogEnd](pidlidlogend-canonical-property.md)) and **dispidLogStart** ( [PidLidLogStart](pidlidlogstart-canonical-property.md)) properties.
+The duration, in minutes, of the activity that must be the difference between the **dispidLogEnd** ([PidLidLogEnd](pidlidlogend-canonical-property.md)) and **dispidLogStart** ([PidLidLogStart](pidlidlogstart-canonical-property.md)) properties.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -48,7 +48,7 @@ The duration, in minutes, of the activity that must be the difference between th
   
 > Specifies the properties and operations that are permissible for journals.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -28,7 +28,7 @@ PAGENAME ( ** *langID_opt* ** )
 |:-----|:-----|:-----|:-----|
 | _langID_opt_ <br/> |Optional  <br/> |**Number** <br/> |Use to specify a language for the string the function returns. Use 0 (default value) to specify the local language. Use 750 to specify universal language.  <br/> |
    
-### Return Value
+### Return value
 
 String
   

@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Notifies the form viewer that the current message in a form has been saved.
   
-```
+```cpp
 HRESULT OnSaved( void );
 ```
 
@@ -46,7 +46,7 @@ For more information about form notifications, see [Sending and Receiving Form N
   
 ## See also
 
-#### Reference
+
 
 [IMAPIViewAdviseSink : IUnknown](imapiviewadvisesinkiunknown.md)
 

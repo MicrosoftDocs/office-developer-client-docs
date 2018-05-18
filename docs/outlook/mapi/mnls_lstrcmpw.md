@@ -20,7 +20,7 @@ description: "Last modified: June 18, 2012"
   
 Compares two Unicode strings.
   
-```
+```cpp
 int MNLS_lstrcmpW(
   LPCWSTR lpString1,
   LPCWSTR lpString2);
@@ -46,7 +46,7 @@ Returns the values described for an equivalent call to **MNLS_CompareStringW** e
   
 ## See also
 
-#### Other resources
+
 
 [GetUserDefaultLCID](http://msdn.microsoft.com/en-us/library/dd318135%28VS.85%29.aspx)
 

@@ -16,7 +16,7 @@ description: "Defines when daylight saving time starts, when the return to stand
 
 Defines when daylight saving time starts, when the return to standard time occurs, and how many hours the daylight saving shift is.
   
-## Quick Info
+## Quick info
 
 ```
 typedef struct RenTimeZone { 
@@ -57,7 +57,7 @@ This structure is similar to **TIME_ZONE_INFORMATION**. This is the structure us
   
 ## See also
 
-#### Concepts
+
 
 [About rebasing calendars programmatically for Daylight Saving Time](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
   

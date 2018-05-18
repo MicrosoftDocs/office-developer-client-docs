@@ -39,7 +39,7 @@ Place the setup program in a designated public directory. This is important beca
   
 ## See also
 
-#### Concepts
+
 
 [Message Service Implementation](message-service-implementation.md)
 

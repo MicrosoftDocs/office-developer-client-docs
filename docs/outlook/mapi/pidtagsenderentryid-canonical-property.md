@@ -37,9 +37,9 @@ This property is one of the address properties for the message sender. It must b
   
 If no transport provider has supplied any sender address properties, the MAPI spooler attempts to fill them in by calling the [IMAPISession::QueryIdentity](imapisession-queryidentity.md) method for an entry identifier. If no entry identifiers have been provided, the MAPI spooler an identifier corresponding to the string "Unknown" in this property. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -69,7 +69,7 @@ If no transport provider has supplied any sender address properties, the MAPI sp
   
 > Specifies the properties and operations that are permissible for post objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -81,7 +81,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -28,12 +28,12 @@ MAPI defines many types of objects, each implemented by one or more MAPI compone
   
 ## See also
 
-#### Reference
+
 
 [IMAPIProp : IUnknown](imapipropiunknown.md)
   
 [IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md)
-#### Other resources
+
 
 [MAPI Concepts](mapi-concepts.md)
 

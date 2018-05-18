@@ -28,7 +28,7 @@ TAN( ** *angle* ** )
 |:-----|:-----|:-----|:-----|
 | _angle_ <br/> |Required  <br/> |**Numeric** <br/> |The angle of which to get the tangent.  <br/> |
    
-### Return Value
+### Return value
 
 Numeric
   

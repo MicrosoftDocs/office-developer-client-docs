@@ -33,11 +33,11 @@ Contains an ASN.1 certificate for the message originator.
    
 ## Remarks
 
-This property is a copy of the originator's **PR_USER_CERTIFICATE** ( [PidTagUserCertificate](pidtagusercertificate-canonical-property.md)) property.
+This property is a copy of the originator's **PR_USER_CERTIFICATE** ([PidTagUserCertificate](pidtagusercertificate-canonical-property.md)) property.
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -22,7 +22,7 @@ HRESULT _stdcall SetStatus(BSTR status);
 
 ## See also
 
-#### Reference
+
 
 [ISocialProfile : ISocialPerson](isocialprofileisocialperson.md)
 

@@ -18,7 +18,7 @@ description: "Last modified: March 09, 2015"
   
  This topic describes what happens during the upload message state of the replication state machine. 
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|
@@ -42,7 +42,7 @@ When the item upload ends, Outlook notes that the message has been uploaded, so 
   
 ## See also
 
-#### Concepts
+
 
 [About the Replication API](about-the-replication-api.md)
   

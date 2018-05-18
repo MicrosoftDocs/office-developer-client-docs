@@ -16,7 +16,7 @@ description: "Performs post-send categorization on a mail item based on its PidT
 
 Performs post-send categorization on a mail item based on its [PidTagConversationId](http://msdn.microsoft.com/library/f8e4a5fa-cb73-4eca-b174-72e1fda821a6%28Office.15%29.aspx).
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|

@@ -1,14 +1,10 @@
 ---
 title: "Display Alerts and Dialog Boxes Using the InfoPath 2003 Object Model"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
- 
 keywords:
 - infopath 2003-compatible form templates, displaying dialog boxes,form templates [InfoPath 2007], displaying dialog boxes,alerts, displaying in InfoPath 2003-compatible form templates,dialog boxes, displaying in InfoPath 2003-compatible form templates,InfoPath 2003-compatible form templates, displaying alerts
- 
 localization_priority: Normal
 ms.assetid: 721ac58e-56d9-4e3b-93f1-849e0c94d010
 description: "When writing code to extend the functionality of a form template that uses the InfoPath 2003 object model, it is often useful to provide the user with information in a dialog box. Programmatically displaying a dialog box and related user interface elements is accomplished in InfoPath by using the methods of the UIObject interface."
@@ -42,7 +38,7 @@ thisXDocument.UI.ShowMailItem("someone@example.com","", "",
 thisXDocument.UI.Alert("The e-mail message has been created.");
 ```
 
-```VB.net
+```vb
 thisXDocument.UI.ShowMailItem("someone@example.com", "", "", _
    "Updated Form", "Here is the updated form that you requested.")
 thisXDocument.UI.Alert("The e-mail message has been created.")
@@ -61,7 +57,7 @@ public void CTRL1_5_OnClick(DocActionEvent e)
 }
 ```
 
-```VB.net
+```vb
 Public Sub CTRL1_5_OnClick(ByVal e As DocActionEvent)
    ' Write your code here.
    thisXDocument.UI.ShowModalDialog( _
@@ -73,7 +69,7 @@ End Sub
 
 Both the Visual C# and Visual Basic samples depend on an HTML file named "show.html" that defines the dialog box that is invoked by the [ShowModalDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowModalDialog.aspx) method. This HTML file displays some data from the form and shows a text box for the user to fill in a value. The value in the textbox is returned to the form when the dialog box is closed. 
   
-```
+```html
 <HTML>
    <HEAD>
       <script language="JScript">
@@ -87,7 +83,7 @@ function BtnClick()
       </script>
    </HEAD>
    <BODY>
-      <H1><FONT face="Arial">This is a modal dialog box</FONT> &amp;nbsp;
+      <H1><FONT face="Arial">This is a modal dialog box</FONT> &nbsp;
       </H1>
       <BUTTON onclick="BtnClick()" id="BUTTON1" type="button">
          Get XML DOM

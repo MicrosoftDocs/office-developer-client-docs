@@ -35,9 +35,9 @@ Contains TRUE if a message should be composed in the current folder.
 
 A value of FALSE indicates that the message should be composed as any other interpersonal message, that is, in the Outbox folder. 
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

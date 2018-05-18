@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Returns a [MAPIERROR](mapierror.md) structure that contains information about the previous error that occurred to the provider administration object. 
   
-```
+```cpp
 HRESULT GetLastError(
   HRESULT hResult,
   ULONG ulFlags,
@@ -64,7 +64,7 @@ MAPI_E_BAD_CHARWIDTH
 
 The **IProviderAdmin::GetLastError** method supplies information about a prior method call that failed. Callers can provide their users with detailed information about the error by including the data from the **MAPIERROR** structure in a dialog box. 
   
-## Notes to Callers
+## Notes to callers
 
 You can use the **MAPIERROR** structure, if MAPI supplies one, that the  _lppMAPIError_ parameter points to only if **GetLastError** returns S_OK. Sometimes MAPI cannot determine what the last error was or has nothing more to report about the error. In this situation, a pointer to NULL is returned in  _lppMAPIError_ instead. 
   
@@ -72,7 +72,7 @@ For more information about the **GetLastError** method, see [Using Extended Erro
   
 ## See also
 
-#### Reference
+
 
 [MAPIERROR](mapierror.md)
   

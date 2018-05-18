@@ -25,7 +25,7 @@ This topic contains constant definitions for the Data Degradation Layer API.
    
 ## See also
 
-#### Concepts
+
 
 [About the Data Degradation Layer API](about-the-data-degradation-layer-api.md)
 

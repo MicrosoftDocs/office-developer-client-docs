@@ -28,7 +28,7 @@ Excel12(xlRunningOnCluster, LPXLOPER12 pxRes, 0);
 
 This function has no arguments.
   
-## Return Value
+## Return value
 
 If the function is running in an Excel process, returns 0 in an **XLOPER12** of type **xlTypeInt**. If the function is running on a cluster, the return type and value is determined by the cluster connector provider.
   
@@ -38,7 +38,7 @@ This function is defined in the Xlcall.h header file.
   
 ## See also
 
-#### Concepts
+
 
 [Cluster Safe Functions](cluster-safe-functions.md)
   

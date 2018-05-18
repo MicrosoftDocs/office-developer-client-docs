@@ -51,7 +51,7 @@ For more information, see [MAPI Message Classes](mapi-message-classes.md).
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Forms](mapi-forms.md)
 

@@ -26,7 +26,7 @@ Compares two address book **entryIDs** safely in a Multiple Exchange profile. Th
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 HRESULT HrCompareABEntryIDsWithExchangeContext(
   LPMAPISESSION pmsess,
   const MAPIUID *pEmsmdbUID,

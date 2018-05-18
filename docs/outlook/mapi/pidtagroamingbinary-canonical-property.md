@@ -31,9 +31,9 @@ Contains a message stream associated with a subclass of the **IPM.Configuration*
 
 This property contains the data stream associated with an **IPM.Configuration** message class message. The format of the stream depends on the message class. For instance, a message of class type **IPM.Configuration.Autocomplete** would be formatted as an [Autocomplete Stream](autocomplete-stream.md).
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -43,7 +43,7 @@ This property contains the data stream associated with an **IPM.Configuration** 
   
 > Specifies the location and properties of client and server configuration data, such as shared category lists and working hours.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -55,7 +55,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

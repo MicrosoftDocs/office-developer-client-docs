@@ -34,11 +34,11 @@ Designates as a property of a sharing message.
    
 ## Remarks
 
-This property must be set to the value of **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) from the Address Book identified by **dispidSharingInitiatorEid** ( [PidLidSharingInitiatorEntryId](pidlidsharinginitiatorentryid-canonical-property.md)) and should be ignored. 
+This property must be set to the value of **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) from the Address Book identified by **dispidSharingInitiatorEid** ([PidLidSharingInitiatorEntryId](pidlidsharinginitiatorentryid-canonical-property.md)) and should be ignored. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -48,7 +48,7 @@ This property must be set to the value of **PR_DISPLAY_NAME** ( [PidTagDisplayNa
   
 > Shares mailbox folders between clients.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

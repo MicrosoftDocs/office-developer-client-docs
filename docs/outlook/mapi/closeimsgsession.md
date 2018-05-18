@@ -30,7 +30,7 @@ Closes a message session and all the messages created within that session.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 VOID CloseIMsgSession(
   LPMSGSESS lpMsgSess
 );

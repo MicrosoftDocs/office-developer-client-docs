@@ -24,7 +24,7 @@ Version Added: Visio 2010
 
 CALLOUTCOUNT()
   
-### Return Value
+### Return value
 
  **Integer**
   

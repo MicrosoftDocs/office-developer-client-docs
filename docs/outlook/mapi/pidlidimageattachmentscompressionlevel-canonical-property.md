@@ -36,7 +36,7 @@ Defines a compression level to apply on image attachments.
 
 The following are valid compression levels:
   
-```
+```cpp
 enum PictureCompressLevel
 {
  pclOriginal = 0,
@@ -46,15 +46,15 @@ enum PictureCompressLevel
 };
 ```
 
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]] 
   
 > Provides property set definitions and references to related Exchange Server protocol specifications.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -62,7 +62,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

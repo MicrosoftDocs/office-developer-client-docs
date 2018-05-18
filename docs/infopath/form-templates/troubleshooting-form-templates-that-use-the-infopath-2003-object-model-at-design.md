@@ -39,7 +39,7 @@ If an InfoPath object model member contains an optional parameter, and you do no
   
 ## See also
 
-#### Concepts
+
 
 [About the Security Model for Form Templates with Code](about-the-security-model-for-form-templates-with-code.md)
   

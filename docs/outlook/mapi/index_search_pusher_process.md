@@ -20,9 +20,9 @@ description: "Last modified: July 23, 2011"
   
 Specifies the process that is sending a notification to the MAPI Protocol Handler that an object in that store is ready for indexing.
   
-## Quick Info
+## Quick info
 
-```
+```cpp
 typedef struct _INDEX_SEARCH_PUSHER_PROCESS {  
     DWORD dwPID;  
 } INDEX_SEARCH_PUSHER_PROCESS; 

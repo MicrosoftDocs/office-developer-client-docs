@@ -28,7 +28,7 @@ Defines how to sort the rows of a table, what column to use as the sort key, and
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SSortOrder
 {
   ULONG ulPropTag;
@@ -87,7 +87,7 @@ An **SSortOrder** structure is used to describe how to perform either a standard
     
 The range of allowed columns in a table that can be used as a sort key depends on the provider. Columns that are part of the current column set can always be used as sort keys. However, each provider determines whether sort keys can be defined by using available columns that are not in the current column set. An available column is a column that is returned from [IMAPITable::QueryColumns](imapitable-querycolumns.md) when the TBL_ALL_COLUMNS flag is set. 
   
-The **ulOrder** member indicates both directional order and categorization information, for example, by conversation ( [PidTagConversationTopic](pidtagconversationtopic-canonical-property.md)), that is, conversational thread, which is a series of messages and replies. Rows can be sorted in either an ascending or descending sequence with all NULL entries positioned last. 
+The **ulOrder** member indicates both directional order and categorization information, for example, by conversation ([PidTagConversationTopic](pidtagconversationtopic-canonical-property.md)), that is, conversational thread, which is a series of messages and replies. Rows can be sorted in either an ascending or descending sequence with all NULL entries positioned last. 
   
 The TABLE_SORT_COMBINE value indicates that the column specified in **ulPropTag** should be combined with the previous category column to form a composite category. That is, instead of categorizing on unique values of individual columns, TABLE_SORT_COMBINE allows for categorization on unique values of a combination of columns. For example, a single category could be defined to group messages received from a particular sender on a particular subject. Setting the value to TABLE_SORT_COMBINE reduces the number of category rows that are displayed. 
   
@@ -100,10 +100,10 @@ For more information about standard and categorized sorting, see [Sorting and Ca
   
 ## See also
 
-#### Reference
+
 
 [SSortOrderSet](ssortorderset.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

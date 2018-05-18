@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Adds, deletes, or modifies message recipients.
   
-```cs
+```cpp
 HRESULT ModifyRecipients(
   ULONG ulFlags,
   LPADRLIST lpMods
@@ -47,7 +47,7 @@ MODRECIP_MODIFY
     
 MODRECIP_REMOVE 
   
-> Existing recipients should be removed from the recipient list using as an index the **PR_ROWID** ( [PidTagRowid](pidtagrowid-canonical-property.md)) property included in the property value array of each recipient entry in the  _lpMods_ parameter. 
+> Existing recipients should be removed from the recipient list using as an index the **PR_ROWID** ([PidTagRowid](pidtagrowid-canonical-property.md)) property included in the property value array of each recipient entry in the  _lpMods_ parameter. 
     
  _lpMods_
   
@@ -65,13 +65,13 @@ The **IMessage::ModifyRecipients** method changes the message's recipient list. 
   
 The **ADRLIST** structure contains one [ADRENTRY](adrentry.md) structure for each recipient and each **ADRENTRY** structure contains an array of property values describing the recipient properties. 
   
-Recipients in the **ADRLIST** structure can be resolved or unresolved. The difference is in the number and type of properties that are included. An unresolved recipient contains only the **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) and **PR_RECIPIENT_TYPE** ( [PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) properties while a resolved recipient contains those two properties plus **PR_ADDRTYPE** ( [PidTagAddressType](pidtagaddresstype-canonical-property.md)) and **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)). If **PR_EMAIL_ADDRESS** ( [PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) is available, it can be included also.
+Recipients in the **ADRLIST** structure can be resolved or unresolved. The difference is in the number and type of properties that are included. An unresolved recipient contains only the **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) and **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) properties while a resolved recipient contains those two properties plus **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) and **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)). If **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) is available, it can be included also.
   
 By the time a message is submitted, it must include only resolved recipients in its recipient list. Unresolved recipients cause nondelivery reports to be created and sent to the original sender of the message. For more information about the name resolution process from the client perspective, see [Resolving a Name](resolving-a-recipient-name.md). For more information from the perspective of the address book provider, see [Implementing Name Resolution](implementing-name-resolution.md).
   
 In addition to resolved and unresolved recipients, a recipient can be NULL. The **cValues** member of the **ADRENTRY** structure for the recipient is set to zero and the **rgPropVals** member is set to NULL. 
   
-## Notes to Callers
+## Notes to callers
 
 You can create a recipient list by calling [IAddrBook::Address](imapisupport-address.md) to display the common dialog box and prompt the user to select entries. The address list pointed to by the  _lppAdrList_ parameter to **Address** can be passed to **ModifyRecipients** as the  _lpMods_ parameter. 
   
@@ -79,7 +79,7 @@ When you specify properties for a recipient in the [ADRLIST](adrlist.md) structu
   
  **ModifyRecipients** replaces all of the entries in the current recipient list with the information pointed to by  _lpMods_ when none of the flags are set in the  _ulFlags_ parameter. 
   
-## Notes to Callers
+## Notes to callers
 
 When you set the MODRECIP_MODIFY flag, **ModifyRecipients** replaces each entire recipient row with the associated row in the [ADRLIST](adrlist.md) structure passed in  _lpMods_. Be careful to specify all of the properties that a recipient should have regardless of whether they have changed to prevent them from being unintentionally deleted.
   
@@ -113,7 +113,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [ADRENTRY](adrentry.md)
   
@@ -130,7 +130,7 @@ For MFCMAPI sample code, see the following table.
 [SPropValue](spropvalue.md)
   
 [IMessage : IMAPIProp](imessageimapiprop.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

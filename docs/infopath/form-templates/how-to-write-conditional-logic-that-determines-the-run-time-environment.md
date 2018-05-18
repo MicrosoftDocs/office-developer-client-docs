@@ -48,7 +48,7 @@ else
 }
 ```
 
-```VB.net
+```vb
 If (Me.Application.Environment.IsBrowser) Then
    CreateNavigator().SelectSingleNode(_
       "/my:myFields/my:field1", NamespaceManager). _

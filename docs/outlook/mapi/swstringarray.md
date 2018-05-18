@@ -28,7 +28,7 @@ Contains an array of character strings that are used to describe a property of t
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SWStringArray
 {
   ULONG cValues;
@@ -53,10 +53,10 @@ For more information about PT_MV_UNICODE, see [Property Types](property-types.md
   
 ## See also
 
-#### Reference
+
 
 [SPropValue](spropvalue.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

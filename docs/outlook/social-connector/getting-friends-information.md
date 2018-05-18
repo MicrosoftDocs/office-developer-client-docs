@@ -31,10 +31,10 @@ The Outlook Social Connector (OSC) calls the [ISocialProvider::GetCapabilities](
     
 ## See also
 
-#### Concepts
+
 
 [XML for Capabilities](xml-for-capabilities.md)
-#### Other resources
+
 
 [OSC Typical Calling Sequences](osc-typical-calling-sequences.md)
 

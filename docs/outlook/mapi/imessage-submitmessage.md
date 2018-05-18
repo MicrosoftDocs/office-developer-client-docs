@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Saves all of the message's properties and marks the message as ready to be sent.
   
-```cs
+```cpp
 HRESULT SubmitMessage(
   ULONG ulFlags
 );
@@ -54,15 +54,15 @@ MAPI_E_NO_RECIPIENTS
 
 The **IMessage::SubmitMessage** method marks a message as ready to be transmitted. MAPI passes messages to the underlying messaging system in the order in which they are marked for sending. Because of this functionality, a message might stay in a message store for some time before the underlying messaging system can take responsibility for it. The order of receipt at the destination is in the underlying messaging system's control and does not necessarily match the order in which messages were sent. 
   
-## Notes to Implementers
+## Notes to implementers
 
-Call the message's [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method to save it and then check the message's **PR_MESSAGE_FLAGS** ( [PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property. If the MSGFLAG_RESEND flag is set, call [IMAPISupport::PrepareSubmit](imapisupport-preparesubmit.md). **PrepareSubmit** updates the recipient type and **PR_RESPONSIBILITY** ( [PidTagResponsibility](pidtagresponsibility-canonical-property.md)) property for all of the recipients in the resend message.
+Call the message's [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method to save it and then check the message's **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property. If the MSGFLAG_RESEND flag is set, call [IMAPISupport::PrepareSubmit](imapisupport-preparesubmit.md). **PrepareSubmit** updates the recipient type and **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) property for all of the recipients in the resend message.
   
-## Notes to Callers
+## Notes to callers
 
 When **SubmitMessage** returns, all pointers to the message and its associated subobjects messages, folders, attachments, streams, tables, and so on are no longer valid. MAPI does not permit any further operations on these pointers, except for calling their **IUnknown::Release** methods. MAPI is designed such that after **SubmitMessage** is called, you should release the message and all associated subobjects. However, if **SubmitMessage** returns an error value indicating missing or invalid information, the message remains open and the pointers remain valid. 
   
-To cancel a send operation, get and store a pointer to the message's **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)) property before the message is submitted. Because a message's entry identifier is invalidated after the message has been submitted, it is necessary to save it before calling **SubmitMessage**. To cancel the send, point the  _lpEntryId_ parameter to this entry identifier and call [IMsgStore::AbortSubmit](imsgstore-abortsubmit.md).
+To cancel a send operation, get and store a pointer to the message's **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) property before the message is submitted. Because a message's entry identifier is invalidated after the message has been submitted, it is necessary to save it before calling **SubmitMessage**. To cancel the send, point the  _lpEntryId_ parameter to this entry identifier and call [IMsgStore::AbortSubmit](imsgstore-abortsubmit.md).
   
 ## MFCMAPI Reference
 
@@ -74,12 +74,12 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMsgStore::AbortSubmit](imsgstore-abortsubmit.md)
   
 [IMessage : IMAPIProp](imessageimapiprop.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

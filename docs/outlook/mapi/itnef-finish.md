@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Finishes processing for all Transport-Neutral Encapsulation Format (TNEF) operations that are queued and waiting. 
   
-```
+```cpp
 HRESULT Finish(
   ULONG ulFlags,
   WORD FAR * lpKey,
@@ -40,7 +40,7 @@ HRESULT Finish(
     
  _lpKey_
   
-> [out] A pointer to the **PR_ATTACH_NUM** ( [PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) key property of an attachment. The TNEF encapsulation object uses this key to match an attachment to its attachment placement tag in a message. This key should be unique to each attachment.
+> [out] A pointer to the **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) key property of an attachment. The TNEF encapsulation object uses this key to match an attachment to its attachment placement tag in a message. This key should be unique to each attachment.
     
  _lpProblem_
   
@@ -74,7 +74,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [ITnef::AddProps](itnef-addprops.md)
   
@@ -89,7 +89,7 @@ For MFCMAPI sample code, see the following table.
 [STnefProblemArray](stnefproblemarray.md)
   
 [ITnef : IUnknown](itnefiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

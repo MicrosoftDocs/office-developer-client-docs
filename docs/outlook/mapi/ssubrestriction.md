@@ -28,7 +28,7 @@ Describes a sub-object restriction which is used to filter the rows of a message
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SSubRestriction
 {
   ULONG ulSubObject;
@@ -65,10 +65,10 @@ For a general discussion of how restrictions work, see [About Restrictions](abou
   
 ## See also
 
-#### Reference
+
 
 [SRestriction](srestriction.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

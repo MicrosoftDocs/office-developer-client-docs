@@ -44,7 +44,7 @@ IXMLDOMDocument newDoc = thisXDocument.CreateDOM();
 newDoc.loadXML(doc.DocumentElement.OuterXml);
 ```
 
-```VB.net
+```vb
 ' Create a System.Xml XmlDocument and load an XML file.
 Dim doc As XmlDocument = New XmlDocument()
 doc.Load("c:\temp\MyFile.xml");
@@ -80,7 +80,7 @@ public IXMLDOMNode CloneSystemXmlElementToMsxml(
 }
 ```
 
-```VB.net
+```vb
 ' This function takes a System.Xml XmlElement object and 
 ' an MSXML IXMLDOMDocument object, and returns an MSXML 
 ' IXMLDOMNode object that is a copy of the XmlElement object.

@@ -29,7 +29,7 @@ Describes a MAPI property.
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related macros:  <br/> |[CHANGE_PROP_TYPE](change_prop_type.md), [MVI_PROP](mvi_prop.md), [PROP_ID](prop_id.md), [PROP_TAG](prop_tag.md), [PROP_TYPE](prop_type.md) <br/> |
    
-```
+```cpp
 typedef struct _SPropValue
 {
   ULONG ulPropTag;
@@ -105,7 +105,7 @@ For more information, see [MAPI Property Type Overview](mapi-property-type-overv
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Indicates that the value of the **dispidLocation** ( [PidLidLocation](pidlidlocation-canonical-property.md)) property is set to the **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property from the RecipientRow that represents a resource.
+Indicates that the value of the **dispidLocation** ([PidLidLocation](pidlidlocation-canonical-property.md)) property is set to the **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property from the RecipientRow that represents a resource.
   
 |||
 |:-----|:-----|
@@ -36,9 +36,9 @@ Indicates that the value of the **dispidLocation** ( [PidLidLocation](pidlidloca
 
 For more details on RecipientRow, see the Message and Attachment Object protocol as specified in [[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx).
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -48,7 +48,7 @@ For more details on RecipientRow, see the Message and Attachment Object protocol
   
 > Specifies the properties and operations for appointment, meeting request, and response messages.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

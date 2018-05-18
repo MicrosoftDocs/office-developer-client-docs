@@ -64,13 +64,13 @@ Typically, MAPI makes calls to a provider's message service entry point function
   
 The [IMAPISupport::GetMemAllocRoutines](imapisupport-getmemallocroutines.md) method is available for determining the addresses of the memory allocation and deallocation functions without having to link with MAPI. Using **GetMemAllocRoutines** also makes it easier to trace memory leaks by surrounding the allocation function calls with debugging code. If you call **GetMemAllocRoutines**, as is recommended, do so before calling the [CreateIProp](createiprop.md) function, which requires the allocation function addresses as parameters. 
   
-When you need to create a new address book or message store object, create and set a search key for the object in its **PR_SEARCH_KEY** ( [PidTagSearchKey](pidtagsearchkey-canonical-property.md)) property. Call [IMAPISupport::NewUID](imapisupport-newuid.md) to obtain a unique identifier to use in building a search key. Do not use your own hard-coded [MAPIUID](mapiuid.md). A provider's **MAPIUID** should be used only for entry identifiers. For more information about constructing search keys, see [MAPI Record and Search Keys](mapi-record-and-search-keys.md).
+When you need to create a new address book or message store object, create and set a search key for the object in its **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) property. Call [IMAPISupport::NewUID](imapisupport-newuid.md) to obtain a unique identifier to use in building a search key. Do not use your own hard-coded [MAPIUID](mapiuid.md). A provider's **MAPIUID** should be used only for entry identifiers. For more information about constructing search keys, see [MAPI Record and Search Keys](mapi-record-and-search-keys.md).
   
 A client application can sometimes release an object without releasing one or more of its affiliated objects. In such a case, a provider may need to render an unreleased object unusable. To do this, the provider frees all of the resources connected with the object and then calls [IMAPISupport::MakeInvalid](imapisupport-makeinvalid.md) to invalidate the object's vtable. **MakeInvalid** replaces the vtable's **IUnknown** methods ( **QueryInterface**, **AddRef**, and **Release**) with standard MAPI implementations and causes all other methods to return MAPI_E_INVALID_OBJECT. **MakeInvalid** also frees all the object's memory other than the vtable. 
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Service Providers](mapi-service-providers.md)
 

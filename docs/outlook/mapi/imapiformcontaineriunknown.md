@@ -33,7 +33,7 @@ Manages forms in form libraries. This interface is used to create application-sp
 |Interface identifier:  <br/> |IID_IMAPIFormContainer  <br/> |
 |Pointer type:  <br/> |LPMAPIFORMCONTAINER  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -47,7 +47,7 @@ Manages forms in form libraries. This interface is used to create application-sp
    
 ## See also
 
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
 

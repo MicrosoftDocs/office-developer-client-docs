@@ -36,9 +36,9 @@ Specifies the entry ID of the remote folder being shared. This is a property of 
 
 This property must be set to the hexadecimal string representation of the value of the PR_ENTRYID ([PidTagEntryId](pidtagentryid-canonical-property.md)) property on the folder being shared. This is a property of a sharing message.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -48,7 +48,7 @@ This property must be set to the hexadecimal string representation of the value 
   
 > Shares mailbox folders between clients.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

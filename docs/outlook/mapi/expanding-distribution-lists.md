@@ -20,7 +20,7 @@ description: "Last modified: July 23, 2011"
   
  **To prompt MAPI to expand a distribution list**
   
-- Set its **PR_ADDRTYPE** ( [PidTagAddressType](pidtagaddresstype-canonical-property.md)) property to MAPIPDL.
+- Set its **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) property to MAPIPDL.
     
     MAPI expands addresses with this type before sending the message to the transport provider.
     

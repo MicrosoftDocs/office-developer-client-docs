@@ -20,7 +20,7 @@ description: "Last modified: February 20, 2012"
   
 Verifies that a pointer to a wide string is valid.
   
-```
+```cpp
 BOOL MNLS_IsBadStringPtrW(
   LPCWSTR lpsz,
   UINT ucchMax);

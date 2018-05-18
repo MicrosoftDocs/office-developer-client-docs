@@ -26,7 +26,7 @@ description: "Last modified: July 23, 2011"
     
 3. Call the Inbox's [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) method to create the message. 
     
-4. Call the message's [IMAPIProp::SetProps](imapiprop-setprops.md) method to add the **PR_BODY** ( [PidTagBody](pidtagbody-canonical-property.md)), **PR_HTML** ( [PidTagHtml](pidtaghtml-canonical-property.md)), or **PR_RTF_COMPRESSED** ( [PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) and **PR_SUBJECT** ( [PidTagSubject](pidtagsubject-canonical-property.md)) properties. 
+4. Call the message's [IMAPIProp::SetProps](imapiprop-setprops.md) method to add the **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), **PR_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)), or **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) and **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) properties. 
     
 5. Create each attachment, set its properties, and save it. For detailed information about adding attachments to messages, see [Creating a Message Attachment](creating-a-message-attachment.md).
     

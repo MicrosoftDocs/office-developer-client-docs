@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Initializes the encoding to be used during conversion.
   
-```
+```cpp
 HRESULT IConverterSession:: SetEncoding ( 
      ENCODINGTYPE et 
 );
@@ -69,7 +69,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IConverterSession : IUnknown](iconvertersessioniunknown.md)
   
@@ -84,7 +84,7 @@ For MFCMAPI sample code, see the following table.
 [IConverterSession::SetSaveFormat](iconvertersession-setsaveformat.md)
   
 [IConverterSession::SetTextWrapping](iconvertersession-settextwrapping.md)
-#### Concepts
+
 
 [MAPI Constants](mapi-constants.md)
 

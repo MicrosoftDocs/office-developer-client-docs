@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Displays a form.
   
-```
+```cpp
 HRESULT ShowForm(
   ULONG_PTR ulUIParam,
   LPMDB lpMsgStore,
@@ -80,19 +80,19 @@ MAPI_POST_MESSAGE
     
  _ulMessageStatus_
   
-> [in] A bitmask of flags copied from the **PR_MSG_STATUS** ( [PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) property of the message associated with the token in the  _ulMessageToken_ parameter. The flags provide information about the state of the message. 
+> [in] A bitmask of flags copied from the **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) property of the message associated with the token in the  _ulMessageToken_ parameter. The flags provide information about the state of the message. 
     
  _ulMessageFlags_
   
-> [in] A bitmask of flags copied from the **PR_MESSAGE_FLAGS** ( [PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property of the message associated with the token in the  _ulMessageToken_ parameter. These flags provide further information about the state of the message. 
+> [in] A bitmask of flags copied from the **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property of the message associated with the token in the  _ulMessageToken_ parameter. These flags provide further information about the state of the message. 
     
  _ulAccess_
   
-> [in] A flag that indicates the permission level for the message that is displayed in the form. This information is copied from the **PR_ACCESS** ( [PidTagAccess](pidtagaccess-canonical-property.md)) property of the message associated with the token in the  _ulMessageToken_ parameter. 
+> [in] A flag that indicates the permission level for the message that is displayed in the form. This information is copied from the **PR_ACCESS** ([PidTagAccess](pidtagaccess-canonical-property.md)) property of the message associated with the token in the  _ulMessageToken_ parameter. 
     
  _lpszMessageClass_
   
-> [in] A pointer to the message class of the message being displayed in the form, copied from the **PR_MESSAGE_CLASS** ( [PidTagMessageClass](pidtagmessageclass-canonical-property.md)) property of the message associated with the token in the  _ulMessageToken_ parameter. 
+> [in] A pointer to the message class of the message being displayed in the form, copied from the **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) property of the message associated with the token in the  _ulMessageToken_ parameter. 
     
 ## Return value
 
@@ -108,7 +108,7 @@ MAPI_E_USER_CANCEL
 
 The **IMAPISession::ShowForm** method displays a message form that has been prepared by the **IMAPISession::PrepareForm** method. 
   
-## Notes to Callers
+## Notes to callers
 
 You should have only a single reference to the message passed in the **PrepareForm** method's  _lpMessage_ parameter. 
   
@@ -124,7 +124,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIProp::SaveChanges](imapiprop-savechanges.md)
   
@@ -133,7 +133,7 @@ For MFCMAPI sample code, see the following table.
 [IMAPISession::PrepareForm](imapisession-prepareform.md)
   
 [IMAPISession : IUnknown](imapisessioniunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

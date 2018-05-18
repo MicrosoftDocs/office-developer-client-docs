@@ -303,12 +303,12 @@ See the code for the **xlAutoOpen** function in  `\SAMPLES\GENERIC\GENERIC.C`.
   
 ## See also
 
-#### Reference
+
 
 [REGISTER.ID](xlfregisterid.md)
   
 [UNREGISTER](xlfunregister-form-1.md)
-#### Concepts
+
 
 [Essential and Useful C API XLM Functions](essential-and-useful-c-api-xlm-functions.md)
 

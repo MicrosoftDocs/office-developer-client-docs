@@ -33,7 +33,7 @@ Enables form viewers to work with form view contexts and form notification, to p
 |Interface identifier:  <br/> |IID_IMAPIForm  <br/> |
 |Pointer type:  <br/> |LPMAPIFORM  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -47,7 +47,7 @@ Enables form viewers to work with form view contexts and form notification, to p
    
 ## See also
 
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
 

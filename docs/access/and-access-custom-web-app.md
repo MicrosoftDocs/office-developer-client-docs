@@ -23,7 +23,7 @@ Combines two Boolean expressions and returns TRUE when both expressions are TRUE
 
  *boolean_expression* **AND** *boolean_expression* 
   
-## Return Value
+## Return value
 
 Returns TRUE when both expressions are TRUE.
   

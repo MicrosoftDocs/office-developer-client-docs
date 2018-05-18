@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Enables the orderly logoff of the message store.
   
-```
+```cpp
 HRESULT StoreLogoff(
   ULONG FAR * lpulFlags
 );
@@ -80,7 +80,7 @@ S_OK
 
 The **IMsgStore::StoreLogoff** method exerts control over the interaction of the message store and transport providers during the logoff process. Calling **StoreLogoff** is valid only for message stores that are being used only by the caller. For example, when two clients are using the same message store and one of them calls **StoreLogoff**, the message store is immediately released and control is returned to the calling client.
   
-## Notes to Implementers
+## Notes to implementers
 
 Save the flags that are passed to **StoreLogoff** and pass them when you call the [IMAPISupport::StoreLogoffTransports](imapisupport-storelogofftransports.md) method. Do not call **StoreLogoffTransports** until the message store's reference count drops to zero. Multiple calls to **StoreLogoffTransports** simply overwrite the saved flags. 
   
@@ -88,7 +88,7 @@ If no call has been made to **StoreLogoff** before the message store's reference
   
 ## See also
 
-#### Reference
+
 
 [IMAPIStatus::FlushQueues](imapistatus-flushqueues.md)
   

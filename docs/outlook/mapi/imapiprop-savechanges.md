@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Makes permanent any changes that were made to an object since the last save operation. 
   
-```
+```cpp
 HRESULT SaveChanges(
   ULONG ulFlags
 );
@@ -82,11 +82,11 @@ MAPI_E_OBJECT_DELETED
 
 The **IMAPIProp::SaveChanges** method makes property changes permanent for objects that support the transaction model of processing, such as messages, attachments, address book containers, and messaging user objects. Objects that do not support transactions, such as folders, message stores, and profile sections, make changes permanent immediately. No call to **SaveChanges** is required. 
   
-Because service providers do not have to generate an entry identifier for their objects until all properties have been saved, an object's **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)) property might not be available until after its **SaveChanges** method has been called. Some providers wait until the KEEP_OPEN_READONLY flag is set on the **SaveChanges** call. KEEP_OPEN_READONLY indicates that the changes to be saved in the current call will be the last changes that will be made on the object. 
+Because service providers do not have to generate an entry identifier for their objects until all properties have been saved, an object's **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) property might not be available until after its **SaveChanges** method has been called. Some providers wait until the KEEP_OPEN_READONLY flag is set on the **SaveChanges** call. KEEP_OPEN_READONLY indicates that the changes to be saved in the current call will be the last changes that will be made on the object. 
   
 Some message store implementations do not show newly created messages in a folder until a client saves the message changes by using **SaveChanges** and releases the message objects by using the [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) method. In addition, some object implementations cannot generate a **PR_ENTRYID** property for a newly created object until after **SaveChanges** has been called, and some can do so only after **SaveChanges** has been called by using KEEP_OPEN_READONLY set in  _ulFlags_.
   
-## Notes to Implementers
+## Notes to implementers
 
 If you receive the KEEP_OPEN_READONLY flag, you have the option of leaving the object's access as read/write. However, a provider can never leave an object in a read-only state when the KEEP_OPEN_READWRITE flag is passed.
   
@@ -96,7 +96,7 @@ If either KEEP_OPEN_READWRITE or KEEP_OPEN_READONLY is set together with MAPI_DE
   
 Whether a remote transport provider provides a functional implementation of this method is optional and depends on other design choices in your implementation. If you implement this method, do so according to the documentation here. Because folder objects and status objects are not transacted, at a minimum a remote transport provider's implementation of **SaveChanges** must return S_OK without actually doing any work. 
   
-## Notes to Callers
+## Notes to callers
 
 If a client passes KEEP_OPEN_READONLY, calls the [IMAPIProp::SetProps](imapiprop-setprops.md) method, and then calls **SaveChanges** again, the same implementation might fail. 
   
@@ -123,14 +123,14 @@ For more information, see [Saving MAPI Properties](saving-mapi-properties.md).
   
 ## See also
 
-#### Reference
+
 
 [IMAPIProp::SetProps](imapiprop-setprops.md)
   
 [PidTagEntryId Canonical Property](pidtagentryid-canonical-property.md)
   
 [IMAPIProp : IUnknown](imapipropiunknown.md)
-#### Concepts
+
 
 [Saving MAPI Properties](saving-mapi-properties.md)
 

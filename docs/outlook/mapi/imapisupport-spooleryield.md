@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Gives control of the CPU to the MAPI spooler so that it can perform any tasks it considers necessary.
   
-```
+```cpp
 HRESULT SpoolerYield(
 ULONG ulFlags
 );
@@ -50,7 +50,7 @@ MAPI_W_CANCEL_MESSAGE
 
 The **IMAPISupport::SpoolerYield** method is implemented for transport provider support objects. Transport providers call **SpoolerYield** to allow the MAPI spooler to accomplish any necessary processing. 
   
-## Notes to Callers
+## Notes to callers
 
 Call **SpoolerYield** when you are performing lengthy operations that can be paused. This allows foreground applications to run during a long operation, such as delivery to a large recipient list across a busy network. 
   
@@ -60,7 +60,7 @@ For more information about yielding to the MAPI spooler, see [Interacting with t
   
 ## See also
 
-#### Reference
+
 
 [IMAPISupport : IUnknown](imapisupportiunknown.md)
 

@@ -33,11 +33,11 @@ Contains the class of the original message for use in a report.
    
 ## Remarks
 
-These properties contain a copy of the **PR_MESSAGE_CLASS** ( [PidTagMessageClass](pidtagmessageclass-canonical-property.md)) property of the message for which the report is being generated.
+These properties contain a copy of the **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) property of the message for which the report is being generated.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -47,7 +47,7 @@ These properties contain a copy of the **PR_MESSAGE_CLASS** ( [PidTagMessageClas
   
 > Encodes and decodes message and attachment objects to an efficient stream representation.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

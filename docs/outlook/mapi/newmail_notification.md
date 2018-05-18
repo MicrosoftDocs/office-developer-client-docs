@@ -28,7 +28,7 @@ Describes information that relate to the arrival of a new message.
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _NEWMAIL_NOTIFICATION
 {
   ULONG cbEntryID;
@@ -74,7 +74,7 @@ MAPI_UNICODE
     
  **ulMessageFlags**
   
-> Bitmask of flags that describes the current state of the newly arrived message. The **ulMessageFlags** member is a copy of the message's **PR_MESSAGE_FLAGS** ( [PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property.
+> Bitmask of flags that describes the current state of the newly arrived message. The **ulMessageFlags** member is a copy of the message's **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property.
     
 ## Remarks
 
@@ -92,12 +92,12 @@ For more information about notification, see the topics described in the followi
    
 ## See also
 
-#### Reference
+
 
 [NOTIFICATION](notification.md)
   
 [PidTagMessageFlags Canonical Property](pidtagmessageflags-canonical-property.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

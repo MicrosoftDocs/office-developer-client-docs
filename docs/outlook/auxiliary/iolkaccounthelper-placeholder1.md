@@ -16,7 +16,7 @@ description: "This member is a placeholder and is not supported. It must always 
 
 This member is a placeholder and is not supported. It must always return E_NOTIMPL.
   
-## Quick Info
+## Quick info
 
 ```
 HRESULT IOlkAccountHelper::Placeholder1 (  
@@ -34,7 +34,7 @@ This member must always return E_NOTIMPL.
   
 ## See also
 
-#### Concepts
+
 
 [Constants (Account management API)](constants-account-management-api.md)
 

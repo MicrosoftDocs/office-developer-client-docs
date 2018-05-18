@@ -27,7 +27,7 @@ Defines an idle routine that the MAPI idle engine calls periodically according t
 |Defined function called by:  <br/> |MAPI  <br/> |
 |Corresponding pointer type:  <br/> |PFNIDLE  <br/> |
    
-```
+```cpp
 BOOL (STDAPICALLTYPE FNIDLE)(
   LPVOID lpvContext
 );

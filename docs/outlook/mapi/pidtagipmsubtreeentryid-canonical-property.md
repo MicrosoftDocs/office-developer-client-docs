@@ -35,9 +35,9 @@ Contains the entry identifier of the root of the interpersonal message (IPM) fol
 
 This property represents the root of the IPM hierarchy. IPM clients should not display any folders that are not subfolders of the folder represented by this property.
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Determines whether a form can handle its own message conflicts. A message is in conflict if it has been simultaneously edited by more than one user. This can happen to messages in public folders.
   
-```
+```cpp
 HRESULT IsInConflict(
   ULONG ulMessageFlags,
   ULONG ulMessageStatus,
@@ -36,11 +36,11 @@ HRESULT IsInConflict(
 
  _ulMessageFlags_
   
-> [in] A pointer to a bitmask of flags copied from the **PR_MESSAGE_FLAGS** ( [PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property of a message that indicates the current state of the message.
+> [in] A pointer to a bitmask of flags copied from the **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property of a message that indicates the current state of the message.
     
  _ulMessageStatus_
   
-> [in] A bitmask of client-defined or provider-defined flags copied from the **PR_MSG_STATUS** ( [PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) property of a message that provides additional information about the state of the message.
+> [in] A bitmask of client-defined or provider-defined flags copied from the **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) property of a message that provides additional information about the state of the message.
     
  _szMessageClass_
   
@@ -66,13 +66,13 @@ Form viewers call the **IMAPIFormMgr::IsInConflict** method to discover whether 
   
 A form that does not handle its own conflicts must be opened by using the [IMAPIFormMgr::LoadForm](imapiformmgr-loadform.md) method and cannot reuse an existing form object. 
   
-## Notes to Callers
+## Notes to callers
 
 Client applications typically have to deal with conflicts when the applications move from one message to the next or previous message in a folder. If a message is in conflict, but the form server for that message can handle conflicts, the client application should execute its usual code for displaying the next or previous message. If the form server cannot handle conflicts, the client application should continue as if it was unaware of the message class of the next or previous message. 
   
 ## See also
 
-#### Reference
+
 
 [IMAPIFormAdviseSink::OnActivateNext](imapiformadvisesink-onactivatenext.md)
   

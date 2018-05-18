@@ -32,9 +32,9 @@ Indicates whether the end-user wants this message object hidden from other users
 |Data type:  <br/> |PT_BOOLEAN  <br/> |
 |Area:  <br/> |General messaging  <br/> |
    
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -44,7 +44,7 @@ Indicates whether the end-user wants this message object hidden from other users
   
 > Handles message and attachment objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -52,7 +52,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

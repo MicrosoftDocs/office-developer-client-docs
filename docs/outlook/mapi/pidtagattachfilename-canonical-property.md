@@ -33,17 +33,17 @@ Contains an attachment's base file name and extension, excluding path.
    
 ## Remarks
 
-It is recommended that attachment objects expose these properties which pertain to the **ATTACH_BY_VALUE**, **ATTACH_BY_REFERENCE**, **ATTACH_BY_REF_RESOLVE**, and **ATTACH_BY_REF_ONLY** values of the **PR_ATTACH_METHOD** ( [PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) property. **PR_ATTACH_FILENAME** and associated properties are required when any of these values is used. 
+It is recommended that attachment objects expose these properties which pertain to the **ATTACH_BY_VALUE**, **ATTACH_BY_REFERENCE**, **ATTACH_BY_REF_RESOLVE**, and **ATTACH_BY_REF_ONLY** values of the **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) property. **PR_ATTACH_FILENAME** and associated properties are required when any of these values is used. 
   
-These properties can be used as a suggested file name for saving the attachment and to supply the file name extension if the **PR_ATTACH_EXTENSION** ( [PidTagAttachExtension](pidtagattachextension-canonical-property.md)) property is not provided. 
+These properties can be used as a suggested file name for saving the attachment and to supply the file name extension if the **PR_ATTACH_EXTENSION** ([PidTagAttachExtension](pidtagattachextension-canonical-property.md)) property is not provided. 
   
-The file name is restricted to eight characters plus a three-character extension. For a platform that supports long file names, set both this property and the **PR_ATTACH_LONG_FILENAME** ( [PidTagAttachLongFilename](pidtagattachlongfilename-canonical-property.md)) property. 
+The file name is restricted to eight characters plus a three-character extension. For a platform that supports long file names, set both this property and the **PR_ATTACH_LONG_FILENAME** ([PidTagAttachLongFilename](pidtagattachlongfilename-canonical-property.md)) property. 
   
 MAPI works only with file names, and other strings passed to it, in the American National Standards Institute (ANSI) character set. Client applications that use file names in an original equipment manufacturer (OEM) character set must convert them to ANSI before calling MAPI. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -65,7 +65,7 @@ MAPI works only with file names, and other strings passed to it, in the American
   
 > Encodes and decodes message and attachment objects to an efficient stream representation.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -77,7 +77,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

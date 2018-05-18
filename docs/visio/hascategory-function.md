@@ -30,7 +30,7 @@ HASCATEGORY( ** *category* ** )
 |:-----|:-----|:-----|:-----|
 | _category_ <br/> |Required  <br/> |**String** <br/> |The category to search for.  <br/> |
    
-### Return Value
+### Return value
 
  **Boolean**
   

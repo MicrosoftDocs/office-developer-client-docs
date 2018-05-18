@@ -29,7 +29,7 @@ FLOOR( ** *number* **, ** *multiple* ** )
 | _number_ <br/> |Required  <br/> |**Number** <br/> |The number to round.  <br/> |
 | _multiple_ <br/> |Required  <br/> |**Number** <br/> |The multiple to which to round.  <br/> |
    
-### Return Value
+### Return value
 
 Number
   

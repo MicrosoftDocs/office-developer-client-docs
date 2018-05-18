@@ -30,7 +30,7 @@ Creates a display table from the property page data contained in one or more [DT
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Service providers  <br/> |
    
-```
+```cpp
 STDAPI BuildDisplayTable(
   LPALLOCATEBUFFER lpAllocateBuffer,
   LPALLOCATEMORE lpAllocateMore,
@@ -99,7 +99,7 @@ None
 
 MAPI uses the functions pointed to by  _lpAllocateBuffer_,  _lpAllocateMore_, and  _lpFreeBuffer_ for most memory allocation and deallocation, in particular to allocate memory for use by client applications when calling object interfaces such as [IMAPIProp::GetProps](imapiprop-getprops.md) and [IMAPITable::QueryRows](imapitable-queryrows.md). 
   
-## Notes to Callers
+## Notes to callers
 
 Everything possible is read from the dialog resource, including:
   

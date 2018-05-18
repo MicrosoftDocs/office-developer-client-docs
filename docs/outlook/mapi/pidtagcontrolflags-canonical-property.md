@@ -86,9 +86,9 @@ The following table lists the types of controls and all of the flag values that 
 |Tabbed page  <br/> |Must be zero  <br/> |
 |Radio button  <br/> |Must be zero  <br/> |
    
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -100,7 +100,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

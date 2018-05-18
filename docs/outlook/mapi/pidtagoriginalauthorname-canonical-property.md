@@ -33,13 +33,13 @@ Contains the display name of the author of the first version of a message, that 
    
 ## Remarks
 
-These properties are examples of the address properties for the author of a message. At first submission of the message, the client application should set these properties to the value of **PR_SENDER_NAME** ( [PidTagSenderName](pidtagsendername-canonical-property.md)). It is never changed when the message is forwarded or replied to.
+These properties are examples of the address properties for the author of a message. At first submission of the message, the client application should set these properties to the value of **PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)). It is never changed when the message is forwarded or replied to.
   
 The original author properties allow for preservation of information from outside the local messaging domain. When a message arrives from another messaging domain, such as from the Internet, these properties provide a way to ensure that original information is not lost.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -49,7 +49,7 @@ The original author properties allow for preservation of information from outsid
   
 > Converts between IETF RFC2445, RFC2446, and RFC2447, and appointment and meeting objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -61,10 +61,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagDisplayName Canonical Property](pidtagdisplayname-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -36,7 +36,7 @@ Renaming a folder without changing its parent folder usually does not cause the 
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Entry Identifiers](mapi-entry-identifiers.md)
 

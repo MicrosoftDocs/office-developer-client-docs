@@ -1,5 +1,5 @@
 ---
-title: "Create a Simple Recurrent Task Item"
+title: "Create a simple recurrent task item"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,31 +8,25 @@ api_type:
 - COM
 ms.assetid: e9ee8865-0983-439e-8405-7946c5ec8762
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
-# Create a Simple Recurrent Task Item
+# Create a simple recurrent task item
 
-  
-  
 **Applies to**: Outlook 
   
 MAPI can be used to create to create task items. This topic describes how to create a simple recurrent task item.
   
 For information about how to download, view, and run the code from the MFCMAPI application and CreateOutlookItemsAddin project referenced in this topic, see [Install the Samples Used in This Section](how-to-install-the-samples-used-in-this-section.md).
-  
-### 
 
 ### To create a task item
 
 1. Open a message store. For information on how to open a message store, see [Opening a Message Store](opening-a-message-store.md).
     
-2. Open the Tasks folder in the message store. For more information, see **PR_IPM_TASK_ENTRYID** ( [PidTagIpmTaskEntryId](pidtagipmtaskentryid-canonical-property.md)).
+2. Open the Tasks folder in the message store. For more information, see **PR_IPM_TASK_ENTRYID** ([PidTagIpmTaskEntryId](pidtagipmtaskentryid-canonical-property.md)).
     
 3. Call the [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) method on the Tasks folder to create the new task item. 
     
-4. Set the **dispidTaskRecur** ( [PidLidTaskRecurrence](pidlidtaskrecurrence-canonical-property.md)) property and other task-related properties required to create a recurrent task.
+4. Set the **dispidTaskRecur** ([PidLidTaskRecurrence](pidlidtaskrecurrence-canonical-property.md)) property and other task-related properties required to create a recurrent task.
     
 5. Save the new task item.
     
@@ -45,11 +39,13 @@ The  `AddTask` function is listed below. Note that the  _lpFolder_ parameter pas
   
 The  `AddTask` function sets a number of named properties. For information about named properties and how they are created, see [Using MAPI to Create Outlook 2007 Items](http://msdn.microsoft.com/en-us/library/cc678348%28office.12%29.aspx). Because the named properties used for task items occupy multiple property sets, care must be taken when building parameters to pass to the [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) method. 
   
-The  `AddTask` function uses the  `BuildWeeklyTaskRecurrencePattern` helper function to build a structure representing a task recurrence for setting the **dispidTaskRecur** property. For information on the task recurrence structure the  `BuildWeeklyTaskRecurrencePattern` function builds, see [PidLidTaskRecurrence Canonical Property](pidlidtaskrecurrence-canonical-property.md) and [PidLidRecurrencePattern Canonical Property](pidlidrecurrencepattern-canonical-property.md). Note that while a large variety of recurrence patterns are possible, the  `BuildWeeklyTaskRecurrencePattern` function only builds a weekly recurrence pattern. It is also hard coded for a number of assumptions, such as the calendar type (Gregorian), the first day of the week (Sunday), and the number of modified or deleted instances (none). A more general purpose recurrence pattern creation function would need to accept these sorts of variables as parameters. 
+The  `AddTask` function uses the  `BuildWeeklyTaskRecurrencePattern` helper function to build a structure representing a task recurrence for setting the **dispidTaskRecur** property. For information on the task recurrence structure the  `BuildWeeklyTaskRecurrencePattern` function builds, see [PidLidTaskRecurrence Canonical Property](pidlidtaskrecurrence-canonical-property.md) and [PidLidRecurrencePattern Canonical Property](pidlidrecurrencepattern-canonical-property.md). 
+
+Note that while a large variety of recurrence patterns are possible, the  `BuildWeeklyTaskRecurrencePattern` function only builds a weekly recurrence pattern. It is also hard coded for a number of assumptions, such as the calendar type (Gregorian), the first day of the week (Sunday), and the number of modified or deleted instances (none). A more general purpose recurrence pattern creation function would need to accept these sorts of variables as parameters. 
   
 The following is the complete listing of the  `AddTask` function. 
   
-```
+```cpp
 HRESULT AddTask(LPMAPIFOLDER lpFolder,
             SYSTEMTIME* lpstStart, // PidLidCommonEnd, PidLidTaskDueDate, PidLidTaskRecurrence
             SYSTEMTIME* lpstEnd, // PidLidTaskRecurrence
@@ -66,7 +62,7 @@ HRESULT AddTask(LPMAPIFOLDER lpFolder,
    // create a message and set its properties
    hRes = lpFolder->CreateMessage(0,
       0,
-      &amp;lpMessage);
+      &lpMessage);
    if (SUCCEEDED(hRes))
    {
       MAPINAMEID  rgnmid[ulTaskProps];
@@ -76,19 +72,19 @@ HRESULT AddTask(LPMAPIFOLDER lpFolder,
       for (i = 0 ; i < ulTaskProps ; i++)
       {
          if (i < ulFirstTaskProp)
-            rgnmid[i].lpguid = (LPGUID)&amp;PSETID_Common;
+            rgnmid[i].lpguid = (LPGUID)&PSETID_Common;
          else
-            rgnmid[i].lpguid = (LPGUID)&amp;PSETID_Task;
+            rgnmid[i].lpguid = (LPGUID)&PSETID_Task;
          rgnmid[i].ulKind = MNID_ID;
          rgnmid[i].Kind.lID = aulTaskProps[i];
-         rgpnmid[i] = &amp;rgnmid[i];
+         rgpnmid[i] = &rgnmid[i];
       }
       hRes = lpFolder->GetIDsFromNames(
          ulTaskProps,
-         (LPMAPINAMEID*) &amp;rgpnmid,
+         (LPMAPINAMEID*) &rgpnmid,
          NULL,
-         &amp;lpNamedPropTags);
-      if (SUCCEEDED(hRes) &amp;&amp; lpNamedPropTags)
+         &lpNamedPropTags);
+      if (SUCCEEDED(hRes) && lpNamedPropTags)
       {
       // Because the properties to be set are known in advance, 
       // most of the structures involved can be statically declared 
@@ -129,8 +125,8 @@ HRESULT AddTask(LPMAPIFOLDER lpFolder,
          spvProps[p_PR_BODY_W].ulPropTag            = PR_BODY_W;
          spvProps[p_PidLidTaskMode].Value.l = tdmtNothing;
          SYSTEMTIME stStartUTC = {0};
-         TzSpecificLocalTimeToSystemTime(NULL,lpstStart,&amp;stStartUTC);
-         SystemTimeToFileTime(&amp;stStartUTC,&amp;spvProps[p_PidLidCommonEnd].Value.ft);
+         TzSpecificLocalTimeToSystemTime(NULL,lpstStart,&stStartUTC);
+         SystemTimeToFileTime(&stStartUTC,&spvProps[p_PidLidCommonEnd].Value.ft);
          spvProps[p_PidLidTaskStatus].Value.l = tsvNotStarted;
          spvProps[p_PidLidPercentComplete].Value.dbl = 0.0;
          spvProps[p_PidLidTaskState].Value.l = tdsOWNNEW;
@@ -140,7 +136,7 @@ HRESULT AddTask(LPMAPIFOLDER lpFolder,
          spvProps[p_PidLidTaskOwnership].Value.l = tovNew;
          spvProps[p_PidLidTaskAcceptanceState].Value.l = tdvNone;
          spvProps[p_PidLidTaskFFixOffline].Value.b = true;
-         SystemTimeToFileTime(lpstStart,&amp;spvProps[p_PidLidTaskDueDate].Value.ft);
+         SystemTimeToFileTime(lpstStart,&spvProps[p_PidLidTaskDueDate].Value.ft);
          spvProps[p_PidLidTaskComplete].Value.b = false;
          spvProps[p_PR_MESSAGE_CLASS_W].Value.lpszW = L"IPM.Task";
          spvProps[p_PR_ICON_INDEX].Value.l = 0x501; // Unassigned Recurring Task
@@ -154,8 +150,8 @@ HRESULT AddTask(LPMAPIFOLDER lpFolder,
             dwPeriod,
             dwOccurrenceCount,
             dwPatternTypeSpecific,
-            &amp;spvProps[p_PidLidTaskRecurrence].Value.bin.cb,
-            &amp;spvProps[p_PidLidTaskRecurrence].Value.bin.lpb);
+            &spvProps[p_PidLidTaskRecurrence].Value.bin.cb,
+            &spvProps[p_PidLidTaskRecurrence].Value.bin.lpb);
          if (SUCCEEDED(hRes))
          {
             hRes = lpMessage->SetProps(NUM_PROPS, spvProps, NULL);
@@ -177,7 +173,5 @@ HRESULT AddTask(LPMAPIFOLDER lpFolder,
 
 ## See also
 
-#### Other resources
-
-[Using MAPI to Create Outlook 2007 Items](http://msdn.microsoft.com/en-us/library/cc678348%28office.12%29.aspx)
+- [Using MAPI to Create Outlook 2007 Items](http://msdn.microsoft.com/en-us/library/cc678348%28office.12%29.aspx)
 

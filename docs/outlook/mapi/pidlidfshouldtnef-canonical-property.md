@@ -36,15 +36,15 @@ Indicates whether to encode an item with Transport Neutral Encapsulation Format 
 
 This property is set when Microsoft Word is set as the e-mail editor, and it sends an OLE object that is embedded in a Rich Text Format (RTF) stream.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]] 
   
 > Provides property set definitions and references to related Exchange Server protocol specifications.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -52,7 +52,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

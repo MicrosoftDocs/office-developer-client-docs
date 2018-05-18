@@ -42,9 +42,9 @@ This property must be one of the following values.
 |0x00000001  <br/> |The task is the task assigner's copy of the task.  <br/> |
 |0x00000002  <br/> |The task is the task assignee's copy of the task.  <br/> |
    
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -54,7 +54,7 @@ This property must be one of the following values.
   
 > Defines several objects that model the electronic equivalent of tasks, task assignments, and task updates.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -62,7 +62,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

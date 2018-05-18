@@ -22,7 +22,7 @@ When service providers use the [IMAPISupport : IUnknown](imapisupportiunknown.md
   
 You receive these notifications when the hidden window's window procedure processes the **szMAPINotificationMsg** message. To guarantee that notifications are delivered, it is necessary to wait for and dispatch this **szMAPINotificationMsg** message. Implementing the logic to achieve this can be done fairly simply, but MAPI provides an entry point into the MAPI DLL called [HrDispatchNotifications](hrdispatchnotifications.md) to make processing even simpler. Call **HrDispatchNotifications** as follows to receive notifications in your client: 
   
-```
+```cpp
 HRESULT hr = HrDispatchNotifications(0);
  
 ```

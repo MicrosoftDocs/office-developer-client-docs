@@ -54,10 +54,10 @@ The following table lists three examples of the values returned by a call to **x
    
 ## See also
 
-#### Reference
+
 
 [xlfGetDef](xlfgetdef.md)
-#### Concepts
+
 
 [Essential and Useful C API XLM Functions](essential-and-useful-c-api-xlm-functions.md)
 

@@ -38,14 +38,14 @@ To handle messages in an initialization thread, a MAPI client that is implemente
     
 ## See also
 
-#### Reference
+
 
 [MAPIInitialize](mapiinitialize.md)
   
 [MAPIINIT_0](mapiinit_0.md)
   
 [MAPILogonEx](mapilogonex.md)
-#### Concepts
+
 
 [Operating Environment Issues](operating-environment-issues.md)
 

@@ -48,10 +48,10 @@ Display tables have the following properties in their required column set:
   
 |||
 |:-----|:-----|
-|**PR_XPOS** ( [PidTagXCoordinate](pidtagxcoordinate-canonical-property.md))  <br/> |**PR_YPOS** ( [PidTagYCoordinate](pidtagycoordinate-canonical-property.md))  <br/> |
-|**PR_DELTAX** ( [PidTagDeltaX](pidtagdeltax-canonical-property.md))  <br/> |**PR_DELTAY** ( [PidTagDeltaY](pidtagdeltay-canonical-property.md))  <br/> |
-|**PR_CONTROL_TYPE** ( [PidTagControlType](pidtagcontroltype-canonical-property.md))  <br/> |**PR_CONTROL_FLAGS** ( [PidTagControlFlags](pidtagcontrolflags-canonical-property.md))  <br/> |
-|**PR_CONTROL_STRUCTURE** ( [PidTagControlStructure](pidtagcontrolstructure-canonical-property.md))  <br/> |**PR_CONTROL_ID** ( [PidTagControlId](pidtagcontrolid-canonical-property.md))  <br/> |
+|**PR_XPOS** ([PidTagXCoordinate](pidtagxcoordinate-canonical-property.md))  <br/> |**PR_YPOS** ([PidTagYCoordinate](pidtagycoordinate-canonical-property.md))  <br/> |
+|**PR_DELTAX** ([PidTagDeltaX](pidtagdeltax-canonical-property.md))  <br/> |**PR_DELTAY** ([PidTagDeltaY](pidtagdeltay-canonical-property.md))  <br/> |
+|**PR_CONTROL_TYPE** ([PidTagControlType](pidtagcontroltype-canonical-property.md))  <br/> |**PR_CONTROL_FLAGS** ([PidTagControlFlags](pidtagcontrolflags-canonical-property.md))  <br/> |
+|**PR_CONTROL_STRUCTURE** ([PidTagControlStructure](pidtagcontrolstructure-canonical-property.md))  <br/> |**PR_CONTROL_ID** ([PidTagControlId](pidtagcontrolid-canonical-property.md))  <br/> |
    
  **PR_XPOS** and **PR_YPOS** specify the X and Y coordinates of the upper left corner of the control. The horizontal units are 1/4 of the dialog base width unit; the vertical units are 1/8 of the dialog base height unit. Windows computes the current dialog base units from the height and width of the current system font. The coordinates are relative to the origin of the property page area. The size of property pages is limited to approximately 200 by 180 dialog units. 
   
@@ -67,7 +67,7 @@ For more information about display tables, see [Display Table Implementation](di
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Tables](mapi-tables.md)
 

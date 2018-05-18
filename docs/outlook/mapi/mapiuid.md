@@ -29,7 +29,7 @@ A byte-order independent version of a [GUID](guid.md) structure that is used to 
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related macro:  <br/> |[IsEqualMAPIUID](isequalmapiuid.md) <br/> |
    
-```
+```cpp
 typedef struct _MAPIUID
 {
   BYTE ab[16];
@@ -55,7 +55,7 @@ MAPI creates **MAPIUID** structures in a way that makes it very rare for two dif
     
 - In the entry identifiers of message store and address book objects to identify the responsible service provider.
     
-- In the **PR_SEARCH_KEY** ( [PidTagSearchKey](pidtagsearchkey-canonical-property.md)) property of messages.
+- In the **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) property of messages.
     
 To generate a **MAPIUID** identifier for a search key, service providers call [IMAPISupport::NewUID](imapisupport-newuid.md).
   
@@ -69,14 +69,14 @@ For more information about how **MAPIUID** structures are used, see the followin
   
 ## See also
 
-#### Reference
+
 
 [GUID](guid.md)
   
 [IMAPISession::OpenProfileSection](imapisession-openprofilesection.md)
   
 [IMAPISupport::NewUID](imapisupport-newuid.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

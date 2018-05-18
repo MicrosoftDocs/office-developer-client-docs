@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Compares two entry identifiers to determine whether they refer to the same object.
   
-```
+```cpp
 HRESULT CompareEntryIDs(
   ULONG cbEntryID1,
   LPENTRYID lpEntryID1,
@@ -81,7 +81,7 @@ For more information about how to create entry identifiers, see [MAPI Entry Iden
   
 ## See also
 
-#### Reference
+
 
 [IABLogon : IUnknown](iablogoniunknown.md)
 

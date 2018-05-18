@@ -35,9 +35,9 @@ Contains TRUE if a messaging user profile is the MAPI default profile.
 
 This property does not appear as a property of any object but only as a column in a profile table. A client application can use the [IProfAdmin::SetDefaultProfile](iprofadmin-setdefaultprofile.md) method to designate the default profile. 
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -49,10 +49,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagDefaultStore Canonical Property](pidtagdefaultstore-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

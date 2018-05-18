@@ -33,7 +33,7 @@ Supports the use of configurable run-time forms in distributed computing environ
 |Interface identifier:  <br/> |IID_IMAPIFormFactory  <br/> |
 |Pointer type:  <br/> |LPMAPIFORMFACTORY  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -49,7 +49,7 @@ The **IMAPIFormFactory** interface is based on the [IClassFactory](http://msdn.m
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
 

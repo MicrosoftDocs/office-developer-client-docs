@@ -35,9 +35,9 @@ Indicates the page of a display template to display first.
 
 It must be present on all address book objects on an Name Service Provider Interface (NSPI) server, and must have the value zero (0). It must not be defined for any objects in an Offline Address Book.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -47,7 +47,7 @@ It must be present on all address book objects on an Name Service Provider Inter
   
 > Specifies the properties and operations for lists of users, contacts, groups, and resources.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

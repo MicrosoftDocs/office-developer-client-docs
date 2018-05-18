@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Establishes a folder as the destination for incoming messages of a particular message class.
   
-```
+```cpp
 HRESULT SetReceiveFolder(
   LPSTR lpszMessageClass,
   ULONG ulFlags,
@@ -79,10 +79,10 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMsgStore : IMAPIProp](imsgstoreimapiprop.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

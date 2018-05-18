@@ -30,7 +30,7 @@ Validates a restriction used to limit a table view.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Service providers  <br/> |
    
-```
+```cpp
 ULONG FBadRestriction(
   LPSRestriction lpres
 );

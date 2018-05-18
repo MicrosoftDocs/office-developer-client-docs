@@ -22,7 +22,7 @@ Special folders such as the Inbox, Outbox, and search-results folder may be crea
   
 ## See also
 
-#### Concepts
+
 
 [Implementing Folders in Message Stores](implementing-folders-in-message-stores.md)
 

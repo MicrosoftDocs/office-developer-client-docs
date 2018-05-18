@@ -48,7 +48,7 @@ For more information about MAPI form components, see [MAPI Forms](mapi-forms.md)
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Features and Architecture](mapi-features-and-architecture.md)
 

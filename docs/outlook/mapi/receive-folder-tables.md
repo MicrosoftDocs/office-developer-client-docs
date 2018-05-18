@@ -22,15 +22,15 @@ A receive folder table contains information for all the folders designated as re
   
 The following properties make up the required column set in receive folder tables:
   
- **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)) 
+ **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 
   
- **PR_MESSAGE_CLASS** ( [PidTagMessageClass](pidtagmessageclass-canonical-property.md)) 
+ **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) 
   
- **PR_RECORD_KEY** ( [PidTagRecordKey](pidtagrecordkey-canonical-property.md)) 
+ **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)) 
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Tables](mapi-tables.md)
 

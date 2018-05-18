@@ -16,7 +16,7 @@ description: "Begins a task for appointment rebasing given a list of appointment
 
 Begins a task for appointment rebasing given a list of appointments, usually obtained from [IOlkApptRebaser::EndEnumerateAppointments](iolkapptrebaser-endenumerateappointments.md).
   
-## Quick Info
+## Quick info
 
 See [IOlkApptRebaser](iolkapptrebaser.md).
   
@@ -56,7 +56,7 @@ This task runs on a new thread.
   
 ## See also
 
-#### Concepts
+
 
 [About rebasing calendars programmatically for Daylight Saving Time](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
 

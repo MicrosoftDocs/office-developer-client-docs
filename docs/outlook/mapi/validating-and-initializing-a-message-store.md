@@ -42,14 +42,14 @@ If the message store is not the default, you can either set or not set the MAPI_
   
 To initialize a message store, store the following properties in memory so that they are readily available:
   
-- **PR_VALID_FOLDER_MASK** ( [PidTagValidFolderMask](pidtagvalidfoldermask-canonical-property.md))
+- **PR_VALID_FOLDER_MASK** ([PidTagValidFolderMask](pidtagvalidfoldermask-canonical-property.md))
     
-- **PR_STORE_SUPPORT_MASK** ( [PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md))
+- **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md))
     
 These properties are bitmasks that describe features of the message store. **PR_VALID_FOLDER_MASK** has one bit set for every special folder that exists in the message store and has an assigned entry identifier that is valid. For more information about accessing these folders and their entry identifiers, see [Opening a Message Store Folder](opening-a-message-store-folder.md). 
   
  **PR_STORE_SUPPORT_MASK** has one bit set for every feature supported in the message store. For example, if a message store supports notification and formatted text, its **PR_STORE_SUPPORT_MASK** will have the STORE_NOTIFY_OK and STORE_RTF_OK bits set. 
   
-Other properties that should be stored locally include the entry identifiers for the folders that the **PR_VALID_FOLDER_MASK** property describes as valid. Each of these special folders, except for the Inbox folder, has an entry identifier property associated with it. For example, the entry identifier for the Outbox folder is its **PR_IPM_OUTBOX_ENTRYID** ( [PidTagIpmOutboxEntryId](pidtagipmoutboxentryid-canonical-property.md)) property. Because these folders are the folders that will be opened frequently, it is a good idea to have their entry identifiers readily available.
+Other properties that should be stored locally include the entry identifiers for the folders that the **PR_VALID_FOLDER_MASK** property describes as valid. Each of these special folders, except for the Inbox folder, has an entry identifier property associated with it. For example, the entry identifier for the Outbox folder is its **PR_IPM_OUTBOX_ENTRYID** ([PidTagIpmOutboxEntryId](pidtagipmoutboxentryid-canonical-property.md)) property. Because these folders are the folders that will be opened frequently, it is a good idea to have their entry identifiers readily available.
   
 

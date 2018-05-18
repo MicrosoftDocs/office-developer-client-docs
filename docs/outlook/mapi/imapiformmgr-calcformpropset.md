@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Returns an array of the properties that a group of forms uses.
   
-```cs
+```cpp
 HRESULT CalcFormPropSet(
   LPSMAPIFORMINFOARRAY pfrminfoarray,
   ULONG ulFlags,
@@ -72,13 +72,13 @@ MAPI_E_BAD_CHARWIDTH
 
 Form viewers call the **IMAPIFormMgr::CalcFormPropSet** method to obtain an array of the properties that a group of forms uses. **CalcFormPropSet** takes either an intersection or a union of these forms' property sets, depending on the flag set in the  _ulFlags_ parameter, and it returns an **SMAPIFormPropArray** structure that contains the resulting group of properties. 
   
-## Notes to Implementers
+## Notes to implementers
 
 If a form viewer passes the MAPI_UNICODE flag in the  _ulFlags_ parameter, all strings should be returned as Unicode strings. Form library providers that do not support Unicode strings should return MAPI_E_BAD_CHARWIDTH if MAPI_UNICODE is passed. 
   
 ## See also
 
-#### Reference
+
 
 [SMAPIFormPropArray](smapiformproparray.md)
   

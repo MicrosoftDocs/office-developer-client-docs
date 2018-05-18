@@ -38,7 +38,7 @@ Microsoft Office Outlook 2003, earlier versions of Outlook, and applications tha
   
 Use the following little-endian format when parsing a stream obtained from **dispidTimeZoneStruct**, or when persisting the **TZREG** structure to a stream to commit to the **dispidTimeZoneStruct** binary property. 
   
-```
+```cpp
 long        lBias;           // offset from GMT
 long        lStandardBias;   // offset from bias during standard time
 long        lDaylightBias;   // offset from bias during daylight time
@@ -50,9 +50,9 @@ SYSTEMTIME  stDaylightDate;  // time to switch to daylight time
 
 This property is set on a recurring series to specify time-zone information, and specifies how to convert time fields between local time and Coordinated Universal Time (UTC).
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
@@ -62,7 +62,7 @@ This property is set on a recurring series to specify time-zone information, and
   
 > Specifies the properties and operations for appointment, meeting request, and response messages.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -70,7 +70,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

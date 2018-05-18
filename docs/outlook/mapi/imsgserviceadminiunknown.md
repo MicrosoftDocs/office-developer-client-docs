@@ -33,7 +33,7 @@ Makes changes to a message service in a profile.
 |Interface identifier:  <br/> |IID_IMsgServiceAdmin  <br/> |
 |Pointer type:  <br/> |LPSERVICEADMIN  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -56,7 +56,7 @@ An implementation can get a pointer to an **IMsgServiceAdmin** interface in two 
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
 

@@ -28,7 +28,7 @@ Contains a list of flags used to indicate the status of address entries during t
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct
 {
   ULONG cFlags;
@@ -65,12 +65,12 @@ The **FLAGLIST** structure is used as a parameter to [IABContainer::ResolveNames
   
 ## See also
 
-#### Reference
+
 
 [ADRLIST](adrlist.md)
   
 [IABContainer::ResolveNames](iabcontainer-resolvenames.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

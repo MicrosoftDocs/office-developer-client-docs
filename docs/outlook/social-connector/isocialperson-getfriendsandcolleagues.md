@@ -40,10 +40,10 @@ However, if the selected Outlook user does not specify that same SMTP address on
   
 ## See also
 
-#### Reference
+
 
 [ISocialPerson : IUnknown](isocialpersoniunknown.md)
-#### Concepts
+
 
 [Getting Friends Information](getting-friends-information.md)
 

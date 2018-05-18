@@ -30,15 +30,15 @@ With standard sorting, all of the rows are displayed in a flat list using one or
   
 - The column or columns that make up the sort key
     
-- **PR_CONTENT_COUNT** ( [PidTagContentCount](pidtagcontentcount-canonical-property.md))
+- **PR_CONTENT_COUNT** ([PidTagContentCount](pidtagcontentcount-canonical-property.md))
     
-- **PR_CONTENT_UNREAD** ( [PidTagContentUnreadCount](pidtagcontentunreadcount-canonical-property.md))
+- **PR_CONTENT_UNREAD** ([PidTagContentUnreadCount](pidtagcontentunreadcount-canonical-property.md))
     
-- **PR_INSTANCE_KEY** ( [PidTagInstanceKey](pidtaginstancekey-canonical-property.md))
+- **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md))
     
-- **PR_DEPTH** ( [PidTagDepth](pidtagdepth-canonical-property.md))
+- **PR_DEPTH** ([PidTagDepth](pidtagdepth-canonical-property.md))
     
-- **PR_ROW_TYPE** ( [PidTagRowType](pidtagrowtype-canonical-property.md)) 
+- **PR_ROW_TYPE** ([PidTagRowType](pidtagrowtype-canonical-property.md)) 
     
 Indented under the heading row are all the rows from the table that contain columns with values that match the sort key. These rows are called the leaf rows. Leaf rows contain all the columns in the column set minus the sort key columns. 
   
@@ -80,7 +80,7 @@ For more information about sorting the threads of a conversation see the followi
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Tables](mapi-tables.md)
 

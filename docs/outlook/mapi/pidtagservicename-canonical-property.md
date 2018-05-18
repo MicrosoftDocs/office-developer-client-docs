@@ -37,9 +37,9 @@ The name contained in these properties is specific to the message service. It co
   
 These properties appear as a column in the message service table and can be used to filter services. Because it is used to identify and filter services, the value should not be localized.
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -51,7 +51,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

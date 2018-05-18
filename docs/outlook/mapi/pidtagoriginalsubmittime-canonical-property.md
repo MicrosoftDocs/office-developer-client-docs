@@ -33,11 +33,11 @@ Contains the original submission date and time of the message in the report.
    
 ## Remarks
 
-At first submission of a message, a client application should set this property to the value of the **PR_CLIENT_SUBMIT_TIME** ( [PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md)) property. It is not changed when the message is forwarded. This is used in reports only.
+At first submission of a message, a client application should set this property to the value of the **PR_CLIENT_SUBMIT_TIME** ([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md)) property. It is not changed when the message is forwarded. This is used in reports only.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -47,7 +47,7 @@ At first submission of a message, a client application should set this property 
   
 > Specifies the properties and operations that are permissible on e-mail message objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

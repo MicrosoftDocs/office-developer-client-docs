@@ -33,13 +33,13 @@ Contains a recipient's display name in a secure form that cannot be changed.
    
 ## Remarks
 
-These properties should be implemented by all address book providers. They contain the version of the recipient's display name that is transmitted with the message. For most address book providers these properties have the same value as the **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property. Providers that do not have a secure display name return PT_ERROR and MAPI changes the display name by adding quotation marks around the name.
+These properties should be implemented by all address book providers. They contain the version of the recipient's display name that is transmitted with the message. For most address book providers these properties have the same value as the **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property. Providers that do not have a secure display name return PT_ERROR and MAPI changes the display name by adding quotation marks around the name.
   
 A client application can use this property to prevent alteration or "spoofing" of entries. An example of spoofing is transmitting John Doe as John (What a Guy) Doe.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -61,7 +61,7 @@ A client application can use this property to prevent alteration or "spoofing" o
   
 > Handles message and attachment objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -73,7 +73,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

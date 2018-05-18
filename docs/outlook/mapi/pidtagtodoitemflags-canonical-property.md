@@ -44,9 +44,9 @@ This property is a bit field in which each bit should be set to 1 if the associa
    
 All bits that are not specified in the table are reserved. They must be ignored, but should be preserved if they are set.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -56,7 +56,7 @@ All bits that are not specified in the table are reserved. They must be ignored,
   
 > Specifies the properties and operations related to flagging.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -68,7 +68,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -32,7 +32,7 @@ Replaces part of a text string with a different text string.
 | _start_num_opt_ <br/> |Optional  <br/> |**Numeric** <br/> |Specifies which occurences of old_text to replace.  <br/> |
 | _ignore_case_opt_ <br/> |Optional  <br/> |**Boolean** <br/> |FALSE if case-sensitive; otherwise, TRUE. The default is FALSE.  <br/> |
    
-### Return Value
+### Return value
 
 String
   

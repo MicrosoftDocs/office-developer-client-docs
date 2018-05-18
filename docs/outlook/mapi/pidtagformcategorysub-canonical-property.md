@@ -33,11 +33,11 @@ Contains the subcategory of a form, as defined by a client application.
    
 ## Remarks
 
-These properties are subordinate to the main form category that is provided in the **PR_FORM_CATEGORY** ( [PidTagFormCategory](pidtagformcategory-canonical-property.md)) property. 
+These properties are subordinate to the main form category that is provided in the **PR_FORM_CATEGORY** ([PidTagFormCategory](pidtagformcategory-canonical-property.md)) property. 
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -40,11 +40,11 @@ When setting this property, the client or the server must ensure its total size 
   
 This property specifies the list of one-off EntryIds that correspond to the members of the personal distribution list. These one-off EntryIds encapsulate display names and e-mail addresses of the personal distribution list members.
   
-If the client or the server set this property, it must be synchronized with this property **dispidDLMembers** for each entry in the **dispidDLOneOffMembers** ( [PidLidDistributionListOneOffMembers](pidliddistributionlistoneoffmembers-canonical-property.md)) property, there must be an entry in the same position in the **dispidDLOneOffMembers**.
+If the client or the server set this property, it must be synchronized with this property **dispidDLMembers** for each entry in the **dispidDLOneOffMembers** ([PidLidDistributionListOneOffMembers](pidliddistributionlistoneoffmembers-canonical-property.md)) property, there must be an entry in the same position in the **dispidDLOneOffMembers**.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -54,7 +54,7 @@ If the client or the server set this property, it must be synchronized with this
   
 > Specifies the properties and operations that are permissible for contacts and personal distribution lists.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -62,7 +62,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

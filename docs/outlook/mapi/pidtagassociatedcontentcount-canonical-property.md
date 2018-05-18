@@ -35,9 +35,9 @@ Contains the count of items in the associated contents table of the folder.
 
 This property contains the number of entries in the contents table of the folder. 
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

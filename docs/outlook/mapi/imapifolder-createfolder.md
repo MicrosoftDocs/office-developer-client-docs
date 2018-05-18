@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Creates a new subfolder.
   
-```
+```cpp
 HRESULT CreateFolder(
   ULONG ulFolderType,
   LPSTR lpszFolderName,
@@ -51,11 +51,11 @@ FOLDER_SEARCH
     
  _lpszFolderName_
   
-> [in] A pointer to a string that contains the name for the new folder. This name is the basis for the new folder's **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property.
+> [in] A pointer to a string that contains the name for the new folder. This name is the basis for the new folder's **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property.
     
  _lpszFolderComment_
   
-> [in] A pointer to a string that contains a comment associated with the new folder. This string becomes the value of the new folder's **PR_COMMENT** ( [PidTagComment](pidtagcomment-canonical-property.md)) property. If NULL is passed, the folder has no initial comment.
+> [in] A pointer to a string that contains a comment associated with the new folder. This string becomes the value of the new folder's **PR_COMMENT** ([PidTagComment](pidtagcomment-canonical-property.md)) property. If NULL is passed, the folder has no initial comment.
     
  _lpInterface_
   
@@ -99,15 +99,15 @@ MAPI_E_COLLISION
 
 The **IMAPIFolder::CreateFolder** method creates a subfolder in the current folder and assigns an entry identifier to the new folder. 
   
-## Notes to Callers
+## Notes to callers
 
 When **CreateFolder** returns, be aware that the entry identifier for the new folder might not be available. Some message store providers do not make entry identifiers available until after you have called the new folder's [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method to permanently save it. This is especially true if you have set the MAPI_DEFERRED_ERRORS flag. 
   
-Be aware that some message store providers always point the  _lppFolder_ parameter to the folder's standard interface, regardless of the value that you pass in for the  _lpInterface_ parameter. Because the interface pointer that is returned might not be of the type that you expect, call the new folder's [IMAPIProp::GetProps](imapiprop-getprops.md) method to retrieve the **PR_OBJECT_TYPE** ( [PidTagObjectType](pidtagobjecttype-canonical-property.md)) property. If necessary, cast the pointer to a more appropriate type before you make other calls.
+Be aware that some message store providers always point the  _lppFolder_ parameter to the folder's standard interface, regardless of the value that you pass in for the  _lpInterface_ parameter. Because the interface pointer that is returned might not be of the type that you expect, call the new folder's [IMAPIProp::GetProps](imapiprop-getprops.md) method to retrieve the **PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md)) property. If necessary, cast the pointer to a more appropriate type before you make other calls.
   
 Most message store providers require the name of the new folder to be unique with respect to the names of its sibling folders. Be able to handle the MAPI_E_COLLISION error value, which is returned if this rule is not followed. 
   
-To determine the entry identifier of the newly created folder, call the new folder's **IMAPIProp::GetProps** method to retrieve its **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)) property.
+To determine the entry identifier of the newly created folder, call the new folder's **IMAPIProp::GetProps** method to retrieve its **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) property.
   
 ## MFCMAPI Reference
 
@@ -119,12 +119,12 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIProp::GetProps](imapiprop-getprops.md)
   
 [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

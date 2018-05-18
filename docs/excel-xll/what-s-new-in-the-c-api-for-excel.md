@@ -41,14 +41,14 @@ In conjunction with Microsoft Excel 2013, the Microsoft Excel 2013 XLL Software 
     
 ## See also
 
-#### Concepts
+
 
 [Developing Excel XLLs](developing-excel-xlls.md)
   
 [Programming with the C API in Excel](programming-with-the-c-api-in-excel.md)
   
 [Multithreading and Memory Contention in Excel](multithreading-and-memory-contention-in-excel.md)
-#### Other resources
+
 
 [Getting Started with the Excel XLL SDK](getting-started-with-the-excel-xll-sdk.md)
 

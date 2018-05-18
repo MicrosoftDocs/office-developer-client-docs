@@ -71,7 +71,7 @@ Although a message's class should never be empty, an empty message class can occ
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Folders](mapi-folders.md)
 

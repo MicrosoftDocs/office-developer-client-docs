@@ -16,7 +16,7 @@ description: "Specifies information for a time zone rule about when daylight sav
 
 Specifies information for a time zone rule about when daylight saving time starts, and the year in which that time zone rule first takes effect. 
   
-## Quick Info
+## Quick info
 
 ```
 typedef struct { 
@@ -50,7 +50,7 @@ This structure augments [TZREG](tzreg.md) by providing additional information in
   
 ## See also
 
-#### Concepts
+
 
 [About rebasing calendars programmatically for Daylight Saving Time](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
   

@@ -52,12 +52,12 @@ Where a DLL or XLL function has been registered with a valid  _pxFunctionText_ a
   
 ## See also
 
-#### Reference
+
 
 [REGISTER](xlfregister-form-1.md)
   
 [UNREGISTER](xlfunregister-form-1.md)
-#### Concepts
+
 
 [Essential and Useful C API XLM Functions](essential-and-useful-c-api-xlm-functions.md)
 

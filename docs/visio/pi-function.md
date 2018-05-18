@@ -22,7 +22,7 @@ Returns the mathematical constant  *pi*  , which is approximately 3.141592653589
 
 PI( )
   
-### Return Value
+### Return value
 
 Number
   

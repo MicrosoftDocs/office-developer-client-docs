@@ -81,7 +81,7 @@ MAPI_E_BUSY
     
 MAPI_E_NO_SUPPORT 
   
-> The status object does not support the validation method, as indicated by the absence of the STATUS_VALIDATE_STATE flag in the **PR_RESOURCE_METHODS** ( [PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) property.
+> The status object does not support the validation method, as indicated by the absence of the STATUS_VALIDATE_STATE flag in the **PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) property.
     
 MAPI_E_USER_CANCEL 
   

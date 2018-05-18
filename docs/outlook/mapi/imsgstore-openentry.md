@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Opens a folder or message and returns an interface pointer for further access. 
   
-```
+```cpp
 HRESULT OpenEntry(
   ULONG cbEntryID,
   LPENTRYID lpEntryID,
@@ -94,9 +94,9 @@ The **IMsgStore::OpenEntry** method opens a folder or message and returns a poin
 > [!IMPORTANT]
 > When opening folder entries on a public store, such as folders and messages, use **IMsgStore::OpenEntry** instead of [IMAPISession::OpenEntry](imapisession-openentry.md). This ensures that public folders function correctly when multiple Exchange accounts are defined in a profile. 
   
-## Notes to Callers
+## Notes to callers
 
-Folders and messages are automatically opened with read-only permission, unless you set the MAPI_MODIFY or MAPI_BEST_ACCESS flag in the  _ulFlags_ parameter. Setting one of these flags does not guarantee a particular type of permission; the permissions that you are granted depend on the message store provider, your access level, and the object. To determine the access level of the opened object, retrieve its **PR_ACCESS_LEVEL** ( [PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)) property.
+Folders and messages are automatically opened with read-only permission, unless you set the MAPI_MODIFY or MAPI_BEST_ACCESS flag in the  _ulFlags_ parameter. Setting one of these flags does not guarantee a particular type of permission; the permissions that you are granted depend on the message store provider, your access level, and the object. To determine the access level of the opened object, retrieve its **PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)) property.
   
 Although **IMsgStore::OpenEntry** can be used to open any folder or message, it is usually faster to use the [IMAPIContainer::OpenEntry](imapicontainer-openentry.md) method if you have access to the parent folder of the folder or message to be opened. 
   
@@ -112,12 +112,12 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIContainer::OpenEntry](imapicontainer-openentry.md)
   
 [IMsgStore : IMAPIProp](imsgstoreimapiprop.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

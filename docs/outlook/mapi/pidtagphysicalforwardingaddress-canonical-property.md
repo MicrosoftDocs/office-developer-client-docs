@@ -31,9 +31,9 @@ Contains the physical forwarding address of a message recipient and is used only
 |Data type:  <br/> |PT_BINARY  <br/> |
 |Area:  <br/> |MAPI Recipient  <br/> |
    
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -45,7 +45,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

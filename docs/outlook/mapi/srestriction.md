@@ -28,7 +28,7 @@ Describes a filter for limiting the view of a table to particular rows.
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SRestriction
 {
   ULONG rt;
@@ -127,7 +127,7 @@ For information about how to use restrictions with tables, see [About Restrictio
   
 ## See also
 
-#### Reference
+
 
 [SAndRestriction](sandrestriction.md)
   
@@ -150,7 +150,7 @@ For information about how to use restrictions with tables, see [About Restrictio
 [SSizeRestriction](ssizerestriction.md)
   
 [SSubRestriction](ssubrestriction.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

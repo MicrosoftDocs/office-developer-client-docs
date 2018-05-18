@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Copies or moves a subfolder.
   
-```
+```cpp
 HRESULT CopyFolder(
   ULONG cbEntryID,
   LPENTRYID lpEntryID,
@@ -121,13 +121,13 @@ MAPI_W_PARTIAL_COMPLETION
 
 The **IMAPIFolder::CopyFolder** method copies or moves a subfolder from one location to another. The subfolder being copied or moved is added to the destination folder as a subfolder. 
   
-## Notes to Implementers
+## Notes to implementers
 
 When the copy or move operation involves more than one folder, as indicated by setting the COPY_SUBFOLDERS flag, perform the operation as completely as possible for each folder. Sometimes one of the folders to be moved or copied does not exist or has already been moved or copied elsewhere. Do not stop the operation prematurely unless a failure occurs that is beyond your control, such as running out of memory, running out of disk space, or corruption in the message store.
   
 Try to retain all message entry identifiers in the copied messages. You should also try to preserve entry identifiers, but it is not required. 
   
-## Notes to Callers
+## Notes to callers
 
 Expect these return values under the following conditions.
   
@@ -159,10 +159,10 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

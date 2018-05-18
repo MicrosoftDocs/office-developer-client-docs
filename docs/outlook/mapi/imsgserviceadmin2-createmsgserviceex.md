@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Adds a message service to the current profile and returns that newly added service UID.
   
-```
+```cpp
 HRESULT CreateMsgServiceEx(
   LPSTR lpszService,
   LPSTR lpszDisplayName,
@@ -42,7 +42,7 @@ HRESULT CreateMsgServiceEx(
     
  _lpszDisplayName_
   
-> [in] A pointer to the display name of the message service to add. The  _lpszDisplayName_ parameter is ignored if the message service has set the **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property in the MapiSvc.inf file.
+> [in] A pointer to the display name of the message service to add. The  _lpszDisplayName_ parameter is ignored if the message service has set the **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property in the MapiSvc.inf file.
     
  _ulUIParam_
   
@@ -90,9 +90,9 @@ The MapiSvc.inf file contains the list of providers that make up a message servi
   
 After all the information has been copied from MapiSvc.inf, the message service's entry point function, **MSGSERVICEENTRY**, is called with the MSG_SERVICE_CREATE value set in the  _ulContext_ parameter. If the SERVICE_UI_ALLOWED flag is set in the **CreateMsgServiceEx** method's  _ulFlags_ parameter, the values in the  _ulUIParam_ and  _ulFlags_ parameters are also passed when the message service's entry point function is called. Service providers should display their configuration property sheets so users can configure the message service. 
   
-## Notes to Callers
+## Notes to callers
 
-If the **CreateMsgServiceEx** _lpuidService_ argument is not NULL, the **PR_SERVICE_UID** ( [PidTagServiceUid](pidtagserviceuid-canonical-property.md)) property of the message service that was added to the profile is returned in the **GUID** to which it points. 
+If the **CreateMsgServiceEx** _lpuidService_ argument is not NULL, the **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) property of the message service that was added to the profile is returned in the **GUID** to which it points. 
   
 Pass the value of the **PR_SERVICE_UID** property in the  _lpuidService_ parameter to the [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md) method to configure the service. 
   
@@ -104,10 +104,10 @@ Pass the value of the **PR_SERVICE_UID** property in the  _lpuidService_ paramet
   
 ## See also
 
-#### Reference
+
 
 [IMsgServiceAdmin2 : IMsgServiceAdmin](imsgserviceadmin2imsgserviceadmin.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

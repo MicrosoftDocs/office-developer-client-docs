@@ -37,9 +37,9 @@ MAPI uses specific rules for constructing search keys for message recipients. Th
   
 For message objects, this property is available through the [IMAPIProp::GetProps](imapiprop-getprops.md) method immediately following message creation. For other objects, it is available following the first call to the [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method. Because this property is changeable, it is unreliable to obtain it through **GetProps** until a **SaveChanges** call has committed any values set or changed by the [IMAPIProp::SetProps](imapiprop-setprops.md) method. 
   
-For profiles, MAPI also furnishes a hard-coded profile section named **MUID_PROFILE_INSTANCE**, with this property as its single property. This key is guaranteed to be unique among all profiles ever created, and can be more reliable than the **PR_PROFILE_NAME** ( [PidTagProfileName](pidtagprofilename-canonical-property.md)) property, which can be, for example, deleted and recreated with the same name.
+For profiles, MAPI also furnishes a hard-coded profile section named **MUID_PROFILE_INSTANCE**, with this property as its single property. This key is guaranteed to be unique among all profiles ever created, and can be more reliable than the **PR_PROFILE_NAME** ([PidTagProfileName](pidtagprofilename-canonical-property.md)) property, which can be, for example, deleted and recreated with the same name.
   
-The following table summarizes important differences among the **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)), **PR_RECORD_KEY** ( [PidTagRecordKey](pidtagrecordkey-canonical-property.md)), and this property.
+The following table summarizes important differences among the **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)), **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)), and this property.
   
 |**Characteristic**|****PR_ENTRYID****|****PR_RECORD_KEY****|****PR_SEARCH_KEY****|
 |:-----|:-----|:-----|:-----|
@@ -54,9 +54,9 @@ The following table summarizes important differences among the **PR_ENTRYID** ( 
 |Unique within ...  <br/> |Entire world  <br/> |Provider instance  <br/> |Entire world  <br/> |
 |Binary comparable (as with memcmp)  <br/> |No -- use [IMAPISupport::CompareEntryIDs](imapisupport-compareentryids.md) <br/> |Yes  <br/> |Yes  <br/> |
    
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -70,7 +70,7 @@ The following table summarizes important differences among the **PR_ENTRYID** ( 
   
 > Specifies the properties and operations for lists of users, contacts, groups, and resources.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -82,12 +82,12 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagResponsibility Canonical Property](pidtagresponsibility-canonical-property.md)
   
 [PidTagStoreRecordKey Canonical Property](pidtagstorerecordkey-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

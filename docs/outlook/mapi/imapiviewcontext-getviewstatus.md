@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Retrieves the current viewer status. 
   
-```
+```cpp
 HRESULT GetViewStatus(
 ULONG FAR * lpulStatus
 );
@@ -92,12 +92,12 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIMessageSite::GetSiteStatus](imapimessagesite-getsitestatus.md)
   
 [IMAPIViewContext : IUnknown](imapiviewcontextiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

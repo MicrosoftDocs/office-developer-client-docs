@@ -29,7 +29,7 @@ Contains an array of property tags.
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related macros:  <br/> |[CbNewSPropTagArray](cbnewsproptagarray.md), [CbSPropTagArray](cbsproptagarray.md), [SizedSPropTagArray](sizedsproptagarray.md) <br/> |
    
-```
+```cpp
 typedef struct _SPropTagArray
 {
   ULONG cValues;
@@ -72,7 +72,7 @@ For a complete list of the single-valued and multi-valued property types, see th
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

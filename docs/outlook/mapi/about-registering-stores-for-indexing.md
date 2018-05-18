@@ -63,7 +63,7 @@ The MAPI property **[PR_MDB_PROVIDER](pidtagstoreprovider-canonical-property.md)
    
 ## See also
 
-#### Concepts
+
 
 [About the Store API](about-the-store-api.md)
 

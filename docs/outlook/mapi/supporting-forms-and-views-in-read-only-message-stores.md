@@ -28,7 +28,7 @@ This requirement that the associated contents tables be created and populated wh
   
 ## See also
 
-#### Concepts
+
 
 [Read-Only Message Stores](read-only-message-stores.md)
 

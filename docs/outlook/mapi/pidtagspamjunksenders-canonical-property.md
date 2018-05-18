@@ -27,9 +27,9 @@ Contains a semicolon-delimited list of email addresses and domains that comprise
 |Data type:  <br/> |PT_UNICODE  <br/> |
 |Area:  <br/> |Spam  <br/> |
    
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -39,7 +39,7 @@ Contains a semicolon-delimited list of email addresses and domains that comprise
   
 > Enables the handling of allow/block lists and the determination of junk email messages.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -51,7 +51,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

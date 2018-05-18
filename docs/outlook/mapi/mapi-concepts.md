@@ -1,19 +1,15 @@
 ---
-title: "MAPI Concepts"
+title: "MAPI concepts"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 24e3cf95-88f1-444a-b9b9-738077db714a
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
-# MAPI Concepts
+# MAPI concepts
 
-  
-  
 **Applies to**: Outlook 
   
 This section provides a guide to understanding and programming with MAPI.
@@ -38,10 +34,10 @@ This section provides a guide to understanding and programming with MAPI.
     
 ## Related sections
 
-[Getting Started with the Outlook MAPI Reference](getting-started-with-the-outlook-mapi-reference.md)
+- [Getting Started with the Outlook MAPI Reference](getting-started-with-the-outlook-mapi-reference.md)
   
-[MAPI Samples](mapi-samples.md)
+- [MAPI Samples](mapi-samples.md)
   
-[MAPI Reference](mapi-reference.md)
+- [MAPI Reference](mapi-reference.md)
   
 

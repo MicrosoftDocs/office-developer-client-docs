@@ -28,7 +28,7 @@ Describes a drop-down list that will be used in a dialog box that is built from 
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _DTBLMVDDLBX
 {
   ULONG ulFlags;
@@ -59,10 +59,10 @@ For an overview of display tables, see [Display Tables](display-tables.md). For 
   
 ## See also
 
-#### Reference
+
 
 [DTCTL](dtctl.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

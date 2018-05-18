@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Indicates the **PR_MESSAGE_CLASS** ( [PidTagMessageClass](pidtagmessageclass-canonical-property.md)) property of the meeting that is to be generated from the meeting request.
+Indicates the **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) property of the meeting that is to be generated from the meeting request.
   
 |||
 |:-----|:-----|
@@ -36,9 +36,9 @@ Indicates the **PR_MESSAGE_CLASS** ( [PidTagMessageClass](pidtagmessageclass-can
 
 The value of this property must either be "IPM.Appointment" or be prefixed with "IPM.Appointment.". This property is not required.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -48,7 +48,7 @@ The value of this property must either be "IPM.Appointment" or be prefixed with 
   
 > Specifies the properties and operations for appointment, meeting request, and response messages.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

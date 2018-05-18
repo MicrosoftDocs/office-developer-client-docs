@@ -29,7 +29,7 @@ Contains an array of [SMAPIVerb](smapiverb.md) structures that describe MAPI ver
 |Header file:  <br/> |Mapiform.h  <br/> |
 |Related macro:  <br/> |[CbMAPIVerbArray](cbmapiverbarray.md) <br/> |
    
-```
+```cpp
 typedef struct
 {
   ULONG cMAPIVerb;
@@ -54,10 +54,10 @@ The **SMAPIVerbArray** structure is passed as a parameter in the [IMAPIFormInfo:
   
 ## See also
 
-#### Reference
+
 
 [SMAPIVerb](smapiverb.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

@@ -26,7 +26,7 @@ Verifies that the calling process has read access to the specified range of memo
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers.  <br/> |
    
-```
+```cpp
 BOOL IsBadBoundedStringPtr(
   const void FAR* lpsz,
   UINT cchMax
@@ -55,7 +55,7 @@ The **IsBadBoundedStringPtr** function is equivalent to using **IsBadStringPtr**
   
 ## See also
 
-#### Other resources
+
 
 [IsBadStringPtr](http://msdn.microsoft.com/en-us/library/windows/desktop/aa366714%28v=vs.85%29.aspx)
 

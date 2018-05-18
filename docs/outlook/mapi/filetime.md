@@ -28,7 +28,7 @@ Holds an unsigned 64-bit date and time value for a file. This value represents t
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _FILETIME
 {
   DWORD dwLowDateTime;
@@ -55,10 +55,10 @@ The definition of the **FILETIME** structure is in the  _Win32 Programmer's Refe
   
 ## See also
 
-#### Reference
+
 
 [SPropValue](spropvalue.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

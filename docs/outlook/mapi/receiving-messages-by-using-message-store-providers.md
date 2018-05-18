@@ -44,7 +44,7 @@ The sequence of method calls that occurs when an incoming message is delivered t
     
 ## See also
 
-#### Concepts
+
 
 [Message Store Features](message-store-features.md)
 

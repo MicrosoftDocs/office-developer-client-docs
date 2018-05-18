@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Sets the value of one or more properties for an encapsulated message or attachment without modifying the original message or attachment. 
   
-```
+```cpp
 HRESULT SetProps(
   ULONG ulFlags,
   ULONG ulElemID,
@@ -45,7 +45,7 @@ TNEF_PROP_CONTAINED
     
  _ulElemID_
   
-> [in] An attachment's **PR_ATTACH_NUM** ( [PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) property, which contains a number that uniquely identifies the attachment in its parent message.
+> [in] An attachment's **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) property, which contains a number that uniquely identifies the attachment in its parent message.
     
  _cValues_
   
@@ -72,7 +72,7 @@ Transport providers, message store providers, and gateways call the **ITnef::Set
   
 ## See also
 
-#### Reference
+
 
 [ITnef::Finish](itnef-finish.md)
   

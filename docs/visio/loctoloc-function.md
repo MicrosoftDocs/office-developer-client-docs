@@ -30,7 +30,7 @@ LOCTOLOC( ** *srcPoint* **, ** *srcRef* **, ** *dstRef* ** )
 | _srcRef_ <br/> |Required  <br/> |**String** <br/> | A reference to a cell in the source object.  <br/> |
 | _dstRef_ <br/> |Required  <br/> |**String** <br/> | A reference to a cell in the destination object.  <br/> |
    
-### Return Value
+### Return value
 
 String
   
@@ -46,7 +46,7 @@ The source and destination coordinates must be on the same page.
 
 The following formula converts the local pin of the shape associated with the formula to a point on the page.
   
-```
+```vb
 LOCTOLOC(PNT(LocPinX, LocPinY), Width, ThePage!PageWidth)
 ```
 

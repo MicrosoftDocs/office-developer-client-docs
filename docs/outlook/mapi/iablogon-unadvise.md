@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Cancels notifications that were previously set up with a call to the [IABLogon::Advise](iablogon-advise.md) method. 
   
-```
+```cpp
 HRESULT Unadvise(
   ULONG ulConnection
 );
@@ -46,7 +46,7 @@ S_OK
 
 MAPI calls the **Unadvise** method to cancel a notification registration for a container, messaging user, or distribution list object. 
   
-## Notes to Implementers
+## Notes to implementers
 
 Your implementation of **Unadvise** will depend on whether you support notification with MAPI's help or manually. If MAPI provides your support, call the [IMAPISupport::Unsubscribe](imapisupport-unsubscribe.md) method to cancel the registration. If another thread is in the process of calling the advise sink's [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) method, it can be delayed until **OnNotify** has returned. 
   
@@ -54,7 +54,7 @@ For more information about the notification process, see [Event Notification in 
   
 ## See also
 
-#### Reference
+
 
 [IABLogon::Advise](iablogon-advise.md)
   

@@ -33,11 +33,11 @@ Contains the **EntryIDs** of the delegates.
    
 ## Remarks
 
-Each entry must contain the value of the **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)) property of each delegate's address book entry. This property must be set in the delegate information object.
+Each entry must contain the value of the **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) property of each delegate's address book entry. This property must be set in the delegate information object.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -47,7 +47,7 @@ Each entry must contain the value of the **PR_ENTRYID** ( [PidTagEntryId](pidtag
   
 > Specifies methods for connecting to and configuring mailboxes as delegates, and interactions with message and calendar objects when they act on behalf of another user.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

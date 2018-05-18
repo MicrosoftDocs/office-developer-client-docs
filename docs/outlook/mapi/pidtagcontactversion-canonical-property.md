@@ -35,9 +35,9 @@ Contains the version of a recipient's contact information.
 
 This property is one of the properties that provides identification and access information about a recipient. These properties are defined by the recipient and the recipient's organization.
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -35,11 +35,11 @@ Contains the search key for the messaging user represented by the sender.
 
 This property is one of the address properties for the messaging user who is being represented by the sender. When a client application sends a message on behalf of another client, it should set all the represented sender properties to the values for that client. A messaging user sending on its own behalf typically leaves the represented sender properties unset.
   
-The outgoing transport provider must always leave this property unchanged if it has been set by the sending client. If it is unset, the transport provider should set it to **PR_SENDER_SEARCH_KEY** ( [PidTagSenderSearchKey](pidtagsendersearchkey-canonical-property.md)) on the outbound copy of the message, and leave it unset on the local copy.
+The outgoing transport provider must always leave this property unchanged if it has been set by the sending client. If it is unset, the transport provider should set it to **PR_SENDER_SEARCH_KEY** ([PidTagSenderSearchKey](pidtagsendersearchkey-canonical-property.md)) on the outbound copy of the message, and leave it unset on the local copy.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -69,7 +69,7 @@ The outgoing transport provider must always leave this property unchanged if it 
   
 > Specifies the properties and operations that are permissible for contact and personal distribution lists.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -81,7 +81,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

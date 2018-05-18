@@ -37,7 +37,7 @@ The purpose of this property is to provide an icon or other pictorial representa
   
 For an attached file, this property usually portrays an icon for the file. 
   
-For an attached message, this property is typically not set. A client application needing to render an attached message should obtain its **PR_MESSAGE_CLASS** ( [PidTagMessageClass](pidtagmessageclass-canonical-property.md)) property, call [IMAPIFormMgr::ResolveMessageClass](imapiformmgr-resolvemessageclass.md) for a pointer to the corresponding form information object, open the [IMAPIFormInfo](imapiforminfoimapiprop.md) interface on that object, and use **GetProps** to retrieve the **PR_ICON** ( [PidTagIcon](pidtagicon-canonical-property.md)) or **PR_MINI_ICON** ( [PidTagMiniIcon](pidtagminiicon-canonical-property.md)) property. 
+For an attached message, this property is typically not set. A client application needing to render an attached message should obtain its **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) property, call [IMAPIFormMgr::ResolveMessageClass](imapiformmgr-resolvemessageclass.md) for a pointer to the corresponding form information object, open the [IMAPIFormInfo](imapiforminfoimapiprop.md) interface on that object, and use **GetProps** to retrieve the **PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) or **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)) property. 
   
 For an embedded static OLE object, this property contains a Microsoft Windows metafile that can be used to draw the attachment representation in a window. 
   
@@ -45,15 +45,15 @@ For an embedded dynamic OLE object, the client should use the OLE data to genera
   
 In all cases, the client application should be aware that this property is usually several hundred bytes in size and is subject to truncation in the attachment table. If a client wishes to render the attachment from this property without opening the attachment itself, it must work within the table truncation rule. For more information, see [Working with Large Columns](working-with-large-columns.md). 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Handles message and attachment objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -65,7 +65,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

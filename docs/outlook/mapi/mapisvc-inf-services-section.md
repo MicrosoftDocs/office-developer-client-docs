@@ -26,7 +26,7 @@ The **[Services]** section lists the message services that are installed on a co
   
 The message-service section name is a string defined by the message service that links this entry to a corresponding section for the service elsewhere in mapisvc.inf. The message service name is the name of the installed service. The following section shows three message services: the Default Address Book, My Own Service, and the Message Store Service. These services are fictional, for illustration purposes only. Each message service implementer would substitute the appropriate entry for his or her message service in this section.
   
-```
+```cpp
 [Services]
 AB=Default Address Book
 MsgService=My Own Service

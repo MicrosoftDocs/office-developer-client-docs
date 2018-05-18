@@ -35,9 +35,9 @@ Contains an integer that represents the relative level of indentation, or depth,
 
 This property can also specify the categorization level of a row in a contents table or the hierarchy depth in a hierarchy table. The depth is zero-based, where zero represents the leftmost category. In all cases, the property value represents a relative value rather than an absolute value. In the hierarchy table, for example, the depth value is relative to the container from which the hierarchy table was retrieved. The depth does not represent an absolute depth from the root container. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -51,7 +51,7 @@ This property can also specify the categorization level of a row in a contents t
   
 > Specifies the properties and operations for lists of users, contacts, groups, and resources.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -63,12 +63,12 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagObjectType Canonical Property](pidtagobjecttype-canonical-property.md)
   
 [PidTagSelectable Canonical Property](pidtagselectable-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

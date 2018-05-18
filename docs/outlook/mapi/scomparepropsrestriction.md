@@ -28,7 +28,7 @@ Describes a compare property restriction, which tests two properties using a rel
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SComparePropsRestriction
 {
   ULONG relop;
@@ -92,12 +92,12 @@ For more information about the **SComparePropsRestriction** structure and restri
   
 ## See also
 
-#### Reference
+
 
 [SBitMaskRestriction](sbitmaskrestriction.md)
   
 [SRestriction](srestriction.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

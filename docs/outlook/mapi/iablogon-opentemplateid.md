@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Opens a recipient entry that has data residing in a host address book provider.
   
-```
+```cpp
 HRESULT OpenTemplateID(
   ULONG cbTemplateID,
   LPENTRYID lpTemplateID,
@@ -44,7 +44,7 @@ HRESULT OpenTemplateID(
     
  _lpTemplateID_
   
-> [in] A pointer to the template identifier, or **PR_TEMPLATEID** ( [PidTagTemplateid](pidtagtemplateid-canonical-property.md)) property, of the recipient entry to be opened.
+> [in] A pointer to the template identifier, or **PR_TEMPLATEID** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)) property, of the recipient entry to be opened.
     
  _ulTemplateFlags_
   
@@ -96,9 +96,9 @@ Some examples of when an address book provider should implement **IABLogon::Open
     
 - To implement functionality that the host provider cannot implement, such as dynamically populating a list that appears in the entry's details table from data on a server.
     
-- To control the interaction between properties in the host provider's entry and the original entry, such as computing the **PR_EMAIL_ADDRESS** ( [PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) from the values of the edit controls in the details display that contain different components of the address.
+- To control the interaction between properties in the host provider's entry and the original entry, such as computing the **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) from the values of the edit controls in the details display that contain different components of the address.
     
-## Notes to Implementers
+## Notes to implementers
 
 When a host provider copies or creates an entry from your provider and you supply a property object implementation through **IABLogon::OpenTemplateID**, you handle most of the calls to maintain the entry. However, because it is up to the host provider to forward these calls to you, the host provider can intercept any call and perform custom processing before forwarding the call.
   
@@ -106,7 +106,7 @@ You should use the following guidelines in your property object implementations:
   
 - When [IMAPIProp::GetProps](imapiprop-getprops.md) is called, determine whether the request is for a computed property and, if it is, handle it. Transfer all requests for noncomputed properties to the host provider. 
     
-- When [IMAPIProp::OpenProperty](imapiprop-openproperty.md) is called to open any table except the details display table, handle the request. Most tables cannot be copied accurately to the host provider. You must generate the **IMAPITable** implementation for these requested tables. The details table **PR_DETAILS_TABLE** ( [PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) property must be copied to the host provider. This allows this provider to generate the table locally. You might want to wrap the display table implementation to generate display table notifications. 
+- When [IMAPIProp::OpenProperty](imapiprop-openproperty.md) is called to open any table except the details display table, handle the request. Most tables cannot be copied accurately to the host provider. You must generate the **IMAPITable** implementation for these requested tables. The details table **PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) property must be copied to the host provider. This allows this provider to generate the table locally. You might want to wrap the display table implementation to generate display table notifications. 
     
 - When [IMAPIProp::SetProps](imapiprop-setprops.md) is called, the host provider can validate the data before letting you set the properties. You can verify that all of the necessary properties were set or computed. If an error is detected, return the appropriate error value and, if you can, any additional explanation through [IMAPIProp::GetLastError](imapiprop-getlasterror.md).
     
@@ -124,7 +124,7 @@ For more information about how to work with address book template identifiers, s
   
 ## See also
 
-#### Reference
+
 
 [IMAPISupport::OpenTemplateID](imapisupport-opentemplateid.md)
   

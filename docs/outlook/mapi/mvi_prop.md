@@ -29,7 +29,7 @@ Sets the MVI_FLAG for a specified property.
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |[SPropValue](spropvalue.md) <br/> |
    
-```
+```cpp
 MVI_PROP (tag)
 ```
 
@@ -49,10 +49,10 @@ For more information about these flags, see [MAPI Property Type Overview](mapi-p
   
 ## See also
 
-#### Reference
+
 
 [SPropValue](spropvalue.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

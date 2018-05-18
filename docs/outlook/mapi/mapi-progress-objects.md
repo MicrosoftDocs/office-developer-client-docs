@@ -56,7 +56,7 @@ The value, object count, and object total parameters are input to the **IMAPIPro
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Progress Indicators](mapi-progress-indicators.md)
 

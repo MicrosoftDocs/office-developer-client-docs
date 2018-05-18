@@ -26,7 +26,7 @@ description: "Last modified: July 23, 2011"
     
 3. Call the Inbox's [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) method to retrieve the contents table. 
     
-4. Call the contents table's [IMAPITable::SetColumns](imapitable-setcolumns.md) method to limit the column set to **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)) and any other columns you require. 
+4. Call the contents table's [IMAPITable::SetColumns](imapitable-setcolumns.md) method to limit the column set to **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) and any other columns you require. 
     
 5. Call [IMAPITable::QueryRows](imapitable-queryrows.md) to retrieve a group of rows. 
     

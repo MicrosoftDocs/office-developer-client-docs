@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Creates a message service support object.
   
-```
+```cpp
 HRESULT GetSvcConfigSupportObj(
   ULONG ulFlags,
   LPMAPISUP FAR * lppSvcSupport
@@ -55,7 +55,7 @@ A message service entry point function is based on the [MSGSERVICEENTRY](msgserv
   
 ## See also
 
-#### Reference
+
 
 [IMsgServiceAdmin : IUnknown](imsgserviceadminiunknown.md)
   

@@ -28,7 +28,7 @@ TANH( ** *angle* ** )
 |:-----|:-----|:-----|:-----|
 | _angle_ <br/> |Required  <br/> |**Numeric** <br/> |The angle of which to get the hypbolic tangent.  <br/> |
    
-### Return Value
+### Return value
 
 Numeric
   

@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Disconnects the local store.
   
-```
+```cpp
 HRESULT DisconnectStore( 
     ULONG ulFlags 
 );
@@ -38,7 +38,7 @@ HRESULT DisconnectStore(
     
 ## See also
 
-#### Concepts
+
 
 [About the Replication API](about-the-replication-api.md)
   

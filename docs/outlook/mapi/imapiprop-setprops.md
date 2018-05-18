@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Updates one or more properties.
   
-```
+```cpp
 HRESULT SetProps(
   ULONG cValues,
   LPSPropValue lpPropArray,
@@ -78,15 +78,15 @@ MAPI_E_UNEXPECTED_TYPE
   
 > The property type is not the type expected by the calling implementation.
     
-## Notes to Implementers
+## Notes to implementers
 
-Ignore the **PR_NULL** ( [PidTagNull](pidtagnull-canonical-property.md)) property tag and all properties with a type of **PT_ERROR**. Do not make changes or report problems in the **SPropProblemArray** structure. 
+Ignore the **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)) property tag and all properties with a type of **PT_ERROR**. Do not make changes or report problems in the **SPropProblemArray** structure. 
   
 Return MAPI_E_INVALID_PARAMETER if a property of type **PT_OBJECT** is included in the property value array. Also return this error if a multiple-value property is included in the array and its **cValues** member is set to 0. 
   
 If the call succeeds overall but there are problems with setting some of the properties, return S_OK and put information about the problems in the appropriate entry of the **SPropProblemArray** structure that the  _lppProblems_ parameter points to. 
   
-## Notes to Callers
+## Notes to callers
 
 Depending on the service provider, you might also be able to change the property type by passing a property tag that contains a different type than was previously used with a given property identifier.
   
@@ -110,7 +110,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIProp::GetLastError](imapiprop-getlasterror.md)
   

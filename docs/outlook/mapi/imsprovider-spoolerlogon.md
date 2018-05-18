@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Logs the MAPI spooler on to a message store.
   
-```
+```cpp
 HRESULT SpoolerLogon(
   LPMAPISUP lpMAPISup,
   ULONG_PTR ulUIParam,
@@ -131,7 +131,7 @@ The store provider should internally mark the returned message store object to i
   
 ## See also
 
-#### Reference
+
 
 [IMSProvider::Logon](imsprovider-logon.md)
   

@@ -33,13 +33,13 @@ Contains TRUE if a message sender wants the messaging system to generate a read 
    
 ## Remarks
 
-This property must be set to TRUE to validate the values in the **PR_READ_RECEIPT_ENTRYID** ( [PidTagReadReceiptEntryId](pidtagreadreceiptentryid-canonical-property.md)) and **PR_READ_RECEIPT_SEARCH_KEY** ( [PidTagReadReceiptSearchKey](pidtagreadreceiptsearchkey-canonical-property.md)) properties.
+This property must be set to TRUE to validate the values in the **PR_READ_RECEIPT_ENTRYID** ([PidTagReadReceiptEntryId](pidtagreadreceiptentryid-canonical-property.md)) and **PR_READ_RECEIPT_SEARCH_KEY** ([PidTagReadReceiptSearchKey](pidtagreadreceiptsearchkey-canonical-property.md)) properties.
   
 If a message with **PR_READ_RECEIPT_REQUESTED** set is deleted or expires before the messaging system can generate a read report, a nonread report is generated. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -49,7 +49,7 @@ If a message with **PR_READ_RECEIPT_REQUESTED** set is deleted or expires before
   
 > Specifies the properties and operations that are permissible for e-mail message objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -61,7 +61,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

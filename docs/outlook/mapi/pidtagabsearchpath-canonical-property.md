@@ -35,9 +35,9 @@ Contains a list of entry identifiers for address book containers that are to be 
 
 Do not use this property. It is reserved for use by MAPI.
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapitags.h
   
@@ -49,7 +49,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

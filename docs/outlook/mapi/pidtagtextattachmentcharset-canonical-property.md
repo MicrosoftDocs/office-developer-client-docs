@@ -35,15 +35,15 @@ Contains a message attachment's character set value.
 
 This property's data is derived from a Content-Type MIME header field that starts with "text/", if a "charset" parameter is present.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXCMAIL]](http://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
 > Converts from Internet standard e-mail conventions to message objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -55,7 +55,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

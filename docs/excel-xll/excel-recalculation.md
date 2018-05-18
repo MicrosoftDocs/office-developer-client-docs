@@ -95,7 +95,7 @@ The following Excel functions are volatile:
     
 Both the VBA and C API support ways to inform Excel that a user-defined function (UDF) should be handled as volatile. By using VBA, the UDF is declared as volatile as follows.
   
-```VB.net
+```vb
 Function MyUDF(MakeMeVolatile As Boolean) As Double
    ' Good practice to call this on the first line.
    Application.Volatile (MakeMeVolatile)
@@ -180,7 +180,7 @@ C API: Not supported
     
     In manual mode, the following code causes recalculation of the active sheet only.
     
-  ```VB.net
+  ```vb
   With ActiveSheet
     .EnableCalculation = False
     .EnableCalculation = True
@@ -227,7 +227,7 @@ C API: Not supported
     
 ## See also
 
-#### Concepts
+
 
 [Multithreaded Recalculation in Excel](multithreaded-recalculation-in-excel.md)
   

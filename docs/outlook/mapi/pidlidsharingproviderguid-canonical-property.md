@@ -36,9 +36,9 @@ Specifies the sharing provider globally unique identifier (GUID). This is a prop
 
 The value of this property must be set to "%xAE.F0.06.00.00.00.00.00.C0.00.00.00.00.00.00.46". 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -48,7 +48,7 @@ The value of this property must be set to "%xAE.F0.06.00.00.00.00.00.C0.00.00.00
   
 > Shares mailbox folders between clients.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

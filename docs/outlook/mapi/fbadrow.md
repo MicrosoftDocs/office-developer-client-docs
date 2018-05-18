@@ -30,7 +30,7 @@ Validates a row in a table.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Service providers  <br/> |
    
-```
+```cpp
 ULONG FBadRow(
   LPSRow lprow
 );
@@ -54,7 +54,7 @@ FALSE
     
 ## See also
 
-#### Reference
+
 
 [FBadRowSet](fbadrowset.md)
 

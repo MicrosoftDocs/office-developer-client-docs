@@ -1,7 +1,5 @@
 ---
 title: "FLATENTRYLIST"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -18,8 +16,6 @@ description: "Last modified: March 09, 2015"
 
 # FLATENTRYLIST
 
-  
-  
 **Applies to**: Outlook 
   
 Contains an array of [FLATENTRY](flatentry.md) structures. 
@@ -29,7 +25,7 @@ Contains an array of [FLATENTRY](flatentry.md) structures.
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related macros:  <br/> |[CbFLATENTRYLIST](cbflatentrylist.md), [CbNewFLATENTRYLIST](cbnewflatentrylist.md) <br/> |
    
-```
+```cpp
 typedef struct
 {
   ULONG cEntries;
@@ -41,15 +37,15 @@ typedef struct
 
 ## Members
 
- **cEntries**
+**cEntries**
   
 > Count of **FLATENTRY** structures in the array described by the **abEntries** member. 
     
- **cbEntries**
+**cbEntries**
   
 > Count of bytes in the array described by **abEntries**. 
     
- **abEntries**
+**abEntries**
   
 > Byte array that contains one or more **FLATENTRY** structures, arranged end to end. 
     
@@ -61,20 +57,15 @@ For example, the second **FLATENTRY** structure starts at an offset that consist
   
 The following code sample indicates how to compute offsets in a **FLATENTRYLIST** structure. Assume that  _lpFlatEntry_ is a pointer to the first structure in the list. 
   
-```
+```cpp
 (offsetof(lpFlatEntry->ab) // for example, 4
 + lpFlatEntry->cb // size of lpFlatEntry->ab 
-+ 4) &amp; ~3 // round to next 4 byte boundary
++ 4) & ~3 // round to next 4 byte boundary
 ```
 
 ## See also
 
-#### Reference
-
-[FLATENTRY](flatentry.md)
-  
-[PidTagReplyRecipientEntries Canonical Property](pidtagreplyrecipiententries-canonical-property.md)
-#### Concepts
-
-[MAPI Structures](mapi-structures.md)
+- [FLATENTRY](flatentry.md)
+- [PidTagReplyRecipientEntries Canonical Property](pidtagreplyrecipiententries-canonical-property.md)
+- [MAPI Structures](mapi-structures.md)
 

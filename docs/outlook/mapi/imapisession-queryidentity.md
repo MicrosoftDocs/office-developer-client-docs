@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns the entry identifier of the object that provides the primary identity for the session.
   
-```
+```cpp
 HRESULT QueryIdentity(
   ULONG FAR * lpcbEntryID,
   LPENTRYID FAR * lppEntryID
@@ -57,13 +57,13 @@ The **IMAPISession::QueryIdentity** method retrieves the primary identity for th
   
 Although many service providers in multiple message services can provide the primary identity for a session, MAPI designates a single service provider. The service provider that supplies the primary identity sets the following items:
   
-- The STATUS_PRIMARY_IDENTITY flag in the **PR_RESOURCE_FLAGS** ( [PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) property.
+- The STATUS_PRIMARY_IDENTITY flag in the **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) property.
     
-- The **PR_IDENTITY_DISPLAY** ( [PidTagIdentityDisplay](pidtagidentitydisplay-canonical-property.md)) property.
+- The **PR_IDENTITY_DISPLAY** ([PidTagIdentityDisplay](pidtagidentitydisplay-canonical-property.md)) property.
     
-- The **PR_IDENTITY_ENTRYID** ( [PidTagIdentityEntryId](pidtagidentityentryid-canonical-property.md)) property.
+- The **PR_IDENTITY_ENTRYID** ([PidTagIdentityEntryId](pidtagidentityentryid-canonical-property.md)) property.
     
-- The **PR_IDENTITY_SEARCH_KEY** ( [PidTagIdentitySearchKey](pidtagidentitysearchkey-canonical-property.md)) property.
+- The **PR_IDENTITY_SEARCH_KEY** ([PidTagIdentitySearchKey](pidtagidentitysearchkey-canonical-property.md)) property.
     
 If the service provider that supplies the primary identity belongs to a message service, the other service providers in the message service also set the PR_IDENTITY properties. These properties are published in the session's status table. 
   
@@ -71,7 +71,7 @@ If possible, **QueryIdentity** returns the value for the **PR_IDENTITY_ENTRYID**
   
 If the STATUS_PRIMARY_IDENTITY flag is missing from all of the **PR_RESOURCE_FLAG** columns in the status table, **QueryIdentity** returns the first entry identifier that it finds. When there is no appropriate entry identifier to return, **QueryIdentity** succeeds with the warning MAPI_W_NO_SERVICE and points  _lppEntryID_ to a hard-coded entry identifier. 
   
-## Notes to Callers
+## Notes to callers
 
 You can call the [IMsgServiceAdmin::SetPrimaryIdentity](imsgserviceadmin-setprimaryidentity.md) method to assign a message service the task of supplying the session's primary identity. 
   
@@ -93,7 +93,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPISession::OpenEntry](imapisession-openentry.md)
   
@@ -102,7 +102,7 @@ For MFCMAPI sample code, see the following table.
 [MAPIFreeBuffer](mapifreebuffer.md)
   
 [IMAPISession : IUnknown](imapisessioniunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
   

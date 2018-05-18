@@ -1,19 +1,16 @@
 ---
-title: "Add a Definition for a New User-Defined Field"
+title: "Add a definition for a new user-defined field"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 183d3b86-4506-44da-bbfc-d6242ad89e57
 description: "Last modified: July 23, 2011"
- 
- 
+
 ---
 
-# Add a Definition for a New User-Defined Field
-
-  
-  
+# Add a definition for a new user-defined field
+ 
 **Applies to**: Outlook 
   
 When you add a user-defined field to a Microsoft Outlook item, you add a field definition to the corresponding [PropertyDefinition](propertydefinition-stream-structure.md) stream structure. Use the following procedure to add a new field definition to a PropertyDefinition stream structure. 
@@ -34,7 +31,5 @@ When you add a user-defined field to a Microsoft Outlook item, you add a field d
     
 ## See also
 
-#### Concepts
-
-[PropertyDefinition Stream Structure](propertydefinition-stream-structure.md)
+- [PropertyDefinition Stream Structure](propertydefinition-stream-structure.md)
 

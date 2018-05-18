@@ -37,9 +37,9 @@ If set to "0x00000001", these e-mail addresses must populate the "trusted" conta
   
 If this property is present with a value of "0x00000001" and if the added contact has e-mail addresses that are not yet included in the trusted contacts section of the Junk E-Mail Rule, those e-mail addresses must be added to the restriction. If this property is "0x00000000", no action is required.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -49,7 +49,7 @@ If this property is present with a value of "0x00000001" and if the added contac
   
 > Enables the handling of allow/block lists and the determination of junk e-mail messages.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -61,7 +61,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

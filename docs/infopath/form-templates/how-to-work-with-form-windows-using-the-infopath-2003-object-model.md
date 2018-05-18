@@ -65,7 +65,7 @@ The **WindowsCollection** interface can be accessed through the [Windows](https:
 WindowObject objWindow = thisApplication.Windows[0];
 ```
 
-```VB.net
+```vb
 Dim objWindow As WindowObject = thisApplication.Windows(0)
 ```
 
@@ -75,7 +75,7 @@ However, you can access the currently open window directly by using the [ActiveW
 WindowObject objWindow = thisApplication.ActiveWindow;
 ```
 
-```VB.net
+```vb
 Dim objWindow As WindowObject = thisApplication.ActiveWindow
 ```
 
@@ -88,7 +88,7 @@ A **WindowObject** can also be accessed by using the [Window](https://msdn.micro
 WindowObject objWindow = thisXDocument.View.Window;
 ```
 
-```VB.net
+```vb
 Dim objWindow As WindowObject = thisXDocument.View.Window
 ```
 

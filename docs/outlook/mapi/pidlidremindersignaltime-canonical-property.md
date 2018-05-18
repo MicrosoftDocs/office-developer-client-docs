@@ -34,11 +34,11 @@ Specifies the point in time when a reminder transitions from pending to overdue.
    
 ## Remarks
 
-This property must be set if the **dispidReminderSet** ( [PidLidReminderSet](pidlidreminderset-canonical-property.md)) property is TRUE. Clients must set the value in Coordinated Universal Time (UTC).
+This property must be set if the **dispidReminderSet** ([PidLidReminderSet](pidlidreminderset-canonical-property.md)) property is TRUE. Clients must set the value in Coordinated Universal Time (UTC).
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -48,7 +48,7 @@ This property must be set if the **dispidReminderSet** ( [PidLidReminderSet](pid
   
 > Specifies the properties and the interaction model for e-mail and other object reminders.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

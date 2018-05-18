@@ -35,9 +35,9 @@ Contains the value for calculating the start and end dates of the range of free/
 
 This property's value must be greater than or equal to 0 and less than or equal to 36. This is not a required property.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXOPFFB]](http://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
@@ -47,7 +47,7 @@ This property's value must be greater than or equal to 0 and less than or equal 
   
 > Specifies the properties and operations for appointment, meeting request, and response messages.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

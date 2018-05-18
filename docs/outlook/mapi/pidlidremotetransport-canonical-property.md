@@ -36,15 +36,15 @@ Identifies what account the header item is associated with, primarily to impleme
 
 This property is relevant only on messages that have a message class of IPM.Remote. Microsoft Outlook keeps a mapping of various accounts that are downloading to a given store in a Folder Associated Information (FAI) message, but it could also keep this information in the registry.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]] 
   
 > Provides property set definitions and references to related Exchange Server protocol specifications.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -52,7 +52,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

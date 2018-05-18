@@ -34,7 +34,7 @@ The Microsoft Outlook MAPI samples include an address book provider, a message s
     
 ## See also
 
-#### Concepts
+
 
 [Address Book Provider Sample](address-book-provider-sample.md)
   

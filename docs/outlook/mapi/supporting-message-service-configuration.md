@@ -52,7 +52,7 @@ To support message service configuration, use the following procedure:
     
 ## See also
 
-#### Concepts
+
 
 [Message Service Implementation](message-service-implementation.md)
 

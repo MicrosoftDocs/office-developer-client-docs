@@ -1,5 +1,5 @@
 ---
-title: "Install the Samples Used in This Section"
+title: "Install the samples used in this section"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,23 +8,15 @@ api_type:
 - COM
 ms.assetid: 810f54bf-5b78-46b8-a617-4f61ff816400
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
-# Install the Samples Used in This Section
+# Install the samples used in this section
 
-  
-  
 **Applies to**: Outlook 
   
 To install the MFCMAPI application and CreateOutlookItemsAddin project to view and run the sample code referenced by the topics in the [Creating Outlook Items by Using MAPI](creating-outlook-items-by-using-mapi.md) section, follow these steps. 
-  
-### Installation Instructions
 
-To download and install the examples used in the "Using MAPI to Create Outlook Items" section, follow these steps.
-  
-### 
+To download and install the examples used in the "Using MAPI to create Outlook items" section, follow these steps.
 
 ### To download and install the MFCMAPI application and open CreateOutlookItemsAddin project
 
@@ -40,14 +32,12 @@ To download and install the examples used in the "Using MAPI to Create Outlook I
     
 6. Open the CreateOutlookItemsAddin project (\CreateOutlookItemsAddin\CreateOutlookItemsAddin.vcproj) in Visual Studio to examine the source code. Refer to the topics from the [Creating Outlook Items by Using MAPI](creating-outlook-items-by-using-mapi.md) section to determine which source files to open. 
     
-### Running MFCMAPI and the CreateOutlookItemsAddin Project
+## Run MFCMAPI and the CreateOutlookItemsAddin project
 
 The following steps assume that you have downloaded and installed the current version of the MFCMAPI executable and the CreateOutlookItemsAddin project as described in the preceding procedure. These steps will guide you to the **Addins** menu items that enable you to create Outlook items using the MFCMAPI application and the CreateOutlookItemsAddin project. 
   
 > [!NOTE]
 > The folder you select in step 8, and the command you select in step 9, depends on the item type discussed in one of the topics from the [Creating Outlook Items by Using MAPI](creating-outlook-items-by-using-mapi.md) section. 
-  
-### 
 
 ### To run the MFCMAPI application and Addins menu commands
 
@@ -69,11 +59,9 @@ The following steps assume that you have downloaded and installed the current ve
     
 9. On the **Addins** menu, click the appropriate command for the item to create. 
     
-### Downloading and Viewing Code from the MFCMAPI Application
+## Download and view code from the MFCMAPI application
 
 Some topics refer to source code from the MFCMAPI application itself. The following steps describe how to download the MFCMAPI source code and view it in Visual Studio. 
-  
-### 
 
 ### To download and view the MFCMAPI application source code
 
@@ -85,13 +73,8 @@ Some topics refer to source code from the MFCMAPI application itself. The follow
     
 ## See also
 
-#### Concepts
-
-[Create a Simple Mail Item](how-to-create-a-simple-mail-item.md)
-  
-[Create a Simple Recurrent Task Item](how-to-create-a-simple-recurrent-task-item.md)
-  
-[Create a Complex Recurrent Appointment Item](how-to-create-a-complex-recurrent-appointment-item.md)
-  
-[Read and Parse a Recurrence Pattern](how-to-read-and-parse-a-recurrence-pattern.md)
+- [Create a Simple Mail Item](how-to-create-a-simple-mail-item.md)
+- [Create a Simple Recurrent Task Item](how-to-create-a-simple-recurrent-task-item.md)
+- [Create a Complex Recurrent Appointment Item](how-to-create-a-complex-recurrent-appointment-item.md)
+- [Read and Parse a Recurrence Pattern](how-to-read-and-parse-a-recurrence-pattern.md)
 

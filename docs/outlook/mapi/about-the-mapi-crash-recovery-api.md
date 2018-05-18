@@ -32,7 +32,7 @@ Functions:
     
 ## See also
 
-#### Concepts
+
 
 [Use the MAPI Crash Recovery API](how-to-use-the-mapi-crash-recovery-api.md)
 

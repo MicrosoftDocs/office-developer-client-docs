@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Converts a MIME stream to a MAPI message.
   
-```
+```cpp
 HRESULT IConverterSession:: MIMEToMAPI ( 
      LPSTREAM pstm, 
      LPMESSAGE pmsg, 
@@ -88,7 +88,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IConverterSession : IUnknown](iconvertersessioniunknown.md)
   
@@ -103,7 +103,7 @@ For MFCMAPI sample code, see the following table.
 [IConverterSession::SetSaveFormat](iconvertersession-setsaveformat.md)
   
 [IConverterSession::SetTextWrapping](iconvertersession-settextwrapping.md)
-#### Concepts
+
 
 [MAPI Constants](mapi-constants.md)
 

@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Modifies the status table by adding a new row or modifying an existing row.
   
-```
+```cpp
 HRESULT ModifyStatusRow(
 ULONG cValues,
 LPSPropValue lpColumnVals,
@@ -60,7 +60,7 @@ S_OK
 
 The **IMAPISupport::ModifyStatusRow** method is implemented for all service provider support objects. Service providers call **ModifyStatusRow** at logon time to add a row to the status table and at other times during the session to update the row. **ModifyStatusRow** provides MAPI with the information necessary to build the status table. 
   
-## Notes to Callers
+## Notes to callers
 
 Set the STATUSROW_UPDATE flag when you call **ModifyStatusRow** to make changes to the properties in your existing status table row. Doing so informs MAPI that only the columns being changed are passed in the  _lpColumnVals_ parameter. 
   
@@ -70,7 +70,7 @@ For a complete list of columns that you should include in your status table row,
   
 ## See also
 
-#### Reference
+
 
 [IMAPISupport : IUnknown](imapisupportiunknown.md)
 

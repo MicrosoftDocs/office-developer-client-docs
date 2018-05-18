@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Resolves a group of message classes to their forms in a form container and returns an array of form information objects for those forms.
   
-```
+```cpp
 HRESULT ResolveMultipleMessageClasses(
   LPSMESSAGECLASSARRAY pMsgClassArray,
   ULONG ulFlags,
@@ -60,7 +60,7 @@ S_OK
 
 Client applications call the **IMAPIFormContainer::ResolveMultipleMessageClasses** method to resolve a group of message classes to forms within a form container. The array of form information objects returned in the  _ppfrminfoarray_ parameter provides further access to each of the forms' properties. 
   
-## Notes to Callers
+## Notes to callers
 
 To resolve a group of message classes to forms, pass in an array of message class names to be resolved. To force the resolution to be exact (that is, to prevent resolution to a base class of the message class), the MAPIFORM_EXACTMATCH flag can be passed in the  _ulFlags_ parameter. 
   
@@ -76,12 +76,12 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIFormContainer::ResolveMessageClass](imapiformcontainer-resolvemessageclass.md)
   
 [IMAPIFormContainer : IUnknown](imapiformcontaineriunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

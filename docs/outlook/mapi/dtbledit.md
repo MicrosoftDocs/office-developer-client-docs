@@ -29,7 +29,7 @@ Describes an edit control that will be used in a dialog box built from a display
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related macro:  <br/> |[SizedDtblEdit](sizeddtbledit.md) <br/> |
    
-```
+```cpp
 typedef struct _DTBLEDIT
 {
   ULONG ulbLpszCharsAllowed;
@@ -80,14 +80,14 @@ For an overview of display tables, see [Display Tables](display-tables.md). For 
   
 ## See also
 
-#### Reference
+
 
 [DTCTL](dtctl.md)
   
 [IMAPIProp::GetProps](imapiprop-getprops.md)
   
 [PidTagControlType Canonical Property](pidtagcontroltype-canonical-property.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

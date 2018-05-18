@@ -33,9 +33,9 @@ Contains TRUE if the original message is being returned with a nonread report.
 
 An X.400 transport provider sets this property in the unread report.
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -47,7 +47,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -16,7 +16,7 @@ description: "Gets a message string for the specified error."
 
 Gets a message string for the specified error. 
   
-## Quick Info
+## Quick info
 
 See [IOlkErrorUnknown](iolkerrorunknown.md).
   
@@ -47,7 +47,7 @@ HRESULT IOlkErrorUnknown::GetLastError(
    
 ## See also
 
-#### Concepts
+
 
 [Constants (Account management API)](constants-account-management-api.md)
 

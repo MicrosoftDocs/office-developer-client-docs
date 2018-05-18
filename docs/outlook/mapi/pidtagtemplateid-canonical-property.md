@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Contains the **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)), expressed as a permanent entry ID format.
+Contains the **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)), expressed as a permanent entry ID format.
   
 |||
 |:-----|:-----|
@@ -33,13 +33,13 @@ Contains the **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.m
    
 ## Remarks
 
-This value must be present for all address book objects on an Name Service Provider Interface (NSPI) server, its distinguished name (DN) must match the value for **PR_EMAIL_ADDRESS** ( [PidTagEmailAddress](pidtagemailaddress-canonical-property.md)), and its DN must follow the DN format specification particular to the type of object. 
+This value must be present for all address book objects on an Name Service Provider Interface (NSPI) server, its distinguished name (DN) must match the value for **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)), and its DN must follow the DN format specification particular to the type of object. 
   
 This property is not present on objects in an offline address book.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -49,7 +49,7 @@ This property is not present on objects in an offline address book.
   
 > Specifies the properties and operations for lists of users, contacts, groups, and resources.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -61,7 +61,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -1,5 +1,5 @@
 ---
-title: "File Format of MapiSvc.inf"
+title: "File format of MapiSvc.inf"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,14 +8,10 @@ api_type:
 - COM
 ms.assetid: b48eda17-83a8-4dc4-85c8-4ca827d13d25
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
-# File Format of MapiSvc.inf
+# File format of MapiSvc.inf
 
-  
-  
 **Applies to**: Outlook 
   
 The MapiSvc.inf file acts as the central database for MAPI message service configuration information. MapiSvc.inf contains information about each of the message services installed on the workstation, information about the service providers that belong to each message service, and information about the MAPI subsystem. MapiSvc.inf is the primary source of information for profiles. That is, when a new profile is being built or an existing one modified, relevant information for each message service or service provider is copied from MapiSvc.inf. 
@@ -24,11 +20,11 @@ MapiSvc.inf is divided into linked hierarchical sections:
   
 1. Section containing information that applies to all profiles. This section has three parts:
     
-  - **[Services]** section, providing links to each of the subsequent message service sections. 
+   - **[Services]** section, providing links to each of the subsequent message service sections. 
     
-  - **[Help File Mappings]** section, containing information about .HLP files provided by message services. 
+   - **[Help File Mappings]** section, containing information about .HLP files provided by message services. 
     
-  - **[Default Services]** section, listing message services that make up a default installation. 
+   - **[Default Services]** section, listing message services that make up a default installation. 
     
 2. Section containing information that applies to individual message services. Entries in these sections provide links to subsequent service provider sections.
     
@@ -36,7 +32,7 @@ MapiSvc.inf is divided into linked hierarchical sections:
     
 The following illustration shows the organization of a typical MapiSvc.inf file. There are three message services: AB, MsgService, and MS. The name on the right hand side of the equal sign for each message service is the service's display name. Each message service has its own section elsewhere in the file that is linked to one or more service provider sections. There is one service provider section for every service provider that belongs to the message service. The AB and MS message services are single provider services whereas three service providers belong to the MsgService service.
   
- **MapiSvc.inf file organization**
+**MapiSvc.inf file organization**
   
 ![MapiSvc.inf file organization](media/amapi_30.gif)
   

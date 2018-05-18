@@ -1,5 +1,5 @@
 ---
-title: "Access a Message on an IMAP Store Without Downloading the Entire Message"
+title: "Access a message on an IMAP store without downloading the entire message"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,7 +8,7 @@ ms.assetid: 2a93ab3e-798f-5741-d5e0-bba8c6b437c7
 description: "Last modified: July 23, 2011"
 ---
 
-# Access a Message on an IMAP Store Without Downloading the Entire Message
+# Access a message on an IMAP store without downloading the entire message
 
 **Applies to**: Outlook 
   
@@ -22,11 +22,11 @@ HRESULT HrUnWrapMDB(LPMDB lpMDBIn, LPMDB* lppMDBOut)
     HRESULT hRes = S_OK; 
     IProxyStoreObject* lpProxyObj = NULL; 
     LPMDB lpUnwrappedMDB = NULL; 
-    hRes = lpMDBIn->QueryInterface(IID_IProxyStoreObject,(void**)&amp;lpProxyObj); 
-    if (SUCCEEDED(hRes) &amp;&amp; lpProxyObj) 
+    hRes = lpMDBIn->QueryInterface(IID_IProxyStoreObject,(void**)&lpProxyObj); 
+    if (SUCCEEDED(hRes) && lpProxyObj) 
     { 
-        hRes = lpProxyObj->UnwrapNoRef((LPVOID*)&amp;lpUnwrappedMDB); 
-        if (SUCCEEDED(hRes) &amp;&amp; lpUnwrappedMDB) 
+        hRes = lpProxyObj->UnwrapNoRef((LPVOID*)&lpUnwrappedMDB); 
+        if (SUCCEEDED(hRes) && lpUnwrappedMDB) 
         { 
             // UnwrapNoRef doesn't addref, so do it here 
             lpUnwrappedMDB->AddRef(); 

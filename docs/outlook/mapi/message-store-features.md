@@ -38,11 +38,11 @@ Message store providers are more complex than other MAPI service providers in th
 |Supporting tightly coupled message store/transport providers.  <br/> |Optional  <br/> |Optional  <br/> |
 |Supporting non-reuse of entry identifiers.  <br/> |Optional  <br/> |Optional  <br/> |
    
-Many of the optional features can be advertised to MAPI and client applications by setting various flags in the message store object's **PR_STORE_SUPPORT_MASK** ( [PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) property. The required features do not have flags associated with them. **PR_STORE_SUPPORT_MASK** is required on message store, folder, and message objects. 
+Many of the optional features can be advertised to MAPI and client applications by setting various flags in the message store object's **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) property. The required features do not have flags associated with them. **PR_STORE_SUPPORT_MASK** is required on message store, folder, and message objects. 
   
 ## See also
 
-#### Concepts
+
 
 [Developing a MAPI Message Store Provider](developing-a-mapi-message-store-provider.md)
 

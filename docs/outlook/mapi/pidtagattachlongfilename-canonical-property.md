@@ -33,17 +33,17 @@ Contains an attachment's long filename and extension, excluding path.
    
 ## Remarks
 
-These properties pertain to the ATTACH_BY_VALUE, ATTACH_BY_REFERENCE, ATTACH_BY_REF_RESOLVE, and ATTACH_BY_REF_ONLY values of the **PR_ATTACH_METHOD** ( [PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) property. Platforms that support long filenames should set both the **PR_ATTACH_LONG_FILENAME** and **PR_ATTACH_FILENAME** ( [PidTagAttachFilename](pidtagattachfilename-canonical-property.md)) properties when sending, and should check **PR_ATTACH_LONG_FILENAME** first when receiving. 
+These properties pertain to the ATTACH_BY_VALUE, ATTACH_BY_REFERENCE, ATTACH_BY_REF_RESOLVE, and ATTACH_BY_REF_ONLY values of the **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) property. Platforms that support long filenames should set both the **PR_ATTACH_LONG_FILENAME** and **PR_ATTACH_FILENAME** ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md)) properties when sending, and should check **PR_ATTACH_LONG_FILENAME** first when receiving. 
   
-The client application should set this property to a suggested long filename to be used if the host computer receiving a message supports long filenames. **PR_ATTACH_LONG_FILENAME** can be used as a filename for saving the attachment, and to supply the filename extension if the **PR_ATTACH_EXTENSION** ( [PidTagAttachExtension](pidtagattachextension-canonical-property.md)) property is not provided. 
+The client application should set this property to a suggested long filename to be used if the host computer receiving a message supports long filenames. **PR_ATTACH_LONG_FILENAME** can be used as a filename for saving the attachment, and to supply the filename extension if the **PR_ATTACH_EXTENSION** ([PidTagAttachExtension](pidtagattachextension-canonical-property.md)) property is not provided. 
   
 Unlike the filename provided by **PR_ATTACH_FILENAME**, this name is not restricted to an eight-character filename plus a three-character extension. Instead, it can be up to 256 characters long, including the filename, extension, and separator period. 
   
 MAPI works only with filenames in the ANSI character set. Client applications that use filenames in an OEM character set must convert them to ANSI before calling MAPI. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -61,7 +61,7 @@ MAPI works only with filenames in the ANSI character set. Client applications th
   
 > Specifies the properties and operations that are permissible for representing voice mail and fax messages.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -73,7 +73,7 @@ Mmapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

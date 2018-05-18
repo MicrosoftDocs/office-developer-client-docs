@@ -28,7 +28,7 @@ TRIM ( ** *text* ** )
 |:-----|:-----|:-----|:-----|
 | _text_ <br/> |Required  <br/> |**String** <br/> |The text from which you want to remove spaces.  <br/> |
    
-### Return Value
+### Return value
 
 String
   

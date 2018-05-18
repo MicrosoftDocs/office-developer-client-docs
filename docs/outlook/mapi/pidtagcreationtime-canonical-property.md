@@ -35,9 +35,9 @@ Contains the creation date and time of a message.
 
 A message store sets this property for each message that it creates.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -47,7 +47,7 @@ A message store sets this property for each message that it creates.
   
 > Specifies the properties and operations for lists of users, contacts, groups, and resources.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -71,7 +71,7 @@ Using the same business contacts example above, if you want to specify the conta
   
 ## See also
 
-#### Other resources
+
 
 [Outlook Item Objects](http://msdn.microsoft.com/library/6ea4babf-facf-4018-ef5a-4a484e55153a%28Office.15%29.aspx)
 

@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Implements a storage object to access a stream.
   
-```
+```cpp
 HRESULT IStorageFromStream(
   LPUNKNOWN lpUnkIn,
   LPCIID lpInterface,
@@ -79,7 +79,7 @@ The **IMAPISupport::IStorageFromStream** method is implemented for all service p
   
 The storage object created by **IStorageFromStream** calls the stream's [IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) method to increment its reference count and then decrements the count when the storage is released. 
   
-## Notes to Callers
+## Notes to callers
 
 When the [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method of one of your objects is called to open a property with the **IStorage** interface, perform the following tasks: 
   
@@ -99,7 +99,7 @@ With one exception, it is acceptable to use the **IStreamDocfile** interface to 
   
 ## See also
 
-#### Reference
+
 
 [IMAPIProp::OpenProperty](imapiprop-openproperty.md)
   

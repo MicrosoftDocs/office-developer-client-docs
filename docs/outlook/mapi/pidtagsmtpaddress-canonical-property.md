@@ -31,9 +31,9 @@ Contains the SMTP address for the address book object.
 |Data type:  <br/> |PT_UNICODE, PT_STRING8  <br/> |
 |Area:  <br/> |Address  <br/> |
    
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -67,7 +67,7 @@ Contains the SMTP address for the address book object.
   
 > Shares mailbox folders between clients.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -79,7 +79,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

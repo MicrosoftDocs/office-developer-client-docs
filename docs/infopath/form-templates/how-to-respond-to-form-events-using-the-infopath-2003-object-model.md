@@ -54,7 +54,7 @@ public void FormEvents_OnLoad(DocReturnEvent e)
 }
 ```
 
-```VB.net
+```vb
 ' The following function handler is created by Microsoft Office 
 ' InfoPath. Do not modify the type or number of arguments.
 <InfoPathEventHandler(EventType:=InfoPathEventType.OnLoad)> _
@@ -82,7 +82,7 @@ public void field1_OnBeforeChange(DataDOMEvent e)
 }
 ```
 
-```VB.net
+```vb
 <InfoPathEventHandler(MatchPath:="/my:myFields/my:field1", _ EventType:=InfoPathEventType.OnBeforeChange)> _
 Public Sub field1_OnBeforeChange(ByVal e As DataDOMEvent)
    ' Determine whether there is a new value.

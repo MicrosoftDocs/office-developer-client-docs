@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
  Informs Microsoft Outlook that synchronization is complete. 
   
-```
+```cpp
 HRESULT Done(
   HANDLE hThreadDoneEvent, 
   HRESULT hResult
@@ -49,7 +49,7 @@ S_OK
     
 ## See also
 
-#### Reference
+
 
 [IMAPISyncProgressCallback : IUnknown](imapisyncprogresscallbackiunknown.md)
 

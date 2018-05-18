@@ -29,7 +29,7 @@ Contains an array of pointers to form information objects.
 |Header file:  <br/> |Mapiform.h  <br/> |
 |Related macro:  <br/> |[CbMAPIFormInfoArray](cbmapiforminfoarray.md) <br/> |
    
-```
+```cpp
 typedef struct
 {
   ULONG cForms;
@@ -62,7 +62,7 @@ The **SMAPIFormInfoArray** structure is passed as a parameter in the following m
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

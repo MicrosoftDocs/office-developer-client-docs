@@ -43,9 +43,9 @@ This property specifies the availability of a user for the event described by th
 |0x00000002  <br/> |The user is busy.  <br/> |
 |0x00000003  <br/> |The user is out of office.  <br/> |
    
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -55,7 +55,7 @@ This property specifies the availability of a user for the event described by th
   
 > Specifies the properties and operations for appointment, meeting request, and response messages.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -63,7 +63,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

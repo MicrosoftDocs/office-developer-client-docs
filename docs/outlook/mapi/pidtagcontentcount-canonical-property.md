@@ -35,11 +35,11 @@ Contains the number of messages in a folder, as computed by the message store.
 
 This property computed by the message store is used for two different, though related, purposes. On a MapiFolder object, it contains the number of messages in a folder. In a heading row in categorized MAPI tables, it contains the number of non-associated messages in the category corresponding to that heading row.
   
-The number contained in this property does not include associated entries in the folder. **PR_CONTENT_UNREAD** ( [PidTagContentUnreadCount](pidtagcontentunreadcount-canonical-property.md)) contains the count of unread messages for the folder. A client application can read but not change this property and **PR_CONTENT_UNREAD**. 
+The number contained in this property does not include associated entries in the folder. **PR_CONTENT_UNREAD** ([PidTagContentUnreadCount](pidtagcontentunreadcount-canonical-property.md)) contains the count of unread messages for the folder. A client application can read but not change this property and **PR_CONTENT_UNREAD**. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -53,7 +53,7 @@ The number contained in this property does not include associated entries in the
   
 > Includes permissible operations for the core table objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -65,7 +65,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

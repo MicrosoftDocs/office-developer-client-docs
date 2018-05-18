@@ -34,11 +34,11 @@ Specifies the original display name of the contact's home fax address.
    
 ## Remarks
 
-This property, if present, must be set to the same value as the **PR_NORMALIZED_SUBJECT** ( [PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)) property.
+This property, if present, must be set to the same value as the **PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)) property.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -48,7 +48,7 @@ This property, if present, must be set to the same value as the **PR_NORMALIZED_
   
 > Specifies the properties and operations that are permissible for contacts and personal distribution lists.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

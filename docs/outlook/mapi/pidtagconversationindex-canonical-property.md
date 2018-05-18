@@ -33,7 +33,7 @@ Contains a binary value that indicates the relative position of this message wit
    
 ## Remarks
 
-A conversation thread represents a series of messages and replies. This property is usually implemented using concatenated time stamp values. Its use is optional, even if **PR_CONVERSATION_TOPIC** ( [PidTagConversationTopic](pidtagconversationtopic-canonical-property.md)) is set. 
+A conversation thread represents a series of messages and replies. This property is usually implemented using concatenated time stamp values. Its use is optional, even if **PR_CONVERSATION_TOPIC** ([PidTagConversationTopic](pidtagconversationtopic-canonical-property.md)) is set. 
   
 MAPI provides the [ScCreateConversationIndex](sccreateconversationindex.md) function to create or update a conversation index. The function takes the current index value as a counted byte array and returns the index value with a time stamp concatenated onto the end. A message representing a reply to another message should use **ScCreateConversationIndex** to update this property. 
   
@@ -41,9 +41,9 @@ A message store provider has the option of assuring that **PR_CONVERSATION_INDEX
   
 All messages that have the same value for **PR_CONVERSATION_TOPIC** can be sorted on this property to reveal the hierarchical relationship of the messages. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -53,7 +53,7 @@ All messages that have the same value for **PR_CONVERSATION_TOPIC** can be sorte
   
 > Specifies the properties and operations that are permissible on e-mail message objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -65,7 +65,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

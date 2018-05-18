@@ -39,7 +39,7 @@ There are many macros in the Mapidefs.h header file and OLE header files that cl
 
 ## See also
 
-#### Concepts
+
 
 [MAPI Object and Interface Overview](mapi-object-and-interface-overview.md)
 

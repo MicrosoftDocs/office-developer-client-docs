@@ -28,7 +28,7 @@ Describes a size restriction which is used to test the size of a property value.
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SSizeRestriction
 {
   ULONG relop;
@@ -86,10 +86,10 @@ For a general discussion of how restrictions work, see [About Restrictions](abou
   
 ## See also
 
-#### Reference
+
 
 [SRestriction](srestriction.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

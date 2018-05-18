@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Notifies the form viewer of the printing status of a form.
   
-```
+```cpp
 HRESULT OnPrint(
 ULONG dwPageNumber,
 HRESULT hrStatus
@@ -67,7 +67,7 @@ MAPI_E_USER_CANCEL
 
 Form objects call the **IMAPIViewAdviseSink::OnPrint** method while printing to inform the viewer of printing progress. 
   
-## Notes to Callers
+## Notes to callers
 
 If the printing job involves multiple pages, you can call **OnPrint** after each page is printed. Set  _dwPageNumber_ to the page currently being printed and  _hrStatus_ to S_OK. When the printing job is complete, call **OnPrint** with  _dwPageNumber_ set to the last page printed and  _hrStatus_ set to S_FALSE. 
   
@@ -75,7 +75,7 @@ For more information about form notifications, see [Sending and Receiving Form N
   
 ## See also
 
-#### Reference
+
 
 [IMAPIViewAdviseSink : IUnknown](imapiviewadvisesinkiunknown.md)
 

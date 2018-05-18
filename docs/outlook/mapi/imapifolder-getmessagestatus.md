@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Obtains the status associated with a message in a particular folder (for example, whether that message is marked for deletion).
   
-```
+```cpp
 HRESULT GetMessageStatus(
   ULONG cbEntryID,
   LPENTRYID lpEntryID,
@@ -83,9 +83,9 @@ S_OK
     
 ## Remarks
 
-The **IMAPIFolder::GetMessageStatus** method returns the status of a message. Message status is stored in the message's **PR_MSG_STATUS** ( [PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) property. 
+The **IMAPIFolder::GetMessageStatus** method returns the status of a message. Message status is stored in the message's **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) property. 
   
-## Notes to Implementers
+## Notes to implementers
 
 How the message status bits are set, cleared, and used depends completely on your implementation, except that bits 0 through 15 are reserved and must be zero. If you store messages in the IPM subtree, MAPI reserves bits 16 through 31 for use by IPM clients. If you store messages in other subtrees, you can use bits 16 through 31 for your own purposes.
   
@@ -100,7 +100,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIFolder::SetMessageStatus](imapifolder-setmessagestatus.md)
   
@@ -109,7 +109,7 @@ For MFCMAPI sample code, see the following table.
 [PidTagMessageStatus Canonical Property](pidtagmessagestatus-canonical-property.md)
   
 [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

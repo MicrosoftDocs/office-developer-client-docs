@@ -24,7 +24,7 @@ description: "Last modified: June 25, 2012"
   
 Sends notifications to the client about changes in connection state.
   
-```
+```cpp
 void STDMETHODCALLTYPE Notify(  
     const MAPIOFFLINE_NOTIFY * pNotifyInfo 
 );
@@ -46,7 +46,7 @@ In general, Outlook 2010 and Outlook 2013 can notify a client of online/offline 
   
 ## See also
 
-#### Concepts
+
 
 [About the Offline State API](about-the-offline-state-api.md)
   

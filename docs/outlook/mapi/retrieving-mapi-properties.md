@@ -40,7 +40,7 @@ The **GetProps** method is used to retrieve one or more properties that do not n
     
 The **OpenProperty** method is used to open larger properties that require an alternate interface such as **IStream** or [IMAPITable](imapitableiunknown.md) for access. **OpenProperty** is typically used to open large character string, binary, and object properties and can only open one property at a time. Callers pass in the identifier of the additional interface that is required as one of the input parameters. 
   
-Some of the common uses of **OpenProperty** include opening **PR_BODY** ( [PidTagBody](pidtagbody-canonical-property.md)), the property that holds the body of a text-based message, **PR_ATTACH_DATA_OBJ** ( [PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)), the property that holds an OLE object or message attachment, and **PR_CONTAINER_CONTENTS** ( [PidTagContainerContents](pidtagcontainercontents-canonical-property.md)), the property that holds a folder or address book container contents table. 
+Some of the common uses of **OpenProperty** include opening **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), the property that holds the body of a text-based message, **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)), the property that holds an OLE object or message attachment, and **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)), the property that holds a folder or address book container contents table. 
   
 Depending on the property, a different interface is requested from **OpenProperty**. **IStream**, an interface that allows property data to be read and written as a stream of bytes, is typically used to access **PR_BODY**. Either [IMessage](imessageimapiprop.md) or **IStream** can be used to access **PR_ATTACH_DATA_OBJ**. Embedded message attachments that are standard messages use **IMessage** whereas messages in the TNEF format use **IStream**. Because **PR_CONTAINER_CONTENTS** is a table object, it is accessed with [IMAPITable](imapitableiunknown.md).
   
@@ -48,7 +48,7 @@ Depending on the property, a different interface is requested from **OpenPropert
   
 1. Call the [OpenStreamOnFile](openstreamonfile.md) function to open a stream for the file. 
     
-2. Call the message's [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method to retrieve the **PR_ATTACH_DATA_BIN** ( [PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) property with the **IStream** interface. Set both the MAPI_MODIFY and MAPI_CREATE flags. 
+2. Call the message's [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method to retrieve the **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) property with the **IStream** interface. Set both the MAPI_MODIFY and MAPI_CREATE flags. 
     
 3. Allocate a **STATSTG** structure and pass it in a call to the file stream's **IStream::Stat** method to determine its size. Another way to determine stream size is to call **IStream::Seek** with the flag STREAM_SEEK_END. 
     
@@ -67,7 +67,7 @@ Callers that need several properties can either call **HrGetOneProp** or **OpenP
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Property Overview](mapi-property-overview.md)
 

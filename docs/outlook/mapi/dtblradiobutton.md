@@ -28,7 +28,7 @@ Describes one radio button that will be part of a radio button group. The radio 
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _DTBLRADIOBUTTON
 {
   ULONG ulbLpszLabel;
@@ -76,14 +76,14 @@ For an overview of display tables, see [Display Tables](display-tables.md). For 
   
 ## See also
 
-#### Reference
+
 
 [BuildDisplayTable](builddisplaytable.md)
   
 [DTCTL](dtctl.md)
   
 [SizedDtblButton](sizeddtblbutton.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

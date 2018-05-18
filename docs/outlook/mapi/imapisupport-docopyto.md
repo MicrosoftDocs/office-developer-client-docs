@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Copies or moves all properties of one object, except for specifically excluded properties, to another object.
   
-```
+```cpp
 HRESULT DoCopyTo(
   LPCIID lpSrcInterface,
   LPVOID lpSrcObj,
@@ -150,15 +150,15 @@ By default, **DoCopyTo** copies or moves all of the properties of one object to 
   
 If any of the copied or moved properties already exist in the destination object, the existing properties are overwritten by the new properties, unless the MAPI_NOREPLACE flag is set in the  _ulFlags_ parameter. Existing information in the destination object that is not overwritten is left untouched. 
   
-## Notes to Callers
+## Notes to callers
 
 To exclude properties from the copy or move operation, include their property tags in the  _lpExcludeProps_ parameter. If you pass the results of using the [PROP_TAG](prop_tag.md) macro to build a property tag from a specific identifier in the property tag array, all properties with that identifier will be excluded. For example, the following entry in the property tag array causes all properties with an identifier of 0x8002 to be excluded, regardless of type: 
   
  `PROP_TAG(PT_LONG, 0x8002)`
   
-To avoid copying a message's delivery time when you copy the message to a different folder, specify **PR_MESSAGE_DELIVERY_TIME** ( [PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)) in the property tag exclude array. To exclude a message's recipient list, add the **PR_MESSAGE_RECIPIENTS** ( [PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) property to the exclude array. To exclude a message's attachments, add the **PR_MESSAGE_ATTACHMENTS** ( [PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) property to the array.
+To avoid copying a message's delivery time when you copy the message to a different folder, specify **PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)) in the property tag exclude array. To exclude a message's recipient list, add the **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) property to the exclude array. To exclude a message's attachments, add the **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) property to the array.
   
-Similarly, to prevent the copying or moving of a folder or address book container's hierarchy or contents table, include **PR_CONTAINER_HIERARCHY** ( [PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) or **PR_CONTAINER_CONTENTS** ( [PidTagContainerContents](pidtagcontainercontents-canonical-property.md)) in the property tag exclude array.
+Similarly, to prevent the copying or moving of a folder or address book container's hierarchy or contents table, include **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) or **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)) in the property tag exclude array.
   
 Ignore MAPI_E_COMPUTED errors returned in the **SPropProblemArray** structure in the  _lppProblems_ parameter. 
   
@@ -180,7 +180,7 @@ If a global error occurs on the **DoCopyTo** call, do not use or free the **SPro
   
 ## See also
 
-#### Reference
+
 
 [IMAPIProp::CopyTo](imapiprop-copyto.md)
   

@@ -1,32 +1,28 @@
 ---
-title: "Setting Up an Offline State Add-in"
+title: "Setting up an offline state add-in"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2a326e93-fe8c-e3a5-1e92-30b75b6cb1d2
 description: "Last modified: July 05, 2012"
- 
- 
 ---
 
-# Setting Up an Offline State Add-in
+# Setting up an offline state add-in
 
-  
-  
 **Applies to**: Outlook 
   
 To implement an offline state add-in, you must implement connection, initialization, and other setup functions. In this topic, these connection, initialization, and setup functions are demonstrated by using code examples from the Sample Offline State Add-in. The Sample Offline State Add-in is a COM add-in that adds an **Offline State** menu to Outlook and uses the Offline State API. Through the **Offline State** menu, you can enable or disable state monitoring, check the current state, and change the current state. For more information about downloading and installing the Sample Offline State Add-in, see [Installing the Sample Offline State Add-in](installing-the-sample-offline-state-add-in.md). For more information about the Offline State API, see [About the Offline State API](about-the-offline-state-api.md).
   
 After you set up an offline state add-in, you must implement functions to monitor and modify connection state changes. For more information, see [Monitoring Connection State Changes Using an Offline State Add-in](monitoring-connection-state-changes-using-an-offline-state-add-in.md).
   
-## On Connection Routine
+## On Connection routine
 
 The **[IDTExtensibility2.OnConnection Method](http://msdn.microsoft.com/en-us/library/extensibility.idtextensibility2.onconnection%28v=VS.80%29.aspx)** is called every time an add-in is loaded. It is the entry point for the add-in, so the code you put in the  `OnConnection` function will be called when the add-in starts. In the following example, the  `OnConnection` function calls the  `HrInitAddin` function. 
   
-## CMyAddin::OnConnection() Example
+### CMyAddin::OnConnection() example
 
-```
+```cpp
 STDMETHODIMP CMyAddin::OnConnection( 
     IDispatch * Application,  
     ext_ConnectMode ConnectMode,  
@@ -43,13 +39,13 @@ STDMETHODIMP CMyAddin::OnConnection(
 }
 ```
 
-## Initialize Add-in Routine
+## Initialize Add-in routine
 
 The  `HrInitAddin` function calls the  `LoadLibraries`,  `HrCacheProfileName`, and  `HrAddMenuItems` functions to finish setting up the offline state add-in. 
   
-## CMyAddin::HrInitAddin() Example
+### CMyAddin::HrInitAddin() example
 
-```
+```cpp
 HRESULT CMyAddin::HrInitAddin() 
 { 
     HRESULT hRes = S_OK; 
@@ -62,13 +58,13 @@ HRESULT CMyAddin::HrInitAddin()
 }
 ```
 
-## Load Libraries Routine
+## Load Libraries routine
 
 The  `LoadLibraries` function loads the dynamic-link library (DLL) files that the add-in requires. 
   
-## LoadLibraries() Example
+### LoadLibraries() example
 
-```
+```cpp
 void LoadLibraries() 
 { 
     Log(true,_T("LoadLibraries - loading exports from DLLs\n"));     
@@ -125,18 +121,18 @@ void LoadLibraries()
                     _T("Software\\Clients\\Mail\\Microsoft Outlook"), 
                     NULL, 
                     KEY_READ, 
-                    &amp;hMicrosoftOutlook); 
-                if (ERROR_SUCCESS == lRet &amp;&amp; hMicrosoftOutlook) 
+                    &hMicrosoftOutlook); 
+                if (ERROR_SUCCESS == lRet && hMicrosoftOutlook) 
                 { 
-                    HrGetRegMultiSZValueA(hMicrosoftOutlook, "MSIApplicationLCID", (LPVOID*) &amp;szAppLCID); 
-                    HrGetRegMultiSZValueA(hMicrosoftOutlook, "MSIOfficeLCID", (LPVOID*) &amp;szOfficeLCID); 
+                    HrGetRegMultiSZValueA(hMicrosoftOutlook, "MSIApplicationLCID", (LPVOID*) &szAppLCID); 
+                    HrGetRegMultiSZValueA(hMicrosoftOutlook, "MSIOfficeLCID", (LPVOID*) &szOfficeLCID); 
                 } 
                 if (szAppLCID) 
                 { 
                     bRet = pfnFGetComponentPath( 
                         "{FF1D0740-D227-11D1-A4B0-006008AF820E}", szAppLCID, szDLLPath, MAX_PATH, true); 
                 } 
-                if ((!bRet || szDLLPath[0] == _T('\0')) &amp;&amp; szOfficeLCID) 
+                if ((!bRet || szDLLPath[0] == _T('\0')) && szOfficeLCID) 
                 { 
                     bRet = pfnFGetComponentPath( 
                         "{FF1D0740-D227-11D1-A4B0-006008AF820E}", szOfficeLCID, szDLLPath, MAX_PATH, true); 
@@ -165,13 +161,13 @@ void LoadLibraries()
 }
 ```
 
-## Cache Profile Name Routine
+## Cache Profile Name routine
 
 The  `HrCacheProfileName` function calls the **[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)** function to open a profile section for the current session, and then sets the profile for the button handlers. 
   
-## CMyAddin::HrCacheProfileName() Example
+### CMyAddin::HrCacheProfileName() example
 
-```
+```cpp
 HRESULT CMyAddin::HrCacheProfileName() 
 { 
     HRESULT hRes = S_OK;     
@@ -179,24 +175,24 @@ HRESULT CMyAddin::HrCacheProfileName()
     IUnknown* lpMAPIObject = NULL; 
     LPMAPISESSION lpMAPISession = NULL; 
     // use the raw accessor 
-    hRes = spSession->get_MAPIOBJECT(&amp;lpMAPIObject); 
-    if (SUCCEEDED(hRes) &amp;&amp; lpMAPIObject) 
+    hRes = spSession->get_MAPIOBJECT(&lpMAPIObject); 
+    if (SUCCEEDED(hRes) && lpMAPIObject) 
     { 
-        hRes = lpMAPIObject->QueryInterface(IID_IMAPISession,(LPVOID*)&amp;lpMAPISession); 
+        hRes = lpMAPIObject->QueryInterface(IID_IMAPISession,(LPVOID*)&lpMAPISession); 
     } 
-    if (SUCCEEDED(hRes) &amp;&amp; lpMAPISession) 
+    if (SUCCEEDED(hRes) && lpMAPISession) 
     { 
         LPPROFSECT lpPSGlobal = NULL; 
-        hRes = lpMAPISession->OpenProfileSection((LPMAPIUID)pbGlobalProfileSectionGuid, NULL, 0, &amp;lpPSGlobal); 
+        hRes = lpMAPISession->OpenProfileSection((LPMAPIUID)pbGlobalProfileSectionGuid, NULL, 0, &lpPSGlobal); 
  
-        if (SUCCEEDED(hRes) &amp;&amp; lpPSGlobal) 
+        if (SUCCEEDED(hRes) && lpPSGlobal) 
         { 
             LPSPropValue lpProfileName = NULL; 
             // Asking for PR_PROFILE_NAME_W here - this might not work with earlier versions of Outlook 
             SPropTagArray staga = {1,PR_PROFILE_NAME_W}; 
             ULONG cVal = 0; 
-            hRes = lpPSGlobal->GetProps(&amp;staga,0,&amp;cVal,&amp;lpProfileName); 
-            if (SUCCEEDED(hRes) &amp;&amp; 1 == cVal &amp;&amp; lpProfileName &amp;&amp; PR_PROFILE_NAME_W == lpProfileName->ulPropTag) 
+            hRes = lpPSGlobal->GetProps(&staga,0,&cVal,&lpProfileName); 
+            if (SUCCEEDED(hRes) && 1 == cVal && lpProfileName && PR_PROFILE_NAME_W == lpProfileName->ulPropTag) 
             { 
                 m_InitButtonHandler.SetProfile(lpProfileName->Value.lpszW); 
                 m_GetStateButtonHandler.SetProfile(lpProfileName->Value.lpszW); 
@@ -211,13 +207,13 @@ HRESULT CMyAddin::HrCacheProfileName()
 }
 ```
 
-## Add Menu Items Routine
+## Add Menu Items routine
 
 The  `HrAddMenuItems` function defines the menu options that appear under the **Offline State** menu that is created when the add-in is loaded in Outlook, and then calls  `DispEventAdvise` for each menu item. 
   
-## CMyAddin::HrAddMenuItems() Example
+### CMyAddin::HrAddMenuItems() example
 
-```
+```cpp
 HRESULT CMyAddin::HrAddMenuItems() 
 { 
     Log(true,"HrAddMenuItems\n"); 
@@ -239,32 +235,32 @@ HRESULT CMyAddin::HrAddMenuItems()
             } 
  
             CommandBarControlsPtr spMyMenuCtrls = m_spMyMenu->Controls; 
-            try { m_spInitButton = spMyMenuCtrls->GetItem("&amp;Init Monitor"); } catch (_com_error) {} 
+            try { m_spInitButton = spMyMenuCtrls->GetItem("&Init Monitor"); } catch (_com_error) {} 
             if (m_spInitButton == NULL) 
             { 
                 m_spInitButton = spMyMenuCtrls->Add((long)msoControlButton, vtMissing, vtMissing, vtMissing, true); 
-                m_spInitButton->Caption = "&amp;Init Monitor"; 
+                m_spInitButton->Caption = "&Init Monitor"; 
                 m_spInitButton->FaceId = MY_INIT_BUTTON; 
             } 
-            try { m_spDeinitButton = spMyMenuCtrls->GetItem("&amp;Deinit Monitor"); } catch (_com_error) {} 
+            try { m_spDeinitButton = spMyMenuCtrls->GetItem("&Deinit Monitor"); } catch (_com_error) {} 
             if (m_spDeinitButton == NULL) 
             { 
                 m_spDeinitButton = spMyMenuCtrls->Add((long)msoControlButton, vtMissing, vtMissing, vtMissing, true); 
-                m_spDeinitButton->Caption = "&amp;Deinit Monitor"; 
+                m_spDeinitButton->Caption = "&Deinit Monitor"; 
                 m_spDeinitButton->FaceId = MY_DEINIT_BUTTON; 
             } 
-            try { m_spGetStateButton = spMyMenuCtrls->GetItem("&amp;GetCurrentState"); } catch (_com_error) {} 
+            try { m_spGetStateButton = spMyMenuCtrls->GetItem("&GetCurrentState"); } catch (_com_error) {} 
             if (m_spGetStateButton == NULL) 
             { 
                 m_spGetStateButton = spMyMenuCtrls->Add((long)msoControlButton, vtMissing, vtMissing, vtMissing, true); 
-                m_spGetStateButton->Caption = "&amp;GetCurrentState"; 
+                m_spGetStateButton->Caption = "&GetCurrentState"; 
                 m_spGetStateButton->FaceId = MY_GETSTATE_BUTTON; 
             } 
-            try { m_spSetStateButton = spMyMenuCtrls->GetItem("&amp;SetCurrentState"); } catch (_com_error) {} 
+            try { m_spSetStateButton = spMyMenuCtrls->GetItem("&SetCurrentState"); } catch (_com_error) {} 
             if (m_spSetStateButton == NULL) 
             { 
                 m_spSetStateButton = spMyMenuCtrls->Add((long)msoControlButton, vtMissing, vtMissing, vtMissing, true); 
-                m_spSetStateButton->Caption = "&amp;SetCurrentState"; 
+                m_spSetStateButton->Caption = "&SetCurrentState"; 
                 m_spSetStateButton->FaceId = MY_SETSTATE_BUTTON; 
             } 
             // Set up advise 
@@ -288,15 +284,9 @@ HRESULT CMyAddin::HrAddMenuItems()
 
 ## See also
 
-#### Concepts
-
-[About the Offline State API](about-the-offline-state-api.md)
-  
-[Installing the Sample Offline State Add-in](installing-the-sample-offline-state-add-in.md)
-  
-[About the Sample Offline State Add-in](about-the-sample-offline-state-add-in.md)
-  
-[Monitoring Connection State Changes Using an Offline State Add-in](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
-  
-[Disconnecting an Offline State Add-in](disconnecting-an-offline-state-add-in.md)
+- [About the Offline State API](about-the-offline-state-api.md) 
+- [Installing the Sample Offline State Add-in](installing-the-sample-offline-state-add-in.md)
+- [About the Sample Offline State Add-in](about-the-sample-offline-state-add-in.md)
+- [Monitoring Connection State Changes Using an Offline State Add-in](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
+- [Disconnecting an Offline State Add-in](disconnecting-an-offline-state-add-in.md)
 

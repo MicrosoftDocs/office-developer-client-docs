@@ -8,14 +8,10 @@ api_type:
 - COM
 ms.assetid: 22cf56c5-2804-40a8-99e6-a6d127897720
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
 # MAPI Feature Overview
-
-  
-  
+ 
 **Applies to**: Outlook 
   
 MAPI has several key features that enable it to provide a consistent way for developers to work with and use different messaging systems in a seamless fashion. These features include a comprehensive and open programming interface, and support for industry standards. 
@@ -28,7 +24,7 @@ For example, a single messaging client application can receive messages from a f
   
 Separating the client interface from the provider interface removes any programming dependencies placed on the application by the messaging system and vice versa. Developers of client applications and service providers write code to a standard set of MAPI features, rather than a diverse set of application-specific or messaging system-specific features. Developers focus only on their component, whether it is a client or service provider, and MAPI handles the rest, reducing development time and costs.
   
-The MAPI programming interface provides a comprehensive set of features. MAPI is aimed at the powerful new market of workgroup applications — applications that communicate with such different messaging systems as fax, DEC All-In-1, voice mail, and public communications services such as AT&amp;T Easylink Services, CompuServe, and MCI MAIL. The MAPI interface enables service providers to be made available for all of these systems. 
+The MAPI programming interface provides a comprehensive set of features. MAPI is aimed at the powerful new market of workgroup applications — applications that communicate with such different messaging systems as fax, DEC All-In-1, voice mail, and public communications services such as AT&T Easylink Services, CompuServe, and MCI MAIL. The MAPI interface enables service providers to be made available for all of these systems. 
   
 MAPI-compliant objects are similar in form to Component Object Model (COM) objects. COM objects implement a set of methods that belong to one or more interfaces, or collections of related functions that define how objects behave and operate in COM. Users access COM objects only through pointers to these interfaces.
   
@@ -36,7 +32,5 @@ MAPI provides cross-platform support through such industry standards as SMTP and
   
 ## See also
 
-#### Concepts
-
-[MAPI Features and Architecture](mapi-features-and-architecture.md)
+- [MAPI Features and Architecture](mapi-features-and-architecture.md)
 

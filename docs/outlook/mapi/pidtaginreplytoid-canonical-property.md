@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Contains the original message's **PR_INTERNET_MESSAGE_ID** ( [PidTagInternetMessageId](pidtaginternetmessageid-canonical-property.md)) property value.
+Contains the original message's **PR_INTERNET_MESSAGE_ID** ([PidTagInternetMessageId](pidtaginternetmessageid-canonical-property.md)) property value.
   
 |||
 |:-----|:-----|
@@ -35,9 +35,9 @@ Contains the original message's **PR_INTERNET_MESSAGE_ID** ( [PidTagInternetMess
 
 These properties must be set on all message replies.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -51,7 +51,7 @@ These properties must be set on all message replies.
   
 > Converts from Internet standard e-mail conventions to message objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -63,10 +63,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagInternetMessageId Canonical Property](pidtaginternetmessageid-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -28,7 +28,7 @@ Describes the dialog box that is built from a display table by the [BuildDisplay
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct DTPAGE
 {
   ULONG cctl;
@@ -77,14 +77,14 @@ For an overview of display tables, see [Display Tables](display-tables.md). For 
   
 ## See also
 
-#### Reference
+
 
 [BuildDisplayTable](builddisplaytable.md)
   
 [DTBLPAGE](dtblpage.md)
   
 [DTCTL](dtctl.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

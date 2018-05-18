@@ -28,10 +28,10 @@ The following properties make up the required column set in the message service 
   
 |||
 |:-----|:-----|
-|**PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |**PR_INSTANCE_KEY** ( [PidTagInstanceKey](pidtaginstancekey-canonical-property.md))  <br/> |
-|**PR_RESOURCE_FLAGS** ( [PidTagResourceFlags](pidtagresourceflags-canonical-property.md))  <br/> |**PR_SERVICE_DLL_NAME** ( [PidTagServiceDllName](pidtagservicedllname-canonical-property.md))  <br/> |
-|**PR_SERVICE_ENTRY_NAME** ( [PidTagServiceEntryName](pidtagserviceentryname-canonical-property.md))  <br/> |**PR_SERVICE_NAME** ( [PidTagServiceName](pidtagservicename-canonical-property.md))  <br/> |
-|**PR_SERVICE_SUPPORT_FILES** ( [PidTagServiceSupportFiles](pidtagservicesupportfiles-canonical-property.md))  <br/> |**PR_SERVICE_UID** ( [PidTagServiceUid](pidtagserviceuid-canonical-property.md))  <br/> |
+|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |**PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md))  <br/> |
+|**PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md))  <br/> |**PR_SERVICE_DLL_NAME** ([PidTagServiceDllName](pidtagservicedllname-canonical-property.md))  <br/> |
+|**PR_SERVICE_ENTRY_NAME** ([PidTagServiceEntryName](pidtagserviceentryname-canonical-property.md))  <br/> |**PR_SERVICE_NAME** ([PidTagServiceName](pidtagservicename-canonical-property.md))  <br/> |
+|**PR_SERVICE_SUPPORT_FILES** ([PidTagServiceSupportFiles](pidtagservicesupportfiles-canonical-property.md))  <br/> |**PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md))  <br/> |
    
  **PR_DISPLAY_NAME** is the displayable name for the message service and the default sort key column. 
   
@@ -51,7 +51,7 @@ The following properties make up the required column set in the message service 
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Tables](mapi-tables.md)
 

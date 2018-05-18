@@ -33,7 +33,7 @@ Accesses resources in an address book provider.
 |Interface identifier:  <br/> |IID_IABLogon  <br/> |
 |Pointer type:  <br/> |LPABLOGON  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -54,7 +54,7 @@ For general information about the methods of the **IABLogon** interface, see [Im
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
 

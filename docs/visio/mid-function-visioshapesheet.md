@@ -30,7 +30,7 @@ MID ( ** *text* **, ** *start_num* **, ** *num_chars* ** )
 | _start_num_ <br/> |Required  <br/> |**Number** <br/> |The position of the first character you want to extract. The first character in the text string is position 1.  <br/> |
 | _num_chars_ <br/> |Required  <br/> |**Number** <br/> |The number of characters to return.  <br/> |
    
-### Return Value
+### Return value
 
 String
   

@@ -52,7 +52,7 @@ void FileTimeToRTime(FILETIME *pft, LONG* prtime)
 
 ## See also
 
-#### Concepts
+
 
 [About the Free/Busy API](about-the-free-busy-api.md)
   

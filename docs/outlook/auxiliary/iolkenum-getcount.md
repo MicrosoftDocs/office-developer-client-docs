@@ -16,7 +16,7 @@ description: "Gets the number of accounts in the enumerator."
 
 Gets the number of accounts in the enumerator.
   
-## Quick Info
+## Quick info
 
 See [IOlkEnum](iolkenum.md).
   
@@ -39,7 +39,7 @@ S_OK if the call succeeded; otherwise, an error code.
   
 ## See also
 
-#### Concepts
+
 
 [IOlkEnum::GetNext](iolkenum-getnext.md)
   

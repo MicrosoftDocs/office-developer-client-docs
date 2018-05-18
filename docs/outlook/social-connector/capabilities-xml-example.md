@@ -86,7 +86,7 @@ The following example shows the **capabilities** XML of an OSC provider.
 
 ## See also
 
-#### Concepts
+
 
 [OSC Provider XML Examples](osc-provider-xml-examples.md)
   

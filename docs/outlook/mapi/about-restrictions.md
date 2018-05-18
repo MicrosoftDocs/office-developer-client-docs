@@ -28,7 +28,7 @@ Clients should be aware that, even if the provider does support restrictions on 
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Tables](mapi-tables.md)
 

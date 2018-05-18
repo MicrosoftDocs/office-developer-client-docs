@@ -31,7 +31,7 @@ STRSAMEEX (" ** *string1* ** ", " ** *string2* ** ", ** *localeID* **, ** *flag*
 | _localeID_ <br/> |Required  <br/> |**Numeric** <br/> |The locale ID code.  <br/> |
 | _flag_ <br/> |Required  <br/> |**Numeric** <br/> | A bit that specifies the type of comparison.  <br/> |
    
-### Return Value
+### Return value
 
 Boolean
   

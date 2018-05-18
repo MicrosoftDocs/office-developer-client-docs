@@ -22,7 +22,7 @@ Returns the number of foreground pages in a document.
 
 PAGECOUNT ()
   
-### Return Value
+### Return value
 
 Number
   

@@ -1,7 +1,5 @@
 ---
 title: "SzFindCh"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -17,9 +15,7 @@ description: "Last modified: March 09, 2015"
 ---
 
 # SzFindCh
-
-  
-  
+ 
 **Applies to**: Outlook 
   
 Searches for the first occurrence of a character in a null-terminated string. 
@@ -30,7 +26,7 @@ Searches for the first occurrence of a character in a null-terminated string.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 LPSTR SzFindCh(
   LPCSTR lpsz,
   USHORT ch
@@ -39,17 +35,17 @@ LPSTR SzFindCh(
 
 ## Parameters
 
- _lpsz_
+_lpsz_
   
 > [in] Pointer to the null-terminated string to be searched. 
     
- _ch_
+_ch_
   
 > [in] The character to be searched for.
     
 ## Return value
 
- **SzFindCh** returns a pointer to the first occurrence of the character in the string. If the character does not occur anywhere in the string, or if the  _lpsz_ parameter is NULL, a value of NULL is returned. 
+**SzFindCh** returns a pointer to the first occurrence of the character in the string. If the character does not occur anywhere in the string, or if the  _lpsz_ parameter is NULL, a value of NULL is returned. 
   
 ## Remarks
 

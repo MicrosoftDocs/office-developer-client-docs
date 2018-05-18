@@ -35,9 +35,9 @@ Contains the entry identifier of the user-defined Views folder.
 
 The common view folder contains a predefined set of standard view specifiers, while the view folder contains specifiers defined by a messaging user. These folders, which are not visible in the interpersonal message (IPM) hierarchy, can hold many view specifiers, each one stored as a message. The client application can choose to merge the two sets of specifiers and make them both available.
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

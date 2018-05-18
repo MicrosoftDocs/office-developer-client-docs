@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Returns information about the last error that occurred in a table object.
   
-```
+```cpp
 HRESULT GetLastError( 
   HRESULT hResult, 
   ULONG ulFlags, 
@@ -48,12 +48,12 @@ HRESULT GetLastError(
     
 ## See also
 
-#### Reference
+
 
 [IExchangeModifyTable : IUnknown](iexchangemodifytableiunknown.md)
   
 [MAPIERROR](mapierror.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

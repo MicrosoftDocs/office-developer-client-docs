@@ -1,5 +1,5 @@
 ---
-title: "Form States"
+title: "Form states"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,14 +8,10 @@ api_type:
 - COM
 ms.assetid: dfc9fbf1-90d4-4756-92d9-032ac56a9c50
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
-# Form States
+# Form states
 
-  
-  
 **Applies to**: Outlook 
   
 Form objects can be in one of five distinct states, depending on what methods have been called in them and whether any errors have occurred in performing those methods. The states are described in the following topics:
@@ -39,7 +35,5 @@ The topics in this section describe the various states, along with the allowed a
   
 ## See also
 
-#### Concepts
-
-[Developing MAPI Form Servers](developing-mapi-form-servers.md)
+- [Developing MAPI Form Servers](developing-mapi-form-servers.md)
 

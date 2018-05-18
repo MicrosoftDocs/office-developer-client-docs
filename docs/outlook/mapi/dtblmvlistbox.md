@@ -28,7 +28,7 @@ Describes a multi-valued list that will be displayed in a dialog box that is bui
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _DTBLMVLISTBOX
 {
   ULONG ulFlags;
@@ -59,10 +59,10 @@ For an overview of display tables, see [Display Tables](display-tables.md). For 
   
 ## See also
 
-#### Reference
+
 
 [DTCTL](dtctl.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

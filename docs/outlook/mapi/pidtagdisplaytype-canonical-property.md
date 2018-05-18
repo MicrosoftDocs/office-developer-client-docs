@@ -35,7 +35,7 @@ Contains a value used to associate an icon with a particular row of a table.
 
 This property contains a long integer that facilitates special treatment of the table entry based on its type. This special treatment typically consists of displaying an icon, or other display element, associated with the display type. 
   
-This property is not used in folder contents tables. Client applications should use a message's **PR_MESSAGE_CLASS** ( [PidTagMessageClass](pidtagmessageclass-canonical-property.md)) property and appropriate [IMAPIFormInfo](imapiforminfoimapiprop.md) interface to get the **PR_ICON** ( [PidTagIcon](pidtagicon-canonical-property.md)) and **PR_MINI_ICON** ( [PidTagMiniIcon](pidtagminiicon-canonical-property.md)) properties for that message. 
+This property is not used in folder contents tables. Client applications should use a message's **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) property and appropriate [IMAPIFormInfo](imapiforminfoimapiprop.md) interface to get the **PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) and **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)) properties for that message. 
   
 This property can have exactly one of the following values:
   
@@ -105,9 +105,9 @@ If this property is not set, the client should assume the default type appropria
   
  **Note** All values not documented are reserved for MAPI. Client applications must not define any new values and must be prepared to deal with an undocumented value. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -125,7 +125,7 @@ If this property is not set, the client should assume the default type appropria
   
 > Enables directory access.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -137,7 +137,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

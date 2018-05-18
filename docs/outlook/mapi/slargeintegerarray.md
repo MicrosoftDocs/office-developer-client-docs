@@ -28,7 +28,7 @@ Contains an array of [LARGE_INTEGER](http://go.microsoft.com/fwlink/?LinkId=1321
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SLargeIntegerArray
 {
   ULONG cValues;
@@ -53,10 +53,10 @@ For more information about PT_MV_18, see [List of Property Types](property-types
   
 ## See also
 
-#### Reference
+
 
 [SPropValue](spropvalue.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

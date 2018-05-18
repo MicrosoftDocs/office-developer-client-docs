@@ -29,7 +29,7 @@ Describes a label that will be used in a dialog box that is built from a display
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related macro  <br/> |[SizedDtblLabel](sizeddtbllabel.md) <br/> |
    
-```
+```cpp
 typedef struct _DTBLLABEL
 {
   ULONG ulbLpszLabelName;
@@ -66,10 +66,10 @@ For an overview of display tables, see [Display Tables](display-tables.md). For 
   
 ## See also
 
-#### Reference
+
 
 [DTCTL](dtctl.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

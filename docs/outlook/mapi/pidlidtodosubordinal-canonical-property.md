@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Acts as a tie breaker when the **dispidToDoOrdinalDate** ( [PidLidToDoOrdinalDate](pidlidtodoordinaldate-canonical-property.md)) property sorts objects and the result in a tie.
+Acts as a tie breaker when the **dispidToDoOrdinalDate** ([PidLidToDoOrdinalDate](pidlidtodoordinaldate-canonical-property.md)) property sorts objects and the result in a tie.
   
 |||
 |:-----|:-----|
@@ -36,9 +36,9 @@ Acts as a tie breaker when the **dispidToDoOrdinalDate** ( [PidLidToDoOrdinalDat
 
 If used, this property must be sorted lexicographically. The component characters of the string must consist of only the numerals zero through nine. This property should be initially set to "5555555". The length of this property must not exceed 254 characters (excluding the terminating NULL character).
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -48,7 +48,7 @@ If used, this property must be sorted lexicographically. The component character
   
 > Specifies the properties and operations related to flagging.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -56,10 +56,10 @@ Mapidefs.h
     
 ## See also
 
-#### Reference
+
 
 [PidLidToDoOrdinalDate Canonical Property](pidlidtodoordinaldate-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

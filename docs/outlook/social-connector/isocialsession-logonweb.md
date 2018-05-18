@@ -56,10 +56,10 @@ For information about error codes, see [Outlook Social Connector Provider Error 
   
 ## See also
 
-#### Reference
+
 
 [ISocialSession : IUnknown](isocialsessioniunknown.md)
-#### Concepts
+
 
 [Forms-Based Authentication](forms-based-authentication.md)
 

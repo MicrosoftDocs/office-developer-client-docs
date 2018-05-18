@@ -24,7 +24,7 @@ Version Added: Visio 2010
 
 LISTORDER()
   
-### Return Value
+### Return value
 
 Integer
   

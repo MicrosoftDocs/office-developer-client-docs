@@ -30,7 +30,7 @@ Creates a compound entry identifier for an object, usually a message in a messag
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications  <br/> |
    
-```
+```cpp
 HrComposeEID(
   LPMAPISESSION psession,
   ULONG cbStoreRecordKey,
@@ -84,7 +84,7 @@ The **HrComposeEID** function enables applications to work with objects in multi
   
 ## See also
 
-#### Reference
+
 
 [HrComposeMsgID](hrcomposemsgid.md)
   

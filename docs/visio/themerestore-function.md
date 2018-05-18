@@ -22,7 +22,7 @@ THEMERESTORE()
   
 ## Example
 
-```
+```vb
 Shape.FillForegnd = THEME("FillColor") + THEMERESTORE(RGB(255,102,0)
 ```
 

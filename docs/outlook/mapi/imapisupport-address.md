@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Displays the common address dialog box. 
   
-```
+```cpp
 HRESULT Address(
   ULONG_PTR FAR * lpulUIParam,
   LPADRPARM lpAdrParms,
@@ -56,23 +56,23 @@ S_OK
 
 The **IMAPISupport::Address** method is implemented for address book provider support objects. Address book providers call **Address** to create or update a list of message recipients. 
   
-Each recipient is described in an [ADRENTRY](adrentry.md) structure that is included in the [ADRLIST](adrlist.md) structure pointed to by the  _lppAdrList_ parameter. The **ADRENTRY** structure contains an array of recipient property values, one of which is the recipient's type, or **PR_RECIPIENT_TYPE** ( [PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) property. This **ADRLIST** structure can be passed to a client to use as the  _lpMods_ parameter in a call to [IMessage::ModifyRecipients](imessage-modifyrecipients.md).
+Each recipient is described in an [ADRENTRY](adrentry.md) structure that is included in the [ADRLIST](adrlist.md) structure pointed to by the  _lppAdrList_ parameter. The **ADRENTRY** structure contains an array of recipient property values, one of which is the recipient's type, or **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) property. This **ADRLIST** structure can be passed to a client to use as the  _lpMods_ parameter in a call to [IMessage::ModifyRecipients](imessage-modifyrecipients.md).
   
-Each recipient in the **ADRLIST** structure can be either resolved, which indicates that one of its property values is its **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)) property, or unresolved, which indicates that the **PR_ENTRYID** property is missing. 
+Each recipient in the **ADRLIST** structure can be either resolved, which indicates that one of its property values is its **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) property, or unresolved, which indicates that the **PR_ENTRYID** property is missing. 
   
 In addition to **PR_ENTRYID**, resolved recipients include the following properties:
   
 - **PR_RECIPIENT_TYPE**
     
-- **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md))
+- **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))
     
-- **PR_ADDRTYPE** ( [PidTagAddressType](pidtagaddresstype-canonical-property.md))
+- **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))
     
-- **PR_DISPLAY_TYPE** ( [PidTagDisplayType](pidtagdisplaytype-canonical-property.md))
+- **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))
     
 Unresolved recipients typically include only **PR_DISPLAY_NAME** and **PR_RECIPIENT_TYPE**. 
   
-## Notes to Callers
+## Notes to callers
 
 The **ADRLIST** structure that the caller passes in might be a different size from the structure that MAPI returns. When you allocate memory for the **ADRLIST** structure, allocate the memory for each [SPropValue](spropvalue.md) structure separately. 
   
@@ -84,7 +84,7 @@ If **Address** must return a larger **ADRLIST** structure, or if you have passed
   
 ## See also
 
-#### Reference
+
 
 [ABProviderInit](abproviderinit.md)
   
@@ -125,7 +125,7 @@ If **Address** must return a larger **ADRLIST** structure, or if you have passed
 [SRowSet](srowset.md)
   
 [IMAPISupport : IUnknown](imapisupportiunknown.md)
-#### Concepts
+
 
 [Managing Memory for ADRLIST and SRowSet Structures](managing-memory-for-adrlist-and-srowset-structures.md)
 

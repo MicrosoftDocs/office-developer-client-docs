@@ -12,14 +12,7 @@ description: "Learn how Microsoft Word 2013 content controls enable a larger ran
 
 # Content controls in Word
 
- Learn how Microsoft Word 2013 content controls enable a larger range of structured document scenarios. 
-  
-||
-|:-----|
-||
-   
-## Introduction
-<a name="WordCC_Intro"> </a>
+Learn how Microsoft Word 2013 content controls enable a larger range of structured document scenarios.
 
 This topic provides information about changes to content controls in Microsoft Word 2013 and the document scenarios that those changes enable.
   
@@ -275,7 +268,7 @@ The following table lists constants in the new **WdContentControlAppearance** en
 
 The following code sample shows how to create rich text content controls and set visualization programmatically.
   
-```
+```vb
 Sub testVisualization()
    Dim objcc As ContentControl
    Dim objRange As Range
@@ -318,7 +311,7 @@ No additions were made to the Word 2013 object model to accommodate rich text ma
 
 The following code sample shows how to map a rich text content control to an XML node programmatically.
   
-```
+```vb
 Sub testRichBinding()
    Dim objRange As Range
    Dim objcc As ContentControl
@@ -386,7 +379,7 @@ Table 7 shows the new member of the **WdContentControlType** enumeration for rep
 
 The following code sample shows how to use repeating section content controls programmatically.
   
-```
+```vb
 Sub testRepeatingSectionControl()
    Dim objRange As Range
    Dim objTable As Table
@@ -395,12 +388,12 @@ Sub testRepeatingSectionControl()
    Dim objCustomNode As CustomXMLNode
    
    Set objCustomPart = ActiveDocument.CustomXMLParts.Add
-   objCustomPart.LoadXML ("<books>" &amp; _
-       "<book><title>Everyday Italian</title>" &amp; _
-       "<author>Giada De Laurentiis</author></book>" &amp; _
-       "<book><title>Harry Potter</title>" &amp; _
-       "<author>J K. Rowling</author></book>" &amp; _
-       "<book><title>Learning XML</title>" &amp; _
+   objCustomPart.LoadXML ("<books>" & _
+       "<book><title>Everyday Italian</title>" & _
+       "<author>Giada De Laurentiis</author></book>" & _
+       "<book><title>Harry Potter</title>" & _
+       "<author>J K. Rowling</author></book>" & _
+       "<book><title>Learning XML</title>" & _
        "<author>Erik T. Ray</author></book></books>")
    
    Set objRange = ActiveDocument.Paragraphs(1).Range
@@ -439,9 +432,6 @@ The individual repeating items within the repeating section content control (tha
 |\<w15:doNotAllowInsertDeleteSection\>  <br/> |Specifies that the user cannot add or delete sections by using the user interface in Word 2013.  <br/> |
 |\<w15:sectionTitle\>  <br/> |Specifies the name of repeating section items (and is used in the context menu when the control is chosen).  <br/> |
    
-## Conclusion
-<a name="WordCC_Conclusion"> </a>
 
-This topic has briefly reviewed changes to content controls in Word 2013.
   
 

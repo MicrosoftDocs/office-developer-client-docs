@@ -29,7 +29,7 @@ An [ENTRYID](entryid.md) structure plus a byte count that specifies the size of 
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related macros:  <br/> |[cbFLATENTRY](cbflatentry.md), [CbNewFLATENTRY](cbnewflatentry.md) <br/> |
    
-```
+```cpp
 typedef struct
 {
   ULONG cb;
@@ -62,10 +62,10 @@ A **FLATENTRY** structure resembles an [ENTRYID](entryid.md) structure. However,
     
 ## See also
 
-#### Reference
+
 
 [ENTRYID](entryid.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

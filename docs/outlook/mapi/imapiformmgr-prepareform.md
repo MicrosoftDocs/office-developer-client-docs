@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Downloads a form for opening.
   
-```
+```cpp
 HRESULT PrepareForm(
   ULONG_PTR ulUIParam,
   ULONG ulFlags,
@@ -64,7 +64,7 @@ You can use **PrepareForm** to obtain the dynamic-link libraries (DLLs) and othe
   
 ## See also
 
-#### Reference
+
 
 [IMAPIFormMgr::CreateForm](imapiformmgr-createform.md)
   

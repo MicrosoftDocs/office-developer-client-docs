@@ -62,10 +62,10 @@ The legacy **emsmdbUID** is also stamped in the Outlook Global Profile Section o
   
 ## See also
 
-#### Concepts
+
 
 [Using Multiple Exchange Accounts](using-multiple-exchange-accounts.md)
-#### Other resources
+
 
 [How To Open the Global Profile Section](http://support.microsoft.com/kb/188482)
 

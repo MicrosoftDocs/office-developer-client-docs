@@ -35,9 +35,9 @@ Contains a value used by the MAPI spooler to track the progress of an outbound m
 
 Do not use this property. It is reserved for use by MAPI.
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -49,10 +49,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagTransportProviders Canonical Property](pidtagtransportproviders-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

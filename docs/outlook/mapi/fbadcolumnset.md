@@ -30,7 +30,7 @@ Tests the validity of a table column set for use by a service provider in a subs
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Service providers  <br/> |
    
-```
+```cpp
 ULONG FBadColumnSet(
   LPSPropTagArray lpptaCols
 );

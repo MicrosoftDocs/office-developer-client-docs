@@ -1,39 +1,35 @@
 ---
-title: "Monitoring Connection State Changes Using an Offline State Add-in"
+title: "Monitoring connection state changes using an offline state add-in"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: c482ddce-f2b6-222b-aa30-824b1c6f3b14
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
-# Monitoring Connection State Changes Using an Offline State Add-in
+# Monitoring connection state changes using an offline state add-in
 
-  
-  
 **Applies to**: Outlook 
   
 Before you can use an offline state add-in to monitor connection state changes, you must implement functions to set up and initialize the add-in. For more information, see [Setting Up an Offline State Add-in](setting-up-an-offline-state-add-in.md).
   
 After you set up the offline state add-in, you must use the **[HrOpenOfflineObj](hropenofflineobj.md)** function to obtain an offline object. Using this offline object, you can initialize your state monitor, and then get and set the current state. 
   
- In this topic, these state monitoring functions are demonstrated by using code examples from the Sample Offline State Add-in. The Sample Offline State Add-in is a COM add-in that adds an **Offline State** menu to Outlook and utilizes the Offline State API. Through the **Offline State** menu, you can enable or disable state monitoring, check the current state, and change the current state. For more information about downloading and installing the Sample Offline State Add-in, see [Installing the Sample Offline State Add-in](installing-the-sample-offline-state-add-in.md). For more information about the Offline State API, see [About the Offline State API](about-the-offline-state-api.md).
+In this topic, these state monitoring functions are demonstrated by using code examples from the Sample Offline State Add-in. The Sample Offline State Add-in is a COM add-in that adds an **Offline State** menu to Outlook and utilizes the Offline State API. Through the **Offline State** menu, you can enable or disable state monitoring, check the current state, and change the current state. For more information about downloading and installing the Sample Offline State Add-in, see [Installing the Sample Offline State Add-in](installing-the-sample-offline-state-add-in.md). For more information about the Offline State API, see [About the Offline State API](about-the-offline-state-api.md).
   
 When the offline state add-in is disconnected, you must implement functions to properly terminate and clean up the add-in. For more information, see [Disconnecting an Offline State Add-in](disconnecting-an-offline-state-add-in.md).
   
-## Open Offline Object Routine
+## Open Offline Object routine
 
 For the client to be notified when a connection state change occurs, you must call the **[HrOpenOfflineObj](hropenofflineobj.md)** function. This function opens an offline object that supports **[IMAPIOfflineMgr](imapiofflinemgrimapioffline.md)**. The **HrOpenOfflineObj** function is defined in the ConnectionState.h header file. 
   
 > [!NOTE]
 > The **HrOpenOfflineObj** function is declared in the ImportProcs.h header file as follows:  `extern HROPENOFFLINEOBJ* pfnHrOpenOfflineObj;`. 
   
-## HrOpenOfflineObj Example
+### HrOpenOfflineObj example
 
-```
+```cpp
 typedef HRESULT (STDMETHODCALLTYPE HROPENOFFLINEOBJ)( 
     ULONG ulFlags, 
     LPCWSTR pwszProfileName, 
@@ -43,13 +39,13 @@ typedef HRESULT (STDMETHODCALLTYPE HROPENOFFLINEOBJ)(
 );
 ```
 
-## Initialize Monitor Routine
+## Initialize Monitor routine
 
 The  `InitMonitor` function calls the **HrOpenOfflineObj** function. The  `InitMonitor` function calls **CMyOfflineNotify** so that Outlook can send callback notifications to the client, and registers the callback through the **[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** variable  `AdviseInfo`.
   
-## InitMonitor() Example
+### InitMonitor() example
 
-```
+```cpp
 void InitMonitor(LPCWSTR szProfile) 
 { 
     if (!szProfile) return; 
@@ -69,9 +65,9 @@ void InitMonitor(LPCWSTR szProfile)
         hRes = pfnHrOpenOfflineObj( 
             NULL, 
             szProfile, 
-            &amp;GUID_GlobalState, 
+            &GUID_GlobalState, 
             NULL, 
-            &amp;g_lpOfflineMgr); 
+            &g_lpOfflineMgr); 
         if (FAILED(hRes))  
         { 
             Log(true,_T("HrOpenOfflineObj failed: 0x%08X\n"),hRes); 
@@ -79,17 +75,17 @@ void InitMonitor(LPCWSTR szProfile)
         if (g_lpOfflineMgr) 
         { 
             IMAPIOffline* lpOffline = NULL; 
-            hRes = g_lpOfflineMgr->QueryInterface(IID_IMAPIOffline,(LPVOID*)&amp;lpOffline); 
+            hRes = g_lpOfflineMgr->QueryInterface(IID_IMAPIOffline,(LPVOID*)&lpOffline); 
              
             if (lpOffline) 
             { 
                 ULONG ulCap = NULL; 
-                hRes = lpOffline->GetCapabilities(&amp;ulCap); 
+                hRes = lpOffline->GetCapabilities(&ulCap); 
                  
-                if (ulCap &amp; MAPIOFFLINE_CAPABILITY_OFFLINE) Log(true,_T("MAPIOFFLINE_CAPABILITY_OFFLINE supported\n")); 
-                if (ulCap &amp; MAPIOFFLINE_CAPABILITY_ONLINE) Log(true,_T("MAPIOFFLINE_CAPABILITY_ONLINE supported\n")); 
+                if (ulCap & MAPIOFFLINE_CAPABILITY_OFFLINE) Log(true,_T("MAPIOFFLINE_CAPABILITY_OFFLINE supported\n")); 
+                if (ulCap & MAPIOFFLINE_CAPABILITY_ONLINE) Log(true,_T("MAPIOFFLINE_CAPABILITY_ONLINE supported\n")); 
                  
-                if (ulCap &amp; (MAPIOFFLINE_CAPABILITY_OFFLINE | MAPIOFFLINE_CAPABILITY_ONLINE)) 
+                if (ulCap & (MAPIOFFLINE_CAPABILITY_OFFLINE | MAPIOFFLINE_CAPABILITY_ONLINE)) 
                 { 
                     CMyOfflineNotify* lpImplNotify = new CMyOfflineNotify(); 
                      
@@ -103,7 +99,7 @@ void InitMonitor(LPCWSTR szProfile)
                         AdviseInfo.ulAdviseTypes = MAPIOFFLINE_ADVISE_TYPE_STATECHANGE; 
                         AdviseInfo.ulStateMask = MAPIOFFLINE_STATE_ALL; 
                          
-                        hRes = g_lpOfflineMgr->Advise(MAPIOFFLINE_ADVISE_DEFAULT, &amp;AdviseInfo, &amp;g_ulAdviseToken); 
+                        hRes = g_lpOfflineMgr->Advise(MAPIOFFLINE_ADVISE_DEFAULT, &AdviseInfo, &g_ulAdviseToken); 
                         Log(true,"ulAdviseToken = 0x%08X\n",g_ulAdviseToken); 
                     } 
                 } 
@@ -114,13 +110,13 @@ void InitMonitor(LPCWSTR szProfile)
 }
 ```
 
-## Get Current State Routine
+## Get Current State routine
 
 The  `GetCurrentState` function calls the **HrOpenOfflineObj** function, and then uses the offline object to get the current connection state. The current state is returned in the  `ulCurState` variable, which is used in the  `CButtonEventHandler::Click` function to display the current state to the user. 
   
-## GetCurrentState() Example
+### GetCurrentState() example
 
-```
+```cpp
 ULONG (LPCWSTR szProfile) 
 { 
     if (!szProfile) return 0; 
@@ -135,9 +131,9 @@ ULONG (LPCWSTR szProfile)
         hRes = pfnHrOpenOfflineObj( 
             NULL, 
             szProfile, 
-            &amp;GUID_GlobalState, 
+            &GUID_GlobalState, 
             NULL, 
-            &amp;g_lpOfflineMgr); 
+            &g_lpOfflineMgr); 
         if (FAILED(hRes))  
         { 
             Log(true,_T("HrOpenOfflineObj failed: 0x%08X\n"),hRes); 
@@ -145,11 +141,11 @@ ULONG (LPCWSTR szProfile)
         if (g_lpOfflineMgr) 
         { 
             IMAPIOffline* lpOffline = NULL; 
-            hRes = g_lpOfflineMgr->QueryInterface(IID_IMAPIOffline,(LPVOID*)&amp;lpOffline); 
+            hRes = g_lpOfflineMgr->QueryInterface(IID_IMAPIOffline,(LPVOID*)&lpOffline); 
              
             if (lpOffline) 
             { 
-                hRes = lpOffline->GetCurrentState(&amp;ulCurState); 
+                hRes = lpOffline->GetCurrentState(&ulCurState); 
                 Log(true,_T("GetCurrentState returned 0x%08X\n"),hRes); 
  
                 switch(ulCurState) 
@@ -171,13 +167,13 @@ ULONG (LPCWSTR szProfile)
 }
 ```
 
-## Set Current State Routine
+## Set Current State routine
 
 The  `SetCurrentState` function calls the **HrOpenOfflineObj** function, and then uses the offline object to set the current connection state. The  `CButtonEventHandler::Click` function calls the  `SetCurrentState` function and the new state is passed in through the  `ulState` variable. 
   
-## SetCurrentState() Example
+### SetCurrentState() example
 
-```
+```cpp
 HRESULT SetCurrentState(LPCWSTR szProfile, ULONG ulFlags, ULONG ulState) 
 { 
     if (!szProfile) return 0; 
@@ -191,9 +187,9 @@ HRESULT SetCurrentState(LPCWSTR szProfile, ULONG ulFlags, ULONG ulState)
         hRes = pfnHrOpenOfflineObj( 
             NULL, 
             szProfile, 
-            &amp;GUID_GlobalState, 
+            &GUID_GlobalState, 
             NULL, 
-            &amp;g_lpOfflineMgr); 
+            &g_lpOfflineMgr); 
         if (FAILED(hRes))  
         { 
             Log(true,_T("HrOpenOfflineObj failed: 0x%08X\n"),hRes); 
@@ -201,7 +197,7 @@ HRESULT SetCurrentState(LPCWSTR szProfile, ULONG ulFlags, ULONG ulState)
         if (g_lpOfflineMgr) 
         { 
             IMAPIOffline* lpOffline = NULL; 
-            hRes = g_lpOfflineMgr->QueryInterface(IID_IMAPIOffline,(LPVOID*)&amp;lpOffline); 
+            hRes = g_lpOfflineMgr->QueryInterface(IID_IMAPIOffline,(LPVOID*)&lpOffline); 
              
             if (lpOffline) 
             { 
@@ -238,13 +234,13 @@ HRESULT SetCurrentState(LPCWSTR szProfile, ULONG ulFlags, ULONG ulState)
 }
 ```
 
-## Notification Routine
+## Notification routine
 
 The **[IMAPIOfflineNotify::Notify](imapiofflinenotify-notify.md)** function is used by Outlook to send notifications to a client when there are changes in the connection state. 
   
-## CMyOfflineNotify::Notify() Example
+### CMyOfflineNotify::Notify() example
 
-```
+```cpp
 void CMyOfflineNotify::Notify(const MAPIOFFLINE_NOTIFY *pNotifyInfo) 
 { 
     Log(true,_T("CMyOfflineNotify::Notify\n")); 
@@ -307,15 +303,9 @@ void CMyOfflineNotify::Notify(const MAPIOFFLINE_NOTIFY *pNotifyInfo)
 
 ## See also
 
-#### Concepts
-
-[About the Offline State API](about-the-offline-state-api.md)
-  
-[Installing the Sample Offline State Add-in](installing-the-sample-offline-state-add-in.md)
-  
-[About the Sample Offline State Add-in](about-the-sample-offline-state-add-in.md)
-  
-[Setting Up an Offline State Add-in](setting-up-an-offline-state-add-in.md)
-  
-[Disconnecting an Offline State Add-in](disconnecting-an-offline-state-add-in.md)
+- [About the Offline State API](about-the-offline-state-api.md)
+- [Installing the Sample Offline State Add-in](installing-the-sample-offline-state-add-in.md)
+- [About the Sample Offline State Add-in](about-the-sample-offline-state-add-in.md)
+- [Setting Up an Offline State Add-in](setting-up-an-offline-state-add-in.md)
+- [Disconnecting an Offline State Add-in](disconnecting-an-offline-state-add-in.md)
 

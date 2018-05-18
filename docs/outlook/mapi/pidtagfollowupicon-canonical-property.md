@@ -33,7 +33,7 @@ Specifies the flag color of the message object.
    
 ## Remarks
 
-This property must not exist unless the value of the **PR_FLAG_STATUS** ( [PidTagFlagStatus](pidtagflagstatus-canonical-property.md)) property is set to "followupFlagged", or the message object is a meeting-related object. This property should not exist on a task object. When set on other message objects, this property must be set to one of the following values.
+This property must not exist unless the value of the **PR_FLAG_STATUS** ([PidTagFlagStatus](pidtagflagstatus-canonical-property.md)) property is set to "followupFlagged", or the message object is a meeting-related object. This property should not exist on a task object. When set on other message objects, this property must be set to one of the following values.
   
 |**Numeric value**|**Name**|**Description**|
 |:-----|:-----|:-----|
@@ -45,9 +45,9 @@ This property must not exist unless the value of the **PR_FLAG_STATUS** ( [PidTa
 |5  <br/> |followupIcon5  <br/> |Blue flag  <br/> |
 |6  <br/> |followupIcon6  <br/> |Red flag  <br/> |
    
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -57,7 +57,7 @@ This property must not exist unless the value of the **PR_FLAG_STATUS** ( [PidTa
   
 > Specifies the properties and operations related to flagging.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -69,7 +69,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

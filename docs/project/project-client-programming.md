@@ -42,7 +42,7 @@ Task pane add-ins and other add-ins for Office and SharePoint can be sold in the
   
 ## See also
 
-#### Other resources
+
 
 [Project for developers](http://msdn.microsoft.com/en-us/office/aa905469)
   

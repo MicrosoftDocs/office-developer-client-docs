@@ -22,7 +22,7 @@ Messaging API (MAPI) is composed of a set of common application programming inte
   
 ## See also
 
-#### Other resources
+
 
 [MAPI Concepts](mapi-concepts.md)
 

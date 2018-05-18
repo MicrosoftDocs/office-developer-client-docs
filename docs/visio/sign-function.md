@@ -29,7 +29,7 @@ SIGN( ** *number* **, ** *fuzz* ** )
 | _number_ <br/> |Required  <br/> |**Numeric** <br/> | The number for which you want to determine the sign.  <br/> |
 | _fuzz_ <br/> |Optional  <br/> |**Numeric** <br/> |Specifies how close to zero the number must be in order to be considered equal to zero.  <br/> |
    
-### Return Value
+### Return value
 
 Numeric
   

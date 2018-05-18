@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Opens the transport provider's status object.
   
-```
+```cpp
 HRESULT OpenStatusEntry(
   LPCIID lpInterface,
   ULONG ulFlags,
@@ -67,7 +67,7 @@ The MAPI spooler calls the **IXPLogon::OpenStatusEntry** method when a client ap
   
 ## See also
 
-#### Reference
+
 
 [IMAPIStatus : IMAPIProp](imapistatusimapiprop.md)
   

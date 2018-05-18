@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Displays the Outlook address book dialog box. 
   
-```
+```cpp
 HRESULT Address(
   ULONG_PTR FAR * lpulUIParam,
   LPADRPARM lpAdrParms,
@@ -58,17 +58,17 @@ If the **ulFlags** member of the  _lpAdrParms_ parameter is set to DIALOG_SDI an
   
 The **ADRLIST** structure passed back by MAPI to the caller through the  _lppAdrList_ parameter contains an array of [ADRENTRY](adrentry.md) structures, one structure for each recipient. When passed to an outgoing message's [IMessage::ModifyRecipients](imessage-modifyrecipients.md) method in the  _lpMods_ parameter, the **ADRLIST** structure can be used to update its recipient list. 
   
-Each **ADRENTRY** structure in the **ADRLIST** structure contains zero or more [SPropValue](spropvalue.md) structures, one structure for every property set for the recipient. There can be zero **SPropValue** structures when the dialog box presented by the **Address** method is used to remove a recipient. When there are one or more **SPropValue** structures, the corresponding **ADRENTRY** structure is used to add or update a recipient. The recipient can be resolved, which indicates that one of the **SPropValue** structures describes the recipient's **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)) property, or unresolved, which indicates that the **PR_ENTRYID** property is missing. 
+Each **ADRENTRY** structure in the **ADRLIST** structure contains zero or more [SPropValue](spropvalue.md) structures, one structure for every property set for the recipient. There can be zero **SPropValue** structures when the dialog box presented by the **Address** method is used to remove a recipient. When there are one or more **SPropValue** structures, the corresponding **ADRENTRY** structure is used to add or update a recipient. The recipient can be resolved, which indicates that one of the **SPropValue** structures describes the recipient's **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) property, or unresolved, which indicates that the **PR_ENTRYID** property is missing. 
   
 In addition to **PR_ENTRYID**, resolved recipients include the following properties:
   
-- **PR_RECIPIENT_TYPE** ( [PidTagRecipientType](pidtagrecipienttype-canonical-property.md))
+- **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md))
     
-- **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md))
+- **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))
     
-- **PR_ADDRTYPE** ( [PidTagAddressType](pidtagaddresstype-canonical-property.md))
+- **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))
     
-- **PR_DISPLAY_TYPE** ( [PidTagDisplayType](pidtagdisplaytype-canonical-property.md))
+- **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))
     
 The **ADRLIST** structure that the caller passes in might be a different size from the structure that MAPI returns. If MAPI must return a larger **ADRLIST** structure, it frees the original structure and allocates a new one. When you allocate memory for the **ADRLIST** structure, allocate the memory for each **SPropValue** structure separately. For more information about how to allocate and free **ADRLIST** structures, see [Managing Memory for ADRLIST and SRowSet Structures](managing-memory-for-adrlist-and-srowset-structures.md)
   
@@ -86,7 +86,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [ADRENTRY](adrentry.md)
   
@@ -113,7 +113,7 @@ For MFCMAPI sample code, see the following table.
 [SRowSet](srowset.md)
   
 [IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
   

@@ -30,7 +30,7 @@ Creates an ASCII string representing a compound entry identifier for an object, 
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications  <br/> |
    
-```
+```cpp
 HrComposeMsgID(
   LPMAPISESSION psession,
   ULONG cbStoreRecordKey,

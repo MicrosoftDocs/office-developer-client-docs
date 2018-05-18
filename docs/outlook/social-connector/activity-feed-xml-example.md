@@ -177,7 +177,7 @@ The following example shows the **activityFeed** XML of four activities: two pro
 
 ## See also
 
-#### Concepts
+
 
 [OSC Provider XML Examples](osc-provider-xml-examples.md)
   

@@ -178,7 +178,7 @@ Named properties in the **PS_PUBLIC_STRINGS** namespace are the following:
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Constants](mapi-constants.md)
   

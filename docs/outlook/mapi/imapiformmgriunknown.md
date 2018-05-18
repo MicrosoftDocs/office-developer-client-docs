@@ -33,7 +33,7 @@ Enables form viewers to obtain information about and activate form servers.
 |Interface identifier:  <br/> |IID_IMAPIFormMgr  <br/> |
 |Pointer type:  <br/> |LPMAPIFORMMGR  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -52,7 +52,7 @@ Enables form viewers to obtain information about and activate form servers.
    
 ## See also
 
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
 

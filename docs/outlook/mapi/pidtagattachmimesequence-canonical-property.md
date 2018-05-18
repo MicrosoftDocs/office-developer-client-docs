@@ -35,9 +35,9 @@ Contains the MIME sequence number of a MIME message attachment.
 
 This property is used for MHTML support. It represents the sequence number of the attachment within the parent MIME multipart body part of the MIME message.
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Contains flags that specify the Binary Large Object (BLOB) data that appears in the **PR_WB_SF_DEFINITION** ( [PidTagSearchFolderDefinition](pidtagsearchfolderdefinition-canonical-property.md)) property.
+Contains flags that specify the Binary Large Object (BLOB) data that appears in the **PR_WB_SF_DEFINITION** ([PidTagSearchFolderDefinition](pidtagsearchfolderdefinition-canonical-property.md)) property.
   
 |||
 |:-----|:-----|
@@ -35,9 +35,9 @@ Contains flags that specify the Binary Large Object (BLOB) data that appears in 
 
 The definitions of the flags are specified in [[MS-OXOSRCH]](http://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx). Search for **PR_WB_SF_STORAGE_TYPE**.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -47,7 +47,7 @@ The definitions of the flags are specified in [[MS-OXOSRCH]](http://msdn.microso
   
 > Specifies the properties and operations for manipulating a search folder list configuration.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

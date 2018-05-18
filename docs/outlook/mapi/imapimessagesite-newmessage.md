@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Creates a new message.
   
-```
+```cpp
 HRESULT NewMessage(
   ULONG fComposeInFolder,
   LPMAPIFOLDER pFolderFocus,
@@ -85,12 +85,12 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIViewContext : IUnknown](imapiviewcontextiunknown.md)
   
 [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
   

@@ -29,15 +29,15 @@ Determines whether to remember the password in the profile.
 |Data type:  <br/> |PT_BOOLEAN  <br/> |
 |Area:  <br/> |Personal storage table (.pst) internal  <br/> |
    
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]] 
   
 > Provides references to related Exchange Server protocol specifications.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -1,7 +1,5 @@
 ---
 title: "UPFLD"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,15 +12,13 @@ description: "Last modified: July 23, 2011"
 
 # UPFLD
 
-  
-  
 **Applies to**: Outlook 
   
 Information for uploading a folder during the [upload folder state](upload-folder-state.md).
   
-## Quick Info
+## Quick info
 
-```
+```cpp
 struct UPFLD 
 { 
     ULONG ulFlags; 
@@ -34,45 +30,41 @@ struct UPFLD
 
 ## Members
 
- _ulFlags_
+_ulFlags_
   
 >  [out]/[in] Flags to determine appropriate actions for the uplaod. 
     
-    - UPF_NEW
+  - UPF_NEW
     
-  - [out] Folder is new.
+    - [out] Folder is new.
     
-    - UPF_MOD_PARENT
+  - UPF_MOD_PARENT
     
-  - [out] Folder has been moved.
+    - [out] Folder has been moved.
     
-    - UPF_MOD_PROPS
+  - UPF_MOD_PROPS
     
-  - [out] Folder properties have been modified.
+    - [out] Folder properties have been modified.
     
-    - UPF_DEL
+  - UPF_DEL
     
-  - [out] Folder was deleted.
+    - [out] Folder was deleted.
     
-    - UPF_OK
+  - UPF_OK
     
-  - [in] Upload was successful. The client sets this after uploading folder information to the server.
+    - [in] Upload was successful. The client sets this after uploading folder information to the server.
     
- _pfld_
+_pfld_
   
 > [out] The open folder object to upload.
     
- _feid_
+_feid_
   
 > [out] Entry ID of the folder.
     
 ## See also
 
-#### Concepts
-
-[About the Replication API](about-the-replication-api.md)
-  
-[About the Replication State Machine](about-the-replication-state-machine.md)
-  
-[MAPI Constants](mapi-constants.md)
+- [About the Replication API](about-the-replication-api.md) 
+- [About the Replication State Machine](about-the-replication-state-machine.md)
+- [MAPI Constants](mapi-constants.md)
 

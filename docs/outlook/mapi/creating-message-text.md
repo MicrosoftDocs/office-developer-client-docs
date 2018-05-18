@@ -18,11 +18,11 @@ description: "Last modified: July 23, 2011"
   
 **Applies to**: Outlook 
   
-Although some messages are made up of nothing more than a recipient list and a subject line, the content of most messages, specifically IPM.Note messages, includes text. Message text can be plain or formatted and is stored in three properties: **PR_BODY** ( [PidTagBody](pidtagbody-canonical-property.md)), **PR_HTML** ( [PidTagHtml](pidtaghtml-canonical-property.md)), and **PR_RTF_COMPRESSED** ( [PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). If your client is plain text-based, set **PR_BODY**. If you support formatted text in the Rich Text Format (RTF), set either **PR_RTF_COMPRESSED** only or both **PR_RTF_COMPRESSED** and **PR_BODY**, depending on the message store provider that you are using. When an RTF-aware client is using an RTF-aware message store, it sets **PR_RTF_COMPRESSED** only. When an RTF-aware client is using a non-RTF-aware message store, it sets both properties. If your client supports HTML, set the **PR_HTML** property. 
+Although some messages are made up of nothing more than a recipient list and a subject line, the content of most messages, specifically IPM.Note messages, includes text. Message text can be plain or formatted and is stored in three properties: **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), **PR_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)), and **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). If your client is plain text-based, set **PR_BODY**. If you support formatted text in the Rich Text Format (RTF), set either **PR_RTF_COMPRESSED** only or both **PR_RTF_COMPRESSED** and **PR_BODY**, depending on the message store provider that you are using. When an RTF-aware client is using an RTF-aware message store, it sets **PR_RTF_COMPRESSED** only. When an RTF-aware client is using a non-RTF-aware message store, it sets both properties. If your client supports HTML, set the **PR_HTML** property. 
   
  **To determine whether or not your message store supports Rich Text Format**
   
-1. Call the message store's [IMAPIProp::GetProps](imapiprop-getprops.md) method to retrieve the **PR_STORE_SUPPORT_MASK** ( [PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) property.
+1. Call the message store's [IMAPIProp::GetProps](imapiprop-getprops.md) method to retrieve the **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) property.
     
 2. Check for the STORE_RTF_OK bit. If STORE_RTF_OK is set, the message store provider supports RTF text. If it is not set, the message store provider supports plain text only.
     
@@ -62,7 +62,7 @@ If your message store provider does not support RTF, you must also add non-RTF m
     
 2. Call **IStream::Write** to write the message text data to the stream returned from **OpenProperty**. 
     
-3. Call the [RTFSync](rtfsync.md) function to synchronize the text with the formatting. Because this is a new message, set both the RTF_SYNC_RTF_CHANGED and RTF_SYNC_BODY_CHANGED flags to indicate that both the RTF and plain text version of the message text has changed. **RTFSync** will set several related properties that the message store provider requires, such as **PR_RTF_IN_SYNC** ( [PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)), and write them to the message.
+3. Call the [RTFSync](rtfsync.md) function to synchronize the text with the formatting. Because this is a new message, set both the RTF_SYNC_RTF_CHANGED and RTF_SYNC_BODY_CHANGED flags to indicate that both the RTF and plain text version of the message text has changed. **RTFSync** will set several related properties that the message store provider requires, such as **PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)), and write them to the message.
     
 4. Call **IStream::Commit** and **IUnknown::Release** on the stream to commit the changes and free its memory. 
     

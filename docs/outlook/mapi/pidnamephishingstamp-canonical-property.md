@@ -32,9 +32,9 @@ Contains the message value that identifies and marks messages that are likely to
 |Data type:  <br/> |PT_LONG  <br/> |
 |Area:  <br/> |Secure messaging  <br/> |
    
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -44,7 +44,7 @@ Contains the message value that identifies and marks messages that are likely to
   
 > Identifies and marks e-mail messages that are designed to trick recipients into divulging sensitive information (such as passwords and other personal information) to a non-trustworthy source.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -52,7 +52,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

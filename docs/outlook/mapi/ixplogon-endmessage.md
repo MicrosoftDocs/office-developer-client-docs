@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Informs the transport provider that the MAPI spooler completed its processing on an outbound message.
   
-```
+```cpp
 HRESULT EndMessage(
   ULONG ulMsgRef,
   ULONG FAR * lpulFlags
@@ -69,7 +69,7 @@ All objects that the transport provider opens during the transfer of a message s
   
 ## See also
 
-#### Reference
+
 
 [IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md)
   

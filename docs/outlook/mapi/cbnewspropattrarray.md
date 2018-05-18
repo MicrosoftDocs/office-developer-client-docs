@@ -29,7 +29,7 @@ Computes the number of bytes that should be allocated for a new [SPropAttrArray]
 |Header file:  <br/> |Imessage.h  <br/> |
 |Related structure:  <br/> |**SPropAttrArray** <br/> |
    
-```
+```cpp
 CbNewSPropAttrArray (_cattr)
 ```
 
@@ -41,10 +41,10 @@ CbNewSPropAttrArray (_cattr)
     
 ## See also
 
-#### Reference
+
 
 [SPropAttrArray](spropattrarray.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

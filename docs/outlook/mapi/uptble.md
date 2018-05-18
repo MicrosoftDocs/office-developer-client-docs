@@ -20,9 +20,9 @@ description: "Last modified: July 23, 2011"
   
 Extended information for uploading the contents of a folder during the [upload table state](upload-table-state.md).
   
-## Quick Info
+## Quick info
 
-```
+```cpp
 struct UPTBLE 
 { 
     UINTiEntMod; 
@@ -62,7 +62,7 @@ struct UPTBLE
     
 ## See also
 
-#### Concepts
+
 
 [About the Replication API](about-the-replication-api.md)
   

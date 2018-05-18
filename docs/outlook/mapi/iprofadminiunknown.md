@@ -33,7 +33,7 @@ Supports the administration of profiles.
 |Interface identifier:  <br/> |IID_IProfAdmin  <br/> |
 |Pointer type:  <br/> |LPPROFADMIN  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -49,7 +49,7 @@ Supports the administration of profiles.
    
 ## See also
 
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
 

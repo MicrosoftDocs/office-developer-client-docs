@@ -44,7 +44,7 @@ For information about how to obtain MAPI header files, see [Install MAPI Header 
   
 ## See also
 
-#### Other resources
+
 
 [Getting Started with the Outlook MAPI Reference](getting-started-with-the-outlook-mapi-reference.md)
 

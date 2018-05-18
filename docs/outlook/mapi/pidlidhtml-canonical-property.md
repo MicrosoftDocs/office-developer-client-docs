@@ -34,11 +34,11 @@ Specifies the contact's business Web page URL.
    
 ## Remarks
 
-The value of this property, if present, should be the same as the value of the **PR_BUSINESS_HOME_PAGE** ( [PidTagBusinessHomePage](pidtagbusinesshomepage-canonical-property.md)) property.
+The value of this property, if present, should be the same as the value of the **PR_BUSINESS_HOME_PAGE** ([PidTagBusinessHomePage](pidtagbusinesshomepage-canonical-property.md)) property.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -48,7 +48,7 @@ The value of this property, if present, should be the same as the value of the *
   
 > Specifies the properties and operations that are permissible for contacts and personal distribution lists.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

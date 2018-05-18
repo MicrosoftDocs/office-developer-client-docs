@@ -16,7 +16,7 @@ description: "Skips a specified number of blocks of free/busy data."
 
 Skips a specified number of blocks of free/busy data.
   
-## Quick Info
+## Quick info
 
 See [IEnumFBBlock](ienumfbblock.md).
   
@@ -38,7 +38,7 @@ S_OK if the call succeeded; otherwise, an error code.
   
 ## See also
 
-#### Concepts
+
 
 [IEnumFBBlock::Clone](ienumfbblock-clone.md)
   

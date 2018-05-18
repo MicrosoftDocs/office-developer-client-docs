@@ -30,7 +30,7 @@ Logs a client application on to a session with the messaging system.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications  <br/> |
    
-```
+```cpp
 HRESULT MAPILogonEx(
   ULONG_PTR ulUIParam,
   LPSTR lpszProfileName,
@@ -170,12 +170,12 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPISession::GetMsgStoresTable](imapisession-getmsgstorestable.md)
   
 [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

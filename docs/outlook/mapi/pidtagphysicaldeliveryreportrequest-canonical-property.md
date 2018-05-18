@@ -31,9 +31,9 @@ Contains the mode of a report to be delivered to a particular message recipient 
 |Data type:  <br/> |PT_LONG  <br/> |
 |Area:  <br/> |MAPI recipient  <br/> |
    
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -45,7 +45,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

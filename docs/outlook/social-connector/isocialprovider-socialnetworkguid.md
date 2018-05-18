@@ -30,7 +30,7 @@ The GUID must be immutable and must not change even if the provider version chan
   
 ## See also
 
-#### Reference
+
 
 [ISocialProvider : IUnknown](isocialprovideriunknown.md)
 

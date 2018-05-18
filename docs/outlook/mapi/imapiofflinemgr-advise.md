@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Registers a client to receive callbacks on an offline object.
   
-```
+```cpp
 HRESULT COfflineObj::Advise( 
       ULONG ulFlags, 
       MAPIOFFLINE_ADVISEINFO* pAdviseInfo, 
@@ -66,12 +66,12 @@ Upon opening an offline object using **[HrOpenOfflineObj](hropenofflineobj.md)**
   
 ## See also
 
-#### Reference
+
 
 [IMAPIOffline::GetCapabilities](imapioffline-getcapabilities.md)
   
 [IMAPIOfflineMgr::Unadvise](imapiofflinemgr-unadvise.md)
-#### Concepts
+
 
 [MAPI Constants](mapi-constants.md)
   

@@ -30,7 +30,7 @@ Determines the size, in bytes, of a property value array and validates the memor
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 SCODE ScCountProps(
   int cprop,
   LPSPropValue rgprop,
@@ -70,7 +70,7 @@ As it is counting, **ScCountProps** validates the memory associated with the arr
   
 ## See also
 
-#### Reference
+
 
 [PropCopyMore](propcopymore.md)
 

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Removes one or more entries, typically messaging users, distribution lists, or other containers.
   
-```
+```cpp
 HRESULT DeleteEntries(
   LPENTRYLIST lpEntries,
   ULONG ulFlags
@@ -61,10 +61,10 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IABContainer : IMAPIContainer](iabcontainerimapicontainer.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

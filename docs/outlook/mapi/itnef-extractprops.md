@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Extracts the properties from a TNEF encapsulation. 
   
-```
+```cpp
 HRESULT ExtractProps(
   ULONG ulFlags,
   LPSPropTagArray lpPropList,
@@ -85,7 +85,7 @@ The value returned in  _lpProblems_ is valid only if the call returns S_OK. When
   
 ## See also
 
-#### Reference
+
 
 [ITnef::AddProps](itnef-addprops.md)
   

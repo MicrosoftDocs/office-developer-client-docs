@@ -31,9 +31,9 @@ Contains an identifier for the algorithm used to confirm message content confide
 |Data type:  <br/> |PT_BINARY  <br/> |
 |Area:  <br/> |Exchange  <br/> |
    
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -45,7 +45,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

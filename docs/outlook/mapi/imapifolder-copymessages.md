@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Copies or moves one or more messages.
   
-```
+```cpp
 HRESULT CopyMessages(
   LPENTRYLIST lpMsgList,
   LPCIID lpInterface,
@@ -93,7 +93,7 @@ The **IMAPIFolder::CopyMessages** method copies or moves messages to another fol
   
 Messages that are opened with read/write permission can be moved or copied. 
   
-## Notes to Implementers
+## Notes to implementers
 
 If you are copying messages to another message store without using the [IMAPISupport::CopyMessages](imapisupport-copymessages.md) method, you must first call [IMAPIFolder::SetReadFlags](imapifolder-setreadflags.md) with the GENERATE_RECEIPT_ONLY flag set. The receiving message store is not responsible for generating read reports for the copied or moved messages. If you are calling **IMAPISupport::CopyMessages** to implement **IMAPIFolder::CopyMessages**, do not call **SetReadFlags**; MAPI will call it. 
   
@@ -107,7 +107,7 @@ Send notifications when you move or copy messages so that clients are forewarned
   
 Do not include a message's status in the copy or move operation. Moving or copying a message status greatly affects performance.
   
-## Notes to Callers
+## Notes to callers
 
 Use **IMAPIFolder::CopyMessages** to populate search-results folders, where messages are often grouped by parent folder. 
   
@@ -123,7 +123,7 @@ When **IMAPIFolder::CopyMessages** is unable to complete, do not assume that no 
   
 ## See also
 
-#### Reference
+
 
 [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
 

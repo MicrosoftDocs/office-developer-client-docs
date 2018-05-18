@@ -34,11 +34,11 @@ Contains the names of contacts associated with the item.
    
 ## Remarks
 
-This property contains the **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property of each Address Book **EntryID** that is referenced in the value of **dispidContactLinkEntry** ( [PidLidContactLinkEntry](pidlidcontactlinkentry-canonical-property.md)) property. It may include names not referenced in **dispidContactLinkEntry**.
+This property contains the **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property of each Address Book **EntryID** that is referenced in the value of **dispidContactLinkEntry** ([PidLidContactLinkEntry](pidlidcontactlinkentry-canonical-property.md)) property. It may include names not referenced in **dispidContactLinkEntry**.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -56,7 +56,7 @@ This property contains the **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdispl
   
 > Handles message and attachment objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -64,7 +64,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

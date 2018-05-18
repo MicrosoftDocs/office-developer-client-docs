@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Requests that the current message be saved.
   
-```
+```cpp
 HRESULT SaveMessage( void );
 ```
 
@@ -54,10 +54,10 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
   

@@ -35,9 +35,9 @@ Contains a list of display names for messaging users in the contact address book
 
 These properties are defined by the user and the user's organization.
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

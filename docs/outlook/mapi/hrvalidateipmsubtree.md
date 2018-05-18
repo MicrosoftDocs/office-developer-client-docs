@@ -30,7 +30,7 @@ Adds standard interpersonal message (IPM) folders to a message store.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications  <br/> |
    
-```
+```cpp
 HrValidateIPMSubtree(
   LPMDB lpMDB,
   ULONG ulFlags,
@@ -82,7 +82,7 @@ MAPI_FULL_IPM_TREE
     
  _lppProps_
   
-> [in, out] Pointer to a pointer to an array of **SPropValue** structures that contains property values for the **PR_VALID_FOLDER_MASK** ( [PidTagValidFolderMask](pidtagvalidfoldermask-canonical-property.md)) property and for the appropriate folder entry identifier properties. If **HrValidateIPMSubtree** creates an Inbox in the message store, the **SPropValue** array includes an Inbox entry identifier with a special property tag coded as  `PROP_TAG(PT_BINARY, PROP_ID_NULL)`. The  _lppProps_ parameter can be NULL, indicating that the calling implementation does not require that an **SPropValue** array be returned. 
+> [in, out] Pointer to a pointer to an array of **SPropValue** structures that contains property values for the **PR_VALID_FOLDER_MASK** ([PidTagValidFolderMask](pidtagvalidfoldermask-canonical-property.md)) property and for the appropriate folder entry identifier properties. If **HrValidateIPMSubtree** creates an Inbox in the message store, the **SPropValue** array includes an Inbox entry identifier with a special property tag coded as  `PROP_TAG(PT_BINARY, PROP_ID_NULL)`. The  _lppProps_ parameter can be NULL, indicating that the calling implementation does not require that an **SPropValue** array be returned. 
     
  _lppMapiError_
   
@@ -102,19 +102,19 @@ IPM clients should display their folder view starting at the IPM subtree root fo
   
  **HrValidateIPMSubtree** sets the **PR_VALID_FOLDER_MASK** property to indicate whether each IPM folder it creates has a valid entry identifier. The following entry identifier properties of the message store are set to the entry identifiers of the corresponding folders and returned in the  _lppProps_ parameter along with **PR_VALID_FOLDER_MASK**: 
   
- **PR_COMMON_VIEWS_ENTRYID** ( [PidTagCommonViewsEntryId](pidtagcommonviewsentryid-canonical-property.md))
+ **PR_COMMON_VIEWS_ENTRYID** ([PidTagCommonViewsEntryId](pidtagcommonviewsentryid-canonical-property.md))
   
-> **PR_FINDER_ENTRYID** ( [PidTagFinderEntryId](pidtagfinderentryid-canonical-property.md))
+> **PR_FINDER_ENTRYID** ([PidTagFinderEntryId](pidtagfinderentryid-canonical-property.md))
   
-> **PR_IPM_OUTBOX_ENTRYID** ( [PidTagIpmOutboxEntryId](pidtagipmoutboxentryid-canonical-property.md))
+> **PR_IPM_OUTBOX_ENTRYID** ([PidTagIpmOutboxEntryId](pidtagipmoutboxentryid-canonical-property.md))
   
-> **PR_IPM_SENTMAIL_ENTRYID** ( [PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md))
+> **PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md))
   
-> **PR_IPM_SUBTREE_ENTRYID** ( [PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md))
+> **PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md))
   
-> **PR_IPM_WASTEBASKET_ENTRYID** ( [PidTagIpmWastebasketEntryId](pidtagipmwastebasketentryid-canonical-property.md))
+> **PR_IPM_WASTEBASKET_ENTRYID** ([PidTagIpmWastebasketEntryId](pidtagipmwastebasketentryid-canonical-property.md))
   
-> **PR_VIEWS_ENTRYID** ( [PidTagViewsEntryId](pidtagviewsentryid-canonical-property.md))
+> **PR_VIEWS_ENTRYID** ([PidTagViewsEntryId](pidtagviewsentryid-canonical-property.md))
   
 > A placeholder [PROP_TAG](prop_tag.md) for the IPM Inbox (PT_BINARY, PROP_ID_NULL). 
     
@@ -128,10 +128,10 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns the entry identifier for the initial address book container.
   
-```
+```cpp
 HRESULT GetDefaultDir(
   ULONG FAR * lpcbEntryID,
   LPENTRYID FAR * lppEntryID
@@ -63,7 +63,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IAddrBook::SetDefaultDir](iaddrbook-setdefaultdir.md)
   
@@ -74,7 +74,7 @@ For MFCMAPI sample code, see the following table.
 [PidTagContainerFlags Canonical Property](pidtagcontainerflags-canonical-property.md)
   
 [IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

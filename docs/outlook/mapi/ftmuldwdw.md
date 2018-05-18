@@ -30,7 +30,7 @@ Multiplies one unsigned 32-bit integer by another.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 FILETIME FtMulDwDw(
   DWORD Multiplicand,
   DWORD Multiplier

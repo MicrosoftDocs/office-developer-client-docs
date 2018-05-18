@@ -30,7 +30,7 @@ Replaces [MAPIInitialize](mapiinitialize.md) when only select utility functions 
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications  <br/> |
    
-```
+```cpp
 SCODE ScInitMapiUtil(
   ULONG ulFlags
 );
@@ -56,7 +56,7 @@ When use of the functions that **ScInitMapiUtil** has called is complete, **Dein
   
 ## See also
 
-#### Reference
+
 
 [MAPIUninitialize](mapiuninitialize.md)
 

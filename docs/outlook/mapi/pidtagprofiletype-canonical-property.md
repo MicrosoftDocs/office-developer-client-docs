@@ -43,9 +43,9 @@ The possible values for this property are:
     
 - 4 - Subscription
     
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -57,7 +57,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

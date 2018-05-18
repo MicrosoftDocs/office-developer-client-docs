@@ -1,7 +1,5 @@
 ---
 title: "SizedSPropTagArray"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -18,8 +16,6 @@ description: "Last modified: March 09, 2015"
 
 # SizedSPropTagArray
 
-  
-  
 **Applies to**: Outlook 
   
 Creates a named [SPropTagArray](sproptagarray.md) structure that includes a specified number of property tags. 
@@ -29,17 +25,17 @@ Creates a named [SPropTagArray](sproptagarray.md) structure that includes a spec
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**SPropTagArray** <br/> |
    
-```
+```cpp
 SizedSPropTagArray (_ctag, _name)
 ```
 
 ## Parameters
 
-_  _ctag_
+__ctag_
   
 > Count of property tags to be included in the new structure.
     
- __name_
+__name_
   
 > Name for the new structure.
     
@@ -49,17 +45,13 @@ Use the **SizedSPropTagArray** macro to create a property tag array with explici
   
 To use the new structure that results from the **SizedSPropTagArray** macro as a pointer to an **SPropTagArray** structure, perform the following cast: 
   
-```
-lpPropTagArray = (LPPropTagArray) &amp;SizedSPropTagArray;
+```cpp
+lpPropTagArray = (LPPropTagArray) &SizedSPropTagArray;
 
 ```
 
 ## See also
 
-#### Reference
-
-[SPropTagArray](sproptagarray.md)
-#### Concepts
-
-[Macros Related to Structures](macros-related-to-structures.md)
+- [SPropTagArray](sproptagarray.md)
+- [Macros Related to Structures](macros-related-to-structures.md)
 

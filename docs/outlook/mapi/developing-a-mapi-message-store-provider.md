@@ -40,7 +40,7 @@ There are two important types of message store providers: those that can act as 
   
 ## See also
 
-#### Other resources
+
 
 [MAPI Concepts](mapi-concepts.md)
 

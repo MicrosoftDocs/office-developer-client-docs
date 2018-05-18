@@ -1,19 +1,15 @@
 ---
-title: "Using a Wrapped PST Store Provider"
+title: "Using a wrapped PST store provider"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 98f08432-e86c-cba6-45fd-5a6c94d50aaf
 description: "Last modified: July 03, 2012"
- 
- 
 ---
 
-# Using a Wrapped PST Store Provider
+# Using a wrapped PST store provider
 
- 
-  
 **Applies to**: Outlook 
   
 Before you can use a wrapped Personal Folders file (PST) store provider, you must initialize and configure the wrapped PST store provider. After the wrapped PST store provider is configured, you must implement functions so that MAPI and the MAPI spooler can log on to the message store provider. For more information about initializing and logging on to a wrapped PST store provider, see [Initializing a Wrapped PST Store Provider](initializing-a-wrapped-pst-store-provider.md) and [Logging On to a Wrapped PST Store Provider](logging-on-to-a-wrapped-pst-store-provider.md).
@@ -24,21 +20,21 @@ In this topic, the **IMAPISupport::OpenProfileSection** function is demonstrated
   
 When you finish using a wrapped PST store provider, you must properly shut down the wrapped PST store provider. For more information, see [Shutting Down a Wrapped PST Store Provider](shutting-down-a-wrapped-pst-store-provider.md).
   
-## Open Profile Section Routine
+## Open Profile Section routine
 
 The **[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)** function opens a section of the current profile. The function requires special handling in the wrapped PST store provider implementation. When the  `pgNSTGlobalProfileSectionGuid` is requested, the function returns the profile section that is cached. 
   
-## CSupport::OpenProfileSection() Example
+### CSupport::OpenProfileSection() example
 
-```
+```cpp
 STDMETHODIMP CSupport::OpenProfileSection( 
     LPMAPIUID lpUid,     
     ULONG ulFlags, 
     LPPROFSECT * lppProfileObj) 
 { 
     Log(true,"CSupport::OpenProfileSection\n"); 
-    if (lpUid &amp;&amp;  
-        IsEqualMAPIUID(lpUid, (void *)&amp;pbNSTGlobalProfileSectionGuid) &amp;&amp;  
+    if (lpUid &&  
+        IsEqualMAPIUID(lpUid, (void *)&pbNSTGlobalProfileSectionGuid) &&  
         m_lpProfSect) 
     {      
         // Allow the opening of the Global Section 
@@ -55,15 +51,9 @@ STDMETHODIMP CSupport::OpenProfileSection(
 
 ## See also
 
-#### Concepts
-
-[About the Sample Wrapped PST Store Provider](about-the-sample-wrapped-pst-store-provider.md)
-  
-[Installing the Sample Wrapped PST Store Provider](installing-the-sample-wrapped-pst-store-provider.md)
-  
-[Initializing a Wrapped PST Store Provider](initializing-a-wrapped-pst-store-provider.md)
-  
-[Logging On to a Wrapped PST Store Provider](logging-on-to-a-wrapped-pst-store-provider.md)
-  
-[Shutting Down a Wrapped PST Store Provider](shutting-down-a-wrapped-pst-store-provider.md)
+- [About the Sample Wrapped PST Store Provider](about-the-sample-wrapped-pst-store-provider.md)
+- [Installing the Sample Wrapped PST Store Provider](installing-the-sample-wrapped-pst-store-provider.md)
+- [Initializing a Wrapped PST Store Provider](initializing-a-wrapped-pst-store-provider.md)
+- [Logging On to a Wrapped PST Store Provider](logging-on-to-a-wrapped-pst-store-provider.md)
+- [Shutting Down a Wrapped PST Store Provider](shutting-down-a-wrapped-pst-store-provider.md)
 

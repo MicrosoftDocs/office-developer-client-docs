@@ -16,7 +16,7 @@ description: "An enumeration for the free/busy status of free/busy blocks."
 
 An enumeration for the free/busy status of free/busy blocks.
   
-## Quick Info
+## Quick info
 
 ```
 enum  
@@ -35,7 +35,7 @@ The free/busy status of a block of time determines how it is displayed on a cale
   
 ## See also
 
-#### Concepts
+
 
 [FBBlock_1](fbblock_1.md)
   

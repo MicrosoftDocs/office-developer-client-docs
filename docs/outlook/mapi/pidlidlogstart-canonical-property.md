@@ -34,11 +34,11 @@ Represents the start date and time for the journal message.
    
 ## Remarks
 
-The time in Coordinated Universal Time (UTC) when the activity began must be equal to the **dispidCommonStart** ( [PidLidCommonStart](pidlidcommonstart-canonical-property.md)) property.
+The time in Coordinated Universal Time (UTC) when the activity began must be equal to the **dispidCommonStart** ([PidLidCommonStart](pidlidcommonstart-canonical-property.md)) property.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -48,7 +48,7 @@ The time in Coordinated Universal Time (UTC) when the activity began must be equ
   
 > Specifies the properties and operations that are permissible for journals.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

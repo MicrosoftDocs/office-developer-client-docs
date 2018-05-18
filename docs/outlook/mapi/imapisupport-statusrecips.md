@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Generates delivery and nondelivery reports.
   
-```
+```cpp
 HRESULT StatusRecips(
 LPMESSAGE lpMessage,
 LPADRLIST lpRecipList
@@ -55,7 +55,7 @@ MAPI_W_ERRORS_RETURNED
 
 The **IMAPISupport::StatusRecips** method is implemented for transport provider support objects. Transport providers call **StatusRecips** to request that MAPI send a delivery or nondelivery report to a set of one or more of the recipients of a message. 
   
-## Notes to Callers
+## Notes to callers
 
 You can call **StatusRecips** multiple times during the processing of a message. However, if you call **StatusRecips** for an open message, do your best to collect all delivery and nondelivery information for the message recipients and call **StatusRecips** for that recipient list. A single point of collection is important, because multiple **StatusRecips** calls for one recipient can result in multiple identical reports being sent. 
   
@@ -67,7 +67,7 @@ For an overview of delivery and nondelivery reports, see [MAPI Report Messages](
   
 ## See also
 
-#### Reference
+
 
 [ADRLIST](adrlist.md)
   

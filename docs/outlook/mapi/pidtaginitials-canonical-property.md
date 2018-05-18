@@ -35,9 +35,9 @@ Contains the initials for parts of the full name of the recipient.
 
 These properties provide identification and access information for a recipient. They are defined by the recipient and their organization.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -55,7 +55,7 @@ These properties provide identification and access information for a recipient. 
   
 > Specifies the offline address book (OAB) file formats for the local address book objects cache.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -67,7 +67,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

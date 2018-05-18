@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Displays a configuration property sheet.
   
-```
+```cpp
 HRESULT DoConfigPropsheet(
   ULONG_PTR ulUIParam,
   ULONG ulFlags,
@@ -73,13 +73,13 @@ The **IMAPISupport::DoConfigPropsheet** method is implemented for all support ob
   
 Service providers call **DoConfigPropSheet** as part of their implementation of the [IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md) method or from a button used to display details on properties. Message services call **DoConfigPropSheet** from their message service entry point function. 
   
-## Notes to Callers
+## Notes to callers
 
 You can create the display table pointed to by the  _lpDisplayTable_ parameter by calling the [BuildDisplayTable](builddisplaytable.md) function or with custom code. 
   
 ## See also
 
-#### Reference
+
 
 [BuildDisplayTable](builddisplaytable.md)
   

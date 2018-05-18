@@ -24,7 +24,7 @@ The MAPI common address dialog box can be used for a variety of addressing tasks
   
 1. Call [IAddrBook::GetPAB](iaddrbook-getpab.md) to retrieve the entry identifier of the PAB. 
     
-2. Create a property restriction that uses RELOP_EQ for the **relop** member of the [SPropertyRestriction](spropertyrestriction.md) structure and either **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)) or **PR_AB_PROVIDER_ID** ( [PidTagAbProviderId](pidtagabproviderid-canonical-property.md)) as the **ulPropTag** member. If you use **PR_ENTRYID**, pass the entry identifier retrieved from **GetPAB**. If you use **PR_AB_PROVIDER_ID**, pass the value included in the MSPAB.H header file. **PR_AB_PROVIDER_ID** is the unique identifier for the PAB designed by MAPI. 
+2. Create a property restriction that uses RELOP_EQ for the **relop** member of the [SPropertyRestriction](spropertyrestriction.md) structure and either **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) or **PR_AB_PROVIDER_ID** ([PidTagAbProviderId](pidtagabproviderid-canonical-property.md)) as the **ulPropTag** member. If you use **PR_ENTRYID**, pass the entry identifier retrieved from **GetPAB**. If you use **PR_AB_PROVIDER_ID**, pass the value included in the MSPAB.H header file. **PR_AB_PROVIDER_ID** is the unique identifier for the PAB designed by MAPI. 
     
 3. Call [IAddrBook::Address](iaddrbook-address.md) with the  _lpHierRestriction_ parameter pointing to the property restriction. 
     

@@ -29,9 +29,9 @@ Contains the URL of the proxy server that is used to connect Microsoft Outlook t
 |Property type:  <br/> |PT_UNICODE  <br/> |
 |Area:  <br/> |Miscellaneous  <br/> |
    
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -45,7 +45,7 @@ Contains the URL of the proxy server that is used to connect Microsoft Outlook t
   
 > Specifies the properties and operations that are permitted for email message objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -57,7 +57,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

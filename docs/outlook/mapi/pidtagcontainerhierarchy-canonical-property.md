@@ -37,19 +37,19 @@ This property can be excluded in [IMAPIProp::CopyTo](imapiprop-copyto.md) operat
   
 To retrieve table contents, a client application should call the [IMAPIContainer::GetHierarchyTable](imapicontainer-gethierarchytable.md) method. For more information, see [Hierarchy Tables](hierarchy-tables.md). 
   
- **PR_CONTAINER_CONTENTS** ( [PidTagContainerContents](pidtagcontainercontents-canonical-property.md)), **PR_FOLDER_ASSOCIATED_CONTENTS** ( [PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)), and this property are similar in usage. Several MAPI properties provide access to tables: 
+ **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)), **PR_FOLDER_ASSOCIATED_CONTENTS** ([PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)), and this property are similar in usage. Several MAPI properties provide access to tables: 
   
 |**Property**|**Table**|
 |:-----|:-----|
-|**PR_CONTAINER_CONTENTS** ( [PidTagContainerContents](pidtagcontainercontents-canonical-property.md))  <br/> |Contents table  <br/> |
+|**PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md))  <br/> |Contents table  <br/> |
 |**PR_CONTAINER_HIERARCHY** <br/> |Hierarchy table  <br/> |
-|**PR_FOLDER_ASSOCIATED_CONTENTS** ( [PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md))  <br/> |Associated contents table  <br/> |
-|**PR_MESSAGE_ATTACHMENTS** ( [PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md))  <br/> |Attachment table  <br/> |
-|**PR_MESSAGE_RECIPIENTS** ( [PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md))  <br/> |Recipient table  <br/> |
+|**PR_FOLDER_ASSOCIATED_CONTENTS** ([PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md))  <br/> |Associated contents table  <br/> |
+|**PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md))  <br/> |Attachment table  <br/> |
+|**PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md))  <br/> |Recipient table  <br/> |
    
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -63,7 +63,7 @@ To retrieve table contents, a client application should call the [IMAPIContainer
   
 > Converts between IETF RFC2445, RFC2446, and RFC2447, and appointment and meeting objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -75,7 +75,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

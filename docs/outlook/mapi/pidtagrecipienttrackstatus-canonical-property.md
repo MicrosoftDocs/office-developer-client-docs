@@ -42,9 +42,9 @@ If this value is not set, it must be assumed to be respNone. Otherwise, it must 
 |respAccepted  <br/> |0x00000003  <br/> |This value on the attendee's meeting object indicates that the attendee has accepted the meeting request object.  <br/> |
 |respDeclined  <br/> |0x00000004  <br/> |This value on the attendee's meeting object indicates that the attendee has declined the meeting request object.  <br/> |
    
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -58,7 +58,7 @@ If this value is not set, it must be assumed to be respNone. Otherwise, it must 
   
 > Handles message and attachment objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -70,7 +70,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

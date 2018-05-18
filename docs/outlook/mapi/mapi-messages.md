@@ -38,7 +38,7 @@ Message store providers support messages, attachments, and recipients through me
    
 ## See also
 
-#### Concepts
+
 
 [MAPI Application Development](mapi-application-development.md)
 

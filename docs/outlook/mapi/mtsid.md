@@ -29,7 +29,7 @@ Contains an X.400 message transport system (MTS) entry identifier.
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related macros:  <br/> |[CbMTSID](cbmtsid.md), [CbNewMTSID](cbnewmtsid.md) <br/> |
    
-```
+```cpp
 typedef struct
 {
   ULONG cb;
@@ -56,12 +56,12 @@ An MTS identifier has the same format as a MAPI entry identifier or a binary pro
   
 ## See also
 
-#### Reference
+
 
 [FLATENTRY](flatentry.md)
   
 [FLATMTSIDLIST](flatmtsidlist.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

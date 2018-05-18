@@ -16,7 +16,7 @@ description: "Specifies the secondary accountsendstamp for the message."
 
 Specifies the secondary account "send" stamp for the message.
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|
@@ -31,10 +31,10 @@ This property applies to a MAPI message object. For a received message, the seco
   
 ## See also
 
-#### Concepts
+
 
 [Constants (Account management API)](constants-account-management-api.md)
-#### Other resources
+
 
 [MAPI Properties](http://msdn.microsoft.com/library/3b980217-b65b-442b-8c18-b8b9f3ff487a%28Office.15%29.aspx)
   

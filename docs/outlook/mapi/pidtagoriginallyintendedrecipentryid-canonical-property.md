@@ -37,9 +37,9 @@ This property is one of the address properties for the originally intended messa
   
 This property corresponds to the X.400 report per-recipient attribute.
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -51,7 +51,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

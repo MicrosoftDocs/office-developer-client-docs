@@ -42,9 +42,9 @@ This property corresponds to the high / low / none filter setting. A value of "0
 |0x00000003  <br/> |High spam filtering  <br/> |
 |0x80000000  <br/> |Trusted Lists Only  <br/> |
    
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -54,7 +54,7 @@ This property corresponds to the high / low / none filter setting. A value of "0
   
 > Enables the handling of allow/block lists and the determination of junk e-mail messages.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -66,7 +66,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

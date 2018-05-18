@@ -31,7 +31,7 @@ Allows a Personal Folders file (PST) store provider to override the PSTDisableGr
 |Called by:  <br/> |Client  <br/> |
 |Interface identifier:  <br/> |IID_IPSTOVERRIDE1  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -47,7 +47,7 @@ For more information see [How to implement a PST override handler to bypass the 
   
 ## See also
 
-#### Reference
+
 
 [IPSTOVERRIDEREQ : IUnknown](ipstoverridereqiunknown.md)
 

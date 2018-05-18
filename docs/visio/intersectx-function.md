@@ -33,7 +33,7 @@ INTERSECTX( ** *x1* **, ** *y1* **, ** *angle1* **, ** *x2* **, ** *y2* **, ** *
 | _y2_ <br/> |Required  <br/> |**Number** <br/> |The  _y_-coordinate of a point on the second line.  <br/> |
 | _angle2_ <br/> |Required  <br/> |**Number** <br/> |The value of the Angle cell for the second line.  <br/> |
    
-### Return Value
+### Return value
 
 Number
   

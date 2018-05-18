@@ -28,7 +28,7 @@ Describes an **OR** restriction which is used to apply a logical **OR** operatio
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SOrRestriction
 {
   ULONG cRes;
@@ -53,10 +53,10 @@ For more information about the **SOrRestriction** structure, see [About Restrict
   
 ## See also
 
-#### Reference
+
 
 [SRestriction](srestriction.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

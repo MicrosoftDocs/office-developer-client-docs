@@ -47,7 +47,7 @@ This topic takes you through the steps to download and install the Sample Wrappe
     
 ## See also
 
-#### Concepts
+
 
 [About the Sample Wrapped PST Store Provider](about-the-sample-wrapped-pst-store-provider.md)
   

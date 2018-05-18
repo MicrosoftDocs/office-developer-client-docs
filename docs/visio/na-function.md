@@ -24,7 +24,7 @@ Use the NA function in a ShapeSheet cell where information is missing, so that t
 
 NA( )
   
-### Return Value
+### Return value
 
 String
   

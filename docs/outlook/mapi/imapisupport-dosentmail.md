@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Processes a sent message.
   
-```
+```cpp
 HRESULT DoSentMail(
   ULONG ulFlags,
   LPMESSAGE lpMessage
@@ -53,7 +53,7 @@ The **IMAPISupport::DoSentMail** method is implemented for message store provide
   
  **DoSentMail** performs the following tasks: 
   
-- Checks the message for the **PR_DELETE_AFTER_SUBMIT** ( [PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) property to determine whether the message should be deleted after sending.
+- Checks the message for the **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) property to determine whether the message should be deleted after sending.
     
 - Determines the location of the Sent Items folder.
     
@@ -65,7 +65,7 @@ The **IMAPISupport::DoSentMail** method is implemented for message store provide
     
 ## See also
 
-#### Reference
+
 
 [IMsgStore::FinishedMsg](imsgstore-finishedmsg.md)
   

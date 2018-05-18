@@ -30,7 +30,7 @@ The following illustration shows a high-level outline of the object hierarchy wi
   
 ## See also
 
-#### Concepts
+
 
 [Developing a MAPI Message Store Provider](developing-a-mapi-message-store-provider.md)
 

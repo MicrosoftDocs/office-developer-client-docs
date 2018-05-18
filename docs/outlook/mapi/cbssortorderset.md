@@ -29,7 +29,7 @@ Computes the number of bytes in an existing [SSortOrderSet](ssortorderset.md) st
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**SSortOrderSet** <br/> |
    
-```
+```cpp
 CbSSortOrderSet (_lpset)
 ```
 
@@ -41,10 +41,10 @@ CbSSortOrderSet (_lpset)
     
 ## See also
 
-#### Reference
+
 
 [SSortOrderSet](ssortorderset.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

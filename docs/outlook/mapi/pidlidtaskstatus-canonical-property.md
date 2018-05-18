@@ -38,15 +38,15 @@ The value of this property must be set to one of the following.
   
 |**Value**|**Description**|
 |:-----|:-----|
-|0x00000000  <br/> |The user has not started work on the task. If this value is set, **dispidPercentComplete** ( [PidLidPercentComplete](pidlidpercentcomplete-canonical-property.md)) must be 0.0.  <br/> |
+|0x00000000  <br/> |The user has not started work on the task. If this value is set, **dispidPercentComplete** ([PidLidPercentComplete](pidlidpercentcomplete-canonical-property.md)) must be 0.0.  <br/> |
 |0x00000001  <br/> |The user's work on this task is in progress. If this value is set, **dispidPercentComplete** must be greater than 0.0 and less than 1.0.  <br/> |
-|0x00000002  <br/> |The user's work on this task is complete. If this value is set, **dispidPercentComplete** must be 1.0, **dispidTaskDateCompleted** ( [PidLidTaskDateCompleted](pidlidtaskdatecompleted-canonical-property.md)) must be the current date, and **dispidTaskComplete** ( [PidLidTaskComplete](pidlidtaskcomplete-canonical-property.md)) must be TRUE.  <br/> |
+|0x00000002  <br/> |The user's work on this task is complete. If this value is set, **dispidPercentComplete** must be 1.0, **dispidTaskDateCompleted** ([PidLidTaskDateCompleted](pidlidtaskdatecompleted-canonical-property.md)) must be the current date, and **dispidTaskComplete** ([PidLidTaskComplete](pidlidtaskcomplete-canonical-property.md)) must be TRUE.  <br/> |
 |0x00000003  <br/> |The user is waiting on somebody else.  <br/> |
 |0x00000004  <br/> |The user has deferred work on the task.  <br/> |
    
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -76,7 +76,7 @@ The value of this property must be set to one of the following.
   
 > Handles the order and flow for data transfers between a client and server.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -84,14 +84,14 @@ Mapidefs.h
     
 ## See also
 
-#### Reference
+
 
 [PidLidPercentComplete Canonical Property](pidlidpercentcomplete-canonical-property.md)
   
 [PidLidTaskDateCompleted Canonical Property](pidlidtaskdatecompleted-canonical-property.md)
   
 [PidLidTaskComplete Canonical Property](pidlidtaskcomplete-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

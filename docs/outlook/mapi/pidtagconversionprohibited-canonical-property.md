@@ -31,9 +31,9 @@ Contains TRUE if message conversions are prohibited by default for the associate
 |Data type:  <br/> |PT_BOOLEAN  <br/> |
 |Area:  <br/> |Address  <br/> |
    
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -45,7 +45,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

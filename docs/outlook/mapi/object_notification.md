@@ -28,7 +28,7 @@ Contains information about an object that has undergone a change, such as being 
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _OBJECT_NOTIFICATION
 {
   ULONG cbEntryID;
@@ -171,12 +171,12 @@ For more information about notification, see the topics described in the followi
    
 ## See also
 
-#### Reference
+
 
 [NOTIFICATION](notification.md)
   
 [SPropTagArray](sproptagarray.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

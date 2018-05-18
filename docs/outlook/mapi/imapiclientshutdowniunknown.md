@@ -33,7 +33,7 @@ Enables a MAPI client to carry out fast shutdown of the client process.
 |Interface identifier:  <br/> |IID_IMAPIClientShutdown  <br/> |
 |Pointer type:  <br/> |LPMAPICLIENTSHUTDOWN  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -53,7 +53,7 @@ For more information about fast shutdown, see [Fast Shutdown Overview](fast-shut
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
   

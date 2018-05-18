@@ -41,9 +41,9 @@ This property must be set to one of the following values:
 |0x00040290  <br/> |This Sharing Message object relates to a special folder.  <br/> |
 |0x000402B0  <br/> |This Sharing Message object does not relate to a special folder.  <br/> |
    
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -53,7 +53,7 @@ This property must be set to one of the following values:
   
 > Shares mailbox folders between clients.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -61,7 +61,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

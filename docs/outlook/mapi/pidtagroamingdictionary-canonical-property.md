@@ -1,7 +1,5 @@
 ---
 title: "PidTagRoamingDictionary Canonical Property"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -18,8 +16,6 @@ description: "Last modified: March 09, 2015"
 
 # PidTagRoamingDictionary Canonical Property
 
-  
-  
 **Applies to**: Outlook 
   
 Contains an XML document that describes the roaming dictionary.
@@ -35,7 +31,7 @@ Contains an XML document that describes the roaming dictionary.
 
 This property contains a UNICODE XML document that is using UTF8 encoding. A message with a dictionary stream must set this property with the following schema:
   
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?> 
 <xs:schema targetNamespace="Dictionary.xsd" xmlns="Dictionary.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"> 
    <xs:element name="UserConfiguration"> 
@@ -51,7 +47,7 @@ This property contains a UNICODE XML document that is using UTF8 encoding. A mes
 
 The following is a sample XML document stored in this property on a Configuration Data message: 
   
-```
+```xml
 <?xml version="1.0"?> 
 <UserConfiguration> 
 <Info version="Outlook.12"/> 
@@ -63,9 +59,9 @@ The following is a sample XML document stored in this property on a Configuratio
 </UserConfiguration>
 ```
 
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -75,7 +71,7 @@ The following is a sample XML document stored in this property on a Configuratio
   
 > Specifies the location and properties of client and server configuration data, such as shared category lists and working hours.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -87,7 +83,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

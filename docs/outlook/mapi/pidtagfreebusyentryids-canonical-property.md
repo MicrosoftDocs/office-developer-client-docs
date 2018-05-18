@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Contains the **EntryIDs** for the delegate information message, the free/busy message of the logged in user, and the folder whose **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) is equal to "FreeBusy Data."
+Contains the **EntryIDs** for the delegate information message, the free/busy message of the logged in user, and the folder whose **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) is equal to "FreeBusy Data."
   
 |||
 |:-----|:-----|
@@ -31,9 +31,9 @@ Contains the **EntryIDs** for the delegate information message, the free/busy me
 |Data type:  <br/> |PT_MV_BINARY  <br/> |
 |Area:  <br/> |MAPI container  <br/> |
    
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -51,7 +51,7 @@ Contains the **EntryIDs** for the delegate information message, the free/busy me
   
 > Specifies the properties and operations for creating and locating the special folders in a mailbox.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -63,7 +63,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

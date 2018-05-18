@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Provides the property names that correspond to one or more property identifiers.
   
-```
+```cpp
 HRESULT GetNamesFromIDs(
   LPSPropTagArray FAR * lppPropTags,
   LPGUID lpPropSetGuid,
@@ -110,7 +110,7 @@ When there are no names to be returned, perhaps because there are no properties 
     
 - Sets the contents of  _lpppPropNames_ to NULL. 
     
-## Notes to Implementers
+## Notes to implementers
 
 If  _lpPropSetGuid_ points to a valid property set and  _lppPropTags_ is NULL, the result is undefined. You can use one of the following strategies: 
   
@@ -120,7 +120,7 @@ If  _lpPropSetGuid_ points to a valid property set and  _lppPropTags_ is NULL, t
     
 - Fail the call, returning MAPI_E_INVALID_PARAMETER. 
     
-## Notes to Callers
+## Notes to callers
 
 To retrieve all of the named properties for an object, you must first call the object's [IMAPIProp::GetPropList](imapiprop-getproplist.md) method and then pass the returned identifiers that are above the 0x8000 range to **GetNamesFromIDs**.
   
@@ -140,7 +140,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [GUID](guid.md)
   
@@ -155,7 +155,7 @@ For MFCMAPI sample code, see the following table.
 [SPropTagArray](sproptagarray.md)
   
 [IMAPIProp : IUnknown](imapipropiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
   

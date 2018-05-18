@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Ends synchronization in the current state and exits that state.
   
-```
+```cpp
 HRESULT SyncEnd();
 ```
 
@@ -34,7 +34,7 @@ The client must call **IOSTX::SyncEnd** for each call to [IOSTX::SyncBeg](iostx-
   
 ## See also
 
-#### Reference
+
 
 [IOSTX::GetLastError](iostx-getlasterror.md)
   
@@ -49,7 +49,7 @@ The client must call **IOSTX::SyncEnd** for each call to [IOSTX::SyncBeg](iostx-
 [IOSTX::SyncHdrEnd](iostx-synchdrend.md)
   
 [IOSTX : IUnknown](iostxiunknown.md)
-#### Concepts
+
 
 [MAPI Constants](mapi-constants.md)
 

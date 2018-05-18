@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Provides access to the receive folder table, a table that includes information about all of the receive folders for the message store.
   
-```
+```cpp
 HRESULT GetReceiveFolderTable(
   ULONG ulFlags,
   LPMAPITABLE FAR * lppTable );
@@ -58,13 +58,13 @@ S_OK
 
 The **IMsgStore::GetReceiveFolderTable** method provides access to a table that shows the property settings for all of the message store's receive folders. 
   
-## Notes to Implementers
+## Notes to implementers
 
 For a list of required columns in a receive folder table, see [Receive Folder Tables](receive-folder-tables.md). 
   
-Implement your receive folder tables to support setting property restrictions on the **PR_RECORD_KEY** ( [PidTagRecordKey](pidtagrecordkey-canonical-property.md)) property. This enables easy access to particular receive folders.
+Implement your receive folder tables to support setting property restrictions on the **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)) property. This enables easy access to particular receive folders.
   
-## Notes to Callers
+## Notes to callers
 
 Setting the MAPI_UNICODE flag in the  _ulFlags_ parameter affects the format of the columns returned from the [IMAPITable::QueryColumns](imapitable-querycolumns.md) and [IMAPITable::QueryRows](imapitable-queryrows.md) methods. This flag also controls the property types in the sort order returned by the [IMAPITable::QuerySortOrder](imapitable-querysortorder.md) method. 
   
@@ -78,7 +78,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPITable::QueryColumns](imapitable-querycolumns.md)
   
@@ -89,7 +89,7 @@ For MFCMAPI sample code, see the following table.
 [IMAPITable::SetColumns](imapitable-setcolumns.md)
   
 [IMsgStore : IMAPIProp](imsgstoreimapiprop.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

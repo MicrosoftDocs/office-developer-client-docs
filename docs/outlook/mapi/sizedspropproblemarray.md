@@ -1,7 +1,5 @@
 ---
 title: "SizedSPropProblemArray"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -18,8 +16,6 @@ description: "Last modified: March 09, 2015"
 
 # SizedSPropProblemArray
 
-  
-  
 **Applies to**: Outlook 
   
 Creates a named [SPropProblemArray](spropproblemarray.md) structure that contains a specified number of [SPropProblem](spropproblem.md) structures. 
@@ -29,17 +25,17 @@ Creates a named [SPropProblemArray](spropproblemarray.md) structure that contain
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**SPropProblemArray** <br/> |
    
-```
+```cpp
 SizedSPropProblemArray(_cprob, _name)
 ```
 
 ## Parameters
 
- __ cprob_
+__cprob_
   
 > Count of **SPropProblem** structures to be included in the new structure. 
     
- __ name_
+__name_
   
 > Name for the new structure.
     
@@ -47,18 +43,13 @@ SizedSPropProblemArray(_cprob, _name)
 
 Use the **SizedSPropProblemArray** macro to create a property problem array with explicit bounds. To use the new structure that results from the **SizedSPropProblemArray** macro as a pointer to an **SPropProblemArray** structure, perform the following cast: 
   
-```
-lpPropProbArray = (LPSPropProblemArray) &amp;SizedSPropProblemArray;
+```cpp
+lpPropProbArray = (LPSPropProblemArray) &SizedSPropProblemArray;
 ```
 
 ## See also
 
-#### Reference
-
-[SPropProblemArray](spropproblemarray.md)
-  
-[SPropProblem](spropproblem.md)
-#### Concepts
-
-[Macros Related to Structures](macros-related-to-structures.md)
+- [SPropProblemArray](spropproblemarray.md)
+- [SPropProblem](spropproblem.md)
+- [Macros Related to Structures](macros-related-to-structures.md)
 

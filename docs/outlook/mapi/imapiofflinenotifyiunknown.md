@@ -29,7 +29,7 @@ Supports Microsoft Outlook 2010 and Microsoft Outlook 2013 in sending notificati
 |Provided by:  <br/> |Client  <br/> |
 |Interface identifier:  <br/> |IID_IMAPIOfflineNotify  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -41,10 +41,10 @@ The client must implement this interface and pass a pointer to it as a member in
   
 ## See also
 
-#### Reference
+
 
 [IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)
-#### Concepts
+
 
 [About the Offline State API](about-the-offline-state-api.md)
   

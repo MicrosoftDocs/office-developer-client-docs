@@ -48,7 +48,7 @@ The other property sets hold named properties describing recipients that are typ
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Named Properties](mapi-named-properties.md)
 

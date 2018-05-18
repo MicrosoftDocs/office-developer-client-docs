@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Compares two entry identifiers that belong to a particular address book provider to determine whether they refer to the same address book object. 
   
-```
+```cpp
 HRESULT CompareEntryIDs(
   ULONG cbEntryID1,
   LPENTRYID lpEntryID1,
@@ -81,7 +81,7 @@ If the two entry identifiers refer to the same object, **CompareEntryIDs** sets 
   
 ## See also
 
-#### Reference
+
 
 [IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 

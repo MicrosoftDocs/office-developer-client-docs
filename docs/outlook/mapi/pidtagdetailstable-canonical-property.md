@@ -35,9 +35,9 @@ Contains an embedded display table object.
 
 Passing this property to the [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method for the object returns an [IMAPITable](imapitableiunknown.md) interface that allows creation of the display table. MAPI uses this table to display property sheets for an address book object in response to an [IAddrBook::Details](iaddrbook-details.md) call. 
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -49,12 +49,12 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagCreateTemplates Canonical Property](pidtagcreatetemplates-canonical-property.md)
   
 [PidTagSearch Canonical Property](pidtagsearch-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

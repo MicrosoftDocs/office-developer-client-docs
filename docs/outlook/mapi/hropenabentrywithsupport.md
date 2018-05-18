@@ -26,7 +26,7 @@ Do not use this function.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 HRESULT HrOpenABEntryWithSupport(
   LPMAPISUP lpSup,
   ULONG cbEntryID,

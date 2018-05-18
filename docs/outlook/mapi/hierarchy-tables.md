@@ -18,7 +18,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-A hierarchy table contains information about the folders in a message store or the containers in an address book container. Each row of a hierarchy table contains a set of columns with information about one folder or address book container. Hierarchy tables are primarily used by clients and implemented by message store providers to show a tree of folders and subfolders and implemented by address book providers to show a tree of containers in the address book. Containers that cannot hold subcontainers, as indicated by the absence of the AB_SUBCONTAINERS flag in their **PR_CONTAINER_FLAGS** ( [PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)) property, do not implement a hierarchy table.
+A hierarchy table contains information about the folders in a message store or the containers in an address book container. Each row of a hierarchy table contains a set of columns with information about one folder or address book container. Hierarchy tables are primarily used by clients and implemented by message store providers to show a tree of folders and subfolders and implemented by address book providers to show a tree of containers in the address book. Containers that cannot hold subcontainers, as indicated by the absence of the AB_SUBCONTAINERS flag in their **PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)) property, do not implement a hierarchy table.
   
 A hierarchy table can be accessed by calling:
   
@@ -26,7 +26,7 @@ A hierarchy table can be accessed by calling:
     
     - Or -
     
-- [IMAPIProp::OpenProperty](imapiprop-openproperty.md) passing **PR_CONTAINER_HIERARCHY** ( [PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) as the property tag and IID_IMAPITable as the interface identifier.
+- [IMAPIProp::OpenProperty](imapiprop-openproperty.md) passing **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) as the property tag and IID_IMAPITable as the interface identifier.
     
 Containers and folders must support both techniques for retrieving table properties. It is unacceptable for service providers to support only one way to access these tables because clients expect to have the choice. 
   
@@ -41,10 +41,10 @@ The following properties make up the required column set in a hierarchy table:
   
 |||
 |:-----|:-----|
-|**PR_COMMENT** ( [PidTagComment](pidtagcomment-canonical-property.md))  <br/> |**PR_DEPTH** ( [PidTagDepth](pidtagdepth-canonical-property.md))  <br/> |
-|**PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |**PR_DISPLAY_TYPE** ( [PidTagDisplayType](pidtagdisplaytype-canonical-property.md))  <br/> |
-|**PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |**PR_INSTANCE_KEY** ( [PidTagInstanceKey](pidtaginstancekey-canonical-property.md))  <br/> |
-|**PR_OBJECT_TYPE** ( [PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |**PR_STATUS** ( [PidTagStatus](pidtagstatus-canonical-property.md))  <br/> |
+|**PR_COMMENT** ([PidTagComment](pidtagcomment-canonical-property.md))  <br/> |**PR_DEPTH** ([PidTagDepth](pidtagdepth-canonical-property.md))  <br/> |
+|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |**PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))  <br/> |
+|**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |**PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md))  <br/> |
+|**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |**PR_STATUS** ([PidTagStatus](pidtagstatus-canonical-property.md))  <br/> |
    
  **PR_DISPLAY_NAME** contains the name for the container or folder that should appear in the display of the hierarchy. 
   
@@ -60,17 +60,17 @@ MAPI defines many values for **PR_DISPLAY_TYPE**, some that are valid for folder
   
 In addition to these required columns, address book hierarchy tables must include the **PR_CONTAINER_FLAGS** property. **PR_CONTAINER_FLAGS** indicates various attributes about a container in the hierarchy and is used to distinguish one container from another. 
   
-An optional property for address book hierarchy tables is the **PR_AB_PROVIDER_ID** ( [PidTagAbProviderId](pidtagabproviderid-canonical-property.md)) property.
+An optional property for address book hierarchy tables is the **PR_AB_PROVIDER_ID** ([PidTagAbProviderId](pidtagabproviderid-canonical-property.md)) property.
   
 Message-store hierarchy tables include these properties in their required column set:
   
-- **PR_FOLDER_TYPE** ( [PidTagFolderType](pidtagfoldertype-canonical-property.md))
+- **PR_FOLDER_TYPE** ([PidTagFolderType](pidtagfoldertype-canonical-property.md))
     
-- **PR_SUBFOLDERS** ( [PidTagSubfolders](pidtagsubfolders-canonical-property.md))
+- **PR_SUBFOLDERS** ([PidTagSubfolders](pidtagsubfolders-canonical-property.md))
     
-- **PR_CONTENT_COUNT** ( [PidTagContentCount](pidtagcontentcount-canonical-property.md))
+- **PR_CONTENT_COUNT** ([PidTagContentCount](pidtagcontentcount-canonical-property.md))
     
-- **PR_CONTENT_UNREAD** ( [PidTagContentUnreadCount](pidtagcontentunreadcount-canonical-property.md))
+- **PR_CONTENT_UNREAD** ([PidTagContentUnreadCount](pidtagcontentunreadcount-canonical-property.md))
     
 Address book providers must support the following **IMAPITable** methods in their hierarchy table implementations because they are required by the MAPI integrated address book: 
   
@@ -84,7 +84,7 @@ Address book providers must support the following **IMAPITable** methods in thei
    
 ## See also
 
-#### Concepts
+
 
 [MAPI Tables](mapi-tables.md)
 

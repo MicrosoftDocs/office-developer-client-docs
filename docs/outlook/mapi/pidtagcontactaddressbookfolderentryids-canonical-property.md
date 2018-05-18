@@ -35,9 +35,9 @@ Contains identifiers for the Contacts folders in the message stores where mail u
 
 This is a property on a Contact Address Book profile section.
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

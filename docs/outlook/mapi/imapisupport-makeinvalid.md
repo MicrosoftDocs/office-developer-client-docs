@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Marks an object as unusable.
   
-```
+```cpp
 HRESULT MakeInvalid(
 ULONG ulFlags,
 LPVOID lpObject,
@@ -63,7 +63,7 @@ The **IMAPISupport::MakeInvalid** method is implemented for all support objects.
   
  **MakeInvalid** marks an object as unusable by replacing the object's vtable with a stub vtable of similar size in which the **IUnknown::AddRef** and **IUnknown::Release** methods perform as expected. However, any other methods fail, returning the value MAPI_E_INVALID_OBJECT. 
   
-## Notes to Callers
+## Notes to callers
 
 Service providers and message services typically call **MakeInvalid** at shutdown time. However, **MakeInvalid** can be called at any time. For example, if a client releases an object without releasing some of its subobjects, you can call **MakeInvalid** immediately to release those subobjects. 
   
@@ -73,7 +73,7 @@ You can call **MakeInvalid** and then perform any shutdown work, such as discard
   
 ## See also
 
-#### Reference
+
 
 [MAPIAllocateBuffer](mapiallocatebuffer.md)
   

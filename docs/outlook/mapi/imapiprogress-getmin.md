@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns the minimum value in the [IMAPIProgress::SetLimits](imapiprogress-setlimits.md) method for which progress information is displayed. 
   
-```
+```cpp
 HRESULT GetMin(
   ULONG FAR * lpulMin
 );
@@ -48,7 +48,7 @@ The minimum value represents the start of the operation in numeric form. The val
   
 The value of the flag setting affects whether the progress object understands the minimum value to be local or global. When the MAPI_TOP_LEVEL flag is set, the minimum value is considered to be global and is used to calculate progress for the entire operation. When MAPI_TOP_LEVEL is not set, the minimum value is considered local, and providers use it internally to display progress for lower level subobjects. Progress objects save the local minimum value only to return it to a provider through a **GetMin** call. 
   
-## Notes to Implementers
+## Notes to implementers
 
 Initialize the minimum value to 1. Service providers can reset this value by calling the **IMAPIProgress::SetLimits** method. For more information about how to implement **GetMin** and the other [IMAPIProgress](imapiprogressiunknown.md) methods, see [Implementing a Progress Indicator](implementing-a-progress-indicator.md).
   
@@ -64,7 +64,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIProgress::GetMax](imapiprogress-getmax.md)
   
@@ -73,7 +73,7 @@ For MFCMAPI sample code, see the following table.
 [IMAPIProgress::SetLimits](imapiprogress-setlimits.md)
   
 [IMAPIProgress : IUnknown](imapiprogressiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
   

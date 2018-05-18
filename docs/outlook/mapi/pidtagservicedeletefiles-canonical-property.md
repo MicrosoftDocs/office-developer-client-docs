@@ -37,9 +37,9 @@ The filenames in the list contained in these properties are deleted from the com
   
 MAPI works only with filenames, and other strings passed to it, in the ANSI character set. Applications that use filenames in an OEM character set must convert them to ANSI before calling MAPI.
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -51,7 +51,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Returns the message's recipient table.
   
-```cs
+```cpp
 HRESULT GetRecipientTable(
   ULONG ulFlags,
   LPMAPITABLE FAR * lppTable
@@ -73,13 +73,13 @@ Setting the MAPI_UNICODE flag in the  _ulFlags_ parameter affects the following 
     
 Setting the Unicode flag requests that the information for any string columns returned from these calls be in Unicode format. However, because not all message store providers support Unicode, setting this flag is only a request.
   
-## Notes to Callers
+## Notes to callers
 
 You can change a recipient table while it is open by calling the [IMessage::ModifyRecipients](imessage-modifyrecipients.md) method. **ModifyRecipients** adds recipients, deletes recipients, or modifies recipient properties. 
   
 ## See also
 
-#### Reference
+
 
 [IMAPIProp::SaveChanges](imapiprop-savechanges.md)
   

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a row and the operation that is performed on that row in a table through the [IExchangeModifyTable](iexchangemodifytableiunknown.md) interface. 
   
-```
+```cpp
 typedef struct
 {
   ULONG         ulRowFlags;
@@ -73,12 +73,12 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [ROWENTRY](rowentry.md)
   
 [IExchangeModifyTable : IUnknown](iexchangemodifytableiunknown.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

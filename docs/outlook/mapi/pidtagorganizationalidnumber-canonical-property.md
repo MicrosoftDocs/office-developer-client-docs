@@ -35,9 +35,9 @@ Contains an organizational ID number for the contact, such as an employee ID num
 
 These are optional properties. Their use is determined by the messaging user or organization.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -51,7 +51,7 @@ These are optional properties. Their use is determined by the messaging user or 
   
 > Specifies the properties and operations for lists of users, contacts, groups, and resources.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -63,7 +63,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -32,7 +32,7 @@ Restrictions can be complex to implement; for more information, see [About Restr
   
 ## See also
 
-#### Concepts
+
 
 [Message Store Features](message-store-features.md)
 

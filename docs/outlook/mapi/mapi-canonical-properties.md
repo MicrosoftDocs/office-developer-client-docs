@@ -22,7 +22,7 @@ A canonical property is a virtual property that represents a MAPI property, or m
   
 ## Naming Conventions
 
-Canonical property names begin with a prefix, "Pid", which represents "property identifier." Depending on whether the property is a tagged property, a named property with a numerical identifier, or a named property with a string name, the prefix is further qualified as "PidTag," "PidLid," and "PidName" respectively. For example, [PidTagAccount](pidtagaccount-canonical-property.md) represents the tagged properties, **PR_ACCOUNT** ( [PidTagAccount](pidtagaccount-canonical-property.md)), **PR_ACCOUNT_A** ( [PidTagAccount](pidtagaccount-canonical-property.md)), and **PR_ACCOUNT_W** ( [PidTagAccount](pidtagaccount-canonical-property.md)), that specify a recipient's account name; [PidLidContacts](pidlidcontacts-canonical-property.md) represents the **dispidContacts** property, a named property that has a numerical identifier and that specifies the name of contacts associated with a message; and [PidNamePhishingStamp](pidnamephishingstamp-canonical-property.md) represents "http://schemas.microsoft.com/outlook/phishingstamp," a named property that has a string name, and that specifies the string marking messages that are likely to be phishing. 
+Canonical property names begin with a prefix, "Pid", which represents "property identifier." Depending on whether the property is a tagged property, a named property with a numerical identifier, or a named property with a string name, the prefix is further qualified as "PidTag," "PidLid," and "PidName" respectively. For example, [PidTagAccount](pidtagaccount-canonical-property.md) represents the tagged properties, **PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md)), **PR_ACCOUNT_A** ([PidTagAccount](pidtagaccount-canonical-property.md)), and **PR_ACCOUNT_W** ([PidTagAccount](pidtagaccount-canonical-property.md)), that specify a recipient's account name; [PidLidContacts](pidlidcontacts-canonical-property.md) represents the **dispidContacts** property, a named property that has a numerical identifier and that specifies the name of contacts associated with a message; and [PidNamePhishingStamp](pidnamephishingstamp-canonical-property.md) represents "http://schemas.microsoft.com/outlook/phishingstamp," a named property that has a string name, and that specifies the string marking messages that are likely to be phishing. 
   
 ## Representing Similar Properties Using One Canonical Property
 
@@ -30,7 +30,7 @@ Canonical property names begin with a prefix, "Pid", which represents "property 
 
 All properties in MAPI are identified by a property identifier that is an unsigned 16-bit value. The property identifier and the property type (another unsigned 16-bit value) constitute a property tag for the property. 
   
-MAPI uses a property tag to uniquely define properties. Properties that have the same property tag, like **PR_BUSINESS2_TELEPHONE_NUMBER** ( [PidTagBusiness2TelephoneNumber](pidtagbusiness2telephonenumber-canonical-property.md)) and **PR_OFFICE2_TELEPHONE_NUMBER** ( [PidTagBusiness2TelephoneNumber](pidtagbusiness2telephonenumber-canonical-property.md)), are considered identical properties in MAPI. For a list of property tags that MAPI has defined for its own properties, see the MAPI header file, Mapitags.h.
+MAPI uses a property tag to uniquely define properties. Properties that have the same property tag, like **PR_BUSINESS2_TELEPHONE_NUMBER** ([PidTagBusiness2TelephoneNumber](pidtagbusiness2telephonenumber-canonical-property.md)) and **PR_OFFICE2_TELEPHONE_NUMBER** ([PidTagBusiness2TelephoneNumber](pidtagbusiness2telephonenumber-canonical-property.md)), are considered identical properties in MAPI. For a list of property tags that MAPI has defined for its own properties, see the MAPI header file, Mapitags.h.
   
 Note that MAPI divides property identifiers into ranges. Where an identifier falls in the range indicates its use and ownership. The property identifiers of tagged properties fall in the range of 0x0001 to 0x7FFF. Within this range are the property identifiers of MAPI-defined properties, which fall in the range of 0x0001 to 0x3FFF. The property identifiers of named properties fall in the range from 0x8000 to 0x8FFF. 
   
@@ -72,7 +72,7 @@ Canonical names are referenced in Microsoft Exchange Server protocol specificati
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Property Tags](mapi-property-tags.md)
   

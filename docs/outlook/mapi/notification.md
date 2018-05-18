@@ -28,7 +28,7 @@ Contains information about an event that has occurred and the data that has been
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct
 {
   ULONG ulEventType;
@@ -119,7 +119,7 @@ For more information about notification, see the topics described in the followi
    
 ## See also
 
-#### Reference
+
 
 [ERROR_NOTIFICATION](error_notification.md)
   
@@ -132,7 +132,7 @@ For more information about notification, see the topics described in the followi
 [STATUS_OBJECT_NOTIFICATION](status_object_notification.md)
   
 [TABLE_NOTIFICATION](table_notification.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

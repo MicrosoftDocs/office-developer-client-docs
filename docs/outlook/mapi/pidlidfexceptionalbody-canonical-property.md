@@ -36,9 +36,9 @@ Indicates that the exception embedded message object has a body that differs fro
 
 If the value of this property is TRUE, then the exception embedded message object must have a body. If the value of this property is FALSE, or if the property does not exist, then a client or server must obtain the body from the recurring calendar object.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -48,7 +48,7 @@ If the value of this property is TRUE, then the exception embedded message objec
   
 > Specifies the properties and operations for appointment, meeting request, and response messages.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

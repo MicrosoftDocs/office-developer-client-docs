@@ -28,7 +28,7 @@ An array of entry identifiers representing MAPI object that uses the same implem
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef SBinaryArray ENTRYLIST, FAR *LPENTRYLIST;
 
 ```
@@ -39,12 +39,12 @@ See the **SBinaryArry** structure for members.
   
 ## See also
 
-#### Reference
+
 
 [ENTRYID](entryid.md)
   
 [SBinaryArray](sbinaryarray.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

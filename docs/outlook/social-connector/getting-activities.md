@@ -29,10 +29,10 @@ The OSC calls the [ISocialProvider::GetCapabilities](isocialprovider-getcapabili
   
 ## See also
 
-#### Concepts
+
 
 [XML for Capabilities](xml-for-capabilities.md)
-#### Other resources
+
 
 [OSC Typical Calling Sequences](osc-typical-calling-sequences.md)
 

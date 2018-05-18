@@ -29,7 +29,7 @@ Computes the number of bytes that should be allocated for a new [MTSID](mtsid.md
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**MTSID** <br/> |
    
-```
+```cpp
 CbNewMTSID (_cb)
 ```
 
@@ -41,10 +41,10 @@ CbNewMTSID (_cb)
     
 ## See also
 
-#### Reference
+
 
 [MTSID](mtsid.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

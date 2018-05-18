@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Sets the lower and upper limits for the number of items in the operation, and the flags that control how progress information is calculated for the operation.
   
-```
+```cpp
 HRESULT SetLimits(
   LPULONG lpulMin,
   LPULONG lpulMax,
@@ -76,7 +76,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIProgress::GetMax](imapiprogress-getmax.md)
   
@@ -85,7 +85,7 @@ For MFCMAPI sample code, see the following table.
 [IMAPIProgress::Progress](imapiprogress-progress.md)
   
 [IMAPIProgress : IUnknown](imapiprogressiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
   

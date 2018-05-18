@@ -61,12 +61,12 @@ For an example of activity feed XML, see [Activity Feed XML Example](activity-fe
   
 ## See also
 
-#### Concepts
+
 
 [XML for Activities](xml-for-activities.md)
   
 [Outlook Social Connector Provider XML Schema](outlook-social-connector-provider-xml-schema.md)
-#### Other resources
+
 
 [Developing a Provider with the OSC XML Schema](developing-a-provider-with-the-osc-xml-schema.md)
 

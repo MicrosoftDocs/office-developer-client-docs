@@ -57,7 +57,7 @@ MessageBox.Show("Current view name: " +
    this.CurrentView.ViewInfo.Name);
 ```
 
-```VB.net
+```vb
 MessageBox.Show("Current view name: " &amp; _
    Me.CurrentView.ViewInfo.Name)
 ```
@@ -68,7 +68,7 @@ All InfoPath form templates contain at least one default view; however, InfoPath
 this.ViewInfos.SwitchView("MySecondView");
 ```
 
-```VB.net
+```vb
 Me.ViewInfos.SwitchView("MySecondView")
 ```
 
@@ -78,7 +78,7 @@ The previous example for switching a view will work only after the form is opene
 this.ViewInfos.Initial = this.ViewInfos["MyInitialView"];
 ```
 
-```VB.net
+```vb
 Me.ViewInfos.Initial = Me.ViewInfos["MyInitialView"];
 ```
 

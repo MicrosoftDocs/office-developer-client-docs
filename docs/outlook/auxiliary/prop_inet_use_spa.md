@@ -16,7 +16,7 @@ description: "Specifies whether to use Secure Password Authentication (SPA) for 
 
 Specifies whether to use Secure Password Authentication (SPA) for a general Internet mailbox.
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|
@@ -31,7 +31,7 @@ A zero value means do not use SPA, otherwise use SPA.
   
 ## See also
 
-#### Concepts
+
 
 [Managing message downloads for POP3 accounts](managing-message-downloads-for-pop3-accounts.md)
   

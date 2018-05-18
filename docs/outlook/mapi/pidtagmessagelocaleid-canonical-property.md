@@ -31,9 +31,9 @@ Contains the Windows LCID of the end user who created this message.
 |Data type:  <br/> |PT_LONG  <br/> |
 |Area:  <br/> |Miscellaneous  <br/> |
    
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -43,7 +43,7 @@ Contains the Windows LCID of the end user who created this message.
   
 > Handles message and attachment objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -55,7 +55,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

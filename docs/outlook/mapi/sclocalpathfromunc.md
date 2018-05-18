@@ -30,7 +30,7 @@ Locates a local path counterpart to the given universal naming convention (UNC) 
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 SCODE ScLocalPathFromUNC(
   LPSTR szUNC,
   LPSTR szLocal,
@@ -72,7 +72,7 @@ MAPI_E_NOT_FOUND
     
 ## See also
 
-#### Reference
+
 
 [ScUNCFromLocalPath](scuncfromlocalpath.md)
 

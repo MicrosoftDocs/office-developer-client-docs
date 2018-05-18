@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Returns the types of recipients that the transport provider handles.
   
-```
+```cpp
 HRESULT AddressTypes(
   ULONG FAR * lpulFlags,
   ULONG FAR * lpcAdrType,
@@ -66,13 +66,13 @@ S_OK
   
 > The transport provider successfully indicated the types of recipients that it can handle.
     
-## Notes to Implementers
+## Notes to implementers
 
 The MAPI spooler calls the **IXPLogon::AddressTypes** method immediately after a transport provider returns from a call to the [IXPProvider::TransportLogon](ixpprovider-transportlogon.md) method so the transport provider can indicate what types of recipients it handles. To indicate this, the transport provider should pass back in the  _lpppszAdrTypeArray_ parameter a pointer to an array of pointers to strings, or pass back in the  _lpppUIDArray_ parameter a pointer to an array of pointers to **MAPIUID** structures, or pass values in both parameters. 
   
 These two arrays are used for different identification processes. MAPI and the MAPI spooler use the [MAPIUID](mapiuid.md) structures in the  _lpppUIDArray_ array to identify those recipient entry identifiers that are directly handled by the transport provider or by the messaging system to which the transport provider connects. Neither MAPI nor the MAPI spooler expands addresses by using entry identifiers contained in any of these **MAPIUID** structures; these structures are used only for recipient type identification. 
   
-The MAPI spooler uses each of the strings in the  _lpppszAdrTypeArray_ parameter for a comparison test when it decides which transport provider should handle which recipients for an outbound message. If a message recipient's **PR_ADDRTYPE** ( [PidTagAddressType](pidtagaddresstype-canonical-property.md)) property exactly matches a string that identifies one of the messaging address types that the transport provider supplies, the provider can deliver the message to that recipient.
+The MAPI spooler uses each of the strings in the  _lpppszAdrTypeArray_ parameter for a comparison test when it decides which transport provider should handle which recipients for an outbound message. If a message recipient's **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) property exactly matches a string that identifies one of the messaging address types that the transport provider supplies, the provider can deliver the message to that recipient.
   
 If multiple transport providers can handle the same type of recipient, MAPI selects a transport provider based on the transport priority order indicated in the client application's profile. To determine which transport provider to use, the MAPI spooler scans all provider-specified **MAPIUID** structures in priority order, and then all provider-specified address type values in priority order. The first transport provider to match a particular recipient in this scan gets the first opportunity to handle this recipient. If that provider does not handle the recipient, the MAPI spooler continues the scan to find a transport provider for any recipient not yet handled. The scan continues until no further matches are found, at which point a nondelivery report is generated for any recipient that was not handled. 
   
@@ -86,7 +86,7 @@ A transport provider that does not support outbound messages that are dispatched
   
 ## See also
 
-#### Reference
+
 
 [IXPLogon::TransportLogoff](ixplogon-transportlogoff.md)
   

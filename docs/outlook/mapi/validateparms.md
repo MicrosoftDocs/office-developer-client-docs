@@ -30,7 +30,7 @@ Calls an internal function to check the parameters client applications have pass
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Service providers  <br/> |
    
-```
+```cpp
 HRESULT ValidateParms(
   METHODS eMethod,
   LPVOID First
@@ -89,7 +89,7 @@ Inherited methods use the same parameter validation as the interface from which 
   
 ## See also
 
-#### Reference
+
 
 [UlValidateParms](ulvalidateparms.md)
 

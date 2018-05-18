@@ -18,7 +18,7 @@ description: "Last modified: March 09, 2015"
   
  This topic describes what happens during the idle state of the replication state machine. 
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Nothing happens in this state. A local store is in this state before replication
   
 ## See also
 
-#### Concepts
+
 
 [About the Replication API](about-the-replication-api.md)
   

@@ -29,7 +29,7 @@ Computes the number of bytes in an existing [ADRLIST](adrlist.md) structure.
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure  <br/> |**ADRLIST** <br/> |
    
-```
+```cpp
 CbADRLIST (_lpadrlist)
 ```
 
@@ -41,10 +41,10 @@ CbADRLIST (_lpadrlist)
     
 ## See also
 
-#### Reference
+
 
 [ADRLIST](adrlist.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

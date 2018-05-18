@@ -54,7 +54,7 @@ The following illustration shows the relationship between custom form components
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Object and Interface Overview](mapi-object-and-interface-overview.md)
 

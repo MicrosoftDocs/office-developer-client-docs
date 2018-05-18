@@ -40,10 +40,10 @@ The OSC stores the information returned by the  _personsCollection_ parameter in
   
 ## See also
 
-#### Reference
+
 
 [ISocialSession2 : IUnknown](isocialsession2iunknown.md)
-#### Concepts
+
 
 [Synchronizing Friends and Activities](synchronizing-friends-and-activities.md)
 

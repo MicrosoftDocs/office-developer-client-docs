@@ -30,7 +30,7 @@ Searches for a given property tag in an [IMAPIProp](imapipropiunknown.md) interf
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 BOOL FPropExists(
   LPMAPIPROP pobj,
   ULONG ulPropTag

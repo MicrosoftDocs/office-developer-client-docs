@@ -33,11 +33,11 @@ Contains TRUE if overlapping appointments are disallowed.
    
 ## Remarks
 
-This property is only meaningful when the value of the **PR_SCHDINFO_AUTO_ACCEPT_APPTS** ( [PidTagScheduleInfoAutoAcceptAppointments](pidtagscheduleinfoautoacceptappointments-canonical-property.md)) property is TRUE. A value of TRUE indicates that when automatically responding to meeting requests, a client or server must decline instances that overlap previously scheduled events. A value of FALSE or the absence of this property indicates that overlapping instances must be accepted. This is not a required property.
+This property is only meaningful when the value of the **PR_SCHDINFO_AUTO_ACCEPT_APPTS** ([PidTagScheduleInfoAutoAcceptAppointments](pidtagscheduleinfoautoacceptappointments-canonical-property.md)) property is TRUE. A value of TRUE indicates that when automatically responding to meeting requests, a client or server must decline instances that overlap previously scheduled events. A value of FALSE or the absence of this property indicates that overlapping instances must be accepted. This is not a required property.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -51,7 +51,7 @@ This property is only meaningful when the value of the **PR_SCHDINFO_AUTO_ACCEPT
   
 > Publishes the availability of a user or resource.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -63,7 +63,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

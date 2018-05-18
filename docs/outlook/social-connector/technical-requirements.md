@@ -54,12 +54,12 @@ There are no dependencies on an XML parser. The OSC provider can use an XML pars
   
 ## See also
 
-#### Concepts
+
 
 [Best Practices for Developing a Provider](best-practices-for-developing-a-provider.md)
   
 [Quick Steps for Learning to Develop a Provider](quick-steps-for-learning-to-develop-a-provider.md)
-#### Other resources
+
 
 [Deploying a Provider](deploying-a-provider.md)
   

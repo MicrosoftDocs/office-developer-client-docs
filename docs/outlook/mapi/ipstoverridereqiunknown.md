@@ -31,7 +31,7 @@ Accesses resources of a Personal Folders file (PST) store provider.
 |Called by:  <br/> |Client applications  <br/> |
 |Interface identifier:  <br/> |IID_IPSTOVERRIDEREQ  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -45,7 +45,7 @@ For more information see [How to implement a PST override handler to bypass the 
   
 ## See also
 
-#### Reference
+
 
 [IPSTOVERRIDE1 : IUnknown](ipstoverride1iunknown.md)
 

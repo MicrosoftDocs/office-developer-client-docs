@@ -34,7 +34,7 @@ Enables clients, service providers, and MAPI to work with properties. All object
 |Pointer type:  <br/> |LPMAPIPROP  <br/> |
 |Transaction model:  <br/> |Abstract class, never implemented  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -74,7 +74,7 @@ Enables clients, service providers, and MAPI to work with properties. All object
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
 

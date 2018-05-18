@@ -35,9 +35,9 @@ Contains an identifier for an appointment in the owner's schedule.
 
 This property is used in meeting requests. It does not represent an entry identifier, but a long integer that uniquely identifies the appointment within the sender's schedule.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -55,7 +55,7 @@ This property is used in meeting requests. It does not represent an entry identi
   
 > Encodes and decodes message and attachment objects to an efficient stream representation.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -67,10 +67,10 @@ mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagOriginalAuthorSearchKey Canonical Property](pidtagoriginalauthorsearchkey-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

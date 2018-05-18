@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Retrieves the property value of one or more properties of an object.
   
-```
+```cpp
 HRESULT GetProps(
   LPSPropTagArray lpPropTagArray,
   ULONG ulFlags,
@@ -97,7 +97,7 @@ If the  _lpPropTagArray_ parameter is set to NULL to retrieve all of the propert
     
  **GetProps** must not return multiple-value properties with **cValues** set to 0. 
   
-## Notes to Implementers
+## Notes to implementers
 
 Call the [MAPIAllocateBuffer](mapiallocatebuffer.md) function to allocate memory initially for the [SPropValue](spropvalue.md) structure pointed to by  _lpPropTagArray_; call [MAPIAllocateMore](mapiallocatemore.md) to allocate any additional memory needed for the structure's members. 
   
@@ -111,7 +111,7 @@ A remote transport provider's implementation of the **GetProps** method must ret
     
 - Ensure that the property type is set for all property tags passed to **GetProps**. The caller can pass in a property type of PT_UNSPECIFIED, in which case **GetProps** must set the correct property type for that property tag. 
     
-- Set the value of each property in the property value array according to its tag. For example, if the property tag requested by the caller is **PR_OBJECT_TYPE** ( [PidTagObjectType](pidtagobjecttype-canonical-property.md)), **GetProps** can set the value to MAPI_FOLDER. 
+- Set the value of each property in the property value array according to its tag. For example, if the property tag requested by the caller is **PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md)), **GetProps** can set the value to MAPI_FOLDER. 
     
 - If the caller passes in any property tags that your implementation does not handle, you can set the property tag to PT_ERROR for those properties, and set the property value to MAPI_E_NOT_FOUND.
     
@@ -119,27 +119,27 @@ A remote transport provider's implementation of the **GetProps** method must ret
     
 A remote transport provider's implementation of the **GetProps** method must support the following properties at a minimum: 
   
-- **PR_ACCESS** ( [PidTagAccess](pidtagaccess-canonical-property.md))
+- **PR_ACCESS** ([PidTagAccess](pidtagaccess-canonical-property.md))
     
-- **PR_ACCESS_LEVEL** ( [PidTagAccessLevel](pidtagaccesslevel-canonical-property.md))
+- **PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md))
     
-- **PR_ASSOC_CONTENT_COUNT** ( [PidTagAssociatedContentCount](pidtagassociatedcontentcount-canonical-property.md))
+- **PR_ASSOC_CONTENT_COUNT** ([PidTagAssociatedContentCount](pidtagassociatedcontentcount-canonical-property.md))
     
-- **PR_CONTENT_COUNT** ( [PidTagContentCount](pidtagcontentcount-canonical-property.md))
+- **PR_CONTENT_COUNT** ([PidTagContentCount](pidtagcontentcount-canonical-property.md))
     
-- **PR_CREATION_TIME** ( [PidTagCreationTime](pidtagcreationtime-canonical-property.md))
+- **PR_CREATION_TIME** ([PidTagCreationTime](pidtagcreationtime-canonical-property.md))
     
-- **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md))
+- **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))
     
-- **PR_DISPLAY_TYPE** ( [PidTagDisplayType](pidtagdisplaytype-canonical-property.md))
+- **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))
     
-- **PR_FOLDER_TYPE** ( [PidTagFolderType](pidtagfoldertype-canonical-property.md))
+- **PR_FOLDER_TYPE** ([PidTagFolderType](pidtagfoldertype-canonical-property.md))
     
 - **PR_OBJECT_TYPE**
     
-- **PR_SUBFOLDERS** ( [PidTagSubfolders](pidtagsubfolders-canonical-property.md))
+- **PR_SUBFOLDERS** ([PidTagSubfolders](pidtagsubfolders-canonical-property.md))
     
-## Notes to Callers
+## Notes to callers
 
 For properties of type PT_OBJECT, call the [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method instead of **GetProps**. 
   
@@ -171,7 +171,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIProp::GetPropList](imapiprop-getproplist.md)
   
@@ -188,7 +188,7 @@ For MFCMAPI sample code, see the following table.
 [SPropValue](spropvalue.md)
   
 [IMAPIProp : IUnknown](imapipropiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
   

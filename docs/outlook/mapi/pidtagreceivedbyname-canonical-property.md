@@ -35,9 +35,9 @@ Contains the display name of the messaging user who receives the message.
 
 These properties are an example of the address properties for the messaging user who receives the message. They must be set by the incoming transport provider.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -63,7 +63,7 @@ These properties are an example of the address properties for the messaging user
   
 > Encodes and decodes message and attachment objects to an efficient stream representation.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -75,10 +75,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagDisplayName Canonical Property](pidtagdisplayname-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

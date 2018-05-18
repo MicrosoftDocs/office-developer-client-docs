@@ -20,7 +20,7 @@ description: "Last modified: July 23, 2011"
   
 To issue a query that is meaningful to a custom message type, an application needs to know the properties that are expected on that message. To get a list of properties that a custom message class uses, a client application queries the MAPI form manager. The form manager gets this information from the appropriate form configuration file so that client applications can use this information without the overhead of activating the form server itself. To do this, the client application calls the [IMAPIFormMgr::ResolveMessageClass](imapiformmgr-resolvemessageclass.md) method as follows: 
   
-```
+```cpp
 IMAPIFormInfo *pfrminf = NULL;
 hr = pfrmmgr->ResolveMessageClass("IPM.Demo", 0L, NULL, &amp;pfrminf);
 
@@ -30,7 +30,7 @@ Note that the third argument to **ResolveMessageClass** is the folder that conta
   
 ## See also
 
-#### Concepts
+
 
 [Form Server Interactions](form-server-interactions.md)
 

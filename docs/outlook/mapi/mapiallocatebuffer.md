@@ -30,7 +30,7 @@ Allocates a memory buffer.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 SCODE MAPIAllocateBuffer(
   ULONG cbSize,
   LPVOID FAR * lppBuffer
@@ -61,7 +61,7 @@ Calling the [MAPIFreeBuffer](mapifreebuffer.md) function releases the memory buf
   
 ## See also
 
-#### Reference
+
 
 [MAPIReallocateBuffer](mapireallocatebuffer.md)
 

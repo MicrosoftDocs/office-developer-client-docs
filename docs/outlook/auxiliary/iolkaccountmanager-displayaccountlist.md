@@ -16,7 +16,7 @@ description: "Displays either the Account Settings or Add New Account dialog box
 
 Displays either the **Account Settings** or **Add New Account** dialog box. 
   
-## Quick Info
+## Quick info
 
 See [IOlkAccountManager](iolkaccountmanager.md).
   

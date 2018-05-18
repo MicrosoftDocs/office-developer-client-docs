@@ -38,9 +38,9 @@ To generate a keywords header field, clients must set the value of this property
   
 Multipurpose Internet Mail Extensions (MIME) writers should copy each sub-value of this property to a separate keyword in the Keywords header field, with a comma (U+002C) and space (U+0020) separating each keyword. MIME writers may drop this property instead of copying it to the keywords header field, in order to avoid conflict among different sets of categories in different organizations.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -50,7 +50,7 @@ Multipurpose Internet Mail Extensions (MIME) writers should copy each sub-value 
   
 > Converts from Internet standard e-mail conventions to message objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -58,7 +58,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

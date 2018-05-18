@@ -28,7 +28,7 @@ Describes a globally unique identifier (GUID).
 |:-----|:-----|
 |Header file:  <br/> |Mapiguid.h  <br/> |
    
-```
+```cpp
 typedef struct _GUID
 {
   unsigned long Data1;
@@ -75,10 +75,10 @@ The **GUID** structure is defined in the  *Win32 Programmer's Reference*  . Spec
   
 ## See also
 
-#### Reference
+
 
 [MAPIUID](mapiuid.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

@@ -32,7 +32,7 @@ Supported picture resources are in .bmp, .jpeg, or .png format.
   
 ## See also
 
-#### Reference
+
 
 [ISocialPerson : IUnknown](isocialpersoniunknown.md)
 

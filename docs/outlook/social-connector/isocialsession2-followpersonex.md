@@ -42,7 +42,7 @@ If the provider implements the [ISocialSession2](isocialsession2iunknown.md) int
   
 ## See also
 
-#### Reference
+
 
 [ISocialSession2 : IUnknown](isocialsession2iunknown.md)
 

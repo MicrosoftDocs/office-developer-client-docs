@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Starts a form to open an existing message.
   
-```
+```cpp
 HRESULT LoadForm(
   ULONG_PTR ulUIParam,
   ULONG ulFlags,
@@ -64,11 +64,11 @@ MAPIFORM_EXACTMATCH
     
  _ulMessageStatus_
   
-> [in] A bitmask of client-defined or provider-defined flags copied from the **PR_MSG_STATUS** ( [PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) property of the message that provides information about the state of the message. The  _ulMessageStatus_ parameter must be set if  _lpszMessageClass_ is non-NULL; otherwise,  _ulMessageStatus_ is ignored. 
+> [in] A bitmask of client-defined or provider-defined flags copied from the **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) property of the message that provides information about the state of the message. The  _ulMessageStatus_ parameter must be set if  _lpszMessageClass_ is non-NULL; otherwise,  _ulMessageStatus_ is ignored. 
     
  _ulMessageFlags_
   
-> [in] A pointer to a bitmask of flags copied from the **PR_MESSAGE_FLAGS** ( [PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property of the message that indicates the current state of the message. The  _ulMessageFlags_ parameter must be set if  _lpszMessageClass_ is non-NULL; otherwise,  _ulMessageFlags_ is ignored. 
+> [in] A pointer to a bitmask of flags copied from the **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property of the message that indicates the current state of the message. The  _ulMessageFlags_ parameter must be set if  _lpszMessageClass_ is non-NULL; otherwise,  _ulMessageFlags_ is ignored. 
     
  _pFolderFocus_
   
@@ -114,9 +114,9 @@ Form viewers call the **IMAPIFormMgr::LoadForm** method to open a form for an ex
   
 The  _pFolderFocus_ parameter points to the folder that contains the message. If the message is embedded in another message,  _pFolderFocus_ should be NULL. 
   
-## Notes to Implementers
+## Notes to implementers
 
-If NULL is passed in  _lpszMessageClass_, the implementation obtains the message's message class, status, and flags from the message's **PR_MESSAGE_CLASS** ( [PidTagMessageClass](pidtagmessageclass-canonical-property.md)), **PR_MSG_STATUS** and **PR_MESSAGE_FLAGS** properties. If a message class string is provided in  _lpszMessageClass_, the implementation must use the values in  _ulMessageStatus_ and  _ulMessageFlags_.
+If NULL is passed in  _lpszMessageClass_, the implementation obtains the message's message class, status, and flags from the message's **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)), **PR_MSG_STATUS** and **PR_MESSAGE_FLAGS** properties. If a message class string is provided in  _lpszMessageClass_, the implementation must use the values in  _ulMessageStatus_ and  _ulMessageFlags_.
   
 ## MFCMAPI Reference
 
@@ -128,7 +128,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [PidTagMessageClass Canonical Property](pidtagmessageclass-canonical-property.md)
   
@@ -137,7 +137,7 @@ For MFCMAPI sample code, see the following table.
 [PidTagMessageStatus Canonical Property](pidtagmessagestatus-canonical-property.md)
   
 [IMAPIFormMgr : IUnknown](imapiformmgriunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

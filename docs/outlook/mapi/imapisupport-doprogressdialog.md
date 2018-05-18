@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Retrieves a progress object that displays a progress indicator.
   
-```
+```cpp
 HRESULT DoProgressDialog(
   ULONG_PTR ulUIParam,
   ULONG ulFlags,
@@ -64,14 +64,14 @@ For information about how to use a progress object and the **IMAPIProgress** int
   
 ## See also
 
-#### Reference
+
 
 [IMAPIProgress : IUnknown](imapiprogressiunknown.md)
   
 [IMAPIProgress::Progress](imapiprogress-progress.md)
   
 [IMAPISupport : IUnknown](imapisupportiunknown.md)
-#### Concepts
+
 
 [Display a Progress Indicator](how-to-display-a-progress-indicator.md)
 

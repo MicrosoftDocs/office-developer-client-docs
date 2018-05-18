@@ -28,7 +28,7 @@ Conveys options to the [MAPIInitialize](mapiinitialize.md) function.
 |:-----|:-----|
 |Header file:  <br/> |MAPIX.H  <br/> |
    
-```
+```cpp
 typedef struct
 {
   ULONG ulVersion;
@@ -67,10 +67,10 @@ For more information about when to set this flag and how to implement thread saf
   
 ## See also
 
-#### Reference
+
 
 [MAPIInitialize](mapiinitialize.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

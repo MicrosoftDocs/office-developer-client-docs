@@ -37,9 +37,9 @@ This property, if set, is available on sent messages in the Sent Items folder.
   
 This property corresponds to the X.400 report per-message attribute.
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -51,7 +51,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

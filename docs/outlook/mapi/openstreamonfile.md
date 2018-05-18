@@ -30,7 +30,7 @@ Allocates and initializes an OLE **IStream** object to access the contents of a 
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 HRESULT STDMETHODCALLTYPE OpenStreamOnFile(
   LPALLOCATEBUFFER lpAllocateBuffer,
   LPFREEBUFFER lpFreeBuffer,
@@ -103,7 +103,7 @@ MAPI_E_NOT_FOUND
     
 ## Remarks
 
-The **OpenStreamOnFile** function has two important uses, distinguished by the setting of the SOF_UNIQUEFILENAME flag. When this flag is not set, **OpenStreamOnFile** opens an **IStream** object on an existing file, for example to copy its contents to the **PR_ATTACH_DATA_BIN** ( [PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) property of an attachment using the **IStream::CopyTo** method. In this case the  _lpszFileName_ parameter specifies the path and filename of the file. 
+The **OpenStreamOnFile** function has two important uses, distinguished by the setting of the SOF_UNIQUEFILENAME flag. When this flag is not set, **OpenStreamOnFile** opens an **IStream** object on an existing file, for example to copy its contents to the **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) property of an attachment using the **IStream::CopyTo** method. In this case the  _lpszFileName_ parameter specifies the path and filename of the file. 
   
 When SOF_UNIQUEFILENAME is set, **OpenStreamOnFile** creates a temporary file to hold data for an **IStream** object. For this usage, the  _lpszFileName_ parameter can optionally designate the path to the directory where the file is to be created, and the  _lpszPrefix_ parameter can optionally specify a prefix for the filename. 
   
@@ -111,7 +111,7 @@ When the calling client application or service provider is finished with the **I
   
 MAPI uses the functions pointed to by  _lpAllocateBuffer_ and  _lpFreeBuffer_ for most memory allocation and deallocation, in particular to allocate memory for use by client applications when calling object interfaces such as [IMAPIProp::GetProps](imapiprop-getprops.md) and [IMAPITable::QueryRows](imapitable-queryrows.md). 
   
-## Notes to Callers
+## Notes to callers
 
 The SOF_UNIQUEFILENAME flag is used to create a temporary file with a name unique to the messaging system. If this flag is set, the  _lpszFileName_ parameter specifes the path for the temporary file, and the  _lpszPrefix_ parameter contains the prefix characters of the filename. The constructed filename is <prefix>HHHH.TMP, where HHHH is a hexadecimal number. If  _lpszFileName_ is NULL, the file will be created in the temporary file directory that is returned from the Windows function **GetTempPath**, or the current directory if no temporary file directory has been designated. 
   
@@ -127,7 +127,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

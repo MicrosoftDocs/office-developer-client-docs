@@ -37,7 +37,7 @@ The procedures in this topic describe how to create a form template that works w
     
 ## See also
 
-#### Other resources
+
 
 [Walkthrough: Creating and Debugging a Basic Form Template Using the InfoPath 2003 Object Model](walkthrough-creating-and-debugging-a-basic-form-template-using-the-infopath-2003.md)
   

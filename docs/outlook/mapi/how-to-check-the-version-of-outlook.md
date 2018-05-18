@@ -1,28 +1,22 @@
 ---
-title: "Check the Version of Outlook"
+title: "Check the version of Outlook"
 manager: soliver
 ms.date: 12/7/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 672fc380-a29b-4e99-9211-949fd5065723
 description: "Last modified: December 07, 2015"
- 
- 
 ---
 
-# Check the Version of Outlook
+# Check the version of Outlook
 
- 
-  
 **Applies to**: Outlook 
   
 This topic provides a code sample that checks version information of installed versions of Microsoft Outlook if the installed version is Microsoft Outlook 2013, Microsoft Outlook 2010, Microsoft Office Outlook 2007, or Microsoft Outlook 2003. Checking the version of Outlook is sometimes necessary to ensure that a MAPI application calls API elements that are supported by the currently running version of Outlook.
-  
-## 
 
 The following code sample,  `PrintOutlookVersionString`, obtains full version strings by using the **MsiProvideQualifiedComponent** and **MsiGetFileVersion** functions, as declared in the Msi.h file in the Microsoft Windows Software Development Kit (SDK).  `PrintOutlookVersionString` also returns a pointer to a Boolean variable that indicates whether a 64-bit version of Outlook is installed. For information about the expected values for the different parts of a version string for some released versions of Outlook, see [How to determine Outlook version information](http://support.microsoft.com/kb/870929).
   
-```
+```cpp
 void PrintOutlookVersionString()
 {
 TCHAR pszOutlookQualifiedComponents[][MAX_PATH] = {
@@ -45,7 +39,7 @@ pszOutlookQualifiedComponents[i],
 TEXT("outlook.x64.exe"),
 (DWORD) INSTALLMODE_DEFAULT,
 NULL,
-&amp;dwValueBuf);
+&dwValueBuf);
 if (ERROR_SUCCESS == ret)
 {
 b64 = true;
@@ -57,7 +51,7 @@ pszOutlookQualifiedComponents[i],
 TEXT("outlook.exe"),
 (DWORD) INSTALLMODE_DEFAULT,
 NULL,
-&amp;dwValueBuf);
+&dwValueBuf);
 if (ERROR_SUCCESS == ret)
 {
 b64 = false;
@@ -74,13 +68,13 @@ pszOutlookQualifiedComponents[i],
 TEXT("outlook.exe"),
 (DWORD) INSTALLMODE_EXISTING,
 pszTempPath,
-&amp;dwValueBuf))
+&dwValueBuf))
 {
 pszTempVer = (LPTSTR) malloc(MAX_PATH * sizeof(TCHAR));
 dwValueBuf = MAX_PATH;
 if (ERROR_SUCCESS == pfnMsiGetFileVersion(pszTempPath,
 pszTempVer,
-&amp;dwValueBuf,
+&dwValueBuf,
 NULL,
 NULL))
 {
@@ -115,7 +109,7 @@ free(pszTempPath);
             TEXT("outlook.x64.exe"),
             (DWORD) INSTALLMODE_DEFAULT,
             NULL,
-            &amp;dwValueBuf);
+            &dwValueBuf);
         if (ERROR_SUCCESS == ret) break;
     }
     if (ret != ERROR_SUCCESS)
@@ -127,7 +121,7 @@ free(pszTempPath);
                 TEXT("outlook.exe"),
                 (DWORD) INSTALLMODE_DEFAULT,
                 NULL,
-                &amp;dwValueBuf);
+                &dwValueBuf);
             if (ERROR_SUCCESS == ret) break;
         }
     }
@@ -146,7 +140,7 @@ free(pszTempPath);
                 TEXT("outlook.exe"),
                 (DWORD) INSTALLMODE_EXISTING,
                 pszTempPath,
-                &amp;dwValueBuf)) != ERROR_SUCCESS)
+                &dwValueBuf)) != ERROR_SUCCESS)
             {
                 goto Error;
             }
@@ -154,7 +148,7 @@ free(pszTempPath);
             dwValueBuf = MAX_PATH;
             if ((ret = MsiGetFileVersion(pszTempPath,
                 pszTempVer,
-                &amp;dwValueBuf,
+                &dwValueBuf,
                 NULL,
                 NULL))!= ERROR_SUCCESS)
             {
@@ -175,7 +169,5 @@ Error:
 
 ## See also
 
-#### Concepts
-
-[MAPI Programming Overview](mapi-programming-overview.md)
+- [MAPI Programming Overview](mapi-programming-overview.md)
 

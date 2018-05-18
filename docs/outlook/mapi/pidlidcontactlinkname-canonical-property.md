@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Contains the elements of the **dispidContacts** ( [PidLidContacts](pidlidcontacts-canonical-property.md)) property.
+Contains the elements of the **dispidContacts** ([PidLidContacts](pidlidcontacts-canonical-property.md)) property.
   
 |||
 |:-----|:-----|
@@ -36,9 +36,9 @@ Contains the elements of the **dispidContacts** ( [PidLidContacts](pidlidcontact
 
 The elements in the **dispidContactLinkName** property are separated by a semicolon and a space ("; "). 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -48,7 +48,7 @@ The elements in the **dispidContactLinkName** property are separated by a semico
   
 > Handles message and attachment objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -26,7 +26,7 @@ Adds or moves columns to the beginning of an existing table.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers.  <br/> |
    
-```
+```cpp
 HRESULT HrAddColumns(
   LPMAPITABLE lptbl,
   LPSPropTagArray lpproptagColumnsNew,
@@ -65,7 +65,7 @@ The **HrAddColumns** function is equivalent to using **HrAddColumnsEx** with  _l
   
 ## See also
 
-#### Reference
+
 
 [HrAddColumnsEx](hraddcolumnsex.md)
   

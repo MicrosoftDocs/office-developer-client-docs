@@ -37,9 +37,9 @@ This property is one of the address properties for the recipient who the sender 
   
 A client application that must route reports to another user should set this property at message submission time. If it is not set, the reports are sent to the message sender.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -49,7 +49,7 @@ A client application that must route reports to another user should set this pro
   
 > Specifies the properties and operations that are permissible on e-mail messages.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -61,7 +61,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

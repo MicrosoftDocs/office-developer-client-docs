@@ -16,7 +16,7 @@ description: "Represents the server name of the SMTP account."
 
 Represents the server name of the SMTP account.
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|
@@ -27,7 +27,7 @@ Represents the server name of the SMTP account.
    
 ## See also
 
-#### Concepts
+
 
 [Managing message downloads for POP3 accounts](managing-message-downloads-for-pop3-accounts.md)
   

@@ -16,7 +16,7 @@ description: "Sets the range of time for an enumeration of free/busy blocks of d
 
 Sets the range of time for an enumeration of free/busy blocks of data for a user.
   
-## Quick Info
+## Quick info
 
 See [IFreeBusyData](ifreebusydata.md).
   
@@ -47,7 +47,7 @@ This method is used to indicate the time range of calendar items for which to re
   
 ## See also
 
-#### Concepts
+
 
 [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md)
   

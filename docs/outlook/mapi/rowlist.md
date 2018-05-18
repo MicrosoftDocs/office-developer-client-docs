@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an array of [ROWENTRY](rowentry.md) structures representing rows and the operations that are performed on those rows in a table through the [IExchangeModifyTable](iexchangemodifytableiunknown.md) interface. 
   
-```
+```cpp
 typedef struct
 {
   ULONG     cEntries;
@@ -53,12 +53,12 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [ROWENTRY](rowentry.md)
   
 [IExchangeModifyTable : IUnknown](iexchangemodifytableiunknown.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Registers a client or service provider to receive notifications about changes to one or more entries in the address book.
   
-```
+```cpp
 HRESULT Advise(
   ULONG cbEntryID,
   LPENTRYID lpEntryID,
@@ -100,7 +100,7 @@ For more information about the notification process, see [Event Notification in 
   
 ## See also
 
-#### Reference
+
 
 [HrThisThreadAdviseSink](hrthisthreadadvisesink.md)
   

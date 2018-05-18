@@ -26,7 +26,7 @@ Searches for a specified property in a property set.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers.  <br/> |
    
-```
+```cpp
 LPSPropValue LpValFindProp(
   ULONG ulPropTag,
   ULONG cValues,
@@ -58,7 +58,7 @@ The **LpValFindProp** function is identical to **PpropFindProp**.
   
 ## See also
 
-#### Reference
+
 
 [PpropFindProp](ppropfindprop.md)
   

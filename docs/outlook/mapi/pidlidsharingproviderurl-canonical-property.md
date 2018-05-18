@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Specifies the URL that is related to the sharing provider and identified by the **dispidSharingProviderGuid** ( [PidLidSharingProviderGuid](pidlidsharingproviderguid-canonical-property.md)) property. This is a property of a sharing message.
+Specifies the URL that is related to the sharing provider and identified by the **dispidSharingProviderGuid** ([PidLidSharingProviderGuid](pidlidsharingproviderguid-canonical-property.md)) property. This is a property of a sharing message.
   
 |||
 |:-----|:-----|
@@ -36,9 +36,9 @@ Specifies the URL that is related to the sharing provider and identified by the 
 
 This property is generally used to provide more information about the sharing provider, but should be ignored.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -48,7 +48,7 @@ This property is generally used to provide more information about the sharing pr
   
 > Shares mailbox folders between clients.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -83,9 +83,9 @@ DTCT_RADIOBUTTON
   
 > A dialog radio button.
     
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -97,7 +97,7 @@ mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

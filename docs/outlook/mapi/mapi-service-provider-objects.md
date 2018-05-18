@@ -50,7 +50,7 @@ Transport providers that support the Transport Neutral Encapsulation Format (TNE
   
 ## See also
 
-#### Reference
+
 
 [ITnef : IUnknown](itnefiunknown.md)
   
@@ -65,7 +65,7 @@ Transport providers that support the Transport Neutral Encapsulation Format (TNE
 [IXPProvider : IUnknown](ixpprovideriunknown.md)
   
 [IXPLogon : IUnknown](ixplogoniunknown.md)
-#### Concepts
+
 
 [Developing a TNEF-Enabled Transport Provider](developing-a-tnef-enabled-transport-provider.md)
 

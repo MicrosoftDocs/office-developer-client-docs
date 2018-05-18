@@ -28,7 +28,7 @@ Describes the print setup information for the form object.
 |:-----|:-----|
 |Header file:  <br/> |Mapiform.h  <br/> |
    
-```
+```cpp
 typedef struct
 {
   ULONG ulFlags;
@@ -76,14 +76,14 @@ Form viewers implementing **IMAPIViewContext** must allocate the **FORMPRINTSETU
   
 ## See also
 
-#### Reference
+
 
 [IMAPIViewContext::GetPrintSetup](imapiviewcontext-getprintsetup.md)
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
 [MAPIAllocateBuffer](mapiallocatebuffer.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

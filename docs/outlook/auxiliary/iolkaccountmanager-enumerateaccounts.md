@@ -16,7 +16,7 @@ description: "Gets an enumerator for the accounts of the specific category or ty
 
 Gets an enumerator for the accounts of the specific category or type.
   
-## Quick Info
+## Quick info
 
 See [IOlkAccountManager](iolkaccountmanager.md).
   
@@ -79,7 +79,7 @@ Specifying NULL for category returns an enumerator of all accounts of the specif
   
 ## See also
 
-#### Concepts
+
 
 [Constants (Account management API)](constants-account-management-api.md)
   

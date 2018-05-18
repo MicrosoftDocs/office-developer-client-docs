@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Sends a notification for a table row.
   
-```
+```cpp
 HRESULT HrNotify(
   ULONG ulFlags,
   ULONG cValues,
@@ -58,7 +58,7 @@ The **ITableData::HrNotify** method sends a TABLE_ROW_MODIFIED notification for 
   
 ## See also
 
-#### Reference
+
 
 [SPropValue](spropvalue.md)
   

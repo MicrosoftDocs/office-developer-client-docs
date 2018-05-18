@@ -30,7 +30,7 @@ Locates the first occurrence of a null-terminated substring in a null-terminated
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 LPSTR SzFindCh(
   LPCSTR lpsz,
   LPCSTR lpszKey

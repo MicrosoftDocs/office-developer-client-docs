@@ -37,9 +37,9 @@ To set the value of these properties, MIME clients should write the desired valu
   
 MIME readers should copy the value of a Content-Location header field on such a MIME entity to the value of these properties.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -49,7 +49,7 @@ MIME readers should copy the value of a Content-Location header field on such a 
   
 > Converts from Internet standard e-mail conventions to message objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -61,7 +61,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

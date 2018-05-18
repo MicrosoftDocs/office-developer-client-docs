@@ -29,7 +29,7 @@ Computes the number of bytes in an existing [SPropTagArray](sproptagarray.md) st
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**SPropTagArray** <br/> |
    
-```
+```cpp
 CbSPropTagArray (_lparray)
 ```
 
@@ -41,10 +41,10 @@ CbSPropTagArray (_lparray)
     
 ## See also
 
-#### Reference
+
 
 [SPropTagArray](sproptagarray.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

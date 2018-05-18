@@ -24,7 +24,7 @@ Version Added: Visio 2010
 
 LISTMEMBERCOUNT()
   
-### Return Value
+### Return value
 
 ShapeSheet reference
   

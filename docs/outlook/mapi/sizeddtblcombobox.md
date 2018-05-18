@@ -1,7 +1,5 @@
 ---
 title: "SizedDtblComboBox"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -17,9 +15,7 @@ description: "Last modified: March 09, 2015"
 ---
 
 # SizedDtblComboBox
-
-  
-  
+ 
 **Applies to**: Outlook 
   
 Creates a named structure that includes a [DTBLCOMBOBOX](dtblcombobox.md) structure for describing a combo box control and the maximum number of characters that can be entered in the associated edit control. 
@@ -29,17 +25,17 @@ Creates a named structure that includes a [DTBLCOMBOBOX](dtblcombobox.md) struct
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**DTBLCOMBOBOX** <br/> |
    
-```
+```cpp
 SizedDtblComboBox (n, u)
 ```
 
 ## Parameters
 
- _n_
+_n_
   
 > Number of characters that can be entered in the combo box's edit control. 
     
- _u_
+_u_
   
 > Name for the new structure.
     
@@ -47,7 +43,7 @@ SizedDtblComboBox (n, u)
 
 The **SizedDtblComboBox** macro lets you define a combo box when the length of the enabled character string is known. The new structure is created with the following members: 
   
-```
+```cpp
 DTBLCOMBOBOX dtblcombobox;
 TCHAR lpszCharsAllowed[n];
 
@@ -55,17 +51,13 @@ TCHAR lpszCharsAllowed[n];
 
 To use a pointer to the resulting structure from the **SizedDtblComboBox** macro as a **DTBLCOMBOBOX** structure pointer, perform the following cast: 
   
-```
-lpDtblComboBox = (LPDTBLCOMBOBOX) &amp;SizedDtblComboBox;
+```cpp
+lpDtblComboBox = (LPDTBLCOMBOBOX) &SizedDtblComboBox;
 
 ```
 
 ## See also
 
-#### Reference
-
-[DTBLCOMBOBOX](dtblcombobox.md)
-#### Concepts
-
-[Macros Related to Structures](macros-related-to-structures.md)
+- [DTBLCOMBOBOX](dtblcombobox.md)
+- [Macros Related to Structures](macros-related-to-structures.md)
 

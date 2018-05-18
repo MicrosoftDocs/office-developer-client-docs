@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns a pointer to the container's hierarchy table.
   
-```
+```cpp
 HRESULT GetHierarchyTable(
   ULONG ulFlags,
   LPMAPITABLE FAR * lppTable
@@ -77,19 +77,19 @@ The **IMAPIContainer::GetHierarchyTable** method returns a pointer to the hierar
   
 It is possible for some containers to have no child containers. These containers return MAPI_E_NO_SUPPORT from their implementations of **GetHierarchyTable**.
   
-When the CONVENIENT_DEPTH flag is set, each row in the hierarchy table also includes the **PR_DEPTH** ( [PidTagDepth](pidtagdepth-canonical-property.md)) property as a column. **PR_DEPTH** indicates the level of each container relative to the container that implements the table. The implementing container's immediate child containers are at depth zero, child containers in the zero depth containers are at depth one, and so on. The values of **PR_DEPTH** increase sequentially as the hierarchy of levels deepens. 
+When the CONVENIENT_DEPTH flag is set, each row in the hierarchy table also includes the **PR_DEPTH** ([PidTagDepth](pidtagdepth-canonical-property.md)) property as a column. **PR_DEPTH** indicates the level of each container relative to the container that implements the table. The implementing container's immediate child containers are at depth zero, child containers in the zero depth containers are at depth one, and so on. The values of **PR_DEPTH** increase sequentially as the hierarchy of levels deepens. 
   
 For a complete list of required and optional columns in hierarchy tables, see [Hierarchy Tables](hierarchy-tables.md).
   
-## Notes to Implementers
+## Notes to implementers
 
 If you support a hierarchy table for your container, you must also do the following:
   
-- Support a call to the container's [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method to open the **PR_CONTAINER_HIERARCHY** ( [PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) property.
+- Support a call to the container's [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method to open the **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) property.
     
 - Return **PR_CONTAINER_HIERARCHY** from a call to the container's [IMAPIProp::GetPropList](imapiprop-getproplist.md) or [IMAPIProp::GetProps](imapiprop-getprops.md) methods. 
     
-## Notes to Callers
+## Notes to callers
 
 String and binary contents table columns can be truncated. Typically, providers return 255 characters. Because you cannot know beforehand whether a table includes truncated columns, assume that a column is truncated if the length of the column is either 255 or 510 bytes. You can always retrieve the full value of a truncated column, if necessary, directly from the object by using its entry identifier to open it and then calling the [IMAPIProp::GetProps](imapiprop-getprops.md) method. 
   
@@ -105,7 +105,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIProp::GetPropList](imapiprop-getproplist.md)
   
@@ -116,7 +116,7 @@ For MFCMAPI sample code, see the following table.
 [PidTagContainerHierarchy Canonical Property](pidtagcontainerhierarchy-canonical-property.md)
   
 [IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

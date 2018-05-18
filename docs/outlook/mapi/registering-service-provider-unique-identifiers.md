@@ -46,7 +46,7 @@ When there are multiple logon objects that are concurrently active, it makes sen
   
 ## See also
 
-#### Concepts
+
 
 [Implementing Service Provider Logon](implementing-service-provider-logon.md)
 

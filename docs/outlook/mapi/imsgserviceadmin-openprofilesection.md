@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Opens a section of the current profile and returns an [IProfSect](iprofsectimapiprop.md) pointer for further access. 
   
-```
+```cpp
 HRESULT OpenProfileSection(
   LPMAPIUID lpUID,
   LPCIID lpInterface,
@@ -83,7 +83,7 @@ The **IMsgServiceAdmin::OpenProfileSection** method opens a profile section, an 
   
  **OpenProfileSection** cannot be used to open profile sections owned by individual service providers unless MAPI_FORCE_ACCESS is used. 
   
-## Notes to Callers
+## Notes to callers
 
 Multiple clients can open a profile section with read-only permission, but only one client can open a profile section with read/write permission. If another client has a profile section open that you attempt to open by calling **OpenProfileSection** with the MAPI_MODIFY flag set, the call will fail, returning MAPI_E_NO_ACCESS. 
   
@@ -101,7 +101,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIProp : IUnknown](imapipropiunknown.md)
   
@@ -112,7 +112,7 @@ For MFCMAPI sample code, see the following table.
 [MAPIUID](mapiuid.md)
   
 [IMsgServiceAdmin : IUnknown](imsgserviceadminiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

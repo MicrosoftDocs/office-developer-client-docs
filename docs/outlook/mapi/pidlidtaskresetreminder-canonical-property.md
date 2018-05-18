@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Indicates whether future instances of recurring tasks need reminders, even though **dispidReminderSet** ( [PidLidReminderSet](pidlidreminderset-canonical-property.md)) is FALSE.
+Indicates whether future instances of recurring tasks need reminders, even though **dispidReminderSet** ([PidLidReminderSet](pidlidreminderset-canonical-property.md)) is FALSE.
   
 |||
 |:-----|:-----|
@@ -38,9 +38,9 @@ This value is set to TRUE when the task's reminder is dismissed, and set to FALS
   
 As specified in [[MS-OXORMDR]](http://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx), the **dispidReminderSet** property indicates whether a reminder is set on the task. However, this property only indicates the presence of a reminder on a single task. It cannot be used alone to determine whether a future instance of a recurring task needs a reminder. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -54,7 +54,7 @@ As specified in [[MS-OXORMDR]](http://msdn.microsoft.com/library/5454ebcc-e5d1-4
   
 > Specifies the properties and the interaction model for e-mail and other object reminders.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -62,10 +62,10 @@ Mapidefs.h
     
 ## See also
 
-#### Reference
+
 
 [PidLidReminderSet Canonical Property](pidlidreminderset-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

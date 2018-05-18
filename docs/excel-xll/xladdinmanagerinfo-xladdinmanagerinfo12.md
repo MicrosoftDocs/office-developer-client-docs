@@ -63,7 +63,7 @@ LPXLOPER12 WINAPI xlAddInManagerInfo12(LPXLOPER12 xAction)
 ** string representing the long name. If it receives anything else, it
 ** returns a #VALUE! error.
 */
-    Excel12f(xlCoerce, &amp;xIntAction, 2, xAction, TempInt12(xltypeInt));
+    Excel12f(xlCoerce, &xIntAction, 2, xAction, TempInt12(xltypeInt));
     if(xIntAction.val.w == 1) 
     {
         xInfo.xltype = xltypeStr;
@@ -76,14 +76,14 @@ LPXLOPER12 WINAPI xlAddInManagerInfo12(LPXLOPER12 xAction)
     }
 // Word of caution - returning static XLOPERs/XLOPER12s is not thread safe
 // for UDFs declared as thread safe. Use alternate memory allocation mechanisms.
-    return (LPXLOPER12)&amp;xInfo;
+    return (LPXLOPER12)&xInfo;
 } 
 
 ```
 
 ## See also
 
-#### Concepts
+
 
 [Add-in Manager and XLL Interface Functions](add-in-manager-and-xll-interface-functions.md)
 

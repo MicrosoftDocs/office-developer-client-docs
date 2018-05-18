@@ -35,9 +35,9 @@ Set to TRUE when the meeting request has been processed.
 
 This property ensures that meeting requests get processed once. The creator of the request should set this property to FALSE and the receiver should set it to TRUE once the request is in the calendar.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -51,7 +51,7 @@ This property ensures that meeting requests get processed once. The creator of t
   
 > Specifies the properties and operations that are permissible for contact and personal distribution list objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -63,7 +63,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

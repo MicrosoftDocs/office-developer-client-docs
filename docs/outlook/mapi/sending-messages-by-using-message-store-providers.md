@@ -32,7 +32,7 @@ The **SetLockState** method is important for proper interoperation between the M
   
 Regardless of whether the MAPI spooler has locked an outgoing message, the message store provider should not allow a message in the outgoing message queue to be opened for writing. If a client calls the [IMSgStore::OpenEntry](imsgstore-openentry.md) method on an outgoing message with the MAPI_MODIFY flag, the call should fail and return MAPI_E_SUBMITTED. If a client application calls **OpenEntry** on an outgoing message with the MAPI_BEST_ACCESS flag, the message store provider should allow read-only access to the message. 
   
-When a message is to be handled by the MAPI spooler, the message store provider sets the message's **PR_SUBMIT_FLAGS** ( [PidTagSubmitFlags](pidtagsubmitflags-canonical-property.md)) property to SUBMITFLAG_LOCKED. The SUBMITFLAG_LOCKED value indicates that the MAPI spooler has locked the message for its exclusive use. The other value for **PR_SUBMIT_FLAGS**, SUBMITFLAG_PREPROCESS, is set when the message requires preprocessing by one or more preprocessor functions registered by a transport provider.
+When a message is to be handled by the MAPI spooler, the message store provider sets the message's **PR_SUBMIT_FLAGS** ([PidTagSubmitFlags](pidtagsubmitflags-canonical-property.md)) property to SUBMITFLAG_LOCKED. The SUBMITFLAG_LOCKED value indicates that the MAPI spooler has locked the message for its exclusive use. The other value for **PR_SUBMIT_FLAGS**, SUBMITFLAG_PREPROCESS, is set when the message requires preprocessing by one or more preprocessor functions registered by a transport provider.
   
 The following procedures describe how the message store, transport, and MAPI spooler interact to send a message from a client to one or more recipients. 
   
@@ -40,11 +40,11 @@ The client application calls the [IMessage::SubmitMessage](imessage-submitmessag
   
 1. Calls [IMAPISupport::PrepareSubmit](imapisupport-preparesubmit.md). If MAPI returns an error, the message store provider returns that error to the client.
     
-2. Sets the MSGFLAG_SUBMIT bit in the **PR_MESSAGE_FLAGS** ( [PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property of the message.
+2. Sets the MSGFLAG_SUBMIT bit in the **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property of the message.
     
-3. Ensures that there is a column for the **PR_RESPONSIBILITY** ( [PidTagResponsibility](pidtagresponsibility-canonical-property.md)) property in the recipient table and sets it to FALSE to indicate that no transport has yet assumed responsibility for transmitting the message.
+3. Ensures that there is a column for the **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) property in the recipient table and sets it to FALSE to indicate that no transport has yet assumed responsibility for transmitting the message.
     
-4. Sets the date and time of origination in the **PR_CLIENT_SUBMIT_TIME** ( [PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md)) property.
+4. Sets the date and time of origination in the **PR_CLIENT_SUBMIT_TIME** ([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md)) property.
     
 5. Calls [IMAPISupport::ExpandRecips](imapisupport-expandrecips.md) to do the following: 
     
@@ -52,7 +52,7 @@ The client application calls the [IMessage::SubmitMessage](imessage-submitmessag
     
 2. Remove duplicate names.
     
-3. Check for any required preprocessing and, if preprocessing is required, set the NEEDS_PREPROCESSING flag and the **PR_PREPROCESS** ( [PidTagPreprocess](pidtagpreprocess-canonical-property.md)) property, which is reserved for MAPI. 
+3. Check for any required preprocessing and, if preprocessing is required, set the NEEDS_PREPROCESSING flag and the **PR_PREPROCESS** ([PidTagPreprocess](pidtagpreprocess-canonical-property.md)) property, which is reserved for MAPI. 
     
 4. Set the NEEDS_SPOOLER flag if the message store is tightly coupled with a transport and it cannot handle all of the recipients. 
     
@@ -84,9 +84,9 @@ If there was no preprocessing, or there was preprocessing and the MAPI spooler c
     
   - Performs the following tasks if the message was not preprocessed or the message store provider does not want the MAPI spooler to complete message processing:
     
-1. Copies the message to the folder identified by the entry identifier in the **PR_SENTMAIL_ENTRYID** ( [PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) property, if set.
+1. Copies the message to the folder identified by the entry identifier in the **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) property, if set.
     
-2. Deletes the message if the **PR_DELETE_AFTER_SUBMIT** ( [PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) property has been set to TRUE.
+2. Deletes the message if the **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) property has been set to TRUE.
     
 3. Unlocks the message if it is locked.
     
@@ -118,7 +118,7 @@ If there was no preprocessing, or there was preprocessing and the MAPI spooler c
     
 ## See also
 
-#### Concepts
+
 
 [Message Store Features](message-store-features.md)
 

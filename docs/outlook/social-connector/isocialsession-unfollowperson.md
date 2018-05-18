@@ -34,7 +34,7 @@ If the Outlook Social Connector (OSC) provider has set **doNotFollowPerson** as 
   
 ## See also
 
-#### Reference
+
 
 [ISocialSession : IUnknown](isocialsessioniunknown.md)
 

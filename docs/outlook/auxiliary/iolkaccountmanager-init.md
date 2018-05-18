@@ -16,7 +16,7 @@ description: "Initializes the account manager for use."
 
 Initializes the account manager for use.
   
-## Quick Info
+## Quick info
 
 See [IOlkAccountManager](iolkaccountmanager.md).
   
@@ -58,7 +58,7 @@ The client must call **IOlkAccountManager::Init** to initialize the account mana
   
 ## See also
 
-#### Concepts
+
 
 [Constants (Account management API)](constants-account-management-api.md)
 

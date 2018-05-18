@@ -29,7 +29,7 @@ Describes a group box control that will be used in a dialog box built from a dis
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related macro:  <br/> |[SizedDtblGroupBox](sizeddtblgroupbox.md) <br/> |
    
-```
+```cpp
 typedef struct _DTBLGROUPBOX
 {
   ULONG ulbLpszLabel;
@@ -60,10 +60,10 @@ For an overview of display tables, see [Display Tables](display-tables.md). For 
   
 ## See also
 
-#### Reference
+
 
 [DTCTL](dtctl.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

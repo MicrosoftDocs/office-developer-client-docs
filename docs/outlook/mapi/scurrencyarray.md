@@ -28,7 +28,7 @@ Contains an array of currency values that are used to describe a property of typ
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SCurrencyArray
 {
   ULONG         cValues;
@@ -53,12 +53,12 @@ For information about PT_MV_CURRENCY, see [List of Property Types](property-type
   
 ## See also
 
-#### Reference
+
 
 [CURRENCY](currency.md)
   
 [SPropValue](spropvalue.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

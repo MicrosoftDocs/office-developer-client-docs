@@ -34,7 +34,7 @@ For detailed descriptions of child elements of the **capabilities** element, see
   
 ## See also
 
-#### Concepts
+
 
 [Capabilities XML Example](capabilities-xml-example.md)
   
@@ -43,7 +43,7 @@ For detailed descriptions of child elements of the **capabilities** element, see
 [XML for Friends](xml-for-friends.md)
   
 [XML for Activities](xml-for-activities.md)
-#### Other resources
+
 
 [Developing a Provider with the OSC XML Schema](developing-a-provider-with-the-osc-xml-schema.md)
 

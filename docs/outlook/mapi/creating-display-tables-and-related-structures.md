@@ -26,13 +26,13 @@ These structures relate directly to **BuildDisplayTable**; they have no meaning 
   
 Each **DTCTL** structure in a **DTPAGE** structure contains the following data that is used to set properties for the control: 
   
-- The control type for setting **PR_CONTROL_TYPE** ( [PidTagControlType](pidtagcontroltype-canonical-property.md)).
+- The control type for setting **PR_CONTROL_TYPE** ([PidTagControlType](pidtagcontroltype-canonical-property.md)).
     
-- Control flags for setting **PR_CONTROL_FLAGS** ( [PidTagControlFlags](pidtagcontrolflags-canonical-property.md)).
+- Control flags for setting **PR_CONTROL_FLAGS** ([PidTagControlFlags](pidtagcontrolflags-canonical-property.md)).
     
-- Notification data for setting **PR_CONTROL_ID** ( [PidTagControlId](pidtagcontrolid-canonical-property.md)).
+- Notification data for setting **PR_CONTROL_ID** ([PidTagControlId](pidtagcontrolid-canonical-property.md)).
     
-- The control structure for setting **PR_CONTROL_STRUCTURE** ( [PidTagControlStructure](pidtagcontrolstructure-canonical-property.md)).
+- The control structure for setting **PR_CONTROL_STRUCTURE** ([PidTagControlStructure](pidtagcontrolstructure-canonical-property.md)).
     
  **DTCTL** structures also contain a resource identifier and, for edit and combo box controls, a character filter. 
   
@@ -46,7 +46,7 @@ The relationship between the three types of display table structures is shown in
   
 ## See also
 
-#### Concepts
+
 
 [Display Table Implementation](display-table-implementation.md)
 

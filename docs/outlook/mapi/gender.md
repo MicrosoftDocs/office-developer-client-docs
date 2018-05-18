@@ -20,9 +20,9 @@ description: "Last modified: July 23, 2011"
   
 Specifies the possible values for the gender of a messaging user.
   
-## Quick Info
+## Quick info
 
-```
+```cpp
 enum Gender { 
     genderMin = 0, 
     genderUnspecified = genderMin, 
@@ -62,7 +62,7 @@ enum Gender {
     
 ## See also
 
-#### Reference
+
 
 [PidTagGender Canonical Property](pidtaggender-canonical-property.md)
 

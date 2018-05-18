@@ -34,7 +34,7 @@ This topic recommends best practices for administrators, MAPI clients, and MAPI 
     
 ## See also
 
-#### Concepts
+
 
 [Client Shutdown in MAPI](client-shutdown-in-mapi.md)
   

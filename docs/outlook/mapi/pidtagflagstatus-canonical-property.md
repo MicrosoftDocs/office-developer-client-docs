@@ -41,9 +41,9 @@ This property must not exist on a meeting-related object, and it should not exis
 |0x00000001  <br/> |followupComplete  <br/> |Flagged complete  <br/> |
 |0x00000002  <br/> |followupFlagged  <br/> |Flagged  <br/> |
    
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -53,7 +53,7 @@ This property must not exist on a meeting-related object, and it should not exis
   
 > Specifies the properties and operations related to flagging.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -65,7 +65,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

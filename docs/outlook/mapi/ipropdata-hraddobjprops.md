@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Adds one or more properties of type PT_OBJECT to the object.
   
-```
+```cpp
 HRESULT HrAddObjProps(
   LPSPropTagArray lpPropTagArray,
   LPSPropProblemArray FAR * lppProblems
@@ -63,7 +63,7 @@ MAPI_W_PARTIAL_COMPLETION
 
 The **IPropData::HrAddObjProps** method adds one or more properties of type PT_OBJECT to the object. **HrAddObjProps** provides an alternative to the [IMAPIProp::SetProps](imapiprop-setprops.md) method for object properties, because object properties cannot be created by calling **SetProps**. Adding an object property results in the property tag being included in the list of property tags that the [IMAPIProp::GetPropList](imapiprop-getproplist.md) method returns. 
   
-## Notes to Callers
+## Notes to callers
 
 If **HrAddObjProps** returns MAPI_W_PARTIAL_COMPLETION and you have set  _lppProblems_ to a valid pointer, check the returned [SPropProblemArray](spropproblemarray.md) structure to find out which properties were not added. Typically, the only problem that occurs is lack of memory. Free the **SPropProblemArray** structure by calling the [MAPIFreeBuffer](mapifreebuffer.md) function when you are finished with it. 
   
@@ -71,7 +71,7 @@ To add a property, the target object must have read/write permission. If **HrAdd
   
 ## See also
 
-#### Reference
+
 
 [MAPIFreeBuffer](mapifreebuffer.md)
   

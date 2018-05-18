@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns a form manager interface, which a form server can use to open another form server.
   
-```
+```cpp
 HRESULT GetFormManager(
   LPMAPIFORMMGR FAR * ppFormMgr
 );
@@ -56,12 +56,12 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [MAPIOpenFormMgr](mapiopenformmgr.md)
   
 [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
   

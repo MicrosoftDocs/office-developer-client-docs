@@ -28,7 +28,7 @@ Maps an enumerated integer value to a display name for that value.
 |:-----|:-----|
 |Header file:  <br/> |Mapiform.h  <br/> |
    
-```
+```cpp
 typedef struct _SMAPIFormPropEnumVal
 {
   LPSTR pszDisplayName;
@@ -53,12 +53,12 @@ When a user selects a display name from a form, the name's corresponding enumera
   
 ## See also
 
-#### Reference
+
 
 [SMAPIFormProp](smapiformprop.md)
   
 [SPropValue](spropvalue.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Opens the provider's status object.
   
-```
+```cpp
 HRESULT OpenStatusEntry(
   LPCIID lpInterface,
   ULONG ulFlags,
@@ -67,7 +67,7 @@ Address book providers implement the **OpenStatusEntry** method to grant access 
   
 ## See also
 
-#### Reference
+
 
 [IMAPIStatus : IMAPIProp](imapistatusimapiprop.md)
   

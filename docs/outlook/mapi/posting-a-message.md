@@ -34,13 +34,13 @@ Posting a message is similar to sending a message. The main difference is the de
     
   - The **PR_SENT_REPRESENTING** properties. 
     
-  - The **PR_RECEIPT_TIME** ( [PidTagReceiptTime](pidtagreceipttime-canonical-property.md)) property.
+  - The **PR_RECEIPT_TIME** ([PidTagReceiptTime](pidtagreceipttime-canonical-property.md)) property.
     
-  - The **PR_RTF_COMPRESSED** ( [PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) or **PR_BODY** ( [PidTagBody](pidtagbody-canonical-property.md)) property.
+  - The **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) or **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) property.
     
-  - The **PR_SUBJECT** ( [PidTagSubject](pidtagsubject-canonical-property.md)) property.
+  - The **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) property.
     
-  - The **PR_MESSAGE_CLASS** ( [PidTagMessageClass](pidtagmessageclass-canonical-property.md)) property.
+  - The **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) property.
     
   - Any properties required by the message class.
     

@@ -35,9 +35,9 @@ Contains a table that consists of all the system access control lists (SACL) app
 
 This property is present on all folder objects on an Exchange Server. Values included in this property are used for reading and modifying access control lists (ACLs) on folders. You can use the [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method with the **IID_IExchangeModifyTable** interface identifier to obtain an [IExchangeModifyTable : IUnknown](iexchangemodifytableiunknown.md) interface to the ACL table on a folder. You can use this interface to read and modify those ACLs. 
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

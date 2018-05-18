@@ -31,11 +31,11 @@ Specifies whether adding additional recipients, when forwarding the message, is 
    
 ## Remarks
 
-This property is set based on the e-mail message's **PR_SENSITIVITY** ( [PidTagSensitivity](pidtagsensitivity-canonical-property.md)) value. If **PR_SENSITIVITY** is set to "0x00000000" (normal) or "0x00000003" (confidential), this property must be set to "0x00" or absent meaning that adding additional or different recipients to the e-mail message is allowed. If the e-mail object's **PR_SENSITIVITY** is set to "0x00000001" (personal) or "0x00000002" (private), this property must be set "0x01" to prevent adding additional or different recipients of this e-mail through forwarding. 
+This property is set based on the e-mail message's **PR_SENSITIVITY** ([PidTagSensitivity](pidtagsensitivity-canonical-property.md)) value. If **PR_SENSITIVITY** is set to "0x00000000" (normal) or "0x00000003" (confidential), this property must be set to "0x00" or absent meaning that adding additional or different recipients to the e-mail message is allowed. If the e-mail object's **PR_SENSITIVITY** is set to "0x00000001" (personal) or "0x00000002" (private), this property must be set "0x01" to prevent adding additional or different recipients of this e-mail through forwarding. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -45,7 +45,7 @@ This property is set based on the e-mail message's **PR_SENSITIVITY** ( [PidTagS
   
 > Specifies the properties and operations that are permissible on e-mail messages.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -57,7 +57,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

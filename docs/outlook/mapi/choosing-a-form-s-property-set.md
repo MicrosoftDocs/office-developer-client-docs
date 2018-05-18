@@ -1,5 +1,5 @@
 ---
-title: "Choosing a Form's Property Set"
+title: "Choosing a form's property set"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,14 +8,10 @@ api_type:
 - COM
 ms.assetid: 5680fed2-b2e7-4c4b-9ba8-2c497b9c433c
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
-# Choosing a Form's Property Set
+# Choosing a form's property set
 
-  
-  
 **Applies to**: Outlook 
   
 When you implement your form server, you need to have a property for each piece of information that your message class needs. These properties can be predefined MAPI properties, or they can be custom properties that you define. For more information about working with properties, see [MAPI Property Overview](mapi-property-overview.md).
@@ -33,11 +29,9 @@ You can use either of the following ways to define custom properties:
 For more information about defining custom properties, see [Defining New MAPI Properties](defining-new-mapi-properties.md).
   
 > [!NOTE]
-> Form servers that have a message text often use the **PR_RTF_COMPRESSED** ( [PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) property to store it. If your form server uses **PR_RTF_COMPRESSED**, it should also ensure that the **PR_BODY** ( [PidTagBody](pidtagbody-canonical-property.md)) property contains a text-only version of the message text, in case the resulting message is read by a client that does not support Rich Text Format (RTF) message text. 
+> Form servers that have a message text often use the **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) property to store it. If your form server uses **PR_RTF_COMPRESSED**, it should also ensure that the **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) property contains a text-only version of the message text, in case the resulting message is read by a client that does not support Rich Text Format (RTF) message text. 
   
 ## See also
 
-#### Concepts
-
-[Developing MAPI Form Servers](developing-mapi-form-servers.md)
+- [Developing MAPI Form Servers](developing-mapi-form-servers.md)
 

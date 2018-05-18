@@ -39,9 +39,9 @@ The email client and server must generate a conflict resolve message when detect
     
 2. Higher CN GUID (using memory compare) to break tie.
     
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -51,7 +51,7 @@ The email client and server must generate a conflict resolve message when detect
   
 > Handles synchronizing messaging object data between a server and a client.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -63,7 +63,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

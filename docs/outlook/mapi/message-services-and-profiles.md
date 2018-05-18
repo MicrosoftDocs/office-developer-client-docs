@@ -58,10 +58,10 @@ The following illustration shows a profile that includes two message services. T
   
 ## See also
 
-#### Reference
+
 
 [MAPIUID](mapiuid.md)
-#### Concepts
+
 
 [MAPI Programming Overview](mapi-programming-overview.md)
 

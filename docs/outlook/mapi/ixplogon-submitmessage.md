@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Indicates that the MAPI spooler has a message for the transport provider to deliver.
   
-```
+```cpp
 HRESULT SubmitMessage(
   ULONG ulFlags,
   LPMESSAGE lpMessage,
@@ -103,7 +103,7 @@ The transport provider should not send any nontransmittable properties of the me
   
 During a **SubmitMessage** call, the MAPI spooler processes methods for objects that are opened during the transfer of the message, and it processes any attachments. This processing can take a long time. Transport providers can call the [IMAPISupport::SpoolerYield](imapisupport-spooleryield.md) method for the MAPI spooler frequently during this processing to release CPU time for other system tasks. 
   
-All message recipients are visible in the recipient table of the message that the MAPI spooler originally passed. The transport provider should process only those recipients that it can handle — based on entry identifier, address type, or both — and that do not already have their **PR_RESPONSIBILITY** ( [PidTagResponsibility](pidtagresponsibility-canonical-property.md)) property set to TRUE. If **PR_RESPONSIBILITY** is already set to TRUE, another transport provider has handled that recipient. When the provider completes sufficient processing of a recipient to determine whether it can handle messages for that recipient, it should set that recipient's **PR_RESPONSIBILITY** property to TRUE in the passed message. Usually, the provider makes this determination after message delivery is complete. 
+All message recipients are visible in the recipient table of the message that the MAPI spooler originally passed. The transport provider should process only those recipients that it can handle — based on entry identifier, address type, or both — and that do not already have their **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) property set to TRUE. If **PR_RESPONSIBILITY** is already set to TRUE, another transport provider has handled that recipient. When the provider completes sufficient processing of a recipient to determine whether it can handle messages for that recipient, it should set that recipient's **PR_RESPONSIBILITY** property to TRUE in the passed message. Usually, the provider makes this determination after message delivery is complete. 
   
 Typically, the transport provider does not return from a **SubmitMessage** call until it completes the transfer of message data. If no error is returned, the next call from the MAPI spooler to the provider is a call to the [IXPLogon::EndMessage](ixplogon-endmessage.md) method. 
   
@@ -113,7 +113,7 @@ In case of errors that occur because of transport problems, the MAPI spooler ret
   
 ## See also
 
-#### Reference
+
 
 [IMAPIProp::SaveChanges](imapiprop-savechanges.md)
   

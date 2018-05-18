@@ -33,15 +33,15 @@ Indicates the disposition of the receipt for messages that request receipts.
 
 The possible values for this property are "manual-action/MDN-sent-automatically" and "manual-action/MDN-sent-manually".
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]] 
   
 > Provides references to related Exchange Server protocol specifications.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -53,7 +53,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

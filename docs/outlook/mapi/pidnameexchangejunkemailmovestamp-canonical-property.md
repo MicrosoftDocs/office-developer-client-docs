@@ -36,9 +36,9 @@ Contains the persisted message value that indicates that the message should not 
 
 This property is stamped on every message that is moved by the Junk E-Mail Rule or is otherwise trusted content.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -52,7 +52,7 @@ This property is stamped on every message that is moved by the Junk E-Mail Rule 
   
 > Specifies the properties and operations that represent RSS items.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -60,7 +60,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

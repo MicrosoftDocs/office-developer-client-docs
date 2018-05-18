@@ -40,7 +40,7 @@ To open any lower level container, call **OpenEntry** and specify the entry iden
     
 3. If the container to be opened is of a specific type:
     
-  - Create an **SPropertyRestriction** structure with **PR_DISPLAY_TYPE** ( [PidTagDisplayType](pidtagdisplaytype-canonical-property.md)) for the property tag, the container's type for the property value, and RELOP_EQ for the relation. **PR_DISPLAY_TYPE** can be set to many values, among them: 
+  - Create an **SPropertyRestriction** structure with **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)) for the property tag, the container's type for the property value, and RELOP_EQ for the relation. **PR_DISPLAY_TYPE** can be set to many values, among them: 
     
   - DT_GLOBAL to limit the hierarchy table to containers that belong in the global address list.
     
@@ -56,9 +56,9 @@ To open any lower level container, call **OpenEntry** and specify the entry iden
     
 4. If the container to be opened belongs to a specific address book provider:
     
-  - Create an [SPropertyRestriction](spropertyrestriction.md) structure with **PR_AB_PROVIDERS** ( [PidTagAbProviders](pidtagabproviders-canonical-property.md)) for the property tag, a provider-specific value for the property value, and RELOP_EQ for the relation. Typically the provider-specific value is a globally unique identifier or GUID. You will find this value published in one of the address book provider's header files. 
+  - Create an [SPropertyRestriction](spropertyrestriction.md) structure with **PR_AB_PROVIDERS** ([PidTagAbProviders](pidtagabproviders-canonical-property.md)) for the property tag, a provider-specific value for the property value, and RELOP_EQ for the relation. Typically the provider-specific value is a globally unique identifier or GUID. You will find this value published in one of the address book provider's header files. 
     
-  - Create an [SPropTagArray](sproptagarray.md) structure that includes **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)), **PR_AB_PROVIDERS**, and any other columns of interest. 
+  - Create an [SPropTagArray](sproptagarray.md) structure that includes **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)), **PR_AB_PROVIDERS**, and any other columns of interest. 
     
   - Call [HrQueryAllRows](hrqueryallrows.md), passing your property restriction and property tag array. **HrQueryAllRows** will return zero rows if the specified address book provider is not in the profile. It can return one or more rows for the provider's top-level containers, depending on how the provider is organized. 
     

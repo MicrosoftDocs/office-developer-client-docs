@@ -36,9 +36,9 @@ Contains a RecurrencePattern structure that provides information about recurring
 
 For information about how to create and specify a RecurrencePattern structure, see [Create a Simple Recurrent Task Item](how-to-create-a-simple-recurrent-task-item.md).
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -56,7 +56,7 @@ For information about how to create and specify a RecurrencePattern structure, s
   
 > Specifies the properties and the interaction model for e-mail and other object reminders.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -64,7 +64,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

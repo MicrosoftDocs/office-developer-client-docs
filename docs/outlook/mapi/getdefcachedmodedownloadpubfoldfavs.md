@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates whether Cached Exchange Mode for the **Public Folder Favorites** folder is enabled, and whether this is enforced by policy. 
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|
@@ -28,7 +28,7 @@ Indicates whether Cached Exchange Mode for the **Public Folder Favorites** folde
 |Called by:  <br/> |Client  <br/> |
 |Implemented by:  <br/> |Outlook  <br/> |
    
-```
+```cpp
 BOOL GetDefCachedModeDownloadPubFoldFavs(BOOL *pfPolicy); 
 
 ```
@@ -51,7 +51,7 @@ BOOL GetDefCachedModeDownloadPubFoldFavs(BOOL *pfPolicy);
     
 ## See also
 
-#### Concepts
+
 
 [GetDefCachedMode](getdefcachedmode.md)
 

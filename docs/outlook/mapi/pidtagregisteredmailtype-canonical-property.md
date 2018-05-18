@@ -31,9 +31,9 @@ This property contains the type of registration used for physical delivery of a 
 |Data type:  <br/> |PT_LONG  <br/> |
 |Area:  <br/> |MAPI Recipient  <br/> |
    
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -45,7 +45,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

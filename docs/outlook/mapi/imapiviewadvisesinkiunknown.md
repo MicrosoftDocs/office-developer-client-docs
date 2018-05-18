@@ -33,7 +33,7 @@ Receives notifications from forms.
 |Interface identifier:  <br/> |IID_IMAPIViewAdviseSink  <br/> |
 |Pointer type:  <br/> |LPMAPIVIEWADVISESINK  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -45,7 +45,7 @@ Receives notifications from forms.
    
 ## See also
 
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
 

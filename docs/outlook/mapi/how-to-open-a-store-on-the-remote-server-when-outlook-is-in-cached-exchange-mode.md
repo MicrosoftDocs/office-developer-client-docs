@@ -39,15 +39,15 @@ HRESULT HrRemoteMessageStore(
     }; 
  
     //Obtain the table of all the message stores that are available 
-    hRes = lpMAPISession-&amp;gt;GetMsgStoresTable(0, &amp;amp;pStoresTbl); 
+    hRes = lpMAPISession-&gt;GetMsgStoresTable(0, &amp;pStoresTbl); 
      
-    if (SUCCEEDED(hRes) &amp;amp;&amp;amp; pStoresTbl) 
+    if (SUCCEEDED(hRes) &amp;&amp; pStoresTbl) 
     { 
         //Set up restrictions for the default store 
         sres.rt = RES_PROPERTY;                                  //Comparing a property 
         sres.res.resProperty.relop = RELOP_EQ;                   //Testing equality 
         sres.res.resProperty.ulPropTag = PR_DEFAULT_STORE;       //Tag to compare 
-        sres.res.resProperty.lpProp = &amp;amp;spv;                      //Prop tag and value to compare against 
+        sres.res.resProperty.lpProp = &amp;spv;                      //Prop tag and value to compare against 
      
         spv.ulPropTag = PR_DEFAULT_STORE;                        //Tag type 
         spv.Value.b   = TRUE;                                    //Tag value 
@@ -56,27 +56,27 @@ HRESULT HrRemoteMessageStore(
         //Only one message store should have PR_DEFAULT_STORE set to true, so that only one will be returned 
         hRes = HrQueryAllRows( 
             pStoresTbl,                                          //Table to query 
-            (LPSPropTagArray) &amp;amp;sptCols,                          //Which columns to obtain 
-            &amp;amp;sres,                                               //Restriction to use 
+            (LPSPropTagArray) &amp;sptCols,                          //Which columns to obtain 
+            &amp;sres,                                               //Restriction to use 
             NULL,                                                //No sort order 
             0,                                                   //Max number of rows (0 means no limit) 
-            &amp;amp;pRow);                                              //Array to return 
+            &amp;pRow);                                              //Array to return 
  
-        if (SUCCEEDED(hRes) &amp;amp;&amp;amp; pRow &amp;amp;&amp;amp; pRow-&amp;gt;cRows) 
+        if (SUCCEEDED(hRes) &amp;&amp; pRow &amp;&amp; pRow-&gt;cRows) 
         {     
             //Open the first returned (default) message store 
-            hRes = lpMAPISession-&amp;gt;OpenMsgStore( 
+            hRes = lpMAPISession-&gt;OpenMsgStore( 
                 NULL,                                                //Window handle for dialogs 
-                pRow-&amp;gt;aRow[0].lpProps[EID].Value.bin.cb,             //size and... 
-                (LPENTRYID)pRow-&amp;gt;aRow[0].lpProps[EID].Value.bin.lpb, //value of entry to open 
+                pRow-&gt;aRow[0].lpProps[EID].Value.bin.cb,             //size and... 
+                (LPENTRYID)pRow-&gt;aRow[0].lpProps[EID].Value.bin.lpb, //value of entry to open 
                 NULL,                                                //Use default interface (IMsgStore) to open store 
                 MAPI_BEST_ACCESS | MDB_ONLINE,                       //Flags 
-                &amp;amp;lpTempMDB);                                         //Pointer to put the store in 
-            if (SUCCEEDED(hRes) &amp;amp;&amp;amp; lppMDB) lppMDB* = lpTempMDB; 
+                &amp;lpTempMDB);                                         //Pointer to put the store in 
+            if (SUCCEEDED(hRes) &amp;&amp; lppMDB) lppMDB* = lpTempMDB; 
         } 
     } 
     FreeProws(pRow); 
-    if (pStoresTbl) pStoresTbl-&amp;gt;Release(); 
+    if (pStoresTbl) pStoresTbl-&gt;Release(); 
  
     return hRes; 
 }

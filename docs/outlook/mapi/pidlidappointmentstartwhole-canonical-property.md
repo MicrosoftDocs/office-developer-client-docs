@@ -34,11 +34,11 @@ Represents the date and time when an appointment begins.
    
 ## Remarks
 
-This property specifies the start date and time of the event. This property must be in Coordinated Universal Time (UTC) and must be less than the value of the **dispidApptEndWhole** ( [PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)) property. For a recurring series, this property is the start date and time of the first instance according to the recurrence pattern.
+This property specifies the start date and time of the event. This property must be in Coordinated Universal Time (UTC) and must be less than the value of the **dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)) property. For a recurring series, this property is the start date and time of the first instance according to the recurrence pattern.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -48,7 +48,7 @@ This property specifies the start date and time of the event. This property must
   
 > Specifies the properties and operations for appointment, meeting request, and response messages.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

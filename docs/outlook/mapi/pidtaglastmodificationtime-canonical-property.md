@@ -33,11 +33,11 @@ Contains the date and time when the object or subobject was last modified.
    
 ## Remarks
 
-This property is initially set to the same value as the **PR_CREATION_TIME** ( [PidTagCreationTime](pidtagcreationtime-canonical-property.md)) property. Attachment subobjects can update it as necessary by copying the last modification time maintained by the native file system. A client application can set this property until the first call to the [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method. From then on the provider should update **PR_LAST_MODIFICATION_TIME** during every **IMAPIProp::SaveChanges** call. 
+This property is initially set to the same value as the **PR_CREATION_TIME** ([PidTagCreationTime](pidtagcreationtime-canonical-property.md)) property. Attachment subobjects can update it as necessary by copying the last modification time maintained by the native file system. A client application can set this property until the first call to the [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method. From then on the provider should update **PR_LAST_MODIFICATION_TIME** during every **IMAPIProp::SaveChanges** call. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -51,7 +51,7 @@ This property is initially set to the same value as the **PR_CREATION_TIME** ( [
   
 > Specifies the properties and operations for lists of users, contacts, groups, and resources.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -63,7 +63,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

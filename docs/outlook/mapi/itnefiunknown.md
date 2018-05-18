@@ -33,7 +33,7 @@ Provides methods for encapsulating MAPI properties that are not supported by a m
 |Interface identifier:  <br/> |IID_ITNEF  <br/> |
 |Pointer type:  <br/> |LPTNEF  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -47,7 +47,7 @@ Provides methods for encapsulating MAPI properties that are not supported by a m
    
 ## See also
 
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
 

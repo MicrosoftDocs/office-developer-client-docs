@@ -28,7 +28,7 @@ Describes a content restriction, which is used to limit a table view to only tho
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SContentRestriction
 {
   ULONG        ulFuzzyLevel;
@@ -94,12 +94,12 @@ For more information about the **SContentRestriction** structure and restriction
   
 ## See also
 
-#### Reference
+
 
 [SPropValue](spropvalue.md)
   
 [SRestriction](srestriction.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

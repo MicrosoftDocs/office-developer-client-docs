@@ -30,7 +30,7 @@ Outlook Social Connector (OSC) providers should localize the social network name
   
 ## See also
 
-#### Reference
+
 
 [ISocialProvider : IUnknown](isocialprovideriunknown.md)
 

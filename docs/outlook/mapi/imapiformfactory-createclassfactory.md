@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Returns a class factory object for the form.
   
-```
+```cpp
 HRESULT CreateClassFactory(
   REFCLSID clsidForm,
   ULONG ulFlags,
@@ -58,7 +58,7 @@ Form viewers call the **IMAPIFormFactory::CreateClassFactory** method to obtain 
   
 The **CreateClassFactory** method is called by form viewers to obtain a class factory object for form servers that implement multiple message classes. This method receives a class identifier (CLSID) as a parameter. Based on that parameter, this method can determine the specific kind of class factory object to return. 
   
-## Notes to Implementers
+## Notes to implementers
 
 You can return from your **CreateClassFactory** implementation the same class factory object on multiple calls for the same class identifier. Creating a new class factory instance is not required. 
   
@@ -66,7 +66,7 @@ You can have a single class factory implementation that creates appropriate clas
   
 ## See also
 
-#### Reference
+
 
 [IMAPIFormFactory : IUnknown](imapiformfactoryiunknown.md)
 

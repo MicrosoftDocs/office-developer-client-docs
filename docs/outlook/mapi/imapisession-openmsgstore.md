@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Opens a message store and returns an [IMsgStore](imsgstoreimapiprop.md) pointer for further access. 
   
-```
+```cpp
 HRESULT OpenMsgStore(
   ULONG_PTR ulUIParam,
   ULONG cbEntryID,
@@ -119,13 +119,13 @@ MAPI_W_ERRORS_RETURNED
 
 The **IMAPISession::OpenMsgStore** method opens a particular message store. 
   
-## Notes to Callers
+## Notes to callers
 
 The default permission level for message stores is read-only. If you set the MDB_WRITE flag, you still might not be granted read/write permission. The final level of access that MAPI assigns to the message store depends on your permission level, the message store itself, and the message store provider. 
   
 If you call **OpenMsgStore** to open a message store with read-only permission, the following will occur: 
   
-- The store's **PR_STORE_SUPPORT_MASK** ( [PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) property will not have its STORE_MODIFY_OK and STORE_CREATE_OK bits set. 
+- The store's **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) property will not have its STORE_MODIFY_OK and STORE_CREATE_OK bits set. 
     
 - Calls to open one of the message store's messages or folders by using [IMAPISession::OpenEntry](imapisession-openentry.md) with the MAPI_MODIFY flag set will fail. 
     
@@ -166,7 +166,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMsgStore : IMAPIProp](imsgstoreimapiprop.md)
   
@@ -177,7 +177,7 @@ For MFCMAPI sample code, see the following table.
 [IMAPIProp::OpenProperty](imapiprop-openproperty.md)
   
 [IMAPISession : IUnknown](imapisessioniunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
   

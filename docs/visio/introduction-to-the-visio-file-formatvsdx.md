@@ -230,7 +230,7 @@ In the following code sample, you can see how to open a .vsdx file, read the lis
   }
   ```
 
-  ```VB.net
+  ```vb
   Imports System
   Imports System.Collections.Generic
   Imports System.Linq

@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Retrieves a table row.
   
-```
+```cpp
 HRESULT HrQueryRow(
   LPSPropValue lpSPropValue,
   LPSRow FAR * lppSRow,
@@ -64,7 +64,7 @@ Because **HrQueryRow** does not modify the **SPropValue** structure pointed to b
   
 ## See also
 
-#### Reference
+
 
 [MAPIAllocateBuffer](mapiallocatebuffer.md)
   

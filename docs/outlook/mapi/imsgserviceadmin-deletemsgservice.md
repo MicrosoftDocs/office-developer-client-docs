@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Deletes a message service from a profile.
   
-```
+```cpp
 HRESULT DeleteMsgService(
   LPMAPIUID lpuid
 );
@@ -60,9 +60,9 @@ The **IMsgServiceAdmin::DeleteMsgService** method deletes a message service from
     
 The message service's entry point function is not called again after the service has been deleted.
   
-## Notes to Callers
+## Notes to callers
 
-To retrieve the **MAPIUID** structure for the message service to delete, retrieve the **PR_SERVICE_UID** ( [PidTagServiceUid](pidtagserviceuid-canonical-property.md)) property column from the message service's row in the message service table. For more information, see the procedure outlined in the [IMsgServiceAdmin::CreateMsgService](imsgserviceadmin-createmsgservice.md) method. 
+To retrieve the **MAPIUID** structure for the message service to delete, retrieve the **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) property column from the message service's row in the message service table. For more information, see the procedure outlined in the [IMsgServiceAdmin::CreateMsgService](imsgserviceadmin-createmsgservice.md) method. 
   
 ## MFCMAPI Reference
 
@@ -74,12 +74,12 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [MAPIUID](mapiuid.md)
   
 [IMsgServiceAdmin : IUnknown](imsgserviceadminiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

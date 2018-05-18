@@ -49,14 +49,14 @@ short WINAPI TempMissingExample(void)
    xBool.xltype = xltypeBool;
    xBool.val.xbool = 0;
    Excel12f(xlcWorkspace, 0, 4, TempMissing12(), TempMissing12(),
-      TempMissing12(), (LPXLOPER12)&amp;xBool);
+      TempMissing12(), (LPXLOPER12)&xBool);
    return 1;
 }
 ```
 
 ## See also
 
-#### Concepts
+
 
 [Functions in the Framework Library](functions-in-the-framework-library.md)
 

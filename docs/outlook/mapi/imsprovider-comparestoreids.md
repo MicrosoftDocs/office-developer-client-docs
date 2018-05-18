@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Compares two message store entry identifiers to determine whether they refer to the same store object.
   
-```
+```cpp
 HRESULT CompareStoreIDs(
   ULONG cbEntryID1,
   LPENTRYID lpEntryID1,
@@ -77,7 +77,7 @@ Comparing entry identifiers is useful because an object can have more than one v
   
 ## See also
 
-#### Reference
+
 
 [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md)
   

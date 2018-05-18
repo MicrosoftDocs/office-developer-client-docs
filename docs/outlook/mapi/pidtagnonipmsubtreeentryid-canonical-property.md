@@ -31,9 +31,9 @@ Shows the entry ID of the **NON_IPM_SUBTREE** folder in an Exchange Public Folde
 |Data type:  <br/> |PT_BINARY  <br/> |
 |Area:  <br/> |Message store  <br/> |
    
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -45,7 +45,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

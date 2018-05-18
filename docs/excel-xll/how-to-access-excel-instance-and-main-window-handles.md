@@ -63,12 +63,12 @@ BOOL GetHwnd(HWND * pHwnd)
   // so all the windows have to be enumerated to see
   // which match the LoWord retuned by xlGetHwnd.
   //
-  if (Excel4(xlGetHwnd, &amp;x, 0) == xlretSuccess)
+  if (Excel4(xlGetHwnd, &x, 0) == xlretSuccess)
   {
     EnumStruct enm;
     enm.hwnd = NULL;
     enm.wLoword = x.val.w;
-    EnumWindows((WNDENUMPROC) EnumProc, (LPARAM) &amp;enm);
+    EnumWindows((WNDENUMPROC) EnumProc, (LPARAM) &enm);
     if (enm.hwnd != NULL)
     {
       *pHwnd = enm.hwnd;
@@ -81,7 +81,7 @@ BOOL GetHwnd(HWND * pHwnd)
 
 ## See also
 
-#### Concepts
+
 
 [Displaying Dialog Boxes from Within a DLL or XLL](displaying-dialog-boxes-from-within-a-dll-or-xll.md)
   

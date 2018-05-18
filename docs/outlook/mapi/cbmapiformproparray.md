@@ -29,7 +29,7 @@ Computes the number of bytes in an existing [SMAPIFormPropArray](smapiformpropar
 |Header file:  <br/> |Mapiform.h  <br/> |
 |Related structure:  <br/> |**SMAPIFormPropArray** <br/> |
    
-```
+```cpp
 CbMAPIFormPropArray (_c)
 ```
 
@@ -41,12 +41,12 @@ CbMAPIFormPropArray (_c)
     
 ## See also
 
-#### Reference
+
 
 [SMAPIFormPropArray](smapiformproparray.md)
   
 [SMAPIFormProp](smapiformprop.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

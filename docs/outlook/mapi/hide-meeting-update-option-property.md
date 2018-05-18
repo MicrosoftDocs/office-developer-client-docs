@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Hides the option to send meeting updates to only added or deleted attendees.
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|

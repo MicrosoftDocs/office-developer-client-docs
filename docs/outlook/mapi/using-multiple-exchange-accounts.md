@@ -83,7 +83,7 @@ A simple description of the process for resolving multiple Exchange accounts is 
     
 ## See also
 
-#### Reference
+
 
 [HrCompareABEntryIDsWithExchangeContext](hrcompareabentryidswithexchangecontext.md)
   
@@ -106,7 +106,7 @@ A simple description of the process for resolving multiple Exchange accounts is 
 [HrOpenABEntryWithSupport](hropenabentrywithsupport.md)
   
 [PidTagExchangeProfileSectionId Canonical Property](pidtagexchangeprofilesectionid-canonical-property.md)
-#### Other resources
+
 
 [How To Open the Global Profile Section](http://support.microsoft.com/kb/188482)
 

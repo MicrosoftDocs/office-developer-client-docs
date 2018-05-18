@@ -30,7 +30,7 @@ TIME( ** *hour* **, ** *minute* **, ** *second* ** )
 | _minute_ <br/> |Required  <br/> |**Numeric** <br/> |The minute comonent.  <br/> |
 | _second_ <br/> |Required  <br/> |**Numeric** <br/> |The second component.  <br/> |
    
-### Return Value
+### Return value
 
 Numeric
   

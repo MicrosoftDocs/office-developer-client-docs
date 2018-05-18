@@ -16,7 +16,7 @@ description: "Commits changes to the account object by writing to the registry s
 
 Commits changes to the account object by writing to the registry store.
   
-## Quick Info
+## Quick info
 
 See [IOlkAccount](iolkaccount.md).
   
@@ -46,7 +46,7 @@ After changing the value of account properties by using [IOlkAccount::SetProp](i
   
 ## See also
 
-#### Concepts
+
 
 [Constants (Account management API)](constants-account-management-api.md)
   

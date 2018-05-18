@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Contains a positive number whose negative is less than or equal to the value of the **dispidTaskOrdinal** ( [PidLidTaskOrdinal](pidlidtaskordinal-canonical-property.md)) property of all tasks in the folder.
+Contains a positive number whose negative is less than or equal to the value of the **dispidTaskOrdinal** ([PidLidTaskOrdinal](pidlidtaskordinal-canonical-property.md)) property of all tasks in the folder.
   
 |||
 |:-----|:-----|
@@ -35,9 +35,9 @@ Contains a positive number whose negative is less than or equal to the value of 
 
 This property must be updated to maintain this condition whenever the **dispidTaskOrdinal** property of any task object in the folder changes in a way that would violate the condition. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -47,7 +47,7 @@ This property must be updated to maintain this condition whenever the **dispidTa
   
 > Specifies the properties and operations that are permissible for contacts and personal distribution lists.
   
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

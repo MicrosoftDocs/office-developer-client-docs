@@ -35,11 +35,11 @@ Contains the e-mail address type, such as SMTP, for the messaging user who actua
 
 These properties are examples of the address properties for the messaging user who actually receives the message. They must be set by the incoming transport provider.
   
-The address type string can contain only the uppercase alphabetic characters A through Z and the numbers zero through nine. These properties qualify the **PR_RECEIVED_BY_EMAIL_ADDRESS** ( [PidTagReceivedByEmailAddress](pidtagreceivedbyemailaddress-canonical-property.md)) property by specifying an address type, such as SMTP, thereby indicating how the address should be constructed.
+The address type string can contain only the uppercase alphabetic characters A through Z and the numbers zero through nine. These properties qualify the **PR_RECEIVED_BY_EMAIL_ADDRESS** ([PidTagReceivedByEmailAddress](pidtagreceivedbyemailaddress-canonical-property.md)) property by specifying an address type, such as SMTP, thereby indicating how the address should be constructed.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -49,7 +49,7 @@ The address type string can contain only the uppercase alphabetic characters A t
   
 > Specifies the properties and operations that are permissible on e-mail messages.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -61,7 +61,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

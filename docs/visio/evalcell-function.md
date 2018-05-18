@@ -30,7 +30,7 @@ EVALCELL( ** *cellRef* **,[ ** *arg1Name,arg1* ** ],[ ** *arg2Name,arg2* ** ],â€
 | _arg2Name_ <br/> |Optional  <br/> |**String** <br/> |The name of the second argument to be passed to the custom function. Spaces are allowed.  <br/> |
 | _arg2_ <br/> |Optional  <br/> |**Varies** <br/> |Value of the  _arg2_ parameter.  <br/> |
    
-### Return Value
+### Return value
 
 Number
   
@@ -44,13 +44,13 @@ The following example shows how to use the EVALCELL function in conjunction with
   
 In the expression cell, place the following code that defines the custom function: 
   
-```
+```vb
 User.MiddleValue = IF(ARG("A")>ARG("B"),IF(ARG("B")>ARG("C"),ARG("B"),IF(ARG("A")>ARG("C"),ARG("C"),ARG("A"))),IF(ARG("A")>ARG("C"),ARG("A"),IF(ARG("B")>ARG("C"),ARG("C"),ARG("B"))))
 ```
 
 In the calling cells, place the following code that calls the custom function:
   
-```
+```vb
 User.Middle1 = EVALCELL(User.MiddleValue,"A",3,"B",9,"C",5) 
 User.Middle2 = EVALCELL(User.MiddleValue,"A",12,"B",0,"C",21) 
 

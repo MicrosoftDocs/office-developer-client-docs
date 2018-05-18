@@ -33,7 +33,7 @@ Provides access to a message store provider through a message store provider obj
 |Interface identifier:  <br/> |IID_IMSProvider  <br/> |
 |Pointer type:  <br/> |LPMSPROVIDER  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -56,7 +56,7 @@ A message store provider object must contain the following to operate correctly:
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
 

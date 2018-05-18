@@ -31,9 +31,9 @@ Contains a message length, in bytes, passed to a client application or service p
 |Data type:  <br/> |PT_LONG  <br/> |
 |Area:  <br/> |Exchange  <br/> |
    
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -45,7 +45,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

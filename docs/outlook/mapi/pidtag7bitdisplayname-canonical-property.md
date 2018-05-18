@@ -33,11 +33,11 @@ Contains a 7-bit ASCII representation of a messaging user's name.
    
 ## Remarks
 
-These properties map the **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property into a 7-bit character set. Some messaging systems, such as Internet and certain X.400 links, are limited to the 128-character 7-bit ASCII code set. Gateways to such messaging systems can improve their performance by calling the [IAddrBook::PrepareRecips](iaddrbook-preparerecips.md) method directly to retrieve the this property, thereby avoiding extra processing for code conversion. 
+These properties map the **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property into a 7-bit character set. Some messaging systems, such as Internet and certain X.400 links, are limited to the 128-character 7-bit ASCII code set. Gateways to such messaging systems can improve their performance by calling the [IAddrBook::PrepareRecips](iaddrbook-preparerecips.md) method directly to retrieve the this property, thereby avoiding extra processing for code conversion. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -63,7 +63,7 @@ These properties map the **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplay
   
 > Specifies the properties and operations that are permissible on e-mail messages.
     
-### Header Files
+### Header files
 
 Mapitags.h
   
@@ -75,7 +75,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates whether the form can handle the message class of the next message to display.
   
-```
+```cpp
 HRESULT OnActivateNext(
   LPCSTR lpszMessageClass,
   ULONG ulMessageStatus,
@@ -41,11 +41,11 @@ HRESULT OnActivateNext(
     
  _ulMessageStatus_
   
-> [in] A bitmask of client-defined or provider-defined flags, copied from the **PR_MSG_STATUS** ( [PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) property of the next message to display, that provides status information regarding the contents table that the message is included in.
+> [in] A bitmask of client-defined or provider-defined flags, copied from the **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) property of the next message to display, that provides status information regarding the contents table that the message is included in.
     
  _ulMessageFlags_
   
-> [in] A pointer to a bitmask of flags copied from the **PR_MESSAGE_FLAGS** ( [PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property of the next message to display that indicates the current state of the message.
+> [in] A pointer to a bitmask of flags copied from the **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property of the next message to display that indicates the current state of the message.
     
  _ppPersistMessage_
   
@@ -67,7 +67,7 @@ Form viewers call the **IMAPIFormAdviseSink::OnActivateNext** method to help the
   
 Most form objects will use the message class pointed to by the  _lpszMessageClass_ parameter to determine whether they can handle the next message. Usually a form can handle messages that belong to classes of which the form's default class is a subclass, in addition to messages that belong to the default class. However, a form can use other factors to determine without question whether a message can be handled, such as the sent or unsent status of the next message. 
   
-## Notes to Implementers
+## Notes to implementers
 
 Return S_OK and NULL in the  _ppPersistMessage_ parameter if the form can handle the message class. If the form can create a new form that can handle the message that the form is unable to handle, follow these steps: 
   
@@ -91,7 +91,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md)
   
@@ -104,7 +104,7 @@ For MFCMAPI sample code, see the following table.
 [PidTagMessageStatus Canonical Property](pidtagmessagestatus-canonical-property.md)
   
 [IMAPIFormAdviseSink : IUnknown](imapiformadvisesinkiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

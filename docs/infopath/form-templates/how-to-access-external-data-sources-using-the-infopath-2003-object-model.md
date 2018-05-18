@@ -81,7 +81,7 @@ public void CTRL1_5_OnClick(DocActionEvent e)
 }
 ```
 
-```VB.net
+```vb
 Public Sub CTRL1_5_OnClick(ByVal e As DocActionEvent)
    ' Instantiate a variable to access the specified data object
    ' from the DataObjectsCollection of the form.
@@ -115,7 +115,7 @@ public void CTRL1_5_OnClick(DocActionEvent e)
 }
 ```
 
-```VB.net
+```vb
 Public Sub CTRL1_5_OnClick(ByVal e As DocActionEvent)
    ' Instantiate a variable to access the specified data object. 
    ' You must explicitly cast to the specific adapter type

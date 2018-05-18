@@ -15,7 +15,7 @@ ms.assetid: fad9c0fd-b523-db98-ee0d-78aad5914ff2
 
 Supports accessing and enumerating free/busy blocks of data for a user within a time range.
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|
@@ -23,7 +23,7 @@ Supports accessing and enumerating free/busy blocks of data for a user within a 
 |Provided by:  <br/> |Free/busy provider  <br/> |
 |Interface identifier:  <br/> |**IEnumFBBlock** <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -41,7 +41,7 @@ A free/busy provider obtains this interface and the enumeration for a time range
   
 ## See also
 
-#### Concepts
+
 
 [About the Free/Busy API](about-the-free-busy-api.md)
   

@@ -48,7 +48,7 @@ You can declare asynchronous functions as thread-safe and then the synchronous p
   
 The following code example shows an asynchronous user-defined function registered by using "\>QX" as the registration type string:
   
-```
+```cpp
 void MyAsyncUDF(LPXLOPER12 arg1, LPXLOPER12 pxAsyncHandle)
 {
 …
@@ -67,7 +67,7 @@ Starting in Excel 2010, XLLs can receive events designed to manage the asynchron
   
 ## See also
 
-#### Concepts
+
 
 [Developing Excel XLLs](developing-excel-xlls.md)
 

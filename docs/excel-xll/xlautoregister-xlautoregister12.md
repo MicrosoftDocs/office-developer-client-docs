@@ -54,7 +54,7 @@ See the file  `SAMPLES\EXAMPLE\EXAMPLE.C` for an example implementation of this 
   
 ## See also
 
-#### Reference
+
 
 [REGISTER](xlfregister-form-1.md)
   

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Responds to a notification by performing one or more tasks. The tasks performed depend on the type of event and the object that generates the notification. 
   
-```
+```cpp
 ULONG OnNotify(
   ULONG cNotif,
   LPNOTIFICATION lpNotifications
@@ -74,13 +74,13 @@ For more information about how to set up and stop notifications, see the referen
   
 For general information about the notification process, see [Event Notification in MAPI](event-notification-in-mapi.md). 
   
-## Notes to Implementers
+## Notes to implementers
 
 Your **OnNotify** implementation will typically consist of one or more blocks of code for each type of notification you expect to receive. Within these blocks of code, perform any tasks that you consider necessary as a response to the notification. For example, suppose you register to receive **fnevObjectModified** notifications on a folder that is included in a dialog box display. In the block of code that you include in your **OnNotify** method to handle **fnevObjectModified** notifications, you might send a Windows message to the dialog box to request an updated display. 
   
 Do not modify or free the **NOTIFICATION** structure passed to **OnNotify**. The data in the structure is valid only until **OnNotify** returns. 
   
-## Notes to Callers
+## Notes to callers
 
 When changes occur to multiple objects, you can notify a registered advise sink in a single call to **OnNotify** or in multiple calls depending on memory constraints. This is true regardless of whether the changes are the result of one method call or several. For example, a call to [IMAPIFolder::CopyMessages](imapifolder-copymessages.md) can affect multiple messages and folders. As a message store provider, you can make one call to **OnNotify** with an **fnevObjectModified** event type for the target folder or many calls, one for each affect messages. Similarly, if a client makes repeated calls to [IMAPIFolder::CreateMessage](imapifolder-createmessage.md), these calls can be combined into one **fnevObjectModified** event for the folder or separated into individual **fnevObjectCreated** events for each new message. 
   
@@ -96,7 +96,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [HrAllocAdviseSink](hrallocadvisesink.md)
   
@@ -107,7 +107,7 @@ For MFCMAPI sample code, see the following table.
 [NOTIFICATION](notification.md)
   
 [IMAPIAdviseSink : IUnknown](imapiadvisesinkiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

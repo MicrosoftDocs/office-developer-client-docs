@@ -39,9 +39,9 @@ To retrieve table contents, a client application should call the [IMessage::GetA
   
 This property can be used for subobject restriction by specifying it in the [SSubRestriction](ssubrestriction.md) structure. This allows the client to limit the view of a container to messages with attachments meeting given criteria. A message qualifies for viewing if at least one row in its attachments table, that is, one attachment, satisfies the subobject restriction. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXCDATA]](http://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx)
   
@@ -55,7 +55,7 @@ This property can be used for subobject restriction by specifying it in the [SSu
   
 > Converts between IETF RFC2445, RFC2446, and RFC2447, and appointment and meeting objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -67,7 +67,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

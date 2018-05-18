@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Initiates the logoff process.
   
-```
+```cpp
 HRESULT Logoff(
   ULONG ulFlags
 );
@@ -56,7 +56,7 @@ For more information about the logoff process of address book providers, see [Sh
   
 ## See also
 
-#### Reference
+
 
 [IABProvider::Logon](iabprovider-logon.md)
   

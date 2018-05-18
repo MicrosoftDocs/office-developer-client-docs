@@ -32,7 +32,7 @@ The more common operations are:
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Tables](mapi-tables.md)
 

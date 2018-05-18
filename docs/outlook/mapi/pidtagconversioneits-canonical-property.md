@@ -35,9 +35,9 @@ Contains the encoded information types (EITs) that are applied to a message in t
 
 X.400 environments use this property for both non-delivery and delivery reports.
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

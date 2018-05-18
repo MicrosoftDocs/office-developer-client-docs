@@ -35,9 +35,9 @@ Contains the name of the recipient's administrative assistant.
 
 These properties provide identification and access information for a recipient. They are defined by the recipient and their organization. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -51,7 +51,7 @@ These properties provide identification and access information for a recipient. 
   
 > Specifies the properties and operations for lists of users, contacts, groups, and resources.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -63,10 +63,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagAssistantTelephoneNumber Canonical Property](pidtagassistanttelephonenumber-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

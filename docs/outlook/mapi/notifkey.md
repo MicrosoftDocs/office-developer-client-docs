@@ -28,7 +28,7 @@ Uniquely identifies a connection between an advise sink, an advise source, and M
 |:-----|:-----|
 |Header file:  <br/> |Mapispi.h  <br/> |
    
-```
+```cpp
 typedef struct
 {
   ULONG cb;
@@ -61,7 +61,7 @@ For a discussion of the use of the **NOTIFKEY** structure to manage the connecti
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

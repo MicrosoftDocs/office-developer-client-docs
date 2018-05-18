@@ -59,7 +59,7 @@ short WINAPI xlFreeExample(void)
    xInt.xltype = xltypeInt;
    xInt.val.w = 1;
    // Call GetWorkspace.
-   Excel12f(xlfGetWorkspace, &amp;xRes, 1, (LPXLOPER12)&amp;xInt);
+   Excel12f(xlfGetWorkspace, &xRes, 1, (LPXLOPER12)&xInt);
    
    // Get the length of the returned string
    len = (int)xRes.val.str[0];
@@ -75,19 +75,17 @@ short WINAPI xlFreeExample(void)
    buffer[len] = '\0';
    buffer[0] = len;
    // Free the string returned from Excel.
-   Excel12f(xlFree, 0, 1, &amp;xRes);
+   Excel12f(xlFree, 0, 1, &xRes);
    // Create a new string XLOPER12 for the alert.
    xRes.xltype = xltypeStr;
    xRes.val.str = buffer;
    // Show the alert.
-   Excel12f(xlcAlert, 0, 1, (LPXLOPER12)&amp;xRes);
+   Excel12f(xlcAlert, 0, 1, (LPXLOPER12)&xRes);
    return 1;
 }
 ```
 
 ## See also
 
-#### Concepts
-
-[C API Functions That Can Be Called Only from a DLL or XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [C API Functions That Can Be Called Only from a DLL or XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

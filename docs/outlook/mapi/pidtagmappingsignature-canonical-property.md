@@ -41,9 +41,9 @@ When two objects have the same **PR_MAPPING_SIGNATURE** value, the client does n
   
 For more information on named properties and mapping of names and identifiers, see [MAPI Named Properties](mapi-named-properties.md). 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -53,7 +53,7 @@ For more information on named properties and mapping of names and identifiers, s
   
 > Specifies the properties and operations for lists of users, contacts, groups, and resources.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -65,10 +65,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [MAPINAMEID](mapinameid.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -20,9 +20,9 @@ description: "Last modified: July 23, 2011"
   
 Information for uploading the read state of items during the [upload read status state](upload-read-status-state.md).
   
-## Quick Info
+## Quick info
 
-```
+```cpp
 struct UPREAD 
 { 
     PUPREADE pupre; 
@@ -42,7 +42,7 @@ struct UPREAD
     
 ## See also
 
-#### Concepts
+
 
 [About the Replication API](about-the-replication-api.md)
   

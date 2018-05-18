@@ -16,7 +16,7 @@ description: "Specifies the email address for the account."
 
 Specifies the email address for the account.
   
-## Quick Info
+## Quick info
 
 See [IOlkAccount](iolkaccount.md).
   
@@ -33,7 +33,7 @@ See [IOlkAccount](iolkaccount.md).
   
 ## See also
 
-#### Concepts
+
 
 [About the Account Management API](about-the-account-management-api.md)
 

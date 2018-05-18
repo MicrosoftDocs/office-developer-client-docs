@@ -33,11 +33,11 @@ Contains a copy of the original message's delivery date and time in a thread.
    
 ## Remarks
 
-This property is copied from the original **PR_MESSAGE_DELIVERY_TIME** ( [PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)) property in subsequent reply or forward operations and used in read and nonread reports. Delivery reports use the **PR_DELIVER_TIME** ( [PidTagDeliverTime](pidtagdelivertime-canonical-property.md)) property instead.
+This property is copied from the original **PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)) property in subsequent reply or forward operations and used in read and nonread reports. Delivery reports use the **PR_DELIVER_TIME** ([PidTagDeliverTime](pidtagdelivertime-canonical-property.md)) property instead.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -47,7 +47,7 @@ This property is copied from the original **PR_MESSAGE_DELIVERY_TIME** ( [PidTag
   
 > Specifies the properties and operations that are permissible on e-mail message objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

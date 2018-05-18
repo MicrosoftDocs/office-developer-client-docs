@@ -35,9 +35,9 @@ Contains flags indicating the store's supported features.
 
 This property is obtained from the stores which contains the Contacts folders. The Contact Address Book provider uses it to evaluate the adequacy of the store's supported features. It is a property on a Contact Address Book profile section. 
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

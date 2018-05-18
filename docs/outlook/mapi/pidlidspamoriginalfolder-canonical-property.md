@@ -36,9 +36,9 @@ Indicates which folder a message was in before it was filtered into the junk e-m
 
 The value of this property is the **EntryID** of the folder that contained the message before it was moved. This property should be set when a message is marked as spam. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -48,7 +48,7 @@ The value of this property is the **EntryID** of the folder that contained the m
   
 > Enables the handling of allow/block lists and the determination of junk e-mail messages.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

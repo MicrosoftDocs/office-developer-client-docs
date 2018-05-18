@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Closes down a transport provider in an orderly fashion.
   
-```
+```cpp
 HRESULT Shutdown (
   ULONG FAR * lpulFlags
 );
@@ -48,7 +48,7 @@ The MAPI spooler calls the **IXPProvider::Shutdown** method just prior to releas
   
 ## See also
 
-#### Reference
+
 
 [XPProviderInit](xpproviderinit.md)
   

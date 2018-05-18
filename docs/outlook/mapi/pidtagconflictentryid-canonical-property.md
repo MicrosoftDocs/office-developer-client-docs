@@ -31,9 +31,9 @@ Contains the EntryID of the conflict resolution message.
 |Data type:  <br/> |PT_BINARY  <br/> |
 |Area:  <br/> |Incremental Change Synchronization (ICS)  <br/> |
    
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -43,7 +43,7 @@ Contains the EntryID of the conflict resolution message.
   
 > Handles synchronizing messaging object data between a server and a client.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -55,7 +55,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

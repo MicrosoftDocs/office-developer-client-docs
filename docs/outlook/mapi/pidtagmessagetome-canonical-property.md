@@ -39,11 +39,11 @@ This property also assists automated handling of received messages at the time o
   
 Message delivery resulting from distribution list expansion or a blind carbon copy designation does not cause this property to be set. The recipient must be explicitly named. 
   
-Unsent messages generally do not set the **PR_MESSAGE_CC_ME** ( [PidTagMessageCcMe](pidtagmessageccme-canonical-property.md)), **PR_MESSAGE_RECIP_ME** ( [PidTagMessageRecipientMe](pidtagmessagerecipientme-canonical-property.md)), or this property. If they are present in messages the user can access in public message stores, in other users' private stores, in files on disk, or embedded inside other received messages, they generally contain the values to which they were set the last time a transport provider delivered the message. 
+Unsent messages generally do not set the **PR_MESSAGE_CC_ME** ([PidTagMessageCcMe](pidtagmessageccme-canonical-property.md)), **PR_MESSAGE_RECIP_ME** ([PidTagMessageRecipientMe](pidtagmessagerecipientme-canonical-property.md)), or this property. If they are present in messages the user can access in public message stores, in other users' private stores, in files on disk, or embedded inside other received messages, they generally contain the values to which they were set the last time a transport provider delivered the message. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -53,7 +53,7 @@ Unsent messages generally do not set the **PR_MESSAGE_CC_ME** ( [PidTagMessageCc
   
 > Specifies the properties and operations that are permissible on e-mail message objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -65,7 +65,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

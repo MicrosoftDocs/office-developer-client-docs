@@ -114,7 +114,7 @@ For a complete definition of the OSC provider XML schema, including which elemen
    
 ## See also
 
-#### Concepts
+
 
 [Friends XML Example](friends-xml-example.md)
   
@@ -123,7 +123,7 @@ For a complete definition of the OSC provider XML schema, including which elemen
 [XML for Capabilities](xml-for-capabilities.md)
   
 [XML for Activities](xml-for-activities.md)
-#### Other resources
+
 
 [Developing a Provider with the OSC XML Schema](developing-a-provider-with-the-osc-xml-schema.md)
 

@@ -32,7 +32,7 @@ As a client software developer, you make MAPI calls directly through the MAPI pr
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Features and Architecture](mapi-features-and-architecture.md)
 

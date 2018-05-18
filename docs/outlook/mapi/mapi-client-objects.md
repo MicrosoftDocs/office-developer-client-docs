@@ -42,14 +42,14 @@ Clients that support service provider and message service configuration use thre
   
 ## See also
 
-#### Reference
+
 
 [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
   
 [IMAPIViewContext : IUnknown](imapiviewcontextiunknown.md)
   
 [IMAPIViewAdviseSink : IUnknown](imapiviewadvisesinkiunknown.md)
-#### Concepts
+
 
 [MAPI Object and Interface Overview](mapi-object-and-interface-overview.md)
 

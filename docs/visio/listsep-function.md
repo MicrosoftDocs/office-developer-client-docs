@@ -22,7 +22,7 @@ Returns the list-separator string for the current user locale.
 
 LISTSEP ()
   
-### Return Value
+### Return value
 
 String
   

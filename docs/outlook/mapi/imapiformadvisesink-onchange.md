@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Indicates that a change has occurred in the status of the form viewer. 
   
-```
+```cpp
 HRESULT OnChange(
   ULONG ulDir
 );
@@ -76,13 +76,13 @@ Form viewers call the **IMAPIFormAdviseSink::OnChange** method to notify the for
   
 The settings of VCSTATUS_MODAL and VCSTATUS_INTERACTIVE cannot change in a view context after it has been created.
   
-## Notes to Implementers
+## Notes to implementers
 
 The specific implementation of this method is completely dependent on the specifics of the form. Most form objects use this method to change their user interface (for example, to enable or disable menu commands or buttons to match the viewer status flags parameter).
   
 ## See also
 
-#### Reference
+
 
 [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md)
   

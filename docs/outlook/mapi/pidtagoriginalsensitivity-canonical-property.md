@@ -33,13 +33,13 @@ Contains the sensitivity value assigned by the sender of the first version of a 
    
 ## Remarks
 
-A client application should set this property to the same value as the **PR_SENSITIVITY** ( [PidTagSensitivity](pidtagsensitivity-canonical-property.md)) property when the message is first submitted. It should never be changed subsequently.
+A client application should set this property to the same value as the **PR_SENSITIVITY** ([PidTagSensitivity](pidtagsensitivity-canonical-property.md)) property when the message is first submitted. It should never be changed subsequently.
   
 This property is used by the transport provider to protect the sensitivity on copied entries. It enables it, for example, to block modification of the original message text in a forward of or reply to a message that was originally marked **SENSITIVITY_PRIVATE**.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -49,7 +49,7 @@ This property is used by the transport provider to protect the sensitivity on co
   
 > Specifies the properties and operations that are permissible on e-mail message objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -61,7 +61,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

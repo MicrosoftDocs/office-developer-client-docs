@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Establishes a session in which a client application logs on to a transport provider. 
   
-```
+```cpp
 HRESULT TransportLogon(
   LPMAPISUP lpMAPISup,
   ULONG_PTR ulUIParam,
@@ -153,7 +153,7 @@ If the provider finds that all the required information is not in the profile, i
   
 ## See also
 
-#### Reference
+
 
 [IXPProvider : IUnknown](ixpprovideriunknown.md)
   

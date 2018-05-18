@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns a pointer that provides access to a provider administration object.
   
-```
+```cpp
 HRESULT AdminProviders(
   LPMAPIUID lpUID,
   ULONG ulFlags,
@@ -70,9 +70,9 @@ The **IMsgServiceAdmin::AdminProviders** method provides access to a provider ad
     
 The types of changes that can actually be made to a message service while the profile is in use depend on the message service. However, most message services do not support changes such as adding and deleting providers while the profile is in use.
   
-## Notes to Callers
+## Notes to callers
 
-To retrieve the **MAPIUID** structure for the message service to administer, retrieve the **PR_SERVICE_UID** ( [PidTagServiceUid](pidtagserviceuid-canonical-property.md)) property column from the message service's row in the message service table. For more information, see the procedure outlined in the [IMsgServiceAdmin::CreateMsgService](imsgserviceadmin-createmsgservice.md) method. 
+To retrieve the **MAPIUID** structure for the message service to administer, retrieve the **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) property column from the message service's row in the message service table. For more information, see the procedure outlined in the [IMsgServiceAdmin::CreateMsgService](imsgserviceadmin-createmsgservice.md) method. 
   
 ## MFCMAPI Reference
 
@@ -84,14 +84,14 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IProviderAdmin : IUnknown](iprovideradminiunknown.md)
   
 [MAPIUID](mapiuid.md)
   
 [IMsgServiceAdmin : IUnknown](imsgserviceadminiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

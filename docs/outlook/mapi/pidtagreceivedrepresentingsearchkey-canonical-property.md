@@ -33,13 +33,13 @@ Contains the search key for the messaging user represented by the receiving user
    
 ## Remarks
 
-This property is one of the address properties for the messaging user being represented by the receiving user. It must be set by the incoming transport provider, which is also responsible for authorization or verification of the delegate. If no messaging user is being represented, this property should be set to the search key contained in the **PR_RECEIVED_BY_SEARCH_KEY** ( [PidTagReceivedBySearchKey](pidtagreceivedbysearchkey-canonical-property.md)) property.
+This property is one of the address properties for the messaging user being represented by the receiving user. It must be set by the incoming transport provider, which is also responsible for authorization or verification of the delegate. If no messaging user is being represented, this property should be set to the search key contained in the **PR_RECEIVED_BY_SEARCH_KEY** ([PidTagReceivedBySearchKey](pidtagreceivedbysearchkey-canonical-property.md)) property.
   
-A client application replying to a message received on behalf of another client should copy this property from the received message into the **PR_SENT_REPRESENTING_SEARCH_KEY** ( [PidTagSentRepresentingSearchKey](pidtagsentrepresentingsearchkey-canonical-property.md)) property for the reply.
+A client application replying to a message received on behalf of another client should copy this property from the received message into the **PR_SENT_REPRESENTING_SEARCH_KEY** ([PidTagSentRepresentingSearchKey](pidtagsentrepresentingsearchkey-canonical-property.md)) property for the reply.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -65,7 +65,7 @@ A client application replying to a message received on behalf of another client 
   
 > Encodes and decodes message and attachment objects to an efficient stream representation.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -77,10 +77,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagSearchKey Canonical Property](pidtagsearchkey-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Provides access to the profile table, a table that contains information about all of the available profiles.
   
-```
+```cpp
 HRESULT GetProfileTable(
   ULONG ulFlags,
   LPMAPITABLE FAR * lppTable
@@ -67,14 +67,14 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPITable : IUnknown](imapitableiunknown.md)
   
 [MAPILogonEx](mapilogonex.md)
   
 [IProfAdmin : IUnknown](iprofadminiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

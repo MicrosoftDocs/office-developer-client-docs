@@ -40,7 +40,7 @@ Some clients might omit the call to **IMsgStore::StoreLogoff**, initiating the s
   
 ## See also
 
-#### Concepts
+
 
 [Shutting Down a Service Provider](shutting-down-a-service-provider.md)
 

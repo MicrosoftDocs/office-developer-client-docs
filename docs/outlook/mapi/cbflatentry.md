@@ -29,7 +29,7 @@ Computes the number of bytes in an existing [FLATENTRY](flatentry.md) structure.
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**FLATENTRY** <br/> |
    
-```
+```cpp
 CbFLATENTRY (_lpentry)
 ```
 
@@ -41,10 +41,10 @@ CbFLATENTRY (_lpentry)
     
 ## See also
 
-#### Reference
+
 
 [FLATENTRY](flatentry.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

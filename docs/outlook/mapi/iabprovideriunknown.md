@@ -33,7 +33,7 @@ Provides a method to log on to an address book provider object and a method to i
 |Interface identifier:  <br/> |IID_IABProvider  <br/> |
 |Pointer type:  <br/> |LPABPROVIDER  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -42,7 +42,7 @@ Provides a method to log on to an address book provider object and a method to i
    
 ## See also
 
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
 

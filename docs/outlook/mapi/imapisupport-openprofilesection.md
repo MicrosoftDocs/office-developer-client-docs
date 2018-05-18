@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Opens a section of the current profile and returns an [IProfSect](iprofsectimapiprop.md) pointer for further access. 
   
-```
+```cpp
 HRESULT OpenProfileSection(
 LPMAPIUID lpUid,
 ULONG ulFlags,
@@ -76,7 +76,7 @@ MAPI_E_UNKNOWN_FLAGS
 
 The **IMAPISupport::OpenProfileSection** method is implemented for all support objects. Service providers and message services call **OpenProfileSection** to open a profile section and retrieve a pointer to its **IProfSect** interface implementation. 
   
-## Notes to Callers
+## Notes to callers
 
  **OpenProfileSection** opens profile sections as read-only, unless you set the MAPI_MODIFY flag in the  _ulFlags_ parameter and your permission is sufficient. Setting this flag does not guarantee read/write permission; the permissions that you are granted depend on your access level and the object. 
   
@@ -84,7 +84,7 @@ If **OpenProfileSection** attempts to open a nonexistent profile section as read
   
 ## See also
 
-#### Reference
+
 
 [IMAPIProp : IUnknown](imapipropiunknown.md)
   

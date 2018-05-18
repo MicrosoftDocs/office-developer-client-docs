@@ -34,7 +34,7 @@ Provides access to message store information and to messages and folders.
 |Pointer type:  <br/> |LPMDB  <br/> |
 |Transaction model:  <br/> |Nontransacted  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -54,24 +54,24 @@ Provides access to message store information and to messages and folders.
    
 |**Required properties**|**Access level**|
 |:-----|:-----|
-|**PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Read/write  <br/> |
-|**PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Read-only  <br/> |
-|**PR_OBJECT_TYPE** ( [PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Read-only  <br/> |
-|**PR_RECORD_KEY** ( [PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |Read-only  <br/> |
-|**PR_STORE_ENTRYID** ( [PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md))  <br/> |Read-only  <br/> |
-|**PR_STORE_RECORD_KEY** ( [PidTagStoreRecordKey](pidtagstorerecordkey-canonical-property.md))  <br/> |Read-only  <br/> |
-|**PR_MDB_PROVIDER** ( [PidTagStoreProvider](pidtagstoreprovider-canonical-property.md))  <br/> |Read-only  <br/> |
-|**PR_STORE_SUPPORT_MASK** ( [PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md))  <br/> |Read-only  <br/> |
+|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Read/write  <br/> |
+|**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Read-only  <br/> |
+|**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Read-only  <br/> |
+|**PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |Read-only  <br/> |
+|**PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md))  <br/> |Read-only  <br/> |
+|**PR_STORE_RECORD_KEY** ([PidTagStoreRecordKey](pidtagstorerecordkey-canonical-property.md))  <br/> |Read-only  <br/> |
+|**PR_MDB_PROVIDER** ([PidTagStoreProvider](pidtagstoreprovider-canonical-property.md))  <br/> |Read-only  <br/> |
+|**PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md))  <br/> |Read-only  <br/> |
    
 The following properties are for interpersonal message (IPM) message stores:
   
-- **PR_IPM_OUTBOX_ENTRYID** ( [PidTagIpmOutboxEntryId](pidtagipmoutboxentryid-canonical-property.md))
+- **PR_IPM_OUTBOX_ENTRYID** ([PidTagIpmOutboxEntryId](pidtagipmoutboxentryid-canonical-property.md))
     
-- **PR_IPM_SENTMAIL_ENTRYID** ( [PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md))
+- **PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md))
     
-- **PR_IPM_SUBTREE_ENTRYID** ( [PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md))
+- **PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md))
     
-- **PR_IPM_WASTEBASKET_ENTRYID** ( [PidTagIpmWastebasketEntryId](pidtagipmwastebasketentryid-canonical-property.md))
+- **PR_IPM_WASTEBASKET_ENTRYID** ([PidTagIpmWastebasketEntryId](pidtagipmwastebasketentryid-canonical-property.md))
     
 - **PR_MDB_PROVIDER**
     
@@ -79,7 +79,7 @@ The following properties are for interpersonal message (IPM) message stores:
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
 

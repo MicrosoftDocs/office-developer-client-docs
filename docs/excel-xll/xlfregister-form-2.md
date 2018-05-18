@@ -46,7 +46,7 @@ If successful, this returns the name of the DLL ( **xltypeStr**). Otherwise it r
   
 ## See also
 
-#### Concepts
+
 
 [Essential and Useful C API XLM Functions](essential-and-useful-c-api-xlm-functions.md)
 

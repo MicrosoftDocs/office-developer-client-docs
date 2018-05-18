@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Creates a numeric token that the [IMAPISession::ShowForm](imapisession-showform.md) method uses to access a message. 
   
-```
+```cpp
 HRESULT PrepareForm(
   LPCIID lpInterface,
   LPMESSAGE lpMessage,
@@ -56,7 +56,7 @@ S_OK
 
 The **IMAPISession::PrepareForm** method creates a message token for the message pointed to by the  _lpMessage_ parameter and calls the message's [IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) method. This token is passed in the  _ulMessageToken_ parameter to **IMAPISession::ShowForm**. 
   
-## Notes to Callers
+## Notes to callers
 
 If the call to **PrepareForm** succeeds, release the message pointed to by  _lpMessage_ by calling its [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) method before you call **ShowForm**. Failure to release the message before you call **ShowForm** can cause memory leaks. 
   
@@ -70,12 +70,12 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPISession::ShowForm](imapisession-showform.md)
   
 [IMAPISession : IUnknown](imapisessioniunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

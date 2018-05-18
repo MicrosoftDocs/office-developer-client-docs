@@ -47,15 +47,15 @@ FOLDER_SEARCH
   
 > A folder that contains the results of a search, in the form of links to messages that meet search criteria.
     
-The root of a message store should not be confused with the root of the interpersonal message (IPM) subtree in that store. The store's root folder, which has no parent, is obtained by calling the [IMsgStore::OpenEntry](imsgstore-openentry.md) method with a null entry identifier. The IPM subtree's root folder, which does have a parent, is obtained by using the value of the **PR_IPM_SUBTREE_ENTRYID** ( [PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md)) property for the **OpenEntry** call. 
+The root of a message store should not be confused with the root of the interpersonal message (IPM) subtree in that store. The store's root folder, which has no parent, is obtained by calling the [IMsgStore::OpenEntry](imsgstore-openentry.md) method with a null entry identifier. The IPM subtree's root folder, which does have a parent, is obtained by using the value of the **PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md)) property for the **OpenEntry** call. 
   
-MAPI allows only one root folder per message store. This folder contains messages and other folders. The root folder's **PR_PARENT_ENTRYID** ( [PidTagParentEntryId](pidtagparententryid-canonical-property.md)) property contains the folder's own entry identifier.
+MAPI allows only one root folder per message store. This folder contains messages and other folders. The root folder's **PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)) property contains the folder's own entry identifier.
   
-The information in a search-results folder is mainly stored in its contents table, which contains the same columns as a typical contents table, as well as two extra columns identifying the folder in which each message was found: **PR_PARENT_DISPLAY** ( [PidTagParentDisplay](pidtagparentdisplay-canonical-property.md)) (display name, required) and this property (entry identifier, optional).
+The information in a search-results folder is mainly stored in its contents table, which contains the same columns as a typical contents table, as well as two extra columns identifying the folder in which each message was found: **PR_PARENT_DISPLAY** ([PidTagParentDisplay](pidtagparentdisplay-canonical-property.md)) (display name, required) and this property (entry identifier, optional).
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -65,7 +65,7 @@ The information in a search-results folder is mainly stored in its contents tabl
   
 > Handles folder operations.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -77,7 +77,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

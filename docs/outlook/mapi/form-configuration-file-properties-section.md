@@ -52,7 +52,7 @@ The **DisplayName** entry contains the label for the property. The **SpecialType
   
 Following is an example of a **[Properties]** section and a **[Properties.** _string_ **]** section. 
   
-```
+```cpp
 [Properties]
 Property.1 = Fire Hazard
 Property.2 = Safe
@@ -84,7 +84,7 @@ The **Enum1** entry in the preceeding example references to a subsequent **[Enum
   
 The following is an example property definition for an enumerated property named Fire Hazard with possible values of Low, Medium, and High.
   
-```
+```cpp
 [Properties]
 Property1 = Fire Hazard
 [Enum1.HazardEnum]

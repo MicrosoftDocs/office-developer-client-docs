@@ -36,11 +36,11 @@ Specifies whether an appointment message is recurrent.
 
 This property is TRUE if the appointment is a recurring appointment, and is FALSE if it is not recurring.
   
-This property specifies whether or not the object represents a recurring series. A value of TRUE indicates that the object represents a recurring series. A value of FALSE, or the absence of this property, indicates that the object represents either a single instance or an exception (including an orphan instance). Note the difference between this property and the **LID_IS_RECURRING** ( [PidLidIsRecurring](pidlidisrecurring-canonical-property.md)) property.
+This property specifies whether or not the object represents a recurring series. A value of TRUE indicates that the object represents a recurring series. A value of FALSE, or the absence of this property, indicates that the object represents either a single instance or an exception (including an orphan instance). Note the difference between this property and the **LID_IS_RECURRING** ([PidLidIsRecurring](pidlidisrecurring-canonical-property.md)) property.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -50,7 +50,7 @@ This property specifies whether or not the object represents a recurring series.
   
 > Specifies the properties and operations for appointment, meeting request, and response messages.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -58,7 +58,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

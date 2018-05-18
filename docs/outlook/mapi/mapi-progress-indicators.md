@@ -36,7 +36,7 @@ To display a progress indicator, MAPI defines a progress object. Progress object
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Service Providers](mapi-service-providers.md)
 

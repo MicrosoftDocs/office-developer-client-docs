@@ -31,9 +31,9 @@ Contains the display name of a distribution list where the messaging system deli
 |Data type:  <br/> |PT_BINARY  <br/> |
 |Area:  <br/> |MAPI Message  <br/> |
    
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -45,7 +45,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

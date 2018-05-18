@@ -35,13 +35,13 @@ Contains the message text.
 
 These properties are typically used only in an interpersonal message (IPM). 
   
-Message stores that support Rich Text Format (RTF) ignore any changes to white space in the message text. When **PR_BODY** is stored for the first time, the message store also generates and stores the **PR_RTF_COMPRESSED** ( [PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) property, the RTF version of the message text. If the [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method is subsequently called and **PR_BODY** has been modified, the message store calls the [RTFSync](rtfsync.md) function to ensure synchronization with the RTF version. If only white space has been changed, the properties are left unchanged. This preserves any nontrivial RTF formatting when the message travels through non-RTF-aware clients and messaging systems. 
+Message stores that support Rich Text Format (RTF) ignore any changes to white space in the message text. When **PR_BODY** is stored for the first time, the message store also generates and stores the **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) property, the RTF version of the message text. If the [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method is subsequently called and **PR_BODY** has been modified, the message store calls the [RTFSync](rtfsync.md) function to ensure synchronization with the RTF version. If only white space has been changed, the properties are left unchanged. This preserves any nontrivial RTF formatting when the message travels through non-RTF-aware clients and messaging systems. 
   
 The value for this property must be expressed in the code page of the operating system that MAPI is running on. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -51,7 +51,7 @@ The value for this property must be expressed in the code page of the operating 
   
 > Handles message and attachment objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -63,10 +63,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagRtfInSync Canonical Property](pidtagrtfinsync-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

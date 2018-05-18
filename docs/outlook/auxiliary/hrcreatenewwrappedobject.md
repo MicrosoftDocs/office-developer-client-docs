@@ -16,7 +16,7 @@ description: "Creates an object that a client can access in a preferred characte
 
 Creates an object that a client can access in a preferred character format.
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|
@@ -89,7 +89,7 @@ When using **GetProcAddress** to look for the address of this function in msmapi
   
 ## See also
 
-#### Concepts
+
 
 [About the Data Degradation Layer API](about-the-data-degradation-layer-api.md)
   

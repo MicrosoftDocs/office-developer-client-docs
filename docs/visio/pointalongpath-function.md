@@ -33,7 +33,7 @@ POINTALONGPATH( ** *section* **, ** *travel* ** ** *[,offset]* ** ** *[,segment]
 | _offset_ <br/> |Optional  <br/> |**Double** <br/> |The distance that the point is offset from the path. See Remarks for more information.  <br/> |
 | _segment_ <br/> |Optional  <br/> |**Integer** <br/> |The 1-based segment of the path in which to calculate the coordinates.  <br/> |
    
-### Return Value
+### Return value
 
  **Point**
   

@@ -29,7 +29,7 @@ Computes the number of bytes that should be allocated for a new [FLATMTSIDLIST](
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**FLATMTSIDLIST** <br/> |
    
-```
+```cpp
 CbNewFLATMTSIDIDLIST (_cb)
 ```
 
@@ -41,12 +41,12 @@ CbNewFLATMTSIDIDLIST (_cb)
     
 ## See also
 
-#### Reference
+
 
 [FLATMTSIDLIST](flatmtsidlist.md)
   
 [MTSID](mtsid.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

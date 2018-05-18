@@ -59,11 +59,11 @@ MAPI_SUBMITTED
   
 > The recipient has already received the message and does not need to receive it again. This is a resend of an earlier transmission. This flag is set in conjunction with the **MAPI_TO**, **MAPI_CC**, and **MAPI_BCC** values. 
     
-The MAPI_P1 value and the **MAPI_SUBMITTED** flag are used when a message is being retransmitted due to nondelivery to one or more of the intended recipients. For this retransmission, the client sets **MAPI_SUBMITTED** on every recipient that does not need the message again but should be displayed in the recipient list. For every recipient that did not receive the message previously, the client retains the original recipient with its **PR_RECIPIENT_TYPE** value unchanged, but additionally submits a copy of the recipient with MAPI_P1 in place of the original value. This copy, which is discarded before actual delivery, forces the recipient into the P1 envelope and guarantees physical retransmission to that recipient. The **PR_RESPONSIBILITY** ( [PidTagResponsibility](pidtagresponsibility-canonical-property.md)) property is set to FALSE for MAPI_P1 recipients.
+The MAPI_P1 value and the **MAPI_SUBMITTED** flag are used when a message is being retransmitted due to nondelivery to one or more of the intended recipients. For this retransmission, the client sets **MAPI_SUBMITTED** on every recipient that does not need the message again but should be displayed in the recipient list. For every recipient that did not receive the message previously, the client retains the original recipient with its **PR_RECIPIENT_TYPE** value unchanged, but additionally submits a copy of the recipient with MAPI_P1 in place of the original value. This copy, which is discarded before actual delivery, forces the recipient into the P1 envelope and guarantees physical retransmission to that recipient. The **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) property is set to FALSE for MAPI_P1 recipients.
   
 When a client displays a resend form, only the MAPI_P1 recipients are visible. Unless the user enters additional recipients, when the message is delivered, the recipient list appears exactly as it did when the message was sent for the first time. 
   
-The **PR_DISPLAY_TO** ( [PidTagDisplayTo](pidtagdisplayto-canonical-property.md)), **PR_DISPLAY_CC** ( [PidTagDisplayCc](pidtagdisplaycc-canonical-property.md)) and **PR_DISPLAY_BCC** ( [PidTagDisplayBcc](pidtagdisplaybcc-canonical-property.md)) properties are related to recipient type. When a client calls a message's **IMAPIProp::SaveChanges** and there is at least one recipient in the recipient list, the message store provider sets these properties as follows: 
+The **PR_DISPLAY_TO** ([PidTagDisplayTo](pidtagdisplayto-canonical-property.md)), **PR_DISPLAY_CC** ([PidTagDisplayCc](pidtagdisplaycc-canonical-property.md)) and **PR_DISPLAY_BCC** ([PidTagDisplayBcc](pidtagdisplaybcc-canonical-property.md)) properties are related to recipient type. When a client calls a message's **IMAPIProp::SaveChanges** and there is at least one recipient in the recipient list, the message store provider sets these properties as follows: 
   
 |**Property**|**Description**|
 |:-----|:-----|
@@ -73,9 +73,9 @@ The **PR_DISPLAY_TO** ( [PidTagDisplayTo](pidtagdisplayto-canonical-property.md)
    
 In X.400, the P1 or delivery envelope is the information needed to deliver a message, including the recipient's address properties and any option flags controlling delivery and replies. The P2 or display envelope is the information usually displayed to each recipient other than the message text itself. It typically includes the subject, importance, priority, sensitivity, and submission time, as well as the primary and copied recipient names. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -93,7 +93,7 @@ In X.400, the P1 or delivery envelope is the information needed to deliver a mes
   
 > Specifies the properties and operations for appointment, meeting request, and response messages.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -105,7 +105,7 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagRecipientStatus Canonical Property](pidtagrecipientstatus-canonical-property.md)
   
@@ -114,7 +114,7 @@ Mapitags.h
 [PidTagDisplayBcc Canonical Property](pidtagdisplaybcc-canonical-property.md)
   
 [PidTagDisplayCc Canonical Property](pidtagdisplaycc-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

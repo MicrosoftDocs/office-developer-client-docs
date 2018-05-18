@@ -24,7 +24,7 @@ Many table methods accept a flag that dictates whether or not string property va
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Tables](mapi-tables.md)
 

@@ -29,15 +29,15 @@ Contains the location of the object in the personal folder store to create or co
 |Data type:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Area:  <br/> |Personal storage table (.pst) internal  <br/> |
    
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]] 
   
 > Provides references to related Exchange Server protocol specifications.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

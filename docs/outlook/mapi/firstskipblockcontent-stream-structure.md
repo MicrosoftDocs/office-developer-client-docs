@@ -22,7 +22,7 @@ The FirstSkipBlockContent stream structure is the content of the first [SkipBloc
     
 ## See also
 
-#### Concepts
+
 
 [Outlook Items and Fields](outlook-items-and-fields.md)
   

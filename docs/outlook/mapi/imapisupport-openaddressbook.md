@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Provides access to the address book.
   
-```
+```cpp
 HRESULT OpenAddressBook(
 LPCIID lpInterface,
 ULONG ulFlags,
@@ -60,7 +60,7 @@ MAPI_W_ERRORS_RETURNED
 
 The **IMAPISupport::OpenAddressBook** method is implemented for all service provider support objects. Service providers, typically tightly coupled message store and transport providers, call **OpenAddressBook** to get access to the address book. The returned **IAddrBook** pointer can be used for a variety of address book tasks, including opening address book containers, finding messaging users, and displaying address dialog boxes. 
   
-## Notes to Callers
+## Notes to callers
 
  **OpenAddressBook** can return MAPI_W_ERRORS_RETURNED if it cannot load one or more of the address book providers in the current profile. This value is a warning and you should treat the call as successful. Even if all of the address book providers failed to load, **OpenAddressBook** still succeeds, returning MAPI_W_ERRORS_RETURNED and an **IAddrBook** pointer in the  _lppAdrBook_ parameter. Because **OpenAddressBook** always returns a valid **IAddrBook** pointer, you must release it when you are finished using it. 
   
@@ -68,7 +68,7 @@ If one or more address book providers failed to load, call [IMAPISupport::GetLas
   
 ## See also
 
-#### Reference
+
 
 [IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
   

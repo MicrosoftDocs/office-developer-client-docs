@@ -37,9 +37,9 @@ The [RTFSync](rtfsync.md) function computes the count of characters in the text 
   
 This property is a Rich Text Format (RTF) auxiliary property. These properties are used by the **RTFSync** function and are not intended to be used directly by client applications. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -49,7 +49,7 @@ This property is a Rich Text Format (RTF) auxiliary property. These properties a
   
 > Encodes and decodes message and attachment objects to an efficient stream representation.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -61,7 +61,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

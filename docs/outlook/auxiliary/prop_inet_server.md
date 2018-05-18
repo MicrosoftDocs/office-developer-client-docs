@@ -16,7 +16,7 @@ description: "Represents the server name of a general Internet mailbox."
 
 Represents the server name of a general Internet mailbox.
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|
@@ -27,7 +27,7 @@ Represents the server name of a general Internet mailbox.
    
 ## See also
 
-#### Concepts
+
 
 [Managing message downloads for POP3 accounts](managing-message-downloads-for-pop3-accounts.md)
   

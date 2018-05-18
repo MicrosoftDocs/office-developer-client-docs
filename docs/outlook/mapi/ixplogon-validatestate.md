@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Checks the transport provider's external status. 
   
-```
+```cpp
 HRESULT ValidateState(
   ULONG_PTR ulUIParam,
   ULONG ulFlags
@@ -95,7 +95,7 @@ To support its implementation of **IMAPIStatus::ValidateState**, the MAPI spoole
   
 ## See also
 
-#### Reference
+
 
 [IMAPIStatus::ValidateState](imapistatus-validatestate.md)
   

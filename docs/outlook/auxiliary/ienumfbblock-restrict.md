@@ -16,7 +16,7 @@ description: "Restricts the enumeration to a specified time period."
 
 Restricts the enumeration to a specified time period.
   
-## Quick Info
+## Quick info
 
 See [IEnumFBBlock](ienumfbblock.md).
   
@@ -48,7 +48,7 @@ This method also resets the enumeration.
   
 ## See also
 
-#### Concepts
+
 
 [IEnumFBBlock::Clone](ienumfbblock-clone.md)
   

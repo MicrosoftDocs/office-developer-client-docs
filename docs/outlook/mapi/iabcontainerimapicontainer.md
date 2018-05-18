@@ -1,7 +1,5 @@
 ---
 title: "IABContainer  IMAPIContainer"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -18,8 +16,6 @@ description: "Last modified: March 09, 2015"
 
 # IABContainer : IMAPIContainer
 
-  
-  
 **Applies to**: Outlook 
   
 Provides access to address book containers. MAPI and client applications call the methods of **IABContainer** to perform name resolution and to create, copy, and delete recipients. 
@@ -34,7 +30,7 @@ Provides access to address book containers. MAPI and client applications call th
 |Pointer type:  <br/> |LPABCONT  <br/> |
 |Transaction model:  <br/> |Transacted  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -45,19 +41,19 @@ Provides access to address book containers. MAPI and client applications call th
    
 |**Required properties**|**Access**|
 |:-----|:-----|
-|**PR_CONTAINER_FLAGS** ( [PidTagContainerFlags](pidtagcontainerflags-canonical-property.md))  <br/> |Read/write  <br/> |
-|**PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Read/write  <br/> |
-|**PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Read-only  <br/> |
-|**PR_OBJECT_TYPE** ( [PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Read-only  <br/> |
-|**PR_RECORD_KEY** ( [PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |Read-only  <br/> |
+|**PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md))  <br/> |Read/write  <br/> |
+|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Read/write  <br/> |
+|**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Read-only  <br/> |
+|**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Read-only  <br/> |
+|**PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |Read-only  <br/> |
    
 |**Optional properties**|**Access**|
 |:-----|:-----|
-|**PR_CONTAINER_CONTENTS** ( [PidTagContainerContents](pidtagcontainercontents-canonical-property.md))  <br/> |Read-only  <br/> |
-|**PR_CONTAINER_HIERARCHY** ( [PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md))  <br/> |Read-only  <br/> |
-|**PR_DEF_CREATE_DL** ( [PidTagDefCreateDl](pidtagdefcreatedl-canonical-property.md))  <br/> |Read-only  <br/> |
-|**PR_DEF_CREATE_MAILUSER** ( [PidTagDefCreateMailuser](pidtagdefcreatemailuser-canonical-property.md))  <br/> |Read-only  <br/> |
-|**PR_DISPLAY_TYPE** ( [PidTagDisplayType](pidtagdisplaytype-canonical-property.md))  <br/> |Read-only  <br/> |
+|**PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md))  <br/> |Read-only  <br/> |
+|**PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md))  <br/> |Read-only  <br/> |
+|**PR_DEF_CREATE_DL** ([PidTagDefCreateDl](pidtagdefcreatedl-canonical-property.md))  <br/> |Read-only  <br/> |
+|**PR_DEF_CREATE_MAILUSER** ([PidTagDefCreateMailuser](pidtagdefcreatemailuser-canonical-property.md))  <br/> |Read-only  <br/> |
+|**PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))  <br/> |Read-only  <br/> |
    
 ## Remarks
 
@@ -69,7 +65,5 @@ MAPI defines a special address book container called the personal address book (
   
 ## See also
 
-#### Concepts
-
-[MAPI Interfaces](mapi-interfaces.md)
+- [MAPI Interfaces](mapi-interfaces.md)
 

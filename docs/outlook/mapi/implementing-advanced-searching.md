@@ -18,7 +18,7 @@ description: "Last modified: July 23, 2011"
   
 **Applies to**: Outlook 
   
-Some address book containers support an advanced searching capability that allows clients to search on properties other than **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)). To support advanced searches, your provider must implement a special container that is accessible through the **PR_SEARCH** ( [PidTagSearch](pidtagsearch-canonical-property.md)) property of your other containers. **PR_SEARCH** contains a container object that provides access to a display table that describes the dialog box used to enter and edit the advanced search criteria. 
+Some address book containers support an advanced searching capability that allows clients to search on properties other than **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)). To support advanced searches, your provider must implement a special container that is accessible through the **PR_SEARCH** ([PidTagSearch](pidtagsearch-canonical-property.md)) property of your other containers. **PR_SEARCH** contains a container object that provides access to a display table that describes the dialog box used to enter and edit the advanced search criteria. 
   
  **To support advanced searching**
   
@@ -30,7 +30,7 @@ Some address book containers support an advanced searching capability that allow
     
 2. Create a new search object that supports the **IMAPIContainer** interface. 
     
-3. At this point, a call will be made to your search container's **IMAPIProp::OpenProperty** method to retrieve its **PR_DETAILS_TABLE** ( [PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) property. Your provider must supply a display table, typically through a call to [BuildDisplayTable](builddisplaytable.md), that describes the container's advanced search dialog box.
+3. At this point, a call will be made to your search container's **IMAPIProp::OpenProperty** method to retrieve its **PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) property. Your provider must supply a display table, typically through a call to [BuildDisplayTable](builddisplaytable.md), that describes the container's advanced search dialog box.
     
 4. MAPI displays the search dialog box, allowing the user to enter the appropriate criteria. When the user has finished, MAPI calls the container's [IMAPIProp::SetProps](imapiprop-setprops.md) method to store the search criteria. 
     

@@ -31,15 +31,15 @@ If set on a nondelivery report, denotes the entry ID of the failed Send-As user.
 |Data type:  <br/> |PT_BINARY  <br/> |
 |Area:  <br/> |General messaging  <br/> |
    
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]] 
   
 > Provides references to related Exchange Server protocol specifications.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -51,7 +51,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

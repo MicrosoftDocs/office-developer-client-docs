@@ -39,9 +39,9 @@ These properties are commonly used to indicate the recipient's formal job title,
   
 Common values for this property include: Managing Director, Programmer II, Associate Professor, and Development Lead. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -55,7 +55,7 @@ Common values for this property include: Managing Director, Programmer II, Assoc
   
 > Specifies the properties and operations for lists of users, contacts, groups, and resources.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -67,7 +67,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

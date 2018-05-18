@@ -30,7 +30,7 @@ Validates a list of MAPI entry identifiers.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Service providers  <br/> |
    
-```
+```cpp
 BOOL FBadEntryList(
   LPENTRYLIST lpEntryList
 );

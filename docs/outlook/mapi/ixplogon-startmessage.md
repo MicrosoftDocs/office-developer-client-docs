@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Initiates the transfer of an inbound message from the transport provider to the MAPI spooler.
   
-```
+```cpp
 HRESULT StartMessage(
   ULONG ulFlags,
   LPMESSAGE lpMessage,
@@ -62,7 +62,7 @@ All recipients in the recipient table that the transport provider creates for th
   
 If any nontransmittable properties are received, the transport provider should not store them in the new message. However, the transport provider should store all transmittable properties it receives in the new message.
   
-If the incoming message is a delivery report or a nondelivery report and the transport provider is unable to use the [IMAPISupport::StatusRecips](imapisupport-statusrecips.md) method to generate the report from the original message, the provider should itself populate the message with the appropriate properties. However, the transport provider cannot set the message's **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)) property.
+If the incoming message is a delivery report or a nondelivery report and the transport provider is unable to use the [IMAPISupport::StatusRecips](imapisupport-statusrecips.md) method to generate the report from the original message, the provider should itself populate the message with the appropriate properties. However, the transport provider cannot set the message's **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) property.
   
 To save the incoming message in the appropriate MAPI message store after processing, the transport provider calls the [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method. If the transport provider does not have any messages to pass to the MAPI spooler, it can stop the incoming message by returning from the **StartMessage** call without calling **SaveChanges**.
   
@@ -74,7 +74,7 @@ For more information, see [Interacting with the MAPI Spooler](interacting-with-t
   
 ## See also
 
-#### Reference
+
 
 [IMAPIProp::SaveChanges](imapiprop-savechanges.md)
   

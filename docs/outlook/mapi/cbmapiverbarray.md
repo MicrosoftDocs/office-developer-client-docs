@@ -29,7 +29,7 @@ Computes the number of bytes in an existing [SMAPIVerbArray](smapiverbarray.md) 
 |Header file:  <br/> |Mapiform.h  <br/> |
 |Related structure:  <br/> |**SMAPIVerbArray** <br/> |
    
-```
+```cpp
 int CbMAPIVerbArray (_c)
 ```
 
@@ -41,12 +41,12 @@ int CbMAPIVerbArray (_c)
     
 ## See also
 
-#### Reference
+
 
 [SMAPIVerbArray](smapiverbarray.md)
   
 [SMAPIVerb](smapiverb.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

@@ -30,7 +30,7 @@ Compares two property values, generally strings or binary arrays, to see if one 
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 BOOL FPropContainsProp(
   LPSPropValue lpSPropValueDst,
   LPSPropValue lpSPropValueSrc,

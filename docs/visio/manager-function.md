@@ -22,7 +22,7 @@ Returns the text from the **Manager** field of a document's properties.
 
 MANAGER ()
   
-### Return Value
+### Return value
 
 String
   

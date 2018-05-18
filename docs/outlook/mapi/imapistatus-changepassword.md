@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Modifies a service provider's password without displaying a user interface. This method is optionally supported in status objects that service providers implement.
   
-```
+```cpp
 HRESULT ChangePassword(
   LPSTR lpOldPass,
   LPSTR lpNewPass,
@@ -62,7 +62,7 @@ MAPI_E_NO_ACCESS
     
 MAPI_E_NO_SUPPORT 
   
-> The status object does not support this operation, as indicated by the absence of the STATUS_CHANGE_PASSWORD flag in the status object's **PR_RESOURCE_METHODS** ( [PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) property.
+> The status object does not support this operation, as indicated by the absence of the STATUS_CHANGE_PASSWORD flag in the status object's **PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) property.
     
 ## Remarks
 
@@ -70,13 +70,13 @@ Not all status objects support the **IMAPIStatus::ChangePassword** method. It is
   
  **ChangePassword** modifies a password programmatically, without user interaction. 
   
-## Notes to Implementers
+## Notes to implementers
 
 Remote transport providers implement **ChangePassword** as specified here. There are no special considerations. 
   
 ## See also
 
-#### Reference
+
 
 [PidTagResourceMethods Canonical Property](pidtagresourcemethods-canonical-property.md)
   

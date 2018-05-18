@@ -22,7 +22,7 @@ Returns the current date and time value.
 
 NOW ( )
   
-### Return Value
+### Return value
 
 Datetime
   

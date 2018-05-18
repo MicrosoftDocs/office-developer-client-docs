@@ -28,7 +28,7 @@ Contains an array of LONG value types that are used to describe a property of ty
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SLongArray
 {
   ULONG cValues;
@@ -53,10 +53,10 @@ For more information about PT_MV_LONG, see [List of Property Types](property-typ
   
 ## See also
 
-#### Reference
+
 
 [SPropValue](spropvalue.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

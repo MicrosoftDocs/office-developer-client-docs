@@ -33,7 +33,7 @@ FORMATEX( ** *expression* **," ** *format* ** ",[ ** *srcUnit* ** ],[ ** *dstUni
 | _langID_ <br/> |Optional  <br/> |**Number** <br/> |The language used when formatting Microsoft Office System date/time pictures.  <br/> |
 | _calID_ <br/> |Optional  <br/> |**Number** <br/> |The calendar used when formatting Microsoft Office System date/time pictures.  <br/> |
    
-### Return Value
+### Return value
 
 String
   

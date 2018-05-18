@@ -16,7 +16,7 @@ description: "Gets the ordering of the specified category of accounts."
 
 Gets the ordering of the specified category of accounts.
   
-## Quick Info
+## Quick info
 
 See [IOlkAccountManager](iolkaccountmanager.md)
   
@@ -62,7 +62,7 @@ Before calling this method, the caller allocates only an array pointer  *prgAcct
   
 ## See also
 
-#### Concepts
+
 
 [Constants (Account management API)](constants-account-management-api.md)
   

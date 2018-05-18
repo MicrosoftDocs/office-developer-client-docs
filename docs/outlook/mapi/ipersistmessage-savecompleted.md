@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Notifies the form that a save operation has been completed. 
   
-```
+```cpp
 HRESULT SaveCompleted(
   LPMESSAGE pMessage
 );
@@ -66,7 +66,7 @@ The **IPersistMessage::SaveCompleted** method is called by a form viewer to noti
     
 - NoScribble
     
-## Notes to Implementers
+## Notes to implementers
 
 There are several possible actions that the **SaveCompleted** method can perform, depending on what the message pointer parameter contains, and what state the message is in. However, when an action is successful, always save the current state of the message that the  _pMessage_ parameter points to and transition the form to its [Normal](normal-state.md) state. 
   
@@ -86,13 +86,13 @@ For more information about saving storage objects, see the documentation for the
   
 ## See also
 
-#### Reference
+
 
 [IPersistMessage : IUnknown](ipersistmessageiunknown.md)
-#### Concepts
+
 
 [Form States](form-states.md)
-#### Other resources
+
 
 [IPersistStorage::SaveCompleted](http://msdn.microsoft.com/library/_com_ipersiststorage_savecompleted%28Office.15%29.aspx)
   

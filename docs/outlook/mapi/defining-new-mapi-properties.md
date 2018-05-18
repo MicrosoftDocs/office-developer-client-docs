@@ -46,7 +46,7 @@ Use the **PT_BINARY** type to indicate a counted byte array. This property type 
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Property Overview](mapi-property-overview.md)
 

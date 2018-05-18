@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Returns a [MAPIERROR](mapierror.md) structure that contains information about the previous button control error. 
   
-```
+```cpp
 HRESULT GetLastError(
   HRESULT hResult,
   ULONG ulFlags,
@@ -64,7 +64,7 @@ MAPI_E_BAD_CHARWIDTH
 
 Service providers implement the **IMAPIControl::GetLastError** method to supply information about a prior method call that failed. MAPI can give users detailed information about the error by displaying the data from the **MAPIERROR** structure in a message or dialog box. 
   
-## Notes to Implementers
+## Notes to implementers
 
 You do not need to have information to include in the **MAPIERROR** structure for every error. It may not be possible to determine what the previous error was. If you have information, return S_OK and the appropriate data in the **MAPIERROR** structure. If no information is available, return S_OK and a pointer to NULL for the  _lppMAPIError_ parameter. 
   
@@ -72,7 +72,7 @@ For more information about the **GetLastError** method, see [MAPI Extended Error
   
 ## See also
 
-#### Reference
+
 
 [MAPIERROR](mapierror.md)
   

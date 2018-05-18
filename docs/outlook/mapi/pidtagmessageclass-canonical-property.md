@@ -43,7 +43,7 @@ Every message is required to furnish these properties. Normally, the client appl
   
 The values defined by MAPI are: 
   
-```
+```cpp
 IPM.Note for a standard interpersonal message 
 REPORT.<subject message class>.DR for a delivery report 
 REPORT.<subject message class>.NDR for a nondelivery report 
@@ -60,9 +60,9 @@ Message classes control which receive folder an incoming message is stored in. F
   
 For more information on using message classes with forms and form servers, see [Choosing a Message Class](choosing-a-message-class.md). 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -80,7 +80,7 @@ For more information on using message classes with forms and form servers, see [
   
 > Specifies the properties and operations that are permissible for representing voice mail and fax messages.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -92,7 +92,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

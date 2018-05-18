@@ -16,7 +16,7 @@ description: "Reports progress for enumeration and rebasing of appointments."
 
 Reports progress for enumeration and rebasing of appointments.
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|
@@ -79,7 +79,7 @@ MAPI client applications that use the [IOlkApptRebaser](iolkapptrebaser.md) inte
   
 ## See also
 
-#### Concepts
+
 
 [About rebasing calendars programmatically for Daylight Saving Time](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
 

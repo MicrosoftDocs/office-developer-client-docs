@@ -62,7 +62,7 @@ The C API provides 15 Microsoft Excel callback functions that can only be called
   
 ## See also
 
-#### Concepts
+
 
 [C API Callback Functions Excel4, Excel12](c-api-callback-functions-excel4-excel12.md)
 

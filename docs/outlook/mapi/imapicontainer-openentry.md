@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Opens an object in the container, returning an interface pointer for further access.
   
-```
+```cpp
 HRESULT OpenEntry(
   ULONG cbEntryID,
   LPENTRYID lpEntryID,
@@ -99,7 +99,7 @@ MAPI_E_UNKNOWN_ENTRYID
 
 The **IMAPIContainer::OpenEntry** method opens an object throughout a container and returns a pointer to an interface implementation to use for further access. 
   
-## Notes to Callers
+## Notes to callers
 
 Because service providers are not required to return an interface implementation of the type specified by the interface identifier in the  _lpInterface_ parameter, check the value pointed to by the  _lpulObjType_ parameter. If necessary, cast the pointer returned in  _lppUnk_ to a pointer of the appropriate type. 
   
@@ -107,7 +107,7 @@ By default, service providers open objects with read-only access unless you set 
   
 ## See also
 
-#### Reference
+
 
 [IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md)
 

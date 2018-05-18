@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns the current message.
   
-```
+```cpp
 HRESULT GetMessage(
   LPMESSAGE FAR * ppmsg
 );
@@ -64,7 +64,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md)
   
@@ -77,7 +77,7 @@ For MFCMAPI sample code, see the following table.
 [IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md)
   
 [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
   

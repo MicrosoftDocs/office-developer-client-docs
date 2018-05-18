@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Returns a [MAPIERROR](mapierror.md) structure that contains information about the previous support object error. 
   
-```
+```cpp
 HRESULT GetLastError(
   HRESULT hResult,
   ULONG ulFlags,
@@ -64,7 +64,7 @@ MAPI_E_BAD_CHARWIDTH
 
 The **IMAPISupport::GetLastError** method is implemented for all support objects. Callers can provide their users with detailed information about the error by including the data from the **MAPIERROR** structure in a dialog box. 
   
-## Notes to Callers
+## Notes to callers
 
 You can use the pointer to the **MAPIERROR** structure, if MAPI supplies one, in the  _lppMAPIError_ parameter only if **GetLastError** returns S_OK. Sometimes MAPI cannot determine what the last error was or it has nothing more to report about the error. In this situation,  _lppMAPIError_ returns a pointer to NULL instead. 
   
@@ -74,14 +74,14 @@ To release all the memory allocated by MAPI, call the [MAPIFreeBuffer](mapifreeb
   
 ## See also
 
-#### Reference
+
 
 [MAPIERROR](mapierror.md)
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
 [IMAPISupport : IUnknown](imapisupportiunknown.md)
-#### Concepts
+
 
 [MAPI Extended Errors](mapi-extended-errors.md)
 

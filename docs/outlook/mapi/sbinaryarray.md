@@ -28,7 +28,7 @@ Contains an array of binary values.
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SBinaryArray
 {
   ULONG cValues;
@@ -55,12 +55,12 @@ For more information about PT_MV_BINARY, see [List of Property Types](property-t
   
 ## See also
 
-#### Reference
+
 
 [SBinary](sbinary.md)
   
 [SPropValue](spropvalue.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

@@ -16,7 +16,7 @@ description: "A variable of this data type holds a binary value."
 
 A variable of this data type holds a binary value.
   
-## Quick Info
+## Quick info
 
 ```
 typedef struct { 

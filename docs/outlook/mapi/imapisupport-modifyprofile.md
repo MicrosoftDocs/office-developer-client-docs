@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Makes changes to a message store profile section permanent.
   
-```
+```cpp
 HRESULT ModifyProfile(
 ULONG ulFlags
 );
@@ -56,7 +56,7 @@ If the MDB_TEMPORARY flag is set, MAPI does nothing and the method returns immed
   
 ## See also
 
-#### Reference
+
 
 [IMAPISession::GetMsgStoresTable](imapisession-getmsgstorestable.md)
   

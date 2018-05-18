@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Gets the conditions for which callbacks are supported by an offline object.
   
-```
+```cpp
 HRESULT GetCapabilities( 
     ULONG *pulCapabilities 
 );
@@ -54,14 +54,14 @@ Also note that, while an offline object may support callbacks for changes other 
   
 ## See also
 
-#### Reference
+
 
 [IMAPIOffline::GetCurrentState](imapioffline-getcurrentstate.md)
   
 [IMAPIOffline::SetCurrentState](imapioffline-setcurrentstate.md)
   
 [IMAPIOfflineMgr : IMAPIOffline](imapiofflinemgrimapioffline.md)
-#### Concepts
+
 
 [MAPI Constants](mapi-constants.md)
   

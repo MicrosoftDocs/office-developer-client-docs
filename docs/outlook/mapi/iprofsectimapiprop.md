@@ -34,16 +34,16 @@ Works with the properties of profile section objects.
 |Pointer type:  <br/> |LPPROFSECT  <br/> |
 |Transaction model:  <br/> |Nontransacted  <br/> |
    
-## Vtable Order
+## Vtable order
 
 This interface does not have any unique methods.
   
 |**Required properties**|**Access**|
 |:-----|:-----|
-|**PR_OBJECT_TYPE** ( [PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Read-only  <br/> |
-|**PR_PROFILE_NAME** ( [PidTagProfileName](pidtagprofilename-canonical-property.md))  <br/> |Read-only  <br/> |
+|**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Read-only  <br/> |
+|**PR_PROFILE_NAME** ([PidTagProfileName](pidtagprofilename-canonical-property.md))  <br/> |Read-only  <br/> |
    
-## Notes to Callers
+## Notes to callers
 
 The **IProfSect** interface does not have any unique methods of its own, but you can call the profile section's [IMAPIProp](imapipropiunknown.md) methods. There are some differences between the **IProfSect** implementation and other implementations of **IMAPIProp**:
   
@@ -73,13 +73,13 @@ Profile sections, unlike other objects, do not support named properties. The [IM
   
 Profile sections reserve the identifier range 0x67F0 to 0x67FF for secure properties. Service providers can use this range to store passwords and other provider-specific credentials. Properties in this range are not returned in the complete list of properties when NULL is passed in the  _lpPropTag_ parameter of the [IMAPIProp::GetProps](imapiprop-getprops.md) method, nor are they returned in the  _lppPropTagArray_ parameter of the [IMAPIProp::GetPropList](imapiprop-getproplist.md) method. Secure properties must be requested specifically by their identifiers. 
   
-MAPI furnishes a profile section with the hard-coded constant MUID_PROFILE_INSTANCE as its identifier and **PR_SEARCH_KEY** ( [PidTagSearchKey](pidtagsearchkey-canonical-property.md)) as its single property. MAPI ensures that the **PR_SEARCH_KEY** property value will be unique among all created profiles. Use **PR_SEARCH_KEY** instead of **PR_PROFILE_NAME** when uniqueness is important, because it is possible for a deleted profile to be followed by another profile with the same name. 
+MAPI furnishes a profile section with the hard-coded constant MUID_PROFILE_INSTANCE as its identifier and **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) as its single property. MAPI ensures that the **PR_SEARCH_KEY** property value will be unique among all created profiles. Use **PR_SEARCH_KEY** instead of **PR_PROFILE_NAME** when uniqueness is important, because it is possible for a deleted profile to be followed by another profile with the same name. 
   
 For more information about how to use profile sections, see [Administering Profiles and Message Services](administering-profiles-and-message-services.md).
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
 

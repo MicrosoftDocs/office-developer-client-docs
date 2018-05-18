@@ -30,7 +30,7 @@ Version Added: Visio 2013
 |:-----|:-----|:-----|:-----|
 | _lcid_or_bcp47_ <br/> |Required  <br/> |**String** <br/> |The LCID or BCP 47 value for the language.  <br/> |
    
-## Return Value
+## Return value
 
 Integer
   

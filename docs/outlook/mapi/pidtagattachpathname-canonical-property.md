@@ -33,17 +33,17 @@ Contains an attachment's fully-qualified path and filename.
    
 ## Remarks
 
-It is recommended that attachment subobjects expose these properties. Setting them indicates that the attachment data is not included with the message but is available on a common file server. These properties are required in conjunction with any of the **PR_ATTACH_METHOD** ( [PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) flags that indicate attachment by reference: **ATTACH_BY_REFERENCE**, **ATTACH_BY_REF_RESOLVE**, or **ATTACH_BY_REF_ONLY**. 
+It is recommended that attachment subobjects expose these properties. Setting them indicates that the attachment data is not included with the message but is available on a common file server. These properties are required in conjunction with any of the **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) flags that indicate attachment by reference: **ATTACH_BY_REFERENCE**, **ATTACH_BY_REF_RESOLVE**, or **ATTACH_BY_REF_ONLY**. 
   
-Each directory or filename is restricted to an eight-character name plus a three-character extension. The overall path is restricted to 256 characters. For a platform that supports long filenames, set both these properties and **PR_ATTACH_LONG_PATHNAME** ( [PidTagAttachLongPathname](pidtagattachlongpathname-canonical-property.md)). 
+Each directory or filename is restricted to an eight-character name plus a three-character extension. The overall path is restricted to 256 characters. For a platform that supports long filenames, set both these properties and **PR_ATTACH_LONG_PATHNAME** ([PidTagAttachLongPathname](pidtagattachlongpathname-canonical-property.md)). 
   
 Client applications should use a universal naming convention (UNC) in most cases when the file is shared, and should use an absolute path when the file is local.
   
 MAPI works only with paths and filenames in the ANSI character set. Clients that use paths and filenames in an OEM character set must convert them to ANSI before calling MAPI. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -53,7 +53,7 @@ MAPI works only with paths and filenames in the ANSI character set. Clients that
   
 > Specifies the properties of rights-managed encoded messages.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -65,12 +65,12 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [ScLocalPathFromUNC](sclocalpathfromunc.md)
   
 [ScUNCFromLocalPath](scuncfromlocalpath.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

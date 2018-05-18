@@ -33,7 +33,7 @@ Implements a progress object that provides client applications with a progress i
 |Interface identifier:  <br/> |IID_IMAPIProgress  <br/> |
 |Pointer type:  <br/> |LPMAPIPROGRESS  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -57,7 +57,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
   

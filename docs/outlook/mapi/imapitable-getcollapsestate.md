@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Returns the data that is needed to rebuild the current collapsed or expanded state of a categorized table.
   
-```
+```cpp
 HRESULT GetCollapseState(
 ULONG ulFlags,
 ULONG cbInstanceKey,
@@ -46,7 +46,7 @@ LPBYTE FAR * lppbCollapseState
     
  _lpbInstanceKey_
   
-> [in] A pointer to the **PR_INSTANCE_KEY** ( [PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) property of the row at which the current collapsed or expanded state should be rebuilt. The  _lpbInstanceKey_ parameter cannot be NULL. 
+> [in] A pointer to the **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) property of the row at which the current collapsed or expanded state should be rebuilt. The  _lpbInstanceKey_ parameter cannot be NULL. 
     
  _lpcbCollapseState_
   
@@ -82,17 +82,17 @@ The **IMAPITable::GetCollapseState** method works with the [IMAPITable::SetColla
     
 For more information about categorized tables, see [Sorting and Categorization](sorting-and-categorization.md).
   
-## Notes to Implementers
+## Notes to implementers
 
 Store the current state of all nodes of a table in the  _lppbCollapseState_ parameter. 
   
-## Notes to Callers
+## Notes to callers
 
 Always call **GetCollapseState** before you call **SetCollapseState**. 
   
 ## See also
 
-#### Reference
+
 
 [IMAPITable::SetCollapseState](imapitable-setcollapsestate.md)
   

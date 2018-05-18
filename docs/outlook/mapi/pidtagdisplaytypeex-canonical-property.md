@@ -33,7 +33,7 @@ Contains the type of an entry, with respect to how the entry should be displayed
    
 ## Remarks
 
-This property specifies the type of an entry, with respect to how it should be displayed in the Global Address List. It provides additional information that cannot be represented in **PR_DISPLAY_TYPE** ( [PidTagDisplayType](pidtagdisplaytype-canonical-property.md)).
+This property specifies the type of an entry, with respect to how it should be displayed in the Global Address List. It provides additional information that cannot be represented in **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)).
   
 > [!NOTE]
 > The values of both **PR_DISPLAY_TYPE** and this property begin with "DT_" and are defined in Mapitags.h. All values not documented are reserved for MAPI. Client applications must not define any new values and must be prepared to deal with an undocumented value. 
@@ -83,9 +83,9 @@ In both a single forest and in a cross-forest configuration, when **PR_DISPLAY_T
 |DT_DISTLIST  <br/> |((ULONG) 0x00000001)  <br/> |Distribution list.  <br/> |
 |DT_SEC_DISTLIST  <br/> |((ULONG) 0x00000009)  <br/> |Security distribution list.  <br/> |
    
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -95,7 +95,7 @@ In both a single forest and in a cross-forest configuration, when **PR_DISPLAY_T
   
 > Specifies the properties and operations for lists of users, contacts, groups, and resources.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -107,7 +107,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Creates a new attachment.
   
-```
+```cpp
 HRESULT CreateAttach(
 LPCIID lpInterface,
 ULONG ulFlags,
@@ -49,7 +49,7 @@ MAPI_DEFERRED_ERRORS
     
  _lpulAttachmentNum_
   
-> [out] Pointer to an index number identifying the newly created attachment. This number is valid only when the message is open and is the basis for the attachment's **PR_ATTACH_NUM** ( [PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) property.
+> [out] Pointer to an index number identifying the newly created attachment. This number is valid only when the message is open and is the basis for the attachment's **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) property.
     
  _lppAttach_
   
@@ -69,7 +69,7 @@ The attachment number pointed to by  _lpulAttachmentNum_ is unique and valid onl
   
 ## See also
 
-#### Reference
+
 
 [IMessage : IMAPIProp](imessageimapiprop.md)
 

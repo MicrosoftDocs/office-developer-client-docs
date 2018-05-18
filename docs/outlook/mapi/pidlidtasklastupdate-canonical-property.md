@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Indicates the Coordinated Universal Time (UTC) and date of the most recent change that was made to the task and indicated by the **dispidTaskHistory** ( [PidLidTaskHistory](pidlidtasklastupdate-canonical-property.md)) property.
+Indicates the Coordinated Universal Time (UTC) and date of the most recent change that was made to the task and indicated by the **dispidTaskHistory** ([PidLidTaskHistory](pidlidtasklastupdate-canonical-property.md)) property.
   
 |||
 |:-----|:-----|
@@ -32,9 +32,9 @@ Indicates the Coordinated Universal Time (UTC) and date of the most recent chang
 |Data type:  <br/> |PT_SYSTIME  <br/> |
 |Area:  <br/> |Task  <br/> |
    
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -44,7 +44,7 @@ Indicates the Coordinated Universal Time (UTC) and date of the most recent chang
   
 > Defines several objects that model the electronic equivalent of tasks, task assignments, and task updates.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -52,7 +52,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

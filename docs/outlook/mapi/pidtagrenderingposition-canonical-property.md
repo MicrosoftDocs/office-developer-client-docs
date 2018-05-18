@@ -33,7 +33,7 @@ Contains an offset, in characters, to use in rendering an attachment within the 
    
 ## Remarks
 
-When the supplied offset is -1 (0xFFFFFFFF), the attachment is not rendered by using this property. All values other than -1 indicate the position within the **PR_BODY** ( [PidTagBody](pidtagbody-canonical-property.md)) property at which the attachment is to be rendered.
+When the supplied offset is -1 (0xFFFFFFFF), the attachment is not rendered by using this property. All values other than -1 indicate the position within the **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) property at which the attachment is to be rendered.
   
  **Note** The character indicated by this property in **PR_BODY** is replaced by the attachment. Typically this character is a space, although a special placeholder character can also be used. 
   
@@ -41,9 +41,9 @@ This property is expressed in characters. In some character sets this is not equ
   
 This property should not be used with Rich Text Format (RTF) text. The rendering position is indicated in RTF by an escape sequence called the object attachment placeholder. This sequence consists of the string  `\objattph` followed by a single character, normally a space, that will be replaced by the attachment rendering. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -53,7 +53,7 @@ This property should not be used with Rich Text Format (RTF) text. The rendering
   
 > Handles message and attachment objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -65,7 +65,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

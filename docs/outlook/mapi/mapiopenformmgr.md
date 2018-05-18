@@ -30,7 +30,7 @@ Opens an [IMAPIFormMgr](imapiformmgriunknown.md) interface on a form library pro
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications  <br/> |
    
-```
+```cpp
 MAPIOpenFormMgr(
   LPMAPISESSION pSession,
   LPMAPIFORMMGR FAR * ppmgr
@@ -65,7 +65,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

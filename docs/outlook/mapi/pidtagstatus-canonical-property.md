@@ -33,7 +33,7 @@ Contains a 32-bit bitmask of flags that define folder status.
    
 ## Remarks
 
-This property for folders is analogous to the **PR_MSG_STATUS** ( [PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) property for messages. Its flags are provided for the client application only and do not affect the message store. Clients can use or ignore these settings. The client can also define its own values for the client-definable bits of this property.
+This property for folders is analogous to the **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) property for messages. Its flags are provided for the client application only and do not affect the message store. Clients can use or ignore these settings. The client can also define its own values for the client-definable bits of this property.
   
 One or more of the following flags can be set for the bitmask:
   
@@ -57,9 +57,9 @@ Message store providers set this property on a folder to one or more of these va
   
 Bits 16 through 31 ("0x10000" through "0x80000000") of this property are available for use by the IPM client application. All other bits are reserved for use by MAPI; those not defined in the preceding list should be initially set to zero and not altered.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -69,7 +69,7 @@ Bits 16 through 31 ("0x10000" through "0x80000000") of this property are availab
   
 > Handles message and attachment objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -81,7 +81,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

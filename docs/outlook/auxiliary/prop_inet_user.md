@@ -16,7 +16,7 @@ description: "Represents the user name for a general Internet mailbox."
 
 Represents the user name for a general Internet mailbox.
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|
@@ -27,7 +27,7 @@ Represents the user name for a general Internet mailbox.
    
 ## See also
 
-#### Concepts
+
 
 [Managing message downloads for POP3 accounts](managing-message-downloads-for-pop3-accounts.md)
   

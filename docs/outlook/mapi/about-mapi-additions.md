@@ -1,28 +1,24 @@
 ---
-title: "About MAPI Additions"
+title: "About MAPI additions"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 78e2806d-bb6f-cd96-21f1-b7c667c73c33
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
-# About MAPI Additions
+# About MAPI additions
 
-  
-  
 **Applies to**: Outlook 
   
 MAPI additions are APIs that belong to Messaging Application Programming Interface (MAPI), such as data types, functions, and properties, that were previously not exposed and documented as part of the MAPI Programmer's Reference. They include the following definitions and properties.
   
-## Constant Definitions
+## Constant definitions
 
- **[Additional MAPI Constants](mapi-constants.md)**
+- **[Additional MAPI Constants](mapi-constants.md)**
   
-## Data Types
+## Data types
 
 - **[EXCHANGE_STORE_VERSION_NUM](exchange_store_version_num.md)**
     
@@ -232,13 +228,8 @@ The following properties are exposed by store objects and are used in searching 
     
 ## See also
 
-#### Concepts
-
-[Access a Store on the Remote Server When Outlook is in Cached Exchange Mode](how-to-access-a-store-on-remote-server-when-outlook-is-in-cached-exchange-mode.md)
-  
-[Detect the Version of Exchange Server in an Outlook Profile](how-to-detect-the-version-of-exchange-server-in-an-outlook-profile.md)
-  
-[Open a Store on the Remote Server When Outlook is in Cached Exchange Mode](how-to-open-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode.md)
-  
-[Manage a Message in an OST Without Invoking a Synchronization in Cached Exchange Mode](how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md)
+- [Access a Store on the Remote Server When Outlook is in Cached Exchange Mode](how-to-access-a-store-on-remote-server-when-outlook-is-in-cached-exchange-mode.md)  
+- [Detect the Version of Exchange Server in an Outlook Profile](how-to-detect-the-version-of-exchange-server-in-an-outlook-profile.md)
+- [Open a Store on the Remote Server When Outlook is in Cached Exchange Mode](how-to-open-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode.md)
+- [Manage a Message in an OST Without Invoking a Synchronization in Cached Exchange Mode](how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md)
 

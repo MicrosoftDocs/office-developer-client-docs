@@ -44,9 +44,9 @@ The value of this property must be one of the following.
 |0x00000003  <br/> |The task is the task assigner's copy of an assigned task.  <br/> |
 |0x00000004  <br/> |The task is the task assigner's copy of a rejected task.  <br/> |
    
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -68,7 +68,7 @@ The value of this property must be one of the following.
   
 > Handles the order and flow for data transfers between a client and server.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -76,7 +76,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

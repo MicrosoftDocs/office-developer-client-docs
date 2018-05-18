@@ -54,7 +54,7 @@ With incoming messages, the flow is reversed. The transport provider receives a 
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Features and Architecture](mapi-features-and-architecture.md)
 

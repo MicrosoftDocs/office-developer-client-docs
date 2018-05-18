@@ -32,7 +32,7 @@ An Outlook Social Connector (OSC) provider must implement this interface to comm
   
 ## See also
 
-#### Concepts
+
 
 [Outlook Social Connector Provider Interfaces](outlook-social-connector-provider-interfaces.md)
 

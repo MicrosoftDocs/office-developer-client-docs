@@ -42,15 +42,15 @@ Each entry of this property must be set to one of the following values.
    
 This property must be set in the delegate information object. The value of "ShowPrivate" indicates that the delegator wants to make private message objects visible. This preference is applicable to all folders for which the delegate has a role of reviewer, author, or editor.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXODLGT]](http://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
 > Specifies methods for connecting to and configuring mailboxes as delegates, and interactions with message and calendar objects when they act on behalf of another user.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -62,7 +62,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

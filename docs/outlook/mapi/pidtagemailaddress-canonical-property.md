@@ -35,20 +35,20 @@ Contains the messaging user's e-mail address.
 
 These properties are examples of the base address properties for all messaging users. It is a null-terminated string whose format has meaning only for the underlying messaging system. 
   
-These properties are used in conjunction with the **PR_ADDRTYPE** ( [PidTagAddressType](pidtagaddresstype-canonical-property.md)) and **PR_MESSAGE_CLASS** ( [PidTagMessageClass](pidtagmessageclass-canonical-property.md)) properties in addressing messages. The string format is qualified by **PR_ADDRTYPE**. 
+These properties are used in conjunction with the **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) and **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) properties in addressing messages. The string format is qualified by **PR_ADDRTYPE**. 
   
 Valid values for this property include: 
   
-```
+```cpp
 network/postoffice/user 
 Bruce@XYZZY.COM 
 /c=US/a=att/p=Microsoft/o=Finance/ou=Purchasing/s=Furthur/g=Joe 
  
 ```
 
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -62,7 +62,7 @@ Bruce@XYZZY.COM
   
 > Converts from Internet standard e-mail conventions to message objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -74,7 +74,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -37,9 +37,9 @@ This property is one of the address properties for the messaging user who receiv
   
 This property corresponds to an X.400 delivery envelope per-message MH_T_ attribute.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -65,7 +65,7 @@ This property corresponds to an X.400 delivery envelope per-message MH_T_ attrib
   
 > Encodes and decodes message and attachment objects to an efficient stream representation.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -77,10 +77,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagEntryId Canonical Property](pidtagentryid-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

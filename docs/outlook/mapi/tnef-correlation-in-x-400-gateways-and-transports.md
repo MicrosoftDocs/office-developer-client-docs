@@ -42,6 +42,6 @@ then the value of **attMessageID** would be the following sequence of hexadecima
   
 This technique is used by the Microsoft Exchange Server X.400 Connector. This technique should be used by any X.400 gateways and transports that connect to Microsoft Exchange Server in order to maximize interoperability.
   
-For greatest compatibility with future as well as present Microsoft software, the IM_THIS_IPM X.400 attribute should also be copied to the **PR_TNEF_CORRELATION_KEY** ( [PidTagTnefCorrelationKey](pidtagtnefcorrelationkey-canonical-property.md)) property. However, since **PR_TNEF_CORRELATION_KEY** is a binary property, no translation into a hexadecimal string is necessary. 
+For greatest compatibility with future as well as present Microsoft software, the IM_THIS_IPM X.400 attribute should also be copied to the **PR_TNEF_CORRELATION_KEY** ([PidTagTnefCorrelationKey](pidtagtnefcorrelationkey-canonical-property.md)) property. However, since **PR_TNEF_CORRELATION_KEY** is a binary property, no translation into a hexadecimal string is necessary. 
   
 

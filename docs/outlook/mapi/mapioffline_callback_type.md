@@ -20,9 +20,9 @@ description: "Last modified: July 23, 2011"
   
 Enumeration of supported types of callbacks.
   
-## Quick Info
+## Quick info
 
-```
+```cpp
 typedef enum  
 {  
      MAPIOFFLINE_CALLBACK_TYPE_NOTIFY = 0 
@@ -32,7 +32,7 @@ typedef enum
 
 ## See also
 
-#### Concepts
+
 
 [About the Offline State API](about-the-offline-state-api.md)
   

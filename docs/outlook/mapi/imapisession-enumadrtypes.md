@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Deprecated. Returns the address types that can be handled by all of the transport providers in the session. 
   
-```
+```cpp
 HRESULT EnumAdrTypes(
   ULONG ulFlags,
   ULONG FAR * lpcAdrTypes,
@@ -60,13 +60,13 @@ S_OK
 
 The **IMAPISession::EnumAdrTypes** method returns a list of the address types that can be handled by all of the active transport providers in the session. The address types for transport providers that are not currently loaded are not included in the list. Transport providers register to handle one or more address types when MAPI calls their [IXPLogon::AddressTypes](ixplogon-addresstypes.md) method. 
   
-## Notes to Callers
+## Notes to callers
 
 Call [MAPIFreeBuffer](mapifreebuffer.md) to release the string array pointed to by the  _lpppszAdrTypes_ parameter. 
   
 ## See also
 
-#### Reference
+
 
 [IXPLogon::AddressTypes](ixplogon-addresstypes.md)
   

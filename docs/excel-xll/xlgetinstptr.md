@@ -50,7 +50,7 @@ short WINAPI xlGetInstPtrExample(void)
     XLOPER12 xRes;
     static HANDLE hOld = 0;
     short iRet;
-    if (Excel12(xlGetInstPtr, &amp;xRes, 0) != xlretSuccess)
+    if (Excel12(xlGetInstPtr, &xRes, 0) != xlretSuccess)
     iRet = -1;
     else
     {
@@ -68,12 +68,12 @@ short WINAPI xlGetInstPtrExample(void)
 
 ## See also
 
-#### Reference
+
 
 [xlGetHwnd](xlgethwnd.md)
   
 [xlGetInst](xlgetinst.md)
-#### Concepts
+
 
 [C API Functions That Can Be Called Only from a DLL or XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

@@ -34,7 +34,7 @@ The following illustration shows the MAPI containment hierarchy. The session is 
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Object and Interface Overview](mapi-object-and-interface-overview.md)
 

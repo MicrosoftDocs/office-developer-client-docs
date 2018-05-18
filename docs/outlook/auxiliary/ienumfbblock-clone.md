@@ -16,7 +16,7 @@ description: "Creates a copy of the enumerator, using the same time restriction 
 
 Creates a copy of the enumerator, using the same time restriction but setting the cursor to the beginning of the enumerator.
   
-## Quick Info
+## Quick info
 
 See [IEnumFBBlock](ienumfbblock.md).
   
@@ -41,7 +41,7 @@ HRESULT Clone(
    
 ## See also
 
-#### Concepts
+
 
 [Constants (Free/busy API)](constants-free-busy-api.md)
   

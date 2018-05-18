@@ -30,7 +30,7 @@ The following diagram shows the layout of an **ADRLIST** data structure, indicat
   
 ## See also
 
-#### Concepts
+
 
 [Managing Memory in MAPI](managing-memory-in-mapi.md)
 

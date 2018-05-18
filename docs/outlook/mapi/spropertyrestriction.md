@@ -28,7 +28,7 @@ Describes a property restriction that is used to match a constant with the value
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SPropertyRestriction
 {
   ULONG relop;
@@ -109,7 +109,7 @@ For more information about the **SPropertyRestriction** structure, see [About Re
   
 ## See also
 
-#### Reference
+
 
 [SExistRestriction](sexistrestriction.md)
   
@@ -122,7 +122,7 @@ For more information about the **SPropertyRestriction** structure, see [About Re
 [IMAPITable::FindRow](imapitable-findrow.md)
   
 [IMAPITable::Restrict](imapitable-restrict.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

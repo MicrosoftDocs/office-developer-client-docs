@@ -29,7 +29,7 @@ Provides information about a folder's support for sharing.
 |Provided by:  <br/> |Message store provider  <br/> |
 |Interface identifier:  <br/> |IID_IFolderSupport  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|

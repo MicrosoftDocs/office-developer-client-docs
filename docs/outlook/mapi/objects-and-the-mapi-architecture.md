@@ -28,10 +28,10 @@ The following illustration shows where each of the MAPI objects fits into the MA
   
 ## See also
 
-#### Reference
+
 
 [IMAPIAdviseSink : IUnknown](imapiadvisesinkiunknown.md)
-#### Concepts
+
 
 [MAPI Object and Interface Overview](mapi-object-and-interface-overview.md)
 

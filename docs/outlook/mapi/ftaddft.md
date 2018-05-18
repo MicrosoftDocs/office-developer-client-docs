@@ -30,7 +30,7 @@ Adds one unsigned 64-bit integer to another.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 FILETIME FtAddFt(
   FILETIME Addend1,
   FILETIME Addend2

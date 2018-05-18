@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Copies or moves one or more properties of an object to another object.
   
-```
+```cpp
 HRESULT DoCopyProps(
   LPCIID lpSrcInterface,
   LPVOID lpSrcObj,
@@ -132,15 +132,15 @@ MAPI_E_UNEXPECTED_TYPE
 
 The **IMAPISupport::DoCopyProps** method is implemented for message store provider support objects. Message store providers can call **DoCopyProps** to implement the [IMAPIProp::CopyProps](imapiprop-copyprops.md) method for their folders and messages. **DoCopyProps** copies or moves the properties that are identified in the property tag array pointed to by  _lpIncludeProps_ and that are present in the object pointed to by  _lpSrcObj_. 
   
-## Notes to Callers
+## Notes to callers
 
 When you copy properties between objects of the same type, such as two messages, the  _lpSrcInterface_ and  _lpDestInterface_ parameters must contain the same interface identifier, and the  _lpSrcObj_ and  _lpDestObj_ parameters must point to objects of the same type. If  _lpDestInterface_ is set to NULL, **DoCopyProps** returns MAPI_E_INVALID_PARAMETER. If you set  _lpDestInterface_ to an acceptable interface identifier, but set  _lpDestObj_ to an invalid pointer, the results are unpredictable. Most likely your provider will fail. 
   
 Set the MAPI_NOREPLACE flag if you do not want any of the properties in the destination object to be overwritten. Properties in the destination object that exist in the source object and are not overwritten are not deleted or modified.
   
-To copy a message's recipient list, include the **PR_MESSAGE_RECIPIENTS** ( [PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) property in the property tag array pointed to by the  _lpIncludeProps_ parameter. To copy the message's attachments, include the **PR_MESSAGE_ATTACHMENTS** ( [PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) property. 
+To copy a message's recipient list, include the **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) property in the property tag array pointed to by the  _lpIncludeProps_ parameter. To copy the message's attachments, include the **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) property. 
   
-To copy a folder or address book container's hierarchy or contents table, include **PR_CONTAINER_HIERARCHY** ( [PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) or **PR_CONTAINER_CONTENTS** ( [PidTagContainerContents](pidtagcontainercontents-canonical-property.md)) in the property tag array. To include a folder's associated contents table, include the **PR_FOLDER_ASSOCIATED_CONTENTS** ( [PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)) property in the array.
+To copy a folder or address book container's hierarchy or contents table, include **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) or **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)) in the property tag array. To include a folder's associated contents table, include the **PR_FOLDER_ASSOCIATED_CONTENTS** ([PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)) property in the array.
   
 If subfolders are copied or moved, their contents are copied or moved in their entirety, regardless of the use of properties indicated by the **SPropTagArray** structure. 
   
@@ -152,7 +152,7 @@ If **DoCopyProps** returns S_OK, free the returned **SPropProblemArray** structu
   
 ## See also
 
-#### Reference
+
 
 [IMAPIProp::CopyProps](imapiprop-copyprops.md)
   

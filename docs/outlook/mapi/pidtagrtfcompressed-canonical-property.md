@@ -33,17 +33,17 @@ Contains the Rich Text Format (RTF) version of the message text, usually in comp
    
 ## Remarks
 
-This property contains the same message text as the **PR_BODY** ( [PidTagBody](pidtagbody-canonical-property.md)) property but in RTF. 
+This property contains the same message text as the **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) property but in RTF. 
   
-Message text in RTF is normally stored in compressed form. However, some systems do not compress formatted text. To accommodate them, MAPI provides the dwMagicUncompressedRTF value for a stream header to identify uncompressed RTF, and the **STORE_UNCOMPRESSED_RTF** flag in **PR_STORE_SUPPORT_MASK** ( [PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) for the message store to indicate it can store uncompressed RTF. 
+Message text in RTF is normally stored in compressed form. However, some systems do not compress formatted text. To accommodate them, MAPI provides the dwMagicUncompressedRTF value for a stream header to identify uncompressed RTF, and the **STORE_UNCOMPRESSED_RTF** flag in **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) for the message store to indicate it can store uncompressed RTF. 
   
 To obtain the contents of this property, call **OpenProperty**, then call [WrapCompressedRTFStream](wrapcompressedrtfstream.md) with the **MAPI_READ** flag. To write into this property, open it with the **MAPI_MODIFY** and **MAPI_CREATE** flags. This ensures that the new data completely replace any old data and that the writes are performed using the minimum number of store updates. 
   
 Message stores that support RTF ignore any changes to white space in the message text. When **PR_BODY** is stored for the first time, the message store also generates and stores this property. If the [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method is subsequently called and **PR_BODY** has been modified, the message store calls the [RTFSync](rtfsync.md) function to ensure synchronization with the RTF version. If only white space has been changed, the properties are left unchanged. This preserves any nontrivial RTF formatting when the message travels through non-RTF-aware clients and messaging systems. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -61,7 +61,7 @@ Message stores that support RTF ignore any changes to white space in the message
   
 > Encapsulates additional content formats (such as HTML) within the RTF body property of messages and attachments.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -73,7 +73,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -36,9 +36,9 @@ Indicates whether a task assignee has replied to a task request.
 
 The client sets this property to FALSE for a new task, or the client sets this property to TRUE when a task is either accepted or rejected. If the property is left unset, a value of FALSE is assumed.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -48,7 +48,7 @@ The client sets this property to FALSE for a new task, or the client sets this p
   
 > Specifies the properties and operations that are permissible for contacts and personal distribution lists.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

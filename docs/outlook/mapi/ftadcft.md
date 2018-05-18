@@ -25,7 +25,7 @@ Adds one unsigned 64-bit integer to another, optionally using a carry flag.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 FILETIME FtAdcFt( 
   FILETIME ft1, 
   FILETIME ft2, 
@@ -57,7 +57,7 @@ The **FtAdcFt** function is identical to **FtAddFt** when  _pwCarry_ is NULL. If
   
 ## See also
 
-#### Reference
+
 
 [FtAddFt](ftaddft.md)
 

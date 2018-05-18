@@ -35,9 +35,9 @@ This property contains TRUE if the profile wizard is to suppress the personal ad
 
 Service providers can set this property when calling a function based on the [LAUNCHWIZARDENTRY](launchwizardentry.md) function prototype. This property tells the profile wizard that the provider does not want the PAB page to be displayed during the user dialog. 
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

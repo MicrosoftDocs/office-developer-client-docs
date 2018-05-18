@@ -16,7 +16,7 @@ description: "Frees memory allocated by the IOlkAccountManager interface."
 
 Frees memory allocated by the [IOlkAccountManager](iolkaccountmanager.md) interface. 
   
-## Quick Info
+## Quick info
 
 See [IOlkAccountManager](iolkaccountmanager.md).
   
@@ -42,7 +42,7 @@ Use this method to release memory allocated by [IOlkAccountManager::GetOrder](io
   
 ## See also
 
-#### Concepts
+
 
 [IOlkAccountManager::GetOrder](iolkaccountmanager-getorder.md)
 

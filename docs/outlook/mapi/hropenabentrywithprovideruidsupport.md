@@ -26,7 +26,7 @@ Performs the same function as the [HrOpenABEntryWithProviderUID](hropenabentrywi
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 HRESULT HrOpenABEntryWithProviderUIDSupport(
   const MAPIUID *pEmsabpUID,
   LPMAPISUP lpSup,

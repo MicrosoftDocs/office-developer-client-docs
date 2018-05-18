@@ -16,13 +16,11 @@ description: "Last modified: July 23, 2011"
 
 # IXPLogon::TransportNotify
 
-  
-  
 **Applies to**: Outlook 
   
 Signals the occurrence of an event about which the transport provider requested notification.
   
-```
+```cpp
 HRESULT TransportNotify(
   ULONG FAR * lpulFlags,
   LPVOID FAR * lppvData
@@ -45,7 +43,7 @@ NOTIFY_BEGIN_INBOUND
     
 NOTIFY_BEGIN_INBOUND_FLUSH 
   
-> Signals the transport provider to cycle through inbound messages as quickly as possible. To comply with this notification, the transport provider should set the STATUS_INBOUND_FLUSH flag in the **PR_STATUS_CODE** ( [PidTagStatusCode](pidtagstatuscode-canonical-property.md)) property of its status table row as soon as it can, by using **ModifyStatusRow**. An inbound messaging cycle is complete when the provider determines it has downloaded all it can, or when it has received a **TransportNotify** method call with the NOTIFY_END_INBOUND_FLUSH flag set. Until the end of the inbound messaging cycle, the provider should not call the [IMAPISupport::SpoolerYield](imapisupport-spooleryield.md) method or otherwise relinquish cycles to the operating system to speed delivery of incoming messages. This is acceptable because the MAPI spooler typically uses NOTIFY_BEGIN_INBOUND_FLUSH only in response to a user's request, via a client application, to deliver all messages now. At the end of the inbound flush operation, the provider should use **SpoolerNotify** to clear the STATUS_INBOUND_FLUSH flag in the **PR_STATUS_CODE** property of its status row. 
+> Signals the transport provider to cycle through inbound messages as quickly as possible. To comply with this notification, the transport provider should set the STATUS_INBOUND_FLUSH flag in the **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) property of its status table row as soon as it can, by using **ModifyStatusRow**. An inbound messaging cycle is complete when the provider determines it has downloaded all it can, or when it has received a **TransportNotify** method call with the NOTIFY_END_INBOUND_FLUSH flag set. Until the end of the inbound messaging cycle, the provider should not call the [IMAPISupport::SpoolerYield](imapisupport-spooleryield.md) method or otherwise relinquish cycles to the operating system to speed delivery of incoming messages. This is acceptable because the MAPI spooler typically uses NOTIFY_BEGIN_INBOUND_FLUSH only in response to a user's request, via a client application, to deliver all messages now. At the end of the inbound flush operation, the provider should use **SpoolerNotify** to clear the STATUS_INBOUND_FLUSH flag in the **PR_STATUS_CODE** property of its status row. 
     
 NOTIFY_BEGIN_OUTBOUND 
   
@@ -91,7 +89,7 @@ The MAPI spooler calls the **IXPLogon::TransportNotify** method to signal the tr
   
 When the user tries to cancel a message that the transport provider has previously deferred, the MAPI spooler calls **TransportNotify**, passing in both the NOTIFY_ABORT_DEFERRED and NOTIFY_CANCEL_MESSAGE flags in  _ulFlags_. If the MAPI spooler is logging off and still has messages in the queue, it passes only NOTIFY_ABORT_DEFERRED in  _ulFlags_ when it calls **TransportNotify**.
   
-## Notes to Implementers
+## Notes to implementers
 
 The provider must synchronize access to its data on this call, because the MAPI spooler can invoke this method from another thread of execution or from a procedure for a different window. This will most likely occur when the MAPI spooler signals the cancellation of a message that the transport provider has started sending.
   

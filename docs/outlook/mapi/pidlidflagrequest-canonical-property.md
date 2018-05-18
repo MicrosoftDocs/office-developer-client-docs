@@ -36,11 +36,11 @@ Represents the status of a meeting request.
 
 In Microsoft Office Outlook, a meeting request is an appointment item.
   
-This property contains user-specifiable text to be associated with the flag and should be set if the message object is flagged or completed, but should not exist for a meeting-related object. Clients may choose not to support this property, and always write "Follow up" (translated to the user's language if appropriate) as the value of the string when this property should be set. This property should be conditionally ignored based on the values of the **dispidFlagStringEnum** ( [PidLidFlagString](pidlidflagstring-canonical-property.md)) and **dispidValidFlagStringProof** ( [PidLidValidFlagStringProof](pidlidvalidflagstringproof-canonical-property.md)) properties.
+This property contains user-specifiable text to be associated with the flag and should be set if the message object is flagged or completed, but should not exist for a meeting-related object. Clients may choose not to support this property, and always write "Follow up" (translated to the user's language if appropriate) as the value of the string when this property should be set. This property should be conditionally ignored based on the values of the **dispidFlagStringEnum** ([PidLidFlagString](pidlidflagstring-canonical-property.md)) and **dispidValidFlagStringProof** ([PidLidValidFlagStringProof](pidlidvalidflagstringproof-canonical-property.md)) properties.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -50,7 +50,7 @@ This property contains user-specifiable text to be associated with the flag and 
   
 > Specifies the properties and operations related to flagging.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -58,7 +58,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

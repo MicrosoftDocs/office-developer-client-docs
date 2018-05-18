@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns a pointer to the complete set of properties that a form uses.
   
-```
+```cpp
 HRESULT CalcFormPropSet(
   ULONG ulFlags,
   LPMAPIFORMPROPARRAY FAR * ppFormPropArray
@@ -65,12 +65,12 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [SMAPIFormPropArray](smapiformproparray.md)
   
 [IMAPIFormInfo : IMAPIProp](imapiforminfoimapiprop.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

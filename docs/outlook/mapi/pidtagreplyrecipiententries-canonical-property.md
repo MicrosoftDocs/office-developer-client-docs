@@ -35,13 +35,13 @@ Contains a sized array of entry identifiers for recipients that are to get a rep
 
 This property contains a [FLATENTRYLIST](flatentrylist.md) structure and is not a multivalued property. 
   
-When this property is not present, a reply is sent only to the user identified by the **PR_SENDER_ENTRYID** ( [PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)) property. When this and the **PR_REPLY_RECIPIENT_NAMES** ( [PidTagReplyRecipientNames](pidtagreplyrecipientnames-canonical-property.md)) properties are defined, the reply is sent to all of the recipients identified by these two properties. A transport provider uses these properties to override the usual reply logic.
+When this property is not present, a reply is sent only to the user identified by the **PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)) property. When this and the **PR_REPLY_RECIPIENT_NAMES** ([PidTagReplyRecipientNames](pidtagreplyrecipientnames-canonical-property.md)) properties are defined, the reply is sent to all of the recipients identified by these two properties. A transport provider uses these properties to override the usual reply logic.
   
 If either this property or the **PR_REPLY_RECIPIENT_NAMES** property is set, the other property must be set also. These properties must contain the same number of recipients, and they must contain them in the same order. Failure to observe these requirements can cause unpredictable results. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -55,7 +55,7 @@ If either this property or the **PR_REPLY_RECIPIENT_NAMES** property is set, the
   
 > Converts from Internet standard e-mail conventions to message objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -67,7 +67,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

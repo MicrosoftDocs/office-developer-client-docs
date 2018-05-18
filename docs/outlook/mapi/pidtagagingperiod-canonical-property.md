@@ -49,9 +49,9 @@ The possible values for **PR_AGING_GRANULARITY** can be one of the following.
    
 For example, if a folder archives an item only after the item has been in the folder for two weeks, then **PR_AGING_GRANULARITY** is **AG_WEEKS** and **PR_AGING_PERIOD** is 2. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -65,7 +65,7 @@ For example, if a folder archives an item only after the item has been in the fo
   
 > Specifies the properties and operations that are permitted for email message objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -77,7 +77,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

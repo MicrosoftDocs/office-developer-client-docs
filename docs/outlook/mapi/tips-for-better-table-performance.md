@@ -42,7 +42,7 @@ Because many of the table operations can be time-consuming and there is no way t
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Tables](mapi-tables.md)
 

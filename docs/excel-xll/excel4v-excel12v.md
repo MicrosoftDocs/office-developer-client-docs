@@ -52,7 +52,7 @@ The number of subsequent arguments that will be passed to the function. In versi
   
 An array that contains the arguments to the function. All arguments in the array must be pointers to **XLOPER** or **XLOPER12** values. 
   
-## Return Value
+## Return value
 
 These functions return the same values as **Excel4** and **Excel12**.
   
@@ -68,7 +68,7 @@ Samples\Framewrk\Framewrk.c
   
 ## See also
 
-#### Reference
+
 
 [Excel4/Excel12](excel4-excel12.md)
 

@@ -28,7 +28,7 @@ Describes information that relate to a critical error. This causes an error noti
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _ERROR_NOTIFICATION
 {
   ULONG cbEntryID;
@@ -81,12 +81,12 @@ For more information about notification, see the topics described in the followi
    
 ## See also
 
-#### Reference
+
 
 [MAPIERROR](mapierror.md)
   
 [NOTIFICATION](notification.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

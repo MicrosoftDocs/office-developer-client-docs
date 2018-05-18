@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Returns the message's attachment table.
   
-```
+```cpp
 HRESULT GetAttachmentTable(
   ULONG ulFlags,
   LPMAPITABLE FAR * lppTable
@@ -57,7 +57,7 @@ S_OK
     
 ## Remarks
 
-The **IMessage::GetAttachmentTable** method returns a pointer to the message's attachment table, which includes information about all of the attachments in the message. Clients can get access to an attachment only through the attachment table. By retrieving an attachment's number its **PR_ATTACH_NUM** ( [PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) property a client can use several of the **IMessage** methods to work with the attachment. 
+The **IMessage::GetAttachmentTable** method returns a pointer to the message's attachment table, which includes information about all of the attachments in the message. Clients can get access to an attachment only through the attachment table. By retrieving an attachment's number its **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) property a client can use several of the **IMessage** methods to work with the attachment. 
   
 There is one row for each attachment. For a complete list of the columns in an attachment table, see [Attachment Tables](attachment-tables.md).
   
@@ -79,7 +79,7 @@ Setting the Unicode flag requests that the information for any string columns re
   
 ## See also
 
-#### Reference
+
 
 [IMessage::CreateAttach](imessage-createattach.md)
   

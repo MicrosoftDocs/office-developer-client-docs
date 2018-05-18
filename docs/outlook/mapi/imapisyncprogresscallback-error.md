@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Provides details that are displayed in the Send/Receive dialog. If errors are encountered during synchronization, the store provider calls this function.
   
-```
+```cpp
 HRESULT Error(
   HRESULT hResult,
   const WCHAR *pwcszErrorStr
@@ -49,7 +49,7 @@ S_OK
     
 ## See also
 
-#### Reference
+
 
 [IMAPISyncProgressCallback : IUnknown](imapisyncprogresscallbackiunknown.md)
 

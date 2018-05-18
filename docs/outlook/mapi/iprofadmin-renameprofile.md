@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Assigns a new name to a profile.
   
-```
+```cpp
 HRESULT RenameProfile(
   LPSTR lpszOldProfileName,
   LPSTR lpszOldPassword,
@@ -84,7 +84,7 @@ The  _lpszPassword_ should always be NULL or a pointer to a zero-length string.
   
 ## See also
 
-#### Reference
+
 
 [IProfAdmin : IUnknown](iprofadminiunknown.md)
 

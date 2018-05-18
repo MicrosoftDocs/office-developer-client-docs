@@ -39,11 +39,11 @@ One or more of the following flags can be set for the bitmask:
   
 FOLDER_COMMON_VIEWS_VALID 
   
-> The common views folder has a valid entry identifier. See **PR_COMMON_VIEWS_ENTRYID** ( [PidTagCommonViewsEntryId](pidtagcommonviewsentryid-canonical-property.md)).
+> The common views folder has a valid entry identifier. See **PR_COMMON_VIEWS_ENTRYID** ([PidTagCommonViewsEntryId](pidtagcommonviewsentryid-canonical-property.md)).
     
 FOLDER_FINDER_VALID 
   
-> The finder folder has a valid entry identifier. See **PR_FINDER_ENTRYID** ( [PidTagFinderEntryId](pidtagfinderentryid-canonical-property.md)). 
+> The finder folder has a valid entry identifier. See **PR_FINDER_ENTRYID** ([PidTagFinderEntryId](pidtagfinderentryid-canonical-property.md)). 
     
 FOLDER_IPM_INBOX_VALID 
   
@@ -51,27 +51,27 @@ FOLDER_IPM_INBOX_VALID
     
 FOLDER_IPM_OUTBOX_VALID 
   
-> The IPM Outbox folder has a valid entry identifier. See **PR_IPM_OUTBOX_ENTRYID** ( [PidTagIpmOutboxEntryId](pidtagipmoutboxentryid-canonical-property.md)). 
+> The IPM Outbox folder has a valid entry identifier. See **PR_IPM_OUTBOX_ENTRYID** ([PidTagIpmOutboxEntryId](pidtagipmoutboxentryid-canonical-property.md)). 
     
 FOLDER_IPM_SENTMAIL_VALID 
   
-> The IPM Sent Items folder has a valid entry identifier. See **PR_IPM_SENTMAIL_ENTRYID** ( [PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)).
+> The IPM Sent Items folder has a valid entry identifier. See **PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)).
     
 FOLDER_IPM_SUBTREE_VALID 
   
-> The IPM folder subtree has a valid entry identifier. See **PR_IPM_SUBTREE_ENTRYID** ( [PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md)).
+> The IPM folder subtree has a valid entry identifier. See **PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md)).
     
 FOLDER_IPM_WASTEBASKET_VALID 
   
-> The IPM Deleted Items folder has a valid entry identifier. See **PR_IPM_WASTEBASKET_ENTRYID** ( [PidTagIpmWastebasketEntryId](pidtagipmwastebasketentryid-canonical-property.md)).
+> The IPM Deleted Items folder has a valid entry identifier. See **PR_IPM_WASTEBASKET_ENTRYID** ([PidTagIpmWastebasketEntryId](pidtagipmwastebasketentryid-canonical-property.md)).
     
 FOLDER_VIEWS_VALID 
   
-> The views folder has a valid entry identifier. See **PR_VIEWS_ENTRYID** ( [PidTagViewsEntryId](pidtagviewsentryid-canonical-property.md)).
+> The views folder has a valid entry identifier. See **PR_VIEWS_ENTRYID** ([PidTagViewsEntryId](pidtagviewsentryid-canonical-property.md)).
     
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -83,7 +83,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

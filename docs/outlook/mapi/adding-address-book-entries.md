@@ -44,7 +44,7 @@ To add a messaging user or distribution list to a container, a client calls [IAd
     
 6. Initialize the new object by setting default properties.
     
-7. Check whether or not the foreign object supports the **PR_TEMPLATEID** ( [PidTagTemplateid](pidtagtemplateid-canonical-property.md)) property. 
+7. Check whether or not the foreign object supports the **PR_TEMPLATEID** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)) property. 
     
 8. If the foreign object supports **PR_TEMPLATEID**, call [IMAPISupport::OpenTemplateID](imapisupport-opentemplateid.md) to retrieve a property object interface from the foreign provider and set the contents of the  _lppMAPIPropEntry_ parameter to the foreign property object implementation. 
     

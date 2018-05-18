@@ -36,11 +36,11 @@ Specifies the end date and time of the event in Coordinated Universal Time (UTC)
 
 For single instance calendar objects, it specifies the end date and time of the event in UTC. For a recurring series, this property specifies midnight on the date of the last instance of the recurring series in UTC, unless the recurring series has no end, in which case the value must be 31 August 4500, 11:59 p.m.
   
-The value of this property must be set to the value of the **dispidApptEndWhole** ( [PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)).
+The value of this property must be set to the value of the **dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)).
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -50,7 +50,7 @@ The value of this property must be set to the value of the **dispidApptEndWhole*
   
 > Specifies the properties and operations for appointment, meeting request, and response messages.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -58,7 +58,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -20,9 +20,9 @@ description: "Last modified: March 09, 2015"
   
 Outgoing messages, after they have been sent, can be left in the Outbox folder, moved to a folder designated to hold sent messages, or deleted. The type of processing depends on whether or not you have set the message store properties:
   
-- **PR_DELETE_AFTER_SUBMIT** ( [PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) 
+- **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) 
     
-- **PR_SENTMAIL_ENTRYID** ( [PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) 
+- **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) 
     
  **PR_DELETE_AFTER_SUBMIT** is a Boolean property, set to TRUE if messages should be deleted after they are sent, and FALSE otherwise. **PR_SENTMAIL_ENTRYID** is the entry identifier of a folder. When this property is set, you should move sent messages to the folder represented by this entry identifier. The saved messages typically have the identity of the last message store or transport provider to send them. 
   

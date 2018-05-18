@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 This structure is used with [IMAPISync::SynchronizeInBackground](imapisyncsynchronizeinbackground.md).
   
-```
+```cpp
 typedef struct _MAPISIB
 {
 ULONG           ulSize;                
@@ -65,7 +65,7 @@ HANDLE          *phSyncDoneEvent;
     
 ## See also
 
-#### Reference
+
 
 [IMAPISyncProgressCallback : IUnknown](imapisyncprogresscallbackiunknown.md)
   

@@ -18,7 +18,7 @@ description: "Last modified: July 23, 2011"
   
 **Applies to**: Outlook 
   
-Every messaging user is associated with an address type, a character string describing the format of the user's address that is stored in the **PR_ADDRTYPE** ( [PidTagAddressType](pidtagaddresstype-canonical-property.md)) property. Address types map to address formats. That is, by looking at a recipient's address type, client applications can determine how to format an address appropriate for the recipient. 
+Every messaging user is associated with an address type, a character string describing the format of the user's address that is stored in the **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) property. Address types map to address formats. That is, by looking at a recipient's address type, client applications can determine how to format an address appropriate for the recipient. 
   
 For example, the  `SMTP` address type specifies the standard Internet address: 
   

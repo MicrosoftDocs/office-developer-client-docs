@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns flag settings from the progress object for the level of operation on which progress information is calculated.
   
-```
+```cpp
 HRESULT GetFlags(
   ULONG FAR * lpulFlags
 );
@@ -52,11 +52,11 @@ MAPI enables service providers to differentiate between top-level objects and su
   
 The value returned by **GetFlags** is set initially by the implementer and subsequently by the service provider through a call to the [IMAPIProgress::SetLimits](imapiprogress-setlimits.md) method. 
   
-## Notes to Implementers
+## Notes to implementers
 
 Always initialize the flag to MAPI_TOP_LEVEL and then rely on service providers to clear it when appropriate. Service providers can clear and reset the flag by calling the **IMAPIProgress::SetLimits** method. For more information about how to implement **GetFlags** and the other **IMAPIProgress** methods, see [Implementing a Progress Indicator](implementing-a-progress-indicator.md).
   
-## Notes to Callers
+## Notes to callers
 
 When you display a progress indicator, make your first call a call to **IMAPIProgress::GetFlags**. The returned value should be MAPI_TOP_LEVEL, because all implementations initialize the contents of the  _lpulFlags_ parameter to this value. For more information about the sequence of calls to a progress object, see [Display a Progress Indicator](how-to-display-a-progress-indicator.md).
   
@@ -70,12 +70,12 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIProgress::SetLimits](imapiprogress-setlimits.md)
   
 [IMAPIProgress : IUnknown](imapiprogressiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
   

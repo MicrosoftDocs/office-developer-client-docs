@@ -1,7 +1,5 @@
 ---
 title: "SCODE"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -18,13 +16,11 @@ description: "Last modified: July 23, 2011"
 
 # SCODE
 
-  
-  
 **Applies to**: Outlook 
   
 A 32-bit status value that is used to describe an error or warning. 
   
-```
+```cpp
 typedef ULONG SCODE;
 
 ```
@@ -52,10 +48,10 @@ For more information about how MAPI uses the **SCODE** data type, see [Error Han
   
 ## See also
 
-#### Reference
+
 
 [HRESULT](hresult.md)
-#### Concepts
+
 
 [MAPI Data Types](mapi-data-types.md)
 

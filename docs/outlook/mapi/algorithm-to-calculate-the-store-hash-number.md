@@ -6,17 +6,13 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 489e0d74-8ecd-23ba-c874-18fd8c50fd12
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
 # Algorithm to Calculate the Store Hash Number
-
-  
-  
+ 
 **Applies to**: Outlook 
   
- As part of a MAPI Uniform Resource Locator (URL), a store provider sends a store hash number to the MAPI Protocol Handler to identify an object that is ready for indexing. The MAPI Protocol Handler uses this store hash number to identify a store. In general, a store provider calculates the store hash number based on the store mapping signature, if the store has the **[PR_MAPPING_SIGNATURE](pidtagmappingsignature-canonical-property.md)** property defined in the global profile section. Otherwise, the store provider uses the store entry ID. The algorithm to calculate the store hash number must minimize ambiguities identifying stores. 
+As part of a MAPI Uniform Resource Locator (URL), a store provider sends a store hash number to the MAPI Protocol Handler to identify an object that is ready for indexing. The MAPI Protocol Handler uses this store hash number to identify a store. In general, a store provider calculates the store hash number based on the store mapping signature, if the store has the **[PR_MAPPING_SIGNATURE](pidtagmappingsignature-canonical-property.md)** property defined in the global profile section. Otherwise, the store provider uses the store entry ID. The algorithm to calculate the store hash number must minimize ambiguities identifying stores. 
   
 This topic describes an algorithm that Microsoft Office Outlook uses to calculate a store hash number based on the store mapping signature or entry ID and the store file name. 
   
@@ -24,12 +20,12 @@ The binary blob to be encoded is the PR_ENTRYID of the store in most cases, but 
   
 After computing the hash for a public folder store's binary blob, but before hashing-in the OST path, the constant 0x2E505542, which represents the string ".PUB", is hashed in to assure it is unique, that is, distinct from the private store's hash.
   
-The support code culls the relevant bits from the profile, which can be used to determine whether a store is public or private, if it's cached, and the path to the OST. To incorporate this code in a project, call the function ComputeStoreHash, which takes as its input the session pointer as well as PR_ENTRYID, PR_SERVICE_UID, and PR_MDB_PROVIDER from the message store table. The rest of the information it needs it gets from the profile. For output, this function returns the hash as computed from PR_MAPPING_SIGNATURE if the store is a cached Exchange store, or the hash as computed from PR_ENTRYID.
+The support code culls the relevant bits from the profile, which can be used to determine whether a store is public or private, if it's cached, and the path to the OST. To incorporate this code in a project, call the function ComputeStoreHash, which takes as its input the session pointer as well as PR\_ENTRYID, PR\_SERVICE_UID, and PR\_MDB_PROVIDER from the message store table. The rest of the information it needs it gets from the profile. For output, this function returns the hash as computed from PR\_MAPPING_SIGNATURE if the store is a cached Exchange store, or the hash as computed from PR\_ENTRYID.
   
 > [!NOTE]
 > The HrEmsmdbUIDFromStore support function is a [Multiple Exchange Accounts](using-multiple-exchange-accounts.md)-aware replacement for using pbGlobalProfileSectionGuid to open the profile section for an Exchange mailbox. 
   
-```
+```cpp
 #define PR_PROFILE_OFFLINE_STORE_PATH_A PROP_TAG(PT_STRING8, 0x6610)
 #define PR_PROFILE_OFFLINE_STORE_PATH_W PROP_TAG(PT_UNICODE, 0x6610)
 #define CONFIG_OST_CACHE_PRIVATE  ((ULONG)0x00000180)
@@ -55,28 +51,28 @@ HRESULT HrEmsmdbUIDFromStore(IMAPISession* pmsess,
       PR_EMSMDB_SECTION_UID,
     }
   };
-  hRes = pmsess->AdminServices(0, (LPSERVICEADMIN*)&amp;spSvcAdmin);
-  if (SUCCEEDED(hRes) &amp;&amp; spSvcAdmin)
+  hRes = pmsess->AdminServices(0, (LPSERVICEADMIN*)&spSvcAdmin);
+  if (SUCCEEDED(hRes) && spSvcAdmin)
   {
-    hRes = spSvcAdmin->GetMsgServiceTable(0, &amp;spmtab);
+    hRes = spSvcAdmin->GetMsgServiceTable(0, &spmtab);
     if (spmtab)
     {
-      hRes = spmtab->SetColumns((LPSPropTagArray)&amp;tagaCols, TBL_BATCH);
+      hRes = spmtab->SetColumns((LPSPropTagArray)&tagaCols, TBL_BATCH);
       mres.rt = RES_PROPERTY;
       mres.res.resProperty.relop = RELOP_EQ;
       mres.res.resProperty.ulPropTag = PR_SERVICE_UID;
-      mres.res.resProperty.lpProp = &amp;mval;
+      mres.res.resProperty.lpProp = &mval;
       mval.ulPropTag = PR_SERVICE_UID;
       mval.Value.bin.cb = sizeof(*puidService);
       mval.Value.bin.lpb = (LPBYTE)puidService;
-      (void) spmtab->Restrict(&amp;mres, 0);
-      (void) spmtab->QueryRows(10, 0, &amp;pRows);
-      if (SUCCEEDED(hRes) &amp;&amp; pRows &amp;&amp; pRows->cRows)
+      (void) spmtab->Restrict(&mres, 0);
+      (void) spmtab->QueryRows(10, 0, &pRows);
+      if (SUCCEEDED(hRes) && pRows && pRows->cRows)
       {
-        pRow = &amp;pRows->aRow[0];
-        if (pEmsmdbUID &amp;&amp; pRow)
+        pRow = &pRows->aRow[0];
+        if (pEmsmdbUID && pRow)
         {
-          if (PR_EMSMDB_SECTION_UID == pRow->lpProps[eSectionUid].ulPropTag &amp;&amp;
+          if (PR_EMSMDB_SECTION_UID == pRow->lpProps[eSectionUid].ulPropTag &&
             pRow->lpProps[eSectionUid].Value.bin.cb == sizeof(*pEmsmdbUID))
           {
             memcpy(pEmsmdbUID, pRow->lpProps[eSectionUid].Value.bin.lpb, sizeof(*pEmsmdbUID));
@@ -110,7 +106,7 @@ DWORD ComputeHash(ULONG cbStoreEID, LPBYTE pbStoreEID, LPCSTR pszFileName, LPCWS
   ULONG  i      = 0;
   if (!cbStoreEID || !pbStoreEID) return dwHash;
   // Shouldn't see both of these at the same time.
-  if (pszFileName &amp;&amp; pwzFileName) return dwHash;
+  if (pszFileName && pwzFileName) return dwHash;
   // Get the Store Entry ID
   // pbStoreEID is a pointer to the Entry ID.
   // cbStoreEID is the size in bytes of the Entry ID.
@@ -169,59 +165,59 @@ void ComputeStoreHash(LPMAPISESSION lpMAPISession, LPSBinary lpEntryID, LPSBinar
   {
     hRes = HrEmsmdbUIDFromStore(lpMAPISession,
       (LPMAPIUID) lpServiceUID->lpb,
-      &amp;emsmdbUID);
+      &emsmdbUID);
     if (SUCCEEDED(hRes))
     {
-      hRes = lpMAPISession->OpenProfileSection(&amp;emsmdbUID, NULL, 0, &amp;lpProfSect);
+      hRes = lpMAPISession->OpenProfileSection(&emsmdbUID, NULL, 0, &lpProfSect);
     }
   }
   if (!lpServiceUID || FAILED(hRes))
   {
     // For Outlook 2003/2007, HrEmsmdbUIDFromStore may not succeed,
     // so use pbGlobalProfileSectionGuid instead.
-    hRes = lpMAPISession->OpenProfileSection((LPMAPIUID)pbGlobalProfileSectionGuid, NULL, 0, &amp;lpProfSect);
+    hRes = lpMAPISession->OpenProfileSection((LPMAPIUID)pbGlobalProfileSectionGuid, NULL, 0, &lpProfSect);
   }
   if (lpProfSect)
   {
-    hRes = HrGetOneProp(lpProfSect, PR_PROFILE_CONFIG_FLAGS, &amp;lpConfigProp);
-    if (SUCCEEDED(hRes) &amp;&amp; PROP_TYPE(lpConfigProp->ulPropTag) != PT_ERROR)
+    hRes = HrGetOneProp(lpProfSect, PR_PROFILE_CONFIG_FLAGS, &lpConfigProp);
+    if (SUCCEEDED(hRes) && PROP_TYPE(lpConfigProp->ulPropTag) != PT_ERROR)
     {
       if (fPrivateExchangeStore)
       {
-        fCached = ((lpConfigProp->Value.l &amp; CONFIG_OST_CACHE_PRIVATE) != 0);
+        fCached = ((lpConfigProp->Value.l & CONFIG_OST_CACHE_PRIVATE) != 0);
       }
       if (fPublicExchangeStore)
       {
-        fCached = ((lpConfigProp->Value.l &amp; CONFIG_OST_CACHE_PUBLIC) == CONFIG_OST_CACHE_PUBLIC);
+        fCached = ((lpConfigProp->Value.l & CONFIG_OST_CACHE_PUBLIC) == CONFIG_OST_CACHE_PUBLIC);
       }
     }
     if (fCached)
     {
-      hRes = HrGetOneProp(lpProfSect, PR_PROFILE_OFFLINE_STORE_PATH_W, &amp;lpPathPropW);
+      hRes = HrGetOneProp(lpProfSect, PR_PROFILE_OFFLINE_STORE_PATH_W, &lpPathPropW);
       if (FAILED(hRes))
       {
-        hRes = HrGetOneProp(lpProfSect, PR_PROFILE_OFFLINE_STORE_PATH_A, &amp;lpPathPropA);
+        hRes = HrGetOneProp(lpProfSect, PR_PROFILE_OFFLINE_STORE_PATH_A, &lpPathPropA);
       }
       if (SUCCEEDED(hRes))
       {
-        if (lpPathPropW &amp;&amp; lpPathPropW->Value.lpszW)
+        if (lpPathPropW && lpPathPropW->Value.lpszW)
         {
           wzPath = lpPathPropW->Value.lpszW;
         }
-        else if (lpPathPropA &amp;&amp; lpPathPropA->Value.lpszA)
+        else if (lpPathPropA && lpPathPropA->Value.lpszA)
         {
           szPath = lpPathPropA->Value.lpszA;
         }
       }
       // If this is an Exchange store with an OST path, it's an OST, so get the mapping signature.
-      if ((fPrivateExchangeStore || fPublicExchangeStore) &amp;&amp; (wzPath || szPath))
+      if ((fPrivateExchangeStore || fPublicExchangeStore) && (wzPath || szPath))
       {
-        hRes = HrGetOneProp(lpProfSect, PR_MAPPING_SIGNATURE, &amp;lpMappingSig);
+        hRes = HrGetOneProp(lpProfSect, PR_MAPPING_SIGNATURE, &lpMappingSig);
       }
     }
   }
   DWORD dwSigHash = NULL;
-  if (lpMappingSig &amp;&amp; PT_BINARY == PROP_TYPE(lpMappingSig->ulPropTag))
+  if (lpMappingSig && PT_BINARY == PROP_TYPE(lpMappingSig->ulPropTag))
   {
     dwSigHash = ComputeHash(lpMappingSig->Value.bin.cb, lpMappingSig->Value.bin.lpb, NULL, NULL, fPublicExchangeStore);
   }
@@ -241,9 +237,6 @@ void ComputeStoreHash(LPMAPISESSION lpMAPISession, LPSBinary lpEntryID, LPSBinar
   
 ## See also
 
-#### Concepts
-
-[About Notification-Based Store Indexing](about-notification-based-store-indexing.md)
-  
-[About MAPI URLs for Notification-Based Indexing](about-mapi-urls-for-notification-based-indexing.md)
+- [About Notification-Based Store Indexing](about-notification-based-store-indexing.md)
+- [About MAPI URLs for Notification-Based Indexing](about-mapi-urls-for-notification-based-indexing.md)
 

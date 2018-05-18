@@ -24,7 +24,7 @@ Conceptually, there is one folder form library for every folder in a message sto
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Forms](mapi-forms.md)
 

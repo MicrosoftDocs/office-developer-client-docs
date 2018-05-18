@@ -48,14 +48,14 @@ Fiddler is an over-the-wire debugging tool to check the API calls sent from your
   
 ## See also
 
-#### Concepts
+
 
 [Quick Steps for Learning to Develop a Provider](quick-steps-for-learning-to-develop-a-provider.md)
   
 [Synchronizing Friends and Activities](synchronizing-friends-and-activities.md)
   
 [Best Practices for Developing a Provider](best-practices-for-developing-a-provider.md)
-#### Other resources
+
 
 [OSC Typical Calling Sequences](osc-typical-calling-sequences.md)
   

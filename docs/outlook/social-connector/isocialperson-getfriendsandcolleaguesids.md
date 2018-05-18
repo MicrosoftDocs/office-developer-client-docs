@@ -22,7 +22,7 @@ HRESULT _stdcall GetFriendsAndColleaguesIDs([out, retval] SAFEARRAY(BSTR)* frien
 
 ## See also
 
-#### Reference
+
 
 [ISocialPerson : IUnknown](isocialpersoniunknown.md)
 

@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Returns a [MAPIERROR](mapierror.md) structure that contains information about the previous session error. 
   
-```
+```cpp
 HRESULT GetLastError(
   HRESULT hResult,
   ULONG ulFlags,
@@ -64,7 +64,7 @@ MAPI_E_BAD_CHARWIDTH
 
 The **IMAPISession::GetLastError** method retrieves information about the last error that was returned by an **IMAPISession** method call. Clients can provide their users with detailed information about the error by including this information in a dialog box. 
   
-## Notes to Callers
+## Notes to callers
 
 You can use the **MAPIERROR** structure, if MAPI supplies one, pointed to by the  _lppMAPIError_ parameter only if **GetLastError** returns S_OK. Sometimes MAPI cannot determine what the last error was, or it has nothing more to report about the error. In this situation, **GetLastError** returns a pointer to NULL in  _lppMAPIError_ instead. 
   
@@ -72,14 +72,14 @@ For more information about the **GetLastError** method, see [MAPI Extended Error
   
 ## See also
 
-#### Reference
+
 
 [MAPIERROR](mapierror.md)
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
 [IMAPISession : IUnknown](imapisessioniunknown.md)
-#### Concepts
+
 
 [MAPI Extended Errors](mapi-extended-errors.md)
 

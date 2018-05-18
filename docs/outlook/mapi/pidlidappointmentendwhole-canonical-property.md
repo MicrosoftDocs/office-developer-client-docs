@@ -36,11 +36,11 @@ Represents the date and time that an appointment ends.
 
 This property corresponds to the **dispidApptEndWhole** property of the appointment in the Microsoft Office Outlook object model. 
   
-This specifies the end date and time for the event; it must be in Coordinated Universal Time (UTC) and must be greater than the value of the **dispidApptStartWhole** ( [PidLidAppointmentStartWhole](pidlidappointmentstartwhole-canonical-property.md)) property. For a recurring series, the **dispidApptEndWhole** property is the end date and time of the first instance according to the recurrence pattern. 
+This specifies the end date and time for the event; it must be in Coordinated Universal Time (UTC) and must be greater than the value of the **dispidApptStartWhole** ([PidLidAppointmentStartWhole](pidlidappointmentstartwhole-canonical-property.md)) property. For a recurring series, the **dispidApptEndWhole** property is the end date and time of the first instance according to the recurrence pattern. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -50,7 +50,7 @@ This specifies the end date and time for the event; it must be in Coordinated Un
   
 > Specifies the properties and operations for appointment, meeting request, and response messages.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -58,7 +58,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

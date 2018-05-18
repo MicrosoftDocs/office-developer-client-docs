@@ -38,7 +38,7 @@ For more information about the sections of a .cfg file, see [File Format of Form
   
 ## See also
 
-#### Concepts
+
 
 [Developing MAPI Form Servers](developing-mapi-form-servers.md)
 

@@ -34,7 +34,7 @@ Specifies which electronic address properties are set on the contact.
    
 ## Remarks
 
-Each PT_LONG value in this property must be unique in the property and must be set to one of the values in the following table. If this property is set, the **dispidABPArrayType** ( [PidLidAddressBookProviderArrayType](pidlidaddressbookproviderarraytype-canonical-property.md)) property must also be set. These two properties must be kept synchronized with each other. For example, if one of the values in **dispidABPEmailList** is "0x00000000", then **dispidABPArrayType** must have the bit "0x00000001" set. 
+Each PT_LONG value in this property must be unique in the property and must be set to one of the values in the following table. If this property is set, the **dispidABPArrayType** ([PidLidAddressBookProviderArrayType](pidlidaddressbookproviderarraytype-canonical-property.md)) property must also be set. These two properties must be kept synchronized with each other. For example, if one of the values in **dispidABPEmailList** is "0x00000000", then **dispidABPArrayType** must have the bit "0x00000001" set. 
   
 |**Value**|**Description**|
 |:-----|:-----|
@@ -45,9 +45,9 @@ Each PT_LONG value in this property must be unique in the property and must be s
 |0x00000004  <br/> |Home fax is defined for the contact.  <br/> |
 |0x00000005  <br/> |Primary fax is defined for the contact.  <br/> |
    
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -57,7 +57,7 @@ Each PT_LONG value in this property must be unique in the property and must be s
   
 > Specifies the properties and operations that are permissible for contacts and personal distribution lists.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -65,7 +65,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

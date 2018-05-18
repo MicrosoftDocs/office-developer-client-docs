@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Creates a bookmark at the table's current position.
   
-```
+```cpp
 HRESULT CreateBookmark(
 BOOKMARK FAR * lpbkPosition
 );
@@ -52,7 +52,7 @@ The **IMAPITable::CreateBookmark** method marks a table position by creating a v
   
 Bookmarks are not supported on attachment tables, and attachment table implementations of **CreateBookmark** return MAPI_E_NO_SUPPORT. 
   
-## Notes to Implementers
+## Notes to implementers
 
 Because of the memory expense of maintaining cursor positions with bookmarks, limit the number of bookmarks that you can create. When you reach that number, return MAPI_E_UNABLE_TO_COMPLETE from all subsequent calls to **CreateBookmark**.
   
@@ -60,13 +60,13 @@ Sometimes a bookmark points to a row that is no longer in the table view. If a c
   
 When the caller attempts to use a bookmark that is pointing to a nonvisible row because it has been collapsed, return MAPI_W_POSITION_CHANGED after moving the bookmark. You can reposition the bookmark to the next visible row either at this time or when the collapsing occurs in the **SetCollapseState** method. If you move the bookmark at the time the row is collapsed, you must retain a bit in the bookmark that indicates exactly when the bookmark was moved: since its last use or if it has never been used since its creation. 
   
-## Notes to Callers
+## Notes to callers
 
  **CreateBookmark** allocates memory for the bookmark it creates. Release the resources for the bookmark by calling the [IMAPITable::FreeBookmark](imapitable-freebookmark.md) method. 
   
 ## See also
 
-#### Reference
+
 
 [IMAPITable::FreeBookmark](imapitable-freebookmark.md)
   

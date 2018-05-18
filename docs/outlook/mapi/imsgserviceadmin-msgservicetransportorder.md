@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Sets the order in which transport providers are called to deliver a message.
   
-```
+```cpp
 HRESULT MsgServiceTransportOrder(
   ULONG cUID,
   LPMAPIUID lpUIDList,
@@ -62,13 +62,13 @@ MAPI_E_NOT_FOUND
     
 ## Remarks
 
-The **IMsgServiceAdmin::MsgServiceTransportOrder** method sets the delivery order of transport providers in a profile. The  _lpUIDList_ parameter must contain a sorted list of transport-provider entry identifiers obtained from the **PR_PROVIDER_UID** ( [PidTagProviderUid](pidtagprovideruid-canonical-property.md)) property of the table returned from the [IMsgServiceAdmin::GetProviderTable](imsgserviceadmin-getprovidertable.md) method. A client application must pass the complete list in  _lpUIDList_.
+The **IMsgServiceAdmin::MsgServiceTransportOrder** method sets the delivery order of transport providers in a profile. The  _lpUIDList_ parameter must contain a sorted list of transport-provider entry identifiers obtained from the **PR_PROVIDER_UID** ([PidTagProviderUid](pidtagprovideruid-canonical-property.md)) property of the table returned from the [IMsgServiceAdmin::GetProviderTable](imsgserviceadmin-getprovidertable.md) method. A client application must pass the complete list in  _lpUIDList_.
   
- **SetTransportOrder** overrides transport provider preferences such as the STATUS_XP_PREFER_LAST flag set in the **PR_RESOURCE_FLAGS** ( [PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) property. 
+ **SetTransportOrder** overrides transport provider preferences such as the STATUS_XP_PREFER_LAST flag set in the **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) property. 
   
 ## See also
 
-#### Reference
+
 
 [MAPIUID](mapiuid.md)
   

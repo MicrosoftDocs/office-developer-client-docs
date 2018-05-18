@@ -30,7 +30,7 @@ Validates a specified property tag.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Service providers  <br/> |
    
-```
+```cpp
 ULONG FBadPropTag(
   ULONG ulPropTag
 );
@@ -58,7 +58,7 @@ The **FBadPropTag** function validates the specified property tag based on MAPI 
   
 ## See also
 
-#### Reference
+
 
 [FBadProp](fbadprop.md)
 

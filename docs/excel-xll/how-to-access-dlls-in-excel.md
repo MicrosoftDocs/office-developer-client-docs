@@ -79,7 +79,7 @@ In VBA, data elements in user-defined data types are packed to 4-byte boundaries
   
 The following is an example of equivalent user type definitions.
   
-```VB.net
+```vb
 Type VB_User_Type
     i As Integer
     d As Double
@@ -204,7 +204,7 @@ DLL developers do need to be concerned about the same instance of an application
   
 ## See also
 
-#### Concepts
+
 
 [Developing DLLs](developing-dlls.md)
   

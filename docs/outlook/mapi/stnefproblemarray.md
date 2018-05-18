@@ -28,7 +28,7 @@ Contains an array of **STnefProblem** structures describing one or more processi
 |:-----|:-----|
 |Header file:  <br/> |Tnef.h  <br/> |
    
-```
+```cpp
 typedef struct _STnefProblemArray
 {
   ULONG cProblem;
@@ -55,12 +55,12 @@ If an **STnefProblem** structure is not generated during the processing of an at
   
 ## See also
 
-#### Reference
+
 
 [STnefProblem](stnefproblem.md)
   
 [SCODE](scode.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

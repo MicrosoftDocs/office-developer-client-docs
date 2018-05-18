@@ -20,9 +20,9 @@ description: "Last modified: July 23, 2011"
   
 Source key for an Outlook item.
   
-## Quick Info
+## Quick info
 
-```
+```cpp
 struct SKEY 
 { 
     GUID guid; 
@@ -38,7 +38,7 @@ struct SKEY
     
 ## See also
 
-#### Concepts
+
 
 [About the Replication API](about-the-replication-api.md)
   

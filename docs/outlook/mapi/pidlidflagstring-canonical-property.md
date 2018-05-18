@@ -34,7 +34,7 @@ Contains an index that identifies one of a set of pre-defined text strings assoc
    
 ## Remarks
 
-If this property is set, clients should use the corresponding string value in the tables below (for example, to substitute a string that is translated into the current user's language), and should ignore the value set in **dispidFlagRequest** ( [PidLidFlagRequest](pidlidflagrequest-canonical-property.md)) and **dispidValidFlagStringProof** ( [PidLidValidFlagStringProof](pidlidvalidflagstringproof-canonical-property.md)). 
+If this property is set, clients should use the corresponding string value in the tables below (for example, to substitute a string that is translated into the current user's language), and should ignore the value set in **dispidFlagRequest** ([PidLidFlagRequest](pidlidflagrequest-canonical-property.md)) and **dispidValidFlagStringProof** ([PidLidValidFlagStringProof](pidlidvalidflagstringproof-canonical-property.md)). 
   
 Defaults suggested to the user for contact objects are as follows:
   
@@ -65,9 +65,9 @@ Defaults suggested to the user for all other message objects are as follows:
    
 All strings specified above can be translated to the user's language, if appropriate.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -77,7 +77,7 @@ All strings specified above can be translated to the user's language, if appropr
   
 > Specifies the properties and operations related to flagging.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -85,7 +85,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

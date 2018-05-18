@@ -32,9 +32,9 @@ Contains the names of the companies that are associated with an item.
 |Data type:  <br/> |PT_MV_UNICODE  <br/> |
 |Area:  <br/> |General messaging  <br/> |
    
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -44,7 +44,7 @@ Contains the names of the companies that are associated with an item.
   
 > Specifies the properties and operations that are permissible for journals.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -52,7 +52,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

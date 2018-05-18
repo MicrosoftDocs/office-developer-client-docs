@@ -67,9 +67,9 @@ MAPI_TRANSPORT_PROVIDER
   
 > Transport provider
     
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -81,7 +81,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

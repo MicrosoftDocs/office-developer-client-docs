@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Initiates the logoff process. 
   
-```
+```cpp
 HRESULT TransportLogoff(
   ULONG ulFlags
 );
@@ -46,7 +46,7 @@ S_OK
 
 The MAPI spooler calls the **IXPLogon::TransportLogoff** method to terminate a transport provider session for a particular user. Before calling **TransportLogoff**, the MAPI spooler discards any data about supported messaging address types for this session passed in the [IXPLogon::AddressTypes](ixplogon-addresstypes.md) method. 
   
-## Notes to Implementers
+## Notes to implementers
 
 The transport provider should be prepared to accept a call to **TransportLogoff** at any time. If a message is in process, the provider should stop the sending process. 
   
@@ -56,7 +56,7 @@ Usually, on completing a **TransportLogoff** call, a provider should first inval
   
 ## See also
 
-#### Reference
+
 
 [IMAPISupport::MakeInvalid](imapisupport-makeinvalid.md)
   

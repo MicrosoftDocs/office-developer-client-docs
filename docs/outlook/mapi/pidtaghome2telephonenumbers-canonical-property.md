@@ -31,9 +31,9 @@ Contains a list of secondary telephone numbers at the recipient's home.
 |Data type:  <br/> |PT_MV_UNICODE8  <br/> |
 |Area:  <br/> |MAPI mail user  <br/> |
    
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -43,7 +43,7 @@ Contains a list of secondary telephone numbers at the recipient's home.
   
 > Specifies the properties and operations that are permissible for contacts and personal distribution lists.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -55,7 +55,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

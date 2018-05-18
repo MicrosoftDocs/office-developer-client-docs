@@ -38,7 +38,7 @@ Depending on the message store provider, a user can save a new message currently
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Features and Architecture](mapi-features-and-architecture.md)
 

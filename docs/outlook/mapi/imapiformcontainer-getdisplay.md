@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns the display name of a form container.
   
-```
+```cpp
 HRESULT GetDisplay(
   ULONG ulFlags,
   LPSTR FAR * pszDisplayName
@@ -61,10 +61,10 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIFormContainer : IUnknown](imapiformcontaineriunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

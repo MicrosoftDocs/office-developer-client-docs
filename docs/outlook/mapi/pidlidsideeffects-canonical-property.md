@@ -40,7 +40,7 @@ Must be set to a bitwise or zero or more of the following flags.
 |:-----|:-----|:-----|
 |seOpenToDelete  <br/> |0x0001  <br/> |Additional processing is required on the message object when deleting.  <br/> |
 |seNoFrame  <br/> |0x0008  <br/> |No UI is associated with the message object.  <br/> |
-|seCoerceToInbox  <br/> |0x0010  <br/> |Additional processing is required on the message object when moving or copying to a folder object with a **PR_CONTAINER_CLASS** ( [PidTagContainerClass](pidtagcontainerclass-canonical-property.md)) property of "IPF.Note".  <br/> |
+|seCoerceToInbox  <br/> |0x0010  <br/> |Additional processing is required on the message object when moving or copying to a folder object with a **PR_CONTAINER_CLASS** ([PidTagContainerClass](pidtagcontainerclass-canonical-property.md)) property of "IPF.Note".  <br/> |
 |seOpenTocopy  <br/> |0x0020  <br/> |Additional processing is required on the message object when copying to another folder.  <br/> |
 |seOpenToMove  <br/> |0x0040  <br/> |Additional processing is required on the message object when moving to another folder.  <br/> |
 |seOpenForCtxMenu  <br/> |0x0100  <br/> |Additional processing is required on the message object when displaying verbs to the end-user.  <br/> |
@@ -50,9 +50,9 @@ Must be set to a bitwise or zero or more of the following flags.
 |seHasScript  <br/> |0x2000  <br/> |The message object contains end-user script.  <br/> |
 |seOpenToPermDelete  <br/> |0x4000  <br/> |Additional processing is required to permanently delete the message object.  <br/> |
    
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -66,7 +66,7 @@ Must be set to a bitwise or zero or more of the following flags.
   
 > Specifies the properties and operations for appointment, meeting request, and response messages.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -74,7 +74,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Opens a container, messaging user, or distribution list, and returns a pointer to an interface implementation to provide further access.
   
-```
+```cpp
 HRESULT OpenEntry(
   ULONG cbEntryID,
   LPENTRYID lpEntryID,
@@ -95,7 +95,7 @@ MAPI_E_UNKNOWN_ENTRYID
 
 MAPI calls the **OpenEntry** method to open a container, messaging user, or distribution list. 
   
-## Notes to Implementers
+## Notes to implementers
 
 Before MAPI calls your **OpenEntry** method, it determines that the entry identifier in the  _lpEntryID_ parameter belongs to you and not to another provider. MAPI does this by matching the [MAPIUID](mapiuid.md) structure in the entry identifier with the **MAPIUID** that you registered by calling the [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md) method at startup. 
   
@@ -103,11 +103,11 @@ Open the object as read-only, unless the MAPI_MODIFY or MAPI_BEST_ACCESS flag is
   
 If MAPI passes NULL for  _lpEntryID_, open the root container in your container hierarchy.
   
-The object that you are being asked to open might be an object copied from another provider. In this case, it will support the **PR_TEMPLATEID** ( [PidTagTemplateid](pidtagtemplateid-canonical-property.md)) property. If the object does support this property, call the [IMAPISupport::OpenTemplateID](imapisupport-opentemplateid.md) method to bind to code for this entry in the foreign provider, passing **PR_TEMPLATEID** in the  _lpTemplateID_ parameter and 0 in the  _ulTemplateFlags_ parameter. **IMAPISupport::OpenTemplateID** passes this information to the foreign provider in a call to the foreign provider's [IABLogon::OpenTemplateID](iablogon-opentemplateid.md) method. If **IMAPISupport::OpenTemplateID** raises an error, usually because the foreign provider is unavailable or not included in the profile, try to continue by treating the unbound entry as read-only. For more information about opening foreign address book entries, see [Acting as a Host Address Book Provider](acting-as-a-host-address-book-provider.md).
+The object that you are being asked to open might be an object copied from another provider. In this case, it will support the **PR_TEMPLATEID** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)) property. If the object does support this property, call the [IMAPISupport::OpenTemplateID](imapisupport-opentemplateid.md) method to bind to code for this entry in the foreign provider, passing **PR_TEMPLATEID** in the  _lpTemplateID_ parameter and 0 in the  _ulTemplateFlags_ parameter. **IMAPISupport::OpenTemplateID** passes this information to the foreign provider in a call to the foreign provider's [IABLogon::OpenTemplateID](iablogon-opentemplateid.md) method. If **IMAPISupport::OpenTemplateID** raises an error, usually because the foreign provider is unavailable or not included in the profile, try to continue by treating the unbound entry as read-only. For more information about opening foreign address book entries, see [Acting as a Host Address Book Provider](acting-as-a-host-address-book-provider.md).
   
 ## See also
 
-#### Reference
+
 
 [IABLogon : IUnknown](iablogoniunknown.md)
 

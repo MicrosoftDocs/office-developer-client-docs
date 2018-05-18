@@ -27,7 +27,7 @@ XLOPER12 xMissing, xBool;
 xMissing.xltype = xltypeMissing;
 xBool.xltype = xltypeBool;
 xBool.val.xbool = 0;
-Excel12(xlcDisplay, 0, 2, (LPXLOPER12) &amp;xMissing, (LPXLOPER12) &amp;xBool);
+Excel12(xlcDisplay, 0, 2, (LPXLOPER12) &xMissing, (LPXLOPER12) &xBool);
 ```
 
 The simplified code looks like the following example.
@@ -69,7 +69,7 @@ To use the Framework library functions, you must include the FRAMEWRK.H file in 
   
 ## See also
 
-#### Concepts
+
 
 [Excel XLL SDK API Function Reference](excel-xll-sdk-api-function-reference.md)
 

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Compares two entry identifiers to determine whether they refer to the same object. 
   
-```
+```cpp
 HRESULT CompareEntryIDs(
   ULONG cbEntryID1,
   LPENTRYID lpEntryID1,
@@ -75,7 +75,7 @@ MAPI_E_UNKNOWN_ENTRYID
 
 The **IMAPISession::CompareEntryIDs** method compares two entry identifiers that belong to a single service provider to determine whether they refer to the same object. MAPI extracts the [MAPIUID](mapiuid.md) portion from the entry identifiers to determine the service provider responsible for the objects and then calls its logon object's **CompareEntryIDs** method to perform the comparison. 
   
-## Notes to Callers
+## Notes to callers
 
 The **CompareEntryIDs** method is useful because an object can have more than one valid entry identifier. This situation can occur, for example, after a new version of a service provider is installed. 
   
@@ -91,12 +91,12 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [MAPIUID](mapiuid.md)
   
 [IMAPISession : IUnknown](imapisessioniunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

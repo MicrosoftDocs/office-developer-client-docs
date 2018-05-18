@@ -39,9 +39,9 @@ The messaging user profile furnishes these properties as a convenience so that a
   
 MAPI works only with filenames in the American National Standards Institute (ANSI) character set. Applications that use filenames in an original equipment manufacturer (OEM) character set must convert them to ANSI before calling MAPI.
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -53,7 +53,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

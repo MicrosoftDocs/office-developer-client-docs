@@ -51,11 +51,11 @@ The conversion from **XLREF12** to **XLREF** fails if the supplied reference ref
 ```cs
 BOOL ConvertXLRef12ToXLRef(LPXLREF12 pxref12, LPXLREF pxref)
 {
-   if (pxref12->rwLast >= pxref12->rwFirst &amp;&amp; pxref12->colLast >= pxref12->colFirst)
+   if (pxref12->rwLast >= pxref12->rwFirst && pxref12->colLast >= pxref12->colFirst)
    {
-      if (pxref12->rwFirst >=0 &amp;&amp; pxref12->colFirst >= 0)
+      if (pxref12->rwFirst >=0 && pxref12->colFirst >= 0)
       {
-         if (pxref12->rwLast < rwMaxO8 &amp;&amp; pxref12->colLast < colMaxO8)
+         if (pxref12->rwLast < rwMaxO8 && pxref12->colLast < colMaxO8)
          {
             pxref->rwFirst = (WORD)pxref12->rwFirst;
             pxref->rwLast = (WORD)pxref12->rwLast;
@@ -71,7 +71,7 @@ BOOL ConvertXLRef12ToXLRef(LPXLREF12 pxref12, LPXLREF pxref)
 
 ## See also
 
-#### Concepts
+
 
 [Functions in the Framework Library](functions-in-the-framework-library.md)
 

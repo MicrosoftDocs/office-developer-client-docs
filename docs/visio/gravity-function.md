@@ -30,7 +30,7 @@ GRAVITY( ** *angle* **,[ ** *limit1* ** ],[ ** *limit2* ** ])
 | _limit1_ <br/> |Optional  <br/> |**String** <br/> |First limit of rotation. Default is 90 degrees.  <br/> |
 | _limit2_ <br/> |Optional  <br/> |**String** <br/> |Second limit of rotation. Default is 270 degrees.  <br/> |
    
-### Return Value
+### Return value
 
 String
   

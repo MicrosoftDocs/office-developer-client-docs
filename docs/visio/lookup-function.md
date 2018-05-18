@@ -30,7 +30,7 @@ LOOKUP(" ** *key* ** "," ** *list* ** "[," ** *delimiter* ** "])
 | _list_ <br/> |Required  <br/> |**String** <br/> | The list in which you want to search.  <br/> |
 | _delimiter_ <br/> |Optional  <br/> |**String** <br/> | The string to use as a delimiter within  _list_. A  _delimiter_ string can be more than one character in length and may include multibyte characters. The default is a semicolon.  <br/> |
    
-### Return Value
+### Return value
 
 Numeric
   

@@ -61,7 +61,7 @@ The Outlook Social Connector (OSC) provider XML schema defines the format of a s
   
 ## See also
 
-#### Concepts
+
 
 [Debugging a Provider](debugging-a-provider.md)
 

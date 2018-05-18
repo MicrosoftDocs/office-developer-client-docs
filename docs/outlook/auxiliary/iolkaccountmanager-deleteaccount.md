@@ -16,7 +16,7 @@ description: "Deletes the specified account."
 
 Deletes the specified account.
   
-## Quick Info
+## Quick info
 
 See [IOlkAccountManager](iolkaccountmanager.md).
   
@@ -42,7 +42,7 @@ HRESULT IOlkAccountManager::DeleteAccount (
    
 ## See also
 
-#### Concepts
+
 
 [Constants (Account management API)](constants-account-management-api.md)
   

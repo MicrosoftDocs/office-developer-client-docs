@@ -31,7 +31,7 @@ FIND ( ** *find_text* **, ** *within_text* **,[ ** *start_num* ** ], [ ** *ignor
 | _start_num_ <br/> |Optional  <br/> |**Number** <br/> |The character at which to start the search. The first character in  _within_text_ is 1. If  _start_num_ is missing, it is assumed to be 1.  <br/> |
 | _ignore_case_ <br/> |Optional  <br/> |**Boolean** <br/> |By default, the FIND function is case-sensitive. If you want the FIND function to ignore case, set this argument to TRUE.  <br/> |
    
-### Return Value
+### Return value
 
 Number
   

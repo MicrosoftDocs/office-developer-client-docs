@@ -22,7 +22,7 @@ Returns an object's internal type as a number.
 
 TYPE ()
   
-### Return Value
+### Return value
 
 Number
   

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns a pointer to an interface for a MAPI table object.
   
-```
+```cpp
 HRESULT GetTable( 
   ULONG ulFlags, 
   LPMAPITABLE FAR * lppTable 
@@ -64,10 +64,10 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IExchangeModifyTable : IUnknown](iexchangemodifytableiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

@@ -33,19 +33,19 @@ Contains the sum, in bytes, of the sizes of all properties on an attachment.
    
 ## Remarks
 
-It is recommended that attachment subobjects expose the **PR_ATTACH_SIZE** property. The sum contained in **PR_ATTACH_SIZE** includes the size of the **PR_ATTACH_DATA_BIN** ( [PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) or **PR_ATTACH_DATA_OBJ** ( [PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)) property. Accordingly, **PR_ATTACH_SIZE** is usually larger than the contents of the attachment alone. 
+It is recommended that attachment subobjects expose the **PR_ATTACH_SIZE** property. The sum contained in **PR_ATTACH_SIZE** includes the size of the **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) or **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)) property. Accordingly, **PR_ATTACH_SIZE** is usually larger than the contents of the attachment alone. 
   
 This property can be used to check the approximate size of the attachment before performing a remote transfer by modem and to display progress indicators when saving the attachment to disk. It is particularly useful with attached OLE objects. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Handles message and attachment objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -57,10 +57,10 @@ mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagMessageSize Canonical Property](pidtagmessagesize-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

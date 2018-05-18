@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Deprecated. Assigns a new name to a message service. 
   
-```
+```cpp
 HRESULT RenameMsgService(
   LPMAPIUID lpUID,
   ULONG ulFlags,
@@ -54,11 +54,11 @@ MAPI_E_NO_SUPPORT
     
 ## Remarks
 
-To assign a new name to a message service, clients should use the **PR_SERVICE_NAME** ( [PidTagServiceName](pidtagservicename-canonical-property.md)) property of the message service. The names of service providers in a message service are stored in their **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) properties. 
+To assign a new name to a message service, clients should use the **PR_SERVICE_NAME** ([PidTagServiceName](pidtagservicename-canonical-property.md)) property of the message service. The names of service providers in a message service are stored in their **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) properties. 
   
 ## See also
 
-#### Reference
+
 
 [MAPIUID](mapiuid.md)
   

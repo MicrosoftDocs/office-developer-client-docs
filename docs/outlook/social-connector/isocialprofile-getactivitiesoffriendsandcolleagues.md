@@ -28,7 +28,7 @@ For more information about how the OSC gets friends' activities, see [Synchroniz
   
 ## See also
 
-#### Reference
+
 
 [ISocialProfile : ISocialPerson](isocialprofileisocialperson.md)
 

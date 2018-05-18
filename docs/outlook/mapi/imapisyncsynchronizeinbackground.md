@@ -24,7 +24,7 @@ description: "Last modified: June 26, 2012"
   
  Initiates a synchronization. This method is called by Microsoft Outlook 2010 and Microsoft Outlook 2013 and implemented by message store providers. 
   
-```
+```cpp
 HRESULT SynchronizeInBackground (
   PMAPISIB psibpb
 );
@@ -44,7 +44,7 @@ S_OK
     
 ## See also
 
-#### Reference
+
 
 [IMAPISync : IUnknown](imapisynciunknown.md)
   

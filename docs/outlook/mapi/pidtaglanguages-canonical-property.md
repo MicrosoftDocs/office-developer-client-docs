@@ -35,9 +35,9 @@ Contains an ASCII list of the languages that are incorporated in a message.
 
 These properties contain a sequence of two-character country/region codes that are separated by commas. 
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

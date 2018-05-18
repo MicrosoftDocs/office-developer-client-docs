@@ -30,7 +30,7 @@ The corresponding display table contains four rows, one for each control. The va
 |E-mail address edit box  <br/> |76  <br/> |40  <br/> |89  <br/> |12  <br/> |
 |Check box  <br/> |14  <br/> |64  <br/> |90  <br/> |12  <br/> |
    
-This next table suggests appropriate values for the control's type, its **PR_CONTROL_TYPE** ( [PidTagControlType](pidtagcontroltype-canonical-property.md)) property, and bitmask of flags, its **PR_CONTROL_FLAGS** ( [PidTagControlFlags](pidtagcontrolflags-canonical-property.md)) property.
+This next table suggests appropriate values for the control's type, its **PR_CONTROL_TYPE** ([PidTagControlType](pidtagcontroltype-canonical-property.md)) property, and bitmask of flags, its **PR_CONTROL_FLAGS** ([PidTagControlFlags](pidtagcontrolflags-canonical-property.md)) property.
   
 |**Control**|**Type**|**Flags**|
 |:-----|:-----|:-----|
@@ -55,7 +55,7 @@ The final table lists each control with the contents of its associated control s
   
 ## See also
 
-#### Concepts
+
 
 [Display Table Implementation](display-table-implementation.md)
 

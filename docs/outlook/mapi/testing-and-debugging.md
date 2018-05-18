@@ -24,7 +24,7 @@ Service providers, however, should be tested in isolation before being integrate
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Programming Overview](mapi-programming-overview.md)
   

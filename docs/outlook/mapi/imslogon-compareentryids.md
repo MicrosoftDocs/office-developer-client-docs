@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Compares two entry identifiers to determine whether they refer to the same object. MAPI refers this call to a service provider only if the unique identifiers (UIDs) in both entry identifiers to be compared are handled by that provider.
   
-```
+```cpp
 HRESULT CompareEntryIDs(
   ULONG cbEntryID1,
   LPENTRYID lpEntryID1,
@@ -75,7 +75,7 @@ Message store providers implement the **IMSLogon::CompareEntryIDs** method to co
   
 ## See also
 
-#### Reference
+
 
 [IMSLogon : IUnknown](imslogoniunknown.md)
 

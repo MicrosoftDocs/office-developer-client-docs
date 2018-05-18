@@ -36,9 +36,9 @@ Setting this property to the Domain Name of the user's directory server allows d
 > [!NOTE]
 > Microsoft Exchange Server 2010 and Exchange Server 2013 handle address book calls made to the Client Access Server differently from the way in which Exchange Server 2007 and earlier versions handle them. The DSProxy process is no longer used, so Kerberos authentication may succeed. However, the client would still be communicating with the Exchange server instead of directly with the DC, which may not be desired: Setting **PR_PROFILE_HOME_SERVER_FQDN** avoids this. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -48,7 +48,7 @@ Setting this property to the Domain Name of the user's directory server allows d
   
 > Specifies permissible operations for the core message store objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -60,7 +60,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

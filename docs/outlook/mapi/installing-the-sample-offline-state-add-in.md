@@ -55,7 +55,7 @@ This topic takes you through the steps to download and install the Sample Offlin
     
 ## See also
 
-#### Concepts
+
 
 [About the Offline State API](about-the-offline-state-api.md)
   

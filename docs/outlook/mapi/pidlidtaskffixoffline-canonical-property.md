@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Indicates the accuracy of the **dispidTaskOwner** ( [PidLidTaskOwner](pidlidtaskowner-canonical-property.md)) property.
+Indicates the accuracy of the **dispidTaskOwner** ([PidLidTaskOwner](pidlidtaskowner-canonical-property.md)) property.
   
 |||
 |:-----|:-----|
@@ -36,9 +36,9 @@ Indicates the accuracy of the **dispidTaskOwner** ( [PidLidTaskOwner](pidlidtask
 
 If the **dispidTaskFFixOffline** property is set to FALSE or is unset, the value for the **dispidTaskOwner** property is correct. If **dispidTaskFFixOffline** is set to TRUE, the client cannot determine an accurate value for **dispidTaskOwner**. In that case, the client can set **dispidTaskOwner** to a generic owner name, such as "Unknown". However, if a client encounters a **dispidTaskFFixOffline** value of TRUE and can determine an accurate owner name, the client should update **dispidTaskOwner** and set **dispidTaskFFixOffline** to FALSE. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -48,7 +48,7 @@ If the **dispidTaskFFixOffline** property is set to FALSE or is unset, the value
   
 > Defines several objects that model the electronic equivalent of tasks, task assignments, and task updates. 
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

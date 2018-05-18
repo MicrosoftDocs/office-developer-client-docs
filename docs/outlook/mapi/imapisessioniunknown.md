@@ -33,7 +33,7 @@ Manages objects associated with a MAPI logon session.
 |Interface identifier:  <br/> |IID_IMAPISession  <br/> |
 |Pointer type:  <br/> |LPMAPISESSION  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -59,7 +59,7 @@ Manages objects associated with a MAPI logon session.
    
 ## See also
 
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
 

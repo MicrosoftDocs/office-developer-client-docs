@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Prepares a recipient list for later use by the messaging system. 
   
-```
+```cpp
 HRESULT PrepareRecips(
   ULONG ulFlags,
   LPSPropTagArray lpSPropTagArray,
@@ -72,7 +72,7 @@ For information about PT_ERROR, see [Property Types](property-types.md).
   
 ## See also
 
-#### Reference
+
 
 [ADRLIST](adrlist.md)
   

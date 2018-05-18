@@ -35,9 +35,9 @@ Contains a unique identifier for a recipient in a recipient table or status tabl
 
 This property is a temporary value that is valid only for the life of the object that owns the table. It appears as a column of the table but is not stored.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -47,7 +47,7 @@ This property is a temporary value that is valid only for the life of the object
   
 > Handles the order and flow for data transfers between a client and server.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -59,12 +59,12 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [IMessage::GetRecipientTable](imessage-getrecipienttable.md)
   
 [IMessage::ModifyRecipients](imessage-modifyrecipients.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

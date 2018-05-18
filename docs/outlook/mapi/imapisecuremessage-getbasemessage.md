@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Retrieves the underlying [IMessage : IMAPIProp](imessageimapiprop.md) that this [IMAPISecureMessage : IUnknown](imapisecuremessageiunknown.md) is encapsulating. 
   
-```
+```cpp
 HRESULT GetBaseMessage(
   LPMMESSAGE FAR * ppmsg
 );
@@ -44,7 +44,7 @@ S_OK
     
 ## See also
 
-#### Reference
+
 
 [IMAPISecureMessage : IUnknown](imapisecuremessageiunknown.md)
   

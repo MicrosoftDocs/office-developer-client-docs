@@ -32,7 +32,7 @@ HRESULT _stdcall Logon([in] BSTR username, [in] BSTR password);
     
 ## See also
 
-#### Reference
+
 
 [ISocialSession : IUnknown](isocialsessioniunknown.md)
 

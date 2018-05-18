@@ -48,7 +48,7 @@ The following illustration shows the logic required for configuration in your se
   
 ## See also
 
-#### Concepts
+
 
 [Implementing Service Provider Logon](implementing-service-provider-logon.md)
 

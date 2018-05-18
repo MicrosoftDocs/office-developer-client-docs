@@ -30,7 +30,7 @@ The Uninitialized state is the initial state form objects should be in when they
    
 ## See also
 
-#### Concepts
+
 
 [Normal State](normal-state.md)
   

@@ -34,11 +34,11 @@ Specifies the voting option that a respondent selected.
    
 ## Remarks
 
-This property is usually set to one of the delimited values that are contained in the **dispidVerbStream** ( [PidLidVerbStream](pidlidverbstream-canonical-property.md)) property on which the respondent votes.
+This property is usually set to one of the delimited values that are contained in the **dispidVerbStream** ([PidLidVerbStream](pidlidverbstream-canonical-property.md)) property on which the respondent votes.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -48,7 +48,7 @@ This property is usually set to one of the delimited values that are contained i
   
 > Specifies the properties and operations that are permissible for e-mail message objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

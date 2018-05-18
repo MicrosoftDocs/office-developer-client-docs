@@ -37,9 +37,9 @@ These properties are examples of the address properties for the recipient that t
   
 A client application that must route reports to another user should set these properties at message submission time. If they are not set, the reports are sent to the message sender.
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -51,7 +51,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -20,14 +20,14 @@ description: "Last modified: March 09, 2015"
   
 Message service entry point function for a MAPI store provider to wrap a PST-based local store as an NST store. 
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|
 |Implemented by:  <br/> |MAPI provider  <br/> |
 |Called by:  <br/> |MAPI  <br/> |
    
-```
+```cpp
 HRESULT NSTServiceEntry( 
     HINSTANCE hInstance,   
     LPMALLOC lpMalloc, 
@@ -78,7 +78,7 @@ The following remarks apply to an NST store:
     
 ## See also
 
-#### Concepts
+
 
 [About the Replication API](about-the-replication-api.md)
 

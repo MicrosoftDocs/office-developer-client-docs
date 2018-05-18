@@ -91,7 +91,7 @@ STATUS_NO_PRIMARY_IDENTITY
     
 STATUS_OWN_STORE 
   
-> Static. This transport provider is tightly coupled with a message store and furnishes the **PR_OWN_STORE_ENTRYID** ( [PidTagOwnStoreEntryId](pidtagownstoreentryid-canonical-property.md)) property in its status row.
+> Static. This transport provider is tightly coupled with a message store and furnishes the **PR_OWN_STORE_ENTRYID** ([PidTagOwnStoreEntryId](pidtagownstoreentryid-canonical-property.md)) property in its status row.
     
 STATUS_PRIMARY_IDENTITY 
   
@@ -117,9 +117,9 @@ STATUS_XP_PREFER_LAST
   
 > Static. This transport expects to be the last transport selected to send a message when multiple transport providers are able to transmit the message.
     
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -131,12 +131,12 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [IMsgServiceAdmin::MsgServiceTransportOrder](imsgserviceadmin-msgservicetransportorder.md)
   
 [PidTagIdentityEntryId Canonical Property](pidtagidentityentryid-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

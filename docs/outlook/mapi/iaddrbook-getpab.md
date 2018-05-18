@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns the entry identifier of the container that is designated as the personal address book (PAB).
   
-```
+```cpp
 HRESULT GetPAB(
   ULONG FAR * lpcbEntryID,
   LPENTRYID FAR * lppEntryID
@@ -61,7 +61,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [MAPIAllocateBuffer](mapiallocatebuffer.md)
   
@@ -70,7 +70,7 @@ For MFCMAPI sample code, see the following table.
 [PidTagContainerFlags Canonical Property](pidtagcontainerflags-canonical-property.md)
   
 [IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

@@ -33,7 +33,7 @@ Contains a flag that describes the state of the message store.
    
 ## Remarks
 
-This property is dynamic and can change based on user actions, unlike the **PR_STORE_SUPPORT_MASK** ( [PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) property. 
+This property is dynamic and can change based on user actions, unlike the **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) property. 
   
 The following value can be set:
   
@@ -41,9 +41,9 @@ STORE_HAS_SEARCHES
   
 > The user has created one or more active searches in the store.
     
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -53,7 +53,7 @@ STORE_HAS_SEARCHES
   
 > Specifies permissible operations for the core message store objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -65,7 +65,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -44,7 +44,7 @@ Find an overview of the Project Server Interface (PSI) reference, how to use the
   
 ## See also
 
-#### Other resources
+
 
 [JavaScript API for Office](http://msdn.microsoft.com/en-us/library/fp142185.aspx)
   

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns property tags for all properties. 
   
-```
+```cpp
 HRESULT GetPropList(
   ULONG ulFlags,
   LPSPropTagArray FAR * lppPropTagArray
@@ -63,11 +63,11 @@ The scope of properties returned by **GetPropList** varies from provider to prov
   
 If the object does not support Unicode, **GetPropList** returns MAPI_E_BAD_CHARWIDTH, even if there are no string properties defined for the object. 
   
-## Notes to Implementers
+## Notes to implementers
 
 Remote transport providers implement **GetPropList** exactly as specified here. There are no special concerns. Your implementation should, of course, return the same list of properties as supported by the [IMAPIProp::GetProps](imapiprop-getprops.md) method. 
   
-## Notes to Callers
+## Notes to callers
 
 Call the [MAPIFreeBuffer](mapifreebuffer.md) function to free the property tag array pointed to by  _lppPropTagArray_. 
   
@@ -81,14 +81,14 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIProp::GetProps](imapiprop-getprops.md)
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
 [IMAPIProp : IUnknown](imapipropiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

@@ -37,15 +37,15 @@ TNEF and the transport provider use these properties. They are usually not avail
   
 These properties are commonly used by TNEF when the underlying messaging system does not support the supplied filenames. For example, they are used when the user attaches multiple files with the same name, such as five files named CONFIG.SYS. The transport provider must modify the names to make sure they are unique. Each modified name appears in its attachment's **PR_ATTACH_TRANSPORT_NAME** and associated properties. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Handles message and attachment objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -57,7 +57,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

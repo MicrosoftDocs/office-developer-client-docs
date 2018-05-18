@@ -24,7 +24,7 @@ Contains the entry ID of the contacts folder.
 |:-----|:-----|
 |Header file:  <br/> |msomapiutil.h  <br/> |
    
-```
+```cpp
 #pragma pack(4) 
 typedef struct _contab_entryid
 {
@@ -86,10 +86,10 @@ The **cbeid** and **abeid** fields are only valid when the **ulType** field valu
   
 ## See also
 
-#### Reference
+
 
 [DIR_ENTRYID](dir_entryid.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

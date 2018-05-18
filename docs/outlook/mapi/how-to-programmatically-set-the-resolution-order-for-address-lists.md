@@ -1,18 +1,14 @@
 ---
-title: "Programmatically Set the Resolution Order for Address Lists"
+title: "Programmatically set the resolution order for address lists"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f9559afb-8db1-ce72-3e11-9b3d47bb80b6
 description: "Last modified: July 06, 2012"
- 
- 
 ---
 
-# Programmatically Set the Resolution Order for Address Lists
-
-  
+# Programmatically set the resolution order for address lists
   
 **Applies to**: Outlook 
   
@@ -52,7 +48,7 @@ The code sample sets the resolution order in the following steps:
     
 This code sample uses address lists that are available in the default installation of Microsoft Office Outlook: **All Contacts**, **All Groups**, and **Contacts**. You must run the sample after Outlook is started and is running on an initialized profile. The sample works well with names that are in one language (for example, all names are in English). It is not designed to work in multi-lingual deployments, for example the **Contacts** folder localized for a user running a non-English Outlook build. 
   
-```
+```cpp
 #include "stdafx.h" 
 #include <mapix.h> 
 #include <mapiguid.h> 
@@ -115,10 +111,10 @@ void main()
     // Log on to MAPI and allow user to choose profile 
  
     // Note: This uses the current MAPI session if there is one 
-    if (FAILED ( hRes = MAPILogonEx(NULL, NULL, NULL, MAPI_LOGON_UI, &amp;lpSession))) goto Exit; 
+    if (FAILED ( hRes = MAPILogonEx(NULL, NULL, NULL, MAPI_LOGON_UI, &lpSession))) goto Exit; 
  
     // Open the Address Book 
-    if (FAILED (hRes = lpSession->OpenAddressBook(NULL, NULL, NULL, &amp;lpAddrBook))) goto Cleanup; 
+    if (FAILED (hRes = lpSession->OpenAddressBook(NULL, NULL, NULL, &lpAddrBook))) goto Cleanup; 
  
     // Open the Address Book Root container 
     if (FAILED (hRes = lpAddrBook -> OpenEntry ( 
@@ -126,12 +122,12 @@ void main()
         NULL, 
         NULL,  
         0L, 
-        &amp;ulObjType, 
-        (LPUNKNOWN *) &amp;pIABRoot ))) 
+        &ulObjType, 
+        (LPUNKNOWN *) &pIABRoot ))) 
     goto Cleanup; 
  
     // Intentionally allocate 0 bytes. This is used for buffer management. 
-    MAPIAllocateBuffer(0L, &amp;tempLink);  
+    MAPIAllocateBuffer(0L, &tempLink);  
  
     // Make sure there is a Container object 
     // Query hierarchy for containers 
@@ -139,29 +135,29 @@ void main()
         // - Call IMAPIContainer::GetHierarchyTable to open the Hierarchy 
         //   table of the root address book container 
         if ( FAILED ( hRes = pIABRoot -> GetHierarchyTable ( CONVENIENT_DEPTH | MAPI_UNICODE, 
-            &amp;pHTable ) ) ) 
+            &pHTable ) ) ) 
         goto Cleanup; 
  
         // Get the list of address book containers first 
         if ( FAILED ( hRes = HrQueryAllRows (  
             pHTable, 
-            (LPSPropTagArray) &amp;abCols, 
+            (LPSPropTagArray) &abCols, 
             NULL, 
             NULL, 
             0L, 
-            &amp;pRows ) ) ) 
+            &pRows ) ) ) 
         goto Cleanup; 
  
         // Initialize the structures to set the search order 
-        ZeroMemory(&amp;NewRows, numANR * sizeof(SRow)); 
-        pNewRows = (LPSRowSet)&amp;NewRows; 
+        ZeroMemory(&NewRows, numANR * sizeof(SRow)); 
+        pNewRows = (LPSRowSet)&NewRows; 
  
         // Set the number of rows you are going to set 
         pNewRows->cRows = numANR; 
  
         // Set the pointers to the structures 
         for (i=0; i<numANR; i++) 
-            pNewRows->aRow[i].lpProps = &amp;sProps[i]; 
+            pNewRows->aRow[i].lpProps = &sProps[i]; 
  
         // Compare the list to the ones that of interest 
         for (i=0; i<pRows->cRows; i++) { 
@@ -179,8 +175,8 @@ void main()
  
                             // Copy the binary data over 
                             if (FAILED (hRes = CopySBinary( 
-                                &amp;pNewRows->aRow[j].lpProps[0].Value.bin, 
-                                &amp;pRows->aRow[i].lpProps[abPR_ENTRYID].Value.bin, 
+                                &pNewRows->aRow[j].lpProps[0].Value.bin, 
+                                &pRows->aRow[i].lpProps[abPR_ENTRYID].Value.bin, 
                                 tempLink))) {  
                                     printf ("Fatal Error:Failed to copy entry IDs\n"); 
                                     goto Cleanup; 
@@ -248,11 +244,11 @@ STDMETHODIMP CopySBinary(
             hRes = MAPIAllocateMore( 
                  psbSrc->cb, 
                  pParent, 
-                 (LPVOID*) &amp;psbDest->lpb); 
+                 (LPVOID*) &psbDest->lpb); 
         else 
             hRes = MAPIAllocateBuffer( 
                  psbSrc->cb, 
-                 (LPVOID*) &amp;psbDest->lpb); 
+                 (LPVOID*) &psbDest->lpb); 
  
     if (!FAILED(hRes)) 
         CopyMemory(psbDest->lpb,psbSrc->lpb,psbSrc->cb); 
@@ -265,7 +261,5 @@ STDMETHODIMP CopySBinary(
 
 ## See also
 
-#### Concepts
-
-[About Setting the Resolution Order for Address Lists in Outlook](about-setting-the-resolution-order-for-address-lists-in-outlook.md)
+- [About Setting the Resolution Order for Address Lists in Outlook](about-setting-the-resolution-order-for-address-lists-in-outlook.md)
 

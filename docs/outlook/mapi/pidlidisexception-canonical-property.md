@@ -36,9 +36,9 @@ Indicates that the object that represents an exception (including an orphan inst
 
 A value of FALSE indicates that the object that represents a recurring series or a single instance. The absence of this property for any object indicates a value of FALSE except for the exception embedded message, which assumes a value of TRUE.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -48,7 +48,7 @@ A value of FALSE indicates that the object that represents a recurring series or
   
 > Specifies the properties and operations for appointment, meeting request, and response messages.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

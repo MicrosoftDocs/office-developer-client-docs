@@ -30,7 +30,7 @@ Validates a sort order set by verifying its memory allocation.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Service providers  <br/> |
    
-```
+```cpp
 ULONG FBadSortOrderSet(
   LPSSortOrderSet lpsos
 );

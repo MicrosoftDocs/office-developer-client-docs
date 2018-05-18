@@ -28,7 +28,7 @@ Describes a named property.
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _MAPINAMEID
 {
   LPGUID lpguid;
@@ -86,12 +86,12 @@ For more information about named properties, see [Named Properties](mapi-named-p
   
 ## See also
 
-#### Reference
+
 
 [GUID](guid.md)
   
 [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

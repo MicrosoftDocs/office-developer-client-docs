@@ -1,19 +1,15 @@
 ---
-title: "Get the Path of a Specific Version of MAPI for the Default Mail Client"
+title: "Get the path of a specific version of MAPI for the default mail client"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5ee7fb05-cfb3-6b68-5a9a-1d6375f2e879
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
-# Get the Path of a Specific Version of MAPI for the Default Mail Client
+# Get the path of a specific version of MAPI for the default mail client
 
-  
-  
 **Applies to**: Outlook 
   
 This topic includes a code sample in C++ that shows how to obtain the path of a specific version of MAPI that is used by the default mail client on a computer. MAPI mail clients have an option to specify in the registry a custom DLL that the MAPI stub library should load and dispatch MAPI calls to. The registry key to set for this custom DLL for a default mail client is **MSIComponentID**, under the **HKLM\Software\Clients\Mail** key of the default mail client. The [FGetComponentPath](fgetcomponentpath.md) function, exported by the MAPI stub library, mapistub.dll, can return the path to the custom version of MAPI specified by the **MSIComponentID** registry key. 
@@ -37,7 +33,7 @@ The following steps describe how  `GetMAPISVCPath` does this.
     
 Note that to support localized copies of MAPI for English and non-English locales, the code sample reads the values for the **MSIApplicationLCID** and **MSIOfficeLCID** subkeys and calls **FGetComponentPath**, first specifying **MSIApplicationLCID** as  *szQualifier*  , and then again specifying **MSIOfficeLCID** as  *szQualifier*  . For more information about registry keys for mail clients that support non-English languages, see [Setting Up the MSI Keys for Your MAPI DLL](http://msdn.microsoft.com/en-us/library/ee909494%28VS.85%29.aspx).
   
-```
+```cpp
 // HrGetRegMultiSZValueA 
 // Get a REG_MULTI_SZ registry value - allocating memory using new to hold it. 
 void HrGetRegMultiSZValueA( 
@@ -55,11 +51,11 @@ void HrGetRegMultiSZValueA(
         hKey, 
         lpszValue, 
         NULL, 
-        &amp;amp;dwKeyType, 
+        &amp;dwKeyType, 
         NULL, 
-        &amp;amp;cb); 
+        &amp;cb); 
  
-    if (ERROR_SUCCESS == lRet &amp;amp;&amp;amp; cb &amp;amp;&amp;amp; REG_MULTI_SZ == dwKeyType) 
+    if (ERROR_SUCCESS == lRet &amp;&amp; cb &amp;&amp; REG_MULTI_SZ == dwKeyType) 
     { 
         *lppData = new BYTE[cb]; 
        
@@ -70,9 +66,9 @@ void HrGetRegMultiSZValueA(
                 hKey,  
                 lpszValue,  
                 NULL,  
-                &amp;amp;dwKeyType,  
+                &amp;dwKeyType,  
                 (unsigned char*)*lppData,  
-                &amp;amp;cb); 
+                &amp;cb); 
           
             if (ERROR_SUCCESS != lRet) 
             { 
@@ -104,19 +100,19 @@ void GetMAPISVCPath(LPSTR szMAPIDir, ULONG cchMAPIDir)
     LONG lRet = 0; 
     BOOL bRet = true; 
     
-    szMAPIDir[0] = &amp;apos;\0&amp;apos;; // Terminate string at position 0, safer if fail below 
+    szMAPIDir[0] = &apos;\0&apos;; // Terminate string at position 0, safer if fail below 
     
     CHAR szSystemDir[MAX_PATH+1] = {0}; 
     
     // Get the system directory path 
     // (mapistub.dll and mapi32.dll reside here) 
     uiRet = GetSystemDirectoryA(szSystemDir, MAX_PATH); 
-    if (uiRet &amp;gt; 0) 
+    if (uiRet &gt; 0) 
     { 
         CHAR szDLLPath[MAX_PATH+1] = {0}; 
        
-        hRes = StringCchPrintfA(szDLLPath, MAX_PATH+1, &amp;quot;%s\\%s&amp;quot;,  
-            szSystemDir, &amp;quot;mapistub.dll&amp;quot;); 
+        hRes = StringCchPrintfA(szDLLPath, MAX_PATH+1, &quot;%s\\%s&quot;,  
+            szSystemDir, &quot;mapistub.dll&quot;); 
         if (SUCCEEDED(hRes)) 
         { 
             LPFGETCOMPONENTPATH pfnFGetComponentPath = NULL; 
@@ -130,15 +126,15 @@ void GetMAPISVCPath(LPSTR szMAPIDir, ULONG cchMAPIDir)
             {    
                 // Get the address of FGetComponentPath from the mapistub 
                 pfnFGetComponentPath = (LPFGETCOMPONENTPATH)GetProcAddress( 
-                    hmodStub, &amp;quot;FGetComponentPath&amp;quot;); 
+                    hmodStub, &quot;FGetComponentPath&quot;); 
             } 
           
             // If failed to get the address of FGetComponentPath, 
             // try mapi32.dll 
             if (!pfnFGetComponentPath) 
             { 
-                hRes = StringCchPrintfA(szDLLPath, MAX_PATH+1, &amp;quot;%s\\%s&amp;quot;, 
-                    szSystemDir, &amp;quot;mapi32.dll&amp;quot;); 
+                hRes = StringCchPrintfA(szDLLPath, MAX_PATH+1, &quot;%s\\%s&quot;, 
+                    szSystemDir, &quot;mapi32.dll&quot;); 
                 if (SUCCEEDED(hRes)) 
                 { 
                     // Load mapi32.dll 
@@ -147,7 +143,7 @@ void GetMAPISVCPath(LPSTR szMAPIDir, ULONG cchMAPIDir)
                     { 
                         // Get the address of FGetComponentPath from mapi32 
                         pfnFGetComponentPath = (LPFGETCOMPONENTPATH)GetProcAddress( 
-                            hmodMapi32, &amp;quot;FGetComponentPath&amp;quot;); 
+                            hmodMapi32, &quot;FGetComponentPath&quot;); 
                     } 
                  } 
             } 
@@ -159,15 +155,15 @@ void GetMAPISVCPath(LPSTR szMAPIDir, ULONG cchMAPIDir)
              
                 lRet = RegOpenKeyEx( 
                     HKEY_LOCAL_MACHINE, 
-                    _T(&amp;quot;Software\\Clients\\Mail\\Microsoft Outlook&amp;quot;), 
+                    _T(&quot;Software\\Clients\\Mail\\Microsoft Outlook&quot;), 
                     NULL, 
                     KEY_READ, 
-                    &amp;amp;hMicrosoftOutlook); 
+                    &amp;hMicrosoftOutlook); 
              
-                if (ERROR_SUCCESS == lRet &amp;amp;&amp;amp; hMicrosoftOutlook) 
+                if (ERROR_SUCCESS == lRet &amp;&amp; hMicrosoftOutlook) 
                 { 
-                    HrGetRegMultiSZValueA(hMicrosoftOutlook, &amp;quot;MSIApplicationLCID&amp;quot;, (LPVOID*) &amp;amp;szAppLCID); 
-                    HrGetRegMultiSZValueA(hMicrosoftOutlook, &amp;quot;MSIOfficeLCID&amp;quot;, (LPVOID*) &amp;amp;szOfficeLCID); 
+                    HrGetRegMultiSZValueA(hMicrosoftOutlook, &quot;MSIApplicationLCID&quot;, (LPVOID*) &amp;szAppLCID); 
+                    HrGetRegMultiSZValueA(hMicrosoftOutlook, &quot;MSIOfficeLCID&quot;, (LPVOID*) &amp;szOfficeLCID); 
                 } 
              
                 // Only passing a fixed value as the component ID for MAPI in this example 
@@ -175,30 +171,30 @@ void GetMAPISVCPath(LPSTR szMAPIDir, ULONG cchMAPIDir)
                 if (szAppLCID) 
                 { 
                     bRet = pfnFGetComponentPath( 
-                        &amp;quot;{FF1D0740-D227-11D1-A4B0-006008AF820E}&amp;quot;, szAppLCID, szMAPIDir, cchMAPIDir, true); 
+                        &quot;{FF1D0740-D227-11D1-A4B0-006008AF820E}&quot;, szAppLCID, szMAPIDir, cchMAPIDir, true); 
                 } 
-                if ((!bRet || szMAPIDir[0] == _T(&amp;apos;\0&amp;apos;)) &amp;amp;&amp;amp; szOfficeLCID) 
+                if ((!bRet || szMAPIDir[0] == _T(&apos;\0&apos;)) &amp;&amp; szOfficeLCID) 
                 { 
                     bRet = pfnFGetComponentPath( 
-                    &amp;quot;{FF1D0740-D227-11D1-A4B0-006008AF820E}&amp;quot;, szOfficeLCID, szMAPIDir, cchMAPIDir, true); 
+                    &quot;{FF1D0740-D227-11D1-A4B0-006008AF820E}&quot;, szOfficeLCID, szMAPIDir, cchMAPIDir, true); 
                 } 
-                if (!bRet || szMAPIDir[0] == _T(&amp;apos;\0&amp;apos;)) 
+                if (!bRet || szMAPIDir[0] == _T(&apos;\0&apos;)) 
                 { 
                     bRet = pfnFGetComponentPath( 
-                        &amp;quot;{FF1D0740-D227-11D1-A4B0-006008AF820E}&amp;quot;, NULL, szMAPIDir, cchMAPIDir, true); 
+                        &quot;{FF1D0740-D227-11D1-A4B0-006008AF820E}&quot;, NULL, szMAPIDir, cchMAPIDir, true); 
                 } 
              
                 // Got the path to msmapi32.dll - need to strip it 
-                if (bRet &amp;amp;&amp;amp; szMAPIDir[0] != _T(&amp;apos;\0&amp;apos;)) 
+                if (bRet &amp;&amp; szMAPIDir[0] != _T(&apos;\0&apos;)) 
                 { 
                     LPSTR lpszSlash = NULL; 
                     LPSTR lpszCur = szMAPIDir; 
                 
                     for (lpszSlash = lpszCur; *lpszCur; lpszCur = lpszCur++) 
                     { 
-                        if (*lpszCur == _T(&amp;apos;\\&amp;apos;)) lpszSlash = lpszCur; 
+                        if (*lpszCur == _T(&apos;\\&apos;)) lpszSlash = lpszCur; 
                     } 
-                   *lpszSlash = _T(&amp;apos;\0&amp;apos;); 
+                   *lpszSlash = _T(&apos;\0&apos;); 
                 } 
  
                 delete[] szOfficeLCID; 
@@ -210,16 +206,16 @@ void GetMAPISVCPath(LPSTR szMAPIDir, ULONG cchMAPIDir)
             // it returned nothing, or if failed to find an 
             // address of FGetComponentPath, then 
             // just default to the system directory 
-            if (!bRet || szMAPIDir[0] == &amp;apos;\0&amp;apos;) 
+            if (!bRet || szMAPIDir[0] == &apos;\0&apos;) 
             { 
                 hRes = StringCchPrintfA( 
-                    szMAPIDir, cchMAPIDir,&amp;quot;%s&amp;quot;, szSystemDir); 
+                    szMAPIDir, cchMAPIDir,&quot;%s&quot;, szSystemDir); 
             } 
           
-            if (szMAPIDir[0] != _T(&amp;apos;\0&amp;apos;)) 
+            if (szMAPIDir[0] != _T(&apos;\0&apos;)) 
             { 
                 hRes = StringCchPrintfA( 
-                    szMAPIDir, cchMAPIDir, &amp;quot;%s\\%s&amp;quot;, szMAPIDir, &amp;quot;MAPISVC.INF&amp;quot;); 
+                    szMAPIDir, cchMAPIDir, &quot;%s\\%s&quot;, szMAPIDir, &quot;MAPISVC.INF&quot;); 
             } 
           
             if (hmodMapi32) FreeLibrary(hmodMapi32); 

@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 There are many different types of tables, each type differentiated by the information that it presents. Tables enable client applications and service providers to readily access and manipulate the important properties of many types of objects. 
   
-Some tables, such as contents tables, provide an alternative way of accessing properties. For example, a client can retrieve the subject of a message — its **PR_SUBJECT** ( [PidTagSubject](pidtagsubject-canonical-property.md)) property — either directly from the message by calling its [IMAPIProp::GetProps](imapiprop-getprops.md) method or through the message's contents table. Other tables provide the only way to access object properties. For example, a client cannot access an attachment's **PR_ATTACH_METHOD** ( [PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) property by calling **IMAPIProp::GetProps**; it must always retrieve the attachment table of the message to which it is attached. **PR_ATTACH_METHOD** is a required column in all attachment tables. 
+Some tables, such as contents tables, provide an alternative way of accessing properties. For example, a client can retrieve the subject of a message — its **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) property — either directly from the message by calling its [IMAPIProp::GetProps](imapiprop-getprops.md) method or through the message's contents table. Other tables provide the only way to access object properties. For example, a client cannot access an attachment's **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) property by calling **IMAPIProp::GetProps**; it must always retrieve the attachment table of the message to which it is attached. **PR_ATTACH_METHOD** is a required column in all attachment tables. 
   
 A table view can be static or dynamic. With a static table view, changes to the underlying data do not cause the view to be updated. Once the view has been instantiated, it does not change. Users of static tables can be informed of changes to data through table notifications. A dynamic table view is updated when changes are made to the data. There are two types of dynamic tables: one that updates the columns of each row, but the rows remain static and one that updates both the columns and rows. This latter type of table always reflects the underlying data exactly.
   
@@ -46,7 +46,7 @@ The MAPI tables and their implementers and users are:
    
 ## See also
 
-#### Concepts
+
 
 [MAPI Tables](mapi-tables.md)
 

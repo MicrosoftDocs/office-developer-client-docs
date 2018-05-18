@@ -30,7 +30,7 @@ Creates a profile administration object.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications  <br/> |
    
-```
+```cpp
 HRESULT MAPIAdminProfiles(
   ULONG ulFlags,
   LPPROFADMIN FAR * lppProfAdmin
@@ -63,10 +63,10 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IProfAdmin::CreateProfile](iprofadmin-createprofile.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

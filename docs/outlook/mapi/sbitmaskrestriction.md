@@ -28,7 +28,7 @@ Describes a bitmask restriction, which is used to perform a bitwise **AND** oper
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SBitMaskRestriction
 {
   ULONG relBMR;
@@ -68,10 +68,10 @@ For more information about the **SBitMaskRestriction** structure and restriction
   
 ## See also
 
-#### Reference
+
 
 [SRestriction](srestriction.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

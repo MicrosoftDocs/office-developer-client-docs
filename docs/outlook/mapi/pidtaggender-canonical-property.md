@@ -43,9 +43,9 @@ The possible values for this property are defined in the gender enumeration. The
 |genderFemale  <br/> |0x0001  <br/> |The contact is female.  <br/> |
 |genderMale  <br/> |0x0002  <br/> |The contact is male.  <br/> |
    
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -59,7 +59,7 @@ The possible values for this property are defined in the gender enumeration. The
   
 > Specifies the properties and operations for lists of users, contacts, groups, and resources.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -71,7 +71,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

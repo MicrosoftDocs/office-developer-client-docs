@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies an optional character set that the MAPI to MIME converter use when converting a MAPI message to a MIME stream.
   
-```
+```cpp
 HRESULT SetCharset( 
      BOOL fApply, 
      HCHARSET hcharset, 
@@ -62,7 +62,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IConverterSession : IUnknown](iconvertersessioniunknown.md)
   

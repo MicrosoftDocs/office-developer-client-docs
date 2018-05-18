@@ -24,7 +24,7 @@ This topic addresses issues of XLL compatibility in different versions of Micros
 
 Consider including definitions similar to these in your XLL project code and replacing all instances of literal numbers used in this context. This will clarify code that is version specific, and reduce the likelihood of version-related bugs in the form of innocuous-looking numbers.
   
-```
+```cpp
 #define MAX_XL11_ROWS            65536
 #define MAX_XL11_COLS              256
 #define MAX_XL12_ROWS          1048576
@@ -71,7 +71,7 @@ Analysis Toolpak (ATP) functions are part of Excel starting in Excel 2007. Previ
   
 ## See also
 
-#### Concepts
+
 
 [C API Callback Functions Excel4, Excel12](c-api-callback-functions-excel4-excel12.md)
   

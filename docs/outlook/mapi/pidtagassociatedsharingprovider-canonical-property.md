@@ -33,7 +33,7 @@ This property indicates whether a PST is configured for Microsoft SharePoint 201
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

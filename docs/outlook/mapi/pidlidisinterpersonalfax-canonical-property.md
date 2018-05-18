@@ -32,15 +32,15 @@ Indicates whether the item is an internet fax item.
 |Data type:  <br/> |PT_BOOLEAN  <br/> |
 |Area:  <br/> |General messaging  <br/> |
    
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]] 
   
 > Provides property set definitions and references to related Exchange Server protocol specifications.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -48,7 +48,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

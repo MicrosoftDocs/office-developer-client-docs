@@ -30,7 +30,7 @@ Searches for a specified property in a property set.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 LPSPropValue PpropFindProp(
   LPSPropValue rgprop,
   ULONG cprop,
@@ -70,7 +70,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

@@ -15,7 +15,7 @@ ms.assetid: c9a80ad3-6311-fe07-b6f7-9fd63424753b
 
 For a given user, gets and sets a time range and returns an interface for enumerating free/busy blocks of data within this time range.
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|
@@ -23,7 +23,7 @@ For a given user, gets and sets a time range and returns an interface for enumer
 |Provided by:  <br/> |Free/busy provider  <br/> |
 |Interface identifier:  <br/> |IID_IFreeBusyData  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -43,7 +43,7 @@ Most of the members in this interface are placeholders reserved for the internal
   
 ## See also
 
-#### Concepts
+
 
 [About the Free/Busy API](about-the-free-busy-api.md)
   

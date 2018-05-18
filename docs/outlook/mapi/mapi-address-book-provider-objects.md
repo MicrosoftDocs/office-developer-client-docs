@@ -26,7 +26,7 @@ The following illustration shows these objects, their corresponding interfaces, 
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Service Provider Objects](mapi-service-provider-objects.md)
 

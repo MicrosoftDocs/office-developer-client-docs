@@ -35,9 +35,9 @@ Contains TRUE if a form is to be suppressed from display by compose menus and di
 
 Form-related properties are read-only. 
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

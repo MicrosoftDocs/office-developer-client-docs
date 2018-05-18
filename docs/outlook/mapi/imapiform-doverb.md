@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Requests that the form perform whatever tasks it associates with a specific verb.
   
-```
+```cpp
 HRESULT DoVerb(
   LONG iVerb,
   LPMAPIVIEWCONTEXT lpViewContext,
@@ -67,7 +67,7 @@ Form viewers call the **IMAPIForm::DoVerb** method to request that the form perf
   
 Each of the supported verbs is identified by a numeric value, passed to **DoVerb** in the  _iVerb_ parameter. Typical implementations of **DoVerb** contain a **switch** statement that tests the values that are valid for the  _iVerb_ parameter for the form. 
   
-## Notes to Implementers
+## Notes to implementers
 
 If the form viewer specifies a view context in the  _lpViewContext_ parameter, use it in your **DoVerb** implementation instead of the view context passed in an earlier call to the [IMAPIForm::SetViewContext](imapiform-setviewcontext.md) method. Make whatever changes are necessary to your internal data structures and do not save the view context. 
   
@@ -87,7 +87,7 @@ To obtain the **RECT** structure used by a form's window, call the [GetWindowRec
   
 Do not save the handle in the  _hwndParent_ parameter because, although it usually remains valid until the completion of **DoVerb**, it can be destroyed immediately upon the call's return.
   
-## Notes to Callers
+## Notes to callers
 
 You can make non-modal verbs act as modal verbs by pointing  _lpViewContext_ to a view context implementation that returns the VCSTATUS_MODAL flag from its [IMAPIViewContext::GetViewStatus](imapiviewcontext-getviewstatus.md) method. 
   
@@ -103,14 +103,14 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIForm::SetViewContext](imapiform-setviewcontext.md)
   
 [IMAPIViewContext::GetViewStatus](imapiviewcontext-getviewstatus.md)
   
 [IMAPIForm : IUnknown](imapiformiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
   

@@ -92,12 +92,12 @@ Consider the following XLL command, which uses **xlGetName** to obtain a string 
 int WINAPI show_DLL_name(void)
 {
     XLOPER12 xDllName;
-    if(Excel12(xlfGetName, &amp;xDllName, 0) == xlretSuccess)
+    if(Excel12(xlfGetName, &xDllName, 0) == xlretSuccess)
     {
         // Display the name.
-        Excel12(xlcAlert, 0, 1, &amp;xDllName);
+        Excel12(xlcAlert, 0, 1, &xDllName);
         // Free the memory that Excel allocated for the string.
-        Excel12(xlFree, 0, 1, &amp;xDllName);
+        Excel12(xlFree, 0, 1, &xDllName);
     }
     return 1;
 }
@@ -126,7 +126,7 @@ The following code example shows the XLL command in the previous section convert
 LPXLOPER12 WINAPI get_DLL_name(int calculation_trigger)
 {
     static XLOPER12 xRtnValue; // Not thread-safe
-    Excel12(xlfGetName, &amp;xRtnValue, 0);
+    Excel12(xlfGetName, &xRtnValue, 0);
 // If xlfGetName failed, xRtnValue will be #VALUE!
     if(xRtnValue.xltype == xltypeStr)
     {
@@ -134,7 +134,7 @@ LPXLOPER12 WINAPI get_DLL_name(int calculation_trigger)
 // it has copied out the return value.
         xRtnValue.xltype |= xlbitXLFree;
     }
-    return &amp;xRtnValue;
+    return &xRtnValue;
 }
 ```
 
@@ -157,10 +157,10 @@ The following example function does the same as the previous function except tha
 LPXLOPER12 WINAPI get_DLL_name_2(int calculation_trigger)
 {
     static XLOPER12 xRtnValue; // Not thread-safe
-    Excel12(xlfGetName, &amp;xRtnValue, 0);
+    Excel12(xlfGetName, &xRtnValue, 0);
 // If xlfGetName failed, xRtnValue will be #VALUE!
     if(xRtnValue.xltype != xltypeStr)
-        return &amp;xRtnValue;
+        return &xRtnValue;
 // Make a copy of the DLL path and file name.
     wchar_t *leader = L"The full pathname for this DLL is ";
     size_t leader_len = wcslen(leader);
@@ -172,13 +172,13 @@ LPXLOPER12 WINAPI get_DLL_name_2(int calculation_trigger)
         dllname_len);
     msg_text[0] = msg_len;
 // Now the original string has been copied Excel can free it.
-    Excel12(xlFree, 0, 1, &amp;xRtnValue);
+    Excel12(xlFree, 0, 1, &xRtnValue);
 // Now reuse the XLOPER12 for the new string.
     xRtnValue.val.str = msg_text;
 // Tell Excel to call back into the DLL to free the string
 // memory after it has copied out the return value.
     xRtnValue.xltype     = xltypeStr | xlbitDLLFree;
-    return &amp;xRtnValue;
+    return &xRtnValue;
 }
 ```
 
@@ -440,7 +440,7 @@ If you are concerned, or just curious, or you want to eliminate lack of stack sp
   
 ## See also
 
-#### Concepts
+
 
 [Multithreaded Recalculation in Excel](multithreaded-recalculation-in-excel.md)
   

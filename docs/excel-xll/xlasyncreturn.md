@@ -73,7 +73,7 @@ int batchSize = 10;
 
 ## See also
 
-#### Concepts
+
 
 [Asynchronous User-Defined Functions](asynchronous-user-defined-functions.md)
 

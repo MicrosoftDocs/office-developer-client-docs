@@ -31,9 +31,9 @@ Contains TRUE if a message transfer agent (MTA) is prohibited from expanding dis
 |Data type:  <br/> |PT_BOOLEAN  <br/> |
 |Area:  <br/> |MAPI envelope  <br/> |
    
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -45,7 +45,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

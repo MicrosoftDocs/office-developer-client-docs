@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Sets the text wrapping width for a MIME stream that the converter will return in [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md).
   
-```
+```cpp
 HRESULT IConverterSession::SetTextWrapping ( 
     BOOL    fWrapText, 
     ULONG   ulWrapWidth 
@@ -58,7 +58,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IConverterSession : IUnknown](iconvertersessioniunknown.md)
   
@@ -73,7 +73,7 @@ For MFCMAPI sample code, see the following table.
 [IConverterSession::SetEncoding](iconvertersession-setencoding.md)
   
 [IConverterSession::SetSaveFormat](iconvertersession-setsaveformat.md)
-#### Concepts
+
 
 [MAPI Constants](mapi-constants.md)
 

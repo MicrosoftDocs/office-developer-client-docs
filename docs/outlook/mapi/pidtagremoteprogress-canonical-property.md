@@ -35,7 +35,7 @@ This property contains a number that indicates the status of a remote transfer.
 
 If no transfer is in progress, this property should be set to 1. If a transfer is in progress, it should be set to a value from 0 to 100 indicating the transfer's percent of completion.
   
-The text associated with the numeric status code appears in the **PR_REMOTE_PROGRESS_TEXT** ( [PidTagRemoteProgressText](pidtagremoteprogresstext-canonical-property.md)) property.
+The text associated with the numeric status code appears in the **PR_REMOTE_PROGRESS_TEXT** ([PidTagRemoteProgressText](pidtagremoteprogresstext-canonical-property.md)) property.
   
 The following flags can be set for this property:
   
@@ -47,9 +47,9 @@ MSGSTATUS_REMOTE_DOWNLOAD
   
 > The message transfer is in progress.
     
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -61,7 +61,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

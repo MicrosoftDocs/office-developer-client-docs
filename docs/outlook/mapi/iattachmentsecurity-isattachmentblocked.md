@@ -24,7 +24,7 @@ description: "Last modified: June 25, 2012"
   
 Checks if a specified attachment is blocked by Microsoft Outlook 2010 or Microsoft Outlook 2013 for viewing and indexing.
   
-```
+```cpp
 HRESULT IAttachmentSecurity::IsAttachmentBlocked( 
     LPCWSTR pwszFileName,  
     BOOL *pfBlocked 
@@ -43,7 +43,7 @@ HRESULT IAttachmentSecurity::IsAttachmentBlocked(
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Constants](mapi-constants.md)
   

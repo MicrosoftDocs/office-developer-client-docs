@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns the MAPI session in which the current message was created or opened.
   
-```
+```cpp
 HRESULT GetSession(
   LPMAPISESSION FAR * ppSession
 );
@@ -60,10 +60,10 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

@@ -26,7 +26,7 @@ Determines the code page for a Transport-Neutral Encapsulation Format (TNEF) str
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers.  <br/> |
    
-```
+```cpp
 HRESULT GetTnefStreamCodepage(
   LPSTREAM lpStream,
   ULONG FAR * lpulCodepage,
@@ -68,7 +68,7 @@ Use the **GetTnefStreamCodepage** function to read the **attOemCodepage** attrib
   
 ## See also
 
-#### Other resources
+
 
 [attOemCodepage](http://msdn.microsoft.com/en-us/library/ee158667%28EXCHG.80%29.aspx)
 

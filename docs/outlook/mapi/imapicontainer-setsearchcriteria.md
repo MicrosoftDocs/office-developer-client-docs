@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Establishes search criteria for the container.
   
-```
+```cpp
 HRESULT SetSearchCriteria(
   LPSRestriction lpRestriction,
   LPENTRYLIST lpContainerList,
@@ -92,17 +92,17 @@ A search operation works only on this merged contents table; it does not search 
   
 Control is returned to the client when the search has finished.
   
-## Notes to Implementers
+## Notes to implementers
 
 Address book containers establish search criteria by applying restrictions to their contents tables. For more information about search criteria and address book containers, see [Implementing Advanced Searching](implementing-advanced-searching.md).
   
 You should support open, copy, move, and delete operations on the messages within search-results folders, not on the search-results folder itself. Do not allow messages to be created within or copied into a search-results folder. 
   
-## Notes to Callers
+## Notes to callers
 
-To search for message recipients, set  _lpRestriction_ to point to a subobject restriction with the **ulSubObject** member in the [SSubRestriction](ssubrestriction.md) structure set to **PR_MESSAGE_RECIPIENTS** ( [PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)). To search for attachments, set the **ulSubObject** member to **PR_MESSAGE_ATTACHMENTS** ( [PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)). Set the **lpRes** member to point to a property restriction that describes the search criteria for the recipients or attachments. 
+To search for message recipients, set  _lpRestriction_ to point to a subobject restriction with the **ulSubObject** member in the [SSubRestriction](ssubrestriction.md) structure set to **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)). To search for attachments, set the **ulSubObject** member to **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)). Set the **lpRes** member to point to a property restriction that describes the search criteria for the recipients or attachments. 
   
-For example, to look for file attachments that have the extension .mss, set **ulSubObject** to **PR_MESSAGE_ATTACHMENTS** and **lpRes** to a property restriction that matches **PR_ATTACH_EXTENSION** ( [PidTagAttachExtension](pidtagattachextension-canonical-property.md)) with .mss.
+For example, to look for file attachments that have the extension .mss, set **ulSubObject** to **PR_MESSAGE_ATTACHMENTS** and **lpRes** to a property restriction that matches **PR_ATTACH_EXTENSION** ([PidTagAttachExtension](pidtagattachextension-canonical-property.md)) with .mss.
   
 Setting the FOREGROUND_SEARCH flag in the  _ulSearchFlags_ parameter could cause a decrease in system performance. 
   
@@ -122,7 +122,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md)
   
@@ -139,7 +139,7 @@ For MFCMAPI sample code, see the following table.
 [SSubRestriction](ssubrestriction.md)
   
 [IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

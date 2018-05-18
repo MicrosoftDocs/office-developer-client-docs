@@ -35,9 +35,9 @@ Contains the entry identifier of the standard interpersonal message (IPM) Delete
 
 A client application should move deleted interpersonal messages to the Deleted Items folder. If the message is already in this folder, or if this property is not supported, the client should delete the message. 
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

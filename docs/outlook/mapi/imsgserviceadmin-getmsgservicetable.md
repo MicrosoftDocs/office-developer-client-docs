@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Provides access to the message service table, a list of the message services in the profile.
   
-```
+```cpp
 HRESULT GetMsgServiceTable(
   ULONG ulFlags,
   LPMAPITABLE FAR * lppTable
@@ -63,14 +63,14 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md)
   
 [IMsgServiceAdmin::DeleteMsgService](imsgserviceadmin-deletemsgservice.md)
   
 [IMsgServiceAdmin : IUnknown](imsgserviceadminiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

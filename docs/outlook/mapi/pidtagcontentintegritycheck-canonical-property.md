@@ -33,11 +33,11 @@ Contains an ASN.1 content integrity check value that allows a message sender to 
    
 ## Remarks
 
-This property provides for non-repudiation of message content. In conjunction with **PR_MESSAGE_TOKEN** ( [PidTagMessageToken](pidtagmessagetoken-canonical-property.md)), it ensures that the content of a message arrives at its destination unchanged.
+This property provides for non-repudiation of message content. In conjunction with **PR_MESSAGE_TOKEN** ([PidTagMessageToken](pidtagmessagetoken-canonical-property.md)), it ensures that the content of a message arrives at its destination unchanged.
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

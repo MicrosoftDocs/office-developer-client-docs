@@ -36,7 +36,7 @@ If you choose to write code to create a profile, make sure that you understand h
     
 2. Call [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md), passing the **MAPIUID** structure of the service you just created and a property value array with its configuration properties. 
     
-6. To retrieve the identifier of a newly added service, which is its **PR_SERVICE_UID** ( [PidTagServiceUid](pidtagserviceuid-canonical-property.md)) property, call [IMsgServiceAdmin::GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md) to access the message service table and search for the row that represents the message service. The last row in the table will represent the most recently added message service. 
+6. To retrieve the identifier of a newly added service, which is its **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) property, call [IMsgServiceAdmin::GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md) to access the message service table and search for the row that represents the message service. The last row in the table will represent the most recently added message service. 
     
 To make a new profile temporary, call the [IProfAdmin::DeleteProfile](iprofadmin-deleteprofile.md) method immediately after you log on. **DeleteProfile** will mark the new profile as deleted while making it usable for the duration of the session. Because it will not be included in the session's profile table, other clients will be unable to use it. 
   

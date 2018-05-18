@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Removes a particular form from a form container.
   
-```
+```cpp
 HRESULT RemoveForm(
   LPCSTR szMessageClass
 );
@@ -56,10 +56,10 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIFormContainer : IUnknown](imapiformcontaineriunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

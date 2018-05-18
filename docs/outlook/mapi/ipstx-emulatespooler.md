@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Sets a local store to emulate the Outlook Protocol Manager to spool outgoing messages to a server.
   
-```
+```cpp
 HRESULT EmulateSpooler( 
     BOOL fEmulate 
 );
@@ -47,7 +47,7 @@ A local store calls **IPSTX::EmulateSpooler** to act as an Outlook Protocol Mana
   
 ## See also
 
-#### Reference
+
 
 [IPSTX::GetLastError](ipstx-getlasterror.md)
   

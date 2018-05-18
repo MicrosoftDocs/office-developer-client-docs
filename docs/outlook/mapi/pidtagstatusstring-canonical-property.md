@@ -33,13 +33,13 @@ Contains a message that indicates the current status of a session resource.
    
 ## Remarks
 
-These properties give service providers and MAPI the opportunity to supply specific information about the status of a session resource, such as the integrated address book or a particular service provider. This property explains and provides additional information about a status code, or the **PR_STATUS_CODE** ( [PidTagStatusCode](pidtagstatuscode-canonical-property.md)) property. Whereas **PR_STATUS_CODE** is required for all status objects, **PR_STATUS_STRING** and associated properties are optional. When the transport provider does not supply a value, the MAPI spooler supplies a default value. 
+These properties give service providers and MAPI the opportunity to supply specific information about the status of a session resource, such as the integrated address book or a particular service provider. This property explains and provides additional information about a status code, or the **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) property. Whereas **PR_STATUS_CODE** is required for all status objects, **PR_STATUS_STRING** and associated properties are optional. When the transport provider does not supply a value, the MAPI spooler supplies a default value. 
   
 The string is generated on the same side of the remote procedure call as the MAPI spooler; it travels through shared memory rather than being marshaled across a process boundary.
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -51,10 +51,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagStatusCode Canonical Property](pidtagstatuscode-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

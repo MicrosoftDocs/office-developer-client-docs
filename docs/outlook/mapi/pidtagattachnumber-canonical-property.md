@@ -39,15 +39,15 @@ Message stores generate and maintain this property. The attachment number is the
   
 The message store propagates changes to the table using the **IMessage::CreateAttach** and **IMessage::DeleteAttach** methods. At its option the message store can generate table notifications on open attachment tables so that clients can resynchronize to those changes. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Handles message and attachment objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

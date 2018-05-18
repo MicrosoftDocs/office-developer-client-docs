@@ -51,9 +51,9 @@ Provided that the passed-in **XLREF** is valid, this operation should always be 
 ```cs
 BOOL ConvertXLRefToXLRef12(LPXLREF pxref, LPXLREF12 pxref12)
 {
-   if (pxref->rwLast >= pxref->rwFirst &amp;&amp; pxref->colLast >= pxref->colFirst)
+   if (pxref->rwLast >= pxref->rwFirst && pxref->colLast >= pxref->colFirst)
    {
-      if (pxref->rwFirst >= 0 &amp;&amp; pxref->colFirst >= 0)
+      if (pxref->rwFirst >= 0 && pxref->colFirst >= 0)
       {
          pxref12->rwFirst = pxref->rwFirst;
          pxref12->rwLast = pxref->rwLast;
@@ -68,7 +68,7 @@ BOOL ConvertXLRefToXLRef12(LPXLREF pxref, LPXLREF12 pxref12)
 
 ## See also
 
-#### Concepts
+
 
 [Functions in the Framework Library](functions-in-the-framework-library.md)
 

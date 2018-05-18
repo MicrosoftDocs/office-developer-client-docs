@@ -30,7 +30,7 @@ Copies a group of event notifications to a single block of memory.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 SCODE ScCopyNotifications(
   int cntf,
   LPNOTIFICATION rgntf,

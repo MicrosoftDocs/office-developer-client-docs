@@ -1,7 +1,5 @@
 ---
 title: "PidTagExtendedFolderFlags Canonical Property"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -17,12 +15,10 @@ description: "Last modified: March 09, 2015"
 ---
 
 # PidTagExtendedFolderFlags Canonical Property
-
-  
-  
+ 
 **Applies to**: Outlook 
   
-Contains extended flags about a folder
+Contains extended flags about a folder.
   
 |||
 |:-----|:-----|
@@ -39,11 +35,11 @@ Possible ID values include:
   
 - Invalid
     
-    Do not use this value
+   Do not use this value
     
 - ExtendedFlags
     
-    The data is a four byte value formatted as:
+   The data is a four byte value formatted as:
     
 |**Bits**|**Description**|
 |:-----|:-----|
@@ -53,19 +49,19 @@ Possible ID values include:
 |6-7  <br/> |Controls the display of the number of messages in the folder.  <br/> 0 - Use the default setting  <br/> 1 - Use the number of unread messages  <br/> 3 - Use the total number of messages  <br/> |
 |8-31  <br/> |Reserved.  <br/> |
    
-    Reserved items can be ignored, but existing values must be preserved.
+Reserved items can be ignored, but existing values must be preserved.
     
 - SearchFolderID
     
-    The data field is a 16-byte field. When the application creates a persistent search folder, it must set this field on the folder to the same value as the **PR_WB_SF_TAG** ( [PidTagSearchFolderId)](pidtagsearchfolderid-canonical-property.md)) binary property on the Search Folder Message.
+   The data field is a 16-byte field. When the application creates a persistent search folder, it must set this field on the folder to the same value as the **PR_WB_SF_TAG** ([PidTagSearchFolderId)](pidtagsearchfolderid-canonical-property.md)) binary property on the Search Folder Message.
     
 - ToDoFolderVersion
     
-    The data field is a 4-byte field. When the application creates the to-do search folder, it must set the value of this field on the folder to the little-endian integer value of" 0x000c0000":
+   The data field is a 4-byte field. When the application creates the to-do search folder, it must set the value of this field on the folder to the little-endian integer value of" 0x000c0000":
     
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -79,7 +75,7 @@ Possible ID values include:
   
 > Specifies the properties and operations for manipulating a search folder list configuration.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -91,7 +87,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

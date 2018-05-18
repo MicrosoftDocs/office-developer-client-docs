@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Compares two entry identifiers to determine whether they refer to the same entry in a message store. MAPI passes this call to a service provider only if the unique identifiers (UIDs) in both entry identifiers to be compared are handled by that provider.
   
-```
+```cpp
 HRESULT CompareEntryIDs(
   ULONG cbEntryID1,
   LPENTRYID lpEntryID1,
@@ -75,7 +75,7 @@ MAPI_E_UNKNOWN_ENTRYID
 
 The **IMsgStore::CompareEntryIDs** method compares two entry identifiers that belong to the message store to determine whether they refer to the same object. 
   
-## Notes to Callers
+## Notes to callers
 
  **CompareEntryIDs** is useful because an object can have more than one valid entry identifier (for example, after a new version of a message store provider is installed). 
   
@@ -91,12 +91,12 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [MAPIUID](mapiuid.md)
   
 [IMsgStore : IMAPIProp](imsgstoreimapiprop.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

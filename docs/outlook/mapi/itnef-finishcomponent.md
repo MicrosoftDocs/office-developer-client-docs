@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Processes individual components from a message one at a time into a Transport-Neutral Encapsulation Format (TNEF) stream.
   
-```
+```cpp
 HRESULT FinishComponent(
   ULONG ulFlags,
   ULONG ulComponentID,
@@ -43,7 +43,7 @@ HRESULT FinishComponent(
     
 TNEF_COMPONENT_ATTACHMENT 
   
-> Processing will be finished for an attachment object; the  _ulComponentID_ parameter contains the **PR_ATTACH_NUM** ( [PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) property of the attachment. 
+> Processing will be finished for an attachment object; the  _ulComponentID_ parameter contains the **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) property of the attachment. 
     
 TNEF_COMPONENT_MESSAGE 
   
@@ -91,7 +91,7 @@ The value returned in  _lppProblems_ is valid only if the call returns S_OK. Whe
   
 ## See also
 
-#### Reference
+
 
 [ITnef::AddProps](itnef-addprops.md)
   

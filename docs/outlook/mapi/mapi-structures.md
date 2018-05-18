@@ -71,10 +71,10 @@ The following alphabetized entries describe MAPI structures. For more detailed i
    
 ## See also
 
-#### Concepts
+
 
 [MAPI Functions, Callbacks, and Macros](mapi-functions-callbacks-and-macros.md)
-#### Other resources
+
 
 [MAPI Reference](mapi-reference.md)
 

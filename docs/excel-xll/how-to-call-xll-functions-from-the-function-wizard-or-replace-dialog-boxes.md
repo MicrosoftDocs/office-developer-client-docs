@@ -86,7 +86,7 @@ BOOL CALLBACK xldlg_enum_proc(HWND hwnd, xldlg_enum_struct *p_enum)
 // Window has a title so do a case-insensitive comparison of the
 // title and the search text, if provided.
       else if(p_enum->window_title_text[0] != 0
-      &amp;&amp; _stricmp(buffer, p_enum->window_title_text) != 0)
+      && _stricmp(buffer, p_enum->window_title_text) != 0)
         return TRUE; // Keep iterating
     }
     p_enum->is_dlg = true;
@@ -104,18 +104,18 @@ bool called_from_paste_fn_dlg(void)
     XLOPER xHwnd;
 // Calls Excel4, which only returns the low part of the Excel
 // main window handle. This is OK for the search however.
-    if(Excel4(xlGetHwnd, &amp;xHwnd, 0))
+    if(Excel4(xlGetHwnd, &xHwnd, 0))
         return false; // Couldn't get it, so assume not
 // Search for bosa_sdm_xl* dialog box with no title string.
     xldlg_enum_struct es = {FALSE, xHwnd.val.w, ""};
-    EnumWindows((WNDENUMPROC)xldlg_enum_proc, (LPARAM)&amp;es);
+    EnumWindows((WNDENUMPROC)xldlg_enum_proc, (LPARAM)&es);
     return es.is_dlg;
 }
 ```
 
 ## See also
 
-#### Concepts
+
 
 [Accessing XLL Code in Excel](accessing-xll-code-in-excel.md)
   

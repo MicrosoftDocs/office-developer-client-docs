@@ -18,7 +18,7 @@ description: "Last modified: July 23, 2011"
   
 **Applies to**: Outlook 
   
-Rich Text Format (RTF)-aware clients can retrieve rendering position information from RTF message text by looking for the following escape sequence in the message's **PR_RTF_COMPRESSED** ( [PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) property:
+Rich Text Format (RTF)-aware clients can retrieve rendering position information from RTF message text by looking for the following escape sequence in the message's **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) property:
   
  `\objattph`
   
@@ -26,7 +26,7 @@ Rich Text Format (RTF)-aware clients can retrieve rendering position information
   
 1. Call **IMessage::GetAttachmentTable** to access the message's attachment table. For more information, see [IMessage::GetAttachmentTable](imessage-getattachmenttable.md).
     
-2. Build a property restriction that limits the table to rows that have **PR_RENDERING_POSITION** not equal to -1. For more information, see **PR_RENDERING_POSITION** ( [PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)).
+2. Build a property restriction that limits the table to rows that have **PR_RENDERING_POSITION** not equal to -1. For more information, see **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)).
     
 3. Call **IMAPITable::Restrict** to enforce the restriction. For more information, see [IMAPITable::Restrict](imapitable-restrict.md).
     

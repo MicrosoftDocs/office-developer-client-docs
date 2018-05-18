@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Establishes a message store as the default message store for the session.
   
-```
+```cpp
 HRESULT SetDefaultStore(
   ULONG ulFlags,
   ULONG cbEntryID,
@@ -40,7 +40,7 @@ HRESULT SetDefaultStore(
     
 MAPI_DEFAULT_STORE
   
-> Establishes the message store as the session default. Updates the message store's status table row by setting the STATUS_DEFAULT_STORE flag in the **PR_RESOURCE_FLAGS** ( [PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) column.
+> Establishes the message store as the session default. Updates the message store's status table row by setting the STATUS_DEFAULT_STORE flag in the **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) column.
     
 MAPI_PRIMARY_STORE
   
@@ -82,7 +82,7 @@ The **IMAPISession::SetDefaultStore** method establishes a message store as one 
     
 - The secondary message store for the session.
     
-To establish a message store as the default, the message store must have the following flags set in its **PR_STORE_SUPPORT_MASK** ( [PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) property:
+To establish a message store as the default, the message store must have the following flags set in its **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) property:
   
 - STORE_SUBMIT_OK
     
@@ -90,7 +90,7 @@ To establish a message store as the default, the message store must have the fol
     
 - STORE_MODIFY_OK
     
-## Notes to Callers
+## Notes to callers
 
 You can determine the default message store for the session by retrieving the status table and searching for the setting of the STATUS_DEFAULT_STORE flag in the **PR_RESOURCE_FLAGS** column. The row that has this setting represents the message store that is designated as the session default. 
   
@@ -112,7 +112,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [PidTagResourceFlags Canonical Property](pidtagresourceflags-canonical-property.md)
   
@@ -121,7 +121,7 @@ For MFCMAPI sample code, see the following table.
 [TABLE_NOTIFICATION](table_notification.md)
   
 [IMAPISession : IUnknown](imapisessioniunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

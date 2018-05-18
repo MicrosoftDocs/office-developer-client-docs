@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Forces all messages waiting to be sent or received to be immediately uploaded or downloaded. The MAPI spooler status object and status objects that transport providers implement support this method.
   
-```
+```cpp
 HRESULT FlushQueues(
   ULONG_PTR ulUIParam,
   ULONG cbTargetTransport,
@@ -83,7 +83,7 @@ MAPI_E_BUSY
     
 MAPI_E_NO_SUPPORT 
   
-> The status object does not support this operation, as indicated by the absence of the STATUS_FLUSH_QUEUES flag in the status object's **PR_RESOURCE_METHODS** ( [PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) property.
+> The status object does not support this operation, as indicated by the absence of the STATUS_FLUSH_QUEUES flag in the status object's **PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) property.
     
 ## Remarks
 
@@ -93,17 +93,17 @@ MAPI_E_BUSY should be returned for asynchronous requests so that clients can con
   
 By default, **FlushQueues** is a synchronous operation; control does not return to the caller until the flush has completed. Only the flush operation performed by the MAPI spooler can be asynchronous; clients request this behavior by setting the FLUSH_ASYNC_OK flag. 
   
-## Notes to Implementers
+## Notes to implementers
 
-A remote transport provider's implementation of **FlushQueues** sets bits in the **PR_STATUS_CODE** ( [PidTagStatusCode](pidtagstatuscode-canonical-property.md)) property in the logon object's status row to control how queues are flushed. If a remote viewer passes in the FLUSH_UPLOAD flag, the **FlushQueues** method should set the STATUS_INBOUND_ENABLED and STATUS_INBOUND_ACTIVE bits. If a remote viewer passes in the FLUSH_DOWNLOAD flag, the **FlushQueues** method should set the STATUS_OUTBOUND_ENABLED and STATUS_OUTBOUND_ACTIVE bits. **FlushQueues** should then return S_OK. The MAPI spooler will then initiate the appropriate actions to upload and download messages. 
+A remote transport provider's implementation of **FlushQueues** sets bits in the **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) property in the logon object's status row to control how queues are flushed. If a remote viewer passes in the FLUSH_UPLOAD flag, the **FlushQueues** method should set the STATUS_INBOUND_ENABLED and STATUS_INBOUND_ACTIVE bits. If a remote viewer passes in the FLUSH_DOWNLOAD flag, the **FlushQueues** method should set the STATUS_OUTBOUND_ENABLED and STATUS_OUTBOUND_ACTIVE bits. **FlushQueues** should then return S_OK. The MAPI spooler will then initiate the appropriate actions to upload and download messages. 
   
-## Notes to Callers
+## Notes to callers
 
 A call to the MAPI spooler status object is a directive to transfer all messages either to or from the appropriate transport provider. When you call an individual transport provider's status object, only the messages for that provider are affected.
   
 ## See also
 
-#### Reference
+
 
 [PidTagResourceMethods Canonical Property](pidtagresourcemethods-canonical-property.md)
   

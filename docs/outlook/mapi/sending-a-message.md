@@ -18,7 +18,7 @@ description: "Last modified: July 23, 2011"
   
 **Applies to**: Outlook 
   
-When you are ready to send a message, call its [IMessage::SubmitMessage](imessage-submitmessage.md) method. **SubmitMessage** places the message in the outgoing queue and sets the MSGFLAG_SUBMIT flag in the message's **PR_MESSAGE_FLAGS** ( [PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property.
+When you are ready to send a message, call its [IMessage::SubmitMessage](imessage-submitmessage.md) method. **SubmitMessage** places the message in the outgoing queue and sets the MSGFLAG_SUBMIT flag in the message's **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property.
   
 The message store provider, if tightly coupled to a transport provider, gives the message directly to the transport which delivers it to the messaging system. If not tightly coupled, the message store provider informs the MAPI spooler that the outgoing queue has changed and the MAPI spooler transfers the message to an appropriate transport provider.
   

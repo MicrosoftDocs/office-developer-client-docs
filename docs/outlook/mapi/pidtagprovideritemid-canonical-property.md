@@ -35,9 +35,9 @@ Specifies an identifier for a folder or an item in a store.
 
 Store providers can specify a value for this property for a folder or an item, but should keep the value the same between sessions. Store providers use this property to identify search results returned from a search engine.
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

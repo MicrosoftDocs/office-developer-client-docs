@@ -45,7 +45,7 @@ After each interface topic, the interface's methods are then documented in alpha
    
 ## See also
 
-#### Other resources
+
 
 [MAPI Reference](mapi-reference.md)
 

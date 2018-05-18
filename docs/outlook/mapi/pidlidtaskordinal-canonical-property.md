@@ -36,13 +36,13 @@ Provides an aid to custom sorting tasks.
 
 This property may be left unset. If set, its value must be greater than "0x800186A0" (-2,147,383,648) and less than "0x7FFE7960" (2,147,383,648) and must be unique among tasks in the same folder.
   
-Whenever the client sets this property to a number less than the negative of the current value of the **PR_ORDINAL_MOST** ( [PidTagOrdinalMost](pidtagordinalmost-canonical-property.md)) property of the folder, the client must also update **PR_ORDINAL_MOST** on the folder. 
+Whenever the client sets this property to a number less than the negative of the current value of the **PR_ORDINAL_MOST** ([PidTagOrdinalMost](pidtagordinalmost-canonical-property.md)) property of the folder, the client must also update **PR_ORDINAL_MOST** on the folder. 
   
 The **PR_ORDINAL_MOST** property of the folder provides an efficient way to determine a unique value among tasks in the same folder. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -52,7 +52,7 @@ The **PR_ORDINAL_MOST** property of the folder provides an efficient way to dete
   
 > Defines several objects that model the electronic equivalent of tasks, task assignments, and task updates. 
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -60,7 +60,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

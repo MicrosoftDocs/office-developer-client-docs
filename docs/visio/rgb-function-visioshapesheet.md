@@ -30,7 +30,7 @@ RGB( ** *red* **, ** *green* **, ** *blue* ** )
 | _green_ <br/> |Required  <br/> |**Number** <br/> |The green component.  <br/> |
 | _blue_ <br/> |Required  <br/> |**Nmber** <br/> |The blue component.  <br/> |
    
-### Return Value
+### Return value
 
 Number
   

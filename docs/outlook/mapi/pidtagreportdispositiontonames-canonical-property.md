@@ -29,15 +29,15 @@ Indicates the names of the report recipients for messages that request receipts.
 |Data type:  <br/> |PT_MV_STRING8, PT_UNICODE  <br/> |
 |Area:  <br/> |MAPI envelope  <br/> |
    
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]] 
   
 > Provides references to related Exchange Server protocol specifications.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

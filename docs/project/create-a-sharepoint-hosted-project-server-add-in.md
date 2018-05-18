@@ -16,7 +16,7 @@ In Project, statusing is a process where a team member can use the Tasks page in
   
 The **QuickStatus** app is a sample for developers; it is not intended for use in a production environment. The primary purpose is to show an example of app development for Project Online, not to create a fully functional statusing app. For a better approach to statusing, see the recommendation in [Next steps](#pj15_StatusingApp_NextSteps).
   
-For general information about statusing, see [Task progress](https://support.office.com/article/Find-information-about-Project-Server-2013-8b08a414-15a7-4076-b2db-c90d0214ea7f?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_TaskProgress). For more information about developing add-ins for SharePoint and Project Server, see [SharePoint Add-ins](http://msdn.microsoft.com/en-us/library/jj163230.aspx).
+For general information about statusing, see [Task progress](https://support.office.com/article/Find-information-about-Project-Server-2013-8b08a414-15a7-4076-b2db-c90d0214ea7f?ui=en-US&rs=en-US&ad=US#BKMK_TaskProgress). For more information about developing add-ins for SharePoint and Project Server, see [SharePoint Add-ins](http://msdn.microsoft.com/en-us/library/jj163230.aspx).
 
 <a name="pj15_StatusingApp_Prerequisites"> </a>
 
@@ -402,7 +402,7 @@ JavaScript functions in the **QuickStatus** app include the following:
                         pctComplete = pctCompleteRow;
                     }
                     // If both percent complete fields are empty, show an error.
-                    if (pctCompleteMain === "" &amp;&amp; pctCompleteRow === "") {
+                    if (pctCompleteMain === "" && pctCompleteRow === "") {
                         $('p#message').attr('style', 'color: #e11500');     // Red text.
                         $get("message").innerHTML =
                             '<b>Error:</b> Both <i>Percent complete</i> fields are empty, in row '
@@ -447,10 +447,10 @@ JavaScript functions in the **QuickStatus** app include the following:
     https://app-ef98082fa37e3c.servername.officeapps.selfhost.corp.microsoft.com/pwa/
         QuickStatus/Pages/Default.aspx
         ?SPHostUrl=https%3A%2F%2Fsphvm%2D85178%2Fpwa
-        &amp;SPLanguage=en%2DUS
-        &amp;SPClientTag=1
-        &amp;SPProductNumber=15%2E0%2E4420%2E1022
-        &amp;SPAppWebUrl=https%3A%2F%2Fapp%2Def98082fa37e3c%2Eservername
+        &SPLanguage=en%2DUS
+        &SPClientTag=1
+        &SPProductNumber=15%2E0%2E4420%2E1022
+        &SPAppWebUrl=https%3A%2F%2Fapp%2Def98082fa37e3c%2Eservername
             %2Eofficeapps%2Eselfhost%2Ecorp%2Emicrosoft%2Ecom%2Fpwa%2FQuickStatus
    ```
 
@@ -468,7 +468,7 @@ JavaScript functions in the **QuickStatus** app include the following:
         // Get a specified query string parameter from the {StandardTokens} URL option string.
         function getQueryStringParameter(urlParameterKey) {
             var docUrl = document.URL;
-            var params = docUrl.split('?')[1].split('&amp;');
+            var params = docUrl.split('?')[1].split('&');
             for (var i = 0; i < params.length; i++) {
                 var theParam = params[i].split('=');
                 if (theParam[0] == urlParameterKey)
@@ -540,7 +540,7 @@ Although the groups and controls in each region look similar, a control for the 
         <CustomAction Id="21ea3aaf-79e5-4aac-9479-8eef14b4d9df.RibbonQuickStatusAction"
                     Location="CommandUI.Ribbon"
                     Sequence="10001"
-                    Title="Invoke &amp;apos;RibbonQuickStatusAction&amp;apos; action">
+                    Title="Invoke &apos;RibbonQuickStatusAction&apos; action">
         <CommandUIExtension>
             <!-- 
             Update the UI definitions below with the controls and the command actions
@@ -995,7 +995,7 @@ The following code is in the  `Scripts\App.js` file of the **QuickStatus** proje
                     pctComplete = pctCompleteRow;
                 }
                 // If both percent complete fields are empty, show an error.
-                if (pctCompleteMain === "" &amp;&amp; pctCompleteRow === "") {
+                if (pctCompleteMain === "" && pctCompleteRow === "") {
                     $('p#message').attr('style', 'color: #e11500');     // Red text.
                     $get("message").innerHTML =
                         '<b>Error:</b> Both <i>Percent complete</i> fields are empty, in row '
@@ -1042,7 +1042,7 @@ The following code is in the  `Scripts\App.js` file of the **QuickStatus** proje
     // Get a specified query string parameter from the {StandardTokens} URL option string.
     function getQueryStringParameter(urlParameterKey) {
         var docUrl = document.URL;
-        var params = docUrl.split('?')[1].split('&amp;');
+        var params = docUrl.split('?')[1].split('&');
         for (var i = 0; i < params.length; i++) {
             var theParam = params[i].split('=');
             if (theParam[0] == urlParameterKey)

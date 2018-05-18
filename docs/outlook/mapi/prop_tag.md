@@ -29,7 +29,7 @@ Returns a property tag created by combining a specified property type and identi
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |[SPropValue](spropvalue.md) <br/> |
    
-```
+```cpp
 PROP_TAG (ulPropType, ulPropID)
 ```
 
@@ -58,10 +58,10 @@ For more information about property tags, see [MAPI Property Tags](mapi-property
   
 ## See also
 
-#### Reference
+
 
 [SPropValue](spropvalue.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

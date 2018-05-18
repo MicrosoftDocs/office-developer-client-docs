@@ -20,11 +20,11 @@ description: "Last modified: July 23, 2011"
   
 Conversation tracking is collecting responses to a message. Clients should set two properties that aid in tracking conversations:
   
-- **PR_CONVERSATION_TOPIC** ( [PidTagConversationTopic](pidtagconversationtopic-canonical-property.md))
+- **PR_CONVERSATION_TOPIC** ([PidTagConversationTopic](pidtagconversationtopic-canonical-property.md))
     
-    **PR_CONVERSATION_TOPIC** is the normalized subject of the message, the subject without the prefix strings. Set this property to the value of the message's **PR_NORMALIZED_SUBJECT** ( [PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)) property. 
+    **PR_CONVERSATION_TOPIC** is the normalized subject of the message, the subject without the prefix strings. Set this property to the value of the message's **PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)) property. 
     
-- **PR_CONVERSATION_INDEX** ( [PidTagConversationIndex](pidtagconversationindex-canonical-property.md))
+- **PR_CONVERSATION_INDEX** ([PidTagConversationIndex](pidtagconversationindex-canonical-property.md))
     
     **PR_CONVERSATION_INDEX** indicates the position of the message within a particular conversation. It is a client's reponsibility to set **PR_CONVERSATION_INDEX** for each outgoing message, whether it is a new message, a forwarded message, or a reply. Clients can set this property manually or call [ScCreateConversationIndex](sccreateconversationindex.md), a utility function provided by MAPI. 
     
@@ -58,8 +58,8 @@ If you choose to set the conversation indexes of messages manually, consider the
     
 4. Separate threads started at different times that happen to share the same topic. 
     
-5. To implement a categorized sort so that messages are grouped by topic, sort by **PR_CONVERSATION_TOPIC** first and then by **PR_CONVERSATION_INDEX**. To present the results of the sort, set the **PR_DEPTH** ( [PidTagDepth](pidtagdepth-canonical-property.md)) property to 0 for messages with a conversation index that is 22 bytes in length. Then, for every 5-byte increment in the length, increment the value of the **PR_DEPTH** property by one. 
+5. To implement a categorized sort so that messages are grouped by topic, sort by **PR_CONVERSATION_TOPIC** first and then by **PR_CONVERSATION_INDEX**. To present the results of the sort, set the **PR_DEPTH** ([PidTagDepth](pidtagdepth-canonical-property.md)) property to 0 for messages with a conversation index that is 22 bytes in length. Then, for every 5-byte increment in the length, increment the value of the **PR_DEPTH** property by one. 
     
-The PR_ORIGINAL group of properties can also be used for conversation tracking. Set these properties to link reply or forwarded messages to the original message. All of the PR_ORIGINAL properties are optional. If you do not explicitly set, for example, **PR_ORIGINAL_AUTHOR_ENTRYID** ( [PidTagOriginalAuthorEntryId](pidtagoriginalauthorentryid-canonical-property.md)), the message store provider can use the default value, or the value of the **PR_SENDER_ENTRYID** ( [PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)) property. Likewise, if you do not set **PR_ORIGINAL_AUTHOR_NAME** or **PR_ORIGINAL_SUBMIT_TIME** ( [PidTagOriginalSubmitTime](pidtagoriginalsubmittime-canonical-property.md)), these properties can default to the values of the **PR_SENDER_NAME** ( [PidTagSenderName](pidtagsendername-canonical-property.md)) and **PR_CLIENT_SUBMIT_TIME** ( [PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md)) properties, respectively. 
+The PR_ORIGINAL group of properties can also be used for conversation tracking. Set these properties to link reply or forwarded messages to the original message. All of the PR_ORIGINAL properties are optional. If you do not explicitly set, for example, **PR_ORIGINAL_AUTHOR_ENTRYID** ([PidTagOriginalAuthorEntryId](pidtagoriginalauthorentryid-canonical-property.md)), the message store provider can use the default value, or the value of the **PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)) property. Likewise, if you do not set **PR_ORIGINAL_AUTHOR_NAME** or **PR_ORIGINAL_SUBMIT_TIME** ([PidTagOriginalSubmitTime](pidtagoriginalsubmittime-canonical-property.md)), these properties can default to the values of the **PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)) and **PR_CLIENT_SUBMIT_TIME** ([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md)) properties, respectively. 
   
 

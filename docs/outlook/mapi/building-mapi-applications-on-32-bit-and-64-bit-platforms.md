@@ -78,7 +78,7 @@ However, one function call among all Simple MAPI and MAPI elements, **MAPISendMa
   
 ## See also
 
-#### Concepts
+
 
 [Link to MAPI Functions](how-to-link-to-mapi-functions.md)
 

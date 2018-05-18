@@ -18,7 +18,7 @@ description: "Last modified: March 09, 2015"
   
  This topic describes what happens during the upload hierarchy state of the replication state machine. 
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|
@@ -38,7 +38,7 @@ When the upload hierarchy state ends, the local store returns to the synchronize
   
 ## See also
 
-#### Concepts
+
 
 [About the Replication API](about-the-replication-api.md)
   

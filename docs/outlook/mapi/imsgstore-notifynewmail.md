@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Informs the message store that a new message has arrived. This method is called only by the MAPI spooler.
   
-```
+```cpp
 HRESULT NotifyNewMail(
   LPNOTIFICATION lpNotification
 );
@@ -46,7 +46,7 @@ S_OK
 
 The **IMsgStore::NotifyNewMail** method is called by the MAPI spooler to inform the message store that a message is ready for delivery. 
   
-## Notes to Implementers
+## Notes to implementers
 
 When **NotifyNewMail** is called, send a new mail notification to all registered clients. You can send the notification by calling [IMAPISupport::Notify](imapisupport-notify.md), if you elect to use the support object methods, or by using your own implementation. A registered client is one that has called [IMsgStore::Advise](imsgstore-advise.md) and set the  _lpEntryID_ parameter to NULL and the  _ulEventMask_ parameter to  _fnevNewMail_. 
   
@@ -54,7 +54,7 @@ Do not modify or free the memory for the [NOTIFICATION](notification.md) structu
   
 ## See also
 
-#### Reference
+
 
 [IMAPISupport::Subscribe](imapisupport-subscribe.md)
   

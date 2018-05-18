@@ -30,7 +30,7 @@ Validates a specified property.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Service providers  <br/> |
    
-```
+```cpp
 ULONG FBadProp(
   LPSPropValue lpprop
 );
@@ -58,7 +58,7 @@ A service provider can call the **FBadProp** function for several reasons, for e
   
 ## See also
 
-#### Reference
+
 
 [FBadPropTag](fbadproptag.md)
 

@@ -29,7 +29,7 @@ Computes the number of bytes in an existing [SPropAttrArray](spropattrarray.md) 
 |Header file:  <br/> |Imessage.h  <br/> |
 |Related structure:  <br/> |**SPropAttrArray** <br/> |
    
-```
+```cpp
 CbSPropAttrArray (_lparray)
 ```
 
@@ -41,10 +41,10 @@ CbSPropAttrArray (_lparray)
     
 ## See also
 
-#### Reference
+
 
 [SPropAttrArray](spropattrarray.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

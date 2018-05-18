@@ -81,12 +81,12 @@ The following are some tests to verify that the uninstall process works properly
 ## See also
 <a name="olosc_TestingDeployment_PresenceOfOutlook"> </a>
 
-#### Concepts
+
 
 [Registering a Provider](registering-a-provider.md)
   
 [Installation Checklist](installation-checklist.md)
-#### Other resources
+
 
 [Getting Ready to Release an OSC Provider](getting-ready-to-release-an-osc-provider.md)
 

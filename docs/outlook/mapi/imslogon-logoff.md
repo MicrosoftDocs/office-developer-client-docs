@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Logs off a message store provider. 
   
-```
+```cpp
 HRESULT Logoff(
   ULONG FAR * lpulFlags
 );
@@ -52,7 +52,7 @@ Message store providers implement the **IMSLogon::Logoff** method to forcibly sh
     
 ## See also
 
-#### Reference
+
 
 [IMAPISession::Logoff](imapisession-logoff.md)
   

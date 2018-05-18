@@ -18,7 +18,7 @@ description: "Last modified: July 23, 2011"
   
 **Applies to**: Outlook 
   
-To copy one or more recipients from one container into another or the same container, first check that the target container is modifiable. Containers that are modifiable set the AB_MODIFIABLE flag in their **PR_CONTAINER_FLAGS** ( [PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)) property.
+To copy one or more recipients from one container into another or the same container, first check that the target container is modifiable. Containers that are modifiable set the AB_MODIFIABLE flag in their **PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)) property.
   
 To copy one or more entries into a modifiable container, call the destination container's [IABContainer::CopyEntries](iabcontainer-copyentries.md) method. Because copying address book entries can be time-consuming, **CopyEntries** accepts four input parameters: an array of entry identifiers for the entries to be copied, a window handle, a progress indicator, and a bitmask of flags. 
   

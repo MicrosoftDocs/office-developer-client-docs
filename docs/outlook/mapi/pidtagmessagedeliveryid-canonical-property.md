@@ -31,9 +31,9 @@ Contains a message transfer system (MTS) identifier for a message delivered to a
 |Data type:  <br/> |PT_BINARY  <br/> |
 |Area:  <br/> |Server  <br/> |
    
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -45,7 +45,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -66,7 +66,7 @@ A transport provider's logon object, which implements [IXPLogon : IUnknown](ixpl
     
 ## See also
 
-#### Concepts
+
 
 [Implementing Service Provider Logon](implementing-service-provider-logon.md)
 

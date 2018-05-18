@@ -44,12 +44,12 @@ For a Click-to-Run version of Office, your provider installer should choose one 
     
 ## See also
 
-#### Concepts
+
 
 [Installation Checklist](installation-checklist.md)
   
 [Quick Steps for Learning to Develop a Provider](quick-steps-for-learning-to-develop-a-provider.md)
-#### Other resources
+
 
 [Deploying a Provider](deploying-a-provider.md)
 

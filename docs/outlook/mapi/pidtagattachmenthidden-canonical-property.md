@@ -31,9 +31,9 @@ Indicates whether an attachment is hidden from the end user.
 |Data type:  <br/> |PT_BOOLEAN  <br/> |
 |Area:  <br/> |Message attachment  <br/> |
    
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -43,7 +43,7 @@ Indicates whether an attachment is hidden from the end user.
   
 > Defines the basic data structures that are used in remote operations.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -55,7 +55,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

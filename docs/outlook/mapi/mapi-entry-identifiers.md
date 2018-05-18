@@ -22,7 +22,7 @@ Entry identifiers are pieces of binary data stored in an [ENTRYID](entryid.md) s
   
 ## Entry Identifiers
 
-Message store providers assign entry identifiers to message stores, folders, and messages; address book providers assign them to address book containers, distribution lists, and messaging users. Entry identifiers are also used to open an object represented by a row in a table, such as a status object in the status table. Objects store their entry identifiers in their **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)) property. 
+Message store providers assign entry identifiers to message stores, folders, and messages; address book providers assign them to address book containers, distribution lists, and messaging users. Entry identifiers are also used to open an object represented by a row in a table, such as a status object in the status table. Objects store their entry identifiers in their **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) property. 
   
 Whereas service providers create, assign, and examine entry identifiers, client applications use them only as tools for opening objects. To clients, entry identifiers are opaque pieces of binary data and have nothing to do with the underlying messaging system. 
   
@@ -36,7 +36,7 @@ Entry identifiers come in two types: short-term and long-term. Short-term entry 
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Application Development](mapi-application-development.md)
 

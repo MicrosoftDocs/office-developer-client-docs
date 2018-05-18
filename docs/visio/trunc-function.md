@@ -29,7 +29,7 @@ TRUNC( ** *number* **, ** *numberofdigits* ** )
 | _number_ <br/> |Required  <br/> |**Numeric** <br/> |The number to truncate.  <br/> |
 | _numberofdigits_ <br/> |Required  <br/> |**Numeric** <br/> |The number of digits to which to truncate  _number_.  <br/> |
    
-### Return Value
+### Return value
 
 Numeric.
   

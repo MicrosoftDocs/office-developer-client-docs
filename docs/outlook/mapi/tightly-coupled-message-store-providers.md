@@ -18,7 +18,7 @@ description: "Last modified: July 23, 2011"
   
 **Applies to**: Outlook 
   
-Message store providers can be tightly coupled with a transport provider. Tightly coupling MAPI service providers means implementing the two providers such that the store provider and transport provider can communicate to make the process of sending and receiving messages more efficient. The benefit of doing this is that performance improvements can result when two service providers can interact with each other directly rather than by means of MAPI spooler. To tightly couple a message store provider to a transport provider, the transport provider must place the message store provider's entry identifier in the **PR_OWN_STORE_ENTRYID** ( [PidTagOwnStoreEntryId](pidtagownstoreentryid-canonical-property.md)) property in the transport provider's row in the MAPI status table. This enables MAPI spooler to connect the store provider to the transport provider.
+Message store providers can be tightly coupled with a transport provider. Tightly coupling MAPI service providers means implementing the two providers such that the store provider and transport provider can communicate to make the process of sending and receiving messages more efficient. The benefit of doing this is that performance improvements can result when two service providers can interact with each other directly rather than by means of MAPI spooler. To tightly couple a message store provider to a transport provider, the transport provider must place the message store provider's entry identifier in the **PR_OWN_STORE_ENTRYID** ([PidTagOwnStoreEntryId](pidtagownstoreentryid-canonical-property.md)) property in the transport provider's row in the MAPI status table. This enables MAPI spooler to connect the store provider to the transport provider.
   
 There is no requirement that a message store provider ever be tightly coupled with any other service provider. The most common service provider to tightly couple with a message store provider is a transport provider. This is usually done so that sending and receiving messages can be accomplished without involving the MAPI spooler. For example, when the user submits an outgoing message, the combined message store provider and transport provider can send it directly. The combined service providers do not have to first notify MAPI spooler that there is a new message to process and then wait for MAPI spooler to initiate the process of transferring the message from the message store provider to the transport provider. This has particular benefits when a server-based message store is being used by minimizing network traffic between the user's computer and the server.
   
@@ -30,7 +30,7 @@ In general, there are no well-specified procedures for tightly coupling service 
     
 ## See also
 
-#### Concepts
+
 
 [Developing a MAPI Message Store Provider](developing-a-mapi-message-store-provider.md)
 

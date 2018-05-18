@@ -25,7 +25,7 @@ Adds two numbers. This addition arithmetic operator can also add a number, in da
   
  *expression*  Any valid expression of any one of the data types in the numeric category except the **bit** data type. Cannot be used with date or time data types. 
   
-## Return Value
+## Return value
 
 Returns the data type of the argument with the higher precedence. 
   

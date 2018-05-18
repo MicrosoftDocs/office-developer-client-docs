@@ -35,9 +35,9 @@ Contains a secondary telephone number at the recipient's place of business.
 
 These properties are examples of the properties that provide identification and access information about a recipient. These properties are defined by the recipient and the recipient's organization. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -51,7 +51,7 @@ These properties are examples of the properties that provide identification and 
   
 > Specifies the properties and operations for lists of users, contacts, groups, and resources.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -63,10 +63,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagBusinessTelephoneNumber Canonical Property](pidtagbusinesstelephonenumber-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

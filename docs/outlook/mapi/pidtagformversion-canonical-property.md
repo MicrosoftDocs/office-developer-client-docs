@@ -35,9 +35,9 @@ Contains the version of a form.
 
 These properties indicate what design version is currently in effect for the form. The version is defined and maintained by the form's designer and is not necessarily related to any MAPI component version. 
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

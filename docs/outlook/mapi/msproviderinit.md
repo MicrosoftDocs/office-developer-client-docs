@@ -30,7 +30,7 @@ Initializes a message store provider for operation.
 |Implemented by:  <br/> |Message store providers  <br/> |
 |Called by:  <br/> |MAPI  <br/> |
    
-```
+```cpp
 HRESULT MSProviderInit(
   HINSTANCE hInstance,
   LPMALLOC lpMalloc,
@@ -100,7 +100,7 @@ MAPI_E_VERSION
 
 MAPI calls the entry point function **MSProviderInit** to initialize a message store provider following a client logon. 
   
-## Notes to Implementers
+## Notes to implementers
 
 A message store provider must implement **MSProviderInit** as an entry point function in the provider's DLL. The implementation must be based on the **MSPROVIDERINIT** function prototype, also specified in MAPISPI.H. MAPI defines **MSPROVIDERINIT** to use the standard MAPI initialization call type, STDMAPIINITCALLTYPE, which causes **MSProviderInit** to follow the CDECL calling convention. An advantage of CDECL is that calls can be attempted even if the number of calling parameters does not match the number of defined parameters. 
   
@@ -114,7 +114,7 @@ For more information about writing **MSProviderInit**, see [Loading Message Stor
   
 ## See also
 
-#### Reference
+
 
 [ABProviderInit](abproviderinit.md)
   

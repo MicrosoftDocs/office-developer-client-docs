@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Enables the calling service provider or gateway to add properties to the encapsulation of a message or an attachment. 
   
-```
+```cpp
 HRESULT AddProps(
   ULONG ulFlags,
   ULONG ulElemID,
@@ -45,7 +45,7 @@ TNEF_PROP_ATTACHMENTS_ONLY
     
 TNEF_PROP_CONTAINED 
   
-> Encodes only properties from the attachment specified by the  _ulElemID_ parameter. If the  _lpvData_ parameter is not NULL, the data pointed to is written into the attachment's encapsulation in the file indicated by the **PR_ATTACH_TRANSPORT_NAME** ( [PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md)) property.
+> Encodes only properties from the attachment specified by the  _ulElemID_ parameter. If the  _lpvData_ parameter is not NULL, the data pointed to is written into the attachment's encapsulation in the file indicated by the **PR_ATTACH_TRANSPORT_NAME** ([PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md)) property.
     
 TNEF_PROP_CONTAINED_TNEF 
   
@@ -65,7 +65,7 @@ TNEF_PROP_MESSAGE_ONLY
     
  _ulElemID_
   
-> [in] An attachment's **PR_ATTACH_NUM** ( [PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) property, which contains a number that uniquely identifies the attachment in its parent message. The  _ulElemID_ parameter is used when special handling is requested for an attachment. The  _ulElemID_ parameter should be 0 unless the TNEF_PROP_CONTAINED or TNEF_PROP_CONTAINED_TNEF flag is set in the  _ulFlags_ parameter. 
+> [in] An attachment's **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) property, which contains a number that uniquely identifies the attachment in its parent message. The  _ulElemID_ parameter is used when special handling is requested for an attachment. The  _ulElemID_ parameter should be 0 unless the TNEF_PROP_CONTAINED or TNEF_PROP_CONTAINED_TNEF flag is set in the  _ulFlags_ parameter. 
     
  _lpvData_
   
@@ -99,7 +99,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [ITnef::Finish](itnef-finish.md)
   
@@ -110,7 +110,7 @@ For MFCMAPI sample code, see the following table.
 [PidTagAttachTransportName Canonical Property](pidtagattachtransportname-canonical-property.md)
   
 [ITnef : IUnknown](itnefiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

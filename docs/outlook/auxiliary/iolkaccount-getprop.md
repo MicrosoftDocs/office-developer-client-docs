@@ -16,7 +16,7 @@ description: "Gets the value of the specified account property."
 
 Gets the value of the specified account property.
   
-## Quick Info
+## Quick info
 
 See [IOlkAccount](iolkaccount.md).
   
@@ -51,7 +51,7 @@ After this method returns, if the value of the account property is a binary or s
   
 ## See also
 
-#### Concepts
+
 
 [Constants (Account management API)](constants-account-management-api.md)
   

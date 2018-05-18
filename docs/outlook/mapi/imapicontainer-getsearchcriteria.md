@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Obtains the search criteria for the container.
   
-```
+```cpp
 HRESULT GetSearchCriteria(
   ULONG ulFlags,
   LPSRestriction FAR * lppRestriction,
@@ -89,11 +89,11 @@ MAPI_E_NOT_INITIALIZED
 
 The **IMAPIContainer::GetSearchCriteria** method obtains the search criteria for a container that supports searches, typically a search-results folder. You create search criteria by calling a container's **IMAPIContainer::SetSearchCriteria** method. 
   
-## Notes to Implementers
+## Notes to implementers
 
-Address book containers may need to support **GetSearchCriteria** only if they provide the advanced search capabilities associated with the **PR_SEARCH** ( [PidTagSearch](pidtagsearch-canonical-property.md)) property. For more information about how to implement the advanced search feature for address book containers, see [Implementing Advanced Searching](implementing-advanced-searching.md).
+Address book containers may need to support **GetSearchCriteria** only if they provide the advanced search capabilities associated with the **PR_SEARCH** ([PidTagSearch](pidtagsearch-canonical-property.md)) property. For more information about how to implement the advanced search feature for address book containers, see [Implementing Advanced Searching](implementing-advanced-searching.md).
   
-## Notes to Callers
+## Notes to callers
 
 When you are finished with the data structures pointed to by the  _lppRestriction_ and  _lppContainerList_ parameters, call [MAPIFreeBuffer](mapifreebuffer.md) once for each structure to be released. 
   
@@ -107,7 +107,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIContainer::SetSearchCriteria](imapicontainer-setsearchcriteria.md)
   
@@ -118,7 +118,7 @@ For MFCMAPI sample code, see the following table.
 [PidTagSearch Canonical Property](pidtagsearch-canonical-property.md)
   
 [IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

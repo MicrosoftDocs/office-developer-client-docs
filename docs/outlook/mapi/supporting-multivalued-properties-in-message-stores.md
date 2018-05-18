@@ -22,7 +22,7 @@ The requirements for supporting properties that have multiple values are documen
   
 ## See also
 
-#### Concepts
+
 
 [Implementing Messages in Message Stores](implementing-messages-in-message-stores.md)
 

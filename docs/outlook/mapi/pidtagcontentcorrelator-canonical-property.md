@@ -35,9 +35,9 @@ Contains a value the message sender can use to match a report with the original 
 
 The contents of the binary string are defined by the message originator. If set on an outgoing message, this property should be copied onto any reports generated in response to the message.
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

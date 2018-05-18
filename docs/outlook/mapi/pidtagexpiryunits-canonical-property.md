@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Describes the unit of time when the **PR_EXPIRY_NUMBER** ( [PidTagExpiryNumber](pidtagexpirynumber-canonical-property.md)) property multiplies.
+Describes the unit of time when the **PR_EXPIRY_NUMBER** ([PidTagExpiryNumber](pidtagexpirynumber-canonical-property.md)) property multiplies.
   
 |||
 |:-----|:-----|
@@ -43,15 +43,15 @@ This property, if set, must be one of the following values:
 |0x00000002  <br/> |Day, for example 24x60x60 seconds  <br/> |
 |0x00000003  <br/> |Week, for example 7x24x60x60 seconds  <br/> |
    
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Specifies the properties and operations that are permissible for e-mail message objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -63,7 +63,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Sets or clears a client's default profile.
   
-```
+```cpp
 HRESULT SetDefaultProfile(
   LPSTR lpszProfileName,
   ULONG ulFlags
@@ -57,15 +57,15 @@ MAPI_E_NOT_FOUND
     
 ## Remarks
 
-The **IProfAdmin::SetDefaultProfile** method either establishes a particular profile as the client's default profile or clears the current default profile. The default profile is the profile that is automatically used whenever the client begins a MAPI session. **SetDefaultProfile** also sets the new default profile's **PR_DEFAULT_PROFILE** ( [PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) property to TRUE.
+The **IProfAdmin::SetDefaultProfile** method either establishes a particular profile as the client's default profile or clears the current default profile. The default profile is the profile that is automatically used whenever the client begins a MAPI session. **SetDefaultProfile** also sets the new default profile's **PR_DEFAULT_PROFILE** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) property to TRUE.
   
-## Notes to Callers
+## Notes to callers
 
 To start a session with the default profile, pass the MAPI_USE_DEFAULT flag to the [MAPILogonEx](mapilogonex.md) function. 
   
 ## See also
 
-#### Reference
+
 
 [IProfAdmin::GetProfileTable](iprofadmin-getprofiletable.md)
   

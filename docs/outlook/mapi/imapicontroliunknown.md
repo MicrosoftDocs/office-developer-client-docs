@@ -35,7 +35,7 @@ For more information about how to work with display tables and control objects, 
 |Interface identifier:  <br/> |IID_IMAPIControl  <br/> |
 |Pointer type:  <br/> |LPMAPICONTROL  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -45,7 +45,7 @@ For more information about how to work with display tables and control objects, 
    
 ## See also
 
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
 

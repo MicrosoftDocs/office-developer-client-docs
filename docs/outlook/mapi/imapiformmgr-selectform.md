@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Presents a dialog box that enables the user to select a form, and returns a form information object that describes that form.
   
-```
+```cpp
 HRESULT SelectForm(
   ULONG_PTR ulUIParam,
   ULONG ulFlags,
@@ -78,7 +78,7 @@ MAPI_E_USER_CANCEL
 
 Form viewers call the **IMAPIFormMgr::SelectForm** method to first present a dialog box that enables the user to select a form and then to retrieve a form information object that describes the selected form. The dialog box constrains the user to select a single form. 
   
-## Notes to Callers
+## Notes to callers
 
 The **SelectForm** dialog box displays only forms that are not hidden (that is, forms that have their hidden properties clear). If a form viewer passes the MAPI_UNICODE flag in the  _ulFlags_ parameter, all strings are Unicode. Form library providers that do not support Unicode strings should return MAPI_E_BAD_CHARWIDTH if MAPI_UNICODE is passed. 
   
@@ -92,10 +92,10 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIFormMgr : IUnknown](imapiformmgriunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

@@ -35,9 +35,9 @@ Contains an ASN.1 proof of submission value.
 
 This property corresponds to an X.400 submission envelope per-message attribute.
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -52,7 +52,7 @@ int CallUDF(int SessionId, WCHAR *XllName, WCHAR *UDFName, LPXLOPER12 pxAsyncHan
   
 > A value to pass to the user-defined function. Repeat this argument for each parameter indicated by  _ArgCount_.
     
-## Return Value
+## Return value
 
  **xlHpcRetSuccess** if the UDF call is successfully initiated; **xlHpcRetInvalidSessionId** if the  _SessionId_ argument is invalid; **xlHpcRetCallFailed** on other failures, including time-out. If the call returns any error code (anything except **xlHpcRetSuccess**), then Excel considers the UDF call to have failed, invalidates the  _pxAsyncHandle_, and does not expect a callback to occur.
   
@@ -62,7 +62,7 @@ This function executes asynchronously.
   
 ## See also
 
-#### Concepts
+
 
 [Excel Cluster Connector Functions](excel-cluster-connector-functions.md)
 

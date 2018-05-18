@@ -34,7 +34,7 @@ Provides the ability to retrieve and change the access for an object's propertie
 |Pointer type:  <br/> |LPPROPDATA  <br/> |
 |Transaction model:  <br/> |Nontransacted  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -51,7 +51,7 @@ For more information about access levels on objects and properties, see [Permiss
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
 

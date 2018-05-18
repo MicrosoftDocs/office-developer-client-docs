@@ -30,7 +30,7 @@ Table users can move to a position that represents an approximate percentage of 
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Tables](mapi-tables.md)
 

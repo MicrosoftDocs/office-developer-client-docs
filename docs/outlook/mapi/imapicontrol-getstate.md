@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Retrieves a value that indicates whether the button control is enabled or disabled.
   
-```
+```cpp
 HRESULT GetState(
   ULONG ulFlags,
   ULONG FAR * lpulState
@@ -63,7 +63,7 @@ For more information about how to implement **GetState** and the other [IMAPICon
   
 ## See also
 
-#### Reference
+
 
 [IMAPIControl::Activate](imapicontrol-activate.md)
   

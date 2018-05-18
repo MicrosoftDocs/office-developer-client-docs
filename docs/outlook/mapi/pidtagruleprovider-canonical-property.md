@@ -37,9 +37,9 @@ Deferred actions need these properties to identify the code that must interpret 
   
 Rules stored on mailboxes and folders are associated with the application that owns them by a rule provider string. A rule provider sets and handles rules in a rule table. It also provides a means of handling any deferred actions if such rules are set. Deferred actions are created implicitly by the information store. For move or copy operations to a different store, if a provider sets a deferred action rule, it must provide a handler to perform the action when the rule is fired and a deferred action is created.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -49,7 +49,7 @@ Rules stored on mailboxes and folders are associated with the application that o
   
 > Manipulates incoming e-mail messages on a server.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -61,7 +61,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

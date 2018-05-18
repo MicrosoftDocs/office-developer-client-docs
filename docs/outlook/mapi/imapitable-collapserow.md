@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Collapses an expanded table category, removing any lower-level headings and leaf rows belonging to the category from the table view.
   
-```
+```cpp
 HRESULT CollapseRow(
 ULONG cbInstanceKey,
 LPBYTE pbInstanceKey,
@@ -41,7 +41,7 @@ ULONG FAR * lpulRowCount
     
  _pbInstanceKey_
   
-> [in] A pointer to the **PR_INSTANCE_KEY** ( [PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) property that identifies the heading row for the category. 
+> [in] A pointer to the **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) property that identifies the heading row for the category. 
     
  _ulFlags_
   
@@ -85,7 +85,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPITable::ExpandRow](imapitable-expandrow.md)
   
@@ -100,7 +100,7 @@ For MFCMAPI sample code, see the following table.
 [SSortOrderSet](ssortorderset.md)
   
 [IMAPITable : IUnknown](imapitableiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

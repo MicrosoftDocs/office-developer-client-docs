@@ -30,7 +30,7 @@ MONTH(" ** *datetime* ** "| ** *expression* ** [, ** *lcid* ** ])
 | _expression_ <br/> |Required  <br/> |**String** <br/> | Any expression that yields a date and time.  <br/> |
 | _lcid_ <br/> |Optional  <br/> |**Number** <br/> |The locale identifier to be used in evaluating a nonlocal datetime. The locale identifier is a number described in the system header files.  <br/> |
    
-### Return Value
+### Return value
 
 Integer
   

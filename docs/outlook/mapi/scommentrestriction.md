@@ -28,7 +28,7 @@ Describes a comment restriction, which is used to annotate a restriction.
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SCommentRestriction
 {
   ULONG          cValues;
@@ -62,14 +62,14 @@ For more information about the **SCommentRestriction** structure and restriction
   
 ## See also
 
-#### Reference
+
 
 [SPropValue](spropvalue.md)
   
 [SRestriction](srestriction.md)
   
 [SPropertyRestriction](spropertyrestriction.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

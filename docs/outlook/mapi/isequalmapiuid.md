@@ -29,7 +29,7 @@ Tests two [MAPIUID](mapiuid.md) structures to determine whether they contain the
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**MAPIUID** <br/> |
    
-```
+```cpp
 IsEqualMAPIUID(lpuid1, lpuid2)
 ```
 
@@ -51,10 +51,10 @@ The **IsEqualMAPIUID** macro requires that the header file Memory.h be included.
   
 ## See also
 
-#### Reference
+
 
 [MAPIUID](mapiuid.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

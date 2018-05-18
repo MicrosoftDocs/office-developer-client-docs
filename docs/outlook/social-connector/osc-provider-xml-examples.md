@@ -24,10 +24,10 @@ This section contains XML examples that use the **capabilities**, **friends**, a
     
 ## See also
 
-#### Concepts
+
 
 [Outlook Social Connector Provider XML Schema](outlook-social-connector-provider-xml-schema.md)
-#### Other resources
+
 
 [Developing a Provider with the OSC XML Schema](developing-a-provider-with-the-osc-xml-schema.md)
 

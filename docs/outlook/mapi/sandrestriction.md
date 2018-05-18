@@ -28,7 +28,7 @@ Describes an **AND** restriction, which is used to join a group of restrictions 
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SAndRestriction
 {
   ULONG cRes;
@@ -55,10 +55,10 @@ For a description of types of restrictions, how to build them, and sample code, 
   
 ## See also
 
-#### Reference
+
 
 [SRestriction](srestriction.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

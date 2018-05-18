@@ -30,7 +30,7 @@ Recreates an entry identifier from its ASCII encoding.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications  <br/> |
    
-```
+```cpp
 HRESULT HrEntryIDFromSz(
   LPSTR sz,
   ULONG FAR * pcb,
@@ -66,7 +66,7 @@ MAPI_E_INVALID_ENTRYID
 
 The **HrEntryIDFromSz** and [HrSzFromEntryID](hrszfromentryid.md) functions provide conversion between the string and binary formats of entry identifiers. 
   
-## Notes to Callers
+## Notes to callers
 
 The **HrEntryIDFromSz** function allocates memory for the ASCII string using the [MAPIAllocateBuffer](mapiallocatebuffer.md) function. 
   

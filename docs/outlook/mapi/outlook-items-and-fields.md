@@ -30,7 +30,7 @@ Each user-defined field of an item has a value that is stored in a corresponding
   
 ## See also
 
-#### Concepts
+
 
 [Add a Definition for a New User-Defined Field](how-to-add-a-definition-for-a-new-user-defined-field.md)
   

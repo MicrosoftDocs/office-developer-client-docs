@@ -43,9 +43,9 @@ This property on the folder containing the conflict resolution message will indi
    
 A client or server must not generate a conflict resolve message for associated messages. These messages must be resolved by using **RESOLVE_METHOD_LAST_WRITER_WINS** semantics. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXCSYNC]](http://msdn.microsoft.com/library/fd3e23ef-341a-4a8c-a0e9-6afecbb11c40%28Office.15%29.aspx)
   
@@ -55,7 +55,7 @@ A client or server must not generate a conflict resolve message for associated m
   
 > Defines the basic data structures that are used in remote operations.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -67,7 +67,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

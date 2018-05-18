@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Returns a pointer to the MAPI session associated with the MAPI support object.
   
-```
+```cpp
 HRESULT GetMAPISession(
   LPUNKNOWN *  lppSession
 );
@@ -38,10 +38,10 @@ HRESULT GetMAPISession(
     
 ## See also
 
-#### Reference
+
 
 [IMAPIGetSession : IUnknown](imapigetsessioniunknown.md)
-#### Concepts
+
 
 [Support Object Overview](support-object-overview.md)
 

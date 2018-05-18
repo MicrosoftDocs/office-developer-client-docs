@@ -24,7 +24,7 @@ Invalidating an object gives MAPI the ultimate responsibility for freeing the me
   
 ## See also
 
-#### Concepts
+
 
 [Shutting Down a Service Provider](shutting-down-a-service-provider.md)
 

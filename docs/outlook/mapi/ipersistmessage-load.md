@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Loads the form for a specified message.
   
-```
+```cpp
 HRESULT Load(
   LPMESSAGESITE pMessageSite,
   LPMESSAGE pMessage,
@@ -45,11 +45,11 @@ HRESULT Load(
     
  _ulMessageStatus_
   
-> [in] A bitmask of client-defined or provider-defined flags, copied from the message's **PR_MSG_STATUS** ( [PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) property, that provide information about the state of the message.
+> [in] A bitmask of client-defined or provider-defined flags, copied from the message's **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) property, that provide information about the state of the message.
     
  _ulMessageFlags_
   
-> [in] A bitmask of flags, copied from the message's **PR_MESSAGE_FLAGS** ( [PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property, that provide further information about the state of the message.
+> [in] A bitmask of flags, copied from the message's **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property, that provide further information about the state of the message.
     
 ## Return value
 
@@ -61,7 +61,7 @@ S_OK
 
 Form viewers call the **IPersistMessage::Load** method to load a form for an existing message. 
   
-## Notes to Implementers
+## Notes to implementers
 
  **Load** is called only when a form is in one of the following states: 
   
@@ -81,14 +81,14 @@ If no errors occur, return S_OK.
   
 ## See also
 
-#### Reference
+
 
 [PidTagMessageFlags Canonical Property](pidtagmessageflags-canonical-property.md)
   
 [PidTagMessageStatus Canonical Property](pidtagmessagestatus-canonical-property.md)
   
 [IPersistMessage : IUnknown](ipersistmessageiunknown.md)
-#### Concepts
+
 
 [Uninitialized State](uninitialized-state.md)
   
@@ -97,7 +97,7 @@ If no errors occur, return S_OK.
 [HandsOffFromNormal State](handsofffromnormal-state.md)
   
 [Form States](form-states.md)
-#### Other resources
+
 
 [IPersistStorage::Load](http://msdn.microsoft.com/library/34379b8d-4e00-49cd-9fd1-65f88746c61a.aspx)
   

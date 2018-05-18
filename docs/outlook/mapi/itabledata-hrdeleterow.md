@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Deletes a table row.
   
-```
+```cpp
 HRESULT HrDeleteRow(
   LPSPropValue lpSPropValue
 );
@@ -56,7 +56,7 @@ Deleting a row does not reduce the column set that is available to existing view
   
 ## See also
 
-#### Reference
+
 
 [CreateTable](createtable.md)
   

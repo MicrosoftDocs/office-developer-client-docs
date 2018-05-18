@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Returns an ordered list of entry identifiers of the containers to be included in the name resolution process initiated by the [IAddrBook::ResolveName](iaddrbook-resolvename.md) method. 
   
-```
+```cpp
 HRESULT GetSearchPath(
   ULONG ulFlags,
   LPSRowSet FAR * lppSearchPath
@@ -59,7 +59,7 @@ If **SetSearchPath** has never been called, **GetSearchPath** builds a path by w
   
 1. The first container with read/write permission, usually the personal address book (PAB).
     
-2. Every container that has its **PR_DISPLAY_TYPE** ( [PidTagDisplayType](pidtagdisplaytype-canonical-property.md)) property set to DT_GLOBAL. This setting indicates that the container holds recipients. 
+2. Every container that has its **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)) property set to DT_GLOBAL. This setting indicates that the container holds recipients. 
     
 3. The container designated as the default, if there are no containers that have the DT_GLOBAL flag set in their **PR_DISPLAY_TYPE** property and the default container differs from the first container with read/write permission. 
     
@@ -69,7 +69,7 @@ After the first call to **SetSearchPath**, subsequent calls to **SetSearchPath**
   
 ## See also
 
-#### Reference
+
 
 [IAddrBook::SetSearchPath](iaddrbook-setsearchpath.md)
   

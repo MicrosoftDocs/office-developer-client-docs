@@ -31,7 +31,7 @@ The other two **IUnknown** methods, **AddRef** and **Release**, manage the refer
   
 ## See also
 
-#### Concepts
+
 
 [Implementing MAPI Objects](implementing-mapi-objects.md)
 

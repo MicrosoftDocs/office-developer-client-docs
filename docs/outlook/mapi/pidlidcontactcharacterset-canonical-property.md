@@ -34,11 +34,11 @@ Specifies the character set used for this contact.
    
 ## Remarks
 
-Applications can use this property to aid in generating a character-set dependent list of choices for the **dispidFileUnder** ( [PidLidFileUnder](pidlidfileunder-canonical-property.md)) , **dispidFileUnderList** ( [PidLidFileUnderList](pidlidfileunderlist-canonical-property.md)) , and **dispidFileUnderId** ( [PidLidFileUnderId](pidlidfileunderid-canonical-property.md)) properties. If the value of the property is "0x00000000" or "0x00000001", applications should treat the property as not being set.
+Applications can use this property to aid in generating a character-set dependent list of choices for the **dispidFileUnder** ([PidLidFileUnder](pidlidfileunder-canonical-property.md)) , **dispidFileUnderList** ([PidLidFileUnderList](pidlidfileunderlist-canonical-property.md)) , and **dispidFileUnderId** ([PidLidFileUnderId](pidlidfileunderid-canonical-property.md)) properties. If the value of the property is "0x00000000" or "0x00000001", applications should treat the property as not being set.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -48,7 +48,7 @@ Applications can use this property to aid in generating a character-set dependen
   
 > Specifies the properties and operations that are permissible for contacts and personal distribution lists.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

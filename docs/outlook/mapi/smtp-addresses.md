@@ -32,11 +32,11 @@ The parts of an SMTP address map into MAPI properties as follows:
   
 |**SMTP address component**|**MAPI property**|
 |:-----|:-----|
-| _display-name_ for all recipients  <br/> |**PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |
-| _display-name_ for From field  <br/> |**PR_SENDER_NAME** ( [PidTagSenderName](pidtagsendername-canonical-property.md))  <br/> |
-| _display-name_ for Sender field  <br/> |**PR_SENT_REPRESENTING_NAME** ( [PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md))  <br/> |
-| _email-address_ <br/> |**PR_EMAIL_ADDRESS** ( [PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |
-|implicit, always "SMTP"  <br/> |**PR_ADDRTYPE** ( [PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |
+| _display-name_ for all recipients  <br/> |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |
+| _display-name_ for From field  <br/> |**PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md))  <br/> |
+| _display-name_ for Sender field  <br/> |**PR_SENT_REPRESENTING_NAME** ([PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md))  <br/> |
+| _email-address_ <br/> |**PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |
+|implicit, always "SMTP"  <br/> |**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |
    
 If there is no display name for an address on inbound mail, the entire e-mail address should be used instead. The address type is always SMTP.
   

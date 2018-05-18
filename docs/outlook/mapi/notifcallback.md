@@ -30,7 +30,7 @@ Defines a callback function that MAPI calls to send an event notification. This 
 |Defined function implemented by:  <br/> |Client applications and service providers  <br/> |
 |Defined function called by:  <br/> |MAPI  <br/> |
    
-```
+```cpp
 ULONG (STDAPICALLTYPE NOTIFCALLBACK)(
   LPVOID lpvContext,
   ULONG cNotification,
@@ -68,7 +68,7 @@ The following are limitations on what a synchronous callback function can do:
     
 ## See also
 
-#### Reference
+
 
 [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md)
 

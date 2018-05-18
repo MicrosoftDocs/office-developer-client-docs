@@ -29,7 +29,7 @@ Contains an entry identifier for a MAPI object.
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related macros:  <br/> |[CbNewENTRYID](cbnewentryid.md), [SizedENTRYID](sizedentryid.md) <br/> |
    
-```
+```cpp
 typedef struct
 {
   BYTE abFlags[4];
@@ -116,14 +116,14 @@ For more information, see [Entry Identifiers](mapi-entry-identifiers.md).
   
 ## See also
 
-#### Reference
+
 
 [FLATENTRY](flatentry.md)
   
 [IMAPISupport::CompareEntryIDs](imapisupport-compareentryids.md)
   
 [PidTagRecordKey Canonical Property](pidtagrecordkey-canonical-property.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

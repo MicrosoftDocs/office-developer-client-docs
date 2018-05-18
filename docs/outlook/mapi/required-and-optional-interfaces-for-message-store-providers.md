@@ -38,7 +38,7 @@ The basic information you need to implement **IMAPIFolder**, **IMessage**, **IMA
   
 ## See also
 
-#### Concepts
+
 
 [Developing a MAPI Message Store Provider](developing-a-mapi-message-store-provider.md)
 

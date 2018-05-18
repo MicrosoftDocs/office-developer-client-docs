@@ -24,11 +24,11 @@ description: "Last modified: July 23, 2011"
   
 Indicates the intention of the MAPI client to exit the client process immediately.
   
-```
+```cpp
 HRESULT DoFastShutdown ();
 ```
 
-## Return Value
+## Return value
 
 S_OK
   
@@ -44,10 +44,10 @@ To avoid data loss from the fast shutdown of a MAPI client, MAPI clients should 
   
 ## See also
 
-#### Reference
+
 
 [IMAPIClientShutdown : IUnknown](imapiclientshutdowniunknown.md)
-#### Concepts
+
 
 [Client Shutdown in MAPI](client-shutdown-in-mapi.md)
 

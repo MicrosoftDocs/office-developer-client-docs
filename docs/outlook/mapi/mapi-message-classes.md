@@ -18,7 +18,7 @@ description: "Last modified: July 23, 2011"
   
 **Applies to**: Outlook 
   
-Every message has a message class property, **PR_MESSAGE_CLASS** ( [PidTagMessageClass](pidtagmessageclass-canonical-property.md)), which identifies the type, purpose, or content of the message. **PR_MESSAGE_CLASS** is a required property on all new messages. A message's class determines the form that is used to present the message to the user and the folder for placing incoming messages. 
+Every message has a message class property, **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)), which identifies the type, purpose, or content of the message. **PR_MESSAGE_CLASS** is a required property on all new messages. A message's class determines the form that is used to present the message to the user and the folder for placing incoming messages. 
   
 Message classes are case-sensitive character strings that contain ASCII characters 32 through 127 and are delimited by periods, but they cannot end with a period. Each string represents a level of subclassing, and there is no limit to the number of levels allowed. 
   
@@ -38,7 +38,7 @@ Message store providers should return MAPI_E_INVALID_PARAMETER from their [IMAPI
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Messages](mapi-messages.md)
 

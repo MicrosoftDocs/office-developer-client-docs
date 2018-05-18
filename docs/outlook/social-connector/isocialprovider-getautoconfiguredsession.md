@@ -34,7 +34,7 @@ The provider should return the OSC_E_NOT_IMPLEMENTED error if the social network
   
 ## See also
 
-#### Reference
+
 
 [ISocialProvider : IUnknown](isocialprovideriunknown.md)
 

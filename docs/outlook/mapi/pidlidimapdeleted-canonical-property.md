@@ -36,15 +36,15 @@ Denotes Internet Mail Access Protocol (IMAP) items that are marked for deletion.
 
 If set to a nonzero value, the item has been marked for deletion.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]] 
   
 > Provides property set definitions and references to related Exchange Server protocol specifications.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -52,7 +52,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

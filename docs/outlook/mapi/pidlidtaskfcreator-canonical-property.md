@@ -36,9 +36,9 @@ Indicates the task was originally created by the current user or user agent inst
 
 The client sets this property to TRUE when the user creates the task and to FALSE when the task is assigned by another user. If this property is left unset, a value of TRUE is assumed.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -48,7 +48,7 @@ The client sets this property to TRUE when the user creates the task and to FALS
   
 > Defines several objects that model the electronic equivalent of tasks, task assignments, and task updates.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -117,7 +117,7 @@ The development of business logic in InfoPath 2013 form templates can be perform
   
 ## See also
 
-#### Other resources
+
 
 [Walkthrough: Creating a Basic Form Template with Code](walkthrough-creating-a-basic-form-template-with-code.md)
   

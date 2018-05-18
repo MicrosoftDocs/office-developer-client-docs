@@ -25,7 +25,7 @@ Reallocates a memory buffer. It is used with the [MAPIAllocateBuffer](mapialloca
 |Header file:  <br/> |omapix.h  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 STDMETHODIMP_(SCODE) MAPIReallocateBuffer
 (
 LPVOID lpv, 
@@ -54,7 +54,7 @@ LPVOID * lppv
   
 ## See also
 
-#### Reference
+
 
 [MAPIAllocateBuffer](mapiallocatebuffer.md)
 

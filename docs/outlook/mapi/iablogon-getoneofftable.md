@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Returns a table of one-off templates for creating recipients to be added to the recipient list of an outgoing message.
   
-```
+```cpp
 HRESULT GetOneOffTable(
   ULONG ulFlags,
   LPMAPITABLE FAR * lppTable
@@ -63,13 +63,13 @@ MAPI_E_NO_SUPPORT
 
 MAPI calls the **GetOneOffTable** method to make available one-off templates to create recipients. The new recipients are added to the recipient list of an outgoing message. Address book providers should support notification on their one-off table to inform MAPI of template modifications. MAPI keeps the one-off table open to enable dynamic updating. 
   
-Address book providers can also support a one-off table for each of their containers. Callers retrieve this one-off table by calling the container's [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method and requesting the **PR_CREATE_TEMPLATES** ( [PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) property. The templates available through this table are used to add recipients to the container. For a discussion of the differences between the two types of one-off tables, see [Implementing One-Off Tables](implementing-one-off-tables.md).
+Address book providers can also support a one-off table for each of their containers. Callers retrieve this one-off table by calling the container's [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method and requesting the **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) property. The templates available through this table are used to add recipients to the container. For a discussion of the differences between the two types of one-off tables, see [Implementing One-Off Tables](implementing-one-off-tables.md).
   
 For a list of the required columns in an address book provider's one-off table, see [One-Off Tables](one-off-tables.md).
   
 ## See also
 
-#### Reference
+
 
 [IABContainer::CreateEntry](iabcontainer-createentry.md)
   

@@ -30,7 +30,7 @@ Provides information for an offline object.
 |Called by:  <br/> |Client  <br/> |
 |Interface identifier:  <br/> |IID_IMAPIOffline  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -47,10 +47,10 @@ A member in this interface is a placeholder reserved for the internal use of Mic
   
 ## See also
 
-#### Reference
+
 
 [IMAPIOfflineMgr : IMAPIOffline](imapiofflinemgrimapioffline.md)
-#### Concepts
+
 
 [About the Offline State API](about-the-offline-state-api.md)
   

@@ -48,7 +48,7 @@ Address book, message store, and transport providers perform the following two m
     
 ## See also
 
-#### Concepts
+
 
 [Starting a Service Provider](starting-a-service-provider.md)
 

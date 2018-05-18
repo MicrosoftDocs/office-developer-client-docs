@@ -37,11 +37,11 @@ This property is computed by message stores for all folders and messages.
   
 For a message store root folder, this property contains the folder's own entry identifier.
   
- **PR_PARENT_DISPLAY** ( [PidTagParentDisplay](pidtagparentdisplay-canonical-property.md)) and this property are not related to each other. They belong to entirely different contexts.
+ **PR_PARENT_DISPLAY** ([PidTagParentDisplay](pidtagparentdisplay-canonical-property.md)) and this property are not related to each other. They belong to entirely different contexts.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -71,7 +71,7 @@ For a message store root folder, this property contains the folder's own entry i
   
 > Specifies the method of delivering offline address book (OAB) data from server to client.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -83,10 +83,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagFolderType Canonical Property](pidtagfoldertype-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

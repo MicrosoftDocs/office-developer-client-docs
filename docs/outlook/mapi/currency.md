@@ -28,7 +28,7 @@ Contains a signed 64-bit integer representing a currency value.
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct tagCY
 {
   unsigned long Lo;
@@ -55,10 +55,10 @@ The **CURRENCY** structure is used to describe a property of type PT_CURRENCY. F
   
 ## See also
 
-#### Reference
+
 
 [SPropValue](spropvalue.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

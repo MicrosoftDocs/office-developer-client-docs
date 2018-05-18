@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Deletes a subfolder.
   
-```
+```cpp
 HRESULT DeleteFolder(
   ULONG_PTR cbEntryID,
   LPENTRYID lpEntryID,
@@ -90,11 +90,11 @@ MAPI_W_PARTIAL_COMPLETION
 
 The **IMAPIFolder::DeleteFolder** method deletes a subfolder. By default, **DeleteFolder** operates only on empty folders, but you can use it successfully on non-empty folders by setting two flags: DEL_FOLDERS and DEL_MESSAGES. Only empty folders or folders that set both the DEL_FOLDERS and DEL_MESSAGES flags on the **DeleteFolder** call can be deleted. DEL_FOLDERS enables all of the folder's subfolders to be removed; DEL_MESSAGES enables all of the folder's messages to be removed. 
   
-## Notes to Implementers
+## Notes to implementers
 
 When the delete operation involves more than one folder, perform the operation as completely as possible for each folder. Sometimes one of the folders to be deleted does not exist or has been moved or copied elsewhere. Do not stop the operation prematurely unless a failure occurs that is beyond your control, such as running out of memory, running out of disk space, or corruption in the message store.
   
-## Notes to Callers
+## Notes to callers
 
 Expect these return values under the following conditions.
   
@@ -118,10 +118,10 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

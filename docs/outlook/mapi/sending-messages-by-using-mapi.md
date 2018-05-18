@@ -36,7 +36,7 @@ The message transmission process involves the message store provider, one or mor
   
 ## See also
 
-#### Reference
+
 
 [IMessage::SubmitMessage](imessage-submitmessage.md)
   

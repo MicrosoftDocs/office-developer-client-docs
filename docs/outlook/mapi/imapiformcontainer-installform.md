@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Installs a form into a form library.
   
-```
+```cpp
 HRESULT InstallForm(
   ULONG_PTR ulUIParam,
   ULONG ulFlags,
@@ -72,7 +72,7 @@ MAPI_E_USER_CANCEL
   
 > The user canceled the installation of the form, typically by clicking the **Cancel** button in a dialog box. 
     
-## Notes to Implementers
+## Notes to implementers
 
 Form library providers should fill in a **MAPIERROR** structure and return MAPI_E_EXTENDED_ERROR if any of the following conditions occur: 
   
@@ -82,7 +82,7 @@ Form library providers should fill in a **MAPIERROR** structure and return MAPI_
     
 - The configuration file is invalid.
     
-## Notes to Callers
+## Notes to callers
 
 Client applications call the **IMAPIFormContainer::InstallForm** method to install a form into a specific form container. The  _szCfgPathName_ parameter must contain the path of a form configuration file (that is, a file with the .cfg extension that describes the form and its implementation). The flags in the  _ulFlags_ parameter specify the following: 
   
@@ -108,12 +108,12 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [MAPIERROR](mapierror.md)
   
 [IMAPIFormContainer : IUnknown](imapiformcontaineriunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

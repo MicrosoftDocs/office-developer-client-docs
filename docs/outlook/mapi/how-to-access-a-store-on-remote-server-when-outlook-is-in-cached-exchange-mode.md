@@ -1,5 +1,5 @@
 ---
-title: "Access a Store on the Remote Server When Outlook is in Cached Exchange Mode"
+title: "Access a store on the remote server when Outlook is in Cached Exchange Mode"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,7 +8,7 @@ ms.assetid: 5c6df156-4015-2d0f-26b7-07055a3f7810
 description: "Last modified: July 02, 2012"
 ---
 
-# Access a Store on the Remote Server When Outlook is in Cached Exchange Mode
+# Access a store on the remote server when Outlook is in Cached Exchange Mode
  
 **Applies to**: Outlook 
   
@@ -26,12 +26,12 @@ HRESULT HrOpenRootFolder (
     LPMESSAGE* lpRootFolder) 
 { 
     ULONG ulObjType = NULL; 
-    HRESULT hRes = lpMDB-&amp;gt;OpenEntry( 
+    HRESULT hRes = lpMDB-&gt;OpenEntry( 
         0,// size of entry ID       
         NULL,                                   // Pointer to entry ID 
         NULL,                                   // Use default interface (IMAPIFolder) 
         MAPI_BEST_ACCESS | MAPI_NO_CACHE,       // Flags 
-        &amp;amp;ulObjType,
+        &amp;ulObjType,
 // Output parameter indicates the type of object returned 
         (LPUNKNOWN *) lpRootFolder));           // Pointer to put the opened folder in 
     return hRes; 

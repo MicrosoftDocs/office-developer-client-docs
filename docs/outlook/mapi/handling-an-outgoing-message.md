@@ -40,7 +40,7 @@ An outgoing message is a message that can be sent to one or more recipients acro
     
 9. Set other message properties as desired and then save and send the message by calling **IMessage::SubmitMessage**. For more information, see [IMessage::SubmitMessage](imessage-submitmessage.md).
     
-10. Delete the sent message if the **PR_DELETE_AFTER_SUBMIT** ( [PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) property is set to TRUE or move it to the folder identified by the **PR_SENTMAIL_ENTRYID** ( [PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) property. For more information, see [Processing a Sent Message](processing-a-sent-message.md).
+10. Delete the sent message if the **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) property is set to TRUE or move it to the folder identified by the **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) property. For more information, see [Processing a Sent Message](processing-a-sent-message.md).
     
 If you want to intermittantly save the message before sending it, call the message's [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method. For more information, see, [Saving a Message](saving-a-message.md) or [Sending a Message](sending-a-message.md). 
   

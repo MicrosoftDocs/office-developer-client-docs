@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Contains a 64 bit integer version of the **PR_MESSAGE_SIZE** ( [PidTagMessageSize](pidtagmessagesize-canonical-property.md)) property.
+Contains a 64 bit integer version of the **PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md)) property.
   
 |||
 |:-----|:-----|
@@ -31,9 +31,9 @@ Contains a 64 bit integer version of the **PR_MESSAGE_SIZE** ( [PidTagMessageSiz
 |Data type:  <br/> |PT_I8  <br/> |
 |Area:  <br/> |General messaging  <br/> |
    
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -51,7 +51,7 @@ Contains a 64 bit integer version of the **PR_MESSAGE_SIZE** ( [PidTagMessageSiz
   
 > Specifies permissible operations for the core message store objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -63,10 +63,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagMessageSize Canonical Property](pidtagmessagesize-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

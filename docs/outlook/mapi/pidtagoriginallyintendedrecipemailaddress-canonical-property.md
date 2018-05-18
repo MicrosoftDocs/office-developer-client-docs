@@ -37,9 +37,9 @@ These properties are examples of the address properties for the originally inten
   
 These properties correspond to the X.400 report per-recipient attribute.
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -51,7 +51,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

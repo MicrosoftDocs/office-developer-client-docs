@@ -33,9 +33,9 @@ Contains a table with all rules applied to a folder.
 
 This property is present on all folder objects on an Exchange Server that have rules. Values included in this property are used for reading and modifying rules. You can use the [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method with the **IID_IExchangeModifyTable** interface identifier to obtain an [IExchangeModifyTable : IUnknown](iexchangemodifytableiunknown.md) interface to the rules table on a folder. You can use this interface to read and modify those rules. 
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -47,12 +47,12 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [IExchangeModifyTable : IUnknown](iexchangemodifytableiunknown.md)
   
 [IMAPIProp::OpenProperty](imapiprop-openproperty.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

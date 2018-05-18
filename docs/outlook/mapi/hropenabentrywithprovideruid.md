@@ -26,7 +26,7 @@ Opens the **entryID** using the Exchange Address Book identified by  _pEmsabpUID
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 HRESULT HrOpenABEntryWithProviderUID(
   const MAPIUID *pEmsabpUID,
   LPADRBOOK pAddrBook,

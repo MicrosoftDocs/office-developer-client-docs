@@ -22,11 +22,11 @@ Address book providers are responsible for supporting name resolution — the pr
   
 Your provider can support name resolution by:
   
-- Supporting the **PR_ANR** ( [PidTagAnr](pidtaganr-canonical-property.md)) property restriction, a requirement for all address book containers.
+- Supporting the **PR_ANR** ([PidTagAnr](pidtaganr-canonical-property.md)) property restriction, a requirement for all address book containers.
     
 - Implementing the [IABContainer::ResolveNames](iabcontainer-resolvenames.md) method, an option for all address book containers. 
     
-If you choose to support **IABContainer::ResolveNames**, attempt to locate an exact match for each unresolved display name in the [ADRLIST](adrlist.md) structure passed in with the  _lpAdrList_ parameter. You can identifiy an unresolved display name because it is missing the **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)) property in the property value array in its **aEntries** member of the **ADRLIST** structure. Ignore any entries that have zero properties associated with them. 
+If you choose to support **IABContainer::ResolveNames**, attempt to locate an exact match for each unresolved display name in the [ADRLIST](adrlist.md) structure passed in with the  _lpAdrList_ parameter. You can identifiy an unresolved display name because it is missing the **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) property in the property value array in its **aEntries** member of the **ADRLIST** structure. Ignore any entries that have zero properties associated with them. 
   
 Report the result of your attempt at resolution in the  _lpFlagList_ parameter, an array of flags that corresponds to the array of display names in  _lpAdrList_. The flags are positional such that the first flag corresponds to the first **aEntries** member in the **ADRLIST** structure, the second flag corresponds to the second **aEntries** member, and so on. 
   
@@ -40,7 +40,7 @@ There are three possible results for each unresolved entry:
     
 If you choose not to support **IABContainer::ResolveNames**, return MAPI_E_NO_SUPPORT from your implementation.
   
-All address book providers are required to support ambiguous name resolution — the **PR_ANR** property restriction — on their containers' contents tables. To provide this support, handle the PR_ANR restriction in your implementation of [IMAPITable::Restrict](imapitable-restrict.md) by performing a "best guess" type of search, matching against one or more particular properties that make sense for your provider. You can choose to use the same property or properties every time, such as **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) or **PR_ACCOUNT** ( [PidTagAccount](pidtagaccount-canonical-property.md)), or allow an administrator to choose from a list of acceptable properties. 
+All address book providers are required to support ambiguous name resolution — the **PR_ANR** property restriction — on their containers' contents tables. To provide this support, handle the PR_ANR restriction in your implementation of [IMAPITable::Restrict](imapitable-restrict.md) by performing a "best guess" type of search, matching against one or more particular properties that make sense for your provider. You can choose to use the same property or properties every time, such as **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) or **PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md)), or allow an administrator to choose from a list of acceptable properties. 
   
 Although most providers supply their own contents table implementation, you can customize the implementation supplied by MAPI through the [CreateTable](createtable.md) function. However, because the MAPI implementation does not support restrictions of any kind, you must create a wrapper object to include a customized version of **Restrict** that intercepts the call. 
   

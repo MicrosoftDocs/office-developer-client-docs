@@ -28,7 +28,7 @@ USE(" ** *name* ** ")
 |:-----|:-----|:-----|:-----|
 | _name_ <br/> |Required  <br/> |**String** <br/> |Any string that is a valid master name.  <br/> |
    
-### Return Value
+### Return value
 
 Number
   

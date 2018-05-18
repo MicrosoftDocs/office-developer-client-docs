@@ -35,9 +35,9 @@ Specifies the date and time in Coordinated Universal Time (UTC) that the message
 
 This property is deleted if the message object is not flagged complete. The time's smallest resolution must be minutes (the value must be a multiple of 600,000,000). This property must not exist if the object is a meeting-related object, and it should not exist on a task object.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -47,7 +47,7 @@ This property is deleted if the message object is not flagged complete. The time
   
 > Specifies the properties and operations related to flagging.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

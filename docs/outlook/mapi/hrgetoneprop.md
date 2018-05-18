@@ -30,7 +30,7 @@ Retrieves the value of a single property from a property interface, that is, an 
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 HrGetOneProp(
   LPMAPIPROP pmp,
   ULONG ulPropTag,
@@ -74,7 +74,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

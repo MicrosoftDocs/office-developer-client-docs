@@ -28,7 +28,7 @@ LUM( ** *expression* ** )
 |:-----|:-----|:-----|:-----|
 | _expression_ <br/> |Required  <br/> |**Numeric** <br/> |The index of a color in the document's color table, or a reference to a cell that contains a color index.  <br/> |
    
-### Return Value
+### Return value
 
 Number
   

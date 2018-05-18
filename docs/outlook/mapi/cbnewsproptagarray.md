@@ -29,7 +29,7 @@ Computes the number of bytes to be allocated for a new [SPropTagArray](sproptaga
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**SPropTagArray** <br/> |
    
-```
+```cpp
 CbNewSPropTagArray (_ctag)
 ```
 
@@ -41,10 +41,10 @@ CbNewSPropTagArray (_ctag)
     
 ## See also
 
-#### Reference
+
 
 [SPropTagArray](sproptagarray.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

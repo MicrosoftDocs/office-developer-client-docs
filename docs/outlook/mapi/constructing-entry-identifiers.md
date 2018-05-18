@@ -24,7 +24,7 @@ Entry identifiers are constructed with the [ENTRYID](entryid.md) structure. The 
 
 The **ENTRYID** structure is defined as follows: 
   
-```
+```cpp
 typedef struct
 {
     BYTE        abFlags[4];
@@ -63,7 +63,7 @@ Although service providers can recycle their entry identifiers, they should avoi
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Entry Identifiers](mapi-entry-identifiers.md)
 

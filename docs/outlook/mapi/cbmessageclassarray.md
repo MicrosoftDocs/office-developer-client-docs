@@ -29,7 +29,7 @@ Computes the number of bytes in an existing [SMessageClassArray](smessageclassar
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**SMessageClassArray** <br/> |
    
-```
+```cpp
 CbMessageClassArray (_c)
 ```
 
@@ -41,10 +41,10 @@ CbMessageClassArray (_c)
     
 ## See also
 
-#### Reference
+
 
 [SMessageClassArray](smessageclassarray.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

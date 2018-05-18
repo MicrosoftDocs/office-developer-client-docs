@@ -52,25 +52,25 @@ The first example displays an alert message containing the amount of stack space
 short WINAPI xlStackExample(void)
 {
    XLOPER12 xRes;
-   Excel12(xlStack, &amp;xRes, 0);
-   Excel12(xlcAlert, 0, 1, (LPXLOPER12)&amp;xRes);
+   Excel12(xlStack, &xRes, 0);
+   Excel12(xlcAlert, 0, 1, (LPXLOPER12)&xRes);
    return 1;
 } 
 short int WINAPI xlStackExample_XLOPER(void)
 {
     XLOPER xRes;
-    Excel4(xlStack, (LPXLOPER)&amp;xRes, 0);
+    Excel4(xlStack, (LPXLOPER)&xRes, 0);
     xRes.xltype = xltypeNum; // Change the type to double
     // Cast to an unsigned short to get rid of the overflow problem
     xRes.val.num = (double)(unsigned short) xRes.val.w;
-    Excel4(xlcAlert, 0, 1, (LPXLOPER)&amp; xRes);
+    Excel4(xlcAlert, 0, 1, (LPXLOPER)& xRes);
     return 1;
 }
 ```
 
 ## See also
 
-#### Concepts
+
 
 [C API Functions That Can Be Called Only from a DLL or XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

@@ -52,7 +52,7 @@ See the code for the **xlAutoClose** function in  `\SAMPLES\GENERIC\GENERIC.C`.
   
 ## See also
 
-#### Concepts
+
 
 [Essential and Useful C API XLM Functions](essential-and-useful-c-api-xlm-functions.md)
 

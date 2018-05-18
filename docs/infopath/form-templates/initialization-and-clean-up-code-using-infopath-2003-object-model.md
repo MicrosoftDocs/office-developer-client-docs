@@ -53,7 +53,7 @@ namespace Template1
 }
 ```
 
-```VB.net
+```vb
 Imports System
 Imports Microsoft.Office.Interop.InfoPath.SemiTrust
 Imports Microsoft.VisualBasic
@@ -95,7 +95,7 @@ In addition to providing a place to write initialization code for additional com
     }
 ```
 
-```VB.net
+```vb
     Private thisXDocument As XDocument
     Private thisApplication As Application
     Public Sub _Startup(app As Application, doc As XDocument)
@@ -117,7 +117,7 @@ public void CTRL1_5_OnClick(DocActionEvent e)
 }
 ```
 
-```VB.net
+```vb
 <InfoPathEventHandler(MatchPath:="CTRL1_5", EventType:=InfoPathEventType.OnClick)> _
 Public Sub CTRL1_5_OnClick(ByVal e As DocActionEvent)
     ' Write your code here.
@@ -137,7 +137,7 @@ The  `_Shutdown` method is the last method called when a form is closed. You can
     }
 ```
 
-```VB.net
+```vb
     Public Sub _Shutdown()
     End    Sub
 ```
@@ -184,7 +184,7 @@ namespace Template1
 }
 ```
 
-```VB.net
+```vb
 Imports System
 Imports System.Data.SqlClient
 Imports Microsoft.Office.Interop.InfoPath.SemiTrust
@@ -218,7 +218,7 @@ End Namespace
 
 ## See also
 
-#### Other resources
+
 
 [Add an Event Handler Using the InfoPath 2003 Object Model](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)
 

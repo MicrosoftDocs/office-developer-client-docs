@@ -20,9 +20,9 @@ description: "Last modified: July 23, 2011"
   
 Information for synchronizing a message header during the [download message header state](download-message-header-state.md).
   
-## Quick Info
+## Quick info
 
-```
+```cpp
 struct HDRSYNC 
 { 
     UPMSG *pupmsg; 
@@ -69,7 +69,7 @@ struct HDRSYNC
     
 ## See also
 
-#### Concepts
+
 
 [About the Replication API](about-the-replication-api.md)
   

@@ -38,11 +38,11 @@ When an object is flagged, this property should be set to the current time in Co
   
 If the client allows a user to reorder tasks within the consolidated task list via dragging or other mechanisms, they can use any suitable algorithm to determine the new value of this property so that the task appears in the correct place when this property is used as a sorting field.
   
-When this property is used to sort objects and the sort results in a tie, the **dispidToDoSubOrdinal** ( [PidLidToDoSubOrdinal](pidlidtodosubordinal-canonical-property.md)) property is used as a tie breaker.
+When this property is used to sort objects and the sort results in a tie, the **dispidToDoSubOrdinal** ([PidLidToDoSubOrdinal](pidlidtodosubordinal-canonical-property.md)) property is used as a tie breaker.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -52,7 +52,7 @@ When this property is used to sort objects and the sort results in a tie, the **
   
 > Specifies the properties and operations related to flagging.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -60,10 +60,10 @@ Mapidefs.h
     
 ## See also
 
-#### Reference
+
 
 [PidLidToDoSubOrdinal Canonical Property](pidlidtodosubordinal-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

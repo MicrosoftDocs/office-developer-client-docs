@@ -30,7 +30,7 @@ Compares two property values using a specified relational operator.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 BOOL FPropCompareProp(
   LPSPropValue lpSPropValue1,
   ULONG ulRelOp,

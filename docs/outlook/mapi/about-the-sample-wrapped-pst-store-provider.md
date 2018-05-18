@@ -56,7 +56,7 @@ The Sample Wrapped PST Store Provider uses the Personal Folders file (PST) provi
     
 ## See also
 
-#### Concepts
+
 
 [About the Replication API](about-the-replication-api.md)
   

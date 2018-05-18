@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Cancels a notification registration previously established for an address book entry.
   
-```
+```cpp
 HRESULT Unadvise(
   ULONG_PTR ulConnection
 );
@@ -48,7 +48,7 @@ Clients call the **Unadvise** method to stop receiving notifications about chang
   
 ## See also
 
-#### Reference
+
 
 [IAddrBook::Advise](iaddrbook-advise.md)
   

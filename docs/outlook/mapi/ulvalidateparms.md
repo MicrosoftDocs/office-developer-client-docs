@@ -30,7 +30,7 @@ Calls an internal function to check the parameters client applications have pass
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Service providers  <br/> |
    
-```
+```cpp
 HRESULT UlValidateParms(
   METHODS eMethod,
   LPVOID First

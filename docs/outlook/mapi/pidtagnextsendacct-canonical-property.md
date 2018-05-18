@@ -35,9 +35,9 @@ Specifies the server that a client is currently attempting to use to send e-mail
 
 The format of this property is implementation dependent. This property can be used by the client to determine which server to direct the e-mail to, but is optional and the value has no meaning to the server.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -51,7 +51,7 @@ The format of this property is implementation dependent. This property can be us
   
 > Specifies the properties and operations that are permissible for e-mail message objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -63,7 +63,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

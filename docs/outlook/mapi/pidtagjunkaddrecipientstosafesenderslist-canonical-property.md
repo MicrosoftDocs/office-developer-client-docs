@@ -37,9 +37,9 @@ If present, this property must be set to 0 or 1. A value of 1 indicates that the
   
 If this property is present with a value of 1, the SMTP addresses of the e-mail recipients must be added to trusted senders clause of the Junk E-Mail Rule condition. If this property is 0, no action is required.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -49,7 +49,7 @@ If this property is present with a value of 1, the SMTP addresses of the e-mail 
   
 > Enables the handling of allow/block lists and the determination of junk e-mail messages.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -61,7 +61,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

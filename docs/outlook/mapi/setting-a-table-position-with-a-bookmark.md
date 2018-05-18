@@ -42,7 +42,7 @@ Table implementers are required to support these standard bookmarks and can also
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Tables](mapi-tables.md)
 

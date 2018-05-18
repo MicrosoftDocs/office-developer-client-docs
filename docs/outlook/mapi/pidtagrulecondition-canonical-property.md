@@ -43,9 +43,9 @@ For MFCMAPI sample code, see the following table.
 |:-----|:-----|:-----|
 |ImportProcs.cpp  <br/> |PropCopyMore, HrCopyRestriction  <br/> |These functions demonstrate how to parse a **PT_SRESTRICTION** property for the purposes of copying to another property.  <br/> |
    
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -59,7 +59,7 @@ For MFCMAPI sample code, see the following table.
   
 > Defines the basic data structures that are used in remote operations.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -71,7 +71,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

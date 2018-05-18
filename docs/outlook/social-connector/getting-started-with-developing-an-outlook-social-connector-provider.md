@@ -62,7 +62,7 @@ The Outlook Social Connector (OSC) Provider Reference describes how to develop a
   
 ## See also
 
-#### Other resources
+
 
 [Microsoft Outlook Social Connector 32-bit](http://www.microsoft.com/downloads/details.aspx?FamilyID=b638cc14-11e5-448a-b5a6-4f553ce81b94)
   

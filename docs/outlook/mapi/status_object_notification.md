@@ -28,7 +28,7 @@ Describes a status object that has been affected by a change.
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct
 {
   ULONG cbEntryID;
@@ -71,12 +71,12 @@ For more information about notification, see the topics described in the followi
    
 ## See also
 
-#### Reference
+
 
 [NOTIFICATION](notification.md)
   
 [SPropValue](spropvalue.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

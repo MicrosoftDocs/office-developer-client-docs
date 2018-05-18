@@ -22,9 +22,9 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Sets or clears the MSGFLAG_READ flag in the **PR_MESSAGE_FLAGS** ( [PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property of the message and manages the sending of read reports.
+Sets or clears the MSGFLAG_READ flag in the **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property of the message and manages the sending of read reports.
   
-```cs
+```cpp
 HRESULT SetReadFlag(
   ULONG ulFlags
 );
@@ -96,13 +96,13 @@ The read flag cannot be altered for:
     
 - Messages that are currently submitted.
     
-## Notes to Callers
+## Notes to callers
 
 If none of the flags are set in the  _ulFlags_ parameter, the following rules apply: 
   
 - If MSGFLAG_READ is already set, do nothing.
     
-- If MSGFLAG_READ is not set, set it and send any pending read reports if the **PR_READ_RECEIPT_REQUESTED** ( [PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) property is set.
+- If MSGFLAG_READ is not set, set it and send any pending read reports if the **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) property is set.
     
 If both the SUPPRESS_RECEIPT and GENERATE_RECEIPT_ONLY flags are set, the PR_READ_RECEIPT_REQUESTED bit, if set, should be cleared and a read report should not be sent.
   
@@ -130,7 +130,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIContainer::OpenEntry](imapicontainer-openentry.md)
   
@@ -143,7 +143,7 @@ For MFCMAPI sample code, see the following table.
 [PidTagMessageFlags Canonical Property](pidtagmessageflags-canonical-property.md)
   
 [IMessage : IMAPIProp](imessageimapiprop.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

@@ -20,9 +20,9 @@ description: "Last modified: July 23, 2011"
   
 Specifies whether an item is flagged, and if it is, the color associated with the flagged item.
   
-## Quick Info
+## Quick info
 
-```
+```cpp
 enum OlFlagIcon { 
     olNoFlagIcon=0, 
     olPurpleFlagIcon=1, 
@@ -67,7 +67,7 @@ enum OlFlagIcon {
     
 ## See also
 
-#### Reference
+
 
 [PidTagFollowupIcon Canonical Property](pidtagfollowupicon-canonical-property.md)
 

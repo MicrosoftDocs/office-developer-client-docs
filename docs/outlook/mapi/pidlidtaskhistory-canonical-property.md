@@ -34,20 +34,20 @@ Indicates the type of change that was last made to the task.
    
 ## Remarks
 
-When the value of this property is set, the **dispidTaskLastUpdate** ( [PidLidTaskLastUpdate](pidlidtasklastupdate-canonical-property.md)) property must also be set to the current time. The following table shows the **dispidTaskHistory** property values, listed in order of decreasing priority. 
+When the value of this property is set, the **dispidTaskLastUpdate** ([PidLidTaskLastUpdate](pidlidtasklastupdate-canonical-property.md)) property must also be set to the current time. The following table shows the **dispidTaskHistory** property values, listed in order of decreasing priority. 
   
 |**Value**|**Description**|
 |:-----|:-----|
-|0x00000004  <br/> |The **dispidTaskDueDate** ( [PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)) property changed.  <br/> |
+|0x00000004  <br/> |The **dispidTaskDueDate** ([PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)) property changed.  <br/> |
 |0x00000003  <br/> |Another property was changed.  <br/> |
 |0x00000001  <br/> |The task assignee accepted this task.  <br/> |
 |0x00000002  <br/> |The task assignee rejected this task.  <br/> |
 |0x00000005  <br/> |The task was assigned to a task assignee.  <br/> |
 |0x00000000  <br/> |No changes were made.  <br/> |
    
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -57,7 +57,7 @@ When the value of this property is set, the **dispidTaskLastUpdate** ( [PidLidTa
   
 > Defines several objects that model the electronic equivalent of tasks, task assignments, and task updates.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -65,7 +65,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

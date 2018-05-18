@@ -24,7 +24,7 @@ MAPI developers must be aware that these choices affect the operating system tha
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Programming Overview](mapi-programming-overview.md)
 

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Moves the current message to a folder.
   
-```
+```cpp
 HRESULT MoveMessage(
   LPFOLDER pFolderDestination,
   LPMAPIVIEWCONTEXT pViewContext,
@@ -60,13 +60,13 @@ MAPI_E_NO_SUPPORT
 
 Form objects call the **IMAPIMessageSite::MoveMessage** method to move the current message to a new folder. 
   
-## Notes to Implementers
+## Notes to implementers
 
 A form viewer's implementation of **MoveMessage** must call the [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md) method, passing the VCDIR_MOVE flag, before actually moving the message to a new folder. To obtain the **RECT** structure used by a form's window, call the Windows [GetWindowRect](http://msdn.microsoft.com/en-us/library/ms633519) function. 
   
 For a list of interfaces related to form servers, see [MAPI Form Interfaces](mapi-form-interfaces.md).
   
-## Notes to Callers
+## Notes to callers
 
 Following the return of **MoveMessage**, forms must check for a current message and then dismiss themselves if none exists. 
   
@@ -80,12 +80,12 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md)
   
 [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
   

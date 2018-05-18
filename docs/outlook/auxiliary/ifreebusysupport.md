@@ -15,7 +15,7 @@ ms.assetid: 17df868b-d329-cefa-bd16-84960cbf5921
 
 Supports specification of interfaces that access free/busy data for specified users. 
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|
@@ -23,7 +23,7 @@ Supports specification of interfaces that access free/busy data for specified us
 |Provided by:  <br/> |Free/busy provider  <br/> |
 |Interface identifier:  <br/> |IID_IFreeBusySupport  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -58,7 +58,7 @@ Most of the members in this interface are placeholders reserved for the internal
   
 ## See also
 
-#### Concepts
+
 
 [About the Free/Busy API](about-the-free-busy-api.md)
   

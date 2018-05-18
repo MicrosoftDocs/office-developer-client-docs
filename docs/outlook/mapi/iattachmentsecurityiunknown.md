@@ -28,7 +28,7 @@ Allows Microsoft Outlook 2010 and Microsoft Outlook 2013 solutions to find out i
 |:-----|:-----|
 |Interface identifier:  <br/> |IID_IAttachmentSecurity  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -40,7 +40,7 @@ Outlook 2010 and Outlook 2013 solutions can query this interface to see if an at
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Constants](mapi-constants.md)
   

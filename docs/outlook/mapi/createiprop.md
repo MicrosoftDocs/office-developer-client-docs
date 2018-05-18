@@ -30,7 +30,7 @@ Creates a property data object, that is, an [IPropData](ipropdataimapiprop.md) o
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 SCODE CreateIProp(
   LPCIID lpInterface,
   ALLOCATEBUFFER FAR * lpAllocateBuffer,

@@ -1,5 +1,5 @@
 ---
-title: "Form Verbs"
+title: "Form verbs"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,14 +8,10 @@ api_type:
 - COM
 ms.assetid: a63bf0a7-24e6-4eef-98e8-3744ce5f9f2d
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
-# Form Verbs
+# Form verbs
 
-  
-  
 **Applies to**: Outlook 
   
 A form's user interface typically offers menu items or controls that enable users to take some kind of action with the form. It is the form server's job to handle these user actions. This interface is implemented using standard Win32 APIs; writing one is just like writing other interfaces for regular Win32 programs.
@@ -31,7 +27,5 @@ Clients can determine which verbs are supported by a particular message class th
   
 ## See also
 
-#### Concepts
-
-[MAPI Forms](mapi-forms.md)
+- [MAPI Forms](mapi-forms.md)
 

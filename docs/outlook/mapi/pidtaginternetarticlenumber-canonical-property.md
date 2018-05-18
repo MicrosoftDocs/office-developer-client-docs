@@ -35,9 +35,9 @@ A number associated with an item in a message store.
 
 In IMAPI message stores, this property corresponds to the IMAPI UID.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -47,7 +47,7 @@ In IMAPI message stores, this property corresponds to the IMAPI UID.
   
 > Defines the basic data structures that are used in remote operations.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Saves a revised form back to the message from which it was loaded or created.
   
-```
+```cpp
 HRESULT Save(
   LPMESSAGE pMessage,
   ULONG fSameAsLoad
@@ -53,7 +53,7 @@ Form viewers call the **IPersistMessage::Save** method to save a revised form ba
   
  **Save** should only be called when the form is in its [Normal](normal-state.md) state. 
   
-## Notes to Implementers
+## Notes to implementers
 
 Do not commit the saved changes; it is up to the caller to commit the changes. Never make changes to the properties that belong to the form's message except during the **Save** call. 
   
@@ -67,10 +67,10 @@ For more information about saving storage objects, see the documentation on the 
   
 ## See also
 
-#### Reference
+
 
 [IPersistMessage : IUnknown](ipersistmessageiunknown.md)
-#### Concepts
+
 
 [Form States](form-states.md)
 

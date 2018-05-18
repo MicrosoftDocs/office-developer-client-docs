@@ -29,7 +29,7 @@ Computes the number of bytes in an existing [FLATENTRYLIST](flatentrylist.md) st
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**FLATENTRYLIST** <br/> |
    
-```
+```cpp
 CbFLATENTRYLIST(_lplist)
 ```
 
@@ -41,10 +41,10 @@ CbFLATENTRYLIST(_lplist)
     
 ## See also
 
-#### Reference
+
 
 [FLATENTRYLIST](flatentrylist.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

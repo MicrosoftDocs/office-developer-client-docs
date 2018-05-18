@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Starts synchronization for a message header.
   
-```
+```cpp
 HRESULT SyncHdrBeg( 
     ULONG cbeid, 
     LPENTRYID lpeid, 
@@ -52,7 +52,7 @@ Upon **IOSTX::SyncHdrBeg**, the local store transitions to the [download message
   
 ## See also
 
-#### Reference
+
 
 [IOSTX::GetLastError](iostx-getlasterror.md)
   
@@ -67,7 +67,7 @@ Upon **IOSTX::SyncHdrBeg**, the local store transitions to the [download message
 [IOSTX::SyncHdrEnd](iostx-synchdrend.md)
   
 [IOSTX : IUnknown](iostxiunknown.md)
-#### Concepts
+
 
 [MAPI Constants](mapi-constants.md)
 

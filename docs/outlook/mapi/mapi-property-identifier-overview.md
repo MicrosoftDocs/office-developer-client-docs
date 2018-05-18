@@ -30,7 +30,7 @@ For a complete description of the identifier ranges, see [Property Identifier Ra
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Property Overview](mapi-property-overview.md)
 

@@ -24,7 +24,7 @@ Multiplies two expressions.
   
 *expression*  Any valid expression of any one of the data types in the numeric category. 
   
-## Return Value
+## Return value
 
 Returns the data type of the argument with the higher precedence.
   

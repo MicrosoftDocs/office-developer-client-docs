@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Deletes the current message.
   
-```
+```cpp
 HRESULT DeleteMessage(
   LPMAPIVIEWCONTEXT pViewContext,
   LPCRECT prcPosRect
@@ -55,11 +55,11 @@ MAPI_E_NO_SUPPORT
 
 A form object calls the **IMAPIMessageSite::DeleteMessage** method to delete the message that the form is currently displaying. 
   
-## Notes to Callers
+## Notes to callers
 
 Following the return of **DeleteMessage**, form objects must check for a new message and then dismiss themselves if none exists. To determine whether the message **DeleteMessage** acted on was deleted or moved to a **Deleted Items** folder, a form object can call the [IMAPIMessageSite::GetSiteStatus](imapimessagesite-getsitestatus.md) method to determine whether the DELETE_IS_MOVE flag was returned. 
   
-## Notes to Implementers
+## Notes to implementers
 
 If a form viewer's implementation of the **DeleteMessage** method moves to the next message after it deletes a message, the implementation should call the [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md) method and pass the VCDIR_DELETE flag before performing the actual deletion. If a form viewer's implementation of **DeleteMessage** moves the deleted message (for example, to a **Deleted Items** folder), the implementation must save changes to the message if the message was modified. 
   
@@ -87,7 +87,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIMessageSite::GetSiteStatus](imapimessagesite-getsitestatus.md)
   
@@ -98,7 +98,7 @@ For MFCMAPI sample code, see the following table.
 [IPersistMessage::Save](ipersistmessage-save.md)
   
 [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
   

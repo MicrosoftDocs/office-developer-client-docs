@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Creates a table view, returning a pointer to an [IMAPITable](imapitableiunknown.md) implementation. 
   
-```
+```cpp
 HRESULT HrGetView(
   LPSSortOrderSet lpSSortOrderSet,
   CALLERRELEASE FAR * lpfCallerRelease,
@@ -67,7 +67,7 @@ If a service provider needs to return to a client a view that has a customized c
   
 ## See also
 
-#### Reference
+
 
 [CALLERRELEASE](callerrelease.md)
   

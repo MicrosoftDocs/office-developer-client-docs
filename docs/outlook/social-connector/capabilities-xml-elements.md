@@ -92,7 +92,7 @@ Depending on the **capabilities** XML returned by the provider in the **ISocialP
   
 ## See also
 
-#### Concepts
+
 
 [XML for Capabilities](xml-for-capabilities.md)
 

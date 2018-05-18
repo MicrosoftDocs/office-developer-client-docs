@@ -35,9 +35,9 @@ Contains the names of the Contacts folders where mail users are kept.
 
 These are properties on a Contact Address Book profile section.
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidef.h
   
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

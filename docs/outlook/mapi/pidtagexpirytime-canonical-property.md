@@ -35,9 +35,9 @@ Contains the date and time when the messaging system can invalidate the content 
 
 This property is used to direct the messaging system in handling delivered interpersonal messages. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -47,7 +47,7 @@ This property is used to direct the messaging system in handling delivered inter
   
 > Specifies the properties and operations that are permissible on e-mail messages.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -26,7 +26,7 @@ Note: Unlike members of OLE variant arrays, every member in a MAPI multivalued p
   
 ## See also
 
-#### Other resources
+
 
 [MAPI Reference](mapi-reference.md)
 

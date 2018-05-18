@@ -40,7 +40,7 @@ You will most likely perform steps 1 through 5 simultaneously rather than comple
   
 ## See also
 
-#### Other resources
+
 
 [MAPI Concepts](mapi-concepts.md)
 

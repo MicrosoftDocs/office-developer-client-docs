@@ -26,7 +26,7 @@ Even if your message store provider never notifies other MAPI components of chan
   
 ## See also
 
-#### Concepts
+
 
 [Message Store Features](message-store-features.md)
 

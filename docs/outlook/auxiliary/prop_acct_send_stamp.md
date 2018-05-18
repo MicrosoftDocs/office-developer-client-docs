@@ -16,7 +16,7 @@ description: "Returns the accountsendstamp."
 
 Returns the account "send" stamp.
   
-## Quick Info
+## Quick info
 
 See [IOlkAccount](iolkaccount.md).
   
@@ -33,7 +33,7 @@ Get this property by using [IOlkAccount::GetProp](iolkaccount-getprop.md). If th
   
 ## See also
 
-#### Concepts
+
 
 [About the Account Management API](about-the-account-management-api.md)
   

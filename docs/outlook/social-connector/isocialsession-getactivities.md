@@ -26,7 +26,7 @@ Starting in OSC 1.1, the OSC no longer calls **GetActivities**. The OSC ignores 
   
 ## See also
 
-#### Reference
+
 
 [ISocialSession : IUnknown](isocialsessioniunknown.md)
 

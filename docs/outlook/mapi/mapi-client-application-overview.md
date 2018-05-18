@@ -26,7 +26,7 @@ Client applications can either include the user to create an interactive environ
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Features and Architecture](mapi-features-and-architecture.md)
 

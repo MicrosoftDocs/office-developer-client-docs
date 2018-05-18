@@ -74,12 +74,12 @@ Saving changes to the autocomplete data involves writing the in-memory structure
     
 ## See also
 
-#### Concepts
+
 
 [Autocomplete Stream](autocomplete-stream.md)
   
 [MAPI Profiles](mapi-profiles.md)
-#### Other resources
+
 
 [Outlook 2003/2007 NK2 File Format and Developer Guidelines](http://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf)
 

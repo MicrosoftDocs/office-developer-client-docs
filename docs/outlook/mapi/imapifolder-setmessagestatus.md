@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Sets the status associated with a message (for example, whether that message is marked for deletion).
   
-```
+```cpp
 HRESULT SetMessageStatus(
   ULONG cbEntryID,
   LPENTRYID lpEntryID,
@@ -88,21 +88,21 @@ S_OK
     
 ## Remarks
 
-The **IMAPIFolder::SetMessageStatus** method sets the message status to the value that is stored in its **PR_MSG_STATUS** ( [PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) property. 
+The **IMAPIFolder::SetMessageStatus** method sets the message status to the value that is stored in its **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) property. 
   
-## Notes to Implementers
+## Notes to implementers
 
 How the message status bits are set, cleared, and used depends completely on your implementation, except that bits 0 through 15 are reserved and must be zero. 
   
 A remote transport provider's implementation of this method must follow the semantics described here. There are no special considerations. Clients use this method to set the MSGSTATUS_REMOTE_DOWNLOAD and MSGSTATUS_REMOTE_DELETE bits to indicate that a particular message is to be downloaded or deleted from the remote message store. A remote transport provider does not have to implement the related [IMAPIFolder::GetMessageStatus](imapifolder-getmessagestatus.md) method. Clients must look in the folder's contents table to determine the status of a message. 
   
-## Notes to Callers
+## Notes to callers
 
 You can use the **PR_MSG_STATUS** property of a message to negotiate a message lockout operation with other clients. Designate a bit as the lockout bit. To determine whether the lockout bit was set, examine the previous value for message status in the  _lpulOldStatus_ parameter. Use the other bits in the  _ulNewStatus_ parameter to track message status without interfering with the lockout bit. 
   
 ## See also
 
-#### Reference
+
 
 [IMAPIFolder::GetMessageStatus](imapifolder-getmessagestatus.md)
   

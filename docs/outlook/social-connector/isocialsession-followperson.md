@@ -36,7 +36,7 @@ In deciding whether to implement **ISocalSession::FollowPerson** or **ISocialSes
   
 ## See also
 
-#### Reference
+
 
 [ISocialSession : IUnknown](isocialsessioniunknown.md)
 

@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Creates an entry identifier for a one-off address.
   
-```
+```cpp
 HRESULT CreateOneOff(
   LPSTR lpszName,
   LPSTR lpszAdrType,
@@ -39,7 +39,7 @@ HRESULT CreateOneOff(
 
  _lpszName_
   
-> [in] A pointer to the display name of the recipient the **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property. The  _lpszName_ parameter can be NULL. 
+> [in] A pointer to the display name of the recipient the **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property. The  _lpszName_ parameter can be NULL. 
     
  _lpszAdrType_
   
@@ -55,7 +55,7 @@ HRESULT CreateOneOff(
     
 MAPI_SEND_NO_RICH_INFO 
   
-> The recipient cannot handle formatted message content. If MAPI_SEND_NO_RICH_INFO is set, MAPI sets the recipient's **PR_SEND_RICH_INFO** ( [PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)) property to FALSE. If MAPI_SEND_NO_RICH_INFO is not set, MAPI sets this property to TRUE unless the recipient's messaging address pointed to by  _lpszAddress_ is interpreted to be an Internet address. In this case, MAPI sets **PR_SEND_RICH_INFO** to FALSE. 
+> The recipient cannot handle formatted message content. If MAPI_SEND_NO_RICH_INFO is set, MAPI sets the recipient's **PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)) property to FALSE. If MAPI_SEND_NO_RICH_INFO is not set, MAPI sets this property to TRUE unless the recipient's messaging address pointed to by  _lpszAddress_ is interpreted to be an Internet address. In this case, MAPI sets **PR_SEND_RICH_INFO** to FALSE. 
     
 MAPI_UNICODE 
   
@@ -79,7 +79,7 @@ S_OK
 
 The **IMAPISupport::CreateOneOff** method is implemented for all service provider support objects. Service providers call **CreateOneOff** to create an entry identifier for a one-off recipient (a recipient that does not belong to any of the containers from any of the currently loaded address book providers). 
   
-## Notes to Callers
+## Notes to callers
 
 When you are finished using the entry identifier returned by **CreateOneOff**, free the memory allocated for the entry identifier by using the [MAPIFreeBuffer](mapifreebuffer.md) function. 
   
@@ -89,7 +89,7 @@ Support the Transport Neutral Encapsulation Format (TNEF) and use the value of t
   
 ## See also
 
-#### Reference
+
 
 [MAPIFreeBuffer](mapifreebuffer.md)
   

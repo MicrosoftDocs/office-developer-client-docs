@@ -1,5 +1,5 @@
 ---
-title: "About Display Table Notifications"
+title: "About display table notifications"
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -8,21 +8,17 @@ api_type:
 - COM
 ms.assetid: 085151e9-4809-4d2b-ae4d-e318355e1f5a
 description: "Last modified: March 09, 2015"
- 
- 
 ---
 
-# About Display Table Notifications
+# About display table notifications
 
-  
-  
 **Applies to**: Outlook 
   
 Notifications on a display table are sent by the service provider responsible for creating the display table to MAPI. MAPI registers for these notifications by calling a display table's [IMAPITable::Advise](imapitable-advise.md) method and specifying the table modified event. 
   
-As with all table notifications, display table notifications include a [TABLE_NOTIFICATION](table_notification.md) structure. Only the **ulTableEvent** and the **propIndex** members of this structure are significant; the other members are ignored. The **ulTableEvent** member is set to TABLE_ROW_MODIFIED and the **propIndex** member is set to the value of the **PR_CONTROL_ID** ( [PidTagControlId](pidtagcontrolid-canonical-property.md)) column in the corresponding row. MAPI responds to the notification by calling the [IMAPIProp::GetProps](imapiprop-getprops.md) method for the property displayed in the control and by displaying the new value. 
+As with all table notifications, display table notifications include a [TABLE_NOTIFICATION](table_notification.md) structure. Only the **ulTableEvent** and the **propIndex** members of this structure are significant; the other members are ignored. The **ulTableEvent** member is set to TABLE_ROW_MODIFIED and the **propIndex** member is set to the value of the **PR_CONTROL_ID** ([PidTagControlId](pidtagcontrolid-canonical-property.md)) column in the corresponding row. MAPI responds to the notification by calling the [IMAPIProp::GetProps](imapiprop-getprops.md) method for the property displayed in the control and by displaying the new value. 
   
-Display table notifications can be used by a service provider to coordinate changes to related controls on the dialog box. For example, if the property interface implementation needs to refresh one or more fields on the dialog box — perhaps in response to another control that has set the DT_SET_IMMEDIATE flag in its **PR_CONTROL_FLAGS** ( [PidTagControlFlags](pidtagcontrolflags-canonical-property.md)) property — it can generate a display table notification. A display table notification can alert the property interface implementation that the value of one or more controls needs to be reread due to a change being made or an external event occurring. 
+Display table notifications can be used by a service provider to coordinate changes to related controls on the dialog box. For example, if the property interface implementation needs to refresh one or more fields on the dialog box — perhaps in response to another control that has set the DT_SET_IMMEDIATE flag in its **PR_CONTROL_FLAGS** ([PidTagControlFlags](pidtagcontrolflags-canonical-property.md)) property — it can generate a display table notification. A display table notification can alert the property interface implementation that the value of one or more controls needs to be reread due to a change being made or an external event occurring. 
   
 A service provider can issue display table notifications by:
   
@@ -51,7 +47,5 @@ MAPI responds to display table notifications when necessary by rereading a contr
    
 ## See also
 
-#### Concepts
-
-[MAPI Tables](mapi-tables.md)
+- [MAPI Tables](mapi-tables.md)
 

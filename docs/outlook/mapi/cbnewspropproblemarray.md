@@ -29,7 +29,7 @@ Computes the number of bytes to be allocated for a new [SPropProblemArray](sprop
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**SPropProblemArray** <br/> |
    
-```
+```cpp
 CbNewSPropProblemArray (_cprob)
 ```
 
@@ -41,12 +41,12 @@ CbNewSPropProblemArray (_cprob)
     
 ## See also
 
-#### Reference
+
 
 [SPropProblemArray](spropproblemarray.md)
   
 [SPropProblem](spropproblem.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

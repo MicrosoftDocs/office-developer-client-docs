@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Reconfigures a message service.
   
-```
+```cpp
 HRESULT ConfigureMsgService(
   LPMAPIUID lpUID,
   ULONG_PTR ulUIParam,
@@ -100,9 +100,9 @@ The **IMsgServiceAdmin::ConfigureMsgService** method enables a message service t
   
 To allow configuration without a property sheet display, message services typically prepare a header file that includes constants for all the required and optional properties and their values.
   
-## Notes to Callers
+## Notes to callers
 
-To retrieve the **MAPIUID** structure for the message service to configure, retrieve the **PR_SERVICE_UID** ( [PidTagServiceUid](pidtagserviceuid-canonical-property.md)) column from the message service's row in the message service table. For more information, see the procedure outlined in the [IMsgServiceAdmin::CreateMsgService](imsgserviceadmin-createmsgservice.md) method. 
+To retrieve the **MAPIUID** structure for the message service to configure, retrieve the **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) column from the message service's row in the message service table. For more information, see the procedure outlined in the [IMsgServiceAdmin::CreateMsgService](imsgserviceadmin-createmsgservice.md) method. 
   
 You can configure a message service without displaying a property sheet to a user only if you have advance information about the property values to be set. If you are configuring a message service without displaying a property sheet, pass valid property values in the  _lpProps_ parameter and do not set the MSG_SERVICE_UI_READ_ONLY, SERVICE_UI_ALLOWED, or SERVICE_UI_ALWAYS flags. 
   
@@ -118,14 +118,14 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [MAPIUID](mapiuid.md)
   
 [SPropValue](spropvalue.md)
   
 [IMsgServiceAdmin : IUnknown](imsgserviceadminiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

@@ -1,7 +1,5 @@
 ---
 title: "SERVICEWIZARDDLGPROC"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -17,9 +15,7 @@ description: "Last modified: March 09, 2015"
 ---
 
 # SERVICEWIZARDDLGPROC
-
-  
-  
+ 
 **Applies to**: Outlook 
   
 Defines a callback function invoked by the Profile Wizard to allow a service provider to react to user events when the provider's property sheets or pages are being shown. 
@@ -30,7 +26,7 @@ Defines a callback function invoked by the Profile Wizard to allow a service pro
 |Defined function implemented by:  <br/> |Service providers  <br/> |
 |Defined function called by:  <br/> |MAPI Profile Wizard  <br/> |
    
-```
+```cpp
 BOOL SERVICEWIZARDDLGPROC(
   HWND hDlg,
   UINT wMsgID,
@@ -41,11 +37,11 @@ BOOL SERVICEWIZARDDLGPROC(
 
 ## Parameters
 
- _hDlg_
+_hDlg_
   
 > [in] Window handle to the Profile Wizard dialog box. 
     
- _wMsgID_
+_wMsgID_
   
 > [in] The window message to be processed. In addition to the regular window messages expected by a modal dialog box, the following messages can be received:
     
@@ -65,12 +61,12 @@ WIZ_QUERYNUMPAGES
   
 > The Profile Wizard is prompting for the number of pages that the provider needs to display. The provider should return the number of pages instead of TRUE or FALSE. For example, use the following return statement to indicate that three pages should to be displayed:
     
-  ```
+   ```cpp
 return (BOOL)3;
 
-  ```
+   ```
 
- _wParam_
+_wParam_
   
 > [in] A 32-bit parameter associated with window messages. Possible values depend on the message specified in the  _wMsgID_ parameter. In addition to the values expected with the regular window messages for a modal dialog box, the following values can be received: 
     
@@ -82,7 +78,7 @@ WIZ_PREV
   
 > When  _wMsgID_ contains WM_COMMAND, the user has clicked the **Back** button. 
     
- _lParam_
+_lParam_
   
 > [in] A 32-bit parameter associated with window messages. Possible values depend on the message specified in the  _wMsgID_ parameter. 
     

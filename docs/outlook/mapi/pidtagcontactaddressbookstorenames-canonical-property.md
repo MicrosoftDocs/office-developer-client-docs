@@ -35,9 +35,9 @@ Contains the display names of the stores associated with the Address Book.
 
 These properties are on a Contact Address Book profile section.
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

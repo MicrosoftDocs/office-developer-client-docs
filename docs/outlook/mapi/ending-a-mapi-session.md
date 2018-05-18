@@ -26,7 +26,7 @@ Clients can end their sessions in response to a user's request, either immediate
     
 2. Release all open objects by calling their [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28VS.85%29.aspx) methods. The types of open objects can include advise sinks, the status table, the Outbox folder, one or more message stores, and the address book. 
     
-3. Call [MAPIFreeBuffer](mapifreebuffer.md) to free the memory for any cached entry identifiers, such as **PR_IPM_SUBTREE_ENTRYID** ( [PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md)).
+3. Call [MAPIFreeBuffer](mapifreebuffer.md) to free the memory for any cached entry identifiers, such as **PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md)).
     
 4. Call [IMAPISession::Logoff](imapisession-logoff.md), setting the MAPI_LOGOFF_UI flag if you allow a user interface and the MAPI_LOGOFF_SHARED flag if you own the current shared session. **Logoff** notifies all other clients that are using the current shared session that they should log off by sending an error notification. 
     

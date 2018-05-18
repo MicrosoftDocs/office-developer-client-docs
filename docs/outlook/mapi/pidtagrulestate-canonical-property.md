@@ -79,9 +79,9 @@ OR:
   
 - The rule has both the ST_EXIT_LEVEL and ST_ONLY_WHEN_OOF flags set. Then, the server must not evaluate any subsequent rules.
     
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -91,7 +91,7 @@ OR:
   
 > Manipulates incoming e-mail messages on a server.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -103,7 +103,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

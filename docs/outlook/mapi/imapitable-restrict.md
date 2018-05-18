@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Applies a filter to a table, reducing the row set to only those rows matching the specified criteria.
   
-```
+```cpp
 HRESULT Restrict(
 LPSRestriction lpRestriction,
 ULONG ulFlags
@@ -78,7 +78,7 @@ For more information about restrictions, see [About Restrictions](about-restrict
 > [!NOTE]
 > If you create dynamic queries to search for data on the server, use the **FindRow** method instead of using the **Restrict** method and the **QueryRows** method together. The **Restrict** method creates a cached view that is used to evaluate all messages added to or modified in the base folder. If a client application uses the **Restrict** method for each dynamic query, a cached view will be created for each query. 
   
-## Notes to Callers
+## Notes to callers
 
 To discard the current restriction without creating a new one, pass NULL in  _lpRestriction_.
   
@@ -102,7 +102,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPITable::Abort](imapitable-abort.md)
   
@@ -115,7 +115,7 @@ For MFCMAPI sample code, see the following table.
 [SPropertyRestriction](spropertyrestriction.md)
   
 [IMAPITable : IUnknown](imapitableiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

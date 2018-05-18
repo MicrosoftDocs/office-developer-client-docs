@@ -16,7 +16,7 @@ description: "Specifies the authentication method to use for the SMTP account."
 
 Specifies the authentication method to use for the SMTP account.
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|
@@ -37,7 +37,7 @@ The value is a bitmask of the following constants. See [Constants (Account manag
     
 ## See also
 
-#### Concepts
+
 
 [Managing message downloads for POP3 accounts](managing-message-downloads-for-pop3-accounts.md)
   

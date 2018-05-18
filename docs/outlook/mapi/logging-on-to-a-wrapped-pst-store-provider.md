@@ -1,19 +1,15 @@
 ---
-title: "Logging On to a Wrapped PST Store Provider"
+title: "Logging on to a wrapped PST store provider"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 364bc5fd-2199-0bb2-142b-9b3b686b2268
 description: "Last modified: July 02, 2012"
- 
- 
 ---
 
-# Logging On to a Wrapped PST Store Provider
+# Logging on to a wrapped PST store provider
 
- 
-  
 **Applies to**: Outlook 
   
 Before you can log on MAPI to a wrapped PST store provider, you must initialize and configure the wrapped Personal Folders file (PST) store provider. For more information, see [Initializing a Wrapped PST Store Provider](initializing-a-wrapped-pst-store-provider.md).
@@ -24,13 +20,13 @@ In this topic, the **IMSProvider::Logon** function and the **IMSProvider::Spoole
   
 After MAPI and the MAPI spooler are logged on to the wrapped PST store provider, it is ready to be used. For more information, see [Using a Wrapped PST Store Provider](using-a-wrapped-pst-store-provider.md).
   
-## MAPI Logon Routine
+## MAPI Logon routine
 
 After the wrapped PST store provider is initialized, you must implement the **[IMSProvider::Logon](imsprovider-logon.md)** function to log on MAPI to the wrapped PST store. This function validates user credentials and gets the configuration properties for the provider. You must also implement the  `SetOLFIInOST` function to set the Offline File Info ( **[OLFI](olfi.md)** ). **OLFI** is a queue of long-term ID structures that is used by the wrapped PST store provider to assign an Entry ID for a new message or folder in offline mode. Finally, the **IMSProvider::Logon** function returns a message store object that the MAPI spooler and client applications can log on to in the  `ppMDB` parameter. 
   
-## CMSProvider::Logon() Example
+### CMSProvider::Logon() example
 
-```
+```cpp
 STDMETHODIMP CMSProvider::Logon( 
     LPMAPISUP pSupObj, 
     ULONG ulUIParam, 
@@ -53,7 +49,7 @@ STDMETHODIMP CMSProvider::Logon(
  
     LPPROFSECT lpProfSect = NULL; 
     CSupport * pMySup = NULL; 
-    hRes = GetGlobalProfileObject(pSupObj,&amp;lpProfSect); 
+    hRes = GetGlobalProfileObject(pSupObj,&lpProfSect); 
     pMySup = new CSupport(pSupObj, lpProfSect); 
     if (!pMySup) 
     { 
@@ -62,7 +58,7 @@ STDMETHODIMP CMSProvider::Logon(
     } 
     if (SUCCEEDED(hRes)) 
     { 
-        ulFlags = (ulFlags &amp; ~MDB_OST_LOGON_ANSI) | MDB_OST_LOGON_UNICODE; 
+        ulFlags = (ulFlags & ~MDB_OST_LOGON_ANSI) | MDB_OST_LOGON_UNICODE; 
         hRes = m_pPSTMS->Logon( 
             pMySup, 
             ulUIParam,  
@@ -75,7 +71,7 @@ STDMETHODIMP CMSProvider::Logon(
             ppbSpoolSecurity,  
             ppMAPIError,  
             ppMSLogon,  
-            &amp;lpPSTMDB); 
+            &lpPSTMDB); 
     } 
     Log(true,"CMSProvider::Logon returned 0x%08X\n", hRes); 
  
@@ -100,13 +96,13 @@ STDMETHODIMP CMSProvider::Logon(
 }
 ```
 
-## MAPI Spooler Logon Routine
+## MAPI Spooler Logon routine
 
 Similar to **IMSProvider::Logon**, you must implement the **[IMSProvider::SpoolerLogon](imsprovider-spoolerlogon.md)** function to log the MAPI spooler on to the wrapped PST store. A message store object that the MAPI spooler and client applications can log on to is returned in the  `ppMDB` parameter. 
   
-## CMSProvider::SpoolerLogon() Example
+### CMSProvider::SpoolerLogon() example
 
-```
+```cpp
 STDMETHODIMP CMSProvider::SpoolerLogon ( 
     LPMAPISUP pSupObj, 
     ULONG ulUIParam, 
@@ -126,7 +122,7 @@ STDMETHODIMP CMSProvider::SpoolerLogon (
     Log(true,"CMSProvider::SpoolerLogon\n"); 
     LPPROFSECT lpProfSect = NULL; 
     CSupport * pMySup = NULL; 
-    hRes = GetGlobalProfileObject(pSupObj,&amp;lpProfSect); 
+    hRes = GetGlobalProfileObject(pSupObj,&lpProfSect); 
     pMySup = new CSupport(pSupObj, lpProfSect); 
     if (!pMySup) 
     { 
@@ -158,15 +154,9 @@ STDMETHODIMP CMSProvider::SpoolerLogon (
 
 ## See also
 
-#### Concepts
-
-[About the Sample Wrapped PST Store Provider](about-the-sample-wrapped-pst-store-provider.md)
-  
-[Installing the Sample Wrapped PST Store Provider](installing-the-sample-wrapped-pst-store-provider.md)
-  
-[Initializing a Wrapped PST Store Provider](initializing-a-wrapped-pst-store-provider.md)
-  
-[Using a Wrapped PST Store Provider](using-a-wrapped-pst-store-provider.md)
-  
-[Shutting Down a Wrapped PST Store Provider](shutting-down-a-wrapped-pst-store-provider.md)
+- [About the Sample Wrapped PST Store Provider](about-the-sample-wrapped-pst-store-provider.md) 
+- [Installing the Sample Wrapped PST Store Provider](installing-the-sample-wrapped-pst-store-provider.md) 
+- [Initializing a Wrapped PST Store Provider](initializing-a-wrapped-pst-store-provider.md)
+- [Using a Wrapped PST Store Provider](using-a-wrapped-pst-store-provider.md)
+- [Shutting Down a Wrapped PST Store Provider](shutting-down-a-wrapped-pst-store-provider.md)
 

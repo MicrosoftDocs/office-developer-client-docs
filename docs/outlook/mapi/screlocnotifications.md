@@ -30,7 +30,7 @@ Adjusts a pointer within a specified event notification array.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 SCODE ScRelocNotifications(
   int cntf,
   LPNOTIFICATION rgntf,
@@ -78,7 +78,7 @@ The  _pcb_ parameter to the **ScRelocNotifications** function is optional.
   
 ## See also
 
-#### Reference
+
 
 [ScRelocProps](screlocprops.md)
 

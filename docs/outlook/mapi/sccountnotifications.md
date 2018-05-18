@@ -30,7 +30,7 @@ Determines the size, in bytes, of an array of event notifications, and validates
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 SCODE ScCountNotifications(
   int cntf,
   LPNOTIFICATION rgntf,

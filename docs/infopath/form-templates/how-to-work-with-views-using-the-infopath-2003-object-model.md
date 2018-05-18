@@ -52,7 +52,7 @@ thisXDocument.UI.Alert("Current view name: " +
    thisXDocument.View.Name);
 ```
 
-```VB.net
+```vb
 thisXDocument.UI.Alert("Current view name: " &amp; _
    thisXDocument.View.Name)
 ```
@@ -63,7 +63,7 @@ All InfoPath forms contain at least one default view; however, InfoPath also sup
 thisXDocument.View.SwitchView("MySecondView");
 ```
 
-```VB.net
+```vb
 thisXDocument.View.SwitchView("MySecondView")
 ```
 
@@ -73,7 +73,7 @@ The previous example for switching a view will work only after the form is opene
 thisXDocument.ViewInfos["MyDefaultView"].IsDefault = true;
 ```
 
-```VB.net
+```vb
 thisXDocument.ViewInfos("MyDefaultView").IsDefault = True
 ```
 

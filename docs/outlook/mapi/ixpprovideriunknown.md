@@ -33,7 +33,7 @@ Initializes a transport provider object and shuts down the object when it is no 
 |Interface identifier:  <br/> |IID_IXPProvider  <br/> |
 |Pointer type:  <br/> |LPXPROVIDER  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|

@@ -18,13 +18,13 @@ description: "Last modified: July 23, 2011"
   
 **Applies to**: Outlook 
   
-Client applications can search through one or more folders looking for messages that match search criteria. The most straightforward search technique involves applying a restriction to define criteria and placing the results into a search-results folder, created explicitly for this search or for a prior search. Not all message stores support this technique. To determine whether or not the message store you are using supports using search-results folders, call its [IMAPIProp::GetProps](imapiprop-getprops.md) method to retrieve the **PR_STORE_SUPPORT_MASK** ( [PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) property. If the STORE_SEARCH_OK flag is set, searching is supported. If it is not set, you'll need an alternate approach such as manually inspecting the target folders.
+Client applications can search through one or more folders looking for messages that match search criteria. The most straightforward search technique involves applying a restriction to define criteria and placing the results into a search-results folder, created explicitly for this search or for a prior search. Not all message stores support this technique. To determine whether or not the message store you are using supports using search-results folders, call its [IMAPIProp::GetProps](imapiprop-getprops.md) method to retrieve the **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) property. If the STORE_SEARCH_OK flag is set, searching is supported. If it is not set, you'll need an alternate approach such as manually inspecting the target folders.
   
  **To search one or more folders in a message store**
   
 1. If you have a search-results folder from a previous search, skip to step 2. Otherwise, to create a search-results folder:
     
-1. Retrieve the entry identifier for the search-results root folder by calling the message store's [IMAPIProp::GetProps](imapiprop-getprops.md) method and requesting **PR_FINDER_ENTRYID** ( [PidTagFinderEntryId](pidtagfinderentryid-canonical-property.md)).
+1. Retrieve the entry identifier for the search-results root folder by calling the message store's [IMAPIProp::GetProps](imapiprop-getprops.md) method and requesting **PR_FINDER_ENTRYID** ([PidTagFinderEntryId](pidtagfinderentryid-canonical-property.md)).
     
 2. Call [IMsgStore::OpenEntry](imsgstore-openentry.md) to open the folder represented by PR_FINDER_ENTRYID. 
     

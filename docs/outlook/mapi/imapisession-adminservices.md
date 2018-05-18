@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns an [IMsgServiceAdmin](imsgserviceadminiunknown.md) pointer for making changes to message services. 
   
-```
+```cpp
 HRESULT AdminServices(
   ULONG ulFlags,
   LPSERVICEADMIN FAR * lppServiceAdmin
@@ -47,7 +47,7 @@ S_OK
   
 > A pointer to a message service administration object was successfully returned.
     
-## Notes to Callers
+## Notes to callers
 
 The **IMAPISession::AdminServices** method creates a message service administration object, an object that supports the **IMsgServiceAdmin** interface and returns a pointer. By using this pointer, you can call **IMsgServiceAdmin** methods to change any of the message services in the session profile. Be aware that these changes do not take effect until the next session; the current session is unaffected. 
   
@@ -61,14 +61,14 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMsgServiceAdmin : IUnknown](imsgserviceadminiunknown.md)
   
 [IProfAdmin::AdminServices](iprofadmin-adminservices.md)
   
 [IMAPISession : IUnknown](imapisessioniunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

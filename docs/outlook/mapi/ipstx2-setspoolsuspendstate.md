@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Sets the suspended state on the spooler.
   
-```
+```cpp
 void SetSpoolSuspendState( 
     ULONG ulState 
 );
@@ -46,7 +46,7 @@ void SetSpoolSuspendState(
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Constants](mapi-constants.md)
 

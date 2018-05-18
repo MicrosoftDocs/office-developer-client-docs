@@ -42,9 +42,9 @@ The property may be absent, in which case the default value of "0x00000000" is u
 |0x00000001  <br/> |Process the message automatically or when the message is opened.  <br/> |
 |0x00000002  <br/> |Process the message only when the message is opened.  <br/> |
    
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -54,7 +54,7 @@ The property may be absent, in which case the default value of "0x00000000" is u
   
 > Specifies the properties and operations that are permissible for e-mail message objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -62,7 +62,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

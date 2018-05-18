@@ -29,7 +29,7 @@ Contains a list of attributes for properties of an object.
 |Header file:  <br/> |Imessage.h  <br/> |
 |Related macros:  <br/> |[CbNewSPropAttrArray](cbnewspropattrarray.md), [CbSPropAttrArray](cbspropattrarray.md) <br/> |
    
-```
+```cpp
 typedef struct
 {
   ULONG cValues;
@@ -62,7 +62,7 @@ The **SPropAttrArray** structure is used by property data objects that implement
   
 ## See also
 
-#### Reference
+
 
 [IPropData : IMAPIProp](ipropdataimapiprop.md)
   
@@ -71,7 +71,7 @@ The **SPropAttrArray** structure is used by property data objects that implement
 [CbNewSPropAttrArray](cbnewspropattrarray.md)
   
 [CbSPropAttrArray](cbspropattrarray.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

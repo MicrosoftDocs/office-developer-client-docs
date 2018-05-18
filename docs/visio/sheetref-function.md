@@ -24,7 +24,7 @@ Version Added: Visio 2010
 
  *\<sheetref\>!*  SHEETREF() 
   
-### Return Value
+### Return value
 
 ShapeSheet reference
   

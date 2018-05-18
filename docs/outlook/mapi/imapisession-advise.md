@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Registers to receive notification of specified events that affect the session.
   
-```
+```cpp
 HRESULT Advise(
   ULONG cbEntryID,
   LPENTRYID lpEntryID,
@@ -118,7 +118,7 @@ When  _lpEntryID_ points to a valid entry identifier, MAPI calls the **Advise** 
   
 To send a notification, either the service provider or MAPI calls the registered advise sink's [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) method. One of the parameters to **OnNotify**, a notification structure, contains information that describes the specific event.
   
-## Notes to Callers
+## Notes to callers
 
 On systems that support multiple threads of execution, the call to **OnNotify** can also occur on any thread at any time. If you need assurance that notifications will occur only at a particular time on a particular thread, call the [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) function to generate the advise sink object that you pass to the **Advise** method. 
   
@@ -140,7 +140,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IABLogon::Advise](iablogon-advise.md)
   
@@ -151,7 +151,7 @@ For MFCMAPI sample code, see the following table.
 [IMAPISession::Unadvise](imapisession-unadvise.md)
   
 [IMAPISession : IUnknown](imapisessioniunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
   

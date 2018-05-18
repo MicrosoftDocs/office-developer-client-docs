@@ -30,7 +30,7 @@ The following topics describe how to manage memory and threads in XLLs:
     
 ## See also
 
-#### Concepts
+
 
 [Developing Excel XLLs](developing-excel-xlls.md)
 

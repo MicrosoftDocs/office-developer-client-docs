@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Copies or moves a folder from its current parent folder to another parent folder.
   
-```
+```cpp
 HRESULT CopyFolder(
   LPCIID lpSrcInterface,
   LPVOID lpSrcFolder,
@@ -117,7 +117,7 @@ The **IMAPISupport::CopyFolder** method is implemented for message store provide
   
  **IMAPISupport::CopyFolder** adds the copied or moved folder as a subfolder of the destination folder. 
   
-## Notes to Callers
+## Notes to callers
 
  **IMAPISupport::CopyFolder** allows simultaneous renaming and moving of folders and the copying or moving of subfolders of the affected folder. To copy or move all subfolders nested in the copied or moved folder, pass the COPY_SUBFOLDERS flag in  _ulFlags_. 
   
@@ -133,7 +133,7 @@ If **CopyFolder** returns an error value, do not proceed on the assumption that 
   
 ## See also
 
-#### Reference
+
 
 [IMAPISupport : IUnknown](imapisupportiunknown.md)
 

@@ -30,7 +30,7 @@ Converts a string representation of a hexadecimal number to binary data.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 BOOL FBinFromHex(
   LPSTR sz,
   LPBYTE pb
@@ -59,7 +59,7 @@ FALSE
     
 ## See also
 
-#### Reference
+
 
 [ScBinFromHexBounded](scbinfromhexbounded.md)
 

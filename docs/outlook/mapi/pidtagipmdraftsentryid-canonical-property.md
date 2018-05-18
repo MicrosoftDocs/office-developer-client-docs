@@ -45,9 +45,9 @@ This property is stored in the Inbox folder as well as the root folder of the me
     
 5. If opening the root folder is successful, then use the returned reference to the **IMAPIFolder** object and **IMAPIProp::GetProps** to obtain the desired property. 
     
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -57,7 +57,7 @@ This property is stored in the Inbox folder as well as the root folder of the me
   
 > Specifies the properties and operations for creating and locating the special folders in a mailbox.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -69,7 +69,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

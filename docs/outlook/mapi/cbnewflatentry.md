@@ -29,7 +29,7 @@ Computes the number of bytes that should be allocated for a new [FLATENTRY](flat
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**FLATENTRY** <br/> |
    
-```
+```cpp
 CbNewFLATENTRY (_cb)
 ```
 
@@ -41,10 +41,10 @@ CbNewFLATENTRY (_cb)
     
 ## See also
 
-#### Reference
+
 
 [FLATENTRY](flatentry.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

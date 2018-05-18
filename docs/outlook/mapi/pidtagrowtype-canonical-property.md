@@ -53,15 +53,15 @@ TBL_COLLAPSED_CATEGORY
   
 > The category is collapsed; the user interface usually displays this with the plus sign (+) next to it.
     
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXCTABL]](http://msdn.microsoft.com/library/d33612dc-36a8-4623-8a26-c156cf8aae4b%28Office.15%29.aspx)
   
 > Includes permissible operations for the core table objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -73,10 +73,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagRowid Canonical Property](pidtagrowid-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

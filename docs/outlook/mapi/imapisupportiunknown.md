@@ -33,7 +33,7 @@ Provides implementations for tasks that are typically performed by service provi
 |Interface identifier:  <br/> |IID_IMAPISup  <br/> |
 |Pointer type:  <br/> |LPMAPISUP  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -131,7 +131,7 @@ Message service support objects have implementations for the following methods:
    
 ## See also
 
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
 

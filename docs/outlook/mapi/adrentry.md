@@ -28,7 +28,7 @@ Describes zero or more properties that belong to a recipient.
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _ADRENTRY
 {
   ULONG ulReserved1;
@@ -56,13 +56,13 @@ typedef struct _ADRENTRY
 
 An **ADRENTRY** structure describes properties that belong to a single recipient. The properties that are typically used to describe a recipient include the following: 
   
- **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md))
+ **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))
   
- **PR_ADDRTYPE** ( [PidTagAddressType](pidtagaddresstype-canonical-property.md))
+ **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))
   
- **PR_EMAIL_ADDRESS** ( [PidTagEmailAddress](pidtagemailaddress-canonical-property.md))
+ **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))
   
- **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md))
+ **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))
   
 When an entry identifier or **PR_ENTRYID** property appears in the [SPropValue](spropvalue.md) array for a recipient, this indicates that the recipient has been resolved. Clients call the [IAddrBook::ResolveName](iaddrbook-resolvename.md) method to make sure that all recipients in the recipient list of an outgoing message have been resolved. Only resolved recipients can be sent with messages. 
   
@@ -76,7 +76,7 @@ For more information about how to allocate memory for **ADRENTRY** structures, s
   
 ## See also
 
-#### Reference
+
 
 [IAddrBook::Address](iaddrbook-address.md)
   
@@ -89,7 +89,7 @@ For more information about how to allocate memory for **ADRENTRY** structures, s
 [SRow](srow.md)
   
 [SRowSet](srowset.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

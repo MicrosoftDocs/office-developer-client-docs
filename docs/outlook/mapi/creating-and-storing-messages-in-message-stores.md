@@ -28,21 +28,21 @@ MAPI requires that the properties on [IMessage](imessageimapiprop.md) interfaces
   
 Some properties on message objects have special semantics for client applications with respect to the **SaveChanges** method, as follows: 
   
-- Some properties should be read/write before **SaveChanges** is called, but read-only afterward. For example, **PR_MESSAGE_FLAGS** ( [PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) is set initially by the client application that creates the message (and thus is read/write) but cannot be changed after the first call to **SaveChanges**.
+- Some properties should be read/write before **SaveChanges** is called, but read-only afterward. For example, **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) is set initially by the client application that creates the message (and thus is read/write) but cannot be changed after the first call to **SaveChanges**.
     
 - Some properties have special relations to properties on the folder they are in or to **IMAPIFolder** methods. For example, the **PR_MESSAGE_FLAGS** property is related to the flags used on the [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) call. 
     
-- Some properties may not be available until **SaveChanges** is called for the first time. For example, the **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)) property may not be available until **SaveChanges** is called. 
+- Some properties may not be available until **SaveChanges** is called for the first time. For example, the **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) property may not be available until **SaveChanges** is called. 
     
-- Some properties can have special relationships to other properties on the message object. For example, the **PR_BODY** ( [PidTagBody](pidtagbody-canonical-property.md)) property is usually derived from the **PR_RTF_COMPRESSED** ( [PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) property in message store providers that support Rich Text Format messages.
+- Some properties can have special relationships to other properties on the message object. For example, the **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) property is usually derived from the **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) property in message store providers that support Rich Text Format messages.
     
-- Some properties are used by more than one object type related to message stores. For example, the **PR_STORE_SUPPORT_MASK** ( [PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) property is required on folder and message objects as well as message store objects.
+- Some properties are used by more than one object type related to message stores. For example, the **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) property is required on folder and message objects as well as message store objects.
     
 It is the responsibility of the message store provider to implement the correct semantics for such properties.
   
 ## See also
 
-#### Concepts
+
 
 [Implementing Messages in Message Stores](implementing-messages-in-message-stores.md)
 

@@ -16,7 +16,7 @@ description: "Specifies leaving a copy of a message on the server for a POP acco
 
 Specifies leaving a copy of a message on the server for a POP account.
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|
@@ -39,7 +39,7 @@ The following table lists the possible values. See [Constants (Account managemen
    
 ## See also
 
-#### Concepts
+
 
 [Managing message downloads for POP3 accounts](managing-message-downloads-for-pop3-accounts.md)
   

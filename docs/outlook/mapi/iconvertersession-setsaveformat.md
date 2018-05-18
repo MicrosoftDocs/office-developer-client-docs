@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Sets the format in which the converter will return a MIME stream in [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md).
   
-```
+```cpp
 HRESULT IConverterSession::SetSaveFormat ( 
      MIMESAVETYPE mstSaveFormat 
 );
@@ -61,7 +61,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IConverterSession : IUnknown](iconvertersessioniunknown.md)
   
@@ -76,7 +76,7 @@ For MFCMAPI sample code, see the following table.
 [IConverterSession::SetEncoding](iconvertersession-setencoding.md)
   
 [IConverterSession::SetTextWrapping](iconvertersession-settextwrapping.md)
-#### Concepts
+
 
 [MAPI Constants](mapi-constants.md)
 

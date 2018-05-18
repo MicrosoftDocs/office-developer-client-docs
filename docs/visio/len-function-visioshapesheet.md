@@ -28,7 +28,7 @@ LEN ( ** *text* ** )
 |:-----|:-----|:-----|:-----|
 | _text_ <br/> |Required  <br/> |**String** <br/> |The character string whose length you want to find.  <br/> |
    
-### Return Value
+### Return value
 
 Numeric
   

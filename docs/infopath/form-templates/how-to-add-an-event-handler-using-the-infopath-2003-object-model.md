@@ -229,7 +229,7 @@ using Microsoft.Office.Interop.InfoPath.SemiTrust;
 [assembly: System.ComponentModel.DescriptionAttribute(    "InfoPathStartupClass, Version=1.0, Class=Template1.FormCode")]
 ```
 
-```VB.net
+```vb
 Imports System
 Imports Microsoft.Office.Interop.InfoPath.SemiTrust
 ' Office integration attribute. Identifies the startup class for the form. Do not modify.
@@ -249,7 +249,7 @@ public void total_OnValidate(DataDOMEvent e)
 
 ```
 
-```VB.net
+```vb
 <InfoPathEventHandler(MatchPath:="/invoice/total",EventType:= OnValidate)> Public Sub total_OnValidate(ByVal e As EventArgs)
     ' Write your code here.
 End Sub
@@ -263,7 +263,7 @@ thisXDocument.UI.Alert.(e.Site.text);
 
 ```
 
-```VB.net
+```vb
 thisXDocument.UI.Alert.(e.Site.text)
 
 ```
@@ -278,7 +278,7 @@ If you run an obfuscator utility on the assembly that is generated when a manage
   
 ## See also
 
-#### Concepts
+
 
 [Respond to Form Events Using the InfoPath 2003 Object Model](how-to-respond-to-form-events-using-the-infopath-2003-object-model.md)
 

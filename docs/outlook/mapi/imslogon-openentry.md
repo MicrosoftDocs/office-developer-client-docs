@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Opens a folder or message object and returns a pointer to the object to provide further access. 
   
-```
+```cpp
 HRESULT OpenEntry(
   ULONG cbEntryID,
   LPENTRYID lpEntryID,
@@ -55,7 +55,7 @@ HRESULT OpenEntry(
     
 MAPI_BEST_ACCESS 
   
-> The object should be opened with the maximum permissions allowed for the user and the maximum client application permissions. For example, if the client has read/write permission, the object is opened with read/write permission; if the client has read-only permission, the object is opened with read-only permission. The client can retrieve the permission level by getting the **PR_ACCESS_LEVEL** ( [PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)) property.
+> The object should be opened with the maximum permissions allowed for the user and the maximum client application permissions. For example, if the client has read/write permission, the object is opened with read/write permission; if the client has read-only permission, the object is opened with read-only permission. The client can retrieve the permission level by getting the **PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)) property.
     
 MAPI_DEFERRED_ERRORS 
   
@@ -89,7 +89,7 @@ Before MAPI calls **IMSLogon::OpenEntry**, it first determines that the given me
   
 ## See also
 
-#### Reference
+
 
 [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md)
   

@@ -34,7 +34,7 @@ Specifies the state of the contact's electronic addresses and represents a set o
    
 ## Remarks
 
-The value of the **dispidABPArrayType** property must be a combination of flags that specify the state of the contact object. Individual flags are specified in the following table. If this property is set, the **dispidABPEmailList** ( [PidLidAddressBookProviderEmailList](pidlidaddressbookprovideremaillist-canonical-property.md)) property must be set, as well. These two properties must be kept synchronized with each other. For example, if **dispidABPArrayType** has the bit "0x00000001 set", one of the values of **dispidABPEmailList** must be "0x00000000". 
+The value of the **dispidABPArrayType** property must be a combination of flags that specify the state of the contact object. Individual flags are specified in the following table. If this property is set, the **dispidABPEmailList** ([PidLidAddressBookProviderEmailList](pidlidaddressbookprovideremaillist-canonical-property.md)) property must be set, as well. These two properties must be kept synchronized with each other. For example, if **dispidABPArrayType** has the bit "0x00000001 set", one of the values of **dispidABPEmailList** must be "0x00000000". 
   
 |**Bit**|**Description**|
 |:-----|:-----|
@@ -45,9 +45,9 @@ The value of the **dispidABPArrayType** property must be a combination of flags 
 |0x00000010  <br/> |Home fax is defined for the contact.  <br/> |
 |0x00000020  <br/> |Primary fax is defined for the contact.  <br/> |
    
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -57,7 +57,7 @@ The value of the **dispidABPArrayType** property must be a combination of flags 
   
 > Specifies the properties and operations that are permissible for contacts and personal distribution lists.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -65,7 +65,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Creates an entry identifier for a one-off address.
   
-```
+```cpp
 HRESULT CreateOneOff(
   LPSTR lpszName,
   LPSTR lpszAdrType,
@@ -39,7 +39,7 @@ HRESULT CreateOneOff(
 
  _lpszName_
   
-> [in] A pointer to the value of the recipient's **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property. The  _lpszName_ parameter can be NULL. 
+> [in] A pointer to the value of the recipient's **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property. The  _lpszName_ parameter can be NULL. 
     
  _lpszAdrType_
   
@@ -55,7 +55,7 @@ HRESULT CreateOneOff(
     
 MAPI_SEND_NO_RICH_INFO 
   
-> The recipient cannot handle formatted message content. If MAPI_SEND_NO_RICH_INFO is set, MAPI sets the recipient's **PR_SEND_RICH_INFO** ( [PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)) property to FALSE. If MAPI_SEND_NO_RICH_INFO is not set, MAPI sets this property to TRUE unless the recipient's messaging address pointed to by  _lpszAddress_ is interpreted to be an Internet address. In this case, MAPI sets **PR_SEND_RICH_INFO** to FALSE. 
+> The recipient cannot handle formatted message content. If MAPI_SEND_NO_RICH_INFO is set, MAPI sets the recipient's **PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)) property to FALSE. If MAPI_SEND_NO_RICH_INFO is not set, MAPI sets this property to TRUE unless the recipient's messaging address pointed to by  _lpszAddress_ is interpreted to be an Internet address. In this case, MAPI sets **PR_SEND_RICH_INFO** to FALSE. 
     
 MAPI_UNICODE 
   
@@ -95,12 +95,12 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPISupport::CreateOneOff](imapisupport-createoneoff.md)
   
 [IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

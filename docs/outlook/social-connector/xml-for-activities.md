@@ -48,7 +48,7 @@ You can find more information about specifying XML for activities in the followi
     
 ## See also
 
-#### Concepts
+
 
 [Activity Feed XML Example](activity-feed-xml-example.md)
   
@@ -57,7 +57,7 @@ You can find more information about specifying XML for activities in the followi
 [XML for Capabilities](xml-for-capabilities.md)
   
 [XML for Friends](xml-for-friends.md)
-#### Other resources
+
 
 [Developing a Provider with the OSC XML Schema](developing-a-provider-with-the-osc-xml-schema.md)
 

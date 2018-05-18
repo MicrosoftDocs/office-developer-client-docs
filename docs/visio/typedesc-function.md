@@ -22,7 +22,7 @@ Returns a string that describes an object's internal type.
 
 TYPEDESC ()
   
-### Return Value
+### Return value
 
 String
   

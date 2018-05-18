@@ -30,7 +30,7 @@ STRSAME (" ** *string1* ** ", " ** *string2* ** ", ** *ignoreCase* ** )
 | _string2_ <br/> |Required  <br/> |**String** <br/> |The second string to compare.  <br/> |
 | _ignoreCase_ <br/> |Optional  <br/> |**Boolean** <br/> |TRUE to ignore the case and FALSE to compare the case. The default is FALSE.  <br/> |
    
-### Return Value
+### Return value
 
 Boolean
   

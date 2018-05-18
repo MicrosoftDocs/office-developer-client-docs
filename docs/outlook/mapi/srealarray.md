@@ -28,7 +28,7 @@ Contains an array of float values that are used to describe a property of type P
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SRealArray
 {
   ULONG cValues;
@@ -53,10 +53,10 @@ For more information about the PT_MV_R4 property type, see [Property Types](prop
   
 ## See also
 
-#### Reference
+
 
 [SPropValue](spropvalue.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

@@ -35,9 +35,9 @@ Contains a message transfer system (MTS) identifier for the message transfer age
 
 This property is returned by the MTA upon successful completion of message submission. Any future contact with the MTA regarding this message, such as requesting cancellation, uses the MTS identifier in this property.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -47,7 +47,7 @@ This property is returned by the MTA upon successful completion of message submi
   
 > Encodes and decodes message and attachment objects to an efficient stream representation.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -15,7 +15,7 @@ ms.assetid: 360854bb-e9be-a784-e80b-3f18418ded1b
 
 Provides a callback to the client for changes to an account.
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|
@@ -23,7 +23,7 @@ Provides a callback to the client for changes to an account.
 |Provided by:  <br/> | Client  <br/> |
 |Interface identifier:  <br/> |IID_IOlkAccountNotify  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -35,7 +35,7 @@ This interface is passed to [IOlkAccountManager::Advise](iolkaccountmanager-advi
   
 ## See also
 
-#### Concepts
+
 
 [About the Account Management API](about-the-account-management-api.md)
   

@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Gets the current online or offline state of an offline object.
   
-```
+```cpp
 HRESULT GetCurrentState( 
     ULONG* pulState 
 );
@@ -46,12 +46,12 @@ MAPIOFFLINE_STATE_OFFLINE
     
 ## See also
 
-#### Reference
+
 
 [IMAPIOffline::GetCapabilities](imapioffline-getcapabilities.md)
   
 [IMAPIOffline::SetCurrentState](imapioffline-setcurrentstate.md)
-#### Concepts
+
 
 [MAPI Constants](mapi-constants.md)
 

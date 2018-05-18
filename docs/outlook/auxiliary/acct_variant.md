@@ -16,7 +16,7 @@ description: "A variable of this data type holds the value of a property, which 
 
 A variable of this data type holds the value of a property, which is of a variant data type.
   
-## Quick Info
+## Quick info
 
 ```
 typedef struct 

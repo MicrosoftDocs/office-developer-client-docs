@@ -33,13 +33,13 @@ Contains formatting information about a Multipurpose Internet Mail Extensions (M
    
 ## Remarks
 
-If the **PR_ATTACH_TAG** ( [PidTagAttachTag](pidtagattachtag-canonical-property.md)) property contains the value **OID_MIMETAG**, the transport provider should look at these properties to determine how the attachment is formatted. 
+If the **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)) property contains the value **OID_MIMETAG**, the transport provider should look at these properties to determine how the attachment is formatted. 
   
 These properties are copied from the Content-type parameter of the inbound MIME header. The composition of the string is defined in the RFC 1521 document. The format is type/subtype, such as application/binary or text/plain. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -49,7 +49,7 @@ These properties are copied from the Content-type parameter of the inbound MIME 
   
 > Specifies the properties of rights-managed encoded messages.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -61,7 +61,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

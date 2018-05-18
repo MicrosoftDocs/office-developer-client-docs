@@ -457,7 +457,7 @@ All XML that is returned by OSC providers in OSC provider extensibility methods 
 
 ## See also
 
-#### Concepts
+
 
 [Capabilities XML Example](capabilities-xml-example.md)
   

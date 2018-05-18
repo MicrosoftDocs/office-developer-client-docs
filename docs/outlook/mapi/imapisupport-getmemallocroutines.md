@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Retrieves the addresses of the MAPI memory allocation and deallocation functions ([MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md), and [MAPIFreeBuffer](mapifreebuffer.md)).
   
-```
+```cpp
 HRESULT GetMemAllocRoutines(
   LPALLOCATEBUFFER FAR * lppAllocateBuffer,
   LPALLOCATEMORE FAR * lppAllocateMore,
@@ -58,7 +58,7 @@ The **IMAPISupport::GetMemAllocRoutines** method is implemented for all support 
   
 ## See also
 
-#### Reference
+
 
 [MAPIAllocateBuffer](mapiallocatebuffer.md)
   

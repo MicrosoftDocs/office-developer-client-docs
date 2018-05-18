@@ -55,7 +55,7 @@ Address book, message store, and transport providers perform the following tasks
     
 ## See also
 
-#### Other resources
+
 
 [MAPI Concepts](mapi-concepts.md)
 

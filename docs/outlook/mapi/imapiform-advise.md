@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Registers a form viewer for notifications about events that affect the form.
   
-```
+```cpp
 HRESULT Advise(
   LPMAPIVIEWADVISESINK pAdvise,
   ULONG FAR * pulConnection
@@ -55,7 +55,7 @@ E_OUTOFMEMORY
 
 Form viewers call a form's **IMAPIForm::Advise** method to register for notification when changes occur to the form. 
   
-## Notes to Implementers
+## Notes to implementers
 
 Keep a copy of the view advise sink pointer passed in the  _pAdvise_ parameter so that you can use it to call the appropriate [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) method when an event occurs. Call the view advise sink's [IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28VS.85%29.aspx) method to retain the pointer until notification registration is canceled. Set the contents of the  _pulConnection_ parameter to a nonzero number. 
   
@@ -67,14 +67,14 @@ For more information about notification and forms, see [Sending and Receiving Fo
   
 ## See also
 
-#### Reference
+
 
 [IMAPIForm::Unadvise](imapiform-unadvise.md)
   
 [IMAPIViewAdviseSink : IUnknown](imapiviewadvisesinkiunknown.md)
   
 [IMAPIForm : IUnknown](imapiformiunknown.md)
-#### Concepts
+
 
 [Event Notification in MAPI](event-notification-in-mapi.md)
   

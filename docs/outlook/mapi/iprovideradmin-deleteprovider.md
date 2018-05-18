@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Deletes a service provider from the message service.
   
-```
+```cpp
 HRESULT DeleteProvider(
   LPMAPIUID lpUID
 );
@@ -62,7 +62,7 @@ The message service entry point function is not called again after the provider 
   
 ## See also
 
-#### Reference
+
 
 [MAPIUID](mapiuid.md)
   

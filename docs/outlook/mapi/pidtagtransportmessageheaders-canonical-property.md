@@ -37,9 +37,9 @@ The transport provider can generate the message header information for inbound m
   
 These properties offer an alternative to either discarding the transport message header information or prepending it to the message text. The client can choose whether or not to display the information.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -53,7 +53,7 @@ These properties offer an alternative to either discarding the transport message
   
 > Converts from Internet standard e-mail conventions to message objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -65,10 +65,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagBody Canonical Property](pidtagbody-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

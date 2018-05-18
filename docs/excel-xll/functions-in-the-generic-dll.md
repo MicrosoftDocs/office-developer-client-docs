@@ -60,7 +60,7 @@ This project uses the framework library (FRMWRK32.lib).
   
 ## See also
 
-#### Concepts
+
 
 [Functions in the Framework Library](functions-in-the-framework-library.md)
 

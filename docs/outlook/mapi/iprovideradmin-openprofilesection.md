@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Opens a profile section from the current profile and returns an [IProfSect](iprofsectimapiprop.md) pointer for further access. 
   
-```
+```cpp
 HRESULT OpenProfileSection(
   LPMAPIUID lpUID,
   LPCIID lpInterface,
@@ -85,7 +85,7 @@ Clients cannot open profile sections that belong to providers by using the **Ope
   
 Multiple clients or service providers can simultaneously open a profile section with read-only permission. However, when a profile section is open with read/write permission, no other calls can be made to open the section, regardless of the type of access. If a profile section is open with read-only permission, a subsequent call to request read/write permission will fail with MAPI_E_NO_ACCESS. Likewise, if a section is open with read/write permission, a subsequent call to request read-only permission will also fail. 
   
-## Notes to Callers
+## Notes to callers
 
 If you request that **OpenProfileSection** open a nonexistent profile section by passing MAPI_MODIFY in  _ulFlags_ and an unknown **MAPIUID** in  _lpUID_, the profile section will be created. 
   
@@ -101,7 +101,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIProp : IUnknown](imapipropiunknown.md)
   
@@ -110,7 +110,7 @@ For MFCMAPI sample code, see the following table.
 [MAPIUID](mapiuid.md)
   
 [IProviderAdmin : IUnknown](iprovideradminiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

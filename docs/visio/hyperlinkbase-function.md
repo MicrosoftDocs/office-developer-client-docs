@@ -22,7 +22,7 @@ Returns the text from the **Hyperlink base** field of a document's properties.
 
 HYPERLINKBASE ()
   
-### Return Value
+### Return value
 
 String
   

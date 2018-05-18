@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Retrieves the current table row position of the cursor, based on a fractional value.
   
-```
+```cpp
 HRESULT QueryPosition(
 ULONG FAR * lpulRow,
 ULONG FAR * lpulNumerator,
@@ -56,13 +56,13 @@ S_OK
 
 The **IMAPITable::QueryPosition** method determines the current row position and returns both the number of the current row and a fractional value indicating its relative position to the end of the table. MAPI defines the current row as the next row to be read. 
   
-## Notes to Implementers
+## Notes to implementers
 
 You do not need to return the exact number of rows in the table for the  _lpulDenominator_ parameter; it can be an approximation. 
   
 If you cannot determine the current row, return a value of 0xFFFFFFFF in  _lpulRow_.
   
-## Notes to Callers
+## Notes to callers
 
 You can use **QueryPosition** to position a scroll box in a scroll bar. For example, in a table containing 100 rows, if **QueryPosition** returns a value of 75 in the  _lpulNumerator_ parameter, 100 in the  _lpulDenominator_ parameter, and 75 in the  _lpulRow_ parameter, you can position the scroll box 3/4 of the way across the scroll bar. 
   
@@ -72,7 +72,7 @@ A call to **QueryPosition** might involve large amounts of memory, particularly 
   
 ## See also
 
-#### Reference
+
 
 [IMAPITable::SeekRowApprox](imapitable-seekrowapprox.md)
   

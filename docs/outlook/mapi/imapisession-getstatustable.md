@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Provides access to the status table, a table that contains information about all the MAPI resources in the session.
   
-```
+```cpp
 HRESULT GetStatusTable(
   ULONG ulFlags,
   LPMAPITABLE FAR * lppTable
@@ -69,7 +69,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPITable : IUnknown](imapitableiunknown.md)
   
@@ -84,7 +84,7 @@ For MFCMAPI sample code, see the following table.
 [IMAPITable::SortTable](imapitable-sorttable.md)
   
 [IMAPISession : IUnknown](imapisessioniunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
   

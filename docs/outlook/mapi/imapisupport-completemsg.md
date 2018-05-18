@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Performs postprocessing on a message. 
   
-```
+```cpp
 HRESULT CompleteMsg(
   ULONG ulFlags,
   ULONG cbEntryID,
@@ -56,7 +56,7 @@ S_OK
 
 The **IMAPISupport::CompleteMsg** method is implemented for message store provider support objects and is called only by message store providers that are tightly coupled with transport providers. Tightly coupled store providers call **IMAPISupport::CompleteMsg** to instruct the MAPI spooler to postprocess a message. 
   
-## Notes to Callers
+## Notes to callers
 
 Call **CompleteMsg** only when you are tightly coupled with a transport provider, you can handle all of the message's recipients, and one of the following conditions exists: 
   
@@ -66,7 +66,7 @@ Call **CompleteMsg** only when you are tightly coupled with a transport provider
     
 ## See also
 
-#### Reference
+
 
 [IMAPISupport : IUnknown](imapisupportiunknown.md)
 

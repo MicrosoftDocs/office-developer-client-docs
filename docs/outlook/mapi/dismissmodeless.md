@@ -30,7 +30,7 @@ Defines a callback function that MAPI calls when it has dismissed a modeless add
 |Defined function implemented by:  <br/> |Client applications  <br/> |
 |Defined function called by:  <br/> |MAPI  <br/> |
    
-```
+```cpp
 void (STDMETHODCALLTYPE DISMISSMODELESS)(
   ULONG_PTR ulUIParam,
   LPVOID lpvContext
@@ -57,7 +57,7 @@ When the client application invokes a modeless address book dialog box, it inclu
   
 ## See also
 
-#### Reference
+
 
 [ADRPARM](adrparm.md)
 

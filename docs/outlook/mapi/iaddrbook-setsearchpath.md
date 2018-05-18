@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Sets a new search path in the profile that is used for the name resolution process. 
   
-```
+```cpp
 HRESULT SetSearchPath(
   ULONG ulFlags,
   LPSRowSet lpSearchPath
@@ -39,7 +39,7 @@ HRESULT SetSearchPath(
     
  _lpSearchPath_
   
-> [in] A pointer to the [SRowSet](srowset.md) structure used to hold the search path. The first property for each **aRow** member in **SRowSet** must be **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)).
+> [in] A pointer to the [SRowSet](srowset.md) structure used to hold the search path. The first property for each **aRow** member in **SRowSet** must be **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
     
 ## Return value
 
@@ -59,7 +59,7 @@ Clients and providers do not have to call the [IMAPIProp::SaveChanges](imapiprop
   
 ## See also
 
-#### Reference
+
 
 [IAddrBook::GetDefaultDir](iaddrbook-getdefaultdir.md)
   

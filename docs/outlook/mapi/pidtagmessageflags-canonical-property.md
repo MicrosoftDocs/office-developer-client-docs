@@ -49,7 +49,7 @@ MSGFLAG_FROMME
     
 MSGFLAG_HASATTACH 
   
-> The message has at least one attachment. This flag corresponds to the message's **PR_HASATTACH** ( [PidTagHasAttachments](pidtaghasattachments-canonical-property.md)) property. The client has read-only access to this flag. 
+> The message has at least one attachment. This flag corresponds to the message's **PR_HASATTACH** ([PidTagHasAttachments](pidtaghasattachments-canonical-property.md)) property. The client has read-only access to this flag. 
     
 MSGFLAG_NRN_PENDING 
   
@@ -107,9 +107,9 @@ A client should also test an incoming message for the MSGFLAG_ORIGIN_X400, MSGFL
   
 Message store providers set the MSGFLAG_UNMODIFIED flag for incoming messages. MSGFLAG_UNMODIFIED indicates that a message has not been changed since delivery. A client cannot clear this value after it has been set by a message store provider. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -119,7 +119,7 @@ Message store providers set the MSGFLAG_UNMODIFIED flag for incoming messages. M
   
 > Handles message and attachment objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -131,10 +131,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [IMsgStore::AbortSubmit](imsgstore-abortsubmit.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

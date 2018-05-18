@@ -33,7 +33,7 @@ Works with service providers in a message service.
 |Interface identifier:  <br/> |IID_IProviderAdmin  <br/> |
 |Pointer type:  <br/> |LPPROVIDERADMIN  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -49,7 +49,7 @@ Clients can get a pointer to an **IProviderAdmin** interface by calling the [IMs
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
 

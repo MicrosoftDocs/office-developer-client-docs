@@ -29,7 +29,7 @@ Allows conversions between MIME objects and MAPI messages. This can be useful in
 |Provided by:  <br/> |CLSID_IConverterSession  <br/> |
 |Interface identifier:  <br/> |IID_IConverterSession  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -52,7 +52,7 @@ Call **SetEncoding** before using **MAPIToMIMEStm** to perform conversion.
   
 ## See also
 
-#### Concepts
+
 
 [About the MAPI-MIME Conversion API](about-the-mapi-mime-conversion-api.md)
   

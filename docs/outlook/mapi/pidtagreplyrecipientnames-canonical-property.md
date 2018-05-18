@@ -35,13 +35,13 @@ Contains a list of display names for recipients that are to get a reply.
 
 These properties contain the display names separated by semicolons.
   
-When this property is not present, a reply is sent only to the user identified by the **PR_SENDER_NAME** ( [PidTagSenderName](pidtagsendername-canonical-property.md)) property. When **PR_REPLY_RECIPIENT_ENTRIES** ( [PidTagReplyRecipientEntries](pidtagreplyrecipiententries-canonical-property.md)) and these properties are defined, the reply is sent to all of the recipients identified by these two properties. A transport provider uses these properties to override the usual reply logic.
+When this property is not present, a reply is sent only to the user identified by the **PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)) property. When **PR_REPLY_RECIPIENT_ENTRIES** ([PidTagReplyRecipientEntries](pidtagreplyrecipiententries-canonical-property.md)) and these properties are defined, the reply is sent to all of the recipients identified by these two properties. A transport provider uses these properties to override the usual reply logic.
   
 If either **PR_REPLY_RECIPIENT_ENTRIES** or these properties are set, the other property must be set also. These properties must contain the same number of recipients, and they must contain them in the same order. Failure to observe these requirements can cause unpredictable results. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -55,7 +55,7 @@ If either **PR_REPLY_RECIPIENT_ENTRIES** or these properties are set, the other 
   
 > Converts from Internet standard e-mail conventions to message objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -67,7 +67,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

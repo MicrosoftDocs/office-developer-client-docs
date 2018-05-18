@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Cancels the sending of notifications previously set up with a call to the [IMAPITable::Advise](imapitable-advise.md) method. 
   
-```
+```cpp
 HRESULT Unadvise(
 ULONG_PTR ulConnection
 );
@@ -58,14 +58,14 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md)
   
 [IMAPITable::Advise](imapitable-advise.md)
   
 [IMAPITable : IUnknown](imapitableiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

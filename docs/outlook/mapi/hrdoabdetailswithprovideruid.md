@@ -26,7 +26,7 @@ Ensures that the **OpenEntry** method is opened by the expected Exchange address
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 HRESULT HrDoABDetailsWithProviderUID(
   const MAPIUID   *pEmsabpUID,
   LPADRBOOK        pAddrBook,

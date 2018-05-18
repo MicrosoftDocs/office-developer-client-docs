@@ -38,15 +38,15 @@ The value of the **PidLidPropertyDefinitionStream** property is saved as part of
   
 The value of this property is a binary stream. For information on the structure of this stream, see [PropertyDefinition Stream Structure](propertydefinition-stream-structure.md). 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Provides property set definitions and references to related Exchange Server protocol specifications.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -54,7 +54,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [Outlook Items and Fields](outlook-items-and-fields.md)
   

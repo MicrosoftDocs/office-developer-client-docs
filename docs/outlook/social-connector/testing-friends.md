@@ -74,12 +74,12 @@ To test hybrid synchronization, follow the testing suggestions in the [Cached Sy
 ## See also
 <a name="olosc_TestingFriends_OnDemandSync"> </a>
 
-#### Concepts
+
 
 [Synchronizing Friends and Activities](synchronizing-friends-and-activities.md)
   
 [XML for Friends](xml-for-friends.md)
-#### Other resources
+
 
 [Getting Ready to Release an OSC Provider](getting-ready-to-release-an-osc-provider.md)
 

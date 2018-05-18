@@ -38,7 +38,7 @@ All service providers must implement a status object and furnish properties from
     
 2. Call the status object's **IUnknown::AddRef** method to increment its reference count in the logon object. 
     
-3. Set the status object's **PR_OBJECT_TYPE** ( [PidTagObjectType](pidtagobjecttype-canonical-property.md)) property to MAPI_STATUS.
+3. Set the status object's **PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md)) property to MAPI_STATUS.
     
 4. Set the  _lppMAPIStatus_ output parameter to point to the status object, and return. 
     
@@ -46,19 +46,19 @@ All service providers must implement a status object and furnish properties from
     
 2. Set all of the required status object and status table properties. The properties that you include in your status table row should be available through your status object, except for the properties calculated by MAPI. The required properties are as follows:
     
-  - **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md))
+  - **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))
     
-  - **PR_PROVIDER_DLL_NAME** ( [PidTagProviderDllName](pidtagproviderdllname-canonical-property.md))
+  - **PR_PROVIDER_DLL_NAME** ([PidTagProviderDllName](pidtagproviderdllname-canonical-property.md))
     
-  - **PR_PROVIDER_DISPLAY** ( [PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md))
+  - **PR_PROVIDER_DISPLAY** ([PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md))
     
-  - **PR_RESOURCE_TYPE** ( [PidTagResourceType](pidtagresourcetype-canonical-property.md))
+  - **PR_RESOURCE_TYPE** ([PidTagResourceType](pidtagresourcetype-canonical-property.md))
     
-  - **PR_RESOURCE_METHODS** ( [PidTagResourceMethods](pidtagresourcemethods-canonical-property.md))
+  - **PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md))
     
-  - **PR_RESOURCE_FLAGS** ( [PidTagResourceFlags](pidtagresourceflags-canonical-property.md))
+  - **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md))
     
-  - **PR_STATUS_CODE** ( [PidTagStatusCode](pidtagstatuscode-canonical-property.md))
+  - **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md))
     
 3. Implement the [IMAPIStatus : IMAPIProp](imapistatusimapiprop.md) methods that are appropriate for your provider. Depending on your provider, you do not need to implement all of the four methods in **IMAPIStatus**. Every provider should implement a read-only version of the methods of the [IMAPIProp : IUnknown](imapipropiunknown.md) interface and the [IMAPIStatus::ValidateState](imapistatus-validatestate.md) method. Transport providers should also implement [IMAPIStatus::FlushQueues](imapistatus-flushqueues.md), and all providers should support [IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md). However, support for [IMAPIStatus::ChangePassword](imapistatus-changepassword.md) is optional. Only service providers that require passwords and want to allow users to change them programmatically need to implement this method. For every method that you support, set the corresponding bit in the **PR_RESOURCE_METHODS** property. For example, if you support **ValidateState** and **SettingsDialog** only, set **PR_RESOURCE_METHODS** to the following: 
     
@@ -72,7 +72,7 @@ For more information about status objects, see [MAPI Status Objects](mapi-status
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Service Providers](mapi-service-providers.md)
 

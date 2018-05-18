@@ -28,7 +28,7 @@ LN( ** *number* ** )
 |:-----|:-----|:-----|:-----|
 | _number_ <br/> |Required  <br/> |**Numeric** <br/> | The number whose natural logarithm you want to find.  <br/> |
    
-### Return Value
+### Return value
 
 Numeric
   

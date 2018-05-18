@@ -28,7 +28,7 @@ Contains an array of time values.
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _SAppTimeArray
 {
   ULONG cValues;
@@ -53,7 +53,7 @@ The **SAppTimeArray** structure is used to define properties of type PT_MV_APPTI
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

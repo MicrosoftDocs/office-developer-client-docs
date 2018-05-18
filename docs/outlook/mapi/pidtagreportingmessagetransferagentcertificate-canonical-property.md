@@ -35,9 +35,9 @@ Contains an identifier for the message transfer agent that generated a report.
 
 This property corresponds to an X.400 report per-message attribute.
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

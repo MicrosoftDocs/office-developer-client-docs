@@ -29,7 +29,7 @@ Contains information about a button control for a dialog box built from a displa
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related macro:  <br/> |[SizedDtblButton](sizeddtblbutton.md) <br/> |
    
-```
+```cpp
 typedef struct _DTBLBUTTON
 {
   ULONG ulbLpszLabel;
@@ -69,10 +69,10 @@ For an overview of display tables, see [Display Tables](display-tables.md). For 
   
 ## See also
 
-#### Reference
+
 
 [DTCTL](dtctl.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

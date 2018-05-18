@@ -41,12 +41,12 @@ Welcome to the Microsoft Outlook 2013 Messaging API (MAPI) Reference. MAPI provi
     
 ## See also
 
-#### Concepts
+
 
 [Outlook MAPI Reference Overview](outlook-mapi-reference-overview.md)
   
 [Outlook Messaging API (MAPI) Reference Copyright Notice](outlook-messaging-api-mapi-reference-copyright-notice.md)
-#### Other resources
+
 
 [Outlook 2010: MAPI Reference (Microsoft Download Center)](http://www.microsoft.com/downloads/details.aspx?FamilyID=5f61a276-9c09-4c82-9b80-20dccad17a2a)
   

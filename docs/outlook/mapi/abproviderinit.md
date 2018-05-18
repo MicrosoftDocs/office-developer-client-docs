@@ -1,7 +1,5 @@
 ---
 title: "ABProviderInit"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -17,9 +15,7 @@ description: "Last modified: March 09, 2015"
 ---
 
 # ABProviderInit
-
-  
-  
+ 
 **Applies to**: Outlook 
   
 Initializes an address book provider for operation. 
@@ -30,7 +26,7 @@ Initializes an address book provider for operation.
 |Implemented by:  <br/> |Address book providers  <br/> |
 |Called by:  <br/> |MAPI  <br/> |
    
-```
+```cpp
 HRESULT ABProviderInit(
   HINSTANCE hInstance,
   LPMALLOC lpMalloc,
@@ -100,7 +96,7 @@ MAPI_E_VERSION
 
 MAPI calls the entry point function **ABProviderInit** to initialize an address book provider following a client logon. 
   
-## Notes to Implementers
+## Notes to implementers
 
 An address book provider must implement **ABProviderInit** as an entry point function in the provider's DLL. The implementation must be based on the **ABPROVIDERINIT** function prototype, also specified in MAPISPI.H. MAPI defines **ABPROVIDERINIT** to use the standard MAPI initialization call type, STDMAPIINITCALLTYPE, which causes **ABProviderInit** to follow the CDECL calling convention. 
   
@@ -112,11 +108,7 @@ For more information on writing **ABProviderInit**, see [Implementing an Address
   
 ## See also
 
-#### Reference
-
-[IABProvider : IUnknown](iabprovideriunknown.md)
-  
-[MSProviderInit](msproviderinit.md)
-  
-[XPProviderInit](xpproviderinit.md)
+- [IABProvider : IUnknown](iabprovideriunknown.md) 
+- [MSProviderInit](msproviderinit.md)
+- [XPProviderInit](xpproviderinit.md)
 

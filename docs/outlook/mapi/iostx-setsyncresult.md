@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Sets the result of the synchronization.
   
-```
+```cpp
 HRESULT SetSyncResult( 
     HRESULT hrSync 
 );
@@ -42,7 +42,7 @@ Call **IOSTX::SetSyncResult** before calling **IOSTX::SyncEnd** to inform the lo
   
 ## See also
 
-#### Reference
+
 
 [IOSTX::GetLastError](iostx-getlasterror.md)
   
@@ -55,7 +55,7 @@ Call **IOSTX::SetSyncResult** before calling **IOSTX::SyncEnd** to inform the lo
 [IOSTX::SyncHdrBeg](iostx-synchdrbeg.md)
   
 [IOSTX::SyncHdrEnd](iostx-synchdrend.md)
-#### Concepts
+
 
 [MAPI Constants](mapi-constants.md)
 

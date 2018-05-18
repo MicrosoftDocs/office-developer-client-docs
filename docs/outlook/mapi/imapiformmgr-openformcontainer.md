@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Opens an [IMAPIFormContainer](imapiformcontaineriunknown.md) interface for a specific form container. 
   
-```
+```cpp
 HRESULT OpenFormContainer(
   HFRMREG hfrmreg,
   LPUNKNOWN lpunk,
@@ -76,7 +76,7 @@ MAPI_E_NO_INTERFACE
 
 Form viewers call the **IMAPIFormMgr::OpenFormContainer** method to open an **IMAPIFormContainer** interface for a specific form container. This interface can then be used for installing forms into and removing forms from a form container. 
   
-## Notes to Callers
+## Notes to callers
 
 If the value in  _hfrmreg_ is HFRMREG_FOLDER, the interface identifier used in  _lpunk_ must be non- **null** and must allow [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx) method calls to an [IMAPIFolder](imapifolderimapicontainer.md) interface. 
   
@@ -93,7 +93,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIFormContainer::InstallForm](imapiformcontainer-installform.md)
   
@@ -102,7 +102,7 @@ For MFCMAPI sample code, see the following table.
 [MAPIOpenLocalFormContainer](mapiopenlocalformcontainer.md)
   
 [IMAPIFormMgr : IUnknown](imapiformmgriunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

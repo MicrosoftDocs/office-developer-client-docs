@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Expands a collapsed table category, adding the leaf or lower-level heading rows belonging to the category to the table view.
   
-```
+```cpp
 HRESULT ExpandRow(
 ULONG cbInstanceKey,
 LPBYTE pbInstanceKey,
@@ -43,7 +43,7 @@ ULONG FAR * lpulMoreRows
     
  _pbInstanceKey_
   
-> [in] A pointer to the **PR_INSTANCE_KEY** ( [PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) property that identifies the heading row for the category. 
+> [in] A pointer to the **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) property that identifies the heading row for the category. 
     
  _ulRowCount_
   
@@ -77,11 +77,11 @@ The **IMAPITable::ExpandRow** method expands a collapsed table category, adding 
   
 When  _ulRowCount_ is set to zero, requesting that zero leaf or lower-level heading rows be added to the category, or zero rows are returned because there are no leaf or lower-level heading rows in the category, the position of BOOKMARK_CURRENT is set to the row following the row identified by  _pbInstanceKey_. 
   
-## Notes to Implementers
+## Notes to implementers
 
 Do not generate notifications on rows that are added to a table view due to category expansion.
   
-## Notes to Callers
+## Notes to callers
 
 The number of rows in the row set pointed to by the  _lppRows_ parameter might not equal the number of rows that were actually added to the table, the entire set of leaf or lower-level heading rows for the category. Errors can occur, such as insufficient memory, or the number of rows in the category exceeding the number specified in  _ulRowCount_ parameter. In either case, BOOKMARK_CURRENT will be positioned at the last row returned. To immediately retrieve the rest of the rows in the category, call [IMAPITable::QueryRows](imapitable-queryrows.md).
   
@@ -99,12 +99,12 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPITable::CollapseRow](imapitable-collapserow.md)
   
 [IMAPITable : IUnknown](imapitableiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

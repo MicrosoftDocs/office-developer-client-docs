@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Returns an identifier that represents the form server that can manage the form. 
   
-```
+```cpp
 HRESULT GetClassID(
   LPCLSID lpClassID
 );
@@ -50,7 +50,7 @@ For more information about how class identifiers are used with structured storag
   
 ## See also
 
-#### Reference
+
 
 [IPersistMessage : IUnknown](ipersistmessageiunknown.md)
 

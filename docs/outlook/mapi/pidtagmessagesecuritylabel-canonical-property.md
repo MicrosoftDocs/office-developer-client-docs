@@ -33,11 +33,11 @@ Contains a security label for a message.
    
 ## Remarks
 
-This property provides the basis on which the **PR_MESSAGE_TOKEN** ( [PidTagMessageToken](pidtagmessagetoken-canonical-property.md)) property protects a message. Its association with the message content is guaranteed by the token.
+This property provides the basis on which the **PR_MESSAGE_TOKEN** ([PidTagMessageToken](pidtagmessagetoken-canonical-property.md)) property protects a message. Its association with the message content is guaranteed by the token.
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

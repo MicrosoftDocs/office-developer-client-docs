@@ -50,12 +50,12 @@ The header is followed by **RecordsCount** entries of 32 bit values defined as:
 |StartTime  <br/> |The meeting object's start time in minutes since midnight, January 1, 1601, UTC.  <br/> |
 |EndTime  <br/> |The meeting object's end time in minutes since midnight, January 1, 1601, UTC.  <br/> |
 |GlobalObjectIdSize  <br/> |The size, in bytes, of the GlobalObjectId field.  <br/> |
-|GlobalObjectId  <br/> |The value of the **LID_GLOBAL_OBJID** ( [PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)) property of the meeting this record represents.  <br/> |
+|GlobalObjectId  <br/> |The value of the **LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)) property of the meeting this record represents.  <br/> |
 |UserName  <br/> |The first two bytes are the length of the PT_STRING8 string that follows.  <br/> |
    
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -65,7 +65,7 @@ The header is followed by **RecordsCount** entries of 32 bit values defined as:
   
 > Specifies the properties and operations for appointment, meeting request, and response messages.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -77,7 +77,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

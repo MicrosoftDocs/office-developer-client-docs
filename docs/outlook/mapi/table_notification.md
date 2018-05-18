@@ -78,7 +78,7 @@ TABLE_ROW_MODIFIED
   
 > A row has been changed. The **row** member contains the affected properties for the row. Multiple TABLE_ROW_MODIFIED events are sent in the order that they appear in the table view. 
     
-   TABLE_ROW_MODIFIED events are sent after changes to the corresponding object have been committed with a call to the **IMAPIProp::SaveChanges** method. If the modified row is now the first row in the table, the value of the property tag in the **propPrior** member is **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)).
+  TABLE_ROW_MODIFIED events are sent after changes to the corresponding object have been committed with a call to the **IMAPIProp::SaveChanges** method. If the modified row is now the first row in the table, the value of the property tag in the **propPrior** member is **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)).
     
 TABLE_SETCOL_DONE 
   

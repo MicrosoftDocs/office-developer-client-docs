@@ -45,9 +45,9 @@ The response status must be one of the values in the table below.
 |respDeclined  <br/> |0x00000004  <br/> |This value on the attendee's meeting indicates that the attendee has declined the meeting request.  <br/> |
 |respNotResponded  <br/> |0x00000005  <br/> |This value on the attendee's meeting indicates the attendee has not yet responded. This value is on the meeting request, meeting update, and meeting cancelation.  <br/> |
    
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -57,7 +57,7 @@ The response status must be one of the values in the table below.
   
 > Specifies the properties and operations for appointment, meeting request, and response messages.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -65,7 +65,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

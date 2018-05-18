@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Specifies the value of the **PR_CONTAINER_CLASS** ( [PidTagContainerClass](pidtagcontainerclass-canonical-property.md)) property of the folder that is being shared. This is a property of a sharing message.
+Specifies the value of the **PR_CONTAINER_CLASS** ([PidTagContainerClass](pidtagcontainerclass-canonical-property.md)) property of the folder that is being shared. This is a property of a sharing message.
   
 |||
 |:-----|:-----|
@@ -46,9 +46,9 @@ The value of this property must be one of the following:
     
 - "IPF.Journal"
     
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -58,7 +58,7 @@ The value of this property must be one of the following:
   
 > Shares mailbox folders between clients.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -66,7 +66,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

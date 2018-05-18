@@ -52,7 +52,7 @@ The number of subsequent arguments that will be passed to the function. In versi
   
 The optional arguments to the function. All arguments must be pointers to **XLOPER** or **XLOPER12** values. 
   
-## Return Value
+## Return value
 
 Returns one of the following integer ( **int**) values.
   
@@ -126,16 +126,16 @@ This code example is part of a larger example provided in the Excel 2010 XLL SDK
 short WINAPI Excel12Example(void)
 {
     XLOPER12 xRes;
-    Excel12(xlfCaller, &amp;xRes, 0);
-    Excel12(xlcSelect, 0, 1, (LPXLOPER12)&amp;xRes);
-    Excel12(xlFree, 0, 1, (LPXLOPER12)&amp;xRes);
+    Excel12(xlfCaller, &xRes, 0);
+    Excel12(xlcSelect, 0, 1, (LPXLOPER12)&xRes);
+    Excel12(xlFree, 0, 1, (LPXLOPER12)&xRes);
     return 1;
 }
 ```
 
 ## See also
 
-#### Reference
+
 
 [Excel4v/Excel12v](excel4v-excel12v.md)
 

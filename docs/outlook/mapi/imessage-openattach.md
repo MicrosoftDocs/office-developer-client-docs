@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Opens an attachment. 
   
-```cs
+```cpp
 HRESULT OpenAttach(
   ULONG ulAttachmentNum,
   LPCIID lpInterface,
@@ -37,7 +37,7 @@ HRESULT OpenAttach(
 
  _ulAttachmentNum_
   
-> [in] Index number of the attachment to open, as stored in the attachment's **PR_ATTACH_NUM** ( [PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) property. This index number uniquely identifies the attachment in the message and is valid only in the context of the message.
+> [in] Index number of the attachment to open, as stored in the attachment's **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) property. This index number uniquely identifies the attachment in the message and is valid only in the context of the message.
     
  _lpInterface_
   
@@ -73,13 +73,13 @@ S_OK
 
 The **IMessage::OpenAttach** method opens a message's attachment. 
   
-## Notes to Callers
+## Notes to callers
 
 To open an attachment, you must have access to its attachment number or **PR_ATTACH_NUM** property. Call [IMessage::GetAttachmentTable](imessage-getattachmenttable.md) to retrieve the message's attachment table and locate the row that represents the attachment to be opened. See [Opening an Attachment](opening-an-attachment.md) for more information. 
   
 Do not try to open one attachment multiple times; the results are undefined and dependent on the message store provider.
   
-You can request that the attachment be opened in read/write mode, instead of the default read-only mode. However, whether the attachment will actually be opened in read/write mode is up to the message store provider. You can either attempt to modify the attachment, preparing to handle possible failure, or check the level of access that was granted by retrieving the attachment's **PR_ACCESS_LEVEL** ( [PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)) property, if it is available. 
+You can request that the attachment be opened in read/write mode, instead of the default read-only mode. However, whether the attachment will actually be opened in read/write mode is up to the message store provider. You can either attempt to modify the attachment, preparing to handle possible failure, or check the level of access that was granted by retrieving the attachment's **PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)) property, if it is available. 
   
 ## MFCMAPI Reference
 
@@ -91,10 +91,10 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMessage : IMAPIProp](imessageimapiprop.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

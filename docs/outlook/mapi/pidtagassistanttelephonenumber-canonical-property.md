@@ -35,11 +35,11 @@ Contains the telephone number of the recipient's administrative assistant.
 
 These properties provide identification and access information for a recipient. They are defined by the recipient and their organization. 
   
-The telephone number is for the assistant specified in the **PR_ASSISTANT** ( [PidTagAssistant](pidtagassistant-canonical-property.md)) property. 
+The telephone number is for the assistant specified in the **PR_ASSISTANT** ([PidTagAssistant](pidtagassistant-canonical-property.md)) property. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -53,7 +53,7 @@ The telephone number is for the assistant specified in the **PR_ASSISTANT** ( [P
   
 > Specifies the properties and operations for lists of users, contacts, groups, and resources.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -65,7 +65,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

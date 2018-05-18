@@ -33,13 +33,13 @@ Contains the address type of the author of the first version of a message, that 
    
 ## Remarks
 
-These properties are examples of the address properties for the author of a message. At first submission of the message, the client application should set this property to the value of the **PR_SENDER_ADDRTYPE** ( [PidTagSenderAddressType](pidtagsenderaddresstype-canonical-property.md)) property. It is never changed when the message is forwarded or replied to.
+These properties are examples of the address properties for the author of a message. At first submission of the message, the client application should set this property to the value of the **PR_SENDER_ADDRTYPE** ([PidTagSenderAddressType](pidtagsenderaddresstype-canonical-property.md)) property. It is never changed when the message is forwarded or replied to.
   
 The original author properties allow for preservation of information from outside the local messaging domain. When a message arrives from another messaging domain, such as from the Internet, these properties provide a way to ensure that original information is not lost.
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -51,7 +51,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

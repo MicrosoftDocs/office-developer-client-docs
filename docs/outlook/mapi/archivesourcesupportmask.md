@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies whether Microsoft Office Outlook should scan folders in a store and archive them automatically.
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|
@@ -50,7 +50,7 @@ This property allows store providers to specify whether Outlook should scan fold
   
 By default, this property is not exposed on a store, which means Outlook can scan folders on the store. If the property is exposed, the following are the possible values:
   
-```
+```cpp
 enum { 
  ASM_DEFAULT              = 0, 
  ASM_DO_NOT_ARCHIVE         = 1 << 0x0, 

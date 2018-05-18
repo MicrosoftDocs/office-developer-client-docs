@@ -28,7 +28,7 @@ HRESULT _stdcall GetLoggedOnUser([out, retval] ISocialProfile** result);
     
 ## See also
 
-#### Reference
+
 
 [ISocialSession : IUnknown](isocialsessioniunknown.md)
 

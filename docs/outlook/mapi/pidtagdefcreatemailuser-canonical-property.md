@@ -35,11 +35,11 @@ Contains the template entry identifier for a default messaging user object.
 
 Client applications use this property to create a messaging user object within a container. Support of entry creation is optional for address book containers; those that do not support it are not required to expose this property. 
   
-This property specifies an entry that can appear in the **PR_CREATE_TEMPLATES** ( [PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) property for messaging users. After obtaining the identifier, the client uses it in a call to the [IABContainer::CreateEntry](iabcontainer-createentry.md) method. The entry represents the template for the default messaging user. 
+This property specifies an entry that can appear in the **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) property for messaging users. After obtaining the identifier, the client uses it in a call to the [IABContainer::CreateEntry](iabcontainer-createentry.md) method. The entry represents the template for the default messaging user. 
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -51,7 +51,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

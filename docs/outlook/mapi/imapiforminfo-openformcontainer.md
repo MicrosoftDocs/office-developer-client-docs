@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Returns a pointer to the form container in which a particular form is installed.
   
-```
+```cpp
 HRESULT OpenFormContainer(
   LPMAPIFORMCONTAINER FAR * ppformcontainer
 );
@@ -44,7 +44,7 @@ S_OK
     
 ## See also
 
-#### Reference
+
 
 [IMAPIFormInfo : IMAPIProp](imapiforminfoimapiprop.md)
 

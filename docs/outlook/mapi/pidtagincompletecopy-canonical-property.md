@@ -31,9 +31,9 @@ Contains TRUE if this message is an incomplete copy of another message.
 |Data type:  <br/> |PT_BOOLEAN  <br/> |
 |Area:  <br/> |General Message Properties  <br/> |
    
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -45,7 +45,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

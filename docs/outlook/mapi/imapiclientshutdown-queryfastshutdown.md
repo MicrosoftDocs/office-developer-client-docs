@@ -24,11 +24,11 @@ description: "Last modified: July 23, 2011"
   
 Queries the MAPI subsystem for fast shutdown support that is provided by loaded MAPI providers.
   
-```
+```cpp
 HRESULT QueryFastShutdown ();
 ```
 
-## Return Value
+## Return value
 
 S_OK
   
@@ -44,10 +44,10 @@ Whether the MAPI subsystem supports the MAPI client to do fast shutdown depends 
   
 ## See also
 
-#### Reference
+
 
 [IMAPIClientShutdown : IUnknown](imapiclientshutdowniunknown.md)
-#### Concepts
+
 
 [Client Shutdown in MAPI](client-shutdown-in-mapi.md)
 

@@ -37,9 +37,9 @@ The following characters cannot be used in folder names:
   
 [ ] / \ &amp; ~ ? \* | \< \> " ; : +
   
-## Related Resources
+## Related resources
 
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -51,7 +51,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

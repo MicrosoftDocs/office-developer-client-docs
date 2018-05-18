@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns a pointer to the complete set of verbs that a form uses.
   
-```
+```cpp
 HRESULT CalcVerbSet(
   ULONG ulFlags,
   LPMAPIVERBARRAY FAR * ppMAPIVerbArray
@@ -69,12 +69,12 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [SMAPIVerbArray](smapiverbarray.md)
   
 [IMAPIFormInfo : IMAPIProp](imapiforminfoimapiprop.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

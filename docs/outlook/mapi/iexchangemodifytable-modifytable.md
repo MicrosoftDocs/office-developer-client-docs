@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Updates a MAPI table object.
   
-```
+```cpp
 HRESULT ModifyTable( 
   ULONG ulFlags, 
   LPROWLIST lpMods 
@@ -72,14 +72,14 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IExchangeModifyTable : IUnknown](iexchangemodifytableiunknown.md)
   
 [ROWENTRY](rowentry.md)
   
 [ROWLIST](rowlist.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

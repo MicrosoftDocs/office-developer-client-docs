@@ -20,9 +20,9 @@ description: "Last modified: July 03, 2012"
   
 Identifier for an Outlook item. It contains an entry identifier and other relevant information.
   
-## Quick Info
+## Quick info
 
-```
+```cpp
 struct MEID 
 { 
     BYTE abFlags[4]; 
@@ -57,7 +57,7 @@ struct MEID
     
 ## See also
 
-#### Concepts
+
 
 [About the Replication API](about-the-replication-api.md)
   

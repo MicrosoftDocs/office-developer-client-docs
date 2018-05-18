@@ -1,18 +1,14 @@
 ---
-title: "Remove Custom Form Definition Saved With a Message"
+title: "Remove custom form definition saved with a message"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 6a270f0c-104a-84a1-9adf-aea166f89071
 description: "Last modified: June 25, 2012"
- 
- 
 ---
 
-# Remove Custom Form Definition Saved With a Message
-
-  
+# Remove custom form definition saved with a message
   
 **Applies to**: Outlook 
   
@@ -36,9 +32,9 @@ In addition, you should also remove the [PidLidPropertyDefinitionStream Canonica
   
 If you remove the [PidLidPropertyDefinitionStream Canonical Property](pidlidpropertydefinitionstream-canonical-property.md), then you should also remove the **INSP_PROPDEFINITION** flag from the [PidLidCustomFlag Canonical Property](pidlidcustomflag-canonical-property.md).
   
-The following function,  `RemoveOneOff`, accepts as input parameters a pointer to a message and an indicator whether to remove the [PidLidPropertyDefinitionStream Canonical Property](pidlidpropertydefinitionstream-canonical-property.md). Using the message pointer, it calls [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) to obtain the appropriate property identifiers, and then calls [IMAPIProp::DeleteProps](imapiprop-deleteprops.md) to remove the named properties. It also calls [IMAPIProp::GetProps](imapiprop-getprops.md) to get the [PidLidCustomFlag Canonical Property](pidlidcustomflag-canonical-property.md) and clears the **INSP_ONEOFFFLAGS** flag and **INSP_PROPDEFINITION** flag as appropriate from that property, so that Outlook 2010 and Outlook 2013 will not look for those named properties that have been removed. 
+The following function,  `RemoveOneOff`, accepts as input parameters a pointer to a message and an indicator whether to remove the [PidLidPropertyDefinitionStream Canonical Property](pidlidpropertydefinitionstream-canonical-property.md). Using the message pointer, it calls [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) to obtain the appropriate property identifiers, and then calls [IMAPIProp::DeleteProps](imapiprop-deleteprops.md) to remove the named properties. It also calls [IMAPIProp::GetProps](imapiprop-getprops.md) to get the [PidLidCustomFlag Canonical Property](pidlidcustomflag-canonical-property.md) and clears the **INSP\_ONEOFFFLAGS** flag and **INSP_PROPDEFINITION** flag as appropriate from that property, so that Outlook 2010 and Outlook 2013 will not look for those named properties that have been removed. 
   
-```
+```cpp
 ULONG aulOneOffIDs[] = {dispidFormStorage,  
     dispidPageDirStream, 
     dispidFormPropStream, 
@@ -60,17 +56,17 @@ HRESULT RemoveOneOff(LPMESSAGE lpMessage, BOOL bRemovePropDef)
     ULONG i = 0; 
     for (i = 0 ; i < ulNumOneOffIDs ; i++) 
     { 
-        rgnmid[i].lpguid = (LPGUID)&amp;PSETID_Common; 
+        rgnmid[i].lpguid = (LPGUID)&PSETID_Common; 
         rgnmid[i].ulKind = MNID_ID; 
         rgnmid[i].Kind.lID = aulOneOffIDs[i]; 
-        rgpnmid[i] = &amp;rgnmid[i]; 
+        rgpnmid[i] = &rgnmid[i]; 
     } 
    
     hRes = lpMessage->GetIDsFromNames( 
         ulNumOneOffIDs, 
         rgpnmid, 
         0, 
-        &amp;lpTags); 
+        &lpTags); 
     if (lpTags) 
     { 
         // The last prop is the flag value  
@@ -99,22 +95,22 @@ HRESULT RemoveOneOff(LPMESSAGE lpMessage, BOOL bRemovePropDef)
                 PT_LONG); 
  
             hRes = lpMessage->GetProps( 
-                &amp;pTag, 
+                &pTag, 
                 fMapiUnicode, 
-                &amp;cProp, 
-                &amp;lpCustomFlag); 
-            if (SUCCEEDED(hRes) &amp;&amp;  
-                1 == cProp &amp;&amp; lpCustomFlag &amp;&amp;  
+                &cProp, 
+                &lpCustomFlag); 
+            if (SUCCEEDED(hRes) &&  
+                1 == cProp && lpCustomFlag &&  
                 PT_LONG == PROP_TYPE(lpCustomFlag->ulPropTag)) 
             { 
                 // Clear the INSP_ONEOFFFLAGS bits so Outlook  
                 // doesn't look for the props that have been deleted 
                 lpCustomFlag->Value.l =  
-                    lpCustomFlag->Value.l &amp; ~(INSP_ONEOFFFLAGS); 
+                    lpCustomFlag->Value.l & ~(INSP_ONEOFFFLAGS); 
                 if (bRemovePropDef) 
                 { 
                     lpCustomFlag->Value.l =  
-                        lpCustomFlag->Value.l &amp; ~(INSP_PROPDEFINITION); 
+                        lpCustomFlag->Value.l & ~(INSP_PROPDEFINITION); 
                 } 
                 hRes = lpMessage->SetProps( 
                     1, 
@@ -133,7 +129,5 @@ HRESULT RemoveOneOff(LPMESSAGE lpMessage, BOOL bRemovePropDef)
 
 ## See also
 
-#### Concepts
-
-[MAPI Constants](mapi-constants.md)
+- [MAPI Constants](mapi-constants.md)
 

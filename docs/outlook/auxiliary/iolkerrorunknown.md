@@ -15,7 +15,7 @@ ms.assetid: 9cfbf12c-a71c-092b-d86a-c5585b0f1edb
 
 Provides extra information about the last error.
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|
@@ -23,7 +23,7 @@ Provides extra information about the last error.
 |Provided by:  <br/> |Client  <br/> |
 |Interface identifier:  <br/> |IID_IOlkErrorUnknown  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -35,7 +35,7 @@ This interface provides extra information about an error in [IOlkAccountManager]
   
 ## See also
 
-#### Concepts
+
 
 [About the Account Management API](about-the-account-management-api.md)
 

@@ -35,13 +35,13 @@ Contains a string value for use in a property restriction on an address book con
 
 These properties do not belong to any object; it is furnished by address book providers in [SPropertyRestriction](spropertyrestriction.md) structures. This property contains an ambiguous name resolution (ANR) string that can be tested against an address book container's contents table to find corresponding message recipients. 
   
-Address book providers match the value of **PR_ANR** and associated properties against every entry in the contents table, using a provider-defined matching algorithm. The column or columns that are used in this match are chosen by the provider as part of the algorithm. The **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) column is the most commonly used; the **PR_ACCOUNT** ( [PidTagAccount](pidtagaccount-canonical-property.md)) column is also useful when it contains the user's e-mail name. 
+Address book providers match the value of **PR_ANR** and associated properties against every entry in the contents table, using a provider-defined matching algorithm. The column or columns that are used in this match are chosen by the provider as part of the algorithm. The **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) column is the most commonly used; the **PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md)) column is also useful when it contains the user's e-mail name. 
   
 For more information on ambiguous name resolution, see [Address Book Restrictions](address-book-restrictions.md). 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -51,7 +51,7 @@ For more information on ambiguous name resolution, see [Address Book Restriction
   
 > Specifies the properties and operations for lists of users, contacts, groups, and resources.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -63,12 +63,12 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [IAddrBook::ResolveName](iaddrbook-resolvename.md)
   
 [IABContainer::ResolveNames](iabcontainer-resolvenames.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

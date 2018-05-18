@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Indicates that the system is idle, enabling the transport provider to perform low-priority operations.
   
-```
+```cpp
 HRESULT Idle(
   ULONG ulFlags
 );
@@ -48,7 +48,7 @@ The MAPI spooler periodically calls the **IXPLogon::Idle** method, if requested,
   
 ## See also
 
-#### Reference
+
 
 [IXPProvider::TransportLogon](ixpprovider-transportlogon.md)
   

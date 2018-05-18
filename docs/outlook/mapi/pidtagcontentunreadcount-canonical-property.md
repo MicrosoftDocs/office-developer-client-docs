@@ -35,13 +35,13 @@ Contains the number of unread messages in a folder, as computed by the message s
 
 This property computed by the message store is used for two different, though related, purposes. On a MAPI folder object, it contains the number of messages in a folder. In a heading row in categorized MAPI tables, it contains the number of unread non-associated messages in the category corresponding to that heading row.
   
-This property contains the number of messages in the folder contents table for which the MSGFLAG_READ flag is not set in the **PR_MESSAGE_FLAGS** ( [PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property. The **PR_CONTENT_COUNT** ( [PidTagContentCount](pidtagcontentcount-canonical-property.md)) property contains the total message count for the folder. The **PR_CONTENT_COUNT** and this property are read-only to clients. 
+This property contains the number of messages in the folder contents table for which the MSGFLAG_READ flag is not set in the **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property. The **PR_CONTENT_COUNT** ([PidTagContentCount](pidtagcontentcount-canonical-property.md)) property contains the total message count for the folder. The **PR_CONTENT_COUNT** and this property are read-only to clients. 
   
 Some client applications display the heading row of a category differently depending on the value of this property. For example, a client can display a category that includes unread messages in bold. This property cannot be used as a category and an attempt to do so results in the MAPI_E_INVALID_PARAMETER value being returned from the [IMAPITable::SortTable](imapitable-sorttable.md) method. 
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -55,7 +55,7 @@ Some client applications display the heading row of a category differently depen
   
 > Includes permissible operations for the core table objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -67,7 +67,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

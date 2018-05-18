@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns a list of columns for the table.
   
-```
+```cpp
 HRESULT QueryColumns(
 ULONG ulFlags,
 LPSPropTagArray FAR * lpPropTagArray
@@ -65,7 +65,7 @@ The **IMAPITable::QueryColumns** method can be called to retrieve:
     
 - The complete column set for a table, the columns that are available, but not necessarily part of the current set.
     
-## Notes to Callers
+## Notes to callers
 
 If you do not set the TBL_ALL_COLUMNS flag, **IMAPITable::QueryColumns** returns either a table's default or current column set, depending on whether the table has been affected by a call to **IMAPITable::SetColumns**. **SetColumns** changes the order and selection of columns in a table's column set. 
   
@@ -83,7 +83,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPITable::SetColumns](imapitable-setcolumns.md)
   
@@ -92,7 +92,7 @@ For MFCMAPI sample code, see the following table.
 [SPropTagArray](sproptagarray.md)
   
 [IMAPITable : IUnknown](imapitableiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

@@ -33,11 +33,11 @@ Contains the e-mail address of the sender of the first version of a message, tha
    
 ## Remarks
 
-These properties are examples of the address properties for the original sender of a message. At first submission of the message, the client application should set this property to the value of **PR_SENDER_EMAIL_ADDRESS** ( [PidTagSenderEmailAddress](pidtagsenderemailaddress-canonical-property.md)). It is never changed when the message is forwarded or replied to.
+These properties are examples of the address properties for the original sender of a message. At first submission of the message, the client application should set this property to the value of **PR_SENDER_EMAIL_ADDRESS** ([PidTagSenderEmailAddress](pidtagsenderemailaddress-canonical-property.md)). It is never changed when the message is forwarded or replied to.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -47,7 +47,7 @@ These properties are examples of the address properties for the original sender 
   
 > Specifies the properties and operations that are permissible on e-mail message objects.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

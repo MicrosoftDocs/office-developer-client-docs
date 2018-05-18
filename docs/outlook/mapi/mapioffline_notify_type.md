@@ -20,11 +20,11 @@ description: "Last modified: July 23, 2011"
   
 The MAPIOFFLINE_NOTIFY_TYPE of a notification identifies if a change in the connection state is going to take place, is taking place, or has completed. 
   
-## Quick Info
+## Quick info
 
 See **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**. 
   
-```
+```cpp
 typedef enum { 
     MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE_START = 1,  
     MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE = 2,  
@@ -34,7 +34,7 @@ typedef enum {
 
 ## See also
 
-#### Concepts
+
 
 [About the Offline State API](about-the-offline-state-api.md)
   

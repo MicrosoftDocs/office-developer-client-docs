@@ -36,9 +36,9 @@ Names the most recent user who was the task owner.
 
 Before a client sends a task request, it sets this property to the name of the task assigner. Before a client sends a task acceptance, it sets this property to the name of the task assignee. Before a client sends a task rejection, it sets this property to the name of the task assigner.
   
-## Related Resources
+## Related resources
 
-### Protocol Specifications
+### Protocol specifications
 
 [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -48,7 +48,7 @@ Before a client sends a task request, it sets this property to the name of the t
   
 > Defines several objects that model the electronic equivalent of tasks, task assignments, and task updates.
     
-### Header Files
+### Header files
 
 Mapidefs.h
   
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   
