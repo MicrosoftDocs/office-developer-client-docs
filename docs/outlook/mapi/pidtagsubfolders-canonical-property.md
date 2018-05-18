@@ -35,7 +35,7 @@ Contains TRUE if a folder contains subfolders.
 
 Message stores must supply this property for all folders.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

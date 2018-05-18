@@ -48,7 +48,7 @@ Form viewers call the **IPersistMessage::IsDirty** method to determine whether t
   
 ## See also
 
-#### Reference
+
 
 [IPersistMessage : IUnknown](ipersistmessageiunknown.md)
 

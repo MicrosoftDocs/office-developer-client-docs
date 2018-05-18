@@ -66,7 +66,7 @@ S_OK
   
 > The transport provider successfully indicated the types of recipients that it can handle.
     
-## Notes to Implementers
+## Notes to implementers
 
 The MAPI spooler calls the **IXPLogon::AddressTypes** method immediately after a transport provider returns from a call to the [IXPProvider::TransportLogon](ixpprovider-transportlogon.md) method so the transport provider can indicate what types of recipients it handles. To indicate this, the transport provider should pass back in the  _lpppszAdrTypeArray_ parameter a pointer to an array of pointers to strings, or pass back in the  _lpppUIDArray_ parameter a pointer to an array of pointers to **MAPIUID** structures, or pass values in both parameters. 
   
@@ -86,7 +86,7 @@ A transport provider that does not support outbound messages that are dispatched
   
 ## See also
 
-#### Reference
+
 
 [IXPLogon::TransportLogoff](ixplogon-transportlogoff.md)
   

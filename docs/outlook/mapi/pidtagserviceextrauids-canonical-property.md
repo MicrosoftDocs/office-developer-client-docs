@@ -35,7 +35,7 @@ Contains a list of [MAPIUID](mapiuid.md) structures that identify additional pro
 
 New profile sections can be created for each message filter. When the information about the message service is to be copied to another profile, it is important to copy the additional profile sections for the filters as well. A service provider that uses additional profile sections can store the **MAPIUID** structures of those profile sections in **PR_SERVICE_EXTRA_UIDS**, which allows MAPI to copy the additional message service information.
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

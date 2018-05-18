@@ -42,7 +42,7 @@ A parser must be careful when it reads a stream obtained from **dispidApptTZDefE
   
  **dispidApptTZDefEndDisplay** specifies time zone information for the **dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)) property. The format, constraints, and computation of **dispidApptTZDefEndDisplay** are the same as specified in the **dispidApptTZDefStartDisplay** property. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -62,7 +62,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

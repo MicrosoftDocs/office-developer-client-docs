@@ -35,7 +35,7 @@ Contains the starting date and time of an appointment as managed by a scheduling
 
 Scheduling applications should set both this property and **PR_END_DATE** ([PidTagEndDate](pidtagenddate-canonical-property.md)) properties when sending meeting requests.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

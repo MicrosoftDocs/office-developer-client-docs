@@ -16,7 +16,7 @@ description: "Gets the type and categories information for the specified account
 
 Gets the type and categories information for the specified account.
   
-## Quick Info
+## Quick info
 
 See [IOlkAccount](iolkaccount.md).
   
@@ -71,7 +71,7 @@ After this method returns, you must free  *prgclsidCategory*  by using [IOlkAcco
   
 ## See also
 
-#### Concepts
+
 
 [Constants (Account management API)](constants-account-management-api.md)
   

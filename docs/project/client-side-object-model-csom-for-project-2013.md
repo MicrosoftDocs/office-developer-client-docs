@@ -78,10 +78,10 @@ Also, check out these articles that show how to use the CSOM:
   
 ## See also
 
-#### Concepts
+
 
 [Project Server 2013 architecture](project-server-2013-architecture.md)
-#### Other resources
+
 
 [Choose the right API set in SharePoint 2013](http://msdn.microsoft.com/library/f36645da-77c5-47f1-a2ca-13d4b62b320d%28Office.15%29.aspx)
 

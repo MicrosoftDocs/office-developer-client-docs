@@ -35,7 +35,7 @@ Contains the end time of the publishing range.
 
 The value for this property is computed by adding the value of **PR_FREEBUSY_COUNT_MONTHS** ([PidTagFreeBusyCountMonths](pidtagfreebusycountmonths-canonical-property.md)) to the start date of the publishing range. This value is expressed as the number of minutes since midnight, January 1, 1601 in Coordinated Universal Time (UTC).
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

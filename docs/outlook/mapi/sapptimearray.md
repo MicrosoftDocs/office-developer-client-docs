@@ -53,7 +53,7 @@ The **SAppTimeArray** structure is used to define properties of type PT_MV_APPTI
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

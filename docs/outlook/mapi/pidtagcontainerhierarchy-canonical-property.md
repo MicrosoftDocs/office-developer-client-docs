@@ -47,7 +47,7 @@ To retrieve table contents, a client application should call the [IMAPIContainer
 |**PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md))  <br/> |Attachment table  <br/> |
 |**PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md))  <br/> |Recipient table  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -75,7 +75,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -58,7 +58,7 @@ For a complete list of the single-value and multiple-value property types, see [
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Property Overview](mapi-property-overview.md)
 

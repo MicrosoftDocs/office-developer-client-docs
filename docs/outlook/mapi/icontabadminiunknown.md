@@ -33,7 +33,7 @@ Removes contact folders from the Microsoft Outlook 2010 and Microsoft Outlook 20
 |Interface identifier:  <br/> |IID_IContabAdmin  <br/> |
 |Pointer type:  <br/> ||
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|

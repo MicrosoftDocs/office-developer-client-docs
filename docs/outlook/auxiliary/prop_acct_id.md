@@ -16,7 +16,7 @@ description: "Returns an identifier that uniquely identifies an account within t
 
 Returns an identifier that uniquely identifies an account within the profile in which the account is created.
   
-## Quick Info
+## Quick info
 
 See [IOlkAccount](iolkaccount.md).
   
@@ -35,7 +35,7 @@ This property is different from [PROP_ACCT_MINI_UID](prop_acct_mini_uid.md) in t
   
 ## See also
 
-#### Concepts
+
 
 [About the Account Management API](about-the-account-management-api.md)
   

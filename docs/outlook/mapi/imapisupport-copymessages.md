@@ -95,7 +95,7 @@ The **IMAPISupport::CopyMessages** method is implemented for message store provi
   
 ## See also
 
-#### Reference
+
 
 [IMAPIFolder::CopyMessages](imapifolder-copymessages.md)
   

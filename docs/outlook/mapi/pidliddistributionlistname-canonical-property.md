@@ -36,7 +36,7 @@ Specifies the name of the personal distribution list.
 
 The value of this property should be the same as the value of the **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

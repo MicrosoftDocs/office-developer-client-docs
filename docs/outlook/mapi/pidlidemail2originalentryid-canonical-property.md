@@ -36,7 +36,7 @@ Specifies the **EntryId** of the object that corresponds to the second e-mail ad
 
 The value of this property must be either a one-off **EntryId** for this electronic address or a valid Address Book object **EntryId**.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

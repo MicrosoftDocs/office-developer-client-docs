@@ -25,7 +25,7 @@ thisXDocument.UI.Alert("Application name: " + thisApplication.Name +
    "\nApplication version: " + thisApplication.Version);
 ```
 
-```VB.net
+```vb
 thisXDocument.UI.Alert("Application name: " &amp; thisApplication.Name &amp; _
    vbNewLine &amp; "Application version: " &amp; thisApplication.Version)
 ```
@@ -53,7 +53,7 @@ thisXDocument.UI.Alert("\nIsDirty: " + thisXDocument.IsDirty +
 thisXDocument.UI.Alert(thisXDocument.DOM.xml);
 ```
 
-```VB.net
+```vb
 thisXDocument.UI.Alert("IsDirty: " &amp; thisXDocument.IsDirty &amp; vbNewLine &amp; _
    "IsDOMReadOnly: " &amp; thisXDocument.IsDOMReadOnly &amp; vbNewLine &amp; _
    "IsNew: " &amp; thisXDocument.IsNew &amp; vbNewLine &amp; _
@@ -78,7 +78,7 @@ thisXDocument.UI.Alert("PackageURL: " +
 thisXDocument.UI.Alert(thisXDocument.Solution.DOM.xml);
 ```
 
-```VB.net
+```vb
 thisXDocument.UI.Alert("PackageURL: " &amp; _
    thisXDocument.Solution.PackageURL &amp; vbNewLine &amp; _
    "URI: " &amp; thisXDocument.Solution.URI &amp; vbNewLine &amp; _

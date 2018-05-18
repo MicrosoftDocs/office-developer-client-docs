@@ -36,7 +36,7 @@ Specifies the entry ID of the delegator's store.
 
 This property should be set on meeting objects which have been created or updated by a delegate.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

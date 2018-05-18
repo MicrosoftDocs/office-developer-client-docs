@@ -43,7 +43,7 @@ SUBMITFLAG_PREPROCESS
   
 > The message needs preprocessing. When the MAPI spooler is done preprocessing this message, it should call the [IMessage::SubmitMessage](imessage-submitmessage.md) method. The message store provider recognizes that the spooler, rather than the client application, has called **SubmitMessage**, clears the flag, and continues message submission.
     
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -67,10 +67,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [IMsgStore::SetLockState](imsgstore-setlockstate.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

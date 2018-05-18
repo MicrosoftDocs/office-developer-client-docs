@@ -35,7 +35,7 @@ Contains a list of entry identifiers for users who have authorized the sending o
 
 The message store does not maintain this property.
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

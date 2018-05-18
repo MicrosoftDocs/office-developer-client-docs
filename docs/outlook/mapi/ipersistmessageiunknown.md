@@ -33,7 +33,7 @@ Enables form viewers to handle the storage of a form and to transition between t
 |Interface identifier:  <br/> |IID_IPersistMessage  <br/> |
 |Pointer type:  <br/> |LPPERSISTMESSAGE  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -54,7 +54,7 @@ All forms are required to implement the **IPersistMessage** interface.
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
 

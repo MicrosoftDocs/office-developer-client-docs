@@ -37,7 +37,7 @@ These properties should be implemented by all address book providers. They conta
   
 A client application can use this property to prevent alteration or "spoofing" of entries. An example of spoofing is transmitting John Doe as John (What a Guy) Doe.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -73,7 +73,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

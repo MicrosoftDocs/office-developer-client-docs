@@ -44,10 +44,10 @@ To avoid data loss from the fast shutdown of a MAPI client, MAPI clients should 
   
 ## See also
 
-#### Reference
+
 
 [IMAPIClientShutdown : IUnknown](imapiclientshutdowniunknown.md)
-#### Concepts
+
 
 [Client Shutdown in MAPI](client-shutdown-in-mapi.md)
 

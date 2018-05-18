@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Opens an offline object based on a given profile.
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|
@@ -84,12 +84,12 @@ When using [GetProcAddress](http://msdn.microsoft.com/en-us/library/ms683212.asp
   
 ## See also
 
-#### Reference
+
 
 [IMAPIOffline : IUnknown](imapiofflineiunknown.md)
   
 [IMAPIOfflineMgr : IMAPIOffline](imapiofflinemgrimapioffline.md)
-#### Concepts
+
 
 [About the Offline State API](about-the-offline-state-api.md)
   

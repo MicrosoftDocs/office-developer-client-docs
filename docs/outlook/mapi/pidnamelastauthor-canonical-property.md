@@ -32,7 +32,7 @@ Specifies the most recent author of the attached file.
 |Data type:  <br/> |PT_UNICODE  <br/> |
 |Area:  <br/> |Common  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -52,7 +52,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

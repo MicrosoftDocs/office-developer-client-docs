@@ -123,7 +123,7 @@ public void FormEvents_Sign(object sender, SignEventArgs e)
 }
 ```
 
-```VB.net
+```vb
 Public Sub FormEvents_Sign(ByVal sender As Object, _
    ByVal e As SignEventArgs)
    ' Add a new Signature object to the SignedDataBlockCollection.

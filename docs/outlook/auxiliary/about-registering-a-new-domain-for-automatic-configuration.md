@@ -37,7 +37,7 @@ If the message service is currently registered in Mapisvc.inf and the service pr
   
 ## See also
 
-#### Other resources
+
 
 [File Format of MapiSvc.inf](http://msdn.microsoft.com/library/b48eda17-83a8-4dc4-85c8-4ca827d13d25%28Office.15%29.aspx)
 

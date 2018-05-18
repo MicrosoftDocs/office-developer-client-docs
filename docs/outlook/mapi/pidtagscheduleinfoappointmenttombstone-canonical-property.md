@@ -53,7 +53,7 @@ The header is followed by **RecordsCount** entries of 32 bit values defined as:
 |GlobalObjectId  <br/> |The value of the **LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)) property of the meeting this record represents.  <br/> |
 |UserName  <br/> |The first two bytes are the length of the PT_STRING8 string that follows.  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -77,7 +77,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

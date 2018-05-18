@@ -37,7 +37,7 @@ This property is used to request the correlation of incoming reports with the or
   
  **PR_CORRELATE** should be used with messaging systems that support correlation by MTS identifier, such as X.400. 
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -51,7 +51,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

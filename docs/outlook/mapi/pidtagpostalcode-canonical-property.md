@@ -37,7 +37,7 @@ These properties provide identification and access information for a recipient. 
   
 The postal code is specific to the recipient's country/region. In the United States of America, this property contains the ZIP code.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -65,7 +65,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

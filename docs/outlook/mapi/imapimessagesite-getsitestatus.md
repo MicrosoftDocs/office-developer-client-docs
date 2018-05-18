@@ -74,7 +74,7 @@ S_OK
 
 Form objects call the **IMAPIMessageSite::GetSiteStatus** method to obtain the message site object's capabilities for the current message. The flags returned in the  _lpulStatus_ parameter provide information about the message site. Typically, a form enables or disables menu commands, depending on information the flags provide about the capabilities of the message site implementation. If a new message is loaded into a form by the [IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md) method or the [IPersistMessage::Load](ipersistmessage-load.md) method, the status flags must be checked. Some message site objects, especially read-only objects, do not allow messages to be saved or deleted. 
   
-## Notes to Implementers
+## Notes to implementers
 
 The **IMAPIMessageSite::GetSiteStatus** method may require the client application to do some calculation to determine what operations can or cannot be performed on the current message. Typically, that involves looking at the status row for the current message's message store provider, or querying the store provider to determine which actions the client application can perform by using the message store. For example, to determine whether to return the MAPI_DELETE_IS_MOVE flag, check the message store object's **PR_IPM_WASTEBASKET_ENTRYID** ([PidTagIpmWastebasketEntryId](pidtagipmwastebasketentryid-canonical-property.md)) property to see whether there is a **Deleted Items** folder in the message store. 
   
@@ -90,7 +90,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IPersistMessage::Load](ipersistmessage-load.md)
   
@@ -99,7 +99,7 @@ For MFCMAPI sample code, see the following table.
 [PidTagIpmWastebasketEntryId Canonical Property](pidtagipmwastebasketentryid-canonical-property.md)
   
 [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
   

@@ -35,7 +35,7 @@ Contains TRUE if a message sender requests a nondelivery report for a particular
 
 This property is used to direct the messaging system in handling undelivered messages. In this case, the message must also furnish the **PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED** ([PidTagOriginatorDeliveryReportRequested](pidtagoriginatordeliveryreportrequested-canonical-property.md)) property set to FALSE.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -55,7 +55,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

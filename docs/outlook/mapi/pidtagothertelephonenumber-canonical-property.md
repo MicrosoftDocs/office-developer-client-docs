@@ -37,7 +37,7 @@ These properties provide identification and access information for a recipient. 
   
 These properties are used for a telephone number other than at the recipient's place of business, home, or office.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -65,7 +65,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

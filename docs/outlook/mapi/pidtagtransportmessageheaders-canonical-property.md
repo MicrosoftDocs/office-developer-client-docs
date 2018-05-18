@@ -37,7 +37,7 @@ The transport provider can generate the message header information for inbound m
   
 These properties offer an alternative to either discarding the transport message header information or prepending it to the message text. The client can choose whether or not to display the information.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -65,10 +65,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagBody Canonical Property](pidtagbody-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

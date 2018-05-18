@@ -31,7 +31,7 @@ Indicates whether an attachment is hidden from the end user.
 |Data type:  <br/> |PT_BOOLEAN  <br/> |
 |Area:  <br/> |Message attachment  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -55,7 +55,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

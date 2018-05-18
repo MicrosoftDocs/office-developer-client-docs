@@ -41,7 +41,7 @@ The subject properties are typically small strings of fewer than 256 characters,
   
 For a report, this property contains the original message's subject preceded by a string indicating what has happened to the message.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -65,7 +65,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

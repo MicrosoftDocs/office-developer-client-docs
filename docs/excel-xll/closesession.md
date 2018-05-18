@@ -34,10 +34,10 @@ int CloseSession(int SessionId)
   
 ## See also
 
-#### Reference
+
 
 [OpenSession](opensession.md)
-#### Concepts
+
 
 [Excel Cluster Connector Functions](excel-cluster-connector-functions.md)
 

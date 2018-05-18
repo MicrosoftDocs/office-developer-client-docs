@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
   
 Information for uploading an Outlook item during the [upload message state](upload-message-state.md).
   
-## Quick Info
+## Quick info
 
 ```cpp
 struct UPMSG 

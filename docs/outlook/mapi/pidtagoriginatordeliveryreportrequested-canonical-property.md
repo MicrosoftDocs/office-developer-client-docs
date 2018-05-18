@@ -37,7 +37,7 @@ This property is used to direct the messaging system in handling delivered messa
   
 Setting the **PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED** property on a message is a way to request delivery status reports for all recipients. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -57,7 +57,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

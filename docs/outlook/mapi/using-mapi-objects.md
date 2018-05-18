@@ -38,7 +38,7 @@ MAPI provides several methods and API functions that return pointers to interfac
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Object and Interface Overview](mapi-object-and-interface-overview.md)
 

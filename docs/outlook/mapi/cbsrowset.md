@@ -41,10 +41,10 @@ CbSRowSet (_lprowset)
     
 ## See also
 
-#### Reference
+
 
 [SRowSet](srowset.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

@@ -40,7 +40,7 @@ If the client allows a user to reorder tasks within the consolidated task list v
   
 When this property is used to sort objects and the sort results in a tie, the **dispidToDoSubOrdinal** ([PidLidToDoSubOrdinal](pidlidtodosubordinal-canonical-property.md)) property is used as a tie breaker.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -60,10 +60,10 @@ Mapidefs.h
     
 ## See also
 
-#### Reference
+
 
 [PidLidToDoSubOrdinal Canonical Property](pidlidtodosubordinal-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

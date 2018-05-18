@@ -34,7 +34,7 @@ MessageBox.Show("Main data source XML: " +
    myNavigator.OuterXml.ToString());
 ```
 
-```VB.net
+```vb
 Dim myNavigator As XPathNavigator  = _
    Me.CreateNavigator()
 MessageBox.Show("Main data source XML: " &amp; _
@@ -65,7 +65,7 @@ XPathNavigator emailAlias =
 emailAlias.SetValue(this.Application.User.UserName.ToString());
 ```
 
-```VB.net
+```vb
 Dim emailAlias As XPathNavigator = _
    Me.CreateNavigator().SelectSingleNode( _
       "/my:myFields/my:EmailAlias", NamespaceManager)
@@ -105,7 +105,7 @@ public void DeleteNil(XPathNavigator node)
 }
 ```
 
-```VB.net
+```vb
 Public Sub DeleteNil(ByVal node As XPathNavigator)
    If (node.MoveToAttribute( _
       "nil", "http://www.w3.org/2001/XMLSchema-instance")) Then
@@ -130,7 +130,7 @@ string curDate = DateTime.Today.Year + "-" + DateTime.Today.Month +
 myDate.SetValue(strCurDate);
 ```
 
-```VB.net
+```vb
 ' Access the main data source.
 Dim myForm As XPathNavigator = Me.CreateNavigator()
 ' Select the field.
@@ -166,7 +166,7 @@ while (nodes.MoveNext())
 MessageBox.Show(message);
 ```
 
-```VB.net
+```vb
 Dim message As String = String.Empty
 Dim root As XPathNavigator = Me.CreateNavigator()
 Dim nodes As XPathNodeIterator = _
@@ -193,7 +193,7 @@ while (nodes.MoveNext())
 }
 ```
 
-```VB.net
+```vb
 Dim root As XPathNavigator = Me.CreateNavigator()
 Dim nodes As XPathNodeIterator = _
    root.Select("/my:myFields/my:group1/my:field1", NamespaceManager)
@@ -218,7 +218,7 @@ MessageBox.Show("External data source XML: " +
    myNavigator.OuterXml.ToString());
 ```
 
-```VB.net
+```vb
 Dim myNavigator As XPathNavigator  = _
    Me.DataSources("CityList").CreateNavigator()
 MessageBox.Show("External data source XML: " &amp; _
@@ -308,7 +308,7 @@ foreach (XPathNavigator selectedNode in selectedNodes)
 }
 ```
 
-```VB.net
+```vb
 ' Create XPathNavigator and specify XPath for nodes.
 Dim repeatingTableRow1 As XPathNavigator  = _
    Me.CreateNavigator().SelectSingleNode( _

@@ -124,7 +124,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [ADRLIST](adrlist.md)
   
@@ -133,7 +133,7 @@ For MFCMAPI sample code, see the following table.
 [IAddrBook::Address](iaddrbook-address.md)
   
 [IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

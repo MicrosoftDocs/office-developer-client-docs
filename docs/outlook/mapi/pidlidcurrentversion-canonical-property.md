@@ -32,7 +32,7 @@ Contains a long that represents the build number of the Outlook application for 
 |Data type:  <br/> |PT_LONG  <br/> |
 |Area:  <br/> |General messaging  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -60,7 +60,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

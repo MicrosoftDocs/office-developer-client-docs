@@ -105,7 +105,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IConverterSession : IUnknown](iconvertersessioniunknown.md)
   
@@ -126,7 +126,7 @@ For MFCMAPI sample code, see the following table.
 [PidTagMessageEditorFormat Canonical Property](pidtagmessageeditorformat-canonical-property.md)
   
 [PidLidUseTnef Canonical Property](pidlidusetnef-canonical-property.md)
-#### Concepts
+
 
 [MAPI Constants](mapi-constants.md)
 

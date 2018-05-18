@@ -35,7 +35,7 @@ Contains a value that indicates the language in which the messaging user is writ
 
 The string contains a single two-character country/region code. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -63,10 +63,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagLanguages Canonical Property](pidtaglanguages-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

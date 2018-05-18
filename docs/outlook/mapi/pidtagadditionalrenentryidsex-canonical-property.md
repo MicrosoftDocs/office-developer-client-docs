@@ -78,7 +78,7 @@ If the **PersistBlockType** value is not one of the ones defined here, the **Per
    
 If the **PersistElementType** value is not one of the ones defined here, the **PersistElement** block is ignored and processing is continued until either an ELEMENT_SENTINEL **ElementID** is processed or the end of the stream is reached. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -110,7 +110,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Property Overview](mapi-property-overview.md)
   

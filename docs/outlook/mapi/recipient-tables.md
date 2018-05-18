@@ -60,7 +60,7 @@ Any message store provider that supports message transmission — as indicated b
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Tables](mapi-tables.md)
 

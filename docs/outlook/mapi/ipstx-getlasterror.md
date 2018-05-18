@@ -48,7 +48,7 @@ HRESULT GetLastError(
     
 ## See also
 
-#### Reference
+
 
 [IPSTX::EmulateSpooler](ipstx-emulatespooler.md)
   

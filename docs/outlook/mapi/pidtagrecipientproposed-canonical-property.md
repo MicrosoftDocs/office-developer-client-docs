@@ -35,7 +35,7 @@ Indicates whether a meeting attendee has responded.
 
 A value of TRUE for this property indicates that the attendee proposed a new date and/or time. A value of FALSE, or the absence of this property, means either that the attendee has not yet responded, or the most recent response from the attendee did not include a new date/ time proposal. This value must not be TRUE for attendees in a recurring series.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

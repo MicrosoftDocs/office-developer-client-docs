@@ -41,7 +41,7 @@ When two objects have the same **PR_MAPPING_SIGNATURE** value, the client does n
   
 For more information on named properties and mapping of names and identifiers, see [MAPI Named Properties](mapi-named-properties.md). 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -65,10 +65,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [MAPINAMEID](mapinameid.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

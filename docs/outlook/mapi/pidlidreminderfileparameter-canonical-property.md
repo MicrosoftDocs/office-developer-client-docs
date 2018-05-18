@@ -36,7 +36,7 @@ Specifies the filename of the sound that a client should play when the reminder 
 
 If this property is not present, the client may use a default value.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

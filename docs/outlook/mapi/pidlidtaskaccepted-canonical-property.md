@@ -36,7 +36,7 @@ Indicates whether a task assignee has replied to a task request.
 
 The client sets this property to FALSE for a new task, or the client sets this property to TRUE when a task is either accepted or rejected. If the property is left unset, a value of FALSE is assumed.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

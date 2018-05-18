@@ -37,7 +37,7 @@ This property contains a unique identifier for the control. This identifier shou
   
 This property is used in notifications. For example, notifications sent on the display table must set this property to uniquely identify the control to update. 
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -51,7 +51,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

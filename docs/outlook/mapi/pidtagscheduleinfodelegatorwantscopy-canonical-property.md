@@ -35,7 +35,7 @@ Contains TRUE if the delegator wants to receive copies of the meeting-related ob
 
 This property must be set in the delegate information object.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -63,7 +63,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

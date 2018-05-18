@@ -43,7 +43,7 @@ Clients should use a universal naming convention (UNC) in most cases when the fi
   
 MAPI works only with paths and filenames in the ANSI character set. Client applications that use paths and filenames in an OEM character set must convert them to ANSI before calling MAPI. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -67,7 +67,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

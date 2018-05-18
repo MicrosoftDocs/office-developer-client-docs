@@ -65,7 +65,7 @@ HANDLE          *phSyncDoneEvent;
     
 ## See also
 
-#### Reference
+
 
 [IMAPISyncProgressCallback : IUnknown](imapisyncprogresscallbackiunknown.md)
   

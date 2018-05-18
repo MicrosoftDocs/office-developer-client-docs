@@ -70,7 +70,7 @@ As it is counting, **ScCountProps** validates the memory associated with the arr
   
 ## See also
 
-#### Reference
+
 
 [PropCopyMore](propcopymore.md)
 

@@ -60,7 +60,7 @@ This section describes the Outlook Social Connector (OSC) typical calling sequen
   
 ## See also
 
-#### Concepts
+
 
 [XML for Capabilities](xml-for-capabilities.md)
 

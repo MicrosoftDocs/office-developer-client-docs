@@ -50,7 +50,7 @@ Generally, **Unadvise** calls the advise sink's [IUnknown::Release](http://msdn.
   
 ## See also
 
-#### Reference
+
 
 [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md)
   

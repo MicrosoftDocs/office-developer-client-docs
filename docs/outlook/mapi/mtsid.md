@@ -56,12 +56,12 @@ An MTS identifier has the same format as a MAPI entry identifier or a binary pro
   
 ## See also
 
-#### Reference
+
 
 [FLATENTRY](flatentry.md)
   
 [FLATMTSIDLIST](flatmtsidlist.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

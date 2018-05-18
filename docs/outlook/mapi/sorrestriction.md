@@ -53,10 +53,10 @@ For more information about the **SOrRestriction** structure, see [About Restrict
   
 ## See also
 
-#### Reference
+
 
 [SRestriction](srestriction.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

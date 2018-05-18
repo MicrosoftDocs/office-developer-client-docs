@@ -48,7 +48,7 @@ HRESULT GetLastError(
     
 ## See also
 
-#### Reference
+
 
 [IOSTX::InitSync](iostx-initsync.md)
   
@@ -63,7 +63,7 @@ HRESULT GetLastError(
 [IOSTX::SyncHdrEnd](iostx-synchdrend.md)
   
 [IOSTX : IUnknown](iostxiunknown.md)
-#### Concepts
+
 
 [MAPI Constants](mapi-constants.md)
 

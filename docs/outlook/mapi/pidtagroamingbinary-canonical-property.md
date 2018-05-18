@@ -31,7 +31,7 @@ Contains a message stream associated with a subclass of the **IPM.Configuration*
 
 This property contains the data stream associated with an **IPM.Configuration** message class message. The format of the stream depends on the message class. For instance, a message of class type **IPM.Configuration.Autocomplete** would be formatted as an [Autocomplete Stream](autocomplete-stream.md).
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -55,7 +55,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

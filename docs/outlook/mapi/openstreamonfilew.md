@@ -111,7 +111,7 @@ When the calling client application or service provider is finished with the **I
   
 MAPI uses the functions pointed to by  _lpAllocateBuffer_ and  _lpFreeBuffer_ for most memory allocation and deallocation, in particular to allocate memory for use by client applications when calling object interfaces such as [IMAPIProp::GetProps](imapiprop-getprops.md) and [IMAPITable::QueryRows](imapitable-queryrows.md). 
   
-## Notes to Callers
+## Notes to callers
 
 The SOF_UNIQUEFILENAME flag is used to create a temporary file with a name unique to the messaging system. If this flag is set, the  _lpszFileName_ parameter specifes the path for the temporary file, and the  _lpszPrefix_ parameter contains the prefix characters of the filename. The constructed filename is <prefix>HHHH.TMP, where HHHH is a hexadecimal number. If  _lpszFileName_ is NULL, the file will be created in the temporary file directory that is returned from the Windows function **GetTempPath**, or the current directory if no temporary file directory has been designated.
   
@@ -119,7 +119,7 @@ If the SOF_UNIQUEFILENAME flag is not set,  _lpszPrefix_ is ignored, and  _lpszF
   
 ## See also
 
-#### Reference
+
 
 [OpenStreamOnFile](openstreamonfile.md)
 

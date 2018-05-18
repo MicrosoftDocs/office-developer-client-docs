@@ -35,7 +35,7 @@ Contains TRUE if a message transfer agent (MTA) is prohibited from making messag
 
 An example of the type of conversion being prohibited is the "lossy" mapping from Unicode (two bytes per character) to a single-byte character set. 
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

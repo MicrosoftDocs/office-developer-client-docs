@@ -64,7 +64,7 @@ MAPI_E_BAD_CHARWIDTH
 
 Address book providers implement the **GetLastError** method to supply information about a prior method call that failed. Callers can provide their users with detailed information about the error by including the data from the **MAPIERROR** structure in a dialog box. 
   
-## Notes to Callers
+## Notes to callers
 
 You can use the **MAPIERROR** structure pointed to by the  _lppMAPIError_ parameter if the address book provider supplies the structure and only if **GetLastError** returns S_OK. Sometimes the address book provider cannot determine what the last error was or has nothing more to report about the error. In this situation, the address book provider returns a pointer to NULL in  _lppMAPIError_ instead. 
   
@@ -72,7 +72,7 @@ For more information about the **GetLastError** method, see [MAPI Extended Error
   
 ## See also
 
-#### Reference
+
 
 [MAPIERROR](mapierror.md)
   

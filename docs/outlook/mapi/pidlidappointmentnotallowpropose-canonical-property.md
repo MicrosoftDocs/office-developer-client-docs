@@ -36,7 +36,7 @@ Indicates whether attendees are not allowed to propose a new date/time for the m
 
 A value of FALSE, or the absence of this property indicates that the attendees are allowed to propose a new date/time.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

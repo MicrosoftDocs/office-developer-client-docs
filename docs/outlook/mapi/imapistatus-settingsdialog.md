@@ -59,7 +59,7 @@ MAPI_E_NO_SUPPORT
 
 The **IMAPIStatus::SettingsDialog** method displays a configuration property sheet. All service providers should support the **SettingsDialog** method, but it is not required. Service providers can implement their own property sheets or use the implementation supplied in the support object's [IMAPISupport::DoConfigPropsheet](imapisupport-doconfigpropsheet.md) method. **DoConfigPropsheet** builds a read/write property sheet. 
   
-## Notes to Implementers
+## Notes to implementers
 
 If a remote transport provider has any settings, it should do the following:
   
@@ -73,7 +73,7 @@ If a remote transport provider has any settings, it should do the following:
     
 - Return S_OK, or any error values returned during the preceding steps.
     
-## Notes to Callers
+## Notes to callers
 
 You can use the property sheet displayed through **SettingsDialog** to perform a variety of tasks, such as the following: 
   
@@ -93,7 +93,7 @@ Because a user interface is always involved in this operation, only interactive 
   
 ## See also
 
-#### Reference
+
 
 [IMAPISupport::DoConfigPropsheet](imapisupport-doconfigpropsheet.md)
   

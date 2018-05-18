@@ -64,7 +64,7 @@ MAPI_E_CALL_FAILED
     
 ## See also
 
-#### Reference
+
 
 [FBinFromHex](fbinfromhex.md)
 

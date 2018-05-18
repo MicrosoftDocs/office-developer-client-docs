@@ -16,7 +16,7 @@ description: "Registers a client with the account manager for notifications rega
 
 Registers a client with the account manager for notifications regarding all accounts.
   
-## Quick Info
+## Quick info
 
 See [IOlkAccountManager](iolkaccountmanager.md).
   
@@ -47,7 +47,7 @@ HRESULT IOlkAccountManager::Advise (
    
 ## See also
 
-#### Concepts
+
 
 [Constants (Account management API)](constants-account-management-api.md)
   

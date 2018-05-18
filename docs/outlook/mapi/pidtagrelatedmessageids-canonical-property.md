@@ -35,7 +35,7 @@ Contains a list of identifiers for messages to which a message is related.
 
 The identifiers use the same specific construction rules as are used for the **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) property.
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

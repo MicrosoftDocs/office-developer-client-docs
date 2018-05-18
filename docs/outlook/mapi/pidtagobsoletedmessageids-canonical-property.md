@@ -35,7 +35,7 @@ Contains the identifiers of messages that this message supersedes.
 
 The identifiers contained in this property are standard search keys using the format of the **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) property.
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

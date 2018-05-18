@@ -37,7 +37,7 @@ These properties give service providers and MAPI the opportunity to supply speci
   
 The string is generated on the same side of the remote procedure call as the MAPI spooler; it travels through shared memory rather than being marshaled across a process boundary.
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -51,10 +51,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagStatusCode Canonical Property](pidtagstatuscode-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

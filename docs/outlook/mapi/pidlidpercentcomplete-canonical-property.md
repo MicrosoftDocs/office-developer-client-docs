@@ -38,7 +38,7 @@ The value of this property must be a number greater than or equal to 0.0 and les
   
 For a time-flagged message object, the value of this property must be set to 1.0 if the object is flagged completed, and should be set to 0.0 otherwise.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -74,7 +74,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

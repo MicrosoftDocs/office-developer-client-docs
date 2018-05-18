@@ -49,7 +49,7 @@ After this procedure is performed, you can debug your project as described in [P
   
 ## See also
 
-#### Concepts
+
 
 [Preview and Debug InfoPath Form Templates with Code](how-to-preview-and-debug-infopath-form-templates-with-code.md)
   

@@ -16,7 +16,7 @@ description: "Gets the next account in the enumerator."
 
 Gets the next account in the enumerator.
   
-## Quick Info
+## Quick info
 
 See [IOlkEnum](iolkenum.md).
   
@@ -46,7 +46,7 @@ The interface specified by  *ppunk*  inherits from **IUnknown**. The client can 
   
 ## See also
 
-#### Concepts
+
 
 [Constants (Account management API)](constants-account-management-api.md)
   

@@ -53,10 +53,10 @@ For more information about PT_MV_SHORT and other property types, see [Property T
   
 ## See also
 
-#### Reference
+
 
 [SPropValue](spropvalue.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

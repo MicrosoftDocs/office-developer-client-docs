@@ -70,7 +70,7 @@ A client application can sometimes release an object without releasing one or mo
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Service Providers](mapi-service-providers.md)
 

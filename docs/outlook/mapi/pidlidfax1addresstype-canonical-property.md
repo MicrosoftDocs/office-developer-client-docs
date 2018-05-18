@@ -36,7 +36,7 @@ Specifies the address type for the business fax address for a contact.
 
 This property, if present, must be set to "FAX".
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

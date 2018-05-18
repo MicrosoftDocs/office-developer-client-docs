@@ -67,7 +67,7 @@ Do not use this method. MAPI does not support passwords for profiles.
   
 ## See also
 
-#### Reference
+
 
 [IProfAdmin : IUnknown](iprofadminiunknown.md)
 

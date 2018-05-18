@@ -110,7 +110,7 @@ The last example is of importance to add-in developers. You should consider the 
   
 ## See also
 
-#### Concepts
+
 
 [Excel Programming Concepts](excel-programming-concepts.md)
   

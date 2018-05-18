@@ -35,7 +35,7 @@ Contains the entry identifier of the address book container to display first.
 
 Do not use this property. It is reserved for use by MAPI.
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,10 +49,10 @@ Mapidefs.h
     
 ## See also
 
-#### Reference
+
 
 [IAddrBook::SetDefaultDir](iaddrbook-setdefaultdir.md)
-#### Concepts
+
 
 [MAPI Canonical Properties](mapi-canonical-properties.md)
   

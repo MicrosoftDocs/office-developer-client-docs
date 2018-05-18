@@ -116,7 +116,7 @@ The **IMsgStore::Advise** method establishes a connection between the caller's a
   
 To send a notification, either the message store provider or MAPI calls the registered advise sink's [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) method. One of the parameters to **OnNotify**, a notification structure, contains information that describes the specific event.
   
-## Notes to Implementers
+## Notes to implementers
 
 You can support notification with or without help from MAPI. MAPI has three support object methods for helping service providers implement notification: [IMAPISupport::Subscribe](imapisupport-subscribe.md), [IMAPISupport::Unsubscribe](imapisupport-unsubscribe.md), and [IMAPISupport::Notify](imapisupport-notify.md). If you elect to use the MAPI support methods, call **Subscribe** when your **Advise** method is called and release the  _lpAdviseSink_ pointer. 
   
@@ -124,7 +124,7 @@ If you elect to support notification yourself, call the [IUnknown::AddRef](http:
   
 Regardless of how you support notification, assign a nonzero connection number to the notification registration and return it in the  _lpulConnection_ parameter. Do not release this connection number until **Unadvise** has been called and has completed. 
   
-## Notes to Callers
+## Notes to callers
 
 On systems that support multiple threads of execution, the call to **OnNotify** can also occur on any thread at any time. If you must be assured that notifications occur only at a particular time on a particular thread, call the [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) function to generate the advise sink object that you pass to **Advise**. 
   
@@ -144,7 +144,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [HrThisThreadAdviseSink](hrthisthreadadvisesink.md)
   
@@ -155,7 +155,7 @@ For MFCMAPI sample code, see the following table.
 [NOTIFICATION](notification.md)
   
 [IMsgStore : IMAPIProp](imsgstoreimapiprop.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

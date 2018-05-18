@@ -35,7 +35,7 @@ Contains information about the route covered by a delivered message.
 
 This property is used when a message is autoforwarded by an automatic agent.
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

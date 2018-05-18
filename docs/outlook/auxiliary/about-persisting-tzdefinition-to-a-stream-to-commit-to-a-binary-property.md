@@ -61,7 +61,7 @@ Note that the [TZREG](tzreg.md) structure is persisted here differently than whe
   
 ## See also
 
-#### Concepts
+
 
 [Constants (Outlook exported APIs)](constants-outlook-exported-apis.md)
   

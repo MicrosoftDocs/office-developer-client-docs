@@ -32,7 +32,7 @@ Contains TRUE if the distribution list is also a departmental group. This proper
 |Data type:  <br/> |PT_BOOLEAN  <br/> |
 |Area:  <br/> |Exchange Address Book  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -52,7 +52,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

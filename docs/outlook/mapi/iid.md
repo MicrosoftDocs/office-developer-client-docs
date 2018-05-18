@@ -47,10 +47,10 @@ All of the specific **IID** structures for the MAPI interfaces are defined in th
   
 ## See also
 
-#### Reference
+
 
 [GUID](guid.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

@@ -16,7 +16,7 @@ description: "This member is a placeholder and is not supported."
 
 This member is a placeholder and is not supported.
   
-## Quick Info
+## Quick info
 
 See [IFreeBusyData](ifreebusydata.md).
   

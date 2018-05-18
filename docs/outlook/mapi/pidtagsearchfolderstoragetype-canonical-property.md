@@ -35,7 +35,7 @@ Contains flags that specify the Binary Large Object (BLOB) data that appears in 
 
 The definitions of the flags are specified in [[MS-OXOSRCH]](http://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx). Search for **PR_WB_SF_STORAGE_TYPE**.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

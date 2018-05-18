@@ -26,7 +26,7 @@ Because an indexer cannot always index everything before a shutdown occurs in a 
   
 ## See also
 
-#### Concepts
+
 
 [About the Store API](about-the-store-api.md)
   

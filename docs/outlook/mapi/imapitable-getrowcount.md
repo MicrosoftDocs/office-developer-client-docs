@@ -63,11 +63,11 @@ MAPI_W_APPROX_COUNT
 
 The **IMAPITable::GetRowCount** method retrieves the total number of rows in a table. 
   
-## Notes to Implementers
+## Notes to implementers
 
 If you cannot determine the table's exact row count, return MAPI_W_APPROX_COUNT and an approximate row count in the contents of the  _lpulCount_ parameter. 
   
-## Notes to Callers
+## Notes to callers
 
 Use **GetRowCount** to find out how many rows a table holds before making a call to the [IMAPITable::QueryRows](imapitable-queryrows.md) method to retrieve the data. If there are less than twenty rows in the table, it is safe to call **QueryPosition** to retrieve the whole table. If there are more than twenty rows in the table, consider making multiple calls to **QueryPosition** and limit the number of rows retrieved in each call. 
   
@@ -85,7 +85,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPITable::GetStatus](imapitable-getstatus.md)
   
@@ -96,7 +96,7 @@ For MFCMAPI sample code, see the following table.
 [IMAPITable::WaitForCompletion](imapitable-waitforcompletion.md)
   
 [IMAPITable : IUnknown](imapitableiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

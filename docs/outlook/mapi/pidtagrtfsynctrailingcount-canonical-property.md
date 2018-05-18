@@ -35,7 +35,7 @@ Contains a count of the ignorable characters that appear after the significant c
 
 This property is a Rich Text Format (RFT) auxiliary property. These properties are used by the [RTFSync](rtfsync.md) function and are not intended to be used directly by client applications. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

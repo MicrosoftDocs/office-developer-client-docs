@@ -38,7 +38,7 @@ This property is TRUE if the appointment is a recurring appointment, and is FALS
   
 This property specifies whether or not the object represents a recurring series. A value of TRUE indicates that the object represents a recurring series. A value of FALSE, or the absence of this property, indicates that the object represents either a single instance or an exception (including an orphan instance). Note the difference between this property and the **LID_IS_RECURRING** ([PidLidIsRecurring](pidlidisrecurring-canonical-property.md)) property.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -58,7 +58,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

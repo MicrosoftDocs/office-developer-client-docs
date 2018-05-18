@@ -54,14 +54,14 @@ If you specified the  _pxFunctionText_ argument to **xlfRegister**, when registe
   
 ## See also
 
-#### Reference
+
 
 [xlfRegister (Form 1)](xlfregister-form-1.md)
   
 [xlfRegisterId](xlfregisterid.md)
   
 [xlfUnregister (Form 1)](xlfunregister-form-1.md)
-#### Concepts
+
 
 [Essential and Useful C API XLM Functions](essential-and-useful-c-api-xlm-functions.md)
 

@@ -52,14 +52,14 @@ The other deviations from the standard COM rules are described in the following 
    
 ## See also
 
-#### Reference
+
 
 [MAPIAllocateBuffer](mapiallocatebuffer.md)
   
 [MAPIAllocateMore](mapiallocatemore.md)
   
 [MAPIFreeBuffer](mapifreebuffer.md)
-#### Concepts
+
 
 [MAPI Object and Interface Overview](mapi-object-and-interface-overview.md)
 

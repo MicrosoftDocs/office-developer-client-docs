@@ -104,7 +104,7 @@ Clients can save the default sort order for a folder contents table by calling i
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Tables](mapi-tables.md)
 

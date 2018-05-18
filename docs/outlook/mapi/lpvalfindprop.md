@@ -58,7 +58,7 @@ The **LpValFindProp** function is identical to **PpropFindProp**.
   
 ## See also
 
-#### Reference
+
 
 [PpropFindProp](ppropfindprop.md)
   

@@ -83,7 +83,7 @@ Contents tables have lengthy column sets. For a complete list of the required an
   
 It is possible for some containers to have no contents. These containers return MAPI_E_NO_SUPPORT from their implementations of **GetContentsTable**.
   
-## Notes to Implementers
+## Notes to implementers
 
 If you support a contents table for your container, you must also do the following:
   
@@ -131,7 +131,7 @@ A remote transport provider's implementation of this method must return a pointe
     
 - **PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md))
     
-## Notes to Callers
+## Notes to callers
 
 String and binary contents table columns can be truncated. Typically, providers return 255 characters. Because you cannot know beforehand whether a table includes truncated columns, assume that a column is truncated if the length of the column is either 255 or 510 bytes. You can always retrieve the full value of a truncated column, if necessary, directly from the object by using its entry identifier to open it and then calling the **IMAPIProp::GetProps** method. 
   
@@ -147,7 +147,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIProp::GetPropList](imapiprop-getproplist.md)
   
@@ -160,7 +160,7 @@ For MFCMAPI sample code, see the following table.
 [PidTagContainerContents Canonical Property](pidtagcontainercontents-canonical-property.md)
   
 [IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

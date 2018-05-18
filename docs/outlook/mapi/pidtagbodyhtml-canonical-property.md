@@ -39,7 +39,7 @@ A message store that supports HTML indicates this by setting the **STORE_HTML_OK
   
  **Note** **STORE_HTML_OK** is not defined in versions of Mapidefs.h included with Microsoft® Exchange 2000 Server and earlier. If **STORE_HTML_OK** is undefined, use the value 0x00010000 instead. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -63,7 +63,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

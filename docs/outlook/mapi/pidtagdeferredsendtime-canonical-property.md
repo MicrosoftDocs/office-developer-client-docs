@@ -39,7 +39,7 @@ If the **PR_DEFERRED_SEND_UNITS** ([PidTagDeferredSendUnits](pidtagdeferredsendu
   
 If **PR_DEFERRED_SEND_TIME** value is earlier than the current time (in UTC), the message is sent immediately. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

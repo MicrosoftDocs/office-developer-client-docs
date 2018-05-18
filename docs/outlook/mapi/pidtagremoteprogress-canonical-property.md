@@ -47,7 +47,7 @@ MSGSTATUS_REMOTE_DOWNLOAD
   
 > The message transfer is in progress.
     
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -61,7 +61,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

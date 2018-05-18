@@ -42,7 +42,7 @@ This property corresponds to the high / low / none filter setting. A value of "0
 |0x00000003  <br/> |High spam filtering  <br/> |
 |0x80000000  <br/> |Trusted Lists Only  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -66,7 +66,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

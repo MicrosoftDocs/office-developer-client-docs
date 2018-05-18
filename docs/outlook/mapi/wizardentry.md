@@ -76,7 +76,7 @@ MAPI_E_CALL_FAILED
 
 The Profile Wizard calls the **WIZARDENTRY** based function when it is ready to display the service provider's configuration user interface. When the Profile Wizard is finished configuring all providers, it writes the configuration properties to the profile by calling [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md). 
   
-## Notes to Implementers
+## Notes to implementers
 
 The name of the **WIZARDENTRY** based function must be placed in the WIZARD_ENTRY_NAME entry in MAPISVC.INF. 
   

@@ -44,7 +44,7 @@ The value of this property must be one of the following.
 |0x00000003  <br/> |The task is the task assigner's copy of an assigned task.  <br/> |
 |0x00000004  <br/> |The task is the task assigner's copy of a rejected task.  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -76,7 +76,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

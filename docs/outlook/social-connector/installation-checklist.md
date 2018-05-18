@@ -202,12 +202,12 @@ The following procedure describes the installation checks outlined in Figure 1.
 ## See also
 <a name="olosc_InstallationOverview_InstallationChecklist"> </a>
 
-#### Concepts
+
 
 [Registering a Provider](registering-a-provider.md)
   
 [Quick Steps for Learning to Develop a Provider](quick-steps-for-learning-to-develop-a-provider.md)
-#### Other resources
+
 
 [Deploying a Provider](deploying-a-provider.md)
 

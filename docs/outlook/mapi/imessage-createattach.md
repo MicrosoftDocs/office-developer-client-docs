@@ -69,7 +69,7 @@ The attachment number pointed to by  _lpulAttachmentNum_ is unique and valid onl
   
 ## See also
 
-#### Reference
+
 
 [IMessage : IMAPIProp](imessageimapiprop.md)
 

@@ -42,7 +42,7 @@ S_OK
 
 A form object calls the **IMAPIViewAdviseSink::OnSubmitted** method after a call to [IMAPIMessageSite::SubmitMessage](imapimessagesite-submitmessage.md) has returned successfully. 
   
-## Notes to Implementers
+## Notes to implementers
 
 After **OnSubmitted** is called, you can continue on the assumption that the message has been updated. Update your windows to reflect any changes that have occurred. 
   
@@ -50,7 +50,7 @@ For more information about form notifications, see [Sending and Receiving Form N
   
 ## See also
 
-#### Reference
+
 
 [IMAPIMessageSite::SubmitMessage](imapimessagesite-submitmessage.md)
   

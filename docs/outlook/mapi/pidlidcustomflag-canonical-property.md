@@ -55,7 +55,7 @@ When calling **IMAPIProp::GetIDsFromNames**, specify the following values for th
 |ulKind:  <br/> |MNID_ID  <br/> |
 |Kind.lID:  <br/> |dispidCustomFlag  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -75,7 +75,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

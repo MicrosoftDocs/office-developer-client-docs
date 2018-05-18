@@ -16,7 +16,7 @@ description: "Notifies the client of changes to the specified account."
 
 Notifies the client of changes to the specified account.
   
-## Quick Info
+## Quick info
 
 See [IOlkAccountNotify](iolkaccountnotify.md).
   
@@ -59,7 +59,7 @@ S_OK if the call succeeded; otherwise, an error code.
   
 ## See also
 
-#### Concepts
+
 
 [Constants (Account management API)](constants-account-management-api.md)
   

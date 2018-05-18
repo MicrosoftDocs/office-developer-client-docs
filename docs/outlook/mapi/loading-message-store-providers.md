@@ -45,7 +45,7 @@ The call sequence when a message provider DLL is loaded is as follows:
   
 ## See also
 
-#### Concepts
+
 
 [Developing a MAPI Message Store Provider](developing-a-mapi-message-store-provider.md)
 

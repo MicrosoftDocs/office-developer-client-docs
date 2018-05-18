@@ -16,7 +16,7 @@ description: "Retrieves the unique identifier (UID) for the profile section that
 
 Retrieves the unique identifier (UID) for the profile section that stores the account preferences. 
   
-## Quick Info
+## Quick info
 
 See [IOlkAccount](iolkaccount.md).
   
@@ -33,7 +33,7 @@ Use **PROP_ACCT_PREFERENCES_UID** in calls to [IMAPISupport::OpenProfileSection]
   
 ## See also
 
-#### Concepts
+
 
 [About the Account Management API](about-the-account-management-api.md)
   

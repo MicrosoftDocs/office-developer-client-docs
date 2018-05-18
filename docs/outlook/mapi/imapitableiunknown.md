@@ -33,7 +33,7 @@ Provides a read-only view of a table. **IMAPITable** is used by clients and serv
 |Interface identifier:  <br/> |IID_IMAPITable  <br/> |
 |Pointer type:  <br/> |LPMAPITABLE  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -63,7 +63,7 @@ Provides a read-only view of a table. **IMAPITable** is used by clients and serv
    
 ## See also
 
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
 

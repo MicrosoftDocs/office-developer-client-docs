@@ -36,7 +36,7 @@ For each person represented in the input array of the  _userIds_ parameter, this
   
 ## See also
 
-#### Reference
+
 
 [ISocialProfile : ISocialPerson](isocialprofileisocialperson.md)
 

@@ -62,14 +62,14 @@ For more information about the **SCommentRestriction** structure and restriction
   
 ## See also
 
-#### Reference
+
 
 [SPropValue](spropvalue.md)
   
 [SRestriction](srestriction.md)
   
 [SPropertyRestriction](spropertyrestriction.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

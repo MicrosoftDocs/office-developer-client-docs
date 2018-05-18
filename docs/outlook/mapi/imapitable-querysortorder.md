@@ -58,7 +58,7 @@ The **IMAPITable::QuerySortOrder** method retrieves the current sort order for a
     
 - The **SSortOrderSet** structure is not appropriate for describing the sort order. 
     
-## Notes to Implementers
+## Notes to implementers
 
 If a call is made to your [IMAPITable::SortTable](imapitable-sorttable.md) method with an **SSortOrderSet** structure containing zero columns in the sort key, remove the current sort order and apply the default order, if there is one. In subsequent calls to **QuerySortOrder**, you can choose whether to return zero or more columns for the sort key. You can return more columns than are in the present view.
   
@@ -66,7 +66,7 @@ For more information about sorting, see [Sorting and Categorization](sorting-and
   
 ## See also
 
-#### Reference
+
 
 [IMAPITable::SortTable](imapitable-sorttable.md)
   

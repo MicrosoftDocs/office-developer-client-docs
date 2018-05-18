@@ -41,7 +41,7 @@ This property is expressed in characters. In some character sets this is not equ
   
 This property should not be used with Rich Text Format (RTF) text. The rendering position is indicated in RTF by an escape sequence called the object attachment placeholder. This sequence consists of the string  `\objattph` followed by a single character, normally a space, that will be replaced by the attachment rendering. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -65,7 +65,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

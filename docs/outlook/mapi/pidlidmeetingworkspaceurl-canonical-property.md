@@ -36,7 +36,7 @@ Specifies the URL of the meeting workspace that is associated with a calendar ob
 
 This property is not required.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

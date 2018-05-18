@@ -41,7 +41,7 @@ To retrieve the value of this property, first use [IMAPIProp::GetIDsFromNames](i
 |ulKind:  <br/> |MNID_STRING  <br/> |
 |Kind.lpwstrName:  <br/> |L"return-path"  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -65,7 +65,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

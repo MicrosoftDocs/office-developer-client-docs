@@ -68,7 +68,7 @@ The [WindowCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoP
 Window myWindow = this.Application.Windows[0];
 ```
 
-```VB.net
+```vb
 Dim myWindow As Window = Me.Application.Windows(0)
 ```
 
@@ -78,7 +78,7 @@ You can access the currently open window directly using the [ActiveWindow](https
 Window myWindow = this.Application.ActiveWindow;
 ```
 
-```VB.net
+```vb
 Dim myWindow As Window = Me.Application.ActiveWindow
 ```
 
@@ -88,7 +88,7 @@ A [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.a
 Window myWindow = this.CurrentView.Window;
 ```
 
-```VB.net
+```vb
 Dim myWindow As Window = Me.CurrentView.Window
 ```
 

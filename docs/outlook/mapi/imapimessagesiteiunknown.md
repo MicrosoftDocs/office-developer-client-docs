@@ -33,7 +33,7 @@ Manipulates messages and is implemented by the form viewer code (typically a cli
 |Interface identifier:  <br/> |IID_IMAPIMessageSite  <br/> |
 |Pointer type:  <br/> |LPMAPIMESSAGESITE  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -53,7 +53,7 @@ Manipulates messages and is implemented by the form viewer code (typically a cli
    
 ## See also
 
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
 

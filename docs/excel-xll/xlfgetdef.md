@@ -65,10 +65,10 @@ The following table lists four examples of the values returned by a call to **xl
    
 ## See also
 
-#### Reference
+
 
 [xlfGetName](xlfgetname.md)
-#### Concepts
+
 
 [Essential and Useful C API XLM Functions](essential-and-useful-c-api-xlm-functions.md)
 

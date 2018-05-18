@@ -35,7 +35,7 @@ Contains the date and time a delivery report is generated.
 
 This property must be set by the message store provider receiving the original message and generating the report. 
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

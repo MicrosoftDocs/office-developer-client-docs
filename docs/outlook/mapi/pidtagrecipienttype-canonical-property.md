@@ -73,7 +73,7 @@ The **PR_DISPLAY_TO** ([PidTagDisplayTo](pidtagdisplayto-canonical-property.md))
    
 In X.400, the P1 or delivery envelope is the information needed to deliver a message, including the recipient's address properties and any option flags controlling delivery and replies. The P2 or display envelope is the information usually displayed to each recipient other than the message text itself. It typically includes the subject, importance, priority, sensitivity, and submission time, as well as the primary and copied recipient names. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -105,7 +105,7 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagRecipientStatus Canonical Property](pidtagrecipientstatus-canonical-property.md)
   
@@ -114,7 +114,7 @@ Mapitags.h
 [PidTagDisplayBcc Canonical Property](pidtagdisplaybcc-canonical-property.md)
   
 [PidTagDisplayCc Canonical Property](pidtagdisplaycc-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

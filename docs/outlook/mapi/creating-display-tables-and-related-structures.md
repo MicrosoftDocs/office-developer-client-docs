@@ -46,7 +46,7 @@ The relationship between the three types of display table structures is shown in
   
 ## See also
 
-#### Concepts
+
 
 [Display Table Implementation](display-table-implementation.md)
 

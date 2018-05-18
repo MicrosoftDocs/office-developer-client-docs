@@ -63,12 +63,12 @@ The following table shows the schema elements that have changed.
 ## See also
 <a name="OlSocialConnector_Changes"> </a>
 
-#### Concepts
+
 
 [XML for Capabilities](xml-for-capabilities.md)
   
 [XML for Friends](xml-for-friends.md)
-#### Other resources
+
 
 [Getting Started with Developing an Outlook Social Connector Provider](getting-started-with-developing-an-outlook-social-connector-provider.md)
 

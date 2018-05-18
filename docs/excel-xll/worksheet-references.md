@@ -44,7 +44,7 @@ The other key difference between the internal and external reference types is th
   
 ## See also
 
-#### Concepts
+
 
 [Excel Programming Concepts](excel-programming-concepts.md)
   

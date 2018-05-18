@@ -48,7 +48,7 @@ The MAPI spooler periodically calls the **IXPLogon::Poll** method if the transpo
   
 ## See also
 
-#### Reference
+
 
 [IXPLogon::StartMessage](ixplogon-startmessage.md)
   

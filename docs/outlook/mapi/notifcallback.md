@@ -68,7 +68,7 @@ The following are limitations on what a synchronous callback function can do:
     
 ## See also
 
-#### Reference
+
 
 [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md)
 

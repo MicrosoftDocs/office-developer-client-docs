@@ -58,7 +58,7 @@ The **FBadPropTag** function validates the specified property tag based on MAPI 
   
 ## See also
 
-#### Reference
+
 
 [FBadProp](fbadprop.md)
 

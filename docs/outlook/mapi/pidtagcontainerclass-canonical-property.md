@@ -48,7 +48,7 @@ These properties can be assigned the string values in the following table.
    
 For folders that contain mail messages, these properties should be set to IPF.Note.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -80,7 +80,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

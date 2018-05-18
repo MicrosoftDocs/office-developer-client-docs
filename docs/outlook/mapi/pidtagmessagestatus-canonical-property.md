@@ -77,7 +77,7 @@ A remote viewer client can set **MSGSTATUS_REMOTE_DELETE** or **MSGSTATUS_REMOTE
   
 Bits 16 through 31 (0x10000 through 0x80000000) of this property are available for use by the interpersonal message (IPM) client application. All other bits are reserved for use by MAPI; those not defined in the preceding table should be initially set to zero and not altered subsequently. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -101,10 +101,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [IMAPITable::QueryRows](imapitable-queryrows.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

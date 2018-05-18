@@ -26,7 +26,7 @@ To support sending messages, the message store provider must support the [IMsgSt
   
 ## See also
 
-#### Concepts
+
 
 [Implementing Folders in Message Stores](implementing-folders-in-message-stores.md)
 

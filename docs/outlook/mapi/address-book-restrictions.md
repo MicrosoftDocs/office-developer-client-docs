@@ -46,7 +46,7 @@ Another feature of list boxes used for table viewing is the ability to position 
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Tables](mapi-tables.md)
 

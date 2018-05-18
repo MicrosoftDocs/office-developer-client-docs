@@ -37,7 +37,7 @@ If set to "0x00000001", these e-mail addresses must populate the "trusted" conta
   
 If this property is present with a value of "0x00000001" and if the added contact has e-mail addresses that are not yet included in the trusted contacts section of the Junk E-Mail Rule, those e-mail addresses must be added to the restriction. If this property is "0x00000000", no action is required.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -61,7 +61,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

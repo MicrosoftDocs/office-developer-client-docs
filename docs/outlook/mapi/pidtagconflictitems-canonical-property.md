@@ -42,7 +42,7 @@ The types of standard Microsoft Outlook items that support automatic conflict re
   
 An item exposes the **PR_CONFLICT_ITEMS** property if it is one of the item types that support automatic conflict resolution, has won in a conflict resolution, or was placed in the **Conflicts** folder because of a conflict resolution. The folder in which the item is placed determines the content of **PR_CONFLICT_ITEMS**. If the item is located in some folder other than the **Conflicts** folder, and the item exposes the **PR_CONFLICT_ITEMS** property, the item must have won the conflict resolution, and **PR_CONFLICT_ITEMS** would contain one or more entry IDs of those items that lost in the conflict resolution. If the item is located in the **Conflicts** folder and the item exposes the **PR_CONFLICT_ITEMS** property, this item must have lost the conflict resolution, and **PR_CONFLICT_ITEMS** would contain the entry ID of the item that won in the conflict resolution. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -66,7 +66,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [About MAPI Additions](about-mapi-additions.md)
   

@@ -36,7 +36,7 @@ Specifies the date and time within the recurrence pattern that the exception wil
 
 The value must be specified in Coordinated Universal Time (UTC). This property allows the exception attachment object to be found for a particular instance.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

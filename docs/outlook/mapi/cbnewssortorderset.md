@@ -41,12 +41,12 @@ CbNewSSortOrderSet (_csort)
     
 ## See also
 
-#### Reference
+
 
 [SizedSSortOrderSet](sizedssortorderset.md)
   
 [SSortOrder](ssortorder.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

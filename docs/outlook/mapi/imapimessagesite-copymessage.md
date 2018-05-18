@@ -50,7 +50,7 @@ MAPI_E_NO_SUPPORT
 
 Form objects call the **IMAPIMessageSite::CopyMessage** method to copy the current message to a new folder. **CopyMessage** does not change the message currently being displayed to the user, and no interface for the newly created message is returned to the form. 
   
-## Notes to Implementers
+## Notes to implementers
 
 A typical implementation of the **CopyMessage** method performs the following tasks: 
   
@@ -74,7 +74,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIProp::SaveChanges](imapiprop-savechanges.md)
   
@@ -83,7 +83,7 @@ For MFCMAPI sample code, see the following table.
 [IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md)
   
 [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
   

@@ -117,7 +117,7 @@ int WINAPI fDance(void)
 
 ## See also
 
-#### Concepts
+
 
 [C API Functions That Can Be Called Only from a DLL or XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

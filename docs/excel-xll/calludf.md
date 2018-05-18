@@ -62,7 +62,7 @@ This function executes asynchronously.
   
 ## See also
 
-#### Concepts
+
 
 [Excel Cluster Connector Functions](excel-cluster-connector-functions.md)
 

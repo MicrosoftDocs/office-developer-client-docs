@@ -32,7 +32,7 @@ Specifies the number of attendees who have sent counter proposals that have not 
 |Data type:  <br/> |PT_LONG  <br/> |
 |Area:  <br/> |Meetings  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -52,7 +52,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

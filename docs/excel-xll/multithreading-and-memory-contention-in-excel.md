@@ -302,7 +302,7 @@ Where there is a lot of contention for a shared resource, such as frequent short
   
 ## See also
 
-#### Concepts
+
 
 [Memory Management in Excel](memory-management-in-excel.md)
   

@@ -62,7 +62,7 @@ The message service entry point function is not called again after the provider 
   
 ## See also
 
-#### Reference
+
 
 [MAPIUID](mapiuid.md)
   

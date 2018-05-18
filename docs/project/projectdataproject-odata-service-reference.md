@@ -166,7 +166,7 @@ For more information about query string options such as  _$filter_,  _$orderby_,
     
 ## See also
 
-#### Other resources
+
 
 [Plan user access in Project Server 2013](http://technet.microsoft.com/en-us/library/fp161361%28v=office.15%29.aspx)
   

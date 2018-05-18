@@ -80,7 +80,7 @@ For more information about sorting the threads of a conversation see the followi
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Tables](mapi-tables.md)
 

@@ -35,7 +35,7 @@ Contains the entry identifier of a transport's tightly coupled message store.
 
 This property specifies the entry identifier for the tightly coupled store, if one exists. For example, a transport provider can specify the private folder store entry identifier so that the MAPI spooler can connect the transport provider to the store.
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

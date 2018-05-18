@@ -35,7 +35,7 @@ Contains a flag that indicates that a message has been read, but not marked as r
 
 This property is used in Outlook's Unread Messages search folder to keep track of which messages have been read without actually marking them as read, which would remove them from the folder. When the view changes this property is removed and the item is marked as read. This property will not synchronize to the Exchange Server.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

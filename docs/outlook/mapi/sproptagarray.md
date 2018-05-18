@@ -72,7 +72,7 @@ For a complete list of the single-valued and multi-valued property types, see th
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

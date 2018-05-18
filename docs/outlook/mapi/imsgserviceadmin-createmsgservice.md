@@ -85,7 +85,7 @@ The MapiSvc.inf file contains the list of providers that make up a message servi
   
 After all the information has been copied from MapiSvc.inf, the message service's entry point function is called with the MSG_SERVICE_CREATE value set in the  _ulContext_ parameter. If the SERVICE_UI_ALLOWED flag is set in the **CreateMsgService** method's  _ulFlags_ parameter, the values in the  _ulUIParam_ and  _ulFlags_ parameters are also passed when the message service's entry point function is called. Service providers should display their configuration property sheets so users can configure the message service. 
   
-## Notes to Callers
+## Notes to callers
 
  **CreateMsgService** does not return the [MAPIUID](mapiuid.md) structure for the message service that was added to the profile. 
   
@@ -115,10 +115,10 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMsgServiceAdmin : IUnknown](imsgserviceadminiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

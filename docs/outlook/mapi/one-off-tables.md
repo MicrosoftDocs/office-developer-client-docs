@@ -65,7 +65,7 @@ The following properties make up the required column set in one-off tables:
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Tables](mapi-tables.md)
 

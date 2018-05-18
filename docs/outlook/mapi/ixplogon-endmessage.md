@@ -69,7 +69,7 @@ All objects that the transport provider opens during the transfer of a message s
   
 ## See also
 
-#### Reference
+
 
 [IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md)
   

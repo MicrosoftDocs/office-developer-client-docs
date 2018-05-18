@@ -69,7 +69,7 @@ Each message service provider that MAPI has information about can establish an i
   
 ## See also
 
-#### Reference
+
 
 [IMAPISession::QueryIdentity](imapisession-queryidentity.md)
   

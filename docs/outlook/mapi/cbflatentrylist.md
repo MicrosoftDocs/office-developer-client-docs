@@ -41,10 +41,10 @@ CbFLATENTRYLIST(_lplist)
     
 ## See also
 
-#### Reference
+
 
 [FLATENTRYLIST](flatentrylist.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

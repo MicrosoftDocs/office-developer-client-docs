@@ -104,10 +104,10 @@ Type **O**, which is really three arguments on the stack, was introduced for com
   
 ## See also
 
-#### Reference
+
 
 [xlfRegister (Form 1)](xlfregister-form-1.md)
-#### Concepts
+
 
 [Excel Programming Concepts](excel-programming-concepts.md)
   

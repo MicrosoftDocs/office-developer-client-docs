@@ -53,12 +53,12 @@ For more information about PT_MV_CLSID, see [List of Property Types](property-ty
   
 ## See also
 
-#### Reference
+
 
 [GUID](guid.md)
   
 [SPropValue](spropvalue.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

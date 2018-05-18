@@ -53,10 +53,10 @@ For more information about PT_MV_LONG, see [List of Property Types](property-typ
   
 ## See also
 
-#### Reference
+
 
 [SPropValue](spropvalue.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

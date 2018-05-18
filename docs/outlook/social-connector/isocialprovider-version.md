@@ -30,7 +30,7 @@ The version string should use the  _MajorVersion_. _MinorVersion_ format (for ex
   
 ## See also
 
-#### Reference
+
 
 [ISocialProvider : IUnknown](isocialprovideriunknown.md)
 

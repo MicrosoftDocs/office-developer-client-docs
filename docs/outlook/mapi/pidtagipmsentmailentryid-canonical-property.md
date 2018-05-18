@@ -35,7 +35,7 @@ Contains the entry identifier of the standard interpersonal message (IPM) Sent I
 
 After being sent, interpersonal messages are usually placed in the Sent Items folder. A client can use this property to set the **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) property on a submitted message. 
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

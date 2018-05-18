@@ -73,7 +73,7 @@ Some of the properties message store providers commonly include in an attachment
    
 ## See also
 
-#### Concepts
+
 
 [MAPI Tables](mapi-tables.md)
 

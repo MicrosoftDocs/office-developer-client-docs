@@ -20,7 +20,7 @@ description: "Last modified: July 23, 2011"
   
 Information for items that have been deleted in a local store. This information is used during the [upload delete status state](upload-delete-status-state.md).
   
-## Quick Info
+## Quick info
 
 ```cpp
 struct UPDEL 
@@ -42,7 +42,7 @@ struct UPDEL
     
 ## See also
 
-#### Concepts
+
 
 [About the Replication API](about-the-replication-api.md)
   

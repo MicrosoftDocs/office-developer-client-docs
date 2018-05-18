@@ -46,10 +46,10 @@ Depending on the user's Windows registry setting for fast shutdown, not implemen
   
 ## See also
 
-#### Reference
+
 
 [IMAPIProviderShutdown : IUnknown](imapiprovidershutdowniunknown.md)
-#### Concepts
+
 
 [Client Shutdown in MAPI](client-shutdown-in-mapi.md)
 

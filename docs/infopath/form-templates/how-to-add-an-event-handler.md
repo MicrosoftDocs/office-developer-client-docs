@@ -99,7 +99,7 @@ This topic describes the procedures for adding event handlers to an Microsoft In
   
 ## See also
 
-#### Other resources
+
 
 [Walkthrough: Creating a Basic Form Template with Code](walkthrough-creating-a-basic-form-template-with-code.md)
 

@@ -37,7 +37,7 @@ These properties are examples of the address properties for the messaging user w
   
 The address type string can contain only the uppercase alphabetic characters A through Z and the numbers zero through nine. These properties qualify the **PR_RECEIVED_BY_EMAIL_ADDRESS** ([PidTagReceivedByEmailAddress](pidtagreceivedbyemailaddress-canonical-property.md)) property by specifying an address type, such as SMTP, thereby indicating how the address should be constructed.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -61,7 +61,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

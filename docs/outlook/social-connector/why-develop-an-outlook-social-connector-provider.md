@@ -26,12 +26,12 @@ Apart from public social network sites, you can also use OSC provider extensibil
   
 ## See also
 
-#### Concepts
+
 
 [Quick Steps for Learning to Develop a Provider](quick-steps-for-learning-to-develop-a-provider.md)
   
 [Technical Requirements](technical-requirements.md)
-#### Other resources
+
 
 [OSC Sample Templates](osc-sample-templates.md)
   

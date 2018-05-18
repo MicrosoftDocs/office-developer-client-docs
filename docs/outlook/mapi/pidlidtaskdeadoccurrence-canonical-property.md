@@ -36,7 +36,7 @@ Indicates whether new occurrences must be generated.
 
 A recurrence pattern is no longer in effect when its final instance is in the past or its specified number of instances has been generated. The client sets this property to FALSE for a new task or to TRUE when it generates the last instance of a recurring task. When you copy a task to generate a new instance, this property is set to TRUE on the copy, which is the completed instance.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

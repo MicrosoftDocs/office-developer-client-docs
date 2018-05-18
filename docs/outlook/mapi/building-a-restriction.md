@@ -30,7 +30,7 @@ The second and third members of the array are more straightforward. They both po
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Tables](mapi-tables.md)
 

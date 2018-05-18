@@ -36,10 +36,10 @@ The sample Outlook Social Connector (OSC) provider templates give you a framewor
     
 ## See also
 
-#### Concepts
+
 
 [Downloading the Samples](downloading-the-samples.md)
-#### Other resources
+
 
 [OSC Sample Templates](osc-sample-templates.md)
 

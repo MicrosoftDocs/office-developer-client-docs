@@ -37,7 +37,7 @@ This property is computed by all service providers. It contains a [MAPIUID](mapi
   
 This property appears only as a column entry in the provider table.
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -51,7 +51,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

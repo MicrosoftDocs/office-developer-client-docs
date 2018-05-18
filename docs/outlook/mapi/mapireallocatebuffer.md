@@ -54,7 +54,7 @@ LPVOID * lppv
   
 ## See also
 
-#### Reference
+
 
 [MAPIAllocateBuffer](mapiallocatebuffer.md)
 

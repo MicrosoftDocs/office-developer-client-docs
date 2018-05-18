@@ -79,7 +79,7 @@ STATUS_REMOTE_ACCESS
   
 > Indicates that the transport provider supports remote access.
     
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -93,10 +93,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagStatusString Canonical Property](pidtagstatusstring-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

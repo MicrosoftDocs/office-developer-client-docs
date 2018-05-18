@@ -35,7 +35,7 @@ Contains TRUE if a message should be returned with a nondelivery report.
 
 If this property is not set, MAPI treats it as having a TRUE value. 
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -41,12 +41,12 @@ int CbMAPIVerbArray (_c)
     
 ## See also
 
-#### Reference
+
 
 [SMAPIVerbArray](smapiverbarray.md)
   
 [SMAPIVerb](smapiverb.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

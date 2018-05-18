@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies whether Microsoft Office Outlook should scan Contacts folders on a store.
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|

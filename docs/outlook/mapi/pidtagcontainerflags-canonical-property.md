@@ -61,7 +61,7 @@ Either the AB_MODIFIABLE or AB_UNMODIFIABLE flag must be set. Both flags can be 
   
 The AB_MODIFIABLE flag does not indicate what types of entries can be added to the container. To determine this, the client should use the appropriate [OpenProperty](imapiprop-openproperty.md) method to open the container's **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) property. Opening **PR_CREATE_TEMPLATES** causes the container's one-off table to be returned, listing the kinds of entries that can be created in the container. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -89,7 +89,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

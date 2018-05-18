@@ -105,7 +105,7 @@ If this property is not set, the client should assume the default type appropria
   
  **Note** All values not documented are reserved for MAPI. Client applications must not define any new values and must be prepared to deal with an undocumented value. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -137,7 +137,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

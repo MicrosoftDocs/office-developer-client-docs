@@ -48,7 +48,7 @@ Message store providers implement the **IMSLogon::Unadvise** method to release t
   
 ## See also
 
-#### Reference
+
 
 [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md)
   

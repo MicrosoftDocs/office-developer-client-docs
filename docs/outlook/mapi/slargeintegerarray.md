@@ -53,10 +53,10 @@ For more information about PT_MV_18, see [List of Property Types](property-types
   
 ## See also
 
-#### Reference
+
 
 [SPropValue](spropvalue.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

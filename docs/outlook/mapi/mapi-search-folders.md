@@ -36,7 +36,7 @@ It is possible, however, to modify the properties of a search-results folder and
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Folders](mapi-folders.md)
 

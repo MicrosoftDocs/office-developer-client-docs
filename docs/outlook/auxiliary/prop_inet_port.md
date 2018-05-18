@@ -16,7 +16,7 @@ description: "Represents the port number for a general Internet mailbox."
 
 Represents the port number for a general Internet mailbox.
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|
@@ -31,7 +31,7 @@ An example is 110 for POP accounts.
   
 ## See also
 
-#### Concepts
+
 
 [Managing message downloads for POP3 accounts](managing-message-downloads-for-pop3-accounts.md)
   

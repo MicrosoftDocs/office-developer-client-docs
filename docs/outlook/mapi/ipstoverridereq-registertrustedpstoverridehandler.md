@@ -62,7 +62,7 @@ For more information see [How to implement a PST override handler to bypass the 
   
 ## See also
 
-#### Reference
+
 
 [IPSTOVERRIDE1 : IUnknown](ipstoverride1iunknown.md)
   

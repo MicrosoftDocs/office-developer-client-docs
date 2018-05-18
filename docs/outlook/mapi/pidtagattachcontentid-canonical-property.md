@@ -35,7 +35,7 @@ Contains the content identification header of a Multipurpose Internet Mail Exten
 
 These properties are used for MHTML support. They represent the content identification header for the appropriate MIME body part. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -55,7 +55,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

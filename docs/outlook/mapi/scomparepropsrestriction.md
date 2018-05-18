@@ -92,12 +92,12 @@ For more information about the **SComparePropsRestriction** structure and restri
   
 ## See also
 
-#### Reference
+
 
 [SBitMaskRestriction](sbitmaskrestriction.md)
   
 [SRestriction](srestriction.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

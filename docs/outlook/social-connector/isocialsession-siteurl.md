@@ -26,7 +26,7 @@ A string that represents a social network site URL.
   
 ## See also
 
-#### Reference
+
 
 [ISocialSession : IUnknown](isocialsessioniunknown.md)
 

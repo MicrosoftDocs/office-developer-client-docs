@@ -36,7 +36,7 @@ Contains metadata about the journal.
 
 The bit field that contains metadata about the journal must be either zero or "0x40000000".
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -39,7 +39,7 @@ Messaging systems that support correlation by MTS identifier, such as X.400, ret
   
 A client application can maintain a search-results folder of all messages having this property. When a report comes in for such a message, the client can apply restrictions to the search-results folder, find the original version of the message, and correlate the original message information with the new information.
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -53,7 +53,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

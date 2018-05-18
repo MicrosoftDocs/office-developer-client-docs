@@ -43,7 +43,7 @@ This property on the folder containing the conflict resolution message will indi
    
 A client or server must not generate a conflict resolve message for associated messages. These messages must be resolved by using **RESOLVE_METHOD_LAST_WRITER_WINS** semantics. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -67,7 +67,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

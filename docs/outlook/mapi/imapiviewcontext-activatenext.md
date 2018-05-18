@@ -87,11 +87,11 @@ Form objects call the **IMAPIViewContext::ActivateNext** method to change what m
   
 The VCDIR_DELETE and VCDIR_MOVE flags are set by the [IMAPIMessageSite::DeleteMessage](imapimessagesite-deletemessage.md) and [IMAPIMessageSite::MoveMessage](imapimessagesite-movemessage.md) methods, respectively. Implementations of these methods call **ActivateNext** with the appropriate direction and then perform the requested operation on the message if the **ActivateNext** call did not fail. Form viewers typically enable users to specify the direction to move in the message list. 
   
-## Notes to Implementers
+## Notes to implementers
 
 Your implementation of [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md) makes the next or previous message in the folder, depending on the value of  _ulDir_, the current message. After **ActivateNext** returns, call [IMAPIMessageSite::GetMessage](imapimessagesite-getmessage.md) to get a pointer to the newly activated message. 
   
-## Notes to Callers
+## Notes to callers
 
 If **ActivateNext** returns S_FALSE, or if a current message is not present, perform your normal shutdown procedure which should include calling your form's [IMAPIForm::ShutdownForm](imapiform-shutdownform.md) method. If a next or previous message is displayed, use the window rectangle passed in the  _prcPosRect_ parameter to display it. 
   
@@ -105,12 +105,12 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIViewContext::GetViewStatus](imapiviewcontext-getviewstatus.md)
   
 [IMAPIViewContext : IUnknown](imapiviewcontextiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

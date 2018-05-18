@@ -16,7 +16,7 @@ description: "Represents an entire time zone including all historical, current, 
 
 Represents an entire time zone including all historical, current, and future time zone shift rules for daylight saving time.
   
-## Quick Info
+## Quick info
 
 ```
 typedef struct { 
@@ -53,7 +53,7 @@ The rules should be sorted from oldest to newest. There is no overlap allowed be
   
 ## See also
 
-#### Concepts
+
 
 [Constants (Outlook exported APIs)](constants-outlook-exported-apis.md)
   

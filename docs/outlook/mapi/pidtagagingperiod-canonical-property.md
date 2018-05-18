@@ -49,7 +49,7 @@ The possible values for **PR_AGING_GRANULARITY** can be one of the following.
    
 For example, if a folder archives an item only after the item has been in the folder for two weeks, then **PR_AGING_GRANULARITY** is **AG_WEEKS** and **PR_AGING_PERIOD** is 2. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -77,7 +77,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

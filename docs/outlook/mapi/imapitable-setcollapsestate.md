@@ -77,17 +77,17 @@ The **IMAPITable::SetCollapseState** method reestablishes the expanded or collap
     
 For more information about categorized tables, see [Sorting and Categorization](sorting-and-categorization.md). 
   
-## Notes to Implementers
+## Notes to implementers
 
 You are responsible for verifying that the sort order and restrictions are exactly the same as they were at the time of the **GetCollapseState** call. If a change has been made, **SetCollapseState** should not be called because the results can be unpredictable. This can happen if, for example, a client calls **GetCollapseState** and then **SortTable** to change the sort key before calling **SetCollapseState**. To be safe, check that the saved data is still valid before proceeding with the restoration. 
   
-## Notes to Callers
+## Notes to callers
 
 To call **SetCollapseState**, you must have previously called **GetCollapseState**. The sort order establishing the categories should be the same for both methods. If the sort orders differ, the results of the **SetCollapseState** operation are unpredictable. 
   
 ## See also
 
-#### Reference
+
 
 [IMAPITable::CreateBookmark](imapitable-createbookmark.md)
   

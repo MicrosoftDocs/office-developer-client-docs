@@ -24,7 +24,7 @@ MAPI expects all clients to be able to display, create, modify, and delete folde
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Folders](mapi-folders.md)
 

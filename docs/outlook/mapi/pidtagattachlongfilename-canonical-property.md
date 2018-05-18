@@ -41,7 +41,7 @@ Unlike the filename provided by **PR_ATTACH_FILENAME**, this name is not restric
   
 MAPI works only with filenames in the ANSI character set. Client applications that use filenames in an OEM character set must convert them to ANSI before calling MAPI. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -73,7 +73,7 @@ Mmapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

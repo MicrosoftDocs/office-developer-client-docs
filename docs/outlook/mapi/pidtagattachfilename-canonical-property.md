@@ -41,7 +41,7 @@ The file name is restricted to eight characters plus a three-character extension
   
 MAPI works only with file names, and other strings passed to it, in the American National Standards Institute (ANSI) character set. Client applications that use file names in an original equipment manufacturer (OEM) character set must convert them to ANSI before calling MAPI. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -77,7 +77,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

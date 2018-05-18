@@ -37,7 +37,7 @@ This property is one of the properties that contain information about the origin
   
 For a nonread report, this property contains a copy of the entry identifier of the original message recipient for which the report is generated. When the original recipient is part of a distribution list, the entry identifier of the distribution list is preserved for the report.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -65,7 +65,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

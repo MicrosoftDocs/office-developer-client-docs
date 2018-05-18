@@ -86,7 +86,7 @@ The **ScRelocProps** function operates on the assumption that the property value
     
 ## See also
 
-#### Reference
+
 
 [MAPIAllocateBuffer](mapiallocatebuffer.md)
   

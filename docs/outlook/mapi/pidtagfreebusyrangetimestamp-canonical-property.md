@@ -35,7 +35,7 @@ Contains the time when the data was published.
 
 This property is the number of minutes since midnight, January 1, 1601 in Coordinated Universal Time (UTC).
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

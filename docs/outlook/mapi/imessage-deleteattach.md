@@ -67,7 +67,7 @@ The **IMessage::DeleteAttach** method deletes an attachment from within a messag
   
 A deleted attachment is not permanently deleted until the message's [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method has been called. 
   
-## Notes to Callers
+## Notes to callers
 
 Before calling **DeleteAttach**, call the **IUnknown::Release** method for the attachment and each of its streams. 
   
@@ -83,12 +83,12 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIProp::SaveChanges](imapiprop-savechanges.md)
   
 [IMessage : IMAPIProp](imessageimapiprop.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

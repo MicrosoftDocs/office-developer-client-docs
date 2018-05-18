@@ -58,7 +58,7 @@ See the file  `\SAMPLES\FRAMEWRK\FRAMEWRK.C` for the code for this function.
   
 ## See also
 
-#### Concepts
+
 
 [Functions in the Framework Library](functions-in-the-framework-library.md)
 

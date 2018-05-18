@@ -84,7 +84,7 @@ Address book providers must support the following **IMAPITable** methods in thei
    
 ## See also
 
-#### Concepts
+
 
 [MAPI Tables](mapi-tables.md)
 

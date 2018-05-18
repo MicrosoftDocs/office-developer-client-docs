@@ -36,7 +36,7 @@ Specifies whether or not the object is associated with a recurring series.
 
 A value of TRUE indicates that the object represents either a recurring series or an exception (including an orphan instance). A value of FALSE, or the absence of this property, indicates that the object represents a single instance. Note the difference between this property and the **PR_RECURRING** ([PidLidRecurring](pidlidrecurring-canonical-property.md)) property.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

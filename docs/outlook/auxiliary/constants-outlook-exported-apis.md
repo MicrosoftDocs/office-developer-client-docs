@@ -46,7 +46,7 @@ Outlook exposes the following dispatch identifiers (dispids) so that developers 
    
 ## See also
 
-#### Concepts
+
 
 [Outlook exported APIs](outlook-exported-apis.md)
   

@@ -36,7 +36,7 @@ Contains an [RFC3282] Content-Class header field value.
 
 To set the value of this property, Multipurpose Internet Message Extensions (MIME) clients must write a Content-Class header field with the desired value. MIME readers must copy the value of a Content-Class header field to the value of this property. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -60,7 +60,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

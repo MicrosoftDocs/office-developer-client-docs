@@ -64,7 +64,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IAddrBook::GetDefaultDir](iaddrbook-getdefaultdir.md)
   
@@ -75,7 +75,7 @@ For MFCMAPI sample code, see the following table.
 [MAPILogonEx](mapilogonex.md)
   
 [IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

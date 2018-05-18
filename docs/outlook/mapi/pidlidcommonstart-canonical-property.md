@@ -38,7 +38,7 @@ This property indicates the start time for an item. It must be less than or equa
   
 The value of this property must be the Coordinated Universal Time (UTC) equivalent of the **dispidTaskStartDate** ([PidLidTaskStartDate](pidlidtaskstartdate-canonical-property.md)) property.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -62,7 +62,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

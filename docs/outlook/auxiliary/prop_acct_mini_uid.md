@@ -16,7 +16,7 @@ description: "Returns an account identifier that is unique across Outlook profil
 
 Returns an account identifier that is unique across Outlook profiles.
   
-## Quick Info
+## Quick info
 
 See [IOlkAccount](iolkaccount.md).
   
@@ -35,7 +35,7 @@ This property is different from [PROP_ACCT_ID](prop_acct_id.md) in that its valu
   
 ## See also
 
-#### Concepts
+
 
 [PROP_ACCT_ID](prop_acct_id.md)
   

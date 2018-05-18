@@ -39,7 +39,7 @@ For a nonread report, these properties contain a copy of the display name of the
   
 A client application can use these properties to prevent alteration or "spoofing" of entries, by giving an unaltered copy of the display name to compare.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -63,10 +63,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagTransmittableDisplayName Canonical Property](pidtagtransmittabledisplayname-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

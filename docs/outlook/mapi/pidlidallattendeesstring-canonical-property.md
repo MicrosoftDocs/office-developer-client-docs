@@ -36,7 +36,7 @@ Specifies a list of all the attendees except for the organizer, including resour
 
 The value for each attendee is the attendee's display name. Separate entries must be delimited by a semicolon followed by a space. This property is not required.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

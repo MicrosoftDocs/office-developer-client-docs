@@ -31,7 +31,7 @@ Contains the EntryID of the conflict resolution message.
 |Data type:  <br/> |PT_BINARY  <br/> |
 |Area:  <br/> |Incremental Change Synchronization (ICS)  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -55,7 +55,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

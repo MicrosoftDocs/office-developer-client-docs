@@ -175,7 +175,7 @@ void WINAPI xlAutoFree12(LPXLOPER pxFree)
 
 ## See also
 
-#### Concepts
+
 
 [Add-in Manager and XLL Interface Functions](add-in-manager-and-xll-interface-functions.md)
 

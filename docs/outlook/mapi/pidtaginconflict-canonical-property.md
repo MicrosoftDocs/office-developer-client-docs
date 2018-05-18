@@ -39,7 +39,7 @@ The email client and server must generate a conflict resolve message when detect
     
 2. Higher CN GUID (using memory compare) to break tie.
     
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -63,7 +63,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -38,7 +38,7 @@ Updates with lower versions than the task are ignored.
   
 When embedding a task in a task communication, the client sets the current version of the embedded task on the task communication as well.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -58,7 +58,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

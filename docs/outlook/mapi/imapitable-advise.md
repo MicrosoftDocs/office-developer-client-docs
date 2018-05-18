@@ -82,7 +82,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [HrThisThreadAdviseSink](hrthisthreadadvisesink.md)
   
@@ -93,7 +93,7 @@ For MFCMAPI sample code, see the following table.
 [TABLE_NOTIFICATION](table_notification.md)
   
 [IMAPITable : IUnknown](imapitableiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

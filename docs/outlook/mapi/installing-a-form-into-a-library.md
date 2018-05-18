@@ -41,7 +41,7 @@ If you implement an installation application, the series of actions it must perf
   
 ## See also
 
-#### Concepts
+
 
 [Developing MAPI Form Servers](developing-mapi-form-servers.md)
 

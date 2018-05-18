@@ -58,7 +58,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IConverterSession : IUnknown](iconvertersessioniunknown.md)
   
@@ -73,7 +73,7 @@ For MFCMAPI sample code, see the following table.
 [IConverterSession::SetEncoding](iconvertersession-setencoding.md)
   
 [IConverterSession::SetSaveFormat](iconvertersession-setsaveformat.md)
-#### Concepts
+
 
 [MAPI Constants](mapi-constants.md)
 

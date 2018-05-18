@@ -52,7 +52,7 @@ Message store providers implement the **IMSLogon::Logoff** method to forcibly sh
     
 ## See also
 
-#### Reference
+
 
 [IMAPISession::Logoff](imapisession-logoff.md)
   

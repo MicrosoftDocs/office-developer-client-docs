@@ -32,7 +32,7 @@ The OSC uses the first element of the array as the default site URL. A provider 
   
 ## See also
 
-#### Reference
+
 
 [ISocialProvider : IUnknown](isocialprovideriunknown.md)
 

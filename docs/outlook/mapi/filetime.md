@@ -55,10 +55,10 @@ The definition of the **FILETIME** structure is in the  _Win32 Programmer's Refe
   
 ## See also
 
-#### Reference
+
 
 [SPropValue](spropvalue.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

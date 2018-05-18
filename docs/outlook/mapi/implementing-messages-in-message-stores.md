@@ -22,7 +22,7 @@ The [IMessage : IMAPIProp](imessageimapiprop.md) interface is similar to the [IM
   
 ## See also
 
-#### Concepts
+
 
 [Message Store Features](message-store-features.md)
 

@@ -115,7 +115,7 @@ Connections are established with each address book provider in the session profi
   
 The profile name pointed to by the  _lpszProfileName_ parameter is displayed in the character set of the user's client as indicated by the presence or absence of the MAPI_UNICODE flag in the  _ulFlags_ parameter. 
   
-## Notes to Implementers
+## Notes to implementers
 
 In your implementation of the **Logon** method, call the [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md) method to register a unique identifier, or [MAPIUID](mapiuid.md) structure. Each of your objects will have an entry identifier that includes this **MAPIUID**. MAPI uses the **MAPIUID** to match an object with its provider. For example, when a client calls the [IMAPISession::OpenEntry](imapisession-openentry.md) method to open a messaging user, **OpenEntry** examines the **MAPIUID** portion of the entry identifier that was passed in and matches it with a **MAPIUID** registered by an address book provider. 
   
@@ -137,7 +137,7 @@ Return MAPI_E_FAILONEPROVIDER if an error occurs that is not serious enough to p
   
 ## See also
 
-#### Reference
+
 
 [IABLogon::Logoff](iablogon-logoff.md)
   

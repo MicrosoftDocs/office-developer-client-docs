@@ -37,7 +37,7 @@ Search folder criteria is specified by a template. This property on the message 
   
 For more information about Search Folder Templates see [[MS-OXOSRCH]](http://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx) . 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -61,7 +61,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

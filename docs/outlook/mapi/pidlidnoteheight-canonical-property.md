@@ -36,7 +36,7 @@ Specifies the height of the visible message window in pixels.
 
 This value must be greater than zero.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

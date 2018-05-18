@@ -89,7 +89,7 @@ Before MAPI calls **IMSLogon::OpenEntry**, it first determines that the given me
   
 ## See also
 
-#### Reference
+
 
 [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md)
   

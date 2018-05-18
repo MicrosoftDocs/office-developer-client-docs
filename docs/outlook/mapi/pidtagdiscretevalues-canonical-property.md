@@ -39,7 +39,7 @@ The recipient table of a nondelivery report contains entries for all recipients 
   
  **PR_DISCRETE_VALUES** should not be set for any nondelivery report recipient entry other than a distribution list. 
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -53,7 +53,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

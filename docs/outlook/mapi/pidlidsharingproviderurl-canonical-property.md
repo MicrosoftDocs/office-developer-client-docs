@@ -36,7 +36,7 @@ Specifies the URL that is related to the sharing provider and identified by the 
 
 This property is generally used to provide more information about the sharing provider, but should be ignored.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -27,7 +27,7 @@ Store property controlling Inference logging.
 |Data type:  <br/> |Boolean  <br/> |
 |Area:  <br/> |Message Store  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -51,7 +51,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

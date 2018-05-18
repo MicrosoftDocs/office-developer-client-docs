@@ -72,7 +72,7 @@ Common tasks and information about security and deploying managed-code form temp
     
 ## See also
 
-#### Concepts
+
 
 [InfoPath 2003 Compatible Object Models](infopath-2003-compatible-object-models.md)
 

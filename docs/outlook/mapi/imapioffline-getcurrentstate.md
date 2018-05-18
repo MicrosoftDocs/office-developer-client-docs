@@ -46,12 +46,12 @@ MAPIOFFLINE_STATE_OFFLINE
     
 ## See also
 
-#### Reference
+
 
 [IMAPIOffline::GetCapabilities](imapioffline-getcapabilities.md)
   
 [IMAPIOffline::SetCurrentState](imapioffline-setcurrentstate.md)
-#### Concepts
+
 
 [MAPI Constants](mapi-constants.md)
 

@@ -41,7 +41,7 @@ The following property value instructs Outlook to load icon ID 1001 from the mod
   
 By default, if no custom icons are specified, the provider is represented by the Outlook default icons for the online state and the offline state. The provider can optionally specify a display name to be shown adjacent to the icon in the status bar. For more information, see **PR_PROVIDER_DISPLAY_NAME_W** ([PidTagProviderDisplayName](pidtagproviderdisplayname-canonical-property.md)).
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -55,7 +55,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

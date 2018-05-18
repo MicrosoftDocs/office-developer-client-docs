@@ -86,10 +86,10 @@ The **cbeid** and **abeid** fields are only valid when the **ulType** field valu
   
 ## See also
 
-#### Reference
+
 
 [DIR_ENTRYID](dir_entryid.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

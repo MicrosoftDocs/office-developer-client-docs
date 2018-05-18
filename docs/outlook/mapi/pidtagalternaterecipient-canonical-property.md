@@ -35,7 +35,7 @@ Contains a list of entry identifiers for alternate recipients designated by the 
 
 This property is used for auto forwarded messages. It contains a [FLATENTRYLIST](flatentrylist.md) structure of alternate recipients. If autoforwarding is not permitted or if no alternate recipient has been designated, a nondelivery report is generated. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -67,10 +67,10 @@ Mapidefs.h
     
 ## See also
 
-#### Reference
+
 
 [FLATENTRYLIST](flatentrylist.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -26,7 +26,7 @@ If you use the .NET Framework 1.1 Configuration utility and the InfoPath Form Te
   
 ## See also
 
-#### Concepts
+
 
 [About the Security Model for Form Templates with Code](about-the-security-model-for-form-templates-with-code.md)
   

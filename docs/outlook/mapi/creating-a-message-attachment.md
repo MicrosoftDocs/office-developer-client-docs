@@ -92,7 +92,7 @@ A message attachment is some additional data, such as a file, another message, o
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Attachments](mapi-attachments.md)
 

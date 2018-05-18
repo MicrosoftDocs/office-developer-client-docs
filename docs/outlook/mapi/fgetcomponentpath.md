@@ -72,10 +72,10 @@ Use the **FGetComponentPath** function when you need to get the path to the priv
   
 ## See also
 
-#### Concepts
+
 
 [Choose a Specific Version of MAPI to Load](how-to-choose-a-specific-version-of-mapi-to-load.md)
-#### Other resources
+
 
 [Mapi32.dll Stub Registry Settings](http://msdn.microsoft.com/en-us/library/dd162409.aspx)
 

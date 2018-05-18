@@ -68,7 +68,7 @@ Samples\Framewrk\Framewrk.c
   
 ## See also
 
-#### Reference
+
 
 [Excel4/Excel12](excel4-excel12.md)
 

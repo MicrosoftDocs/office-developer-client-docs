@@ -36,7 +36,7 @@ Specifies a list of the **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-
 
 This property is not required.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,10 +56,10 @@ Mapidefs.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagEntryId Canonical Property](pidtagentryid-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

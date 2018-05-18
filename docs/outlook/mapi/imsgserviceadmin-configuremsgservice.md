@@ -100,7 +100,7 @@ The **IMsgServiceAdmin::ConfigureMsgService** method enables a message service t
   
 To allow configuration without a property sheet display, message services typically prepare a header file that includes constants for all the required and optional properties and their values.
   
-## Notes to Callers
+## Notes to callers
 
 To retrieve the **MAPIUID** structure for the message service to configure, retrieve the **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) column from the message service's row in the message service table. For more information, see the procedure outlined in the [IMsgServiceAdmin::CreateMsgService](imsgserviceadmin-createmsgservice.md) method. 
   
@@ -118,14 +118,14 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [MAPIUID](mapiuid.md)
   
 [SPropValue](spropvalue.md)
   
 [IMsgServiceAdmin : IUnknown](imsgserviceadminiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

@@ -41,10 +41,10 @@ CbSPropProblemArray (_lparray)
     
 ## See also
 
-#### Reference
+
 
 [SPropProblemArray](spropproblemarray.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

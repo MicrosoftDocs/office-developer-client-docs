@@ -32,10 +32,10 @@ This topic describes how to download the code samples that accompany this docume
     
 ## See also
 
-#### Concepts
+
 
 [Applying a Sample Provider Template](applying-a-sample-provider-template.md)
-#### Other resources
+
 
 [OSC Sample Templates](osc-sample-templates.md)
 

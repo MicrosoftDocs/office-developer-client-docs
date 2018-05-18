@@ -85,12 +85,12 @@ You can also use the **xlfEvaluate** function to retrieve the registration ID of
   
 ## See also
 
-#### Concepts
+
 
 [Excel Worksheet and Expression Evaluation](excel-worksheet-and-expression-evaluation.md)
   
 [Permitting User Breaks in Lengthy Operations](permitting-user-breaks-in-lengthy-operations.md)
-#### Other resources
+
 
 [Getting Started with the Excel XLL SDK](getting-started-with-the-excel-xll-sdk.md)
 

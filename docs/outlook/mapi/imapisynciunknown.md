@@ -33,7 +33,7 @@ The outbox is still in the default store. Outlook will continue to use the Trans
 |Called by:  <br/> |Store and Transport providers  <br/> |
 |Interface identifier:  <br/> |IID_IMAPISync  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -41,10 +41,10 @@ The outbox is still in the default store. Outlook will continue to use the Trans
    
 ## See also
 
-#### Reference
+
 
 [IMAPISyncProgressCallback : IUnknown](imapisyncprogresscallbackiunknown.md)
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
 

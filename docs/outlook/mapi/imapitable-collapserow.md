@@ -85,7 +85,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPITable::ExpandRow](imapitable-expandrow.md)
   
@@ -100,7 +100,7 @@ For MFCMAPI sample code, see the following table.
 [SSortOrderSet](ssortorderset.md)
   
 [IMAPITable : IUnknown](imapitableiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

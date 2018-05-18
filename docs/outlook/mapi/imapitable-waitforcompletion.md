@@ -66,7 +66,7 @@ The **IMAPITable::WaitForCompletion** method suspends processing until any async
   
 ## See also
 
-#### Reference
+
 
 [IMAPITable::GetRowCount](imapitable-getrowcount.md)
   

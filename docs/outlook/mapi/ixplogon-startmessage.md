@@ -74,7 +74,7 @@ For more information, see [Interacting with the MAPI Spooler](interacting-with-t
   
 ## See also
 
-#### Reference
+
 
 [IMAPIProp::SaveChanges](imapiprop-savechanges.md)
   

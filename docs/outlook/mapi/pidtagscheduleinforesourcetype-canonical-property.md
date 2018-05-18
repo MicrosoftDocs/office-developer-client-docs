@@ -35,7 +35,7 @@ Contains a value that must be set to zero (0).
 
 This property must be set to zero (0) when sent and ignored upon receipt.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

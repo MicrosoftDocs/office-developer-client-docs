@@ -89,14 +89,14 @@ int WINAPI fExit(void)
 
 ## See also
 
-#### Reference
+
 
 [xlfRegister (Form 1)](xlfregister-form-1.md)
   
 [xlfRegisterId](xlfregisterid.md)
   
 [xlfUnregister (Form 2)](xlfunregister-form-2.md)
-#### Concepts
+
 
 [Essential and Useful C API XLM Functions](essential-and-useful-c-api-xlm-functions.md)
 

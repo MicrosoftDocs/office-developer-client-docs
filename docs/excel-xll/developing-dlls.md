@@ -203,7 +203,7 @@ Note that the directive must be placed within the body of the function and is on
   
 ## See also
 
-#### Concepts
+
 
 [Access DLLs in Excel](how-to-access-dlls-in-excel.md)
   

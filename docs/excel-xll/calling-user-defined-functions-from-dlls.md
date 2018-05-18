@@ -111,12 +111,12 @@ When you are making a large number of calls to a UDF in this way, you can evalua
   
 ## See also
 
-#### Concepts
+
 
 [Permitting User Breaks in Lengthy Operations](permitting-user-breaks-in-lengthy-operations.md)
   
 [C API Functions That Can Be Called Only from a DLL or XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
-#### Other resources
+
 
 [Getting Started with the Excel XLL SDK](getting-started-with-the-excel-xll-sdk.md)
 

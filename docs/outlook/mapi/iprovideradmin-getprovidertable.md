@@ -67,7 +67,7 @@ This flag also controls the property types in the sort order returned by the [IM
   
 For a complete list of the columns in the provider table, see [Provider Table](provider-tables.md). 
   
-## Notes to Callers
+## Notes to callers
 
 To retrieve the rows of a provider table in transport order, sort the table by the **PR_PROVIDER_ORDINAL** ([PidTagProviderOrdinal](pidtagproviderordinal-canonical-property.md)) column. 
   
@@ -83,7 +83,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPITable::QueryColumns](imapitable-querycolumns.md)
   
@@ -96,7 +96,7 @@ For MFCMAPI sample code, see the following table.
 [IMsgServiceAdmin::GetProviderTable](imsgserviceadmin-getprovidertable.md)
   
 [IProviderAdmin : IUnknown](iprovideradminiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

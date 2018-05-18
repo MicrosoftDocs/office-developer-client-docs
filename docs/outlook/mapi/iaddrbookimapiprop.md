@@ -34,7 +34,7 @@ Supports access to the MAPI address book and includes operations such as display
 |Pointer type:  <br/> |LPADRBOOK  <br/> |
 |Transaction model:  <br/> |Not writable  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -59,7 +59,7 @@ Supports access to the MAPI address book and includes operations such as display
    
 ## See also
 
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
 

@@ -31,7 +31,7 @@ This property contains TRUE if a message sender requests proof that the message 
 |Data type:  <br/> |PT_BINARY  <br/> |
 |Area:  <br/> |MAPI Non-transmittable  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -45,7 +45,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

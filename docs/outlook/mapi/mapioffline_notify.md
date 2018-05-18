@@ -20,7 +20,7 @@ description: "Last modified: July 23, 2011"
   
 This is the notification for a change in the connection state. It indicates the part of the connection state that has changed, the old connection state, and the new connection state.
   
-## Quick Info
+## Quick info
 
 See **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**. 
   
@@ -93,7 +93,7 @@ The Offline State API supports only notifications for online/offline changes. A 
   
 ## See also
 
-#### Concepts
+
 
 [About the Offline State API](about-the-offline-state-api.md)
   

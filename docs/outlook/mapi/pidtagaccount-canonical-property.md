@@ -37,7 +37,7 @@ These properties provide identification and access information for a recipient. 
   
 These properties commonly contain the recipient's e-mail name, that is, the final component of the e-mail address, which uniquely identifies the recipient in the local organization. The e-mail name corresponds to the X.400 distinguished name, which is meant to be a short name guaranteed to be unique within a certain messaging domain.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -65,10 +65,10 @@ mapidefs.h
     
 ## See also
 
-#### Reference
+
 
 [IMailUser : IMAPIProp](imailuserimapiprop.md)
-#### Concepts
+
 
 [MAPI Canonical Properties](mapi-canonical-properties.md)
   

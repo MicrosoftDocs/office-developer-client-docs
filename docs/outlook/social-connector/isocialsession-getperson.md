@@ -36,7 +36,7 @@ The  _userID_ parameter must be a user ID or SMTP address.
   
 ## See also
 
-#### Reference
+
 
 [ISocialSession : IUnknown](isocialsessioniunknown.md)
 

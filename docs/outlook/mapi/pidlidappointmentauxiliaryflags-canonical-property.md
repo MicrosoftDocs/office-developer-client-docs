@@ -48,7 +48,7 @@ F (auxApptFlagForwarded, 0x00000004)
   
 > This flag on a meeting request indicates that it was forwarded (including being forwarded by the organizer), rather than being an invitation from the organizer.
     
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -68,7 +68,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -31,7 +31,7 @@ Contains the message body text in HTML format.
 |Data type:  <br/> |PT_BINARY  <br/> |
 |Area:  <br/> |General messaging  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -71,7 +71,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

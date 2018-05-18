@@ -26,7 +26,7 @@ Message store providers that do not support RTF text need to delete the **PR_RTF
   
 ## See also
 
-#### Concepts
+
 
 [Message Store Features](message-store-features.md)
 

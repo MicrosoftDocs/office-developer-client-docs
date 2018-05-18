@@ -31,7 +31,7 @@ Indicates the code page used for **PR_BODY** ([PidTagBody](pidtagbody-canonical-
 |Data type:  <br/> |PT_LONG  <br/> |
 |Area:  <br/> |Miscellaneous  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -55,7 +55,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

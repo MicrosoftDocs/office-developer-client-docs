@@ -35,7 +35,7 @@ Contains TRUE if the client requests an X-MS-Exchange-Organization-AutoForwarded
 
 If this property is set to FALSE or not used, no X-MS-Exchange-Organization-AutoForwarded header field will be created.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

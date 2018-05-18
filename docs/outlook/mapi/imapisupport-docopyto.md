@@ -150,7 +150,7 @@ By default, **DoCopyTo** copies or moves all of the properties of one object to 
   
 If any of the copied or moved properties already exist in the destination object, the existing properties are overwritten by the new properties, unless the MAPI_NOREPLACE flag is set in the  _ulFlags_ parameter. Existing information in the destination object that is not overwritten is left untouched. 
   
-## Notes to Callers
+## Notes to callers
 
 To exclude properties from the copy or move operation, include their property tags in the  _lpExcludeProps_ parameter. If you pass the results of using the [PROP_TAG](prop_tag.md) macro to build a property tag from a specific identifier in the property tag array, all properties with that identifier will be excluded. For example, the following entry in the property tag array causes all properties with an identifier of 0x8002 to be excluded, regardless of type: 
   
@@ -180,7 +180,7 @@ If a global error occurs on the **DoCopyTo** call, do not use or free the **SPro
   
 ## See also
 
-#### Reference
+
 
 [IMAPIProp::CopyTo](imapiprop-copyto.md)
   

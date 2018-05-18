@@ -41,10 +41,10 @@ CbMAPIFormInfoArray (_c)
     
 ## See also
 
-#### Reference
+
 
 [SMAPIFormInfoArray](smapiforminfoarray.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

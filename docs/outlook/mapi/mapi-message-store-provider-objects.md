@@ -26,7 +26,7 @@ The following illustration shows each message store object with its correspondin
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Service Provider Objects](mapi-service-provider-objects.md)
 

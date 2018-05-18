@@ -54,7 +54,7 @@ For general information about the methods of the **IABLogon** interface, see [Im
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
 

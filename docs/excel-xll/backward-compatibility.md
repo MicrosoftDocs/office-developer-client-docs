@@ -71,7 +71,7 @@ Analysis Toolpak (ATP) functions are part of Excel starting in Excel 2007. Previ
   
 ## See also
 
-#### Concepts
+
 
 [C API Callback Functions Excel4, Excel12](c-api-callback-functions-excel4-excel12.md)
   

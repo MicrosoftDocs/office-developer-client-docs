@@ -26,7 +26,7 @@ Clients building restrictions with large properties should be aware that it is u
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Tables](mapi-tables.md)
 

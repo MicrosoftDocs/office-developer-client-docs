@@ -60,7 +60,7 @@ MAPI_E_NO_SUPPORT
 
 The **IMsgStore::FinishedMsg** method performs processing on a sent message. This processing can involve deleting the message, moving it to a different folder, or both actions. The type of processing depends on whether the **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) and **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) properties are set. 
   
-## Notes to Implementers
+## Notes to implementers
 
 In your implementation of **FinishedMsg**, unlock the message identified by  _lpEntryID_ and perform the appropriate processing. The target message will always be locked; the MAPI spooler never passes the entry identifier for an unlocked message to **FinishedMsg**.
   
@@ -77,7 +77,7 @@ After you have taken whatever action is appropriate, call the [IMAPISupport::DoS
   
 ## See also
 
-#### Reference
+
 
 [IMAPISupport::DoSentMail](imapisupport-dosentmail.md)
   

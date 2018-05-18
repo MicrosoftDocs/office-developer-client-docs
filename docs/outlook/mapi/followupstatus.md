@@ -20,7 +20,7 @@ description: "Last modified: July 23, 2011"
   
 Specifies the different follow-up statuses for a message.
   
-## Quick Info
+## Quick info
 
 ```cpp
 enum FollowUpStatus { 
@@ -51,7 +51,7 @@ enum FollowUpStatus {
     
 ## See also
 
-#### Reference
+
 
 [PidTagFlagStatus Canonical Property](pidtagflagstatus-canonical-property.md)
 

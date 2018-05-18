@@ -61,14 +61,14 @@ In the **abMTSIDs** array, each **MTSID** structure is aligned on a naturally al
   
 ## See also
 
-#### Reference
+
 
 [CbNewFLATMTSIDLIST](cbnewflatmtsidlist.md)
   
 [FLATENTRYLIST](flatentrylist.md)
   
 [MTSID](mtsid.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

@@ -64,7 +64,7 @@ The following table summarizes important differences among **PR_ENTRYID**, **PR_
 |Unique within ...  <br/> |Entire world  <br/> |Provider instance  <br/> |Entire world  <br/> |
 |Binary comparable (as with memcmp)  <br/> |No -- use **IMAPISupport:: CompareEntryIDs** <br/> |Yes  <br/> |Yes  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -92,7 +92,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

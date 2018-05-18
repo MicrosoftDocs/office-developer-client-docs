@@ -119,7 +119,7 @@ The read flag cannot be changed for the following:
     
 - Messages that are currently submitted.
     
-## Notes to Implementers
+## Notes to implementers
 
 You can decide not to support the sending of read reports and the request to suppress read reports. To avoid suppressing a read report, return MAPI_E_NO_SUPPRESS when **SetReadFlags** is called with SUPPRESS_RECEIPT set in the  _ulFlags_ parameter. 
   
@@ -143,7 +143,7 @@ When the GENERATE_RECEIPT_ONLY flag is set, send any pending read reports. Do no
   
 When both the SUPPRESS_RECEIPT and GENERATE_RECEIPT_ONLY flags are set, set **PR_READ_RECEIPT_REQUESTED** to FALSE if it is set and do not send a read report. 
   
-## Notes to Callers
+## Notes to callers
 
 Expect these return values under the following conditions.
   
@@ -165,7 +165,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [ENTRYLIST](entrylist.md)
   
@@ -176,7 +176,7 @@ For MFCMAPI sample code, see the following table.
 [PidTagReadReceiptRequested Canonical Property](pidtagreadreceiptrequested-canonical-property.md)
   
 [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
   

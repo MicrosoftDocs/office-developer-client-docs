@@ -69,14 +69,14 @@ For more information about how **MAPIUID** structures are used, see the followin
   
 ## See also
 
-#### Reference
+
 
 [GUID](guid.md)
   
 [IMAPISession::OpenProfileSection](imapisession-openprofilesection.md)
   
 [IMAPISupport::NewUID](imapisupport-newuid.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

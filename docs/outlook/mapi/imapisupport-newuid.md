@@ -46,13 +46,13 @@ S_OK
 
 The **IMAPISupport::NewUID** method is implemented for all support objects. Service providers and message services call **NewUID** whenever they need to generate a long-term unique identifier. A message store provider, for example, might call **NewUID** to obtain a **MAPIUID** to put in the **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) property of a newly created message.
   
-## Notes to Callers
+## Notes to callers
 
 Do not confuse the **MAPIUID** structure that you register at logon time with the **MAPIUID** structures that the **NewUID** method creates. The **MAPIUID** structure that you register when you call the [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md) method represents your address book or message store provider to MAPI and is used to distinguish entry identifiers that different providers create. This **MAPIUID** structure should be hard-coded and not obtained through a call to **NewUID**.
   
 ## See also
 
-#### Reference
+
 
 [MAPIUID](mapiuid.md)
   

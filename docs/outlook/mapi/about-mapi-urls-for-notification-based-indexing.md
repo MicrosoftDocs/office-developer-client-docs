@@ -139,7 +139,7 @@ The store provider must write these values to the BLOB in the order shown. The f
     
 ## See also
 
-#### Concepts
+
 
 [About Notification-Based Store Indexing](about-notification-based-store-indexing.md)
   

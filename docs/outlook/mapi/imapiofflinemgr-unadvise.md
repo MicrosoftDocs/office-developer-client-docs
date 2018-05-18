@@ -53,10 +53,10 @@ Removes the registration for the callback that was associated with  *ulAdviseTok
   
 ## See also
 
-#### Reference
+
 
 [IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)
-#### Concepts
+
 
 [MAPI Constants](mapi-constants.md)
 

@@ -32,7 +32,7 @@ Contains the message value that identifies and marks messages that are likely to
 |Data type:  <br/> |PT_LONG  <br/> |
 |Area:  <br/> |Secure messaging  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -52,7 +52,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

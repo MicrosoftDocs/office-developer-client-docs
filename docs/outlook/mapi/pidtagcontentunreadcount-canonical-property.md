@@ -39,7 +39,7 @@ This property contains the number of messages in the folder contents table for w
   
 Some client applications display the heading row of a category differently depending on the value of this property. For example, a client can display a category that includes unread messages in bold. This property cannot be used as a category and an attempt to do so results in the MAPI_E_INVALID_PARAMETER value being returned from the [IMAPITable::SortTable](imapitable-sorttable.md) method. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -67,7 +67,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

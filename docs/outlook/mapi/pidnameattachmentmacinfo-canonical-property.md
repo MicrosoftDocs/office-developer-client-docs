@@ -36,7 +36,7 @@ Contains an [RFC3282] attachment value that is comprised of appropriate header a
 
 For more information, see MS-OXCMAIL section 2.2.4.2 Apple File Formats.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

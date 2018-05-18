@@ -53,7 +53,7 @@ Client applications call the **IMAPIFormInfo::MakeIconFromBinary** method to bui
   
 ## See also
 
-#### Reference
+
 
 [IMAPIFormInfo : IMAPIProp](imapiforminfoimapiprop.md)
 

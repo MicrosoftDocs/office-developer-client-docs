@@ -35,7 +35,7 @@ Contains the value for calculating the start and end dates of the range of free/
 
 This property's value must be greater than or equal to 0 and less than or equal to 36. This is not a required property.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

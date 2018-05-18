@@ -32,7 +32,7 @@ Indicates whether the document was sent to a routing recipient during journaling
 |Data type:  <br/> |PT_BOOLEAN  <br/> |
 |Area:  <br/> |Journal  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -52,7 +52,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

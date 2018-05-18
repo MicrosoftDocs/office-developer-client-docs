@@ -16,7 +16,7 @@ description: "Initializes an IOlkApptRebaser object for use in rebasing appointm
 
 Initializes an [IOlkApptRebaser](iolkapptrebaser.md) object for use in rebasing appointments in Outlook calendars. 
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|
@@ -122,7 +122,7 @@ For more information about the various options, see the section "Glossary of com
   
 ## See also
 
-#### Concepts
+
 
 [About rebasing calendars programmatically for Daylight Saving Time](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
 

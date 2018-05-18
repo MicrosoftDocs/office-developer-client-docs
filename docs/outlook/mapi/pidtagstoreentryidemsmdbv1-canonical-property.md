@@ -35,10 +35,10 @@ To access the PR_STORE_ENTRYID_EMSMDB_V1 property while in cached mode, you must
   
 ## See also
 
-#### Reference
+
 
 [PidTagStoreEntryId Canonical Property](pidtagstoreentryid-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

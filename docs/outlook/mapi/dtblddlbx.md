@@ -71,7 +71,7 @@ For an overview of display tables, see [Display Tables](display-tables.md). For 
   
 ## See also
 
-#### Reference
+
 
 [DTCTL](dtctl.md)
   
@@ -80,7 +80,7 @@ For an overview of display tables, see [Display Tables](display-tables.md). For 
 [IMAPIProp::SetProps](imapiprop-setprops.md)
   
 [IMAPIProp::GetProps](imapiprop-getprops.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
   

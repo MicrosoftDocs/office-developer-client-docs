@@ -36,7 +36,7 @@ Specifies the e-mail address of the contact's business fax.
 
 This property, if present, should contain a user-readable display name, followed by the "@" character, followed by a fax number.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

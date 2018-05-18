@@ -37,7 +37,7 @@ This value must be present for all address book objects on an Name Service Provi
   
 This property is not present on objects in an offline address book.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -61,7 +61,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

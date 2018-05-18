@@ -95,7 +95,7 @@ MAPI_E_UNKNOWN_ENTRYID
 
 The **IMAPISupport::OpenEntry** method is implemented for all service provider support objects. Service providers call **IMAPISupport::OpenEntry** to retrieve a pointer to an interface that can be used to access a particular object. 
   
-## Notes to Callers
+## Notes to callers
 
 Call **IMAPISupport::OpenEntry** only when you do not know what kind of object you are opening. If you know you are opening a folder or a message, call [IMsgStore::OpenEntry](imsgstore-openentry.md) instead. If you know you are opening an address book container, a messaging user, or a distribution list, call [IAddrBook::OpenEntry](iaddrbook-openentry.md). These more specific methods are faster than **IMAPISupport::OpenEntry**. 
   
@@ -105,7 +105,7 @@ Check the value returned in the  _lpulObjType_ parameter to determine that the o
   
 ## See also
 
-#### Reference
+
 
 [IMAPISupport : IUnknown](imapisupportiunknown.md)
 

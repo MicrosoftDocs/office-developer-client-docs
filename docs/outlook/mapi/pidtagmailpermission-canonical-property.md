@@ -37,7 +37,7 @@ If this property is not set, MAPI treats it as having a TRUE value.
   
 Set this property to FALSE in a corporate directory where some of the entries are not e-mail-enabled. 
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -51,7 +51,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

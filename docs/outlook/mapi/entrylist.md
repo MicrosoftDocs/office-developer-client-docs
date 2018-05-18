@@ -39,12 +39,12 @@ See the **SBinaryArry** structure for members.
   
 ## See also
 
-#### Reference
+
 
 [ENTRYID](entryid.md)
   
 [SBinaryArray](sbinaryarray.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

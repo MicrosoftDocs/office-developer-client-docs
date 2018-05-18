@@ -35,7 +35,7 @@ Contains the Entry IDs of the stores in which folders that act as contact addres
 
 This is a property on a Contact Address Book profile section.
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

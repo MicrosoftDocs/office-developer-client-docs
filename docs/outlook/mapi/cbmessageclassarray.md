@@ -41,10 +41,10 @@ CbMessageClassArray (_c)
     
 ## See also
 
-#### Reference
+
 
 [SMessageClassArray](smessageclassarray.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

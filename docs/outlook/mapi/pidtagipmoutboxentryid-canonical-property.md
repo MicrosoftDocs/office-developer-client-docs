@@ -35,7 +35,7 @@ Contains the entry identifier of the standard interpersonal message (IPM) Outbox
 
 Outbound messages are usually created in the Outbox folder. Interpersonal messages should be placed in this folder for submission. 
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

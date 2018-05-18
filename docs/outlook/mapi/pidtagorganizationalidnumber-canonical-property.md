@@ -35,7 +35,7 @@ Contains an organizational ID number for the contact, such as an employee ID num
 
 These are optional properties. Their use is determined by the messaging user or organization.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -63,7 +63,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

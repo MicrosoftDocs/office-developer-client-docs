@@ -39,7 +39,7 @@ On an outbound message, the transport provider should compute a binary value uni
   
 On an inbound message, the transport provider should call the [ITnef::ExtractProps](itnef-extractprops.md) method to decapsulate the TNEF attachment and then compare this property with the value stored in the transport envelope. If the values match, TNEF should be processed normally, that is, all the properties extracted from the TNEF attachment should be used. If the values do not match, all the properties from the TNEF attachment should be ignored. If this property is not set, the TNEF file should be considered to belong to this message, and the other properties extracted from it should be used. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -71,7 +71,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

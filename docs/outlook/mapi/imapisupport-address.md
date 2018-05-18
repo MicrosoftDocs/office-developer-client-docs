@@ -72,7 +72,7 @@ In addition to **PR_ENTRYID**, resolved recipients include the following propert
     
 Unresolved recipients typically include only **PR_DISPLAY_NAME** and **PR_RECIPIENT_TYPE**. 
   
-## Notes to Callers
+## Notes to callers
 
 The **ADRLIST** structure that the caller passes in might be a different size from the structure that MAPI returns. When you allocate memory for the **ADRLIST** structure, allocate the memory for each [SPropValue](spropvalue.md) structure separately. 
   
@@ -84,7 +84,7 @@ If **Address** must return a larger **ADRLIST** structure, or if you have passed
   
 ## See also
 
-#### Reference
+
 
 [ABProviderInit](abproviderinit.md)
   
@@ -125,7 +125,7 @@ If **Address** must return a larger **ADRLIST** structure, or if you have passed
 [SRowSet](srowset.md)
   
 [IMAPISupport : IUnknown](imapisupportiunknown.md)
-#### Concepts
+
 
 [Managing Memory for ADRLIST and SRowSet Structures](managing-memory-for-adrlist-and-srowset-structures.md)
 

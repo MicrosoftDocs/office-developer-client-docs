@@ -34,7 +34,7 @@ Provides access to the many properties that are associated with messaging users.
 |Pointer type:  <br/> |LPMAILUSER  <br/> |
 |Transaction model:  <br/> |Transacted  <br/> |
    
-## Vtable Order
+## Vtable order
 
 This interface does not have any unique methods.
   
@@ -87,7 +87,7 @@ For a complete list of properties, see [Mapping Canonical Property Names to MAPI
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
 

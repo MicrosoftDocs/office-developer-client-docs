@@ -35,7 +35,7 @@ Contains a history showing how a distribution list has been expanded during mess
 
 This property is available to receiving client applications if the transport provider has set it. It is also available to the sending client if the message content is returned with a report. 
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,10 +49,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagDistributionListExpansionProhibited Canonical Property](pidtagdistributionlistexpansionprohibited-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -53,7 +53,7 @@ Clients can create other bookmarks for remembering other table positions. Bookma
   
 ## See also
 
-#### Reference
+
 
 [IMAPITable::CreateBookmark](imapitable-createbookmark.md)
   
@@ -62,7 +62,7 @@ Clients can create other bookmarks for remembering other table positions. Bookma
 [IMAPITable::FreeBookmark](imapitable-freebookmark.md)
   
 [IMAPITable::SeekRow](imapitable-seekrow.md)
-#### Concepts
+
 
 [MAPI Data Types](mapi-data-types.md)
 

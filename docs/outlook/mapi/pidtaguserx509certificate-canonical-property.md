@@ -37,7 +37,7 @@ This property is used by applications that utilize public-key security. It holds
   
 Various applications and clients can use this property for their own security certificates. The binary format of the X.509 data can vary among vendors. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -61,7 +61,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

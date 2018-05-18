@@ -55,11 +55,11 @@ S_OK
 
 Form objects call the **IMAPIViewContext::GetPrintSetup** method to retrieve information about the printer setup before attempting to print the current message. 
   
-## Notes to Implementers
+## Notes to implementers
 
 Allocate the **hDevMode** and **hDevName** members of the [FORMPRINTSETUP](formprintsetup.md) structure using the Win32 function **GlobalAlloc**.
   
-## Notes to Callers
+## Notes to callers
 
 If you expect the **hDevMode** and **hDevName** members of the **FORMPRINTSETUP** structure pointed to by the  _lppFormPrintSetup_ parameter to be Unicode strings, set  _ulFlags_ to MAPI_UNICODE. Otherwise, **GetPrintSetup** will return these strings in ANSI format. 
   
@@ -67,7 +67,7 @@ Free the **hDevMode** and **hDevName** members of the **FORMPRINTSETUP** structu
   
 ## See also
 
-#### Reference
+
 
 [FORMPRINTSETUP](formprintsetup.md)
   

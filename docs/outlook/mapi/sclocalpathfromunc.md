@@ -72,7 +72,7 @@ MAPI_E_NOT_FOUND
     
 ## See also
 
-#### Reference
+
 
 [ScUNCFromLocalPath](scuncfromlocalpath.md)
 

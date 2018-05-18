@@ -71,12 +71,12 @@ For an overview of display tables, see [Display Tables](display-tables.md). For 
   
 ## See also
 
-#### Reference
+
 
 [DTCTL](dtctl.md)
   
 [PidTagControlType Canonical Property](pidtagcontroltype-canonical-property.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

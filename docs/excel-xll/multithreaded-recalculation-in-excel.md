@@ -223,7 +223,7 @@ To make an XLL's functions available in this way, they must therefore be wrapped
 ## See also
 <a name="xl2007xllsdk_threadsafe"> </a>
 
-#### Concepts
+
 
 [Excel Recalculation](excel-recalculation.md)
   

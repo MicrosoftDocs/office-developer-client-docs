@@ -42,7 +42,7 @@ This property must be one of the following values.
 |0x00000001  <br/> |The task is the task assigner's copy of the task.  <br/> |
 |0x00000002  <br/> |The task is the task assignee's copy of the task.  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -62,7 +62,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

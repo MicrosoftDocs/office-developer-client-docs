@@ -35,7 +35,7 @@ Contains the search key for the sender of the first version of a message, that i
 
 This property is one of the address properties for the original sender of a message. At first submission of the message, the client application should set this property to the value of the **PR_SENDER_SEARCH_KEY** ([PidTagSenderSearchKey](pidtagsendersearchkey-canonical-property.md)) property. It is never changed when the message is forwarded or replied to.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

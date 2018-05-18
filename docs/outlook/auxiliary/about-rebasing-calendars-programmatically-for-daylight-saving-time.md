@@ -62,7 +62,7 @@ To obtain the Tzmovelib.dll assembly, download the OutlookTimeZoneMoveLibRedist.
   
 ## See also
 
-#### Concepts
+
 
 [About persisting TZDEFINITION to a stream to commit to a binary property](about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property.md)
   
@@ -71,7 +71,7 @@ To obtain the Tzmovelib.dll assembly, download the OutlookTimeZoneMoveLibRedist.
 [Parse a stream from a binary property to read the TZREG structure](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md)
   
 [Read time zone properties from an appointment](how-to-read-time-zone-properties-from-an-appointment.md)
-#### Other resources
+
 
 [Daylight Saving Time Help and Support Center](http://support.microsoft.com/gp/cp_dst)
   

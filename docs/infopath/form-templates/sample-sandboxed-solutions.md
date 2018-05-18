@@ -91,7 +91,7 @@ Perform the following steps to create a form template that sorts the data in a *
   
   ```
 
-  ```VB.net
+  ```vb
   ' Put the elements from the first column into an array.
   Dim root As XPathNavigator = Me.CreateNavigator
   ' Create a node iterator which contains only the values that you want to sort
@@ -232,7 +232,7 @@ From code in an InfoPath form, you can use the SharePoint object model to create
   }
   ```
 
-  ```VB.net
+  ```vb
   ' Use InfoPath OM's ServerInfo.SharePointSiteUrl property to specify the site where the form is published.
   Using FormSite As New SPSite(ServerInfo.SharePointSiteUrl.ToString())
       Using FormWeb As SPWeb = FormSite.OpenWeb()
@@ -269,7 +269,7 @@ From code in an InfoPath form, you can use the SharePoint object model to create
   }
   ```
 
-  ```VB.net
+  ```vb
   Private Function GetDomValue(XpathToGet As String) As String
       Return Me.CreateNavigator().SelectSingleNode(XpathToGet, Me.NamespaceManager).Value
   End Function

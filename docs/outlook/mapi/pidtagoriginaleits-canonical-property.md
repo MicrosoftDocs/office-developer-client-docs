@@ -31,7 +31,7 @@ Contains a copy of the original encoded information types (EITs) for message tex
 |Data type:  <br/> |PT_BINARY  <br/> |
 |Area:  <br/> |Server  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -45,7 +45,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

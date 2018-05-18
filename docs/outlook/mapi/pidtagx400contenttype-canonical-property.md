@@ -31,7 +31,7 @@ This property contains the content type for a submitted message.
 |Data type:  <br/> |PT_BINARY  <br/> |
 |Area:  <br/> |X400  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -45,7 +45,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

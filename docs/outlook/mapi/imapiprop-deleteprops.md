@@ -55,11 +55,11 @@ MAPI_E_NO_ACCESS
 
 The **IMAPIProp::DeleteProps** method removes one or more properties from the current object. 
   
-## Notes to Implementers
+## Notes to implementers
 
 You do not have to allow properties to be deleted from all objects. If the object is not modifiable, return MAPI_E_NO_ACCESS from the **DeleteProps** method. 
   
-## Notes to Callers
+## Notes to callers
 
 You do not have to set the property type for each property tag in the property tag array pointed to by the  _lpPropTagArray_ parameter. Property types are ignored; only the property identifiers are used. 
   
@@ -79,7 +79,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIProp::GetLastError](imapiprop-getlasterror.md)
   
@@ -94,7 +94,7 @@ For MFCMAPI sample code, see the following table.
 [SPropTagArray](sproptagarray.md)
   
 [IMAPIProp : IUnknown](imapipropiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

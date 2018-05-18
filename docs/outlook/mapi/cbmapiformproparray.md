@@ -41,12 +41,12 @@ CbMAPIFormPropArray (_c)
     
 ## See also
 
-#### Reference
+
 
 [SMAPIFormPropArray](smapiformproparray.md)
   
 [SMAPIFormProp](smapiformprop.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

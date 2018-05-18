@@ -36,7 +36,7 @@ Property and object access can also be retrieved or set by using the [IPropData]
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Property Overview](mapi-property-overview.md)
 

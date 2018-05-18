@@ -42,12 +42,12 @@ For information about handling sessions from within a client application, see [M
   
 ## See also
 
-#### Reference
+
 
 [MAPILogonEx](mapilogonex.md)
   
 [IMAPISession : IUnknown](imapisessioniunknown.md)
-#### Concepts
+
 
 [MAPI Session Handling](mapi-session-handling.md)
   

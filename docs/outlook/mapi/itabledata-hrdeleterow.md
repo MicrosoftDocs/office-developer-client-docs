@@ -56,7 +56,7 @@ Deleting a row does not reduce the column set that is available to existing view
   
 ## See also
 
-#### Reference
+
 
 [CreateTable](createtable.md)
   

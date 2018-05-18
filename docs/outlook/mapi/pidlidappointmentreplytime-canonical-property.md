@@ -36,7 +36,7 @@ Specifies the date and time when the attendee responded to a received meeting re
 
 The value must be specified in Coordinated Universal Time (UTC).
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

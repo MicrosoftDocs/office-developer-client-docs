@@ -34,7 +34,7 @@ Works with the properties of profile section objects.
 |Pointer type:  <br/> |LPPROFSECT  <br/> |
 |Transaction model:  <br/> |Nontransacted  <br/> |
    
-## Vtable Order
+## Vtable order
 
 This interface does not have any unique methods.
   
@@ -43,7 +43,7 @@ This interface does not have any unique methods.
 |**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Read-only  <br/> |
 |**PR_PROFILE_NAME** ([PidTagProfileName](pidtagprofilename-canonical-property.md))  <br/> |Read-only  <br/> |
    
-## Notes to Callers
+## Notes to callers
 
 The **IProfSect** interface does not have any unique methods of its own, but you can call the profile section's [IMAPIProp](imapipropiunknown.md) methods. There are some differences between the **IProfSect** implementation and other implementations of **IMAPIProp**:
   
@@ -79,7 +79,7 @@ For more information about how to use profile sections, see [Administering Profi
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
 

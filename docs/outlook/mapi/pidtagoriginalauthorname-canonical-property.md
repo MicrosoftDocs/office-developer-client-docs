@@ -37,7 +37,7 @@ These properties are examples of the address properties for the author of a mess
   
 The original author properties allow for preservation of information from outside the local messaging domain. When a message arrives from another messaging domain, such as from the Internet, these properties provide a way to ensure that original information is not lost.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -61,10 +61,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagDisplayName Canonical Property](pidtagdisplayname-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

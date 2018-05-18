@@ -92,11 +92,11 @@ If the bookmark passed in  _BkOrigin_ is either BOOKMARK_BEGINNING or BOOKMARK_E
   
 The **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) property column is required for all tables, and all implementations of **FindRow** are required to support calls seeking a row based on PR_INSTANCE_KEY. 
   
-## Notes to Implementers
+## Notes to implementers
 
 The type of prefix searching performed by **FindRow** is only useful when the search follows the same direction as the table organization. In order to achieve the required behavior, the comparison function implied by the **RELOP_GE** passed in the property restriction structure should be the same comparison function on which the table sort order is based. 
   
-## Notes to Callers
+## Notes to callers
 
 You can use **FindRow** to support scrolling based on strings typed in by the user, especially in list boxes within address dialog boxes. In this type of scrolling, users enter progressively longer prefixes of a desired string value, and you can periodically issue a **FindRow** call to jump to the first row that matches the prefix. Which direction the cursor jumps depends on which direction the search is set to run. 
   
@@ -116,7 +116,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPITable::CreateBookmark](imapitable-createbookmark.md)
   
@@ -125,7 +125,7 @@ For MFCMAPI sample code, see the following table.
 [SRestriction](srestriction.md)
   
 [IMAPITable : IUnknown](imapitableiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

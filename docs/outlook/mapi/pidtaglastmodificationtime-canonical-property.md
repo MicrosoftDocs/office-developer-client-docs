@@ -35,7 +35,7 @@ Contains the date and time when the object or subobject was last modified.
 
 This property is initially set to the same value as the **PR_CREATION_TIME** ([PidTagCreationTime](pidtagcreationtime-canonical-property.md)) property. Attachment subobjects can update it as necessary by copying the last modification time maintained by the native file system. A client application can set this property until the first call to the [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method. From then on the provider should update **PR_LAST_MODIFICATION_TIME** during every **IMAPIProp::SaveChanges** call. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -63,7 +63,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

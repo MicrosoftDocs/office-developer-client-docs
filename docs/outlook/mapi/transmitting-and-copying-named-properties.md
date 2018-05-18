@@ -26,7 +26,7 @@ A similar remapping of named properties must occur when these properties are cop
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Named Properties](mapi-named-properties.md)
 

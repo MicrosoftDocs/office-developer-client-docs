@@ -32,7 +32,7 @@ Contains the billing information associated with an item.
 |Data type:  <br/> |PT_UNICODE  <br/> |
 |Area:  <br/> |General messaging  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -48,7 +48,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

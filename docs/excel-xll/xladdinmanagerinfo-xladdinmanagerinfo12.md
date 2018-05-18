@@ -83,7 +83,7 @@ LPXLOPER12 WINAPI xlAddInManagerInfo12(LPXLOPER12 xAction)
 
 ## See also
 
-#### Concepts
+
 
 [Add-in Manager and XLL Interface Functions](add-in-manager-and-xll-interface-functions.md)
 

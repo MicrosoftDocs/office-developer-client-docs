@@ -33,7 +33,7 @@ Contains the value used to synchronize this definition message with the matching
 
 This property is changed when the definition message is changed. It must change each iteration, but it may not be unique.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -57,7 +57,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

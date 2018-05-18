@@ -44,7 +44,7 @@ There are some limitations to recurrences:
     
 The schedule of a recurring series is determined by its recurrence pattern and range.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -68,7 +68,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

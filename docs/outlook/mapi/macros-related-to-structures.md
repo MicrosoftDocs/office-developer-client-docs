@@ -51,10 +51,10 @@ The following table lists macros that are related to MAPI structures:
    
 ## See also
 
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
-#### Other resources
+
 
 [MAPI Reference](mapi-reference.md)
 

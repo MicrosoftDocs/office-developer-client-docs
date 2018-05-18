@@ -65,7 +65,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IAddrBook::GetPAB](iaddrbook-getpab.md)
   
@@ -74,7 +74,7 @@ For MFCMAPI sample code, see the following table.
 [PidTagContainerFlags Canonical Property](pidtagcontainerflags-canonical-property.md)
   
 [IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

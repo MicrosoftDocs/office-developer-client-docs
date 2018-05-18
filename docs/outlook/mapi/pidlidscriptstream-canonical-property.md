@@ -32,7 +32,7 @@ Represents the code written in Visual Basic Scripting Edition (VBScript) behind 
 |Data type:  <br/> |PT_BINARY  <br/> |
 |Area:  <br/> |Run-time configuration  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -48,7 +48,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

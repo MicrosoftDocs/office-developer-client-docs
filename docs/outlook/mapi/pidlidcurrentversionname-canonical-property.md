@@ -32,7 +32,7 @@ Contains a String that indicates the major and minor version number of the Outlo
 |Data type:  <br/> |TBD  <br/> |
 |Area:  <br/> |General messaging  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -60,7 +60,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

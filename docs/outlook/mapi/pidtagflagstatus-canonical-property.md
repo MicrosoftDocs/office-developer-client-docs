@@ -41,7 +41,7 @@ This property must not exist on a meeting-related object, and it should not exis
 |0x00000001  <br/> |followupComplete  <br/> |Flagged complete  <br/> |
 |0x00000002  <br/> |followupFlagged  <br/> |Flagged  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -65,7 +65,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

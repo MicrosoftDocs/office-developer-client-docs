@@ -45,7 +45,7 @@ When the value of this property is set, the **dispidTaskLastUpdate** ([PidLidTas
 |0x00000005  <br/> |The task was assigned to a task assignee.  <br/> |
 |0x00000000  <br/> |No changes were made.  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -65,7 +65,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

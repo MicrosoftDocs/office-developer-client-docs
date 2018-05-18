@@ -31,7 +31,7 @@ Indicates whether a folder's message is delegated by a rule.
 |Data type:  <br/> |PT_BOOLEAN  <br/> |
 |Area:  <br/> |MAPI status  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -55,7 +55,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

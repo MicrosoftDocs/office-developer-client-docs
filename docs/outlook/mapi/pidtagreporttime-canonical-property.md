@@ -35,7 +35,7 @@ Contains the date and time when the messaging system generated a report.
 
 This property represents a per-recipient property on delivery and nondelivery reports and a per-message property on read and nonread reports. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -63,7 +63,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

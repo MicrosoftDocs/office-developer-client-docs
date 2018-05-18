@@ -32,7 +32,7 @@ You should adhere to the following practices when you develop an Outlook Social 
     
 ## See also
 
-#### Other resources
+
 
 [OSC Typical Calling Sequences](osc-typical-calling-sequences.md)
   

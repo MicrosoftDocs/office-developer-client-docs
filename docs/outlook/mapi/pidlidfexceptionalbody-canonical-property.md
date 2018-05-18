@@ -36,7 +36,7 @@ Indicates that the exception embedded message object has a body that differs fro
 
 If the value of this property is TRUE, then the exception embedded message object must have a body. If the value of this property is FALSE, or if the property does not exist, then a client or server must obtain the body from the recurring calendar object.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

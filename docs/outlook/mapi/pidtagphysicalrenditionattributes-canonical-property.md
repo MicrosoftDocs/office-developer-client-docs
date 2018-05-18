@@ -31,7 +31,7 @@ Contains an ASN.1 object identifier that is used for rendering message attachmen
 |Data type:  <br/> |PT_BINARY  <br/> |
 |Area:  <br/> |MAPI Recipient  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -45,7 +45,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -30,7 +30,7 @@ When the client application sends the message, the message store provider checks
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Features and Architecture](mapi-features-and-architecture.md)
 

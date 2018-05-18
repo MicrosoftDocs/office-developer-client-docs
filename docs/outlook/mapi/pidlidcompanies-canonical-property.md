@@ -32,7 +32,7 @@ Contains the names of the companies that are associated with an item.
 |Data type:  <br/> |PT_MV_UNICODE  <br/> |
 |Area:  <br/> |General messaging  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -52,7 +52,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

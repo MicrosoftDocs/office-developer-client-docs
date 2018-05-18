@@ -56,7 +56,7 @@ S_OK
 
 The **IPropData::HrGetPropAccess** method retrieves a set of flags that indicates the access level and status for one or more properties. 
   
-## Notes to Callers:
+## Notes to callers:
 
 You can use **HrGetPropAccess** for the following purposes: 
   
@@ -72,7 +72,7 @@ If a property has not been modified or deleted, only the IPROP_READONLY or IPROP
   
 ## See also
 
-#### Reference
+
 
 [SPropTagArray](sproptagarray.md)
   

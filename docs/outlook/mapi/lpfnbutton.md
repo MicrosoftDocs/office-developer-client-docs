@@ -78,7 +78,7 @@ In both cases, when the dialog box is displayed and the user chooses the defined
   
 ## See also
 
-#### Reference
+
 
 [BuildDisplayTable](builddisplaytable.md)
 

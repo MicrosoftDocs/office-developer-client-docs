@@ -35,7 +35,7 @@ Contains the date and time when a message sender wants a message delivered.
 
 MAPI does not perform the deferred delivery; it is an option of the underlying messaging system to handle deferred delivery.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

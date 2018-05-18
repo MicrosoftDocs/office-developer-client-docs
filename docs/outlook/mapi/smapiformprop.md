@@ -105,12 +105,12 @@ The **SMAPIFormProp** structure contains information about a form property used 
   
 ## See also
 
-#### Reference
+
 
 [MAPINAMEID](mapinameid.md)
   
 [SMAPIFormPropEnumVal](smapiformpropenumval.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

@@ -16,7 +16,7 @@ description: "Releases the MAPI session object that was returned by IOlkAccountH
 
 Releases the MAPI session object that was returned by [IOlkAccountHelper::GetMapiSession](iolkaccounthelper-getmapisession.md).
   
-## Quick Info
+## Quick info
 
 See [IOlkAccountHelper](iolkaccounthelper.md).
   
@@ -33,7 +33,7 @@ HRESULT IOlkAccountHelper::HandsOffSession( );
    
 ## See also
 
-#### Concepts
+
 
 [Constants (Account management API)](constants-account-management-api.md)
   

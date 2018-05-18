@@ -32,7 +32,7 @@ Contains an [RFC3282] Content-Transfer-Encoding header field value.
 |Data type:  <br/> |PT_UNICODE  <br/> |
 |Area:  <br/> |E-mail  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -52,7 +52,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

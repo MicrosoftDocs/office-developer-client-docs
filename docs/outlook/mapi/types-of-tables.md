@@ -46,7 +46,7 @@ The MAPI tables and their implementers and users are:
    
 ## See also
 
-#### Concepts
+
 
 [MAPI Tables](mapi-tables.md)
 

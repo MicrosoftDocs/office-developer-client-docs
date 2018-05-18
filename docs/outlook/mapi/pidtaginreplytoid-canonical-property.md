@@ -35,7 +35,7 @@ Contains the original message's **PR_INTERNET_MESSAGE_ID** ([PidTagInternetMessa
 
 These properties must be set on all message replies.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -63,10 +63,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagInternetMessageId Canonical Property](pidtaginternetmessageid-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

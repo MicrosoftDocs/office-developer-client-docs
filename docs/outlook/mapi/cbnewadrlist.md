@@ -41,12 +41,12 @@ CbNewADRLIST (_centries)
     
 ## See also
 
-#### Reference
+
 
 [ADRLIST](adrlist.md)
   
 [ADRENTRY](adrentry.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

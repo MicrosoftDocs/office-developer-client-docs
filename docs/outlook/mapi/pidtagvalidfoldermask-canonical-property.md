@@ -69,7 +69,7 @@ FOLDER_VIEWS_VALID
   
 > The views folder has a valid entry identifier. See **PR_VIEWS_ENTRYID** ([PidTagViewsEntryId](pidtagviewsentryid-canonical-property.md)).
     
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -83,7 +83,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

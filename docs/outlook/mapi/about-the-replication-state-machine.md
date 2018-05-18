@@ -82,7 +82,7 @@ The following diagram shows the state transitions that occur when uploading or p
    
 ## See also
 
-#### Concepts
+
 
 [About the Replication API](about-the-replication-api.md)
   

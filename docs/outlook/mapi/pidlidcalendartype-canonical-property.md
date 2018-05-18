@@ -36,7 +36,7 @@ Specifies the value of the CalendarType field from the **dispidApptRecur** ([Pid
 
 When the meeting request represents a recurring series or an exception, this is the value of the CalendarType field from the **dispidApptRecur** property. Otherwise, this property is not set and assumed to be 0. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

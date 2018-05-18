@@ -33,7 +33,7 @@ Implements an advise sink object for handling notification. A pointer to an advi
 |Interface identifier:  <br/> |IID_IMAPIAdviseSink  <br/> |
 |Pointer type:  <br/> |LPMAPIADVISESINK  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -41,7 +41,7 @@ Implements an advise sink object for handling notification. A pointer to an advi
    
 ## See also
 
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
 

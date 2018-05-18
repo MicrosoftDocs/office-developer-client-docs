@@ -32,7 +32,7 @@ If set on a nondelivery report, denotes the time the message was resent.
 |Data type:  <br/> |PT_SYSTIME  <br/> |
 |Area:  <br/> |General messaging  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -48,7 +48,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

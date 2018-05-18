@@ -16,7 +16,7 @@ description: "Saves changes to the specified account."
 
 Saves changes to the specified account.
   
-## Quick Info
+## Quick info
 
 See [IOlkAccountManager](iolkaccountmanager.md).
   
@@ -51,7 +51,7 @@ After changing the value of account properties by using [IOlkAccount::SetProp](i
   
 ## See also
 
-#### Concepts
+
 
 [Constants (Account management API)](constants-account-management-api.md)
   

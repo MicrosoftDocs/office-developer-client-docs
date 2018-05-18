@@ -45,7 +45,7 @@ typedef struct
     
 ## See also
 
-#### Reference
+
 
 [HrCreateOfflineObj](hrcreateofflineobj.md)
   

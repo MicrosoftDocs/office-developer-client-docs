@@ -66,7 +66,7 @@ Your provider's DLL will be unloaded when MAPI calls the Win32 API function **Fr
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Service Providers](mapi-service-providers.md)
 

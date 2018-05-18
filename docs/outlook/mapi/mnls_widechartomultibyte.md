@@ -76,7 +76,7 @@ This function wraps the **WideCharToMultiByte** function. For more information, 
   
 ## See also
 
-#### Other resources
+
 
 [WideCharToMultiByte](http://msdn.microsoft.com/en-us/library/dd374130%28VS.85%29.aspx)
 

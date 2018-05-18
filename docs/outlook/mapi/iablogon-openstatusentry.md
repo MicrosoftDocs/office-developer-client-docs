@@ -67,7 +67,7 @@ Address book providers implement the **OpenStatusEntry** method to grant access 
   
 ## See also
 
-#### Reference
+
 
 [IMAPIStatus : IMAPIProp](imapistatusimapiprop.md)
   

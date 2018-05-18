@@ -45,7 +45,7 @@ Each PT_LONG value in this property must be unique in the property and must be s
 |0x00000004  <br/> |Home fax is defined for the contact.  <br/> |
 |0x00000005  <br/> |Primary fax is defined for the contact.  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -65,7 +65,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

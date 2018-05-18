@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
   
 Information for uploading a folder during the [upload folder state](upload-folder-state.md).
   
-## Quick Info
+## Quick info
 
 ```cpp
 struct UPFLD 

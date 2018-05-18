@@ -50,7 +50,7 @@ When a client calls an object's **GetProps** or **SetProps** method to work with
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Property Overview](mapi-property-overview.md)
 

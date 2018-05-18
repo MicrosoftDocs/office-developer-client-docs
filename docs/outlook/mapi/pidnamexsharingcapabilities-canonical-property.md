@@ -36,7 +36,7 @@ Contains a value that indicates the sharing capabilities of the item.
 
 This property contains a value that indicates the sharing capabilities of the message object.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

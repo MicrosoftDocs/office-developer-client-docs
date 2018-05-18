@@ -63,7 +63,7 @@ STATUS_VALIDATE_STATE
   
 > Indicates that the [IMAPIStatus::ValidateState](imapistatus-validatestate.md) method is supported. 
     
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -77,7 +77,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

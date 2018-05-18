@@ -26,7 +26,7 @@ Whether your message store provider uses a permanent search-results folder or cr
   
 ## See also
 
-#### Concepts
+
 
 [Message Store Features](message-store-features.md)
 

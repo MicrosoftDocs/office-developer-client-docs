@@ -35,7 +35,7 @@ Defines the expiry send time in conjunction with the **PR_EXPIRY_UNITS** ([PidTa
 
 This property's value must be set between 0 and 999 inclusive, if it is present.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -55,7 +55,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

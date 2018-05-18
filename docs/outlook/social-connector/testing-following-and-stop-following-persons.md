@@ -37,7 +37,7 @@ To stop following a person is to remove that person as a friend on the social ne
    
 ## See also
 
-#### Other resources
+
 
 [Getting Ready to Release an OSC Provider](getting-ready-to-release-an-osc-provider.md)
 

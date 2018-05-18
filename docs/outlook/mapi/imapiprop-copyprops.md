@@ -132,13 +132,13 @@ The **IMAPIProp::CopyProps** method copies or moves selected properties from the
   
 Any subobjects in the source object are automatically included in the operation and copied or moved in their entirety, regardless of the use of properties indicated by the [SPropTagArray](sproptagarray.md) structure. By default, **CopyProps** overwrites any properties in the destination object that match properties from the source object. If any of the copied or moved properties already exist in the destination object, the existing properties are overwritten by the new properties, unless the MAPI_NOREPLACE flag is set in the  _ulFlags_ parameter. Existing information in the destination object that is not overwritten is left untouched. 
   
-## Notes to Implementers
+## Notes to implementers
 
 You can provide a full implementation of **CopyProps** or rely on the implementation that MAPI provides in its support object. If you want to use the MAPI implementation, call the **IMAPISupport::DoCopyProps** method. However, if you do delegate processing to **DoCopyProps** and you are passed the MAPI_DECLINE_OK flag, avoid the support call and return MAPI_E_DECLINE_COPY instead. You will be called with this flag by MAPI to avoid the possible recursion that can occur when you copy folders. 
   
 Because the copy operation can be lengthy, you should display a progress indicator. Use the [IMAPIProgress](imapiprogressiunknown.md) implementation that is passed in the  _lpProgress_ parameter, if there is one. If  _lpProgress_ is **null**, call the [IMAPISupport::DoProgressDialog](imapisupport-doprogressdialog.md) method to use the MAPI implementation. 
   
-## Notes to Callers
+## Notes to callers
 
 Do not set the MAPI_DECLINE_OK flag; it is used by MAPI in its calls to message store provider **CopyProps** implementations. 
   
@@ -173,7 +173,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIFolder::CopyMessages](imapifolder-copymessages.md)
   
@@ -208,7 +208,7 @@ For MFCMAPI sample code, see the following table.
 [SPropTagArray](sproptagarray.md)
   
 [IMAPIProp : IUnknown](imapipropiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

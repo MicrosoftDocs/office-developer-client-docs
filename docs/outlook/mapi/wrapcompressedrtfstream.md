@@ -78,7 +78,7 @@ Because the client writes new RTF in uncompressed format, it should use **WrapCo
   
 ## See also
 
-#### Reference
+
 
 [RTFSync](rtfsync.md)
 

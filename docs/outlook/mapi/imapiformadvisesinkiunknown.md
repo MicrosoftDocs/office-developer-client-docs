@@ -33,7 +33,7 @@ Enables form servers to receive notifications from form viewers.
 |Interface identifier:  <br/> |IID_IMAPIFormAdviseSink  <br/> |
 |Pointer type:  <br/> |LPMAPIFORMADVISESINK  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -48,7 +48,7 @@ Form servers call a viewer's [IMAPIViewContext::SetAdviseSink](imapiviewcontext-
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
 

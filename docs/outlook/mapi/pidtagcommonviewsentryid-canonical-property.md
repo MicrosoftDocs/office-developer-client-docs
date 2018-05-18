@@ -37,7 +37,7 @@ The common view folder contains a predefined set of standard view specifiers, wh
   
 For more information on views, see [View Folders](mapi-view-folders.md).
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -51,12 +51,12 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagDefaultViewEntryId Canonical Property](pidtagdefaultviewentryid-canonical-property.md)
   
 [PidTagViewsEntryId Canonical Property](pidtagviewsentryid-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

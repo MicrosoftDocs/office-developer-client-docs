@@ -46,7 +46,7 @@ In general, Outlook 2010 and Outlook 2013 can notify a client of online/offline 
   
 ## See also
 
-#### Concepts
+
 
 [About the Offline State API](about-the-offline-state-api.md)
   

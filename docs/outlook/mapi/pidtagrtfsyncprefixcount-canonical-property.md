@@ -37,7 +37,7 @@ The count of prefix characters does not include white space.
   
 This property is a Rich Text Format (RTF) auxiliary property. RTF auxiliary properties are used by the [RTFSync](rtfsync.md) function and are not intended to be used directly by client applications. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -61,7 +61,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

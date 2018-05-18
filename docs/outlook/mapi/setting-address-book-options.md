@@ -36,7 +36,7 @@ These three properties are special because you cannot work with them using the s
   
 ## See also
 
-#### Reference
+
 
 [IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 

@@ -36,7 +36,7 @@ Indicates that the value of the **dispidLocation** ([PidLidLocation](pidlidlocat
 
 For more details on RecipientRow, see the Message and Attachment Object protocol as specified in [[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx).
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

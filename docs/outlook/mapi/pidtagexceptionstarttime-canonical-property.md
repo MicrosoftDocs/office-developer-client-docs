@@ -36,7 +36,7 @@ Indicates the start date and time of the exception in the local time zone of the
 > [!NOTE]
 > This property is informational and must not be relied on for critical information. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

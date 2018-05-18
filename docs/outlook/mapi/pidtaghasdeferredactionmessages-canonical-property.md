@@ -31,7 +31,7 @@ Contains TRUE if a message has at least one deferred action rule.
 |Data type:  <br/> |PT_BOOLEAN  <br/> |
 |Area:  <br/> |Rules  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -55,7 +55,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

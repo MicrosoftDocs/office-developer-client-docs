@@ -15,7 +15,7 @@ ms.assetid: fc2972da-80e9-50e2-10b3-585eb63e9103
 
 Provides helper functionality in the current MAPI session to manage accounts.
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|
@@ -23,7 +23,7 @@ Provides helper functionality in the current MAPI session to manage accounts.
 |Provided by:  <br/> |Client  <br/> |
 |Interface identifier:  <br/> |IID_IOlkAccountHelper  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -38,7 +38,7 @@ This interface is passed to [IOlkAccountManager::Init](iolkaccountmanager-init.m
   
 ## See also
 
-#### Concepts
+
 
 [About the Account Management API](about-the-account-management-api.md)
   

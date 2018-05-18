@@ -73,7 +73,7 @@ S_OK
 
 The **IMessage::OpenAttach** method opens a message's attachment. 
   
-## Notes to Callers
+## Notes to callers
 
 To open an attachment, you must have access to its attachment number or **PR_ATTACH_NUM** property. Call [IMessage::GetAttachmentTable](imessage-getattachmenttable.md) to retrieve the message's attachment table and locate the row that represents the attachment to be opened. See [Opening an Attachment](opening-an-attachment.md) for more information. 
   
@@ -91,10 +91,10 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMessage : IMAPIProp](imessageimapiprop.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

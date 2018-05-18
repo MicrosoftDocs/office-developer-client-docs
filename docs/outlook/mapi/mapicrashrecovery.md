@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 The **MAPICrashRecovery** function checks the state of the Personal Folders file (PST) or Offline Folders file (OST) shared memory. If the memory is in a consistent state, the **MAPICrashRecovery** function moves the data to disk and prevents further read or write access until the process is terminated. 
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|
@@ -62,7 +62,7 @@ Call **MAPICrashRecovery** with the **MAPICRASH_RECOVER** and **MAPICRASH_SYSTEM
   
 ## See also
 
-#### Concepts
+
 
 [About the MAPI Crash Recovery API](about-the-mapi-crash-recovery-api.md)
   

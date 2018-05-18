@@ -39,7 +39,7 @@ Contains the list of **SearchKeys** for the contact linked to by this message ob
 |2  <br/> |ContactEntryCount  <br/> |None  <br/> |
 |variable  <br/> |SearchKey data  <br/> |Repeats ContactEntryCount times  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -59,7 +59,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

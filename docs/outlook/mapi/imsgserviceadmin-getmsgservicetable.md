@@ -63,14 +63,14 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md)
   
 [IMsgServiceAdmin::DeleteMsgService](imsgserviceadmin-deletemsgservice.md)
   
 [IMsgServiceAdmin : IUnknown](imsgserviceadminiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

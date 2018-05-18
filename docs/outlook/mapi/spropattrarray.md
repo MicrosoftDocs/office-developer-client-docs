@@ -62,7 +62,7 @@ The **SPropAttrArray** structure is used by property data objects that implement
   
 ## See also
 
-#### Reference
+
 
 [IPropData : IMAPIProp](ipropdataimapiprop.md)
   
@@ -71,7 +71,7 @@ The **SPropAttrArray** structure is used by property data objects that implement
 [CbNewSPropAttrArray](cbnewspropattrarray.md)
   
 [CbSPropAttrArray](cbspropattrarray.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

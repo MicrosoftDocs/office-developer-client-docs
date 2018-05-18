@@ -37,7 +37,7 @@ Client applications use this property to create a distribution list within a con
   
 This property specifies an entry that can appear in the **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) property for distribution lists. After obtaining the identifier, the client uses it in a call to the [IABContainer::CreateEntry](iabcontainer-createentry.md) method. The entry represents the template for the default distribution list. 
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -51,10 +51,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [IABLogon::CompareEntryIDs](iablogon-compareentryids.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

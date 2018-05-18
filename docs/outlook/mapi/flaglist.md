@@ -65,12 +65,12 @@ The **FLAGLIST** structure is used as a parameter to [IABContainer::ResolveNames
   
 ## See also
 
-#### Reference
+
 
 [ADRLIST](adrlist.md)
   
 [IABContainer::ResolveNames](iabcontainer-resolvenames.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

@@ -63,7 +63,7 @@ Interactive clients can display report messages by using standard forms provided
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Messages](mapi-messages.md)
 

@@ -100,7 +100,7 @@ The **IMAPISupport::Details** method is implemented for address book provider su
   
 ## See also
 
-#### Reference
+
 
 [ADRPARM](adrparm.md)
   

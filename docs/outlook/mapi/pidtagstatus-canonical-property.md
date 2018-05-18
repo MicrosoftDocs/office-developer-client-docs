@@ -57,7 +57,7 @@ Message store providers set this property on a folder to one or more of these va
   
 Bits 16 through 31 ("0x10000" through "0x80000000") of this property are available for use by the IPM client application. All other bits are reserved for use by MAPI; those not defined in the preceding list should be initially set to zero and not altered.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -81,7 +81,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

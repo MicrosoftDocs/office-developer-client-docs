@@ -88,7 +88,7 @@ For information about how the memory for **SRow** structures should be allocated
   
 ## See also
 
-#### Reference
+
 
 [ADRENTRY](adrentry.md)
   
@@ -97,7 +97,7 @@ For information about how the memory for **SRow** structures should be allocated
 [SRowSet](srowset.md)
   
 [TABLE_NOTIFICATION](table_notification.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
   

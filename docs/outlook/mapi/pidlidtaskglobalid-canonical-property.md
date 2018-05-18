@@ -36,7 +36,7 @@ Locates an existing task, by using a GUID, upon receipt of a task response or ta
 
 This property is left unset for unassigned tasks.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

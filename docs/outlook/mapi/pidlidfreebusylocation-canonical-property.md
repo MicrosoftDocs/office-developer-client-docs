@@ -32,7 +32,7 @@ Specifies a URL path from which a client can retrieve free/busy information for 
 |Data type:  <br/> |PT_UNICODE  <br/> |
 |Area:  <br/> |Contact  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -52,7 +52,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

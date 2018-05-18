@@ -65,7 +65,7 @@ MAC_ATTACH_ENCODING_UUENCODE
   
 > Encode Macintosh attachments in UUENCODE. If the ENCODING_MIME flag is set, this flag is ignored and BinHex encoding is used instead. 
     
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -101,7 +101,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

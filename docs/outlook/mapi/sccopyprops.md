@@ -77,7 +77,7 @@ The  _pcb_ parameter is optional; if it is not NULL, it is set to the number of 
   
 ## See also
 
-#### Reference
+
 
 [ScDupPropset](scduppropset.md)
 

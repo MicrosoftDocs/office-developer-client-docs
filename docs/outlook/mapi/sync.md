@@ -20,7 +20,7 @@ description: "Last modified: July 23, 2011"
   
 Information for starting synchronization between a local store and a server. This information is used during the [synchronize state](synchronize-state.md).
   
-## Quick Info
+## Quick info
 
 ```cpp
 struct SYNC 
@@ -83,7 +83,7 @@ struct SYNC
     
 ## See also
 
-#### Concepts
+
 
 [About the Replication API](about-the-replication-api.md)
   

@@ -35,7 +35,7 @@ Represents the last time the folder was accessed.
 
 This property must be formatted as the number of minutes since midnight Coordinated Universal Time (UTC) January 1, 1601.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

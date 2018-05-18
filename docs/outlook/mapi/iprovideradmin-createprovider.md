@@ -87,7 +87,7 @@ After all of the available information about the service provider has been added
   
 ## See also
 
-#### Reference
+
 
 [MAPIUID](mapiuid.md)
   

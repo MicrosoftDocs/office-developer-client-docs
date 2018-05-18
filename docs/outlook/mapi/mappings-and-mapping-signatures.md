@@ -26,10 +26,10 @@ Clients working with the named properties of objects use the objects' **PR_MAPPI
   
 ## See also
 
-#### Reference
+
 
 [IMAPIProp : IUnknown](imapipropiunknown.md)
-#### Concepts
+
 
 [MAPI Named Properties](mapi-named-properties.md)
 

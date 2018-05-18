@@ -35,7 +35,7 @@ Contains a list of identifiers for address book providers in the current profile
 
 Do not use this property. It is reserved for use by MAPI.
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,7 +49,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Canonical Properties](mapi-canonical-properties.md)
   

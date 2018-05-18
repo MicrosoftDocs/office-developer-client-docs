@@ -54,12 +54,12 @@ For more information about how the **SPropProblem** and **SPropProblemArray** st
   
 ## See also
 
-#### Reference
+
 
 [SCODE](scode.md)
   
 [SPropProblem](spropproblem.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

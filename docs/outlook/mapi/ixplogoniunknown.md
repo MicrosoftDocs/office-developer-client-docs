@@ -33,7 +33,7 @@ Gives the MAPI spooler access to a transport provider.
 |Interface identifier:  <br/> |IID_IXPLogon  <br/> |
 |Pointer type:  <br/> |LXPLOGON  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -52,7 +52,7 @@ Gives the MAPI spooler access to a transport provider.
    
 ## See also
 
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
 

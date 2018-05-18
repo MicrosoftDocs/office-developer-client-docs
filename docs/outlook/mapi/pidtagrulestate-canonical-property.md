@@ -79,7 +79,7 @@ OR:
   
 - The rule has both the ST_EXIT_LEVEL and ST_ONLY_WHEN_OOF flags set. Then, the server must not evaluate any subsequent rules.
     
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -103,7 +103,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

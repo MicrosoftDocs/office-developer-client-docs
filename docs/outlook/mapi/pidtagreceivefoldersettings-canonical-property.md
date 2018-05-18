@@ -39,7 +39,7 @@ To retrieve table contents, a client application should call the [IMsgStore::Get
   
 This property contains a table of mappings of the receive folders for the message store. Calling **OpenProperty** on this property is equivalent to calling **GetReceiveFolderTable** on the message store. 
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -53,7 +53,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -36,7 +36,7 @@ This property is only relevant to messages on the store that have not been sent,
 > [!NOTE]
 > This MAPI restriction tag, used when searching for email addresses or display names to which the message will be sent as a blind carbon copy, might not be defined in the downloadable header file that you currently have. You can add it to your code by using the following value: >  `#define PR_SEARCH_RECIP_EMAIL_BCC_W PROP_TAG(PT_UNICODE, 0x0EA8)`
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -60,7 +60,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

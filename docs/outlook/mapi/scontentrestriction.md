@@ -94,12 +94,12 @@ For more information about the **SContentRestriction** structure and restriction
   
 ## See also
 
-#### Reference
+
 
 [SPropValue](spropvalue.md)
   
 [SRestriction](srestriction.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

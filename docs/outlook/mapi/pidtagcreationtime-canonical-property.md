@@ -35,7 +35,7 @@ Contains the creation date and time of a message.
 
 A message store sets this property for each message that it creates.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

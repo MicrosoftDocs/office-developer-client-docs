@@ -53,10 +53,10 @@ For more information about PT_MV_UNICODE, see [Property Types](property-types.md
   
 ## See also
 
-#### Reference
+
 
 [SPropValue](spropvalue.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

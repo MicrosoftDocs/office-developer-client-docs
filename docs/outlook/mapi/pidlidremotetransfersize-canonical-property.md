@@ -32,7 +32,7 @@ Indicates the transfer size, in bytes, for a remote item.
 |Data type:  <br/> |PT_LONG  <br/> |
 |Area:  <br/> |Remote message  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -48,7 +48,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -81,7 +81,7 @@ BOOL GetHwnd(HWND * pHwnd)
 
 ## See also
 
-#### Concepts
+
 
 [Displaying Dialog Boxes from Within a DLL or XLL](displaying-dialog-boxes-from-within-a-dll-or-xll.md)
   

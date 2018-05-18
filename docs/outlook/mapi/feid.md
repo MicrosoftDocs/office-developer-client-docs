@@ -20,7 +20,7 @@ description: "Last modified: July 02, 2012"
   
 Identifier for a folder. It contains an entry identifier and other relevant information.
   
-## Quick Info
+## Quick info
 
 ```cpp
 struct FEID 
@@ -52,7 +52,7 @@ struct FEID
     
 ## See also
 
-#### Concepts
+
 
 [About the Replication State Machine](about-the-replication-state-machine.md)
   

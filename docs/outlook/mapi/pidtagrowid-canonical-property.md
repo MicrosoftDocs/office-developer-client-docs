@@ -35,7 +35,7 @@ Contains a unique identifier for a recipient in a recipient table or status tabl
 
 This property is a temporary value that is valid only for the life of the object that owns the table. It appears as a column of the table but is not stored.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -59,12 +59,12 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [IMessage::GetRecipientTable](imessage-getrecipienttable.md)
   
 [IMessage::ModifyRecipients](imessage-modifyrecipients.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -55,7 +55,7 @@ In the following walkthrough, you will learn how to write code in the Visual Stu
   MessageBox.Show("Hello World!");
   ```
 
-  ```VB.net
+  ```vb
   MessageBox.Show("Hello World!")
   ```
 
@@ -83,7 +83,7 @@ In the following walkthrough, you will learn how to write code in the Visual Stu
   }
   ```
 
-  ```VB.net
+  ```vb
   Imports Microsoft.Office.InfoPath
   Imports System
   Imports System.Windows.Forms
@@ -121,7 +121,7 @@ In the following walkthrough, you will learn how to write code in the Visual Stu
   MessageBox.Show("Hello World!");
   ```
 
-  ```VB.net
+  ```vb
   MessageBox.Show("Hello World!")
   ```
 
@@ -179,7 +179,7 @@ For more information on working with **System.Xml** in managed code form templat
   }
   ```
 
-  ```VB.net
+  ```vb
   Public Sub FormEvents_Loading(ByVal sender As Object, ByVal e As LoadingEventArgs)
      Dim dataSource As XPathNavigator
      dataSource = Me.MainDataSource.CreateNavigator
@@ -204,7 +204,7 @@ For more information on working with **System.Xml** in managed code form templat
     
 ## See also
 
-#### Reference
+
 
 [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx)
 

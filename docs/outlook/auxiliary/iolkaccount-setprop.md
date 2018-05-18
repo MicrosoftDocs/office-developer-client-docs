@@ -16,7 +16,7 @@ description: "Sets the value of the specified account property."
 
 Sets the value of the specified account property.
   
-## Quick Info
+## Quick info
 
 See [IOlkAccount](iolkaccount.md).
   
@@ -50,7 +50,7 @@ Use [IOlkAccount::SaveChanges](iolkaccount-savechanges.md) to save changes to th
   
 ## See also
 
-#### Concepts
+
 
 [Constants (Account management API)](constants-account-management-api.md)
   

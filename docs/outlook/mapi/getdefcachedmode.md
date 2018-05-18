@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates whether Cached Exchange Mode for the private Exchange store is enabled, and whether this is enforced by policy.
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|
@@ -51,7 +51,7 @@ BOOL GetDefCachedMode(BOOL *pfPolicy);
     
 ## See also
 
-#### Concepts
+
 
 [GetDefCachedModeDownloadPubFoldFavs](getdefcachedmodedownloadpubfoldfavs.md)
 

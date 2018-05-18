@@ -36,7 +36,7 @@ Names the most recent user who was the task owner.
 
 Before a client sends a task request, it sets this property to the name of the task assigner. Before a client sends a task acceptance, it sets this property to the name of the task assignee. Before a client sends a task rejection, it sets this property to the name of the task assigner.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -105,7 +105,7 @@ For more information, see [MAPI Property Type Overview](mapi-property-type-overv
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

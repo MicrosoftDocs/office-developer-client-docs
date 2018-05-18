@@ -134,7 +134,7 @@ public void CTRL1_Clicked(object sender, ClickedEventArgs e)
 }
 ```
 
-```VB.net
+```vb
 Public Sub CTRL1_Clicked(ByVal sender As Object, _
    ByVal e As ClickedEventArgs)
    Dim strExpirationDate As String = _

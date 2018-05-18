@@ -79,12 +79,12 @@ E_PENDING
     
 ## See also
 
-#### Reference
+
 
 [IMAPIOffline::GetCapabilities](imapioffline-getcapabilities.md)
   
 [IMAPIOffline::GetCurrentState](imapioffline-getcurrentstate.md)
-#### Concepts
+
 
 [MAPI Constants](mapi-constants.md)
 

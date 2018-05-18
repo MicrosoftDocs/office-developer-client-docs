@@ -37,7 +37,7 @@ This property is computed by MAPI.
   
 Obtain the provider table by calling the [IMsgServiceAdmin::GetProviderTable](imsgserviceadmin-getprovidertable.md) method. Sort the provider table on this property to display the transport order. 
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -51,7 +51,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

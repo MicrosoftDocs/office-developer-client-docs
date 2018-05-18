@@ -35,7 +35,7 @@ Contains TRUE if the sender permits auto forwarding of this message.
 
 If auto forwarding is not permitted or if no alternate recipient has been designated, a nondelivery report should be generated. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -67,7 +67,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

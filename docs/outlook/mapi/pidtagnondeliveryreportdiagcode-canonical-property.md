@@ -227,7 +227,7 @@ MAPI_DIAG_TOO_MANY_RECIPIENTS
   
 > 
     
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -241,10 +241,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagNonDeliveryReportReasonCode Canonical Property](pidtagnondeliveryreportreasoncode-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

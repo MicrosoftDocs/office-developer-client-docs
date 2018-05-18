@@ -76,14 +76,14 @@ For an overview of display tables, see [Display Tables](display-tables.md). For 
   
 ## See also
 
-#### Reference
+
 
 [BuildDisplayTable](builddisplaytable.md)
   
 [DTCTL](dtctl.md)
   
 [SizedDtblButton](sizeddtblbutton.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

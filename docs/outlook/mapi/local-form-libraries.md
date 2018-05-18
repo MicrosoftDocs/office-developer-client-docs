@@ -24,7 +24,7 @@ Client applications can access forms in the local form library without accessing
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Forms](mapi-forms.md)
 

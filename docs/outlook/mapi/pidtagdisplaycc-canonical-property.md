@@ -47,7 +47,7 @@ Because of the possible need for localization, MAPI provides these guidelines fo
     
 - When forwarding messages, clients do not need to translate the separator characters on the carbon copy recipient line. 
     
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -67,7 +67,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

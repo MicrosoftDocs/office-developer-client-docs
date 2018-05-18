@@ -41,10 +41,10 @@ CbNewFLATENTRY (_cb)
     
 ## See also
 
-#### Reference
+
 
 [FLATENTRY](flatentry.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

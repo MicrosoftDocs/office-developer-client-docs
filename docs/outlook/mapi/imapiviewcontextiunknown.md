@@ -33,7 +33,7 @@ Manages a form in a client application's form viewer.
 |Interface identifier:  <br/> |IID_IMAPIViewContext  <br/> |
 |Pointer type:  <br/> |LPMAPIVIEWCONTEXT  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -46,7 +46,7 @@ Manages a form in a client application's form viewer.
    
 ## See also
 
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
 

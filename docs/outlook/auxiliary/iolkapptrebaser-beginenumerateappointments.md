@@ -16,7 +16,7 @@ description: "Begins a task for appointment enumeration in a calendar folder to 
 
 Begins a task for appointment enumeration in a calendar folder to find the appointments that need rebasing.
   
-## Quick Info
+## Quick info
 
 See [IOlkApptRebaser](iolkapptrebaser.md).
   
@@ -46,7 +46,7 @@ This task runs on a new thread.
   
 ## See also
 
-#### Concepts
+
 
 [About rebasing calendars programmatically for Daylight Saving Time](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
 

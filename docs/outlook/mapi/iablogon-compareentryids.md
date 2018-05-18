@@ -81,7 +81,7 @@ For more information about how to create entry identifiers, see [MAPI Entry Iden
   
 ## See also
 
-#### Reference
+
 
 [IABLogon : IUnknown](iablogoniunknown.md)
 

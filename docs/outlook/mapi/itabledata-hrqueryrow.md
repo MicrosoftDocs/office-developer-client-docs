@@ -64,7 +64,7 @@ Because **HrQueryRow** does not modify the **SPropValue** structure pointed to b
   
 ## See also
 
-#### Reference
+
 
 [MAPIAllocateBuffer](mapiallocatebuffer.md)
   

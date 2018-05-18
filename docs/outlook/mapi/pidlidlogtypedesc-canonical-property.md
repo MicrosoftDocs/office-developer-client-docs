@@ -32,7 +32,7 @@ Describes the activity that is being recorded.
 |Data type:  <br/> |PT_UNICODE  <br/> |
 |Area:  <br/> |Journal  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -52,7 +52,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

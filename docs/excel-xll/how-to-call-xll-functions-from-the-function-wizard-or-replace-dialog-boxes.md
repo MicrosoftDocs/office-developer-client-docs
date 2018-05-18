@@ -115,7 +115,7 @@ bool called_from_paste_fn_dlg(void)
 
 ## See also
 
-#### Concepts
+
 
 [Accessing XLL Code in Excel](accessing-xll-code-in-excel.md)
   

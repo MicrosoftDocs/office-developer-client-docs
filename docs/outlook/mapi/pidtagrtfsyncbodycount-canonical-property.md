@@ -37,7 +37,7 @@ The [RTFSync](rtfsync.md) function computes the count of characters in the text 
   
 This property is a Rich Text Format (RTF) auxiliary property. These properties are used by the **RTFSync** function and are not intended to be used directly by client applications. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -61,7 +61,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

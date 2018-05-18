@@ -56,7 +56,7 @@ If the MDB_TEMPORARY flag is set, MAPI does nothing and the method returns immed
   
 ## See also
 
-#### Reference
+
 
 [IMAPISession::GetMsgStoresTable](imapisession-getmsgstorestable.md)
   

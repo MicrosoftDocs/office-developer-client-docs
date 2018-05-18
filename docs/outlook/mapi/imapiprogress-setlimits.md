@@ -76,7 +76,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIProgress::GetMax](imapiprogress-getmax.md)
   
@@ -85,7 +85,7 @@ For MFCMAPI sample code, see the following table.
 [IMAPIProgress::Progress](imapiprogress-progress.md)
   
 [IMAPIProgress : IUnknown](imapiprogressiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
   

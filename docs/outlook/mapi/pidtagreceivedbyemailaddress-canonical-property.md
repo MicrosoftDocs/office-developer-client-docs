@@ -35,7 +35,7 @@ Contains the e-mail address for the messaging user who receives the message.
 
 These properties are examples of the address properties for the messaging user who receives the message. They must be set by the incoming transport provider.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -79,10 +79,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagEmailAddress Canonical Property](pidtagemailaddress-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -33,7 +33,7 @@ Accesses resources in a message store logon object.
 |Interface identifier:  <br/> |IID_IMSLogon  <br/> |
 |Pointer type:  <br/> |LPMSLOGON  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -51,7 +51,7 @@ The message store logon object is the part of an open message store provider tha
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
 

@@ -75,7 +75,7 @@ Message store providers implement the **IMSLogon::CompareEntryIDs** method to co
   
 ## See also
 
-#### Reference
+
 
 [IMSLogon : IUnknown](imslogoniunknown.md)
 

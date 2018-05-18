@@ -56,7 +56,7 @@ When use of the functions that **ScInitMapiUtil** has called is complete, **Dein
   
 ## See also
 
-#### Reference
+
 
 [MAPIUninitialize](mapiuninitialize.md)
 

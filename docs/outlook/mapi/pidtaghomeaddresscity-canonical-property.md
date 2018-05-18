@@ -31,7 +31,7 @@ Contains the city for the recipient's home address.
 |Data type:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Area:  <br/> |MAPI mail user  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -55,7 +55,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

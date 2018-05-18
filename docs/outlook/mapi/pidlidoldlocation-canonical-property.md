@@ -36,7 +36,7 @@ Indicates the original value of the **dispidLocation** ([PidLidLocation](pidlidl
 
 This property is not required.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

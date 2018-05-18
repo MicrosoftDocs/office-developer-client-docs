@@ -35,7 +35,7 @@ Contains the display name of the store associated with the Address Book provider
 
 These properties are on a Contact Address Book container, and a column in the table of Contact Address Book containers.
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

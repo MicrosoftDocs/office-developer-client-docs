@@ -42,7 +42,7 @@ S_OK
 
 Form objects call the **IMAPIViewAdviseSink::OnNewMessage** method whenever a message is loaded in a form using either the [IPersistMessage::InitNew](ipersistmessage-initnew.md) or [IPersistMessage::Load](ipersistmessage-load.md) method. 
   
-## Notes to Implementers
+## Notes to implementers
 
 Release your active pointer to the form object because it no longer points to the message your viewer was formerly viewing. 
   
@@ -50,7 +50,7 @@ For more information about form notifications, see [Sending and Receiving Form N
   
 ## See also
 
-#### Reference
+
 
 [IMAPIForm : IUnknown](imapiformiunknown.md)
   

@@ -34,7 +34,7 @@ Gives client applications access to properties that are particular to form defin
 |Pointer type:  <br/> |LPMAPIFORMINFO  <br/> |
 |Transaction model:  <br/> |Nontransacted  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -50,7 +50,7 @@ Unlike most interfaces defined in the MapiForm.h header file, **IMAPIFormInfo** 
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
 

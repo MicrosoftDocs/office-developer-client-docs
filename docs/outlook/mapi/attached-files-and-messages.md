@@ -74,7 +74,7 @@ Attachment rendering positions are transmitted literally, using the property **P
   
 ## See also
 
-#### Concepts
+
 
 [Mapping of Internet Mail Attributes to MAPI Properties](mapping-of-internet-mail-attributes-to-mapi-properties.md)
 

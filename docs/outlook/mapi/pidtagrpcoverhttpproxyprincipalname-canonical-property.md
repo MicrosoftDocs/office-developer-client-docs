@@ -29,7 +29,7 @@ Contains the principal name of the proxy server that is used by Microsoft Outloo
 |Property type:  <br/> |PT_UNICODE  <br/> |
 |Area:  <br/> |Miscellaneous  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -57,7 +57,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

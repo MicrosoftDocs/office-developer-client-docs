@@ -41,10 +41,10 @@ CbFLATMTSIDLIST (_lplist)
     
 ## See also
 
-#### Reference
+
 
 [FLATMTSIDLIST](flatmtsidlist.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

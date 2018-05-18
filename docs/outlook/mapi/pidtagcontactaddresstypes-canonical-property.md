@@ -31,7 +31,7 @@ Contains a list of address types for a contact.
 |Data type:  <br/> |PT_MV_UNICODE, PT_MV_STRING8  <br/> |
 |Area:  <br/> |Contact  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -45,7 +45,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

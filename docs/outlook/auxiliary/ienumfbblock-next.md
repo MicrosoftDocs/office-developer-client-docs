@@ -16,7 +16,7 @@ description: "Gets the next specified number of blocks of free/busy data in an e
 
 Gets the next specified number of blocks of free/busy data in an enumeration.
   
-## Quick Info
+## Quick info
 
 See [IEnumFBBlock](ienumfbblock.md).
   
@@ -51,7 +51,7 @@ HRESULT Next(
    
 ## See also
 
-#### Concepts
+
 
 [Constants (Free/busy API)](constants-free-busy-api.md)
   

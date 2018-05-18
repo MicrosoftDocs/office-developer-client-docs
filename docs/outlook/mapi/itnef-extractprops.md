@@ -85,7 +85,7 @@ The value returned in  _lpProblems_ is valid only if the call returns S_OK. When
   
 ## See also
 
-#### Reference
+
 
 [ITnef::AddProps](itnef-addprops.md)
   

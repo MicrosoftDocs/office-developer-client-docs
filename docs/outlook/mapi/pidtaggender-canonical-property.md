@@ -43,7 +43,7 @@ The possible values for this property are defined in the gender enumeration. The
 |genderFemale  <br/> |0x0001  <br/> |The contact is female.  <br/> |
 |genderMale  <br/> |0x0002  <br/> |The contact is male.  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -71,7 +71,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

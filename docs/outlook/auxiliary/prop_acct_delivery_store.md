@@ -16,7 +16,7 @@ description: "Represents the Entry ID of the default delivery store for the acco
 
 Represents the Entry ID of the default delivery store for the account.
   
-## Quick Info
+## Quick info
 
 See [IOlkAccount](iolkaccount.md).
   
@@ -35,7 +35,7 @@ One of the side effects of setting a store as the default delivery store for an 
   
 ## See also
 
-#### Concepts
+
 
 [About the Account Management API](about-the-account-management-api.md)
   

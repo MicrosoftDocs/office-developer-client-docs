@@ -41,7 +41,7 @@ To obtain the contents of this property, call **OpenProperty**, then call [WrapC
   
 Message stores that support RTF ignore any changes to white space in the message text. When **PR_BODY** is stored for the first time, the message store also generates and stores this property. If the [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method is subsequently called and **PR_BODY** has been modified, the message store calls the [RTFSync](rtfsync.md) function to ensure synchronization with the RTF version. If only white space has been changed, the properties are left unchanged. This preserves any nontrivial RTF formatting when the message travels through non-RTF-aware clients and messaging systems. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -73,7 +73,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

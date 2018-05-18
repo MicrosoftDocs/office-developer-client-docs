@@ -16,7 +16,7 @@ description: "Waits for appointment rebasing to complete and retrieves the resul
 
 Waits for appointment rebasing to complete and retrieves the results.
   
-## Quick Info
+## Quick info
 
 See [IOlkApptRebaser](iolkapptrebaser.md).
   
@@ -42,7 +42,7 @@ S_OK if the call succeeded; otherwise, an error code.
   
 ## See also
 
-#### Concepts
+
 
 [About rebasing calendars programmatically for Daylight Saving Time](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
 

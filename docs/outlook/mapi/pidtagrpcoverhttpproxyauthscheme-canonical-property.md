@@ -36,7 +36,7 @@ This property can be set for either basic authentication or NT LAN Manager (NTLM
 |**ROHAUTH_BASIC** <br/> |0x1  <br/> |Basic authentication  <br/> |
 |**ROHAUTH_NTLM** <br/> |0x2  <br/> |NTLM authentication  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -64,7 +64,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

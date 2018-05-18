@@ -84,7 +84,7 @@ MAPI_E_UNKNOWN_ENTRYID
 
 The **IMAPISupport::OpenTemplateID** method is implemented only for address book provider support objects. **OpenTemplateID** is called only by address book providers that can act as hosts for entries that belong to other address book providers, also known as foreign providers. Host providers call **OpenTemplateID** to open a foreign entry, which occurs when data in the host provider is bound to code in the foreign provider. 
   
-## Notes to Callers
+## Notes to callers
 
 Call **OpenTemplateID** only if you support the storage of entries with template identifiers from foreign address book providers. Such support places additional requirements on your [IABContainer::CreateEntry](iabcontainer-createentry.md) and [IABLogon::OpenEntry](iablogon-openentry.md) implementations. For more information, see the descriptions of these methods and [Acting as a Host Address Book Provider](acting-as-a-host-address-book-provider.md).
   
@@ -94,7 +94,7 @@ If **OpenTemplateID** fails with MAPI_E_UNKNOWN_ENTRYID, try to continue by trea
   
 ## See also
 
-#### Reference
+
 
 [IABLogon::OpenTemplateID](iablogon-opentemplateid.md)
   

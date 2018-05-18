@@ -71,10 +71,10 @@ The structures **DIR_ENTRYID** and [CONTAB_ENTRYID](contab_entryid.md) are ident
   
 ## See also
 
-#### Reference
+
 
 [CONTAB_ENTRYID](contab_entryid.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

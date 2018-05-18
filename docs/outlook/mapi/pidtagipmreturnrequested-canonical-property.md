@@ -31,7 +31,7 @@ Contains TRUE if this message should be returned with a report.
 |Data type:  <br/> |PT_BOOLEAN  <br/> |
 |Area:  <br/> |General messaging  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -45,7 +45,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -36,7 +36,7 @@ Specifies the sharing provider globally unique identifier (GUID). This is a prop
 
 The value of this property must be set to "%xAE.F0.06.00.00.00.00.00.C0.00.00.00.00.00.00.46". 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

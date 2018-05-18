@@ -35,7 +35,7 @@ Contains the names of the hobbies of the messaging user.
 
 These properties provide identification and access information about a messaging user and the content is defined by the user's organization. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -63,7 +63,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -45,7 +45,7 @@ This property must not exist unless the value of the **PR_FLAG_STATUS** ([PidTag
 |5  <br/> |followupIcon5  <br/> |Blue flag  <br/> |
 |6  <br/> |followupIcon6  <br/> |Red flag  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -69,7 +69,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

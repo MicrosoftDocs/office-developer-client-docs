@@ -55,7 +55,7 @@ MAPI_E_BUSY
 
 The cursor position in a table after a call to the **IMAPITable::SeekRowApprox** method is heuristically the fraction and might not be exact. For example, certain providers might implement a table on top of a binary tree, treating the table's halfway point as the top of the tree for performance reasons. If the tree is not balanced, then the halfway point used might not be exactly halfway through the table. 
   
-## Notes to Callers
+## Notes to callers
 
 Call **SeekRowApprox** to provide the data for a scroll bar implementation. For example, if the user positions the scroll box 2/3 down the scroll bar, you can model that action by calling **SeekRowApprox** and passing in an equivalent fractional value using  _ulNumerator_ and  _ulDenominator_. The **SeekRowApprox** search is always absolute from the beginning of the table. To move to the end of the table, the values in  _ulNumerator_ and  _ulDenominator_ must be the same. 
   
@@ -63,7 +63,7 @@ Use whatever number scheme is appropriate. That is, to seek to a position halfwa
   
 ## See also
 
-#### Reference
+
 
 [IMAPITable : IUnknown](imapitableiunknown.md)
 

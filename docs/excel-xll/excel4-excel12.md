@@ -135,7 +135,7 @@ short WINAPI Excel12Example(void)
 
 ## See also
 
-#### Reference
+
 
 [Excel4v/Excel12v](excel4v-excel12v.md)
 

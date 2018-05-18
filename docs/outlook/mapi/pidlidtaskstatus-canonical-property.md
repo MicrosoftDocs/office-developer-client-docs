@@ -44,7 +44,7 @@ The value of this property must be set to one of the following.
 |0x00000003  <br/> |The user is waiting on somebody else.  <br/> |
 |0x00000004  <br/> |The user has deferred work on the task.  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -84,14 +84,14 @@ Mapidefs.h
     
 ## See also
 
-#### Reference
+
 
 [PidLidPercentComplete Canonical Property](pidlidpercentcomplete-canonical-property.md)
   
 [PidLidTaskDateCompleted Canonical Property](pidlidtaskdatecompleted-canonical-property.md)
   
 [PidLidTaskComplete Canonical Property](pidlidtaskcomplete-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

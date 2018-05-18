@@ -37,7 +37,7 @@ These properties provide identification and access information about a recipient
   
 Common values include Jr., Sr., and III.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -65,7 +65,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

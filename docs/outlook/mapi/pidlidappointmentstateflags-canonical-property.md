@@ -48,7 +48,7 @@ C (asfCanceled, 0x00000004)
   
 > This flag indicates that the meeting object represented by the object has been canceled.
     
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -68,7 +68,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

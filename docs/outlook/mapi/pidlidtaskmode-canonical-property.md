@@ -45,7 +45,7 @@ The value must be one of the following.
 |0x00000004  <br/> |The task is embedded in a task update.  <br/> |
 |0x00000005  <br/> |The task was assigned to the task assigner.  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -65,7 +65,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

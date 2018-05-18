@@ -48,7 +48,7 @@ The  _connectOut_ parameter is an opaque string to the OSC, and is passed to the
   
 ## See also
 
-#### Reference
+
 
 [ISocialSession2 : IUnknown](isocialsession2iunknown.md)
 

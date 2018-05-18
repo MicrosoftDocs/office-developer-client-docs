@@ -32,7 +32,7 @@ Specifies the security level of the file that is attached to the document.
 |Data type:  <br/> |PT_LONG  <br/> |
 |Area:  <br/> |Common  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -52,7 +52,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

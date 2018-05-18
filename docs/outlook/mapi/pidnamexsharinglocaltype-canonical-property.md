@@ -32,7 +32,7 @@ Represents the string version of the **dispidSharingLocalType** ([PidLidSharingL
 |Data type:  <br/> |PT_UNICODE  <br/> |
 |Area:  <br/> |Sharing  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -52,7 +52,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

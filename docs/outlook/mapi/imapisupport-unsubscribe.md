@@ -54,7 +54,7 @@ Generally, the advise sink's **IUnknown::Release** method is called during the *
   
 ## See also
 
-#### Reference
+
 
 [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md)
   

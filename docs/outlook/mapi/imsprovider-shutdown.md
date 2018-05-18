@@ -48,7 +48,7 @@ MAPI calls the **IMSProvider::Shutdown** method just before releasing the messag
   
 ## See also
 
-#### Reference
+
 
 [IMSProvider : IUnknown](imsprovideriunknown.md)
 

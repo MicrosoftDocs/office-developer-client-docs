@@ -117,7 +117,7 @@ STATUS_XP_PREFER_LAST
   
 > Static. This transport expects to be the last transport selected to send a message when multiple transport providers are able to transmit the message.
     
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -131,12 +131,12 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [IMsgServiceAdmin::MsgServiceTransportOrder](imsgserviceadmin-msgservicetransportorder.md)
   
 [PidTagIdentityEntryId Canonical Property](pidtagidentityentryid-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -132,7 +132,7 @@ MAPI_E_UNEXPECTED_TYPE
 
 The **IMAPISupport::DoCopyProps** method is implemented for message store provider support objects. Message store providers can call **DoCopyProps** to implement the [IMAPIProp::CopyProps](imapiprop-copyprops.md) method for their folders and messages. **DoCopyProps** copies or moves the properties that are identified in the property tag array pointed to by  _lpIncludeProps_ and that are present in the object pointed to by  _lpSrcObj_. 
   
-## Notes to Callers
+## Notes to callers
 
 When you copy properties between objects of the same type, such as two messages, the  _lpSrcInterface_ and  _lpDestInterface_ parameters must contain the same interface identifier, and the  _lpSrcObj_ and  _lpDestObj_ parameters must point to objects of the same type. If  _lpDestInterface_ is set to NULL, **DoCopyProps** returns MAPI_E_INVALID_PARAMETER. If you set  _lpDestInterface_ to an acceptable interface identifier, but set  _lpDestObj_ to an invalid pointer, the results are unpredictable. Most likely your provider will fail. 
   
@@ -152,7 +152,7 @@ If **DoCopyProps** returns S_OK, free the returned **SPropProblemArray** structu
   
 ## See also
 
-#### Reference
+
 
 [IMAPIProp::CopyProps](imapiprop-copyprops.md)
   

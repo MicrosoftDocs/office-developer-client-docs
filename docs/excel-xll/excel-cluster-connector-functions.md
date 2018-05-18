@@ -40,7 +40,7 @@ Excel calls entry points in a cluster connector to transfer user-defined functio
   
 ## See also
 
-#### Concepts
+
 
 [Developing Excel Cluster Connectors](developing-excel-cluster-connectors.md)
   

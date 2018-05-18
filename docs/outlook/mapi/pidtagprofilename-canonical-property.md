@@ -39,7 +39,7 @@ Client applications can use these properties as a convenient alternative to obta
   
 These properties may not be unique across time, for example where a profile is deleted and later recreated with the same name. MAPI furnishes a totally unique **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) property in a hard-coded profile section called **MUID_PROFILE_INSTANCE.**
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -53,7 +53,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

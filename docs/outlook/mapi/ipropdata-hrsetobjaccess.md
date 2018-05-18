@@ -54,7 +54,7 @@ S_OK
 
 The **IPropData::HrSetObjAccess** method sets the access level for an entire object, rather than for individual properties. **HrSetObjAccess** can be used to change the access level established when the object was created. 
   
-## Notes to Callers
+## Notes to callers
 
 To set an access level on a property, first call **HrSetObjAccess** with the IPROP_READWRITE flag set in the  _ulAccess_ parameter to make the object modifiable. Then call the [IPropData::HrSetPropAccess](ipropdata-hrsetpropaccess.md) method, specifying the target property in the array pointed to by the  _lpPropTagArray_ parameter. 
   
@@ -64,7 +64,7 @@ You can also use **HrSetObjAccess** to prevent clients from creating new propert
   
 ## See also
 
-#### Reference
+
 
 [IPropData::HrGetPropAccess](ipropdata-hrgetpropaccess.md)
   

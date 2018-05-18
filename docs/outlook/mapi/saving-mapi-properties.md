@@ -32,7 +32,7 @@ Calling **SaveChanges** with the FORCE_SAVE flag overwrites the previous save an
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Property Overview](mapi-property-overview.md)
 

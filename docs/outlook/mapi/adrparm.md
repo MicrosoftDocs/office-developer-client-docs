@@ -199,7 +199,7 @@ Future versions of the structure may be completely different; they may not suppo
   
 ## See also
 
-#### Reference
+
 
 [ACCELERATEABSDI](accelerateabsdi.md)
   
@@ -210,7 +210,7 @@ Future versions of the structure may be completely different; they may not suppo
 [IMAPISupport::Address](imapisupport-address.md)
   
 [SRestriction](srestriction.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

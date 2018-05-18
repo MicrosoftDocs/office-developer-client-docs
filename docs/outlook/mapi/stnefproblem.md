@@ -71,12 +71,12 @@ If an **STnefProblem** structure is not generated during the processing of an at
   
 ## See also
 
-#### Reference
+
 
 [STnefProblemArray](stnefproblemarray.md)
   
 [PidTagAttachNumber Canonical Property](pidtagattachnumber-canonical-property.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

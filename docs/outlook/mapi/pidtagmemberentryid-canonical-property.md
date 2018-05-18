@@ -35,7 +35,7 @@ Contains the directory object entry identifier of a system access control list (
 
 This property is used by the [IExchangeModifyTable](iexchangemodifytableiunknown.md) interface to uniquely identify a person or role to whom the SACL applies. After a member is created in the SACL table, the **ENTRYID** cannot be changed. To change it, you must delete the table member and re-create it with a different **ENTRYID**.
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

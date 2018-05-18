@@ -26,7 +26,7 @@ The following illustration shows each of the objects that transport providers ca
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Service Provider Objects](mapi-service-provider-objects.md)
 

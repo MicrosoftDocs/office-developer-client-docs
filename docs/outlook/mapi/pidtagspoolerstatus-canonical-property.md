@@ -41,7 +41,7 @@ Client applications should never set this property. For an inbound message, a cl
   
 Message store providers should support this property on messages, recipient tables, and the outgoing queue table. Clients and providers should be able to set columns on the outgoing queue table and restrict based on this property.
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -55,7 +55,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

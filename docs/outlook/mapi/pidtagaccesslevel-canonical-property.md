@@ -40,7 +40,7 @@ This property is read-only for the client. It must be one of the following value
 |0x00000000  <br/> |Read-Only  <br/> |
 |0x00000001  <br/> |Modify  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -64,7 +64,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

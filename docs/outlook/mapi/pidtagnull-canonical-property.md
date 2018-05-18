@@ -37,7 +37,7 @@ This property is used to reserve space in arrays of [SPropValue](spropvalue.md) 
   
 For more information, see [MAPI Property Type Overview](mapi-property-type-overview.md).
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -57,7 +57,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

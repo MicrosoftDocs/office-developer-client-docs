@@ -35,7 +35,7 @@ Establishes the language locale for translating system-generated messages, such 
 
 This property is available on a private mailbox logon.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

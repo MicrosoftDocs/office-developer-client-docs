@@ -38,7 +38,7 @@ If a recurring calendar object has this property set to TRUE, the client can ove
   
 If this property is FALSE on a recurring calendar object, reminders are disabled for the entire series, including exceptions. For recurring task objects, this property cannot be overridden by exceptions (see [[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) and [[MS-OXOTASK]](http://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx) for details). 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -58,7 +58,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

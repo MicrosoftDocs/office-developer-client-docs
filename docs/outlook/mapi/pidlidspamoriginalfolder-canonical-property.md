@@ -36,7 +36,7 @@ Indicates which folder a message was in before it was filtered into the junk e-m
 
 The value of this property is the **EntryID** of the folder that contained the message before it was moved. This property should be set when a message is marked as spam. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

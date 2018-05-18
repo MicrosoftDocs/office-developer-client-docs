@@ -86,12 +86,12 @@ For more information about named properties, see [Named Properties](mapi-named-p
   
 ## See also
 
-#### Reference
+
 
 [GUID](guid.md)
   
 [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

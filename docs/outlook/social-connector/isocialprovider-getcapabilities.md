@@ -34,7 +34,7 @@ The provider must return a  _result_ string to enable subsequent calls from the 
   
 ## See also
 
-#### Reference
+
 
 [ISocialProvider : IUnknown](isocialprovideriunknown.md)
 

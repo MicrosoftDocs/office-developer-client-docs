@@ -153,7 +153,7 @@ Most of these structures contain [out]/[in] information, allowing Outlook to pas
   
 ## See also
 
-#### Reference
+
 
 [IOSTX::GetLastError](iostx-getlasterror.md)
   
@@ -168,7 +168,7 @@ Most of these structures contain [out]/[in] information, allowing Outlook to pas
 [IOSTX::SyncHdrEnd](iostx-synchdrend.md)
   
 [IOSTX : IUnknown](iostxiunknown.md)
-#### Concepts
+
 
 [MAPI Constants](mapi-constants.md)
 

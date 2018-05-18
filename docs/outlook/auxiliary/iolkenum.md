@@ -15,7 +15,7 @@ ms.assetid: 33cb89cb-c967-760c-6bc4-94118a4f872c
 
 Supports enumerating accounts as [IUnknown](http://msdn.microsoft.com/library/com.iunknown%28Office.15%29.aspx) objects. 
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|
@@ -25,7 +25,7 @@ Supports enumerating accounts as [IUnknown](http://msdn.microsoft.com/library/co
 |Called by:  <br/> |Client  <br/> |
 |Interface identifier:  <br/> |IID_IOlkEnum  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -40,7 +40,7 @@ This interface is returned by **IOlkAccountManager::EnumerateAccounts** when obt
   
 ## See also
 
-#### Concepts
+
 
 [About the Account Management API](about-the-account-management-api.md)
   

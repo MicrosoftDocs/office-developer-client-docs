@@ -35,7 +35,7 @@ Contains the latest date and time when a message transfer agent (MTA) should del
 
 If an MTA cannot deliver a message by the time this property specifies, it cancels the message without delivery. 
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

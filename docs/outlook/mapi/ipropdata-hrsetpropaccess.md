@@ -64,13 +64,13 @@ MAPI_E_INVALID_PARAMETER
 
 The **IPropData::HrSetPropAccess** method changes the access level and status for the properties that are identified by the property tags in the [SPropTagArray](sproptagarray.md) structure pointed to by the  _lpPropTagArray_ parameter. For each property, there is a corresponding entry in the  _rgulAccess_ array. The entry can be set to one flag that indicates the property's access level and another flag that indicates its status. 
   
-## Notes to Callers
+## Notes to callers
 
 Use **HrSetPropAccess** to determine when a particular property value changes and to change the access level for one or more of an object's properties. 
   
 ## See also
 
-#### Reference
+
 
 [SPropTagArray](sproptagarray.md)
   

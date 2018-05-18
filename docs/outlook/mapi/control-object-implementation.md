@@ -38,7 +38,7 @@ MAPI calls the control's **GetLastError** method when **Activate** returns an er
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Service Providers](mapi-service-providers.md)
 

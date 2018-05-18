@@ -61,7 +61,7 @@ A client or service provider should operate on the assumption that the pointer p
   
 ## See also
 
-#### Reference
+
 
 [IMAPISupport::GetMemAllocRoutines](imapisupport-getmemallocroutines.md)
 

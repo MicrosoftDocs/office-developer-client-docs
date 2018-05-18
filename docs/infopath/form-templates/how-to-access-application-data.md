@@ -44,7 +44,7 @@ MessageBox.Show(
    "Language ID: " + langID);
 ```
 
-```VB.net
+```vb
 Dim appName As String appName = Me.Application.Name
 Dim appVersion As String = Me.Application.Version
 Dim langSettings As LanguageSettings = _

@@ -66,7 +66,7 @@ Setting the MDB_NO_MAIL flag indicates to MAPI that the message store will not b
   
 ## See also
 
-#### Reference
+
 
 [IMAPITable::SetColumns](imapitable-setcolumns.md)
 

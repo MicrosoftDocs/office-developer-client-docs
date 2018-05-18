@@ -32,7 +32,7 @@ Specifies whether the client should play a sound when the reminder becomes overd
 |Data type:  <br/> |PT_BOOLEAN  <br/> |
 |Area:  <br/> |Reminder  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -52,7 +52,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

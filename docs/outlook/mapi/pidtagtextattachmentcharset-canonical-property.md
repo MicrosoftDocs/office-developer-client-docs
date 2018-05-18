@@ -35,7 +35,7 @@ Contains a message attachment's character set value.
 
 This property's data is derived from a Content-Type MIME header field that starts with "text/", if a "charset" parameter is present.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -55,7 +55,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

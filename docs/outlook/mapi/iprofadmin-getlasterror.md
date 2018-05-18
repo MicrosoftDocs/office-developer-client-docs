@@ -64,7 +64,7 @@ MAPI_E_BAD_CHARWIDTH
 
 The **IProfAdmin::GetLastError** method retrieves information about the last error returned from a method call for the profile administration object. 
   
-## Notes to Callers
+## Notes to callers
 
 You can use the **MAPIERROR** structure, if MAPI supplies one, pointed to by the  _lppMAPIError_ parameter only if **GetLastError** returns S_OK. Sometimes MAPI cannot determine what the last error was or has nothing more to report about the error. In this situation, a pointer to NULL is returned in  _lppMAPIError_. 
   
@@ -74,7 +74,7 @@ For more information about the **GetLastError** method, see [Using Extended Erro
   
 ## See also
 
-#### Reference
+
 
 [MAPIERROR](mapierror.md)
   

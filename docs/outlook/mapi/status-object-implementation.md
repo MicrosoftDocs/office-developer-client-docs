@@ -72,7 +72,7 @@ For more information about status objects, see [MAPI Status Objects](mapi-status
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Service Providers](mapi-service-providers.md)
 

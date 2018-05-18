@@ -34,7 +34,7 @@ Provides access to distribution lists in modifiable address book containers. **I
 |Pointer type:  <br/> |LPDISTLIST  <br/> |
 |Transaction model:  <br/> |Transacted  <br/> |
    
-## Vtable Order
+## Vtable order
 
 This interface does not have any unique methods.
   
@@ -72,7 +72,7 @@ For additional information about how to use the **IDistList** methods, see the r
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
 

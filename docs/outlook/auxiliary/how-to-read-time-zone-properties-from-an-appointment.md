@@ -74,7 +74,7 @@ void ReadTimeZones(LPMAPIPROP lpAppointment)
 
 ## See also
 
-#### Concepts
+
 
 [About rebasing calendars programmatically for Daylight Saving Time](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
 

@@ -69,7 +69,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPITable : IUnknown](imapitableiunknown.md)
   
@@ -84,7 +84,7 @@ For MFCMAPI sample code, see the following table.
 [IMAPITable::SortTable](imapitable-sorttable.md)
   
 [IMAPISession : IUnknown](imapisessioniunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
   

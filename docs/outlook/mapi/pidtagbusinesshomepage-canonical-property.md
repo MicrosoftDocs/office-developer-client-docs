@@ -35,7 +35,7 @@ Contains the URL of the home page for the business.
 
 These properties are used as a link to the contact's business home page.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -63,7 +63,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

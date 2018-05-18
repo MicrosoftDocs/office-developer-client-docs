@@ -96,7 +96,7 @@ MAPI_E_VERSION
 
 MAPI calls the entry point function **ABProviderInit** to initialize an address book provider following a client logon. 
   
-## Notes to Implementers
+## Notes to implementers
 
 An address book provider must implement **ABProviderInit** as an entry point function in the provider's DLL. The implementation must be based on the **ABPROVIDERINIT** function prototype, also specified in MAPISPI.H. MAPI defines **ABPROVIDERINIT** to use the standard MAPI initialization call type, STDMAPIINITCALLTYPE, which causes **ABProviderInit** to follow the CDECL calling convention. 
   

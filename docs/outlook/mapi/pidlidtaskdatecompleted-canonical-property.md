@@ -36,7 +36,7 @@ Specifies the date when the user completes the task.
 
 If set, this property must have a time component of midnight in the local time zone, converted to Coordinated Universal Time (UTC).
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

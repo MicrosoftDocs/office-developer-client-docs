@@ -44,10 +44,10 @@ Whether the MAPI subsystem supports the MAPI client to do fast shutdown depends 
   
 ## See also
 
-#### Reference
+
 
 [IMAPIClientShutdown : IUnknown](imapiclientshutdowniunknown.md)
-#### Concepts
+
 
 [Client Shutdown in MAPI](client-shutdown-in-mapi.md)
 

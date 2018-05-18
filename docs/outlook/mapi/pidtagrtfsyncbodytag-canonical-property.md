@@ -37,7 +37,7 @@ The [RTFSync](rtfsync.md) function uses the text tag to indicate the beginning o
   
 These properties are Rich Text Format auxiliary properties. They are used by the **RTFSync** function and are not intended to be used directly by client applications. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -61,7 +61,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

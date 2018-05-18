@@ -53,12 +53,12 @@ When a user selects a display name from a form, the name's corresponding enumera
   
 ## See also
 
-#### Reference
+
 
 [SMAPIFormProp](smapiformprop.md)
   
 [SPropValue](spropvalue.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

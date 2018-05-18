@@ -76,7 +76,7 @@ When a message that has tags is passed to a stream, the tags are stripped out an
   
 ## See also
 
-#### Reference
+
 
 [OpenTnefStream](opentnefstream.md)
   

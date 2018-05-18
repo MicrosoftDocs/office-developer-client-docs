@@ -66,7 +66,7 @@ For more information about how the memory for **SRowSet** structures should be a
   
 ## See also
 
-#### Reference
+
 
 [ADRLIST](adrlist.md)
   
@@ -77,7 +77,7 @@ For more information about how the memory for **SRowSet** structures should be a
 [MAPIAllocateBuffer](mapiallocatebuffer.md)
   
 [MAPIFreeBuffer](mapifreebuffer.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

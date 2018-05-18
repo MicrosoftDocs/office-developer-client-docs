@@ -41,10 +41,10 @@ CbADRLIST (_lpadrlist)
     
 ## See also
 
-#### Reference
+
 
 [ADRLIST](adrlist.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

@@ -69,7 +69,7 @@ MAPI_W_ERRORS_RETURNED
 
 The **IMAPISession::OpenAddressBook** method opens the MAPI integrated address book, a collection of the top-level containers of all of the address book providers in the profile. The pointer that is returned in the  _lppAdrBook_ parameter provides further access to the contents of the address book. This allows the caller to perform tasks such as opening individual containers, finding messaging users, and displaying common address dialog boxes. 
   
-## Notes to Callers
+## Notes to callers
 
  **OpenAddressBook** returns MAPI_W_ERRORS_RETURNED if it cannot load one or more of the address book providers in the profile. This value is a warning, not an error value; handle it as you would S_OK. **OpenAddressBook** always returns a valid pointer in the  _lppAdrBook_ parameter, regardless of how many of the address book providers failed to load. Therefore, you must always call the address book's [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) method at some point before logging off. 
   
@@ -85,7 +85,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
   
@@ -94,7 +94,7 @@ For MFCMAPI sample code, see the following table.
 [MAPIERROR](mapierror.md)
   
 [IMAPISession : IUnknown](imapisessioniunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

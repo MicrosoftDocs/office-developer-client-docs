@@ -35,7 +35,7 @@ Contains the entry identifier for the folder where search results are typically 
 
 The entry identifier contained in this property has the same format as the [ENTRYID](entryid.md) structure. 
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

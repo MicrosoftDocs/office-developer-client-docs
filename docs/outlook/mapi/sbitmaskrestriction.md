@@ -68,10 +68,10 @@ For more information about the **SBitMaskRestriction** structure and restriction
   
 ## See also
 
-#### Reference
+
 
 [SRestriction](srestriction.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

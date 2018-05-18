@@ -33,7 +33,7 @@ An Outlook Social Connector (OSC) provider can choose to implement this interfac
   
 ## See also
 
-#### Concepts
+
 
 [Outlook Social Connector Provider Interfaces](outlook-social-connector-provider-interfaces.md)
 

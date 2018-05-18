@@ -91,7 +91,7 @@ The value returned in  _lppProblems_ is valid only if the call returns S_OK. Whe
   
 ## See also
 
-#### Reference
+
 
 [ITnef::AddProps](itnef-addprops.md)
   

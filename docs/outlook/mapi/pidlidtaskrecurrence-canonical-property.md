@@ -36,7 +36,7 @@ Contains a RecurrencePattern structure that provides information about recurring
 
 For information about how to create and specify a RecurrencePattern structure, see [Create a Simple Recurrent Task Item](how-to-create-a-simple-recurrent-task-item.md).
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -64,7 +64,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

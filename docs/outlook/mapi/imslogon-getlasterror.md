@@ -70,7 +70,7 @@ The return value from **GetLastError** must be S_OK for an application to use th
   
 ## See also
 
-#### Reference
+
 
 [MAPIERROR](mapierror.md)
   

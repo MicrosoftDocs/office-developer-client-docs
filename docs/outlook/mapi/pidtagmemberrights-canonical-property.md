@@ -91,7 +91,7 @@ rightsAll
   
 > Member has all the previous rights on the folder.
     
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -123,10 +123,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [IExchangeModifyTable : IUnknown](iexchangemodifytableiunknown.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

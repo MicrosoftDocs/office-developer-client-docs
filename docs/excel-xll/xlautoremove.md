@@ -59,10 +59,10 @@ int WINAPI xlAutoRemove(void)
 
 ## See also
 
-#### Reference
+
 
 [xlAutoAdd](xlautoadd.md)
-#### Concepts
+
 
 [Add-in Manager and XLL Interface Functions](add-in-manager-and-xll-interface-functions.md)
 

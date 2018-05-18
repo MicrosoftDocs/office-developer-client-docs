@@ -34,7 +34,7 @@ This section includes information about creating and calling DLLs that work with
     
 ## See also
 
-#### Concepts
+
 
 [Developing Excel XLLs](developing-excel-xlls.md)
 

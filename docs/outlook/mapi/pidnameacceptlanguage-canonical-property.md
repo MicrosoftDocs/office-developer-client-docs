@@ -36,7 +36,7 @@ Contains an [RFC3282] Accept-Language header field value.
 
 To set the value of this property, Multipurpose Internet Message Extensions (MIME) clients should write an Accept-Language header field with the desired value. MIME clients may write an X-Accept-Language header field instead. MIME readers should copy the value of either header field to the value of this property. If both header fields are present, MIME readers should use the Accept-Language header field.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

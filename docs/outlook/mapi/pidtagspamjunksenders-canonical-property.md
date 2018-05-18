@@ -27,7 +27,7 @@ Contains a semicolon-delimited list of email addresses and domains that comprise
 |Data type:  <br/> |PT_UNICODE  <br/> |
 |Area:  <br/> |Spam  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -51,7 +51,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

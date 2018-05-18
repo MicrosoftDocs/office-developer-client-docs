@@ -81,10 +81,10 @@ short WINAPI xlSetExample(short int iVal)
 
 ## See also
 
-#### Reference
+
 
 [xlCoerce](xlcoerce.md)
-#### Concepts
+
 
 [C API Functions That Can Be Called Only from a DLL or XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

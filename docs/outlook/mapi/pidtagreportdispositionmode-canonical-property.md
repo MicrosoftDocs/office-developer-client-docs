@@ -33,7 +33,7 @@ Indicates the disposition of the receipt for messages that request receipts.
 
 The possible values for this property are "manual-action/MDN-sent-automatically" and "manual-action/MDN-sent-manually".
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -53,7 +53,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

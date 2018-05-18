@@ -30,7 +30,7 @@ In general, there are no well-specified procedures for tightly coupling service 
     
 ## See also
 
-#### Concepts
+
 
 [Developing a MAPI Message Store Provider](developing-a-mapi-message-store-provider.md)
 

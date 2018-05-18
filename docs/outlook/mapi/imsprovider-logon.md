@@ -217,7 +217,7 @@ If a provider returns MAPI_E_UNCONFIGURED from its logon, MAPI will call the pro
   
 ## See also
 
-#### Reference
+
 
 [IMAPISession::GetMsgStoresTable](imapisession-getmsgstorestable.md)
   

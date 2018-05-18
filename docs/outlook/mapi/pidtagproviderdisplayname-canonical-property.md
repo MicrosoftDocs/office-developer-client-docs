@@ -31,7 +31,7 @@ Contains the display name of a provider.
 |Data type:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Area:  <br/> |MAPI message store  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -45,7 +45,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

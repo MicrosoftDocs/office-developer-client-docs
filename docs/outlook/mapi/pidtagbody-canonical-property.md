@@ -39,7 +39,7 @@ Message stores that support Rich Text Format (RTF) ignore any changes to white s
   
 The value for this property must be expressed in the code page of the operating system that MAPI is running on. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -63,10 +63,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagRtfInSync Canonical Property](pidtagrtfinsync-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

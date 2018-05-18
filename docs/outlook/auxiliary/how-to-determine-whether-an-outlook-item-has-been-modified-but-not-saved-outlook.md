@@ -44,7 +44,7 @@ bool FIsItemDirty(IDispatch *pdisp)
 
 ## See also
 
-#### Concepts
+
 
 [Constants (Outlook exported APIs)](constants-outlook-exported-apis.md)
 

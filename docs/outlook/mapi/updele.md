@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
   
 Extended information for items that have been deleted in a local store. This information is used during the [upload delete status state](upload-delete-status-state.md).
   
-## Quick Info
+## Quick info
 
 ```cpp
 struct UPDELE 

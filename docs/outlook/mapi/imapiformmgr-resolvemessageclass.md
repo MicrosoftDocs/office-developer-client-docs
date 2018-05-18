@@ -69,7 +69,7 @@ MAPI_E_NOT_FOUND
 
 Form viewers call the **IMAPIFormMgr::ResolveMessageClass** method to resolve a message class to its form within a form container. The form information object returned in the  _ppResult_ parameter provides further access to the properties of the form that has the given message class. 
   
-## Notes to Callers
+## Notes to callers
 
 To resolve a message class to a form, a form viewer passes in the name of the message class to be resolved, such as " `IPM.HelpDesk.Software`". To force the resolution to be exact (that is, to prevent resolution to a base class of the message class when an exactly matching form server is not available), the MAPIFORM_EXACTMATCH flag can be passed in the  _ulFlags_ parameter. If the  _pFolderFocus_ parameter is NULL, the message-class resolution process does not search a folder container. 
   
@@ -81,7 +81,7 @@ The class identifier for the resolved message class is returned as part of the f
   
 ## See also
 
-#### Reference
+
 
 [IMAPIFormInfo : IMAPIProp](imapiforminfoimapiprop.md)
   

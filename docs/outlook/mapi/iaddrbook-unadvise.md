@@ -48,7 +48,7 @@ Clients call the **Unadvise** method to stop receiving notifications about chang
   
 ## See also
 
-#### Reference
+
 
 [IAddrBook::Advise](iaddrbook-advise.md)
   

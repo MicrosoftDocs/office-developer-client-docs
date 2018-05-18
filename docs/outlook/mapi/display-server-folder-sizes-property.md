@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Displays the sizes of specified folders on the server in the Outlook **Folder Size** dialog box. 
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|

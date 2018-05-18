@@ -32,7 +32,7 @@ Contains X.509 version 3 security certificates for a messaging user.
 |Data type:  <br/> |PT_MV_BINARY  <br/> |
 |Area:  <br/> |Contact  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -52,7 +52,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -66,7 +66,7 @@ Form objects implement the **IPersistMessage::GetLastError** method to supply in
   
 A call to **GetLastError** does not affect the state of the form. When **GetLastError** returns, the form remains in the state that it was in before the call was made. 
   
-## Notes to Callers
+## Notes to callers
 
 You can use the **MAPIERROR** structure, if the form supplies one, that is pointed to by the  _lppMAPIError_ parameter only if **GetLastError** returns S_OK. Sometimes the form cannot determine what the last error was or has nothing more to report about the error. In this situation, the form returns a pointer to NULL in  _lppMAPIError_ instead. 
   
@@ -74,7 +74,7 @@ For more information about the **GetLastError** method, see [MAPI Extended Error
   
 ## See also
 
-#### Reference
+
 
 [MAPIERROR](mapierror.md)
   

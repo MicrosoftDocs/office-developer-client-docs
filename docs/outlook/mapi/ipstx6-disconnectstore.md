@@ -38,7 +38,7 @@ HRESULT DisconnectStore(
     
 ## See also
 
-#### Concepts
+
 
 [About the Replication API](about-the-replication-api.md)
   

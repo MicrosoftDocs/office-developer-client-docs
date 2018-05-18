@@ -36,7 +36,7 @@ Indicates the **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-cano
 
 The value of this property must either be "IPM.Appointment" or be prefixed with "IPM.Appointment.". This property is not required.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -88,7 +88,7 @@ Depending on your social network and the OSC provider, there are usually provide
   
 ## See also
 
-#### Other resources
+
 
 [Getting Started with Developing an Outlook Social Connector Provider](getting-started-with-developing-an-outlook-social-connector-provider.md)
 

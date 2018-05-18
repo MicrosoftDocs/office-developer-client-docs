@@ -103,12 +103,12 @@ For more information, see [What's New in the C API for Excel](what-s-new-in-the-
   
 ## See also
 
-#### Concepts
+
 
 [What's New in the C API for Excel](what-s-new-in-the-c-api-for-excel.md)
   
 [C API Callback Functions Excel4, Excel12](c-api-callback-functions-excel4-excel12.md)
-#### Other resources
+
 
 [Getting Started with the Excel XLL SDK](getting-started-with-the-excel-xll-sdk.md)
 

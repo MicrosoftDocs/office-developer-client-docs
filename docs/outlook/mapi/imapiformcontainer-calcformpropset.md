@@ -67,11 +67,11 @@ MAPI_E_BAD_CHARWIDTH
 
 Client applications call the **IMAPIFormContainer::CalcFormPropSet** method to obtain an array of properties used by all forms installed in a form container. **IMAPIFormContainer::CalcFormPropSet** works like the [IMAPIFormMgr::CalcFormPropSet](imapiformmgr-calcformpropset.md) method, except that it operates on every form registered in a particular container. 
   
-## Notes to Implementers
+## Notes to implementers
 
 Form library providers that do not support Unicode strings should return MAPI_E_BAD_CHARWIDTH if MAPI_UNICODE is passed.
   
-## Notes to Callers
+## Notes to callers
 
  **IMAPIFormContainer::CalcFormPropSet** takes either an intersection or a union of the forms' property sets, depending on the flag set in the  _ulFlags_ parameter, and it returns an **SMAPIFormPropArray** structure that contains the resulting group of properties. 
   
@@ -79,7 +79,7 @@ If a client passes the MAPI_UNICODE flag in  _ulFlags_, all returned strings are
   
 ## See also
 
-#### Reference
+
 
 [IMAPIFormMgr::CalcFormPropSet](imapiformmgr-calcformpropset.md)
   

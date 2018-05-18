@@ -35,7 +35,7 @@ A number associated with an item in a message store.
 
 In IMAPI message stores, this property corresponds to the IMAPI UID.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -72,14 +72,14 @@ For more information about standard and categorized sorting, see [Sorting and Ca
   
 ## See also
 
-#### Reference
+
 
 [SSortOrder](ssortorder.md)
   
 [IMAPITable::ExpandRow](imapitable-expandrow.md)
   
 [IMAPITable::CollapseRow](imapitable-collapserow.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

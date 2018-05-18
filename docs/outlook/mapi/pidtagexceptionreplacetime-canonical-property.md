@@ -35,7 +35,7 @@ Indicates the original date and time when the instance in the recurrence pattern
 
 This value must be specified in Coordinated Universal Time (UTC).
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -55,7 +55,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

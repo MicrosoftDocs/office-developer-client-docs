@@ -35,7 +35,7 @@ Contains a message recipient's ASN.1 certificate for use in a report.
 
 This property is a copy of the recipient's **PR_USER_CERTIFICATE** ([PidTagUserCertificate](pidtagusercertificate-canonical-property.md)) property for use in a report. It can be used to prove to the originator that the recipient actually received the message, which a delivery report does not necessarily indicate.
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

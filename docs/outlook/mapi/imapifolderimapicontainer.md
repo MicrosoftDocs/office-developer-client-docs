@@ -34,7 +34,7 @@ Performs operations on the messages and subfolders in a folder.
 |Pointer type:  <br/> |LPMAPIFOLDER  <br/> |
 |Transaction model:  <br/> |Nontransacted  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -63,7 +63,7 @@ Performs operations on the messages and subfolders in a folder.
    
 ## See also
 
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
 

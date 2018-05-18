@@ -31,7 +31,7 @@ Contains a list of secondary telephone numbers at the recipient's home.
 |Data type:  <br/> |PT_MV_UNICODE8  <br/> |
 |Area:  <br/> |MAPI mail user  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -55,7 +55,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

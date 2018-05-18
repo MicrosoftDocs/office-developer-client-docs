@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
   
 Information for uploading the contents of a folder during the [upload table state](upload-table-state.md).
   
-## Quick Info
+## Quick info
 
 ```cpp
 struct UPTBL 

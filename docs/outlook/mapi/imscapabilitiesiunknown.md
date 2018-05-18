@@ -29,7 +29,7 @@ Provides information about what a store can support.
 |Provided by:  <br/> |Message store provider  <br/> |
 |Interface identifier:  <br/> |IID_IMSCapabilities  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -41,7 +41,7 @@ Provides information about what a store can support.
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
 

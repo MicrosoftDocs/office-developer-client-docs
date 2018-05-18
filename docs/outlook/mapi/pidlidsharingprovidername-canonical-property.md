@@ -36,7 +36,7 @@ Specifies the user-displayable name of the sharing provider that is identified b
 
 This property should be ignored.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

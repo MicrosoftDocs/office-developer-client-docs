@@ -39,7 +39,7 @@ MAPI uses a DLL file naming convention. The base filename contains up to six cha
   
 These properties should specify the base name. MAPI appends the string 32 as appropriate. Including the string 32 as part of these properties result in an error.
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -53,10 +53,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagProviderDllName Canonical Property](pidtagproviderdllname-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

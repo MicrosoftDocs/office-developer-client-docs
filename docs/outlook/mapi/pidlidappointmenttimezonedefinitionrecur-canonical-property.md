@@ -42,7 +42,7 @@ A parser must be careful when it reads a stream that is obtained from **dispidAp
   
  **dispidApptTZDefRecur** specifies time zone information that describes how to convert the meeting date and time on a recurring series to and from Coordinated Universal Time (UTC). If this property is set but it has data that is inconsistent with the data represented by **dispidTimeZoneStruct**, the client must use **dispidTimeZoneStruct** instead of **dispidApptTZDefRecur**. If **dispidApptTZDefRecur** is not set, the **PidLidTimeZoneStruct** property will be used instead. The fields in this BLOB are encoded in little-endian byte order. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -62,7 +62,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -83,13 +83,13 @@ MAPI_E_USER_CANCEL
 
 Form viewers call the **IMAPIFormMgr::SelectMultipleForms** method to first present a dialog box that enables the user to select multiple forms and then to retrieve an array of form information objects that describe the selected forms. The **SelectMultipleForms** dialog box displays all forms, whether or not they are hidden (that is, whether or not their hidden properties are clear). 
   
-## Notes to Implementers
+## Notes to implementers
 
 If a form viewer passes the MAPI_UNICODE flag in the  _ulFlags_ parameter, all strings are Unicode. Form library providers that do not support Unicode strings should return MAPI_E_BAD_CHARWIDTH if MAPI_UNICODE is passed. 
   
 ## See also
 
-#### Reference
+
 
 [IMAPIFormMgr : IUnknown](imapiformmgriunknown.md)
 

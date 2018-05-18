@@ -69,12 +69,12 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [SMAPIVerbArray](smapiverbarray.md)
   
 [IMAPIFormInfo : IMAPIProp](imapiforminfoimapiprop.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

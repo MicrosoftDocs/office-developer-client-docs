@@ -69,10 +69,10 @@ short WINAPI Excel12fExample(void)
 
 ## See also
 
-#### Reference
+
 
 [Excel4/Excel12](excel4-excel12.md)
-#### Concepts
+
 
 [Functions in the Framework Library](functions-in-the-framework-library.md)
 

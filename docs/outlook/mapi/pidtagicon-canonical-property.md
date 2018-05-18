@@ -35,7 +35,7 @@ Contains a bitmap of a full size icon for a form.
 
 This property contains a 32 × 32 pixel image of an icon, the same as the contents of a .ICO file. This property is normally copied from the .ICO file specified in the LargeIcon line of the appropriate [Description] section of the form configuration file. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -55,10 +55,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagMiniIcon Canonical Property](pidtagminiicon-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

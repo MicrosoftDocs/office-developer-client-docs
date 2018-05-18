@@ -55,12 +55,12 @@ For more information about PT_MV_BINARY, see [List of Property Types](property-t
   
 ## See also
 
-#### Reference
+
 
 [SBinary](sbinary.md)
   
 [SPropValue](spropvalue.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

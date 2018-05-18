@@ -80,7 +80,7 @@ To access the form manager, call the [MAPIOpenFormMgr](mapiopenformmgr.md) funct
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Forms](mapi-forms.md)
   

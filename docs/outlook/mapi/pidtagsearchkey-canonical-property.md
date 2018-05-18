@@ -54,7 +54,7 @@ The following table summarizes important differences among the **PR_ENTRYID** ([
 |Unique within ...  <br/> |Entire world  <br/> |Provider instance  <br/> |Entire world  <br/> |
 |Binary comparable (as with memcmp)  <br/> |No -- use [IMAPISupport::CompareEntryIDs](imapisupport-compareentryids.md) <br/> |Yes  <br/> |Yes  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -82,12 +82,12 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagResponsibility Canonical Property](pidtagresponsibility-canonical-property.md)
   
 [PidTagStoreRecordKey Canonical Property](pidtagstorerecordkey-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

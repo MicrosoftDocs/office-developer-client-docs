@@ -35,7 +35,7 @@ Set to TRUE when the meeting request has been processed.
 
 This property ensures that meeting requests get processed once. The creator of the request should set this property to FALSE and the receiver should set it to TRUE once the request is in the calendar.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -63,7 +63,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

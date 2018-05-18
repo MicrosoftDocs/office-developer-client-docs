@@ -54,7 +54,7 @@ short WINAPI TempActiveRowExample(void)
 
 ## See also
 
-#### Concepts
+
 
 [Functions in the Framework Library](functions-in-the-framework-library.md)
 

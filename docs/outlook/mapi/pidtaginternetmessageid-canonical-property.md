@@ -35,7 +35,7 @@ Corresponds to the message ID field as specified in [RFC2822].
 
 These properties should be present on all e-mail messages.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

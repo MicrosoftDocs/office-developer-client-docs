@@ -15,7 +15,7 @@ ms.assetid: 7b7cb295-fc77-a8b9-aac9-e548f3b4afcb
 
 Supports getting and setting of properties and other information about an account.
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|
@@ -25,7 +25,7 @@ Supports getting and setting of properties and other information about an accoun
 |Called by:  <br/> |Client  <br/> |
 |Interface identifier:  <br/> |IID_IOlkAccount  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -71,7 +71,7 @@ This interface is returned by **IOlkAccountManager::FindAccount** when searching
   
 ## See also
 
-#### Concepts
+
 
 [About the Account Management API](about-the-account-management-api.md)
   

@@ -34,7 +34,7 @@ The PackedAnsiString stream structure contains an ANSI representation of a strin
     
 ## See also
 
-#### Concepts
+
 
 [Outlook Items and Fields](outlook-items-and-fields.md)
   

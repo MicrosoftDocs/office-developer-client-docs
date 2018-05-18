@@ -36,7 +36,7 @@ Acts as a tie breaker when the **dispidToDoOrdinalDate** ([PidLidToDoOrdinalDate
 
 If used, this property must be sorted lexicographically. The component characters of the string must consist of only the numerals zero through nine. This property should be initially set to "5555555". The length of this property must not exceed 254 characters (excluding the terminating NULL character).
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,10 +56,10 @@ Mapidefs.h
     
 ## See also
 
-#### Reference
+
 
 [PidLidToDoOrdinalDate Canonical Property](pidlidtodoordinaldate-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

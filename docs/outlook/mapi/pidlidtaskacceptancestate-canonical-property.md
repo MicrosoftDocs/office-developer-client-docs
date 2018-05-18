@@ -43,7 +43,7 @@ The following table shows the possible values for this property.
 |0x00000002  <br/> |The task assignee accepted the task. This value is set when the client processes a task acceptance.  <br/> |
 |0x00000003  <br/> |The task assignee rejected the task. This value is set when the client processes a task rejection.  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -63,7 +63,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

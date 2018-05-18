@@ -35,7 +35,7 @@ Indicates the page of a display template to display first.
 
 It must be present on all address book objects on an Name Service Provider Interface (NSPI) server, and must have the value zero (0). It must not be defined for any objects in an Offline Address Book.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

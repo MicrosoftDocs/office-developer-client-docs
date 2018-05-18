@@ -31,7 +31,7 @@ Contains the globally unique identifier (GUID) for the reply template.
 |Data type:  <br/> |PT_BINARY  <br/> |
 |Area:  <br/> |Rules  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -55,7 +55,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

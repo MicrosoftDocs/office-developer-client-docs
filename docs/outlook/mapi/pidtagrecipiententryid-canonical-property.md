@@ -31,7 +31,7 @@ Contains the **EntryID** of the recipient
 |Data type:  <br/> |PT_BINARY  <br/> |
 |Area:  <br/> |ID properties  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -67,7 +67,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -41,10 +41,10 @@ CbNewSPropTagArray (_ctag)
     
 ## See also
 
-#### Reference
+
 
 [SPropTagArray](sproptagarray.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

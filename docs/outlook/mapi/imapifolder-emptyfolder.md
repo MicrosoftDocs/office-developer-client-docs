@@ -76,11 +76,11 @@ During an **EmptyFolder** call, submitted messages are not deleted.
   
 A folder's associated contents include messages that are used to describe views, rules, custom forms, and custom solution storage, and can also include form definitions. 
   
-## Notes to Implementers
+## Notes to implementers
 
 Do not call the [IMsgStore::AbortSubmit](imsgstore-abortsubmit.md) method for messages in the folder that have been submitted. Submitted messages are not deleted. 
   
-## Notes to Callers
+## Notes to callers
 
 Expect these return values under the following conditions.
   
@@ -102,12 +102,12 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMsgStore::AbortSubmit](imsgstore-abortsubmit.md)
   
 [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
   

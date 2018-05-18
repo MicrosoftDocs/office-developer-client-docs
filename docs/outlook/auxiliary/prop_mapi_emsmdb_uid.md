@@ -16,7 +16,7 @@ description: "Represents an ACCT_BIN structure that contains the UID of an Excha
 
 Represents an [ACCT_BIN](acct_bin.md) structure that contains the UID of an Exchange account. 
   
-## Quick Info
+## Quick info
 
 See [IOlkAccount](iolkaccount.md).
   
@@ -35,12 +35,12 @@ Use [PROP_ACCT_IS_EXCH](prop_acct_is_exch.md) to verify if the account is an Exc
   
 ## See also
 
-#### Concepts
+
 
 [About the Account Management API](about-the-account-management-api.md)
   
 [Constants (Account management API)](constants-account-management-api.md)
-#### Other resources
+
 
 [Using Multiple Exchange Accounts](http://msdn.microsoft.com/library/4e1804bf-4c50-4942-a7ab-9a8caf1be7e5%28Office.15%29.aspx)
   

@@ -16,7 +16,7 @@ description: "Returns the display name of the account that delivered the message
 
 Returns the display name of the account that delivered the message.
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|
@@ -48,12 +48,12 @@ To support these named properties, store providers should expect Outlook to use 
    
 ## See also
 
-#### Concepts
+
 
 [About the Account Management API](about-the-account-management-api.md)
   
 [Constants (Account management API)](constants-account-management-api.md)
-#### Other resources
+
 
 [PidLidInternetAccountName Canonical Property](http://msdn.microsoft.com/library/29bedadf-903d-419d-804d-dc8bd92b745d%28Office.15%29.aspx)
 

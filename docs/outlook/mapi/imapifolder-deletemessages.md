@@ -73,11 +73,11 @@ MAPI_W_PARTIAL_COMPLETION
 
 The **IMAPIFolder::DeleteMessages** method deletes messages from a folder. Messages that do not exist, that have been moved elsewhere, that are open with read/write permission, or that are currently submitted cannot be deleted. 
   
-## Notes to Implementers
+## Notes to implementers
 
 When the delete operation involves more than one message, perform the operation as completely as possible for each folder, even if one or more of the messages cannot be deleted. Do not stop the operation prematurely unless a failure occurs that is beyond your control, such as running out of memory, running out of disk space, or corruption in the message store.
   
-## Notes to Callers
+## Notes to callers
 
 Expect these return values under the following conditions.
   
@@ -101,14 +101,14 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [ENTRYID](entryid.md)
   
 [ENTRYLIST](entrylist.md)
   
 [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
   

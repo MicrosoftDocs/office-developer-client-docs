@@ -53,7 +53,7 @@ Form viewers call the **IPersistMessage::InitNew** method when the user writes a
   
  **InitNew** should not be called when your form is in any state except the [Uninitialized](uninitialized-state.md) state. If the form is in one of the other states when **InitNew** is called, return E_UNEXPECTED. 
   
-## Notes to Implementers
+## Notes to implementers
 
 Typically, messages that have unsaved properties are marked as modified so that the client can display a dialog box that prompts the user whether these properties should be saved. If the user indicates that a message should be saved, save the data, mark the message as clean, and exit normally.
   
@@ -65,7 +65,7 @@ Set the **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-
   
 Before returning, transition the form to the [Normal](normal-state.md) state if no errors have occurred. Send a new message notification to all registered viewers by calling their [IMAPIViewAdviseSink::OnNewMessage](imapiviewadvisesink-onnewmessage.md) methods and return S_OK. 
   
-## Notes to Callers
+## Notes to callers
 
 After you have made a successful call to **InitNew**, you can assume that the following required properties, and no others, have been set for the form:
   
@@ -87,7 +87,7 @@ For more information about the states of forms, see [Form States](form-states.md
   
 ## See also
 
-#### Reference
+
 
 [IPersistMessage : IUnknown](ipersistmessageiunknown.md)
 

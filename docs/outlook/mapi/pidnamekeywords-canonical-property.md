@@ -36,7 +36,7 @@ Contains keywords or categories for the message object.
 
 A multi-string value that specifies the categories for a message object, the length of each string within this property multi-value string, must be less than 256.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -60,7 +60,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

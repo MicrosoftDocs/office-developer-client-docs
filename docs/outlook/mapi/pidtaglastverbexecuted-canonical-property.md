@@ -102,7 +102,7 @@ This property can have one the following values:
 |Journal Remote session  <br/> |0x00000615  <br/> |
 |New mail  <br/> |0xFFFFFFFF  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -125,7 +125,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

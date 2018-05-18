@@ -32,7 +32,7 @@ Contains the list of Address Book **EntryIDs** linked to by this message object.
 |Data type:  <br/> |PT_BINARY  <br/> |
 |Area:  <br/> |Contact  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -52,7 +52,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

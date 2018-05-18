@@ -55,7 +55,7 @@ The final table lists each control with the contents of its associated control s
   
 ## See also
 
-#### Concepts
+
 
 [Display Table Implementation](display-table-implementation.md)
 

@@ -32,7 +32,7 @@ A unique network identifier is a string that identifies the Outlook Social Conne
   
 ## See also
 
-#### Reference
+
 
 [ISocialSession : IUnknown](isocialsessioniunknown.md)
 

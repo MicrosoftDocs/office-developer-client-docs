@@ -65,12 +65,12 @@ The **SMAPIFormPropArray** structure is passed as a parameter to the following m
     
 ## See also
 
-#### Reference
+
 
 [CbMAPIFormPropArray](cbmapiformproparray.md)
   
 [SMAPIFormProp](smapiformprop.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

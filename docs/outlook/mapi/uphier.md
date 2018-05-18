@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
   
 Information for synchronizing a folder hierarchy during the [upload hierarchy state](upload-hierarchy-state.md).
   
-## Quick Info
+## Quick info
 
 ```cpp
 struct UPHIER 

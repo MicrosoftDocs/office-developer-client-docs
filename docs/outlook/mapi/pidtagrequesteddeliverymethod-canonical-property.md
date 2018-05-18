@@ -35,7 +35,7 @@ This property contains a binary array of delivery methods (service providers), i
 
 The array contained in the this property consists of ASN.1 identifiers for each of the service providers.
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

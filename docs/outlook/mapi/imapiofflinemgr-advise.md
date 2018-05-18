@@ -66,12 +66,12 @@ Upon opening an offline object using **[HrOpenOfflineObj](hropenofflineobj.md)**
   
 ## See also
 
-#### Reference
+
 
 [IMAPIOffline::GetCapabilities](imapioffline-getcapabilities.md)
   
 [IMAPIOfflineMgr::Unadvise](imapiofflinemgr-unadvise.md)
-#### Concepts
+
 
 [MAPI Constants](mapi-constants.md)
   

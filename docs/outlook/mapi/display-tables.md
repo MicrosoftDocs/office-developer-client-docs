@@ -67,7 +67,7 @@ For more information about display tables, see [Display Table Implementation](di
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Tables](mapi-tables.md)
 

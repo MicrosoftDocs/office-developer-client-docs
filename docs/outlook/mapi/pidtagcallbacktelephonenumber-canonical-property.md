@@ -35,7 +35,7 @@ Contains a telephone number that the message recipient can use to reach the send
 
 These properties are examples of the properties that provides identification and access information about a recipient. They are defined by the recipient and the recipient's organization. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -63,7 +63,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

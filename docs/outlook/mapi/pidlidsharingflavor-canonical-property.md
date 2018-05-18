@@ -45,7 +45,7 @@ The value of this property must be one of the following:
 |0x00025100  <br/> |A sharing response denying a request.  <br/> |
 |0x00023310  <br/> |A sharing response accepting a request (also a type of sharing invitation).  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -65,7 +65,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

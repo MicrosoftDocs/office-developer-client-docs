@@ -73,7 +73,7 @@ The **IMAPISupport::RegisterPreprocessor** method is implemented for transport p
   
 The  _lpszPreprocess_,  _lpszRemovePreprocessInfo_, and  _lpszDLLName_ parameters should all point to strings that can be used in conjunction with calls to the Win32 **GetProcAddress** function, allowing the preprocessor's DLL entry point to be called correctly. 
   
-## Notes to Callers
+## Notes to callers
 
 Calls to preprocessors are specific to transport provider order. This means that if another transport provider ahead of your provider is able to handle a message, your preprocessor function will not be called for that message. Your preprocessor function will be called only for messages that you will handle.
   
@@ -81,7 +81,7 @@ You can write preprocessor functions to handle either a specific identifier stor
   
 ## See also
 
-#### Reference
+
 
 [MAPIUID](mapiuid.md)
   

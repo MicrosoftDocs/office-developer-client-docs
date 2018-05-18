@@ -61,7 +61,7 @@ In the following table, the notation <PropertyName> is used to specify "the valu
 |0xfffffffe  <br/> |Specifies that, when displaying the contact, the application should choose the appropriate default values (according to the language locale) for **dispidFileUnderId** and update **dispidFileUnder** to match the choice.  <br/> |
 |0xffffffff  <br/> |**dispidFileUnder** is a user-provided PT_UNICODE, and should not be changed when another contact name property changes.  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -81,7 +81,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -118,7 +118,7 @@ If there was no preprocessing, or there was preprocessing and the MAPI spooler c
     
 ## See also
 
-#### Concepts
+
 
 [Message Store Features](message-store-features.md)
 

@@ -31,7 +31,7 @@ If set on a nondelivery report, denotes the name of the failed Send-As user.
 |Data type:  <br/> |PT_STRING8  <br/> |
 |Area:  <br/> |General messaging  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -51,7 +51,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

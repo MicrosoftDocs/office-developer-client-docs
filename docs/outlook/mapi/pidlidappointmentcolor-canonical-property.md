@@ -50,7 +50,7 @@ This property specifies the color to use when displaying the calendar. A client 
 |0x00000009  <br/> |Teal  <br/> |
 |0x0000000A  <br/> |Yellow  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -70,7 +70,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

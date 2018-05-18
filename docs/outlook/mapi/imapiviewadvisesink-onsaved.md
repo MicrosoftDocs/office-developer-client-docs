@@ -46,7 +46,7 @@ For more information about form notifications, see [Sending and Receiving Form N
   
 ## See also
 
-#### Reference
+
 
 [IMAPIViewAdviseSink : IUnknown](imapiviewadvisesinkiunknown.md)
 

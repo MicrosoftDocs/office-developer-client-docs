@@ -82,7 +82,7 @@ The **IMAPITable::SeekRow** method establishes a new BOOKMARK_CURRENT position f
   
 If the resulting position is beyond the last row of the table, the cursor is positioned after the last row. If the resulting position is before the first row of the table, the cursor is positioned at the beginning of the first row. 
   
-## Notes to Implementers
+## Notes to implementers
 
 If the row pointed to by  _bkOrigin_ no longer exists in the table and you cannot establish a new position for the bookmark, return MAPI_E_INVALID_BOOKMARK. If the row pointed to by  _bkOrigin_ no longer exists and you can establish a new position for the bookmark, return MAPI_W_POSITION_CHANGED. 
   
@@ -90,7 +90,7 @@ A bookmark pointing to a row that is collapsed out of the table view can still b
   
 You can move bookmarks for positions collapsed out of view, either at the time of use or at the time that the row is collapsed. If a bookmark is moved at the time that the row is collapsed, keep a bit in the bookmark that indicates whether the bookmark has moved since its last use or, if it has never been used, since its creation.
   
-## Notes to Callers
+## Notes to callers
 
 To indicate a backward move for **SeekRow**, pass a negative value in  _lRowCount_. To search to the beginning of the table, pass zero in  _lRowCount_ and the value BOOKMARK_BEGINNING in  _bkOrigin_. 
   
@@ -110,7 +110,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPITable::CreateBookmark](imapitable-createbookmark.md)
   
@@ -121,7 +121,7 @@ For MFCMAPI sample code, see the following table.
 [IMAPITable::SeekRowApprox](imapitable-seekrowapprox.md)
   
 [IMAPITable : IUnknown](imapitableiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

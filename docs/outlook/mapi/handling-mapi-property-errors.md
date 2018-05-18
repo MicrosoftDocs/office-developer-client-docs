@@ -40,7 +40,7 @@ When an error value is returned from **SetProps**, **DeleteProps**, **CopyTo**, 
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Property Overview](mapi-property-overview.md)
 

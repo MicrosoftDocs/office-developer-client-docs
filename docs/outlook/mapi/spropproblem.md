@@ -76,12 +76,12 @@ For more information about how the **SPropProblem** structure works with errors 
   
 ## See also
 
-#### Reference
+
 
 [SCODE](scode.md)
   
 [SPropProblemArray](spropproblemarray.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

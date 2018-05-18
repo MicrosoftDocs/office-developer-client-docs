@@ -69,14 +69,14 @@ In addition, if your OSC provider supports forms-based authentication, test for 
    
 ## See also
 
-#### Concepts
+
 
 [Capabilities XML Elements](capabilities-xml-elements.md)
   
 [Basic Authentication](basic-authentication.md)
   
 [Forms-Based Authentication](forms-based-authentication.md)
-#### Other resources
+
 
 [Getting Ready to Release an OSC Provider](getting-ready-to-release-an-osc-provider.md)
 

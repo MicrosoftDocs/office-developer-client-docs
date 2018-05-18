@@ -58,7 +58,7 @@ To assign a new name to a message service, clients should use the **PR_SERVICE_N
   
 ## See also
 
-#### Reference
+
 
 [MAPIUID](mapiuid.md)
   

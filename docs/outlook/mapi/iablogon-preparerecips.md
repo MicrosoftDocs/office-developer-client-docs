@@ -76,7 +76,7 @@ A client calls the MAPI [IAddrBook::PrepareRecips](iaddrbook-preparerecips.md) m
     
 The **ADRENTRY** structure in the  _lpRecipList_ parameter contains one **ADRENTRY** structure for each recipient. Each **ADRENTRY** structure contains an array of [SPropValue](spropvalue.md) structures to describe the recipient's properties. When **IABLogon::PrepareRecips** returns, the **SPropValue** structure array for each recipient includes the properties from the  _lpPropTagArray_ followed by the other properties for the recipient. 
   
-## Notes to Implementers
+## Notes to implementers
 
 Implementing **IABLogon::PrepareRecips** involves putting properties in a specific order, retrieving property values, and converting short-term entry identifiers to long-term entry identifiers. The properties that are requested in the  _lpPropTagArray_ parameter must be at the start of the property value array associated with each recipient's **ADRENTRY** structure in the  _lpRecipList_ parameter. If values for these properties do not exist, open the associated messaging user or distribution list by using its entry identifier and retrieve the missing property values. 
   
@@ -105,7 +105,7 @@ To implement **IABLogon::PrepareRecips**, use the following procedure:
   
 ## See also
 
-#### Reference
+
 
 [ADRLIST](adrlist.md)
   

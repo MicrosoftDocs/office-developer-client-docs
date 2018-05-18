@@ -37,7 +37,7 @@ This property contains a 32 × 32 pixel image of an icon, the same as the conten
   
  **Note** Some platforms do not support 16 × 16 pixel icons. The 32 × 32 format of this property is usable in such a case but client applications should be aware of display inconsistencies. 
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -51,10 +51,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagIcon Canonical Property](pidtagicon-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

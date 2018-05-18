@@ -170,12 +170,12 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPISession::GetMsgStoresTable](imapisession-getmsgstorestable.md)
   
 [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

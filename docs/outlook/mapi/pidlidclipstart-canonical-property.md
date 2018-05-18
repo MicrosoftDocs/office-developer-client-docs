@@ -32,7 +32,7 @@ Specifies the start date and time of the event in Coordinated Universal Times (U
 |Data type:  <br/> |PT_SYSTIME  <br/> |
 |Area:  <br/> |Calendar  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -52,7 +52,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

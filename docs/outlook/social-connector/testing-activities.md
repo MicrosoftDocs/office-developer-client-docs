@@ -43,12 +43,12 @@ To verify that you are getting appropriate activities for friends and non-friend
 ## See also
 <a name="olosc_TestingActivities_OnDemandSync"> </a>
 
-#### Concepts
+
 
 [Synchronizing Friends and Activities](synchronizing-friends-and-activities.md)
   
 [XML for Activities](xml-for-activities.md)
-#### Other resources
+
 
 [Getting Ready to Release an OSC Provider](getting-ready-to-release-an-osc-provider.md)
 

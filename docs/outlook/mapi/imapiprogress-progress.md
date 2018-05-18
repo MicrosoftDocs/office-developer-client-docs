@@ -52,7 +52,7 @@ S_OK
   
 > The progress indicator was successfully updated.
     
-## Notes to Implementers
+## Notes to implementers
 
 The  _ulValue_ parameter will be equal to the global minimum value only at the start of the operation and to the global maximum value only at the completion of the operation. 
   
@@ -60,7 +60,7 @@ Use the  _ulCount_ and  _ulTotal_ parameters, if available, to display an option
   
 For more information about how to implement **Progress** and the other [IMAPIProgress](imapiprogressiunknown.md) methods, see [Implementing a Progress Indicator](implementing-a-progress-indicator.md).
   
-## Notes to Callers
+## Notes to callers
 
 Not all three of the parameters to **IMAPIProgress::Progress** are required. The only parameter that is required is  _ulValue_, a number that indicates the percentage of progress. If the MAPI_TOP_LEVEL flag is set, you can also pass an object count and an object total. Some implementations use these values to display a phrase such as "5 items completed out of 10" with the progress indicator. 
   
@@ -78,12 +78,12 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIProgress::SetLimits](imapiprogress-setlimits.md)
   
 [IMAPIProgress : IUnknown](imapiprogressiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
   

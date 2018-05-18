@@ -38,7 +38,7 @@ This property corresponds to the **dispidApptEndWhole** property of the appointm
   
 This specifies the end date and time for the event; it must be in Coordinated Universal Time (UTC) and must be greater than the value of the **dispidApptStartWhole** ([PidLidAppointmentStartWhole](pidlidappointmentstartwhole-canonical-property.md)) property. For a recurring series, the **dispidApptEndWhole** property is the end date and time of the first instance according to the recurrence pattern. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -58,7 +58,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

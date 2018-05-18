@@ -35,7 +35,7 @@ Contains the display name of the messaging user who receives the message.
 
 These properties are an example of the address properties for the messaging user who receives the message. They must be set by the incoming transport provider.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -75,10 +75,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagDisplayName Canonical Property](pidtagdisplayname-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

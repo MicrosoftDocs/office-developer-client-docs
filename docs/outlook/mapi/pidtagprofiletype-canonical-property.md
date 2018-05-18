@@ -43,7 +43,7 @@ The possible values for this property are:
     
 - 4 - Subscription
     
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -57,7 +57,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

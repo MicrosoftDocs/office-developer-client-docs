@@ -36,7 +36,7 @@ Contains TRUE if the message requires preprocessing.
 > [!IMPORTANT]
 > Do not use this property. It is reserved for use by MAPI. 
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -50,10 +50,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagSubmitFlags Canonical Property](pidtagsubmitflags-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -31,7 +31,7 @@ Contains the name of the network used to transmit the message.
 |Data type:  <br/> |PT_UNICODE, PT_STRING8  <br/> |
 |Area:  <br/> |Contact  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

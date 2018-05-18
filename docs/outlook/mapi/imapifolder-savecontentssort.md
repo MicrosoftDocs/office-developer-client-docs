@@ -63,7 +63,7 @@ Not all message store providers support **SaveContentsSort**; it is acceptable f
   
 ## See also
 
-#### Reference
+
 
 [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md)
   

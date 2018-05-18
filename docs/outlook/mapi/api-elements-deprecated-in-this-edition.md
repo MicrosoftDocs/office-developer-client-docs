@@ -40,7 +40,7 @@ The following API elements are deprecated in this release because of obsolete me
     
 ## See also
 
-#### Other resources
+
 
 [Getting Started with the Outlook MAPI Reference](getting-started-with-the-outlook-mapi-reference.md)
 

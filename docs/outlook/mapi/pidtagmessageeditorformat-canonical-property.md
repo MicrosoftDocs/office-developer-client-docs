@@ -50,7 +50,7 @@ There are two other ways to enforce the use of TNEF when sending a message.
     
 - Using the **CCSF_USE_TNEF** flag when calling [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md) to convert an outgoing MAPI message to a MIME stream can also enforce TNEF. This applies even if **dispidUseTNEF** is not set. 
     
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -78,7 +78,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

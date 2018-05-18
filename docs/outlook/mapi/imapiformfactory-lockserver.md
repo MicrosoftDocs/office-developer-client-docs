@@ -51,13 +51,13 @@ S_OK
 
 Form viewers call the **IMAPIFormFactory::LockServer** method to keep an open form server application in memory. Keeping the form server in memory improves its performance when forms are frequently created and released. 
   
-## Notes to Implementers
+## Notes to implementers
 
 The **IMAPIFormFactory::LockServer** method is very similar to the [IClassFactory::LockServer](http://msdn.microsoft.com/en-us/library/ms682332%28v=VS.85%29.aspx) method. Essentially, the **IMAPIFormFactory::LockServer** method maintains a count of how many times it has been called; as long as that count is greater than 0, the method prevents the form server from being unloaded from memory. You can use the [CoLockObjectExternal](http://msdn.microsoft.com/en-us/library/ms680592%28VS.85%29.aspx) function to implement this. 
   
 ## See also
 
-#### Reference
+
 
 [IMAPIFormFactory : IUnknown](imapiformfactoryiunknown.md)
 

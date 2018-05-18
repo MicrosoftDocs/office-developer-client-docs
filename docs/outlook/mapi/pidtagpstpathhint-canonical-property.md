@@ -33,7 +33,7 @@ Provides the personal storage table (.pst file) name, which the user can edit, f
 
 If the **PR_PST_PATH** ([PidTagPstPath](pidtagpstpath-canonical-property.md)) property is used instead, the configuration dialog box will open, but the user will not be allowed to edit the path and many other properties.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -53,7 +53,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

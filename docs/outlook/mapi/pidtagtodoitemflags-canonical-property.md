@@ -44,7 +44,7 @@ This property is a bit field in which each bit should be set to 1 if the associa
    
 All bits that are not specified in the table are reserved. They must be ignored, but should be preserved if they are set.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -68,7 +68,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

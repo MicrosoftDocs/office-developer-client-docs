@@ -33,7 +33,7 @@ Provides utility methods for working with tables. MAPI provides table data objec
 |Interface identifier:  <br/> |IID_IMAPITableData  <br/> |
 |Pointer type:  <br/> |LPTABLEDATA  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -57,7 +57,7 @@ Table data objects generate a single notification regardless of the number of ro
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
 

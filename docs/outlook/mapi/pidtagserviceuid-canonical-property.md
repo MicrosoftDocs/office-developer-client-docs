@@ -35,7 +35,7 @@ Contains the [MAPIUID](mapiuid.md) structure for a message service.
 
 This property is computed by MAPI on profile section objects. MAPI uses it to group all the providers that belong to the same message service. This property is supplied as a parameter to most of the [IMsgServiceAdmin](imsgserviceadminiunknown.md) methods. It must not appear in Mapisvc.inf. 
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,10 +49,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [IMsgServiceAdmin : IUnknown](imsgserviceadminiunknown.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

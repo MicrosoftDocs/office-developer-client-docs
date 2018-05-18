@@ -62,10 +62,10 @@ A **FLATENTRY** structure resembles an [ENTRYID](entryid.md) structure. However,
     
 ## See also
 
-#### Reference
+
 
 [ENTRYID](entryid.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

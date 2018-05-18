@@ -58,7 +58,7 @@ The **ITableData::HrNotify** method sends a TABLE_ROW_MODIFIED notification for 
   
 ## See also
 
-#### Reference
+
 
 [SPropValue](spropvalue.md)
   

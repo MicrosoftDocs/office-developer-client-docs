@@ -68,7 +68,7 @@ Use the **GetTnefStreamCodepage** function to read the **attOemCodepage** attrib
   
 ## See also
 
-#### Other resources
+
 
 [attOemCodepage](http://msdn.microsoft.com/en-us/library/ee158667%28EXCHG.80%29.aspx)
 

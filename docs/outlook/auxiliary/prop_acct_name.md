@@ -16,7 +16,7 @@ description: "Returns or sets the account name."
 
 Returns or sets the account name.
   
-## Quick Info
+## Quick info
 
 See [IOlkAccount](iolkaccount.md).
   
@@ -33,7 +33,7 @@ Get or set this property by using [IOlkAccount::GetProp](iolkaccount-getprop.md)
   
 ## See also
 
-#### Concepts
+
 
 [About the Account Management API](about-the-account-management-api.md)
   

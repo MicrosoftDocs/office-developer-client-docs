@@ -29,7 +29,7 @@ Specifies the icon displayed in the status bar.
    
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

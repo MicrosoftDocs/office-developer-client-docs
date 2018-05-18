@@ -35,7 +35,7 @@ Contains the 128-bit Object Linking and Embedding (OLE) globally unique identifi
 
 The [MAPIUID](mapiuid.md) structure contains the definition of the unique identifier. 
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

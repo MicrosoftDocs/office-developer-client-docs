@@ -37,7 +37,7 @@ To set the value of these properties, MIME clients should write an X-Payload-Cla
   
 MIME readers must copy this header field value to the value of the corresponding property. MIME readers should ignore this header field when it appears on a MIME entity that is analyzed as a message or message body, rather than as an attachment.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -61,7 +61,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

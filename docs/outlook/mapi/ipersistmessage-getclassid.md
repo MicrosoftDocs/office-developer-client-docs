@@ -50,7 +50,7 @@ For more information about how class identifiers are used with structured storag
   
 ## See also
 
-#### Reference
+
 
 [IPersistMessage : IUnknown](ipersistmessageiunknown.md)
 

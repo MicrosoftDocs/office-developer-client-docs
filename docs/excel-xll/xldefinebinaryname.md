@@ -40,10 +40,10 @@ If the  _pxData_ argument is not specified ( **xltypeMissing**), the named alloc
   
 ## See also
 
-#### Reference
+
 
 [xlGetBinaryName](xlgetbinaryname.md)
-#### Concepts
+
 
 [C API Functions That Can Be Called Only from a DLL or XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
   

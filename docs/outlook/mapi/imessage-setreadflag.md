@@ -96,7 +96,7 @@ The read flag cannot be altered for:
     
 - Messages that are currently submitted.
     
-## Notes to Callers
+## Notes to callers
 
 If none of the flags are set in the  _ulFlags_ parameter, the following rules apply: 
   
@@ -130,7 +130,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIContainer::OpenEntry](imapicontainer-openentry.md)
   
@@ -143,7 +143,7 @@ For MFCMAPI sample code, see the following table.
 [PidTagMessageFlags Canonical Property](pidtagmessageflags-canonical-property.md)
   
 [IMessage : IMAPIProp](imessageimapiprop.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

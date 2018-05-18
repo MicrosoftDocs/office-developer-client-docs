@@ -26,7 +26,7 @@ A string that contains the social network user ID of the logged-on user.
   
 ## See also
 
-#### Reference
+
 
 [ISocialSession::LoggedOnUserName](isocialsession-loggedonusername.md)
   

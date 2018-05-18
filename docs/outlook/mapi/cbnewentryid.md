@@ -41,10 +41,10 @@ CbNewENTRYID (_cb)
     
 ## See also
 
-#### Reference
+
 
 [ENTRYID](entryid.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

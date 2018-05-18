@@ -40,7 +40,7 @@ Before you begin to write code to support your message service, it is important 
     
 ## See also
 
-#### Concepts
+
 
 [Message Service Implementation](message-service-implementation.md)
 

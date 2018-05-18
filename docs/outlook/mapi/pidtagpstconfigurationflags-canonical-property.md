@@ -59,7 +59,7 @@ OST_CONFIG_CREATE_NEW_DEFAULT
     
    `#define OST_CONFIG_CREATE_NEW_DEFAULT_OST 0x00000010`
     
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -79,7 +79,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

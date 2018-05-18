@@ -39,7 +39,7 @@ For more information about this functionality, see [Character Sets](mapi-charact
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Data Types](mapi-data-types.md)
 

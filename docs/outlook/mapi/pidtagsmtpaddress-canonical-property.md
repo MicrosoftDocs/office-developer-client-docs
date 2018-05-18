@@ -31,7 +31,7 @@ Contains the SMTP address for the address book object.
 |Data type:  <br/> |PT_UNICODE, PT_STRING8  <br/> |
 |Area:  <br/> |Address  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -79,7 +79,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

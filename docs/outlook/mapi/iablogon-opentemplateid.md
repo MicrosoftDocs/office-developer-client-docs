@@ -98,7 +98,7 @@ Some examples of when an address book provider should implement **IABLogon::Open
     
 - To control the interaction between properties in the host provider's entry and the original entry, such as computing the **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) from the values of the edit controls in the details display that contain different components of the address.
     
-## Notes to Implementers
+## Notes to implementers
 
 When a host provider copies or creates an entry from your provider and you supply a property object implementation through **IABLogon::OpenTemplateID**, you handle most of the calls to maintain the entry. However, because it is up to the host provider to forward these calls to you, the host provider can intercept any call and perform custom processing before forwarding the call.
   
@@ -124,7 +124,7 @@ For more information about how to work with address book template identifiers, s
   
 ## See also
 
-#### Reference
+
 
 [IMAPISupport::OpenTemplateID](imapisupport-opentemplateid.md)
   

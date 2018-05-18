@@ -99,7 +99,7 @@ MAPI_E_COLLISION
 
 The **IMAPIFolder::CreateFolder** method creates a subfolder in the current folder and assigns an entry identifier to the new folder. 
   
-## Notes to Callers
+## Notes to callers
 
 When **CreateFolder** returns, be aware that the entry identifier for the new folder might not be available. Some message store providers do not make entry identifiers available until after you have called the new folder's [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method to permanently save it. This is especially true if you have set the MAPI_DEFERRED_ERRORS flag. 
   
@@ -119,12 +119,12 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIProp::GetProps](imapiprop-getprops.md)
   
 [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

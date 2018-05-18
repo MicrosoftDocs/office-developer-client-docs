@@ -35,7 +35,7 @@ Contains the **EntryID** of the Outlook Tasks folder.
 
 This property is read or written by using the Property and Stream Object protocol. It is read from and written to the Inbox or Root folder. The implementation must use the Inbox folder when the store is that of the primary messaging user, and it must use the Root folder when the store is that of a delegate user.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -63,7 +63,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

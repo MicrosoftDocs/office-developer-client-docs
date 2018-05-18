@@ -34,7 +34,7 @@ The users of client applications can view the contents of address book container
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Features and Architecture](mapi-features-and-architecture.md)
 

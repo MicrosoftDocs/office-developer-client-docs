@@ -49,10 +49,10 @@ For more information about these flags, see [MAPI Property Type Overview](mapi-p
   
 ## See also
 
-#### Reference
+
 
 [SPropValue](spropvalue.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

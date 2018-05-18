@@ -35,7 +35,7 @@ Contains an identifier for an appointment in the owner's schedule.
 
 This property is used in meeting requests. It does not represent an entry identifier, but a long integer that uniquely identifies the appointment within the sender's schedule.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -67,10 +67,10 @@ mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagOriginalAuthorSearchKey Canonical Property](pidtagoriginalauthorsearchkey-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

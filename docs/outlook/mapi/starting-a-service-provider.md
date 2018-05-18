@@ -32,7 +32,7 @@ MAPI starts each service provider in the active profile by doing the following:
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Service Providers](mapi-service-providers.md)
 

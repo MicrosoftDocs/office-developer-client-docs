@@ -95,7 +95,7 @@ S_OK
 
 The **IMAPTable::GetStatus** method retrieves information about a table's type and current status. 
   
-## Notes to Callers
+## Notes to callers
 
 You can use **GetStatus** in conjunction with three other **IMAPITable** methods to monitor the status of those operations and determine the effect on the table. Call **GetStatus** after making one of the following **IMAPITable** calls: 
   
@@ -115,7 +115,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPITable::Restrict](imapitable-restrict.md)
   
@@ -124,7 +124,7 @@ For MFCMAPI sample code, see the following table.
 [IMAPITable::SortTable](imapitable-sorttable.md)
   
 [IMAPITable : IUnknown](imapitableiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

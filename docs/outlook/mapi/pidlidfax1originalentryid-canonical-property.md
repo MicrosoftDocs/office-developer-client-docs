@@ -36,7 +36,7 @@ Specifies the original EntryID of the contact's business fax address.
 
 This property, if present, must specify the one-off EntryId that corresponds to this fax address.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

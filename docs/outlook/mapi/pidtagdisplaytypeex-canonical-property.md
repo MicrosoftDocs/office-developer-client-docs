@@ -83,7 +83,7 @@ In both a single forest and in a cross-forest configuration, when **PR_DISPLAY_T
 |DT_DISTLIST  <br/> |((ULONG) 0x00000001)  <br/> |Distribution list.  <br/> |
 |DT_SEC_DISTLIST  <br/> |((ULONG) 0x00000009)  <br/> |Security distribution list.  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -107,7 +107,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

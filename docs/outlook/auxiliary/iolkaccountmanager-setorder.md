@@ -16,7 +16,7 @@ description: "Modifies the ordering of the specified category of accounts."
 
 Modifies the ordering of the specified category of accounts.
   
-## Quick Info
+## Quick info
 
 See [IOlkAccountManager](iolkaccountmanager.md).
   
@@ -62,7 +62,7 @@ The caller allocates memory for the array pointer  _prgAccts_ as well as for the
   
 ## See also
 
-#### Concepts
+
 
 [Constants (Account management API)](constants-account-management-api.md)
   

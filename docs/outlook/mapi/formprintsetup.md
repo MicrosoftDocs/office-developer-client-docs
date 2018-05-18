@@ -76,14 +76,14 @@ Form viewers implementing **IMAPIViewContext** must allocate the **FORMPRINTSETU
   
 ## See also
 
-#### Reference
+
 
 [IMAPIViewContext::GetPrintSetup](imapiviewcontext-getprintsetup.md)
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
 [MAPIAllocateBuffer](mapiallocatebuffer.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

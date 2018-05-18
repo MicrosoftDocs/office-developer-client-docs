@@ -182,7 +182,7 @@ For an overview of display tables, see [Display Tables](display-tables.md). For 
   
 ## See also
 
-#### Reference
+
 
 [BuildDisplayTable](builddisplaytable.md)
   
@@ -209,7 +209,7 @@ For an overview of display tables, see [Display Tables](display-tables.md). For 
 [DTBLPAGE](dtblpage.md)
   
 [DTBLRADIOBUTTON](dtblradiobutton.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

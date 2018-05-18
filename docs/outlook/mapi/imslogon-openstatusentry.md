@@ -67,7 +67,7 @@ Message store providers implement the **IMSLogon::OpenStatusEntry** method to op
   
 ## See also
 
-#### Reference
+
 
 [IMAPIStatus : IMAPIProp](imapistatusimapiprop.md)
   

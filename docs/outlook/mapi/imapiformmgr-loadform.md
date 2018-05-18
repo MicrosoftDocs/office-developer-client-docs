@@ -114,7 +114,7 @@ Form viewers call the **IMAPIFormMgr::LoadForm** method to open a form for an ex
   
 The  _pFolderFocus_ parameter points to the folder that contains the message. If the message is embedded in another message,  _pFolderFocus_ should be NULL. 
   
-## Notes to Implementers
+## Notes to implementers
 
 If NULL is passed in  _lpszMessageClass_, the implementation obtains the message's message class, status, and flags from the message's **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)), **PR_MSG_STATUS** and **PR_MESSAGE_FLAGS** properties. If a message class string is provided in  _lpszMessageClass_, the implementation must use the values in  _ulMessageStatus_ and  _ulMessageFlags_.
   
@@ -128,7 +128,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [PidTagMessageClass Canonical Property](pidtagmessageclass-canonical-property.md)
   
@@ -137,7 +137,7 @@ For MFCMAPI sample code, see the following table.
 [PidTagMessageStatus Canonical Property](pidtagmessagestatus-canonical-property.md)
   
 [IMAPIFormMgr : IUnknown](imapiformmgriunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

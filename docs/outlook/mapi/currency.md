@@ -55,10 +55,10 @@ The **CURRENCY** structure is used to describe a property of type PT_CURRENCY. F
   
 ## See also
 
-#### Reference
+
 
 [SPropValue](spropvalue.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

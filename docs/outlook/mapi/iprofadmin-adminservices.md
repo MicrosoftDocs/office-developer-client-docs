@@ -84,7 +84,7 @@ The **IProfAdmin::AdminServices** method provides access to a message service ad
   
  The  _lpszPassword_ parameter must be NULL or a pointer to a zero-length string. 
   
-## Notes to Callers
+## Notes to callers
 
 Although you can retrieve an [IMsgServiceAdmin](imsgserviceadminiunknown.md) pointer by calling either this method or [IMAPISession::AdminServices](imapisession-adminservices.md), call **IProfAdmin::AdminServices** if you have strictly a configuration client and offer no messaging features. **IProfAdmin::AdminServices** does not create a session object and does not load any service providers, which enhances performance. 
   
@@ -106,12 +106,12 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPISession::AdminServices](imapisession-adminservices.md)
   
 [IProfAdmin : IUnknown](iprofadminiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

@@ -35,7 +35,7 @@ Contains the name of a view descriptor.
 
 These properties must be set to a non-empty string for a Folder Associate Information (FAI) message that contains view definitions.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -55,7 +55,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

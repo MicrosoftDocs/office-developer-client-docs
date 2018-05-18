@@ -100,7 +100,7 @@ MAPI_E_VERSION
 
 MAPI calls the entry point function **XPProviderInit** to initialize a transport provider following a client logon. **XPProviderInit** is called once for each transport provider specified in the client's profile. 
   
-## Notes to Implementers
+## Notes to implementers
 
 A transport provider must implement **XPProviderInit** as an entry point function in the provider's DLL. The implementation must be based on the **XPPROVIDERINIT** function prototype, also specified in Mapispi.h. MAPI defines **XPPROVIDERINIT** to use the standard MAPI initialization call type, STDMAPIINITCALLTYPE, which causes **XPProviderInit** to follow the CDECL calling convention. An advantage of CDECL is that calls can be attempted even if the number of calling parameters does not match the number of defined parameters. 
   
@@ -112,7 +112,7 @@ For more information about writing **XPProviderInit**, see [Initializing the Tra
   
 ## See also
 
-#### Reference
+
 
 [ABProviderInit](abproviderinit.md)
   

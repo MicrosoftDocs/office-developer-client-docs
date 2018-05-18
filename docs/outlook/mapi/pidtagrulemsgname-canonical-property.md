@@ -31,7 +31,7 @@ Contains the name of an extended rule.
 |Data type:  <br/> |PT_UNICODE  <br/> |
 |Area:  <br/> |Rules  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -55,7 +55,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

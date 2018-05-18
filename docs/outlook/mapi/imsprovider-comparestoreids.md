@@ -77,7 +77,7 @@ Comparing entry identifiers is useful because an object can have more than one v
   
 ## See also
 
-#### Reference
+
 
 [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md)
   

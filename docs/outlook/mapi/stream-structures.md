@@ -35,7 +35,7 @@ Definitions of user-defined fields of a Microsoft Outlook item are stored in the
     
 ## See also
 
-#### Concepts
+
 
 [Outlook Items and Fields](outlook-items-and-fields.md)
   

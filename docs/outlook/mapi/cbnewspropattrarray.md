@@ -41,10 +41,10 @@ CbNewSPropAttrArray (_cattr)
     
 ## See also
 
-#### Reference
+
 
 [SPropAttrArray](spropattrarray.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

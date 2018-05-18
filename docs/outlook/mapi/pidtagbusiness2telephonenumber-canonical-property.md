@@ -35,7 +35,7 @@ Contains a secondary telephone number at the recipient's place of business.
 
 These properties are examples of the properties that provide identification and access information about a recipient. These properties are defined by the recipient and the recipient's organization. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -63,10 +63,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagBusinessTelephoneNumber Canonical Property](pidtagbusinesstelephonenumber-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

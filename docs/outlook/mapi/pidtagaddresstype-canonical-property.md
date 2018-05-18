@@ -44,7 +44,7 @@ X400
 
 ```
 
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -112,7 +112,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

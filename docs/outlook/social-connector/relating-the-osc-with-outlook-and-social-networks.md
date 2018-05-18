@@ -44,7 +44,7 @@ The term friend is used generally to include friends, family, colleagues, connec
   
 ## See also
 
-#### Other resources
+
 
 [Getting Started with Developing an Outlook Social Connector Provider](getting-started-with-developing-an-outlook-social-connector-provider.md)
 

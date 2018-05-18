@@ -39,7 +39,7 @@ An address book provider can provide more than one identifier. For example, a pr
   
  **PR_AB_PROVIDER_ID** is analogous to the **PR_MDB_PROVIDER** ([PidTagStoreProvider](pidtagstoreprovider-canonical-property.md)) property for message stores. Client applications can use **PR_AB_PROVIDER_ID** to find related rows in an address book hierarchy table. 
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -53,12 +53,12 @@ Mapidefs.h
     
 ## See also
 
-#### Reference
+
 
 [MAPIUID](mapiuid.md)
   
 [PidTagStoreProvider Canonical Property](pidtagstoreprovider-canonical-property.md)
-#### Concepts
+
 
 [MAPI Canonical Properties](mapi-canonical-properties.md)
   

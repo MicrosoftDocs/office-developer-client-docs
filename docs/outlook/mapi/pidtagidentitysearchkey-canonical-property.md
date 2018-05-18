@@ -37,7 +37,7 @@ This property does not appear as a property on any object but only as a column i
   
 A service provider furnishing any of the identity properties should furnish all of them. Providers that belong to the same message service should expose the same values for the identity properties. 
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -51,10 +51,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [IMAPISession::QueryIdentity](imapisession-queryidentity.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

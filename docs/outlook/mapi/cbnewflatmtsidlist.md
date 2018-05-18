@@ -41,12 +41,12 @@ CbNewFLATMTSIDIDLIST (_cb)
     
 ## See also
 
-#### Reference
+
 
 [FLATMTSIDLIST](flatmtsidlist.md)
   
 [MTSID](mtsid.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

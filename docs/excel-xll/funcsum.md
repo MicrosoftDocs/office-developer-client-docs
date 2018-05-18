@@ -44,7 +44,7 @@ See  `\SAMPLES\GENERIC\GENERIC.C` for the source code for this function.
   
 ## See also
 
-#### Concepts
+
 
 [Functions in the Generic DLL](functions-in-the-generic-dll.md)
 

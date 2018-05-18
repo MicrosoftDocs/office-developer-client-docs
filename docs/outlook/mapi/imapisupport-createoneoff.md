@@ -79,7 +79,7 @@ S_OK
 
 The **IMAPISupport::CreateOneOff** method is implemented for all service provider support objects. Service providers call **CreateOneOff** to create an entry identifier for a one-off recipient (a recipient that does not belong to any of the containers from any of the currently loaded address book providers). 
   
-## Notes to Callers
+## Notes to callers
 
 When you are finished using the entry identifier returned by **CreateOneOff**, free the memory allocated for the entry identifier by using the [MAPIFreeBuffer](mapifreebuffer.md) function. 
   
@@ -89,7 +89,7 @@ Support the Transport Neutral Encapsulation Format (TNEF) and use the value of t
   
 ## See also
 
-#### Reference
+
 
 [MAPIFreeBuffer](mapifreebuffer.md)
   

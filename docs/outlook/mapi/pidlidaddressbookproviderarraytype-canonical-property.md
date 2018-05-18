@@ -45,7 +45,7 @@ The value of the **dispidABPArrayType** property must be a combination of flags 
 |0x00000010  <br/> |Home fax is defined for the contact.  <br/> |
 |0x00000020  <br/> |Primary fax is defined for the contact.  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -65,7 +65,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

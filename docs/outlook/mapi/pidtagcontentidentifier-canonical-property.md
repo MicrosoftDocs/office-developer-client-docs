@@ -31,7 +31,7 @@ Contains a key value that enables the message recipient to identify its content.
 |Data type:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Area:  <br/> |Exchange  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -45,7 +45,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

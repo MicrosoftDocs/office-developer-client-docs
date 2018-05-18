@@ -45,7 +45,7 @@ The value of this property must be set to one of the following:
 |mtgOutOfDate  <br/> |0x00080000  <br/> |A newer meeting request or meeting update was received after this one.  <br/> |
 |mtgDelegatorCopy  <br/> |0x00100000  <br/> |This is set on the delegator's copy when a delegate handles meeting-related objects.  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -65,7 +65,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

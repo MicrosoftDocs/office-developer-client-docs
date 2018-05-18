@@ -35,7 +35,7 @@ Contains the entry identifier of the address book container to use as the person
 
 Do not use this property. It is reserved for use by MAPI.
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,7 +49,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

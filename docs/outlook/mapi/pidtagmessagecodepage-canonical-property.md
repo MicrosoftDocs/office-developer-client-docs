@@ -35,7 +35,7 @@ Contains the code page that is used for the message.
 
 The folder object code page is used if this property is set to zero (0).
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -63,7 +63,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

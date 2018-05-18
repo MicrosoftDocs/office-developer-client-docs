@@ -22,7 +22,7 @@ A great deal of the information that relates to message store provider support f
   
 ## See also
 
-#### Concepts
+
 
 [Message Store Features](message-store-features.md)
 

@@ -16,7 +16,7 @@ description: "Finds an account by property value."
 
 Finds an account by property value.
   
-## Quick Info
+## Quick info
 
 See [IOlkAccountManager](iolkaccountmanager.md).
   
@@ -53,7 +53,7 @@ HRESULT IOlkAccountManager::FindAccount (
    
 ## See also
 
-#### Concepts
+
 
 [ACCT_VARIANT](acct_variant.md)
   

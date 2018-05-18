@@ -55,10 +55,10 @@ For a description of types of restrictions, how to build them, and sample code, 
   
 ## See also
 
-#### Reference
+
 
 [SRestriction](srestriction.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

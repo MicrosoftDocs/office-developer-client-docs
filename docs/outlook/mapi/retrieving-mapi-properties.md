@@ -67,7 +67,7 @@ Callers that need several properties can either call **HrGetOneProp** or **OpenP
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Property Overview](mapi-property-overview.md)
 

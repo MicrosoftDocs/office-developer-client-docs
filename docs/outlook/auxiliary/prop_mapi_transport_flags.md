@@ -16,7 +16,7 @@ description: "Represents transport settings that Outlook uses to determine the n
 
 Represents transport settings that Outlook uses to determine the necessary synchronization tasks and to disable the user interface (UI) elements that the account does not support.
   
-## Quick Info
+## Quick info
 
 See [IOlkAccount](iolkaccount.md).
   
@@ -35,7 +35,7 @@ Returns **MAPIACCT_SEND_ONLY** if the account can only send messages but cannot 
   
 ## See also
 
-#### Concepts
+
 
 [About the Account Management API](about-the-account-management-api.md)
   

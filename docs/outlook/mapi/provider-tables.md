@@ -40,7 +40,7 @@ After a provider table has been made available, it will not reflect subsequent c
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Tables](mapi-tables.md)
 

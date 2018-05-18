@@ -80,7 +80,7 @@ None.
 
 If the identifier specified by the  _pEID_ parameter is compound, it is split into the entry identifier of the object within its message store and the store's entry identifier. Noncompound entry identifier strings are simply copied. The compound identifier to be separated is usually one created by the [HrComposeEID](hrcomposeeid.md) function. 
   
-## Notes to Callers
+## Notes to callers
 
 The memory that holds the  _pEID_ parameter is released upon successful completion of this function. The calling implementation is responsible for freeing memory for the output parameters. 
   

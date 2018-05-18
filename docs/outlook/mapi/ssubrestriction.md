@@ -65,10 +65,10 @@ For a general discussion of how restrictions work, see [About Restrictions](abou
   
 ## See also
 
-#### Reference
+
 
 [SRestriction](srestriction.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

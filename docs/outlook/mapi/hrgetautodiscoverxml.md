@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns an Extensible Markup Language (XML) stream that represents information retrieved from the auto-discovery service of a Microsoft Exchange 2007 server.
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|

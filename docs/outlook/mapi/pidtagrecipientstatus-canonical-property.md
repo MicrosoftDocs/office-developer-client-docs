@@ -35,7 +35,7 @@ Contains a value that is used by the MAPI spooler in assigning delivery responsi
 
 Do not use this property. It is reserved for use by MAPI.
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

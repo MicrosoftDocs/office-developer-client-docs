@@ -48,7 +48,7 @@ For status objects, these properties contain the name of the component that can 
 > [!NOTE]
 > Semicolons cannot be used within recipient names in MAPI messaging. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -92,10 +92,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagTransmittableDisplayName Canonical Property](pidtagtransmittabledisplayname-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

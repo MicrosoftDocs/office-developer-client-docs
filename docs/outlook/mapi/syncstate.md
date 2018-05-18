@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
   
 This structure defines the states for the replication state machine.
   
-## Quick Info
+## Quick info
 
 ```cpp
 typedef enum { 

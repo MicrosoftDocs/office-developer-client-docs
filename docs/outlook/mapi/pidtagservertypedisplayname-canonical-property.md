@@ -29,7 +29,7 @@ Specifies the Unicode string to display in the status bar with this property.
    
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

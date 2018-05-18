@@ -60,7 +60,7 @@ None.
 
 The [HrEntryIDFromSz](hrentryidfromsz.md) and **HrSzFromEntryID** functions provide conversion between the string and binary formats of entry identifiers. With MAPI, you should use structures with binary data. 
   
-## Notes to Callers
+## Notes to callers
 
 The **HrSzFromEntryID** function allocates memory for the ASCII string using the [MAPIAllocateBuffer](mapiallocatebuffer.md) function. 
   

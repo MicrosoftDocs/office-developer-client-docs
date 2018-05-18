@@ -33,7 +33,7 @@ Allows the MAPI subsystem to inform a MAPI provider of the fast shutdown of a MA
 |Interface identifier:  <br/> |IID_IMAPIProviderShutdown  <br/> |
 |Pointer type:  <br/> |LPMAPIPROVIDERSHUTDOWN  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -55,7 +55,7 @@ For more information about the process of fast shutdown, see [Fast Shutdown Over
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
   

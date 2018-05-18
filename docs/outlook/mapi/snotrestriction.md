@@ -53,10 +53,10 @@ For more information about the **SNotRestriction** structure, see [About Restric
   
 ## See also
 
-#### Reference
+
 
 [SRestriction](srestriction.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

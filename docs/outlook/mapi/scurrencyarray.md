@@ -53,12 +53,12 @@ For information about PT_MV_CURRENCY, see [List of Property Types](property-type
   
 ## See also
 
-#### Reference
+
 
 [CURRENCY](currency.md)
   
 [SPropValue](spropvalue.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

@@ -16,7 +16,7 @@ description: "Identifies a user who may or may not have free/busy data available
 
 Identifies a user who may or may not have free/busy data available.
   
-## Quick Info
+## Quick info
 
 ```
 typedef struct tagFBUser 
@@ -49,7 +49,7 @@ typedef struct tagFBUser
     
 ## See also
 
-#### Concepts
+
 
 [About the Free/Busy API](about-the-free-busy-api.md)
   

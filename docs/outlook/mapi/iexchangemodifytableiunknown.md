@@ -33,7 +33,7 @@ Supports access to Microsoft Exchange Server table objects, specifically system 
 |Pointer type:  <br/> |LPEXCHANGEMODIFYTABLE  <br/> |
 |Transaction model:  <br/> |Transacted  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -67,7 +67,7 @@ To obtain the **IExchangeModifyTable** interface, call the MAPI [IMAPIProp::Open
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
 

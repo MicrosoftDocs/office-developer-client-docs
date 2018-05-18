@@ -43,7 +43,7 @@ For more information about how the outgoing queue table is used, see [Sending Me
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Tables](mapi-tables.md)
 

@@ -68,13 +68,13 @@ S_OK
 
 Form objects call the **IMAPIViewContext::GetSaveStream** method to retrieve a stream an object that implements the **IStream** interface to support the handling of the Save As verb in the form viewer. The [IMAPIForm::DoVerb](imapiform-doverb.md) method, which is implemented in the form server and called by the form viewer to invoke a verb, should not return until the message is fully converted into the appropriate text format and placed into the appropriate stream. 
   
-## Notes to Callers
+## Notes to callers
 
 Do not write to the stream pointed to by  _ppstm_ before calling **GetSaveStream**. When **GetSaveStream** returns, do not reset the position of the seek pointer. This pointer must remain at the end of the saved message text. 
   
 ## See also
 
-#### Reference
+
 
 [IMAPIViewContext : IUnknown](imapiviewcontextiunknown.md)
 

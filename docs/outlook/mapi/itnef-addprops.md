@@ -99,7 +99,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [ITnef::Finish](itnef-finish.md)
   
@@ -110,7 +110,7 @@ For MFCMAPI sample code, see the following table.
 [PidTagAttachTransportName Canonical Property](pidtagattachtransportname-canonical-property.md)
   
 [ITnef : IUnknown](itnefiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

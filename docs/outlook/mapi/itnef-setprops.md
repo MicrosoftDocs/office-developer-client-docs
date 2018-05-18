@@ -72,7 +72,7 @@ Transport providers, message store providers, and gateways call the **ITnef::Set
   
 ## See also
 
-#### Reference
+
 
 [ITnef::Finish](itnef-finish.md)
   

@@ -30,7 +30,7 @@ Alternatively, the message store provider can detect the conflict and present an
   
 ## See also
 
-#### Concepts
+
 
 [Implementing Messages in Message Stores](implementing-messages-in-message-stores.md)
 

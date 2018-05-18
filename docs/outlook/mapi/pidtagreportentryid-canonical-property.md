@@ -37,7 +37,7 @@ This property is one of the address properties for the recipient who the sender 
   
 A client application that must route reports to another user should set this property at message submission time. If it is not set, the reports are sent to the message sender.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -61,7 +61,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -38,7 +38,7 @@ The Offline State API supports callbacks indicating changes in a user's connecti
     
 ## See also
 
-#### Concepts
+
 
 [About the Offline State API](about-the-offline-state-api.md)
 

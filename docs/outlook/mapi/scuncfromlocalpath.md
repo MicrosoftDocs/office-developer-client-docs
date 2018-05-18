@@ -72,7 +72,7 @@ S_FALSE
     
 ## See also
 
-#### Reference
+
 
 [ScLocalPathFromUNC](sclocalpathfromunc.md)
 

@@ -42,13 +42,13 @@ S_OK
   
 > The connection was successfully canceled.
     
-## Notes to Implementers
+## Notes to implementers
 
 In your implementation of the **Shutdown** method, perform whatever tasks you consider necessary. MAPI calls your **Shutdown** method only after you have released all your logon objects. 
   
 ## See also
 
-#### Reference
+
 
 [IABProvider : IUnknown](iabprovideriunknown.md)
 

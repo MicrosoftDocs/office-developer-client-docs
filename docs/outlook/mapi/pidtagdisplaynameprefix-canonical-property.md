@@ -35,7 +35,7 @@ Contains the display name prefix (such as Miss, Mr., Mrs.) for the messaging use
 
 These properties provide identification and access information about a messaging user. The content is defined by the messaging user and the messaging user's organization.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -63,7 +63,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -84,7 +84,7 @@ The **HrComposeEID** function enables applications to work with objects in multi
   
 ## See also
 
-#### Reference
+
 
 [HrComposeMsgID](hrcomposemsgid.md)
   

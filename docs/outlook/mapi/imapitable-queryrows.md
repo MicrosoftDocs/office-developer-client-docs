@@ -90,7 +90,7 @@ If none of these calls has been made, **QueryRows** returns all of the rows in t
   
 When the column set established in a call to [IMAPITable::SetColumns](imapitable-setcolumns.md) includes columns set to PR_NULL, the [SPropValue](spropvalue.md) array within the row set returned in  _lppRows_ will contain empty slots. 
   
-## Notes to Implementers
+## Notes to implementers
 
 You can allow a caller to request an unsupported column to be included in the column set. When this occurs, place PT_ERROR in the property type portion of the property tag and MAPI_E_NOT_FOUND in the property value for the unsupported column. 
   
@@ -98,7 +98,7 @@ Treat the row count as a request rather than a requirement. You can return anywh
   
 Return only the rows that the user will see when rows are requested from a categorized table view, allowing the caller to make valid assumptions about the scope of the data and avoid extra work. 
   
-## Notes to Callers
+## Notes to callers
 
 Usually you will end up with as many rows as you have specified in the  _lRowCount_ parameter. However, when memory or implementation limits are an issue or when the operation reaches the beginning or end of the table prematurely, **QueryRows** will return less rows than requested. 
   
@@ -118,7 +118,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [ADRENTRY](adrentry.md)
   
@@ -139,7 +139,7 @@ For MFCMAPI sample code, see the following table.
 [SRowSet](srowset.md)
   
 [IMAPITable : IUnknown](imapitableiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

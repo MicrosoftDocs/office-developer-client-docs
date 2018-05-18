@@ -67,10 +67,10 @@ For more information about when to set this flag and how to implement thread saf
   
 ## See also
 
-#### Reference
+
 
 [MAPIInitialize](mapiinitialize.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

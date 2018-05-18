@@ -31,7 +31,7 @@ Contains a diagnostic code that forms part of a nondelivery report.
 |Data type:  <br/> |PT_LONG  <br/> |
 |Area:  <br/> |General messaging  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -45,7 +45,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

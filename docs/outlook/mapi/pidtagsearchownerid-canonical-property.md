@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the process ID of the process that is sending notifications to the indexer about objects ready for indexing.
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|

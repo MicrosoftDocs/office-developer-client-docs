@@ -39,7 +39,7 @@ These properties are commonly used to indicate the recipient's formal job title,
   
 Common values for this property include: Managing Director, Programmer II, Associate Professor, and Development Lead. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -67,7 +67,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

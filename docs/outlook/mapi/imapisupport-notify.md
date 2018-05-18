@@ -73,7 +73,7 @@ The **IMAPISupport::Notify** method is implemented for all service provider supp
   
  **Notify** copies the structures pointed to by the  _lpNotifications_ parameter into memory and calls the appropriate advise sink's [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) method. When **OnNotify** is finished with the notification, it releases the memory involved. The caller does not need to allocate memory; MAPI performs all necessary memory allocation. 
   
-## Notes to Callers
+## Notes to callers
 
 The notification key passed in the  _lpKey_ parameter should be identical to the key passed in  _lpKey_ to the **IMAPISupport::Subscribe** method. Many providers use the entry identifier of the advise source as the key, but other data, such as a file path, can be used. MAPI uses this key to find all the registrations for notifications on the identified advise source. 
   
@@ -89,7 +89,7 @@ For more information about the notification process, see [Event Notification in 
   
 ## See also
 
-#### Reference
+
 
 [IMAPISupport::Subscribe](imapisupport-subscribe.md)
   

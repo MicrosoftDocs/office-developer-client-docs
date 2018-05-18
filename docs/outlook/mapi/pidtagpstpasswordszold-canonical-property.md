@@ -29,7 +29,7 @@ Contains the password of the personal storage table (.pst file) being configured
 |Data type:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Area:  <br/> |Personal storage table (.pst) internal  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

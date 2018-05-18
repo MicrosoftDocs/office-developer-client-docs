@@ -26,7 +26,7 @@ For information on a client application's perspective of form objects, see [MAPI
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Forms](mapi-forms.md)
 

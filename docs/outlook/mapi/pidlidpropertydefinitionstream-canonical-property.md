@@ -38,7 +38,7 @@ The value of the **PidLidPropertyDefinitionStream** property is saved as part of
   
 The value of this property is a binary stream. For information on the structure of this stream, see [PropertyDefinition Stream Structure](propertydefinition-stream-structure.md). 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -54,7 +54,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [Outlook Items and Fields](outlook-items-and-fields.md)
   

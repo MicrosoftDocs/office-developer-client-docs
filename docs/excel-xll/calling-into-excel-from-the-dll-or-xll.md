@@ -312,7 +312,7 @@ Although you can use this to determine whether the new C API is available at run
   
 ## See also
 
-#### Concepts
+
 
 [Creating XLLs](creating-xlls.md)
   

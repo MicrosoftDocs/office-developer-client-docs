@@ -35,7 +35,7 @@ Contains a message transfer system (MTS) identifier for the message transfer age
 
 This property is returned by the MTA upon successful completion of message submission. Any future contact with the MTA regarding this message, such as requesting cancellation, uses the MTS identifier in this property.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

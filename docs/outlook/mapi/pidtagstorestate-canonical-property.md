@@ -41,7 +41,7 @@ STORE_HAS_SEARCHES
   
 > The user has created one or more active searches in the store.
     
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -65,7 +65,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

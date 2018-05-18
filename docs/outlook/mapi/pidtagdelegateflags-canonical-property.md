@@ -42,7 +42,7 @@ Each entry of this property must be set to one of the following values.
    
 This property must be set in the delegate information object. The value of "ShowPrivate" indicates that the delegator wants to make private message objects visible. This preference is applicable to all folders for which the delegate has a role of reviewer, author, or editor.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -62,7 +62,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

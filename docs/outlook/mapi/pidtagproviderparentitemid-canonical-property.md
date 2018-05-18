@@ -35,7 +35,7 @@ Specifies an identifier for the parent of a folder or an item in a store.
 
 Store providers can specify a value for this property for a parent of a folder or an item, but should keep the value the same between sessions. Store providers use this property to identify search results returned from a search engine.
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

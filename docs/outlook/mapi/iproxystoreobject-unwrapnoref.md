@@ -48,7 +48,7 @@ Because **UnwrapNoRef** does not increment the reference count for this new poin
   
 ## See also
 
-#### Reference
+
 
 [IProxyStoreObject](iproxystoreobject.md)
 

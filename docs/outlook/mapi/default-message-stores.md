@@ -38,7 +38,7 @@ A default message store is one that client applications can use for general purp
     
 ## See also
 
-#### Concepts
+
 
 [Developing a MAPI Message Store Provider](developing-a-mapi-message-store-provider.md)
 

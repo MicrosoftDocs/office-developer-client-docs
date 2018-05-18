@@ -50,7 +50,7 @@ The value of the flag setting affects whether the progress object understands th
   
 For more information about how and when to make calls to a progress object, see [Display a Progress Indicator](how-to-display-a-progress-indicator.md).
   
-## Notes to Implementers
+## Notes to implementers
 
 Initialize the maximum value to 1000. Service providers can reset this value by calling the [IMAPIProgress::SetLimits](imapiprogress-setlimits.md) method. For more information about how to implement **GetMax** and the other [IMAPIProgress](imapiprogressiunknown.md) methods, see [Implementing a Progress Indicator](implementing-a-progress-indicator.md).
   
@@ -64,7 +64,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIProgress::GetMin](imapiprogress-getmin.md)
   
@@ -73,7 +73,7 @@ For MFCMAPI sample code, see the following table.
 [IMAPIProgress::SetLimits](imapiprogress-setlimits.md)
   
 [IMAPIProgress : IUnknown](imapiprogressiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
   

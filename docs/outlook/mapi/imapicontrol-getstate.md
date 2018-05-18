@@ -63,7 +63,7 @@ For more information about how to implement **GetState** and the other [IMAPICon
   
 ## See also
 
-#### Reference
+
 
 [IMAPIControl::Activate](imapicontrol-activate.md)
   

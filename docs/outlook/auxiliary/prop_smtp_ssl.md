@@ -16,7 +16,7 @@ description: "Specifies whether to use Secure Socket Layer (SSL) protocol for th
 
 Specifies whether to use Secure Socket Layer (SSL) protocol for the SMTP account.
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|
@@ -31,7 +31,7 @@ A zero value means do not use SSL encryption, otherwise use SSL encryption.
   
 ## See also
 
-#### Concepts
+
 
 [Managing message downloads for POP3 accounts](managing-message-downloads-for-pop3-accounts.md)
   

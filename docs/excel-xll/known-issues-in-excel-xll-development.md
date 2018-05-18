@@ -54,10 +54,10 @@ For more information, see [Memory Management in Excel](memory-management-in-exce
   
 ## See also
 
-#### Reference
+
 
 [XLOper12ToXLOper](xloper12toxloper.md)
-#### Concepts
+
 
 [Developing Excel XLLs](developing-excel-xlls.md)
   

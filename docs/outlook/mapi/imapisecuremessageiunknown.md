@@ -33,7 +33,7 @@ Defines methods used to manage secure messages.
 |Interface identifier:  <br/> |IID_IMAPISECUREMESSAGE  <br/> |
 |Pointer type:  <br/> |LPMAPISECUREMESSAGE  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -48,7 +48,7 @@ Defines methods used to manage secure messages.
    
 ## See also
 
-#### Reference
+
 
 [IMessage : IMAPIProp](imessageimapiprop.md)
 

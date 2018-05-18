@@ -34,7 +34,7 @@ A session ID to use in other calls to the cluster connector, if the session was 
   
 ## See also
 
-#### Concepts
+
 
 [Excel Cluster Connector Functions](excel-cluster-connector-functions.md)
 

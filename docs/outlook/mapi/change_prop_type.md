@@ -45,10 +45,10 @@ CHANGE_PROP_TYPE (ulPropTag, ulPropType)
     
 ## See also
 
-#### Reference
+
 
 [SPropValue](spropvalue.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

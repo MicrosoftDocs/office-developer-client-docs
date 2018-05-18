@@ -31,7 +31,7 @@ Contains a globally unique identifier (GUID) that identifies the search folder.
 |Data type:  <br/> |PT_BINARY  <br/> |
 |Area:  <br/> |Search  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -55,7 +55,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

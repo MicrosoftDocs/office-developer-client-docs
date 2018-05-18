@@ -35,7 +35,7 @@ Contains the name of the recipient's administrative assistant.
 
 These properties provide identification and access information for a recipient. They are defined by the recipient and their organization. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -63,10 +63,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagAssistantTelephoneNumber Canonical Property](pidtagassistanttelephonenumber-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

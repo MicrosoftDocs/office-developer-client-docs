@@ -32,7 +32,7 @@ Specifies the rich text format of the contact's other fax address.
 |Data type:  <br/> |PT_BOOLEAN  <br/> |
 |Area:  <br/> |Contact  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -52,7 +52,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

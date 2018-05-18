@@ -75,10 +75,10 @@ The **GUID** structure is defined in the  *Win32 Programmer's Reference*  . Spec
   
 ## See also
 
-#### Reference
+
 
 [MAPIUID](mapiuid.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

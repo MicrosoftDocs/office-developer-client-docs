@@ -61,13 +61,13 @@ For a list of the properties that make up the required column set in one-off tab
   
 Setting the MAPI_UNICODE flag in the  _ulFlags_ parameter affects the format of the columns returned from the [IMAPITable::QueryColumns](imapitable-querycolumns.md) and [IMAPITable::QueryRows](imapitable-queryrows.md) methods. This flag also controls the property types in the sort order returned by the [IMAPITable::QuerySortOrder](imapitable-querysortorder.md) method. 
   
-## Notes to Callers
+## Notes to callers
 
 If you are registered to receive notifications of changes to this one-off table, you will also receive notifications of changes to other providers' one-off tables. Based on these notifications, you can support new address types that are added during the current session.
   
 ## See also
 
-#### Reference
+
 
 [IABContainer::CreateEntry](iabcontainer-createentry.md)
   
@@ -84,7 +84,7 @@ If you are registered to receive notifications of changes to this one-off table,
 [PidTagCreateTemplates Canonical Property](pidtagcreatetemplates-canonical-property.md)
   
 [IMAPISupport : IUnknown](imapisupportiunknown.md)
-#### Concepts
+
 
 [One-Off Tables](one-off-tables.md)
 

@@ -42,7 +42,7 @@ The caller must ensure that the same folder is not synchronized at the same time
   
 ## See also
 
-#### Reference
+
 
 [IPSTX::EmulateSpooler](ipstx-emulatespooler.md)
   

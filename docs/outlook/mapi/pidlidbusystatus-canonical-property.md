@@ -43,7 +43,7 @@ This property specifies the availability of a user for the event described by th
 |0x00000002  <br/> |The user is busy.  <br/> |
 |0x00000003  <br/> |The user is out of office.  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -63,7 +63,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

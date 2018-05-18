@@ -35,7 +35,7 @@ Contains information about a message originator and a distribution list expansio
 
 This property is used in report generation.
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

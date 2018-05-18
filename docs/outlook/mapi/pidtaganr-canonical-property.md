@@ -39,7 +39,7 @@ Address book providers match the value of **PR_ANR** and associated properties a
   
 For more information on ambiguous name resolution, see [Address Book Restrictions](address-book-restrictions.md). 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -63,12 +63,12 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [IAddrBook::ResolveName](iaddrbook-resolvename.md)
   
 [IABContainer::ResolveNames](iabcontainer-resolvenames.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

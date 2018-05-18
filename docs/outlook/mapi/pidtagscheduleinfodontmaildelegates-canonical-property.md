@@ -35,7 +35,7 @@ Contains TRUE if the delegate does not want to receive updates.
 
 This property must be set in the delegate information object.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

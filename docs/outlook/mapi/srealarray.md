@@ -53,10 +53,10 @@ For more information about the PT_MV_R4 property type, see [Property Types](prop
   
 ## See also
 
-#### Reference
+
 
 [SPropValue](spropvalue.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

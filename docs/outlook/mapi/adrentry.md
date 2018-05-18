@@ -76,7 +76,7 @@ For more information about how to allocate memory for **ADRENTRY** structures, s
   
 ## See also
 
-#### Reference
+
 
 [IAddrBook::Address](iaddrbook-address.md)
   
@@ -89,7 +89,7 @@ For more information about how to allocate memory for **ADRENTRY** structures, s
 [SRow](srow.md)
   
 [SRowSet](srowset.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

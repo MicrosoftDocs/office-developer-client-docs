@@ -31,7 +31,7 @@ Signifies, if set to 1, that messages identified as spam may be permanently dele
 |Data type:  <br/> |PT_LONG  <br/> |
 |Area:  <br/> |Spam  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -55,7 +55,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

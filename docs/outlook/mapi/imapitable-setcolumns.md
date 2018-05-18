@@ -65,7 +65,7 @@ The column set of a table is the group of properties that make up the columns fo
   
 The success of the **SetColumns** operation is apparent only after a subsequent call has been made to retrieve the data of the table. It is then that any errors are reported. 
   
-## Notes to Implementers
+## Notes to implementers
 
 Some providers allow a **SetColumns** call to order only table columns that are part of the available columns for a table view. Other providers allow a **SetColumns** call to order all table columns, including those containing properties not in the original column set. 
   
@@ -81,7 +81,7 @@ Another flag, TBL_BATCH, allows callers to specify that the table implementer ca
   
 It is often convenient for callers to reserve some columns in the retrieved row set for values to be added later. Callers do this by placing **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)) at the desired positions in the property tag array passed to **SetColumns**; the table will then pass back **PR_NULL** at those positions in all rows retrieved with **QueryRows**.
   
-## Notes to Callers
+## Notes to callers
 
 When building the property tag array for the  _lpPropTagArray_ parameter, order the tags in the order that you want the columns to appear in the table view. 
   
@@ -114,7 +114,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [HrQueryAllRows](hrqueryallrows.md)
   
@@ -139,7 +139,7 @@ For MFCMAPI sample code, see the following table.
 [TABLE_NOTIFICATION](table_notification.md)
   
 [IMAPITable : IUnknown](imapitableiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

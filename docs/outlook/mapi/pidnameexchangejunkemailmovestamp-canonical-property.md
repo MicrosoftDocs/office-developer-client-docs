@@ -36,7 +36,7 @@ Contains the persisted message value that indicates that the message should not 
 
 This property is stamped on every message that is moved by the Junk E-Mail Rule or is otherwise trusted content.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -60,7 +60,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

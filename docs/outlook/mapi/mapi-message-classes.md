@@ -38,7 +38,7 @@ Message store providers should return MAPI_E_INVALID_PARAMETER from their [IMAPI
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Messages](mapi-messages.md)
 

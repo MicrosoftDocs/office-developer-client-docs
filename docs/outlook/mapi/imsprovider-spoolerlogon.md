@@ -131,7 +131,7 @@ The store provider should internally mark the returned message store object to i
   
 ## See also
 
-#### Reference
+
 
 [IMSProvider::Logon](imsprovider-logon.md)
   

@@ -37,7 +37,7 @@ It is recommended that message objects expose this property. The message size in
   
 Most message store providers compute this property for messages that they handle. However, some message store providers do not support this property. In any case, this property is not available until the [IMAPIProp::SaveChanges](imapiprop-savechanges.md) or [IMessage::SubmitMessage](imessage-submitmessage.md) method has been called. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -69,7 +69,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

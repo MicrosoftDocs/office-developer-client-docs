@@ -47,10 +47,10 @@ The **PROP_ID** macro can be used, for example, to retrieve an identifier to pas
   
 ## See also
 
-#### Reference
+
 
 [SPropValue](spropvalue.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

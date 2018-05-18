@@ -16,7 +16,7 @@ description: "Specifies the type of encrypted connection to use for an SMTP acco
 
 Specifies the type of encrypted connection to use for an SMTP account.
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|
@@ -38,7 +38,7 @@ The value can be one of the following constants. See [Constants (Account managem
    
 ## See also
 
-#### Concepts
+
 
 [Managing message downloads for POP3 accounts](managing-message-downloads-for-pop3-accounts.md)
   

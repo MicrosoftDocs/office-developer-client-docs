@@ -58,7 +58,7 @@ The **SMessageClassArray** structure is passed as a parameter in the following m
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

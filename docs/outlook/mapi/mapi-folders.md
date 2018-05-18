@@ -54,7 +54,7 @@ For a complete list of required folder properties, see the [IMAPIFolder](imapifo
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Application Development](mapi-application-development.md)
 

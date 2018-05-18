@@ -37,7 +37,7 @@ The message store copies this property from the **MSGFLAG_HASATTACH** flag of th
   
 The value this property is updated with the [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -57,7 +57,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

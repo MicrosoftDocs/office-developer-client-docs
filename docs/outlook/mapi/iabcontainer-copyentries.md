@@ -91,7 +91,7 @@ The **IABContainer::CopyEntries** method copies entries from the same container 
     
 5. The new entry's [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28VS.85%29.aspx) method to release the container's reference. 
     
-## Notes to Implementers
+## Notes to implementers
 
 All containers that support the **IABContainer::CopyEntries** method must be modifiable. Set your container's AB_MODIFIABLE flag in its **PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)) property to indicate that it is modifiable. 
   
@@ -105,13 +105,13 @@ You do not need to support CREATE_REPLACE; not supporting CREATE_REPLACE means t
   
 Return the warning MAPI_W_PARTIAL_COMPLETION only if a nonduplicate entry cannot be copied. 
   
-## Notes to Callers
+## Notes to callers
 
 Use the CREATE_CHECK_DUP_LOOSE and CREATE_CHECK_DUP_STRICT flags to indicate to the provider how you want the container to perform duplicate-entry checking. If you need to have an entry added regardless of whether it is a duplicate, either do not set either of these flags or set the CREATE_REPLACE flag. CREATE_REPLACE indicates that you do not care if an entry is a duplicate; you always want it to replace the original entry. 
   
 ## See also
 
-#### Reference
+
 
 [ENTRYLIST](entrylist.md)
   

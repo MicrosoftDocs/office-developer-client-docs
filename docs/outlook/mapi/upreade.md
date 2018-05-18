@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
   
 Extended information for uploading the read state of an item during the [upload read status state](upload-read-status-state.md).
   
-## Quick Info
+## Quick info
 
 ```cpp
 struct UPREADE 

@@ -79,7 +79,7 @@ Setting the Unicode flag requests that the information for any string columns re
   
 ## See also
 
-#### Reference
+
 
 [IMessage::CreateAttach](imessage-createattach.md)
   

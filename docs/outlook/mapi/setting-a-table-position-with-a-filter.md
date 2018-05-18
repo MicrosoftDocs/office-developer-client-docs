@@ -26,7 +26,7 @@ Table users can move the cursor to a row that matches a set of filter criteria. 
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Tables](mapi-tables.md)
 

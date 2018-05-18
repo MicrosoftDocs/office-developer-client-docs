@@ -40,7 +40,7 @@ There is no bit in the **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidta
   
 ## See also
 
-#### Concepts
+
 
 [Message Store Features](message-store-features.md)
 

@@ -61,7 +61,7 @@ The **IMsgStore::SetLockState** method locks or unlocks a message. **SetLockStat
   
 Usually, when the MAPI spooler calls **SetLockState** to lock a message, it locks only the oldest message (that is, the next message queued for the MAPI spooler to send). If the oldest message in the queue is waiting for a temporarily unavailable transport provider, and the next message in the queue uses a different transport provider, the MAPI spooler can begin processing the later message. It begins processing by locking that message by using **SetLockState**.
   
-## Notes to Implementers
+## Notes to implementers
 
 After the MAPI spooler has called **SetLockState** with the  _ulLockState_ parameter set to MSG_LOCKED, calls to the [IMsgStore::AbortSubmit](imsgstore-abortsubmit.md) method to cancel the message's transmission must fail. 
   
@@ -69,7 +69,7 @@ Call the message's [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method in 
   
 ## See also
 
-#### Reference
+
 
 [IMsgStore::AbortSubmit](imsgstore-abortsubmit.md)
   

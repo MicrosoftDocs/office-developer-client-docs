@@ -31,7 +31,7 @@ Maps to the MIME Lines header.
 |Data type:  <br/> |PT_LONG  <br/> |
 |Area:  <br/> |MIME  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -51,7 +51,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

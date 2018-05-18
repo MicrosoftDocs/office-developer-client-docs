@@ -67,7 +67,7 @@ The MAPI spooler calls the **IXPLogon::OpenStatusEntry** method when a client ap
   
 ## See also
 
-#### Reference
+
 
 [IMAPIStatus : IMAPIProp](imapistatusimapiprop.md)
   

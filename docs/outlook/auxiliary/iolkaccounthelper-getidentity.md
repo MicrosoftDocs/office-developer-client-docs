@@ -16,7 +16,7 @@ description: "Gets the profile name of an account."
 
 Gets the profile name of an account.
   
-## Quick Info
+## Quick info
 
 See [IOlkAccountHelper](iolkaccounthelper.md).
   
@@ -51,10 +51,10 @@ If  _pwszIdentity_ is too small to hold the profile name, it will not be set on 
   
 ## See also
 
-#### Concepts
+
 
 [About the Account Management API](about-the-account-management-api.md)
-#### Other resources
+
 
 [PidTagProfileName](http://msdn.microsoft.com/library/13ca726d-ae7a-4da9-9c8e-3db3c479f839%28Office.15%29.aspx)
 

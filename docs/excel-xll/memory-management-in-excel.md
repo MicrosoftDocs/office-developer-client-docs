@@ -440,7 +440,7 @@ If you are concerned, or just curious, or you want to eliminate lack of stack sp
   
 ## See also
 
-#### Concepts
+
 
 [Multithreaded Recalculation in Excel](multithreaded-recalculation-in-excel.md)
   

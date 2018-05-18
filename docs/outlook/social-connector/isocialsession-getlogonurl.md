@@ -32,7 +32,7 @@ After the form is presented to the user, the [ISocialSession::LogonWeb](isocials
   
 ## See also
 
-#### Reference
+
 
 [ISocialSession : IUnknown](isocialsessioniunknown.md)
 

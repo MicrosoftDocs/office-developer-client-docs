@@ -32,7 +32,7 @@ A few macros are available to help work with property tags, among them [PROP_TYP
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Property Overview](mapi-property-overview.md)
 

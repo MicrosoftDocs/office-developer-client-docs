@@ -67,7 +67,7 @@ public void FormEvents_Loading(object sender, LoadingEventArgs e)
 }
 ```
 
-```VB.net
+```vb
 Public Sub FormEvents_Loading(ByVal sender As Object, _
    ByVal e As LoadingEventArgs)
    ' Write your code here.
@@ -92,7 +92,7 @@ public void field1_Changing(object sender, LoadingEventArgs e)
 }
 ```
 
-```VB.net
+```vb
 Public Sub field1_Changing(ByVal sender As Object, _
    ByVal e As LoadingEventArgs)
    ' Determine whether there is a new value.

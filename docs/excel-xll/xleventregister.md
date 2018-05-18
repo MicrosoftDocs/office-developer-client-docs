@@ -18,7 +18,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
   
 Used to register an event handler. Introduced in Excel 2010.
   
-```VB.net
+```vb
 Excel12(xlEventRegister, LPXLOPER12 pxRes, 2, LPXLOPER12 pxProcedure, LPXLOPER12 pxEvent);
 ```
 
@@ -45,7 +45,7 @@ If successful, returns **TRUE** ( **xltypeBool**). If unsuccessful, returns **FA
   
 ## See also
 
-#### Concepts
+
 
 [Asynchronous User-Defined Functions](asynchronous-user-defined-functions.md)
 

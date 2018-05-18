@@ -35,7 +35,7 @@ Contains the name of a contact for information about a form.
 
 The contact typically contains the name of a person or an alias that is responsible for maintaining the form. 
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

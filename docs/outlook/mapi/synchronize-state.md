@@ -18,7 +18,7 @@ description: "Last modified: March 09, 2015"
   
  This topic describes what happens during the synchronize state of the replication state machine. 
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|
@@ -40,7 +40,7 @@ The client sets the [in] members of **SYNC**, which tells Outlook how to handle 
   
 ## See also
 
-#### Concepts
+
 
 [About the Replication API](about-the-replication-api.md)
   

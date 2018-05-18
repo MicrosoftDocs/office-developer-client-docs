@@ -39,7 +39,7 @@ If, after examining a recipient, a transport provider decides that it cannot or 
   
 If the transport provider attempts and fails to deliver the message, it should call the [IMAPISupport::StatusRecips](imapisupport-statusrecips.md) method to indicate to MAPI the reasons for the failure, so that MAPI can generate a nondelivery report. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -63,10 +63,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagDeleteAfterSubmit Canonical Property](pidtagdeleteaftersubmit-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

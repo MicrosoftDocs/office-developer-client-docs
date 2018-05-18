@@ -69,7 +69,7 @@ To use the Framework library functions, you must include the FRAMEWRK.H file in 
   
 ## See also
 
-#### Concepts
+
 
 [Excel XLL SDK API Function Reference](excel-xll-sdk-api-function-reference.md)
 

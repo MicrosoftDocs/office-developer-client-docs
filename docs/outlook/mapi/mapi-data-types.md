@@ -62,7 +62,7 @@ The following alphabetized entries contain documentation for the data types used
    
 ## See also
 
-#### Other resources
+
 
 [MAPI Reference](mapi-reference.md)
 

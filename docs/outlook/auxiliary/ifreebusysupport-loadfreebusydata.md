@@ -16,7 +16,7 @@ description: "Returns, for each specified user, an interface for enumerating fre
 
 Returns, for each specified user, an interface for enumerating free/busy blocks of data within a time range. 
   
-## Quick Info
+## Quick info
 
 See [IFreeBusySupport](ifreebusysupport.md).
   
@@ -61,7 +61,7 @@ S_OK if the call succeeded; otherwise, an error code.
   
 ## See also
 
-#### Concepts
+
 
 [Constants (Free/busy API)](constants-free-busy-api.md)
 

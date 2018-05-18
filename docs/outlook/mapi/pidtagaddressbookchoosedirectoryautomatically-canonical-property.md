@@ -31,7 +31,7 @@ Enables Microsoft Outlook 2010 and Microsoft Outlook 2013 to choose the most app
 
 This property corresponds to the **Choose automatically** setting in the Address Book Options dialog. When this property exists in the IID_CAPONE_PROF profile section and is set to **true**, the Address Book dialog no longer defaults to the container specified by the [SetDefaultDir](iaddrbook-setdefaultdir.md) method, but chooses an address book that Outlook 2010 or Outlook 2013 considers appropriate for the context in which the dialog was displayed. Note that this may result in a poor experience for third-party address book providers. 
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -45,7 +45,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

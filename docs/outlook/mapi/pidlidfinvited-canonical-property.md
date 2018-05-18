@@ -36,7 +36,7 @@ Indicates whether or not invitations have been sent for the meeting that this me
 
 A value of FALSE, or the absence of this property, indicates that a meeting request has never been sent. A value of TRUE indicates that a meeting request has been sent. Once this value is set to TRUE on a meeting, it must not be changed.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

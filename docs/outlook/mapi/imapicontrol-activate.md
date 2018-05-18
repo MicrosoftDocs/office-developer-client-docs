@@ -55,7 +55,7 @@ For more information about how to implement **Activate** and the other [IMAPICon
   
 ## See also
 
-#### Reference
+
 
 [IMAPIControl::GetState](imapicontrol-getstate.md)
   

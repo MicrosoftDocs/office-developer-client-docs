@@ -31,7 +31,7 @@ Contains the time when the last verb was executed.
 |Data type:  <br/> |PT_SYSTIME  <br/> |
 |Area:  <br/> |History  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -55,7 +55,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

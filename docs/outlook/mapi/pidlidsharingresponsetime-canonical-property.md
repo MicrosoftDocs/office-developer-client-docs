@@ -32,7 +32,7 @@ Specifies the time at which the recipient of the sharing request sent a sharing 
 |Data type:  <br/> |PT_SYSTIME  <br/> |
 |Area:  <br/> |Sharing  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -52,7 +52,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

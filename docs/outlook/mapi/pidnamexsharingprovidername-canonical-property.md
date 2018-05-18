@@ -32,7 +32,7 @@ Represents a user-displayable name of the sharing provider identified by the **d
 |Data type:  <br/> |PT_UNICODE  <br/> |
 |Area:  <br/> |Sharing  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -52,7 +52,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -38,7 +38,7 @@ To retrieve the entry identifier for the default message store, you must call [I
     
 ## See also
 
-#### Reference
+
 
 [SExistRestriction](sexistrestriction.md)
   

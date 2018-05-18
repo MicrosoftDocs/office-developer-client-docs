@@ -60,12 +60,12 @@ See the files  `SAMPLES\EXAMPLE\EXAMPLE.C` and  `SAMPLES\GENERIC\GENERIC.C`, and
   
 ## See also
 
-#### Reference
+
 
 [xlAutoClose](xlautoclose.md)
   
 [xlAutoRegister/xlAutoRegister12](xlautoregister-xlautoregister12.md)
-#### Concepts
+
 
 [Add-in Manager and XLL Interface Functions](add-in-manager-and-xll-interface-functions.md)
 

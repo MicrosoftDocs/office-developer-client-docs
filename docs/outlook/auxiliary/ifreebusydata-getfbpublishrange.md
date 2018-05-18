@@ -16,7 +16,7 @@ description: "Gets a preset time range for an enumeration of free/busy blocks of
 
 Gets a preset time range for an enumeration of free/busy blocks of data for a user.
   
-## Quick Info
+## Quick info
 
 See [IFreeBusyData](ifreebusydata.md).
   
@@ -50,7 +50,7 @@ A free/busy provider calls [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.
   
 ## See also
 
-#### Concepts
+
 
 [Use relative time to access free/busy data](how-to-use-relative-time-to-access-free-busy-data.md)
   

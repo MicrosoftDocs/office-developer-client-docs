@@ -34,7 +34,7 @@ The API functions described in the preceding list copy properties in memory rath
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Property Overview](mapi-property-overview.md)
 

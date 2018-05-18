@@ -31,7 +31,7 @@ Contains a 64 bit integer version of the **PR_MESSAGE_SIZE** ([PidTagMessageSize
 |Data type:  <br/> |PT_I8  <br/> |
 |Area:  <br/> |General messaging  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -63,10 +63,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagMessageSize Canonical Property](pidtagmessagesize-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

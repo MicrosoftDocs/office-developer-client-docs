@@ -41,12 +41,12 @@ CbNewSPropProblemArray (_cprob)
     
 ## See also
 
-#### Reference
+
 
 [SPropProblemArray](spropproblemarray.md)
   
 [SPropProblem](spropproblem.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

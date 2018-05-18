@@ -32,7 +32,7 @@ Indicates the message class of a remote item.
 |Data type:  <br/> |None  <br/> |
 |Area:  <br/> |Remote message  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -48,7 +48,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

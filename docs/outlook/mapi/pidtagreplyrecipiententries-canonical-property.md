@@ -39,7 +39,7 @@ When this property is not present, a reply is sent only to the user identified b
   
 If either this property or the **PR_REPLY_RECIPIENT_NAMES** property is set, the other property must be set also. These properties must contain the same number of recipients, and they must contain them in the same order. Failure to observe these requirements can cause unpredictable results. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -67,7 +67,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

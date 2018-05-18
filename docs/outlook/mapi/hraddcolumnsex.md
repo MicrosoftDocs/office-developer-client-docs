@@ -79,7 +79,7 @@ The properties passed to **HrAddColumnsEx** using the  _lpproptagColumnsNew_ par
   
 If any table properties are undefined when **QueryRows** is called, they are returned with property type PT_NULL and property identifier PROP_ID_NULL. 
   
-## Notes to Callers
+## Notes to callers
 
 The **HrAddColumnsEx** function allows the caller to furnish a callback function to filter the columns that were already in the table, for example to convert strings from property type PT_UNICODE to PT_STRING8. **HrAddColumnsEx** passes a pointer to the previously existing column set as the parameter to the callback function. The callback function can change data in the property tag array but cannot add new tags. 
   
@@ -89,7 +89,7 @@ The  _lpAllocateBuffer_ and  _lpFreeBuffer_ input parameters point to the [MAPIA
   
 ## See also
 
-#### Reference
+
 
 [IMAPITable::QueryColumns](imapitable-querycolumns.md)
 

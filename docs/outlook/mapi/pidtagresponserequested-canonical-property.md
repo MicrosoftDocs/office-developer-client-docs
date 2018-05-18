@@ -35,7 +35,7 @@ Contains TRUE if the message sender wants a response to a meeting request.
 
 This property is used for meeting requests. The receiving client application should prompt the user to accept or decline the request and then send this response back to the sender.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -67,7 +67,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

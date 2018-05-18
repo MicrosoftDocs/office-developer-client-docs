@@ -20,7 +20,7 @@ description: "Last modified: July 23, 2011"
   
 Stores version information for the Microsoft Exchange Server that accounts in a Microsoft Office Outlook profile are connected to.
   
-## Quick Info
+## Quick info
 
 ```cpp
 typedef struct { 
@@ -52,7 +52,7 @@ typedef struct {
     
 ## See also
 
-#### Concepts
+
 
 [About MAPI Additions](about-mapi-additions.md)
   

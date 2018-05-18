@@ -53,10 +53,10 @@ For information about property types, see [MAPI Property Type Overview](mapi-pro
   
 ## See also
 
-#### Reference
+
 
 [SPropValue](spropvalue.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

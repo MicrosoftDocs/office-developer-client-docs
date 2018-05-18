@@ -36,7 +36,7 @@ Specifies the third e-mail address of the contact.
 
 The value of this property must be appropriate for the address type specified for this e-mail address.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

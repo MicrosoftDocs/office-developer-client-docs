@@ -35,7 +35,7 @@ Indicates the existence of a photo attachment for a contact.
 
 This property's value must be set to TRUE, and there should only be one attachment on a given Contact object.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

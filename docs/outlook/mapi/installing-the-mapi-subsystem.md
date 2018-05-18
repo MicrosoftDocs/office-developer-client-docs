@@ -51,7 +51,7 @@ The following table summarizes how clients retrieve version information for the 
    
 ## See also
 
-#### Concepts
+
 
 [MAPI Programming Overview](mapi-programming-overview.md)
 

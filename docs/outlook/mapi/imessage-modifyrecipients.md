@@ -71,7 +71,7 @@ By the time a message is submitted, it must include only resolved recipients in 
   
 In addition to resolved and unresolved recipients, a recipient can be NULL. The **cValues** member of the **ADRENTRY** structure for the recipient is set to zero and the **rgPropVals** member is set to NULL. 
   
-## Notes to Callers
+## Notes to callers
 
 You can create a recipient list by calling [IAddrBook::Address](imapisupport-address.md) to display the common dialog box and prompt the user to select entries. The address list pointed to by the  _lppAdrList_ parameter to **Address** can be passed to **ModifyRecipients** as the  _lpMods_ parameter. 
   
@@ -79,7 +79,7 @@ When you specify properties for a recipient in the [ADRLIST](adrlist.md) structu
   
  **ModifyRecipients** replaces all of the entries in the current recipient list with the information pointed to by  _lpMods_ when none of the flags are set in the  _ulFlags_ parameter. 
   
-## Notes to Callers
+## Notes to callers
 
 When you set the MODRECIP_MODIFY flag, **ModifyRecipients** replaces each entire recipient row with the associated row in the [ADRLIST](adrlist.md) structure passed in  _lpMods_. Be careful to specify all of the properties that a recipient should have regardless of whether they have changed to prevent them from being unintentionally deleted.
   
@@ -113,7 +113,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [ADRENTRY](adrentry.md)
   
@@ -130,7 +130,7 @@ For MFCMAPI sample code, see the following table.
 [SPropValue](spropvalue.md)
   
 [IMessage : IMAPIProp](imessageimapiprop.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

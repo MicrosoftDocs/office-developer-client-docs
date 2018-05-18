@@ -22,7 +22,7 @@ HRESULT _stdcall GetStatusSettings([out] BSTR* statusDefault, [out] int* maxStat
 
 ## See also
 
-#### Reference
+
 
 [ISocialProvider : IUnknown](isocialprovideriunknown.md)
 

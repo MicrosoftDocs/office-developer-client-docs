@@ -28,7 +28,7 @@ Setting the MAPI_DEFERRED_ERRORS flag changes a client's error handling implemen
   
 ## See also
 
-#### Reference
+
 
 [IMsgStore::OpenEntry](imsgstore-openentry.md)
   

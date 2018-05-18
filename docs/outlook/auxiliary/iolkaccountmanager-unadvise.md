@@ -16,7 +16,7 @@ description: "Unregisters a client with the account manager for notifications fo
 
 Unregisters a client with the account manager for notifications for all accounts. 
   
-## Quick Info
+## Quick info
 
 See [IOlkAccountManager](iolkaccountmanager.md).
   
@@ -43,7 +43,7 @@ HRESULT Unadvise(
    
 ## See also
 
-#### Concepts
+
 
 [Constants (Account management API)](constants-account-management-api.md)
   

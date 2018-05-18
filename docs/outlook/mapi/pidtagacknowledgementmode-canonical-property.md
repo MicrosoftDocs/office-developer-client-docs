@@ -40,7 +40,7 @@ This property can have exactly one of the following values:
 |0  <br/> |Manual acknowledgment.  <br/> |
 |1  <br/> |Automatic acknowledgment.  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -54,7 +54,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

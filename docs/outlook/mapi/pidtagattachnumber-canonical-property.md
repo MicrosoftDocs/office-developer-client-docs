@@ -39,7 +39,7 @@ Message stores generate and maintain this property. The attachment number is the
   
 The message store propagates changes to the table using the **IMessage::CreateAttach** and **IMessage::DeleteAttach** methods. At its option the message store can generate table notifications on open attachment tables so that clients can resynchronize to those changes. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -41,7 +41,7 @@ The **PR_ROH_FLAGS** property is stored in the Global Profile Section of a Messa
    
 For example, to set the **PR_ROH_FLAGS** property to turn on RPC over HTTP, to require SSL, and to specify that the HTTP protocol should be used first on slow connections, set the value of the **PR_ROH_FLAGS** property to  `ROHFLAGS_USE_ROH | ROHFLAGS_SSL_ONLY | ROHFLAGS_HTTP_FIRST_ON_SLOW` which is equal to 0x23. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -69,7 +69,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

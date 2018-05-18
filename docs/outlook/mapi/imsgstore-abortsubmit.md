@@ -64,7 +64,7 @@ MAPI_E_UNABLE_TO_ABORT
 
 The **IMsgStore::AbortSubmit** method attempts to remove a submitted message from the message store's outgoing queue. 
   
-## Notes to Callers
+## Notes to callers
 
 After a message is submitted, aborting the submission by calling **AbortSubmit** is the only action that can be performed on the message. Do not expect **AbortSubmit** to always succeed. Depending on how the underlying messaging system is implemented, it might not be possible to cancel the sending of the message. 
   
@@ -78,12 +78,12 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMessage::SubmitMessage](imessage-submitmessage.md)
   
 [IMsgStore : IMAPIProp](imsgstoreimapiprop.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

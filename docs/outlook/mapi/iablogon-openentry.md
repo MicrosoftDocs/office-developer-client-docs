@@ -95,7 +95,7 @@ MAPI_E_UNKNOWN_ENTRYID
 
 MAPI calls the **OpenEntry** method to open a container, messaging user, or distribution list. 
   
-## Notes to Implementers
+## Notes to implementers
 
 Before MAPI calls your **OpenEntry** method, it determines that the entry identifier in the  _lpEntryID_ parameter belongs to you and not to another provider. MAPI does this by matching the [MAPIUID](mapiuid.md) structure in the entry identifier with the **MAPIUID** that you registered by calling the [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md) method at startup. 
   
@@ -107,7 +107,7 @@ The object that you are being asked to open might be an object copied from anoth
   
 ## See also
 
-#### Reference
+
 
 [IABLogon : IUnknown](iablogoniunknown.md)
 

@@ -41,10 +41,10 @@ CbSSortOrderSet (_lpset)
     
 ## See also
 
-#### Reference
+
 
 [SSortOrderSet](ssortorderset.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

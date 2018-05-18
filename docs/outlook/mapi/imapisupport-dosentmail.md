@@ -65,7 +65,7 @@ The **IMAPISupport::DoSentMail** method is implemented for message store provide
     
 ## See also
 
-#### Reference
+
 
 [IMsgStore::FinishedMsg](imsgstore-finishedmsg.md)
   

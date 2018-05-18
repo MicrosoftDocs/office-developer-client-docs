@@ -37,7 +37,7 @@ This property is used to open a message store with the [IMAPISession::OpenMsgSto
   
 For a message store, this property is identical to the store's own **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) property. A client application can compare the two properties using the [IMAPISession::CompareEntryIDs](imapisession-compareentryids.md) method. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -73,7 +73,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -154,7 +154,7 @@ Data elements in this stream are stored in little-endian byte order, immediately
   
 ## See also
 
-#### Concepts
+
 
 [FolderUserFields Stream Sample](folderuserfields-stream-sample.md)
   

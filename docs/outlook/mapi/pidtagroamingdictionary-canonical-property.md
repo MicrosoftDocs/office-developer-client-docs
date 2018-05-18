@@ -59,7 +59,7 @@ The following is a sample XML document stored in this property on a Configuratio
 </UserConfiguration>
 ```
 
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -83,7 +83,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

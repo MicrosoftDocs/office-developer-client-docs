@@ -35,7 +35,7 @@ Contains an ASN.1 authentication certificate for a messaging user.
 
 An authentication certificate is similar to a digital signature. Several MAPI properties supply ASN.1 certificates. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

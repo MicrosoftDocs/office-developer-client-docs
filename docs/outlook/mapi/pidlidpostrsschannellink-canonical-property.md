@@ -32,7 +32,7 @@ Contains the URL of the RSS or Atom feed from which the XML file came.
 |Data type:  <br/> |PT_UNICODE  <br/> |
 |Area:  <br/> |RSS  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -52,7 +52,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

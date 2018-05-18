@@ -29,7 +29,7 @@ This interface provides helper functionality when performing replication through
 |Provided by  <br/> |Query on [IMsgStore](imsgstoreimapiprop.md) <br/> |
 |Interface identifier:  <br/> |IID_IPSTX3  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -37,7 +37,7 @@ This interface provides helper functionality when performing replication through
    
 ## See also
 
-#### Concepts
+
 
 [About the Replication API](about-the-replication-api.md)
   

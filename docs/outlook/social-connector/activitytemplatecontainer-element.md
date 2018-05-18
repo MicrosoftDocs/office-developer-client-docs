@@ -37,7 +37,7 @@ For an example of activity feed XML, see [Activity Feed XML Example](activity-fe
   
 ## See also
 
-#### Concepts
+
 
 [Overview of XML for an Activity Feed Item](overview-of-xml-for-an-activity-feed-item.md)
   
@@ -50,7 +50,7 @@ For an example of activity feed XML, see [Activity Feed XML Example](activity-fe
 [XML for Activities](xml-for-activities.md)
   
 [Outlook Social Connector Provider XML Schema](outlook-social-connector-provider-xml-schema.md)
-#### Other resources
+
 
 [Developing a Provider with the OSC XML Schema](developing-a-provider-with-the-osc-xml-schema.md)
 

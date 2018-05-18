@@ -79,7 +79,7 @@ For additional control over the permissions granted to managed code running in a
 #### Tasks
 
 [Configure Security Settings for Form Templates with Code](how-to-configure-security-settings-for-form-templates-with-code.md)
-#### Concepts
+
 
 [About the Security Model for Form Templates with Code](about-the-security-model-for-form-templates-with-code.md)
   

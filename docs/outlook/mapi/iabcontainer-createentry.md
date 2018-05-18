@@ -73,7 +73,7 @@ S_OK
 
 The **IABContainer::CreateEntry** method creates a new entry of a particular type in the specified container, returning a pointer to an interface implementation for further access to the entry. The new entry is created by using a template that has been selected from the container's list of available templates published in its one-off table. Callers access a container's one-off table by calling its [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method and requesting the **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) property. 
   
-## Notes to Implementers
+## Notes to implementers
 
 All containers that support the **IABContainer::CreateEntry** method must be modifiable. Set your container's AB_MODIFIABLE flag in its **PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)) property to indicate that it is modifiable. 
   
@@ -95,7 +95,7 @@ If **OpenTemplateID** succeeds, copy the properties to the implementation pointe
   
 If **OpenTemplateID** returns an error, **CreateEntry** should fail. Do not allow the entry to be created. Because the foreign provider can make assumptions about the data in your provider, do not create an entry with a template identifier that has not been successfully bound to the foreign provider. 
   
-## Notes to Callers
+## Notes to callers
 
 When **CreateEntry** returns, you may or may not be able to immediately access the entry identifier for the new entry. Some address book providers do not make it available until after you have called the new entry's [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method. 
   
@@ -103,7 +103,7 @@ Although duplicate checking flags are passed as parameters to **CreateEntry**, t
   
 ## See also
 
-#### Reference
+
 
 [IABContainer::CopyEntries](iabcontainer-copyentries.md)
   

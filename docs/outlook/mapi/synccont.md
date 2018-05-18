@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
   
 Information for synchronizing the contents of specified folders in a local store with the server during the [synchronize contents state](synchronize-contents-state.md). This involves just uploading, or a full synchronization involving an upload and then a download.
   
-## Quick Info
+## Quick info
 
 ```cpp
 struct SYNCCONT 

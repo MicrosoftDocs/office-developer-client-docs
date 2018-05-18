@@ -31,7 +31,7 @@ Contains the delegator who wants to receive informational updates.
 |Data type:  <br/> |PT_BOOLEAN  <br/> |
 |Area:  <br/> |Free/Busy  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

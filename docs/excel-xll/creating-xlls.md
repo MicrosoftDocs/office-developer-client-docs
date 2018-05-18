@@ -118,7 +118,7 @@ Excel and user-defined functions can run on 64-bit operating systems to take adv
   
 ## See also
 
-#### Concepts
+
 
 [Call XLL Functions from the Function Wizard or Replace Dialog Boxes](how-to-call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes.md)
   

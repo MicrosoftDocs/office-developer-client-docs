@@ -36,7 +36,7 @@ Specifies the first field on the contact that is intended for miscellaneous use 
 
 This property contains text that is unrelated to any other contact-specific property.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

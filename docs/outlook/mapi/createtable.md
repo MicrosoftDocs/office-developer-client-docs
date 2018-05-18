@@ -106,7 +106,7 @@ The  _lpAllocateBuffer_,  _lpAllocateMore_, and  _lpFreeBuffer_ input parameters
   
 ## See also
 
-#### Reference
+
 
 [IMAPITable : IUnknown](imapitableiunknown.md)
 

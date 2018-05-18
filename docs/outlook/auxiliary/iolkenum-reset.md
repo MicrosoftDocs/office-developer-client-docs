@@ -16,7 +16,7 @@ description: "Resets the enumerator to the beginning."
 
 Resets the enumerator to the beginning.
   
-## Quick Info
+## Quick info
 
 See [IOlkEnum](iolkenum.md).
   
@@ -30,7 +30,7 @@ S_OK if the call succeeded; otherwise, an error code.
   
 ## See also
 
-#### Concepts
+
 
 [IOlkEnum::GetCount](iolkenum-getcount.md)
   

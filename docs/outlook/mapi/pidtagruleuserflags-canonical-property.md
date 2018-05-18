@@ -35,7 +35,7 @@ This property is set by the client for the exclusive use of the client.
 
 The server must preserve the value of this property if it was set by the client. The server must ignore it during rule evaluation and processing.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

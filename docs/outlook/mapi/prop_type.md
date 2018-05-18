@@ -47,10 +47,10 @@ Every property tag contains the property type in the low-order word (bits 0 thro
   
 ## See also
 
-#### Reference
+
 
 [SPropValue](spropvalue.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

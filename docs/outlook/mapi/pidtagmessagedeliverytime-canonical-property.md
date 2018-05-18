@@ -35,7 +35,7 @@ Contains the date and time when a message was delivered.
 
 This property describes the time the message was stored at the server, rather than the download time when the transport provider copied the message from the server to the local store.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -55,7 +55,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

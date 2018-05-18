@@ -70,7 +70,7 @@ For more information about how to allocate memory for **ADRENTRY** structures, s
   
 ## See also
 
-#### Reference
+
 
 [ADRENTRY](adrentry.md)
   
@@ -79,7 +79,7 @@ For more information about how to allocate memory for **ADRENTRY** structures, s
 [IMessage::ModifyRecipients](imessage-modifyrecipients.md)
   
 [SRowSet](srowset.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

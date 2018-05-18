@@ -37,7 +37,7 @@ These properties provide identification and access information for a recipient. 
   
 The contents are defined by the needs of the recipient's organization. For example, some organizations might identify messaging users by specifying the building number and office number. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -65,7 +65,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

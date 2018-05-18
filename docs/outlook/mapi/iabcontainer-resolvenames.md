@@ -101,7 +101,7 @@ After all of the containers in the search path have attempted the name resolutio
   
 Clients can also use the returned **ADRLIST** structure in calls to the [IMessage::ModifyRecipients](imessage-modifyrecipients.md) method. 
   
-## Notes to Implementers
+## Notes to implementers
 
 You are not required to support name resolution with the **ResolveNames** method. Instead, or additionally, you can support it with the **PR_ANR** ([PidTagAnr](pidtaganr-canonical-property.md)) property restriction. If you decide to rely on the **PR_ANR** restriction for name resolution, you can return MAPI_E_NO_SUPPORT. For more information, see [Implementing Name Resolution](implementing-name-resolution.md).
   
@@ -133,7 +133,7 @@ If you must replace rather than modify an **ADRENTRY** structure, free the origi
   
 ## See also
 
-#### Reference
+
 
 [ADRENTRY](adrentry.md)
   

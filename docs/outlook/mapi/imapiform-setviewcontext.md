@@ -46,7 +46,7 @@ S_OK
 
 Form viewers call the **IMAPIForm::SetViewContext** method to establish a particular form view context as current. A form can have only one view context at a time. 
   
-## Notes to Implementers
+## Notes to implementers
 
 Most form servers implement **SetViewContext** by using the following algorithm: 
   
@@ -72,14 +72,14 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIViewContext::GetViewStatus](imapiviewcontext-getviewstatus.md)
   
 [IMAPIViewContext::SetAdviseSink](imapiviewcontext-setadvisesink.md)
   
 [IMAPIForm : IUnknown](imapiformiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

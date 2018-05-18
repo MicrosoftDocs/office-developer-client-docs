@@ -41,10 +41,10 @@ CbMTSID (_lpentry)
     
 ## See also
 
-#### Reference
+
 
 [MTSID](mtsid.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

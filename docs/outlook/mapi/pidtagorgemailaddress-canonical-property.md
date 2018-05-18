@@ -31,7 +31,7 @@ Contains the email address of the originating email account.
 |Data type:  <br/> |PT_UNICODE, PT_STRING8  <br/> |
 |Area:  <br/> |Address  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -45,7 +45,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

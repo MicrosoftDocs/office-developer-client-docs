@@ -48,7 +48,7 @@ The MAPI spooler periodically calls the **IXPLogon::Idle** method, if requested,
   
 ## See also
 
-#### Reference
+
 
 [IXPProvider::TransportLogon](ixpprovider-transportlogon.md)
   

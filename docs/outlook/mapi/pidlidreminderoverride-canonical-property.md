@@ -36,7 +36,7 @@ Specifies whether the client should respect the values of the **dispidReminderPl
 
 A client may use default values in place of the values of the **dispidReminderPlaySound** and **dispidReminderFileParam** properties. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

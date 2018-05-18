@@ -24,7 +24,7 @@ The configuration interface you implement is accessed through additional entry p
   
 ## See also
 
-#### Concepts
+
 
 [Message Store Features](message-store-features.md)
 

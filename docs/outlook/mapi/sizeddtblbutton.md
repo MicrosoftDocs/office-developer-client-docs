@@ -55,10 +55,10 @@ TCHAR lpszLabel[n];
 
 ## See also
 
-#### Reference
+
 
 [DTBLBUTTON](dtblbutton.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

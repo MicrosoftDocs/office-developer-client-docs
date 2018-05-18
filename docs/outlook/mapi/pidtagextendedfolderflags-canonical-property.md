@@ -59,7 +59,7 @@ Reserved items can be ignored, but existing values must be preserved.
     
    The data field is a 4-byte field. When the application creates the to-do search folder, it must set the value of this field on the folder to the little-endian integer value of" 0x000c0000":
     
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -87,7 +87,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

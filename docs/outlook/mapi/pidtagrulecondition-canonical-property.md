@@ -43,7 +43,7 @@ For MFCMAPI sample code, see the following table.
 |:-----|:-----|:-----|
 |ImportProcs.cpp  <br/> |PropCopyMore, HrCopyRestriction  <br/> |These functions demonstrate how to parse a **PT_SRESTRICTION** property for the purposes of copying to another property.  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -71,7 +71,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

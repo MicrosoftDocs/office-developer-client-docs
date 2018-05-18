@@ -111,7 +111,7 @@ MAPI_E_UNKNOWN_ENTRYID
 
 The **IMAPISession::OpenEntry** method opens a message store or address book object, returning a pointer to an interface that can be used to access the object. 
   
-## Notes to Callers
+## Notes to callers
 
 > [!IMPORTANT]
 > When opening folder entries on a public store, such as folders and messages, use [IMsgStore::OpenEntry](imsgstore-openentry.md) instead of **IMAPISession::OpenEntry**. This ensures that public folders function correctly when multiple Exchange accounts are defined in a profile. 
@@ -134,7 +134,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IAddrBook::OpenEntry](iaddrbook-openentry.md)
   
@@ -151,7 +151,7 @@ For MFCMAPI sample code, see the following table.
 [IMsgStore::OpenEntry](imsgstore-openentry.md)
   
 [IMAPISession : IUnknown](imapisessioniunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

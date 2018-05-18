@@ -16,7 +16,7 @@ description: "Represents the Entry ID of the default folder for sent items for t
 
 Represents the Entry ID of the default folder for sent items for the account. 
   
-## Quick Info
+## Quick info
 
 See [IOlkAccount](iolkaccount.md).
   

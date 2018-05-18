@@ -16,7 +16,7 @@ description: "Supports rebasing appointments in a calendar folder."
 
 Supports rebasing appointments in a calendar folder.
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|
@@ -26,7 +26,7 @@ Supports rebasing appointments in a calendar folder.
 |Called by:  <br/> |MAPI client applications  <br/> |
 |Exposed on:  <br/> |Outlook rebasing object  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -37,7 +37,7 @@ Supports rebasing appointments in a calendar folder.
    
 ## See also
 
-#### Concepts
+
 
 [About rebasing calendars programmatically for Daylight Saving Time](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
 

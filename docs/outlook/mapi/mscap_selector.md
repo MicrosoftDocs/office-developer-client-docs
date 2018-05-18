@@ -20,7 +20,7 @@ description: "Last modified: July 23, 2011"
   
 Specifies the capabilities to return for a store.
   
-## Quick Info
+## Quick info
 
 ```cpp
 typedef enum 

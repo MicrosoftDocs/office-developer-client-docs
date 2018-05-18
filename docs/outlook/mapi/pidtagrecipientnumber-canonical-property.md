@@ -31,7 +31,7 @@ Represents the recipient number of a recipient on the message.
 |Data type:  <br/> |PT_LONG  <br/> |
 |Area:  <br/> |Exchange Message Read/Write  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -55,7 +55,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

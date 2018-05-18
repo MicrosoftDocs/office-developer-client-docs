@@ -16,7 +16,7 @@ description: "Frees memory allocated by the IOlkAccount interface."
 
 Frees memory allocated by the [IOlkAccount](iolkaccount.md) interface. 
   
-## Quick Info
+## Quick info
 
 See [IOlkAccount](iolkaccount.md).
   
@@ -43,7 +43,7 @@ Use this method to free memory allocated by [IOlkAccount::GetProp](iolkaccount-g
   
 ## See also
 
-#### Concepts
+
 
 [IOlkAccount::GetAccountInfo](iolkaccount-getaccountinfo.md)
   

@@ -45,7 +45,7 @@ The response status must be one of the values in the table below.
 |respDeclined  <br/> |0x00000004  <br/> |This value on the attendee's meeting indicates that the attendee has declined the meeting request.  <br/> |
 |respNotResponded  <br/> |0x00000005  <br/> |This value on the attendee's meeting indicates the attendee has not yet responded. This value is on the meeting request, meeting update, and meeting cancelation.  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -65,7 +65,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

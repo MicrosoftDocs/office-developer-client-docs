@@ -51,7 +51,7 @@ S_OK
 
 The **IMsgStore::GetOutgoingQueue** method provides the MAPI spooler with access to the table that shows the message store's queue of outgoing messages. Typically, messages are placed in the outgoing queue table after their [IMessage::SubmitMessage](imessage-submitmessage.md) method is called. However, because the order of submission affects the order of preprocessing and submission to the transport provider, some messages that have been marked for sending might not appear in the outgoing queue table immediately. 
   
-## Notes to Implementers
+## Notes to implementers
 
 For a list of the properties that must be included as columns in your outgoing queue table, see [Outgoing Queue Tables](outgoing-queue-tables.md). 
   
@@ -61,7 +61,7 @@ You must support notifications for the outgoing message queue table, ensuring th
   
 ## See also
 
-#### Reference
+
 
 [IMessage::SubmitMessage](imessage-submitmessage.md)
   

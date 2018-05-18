@@ -44,7 +44,7 @@ The local store returns to the state it was in before the preceding **[IOSTX::Sy
   
 ## See also
 
-#### Reference
+
 
 [IOSTX::GetLastError](iostx-getlasterror.md)
   
@@ -59,7 +59,7 @@ The local store returns to the state it was in before the preceding **[IOSTX::Sy
 [IOSTX::SyncHdrBeg](iostx-synchdrbeg.md)
   
 [IOSTX : IUnknown](iostxiunknown.md)
-#### Concepts
+
 
 [MAPI Constants](mapi-constants.md)
 

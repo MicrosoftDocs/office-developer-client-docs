@@ -60,7 +60,7 @@ Outlook special folders are identified by their entry IDs that are stored in the
    
 ## See also
 
-#### Concepts
+
 
 [MAPI Folders](mapi-folders.md)
 

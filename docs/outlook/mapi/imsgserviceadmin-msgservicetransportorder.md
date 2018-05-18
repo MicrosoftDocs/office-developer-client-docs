@@ -68,7 +68,7 @@ The **IMsgServiceAdmin::MsgServiceTransportOrder** method sets the delivery orde
   
 ## See also
 
-#### Reference
+
 
 [MAPIUID](mapiuid.md)
   

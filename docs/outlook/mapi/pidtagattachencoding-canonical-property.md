@@ -41,7 +41,7 @@ The object identifier syntax and sample object identifiers are defined in the MA
   
 For complete information on these object identifiers, see the documentation on ASN.1, X.208, and X.209. The object identifier is found in the application-reference element of the FTBP (File Transfer Body Part) environment. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -61,7 +61,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

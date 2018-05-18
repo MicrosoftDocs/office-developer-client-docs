@@ -38,7 +38,7 @@ Implementers should stop all processes for the session for improved performance,
   
 ## See also
 
-#### Concepts
+
 
 [Excel Cluster Connector Functions](excel-cluster-connector-functions.md)
 

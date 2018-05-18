@@ -64,7 +64,7 @@ S_OK
 
 The **IMAPISession::Logoff** method ends a MAPI session. When **Logoff** returns, none of the methods except for [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) can be called. 
   
-## Notes to Callers
+## Notes to callers
 
 When **Logoff** returns, release the session object by calling its **IUnknown::Release** method. 
   
@@ -83,10 +83,10 @@ For MFCMAPI sample code, see the following table.
   
 ## See also
 
-#### Reference
+
 
 [IMAPISession : IUnknown](imapisessioniunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
   

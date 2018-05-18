@@ -44,7 +44,7 @@ This property specifies the recurrence type of the recurring series by using one
 |rectypeMonthly  <br/> |3  <br/> |A monthly recurrence pattern.  <br/> |
 |rectypeYearly  <br/> |4  <br/> |A yearly recurrence pattern.  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -64,7 +64,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

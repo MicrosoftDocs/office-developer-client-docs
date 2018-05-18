@@ -36,7 +36,7 @@ Contains the value for each attendee listed in the **dispidNonSendableCC** ([Pid
 
 This property is required only when the **dispidNonSendableCC** property is set. The number of values in this property must equal the number of values in **dispidNonSendableCC**. Each PT_LONG value in this property corresponds to the attendee in the **dispidNonSendableCC** property at the same index. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

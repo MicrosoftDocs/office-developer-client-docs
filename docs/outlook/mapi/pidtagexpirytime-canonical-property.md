@@ -35,7 +35,7 @@ Contains the date and time when the messaging system can invalidate the content 
 
 This property is used to direct the messaging system in handling delivered interpersonal messages. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

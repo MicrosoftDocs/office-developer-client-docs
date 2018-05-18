@@ -65,7 +65,7 @@ Defaults suggested to the user for all other message objects are as follows:
    
 All strings specified above can be translated to the user's language, if appropriate.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -85,7 +85,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

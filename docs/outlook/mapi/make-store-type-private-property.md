@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Treats a secondary store as private.
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|

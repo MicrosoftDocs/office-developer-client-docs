@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies whether Microsoft Office Outlook should scan folders in a store and archive them automatically.
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|

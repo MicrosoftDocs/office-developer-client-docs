@@ -34,7 +34,7 @@ Maintains and provides access to the properties of attachments in messages. The 
 |Pointer type:  <br/> |LPATTACH  <br/> |
 |Transaction model:  <br/> |Transacted  <br/> |
    
-## Vtable Order
+## Vtable order
 
 This interface does not have any unique methods.
   
@@ -46,7 +46,7 @@ This interface does not have any unique methods.
    
 ## See also
 
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
 

@@ -51,10 +51,10 @@ The **IsEqualMAPIUID** macro requires that the header file Memory.h be included.
   
 ## See also
 
-#### Reference
+
 
 [MAPIUID](mapiuid.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

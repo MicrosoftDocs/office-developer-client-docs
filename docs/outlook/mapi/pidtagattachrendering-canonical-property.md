@@ -45,7 +45,7 @@ For an embedded dynamic OLE object, the client should use the OLE data to genera
   
 In all cases, the client application should be aware that this property is usually several hundred bytes in size and is subject to truncation in the attachment table. If a client wishes to render the attachment from this property without opening the attachment itself, it must work within the table truncation rule. For more information, see [Working with Large Columns](working-with-large-columns.md). 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -65,7 +65,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

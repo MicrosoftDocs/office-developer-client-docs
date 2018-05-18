@@ -35,7 +35,7 @@ Contains a binary verification value that enables a delivery report recipient to
 
 This property provides a means for a third party, such as a message transfer agent (MTA) or a messaging user receiving a delivery report, to verify the submitted message's origin. If present on a received message, this property should be copied onto any delivery report generated in response to the message.
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

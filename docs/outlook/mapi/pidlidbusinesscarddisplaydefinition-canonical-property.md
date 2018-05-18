@@ -36,7 +36,7 @@ Contains user-customization details for displaying a contact as a business card.
 
 The layout of a business card can be represented as an image and a number of text fields. The image can be either a contact photo, or a card picture. Text fields consist of a value from another property set on the contact and an optional customized label string provided by the user. Note that multi-byte values are stored in little-endian format in the buffer.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

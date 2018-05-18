@@ -40,7 +40,7 @@ Whenever the client sets this property to a number less than the negative of the
   
 The **PR_ORDINAL_MOST** property of the folder provides an efficient way to determine a unique value among tasks in the same folder. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -60,7 +60,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

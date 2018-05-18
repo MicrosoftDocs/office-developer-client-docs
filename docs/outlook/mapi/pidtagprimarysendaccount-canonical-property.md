@@ -35,7 +35,7 @@ Contains a string that names the first server that is used to send the message.
 
 Specifies the first server that a client should use to send the mail. The format of these properties is implementation dependent. These properties can be used by the client to determine which server to direct the mail through, but is optional and the value has no meaning to the server.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

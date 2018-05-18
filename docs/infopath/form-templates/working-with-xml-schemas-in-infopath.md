@@ -525,7 +525,7 @@ By taking advantage of InfoPath support for designing XML form solutions that ar
   
 ## See also
 
-#### Other resources
+
 
 [W3C XML Schema](http://www.w3.org/XML/Schema)
   

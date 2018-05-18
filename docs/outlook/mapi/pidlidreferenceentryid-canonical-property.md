@@ -36,7 +36,7 @@ Specifies the reference [ENTRYID](entryid.md) for the contact.
 
 If present, this property should be equal to the value of the **EntryId** of the contact. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

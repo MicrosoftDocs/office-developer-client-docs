@@ -111,7 +111,7 @@ After defining custom security policy for InfoPath managed-form templates, you c
     
 ## See also
 
-#### Concepts
+
 
 [About the Security Model for Form Templates with Code](about-the-security-model-for-form-templates-with-code.md)
 

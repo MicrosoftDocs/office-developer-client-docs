@@ -31,7 +31,7 @@ Contains a bitmask of flags that define the physical delivery mode (for example,
 |Data type:  <br/> |PT_LONG  <br/> |
 |Area:  <br/> |MAPI recipient  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -45,7 +45,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

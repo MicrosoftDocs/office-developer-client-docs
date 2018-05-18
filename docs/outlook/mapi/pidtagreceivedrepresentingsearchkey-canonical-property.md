@@ -37,7 +37,7 @@ This property is one of the address properties for the messaging user being repr
   
 A client application replying to a message received on behalf of another client should copy this property from the received message into the **PR_SENT_REPRESENTING_SEARCH_KEY** ([PidTagSentRepresentingSearchKey](pidtagsentrepresentingsearchkey-canonical-property.md)) property for the reply.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -77,10 +77,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagSearchKey Canonical Property](pidtagsearchkey-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

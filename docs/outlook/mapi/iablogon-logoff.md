@@ -56,7 +56,7 @@ For more information about the logoff process of address book providers, see [Sh
   
 ## See also
 
-#### Reference
+
 
 [IABProvider::Logon](iabprovider-logon.md)
   

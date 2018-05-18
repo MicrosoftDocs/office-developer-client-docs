@@ -89,7 +89,7 @@ The MAPI spooler calls the **IXPLogon::TransportNotify** method to signal the tr
   
 When the user tries to cancel a message that the transport provider has previously deferred, the MAPI spooler calls **TransportNotify**, passing in both the NOTIFY_ABORT_DEFERRED and NOTIFY_CANCEL_MESSAGE flags in  _ulFlags_. If the MAPI spooler is logging off and still has messages in the queue, it passes only NOTIFY_ABORT_DEFERRED in  _ulFlags_ when it calls **TransportNotify**.
   
-## Notes to Implementers
+## Notes to implementers
 
 The provider must synchronize access to its data on this call, because the MAPI spooler can invoke this method from another thread of execution or from a procedure for a different window. This will most likely occur when the MAPI spooler signals the cancellation of a message that the transport provider has started sending.
   

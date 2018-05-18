@@ -100,10 +100,10 @@ For more information about standard and categorized sorting, see [Sorting and Ca
   
 ## See also
 
-#### Reference
+
 
 [SSortOrderSet](ssortorderset.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

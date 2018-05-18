@@ -71,13 +71,13 @@ The **IMAPISupport::ExpandRecips** method is implemented for message store provi
     
  **ExpandRecips** expands any distribution lists that have the messaging address type of MAPIPDL. 
   
-## Notes to Callers
+## Notes to callers
 
 Always call **ExpandRecips** as part of your message processing. Make a call to **ExpandRecips** one of the first calls in your [IMessage::SubmitMessage](imessage-submitmessage.md) method implementation. 
   
 ## See also
 
-#### Reference
+
 
 [IMessage::SubmitMessage](imessage-submitmessage.md)
   

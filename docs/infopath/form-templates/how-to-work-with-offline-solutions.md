@@ -94,7 +94,7 @@ This example assumes that you have created a form for submitting a sales report 
   }
   ```
 
-  ```VB.net
+  ```vb
   Public Sub OnlineSubmit(ByVal e As SubmitEventArgs)
      ' Logic for submitting online goes here.
   End Sub
@@ -133,7 +133,7 @@ This example assumes that you have created a form for submitting a sales report 
   }
   ```
 
-  ```VB.net
+  ```vb
   ' Check the computer's connection state.
   If (Me.Application.MachineOnlineState = MachineState.Online) Then
      OnlineSubmit(e)
@@ -159,7 +159,7 @@ This example assumes that you have created a form for submitting a sales report 
     
 ## See also
 
-#### Other resources
+
 
 [Design a form template for offline use](http://office.microsoft.com/en-us/infopath/HA102117391033.aspx?pid=CH100341121033)
 

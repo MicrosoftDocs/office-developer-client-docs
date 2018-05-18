@@ -35,7 +35,7 @@ Specifies the server that a client is currently attempting to use to send e-mail
 
 The format of this property is implementation dependent. This property can be used by the client to determine which server to direct the e-mail to, but is optional and the value has no meaning to the server.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -63,7 +63,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

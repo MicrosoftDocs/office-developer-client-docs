@@ -109,10 +109,10 @@ int WINAPI xlAutoClose(void)
 
 ## See also
 
-#### Reference
+
 
 [xlAutoOpen](xlautoopen.md)
-#### Concepts
+
 
 [Add-in Manager and XLL Interface Functions](add-in-manager-and-xll-interface-functions.md)
 

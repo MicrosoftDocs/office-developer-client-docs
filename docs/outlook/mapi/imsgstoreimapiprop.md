@@ -34,7 +34,7 @@ Provides access to message store information and to messages and folders.
 |Pointer type:  <br/> |LPMDB  <br/> |
 |Transaction model:  <br/> |Nontransacted  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -79,7 +79,7 @@ The following properties are for interpersonal message (IPM) message stores:
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
 

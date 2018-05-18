@@ -36,7 +36,7 @@ Indicates that the meeting request represents an exception to a recurring series
 
 A value of FALSE for this property indicates that the meeting request is not a forwarded instance. This property is not required.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

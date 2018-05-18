@@ -37,7 +37,7 @@ It is recommended that attachment subobjects expose the **PR_ATTACH_SIZE** prope
   
 This property can be used to check the approximate size of the attachment before performing a remote transfer by modem and to display progress indicators when saving the attachment to disk. It is particularly useful with attached OLE objects. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -57,10 +57,10 @@ mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagMessageSize Canonical Property](pidtagmessagesize-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

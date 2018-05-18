@@ -86,7 +86,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [ADRENTRY](adrentry.md)
   
@@ -113,7 +113,7 @@ For MFCMAPI sample code, see the following table.
 [SRowSet](srowset.md)
   
 [IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
   

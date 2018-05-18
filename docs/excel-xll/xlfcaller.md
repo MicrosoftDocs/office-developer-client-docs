@@ -67,7 +67,7 @@ short WINAPI CallerExample(void)
 
 ## See also
 
-#### Concepts
+
 
 [Essential and Useful C API XLM Functions](essential-and-useful-c-api-xlm-functions.md)
 

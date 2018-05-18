@@ -32,7 +32,7 @@ The Outlook Social Connector (OSC) uses the **ISocialSession** interface to log 
   
 ## See also
 
-#### Reference
+
 
 [ISocialProvider : IUnknown](isocialprovideriunknown.md)
 

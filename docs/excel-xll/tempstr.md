@@ -42,7 +42,7 @@ This way of creating temporary strings is now deprecated in favor of the way in 
   
 ## See also
 
-#### Concepts
+
 
 [Functions in the Framework Library](functions-in-the-framework-library.md)
 

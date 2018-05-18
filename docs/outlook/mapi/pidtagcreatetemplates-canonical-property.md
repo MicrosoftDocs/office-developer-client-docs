@@ -37,7 +37,7 @@ To learn what template objects can be created inside a container, call the [IMAP
   
 To create the template objects, call the container object's **CreateEntry** method on the **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) column values from the one-off table.
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -51,10 +51,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [IABContainer::CreateEntry](iabcontainer-createentry.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

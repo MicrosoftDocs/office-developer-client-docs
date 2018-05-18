@@ -35,7 +35,7 @@ Contains the search key of the messaging user who receives the message.
 
 This property is one of the address properties for the messaging user who receives the message. It must be set by the incoming transport provider.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -75,7 +75,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

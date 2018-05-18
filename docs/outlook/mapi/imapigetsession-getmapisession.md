@@ -38,10 +38,10 @@ HRESULT GetMAPISession(
     
 ## See also
 
-#### Reference
+
 
 [IMAPIGetSession : IUnknown](imapigetsessioniunknown.md)
-#### Concepts
+
 
 [Support Object Overview](support-object-overview.md)
 

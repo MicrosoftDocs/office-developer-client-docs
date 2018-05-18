@@ -73,12 +73,12 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [ROWENTRY](rowentry.md)
   
 [IExchangeModifyTable : IUnknown](iexchangemodifytableiunknown.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

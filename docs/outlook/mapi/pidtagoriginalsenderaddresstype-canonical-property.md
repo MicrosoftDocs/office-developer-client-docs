@@ -35,7 +35,7 @@ Contains the address type of the sender of the first version of a message, that 
 
 These properties are examples of the address properties for the original sender of a message. At first submission of the message, the client application should set these properties to the value of **PR_SENDER_ADDRTYPE** ([PidTagSenderAddressType](pidtagsenderaddresstype-canonical-property.md)). It is never changed when the message is forwarded or replied to.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

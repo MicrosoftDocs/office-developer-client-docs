@@ -51,7 +51,7 @@ This function wraps the **lstrcpy** function. For more information, see [lstrcpy
   
 ## See also
 
-#### Other resources
+
 
 [lstrcpy](http://msdn.microsoft.com/en-us/library/ms647490%28VS.85%29.aspx)
 

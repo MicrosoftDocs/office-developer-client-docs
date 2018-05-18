@@ -37,7 +37,7 @@ This property computed by the message store is used for two different, though re
   
 The number contained in this property does not include associated entries in the folder. **PR_CONTENT_UNREAD** ([PidTagContentUnreadCount](pidtagcontentunreadcount-canonical-property.md)) contains the count of unread messages for the folder. A client application can read but not change this property and **PR_CONTENT_UNREAD**. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -65,7 +65,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -35,7 +35,7 @@ Contains a list of identifiers of transport providers in the current profile.
 
 Do not use this property. It is reserved for use by MAPI.
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,10 +49,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [MAPIUID](mapiuid.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

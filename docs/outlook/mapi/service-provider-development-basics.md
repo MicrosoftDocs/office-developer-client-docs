@@ -22,7 +22,7 @@ This section contains overview information that you should review prior to creat
   
 ## See also
 
-#### Concepts
+
 
 [Developing a MAPI Address Book Provider](developing-a-mapi-address-book-provider.md)
   

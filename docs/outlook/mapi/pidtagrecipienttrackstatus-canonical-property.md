@@ -42,7 +42,7 @@ If this value is not set, it must be assumed to be respNone. Otherwise, it must 
 |respAccepted  <br/> |0x00000003  <br/> |This value on the attendee's meeting object indicates that the attendee has accepted the meeting request object.  <br/> |
 |respDeclined  <br/> |0x00000004  <br/> |This value on the attendee's meeting object indicates that the attendee has declined the meeting request object.  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -70,7 +70,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

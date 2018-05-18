@@ -104,7 +104,7 @@ This section covers the required and optional elements supported for each type o
    
 ## See also
 
-#### Concepts
+
 
 [Overview of XML for an Activity Feed Item](overview-of-xml-for-an-activity-feed-item.md)
   
@@ -117,7 +117,7 @@ This section covers the required and optional elements supported for each type o
 [XML for Activities](xml-for-activities.md)
   
 [Outlook Social Connector Provider XML Schema](outlook-social-connector-provider-xml-schema.md)
-#### Other resources
+
 
 [Developing a Provider with the OSC XML Schema](developing-a-provider-with-the-osc-xml-schema.md)
 

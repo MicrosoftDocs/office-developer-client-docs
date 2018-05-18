@@ -35,7 +35,7 @@ Contains the initials for parts of the full name of the recipient.
 
 These properties provide identification and access information for a recipient. They are defined by the recipient and their organization.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -67,7 +67,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

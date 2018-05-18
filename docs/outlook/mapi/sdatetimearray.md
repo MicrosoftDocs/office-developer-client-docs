@@ -53,12 +53,12 @@ For more information about PT_MV_SYSTIME, see [List of Property Types](property-
   
 ## See also
 
-#### Reference
+
 
 [FILETIME](filetime.md)
   
 [SPropValue](spropvalue.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

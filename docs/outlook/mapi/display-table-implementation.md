@@ -40,7 +40,7 @@ The first access technique is used when address book providers are asked to show
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Service Providers](mapi-service-providers.md)
 

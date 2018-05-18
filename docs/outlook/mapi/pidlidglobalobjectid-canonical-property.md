@@ -36,7 +36,7 @@ Specifies the unique identifier of the calendar object.
 
 Once set for a calendar object, the value of this property must not change. A detailed description of the format can be found in [[MS-OXOCAL]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx).
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

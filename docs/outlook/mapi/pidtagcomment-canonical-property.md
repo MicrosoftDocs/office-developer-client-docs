@@ -35,7 +35,7 @@ Contains a comment about the purpose or content of an object.
 
 The content of the string is defined by the messaging user. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -67,7 +67,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

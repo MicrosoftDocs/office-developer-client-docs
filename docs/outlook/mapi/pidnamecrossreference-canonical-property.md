@@ -36,7 +36,7 @@ Contains an [RFC3282] Xref header field value.
 
 To set the value of this property, Multipurpose Internet Message Extensions (MIME) clients must write the desired value to an XRef header field. MIME readers must copy the value of an XRef header field to the value of this property.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

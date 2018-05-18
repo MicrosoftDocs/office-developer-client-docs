@@ -77,7 +77,7 @@ The following example shows the **friends** XML for two persons on the social ne
 
 ## See also
 
-#### Concepts
+
 
 [OSC Provider XML Examples](osc-provider-xml-examples.md)
   

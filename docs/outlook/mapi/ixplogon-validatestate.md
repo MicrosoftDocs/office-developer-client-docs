@@ -95,7 +95,7 @@ To support its implementation of **IMAPIStatus::ValidateState**, the MAPI spoole
   
 ## See also
 
-#### Reference
+
 
 [IMAPIStatus::ValidateState](imapistatus-validatestate.md)
   

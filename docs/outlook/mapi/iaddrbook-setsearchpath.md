@@ -59,7 +59,7 @@ Clients and providers do not have to call the [IMAPIProp::SaveChanges](imapiprop
   
 ## See also
 
-#### Reference
+
 
 [IAddrBook::GetDefaultDir](iaddrbook-getdefaultdir.md)
   

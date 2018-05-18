@@ -100,7 +100,7 @@ For more information about the notification process, see [Event Notification in 
   
 ## See also
 
-#### Reference
+
 
 [HrThisThreadAdviseSink](hrthisthreadadvisesink.md)
   

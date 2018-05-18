@@ -31,7 +31,7 @@ Signifies, if TRUE, that the phishing stamp on the message should be ignored.
 |Data type:  <br/> |PT_BOOLEAN  <br/> |
 |Area:  <br/> |Spam  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

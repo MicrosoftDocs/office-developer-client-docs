@@ -20,7 +20,7 @@ description: "Last modified: July 23, 2011"
   
 Provides information to **[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)** to register callback for an offline object. 
   
-## Quick Info
+## Quick info
 
 See **IMAPIOfflineMgr::Advise**. 
   
@@ -68,10 +68,10 @@ typedef struct
     
 ## See also
 
-#### Reference
+
 
 [IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)
-#### Concepts
+
 
 [About the Offline State API](about-the-offline-state-api.md)
   

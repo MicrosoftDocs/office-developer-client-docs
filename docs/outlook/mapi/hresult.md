@@ -63,10 +63,10 @@ For information about the OLE use of **HRESULT** values, see the  *OLE Programme
   
 ## See also
 
-#### Reference
+
 
 [SCODE](scode.md)
-#### Concepts
+
 
 [MAPI Data Types](mapi-data-types.md)
 

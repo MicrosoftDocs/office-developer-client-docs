@@ -35,7 +35,7 @@ Contains an entry identifier for an alternate recipient designated by the sender
 
 This property is used in autoforwarded messages. If autoforwarding is not permitted or if no alternate recipient has been designated, a nondelivery report should be generated.
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

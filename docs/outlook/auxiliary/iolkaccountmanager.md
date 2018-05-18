@@ -15,7 +15,7 @@ ms.assetid: 544c87e5-887d-82ec-bf1a-0d95027fe0ec
 
 Manages access to accounts and sets up notifications about account changes.
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|
@@ -25,7 +25,7 @@ Manages access to accounts and sets up notifications about account changes.
 |Called by:  <br/> |Client  <br/> |
 |Interface identifier:  <br/> |IID_IOlkAccountManager  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -57,7 +57,7 @@ Manages access to accounts and sets up notifications about account changes.
    
 ## See also
 
-#### Concepts
+
 
 [About the Account Management API](about-the-account-management-api.md)
 

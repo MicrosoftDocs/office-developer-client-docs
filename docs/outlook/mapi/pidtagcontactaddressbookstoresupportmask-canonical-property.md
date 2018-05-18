@@ -35,7 +35,7 @@ Contains the **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagcontactad
 
 The Contact Address Book provider uses this property to evaluate the adequacy of the store's supported features. This is a property on a Contact Address Book container, and a column in the table of Contact Address Book containers.
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

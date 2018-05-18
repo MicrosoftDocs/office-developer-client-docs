@@ -50,13 +50,13 @@ MAPI_E_INVALID_BOOKMARK
 
 The **IMAPITable::FreeBookmark** method releases a bookmark that is no longer needed. The bookmark is no longer valid after this call. Whenever a table is released from memory, all of its associated bookmarks are also released. 
   
-## Notes to Implementers
+## Notes to implementers
 
 If the caller passes one of the three predefined bookmarks in the  _bkPosition_ parameter, ignore the request and return S_OK. 
   
 ## See also
 
-#### Reference
+
 
 [IMAPITable::CreateBookmark](imapitable-createbookmark.md)
   

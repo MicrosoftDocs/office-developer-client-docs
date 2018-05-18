@@ -36,7 +36,7 @@ Specifies the initial signal time for a reminder.
 
 For calendar objects, this property represents the time when the user would be late which is the start time of the appointment. Clients must set the value in Coordinated Universal Time (UTC).
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

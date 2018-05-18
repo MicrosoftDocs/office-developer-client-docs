@@ -49,7 +49,7 @@ IMPORTANCE_NORMAL
   
 > The message has normal importance.
     
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -73,7 +73,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

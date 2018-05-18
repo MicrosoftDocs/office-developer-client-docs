@@ -40,7 +40,7 @@ The **SPropTagArray** structure is a counted array of property tags. Many of the
   
 ## See also
 
-#### Other resources
+
 
 [MAPI Concepts](mapi-concepts.md)
 

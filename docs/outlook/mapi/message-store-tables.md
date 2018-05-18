@@ -36,7 +36,7 @@ The following properties make up the required column set in the message store ta
    
 ## See also
 
-#### Concepts
+
 
 [MAPI Tables](mapi-tables.md)
 

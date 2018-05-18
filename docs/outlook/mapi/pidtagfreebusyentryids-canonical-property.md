@@ -31,7 +31,7 @@ Contains the **EntryIDs** for the delegate information message, the free/busy me
 |Data type:  <br/> |PT_MV_BINARY  <br/> |
 |Area:  <br/> |MAPI container  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -63,7 +63,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

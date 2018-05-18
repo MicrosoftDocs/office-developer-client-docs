@@ -16,7 +16,7 @@ description: "Represents the Entry ID of the default delivery folder for the acc
 
 Represents the Entry ID of the default delivery folder for the account.
   
-## Quick Info
+## Quick info
 
 See [IOlkAccount](iolkaccount.md).
   
@@ -35,7 +35,7 @@ The default delivery folder is **Inbox**.
   
 ## See also
 
-#### Concepts
+
 
 [About the Account Management API](about-the-account-management-api.md)
   

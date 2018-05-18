@@ -50,7 +50,7 @@ To find out exactly which properties are currently set for an object, call [IMAP
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Objects and Properties](mapi-objects-and-properties.md)
 

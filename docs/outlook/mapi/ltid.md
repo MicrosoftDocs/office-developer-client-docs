@@ -20,7 +20,7 @@ description: "Last modified: July 23, 2011"
   
 Generic Long Term ID of an object in an Outlook store.
   
-## Quick Info
+## Quick info
 
 ```cpp
 struct LTID 
@@ -47,7 +47,7 @@ struct LTID
     
 ## See also
 
-#### Concepts
+
 
 [About the Replication API](about-the-replication-api.md)
   

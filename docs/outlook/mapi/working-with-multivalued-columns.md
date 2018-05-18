@@ -36,7 +36,7 @@ Table implementers are only required to support the default type of display and 
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Tables](mapi-tables.md)
 

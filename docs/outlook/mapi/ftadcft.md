@@ -57,7 +57,7 @@ The **FtAdcFt** function is identical to **FtAddFt** when  _pwCarry_ is NULL. If
   
 ## See also
 
-#### Reference
+
 
 [FtAddFt](ftaddft.md)
 

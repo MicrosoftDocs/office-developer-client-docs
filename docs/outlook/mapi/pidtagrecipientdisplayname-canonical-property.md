@@ -31,7 +31,7 @@ Contains the value of the **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplay
 |Data type:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Area:  <br/> |Transport recipient  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -67,7 +67,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -81,7 +81,7 @@ When the CONVENIENT_DEPTH flag is set, each row in the hierarchy table also incl
   
 For a complete list of required and optional columns in hierarchy tables, see [Hierarchy Tables](hierarchy-tables.md).
   
-## Notes to Implementers
+## Notes to implementers
 
 If you support a hierarchy table for your container, you must also do the following:
   
@@ -89,7 +89,7 @@ If you support a hierarchy table for your container, you must also do the follow
     
 - Return **PR_CONTAINER_HIERARCHY** from a call to the container's [IMAPIProp::GetPropList](imapiprop-getproplist.md) or [IMAPIProp::GetProps](imapiprop-getprops.md) methods. 
     
-## Notes to Callers
+## Notes to callers
 
 String and binary contents table columns can be truncated. Typically, providers return 255 characters. Because you cannot know beforehand whether a table includes truncated columns, assume that a column is truncated if the length of the column is either 255 or 510 bytes. You can always retrieve the full value of a truncated column, if necessary, directly from the object by using its entry identifier to open it and then calling the [IMAPIProp::GetProps](imapiprop-getprops.md) method. 
   
@@ -105,7 +105,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIProp::GetPropList](imapiprop-getproplist.md)
   
@@ -116,7 +116,7 @@ For MFCMAPI sample code, see the following table.
 [PidTagContainerHierarchy Canonical Property](pidtagcontainerhierarchy-canonical-property.md)
   
 [IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

@@ -44,7 +44,7 @@ This property must be one of the entries in the following table:
 |0x00000003  <br/> |Yellow  <br/> |
 |0x00000004  <br/> |White  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -64,7 +64,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

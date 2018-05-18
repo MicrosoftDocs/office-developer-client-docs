@@ -62,10 +62,10 @@ For more information about the **SExistRestriction** structure, see [About Restr
   
 ## See also
 
-#### Reference
+
 
 [SRestriction](srestriction.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

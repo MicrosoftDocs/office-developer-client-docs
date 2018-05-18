@@ -41,12 +41,12 @@ CbNewSRowSet (_crow)
     
 ## See also
 
-#### Reference
+
 
 [SRowSet](srowset.md)
   
 [SRow](srow.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

@@ -42,7 +42,7 @@ The property may be absent, in which case the default value of "0x00000000" is u
 |0x00000001  <br/> |Process the message automatically or when the message is opened.  <br/> |
 |0x00000002  <br/> |Process the message only when the message is opened.  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -62,7 +62,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

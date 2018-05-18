@@ -61,7 +61,7 @@ For a discussion of the use of the **NOTIFKEY** structure to manage the connecti
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

@@ -81,12 +81,12 @@ For more information about notification, see the topics described in the followi
    
 ## See also
 
-#### Reference
+
 
 [MAPIERROR](mapierror.md)
   
 [NOTIFICATION](notification.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

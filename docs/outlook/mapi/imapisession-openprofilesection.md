@@ -83,7 +83,7 @@ The **IMAPISession::OpenProfileSection** method opens a profile section or objec
   
 You cannot use **OpenProfileSection** to open profile sections that individual service providers own unless you specify MAPI_FORCE_ACCESS in the  _ulFlags_ parameter. 
   
-## Notes to Callers
+## Notes to callers
 
 Multiple clients can open a profile section with read-only permission, but only one client can open a profile section with read/write permission. If another client has a profile section open that you attempt to open by calling **OpenProfileSection** with the MAPI_MODIFY flag set, the call will fail, returning MAPI_E_NO_ACCESS. 
   
@@ -93,7 +93,7 @@ You can create a profile section by calling **OpenProfileSection** with the MAPI
   
 ## See also
 
-#### Reference
+
 
 [IMAPIProp : IUnknown](imapipropiunknown.md)
   

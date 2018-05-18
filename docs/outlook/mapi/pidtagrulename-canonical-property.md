@@ -31,7 +31,7 @@ Specifies the user-readable name of the rule.
 |Data type:  <br/> |PT_STRING8  <br/> |
 |Area:  <br/> |Server Side Rules  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

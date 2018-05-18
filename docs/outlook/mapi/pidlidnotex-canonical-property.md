@@ -32,7 +32,7 @@ Specifies the distance, in pixels, from the left edge of the screen where a user
 |Data type:  <br/> |PT_LONG  <br/> |
 |Area:  <br/> |Sticky Note  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -52,7 +52,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

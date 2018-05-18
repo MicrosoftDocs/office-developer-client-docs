@@ -50,10 +50,10 @@ Activities that the **GetActivitiesEx** method returns must have a creation time
   
 ## See also
 
-#### Reference
+
 
 [ISocialSession2 : IUnknown](isocialsession2iunknown.md)
-#### Concepts
+
 
 [Synchronizing Friends and Activities](synchronizing-friends-and-activities.md)
 

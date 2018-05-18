@@ -48,7 +48,7 @@ The fact that your message store provider is read-only is advertised in the stor
   
 ## See also
 
-#### Concepts
+
 
 [Developing a MAPI Message Store Provider](developing-a-mapi-message-store-provider.md)
 

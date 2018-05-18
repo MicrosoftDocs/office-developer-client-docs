@@ -28,7 +28,7 @@ Data elements in this stream are stored in little-endian byte order, immediately
     
 ## See also
 
-#### Concepts
+
 
 [Outlook Items and Fields](outlook-items-and-fields.md)
   

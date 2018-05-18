@@ -76,10 +76,10 @@ The **SMAPIVerb** structure is passed as a parameter in the following methods:
     
 ## See also
 
-#### Reference
+
 
 [CbMessageClassArray](cbmessageclassarray.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

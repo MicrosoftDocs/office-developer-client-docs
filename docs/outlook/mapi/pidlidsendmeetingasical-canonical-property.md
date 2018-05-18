@@ -32,7 +32,7 @@ Specifies if a meeting request should be sent as an iCal message.
 |Data type:  <br/> |PT_BOOLEAN  <br/> |
 |Area:  <br/> |Conferencing  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -52,7 +52,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

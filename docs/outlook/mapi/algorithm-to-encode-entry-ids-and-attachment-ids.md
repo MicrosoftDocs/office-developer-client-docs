@@ -51,7 +51,7 @@ LPWSTR EncodeID(ULONG cbEID, LPENTRYID rgbID)
 
 ## See also
 
-#### Concepts
+
 
 [About Notification-Based Store Indexing](about-notification-based-store-indexing.md)
   

@@ -34,7 +34,7 @@ The OSC calls **GetDetails** if the OSC provider supports cached or hybrid synch
   
 ## See also
 
-#### Reference
+
 
 [ISocialPerson : IUnknown](isocialpersoniunknown.md)
 

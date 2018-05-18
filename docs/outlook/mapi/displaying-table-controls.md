@@ -39,7 +39,7 @@ The following table lists the structures that describe each type of control.
    
 ## See also
 
-#### Concepts
+
 
 [Display Table Implementation](display-table-implementation.md)
 

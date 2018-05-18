@@ -34,7 +34,7 @@ Manages high-level operations on container objects such as address books, distri
 |Pointer type:  <br/> |LPMAPICONTAINER  <br/> |
 |Transaction model:  <br/> |Abstract class, never implemented  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -52,7 +52,7 @@ Manages high-level operations on container objects such as address books, distri
    
 ## See also
 
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
 

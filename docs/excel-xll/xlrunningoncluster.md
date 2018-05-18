@@ -38,7 +38,7 @@ This function is defined in the Xlcall.h header file.
   
 ## See also
 
-#### Concepts
+
 
 [Cluster Safe Functions](cluster-safe-functions.md)
   

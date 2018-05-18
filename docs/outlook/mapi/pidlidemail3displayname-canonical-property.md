@@ -32,7 +32,7 @@ Specifies the user-readable display name for the third e-mail address.
 |Data type:  <br/> |PT_UNICODE  <br/> |
 |Area:  <br/> |Contact  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -52,7 +52,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

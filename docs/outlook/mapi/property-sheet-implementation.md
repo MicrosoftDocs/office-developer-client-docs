@@ -68,7 +68,7 @@ If you need to be able to add or remove items from your list box, using a displa
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Service Providers](mapi-service-providers.md)
 

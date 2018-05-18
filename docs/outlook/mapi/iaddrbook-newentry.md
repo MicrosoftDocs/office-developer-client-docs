@@ -85,7 +85,7 @@ S_OK
 
 The **NewEntry** method creates a new address book entry, to be added directly into a container or to be used to address an outgoing message. 
   
-## Notes to Callers
+## Notes to callers
 
 If you want the new entry to be added to a specific container, set  _lpEIDContainer_ to the container's entry identifier and  _cbEIDContainer_ to the byte count in the entry identifier. 
   
@@ -107,7 +107,7 @@ To use a particular template to add a new entry to a modifiable container, use t
     
 ## See also
 
-#### Reference
+
 
 [IAddrBook::OpenEntry](iaddrbook-openentry.md)
   

@@ -92,7 +92,7 @@ The message service's entry point function is not called for a copy operation. T
   
 ## See also
 
-#### Reference
+
 
 [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md)
   

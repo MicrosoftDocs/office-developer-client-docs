@@ -38,7 +38,7 @@ When an optional property is included as one of the columns in a table, some of 
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Tables](mapi-tables.md)
 

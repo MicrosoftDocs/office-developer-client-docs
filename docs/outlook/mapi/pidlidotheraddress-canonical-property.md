@@ -36,7 +36,7 @@ Specifies the complete address of the contact's other address.
 
 This property should be a combination of other physical address properties, and is based on client locale.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

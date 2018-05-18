@@ -39,7 +39,7 @@ The dynamic-link library (DLL) in which the entry point function appears is name
   
 For more information on message service entry points, see [Implementing a Service Provider Entry Point Function](implementing-a-service-provider-entry-point-function.md).
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -53,7 +53,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

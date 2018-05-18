@@ -49,7 +49,7 @@ Service providers who do support the status table use the [IMAPISupport::ModifyS
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Tables](mapi-tables.md)
 

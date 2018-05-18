@@ -39,7 +39,7 @@ The **PR_CONVERSATION_INDEX** ([PidTagConversationIndex](pidtagconversationindex
   
 A message store provider has the option of assuring that these properties are always set on incoming or outgoing messages. If these properties are already set they should not be altered. If not, they can be set to **PR_NORMALIZED_SUBJECT**. Any action should be taken before [IMAPIProp::SaveChanges](imapiprop-savechanges.md) is called. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -63,7 +63,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

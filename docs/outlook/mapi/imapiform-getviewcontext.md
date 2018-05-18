@@ -50,7 +50,7 @@ S_FALSE
 
 Form viewers call **GetViewContext** to obtain a pointer to the view context established in a previous call to [IMAPIForm::SetViewContext](imapiform-setviewcontext.md). If no prior call has been made to **SetViewContext**, **GetViewContext** sets  _ppViewContext_ to NULL. 
   
-## Notes to Implementers
+## Notes to implementers
 
 Copy your form's view context pointer into the pointer passed in by the calling form viewer in the  _ppViewContext_ parameter. If the form does not have a view context, set  _ppViewContext_ to NULL. 
   
@@ -64,12 +64,12 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIViewContext : IUnknown](imapiviewcontextiunknown.md)
   
 [IMAPIForm : IUnknown](imapiformiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

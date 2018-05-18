@@ -76,7 +76,7 @@ xdocs = thisApplication.XDocuments;
 // Write code here to work with the XDocumentsCollection.
 ```
 
-```VB.net
+```vb
 Dim xdocs As XDocumentsCollection
 xdocs = thisApplication.XDocuments
 ' Write code here to work with the XDocumentsCollection.
@@ -88,7 +88,7 @@ In a managed-code project created using the InfoPath 2003-compatible object mode
 thisXDocument.UI.Alert(thisXDocument.URI);
 ```
 
-```VB.net
+```vb
 thisXDocument.UI.Alert(thisXDocument.URI)
 ```
 
@@ -104,7 +104,7 @@ xmldoc = thisXDocument.DOM.xml;
 thisXDocument.UI.Alert(xmldoc);
 ```
 
-```VB.net
+```vb
 Dim xmldoc As String
 xmldoc = thisXDocument.DOM.xml
 ' Display xml.

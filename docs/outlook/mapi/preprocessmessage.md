@@ -107,7 +107,7 @@ The MAPI spooler owns the task of submitting messages. This means the original m
   
 ## See also
 
-#### Reference
+
 
 [IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
   

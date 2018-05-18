@@ -38,7 +38,7 @@ MAPI clients use these folders to access other folder objects and message object
   
 ## See also
 
-#### Concepts
+
 
 [Implementing Folders in Message Stores](implementing-folders-in-message-stores.md)
 

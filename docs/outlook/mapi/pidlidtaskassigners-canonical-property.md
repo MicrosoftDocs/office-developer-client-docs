@@ -36,7 +36,7 @@ Contains a stack of entries that represent task assigners. The most recent task 
 
 When the client receives a task request, it appends to this property, which structure is defined in [[MS-OXOTASK]](http://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx), an entry that represents the task's sender. When the client receives a task rejection, the client removes the last task assigner entry from this property. When the client sends a task response, the client sends it to the last task assigner listed in the value of this property.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

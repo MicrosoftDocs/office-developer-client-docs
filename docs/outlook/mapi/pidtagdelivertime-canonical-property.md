@@ -35,7 +35,7 @@ Contains the date and time when the original message was delivered.
 
 This property is a per-recipient property on a delivery report that indicates the time the original message was delivered to the messaging user for which the delivery report is being generated.
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,10 +49,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [IMAPISupport::StatusRecips](imapisupport-statusrecips.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

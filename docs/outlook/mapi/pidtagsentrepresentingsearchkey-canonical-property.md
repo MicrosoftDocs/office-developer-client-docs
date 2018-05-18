@@ -37,7 +37,7 @@ This property is one of the address properties for the messaging user who is bei
   
 The outgoing transport provider must always leave this property unchanged if it has been set by the sending client. If it is unset, the transport provider should set it to **PR_SENDER_SEARCH_KEY** ([PidTagSenderSearchKey](pidtagsendersearchkey-canonical-property.md)) on the outbound copy of the message, and leave it unset on the local copy.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -81,7 +81,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

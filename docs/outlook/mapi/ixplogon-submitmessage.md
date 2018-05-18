@@ -113,7 +113,7 @@ In case of errors that occur because of transport problems, the MAPI spooler ret
   
 ## See also
 
-#### Reference
+
 
 [IMAPIProp::SaveChanges](imapiprop-savechanges.md)
   

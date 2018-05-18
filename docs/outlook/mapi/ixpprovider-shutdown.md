@@ -48,7 +48,7 @@ The MAPI spooler calls the **IXPProvider::Shutdown** method just prior to releas
   
 ## See also
 
-#### Reference
+
 
 [XPProviderInit](xpproviderinit.md)
   

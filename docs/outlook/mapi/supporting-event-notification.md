@@ -42,7 +42,7 @@ Service providers that send batched notifications must order them so that they c
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Service Providers](mapi-service-providers.md)
 

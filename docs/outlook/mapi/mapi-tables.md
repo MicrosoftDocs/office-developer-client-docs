@@ -50,7 +50,7 @@ There are two interfaces for working with tables:
     
 ## See also
 
-#### Other resources
+
 
 [MAPI Concepts](mapi-concepts.md)
 

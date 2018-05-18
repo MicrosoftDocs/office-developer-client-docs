@@ -37,7 +37,7 @@ If present, this property must be set to 0 or 1. A value of 1 indicates that the
   
 If this property is present with a value of 1, the SMTP addresses of the e-mail recipients must be added to trusted senders clause of the Junk E-Mail Rule condition. If this property is 0, no action is required.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -61,7 +61,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

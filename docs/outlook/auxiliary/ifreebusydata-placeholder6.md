@@ -16,7 +16,7 @@ description: "This member is a placeholder and is not supported."
 
 This member is a placeholder and is not supported.
   
-## Quick Info
+## Quick info
 
 See [IFreeBusyData](ifreebusydata.md).
   
@@ -41,7 +41,7 @@ This member must return E_NOTIMPL.
   
 ## See also
 
-#### Concepts
+
 
 [Constants (Free/busy API)](constants-free-busy-api.md)
   

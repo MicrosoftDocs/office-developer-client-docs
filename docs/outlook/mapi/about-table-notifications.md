@@ -36,7 +36,7 @@ Clients should be aware that not all tables support the TABLE_SORT_DONE notifica
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Tables](mapi-tables.md)
 

@@ -36,7 +36,7 @@ Contains an [RFC3282] Content-Base header field value.
 
 To set the value of this property, Multipurpose Internet Message Extensions (MIME) clients must write the desired value to a Content-Base header field on a MIME entity that maps to a message body. MIME readers must copy the value of a Content-Base header field on such a MIME entity to the value of this property.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

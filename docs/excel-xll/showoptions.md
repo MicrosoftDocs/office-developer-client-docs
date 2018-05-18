@@ -38,7 +38,7 @@ Cluster connectors can use this dialog box to get information, such as what clus
   
 ## See also
 
-#### Concepts
+
 
 [Excel Cluster Connector Functions](excel-cluster-connector-functions.md)
 

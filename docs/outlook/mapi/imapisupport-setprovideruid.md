@@ -53,13 +53,13 @@ The **IMAPISupport::SetProviderUID** method is implemented for address book and 
   
 MAPI uses the **MAPIUID** structure when it sends outbound messages to the MAPI spooler and to determine the appropriate provider for handling client requests. For example, when a client calls the [IMAPISession::OpenEntry](imapisession-openentry.md) method, MAPI examines the **MAPIUID** portion of the entry identifier, maps it to the provider that passed it to **SetProviderUID**, and calls that provider's **OpenEntry**. 
   
-## Notes to Callers
+## Notes to callers
 
 Call **SetProviderUID** at logon time to register your **MAPIUID** structure. MAPI allows address book and message store providers to register multiple identifiers. When you make multiple calls to **SetProviderUID**, it always adds the **MAPIUID** structure to the provider's set of **MAPIUID** structures, even if the **MAPIUID** is a duplicate. **SetProviderUID** cannot remove a **MAPIUID**. 
   
 ## See also
 
-#### Reference
+
 
 [MAPIUID](mapiuid.md)
   

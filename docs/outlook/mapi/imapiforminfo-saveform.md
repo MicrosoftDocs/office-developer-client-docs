@@ -54,7 +54,7 @@ MAPI_E_NO_SUPPORT
 
 Client applications call the **IMAPIFormInfo::SaveForm** method to save a description of the current form in the file that has the given file name. **SaveForm** creates a configuration file. 
   
-## Notes to Callers
+## Notes to callers
 
 You can reinstall forms by selecting them from a list of form descriptor messages in a dialog box that form library providers display. The recommended extension for form descriptor messages is .fdm.
   
@@ -62,7 +62,7 @@ Call the [IMAPIProp::GetLastError](imapiprop-getlasterror.md) method if **SaveFo
   
 ## See also
 
-#### Reference
+
 
 [IMAPIProp::GetLastError](imapiprop-getlasterror.md)
   

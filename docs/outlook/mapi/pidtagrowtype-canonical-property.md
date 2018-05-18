@@ -53,7 +53,7 @@ TBL_COLLAPSED_CATEGORY
   
 > The category is collapsed; the user interface usually displays this with the plus sign (+) next to it.
     
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -73,10 +73,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagRowid Canonical Property](pidtagrowid-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

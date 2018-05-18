@@ -101,7 +101,7 @@ This property, if it exists, is a hint to the client. The client may ignore the 
 |Journal meeting cancellation  <br/> |0x00000614  <br/> |
 |Journal remote session  <br/> |0x00000615  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -133,7 +133,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

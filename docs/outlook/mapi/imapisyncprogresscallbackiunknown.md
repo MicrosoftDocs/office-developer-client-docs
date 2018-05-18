@@ -32,7 +32,7 @@ Passes the store provider as a field on the MAPISIB structure during a call to [
 |Called by:  <br/> |Store providers  <br/> |
 |Interface identifier:  <br/> |IID_IMAPISyncProgressCallback  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -42,10 +42,10 @@ Passes the store provider as a field on the MAPISIB structure during a call to [
    
 ## See also
 
-#### Reference
+
 
 [IMAPISync : IUnknown](imapisynciunknown.md)
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
 

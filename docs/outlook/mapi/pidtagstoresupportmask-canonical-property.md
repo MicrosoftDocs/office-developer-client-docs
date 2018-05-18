@@ -131,7 +131,7 @@ STORE_UNICODE_OK
     
 An RTF version of a message can always be stored, even if the message store is non-RTF-aware. If the STORE_RTF_OK bit is not set for a particular store, a client maintaining RTF versions must itself call the [RTFSync](rtfsync.md) function to keep the **PR_BODY** and **PR_RTF_COMPRESSED** versions synchronized for text content. RTF is always stored in **PR_RTF_COMPRESSED**, whether it is actually compressed or not. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -155,7 +155,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

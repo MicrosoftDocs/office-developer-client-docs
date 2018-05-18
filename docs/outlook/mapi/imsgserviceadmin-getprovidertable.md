@@ -59,7 +59,7 @@ If the profile has no providers, **GetProviderTable** returns a table with zero 
   
 For a complete list of the columns in the provider table, see [Provider Table](provider-tables.md). 
   
-## Notes to Callers
+## Notes to callers
 
 To retrieve the rows of a provider table in transport order, use the following procedure:
   
@@ -83,7 +83,7 @@ Setting the MAPI_UNICODE flag in the  _ulFlags_ parameter does the following:
     
 ## See also
 
-#### Reference
+
 
 [IMsgServiceAdmin::GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md)
   

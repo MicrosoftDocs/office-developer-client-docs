@@ -16,7 +16,7 @@ description: "This member is a placeholder and is not supported."
 
 This member is a placeholder and is not supported.
   
-## Quick Info
+## Quick info
 
 See [IFreeBusySupport](ifreebusysupport.md).
   
@@ -38,7 +38,7 @@ This member must return S_OK.
   
 ## See also
 
-#### Concepts
+
 
 [Constants (Free/busy API)](constants-free-busy-api.md)
   

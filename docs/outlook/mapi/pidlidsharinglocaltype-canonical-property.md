@@ -46,7 +46,7 @@ The value of this property must be one of the following:
     
 - "IPF.Journal"
     
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -66,7 +66,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

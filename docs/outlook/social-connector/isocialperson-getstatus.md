@@ -22,7 +22,7 @@ HRESULT _stdcall GetStatus([out, retval] BSTR* status);
 
 ## See also
 
-#### Reference
+
 
 [ISocialPerson : IUnknown](isocialpersoniunknown.md)
 

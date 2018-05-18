@@ -36,7 +36,7 @@ How one implements links to messages may depend on aspects of the local messagin
   
 ## See also
 
-#### Concepts
+
 
 [Message Store Features](message-store-features.md)
 

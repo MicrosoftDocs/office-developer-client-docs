@@ -88,7 +88,7 @@ If another process has the store to be logged off open for the same profile, MAP
   
 The behavior of the store provider following the return from **StoreLogoffTransports** should be based on the value of  _lpulFlags_, which indicates system status and conveys client instructions for logoff behavior. 
   
-## Notes to Callers
+## Notes to callers
 
  **StoreLogoffTransports** is typically called from a store provider's [IMsgStore::StoreLogoff](imsgstore-storelogoff.md) method. However, it can also be called from the **IUnknown::Release** method of the message store. Implement the **Release** method of your message store so you can check whether or not a call to **StoreLogoffTransports** has occurred. If a call has not occurred, call **StoreLogoffTransports** with the LOGOFF_ABORT flag set. 
   
@@ -98,7 +98,7 @@ For more information about the message store logoff process, see [Shutting Down 
   
 ## See also
 
-#### Reference
+
 
 [IMsgStore::StoreLogoff](imsgstore-storelogoff.md)
   

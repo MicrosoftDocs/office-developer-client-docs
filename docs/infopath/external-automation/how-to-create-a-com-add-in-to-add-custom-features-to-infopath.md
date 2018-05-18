@@ -159,7 +159,7 @@ Application events that occur in the InfoPath form editing environment can be ca
    
 To capture these events in the COM Add-in, you must declare the following class-level variables in your **Connect** class: 
   
-```VB.net
+```vb
 InfoPathApplication = DirectCast( _
    application, Microsoft.Office.Interop.InfoPath._Application3)
 InfoPathApplicationEvents = DirectCast( _
@@ -179,7 +179,7 @@ The first line casts the generic application **Object** received by the add-in t
   
 To create event handlers, select **InfoPathApplicationEvents** from the **Class Name** drop-down box at the top of the Visual Studio window, and then select the event you want to handle in the **Method Name** drop-down box at the top of the Visual Studio window. For example, if you need to control when a form is saved, you handle the **XDocumentBeforeSave** event. Selecting **XDocumentBeforeSave** from the **Method Name** drop-down automatically inserts the following procedure: 
   
-```VB.net
+```vb
 Private Sub InfoPathApplicationEvents_XDocumentBeforeSave( _
    ByVal pDocument As Microsoft.Office.Interop.InfoPath._XDocument, _
    ByRef pfCancel As Boolean) _
@@ -199,7 +199,7 @@ Any of the events of the **ApplicationEvents** object can be handled by the COM 
   
 ## See also
 
-#### Other resources
+
 
 [Creating a Microsoft Office 2000 COM Add-in](http://go.microsoft.com/fwlink/?LinkID=73468)
   

@@ -58,10 +58,10 @@ For more information about property tags, see [MAPI Property Tags](mapi-property
   
 ## See also
 
-#### Reference
+
 
 [SPropValue](spropvalue.md)
-#### Concepts
+
 
 [Macros Related to Structures](macros-related-to-structures.md)
 

@@ -70,13 +70,13 @@ Not all status objects support the **IMAPIStatus::ChangePassword** method. It is
   
  **ChangePassword** modifies a password programmatically, without user interaction. 
   
-## Notes to Implementers
+## Notes to implementers
 
 Remote transport providers implement **ChangePassword** as specified here. There are no special considerations. 
   
 ## See also
 
-#### Reference
+
 
 [PidTagResourceMethods Canonical Property](pidtagresourcemethods-canonical-property.md)
   

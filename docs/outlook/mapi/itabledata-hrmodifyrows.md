@@ -63,7 +63,7 @@ After **HrModifyRows** has added the rows, notifications are sent to all clients
   
 ## See also
 
-#### Reference
+
 
 [SRowSet](srowset.md)
   

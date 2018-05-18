@@ -106,7 +106,7 @@ S_OK
 
 The **IMAPISupport::Subscribe** method is implemented for all service provider support objects. Service providers call **Subscribe** from one of their **Advise** methods to allow MAPI to manage the notifications. 
   
-## Notes to Callers
+## Notes to callers
 
 To use the MAPI support methods for notification, create a key for the advise source the object about which notifications should be generated. The value of the key must be unique and should be easily regenerated each time the object changes. 
   
@@ -116,7 +116,7 @@ The NOTIFY_SYNC flag affects the operation of subsequent calls to **Notify**. Wh
   
 ## See also
 
-#### Reference
+
 
 [HrAllocAdviseSink](hrallocadvisesink.md)
   

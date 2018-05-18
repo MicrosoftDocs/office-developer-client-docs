@@ -38,7 +38,7 @@ The Inbox typically holds incoming messages, and the Outbox holds outgoing messa
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Folders](mapi-folders.md)
 

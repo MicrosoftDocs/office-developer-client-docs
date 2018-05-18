@@ -31,7 +31,7 @@ Displays the name of the owner of the mailbox.
 |Data type:  <br/> |PT_UNICODE, PT_UNICODE  <br/> |
 |Area:  <br/> |Message Store  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -55,7 +55,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

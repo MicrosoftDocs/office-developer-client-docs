@@ -43,7 +43,7 @@ HRESULT IAttachmentSecurity::IsAttachmentBlocked(
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Constants](mapi-constants.md)
   

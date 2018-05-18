@@ -36,7 +36,7 @@ Designates as a property of a sharing message.
 
 The value of this property must be a zero-length string. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

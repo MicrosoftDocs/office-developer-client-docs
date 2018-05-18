@@ -29,7 +29,7 @@ Provides synchronization methods. This interface retrieves the necessary informa
 |Provided by:  <br/> |[IPSTX::GetSyncObject](iostx-setsyncresult.md) <br/> |
 |Interface identifier:  <br/> |IID_IOSTX  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -64,7 +64,7 @@ In particular, when downloading message items, the client uses **IOSTX::SyncHdrB
     
 ## See also
 
-#### Concepts
+
 
 [About the Replication API](about-the-replication-api.md)
   

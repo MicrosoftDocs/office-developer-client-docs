@@ -24,7 +24,7 @@ Most message store providers that support named properties use a single mapping 
   
 ## See also
 
-#### Concepts
+
 
 [Implementing Messages in Message Stores](implementing-messages-in-message-stores.md)
 

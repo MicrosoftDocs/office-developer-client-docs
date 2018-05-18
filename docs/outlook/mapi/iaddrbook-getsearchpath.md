@@ -69,7 +69,7 @@ After the first call to **SetSearchPath**, subsequent calls to **SetSearchPath**
   
 ## See also
 
-#### Reference
+
 
 [IAddrBook::SetSearchPath](iaddrbook-setsearchpath.md)
   

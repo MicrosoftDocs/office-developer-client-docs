@@ -28,7 +28,7 @@ Outlook Social Connector (OSC) providers can set the **getActivities** and **dyn
     
 ## See also
 
-#### Concepts
+
 
 [XML for Activities](xml-for-activities.md)
   

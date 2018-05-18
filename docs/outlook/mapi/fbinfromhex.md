@@ -59,7 +59,7 @@ FALSE
     
 ## See also
 
-#### Reference
+
 
 [ScBinFromHexBounded](scbinfromhexbounded.md)
 

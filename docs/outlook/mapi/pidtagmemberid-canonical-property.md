@@ -35,7 +35,7 @@ Contains the identifier of a table member that has the described rights on a Mic
 
 This property returns an identifier unique to the table. A directory user identifier is associated with each member identifier and is given by this property. This property is used by the [IExchangeModifyTable](iexchangemodifytableiunknown.md) interface to retrieve the directory entry identifier of a member with explicit rights on a folder. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -59,10 +59,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagMemberEntryId Canonical Property](pidtagmemberentryid-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

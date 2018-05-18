@@ -32,7 +32,7 @@ Specifies a value of TRUE if the item will not be automatically archived.
 |Data type:  <br/> |PT_BOOLEAN  <br/> |
 |Area:  <br/> |Common  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -60,7 +60,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

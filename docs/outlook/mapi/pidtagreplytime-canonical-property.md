@@ -31,7 +31,7 @@ Contains the deadline on a message.
 |Data type:  <br/> |PT_SYSTIME  <br/> |
 |Area:  <br/> |MAPI envelope  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -98,7 +98,7 @@ If  _lpszOldPassword_ is set to NULL, the profile to be copied requires a passwo
   
 ## See also
 
-#### Reference
+
 
 [IProfAdmin : IUnknown](iprofadminiunknown.md)
 

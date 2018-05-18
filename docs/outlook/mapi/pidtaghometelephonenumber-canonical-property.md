@@ -35,7 +35,7 @@ Contains the primary telephone number of the recipient's home.
 
 These properties provide identification and access for a recipient. They are defined by the recipient and their organization. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -63,7 +63,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

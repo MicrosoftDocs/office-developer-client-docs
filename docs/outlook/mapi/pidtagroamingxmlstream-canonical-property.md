@@ -35,7 +35,7 @@ Contains an arbitrary XML stream.
 
 This property contains an arbitrary stream of XML data. Other properties in the message may imply specific schemas to use in this property.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

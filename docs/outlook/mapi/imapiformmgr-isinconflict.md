@@ -66,13 +66,13 @@ Form viewers call the **IMAPIFormMgr::IsInConflict** method to discover whether 
   
 A form that does not handle its own conflicts must be opened by using the [IMAPIFormMgr::LoadForm](imapiformmgr-loadform.md) method and cannot reuse an existing form object. 
   
-## Notes to Callers
+## Notes to callers
 
 Client applications typically have to deal with conflicts when the applications move from one message to the next or previous message in a folder. If a message is in conflict, but the form server for that message can handle conflicts, the client application should execute its usual code for displaying the next or previous message. If the form server cannot handle conflicts, the client application should continue as if it was unaware of the message class of the next or previous message. 
   
 ## See also
 
-#### Reference
+
 
 [IMAPIFormAdviseSink::OnActivateNext](imapiformadvisesink-onactivatenext.md)
   

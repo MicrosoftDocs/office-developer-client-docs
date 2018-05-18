@@ -38,7 +38,7 @@ This property is TRUE if the attachments of the message are considered as hidden
   
 It indicates whether the message object has no end-user visible attachments. This property may be unset; if so, a default value of FALSE is assumed.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -58,7 +58,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

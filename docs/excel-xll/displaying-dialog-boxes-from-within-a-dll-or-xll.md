@@ -26,7 +26,7 @@ You can also display dialog boxes using the C API without having to use Windows 
   
 ## See also
 
-#### Concepts
+
 
 [Creating XLLs](creating-xlls.md)
   

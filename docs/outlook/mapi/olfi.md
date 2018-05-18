@@ -20,7 +20,7 @@ description: "Last modified: July 23, 2011"
   
 Queue of long-term ID structures used by the Personal Folders file (PST) store provider to assign an Entry ID for a new message or folder in offline mode.
   
-## Quick Info
+## Quick info
 
 ```cpp
 typedef struct { 
@@ -80,7 +80,7 @@ A provider that wraps the PST store provider should periodically check  *ltidNex
   
 ## See also
 
-#### Concepts
+
 
 [About the Replication API](about-the-replication-api.md)
   

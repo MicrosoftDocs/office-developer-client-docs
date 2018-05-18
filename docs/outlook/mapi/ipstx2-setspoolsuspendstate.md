@@ -46,7 +46,7 @@ void SetSpoolSuspendState(
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Constants](mapi-constants.md)
 

@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 This structure provides information about a stream in native format returned from decompressing the body of a message that is encapsulated in compressed Rich Text Format (RTF).
   
-## Quick Info
+## Quick info
 
 ```cpp
 typedef struct { 
@@ -47,7 +47,7 @@ typedef struct {
    
 ## See also
 
-#### Concepts
+
 
 [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md)
 

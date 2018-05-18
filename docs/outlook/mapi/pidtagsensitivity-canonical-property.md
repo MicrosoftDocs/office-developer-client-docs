@@ -53,7 +53,7 @@ SENSITIVITY_COMPANY_CONFIDENTIAL
   
 > The message is designated company confidential.
     
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -77,7 +77,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

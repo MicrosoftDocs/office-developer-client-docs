@@ -16,7 +16,7 @@ description: "Opens a MAPI session and maintains a reference to the session for 
 
 Opens a MAPI session and maintains a reference to the session for the account manager.
   
-## Quick Info
+## Quick info
 
 See [IOlkAccountHelper](iolkaccounthelper.md).
   
@@ -42,10 +42,10 @@ Because of circular reference problems, the account manager itself cannot mainta
   
 ## See also
 
-#### Concepts
+
 
 [IOlkAccountHelper::HandsOffSession](iolkaccounthelper-handsoffsession.md)
-#### Other resources
+
 
 [IMAPISession : IUnknown](http://msdn.microsoft.com/library/5650fa2a-6e62-451c-964e-363f7bee2344%28Office.15%29.aspx)
 

@@ -55,7 +55,7 @@ A message service entry point function is based on the [MSGSERVICEENTRY](msgserv
   
 ## See also
 
-#### Reference
+
 
 [IMsgServiceAdmin : IUnknown](imsgserviceadminiunknown.md)
   

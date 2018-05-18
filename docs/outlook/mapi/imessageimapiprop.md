@@ -34,7 +34,7 @@ Manages messages, attachments, and recipients.
 |Pointer type:  <br/> |LPMESSAGE  <br/> |
 |Transaction model:  <br/> |Transacted  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|

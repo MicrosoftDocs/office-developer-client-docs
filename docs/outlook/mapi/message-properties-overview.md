@@ -48,7 +48,7 @@ Most message properties that service providers set are read-only to clients.
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Messages](mapi-messages.md)
 

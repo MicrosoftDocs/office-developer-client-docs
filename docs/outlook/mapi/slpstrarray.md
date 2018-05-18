@@ -53,10 +53,10 @@ For more information about PT_MV_STRING8, see [List of Property Types](property-
   
 ## See also
 
-#### Reference
+
 
 [SPropValue](spropvalue.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

@@ -29,7 +29,7 @@ Determines whether to remember the password in the profile.
 |Data type:  <br/> |PT_BOOLEAN  <br/> |
 |Area:  <br/> |Personal storage table (.pst) internal  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

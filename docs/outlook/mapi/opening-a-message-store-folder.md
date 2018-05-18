@@ -58,7 +58,7 @@ Before you try to retrieve one of these special entry identifiers, retrieve the 
     
 ## See also
 
-#### Reference
+
 
 [PidTagEntryId Canonical Property](pidtagentryid-canonical-property.md)
   

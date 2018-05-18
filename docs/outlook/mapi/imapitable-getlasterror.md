@@ -64,7 +64,7 @@ MAPI_E_BAD_CHARWIDTH
 
 The **IMAPITable::GetLastError** method returns detailed information, if available, about a prior method call that failed. This information can be displayed in a message or a dialog box. 
   
-## Notes to Callers
+## Notes to callers
 
 Call **GetLastError** whenever you need to display information about an error to the user. 
   
@@ -76,7 +76,7 @@ For more information about the **GetLastError** method, see [MAPI Extended Error
   
 ## See also
 
-#### Reference
+
 
 [MAPIERROR](mapierror.md)
   

@@ -46,7 +46,7 @@ This property is not required. The following are the individual flags that can b
 |G (recipOriginal, 0x00000100)  <br/> |Indicates the recipient is an original attendee. This flag is only used in the **dispidApptUnsendableRecips** property.  <br/> |
 |X (reserved, 0x00000200)  <br/> |Reserved.  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -70,7 +70,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

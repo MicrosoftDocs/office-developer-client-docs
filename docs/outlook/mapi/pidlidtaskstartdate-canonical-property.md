@@ -38,7 +38,7 @@ If this property value is left unset, the task does not have a start date. A val
   
 This property is shared by the Informational Flagging Protocol Specification and Task-Related Object Protocol Specification located in [[MS-OXOTASK]](http://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx).
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -58,12 +58,12 @@ Mapidefs.h
     
 ## See also
 
-#### Reference
+
 
 [PidLidTaskDueDate Canonical Property](pidlidtaskduedate-canonical-property.md)
   
 [PidLidCommonStart Canonical Property](pidlidcommonstart-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

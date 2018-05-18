@@ -42,7 +42,7 @@ Many of the optional features can be advertised to MAPI and client applications 
   
 ## See also
 
-#### Concepts
+
 
 [Developing a MAPI Message Store Provider](developing-a-mapi-message-store-provider.md)
 

@@ -42,7 +42,7 @@ It is the responsibility of the message store provider to implement the correct 
   
 ## See also
 
-#### Concepts
+
 
 [Implementing Messages in Message Stores](implementing-messages-in-message-stores.md)
 

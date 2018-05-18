@@ -16,7 +16,7 @@ description: "Gets an interface that enumerates free/busy blocks of data for a u
 
 Gets an interface that enumerates free/busy blocks of data for a user within a specified time range.
   
-## Quick Info
+## Quick info
 
 See [IFreeBusyData](ifreebusydata.md).
   
@@ -55,7 +55,7 @@ A free/busy provider can also subsequently use the returned [IEnumFBBlock](ienum
   
 ## See also
 
-#### Concepts
+
 
 [IEnumFBBlock](ienumfbblock.md)
   

@@ -35,7 +35,7 @@ This section includes some "how-to" articles that show how to use the JavaScript
   
 ## See also
 
-#### Other resources
+
 
 [Client-side object model (CSOM) for Project 2013](client-side-object-model-csom-for-project-2013.md)
 

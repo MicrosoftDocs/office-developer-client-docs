@@ -54,7 +54,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [Outlook Items and Fields](outlook-items-and-fields.md)
   

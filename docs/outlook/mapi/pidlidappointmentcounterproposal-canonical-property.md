@@ -32,7 +32,7 @@ Indicates that this meeting response is a counter proposal.
 |Data type:  <br/> |PT_BOOLEAN  <br/> |
 |Area:  <br/> |Meetings  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -52,7 +52,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

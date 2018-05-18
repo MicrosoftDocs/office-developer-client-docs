@@ -72,7 +72,7 @@ Canonical names are referenced in Microsoft Exchange Server protocol specificati
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Property Tags](mapi-property-tags.md)
   

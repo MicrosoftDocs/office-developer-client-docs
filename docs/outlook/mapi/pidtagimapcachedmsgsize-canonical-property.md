@@ -31,7 +31,7 @@ Contains the size of the cached Internet Message Access Protocol message.
 |Data type:  <br/> |PT_BINARY  <br/> |
 |Area:  <br/> |Rename message folder  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -55,7 +55,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

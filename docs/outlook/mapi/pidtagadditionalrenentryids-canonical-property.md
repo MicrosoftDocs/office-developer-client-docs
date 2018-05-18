@@ -45,7 +45,7 @@ The first five entries of this multi-valued property apply to following special 
   
 4 - junk e-mail folder
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -77,14 +77,14 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Canonical Properties](mapi-canonical-properties.md)
   
 [Mapping Canonical Property Names to MAPI Names](mapping-canonical-property-names-to-mapi-names.md)
   
 [Mapping MAPI Names to Canonical Property Names](mapping-mapi-names-to-canonical-property-names.md)
-#### Other resources
+
 
 [About the Store API](http://msdn.microsoft.com/en-us/library/aa192884.aspx)
 

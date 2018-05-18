@@ -34,7 +34,7 @@ Sometimes a client makes a call to **GetNamesFromIDs** that results in no proper
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Named Properties](mapi-named-properties.md)
 

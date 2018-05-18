@@ -107,7 +107,7 @@ A client should also test an incoming message for the MSGFLAG_ORIGIN_X400, MSGFL
   
 Message store providers set the MSGFLAG_UNMODIFIED flag for incoming messages. MSGFLAG_UNMODIFIED indicates that a message has not been changed since delivery. A client cannot clear this value after it has been set by a message store provider. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -131,10 +131,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [IMsgStore::AbortSubmit](imsgstore-abortsubmit.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

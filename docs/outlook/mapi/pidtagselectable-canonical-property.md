@@ -45,7 +45,7 @@ FAX templates (depth 0, not selectable)
   
  Long-distance (depth 1, selectable) 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -69,12 +69,12 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [IABLogon::GetOneOffTable](iablogon-getoneofftable.md)
   
 [PidTagFolderType Canonical Property](pidtagfoldertype-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -60,7 +60,7 @@ Message classes control which receive folder an incoming message is stored in. F
   
 For more information on using message classes with forms and form servers, see [Choosing a Message Class](choosing-a-message-class.md). 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -92,7 +92,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

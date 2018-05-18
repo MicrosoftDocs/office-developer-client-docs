@@ -58,7 +58,7 @@ The **IMAPISupport::GetMemAllocRoutines** method is implemented for all support 
   
 ## See also
 
-#### Reference
+
 
 [MAPIAllocateBuffer](mapiallocatebuffer.md)
   

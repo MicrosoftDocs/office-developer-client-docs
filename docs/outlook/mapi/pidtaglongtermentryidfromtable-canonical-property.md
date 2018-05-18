@@ -35,7 +35,7 @@ Obtains the long- term entry identifier of an item.
 
 This property can be used in a contents table to get the entry identifier of an item as a long-term entry identifier instead of a short-term entry identifier. For information about long-term and short-term identifiers, see **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,10 +49,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagEntryId Canonical Property](pidtagentryid-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

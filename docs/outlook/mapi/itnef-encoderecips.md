@@ -59,7 +59,7 @@ Note that it is rarely necessary to call **EncodeRecips** unless there is a requ
   
 ## See also
 
-#### Reference
+
 
 [IMessage::GetRecipientTable](imessage-getrecipienttable.md)
   

@@ -35,7 +35,7 @@ Contains reasons why a message was not received that forms part of a non-deliver
 
 Reasons can include, for example, that the message was discarded.
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -36,10 +36,10 @@ S_OK
     
 ## See also
 
-#### Reference
+
 
 [IMAPIProviderShutdown : IUnknown](imapiprovidershutdowniunknown.md)
-#### Concepts
+
 
 [Client Shutdown in MAPI](client-shutdown-in-mapi.md)
 

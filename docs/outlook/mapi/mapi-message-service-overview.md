@@ -36,7 +36,7 @@ To handle configuration, a message service implements an entry point function th
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Features and Architecture](mapi-features-and-architecture.md)
 

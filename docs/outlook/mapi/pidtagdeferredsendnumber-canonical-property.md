@@ -37,7 +37,7 @@ This property is used for computing the **PR_DEFERRED_SEND_TIME** ([PidTagDeferr
   
 The **PR_DEFERRED_SEND_NUMBER** value must be set between 0 and 999. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -57,7 +57,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

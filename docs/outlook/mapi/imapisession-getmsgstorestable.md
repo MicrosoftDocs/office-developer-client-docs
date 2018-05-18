@@ -61,7 +61,7 @@ The **IMAPISession::GetMsgStoresTable** method retrieves a pointer to the messag
   
 For a complete list of required and optional columns in the message store table, see [Message Store Tables](message-store-tables.md). 
   
-## Notes to Callers
+## Notes to callers
 
 Because MAPI updates the message store table during the session whenever changes occur, call the **Advise** method of the message store table to register to be notified of these changes. Possible changes include the addition of new message stores, removal of existing stores, and changes to the default store. 
   
@@ -77,7 +77,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md)
   
@@ -94,7 +94,7 @@ For MFCMAPI sample code, see the following table.
 [IMAPITable::SortTable](imapitable-sorttable.md)
   
 [IMAPISession : IUnknown](imapisessioniunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
   

@@ -40,7 +40,7 @@ The Profile Wizard is an application that creates new profiles with a minimum am
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Features and Architecture](mapi-features-and-architecture.md)
 

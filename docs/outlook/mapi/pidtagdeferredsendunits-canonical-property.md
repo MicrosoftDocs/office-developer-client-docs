@@ -43,7 +43,7 @@ If set, this property must have one of the following values:
 |2  <br/> |Day, for example 24x60x60 seconds  <br/> |
 |3  <br/> |Week, for example 7x24x60x60 seconds  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -63,7 +63,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

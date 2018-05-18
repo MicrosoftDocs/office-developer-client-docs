@@ -39,7 +39,7 @@ To retrieve table contents, a client application should call the [IMessage::GetA
   
 This property can be used for subobject restriction by specifying it in the [SSubRestriction](ssubrestriction.md) structure. This allows the client to limit the view of a container to messages with attachments meeting given criteria. A message qualifies for viewing if at least one row in its attachments table, that is, one attachment, satisfies the subobject restriction. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -67,7 +67,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

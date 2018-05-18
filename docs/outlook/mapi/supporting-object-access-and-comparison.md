@@ -34,7 +34,7 @@ If you have opened several objects from other providers, you may need to find ou
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Service Providers](mapi-service-providers.md)
 

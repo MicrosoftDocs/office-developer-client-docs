@@ -37,7 +37,7 @@ If the **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.m
   
 These properties are copied from the Content-type parameter of the inbound MIME header. The composition of the string is defined in the RFC 1521 document. The format is type/subtype, such as application/binary or text/plain. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -61,7 +61,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

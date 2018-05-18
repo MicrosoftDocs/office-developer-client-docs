@@ -37,7 +37,7 @@ Using a dialog box in the control panel applet, a user can obtain the list of fi
   
 MAPI works only with filenames, and other strings passed to it, in the Active Directory Service Interfaces (ANSI) character set. Client applications that use filenames in an original equipment manufacturer (OEM) character set must convert them to ANSI before calling MAPI.
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -51,7 +51,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

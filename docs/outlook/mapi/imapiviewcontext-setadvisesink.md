@@ -46,7 +46,7 @@ S_OK
 
 Form objects call the **IMAPIViewContext::SetAdviseSink** method to either register to learn about changes in the form viewer or cancel a prior registration. When  _pmvns_ is set to NULL, the form wants to cancel a registration. When  _pmvns_ points to a valid form advise sink, the form wants to register for future notifications. 
   
-## Notes to Implementers
+## Notes to implementers
 
 When **SetAdviseSink** includes a form advise sink pointer, keep a reference to it until another **SetAdviseSink** call is made to cancel notification. Send a notification when a change occurs in your viewer and when you are loading a new message. 
   
@@ -62,7 +62,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

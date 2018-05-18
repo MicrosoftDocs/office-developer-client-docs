@@ -46,7 +46,7 @@ MAPI_E_UNABLE_TO_ABORT
 
 The **IMAPITable::Abort** method stops any asynchronous operation that is currently in progress. 
   
-## Notes to Callers
+## Notes to callers
 
 To find out if an asynchronous operation is in progress, call the [IMAPITable::GetStatus](imapitable-getstatus.md) method. 
   
@@ -56,7 +56,7 @@ If **Abort** halts the processing of a call to the [IMAPITable::SortTable](imapi
   
 ## See also
 
-#### Reference
+
 
 [IMAPITable::GetStatus](imapitable-getstatus.md)
   

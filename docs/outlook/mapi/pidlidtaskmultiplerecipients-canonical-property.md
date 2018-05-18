@@ -42,7 +42,7 @@ If set, this property must be set to a bitwise **OR** operation of zero or more 
 |Received  <br/> |0x00000002  <br/> |Although the Sent hint was not present, the client detected that the task has multiple primary recipients.  <br/> |
 |Reserved  <br/> |0x00000004  <br/> |This value is reserved.  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -62,7 +62,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

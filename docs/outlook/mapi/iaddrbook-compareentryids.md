@@ -81,7 +81,7 @@ If the two entry identifiers refer to the same object, **CompareEntryIDs** sets 
   
 ## See also
 
-#### Reference
+
 
 [IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 

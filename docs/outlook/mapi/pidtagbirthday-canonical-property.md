@@ -35,7 +35,7 @@ Contains the birthday of the contact.
 
 This property is one of the properties that provides identification and access information about a contact. These properties are defined by the user and the user's organization. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -63,7 +63,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

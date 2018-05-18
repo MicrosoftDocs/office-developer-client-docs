@@ -87,7 +87,7 @@ For more information on OLE interfaces and formats, see the  *OLE Programmer's R
 
 When the **PR_ATTACH_METHOD** is **ATTACH_BY_WEBREFERENCE**, the attachment content is not in the message. Instead, the **PR_ATTACH_LONG_FILENAME** property contains an absolute URL to the attachment content, which is stored online. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -107,10 +107,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagStoreSupportMask Canonical Property](pidtagstoresupportmask-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

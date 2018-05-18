@@ -32,7 +32,7 @@ Specifies the EntryID of the contact's business fax address.
 |Data type:  <br/> |PT_BINARY  <br/> |
 |Area:  <br/> |Contact  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -52,7 +52,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

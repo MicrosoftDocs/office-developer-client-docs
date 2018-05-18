@@ -69,7 +69,7 @@ For a list of the required columns in an address book provider's one-off table, 
   
 ## See also
 
-#### Reference
+
 
 [IABContainer::CreateEntry](iabcontainer-createentry.md)
   

@@ -47,7 +47,7 @@ This value is not copied as part of the display table.
   
  **PR_INSTANCE_KEY** is a [MAPIUID](mapiuid.md) structure. All instance keys can be directly compared as binary values. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -71,7 +71,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

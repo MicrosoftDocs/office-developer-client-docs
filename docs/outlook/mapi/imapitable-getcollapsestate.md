@@ -82,17 +82,17 @@ The **IMAPITable::GetCollapseState** method works with the [IMAPITable::SetColla
     
 For more information about categorized tables, see [Sorting and Categorization](sorting-and-categorization.md).
   
-## Notes to Implementers
+## Notes to implementers
 
 Store the current state of all nodes of a table in the  _lppbCollapseState_ parameter. 
   
-## Notes to Callers
+## Notes to callers
 
 Always call **GetCollapseState** before you call **SetCollapseState**. 
   
 ## See also
 
-#### Reference
+
 
 [IMAPITable::SetCollapseState](imapitable-setcollapsestate.md)
   

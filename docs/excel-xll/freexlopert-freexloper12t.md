@@ -81,7 +81,7 @@ void FreeXLOper12T(LPXLOPER12 pxloper12)
 
 ## See also
 
-#### Concepts
+
 
 [Functions in the Framework Library](functions-in-the-framework-library.md)
 

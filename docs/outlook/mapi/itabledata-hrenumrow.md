@@ -59,7 +59,7 @@ To retrieve rows from a table in the order that they were inserted, table data o
   
 ## See also
 
-#### Reference
+
 
 [MAPIAllocateBuffer](mapiallocatebuffer.md)
   

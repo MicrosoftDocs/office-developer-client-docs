@@ -30,7 +30,7 @@ The following properties make up the required column set in receive folder table
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Tables](mapi-tables.md)
 

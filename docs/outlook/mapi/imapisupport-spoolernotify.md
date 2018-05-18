@@ -117,7 +117,7 @@ For more information about calling **SpoolerNotify**, see any of the following t
     
 ## See also
 
-#### Reference
+
 
 [IMsgStore::NotifyNewMail](imsgstore-notifynewmail.md)
   

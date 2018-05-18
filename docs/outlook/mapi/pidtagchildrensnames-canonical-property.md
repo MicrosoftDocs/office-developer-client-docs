@@ -35,7 +35,7 @@ Contains a list of names of children
 
 These properties are defined by the user or the user's organization.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -59,7 +59,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

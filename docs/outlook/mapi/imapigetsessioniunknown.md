@@ -30,7 +30,7 @@ Provides access to the current MAPI session associated with the support object. 
 |Called by:  <br/> |MAPI Providers  <br/> |
 |Interface identifier:  <br/> |IID_IMAPIGetSession  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -38,12 +38,12 @@ Provides access to the current MAPI session associated with the support object. 
    
 ## See also
 
-#### Reference
+
 
 [GetMAPISession](imapigetsession-getmapisession.md)
   
 [IMAPISupport](imapisupportiunknown.md)
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
   

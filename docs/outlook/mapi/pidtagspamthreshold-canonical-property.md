@@ -38,7 +38,7 @@ The values for spam filtering are as follows:
 |Medium  <br/> |0x00000005  <br/> |
 |High  <br/> |0x00000003  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -62,7 +62,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

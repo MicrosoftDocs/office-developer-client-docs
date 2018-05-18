@@ -29,7 +29,7 @@ Indicates e-mail addresses of the report recipients for messages that request re
 |Data type:  <br/> |PT_MV_STRING8, PT_UNICODE  <br/> |
 |Area:  <br/> |MAPI envelope  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

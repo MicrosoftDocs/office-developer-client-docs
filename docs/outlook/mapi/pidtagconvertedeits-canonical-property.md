@@ -35,7 +35,7 @@ Contains an identifier for the types of text in a message after conversion.
 
 This property indicates which encoded information types (EITs) were used to convert the text components of the message.
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

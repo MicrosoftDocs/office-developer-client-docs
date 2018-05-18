@@ -32,7 +32,7 @@ Contains the contents of the \<title\> field from the XML of the Atom \<feed\> o
 |Data type:  <br/> |PT_UNICODE  <br/> |
 |Area:  <br/> |RSS  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -52,7 +52,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

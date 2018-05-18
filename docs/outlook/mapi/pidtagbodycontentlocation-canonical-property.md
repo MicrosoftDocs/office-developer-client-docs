@@ -37,7 +37,7 @@ To set the value of these properties, MIME clients should write the desired valu
   
 MIME readers should copy the value of a Content-Location header field on such a MIME entity to the value of these properties.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -61,7 +61,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

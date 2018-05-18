@@ -27,7 +27,7 @@ Issuing these reports is a matter of creating an [IMessage : IMAPIProp](imessage
   
 ## See also
 
-#### Concepts
+
 
 [Message Store Features](message-store-features.md)
 

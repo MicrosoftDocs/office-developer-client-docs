@@ -36,7 +36,7 @@ Entry identifiers come in two types: short-term and long-term. Short-term entry 
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Application Development](mapi-application-development.md)
 

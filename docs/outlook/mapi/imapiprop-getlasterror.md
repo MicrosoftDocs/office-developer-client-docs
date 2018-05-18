@@ -66,11 +66,11 @@ The **IMAPIProp::GetLastError** method supplies information about a prior method
   
 All of the implementations of **GetLastError** provided by MAPI are ANSI implementations, except for the [IAddrBook](iaddrbookimapiprop.md) implementation. The **GetLastError** method included with **IAddrBook** supports Unicode. 
   
-## Notes to Implementers
+## Notes to implementers
 
 The details of a remote transport provider's implementation of this method and what messages this method returns are up to the transport provider, because the particular error conditions that lead to various HRESULT values will be different for different transport providers.
   
-## Notes to Callers
+## Notes to callers
 
 You can use the **MAPIERROR** structure pointed to by the  _lppMAPIError_ parameter, if **GetLastError** supplies one, only if the return value is S_OK. Sometimes **GetLastError** cannot determine what the last error was or has nothing more to report about the error. In this situation, a pointer to NULL is returned in  _lppMAPIError_ instead. 
   
@@ -80,7 +80,7 @@ For more information about the **GetLastError** method, see [MAPI Extended Error
   
 ## See also
 
-#### Reference
+
 
 [IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
   
@@ -89,7 +89,7 @@ For more information about the **GetLastError** method, see [MAPI Extended Error
 [MAPIFreeBuffer](mapifreebuffer.md)
   
 [IMAPIProp : IUnknown](imapipropiunknown.md)
-#### Concepts
+
 
 [MAPI Extended Errors](mapi-extended-errors.md)
 

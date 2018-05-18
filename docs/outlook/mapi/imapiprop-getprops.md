@@ -97,7 +97,7 @@ If the  _lpPropTagArray_ parameter is set to NULL to retrieve all of the propert
     
  **GetProps** must not return multiple-value properties with **cValues** set to 0. 
   
-## Notes to Implementers
+## Notes to implementers
 
 Call the [MAPIAllocateBuffer](mapiallocatebuffer.md) function to allocate memory initially for the [SPropValue](spropvalue.md) structure pointed to by  _lpPropTagArray_; call [MAPIAllocateMore](mapiallocatemore.md) to allocate any additional memory needed for the structure's members. 
   
@@ -139,7 +139,7 @@ A remote transport provider's implementation of the **GetProps** method must sup
     
 - **PR_SUBFOLDERS** ([PidTagSubfolders](pidtagsubfolders-canonical-property.md))
     
-## Notes to Callers
+## Notes to callers
 
 For properties of type PT_OBJECT, call the [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method instead of **GetProps**. 
   
@@ -171,7 +171,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIProp::GetPropList](imapiprop-getproplist.md)
   
@@ -188,7 +188,7 @@ For MFCMAPI sample code, see the following table.
 [SPropValue](spropvalue.md)
   
 [IMAPIProp : IUnknown](imapipropiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
   

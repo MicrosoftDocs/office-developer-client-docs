@@ -18,7 +18,7 @@ description: "Last modified: March 09, 2015"
   
  This topic describes what happens during the download message header state of the replication state machine. 
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|
@@ -38,7 +38,7 @@ When syncrhonization ends, the client sets the download results. The local store
   
 ## See also
 
-#### Concepts
+
 
 [About the Replication API](about-the-replication-api.md)
   

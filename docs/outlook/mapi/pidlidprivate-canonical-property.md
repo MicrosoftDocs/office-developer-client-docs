@@ -32,7 +32,7 @@ Indicates whether the end-user wants this message object hidden from other users
 |Data type:  <br/> |PT_BOOLEAN  <br/> |
 |Area:  <br/> |General messaging  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -52,7 +52,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

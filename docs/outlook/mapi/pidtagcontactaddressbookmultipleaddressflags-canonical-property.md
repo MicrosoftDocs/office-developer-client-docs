@@ -35,7 +35,7 @@ Contains flags that indicating whether the providers will support multiple e-mai
 
 If the flags in this property are TRUE, the provider does not include contacts without e-mail addresses. Only the primary e-mail address will be honored. This is a property on a Contact Address Book profile section.
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

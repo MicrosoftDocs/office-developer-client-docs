@@ -44,7 +44,7 @@ This function wraps the **lstrlen** function. For more information, see [lstrlen
   
 ## See also
 
-#### Other resources
+
 
 [lstrlen](http://msdn.microsoft.com/en-us/library/ms647492%28VS.85%29.aspx)
   

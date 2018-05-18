@@ -37,7 +37,7 @@ This property is one of the address properties for the messaging user who receiv
   
 This property corresponds to an X.400 delivery envelope per-message MH_T_ attribute.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -77,10 +77,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagEntryId Canonical Property](pidtagentryid-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -35,7 +35,7 @@ A value used to determine the order in which rules are evaluated and executed.
 
 Rules are evaluated in sequence according to the increasing order of this value. The evaluation order for rules that have the same value in this property is undefined.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -71,7 +71,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

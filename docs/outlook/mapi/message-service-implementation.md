@@ -32,7 +32,7 @@ To implement a message service with one or more providers, use the following pro
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Service Providers](mapi-service-providers.md)
 

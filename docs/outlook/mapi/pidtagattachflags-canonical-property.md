@@ -47,7 +47,7 @@ ATT_INVISIBLE_IN_RTF
     
 If the **PR_ATTACH_FLAGS** property is zero or absent, the attachment is to be processed by all applications. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -67,7 +67,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

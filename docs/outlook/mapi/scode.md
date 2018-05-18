@@ -48,10 +48,10 @@ For more information about how MAPI uses the **SCODE** data type, see [Error Han
   
 ## See also
 
-#### Reference
+
 
 [HRESULT](hresult.md)
-#### Concepts
+
 
 [MAPI Data Types](mapi-data-types.md)
 

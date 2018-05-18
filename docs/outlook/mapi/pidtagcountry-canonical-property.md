@@ -35,7 +35,7 @@ Contains the name of the recipient's country/region.
 
 These properties are examples of the properties that provides identification and access information about a recipient. These properties are defined by the recipient and the recipient's organization.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -63,7 +63,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

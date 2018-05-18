@@ -35,7 +35,7 @@ Contains the address type of the originally intended recipient of an autoforward
 
 These properties are one of the address properties for the originally intended message recipient. It must be set by the automatic agent that has forwarded the message.
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

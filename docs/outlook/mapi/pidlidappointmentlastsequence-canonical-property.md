@@ -36,7 +36,7 @@ Indicates to the organizer the last sequence number that was sent to any attende
 
 This property has no meaning for an attendee.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

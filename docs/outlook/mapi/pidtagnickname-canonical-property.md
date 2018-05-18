@@ -35,7 +35,7 @@ Contains the nickname of the contact.
 
 These properties are optional. Their contents are defined by the user.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -63,7 +63,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -47,7 +47,7 @@ A local store calls **IPSTX::EmulateSpooler** to act as an Outlook Protocol Mana
   
 ## See also
 
-#### Reference
+
 
 [IPSTX::GetLastError](ipstx-getlasterror.md)
   

@@ -49,7 +49,7 @@ The **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents
 |**PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md))  <br/> |Attachment table  <br/> |
 |**PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md))  <br/> |Recipient table  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -77,10 +77,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagAssociatedContentCount Canonical Property](pidtagassociatedcontentcount-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

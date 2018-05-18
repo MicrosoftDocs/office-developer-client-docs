@@ -42,7 +42,7 @@ The value of this property must be set to one of the following values:
 |0x00000001  <br/> |Accepted  <br/> |
 |0x00000002  <br/> |Denied  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -62,7 +62,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

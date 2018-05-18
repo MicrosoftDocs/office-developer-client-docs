@@ -36,7 +36,7 @@ The version format for the  _socialProviderInterfaceVersion_ parameter is  _X_. 
   
 ## See also
 
-#### Reference
+
 
 [ISocialProvider : IUnknown](isocialprovideriunknown.md)
 

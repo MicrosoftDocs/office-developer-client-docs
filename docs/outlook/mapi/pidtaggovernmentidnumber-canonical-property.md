@@ -37,7 +37,7 @@ These properties provide identification and access information about a recipient
   
 These properties are commonly set to a passport number, citizen number, or taxpayer number such as a Social Security number. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -65,7 +65,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

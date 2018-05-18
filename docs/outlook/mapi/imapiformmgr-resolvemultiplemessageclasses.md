@@ -69,7 +69,7 @@ S_OK
 
 Form viewers call the **IMAPIFormMgr::ResolveMultipleMessageClasses** method to resolve a group of message classes to forms within a form container. The array of form information objects returned in  _ppfrminfoarray_ provides further access to each of the forms' properties. 
   
-## Notes to Callers
+## Notes to callers
 
 To resolve a group of message classes to forms, a form viewer passes in an array of message class names to be resolved. To force the resolution to be exact (that is, to prevent resolution to a base class of the message class when an exactly matching form server is not available) the MAPIFORM_EXACTMATCH flag can be passed in the  _ulFlags_ parameter. 
   
@@ -79,7 +79,7 @@ If a message class cannot be resolved to a form, NULL is returned for that messa
   
 ## See also
 
-#### Reference
+
 
 [IMAPIFormMgr::ResolveMessageClass](imapiformmgr-resolvemessageclass.md)
   

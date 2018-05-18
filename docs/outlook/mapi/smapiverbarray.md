@@ -54,10 +54,10 @@ The **SMAPIVerbArray** structure is passed as a parameter in the [IMAPIFormInfo:
   
 ## See also
 
-#### Reference
+
 
 [SMAPIVerb](smapiverb.md)
-#### Concepts
+
 
 [MAPI Structures](mapi-structures.md)
 

@@ -34,7 +34,7 @@ Provides status information about the MAPI subsystem, the integrated address boo
 |Pointer type:  <br/> |LPMAPISTATUS  <br/> |
 |Transaction model:  <br/> |Nontransacted  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -69,7 +69,7 @@ Clients use status objects to perform configuration and to learn about the state
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Interfaces](mapi-interfaces.md)
 

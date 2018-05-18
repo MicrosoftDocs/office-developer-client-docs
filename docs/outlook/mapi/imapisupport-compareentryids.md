@@ -75,7 +75,7 @@ MAPI_E_UNKNOWN_ENTRYID
 
 The **IMAPISupport::CompareEntryIDs** method is implemented for address book and message store provider support objects. **CompareEntryIDs** compares two entry identifiers that belong to a single service provider to determine whether they refer to the same object. MAPI extracts the [MAPIUID](mapiuid.md) portion from the entry identifiers to determine the service provider responsible for the objects. MAPI then calls its logon object's **CompareEntryIDs** method to perform the comparison. 
   
-## Notes to Callers
+## Notes to callers
 
  **CompareEntryIDs** is useful because an object can have more than one valid entry identifier. This situation can occur, for example, after a new version of a service provider is installed. 
   
@@ -83,7 +83,7 @@ If **CompareEntryIDs** returns an error, do not take any action based on the res
   
 ## See also
 
-#### Reference
+
 
 [MAPIUID](mapiuid.md)
   

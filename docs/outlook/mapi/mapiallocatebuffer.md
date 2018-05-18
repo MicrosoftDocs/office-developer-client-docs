@@ -61,7 +61,7 @@ Calling the [MAPIFreeBuffer](mapifreebuffer.md) function releases the memory buf
   
 ## See also
 
-#### Reference
+
 
 [MAPIReallocateBuffer](mapireallocatebuffer.md)
 

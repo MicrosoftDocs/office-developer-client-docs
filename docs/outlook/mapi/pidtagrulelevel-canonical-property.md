@@ -35,7 +35,7 @@ Contains the exit level of a rule.
 
 If setting this property, the client must pass in 0x00000000. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -63,10 +63,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [IExchangeModifyTable : IUnknown](iexchangemodifytableiunknown.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

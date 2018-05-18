@@ -67,7 +67,7 @@ Starting in Excel 2010, XLLs can receive events designed to manage the asynchron
   
 ## See also
 
-#### Concepts
+
 
 [Developing Excel XLLs](developing-excel-xlls.md)
 

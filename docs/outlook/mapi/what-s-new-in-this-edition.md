@@ -106,7 +106,7 @@ Content was added in previous releases of the Outlook MAPI Reference for the fol
     
 ## See also
 
-#### Other resources
+
 
 [Getting Started with the Outlook MAPI Reference](getting-started-with-the-outlook-mapi-reference.md)
   

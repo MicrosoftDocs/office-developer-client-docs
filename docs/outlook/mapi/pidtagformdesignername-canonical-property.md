@@ -35,7 +35,7 @@ Contains the display name for the object that is used to design the form.
 
 These properties contain the unique identifier for the form designer object. 
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

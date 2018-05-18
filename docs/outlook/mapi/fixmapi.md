@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Makes a backup copy of the current copy of mapi32.dll on the client computer, and restores mapi32.dll with the MAPI stub library, mapistub.dll.
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|
@@ -48,7 +48,7 @@ When **FixMAPI** makes a backup copy of the current copy of mapi32.dll on the co
   
 ## See also
 
-#### Other resources
+
 
 [KB 256946: You receive a program conflict error message when you start Outlook 2000](http://support.microsoft.com/kb/256946)
   

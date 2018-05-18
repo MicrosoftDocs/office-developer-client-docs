@@ -44,7 +44,7 @@ S_OK
     
 ## See also
 
-#### Reference
+
 
 [IMAPISecureMessage : IUnknown](imapisecuremessageiunknown.md)
   

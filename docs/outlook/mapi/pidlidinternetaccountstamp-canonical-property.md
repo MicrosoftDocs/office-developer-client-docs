@@ -36,7 +36,7 @@ Specifies the e-mail account ID through which the e-mail message is sent.
 
 The format of this string is implementation dependent. This property can be used by the client to determine which server to direct the mail to, but is optional and the value has no meaning to the server.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

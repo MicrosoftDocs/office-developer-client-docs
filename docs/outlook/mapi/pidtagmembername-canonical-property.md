@@ -35,7 +35,7 @@ Contains the display name of a member of the access control list (ACL) table.
 
 These properties are used by the [IExchangeModifyTable : IUnknown](iexchangemodifytableiunknown.md) interface to display the name of a member of an ACL table, which is a person or role with explicit rights on a folder or mailbox. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -59,10 +59,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [IExchangeModifyTable : IUnknown](iexchangemodifytableiunknown.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

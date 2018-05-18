@@ -64,7 +64,7 @@ You can use **PrepareForm** to obtain the dynamic-link libraries (DLLs) and othe
   
 ## See also
 
-#### Reference
+
 
 [IMAPIFormMgr::CreateForm](imapiformmgr-createform.md)
   

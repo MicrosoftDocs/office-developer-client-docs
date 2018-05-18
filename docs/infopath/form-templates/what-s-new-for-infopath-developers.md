@@ -110,7 +110,7 @@ InfoPath provides a richer set of controls that can be added to your forms. The 
     
 ## See also
 
-#### Other resources
+
 
 [Developing InfoPath Form Templates with Code](developing-infopath-form-templates-with-code.md)
   

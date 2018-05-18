@@ -29,7 +29,7 @@ description: "Last modified: July 23, 2011"
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Tables](mapi-tables.md)
 

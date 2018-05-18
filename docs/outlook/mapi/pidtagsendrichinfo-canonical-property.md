@@ -52,7 +52,7 @@ By default, MAPI sets the value to TRUE. A client calling [IAddrBook::CreateOneO
   
 On calls to the [IAddrBook::ResolveName](iaddrbook-resolvename.md) method when the name cannot be resolved but can be interpreted as an Internet address (SMTP), this property is set to FALSE. To be construed as an Internet address, the display name of the unresolved entry must be in the format X@Y.Z, such as "pete@pinecone.com". 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -84,10 +84,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagAttachDataObject Canonical Property](pidtagattachdataobject-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

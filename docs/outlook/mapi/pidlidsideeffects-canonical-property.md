@@ -50,7 +50,7 @@ Must be set to a bitwise or zero or more of the following flags.
 |seHasScript  <br/> |0x2000  <br/> |The message object contains end-user script.  <br/> |
 |seOpenToPermDelete  <br/> |0x4000  <br/> |Additional processing is required to permanently delete the message object.  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -74,7 +74,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

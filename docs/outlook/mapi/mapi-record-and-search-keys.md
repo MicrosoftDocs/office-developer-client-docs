@@ -36,7 +36,7 @@ The value of an object's record key can be the same as or different than the val
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Application Development](mapi-application-development.md)
 

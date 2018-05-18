@@ -51,7 +51,7 @@ The following properties make up the required column set in the message service 
   
 ## See also
 
-#### Concepts
+
 
 [MAPI Tables](mapi-tables.md)
 

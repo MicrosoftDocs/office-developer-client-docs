@@ -73,7 +73,7 @@ MAPI_E_NO_ACCESS
 
 The **IProfAdmin::CreateProfile** method creates a new profile. 
   
-## Notes to Callers
+## Notes to callers
 
 You can call **CreateProfile** at application installation time or at any time during a session. When this method is called at installation time, many of the configuration settings come from the Mapisvc.inf configuration file. When this method is called during an active session, the settings come from the user who is prompted through a series of property sheets. 
   
@@ -91,7 +91,7 @@ The  _lpszPassword_ parameter must be NULL or a pointer to a zero-length string.
   
 ## See also
 
-#### Reference
+
 
 [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md)
   

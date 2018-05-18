@@ -16,7 +16,7 @@ description: "Returns the account stamp of the account that delivered the messag
 
 Returns the account stamp of the account that delivered the message.
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|
@@ -48,12 +48,12 @@ To support these named properties, store providers should expect Outlook to use 
    
 ## See also
 
-#### Concepts
+
 
 [About the Account Management API](about-the-account-management-api.md)
   
 [Constants (Account management API)](constants-account-management-api.md)
-#### Other resources
+
 
 [PidLidInternetAccountStamp Canonical Property](http://msdn.microsoft.com/library/819179fe-e58e-415c-abc7-1949036745ee%28Office.15%29.aspx)
 

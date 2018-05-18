@@ -44,7 +44,7 @@ The following table shows the possible values of this property.
    
 This property is calculated locally and is not sent to a server at any time unless a user drags the item to another account. In that case, it is treated as a user-defined custom property.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -60,7 +60,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

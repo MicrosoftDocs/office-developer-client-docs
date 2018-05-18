@@ -35,7 +35,7 @@ An opaque property that the client sets for the exclusive use of the client.
 
 The server must preserve the value of this property if it was set by the client but must ignore its contents during rule evaluation and processing.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -59,10 +59,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagRuleProvider Canonical Property](pidtagruleprovider-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

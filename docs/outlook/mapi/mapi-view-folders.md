@@ -28,7 +28,7 @@ MAPI supports two view folders:
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Folders](mapi-folders.md)
 

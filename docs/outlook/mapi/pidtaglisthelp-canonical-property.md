@@ -41,7 +41,7 @@ To set the value of these list server-related properties, MIME clients must writ
 |:-----|:-----|:-----|
 |**PR_LIST_HELP** <br/> |List-Help  <br/> |X-List-Help  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -65,7 +65,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

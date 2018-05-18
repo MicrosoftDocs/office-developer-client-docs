@@ -36,7 +36,7 @@ description: "Last modified: March 09, 2015"
 
 Before sending a task request, the client sets this property to the name of the task assigner. Before sending a task response, the client sets this property to the name of the task assignee.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

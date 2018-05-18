@@ -42,7 +42,7 @@ In a consolidated to-do list, if this property does not exist, a client should s
   
 On a draft message object, if the client implements sender flags, this property should be set to the same value as **dispidRequest** ([PidLidFlagRequest](pidlidflagrequest-canonical-property.md)).
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -62,12 +62,12 @@ Mapidefs.h
     
 ## See also
 
-#### Reference
+
 
 [PidTagNormalizedSubject Canonical Property](pidtagnormalizedsubject-canonical-property.md)
   
 [PidLidFlagRequest Canonical Property](pidlidflagrequest-canonical-property.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

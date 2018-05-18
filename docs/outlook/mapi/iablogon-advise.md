@@ -91,7 +91,7 @@ Clients typically call the [IAddrBook::Advise](iaddrbook-advise.md) method to re
   
 When a change occurs to the indicated object of the type represented in  _ulEventMask_, a call is made to the **OnNotify** method of the advise sink pointed to by  _lpAdviseSink_. Data passed in the **NOTIFICATION** structure to the **OnNotify** routine describes the event. 
   
-## Notes to Implementers
+## Notes to implementers
 
 You can support notification with or without help from MAPI. MAPI has three support object methods to help service providers implement notification:
   
@@ -107,7 +107,7 @@ If you elect to support notification yourself, call the **AddRef** method of the
   
 Regardless of how you support notification, assign a nonzero connection number to the notification registration and return it in the  _lpulConnection_ parameter. Do not release this connection number until the **Unadvise** method has been called. 
   
-## Notes to Callers
+## Notes to callers
 
 The advise sink pointer that you pass in the  _lpAdviseSink_ parameter to **Advise** can point to an object that you have created or that MAPI has created through the [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) function. You might want to use **HrThisThreadAdviseSink** if you support multiple threads of execution and want to be sure that that subsequent calls to your **OnNotify** method occur at an appropriate time on an appropriate thread. 
   
@@ -117,7 +117,7 @@ For more information about the notification process, see [Event Notification in 
   
 ## See also
 
-#### Reference
+
 
 [HrThisThreadAdviseSink](hrthisthreadadvisesink.md)
   

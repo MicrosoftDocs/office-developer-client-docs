@@ -142,7 +142,7 @@ By default, the **IMAPIProp::CopyTo** method copies or moves all of the current 
   
 Any subobjects in the source object are automatically included in the operation and are copied or moved in their entirety. By default, **CopyTo** overwrites any properties in the destination object that match properties from the source object. If any of the copied or moved properties already exist in the destination object, the existing properties are overwritten by the new properties, unless the MAPI_NOREPLACE flag is set in the  _ulFlags_ parameter. Existing information in the destination object that is not overwritten is left untouched. 
   
-## Notes to Implementers
+## Notes to implementers
 
 You can provide a full implementation of **CopyTo** or rely on the implementation that MAPI provides in its support object. If you want to use the MAPI implementation, call **IMAPISupport::DoCopyTo**. However, if you do delegate processing to **DoCopyTo** and you are passed the MAPI_DECLINE_OK flag, avoid the support call and return MAPI_E_DECLINE_COPY instead. MAPI will call with this flag to avoid the possible recursion that can happen when folders are copied. 
   
@@ -154,7 +154,7 @@ The source and destination objects should use the same interfaces. Return MAPI_E
   
 Return MAPI_E_INTERFACE_NOT_SUPPORTED if all known interfaces are excluded.
   
-## Notes to Callers
+## Notes to callers
 
 Do not set the MAPI_DECLINE_OK flag; MAPI uses it in its calls to message store provider **CopyTo** implementations. 
   
@@ -201,7 +201,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIFolder::CopyMessages](imapifolder-copymessages.md)
   
@@ -234,7 +234,7 @@ For MFCMAPI sample code, see the following table.
 [SPropTagArray](sproptagarray.md)
   
 [IMAPIProp : IUnknown](imapipropiunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

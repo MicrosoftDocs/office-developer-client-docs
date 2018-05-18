@@ -43,7 +43,7 @@ The possible values for **PR_AGING_GRANULARITY** can be one of the following.
    
 The length of time that an item remains in a folder before the item is archived is determined by two properties, [PR_AGING_PERIOD](pidtagagingperiod-canonical-property.md) and **PR_AGING_GRANULARITY**. **PR_AGING_PERIOD** represents the number of time units that the item remains in the folder before it is archived. 
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -71,7 +71,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -64,14 +64,14 @@ For information about how to use a progress object and the **IMAPIProgress** int
   
 ## See also
 
-#### Reference
+
 
 [IMAPIProgress : IUnknown](imapiprogressiunknown.md)
   
 [IMAPIProgress::Progress](imapiprogress-progress.md)
   
 [IMAPISupport : IUnknown](imapisupportiunknown.md)
-#### Concepts
+
 
 [Display a Progress Indicator](how-to-display-a-progress-indicator.md)
 

@@ -16,7 +16,7 @@ description: "Specifies the primary accountsendstamp for a message."
 
 Specifies the primary account "send" stamp for a message.
   
-## Quick Info
+## Quick info
 
 |||
 |:-----|:-----|
@@ -31,10 +31,10 @@ This property applies to a MAPI message object. For a received message, the prim
   
 ## See also
 
-#### Concepts
+
 
 [Constants (Account management API)](constants-account-management-api.md)
-#### Other resources
+
 
 [MAPI Properties](http://msdn.microsoft.com/library/3b980217-b65b-442b-8c18-b8b9f3ff487a%28Office.15%29.aspx)
   

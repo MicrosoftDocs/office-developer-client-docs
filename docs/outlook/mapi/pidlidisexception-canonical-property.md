@@ -36,7 +36,7 @@ Indicates that the object that represents an exception (including an orphan inst
 
 A value of FALSE indicates that the object that represents a recurring series or a single instance. The absence of this property for any object indicates a value of FALSE except for the exception embedded message, which assumes a value of TRUE.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

@@ -35,7 +35,7 @@ Contains a container object that is used for advanced searches.
 
 A container that does not support advanced search capabilities does not have to supply the property.
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,10 +49,10 @@ Mapitags.h
     
 ## See also
 
-#### Reference
+
 
 [IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md)
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

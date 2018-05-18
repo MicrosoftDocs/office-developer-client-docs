@@ -108,7 +108,7 @@ MAPI_E_USER_CANCEL
 
 The **IMAPISession::ShowForm** method displays a message form that has been prepared by the **IMAPISession::PrepareForm** method. 
   
-## Notes to Callers
+## Notes to callers
 
 You should have only a single reference to the message passed in the **PrepareForm** method's  _lpMessage_ parameter. 
   
@@ -124,7 +124,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Reference
+
 
 [IMAPIProp::SaveChanges](imapiprop-savechanges.md)
   
@@ -133,7 +133,7 @@ For MFCMAPI sample code, see the following table.
 [IMAPISession::PrepareForm](imapisession-prepareform.md)
   
 [IMAPISession : IUnknown](imapisessioniunknown.md)
-#### Concepts
+
 
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

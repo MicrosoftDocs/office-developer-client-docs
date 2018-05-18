@@ -31,7 +31,7 @@ Supports registering for notification callbacks about connection state changes o
 |Called by:  <br/> |Client  <br/> |
 |Interface identifier:  <br/> |IID_IMAPIOfflineMgr  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|
@@ -55,10 +55,10 @@ Most of the members in this interface are placeholders reserved for the internal
   
 ## See also
 
-#### Reference
+
 
 [IMAPIOffline : IUnknown](imapiofflineiunknown.md)
-#### Concepts
+
 
 [About the Offline State API](about-the-offline-state-api.md)
   

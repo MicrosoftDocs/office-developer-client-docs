@@ -35,7 +35,7 @@ The component ID of the provider.
 
 These properties may be used as the component parameter of an **MsiProvideQualifiedComponent** call to install the provider. 
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

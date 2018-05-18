@@ -36,7 +36,7 @@ Specifies the name under which the contact is filed when displaying a list of co
 
 The application should treat this property as an empty PT_UNICODE if it is missing from the contact.
   
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

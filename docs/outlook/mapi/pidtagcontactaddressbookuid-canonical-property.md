@@ -35,7 +35,7 @@ Contains the UID that identifies this session of the Contact Address Book.
 
 If you have multiple Contact Address Books configured, this property must be set for each one. 
   
-## Related Resources
+## Related resources
 
 ### Header Files
 
@@ -49,7 +49,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

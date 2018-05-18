@@ -51,7 +51,7 @@ The **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachme
 |**PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md))  <br/> |Attachment table  <br/> |
 |PR_MESSAGE_RECIPIENTS  <br/> |Recipient table  <br/> |
    
-## Related Resources
+## Related resources
 
 ### Protocol Specifications
 
@@ -87,7 +87,7 @@ Mapitags.h
     
 ## See also
 
-#### Concepts
+
 
 [MAPI Properties](mapi-properties.md)
   

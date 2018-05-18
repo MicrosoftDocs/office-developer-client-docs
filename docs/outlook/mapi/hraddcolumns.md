@@ -65,7 +65,7 @@ The **HrAddColumns** function is equivalent to using **HrAddColumnsEx** with  _l
   
 ## See also
 
-#### Reference
+
 
 [HrAddColumnsEx](hraddcolumnsex.md)
   

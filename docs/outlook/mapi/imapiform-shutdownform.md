@@ -62,7 +62,7 @@ E_UNEXPECTED
 
 Form viewers call the **IMAPIForm::ShutdownForm** method to close a form. 
   
-## Notes to Implementers
+## Notes to implementers
 
 Perform the following tasks in your implementation of **ShutdownForm**:
   
@@ -89,13 +89,13 @@ Perform the following tasks in your implementation of **ShutdownForm**:
 > [!NOTE]
 > After these actions have been completed, the only valid methods on the form object that may be called are those from the [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx) interface. 
   
-## Notes to Callers
+## Notes to callers
 
 When **ShutdownForm** returns, regardless of whether it returns an error, release the form by calling its **IUnknown::Release** method. You can safely ignore any errors returned by **ShutdownForm**.
   
 ## See also
 
-#### Reference
+
 
 [IMAPIMessageSite::SaveMessage](imapimessagesite-savemessage.md)
   
