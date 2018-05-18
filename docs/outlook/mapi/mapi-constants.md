@@ -1,7 +1,5 @@
 ---
-title: "MAPI Constants"
- 
- 
+title: "MAPI constants"
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -12,36 +10,34 @@ ms.assetid: 8fa5ac8d-3f63-499c-bb4e-439984773e4a
 description: "Last modified: March 09, 2015"
 ---
 
-# MAPI Constants
+# MAPI constants
 
-  
-  
 **Applies to**: Outlook 
   
 This topic contains constant definitions, MAPI interface declarations, and class and interface identifiers used by the MAPI APIs.
   
-## Class and Interface Identifiers
+## Class and interface identifiers
 
 Use the DEFINE_GUID macro defined in the Microsoft Windows Software Development Kit (SDK) header file guiddef.h to associate globally unique identifier (GUID) symbolic names with their values, unless otherwise indicated.
   
-## Attachment Security Conversion API
+## Attachment security conversion API
 
 This section contains constant definitions and interface identifiers for the Attachment Security API.
   
-```
+```cpp
 // {b2533636-c3f3-416f-bf04-aefe41abaae2}
 DEFINE_GUID(IID_IAttachmentSecurity, 0xb2533636, 0xc3f3, 0x416f, 0xbf, 0x04, 0xae, 0xfe, 0x41, 0xab, 0xaa, 0xe2);
 ```
 
 Use the MAPIMETHOD macro defined in the Windows SDK header file mapidefs.h to define the pure virtual function **[IsAttachmentBlocked](iattachmentsecurity-isattachmentblocked.md)**. 
   
-```
+```cpp
 #define MAPI_IATTACHMENTSECURITY_METHODS(IPURE)         MAPIMETHOD(IsAttachmentBlocked)         (LPCWSTR pwszFileName, BOOL *pfBlocked) IPURE;
 ```
 
 Use the DECLARE_MAPI_INTERFACE_ macro defined in the Windows SDK header file mapidefs.h to define the virtual method table for **[IAttachmentSecurity](iattachmentsecurityiunknown.md)**. 
   
-```
+```cpp
 DECLARE_MAPI_INTERFACE_(IAttachmentSecurity, IUnknown) 
 { 
     BEGIN_INTERFACE 
@@ -68,16 +64,16 @@ This section contains constant definitions and class and interface identifiers f
 |CCSF_NO_MSGID  <br/> |0x4000  <br/> |
 |E_INVALIDARG  <br/> | *As defined in the Microsoft Windows Software Development Kit (SDK) header file winerror.h*  <br/> |
    
-### Class Identifiers
+### Class identifiers
 
-```
+```cpp
 // {4e3a7680-b77a-11d0-9da5-00c04fd65685}
 DEFINE_GUID(CLSID_IConverterSession, 0x4e3a7680, 0xb77a, 0x11d0, 0x9d, 0xa5, 0x0, 0xc0, 0x4f, 0xd6, 0x56, 0x85);
 ```
 
-### Interface Identifiers
+### Interface identifiers
 
-```
+```cpp
 // {4b401570-b77b-11d0-9da5-00c04fd65685}
 DEFINE_GUID(IID_IConverterSession, 0x4b401570, 0xb77b, 0x11d0, 0x9d, 0xa5, 0x0, 0xc0, 0x4f, 0xd6, 0x56, 0x85);
 ```
@@ -105,38 +101,37 @@ This section contains constant definitions and class and interface identifiers f
 |MAPIOFFLINE_STATE_OFFLINE  <br/> |0x00000001  <br/> |
 |MAPIOFFLINE_STATE_ONLINE  <br/> |0x00000002  <br/> |
    
-### Class Identifiers
+### Class identifiers
 
-```
+```cpp
 //{fbeffd93-b11f-4094-842b-96dcd31e63d1}
 DEFINE_GUID(GUID_GlobalState, 0xfbeffd93, 0xb11f, 0x4094, 0x84, 0x2b, 0x96, 0xdc, 0xd3, 0x1e, 0x63, 0xd1);
 ```
 
-### Interface Identifiers
+### Interface identifiers
 
-```
+```cpp
 //{000672B5-0000-0000-c000-000000000046}
 DEFINE_GUID(IID_IMAPIOffline, 0x000672B5, 0x0000, 0x0000, 0xc0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x46);
 ```
 
-```
+```cpp
 //{0317bde5-fc29-44cd-8dcd-36125a3be9ec}
 DEFINE_GUID(IID_IMAPIOfflineNotify, 0x0317bde5, 0xfc29, 0x44cd, 0x8d, 0xcd, 0x36, 0x12, 0x5a, 0x3b, 0xe9, 0xec);
 ```
 
-```
+```cpp
 //{42175607-ff3e-4790-bc18-66c8643e6424
 DEFINE_GUID(IID_IMAPIOfflineMgr, 0x42175607, 0xFF3E, 0x4790, 0xbc, 0x18, 0x66, 0xc8, 0x64, 0x3e, 0x64, 0x24);
 ```
 
-## Outlook Named Properties
+## Outlook named properties
 
 This section contains constant definitions for named properties and their namespaces, and other related constants.
   
-### Definitions for Named Properties
+### Definitions for named properties
 
-```
- 
+```cpp
 #define dispidMeetingType0x0026 
 #define dispidFileUnder0x8005 
 #define dispidYomiFirstName 0x802C 
@@ -207,14 +202,13 @@ This section contains constant definitions for named properties and their namesp
 #define dispidLogStart 0x8706 
 #define dispidLogDuration 0x8707 
 #define dispidLogEnd 0x8708 
-
 ```
 
-### Definitions for Namespaces
+### Definitions for namespaces
 
 The following globally unique identifiers (GUIDs) represent the namespaces of the named properties.
   
-```
+```cpp
 const GUID PS_INTERNET_HEADERS  = {0x00020386, 0x0000, 0x0000, {0xC0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x46}}; 
 const GUID PS_PUBLIC_STRINGS    = {0x00020329, 0x0000, 0x0000, {0xC0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x46}}; 
 const GUID PSETID_Appointment= {0x00062002, 0x0000, 0x0000, {0xC0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x46}}; 
@@ -223,12 +217,11 @@ const GUID PSETID_Common        = {0x00062008, 0x0000, 0x0000, {0xC0, 0x00, 0x00
 const GUID PSETID_Log           = {0x0006200A, 0x0000, 0x0000, {0xC0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x46}}; 
 const GUID PSETID_Meeting = {0x6ED8DA90, 0x450B, 0x101B, {0x98, 0xDA, 0x00, 0xAA, 0x00, 0x3F, 0x13, 0x05}}; 
 const GUID PSETID_Task          = {0x00062003, 0x0000, 0x0000, {0xC0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x46}}; 
-
 ```
 
 Refer to the section MAPI Store for the PSETID definitions.
   
-### Other Constants
+### Other constants
 
 |||
 |:-----|:-----|
@@ -251,7 +244,7 @@ This section contains constant definitions, MAPI interface declarations, and cla
 
 The following is a [MAPIUID](mapiuid.md) structure identifying a MAPI service provider: 
   
-```
+```cpp
 const MAPIUID g_muidProvPrvNST = 
  { 0xE9, 0x2F, 0xEB, 0x75, 0x96, 0x50, 0x44, 0x86, 
       0x83, 0xB8, 0x7D, 0xE5, 0x22, 0xAA, 0x49, 0x48 };
@@ -315,66 +308,68 @@ const MAPIUID g_muidProvPrvNST =
 |UPV_DIRTY  <br/> |0x00020000  <br/> |
 |UPV_COMMIT  <br/> |0x00040000  <br/> |
    
-### Interface Declarations
+### Interface declarations
 
-```
+```cpp
 DECLARE_MAPI_INTERFACE_PTR(IExchangeImportHierarchyChanges,PXIHC);
 ```
 
-```
+```cpp
 DECLARE_MAPI_INTERFACE_PTR(IExchangeImportContentsChanges,PXICC);
 ```
 
-### Interface Identifiers
+### Interface identifiers
 
-```
+```cpp
 //{4FDEEFF0-0319-11CF-B4CF-00AA0DBBB6E6}
 DEFINE_GUID (IID_IPSTX, 0x4FDEEFF0, 0x0319, 0x11CF, 0xB4, 0xCF, 0x00, 0xAA, 0x0D, 0xBB, 0xB6, 0xE6)
 ```
 
-```
+```cpp
 //{2067A790-2A45-11D1-EB86-00A0C90DCA6D}
 DEFINE_GUID (IID_IPSTX2, 0x2067A790, 0x2A45, 0x11D1, 0xEB, 0x86, 0x00, 0xA0, 0xC9, 0x0D, 0xCA, 0x6D)
 ```
 
-```
+```cpp
 //{55f15320-111b-11d2-a999-006008b05aa7}
 DEFINE_GUID (IID_IPSTX3, 0x55f15320, 0x111b, 0x11d2, 0xa9, 0x99, 0x00, 0x60, 0x08, 0xb0, 0x5a, 0xa7)
 ```
 
-```
+```cpp
 //{aa2e2092-ac08-11d2-a2f9-0060b0ec3d4f}
 DEFINE_GUID (IID_IPSTX4, 0xaa2e2092, 0xac08, 0x11d2, 0xa2, 0xf9, 0x00, 0x60, 0xb0, 0xec, 0x3d, 0x4f)
 ```
 
-```
+```cpp
 //{55f15322-111b-11d2-a999-006008b05aa7}
 DEFINE_GUID (IID_IPSTX5, 0x55f15322, 0x111b, 0x11d2, 0xa9, 0x99, 0x00, 0x60, 0x08, 0xb0, 0x5a, 0xa7)
 ```
 
-```
+```cpp
 //{55f15323-111b-11d2-a999-006008b05aa7}
 DEFINE_GUID (IID_IPSTX6, 0x55f15323, 0x111b, 0x11d2, 0xa9, 0x99, 0x00, 0x60, 0x08, 0xb0, 0x5a, 0xa7)
 ```
 
-```
+```cpp
 //{d2d85db4-840f-49b8-9982-07d2405ec6b7}
 DEFINE_GUID (IID_IOSTX, 0xd2d85db4,  0x840f, 0x49b8, 0x99, 0x82, 0x07, 0xd2, 0x40, 0x5e, 0xc6, 0xb7)
 ```
 
+<br/>
+
 Use the two following interface identifiers with [IMAPIContainer::OpenEntry](imapicontainer-openentry.md), [IMAPISession::OpenEntry](imapisession-openentry.md), or [IMsgStore::OpenEntry](imsgstore-openentry.md) to open and ignore any provider check on a folder object and a message object, respectively. 
   
-```
+```cpp
 //{57D333A0-F589-4b23-A3F9-85F82FEC153C}
 DEFINE_GUID (IID_IMAPIFolderNoProvChk, 0x57D333A0, 0xF589, 0x4b23, 0xA3, 0xF9, 0x85, 0xF8, 0x2F, 0xEC, 0x15, 0x3C)
 ```
 
-```
+```cpp
 //{C3505457-7B2E-4c3b-A8D6-6DD949BB97A1}
 DEFINE_GUID (IID_IMessageNoProvChk, 0xC3505457, 0x7B2E, 0x4c3b, 0xA8, 0xD6, 0x6D, 0xD9, 0x49, 0xBB, 0x97, 0xA1)
 ```
 
-## MAPI Store
+## MAPI store
 
 This section contains constant definitions and interface identifiers used by APIs that interface with a MAPI store.
   
@@ -392,14 +387,14 @@ This section contains constant definitions and interface identifiers used by API
 |MSCAP_SECURE_FOLDER_HOMEPAGES  <br/> |((ULONG) 0x00000020)  <br/> |If a client specifies **MSCAP_SEL_FOLDER** in  *mscapSelector*  for **IMSCapabilities::GetCapabilities**, **GetCapabilities** can return this value if the store is a non-default store that supports folder home pages.  <br/> |
 |STORE_PUSHER_OK  <br/> |((ULONG) 0x00800000)  <br/> |A client can get the property **[PR_SUPPORT_MASK](pidtagstoresupportmask-canonical-property.md)** to determine the characteristic of a message store. If the store provider sets the **STORE_PUSHER_OK** flag in the bitmask, that means the MAPI Protocol Handler will not crawl the store, and the store is responsible to push any changes through notifications to the indexer to have messages indexed.  <br/> |
    
-### Definitions for Namespaces
+### Definitions for namespaces
 
 The following globally unique identifiers (GUIDs) represent the namespaces of named properties. They are indexed by the MAPI Protocol Handler (PH), and are documented as read-only.
   
 > [!CAUTION]
 > The named properties should not be used to create or modify items. 
   
-```
+```cpp
 const GUID PS_INTERNET_HEADERS  = {0x00020386, 0x0000, 0x0000, {0xC0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x46}}; 
 const GUID PS_PUBLIC_STRINGS    = {0x00020329, 0x0000, 0x0000, {0xC0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x46}}; 
 const GUID PSETID_Address       = {0x00062004, 0x0000, 0x0000, {0xC0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x46}}; 
@@ -408,12 +403,11 @@ const GUID PSETID_Common        = {0x00062008, 0x0000, 0x0000, {0xC0, 0x00, 0x00
 const GUID PSETID_Log           = {0x0006200A, 0x0000, 0x0000, {0xC0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x46}}; 
 const GUID PSETID_Meeting       = {0x6ED8DA90, 0x450B, 0x101B, {0x98, 0xDA, 0x00, 0xAA, 0x00, 0x3F, 0x13, 0x05}}; 
 const GUID PSETID_Task          = {0x00062003, 0x0000, 0x0000, {0xC0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x46}}; 
-
 ```
 
-MNID_ID Properties
+#### MNID_ID Properties
   
-```
+```cpp
 // In PSETID_Address
 #define dispidWorkAddressStreet 0x8045
 #define dispidWorkAddressCity 0x8046
@@ -425,7 +419,7 @@ MNID_ID Properties
 #define dispidEmailOriginalDisplayName 0x8084
 ```
 
-```
+```cpp
 // In PSETID_Appointment
 #define dispidLocation 0x8208
 #define dispidApptStartWhole 0x820D
@@ -437,7 +431,7 @@ MNID_ID Properties
 #define dispidCCAttendeesString 0x823C
 ```
 
-```
+```cpp
 // In PSETID_Common
 #define dispidReminderSet 0x8503
 #define dispidSmartNoAttach 0x8514
@@ -448,7 +442,7 @@ MNID_ID Properties
 #define dispidReminderNextTime 0x8560
 ```
 
-```
+```cpp
 // In PSETID_Log (also known as Journal)
 #define dispidLogType 0x8700
 #define dispidLogStart 0x8706
@@ -456,7 +450,7 @@ MNID_ID Properties
 #define dispidLogEnd 0x8708MNID_STRING properties
 ```
 
-```
+```cpp
 // In PSETID_Task
 #define dispidTaskStartDate 0x8104
 #define dispidTaskDueDate 0x8105
@@ -465,27 +459,27 @@ MNID_ID Properties
 #define dispidTaskFRecur 0x8126
 ```
 
-MNID_STRING Properties
+#### MNID_STRING Properties
   
-```
+```cpp
 // In PS_PUBLIC_STRINGS 
 "Keywords"
 ```
 
-```
+```cpp
 // In PS_INTERNET_HEADERS
 "return-path"
 ```
 
-### Interface Identifiers
+### Interface identifiers
 
-```
+```cpp
 //{00375ac3-ecaf-4ef8-a527-34f452fa9c67}
 DEFINE_GUID(IID_IFolderSupport, 0x00375ac3, 0xecaf, 0x4ef8, 0xa5, 0x27, 0x34, 0xf4, 0x52, 0xfa, 0x9c, 0x67);
 
 ```
 
-```
+```cpp
 //{29F3AB10-554d-11d0-a97c-00a0c911f50a}
 #define DEFINE_PRXGUID(_name, _l) DEFINE_GUID(_name, (0x29f3ab10 + _l), 0x554d, 0x11d0, 0xa9, 0x7c, 0x00, 0xa0, 0xc9, 0x11, 0xf5, 0x0a) 
 DEFINE_PRXGUID(IID_IProxyStoreObject, 0x00000000L);
@@ -493,13 +487,13 @@ DEFINE_PRXGUID(IID_IProxyStoreObject, 0x00000000L);
 
 Use the  `DEFINE_OLEGUID` macro defined in the Windows SDK header file guiddef.h to associate the following GUID symbolic name with its value. 
   
-```
+```cpp
 //{00020393-0000-0000-C000-000000000046}
 DEFINE_OLEGUID(IID_IMSCapabilities, 0x00020393, 0, 0)
 
 ```
 
-## MAPI Address Book Constants
+## MAPI Address Book constants
 
 This section contains constant definitions for the MAPI Address Book.
   
@@ -513,7 +507,7 @@ This section contains constant definitions for the MAPI Address Book.
 |CONTAB_USER  <br/> |((ULONG) 0x00000004)  <br/> |A messaging user object.  <br/> |
 |CONTAB_DISTLIST  <br/> |((ULONG) 0x00000005)  <br/> |A distribution list object.  <br/> |
    
-## Additional MAPI Constants
+## Additional MAPI constants
 
 This section contains constant definitions including error codes, and interface identifiers used by MAPI APIs that were not previously exposed and documented.
   
@@ -532,38 +526,38 @@ This section contains constant definitions including error codes, and interface 
 |STORE_ITEMPROC  <br/> |0x00200000  <br/> |If this flag is set in the [PidTagStoreSupportMask Canonical Property](pidtagstoresupportmask-canonical-property.md) of a wrapped PST store, it indicates that when a new message arrives at the store, the store has rules and spam filtering processed on the message separately. The store then calls [IMAPISupport::Notify](imapisupport-notify.md), setting **fnevNewMail** in the [NOTIFICATION](notification.md) structure that is passed as a parameter, and passing the details of the new message to a listening client. Subsequently, when the listening client receives the notification, it does not process rules on the message.  <br/> |
 |STORE_UNICODE_OK  <br/> |0x00040000  <br/> |If this flag is included in the [PidTagStoreSupportMask Canonical Property](pidtagstoresupportmask-canonical-property.md), it indicates that the store supports Unicode storage. A client can look for the presence of the flag to decide whether to request or to save Unicode information to the store.  <br/> |
    
-### Definitions for Archiving Items in a Folder
+### Definitions for archiving items in a folder
 
 The following constant definitions are values used to set the [PidTagAgingGranularity Canonical Property](pidtagaginggranularity-canonical-property.md).
   
-```
+```cpp
 #define AG_MONTHS 0 
 #define AG_WEEKS  1 
 #define AG_DAYS   2 
 
 ```
 
-### Definitions for Displaying Remote Objects
+### Definitions for displaying remote objects
 
 The following constant and macro definitions are for displaying remote objects. For more information, see the [PidTagDisplayTypeEx Canonical Property](pidtagdisplaytypeex-canonical-property.md).
   
-```
+```cpp
 #define DTE_FLAG_REMOTE_VALID0x80000000 
 #define DTE_FLAG_ACL_CAPABLE    0x40000000 
 #define DTE_MASK_REMOTE        0x0000ff00 
 #define DTE_MASK_LOCAL        0x000000ff 
   
-#define DTE_IS_REMOTE_VALID(v)(!!((v) &amp; DTE_FLAG_REMOTE_VALID)) 
-#define DTE_IS_ACL_CAPABLE(v)(!!((v) &amp; DTE_FLAG_ACL_CAPABLE)) 
-#define DTE_REMOTE(v)(((v) &amp; DTE_MASK_REMOTE) >> 8) 
-#define DTE_LOCAL(v)((v) &amp; DTE_MASK_LOCAL) 
+#define DTE_IS_REMOTE_VALID(v)(!!((v) & DTE_FLAG_REMOTE_VALID)) 
+#define DTE_IS_ACL_CAPABLE(v)(!!((v) & DTE_FLAG_ACL_CAPABLE)) 
+#define DTE_REMOTE(v)(((v) & DTE_MASK_REMOTE) >> 8) 
+#define DTE_LOCAL(v)((v) & DTE_MASK_LOCAL) 
   
 #define DT_ROOM((ULONG) 0x00000007) 
 #define DT_EQUIPMENT((ULONG) 0x00000008) 
 #define DT_SEC_DISTLIST((ULONG) 0x00000009)
 ```
 
-### Definitions for Exchange Address Book and Message Store Error Codes
+### Definitions for Exchange address book and Message store error codes
 
 The following contains error code definitions for the Exchange Address Book and Message Store, which have reconnection capability. The last call to a disconnected Global Catalog (GC) may result in the **MAPI_E_END_OF_SESSION** error, which would need to be retried. 
   
@@ -575,13 +569,13 @@ Outlook's MAPI supports reconnection to a GC server without special reconfigurat
 |MAPI_E_RECONNECTED  <br/> |0x80040125  <br/> |Returned when the Remote Procedure Call (RPC) connection token is out-of-date. If the token of the current transaction is different from the token of the connection that means it has reconnected, so **MAPI_E_RECONNECTED** is returned and can be treated the same as **MAPI_E_END_OF_SESSION**. The call should be retried.  <br/> |
 |MAPI_E_OFFLINE  <br/> |0x80040126  <br/> |Returned when the connection is offline. Typically this means that something has occurred in the environment, such as server failure or loss of network connectivity. This error is most likely to occur when using a cached mode profile and attempting to bypass the cache to communicate with the server. If the cache was never able to initially establish a connection to the server, it may be in the offline state in which **MAPI_E_OFFLINE** could surface.  <br/> |
    
-Neither of the preceding two errors will be returned in all scenarios where they would likely appear to apply. In most cases, **MAPI_E_NETWORK_ERROR** or **MAPI_E_CALL_FAILED** will be returned. Neither will appear using the [Microsoft Exchange Server MAPI Client and Collaboration Data Objects 1.2.1](http://support.microsoft.com/kb/171440) download. 
+Neither of the preceding two errors will be returned in all scenarios where they would likely appear to apply. In most cases, **MAPI\_E_NETWORK_ERROR** or **MAPI_E_CALL_FAILED** will be returned. Neither will appear using the [Microsoft Exchange Server MAPI Client and Collaboration Data Objects 1.2.1](http://support.microsoft.com/kb/171440) download. 
   
-### Definitions for Exchange Server Mailbox Cached Mode Quotas
+### Definitions for Exchange Server Mailbox cached mode quotas
 
 The following constant definitions are used by Microsoft Outlook 2010 and Microsoft Outlook 2013 to set the Exchange cached mode profile quotas that are equivalent to the Exchange mailbox quotas otherwise available only with an online profile.
   
-```
+```cpp
 #define PR_QUOTA_WARNING PROP_TAG( PT_LONG, 0x341A)
 #define PR_QUOTA_SEND    PROP_TAG( PT_LONG, 0x341B)
 #define PR_QUOTA_RECEIVE PROP_TAG( PT_LONG, 0x341C)
@@ -589,18 +583,18 @@ The following constant definitions are used by Microsoft Outlook 2010 and Micros
 
 These properties map to their correspondent online properties and contain the same values in kilobytes. PR_QUOTA_WARNING maps to PR_STORAGE_QUOTA_LIMIT, PR_QUOTA_SEND to PR_QUOTA_PROHIBIT_SEND_QUOTA, and PR_QUOTA_RECEIVE to PR_PROHIBIT_RECEIVE_QUOTA.
   
-### Definitions for Message Format
+### Definitions for message format
 
 The following constant definitions are values that are used to set the [PidTagMessageEditorFormat Canonical Property](pidtagmessageeditorformat-canonical-property.md).
   
-```
+```cpp
 #define EDITOR_FORMAT_DONTKNOW  ((ULONG) 0) 
 #define EDITOR_FORMAT_PLAINTEXT ((ULONG) 1) 
 #define EDITOR_FORMAT_HTML      ((ULONG) 2) 
 #define EDITOR_FORMAT_RTF       ((ULONG) 3)
 ```
 
-### Definitions for Using RPC over HTTP
+### Definitions for using RPC over HTTP
 
 See the [PidTagRpcOverHttpFlags Canonical Property](pidtagrpcoverhttpflags-canonical-property.md) topic for constant definitions used as flags to set the property. 
   
@@ -610,7 +604,7 @@ See the [PidTagRpcOverHttpProxyAuthScheme Canonical Property](pidtagrpcoverhttpp
 
 Use the  `DEFINE_OLEGUID` macro defined in the Microsoft Windows Software Development Kit (SDK) header file guiddef.h to associate the following GUID symbolic names with their values. 
   
-```
+```cpp
 //{0002038A-0000-0000-C000-000000000046}
 #if !defined(INITGUID) || defined(USES_IID_IMessageRaw) 
 DEFINE_OLEGUID(IID_IMessageRaw,0x0002038A, 0, 0); 
@@ -619,75 +613,69 @@ DEFINE_OLEGUID(IID_IMessageRaw,0x0002038A, 0, 0);
 
 The following Identifier is for the Capone Profile section of an Address Book, which in support of multiple Exchange ([MultiEx](using-multiple-exchange-accounts.md)) mailboxes contains a [PR_AB_CHOOSE_DIRECTORY_AUTOMATICALLY](pidtagaddressbookchoosedirectoryautomatically-canonical-property.md) property that effectively turns off the default container specified by [SetDefaultDir](iaddrbook-setdefaultdir.md).
   
-```
+```cpp
 // {00020D0A-0000-0000-C000-000000000046}
 DEFINE_OLEGUID(IID_CAPONE_PROF, 0x00020d0a, 0, 0);
 ```
 
-### Interface Identifiers
+### Interface identifiers
 
-IMAPISync
+#### IMAPISync
   
-```
+```cpp
 DEFINE_GUID(IID_IMAPISync, 0x5024a385, 0x2d44, 0x486a,  0x81, 0xa8, 0x8f, 0xe, 0xcb, 0x60, 0x71, 0xdd);
 
 ```
 
-IMAPISyncProgressCallback
+#### IMAPISyncProgressCallback
   
-```
+```cpp
 DEFINE_GUID(IID_IMAPISyncProgressCallback, 0x5024a386, 0x2d44, 0x486a,  0x81, 0xa8, 0x8f, 0xe, 0xcb, 0x60, 0x71, 0xdd);
 ```
 
-IID_IContabAdmin
+#### IID_IContabAdmin
   
-```
+```cpp
 // {CC6A3BA9-E7F5-4769-887B-34E190817BFC}
 DEFINE_GUID(IID_IContabAdmin, 0xcc6a3ba9, 0xe7f5, 0x4769, 0x88, 0x7b, 0x34, 0xe1, 0x90, 0x81, 0x7b, 0xfc);
 
 ```
 
-IID_IMAPISECUREMESSAGE
+#### IID_IMAPISECUREMESSAGE
   
-```
+```cpp
 DEFINE_GUID(IID_IMAPISecureMessage, 0x253cc320, 0xeab6, 0x11d0, 0x82, 0x22, 0, 0x60, 0x97, 0x93, 0x87, 0xea);
 
 ```
 
-IID_IMAPIGetSession
+#### IID_IMAPIGetSession
   
-```
+```cpp
 DEFINE_GUID(IID_IMAPIGetSession, 0x614ab435, 0x491d, 0x4f5b, 0xa8, 0xb4, 0x60, 0xeb, 0x3, 0x10, 0x30, 0xc6);
 
 ```
 
-### PST Override Handler Interface Identifiers
+### PST Override Handler interface identifiers
 
-IID_IPSTOVERRIDEREQ
+#### IID_IPSTOVERRIDEREQ
   
-```
+```cpp
 // {892EBC6D-24DC-4d90-BA48-C6CBEC14A86A}
 DEFINE_GUID(IID_IPSTOVERRIDEREQ, 0x892ebc6d, 0x24dc, 0x4d90, 0xba, 0x48, 0xc6, 0xcb, 0xec, 0x14, 0xa8, 0x6a);
 ```
 
-IID_IPSTOVERRIDE1
+#### IID_IPSTOVERRIDE1
   
-```
+```cpp
 // {FBB68D34-F561-44fb-A8CA-AE36696342CA}
 DEFINE_GUID(IID_IPSTOVERRIDE1, 0xfbb68d34, 0xf561, 0x44fb, 0xa8, 0xca, 0xae, 0x36, 0x69, 0x63, 0x42, 0xca);
 ```
 
 ## See also
 
-#### Concepts
-
-[About MAPI Additions](about-mapi-additions.md)
-  
-[About Named Properties Used by Outlook](about-named-properties-used-by-outlook.md)
-  
-[Access a Store on the Remote Server When Outlook is in Cached Exchange Mode](how-to-access-a-store-on-remote-server-when-outlook-is-in-cached-exchange-mode.md)
-  
-[Open a Store on the Remote Server When Outlook is in Cached Exchange Mode](how-to-open-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode.md)
-  
-[Manage a Message in an OST Without Invoking a Synchronization in Cached Exchange Mode](how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md)
+- [About MAPI Additions](about-mapi-additions.md) 
+- [About Named Properties Used by Outlook](about-named-properties-used-by-outlook.md)
+- [Access a Store on the Remote Server When Outlook is in Cached Exchange Mode](how-to-access-a-store-on-remote-server-when-outlook-is-in-cached-exchange-mode.md)
+- [Open a Store on the Remote Server When Outlook is in Cached Exchange Mode](how-to-open-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode.md)
+- [Manage a Message in an OST Without Invoking a Synchronization in Cached Exchange Mode](how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md)
 
