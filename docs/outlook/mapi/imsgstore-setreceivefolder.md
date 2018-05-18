@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Establishes a folder as the destination for incoming messages of a particular message class.
   
-```
+```cpp
 HRESULT SetReceiveFolder(
   LPSTR lpszMessageClass,
   ULONG ulFlags,

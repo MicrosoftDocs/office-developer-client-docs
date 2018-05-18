@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Requests the orderly release of a message store.
   
-```
+```cpp
 HRESULT StoreLogoffTransports(
 ULONG FAR * lpulFlags
 );

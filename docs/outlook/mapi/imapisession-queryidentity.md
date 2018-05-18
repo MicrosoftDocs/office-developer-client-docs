@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns the entry identifier of the object that provides the primary identity for the session.
   
-```
+```cpp
 HRESULT QueryIdentity(
   ULONG FAR * lpcbEntryID,
   LPENTRYID FAR * lppEntryID

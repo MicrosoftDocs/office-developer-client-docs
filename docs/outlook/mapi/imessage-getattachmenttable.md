@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Returns the message's attachment table.
   
-```
+```cpp
 HRESULT GetAttachmentTable(
   ULONG ulFlags,
   LPMAPITABLE FAR * lppTable

@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Deletes a table row.
   
-```
+```cpp
 HRESULT HrDeleteRow(
   LPSPropValue lpSPropValue
 );

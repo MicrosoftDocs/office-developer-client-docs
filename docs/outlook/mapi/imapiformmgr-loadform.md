@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Starts a form to open an existing message.
   
-```
+```cpp
 HRESULT LoadForm(
   ULONG_PTR ulUIParam,
   ULONG ulFlags,

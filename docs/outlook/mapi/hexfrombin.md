@@ -30,7 +30,7 @@ Converts a binary number into a string representation of a hexadecimal number.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 void HexFromBin(
   LPBYTE pb,
   int cb,

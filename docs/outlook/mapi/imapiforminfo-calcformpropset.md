@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns a pointer to the complete set of properties that a form uses.
   
-```
+```cpp
 HRESULT CalcFormPropSet(
   ULONG ulFlags,
   LPMAPIFORMPROPARRAY FAR * ppFormPropArray

@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Closes a message store provider in an orderly fashion.
   
-```
+```cpp
 HRESULT Shutdown(
   ULONG FAR * lpulFlags
 );

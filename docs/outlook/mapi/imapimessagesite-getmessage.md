@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns the current message.
   
-```
+```cpp
 HRESULT GetMessage(
   LPMESSAGE FAR * ppmsg
 );

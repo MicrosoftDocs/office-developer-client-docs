@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Saves all of the message's properties and marks the message as ready to be sent.
   
-```cs
+```cpp
 HRESULT SubmitMessage(
   ULONG ulFlags
 );

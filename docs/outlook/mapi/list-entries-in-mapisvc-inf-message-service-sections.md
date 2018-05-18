@@ -20,7 +20,7 @@ description: "Last modified: July 23, 2011"
   
 There are two types of section list entries: one that lists service provider sections and one that lists miscellaneous message service-specific sections. These two types of entries appear in mapisvc.inf using the following formats:
   
-```
+```cpp
 Providersprovider section1, provider section2, ...... provider sectionX
 Sectionssection name1, section name2, ......section nameX
 
@@ -30,7 +30,7 @@ Each section in the **Providers** entry maps to an individual section providing 
   
 Two examples of message service sections follow. The first section is for the Default Address Book service from the earlier illustration, a straightforward message service with a single service provider. The second section is for the MsgService service, a more complex sample message service with three service providers. 
   
-```
+```cpp
 [AB]
 PR_DISPLAY_NAME=Default Address Book
 Providers=AB Provider
@@ -52,7 +52,7 @@ PR_RESOURCE_FLAGS=SERVICE_SINGLE_COPY
 
 The **Sections** entry in the **[MsgService]** section lists two additional sections, one called **[First_Special_Section]** and the other called **[Second_Special_Section]**. The data that might appear in extra sections is meaningful to the specific message service. These sections appear following to illustrate extra sections. 
   
-```
+```cpp
 [First_Special_Section]
 UID=13DB0C8AA05101A9BB000AA002FC45A
 66020003=01000000

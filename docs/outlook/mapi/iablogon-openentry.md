@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Opens a container, messaging user, or distribution list, and returns a pointer to an interface implementation to provide further access.
   
-```
+```cpp
 HRESULT OpenEntry(
   ULONG cbEntryID,
   LPENTRYID lpEntryID,

@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Converts a message store's internal entry identifier to an entry identifier in the MAPI standard format.
   
-```
+```cpp
 HRESULT WrapStoreEntryID(
 ULONG cbOrigEntry,
 LPENTRYID lpOrigEntry,

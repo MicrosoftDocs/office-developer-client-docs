@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns information from a message site object about the message site's capabilities for the current message.
   
-```
+```cpp
 HRESULT GetSiteStatus(
   ULONG FAR * lpulStatus
 );

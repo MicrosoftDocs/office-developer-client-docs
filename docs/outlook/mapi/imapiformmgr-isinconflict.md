@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Determines whether a form can handle its own message conflicts. A message is in conflict if it has been simultaneously edited by more than one user. This can happen to messages in public folders.
   
-```
+```cpp
 HRESULT IsInConflict(
   ULONG ulMessageFlags,
   ULONG ulMessageStatus,

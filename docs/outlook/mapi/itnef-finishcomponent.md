@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Processes individual components from a message one at a time into a Transport-Neutral Encapsulation Format (TNEF) stream.
   
-```
+```cpp
 HRESULT FinishComponent(
   ULONG ulFlags,
   ULONG ulComponentID,

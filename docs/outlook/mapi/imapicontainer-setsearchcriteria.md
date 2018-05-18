@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Establishes search criteria for the container.
   
-```
+```cpp
 HRESULT SetSearchCriteria(
   LPSRestriction lpRestriction,
   LPENTRYLIST lpContainerList,

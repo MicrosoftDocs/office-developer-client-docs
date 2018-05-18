@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns a pointer to the container's hierarchy table.
   
-```
+```cpp
 HRESULT GetHierarchyTable(
   ULONG ulFlags,
   LPMAPITABLE FAR * lppTable

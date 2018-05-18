@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Opens a recipient entry that has data residing in a host address book provider.
   
-```
+```cpp
 HRESULT OpenTemplateID(
   ULONG cbTemplateID,
   LPENTRYID lpTemplateID,

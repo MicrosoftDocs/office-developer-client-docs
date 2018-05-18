@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Cancels callbacks for an offline object.
   
-```
+```cpp
 HRESULT COfflineObj::Unadvise( 
       ULONG ulFlags, 
       ULONG ulAdviseToken 

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Registers an advise sink object to receive notification of specified events affecting the table.
   
-```
+```cpp
 HRESULT Advise(
 ULONG ulEventMask,
 LPMAPIADVISESINK lpAdviseSink,

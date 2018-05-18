@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Provides access to the message service table, a list of the message services in the profile.
   
-```
+```cpp
 HRESULT GetMsgServiceTable(
   ULONG ulFlags,
   LPMAPITABLE FAR * lppTable

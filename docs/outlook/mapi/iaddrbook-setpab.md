@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Designates a particular container as the personal address book (PAB).
   
-```
+```cpp
 HRESULT SetPAB(
   ULONG cbEntryID,
   LPENTRYID lpEntryID

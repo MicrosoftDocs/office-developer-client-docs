@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Initiates the transfer of an inbound message from the transport provider to the MAPI spooler.
   
-```
+```cpp
 HRESULT StartMessage(
   ULONG ulFlags,
   LPMESSAGE lpMessage,

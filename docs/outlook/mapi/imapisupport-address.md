@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Displays the common address dialog box. 
   
-```
+```cpp
 HRESULT Address(
   ULONG_PTR FAR * lpulUIParam,
   LPADRPARM lpAdrParms,

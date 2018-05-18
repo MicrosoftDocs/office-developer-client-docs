@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Sets a new search path in the profile that is used for the name resolution process. 
   
-```
+```cpp
 HRESULT SetSearchPath(
   ULONG ulFlags,
   LPSRowSet lpSearchPath

@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Gets information about a folder's support for sharing.
   
-```
+```cpp
 HRESULT GetSupportMask( 
     DWORD * pdwSupportMask 
 ); 

@@ -30,7 +30,7 @@ Recreates an entry identifier from its ASCII encoding.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications  <br/> |
    
-```
+```cpp
 HRESULT HrEntryIDFromSz(
   LPSTR sz,
   ULONG FAR * pcb,

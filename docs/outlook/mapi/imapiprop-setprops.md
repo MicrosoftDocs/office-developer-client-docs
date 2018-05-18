@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Updates one or more properties.
   
-```
+```cpp
 HRESULT SetProps(
   ULONG cValues,
   LPSPropValue lpPropArray,

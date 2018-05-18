@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Copies a profile.
   
-```
+```cpp
 HRESULTCopyProfile(
   LPSTR lpszOldProfileName,
   LPSTR lpszOldPassword,

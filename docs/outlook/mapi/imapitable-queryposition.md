@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Retrieves the current table row position of the cursor, based on a fractional value.
   
-```
+```cpp
 HRESULT QueryPosition(
 ULONG FAR * lpulRow,
 ULONG FAR * lpulNumerator,

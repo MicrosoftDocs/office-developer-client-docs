@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Establishes a session in which a client application logs on to a transport provider. 
   
-```
+```cpp
 HRESULT TransportLogon(
   LPMAPISUP lpMAPISup,
   ULONG_PTR ulUIParam,

@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Modifies a service provider's password without displaying a user interface. This method is optionally supported in status objects that service providers implement.
   
-```
+```cpp
 HRESULT ChangePassword(
   LPSTR lpOldPass,
   LPSTR lpNewPass,

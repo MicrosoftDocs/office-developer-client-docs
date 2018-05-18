@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Moves the cursor to a specific position in the table.
   
-```
+```cpp
 HRESULT SeekRow(
 BOOKMARK bkOrigin,
 LONG lRowCount,

@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Resolves a message class to its form within a form container, and returns a form information object for that form.
   
-```
+```cpp
 HRESULT ResolveMessageClass(
   LPCSTR szMsgClass,
   ULONG ulFlags,

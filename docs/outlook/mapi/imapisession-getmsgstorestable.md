@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Provides access to the message store table that contains information about all the message stores in the session profile.
   
-```
+```cpp
 HRESULT GetMsgStoresTable(
   ULONG ulFlags,
   LPMAPITABLE FAR * lppTable

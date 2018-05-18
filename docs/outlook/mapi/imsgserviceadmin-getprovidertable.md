@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Provides access to the provider table, a listing of the service providers in the profile.
   
-```
+```cpp
 HRESULT GetProviderTable(
   ULONG ulFlags,
   LPMAPITABLE FAR * lppTable

@@ -30,7 +30,7 @@ Creates an advise sink that wraps an existing advise sink for thread safety.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications  <br/> |
    
-```
+```cpp
 HrThisThreadAdviseSink(
   LPMAPIADVISESINK lpAdviseSink,
   LPMAPIADVISESINK FAR * lppAdviseSink

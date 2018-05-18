@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns property tags for all properties. 
   
-```
+```cpp
 HRESULT GetPropList(
   ULONG ulFlags,
   LPSPropTagArray FAR * lppPropTagArray

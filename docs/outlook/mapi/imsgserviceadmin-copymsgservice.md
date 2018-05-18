@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Copies a message service into a profile. 
   
-```
+```cpp
 HRESULT CopyMsgService(
   LPMAPIUID lpUID,
   LPSTR lpszDisplayName,

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Presents a dialog box that enables the user to select a form, and returns a form information object that describes that form.
   
-```
+```cpp
 HRESULT SelectForm(
   ULONG_PTR ulUIParam,
   ULONG ulFlags,

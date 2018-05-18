@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Logs off a message store provider. 
   
-```
+```cpp
 HRESULT Logoff(
   ULONG FAR * lpulFlags
 );

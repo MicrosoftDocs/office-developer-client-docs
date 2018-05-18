@@ -28,7 +28,7 @@ Describes a globally unique identifier (GUID).
 |:-----|:-----|
 |Header file:  <br/> |Mapiguid.h  <br/> |
    
-```
+```cpp
 typedef struct _GUID
 {
   unsigned long Data1;

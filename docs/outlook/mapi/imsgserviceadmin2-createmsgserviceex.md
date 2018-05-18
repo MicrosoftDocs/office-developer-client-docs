@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Adds a message service to the current profile and returns that newly added service UID.
   
-```
+```cpp
 HRESULT CreateMsgServiceEx(
   LPSTR lpszService,
   LPSTR lpszDisplayName,

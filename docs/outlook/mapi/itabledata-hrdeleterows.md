@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Deletes multiple table rows.
   
-```
+```cpp
 HRESULT HrDeleteRows(
   ULONG ulFlags,
   LPSRowSet lprowsetToDelete,

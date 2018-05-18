@@ -26,7 +26,7 @@ Returns the entry identifier of the global address book for the Exchange service
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 HRESULT HrGetGALFromEmsmdbUID(
   LPMAPISESSION pSess,
   LPADRBOOK lpAdrBook,

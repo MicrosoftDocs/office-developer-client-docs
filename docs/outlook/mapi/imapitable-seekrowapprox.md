@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Moves the cursor to an approximate fractional position in the table. 
   
-```
+```cpp
 HRESULT SeekRowApprox(
 ULONG ulNumerator,
 ULONG ulDenominator

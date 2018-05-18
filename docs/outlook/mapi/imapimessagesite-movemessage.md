@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Moves the current message to a folder.
   
-```
+```cpp
 HRESULT MoveMessage(
   LPFOLDER pFolderDestination,
   LPMAPIVIEWCONTEXT pViewContext,

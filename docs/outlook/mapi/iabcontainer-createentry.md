@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Creates a new entry, which can be a messaging user, a distribution list, or another container.
   
-```
+```cpp
 HRESULT CreateEntry(
   ULONG cbEntryID,
   LPENTRYID lpEntryID,

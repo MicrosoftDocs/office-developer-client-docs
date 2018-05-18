@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns a pointer to an interface for a MAPI table object.
   
-```
+```cpp
 HRESULT GetTable( 
   ULONG ulFlags, 
   LPMAPITABLE FAR * lppTable 

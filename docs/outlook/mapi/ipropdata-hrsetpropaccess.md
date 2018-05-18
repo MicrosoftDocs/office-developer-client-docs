@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Sets the access level or status for one or more of the object's properties.
   
-```
+```cpp
 HRESULT HrSetPropAccess(
   LPSPropTagArray lpPropTagArray,
   ULONG FAR * rgulAccess

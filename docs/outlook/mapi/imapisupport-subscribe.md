@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Registers an advise sink to receive notifications through MAPI.
   
-```
+```cpp
 HRESULT Subscribe(
 LPNOTIFKEY lpKey,
 ULONG ulEventMask,

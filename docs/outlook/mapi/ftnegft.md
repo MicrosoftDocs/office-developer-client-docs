@@ -30,7 +30,7 @@ Computes the two's complement of an unsigned 64-bit integer.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 FILETIME FtNegFt(
   FILETIME ft
 );

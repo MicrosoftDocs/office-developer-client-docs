@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns the maximum number of items in the operation for which progress information is displayed.
   
-```
+```cpp
 HRESULT GetMax(
   ULONG FAR * lpulMax
 );

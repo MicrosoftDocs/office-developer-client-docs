@@ -22,7 +22,7 @@ Specifies the process that is sending a notification to the MAPI Protocol Handle
   
 ## Quick Info
 
-```
+```cpp
 typedef struct _INDEX_SEARCH_PUSHER_PROCESS {  
     DWORD dwPID;  
 } INDEX_SEARCH_PUSHER_PROCESS; 

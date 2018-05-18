@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Creates a numeric token that the [IMAPISession::ShowForm](imapisession-showform.md) method uses to access a message. 
   
-```
+```cpp
 HRESULT PrepareForm(
   LPCIID lpInterface,
   LPMESSAGE lpMessage,

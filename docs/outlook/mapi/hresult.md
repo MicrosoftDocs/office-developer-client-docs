@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 A 32-bit value that is used to describe an error or warning.
   
-```
+```cpp
 typedef LONG HRESULT;
 ```
 

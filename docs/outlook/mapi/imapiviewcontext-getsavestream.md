@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Retrieves a stream to be used for saving the current message.
   
-```
+```cpp
 HRESULT GetSaveStream(
 ULONG FAR * pulFlags,
 ULONG FAR * pulFormat,

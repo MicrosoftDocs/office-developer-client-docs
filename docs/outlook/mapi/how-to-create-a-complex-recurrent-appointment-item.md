@@ -1,5 +1,5 @@
 ---
-title: "Create a Complex Recurrent Appointment Item"
+title: "Create a complex recurrent appointment item"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,21 +8,15 @@ api_type:
 - COM
 ms.assetid: da9626da-5ba5-4f18-954c-4e23971d23e8
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
-# Create a Complex Recurrent Appointment Item
-
-  
+# Create a complex recurrent appointment item
   
 **Applies to**: Outlook 
   
 MAPI can be used to create recurring appointment items.
   
 For information about how to download, view, and run the code from the MFCMAPI application and CreateOutlookItemsAddin project referenced in this topic, see [Install the Samples Used in This Section](how-to-install-the-samples-used-in-this-section.md).
-  
-### 
 
 ### To create an appointment item
 
@@ -45,11 +39,15 @@ The  `AddAppointment` method is listed below. Note that the  _lpFolder_ paramete
   
 The  `AddAppointment` function sets a number of named properties. For information about named properties and how they are created, see [Using MAPI to Create Outlook 2007 Items](http://msdn.microsoft.com/en-us/library/cc678348%28office.12%29.aspx). Because the named properties used for appointment items occupy multiple property sets, care must be taken when building parameters to pass to the [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) method. 
   
-The  `AddAppointment` function uses several helper functions to build a structure for various appointment-related properties. The  `BuildTimeZoneStruct` and  `BuildTimeZoneDefinition` helper functions are used to build a structure that specifies the time-zone-related properties. The time-zone-related properties are **dispidTimeZoneStruct** ([PidLidTimeZoneStruct](pidlidtimezonestruct-canonical-property.md)), **dispidTimeZoneDesc** ([PidLidTimeZoneDescription](pidlidtimezonedescription-canonical-property.md)), **dispidApptTZDefRecur** ([PidLidAppointmentTimeZoneDefinitionRecur](pidlidappointmenttimezonedefinitionrecur-canonical-property.md)), **dispidApptTZDefStartDisplay** ([PidLidAppointmentTimeZoneDefinitionStartDisplay](pidlidappointmenttimezonedefinitionstartdisplay-canonical-property.md)), and **dispidApptTZDefEndDisplay** ([PidLidAppointmentTimeZoneDefinitionEndDisplay](pidlidappointmenttimezonedefinitionenddisplay-canonical-property.md)), and they are discussed in the corresponding sections of [[MS-OXOCAL]](http://msdn.microsoft.com/en-us/library/cc425490%28v=EXCHG.80%29.aspx). The  `BuildGlobalObjectID` function is used to build a structure that specifies the **LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)) and **dispidCleanGlobalObjId** ([PidLidCleanGlobalObjectId](pidlidcleanglobalobjectid-canonical-property.md)) properties, which are discussed in the corresponding sections of [[MS-OXOCAL]](http://msdn.microsoft.com/en-us/library/cc425490%28v=EXCHG.80%29.aspx). The structure that specifies the **dispidApptRecur** property is built using the  `BuildWeeklyAppointmentRecurrencePattern` function. For information about the structure built by the  `BuildWeeklyAppointmentRecurrencePattern` function, see [PidLidAppointmentRecur Canonical Property](pidlidappointmentrecur-canonical-property.md). Note that while a large variety of appointment recurrence patterns are possible, the  `BuildWeeklyAppointmentRecurrencePattern` function only builds a weekly appointment recurrence pattern. It also uses several hard-coded values, such as the calendar type (Gregorian), the first day of the week (Sunday), and number of modified or deleted instances (none). A more general purpose appointment recurrence pattern creation function would need to accept these sorts of variables as parameters. 
+The  `AddAppointment` function uses several helper functions to build a structure for various appointment-related properties. The  `BuildTimeZoneStruct` and  `BuildTimeZoneDefinition` helper functions are used to build a structure that specifies the time-zone-related properties. The time-zone-related properties are **dispidTimeZoneStruct** ([PidLidTimeZoneStruct](pidlidtimezonestruct-canonical-property.md)), **dispidTimeZoneDesc** ([PidLidTimeZoneDescription](pidlidtimezonedescription-canonical-property.md)), **dispidApptTZDefRecur** ([PidLidAppointmentTimeZoneDefinitionRecur](pidlidappointmenttimezonedefinitionrecur-canonical-property.md)), **dispidApptTZDefStartDisplay** ([PidLidAppointmentTimeZoneDefinitionStartDisplay](pidlidappointmenttimezonedefinitionstartdisplay-canonical-property.md)), and **dispidApptTZDefEndDisplay** ([PidLidAppointmentTimeZoneDefinitionEndDisplay](pidlidappointmenttimezonedefinitionenddisplay-canonical-property.md)), and they are discussed in the corresponding sections of [[MS-OXOCAL]](http://msdn.microsoft.com/en-us/library/cc425490%28v=EXCHG.80%29.aspx). 
+
+The  `BuildGlobalObjectID` function is used to build a structure that specifies the **LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)) and **dispidCleanGlobalObjId** ([PidLidCleanGlobalObjectId](pidlidcleanglobalobjectid-canonical-property.md)) properties, which are discussed in the corresponding sections of [[MS-OXOCAL]](http://msdn.microsoft.com/en-us/library/cc425490%28v=EXCHG.80%29.aspx). The structure that specifies the **dispidApptRecur** property is built using the  `BuildWeeklyAppointmentRecurrencePattern` function. 
+
+For information about the structure built by the  `BuildWeeklyAppointmentRecurrencePattern` function, see [PidLidAppointmentRecur Canonical Property](pidlidappointmentrecur-canonical-property.md). Note that while a large variety of appointment recurrence patterns are possible, the  `BuildWeeklyAppointmentRecurrencePattern` function only builds a weekly appointment recurrence pattern. It also uses several hard-coded values, such as the calendar type (Gregorian), the first day of the week (Sunday), and number of modified or deleted instances (none). A more general purpose appointment recurrence pattern creation function would need to accept these sorts of variables as parameters. 
   
 The following is the complete listing of the  `AddAppointment` function. 
   
-```
+```cpp
 HRESULT AddAppointment(LPMAPIFOLDER lpFolder,
                SYSTEMTIME* lpstStartDateLocal, // PidLidAppointmentRecur
                SYSTEMTIME* lpstEndDateLocal, // PidLidAppointmentRecur
@@ -74,7 +72,7 @@ HRESULT AddAppointment(LPMAPIFOLDER lpFolder,
    // create a message and set its properties
    hRes = lpFolder->CreateMessage(0,
       0,
-      &amp;lpMessage);
+      &lpMessage);
    if (SUCCEEDED(hRes))
    {
       MAPINAMEID  rgnmid[ulAppointmentProps];
@@ -84,21 +82,21 @@ HRESULT AddAppointment(LPMAPIFOLDER lpFolder,
       for (i = 0 ; i < ulAppointmentProps ; i++)
       {
          if (i < ulFirstMeetingProp)
-            rgnmid[i].lpguid = (LPGUID)&amp;PSETID_Appointment;
+            rgnmid[i].lpguid = (LPGUID)&PSETID_Appointment;
          else if (i < ulFirstCommonProp)
-            rgnmid[i].lpguid = (LPGUID)&amp;PSETID_Meeting;
+            rgnmid[i].lpguid = (LPGUID)&PSETID_Meeting;
          else
-            rgnmid[i].lpguid = (LPGUID)&amp;PSETID_Common;
+            rgnmid[i].lpguid = (LPGUID)&PSETID_Common;
          rgnmid[i].ulKind = MNID_ID;
          rgnmid[i].Kind.lID = aulAppointmentProps[i];
-         rgpnmid[i] = &amp;rgnmid[i];
+         rgpnmid[i] = &rgnmid[i];
       }
       hRes = lpFolder->GetIDsFromNames(
          ulAppointmentProps,
-         (LPMAPINAMEID*) &amp;rgpnmid,
+         (LPMAPINAMEID*) &rgpnmid,
          NULL,
-         &amp;lpNamedPropTags);
-      if (SUCCEEDED(hRes) &amp;&amp; lpNamedPropTags)
+         &lpNamedPropTags);
+      if (SUCCEEDED(hRes) && lpNamedPropTags)
       {
       // Because the properties to be set are known in advance, 
       // most of the structures involved can be statically declared 
@@ -167,14 +165,14 @@ HRESULT AddAppointment(LPMAPIFOLDER lpFolder,
          spvProps[p_PidLidAppointmentSequence].Value.l = 0;
          spvProps[p_PidLidBusyStatus].Value.l = olBusy;
          spvProps[p_PidLidLocation].Value.lpszW = szLocation;
-         SystemTimeToFileTime(lpstStartFirstUST,&amp;spvProps[p_PidLidAppointmentStartWhole].Value.ft);
-         SystemTimeToFileTime(lpstEndFirstUST,&amp;spvProps[p_PidLidAppointmentEndWhole].Value.ft);
+         SystemTimeToFileTime(lpstStartFirstUST,&spvProps[p_PidLidAppointmentStartWhole].Value.ft);
+         SystemTimeToFileTime(lpstEndFirstUST,&spvProps[p_PidLidAppointmentEndWhole].Value.ft);
          spvProps[p_PidLidAppointmentDuration].Value.l = ulDuration;
          spvProps[p_PidLidAppointmentColor].Value.l = 0; // No color
          spvProps[p_PidLidResponseStatus].Value.l = respNone;
          spvProps[p_PidLidRecurring].Value.b = true;
-         SystemTimeToFileTime(lpszClipStartUST,&amp;spvProps[p_PidLidClipStart].Value.ft);
-         SystemTimeToFileTime(lpstClipEndUST,&amp;spvProps[p_PidLidClipEnd].Value.ft);
+         SystemTimeToFileTime(lpszClipStartUST,&spvProps[p_PidLidClipStart].Value.ft);
+         SystemTimeToFileTime(lpstClipEndUST,&spvProps[p_PidLidClipEnd].Value.ft);
          SYSTEMTIME stStandard = {0};
          stStandard.wMonth = 0xB;
          stStandard.wDay = 0x1;
@@ -187,11 +185,11 @@ HRESULT AddAppointment(LPMAPIFOLDER lpFolder,
             300,
             0,
             (DWORD)-60,
-            &amp;stStandard,
-            &amp;stDaylight,
-            &amp;spvProps[p_PidLidTimeZoneStruct].Value.bin.cb,
-            &amp;spvProps[p_PidLidTimeZoneStruct].Value.bin.lpb);
-         spvProps[p_PidLidTimeZoneDescription].Value.lpszW = L"(GMT-05:00) Eastern Time (US &amp; Canada)";
+            &stStandard,
+            &stDaylight,
+            &spvProps[p_PidLidTimeZoneStruct].Value.bin.cb,
+            &spvProps[p_PidLidTimeZoneStruct].Value.bin.lpb);
+         spvProps[p_PidLidTimeZoneDescription].Value.lpszW = L"(GMT-05:00) Eastern Time (US & Canada)";
          SYSTEMTIME stRule1Standard = {0};
          stRule1Standard.wMonth = 0xA;
          stRule1Standard.wDay = 0x5;
@@ -207,17 +205,17 @@ HRESULT AddAppointment(LPMAPIFOLDER lpFolder,
             300, // lbias
             0, // lStandardBias,
             (DWORD)-60, // lDaylightBias,
-            &amp;stRule1Standard, // stStandardDate
-            &amp;stRule1Daylight, // stDaylightDate
+            &stRule1Standard, // stStandardDate
+            &stRule1Daylight, // stDaylightDate
             TZRULE_FLAG_EFFECTIVE_TZREG, // TZRule Flags
             2007, // wYear
             300, // lbias
             0, // lStandardBias,
             (DWORD)-60, // lDaylightBias,
-            &amp;stStandard, // stStandardDate
-            &amp;stDaylight, // stDaylightDate
-            &amp;spvProps[p_PidLidAppointmentTimeZoneDefinitionRecur].Value.bin.cb,
-            &amp;spvProps[p_PidLidAppointmentTimeZoneDefinitionRecur].Value.bin.lpb);
+            &stStandard, // stStandardDate
+            &stDaylight, // stDaylightDate
+            &spvProps[p_PidLidAppointmentTimeZoneDefinitionRecur].Value.bin.cb,
+            &spvProps[p_PidLidAppointmentTimeZoneDefinitionRecur].Value.bin.lpb);
          spvProps[p_PidLidAppointmentTimeZoneDefinitionStartDisplay].Value.bin.cb
             = spvProps[p_PidLidAppointmentTimeZoneDefinitionRecur].Value.bin.cb;
          spvProps[p_PidLidAppointmentTimeZoneDefinitionStartDisplay].Value.bin.lpb
@@ -235,28 +233,28 @@ HRESULT AddAppointment(LPMAPIFOLDER lpFolder,
             dwPeriod,
             dwOccurrenceCount,
             dwPatternTypeSpecific,
-            &amp;spvProps[p_PidLidAppointmentRecur].Value.bin.cb,
-            &amp;spvProps[p_PidLidAppointmentRecur].Value.bin.lpb);
+            &spvProps[p_PidLidAppointmentRecur].Value.bin.cb,
+            &spvProps[p_PidLidAppointmentRecur].Value.bin.lpb);
          spvProps[p_PidLidRecurrenceType].Value.l = rectypeWeekly;
          spvProps[p_PidLidRecurrencePattern].Value.lpszW = szPattern;
          spvProps[p_PidLidIsRecurring].Value.b = true;
          if (SUCCEEDED(hRes)) hRes = BuildGlobalObjectId(
-            &amp;spvProps[p_PidLidGlobalObjectId].Value.bin.cb,
-            &amp;spvProps[p_PidLidGlobalObjectId].Value.bin.lpb);
+            &spvProps[p_PidLidGlobalObjectId].Value.bin.cb,
+            &spvProps[p_PidLidGlobalObjectId].Value.bin.lpb);
          spvProps[p_PidLidCleanGlobalObjectId].Value.bin.cb  = spvProps[p_PidLidGlobalObjectId].Value.bin.cb;
          spvProps[p_PidLidCleanGlobalObjectId].Value.bin.lpb = spvProps[p_PidLidGlobalObjectId].Value.bin.lpb;
-         SystemTimeToFileTime(lpstStartFirstUST,&amp;spvProps[p_PidLidCommonStart].Value.ft);
-         SystemTimeToFileTime(lpstEndFirstUST,&amp;spvProps[p_PidLidCommonEnd].Value.ft);
+         SystemTimeToFileTime(lpstStartFirstUST,&spvProps[p_PidLidCommonStart].Value.ft);
+         SystemTimeToFileTime(lpstEndFirstUST,&spvProps[p_PidLidCommonEnd].Value.ft);
          spvProps[p_PidLidSideEffects].Value.l
             = seOpenToDelete | seOpenToCopy | seOpenToMove | seCoerceToInbox | seOpenForCtxMenu;
          spvProps[p_PR_SUBJECT_W].Value.lpszW = szSubject;
-         SystemTimeToFileTime(lpstStartFirstUST,&amp;spvProps[p_PR_START_DATE].Value.ft);
-         SystemTimeToFileTime(lpstEndFirstUST,&amp;spvProps[p_PR_END_DATE].Value.ft);
+         SystemTimeToFileTime(lpstStartFirstUST,&spvProps[p_PR_START_DATE].Value.ft);
+         SystemTimeToFileTime(lpstEndFirstUST,&spvProps[p_PR_END_DATE].Value.ft);
          spvProps[p_PR_MESSAGE_CLASS_W].Value.lpszW = L"IPM.Appointment";
          spvProps[p_PR_ICON_INDEX].Value.l = 0x00000401; // Recurring Appointment
          if (SUCCEEDED(hRes)) hRes = BuildConversationIndex(
-            &amp;spvProps[p_PR_CONVERSATION_INDEX].Value.bin.cb,
-            &amp;spvProps[p_PR_CONVERSATION_INDEX].Value.bin.lpb);
+            &spvProps[p_PR_CONVERSATION_INDEX].Value.bin.cb,
+            &spvProps[p_PR_CONVERSATION_INDEX].Value.bin.lpb);
          spvProps[p_PR_MESSAGE_FLAGS].Value.l = MSGFLAG_READ;
          if (SUCCEEDED(hRes)) hRes = lpMessage->SetProps(NUM_PROPS, spvProps, NULL);
          if (SUCCEEDED(hRes))
@@ -289,7 +287,5 @@ HRESULT AddAppointment(LPMAPIFOLDER lpFolder,
 
 ## See also
 
-#### Other resources
-
-[Using MAPI to Create Outlook 2007 Items](http://msdn.microsoft.com/en-us/library/cc678348%28office.12%29.aspx)
+- [Using MAPI to Create Outlook 2007 Items](http://msdn.microsoft.com/en-us/library/cc678348%28office.12%29.aspx)
 

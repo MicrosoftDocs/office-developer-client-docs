@@ -26,7 +26,7 @@ Performs the same function as [HrOpenABEntryWithExchangeContext](hropenabentrywi
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 HRESULT HrOpenABEntryUsingDefaultContext(
   LPMAPISESSION pmsess,
   LPADRBOOK pAddrBook,

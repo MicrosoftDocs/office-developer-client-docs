@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Informs the local message store that synchronization is about to start.
   
-```
+```cpp
 HRESULT InitSync( 
     ULONG ulFlags 
 );

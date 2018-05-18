@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Opens a stream interface on the text of an encapsulated message.
   
-```
+```cpp
 HRESULT OpenTaggedBody(
   LPMESSAGE lpMessage,
   ULONG ulFlags,

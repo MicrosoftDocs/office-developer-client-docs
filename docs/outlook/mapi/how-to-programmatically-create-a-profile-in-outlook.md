@@ -1,23 +1,19 @@
 ---
-title: "Programmatically Create a Profile in Outlook"
+title: "Programmatically create a profile in Outlook"
 manager: soliver
 ms.date: 6/2/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2a8561a9-df09-453a-b415-c45910625870
 description: "This topic describes how to programmatically update a profile in Outlook 2016 by adding a MAPI property to the emsuid section of the Profile object."
- 
- 
 ---
 
-# Programmatically Create a Profile in Outlook
+# Programmatically create a profile in Outlook
+
+**Applies to**: Office 365 | Outlook | Outlook 2016 
 
 This topic describes how to programmatically update a profile in Outlook 2016 by adding a MAPI property to the **emsuid** section of the Profile object. 
-  
 
-  
-**Applies to**: Office 365 | Outlook | Outlook 2016 
-  
 In MAPI, you can update a profile by setting the property **PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W (0x6641001F)**, as indicated in the procedure below. 
   
 ### Set the property for Outlook 2016
@@ -26,7 +22,7 @@ In MAPI, you can update a profile by setting the property **PR_PROFILE_USER_SMTP
     
 2. Using the [IMAPIProp](https://msdn.microsoft.com/en-us/library/cc815525.aspx) interface, go to the Outlook Profile section. 
     
-     This can be difficult in Outlook's MAPI, since in 2010 and above there is no longer the global profile section. To find the Profile section, find the property PR_EMSMDB_SECTION_UID (0x3D150102). The value will be the GUID of the profile section persisted in binary form, which will be used in the subsequent steps. You will need to remember this value. 
+   This can be difficult in Outlook's MAPI, since in 2010 and above there is no longer the global profile section. To find the Profile section, find the property PR_EMSMDB_SECTION_UID (0x3D150102). The value will be the GUID of the profile section persisted in binary form, which will be used in the subsequent steps. You will need to remember this value. 
     
 3. Add the property **PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W**. 
     
@@ -36,7 +32,7 @@ In MAPI, you can update a profile by setting the property **PR_PROFILE_USER_SMTP
     
 ## Code example
 
-```
+```cpp
 // CreateProfile.cpp : Defines the entry point for the console application.
 //
 #include "stdafx.h"
@@ -91,7 +87,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	}
 	// Get an IProfAdmin interface.
 	if (FAILED(hRes = MAPIAdminProfiles(0,              // Flags.
-		&amp;lpProfAdmin))) // Pointer to new IProfAdmin.
+		&lpProfAdmin))) // Pointer to new IProfAdmin.
 	{
 		cout << "Error getting IProfAdmin interface.";
 		goto error;
@@ -110,7 +106,7 @@ int _tmain(int argc, _TCHAR* argv[])
 													nullptr,          // Password for that profile.
 													0,          // Handle to parent window.
 													0,             // Flags.
-													&amp;lpSvcAdmin))) // Pointer to new IMsgServiceAdmin.
+													&lpSvcAdmin))) // Pointer to new IMsgServiceAdmin.
 	{
 		cout << "Error getting IMsgServiceAdmin interface.";
 		goto error;
@@ -128,7 +124,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	// You can do this by getting the message service table
 	// and getting the entry that corresponds to the new service.
 	if (FAILED(hRes = lpSvcAdmin->GetMsgServiceTable(0,                 // Flags.
-													&amp;lpMsgSvcTable)))  // Pointer to table.
+													&lpMsgSvcTable)))  // Pointer to table.
 	{
 		cout << "Error getting Message Service Table.";
 		goto error;
@@ -137,21 +133,21 @@ int _tmain(int argc, _TCHAR* argv[])
 	sres.rt = RES_CONTENT;
 	sres.res.resContent.ulFuzzyLevel = FL_FULLSTRING;
 	sres.res.resContent.ulPropTag = PR_SERVICE_NAME;
-	sres.res.resContent.lpProp = &amp;SvcProps;
+	sres.res.resContent.lpProp = &SvcProps;
 	SvcProps.ulPropTag = PR_SERVICE_NAME;
 	SvcProps.Value.lpszA = "MSEMS";
 	// Query the table to obtain the entry for the newly created message service.
 	if (FAILED(hRes = HrQueryAllRows(lpMsgSvcTable,
-										(LPSPropTagArray)&amp;sptCols,
-										&amp;sres,
+										(LPSPropTagArray)&sptCols,
+										&sres,
 										NULL,
 										0,
-										&amp;lpSvcRows)))
+										&lpSvcRows)))
 	{
 		cout << "Error querying table for new message service.";
 		goto error;
 	}
-	ZeroMemory(&amp;spvSmtpAddressW, sizeof(spvSmtpAddressW));
+	ZeroMemory(&spvSmtpAddressW, sizeof(spvSmtpAddressW));
 	spvSmtpAddressW.ulPropTag = PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W;
 	spvSmtpAddressW.Value.lpszW = PropValueMap[PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W];
 	rgvals.push_back(spvSmtpAddressW);
@@ -170,7 +166,7 @@ int _tmain(int argc, _TCHAR* argv[])
 													lpSvcAdmin, 
 													(LPMAPIUID)lpSvcRows->aRow->lpProps[iSvcUID].Value.bin.lpb, 
 													MAPI_MODIFY, 
-													&amp;lpGlobalProfSection)))
+													&lpGlobalProfSection)))
 	{
 		cout << "Error attempting to get the Global Profile Section.";
 		goto error;
@@ -189,11 +185,11 @@ int _tmain(int argc, _TCHAR* argv[])
 		cout << "Error attempting to save after setting the smtp address";
 		goto error;
 	}
-	if (FAILED(hRes = GetEMSMDBVarProfileSection(lpSvcAdmin, lpGlobalProfSection, &amp;lpEmsMdbVarProfSect)))
+	if (FAILED(hRes = GetEMSMDBVarProfileSection(lpSvcAdmin, lpGlobalProfSection, &lpEmsMdbVarProfSect)))
 	{
 		goto error;
 	}
-	ZeroMemory(&amp;spvDisplayName, sizeof(spvDisplayName));
+	ZeroMemory(&spvDisplayName, sizeof(spvDisplayName));
 	spvDisplayName.ulPropTag = PR_DISPLAY_NAME_W;
 	spvDisplayName.Value.lpszW = PropValueMap[PR_DISPLAY_NAME_W];
 	rgvals.push_back(spvDisplayName);
@@ -237,12 +233,12 @@ STDMETHODIMP GetGlobalProfileSection(LPSERVICEADMIN lpSvcAdmin, LPMAPIUID lpMapi
 	hRes = lpSvcAdmin->OpenProfileSection(lpMapiUid,
 		0,
 		MAPI_FORCE_ACCESS,
-		&amp;lpProfSect);
+		&lpProfSect);
 	if (FAILED(hRes) || lpProfSect == nullptr)
 	{
 		return hRes;
 	}
-	hRes = lpProfSect->GetProps((LPSPropTagArray)&amp;spta, 0, &amp;cValues, &amp;lpProps);
+	hRes = lpProfSect->GetProps((LPSPropTagArray)&spta, 0, &cValues, &lpProps);
 	if (FAILED(hRes) || lpProps == nullptr || cValues == 0)
 	{
 		return hRes;
@@ -252,7 +248,7 @@ STDMETHODIMP GetGlobalProfileSection(LPSERVICEADMIN lpSvcAdmin, LPMAPIUID lpMapi
 		hRes = lpProps[0].Value.err;
 		goto Cleanup;
 	}
-	hRes = lpSvcAdmin->OpenProfileSection((LPMAPIUID)lpProps->Value.bin.lpb, 0, ulFlags, &amp;lpEmsMdbVarProfSect);
+	hRes = lpSvcAdmin->OpenProfileSection((LPMAPIUID)lpProps->Value.bin.lpb, 0, ulFlags, &lpEmsMdbVarProfSect);
 	if (FAILED(hRes) || lpEmsMdbVarProfSect == nullptr)
 	{
 		goto Cleanup;
@@ -280,10 +276,10 @@ STDMETHODIMP GetEMSMDBVarProfileSection(LPSERVICEADMIN lpSvcAdmin, LPPROFSECT lp
 		return E_INVALIDARG;
 	*lppProfSect = nullptr;
 	if (FAILED(hRes = lpGlobalProfSection->GetProps(
-		(LPSPropTagArray)&amp;sptaStoreProviders,
+		(LPSPropTagArray)&sptaStoreProviders,
 		0,
-		&amp;cValues,
-		&amp;lpProps)) || cValues == 0 || lpProps == nullptr)
+		&cValues,
+		&lpProps)) || cValues == 0 || lpProps == nullptr)
 	{
 		cout << "Error attempting to get the PR_STORE_PROVIDERS property " << endl;
 		goto Cleanup;
@@ -297,7 +293,7 @@ STDMETHODIMP GetEMSMDBVarProfileSection(LPSERVICEADMIN lpSvcAdmin, LPPROFSECT lp
 		(LPMAPIUID)lpProps->Value.bin.lpb,
 		0,
 		MAPI_FORCE_ACCESS | MAPI_MODIFY,
-		&amp;lpProfSect)) || lpProfSect == nullptr)
+		&lpProfSect)) || lpProfSect == nullptr)
 	{
 		cout << "Could not open the profile section using the PR_STORE_PROVIDERS property " << endl;
 		goto Cleanup;
@@ -319,6 +315,6 @@ Cleanup:
   
 ## See also
 
-[Create an Outlook profile using MFCMAPI](https://msdn.microsoft.com/en-us/library/office/mt723322.aspx)
+- [Create an Outlook profile using MFCMAPI](https://msdn.microsoft.com/en-us/library/office/mt723322.aspx)
   
 

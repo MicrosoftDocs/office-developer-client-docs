@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Registers a [MAPIUID](mapiuid.md) structure that uniquely represents the service provider. 
   
-```
+```cpp
 HRESULT SetProviderUID(
 LPMAPIUID lpProviderID,
 ULONG ulFlags

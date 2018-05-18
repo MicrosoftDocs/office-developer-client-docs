@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates whether the form can handle the message class of the next message to display.
   
-```
+```cpp
 HRESULT OnActivateNext(
   LPCSTR lpszMessageClass,
   ULONG ulMessageStatus,

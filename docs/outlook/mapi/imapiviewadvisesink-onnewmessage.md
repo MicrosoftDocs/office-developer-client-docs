@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Notifies the form viewer that a new or an existing message has been loaded in a form.
   
-```
+```cpp
 HRESULT OnNewMessage( void );
 ```
 

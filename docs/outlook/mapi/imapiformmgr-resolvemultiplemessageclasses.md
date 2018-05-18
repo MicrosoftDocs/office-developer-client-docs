@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Resolves a group of message classes to their forms within a form container, and returns an array of form information objects for those forms.
   
-```
+```cpp
 HRESULT ResolveMultipleMessageClasses(
   LPSMESSAGECLASSARRAY pMsgClasses,
   ULONG ulFlags,

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Deletes all messages and subfolders from a folder without deleting the folder itself.
   
-```
+```cpp
 HRESULT EmptyFolder(
   ULONG_PTR ulUIParam,
   LPMAPIPROGRESS lpProgress,

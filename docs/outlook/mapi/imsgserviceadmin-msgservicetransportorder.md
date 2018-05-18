@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Sets the order in which transport providers are called to deliver a message.
   
-```
+```cpp
 HRESULT MsgServiceTransportOrder(
   ULONG cUID,
   LPMAPIUID lpUIDList,

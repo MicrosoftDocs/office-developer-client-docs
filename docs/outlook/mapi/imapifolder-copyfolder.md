@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Copies or moves a subfolder.
   
-```
+```cpp
 HRESULT CopyFolder(
   ULONG cbEntryID,
   LPENTRYID lpEntryID,

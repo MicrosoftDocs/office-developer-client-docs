@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Designates a message service to be the supplier of the primary identity for the profile.
   
-```
+```cpp
 HRESULT SetPrimaryIdentity(
   LPMAPIUID lpUID,
   ULONG ulFlags  

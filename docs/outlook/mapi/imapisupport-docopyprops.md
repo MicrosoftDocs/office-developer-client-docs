@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Copies or moves one or more properties of an object to another object.
   
-```
+```cpp
 HRESULT DoCopyProps(
   LPCIID lpSrcInterface,
   LPVOID lpSrcObj,

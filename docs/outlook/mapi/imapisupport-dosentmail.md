@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Processes a sent message.
   
-```
+```cpp
 HRESULT DoSentMail(
   ULONG ulFlags,
   LPMESSAGE lpMessage

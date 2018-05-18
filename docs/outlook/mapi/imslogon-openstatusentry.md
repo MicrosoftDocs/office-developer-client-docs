@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Opens a status object.
   
-```
+```cpp
 HRESULT OpenStatusEntry(
   LPCIID lpInterface,
   ULONG ulFlags,

@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Cancels the sending of notifications previously set up with a call to the [IMsgStore::Advise](imsgstore-advise.md) method. 
   
-```
+```cpp
 HRESULT Unadvise(
   ULONG_PTR ulConnection
 );

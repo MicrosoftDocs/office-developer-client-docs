@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Notifies the form that a save operation has been completed. 
   
-```
+```cpp
 HRESULT SaveCompleted(
   LPMESSAGE pMessage
 );

@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Describes a [GUID](guid.md) structure used to describe an identifier for a MAPI interface. 
   
-```
+```cpp
 typedef struct _GUID
 {
   unsigned long Data1;

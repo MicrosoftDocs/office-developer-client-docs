@@ -30,7 +30,7 @@ Defines a callback function that MAPI calls to activate an optional button contr
 |Defined function implemented by:  <br/> |Service providers  <br/> |
 |Defined function called by:  <br/> |MAPI  <br/> |
    
-```
+```cpp
 SCODE (STDMETHODCALLTYPE FAR * LPFNBUTTON)(
   ULONG_PTR ulUIParam,
   LPVOID lpvContext,

@@ -1,19 +1,15 @@
 ---
-title: "Initializing a Wrapped PST Store Provider"
+title: "Initializing a wrapped PST store provider"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 07633717-ba4c-b146-ad65-60b37ab98ab6
 description: "Last modified: October 05, 2012"
- 
- 
 ---
 
-# Initializing a Wrapped PST Store Provider
+# Initializing a wrapped PST store provider
 
- 
-  
 **Applies to**: Outlook 
   
 To implement a wrapped Personal Folders file (PST) store provider, you must initialize the wrapped PST store provider by using the **[MSProviderInit](msproviderinit.md)** function as an entry point. After the provider's DLL is initialized, the **[MSGSERVICEENTRY](msgserviceentry.md)** function configures the wrapped PST store provider. 
@@ -22,13 +18,13 @@ In this topic, the **MSProviderInit** function and the **MSGSERVICEENTRY** funct
   
 After you have initialized a wrapped PST store provider, you must implement functions so that MAPI and the MAPI spooler can log onto the message store provider. For more information, see [Logging On to a Wrapped PST Store Provider](logging-on-to-a-wrapped-pst-store-provider.md).
   
-## Initialization Routine
+## Initialization routine
 
 All wrapped PST store providers must implement the **[MSProviderInit](msproviderinit.md)** function as an entry point to initialize the provider's DLL. **MSProviderInit** checks to see if the version number of the service provider interface,  `ulMAPIVer`, is compatible with the current version number,  `CURRENT_SPI_VERSION`. The function saves the MAPI memory management routines into the  `g_lpAllocateBuffer`,  `g_lpAllocateMore`, and  `g_lpFreeBuffer` parameters. These memory management routines should be used throughout the wrapped PST store implementation for memory allocation and deallocation. 
   
-### MSProviderInit() Example
+### MSProviderInit() example
 
-```
+```cpp
 STDINITMETHODIMP MSProviderInit ( 
     HINSTANCE /*hInstance*/, 
     LPMALLOC lpMalloc, 
@@ -84,7 +80,7 @@ STDINITMETHODIMP MSProviderInit (
             ulFlags, 
             ulMAPIVer, 
             lpulProviderVer, 
-            &amp;pSyncProviderObj                         
+            &pSyncProviderObj                         
             ); 
         Log(true,"pMsProviderInit returned 0x%08X\n", hRes); 
         if (SUCCEEDED(hRes)) 
@@ -105,11 +101,11 @@ STDINITMETHODIMP MSProviderInit (
 }
 ```
 
-### Wrapped PST and Unicode Paths
+### Wrapped PST and Unicode paths
 
 To retrofit the original sample prepared in Microsoft Visual Studio 2008 to use Unicode paths to the NST for use in Unicode-enabled Microsoft Outlook 2010 and Outlook 2013, the **CreateStoreEntryID** routine, which produces the entry identifier, should use one format for ASCII paths, and another for Unicode paths. These are represented as structures in the following example. 
   
-```
+```cpp
 typedef struct                              // short format
 {
          BYTE             rgbFlags[4];     // MAPI-defined flags
@@ -132,13 +128,13 @@ typedef struct                              // Long format to support Unicode pa
 > [!IMPORTANT]
 > The differences in these structures are two NULL bytes prior to a Unicode path. If you need to interpret the entry identifier in the "Service Entry Routine" that follows, one way to determine whether that is the case or not would be to cast as EIDMS first, then check whether the szPath[0] is NULL. If it is, cast it as EIDMSW instead. 
   
-### Service Entry Routine
+## Service Entry routine
 
 The **[MSGSERVICEENTRY](msgserviceentry.md)** function is the message service entry point where the wrapped PST store provider is configured. The function calls  `GetMemAllocRoutines()` to get the MAPI memory management routines. The function uses the  `lpProviderAdmin` parameter to locate the profile section for the provider and sets the properties in the profile. 
   
-### ServiceEntry() Example
+### ServiceEntry() example
 
-```
+```cpp
 HRESULT STDAPICALLTYPE ServiceEntry ( 
     HINSTANCE /*hInstance*/, 
     LPMALLOC lpMalloc, 
@@ -168,7 +164,7 @@ HRESULT STDAPICALLTYPE ServiceEntry (
  
     // Get memory routines 
     hRes = lpMAPISup-> 
-        GetMemAllocRoutines(&amp;g_lpAllocateBuffer,&amp;g_lpAllocateMore,&amp;g_lpFreeBuffer); 
+        GetMemAllocRoutines(&g_lpAllocateBuffer,&g_lpAllocateMore,&g_lpFreeBuffer); 
     HMODULE hm = LoadLibrary("C:\\Program Files\\Common Files\\System" + 
         "\\MSMAPI\\1033\\MSPST32.dll" ); 
     if (!hm) hm = LoadLibrary("C:\\Program Files\\Microsoft Office\\Office12" + 
@@ -183,9 +179,9 @@ HRESULT STDAPICALLTYPE ServiceEntry (
     // Get profile section 
     LPPROFSECT lpProfSect = NULL; 
     hRes = lpProviderAdmin-> 
-        OpenProfileSection((LPMAPIUID) NULL, NULL, MAPI_MODIFY, &amp;lpProfSect); 
+        OpenProfileSection((LPMAPIUID) NULL, NULL, MAPI_MODIFY, &lpProfSect); 
     // Set passed in props into the profile 
-    if (lpProps &amp;&amp; cValues) 
+    if (lpProps && cValues) 
     { 
         hRes = lpProfSect->SetProps(cValues,lpProps,NULL); 
     } 
@@ -195,10 +191,10 @@ HRESULT STDAPICALLTYPE ServiceEntry (
     LPSPropValue    lpProfProps = NULL; 
  
     // Evaluate props 
-    hRes = lpProfSect->GetProps((LPSPropTagArray)&amp;sptClientProps, 
+    hRes = lpProfSect->GetProps((LPSPropTagArray)&sptClientProps, 
                                 fMapiUnicode, 
-                                &amp;ulProfProps, 
-                                &amp;lpProfProps); 
+                                &ulProfProps, 
+                                &lpProfProps); 
     if (SUCCEEDED(hRes)) 
     { 
         CSupport * pMySup = NULL; 
@@ -242,15 +238,9 @@ HRESULT STDAPICALLTYPE ServiceEntry (
 
 ## See also
 
-#### Concepts
-
-[About the Sample Wrapped PST Store Provider](about-the-sample-wrapped-pst-store-provider.md)
-  
-[Installing the Sample Wrapped PST Store Provider](installing-the-sample-wrapped-pst-store-provider.md)
-  
-[Logging On to a Wrapped PST Store Provider](logging-on-to-a-wrapped-pst-store-provider.md)
-  
-[Using a Wrapped PST Store Provider](using-a-wrapped-pst-store-provider.md)
-  
-[Shutting Down a Wrapped PST Store Provider](shutting-down-a-wrapped-pst-store-provider.md)
+- [About the Sample Wrapped PST Store Provider](about-the-sample-wrapped-pst-store-provider.md)
+- [Installing the Sample Wrapped PST Store Provider](installing-the-sample-wrapped-pst-store-provider.md)
+- [Logging On to a Wrapped PST Store Provider](logging-on-to-a-wrapped-pst-store-provider.md)
+- [Using a Wrapped PST Store Provider](using-a-wrapped-pst-store-provider.md)
+- [Shutting Down a Wrapped PST Store Provider](shutting-down-a-wrapped-pst-store-provider.md)
 

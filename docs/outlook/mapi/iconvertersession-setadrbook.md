@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies an optional MAPI Address Book that the MAPI to MIME converter uses to resolve ambiguous addresses when converting a MAPI message to a MIME stream.
   
-```
+```cpp
 HRESULT IConverterSession::SetAdrBook( 
 LPADRBOOK pab); 
 ```

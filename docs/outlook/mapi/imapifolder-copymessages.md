@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Copies or moves one or more messages.
   
-```
+```cpp
 HRESULT CopyMessages(
   LPENTRYLIST lpMsgList,
   LPCIID lpInterface,

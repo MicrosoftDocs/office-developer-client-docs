@@ -32,7 +32,7 @@ Returns an Extensible Markup Language (XML) stream that represents information r
 |Called by:  <br/> |Client  <br/> |
 |Implemented by:  <br/> |Outlook  <br/> |
    
-```
+```cpp
 HRESULT HrGetAutoDiscoverXML( 
     __in_z const WCHAR *pwzAddress, 
     __in_opt_z const WCHAR *pwzPassword, 

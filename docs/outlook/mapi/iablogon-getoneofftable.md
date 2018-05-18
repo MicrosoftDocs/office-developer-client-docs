@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Returns a table of one-off templates for creating recipients to be added to the recipient list of an outgoing message.
   
-```
+```cpp
 HRESULT GetOneOffTable(
   ULONG ulFlags,
   LPMAPITABLE FAR * lppTable

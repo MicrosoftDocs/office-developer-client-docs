@@ -30,7 +30,7 @@ Retrieves attributes of properties on an [IMessage](imessageimapiprop.md) object
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and message store providers  <br/> |
    
-```
+```cpp
 HRESULT GetAttribIMsgOnIStg(
   LPVOID lpObject,
   LPSPropTagArray lpPropTagArray,

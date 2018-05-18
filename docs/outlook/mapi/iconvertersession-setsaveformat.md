@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Sets the format in which the converter will return a MIME stream in [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md).
   
-```
+```cpp
 HRESULT IConverterSession::SetSaveFormat ( 
      MIMESAVETYPE mstSaveFormat 
 );

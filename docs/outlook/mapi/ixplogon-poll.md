@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Indicates whether the transport provider has received one or more inbound messages.
   
-```
+```cpp
 HRESULT Poll(
   ULONG FAR * lpulIncoming
 );

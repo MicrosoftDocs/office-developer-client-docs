@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns a pointer that provides access to a provider administration object.
   
-```
+```cpp
 HRESULT AdminProviders(
   LPMAPIUID lpUID,
   ULONG ulFlags,

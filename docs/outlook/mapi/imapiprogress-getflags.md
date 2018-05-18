@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns flag settings from the progress object for the level of operation on which progress information is calculated.
   
-```
+```cpp
 HRESULT GetFlags(
   ULONG FAR * lpulFlags
 );

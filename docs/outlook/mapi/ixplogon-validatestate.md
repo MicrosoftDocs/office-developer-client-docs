@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Checks the transport provider's external status. 
   
-```
+```cpp
 HRESULT ValidateState(
   ULONG_PTR ulUIParam,
   ULONG ulFlags

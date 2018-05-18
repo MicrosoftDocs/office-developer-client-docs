@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Marks an object as unusable.
   
-```
+```cpp
 HRESULT MakeInvalid(
 ULONG ulFlags,
 LPVOID lpObject,

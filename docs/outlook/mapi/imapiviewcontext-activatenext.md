@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Activates the next or previous message in the view order. 
   
-```
+```cpp
 HRESULT ActivateNext(
 ULONG ulDir,
 LPCRECT prcPosRect

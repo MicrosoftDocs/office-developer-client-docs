@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Copies or moves all properties, except for specifically excluded properties.
   
-```
+```cpp
 HRESULT CopyTo(
  ULONG ciidExclude,
  LPCIID rgiidExclude,

@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Returns an array of the properties used by all forms installed in a form container.
   
-```
+```cpp
 HRESULT CalcFormPropSet(
   ULONG ulFlags,
   LPMAPIFORMPROPARRAY FAR * ppResults

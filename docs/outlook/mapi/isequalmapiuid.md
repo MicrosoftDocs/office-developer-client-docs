@@ -29,7 +29,7 @@ Tests two [MAPIUID](mapiuid.md) structures to determine whether they contain the
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**MAPIUID** <br/> |
    
-```
+```cpp
 IsEqualMAPIUID(lpuid1, lpuid2)
 ```
 

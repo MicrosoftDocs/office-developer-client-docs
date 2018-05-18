@@ -30,7 +30,7 @@ Destroys an [SRowSet](srowset.md) structure and frees associated memory, includi
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 void FreeProws(
   LPSRowSet prows
 );

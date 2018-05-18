@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Sets the status associated with a message (for example, whether that message is marked for deletion).
   
-```
+```cpp
 HRESULT SetMessageStatus(
   ULONG cbEntryID,
   LPENTRYID lpEntryID,

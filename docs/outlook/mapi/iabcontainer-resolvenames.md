@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Performs name resolution for one or more recipient entries.
   
-```
+```cpp
 HRESULT ResolveNames(
   LPSPropTagArray lpPropTagArray,
   ULONG ulFlags,

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Opens an attachment. 
   
-```cs
+```cpp
 HRESULT OpenAttach(
   ULONG ulAttachmentNum,
   LPCIID lpInterface,

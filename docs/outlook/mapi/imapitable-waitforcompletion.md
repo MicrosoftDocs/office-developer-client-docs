@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Suspends processing until one or more asynchronous operations in progress on the table have completed.
   
-```
+```cpp
 HRESULT WaitForCompletion(
 ULONG ulFlags,
 ULONG ulTimeout,

@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Returns a [MAPIERROR](mapierror.md) structure that contains information about the last error that occurred for a message service administration object. 
   
-```cs
+```cpp
 HRESULT GetLastError(
   HRESULT hResult,
   ULONG ulFlags,

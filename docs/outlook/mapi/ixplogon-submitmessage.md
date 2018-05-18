@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Indicates that the MAPI spooler has a message for the transport provider to deliver.
   
-```
+```cpp
 HRESULT SubmitMessage(
   ULONG ulFlags,
   LPMESSAGE lpMessage,

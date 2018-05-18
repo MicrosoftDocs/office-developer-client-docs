@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Stops any asynchronous operations currently in progress for the table.
   
-```
+```cpp
 HRESULT Abort( void );
 ```
 

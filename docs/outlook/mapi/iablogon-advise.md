@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Registers the caller to receive notification of specified events that affect a container, messaging user, or distribution list.
   
-```
+```cpp
 HRESULT Advise(
   ULONG cbEntryID,
   LPENTRYID lpEntryID,

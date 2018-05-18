@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Removes an object's registration for notification of message store changes previously established by using a call to the [IMSLogon::Advise](imslogon-advise.md) method. 
   
-```
+```cpp
 HRESULT Unadvise(
   ULONG ulConnection
 );

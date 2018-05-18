@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Prepares a message for submission to the MAPI spooler.
   
-```
+```cpp
 HRESULT PrepareSubmit(
 LPMESSAGE lpMessage,
 ULONG FAR * lpulFlags

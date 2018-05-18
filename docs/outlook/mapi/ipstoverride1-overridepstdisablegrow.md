@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Unlocks a Personal Folders (.pst) file for a session, overriding the PSTDisableGrow policy.
   
-```
+```cpp
 HRESULT OverridePSTDisableGrow();
 ```
 

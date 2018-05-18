@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Ends synchronization in the current state and exits that state.
   
-```
+```cpp
 HRESULT SyncEnd();
 ```
 

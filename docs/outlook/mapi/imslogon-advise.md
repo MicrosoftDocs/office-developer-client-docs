@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Registers an object with a message store provider for notifications about changes in the message store. The message store will then send notifications about changes to the registered object.
   
-```
+```cpp
 HRESULT Advise(
   ULONG cbEntryID,
   LPENTRYID lpEntryID,

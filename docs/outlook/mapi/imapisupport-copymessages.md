@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Copies or moves messages from one folder to another folder.
   
-```
+```cpp
 HRESULT CopyMessages(
   LPCIID lpSrcInterface,
   LPVOID lpSrcFolder,

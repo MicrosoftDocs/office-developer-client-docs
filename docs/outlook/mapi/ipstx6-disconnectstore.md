@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Disconnects the local store.
   
-```
+```cpp
 HRESULT DisconnectStore( 
     ULONG ulFlags 
 );

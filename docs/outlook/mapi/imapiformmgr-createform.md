@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Opens a form to create a new message based on the form's message class.
   
-```
+```cpp
 HRESULT CreateForm(
   ULONG_PTR ulUIParam,
   ULONG ulFlags,

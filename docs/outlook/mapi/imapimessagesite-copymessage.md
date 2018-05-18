@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Copies the current message to a folder.
   
-```
+```cpp
 HRESULT CopyMessage(
   LPMAPIFOLDER pFolderDestination
 );

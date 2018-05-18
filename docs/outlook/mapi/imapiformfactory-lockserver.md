@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Keeps an open form server in memory.
   
-```
+```cpp
 HRESULT LockServer(
   ULONG ulFlags,
   ULONG fLockServer

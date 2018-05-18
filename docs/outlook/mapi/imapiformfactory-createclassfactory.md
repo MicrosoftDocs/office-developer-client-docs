@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Returns a class factory object for the form.
   
-```
+```cpp
 HRESULT CreateClassFactory(
   REFCLSID clsidForm,
   ULONG ulFlags,

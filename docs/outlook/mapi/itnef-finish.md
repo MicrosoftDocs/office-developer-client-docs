@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Finishes processing for all Transport-Neutral Encapsulation Format (TNEF) operations that are queued and waiting. 
   
-```
+```cpp
 HRESULT Finish(
   ULONG ulFlags,
   WORD FAR * lpKey,

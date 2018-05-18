@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Responds to a notification by performing one or more tasks. The tasks performed depend on the type of event and the object that generates the notification. 
   
-```
+```cpp
 ULONG OnNotify(
   ULONG cNotif,
   LPNOTIFICATION lpNotifications

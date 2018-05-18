@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Opens an object and returns an interface pointer for additional access.
   
-```
+```cpp
 HRESULT OpenEntry(
   ULONG cbEntryID,
   LPENTRYID lpEntryID,

@@ -30,7 +30,7 @@ Creates an advise sink object, given a context specified by the calling implemen
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 STDAPI HrAllocAdviseSink(
   LPNOTIFCALLBACK lpfnCallback,
   LPVOID lpvContext,

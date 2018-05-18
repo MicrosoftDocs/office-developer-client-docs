@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Closes down a transport provider in an orderly fashion.
   
-```
+```cpp
 HRESULT Shutdown (
   ULONG FAR * lpulFlags
 );

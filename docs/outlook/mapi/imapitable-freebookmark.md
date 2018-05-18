@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Releases the memory associated with a bookmark.
   
-```
+```cpp
 HRESULT FreeBookmark(
 BOOKMARK bkPosition
 );

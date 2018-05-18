@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Downloads a form for opening.
   
-```
+```cpp
 HRESULT PrepareForm(
   ULONG_PTR ulUIParam,
   ULONG ulFlags,

@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Generates delivery and nondelivery reports.
   
-```
+```cpp
 HRESULT StatusRecips(
 LPMESSAGE lpMessage,
 LPADRLIST lpRecipList

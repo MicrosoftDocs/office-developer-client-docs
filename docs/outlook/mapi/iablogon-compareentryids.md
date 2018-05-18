@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Compares two entry identifiers to determine whether they refer to the same object.
   
-```
+```cpp
 HRESULT CompareEntryIDs(
   ULONG cbEntryID1,
   LPENTRYID lpEntryID1,

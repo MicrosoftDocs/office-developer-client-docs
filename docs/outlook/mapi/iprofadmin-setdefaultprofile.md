@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Sets or clears a client's default profile.
   
-```
+```cpp
 HRESULT SetDefaultProfile(
   LPSTR lpszProfileName,
   ULONG ulFlags

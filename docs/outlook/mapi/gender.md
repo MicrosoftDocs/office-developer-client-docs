@@ -22,7 +22,7 @@ Specifies the possible values for the gender of a messaging user.
   
 ## Quick Info
 
-```
+```cpp
 enum Gender { 
     genderMin = 0, 
     genderUnspecified = genderMin, 

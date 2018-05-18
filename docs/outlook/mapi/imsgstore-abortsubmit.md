@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Attempts to remove a message from the outgoing queue.
   
-```
+```cpp
 AbortSubmit(
   ULONG cbEntryID,
   LPENTRYID lpEntryID,

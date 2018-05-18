@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Obtains the search criteria for the container.
   
-```
+```cpp
 HRESULT GetSearchCriteria(
   ULONG ulFlags,
   LPSRestriction FAR * lppRestriction,

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Cancels the sending of notifications previously set up with a call to the [IMAPITable::Advise](imapitable-advise.md) method. 
   
-```
+```cpp
 HRESULT Unadvise(
 ULONG_PTR ulConnection
 );

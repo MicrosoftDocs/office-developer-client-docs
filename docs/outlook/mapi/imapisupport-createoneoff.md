@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Creates an entry identifier for a one-off address.
   
-```
+```cpp
 HRESULT CreateOneOff(
   LPSTR lpszName,
   LPSTR lpszAdrType,

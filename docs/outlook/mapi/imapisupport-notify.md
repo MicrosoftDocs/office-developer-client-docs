@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Sends a notification of a specified event to an advise source that originally registered for the notification through the [IMAPISupport::Subscribe](imapisupport-subscribe.md) method. 
   
-```
+```cpp
 HRESULT Notify(
 LPNOTIFKEY lpKey,
 ULONG cNotification,

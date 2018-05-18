@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Opens a profile section from the current profile and returns an [IProfSect](iprofsectimapiprop.md) pointer for further access. 
   
-```
+```cpp
 HRESULT OpenProfileSection(
   LPMAPIUID lpUID,
   LPCIID lpInterface,

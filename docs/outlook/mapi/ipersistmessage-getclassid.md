@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Returns an identifier that represents the form server that can manage the form. 
   
-```
+```cpp
 HRESULT GetClassID(
   LPCLSID lpClassID
 );

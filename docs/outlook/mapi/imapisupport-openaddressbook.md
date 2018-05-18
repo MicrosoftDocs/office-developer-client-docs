@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Provides access to the address book.
   
-```
+```cpp
 HRESULT OpenAddressBook(
 LPCIID lpInterface,
 ULONG ulFlags,

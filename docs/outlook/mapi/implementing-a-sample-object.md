@@ -1,5 +1,5 @@
 ---
-title: "Implementing a Sample Object"
+title: "Implementing a sample object"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,21 +8,17 @@ api_type:
 - COM
 ms.assetid: 23b6ad1a-0b50-429f-8819-ab72c56581c2
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
-# Implementing a Sample Object
+# Implementing a sample object
 
-  
-  
 **Applies to**: Outlook 
   
 Advise sink objects — objects that support the [IMAPIAdviseSink : IUnknown](imapiadvisesinkiunknown.md) interface — are MAPI objects that client applications implement for processing notifications. **IMAPIAdviseSink** inherits directly from [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx) and contains only one method, **OnNotify**. Therefore, to implement an advise sink object, a client creates code for the three methods in **IUnknown** and for [OnNotify](imapiadvisesink-onnotify.md).
   
 The Mapidefs.h header file defines an **IMAPIAdviseSink** interface implementation by using **DECLARE_MAPI_INTERFACE**, as follows:
   
-```
+```cpp
 #define      INTERFACE  IMAPIAdviseSink
 DECLARE_MAPI_INTERFACE_(IMAPIAdviseSink, IUnknown)
 {
@@ -37,7 +33,7 @@ Clients that implement advise sink objects can define their interfaces in their 
   
 Implementing the [IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) and [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) methods is relatively simple because typically only a few lines of code are needed. Therefore, clients and service providers that implement objects can make their **AddRef** and **Release** implementations inline. The following code shows how to define a C++ advise sink object with inline implementations of **AddRef** and **Release**.
   
-```
+```cpp
 class  CMAPIAdviseSink : public IMAPIAdviseSink
 {
 public:
@@ -82,7 +78,7 @@ In C, the advise sink object is composed of the following elements:
     
 The following code example shows how to define an advise sink object in C and construct its vtable. 
   
-```
+```cpp
 // Object definition.
 typedef struct _ADVISESINK
 {
@@ -104,19 +100,16 @@ static const ADVISE_Vtbl vtblADVISE =
 
 After you declare an object in C, you must initialize it by setting the vtable pointer to the address of the constructed vtable, as shown in the following code:
   
-```
+```cpp
 LPADVISESINK lpMyObj = NULL;
 HRESULT hr = (*lpAllocateBuffer) (sizeof(ADVISESINK),
-                 (LPVOID *)&amp;lpMyObj);
-lpMyObj->lpVtbl = &amp;vtblADVISE;
+                 (LPVOID *)&lpMyObj);
+lpMyObj->lpVtbl = &vtblADVISE;
  
 ```
 
 ## See also
 
-#### Concepts
-
-[MAPI Property Overview](mapi-property-overview.md)
-  
-[Implementing MAPI Objects](implementing-mapi-objects.md)
+- [MAPI Property Overview](mapi-property-overview.md)
+- [Implementing MAPI Objects](implementing-mapi-objects.md)
 

@@ -8,14 +8,10 @@ api_type:
 - COM
 ms.assetid: 57933d44-d47a-4e7f-ba95-b49b4934d0a5
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
 # Implementing One-Off Tables
 
-  
-  
 **Applies to**: Outlook 
   
 Your provider might implement one or more one-off tables. A one-off table is a summary list of one-off templates used to create recipients, either directly into a container or into the recipient list of an outgoing message. A one-off template is a form users employ for entering data relevant to a particular type of address. When the user is finished working with the template, your provider creates the new recipient and adds it to the message. Typically each template handles a single address type. However, it is possible for a template to handle multiple types or for multiple templates to handle the same type. 

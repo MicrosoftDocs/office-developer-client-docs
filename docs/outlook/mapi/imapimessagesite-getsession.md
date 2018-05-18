@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns the MAPI session in which the current message was created or opened.
   
-```
+```cpp
 HRESULT GetSession(
   LPMAPISESSION FAR * ppSession
 );

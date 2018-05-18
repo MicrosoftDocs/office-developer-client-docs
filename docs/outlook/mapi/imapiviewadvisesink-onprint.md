@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Notifies the form viewer of the printing status of a form.
   
-```
+```cpp
 HRESULT OnPrint(
 ULONG dwPageNumber,
 HRESULT hrStatus

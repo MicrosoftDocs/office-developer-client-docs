@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Deprecated. Assigns a new name to a message service. 
   
-```
+```cpp
 HRESULT RenameMsgService(
   LPMAPIUID lpUID,
   ULONG ulFlags,

@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Retrieves a table row.
   
-```
+```cpp
 HRESULT HrQueryRow(
   LPSPropValue lpSPropValue,
   LPSRow FAR * lppSRow,

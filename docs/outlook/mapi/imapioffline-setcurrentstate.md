@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Sets the current state of an offline object to online or offline.
   
-```
+```cpp
 HRESULT SetCurrentState( 
     ULONG ulFlags, 
     ULONG ulMask, 

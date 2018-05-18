@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Enables the orderly logoff of the message store.
   
-```
+```cpp
 HRESULT StoreLogoff(
   ULONG FAR * lpulFlags
 );

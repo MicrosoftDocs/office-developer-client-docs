@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Retrieves a progress object that displays a progress indicator.
   
-```
+```cpp
 HRESULT DoProgressDialog(
   ULONG_PTR ulUIParam,
   ULONG ulFlags,

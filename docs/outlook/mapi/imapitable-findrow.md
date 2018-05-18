@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Finds the next row in a table that matches specific search criteria and moves the cursor to that row.
   
-```
+```cpp
 HRESULT FindRow(
 LPSRestriction lpRestriction,
 BOOKMARK BkOrigin,

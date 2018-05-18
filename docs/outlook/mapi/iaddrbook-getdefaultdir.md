@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns the entry identifier for the initial address book container.
   
-```
+```cpp
 HRESULT GetDefaultDir(
   ULONG FAR * lpcbEntryID,
   LPENTRYID FAR * lppEntryID

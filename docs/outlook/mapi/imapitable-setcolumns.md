@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Defines the particular properties and order of properties to appear as columns in the table.
   
-```
+```cpp
 HRESULT SetColumns(
 LPSPropTagArray lpPropTagArray,
 ULONG ulFlags

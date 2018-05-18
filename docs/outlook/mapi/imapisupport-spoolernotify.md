@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Notifies the MAPI spooler of a change in status or a request for service. 
   
-```
+```cpp
 HRESULT SpoolerNotify(
 ULONG ulFlags,
 LPVOID lpvData

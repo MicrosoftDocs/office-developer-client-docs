@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Requests that the current message be saved.
   
-```
+```cpp
 HRESULT SaveMessage( void );
 ```
 

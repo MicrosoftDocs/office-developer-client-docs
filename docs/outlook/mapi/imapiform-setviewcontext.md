@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Establishes a view context for the form. 
   
-```
+```cpp
 HRESULT SetViewContext(
   LPMAPIVIEWCONTEXT pViewContext
 );

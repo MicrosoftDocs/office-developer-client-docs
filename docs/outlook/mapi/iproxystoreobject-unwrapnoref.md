@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Gets a pointer to an unwrapped Internet Message Access Protocol (IMAP) store object that provides access to the underlying Personal Folders file (PST) without invoking synchronization and downloading the items.
   
-```
+```cpp
 HRESULT IProxyStoreObject::UnwrapNoRef (     LPVOID *ppvObject ); 
 ```
 

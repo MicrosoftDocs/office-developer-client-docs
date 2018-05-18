@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Establishes the specified container as the default address book container.
   
-```
+```cpp
 HRESULT SetDefaultDir(
   ULONG cbEntryID,
   LPENTRYID lpEntryID

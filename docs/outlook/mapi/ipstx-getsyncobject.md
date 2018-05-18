@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Starts a synchronization session and gets the associated **[IOSTX](iostxiunknown.md)** interface. 
   
-```
+```cpp
 HRESULT GetSyncObject( 
    IOSTX **ppostx 
 );

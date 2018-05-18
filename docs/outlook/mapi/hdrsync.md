@@ -22,7 +22,7 @@ Information for synchronizing a message header during the [download message head
   
 ## Quick Info
 
-```
+```cpp
 struct HDRSYNC 
 { 
     UPMSG *pupmsg; 

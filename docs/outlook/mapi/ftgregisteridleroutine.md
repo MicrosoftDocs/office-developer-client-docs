@@ -30,7 +30,7 @@ Adds a [FNIDLE](fnidle.md) function-based idle routine to the MAPI system.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 FTG FtgRegisterIdleRoutine(
   PFNIDLE pfnIdle,
   LPVOID pvIdleParam,

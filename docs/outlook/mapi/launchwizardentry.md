@@ -30,7 +30,7 @@ Defines a function that starts the Profile Wizard application for the purpose of
 |Defined function implemented by:  <br/> |MAPI  <br/> |
 |Defined function called by:  <br/> |Client applications  <br/> |
    
-```
+```cpp
 HRESULT LAUNCHWIZARDENTRY(
   HWND hParentWnd,
   ULONG ulFlags,

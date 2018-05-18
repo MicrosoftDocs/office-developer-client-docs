@@ -16,13 +16,11 @@ description: "Last modified: July 23, 2011"
 
 # IXPLogon::TransportNotify
 
-  
-  
 **Applies to**: Outlook 
   
 Signals the occurrence of an event about which the transport provider requested notification.
   
-```
+```cpp
 HRESULT TransportNotify(
   ULONG FAR * lpulFlags,
   LPVOID FAR * lppvData

@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Modifies the status table by adding a new row or modifying an existing row.
   
-```
+```cpp
 HRESULT ModifyStatusRow(
 ULONG cValues,
 LPSPropValue lpColumnVals,

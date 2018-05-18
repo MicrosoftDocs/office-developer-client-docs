@@ -30,7 +30,7 @@ Destroys an [ADRLIST](adrlist.md) structure and frees associated memory, includi
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 void FreePadrlist(
   LPADRLIST padrlist
 );

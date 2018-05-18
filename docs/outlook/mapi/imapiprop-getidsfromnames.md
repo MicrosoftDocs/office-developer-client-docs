@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Provides the property identifiers that correspond to one or more property names.
   
-```
+```cpp
 HRESULT GetIDsFromNames(
   ULONG cPropNames,
   LPMAPINAMEID FAR * lppPropNames,

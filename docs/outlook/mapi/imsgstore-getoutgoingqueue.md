@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Provides access to the outgoing queue table, a table that has information about all of the messages in the message store's outgoing queue. This method is called only by the MAPI spooler.
   
-```
+```cpp
 HRESULT GetOutgoingQueue(
   ULONG ulFlags,
   LPMAPITABLE FAR * lppTable

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Opens an [IMAPIFormContainer](imapiformcontaineriunknown.md) interface for a specific form container. 
   
-```
+```cpp
 HRESULT OpenFormContainer(
   HFRMREG hfrmreg,
   LPUNKNOWN lpunk,

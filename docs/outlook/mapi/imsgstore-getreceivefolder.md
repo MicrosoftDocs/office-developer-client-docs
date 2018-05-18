@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Obtains the folder that was established as the destination for incoming messages of a specified message class or as the default receive folder for the message store.
   
-```
+```cpp
 HRESULT GetReceiveFolder(
   LPSTR lpszMessageClass,
   ULONG ulFlags,

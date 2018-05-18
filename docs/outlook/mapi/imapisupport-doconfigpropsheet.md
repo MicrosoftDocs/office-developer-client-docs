@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Displays a configuration property sheet.
   
-```
+```cpp
 HRESULT DoConfigPropsheet(
   ULONG_PTR ulUIParam,
   ULONG ulFlags,

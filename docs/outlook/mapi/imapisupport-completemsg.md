@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Performs postprocessing on a message. 
   
-```
+```cpp
 HRESULT CompleteMsg(
   ULONG ulFlags,
   ULONG cbEntryID,

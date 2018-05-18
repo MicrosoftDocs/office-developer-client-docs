@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Adds one or more properties of type PT_OBJECT to the object.
   
-```
+```cpp
 HRESULT HrAddObjProps(
   LPSPropTagArray lpPropTagArray,
   LPSPropProblemArray FAR * lppProblems

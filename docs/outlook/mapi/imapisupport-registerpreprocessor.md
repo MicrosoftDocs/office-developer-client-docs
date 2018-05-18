@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Registers a transport provider's preprocessor function (a function that conforms to the [PreprocessMessage](preprocessmessage.md) prototype). 
   
-```
+```cpp
 HRESULT RegisterPreprocessor(
 LPMAPIUID lpMuid,
 LPSTR lpszAdrType,

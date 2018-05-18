@@ -30,7 +30,7 @@ Compares two property values to determine whether they are equal.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 LONG LPropCompareProp(
   LPSPropValue lpSPropValueA,
   LPSPropValue lpSPropValueB

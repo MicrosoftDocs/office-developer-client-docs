@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Registers a client to receive callbacks on an offline object.
   
-```
+```cpp
 HRESULT COfflineObj::Advise( 
       ULONG ulFlags, 
       MAPIOFFLINE_ADVISEINFO* pAdviseInfo, 

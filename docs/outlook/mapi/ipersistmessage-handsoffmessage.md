@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Causes the form to release its current message.
   
-```
+```cpp
 HRESULT HandsOffMessage( void );
 ```
 

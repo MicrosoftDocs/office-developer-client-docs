@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Displays a dialog box that shows details about a particular address book entry.
   
-```
+```cpp
 HRESULT Details(
   ULONG_PTR FAR * lpulUIParam,
   LPFNDISMISS lpfnDismiss,

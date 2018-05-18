@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Ends a MAPI session.
   
-```
+```cpp
 HRESULT Logoff(
   ULONG_PTR ulUIParam,
   ULONG ulFlags,

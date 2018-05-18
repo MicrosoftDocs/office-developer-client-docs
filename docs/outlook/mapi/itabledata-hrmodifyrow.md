@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Inserts a new table row, possibly replacing an existing row.
   
-```
+```cpp
 HRESULT HrModifyRow(
   LPSRow lpSRow
 );

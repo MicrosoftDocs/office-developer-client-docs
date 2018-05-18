@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Sets the access level for the object.
   
-```
+```cpp
 HRESULT HrSetObjAccess(
   ULONG ulAccess
 );

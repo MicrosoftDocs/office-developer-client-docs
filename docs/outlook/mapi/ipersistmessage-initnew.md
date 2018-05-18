@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Initializes a new message.
   
-```
+```cpp
 HRESULT InitNew(
   LPMAPIMESSAGESITE pMessageSite,
   LPMESSAGE pMessage

@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Notifies the form viewer that the current message has been submitted to the MAPI spooler.
   
-```
+```cpp
 HRESULT OnSubmitted( void );
 ```
 

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Presents a dialog box that enables the user to select a form container, and returns an interface for the container object the user selected.
   
-```cs
+```cpp
 HRESULT SelectFormContainer(
   ULONG_PTR ulUIParam,
   ULONG ulFlags,

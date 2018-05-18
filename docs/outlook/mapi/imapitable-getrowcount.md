@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns the total number of rows in the table. 
   
-```
+```cpp
 HRESULT GetRowCount(
 ULONG ulFlags,
 ULONG FAR * lpulCount

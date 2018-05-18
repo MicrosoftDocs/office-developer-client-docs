@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Initiates the logoff process.
   
-```
+```cpp
 HRESULT Logoff(
   ULONG ulFlags
 );

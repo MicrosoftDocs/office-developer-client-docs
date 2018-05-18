@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns the minimum value in the [IMAPIProgress::SetLimits](imapiprogress-setlimits.md) method for which progress information is displayed. 
   
-```
+```cpp
 HRESULT GetMin(
   ULONG FAR * lpulMin
 );

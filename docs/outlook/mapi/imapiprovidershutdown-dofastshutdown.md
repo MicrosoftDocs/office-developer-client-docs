@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Indicates to the MAPI provider that the MAPI client is exiting immediately, so that the MAPI provider will persist changes to prevent data loss.
   
-```
+```cpp
 HRESULT DoFastShutdown ();
 ```
 

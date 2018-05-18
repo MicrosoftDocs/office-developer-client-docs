@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Implements a storage object to access a stream.
   
-```
+```cpp
 HRESULT IStorageFromStream(
   LPUNKNOWN lpUnkIn,
   LPCIID lpInterface,

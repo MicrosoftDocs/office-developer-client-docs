@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Deletes a profile.
   
-```
+```cpp
 HRESULT DeleteProfile(
   LPSTR lpszProfileName,
   ULONG ulFlags

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Enables the calling service provider or gateway to add properties to the encapsulation of a message or an attachment. 
   
-```
+```cpp
 HRESULT AddProps(
   ULONG ulFlags,
   ULONG ulElemID,

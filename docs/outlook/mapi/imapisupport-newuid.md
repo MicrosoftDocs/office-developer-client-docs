@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Creates a new [MAPIUID](mapiuid.md) structure to be used as a unique identifier. 
   
-```
+```cpp
 HRESULT NewUID(
 LPMAPIUID lpMuid
 );

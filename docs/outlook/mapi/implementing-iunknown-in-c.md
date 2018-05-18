@@ -8,14 +8,10 @@ api_type:
 - COM
 ms.assetid: 807b6dc4-cdb7-40a4-87d7-ebc1ad5fab76
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
 # Implementing IUnknown in C
 
-  
-  
 **Applies to**: Outlook 
   
 Implementations of the [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx) method in C are very similar to C++ implementations. There are two basic steps to the implementation: 
@@ -28,13 +24,13 @@ The main difference between an implementation of **QueryInterface** in C and C++
   
 The following code example shows how to implement **QueryInterface** in C for a status object. 
   
-```
+```cpp
 STDMETHODIMP STATUS_QueryInterface(LPMYSTATUSOBJ lpMyObj, REFIID riid,
                                    LPVOID FAR * lppvObj)
 {
     HRESULT hr = hrSuccess;
     // Validate the object pointer.
-    if (!lpMyObj || lpMyObj->lpVtbl != &amp;vtblSTATUS )
+    if (!lpMyObj || lpMyObj->lpVtbl != &vtblSTATUS )
     {
         hr = ResultFromScode(E_INVALIDARG);
         return hr;
@@ -48,9 +44,9 @@ STDMETHODIMP STATUS_QueryInterface(LPMYSTATUSOBJ lpMyObj, REFIID riid,
     // Set the output pointer to NULL.
     *lppvObj = NULL;
     // Check the interface identifier.
-    if (memcmp(riid, &amp;IID_IUnknown, sizeof(IID)) &amp;&amp;
-        memcmp(riid, &amp;IID_IMAPIProp, sizeof(IID)) &amp;&amp;
-        memcmp(riid, &amp;IID_IMAPIStatus, sizeof(IID)))
+    if (memcmp(riid, &IID_IUnknown, sizeof(IID)) &&
+        memcmp(riid, &IID_IMAPIProp, sizeof(IID)) &&
+        memcmp(riid, &IID_IMAPIStatus, sizeof(IID)))
     {
         hr = ResultFromScode(E_NOINTERFACE);
         return hr;
@@ -67,12 +63,12 @@ Whereas the implementation of the **AddRef** method in C is similar to a C++ imp
   
 The following **AddRef** method call illustrates a typical C implementation for a status object. 
   
-```
+```cpp
 STDMETHODIMP_(ULONG) STATUS_AddRef(LPMYSTATUSOBJ lpMyObj)
 {
     LONG cRef;
     // Check to see whether it has a lpVtbl object member.
-    if (!lpMyObj || lpMyObj->lpVtbl != &amp;vtblSTATUS)
+    if (!lpMyObj || lpMyObj->lpVtbl != &vtblSTATUS)
     {
         return 1;
     }
@@ -97,7 +93,7 @@ The following code example shows a typical implementation of **Release** for a C
     
 - Call **MAPIFreeBuffer** to free the object. 
     
-```
+```cpp
 STDMETHODIMP_(ULONG) STATUS_Release(LPMYSTATUSOBJ lpMyObj)
 {
     LONG cRef;
@@ -107,7 +103,7 @@ STDMETHODIMP_(ULONG) STATUS_Release(LPMYSTATUSOBJ lpMyObj)
         return 1;
     }
     // Check whether the vtable is correct.
-    if (lpMyObj->lpVtbl != &amp;vtblSTATUS)
+    if (lpMyObj->lpVtbl != &vtblSTATUS)
     {
         return 1;
     }
@@ -117,7 +113,7 @@ STDMETHODIMP_(ULONG) STATUS_Release(LPMYSTATUSOBJ lpMyObj)
     if (cRef == 0)
     {
         lpMyObj->lpVtbl->Release(lpMyObj);
-        DeleteCriticalSection(&amp;lpMyObj->cs);
+        DeleteCriticalSection(&lpMyObj->cs);
         // Release the IMAPIProp pointer.
         lpMyObj->lpProp->Release(lpMyObj->lpProp);
         lpMyObj->lpVtbl = NULL;
@@ -131,9 +127,6 @@ STDMETHODIMP_(ULONG) STATUS_Release(LPMYSTATUSOBJ lpMyObj)
 
 ## See also
 
-#### Concepts
-
-[Implementing MAPI Objects](implementing-mapi-objects.md)
-  
-[Implementing the IUnknown Interface](implementing-the-iunknown-interface.md)
+- [Implementing MAPI Objects](implementing-mapi-objects.md)
+- [Implementing the IUnknown Interface](implementing-the-iunknown-interface.md)
 

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Deletes an attachment.
   
-```
+```cpp
 HRESULT DeleteAttach(
 ULONG ulAttachmentNum,
 ULONG_PTR ulUIParam,

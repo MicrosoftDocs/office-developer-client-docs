@@ -28,7 +28,7 @@ Indicates whether Cached Exchange Mode for the private Exchange store is enabled
 |Called by:  <br/> |Client  <br/> |
 |Implemented by:  <br/> |Outlook  <br/> |
    
-```
+```cpp
 BOOL GetDefCachedMode(BOOL *pfPolicy); 
 
 ```

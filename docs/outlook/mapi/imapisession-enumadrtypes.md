@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Deprecated. Returns the address types that can be handled by all of the transport providers in the session. 
   
-```
+```cpp
 HRESULT EnumAdrTypes(
   ULONG ulFlags,
   ULONG FAR * lpcAdrTypes,

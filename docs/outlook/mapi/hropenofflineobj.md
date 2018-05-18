@@ -32,7 +32,7 @@ Opens an offline object based on a given profile.
 |Called by:  <br/> |Client  <br/> |
 |Implemented by:  <br/> |Outlook  <br/> |
    
-```
+```cpp
 typedef HRESULT (STDMETHODCALLTYPE HROPENOFFLINEOBJ)( 
       ULONG ulReserved, 
       LPCWSTR pwszProfileNameIn, 

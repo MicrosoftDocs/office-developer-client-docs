@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Creates a new subfolder.
   
-```
+```cpp
 HRESULT CreateFolder(
   ULONG ulFolderType,
   LPSTR lpszFolderName,

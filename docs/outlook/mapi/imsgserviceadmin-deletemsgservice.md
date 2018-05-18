@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Deletes a message service from a profile.
   
-```
+```cpp
 HRESULT DeleteMsgService(
   LPMAPIUID lpuid
 );

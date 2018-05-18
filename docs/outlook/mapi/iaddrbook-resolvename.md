@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Performs name resolution, assigning entry identifiers to recipients in a recipient list.
   
-```
+```cpp
 HRESULT ResolveName(
   ULONG_PTR ulUIParam,
   ULONG ulFlags,

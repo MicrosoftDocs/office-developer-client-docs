@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Provides the property names that correspond to one or more property identifiers.
   
-```
+```cpp
 HRESULT GetNamesFromIDs(
   LPSPropTagArray FAR * lppPropTags,
   LPGUID lpPropSetGuid,

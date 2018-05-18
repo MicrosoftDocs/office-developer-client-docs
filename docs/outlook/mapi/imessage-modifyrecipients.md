@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Adds, deletes, or modifies message recipients.
   
-```cs
+```cpp
 HRESULT ModifyRecipients(
   ULONG ulFlags,
   LPADRLIST lpMods

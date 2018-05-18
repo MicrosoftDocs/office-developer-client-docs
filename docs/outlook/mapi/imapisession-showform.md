@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Displays a form.
   
-```
+```cpp
 HRESULT ShowForm(
   ULONG_PTR ulUIParam,
   LPMDB lpMsgStore,

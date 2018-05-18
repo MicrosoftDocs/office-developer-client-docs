@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Prepares the local store for synchronization in a particular state and retrieves the necessary information to replicate.
   
-```
+```cpp
 HRESULT SyncBeg( 
     UINT uiSync, 
     LPVOID *ppv 

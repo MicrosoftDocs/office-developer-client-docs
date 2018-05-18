@@ -30,7 +30,7 @@ Retrieves all rows of a table.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 HRESULT HrQueryAllRows(
   LPMAPITABLE ptable,
   LPSPropTagArray ptaga,

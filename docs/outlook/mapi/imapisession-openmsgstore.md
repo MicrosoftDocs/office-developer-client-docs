@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Opens a message store and returns an [IMsgStore](imsgstoreimapiprop.md) pointer for further access. 
   
-```
+```cpp
 HRESULT OpenMsgStore(
   ULONG_PTR ulUIParam,
   ULONG cbEntryID,

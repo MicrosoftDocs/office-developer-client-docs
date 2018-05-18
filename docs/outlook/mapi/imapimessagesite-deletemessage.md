@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Deletes the current message.
   
-```
+```cpp
 HRESULT DeleteMessage(
   LPMAPIVIEWCONTEXT pViewContext,
   LPCRECT prcPosRect

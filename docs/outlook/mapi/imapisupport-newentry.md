@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Adds a new recipient directly to an address book container or to the recipient list of an outgoing message.
   
-```
+```cpp
 HRESULT NewEntry(
   ULONG_PTR ulUIParam,
   ULONG ulFlags,

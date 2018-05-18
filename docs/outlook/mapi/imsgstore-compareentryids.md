@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Compares two entry identifiers to determine whether they refer to the same entry in a message store. MAPI passes this call to a service provider only if the unique identifiers (UIDs) in both entry identifiers to be compared are handled by that provider.
   
-```
+```cpp
 HRESULT CompareEntryIDs(
   ULONG cbEntryID1,
   LPENTRYID lpEntryID1,

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Deletes one or more properties from an object. 
   
-```
+```cpp
 HRESULT DeleteProps(
   LPSPropTagArray lpPropTagArray,
   LPSPropProblemArray FAR * lppProblems

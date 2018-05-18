@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Deletes one or more messages.
   
-```
+```cpp
 HRESULT DeleteMessages(
   LPENTRYLIST lpMsgList,
   ULONG_PTR ulUIParam,

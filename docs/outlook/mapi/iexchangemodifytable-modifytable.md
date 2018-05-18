@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Updates a MAPI table object.
   
-```
+```cpp
 HRESULT ModifyTable( 
   ULONG ulFlags, 
   LPROWLIST lpMods 

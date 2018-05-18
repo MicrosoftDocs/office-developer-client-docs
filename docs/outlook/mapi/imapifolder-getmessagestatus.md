@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Obtains the status associated with a message in a particular folder (for example, whether that message is marked for deletion).
   
-```
+```cpp
 HRESULT GetMessageStatus(
   ULONG cbEntryID,
   LPENTRYID lpEntryID,

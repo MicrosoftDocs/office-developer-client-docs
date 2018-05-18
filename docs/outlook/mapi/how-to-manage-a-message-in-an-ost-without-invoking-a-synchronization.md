@@ -41,7 +41,7 @@ HRESULT HrOpenRawMessage (
         lpEntryID, 
         IID_IMessageRaw, 
         ulFlags, 
-        &amp;ulObjType, 
+        &ulObjType, 
         (LPUNKNOWN*) lpMessage)); 
  
    return hRes; 

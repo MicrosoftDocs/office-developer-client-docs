@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Retrieves a row based on its position in the table. 
   
-```
+```cpp
 HRESULT HrEnumRow(
   ULONG ulRowNumber,
   LPSRow FAR * lppSRow

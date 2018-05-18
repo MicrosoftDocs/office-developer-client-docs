@@ -30,7 +30,7 @@ Copies one value within a multivalued property to a single-valued property of th
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 VOID GetInstance(
   LPSPropValue pvalMv,
   LPSPropValue pvalSv,

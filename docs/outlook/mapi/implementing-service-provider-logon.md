@@ -8,14 +8,10 @@ api_type:
 - COM
 ms.assetid: 3d3c309f-fe60-43a9-beda-16b09ec769db
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
 # Implementing Service Provider Logon
 
-  
-  
 **Applies to**: Outlook 
   
 MAPI calls a method in your provider object to begin the logon process by using the pointer that you return from your entry point function. The method varies as follows, depending on the type of your service provider:
@@ -42,8 +38,8 @@ Perform the following tasks in whatever logon method you implement:
     
   - **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))
     
-    > [!NOTE]
-    > Do not attempt to set the profile section's **PR_RESOURCE_FLAGS** or **PR_PROVIDER_DLL_NAME** properties. At logon time, these properties are read-only. 
+  > [!NOTE]
+  > Do not attempt to set the profile section's **PR_RESOURCE_FLAGS** or **PR_PROVIDER_DLL_NAME** properties. At logon time, these properties are read-only. 
   
 4. Check that the properties you need for configuration are either stored in the profile or are available from the user. For more information about checking your configuration, see [Verifying Service Provider Configuration](verifying-service-provider-configuration.md).
     
@@ -66,7 +62,5 @@ The preceding list of tasks describes a minimum implementation for a service pro
   
 ## See also
 
-#### Concepts
-
-[Starting a Service Provider](starting-a-service-provider.md)
+- [Starting a Service Provider](starting-a-service-provider.md)
 

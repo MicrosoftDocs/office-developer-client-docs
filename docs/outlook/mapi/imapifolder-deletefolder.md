@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Deletes a subfolder.
   
-```
+```cpp
 HRESULT DeleteFolder(
   ULONG_PTR cbEntryID,
   LPENTRYID lpEntryID,

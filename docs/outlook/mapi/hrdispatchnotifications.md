@@ -30,7 +30,7 @@ Forces dispatching of all queued notifications.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 HRESULT HrDispatchNotifications(
   ULONG ulFlags
 );

@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Inserts a table row. 
   
-```
+```cpp
 HRESULT HrInsertRow(
   ULONG uliRow,
   LPSRow lpSRow

@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Saves a revised form back to the message from which it was loaded or created.
   
-```
+```cpp
 HRESULT Save(
   LPMESSAGE pMessage,
   ULONG fSameAsLoad

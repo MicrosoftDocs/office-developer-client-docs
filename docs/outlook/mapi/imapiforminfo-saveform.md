@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Saves a description of a particular form in a configuration file.
   
-```
+```cpp
 HRESULT SaveForm(
   LPCSTR szFileName
 );

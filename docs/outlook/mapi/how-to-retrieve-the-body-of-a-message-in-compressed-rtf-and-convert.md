@@ -40,17 +40,17 @@ HRESULT TestWrapCompressedRTFStreamEx(LPMESSAGE lpMsg)
     // Retrieve the value of the Internet code page. 
     // Pass this value to the WrapCompressedRTFStreamEx function. 
     // If the property is not found, the default is 0. 
-    if(SUCCEEDED(hRes = HrGetOneProp(lpMsg, PR_INTERNET_CPID, &amp;lpPropCPID))) 
+    if(SUCCEEDED(hRes = HrGetOneProp(lpMsg, PR_INTERNET_CPID, &lpPropCPID))) 
     { 
         wcsinfo.ulInCodePage = lpPropCPID->Value.l; 
     } 
  
     // Open the compressed RTF stream. 
     if(SUCCEEDED(hRes = lpMsg->OpenProperty(PR_RTF_COMPRESSED, 
-                                         &amp;IID_IStream, 
+                                         &IID_IStream, 
                                          STGM_READ | STGM_DIRECT, 
                                          0, 
-                                         (LPUNKNOWN*)&amp;lpCompressed))) 
+                                         (LPUNKNOWN*)&lpCompressed))) 
     { 
  
         // Notice that the WrapCompressedRTFStreamEx function has been loaded 
@@ -58,9 +58,9 @@ HRESULT TestWrapCompressedRTFStreamEx(LPMESSAGE lpMsg)
  
         // Call the WrapCompressedRTFStreamEx function. 
         if(SUCCEEDED(hRes = pfnWrapEx(lpCompressed, 
-                                   &amp;wcsinfo, 
-                                   &amp;lpUncompressed, 
-                                   &amp;retinfo))) 
+                                   &wcsinfo, 
+                                   &lpUncompressed, 
+                                   &retinfo))) 
         { 
  
             printf("Body's native type is: "); 
@@ -82,7 +82,7 @@ HRESULT TestWrapCompressedRTFStreamEx(LPMESSAGE lpMsg)
             } 
  
             // Read the first 1,000 characters out of the stream. 
-            if(SUCCEEDED(hRes = lpUncompressed->Read(szBody, 1024, &amp;ulRead))) 
+            if(SUCCEEDED(hRes = lpUncompressed->Read(szBody, 1024, &ulRead))) 
             { 
                 printf("First %d characters of the native body stream:\n%s\n", ulRead, szBody); 
             } 

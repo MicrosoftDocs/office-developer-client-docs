@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Establishes a connection to an active session.
   
-```
+```cpp
 HRESULT Logon(
   LPMAPISUP lpMAPISup,
   ULONG_PTR ulUIParam,

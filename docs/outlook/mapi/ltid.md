@@ -22,7 +22,7 @@ Generic Long Term ID of an object in an Outlook store.
   
 ## Quick Info
 
-```
+```cpp
 struct LTID 
 { 
     GUID guid; 

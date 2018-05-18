@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Indicates the intention of the MAPI client to proceed with shut down.
   
-```
+```cpp
 HRESULT NotifyProcessShutdown ();
 ```
 

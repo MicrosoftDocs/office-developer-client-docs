@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Completes a message's recipient list, expanding particular distribution lists.
   
-```
+```cpp
 HRESULT ExpandRecips(
   LPMESSAGE lpMessage,
   ULONG FAR * lpulFlags

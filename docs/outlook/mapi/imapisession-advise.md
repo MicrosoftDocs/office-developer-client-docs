@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Registers to receive notification of specified events that affect the session.
   
-```
+```cpp
 HRESULT Advise(
   ULONG cbEntryID,
   LPENTRYID lpEntryID,

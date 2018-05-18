@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Opens the MAPI integrated address book, returning an [IAddrBook](iaddrbookimapiprop.md) pointer for further access. 
   
-```
+```cpp
 HRESULT OpenAddressBook(
   ULONG_PTR ulUIParam,
   LPCIID lpInterface,

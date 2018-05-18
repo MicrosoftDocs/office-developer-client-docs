@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns the entry identifier of the container that is designated as the personal address book (PAB).
   
-```
+```cpp
 HRESULT GetPAB(
   ULONG FAR * lpcbEntryID,
   LPENTRYID FAR * lppEntryID

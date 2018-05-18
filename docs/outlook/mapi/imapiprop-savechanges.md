@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Makes permanent any changes that were made to an object since the last save operation. 
   
-```
+```cpp
 HRESULT SaveChanges(
   ULONG ulFlags
 );

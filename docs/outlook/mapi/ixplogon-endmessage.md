@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Informs the transport provider that the MAPI spooler completed its processing on an outbound message.
   
-```
+```cpp
 HRESULT EndMessage(
   ULONG ulMsgRef,
   ULONG FAR * lpulFlags

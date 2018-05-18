@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns one or more rows from a table, beginning at the current cursor position.
   
-```
+```cpp
 HRESULT QueryRows(
 LONG lRowCount,
 ULONG ulFlags,

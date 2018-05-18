@@ -30,7 +30,7 @@ Adds standard interpersonal message (IPM) folders to a message store.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications  <br/> |
    
-```
+```cpp
 HrValidateIPMSubtree(
   LPMDB lpMDB,
   ULONG ulFlags,

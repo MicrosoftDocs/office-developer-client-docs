@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Deprecated. Changes the password for a profile.
   
-```
+```cpp
 HRESULT ChangeProfilePassword(
   LPSTR lpszProfileName,
   LPSTR lpszOldPassword,

@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Logs MAPI on to one instance of a message store provider.
   
-```
+```cpp
 HRESULT Logon(
   LPMAPISUP lpMAPISup,
   ULONG_PTR ulUIParam,

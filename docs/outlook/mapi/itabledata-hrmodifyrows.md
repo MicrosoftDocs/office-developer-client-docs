@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Inserts multiple table rows, possibly replacing existing rows.
   
-```
+```cpp
 HRESULT HrModifyRows(
   ULONG ulFlags,
   LPSRowSet lpSRowSet

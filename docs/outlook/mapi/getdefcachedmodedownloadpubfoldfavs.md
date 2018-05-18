@@ -28,7 +28,7 @@ Indicates whether Cached Exchange Mode for the **Public Folder Favorites** folde
 |Called by:  <br/> |Client  <br/> |
 |Implemented by:  <br/> |Outlook  <br/> |
    
-```
+```cpp
 BOOL GetDefCachedModeDownloadPubFoldFavs(BOOL *pfPolicy); 
 
 ```

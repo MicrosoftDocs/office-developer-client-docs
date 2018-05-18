@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Enables the message store provider to perform processing on a sent message. This method is called only by the MAPI spooler.
   
-```
+```cpp
 HRESULT FinishedMsg(
   ULONG ulFlags,
   ULONG cbEntryID,

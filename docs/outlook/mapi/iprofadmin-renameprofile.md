@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Assigns a new name to a profile.
   
-```
+```cpp
 HRESULT RenameProfile(
   LPSTR lpszOldProfileName,
   LPSTR lpszOldPassword,

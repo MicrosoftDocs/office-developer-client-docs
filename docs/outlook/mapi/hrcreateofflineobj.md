@@ -1,7 +1,5 @@
 ---
 title: "HrCreateOfflineObj"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -14,8 +12,6 @@ description: "Last modified: March 09, 2015"
 
 # HrCreateOfflineObj
 
-  
-  
 **Applies to**: Outlook 
   
  Creates a MAPI offline object that is used by the provider and store in order to notify MAPI when the object goes online and offline, 
@@ -26,7 +22,7 @@ description: "Last modified: March 09, 2015"
 |Implemented by:  <br/> |Outlook  <br/> |
 |Called by:  <br/> |Client  <br/> |
    
-```
+```cpp
 STDAPI HrCreateOfflineObj(
 ULONG ulFlags,
 MAPIOFFLINE_CREATEINFO* pCreateInfo,
@@ -36,15 +32,15 @@ IMAPIOfflineMgr** ppOffline
 
 ## Parameters
 
- _ulFlags_
+_ulFlags_
   
 > [in] It must be 0.
     
- _pCreateInfo_
+_pCreateInfo_
   
 > [in] A pointer to a **MAPIOFFLINE_CREATEINFO** structure that contains the information needed to create the offline object. 
     
- _ppOffline_
+_ppOffline_
   
 > [out] A pointer to the **IMAPIOfflineMgr** interface. 
     
@@ -56,21 +52,21 @@ HrOpenOfflineObj
   
 ## Example
 
-```
+```cpp
 // create/get global offline object to use as parent.
- ZeroMemory(&amp;OfflineCreateInfo, sizeof(OfflineCreateInfo));
+ ZeroMemory(&OfflineCreateInfo, sizeof(OfflineCreateInfo));
   OfflineCreateInfo.ulSize = sizeof(OfflineCreateInfo);
   OfflineCreateInfo.ulCreateFlags = 0;
   OfflineCreateInfo.pwszProfileName = pszProfileName;
   OfflineCreateInfo.ulCapabilities = ulCapabilities;
-  OfflineCreateInfo.pGUID = &amp;GUID_GlobalState;
+  OfflineCreateInfo.pGUID = &GUID_GlobalState;
   OfflineCreateInfo.pInstance = NULL;
   OfflineCreateInfo.pParent = NULL;
   OfflineCreateInfo.pMAPISupport = NULL;
   OfflineCreateInfo.pAggregateInfo = NULL;
   OfflineCreateInfo.pConnectInfo = NULL;
 // Create an offline object for the provider with global as parent.
-  ZeroMemory(&amp;OfflineCreateInfo, sizeof(OfflineCreateInfo));
+  ZeroMemory(&OfflineCreateInfo, sizeof(OfflineCreateInfo));
   OfflineCreateInfo.ulSize = sizeof(OfflineCreateInfo);
   OfflineCreateInfo.ulCreateFlags = 0;
   OfflineCreateInfo.pwszProfileName = pszProfileName;
@@ -82,7 +78,7 @@ HrOpenOfflineObj
   OfflineCreateInfo.pAggregateInfo = NULL;
   OfflineCreateInfo.pConnectInfo = NULL;
   // create store offline object which aggregates with the store object and has provider offline object as parent.
-  ZeroMemory(&amp;OfflineCreateInfo, sizeof(OfflineCreateInfo));
+  ZeroMemory(&OfflineCreateInfo, sizeof(OfflineCreateInfo));
   OfflineCreateInfo.ulSize = sizeof(OfflineCreateInfo);
   OfflineCreateInfo.ulCreateFlags = 0;
   OfflineCreateInfo.pwszProfileName = pszProfileName;
@@ -91,9 +87,9 @@ HrOpenOfflineObj
   OfflineCreateInfo.pInstance = NULL;
   OfflineCreateInfo.pParent = m_pProviderOfflineMgr;
   OfflineCreateInfo.pMAPISupport = pMAPISup;
-  OfflineCreateInfo.pAggregateInfo = &amp;AggregateInfo;
+  OfflineCreateInfo.pAggregateInfo = &AggregateInfo;
   OfflineCreateInfo.pConnectInfo = NULL;
-  ZeroMemory(&amp;AggregateInfo, sizeof(AggregateInfo));
+  ZeroMemory(&AggregateInfo, sizeof(AggregateInfo));
   AggregateInfo.ulSize = sizeof(AggregateInfo);
   AggregateInfo.pOuterObj = (IMsgStore *)this;
   AggregateInfo.pRefTrackRoot = NULL;
@@ -102,9 +98,6 @@ HrOpenOfflineObj
 
 ## See also
 
-#### Reference
-
-[MAPIOFFLINE_AGGREGATEINFO](mapioffline_aggregateinfo.md)
-  
-[MAPIOFFLINE_CREATEINFO](mapioffline_createinfo.md)
+- [MAPIOFFLINE_AGGREGATEINFO](mapioffline_aggregateinfo.md)
+- [MAPIOFFLINE_CREATEINFO](mapioffline_createinfo.md)
 

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Requests that the form perform whatever tasks it associates with a specific verb.
   
-```
+```cpp
 HRESULT DoVerb(
   LONG iVerb,
   LPMAPIVIEWCONTEXT lpViewContext,

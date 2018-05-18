@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Cancels the responsibility for sending notifications that was previously established with a call to the [IMAPISupport::Subscribe](imapisupport-subscribe.md) method. 
   
-```
+```cpp
 HRESULT Unsubscribe(
 ULONG ulConnection
 );

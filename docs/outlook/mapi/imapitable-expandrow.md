@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Expands a collapsed table category, adding the leaf or lower-level heading rows belonging to the category to the table view.
   
-```
+```cpp
 HRESULT ExpandRow(
 ULONG cbInstanceKey,
 LPBYTE pbInstanceKey,

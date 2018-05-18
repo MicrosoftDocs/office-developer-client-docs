@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Creates a new profile.
   
-```
+```cpp
 HRESULT CreateProfile(
   LPSTR lpszProfileName,
   LPSTR lpszPassword,

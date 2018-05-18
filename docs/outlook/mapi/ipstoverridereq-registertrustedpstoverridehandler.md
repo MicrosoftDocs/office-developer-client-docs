@@ -24,7 +24,7 @@ description: "Last modified: February 24, 2013"
   
 Initiates the unlocking procedure for a Personal Folders (.pst) file.
   
-```
+```cpp
 HRESULT RegisterTrustedPSTOverrideHandler (
   LPCWSTR pwzDllPath, 
   LPVOID pvClientData

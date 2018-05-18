@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Sets a local store to emulate the Outlook Protocol Manager to spool outgoing messages to a server.
   
-```
+```cpp
 HRESULT EmulateSpooler( 
     BOOL fEmulate 
 );

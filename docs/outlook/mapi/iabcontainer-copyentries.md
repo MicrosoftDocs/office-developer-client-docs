@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Copies one or more entries, typically messaging users or distribution lists.
   
-```
+```cpp
 HRESULT CopyEntries(
   LPENTRYLIST lpEntries,
   ULONG_PTR ulUIParam,

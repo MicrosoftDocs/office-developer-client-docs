@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Gives control of the CPU to the MAPI spooler so that it can perform any tasks it considers necessary.
   
-```
+```cpp
 HRESULT SpoolerYield(
 ULONG ulFlags
 );

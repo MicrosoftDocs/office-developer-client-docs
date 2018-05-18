@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns a form manager interface, which a form server can use to open another form server.
   
-```
+```cpp
 HRESULT GetFormManager(
   LPMAPIFORMMGR FAR * ppFormMgr
 );

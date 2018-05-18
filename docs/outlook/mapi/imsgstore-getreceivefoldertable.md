@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Provides access to the receive folder table, a table that includes information about all of the receive folders for the message store.
   
-```
+```cpp
 HRESULT GetReceiveFolderTable(
   ULONG ulFlags,
   LPMAPITABLE FAR * lppTable );

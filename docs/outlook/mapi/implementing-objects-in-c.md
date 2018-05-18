@@ -1,5 +1,5 @@
 ---
-title: "Implementing Objects in C"
+title: "Implementing objects in C"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,29 +8,25 @@ api_type:
 - COM
 ms.assetid: 24fc4d78-726d-40ff-bad2-25dc298bd51a
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
-# Implementing Objects in C
+# Implementing objects in C
 
-  
-  
 **Applies to**: Outlook 
   
 Client applications and service providers written in C define MAPI objects by creating a data structure and an array of ordered function pointers known as a virtual function table, or vtable. A pointer to the vtable must be the first member of the data structure.
   
- In the vtable itself, there is one pointer for every method in each interface supported by the object. The order of the pointers must follow the order of the methods in the interface specification published in the Mapidefs.h header file. Each function pointer in the vtable is set to the address of the actual implementation of the method. In C++, the compiler automatically sets up the vtable. In C, it does not. 
+In the vtable itself, there is one pointer for every method in each interface supported by the object. The order of the pointers must follow the order of the methods in the interface specification published in the Mapidefs.h header file. Each function pointer in the vtable is set to the address of the actual implementation of the method. In C++, the compiler automatically sets up the vtable. In C, it does not. 
   
 The following illustration shows how this works. The box on the far left represents a client that needs to use a service provider object. Through the session, the client obtains a pointer to the object, **lpObject**. The vtable appears first in the object followed by private data and methods. The vtable pointer points to the actual vtable, which contains pointers to each of the implementations of the methods in the interface. 
   
- **Object implementation**
+**Object implementation**
   
 ![Object implementation](media/amapi_42.gif)
   
 The following code example shows how a C service provider can define a simple status object. The first member is the vtable pointer; the rest of the object is made up of data members. 
   
-```
+```C
 typedef struct _MYSTATUSOBJECT
 {
     const STATUS_Vtbl FAR *lpVtbl;
@@ -44,7 +40,7 @@ typedef struct _MYSTATUSOBJECT
 
 Because this object is a status object, the vtable includes pointers to implementations of each of the methods in the [IMAPIStatus : IMAPIProp](imapistatusimapiprop.md) interface, as well as pointers to implementations of each of the methods in the base interfaces — **IUnknown** and **IMAPIProp**. The order of methods in the vtable matches the specified order as defined in the Mapidefs.h header file.
   
-```
+```js
 static const MYOBJECT_Vtbl vtblSTATUS =
 {
     STATUS_QueryInterface,
@@ -73,14 +69,12 @@ Clients and service providers written in C use objects indirectly through the vt
   
 The following code demonstrates how a client can make a call to an instance of MYSTATUSOBJECT:
   
-```
+```C
 lpMyObj->lpVtbl->ValidateState(lpMyObj, ulUIParam, ulFlags);
  
 ```
 
 ## See also
 
-#### Concepts
-
-[Implementing MAPI Objects](implementing-mapi-objects.md)
+- [Implementing MAPI Objects](implementing-mapi-objects.md)
 

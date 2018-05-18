@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Provides access to a message service administration object for making changes to the message services in a profile.
   
-```
+```cpp
 HRESULT AdminServices(
   LPSTR lpszProfileName,
   LPSTR lpszPassword,

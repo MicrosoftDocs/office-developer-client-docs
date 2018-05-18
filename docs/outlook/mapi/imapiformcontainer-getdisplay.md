@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns the display name of a form container.
   
-```
+```cpp
 HRESULT GetDisplay(
   ULONG ulFlags,
   LPSTR FAR * pszDisplayName

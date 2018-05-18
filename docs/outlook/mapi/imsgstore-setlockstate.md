@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Locks or unlocks a message. This method is called only by the MAPI spooler.
   
-```
+```cpp
 HRESULT SetLockState(
   LPMESSAGE lpMessage,
   ULONG ulLockState  

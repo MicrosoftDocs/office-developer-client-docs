@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns the current view context for the form. 
   
-```
+```cpp
 HRESULT GetViewContext(
   LPMAPIVIEWCONTEXT FAR * ppViewContext
 );

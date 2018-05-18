@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns the table's status and type.
   
-```
+```cpp
 HRESULT GetStatus(
 ULONG FAR * lpulTableStatus,
 ULONG FAR * lpulTableType

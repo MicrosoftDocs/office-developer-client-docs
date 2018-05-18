@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Creates a message service support object.
   
-```
+```cpp
 HRESULT GetSvcConfigSupportObj(
   ULONG ulFlags,
   LPMAPISUP FAR * lppSvcSupport

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Provides access to the message service's provider table, a list of the service providers in the message service.
   
-```
+```cpp
 HRESULT GetProviderTable(
   ULONG ulFlags,
   LPMAPITABLE FAR * lppTable

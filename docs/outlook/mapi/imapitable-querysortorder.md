@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Retrieves the current sort order for a table.
   
-```
+```cpp
 HRESULT QuerySortOrder(
 LPSSortOrderSet FAR * lppSortCriteria
 );

@@ -30,7 +30,7 @@ Encodes an entry identifier into an ASCII string.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications  <br/> |
    
-```
+```cpp
 HrSzFromEntryID(
   ULONG cb,
   LPENTRYID pentry,

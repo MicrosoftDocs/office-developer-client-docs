@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Closes the form.
   
-```
+```cpp
 HRESULT ShutdownForm(
   ULONG ulSaveOptions
 );

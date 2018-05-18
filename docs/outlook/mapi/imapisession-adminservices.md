@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns an [IMsgServiceAdmin](imsgserviceadminiunknown.md) pointer for making changes to message services. 
   
-```
+```cpp
 HRESULT AdminServices(
   ULONG ulFlags,
   LPSERVICEADMIN FAR * lppServiceAdmin

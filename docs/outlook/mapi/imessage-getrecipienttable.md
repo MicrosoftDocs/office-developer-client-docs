@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Returns the message's recipient table.
   
-```cs
+```cpp
 HRESULT GetRecipientTable(
   ULONG ulFlags,
   LPMAPITABLE FAR * lppTable

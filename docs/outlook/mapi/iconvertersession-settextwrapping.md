@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Sets the text wrapping width for a MIME stream that the converter will return in [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md).
   
-```
+```cpp
 HRESULT IConverterSession::SetTextWrapping ( 
     BOOL    fWrapText, 
     ULONG   ulWrapWidth 

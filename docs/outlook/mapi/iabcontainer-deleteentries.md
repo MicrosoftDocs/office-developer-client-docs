@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Removes one or more entries, typically messaging users, distribution lists, or other containers.
   
-```
+```cpp
 HRESULT DeleteEntries(
   LPENTRYLIST lpEntries,
   ULONG ulFlags

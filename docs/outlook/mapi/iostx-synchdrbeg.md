@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Starts synchronization for a message header.
   
-```
+```cpp
 HRESULT SyncHdrBeg( 
     ULONG cbeid, 
     LPENTRYID lpeid, 

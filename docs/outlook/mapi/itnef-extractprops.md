@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Extracts the properties from a TNEF encapsulation. 
   
-```
+```cpp
 HRESULT ExtractProps(
   ULONG ulFlags,
   LPSPropTagArray lpPropList,

@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Indicates to the MAPI provider that a MAPI client is going to do a fast shutdown, so that the provider can take actions to prevent data loss.
   
-```
+```cpp
 HRESULT NotifyProcessShutdown ();
 ```
 

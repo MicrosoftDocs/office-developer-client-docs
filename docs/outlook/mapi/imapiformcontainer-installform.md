@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Installs a form into a form library.
   
-```
+```cpp
 HRESULT InstallForm(
   ULONG_PTR ulUIParam,
   ULONG ulFlags,

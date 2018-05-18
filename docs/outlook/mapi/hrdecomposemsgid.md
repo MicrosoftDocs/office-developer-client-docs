@@ -30,7 +30,7 @@ Separates the ASCII representation of the compound entry identifier of an object
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications  <br/> |
    
-```
+```cpp
 HrDecomposeMsgID(
   LPMAPISESSION psession,
   LPSTR szMsgID,

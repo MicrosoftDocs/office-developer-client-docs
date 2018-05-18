@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Performs a task such as displaying a dialog box or starting a programmatic operation when a client application user clicks the button control.
   
-```
+```cpp
 HRESULT Activate(
   ULONG ulFlags,
   ULONG_PTR ulUIParam

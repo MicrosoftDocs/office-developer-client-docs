@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Creates a new message.
   
-```
+```cpp
 HRESULT CreateMessage(
   LPCIID lpInterface,
   ULONG ulFlags,

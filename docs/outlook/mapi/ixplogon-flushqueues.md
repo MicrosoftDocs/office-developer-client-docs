@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Requests that the transport provider immediately deliver all pending inbound or outbound messages.
   
-```
+```cpp
 HRESULT FlushQueues(
   ULONG_PTR ulUIParam,
   ULONG cbTargetTransport,

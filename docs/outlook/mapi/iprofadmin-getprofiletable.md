@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Provides access to the profile table, a table that contains information about all of the available profiles.
   
-```
+```cpp
 HRESULT GetProfileTable(
   ULONG ulFlags,
   LPMAPITABLE FAR * lppTable

@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Builds an icon from one of the icon properties of a form.
   
-```
+```cpp
 HRESULT MakeIconFromBinary(
   ULONG nPropID,
   HICON FAR * phicon

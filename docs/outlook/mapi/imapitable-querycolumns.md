@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns a list of columns for the table.
   
-```
+```cpp
 HRESULT QueryColumns(
 ULONG ulFlags,
 LPSPropTagArray FAR * lpPropTagArray

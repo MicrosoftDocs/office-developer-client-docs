@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Retrieves current printing information.
   
-```
+```cpp
 HRESULT GetPrintSetup(
 ULONG ulFlags,
 LPFORMPRINTSETUP FAR * lppFormPrintSetup

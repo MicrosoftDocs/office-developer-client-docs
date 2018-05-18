@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Establishes a message store as the default message store for the session.
   
-```
+```cpp
 HRESULT SetDefaultStore(
   ULONG ulFlags,
   ULONG cbEntryID,

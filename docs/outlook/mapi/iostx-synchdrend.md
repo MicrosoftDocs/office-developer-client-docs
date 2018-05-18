@@ -24,7 +24,7 @@ description: "Last modified: July 03, 2012"
   
 Ends synchronization for a message header.
   
-```
+```cpp
 HRESULT SyncHdrEnd( 
     LPMAPIPROGRESS pprog 
 );

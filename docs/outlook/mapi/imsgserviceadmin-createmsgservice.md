@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Deprecated: The use of [IMsgServiceAdmin2::CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md) is recommended. Adds a message service to the current profile. 
   
-```
+```cpp
 HRESULT CreateMsgService(
   LPSTR lpszService,
   LPSTR lpszDisplayName,

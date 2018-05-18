@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Registers a form viewer for notifications about events that affect the form.
   
-```
+```cpp
 HRESULT Advise(
   LPMAPIVIEWADVISESINK pAdvise,
   ULONG FAR * pulConnection

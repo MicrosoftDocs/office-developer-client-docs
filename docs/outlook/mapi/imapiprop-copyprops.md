@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Copies or moves selected properties. 
   
-```
+```cpp
 HRESULT CopyProps(
   LPSPropTagArray lpIncludeProps,
   ULONG_PTR ulUIParam,

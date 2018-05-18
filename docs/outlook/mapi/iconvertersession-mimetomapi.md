@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Converts a MIME stream to a MAPI message.
   
-```
+```cpp
 HRESULT IConverterSession:: MIMEToMAPI ( 
      LPSTREAM pstm, 
      LPMESSAGE pmsg, 

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Retrieves the property value of one or more properties of an object.
   
-```
+```cpp
 HRESULT GetProps(
   LPSPropTagArray lpPropTagArray,
   ULONG ulFlags,

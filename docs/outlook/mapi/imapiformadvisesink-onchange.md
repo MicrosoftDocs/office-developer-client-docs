@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Indicates that a change has occurred in the status of the form viewer. 
   
-```
+```cpp
 HRESULT OnChange(
   ULONG ulDir
 );

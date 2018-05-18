@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Retrieves the access level and status for one or more of the object's properties.
   
-```
+```cpp
 HRESULT HrGetPropAccess(
   LPSPropTagArray FAR * lppPropTagArray,
   ULONG FAR * FAR * lprgulAccess

@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Gets the current online or offline state of an offline object.
   
-```
+```cpp
 HRESULT GetCurrentState( 
     ULONG* pulState 
 );

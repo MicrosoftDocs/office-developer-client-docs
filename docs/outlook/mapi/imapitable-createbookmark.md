@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Creates a bookmark at the table's current position.
   
-```
+```cpp
 HRESULT CreateBookmark(
 BOOKMARK FAR * lpbkPosition
 );

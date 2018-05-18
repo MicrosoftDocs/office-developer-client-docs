@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Makes changes to a message store profile section permanent.
   
-```
+```cpp
 HRESULT ModifyProfile(
 ULONG ulFlags
 );

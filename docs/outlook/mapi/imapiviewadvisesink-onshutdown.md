@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Notifies the form viewer that a form is being closed.
   
-```
+```cpp
 HRESULT OnShutdown( void );
 ```
 

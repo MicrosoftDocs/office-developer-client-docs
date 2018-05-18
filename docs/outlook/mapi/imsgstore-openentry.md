@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Opens a folder or message and returns an interface pointer for further access. 
   
-```
+```cpp
 HRESULT OpenEntry(
   ULONG cbEntryID,
   LPENTRYID lpEntryID,

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Retrieves the current viewer status. 
   
-```
+```cpp
 HRESULT GetViewStatus(
 ULONG FAR * lpulStatus
 );

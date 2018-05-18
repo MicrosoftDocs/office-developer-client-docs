@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Returns information about the last error that occurred in a table object.
   
-```
+```cpp
 HRESULT GetLastError( 
   HRESULT hResult, 
   ULONG ulFlags, 

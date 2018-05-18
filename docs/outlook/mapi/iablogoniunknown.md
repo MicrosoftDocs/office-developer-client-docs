@@ -33,7 +33,7 @@ Accesses resources in an address book provider.
 |Interface identifier:  <br/> |IID_IABLogon  <br/> |
 |Pointer type:  <br/> |LPABLOGON  <br/> |
    
-## Vtable Order
+## Vtable order
 
 |||
 |:-----|:-----|

@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Creates a new attachment.
   
-```
+```cpp
 HRESULT CreateAttach(
 LPCIID lpInterface,
 ULONG ulFlags,

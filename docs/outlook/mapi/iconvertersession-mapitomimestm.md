@@ -22,7 +22,7 @@ description: "Last modified: September 20, 2017"
   
 Converts a MAPI message to a MIME stream.
   
-```
+```cpp
 HRESULT IConverterSession::MAPIToMIMEStm( 
     LPMESSAGE pmsg, 
     LPSTREAM pstm, 

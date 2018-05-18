@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Updates the status in the Send/Receive dialog. The store provider periodically calls this function.
   
-```
+```cpp
 HRESULT Progress(
   const WCHAR *pwcszProgress, 
   ULONG ulIndex, 

@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Checks the form for changes that were made since the last save.
   
-```
+```cpp
 HRESULT IsDirty( void );
 ```
 

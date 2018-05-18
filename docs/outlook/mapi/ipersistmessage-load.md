@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Loads the form for a specified message.
   
-```
+```cpp
 HRESULT Load(
   LPMESSAGESITE pMessageSite,
   LPMESSAGE pMessage,

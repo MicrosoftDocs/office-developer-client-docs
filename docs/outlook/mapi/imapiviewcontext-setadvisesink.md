@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Manages a form's registration to receive notifications about changes in the viewer. 
   
-```
+```cpp
 HRESULT SetAdviseSink(
 LPMAPIFORMADVISESINK pmvns
 );

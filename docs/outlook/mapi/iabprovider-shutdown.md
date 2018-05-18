@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Cancels a connection to an active session.
   
-```
+```cpp
 HRESULT Shutdown(
   ULONG FAR * lpulFlags
 );

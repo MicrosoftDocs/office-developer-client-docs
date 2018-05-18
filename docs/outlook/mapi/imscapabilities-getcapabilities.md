@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Gets information about what a store can support based on the specified selector.
   
-```
+```cpp
 ULONG GetCapabilities( 
 MSCAP_SELECTOR mscapSelector 
 );

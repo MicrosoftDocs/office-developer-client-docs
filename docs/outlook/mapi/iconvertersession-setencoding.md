@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Initializes the encoding to be used during conversion.
   
-```
+```cpp
 HRESULT IConverterSession:: SetEncoding ( 
      ENCODINGTYPE et 
 );

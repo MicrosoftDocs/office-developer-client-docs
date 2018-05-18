@@ -30,7 +30,7 @@ Layers an **IStorage** interface onto an **IStream** object.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 HRESULT HrIStorageFromStream(
   LPUNKNOWN lpUnkIn,
   PIID lpInterface,

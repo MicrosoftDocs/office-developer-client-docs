@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns a pointer to the container's contents table.
   
-```
+```cpp
 HRESULT GetContentsTable(
   ULONG ulFlags,
   LPMAPITABLE FAR * lppTable

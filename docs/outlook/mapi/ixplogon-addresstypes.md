@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Returns the types of recipients that the transport provider handles.
   
-```
+```cpp
 HRESULT AddressTypes(
   ULONG FAR * lpulFlags,
   ULONG FAR * lpcAdrType,

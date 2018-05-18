@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Queries the MAPI provider for fast shutdown support. 
   
-```
+```cpp
 HRESULT QueryFastShutdown ();
 ```
 

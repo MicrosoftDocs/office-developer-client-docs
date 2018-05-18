@@ -30,7 +30,7 @@ Separates the compound entry identifier of an object, usually a message in a mes
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications  <br/> |
    
-```
+```cpp
 HrDecomposeEID(
   LPMAPISESSION psession,
   ULONG cbEID,

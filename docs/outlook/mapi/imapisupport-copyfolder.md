@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Copies or moves a folder from its current parent folder to another parent folder.
   
-```
+```cpp
 HRESULT CopyFolder(
   LPCIID lpSrcInterface,
   LPVOID lpSrcFolder,

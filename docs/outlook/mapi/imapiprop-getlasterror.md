@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Returns a [MAPIERROR](mapierror.md) structure that contains information about the previous error. 
   
-```
+```cpp
 HRESULT GetLastError(
   HRESULT hResult,
   ULONG ulFlags,

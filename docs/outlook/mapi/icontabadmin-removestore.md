@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Removes the Contact Address Book (CAB) specified by the given entry ID from the address book hierarchy.
   
-```VB.net
+```cpp
 HRESULT RemoveStore(
 ULONG cbEntryID, 
 LPENTRYID lpEntryID

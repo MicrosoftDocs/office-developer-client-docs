@@ -1,5 +1,5 @@
 ---
-title: "Generating and Using Entry Identifiers in Message Store Providers"
+title: "Generating and using entry identifiers in message store providers"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,14 +8,10 @@ api_type:
 - COM
 ms.assetid: 0c43546a-4788-4852-bc89-d6baa4f33c94
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
-# Generating and Using Entry Identifiers in Message Store Providers
+# Generating and using entry identifiers in message store providers
 
-  
-  
 **Applies to**: Outlook 
   
 When a new folder or message is created in a message store, the message store provider has to assign that object an entry identifier so that client applications can refer to it. Message store providers can either reuse the defunct long-term entry identifiers of deleted objects or create new identifiers. There is no requirement one way or the other for message store providers; however, if it is feasible, a message store provider should always generate new long-term entry identifiers for new objects rather than reusing old ones. It is fine to reuse short-term entry identifiers when the objects they refer to are deleted.
@@ -26,7 +22,5 @@ Similarly, message store providers should attempt to preserve entry identifiers 
   
 ## See also
 
-#### Concepts
-
-[Message Store Features](message-store-features.md)
+- [Message Store Features](message-store-features.md)
 

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns a pointer to the complete set of verbs that a form uses.
   
-```
+```cpp
 HRESULT CalcVerbSet(
   ULONG ulFlags,
   LPMAPIVERBARRAY FAR * ppMAPIVerbArray

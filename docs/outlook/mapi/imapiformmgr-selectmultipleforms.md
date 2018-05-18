@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Presents a dialog box that enables the user to select multiple forms, and returns an array of form information objects that describe those forms.
   
-```
+```cpp
 HRESULT SelectMultipleForms(
   ULONG_PTR ulUIParam,
   ULONG ulFlags,

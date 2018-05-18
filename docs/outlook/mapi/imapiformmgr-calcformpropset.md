@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Returns an array of the properties that a group of forms uses.
   
-```cs
+```cpp
 HRESULT CalcFormPropSet(
   LPSMAPIFORMINFOARRAY pfrminfoarray,
   ULONG ulFlags,

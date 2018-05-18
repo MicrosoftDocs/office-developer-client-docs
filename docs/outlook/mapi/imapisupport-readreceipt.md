@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Generates a read or nonread report for a message.
   
-```
+```cpp
 HRESULT ReadReceipt(
 ULONG ulFlags,
 LPMESSAGE lpReadMessage,

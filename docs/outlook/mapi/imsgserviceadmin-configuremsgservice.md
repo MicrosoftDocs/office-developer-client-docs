@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Reconfigures a message service.
   
-```
+```cpp
 HRESULT ConfigureMsgService(
   LPMAPIUID lpUID,
   ULONG_PTR ulUIParam,

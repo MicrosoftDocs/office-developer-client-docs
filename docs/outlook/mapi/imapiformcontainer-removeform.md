@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Removes a particular form from a form container.
   
-```
+```cpp
 HRESULT RemoveForm(
   LPCSTR szMessageClass
 );
