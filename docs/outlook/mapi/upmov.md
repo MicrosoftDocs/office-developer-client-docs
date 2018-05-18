@@ -1,7 +1,5 @@
 ---
 title: "UPMOV"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,14 +11,12 @@ description: "Last modified: July 05, 2012"
 ---
 
 # UPMOV
-
-  
-  
+ 
 **Applies to**: Outlook 
   
 Information for uploading items that have been moved. This information is used during the [upload delete status state](upload-delete-status-state.md) and [upload table state](upload-table-state.md).
   
-## Quick Info
+## Quick info
 
 ```
 struct UPMOV 
@@ -40,70 +36,65 @@ struct UPMOV
 
 ## Members
 
- _ulFlags_
+_ulFlags_
   
 > [in] Flags to determine the appropriate behavior during the upload.
     
-    - UPV_ERROR
+  - UPV_ERROR
     
-  - [in] Problem opening server folder.
+    - [in] Problem opening server folder.
     
-    - UPV_DIRTY
+  - UPV_DIRTY
     
-  - [in] The upload state has changed. This is used by the client to track the change in state for the local store.
+    - [in] The upload state has changed. This is used by the client to track the change in state for the local store.
     
-    - UPV_COMMIT
+  - UPV_COMMIT
     
-  - [in] Commit upload state.
+    - [in] Commit upload state.
     
- _pReserved_
+_pReserved_
   
 >  [out] This member is reserved for the internal use of Outlook and is not supported. 
     
- _pstmReserved_
+_pstmReserved_
   
 >  [out] This member is reserved for the internal use of Outlook and is not supported. 
     
- _pszName_
+_pszName_
   
 >  [out] Name of the destination folder. 
     
-    > [!NOTE]
-    > This member does not support UNICODE. 
+  > [!NOTE]
+  > This member does not support UNICODE. 
   
- _feid_
+_feid_
   
 >  [out] Entry ID of destination folder. 
     
- _pfld_
+_pfld_
   
 >  [in] Pointer to server folder. 
     
- _pxicc_
+_pxicc_
   
 >  [in] Pointer to the **IExchangeImportContentsChanges** contents interface that supports uploading content changes when using Incremental Change Synchronization (ICS). For more information on **IExchangeImportContentsChanges** and ICS, see [ICS Evaluation Criteria](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx).
     
- _dwReserved_
+_dwReserved_
   
 >  [out] This member is reserved for the internal use of Outlook and is not supported. 
     
- _pupmovNext_
+_pupmovNext_
   
 >  [out] Next move context. 
     
- _cEntMov_
+_cEntMov_
   
 >  [in] Number of items moved here. 
     
 ## See also
 
-#### Concepts
-
-[About the Replication API](about-the-replication-api.md)
-  
-[About the Replication State Machine](about-the-replication-state-machine.md)
-  
-[MAPI Constants](mapi-constants.md)
-  
-[FEID](feid.md)
+- [About the Replication API](about-the-replication-api.md)
+- [About the Replication State Machine](about-the-replication-state-machine.md)
+- [MAPI Constants](mapi-constants.md)
+- [FEID](feid.md)
 

@@ -1,12 +1,8 @@
 ---
 title: "Prerequisites for WCF-based code samples in Project"
-
- 
 manager: soliver
 ms.date: 9/17/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 60d2afc8-10b6-465d-8ce8-c073da6e5054
 description: "Learn information to help you create projects in Visual Studio by using the WCF-based code samples that are included in the Project Server Interface (PSI) reference topics."
@@ -25,7 +21,9 @@ Many of the WCF-based code samples included in the [Project Server 2013 class li
 Code samples in the Project 2013 developer documentation that are unchanged from the samples developed for Office Project Server 2007 use ASMX Web services. The ASMX-based samples can also be adapted to use WCF services. This article shows how to use the samples with WCF services. For information about how to use the samples with ASMX web services, see [Prerequisites for ASMX-based code samples in Project](prerequisites-for-asmx-based-code-samples-in-project.md).
   
 > [!NOTE]
-> If the client-side object model (CSOM) includes the methods that your application requires, new applications should be developed with the CSOM. The CSOM enables applications to work with Project Online or an on-premises installation of Project Server 2013. Otherwise, if your application uses the PSI, it should use the WCF interface, which is the technology that we recommend for network communications. Applications that use the ASMX interface or the WCF interface can work only for on-premises installations of Project Server 2013. > For more information about the CSOM, see [Project Server 2013 architecture](project-server-2013-architecture.md) and [Client-side object model (CSOM) for Project 2013](client-side-object-model-csom-for-project-2013.md). 
+> If the client-side object model (CSOM) includes the methods that your application requires, new applications should be developed with the CSOM. The CSOM enables applications to work with Project Online or an on-premises installation of Project Server 2013. Otherwise, if your application uses the PSI, it should use the WCF interface, which is the technology that we recommend for network communications. Applications that use the ASMX interface or the WCF interface can work only for on-premises installations of Project Server 2013. 
+>
+> For more information about the CSOM, see [Project Server 2013 architecture](project-server-2013-architecture.md) and [Client-side object model (CSOM) for Project 2013](client-side-object-model-csom-for-project-2013.md). 
   
 Before running the code samples, you must set up the development environment, configure the application, add a service configuration file (or configure the WCF services programmatically), and change generic constant values to match your environment.
   
@@ -45,15 +43,15 @@ Before running the code samples, you must set up the development environment, co
     
     You usually access the PSI through a network. The code samples are designed to be run on a client that is separate from the server, except where noted.
     
-1. **Install the correct version of Visual Studio.** Except where noted, the code samples are written in Visual C#. They can be used with Visual Studio 2010 or Visual Studio 2012. Ensure that you have the most recent service pack installed. 
+    1. **Install the correct version of Visual Studio.** Except where noted, the code samples are written in Visual C#. They can be used with Visual Studio 2010 or Visual Studio 2012. Ensure that you have the most recent service pack installed. 
     
-2. **Copy Project Server DLLs to the development computer.** Copy the following assemblies from  `[Program Files]\Microsoft Office Servers\15.0\Bin` on the Project Server computer to the development computer: 
+    2. **Copy Project Server DLLs to the development computer.** Copy the following assemblies from  `[Program Files]\Microsoft Office Servers\15.0\Bin` on the Project Server computer to the development computer: 
     
-  - Microsoft.Office.Project.Server.Events.Receivers.dll
+       - Microsoft.Office.Project.Server.Events.Receivers.dll
     
-  - Microsoft.Office.Project.Server.Library.dll
+       - Microsoft.Office.Project.Server.Library.dll
     
-3. For information about how to compile and use the ProjectServerServices.dll proxy assembly for the WCF services in the PSI, see [Using a PSI proxy assembly and IntelliSense descriptions](#pj15_PrerequisitesWCF_BuildingProxy).
+    3. For information about how to compile and use the ProjectServerServices.dll proxy assembly for the WCF services in the PSI, see [Using a PSI proxy assembly and IntelliSense descriptions](#pj15_PrerequisitesWCF_BuildingProxy).
     
 3. **Install the IntelliSense files.**
     
@@ -74,9 +72,9 @@ Before running the code samples, you must set up the development environment, co
     
     Also add a reference to **System.Runtime.Serialization**.
     
-   **Figure 1. Adding the references in Visual Studio for a WCF-based application**
+    **Figure 1. Adding the references in Visual Studio for a WCF-based application**
 
-     ![Adding references for WCF](media/pj15_PrerequisitesWCF_AddReference.gif)
+    ![Adding references for WCF](media/pj15_PrerequisitesWCF_AddReference.gif)
   
 3. **Copy the code**.
     
@@ -94,11 +92,11 @@ Before running the code samples, you must set up the development environment, co
     
     There are three ways to add a WCF service reference:
     
-  - Build a PSI proxy assembly named ProjectServerServices.dll, and then set a reference to the assembly. See [Using a PSI proxy assembly and IntelliSense descriptions](#pj15_PrerequisitesWCF_BuildingProxy).
+    - Build a PSI proxy assembly named ProjectServerServices.dll, and then set a reference to the assembly. See [Using a PSI proxy assembly and IntelliSense descriptions](#pj15_PrerequisitesWCF_BuildingProxy).
     
-  - Add a proxy file from the svcutil.exe output to the Visual Studio solution. See [Adding a PSI proxy file](#pj15_PrerequisitesWCF_AddingProxyFile).
+    - Add a proxy file from the svcutil.exe output to the Visual Studio solution. See [Adding a PSI proxy file](#pj15_PrerequisitesWCF_AddingProxyFile).
     
-  - Add a service reference by using Visual Studio. See [Adding a service reference](#pj15_PrerequisitesWCF_AddingServiceReference).
+    - Add a service reference by using Visual Studio. See [Adding a service reference](#pj15_PrerequisitesWCF_AddingServiceReference).
     
 ### Using a PSI proxy assembly and IntelliSense descriptions
 <a name="pj15_PrerequisitesWCF_BuildingProxy"> </a>
@@ -108,7 +106,9 @@ You can use a proxy assembly for all public WCF services in the PSI. Compile the
 For Project Server service packs and updates, you can update the proxy source files and create a new proxy assembly by using the GenWCFProxyAssembly.cmd script in the same SDK download folder. For a link to the SDK download, see [Project 2013 developer documentation](project-2013-developer-documentation.md). For more information, see the [Adding a service reference](#pj15_PrerequisitesWCF_AddingServiceReference) section. 
   
 > [!NOTE]
-> When you extract the proxy source files from the Source.zip file, the files in the  `Documentation\IntelliSense\WCF\Source` folder are current as of the publication date of the Project 2013 SDK download. To generate updated PSI proxy source files, run the GenASMXProxyAssembly.cmd script on the Project Server computer. For more information, see [Adding a service reference](#pj15_PrerequisitesWCF_AddingServiceReference). > The scripts in the  `Documentation\IntelliSense\ASMX` folder do not work for WCF-based applications. The GenASMXProxyAssembly.cmd script calls Wsdl.exe, which generates source code files for the ASMX services. The ASMX proxy files include different classes and properties. For example, the ASMX-based Resource web service includes the **Resource** class, whereas the WCF-based Resource service includes the **Resource** interface, the **ResourceChannel** interface, and the **ResourceClient** class. 
+> When you extract the proxy source files from the Source.zip file, the files in the  `Documentation\IntelliSense\WCF\Source` folder are current as of the publication date of the Project 2013 SDK download. To generate updated PSI proxy source files, run the GenASMXProxyAssembly.cmd script on the Project Server computer. For more information, see [Adding a service reference](#pj15_PrerequisitesWCF_AddingServiceReference). 
+> 
+> The scripts in the  `Documentation\IntelliSense\ASMX` folder do not work for WCF-based applications. The GenASMXProxyAssembly.cmd script calls Wsdl.exe, which generates source code files for the ASMX services. The ASMX proxy files include different classes and properties. For example, the ASMX-based Resource web service includes the **Resource** class, whereas the WCF-based Resource service includes the **Resource** interface, the **ResourceChannel** interface, and the **ResourceClient** class. 
   
 The arbitrary namespaces created for both the ASMX web services and the WCF services are the same, so that the ProjectServerServices.xml file for IntelliSense works with either assembly. For example, the namespace of the Resource service in the WCF-based proxy assembly and in the ASMX-based proxy assembly is **SvcResource**. You can, of course, change the namespace names— if you ensure that they match in the proxy assembly and in the ProjectServerServices.xml IntelliSense file.
   
@@ -169,49 +169,48 @@ The following steps show how to set a service reference by using Visual Studio 2
     
 3. In the **Add Service Reference** dialog box, in the **Address** text box, type http://localhost:32843/ _GUID_/psi/ _ServiceName_.svc, and then press **Enter**. Replace  _GUID_ with the virtual directory name of the Project Server service application, such as 534c37eb00d74ccfadcecf9827e95239. Replace  _ServiceName_ with the name of the service, such as Resource (see Figure 3). 
     
-    You can get the name of the Project Server Service virtual directory in one of the following ways:
+   You can get the name of the Project Server Service virtual directory in one of the following ways:
     
-  - Open the SharePoint 2013 Central Administration application in your browser. Choose **Manage service applications**, and then choose the Project Server PSI Service application that you want. For example, choose **ProjectServerService**. The URL of the Manage Project Web App Sites page contains the virtual directory name. For example, in  `http://ServerName:8080/_admin/pwa/managepwa.aspx?appid=534c37eb-00d7-4ccf-adce-cf9827e95239`, the virtual directory name is  `534c37eb00d74ccfadcecf9827e95239` (the directory name contains no dashes). 
+   - Open the SharePoint 2013 Central Administration application in your browser. Choose **Manage service applications**, and then choose the Project Server PSI Service application that you want. For example, choose **ProjectServerService**. The URL of the Manage Project Web App Sites page contains the virtual directory name. For example, in  `http://ServerName:8080/_admin/pwa/managepwa.aspx?appid=534c37eb-00d7-4ccf-adce-cf9827e95239`, the virtual directory name is  `534c37eb00d74ccfadcecf9827e95239` (the directory name contains no dashes). 
     
-  - Open the **Internet Information Services (IIS) Manager** dialog box on the Project Server computer. Expand the **SharePoint Web Services** node in the **Connections** pane, and then expand the service virtual directories below that, until you find the directory that includes a PSI folder. Select the directory, choose **Advanced Settings** in the **Actions** pane, and then copy the directory name in the **Virtual Path** field. 
+   - Open the **Internet Information Services (IIS) Manager** dialog box on the Project Server computer. Expand the **SharePoint Web Services** node in the **Connections** pane, and then expand the service virtual directories below that, until you find the directory that includes a PSI folder. Select the directory, choose **Advanced Settings** in the **Actions** pane, and then copy the directory name in the **Virtual Path** field. 
     
-    > [!NOTE]
-    > There can be more than one Project Server Service virtual directory. Ensure that you choose the virtual directory that contains the Project Web App instance that you want. 
+      > [!NOTE]
+      > There can be more than one Project Server Service virtual directory. Ensure that you choose the virtual directory that contains the Project Web App instance that you want. 
   
-  - Use the **get-SPServiceApplication** cmdlet in Windows PowerShell that is installed with SharePoint 2013. On the taskbar **Start** menu, choose **All Programs**, choose **Microsoft SharePoint 2013 Products**, and then choose **SharePoint 2013 Management Shell**. Following is the command and the results in the **SharePoint 2013get- Management Shell** window for the defined service applications (your GUIDs will be different). Copy the GUID for the Project Server service application. 
+   - Use the **get-SPServiceApplication** cmdlet in Windows PowerShell that is installed with SharePoint 2013. On the taskbar **Start** menu, choose **All Programs**, choose **Microsoft SharePoint 2013 Products**, and then choose **SharePoint 2013 Management Shell**. Following is the command and the results in the **SharePoint 2013get- Management Shell** window for the defined service applications (your GUIDs will be different). Copy the GUID for the Project Server service application. 
     
-  ```
-  PS > get-SPServiceApplication
-  DisplayName          TypeName             Id
-  -----------          --------             --
-  State Service        State Service        04041cfa-4ab3-4473-8bc8-3967b02eff39
-  ProjectServerSer...  Project Server PS... 534c37eb-00d7-4ccf-adce-cf9827e95239
-  Security Token Se... Security Token Se... 7243732e-edea-405d-8cc8-1716b99faef5
-  Application Disco... Application Disco... 3bfbdeb0-bc20-4a21-801c-cc6f1ce6c643
-  SharePoint Server... SharePoint Server... 09912f49-3b72-462f-a44c-6533b578286a
-  
-  ```
+        ```powershell
+            PS > get-SPServiceApplication
+            DisplayName          TypeName             Id
+            -----------          --------             --
+            State Service        State Service        04041cfa-4ab3-4473-8bc8-3967b02eff39
+            ProjectServerSer...  Project Server PS... 534c37eb-00d7-4ccf-adce-cf9827e95239
+            Security Token Se... Security Token Se... 7243732e-edea-405d-8cc8-1716b99faef5
+            Application Disco... Application Disco... 3bfbdeb0-bc20-4a21-801c-cc6f1ce6c643
+            SharePoint Server... SharePoint Server... 09912f49-3b72-462f-a44c-6533b578286a  
+        ```
 
-    If you know the full name of the Project Server Service application, you can use it to get the GUID value, for example:
+      If you know the full name of the Project Server Service application, you can use it to get the GUID value, for example:
     
-  ```
-  PS > $projectService = "ProjectServerService"
-  PS > (get-SPServiceApplication -Name $projectService).Id
-  Guid
-  ----
-  534c37eb-00d7-4ccf-adce-cf9827e95239
-  ```
+        ```powershell
+        PS > $projectService = "ProjectServerService"
+        PS > (get-SPServiceApplication -Name $projectService).Id
+        Guid
+        ----
+        534c37eb-00d7-4ccf-adce-cf9827e95239
+       ```
 
-    > [!NOTE]
-    > Remove the dashes in the GUID to get the virtual directory name. 
+      > [!NOTE]
+      > Remove the dashes in the GUID to get the virtual directory name. 
   
-    URLs such as  `http://localhost:32843/534c37eb00d74ccfadcecf9827e95239/PSI/Resource.svc` are standard for Project Server services. 
+   URLs such as  `http://localhost:32843/534c37eb00d74ccfadcecf9827e95239/PSI/Resource.svc` are standard for Project Server services. 
     
 4. After the service reference resolves, type the reference name in the **Namespace** text box. Code examples in the Project 2013 developer documentation use the arbitrary namespace name **Svc _ServiceName_**. For example, the Resource service in the code examples is named **SvcResource**.
     
-   **Figure 3. Adding the WCF-based Resource service reference**
+    **Figure 3. Adding the WCF-based Resource service reference**
 
-     ![Adding the WCF-based Resource service reference](media/pj15_PrerequisitesWCF_AddSvcReference.gif)
+    ![Adding the WCF-based Resource service reference](media/pj15_PrerequisitesWCF_AddSvcReference.gif)
   
 5. Replace the temporary web.config file in the Project Service directory with the original (renamed to web.config), and then rerun  `iisreset`.
     
@@ -253,74 +252,74 @@ PSI service configuration does not use the default bindings and endpoints. Proje
     
 2. Delete all text in the app.config file, and then copy the following code into the file. You can use the same binding, for example  `basicHttpConf`, for each service endpoint. If you want to use more than one binding, for example, to bind both HTTP and HTTPS protocols, you must create a binding for each protocol.
     
-  ```XML
-  <?xml version="1.0" encoding="utf-8" ?>
-  <configuration>
-      <system.serviceModel>
-          <behaviors>
-              <endpointBehaviors>
-                  <behavior name="basicHttpBehavior">
-                      <clientCredentials>
-                          <windows allowedImpersonationLevel="Impersonation" />
-                      </clientCredentials>
-                  </behavior>
-              </endpointBehaviors>
-          </behaviors>
-          <bindings>
-              <basicHttpBinding>
-                  <binding name="basicHttpConf" sendTimeout="01:00:00" 
-                      maxBufferSize="500000000" maxReceivedMessageSize="500000000">
-                      <readerQuotas maxDepth="32" maxStringContentLength="8192" 
-                          maxArrayLength="16384" maxBytesPerRead="4096" 
-                          maxNameTableCharCount="500000000" />
-                      <security mode="TransportCredentialOnly">
-                          <transport clientCredentialType="Ntlm" realm="http://SecurityDomain" />
-                      </security>
-                  </binding>
-              </basicHttpBinding>
-          </bindings>
-          <client>
-              <endpoint address="http://ServerName/ProjectServerName/_vti_bin/PSI/ProjectServer.svc"
-                  behaviorConfiguration="basicHttpBehavior" binding="basicHttpBinding"
-                  bindingConfiguration="basicHttpConf" 
-                  contract="SvcServiceName.ServiceName"
-                  name="basicHttp_ServiceName" />
-          </client>
-      </system.serviceModel>
-  </configuration>
-  ```
+    ```XML
+        <?xml version="1.0" encoding="utf-8" ?>
+        <configuration>
+            <system.serviceModel>
+                <behaviors>
+                    <endpointBehaviors>
+                        <behavior name="basicHttpBehavior">
+                            <clientCredentials>
+                                <windows allowedImpersonationLevel="Impersonation" />
+                            </clientCredentials>
+                        </behavior>
+                    </endpointBehaviors>
+                </behaviors>
+                <bindings>
+                    <basicHttpBinding>
+                        <binding name="basicHttpConf" sendTimeout="01:00:00" 
+                            maxBufferSize="500000000" maxReceivedMessageSize="500000000">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" 
+                                maxArrayLength="16384" maxBytesPerRead="4096" 
+                                maxNameTableCharCount="500000000" />
+                            <security mode="TransportCredentialOnly">
+                                <transport clientCredentialType="Ntlm" realm="http://SecurityDomain" />
+                            </security>
+                        </binding>
+                    </basicHttpBinding>
+                </bindings>
+                <client>
+                    <endpoint address="http://ServerName/ProjectServerName/_vti_bin/PSI/ProjectServer.svc"
+                        behaviorConfiguration="basicHttpBehavior" binding="basicHttpBinding"
+                        bindingConfiguration="basicHttpConf" 
+                        contract="SvcServiceName.ServiceName"
+                        name="basicHttp_ServiceName" />
+                </client>
+            </system.serviceModel>
+        </configuration>
+    ```
 
 3. Replace  `ServerName/ProjectServerName` in the client endpoint address with the name of your server and Project Web App instance. 
     
 4. Replace  `ServiceName` with the name of the PSI service, such as Resource. Ensure that you replace all three instances of the service name, for example:
     
-  ```XML
-  <endpoint address="http://myserver/pwa/_vti_bin/PSI/ProjectServer.svc"
-      behaviorConfiguration="basicHttpBehavior" binding="basicHttpBinding"
-      bindingConfiguration="basicHttpConf" 
-      contract="SvcResource.Resource"
-      name="basicHttp_Resource" />
-  ```
+    ```XML
+        <endpoint address="http://myserver/pwa/_vti_bin/PSI/ProjectServer.svc"
+            behaviorConfiguration="basicHttpBehavior" binding="basicHttpBinding"
+            bindingConfiguration="basicHttpConf" 
+            contract="SvcResource.Resource"
+            name="basicHttp_Resource" />
+    ```
 
 5. To use more than one PSI service, create one **endpoint** element for each service, and for each **binding** element that service uses. For example, the following endpoints configure the client to use the basic HTTP binding for the Project service and the QueueSystem service. 
     
     > [!NOTE]
     > If you run an application and get an error that the server is too busy, or that the HTTP request is unauthorized, ensure that the endpoint addresses are correct in the app.config file. 
   
-  ```XML
-  <client>
-  <endpoint address="http://ServerName/pwa/_vti_bin/PSI/ProjectServer.svc"
-      behaviorConfiguration="basicHttpBehavior" binding="basicHttpBinding"
-      bindingConfiguration="basicHttpConf" 
-      contract="SvcProject.Project"
-      name="basicHttp_Project" />
-  <endpoint address="http://ServerName/pwa/_vti_bin/PSI/ProjectServer.svc"
-      behaviorConfiguration="basicHttpBehavior" binding="basicHttpBinding"
-      bindingConfiguration="basicHttpConf" 
-      contract="SvcQueueSystem.QueueSystem"
-      name="basicHttp_QueueSystem" />
-  </client>
-  ```
+    ```XML
+        <client>
+        <endpoint address="http://ServerName/pwa/_vti_bin/PSI/ProjectServer.svc"
+            behaviorConfiguration="basicHttpBehavior" binding="basicHttpBinding"
+            bindingConfiguration="basicHttpConf" 
+            contract="SvcProject.Project"
+            name="basicHttp_Project" />
+        <endpoint address="http://ServerName/pwa/_vti_bin/PSI/ProjectServer.svc"
+            behaviorConfiguration="basicHttpBehavior" binding="basicHttpBinding"
+            bindingConfiguration="basicHttpConf" 
+            contract="SvcQueueSystem.QueueSystem"
+            name="basicHttp_QueueSystem" />
+        </client>
+    ```
 
 You can edit an app.config file by using the **WCF Service Configuration Editor** in Visual Studio (on the **Tools** menu). Figure 4 shows how to set the **contract** element in the **Microsoft Service Configuration Editor** dialog box. If the solution is using the PSI proxy assembly, open ProjectServerServices.dll in the  `bin\debug` directory of the Visual Studio solution. The **Contract Type Browser** dialog box shows all of the WCF service contracts (see Figure 5). 
   
@@ -384,7 +383,9 @@ private void WcfSample()
 ```
 
 > [!NOTE]
-> Making PSI calls within an **OperationContextScope** is required only for applications that run in a multiple authentication environment. If Project Server uses only Windows authentication, it is not necessary to set a scope and add a web request header that disables Forms authentication. > The fix for an ASMX-based application is different. For more information, see the  *Using multiple-authentication*  section in [Prerequisites for ASMX-based code samples in Project](prerequisites-for-asmx-based-code-samples-in-project.md). 
+> Making PSI calls within an **OperationContextScope** is required only for applications that run in a multiple authentication environment. If Project Server uses only Windows authentication, it is not necessary to set a scope and add a web request header that disables Forms authentication. 
+> 
+> The fix for an ASMX-based application is different. For more information, see the  *Using multiple-authentication*  section in [Prerequisites for ASMX-based code samples in Project](prerequisites-for-asmx-based-code-samples-in-project.md). 
   
 ## Changing values of generic constants
 <a name="pj15_PrerequisitesWCF_ChangeValues"> </a>
@@ -414,16 +415,16 @@ You can verify code sample results in several ways, for example:
     
 - Use **Microsoft SQL Server Management Studio** to run a query on a table of a Project Server database. For example, use the following query to select the top 200 rows of the MSP_WORKFLOW_STAGE_PDPS table to show information about the project detail pages (PDPs) in workflow stages. 
     
-  ```
-  SELECT TOP 200 [STAGE_UID]
-        ,[PDP_UID]
-        ,[PDP_NAME]
-        ,[PDP_POSITION]
-        ,[PDP_ID]
-        ,[PDP_STAGE_DESCRIPTION]
-        ,[PDP_REQUIRES_ATTENTION]
-    FROM [ProjectService].[pub].[MSP_WORKFLOW_STAGE_PDPS]
-  ```
+```sql
+        SELECT TOP 200 [STAGE_UID]
+                ,[PDP_UID]
+                ,[PDP_NAME]
+                ,[PDP_POSITION]
+                ,[PDP_ID]
+                ,[PDP_STAGE_DESCRIPTION]
+                ,[PDP_REQUIRES_ATTENTION]
+        FROM [ProjectService].[pub].[MSP_WORKFLOW_STAGE_PDPS]
+```
 
 ## Cleaning up
 <a name="pj15_PrerequisitesWCF_Cleanup"> </a>
@@ -457,16 +458,11 @@ Following are some of the links on the Server Settings page to use for typical c
 Additional settings are managed by SharePoint Server 2013 for each Project Web App instance, rather than by a specific Project Web App Server Settings page. In the SharePoint Central Administration application, choose **General Application Settings**, choose **Manage** under **Project Server Settings**, and then choose the Project Web App instance in the drop-down list on the Server Settings page. For example, choose **Server Side Event Handlers** to add or delete event handlers for the selected Project Web App instance. 
   
 ## See also
-<a name="pj15_PrerequisitesWCF_AR"> </a>
 
-- [Prerequisites for ASMX-based code samples in Project](prerequisites-for-asmx-based-code-samples-in-project.md)
-    
-- [Walkthrough: Developing PSI applications using WCF](http://msdn.microsoft.com/library/65707234-c3da-44e4-8364-32a6be28f645%28Office.15%29.aspx)
-    
-- [Use Impersonation with WCF](http://msdn.microsoft.com/library/e3597901-2f02-44a2-8076-d32aae540b38%28Office.15%29.aspx)
-    
-- [Project PSI reference overview](project-psi-reference-overview.md)
-    
+- [Prerequisites for ASMX-based code samples in Project](prerequisites-for-asmx-based-code-samples-in-project.md)   
+- [Walkthrough: Developing PSI applications using WCF](http://msdn.microsoft.com/library/65707234-c3da-44e4-8364-32a6be28f645%28Office.15%29.aspx)   
+- [Use Impersonation with WCF](http://msdn.microsoft.com/library/e3597901-2f02-44a2-8076-d32aae540b38%28Office.15%29.aspx)  
+- [Project PSI reference overview](project-psi-reference-overview.md) 
 - [SharePoint Developer Center](http://msdn.microsoft.com/en-us/sharepoint/default.aspx)
     
 

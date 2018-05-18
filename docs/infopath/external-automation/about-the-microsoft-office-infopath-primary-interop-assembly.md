@@ -104,5 +104,5 @@ myXDocument.View.SelectNodes(group1, Type.Missing, Type.Missing)
 
 ## See also
 
-- [External Automation Scenarios and Examples](external-automation-scenarios-and-examples.md)
+- [External automation scenarios and examples](external-automation-scenarios-and-examples.md)
 

@@ -1,42 +1,37 @@
 ---
 title: "Create and customize a web app in Access"
- 
- 
 manager: kelbow
 ms.date: 8/18/2017
 ms.audience: Developer
 ms.topic: reference
-  
 localization_priority: Normal
 ms.assetid: 628745f4-82e9-4838-9726-6f3e506a654f
-
 ---
 
 # Create and customize a web app in Access
-
-## Introduction
-<a name="ac15_CreateAndCustomizeWebApp_Introduction"> </a>
 
 > [!IMPORTANT]
 > Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices. 
   
 Access 2013 features a new application model that enables subject matter experts to quickly create web-based applications. Included with Access are a set of templates that you can use to jump start creating your application.
-  
-## Prerequisites for building an app with Access 2013
+
 <a name="ac15_CreateAndCustomizeWebApp_Prerequisites"> </a>
+
+## Prerequisites for building an app with Access 2013
 
 To follow the steps in this example, you need the following:
   
-- Access 2013
+- Access
     
-- A SharePoint 2013 development environment
+- A SharePoint development environment
     
-For more information about setting up your SharePoint development environment, see [Set up a general development environment for SharePoint 2013](http://msdn.microsoft.com/library/08e4e4e1-d960-43fa-85df-f3c279ed6927%28Office.15%29.aspx). 
+For more information about setting up your SharePoint development environment, see [Set up a general development environment for SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/set-up-a-general-development-environment-for-sharepoint). 
   
-For more information about obtaining Access 2013 and SharePoint 2013, see [Downloads](http://msdn.microsoft.com/en-US/office/apps/fp123627).
-  
-## Create the app
+For more information about obtaining Access and SharePoint, see [Downloads](http://msdn.microsoft.com/en-US/office/apps/fp123627).
+
 <a name="ac15_CreateAndCustomizeWebApp_CreateTheApp"> </a>
+
+## Create the app
 
 Suppose you want to create an Access app that tracks issues for your business. Before you start creating the tables and view from scratch, you should search for a schema template that meets your needs.
   
@@ -48,11 +43,11 @@ Suppose you want to create an Access app that tracks issues for your business. B
     
 3. Type **Issues** into the **What would you like to track?** box and then press ENTER. 
     
-    A list of templates that might be useful for tracking issues is displayed in Figure 1.
+   A list of templates that might be useful for tracking issues is displayed in Figure 1.
     
    **Figure 1. Templates that match the search for issues**
 
-     ![Templates that match the search for issues](media/odc_Access15_CreateAndCustomizeWebApp_Figure01.JPG)
+   ![Templates that match the search for issues](media/odc_Access15_CreateAndCustomizeWebApp_Figure01.JPG)
   
 4. Choose **Issues**.
     
@@ -157,7 +152,7 @@ Now that we have field in which to store the phone number, let's create a data m
   
    **Figure 7. Add New Action dropdown**
 
-     ![Add New Action dropdown](media/odc_Access15_CreateAndCustomizeWebApp_Figure07.jpg)
+   ![Add New Action dropdown](media/odc_Access15_CreateAndCustomizeWebApp_Figure07.jpg)
   
 8. In the **Name** box, enter **ContactPhone**. 
     
@@ -167,9 +162,9 @@ Now that we have field in which to store the phone number, let's create a data m
     
     The macro should resemble the macro shown in Figure 8.
     
-   **Figure 8. GetContactPhone data macro**
+    **Figure 8. GetContactPhone data macro**
 
-     ![GetContactPhone data macro](media/odc_Access15_CreateAndCustomizeWebApp_Figure08.jpg)
+    ![GetContactPhone data macro](media/odc_Access15_CreateAndCustomizeWebApp_Figure08.jpg)
   
 11. Close macro Design View.
     
@@ -221,9 +216,9 @@ Now we should write a user interface (UI) macro that copies the **Work Phone** f
     
     The macro should resemble the macro shown in Figure 9.
     
-   **Figure 9. After Update macro**
+    **Figure 9. After Update macro**
 
-     ![After Update macro](media/odc_Access15_CreateAndCustomizeWebApp_Figure09.jpg)
+    ![After Update macro](media/odc_Access15_CreateAndCustomizeWebApp_Figure09.jpg)
   
 11. Close macro Design View.
     
@@ -236,15 +231,12 @@ Now we're ready to text the customization. Click **Launch App** to open the app 
 ![Issues view updated with phone number](media/odc_Access15_CreateAndCustomizeWebApp_Figure10.jpg)
   
 ## Conclusion
-<a name="ac15_CreateAndCustomizeWebApp_Conclusion"> </a>
 
 Using one of the schema templates included with is a good way to jump start the creation of an Access web app. The views that are automatically created for you contain advanced functionally that requires custom code to implement in a Access desktop database. 
   
 ## See also
-<a name="ac15_CreateAndCustomizeWebApp_AdditionalResources"> </a>
 
-[What's new for Access 2013 developers](http://msdn.microsoft.com/library/df778f51-d65e-4c30-b618-65003ceb39b3%28Office.15%29.aspx)
-  
-[Access custom web app reference](access-custom-web-app-reference.md)
+- [What's new for Access 2013 developers](http://msdn.microsoft.com/library/df778f51-d65e-4c30-b618-65003ceb39b3%28Office.15%29.aspx) 
+- [Access custom web app reference](access-custom-web-app-reference.md)
   
 

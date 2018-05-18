@@ -1,15 +1,10 @@
 ---
 title: "Integrate with Office from Windows universal apps"
- 
- 
 manager: soliver
 ms.date: 2/6/2017
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 60b4fa23-0075-4f6a-8bd0-9e53e99432d5
-
 description: "You can integrate your Windows universal app platform third-party apps with Excel Mobile, PowerPoint Mobile, and Word Mobile. Universal apps integrate with Office apps via Windows file picker contracts, expando properties, and Cached File Updater contracts."
 ---
 
@@ -22,8 +17,6 @@ When you integrate your universal app with Excel, PowerPoint, or Word Mobile, yo
 Files opened this way appear in the Recent list in Office, so your users can easily find and reopen them.
   
 This integration requires that your universal app:
-  
-- Runs on .
     
 - Implements the Windows [file picker contracts](https://msdn.microsoft.com/en-us/library/windows/apps/hh465174.aspx).
     
@@ -45,7 +38,7 @@ Set these properties in the **System.ExpandoProperties** property set.
    
 The following code example shows how to set these properties.
   
-```
+```cs
 public static async Task SetExpandoProperties(StorageFile file,... other params ...) 
   { 
      var expandoProperties = new PropertySet(); 
@@ -76,7 +69,7 @@ The following tables lists the parameters to set to handle interactions between 
 |**Parameter**|**Description**|
 |:-----|:-----|
 |[ReadActivationMode](https://msdn.microsoft.com/en-us/library/windows/apps/windows.storage.provider.readactivationmode.aspx) <br/> |Set **BeforeAccess** to allow your app to update the file before it sends it to Office.  <br/> |
-|[WriteActivationMode](https://msdn.microsoft.com/en-us/library/windows/apps/windows.storage.provider.writeactivationmode.aspx) <br/> |Set **ReadOnly** to make the file read only. Set **AfterWrite** to ensure that your app will be triggered by the CacheFileUpdater when Office is finished with the file.  <br/> > [!NOTE]> If you do not set **AfterWrite**, your app will not be notified to upload the changes, which means that the user's changes will only be local.           |
+|[WriteActivationMode](https://msdn.microsoft.com/en-us/library/windows/apps/windows.storage.provider.writeactivationmode.aspx) <br/> |Set **ReadOnly** to make the file read only. Set **AfterWrite** to ensure that your app will be triggered by the CacheFileUpdater when Office is finished with the file.<br/><br/>**NOTE**: If you do not set **AfterWrite**, your app will not be notified to upload the changes, which means that the user's changes will only be local.           |
 |[CachedFileOptions.RequireUpdateOnAccess](https://msdn.microsoft.com/en-us/library/windows/apps/windows.storage.provider.cachedfileoptions.aspx) <br/> |Set this property to ensure that your app can update the file when a user accesses it from the Recent list.  <br/> |
    
 ## Invoking Office from your app
@@ -103,17 +96,15 @@ To optimize for file consistency, for example when conflicting edits or errors o
     
   - Pause uploads when server conflicts occur to avoid forking (only fork when Office no longer has a write file open). Typically, if a file from your app is open in Office, your app is activated only when Office closes or is suspended by Windows.
     
-  - ◦If you need UI to handle conflicts, implement toast notifications. Full UI is not available when Office is suspended.
+  - If you need UI to handle conflicts, implement toast notifications. Full UI is not available when Office is suspended.
     
 - Handle errors.
     
   - When a lock is released, notify users of the conflict and provide a path to resolve it within your app.
     
 ## See also
-<a name="bk_addresources"> </a>
 
-- [Integrate with Office](integrate-with-office.md)
-    
+- [Integrate with Office](integrate-with-office.md)   
 - [Integrate with Office from Win32 sync clients](integrate-with-office-from-win32-sync-clients.md)
     
 

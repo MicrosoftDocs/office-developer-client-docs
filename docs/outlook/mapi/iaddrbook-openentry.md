@@ -1,7 +1,5 @@
 ---
 title: "IAddrBookOpenEntry"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -18,13 +16,11 @@ description: "Last modified: February 01, 2013"
 
 # IAddrBook::OpenEntry
 
-  
-  
 **Applies to**: Outlook 
   
 Opens an address book entry and returns a pointer to an interface that can be used to access the entry.
   
-```
+```cpp
 HRESULT OpenEntry(
   ULONG cbEntryID,
   LPENTRYID lpEntryID,
@@ -37,19 +33,19 @@ HRESULT OpenEntry(
 
 ## Parameters
 
- _cbEntryID_
+_cbEntryID_
   
 > [in] The byte count in the entry identifier pointed to by the  _lpEntryID_ parameter. 
     
- _lpEntryID_
+_lpEntryID_
   
 > [in] A pointer to the entry identifier that represents the address book entry to open.
     
- _lpInterface_
+_lpInterface_
   
 > [in] A pointer to the interface identifier (IID) of the interface to be used to access the open entry. Passing NULL returns the object's standard interface. For messaging users, the standard interface is [IMailUser : IMAPIProp](imailuserimapiprop.md). For distribution lists, it is [IDistList : IMAPIContainer](idistlistimapicontainer.md) and for containers, it is [IABContainer : IMAPIContainer](iabcontainerimapicontainer.md). Callers can set  _lpInterface_ to the appropriate standard interface or an interface in the inheritance hierarchy. 
     
- _ulFlags_
+_ulFlags_
   
 > [in] A bitmask of flags that controls how the entry is opened. The following flags can be set.
     
@@ -69,8 +65,8 @@ MAPI_GAL_ONLY
   
 > Use only the GAL to perform name resolution. This flag is supported only by the Exchange Address Book Provider.
     
-    > [!NOTE]
-    > The  _ulFlags_ MAPI_GAL_ONLY might not be defined in the downloadable header file you currently have, in which case you can add it to your code using the following value: >  `#define MAPI_GAL_ONLY (0x00000080)`
+  > [!NOTE]
+  > The  _ulFlags_ MAPI_GAL_ONLY might not be defined in the downloadable header file you currently have, in which case you can add it to your code using the following value: >  `#define MAPI_GAL_ONLY (0x00000080)`
   
 MAPI_MODIFY 
   
@@ -80,11 +76,11 @@ MAPI_NO_CACHE
   
 > Do not use the offline address book to perform name resolution. This flag is supported only by the Exchange Address Book Provider.
     
- _lpulObjType_
+_lpulObjType_
   
 > [out] A pointer to the type of the opened entry.
     
- _lppUnk_
+_lppUnk_
   
 > [out] A pointer to a pointer to the opened entry.
     
@@ -114,7 +110,5 @@ The  _lpInterface_ parameter indicates which interface should be used to access 
   
 ## See also
 
-#### Reference
-
-[IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
+- [IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 

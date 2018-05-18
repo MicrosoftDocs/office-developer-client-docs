@@ -23,7 +23,7 @@
      - name: Office shared
        href: shared/office-shared.md
        items:
-       - name: Compatibility Between the 32-bit and 64-bit Versions of Office
+       - name: Compatibility between the 32-bit and 64-bit versions of Office
          href: shared/compatibility-between-the-32-bit-and-64-bit-versions-of-office.md
        - name: Integrating IM applications with Office
          href: shared/integrating-im-applications-with-office.md
@@ -37,10 +37,10 @@
          - name: Compatibility issues in Office
            href: shared/compatibility-issues-in-office.md
        - name: Office VBA Object library reference
-         href: https://msdn.microsoft.com/en-us/library/office/ff862474.aspx
+         href: https://msdn.microsoft.com/en-us/VBA/Office-Shared-VBA/articles/office-vba-object-library-reference
        - name: Office VBA language reference
-         href: https://msdn.microsoft.com/en-us/library/office/gg264383.aspx
-       - name: Office Primary Interop Assembly Reference
+         href: https://msdn.microsoft.com/en-us/VBA/VBA-Language-Reference
+       - name: Office Primary Interop Assembly reference
          href: https://msdn.microsoft.com/en-us/library/office/ff597925.aspx
        - name: Open XML SDK 2.5
          href: https://msdn.microsoft.com/en-us/library/office/bb448854.aspx
@@ -54,10 +54,10 @@
         - name: Access custom web app reference
           href: access/access-custom-web-app-reference.md
           items:
-          - name: Concepts (Access custom web app)
+          - name: Concepts
             href: access/concepts-access-custom-web-app.md
             items:
-            - name: Reserved Words
+            - name: Reserved keywords
               href: access/reserved-words-access-custom-web-app.md
             - name: Create and customize a web app in Access
               href: access/how-to-create-and-customize-a-web-app-in-access.md
@@ -67,144 +67,144 @@
               href: access/custom-date-and-time-formats-for-the-format-function-access-custom-web-app.md
             - name: Filter a view by using a macro in an Access app
               href: access/how-to-filter-a-view-by-using-a-macro-in-an-access-app.md
-          - name: Access SQL and expressions reference (Access custom web app)
+          - name: Access SQL and expressions reference
             href: access/access-sql-and-expressions-reference-access-custom-web-app.md
             items:
             - name: Conversion functions
               href: access/conversion-functions-access-custom-web-app.md
               items:
-              - name: Cast Function
+              - name: Cast 
                 href: access/cast-function-access-custom-web-app.md
-              - name: Coalesce Function
+              - name: Coalesce 
                 href: access/coalesce-function-access-custom-web-app.md
-              - name: DateWithTimeFromParts Function
+              - name: DateWithTimeFromParts 
                 href: access/datewithtimefromparts-function-access-custom-web-app.md
-              - name: Format Function
+              - name: Format 
                 href: access/format-function-access-custom-web-app.md
-              - name: Parse Function
+              - name: Parse 
                 href: access/parse-function-access-custom-web-app.md
-              - name: TimeFromParts Function 
+              - name: TimeFromParts  
                 href: access/timefromparts-functionaccess-custom-web-app.md
-              - name: Try_Parse Function
+              - name: Try_Parse 
                 href: access/try_parse-function-access-custom-web-app.md
             - name: Database functions
               href: access/database-functions-access-custom-web-app.md
               items:
-              - name: UserDisplayName Function
+              - name: UserDisplayName 
                 href: access/userdisplayname-function-access-custom-web-app.md
-              - name: UserEmailAddress Function
+              - name: UserEmailAddress 
                 href: access/useremailaddress-function-access-custom-web-app.md
-              - name: Update Function
+              - name: Update 
                 href: access/update-function-access-custom-web-app.md
             - name: Date/time functions 
               href: access/date-time-functionsaccess-custom-web-app.md
               items:
-              - name: DateAdd Function
+              - name: DateAdd 
                 href: access/dateadd-function-access-custom-web-app.md
-              - name: DateDiff Function
+              - name: DateDiff 
                 href: access/datediff-function-access-custom-web-app.md
-              - name: DateFromParts Function
+              - name: DateFromParts 
                 href: access/datefromparts-function-access-custom-web-app.md
-              - name: DatePart Function
+              - name: DatePart 
                 href: access/datepart-function-access-custom-web-app.md
-              - name: Day Function
+              - name: Day 
                 href: access/day-function-access-custom-web-app.md
-              - name: EOMonth Function
+              - name: EOMonth 
                 href: access/eomonth-function-access-custom-web-app.md
-              - name: Month Function
+              - name: Month 
                 href: access/month-function-access-custom-web-app.md
-              - name: Now Function
+              - name: Now 
                 href: access/now-function-access-custom-web-app.md
-              - name: Today Function
+              - name: Today 
                 href: access/today-function-access-custom-web-app.md
-              - name: Year Function
+              - name: Year 
                 href: access/year-function-access-custom-web-app.md
             - name: Inspection functions
               href: access/inspection-functions-access-custom-web-app.md
               items:
-              - name: Try_Convert Function
+              - name: Try_Convert 
                 href: access/try_convert-function-access-custom-web-app.md
             - name: Math functions
               href: access/math-functions-access-custom-web-app.md
               items:
-              - name: Abs Function
+              - name: Abs 
                 href: access/abs-function-access-custom-web-app.md
-              - name: Avg Function
+              - name: Avg 
                 href: access/avg-function-access-custom-web-app.md
-              - name: Ceiling Function
+              - name: Ceiling 
                 href: access/ceiling-function-access-custom-web-app.md
-              - name: Count Function
+              - name: Count 
                 href: access/count-function-access-custom-web-app.md
-              - name: Exp Function
+              - name: Exp 
                 href: access/exp-function-access-custom-web-app.md
-              - name: Floor Function
+              - name: Floor 
                 href: access/floor-function-access-custom-web-app.md
-              - name: Log10 Function
+              - name: Log10 
                 href: access/log10-function-access-custom-web-app.md
-              - name: Log Function
+              - name: Log 
                 href: access/log-function-access-custom-web-app.md
-              - name: Max Function
+              - name: Max 
                 href: access/max-function-access-custom-web-app.md
-              - name: Min Function
+              - name: Min 
                 href: access/min-function-access-custom-web-app.md
-              - name: Pi Function
+              - name: Pi 
                 href: access/pi-function-access-custom-web-app.md
-              - name: Power Function
+              - name: Power 
                 href: access/power-function-access-custom-web-app.md
-              - name: Rand Function
+              - name: Rand 
                 href: access/rand-function-access-custom-web-app.md
-              - name: Round Function
+              - name: Round 
                 href: access/round-function-access-custom-web-app.md
-              - name: Sign Function
+              - name: Sign 
                 href: access/sign-function-access-custom-web-app.md
-              - name: StDev Function
+              - name: StDev 
                 href: access/stdev-function-access-custom-web-app.md
-              - name: Sqrt Function
+              - name: Sqrt 
                 href: access/sqrt-function-access-custom-web-app.md
-              - name: Sum Function
+              - name: Sum 
                 href: access/sum-function-access-custom-web-app.md
-              - name: Var Function
+              - name: Var 
                 href: access/var-function-access-custom-web-app.md
             - name: Program flow functions
               href: access/program-flow-functions-access-custom-web-app.md
               items:
-              - name: Choose Function
+              - name: Choose 
                 href: access/choose-function-access-custom-web-app.md
-              - name: IIf Function
+              - name: IIf 
                 href: access/iif-function-access-custom-web-app.md
             - name: Text functions
               href: access/text-functions-access-custom-web-app.md
               items:
-              - name: CharIndex Function
+              - name: CharIndex 
                 href: access/charindex-function-access-custom-web-app.md
-              - name: Concat Function
+              - name: Concat 
                 href: access/concat-function-access-custom-web-app.md
-              - name: Left Function
+              - name: Left 
                 href: access/left-function-access-custom-web-app.md
-              - name: Len Function
+              - name: Len 
                 href: access/len-function-access-custom-web-app.md
-              - name: Lower Function
+              - name: Lower 
                 href: access/lower-function-access-custom-web-app.md
-              - name: LTrim Function
+              - name: LTrim 
                 href: access/ltrim-function-access-custom-web-app.md
-              - name: Replace Function
+              - name: Replace 
                 href: access/replace-function-access-custom-web-app.md
-              - name: Replicate Function
+              - name: Replicate 
                 href: access/replicate-function-access-custom-web-app.md
-              - name: Right Function
+              - name: Right 
                 href: access/right-function-access-custom-web-app.md
-              - name: RTrim Function
+              - name: RTrim 
                 href: access/rtrim-function-access-custom-web-app.md
-              - name: Stuff Function
+              - name: Stuff 
                 href: access/stuff-function-access-custom-web-app.md
-              - name: SubString Function
+              - name: SubString 
                 href: access/substring-function-access-custom-web-app.md
-              - name: Upper Function
+              - name: Upper 
                 href: access/upper-function-access-custom-web-app.md
             - name: Operators
               href: access/operators-access-custom-web-app.md
               items:
-              - name: Arithmetic Operators
+              - name: Arithmetic operators
                 href: access/arithmetic-operators-access-custom-web-app.md
                 items:
                 - name: Subtract
@@ -217,7 +217,7 @@
                   href: access/plusaddaccess-custom-web-app.md
                 - name: Mod
                   href: access/mod-access-custom-web-app.md
-              - name: Comparison Operators
+              - name: Comparison operators
                 href: access/comparison-operators-access-custom-web-app.md
                 items:
                 - name: Less Than
@@ -238,7 +238,7 @@
                   href: access/in-access-custom-web-app.md
                 - name: LIKE
                   href: access/like-access-custom-web-app.md
-              - name: Logical Operators
+              - name: Logical operators
                 href: access/logical-operators-access-custom-web-app.md
                 items:
                 - name: AND
@@ -249,99 +249,99 @@
                   href: access/or-access-custom-web-app.md
                 - name: IS [NOT] NULL
                   href: access/is-not-null-access-custom-web-app.md
-              - name: String Operators
+              - name: String operators
                 href: access/string-operators-access-custom-web-app.md
                 items:
-                - name: String Concatenation Operator
+                - name: String Concatenation operator
                   href: access/plusstring-concatenation-operatoraccess-custom-web-app.md
-          - name: Macro function reference (Access custom web app)
+          - name: Macro function reference
             href: access/macro-function-reference-access-custom-web-app.md
             items:
             - name: Data blocks 
               href: access/data-blocksaccess-custom-web-app.md
               items:
-              - name: CreateRecord Data Block
+              - name: CreateRecord 
                 href: access/createrecord-data-block-access-custom-web-app.md
-              - name: EditRecord Data Block
+              - name: EditRecord 
                 href: access/editrecord-data-block-access-custom-web-app.md
-              - name: ForEachRecord Data Block
+              - name: ForEachRecord 
                 href: access/foreachrecord-data-block-access-custom-web-app.md
-              - name: LookupRecord Data Block
+              - name: LookupRecord 
                 href: access/lookuprecord-data-block-access-custom-web-app.md
             - name: Data actions
               href: access/data-actions-access-custom-web-app.md
               items:
-              - name: StopMacro Macro Action
+              - name: StopMacro
                 href: access/stopmacro-macro-action-access-custom-web-app.md
-              - name: CancelRecordChange Macro Action
+              - name: CancelRecordChange
                 href: access/cancelrecordchange-macro-action-access-custom-web-app.md
-              - name: DeleteRecord Data Macro Action
+              - name: DeleteRecord Data
                 href: access/deleterecord-data-macro-action-access-custom-web-app.md
-              - name: RaiseError Macro Action
+              - name: RaiseError
                 href: access/raiseerror-macro-action-access-custom-web-app.md
-              - name: SetField Macro Action
+              - name: SetField
                 href: access/setfield-macro-action-access-custom-web-app.md
-              - name: SetLocalVar Macro Action
+              - name: SetLocalVar
                 href: access/setlocalvar-macro-action-access-custom-web-app.md
-              - name: ExitForEachRecord Macro Action
+              - name: ExitForEachRecord
                 href: access/exitforeachrecord-macro-action-access-custom-web-app.md
-              - name: SetReturnVar Macro Action
+              - name: SetReturnVar
                 href: access/setreturnvar-macro-action-access-custom-web-app.md
             - name: Data entry operations
               href: access/data-entry-operations-access-custom-web-app.md
               items:
-              - name: DeleteRecord Macro Action
+              - name: DeleteRecord
                 href: access/deleterecord-macro-action-access-custom-web-app.md
-              - name: EditRecord Macro Action
+              - name: EditRecord
                 href: access/editrecord-macro-action-access-custom-web-app.md
-              - name: NewRecord Macro Action
+              - name: NewRecord
                 href: access/newrecord-macro-action-access-custom-web-app.md
-              - name: SaveRecord Macro Action
+              - name: SaveRecord
                 href: access/saverecord-macro-action-access-custom-web-app.md
-              - name: UndoRecord Macro Action
+              - name: UndoRecord
                 href: access/undorecord-macro-action-access-custom-web-app.md
             - name: Database objects
               href: access/database-objects-access-custom-web-app.md
               items:
-              - name: GoToControl Macro Action
+              - name: GoToControl
                 href: access/gotocontrol-macro-action-access-custom-web-app.md
-              - name: GoToRecord Macro Action
+              - name: GoToRecord
                 href: access/gotorecord-macro-action-access-custom-web-app.md
-              - name: SetProperty Macro Action
+              - name: SetProperty
                 href: access/setproperty-macro-action-access-custom-web-app.md
             - name: Filter/query/search
               href: access/filter-query-search-access-custom-web-app.md
               items:
-              - name: RequeryRecords Macro Action
+              - name: RequeryRecords
                 href: access/requeryrecords-macro-action-access-custom-web-app.md
             - name: Macro commands
               href: access/macro-commands-access-custom-web-app.md
               items:
-              - name: RunDataMacro Macro Action
+              - name: RunDataMacro
                 href: access/rundatamacro-macro-action-access-custom-web-app.md
-              - name: RunMacro Macro Action
+              - name: RunMacro
                 href: access/runmacro-macro-action-access-custom-web-app.md
-              - name: SetVariable Macro Action
+              - name: SetVariable
                 href: access/setvariable-macro-action-access-custom-web-app.md
             - name: Program flow
               href: access/program-flow-access-custom-web-app.md
               items:
-              - name: Comment Macro Block
+              - name: Comment
                 href: access/comment-macro-block-access-custom-web-app.md
-              - name: If...Then...Else Macro Block
+              - name: If...Then...Else
                 href: access/ifthenelse-macro-block-access-custom-web-app.md
-              - name: Group Macro Block
+              - name: Group
                 href: access/group-macro-block-access-custom-web-app.md
             - name: User interface commands
               href: access/user-interface-commands-access-custom-web-app.md
               items:
-              - name: ChangeView Macro Action
+              - name: ChangeView
                 href: access/changeview-macro-action-access-custom-web-app.md
-              - name: ClosePopup Macro Action
+              - name: ClosePopup
                 href: access/closepopup-macro-action-access-custom-web-app.md
-              - name: MessageBox Macro Action
+              - name: MessageBox
                 href: access/messagebox-macro-action-access-custom-web-app.md
-              - name: OpenPopup Macro Action
+              - name: OpenPopup
                 href: access/openpopup-macro-action-access-custom-web-app.md
         - name: Access desktop database reference
           href: https://msdn.microsoft.com/en-us/library/dn142571.aspx       

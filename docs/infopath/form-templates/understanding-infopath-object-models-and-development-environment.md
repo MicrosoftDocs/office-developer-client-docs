@@ -89,7 +89,7 @@ The classes and members of this object model are exposed through the [Microsoft.
 
 In addition to writing business logic with managed code, developers can automate InfoPath by using managed code running in an external application. This functionality and the assemblies required for writing code were introduced in InfoPath 2003 Service Pack 1. The objects and members for automating InfoPath have been updated to provide additional functionality when you write external automation code for InfoPath 2013.
   
-The classes and members used for external automation are exposed through the **Microsoft.Office.Interop.InfoPath** and **Microsoft.Office.Interop.InfoPath.Xml** namespaces. The assembly files that are required for writing automation code are located in the C:\Program Files\Microsoft Office\Office14 folder. 
+The classes and members used for external automation are exposed through the [Microsoft.Office.Interop.InfoPath](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.aspx) and [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/en-us/library/microsoft.office.interop.infopath.xml) namespaces. The assembly files that are required for writing automation code are located in the C:\Program Files\Microsoft Office\Office14 folder. 
   
 |**Assembly**|**Description**|
 |:-----|:-----|

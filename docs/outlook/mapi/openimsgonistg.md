@@ -1,7 +1,5 @@
 ---
 title: "OpenIMsgOnIStg"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -18,8 +16,6 @@ description: "Last modified: March 09, 2015"
 
 # OpenIMsgOnIStg
 
-  
-  
 **Applies to**: Outlook 
   
 Builds a new [IMessage](imessageimapiprop.md) object on top of an existing OLE **IStorage** object, to be used within a message session. 
@@ -30,7 +26,7 @@ Builds a new [IMessage](imessageimapiprop.md) object on top of an existing OLE *
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 SCODE OpenIMsgOnIStg(
   LPMSGSESS lpMsgSess,
   LPALLOCATEBUFFER lpAllocateBuffer,
@@ -48,43 +44,43 @@ SCODE OpenIMsgOnIStg(
 
 ## Parameters
 
- _lpMsgSess_
+_lpMsgSess_
   
 > [in] Pointer to a message session object within which the new **IMessage**-on- **IStorage** object is to be created. 
     
- _lpAllocateBuffer_
+_lpAllocateBuffer_
   
 > [in] Pointer to the [MAPIAllocateBuffer](mapiallocatebuffer.md) function, to be used to allocate memory. 
     
- _lpAllocateMore_
+_lpAllocateMore_
   
 > [in] Pointer to the [MAPIAllocateMore](mapiallocatemore.md) function, to be used to allocate additional memory. 
     
- _lpFreeBuffer_
+_lpFreeBuffer_
   
 > [in] Pointer to the [MAPIFreeBuffer](mapifreebuffer.md) function, to be used to free memory. 
     
- _lpMalloc_
+_lpMalloc_
   
 > [in] Pointer to a memory allocator object exposing the OLE **IMalloc** interface. The **IMessage** interface needs to use this allocation method when working with interfaces such as **IStorage** and **IStream**. 
     
- _lpMapiSup_
+_lpMapiSup_
   
 > [in] Optional pointer to a MAPI support object that a service provider can use to call the methods of the [IMAPISupport : IUnknown](imapisupportiunknown.md) interface. 
     
- _lpStg_
+_lpStg_
   
 > [in, out] Pointer to an OLE **IStorage** object that is open and has read-only or read/write permission. Because **IMessage** does not support write-only access, **OpenIMsgOnIStg** does not accept a storage object opened in write-only mode. 
     
- _lpfMsgCallRelease_
+_lpfMsgCallRelease_
   
 > [in] Optional pointer to a callback function based on the [MSGCALLRELEASE](msgcallrelease.md) prototype that MAPI is to call following the last release on the **IMessage**-on- **IStorage** object. 
     
- _ulCallerData_
+_ulCallerData_
   
 > [in] Caller data saved by MAPI with the **IMessage**-on- **IStorage** object and passed to the **MSGCALLRELEASE** based callback function. The data provides context about the **IMessage** object being released and the **IStorage** object on top of which it was built. 
     
- _ulFlags_
+_ulFlags_
   
 > [in] Bitmask of flags used to control whether the OLE **IStorage::Commit** method is called when the client application or service provider calls the **IMessage::SaveChanges** method. The following flags can be set: 
     
@@ -96,10 +92,10 @@ MAPI_UNICODE
   
 > Enables creation of Unicode .msg files. The resulting [IMessage](imessageimapiprop.md) file shows STORE_UNICODE_OK in its [PR_STORE_SUPPORT_MASK](pidtagstoresupportmask-canonical-property.md) and supports Unicode properties. 
     
-    > [!NOTE]
-    > The MAPI_UNICODE flag is only supported in this function on Outlook 2003 or higher. 
+  > [!NOTE]
+  > The MAPI_UNICODE flag is only supported in this function on Outlook 2003 or higher. 
   
- _lppMsg_
+_lppMsg_
   
 > [out] Pointer to a pointer to the opened **IMessage** object. 
     
@@ -113,7 +109,7 @@ S_OK
 
 Property attributes can only be accessed on property objects, that is, objects implementing the [IMAPIProp : IUnknown](imapipropiunknown.md) interface. To make MAPI properties available on an OLE structured storage object, **OpenIMsgOnIStg** builds an [IMessage : IMAPIProp](imessageimapiprop.md) object on top of the OLE **IStorage** object. The property attributes on such objects can be set or altered with [SetAttribIMsgOnIStg](setattribimsgonistg.md) and retrieved with [GetAttribIMsgOnIStg](getattribimsgonistg.md). 
   
-## Notes to Callers
+## Notes to callers
 
 A message session should be opened with [OpenIMsgSession](openimsgsession.md) before **OpenIMsgOnIStg** is called. Supplying a valid  _lpMsgSess_ parameter make sures that the new message is created within a message session so that it is closed when the session is closed. If  _lpMsgSess_ is NULL, the message is created independently of any message session. If the client application or service provider that created the message does not release it, as well as all its attachments and open tables, memory is leaked and may cause the application to terminate. 
   
@@ -133,7 +129,7 @@ MAPI does not define the behavior of multiple open operations performed on a sub
   
 The correct procedure for placing a message into an attachment is to call the [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method with an interface identifier of IID_IMessage. **OpenProperty** currently also supports creation of message attachments available directly on the OLE **IStorage** interface, that is, using the IID_IStorage interface identifier. **IStorage** access is supported to allow an easy way to put a Microsoft Word document into an attachment without converting it to or from the OLE **IStream** interface. However, **IMessage** may not behave predictably if **OpenIMsgOnIStg** is passed an **IStorage** pointer to the attachment data and then the objects are released in the wrong order. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   
@@ -143,7 +139,5 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-#### Concepts
-
-[MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
+- [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 

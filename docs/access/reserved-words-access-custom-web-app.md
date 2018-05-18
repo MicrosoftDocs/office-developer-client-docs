@@ -1,25 +1,22 @@
 ---
-title: "Reserved Words (Access custom web app)"
- 
- 
+title: "Reserved keywords (Access custom web app)"
 manager: kelbow
 ms.date: 8/18/2017
 ms.audience: Developer
-ms.topic: overview
-  
+ms.topic: overview 
 localization_priority: Normal
 ms.assetid: 2b5beeb6-e52d-41be-94df-083d36141a9d
 description: "Microsoft Access uses reserved keywords for defining, manipulating, and accessing databases. Reserved keywords are part of the grammar of the language that is used by Access to parse and understand SQL statements."
 ---
 
-# Reserved Words (Access custom web app)
+# Reserved keywords (Access custom web app)
 
 Microsoft Access uses reserved keywords for defining, manipulating, and accessing databases. Reserved keywords are part of the grammar of the language that is used by Access to parse and understand SQL statements. 
   
 > [!IMPORTANT]
 > Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices. 
   
-## Reserved Keywords
+## Access reserved keywords
 
 The following table lists Access reserved keywords.
   
@@ -96,9 +93,11 @@ The following table lists Access reserved keywords.
 |FETCH  <br/> |PROCEDURE  <br/> |YesNo  <br/> |
 |FILE  <br/> |PUBLIC  <br/> ||
    
-Additionally, the ISO standard defines a list of reserved keywords. Avoid using ISO reserved keywords for object names and identifiers. The ODBC reserved keyword list, shown in the following table, is the same as the ISO reserved keyword list.
+
   
-## ODBC Reserved Keywords
+## ODBC reserved keywords
+
+Additionally, the ISO standard defines a list of reserved keywords. Avoid using ISO reserved keywords for object names and identifiers. The ODBC reserved keyword list, shown in the following table, is the same as the ISO reserved keyword list.
 
 The following words are reserved for use in ODBC function calls. These words do not constrain the minimum SQL grammar; however, to ensure compatibility with drivers that support the core SQL grammar, applications should avoid using these keywords.
   
@@ -186,7 +185,7 @@ This is the current list of ODBC reserved keywords.
 |EXCEPT  <br/> |OUTPUT  <br/> |ZONE  <br/> |
 |EXCEPTION  <br/> |||
    
-## Future Keywords
+## Future keywords
 
 The following keywords could be reserved in future releases of SQL Server as new features are implemented. Consider avoiding the use of these words as identifiers.
   
