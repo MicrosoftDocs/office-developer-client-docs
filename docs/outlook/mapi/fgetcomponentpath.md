@@ -24,7 +24,7 @@ description: "Last modified: July 23, 2011"
   
 Returns the path to the private Mapi32.dll.
   
-```
+```cpp
 BOOL FGetComponentPath(
   LPCSTR szComponent,
   LPSTR szQualifier,

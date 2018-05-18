@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Represents the string version of the **dispidSharingLocalType** ( [PidLidSharingLocalType](pidlidsharinglocaltype-canonical-property.md)) property.
+Represents the string version of the **dispidSharingLocalType** ([PidLidSharingLocalType](pidlidsharinglocaltype-canonical-property.md)) property.
   
 |||
 |:-----|:-----|

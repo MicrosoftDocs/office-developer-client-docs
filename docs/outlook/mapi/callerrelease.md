@@ -30,7 +30,7 @@ Defines a callback function that can release a table data object when a table vi
 |Defined function implemented by:  <br/> |Client applications and service providers  <br/> |
 |Defined function called by:  <br/> |MAPI  <br/> |
    
-```
+```cpp
 void CALLERRELEASE(
   ULONG_PTR ulCallerData,
   LPTABLEDATA lpTblData,

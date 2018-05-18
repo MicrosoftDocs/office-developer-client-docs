@@ -28,7 +28,7 @@ Describes the print setup information for the form object.
 |:-----|:-----|
 |Header file:  <br/> |Mapiform.h  <br/> |
    
-```
+```cpp
 typedef struct
 {
   ULONG ulFlags;

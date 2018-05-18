@@ -34,13 +34,13 @@ Perform the following tasks in whatever logon method you implement:
     
 3. Call the profile section's [IMAPIProp::SetProps](imapiprop-setprops.md) method to set the following properties: 
     
-  - **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md))
+  - **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))
     
-  - **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md))
+  - **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))
     
-  - **PR_PROVIDER_DISPLAY** ( [PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md))
+  - **PR_PROVIDER_DISPLAY** ([PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md))
     
-  - **PR_RECORD_KEY** ( [PidTagRecordKey](pidtagrecordkey-canonical-property.md))
+  - **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))
     
     > [!NOTE]
     > Do not attempt to set the profile section's **PR_RESOURCE_FLAGS** or **PR_PROVIDER_DLL_NAME** properties. At logon time, these properties are read-only. 

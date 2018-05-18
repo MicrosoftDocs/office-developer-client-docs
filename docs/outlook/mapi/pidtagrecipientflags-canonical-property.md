@@ -37,7 +37,7 @@ This property is not required. The following are the individual flags that can b
   
 |**Value**|**Description**|
 |:-----|:-----|
-|S (recipSendable, 0x00000001)  <br/> |The recipient is a **Sendable** Attendee. This flag is only used in the **dispidApptUnsendableRecips** ( [PidLidAppointmentUnsendableRecipients](pidlidappointmentunsendablerecipients-canonical-property.md)) property.  <br/> |
+|S (recipSendable, 0x00000001)  <br/> |The recipient is a **Sendable** Attendee. This flag is only used in the **dispidApptUnsendableRecips** ([PidLidAppointmentUnsendableRecipients](pidlidappointmentunsendablerecipients-canonical-property.md)) property.  <br/> |
 |O (recipOrganizer, 0x0000002)  <br/> |The **RecipientRow** on which this flag is set represents the meeting Organizer.  <br/> |
 |ER (recipExceptionalResponse, 0x00000010)  <br/> |Indicates that the attendee gave a response for the exception on which this **RecipientRow** resides. This flag is only used in a **RecipientRow** of an exception embedded message object of the organizer's meeting object.  <br/> |
 |ED (recipExceptionalDeleted, 0x00000020)  <br/> |Indicates that although the **RecipientRow** exists, it should be treated as if the corresponding recipient does not. This flag is only used in a **RecipientRow** of an exception embedded message object of the organizer's meeting object.  <br/> |

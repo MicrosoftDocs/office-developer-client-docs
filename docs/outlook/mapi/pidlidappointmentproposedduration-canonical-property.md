@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Indicates the proposed value for the **dispidApptDuration** ( [PidLidAppointmentDuration](pidlidappointmentduration-canonical-property.md)) property for a counter proposal.
+Indicates the proposed value for the **dispidApptDuration** ([PidLidAppointmentDuration](pidlidappointmentduration-canonical-property.md)) property for a counter proposal.
   
 |||
 |:-----|:-----|
@@ -34,7 +34,7 @@ Indicates the proposed value for the **dispidApptDuration** ( [PidLidAppointment
    
 ## Remarks
 
-If set, it must be equal to the number of minutes between the **dispidApptProposedStartWhole** ( [PidLidAppointmentProposedStartWhole](pidlidappointmentproposedstartwhole-canonical-property.md)) and **dispidApptProposedEndWhole** ( [PidLidAppointmentProposedEndWhole](pidlidappointmentproposedendwhole-canonical-property.md)) properties.
+If set, it must be equal to the number of minutes between the **dispidApptProposedStartWhole** ([PidLidAppointmentProposedStartWhole](pidlidappointmentproposedstartwhole-canonical-property.md)) and **dispidApptProposedEndWhole** ([PidLidAppointmentProposedEndWhole](pidlidappointmentproposedendwhole-canonical-property.md)) properties.
   
 ## Related Resources
 

@@ -37,7 +37,7 @@ The **MAPIUID** structure identifies which address book provider supplies this p
   
 An address book provider can provide more than one identifier. For example, a provider that supplies two different containers can publish in **PR_AB_PROVIDER_ID** unique identifiers for each container. 
   
- **PR_AB_PROVIDER_ID** is analogous to the **PR_MDB_PROVIDER** ( [PidTagStoreProvider](pidtagstoreprovider-canonical-property.md)) property for message stores. Client applications can use **PR_AB_PROVIDER_ID** to find related rows in an address book hierarchy table. 
+ **PR_AB_PROVIDER_ID** is analogous to the **PR_MDB_PROVIDER** ([PidTagStoreProvider](pidtagstoreprovider-canonical-property.md)) property for message stores. Client applications can use **PR_AB_PROVIDER_ID** to find related rows in an address book hierarchy table. 
   
 ## Related Resources
 

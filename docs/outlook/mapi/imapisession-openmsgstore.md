@@ -125,7 +125,7 @@ The default permission level for message stores is read-only. If you set the MDB
   
 If you call **OpenMsgStore** to open a message store with read-only permission, the following will occur: 
   
-- The store's **PR_STORE_SUPPORT_MASK** ( [PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) property will not have its STORE_MODIFY_OK and STORE_CREATE_OK bits set. 
+- The store's **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) property will not have its STORE_MODIFY_OK and STORE_CREATE_OK bits set. 
     
 - Calls to open one of the message store's messages or folders by using [IMAPISession::OpenEntry](imapisession-openentry.md) with the MAPI_MODIFY flag set will fail. 
     

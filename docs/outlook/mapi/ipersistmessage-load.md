@@ -45,11 +45,11 @@ HRESULT Load(
     
  _ulMessageStatus_
   
-> [in] A bitmask of client-defined or provider-defined flags, copied from the message's **PR_MSG_STATUS** ( [PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) property, that provide information about the state of the message.
+> [in] A bitmask of client-defined or provider-defined flags, copied from the message's **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) property, that provide information about the state of the message.
     
  _ulMessageFlags_
   
-> [in] A bitmask of flags, copied from the message's **PR_MESSAGE_FLAGS** ( [PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property, that provide further information about the state of the message.
+> [in] A bitmask of flags, copied from the message's **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property, that provide further information about the state of the message.
     
 ## Return value
 

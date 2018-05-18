@@ -33,7 +33,7 @@ Contains the names of the delegates.
    
 ## Remarks
 
-Each entry in these properties must contain the value of the **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property of each delegate's address book.
+Each entry in these properties must contain the value of the **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property of each delegate's address book.
   
 ## Related Resources
 

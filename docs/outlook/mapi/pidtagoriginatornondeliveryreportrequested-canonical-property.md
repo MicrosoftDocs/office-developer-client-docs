@@ -33,7 +33,7 @@ Contains TRUE if a message sender requests a nondelivery report for a particular
    
 ## Remarks
 
-This property is used to direct the messaging system in handling undelivered messages. In this case, the message must also furnish the **PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED** ( [PidTagOriginatorDeliveryReportRequested](pidtagoriginatordeliveryreportrequested-canonical-property.md)) property set to FALSE.
+This property is used to direct the messaging system in handling undelivered messages. In this case, the message must also furnish the **PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED** ([PidTagOriginatorDeliveryReportRequested](pidtagoriginatordeliveryreportrequested-canonical-property.md)) property set to FALSE.
   
 ## Related Resources
 

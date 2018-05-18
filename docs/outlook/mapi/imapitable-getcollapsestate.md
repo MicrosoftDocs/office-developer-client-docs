@@ -46,7 +46,7 @@ LPBYTE FAR * lppbCollapseState
     
  _lpbInstanceKey_
   
-> [in] A pointer to the **PR_INSTANCE_KEY** ( [PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) property of the row at which the current collapsed or expanded state should be rebuilt. The  _lpbInstanceKey_ parameter cannot be NULL. 
+> [in] A pointer to the **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) property of the row at which the current collapsed or expanded state should be rebuilt. The  _lpbInstanceKey_ parameter cannot be NULL. 
     
  _lpcbCollapseState_
   

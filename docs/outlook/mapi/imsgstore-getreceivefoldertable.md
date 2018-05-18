@@ -62,7 +62,7 @@ The **IMsgStore::GetReceiveFolderTable** method provides access to a table that 
 
 For a list of required columns in a receive folder table, see [Receive Folder Tables](receive-folder-tables.md). 
   
-Implement your receive folder tables to support setting property restrictions on the **PR_RECORD_KEY** ( [PidTagRecordKey](pidtagrecordkey-canonical-property.md)) property. This enables easy access to particular receive folders.
+Implement your receive folder tables to support setting property restrictions on the **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)) property. This enables easy access to particular receive folders.
   
 ## Notes to Callers
 

@@ -29,7 +29,7 @@ Computes the number of bytes that should be allocated for a new [ENTRYID](entryi
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**ENTRYID** <br/> |
    
-```
+```cpp
 CbNewENTRYID (_cb)
 ```
 

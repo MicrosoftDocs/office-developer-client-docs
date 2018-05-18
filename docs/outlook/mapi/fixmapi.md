@@ -28,7 +28,7 @@ Makes a backup copy of the current copy of mapi32.dll on the client computer, an
 |Called by:  <br/> |Client  <br/> |
 |Implemented by:  <br/> |Windows  <br/> |
    
-```
+```cpp
 DWORD STDAPICALLTYPE FixMAPI(void); 
 ```
 

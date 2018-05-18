@@ -18,7 +18,7 @@ description: "Last modified: July 23, 2011"
   
 A store provider can send as part of a MAPI Uniform Resource Locator (URL) an entry ID and an attachment ID to the MAPI Protocol Handler to identify an object that is ready for indexing. The store provider encodes the entry ID and attachment ID as Unicode strings. This topic shows an algorithm that generates a compact representation of the entry ID or attachment ID.
   
-```
+```cpp
 const WORD kwBaseOffset = 0xAC00;  // Hangul char range (AC00-D7AF) 
 LPWSTR EncodeID(ULONG cbEID, LPENTRYID rgbID) 
 { 

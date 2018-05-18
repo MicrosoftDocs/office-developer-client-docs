@@ -38,7 +38,7 @@ Transport providers have the following responsibilities in a MAPI messaging syst
     
 - Translate message format as required by the underlying messaging system.
     
-- Notify the MAPI spooler which recipients of an outgoing message the transport provider has accepted responsibility for handling by setting the **PR_RESPONSIBILITY** ( [PidTagResponsibility](pidtagresponsibility-canonical-property.md)) property for those recipients.
+- Notify the MAPI spooler which recipients of an outgoing message the transport provider has accepted responsibility for handling by setting the **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) property for those recipients.
     
 - Inform the MAPI spooler when an incoming message needs to be handled.
     

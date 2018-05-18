@@ -33,7 +33,7 @@ Contains the relative priority of a message.
    
 ## Remarks
 
-This property and the **PR_IMPORTANCE** ( [PidTagImportance](pidtagimportance-canonical-property.md)) property should not be confused. Importance indicates a value to users, while priority indicates the order or speed at which the message should be sent by the messaging system software. Higher priority usually indicates a higher cost. Higher importance usually is associated with a different display by the user interface.
+This property and the **PR_IMPORTANCE** ([PidTagImportance](pidtagimportance-canonical-property.md)) property should not be confused. Importance indicates a value to users, while priority indicates the order or speed at which the message should be sent by the messaging system software. Higher priority usually indicates a higher cost. Higher importance usually is associated with a different display by the user interface.
   
 The priority of a report message should be the same as the priority of the original message being reported.
   

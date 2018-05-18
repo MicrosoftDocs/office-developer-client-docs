@@ -22,9 +22,9 @@ View folders are root folders that contain associated information to define alte
   
 MAPI supports two view folders:
   
-- Common — The common view folder contains views that are standard for the message store and can be used by any user of a client that accesses the message store. The entry identifier for the common view folder is stored in the store's **PR_COMMON_VIEWS_ENTRYID** ( [PidTagCommonViewsEntryId](pidtagcommonviewsentryid-canonical-property.md)) property.
+- Common — The common view folder contains views that are standard for the message store and can be used by any user of a client that accesses the message store. The entry identifier for the common view folder is stored in the store's **PR_COMMON_VIEWS_ENTRYID** ([PidTagCommonViewsEntryId](pidtagcommonviewsentryid-canonical-property.md)) property.
     
-- Personal — The personal view folder contains views that are defined by a particular user. MAPI defines the **PR_VIEWS_ENTRYID** ( [PidTagViewsEntryId](pidtagviewsentryid-canonical-property.md)) property for holding the entry identifier of the personal view folder. Using personal views, for example, one user could look at a group of messages sorted by sender, listing only the message subject and receipt date; another user could look at the same group sorted by date, listing the subject, sender, and message size.
+- Personal — The personal view folder contains views that are defined by a particular user. MAPI defines the **PR_VIEWS_ENTRYID** ([PidTagViewsEntryId](pidtagviewsentryid-canonical-property.md)) property for holding the entry identifier of the personal view folder. Using personal views, for example, one user could look at a group of messages sorted by sender, listing only the message subject and receipt date; another user could look at the same group sorted by date, listing the subject, sender, and message size.
     
 ## See also
 

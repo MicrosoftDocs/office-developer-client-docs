@@ -33,7 +33,7 @@ Contains information about any named properties that are contained inside of ext
    
 ## Remarks
 
-This property must be set on an FAI message. It serves the same purpose as **PR_RULE_CONDITION** ( [PidTagRuleCondition](pidtagrulecondition-canonical-property.md)), but contains additional information about the named properties used. All string values contained in any part of this condition property value must be in Unicode format.
+This property must be set on an FAI message. It serves the same purpose as **PR_RULE_CONDITION** ([PidTagRuleCondition](pidtagrulecondition-canonical-property.md)), but contains additional information about the named properties used. All string values contained in any part of this condition property value must be in Unicode format.
   
 For information about the format of this binary property, see [[MS-OXORULE]](http://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx).
   

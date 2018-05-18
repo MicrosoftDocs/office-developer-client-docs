@@ -62,7 +62,7 @@ The **IMAPISupport::ReadReceipt** method is implemented only for message store p
   
 ## Notes to Callers
 
-Call **ReadReceipt** when the **PR_READ_RECEIPT_REQUESTED** ( [PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) property is set and one of the following conditions is true:
+Call **ReadReceipt** when the **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) property is set and one of the following conditions is true:
   
 - The message has been read.
     

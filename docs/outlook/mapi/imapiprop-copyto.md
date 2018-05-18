@@ -100,7 +100,7 @@ S_OK
     
 MAPI_E_COLLISION 
   
-> A subobject cannot be copied because a subobject with the same display name — specified by the **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property — already exists in the destination object. 
+> A subobject cannot be copied because a subobject with the same display name — specified by the **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property — already exists in the destination object. 
     
 MAPI_E_DECLINE_COPY 
   
@@ -170,19 +170,19 @@ If **CopyTo** returns S_OK, free the returned **SPropProblemArray** structure by
   
 If you copy properties that are unique to the source object type, you must ensure that the destination object is of the same type. **CopyTo** does not prevent you from associating properties that typically belong to one type of object with another type of object. It is up to you to copy properties that make sense for the destination object. For example, you should not copy message properties to an address book container. 
   
-To ensure that you copy between objects of the same type, check that the source and destination object are the same type, either by comparing object pointers or calling [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx). Set the interface identifier pointed to by  _lpInterface_ to the standard interface for the source object. Also, be sure that the object type or **PR_OBJECT_TYPE** ( [PidTagObjectType](pidtagobjecttype-canonical-property.md)) property is the same for the two objects. For example, if you copy from a message, set  _lpInterface_ to IID_IMessage and the **PR_OBJECT_TYPE** for both objects to MAPI_MESSAGE. 
+To ensure that you copy between objects of the same type, check that the source and destination object are the same type, either by comparing object pointers or calling [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx). Set the interface identifier pointed to by  _lpInterface_ to the standard interface for the source object. Also, be sure that the object type or **PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md)) property is the same for the two objects. For example, if you copy from a message, set  _lpInterface_ to IID_IMessage and the **PR_OBJECT_TYPE** for both objects to MAPI_MESSAGE. 
   
 If an invalid pointer is passed in the  _lpDestObj_ parameter, the results are unpredictable. 
   
-Excluding properties on a **CopyTo** call can be useful. For example, some objects have properties that are specific to a single instance of the object, such as the date and time of message delivery. To avoid copying a message's delivery time when you copy the message to a different folder, specify **PR_MESSAGE_DELIVERY_TIME** ( [PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)) in the property tag exclude array. To exclude a message's recipient list, add the **PR_MESSAGE_RECIPIENTS** ( [PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) property to the exclude array. To exclude a message's attachments, add the **PR_MESSAGE_ATTACHMENTS** ( [PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) property to the array.
+Excluding properties on a **CopyTo** call can be useful. For example, some objects have properties that are specific to a single instance of the object, such as the date and time of message delivery. To avoid copying a message's delivery time when you copy the message to a different folder, specify **PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)) in the property tag exclude array. To exclude a message's recipient list, add the **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) property to the exclude array. To exclude a message's attachments, add the **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) property to the array.
   
-Similarly, prevent the copying or moving of a folder or address book container's hierarchy or contents table by including **PR_CONTAINER_HIERARCHY** ( [PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) or **PR_CONTAINER_CONTENTS** ( [PidTagContainerContents](pidtagcontainercontents-canonical-property.md)) in the property tag exclude array.
+Similarly, prevent the copying or moving of a folder or address book container's hierarchy or contents table by including **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) or **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)) in the property tag exclude array.
   
 To exclude properties from the copy or move operation, include their property tags in the  _lpExcludeProps_ parameter. If you pass the results of the **PROP_TAG** macro to build a property tag from a specific identifier in the property tag array, all properties with that identifier will be excluded. For example, the following entry in the property tag array causes all properties with an identifier of 0x8002 to be excluded, regardless of type: 
   
  `PROP_TAG(PT_LONG, 0x8002)`
   
-The **PR_NULL** ( [PidTagNull](pidtagnull-canonical-property.md)) property tag cannot be included in the  _lpExcludeProps_ array. 
+The **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)) property tag cannot be included in the  _lpExcludeProps_ array. 
   
 The usefulness of the **CopyTo** feature for excluding interfaces is perhaps not as obvious as the usefulness of excluding properties. You can exclude an interface when you copy to an object that has no knowledge of a group of properties. For example, if you copy properties from a folder to an attachment, the only properties that the attachment can work with are the generic properties available with any [IMAPIProp](imapipropiunknown.md) implementation. By excluding [IMAPIFolder](imapifolderimapicontainer.md) from the copy operation, the attachment will not receive any of the more specific folder properties. 
   

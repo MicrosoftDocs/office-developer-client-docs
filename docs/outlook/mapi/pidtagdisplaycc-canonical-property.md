@@ -41,7 +41,7 @@ Because of the possible need for localization, MAPI provides these guidelines fo
   
 - All names should be able to be localized. 
     
-- The semicolon should be the character that is used to separate names in the **PR_DISPLAY_BCC** ( [PidTagDisplayBcc](pidtagdisplaybcc-canonical-property.md)), **PR_DISPLAY_CC**, and **PR_DISPLAY_TO** ( [PidTagDisplayTo](pidtagdisplayto-canonical-property.md)) properties. Semicolons are not permitted within recipient names in MAPI. 
+- The semicolon should be the character that is used to separate names in the **PR_DISPLAY_BCC** ([PidTagDisplayBcc](pidtagdisplaybcc-canonical-property.md)), **PR_DISPLAY_CC**, and **PR_DISPLAY_TO** ([PidTagDisplayTo](pidtagdisplayto-canonical-property.md)) properties. Semicolons are not permitted within recipient names in MAPI. 
     
 - Clients should translate each semicolon encountered in this property to a localized separator character before making the property information visible in the user interface. 
     

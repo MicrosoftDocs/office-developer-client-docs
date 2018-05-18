@@ -30,7 +30,7 @@ Enables or disables a [FNIDLE](fnidle.md) based idle routine.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 VOID EnableIdleRoutine(
   FTG ftg,
   BOOL fEnable

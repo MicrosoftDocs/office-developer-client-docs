@@ -8,8 +8,6 @@ api_type:
 - COM
 ms.assetid: 04ec21b8-8cd8-4d2d-92e7-aa73f4315e1e
 description: "Last modified: June 26, 2012"
- 
- 
 ---
 
 # Client Shutdown in MAPI 

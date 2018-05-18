@@ -30,7 +30,7 @@ Validates a specified property.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Service providers  <br/> |
    
-```
+```cpp
 ULONG FBadProp(
   LPSPropValue lpprop
 );

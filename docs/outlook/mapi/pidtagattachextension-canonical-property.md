@@ -35,7 +35,7 @@ Contains a file name extension that indicates the document type of an attachment
 
 These properties are set by the client application at submission time. 
   
-The messaging system uses **PR_ATTACH_EXTENSION** when converting message attachments (in-route conversion) or launching applications based on attachments in received messages. If the sending client does not provide a value for these properties, the message store handling the attachment is not obligated to generate it. The receiving client should first check for **PR_ATTACH_EXTENSION**, and if it is not provided, should parse the file name extension from the attachment's **PR_ATTACH_FILENAME** ( [PidTagAttachFilename](pidtagattachfilename-canonical-property.md)) or **PR_ATTACH_LONG_FILENAME** ( [PidTagAttachLongFilename](pidtagattachlongfilename-canonical-property.md)) property. 
+The messaging system uses **PR_ATTACH_EXTENSION** when converting message attachments (in-route conversion) or launching applications based on attachments in received messages. If the sending client does not provide a value for these properties, the message store handling the attachment is not obligated to generate it. The receiving client should first check for **PR_ATTACH_EXTENSION**, and if it is not provided, should parse the file name extension from the attachment's **PR_ATTACH_FILENAME** ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md)) or **PR_ATTACH_LONG_FILENAME** ([PidTagAttachLongFilename](pidtagattachlongfilename-canonical-property.md)) property. 
   
 ## Related Resources
 

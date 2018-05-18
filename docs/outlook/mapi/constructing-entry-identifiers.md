@@ -24,7 +24,7 @@ Entry identifiers are constructed with the [ENTRYID](entryid.md) structure. The 
 
 The **ENTRYID** structure is defined as follows: 
   
-```
+```cpp
 typedef struct
 {
     BYTE        abFlags[4];

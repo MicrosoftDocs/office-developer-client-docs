@@ -33,7 +33,7 @@ Contains the entry identifier of the author of the first version of a message, t
    
 ## Remarks
 
-This property is one of the address properties for the author of a message. At first submission of the message, the client application should set this property to the value of **PR_SENDER_ENTRYID** ( [PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)). It is never changed when the message is forwarded or replied to. 
+This property is one of the address properties for the author of a message. At first submission of the message, the client application should set this property to the value of **PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)). It is never changed when the message is forwarded or replied to. 
   
 The original author property allows for preservation of information from outside the local messaging domain. When a message arrives from another messaging domain, such as from the Internet, this property provides a way to ensure that original information is not lost.
   

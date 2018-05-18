@@ -29,7 +29,7 @@ Describes zero or more properties that belong to one or more recipients.
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related macros:  <br/> |[CbADRLIST](cbadrlist.md), [CbNewADRLIST](cbnewadrlist.md), [CbNewADRLIST](cbnewadrlist.md) <br/> |
    
-```
+```cpp
 typedef struct _ADRLIST
 {
   ULONG cEntries;
@@ -50,7 +50,7 @@ typedef struct _ADRLIST
     
 ## Remarks
 
-An **ADRLIST** structure contains one or more **ADRENTRY** structures, each describing the properties of a recipient. A recipient can be unresolved. This means that it is lacking an entry identifier in its array of property values. A resolved recipient means that the **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)) property is included. Typically, resolved recipients also have an e-mail address the **PR_EMAIL_ADDRESS** ( [PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) property. However, the e-mail address is not required. **ADRLIST** structures are used, for example, to describe the recipient list for an outgoing message and by MAPI to display the entries in the address book. 
+An **ADRLIST** structure contains one or more **ADRENTRY** structures, each describing the properties of a recipient. A recipient can be unresolved. This means that it is lacking an entry identifier in its array of property values. A resolved recipient means that the **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) property is included. Typically, resolved recipients also have an e-mail address the **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) property. However, the e-mail address is not required. **ADRLIST** structures are used, for example, to describe the recipient list for an outgoing message and by MAPI to display the entries in the address book. 
   
  **ADRLIST** structures resemble [SRowSet](srowset.md) structures the structures used for representing rows in tables. In fact, these two structures are designed so that they can be used interchangeably. Both contain an array of structures describing a group of properties and a count of the values in the array. Whereas in the **ADRLIST** structure, the array contains [ADRENTRY](adrentry.md) structures, in the **SRowSet** structure the array contains [SRow](srow.md) structures. **ADRENTRY** structures and **SRow** structures are identical in layout. Because **ADRLIST** and **SRowSet** structures follow the same allocation rules, an **SRowSet** structure that is retrieved from the contents table of an address book container can be cast to an **ADRLIST** structure and used as is. 
   

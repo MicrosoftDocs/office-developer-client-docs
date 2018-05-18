@@ -34,7 +34,7 @@ Contains the image to use on a business card.
    
 ## Remarks
 
-The value of this property must be either a portable network graphics (PNG) or JPEG stream. This property should be used in conjunction with the **dispidBCDisplayDefinition** ( [PidLidBusinessCardDisplayDefinition](pidlidbusinesscarddisplaydefinition-canonical-property.md)) property as follows: **dispidBCCardPicture** should not be present on a contact if **dispidBCDisplayDefinition** is not present. This property also should not be present if the data in **dispidBCCardPicture** does not require a card image. 
+The value of this property must be either a portable network graphics (PNG) or JPEG stream. This property should be used in conjunction with the **dispidBCDisplayDefinition** ([PidLidBusinessCardDisplayDefinition](pidlidbusinesscarddisplaydefinition-canonical-property.md)) property as follows: **dispidBCCardPicture** should not be present on a contact if **dispidBCDisplayDefinition** is not present. This property also should not be present if the data in **dispidBCCardPicture** does not require a card image. 
   
 ## Related Resources
 

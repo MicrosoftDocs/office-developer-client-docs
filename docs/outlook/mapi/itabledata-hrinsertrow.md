@@ -57,7 +57,7 @@ The **ITableData::HrInsertRow** method inserts a row into a table at a particula
   
 If  _uliRow_ is set to the number of rows in the table, the new row is appended to the end of the table. 
   
-The property that acts as the index column for the table must be included in the **lpProps** member of the [SRow](srow.md) structure pointed to by the  _lpSRow_ parameter. This index property, typically **PR_INSTANCE_KEY** ( [PidTagInstanceKey](pidtaginstancekey-canonical-property.md)), is used to uniquely identify the row for future maintenance tasks.
+The property that acts as the index column for the table must be included in the **lpProps** member of the [SRow](srow.md) structure pointed to by the  _lpSRow_ parameter. This index property, typically **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)), is used to uniquely identify the row for future maintenance tasks.
   
 The property columns in the **SRow** structure do not have to be in the same order as the property columns in the table. 
   

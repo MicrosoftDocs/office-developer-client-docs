@@ -91,7 +91,7 @@ The **IMAPIContainer::GetSearchCriteria** method obtains the search criteria for
   
 ## Notes to Implementers
 
-Address book containers may need to support **GetSearchCriteria** only if they provide the advanced search capabilities associated with the **PR_SEARCH** ( [PidTagSearch](pidtagsearch-canonical-property.md)) property. For more information about how to implement the advanced search feature for address book containers, see [Implementing Advanced Searching](implementing-advanced-searching.md).
+Address book containers may need to support **GetSearchCriteria** only if they provide the advanced search capabilities associated with the **PR_SEARCH** ([PidTagSearch](pidtagsearch-canonical-property.md)) property. For more information about how to implement the advanced search feature for address book containers, see [Implementing Advanced Searching](implementing-advanced-searching.md).
   
 ## Notes to Callers
 

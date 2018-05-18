@@ -28,7 +28,7 @@ Describes a list that will be used in a dialog box that is built from a display 
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _DTBLLBX
 {
   ULONG ulFlags;
@@ -58,7 +58,7 @@ MAPI_NO_VBAR
     
  **ulPRTableName**
   
-> Property tag for a table property of type PT_OBJECT that can be opened by using an **OpenProperty** call. The number of columns that the table should have depends on whether the list is a single or multiple selection list. If the **ulPRSetProperty** member is set to **PR_NULL** ( [PidTagNull](pidtagnull-canonical-property.md)), the list allows for multiple selection.
+> Property tag for a table property of type PT_OBJECT that can be opened by using an **OpenProperty** call. The number of columns that the table should have depends on whether the list is a single or multiple selection list. If the **ulPRSetProperty** member is set to **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)), the list allows for multiple selection.
     
 ## Remarks
 
@@ -72,13 +72,13 @@ The two property tag members work together to display values in the list and set
   
 A table for a multiple selection list must include the following columns:
   
- **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md))
+ **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))
   
- **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md))
+ **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))
   
- **PR_INSTANCE_KEY** ( [PidTagInstanceKey](pidtaginstancekey-canonical-property.md))
+ **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md))
   
- **PR_DISPLAY_TYPE** ( [PidTagDisplayType](pidtagdisplaytype-canonical-property.md)) and a maximum of five other multivalued string properties can also be displayed with the three required columns. 
+ **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)) and a maximum of five other multivalued string properties can also be displayed with the three required columns. 
   
 If the **ulPRSetProperty** member is not set to **PR_NULL**, the list is a single selection list. The initial value of **ulPRSetProperty** determines the first selected row. When a user selects one of the rows, the **ulPRSetProperty** member is set to the selected value and this value is written back to the property interface implementation with a call to [IMAPIProp::SetProps](imapiprop-setprops.md). 
   

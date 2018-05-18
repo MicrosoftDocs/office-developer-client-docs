@@ -1,7 +1,5 @@
 ---
 title: "ACCELERATEABSDI"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -17,9 +15,7 @@ description: "Last modified: March 09, 2015"
 ---
 
 # ACCELERATEABSDI
-
-  
-  
+ 
 **Applies to**: Outlook 
   
 Defines a callback function to process accelerator keys in a modeless address book dialog box. 
@@ -30,7 +26,7 @@ Defines a callback function to process accelerator keys in a modeless address bo
 |Defined function implemented by:  <br/> |MAPI  <br/> |
 |Defined function called by:  <br/> |Client applications  <br/> |
    
-```
+```cpp
 BOOL (STDMETHODCALLTYPE ACCELERATEABSDI)( 
   ULONG_PTR ulUIParam,
   LPVOID lpvmsg

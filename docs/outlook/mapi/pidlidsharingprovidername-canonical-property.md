@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Specifies the user-displayable name of the sharing provider that is identified by **dispidSharingProviderGuid** ( [PidLidSharingProviderGuid](pidlidsharingproviderguid-canonical-property.md)). This is a property of a sharing message.
+Specifies the user-displayable name of the sharing provider that is identified by **dispidSharingProviderGuid** ([PidLidSharingProviderGuid](pidlidsharingproviderguid-canonical-property.md)). This is a property of a sharing message.
   
 |||
 |:-----|:-----|

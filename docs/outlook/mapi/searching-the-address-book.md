@@ -20,13 +20,13 @@ description: "Last modified: July 23, 2011"
   
 MAPI enables address book providers to implement two levels of search functionality:
   
-- A basic level that matches a specified name with the **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property of address book entries. This level allows users, for example, to view distribution lists with names beginning with Northwest or locate individual messaging users whose last name is Brown.
+- A basic level that matches a specified name with the **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property of address book entries. This level allows users, for example, to view distribution lists with names beginning with Northwest or locate individual messaging users whose last name is Brown.
     
 - An advanced level that matches on properties other than **PR_DISPLAY_NAME**. This level allows users, for example, to further narrow their searches and find messaging users named Brown with a particular address type.
     
 Because address book providers can support searching for each of their containers at the basic level, at both levels, or choose not to support it at all, do not expect searching to be implemented as a standard feature. To determine if a particular container supports searches, attempt to establish search criteria in a call to its [IMAPIContainer::SetSearchCriteria](imapicontainer-setsearchcriteria.md) method. If **SetSearchCriteria** returns MAPI_E_NO_SUPPORT, the container does not support searches. 
   
-In a container that supports searches, retrieve established criteria by calling [IMAPIContainer::GetSearchCriteria](imapicontainer-getsearchcriteria.md). You can also request that the user be prompted for search criteria before a container's contents table is displayed. To choose this option, set the AB_FIND_ON_OPEN flag of the container's **PR_CONTAINER_FLAGS** ( [PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)) property. After the user enters the criteria, it is stored as a restriction and passed to the **SetSearchCriteria** method. Setting AB_FIND_ON_OPEN is particularly useful if you are using an online service or any address book provider that has a slow link to its data. 
+In a container that supports searches, retrieve established criteria by calling [IMAPIContainer::GetSearchCriteria](imapicontainer-getsearchcriteria.md). You can also request that the user be prompted for search criteria before a container's contents table is displayed. To choose this option, set the AB_FIND_ON_OPEN flag of the container's **PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)) property. After the user enters the criteria, it is stored as a restriction and passed to the **SetSearchCriteria** method. Setting AB_FIND_ON_OPEN is particularly useful if you are using an online service or any address book provider that has a slow link to its data. 
   
  **To perform a basic search in an address book container**
   
@@ -40,7 +40,7 @@ In a container that supports searches, retrieve established criteria by calling 
     
   - [IMAPITable::Restrict](imapitable-restrict.md) to limit the table view. 
     
-  - Property restriction using the **PR_ANR** ( [PidTagAnr](pidtaganr-canonical-property.md)) property for resolving ambiguous names. Call **IMAPITable::Restrict** to impose this restriction. 
+  - Property restriction using the **PR_ANR** ([PidTagAnr](pidtaganr-canonical-property.md)) property for resolving ambiguous names. Call **IMAPITable::Restrict** to impose this restriction. 
     
   - [IABContainer::ResolveNames](iabcontainer-resolvenames.md) to resolve ambiguous names. 
     

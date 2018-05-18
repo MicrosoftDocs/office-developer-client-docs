@@ -8,27 +8,23 @@ api_type:
 - COM
 ms.assetid: 3b9b3dc0-4f82-468b-8e77-0374c5b196f4
 description: "Last modified: March 09, 2015"
- 
- 
 ---
 
 # Form Configuration File [Platforms] Section
 
-  
-  
 **Applies to**: Outlook 
   
 The **[Platforms]** section lists the complete set of platforms supported by this form. Each platform entry consists of the prefix **Platform.** _string_, where  _string_ is an arbitrary string code for the platform. Each string corresponds to the **CPU** entry of an individual **[Platforms]** sections. Each entry in a **[Platforms]** section defines a  _platform string_ that references a subsequent **[Platform.** _platform string_ **]** section as shown here. 
   
 The **[Platforms]** section lists the complete set of platforms supported by this form. Each platform entry consists of the prefix **Platform.** _string_, where  _string_ is an arbitrary string code for the platform. Each string corresponds to the **CPU** entry of an individual **[Platforms]** sections. Each entry in a **[Platforms]** section defines a  _platform string_ that references a subsequent **[Platform.** _platform string_ **]** section as shown here. 
   
- **[Platforms]**
+**[Platforms]**
   
- **Platform**. _string_ =  _platform string_
+**Platform**. _string_ =  _platform string_
   
 Following is an example of a **[Platforms]** section. 
   
-```
+```cpp
 [Platforms]
 Platform.1 = NTx86
 Platform.2 = Win95
@@ -59,21 +55,21 @@ Additionally, the **[Platform.** _platform string_ **]** section must contain ei
   
 The **Registry** entry is used whenever the **File** entry is used, it identifies the registry key for the form library where the executable file for the form server application is stored. Strings preceded by a backslash ( \ ) are placed at the root of the registry. Strings not preceded by a backslash are placed in the HKEY_CLASSES_ROOT\CLSID\  _GUID_\ registry key, where  _GUID_ is the **GUID** of the form. The characters "%d" can be used to indicate the pathname of the directory from which the form configuration file has been read. This is useful for specifying other files with pathnames relative to the form configuration file. **Multiple File** or **Registry** entries can be specified by using File or Registry as a prefix followed by any other text. The format for the **[Platform.** _platform string_ **]** section is: 
   
- **[Platform.** _platform string_ **]**
-  
- **CPU** =  _string_
-  
- **OSVersion** =  _string_
-  
- **File** =  _path_
-  
- **LinkTo** =  _string_
-  
- **Registry** =  _string_
+- **[Platform.** _platform string_ **]**
+    
+- **CPU** =  _string_
+    
+- **OSVersion** =  _string_
+    
+- **File** =  _path_
+    
+- **LinkTo** =  _string_
+    
+- **Registry** =  _string_
   
 The following are two example **[Platform.** _platform string_ **]** sections, one using the **File** entry and one using the **LinkTo** entry. 
   
-```
+```cpp
 [Platform.NTx86]
 CPU = ix86
 OSVersion = WinNT3.5

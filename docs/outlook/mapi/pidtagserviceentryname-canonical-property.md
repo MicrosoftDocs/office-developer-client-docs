@@ -35,7 +35,7 @@ Contains the name of the entry point function for configuration of a message ser
 
 It is recommended that message service implementers provide a message service entry point, but the entry point is not required. However, the entry point should be supplied only if the related configuration properties exist. If these properties do not exist, MAPI assumes that no entry point is provided.
   
-The dynamic-link library (DLL) in which the entry point function appears is named by the **PR_SERVICE_DLL_NAME** ( [PidTagServiceDllName](pidtagservicedllname-canonical-property.md)) property.
+The dynamic-link library (DLL) in which the entry point function appears is named by the **PR_SERVICE_DLL_NAME** ([PidTagServiceDllName](pidtagservicedllname-canonical-property.md)) property.
   
 For more information on message service entry points, see [Implementing a Service Provider Entry Point Function](implementing-a-service-provider-entry-point-function.md).
   

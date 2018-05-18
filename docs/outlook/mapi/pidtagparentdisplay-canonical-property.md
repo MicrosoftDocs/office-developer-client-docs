@@ -35,7 +35,7 @@ Contains the display name of the folder where a message was found during a searc
 
 These properties is not on any object. They can only appear in the contents table of a search-results folder.
   
-These properties and **PR_PARENT_ENTRYID** ( [PidTagParentEntryId](pidtagparententryid-canonical-property.md)) properties are not related to each other. They belong to entirely different contexts.
+These properties and **PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)) properties are not related to each other. They belong to entirely different contexts.
   
 ## Related Resources
 

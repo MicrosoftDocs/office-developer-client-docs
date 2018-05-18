@@ -1,5 +1,5 @@
 ---
-title: "Form Storage"
+title: "Form storage"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,14 +8,10 @@ api_type:
 - COM
 ms.assetid: 6ddf9158-3c10-408a-aeaf-5a382c4339e7
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
-# Form Storage
+# Form storage
 
-  
-  
 **Applies to**: Outlook 
   
 Although it is not necessary to know all the details of how forms are physically stored, it is useful to understand a few of the main concepts. Therefore, before describing the three types of form libraries supported by the default form manager, this topic gives an overview of how forms are stored.
@@ -36,7 +32,5 @@ The three types of form libraries are described in the topics [Local Form Librar
   
 ## See also
 
-#### Concepts
-
-[MAPI Forms](mapi-forms.md)
+- [MAPI Forms](mapi-forms.md)
 

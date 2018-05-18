@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Indicates the original value of the **dispidApptStartWhole** ( [PidLidAppointmentStartWhole](pidlidappointmentstartwhole-canonical-property.md)) property before a meeting update.
+Indicates the original value of the **dispidApptStartWhole** ([PidLidAppointmentStartWhole](pidlidappointmentstartwhole-canonical-property.md)) property before a meeting update.
   
 |||
 |:-----|:-----|

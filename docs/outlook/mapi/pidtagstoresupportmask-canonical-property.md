@@ -33,7 +33,7 @@ Contains a bitmask of flags that client applications query to determine the char
    
 ## Remarks
 
-This property discloses the capabilities of a message store to client applications that are planning to send it a message. The flags can support decisions by a client or another store, such as whether to send **PR_BODY** ( [PidTagBody](pidtagbody-canonical-property.md)) or only **PR_RTF_COMPRESSED** ( [PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). A client should never set **PR_STORE_SUPPORT_MASK**; an attempt to set this flag returns MAPI_E_COMPUTED. 
+This property discloses the capabilities of a message store to client applications that are planning to send it a message. The flags can support decisions by a client or another store, such as whether to send **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) or only **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). A client should never set **PR_STORE_SUPPORT_MASK**; an attempt to set this flag returns MAPI_E_COMPUTED. 
   
 One or more of the following flags can be set for the **PR_STORE_SUPPORT_MASK** bitmask: 
   
@@ -59,7 +59,7 @@ STORE_ENTRYID_UNIQUE
     
 STORE_HTML_OK 
   
-> (65536, 0x00010000) The message store supports HTML messages, stored in the **PR_BODY_HTML** ( [PidTagBodyHtml](pidtagbodyhtml-canonical-property.md)) property. If your development environment uses a MAPIDEFS.H file that does not include STORE_HTML_OK, use the value 0x00010000 instead. 
+> (65536, 0x00010000) The message store supports HTML messages, stored in the **PR_BODY_HTML** ([PidTagBodyHtml](pidtagbodyhtml-canonical-property.md)) property. If your development environment uses a MAPIDEFS.H file that does not include STORE_HTML_OK, use the value 0x00010000 instead. 
     
 STORE_ITEMPROC
   
@@ -83,7 +83,7 @@ STORE_NOTIFY_OK
     
 STORE_OLE_OK 
   
-> (64, 0x00000040) The message store supports OLE attachments. The OLE data can be accessed through an **IStorage** interface, such as that available through the **PR_ATTACH_DATA_OBJ** ( [PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)) property. 
+> (64, 0x00000040) The message store supports OLE attachments. The OLE data can be accessed through an **IStorage** interface, such as that available through the **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)) property. 
     
 STORE_PUBLIC_FOLDERS 
   

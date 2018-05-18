@@ -34,9 +34,9 @@ Represents the end date and time of a message.
    
 ## Remarks
 
-This property indicates the end time for an item. It must be greater than or equal to the value of the **dispidCommonStart** ( [PidLidCommonStart](pidlidcommonstart-canonical-property.md)) property.
+This property indicates the end time for an item. It must be greater than or equal to the value of the **dispidCommonStart** ([PidLidCommonStart](pidlidcommonstart-canonical-property.md)) property.
   
-This value must be the Coordinated Universal Time (UTC) equivalent of the **dispidTaskDueDate** ( [PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)) property.
+This value must be the Coordinated Universal Time (UTC) equivalent of the **dispidTaskDueDate** ([PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)) property.
   
 ## Related Resources
 

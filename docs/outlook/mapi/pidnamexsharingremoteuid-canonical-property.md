@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Represents the value of the **dispidSharingRemoteUid** ( [PidLidSharingRemoteUid](pidlidsharingremoteuid-canonical-property.md)) property.
+Represents the value of the **dispidSharingRemoteUid** ([PidLidSharingRemoteUid](pidlidsharingremoteuid-canonical-property.md)) property.
   
 |||
 |:-----|:-----|

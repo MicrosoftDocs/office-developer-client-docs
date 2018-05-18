@@ -33,7 +33,7 @@ Specifies the flag color of the message object.
    
 ## Remarks
 
-This property must not exist unless the value of the **PR_FLAG_STATUS** ( [PidTagFlagStatus](pidtagflagstatus-canonical-property.md)) property is set to "followupFlagged", or the message object is a meeting-related object. This property should not exist on a task object. When set on other message objects, this property must be set to one of the following values.
+This property must not exist unless the value of the **PR_FLAG_STATUS** ([PidTagFlagStatus](pidtagflagstatus-canonical-property.md)) property is set to "followupFlagged", or the message object is a meeting-related object. This property should not exist on a task object. When set on other message objects, this property must be set to one of the following values.
   
 |**Numeric value**|**Name**|**Description**|
 |:-----|:-----|:-----|

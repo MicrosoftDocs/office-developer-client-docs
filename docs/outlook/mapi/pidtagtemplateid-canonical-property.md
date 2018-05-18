@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Contains the **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)), expressed as a permanent entry ID format.
+Contains the **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)), expressed as a permanent entry ID format.
   
 |||
 |:-----|:-----|
@@ -33,7 +33,7 @@ Contains the **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.m
    
 ## Remarks
 
-This value must be present for all address book objects on an Name Service Provider Interface (NSPI) server, its distinguished name (DN) must match the value for **PR_EMAIL_ADDRESS** ( [PidTagEmailAddress](pidtagemailaddress-canonical-property.md)), and its DN must follow the DN format specification particular to the type of object. 
+This value must be present for all address book objects on an Name Service Provider Interface (NSPI) server, its distinguished name (DN) must match the value for **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)), and its DN must follow the DN format specification particular to the type of object. 
   
 This property is not present on objects in an offline address book.
   

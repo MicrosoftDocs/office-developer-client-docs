@@ -161,9 +161,9 @@ The  _ulUIParam_ parameter should be used if the provider presents dialog boxes 
   
 The  _lpEntryID_ parameter can either be **null** or point to an unwrapped store entry identifier that this message store previously created. If  _lpEntryID_ points to an unwrapped entry identifier, that entry identifier can come from one of several places: 
   
-- It can be an entry identifier that the store provider previously wrapped and wrote to the profile section as a **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)) property.
+- It can be an entry identifier that the store provider previously wrapped and wrote to the profile section as a **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) property.
     
-- It can be an entry identifier that the provider previously wrapped and returned to a calling client as a **PR_STORE_ENTRYID** ( [PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)) property. 
+- It can be an entry identifier that the provider previously wrapped and returned to a calling client as a **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)) property. 
     
 - It can be an entry identifier that the provider previously wrapped and returned to a calling client as the **PR_ENTRYID** property of a message store object. 
     
@@ -185,7 +185,7 @@ Most store providers use the [IMAPISession::OpenProfileSection](imapisession-ope
   
 Properties with property identifiers 0x6600 through 0x67FF are secure properties available to the provider for its own use to store private data in profile sections. For more information about the uses of properties in profile section objects, see the [IProfSect : IMAPIProp](iprofsectimapiprop.md) method. 
   
-In addition to any private data in properties with identifiers 0x6600 through 0x67FF, the store provider should provide information for the **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property in its profile section. It should put in **PR_DISPLAY_NAME** the display name of the provider itself — an identifying string (for example, "Microsoft Personal Information Store") that is displayed to users so they can distinguish this message store from others they might have access to. **PR_DISPLAY_NAME** commonly contains a server name, user account name, or path. 
+In addition to any private data in properties with identifiers 0x6600 through 0x67FF, the store provider should provide information for the **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property in its profile section. It should put in **PR_DISPLAY_NAME** the display name of the provider itself — an identifying string (for example, "Microsoft Personal Information Store") that is displayed to users so they can distinguish this message store from others they might have access to. **PR_DISPLAY_NAME** commonly contains a server name, user account name, or path. 
   
 Some profile section properties are visible in the message store table; others are visible during setup, installation, and configuration of the MAPI subsystem. The provider typically provides information for these visible properties both for a new profile section, which does not yet include saved credentials or private information, and when it finds that property information has changed. For more information about profile sections, see [IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md).
   

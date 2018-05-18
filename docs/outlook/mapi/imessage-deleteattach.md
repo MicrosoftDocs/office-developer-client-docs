@@ -37,7 +37,7 @@ ULONG ulFlags
 
  _ulAttachmentNum_
   
-> [in] Index number of the attachment to delete. This is the value for the attachment's **PR_ATTACH_NUM** ( [PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) property.
+> [in] Index number of the attachment to delete. This is the value for the attachment's **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) property.
     
  _ulUIParam_
   

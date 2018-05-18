@@ -45,13 +45,13 @@ Provides status information about the MAPI subsystem, the integrated address boo
    
 |**Required properties**|**Access**|
 |:-----|:-----|
-|**PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Read/write  <br/> |
-|**PR_PROVIDER_DISPLAY** ( [PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md))  <br/> |Read/write  <br/> |
-|**PR_PROVIDER_DLL_NAME** ( [PidTagProviderDllName](pidtagproviderdllname-canonical-property.md))  <br/> |Read-only  <br/> |
-|**PR_RESOURCE_FLAGS** ( [PidTagResourceFlags](pidtagresourceflags-canonical-property.md))  <br/> |Read-only  <br/> |
-|**PR_RESOURCE_METHODS** ( [PidTagResourceMethods](pidtagresourcemethods-canonical-property.md))  <br/> |Read-only  <br/> |
-|**PR_RESOURCE_TYPE** ( [PidTagResourceType](pidtagresourcetype-canonical-property.md))  <br/> |Read-only  <br/> |
-|**PR_STATUS_CODE** ( [PidTagStatusCode](pidtagstatuscode-canonical-property.md))  <br/> |Read-only  <br/> |
+|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Read/write  <br/> |
+|**PR_PROVIDER_DISPLAY** ([PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md))  <br/> |Read/write  <br/> |
+|**PR_PROVIDER_DLL_NAME** ([PidTagProviderDllName](pidtagproviderdllname-canonical-property.md))  <br/> |Read-only  <br/> |
+|**PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md))  <br/> |Read-only  <br/> |
+|**PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md))  <br/> |Read-only  <br/> |
+|**PR_RESOURCE_TYPE** ([PidTagResourceType](pidtagresourcetype-canonical-property.md))  <br/> |Read-only  <br/> |
+|**PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md))  <br/> |Read-only  <br/> |
    
 ## Remarks
 

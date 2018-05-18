@@ -30,7 +30,7 @@ Determines whether two MAPI named properties are the same.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 BOOL FEqualNames(
   LPMAPINAMEID lpName1,
   LPMAPINAMEID lpName2

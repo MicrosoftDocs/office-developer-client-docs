@@ -43,23 +43,23 @@ Supports access to Microsoft Exchange Server table objects, specifically system 
    
 |**Properties used to modify a rules table**|**Access**|
 |:-----|:-----|
-|**PR_RULE_ACTIONS** ( [PidTagRuleActions](pidtagruleactions-canonical-property.md))  <br/> |Read-only  <br/> |
-|**PR_RULE_CONDITION** ( [PidTagRuleCondition](pidtagrulecondition-canonical-property.md))  <br/> |Read-only  <br/> |
-|**PR_RULE_ID** ( [PidTagRuleId](pidtagruleid-canonical-property.md))  <br/> |Read-only  <br/> |
-|**PR_RULE_LEVEL** ( [PidTagRuleLevel](pidtagrulelevel-canonical-property.md))  <br/> |Read-only  <br/> |
-|**PR_RULE_NAME** ( [PidTagRuleName](pidtagrulename-canonical-property.md))  <br/> |Read-only  <br/> |
-|**PR_RULE_PROVIDER** ( [PidTagRuleProvider](pidtagruleprovider-canonical-property.md))  <br/> |Read-only  <br/> |
-|**PR_RULE_PROVIDER_DATA** ( [PidTagRuleProviderData](pidtagruleproviderdata-canonical-property.md))  <br/> |Read-only  <br/> |
-|**PR_RULE_SEQUENCE** ( [PidTagRuleSequence](pidtagrulesequence-canonical-property.md))  <br/> |Read-only  <br/> |
-|**PR_RULE_STATE** ( [PidTagRuleState](pidtagrulestate-canonical-property.md))  <br/> |Read-only  <br/> |
-|**PR_RULE_USER_FLAGS** ( [PidTagRuleUserFlags](pidtagruleuserflags-canonical-property.md))  <br/> |Read-only  <br/> |
+|**PR_RULE_ACTIONS** ([PidTagRuleActions](pidtagruleactions-canonical-property.md))  <br/> |Read-only  <br/> |
+|**PR_RULE_CONDITION** ([PidTagRuleCondition](pidtagrulecondition-canonical-property.md))  <br/> |Read-only  <br/> |
+|**PR_RULE_ID** ([PidTagRuleId](pidtagruleid-canonical-property.md))  <br/> |Read-only  <br/> |
+|**PR_RULE_LEVEL** ([PidTagRuleLevel](pidtagrulelevel-canonical-property.md))  <br/> |Read-only  <br/> |
+|**PR_RULE_NAME** ([PidTagRuleName](pidtagrulename-canonical-property.md))  <br/> |Read-only  <br/> |
+|**PR_RULE_PROVIDER** ([PidTagRuleProvider](pidtagruleprovider-canonical-property.md))  <br/> |Read-only  <br/> |
+|**PR_RULE_PROVIDER_DATA** ([PidTagRuleProviderData](pidtagruleproviderdata-canonical-property.md))  <br/> |Read-only  <br/> |
+|**PR_RULE_SEQUENCE** ([PidTagRuleSequence](pidtagrulesequence-canonical-property.md))  <br/> |Read-only  <br/> |
+|**PR_RULE_STATE** ([PidTagRuleState](pidtagrulestate-canonical-property.md))  <br/> |Read-only  <br/> |
+|**PR_RULE_USER_FLAGS** ([PidTagRuleUserFlags](pidtagruleuserflags-canonical-property.md))  <br/> |Read-only  <br/> |
    
 |**Properties used to modify a SACL table**|**Access**|
 |:-----|:-----|
-|**PR_MEMBER_ENTRYID** ( [PidTagMemberEntryId](pidtagmemberentryid-canonical-property.md))  <br/> |Read-only  <br/> |
-|**PR_MEMBER_ID** ( [PidTagMemberId](pidtagmemberid-canonical-property.md))  <br/> |Read-only  <br/> |
-|**PR_MEMBER_NAME** ( [PidTagMemberName](pidtagmembername-canonical-property.md))  <br/> |Read-only  <br/> |
-|**PR_MEMBER_RIGHTS** ( [PidTagMemberRights](pidtagmemberrights-canonical-property.md))  <br/> |Read-only  <br/> |
+|**PR_MEMBER_ENTRYID** ([PidTagMemberEntryId](pidtagmemberentryid-canonical-property.md))  <br/> |Read-only  <br/> |
+|**PR_MEMBER_ID** ([PidTagMemberId](pidtagmemberid-canonical-property.md))  <br/> |Read-only  <br/> |
+|**PR_MEMBER_NAME** ([PidTagMemberName](pidtagmembername-canonical-property.md))  <br/> |Read-only  <br/> |
+|**PR_MEMBER_RIGHTS** ([PidTagMemberRights](pidtagmemberrights-canonical-property.md))  <br/> |Read-only  <br/> |
    
 ## Remarks
 

@@ -33,7 +33,7 @@ Contains TRUE if overlapping appointments are disallowed.
    
 ## Remarks
 
-This property is only meaningful when the value of the **PR_SCHDINFO_AUTO_ACCEPT_APPTS** ( [PidTagScheduleInfoAutoAcceptAppointments](pidtagscheduleinfoautoacceptappointments-canonical-property.md)) property is TRUE. A value of TRUE indicates that when automatically responding to meeting requests, a client or server must decline instances that overlap previously scheduled events. A value of FALSE or the absence of this property indicates that overlapping instances must be accepted. This is not a required property.
+This property is only meaningful when the value of the **PR_SCHDINFO_AUTO_ACCEPT_APPTS** ([PidTagScheduleInfoAutoAcceptAppointments](pidtagscheduleinfoautoacceptappointments-canonical-property.md)) property is TRUE. A value of TRUE indicates that when automatically responding to meeting requests, a client or server must decline instances that overlap previously scheduled events. A value of FALSE or the absence of this property indicates that overlapping instances must be accepted. This is not a required property.
   
 ## Related Resources
 

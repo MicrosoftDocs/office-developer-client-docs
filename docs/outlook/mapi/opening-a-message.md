@@ -26,7 +26,7 @@ description: "Last modified: July 23, 2011"
     
   - The **lpEntryID** member of the [NEWMAIL_NOTIFICATION](newmail_notification.md) structure that is sent with a new mail notification. For more information about receiving and handling notifications, see [Handling Notifications](handling-notifications.md).
     
-  - A call to the message's [IMAPIProp::GetProps](imapiprop-getprops.md) method requesting the **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)) property. 
+  - A call to the message's [IMAPIProp::GetProps](imapiprop-getprops.md) method requesting the **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) property. 
     
 2. Call one of the following **OpenEntry** methods to open the message, setting  _lpEntryID_ to the message's entry identifier: 
     

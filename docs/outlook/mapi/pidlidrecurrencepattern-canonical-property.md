@@ -34,7 +34,7 @@ Specifies a description of the recurrence pattern of the calendar object.
    
 ## Remarks
 
-If this property is set, it must be set to a description of the recurrence that is specified by the **dispidApptRecur** ( [PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)) property.
+If this property is set, it must be set to a description of the recurrence that is specified by the **dispidApptRecur** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)) property.
   
 ## Related Resources
 

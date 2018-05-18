@@ -33,7 +33,7 @@ Contains a 32-bit bitmask of flags that define folder status.
    
 ## Remarks
 
-This property for folders is analogous to the **PR_MSG_STATUS** ( [PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) property for messages. Its flags are provided for the client application only and do not affect the message store. Clients can use or ignore these settings. The client can also define its own values for the client-definable bits of this property.
+This property for folders is analogous to the **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) property for messages. Its flags are provided for the client application only and do not affect the message store. Clients can use or ignore these settings. The client can also define its own values for the client-definable bits of this property.
   
 One or more of the following flags can be set for the bitmask:
   

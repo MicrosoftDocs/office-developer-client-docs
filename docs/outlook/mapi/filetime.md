@@ -28,7 +28,7 @@ Holds an unsigned 64-bit date and time value for a file. This value represents t
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _FILETIME
 {
   DWORD dwLowDateTime;

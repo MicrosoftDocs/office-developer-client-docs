@@ -29,7 +29,7 @@ Computes the number of bytes in an existing [SRowSet](srowset.md) structure.
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**SRowSet** <br/> |
    
-```
+```cpp
 CbSRowSet (_lprowset)
 ```
 

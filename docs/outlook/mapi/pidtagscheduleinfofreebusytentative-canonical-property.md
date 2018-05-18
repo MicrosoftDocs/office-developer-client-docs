@@ -33,7 +33,7 @@ Contains the blocks of times for which the free/busy status is tentative.
    
 ## Remarks
 
-This property has as many values as the number of values in **PR_SCHDINFO_MONTHS_TENTATIVE** ( [PidTagScheduleInfoMonthsTentative](pidtagscheduleinfomonthstentative-canonical-property.md)). Each binary value represents a month and corresponds to the value at the same index in **PR_SCHDINFO_MONTHS_TENTATIVE**. The binary values are sorted in the same order as the values in **PR_SCHDINFO_MONTHS_TENTATIVE**.
+This property has as many values as the number of values in **PR_SCHDINFO_MONTHS_TENTATIVE** ([PidTagScheduleInfoMonthsTentative](pidtagscheduleinfomonthstentative-canonical-property.md)). Each binary value represents a month and corresponds to the value at the same index in **PR_SCHDINFO_MONTHS_TENTATIVE**. The binary values are sorted in the same order as the values in **PR_SCHDINFO_MONTHS_TENTATIVE**.
   
 Each binary value has one or more 4-BYTE blocks and each of them contains the start time in the first two bytes and end time in the second two bytes in little-endian format. The start time is the number of minutes between midnight Coordinated Universal Time (UTC) of the first day of the month and the start time of the event in UTC. The end time is the number of minutes between midnight UTC of the first day of the month and the end time of the event in UTC. The 4-BYTE blocks are sorted in ascending order.
   

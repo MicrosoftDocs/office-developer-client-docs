@@ -33,7 +33,7 @@ Contains TRUE if the sender of a message requests the correlation feature of the
    
 ## Remarks
 
-This property is used to request the correlation of incoming reports with the original sent message. When a transport provider encounters a submitted message with **PR_CORRELATE** set to TRUE, it sets the **PR_CORRELATE_MTSID** ( [PidTagCorrelateMtsid](pidtagcorrelatemtsid-canonical-property.md)) property to the message transfer system (MTS) identifier for that message.
+This property is used to request the correlation of incoming reports with the original sent message. When a transport provider encounters a submitted message with **PR_CORRELATE** set to TRUE, it sets the **PR_CORRELATE_MTSID** ([PidTagCorrelateMtsid](pidtagcorrelatemtsid-canonical-property.md)) property to the message transfer system (MTS) identifier for that message.
   
  **PR_CORRELATE** should be used with messaging systems that support correlation by MTS identifier, such as X.400. 
   

@@ -33,7 +33,7 @@ Contains a binary value that indicates the relative position of this message wit
    
 ## Remarks
 
-A conversation thread represents a series of messages and replies. This property is usually implemented using concatenated time stamp values. Its use is optional, even if **PR_CONVERSATION_TOPIC** ( [PidTagConversationTopic](pidtagconversationtopic-canonical-property.md)) is set. 
+A conversation thread represents a series of messages and replies. This property is usually implemented using concatenated time stamp values. Its use is optional, even if **PR_CONVERSATION_TOPIC** ([PidTagConversationTopic](pidtagconversationtopic-canonical-property.md)) is set. 
   
 MAPI provides the [ScCreateConversationIndex](sccreateconversationindex.md) function to create or update a conversation index. The function takes the current index value as a counted byte array and returns the index value with a time stamp concatenated onto the end. A message representing a reply to another message should use **ScCreateConversationIndex** to update this property. 
   

@@ -33,7 +33,7 @@ Contains a binary tag value that the messaging system should copy to any report 
    
 ## Remarks
 
-This property, like the **PR_SUBJECT_IPM** ( [PidTagSubjectMessageId](pidtagsubjectmessageid-canonical-property.md)) property, is used to correlate a report with the original message. 
+This property, like the **PR_SUBJECT_IPM** ([PidTagSubjectMessageId](pidtagsubjectmessageid-canonical-property.md)) property, is used to correlate a report with the original message. 
   
 ## Related Resources
 

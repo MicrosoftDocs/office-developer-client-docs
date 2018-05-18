@@ -28,7 +28,7 @@ Contains a list of flags used to indicate the status of address entries during t
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct
 {
   ULONG cFlags;

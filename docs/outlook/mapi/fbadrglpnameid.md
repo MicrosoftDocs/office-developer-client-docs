@@ -30,7 +30,7 @@ Validates an array of structures that describe named properties and verifies the
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Service providers  <br/> |
    
-```
+```cpp
 BOOL FBadRglpNameID(
   LPMAPINAMEID FAR * lppNameId,
   ULONG cNames

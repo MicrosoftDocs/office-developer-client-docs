@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Specifies the value of the CalendarType field from the **dispidApptRecur** ( [PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)) property.
+Specifies the value of the CalendarType field from the **dispidApptRecur** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)) property.
   
 |||
 |:-----|:-----|

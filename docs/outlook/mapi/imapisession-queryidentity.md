@@ -57,13 +57,13 @@ The **IMAPISession::QueryIdentity** method retrieves the primary identity for th
   
 Although many service providers in multiple message services can provide the primary identity for a session, MAPI designates a single service provider. The service provider that supplies the primary identity sets the following items:
   
-- The STATUS_PRIMARY_IDENTITY flag in the **PR_RESOURCE_FLAGS** ( [PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) property.
+- The STATUS_PRIMARY_IDENTITY flag in the **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) property.
     
-- The **PR_IDENTITY_DISPLAY** ( [PidTagIdentityDisplay](pidtagidentitydisplay-canonical-property.md)) property.
+- The **PR_IDENTITY_DISPLAY** ([PidTagIdentityDisplay](pidtagidentitydisplay-canonical-property.md)) property.
     
-- The **PR_IDENTITY_ENTRYID** ( [PidTagIdentityEntryId](pidtagidentityentryid-canonical-property.md)) property.
+- The **PR_IDENTITY_ENTRYID** ([PidTagIdentityEntryId](pidtagidentityentryid-canonical-property.md)) property.
     
-- The **PR_IDENTITY_SEARCH_KEY** ( [PidTagIdentitySearchKey](pidtagidentitysearchkey-canonical-property.md)) property.
+- The **PR_IDENTITY_SEARCH_KEY** ([PidTagIdentitySearchKey](pidtagidentitysearchkey-canonical-property.md)) property.
     
 If the service provider that supplies the primary identity belongs to a message service, the other service providers in the message service also set the PR_IDENTITY properties. These properties are published in the session's status table. 
   

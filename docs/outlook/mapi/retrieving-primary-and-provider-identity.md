@@ -20,21 +20,21 @@ description: "Last modified: July 23, 2011"
   
 Service providers, typically address book providers, have the option of supplying an identity that can be used to represent the session in a variety of situations. Three properties describe a provider's identity:
   
-- **PR_IDENTITY_ENTRYID** ( [PidTagIdentityEntryId](pidtagidentityentryid-canonical-property.md)) 
+- **PR_IDENTITY_ENTRYID** ([PidTagIdentityEntryId](pidtagidentityentryid-canonical-property.md)) 
     
-- **PR_IDENTITY_DISPLAY** ( [PidTagIdentityDisplay](pidtagidentitydisplay-canonical-property.md)) 
+- **PR_IDENTITY_DISPLAY** ([PidTagIdentityDisplay](pidtagidentitydisplay-canonical-property.md)) 
     
-- **PR_IDENTITY_SEARCH_KEY** ( [PidTagIdentitySearchKey](pidtagidentitysearchkey-canonical-property.md)) 
+- **PR_IDENTITY_SEARCH_KEY** ([PidTagIdentitySearchKey](pidtagidentitysearchkey-canonical-property.md)) 
     
-These properties are set to the entry identifier, display name, and search key of the corresponding identity object, which is typically a messaging user. Providers that supply an identity also set the STATUS_PRIMARY_IDENTITY flag in their **PR_RESOURCE_FLAGS** ( [PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) property.
+These properties are set to the entry identifier, display name, and search key of the corresponding identity object, which is typically a messaging user. Providers that supply an identity also set the STATUS_PRIMARY_IDENTITY flag in their **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) property.
   
-Depending on your needs, you might use a particular provider's identity or the primary identity for the session. You can use a provider's identity also for display purposes or to retrieve properties, such as **PR_RESOURCE_PATH** ( [PidTagResourcePath](pidtagresourcepath-canonical-property.md)). **PR_RESOURCE_PATH**, if set, contains the path to files used or created by the provider. Retrieve the **PR_RESOURCE_PATH** property for the provider supplying the primary identity when you want to locate files that pertain to the user of the session. 
+Depending on your needs, you might use a particular provider's identity or the primary identity for the session. You can use a provider's identity also for display purposes or to retrieve properties, such as **PR_RESOURCE_PATH** ([PidTagResourcePath](pidtagresourcepath-canonical-property.md)). **PR_RESOURCE_PATH**, if set, contains the path to files used or created by the provider. Retrieve the **PR_RESOURCE_PATH** property for the provider supplying the primary identity when you want to locate files that pertain to the user of the session. 
   
  **To retrieve the identity of a specific provider**
   
 1. Call [IMAPISession::GetStatusTable](imapisession-getstatustable.md) to access the status table. 
     
-2. Build a restriction using an [SPropertyRestriction](spropertyrestriction.md) structure to match the **PR_PROVIDER_DLL_NAME** ( [PidTagProviderDllName](pidtagproviderdllname-canonical-property.md)) column with the name of the specified provider. 
+2. Build a restriction using an [SPropertyRestriction](spropertyrestriction.md) structure to match the **PR_PROVIDER_DLL_NAME** ([PidTagProviderDllName](pidtagproviderdllname-canonical-property.md)) column with the name of the specified provider. 
     
 3. Call [IMAPITable::FindRow](imapitable-findrow.md) to locate the provider's row. The provider's identity will be stored in the **PR_IDENTITY_ENTRYID** column, if it exists. 
     

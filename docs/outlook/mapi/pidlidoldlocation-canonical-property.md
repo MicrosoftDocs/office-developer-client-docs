@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Indicates the original value of the **dispidLocation** ( [PidLidLocation](pidlidlocation-canonical-property.md)) property before a meeting update.
+Indicates the original value of the **dispidLocation** ([PidLidLocation](pidlidlocation-canonical-property.md)) property before a meeting update.
   
 |||
 |:-----|:-----|

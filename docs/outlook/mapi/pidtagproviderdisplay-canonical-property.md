@@ -33,7 +33,7 @@ Contains the vendor-defined display name for a service provider.
    
 ## Remarks
 
-These properties and **PR_PROVIDER_DLL_NAME** ( [PidTagProviderDllName](pidtagproviderdllname-canonical-property.md)) are defined only on profile sections belonging to service providers. They must be present in MAPISVC.INF.
+These properties and **PR_PROVIDER_DLL_NAME** ([PidTagProviderDllName](pidtagproviderdllname-canonical-property.md)) are defined only on profile sections belonging to service providers. They must be present in MAPISVC.INF.
   
 ## Related Resources
 

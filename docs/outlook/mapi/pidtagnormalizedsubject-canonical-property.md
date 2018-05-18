@@ -33,7 +33,7 @@ Contains the message subject with any prefix removed.
    
 ## Remarks
 
-These properties are computed by message store or transport providers from the **PR_SUBJECT** ( [PidTagSubject](pidtagsubject-canonical-property.md)) and **PR_SUBJECT_PREFIX** ( [PidTagSubjectPrefix](pidtagsubjectprefix-canonical-property.md)) properties in the following manner.
+These properties are computed by message store or transport providers from the **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) and **PR_SUBJECT_PREFIX** ([PidTagSubjectPrefix](pidtagsubjectprefix-canonical-property.md)) properties in the following manner.
   
 - If the **PR_SUBJECT_PREFIX** is present and is an initial substring of **PR_SUBJECT**, **PR_NORMALIZED_SUBJECT** and associated properties are set to the contents of **PR_SUBJECT** with the prefix removed. 
     

@@ -20,9 +20,9 @@ description: "Last modified: July 23, 2011"
   
 In any particular session, one message store acts as the default message store. A default message store has the following characteristics:
   
-- The **PR_DEFAULT_STORE** ( [PidTagDefaultStore](pidtagdefaultstore-canonical-property.md)) property is set to TRUE.
+- The **PR_DEFAULT_STORE** ([PidTagDefaultStore](pidtagdefaultstore-canonical-property.md)) property is set to TRUE.
     
-- The STATUS_DEFAULT_STORE flag is set in the **PR_RESOURCE_FLAGS** ( [PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) property.
+- The STATUS_DEFAULT_STORE flag is set in the **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) property.
     
 - MAPI automatically creates the IPM subtree and the root folders for search-results, common views and personal views when the message store is opened. For more information about these folders, see [IPM Subtree](ipm-subtree.md) and [MAPI Special Folders](mapi-special-folders.md). 
     

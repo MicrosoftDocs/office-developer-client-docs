@@ -33,7 +33,7 @@ Contains the type of an entry, with respect to how the entry should be displayed
    
 ## Remarks
 
-This property specifies the type of an entry, with respect to how it should be displayed in the Global Address List. It provides additional information that cannot be represented in **PR_DISPLAY_TYPE** ( [PidTagDisplayType](pidtagdisplaytype-canonical-property.md)).
+This property specifies the type of an entry, with respect to how it should be displayed in the Global Address List. It provides additional information that cannot be represented in **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)).
   
 > [!NOTE]
 > The values of both **PR_DISPLAY_TYPE** and this property begin with "DT_" and are defined in Mapitags.h. All values not documented are reserved for MAPI. Client applications must not define any new values and must be prepared to deal with an undocumented value. 

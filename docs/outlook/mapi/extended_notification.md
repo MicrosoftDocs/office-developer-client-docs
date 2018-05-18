@@ -28,7 +28,7 @@ Describes information that relates to an event that is service provider-specific
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _EXTENDED_NOTIFICATION
 {
   ULONG ulEvent;

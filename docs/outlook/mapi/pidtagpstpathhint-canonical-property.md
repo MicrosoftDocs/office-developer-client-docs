@@ -31,7 +31,7 @@ Provides the personal storage table (.pst file) name, which the user can edit, f
    
 ## Remarks
 
-If the **PR_PST_PATH** ( [PidTagPstPath](pidtagpstpath-canonical-property.md)) property is used instead, the configuration dialog box will open, but the user will not be allowed to edit the path and many other properties.
+If the **PR_PST_PATH** ([PidTagPstPath](pidtagpstpath-canonical-property.md)) property is used instead, the configuration dialog box will open, but the user will not be allowed to edit the path and many other properties.
   
 ## Related Resources
 

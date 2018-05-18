@@ -33,7 +33,7 @@ Contains a host map of available forms.
    
 ## Remarks
 
-A client application should update this property, along with the **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property, when changing the underlying structure in the **IMAPIFormProp** interface. 
+A client application should update this property, along with the **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property, when changing the underlying structure in the **IMAPIFormProp** interface. 
   
 ## Related Resources
 

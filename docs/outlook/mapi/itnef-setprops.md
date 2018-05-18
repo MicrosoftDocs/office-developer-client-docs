@@ -45,7 +45,7 @@ TNEF_PROP_CONTAINED
     
  _ulElemID_
   
-> [in] An attachment's **PR_ATTACH_NUM** ( [PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) property, which contains a number that uniquely identifies the attachment in its parent message.
+> [in] An attachment's **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) property, which contains a number that uniquely identifies the attachment in its parent message.
     
  _cValues_
   

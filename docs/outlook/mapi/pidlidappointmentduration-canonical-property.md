@@ -34,7 +34,7 @@ Represents the length of time, in minutes, when an appointment is scheduled.
    
 ## Remarks
 
-The value must be the number of minutes between the value of the **dispidApptStartWhole** ( [PidLidAppointmentStartWhole](pidlidappointmentstartwhole-canonical-property.md)) and the **dispidApptEndWhole** ( [PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)) properties.
+The value must be the number of minutes between the value of the **dispidApptStartWhole** ([PidLidAppointmentStartWhole](pidlidappointmentstartwhole-canonical-property.md)) and the **dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)) properties.
   
 ## Related Resources
 

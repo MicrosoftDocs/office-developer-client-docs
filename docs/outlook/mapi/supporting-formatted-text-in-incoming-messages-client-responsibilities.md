@@ -20,11 +20,11 @@ description: "Last modified: July 23, 2011"
   
 As messages are transferred between messaging systems, the MAPI spooler makes sure that the rich text formatting remains synchronized with the message text. The MAPI spooler calls the [RTFSync](rtfsync.md) function from within a wrapped version of the message that it passes to the transport provider. The transport provider saves the changes made to the message by calling the [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method and then routes it to the new recipient. 
   
-When the recipient's RTF-aware client application opens the message to display the text, it must synchronize the text with the formatting and open either **PR_RTF_COMPRESSED** ( [PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) or **PR_BODY** ( [PidTagBody](pidtagbody-canonical-property.md)), depending on which property is available.
+When the recipient's RTF-aware client application opens the message to display the text, it must synchronize the text with the formatting and open either **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) or **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), depending on which property is available.
   
  **To open a message, RTF-aware clients**
   
-1. Call **RTFSync** to synchronize the message text with the formatting if the message store is not RTF-aware. The RTF_SYNC_BODY_CHANGED flag should be passed in the  _ulFlags_ parameter if the **PR_RTF_IN_SYNC** ( [PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)) property is missing or set to FALSE. Clients working with RTF-aware message stores need not make the **RTFSync** call because the message store takes care of it. 
+1. Call **RTFSync** to synchronize the message text with the formatting if the message store is not RTF-aware. The RTF_SYNC_BODY_CHANGED flag should be passed in the  _ulFlags_ parameter if the **PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)) property is missing or set to FALSE. Clients working with RTF-aware message stores need not make the **RTFSync** call because the message store takes care of it. 
     
 2. Call [IMAPIProp::SaveChanges](imapiprop-savechanges.md) if the message text has been updated. 
     

@@ -28,7 +28,7 @@ Contains a signed 64-bit integer representing a currency value.
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct tagCY
 {
   unsigned long Lo;

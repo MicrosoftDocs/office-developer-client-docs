@@ -49,7 +49,7 @@ MAPI_DEFERRED_ERRORS
     
  _lpulAttachmentNum_
   
-> [out] Pointer to an index number identifying the newly created attachment. This number is valid only when the message is open and is the basis for the attachment's **PR_ATTACH_NUM** ( [PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) property.
+> [out] Pointer to an index number identifying the newly created attachment. This number is valid only when the message is open and is the basis for the attachment's **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) property.
     
  _lppAttach_
   

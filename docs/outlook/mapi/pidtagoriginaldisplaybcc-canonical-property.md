@@ -33,7 +33,7 @@ Contains the display names of any blind carbon copy (BCC) recipients of the orig
    
 ## Remarks
 
-These properties contain a list separated by semicolons. They is furnished by MAPI and are copied directly from **PR_DISPLAY_BCC** ( [PidTagDisplayBcc](pidtagdisplaybcc-canonical-property.md)) when a delivery or nondelivery report or a read or nonread report is generated. These properties may be present on other messages as defined by their message classes.
+These properties contain a list separated by semicolons. They is furnished by MAPI and are copied directly from **PR_DISPLAY_BCC** ([PidTagDisplayBcc](pidtagdisplaybcc-canonical-property.md)) when a delivery or nondelivery report or a read or nonread report is generated. These properties may be present on other messages as defined by their message classes.
   
 ## Related Resources
 

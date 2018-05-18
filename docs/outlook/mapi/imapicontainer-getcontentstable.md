@@ -87,7 +87,7 @@ It is possible for some containers to have no contents. These containers return 
 
 If you support a contents table for your container, you must also do the following:
   
-- Support calls to the container's [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method to open the **PR_CONTAINER_CONTENTS** ( [PidTagContainerContents](pidtagcontainercontents-canonical-property.md)) property.
+- Support calls to the container's [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method to open the **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)) property.
     
 - Return **PR_CONTAINER_CONTENTS** in response to a call to the container's 
     
@@ -95,41 +95,41 @@ If you support a contents table for your container, you must also do the followi
     
 A remote transport provider's implementation of this method must return a pointer to an [IMAPITable : IUnknown](imapitableiunknown.md) interface in the  _ppTable_ parameter passed into the **GetContentsTable** method. If your transport provider has an existing contents table, it is sufficient to return a pointer to it. If not, this method must create a new [IMAPITable : IUnknown](imapitableiunknown.md) object, populate the table with message headers (if any are available), and return a pointer to the new table. The [ITableData::HrGetView](itabledata-hrgetview.md) method is useful for generating a return value and storing the table pointer in the  _ppTable_ parameter. The contents table must support at least the following property columns: 
   
-- **PR_ENTRYID** ( [PidTagEntryID](pidtagentryid-canonical-property.md))
+- **PR_ENTRYID** ([PidTagEntryID](pidtagentryid-canonical-property.md))
     
-- **PR_SENDER_NAME** ( [PidTagSenderName](pidtagsendername-canonical-property.md))
+- **PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md))
     
-- **PR_SENT_REPRESENTING_NAME** ( [PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md))
+- **PR_SENT_REPRESENTING_NAME** ([PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md))
     
-- **PR_DISPLAY_TO** ( [PidTagDisplayTo](pidtagdisplayto-canonical-property.md))
+- **PR_DISPLAY_TO** ([PidTagDisplayTo](pidtagdisplayto-canonical-property.md))
     
-- **PR_SUBJECT** ( [PidTagSubject](pidtagsubject-canonical-property.md))
+- **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md))
     
-- **PR_MESSAGE_CLASS** ( [PidTagMessageClass](pidtagmessageclass-canonical-property.md))
+- **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md))
     
-- **PR_MESSAGE_FLAGS** ( [PidTagMessageFlags](pidtagmessageflags-canonical-property.md))
+- **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md))
     
-- **PR_MESSAGE_SIZE** ( [PidTagMessageSize](pidtagmessagesize-canonical-property.md))
+- **PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md))
     
-- **PR_PRIORITY** ( [PidTagPriority](pidtagpriority-canonical-property.md))
+- **PR_PRIORITY** ([PidTagPriority](pidtagpriority-canonical-property.md))
     
-- **PR_IMPORTANCE** ( [PidTagImportance](pidtagimportance-canonical-property.md))
+- **PR_IMPORTANCE** ([PidTagImportance](pidtagimportance-canonical-property.md))
     
-- **PR_SENSITIVITY** ( [PidTagSensitivity](pidtagsensitivity-canonical-property.md))
+- **PR_SENSITIVITY** ([PidTagSensitivity](pidtagsensitivity-canonical-property.md))
     
-- **PR_MESSAGE_DELIVERY_TIME** ( [PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md))
+- **PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md))
     
-- **PR_MSG_STATUS** ( [PidTagMessageStatus](pidtagmessagestatus-canonical-property.md))
+- **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md))
     
-- **PR_MESSAGE_DOWNLOAD_TIME** ( [PidTagMessageDownloadTime](pidtagmessagedownloadtime-canonical-property.md))
+- **PR_MESSAGE_DOWNLOAD_TIME** ([PidTagMessageDownloadTime](pidtagmessagedownloadtime-canonical-property.md))
     
-- **PR_HASATTACH** ( [PidTagHasAttachments](pidtaghasattachments-canonical-property.md))
+- **PR_HASATTACH** ([PidTagHasAttachments](pidtaghasattachments-canonical-property.md))
     
-- **PR_OBJECT_TYPE** ( [PidTagObjectType](pidtagobjecttype-canonical-property.md))
+- **PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))
     
-- **PR_INSTANCE_KEY** ( [PidTagInstanceKey](pidtaginstancekey-canonical-property.md))
+- **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md))
     
-- **PR_NORMALIZED_SUBJECT** ( [PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md))
+- **PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md))
     
 ## Notes to Callers
 

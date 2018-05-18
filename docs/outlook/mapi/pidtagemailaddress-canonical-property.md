@@ -35,7 +35,7 @@ Contains the messaging user's e-mail address.
 
 These properties are examples of the base address properties for all messaging users. It is a null-terminated string whose format has meaning only for the underlying messaging system. 
   
-These properties are used in conjunction with the **PR_ADDRTYPE** ( [PidTagAddressType](pidtagaddresstype-canonical-property.md)) and **PR_MESSAGE_CLASS** ( [PidTagMessageClass](pidtagmessageclass-canonical-property.md)) properties in addressing messages. The string format is qualified by **PR_ADDRTYPE**. 
+These properties are used in conjunction with the **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) and **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) properties in addressing messages. The string format is qualified by **PR_ADDRTYPE**. 
   
 Valid values for this property include: 
   

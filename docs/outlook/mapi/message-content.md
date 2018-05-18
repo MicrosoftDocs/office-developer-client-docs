@@ -18,7 +18,7 @@ description: "Last modified: July 23, 2011"
   
 **Applies to**: Outlook 
   
-There are two possible encodings for the message content: one using MIME, the other using uuencode. MIME is the preferred encoding. In addition, MAPI defines a per-recipient property, **PR_SEND_RICH_INFO** ( [PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)), which governs whether or not TNEF information should be included in an outgoing message. So there are a total of four ways of encoding message content:
+There are two possible encodings for the message content: one using MIME, the other using uuencode. MIME is the preferred encoding. In addition, MAPI defines a per-recipient property, **PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)), which governs whether or not TNEF information should be included in an outgoing message. So there are a total of four ways of encoding message content:
   
 - MIME with TNEF
     

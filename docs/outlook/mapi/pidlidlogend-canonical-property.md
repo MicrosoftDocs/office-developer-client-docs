@@ -34,7 +34,7 @@ Represents the end date and time for the journal message.
    
 ## Remarks
 
-The time when the activity ended in Coordinated Universal Time The (UTC), which must be equal to the **dispidCommonEnd** ( [PidLidCommonEnd](pidlidcommonend-canonical-property.md)) property and greater than or equal to **dispidLogStart** ( [PidLidLogStart](pidlidlogstart-canonical-property.md)) property.
+The time when the activity ended in Coordinated Universal Time The (UTC), which must be equal to the **dispidCommonEnd** ([PidLidCommonEnd](pidlidcommonend-canonical-property.md)) property and greater than or equal to **dispidLogStart** ([PidLidLogStart](pidlidlogstart-canonical-property.md)) property.
   
 ## Related Resources
 

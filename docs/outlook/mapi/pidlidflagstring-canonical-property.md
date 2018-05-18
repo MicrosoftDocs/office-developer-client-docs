@@ -34,7 +34,7 @@ Contains an index that identifies one of a set of pre-defined text strings assoc
    
 ## Remarks
 
-If this property is set, clients should use the corresponding string value in the tables below (for example, to substitute a string that is translated into the current user's language), and should ignore the value set in **dispidFlagRequest** ( [PidLidFlagRequest](pidlidflagrequest-canonical-property.md)) and **dispidValidFlagStringProof** ( [PidLidValidFlagStringProof](pidlidvalidflagstringproof-canonical-property.md)). 
+If this property is set, clients should use the corresponding string value in the tables below (for example, to substitute a string that is translated into the current user's language), and should ignore the value set in **dispidFlagRequest** ([PidLidFlagRequest](pidlidflagrequest-canonical-property.md)) and **dispidValidFlagStringProof** ([PidLidValidFlagStringProof](pidlidvalidflagstringproof-canonical-property.md)). 
   
 Defaults suggested to the user for contact objects are as follows:
   

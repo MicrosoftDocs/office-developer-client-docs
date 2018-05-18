@@ -29,7 +29,7 @@ Describes a group box control that will be used in a dialog box built from a dis
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related macro:  <br/> |[SizedDtblGroupBox](sizeddtblgroupbox.md) <br/> |
    
-```
+```cpp
 typedef struct _DTBLGROUPBOX
 {
   ULONG ulbLpszLabel;

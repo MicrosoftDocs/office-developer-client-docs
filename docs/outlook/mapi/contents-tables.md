@@ -34,7 +34,7 @@ A contents table can be accessed by calling:
     
     - Or -
     
-- [IMAPIProp::OpenProperty](imapiprop-openproperty.md) with **PR_CONTAINER_CONTENTS** ( [PidTagContainerContents](pidtagcontainercontents-canonical-property.md)) or **PR_FOLDER_ASSOCIATED_CONTENTS** ( [PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)) (folders only) specified as the property tag and IID_IMAPITable as the interface identifier.
+- [IMAPIProp::OpenProperty](imapiprop-openproperty.md) with **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)) or **PR_FOLDER_ASSOCIATED_CONTENTS** ([PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)) (folders only) specified as the property tag and IID_IMAPITable as the interface identifier.
     
 Message store and address book providers must support both techniques for retrieving table properties. It is unacceptable for providers to support only one way for accessing these tables because clients expect to have the choice. 
   
@@ -52,27 +52,27 @@ The required columns for each of the types of contents tables are:
   
 |**Required column**|**Type of contents table**|
 |:-----|:-----|
-|**PR_ADDRTYPE** ( [PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Address book container tables  <br/> |
-|**PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Address book container tables  <br/> |
-|**PR_DISPLAY_CC** ( [PidTagDisplayCc](pidtagdisplaycc-canonical-property.md))  <br/> |Message store folder tables  <br/> |
-|**PR_DISPLAY_TO** ( [PidTagDisplayTo](pidtagdisplayto-canonical-property.md))  <br/> |All folder contents tables  <br/> |
-|**PR_DISPLAY_TYPE** ( [PidTagDisplayType](pidtagdisplaytype-canonical-property.md))  <br/> |Address book container tables  <br/> |
-|**PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |All contents tables  <br/> |
-|**PR_HASATTACH** ( [PidTagHasAttachments](pidtaghasattachments-canonical-property.md))  <br/> |All folder contents tables  <br/> |
-|**PR_INSTANCE_KEY** ( [PidTagInstanceKey](pidtaginstancekey-canonical-property.md))  <br/> |All contents tables  <br/> |
-|**PR_LAST_MODIFICATION_TIME** ( [PidTagLastModificationTime](pidtaglastmodificationtime-canonical-property.md))  <br/> |Message store folder tables  <br/> |
-|**PR_MAPPING_SIGNATURE** ( [PidTagMappingSignature](pidtagmappingsignature-canonical-property.md))  <br/> |Message store folder tables  <br/> |
-|**PR_MESSAGE_CLASS** ( [PidTagMessageClass](pidtagmessageclass-canonical-property.md))  <br/> |All folder contents tables  <br/> |
-|**PR_MESSAGE_DOWNLOAD_TIME** ( [PidTagMessageDownloadTime](pidtagmessagedownloadtime-canonical-property.md))  <br/> |Remote transport folder tables  <br/> |
-|**PR_MESSAGE_FLAGS** ( [PidTagMessageFlags](pidtagmessageflags-canonical-property.md))  <br/> |All folder contents tables  <br/> |
-|**PR_MESSAGE_SIZE** ( [PidTagMessageSize](pidtagmessagesize-canonical-property.md))  <br/> |All folder contents tables  <br/> |
-|**PR_MSG_STATUS** ( [PidTagMessageStatus](pidtagmessagestatus-canonical-property.md))  <br/> |All folder contents tables  <br/> |
-|**PR_OBJECT_TYPE** ( [PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |All contents tables  <br/> |
-|**PR_PARENT_ENTRYID** ( [PidTagParentEntryId](pidtagparententryid-canonical-property.md))  <br/> |Message store folder tables  <br/> |
-|**PR_RECORD_KEY** ( [PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |Address book container and message store folder tables  <br/> |
-|**PR_SENT_REPRESENTING_NAME** ( [PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md))  <br/> |Remote transport folder tables  <br/> |
-|**PR_STORE_ENTRYID** ( [PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md))  <br/> |Message store folder tables  <br/> |
-|**PR_STORE_RECORD_KEY** ( [PidTagStoreRecordKey](pidtagstorerecordkey-canonical-property.md))  <br/> |Message store folder tables  <br/> |
+|**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Address book container tables  <br/> |
+|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Address book container tables  <br/> |
+|**PR_DISPLAY_CC** ([PidTagDisplayCc](pidtagdisplaycc-canonical-property.md))  <br/> |Message store folder tables  <br/> |
+|**PR_DISPLAY_TO** ([PidTagDisplayTo](pidtagdisplayto-canonical-property.md))  <br/> |All folder contents tables  <br/> |
+|**PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))  <br/> |Address book container tables  <br/> |
+|**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |All contents tables  <br/> |
+|**PR_HASATTACH** ([PidTagHasAttachments](pidtaghasattachments-canonical-property.md))  <br/> |All folder contents tables  <br/> |
+|**PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md))  <br/> |All contents tables  <br/> |
+|**PR_LAST_MODIFICATION_TIME** ([PidTagLastModificationTime](pidtaglastmodificationtime-canonical-property.md))  <br/> |Message store folder tables  <br/> |
+|**PR_MAPPING_SIGNATURE** ([PidTagMappingSignature](pidtagmappingsignature-canonical-property.md))  <br/> |Message store folder tables  <br/> |
+|**PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md))  <br/> |All folder contents tables  <br/> |
+|**PR_MESSAGE_DOWNLOAD_TIME** ([PidTagMessageDownloadTime](pidtagmessagedownloadtime-canonical-property.md))  <br/> |Remote transport folder tables  <br/> |
+|**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md))  <br/> |All folder contents tables  <br/> |
+|**PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md))  <br/> |All folder contents tables  <br/> |
+|**PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md))  <br/> |All folder contents tables  <br/> |
+|**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |All contents tables  <br/> |
+|**PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md))  <br/> |Message store folder tables  <br/> |
+|**PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |Address book container and message store folder tables  <br/> |
+|**PR_SENT_REPRESENTING_NAME** ([PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md))  <br/> |Remote transport folder tables  <br/> |
+|**PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md))  <br/> |Message store folder tables  <br/> |
+|**PR_STORE_RECORD_KEY** ([PidTagStoreRecordKey](pidtagstorerecordkey-canonical-property.md))  <br/> |Message store folder tables  <br/> |
    
 The entry identifier available with each row can either be a short- or long-term entry identifier, depending on the table implementation. Short-term entry identifiers are typically used in situations where performance is an issue. Either type of entry identifier can be used to access the corresponding object. 
   
@@ -80,23 +80,23 @@ Contents tables also have a set of columns that are optional but commonly includ
   
 |**Optional column**|**Type of contents table**|
 |:-----|:-----|
-|**PR_CLIENT_SUBMIT_TIME** ( [PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md))  <br/> |Message store folder tables  <br/> |
-|**PR_CONTENT_COUNT** ( [PidTagContentCount](pidtagcontentcount-canonical-property.md))  <br/> |Standard folder contents tables  <br/> |
-|**PR_CONTENT_UNREAD** ( [PidTagContentUnreadCount](pidtagcontentunreadcount-canonical-property.md))  <br/> |Standard folder contents tables  <br/> |
-|**PR_CONVERSATION_INDEX** ( [PidTagConversationIndex](pidtagconversationindex-canonical-property.md))  <br/> |Message store folder tables  <br/> |
-|**PR_EMAIL_ADDRESS** ( [PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |Address book container tables  <br/> |
-|**PR_IMPORTANCE** ( [PidTagImportance](pidtagimportance-canonical-property.md))  <br/> |All folder contents tables  <br/> |
-|**PR_MESSAGE_DELIVERY_TIME** ( [PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md))  <br/> |All folder contents tables  <br/> |
-|**PR_NORMALIZED_SUBJECT** ( [PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md))  <br/> |All folder contents tables  <br/> |
-|**PR_PRIORITY** ( [PidTagPriority](pidtagpriority-canonical-property.md))  <br/> |All folder contents tables  <br/> |
-|**PR_SEARCH_KEY** ( [PidTagSearchKey](pidtagsearchkey-canonical-property.md))  <br/> |Address book container tables  <br/> |
-|**PR_SEND_RICH_INFO** ( [PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md))  <br/> |Address book container tables  <br/> |
-|**PR_SENDER_NAME** ( [PidTagSenderName](pidtagsendername-canonical-property.md))  <br/> |All folder contents tables  <br/> |
-|**PR_SENSITIVITY** ( [PidTagSensitivity](pidtagsensitivity-canonical-property.md))  <br/> |All folder contents tables  <br/> |
-|**PR_SUBJECT** ( [PidTagSubject](pidtagsubject-canonical-property.md))  <br/> |All folder contents tables  <br/> |
-|**PR_TRANSMITABLE_DISPLAY_NAME** ( [PidTagTransmittableDisplayName](pidtagtransmittabledisplayname-canonical-property.md))  <br/> |Address book container tables  <br/> |
+|**PR_CLIENT_SUBMIT_TIME** ([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md))  <br/> |Message store folder tables  <br/> |
+|**PR_CONTENT_COUNT** ([PidTagContentCount](pidtagcontentcount-canonical-property.md))  <br/> |Standard folder contents tables  <br/> |
+|**PR_CONTENT_UNREAD** ([PidTagContentUnreadCount](pidtagcontentunreadcount-canonical-property.md))  <br/> |Standard folder contents tables  <br/> |
+|**PR_CONVERSATION_INDEX** ([PidTagConversationIndex](pidtagconversationindex-canonical-property.md))  <br/> |Message store folder tables  <br/> |
+|**PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |Address book container tables  <br/> |
+|**PR_IMPORTANCE** ([PidTagImportance](pidtagimportance-canonical-property.md))  <br/> |All folder contents tables  <br/> |
+|**PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md))  <br/> |All folder contents tables  <br/> |
+|**PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md))  <br/> |All folder contents tables  <br/> |
+|**PR_PRIORITY** ([PidTagPriority](pidtagpriority-canonical-property.md))  <br/> |All folder contents tables  <br/> |
+|**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md))  <br/> |Address book container tables  <br/> |
+|**PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md))  <br/> |Address book container tables  <br/> |
+|**PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md))  <br/> |All folder contents tables  <br/> |
+|**PR_SENSITIVITY** ([PidTagSensitivity](pidtagsensitivity-canonical-property.md))  <br/> |All folder contents tables  <br/> |
+|**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md))  <br/> |All folder contents tables  <br/> |
+|**PR_TRANSMITABLE_DISPLAY_NAME** ([PidTagTransmittableDisplayName](pidtagtransmittabledisplayname-canonical-property.md))  <br/> |Address book container tables  <br/> |
    
-Message store providers must also include **PR_PARENT_DISPLAY** ( [PidTagParentDisplay](pidtagparentdisplay-canonical-property.md)) for search-result folders contents tables only.
+Message store providers must also include **PR_PARENT_DISPLAY** ([PidTagParentDisplay](pidtagparentdisplay-canonical-property.md)) for search-result folders contents tables only.
   
 Named properties may be added to the column set of a folder contents table only if all messages in the folder have the same mapping signature, that is, the same mapping of property names to property identifiers. Folder contents tables should support adding message class specific properties to the column set, if they support the creation of arbitrary messages in the folder.
   

@@ -171,6 +171,6 @@ It is possible for a user to cancel a MSG_SERVICE_UNINSTALL operation. In this c
   
 A function based on the **MSGSERVICEENTRY** prototype returns one of the HRESULT values listed. MAPI forwards this value when responding to a client's call to [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md). 
   
-Message services that export a service entry function must include the **PR_SERVICE_DLL_NAME** ( [PidTagServiceDllName](pidtagservicedllname-canonical-property.md)) and **PR_SERVICE_ENTRY_NAME** ( [PidTagServiceEntryName](pidtagserviceentryname-canonical-property.md)) properties in the message service section of MAPISVC.INF. 
+Message services that export a service entry function must include the **PR_SERVICE_DLL_NAME** ([PidTagServiceDllName](pidtagservicedllname-canonical-property.md)) and **PR_SERVICE_ENTRY_NAME** ([PidTagServiceEntryName](pidtagserviceentryname-canonical-property.md)) properties in the message service section of MAPISVC.INF. 
   
 

@@ -38,11 +38,11 @@ Typical service provider sections include the following entries, all of which ar
   
  **PR_RESOURCE_FLAGS** =  _bitmask_
   
-The **PR_PROVIDER_DLL_NAME** ( [PidTagProviderDllName](pidtagproviderdllname-canonical-property.md)) entry is similar to **PR_SERVICE_DLL_NAME**; it indicates the filename for the DLL that contains the service provider. Message service code may be stored with one of its service providers in the same DLL file or exist as a separate DLL. Note that no suffix is included in the entry regardless of the target platform; MAPI takes care of adding a suffix if necessary. 
+The **PR_PROVIDER_DLL_NAME** ([PidTagProviderDllName](pidtagproviderdllname-canonical-property.md)) entry is similar to **PR_SERVICE_DLL_NAME**; it indicates the filename for the DLL that contains the service provider. Message service code may be stored with one of its service providers in the same DLL file or exist as a separate DLL. Note that no suffix is included in the entry regardless of the target platform; MAPI takes care of adding a suffix if necessary. 
   
- **PR_RESOURCE_TYPE** ( [PidTagResourceType](pidtagresourcetype-canonical-property.md)) entry represents the type of service provider; service providers set it to the appropriate predefined constant. Valid values include MAPI_STORE_PROVIDER, MAPI_TRANSPORT_PROVIDER, and MAPI_AB_PROVIDER.
+ **PR_RESOURCE_TYPE** ([PidTagResourceType](pidtagresourcetype-canonical-property.md)) entry represents the type of service provider; service providers set it to the appropriate predefined constant. Valid values include MAPI_STORE_PROVIDER, MAPI_TRANSPORT_PROVIDER, and MAPI_AB_PROVIDER.
   
-Another property entry that applies to both message services and service providers, the **PR_RESOURCE_FLAGS** ( [PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) entry indicates options. The settings for this property entry can differ depending on the service provider. For example, some message store providers might set **PR_RESOURCE_FLAGS** to STATUS_NO_DEFAULT_STORE if they can never operate as the default message store. 
+Another property entry that applies to both message services and service providers, the **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) entry indicates options. The settings for this property entry can differ depending on the service provider. For example, some message store providers might set **PR_RESOURCE_FLAGS** to STATUS_NO_DEFAULT_STORE if they can never operate as the default message store. 
   
 Three examples of service provider sections follow. The **[AB Provider]** section is the service provider section for the Default Address Book service. The **[MsgService Prov1]** and **[MsgService Prov2]** sections belong to My Own Service; the first is an address-book provider section and the second is a message-store provider section. 
   

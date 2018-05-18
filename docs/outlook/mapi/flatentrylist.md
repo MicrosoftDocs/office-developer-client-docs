@@ -29,7 +29,7 @@ Contains an array of [FLATENTRY](flatentry.md) structures.
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related macros:  <br/> |[CbFLATENTRYLIST](cbflatentrylist.md), [CbNewFLATENTRYLIST](cbnewflatentrylist.md) <br/> |
    
-```
+```cpp
 typedef struct
 {
   ULONG cEntries;

@@ -29,7 +29,7 @@ Contains information about a check box that will be used in a dialog box built f
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related macro:  <br/> |[SizedDtblCheckBox](sizeddtblcheckbox.md) <br/> |
    
-```
+```cpp
 typedef struct _DTBLCHECKBOX
 {
   ULONG ulbLpszLabel;
@@ -63,9 +63,9 @@ A **DTBLCHECKBOX** structure describes a check box a control that reflects one o
   
 The **ulPRPropertyName** member describes a Boolean property whose value is manipulated by changing the state of the check box. When the check box is first displayed, MAPI calls the **GetProps** method of the **IMAPIProp** implementation that is associated with the display table to retrieve a set of default properties. If one of the properties maps to the property tag in the **DTBLCHECKBOX** structure, the value for that property is displayed as the check box's initial value. 
   
-Check box controls can be modifiable. This allows a user to change their states. Modifiable check boxes set the DT_EDITABLE flag in the **ulCtlFlags** member of their [DTCTL](dtctl.md) structure and in their **PR_CONTROL_FLAGS** ( [PidTagControlFlags](pidtagcontrolflags-canonical-property.md)) property. When a check box changes its state, MAPI calls [IMAPIProp::SetProps](imapiprop-setprops.md) to set the property identified in the property tag member of the **DTBLCHECKBOX** structure to the new state. 
+Check box controls can be modifiable. This allows a user to change their states. Modifiable check boxes set the DT_EDITABLE flag in the **ulCtlFlags** member of their [DTCTL](dtctl.md) structure and in their **PR_CONTROL_FLAGS** ([PidTagControlFlags](pidtagcontrolflags-canonical-property.md)) property. When a check box changes its state, MAPI calls [IMAPIProp::SetProps](imapiprop-setprops.md) to set the property identified in the property tag member of the **DTBLCHECKBOX** structure to the new state. 
   
-For example, an address book provider might include a modifiable check box control in its configuration dialog box to adjust the setting of a recipient's **PR_SEND_RICH_INFO** ( [PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)) property. When the user selects the check box, MAPI sets this property to TRUE. When the check box is unselected, the property is set to FALSE.
+For example, an address book provider might include a modifiable check box control in its configuration dialog box to adjust the setting of a recipient's **PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)) property. When the user selects the check box, MAPI sets this property to TRUE. When the check box is unselected, the property is set to FALSE.
   
 For an overview of display tables, see [Display Tables](display-tables.md). For information about how to implement a display table, see [Implementing a Display Table](display-table-implementation.md). For information about property types, see [MAPI Property Type Overview](mapi-property-type-overview.md).
   

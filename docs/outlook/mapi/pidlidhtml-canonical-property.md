@@ -34,7 +34,7 @@ Specifies the contact's business Web page URL.
    
 ## Remarks
 
-The value of this property, if present, should be the same as the value of the **PR_BUSINESS_HOME_PAGE** ( [PidTagBusinessHomePage](pidtagbusinesshomepage-canonical-property.md)) property.
+The value of this property, if present, should be the same as the value of the **PR_BUSINESS_HOME_PAGE** ([PidTagBusinessHomePage](pidtagbusinesshomepage-canonical-property.md)) property.
   
 ## Related Resources
 

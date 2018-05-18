@@ -34,7 +34,7 @@ description: "Last modified: March 09, 2015"
    
 ## Remarks
 
-If the task has not been assigned, this property is left unset. Because the client sets this property after the task assignee receives a task request, the property will not be set on the task assigner's copy of the task. When the client adds or removes a task assigner from the task assigner list in the **dispidTaskMyDelegators** ( [PidLidTaskAssigners](pidlidtaskassigners-canonical-property.md)) property, the **dispidTaskDelegator** ( [PidLidTaskAssigner](pidlidtaskassigner-canonical-property.md)) property must be set to the added or removed task assigner.
+If the task has not been assigned, this property is left unset. Because the client sets this property after the task assignee receives a task request, the property will not be set on the task assigner's copy of the task. When the client adds or removes a task assigner from the task assigner list in the **dispidTaskMyDelegators** ([PidLidTaskAssigners](pidlidtaskassigners-canonical-property.md)) property, the **dispidTaskDelegator** ([PidLidTaskAssigner](pidlidtaskassigner-canonical-property.md)) property must be set to the added or removed task assigner.
   
 ## Related Resources
 

@@ -30,7 +30,7 @@ Changes some or all of the characteristics of a [FNIDLE](fnidle.md) based idle r
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 VOID ChangeIdleRoutine(
   FTG ftg,
   PFNIDLE pfnIdle,

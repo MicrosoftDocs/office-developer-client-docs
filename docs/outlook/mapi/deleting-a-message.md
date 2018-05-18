@@ -20,7 +20,7 @@ description: "Last modified: July 23, 2011"
   
 A client can delete a message when it is open and the user is reading it, or when it is closed and the user is viewing the contents table. To protect a user from inadvertently removing a message, MAPI defines message deletion as a two step process:
   
-1. Mark a message for deletion by moving it to the folder that has been designated as the Deleted Items folder — the folder whose entry identifier is stored in the **PR_IPM_WASTEBASKET_ENTRYID** ( [PidTagIpmWastebasketEntryId](pidtagipmwastebasketentryid-canonical-property.md)) property. 
+1. Mark a message for deletion by moving it to the folder that has been designated as the Deleted Items folder — the folder whose entry identifier is stored in the **PR_IPM_WASTEBASKET_ENTRYID** ([PidTagIpmWastebasketEntryId](pidtagipmwastebasketentryid-canonical-property.md)) property. 
     
 2. Remove the message by calling the [IMAPIFolder::DeleteMessages](imapifolder-deletemessages.md) method. 
     

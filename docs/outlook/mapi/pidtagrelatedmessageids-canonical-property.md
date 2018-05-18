@@ -33,7 +33,7 @@ Contains a list of identifiers for messages to which a message is related.
    
 ## Remarks
 
-The identifiers use the same specific construction rules as are used for the **PR_SEARCH_KEY** ( [PidTagSearchKey](pidtagsearchkey-canonical-property.md)) property.
+The identifiers use the same specific construction rules as are used for the **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) property.
   
 ## Related Resources
 

@@ -37,7 +37,7 @@ This property is computed by message stores for all folders and messages.
   
 For a message store root folder, this property contains the folder's own entry identifier.
   
- **PR_PARENT_DISPLAY** ( [PidTagParentDisplay](pidtagparentdisplay-canonical-property.md)) and this property are not related to each other. They belong to entirely different contexts.
+ **PR_PARENT_DISPLAY** ([PidTagParentDisplay](pidtagparentdisplay-canonical-property.md)) and this property are not related to each other. They belong to entirely different contexts.
   
 ## Related Resources
 

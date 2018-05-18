@@ -33,7 +33,7 @@ Contains the starting date and time of an appointment as managed by a scheduling
    
 ## Remarks
 
-Scheduling applications should set both this property and **PR_END_DATE** ( [PidTagEndDate](pidtagenddate-canonical-property.md)) properties when sending meeting requests.
+Scheduling applications should set both this property and **PR_END_DATE** ([PidTagEndDate](pidtagenddate-canonical-property.md)) properties when sending meeting requests.
   
 ## Related Resources
 

@@ -28,9 +28,9 @@ As with most table implementations, if **GetProfileTable** is called and there a
   
 The following properties make up the required column set in profile tables:
   
- **PR_DEFAULT_PROFILE** ( [PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) 
+ **PR_DEFAULT_PROFILE** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) 
   
- **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 
+ **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 
   
 ## See also
 

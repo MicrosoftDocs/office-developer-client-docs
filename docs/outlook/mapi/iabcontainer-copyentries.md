@@ -93,7 +93,7 @@ The **IABContainer::CopyEntries** method copies entries from the same container 
     
 ## Notes to Implementers
 
-All containers that support the **IABContainer::CopyEntries** method must be modifiable. Set your container's AB_MODIFIABLE flag in its **PR_CONTAINER_FLAGS** ( [PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)) property to indicate that it is modifiable. 
+All containers that support the **IABContainer::CopyEntries** method must be modifiable. Set your container's AB_MODIFIABLE flag in its **PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)) property to indicate that it is modifiable. 
   
 You must support all of the flags; however, the interpretation and use of these flags is implementation specific—that is, you can determine what the semantics of the CREATE_CHECK_DUP_LOOSE and CREATE_CHECK_DUP_STRICT flags mean in the context of your implementation. If you cannot or do not determine whether an entry is a duplicate, always allow the entry to be copied. 
   

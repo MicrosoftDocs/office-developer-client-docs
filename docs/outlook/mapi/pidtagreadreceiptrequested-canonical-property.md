@@ -33,7 +33,7 @@ Contains TRUE if a message sender wants the messaging system to generate a read 
    
 ## Remarks
 
-This property must be set to TRUE to validate the values in the **PR_READ_RECEIPT_ENTRYID** ( [PidTagReadReceiptEntryId](pidtagreadreceiptentryid-canonical-property.md)) and **PR_READ_RECEIPT_SEARCH_KEY** ( [PidTagReadReceiptSearchKey](pidtagreadreceiptsearchkey-canonical-property.md)) properties.
+This property must be set to TRUE to validate the values in the **PR_READ_RECEIPT_ENTRYID** ([PidTagReadReceiptEntryId](pidtagreadreceiptentryid-canonical-property.md)) and **PR_READ_RECEIPT_SEARCH_KEY** ([PidTagReadReceiptSearchKey](pidtagreadreceiptsearchkey-canonical-property.md)) properties.
   
 If a message with **PR_READ_RECEIPT_REQUESTED** set is deleted or expires before the messaging system can generate a read report, a nonread report is generated. 
   

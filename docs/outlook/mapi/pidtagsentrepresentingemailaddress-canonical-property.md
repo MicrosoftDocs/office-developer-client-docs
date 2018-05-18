@@ -35,7 +35,7 @@ Contains the e-mail address for the messaging user who is represented by the sen
 
 These properties are examples of the address properties for the messaging user being represented by the sender. When a client application sends a message on behalf of another client, it should set all the represented sender properties to the values for that client. A messaging user sending on its own behalf typically leaves the represented sender properties unset.
   
-The outgoing transport provider must always leave these properties unchanged if it has been set by the sending client. If it is unset, the transport provider should set it to the **PR_SENDER_EMAIL_ADDRESS** ( [PidTagSenderEmailAddress](pidtagsenderemailaddress-canonical-property.md)) property on the outbound copy of the message, and leave it unset on the local copy.
+The outgoing transport provider must always leave these properties unchanged if it has been set by the sending client. If it is unset, the transport provider should set it to the **PR_SENDER_EMAIL_ADDRESS** ([PidTagSenderEmailAddress](pidtagsenderemailaddress-canonical-property.md)) property on the outbound copy of the message, and leave it unset on the local copy.
   
 ## Related Resources
 

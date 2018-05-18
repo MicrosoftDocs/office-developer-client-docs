@@ -33,7 +33,7 @@ Contains the ID of the template that is being used for the search.
    
 ## Remarks
 
-Search folder criteria is specified by a template. This property on the message that defines the search folder identifies its corresponding template. In addition to defining search criteria, a template also defines folders to exclude from the search, defines items to exclude from the search, and specifies the value of **PR_WB_SF_STORAGE_TYPE** ( [PidTagSearchFolderStorageType](pidtagsearchfolderstoragetype-canonical-property.md)).
+Search folder criteria is specified by a template. This property on the message that defines the search folder identifies its corresponding template. In addition to defining search criteria, a template also defines folders to exclude from the search, defines items to exclude from the search, and specifies the value of **PR_WB_SF_STORAGE_TYPE** ([PidTagSearchFolderStorageType](pidtagsearchfolderstoragetype-canonical-property.md)).
   
 For more information about Search Folder Templates see [[MS-OXOSRCH]](http://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx) . 
   

@@ -18,9 +18,9 @@ description: "Last modified: July 23, 2011"
   
 **Applies to**: Outlook 
   
-Client applications set the **PR_BODY** ( [PidTagBody](pidtagbody-canonical-property.md)) property, the **PR_RTF_COMPRESSED** ( [PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) property, or the **PR_HTML** ( [PidTagHtml](pidtaghtml-canonical-property.md)) property for an outgoing message. Clients that support only plain text set only the **PR_BODY** property. Rich Text Format (RTF)-aware clients might set both **PR_BODY** and **PR_RTF_COMPRESSED** properties, or only **PR_RTF_COMPRESSED**, depending on the message store provider being used. HTML-aware clients set the **PR_HTML** property. 
+Client applications set the **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) property, the **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) property, or the **PR_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)) property for an outgoing message. Clients that support only plain text set only the **PR_BODY** property. Rich Text Format (RTF)-aware clients might set both **PR_BODY** and **PR_RTF_COMPRESSED** properties, or only **PR_RTF_COMPRESSED**, depending on the message store provider being used. HTML-aware clients set the **PR_HTML** property. 
   
-It is important for a client to check its message store's **PR_STORE_SUPPORT_MASK** ( [PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) property to determine whether the store supports RTF. If the message store is not RTF-aware, an RTF-aware client sets both the **PR_BODY** and **PR_RTF_COMPRESSED** properties for each outgoing message. 
+It is important for a client to check its message store's **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) property to determine whether the store supports RTF. If the message store is not RTF-aware, an RTF-aware client sets both the **PR_BODY** and **PR_RTF_COMPRESSED** properties for each outgoing message. 
   
 If the message store is RTF-aware, only the **PR_RTF_COMPRESSED** property needs to be set. 
   

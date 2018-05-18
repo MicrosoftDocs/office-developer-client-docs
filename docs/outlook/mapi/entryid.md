@@ -29,7 +29,7 @@ Contains an entry identifier for a MAPI object.
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related macros:  <br/> |[CbNewENTRYID](cbnewentryid.md), [SizedENTRYID](sizedentryid.md) <br/> |
    
-```
+```cpp
 typedef struct
 {
   BYTE abFlags[4];

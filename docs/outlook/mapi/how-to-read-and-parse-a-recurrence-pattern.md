@@ -28,7 +28,7 @@ For information about how to download, view, and run the code from the MFCMAPI a
 
 1. Open an appointment item. For information about opening a message, see [Opening a Message](opening-a-message.md).
     
-2. Retrieve the named property **dispidApptRecur** ( [PidLidAppointmentRecur Canonical Property](pidlidappointmentrecur-canonical-property.md)). For information about retrieving named properties, see [MAPI Named Properties](mapi-named-properties.md).
+2. Retrieve the named property **dispidApptRecur** ([PidLidAppointmentRecur Canonical Property](pidlidappointmentrecur-canonical-property.md)). For information about retrieving named properties, see [MAPI Named Properties](mapi-named-properties.md).
     
 3. Follow the guidance in [[MS-OXOCAL]](http://msdn.microsoft.com/en-us/library/cc425490%28EXCHG.80%29.aspx) to read the appointment recurrence pattern structure. 
     

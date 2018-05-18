@@ -34,7 +34,7 @@ Specifies a string description of the time zone.
    
 ## Remarks
 
-This property specifies a human-readable description of the time zone that is represented by the data in the **dispidTimeZoneStruct** ( [PidLidTimeZoneStruct](pidlidtimezonestruct-canonical-property.md)) property.
+This property specifies a human-readable description of the time zone that is represented by the data in the **dispidTimeZoneStruct** ([PidLidTimeZoneStruct](pidlidtimezonestruct-canonical-property.md)) property.
   
 ## Related Resources
 

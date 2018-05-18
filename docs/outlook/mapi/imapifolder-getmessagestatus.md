@@ -83,7 +83,7 @@ S_OK
     
 ## Remarks
 
-The **IMAPIFolder::GetMessageStatus** method returns the status of a message. Message status is stored in the message's **PR_MSG_STATUS** ( [PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) property. 
+The **IMAPIFolder::GetMessageStatus** method returns the status of a message. Message status is stored in the message's **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) property. 
   
 ## Notes to Implementers
 

@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Contains the elements of the **dispidContacts** ( [PidLidContacts](pidlidcontacts-canonical-property.md)) property.
+Contains the elements of the **dispidContacts** ([PidLidContacts](pidlidcontacts-canonical-property.md)) property.
   
 |||
 |:-----|:-----|

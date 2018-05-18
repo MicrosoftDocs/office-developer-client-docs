@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Contains a positive number whose negative is less than or equal to the value of the **dispidTaskOrdinal** ( [PidLidTaskOrdinal](pidlidtaskordinal-canonical-property.md)) property of all tasks in the folder.
+Contains a positive number whose negative is less than or equal to the value of the **dispidTaskOrdinal** ([PidLidTaskOrdinal](pidlidtaskordinal-canonical-property.md)) property of all tasks in the folder.
   
 |||
 |:-----|:-----|

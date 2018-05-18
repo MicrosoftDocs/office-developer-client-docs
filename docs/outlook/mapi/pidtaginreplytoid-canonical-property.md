@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Contains the original message's **PR_INTERNET_MESSAGE_ID** ( [PidTagInternetMessageId](pidtaginternetmessageid-canonical-property.md)) property value.
+Contains the original message's **PR_INTERNET_MESSAGE_ID** ([PidTagInternetMessageId](pidtaginternetmessageid-canonical-property.md)) property value.
   
 |||
 |:-----|:-----|

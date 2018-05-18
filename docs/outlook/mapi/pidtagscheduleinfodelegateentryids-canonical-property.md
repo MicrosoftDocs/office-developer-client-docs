@@ -33,7 +33,7 @@ Contains the **EntryIDs** of the delegates.
    
 ## Remarks
 
-Each entry must contain the value of the **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)) property of each delegate's address book entry. This property must be set in the delegate information object.
+Each entry must contain the value of the **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) property of each delegate's address book entry. This property must be set in the delegate information object.
   
 ## Related Resources
 

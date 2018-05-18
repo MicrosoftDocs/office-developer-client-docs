@@ -59,7 +59,7 @@ The AB_FIND_ON_OPEN flag is highly recommended for containers used with online s
   
 Either the AB_MODIFIABLE or AB_UNMODIFIABLE flag must be set. Both flags can be set to indicate that the container does not know whether it can be modified or not, for example if modification depends on the user's access rights. In this case, a client application must attempt a call and examine the return code to determine the container's capabilities. A client typically starts by examining AB_MODIFIABLE. If it is set, the client makes a call that attempts to modify the container and checks the return value. 
   
-The AB_MODIFIABLE flag does not indicate what types of entries can be added to the container. To determine this, the client should use the appropriate [OpenProperty](imapiprop-openproperty.md) method to open the container's **PR_CREATE_TEMPLATES** ( [PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) property. Opening **PR_CREATE_TEMPLATES** causes the container's one-off table to be returned, listing the kinds of entries that can be created in the container. 
+The AB_MODIFIABLE flag does not indicate what types of entries can be added to the container. To determine this, the client should use the appropriate [OpenProperty](imapiprop-openproperty.md) method to open the container's **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) property. Opening **PR_CREATE_TEMPLATES** causes the container's one-off table to be returned, listing the kinds of entries that can be created in the container. 
   
 ## Related Resources
 

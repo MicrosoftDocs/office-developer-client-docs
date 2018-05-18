@@ -51,7 +51,7 @@ Provides utility methods for working with tables. MAPI provides table data objec
 
 The MAPI implementation of **ITableData** works with tables by holding all of the data and any associated restrictions in memory, making it unsuitable for use with very large tables. Large restrictions and complex operations such as categorization are not supported. 
   
-Table data objects identify rows by using an index column, a property that is guaranteed to have a unique value for each row. Most service providers use the **PR_INSTANCE_KEY** ( [PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) property as the index column. Properties that have multiple values cannot be used as an index column.
+Table data objects identify rows by using an index column, a property that is guaranteed to have a unique value for each row. Most service providers use the **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) property as the index column. Properties that have multiple values cannot be used as an index column.
   
 Table data objects generate a single notification regardless of the number of rows affected by a change or deletion. If a target row in an operation does not exist, a row is added.
   

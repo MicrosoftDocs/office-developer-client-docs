@@ -33,7 +33,7 @@ Contains the display names of the primary (To) recipients of the original messag
    
 ## Remarks
 
-These properties contain an ASCII list separated by semicolons. It is furnished by MAPI and is copied directly from **PR_DISPLAY_TO** ( [PidTagDisplayTo](pidtagdisplayto-canonical-property.md)) when a delivery or nondelivery report or a read or nonread report is generated. This property may be present on other messages as defined by their message classes.
+These properties contain an ASCII list separated by semicolons. It is furnished by MAPI and is copied directly from **PR_DISPLAY_TO** ([PidTagDisplayTo](pidtagdisplayto-canonical-property.md)) when a delivery or nondelivery report or a read or nonread report is generated. This property may be present on other messages as defined by their message classes.
   
 ## Related Resources
 

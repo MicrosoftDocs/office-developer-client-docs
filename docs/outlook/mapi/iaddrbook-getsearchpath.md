@@ -59,7 +59,7 @@ If **SetSearchPath** has never been called, **GetSearchPath** builds a path by w
   
 1. The first container with read/write permission, usually the personal address book (PAB).
     
-2. Every container that has its **PR_DISPLAY_TYPE** ( [PidTagDisplayType](pidtagdisplaytype-canonical-property.md)) property set to DT_GLOBAL. This setting indicates that the container holds recipients. 
+2. Every container that has its **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)) property set to DT_GLOBAL. This setting indicates that the container holds recipients. 
     
 3. The container designated as the default, if there are no containers that have the DT_GLOBAL flag set in their **PR_DISPLAY_TYPE** property and the default container differs from the first container with read/write permission. 
     

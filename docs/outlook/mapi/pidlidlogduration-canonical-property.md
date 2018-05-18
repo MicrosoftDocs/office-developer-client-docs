@@ -34,7 +34,7 @@ Represents the duration, in minutes, of a journal message.
    
 ## Remarks
 
-The duration, in minutes, of the activity that must be the difference between the **dispidLogEnd** ( [PidLidLogEnd](pidlidlogend-canonical-property.md)) and **dispidLogStart** ( [PidLidLogStart](pidlidlogstart-canonical-property.md)) properties.
+The duration, in minutes, of the activity that must be the difference between the **dispidLogEnd** ([PidLidLogEnd](pidlidlogend-canonical-property.md)) and **dispidLogStart** ([PidLidLogStart](pidlidlogstart-canonical-property.md)) properties.
   
 ## Related Resources
 

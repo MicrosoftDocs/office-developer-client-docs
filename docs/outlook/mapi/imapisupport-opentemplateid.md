@@ -44,7 +44,7 @@ LPMAPIPROP lpMAPIPropSibling
     
  _lpTemplateID_
   
-> [in] A pointer to the template identifier **PR_TEMPLATEID** ( [PidTagTemplateid](pidtagtemplateid-canonical-property.md)) property of the recipient entry to be opened.
+> [in] A pointer to the template identifier **PR_TEMPLATEID** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)) property of the recipient entry to be opened.
     
  _ulTemplateFlags_
   

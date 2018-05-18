@@ -33,9 +33,9 @@ Contains the address type for the messaging user who is represented by the user 
    
 ## Remarks
 
-These properties are examples of the address properties for the messaging user who is being represented by the receiving user. It must be set by the incoming transport provider, which is also responsible for authorization or verification of the delegate. If no messaging user is being represented, this property should be set to the address type contained in the **PR_RECEIVED_BY_ADDRTYPE** ( [PidTagReceivedByAddressType](pidtagreceivedbyaddresstype-canonical-property.md)) property.
+These properties are examples of the address properties for the messaging user who is being represented by the receiving user. It must be set by the incoming transport provider, which is also responsible for authorization or verification of the delegate. If no messaging user is being represented, this property should be set to the address type contained in the **PR_RECEIVED_BY_ADDRTYPE** ([PidTagReceivedByAddressType](pidtagreceivedbyaddresstype-canonical-property.md)) property.
   
-A client application replying to a message received on behalf of another client should copy this property from the received message into the **PR_SENT_REPRESENTING_ADDRTYPE** ( [PidTagSentRepresentingAddressType](pidtagsentrepresentingaddresstype-canonical-property.md)) property for the reply.
+A client application replying to a message received on behalf of another client should copy this property from the received message into the **PR_SENT_REPRESENTING_ADDRTYPE** ([PidTagSentRepresentingAddressType](pidtagsentrepresentingaddresstype-canonical-property.md)) property for the reply.
   
 ## Related Resources
 

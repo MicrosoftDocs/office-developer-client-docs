@@ -40,7 +40,7 @@ HRESULT SetDefaultStore(
     
 MAPI_DEFAULT_STORE
   
-> Establishes the message store as the session default. Updates the message store's status table row by setting the STATUS_DEFAULT_STORE flag in the **PR_RESOURCE_FLAGS** ( [PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) column.
+> Establishes the message store as the session default. Updates the message store's status table row by setting the STATUS_DEFAULT_STORE flag in the **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) column.
     
 MAPI_PRIMARY_STORE
   
@@ -82,7 +82,7 @@ The **IMAPISession::SetDefaultStore** method establishes a message store as one 
     
 - The secondary message store for the session.
     
-To establish a message store as the default, the message store must have the following flags set in its **PR_STORE_SUPPORT_MASK** ( [PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) property:
+To establish a message store as the default, the message store must have the following flags set in its **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) property:
   
 - STORE_SUBMIT_OK
     

@@ -40,7 +40,7 @@ You can use the **IMAPIProp** methods to copy or move either a folder or a messa
   
 Whereas using the **IMAPIFolder** methods does not require any knowledge of the properties supported by the folder or message to be copied or moved, you must have some knowledge to use the **IMAPIProp** methods. With **IMAPIProp::CopyProps**, you must be able to explicitly specify which of the folder or message properties that you want to copy or move. With **IMAPIProp::CopyTo**, unless you want to copy or move all of the properties, you must explicitly specify which ones should be excluded. For more information about these methods, see [Copying MAPI Properties](copying-mapi-properties.md).
   
-The number of properties to be copied or moved can affect your decision as to which method to use. If you are copying or moving multiple messages, call **IMAPIFolder::CopyMessages**. An alternate choice is to call **IMAPIProp::CopyProps** to copy only the folder's **PR_CONTAINER_CONTENTS** ( [PidTagContainerContents](pidtagcontainercontents-canonical-property.md)) property. The following procedure shows how to use **CopyMessages**. 
+The number of properties to be copied or moved can affect your decision as to which method to use. If you are copying or moving multiple messages, call **IMAPIFolder::CopyMessages**. An alternate choice is to call **IMAPIProp::CopyProps** to copy only the folder's **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)) property. The following procedure shows how to use **CopyMessages**. 
   
  **To copy or move one or more messages**
   
@@ -64,7 +64,7 @@ If you want to copy the complete contents of a folder to another folder, call th
   
 To copy a few of a folder's properties, call its **IMAPIProp::CopyProps** method. To copy most of a folder's properties, call **IMAPIProp::CopyTo**. 
   
-For example, if you want to copy a folder's **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) and **PR_COMMENT** ( [PidTagComment](pidtagcomment-canonical-property.md)) properties, you have the following options:
+For example, if you want to copy a folder's **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) and **PR_COMMENT** ([PidTagComment](pidtagcomment-canonical-property.md)) properties, you have the following options:
   
 - Call **IMAPIFolder::CopyFolder** to copy all of the folder properties and then delete the unwanted ones from the new folder. 
     
@@ -76,9 +76,9 @@ In this case, **CopyProps** is the best choice because it is meant to be used to
   
 To copy or move only folder properties, without including messages, call the folder's **IMAPIProp::CopyTo** method and exclude the following properties: 
   
-- **PR_CONTAINER_CONTENTS** ( [PidTagContainerContents](pidtagcontainercontents-canonical-property.md))
+- **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md))
     
-- **PR_FOLDER_ASSOCIATED_CONTENTS** ( [PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md))
+- **PR_FOLDER_ASSOCIATED_CONTENTS** ([PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md))
     
 The copy methods can return S_OK, indicating total success, MAPI_W_PARTIAL_COMPLETION, indicating partial success, or an error. If MAPI_W_PARTIAL_COMPLETION is returned, use the **HR_FAILED** macro to access a more specific error. For more information, see [Using Macros for Error Handling](using-macros-for-error-handling.md).
   

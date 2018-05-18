@@ -95,11 +95,11 @@ To use a particular template to add a new entry to a modifiable container, use t
   
 1. Call the [IMAPISupport::OpenEntry](imapisupport-openentry.md) method to open the destination container, and set the  _lpEntryID_ parameter to the entry identifier of the container. 
     
-2. Call the destination container's [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method, and set the  _ulPropTag_ parameter to **PR_CREATE_TEMPLATES** ( [PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) and the  _lpiid_ parameter to IID_IMAPITable. The container will return a one-off table that lists all of the templates that it supports for creating new entries. 
+2. Call the destination container's [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method, and set the  _ulPropTag_ parameter to **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) and the  _lpiid_ parameter to IID_IMAPITable. The container will return a one-off table that lists all of the templates that it supports for creating new entries. 
     
-3. Retrieve the row that represents the template for the particular type of entry you want to create. The **PR_ADDRTYPE** ( [PidTagAddressType](pidtagaddresstype-canonical-property.md)) column indicates the address type that is supported by the template. 
+3. Retrieve the row that represents the template for the particular type of entry you want to create. The **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) column indicates the address type that is supported by the template. 
     
-4. Call **IMAPISupport::NewEntry** and set the  _lpEIDNewEntryTpl_ parameter to the entry identifier of the selected template. The entry identifier is the **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)) column from the template's row in the one-off table. Pass 0 in  _cbEIDContainer_ and NULL in  _lpEIDContainer_. Pass a valid pointer in the  _lppEIDNewEntry_ parameter if you want to retain the new entry's entry identifier. 
+4. Call **IMAPISupport::NewEntry** and set the  _lpEIDNewEntryTpl_ parameter to the entry identifier of the selected template. The entry identifier is the **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) column from the template's row in the one-off table. Pass 0 in  _cbEIDContainer_ and NULL in  _lpEIDContainer_. Pass a valid pointer in the  _lppEIDNewEntry_ parameter if you want to retain the new entry's entry identifier. 
     
 ## See also
 

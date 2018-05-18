@@ -33,7 +33,7 @@ Contains the class of the original message for use in a report.
    
 ## Remarks
 
-These properties contain a copy of the **PR_MESSAGE_CLASS** ( [PidTagMessageClass](pidtagmessageclass-canonical-property.md)) property of the message for which the report is being generated.
+These properties contain a copy of the **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) property of the message for which the report is being generated.
   
 ## Related Resources
 

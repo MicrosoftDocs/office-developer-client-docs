@@ -36,7 +36,7 @@ Specifies the list of one-off EntryIds that correspond to the members of the per
 
 These one-off EntryIds encapsulate display names and e-mail addresses of the personal distribution list members.
   
-If the client or the server set this property, it must be synchronized with the **dispidDLMembers** ( [PidLidDistributionListMembers](pidliddistributionlistmembers-canonical-property.md)) property: for each entry in the **dispidDLOneOffMembers** property, there must be an entry in the same position in the **dispidDLMembers** property. 
+If the client or the server set this property, it must be synchronized with the **dispidDLMembers** ([PidLidDistributionListMembers](pidliddistributionlistmembers-canonical-property.md)) property: for each entry in the **dispidDLOneOffMembers** property, there must be an entry in the same position in the **dispidDLMembers** property. 
   
 When setting **dispidDLOneOffMembers**, the client or the server must ensure that its total size is less than 15,000 bytes in size.
   

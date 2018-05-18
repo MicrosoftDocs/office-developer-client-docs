@@ -33,9 +33,9 @@ Contains the topic of the first message in a conversation thread.
    
 ## Remarks
 
-A conversation thread represents a series of messages and replies. These properties are set for the first message in a thread, usually to the **PR_NORMALIZED_SUBJECT** ( [PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)) property. Subsequent messages in the thread should use the same topic without modification. 
+A conversation thread represents a series of messages and replies. These properties are set for the first message in a thread, usually to the **PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)) property. Subsequent messages in the thread should use the same topic without modification. 
   
-The **PR_CONVERSATION_INDEX** ( [PidTagConversationIndex](pidtagconversationindex-canonical-property.md)) property indicates the order relationship between subsequent messages and replies. Its use is optional, even if these properties are set. 
+The **PR_CONVERSATION_INDEX** ([PidTagConversationIndex](pidtagconversationindex-canonical-property.md)) property indicates the order relationship between subsequent messages and replies. Its use is optional, even if these properties are set. 
   
 A message store provider has the option of assuring that these properties are always set on incoming or outgoing messages. If these properties are already set they should not be altered. If not, they can be set to **PR_NORMALIZED_SUBJECT**. Any action should be taken before [IMAPIProp::SaveChanges](imapiprop-savechanges.md) is called. 
   

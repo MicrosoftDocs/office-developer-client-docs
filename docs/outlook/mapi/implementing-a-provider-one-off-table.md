@@ -32,19 +32,19 @@ MAPI will typically keep your provider's one-off table open for the lifetime of 
     
 4. Set the following properties for the columns in your table rows:
     
-  - **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) to the name of the type of recipient that the template can create. 
+  - **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) to the name of the type of recipient that the template can create. 
     
-  - **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)) to the entry identifier for the one-off template.
+  - **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) to the entry identifier for the one-off template.
     
-  - **PR_DEPTH** ( [PidTagDepth](pidtagdepth-canonical-property.md)) to indicate the hierarchy level in the one-off table display.
+  - **PR_DEPTH** ([PidTagDepth](pidtagdepth-canonical-property.md)) to indicate the hierarchy level in the one-off table display.
     
-  - **PR_SELECTABLE** ( [PidTagSelectable](pidtagselectable-canonical-property.md)) to TRUE to indicate if the row represents a template and FALSE otherwise.
+  - **PR_SELECTABLE** ([PidTagSelectable](pidtagselectable-canonical-property.md)) to TRUE to indicate if the row represents a template and FALSE otherwise.
     
-  - **PR_ADDRTYPE** ( [PidTagAddressType](pidtagaddresstype-canonical-property.md)) to the type of address created by the template.
+  - **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) to the type of address created by the template.
     
-  - **PR_DISPLAY_TYPE** ( [PidTagDisplayType](pidtagdisplaytype-canonical-property.md)) to DT_MAILUSER or another value that indicates the type of display for the template.
+  - **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)) to DT_MAILUSER or another value that indicates the type of display for the template.
     
-  - **PR_INSTANCE_KEY** ( [PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) to a unique binary value. 
+  - **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) to a unique binary value. 
     
 5. Call [ITableData::HrModifyRow](itabledata-hrmodifyrow.md) to modify the table directly. 
     

@@ -20,7 +20,7 @@ description: "Last modified: July 23, 2011"
   
  **To get the members of a distribution list**
   
-1. Create a sized property tag array with the properties of the members you would like to retrieve, such as **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)), **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)), and **PR_DISPLAY_TYPE** ( [PidTagDisplayType](pidtagdisplaytype-canonical-property.md)).
+1. Create a sized property tag array with the properties of the members you would like to retrieve, such as **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)), **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)), and **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)).
     
 2. Call [IAddrBook::OpenEntry](iaddrbook-openentry.md) to open the distribution list. 
     

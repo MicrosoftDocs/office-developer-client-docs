@@ -30,7 +30,7 @@ Validates all strings in an array of Unicode strings.
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Service providers  <br/> |
    
-```
+```cpp
 BOOL FBadRglpszW(
   LPWSTR FAR * lppszW,
   ULONG cStrings

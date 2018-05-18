@@ -33,7 +33,7 @@ Contains a flag that describes the state of the message store.
    
 ## Remarks
 
-This property is dynamic and can change based on user actions, unlike the **PR_STORE_SUPPORT_MASK** ( [PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) property. 
+This property is dynamic and can change based on user actions, unlike the **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) property. 
   
 The following value can be set:
   

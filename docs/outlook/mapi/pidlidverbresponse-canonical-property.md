@@ -34,7 +34,7 @@ Specifies the voting option that a respondent selected.
    
 ## Remarks
 
-This property is usually set to one of the delimited values that are contained in the **dispidVerbStream** ( [PidLidVerbStream](pidlidverbstream-canonical-property.md)) property on which the respondent votes.
+This property is usually set to one of the delimited values that are contained in the **dispidVerbStream** ([PidLidVerbStream](pidlidverbstream-canonical-property.md)) property on which the respondent votes.
   
 ## Related Resources
 

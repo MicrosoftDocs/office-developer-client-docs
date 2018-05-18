@@ -30,7 +30,7 @@ Creates structures and an object handle for an [ITableData](itabledataiunknown.m
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
-```
+```cpp
 SCODE CreateTable(
   LPCIID lpInterface,
   ALLOCATEBUFFER FAR * lpAllocateBuffer,

@@ -37,7 +37,7 @@ The purpose of this property is to provide an icon or other pictorial representa
   
 For an attached file, this property usually portrays an icon for the file. 
   
-For an attached message, this property is typically not set. A client application needing to render an attached message should obtain its **PR_MESSAGE_CLASS** ( [PidTagMessageClass](pidtagmessageclass-canonical-property.md)) property, call [IMAPIFormMgr::ResolveMessageClass](imapiformmgr-resolvemessageclass.md) for a pointer to the corresponding form information object, open the [IMAPIFormInfo](imapiforminfoimapiprop.md) interface on that object, and use **GetProps** to retrieve the **PR_ICON** ( [PidTagIcon](pidtagicon-canonical-property.md)) or **PR_MINI_ICON** ( [PidTagMiniIcon](pidtagminiicon-canonical-property.md)) property. 
+For an attached message, this property is typically not set. A client application needing to render an attached message should obtain its **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) property, call [IMAPIFormMgr::ResolveMessageClass](imapiformmgr-resolvemessageclass.md) for a pointer to the corresponding form information object, open the [IMAPIFormInfo](imapiforminfoimapiprop.md) interface on that object, and use **GetProps** to retrieve the **PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) or **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)) property. 
   
 For an embedded static OLE object, this property contains a Microsoft Windows metafile that can be used to draw the attachment representation in a window. 
   

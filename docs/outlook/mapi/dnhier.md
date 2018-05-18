@@ -22,7 +22,7 @@ Information for downloading a hierarchy from the server during the [download hie
   
 ## Quick Info
 
-```
+```cpp
 struct DNHIER 
 { 
     ULONG ulFlags; 

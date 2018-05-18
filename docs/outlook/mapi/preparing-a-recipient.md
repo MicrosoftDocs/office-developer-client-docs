@@ -24,25 +24,25 @@ To prepare a list of recipients, call **IAddrBook::PrepareRecips**. **PrepareRec
   
 For example, suppose you are working with five recipients. All five recipients appear in the **ADRLIST** structure with the following properties in the following order: 
   
-1. **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md))
+1. **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))
     
-2. **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md))
+2. **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))
     
-3. **PR_SEARCH_KEY** ( [PidTagSearchKey](pidtagsearchkey-canonical-property.md))
+3. **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md))
     
-4. **PR_EMAIL_ADDRESS** ( [PidTagEmailAddress](pidtagemailaddress-canonical-property.md))
+4. **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))
     
-5. **PR_ADDRTYPE** ( [PidTagAddressType](pidtagaddresstype-canonical-property.md))
+5. **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))
     
 Three other properties are included in the **ADRLIST** structure for the first two recipients. 
   
-1. **PR_ACCOUNT** ( [PidTagAccount](pidtagaccount-canonical-property.md))
+1. **PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md))
     
-2. **PR_GIVEN_NAME** ( [PidTagGivenName](pidtaggivenname-canonical-property.md))
+2. **PR_GIVEN_NAME** ([PidTagGivenName](pidtaggivenname-canonical-property.md))
     
-3. **PR_SURNAME** ( [PidTagSurname](pidtagsurname-canonical-property.md))
+3. **PR_SURNAME** ([PidTagSurname](pidtagsurname-canonical-property.md))
     
-Because all of the recipients need to have as their first three properties **PR_ADDRTYPE**, **PR_ENTRYID**, and **PR_HOME_TELEPHONE_NUMBER** ( [PidTagHomeTelephoneNumber](pidtaghometelephonenumber-canonical-property.md)), create a property tag array with these properties and pass it and the **ADRLIST** structure to **PrepareRecips**. **PrepareRecips** calls each recipient's **IMAPIProp::GetProps** method to retrieve **PR_HOME_TELEPHONE_NUMBER** because it is not currently part of the **ADRLIST** structure. When **PrepareRecips** returns, the recipient list represents a merged list of recipients with the properties included in the **ADRLIST** structure appearing first for each recipient. 
+Because all of the recipients need to have as their first three properties **PR_ADDRTYPE**, **PR_ENTRYID**, and **PR_HOME_TELEPHONE_NUMBER** ([PidTagHomeTelephoneNumber](pidtaghometelephonenumber-canonical-property.md)), create a property tag array with these properties and pass it and the **ADRLIST** structure to **PrepareRecips**. **PrepareRecips** calls each recipient's **IMAPIProp::GetProps** method to retrieve **PR_HOME_TELEPHONE_NUMBER** because it is not currently part of the **ADRLIST** structure. When **PrepareRecips** returns, the recipient list represents a merged list of recipients with the properties included in the **ADRLIST** structure appearing first for each recipient. 
   
 The recipient list for recipients 1 and 2 includes properties in the following order:
   

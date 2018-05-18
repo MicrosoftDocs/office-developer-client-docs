@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Describes the unit of time when the **PR_EXPIRY_NUMBER** ( [PidTagExpiryNumber](pidtagexpirynumber-canonical-property.md)) property multiplies.
+Describes the unit of time when the **PR_EXPIRY_NUMBER** ([PidTagExpiryNumber](pidtagexpirynumber-canonical-property.md)) property multiplies.
   
 |||
 |:-----|:-----|

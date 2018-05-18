@@ -34,7 +34,7 @@ Represents the date and time when an appointment begins.
    
 ## Remarks
 
-This property specifies the start date and time of the event. This property must be in Coordinated Universal Time (UTC) and must be less than the value of the **dispidApptEndWhole** ( [PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)) property. For a recurring series, this property is the start date and time of the first instance according to the recurrence pattern.
+This property specifies the start date and time of the event. This property must be in Coordinated Universal Time (UTC) and must be less than the value of the **dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)) property. For a recurring series, this property is the start date and time of the first instance according to the recurrence pattern.
   
 ## Related Resources
 

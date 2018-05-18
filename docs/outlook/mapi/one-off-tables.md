@@ -33,7 +33,7 @@ In both scenarios, an address book provider is asked to return a one-off table. 
   
 When the recipient will be included with an outgoing message, MAPI calls the address book provider's [IABLogon::GetOneOffTable](iablogon-getoneofftable.md) method to retrieve its one-off table. The one-off table includes templates which enable a user to enter information resulting in the creation of a recipient with a valid address. MAPI registers for notifications on this table, keeping it open so that changes can be reflected to the user. MAPI releases the table only when its subsystem or address book status object's [IMAPIStatus::ValidateState](imapistatus-validatestate.md) method is called. 
   
-When the recipient will be added to a container, MAPI makes a different call, invoking the container's [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method to retrieve its **PR_CREATE_TEMPLATES** ( [PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) property. The set of templates included in this one-off table represents the types of recipients that can be added to the container. For example, mail servers often expose one container for every gateway that is installed so that each container only holds addresses specific to the corresponding gateway.
+When the recipient will be added to a container, MAPI makes a different call, invoking the container's [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method to retrieve its **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) property. The set of templates included in this one-off table represents the types of recipients that can be added to the container. For example, mail servers often expose one container for every gateway that is installed so that each container only holds addresses specific to the corresponding gateway.
   
 MAPI provides a one-off table that includes its own templates as well as templates from each of the address book providers in the session. MAPI provides a generic template that can be used to create a new recipient for any address type, assuming that the user knows its format. Address book providers use this one-off table by calling [IMAPISupport::GetOneOffTable](imapisupport-getoneofftable.md). Each of the templates included in the MAPI one-off table results in the creation of recipients with valid recipient addresses.
   
@@ -41,25 +41,25 @@ Address book providers typically supply one template for every address type they
   
 The following properties make up the required column set in one-off tables:
   
-- **PR_ADDRTYPE** ( [PidTagAddressType](pidtagaddresstype-canonical-property.md))
+- **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))
     
-- **PR_DEPTH** ( [PidTagDepth](pidtagdepth-canonical-property.md))
+- **PR_DEPTH** ([PidTagDepth](pidtagdepth-canonical-property.md))
     
-- **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md))
+- **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))
     
-- **PR_DISPLAY_TYPE** ( [PidTagDisplayType](pidtagdisplaytype-canonical-property.md))
+- **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))
     
-- **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md))
+- **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))
     
-- **PR_INSTANCE_KEY** ( [PidTagInstanceKey](pidtaginstancekey-canonical-property.md))
+- **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md))
     
-- **PR_SELECTABLE** ( [PidTagSelectable](pidtagselectable-canonical-property.md))
+- **PR_SELECTABLE** ([PidTagSelectable](pidtagselectable-canonical-property.md))
     
  **PR_ADDRTYPE** indicates the type of address that can be associated with the new recipient created with the template. 
   
  **PR_DISPLAY_NAME** and **PR_DISPLAY_TYPE** associate data with the new recipient. **PR_DISPLAY_NAME** contains a character string that identifies the new recipient and **PR_DISPLAY_TYPE** contains a constant that identifies the type of icon to be displayed with the row. Templates for messaging users have their **PR_DISPLAY_TYPE** column set to DT_MAILUSER; templates for distribution lists have their **PR_DISPLAY_TYPE** column set to DT_DISTLIST. 
   
- **PR_ENTRYID** is the entry identifier of the template to be used to create a new recipient. This entry identifier can be passed to future [IAddrBook::NewEntry](iaddrbook-newentry.md), [IAddrBook::OpenEntry](iaddrbook-openentry.md), and [IABContainer::CreateEntry](iabcontainer-createentry.md) calls. Containers set the **PR_ENTRYID** column of their row for the default messaging user template to **PR_DEF_CREATE_MAILUSER** ( [PidTagDefCreateMailuser](pidtagdefcreatemailuser-canonical-property.md)) and the **PR_ENTRYID** column of their row for the default distribution list template to **PR_DEF_CREATE_DL** ( [PidTagDefCreateDl](pidtagdefcreatedl-canonical-property.md)). 
+ **PR_ENTRYID** is the entry identifier of the template to be used to create a new recipient. This entry identifier can be passed to future [IAddrBook::NewEntry](iaddrbook-newentry.md), [IAddrBook::OpenEntry](iaddrbook-openentry.md), and [IABContainer::CreateEntry](iabcontainer-createentry.md) calls. Containers set the **PR_ENTRYID** column of their row for the default messaging user template to **PR_DEF_CREATE_MAILUSER** ([PidTagDefCreateMailuser](pidtagdefcreatemailuser-canonical-property.md)) and the **PR_ENTRYID** column of their row for the default distribution list template to **PR_DEF_CREATE_DL** ([PidTagDefCreateDl](pidtagdefcreatedl-canonical-property.md)). 
   
  **PR_DEPTH** is used to support the hierarchical display of the entries in a one-off table by indicating the level of indentation for the template. Although one-off tables can be displayed either as a flat list or a hierarchical display, the latter is preferable and address book providers should support it by setting the **PR_DEPTH** column for each row appropriately. **PR_DEPTH** is zero-based; rows with a value of 0 in their **PR_DEPTH** column are not indented. The higher the value of **PR_DEPTH**, the more the row is indented. For example, rows with **PR_DEPTH** set to 1 are indented one tab while rows with **PR_DEPTH** set to 3 are indented three tabs. 
   

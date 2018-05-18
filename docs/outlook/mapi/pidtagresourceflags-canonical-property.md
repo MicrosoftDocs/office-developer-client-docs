@@ -91,7 +91,7 @@ STATUS_NO_PRIMARY_IDENTITY
     
 STATUS_OWN_STORE 
   
-> Static. This transport provider is tightly coupled with a message store and furnishes the **PR_OWN_STORE_ENTRYID** ( [PidTagOwnStoreEntryId](pidtagownstoreentryid-canonical-property.md)) property in its status row.
+> Static. This transport provider is tightly coupled with a message store and furnishes the **PR_OWN_STORE_ENTRYID** ([PidTagOwnStoreEntryId](pidtagownstoreentryid-canonical-property.md)) property in its status row.
     
 STATUS_PRIMARY_IDENTITY 
   

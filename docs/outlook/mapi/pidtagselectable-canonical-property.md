@@ -37,7 +37,7 @@ This property is used primarily for visual formatting of a one-off table. Templa
   
 This property applies only to a one-off table, not to an address book hierarchy table. 
   
-MAPI allows an address book provider to group items visually by two means. First, certain rows can function as headings by being unselectable. Second, the selectable items can be indented relative to their headings by using the **PR_DEPTH** ( [PidTagDepth](pidtagdepth-canonical-property.md)) property. This property is used in such grouping to indicate whether or not this item can be selected from a list to create a one-off address. For example, if a client has several templates for building fax addresses, it can display them as follows: 
+MAPI allows an address book provider to group items visually by two means. First, certain rows can function as headings by being unselectable. Second, the selectable items can be indented relative to their headings by using the **PR_DEPTH** ([PidTagDepth](pidtagdepth-canonical-property.md)) property. This property is used in such grouping to indicate whether or not this item can be selected from a list to create a one-off address. For example, if a client has several templates for building fax addresses, it can display them as follows: 
   
 FAX templates (depth 0, not selectable)
   

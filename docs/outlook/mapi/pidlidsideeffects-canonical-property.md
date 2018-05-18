@@ -40,7 +40,7 @@ Must be set to a bitwise or zero or more of the following flags.
 |:-----|:-----|:-----|
 |seOpenToDelete  <br/> |0x0001  <br/> |Additional processing is required on the message object when deleting.  <br/> |
 |seNoFrame  <br/> |0x0008  <br/> |No UI is associated with the message object.  <br/> |
-|seCoerceToInbox  <br/> |0x0010  <br/> |Additional processing is required on the message object when moving or copying to a folder object with a **PR_CONTAINER_CLASS** ( [PidTagContainerClass](pidtagcontainerclass-canonical-property.md)) property of "IPF.Note".  <br/> |
+|seCoerceToInbox  <br/> |0x0010  <br/> |Additional processing is required on the message object when moving or copying to a folder object with a **PR_CONTAINER_CLASS** ([PidTagContainerClass](pidtagcontainerclass-canonical-property.md)) property of "IPF.Note".  <br/> |
 |seOpenTocopy  <br/> |0x0020  <br/> |Additional processing is required on the message object when copying to another folder.  <br/> |
 |seOpenToMove  <br/> |0x0040  <br/> |Additional processing is required on the message object when moving to another folder.  <br/> |
 |seOpenForCtxMenu  <br/> |0x0100  <br/> |Additional processing is required on the message object when displaying verbs to the end-user.  <br/> |

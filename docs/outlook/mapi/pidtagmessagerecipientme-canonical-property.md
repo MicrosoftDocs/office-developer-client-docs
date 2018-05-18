@@ -33,7 +33,7 @@ Contains TRUE if this messaging user is specifically named as a primary (To), ca
    
 ## Remarks
 
-This property provides a convenient way to determine whether the user name appears explicitly in the recipient list, without examining all entries in the list. The value represents the logical **OR** operation of the properties **PR_MESSAGE_CC_ME** ( [PidTagMessageCcMe](pidtagmessageccme-canonical-property.md)) and **PR_MESSAGE_TO_ME** ( [PidTagMessageToMe](pidtagmessagetome-canonical-property.md)), and the BCC information (which does not otherwise appear in a property). 
+This property provides a convenient way to determine whether the user name appears explicitly in the recipient list, without examining all entries in the list. The value represents the logical **OR** operation of the properties **PR_MESSAGE_CC_ME** ([PidTagMessageCcMe](pidtagmessageccme-canonical-property.md)) and **PR_MESSAGE_TO_ME** ([PidTagMessageToMe](pidtagmessagetome-canonical-property.md)), and the BCC information (which does not otherwise appear in a property). 
   
 This property assists automated handling of received messages at the time of receipt. At the transport provider's option, this property either contains FALSE or is not included if the messaging user is not listed directly in the recipient table. 
   

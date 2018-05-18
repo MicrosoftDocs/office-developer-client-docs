@@ -29,7 +29,7 @@ Computes the number of bytes to be allocated for a new [SRowSet](srowset.md) str
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**SRowSet** <br/> |
    
-```
+```cpp
 CbNewSRowSet (_crow)
 ```
 

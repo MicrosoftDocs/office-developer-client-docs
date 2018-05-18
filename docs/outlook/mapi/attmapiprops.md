@@ -30,7 +30,7 @@ There must be as many  _Property_Value_ items as the property-count value indica
   
 > property-tag  _Property_property-tag  _Proptag_Name Property_
     
-The property-tag is simply the value associated with the property identifier, such as 0x0037001F for **PR_SUBJECT** ( [PidTagSubject](pidtagsubject-canonical-property.md)).
+The property-tag is simply the value associated with the property identifier, such as 0x0037001F for **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)).
   
  _Property:_
   

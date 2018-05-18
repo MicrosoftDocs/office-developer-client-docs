@@ -20,19 +20,19 @@ description: "Last modified: July 23, 2011"
   
 Some properties are supported by many different types of objects. The following properties are examples of properties that are used by multiple objects:
   
-- **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)) is a binary identifier used to open objects.
+- **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) is a binary identifier used to open objects.
     
-- **PR_OBJECT_TYPE** ( [PidTagObjectType](pidtagobjecttype-canonical-property.md)) is a constant used to identify the kind of object.
+- **PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md)) is a constant used to identify the kind of object.
     
-- **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) is a character string used to describe an object to the user.
+- **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) is a character string used to describe an object to the user.
     
 Other properties make sense for a single type of object. The following properties are examples of properties that apply to one type of object:
   
-- **PR_MESSAGE_CLASS** ( [PidTagMessageClass](pidtagmessageclass-canonical-property.md)) is a character string used to describe the type of a message.
+- **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) is a character string used to describe the type of a message.
     
-- **PR_ROWID** ( [PidTagRowid](pidtagrowid-canonical-property.md)) is an integer used to identify a row in a table.
+- **PR_ROWID** ([PidTagRowid](pidtagrowid-canonical-property.md)) is an integer used to identify a row in a table.
     
-- **PR_ATTACH_SIZE** ( [PidTagAttachSize](pidtagattachsize-canonical-property.md)) is an integer used to store the number of bytes in an attachment.
+- **PR_ATTACH_SIZE** ([PidTagAttachSize](pidtagattachsize-canonical-property.md)) is an integer used to store the number of bytes in an attachment.
     
 Still other properties are applicable only for a single type of object in a particular state. Properties of this type are typically message properties. When a message is first created, its set of properties is very small. As it is sent by a client to a recipient through the messaging system, the number of properties needed to describe the message increases. Some of these added properties appear only on the message as it is being delivered while others appear only on the message as it is being sent. Messages also have properties that are associated with the class to which they belong. Report messages, for example, have properties that are not supported by messages of other classes, such as note messages. 
   

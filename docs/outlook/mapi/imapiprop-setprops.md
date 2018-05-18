@@ -80,7 +80,7 @@ MAPI_E_UNEXPECTED_TYPE
     
 ## Notes to Implementers
 
-Ignore the **PR_NULL** ( [PidTagNull](pidtagnull-canonical-property.md)) property tag and all properties with a type of **PT_ERROR**. Do not make changes or report problems in the **SPropProblemArray** structure. 
+Ignore the **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)) property tag and all properties with a type of **PT_ERROR**. Do not make changes or report problems in the **SPropProblemArray** structure. 
   
 Return MAPI_E_INVALID_PARAMETER if a property of type **PT_OBJECT** is included in the property value array. Also return this error if a multiple-value property is included in the array and its **cValues** member is set to 0. 
   

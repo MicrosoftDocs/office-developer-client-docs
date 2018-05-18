@@ -36,7 +36,7 @@ Provides an aid to custom sorting tasks.
 
 This property may be left unset. If set, its value must be greater than "0x800186A0" (-2,147,383,648) and less than "0x7FFE7960" (2,147,383,648) and must be unique among tasks in the same folder.
   
-Whenever the client sets this property to a number less than the negative of the current value of the **PR_ORDINAL_MOST** ( [PidTagOrdinalMost](pidtagordinalmost-canonical-property.md)) property of the folder, the client must also update **PR_ORDINAL_MOST** on the folder. 
+Whenever the client sets this property to a number less than the negative of the current value of the **PR_ORDINAL_MOST** ([PidTagOrdinalMost](pidtagordinalmost-canonical-property.md)) property of the folder, the client must also update **PR_ORDINAL_MOST** on the folder. 
   
 The **PR_ORDINAL_MOST** property of the folder provides an efficient way to determine a unique value among tasks in the same folder. 
   

@@ -35,7 +35,7 @@ Contains an embedded table object that contains dialog box template entry identi
 
 To learn what template objects can be created inside a container, call the [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method on this property. The resulting object is the one-off table that gives the entry identifiers for all the templates that you can create inside the container. 
   
-To create the template objects, call the container object's **CreateEntry** method on the **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)) column values from the one-off table.
+To create the template objects, call the container object's **CreateEntry** method on the **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) column values from the one-off table.
   
 ## Related Resources
 

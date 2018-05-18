@@ -33,7 +33,7 @@ Contains a number that can be used to compute the deferment of sending a message
    
 ## Remarks
 
-This property is used for computing the **PR_DEFERRED_SEND_TIME** ( [PidTagDeferredSendTime](pidtagdeferredsendtime-canonical-property.md)) property when it is not present. When sending a message is deferred, the **PR_DEFERRED_SEND_NUMBER** property should be set along with the **PR_DEFERRED_SEND_UNITS** ( [PidTagDeferredSendUnits](pidtagdeferredsendunits-canonical-property.md)) property, if the **PR_DEFERRED_SEND_TIME** property is absent. 
+This property is used for computing the **PR_DEFERRED_SEND_TIME** ([PidTagDeferredSendTime](pidtagdeferredsendtime-canonical-property.md)) property when it is not present. When sending a message is deferred, the **PR_DEFERRED_SEND_NUMBER** property should be set along with the **PR_DEFERRED_SEND_UNITS** ([PidTagDeferredSendUnits](pidtagdeferredsendunits-canonical-property.md)) property, if the **PR_DEFERRED_SEND_TIME** property is absent. 
   
 The **PR_DEFERRED_SEND_NUMBER** value must be set between 0 and 999. 
   

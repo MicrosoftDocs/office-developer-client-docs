@@ -100,7 +100,7 @@ The **IMAPIProp::OpenProperty** method provides access to a property through a p
   
 ## Notes to callers
 
-To access message attachments, open the **PR_ATTACH_DATA_OBJ** ( [PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)) property with a different interface identifier, depending on the type of attachment. The following table describes how to call **OpenProperty** for the different types of attachments: 
+To access message attachments, open the **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)) property with a different interface identifier, depending on the type of attachment. The following table describes how to call **OpenProperty** for the different types of attachments: 
   
 |**Type of attachment**|**Interface identifier to use**|
 |:-----|:-----|

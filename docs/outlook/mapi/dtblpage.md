@@ -29,7 +29,7 @@ Describes a tabbed page that will be used in a dialog box that is built from a d
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related macro:  <br/> |[SizedDtblPage](sizeddtblpage.md) <br/> |
    
-```
+```cpp
 typedef struct _DTBLPAGE
 {
   ULONG ulbLpszLabel;

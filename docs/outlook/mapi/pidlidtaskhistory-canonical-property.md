@@ -34,11 +34,11 @@ Indicates the type of change that was last made to the task.
    
 ## Remarks
 
-When the value of this property is set, the **dispidTaskLastUpdate** ( [PidLidTaskLastUpdate](pidlidtasklastupdate-canonical-property.md)) property must also be set to the current time. The following table shows the **dispidTaskHistory** property values, listed in order of decreasing priority. 
+When the value of this property is set, the **dispidTaskLastUpdate** ([PidLidTaskLastUpdate](pidlidtasklastupdate-canonical-property.md)) property must also be set to the current time. The following table shows the **dispidTaskHistory** property values, listed in order of decreasing priority. 
   
 |**Value**|**Description**|
 |:-----|:-----|
-|0x00000004  <br/> |The **dispidTaskDueDate** ( [PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)) property changed.  <br/> |
+|0x00000004  <br/> |The **dispidTaskDueDate** ([PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)) property changed.  <br/> |
 |0x00000003  <br/> |Another property was changed.  <br/> |
 |0x00000001  <br/> |The task assignee accepted this task.  <br/> |
 |0x00000002  <br/> |The task assignee rejected this task.  <br/> |

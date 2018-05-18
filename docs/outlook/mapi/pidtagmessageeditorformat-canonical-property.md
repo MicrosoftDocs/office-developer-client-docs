@@ -46,7 +46,7 @@ By default, mail messages (with the message class **IPM.Note** or with a custom 
   
 There are two other ways to enforce the use of TNEF when sending a message.
   
-- Setting the **dispidUseTNEF** ( [PidLidUseTnef](pidlidusetnef-canonical-property.md)) named property to True on a message indicates TNEF should be included when converting the message from MAPI to MIME/SMTP. Note that **dispidUseTNEF** only applies when the message is sent from a POP3/SMTP mail account, and does not apply when the message is sent by other providers, such as Microsoft Exchange Server. **dispidUseTNEF** overrides the setting in **PR_MSG_EDITOR_FORMAT**.
+- Setting the **dispidUseTNEF** ([PidLidUseTnef](pidlidusetnef-canonical-property.md)) named property to True on a message indicates TNEF should be included when converting the message from MAPI to MIME/SMTP. Note that **dispidUseTNEF** only applies when the message is sent from a POP3/SMTP mail account, and does not apply when the message is sent by other providers, such as Microsoft Exchange Server. **dispidUseTNEF** overrides the setting in **PR_MSG_EDITOR_FORMAT**.
     
 - Using the **CCSF_USE_TNEF** flag when calling [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md) to convert an outgoing MAPI message to a MIME stream can also enforce TNEF. This applies even if **dispidUseTNEF** is not set. 
     

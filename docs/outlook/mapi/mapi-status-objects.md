@@ -36,11 +36,11 @@ Clients can use status objects to:
     
 Every status object implements the **IMAPIStatus** interface. For more information, see [IMAPIStatus : IMAPIProp](imapistatusimapiprop.md). However, not every status object fully supports every **IMAPIStatus** method. Because there is variation in the methods that are supported by a status object, clients need to learn about a particular status object before they can use it. Status objects are required to publish information about their features in the following three properties: 
   
- **PR_RESOURCE_METHODS** ( [PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) 
+ **PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) 
   
- **PR_RESOURCE_TYPE** ( [PidTagResourceType](pidtagresourcetype-canonical-property.md)) 
+ **PR_RESOURCE_TYPE** ([PidTagResourceType](pidtagresourcetype-canonical-property.md)) 
   
- **PR_RESOURCE_FLAGS** ( [PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) 
+ **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) 
   
 For more information about implementing a status object, see [Status Object Implementation](status-object-implementation.md). For more information about using a status object, see [Status Table and Status Objects](status-table-and-status-objects.md).
   

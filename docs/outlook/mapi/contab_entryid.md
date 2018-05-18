@@ -24,7 +24,7 @@ Contains the entry ID of the contacts folder.
 |:-----|:-----|
 |Header file:  <br/> |msomapiutil.h  <br/> |
    
-```
+```cpp
 #pragma pack(4) 
 typedef struct _contab_entryid
 {

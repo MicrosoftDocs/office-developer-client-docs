@@ -30,7 +30,7 @@ Creates a display table from the property page data contained in one or more [DT
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Service providers  <br/> |
    
-```
+```cpp
 STDAPI BuildDisplayTable(
   LPALLOCATEBUFFER lpAllocateBuffer,
   LPALLOCATEMORE lpAllocateMore,

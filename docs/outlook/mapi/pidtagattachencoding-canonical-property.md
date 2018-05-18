@@ -35,7 +35,7 @@ Contains an ASN.1 object identifier that specifies the encoding for an attachmen
 
 This property identifies the algorithm used to transform the data in an attachment.
   
- **Note** The **PR_ATTACH_ENCODING** and **PR_ATTACH_TAG** ( [PidTagAttachTag](pidtagattachtag-canonical-property.md)) properties should not be confused. They are not paired or related. **PR_ATTACH_TAG** identifies the application that originally generated the attachment. "Object" has a much more general meaning in the term object identifier, and in X.400, than in object-oriented programming. 
+ **Note** The **PR_ATTACH_ENCODING** and **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)) properties should not be confused. They are not paired or related. **PR_ATTACH_TAG** identifies the application that originally generated the attachment. "Object" has a much more general meaning in the term object identifier, and in X.400, than in object-oriented programming. 
   
 The object identifier syntax and sample object identifiers are defined in the MAPIOID.H header file. Values for **PR_ATTACH_ENCODING** are not limited to those defined in MAPIOID.H. For example, attached Macintosh files can use an identifier such as MacBinary. 
   

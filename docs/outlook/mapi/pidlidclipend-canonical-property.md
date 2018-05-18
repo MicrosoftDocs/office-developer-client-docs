@@ -36,7 +36,7 @@ Specifies the end date and time of the event in Coordinated Universal Time (UTC)
 
 For single instance calendar objects, it specifies the end date and time of the event in UTC. For a recurring series, this property specifies midnight on the date of the last instance of the recurring series in UTC, unless the recurring series has no end, in which case the value must be 31 August 4500, 11:59 p.m.
   
-The value of this property must be set to the value of the **dispidApptEndWhole** ( [PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)).
+The value of this property must be set to the value of the **dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)).
   
 ## Related Resources
 

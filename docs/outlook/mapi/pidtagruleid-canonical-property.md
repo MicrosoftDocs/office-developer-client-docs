@@ -35,7 +35,7 @@ Specifies a unique identifier the messaging server generates for each rule when 
 
 The client must not specify this property when creating a new rule but must specify it when modifying or deleting a rule.
   
-When deleting a rule, the only property the client must pass is **PR_RULE_ID** and should not pass in any other property. The server must ignore properties other than this property. When adding a rule, the client must not pass in **PR_RULE_ID**, it must pass in the **PR_RULE_CONDITION** ( [PidTagRuleCondition](pidtagrulecondition-canonical-property.md)), **PR_RULE_ACTIONS** ( [PidTagRuleActions](pidtagruleactions-canonical-property.md)) and **PR_RULE_PROVIDER** ( [PidTagRuleProvider](pidtagruleprovider-canonical-property.md)) properties. When modifying a rule, the client must pass in **PR_RULE_ID** and should pass in the rest of the properties that need to be modified. 
+When deleting a rule, the only property the client must pass is **PR_RULE_ID** and should not pass in any other property. The server must ignore properties other than this property. When adding a rule, the client must not pass in **PR_RULE_ID**, it must pass in the **PR_RULE_CONDITION** ([PidTagRuleCondition](pidtagrulecondition-canonical-property.md)), **PR_RULE_ACTIONS** ([PidTagRuleActions](pidtagruleactions-canonical-property.md)) and **PR_RULE_PROVIDER** ([PidTagRuleProvider](pidtagruleprovider-canonical-property.md)) properties. When modifying a rule, the client must pass in **PR_RULE_ID** and should pass in the rest of the properties that need to be modified. 
   
 ## Related Resources
 

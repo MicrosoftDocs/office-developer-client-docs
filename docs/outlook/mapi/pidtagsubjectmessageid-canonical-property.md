@@ -33,7 +33,7 @@ Contains a binary value that is copied from the message for which a report is be
    
 ## Remarks
 
-This property, like the **PR_REPORT_TAG** ( [PidTagReportTag](pidtagreporttag-canonical-property.md)) property, can be used to correlate a report with the original message. 
+This property, like the **PR_REPORT_TAG** ([PidTagReportTag](pidtagreporttag-canonical-property.md)) property, can be used to correlate a report with the original message. 
   
 ## Related Resources
 

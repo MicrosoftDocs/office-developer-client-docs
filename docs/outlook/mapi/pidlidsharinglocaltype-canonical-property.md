@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Specifies the value of the **PR_CONTAINER_CLASS** ( [PidTagContainerClass](pidtagcontainerclass-canonical-property.md)) property of the folder that is being shared. This is a property of a sharing message.
+Specifies the value of the **PR_CONTAINER_CLASS** ([PidTagContainerClass](pidtagcontainerclass-canonical-property.md)) property of the folder that is being shared. This is a property of a sharing message.
   
 |||
 |:-----|:-----|

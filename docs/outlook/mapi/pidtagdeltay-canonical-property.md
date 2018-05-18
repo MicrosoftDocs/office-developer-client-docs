@@ -33,7 +33,7 @@ Contains the height of a dialog box control in standard Windows dialog units.
    
 ## Remarks
 
-The **PR_XPOS** ( [PidTagXCoordinate](pidtagxcoordinate-canonical-property.md)), **PR_YPOS** ( [PidTagYCoordinate](pidtagycoordinate-canonical-property.md)), **PR_DELTAX** ( [PidTagDeltaX](pidtagdeltax-canonical-property.md)), and this property control the position and size the dialog box control. 
+The **PR_XPOS** ([PidTagXCoordinate](pidtagxcoordinate-canonical-property.md)), **PR_YPOS** ([PidTagYCoordinate](pidtagycoordinate-canonical-property.md)), **PR_DELTAX** ([PidTagDeltaX](pidtagdeltax-canonical-property.md)), and this property control the position and size the dialog box control. 
   
 ## Related Resources
 

@@ -34,7 +34,7 @@ Specifies the type of the remote shared folder. This is a property of a sharing 
    
 ## Remarks
 
-This property must be set to the same value as the **dispidSharingLocalType** ( [PidLidSharingLocalType](pidlidsharinglocaltype-canonical-property.md)) property and should be ignored.
+This property must be set to the same value as the **dispidSharingLocalType** ([PidLidSharingLocalType](pidlidsharinglocaltype-canonical-property.md)) property and should be ignored.
   
 ## Related Resources
 

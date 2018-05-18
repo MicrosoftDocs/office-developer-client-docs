@@ -55,7 +55,7 @@ MAPI creates **MAPIUID** structures in a way that makes it very rare for two dif
     
 - In the entry identifiers of message store and address book objects to identify the responsible service provider.
     
-- In the **PR_SEARCH_KEY** ( [PidTagSearchKey](pidtagsearchkey-canonical-property.md)) property of messages.
+- In the **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) property of messages.
     
 To generate a **MAPIUID** identifier for a search key, service providers call [IMAPISupport::NewUID](imapisupport-newuid.md).
   

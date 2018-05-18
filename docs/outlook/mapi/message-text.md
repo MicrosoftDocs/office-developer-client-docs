@@ -28,7 +28,7 @@ The message text is not line-wrapped unless some line exceeds 140 characters in 
     
      _Content-Transfer-Encoding: quoted-printable_
     
-For inbound MIME messages, if the first message content part has  _Content-type: text/\*_ (that is, any text type) and its character set is recognized, it is mapped to **PR_BODY** ( [PidTagBody](pidtagbody-canonical-property.md)). A first message content part not meeting this criterion becomes an attachment. Any subsequent parts also become attachments.
+For inbound MIME messages, if the first message content part has  _Content-type: text/\*_ (that is, any text type) and its character set is recognized, it is mapped to **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)). A first message content part not meeting this criterion becomes an attachment. Any subsequent parts also become attachments.
   
 In uuencode mode, message text in outbound messages is line-wrapped to 78 columns, as for MS Mail 3.x. The content-type is "text/plain." To preserve the original message's paragraph breaks under these circumstances, observe the following conventions in the wrapped text. There are three possible reasons for ending a line of text, each with its own character sequence:
   

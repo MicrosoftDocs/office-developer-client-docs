@@ -41,7 +41,7 @@ HRESULT CreateMsgService(
     
  _lpszDisplayName_
   
-> [in] A pointer to the display name of the message service to add. The  _lpszDisplayName_ parameter is ignored if the message service has set the **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property in the MapiSvc.inf file.
+> [in] A pointer to the display name of the message service to add. The  _lpszDisplayName_ parameter is ignored if the message service has set the **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property in the MapiSvc.inf file.
     
  _ulUIParam_
   
@@ -93,9 +93,9 @@ To retrieve the **MAPIUID** for the created message service, use the following p
   
 1. Call the [IMsgServiceAdmin::GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md) method to get the message service administration table. 
     
-2. Locate the row that represents the message service by placing a restriction on the table that matches the **PR_SERVICE_NAME** ( [PidTagServiceName](pidtagservicename-canonical-property.md)) property with the name of the message service. 
+2. Locate the row that represents the message service by placing a restriction on the table that matches the **PR_SERVICE_NAME** ([PidTagServiceName](pidtagservicename-canonical-property.md)) property with the name of the message service. 
     
-3. Retrieve the service's **PR_SERVICE_UID** ( [PidTagServiceUid](pidtagserviceuid-canonical-property.md)) property. 
+3. Retrieve the service's **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) property. 
     
 4. Pass the value of the **PR_SERVICE_UID** property in the  _lpUid_ parameter to the [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md) method to configure the service. 
     

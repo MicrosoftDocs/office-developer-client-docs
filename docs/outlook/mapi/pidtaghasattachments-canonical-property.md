@@ -33,7 +33,7 @@ Contains TRUE if a message contains at least one attachment.
    
 ## Remarks
 
-The message store copies this property from the **MSGFLAG_HASATTACH** flag of the **PR_MESSAGE_FLAGS** ( [PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property. A client application can then use **PR_HASATTACH** to sort on message attachments in a message viewer. 
+The message store copies this property from the **MSGFLAG_HASATTACH** flag of the **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property. A client application can then use **PR_HASATTACH** to sort on message attachments in a message viewer. 
   
 The value this property is updated with the [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method. 
   

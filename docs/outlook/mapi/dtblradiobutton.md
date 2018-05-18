@@ -28,7 +28,7 @@ Describes one radio button that will be part of a radio button group. The radio 
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _DTBLRADIOBUTTON
 {
   ULONG ulbLpszLabel;

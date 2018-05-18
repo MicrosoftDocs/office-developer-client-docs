@@ -33,7 +33,7 @@ Contains the sensitivity value assigned by the sender of the first version of a 
    
 ## Remarks
 
-A client application should set this property to the same value as the **PR_SENSITIVITY** ( [PidTagSensitivity](pidtagsensitivity-canonical-property.md)) property when the message is first submitted. It should never be changed subsequently.
+A client application should set this property to the same value as the **PR_SENSITIVITY** ([PidTagSensitivity](pidtagsensitivity-canonical-property.md)) property when the message is first submitted. It should never be changed subsequently.
   
 This property is used by the transport provider to protect the sensitivity on copied entries. It enables it, for example, to block modification of the original message text in a forward of or reply to a message that was originally marked **SENSITIVITY_PRIVATE**.
   

@@ -36,16 +36,16 @@ MAPI will call your provider's [IABProvider::Logon](iabprovider-logon.md) method
     
 5. Check that the properties are all available and valid. If necessary and allowed, display a dialog box to prompt the user to make corrections or additions to invalid or missing information and call the profile section's [IMAPIProp::SetProps](imapiprop-setprops.md) method to save any changes. Some of the common properties that should be available include: 
     
-    **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md))
+    **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))
     
-    **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md))
+    **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))
     
-    **PR_PROVIDER_DISPLAY** ( [PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md))
+    **PR_PROVIDER_DISPLAY** ([PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md))
     
-    **PR_RECORD_KEY** ( [PidTagRecordKey](pidtagrecordkey-canonical-property.md))
+    **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))
     
     > [!NOTE]
-    > Do not set **PR_RESOURCE_FLAGS** ( [PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) or **PR_PROVIDER_DLL_NAME** ( [PidTagProviderDllName](pidtagproviderdllname-canonical-property.md)). At logon time, these properties are read-only. 
+    > Do not set **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) or **PR_PROVIDER_DLL_NAME** ([PidTagProviderDllName](pidtagproviderdllname-canonical-property.md)). At logon time, these properties are read-only. 
   
 6. If one or more configuration properties are unavailable, fail and return the value MAPI_E_UNCONFIGURED.
     

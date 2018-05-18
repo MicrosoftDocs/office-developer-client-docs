@@ -29,7 +29,7 @@ Computes the number of bytes in an existing [SMAPIFormInfoArray](smapiforminfoar
 |Header file:  <br/> |Mapiform.h  <br/> |
 |Related structure:  <br/> |**SMAPIFormInfoArray** <br/> |
    
-```
+```cpp
 CbMAPIFormInfoArray (_c)
 ```
 

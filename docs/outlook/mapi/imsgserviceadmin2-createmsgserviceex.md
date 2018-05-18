@@ -42,7 +42,7 @@ HRESULT CreateMsgServiceEx(
     
  _lpszDisplayName_
   
-> [in] A pointer to the display name of the message service to add. The  _lpszDisplayName_ parameter is ignored if the message service has set the **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property in the MapiSvc.inf file.
+> [in] A pointer to the display name of the message service to add. The  _lpszDisplayName_ parameter is ignored if the message service has set the **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property in the MapiSvc.inf file.
     
  _ulUIParam_
   
@@ -92,7 +92,7 @@ After all the information has been copied from MapiSvc.inf, the message service'
   
 ## Notes to Callers
 
-If the **CreateMsgServiceEx** _lpuidService_ argument is not NULL, the **PR_SERVICE_UID** ( [PidTagServiceUid](pidtagserviceuid-canonical-property.md)) property of the message service that was added to the profile is returned in the **GUID** to which it points. 
+If the **CreateMsgServiceEx** _lpuidService_ argument is not NULL, the **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) property of the message service that was added to the profile is returned in the **GUID** to which it points. 
   
 Pass the value of the **PR_SERVICE_UID** property in the  _lpuidService_ parameter to the [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md) method to configure the service. 
   

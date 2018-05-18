@@ -51,7 +51,7 @@ _ulFlags_
     
 MAPI_BEST_ACCESS 
   
-> Requests that the entry be opened with the maximum allowed network and client permissions. For example, if the client has read/write permission, the address book provider should attempt to open the entry with read/write permission. The client can retrieve the access level that was granted by calling the open entry's [IMAPIProp::GetProps](imapiprop-getprops.md) method and retrieving the **PR_ACCESS_LEVEL** ( [PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)) property.
+> Requests that the entry be opened with the maximum allowed network and client permissions. For example, if the client has read/write permission, the address book provider should attempt to open the entry with read/write permission. The client can retrieve the access level that was granted by calling the open entry's [IMAPIProp::GetProps](imapiprop-getprops.md) method and retrieving the **PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)) property.
     
 MAPI_CACHE_ONLY
   

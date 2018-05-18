@@ -22,9 +22,9 @@ A message attachment is some additional data, such as a file, another message, o
   
  **To create a message attachment**
   
-1. Call the message's [IMessage::CreateAttach](imessage-createattach.md) method and pass NULL as the interface identifier. **CreateAttach** returns a number that uniquely identifies the new attachment within the message. The attachment number is stored in the **PR_ATTACH_NUM** ( [PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) property and is valid only as long as the message containing the attachment is open.
+1. Call the message's [IMessage::CreateAttach](imessage-createattach.md) method and pass NULL as the interface identifier. **CreateAttach** returns a number that uniquely identifies the new attachment within the message. The attachment number is stored in the **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) property and is valid only as long as the message containing the attachment is open.
     
-2. Call [IMAPIProp::SetProps](imapiprop-setprops.md) to set **PR_ATTACH_METHOD** ( [PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) to indicate how to access the attachment. **PR_ATTACH_METHOD** is required. Set it to: 
+2. Call [IMAPIProp::SetProps](imapiprop-setprops.md) to set **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) to indicate how to access the attachment. **PR_ATTACH_METHOD** is required. Set it to: 
     
   - ATTACH_BY_VALUE if the attachment is binary data.
     
@@ -36,15 +36,15 @@ A message attachment is some additional data, such as a file, another message, o
     
 3. Set the appropriate attachment data property:
     
-  - **PR_ATTACH_DATA_BIN** ( [PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) for binary data and OLE 1 objects.
+  - **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) for binary data and OLE 1 objects.
     
-  - **PR_ATTACH_PATHNAME** ( [PidTagAttachPathname](pidtagattachpathname-canonical-property.md)) for files.
+  - **PR_ATTACH_PATHNAME** ([PidTagAttachPathname](pidtagattachpathname-canonical-property.md)) for files.
     
-  - **PR_ATTACH_DATA_OBJ** ( [PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)) for messages and OLE 2 objects.
+  - **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)) for messages and OLE 2 objects.
     
-4. Set **PR_ATTACH_RENDERING** ( [PidTagAttachRendering](pidtagattachrendering-canonical-property.md)) to hold the graphic representation of the attachment for file or binary attachments. Do not set it for OLE objects, which store the rendering information internally, or for attached messages. 
+4. Set **PR_ATTACH_RENDERING** ([PidTagAttachRendering](pidtagattachrendering-canonical-property.md)) to hold the graphic representation of the attachment for file or binary attachments. Do not set it for OLE objects, which store the rendering information internally, or for attached messages. 
     
-5. Set **PR_RENDERING_POSITION** ( [PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) to indicate where the attachment should be displayed. **PR_RENDERING_POSITION** applies only to clients that set the **PR_BODY** property. If you only support **PR_RTF_COMPRESSED**, place the following placeholder information in the compressed stream:
+5. Set **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) to indicate where the attachment should be displayed. **PR_RENDERING_POSITION** applies only to clients that set the **PR_BODY** property. If you only support **PR_RTF_COMPRESSED**, place the following placeholder information in the compressed stream:
     
   ```
   \objattph
@@ -53,9 +53,9 @@ A message attachment is some additional data, such as a file, another message, o
 
     To set **PR_RENDERING_POSITION**, assign either a number that represents an ordinal offset in characters, with the first character of **PR_BODY** being 0, if you need to know where in the message the attachment is rendered, or 0xFFFFFFFF, if you do not render attachments within **PR_BODY**.
     
-6. Set **PR_ATTACH_FILENAME** ( [PidTagAttachFilename](pidtagattachfilename-canonical-property.md)) to indicate the short name of the file for a file attachment and **PR_ATTACH_LONG_FILENAME** ( [PidTagAttachLongFilename](pidtagattachlongfilename-canonical-property.md)) to indicate the name of the file as supported on a platform that handles the long filename format. Both properties are optional. However, if you set **PR_ATTACH_LONG_FILENAME**, also set **PR_ATTACH_FILENAME**. 
+6. Set **PR_ATTACH_FILENAME** ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md)) to indicate the short name of the file for a file attachment and **PR_ATTACH_LONG_FILENAME** ([PidTagAttachLongFilename](pidtagattachlongfilename-canonical-property.md)) to indicate the name of the file as supported on a platform that handles the long filename format. Both properties are optional. However, if you set **PR_ATTACH_LONG_FILENAME**, also set **PR_ATTACH_FILENAME**. 
     
-7. Set **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) to indicate the name for the attachment that can appear in a dialog box. PR_DISPLAY_NAME is optional. 
+7. Set **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) to indicate the name for the attachment that can appear in a dialog box. PR_DISPLAY_NAME is optional. 
     
  **To set PR_ATTACH_DATA_BIN**
   

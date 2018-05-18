@@ -34,7 +34,7 @@ Specifies the state of the contact's electronic addresses and represents a set o
    
 ## Remarks
 
-The value of the **dispidABPArrayType** property must be a combination of flags that specify the state of the contact object. Individual flags are specified in the following table. If this property is set, the **dispidABPEmailList** ( [PidLidAddressBookProviderEmailList](pidlidaddressbookprovideremaillist-canonical-property.md)) property must be set, as well. These two properties must be kept synchronized with each other. For example, if **dispidABPArrayType** has the bit "0x00000001 set", one of the values of **dispidABPEmailList** must be "0x00000000". 
+The value of the **dispidABPArrayType** property must be a combination of flags that specify the state of the contact object. Individual flags are specified in the following table. If this property is set, the **dispidABPEmailList** ([PidLidAddressBookProviderEmailList](pidlidaddressbookprovideremaillist-canonical-property.md)) property must be set, as well. These two properties must be kept synchronized with each other. For example, if **dispidABPArrayType** has the bit "0x00000001 set", one of the values of **dispidABPEmailList** must be "0x00000000". 
   
 |**Bit**|**Description**|
 |:-----|:-----|

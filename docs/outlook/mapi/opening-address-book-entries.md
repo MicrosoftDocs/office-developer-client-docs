@@ -38,15 +38,15 @@ A NULL entry identifier indicates a request to open the address book provider's 
     
 7. Create the object of the appropriate type and set the following basic properties:
     
-    **PR_DISPLAY_TYPE** ( [PidTagDisplayType](pidtagdisplaytype-canonical-property.md))
+    **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))
     
-    **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md))
+    **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))
     
-    **PR_OBJECT_TYPE** ( [PidTagObjectType](pidtagobjecttype-canonical-property.md))
+    **PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))
     
-    **PR_ADDRTYPE** ( [PidTagAddressType](pidtagaddresstype-canonical-property.md))
+    **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))
     
-    Calculate **PR_EMAIL_ADDRESS** ( [PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) and **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) from information in the entry identifier.
+    Calculate **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) and **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) from information in the entry identifier.
     
 8. Return a pointer to the interface implementation for the object. 
     

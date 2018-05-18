@@ -29,7 +29,7 @@ Computes the number of bytes in an existing [SPropProblemArray](spropproblemarra
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**SPropProblemArray** <br/> |
    
-```
+```cpp
 CbSPropProblemArray (_lparray)
 ```
 

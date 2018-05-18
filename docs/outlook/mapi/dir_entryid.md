@@ -24,7 +24,7 @@ Describes the properties of a directory entry id.
 |:-----|:-----|
 |Header file:  <br/> |entryid.h  <br/> |
    
-```
+```cpp
 #pragma pack(4)
 typedef struct _dir_entryid
 {

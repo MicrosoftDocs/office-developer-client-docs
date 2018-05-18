@@ -26,15 +26,15 @@ When a resent message is received, it should look exactly like the original mess
   
 1. Call [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) to create a new message. 
     
-2. Copy all of the properties from the original message, excluding the ** PR_MESSAGE_RECIPIENTS ** ( [PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) property, and the **PR_SENDER** and **PR_SENT_REPRESENTING** properties. Make the following property modifications: 
+2. Copy all of the properties from the original message, excluding the ** PR_MESSAGE_RECIPIENTS ** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) property, and the **PR_SENDER** and **PR_SENT_REPRESENTING** properties. Make the following property modifications: 
     
-  - Set **PR_MESSAGE_CLASS** ( [PidTagMessageClass](pidtagmessageclass-canonical-property.md)) to the report's **PR_ORIG_MESSAGE_CLASS ** ( [PidTagOriginalMessageClass](pidtagoriginalmessageclass-canonical-property.md)) property.
+  - Set **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) to the report's **PR_ORIG_MESSAGE_CLASS ** ([PidTagOriginalMessageClass](pidtagoriginalmessageclass-canonical-property.md)) property.
     
-  - Set the MSGFLAG_RESEND flag in the **PR_MESSAGE_FLAGS** ( [PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property.
+  - Set the MSGFLAG_RESEND flag in the **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property.
     
-  - Set **PR_ORIGINAL_ENTRYID** ( [PidTagOriginalEntryId](pidtagoriginalentryid-canonical-property.md)) to the original message's **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)) property.
+  - Set **PR_ORIGINAL_ENTRYID** ([PidTagOriginalEntryId](pidtagoriginalentryid-canonical-property.md)) to the original message's **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) property.
     
-  - For each recipient, set MAPI_SUBMITTED in the **PR_RECIPIENT_TYPE** ( [PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) property. 
+  - For each recipient, set MAPI_SUBMITTED in the **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) property. 
     
   - Duplicate each failed recipient. Change the **PR_RECIPIENT_TYPE** property for the duplicated recipient to MAPI_P1. Therefore, for each failed recipient there are now two entries in the recipient table: one with **PR_RECIPIENT_TYPE** set to its original value and the other with **PR_RECIPIENT_TYPE** set to MAPI_P1. 
     

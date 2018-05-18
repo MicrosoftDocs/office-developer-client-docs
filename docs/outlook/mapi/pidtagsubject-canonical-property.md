@@ -35,7 +35,7 @@ Contains the full subject of a message.
 
 These properties are recommended on all message objects. 
   
-These properties are always the full subject text, that is, the concatenation of the prefix and the normalized subject. If there is no prefix, the normalized subject should be the same as the subject. A message store or transport provider uses both these properties and **PR_SUBJECT_PREFIX** ( [PidTagSubjectPrefix](pidtagsubjectprefix-canonical-property.md)) properties to compute the normalized subject using the rule described under **PR_NORMALIZED_SUBJECT** ( [PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)).
+These properties are always the full subject text, that is, the concatenation of the prefix and the normalized subject. If there is no prefix, the normalized subject should be the same as the subject. A message store or transport provider uses both these properties and **PR_SUBJECT_PREFIX** ([PidTagSubjectPrefix](pidtagsubjectprefix-canonical-property.md)) properties to compute the normalized subject using the rule described under **PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)).
   
 The subject properties are typically small strings of fewer than 256 characters, and a message store provider is not obligated to support the **IStream** interface on them. The client should always attempt access through the **IMAPIProp** interface first, and resort to **IStream** only if **MAPI_E_NOT_ENOUGH_MEMORY** is returned. 
   

@@ -34,7 +34,7 @@ Specifies the first display name that corresponds to the e-mail address that is 
    
 ## Remarks
 
-If the value of the **dispidEmail1AddrType** ( [PidLidEmail1AddressType](pidlidemail1addresstype-canonical-property.md)) property is "SMTP", the value of the respective **dispidEmail1OriginalDisplayName** property should equal the value of the respective **dispidEmail1EmailAddress** ( [PidLidEmail1EmailAddress](pidlidemail1emailaddress-canonical-property.md)) property. This property displays an alternative user-friendly address that is equivalent to the one in the **dispidEmail1EmailAddress** property. 
+If the value of the **dispidEmail1AddrType** ([PidLidEmail1AddressType](pidlidemail1addresstype-canonical-property.md)) property is "SMTP", the value of the respective **dispidEmail1OriginalDisplayName** property should equal the value of the respective **dispidEmail1EmailAddress** ([PidLidEmail1EmailAddress](pidlidemail1emailaddress-canonical-property.md)) property. This property displays an alternative user-friendly address that is equivalent to the one in the **dispidEmail1EmailAddress** property. 
   
 ## Related Resources
 

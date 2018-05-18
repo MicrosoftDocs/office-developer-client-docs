@@ -29,7 +29,7 @@ Describes an edit control that will be used in a dialog box built from a display
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related macro:  <br/> |[SizedDtblEdit](sizeddtbledit.md) <br/> |
    
-```
+```cpp
 typedef struct _DTBLEDIT
 {
   ULONG ulbLpszCharsAllowed;

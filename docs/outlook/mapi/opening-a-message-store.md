@@ -40,11 +40,11 @@ To open a message store, you must have its entry identifier available. Most clie
     
 3. Build a restriction to filter out the row that represents the message store to be opened. For more information about looking for the default message store, see [Opening the Default Message Store](opening-the-default-message-store.md). To look for a message store by name, apply any of the following property restrictions:
     
-  - Match **PR_PROVIDER_DISPLAY** ( [PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md)) with the general name for this type of message store. For example, PR_PROVIDER_DISPLAY might be set to "Personal Folders".
+  - Match **PR_PROVIDER_DISPLAY** ([PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md)) with the general name for this type of message store. For example, PR_PROVIDER_DISPLAY might be set to "Personal Folders".
     
-  - Match **PR_MDB_PROVIDER** ( [PidTagStoreProvider](pidtagstoreprovider-canonical-property.md)) with the specific **MAPIUID** for this type of message store. 
+  - Match **PR_MDB_PROVIDER** ([PidTagStoreProvider](pidtagstoreprovider-canonical-property.md)) with the specific **MAPIUID** for this type of message store. 
     
-  - Match **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) with the name for this particular message store. For example, **PR_DISPLAY_NAME** might be set to "My Messages for Fiscal Year 2010." 
+  - Match **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) with the name for this particular message store. For example, **PR_DISPLAY_NAME** might be set to "My Messages for Fiscal Year 2010." 
     
 4. Call [HrQueryAllRows](hrqueryallrows.md) to retrieve the appropriate row from the message store table. The entry identifier for the row will be included in the property value array for the **aRow** member of the row set pointed to by the  _pprows_ parameter. 
     

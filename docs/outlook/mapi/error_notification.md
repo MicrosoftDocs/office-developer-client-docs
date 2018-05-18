@@ -28,7 +28,7 @@ Describes information that relate to a critical error. This causes an error noti
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _ERROR_NOTIFICATION
 {
   ULONG cbEntryID;

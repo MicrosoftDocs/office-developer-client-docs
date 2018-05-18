@@ -28,7 +28,7 @@ Describes a drop-down list that will be used in a dialog box that is built from 
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _DTBLMVDDLBX
 {
   ULONG ulFlags;

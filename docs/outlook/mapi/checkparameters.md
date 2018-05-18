@@ -30,7 +30,7 @@ Calls an internal function to validate debugging parameters on service provider 
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Service providers  <br/> |
    
-```
+```cpp
 HRESULT CheckParameters(
   METHODS eMethod,
   LPVOID First

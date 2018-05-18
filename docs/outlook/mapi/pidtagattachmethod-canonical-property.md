@@ -41,11 +41,11 @@ NO_ATTACHMENT
     
 ATTACH_BY_VALUE 
   
-> The **PR_ATTACH_DATA_BIN** ( [PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) property contains the attachment data. 
+> The **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) property contains the attachment data. 
     
 ATTACH_BY_REFERENCE 
   
-> The **PR_ATTACH_PATHNAME** ( [PidTagAttachPathname](pidtagattachpathname-canonical-property.md)) or **PR_ATTACH_LONG_PATHNAME** ( [PidTagAttachLongPathname](pidtagattachlongpathname-canonical-property.md)) property contains a fully-qualified path identifying the attachment to recipients with access to a common file server. 
+> The **PR_ATTACH_PATHNAME** ([PidTagAttachPathname](pidtagattachpathname-canonical-property.md)) or **PR_ATTACH_LONG_PATHNAME** ([PidTagAttachLongPathname](pidtagattachlongpathname-canonical-property.md)) property contains a fully-qualified path identifying the attachment to recipients with access to a common file server. 
     
 ATTACH_BY_REF_RESOLVE 
   
@@ -57,7 +57,7 @@ ATTACH_BY_REF_ONLY
     
 ATTACH_EMBEDDED_MSG 
   
-> The **PR_ATTACH_DATA_OBJ** ( [PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)) property contains an embedded object that supports the **IMessage** interface. 
+> The **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)) property contains an embedded object that supports the **IMessage** interface. 
     
 ATTACH_OLE 
   
@@ -79,7 +79,7 @@ If **ATTACH_BY_REF_RESOLVE** is set, **PR_ATTACH_DATA_BIN** must be empty. When 
   
 If **ATTACH_BY_REF_ONLY** is set, **PR_ATTACH_DATA_BIN** must be empty, and the messaging system never resolves the attachment reference. Use this value when you want to send the link but not the data. 
   
-When the OLE object is in OLE 2.0 **IStorage** format, the data is accessible through **PR_ATTACH_DATA_OBJ**. When the OLE object is in OLE 1.0 **OLESTREAM** format, the data is accessible through **PR_ATTACH_DATA_BIN** as an **IStream**. The type of the OLE encoding can be determined by the **PR_ATTACH_TAG** ( [PidTagAttachTag](pidtagattachtag-canonical-property.md)) value. 
+When the OLE object is in OLE 2.0 **IStorage** format, the data is accessible through **PR_ATTACH_DATA_OBJ**. When the OLE object is in OLE 1.0 **OLESTREAM** format, the data is accessible through **PR_ATTACH_DATA_BIN** as an **IStream**. The type of the OLE encoding can be determined by the **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)) value. 
   
 For more information on OLE interfaces and formats, see the  *OLE Programmer's Reference*  . 
   

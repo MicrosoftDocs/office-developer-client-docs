@@ -40,7 +40,7 @@ HRESULT CopyProps(
 
  _lpIncludeProps_
   
-> [in] A pointer to a property tag array that specifies the properties to copy or move. **PR_NULL** ( [PidTagNull](pidtagnull-canonical-property.md)) cannot be included in the array. The  _lpIncludeProps_ parameter cannot be **null**.
+> [in] A pointer to a property tag array that specifies the properties to copy or move. **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)) cannot be included in the array. The  _lpIncludeProps_ parameter cannot be **null**.
     
  _ulUIParam_
   
@@ -90,7 +90,7 @@ S_OK
     
 MAPI_E_COLLISION 
   
-> A subobject cannot be copied because a subobject with the same display name, defined by the **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property, already exists in the destination object. 
+> A subobject cannot be copied because a subobject with the same display name, defined by the **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property, already exists in the destination object. 
     
 MAPI_E_DECLINE_COPY 
   
@@ -154,13 +154,13 @@ If **CopyProps** returns S_OK, free the returned **SPropProblemArray** structure
   
 If you are copying properties that are unique to the source object type, you must make sure that the destination object is of the same type. **CopyProps** does not prevent you from associating properties that typically belong to one type of object with another type of object. It is up to you to copy properties that make sense for the destination object. For example, you should not copy message properties to an address book container. 
   
-To ensure that you are copying between objects of the same type, check that the source and destination object are the same type, either by comparing object pointers or calling the [IUnknown::QueryInterface](http://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx) method. Set the interface identifier pointed to by  _lpInterface_ to the standard interface for the source object. Also, ensure that the object type or **PR_OBJECT_TYPE** ( [PidTagObjectType](pidtagobjecttype-canonical-property.md)) property is the same for the two objects. For example, if you are copying from a message, set  _lpInterface_ to IID_IMessage and the **PR_OBJECT_TYPE** for both objects to MAPI_MESSAGE. 
+To ensure that you are copying between objects of the same type, check that the source and destination object are the same type, either by comparing object pointers or calling the [IUnknown::QueryInterface](http://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx) method. Set the interface identifier pointed to by  _lpInterface_ to the standard interface for the source object. Also, ensure that the object type or **PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md)) property is the same for the two objects. For example, if you are copying from a message, set  _lpInterface_ to IID_IMessage and the **PR_OBJECT_TYPE** for both objects to MAPI_MESSAGE. 
   
 If an invalid pointer is passed in the  _lpDestObj_ parameter, the results are unpredictable. 
   
-To copy a message's recipient list, call the message's **CopyProps** method and include the **PR_MESSAGE_RECIPIENTS** ( [PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) property in the property tag array. To copy the message's attachments, include the **PR_MESSAGE_ATTACHMENTS** ( [PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) property. 
+To copy a message's recipient list, call the message's **CopyProps** method and include the **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) property in the property tag array. To copy the message's attachments, include the **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) property. 
   
-To copy a folder or address book container's hierarchy or contents table, include the **PR_CONTAINER_HIERARCHY** ( [PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) or **PR_CONTAINER_CONTENTS** ( [PidTagContainerContents](pidtagcontainercontents-canonical-property.md)) properties in the property tag array. To include a folder's associated contents table, include the **PR_FOLDER_ASSOCIATED_CONTENTS** ( [PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)) property in the array. 
+To copy a folder or address book container's hierarchy or contents table, include the **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) or **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)) properties in the property tag array. To include a folder's associated contents table, include the **PR_FOLDER_ASSOCIATED_CONTENTS** ([PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)) property in the array. 
   
 ## MFCMAPI Reference
 

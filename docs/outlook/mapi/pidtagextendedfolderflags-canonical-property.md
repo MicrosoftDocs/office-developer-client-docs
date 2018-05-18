@@ -57,7 +57,7 @@ Possible ID values include:
     
 - SearchFolderID
     
-    The data field is a 16-byte field. When the application creates a persistent search folder, it must set this field on the folder to the same value as the **PR_WB_SF_TAG** ( [PidTagSearchFolderId)](pidtagsearchfolderid-canonical-property.md)) binary property on the Search Folder Message.
+    The data field is a 16-byte field. When the application creates a persistent search folder, it must set this field on the folder to the same value as the **PR_WB_SF_TAG** ([PidTagSearchFolderId)](pidtagsearchfolderid-canonical-property.md)) binary property on the Search Folder Message.
     
 - ToDoFolderVersion
     

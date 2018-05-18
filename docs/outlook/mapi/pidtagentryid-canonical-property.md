@@ -41,7 +41,7 @@ This property can contain either a long-term or a short-term identifier. Short-t
   
 This property is always available through the [IMAPIProp::GetProps](imapiprop-getprops.md) method following the first call to the [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method. Some service providers can make it available immediately after instantiation. The provider must always return a long-term entry identifier from **GetProps**. Therefore, to convert a short-term identifier to long-term, simply open the object and get its this property through **GetProps**. 
   
-The following table summarizes important differences among this property, **PR_RECORD_KEY** ( [PidTagRecordKey](pidtagrecordkey-canonical-property.md)), and **PR_SEARCH_KEY** ( [PidTagSearchKey](pidtagsearchkey-canonical-property.md)). 
+The following table summarizes important differences among this property, **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)), and **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)). 
   
 |**Characteristic**|**PR_ENTRYID**|**PR_RECORD_KEY**|**PR_SEARCH_KEY**|
 |:-----|:-----|:-----|:-----|

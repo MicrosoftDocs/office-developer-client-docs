@@ -34,7 +34,7 @@ Specifies which electronic address properties are set on the contact.
    
 ## Remarks
 
-Each PT_LONG value in this property must be unique in the property and must be set to one of the values in the following table. If this property is set, the **dispidABPArrayType** ( [PidLidAddressBookProviderArrayType](pidlidaddressbookproviderarraytype-canonical-property.md)) property must also be set. These two properties must be kept synchronized with each other. For example, if one of the values in **dispidABPEmailList** is "0x00000000", then **dispidABPArrayType** must have the bit "0x00000001" set. 
+Each PT_LONG value in this property must be unique in the property and must be set to one of the values in the following table. If this property is set, the **dispidABPArrayType** ([PidLidAddressBookProviderArrayType](pidlidaddressbookproviderarraytype-canonical-property.md)) property must also be set. These two properties must be kept synchronized with each other. For example, if one of the values in **dispidABPEmailList** is "0x00000000", then **dispidABPArrayType** must have the bit "0x00000001" set. 
   
 |**Value**|**Description**|
 |:-----|:-----|

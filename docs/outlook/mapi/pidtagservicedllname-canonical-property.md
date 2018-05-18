@@ -33,7 +33,7 @@ Contains the filename of the DLL containing the message service provider entry p
    
 ## Remarks
 
-When the entry point function name appears in the **PR_SERVICE_ENTRY_NAME** ( [PidTagServiceEntryName](pidtagserviceentryname-canonical-property.md)) method, it indicates that the entry point exists.
+When the entry point function name appears in the **PR_SERVICE_ENTRY_NAME** ([PidTagServiceEntryName](pidtagserviceentryname-canonical-property.md)) method, it indicates that the entry point exists.
   
 MAPI uses a DLL file naming convention. The base filename contains up to six characters that uniquely identify the DLL. MAPI appends the string 32 to the base DLL name to identify the version that runs on 32-bit platforms. For example, when the name MAPI.DLL is specified, MAPI constructs the name MAPI32.DLL to represent the corresponding 32-bit version of the DLL.
   

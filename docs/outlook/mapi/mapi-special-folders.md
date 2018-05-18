@@ -51,12 +51,12 @@ Outlook special folders are identified by their entry IDs that are stored in the
   
 |**Folder**|**The property to set**|
 |:-----|:-----|
-|Calendar  <br/> |**PR_IPM_APPOINTMENT_ENTRYID** ( [PidTagIpmAppointmentEntryId](pidtagipmappointmententryid-canonical-property.md))  <br/> |
-|Contacts  <br/> |**PR_IPM_CONTACT_ENTRYID** ( [PidTagIpmContactEntryId](pidtagipmcontactentryid-canonical-property.md))  <br/> |
-|Journal  <br/> |**PR_IPM_JOURNAL_ENTRYID** ( [PidTagIpmJournalEntryId](pidtagipmjournalentryid-canonical-property.md))  <br/> |
-|Notes  <br/> |**PR_IPM_NOTE_ENTRYID** ( [PidTagIpmNoteEntryId](pidtagipmnoteentryid-canonical-property.md))  <br/> |
-|Tasks  <br/> |**PR_IPM_TASK_ENTRYID** ( [PidTagIpmTaskEntryId](pidtagipmtaskentryid-canonical-property.md))  <br/> |
-|Drafts  <br/> |**PR_IPM_DRAFTS_ENTRYID** ( [PidTagIpmDraftsEntryId](pidtagipmdraftsentryid-canonical-property.md))  <br/> |
+|Calendar  <br/> |**PR_IPM_APPOINTMENT_ENTRYID** ([PidTagIpmAppointmentEntryId](pidtagipmappointmententryid-canonical-property.md))  <br/> |
+|Contacts  <br/> |**PR_IPM_CONTACT_ENTRYID** ([PidTagIpmContactEntryId](pidtagipmcontactentryid-canonical-property.md))  <br/> |
+|Journal  <br/> |**PR_IPM_JOURNAL_ENTRYID** ([PidTagIpmJournalEntryId](pidtagipmjournalentryid-canonical-property.md))  <br/> |
+|Notes  <br/> |**PR_IPM_NOTE_ENTRYID** ([PidTagIpmNoteEntryId](pidtagipmnoteentryid-canonical-property.md))  <br/> |
+|Tasks  <br/> |**PR_IPM_TASK_ENTRYID** ([PidTagIpmTaskEntryId](pidtagipmtaskentryid-canonical-property.md))  <br/> |
+|Drafts  <br/> |**PR_IPM_DRAFTS_ENTRYID** ([PidTagIpmDraftsEntryId](pidtagipmdraftsentryid-canonical-property.md))  <br/> |
    
 ## See also
 

@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Specifies how to generate and recompute the value of the **dispidFileUnder** ( [PidLidFileUnder](pidlidfileunder-canonical-property.md)) property when other contact name properties change.
+Specifies how to generate and recompute the value of the **dispidFileUnder** ([PidLidFileUnder](pidlidfileunder-canonical-property.md)) property when other contact name properties change.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Specifies how to generate and recompute the value of the **dispidFileUnder** ( [
 
 If this property is missing or set to a value not detailed in the table below or in [[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx), the application can choose its own logic to recompute the value of the **dispidFileUnder** as other contact name properties change. 
   
-In the following table, the notation <PropertyName> is used to specify "the value of PropertyName". For example, if the value of the **PR_SURNAME** ( [PidTagSurname](pidtagsurname-canonical-property.md)) property is "Smith", and the value of the **PR_GIVEN_NAME** ( [PidTagGivenName](pidtaggivenname-canonical-property.md)) property is "Ben", then "<PidTagGivenName> <PidTagSurname>" specifies the string "Ben Smith". In the table, "\r" specifies a carriage return character, "\n" specifies a line-feed character, and <space> represents a space character.
+In the following table, the notation <PropertyName> is used to specify "the value of PropertyName". For example, if the value of the **PR_SURNAME** ([PidTagSurname](pidtagsurname-canonical-property.md)) property is "Smith", and the value of the **PR_GIVEN_NAME** ([PidTagGivenName](pidtaggivenname-canonical-property.md)) property is "Ben", then "<PidTagGivenName> <PidTagSurname>" specifies the string "Ben Smith". In the table, "\r" specifies a carriage return character, "\n" specifies a line-feed character, and <space> represents a space character.
   
 |**Value of the **dispidFileUnderId** property**|**Description of the **dispidFileUnder** property**|
 |:-----|:-----|

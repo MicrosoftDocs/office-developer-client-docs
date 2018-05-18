@@ -33,7 +33,7 @@ Contains a copy of the original message's delivery date and time in a thread.
    
 ## Remarks
 
-This property is copied from the original **PR_MESSAGE_DELIVERY_TIME** ( [PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)) property in subsequent reply or forward operations and used in read and nonread reports. Delivery reports use the **PR_DELIVER_TIME** ( [PidTagDeliverTime](pidtagdelivertime-canonical-property.md)) property instead.
+This property is copied from the original **PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)) property in subsequent reply or forward operations and used in read and nonread reports. Delivery reports use the **PR_DELIVER_TIME** ([PidTagDeliverTime](pidtagdelivertime-canonical-property.md)) property instead.
   
 ## Related Resources
 

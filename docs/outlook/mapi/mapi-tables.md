@@ -18,7 +18,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-A MAPI table is a MAPI object that is used to view a collection of properties belonging to other MAPI objects of a particular type. MAPI tables are structured in a row and column format with each row representing an object and each column representing a property of the object. One of the properties usually included in each row is the **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)) property, an identifier that can be used to open and modify the object. 
+A MAPI table is a MAPI object that is used to view a collection of properties belonging to other MAPI objects of a particular type. MAPI tables are structured in a row and column format with each row representing an object and each column representing a property of the object. One of the properties usually included in each row is the **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) property, an identifier that can be used to open and modify the object. 
   
 Because rows contain property values, retrieving a row from a table is similar to getting a set of properties directly from the object that the row represents. Both operations result in the retrieval of a property value array. The main difference is in the handling of long string and binary properties. For inclusion in a table, some table implementers truncate these properties to 255 bytes. When retrieved directly from the object, the full value is always available.
   
@@ -32,9 +32,9 @@ The following table shows the properties that make up the column set for the tab
   
 |**Property**|**Description**|
 |:-----|:-----|
-|**PR_SENDER_NAME** ( [PidTagSenderName](pidtagsendername-canonical-property.md))  <br/> |Sender name  <br/> |
-|**PR_ORIGINAL_DELIVERY_TIME** ( [PidTagOriginalDeliveryTime](pidtagoriginaldeliverytime-canonical-property.md))  <br/> |Date and time when the message was sent  <br/> |
-|**PR_SUBJECT** ( [PidTagSubject](pidtagsubject-canonical-property.md))  <br/> |Message subject line  <br/> |
+|**PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md))  <br/> |Sender name  <br/> |
+|**PR_ORIGINAL_DELIVERY_TIME** ([PidTagOriginalDeliveryTime](pidtagoriginaldeliverytime-canonical-property.md))  <br/> |Date and time when the message was sent  <br/> |
+|**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md))  <br/> |Message subject line  <br/> |
    
 Notice that the set of properties displayed in the message are not the same as the set of columns displayed in the table. The implementer of the table, in this case a message store provider, supplies a default set of columns in a default order. The client can modify this column set, requesting additional columns or rejecting default ones, and ask that they be ordered in a specific way. The client can also order the rows, sorting them according to the value of one or more columns.
   

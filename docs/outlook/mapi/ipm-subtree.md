@@ -34,7 +34,7 @@ These are the default names and roles for each of these folders; a client can sp
   
 In a Microsoft Office Outlook context, an IPM subtree consists of additional default folders for Calendar, Contacts, Tasks, Notes, and Journal.
   
-The Inbox typically holds incoming messages, and the Outbox holds outgoing messages (that is, messages waiting to be sent). The Sent Items folder holds a copy of each sent message if the client has set the **PR_SENTMAIL_ENTRYID** ( [PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) property to the entry identifier of this folder. The Deleted Items folder contains messages marked for removal. 
+The Inbox typically holds incoming messages, and the Outbox holds outgoing messages (that is, messages waiting to be sent). The Sent Items folder holds a copy of each sent message if the client has set the **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) property to the entry identifier of this folder. The Deleted Items folder contains messages marked for removal. 
   
 ## See also
 

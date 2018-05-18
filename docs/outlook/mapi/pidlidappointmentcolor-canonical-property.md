@@ -34,7 +34,7 @@ Specifies the color to use when displaying the calendar.
    
 ## Remarks
 
-This property specifies the color to use when displaying the calendar. A client or server should set this value for backward compatibility with older clients. It may instead display the calendar based on the value of the **Keywords** ( [PidNameKeywords](pidnamekeywords-canonical-property.md)) property as specified in [[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx). When set, the value must be one of the following.
+This property specifies the color to use when displaying the calendar. A client or server should set this value for backward compatibility with older clients. It may instead display the calendar based on the value of the **Keywords** ([PidNameKeywords](pidnamekeywords-canonical-property.md)) property as specified in [[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx). When set, the value must be one of the following.
   
 |**Value**|**Color**|
 |:-----|:-----|

@@ -34,7 +34,7 @@ Represents the date when the user expects to complete the task.
    
 ## Remarks
 
-The task has no due date if this property is unset or set to 0x5AE980E0 (1,525,252,320). However, a due date is optional only if no start date is indicated in the **dispidTaskStartDate** ( [PidLidTaskStartDate](pidlidtaskstartdate-canonical-property.md)) property. If the task has a due date, the value must have a time component of midnight, and the **dispidCommonEnd** ( [PidLidCommonEnd](pidlidcommonend-canonical-property.md)) property must also be set. If **dispidTaskStartDate** has a start date, then the value of the **dispidTaskDueDate** property must be greater than or equal to the value of **dispidTaskStartDate**.
+The task has no due date if this property is unset or set to 0x5AE980E0 (1,525,252,320). However, a due date is optional only if no start date is indicated in the **dispidTaskStartDate** ([PidLidTaskStartDate](pidlidtaskstartdate-canonical-property.md)) property. If the task has a due date, the value must have a time component of midnight, and the **dispidCommonEnd** ([PidLidCommonEnd](pidlidcommonend-canonical-property.md)) property must also be set. If **dispidTaskStartDate** has a start date, then the value of the **dispidTaskDueDate** property must be greater than or equal to the value of **dispidTaskStartDate**.
   
 ## Related Resources
 

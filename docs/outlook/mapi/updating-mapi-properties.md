@@ -24,7 +24,7 @@ Clients and service providers can update a property value by calling:
     
 - The [HrSetOneProp](hrsetoneprop.md) function to update only one property at a time. Use **HrSetOneProp** only if the target object is local; this function can cause performance degradation when used with remote objects. 
     
-The following procedure illustrates how to use **SetProps** to update the message class, or PR_MESSAGE_CLASS_A ( [PidTagMessageClass](pidtagmessageclass-canonical-property.md)) property, of a message. 
+The following procedure illustrates how to use **SetProps** to update the message class, or PR_MESSAGE_CLASS_A ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) property, of a message. 
   
  **To update the message class of a message**
   

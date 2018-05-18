@@ -22,7 +22,7 @@ Stores version information for the Microsoft Exchange Server that accounts in a 
   
 ## Quick Info
 
-```
+```cpp
 typedef struct { 
     WORD wMajorVersion; 
     WORD wMinorVersion; 

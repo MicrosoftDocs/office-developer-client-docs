@@ -33,9 +33,9 @@ Contains the months marked tentative in the free/busy message.
    
 ## Remarks
 
-The number of values in this property must be between zero and the number of months covered by the publishing range, which is the period between the **PR_FREEBUSY_PUBLISH_START** ( [PidTagFreeBusyPublishStart](pidtagfreebusypublishstart-canonical-property.md)) and **PR_FREEBUSY_PUBLISH_END** ( [PidTagFreeBusyPublishEnd](pidtagfreebusypublishend-canonical-property.md)) properties.
+The number of values in this property must be between zero and the number of months covered by the publishing range, which is the period between the **PR_FREEBUSY_PUBLISH_START** ([PidTagFreeBusyPublishStart](pidtagfreebusypublishstart-canonical-property.md)) and **PR_FREEBUSY_PUBLISH_END** ([PidTagFreeBusyPublishEnd](pidtagfreebusypublishend-canonical-property.md)) properties.
   
-Each value in this property, has a month and year encoded in it. This is calculated by using the expression "year × 16 + month" where year and month are based on the Gregorian calendar. The values are sorted in ascending order and are encoded in little-endian format. If an event is spread across multiple months, or multiple years, there must be one value for each of the months that fall in the publishing range. If there are no tentative events in the publishing range, then this property and **PR_SCHDINFO_FREEBUSY_TENTATIVE** ( [PidTagScheduleInfoFreeBusyTentative](pidtagscheduleinfofreebusytentative-canonical-property.md)) must not be set or must be deleted if they already exist. Otherwise, this property must be set.
+Each value in this property, has a month and year encoded in it. This is calculated by using the expression "year × 16 + month" where year and month are based on the Gregorian calendar. The values are sorted in ascending order and are encoded in little-endian format. If an event is spread across multiple months, or multiple years, there must be one value for each of the months that fall in the publishing range. If there are no tentative events in the publishing range, then this property and **PR_SCHDINFO_FREEBUSY_TENTATIVE** ([PidTagScheduleInfoFreeBusyTentative](pidtagscheduleinfofreebusytentative-canonical-property.md)) must not be set or must be deleted if they already exist. Otherwise, this property must be set.
   
 ## Related Resources
 

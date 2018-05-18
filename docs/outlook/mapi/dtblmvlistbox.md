@@ -28,7 +28,7 @@ Describes a multi-valued list that will be displayed in a dialog box that is bui
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _DTBLMVLISTBOX
 {
   ULONG ulFlags;

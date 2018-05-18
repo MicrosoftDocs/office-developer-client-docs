@@ -22,7 +22,7 @@ Your provider might implement one or more one-off tables. A one-off table is a s
   
 Your provider must support the **OpenEntry** method for each template that it includes in the one-off table. The implementation of **OpenEntry** should retrieve a display table for the template. MAPI uses the display table to make the template visible to the user. 
   
-Although most of the rows in one-off tables represent templates, some of the rows can be used to categorize, or group, templates. Whether or not a row in a one-off table represents a template is indicated by the value of its **PR_SELECTABLE** ( [PidTagSelectable](pidtagselectable-canonical-property.md)) column. Rows that represent templates have the PR_SELECTABLE column set to TRUE; rows that do not represent templates have it set to FALSE.
+Although most of the rows in one-off tables represent templates, some of the rows can be used to categorize, or group, templates. Whether or not a row in a one-off table represents a template is indicated by the value of its **PR_SELECTABLE** ([PidTagSelectable](pidtagselectable-canonical-property.md)) column. Rows that represent templates have the PR_SELECTABLE column set to TRUE; rows that do not represent templates have it set to FALSE.
   
 MAPI defines three types of one-off tables:
   

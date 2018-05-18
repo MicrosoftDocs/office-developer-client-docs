@@ -20,7 +20,7 @@ description: "Last modified: July 23, 2011"
   
 A client can register for address book or message store notifications as part of its initialization process.
   
-MAPI supports notification on the address book regardless of whether any of the address book providers support it. Support for notification on message stores depends on the particular message store provider. To determine whether a particular message store provider supports notifications, check its **PR_STORE_SUPPORT_MASK** ( [PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) property. If the message store supports notifications, the STORE_NOTIFY_OK bit will be set. 
+MAPI supports notification on the address book regardless of whether any of the address book providers support it. Support for notification on message stores depends on the particular message store provider. To determine whether a particular message store provider supports notifications, check its **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) property. If the message store supports notifications, the STORE_NOTIFY_OK bit will be set. 
   
 Register for notifications by calling an advise source object's **Advise** method. Many objects implement **Advise** and clients can register with those objects in a variety of ways. 
   

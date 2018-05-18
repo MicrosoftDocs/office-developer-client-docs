@@ -39,7 +39,7 @@ HRESULT SetSearchPath(
     
  _lpSearchPath_
   
-> [in] A pointer to the [SRowSet](srowset.md) structure used to hold the search path. The first property for each **aRow** member in **SRowSet** must be **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)).
+> [in] A pointer to the [SRowSet](srowset.md) structure used to hold the search path. The first property for each **aRow** member in **SRowSet** must be **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
     
 ## Return value
 

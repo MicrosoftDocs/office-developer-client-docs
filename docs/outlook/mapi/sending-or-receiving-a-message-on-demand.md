@@ -26,7 +26,7 @@ The [IMAPIStatus::FlushQueues](imapistatus-flushqueues.md) method removes all me
   
 1. Call [IMAPISession::GetStatusTable](imapisession-getstatustable.md) to access the status table. 
     
-2. Call the status table's [IMAPITable::SetColumns](imapitable-setcolumns.md) method to limit the column set to **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)) and **PR_RESOURCE_TYPE** ( [PidTagResourceType](pidtagresourcetype-canonical-property.md)).
+2. Call the status table's [IMAPITable::SetColumns](imapitable-setcolumns.md) method to limit the column set to **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) and **PR_RESOURCE_TYPE** ([PidTagResourceType](pidtagresourcetype-canonical-property.md)).
     
 3. Build a property restriction using an [SPropertyRestriction](spropertyrestriction.md) structure to match **PR_RESOURCE_TYPE** with MAPI_SPOOLER. 
     
@@ -52,7 +52,7 @@ The [IMAPIStatus::FlushQueues](imapistatus-flushqueues.md) method removes all me
     
 1. Pass the **PR_ENTRYID** column to [IMAPISession::OpenEntry](imapisession-openentry.md) to open the transport provider's status object. 
     
-2. Check that the transport status object supports the **FlushQueues** method by checking that its **PR_RESOURCE_METHODS** ( [PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) property has the STATUS_FLUSH_QUEUES flag set. 
+2. Check that the transport status object supports the **FlushQueues** method by checking that its **PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) property has the STATUS_FLUSH_QUEUES flag set. 
     
 3. If supported, call [IMAPIStatus::FlushQueues](imapistatus-flushqueues.md). If unsupported, call the MAPI spooler's **IMAPIStatus::FlushQueues** method, passing the entry identifier of the transport in the  _lpTargetTransport_ parameter. See the preceding procedure for instructions on accessing the MAPI spooler's status object. Set the FLUSH_DOWNLOAD flag to flush the outgoing queues or the FLUSH_UPLOAD flag to flush the incoming queues. 
     

@@ -28,11 +28,11 @@ For information about how to download, view, and run the code from the MFCMAPI a
 
 1. Create an outgoing message. For information about how to create an outgoing message, see [Handling an Outgoing Message](handling-an-outgoing-message.md).
     
-2. Add the **PR_READ_RECEIPT_REQUESTED** ( [PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) property and set it to **true**.
+2. Add the **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) property and set it to **true**.
     
-3. Add the **PR_CONVERSATION_INDEX** ( [PidTagConversationIndex](pidtagconversationindex-canonical-property.md)) property.
+3. Add the **PR_CONVERSATION_INDEX** ([PidTagConversationIndex](pidtagconversationindex-canonical-property.md)) property.
     
-4. Add the **PR_REPORT_TAG** ( [PidTagReportTag](pidtagreporttag-canonical-property.md)) property.
+4. Add the **PR_REPORT_TAG** ([PidTagReportTag](pidtagreporttag-canonical-property.md)) property.
     
 5. Send the message by calling the [IMessage::SubmitMessage](imessage-submitmessage.md) method. 
     

@@ -35,7 +35,7 @@ Contains a value that uniquely identifies a row in a table.
 
 This property is a binary value that uniquely identifies a row in a table view. It is a required column in most tables. If a row is included in two views, there are two different instance keys. The instance key of a row may differ each time the table is opened, but remains constant while the table is open. Rows added while a table is in use do not reuse an instance key that was previously used. 
   
-Use the **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)) or **PR_RECORD_KEY** ( [PidTagRecordKey](pidtagrecordkey-canonical-property.md)) properties to correlate all the rows of an expansion. Use **PR_INSTANCE_KEY** to locate a particular instance within the expansion. 
+Use the **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) or **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)) properties to correlate all the rows of an expansion. Use **PR_INSTANCE_KEY** to locate a particular instance within the expansion. 
   
 When a multivalued property is expanded in a table, a row is created for each instance of the expansion, that is, for each value of that property. Each row has a unique value for the **PR_INSTANCE_KEY** property, while all the other columns retain their original values throughout the expansion. 
   

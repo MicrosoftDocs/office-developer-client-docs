@@ -8,14 +8,10 @@ api_type:
 - COM
 ms.assetid: d556ff4d-e2f3-4c83-a93f-b1bfda5abc8c
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
 # Disk Instances and Cache Tables
 
-  
-  
 **Applies to**: Outlook 
   
 To activate a form, its executable files must be available on the user's computer. If they are not available, they must be copied from the form library to the local disk. To do this, the default form manager creates a subdirectory in the user's Windows directory to contain the form's executable files (.EXEs,.HLPs). This directory is referred to as the disk instance of the form.
@@ -29,7 +25,5 @@ In addition to the disk instance cache, the default form manager maintains a run
   
 ## See also
 
-#### Concepts
-
-[MAPI Forms](mapi-forms.md)
+- [MAPI Forms](mapi-forms.md)
 

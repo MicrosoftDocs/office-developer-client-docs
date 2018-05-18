@@ -24,7 +24,7 @@ To receive a TNEF message with customized attachment processing:
     
 2. Identify and decode the special attachment that contains the TNEF stream.
     
-3. Extract all the attachments from the incoming message into MAPI attachments on the new MAPI message. The recovered filenames, or other identifying markers on the attachments, should be placed into the **PR_ATTACH_TRANSPORT_NAME** ( [PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md)) property of the new attachments so that the [ITnef::ExtractProps](itnef-extractprops.md) method can later associate the correct attachment with the attachment tags encoded in the message text. 
+3. Extract all the attachments from the incoming message into MAPI attachments on the new MAPI message. The recovered filenames, or other identifying markers on the attachments, should be placed into the **PR_ATTACH_TRANSPORT_NAME** ([PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md)) property of the new attachments so that the [ITnef::ExtractProps](itnef-extractprops.md) method can later associate the correct attachment with the attachment tags encoded in the message text. 
     
 4. Create an OLE **IStream** interface to wrap around the decoded TNEF stream and use that object along with the new MAPI message in a call to the [OpenTnefStreamEx](opentnefstreamex.md) function. 
     

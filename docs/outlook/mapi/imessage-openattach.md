@@ -37,7 +37,7 @@ HRESULT OpenAttach(
 
  _ulAttachmentNum_
   
-> [in] Index number of the attachment to open, as stored in the attachment's **PR_ATTACH_NUM** ( [PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) property. This index number uniquely identifies the attachment in the message and is valid only in the context of the message.
+> [in] Index number of the attachment to open, as stored in the attachment's **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) property. This index number uniquely identifies the attachment in the message and is valid only in the context of the message.
     
  _lpInterface_
   
@@ -79,7 +79,7 @@ To open an attachment, you must have access to its attachment number or **PR_ATT
   
 Do not try to open one attachment multiple times; the results are undefined and dependent on the message store provider.
   
-You can request that the attachment be opened in read/write mode, instead of the default read-only mode. However, whether the attachment will actually be opened in read/write mode is up to the message store provider. You can either attempt to modify the attachment, preparing to handle possible failure, or check the level of access that was granted by retrieving the attachment's **PR_ACCESS_LEVEL** ( [PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)) property, if it is available. 
+You can request that the attachment be opened in read/write mode, instead of the default read-only mode. However, whether the attachment will actually be opened in read/write mode is up to the message store provider. You can either attempt to modify the attachment, preparing to handle possible failure, or check the level of access that was granted by retrieving the attachment's **PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)) property, if it is available. 
   
 ## MFCMAPI Reference
 

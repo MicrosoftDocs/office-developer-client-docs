@@ -34,7 +34,7 @@ Specifies the name of the personal distribution list.
    
 ## Remarks
 
-The value of this property should be the same as the value of the **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property.
+The value of this property should be the same as the value of the **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property.
   
 ## Related Resources
 

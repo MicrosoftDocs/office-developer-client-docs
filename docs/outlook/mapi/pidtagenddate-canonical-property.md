@@ -33,7 +33,7 @@ Contains the ending date and time of an appointment as managed by a scheduling a
    
 ## Remarks
 
-Scheduling applications should set both the **PR_START_DATE** ( [PidTagStartDate](pidtagstartdate-canonical-property.md)) and this property when sending meeting requests. 
+Scheduling applications should set both the **PR_START_DATE** ([PidTagStartDate](pidtagstartdate-canonical-property.md)) and this property when sending meeting requests. 
   
 ## Related Resources
 

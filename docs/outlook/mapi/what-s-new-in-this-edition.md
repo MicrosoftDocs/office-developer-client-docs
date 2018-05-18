@@ -42,7 +42,7 @@ Content has been added for the following features:
     
 - **Interfaces**-The [IAddrBook::OpenEntry](iaddrbook-openentry.md) topic documents a method of opening an address book entry and returning a pointer to the interface used to access it. It previously contained a flag in the  *ulFlags*  parameter, **MAPI_GAL_ONLY**, which could be used to open the Global Address List (GAL), only, and has been revised to include its definition.
     
-- **Properties**—The **PR_CONVERSATION_KEY** named property ( [PidTagConversationKey Canonical Property](pidtagconversationkey-canonical-property.md)) topic has been added and relates to **IPM.MessageManager** messages in Outlook MAPI only. The following topics relating to it and the Transport-Neutral Encapsulation Format (TNEF) stream documentation have been revised: 
+- **Properties**—The **PR_CONVERSATION_KEY** named property ([PidTagConversationKey Canonical Property](pidtagconversationkey-canonical-property.md)) topic has been added and relates to **IPM.MessageManager** messages in Outlook MAPI only. The following topics relating to it and the Transport-Neutral Encapsulation Format (TNEF) stream documentation have been revised: 
     
   - [Mapping Canonical Property Names to MAPI Names](mapping-canonical-property-names-to-mapi-names.md)
     

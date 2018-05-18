@@ -49,7 +49,7 @@ MSGFLAG_FROMME
     
 MSGFLAG_HASATTACH 
   
-> The message has at least one attachment. This flag corresponds to the message's **PR_HASATTACH** ( [PidTagHasAttachments](pidtaghasattachments-canonical-property.md)) property. The client has read-only access to this flag. 
+> The message has at least one attachment. This flag corresponds to the message's **PR_HASATTACH** ([PidTagHasAttachments](pidtaghasattachments-canonical-property.md)) property. The client has read-only access to this flag. 
     
 MSGFLAG_NRN_PENDING 
   

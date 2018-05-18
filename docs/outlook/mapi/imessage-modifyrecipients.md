@@ -47,7 +47,7 @@ MODRECIP_MODIFY
     
 MODRECIP_REMOVE 
   
-> Existing recipients should be removed from the recipient list using as an index the **PR_ROWID** ( [PidTagRowid](pidtagrowid-canonical-property.md)) property included in the property value array of each recipient entry in the  _lpMods_ parameter. 
+> Existing recipients should be removed from the recipient list using as an index the **PR_ROWID** ([PidTagRowid](pidtagrowid-canonical-property.md)) property included in the property value array of each recipient entry in the  _lpMods_ parameter. 
     
  _lpMods_
   
@@ -65,7 +65,7 @@ The **IMessage::ModifyRecipients** method changes the message's recipient list. 
   
 The **ADRLIST** structure contains one [ADRENTRY](adrentry.md) structure for each recipient and each **ADRENTRY** structure contains an array of property values describing the recipient properties. 
   
-Recipients in the **ADRLIST** structure can be resolved or unresolved. The difference is in the number and type of properties that are included. An unresolved recipient contains only the **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) and **PR_RECIPIENT_TYPE** ( [PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) properties while a resolved recipient contains those two properties plus **PR_ADDRTYPE** ( [PidTagAddressType](pidtagaddresstype-canonical-property.md)) and **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)). If **PR_EMAIL_ADDRESS** ( [PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) is available, it can be included also.
+Recipients in the **ADRLIST** structure can be resolved or unresolved. The difference is in the number and type of properties that are included. An unresolved recipient contains only the **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) and **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) properties while a resolved recipient contains those two properties plus **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) and **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)). If **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) is available, it can be included also.
   
 By the time a message is submitted, it must include only resolved recipients in its recipient list. Unresolved recipients cause nondelivery reports to be created and sent to the original sender of the message. For more information about the name resolution process from the client perspective, see [Resolving a Name](resolving-a-recipient-name.md). For more information from the perspective of the address book provider, see [Implementing Name Resolution](implementing-name-resolution.md).
   

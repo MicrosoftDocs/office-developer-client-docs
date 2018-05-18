@@ -36,19 +36,19 @@ Most other folders are generic folders. Like root folders, generic folders conta
   
 A search folder contains links to messages that match a set of predefined criteria. Because search folders contain links rather than actual messages, they are in effect read-only. They cannot contain other folders or have messages or folders moved or copied into them. They cannot have new messages created in them; and they themselves cannot be moved, copied, or renamed. When a message is deleted from a search folder, it is actually deleted from the folder that contains the message.
   
-Folder type is stored in the **PR_FOLDER_TYPE** ( [PidTagFolderType](pidtagfoldertype-canonical-property.md)) property. Every folder has this property set to either FOLDER_GENERIC, FOLDER_ROOT, or FOLDER_SEARCH, depending on its type.
+Folder type is stored in the **PR_FOLDER_TYPE** ([PidTagFolderType](pidtagfoldertype-canonical-property.md)) property. Every folder has this property set to either FOLDER_GENERIC, FOLDER_ROOT, or FOLDER_SEARCH, depending on its type.
   
-Every folder has one entry identifier and one record key. The entry identifier, **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)), is used by clients and service providers to open the folder. The record key, **PR_RECORD_KEY** ( [PidTagRecordKey](pidtagrecordkey-canonical-property.md)), is a binary value that is used to compare the folder with other folders. 
+Every folder has one entry identifier and one record key. The entry identifier, **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)), is used by clients and service providers to open the folder. The record key, **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)), is a binary value that is used to compare the folder with other folders. 
   
 A folder has other properties to identify related folders and the message store. The following properties are required:
   
-- **PR_PARENT_ENTRYID** ( [PidTagParentEntryId](pidtagparententryid-canonical-property.md))
+- **PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md))
     
-- **PR_STORE_ENTRYID** ( [PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md))
+- **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md))
     
-- **PR_STORE_RECORD_KEY** ( [PidTagStoreRecordKey](pidtagstorerecordkey-canonical-property.md))
+- **PR_STORE_RECORD_KEY** ([PidTagStoreRecordKey](pidtagstorerecordkey-canonical-property.md))
     
-Some folders support the **PR_ACCESS** ( [PidTagAccess](pidtagaccess-canonical-property.md)) property which describes the type of operations a user can perform. For example, one of the valid settings for **PR_ACCESS** is MAPI_ACCESS_DELETE, which indicates that the folder can be removed. Another setting, MAPI_ACCESS_MODIFY, indicates that the folder should be modifiable. 
+Some folders support the **PR_ACCESS** ([PidTagAccess](pidtagaccess-canonical-property.md)) property which describes the type of operations a user can perform. For example, one of the valid settings for **PR_ACCESS** is MAPI_ACCESS_DELETE, which indicates that the folder can be removed. Another setting, MAPI_ACCESS_MODIFY, indicates that the folder should be modifiable. 
   
 For a complete list of required folder properties, see the [IMAPIFolder](imapifolderimapicontainer.md) interface. 
   

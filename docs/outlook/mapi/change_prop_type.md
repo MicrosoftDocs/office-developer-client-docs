@@ -29,7 +29,7 @@ Updates the property type of a property tag to a specified value. The property i
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |[SPropValue](spropvalue.md) <br/> |
    
-```
+```cpp
 CHANGE_PROP_TYPE (ulPropTag, ulPropType)
 ```
 

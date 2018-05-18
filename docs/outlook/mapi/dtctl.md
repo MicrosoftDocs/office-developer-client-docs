@@ -28,7 +28,7 @@ Describes a control that will be used in a dialog box built from a display table
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct
 {
   ULONG ulCtlType;
@@ -61,7 +61,7 @@ typedef struct
 
  **ulCtlType**
   
-> Type of control that is included in the **ctl** member and corresponds to the control's **PR_CONTROL_TYPE** ( [PidTagControlType](pidtagcontroltype-canonical-property.md)) property. Possible values are as follows:
+> Type of control that is included in the **ctl** member and corresponds to the control's **PR_CONTROL_TYPE** ([PidTagControlType](pidtagcontroltype-canonical-property.md)) property. Possible values are as follows:
     
 DTCT_LABEL 
   
@@ -113,7 +113,7 @@ DTCT_MVDDLBX
     
  **ulCtlFlags**
   
-> Bitmask of flags that describes the control's features and corresponds to the control's **PR_CONTROL_FLAGS** ( [PidTagControlFlags](pidtagcontrolflags-canonical-property.md)) property. These flags can be set for check boxes, combo boxes, list boxes, and edit controls only. Possible values are as follows:
+> Bitmask of flags that describes the control's features and corresponds to the control's **PR_CONTROL_FLAGS** ([PidTagControlFlags](pidtagcontrolflags-canonical-property.md)) property. These flags can be set for check boxes, combo boxes, list boxes, and edit controls only. Possible values are as follows:
     
 DT_ACCEPT_DBCS 
   
@@ -141,7 +141,7 @@ DT_SET_IMMEDIATE
     
  **lpbNotif**
   
-> Pointer to a structure that consists of a [GUID](guid.md) structure, to represent the service provider and an identifier for the control. The **lpbNotif** and **cbNotif** members correspond to the control's **PR_CONTROL_ID** ( [PidTagControlId](pidtagcontrolid-canonical-property.md)) property and are used to notify the user interface when the control has to be updated.
+> Pointer to a structure that consists of a [GUID](guid.md) structure, to represent the service provider and an identifier for the control. The **lpbNotif** and **cbNotif** members correspond to the control's **PR_CONTROL_ID** ([PidTagControlId](pidtagcontrolid-canonical-property.md)) property and are used to notify the user interface when the control has to be updated.
     
  **cbNotif**
   
@@ -164,7 +164,7 @@ DT_SET_IMMEDIATE
     
  **ctl**
   
-> A structure that holds the data for the control and corresponds to the control's **PR_CONTROL_STRUCTURE** ( [PidTagControlStructure](pidtagcontrolstructure-canonical-property.md)) property. Each type of control has a different structure.
+> A structure that holds the data for the control and corresponds to the control's **PR_CONTROL_STRUCTURE** ([PidTagControlStructure](pidtagcontrolstructure-canonical-property.md)) property. Each type of control has a different structure.
     
 ## Remarks
 

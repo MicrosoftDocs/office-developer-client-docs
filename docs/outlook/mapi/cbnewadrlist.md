@@ -29,7 +29,7 @@ Computes the number of bytes that should be allocated for a new [ADRLIST](adrlis
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**ADRLIST** <br/> |
    
-```
+```cpp
 CbNewADRLIST (_centries)
 ```
 

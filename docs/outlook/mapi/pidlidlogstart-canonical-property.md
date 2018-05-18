@@ -34,7 +34,7 @@ Represents the start date and time for the journal message.
    
 ## Remarks
 
-The time in Coordinated Universal Time (UTC) when the activity began must be equal to the **dispidCommonStart** ( [PidLidCommonStart](pidlidcommonstart-canonical-property.md)) property.
+The time in Coordinated Universal Time (UTC) when the activity began must be equal to the **dispidCommonStart** ([PidLidCommonStart](pidlidcommonstart-canonical-property.md)) property.
   
 ## Related Resources
 

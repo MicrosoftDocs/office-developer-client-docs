@@ -33,7 +33,7 @@ Contains the original submission date and time of the message in the report.
    
 ## Remarks
 
-At first submission of a message, a client application should set this property to the value of the **PR_CLIENT_SUBMIT_TIME** ( [PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md)) property. It is not changed when the message is forwarded. This is used in reports only.
+At first submission of a message, a client application should set this property to the value of the **PR_CLIENT_SUBMIT_TIME** ([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md)) property. It is not changed when the message is forwarded. This is used in reports only.
   
 ## Related Resources
 

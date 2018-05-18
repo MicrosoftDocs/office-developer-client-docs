@@ -30,7 +30,7 @@ Releases utility functions called explicitly by the [ScInitMapiUtil](scinitmapiu
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications  <br/> |
    
-```
+```cpp
 VOID DeinitMapiUtil( void );
 ```
 

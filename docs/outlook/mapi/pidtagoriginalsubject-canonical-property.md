@@ -33,7 +33,7 @@ Contains the subject of an original message for use in a report about the messag
    
 ## Remarks
 
-These properties are originally set to the same value as the **PR_SUBJECT** ( [PidTagSubject](pidtagsubject-canonical-property.md)) property.
+These properties are originally set to the same value as the **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) property.
   
 The subject properties are typically small strings of fewer than 256 characters, and a message store provider is not obligated to support the Object Linking and Embedding (OLE) **IStream** interface on them. The client should always attempt access through the **IMAPIProp** interface first, and resort to **IStream** only if **MAPI_E_NOT_ENOUGH_MEMORY** is returned. 
   

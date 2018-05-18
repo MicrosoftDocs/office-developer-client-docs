@@ -47,7 +47,7 @@ PST_CONFIG_CREATE_NOWARN
     
 PST_CONFIG_PRESERVE_DISPLAY_NAME
   
-> Tells **ConfigureMsgService** to not change the value of the **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property, even though it was supplied. In that case, it was supplied only for new .pst files.
+> Tells **ConfigureMsgService** to not change the value of the **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property, even though it was supplied. In that case, it was supplied only for new .pst files.
     
      `#define PST_CONFIG_PRESERVE_DISPLAY_NAME 0x00000002`
     

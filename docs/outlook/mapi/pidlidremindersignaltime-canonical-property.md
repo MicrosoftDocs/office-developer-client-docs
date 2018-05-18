@@ -34,7 +34,7 @@ Specifies the point in time when a reminder transitions from pending to overdue.
    
 ## Remarks
 
-This property must be set if the **dispidReminderSet** ( [PidLidReminderSet](pidlidreminderset-canonical-property.md)) property is TRUE. Clients must set the value in Coordinated Universal Time (UTC).
+This property must be set if the **dispidReminderSet** ([PidLidReminderSet](pidlidreminderset-canonical-property.md)) property is TRUE. Clients must set the value in Coordinated Universal Time (UTC).
   
 ## Related Resources
 

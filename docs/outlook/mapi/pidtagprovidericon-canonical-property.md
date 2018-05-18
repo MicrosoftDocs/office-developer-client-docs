@@ -39,7 +39,7 @@ For example, the following property value instructs Outlook to load icon ID 1001
   
 The following property value instructs Outlook to load icon ID 1001 from the module mymod32.dll and use that icon for the online state, and to also load icon ID 1002 from this same module to be used for the offline state:  `mymod32.dll,#1001,#1002`. No Outlook icon is used in the status bar. 
   
-By default, if no custom icons are specified, the provider is represented by the Outlook default icons for the online state and the offline state. The provider can optionally specify a display name to be shown adjacent to the icon in the status bar. For more information, see **PR_PROVIDER_DISPLAY_NAME_W** ( [PidTagProviderDisplayName](pidtagproviderdisplayname-canonical-property.md)).
+By default, if no custom icons are specified, the provider is represented by the Outlook default icons for the online state and the offline state. The provider can optionally specify a display name to be shown adjacent to the icon in the status bar. For more information, see **PR_PROVIDER_DISPLAY_NAME_W** ([PidTagProviderDisplayName](pidtagproviderdisplayname-canonical-property.md)).
   
 ## Related Resources
 

@@ -29,7 +29,7 @@ Contains an array of [MTSID](mtsid.md) structures, each of which contains an X.4
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related macros:  <br/> |[CbFLATMTSIDLIST](cbflatmtsidlist.md), [CbNewFLATMTSIDLIST](cbnewflatmtsidlist.md) <br/> |
    
-```
+```cpp
 typedef struct
 {
   ULONG cMTSIDs;

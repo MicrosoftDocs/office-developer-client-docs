@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Defines the expiry send time in conjunction with the **PR_EXPIRY_UNITS** ( [PidTagExpiryUnits](pidtagexpiryunits-canonical-property.md)) property.
+Defines the expiry send time in conjunction with the **PR_EXPIRY_UNITS** ([PidTagExpiryUnits](pidtagexpiryunits-canonical-property.md)) property.
   
 |||
 |:-----|:-----|

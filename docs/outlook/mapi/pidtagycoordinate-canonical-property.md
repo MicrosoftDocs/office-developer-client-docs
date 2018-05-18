@@ -33,7 +33,7 @@ Contains the y coordinate of the starting position (the upper-left corner) of a 
    
 ## Remarks
 
-The **PR_XPOS** ( [PidTagXCoordinate](pidtagxcoordinate-canonical-property.md)), this property, **PR_DELTAX** ( [PidTagDeltaX](pidtagdeltax-canonical-property.md)), and **PR_DELTAY** ( [PidTagDeltaY](pidtagdeltay-canonical-property.md)) properties position and size the control.
+The **PR_XPOS** ([PidTagXCoordinate](pidtagxcoordinate-canonical-property.md)), this property, **PR_DELTAX** ([PidTagDeltaX](pidtagdeltax-canonical-property.md)), and **PR_DELTAY** ([PidTagDeltaY](pidtagdeltay-canonical-property.md)) properties position and size the control.
   
 ## Related Resources
 

@@ -33,9 +33,9 @@ Contains the e-mail address for the messaging user who is represented by the rec
    
 ## Remarks
 
-These properties are examples of the address properties for the messaging user who is being represented by the receiving user. They must be set by the incoming transport provider, which is also responsible for authorization or verification of the delegate. If no messaging user is being represented, these properties should be set to the e-mail address contained in the **PR_RECEIVED_BY_EMAIL_ADDRESS** ( [PidTagReceivedByEmailAddress](pidtagreceivedbyemailaddress-canonical-property.md)) property.
+These properties are examples of the address properties for the messaging user who is being represented by the receiving user. They must be set by the incoming transport provider, which is also responsible for authorization or verification of the delegate. If no messaging user is being represented, these properties should be set to the e-mail address contained in the **PR_RECEIVED_BY_EMAIL_ADDRESS** ([PidTagReceivedByEmailAddress](pidtagreceivedbyemailaddress-canonical-property.md)) property.
   
-A client application replying to a message received on behalf of another client should copy these properties from the received message into the **PR_SENT_REPRESENTING_EMAIL_ADDRESS** ( [PidTagSentRepresentingEmailAddress](pidtagsentrepresentingemailaddress-canonical-property.md)) property for the reply.
+A client application replying to a message received on behalf of another client should copy these properties from the received message into the **PR_SENT_REPRESENTING_EMAIL_ADDRESS** ([PidTagSentRepresentingEmailAddress](pidtagsentrepresentingemailaddress-canonical-property.md)) property for the reply.
   
 ## Related Resources
 

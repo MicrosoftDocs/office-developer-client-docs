@@ -35,7 +35,7 @@ Contains the address type of the messaging user on whose behalf the original mes
 
 These properties are the type for the original represented sender of a message. They are used in a conversation thread.
   
-A client application sending a message on behalf of another client should set these properties to the value of the **PR_SENT_REPRESENTING_ADDRTYPE** ( [PidTagSentRepresentingAddressType](pidtagsentrepresentingaddresstype-canonical-property.md)) property at the first submission of the message. Once set, it should never be changed.
+A client application sending a message on behalf of another client should set these properties to the value of the **PR_SENT_REPRESENTING_ADDRTYPE** ([PidTagSentRepresentingAddressType](pidtagsentrepresentingaddresstype-canonical-property.md)) property at the first submission of the message. Once set, it should never be changed.
   
 ## Related Resources
 

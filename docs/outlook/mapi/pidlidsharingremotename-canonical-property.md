@@ -34,7 +34,7 @@ Specifies the name of the remote folder that is being shared. This is a property
    
 ## Remarks
 
-This property must be set to the value of the **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property on the folder being shared.
+This property must be set to the value of the **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property on the folder being shared.
   
 ## Related Resources
 

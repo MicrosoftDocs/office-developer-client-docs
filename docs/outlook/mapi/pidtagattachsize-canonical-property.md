@@ -33,7 +33,7 @@ Contains the sum, in bytes, of the sizes of all properties on an attachment.
    
 ## Remarks
 
-It is recommended that attachment subobjects expose the **PR_ATTACH_SIZE** property. The sum contained in **PR_ATTACH_SIZE** includes the size of the **PR_ATTACH_DATA_BIN** ( [PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) or **PR_ATTACH_DATA_OBJ** ( [PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)) property. Accordingly, **PR_ATTACH_SIZE** is usually larger than the contents of the attachment alone. 
+It is recommended that attachment subobjects expose the **PR_ATTACH_SIZE** property. The sum contained in **PR_ATTACH_SIZE** includes the size of the **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) or **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)) property. Accordingly, **PR_ATTACH_SIZE** is usually larger than the contents of the attachment alone. 
   
 This property can be used to check the approximate size of the attachment before performing a remote transfer by modem and to display progress indicators when saving the attachment to disk. It is particularly useful with attached OLE objects. 
   

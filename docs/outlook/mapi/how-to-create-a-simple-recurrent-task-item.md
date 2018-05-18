@@ -28,11 +28,11 @@ For information about how to download, view, and run the code from the MFCMAPI a
 
 1. Open a message store. For information on how to open a message store, see [Opening a Message Store](opening-a-message-store.md).
     
-2. Open the Tasks folder in the message store. For more information, see **PR_IPM_TASK_ENTRYID** ( [PidTagIpmTaskEntryId](pidtagipmtaskentryid-canonical-property.md)).
+2. Open the Tasks folder in the message store. For more information, see **PR_IPM_TASK_ENTRYID** ([PidTagIpmTaskEntryId](pidtagipmtaskentryid-canonical-property.md)).
     
 3. Call the [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) method on the Tasks folder to create the new task item. 
     
-4. Set the **dispidTaskRecur** ( [PidLidTaskRecurrence](pidlidtaskrecurrence-canonical-property.md)) property and other task-related properties required to create a recurrent task.
+4. Set the **dispidTaskRecur** ([PidLidTaskRecurrence](pidlidtaskrecurrence-canonical-property.md)) property and other task-related properties required to create a recurrent task.
     
 5. Save the new task item.
     

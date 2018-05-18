@@ -43,7 +43,7 @@ HRESULT FinishComponent(
     
 TNEF_COMPONENT_ATTACHMENT 
   
-> Processing will be finished for an attachment object; the  _ulComponentID_ parameter contains the **PR_ATTACH_NUM** ( [PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) property of the attachment. 
+> Processing will be finished for an attachment object; the  _ulComponentID_ parameter contains the **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) property of the attachment. 
     
 TNEF_COMPONENT_MESSAGE 
   

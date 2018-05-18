@@ -44,7 +44,7 @@ S_OK
     
 ## Remarks
 
-The **IMAPISupport::NewUID** method is implemented for all support objects. Service providers and message services call **NewUID** whenever they need to generate a long-term unique identifier. A message store provider, for example, might call **NewUID** to obtain a **MAPIUID** to put in the **PR_SEARCH_KEY** ( [PidTagSearchKey](pidtagsearchkey-canonical-property.md)) property of a newly created message.
+The **IMAPISupport::NewUID** method is implemented for all support objects. Service providers and message services call **NewUID** whenever they need to generate a long-term unique identifier. A message store provider, for example, might call **NewUID** to obtain a **MAPIUID** to put in the **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) property of a newly created message.
   
 ## Notes to Callers
 

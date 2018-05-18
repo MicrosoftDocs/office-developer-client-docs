@@ -35,9 +35,9 @@ Contains the name of the profile.
 
 These properties are computed by service providers. A provider's implementation of the **ServiceEntry** function can use these properties to discover the profile name. 
   
-Client applications can use these properties as a convenient alternative to obtaining the profile name by examining the **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property in the MAPI subsystem's status table row.
+Client applications can use these properties as a convenient alternative to obtaining the profile name by examining the **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property in the MAPI subsystem's status table row.
   
-These properties may not be unique across time, for example where a profile is deleted and later recreated with the same name. MAPI furnishes a totally unique **PR_SEARCH_KEY** ( [PidTagSearchKey](pidtagsearchkey-canonical-property.md)) property in a hard-coded profile section called **MUID_PROFILE_INSTANCE.**
+These properties may not be unique across time, for example where a profile is deleted and later recreated with the same name. MAPI furnishes a totally unique **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) property in a hard-coded profile section called **MUID_PROFILE_INSTANCE.**
   
 ## Related Resources
 

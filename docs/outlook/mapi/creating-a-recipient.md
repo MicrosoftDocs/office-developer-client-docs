@@ -44,20 +44,20 @@ To use a template to create a recipient, set  _lpEidNewEntryTpl_ to the entry id
   
 Obtain the template entry identifier from either:
   
-- The **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)) column in the container's one-off table, accessed by calling the container's [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method and specifying **PR_CREATE_TEMPLATES** ( [PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) as the property tag and IID_IMAPITable as the interface identifier. 
+- The **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) column in the container's one-off table, accessed by calling the container's [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method and specifying **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) as the property tag and IID_IMAPITable as the interface identifier. 
     
-- An address book provider's **PR_DEF_CREATE_MAILUSER** ( [PidTagDefCreateMailuser](pidtagdefcreatemailuser-canonical-property.md)) and **PR_DEF_CREATE_DL** ( [PidTagDefCreateDl](pidtagdefcreatedl-canonical-property.md)) properties which hold the entry identifiers for the provider's messaging user object and distribution list templates. 
+- An address book provider's **PR_DEF_CREATE_MAILUSER** ([PidTagDefCreateMailuser](pidtagdefcreatemailuser-canonical-property.md)) and **PR_DEF_CREATE_DL** ([PidTagDefCreateDl](pidtagdefcreatedl-canonical-property.md)) properties which hold the entry identifiers for the provider's messaging user object and distribution list templates. 
     
 > [!NOTE]
 > Do not confuse a new entry template's entry identifier with a different type of entry identifier called a template identifier. A template identifier is used only by providers to maintain entries copied from other providers; it is never used by clients and it is not used to create new entries. 
   
 To enable the user to determine the type of entry to be created, pass zero for  _cbEidNewEntryTpl_ and NULL for  _lpEidNewEntryTpl_. When this occurs, **NewEntry** displays a common dialog box built from MAPI's one-off table — a hierarchical list of all of the templates supported by each address book provider in the profile. 
   
-When an address type has been determined, either through the setting of the  _lpEidNewEntryTpl_ parameter or a selection by the user from the one-off table display, **NewEntry** displays the corresponding template using its display table. All new entry templates support the **PR_DETAILS_TABLE** ( [PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) property. 
+When an address type has been determined, either through the setting of the  _lpEidNewEntryTpl_ parameter or a selection by the user from the one-off table display, **NewEntry** displays the corresponding template using its display table. All new entry templates support the **PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) property. 
   
 To have **NewEntry** return the entry identifier of the created entry, pass a valid address for the  _lpcbEidNewEntry_ and  _lppEidNewEntry_ parameters. MAPI places the new entry identifier at the address pointed to by  _lppEidNewEntry_ and the byte count of the new entry identifier at the address pointed to by  _lpcbEidNewEntry_.
   
-Call [IABContainer::CreateEntry](iabcontainer-createentry.md) to create a recipient and save it into a particular address book container. You can use this method only with modifiable containers — containers that have the AB_MODIFIABLE flag set in their **PR_CONTAINER_FLAGS** ( [PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)) property. Address book providers with nonmodifiable containers do not support this method. Specify the entry identifier of the template for creating an entry of the desired type in the  _lpEntryID_ parameter. 
+Call [IABContainer::CreateEntry](iabcontainer-createentry.md) to create a recipient and save it into a particular address book container. You can use this method only with modifiable containers — containers that have the AB_MODIFIABLE flag set in their **PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)) property. Address book providers with nonmodifiable containers do not support this method. Specify the entry identifier of the template for creating an entry of the desired type in the  _lpEntryID_ parameter. 
   
 In the  _ulCreateFlags_ parameter, specify the type of duplicate entry checking required and whether or not new entries should replace existing ones. If **CreateEntry** fails to create a new object because of the duplicate entry checking imposed by the provider, do not expect to see an error or warning returned. Under these conditions, providers return a success code. 
   

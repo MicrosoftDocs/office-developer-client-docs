@@ -18,23 +18,23 @@ description: "Last modified: July 23, 2011"
   
 **Applies to**: Outlook 
   
-A recipient list is an [ADRLIST](adrlist.md) structure that contains an array of property value structures for each message recipient — destination for the message. A recipient can represent a human user, a machine, or a folder. All messages to be sent require at least one recipient that has been through the name resolution process — a process for ensuring that the **PR_ENTRYID** ( [PidTagEntryId](pidtagentryid-canonical-property.md)) property is included in the recipient's property value array. 
+A recipient list is an [ADRLIST](adrlist.md) structure that contains an array of property value structures for each message recipient — destination for the message. A recipient can represent a human user, a machine, or a folder. All messages to be sent require at least one recipient that has been through the name resolution process — a process for ensuring that the **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) property is included in the recipient's property value array. 
   
 The properties of a recipient are a combination of address book properties and message properties. Recipient properties can apply either to all messages for a particular recipient or only to the current message. Both message store and transport providers can set recipient properties. 
   
 Each recipient must have a core set of properties in its property value array by the time the message is ready to be sent. The required set of recipient properties include:
   
-- **PR_ADDRTYPE** ( [PidTagAddressType](pidtagaddresstype-canonical-property.md)) 
+- **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) 
     
-- **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 
+- **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 
     
-- **PR_EMAIL_ADDRESS** ( [PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) 
+- **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) 
     
 - **PR_ENTRYID**
     
-- **PR_OBJECT_TYPE** ( [PidTagObjectType](pidtagobjecttype-canonical-property.md)) 
+- **PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md)) 
     
-- **PR_SEARCH_KEY** ( [PidTagSearchKey](pidtagsearchkey-canonical-property.md)) 
+- **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) 
     
 These properties are used to access the recipient, send messages to it, and to compare it to others. Not all of these properties need to be available right away. You can add a recipient initially without knowing its entry identifier, relying on the name resolution process to assign this property. At some point before you send a message, call [IAddrBook::ResolveName](iaddrbook-resolvename.md) to make sure that all of the recipients in your recipient list are resolved. For more information, see [Resolving a Recipient Name](resolving-a-recipient-name.md).
   
@@ -60,7 +60,7 @@ You can enable users to build their recipient lists:
     
  **To create a recipient list programmatically**
   
-1. Allocate an **ADRLIST** structure that contains one [ADRENTRY](adrentry.md) structure for each of the recipients to be included in the list. Make each **ADRENTRY** structure large enough to hold each of the required properties and **PR_RECIPIENT_TYPE** ( [PidTagRecipientType](pidtagrecipienttype-canonical-property.md)).
+1. Allocate an **ADRLIST** structure that contains one [ADRENTRY](adrentry.md) structure for each of the recipients to be included in the list. Make each **ADRENTRY** structure large enough to hold each of the required properties and **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)).
     
 2. For each recipient, set the property value array for its **aEntries** member in the **ADRLIST** structure. 
     

@@ -29,7 +29,7 @@ Computes the number of bytes in an existing [FLATMTSIDLIST](flatmtsidlist.md) st
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**FLATMTSIDLIST** <br/> |
    
-```
+```cpp
 CbFLATMTSIDLIST (_lplist)
 ```
 

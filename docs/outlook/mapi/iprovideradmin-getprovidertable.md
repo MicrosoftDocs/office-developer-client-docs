@@ -55,7 +55,7 @@ S_OK
 
 The **IProviderAdmin::GetProviderTable** method retrieves a pointer to the message service's provider table, a table that MAPI maintains that contains information about each service provider in the message service. 
   
-Unlike the provider table returned by the [IMsgServiceAdmin::GetProviderTable](imsgserviceadmin-getprovidertable.md) method, the provider table returned by **IProviderAdmin::GetProviderTable** may include additional rows that represent information associated with one or more of the service providers in the message service. This extra information is added to the profile with the "Sections" keyword of the Mapisvc.inf file. When a provider has extra profile sections, it stores the **MAPIUID** structures for these sections in the **PR_SERVICE_EXTRA_UIDS** ( [PidTagServiceExtraUids](pidtagserviceextrauids-canonical-property.md)) property. **PR_SERVICE_EXTRA_UIDS** is saved in the message service profile section. 
+Unlike the provider table returned by the [IMsgServiceAdmin::GetProviderTable](imsgserviceadmin-getprovidertable.md) method, the provider table returned by **IProviderAdmin::GetProviderTable** may include additional rows that represent information associated with one or more of the service providers in the message service. This extra information is added to the profile with the "Sections" keyword of the Mapisvc.inf file. When a provider has extra profile sections, it stores the **MAPIUID** structures for these sections in the **PR_SERVICE_EXTRA_UIDS** ([PidTagServiceExtraUids](pidtagserviceextrauids-canonical-property.md)) property. **PR_SERVICE_EXTRA_UIDS** is saved in the message service profile section. 
   
 Providers that have been deleted, or are in use but have been marked for deletion, are not included in the provider table. Provider tables are static, meaning that subsequent additions to or deletions from the message service are not reflected in the table. 
   
@@ -69,9 +69,9 @@ For a complete list of the columns in the provider table, see [Provider Table](p
   
 ## Notes to Callers
 
-To retrieve the rows of a provider table in transport order, sort the table by the **PR_PROVIDER_ORDINAL** ( [PidTagProviderOrdinal](pidtagproviderordinal-canonical-property.md)) column. 
+To retrieve the rows of a provider table in transport order, sort the table by the **PR_PROVIDER_ORDINAL** ([PidTagProviderOrdinal](pidtagproviderordinal-canonical-property.md)) column. 
   
-To retrieve only those rows that represent service providers (without including any extra rows), limit your retrieval to the rows that have a value of PT_ERROR in their **PR_RESOURCE_TYPE** ( [PidTagResourceType](pidtagresourcetype-canonical-property.md)) column.
+To retrieve only those rows that represent service providers (without including any extra rows), limit your retrieval to the rows that have a value of PT_ERROR in their **PR_RESOURCE_TYPE** ([PidTagResourceType](pidtagresourcetype-canonical-property.md)) column.
   
 ## MFCMAPI Reference
 

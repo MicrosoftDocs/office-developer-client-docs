@@ -22,7 +22,7 @@ Specifies the different follow-up statuses for a message.
   
 ## Quick Info
 
-```
+```cpp
 enum FollowUpStatus { 
     flwupNone = 0, 
     flwupComplete, 

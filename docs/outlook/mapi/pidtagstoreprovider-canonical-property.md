@@ -35,7 +35,7 @@ Contains a provider-defined [MAPIUID](mapiuid.md) structure that indicates the t
 
 The [MAPIUID](mapiuid.md) structure identifies the type of message store. The value is computed by message store providers on message store objects and is unique to each provider. It is typically used for browsing through the message store table to find a store of the desired type, such as public folders. 
   
-This property is analogous to the **PR_AB_PROVIDER_ID** ( [PidTagAbProviderId](pidtagabproviderid-canonical-property.md)) property for address books. 
+This property is analogous to the **PR_AB_PROVIDER_ID** ([PidTagAbProviderId](pidtagabproviderid-canonical-property.md)) property for address books. 
   
 ## Related Resources
 

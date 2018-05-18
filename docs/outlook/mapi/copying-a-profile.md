@@ -26,7 +26,7 @@ One way to create a profile is to copy from an existing profile and alter the ne
     
 2. Call [IProfAdmin::GetProfileTable](iprofadmin-getprofiletable.md) to access the profile table. 
     
-3. Build a property restriction with an [SPropertyRestriction](spropertyrestriction.md) structure to match **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) with the name of the profile to be copied. 
+3. Build a property restriction with an [SPropertyRestriction](spropertyrestriction.md) structure to match **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) with the name of the profile to be copied. 
     
 4. Call [IMAPITable::FindRow](imapitable-findrow.md) to locate the appropriate row in the profile table. 
     

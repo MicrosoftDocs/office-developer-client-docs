@@ -1,5 +1,5 @@
 ---
-title: "Forms and MAPI Client Applications"
+title: "Forms and MAPI client applications"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,14 +8,10 @@ api_type:
 - COM
 ms.assetid: 658ebb86-e9f4-44d8-a5f1-6f66eaf75dd6
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
-# Forms and MAPI Client Applications
+# Forms and MAPI client applications
 
-  
-  
 **Applies to**: Outlook 
   
 Because all MAPI messages are instances of forms, client applications display and interact with form objects just as they do with other message objects.
@@ -26,7 +22,5 @@ For more information, see [Handling MAPI Forms](handling-mapi-forms.md).
   
 ## See also
 
-#### Concepts
-
-[MAPI Forms](mapi-forms.md)
+- [MAPI Forms](mapi-forms.md)
 

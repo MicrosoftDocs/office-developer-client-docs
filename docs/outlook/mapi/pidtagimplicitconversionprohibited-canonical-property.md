@@ -33,7 +33,7 @@ Contains TRUE if a message transfer agent (MTA) is prohibited from making implic
    
 ## Remarks
 
-If this property is TRUE, the messaging system must not perform any content conversion on the message unless it is explicitly requested on a per-recipient basis with the **PR_EXPLICIT_CONVERSION** ( [PidTagExplicitConversion](pidtagexplicitconversion-canonical-property.md)) property.
+If this property is TRUE, the messaging system must not perform any content conversion on the message unless it is explicitly requested on a per-recipient basis with the **PR_EXPLICIT_CONVERSION** ([PidTagExplicitConversion](pidtagexplicitconversion-canonical-property.md)) property.
   
 ## Related Resources
 

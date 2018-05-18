@@ -50,7 +50,7 @@ Content Type = "image/tiff"
   
 If there is no mapping for the file extension, the default  *application/octet*  stream should be used. 
   
-On inbound messages, the content-type for an attachment should always be copied to the MAPI property **PR_ATTACH_MIME_TAG** ( [PidTagAttachMimeTag](pidtagattachmimetag-canonical-property.md)). Even if a filename is defined for an attached file, the extension mapped by the content-type should be used in the **PR_ATTACH_FILENAME** ( [PidTagAttachFilename](pidtagattachfilename-canonical-property.md)) and **PR_ATTACH_EXTENSION** ( [PidTagAttachExtension](pidtagattachextension-canonical-property.md)) properties.
+On inbound messages, the content-type for an attachment should always be copied to the MAPI property **PR_ATTACH_MIME_TAG** ([PidTagAttachMimeTag](pidtagattachmimetag-canonical-property.md)). Even if a filename is defined for an attached file, the extension mapped by the content-type should be used in the **PR_ATTACH_FILENAME** ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md)) and **PR_ATTACH_EXTENSION** ([PidTagAttachExtension](pidtagattachextension-canonical-property.md)) properties.
   
 The  *name*  parameter is officially deprecated by RFC 821. As standards evolve, Microsoft will consider specifying an alternate mapping for attached filenames. 
   
@@ -70,7 +70,7 @@ Attached messages are textized into the message text. The hierarchy of attached 
   
 Embedded OLE objects are discarded.
   
-Attachment rendering positions are transmitted literally, using the property **PR_ATTACH_RENDERING** ( [PidTagAttachRendering](pidtagattachrendering-canonical-property.md)) in the TNEF. If TNEF is not used, they are lost. Incoming attachments with no rendering position (including when there is no TNEF) have their rendering position set to 0xFFFFFFFF, that is, no position in the message text.
+Attachment rendering positions are transmitted literally, using the property **PR_ATTACH_RENDERING** ([PidTagAttachRendering](pidtagattachrendering-canonical-property.md)) in the TNEF. If TNEF is not used, they are lost. Incoming attachments with no rendering position (including when there is no TNEF) have their rendering position set to 0xFFFFFFFF, that is, no position in the message text.
   
 ## See also
 

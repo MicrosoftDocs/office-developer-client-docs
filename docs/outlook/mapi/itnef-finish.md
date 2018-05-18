@@ -40,7 +40,7 @@ HRESULT Finish(
     
  _lpKey_
   
-> [out] A pointer to the **PR_ATTACH_NUM** ( [PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) key property of an attachment. The TNEF encapsulation object uses this key to match an attachment to its attachment placement tag in a message. This key should be unique to each attachment.
+> [out] A pointer to the **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) key property of an attachment. The TNEF encapsulation object uses this key to match an attachment to its attachment placement tag in a message. This key should be unique to each attachment.
     
  _lpProblem_
   

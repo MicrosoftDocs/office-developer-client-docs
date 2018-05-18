@@ -29,7 +29,7 @@ Defines bookmarks data for remembering a position in a table.
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related methods:  <br/> |[IMAPITable::CreateBookmark](imapitable-createbookmark.md)[IMAPITable::FreeBookmark](imapitable-freebookmark.md) <br/> |
    
-```
+```cpp
 typedef ULONG_PTR BOOKMARK;
 ```
 

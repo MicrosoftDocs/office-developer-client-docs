@@ -33,7 +33,7 @@ Contains formatting information about a Multipurpose Internet Mail Extensions (M
    
 ## Remarks
 
-If the **PR_ATTACH_TAG** ( [PidTagAttachTag](pidtagattachtag-canonical-property.md)) property contains the value **OID_MIMETAG**, the transport provider should look at these properties to determine how the attachment is formatted. 
+If the **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)) property contains the value **OID_MIMETAG**, the transport provider should look at these properties to determine how the attachment is formatted. 
   
 These properties are copied from the Content-type parameter of the inbound MIME header. The composition of the string is defined in the RFC 1521 document. The format is type/subtype, such as application/binary or text/plain. 
   

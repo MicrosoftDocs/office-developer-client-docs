@@ -33,7 +33,7 @@ Contains additional information about the named properties used in a Folder Asso
    
 ## Remarks
 
-This property must be set on an FAI message. This property serves the same purpose as **PR_RULE_ACTIONS** ( [PidTagRuleActions](pidtagruleactions-canonical-property.md)), but contains additional information about the version of the rule and the named properties stored in the rule action, as well as information about the actions to be performed by this rule. All string values contained in any part of the action buffer used to contain actions must be in Unicode format.
+This property must be set on an FAI message. This property serves the same purpose as **PR_RULE_ACTIONS** ([PidTagRuleActions](pidtagruleactions-canonical-property.md)), but contains additional information about the version of the rule and the named properties stored in the rule action, as well as information about the actions to be performed by this rule. All string values contained in any part of the action buffer used to contain actions must be in Unicode format.
   
 For information about the format of this binary property, see [[MS-OXORULE]](http://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx).
   

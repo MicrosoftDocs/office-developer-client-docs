@@ -33,7 +33,7 @@ The URL component name for a message.
    
 ## Remarks
 
-These properties should be unique within a folder. If not set when the message is created, the message store should set these properties based on various message properties, depending on the message class. For example, the **IPM.Note** and **IPM.Appointment** messages should have this property set based on the **PR_SUBJECT** ( [PidTagSubject](pidtagsubject-canonical-property.md)) property and the **IPM.Contact** messages should have this property set based on the **dispidFileUnder** ( [PidLidFileUnder](pidlidfileunder-canonical-property.md)) property. For most other message classes, this property should be based on the **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property.
+These properties should be unique within a folder. If not set when the message is created, the message store should set these properties based on various message properties, depending on the message class. For example, the **IPM.Note** and **IPM.Appointment** messages should have this property set based on the **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) property and the **IPM.Contact** messages should have this property set based on the **dispidFileUnder** ([PidLidFileUnder](pidlidfileunder-canonical-property.md)) property. For most other message classes, this property should be based on the **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property.
   
 ## Related Resources
 

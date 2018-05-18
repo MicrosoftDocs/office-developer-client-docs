@@ -26,7 +26,7 @@ The **[Verbs]** section lists the complete set of verbs supported by the form. T
   
 Following is an example of a **[Verbs]** section. 
   
-```
+```cpp
 [Verbs]
 Verb1=1
 Verb2=2
@@ -47,7 +47,7 @@ Each verb is defined in a separate **[Verb.** _string_ **]** section. A **[Verb.
   
 Following is an example of a **[Verb.** _string_ **]** section. 
   
-```
+```cpp
 [Verb.1]
 DisplayName=Reply
 code=1

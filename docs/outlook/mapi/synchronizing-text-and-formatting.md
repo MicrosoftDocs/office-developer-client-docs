@@ -28,11 +28,11 @@ The synchronization process that occurs in **RTFSync** is a sophisticated cyclic
   
 |**RTF property**|**Description**|
 |:-----|:-----|
-|**PR_RTF_SYNC_BODY_TAG** ( [PidTagRtfSyncBodyTag](pidtagrtfsyncbodytag-canonical-property.md))  <br/> |Indicates the beginning of the real message text.  <br/> |
-|**PR_RTF_SYNC_BODY_CRC** ( [PidTagRtfSyncBodyCrc](pidtagrtfsyncbodycrc-canonical-property.md))  <br/> |Contains the result of the cyclic redundancy check of the message text.  <br/> |
-|**PR_RTF_SYNC_BODY_COUNT** ( [PidTagRtfSyncBodyCount](pidtagrtfsyncbodycount-canonical-property.md))  <br/> |Contains the number of characters in **PR_RTF_SYNC_BODY_CRC**.  <br/> |
-|**PR_RTF_IN_SYNC** ( [PidTagRtfInSync](pidtagrtfinsync-canonical-property.md))  <br/> |Set to TRUE when the message text and formatting have been synchronized.  <br/> |
-|**PR_RTF_SYNC_PREFIX_COUNT** ( [PidTagRtfSyncPrefixCount](pidtagrtfsyncprefixcount-canonical-property.md))  <br/> |Contains the number of nonwhitespace characters that preceed the message text.  <br/> |
-|**PR_RTF_SYNC_TRAILING_COUNT** ( [PidTagRtfSyncTrailingCount](pidtagrtfsynctrailingcount-canonical-property.md))  <br/> |Contains the number of nonwhitespace characters that trail the message text.  <br/> |
+|**PR_RTF_SYNC_BODY_TAG** ([PidTagRtfSyncBodyTag](pidtagrtfsyncbodytag-canonical-property.md))  <br/> |Indicates the beginning of the real message text.  <br/> |
+|**PR_RTF_SYNC_BODY_CRC** ([PidTagRtfSyncBodyCrc](pidtagrtfsyncbodycrc-canonical-property.md))  <br/> |Contains the result of the cyclic redundancy check of the message text.  <br/> |
+|**PR_RTF_SYNC_BODY_COUNT** ([PidTagRtfSyncBodyCount](pidtagrtfsyncbodycount-canonical-property.md))  <br/> |Contains the number of characters in **PR_RTF_SYNC_BODY_CRC**.  <br/> |
+|**PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md))  <br/> |Set to TRUE when the message text and formatting have been synchronized.  <br/> |
+|**PR_RTF_SYNC_PREFIX_COUNT** ([PidTagRtfSyncPrefixCount](pidtagrtfsyncprefixcount-canonical-property.md))  <br/> |Contains the number of nonwhitespace characters that preceed the message text.  <br/> |
+|**PR_RTF_SYNC_TRAILING_COUNT** ([PidTagRtfSyncTrailingCount](pidtagrtfsynctrailingcount-canonical-property.md))  <br/> |Contains the number of nonwhitespace characters that trail the message text.  <br/> |
    
 

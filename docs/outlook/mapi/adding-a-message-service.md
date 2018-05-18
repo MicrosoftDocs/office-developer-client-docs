@@ -26,7 +26,7 @@ Call [IMsgServiceAdmin2::CreateMsgServiceEx](imsgserviceadmin2-createmsgservicee
     
 2. Calls the message service's entry point function, **MSGSERVICEENTRY**, with the  _ulContext_ parameter set to MSG_SERVICE_CREATE. 
     
-3. Sets and retrieves the message service's **PR_SERVICE_UID** ( [PidTagServiceUid](pidtagserviceuid-canonical-property.md)) property.
+3. Sets and retrieves the message service's **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) property.
     
  **To access any newly added message service**
   

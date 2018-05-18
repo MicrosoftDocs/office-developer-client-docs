@@ -35,7 +35,7 @@ Contains the telephone number of the recipient's administrative assistant.
 
 These properties provide identification and access information for a recipient. They are defined by the recipient and their organization. 
   
-The telephone number is for the assistant specified in the **PR_ASSISTANT** ( [PidTagAssistant](pidtagassistant-canonical-property.md)) property. 
+The telephone number is for the assistant specified in the **PR_ASSISTANT** ([PidTagAssistant](pidtagassistant-canonical-property.md)) property. 
   
 ## Related Resources
 

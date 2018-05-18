@@ -29,7 +29,7 @@ Describes a combo box control that will be used in a dialog box built from a dis
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related macro:  <br/> |[SizedDtblComboBox](sizeddtblcombobox.md) <br/> |
    
-```
+```cpp
 typedef struct _DTBLCOMBOBOX
 {
   ULONG ulbLpszCharsAllowed;
@@ -81,7 +81,7 @@ A **DTBLCOMBOBOX** structure describes a combo box a control that consists of a 
   
 The two property tag members work together to coordinate the list display with the edit control. When MAPI first displays the combo box, it calls the **OpenProperty** method of the **IMAPIProp** implementation that is associated with the display table to retrieve the table represented by the **ulPRTableName** member. This table has one column a column that contains values for the property represented by the **ulPRPropertyName** member. Therefore, this column must be of the same type as the **ulPRPropertyName** property and both columns must be character strings. 
   
-The values for the column are displayed in the list section of the combo box. Therefore, **PR_NULL** ( [PidTagNull](pidtagnull-canonical-property.md)) is not a valid property tag for **ulPRPropertyName**. When a user either selects one of the rows or enters new data into the text box, the **ulPRPropertyName** property is set to the selected or entered value. 
+The values for the column are displayed in the list section of the combo box. Therefore, **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)) is not a valid property tag for **ulPRPropertyName**. When a user either selects one of the rows or enters new data into the text box, the **ulPRPropertyName** property is set to the selected or entered value. 
   
 To display an initial value for the edit control, MAPI calls [IMAPIProp::GetProps](imapiprop-getprops.md) to retrieve the property values for the display table. If one of the retrieved properties matches the property represented by the **ulPRPropertyName** member, its value becomes the initial value. 
   

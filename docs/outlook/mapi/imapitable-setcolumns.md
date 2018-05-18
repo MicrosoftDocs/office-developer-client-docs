@@ -79,7 +79,7 @@ When sending table notifications, the order of the properties in the **row** mem
   
 Another flag, TBL_BATCH, allows callers to specify that the table implementer can defer evaluating the results of the operation until a later time. Whenever possible, callers should set this flag because batched operation improves performance.
   
-It is often convenient for callers to reserve some columns in the retrieved row set for values to be added later. Callers do this by placing **PR_NULL** ( [PidTagNull](pidtagnull-canonical-property.md)) at the desired positions in the property tag array passed to **SetColumns**; the table will then pass back **PR_NULL** at those positions in all rows retrieved with **QueryRows**.
+It is often convenient for callers to reserve some columns in the retrieved row set for values to be added later. Callers do this by placing **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)) at the desired positions in the property tag array passed to **SetColumns**; the table will then pass back **PR_NULL** at those positions in all rows retrieved with **QueryRows**.
   
 ## Notes to Callers
 

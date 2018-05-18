@@ -28,7 +28,7 @@ Describes the display and behavior of the common address dialog box.
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
-```
+```cpp
 typedef struct _ADRPARM
 {
   ULONG cbABContEntryID;
@@ -149,7 +149,7 @@ DIALOG_SDI
     
  **lpulDestComps**
   
-> Pointer to an array of recipient type values, such as MAPI_TO, MAPI_CC, and MAPI_BCC, that is associated with each text box control. The value of the **CDestFields** member indicates the number of recipient types included in the array. The values pointed to by **lpulDestComps** can be used to set the **PR_RECIPIENT_TYPE** ( [PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) property of each recipient. If the **lpulDestComps** member is NULL, the **Address** method uses default recipient types. 
+> Pointer to an array of recipient type values, such as MAPI_TO, MAPI_CC, and MAPI_BCC, that is associated with each text box control. The value of the **CDestFields** member indicates the number of recipient types included in the array. The values pointed to by **lpulDestComps** can be used to set the **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) property of each recipient. If the **lpulDestComps** member is NULL, the **Address** method uses default recipient types. 
     
  **lpContRestriction**
   

@@ -46,9 +46,9 @@ Manages high-level operations on container objects such as address books, distri
    
 |**Required properties**|**Access**|
 |:-----|:-----|
-|**PR_CONTAINER_HIERARCHY** ( [PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md))  <br/> |Read-only  <br/> |
-|**PR_CONTAINER_CONTENTS** ( [PidTagContainerContents](pidtagcontainercontents-canonical-property.md))  <br/> |Read-only  <br/> |
-|**PR_CONTAINER_FLAGS** ( [PidTagContainerFlags](pidtagcontainerflags-canonical-property.md))  <br/> |Read/write  <br/> |
+|**PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md))  <br/> |Read-only  <br/> |
+|**PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md))  <br/> |Read-only  <br/> |
+|**PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md))  <br/> |Read/write  <br/> |
    
 ## See also
 

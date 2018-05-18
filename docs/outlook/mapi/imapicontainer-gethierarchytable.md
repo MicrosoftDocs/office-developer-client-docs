@@ -77,7 +77,7 @@ The **IMAPIContainer::GetHierarchyTable** method returns a pointer to the hierar
   
 It is possible for some containers to have no child containers. These containers return MAPI_E_NO_SUPPORT from their implementations of **GetHierarchyTable**.
   
-When the CONVENIENT_DEPTH flag is set, each row in the hierarchy table also includes the **PR_DEPTH** ( [PidTagDepth](pidtagdepth-canonical-property.md)) property as a column. **PR_DEPTH** indicates the level of each container relative to the container that implements the table. The implementing container's immediate child containers are at depth zero, child containers in the zero depth containers are at depth one, and so on. The values of **PR_DEPTH** increase sequentially as the hierarchy of levels deepens. 
+When the CONVENIENT_DEPTH flag is set, each row in the hierarchy table also includes the **PR_DEPTH** ([PidTagDepth](pidtagdepth-canonical-property.md)) property as a column. **PR_DEPTH** indicates the level of each container relative to the container that implements the table. The implementing container's immediate child containers are at depth zero, child containers in the zero depth containers are at depth one, and so on. The values of **PR_DEPTH** increase sequentially as the hierarchy of levels deepens. 
   
 For a complete list of required and optional columns in hierarchy tables, see [Hierarchy Tables](hierarchy-tables.md).
   
@@ -85,7 +85,7 @@ For a complete list of required and optional columns in hierarchy tables, see [H
 
 If you support a hierarchy table for your container, you must also do the following:
   
-- Support a call to the container's [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method to open the **PR_CONTAINER_HIERARCHY** ( [PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) property.
+- Support a call to the container's [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method to open the **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) property.
     
 - Return **PR_CONTAINER_HIERARCHY** from a call to the container's [IMAPIProp::GetPropList](imapiprop-getproplist.md) or [IMAPIProp::GetProps](imapiprop-getprops.md) methods. 
     

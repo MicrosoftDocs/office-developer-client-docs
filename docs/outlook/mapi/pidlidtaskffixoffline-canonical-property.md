@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Indicates the accuracy of the **dispidTaskOwner** ( [PidLidTaskOwner](pidlidtaskowner-canonical-property.md)) property.
+Indicates the accuracy of the **dispidTaskOwner** ([PidLidTaskOwner](pidlidtaskowner-canonical-property.md)) property.
   
 |||
 |:-----|:-----|

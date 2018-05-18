@@ -29,7 +29,7 @@ In addition to AB_NO_DIALOG to suppress a progress indicator, one of two other f
    
 The last flag, CREATE_REPLACE, indicates that the new entry should replace the existing one if your provider has determined that an entry to be created is a duplicate of an entry already in your container. 
   
-If your provider is a personal address book, include the **PR_DETAILS_TABLE** ( [PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) property in every copy operation. Including the details display table of a copied recipient enables your container to display the details of the recipient rather than having to call the original container to create the display.
+If your provider is a personal address book, include the **PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) property in every copy operation. Including the details display table of a copied recipient enables your container to display the details of the recipient rather than having to call the original container to create the display.
   
  **To implement IABContainer::CopyEntries**
   

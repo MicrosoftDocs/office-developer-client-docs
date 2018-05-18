@@ -22,7 +22,7 @@ Information for downloading the contents of a folder from the server during the 
   
 ## Quick Info
 
-```
+```cpp
 struct DNTBL 
 { 
     ULONG ulFlags; 

@@ -43,7 +43,7 @@ ULONG FAR * lpulMoreRows
     
  _pbInstanceKey_
   
-> [in] A pointer to the **PR_INSTANCE_KEY** ( [PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) property that identifies the heading row for the category. 
+> [in] A pointer to the **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) property that identifies the heading row for the category. 
     
  _ulRowCount_
   

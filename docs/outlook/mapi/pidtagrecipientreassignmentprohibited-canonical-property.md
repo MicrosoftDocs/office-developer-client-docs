@@ -31,7 +31,7 @@ Specifies whether adding additional recipients, when forwarding the message, is 
    
 ## Remarks
 
-This property is set based on the e-mail message's **PR_SENSITIVITY** ( [PidTagSensitivity](pidtagsensitivity-canonical-property.md)) value. If **PR_SENSITIVITY** is set to "0x00000000" (normal) or "0x00000003" (confidential), this property must be set to "0x00" or absent meaning that adding additional or different recipients to the e-mail message is allowed. If the e-mail object's **PR_SENSITIVITY** is set to "0x00000001" (personal) or "0x00000002" (private), this property must be set "0x01" to prevent adding additional or different recipients of this e-mail through forwarding. 
+This property is set based on the e-mail message's **PR_SENSITIVITY** ([PidTagSensitivity](pidtagsensitivity-canonical-property.md)) value. If **PR_SENSITIVITY** is set to "0x00000000" (normal) or "0x00000003" (confidential), this property must be set to "0x00" or absent meaning that adding additional or different recipients to the e-mail message is allowed. If the e-mail object's **PR_SENSITIVITY** is set to "0x00000001" (personal) or "0x00000002" (private), this property must be set "0x01" to prevent adding additional or different recipients of this e-mail through forwarding. 
   
 ## Related Resources
 

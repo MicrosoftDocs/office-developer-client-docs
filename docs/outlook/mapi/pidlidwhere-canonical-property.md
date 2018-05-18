@@ -34,7 +34,7 @@ Specifies the location of an event.
    
 ## Remarks
 
-The value of this property should be the same as the value of the **dispidLocation** ( [PidLidLocation](pidlidlocation-canonical-property.md)) property from the associated meeting.
+The value of this property should be the same as the value of the **dispidLocation** ([PidLidLocation](pidlidlocation-canonical-property.md)) property from the associated meeting.
   
 ## Related Resources
 

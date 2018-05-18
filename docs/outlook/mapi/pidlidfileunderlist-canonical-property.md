@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Specifies a list of possible values for the **dispidFileUnderId** ( [PidLidFileUnderId](pidlidfileunderid-canonical-property.md)) property.
+Specifies a list of possible values for the **dispidFileUnderId** ([PidLidFileUnderId](pidlidfileunderid-canonical-property.md)) property.
   
 |||
 |:-----|:-----|

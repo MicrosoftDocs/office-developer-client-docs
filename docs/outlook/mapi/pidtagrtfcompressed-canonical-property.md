@@ -33,9 +33,9 @@ Contains the Rich Text Format (RTF) version of the message text, usually in comp
    
 ## Remarks
 
-This property contains the same message text as the **PR_BODY** ( [PidTagBody](pidtagbody-canonical-property.md)) property but in RTF. 
+This property contains the same message text as the **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) property but in RTF. 
   
-Message text in RTF is normally stored in compressed form. However, some systems do not compress formatted text. To accommodate them, MAPI provides the dwMagicUncompressedRTF value for a stream header to identify uncompressed RTF, and the **STORE_UNCOMPRESSED_RTF** flag in **PR_STORE_SUPPORT_MASK** ( [PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) for the message store to indicate it can store uncompressed RTF. 
+Message text in RTF is normally stored in compressed form. However, some systems do not compress formatted text. To accommodate them, MAPI provides the dwMagicUncompressedRTF value for a stream header to identify uncompressed RTF, and the **STORE_UNCOMPRESSED_RTF** flag in **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) for the message store to indicate it can store uncompressed RTF. 
   
 To obtain the contents of this property, call **OpenProperty**, then call [WrapCompressedRTFStream](wrapcompressedrtfstream.md) with the **MAPI_READ** flag. To write into this property, open it with the **MAPI_MODIFY** and **MAPI_CREATE** flags. This ensures that the new data completely replace any old data and that the writes are performed using the minimum number of store updates. 
   

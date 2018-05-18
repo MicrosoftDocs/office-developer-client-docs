@@ -58,7 +58,7 @@ MAPI_E_NO_SUPPORT
     
 ## Remarks
 
-The **IMsgStore::FinishedMsg** method performs processing on a sent message. This processing can involve deleting the message, moving it to a different folder, or both actions. The type of processing depends on whether the **PR_DELETE_AFTER_SUBMIT** ( [PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) and **PR_SENTMAIL_ENTRYID** ( [PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) properties are set. 
+The **IMsgStore::FinishedMsg** method performs processing on a sent message. This processing can involve deleting the message, moving it to a different folder, or both actions. The type of processing depends on whether the **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) and **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) properties are set. 
   
 ## Notes to Implementers
 

@@ -22,7 +22,7 @@ Identifier for a folder. It contains an entry identifier and other relevant info
   
 ## Quick Info
 
-```
+```cpp
 struct FEID 
 { 
     BYTE abFlags[4]; 

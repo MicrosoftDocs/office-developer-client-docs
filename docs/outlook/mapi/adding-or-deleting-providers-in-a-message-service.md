@@ -26,15 +26,15 @@ To add or delete service providers in a message service, use the [IProviderAdmin
     
 2. Call [IMsgServiceAdmin::GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md) to access the message service table. 
     
-3. Build a property restriction using an [SPropertyRestriction](spropertyrestriction.md) structure that matches **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) or **PR_SERVICE_NAME** ( [PidTagServiceName](pidtagservicename-canonical-property.md)) with the name of the message service to be modified. 
+3. Build a property restriction using an [SPropertyRestriction](spropertyrestriction.md) structure that matches **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) or **PR_SERVICE_NAME** ([PidTagServiceName](pidtagservicename-canonical-property.md)) with the name of the message service to be modified. 
     
 4. Call the message service table's [IMAPITable::FindRow](imapitable-findrow.md) method to locate the row in the table that represents the targeted message service. 
     
-5. Call [IMsgServiceAdmin::AdminProviders](imsgserviceadmin-adminproviders.md) to retrieve an **IProviderAdmin** pointer. Pass the **PR_SERVICE_UID** ( [PidTagServiceUid](pidtagserviceuid-canonical-property.md)) column from the message service table row as the  _lpUID_ parameter. 
+5. Call [IMsgServiceAdmin::AdminProviders](imsgserviceadmin-adminproviders.md) to retrieve an **IProviderAdmin** pointer. Pass the **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) column from the message service table row as the  _lpUID_ parameter. 
     
 6. Call [IProviderAdmin::GetProviderTable](iprovideradmin-getprovidertable.md) to access the provider table. 
     
-7. Build a property restriction using an SPropertyRestriction structure that matches **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) or **PR_PROVIDER_DISPLAY** ( [PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md)) with the name of the service provider to be added or deleted. 
+7. Build a property restriction using an SPropertyRestriction structure that matches **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) or **PR_PROVIDER_DISPLAY** ([PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md)) with the name of the service provider to be added or deleted. 
     
 8. Call the provider table's [IMAPITable::FindRow](imapitable-findrow.md) method to locate the row in the table that represents the targeted service provider. 
     

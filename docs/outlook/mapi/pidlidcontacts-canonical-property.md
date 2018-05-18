@@ -34,7 +34,7 @@ Contains the names of contacts associated with the item.
    
 ## Remarks
 
-This property contains the **PR_DISPLAY_NAME** ( [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property of each Address Book **EntryID** that is referenced in the value of **dispidContactLinkEntry** ( [PidLidContactLinkEntry](pidlidcontactlinkentry-canonical-property.md)) property. It may include names not referenced in **dispidContactLinkEntry**.
+This property contains the **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property of each Address Book **EntryID** that is referenced in the value of **dispidContactLinkEntry** ([PidLidContactLinkEntry](pidlidcontactlinkentry-canonical-property.md)) property. It may include names not referenced in **dispidContactLinkEntry**.
   
 ## Related Resources
 
