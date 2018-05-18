@@ -74,7 +74,7 @@ short WINAPI xlSetExample(short int iVal)
    xRef.val.sref.ref.colLast = 1;
    xValue.xltype = xltypeInt;
    xValue.val.w = iVal;
-   Excel12(xlSet, 0, 2, (LPXLOPER12)&amp;xRef, (LPXLOPER12)&amp;xValue);
+   Excel12(xlSet, 0, 2, (LPXLOPER12)&xRef, (LPXLOPER12)&xValue);
    return 1;
 }
 ```

@@ -91,7 +91,7 @@ LPXLOPER12 WINAPI fArray(void)
     }
 // Word of caution - returning static XLOPERs/XLOPER12s is not thread safe
 // for UDFs declared as thread safe, use alternate memory allocation mechanisms
-    return (LPXLOPER12)&amp;xMulti;
+    return (LPXLOPER12)&xMulti;
 }
 void WINAPI xlAutoFree12(LPXLOPER12 pxFree)
 {
@@ -104,7 +104,7 @@ void WINAPI xlAutoFree12(LPXLOPER12 pxFree)
 //////////////////////////////////////////
 void WINAPI xlAutoFree12(LPXLOPER12 pxFree)
 {
-    if(pxFree->xltype &amp; xltypeMulti)
+    if(pxFree->xltype & xltypeMulti)
     {
 /* Assume all string elements were allocated using malloc, and
 ** need to be freed using free.  Then free the array itself.
@@ -117,11 +117,11 @@ void WINAPI xlAutoFree12(LPXLOPER12 pxFree)
                 free(p->val.str);
         free(pxFree->val.array.lparray);
     }
-    else if(pxFree->xltype &amp; xltypeStr)
+    else if(pxFree->xltype & xltypeStr)
     {
         free(pxFree->val.str);
     }
-    else if(pxFree->xltype &amp; xltypeRef)
+    else if(pxFree->xltype & xltypeRef)
     {
         free(pxFree->val.mref.lpmref);
     }
@@ -148,7 +148,7 @@ LPXLOPER12 WINAPI example_xll_function(LPXLOPER12 pxArg)
 }
 void WINAPI xlAutoFree12(LPXLOPER pxFree)
 {
-    if(pxFree->xltype &amp; xltypeMulti)
+    if(pxFree->xltype & xltypeMulti)
     {
 // Assume all string elements were allocated using malloc, and
 // need to be freed using free. Then free the array itself.
@@ -160,11 +160,11 @@ void WINAPI xlAutoFree12(LPXLOPER pxFree)
                 free(p->val.str);
         free(pxFree->val.array.lparray);
     }
-    else if(pxFree->xltype &amp; xltypeStr)
+    else if(pxFree->xltype & xltypeStr)
     {
         free(pxFree->val.str);
     }
-    else if(pxFree->xltype &amp; xltypeRef)
+    else if(pxFree->xltype & xltypeRef)
     {
         free(pxFree->val.mref.lpmref);
     }

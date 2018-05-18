@@ -48,8 +48,8 @@ This example uses the **TempNum12** function to pass an argument to **xlfGetWork
 short WINAPI TempNumExample(void)
 {
    XLOPER12 xRes;
-   Excel12f(xlfGetWorkspace, &amp;xRes, 1, TempNum12(44));
-   Excel12f(xlFree, 0, 1, (LPXLOPER12)&amp;xRes);
+   Excel12f(xlfGetWorkspace, &xRes, 1, TempNum12(44));
+   Excel12f(xlFree, 0, 1, (LPXLOPER12)&xRes);
    return 1;
 }
 ```

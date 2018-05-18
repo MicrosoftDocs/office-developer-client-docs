@@ -46,7 +46,7 @@ The source and destination coordinates must be on the same page.
 
 The following formula converts the local pin of the shape associated with the formula to a point on the page.
   
-```
+```vb
 LOCTOLOC(PNT(LocPinX, LocPinY), Width, ThePage!PageWidth)
 ```
 

@@ -53,9 +53,9 @@ short WINAPI xlSheetIdExample(void)
    XLOPER12 xSheetName, xRes;
    xSheetName.xltype = xltypeStr;
    xSheetName.val.str = L"\022[BOOK1.XLSX]Sheet1";
-   Excel12(xlSheetId, &amp;xRes, 1, (LPXLOPER12)&amp;xSheetName);
+   Excel12(xlSheetId, &xRes, 1, (LPXLOPER12)&xSheetName);
    Excel12f(xlcAlert, 0, 1, TempNum12(xRes.val.mref.idSheet));
-   Excel12(xlFree, 0, 1, (LPXLOPER12)&amp;xRes);
+   Excel12(xlFree, 0, 1, (LPXLOPER12)&xRes);
    return 1;
 }
 ```

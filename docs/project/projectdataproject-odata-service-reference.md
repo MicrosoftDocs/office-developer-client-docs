@@ -87,7 +87,7 @@ There are limits to the number of entities that can be returned in one query of 
    
 For on-premises instances of Project Server, you can use the [Get-SPProjectOdataConfiguration](http://technet.microsoft.com/en-us/library/jj219516%28v=office.15%29.aspx) command in Windows PowerShell to get the query limits for entities in the **ProjectData** service. For example, on the Project Server computer, run **SharePoint 2013 Management Shell** as an administrator, and then run the following command. Results are shown below the command. 
   
-```
+```powershell
 (Get-SPProjectOdataConfiguration).EntitySetsWithMaxPAgeSizeOverride
 Key                                                                       Value
 ---                                                                       -----
@@ -120,7 +120,7 @@ For on-premises instances of Project Server, you can also use the [Set-SPProject
 > [!CAUTION]
 > Although you can change on-premises limits, we recommend that you keep the default values. Changing them could adversely affect server performance. 
   
-```
+```powershell
 Set-SPProjectOdataConfiguration -EntitySetName Projects -PageSizeOverride 200
 ```
 
@@ -128,25 +128,25 @@ For a Project Web App instance that contains a large number of entities, such as
   
 - Use a  _$filter_ URL option, or use  _$select_ to limit the data. For example, the following query filters by project start date and returns only four fields, in order of the project name (the query is all on one line): 
     
-  ```HTML
+  ```html
   http://ServerName/ProjectServerName/_api/ProjectData/Projects?
-      $filter=ProjectStartDate gt datetime'2012-01-01T00:00:00'&amp;
-      $orderby=ProjectName&amp;
+      $filter=ProjectStartDate gt datetime'2012-01-01T00:00:00'&
+      $orderby=ProjectName&
       $select=ProjectName,ProjectStartDate,ProjectFinishDate,ProjectCost
   ```
 
 - Get an entity collection by using an association. For example, the following query internally uses the **Project_Assignments_Assignment_Project** association to get all of the assignments in a specific project (all on one line): 
     
-  ```HTML
+  ```html
   http://ServerName/ProjectServerName/_api/ProjectData
       /Projects(guid'263fc8d7-427c-e111-92fc-00155d3ba208')/Assignments
   ```
 
 - Do multiple queries to return data one page at a time, by using the  _$top_ operator and the  _$skip_ operator in a loop. For example, the following query gets issues 11 through 20 for all projects, in order of the resource who is assigned to the issue (all on one line): 
     
-  ```HTML
+  ```html
   http://ServerName/ProjectServerName/_api/ProjectData
-      /Issues?$skip=10&amp;$top=10&amp;$orderby=AssignedToResource
+      /Issues?$skip=10&$top=10&$orderby=AssignedToResource
   ```
 
     For more information, see [OData System Query Options Using the REST Endpoint](http://msdn.microsoft.com/en-us/library/gg309461.aspx).

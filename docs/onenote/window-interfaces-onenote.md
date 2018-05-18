@@ -121,7 +121,7 @@ namespace SampleWND
             }
             
             // If no docked window exists, dock the active window.
-            if (!foundDockedWND &amp;&amp; (app.Windows.Count > 0))
+            if (!foundDockedWND && (app.Windows.Count > 0))
                 app.Windows.CurrentWindow.DockedLocation = DockLocation.dlDefault;
             // If no active window exists, create a new docked window.
             if (app.Windows.Count < 1)

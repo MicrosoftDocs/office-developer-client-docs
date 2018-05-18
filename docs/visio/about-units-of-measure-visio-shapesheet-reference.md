@@ -144,7 +144,7 @@ For example, suppose you enter the equivalent of 1 inch in cell A using explicit
   
 To enter units implicitly, use the following syntax.
   
-```
+```vb
 number  [unit , flag ]
 ```
 

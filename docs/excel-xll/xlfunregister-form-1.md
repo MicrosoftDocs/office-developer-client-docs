@@ -69,20 +69,20 @@ int WINAPI fExit(void)
 //
    // Make xFunc a string //
    xFunc.xltype = xltypeStr;
-   Excel12f(xlGetName, &amp;xDLL, 0);
+   Excel12f(xlGetName, &xDLL, 0);
    for (i = 0; i < g_rgWorksheetFuncsRows; i++)
    {
       xFunc.val.str = (LPWSTR) (g_rgWorksheetFuncs[i][0]);
-      Excel12f(xlfRegisterId,&amp;xRegId,2,(LPXLOPER12)&amp;xDLL,(LPXLOPER12)&amp;xFunc);
-      Excel12f(xlfUnregister, 0, 1, (LPXLOPER12) &amp;xRegId);
+      Excel12f(xlfRegisterId,&xRegId,2,(LPXLOPER12)&xDLL,(LPXLOPER12)&xFunc);
+      Excel12f(xlfUnregister, 0, 1, (LPXLOPER12) &xRegId);
    }
    for (i = 0; i < g_rgCommandFuncsRows; i++)
    {
       xFunc.val.str = (LPWSTR) (g_rgCommandFuncs[i][0]);
-      Excel12f(xlfRegisterId,&amp;xRegId,2,(LPXLOPER12)&amp;xDLL,(LPXLOPER12)&amp;xFunc);
-      Excel12f(xlfUnregister, 0, 1, (LPXLOPER12) &amp;xRegId);
+      Excel12f(xlfRegisterId,&xRegId,2,(LPXLOPER12)&xDLL,(LPXLOPER12)&xFunc);
+      Excel12f(xlfUnregister, 0, 1, (LPXLOPER12) &xRegId);
    }
-   Excel12f(xlFree, 0, 1,  (LPXLOPER12) &amp;xDLL);
+   Excel12f(xlFree, 0, 1,  (LPXLOPER12) &xDLL);
    return xlAutoClose();
 }
 ```

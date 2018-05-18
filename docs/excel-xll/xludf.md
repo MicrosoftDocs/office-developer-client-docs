@@ -53,8 +53,8 @@ short WINAPI xlUDFExample(void)
    XLOPER12 xMacroName, xMacroRef, xRes;
    xMacroName.xltype = xltypeStr;
    xMacroName.val.str = L"\044[BOOK1.XLSX]Macro1!TestMacro";
-   Excel12(xlfEvaluate, &amp;xMacroRef, 1, (LPXLOPER12)&amp;xMacroName);
-   Excel12(xlUDF, &amp;xRes, 1, (LPXLOPER12)&amp;xMacroRef);
+   Excel12(xlfEvaluate, &xMacroRef, 1, (LPXLOPER12)&xMacroName);
+   Excel12(xlUDF, &xRes, 1, (LPXLOPER12)&xMacroRef);
    return 1;
 }
 ```

@@ -20,7 +20,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
   
 One of the most important features that Excel exposes through the C API is the ability to convert any string formula that can legally be entered into a worksheet to a value, or array of values. This is essential for XLL functions and commands that must read the contents of defined names, for example. This ability is exposed through the [xlfEvaluate function](xlfevaluate.md), as shown in this example.
   
-```
+```cs
 int WINAPI evaluate_name_example(void)
 {
   wchar_t *expression = L"\016!MyDefinedName";
@@ -29,12 +29,12 @@ int WINAPI evaluate_name_example(void)
   xNameText.val.str = expression;
 // Try to evaluate the name. Will fail with a #NAME? error
 // if MyDefinedName is not defined in the active workbook.
-  Excel12(xlfEvaluate, &amp;xNameValue, 1, &amp;xNameText);
+  Excel12(xlfEvaluate, &xNameValue, 1, &xNameText);
 // Attempt to convert the value to a string and display it in
 // an alert dialog. This fails if xNameValue is an error value.
-  Excel12(xlcAlert, 0, 1, &amp;xNameValue);
+  Excel12(xlcAlert, 0, 1, &xNameValue);
 // Must free xNameValue in case MyDefinedName evaluated to a string
-  Excel12(xlFree, 0, 1, &amp;xNameValue);
+  Excel12(xlFree, 0, 1, &xNameValue);
   return 1;
 }
 ```
@@ -59,7 +59,7 @@ The next example evaluates the formula  `COUNT(A1:IV65536)` for the active works
   
 In an XLL, a reference without a leading exclamation point ( **!**) cannot be converted to a value. It has no meaning because there is no current macro sheet. Note that a leading equals sign ( **=**) is optional and is omitted in the next example.
   
-```
+```cs
 int WINAPI evaluate_expression_example(void)
 {
     wchar_t *expression = L"\022COUNT(!A1:IV65536)";
@@ -67,13 +67,13 @@ int WINAPI evaluate_expression_example(void)
     xExprText.xltype = xltypeStr;
     xExprText.val.str = expression;
 // Try to evaluate the formula.
-    Excel12(xlfEvaluate, &amp;xExprValue, 1, &amp;xExprText);
+    Excel12(xlfEvaluate, &xExprValue, 1, &xExprText);
 // Attempt to convert the value to a string and display it in
 // an alert dialog. Will fail if xExprValue is an error.
-    Excel12(xlcAlert, 0, 1, &amp;xExprValue);
+    Excel12(xlcAlert, 0, 1, &xExprValue);
 // Not strictly necessary, as COUNT never returns a string
 // but does no harm.
-    Excel12(xlFree, 0, 1, &amp;xExprValue);
+    Excel12(xlFree, 0, 1, &xExprValue);
     return 1;
 }
 ```

@@ -84,10 +84,10 @@ int WINAPI fDance(void)
    dtickStart = GetTickCount();
    while (GetTickCount() < dtickStart + 60000L)
    {
-      Excel12f(xlAbort, &amp;xAbort, 0);
+      Excel12f(xlAbort, &xAbort, 0);
       if (xAbort.val.xbool)
       {
-         Excel12f(xlcAlert, &amp;xConfirm, 2,
+         Excel12f(xlcAlert, &xConfirm, 2,
            TempStr12(L"Are you sure you want to cancel this operation?"),
               TempNum12(1));
          if (xConfirm.val.xbool)
@@ -104,7 +104,7 @@ int WINAPI fDance(void)
       {
          Excel12f(xlcSelect, 0, 1,
             TempActiveCell12(0,(BYTE)col));
-         col = (col + 1) &amp; 3;
+         col = (col + 1) & 3;
       }
       wsprintfW(rgch,L"0:%lu",
          (60000 + dtickStart - GetTickCount()) / 1000L);

@@ -42,9 +42,9 @@ Returns the path and file name ( **xltypeStr**).
 short WINAPI xlGetNameExample(void)
 {
     XLOPER12 xRes;
-    Excel12(xlGetName, (LPXLOPER12)&amp;xRes, 0);
-    Excel12(xlcAlert, 0, 1, (LPXLOPER12)&amp;xRes);
-    Excel12(xlFree, 0, 1, (LPXLOPER12)&amp;xRes);
+    Excel12(xlGetName, (LPXLOPER12)&xRes, 0);
+    Excel12(xlcAlert, 0, 1, (LPXLOPER12)&xRes);
+    Excel12(xlFree, 0, 1, (LPXLOPER12)&xRes);
     return 1;
 }
 ```

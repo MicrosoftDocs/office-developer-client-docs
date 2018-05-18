@@ -27,7 +27,7 @@ XLOPER12 xMissing, xBool;
 xMissing.xltype = xltypeMissing;
 xBool.xltype = xltypeBool;
 xBool.val.xbool = 0;
-Excel12(xlcDisplay, 0, 2, (LPXLOPER12) &amp;xMissing, (LPXLOPER12) &amp;xBool);
+Excel12(xlcDisplay, 0, 2, (LPXLOPER12) &xMissing, (LPXLOPER12) &xBool);
 ```
 
 The simplified code looks like the following example.

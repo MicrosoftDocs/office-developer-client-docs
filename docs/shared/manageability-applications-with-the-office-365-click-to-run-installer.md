@@ -32,17 +32,17 @@ The Office 365 Click-to-Run installer implements a COM-based interface, **IUpdat
   
 This interface can be invoked as follows:
   
-```cs
+```cpp
 hr = CoCreateInstance(CLSID_UpdateNotifyObject, NULL, CLSCTX_ALL,
        IID_IUpdateNotify, 
-      (void **)&amp;p); 
+      (void **)&p); 
 ```
 
 The call will only succeed if the caller is running under elevated privileges, as the Click-to-Run installation program must be run with elevated privileges.
   
 The **IUpdateNotify** COM interface exposes three asynchronous functions responsible for validating the commands and parameters and scheduling execution with the Click-to-Run installation service. 
   
-```cs
+```cpp
 HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
 HRESULT Apply([in] LPWSTR pcwszParameters) // Apply update content.
 HRESULT Cancel() // Cancel the download action.
@@ -51,7 +51,7 @@ HRESULT Cancel() // Cancel the download action.
 
 A forth method, **Status**, can be used to get information about the status of the last executed command or the status of the currently executing command (i.e. success, failure, detailed error codes).
   
-```cs
+```cpp
 HRESULT status([out] _UPDATE_STATUS_REPORT* pUpdateStatusReport) // Get status of current action. 
 typedef struct _UPDATE_STATUS_REPORT  
 {  
@@ -118,7 +118,7 @@ In the following API reference documentation:
     
 ### Apply
 
-```cs
+```cpp
 HRESULT Apply([in] LPWSTR pcwszParameters) // Apply update content.
 ```
 
@@ -128,7 +128,7 @@ HRESULT Apply([in] LPWSTR pcwszParameters) // Apply update content.
     
 -  _forceappshutdown_: **true** to force Office applications to shut down immediately when the **Apply** action is triggered; **false** to fail if any Office applications are running. The default is **false**. See [Remarks](#bk_ApplyRemark) for more information. 
     
-    If any Office application is running when the **Apply** action is triggered, the **Apply** action will usually fail. Passing  `forceappshutdown=true` to the **Apply** method will cause the **OfficeClickToRun** service to immediately shut down the applications and apply the update. The user may experience data loss in this case. 
+  If any Office application is running when the **Apply** action is triggered, the **Apply** action will usually fail. Passing  `forceappshutdown=true` to the **Apply** method will cause the **OfficeClickToRun** service to immediately shut down the applications and apply the update. The user may experience data loss in this case. 
     
 #### Return results
 
@@ -163,7 +163,7 @@ HRESULT Apply([in] LPWSTR pcwszParameters) // Apply update content.
     
 ### Cancel
 
-```cs
+```cpp
 HRESULT Cancel() // Cancel the download action.
 ```
 
@@ -182,7 +182,7 @@ HRESULT Cancel() // Cancel the download action.
     
 ### Download
 
-```cs
+```cpp
 HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
 ```
 
@@ -235,7 +235,7 @@ HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
 
 - To download the content from the customized BITS manager: Call the **download()** function passing the following parameters: 
     
-  ```
+  ```cpp
   "downloadsource=CLSIDofBITSInterface contentid=BITSServerContentIdentifier"
   ```
 
@@ -243,20 +243,20 @@ HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
     
 - To download the content from a customized location: Call the **download()** function passing the following parameter: 
     
-  ```
+  ```cpp
   "updatebaseurl=yourcontentserverurl"
   ```
 
 ### Status
 
-```cs
+```cpp
 typdef struct _UPDATE_STATUS_REPORT
 {
     UPDATE_STATUS status;
     UINT error;
     LPCWSTR contentid;
 }UPDATE_STATUS_REPORT;
-HRESULT status([out] _UPDATE_STATUS_REPORT&amp; pUpdateStatusReport) // Get status of current action
+HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status of current action
 ```
 
 #### Parameters
@@ -275,7 +275,7 @@ HRESULT status([out] _UPDATE_STATUS_REPORT&amp; pUpdateStatusReport) // Get stat
 
 - The status field of the  `UPDATE_STATUS_REPORT` contains the status of the current action. One of the following status values is returned: 
     
-  ```js
+  ```cpp
   typedef enum _UPDATE_STATUS
   {
   eUPDATE_UNKNOWN = 0,
@@ -297,7 +297,7 @@ HRESULT status([out] _UPDATE_STATUS_REPORT&amp; pUpdateStatusReport) // Get stat
     
 - If the error less than  `UDPATE_ERROR_CODE::eUNKNOWN`, the error is one of the following pre-defined error codes:
     
-  ```js
+  ```cpp
   typedef enum _UPDATE_ERROR_CODE
   {
   eOK = 0,
@@ -319,19 +319,19 @@ HRESULT status([out] _UPDATE_STATUS_REPORT&amp; pUpdateStatusReport) // Get stat
   
   ```
 
-    If the return error code is larger than  `UDPATE_ERROR_CODE::eUNKNOWN` it is the **HRESULT** of a failed function call. To extract the HRESULT subtract  `UDPATE_ERROR_CODE::eUNKNOWN` from the value returned in the error field of the  `UPDATE_STATUS_REPORT`.
+  If the return error code is larger than  `UDPATE_ERROR_CODE::eUNKNOWN` it is the **HRESULT** of a failed function call. To extract the HRESULT subtract  `UDPATE_ERROR_CODE::eUNKNOWN` from the value returned in the error field of the  `UPDATE_STATUS_REPORT`.
     
-    The complete list of status and error values can be viewed by inspecting the **IUpdateNotify** type library embedded in OfficeC2RCom.dll. 
+  The complete list of status and error values can be viewed by inspecting the **IUpdateNotify** type library embedded in OfficeC2RCom.dll. 
     
-- • The contentid field is used for calls to **Status** after **Download** has initiated and returns the contentid that was passed in to the **Download** call. It is a best practice to initialize this field to **null** before you call the **Status** method and then check the value after **Status** has been returned. If the value is still **null**, that means there is no contentid to return. If the value is not **null**, you need to free it with a call to **SysFreeString()**. Here is a code snippet of how to call **Status** after **Download**.
+- The contentid field is used for calls to **Status** after **Download** has initiated and returns the contentid that was passed in to the **Download** call. It is a best practice to initialize this field to **null** before you call the **Status** method and then check the value after **Status** has been returned. If the value is still **null**, that means there is no contentid to return. If the value is not **null**, you need to free it with a call to **SysFreeString()**. Here is a code snippet of how to call **Status** after **Download**.
     
-  ```js
+  ```cpp
   std::wstring contentID;
   UPDATE_STATUS_REPORT statusReport;
   statusReport.status = eUPDATE_UNKNOWN;
   statusReport.error = eOK;
   statusReport.contentid = NULL;
-  hr = p->Status(&amp;statusReport);
+  hr = p->Status(&statusReport);
   if (statusReport.contentid != NULL)
   {
   contentID = statusReport.contentid;
@@ -358,7 +358,7 @@ From C2RTenant [16.0.8208.6352](http://oloop/BuildGroup/Details/tenantc2rclient#
     
   - **HRESULT** GetOfficeDeploymentData([in] int dataType, [in] **LPCWSTR** pcwszName, [out] BSTR * OfficeData). Get Office deployment Data. 
     
-- • If you want to use the new methods, you need to make sure:
+- If you want to use the new methods, you need to make sure:
     
   - Your C2R version is newer than the above build (\>= June fork build).
     
@@ -376,7 +376,7 @@ The minimum requirement for a customized BITS interface to work with Office C2R 
   
 - For **IBackgroundCopyManager**:
     
-  ```cs
+  ```cpp
   HRESULT _stdcall CreateJob(
                       [in] LPWSTR DisplayName, 
                       [in] BG_JOB_TYPE Type, 
@@ -393,7 +393,7 @@ The minimum requirement for a customized BITS interface to work with Office C2R 
 
 - For **IBackgroundCopyJob**:
     
-  ```cs
+  ```cpp
   HRESULT _stdcall AddFile(
                       [in] LPWSTR RemoteUrl, 
                       [in] LPWSTR LocalName)
@@ -407,7 +407,7 @@ The minimum requirement for a customized BITS interface to work with Office C2R 
 
 - For **IBackgroundCopyJob3**:
     
-  ```cs
+  ```cpp
   HRESULT _stdcall AddFileWithRanges(
                       [in] LPWSTR RemoteUrl, 
                       [in] LPWSTR LocalName,
@@ -416,9 +416,9 @@ The minimum requirement for a customized BITS interface to work with Office C2R 
   
   ```
 
-    For the  `Addfile` and  `AddFileWithRanges` functions, the remote URL is in the following format: 
+- For the  `Addfile` and  `AddFileWithRanges` functions, the remote URL is in the following format: 
     
-  ```
+  ```cpp
   cmbits://<contentid>/<relative path to target file>
   ```
 
@@ -430,13 +430,13 @@ The minimum requirement for a customized BITS interface to work with Office C2R 
     
     For example, if you have provided a  _contentid_ of  `f732af58-5d86-4299-abe9-7595c35136ef` to the **Download()** method, and Office C2R wants to download the version cab file, such as  `v32.cab` file, it will call **AddFile()** with the following  `RemoteUrl`:
     
-  ```
+  ```cpp
   cmbits://f732af58-5d86-4299-abe9-7595c35136ef/Office/Data/V32.cab
   ```
 
 - For **IBackgroundCopyError**:
     
-  ```cs
+  ```cpp
   HRESULT _stdcall GetErrorDescription(
         [in]  DWORD  LanguageId,
         [out] LPWSTR *ppErrorDescription);
@@ -445,7 +445,7 @@ The minimum requirement for a customized BITS interface to work with Office C2R 
 
 - For **IBackgroundCopyFile**:
     
-  ```cs
+  ```cpp
   HRESULT _stdcall GetLocalName([out] LPWSTR *ppName); 
   HRESULT _stdcall GetRemoteName([out] LPWSTR *ppName);
   
@@ -453,7 +453,7 @@ The minimum requirement for a customized BITS interface to work with Office C2R 
 
 ## Automating content staging
 
-IT administrators can choose to have desktop clients enabled to automatically receive updates when they are available directly from the Microsoft Content Delivery Network (CDN) or they can choose to control the deployment of updates available from the [update channels](https://support.office.com/en-us/article/Overview-of-update-channels-for-Office-365-ProPlus-9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4?ui=en-US&amp;rs=en-US&amp;ad=US) using the [Office 2016 Deployment Tool](https://www.microsoft.com/en-us/download/details.aspx?id=49117) or [System Center Configuration Manager](https://support.office.com/en-us/article/Manage-updates-to-Office-365-ProPlus-with-System-Center-Configuration-Manager-b4a17328-fcfe-40bf-9202-58d7cbf1cede).
+IT administrators can choose to have desktop clients enabled to automatically receive updates when they are available directly from the Microsoft Content Delivery Network (CDN) or they can choose to control the deployment of updates available from the [update channels](https://support.office.com/en-us/article/Overview-of-update-channels-for-Office-365-ProPlus-9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4?ui=en-US&rs=en-US&ad=US) using the [Office 2016 Deployment Tool](https://www.microsoft.com/en-us/download/details.aspx?id=49117) or [System Center Configuration Manager](https://support.office.com/en-us/article/Manage-updates-to-Office-365-ProPlus-with-System-Center-Configuration-Manager-b4a17328-fcfe-40bf-9202-58d7cbf1cede).
   
 The service supports the ability for management tools to recognize and automate the download of the content when updates are made available.
   
@@ -495,8 +495,8 @@ The steps for creating an image are:
     
 4. Remove language nodes for any languages not required in the custom image.
     
-    > [!NOTE]
-    > Nodes with language='0' are language neutral and must be included in the image. 
+  > [!NOTE]
+  > Nodes with language='0' are language neutral and must be included in the image. 
   
 5. Construct a local image of the CDN by iterating through the XML file list and copying the CDN files, while creating the folder structure as needed. 
     
@@ -506,13 +506,13 @@ The steps for creating an image are:
     
 The following examples use the Monthly channel (as defined by the  `baseURL` node) and build version 16.0.4229.1004 from releasehistory.xml. 
   
-```
+```cpp
 baseURL branch="Monthly" URL="http://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60" /
 ```
 
 - The following is a language neutral file needed for all languages. The name of the file is v64_16.0.4229.1004.cab and it should be copied from http://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/office/data/v64_16.0.4229.1004.cab and renamed to …/office/data/v64.cab.
     
-  ```
+  ```cpp
   baseURL branch="Business" URL="http://officecdn.microsoft.com/pr/7ffbc6bf-bc32-4f92-8982-f9dd17fd3114" /
   File name="v64_%version%.cab" rename="v64.cab" relativePath="/office/data/" language="0"/
   
@@ -520,7 +520,7 @@ baseURL branch="Monthly" URL="http://officecdn.microsoft.com/pr/492350f6-3a01-4f
 
 - The following is a file to be included in the en-US image as designated by the language LCID=1033. The name of the file is s641033.cab and it should be copied from http://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/office/data/16.0.4229.1004/s641033.cab and not renamed.
     
-  ```
+  ```cpp
   File name="s641033.cab" relativePath="/office/data/%version%/" language="1033" /
   ```
 
@@ -528,7 +528,7 @@ baseURL branch="Monthly" URL="http://officecdn.microsoft.com/pr/492350f6-3a01-4f
 
 Image creation tools may verify the integrity of the downloaded .dat files by comparing a computed HASH value with the supplied HASH value associated with each of the .dat files. Below is an example of a .dat file from the Monthly channel with build version 16.0.4229.1004 and language set to Bulgarian.
   
-```dat
+```cpp
 File name="stream.x64.bg-bg.dat" hashLocation="s641026.cab/stream.x64.bg-bg.hash" hashAlgo="Sha256" relativePath="/office/data/%version%/" language="1026"
 ```
 
@@ -568,9 +568,9 @@ Each Office 365 Client Update that is published includes metadata about the upda
     
 The following is an example of the  _MoreInfoURL_ parameter which refers to the Office 365 Client Update for the 32-bit version of Office with build version of 16.0.2342.2343 on the Current channel. 
   
-```
+```http
 http://officecdn.microsoft.com/pr/wsus/ofl.cab is the location of the XML file lists for this update, specifically the O365Client_32bit.xml from within the OFL.CAB.
-http://go.microsoft.com/fwlink/?LinkId=626090&amp;Ver=16.0.8326.2096&amp;Branch=Current&amp;Arch=64&amp;XMLVer=1.4&amp;xmlPath=http://officecdn.microsoft.com/pr/wsus/ofl.cab&amp;xmlFile=O365Client_64bit.xml 
+http://go.microsoft.com/fwlink/?LinkId=626090&Ver=16.0.8326.2096&Branch=Current&Arch=64&XMLVer=1.4&xmlPath=http://officecdn.microsoft.com/pr/wsus/ofl.cab&xmlFile=O365Client_64bit.xml 
 
 ```
 
@@ -596,9 +596,9 @@ If the update is applicable, the manageability software can use the CDN content 
 
 There are two file lists available in a cab file on the CDN. One lists the files for the 32-bit version of Office and one for the 64-bit version of Office. The URL of the location of the Office File List (OFL.CAB) file is [http://officecdn.microsoft.com/pr/wsus/ofl.cab](http://officecdn.microsoft.com/pr/wsus/ofl.cab). The two file lists are called:
   
-- • O365Client_32bit.xml
+- O365Client_32bit.xml
     
-- • O365Client_64bit.xml
+- O365Client_64bit.xml
     
 Within the XML for each of the file lists is an <UpdateFiles> node which contains a version attribute.  `<UpdateFiles version="1.4">`. This version is incremented if changes are made to the file lists.
   
@@ -629,20 +629,20 @@ The steps for creating an image are:
     
 The following are examples that use the Monthly channel (as defined by the  `<baseURL>` node) and build version 16.0.4229.1004 from releasehistory.xml. 
   
-```
+```xml
 <baseURL branch="Monthly" URL="http://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60" />
 ```
 
-- • The following is a language neutral file needed for all languages. The name of the file is v64_16.0.4229.1004.cab and it should be copied from http://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/office/data/v64_16.0.4229.1004.cab and renamed to …/office/data/v64.cab. 
+- The following is a language neutral file needed for all languages. The name of the file is v64_16.0.4229.1004.cab and it should be copied from `http://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/office/data/v64_16.0.4229.1004.cab` and renamed to `…/office/data/v64.cab`. 
     
-  ```
+  ```xml
   <File name="v64_%version%.cab" rename="v64.cab" relativePath="/office/data/" language="0"/>
   
   ```
 
-- • The following is a file to be included in the en-US image as designated by the language LCID=1033. The name of the file is s641033.cab and it should be copied from http://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/office/data/16.0.4229.1004/s641033.cab and not renamed.
+- The following is a file to be included in the en-US image as designated by the language LCID=1033. The name of the file is s641033.cab and it should be copied from `http://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/office/data/16.0.4229.1004/s641033.cab` and not renamed.
     
-  ```
+  ```xml
   <File name="s641033.cab" relativePath="/office/data/%version%/" language="1033" />
   ```
 
@@ -656,19 +656,19 @@ Image creation tools may verify the integrity of the downloaded .dat files by co
 
 - The **hashLocation** attribute specifies the relative path location of the stream.x64.bg-bg.hash for the stream.x64.bg-bg.dat file. Construct the hash file location by concatenating URL + relativePath + hashLocation. In the following example, the stream.x64.bg-bg.hash location would be: 
     
-  ```
+  ```http
   http://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/office/data/16.0.4229.1004/s641026.cab/stream.x64.bg-bg.hash 
   ```
 
 - The **hashAlgo** attribute specifies what hashing algorithm was used. In this case Sha256 was used. 
     
-    To validate the integrity of the stream.x64.bg-bg.dat file, open the stream.x64.bg-bg.hash and read the HASH value which is the first line of text in the hash file. Compare this to the computed hash value (using the specified hashing algorithm) to verify the integrity of the downloaded .dat file.
+  To validate the integrity of the stream.x64.bg-bg.dat file, open the stream.x64.bg-bg.hash and read the HASH value which is the first line of text in the hash file. Compare this to the computed hash value (using the specified hashing algorithm) to verify the integrity of the downloaded .dat file.
     
-    The following example shows the C# code to read the hash.
+  The following example shows the C# code to read the hash.
     
   ```cs
-  string[] readHashes = System.IO.File.ReadAllLines(tmpFile, Encoding.Unicode);
-  string readHash = readHashes.First();
+    string[] readHashes = System.IO.File.ReadAllLines(tmpFile, Encoding.Unicode);
+    string readHash = readHashes.First();
   ```
 
 ### Office 365 Client Updates
@@ -683,29 +683,29 @@ Office 365 Client Updates enable manageability software to treat the Office 365 
   
 Each Office 365 Client Update that is published includes metadata about the update. This metadata includes a parameter called  *MoreInfoUrl*  which can be used to derive the following information: 
   
--  *Ver*  : Identifies the Office version associated with this update. 
+-  *Ver*: Identifies the Office version associated with this update. 
     
--  *Branch*  : Identifies the Update Channel for this update. Values include InsiderFast, Insiders, Monthly, Targeted, Broad. Additional values may be added in the future. 
+-  *Branch*: Identifies the Update Channel for this update. Values include InsiderFast, Insiders, Monthly, Targeted, Broad. Additional values may be added in the future. 
     
--  *Arch*  : Identifies the processor architecture associated with this update. 
+-  *Arch*: Identifies the processor architecture associated with this update. 
     
--  *xmlVer*  : The version of the XML file lists that should be used to construct the base image for this update. 
+-  *xmlVer*: The version of the XML file lists that should be used to construct the base image for this update. 
     
--  *xmlPath*  : Path to the OFL.CAB file which contains the XML file lists. 
+-  *xmlPath*: Path to the OFL.CAB file which contains the XML file lists. 
     
--  *mlFile*  : The name of the file list that should be used for this update. The value will be O365Client_32bit or O365Client_64bit and will match the Arch. 
+-  *mlFile*: The name of the file list that should be used for this update. The value will be O365Client_32bit or O365Client_64bit and will match the Arch. 
     
 The following URL is an example of the  *MoreInfoURL*  parameter which refers to the Office 365 client update releases for the 32-bit version of Office with build version of 16.0.2342.2343 on the Current channel. 
   
 http://officecdn.microsoft.com/pr/wsus/ofl.cab is the location of the XML file lists for this update, specifically the O365Client_32bit.xml from within the OFL.CAB.
   
-[http://go.microsoft.com/fwlink/?LinkId=626090&amp;Ver=16.0.8326.2096&amp;Branch=Current&amp;Arch=64&amp;XMLVer=1.4&amp;xmlPath=http://officecdn.microsoft.com/pr/wsus/ofl.cab&amp;xmlFile=O365Client_64bit.xml ](http://go.microsoft.com/fwlink/?LinkId=626090&amp;Ver=16.0.8326.2096&amp;Branch=Current&amp;Arch=64&amp;XMLVer=1.4&amp;xmlPath=http://officecdn.microsoft.com/pr/wsus/ofl.cab&amp;xmlFile=O365Client_64bit.xml )
+[Office 365 client update channel releases](http://go.microsoft.com/fwlink/?LinkId=626090&Ver=16.0.8326.2096&Branch=Current&Arch=64&XMLVer=1.4&xmlPath=http://officecdn.microsoft.com/pr/wsus/ofl.cab&xmlFile=O365Client_64bit.xml)
   
 ### Additional Metadata for automating content staging
 
 In addition to the metadata that is published which defines there are also additional XML files published to the CDN that can help provide additional information about the Office 365 clients that are available from the Office CDN.
   
- **SKUS.XML**
+**SKUS.XML**
   
 This XML file is contained within a signed CAB and published to the Office CDN at the following URL: [http://officecdn.microsoft.com/pr/wsus/skus.cab](http://officecdn.microsoft.com/pr/wsus/skus.cab).
   
@@ -738,21 +738,21 @@ The metadata published in this XML file is useful for determining which products
     </SKU>
 ```
 
- **\<ReleaseInfo\>** root node contains the PublishedDate attribute which identifies the date which this file was published. 
+**\<ReleaseInfo\>** root node contains the PublishedDate attribute which identifies the date which this file was published. 
   
- **\<SKU\>** node identifies an individual SKU. 
+**\<SKU\>** node identifies an individual SKU. 
   
 - The  *ProductID*  attribute identifies the ID that is passed as the ID attribute in the configuration.xml if using the ODT. For example, <Product ID="O365ProPlusRetail" >. 
     
 - The  *Default*  attribute, if set to True, identifies the recommended SKU. 
     
- **\<App\>** nodes are used to define the individual Office apps that each SKU supports. 
+**\<App\>** nodes are used to define the individual Office apps that each SKU supports. 
   
 - The  *Name*  attribute is the displayed application name. 
     
-- The  *AppID*  attribute is the ID attribute passed in the configuration.xml for the **\<ExcludeApp\>** node if using the ODT. For example, <ExcludeApp ID="Publisher" />. 
+- The  *AppID*  attribute is the ID attribute passed in the configuration.xml for the **\<ExcludeApp\>** node if using the ODT. For example, `<ExcludeApp ID="Publisher" />`. 
     
- **RELEASEHISTORY.XML**
+**RELEASEHISTORY.XML**
   
 This XML file is contained within a signed CAB and published to the Office CDN at the following location: [http://officecdn.microsoft.com/pr/wsus/releasehistory.cab](http://officecdn.microsoft.com/pr/wsus/releasehistory.cab). 
   
@@ -772,32 +772,33 @@ The metadata published in this XML file is useful for determining which channels
   </UpdateChannel>
 ```
 
- **\<ReleaseHistory\>** root node contains the PublishedDate attribute which identifies the date which this file was published. 
+The **\<ReleaseHistory\>** root node contains the PublishedDate attribute which identifies the date which this file was published. 
   
- **\<UpdateChannel\>** node defines a supported channel. 
+The **\<UpdateChannel\>** node defines a supported channel. 
   
 - The  *Name*  attribute defines the channel ID which is used to pass to the ODT in the configuration.xml as the Channel attribute. 
     
-    ex. <Add SourcePath="\\Server\Share" OfficeClientEdition="32" **Channel="Current"** > 
+  Example: `<Add SourcePath="\\Server\Share" OfficeClientEdition="32" Channel="Current">` 
     
-    **Note** This attribute has been deprecated and is used for backward compatibility only. Use the ID attribute in place of the Name attribute. 
+  > [!NOTE] 
+  > This attribute has been deprecated and is used for backward compatibility only. Use the ID attribute in place of the Name attribute. 
     
 - The  *ID*  attribute defines the channel ID which is used to pass to the ODT in the configuration.xml as the Channel attribute. 
     
-    Ex. <Add SourcePath="\\Server\Share" OfficeClientEdition="32" **Channel="Deferred"** > 
+  Example: `<Add SourcePath="\\Server\Share" OfficeClientEdition="32" Channel="Deferred">` 
     
-- The  *DisplayName*  attribute is used as the display name. 
+- The **DisplayName**  attribute is used as the display name. 
     
 The **\<Update\>** node is used to define each update that has been published for that particular channel. 
   
-- The  *Latest*  attribute, if set to True, defines the release that is the latest release for that channel. 
+- The **Latest**  attribute, if set to True, defines the release that is the latest release for that channel. 
     
-- The  *Version*  attribute defines the version number for this particular update. 
+- The **Version** attribute defines the version number for this particular update. 
     
-- The  *LegacyVersion*  attribute defines the full version number for this particular update. 
+- The **LegacyVersion** attribute defines the full version number for this particular update. 
     
-- The  *Build*  attribute defines the build number for this particular update. 
+- The **Build** attribute defines the build number for this particular update. 
     
-- The  *PubTime*  attribute defines the date and time at which this update was published to the Office CDN. 
+- The **PubTime** attribute defines the date and time at which this update was published to the Office CDN. 
     
 

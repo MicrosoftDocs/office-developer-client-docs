@@ -50,10 +50,10 @@ The following example displays the name of the sheet from which the function was
 short WINAPI xlSheetNmExample(void)
 {
    XLOPER12 xRes, xSheetName;
-   Excel12(xlfCaller, &amp;xRes, 0);
-   Excel12(xlSheetNm, &amp;xSheetName, 1, (LPXLOPER12)&amp;xRes);
-   Excel12(xlcAlert, 0, 1, (LPXLOPER12)&amp;xSheetName);
-   Excel12(xlFree, 0, 1, (LPXLOPER12)&amp;xSheetName);
+   Excel12(xlfCaller, &xRes, 0);
+   Excel12(xlSheetNm, &xSheetName, 1, (LPXLOPER12)&xRes);
+   Excel12(xlcAlert, 0, 1, (LPXLOPER12)&xSheetName);
+   Excel12(xlFree, 0, 1, (LPXLOPER12)&xSheetName);
    return 1;
 }
 ```

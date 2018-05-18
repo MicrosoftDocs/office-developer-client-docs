@@ -40,7 +40,7 @@ The following example shows the **xlUDF** function being used to call the ATP fu
 > [!NOTE]
 > This example uses the Framework functions **TempNum**, **TempStrConst** to set up the arguments and Excel to call the C API. 
   
-```
+```cs
 LPXLOPER TempNum(double d);
 LPXLOPER TempStrConst(const LPSTR lpstr);
 int cdecl Excel(int xlfn, LPXLOPER pxResult, int count, ...);
@@ -50,7 +50,7 @@ double call_ATP_example(void)
   int xl_ret_val;
   if(gExcelVersion12plus) // Starting in Excel 2007
   {
-    xl_ret_val = Excel(xlfPrice, &amp;xPrice, 7,
+    xl_ret_val = Excel(xlfPrice, &xPrice, 7,
       TempNum(39084.0), // settlement date 2-Jan-2007
       TempNum(46706.0), // maturity date 15-Nov-2027
       TempNum(0.04), // Coupon
@@ -61,7 +61,7 @@ double call_ATP_example(void)
   }
   else // Excel 2003-
   {
-    xl_ret_val = Excel(xlUDF, &amp;xPrice, 8,
+    xl_ret_val = Excel(xlUDF, &xPrice, 8,
       TempStrConst("PRICE"),
       TempNum(39084.0), // settlement date 2-Jan-2007
       TempNum(46706.0), // maturity date 15-Nov-2027
@@ -75,7 +75,7 @@ double call_ATP_example(void)
   {
 // Even though PRICE is not expected to return a string, there
 // is no harm in freeing the XLOPER to be safe
-    Excel(xlFree, 0, 1, &amp;xPrice);
+    Excel(xlFree, 0, 1, &xPrice);
     return -1.0; // an error value
   }
   return xPrice.val.num;
@@ -84,7 +84,7 @@ double call_ATP_example(void)
 
 Where you are calling an XLL function that returns a value by modifying an argument in place, the **xlUDF** function still returns the value via the address of the result **XLOPER/XLOPER12**. In other words, the result is returned as if through a normal return statement. The **XLOPER/XLOPER12** that corresponds to the argument that is used for the return value is unmodified. For example, consider the following two UDFs. 
   
-```
+```cs
 // Registered as "1E". Returns its argument incremented by 1.
 void WINAPI UDF_1(double *pArg)
 {
@@ -99,9 +99,9 @@ LPXLOPER12 WINAPI UDF_2(LPXLOPER12 pxArg)
   XLOPER12 xFn;
   xFn.xltype = xltypeStr;
   xFn.val.str = L"\005UDF_1";
-  Excel12(xlUDF, &amp;xRetVal, 2, &amp;xFn, pxArg);
+  Excel12(xlUDF, &xRetVal, 2, &xFn, pxArg);
   xRetVal.xltype |= xlbitXLFree;
-  return &amp;xRetVal;
+  return &xRetVal;
 }
 ```
 

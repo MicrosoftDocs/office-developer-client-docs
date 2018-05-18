@@ -56,7 +56,7 @@ short WINAPI xlGetInstExample(void)
     XLOPER12 xRes;
     static HANDLE hOld = 0;
     short iRet;
-    if (Excel12(xlGetInst, &amp;xRes, 0) != xlretSuccess)
+    if (Excel12(xlGetInst, &xRes, 0) != xlretSuccess)
         iRet = -1;
     else
     {

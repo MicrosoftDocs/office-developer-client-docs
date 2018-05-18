@@ -1,12 +1,8 @@
 ---
 title: "Working with XML Schemas in InfoPath"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: c1d70e9f-b9fc-7bdb-107e-d0cd8191607b
 description: "A form template that you create with Microsoft InfoPath uses an XML Schema (XSD) to perform structural and data validation on the XML that is input, edited, and output from an InfoPath form. Every form template created in the InfoPath form designer contains at least one XSD schema file (.xsd) that is used for validation at run time."
@@ -349,7 +345,7 @@ The following is a more complex example:
     <xsd:restriction base="xsd:NMTOKEN"> 
         <xsd:enumeration value="GummyBears"/> 
         <xsd:enumeration value="SnowCaps"/> 
-        <xsd:enumeration value="M&amp;Ms"/> 
+        <xsd:enumeration value="M&Ms"/> 
     </xsd:restriction> 
 </xsd:simpleType> 
 
@@ -357,7 +353,7 @@ The following is a more complex example:
 
 To understand why this example is invalid, you must understand how the type **xsd:NMTOKEN** is defined. The W3C data types specification defines the **NMTOKEN** type as follows: "An NMTOKEN (name token) is any mixture of name characters." 
   
-If you investigate further, you find that '&amp;' is not a valid name character, and therefore "M&amp;Ms" does not validate as an **NMTOKEN** type. 
+If you investigate further, you find that '&' is not a valid name character, and therefore "M&Ms" does not validate as an **NMTOKEN** type. 
   
 ## Empty Sequence or Choice Elements
 

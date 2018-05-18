@@ -25,13 +25,13 @@ The **Excel4** and **Excel4v** functions were introduced in Excel version 4. The
   
 The following code shows the function prototypes for these four functions. The first three arguments are the same except that the second argument is a pointer to an **XLOPER** in the first pair and a pointer to an **XLOPER12** in the second pair. The calling convention is **_cdecl** in **Excel4** and **Excel12** to permit the variable argument lists. The ellipsis represents pointers to **XLOPER** values for **Excel4** and **XLOPER12** values for **Excel12**. The number of pointers equals the value of the  _count_ parameter. 
   
- **All versions of Excel**
+**All versions of Excel**
   
  `int _cdecl Excel4(int xlfn, LPXLOPER operRes, int count,... );`
   
  `int pascal Excel4v(int xlfn, LPXLOPER operRes, int count, LPXLOPER opers[]);`
   
- **Starting in Excel 2007**
+**Starting in Excel 2007**
   
  `int _cdecl Excel12(int xlfn, LPXLOPER12 operRes, int count,... );`
   
@@ -125,9 +125,9 @@ bool delete_my_backup_files(bool show_dialog)
         cmd = xlcFileDelete;
 // xResult should be Boolean TRUE if successful, in which
 // case return true; otherwise, false.
-    return (Excel12(cmd, &amp;xResult, 1, &amp;xFilter) == xlretSuccess
-        &amp;&amp; xResult.xltype == xltypeBool
-        &amp;&amp; xResult.val.xbool == 1);
+    return (Excel12(cmd, &xResult, 1, &xFilter) == xlretSuccess
+        && xResult.xltype == xltypeBool
+        && xResult.val.xbool == 1);
 }
 ```
 
@@ -143,8 +143,8 @@ int WINAPI InternationlExample(void)
     XLOPER12 xSum, xResult;
     xSum.xltype = xltypeStr;
     xSum.val.str = L"\015=SUM(X1:X100)";
-    Excel12(xlcFormula | xlIntl, &amp;xResult, 2,
-        &amp;xSum, TempActiveRef(2,2,1,1));
+    Excel12(xlcFormula | xlIntl, &xResult, 2,
+        &xSum, TempActiveRef(2,2,1,1));
     return 1;
 }
 
@@ -195,7 +195,7 @@ Both **Excel4** and **Excel12** take variable length argument lists, after  _cou
 The array forms, **Excel4v** and **Excel12v**, enable you to code a call to the C API cleanly when the number of arguments is variable. The following example shows a function that takes a variable-sized array of numbers and uses Excel worksheet functions, via the C API, to calculate the sum, average, minimum, and maximum. 
   
 ```cs
-void Excel12v_example(double *dbl_array, int size, double &amp;sum, double &amp;average, double &amp;min, double &amp;max)
+void Excel12v_example(double *dbl_array, int size, double &sum, double &average, double &min, double &max)
 {
 // 30 is the limit in Excel 2003. 255 is the limit in Excel 2007.
 // Use the lower limit to be safe, although it is better to make
@@ -218,11 +218,11 @@ void Excel12v_example(double *dbl_array, int size, double &amp;sum, double &amp;
     XLOPER12 xResult;
     int retval;
     int fn[4] = {xlfSum, xlfAverage, xlfMin, xlfMax};
-    double *result_ptr[4] = {&amp;sum, &amp;average, &amp;min, &amp;max};
+    double *result_ptr[4] = {&sum, &average, &min, &max};
     for(i = 0; i < 4; i++)
     {
-        retval = Excel12v(fn[i], &amp;xResult, size, xPtrArray);
-        if(retval == xlretSuccess &amp;&amp; xResult.xltype == xltypeNum)
+        retval = Excel12v(fn[i], &xResult, size, xPtrArray);
+        if(retval == xlretSuccess && xResult.xltype == xltypeNum)
             *result_ptr[i] = xResult.val.num;
     }
     free(xPtrArray);
@@ -239,18 +239,18 @@ Where you always call a C API function or command with the same number of argume
   
 ```cs
 XLOPER xDllName;
-if(Excel4(xlfGetName, &amp;xDllName, 0) == xlretSuccess)
+if(Excel4(xlfGetName, &xDllName, 0) == xlretSuccess)
 {
     // Use the name, and 
     // then free the memory that Excel allocated for the string.
-    Excel4(xlFree, 0, 1, &amp;xDllName);
+    Excel4(xlFree, 0, 1, &xDllName);
 }
 XLOPER12 xDllName;
-if(Excel12(xlfGetName, &amp;xDllName, 0) == xlretSuccess)
+if(Excel12(xlfGetName, &xDllName, 0) == xlretSuccess)
 {
     // Use the name, and
     // then free the memory that Excel allocated for the string.
-    Excel12(xlFree, 0, 1, &amp;xDllName);
+    Excel12(xlFree, 0, 1, &xDllName);
 }
 
 ```
@@ -258,7 +258,7 @@ if(Excel12(xlfGetName, &amp;xDllName, 0) == xlretSuccess)
 In practice, the function, **Excel12v_example**, could be coded more efficiently by creating a single **xltypeMulti** **XLOPER12** argument, and calling the C API by using **Excel12**, as shown in the following example.
   
 ```cs
-void Excel12_example(double *dbl_array, int size, double &amp;sum, double &amp;average, double &amp;min, double &amp;max)
+void Excel12_example(double *dbl_array, int size, double &sum, double &average, double &min, double &max)
 {
 // In this implementation, the upper limit is the largest
 // single column array (equals 2^20, or 1048576, rows in Excel 2007).
@@ -281,10 +281,10 @@ void Excel12_example(double *dbl_array, int size, double &amp;sum, double &amp;a
     }
     XLOPER12 xResult;
     int fn[4] = {xlfSum, xlfAverage, xlfMin, xlfMax};
-    double *result_ptr[4] = {&amp;sum, &amp;average, &amp;min, &amp;max};
+    double *result_ptr[4] = {&sum, &average, &min, &max};
     for(i = 0; i < 4; i++)
     {
-        Excel12(fn[i], &amp;xResult, 1, &amp;xOpMulti);
+        Excel12(fn[i], &xResult, 1, &xOpMulti);
         if(xResult.xltype == xltypeNum)
             *result_ptr[i] = xResult.val.num;
     }
@@ -308,7 +308,7 @@ You can call this function, which is thread safe, from any XLL command or functi
   
 In Excel 97 through Excel 2003, **XLCallVer** returns 1280 = 0x0500 hex = 5 x 256, which indicates Excel version 5. Starting in Excel 2007, it returns 3072 = 0x0c00 hex = 12 x 256, which similarly indicates version 12.
   
-Although you can use this to determine whether the new C API is available at run time, you might prefer to detect the running version of Excel by using  `Excel4(xlfGetWorkspace, &amp;version, 1, &amp;arg)`, where  `arg` is a numeric **XLOPER** set to 2. The function returns a string **XLOPER**, version, which can then be coerced to an integer. The reason for relying on the Excel version rather than the C API version is that there are differences between Excel 2000, Excel 2002, and Excel 2003 that your add-in may also need to detect. For example, changes were made to the accuracy of some of the statistics functions.
+Although you can use this to determine whether the new C API is available at run time, you might prefer to detect the running version of Excel by using  `Excel4(xlfGetWorkspace, &version, 1, &arg)`, where  `arg` is a numeric **XLOPER** set to 2. The function returns a string **XLOPER**, version, which can then be coerced to an integer. The reason for relying on the Excel version rather than the C API version is that there are differences between Excel 2000, Excel 2002, and Excel 2003 that your add-in may also need to detect. For example, changes were made to the accuracy of some of the statistics functions.
   
 ## See also
 

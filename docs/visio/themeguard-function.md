@@ -26,7 +26,7 @@ Applying the THEMEGUARD function to a cell does not guard against manual formatt
   
 ## Example
 
-```
+```vb
 Shape.FillForegnd = THEMEGUARD(THEME("AccentColor2")
 ```
 

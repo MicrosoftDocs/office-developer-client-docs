@@ -61,9 +61,9 @@ short WINAPI xlCoerceExample(short iVal)
    xInt.val.w = iVal;
    xDestType.xltype = xltypeInt;
    xDestType.val.w = xltypeStr;
-   Excel12f(xlCoerce, &amp;xStr, 2, (LPXLOPER12)&amp;xInt, (LPXLOPER12)&amp;xDestType);
-   Excel12f(xlcAlert, 0, 1, (LPXLOPER12)&amp;xStr);
-   Excel12f(xlFree, 0, 1, (LPXLOPER12)&amp;xStr);
+   Excel12f(xlCoerce, &xStr, 2, (LPXLOPER12)&xInt, (LPXLOPER12)&xDestType);
+   Excel12f(xlcAlert, 0, 1, (LPXLOPER12)&xStr);
+   Excel12f(xlFree, 0, 1, (LPXLOPER12)&xStr);
    return 1;
 }
 ```

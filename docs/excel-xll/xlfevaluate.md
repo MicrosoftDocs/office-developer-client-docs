@@ -56,19 +56,17 @@ short WINAPI EvaluateExample(void)
     XLOPER12 xFormulaText, xRes, xRes2, xInt;
     xFormulaText.xltype = xltypeStr;
     xFormulaText.val.str = L"\004!B38";
-    Excel12(xlfEvaluate, &amp;xRes, 1, (LPXLOPER12)&amp;xFormulaText);
+    Excel12(xlfEvaluate, &xRes, 1, (LPXLOPER12)&xFormulaText);
     xInt.xltype = xltypeInt;
     xInt.val.w = 2;
-    Excel12(xlcAlert, &amp;xRes2, 2, (LPXLOPER12)&amp;xRes, (LPXLOPER12)&amp;xInt);
-    Excel12(xlFree, 0, 1, (LPXLOPER12)&amp;xRes);
-    Excel12(xlFree, 0, 1, (LPXLOPER12)&amp;xRes2);
+    Excel12(xlcAlert, &xRes2, 2, (LPXLOPER12)&xRes, (LPXLOPER12)&xInt);
+    Excel12(xlFree, 0, 1, (LPXLOPER12)&xRes);
+    Excel12(xlFree, 0, 1, (LPXLOPER12)&xRes2);
     return 1;
 }
 ```
 
 ## See also
 
-#### Concepts
-
-[Essential and Useful C API XLM Functions](essential-and-useful-c-api-xlm-functions.md)
+- [Essential and Useful C API XLM Functions](essential-and-useful-c-api-xlm-functions.md)
 

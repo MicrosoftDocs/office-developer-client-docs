@@ -20,8 +20,7 @@ Represents the value of the drawing unit in the current drawing scale. The drawi
   
 You can set the DrawingScale cell to change the units of a page's rulers from a program. Here is an example of changing the measurement units from inches to centimeters from a program. In this case, we use the **ConvertResult** method to keep the distance the same but express it in different units. 
   
-```
- 
+```vb
 Public Sub SetActivePageMeasurementToCM() 
 Dim dsCell As Visio.Cell 
 Set dsCell = ActivePage.PageSheet.Cells("DrawingScale") 
@@ -29,16 +28,13 @@ Set dsCell = ActivePage.PageSheet.Cells("DrawingScale")
  Application.ConvertResult _ 
  (dsCell.ResultIU,visInches,visCentimeters) 
 End Sub 
-
 ```
 
 You can determine the measurement system in a drawing by examining the **Units** property of the DrawingScale cell. After running the above macro the following statement executed in the Visual Basic Editor Immediate window will return  *True*  . 
   
-```
- 
+```vb
 debug.print ActivePage.PageSheet.Cells("DrawingScale").Units = _ 
  visCentimeters 
-
 ```
 
 ## Remarks

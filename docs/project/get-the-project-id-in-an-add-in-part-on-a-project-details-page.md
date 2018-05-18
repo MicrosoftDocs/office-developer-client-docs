@@ -71,7 +71,7 @@ The GetProjectId add-in part defines its custom code in the GetProjectId.aspx pa
     
 2. In the **head** element of the page, replace the code between the **script** tags with the following code. 
     
-  ```
+  ```js
   'use strict';
   // Define global variables.
   var hostUrl = '';
@@ -82,7 +82,7 @@ The GetProjectId add-in part defines its custom code in the GetProjectId.aspx pa
               var link = document.createElement('link');
               link.setAttribute('rel', 'stylesheet');
               if (document.URL.indexOf('?') != -1) {
-                  var params = document.URL.split('?')[1].split('&amp;');
+                  var params = document.URL.split('?')[1].split('&');
                   for (var i = 0; i < params.length; i++) {
                       var p = decodeURIComponent(params[i]);
                       if (/^SPHostUrl=/i.test(p)) {
@@ -126,7 +126,7 @@ The GetProjectId add-in part defines its custom code in the GetProjectId.aspx pa
           var start = event.data.substr(0, expectedStart.length);
           var end = event.data.substr(endTagPosition, expectedEnd.length);
           // Parse out the project ID.
-          if (start == expectedStart &amp;&amp; end == expectedEnd) {
+          if (start == expectedStart && end == expectedEnd) {
               projectUid = event.data.substr(expectedStart.length, 36);
               $get('projectUid').innerText = projectUid;
           }
@@ -189,7 +189,7 @@ The following example is the complete code in the client Web Part's GetProjectID
             var link = document.createElement('link');
             link.setAttribute('rel', 'stylesheet');
             if (document.URL.indexOf('?') != -1) {
-                var params = document.URL.split('?')[1].split('&amp;');
+                var params = document.URL.split('?')[1].split('&');
                 for (var i = 0; i < params.length; i++) {
                     var p = decodeURIComponent(params[i]);
                     if (/^SPHostUrl=/i.test(p)) {
@@ -233,7 +233,7 @@ The following example is the complete code in the client Web Part's GetProjectID
                 var start = event.data.substr(0, expectedStart.length);
                 var end = event.data.substr(endTagPosition, expectedEnd.length);
                 // Parse out the project ID.
-                if (start == expectedStart &amp;&amp; end == expectedEnd) {
+                if (start == expectedStart && end == expectedEnd) {
                     projectUid = event.data.substr(expectedStart.length, 36);
                     $get('projectUid').innerText = projectUid;
                 }

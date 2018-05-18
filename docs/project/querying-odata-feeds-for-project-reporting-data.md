@@ -244,7 +244,7 @@ Procedure 2 shows how to create LINQ queries in Visual C# by using expressions i
     ```html
     http://ServerName/ProjectServerName/_api/ProjectData/Projects()
         ?$filter=ProjectStartDate gt datetime'2012-01-01T00:00:00'
-        &amp;$orderby=ProjectName}
+        &$orderby=ProjectName}
     ```
 
 When you run the **TestProjectData** application, the console shows the following output for three sample projects that are published in Project Web App:
