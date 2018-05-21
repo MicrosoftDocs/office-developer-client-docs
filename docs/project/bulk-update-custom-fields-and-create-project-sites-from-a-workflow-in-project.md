@@ -29,7 +29,7 @@ Previously, workflows could only update one custom field at a time. Updating pro
   
 The REST method can be found at the following endpoint:
   
- `https://<site-url>/_api/ProjectServer/Projects('<guid>')/Draft/UpdateCustomFields()`
+`https://<site-url>/_api/ProjectServer/Projects('<guid>')/Draft/UpdateCustomFields()`
   
 > [!NOTE]
 > Replace the  `<site-url>` placeholder in the examples with the URL of your Project Web App (PWA) site and the  `<guid>` placeholder with your project UID. 
@@ -70,7 +70,7 @@ The final, end-to-end workflow looks like this:
   
 4. Add the following two items to the dictionary.
     
-    |**Name**|**Type**|**Value**|
+    |Name|Type|Value|
     |:-----|:-----|:-----|
     |Accept  <br/> |String  <br/> |application/json; odata=verbose  <br/> |
     |Content-Type  <br/> |String  <br/> |application/json; odata=verbose  <br/> |
@@ -116,7 +116,7 @@ The final, end-to-end workflow looks like this:
        > [!NOTE]
        > These values are for illustration purposes only. The key-value pairs you'll use depend on your PWA data. 
   
-       |**Name**|**Type**|**Value**|
+       |Name|Type|Value|
        |:-----|:-----|:-----|
        |customFieldDictionary(0)/__metadata/type  <br/> |String  <br/> |SP.KeyValue  <br/> |
        |customFieldDictionary(0)/Key  <br/> |String  <br/> |Custom\_ce23fbf43fa0e411941000155d3c8201  <br/> |
@@ -191,7 +191,7 @@ We've added the **CreateProjectSite** method so you can choose when to create pr
   
 3. Add the following two items to the dictionary.
     
-    |**Name**|**Type**|**Value**|
+    |Name|Type|Value|
     |:-----|:-----|:-----|
     |Accept  <br/> |String  <br/> |application/json; odata=verbose  <br/> |
     |Content-Type  <br/> |String  <br/> |application/json; odata=verbose  <br/> |

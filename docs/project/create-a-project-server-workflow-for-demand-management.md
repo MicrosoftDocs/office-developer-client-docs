@@ -82,7 +82,7 @@ In Project Web App, review the available workflow phases and stages, and the ent
         
 2. **Enterprise custom fields** The branching workflow requires a project cost custom field that is workflow-controlled. The value of a workflow-controlled custom field is set in a PDP that the workflow uses. For example, choose the **Settings** icon at the top-right of a Project Web App page, choose **PWA Settings**, and then choose **Enterprise Custom Fields and Lookup Tables**.
         
-    Create a custom field named Proposal Cost for the **Project** entity, and select the type **Cost**. For the description, type Estimated cost of a project proposal. In the **Behavior** section, choose **Behavior controlled by workflow**.
+   Create a custom field named Proposal Cost for the **Project** entity, and select the type **Cost**. For the description, type Estimated cost of a project proposal. In the **Behavior** section, choose **Behavior controlled by workflow**.
         
 3. **Project detail pages** Edit or create the PDPs that the workflow stages will use. For example, do the following steps: 
         
@@ -118,7 +118,7 @@ In Project Web App, review the available workflow phases and stages, and the ent
     
     **Table 1. Stages for the branching workflow**
 
-    |**Name**|**Description**|**Description for Submit**|**Phase**|**Visible PDPs**|**Custom Fields**|
+    |Name|Description|Description for Submit|Phase|Visible PDPs|Custom Fields|
     |:-----|:-----|:-----|:-----|:-----|:-----|
     |Initial Proposal Details  <br/> |Set the project name and cost.  <br/> |Submit the project as a proposal.  <br/> |Create  <br/> |Project Information  <br/> Project Details  <br/> |Proposal Cost (required)  <br/> |
     |Project Details  <br/> |Provide details of the proposed project.  <br/> |Submit details to continue with the project.  <br/> |Create  <br/> |Project Information  <br/> Project Details  <br/> |Proposal Cost (read-only)  <br/> |

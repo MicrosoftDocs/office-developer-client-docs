@@ -5,7 +5,7 @@ ms.date: 11/8/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 4a4b1ad2-de46-421d-a698-53c20c90b93a
-description: "This article describes Microsoft Project Online Add-in development to enhance your experience with the Project Online. The development project is implemented as a walkthrough. The add-in used for this article reads and displays the project names and IDs of the published projects from your Project Online account and allows you to drill down to retrieve tasks associated with individual projects."
+description: "This article describes Microsoft Project Online Add-in development to enhance your experience with Project Online. The development project is implemented as a walkthrough. The add-in used for this article reads and displays the project names and IDs of the published projects from your Project Online account and allows you to drill down to retrieve tasks associated with individual projects."
 ---
 
 # Developing a Project Online add-in using the JavaScript Object Model (JSOM)
@@ -38,9 +38,9 @@ The development setup for Project Online add-ins uses the Visual Studio SharePoi
 
 Add the following items to a supported Windows environment:
   
-- .NET Framework 4.0 or newer -- Complete versions of the framework from version 4.0 are compatible. The download site is https://msdn.microsoft.com/en-us/vstudio/aa496123.aspx.
+- **.NET Framework 4.0 or later**: Complete versions of the framework from version 4.0 are compatible. The download site is https://msdn.microsoft.com/en-us/vstudio/aa496123.aspx.
     
-- Visual Studio 2013 or newer: 
+- **Visual Studio 2013 or later**:  
     
    - The professional edition of Visual Studio 2015 is ready to go out-of-the box and is available at https://www.visualstudio.com/en-us/products/visual-studio-professional-with-msdn-vs.aspx.
     
@@ -48,20 +48,20 @@ Add the following items to a supported Windows environment:
     
    The Microsoft Office Developer Tools for Visual Studio are available at https://www.visualstudio.com/en-us/features/office-tools-vs.aspx.
     
-- A Project Online account -- This provides access to the hosting service. For more information about obtaining a Project Online account, see https://products.office.com/en-us/Project/project-online-portfolio-management.
+- **A Project Online account**: This provides access to the hosting service. For more information about obtaining a Project Online account, see https://products.office.com/en-us/Project/project-online-portfolio-management.
     
    Ensure that the add-in user has sufficient authorization to access some projects in the Project Online tenant. 
     
-- Projects on the hosting site that are populated with information.
+- **Projects on the hosting site** that are populated with information.
     
 > [!NOTE]
 > The standard .NET Framework is the correct framework to use. Do not use the ".NET Framework 4 Client Profile". 
   
-### Setting up the Visual Studio project
+### Set up the Visual Studio project
 
 The application setup consists of creating a new project, linking the appropriate libraries and declaring the needed namespaces. Visual Studio presents several types of development projects. The section is brief and very basic. The value is having the information is coalesced in one place.
   
-#### Selecting a Visual Studio project
+#### Select a Visual Studio project
 
 To create a project of the appropriate type for the add-in, you must do the following steps. Keywords encountered on the screen have a **bold** attribute: 
   
@@ -79,40 +79,34 @@ To create a project of the appropriate type for the add-in, you must do the foll
     
 7. Click **OK** to create the initial project. 
     
-The Visual Studio wizard asks a few follow-up questions about the Project Online settings site (called SharePoint settings in the dialogs) in a couple of dialogs that follow. Here are the questions:
+The Visual Studio Wizard asks a few follow-up questions about the Project Online settings site (called SharePoint settings in the dialogs) in a couple of dialogs that follow. Here are the questions:
   
-- What SharePoint site do you want to use for debugging your add-in?
+1. What SharePoint site do you want to use for debugging your add-in? Specify the URL to your PWA site, such as https://contoso.sharepoint.com/sites/pwa.
     
-   Specify the URL to your PWA site, such as https://contoso.sharepoint.com/sites/pwa.
+2. How do you want to host your SharePoint Add-in? Choose [X] **SharePoint-hosted**.
     
-- How do you want to host your SharePoint add-in?
+   For more information about SharePoint Add-ins, including hosting options, see [SharePoint Add-ins](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/sharepoint-add-ins).
     
-   Choose [X] **SharePoint-hosted**
-    
-   For more information on SharePoint add-ins, including hosting options, see "SharePoint Add-ins" at https://msdn.microsoft.com/en-us/library/office/fp179930.aspx.
-    
-- Click **Next**. 
+3. Click **Next**. 
     
 The second additional dialog asks you to specify the SharePoint Online version for the add-in: 
   
-- What's the earliest version of SharePoint that you want your add-in to target? 
+1. What's the earliest version of SharePoint that you want your add-in to target? Choose [X] S **harePoint-Online**. 
     
-   Choose [X] S **harePoint-Online**. 
-    
-- Click **Finish**. 
+2. Click **Finish**. 
     
 Visual Studio creates the project and accesses the Project Online site. 
   
-#### Enabling sideloading on the Project Online site
+### Enable sideloading on the Project Online site
 
 Sideloading is the mechanism for testing and debugging Project Online add-ins. You need two scripts for sideloading: one to enable sideloading on your Project Online site and another to disable sideloading once you finish testing and debugging the add-in.
   
-The following article provides the details of setting up sideloading: "Enable app SideLoading in your non-developer site collection", https://blogs.msdn.microsoft.com/officeapps/2013/12/10/enable-app-sideloading-in-your-non-developer-site-collection/.
+For more information about setting up sideloading, see [Enable app SideLoading in your non-developer site collection](https://blogs.msdn.microsoft.com/officeapps/2013/12/10/enable-app-sideloading-in-your-non-developer-site-collection/).
   
 > [!NOTE]
 > Sideloading apps is a developer/test feature. It is **not intended for production use**. Do not sideload apps regularly, or keep app sideloading enabled for longer than you are actively using the feature. 
   
-### Adding content to the add-in project
+## Add content to the add-in project
 
 After creating a project and setting up the debugging mechanism, adding content to the app includes the following tasks:
   
@@ -144,17 +138,17 @@ If the Project Online tenant changes, such as moving from a trial to a subscript
   
 You can also add files to the project. If so, you'll need to update the Elements.xml file located in the same group (Content, Images, Pages, or Scripts) to include the new files. For more information about the project files, see [Explore the app manifest structure and the package of a SharePoint Add-in](https://msdn.microsoft.com/en-us/library/office/fp179918.aspx.aspx).
   
-#### Setting application scope
+### Set application scope
 
 The add-in needs scope or permission levels defined before the service returns information in query results. For this add-in, use the following scope to the Visual Studio project. This change is made to the AppManifest.xml file in the Permissions tab:
 
-|**Scope**|**Permission**|
+|Scope|Permission|
 |:-----|:-----|
 |Multiple Projects (Project Server)  <br/> |Read  <br/> |
    
 Save the file after setting the application scope. Otherwise, no data will be returned from the service. 
   
-#### Linking the JSOM library
+### Link the JSOM library
 
 The runtime Project Online libraries, PS.js and PS.debug.js, are provided by Project Online and are always the most recent version. JavaScript add-ins that use JSOM must link with one of these libraries. The linking definitions are added in the Default.aspx file. The commands to use the PS.js and/or PS.debug.js are part of the code located in the App.js file.
   
@@ -165,9 +159,9 @@ Add the following command for PS.js or PS.debug.js definition in the  `<asp:Cont
 ```
 
 > [!NOTE]
-> The "OnDemand" attribute for PS.js or PS.debug.js set to "false". 
+> The **OnDemand** attribute for PS.js or PS.debug.js set to **false**. 
   
-#### Adding UI elements to the add-in
+### Add UI elements to the add-in
 
 The example add-in consists of a few components. Static element descriptions are located in the Default.aspx file. Dynamic element descriptions and code for all components are located in the App.js file. For comments regarding the components, refer to the source code listings. Here is a list of the UI components in the add-in:
   
@@ -183,7 +177,7 @@ The example add-in consists of a few components. Static element descriptions are
     
 For details of the user interface, such as the title and the header portion of the project table, see the Default.aspx project file.
   
-#### Initializing and connecting to the host system
+### Initialize and connect to the host system
 
 The App.js file contains the JavaScript code. The add-in loads PS.js in the browser, and then calls the initializePage function. InitializePage retrieves a context to the Project Online endpoint and starts the loadProjects function.
   
@@ -207,7 +201,7 @@ The App.js file contains the JavaScript code. The add-in loads PS.js in the brow
 
 ```
 
-#### Retrieving the Projects
+### Retrieve the projects
 
 The loadProjects function queries the service for the project names and IDs. 
   
@@ -230,7 +224,7 @@ If the query succeeds, the add-in continues by calling displayProjects.
 
 ```
 
-#### Displaying the projects
+### Display the projects
 
 The displayProjects function creates a table, one row per project, and a button to show the tasks for the specific project. 
   
@@ -261,7 +255,7 @@ The displayProjects function creates a table, one row per project, and a button 
 > [!NOTE]
 > The while loop accesses the ID and name properties. This is slightly different than the source code project that calls a function that, in turn, accesses the same properties. 
   
-#### Displaying the tasks for a project
+### Display the tasks for a project
 
 The tasks, while part of the add-in, are not part of the initial loading. If the user is interested in the tasks associated with a project, clicking the "Show Tasks" button causes the tasks to display in the list using the btnLoadTasks event handler. 
   

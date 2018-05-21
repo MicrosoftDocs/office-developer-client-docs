@@ -38,9 +38,9 @@ This article focuses on an application that uses the .NET CSOM interface.
 
 Start with a base system running Windows 10, and add the following items:
   
-- .Net Framework 4.0 or newer -- Use the complete framework. The download site is https://msdn.microsoft.com/en-us/vstudio/aa496123.aspx.
+- .Net Framework 4.0 or later -- Use the complete framework. The download site is https://msdn.microsoft.com/en-us/vstudio/aa496123.aspx.
     
-- Visual Studio 2013 or newer -- Any edition is acceptable. The community edition of Visual Studio 2015 was used to develop the sample application. The community edition is available at https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx.
+- Visual Studio 2013 or later -- Any edition is acceptable. The community edition of Visual Studio 2015 was used to develop the sample application. The community edition is available at https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx.
     
 - SharePoint Client Components SDK -- Project Online and Project Server sit on top of SharePoint, and SharePoint assemblies. The SharePoint Client Components are included in Visual Studio Professional and Enterprise editions. If you use Visual Studio Community edition, the latest version of the Office Developer Tools SDK is available at the following site: https://www.microsoft.com/en-us/download/details.aspx?id=35585.
     
@@ -49,9 +49,9 @@ Start with a base system running Windows 10, and add the following items:
 - Projects on the hosting site that are populated with information
     
 > [!NOTE]
-> The standard .NET Framework (4.0 or newer) is the correct framework to use. Do not use the .NET Framework 4 Client Profile. 
+> The standard .NET Framework (4.0 or later) is the correct framework to use. Do not use the .NET Framework 4 Client Profile. 
   
-## Developing the application
+## Develop the application
 
 In developing a desktop application for SharePoint, the preferred interface is the Project client side object model (CSOM). 
   
@@ -61,11 +61,11 @@ The first two topics cover basic issues: creating a Visual Studio project with a
   
 Retrieving information from the host is a two-action process from client applications. First, the application specifies and sends one or more retrieval requests to the server. Second, the application issues a notification to the server to execute the submitted queries. The server responds by sending the query results to the client.
   
-### Setting up the Visual Studio project
+### Set up the Visual Studio project
 
 The application setup consists of creating a new project, linking the appropriate assemblies and declaring the needed namespaces. Visual Studio presents several types of development projects. 
   
-#### Selecting a Visual Studio project
+#### Select a Visual Studio project
 
 1. Launch Visual Studio and select **Start A New Project** on the Start Page. 
     
@@ -73,19 +73,19 @@ The application setup consists of creating a new project, linking the appropriat
     
 2. For this application, specify the following items. Keywords encountered on the screen have a bold attribute:
     
-   - From the Installed templates in the left pane, select **C#** => **Windows** => **Classic desktop**. 
+   1. From the Installed templates in the left pane, select **C#** => **Windows** => **Classic desktop**. 
     
-   - At the top of the central pane, select **.NET Framework 4**. 
+   2. At the top of the central pane, select **.NET Framework 4**. 
     
-   - From the application types in the central pane, choose **Console Application**. 
+   3. From the application types in the central pane, choose **Console Application**. 
     
-   - In the bottom section, specify a name and location for the project, and a solution name. 
+   4. In the bottom section, specify a name and location for the project, and a solution name. 
     
-   - Also in the bottom section, check the **Create directory for solution** box. 
+   5. Also in the bottom section, check the **Create directory for solution** box. 
     
 3. Click **OK** to create the initial project. 
     
-#### Adding assemblies
+#### Add assemblies
 
 The VS solution needs the ProjectServerClient assembly from the Project 2103 SDK, a couple of assemblies from the SharePoint SDK, and the .NET Framework System.Security assembly.
   
@@ -151,7 +151,7 @@ The start of the .cs file should contain the following namespaces:
     
 - System.Security
     
-### Connecting to the host system
+### Connect to the host system
 
 Project Online is a SharePoint application, so using SharePoint authentication is the correct approach. The following code fragment prepares to access the hosted environment.
   
@@ -172,7 +172,7 @@ Project Online is a SharePoint application, so using SharePoint authentication i
 
 Preparations to access the hosted environment include the following items:
   
-- Create a context object for the projects -- this is contained in the following code of the preceding code fragment. 
+1. Create a context object for the projects -- this is contained in the following code of the preceding code fragment. 
     
    ```cs
     private static ProjectContext projContext;
@@ -181,7 +181,7 @@ Preparations to access the hosted environment include the following items:
 
    The context is inherited by other components, allowing the system to manage the context of the Project object model.
     
-- Identify the host site -- this is done in the following code from the preceding code fragment.
+2. Identify the host site -- this is done in the following code from the preceding code fragment.
     
    ```cs
     using (ProjectContext projContext = new ProjectContext("https://Contoso.sharepoint.com/sites/pwa"))
@@ -191,7 +191,7 @@ Preparations to access the hosted environment include the following items:
         
    ![Screen shot of the URL of the Projects site collection within a red border.](media/d48c4894-5dba-46b6-886a-3c59bfb83c4d.png)
   
-- Place the password in a secure string -- this is done in the following code from the preceding code fragment.
+3. Place the password in a secure string -- this is done in the following code from the preceding code fragment.
     
    ```cs
     SecureString password - new SecureString();
@@ -201,7 +201,7 @@ Preparations to access the hosted environment include the following items:
 
    The password and user account are the credentials to access the host site. 
     
-- Add the user account and password to the credentials portion of the context object -- this is done in the following code from the preceding code fragment.
+4. Add the user account and password to the credentials portion of the context object -- this is done in the following code from the preceding code fragment.
     
    ```cs
     projContext.Credentials = new SharePointOnlineCredentials("sarad@Contoso.onmicrosoft.com", password);
@@ -209,7 +209,7 @@ Preparations to access the hosted environment include the following items:
 
 The instantiated project context is ready to use.
   
-### Listing all published projects
+### List all published projects
 
 Project Online and ProjectServer use proxies to communicate with the server for create, report, update, and delete (CRUD) operations. The host/server handles requests in an efficient manner and has the client perform the following actions in communicating with the server:
   
@@ -252,17 +252,17 @@ Published Project count:2
 
 ```
 
-#### Making a request
+### Make a request
 
 Using the actions from the previous code fragment, the application retrieves the list of projects in the specified account on the hosting site. 
   
-- The ProjectContext is specified for the projects to list. 
+1. The ProjectContext is specified for the projects to list. 
     
    ```cs
     var projects = projContext.Projects;
    ```
 
-- Specify the item to retrieve. 
+2. Specify the item to retrieve. 
     
    ```cs
     projContext.Load(projects);
@@ -270,17 +270,17 @@ Using the actions from the previous code fragment, the application retrieves the
 
    By only stating the collection, the server retrieves the project collection, populating each project with values for the default set of properties. Accessing properties that are part of the default property set gives successful results. Accessing properties that are not part of the default set results in a "Not initialized" exception.
     
-- Load the request (projContext.Load).
+3. Load the request (projContext.Load).
     
    This is part of the previous step.
     
-- Execute the query (ExecuteQuery). 
+4. Execute the query (ExecuteQuery). 
     
    ```cs
     projContext.ExecuteQuery();
    ```
 
-### Retrieving High-Level Project Information
+### Retrieve high-level project information
 
 Properties that are not default properties must be specified in the request to the server. The next code fragment loads the projects collection context as in the previous example. Then, the specification requests additional non-default properties to include in the result. 
   
@@ -360,7 +360,7 @@ Project counts:31
 
 ```
 
-### Retrieving all tasks in a project
+### Retrieve all tasks in a project
 
 Each project has many tasks. So, pulling the tasks for a single project consists of the following:
   
@@ -438,7 +438,7 @@ Task collection count: 5
 
 ```
 
-### Accessing information at multiple levels
+### Access information at multiple levels
 
 Each task can have one or more persons (a.k.a. resource) contributing toward its completion. The Assignments and Resources collections contain this information for each task. 
   
@@ -454,11 +454,9 @@ The processing consists of the following:
     
 5. Execute the query for the resource.
     
-A couple of items are worth noting:
-  
-- The Assignments collection is explicitly requested in the information from the server because it is not a default property of the Tasks collection. As a collection, a subsequent query is made to pull the collection from the server. 
-    
-- The Resource is an object. The query for an assignment includes the resource name associated with the assignment.
+> [!NOTE] 
+> - The Assignments collection is explicitly requested in the information from the server because it is not a default property of the Tasks collection. As a collection, a subsequent query is made to pull the collection from the server. 
+> - The Resource is an object. The query for an assignment includes the resource name associated with the assignment.
     
 ```cs
 PublishedTaskCollection collTask = pubProj.Tasks;
@@ -522,7 +520,7 @@ Output for tasks 52, 75, and 76 of a project:
 
 ```
 
-### Accessing custom enterprise-level fields
+### Access custom enterprise-level fields
 
 Custom fields exist for Project Online. These are enterprise-level fields that can be associated with individual project. This section describes how to access these fields. 
   
