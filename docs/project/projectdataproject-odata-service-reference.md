@@ -46,7 +46,7 @@ There are limits to the number of entities that can be returned in one query of 
 > [!NOTE]
 > The Project Online infrastructure supports higher limits for many entity sets. You shouldn't attempt to apply them to an on-premises instance. 
   
-|**Entity set**|**On-premises**|**Online**|
+|Entity set|On-premises|Online|
 |:-----|:-----|:-----|
 |AssignmentBaselines  <br/> |100  <br/> |300  <br/> |
 |AssignmentBaselineTimephasedDataSet  <br/> |200  <br/> |2000  <br/> |
@@ -85,7 +85,7 @@ There are limits to the number of entities that can be returned in one query of 
 |TimesheetPeriods  <br/> |200  <br/> |1000  <br/> |
 |Timesheets  <br/> |100  <br/> |1000  <br/> |
 
-## On-premises Project Server
+## On-premises Project Server instances
 
 For on-premises instances of Project Server, you can use the [Get-SPProjectOdataConfiguration](http://technet.microsoft.com/en-us/library/jj219516%28v=office.15%29.aspx) command in Windows PowerShell to get the query limits for entities in the **ProjectData** service. For example, on the Project Server computer, run **SharePoint 2013 Management Shell** as an administrator, and then run the following command. Results are shown below the command. 
   

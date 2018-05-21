@@ -65,9 +65,9 @@ The application setup consists of creating a new project, linking the appropriat
 
 To create a project of the appropriate type for the add-in, you must do the following steps. Keywords encountered on the screen have a **bold** attribute: 
   
-1. From the File menu, choose **File =\> New =\> Project**. 
+1. From the File menu, choose **File** > **New** > **Project**. 
     
-2. From the Installed templates in the left pane, select **C# =\> Office/SharePoint =\> Web Add-ins**. 
+2. From the Installed templates in the left pane, select **C#** > **Office/SharePoint** > **Web Add-ins**. 
     
 3. At the top of the central pane, select **.NET Framework 4** or later; the current version is 4.6. 
     
@@ -134,7 +134,7 @@ The add-in project consists of many files. In this example, you'll need to edit 
     
 - App.css - optional; contains style definitions developed for the add-in
     
-If the Project Online tenant changes, such as moving from a trial to a subscription site, you can update the project properties, including the Server Connection and Site URL, using the Properties Window available through the **View =\> Properties Window** command. 
+If the Project Online tenant changes, such as moving from a trial to a subscription site, you can update the project properties, including the Server Connection and Site URL, using the Properties Window available through the **View** > **Properties Window** command. 
   
 You can also add files to the project. If so, you'll need to update the Elements.xml file located in the same group (Content, Images, Pages, or Scripts) to include the new files. For more information about the project files, see [Explore the app manifest structure and the package of a SharePoint Add-in](https://msdn.microsoft.com/en-us/library/office/fp179918.aspx.aspx).
   

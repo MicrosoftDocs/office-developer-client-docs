@@ -76,7 +76,7 @@ You can download and run the sample in a few easy steps:
     
 2. Update the SiteURL in the Properties window
     
-  Project Online examines both the application scope of the add-in and the user permissions to govern access to information on the Project Online host. If access is explicitly denied in either or both settings, Project Online denies access to the information. Otherwise, access is granted.
+   Project Online examines both the application scope of the add-in and the user permissions to govern access to information on the Project Online host. If access is explicitly denied in either or both settings, Project Online denies access to the information. Otherwise, access is granted.
     
 3. Enable sideloading on your site. See the [Configuring Project Online for App Development ](http://nearbaseline.com/2013/12/configuring-project-online-for-app-development/.aspx)article for more information. 
     
@@ -108,7 +108,7 @@ You can run the sample in a few steps:
     
 2. Update the SiteURL in the Properties window
     
-  Project Online examines both the application scope of the add-in and the user permissions to govern access to information on the Project Online host. If access is explicitly denied in either or both settings, Project Online denies access to the information. Otherwise, access is granted.
+   Project Online examines both the application scope of the add-in and the user permissions to govern access to information on the Project Online host. If access is explicitly denied in either or both settings, Project Online denies access to the information. Otherwise, access is granted.
     
 3. Enable sideloading on your site. See the [Configuring Project Online for App Development ](http://nearbaseline.com/2013/12/configuring-project-online-for-app-development/.aspx)article for more information. 
     

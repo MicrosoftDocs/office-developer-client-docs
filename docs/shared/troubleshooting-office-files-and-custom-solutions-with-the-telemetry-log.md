@@ -1,12 +1,8 @@
 ---
 title: "Troubleshooting Office files and custom solutions with the telemetry log"
- 
- 
 manager: soliver
 ms.date: 9/17/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: ef88e30e-7537-488e-bc72-8da29810f7aa
 description: "Use the Telemetry Log for Office 2013 to determine compatibility issues with Office 2013 and solutions built for previous versions of Office."
@@ -17,9 +13,6 @@ description: "Use the Telemetry Log for Office 2013 to determine compatibility i
 Use the Telemetry Log for Office 2013 to determine compatibility issues with Office 2013 and solutions built for previous versions of Office.
   
 The following article describes the Telemetry Log and how to use it. For more information about specific results displayed in the Telemetry Log, see [Compatibility issues in Office](compatibility-issues-in-office.md).
-  
-## Introduction
-<a name="OEV_Intro"> </a>
 
 Over the course of many releases, Microsoft has provided tools and frameworks for customizing, automating, and extending Office. This has enabled businesses and users to build solutions or add-ins for Office applications to improve their productivity and efficiency. These solutions can range in complexity from simple Visual Basic for Applications (VBA) macros to robust .NET Framework customizations. Many users who have these solutions rely on them to complete business-critical tasks and may not even know that they are using a customization that is added to their Office applications.
   
@@ -96,7 +89,7 @@ The Telemetry Log displays some simple information about the recorded events. Ea
   
 For example, the issue titled "OM Hidden: Comment.Initial Property" appears if a solution or macro-enabled file opened in Word 2013 attempts to get the initials of a commenter who is associated with a comment. Word 2013 features an improved commenting experience that does not display commenter initials by default. The APIs associated with the older commenting model have been hidden in the Word 2013 object model but remain available for backwards-compatibility. The "OM Hidden: Comment.Initial" issue in the indicates the file that attempted to use the API, the application that raised the event (Word 2013), the time and date of the event, and short description about the error and how to fix it.
   
- **Figure 1. Office Telemetry Log**
+**Figure 1. Office Telemetry Log**
   
 ![The Office Event Viewer displaying records.](media/off15_OfficeEventViewer_SD.png)
   
@@ -152,11 +145,8 @@ The Telemetry Log provides large enterprises, individual users, and developers w
 <a name="OEV_Additional"> </a>
 
 - [Office Developer Center](http://msdn.microsoft.com/en-us/office/aa905340.aspx)
-    
 - [Compatibility issues in Office](compatibility-issues-in-office.md)
-    
 - [Deploy Office Telemetry Dashboard](http://technet.microsoft.com/library/f69cde72-689d-421f-99b8-c51676c77717)
-    
 - [Office Developer Center](http://msdn.microsoft.com/en-us/office/aa905340)
     
 

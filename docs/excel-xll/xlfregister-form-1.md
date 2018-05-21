@@ -210,7 +210,7 @@ If types **xltypeMissing** or **xltypeNil** are used for return values, they are
 On a worksheet, you can make a DLL function or code resource volatile, so that it recalculates every time the worksheet recalculates. To do this, add an exclamation mark (!) after the last argument code in the  _pxTypeText_ argument. 
   
 > [!NOTE]
-> By default, functions that take type **R** XLOPERs or type **U** XLOPER12s and that are registered as macro sheet equivalents (type **#**−see next section) are handled as volatile in Excel. 
+> By default, functions that take type **R** XLOPERs or type **U** XLOPER12s and that are registered as macro sheet equivalents (type **#**; see next section) are handled as volatile in Excel. 
   
 ### Functions declared as void
 
