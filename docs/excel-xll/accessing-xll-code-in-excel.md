@@ -1,20 +1,17 @@
 ---
-title: "Accessing XLL Code in Excel"
- 
- 
+title: "Accessing XLL code in Excel"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- accessing xll code [excel 2007],XLLs [Excel 2007], accessing code,commands [Excel 2007], registration,functions [Excel 2007], registration,calling XLLs from Excel,registering commands [Excel 2007],registering functions [Excel 2007]
- 
+- accessing xll code [excel 2007],XLLs [Excel 2007], accessing code,commands [Excel 2007], registration,functions [Excel 2007], registration,calling XLLs from Excel,registering commands [Excel 2007],registering functions [Excel 2007] 
 localization_priority: Normal
 ms.assetid: 6e4bf1f3-8eca-4be5-9632-75355ac31d61
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---
 
-# Accessing XLL Code in Excel
+# Accessing XLL code in Excel
 
 **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
@@ -24,7 +21,7 @@ To be accessible in Microsoft Excel, the functions and commands that an XLL cont
     
 - Must be registered with Excel.
     
-## Registering Functions and Commands with Excel
+## Registering functions and commands with Excel
 
 Registration tells Excel the following about a DLL entry point:
   
@@ -52,7 +49,7 @@ Registration tells Excel the following about a DLL entry point:
     
 This is all achieved using the C API function [xlfRegister](xlfregister-form-1.md), equivalent to the XLM function **REGISTER**.
   
-## Calling XLL Functions Directly from Excel
+## Calling XLL functions directly from Excel
 
 Once they are registered, XLL worksheet and macro sheet functions can be called from anywhere a built-in function can be called from:
   
@@ -73,7 +70,7 @@ You can obtain a reference to the calling cell or range of cells within your fun
 > [!NOTE]
 > Excel also calls XLL function code from the **Paste Function Wizard** and **Replace** dialog boxes. You might need to restrict your code's normal running in the case of the **Paste Function Arguments** dialog box, especially where your function can take a long time to execute. To detect if your function is being called from either of these dialog boxes, you must implement some code in your project that iterates through all the open windows to determine if the front window is one of these dialog boxes, and, if so, which one. 
   
-## Calling XLL Commands Directly from Excel
+## Calling XLL commands directly from Excel
 
 Once they are registered, XLL commands can be called in all the ways that other user-defined macros can be called:
   
@@ -111,13 +108,10 @@ Starting in Excel 2007 user interface is very different from earlier versions. T
   
 ## See also
 
+- [Creating XLLs](creating-xlls.md)
+- [Call XLL Functions from the Function Wizard or Replace Dialog Boxes](how-to-call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes.md)
+- [Add-in Manager and XLL Interface Functions](add-in-manager-and-xll-interface-functions.md)
+- [Developing Excel XLLs](developing-excel-xlls.md)
 
 
-[Creating XLLs](creating-xlls.md)
-  
-[Call XLL Functions from the Function Wizard or Replace Dialog Boxes](how-to-call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes.md)
-  
-[Add-in Manager and XLL Interface Functions](add-in-manager-and-xll-interface-functions.md)
-  
-[Developing Excel XLLs](developing-excel-xlls.md)
 
