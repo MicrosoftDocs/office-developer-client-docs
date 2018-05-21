@@ -57,7 +57,7 @@ The following actions, involving both the InfoPath user interface and the form f
     
 6. Add the following attributes to the **xDocumentClass** element in the .xsf file: 
    
-   `requireFullTrust="yes"`
+   `requireFullTrust="yes"`<br/>
    `name="urn:MyForm:MyCompany`
 
    > [!NOTE]
@@ -74,19 +74,19 @@ The following actions, involving both the InfoPath user interface and the form f
     
 10. Repackage the files into the .xsn CAB format with a tool such as makecab.exe.
     
-   > [!NOTE]
-   > Although InfoPath form designer supports repackaging the form files into an .xsn file, doing this will revert the form to a URL-based form. For this reason, you must repackage the files manually to avoid overwriting your changes to the form files. 
+    > [!NOTE]
+    > Although InfoPath form designer supports repackaging the form files into an .xsn file, doing this will revert the form to a URL-based form. For this reason, you must repackage the files manually to avoid overwriting your changes to the form files. 
   
 11. Create a custom installation program by using the **RegisterSolution** method of the InfoPath **Application** object to install the fully trusted form. A simple way to do this is to create a script file that uses the following lines of code (in either Microsoft JScript or VBScript syntax): 
     
-   ```js
+    ```js
         objIPApp = new ActiveXObject("InfoPath.Application"); 
         objIPApp.RegisterSolution("C:\\MyForms\\MyTrustedForm.xsn"); 
         objIPApp.Quit(); 
         objIPApp = null;
-   ```
+    ```
    
-   ```vb
+    ```vb
         Public Sub InstallForm()
             Dim objIPApp As Object
             ' Create a reference to the Application object.
@@ -97,21 +97,21 @@ The following actions, involving both the InfoPath user interface and the form f
             Set objIPApp = Nothing
         End Sub
         
-   ```
+    ```
 
-   > [!NOTE] 
-   > Although this example uses a simple script file, you can also use a more robust installation mechanism such as Microsoft Windows Installer (.msi) files. Be sure, however, to use the **RegisterSolution** method to correctly install the fully trusted form on the target computer. To access the **RegisterSolution** method of the InfoPath the **Application** object from Visual Basic or Visual Studio, set a reference to the Microsoft InfoPath 3.0 Type Library, which is provided by IPEDITOR.dll that is installed in the C:\Program Files\Microsoft Office\Office14 folder. 
+> [!NOTE] 
+> Although this example uses a simple script file, you can also use a more robust installation mechanism such as Microsoft Windows Installer (.msi) files. Be sure, however, to use the **RegisterSolution** method to correctly install the fully trusted form on the target computer. To access the **RegisterSolution** method of the InfoPath the **Application** object from Visual Basic or Visual Studio, set a reference to the Microsoft InfoPath 3.0 Type Library, which is provided by IPEDITOR.dll that is installed in the C:\Program Files\Microsoft Office\Office14 folder. 
   
-   If you have to remove a fully trusted form, you can use the **UnregisterSolution** method of the **Application** object as shown in the following JScript and VBScript examples. 
+If you have to remove a fully trusted form, you can use the **UnregisterSolution** method of the **Application** object as shown in the following JScript and VBScript examples. 
     
-   ```js
+```js
     objIPApp = new ActiveXObject("InfoPath.Application"); 
     objIPApp.UnregisterSolution("C:\\MyForms\\MyTrustedForm.xsn"); 
     objIPApp.Quit(); 
     objIPApp = null;
-   ```
+```
 
-   ```vb
+```vb
     Public Sub UninstallForm()
         Dim objIPApp As Object
         ' Create a reference to the Application object.
@@ -122,7 +122,7 @@ The following actions, involving both the InfoPath user interface and the form f
         Set objIPApp = Nothing
     End Sub
     
-   ```
+```
 
 ### Digitally Signing a Form Template to Create a Fully Trusted Form
 
