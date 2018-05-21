@@ -486,7 +486,8 @@ Always returns S_OK.
 
 This value is only populated when the [Enum LSCEventType](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCEventType) of the event is LSCEventType_OnServerChangesDownloaded or LSCEventType_OnLocalChangesUploaded. 
   
-HRESULT ILSCEvent::GetError ([out] LONG \* pnError)
+`HRESULT ILSCEvent::GetError ([out] LONG * pnError)`
+
 ##### Parameters
 
  _pnError_

@@ -35,7 +35,7 @@ The **XDocuments** collection contains the following methods that can be used fo
    
 To use the **Application** object from an external application, you use the **CreateObject** function with the ProgID of the InfoPath application ("InfoPath.Application") to create an object variable that represents the InfoPath application. You can then use the **XDocuments** property to access the **XDocuments** collection and use its methods to open or create an InfoPath form. The following example demonstrates the creation of a reference to the **Application** object using the Microsoft Visual Basic 6.0 or Visual Basic for Applications (VBA) programming language: 
   
-```
+```vb
 Dim objIP As Object 
  
 Set objIP = CreateObject("InfoPath.Application") 
