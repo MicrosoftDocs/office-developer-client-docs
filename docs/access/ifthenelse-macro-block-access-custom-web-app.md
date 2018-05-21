@@ -1,12 +1,9 @@
 ---
 title: "If...Then...Else Macro Block (Access custom web app)"
- 
- 
 manager: kelbow
 ms.date: 9/5/2017
 ms.audience: Developer
 ms.topic: overview
-  
 localization_priority: Normal
 ms.assetid: 18d28dc1-c41f-47c6-b5c7-258d5f877d01
 description: "You can use the If macro block to conditionally execute a group of actions, depending on the value of an expression."
@@ -21,7 +18,7 @@ You can use the **If** macro block to conditionally execute a group of actions, 
   
 ## Syntax
 
-```
+```vb
 IfexpressionThen 
  Insert macro actions here ... 
 Else Ifexpression  
@@ -51,7 +48,7 @@ You can click **Add Else** to insert an optional **Else** block. In this case, t
   
 In the following code example, the macro actions in the first block execute if the value of [Status] is greater than 0. If the value of [Status] is not greater than 0, the expression that follows the **Else If** is evaluated. The macro actions in the **Else If** block execute if the value of [Status] is equal to 0. Finally, if neither the first block nor the second block execute, the actions in the **Else** block execute. 
   
-```
+```vb
 If[Status] > 0Then 
  Insert macro actions here ... 
 Else If[Status] = 0  
