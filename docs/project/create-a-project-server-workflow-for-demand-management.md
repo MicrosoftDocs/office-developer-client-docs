@@ -90,7 +90,7 @@ In Project Web App, review the available workflow phases and stages, and the ent
             
     2. On the **PAGE** tab of the ribbon, in the **Edit** group, choose **Edit Page**.
             
-    3. Choose the down arrow at the top-right of the **Basic Info** Web Part, and then choose **Edit Web Part**. Or, on the **WEB PART** tab of the ribbon, in the **Properties** group, choose **Web Part Properties** to show the editor part. 
+    3. Choose the down arrow at the top-right of the **Basic Info** web part, and then choose **Edit web part**. Or, on the **WEB PART** tab of the ribbon, in the **Properties** group, choose **web part Properties** to show the editor part. 
             
     4. In the **Displayed Project Fields** section of the editor part (see Figure 1), choose **Modify**.
             
@@ -98,9 +98,9 @@ In Project Web App, review the available workflow phases and stages, and the ent
       
     6. In the editor part, choose **OK**, and then choose **Stop Editing** in the **Edit** group, on the **PAGE** tab of the ribbon. Figure 2 shows the **Proposal Cost** custom field that is added to the Project Information PDP. 
 
-    **Figure 1. Editing the Project Fields Web Part in a PDP**
+    **Figure 1. Editing the Project Fields web part in a PDP**
 
-    ![Editing the Project Fields Web Part in a PDP](media/pj15_CreateWorkflowSPD_EditPDP.gif)
+    ![Editing the Project Fields web part in a PDP](media/pj15_CreateWorkflowSPD_EditPDP.gif)
 
     **Figure 2. The edited PDP includes the Proposal Cost custom field**
 

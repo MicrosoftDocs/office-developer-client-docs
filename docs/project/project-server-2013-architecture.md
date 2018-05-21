@@ -32,21 +32,21 @@ The front-end tier includes Project Professional 2013, Project Web App, and thir
 
 The Project Application Service in Project Server 2013 can be associated with a SharePoint site collection for use with SharePoint tasks lists, The Project Application Service can also import a SharePoint tasks list as an enterprise project for full Project Server control. With a SharePoint tasks list, SharePoint maintains the project site in a site collection; Project Professional can synchronize with and update the tasks list. A project site can be an independent SharePoint tasks list or a tasks list that is synchronized with an .mpp file; the .mpp file can be stored locally or in a SharePoint library. 
   
-Project Server maintains the projects when it has full control; Project Professional saves data directly to Project Server. Table 1 compares the behavior of a tasks list, the Schedule Web Part, and other functionality for SharePoint control of tasks lists and for imported projects when Project Server has full control. The Schedule Web Part contains the grid on the Project Web App page where you can edit a project schedule. The tied mode is where statusing data is entered once for both tasks and timesheets; in single entry mode, task statusing data is entered separately from timesheets.
+Project Server maintains the projects when it has full control; Project Professional saves data directly to Project Server. Table 1 compares the behavior of a tasks list, the Schedule web part, and other functionality for SharePoint control of tasks lists and for imported projects when Project Server has full control. The Schedule web part contains the grid on the Project Web App page where you can edit a project schedule. The tied mode is where statusing data is entered once for both tasks and timesheets; in single entry mode, task statusing data is entered separately from timesheets.
   
 **Table 1. Comparison of SharePoint task lists and full control**
 
 |****Feature****|**Task list**|**Full-control**|
 |:-----|:-----|:-----|
 |**Task list in SharePoint** <br/> |Read/write  <br/> |Read-only  <br/> |
-|**Schedule Web Part** <br/> |Read-only  <br/> |Read/write  <br/> |
+|**Schedule web part** <br/> |Read-only  <br/> |Read/write  <br/> |
 |**Reporting** <br/> |Rich reporting through Project Server  <br/> |Rich reporting through Project Server  <br/> |
 |**Other Project Server functionality** <br/> | Blocked functionality:  <br/>  Server-side project edits, with Project Web App or custom client applications  <br/>  Statusing  <br/>  Tasks are not visible in tied mode  <br/> |Full functionality is enabled  <br/> |
    
 ### Managing projects as SharePoint task lists
 <a name="pj15_Architecture_VisibilityMode"> </a>
 
-When Project Server is associated with a SharePoint site collection where SharePoint maintains control, task lists and Project Professional 2013 (.mpp) files in document libraries are visible to the Project Application Service, but SharePoint maintains the master data for synchronization (see Figure 1). Server-side scheduling with the Schedule Web Part cannot be done. You can use Project Professional to synchronize with and edit the task list in a project site. By starting with SharePoint task lists, organizations can gradually evolve to use the full functionality of Project Server.
+When Project Server is associated with a SharePoint site collection where SharePoint maintains control, task lists and Project Professional 2013 (.mpp) files in document libraries are visible to the Project Application Service, but SharePoint maintains the master data for synchronization (see Figure 1). Server-side scheduling with the Schedule web part cannot be done. You can use Project Professional to synchronize with and edit the task list in a project site. By starting with SharePoint task lists, organizations can gradually evolve to use the full functionality of Project Server.
   
  Figure 1 shows the following processes when projects are maintained in SharePoint task lists: 
   
@@ -74,7 +74,7 @@ Figure 2 shows the following processes when Project Server maintains enterprise 
   
 - (A) The user can choose which project sites to import. Project Server imports the project sites, and optionally deletes associated .mpp files. The SharePoint task list of an imported project becomes read-only.
     
-- (B) After association, Project Professional creates new projects and saves or publishes to Project Server. The Active Cache in Project Professional maintains data synchronization with Project Server. The Schedule Web Part in Project Web App can do server-side scheduling.
+- (B) After association, Project Professional creates new projects and saves or publishes to Project Server. The Active Cache in Project Professional maintains data synchronization with Project Server. The Schedule web part in Project Web App can do server-side scheduling.
     
 - (C) When a new project is published in Project Professional, the user has the option of creating a project site for the project. A project can also be created in Project Web App with a full-control EPT and published with a read-only task list to a project site in the site collection.
     
