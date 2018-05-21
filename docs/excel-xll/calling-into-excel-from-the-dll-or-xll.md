@@ -49,7 +49,7 @@ You cannot call the Excel C API in the following scenarios:
     
 - From a background thread that your DLL created.
     
-### Return Values
+### Return values
 
 All four of these functions return an integer value that informs the caller whether the function or command was called successfully. The values returned can be any of the following:
   

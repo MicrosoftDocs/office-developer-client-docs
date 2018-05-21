@@ -1,12 +1,8 @@
 ---
 title: "Using CSISyncClient to control the Office Document Cache (ODC)"
- 
- 
 manager: soliver
 ms.date: 7/13/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 394b8e6f-9132-4c98-8fd6-46ad3c871440
 description: "Learn how to use CSISyncClient to control the Office Document Cache (ODC)."
@@ -42,20 +38,21 @@ Once you've co-created the COM object, you MUST call [ILSCLocalSyncClient::Initi
   
 The exceptions to the previous paragraph are [ILSCLocalSyncClient::ResetCache ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_ResetCache) and [ILSCLocalSyncClient::Uninitialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Uninitialize). After you call [ILSCLocalSyncClient::Uninitialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Uninitialize) on the COM object, you MUST destroy that object and create a new one. [ILSCLocalSyncClient::ResetCache ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_ResetCache) will delete your subcache, delete all associated file information in the cache, but leave the documents on disk. It also leaves the state intact for communicating with the cache. This allows you to call [ILSCLocalSyncClient::Initialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) again to create a new cache without having to destroy and recreate the COM object. 
   
-#### Public Member Functions
+**Public member functions**
 
 #### ILSCLocalSyncClient::DeleteFile
 
 DeleteFile is used to remove the file information from the cache. However, this method will leave the associated file on disk and on the server.
   
 HRESULT ILSCLocalSyncClient::DeleteFile ( [in] BSTR bstrResourceID )
-#### Parameters
+
+##### Parameters
 
  _bstrResourceID_
   
 The string which identifies the ResourceID of the file. This value must be non-empty with a maximum of 128 characters. 
   
-#### Return values
+##### Return values
 
 |
 |
@@ -74,8 +71,9 @@ The string which identifies the ResourceID of the file. This value must be non-e
 
 GetChanges returns an enumerator of ILSCEvent objects, and also returns a token that is given to the next call to GetChanges, assuming the consumer has processed the previous set of events. Events before the  _nPreviousChangesToken_ specified will be deleted and unavailable. If there are no events to be processed,  _pnCurrentChangesToken_ should be the same value as  _nPreviousChangesToken_, but  _ppiEvents_ will still be set. 
   
-HRESULT ILSCLocalSyncClient::GetChanges ( [in] LONG nPreviousChangesToken, [out] LONG \* pnCurrentChangesToken, [out] IEnumLSCEvent \*\* ppiEvents )
-#### Parameters
+HRESULT ILSCLocalSyncClient::GetChanges ([in] LONG nPreviousChangesToken, [out] LONG \* pnCurrentChangesToken, [out] IEnumLSCEvent \*\* ppiEvents)
+
+##### Parameters
 
  _nPreviousChangesToken_
   
@@ -89,7 +87,7 @@ Identifies the most recent event being handed to the consumer. Must not be null.
   
 An enumerator for the events handed to the consumer. Must not be null. 
   
-#### Return values
+##### Return values
 
 |
 |
@@ -101,12 +99,12 @@ An enumerator for the events handed to the consumer. Must not be null.
 |S_OK  <br/> |The call succeeded.  <br/> |
    
 #### ILSCLocalSyncClient::GetClientNetworkSyncPermission
-<a name="ILSCLocalSyncClient_GetChanges"> </a>
 
 GetClientNetworkSyncPermission is used to query whether Office's synchronizing heuristics for network cost and power usage are overridden. When on a 3G or other high cost network, or when running on battery versus being plugged in, Office may choose to block network traffic until a more opportune time.
   
 HRESULT ILSCLocalSyncClient::GetClientNetworkSyncPermission ( [in] LSCNetworkSyncPermissionType nspType, [out] VARIANT_BOOL \* pfSyncEnabled )
-#### Parameters
+
+##### Parameters
 
  _nspType_
   
@@ -116,7 +114,7 @@ A flag which defines which cost heuristic to query. See [Enum LSCNetworkSyncPerm
   
 Specifies whether the requested cost heuristic is currently overridden or not. Must not be null. 
   
-#### Return values
+##### Return values
 
 |
 |
@@ -128,12 +126,12 @@ Specifies whether the requested cost heuristic is currently overridden or not. M
 |S_OK  <br/> |The call succeeded.  <br/> |
    
 #### ILSCLocalSyncClient::GetFileStatus
-<a name="ILSCLocalSyncClient_GetChanges"> </a>
 
 GetFileStatus is used to gather information for a specific file: whether it exists in the cache, if it has pending communication with the server copy, and if Office 2013 has the most up to date data from the local copy. It requires a bitwise flag of [Enum LSCStatusFlag](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCStatusFlag) values to determine what information the CsiSyncClient COM object is to query for. 
   
 HRESULT ILSCLocalSyncClient::GetFileStatus ( [in] BSTR bstrResourceID, [in] LSCStatusFlag sfRequestedStatus, [out] BSTR \* pbstrFileSystemPath, [out] BSTR \* pbstrETag, [out] LSCStatusFlag \* psfFileStatus )
-#### Parameters
+
+##### Parameters
 
  _bstrResourceID_
   
@@ -155,7 +153,7 @@ A string which will contain the eTag for the file identified by  _bstrResourceID
   
 A flag which will contain the status requested via  _sfRequestedStatus_ for the file identified by  _bstrResourceID_. Must not be null. See [Enum LSCStatusFlag](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCStatusFlag). 
   
-#### Return values
+##### Return values
 
 |
 |
@@ -176,13 +174,14 @@ GetSupportedFileExtensions returns a list of pipe-delimited file extensions whic
 An example of the string returned is as follows: "|docx|docm|pptx|"
   
 HRESULT ILSCLocalSyncClient::GetSupportedFileExtensions ( [out] BSTR \* pbstrSupportedFileExtensions )
-#### Parameters
+
+##### Parameters
 
  _pbstrSupportedFileExtensions_
   
 A string to be set with a pipe-delimited set of file extensions supported by the CsiSyncClient COM object. Must not be null. 
   
-#### Return values
+##### Return values
 
 |
 |
@@ -199,7 +198,8 @@ A string to be set with a pipe-delimited set of file extensions supported by the
 Initialize must be the first method called. Otherwise, all other APIs will return E_LSC_NOTINITIALIZED. Calling Initialize on an already initialized object returns S_OK and does nothing. If E_LSC_CACHEMISMATCH is returned, the caller may call [ILSCLocalSyncClient::ResetCache ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_ResetCache) to delete the cache associated with the given SuppliedID. However, in this case other APIs will still return E_LSC_NOTINITIALIZED. 
   
 HRESULT ILSCLocalSyncClient::Initialize ( [in] BSTR bstrSuppliedID, [in] BSTR bstrProgID, [in] BSTR bstrFileSystemDirectoryHint, [in] IPartnerActivityCallback \* pEventCallback, [out] VARIANT_BOOL \* pfCreatedNewCache )
-#### Parameters
+
+##### Parameters
 
  _bstrSuppliedID_
   
@@ -221,7 +221,7 @@ The callback interface which CsiSyncClient will notify on changes. See IPartnerA
   
 Returns whether a new cache was created. If no cache is associated with the SuppliedID, one will be created. This value must not be null.
   
-#### Return values
+##### Return values
 
 |
 |
@@ -242,7 +242,8 @@ LocalFileChange is used to tell the CsiSyncClient COM object to attempt to uploa
 This method will allow uploads if it was marked as uploads blocked previously (see [ILSCLocalSyncClient::RenameFile ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_RenameFile)).
   
 HRESULT ILSCLocalSyncClient::LocalFileChange ( [in] BSTR bstrFileSystemPath, [in] BSTR bstrWebPath, [in] BSTR bstrResourceID )
-#### Parameters
+
+##### Parameters
 
  _bstrFileSystemPath_
   
@@ -256,7 +257,7 @@ A string which identifies the ResourceID of the file. This value must be non-emp
   
 A string which identifies the file on the server. This value must be non-empty, valid URL, but no longer than INTERNET_MAX_URL_LENGTH, as defined by http://support.microsoft.com/kb/208427. 
   
-#### Return values
+##### Return values
 
 |
 |
@@ -282,7 +283,8 @@ A string which identifies the file on the server. This value must be non-empty, 
 RenameFile will associate a new URL and local path for a given ResourceID. If the file specified by the ResourceID doesn't already exist in the cache, an attempt will be made to create it and mark it for download.
   
 HRESULT ILSCLocalSyncClient::RenameFile ( [in] BSTR bstrResourceID, [in] BSTR bstrNewFileSystemPath, [in] BSTR bstrNewWebPath, [in] VARIANT_BOOL fBlockUploads )
-#### Parameters
+
+##### Parameters
 
  _bstrResourceID_
   
@@ -300,7 +302,7 @@ A string which specifies the new URL for the file. This value must be non-empty 
   
 Specifies whether uploads to the new location are allowed currently. 
   
-#### Return values
+##### Return values
 
 |
 |
@@ -321,11 +323,12 @@ Specifies whether uploads to the new location are allowed currently.
 ResetCache will delete the cache associated with the SuppliedID that was provided on Initialize. This includes all of the file information, but will leave the files on both the client and the server. This method also leaves the object in a partially uninitialized state. The only valid calls after this are [ILSCLocalSyncClient::Initialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) or [ILSCLocalSyncClient::Uninitialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Uninitialize). This method MAY be called if Initialize fails and returns E_LSC_CACHEMISMATCH, and will delete the cache associated with the SuppliedID that was provided with the failing call.
   
 HRESULT ILSCLocalSyncClient::ResetCache( )
-#### Parameters
+
+##### Parameters
 
 None
   
-#### Return values
+##### Return values
 
 |
 |
@@ -343,7 +346,8 @@ ServerFileChange tells the CsiSyncClient COM object to mark the specified file f
 This method will allow downloads if it was marked as downloads blocked previously (see RenameFile).
   
 HRESULT ILSCLocalSyncClient::ServerFileChange ( [in] BSTR bstrFileSystemPath, [in] BSTR bstrWebPath, [in] BSTR bstrResourceID )
-#### Parameters
+
+##### Parameters
 
 |
 |
@@ -353,7 +357,7 @@ HRESULT ILSCLocalSyncClient::ServerFileChange ( [in] BSTR bstrFileSystemPath, [i
 |bstrResourceID  <br/> |A string which identifies the ResourceID of the file. This value must be non-empty with a maximum of 128 characters.  <br/> |
 |bstrWebPath  <br/> |A string which identifies the file on the server. This value must be a non-empty valid URL, but no longer than INTERNET_MAX_URL_LENGTH, as defined by http://support.microsoft.com/kb/208427.  <br/> |
    
-#### Return values
+##### Return values
 
 |
 |
@@ -377,13 +381,14 @@ HRESULT ILSCLocalSyncClient::ServerFileChange ( [in] BSTR bstrFileSystemPath, [i
 Sets the cache into an online or offline state. If offline, Office will not attempt to communicate with the server for any files in that cache, regardless of each individual file's  _fBlockUploads_ setting. 
   
 HRESULT ILSCLocalSyncClient::SetClientConnectivityState ( [in] VARIANT_BOOL fIsOnline )
-#### Parameters
+
+##### Parameters
 
  _fIsOnline_
   
 A boolean determining the connectivity state of the cache. 
   
-#### Return values
+##### Return values
 
 |
 |
@@ -400,7 +405,8 @@ A boolean determining the connectivity state of the cache.
 SetClientNetworkSyncPermission is used to either override or restoreOffice's synchronizing heuristics for network cost and power usage. When on a 3G or other high cost network, or when running on battery versus being plugged in, Office may choose to block network traffic until a more opportune time. The consumer of this API can use it to override Office's heuristics and force synchronizing to occur.
   
 HRESULT ILSCLocalSyncClient::SetClientNetworkSyncPermission ( [in] LSCNetworkSyncPermissionType nspType, [in] VARIANT_BOOL fEnableSync )
-#### Parameters
+
+##### Parameters
 
  _nspType_
   
@@ -410,7 +416,7 @@ A flag which defines which cost heuristic to override. See [Enum LSCNetworkSyncP
   
 Specifies whether to force synchronizing on, thus overriding that cost heuristic, or to no longer override it. 
   
-#### Return values
+##### Return values
 
 |
 |
@@ -426,11 +432,12 @@ Specifies whether to force synchronizing on, thus overriding that cost heuristic
 Unloads the cache from the COM object and perform closing operations. [ILSCLocalSyncClient::Uninitialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Uninitialize) MUST be called before destroying the COM object. Once called, no other APIs can be called, the COM object MUST be destroyed and a new one created if you wish to continue operations. 
   
 HRESULT ILSCLocalSyncClient::Uninitialize ( )
-#### Parameters
+
+##### Parameters
 
 None.
   
-#### Return values
+##### Return values
 
 |
 |
@@ -444,20 +451,21 @@ None.
 
 This interface represents a list of ILSCEvent events.
   
-#### Public Member Functions
+**Public member functions**
 
 #### IEnumLSCEvent::FNext
 
 Retrieves the next event from the list of events.
   
 HRESULT IEnumLSCEvent::FNext ( [out] ILSCEvent \*\* ppiLSCEvent )
-#### Parameters
+
+##### Parameters
 
  _ppiLSCEvent_
   
 A pointer to an ILSCEvent interface.
   
-#### Return values
+##### Return values
 
 |
 |
@@ -471,11 +479,11 @@ A pointer to an ILSCEvent interface.
 Resets the enumerator to the first event.
   
 HRESULT IEnumLSCEvent::Reset ( )
-#### Parameters
+##### Parameters
 
 None.
   
-#### Return values
+##### Return values
 
 Always returns S_OK. 
   
@@ -483,7 +491,7 @@ Always returns S_OK.
 
 This interface represents a synchronizing event. All information about the event can be retrieved from the interface.
   
-#### Public Member Functions
+**Public member functions**
 
 #### ILSCEvent::GetConflictStatus
 
@@ -492,13 +500,13 @@ Note that this value is populated when [ILSCLocalSyncClient::GetChanges ](using-
 This value is only populated when the [Enum LSCEventType](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCEventType) of the event is LSCEventType_OnLocalConflictStateChanged. 
   
 HRESULT ILSCEvent::GetConflictStatus ( [out] VARIANT_BOOL \* pfIsInConflict )
-#### Parameters
+##### Parameters
 
  _pfIsInConflict_
   
 The current conflict status of the file associated with the event.
   
-#### Return values
+##### Return values
 
 Always returns S_OK. 
   
@@ -507,13 +515,13 @@ Always returns S_OK.
 This value is only populated when the [Enum LSCEventType](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCEventType) of the event is LSCEventType_OnServerChangesDownloaded or LSCEventType_OnLocalChangesUploaded. 
   
 HRESULT ILSCEvent::GetError ( [out] LONG \* pnError )
-#### Parameters
+##### Parameters
 
  _pnError_
   
 The error associated with this event.
   
-#### Return values
+##### Return values
 
 Always returns S_OK. 
   
@@ -522,13 +530,13 @@ Always returns S_OK.
 This value is only populated when the [Enum LSCEventType](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCEventType) of the event is LSCEventType_OnServerChangesDownloaded or LSCEventType_OnLocalChangesUploaded. 
   
 HRESULT ILSCEvent::GetETag ( [out] BSTR \* pbstrETag )
-#### Parameters
+##### Parameters
 
  _pbstrETag_
   
 The ETag associated with this event
   
-#### Return values
+##### Return values
 
 Always returns S_OK. 
   
@@ -537,13 +545,13 @@ Always returns S_OK.
 Gets the type for this event.
   
 HRESULT ILSCEvent::GetEventType ( [out] LSCEventType \* pnEventType )
-#### Parameters
+##### Parameters
 
  _pnEventType_
   
 The event type of this event. See [Enum LSCEventType](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCEventType) for valid values. Must not be null. 
   
-#### Return values
+##### Return values
 
 |
 |
@@ -557,13 +565,13 @@ The event type of this event. See [Enum LSCEventType](using-csisyncclient-to-con
 Gets the local working path for this event.
   
 HRESULT ILSCEvent::GetLocalWorkingPath ( [out] BSTR \* pbstrLocalWorkingPath )
-#### Parameters
+##### Parameters
 
  _pbstrLocalWorkingPath_
   
 The local path of the file to which this event pertains. 
   
-#### Return values
+##### Return values
 
 Always returns S_OK. 
   
@@ -572,13 +580,13 @@ Always returns S_OK.
 Gets the resource ID for the event.
   
 HRESULT ILSCEvent::GetResourceID ( [out] BSTR \* pbstrResourceID )
-#### Parameters
+##### Parameters
 
  _pbstrResourceID_
   
 The ResourceID of the file associated with this event.
   
-#### Return values
+##### Return values
 
 Always returns S_OK. 
   
@@ -587,13 +595,13 @@ Always returns S_OK.
 This value is only populated when the [Enum LSCEventType](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCEventType) of the event is LSCEventType_OnFilePathConflict. When a call to [ILSCLocalSyncClient::LocalFileChange ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_LocalFileChange), [ILSCLocalSyncClient::ServerFileChange ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_ServerFileChange), or [ILSCLocalSyncClient::RenameFile ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_RenameFile) would cause a Web Path or Local Path collision with another file in the Office file cache, this event is generated. 
   
 HRESULT ILSCEvent::GetResourceIDAttempted ( [out] BSTR \* pbstrResourceIDAttempted )
-#### Parameters
+##### Parameters
 
  _pbstrResourceIDAttempted_
   
 The ResourceID that caused this event to get generated. Must not be null. 
   
-#### Return values
+##### Return values
 
 Always returns S_OK. 
   
@@ -602,13 +610,13 @@ Always returns S_OK.
 This value is only populated when the [Enum LSCEventType](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCEventType) of the event is LSCEventType_OnServerChangesDownloaded or LSCEventType_OnLocalChangesUploaded. 
   
 HRESULT ILSCEvent::GetSyncErrorType ( [out] LSCEventSyncErrorType \* pnSyncErrorType )
-#### Parameters
+##### Parameters
 
  _pnSyncErrorType_
   
 The error type associated with this event. See [Enum LSCEventType](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCEventType) for potential values. Must not be null. 
   
-#### Return values
+##### Return values
 
 |
 |
@@ -622,13 +630,13 @@ The error type associated with this event. See [Enum LSCEventType](using-csisync
 This value is only populated when the [Enum LSCEventType](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCEventType) of the event is LSCEventType_OnFilePathConflict. 
   
 HRESULT ILSCEvent::GetWebPath ( [out] BSTR \* pbstrWebPath )
-#### Parameters
+##### Parameters
 
  _pbstrWebPath_
   
 Specifies the Web Path associated with this event. Must not be null. 
   
-#### Return values
+##### Return values
 
 Always returns S_OK. 
   
@@ -636,20 +644,20 @@ Always returns S_OK.
 
 This interface holds additional information about a synchronizing event.
   
-#### Public Member Functions
+**Public member functions**
 
 #### ILSCEvent2::GetErrorChain
 
 Gets the error chain information about a synchronizing event.
   
 HRESULT ILSCEvent2::GetErrorChain ( [out] BSTR \* pbstrErrorChain )
-#### Parameters
+##### Parameters
 
  _pbstrErrorChain_
   
 A string to hold the error chain information. Must not be null. 
   
-#### Return values
+##### Return values
 
 |
 |
@@ -664,20 +672,20 @@ A string to hold the error chain information. Must not be null.
 
 This interface provides a callback function to the CSISyncClient COM object.
   
-#### Public Member Functions
+**Public member functions**
 
 #### IPartnerActivityCallback::EventOccurred
 
 This is a callback function on the object given to the CsiSyncClient COM object. It's expected that when an Event occurs (see [Enum LSCEventTypeOccurred](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCEventTypeOccurred) for valid event types), the CsiSyncClient COM object will call this method, signalling the consumer. 
   
 HRESULT IPartnerActivityCallback::EventOccurred ( [in] LSCEventTypeOccurred eEventTypeOccurred )
-#### Parameters
+##### Parameters
 
  _eEventTypeOccurred_
   
 The event type of this event. See [Enum LSCEventTypeOccurred](using-csisyncclient-to-control-the-office-document-cache-odc.md#Enum_LSCEventTypeOccurred) for valid values. 
   
-#### Return values
+##### Return values
 
 Always returns S_OK.
   
