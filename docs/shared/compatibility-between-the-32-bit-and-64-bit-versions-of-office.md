@@ -1,17 +1,13 @@
 ---
-title: "Compatibility Between the 32-bit and 64-bit Versions of Office"
- 
- 
+title: "Compatibility between the 32-bit and 64-bit versions of Office"
 ms.date: 4/27/2016
 ms.audience: ITPro
- 
- 
 localization_priority: Normal
 ms.assetid: ff49dc9e-daf8-43cf-8802-51c2537ed561
 description: "Find out how the 32-bit version of Office is compatible with the 64-bit version of Office."
 ---
 
-# Compatibility Between the 32-bit and 64-bit Versions of Office
+# Compatibility between the 32-bit and 64-bit versions of Office
 
 Find out how the 32-bit version of Office is compatible with the 64-bit version of Office.
   
@@ -56,7 +52,6 @@ With certain exceptions, the macros in a document that work in the 32-bit versio
 Existing 32-bit ActiveX controls, are not compatible with the 64-bit versions of Office. For ActiveX controls and COM objects:
   
 - If you have the source code, generate a 64-bit version yourself.
-    
 - If you don't have the source code, contact the vendor for an updated version.
     
 Native 64-bit processes in Office cannot load 32-bit binaries. This includes the common controls of **MSComCtl** (TabStrip, Toolbar, StatusBar, ProgressBar, TreeView, ListViews, ImageList, Slider, ImageComboBox) and the controls of **MSComCt2** (Animation, UpDown, MonthView, DateTimePicker, FlatScrollBar). These controls were installed by 32-bit versions of Office earlier than Office 2010. You'll need to find an alternative for your existing VBA solutions that use these controls when you migrate the code to the 64-bit versions of Office. 
@@ -67,11 +62,12 @@ Native 64-bit processes in Office cannot load 32-bit binaries. This includes the
 The combination of VBA and type libraries gives you lots of functionality to create Office applications. However, sometimes you must communicate directly with the computer's operating system and other components, such as when you manage memory or processes, when working with UI elements linke windows and controls, or when modifying the Windows registry. In these scenarios, your best option is to use one of the external functions that are embedded in DLL files. You do this in VBA by making API calls using **Declare** statements. 
   
 > [!NOTE]
-> Microsoft provides a Win32API.txt file that contains 1,500 Declare statements and a tool to copy the **Declare** statement that you want into your code. However, these statements are for 32-bit systems and must be converted to 64-bit by using the information discussed later in this article. Existing **Declare** statements won't compile in 64-bit VBA until they've been marked as safe for 64-bit by using the **PtrSafe** attribute. You can find examples of this type of conversion at Excel MVP Jan Karel Pieterse's website at: [http://www.jkp-ads.com/articles/apideclarations.asp](http://www.jkp-ads.com/articles/apideclarations.asp). > The [Office Code Compatibility Inspector user's guide](http://technet.microsoft.com/en-us/library/ee833946%28office.14%29.aspx) is a useful tool to inspect the syntax of API **Declare** statements for the **PtrSafe** attribute, if needed, and the appropriate return type. 
+> Microsoft provides a Win32API.txt file that contains 1,500 Declare statements and a tool to copy the **Declare** statement that you want into your code. However, these statements are for 32-bit systems and must be converted to 64-bit by using the information discussed later in this article. Existing **Declare** statements won't compile in 64-bit VBA until they've been marked as safe for 64-bit by using the **PtrSafe** attribute. You can find examples of this type of conversion at Excel MVP Jan Karel Pieterse's website at [http://www.jkp-ads.com/articles/apideclarations.asp](http://www.jkp-ads.com/articles/apideclarations.asp). 
+> The [Office Code Compatibility Inspector user's guide](http://technet.microsoft.com/en-us/library/ee833946%28office.14%29.aspx) is a useful tool to inspect the syntax of API **Declare** statements for the **PtrSafe** attribute, if needed, and the appropriate return type. 
   
- **Declare** statements resemble one of the following, depending on whether you are calling a subroutine (which has no return value) or a function (which does have a return value). 
+**Declare** statements resemble one of the following, depending on whether you are calling a subroutine (which has no return value) or a function (which does have a return value). 
   
-```
+```vb
 Public/Private Declare Sub SubName Lib "LibName" Alias "AliasName" (argument list)
 Public/Private Declare Function FunctionName Lib "Libname" alias "aliasname" (argument list) As Type
 
@@ -81,13 +77,13 @@ The **SubName** function or **FunctionName** function is replaced by the actual 
   
 The following **Declare** statement opens a  *subkey*  in the Windows registry and replaces its value. 
   
-```
+```vb
 Declare Function RegOpenKeyA Lib "advapi32.dll" (ByVal Key As Long, ByVal SubKey As String, NewKey As Long) As Long
 ```
 
 The Windows.h (window handle) entry for the **RegOpenKeyA** function is as follows: 
   
-```
+```vb
 LONG RegOpenKeyA ( HKEY hKey, LPCSTR lpSubKey, HKEY *phkResult );
 ```
 
@@ -97,7 +93,7 @@ In previous versions of VBA, there was no specific pointer data type so the **Lo
   
 To resolve this, VBA includes a true  *pointer*  data type: **LongPtr**. This new data type enables you to write the original **Declare** statement correctly as: 
   
-```
+```vb
 Declare PtrSafe Function RegOpenKeyA Lib "advapire32.dll" (ByVal hKey as LongPtr, ByVal lpSubKey As String, phkResult As LongPtr) As Long
 ```
 
@@ -105,7 +101,7 @@ This data type and the new **PtrSafe** attribute enable you to use this **Declar
   
 The following table provides more information about the new qualifier and data typeas well as another data type, two conversion operators, and three functions.
   
-|**Type**|**Item**|**Description**|
+|Type|Item|Description|
 |:-----|:-----|:-----|
 |Qualifier  <br/> |**PtrSafe** <br/> |Indicates that the **Declare** statement is compatible with 64-bits. This attribute is mandatory on 64-bit systems.  <br/> |
 |Data Type  <br/> |**LongPtr** <br/> |A variable data type which is a 4-bytes data type on 32-bit versions and an 8-byte data type on 64-bit versions of Microsoft Office. This is the recommended way of declaring a pointer or a handle for new code but also for legacy code if it has to run in the 64-bit version of Office. It is only supported in the VBA 7 runtime on 32-bit and 64-bit. Note that you can assign numeric values to it but not numeric types.  <br/> |
@@ -118,7 +114,7 @@ The following table provides more information about the new qualifier and data t
    
 The follow example shows how to use some of these items in a **Declare** statement. 
   
-```
+```vb
 Declare PtrSafe Function RegOpenKeyA Lib "advapi32.dll" (ByVal Key As LongPtr, ByVal SubKey As String, NewKey As LongPtr) As Long
 ```
 
@@ -126,7 +122,7 @@ Note that **Declare** statements without the **PtrSafe** attribute are assumed n
   
 There are two conditional compilation constants: **VBA7** and **Win64**. To ensure backward compatibility with previous versions of Microsoft Office, you use the **VBA7** constant (this is the more typical case) to prevent 64-bit code from being used in the earlier version of Office. For code that is different between the 32-bit version and the 64-bit version, such as calling a math API that uses **LongLong** for its 64-bit version and **Long** for its 32-bit version, you use the **Win64** constant. The following code shows the use of these two constants. 
   
-```
+```vb
 #if Win64 then
    Declare PtrSafe Function MyMathFunc Lib "User32" (ByVal N As LongLong) As LongLong
 #else
@@ -141,14 +137,14 @@ There are two conditional compilation constants: **VBA7** and **Win64**. To ensu
 
 To summarize, if you write 64-bit code and intend to use it in previous versions of Office, you will want to use the **VBA7** conditional compilation constant. However, if you write 32-bit code in Office, that code works as is in previous versions of Office without the need for the compilation constant. If you want to ensure that you are using 32-bit statements for 32-bit versions and 64-bit statements for 64-bit versions, your best option is to use the **Win64** conditional compilation constant. 
   
-## Using Conditional Compilation Attributes
+## Using conditional compilation attributes
 <a name="odc_office_Compatibility32bit64bit_UsingConditionalCompilationAttributes"> </a>
 
 The following example shows VBA code written for 32-bit that needs to be updated. Notice the data types in the legacy code that are updated to use **LongPtr** because they refer to handles or pointers. 
   
- **VBA code written for 32-bit versions**
+### VBA code written for 32-bit versions
   
-```
+```vb
 Declare Function SHBrowseForFolder Lib "shell32.dll" _
   Alias "SHBrowseForFolderA" (lpBrowseInfo As BROWSEINFO) As Long
   
@@ -164,9 +160,9 @@ Public Type BROWSEINFO
 End Type
 ```
 
- **VBA code rewritten for 64-bit versions**
+### VBA code rewritten for 64-bit versions
   
-```
+```vb
 #if VBA7 then    ' VBA7 
 Declare PtrSafe Function SHBrowseForFolder Lib "shell32.dll" _
   Alias "SHBrowseForFolderA" (lpBrowseInfo As BROWSEINFO) As Long
@@ -205,18 +201,19 @@ Sub TestSHBrowseForFolder ()
 End Sub
 ```
 
-## Frequently Asked Questions
 <a name="odc_office_Compatibility32bit64bit_FrequentlyAskedQuestions"> </a>
 
- **When should I use the 64-bit version of Office?**
+## Frequently asked questions
+
+#### When should I use the 64-bit version of Office?
   
 This is more a matter of which host application (Excel, Word, and so forth) you are using. For example, Excel is able to handle much larger worksheets with the 64-bit version of Microsoft Office.
   
- **Can I install 64-bit and 32-bit versions of Office side-by-side?**
+#### Can I install 64-bit and 32-bit versions of Office side-by-side?
   
 No.
   
- **When should I convert **Long** parameters to **LongPtr**?**
+#### When should I convert Long parameters to LongPtr?
   
 You need to check the Windows API documentation on the Microsoft Developers Network for the function you want to call. Handles and pointers need to be converted to **LongPtr**. As an example, the documentation for [RegOpenKeyA](http://msdn.microsoft.com/library/c8a590f2-3249-437f-a320-c7443d42b792.aspx) provides the following signature: 
   
@@ -232,7 +229,7 @@ LONG WINAPI RegOpenKeyEx(
 
 The parameters are defined as:
   
-|**Parameter**|**Description**|
+|Parameter|Description|
 |:-----|:-----|
 |hKey [in]  <br/> |A  *handle*  to an open registry key.  <br/> |
 |lpSubKey [in, optional]  <br/> |The name of the registry subkey to be opened.  <br/> |
@@ -242,15 +239,15 @@ The parameters are defined as:
    
 In [Win32API_PtrSafe.txt](http://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=035b72a5-eef9-4baf-8dbc-63fbd2dd982b), the **Declare** statement is defined as: 
   
-```
+```vb
 Declare PtrSafe Function RegOpenKeyEx Lib "advapi32.dll" Alias "RegOpenKeyExA" (ByVal hKey As LongPtr , ByVal lpSubKey As String, ByVal ulOptions As Long, ByVal samDesired As Long, phkResult As LongPtr ) As Long
 ```
 
- **Should I convert pointers and handles in structures?**
+#### Should I convert pointers and handles in structures?
   
 Yes. See the **MSG** type in Win32API_PtrSafe.txt: 
   
-```
+```vb
 Type MSG
     hwnd As LongPtr 
     message As Long
@@ -261,7 +258,7 @@ Type MSG
 End TypeF
 ```
 
- **When should I use **strptr**, **varpt**, and **objptr**?**
+#### When should I use strptr, varpt, and objptr?
   
 You should use these functions to retrieve pointers to strings, variables and objects, respectively. On the 64-bit version of Office, these functions will return a 64-bit **LongPtr**, which can be passed to **Declare** statements. The use of these functions has not changed from previous versions of VBA. The only difference is that they now return a **LongPtr**.
   

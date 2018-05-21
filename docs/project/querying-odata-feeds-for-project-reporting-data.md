@@ -249,7 +249,7 @@ Procedure 2 shows how to create LINQ queries in Visual C# by using expressions i
 
 When you run the **TestProjectData** application, the console shows the following output for three sample projects that are published in Project Web App:
 
-```
+```cs
     Using declarative LINQ query syntax:
     Imported from SharePoint :      Start date: 4/2/2012 8:00:00 AM
     Test Proj 1 :   Start date: 4/5/2012 12:00:00 AM
@@ -307,7 +307,7 @@ If the custom field name includes one or more spaces, such as **Project Departme
   
 **Table 1. Custom fields to create for testing**
 
-|**Custom field name**|**Entity**|**Type**|**Roll down to          assignments**|
+|Custom field name|Entity|Type|Roll down to assignments|
 |:-----|:-----|:-----|:-----|
 |Test Proj Text  <br/> |Project  <br/> |Text  <br/> |N/A  <br/> |
 |Test Res Dur  <br/> |Resource  <br/> |Duration  <br/> |Yes  <br/> |
