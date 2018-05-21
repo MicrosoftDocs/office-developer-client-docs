@@ -99,9 +99,9 @@ InfoPath design mode supports such XSD constructs without requiring any modifica
   
 ## Optional Sibling with Same Qualified Name
 
-The following schema fragment shows an optional sibling with same qualified name ( `QName`):
+The following schema fragment shows an optional sibling with same qualified name (`QName`):
   
-```
+```xml
 <xsd:sequence> 
     <xsd:element name="my_element_1" minOccurs="0"/> 
     <xsd:element name="my_element_2"/> 
@@ -110,7 +110,7 @@ The following schema fragment shows an optional sibling with same qualified name
 
 ```
 
- **XPath** expressions for these nodes can be complex because every potential XML instance must be accounted for in the InfoPath form designer. InfoPath does not expose parts of the schema for which it may have difficulty creating correct **XPath** bindings. Warnings appear regarding the portions of the schema that are ignored. 
+**XPath** expressions for these nodes can be complex because every potential XML instance must be accounted for in the InfoPath form designer. InfoPath does not expose parts of the schema for which it may have difficulty creating correct **XPath** bindings. Warnings appear regarding the portions of the schema that are ignored. 
   
 ## XSD Constructs with Special Meaning in InfoPath
 
@@ -525,17 +525,10 @@ By taking advantage of InfoPath support for designing XML form solutions that ar
   
 ## See also
 
-
-
-[W3C XML Schema](http://www.w3.org/XML/Schema)
-  
-[W3C XML Schema Primer](http://www.w3.org/TR/xmlschema-0/)
-  
-[W3C XML Schema Structures Reference](http://www.xml.com/pub/a/2000/11/29/schemas/structuresref.mdl)
-  
-[W3C XML Schema Datatypes Reference](http://www.xml.com/pub/a/2000/11/29/schemas/dataref.mdl)
-  
-[XML Schema Tutorial](http://www.w3schools.com/schema/default.asp)
-  
-[XML Developer Center](http://msdn.microsoft.com/en-us/xml/default.aspx)
+- [W3C XML Schema](http://www.w3.org/XML/Schema)
+- [W3C XML Schema Primer](http://www.w3.org/TR/xmlschema-0/)
+- [W3C XML Schema Structures Reference](http://www.xml.com/pub/a/2000/11/29/schemas/structuresref.mdl)
+- [W3C XML Schema Datatypes Reference](http://www.xml.com/pub/a/2000/11/29/schemas/dataref.mdl)
+- [XML Schema Tutorial](http://www.w3schools.com/schema/default.asp)
+- [XML Developer Center](http://msdn.microsoft.com/en-us/xml/default.aspx)
 

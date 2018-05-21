@@ -32,8 +32,8 @@ In the following walkthrough, you will learn how to write code in the Visual Stu
     
 2. To specify which programming language to use, click the **Office Button**, click **Form Options**, click **Programming** in the **Category** list, and then select either **Visual Basic** or **C#** from the **Form template code language** drop-down list. 
     
-    > [!NOTE]
-    > The other programming language options in the **Form template code language** drop-down list provide compatibility with previous versions of InfoPath. The **C# (InfoPath 2007 Compatible)** and **Visual Basic (InfoPath 2007 Compatible)** options will work with the procedures in this topic. However, to use the **C# (InfoPath 2003 Compatible)** and **Visual Basic (InfoPath 2003 Compatible)** options, see [Walkthrough: Creating and Debugging a Basic Form Template Using the InfoPath 2003 Object Model](walkthrough-creating-and-debugging-a-basic-form-template-using-the-infopath-2003.md). 
+   > [!NOTE]
+   > The other programming language options in the **Form template code language** drop-down list provide compatibility with previous versions of InfoPath. The **C# (InfoPath 2007 Compatible)** and **Visual Basic (InfoPath 2007 Compatible)** options will work with the procedures in this topic. However, to use the **C# (InfoPath 2003 Compatible)** and **Visual Basic (InfoPath 2003 Compatible)** options, see [Walkthrough: Creating and Debugging a Basic Form Template Using the InfoPath 2003 Object Model](walkthrough-creating-and-debugging-a-basic-form-template-using-the-infopath-2003.md). 
   
     You are now ready to add a **Button** control and create its event handler. 
     
@@ -43,63 +43,63 @@ In the following walkthrough, you will learn how to write code in the Visual Stu
     
 2. Double-click the **Button** control, type Hello for the **Label** property on the **Properties** tab of the ribbon, and then click **Custom Code**. When prompted, save the form and name it HelloWorld.
     
-    This will open the **Visual Studio Tools for Applications** environment with the cursor in the event handler for the [Clicked](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ButtonEvent.Clicked.aspx) event of **Button** control. 
+   This will open the **Visual Studio Tools for Applications** environment with the cursor in the event handler for the [Clicked](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ButtonEvent.Clicked.aspx) event of **Button** control. 
     
-    You are now ready to add form code to the event handler for the button. 
+   You are now ready to add form code to the event handler for the button. 
     
 ### Add "Hello World" code to the event handler and preview the form
 
 1. In the event handler skeleton, type:
     
-  ```cs
-  MessageBox.Show("Hello World!");
-  ```
+   ```cs
+   MessageBox.Show("Hello World!");
+   ```
 
-  ```vb
-  MessageBox.Show("Hello World!")
-  ```
+   ```vb
+   MessageBox.Show("Hello World!")
+   ```
 
-    The code for your form template should look similar to the following:
+   The code for your form template should look similar to the following:
     
-  ```cs
-  using Microsoft.Office.InfoPath;
-  using System;
-  using System.Windows.Forms;
-  using System.Xml;
-  using System.Xml.XPath;
-  namespace HelloWorld
-  {
-     public partial class FormCode
-     {
-        public void InternalStartup()
+   ```cs
+    using Microsoft.Office.InfoPath;
+    using System;
+    using System.Windows.Forms;
+    using System.Xml;
+    using System.Xml.XPath;
+    namespace HelloWorld
+    {
+        public partial class FormCode
         {
-           ((ButtonEvent)EventManager.ControlEvents["CTRL1_5"]).Clicked += new ClickedEventHandler(CTRL1_5_Clicked);
+            public void InternalStartup()
+            {
+            ((ButtonEvent)EventManager.ControlEvents["CTRL1_5"]).Clicked += new ClickedEventHandler(CTRL1_5_Clicked);
+            }
+            public void CTRL1_5_Clicked(object sender, ClickedEventArgs e)
+            {
+            MessageBox.Show("Hello World!");
+            }
         }
-        public void CTRL1_5_Clicked(object sender, ClickedEventArgs e)
-        {
-           MessageBox.Show("Hello World!");
-        }
-     }
-  }
-  ```
+    }
+   ```
 
-  ```vb
-  Imports Microsoft.Office.InfoPath
-  Imports System
-  Imports System.Windows.Forms
-  Imports System.Xml
-  Imports System.Xml.XPath
-  Namespace HelloWorld
-     Public Class FormCode
-        Private Sub InternalStartup(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Startup
-           AddHandler DirectCast(EventManager.ControlEvents("CTRL1_5"), ButtonEvent).Clicked, AddressOf CTRL1_5_Clicked
-        End Sub
-        Public Sub CTRL1_5_Clicked(ByVal sender As Object, ByVal e As ClickedEventArgs)
-           MessageBox.Show("Hello World!")
-        End Sub
-     End Class
-  End Namespace
-  ```
+   ```vb
+    Imports Microsoft.Office.InfoPath
+    Imports System
+    Imports System.Windows.Forms
+    Imports System.Xml
+    Imports System.Xml.XPath
+    Namespace HelloWorld
+        Public Class FormCode
+            Private Sub InternalStartup(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Startup
+            AddHandler DirectCast(EventManager.ControlEvents("CTRL1_5"), ButtonEvent).Clicked, AddressOf CTRL1_5_Clicked
+            End Sub
+            Public Sub CTRL1_5_Clicked(ByVal sender As Object, ByVal e As ClickedEventArgs)
+            MessageBox.Show("Hello World!")
+            End Sub
+        End Class
+    End Namespace
+   ```
 
 2. Switch to the InfoPath designer window.
     
@@ -107,9 +107,9 @@ In the following walkthrough, you will learn how to write code in the Visual Stu
     
 4. Click the Hello button on the form. 
     
-    A message box will be displayed with the text "Hello World!"
+   A message box will be displayed with the text "Hello World!"
     
-    The next procedure shows how to add debugging breakpoints to your form code.
+   The next procedure shows how to add debugging breakpoints to your form code.
     
 ### Debug form code
 
@@ -117,15 +117,15 @@ In the following walkthrough, you will learn how to write code in the Visual Stu
     
 2. Click the grey bar to the left of the line:
     
-  ```cs
-  MessageBox.Show("Hello World!");
-  ```
+   ```cs
+   MessageBox.Show("Hello World!");
+   ```
 
-  ```vb
-  MessageBox.Show("Hello World!")
-  ```
+   ```vb
+   MessageBox.Show("Hello World!")
+   ```
 
-    A red circle is displayed and the line of code is highlighted to indicate that the runtime will pause at this breakpoint in your form code.
+   A red circle is displayed and the line of code is highlighted to indicate that the runtime will pause at this breakpoint in your form code.
     
 3. On the **Debug** menu, click **Start Debugging** (or press F5). 
     
@@ -165,32 +165,32 @@ For more information on working with **System.Xml** in managed code form templat
     
 6. On the **Developer** tab, click **Loading Event**.
     
-    This will create an event handler for the [Loading](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Loading.aspx) event, and move the focus to that event handler in the code editor. 
+   This will create an event handler for the [Loading](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Loading.aspx) event, and move the focus to that event handler in the code editor. 
     
 7. In the code editor, type the following:
     
-  ```cs
-  public void FormEvents_Loading(object sender, LoadingEventArgs e)
-  {
-     XPathNavigator dataSource;
-     dataSource = this.MainDataSource.CreateNavigator();
-     dataSource.SelectSingleNode(
-        "/my:myFields/my:employee", NamespaceManager).SetValue(this.User.UserName);
-  }
-  ```
-
-  ```vb
-  Public Sub FormEvents_Loading(ByVal sender As Object, ByVal e As LoadingEventArgs)
-     Dim dataSource As XPathNavigator
-     dataSource = Me.MainDataSource.CreateNavigator
-     dataSource.SelectSingleNode( _
-        "/my:myFields/my:employee", NamespaceManager).SetValue(Me.User.UserName)
-  End Sub
-  ```
+   ```cs
+    public void FormEvents_Loading(object sender, LoadingEventArgs e)
+    {
+        XPathNavigator dataSource;
+        dataSource = this.MainDataSource.CreateNavigator();
+        dataSource.SelectSingleNode(
+            "/my:myFields/my:employee", NamespaceManager).SetValue(this.User.UserName);
+    }
+   ```
+ 
+   ```vb
+    Public Sub FormEvents_Loading(ByVal sender As Object, ByVal e As LoadingEventArgs)
+        Dim dataSource As XPathNavigator
+        dataSource = Me.MainDataSource.CreateNavigator
+        dataSource.SelectSingleNode( _
+            "/my:myFields/my:employee", NamespaceManager).SetValue(Me.User.UserName)
+    End Sub
+   ```
 
 8. Switch to the InfoPath form design window, and then click the **Preview** button on the **Home** tab to preview the form. 
     
-    The employee field should automatically fill in with your user name. 
+   The employee field should automatically fill in with your user name. 
     
 ## Next steps
 
@@ -204,7 +204,5 @@ For more information on working with **System.Xml** in managed code form templat
     
 ## See also
 
-
-
-[XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx)
+- [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx)
 
