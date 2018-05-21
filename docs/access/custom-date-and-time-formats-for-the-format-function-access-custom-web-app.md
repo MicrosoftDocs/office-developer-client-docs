@@ -1,12 +1,8 @@
 ---
-title: "Custom date and time formats for the Format function (Access custom web app)"
-  
-  
+title: "Custom date and time formats for the Format function (Access custom web app)" 
 manager: kelbow
 ms.date: 8/18/2017
 ms.audience: Developer
- 
-  
 localization_priority: Normal
 ms.assetid: f7d15fe6-bdad-4f1f-aa18-12a21fc111c4
 description: "Learn how to control how a date or time is displayed by creating a custom formatting."
@@ -19,7 +15,7 @@ Learn how to control how a date or time is displayed by creating a custom format
 > [!IMPORTANT]
 > Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices. 
   
-## Format Specifications
+## Format specifications
 
 The following table lists characters you can use with the [Format Function (Access custom web app)](format-function-access-custom-web-app.md) function to create custom date and time formats. 
   
@@ -61,10 +57,9 @@ The following table lists characters you can use with the [Format Function (Acce
 
 Formatting strings are case-sensitive. Different formatting can be obtained by using a different case. For example, when formatting a date value with the string "D" you get the date in the long format (according to your current locale). However, if you change the case to "d" you get the date in the short format. Also, unexpected results or an error might occur if the intended formatting does not match the case of any defined format string.
   
-## Additional Resources
+## See also
 
-[Format Function (Access custom web app)](format-function-access-custom-web-app.md)
-  
-[Custom numeric formats for the Format function (Access custom web app)](custom-numeric-formats-for-the-format-function-access-custom-web-app.md)
+- [Format function (Access custom web app)](format-function-access-custom-web-app.md) 
+- [Custom numeric formats for the Format function (Access custom web app)](custom-numeric-formats-for-the-format-function-access-custom-web-app.md)
   
 

@@ -21,7 +21,7 @@ Returns a text value after truncating all trailing blanks.
   
 ## Syntax
 
- **RTrim** (  *TextExpression*  ) 
+ **RTrim** (*TextExpression*) 
   
 The **RTrim** function contains the following argument. 
   

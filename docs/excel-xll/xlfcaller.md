@@ -40,7 +40,7 @@ Returns information about the cell, range of cells, command on a menu, tool on a
 Excel12(xlfCaller, (LPXLOPER12) pxRes,0);
 ```
 
-## Property Value/Return Value
+## Property value/Return value
 
 The return value is one of the following **XLOPER**/ **XLOPER12** data types: **xltypeRef**, **xltypeSRef**, **xltypeNum**, **xltypeStr**, **xltypeErr**, or **xltypeMulti**. Since three of these types point to allocated memory, the return value of **xlfCaller** should always be freed in a call to the [xlFree function](xlfree.md) when it is no longer needed. 
   

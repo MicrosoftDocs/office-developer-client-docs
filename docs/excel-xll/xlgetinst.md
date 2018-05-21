@@ -31,7 +31,7 @@ Excel12(xlGetInst, LPXLOPER12 pxRes, 0); /* returns full handle */
 
 This function has no arguments.
   
-## Property Value/Return Value
+## Property value/Return value
 
 The instance handle ( **xltypeInt**) will be in the **val.w** field. 
   

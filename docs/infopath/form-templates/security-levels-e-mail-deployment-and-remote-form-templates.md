@@ -77,7 +77,7 @@ Forms are granted security levels based on the location from which the form is o
   
 ## Trust Levels
 
-The highest level of trust that can be granted to a form template is determined by the Opened From location and other verification code, as described in the following table. The attributes listed in the table (for example, HTTP, UNC,  *requireFullTrust*  ) are entries that are used to determine the level of trust that can be granted to a form, and apply to forms opened in the InfoPath client. 
+The highest level of trust that can be granted to a form template is determined by the Opened From location and other verification code, as described in the following table. The attributes listed in the table (for example, HTTP, UNC,  *requireFullTrust*) are entries that are used to determine the level of trust that can be granted to a form, and apply to forms opened in the InfoPath client. 
   
 |**Highest Level of Trust Granted**|**Full Trust**|**Client Computer (Sandboxed)**|**Intranet (Sandboxed)**|**Internet (Sandboxed)**|**Restricted**|
 |:-----|:-----|:-----|:-----|:-----|:-----|

@@ -1,14 +1,11 @@
 ---
 title: "Functions in the Framework Library"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: overview
 keywords:
 - framework library functions [excel 2007],functions [Excel 2007], Framework library
- 
 localization_priority: Normal
 ms.assetid: 7d9a13fd-9a4c-423e-bb08-4a5be57c7905
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
@@ -16,7 +13,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # Functions in the Framework Library
 
- **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
+**Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 The Framework Library was created to help make writing XLLs easier. It includes simple functions for managing **XLOPER**/ **XLOPER12** memory, creating temporary **XLOPER**/ **XLOPER12**, robustly calling the Microsoft Excel callback functions ( **Excel4**, **Excel4v**, ** Excel12 **, ** Excel12v **) and printing debugging strings on an attached terminal.
   
@@ -32,7 +29,7 @@ Excel12(xlcDisplay, 0, 2, (LPXLOPER12) &xMissing, (LPXLOPER12) &xBool);
 
 The simplified code looks like the following example.
   
-```
+```cs
 Excel12f(xlcDisplay, 0, 2, TempMissing12(), TempBool12(0));
 ```
 
@@ -69,7 +66,5 @@ To use the Framework library functions, you must include the FRAMEWRK.H file in 
   
 ## See also
 
-
-
-[Excel XLL SDK API Function Reference](excel-xll-sdk-api-function-reference.md)
+- [Excel XLL SDK API Function Reference](excel-xll-sdk-api-function-reference.md)
 

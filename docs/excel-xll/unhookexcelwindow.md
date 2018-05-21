@@ -32,7 +32,7 @@ extern void FAR PASCAL UnhookExcelWindow(HANDLE hWndExcel);
   
 The Excel main Windows handle.
   
-## Property Value/Return Value
+## Property value/Return value
 
 The function does not return a value.
   

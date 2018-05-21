@@ -30,7 +30,7 @@ Excel12(xlGetName, LPXLOPER12 pxRes, 0);
 
 This function has no arguments.
   
-## Property Value/Return Value
+## Property value/Return value
 
 Returns the path and file name ( **xltypeStr**). 
   

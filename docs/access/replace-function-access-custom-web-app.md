@@ -21,7 +21,7 @@ Replaces all occurrences of a specified string value with another string value.
   
 ## Syntax
 
- **Replace** (  *TextExpression*  ,  *Pattern*  ,  *Replacement*  ) 
+ **Replace** (*TextExpression*, *Pattern*, *Replacement*) 
   
 The **Replace** function contains the following arguments. 
   

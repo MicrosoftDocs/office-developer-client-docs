@@ -21,7 +21,7 @@ Returns a value formatted according to a specified pattern.
   
 ## Syntax
 
- **Format** (  *Expression*  ,  *Format*  ) 
+ **Format** (*Expression*, *Format*) 
   
 The **Format** function contains the following arguments. 
   

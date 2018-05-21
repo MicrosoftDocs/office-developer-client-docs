@@ -36,7 +36,7 @@ The name of the range, which should conform to the usual limitations in Microsof
   
 (Optional). The value, set of values, cell, or range of cells that  _pxNameText_ is defined as. If omitted, the name is deleted. 
   
-## Property Value/Return Value
+## Property value/Return value
 
  _pxRes_ ( **xltypeBool** or **xltypeErr**)
   

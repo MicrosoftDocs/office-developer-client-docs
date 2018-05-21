@@ -21,7 +21,7 @@ Returns the exponential value of the specified expression.
   
 ## Syntax
 
- **Exp** (  *NumericExpression*  ) 
+ **Exp** (*NumericExpression*) 
   
 The **Exp** function contains the following argument. 
   

@@ -32,7 +32,7 @@ LPXLOPER12 WINAPI FuncSum(LPXLOPER12 px1, LPXLOPER12 px2, LPXLOPER12 px3,LPXLOPE
   
 Pointers to **XLOPER12** arguments. The function accepts any kind of input type but is coded only to operate on numbers, literal arrays of numbers, and ranges containing only numbers or blank cells. If fewer than 29 arguments are supplied, the remaining arguments are supplied as **xltypeMissing**.
   
-## Property Value/Return Value
+## Property value/Return value
 
 ( **LPXLOPER12 xltypeNum** or **xltypeErr**)
   

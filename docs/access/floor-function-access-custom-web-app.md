@@ -21,7 +21,7 @@ Returns the largest integer less than or equal to the specified numeric expressi
   
 ## Syntax
 
- **Floor** (  *NumericExpression*  ) 
+ **Floor** (*NumericExpression*) 
   
 The **Floor** function contains the following argument. 
   

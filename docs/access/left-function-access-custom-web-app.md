@@ -21,7 +21,7 @@ Returns the left part of a character string with the specified number of charact
   
 ## Syntax
 
- **Left** (  *TextExpression*  ,  *Length*  ) 
+ **Left** (*TextExpression*, *Length*) 
   
 The **Left** function contains the following arguments. 
   

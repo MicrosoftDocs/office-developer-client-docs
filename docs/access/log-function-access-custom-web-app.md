@@ -21,7 +21,7 @@ Returns the natural logarithm, or the logarithm of the given base, of the specif
   
 ## Syntax
 
- **Log** (  *NumericExpression*  , [  *Base*  ]) 
+ **Log** (*NumericExpression*  , [  *Base*  ]) 
   
 The **Log** function contains the following arguments. 
   

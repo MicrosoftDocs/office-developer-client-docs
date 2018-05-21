@@ -33,7 +33,7 @@ Excel12(xlFree, 0, n, LPXLOPER12 px_1, ..., LPXLOPER12 px_n);
   
 One or more **XLOPER**/ **XLOPER12**s to be freed. In Excel versions up to 2003, the maximum number of pointers that can be passed is 30. Starting in Excel 2007, this is increased to 255.
   
-## Property Value/Return Value
+## Property value/Return value
 
 This function does not return a value.
   

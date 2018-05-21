@@ -39,7 +39,7 @@ Starting in Excel 2010, Excel supports the following events:
 |**xleventCalculationEnded** <br/> |Raised when Excel completes a calculation. You can free any resources allocated during the calculation after this event.  <br/> |
 |**xleventCalculationCanceled** <br/> |Raised when the user interrupts the calculation. The XLL should stop any asynchronous activities. The CalculationEnded event is raised immediately following this event.  <br/> |
    
-## Property Value/Return Value
+## Property value/Return value
 
 If successful, returns **TRUE** ( **xltypeBool**). If unsuccessful, returns **FALSE**.
   

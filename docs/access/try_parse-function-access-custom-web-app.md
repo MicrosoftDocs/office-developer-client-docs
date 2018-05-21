@@ -21,7 +21,7 @@ Parses a text value to the specified data type in the culture of the application
   
 ## Syntax
 
- **Try_Parse** (  *TextExpression*  ,  *DataType*  ) 
+ **Try_Parse** (*TextExpression*, *DataType*) 
   
 The **Try_Parse** function contains the following arguments. 
   

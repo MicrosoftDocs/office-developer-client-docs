@@ -1,18 +1,14 @@
 ---
-title: "CharIndex Function (Access custom web app)"
-  
-  
+title: "CharIndex function (Access custom web app)" 
 manager: kelbow
 ms.date: 9/5/2017
-ms.audience: Developer
- 
-  
+ms.audience: Developer 
 localization_priority: Normal
 ms.assetid: 340ed9a8-6f82-4aa8-a951-2c453b3d1ac4
 description: "Searches a text expression for another text expression and returns its starting position if found."
 ---
 
-# CharIndex Function (Access custom web app)
+# CharIndex function (Access custom web app)
 
 Searches a text expression for another text expression and returns its starting position if found.
   
@@ -21,7 +17,7 @@ Searches a text expression for another text expression and returns its starting 
   
 ## Syntax
 
- **CharIndex** (  *TextExpression*  ,  *WithinText*  , [  *Start*  ]) 
+**CharIndex** (*TextExpression*, *WithinText*, [*Start*]) 
   
 |**Argument Name**|**Required**|**Description**|
 |:-----|:-----|:-----|
@@ -33,7 +29,7 @@ Searches a text expression for another text expression and returns its starting 
 
 If either  *TextExpression*  or  *WithinText*  is NULL,  *CharIndex*  returns NULL. 
   
-If  *TextExpression*  is not found within  *WithinText*  ,  *CharIndex*  returns 0. 
+If  *TextExpression*  is not found within  *WithinText*,  *CharIndex*  returns 0. 
   
 The starting position returned is 1-based, not 0-based.
   

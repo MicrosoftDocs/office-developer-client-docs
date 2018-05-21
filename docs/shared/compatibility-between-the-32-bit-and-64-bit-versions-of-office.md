@@ -265,7 +265,7 @@ End TypeF
   
 You should use these functions to retrieve pointers to strings, variables and objects, respectively. On the 64-bit version of Office, these functions will return a 64-bit **LongPtr**, which can be passed to **Declare** statements. The use of these functions has not changed from previous versions of VBA. The only difference is that they now return a **LongPtr**.
   
-## Additional Resources
+## See also
 <a name="odc_office_Compatibility32bit64bit_AdditionalResources"> </a>
 
 - [Anatomy of a Declare Statement](https://msdn.microsoft.com/en-us/library/office/aa671659.aspx)

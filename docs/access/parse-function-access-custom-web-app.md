@@ -21,7 +21,7 @@ Parses a text value and returns its value in a given type using the culture of t
   
 ## Syntax
 
- **Parse** (  *TextExpression*  ,  *DataType*  ) 
+ **Parse** (*TextExpression*, *DataType*) 
   
 The **Parse** function contains the following arguments. 
   

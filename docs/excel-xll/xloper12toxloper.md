@@ -36,7 +36,7 @@ Pointer to the source **XLOPER12** to be converted.
   
 Pointer to the target **XLOPER** to contain the converted value. 
   
-## Property Value/Return Value
+## Property value/Return value
 
  **TRUE** if the conversion succeeded, **FALSE** otherwise. 
   

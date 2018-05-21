@@ -1,18 +1,14 @@
 ---
-title: "Count Function (Access custom web app)"
-  
-  
+title: "Count function (Access custom web app)" 
 manager: kelbow
 ms.date: 9/5/2017
 ms.audience: Developer
- 
-  
 localization_priority: Normal
 ms.assetid: d931535b-428f-4300-93bf-cfe0ebcc2ac9
 description: "Returns the number of records in a query or table."
 ---
 
-# Count Function (Access custom web app)
+# Count function (Access custom web app)
 
 Returns the number of records in a query or table.
   
@@ -21,7 +17,7 @@ Returns the number of records in a query or table.
   
 ## Syntax
 
- **Count** (  *Expression*  ) 
+**Count** (*Expression*) 
   
 The **Count** function contains the following argument. 
   
@@ -33,6 +29,6 @@ The **Count** function contains the following argument.
 
 You can use Count to count the number of records in an underlying query. For example, you could use Count to count the number of orders shipped to a particular country or region.
   
- **Count** (\*) returns the number of items in a group. This includes NULL values and duplicates. 
+**Count** (\*) returns the number of items in a group. This includes NULL values and duplicates. 
   
 

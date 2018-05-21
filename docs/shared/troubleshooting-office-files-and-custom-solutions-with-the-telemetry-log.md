@@ -148,7 +148,7 @@ Use the following table (Table 2) to interpret the records that are displayed in
 
 The Telemetry Log provides large enterprises, individual users, and developers with a simple tool for monitoring their critical Office solutions. By identifying problematic Office solutions before a large-scale upgrade, businesses can more reasonably predict the cost of adopting Office 2013.
   
-## Additional Resources
+## See also
 <a name="OEV_Additional"> </a>
 
 - [Office Developer Center](http://msdn.microsoft.com/en-us/office/aa905340.aspx)

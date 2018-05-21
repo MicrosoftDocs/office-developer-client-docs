@@ -21,7 +21,7 @@ Returns the positive (+1), zero (0), or negative (-1) sign of the specified expr
   
 ## Syntax
 
- **Sign** (  *NumericExpression*  ) 
+ **Sign** (*NumericExpression*) 
   
 The **Sign** function contains the following argument. 
   

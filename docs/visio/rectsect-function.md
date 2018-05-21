@@ -34,7 +34,7 @@ RECTSECT( ** *width* **, ** *height* **, ** *x* **, ** *y* **, ** *option* ** )
    
 ## Remarks
 
-Consider a rectangle that has a  *width*  and a  *height*  , and a point (  *x,y*  ) from the center point of the rectangle. Draw diagonal lines through the corners of the rectangle to divide it into four sectors and a center point. The sectors 0 through 4 represent the center-point, right, top, left, and bottom respectively. 
+Consider a rectangle that has a  *width*  and a  *height*  , and a point (*x,y*) from the center point of the rectangle. Draw diagonal lines through the corners of the rectangle to divide it into four sectors and a center point. The sectors 0 through 4 represent the center-point, right, top, left, and bottom respectively. 
   
 ![](media/ShpSheetRef_CA_03_ZA07645862.gif)
   

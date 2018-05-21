@@ -1,18 +1,15 @@
 ---
-title: "SetReturnVar Macro Action (Access custom web app)"
- 
- 
+title: "SetReturnVar Macro action (Access custom web app)"
 manager: kelbow
 ms.date: 9/5/2017
 ms.audience: Developer
-ms.topic: overview
-  
+ms.topic: overview 
 localization_priority: Normal
 ms.assetid: 57965c84-7a52-4d7c-9c7f-be3d4570576d
 description: "The SetReturnVar action creates a return variable and sets it to a specific value."
 ---
 
-# SetReturnVar Macro Action (Access custom web app)
+# SetReturnVar Macro action (Access custom web app)
 
 The **SetReturnVar** action creates a return variable and sets it to a specific value. 
   
@@ -35,11 +32,9 @@ The **SetReturnVar** action has the following arguments.
 
 The **SetReturnVar** action is used to create a **ReturnVar**, which is variable that can be used by macros that call a data macro by using the **RunDataMacro** action. 
   
-Once a **ReturnVar** is created by the **SetReturnVar** action, the calling macro can use it in an expression. For example, if you created a **ReturnVar** named **UpdateSuccess**, you could use the variable by using the following syntax:
+After a **ReturnVar** is created by the **SetReturnVar** action, the calling macro can use it in an expression. For example, if you created a **ReturnVar** named **UpdateSuccess**, you could use the variable by using the following syntax:
   
-```
-=[ReturnVars]![UpdateSuccess]
-```
+`=[ReturnVars]![UpdateSuccess]`
 
 The **SetReturnVar** action can be used only in named data macros. It is not available in data macros that are attached to a data macro event. 
   

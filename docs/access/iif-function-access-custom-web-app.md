@@ -1,18 +1,15 @@
 ---
-title: "IIf Function (Access custom web app)"
- 
- 
+title: "IIf function (Access custom web app)"
 manager: kelbow
 ms.date: 9/5/2017
 ms.audience: Developer
-ms.topic: reference
-  
+ms.topic: reference 
 localization_priority: Normal
 ms.assetid: 58a24f46-c61d-432a-a957-d831e960795d
 description: "Checks whether a condition is met, and returns one value if TRUE of another on if it is FALSE."
 ---
 
-# IIf Function (Access custom web app)
+# IIf function (Access custom web app)
 
 Checks whether a condition is met, and returns one value if TRUE of another on if it is FALSE.
   
@@ -21,7 +18,7 @@ Checks whether a condition is met, and returns one value if TRUE of another on i
   
 ## Syntax
 
- **IIf** (  *Condition*  ,  *TrueValue*  ,  *FalseValue*  ) 
+**IIf** (*Condition*, *TrueValue*, *FalseValue*) 
   
 The **IIf** function contains the following arguments. 
   
@@ -33,10 +30,8 @@ The **IIf** function contains the following arguments.
    
 ## Example
 
-The following expression can be used to display the full name of a person where the table contains FirstName, MiddleInitial, and LastName fields. If the MiddleInitial field is blank, then only the FirstName and LastName fields are combined to display the full name,
+The following expression can be used to display the full name of a person where the table contains FirstName, MiddleInitial, and LastName fields. If the MiddleInitial field is blank, only the FirstName and LastName fields are combined to display the full name.
   
-```
-IIf([MiddleInitial] Is Null,Concat([FirstName]," ",[LastName]),Concat([FirstName]," ",[MiddleInitial]," ",[LastName]))
-```
+`IIf([MiddleInitial] Is Null,Concat([FirstName]," ",[LastName]),Concat([FirstName]," ",[MiddleInitial]," ",[LastName]))`
 
 

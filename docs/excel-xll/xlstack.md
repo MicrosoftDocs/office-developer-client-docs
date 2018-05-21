@@ -30,7 +30,7 @@ Excel12(xlStack, LPXLOPER12 pxRes, 0);
 
 This function takes no arguments.
   
-## Property Value/Return Value
+## Property value/Return value
 
 Returns the number of bytes ( **xltypeInt**) remaining on the stack.
   

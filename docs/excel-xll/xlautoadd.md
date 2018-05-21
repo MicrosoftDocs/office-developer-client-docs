@@ -34,7 +34,7 @@ int WINAPI xlAutoAdd(void);
 
 This function takes no arguments.
   
-## Property Value/Return Value
+## Property value/Return value
 
 Your implementation of this function should return 1. ( **int**).
   

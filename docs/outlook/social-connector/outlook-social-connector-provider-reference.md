@@ -56,7 +56,7 @@ If you are new to developing solutions for Outlook, see [Selecting an API or tec
     
     Provides reference information for the OSC provider extensibility interfaces and OSC XML schema, and lists possible error codes.
     
-## Additional Resources
+## See also
 
 - [Outlook Social Connector 2013 provider reference copyright notice](outlook-social-connector-2013-provider-reference-copyright-notice.md)
     

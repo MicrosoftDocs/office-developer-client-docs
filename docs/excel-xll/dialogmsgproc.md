@@ -42,7 +42,7 @@ The message to respond to.
   
 Arguments passed by Windows.
   
-## Property Value/Return Value
+## Property value/Return value
 
  **TRUE** if message processed, **FALSE** if not. 
   

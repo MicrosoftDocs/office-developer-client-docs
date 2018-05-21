@@ -1,18 +1,14 @@
 ---
-title: "DateFromParts Function (Access custom web app)"
-  
-  
+title: "DateFromParts function (Access custom web app)" 
 manager: kelbow
 ms.date: 9/5/2017
 ms.audience: Developer
- 
-  
 localization_priority: Normal
 ms.assetid: 4fa49d5f-12ea-4d14-9a03-28418f01746c
 description: "Returns a date value for the specified year, month, and day."
 ---
 
-# DateFromParts Function (Access custom web app)
+# DateFromParts function (Access custom web app)
 
 Returns a date value for the specified year, month, and day.
   
@@ -21,7 +17,7 @@ Returns a date value for the specified year, month, and day.
   
 ## Syntax
 
- **DateFromParts** (  *Year*  ,  *Month*  ,  *Day*  ) 
+**DateFromParts** (*Year*, *Month*, *Day*) 
   
 The **DateFromParts** function contains the following arguments. 
   
@@ -33,14 +29,13 @@ The **DateFromParts** function contains the following arguments.
    
 ## Remarks
 
- **DateFromParts** returns a date value with the date portion set to the specified year, month and day, and the time portion set to the default. If the arguments are not valid, then an error is raised. If required arguments are null, then NULL is returned. 
+**DateFromParts** returns a date value with the date portion set to the specified year, month and day, and the time portion set to the default. If the arguments are not valid, then an error is raised. If required arguments are null, then NULL is returned. 
   
 ## Example
 
 The following expression uses the **DateFromParts** function to calculate the first day of the current month. 
   
-```
-DateFromParts(Year(Today()),Month(Today()),1)
-```
+`DateFromParts(Year(Today()),Month(Today()),1)`
+
 
 

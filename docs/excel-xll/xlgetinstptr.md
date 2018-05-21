@@ -26,7 +26,7 @@ Excel4(xlGetInstPtr, LPXLOPER pxRes, 0);Excel12(xlGetInstPtr, LPXLOPER12 pxRes, 
 
 This function has no arguments.
   
-## Property Value/Return Value
+## Property value/Return value
 
 The instance handle ( **xltypeBigData**) will be in the **val.bigdata.h.hdata** field. 
   

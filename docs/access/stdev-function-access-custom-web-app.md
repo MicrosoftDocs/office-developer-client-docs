@@ -21,7 +21,7 @@ Returns the statistical standard deviation of all values in the specified expres
   
 ## Syntax
 
- **StDev** (  *NumericExpression*  ) 
+ **StDev** (*NumericExpression*) 
   
 The **StDev** function contains the following argument. 
   

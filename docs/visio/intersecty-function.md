@@ -39,7 +39,7 @@ Number
   
 ## Remarks
 
-Each line is defined as a point (  *x,y*  ) and an angle. 
+Each line is defined as a point (*x,y*) and an angle. 
   
 Microsoft Visio uses this function in the PinY cell of a shape glued to a rotated guide. 
   

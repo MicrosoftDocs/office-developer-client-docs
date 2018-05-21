@@ -21,7 +21,7 @@ Repeats a text value a specified number of times.
   
 ## Syntax
 
- **Replicate** (  *TextExpression*  ,  *NumberOfTimes*  ) 
+ **Replicate** (*TextExpression*, *NumberOfTimes*) 
   
 The **Replicate** function contains the following arguments. 
   

@@ -21,7 +21,7 @@ Returns a character expression after converting uppercase character data to lowe
   
 ## Syntax
 
- **Lower** (  *TextExpression*  ) 
+ **Lower** (*TextExpression*) 
   
 The **Lower** function contains the following argument. 
   

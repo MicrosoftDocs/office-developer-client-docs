@@ -69,7 +69,7 @@ typedef struct _GUID
     
 Message store and address book providers generate a **GUID** structure to use in their **MAPIUID** structure. By passing the resulting **MAPIUID** to [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md), these service providers inform MAPI of their unique identifier.
   
-Also, they are used in the implementation of Microsoft Remote Procedure Call (RPC) and the Object Description Language (ODL). For more information about these uses, see the  *Microsoft RPC Programmer's Guide and Reference*  ,  *OLE Programmer's Reference*  ,and  *Inside OLE*  ,  *Second Edition*  . 
+Also, they are used in the implementation of Microsoft Remote Procedure Call (RPC) and the Object Description Language (ODL). For more information about these uses, see the  *Microsoft RPC Programmer's Guide and Reference*, *OLE Programmer's Reference*  ,and  *Inside OLE*, *Second Edition*  . 
   
 The **GUID** structure is defined in the  *Win32 Programmer's Reference*  . Specific values for **GUID** structures that are used within MAPI are defined in the MAPI header file Mapiguid.h. 
   

@@ -20,7 +20,7 @@ Returns the absolute value of a number.
   
 ## Syntax
 
-ABS( *number*  ) 
+ABS( *number*) 
   
 ### Parameters
 

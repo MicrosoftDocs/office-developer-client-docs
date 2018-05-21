@@ -42,7 +42,7 @@ The message to respond to.
   
 Arguments passed by Windows.
   
-## Property Value/Return Value
+## Property value/Return value
 
 LRESULT: 0 if the message was handled, otherwise the result returned by the default **WndProc**.
   

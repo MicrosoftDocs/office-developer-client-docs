@@ -26,7 +26,7 @@ The **Scratch** section is typically used to isolate repeated complex calculatio
   
 Cells in the **Scratch** section use units in two different ways. X and Y cells use drawing units; A through D cells don't use units. (In C programmers' jargon, X and Y cells are "typed," and cells A through D are "void.") The **Scratch X** and **Scratch Y** cells are often used for deriving  *x-*  and  *y-*  coordinates, such as **PinX** and **PinY**, or the X and Y cells found in a **Geometry** section cell. Scratch cells A through D can display whatever units you specify. 
   
-A further difference is the way these cells store point values. A point in Visio is a single data package for an ( *x,y*  ) coordinate. When a formula returns a point value, that value is interpreted in one of three ways, depending on the ShapeSheet cell the formula is in. Cells that relate to  *x*  -coordinates (for example, **PinX**, or cells in the X column of a **Geometry** section) extract just the  *x*  -coordinate part of a point value. Cells that relate to  *y*  -coordinates extract just the  *y*  -coordinate part of a point value. 
+A further difference is the way these cells store point values. A point in Visio is a single data package for an ( *x,y*) coordinate. When a formula returns a point value, that value is interpreted in one of three ways, depending on the ShapeSheet cell the formula is in. Cells that relate to  *x*  -coordinates (for example, **PinX**, or cells in the X column of a **Geometry** section) extract just the  *x*  -coordinate part of a point value. Cells that relate to  *y*  -coordinates extract just the  *y*  -coordinate part of a point value. 
   
 For example, Visio extracts the formula  `PNT(3,4)` in these three ways. 
   

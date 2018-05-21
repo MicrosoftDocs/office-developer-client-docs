@@ -21,7 +21,7 @@ Returns the absolute (positive) value of the specified numeric expression.
   
 ## Syntax
 
- **Abs** (  *NumericExpression*  ) 
+ **Abs** (*NumericExpression*) 
   
 The **Abs** function contains the following argument. 
   

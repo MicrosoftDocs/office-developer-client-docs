@@ -40,7 +40,7 @@ Excel12(xlfUnregister, LPXLOPER12 pxRes, 1, LPXLOPER12 pxModuleText);
   
 The name of the DLL.
   
-## Property Value/Return Value
+## Property value/Return value
 
 If successful, returns **TRUE** ( **xltypeBool**). If unsuccessful, returns **FALSE**.
   

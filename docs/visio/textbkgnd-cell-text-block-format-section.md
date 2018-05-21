@@ -20,9 +20,9 @@ Determines the text background color for a shape.
   
 ## Remarks
 
-The TextBkgnd cell can have any value from 0 through 24, or 255. The values 0 and 255 ( *visTxtBlklOpaque*  ) both indicate a transparent text background. 
+The TextBkgnd cell can have any value from 0 through 24, or 255. The values 0 and 255 ( *visTxtBlklOpaque*) both indicate a transparent text background. 
   
-To enter a custom color, use the RGB or HSL function plus one—for example, RGB(255,127,255)+1. The value of a custom color is its RGB color, and RGB( *r, g, b*  )+1, rather than a number, will be shown in the ShapeSheet window. When used in numeric operations, custom colors have values of 25 and above. 
+To enter a custom color, use the RGB or HSL function plus one—for example, RGB(255,127,255)+1. The value of a custom color is its RGB color, and RGB( *r, g, b*)+1, rather than a number, will be shown in the ShapeSheet window. When used in numeric operations, custom colors have values of 25 and above. 
   
 You can set the transparency of the text background color in the TextBkgndTrans cell.
   

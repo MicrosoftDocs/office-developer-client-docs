@@ -42,7 +42,7 @@ Excel4(xlfUnregister, LPXLOPER pxRes, 1, LPXLOPER pxRegisterId);
   
 The registration ID of the function to be unregistered.
   
-## Property Value/Return Value
+## Property value/Return value
 
 If successful, returns **TRUE** ( **xltypeBool**), otherwise it returns FALSE.
   

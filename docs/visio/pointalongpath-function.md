@@ -45,6 +45,6 @@ Positive  *offset*  values specify points to the left of the direction of travel
   
 Negative  *offset*  values specify points to the right of the direction of travel. 
   
-A **Point** represents an ordered pair of geometric coordinates (  *x,y*  ) as a single value. 
+A **Point** represents an ordered pair of geometric coordinates (*x,y*) as a single value. 
   
 

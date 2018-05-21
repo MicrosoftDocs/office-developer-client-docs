@@ -1,18 +1,14 @@
 ---
-title: "DatePart Function (Access custom web app)"
-  
-  
+title: "DatePart function (Access custom web app)" 
 manager: kelbow
 ms.date: 9/5/2017
-ms.audience: Developer
- 
-  
+ms.audience: Developer 
 localization_priority: Normal
 ms.assetid: 8936f0b6-f9b2-44ef-bf90-e482b64611cd
 description: "Returns a numeric value that represents the specified date part of the specified date."
 ---
 
-# DatePart Function (Access custom web app)
+# DatePart function (Access custom web app)
 
 Returns a numeric value that represents the specified date part of the specified date.
   
@@ -21,7 +17,7 @@ Returns a numeric value that represents the specified date part of the specified
   
 ## Syntax
 
- **DatePart** (  *DatePart*  ,  *Date*  ) 
+**DatePart** (*DatePart*, *Date*) 
   
 The **DatePart** function contains the following arguments. 
   

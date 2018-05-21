@@ -41,7 +41,7 @@ void WINAPI xlAutoFree12(LPXLOPER12 pxFree);
   
 A pointer to the **XLOPER** or the **XLOPER12** that has memory that needs to be freed. 
   
-## Property Value/Return Value
+## Property value/Return value
 
 This function does not return a value and should be declared as returning void.
   

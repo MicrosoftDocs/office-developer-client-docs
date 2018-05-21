@@ -75,7 +75,7 @@ HRESULT IOlkAccountManager::EnumerateAccounts (
 
 Specifying NULL for category returns an enumerator of all accounts of the specified type. Similarly, specifying NULL for type returns an enumerator of all accounts of the specified category.
   
- **IOlkAccountManager::EnumerateAccounts** does not support the address book category for an Exchange account. If the account is an Exchange account (  *pclsidType*  is **CLSID_OlkMAPIAccount** ), and you are trying to enumerate accounts that implement the address book (  *prgclsidCategory*  is **CLSID_OlkAddressBook** ), calling **IOlkAccountManager::EnumerateAccounts** will not return the Exchange account in the accounts enumerator  *ppEnum*  . 
+ **IOlkAccountManager::EnumerateAccounts** does not support the address book category for an Exchange account. If the account is an Exchange account (*pclsidType*  is **CLSID_OlkMAPIAccount** ), and you are trying to enumerate accounts that implement the address book (*prgclsidCategory*  is **CLSID_OlkAddressBook** ), calling **IOlkAccountManager::EnumerateAccounts** will not return the Exchange account in the accounts enumerator  *ppEnum*  . 
   
 ## See also
 

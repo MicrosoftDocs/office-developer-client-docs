@@ -21,7 +21,7 @@ Returns the sum of all the values in the expression.
   
 ## Syntax
 
- **Sum** (  *NumericExpression*  ) 
+ **Sum** (*NumericExpression*) 
   
 The **Sum** function contains the following argument. 
   

@@ -31,7 +31,7 @@ int WINAPI fDialog(void);
 
 The function takes no parameters.
   
-## Property Value/Return Value
+## Property value/Return value
 
 The function always returns 1.
   

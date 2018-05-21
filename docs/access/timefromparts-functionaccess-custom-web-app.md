@@ -21,7 +21,7 @@ Returns a time value based on specified parts.
   
 ## Syntax
 
- **TimeFromParts** (  *Hour*  ,  *Minute*  ,  *Second*  ) 
+ **TimeFromParts** (*Hour*, *Minute*, *Second*) 
   
 The **TimeFromParts** function contains the following arguments. 
   

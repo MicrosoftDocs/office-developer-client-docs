@@ -32,7 +32,7 @@ LPXLOPER12 WINAPI FuncFib (LPXLOPER12 pxN);
   
 The value of N for which the Nth Fibonacci number is required.
   
-## Property Value/Return Value
+## Property value/Return value
 
 ( **xltypeNum LPXLOPER12** if successful or **xltypeErr** otherwise) 
   

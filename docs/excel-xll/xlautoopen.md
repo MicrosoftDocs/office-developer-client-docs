@@ -30,7 +30,7 @@ int WINAPI xlAutoOpen(void);
 
 This function takes no arguments.
   
-## Property Value/Return Value
+## Property value/Return value
 
 Your implementation of this function must return 1 ( **int**).
   

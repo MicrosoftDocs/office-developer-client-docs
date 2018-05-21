@@ -36,7 +36,7 @@ If you are passing an external reference ( **xltypeRef**) it need only contain t
   
 If you are passing an internal reference ( **xltypeSef**), **xlSheetNm** returns the name of the current sheet. 
   
-## Property Value/Return Value
+## Property value/Return value
 
 Returns the name of the sheet ( **xltypeStr**) in the form  `[Book1]Sheet1`.
   

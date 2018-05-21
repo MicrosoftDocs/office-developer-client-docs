@@ -1,12 +1,8 @@
 ---
-title: "CreateRecord Data Block (Access custom web app)"
-  
-  
+title: "CreateRecord Data Block (Access custom web app)" 
 manager: kelbow
 ms.date: 9/5/2017
-ms.audience: Developer
- 
-  
+ms.audience: Developer 
 localization_priority: Normal
 ms.assetid: 9dd73bae-a8d5-4d8b-b356-01ac72f7e5d9
 description: "You can use the CreateRecord data block to create a new record in the specified table."
@@ -56,8 +52,6 @@ To cancel the creation of a record, use the **CancelRecordChange** action. This 
   
 Once the new record is committed, you can use the **LastCreateRecordIdentity** local variable to work with the record. For example, use the following syntax to refer to the AssignedTo field of the most recently created record. 
   
-```
-[LastCreateRecordIdentity].[AssignedTo]
-```
+`[LastCreateRecordIdentity].[AssignedTo]`
 
 

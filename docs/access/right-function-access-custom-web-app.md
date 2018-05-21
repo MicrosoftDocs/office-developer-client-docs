@@ -21,7 +21,7 @@ Returns the right part of a character string with the specified number of charac
   
 ## Syntax
 
- **Right** (  *TextExpression*  ,  *Length*  ) 
+ **Right** (*TextExpression*, *Length*) 
   
 The **Right** function contains the following arguments. 
   

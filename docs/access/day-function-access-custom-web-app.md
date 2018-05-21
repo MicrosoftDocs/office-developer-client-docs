@@ -1,18 +1,14 @@
 ---
-title: "Day Function (Access custom web app)"
-  
-  
+title: "Day function (Access custom web app)" 
 manager: kelbow
 ms.date: 9/5/2017
-ms.audience: Developer
- 
-  
+ms.audience: Developer 
 localization_priority: Normal
 ms.assetid: 8e0a77e4-0653-4a85-b507-13440aef195b
 description: "Returns an integer representing the day (day of the month) of the specified date in the Gregorian calendar."
 ---
 
-# Day Function (Access custom web app)
+# Day function (Access custom web app)
 
 Returns an integer representing the day (day of the month) of the specified date in the Gregorian calendar.
   
@@ -21,7 +17,7 @@ Returns an integer representing the day (day of the month) of the specified date
   
 ## Syntax
 
- **Day** (  *Date*  ) 
+**Day** (*Date*) 
   
 The **Day** function contains the following argument. 
   
@@ -31,6 +27,6 @@ The **Day** function contains the following argument.
    
 ## Remarks
 
- **Day** returns the same value as **Datepart** (day, date). 
+**Day** returns the same value as **Datepart** (day, date). 
   
 

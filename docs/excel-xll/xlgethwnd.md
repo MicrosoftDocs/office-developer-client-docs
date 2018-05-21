@@ -31,7 +31,7 @@ Excel12(xlGetHwnd, LPXLOPER12 pxRes, 0); /* returns full handle */
 
 This function has no arguments.
   
-## Property Value/Return Value
+## Property value/Return value
 
 Contains the window handle ( **xltypeInt**) in the **val.w** field. 
   

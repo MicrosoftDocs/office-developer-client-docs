@@ -21,7 +21,7 @@ Returns the value of the specified expression to the specified power.
   
 ## Syntax
 
- **Power** (  *NumericExpression*  ,  *Power*  ) 
+ **Power** (*NumericExpression*, *Power*) 
   
 The **Power** function contains the following arguments. 
   

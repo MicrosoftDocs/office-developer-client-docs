@@ -1,12 +1,8 @@
 ---
 title: "Custom numeric formats for the Format function (Access custom web app)"
-  
-  
 manager: kelbow
 ms.date: 8/18/2017
-ms.audience: Developer
- 
-  
+ms.audience: Developer 
 localization_priority: Normal
 ms.assetid: 97efe972-d873-47d7-be81-8ae3461870c4
 description: "Learn how to control how a number is displayed by creating a user-defined number format."
@@ -18,12 +14,10 @@ Learn how to control how a number is displayed by creating a user-defined number
   
 > [!IMPORTANT]
 > Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices. 
-  
-## Introduction
 
 You can change the way a number is displayed by creating a user-defined number format. A user-defined number format can have from one to three sections separated by a semicolon (;). If the Style argument of the [Format Function (Access custom web app)](format-function-access-custom-web-app.md) function contains one of the predefined numeric formats, only one section is allowed. 
   
-## Format Specifications
+## Format specifications
 <a name="bk_addresources"> </a>
 
 The following table lists characters you can use to create user-defined number formats.
@@ -64,11 +58,9 @@ The following table contains some sample format expressions for numbers. (These 
 
 If you include semicolons with nothing between them, the missing section is displayed by using the format of the positive value.
   
-## Additional Resources
-<a name="bk_addresources"> </a>
+## See also
 
-[Format Function (Access custom web app)](format-function-access-custom-web-app.md)
-  
-[Custom date and time formats for the Format function (Access custom web app)](custom-date-and-time-formats-for-the-format-function-access-custom-web-app.md)
+- [Format Function (Access custom web app)](format-function-access-custom-web-app.md) 
+- [Custom date and time formats for the Format function (Access custom web app)](custom-date-and-time-formats-for-the-format-function-access-custom-web-app.md)
   
 

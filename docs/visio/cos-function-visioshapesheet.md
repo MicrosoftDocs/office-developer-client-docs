@@ -20,7 +20,7 @@ Returns the cosine of an angle.
   
 ## Syntax
 
-COS( *angle*  ) 
+COS( *angle*) 
   
 ### Parameters
 

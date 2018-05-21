@@ -36,7 +36,7 @@ Pointer to the source reference structure.
   
 Pointer to the target reference structure into which the converted value is to be placed.
   
-## Property Value/Return Value
+## Property value/Return value
 
  **TRUE** if the conversion succeeded, **FALSE** otherwise. 
   

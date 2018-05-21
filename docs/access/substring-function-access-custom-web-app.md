@@ -21,7 +21,7 @@ Returns part of a text expression.
   
 ## Syntax
 
- **SubString** (  *TextExpression*  ,  *Start*  ,  *Length*  ) 
+ **SubString** (*TextExpression*, *Start*, *Length*) 
   
 The **SubString** function contains the following arguments. 
   

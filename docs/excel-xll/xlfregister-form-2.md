@@ -40,7 +40,7 @@ Excel12(xlfRegister, LPXLOPER12 pxRes, 1, LPXLOPER12 pxModuleText);
   
 The name of the DLL to be loaded and activated.
   
-## Property Value/Return Value
+## Property value/Return value
 
 If successful, this returns the name of the DLL ( **xltypeStr**). Otherwise it returns a #VALUE! error.
   

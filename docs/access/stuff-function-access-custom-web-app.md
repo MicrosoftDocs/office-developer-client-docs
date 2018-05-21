@@ -21,7 +21,7 @@ Inserts a text string into another text string. It deletes a specified length of
   
 ## Syntax
 
- **Stuff** (  *IntoTextExpression*  ,  *Start*  ,  *Length*  ,  *ThisTextExpression*  ) 
+ **Stuff** (*IntoTextExpression*, *Start*, *Length*, *ThisTextExpression*) 
   
 The **Stuff** function contains the following arguments. 
   
