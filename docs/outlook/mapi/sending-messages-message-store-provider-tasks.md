@@ -20,7 +20,7 @@ The message store provider determines whether or not to involve the MAPI spooler
   
 The following procedure describes the tasks required of a message store provider for sending a message. 
   
-## In IMessage::SubmitMessage, the message store provider**
+**In IMessage::SubmitMessage, the message store provider**:
   
 1. Calls [IMAPISupport::PrepareSubmit](imapisupport-preparesubmit.md) if the message has the MSGFLAG_RESEND flag set in its **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property and returns any errors to the client. **PrepareSubmit** checks the **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) property of each recipient in the message's recipient list.
     
@@ -50,26 +50,30 @@ The following procedure describes the tasks required of a message store provider
      - Locks the message by calling IMsgStore::SetLockState. 
      - Performs the needed preprocessing by calling all of the preprocessing functions in the order of registration. Transport providers call IMAPISupport::RegisterPreprocessor to register preprocessing functions. 
      - Calls IMessage::SubmitMessage on the open message to indicate to the message store that preprocessing is complete.
-   
-The following two steps will occur in the client process if there was no preprocessing, and when the MAPI spooler calls **SubmitMessage** if there was preprocessing. 
-  
+
+<br/>
+
+The following two steps occur in the client process if there was no preprocessing, and when the MAPI spooler calls **SubmitMessage** if there was preprocessing. 
+
+**The message store provider**:
+
 1. Performs the following tasks if the message store is tightly coupled to a transport and the NEEDS_SPOOLER flag was returned from [IMAPISupport::ExpandRecips](imapisupport-expandrecips.md):
     
-  - Handles any recipients that it can handle.
-  - Sets the **PR_RESPONSIBILITY** property to TRUE for any recipients that it handles. 
-  - Performs the following tasks if all recipients are known to this tightly coupled store and transport:
-    - Calls IMAPISupport::CompleteMsg if the message was preprocessed or the message store provider wants the MAPI spooler to complete message processing which is recommended so that messaging hooks can be invoked. Message flow continues with the MAPI spooler as described in the following procedure.  
-    - Performs the following tasks if the message was not preprocessed or the message store provider does not want the MAPI spooler to complete message processing:
-      - Copies the message to the folder identified by the entry identifier in the PR_SENTMAIL_ENTRYID (PidTagSentMailEntryId) property, if set.
-      - Deletes the message if the PR_DELETE_AFTER_SUBMIT (PidTagDeleteAfterSubmit) property has been set to TRUE.
-      - Unlocks the message if it is locked.
-      - Returns to the client. Message flow is complete.  |
+   - Handles any recipients that it can handle.
+   - Sets the **PR_RESPONSIBILITY** property to TRUE for any recipients that it handles. 
+   - Performs the following tasks if all recipients are known to this tightly coupled store and transport:
+     - Calls IMAPISupport::CompleteMsg if the message was preprocessed or the message store provider wants the MAPI spooler to complete message processing which is recommended so that messaging hooks can be invoked. Message flow continues with the MAPI spooler as described in the following procedure.  
+     - Performs the following tasks if the message was not preprocessed or the message store provider does not want the MAPI spooler to complete message processing:
+       - Copies the message to the folder identified by the entry identifier in the PR_SENTMAIL_ENTRYID (PidTagSentMailEntryId) property, if set.
+       - Deletes the message if the PR_DELETE_AFTER_SUBMIT (PidTagDeleteAfterSubmit) property has been set to TRUE.
+       - Unlocks the message if it is locked.
+       - Returns to the client. Message flow is complete.  |
    
 2. Performs the following tasks if the message store is not tightly coupled to a transport, not all of the recipients were known to the message store, or the NEEDS_SPOOLER flag is set:
     
-  - Puts the message in the outgoing queue without setting the SUBMITFLAG_PREPROCESS bit in the **PR_SUBMIT_FLAGS** property. 
-  - Notifies the MAPI spooler that the outgoing queue has changed by generating a table notification. 
-  - Returns to the client, and message flow continues with a set of tasks performed by the MAPI spooler.
+   - Puts the message in the outgoing queue without setting the SUBMITFLAG_PREPROCESS bit in the **PR_SUBMIT_FLAGS** property. 
+   - Notifies the MAPI spooler that the outgoing queue has changed by generating a table notification. 
+   - Returns to the client, and message flow continues with a set of tasks performed by the MAPI spooler.
     
 When a message is to be handled by the MAPI spooler, the message store provider sets the message's **PR_SUBMIT_FLAGS** property to SUBMITFLAG_LOCKED. The SUBMITFLAG_LOCKED flag indicates that the MAPI spooler has locked the message for its exclusive use. The other value for **PR_SUBMIT_FLAGS,** SUBMITFLAG_PREPROCESS, is set when the message requires preprocessing by one or more preprocessor functions registered by a transport provider. 
   
