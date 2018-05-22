@@ -81,7 +81,7 @@ Do not try to open one attachment multiple times; the results are undefined and 
   
 You can request that the attachment be opened in read/write mode, instead of the default read-only mode. However, whether the attachment will actually be opened in read/write mode is up to the message store provider. You can either attempt to modify the attachment, preparing to handle possible failure, or check the level of access that was granted by retrieving the attachment's **PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)) property, if it is available. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

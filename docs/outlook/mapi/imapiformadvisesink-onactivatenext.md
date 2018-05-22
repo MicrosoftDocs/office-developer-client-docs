@@ -81,7 +81,7 @@ The form viewer will load the message by using the [IPersistMessage::Load](ipers
   
 If neither the form nor a form that you can create can handle the next message, return S_FALSE. However, in general, forms should not return this value because it causes decreased performance in the form viewer.
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

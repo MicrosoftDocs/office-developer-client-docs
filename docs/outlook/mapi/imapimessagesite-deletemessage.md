@@ -77,7 +77,7 @@ To obtain the **RECT** structure used by a form's window, call the Windows [GetW
   
 For a list of interfaces related to form servers, see [MAPI Form Interfaces](mapi-form-interfaces.md).
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

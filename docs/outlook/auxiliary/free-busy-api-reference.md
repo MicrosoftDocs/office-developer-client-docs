@@ -16,7 +16,7 @@ description: "This section provides reference content for the Free/Busy API, whi
 
 This section provides reference content for the Free/Busy API, which allows mail providers to provide free/busy status information for specified user accounts within a specified time range.
   
-## In This Section
+## In this section
 
 - [Constants](constants-free-busy-api.md)
     

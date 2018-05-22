@@ -24,7 +24,7 @@ The return values mentioned in reference topics in this section are defined in t
 
 Excel calls entry points in a cluster connector to transfer user-defined function calls to a high-performance compute cluster, and for cluster session management.
   
-## In This Section
+## In this section
 
 [CallUDF](calludf.md)
   

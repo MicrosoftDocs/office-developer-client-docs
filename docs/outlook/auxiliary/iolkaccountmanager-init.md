@@ -44,7 +44,7 @@ HRESULT IOlkAccountManager::Init (
     
     - **OLK_ACCOUNT_NO_FLAGS** —Synchronizes MAPI services with accounts. 
     
-## Return Values
+## Return values
 
 |**HRESULT**|**Description**|
 |:-----|:-----|

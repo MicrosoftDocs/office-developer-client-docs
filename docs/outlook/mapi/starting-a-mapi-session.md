@@ -30,7 +30,7 @@ Although there is a significant amount of work performed during session start up
     
 4. Call **MAPILogonEx** with a valid profile to log on to the MAPI subsystem. **MAPILogonEx** verifies the configuration of each of the service providers in the message services included in the profile, prompting the user for additional information if necessary and possible. When **MAPILogonEx** completes, the configured service providers are ready for service. 
     
-## In This Section
+## In this section
 
 [Initializing MAPI](initializing-mapi.md)
   

@@ -89,7 +89,7 @@ Transport providers, message store providers, and gateways call the **ITnef::Add
   
 Note that no actual TNEF encoding happens for **AddProps** until the [ITnef::Finish](itnef-finish.md) method is called. This functionality means that pointers passed into **AddProps** must remain valid until after the call to **Finish** is made. At that point, all objects and data passed in with **AddProps** calls can be released or freed. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

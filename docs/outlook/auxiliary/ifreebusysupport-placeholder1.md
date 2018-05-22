@@ -29,7 +29,7 @@ HRESULT Placeholder1(
 
 ```
 
-## Return Values
+## Return values
 
 S_OK
   

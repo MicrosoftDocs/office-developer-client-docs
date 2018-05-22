@@ -22,7 +22,7 @@ The functions described in this section are Microsoft Excel callback functions t
   
 Many more functions are exposed by Excel via the C API that are useful when you are developing XLLs. They correspond to the Excel worksheet functions and functions and commands that are available from XLM macro sheets.
   
-## In This Section
+## In this section
 
 [xlfCaller](xlfcaller.md)
   

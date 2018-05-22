@@ -46,7 +46,7 @@ MAPI_E_NOT_FOUND
   
 > The message class passed in the  _szMessageClass_ parameter does not match the message class of any form in the form container. 
     
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

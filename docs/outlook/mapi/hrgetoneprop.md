@@ -64,7 +64,7 @@ Unlike the [IMAPIProp::GetProps](imapiprop-getprops.md) method, the **HrGetOnePr
   
 You can set or change a single property with the [HrSetOneProp](hrsetoneprop.md) function. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

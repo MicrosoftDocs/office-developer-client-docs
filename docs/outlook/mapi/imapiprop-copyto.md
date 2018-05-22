@@ -190,7 +190,7 @@ When you use the  _rgiidExclude_ parameter to exclude an interface, it also excl
   
 Ignore MAPI_E_COMPUTED errors returned in the **SPropProblemArray** structure in the  _lppProblems_ parameter. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

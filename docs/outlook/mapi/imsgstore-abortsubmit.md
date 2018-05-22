@@ -68,7 +68,7 @@ The **IMsgStore::AbortSubmit** method attempts to remove a submitted message fro
 
 After a message is submitted, aborting the submission by calling **AbortSubmit** is the only action that can be performed on the message. Do not expect **AbortSubmit** to always succeed. Depending on how the underlying messaging system is implemented, it might not be possible to cancel the sending of the message. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

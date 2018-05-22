@@ -57,7 +57,7 @@ If no profiles exist, **GetProfileTable** returns a table with zero rows.
   
 For more information about the profile table, see [Profile Tables](profile-tables.md). 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

@@ -33,7 +33,7 @@ HRESULT IOlkAccount::FreeMemory (
   
 > [in] A pointer to memory to be freed.
     
-## Return Values
+## Return values
 
 S_OK if the call succeeded; otherwise, an error code.
   

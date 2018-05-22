@@ -51,7 +51,7 @@ S_OK
   
 > The function call is successful.
     
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

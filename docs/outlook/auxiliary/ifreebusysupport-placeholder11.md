@@ -26,7 +26,7 @@ BOOL Placeholder11(
 );
 ```
 
-## Return Values
+## Return values
 
 Always **false**, because this member is a placeholder and is not supported.
   

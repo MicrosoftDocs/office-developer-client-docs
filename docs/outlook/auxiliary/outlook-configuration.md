@@ -16,7 +16,7 @@ description: "This section describes how to configure Outlook to resolve item co
 
 This section describes how to configure Outlook to resolve item conflicts, determine the update time for an Offline Address Book, and register a domain for automatic configuration.
   
-## In This Section
+## In this section
 
 - [About conflict resolution for custom item types](about-conflict-resolution-for-custom-item-types.md)
     

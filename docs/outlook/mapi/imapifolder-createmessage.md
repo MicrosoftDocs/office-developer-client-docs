@@ -84,7 +84,7 @@ To create an outgoing message, call the Outbox folder's **IMAPIFolder::CreateMes
   
 If you delete a folder that contains a new message before the message is saved, the results are undefined.
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

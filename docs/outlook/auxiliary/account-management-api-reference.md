@@ -16,7 +16,7 @@ description: "This section provides reference content for the Account Management
 
 This section provides reference content for the Account Management API, which provides access to account information, supports notifications of account changes, protecting accounts from spam and managing message downloads for POP3 accounts.
   
-## In This Section
+## In this section
 
 - [Constants](constants-account-management-api.md)
     

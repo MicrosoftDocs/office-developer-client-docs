@@ -96,7 +96,7 @@ The name of the profile can be up to 64 characters in length and can include the
     
 - Embedded spaces, but not leading or trailing spaces.
     
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

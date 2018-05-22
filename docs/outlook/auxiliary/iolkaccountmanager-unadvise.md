@@ -33,7 +33,7 @@ HRESULT Unadvise(
   
 > [in] The cookie returned by [IOlkAccountManager::Advise](iolkaccountmanager-advise.md).
     
-## Return Values
+## Return values
 
 |**HRESULT**|**Description**|
 |:-----|:-----|

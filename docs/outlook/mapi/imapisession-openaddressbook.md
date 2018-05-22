@@ -75,7 +75,7 @@ The **IMAPISession::OpenAddressBook** method opens the MAPI integrated address b
   
 When **OpenAddressBook** returns MAPI_W_ERRORS_RETURNED, call [IMAPISession::GetLastError](imapisession-getlasterror.md) to obtain a [MAPIERROR](mapierror.md) structure that contains information about the failing providers. A single **MAPIERROR** structure is returned that contains information supplied by all of the providers. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

@@ -32,7 +32,7 @@ HRESULT Skip(
   
 >  [in] The number of free/busy blocks to skip. 
     
-## Return Values
+## Return values
 
 S_OK if the call succeeded; otherwise, an error code.
   

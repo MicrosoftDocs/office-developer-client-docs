@@ -18,7 +18,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
   
 This section includes information about creating and calling DLLs that work with Microsoft Excel.
   
-## In This Section
+## In this section
 
 [Developing DLLs](developing-dlls.md)
   

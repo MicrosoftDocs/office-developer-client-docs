@@ -64,7 +64,7 @@ HRESULT IOlkAccountManager::EnumerateAccounts (
   
 > [out] An enumerator that supports the [IOlkEnum](iolkenum.md) interface. 
     
-## Return Values
+## Return values
 
 |**HRESULT**|**Description**|
 |:-----|:-----|

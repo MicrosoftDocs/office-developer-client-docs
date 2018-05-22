@@ -105,7 +105,7 @@ You can use **GetStatus** in conjunction with three other **IMAPITable** methods
     
 - [IMAPITable::SetColumns](imapitable-setcolumns.md) to define a column set. 
     
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

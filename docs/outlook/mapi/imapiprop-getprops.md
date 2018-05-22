@@ -161,7 +161,7 @@ To check if a PST is a SharePoint PST, mount the PST using [IMAPISession::OpenMs
   
 For more information about how to use **GetProps** to access properties, see [Retrieving MAPI Properties](retrieving-mapi-properties.md).
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

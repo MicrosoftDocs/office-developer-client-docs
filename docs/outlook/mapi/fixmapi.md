@@ -32,7 +32,7 @@ Makes a backup copy of the current copy of mapi32.dll on the client computer, an
 DWORD STDAPICALLTYPE FixMAPI(void); 
 ```
 
-## Return Values
+## Return values
 
 If the function succeeds, the return value is a non-zero value.
   

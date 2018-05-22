@@ -20,7 +20,7 @@ description: "Last modified: July 23, 2011"
   
 Before you can communicate with service providers and an underlying messaging system, you must establish a session. A MAPI session is a link from a client to other MAPI components. As the result of successfully starting a session, MAPI returns to clients a pointer to a session object — an object that implements the **IMAPISession** interface. For more information, see [IMAPISession : IUnknown](imapisessioniunknown.md). You can use the methods of the **IMAPISession** interface to access the objects of address book and message store providers, access several tables, display forms, set transport provider properties, and perform profile and message service administration. 
   
-## In This Section
+## In this section
 
 [Starting a MAPI Session](starting-a-mapi-session.md)
   

@@ -155,7 +155,7 @@ Expect these return values under the following conditions.
    
 When **SetReadFlags** is unable to complete, do not assume that no work was done. **SetReadFlags** might have been able to set or clear the MSGFLAG_READ flag for one or more of the messages before encountering the error. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

@@ -24,7 +24,7 @@ See [IOlkAccountHelper](iolkaccounthelper.md).
 HRESULT IOlkAccountHelper::HandsOffSession( );
 ```
 
-## Return Values
+## Return values
 
 |**HRESULT**|**Description**|
 |:-----|:-----|

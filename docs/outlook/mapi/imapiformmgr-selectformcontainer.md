@@ -68,7 +68,7 @@ S_OK
 
 Form viewers typically call the **IMAPIFormMgr::SelectFormContainer** method to select a form container into which a form is installed. **SelectFormContainer** cannot be used to select the local form container, which has the value HFRMREG_LOCAL. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

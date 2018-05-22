@@ -46,7 +46,7 @@ HRESULT BeginRebaseAppointments(
   
 > [out] Required. A pointer to a pointer to the returned context. This context will usually be passed to [IOlkApptRebaser::EndRebaseAppointments](iolkapptrebaser-endrebaseappointments.md).
     
-## Return Values
+## Return values
 
 S_OK if the call succeeded; otherwise, an error code.
   

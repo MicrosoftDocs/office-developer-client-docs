@@ -54,7 +54,7 @@ Form viewers call **GetViewContext** to obtain a pointer to the view context est
 
 Copy your form's view context pointer into the pointer passed in by the calling form viewer in the  _ppViewContext_ parameter. If the form does not have a view context, set  _ppViewContext_ to NULL. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

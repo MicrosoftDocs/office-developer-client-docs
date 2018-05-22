@@ -69,7 +69,7 @@ The structure pointed to by  _lppProblems_ is only valid if **DeleteProps** retu
   
 Free the returned **SPropProblemArray** structure by calling the [MAPIFreeBuffer](mapifreebuffer.md) function. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

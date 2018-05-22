@@ -47,7 +47,7 @@ HRESULT SetOrder(
   
 > [in] An array of account IDs. The size of the array is  _cAccts_.
     
-## Return Values
+## Return values
 
 |**HRESULT**|**Description**|
 |:-----|:-----|

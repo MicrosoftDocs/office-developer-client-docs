@@ -63,7 +63,7 @@ ROW_EMPTY
   
 > An array of [SPropValue](spropvalue.md) structures representing the columns values to be inserted into the table. 
     
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

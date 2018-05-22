@@ -16,7 +16,7 @@ description: "This section includes reference content for the following APIs in 
 
 This section includes reference content for the following APIs in the Outlook 2013 Auxiliary Reference.
   
-## In This Section
+## In this section
 
 - [Account management API reference](account-management-api-reference.md)
     

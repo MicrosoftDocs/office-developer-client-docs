@@ -32,7 +32,7 @@ The Replication API allows you to replicate items from a back-end data repositor
   
 The Sample Wrapped PST Store Provider uses the Personal Folders file (PST) provider as the back end for storing data. The wrapped PST store provider should be used in conjunction with the Replication API. For more information, see [About the Replication API](about-the-replication-api.md). Most of the functions in the Sample Wrapped PST Store Provider pass their arguments directly to the underlying PST provider. Certain functions require special implementation and are described in the following topics.
   
-## In This Section
+## In this section
 
 - [Installing the Sample Wrapped PST Store Provider](installing-the-sample-wrapped-pst-store-provider.md)
     

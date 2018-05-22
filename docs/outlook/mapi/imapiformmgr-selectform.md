@@ -82,7 +82,7 @@ Form viewers call the **IMAPIFormMgr::SelectForm** method to first present a dia
 
 The **SelectForm** dialog box displays only forms that are not hidden (that is, forms that have their hidden properties clear). If a form viewer passes the MAPI_UNICODE flag in the  _ulFlags_ parameter, all strings are Unicode. Form library providers that do not support Unicode strings should return MAPI_E_BAD_CHARWIDTH if MAPI_UNICODE is passed. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

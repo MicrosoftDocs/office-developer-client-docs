@@ -24,7 +24,7 @@ See [IEnumFBBlock](ienumfbblock.md).
 HRESULT Reset();
 ```
 
-## Return Values
+## Return values
 
 S_OK if the call succeeded; otherwise, an error code.
   

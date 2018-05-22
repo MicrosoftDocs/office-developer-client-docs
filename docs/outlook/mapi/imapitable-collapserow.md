@@ -75,7 +75,7 @@ When a row that is defined by a bookmark is collapsed out of view, the bookmark 
   
 For more information about categorized tables, see [Sorting and Categorization](sorting-and-categorization.md).
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

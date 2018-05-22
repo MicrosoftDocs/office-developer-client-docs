@@ -48,7 +48,7 @@ Use the **IMAPITable::Unadvise** method to release the pointer to the advise sin
   
 For more information on the notification process, see [Event Notification in MAPI](event-notification-in-mapi.md). For specific information about table notification, see [About Table Notifications](about-table-notifications.md). For information about using the **IMAPISupport** methods to support notification, see [Supporting Event Notification](supporting-event-notification.md).
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

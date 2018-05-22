@@ -55,7 +55,7 @@ None.
 
 After a client application makes a call to the **MAPIOpenFormMgr** function, most subsequent forms-related interactions take place through the form library provider or an interface returned by the form library provider. The **IMAPIFormMgr** interface allows the client to work with message handlers and perform resolutions between message classes and form libraries. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

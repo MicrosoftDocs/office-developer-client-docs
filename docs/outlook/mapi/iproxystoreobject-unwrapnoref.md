@@ -34,7 +34,7 @@ HRESULT IProxyStoreObject::UnwrapNoRef (     LPVOID *ppvObject );
   
 > [out] Pointer to an [IMsgStore : IMAPIProp](imsgstoreimapiprop.md) store object that is unwrapped. 
     
-## Return Values
+## Return values
 
 S_OK
   

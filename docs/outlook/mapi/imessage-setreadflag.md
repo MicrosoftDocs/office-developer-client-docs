@@ -120,7 +120,7 @@ When both the SUPPRESS_RECEIPT and GENERATE_RECEIPT_ONLY flags are set, set the 
   
 You can optimize report behavior by suppressing the generation of read reports under certain conditions. However, if you do not support the suppression of reports and a client calls **SetReadFlag** with the SUPPRESS_RECEIPT flag set, return MAPI_E_NO_SUPPRESS. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

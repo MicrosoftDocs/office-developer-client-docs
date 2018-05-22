@@ -37,7 +37,7 @@ HRESULT IOlkAccount::SetProp(
   
 > [in] The value of the specified property.
     
-## Return Values
+## Return values
 
 |**HRESULT**|**Description**|
 |:-----|:-----|

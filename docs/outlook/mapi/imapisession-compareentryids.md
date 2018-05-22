@@ -81,7 +81,7 @@ The **CompareEntryIDs** method is useful because an object can have more than on
   
 If **CompareEntryIDs** returns an error, do not take any action based on the result of the comparison. Instead, take the most conservative approach possible. **CompareEntryIDs** might fail if, for example, one or both of the entry identifiers contain an invalid **MAPIUID**. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

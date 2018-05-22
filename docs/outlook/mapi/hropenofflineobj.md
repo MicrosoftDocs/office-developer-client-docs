@@ -64,7 +64,7 @@ typedef HRESULT (STDMETHODCALLTYPE HROPENOFFLINEOBJ)(
   
 > [out] A pointer to the requested offline object. The caller can use this pointer to access the [IMAPIOfflineMgr : IMAPIOffline](imapiofflinemgrimapioffline.md) interface to find the callbacks that this object supports and to set up callbacks for it. 
     
-## Return Values
+## Return values
 
 S_OK 
   

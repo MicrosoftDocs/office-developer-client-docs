@@ -34,7 +34,7 @@ HRESULT Placeholder4(
 
 ```
 
-## Return Values
+## Return values
 
 Always S_OK, because this is a placeholder and is not supported.
   

@@ -34,7 +34,7 @@ GENERIC.xll also provides three worksheet functions, Func1, FuncSum, and FuncFib
   
 This project uses the framework library (FRMWRK32.lib).
   
-## In This Section
+## In this section
 
 [DIALOGMsgProc](dialogmsgproc.md)
   

@@ -130,7 +130,7 @@ For an overview of the notification process, see [Event Notification in MAPI](ev
   
 For more information about handling notifications, see [Handling Notifications](handling-notifications.md). 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

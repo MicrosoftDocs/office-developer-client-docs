@@ -55,7 +55,7 @@ HRESULT LoadFreeBusyData(
   
 >  [out] The actual number of users for which an **IFreeBusyData** interface has been found. 
     
-## Return Values
+## Return values
 
 S_OK if the call succeeded; otherwise, an error code.
   

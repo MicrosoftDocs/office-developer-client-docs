@@ -156,7 +156,7 @@ If you call **OpenMsgStore** to open a message store with read-only permission, 
 > [IMAPIProp::CopyTo](imapiprop-copyto.md)
   
 > 
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

@@ -117,7 +117,7 @@ The SOF_UNIQUEFILENAME flag is used to create a temporary file with a name uniqu
   
 If the SOF_UNIQUEFILENAME flag is not set,  _lpszPrefix_ is ignored, and  _lpszFileName_ should contain the fully qualified path and filename of the file to be opened or created. The file will be opened or created based on the other flags that are set in  _ulFlags_. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

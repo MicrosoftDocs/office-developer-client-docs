@@ -130,7 +130,7 @@ When you are finished with the property names, check the contents of the  _lpcPr
   
 For more information about named properties, see [MAPI Named Properties](mapi-named-properties.md). 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

@@ -53,7 +53,7 @@ Client applications and service providers call the **GetDefaultDir** method to r
   
 To set the default directory, a client or provider calls the **SetDefaultDir** method. Clients and providers do not have to call the [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method; because changes to the address book are not transacted, changes are immediately made permanent. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

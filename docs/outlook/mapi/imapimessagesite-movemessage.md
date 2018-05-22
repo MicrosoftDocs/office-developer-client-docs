@@ -70,7 +70,7 @@ For a list of interfaces related to form servers, see [MAPI Form Interfaces](map
 
 Following the return of **MoveMessage**, forms must check for a current message and then dismiss themselves if none exists. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

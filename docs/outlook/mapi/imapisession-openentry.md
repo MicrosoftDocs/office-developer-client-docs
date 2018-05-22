@@ -124,7 +124,7 @@ Calling **IMAPISession::OpenEntry** and setting  _lpEntryID_ to point to the ent
   
 Check the value returned in the  _lpulObjType_ parameter to determine whether the object type returned is what you expected. If the object type is not the type that you expected, cast the pointer from the  _lppUnk_ parameter to a pointer of the appropriate type. For example, if you are opening a folder, cast  _lppUnk_ to a pointer of type LPMAPIFOLDER. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

@@ -91,7 +91,7 @@ If you request that **OpenProfileSection** open a nonexistent profile section by
   
 If you request that **OpenProfileSection** open a nonexistent section with read-only permission, it returns MAPI_E_NOT_FOUND. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

@@ -102,7 +102,7 @@ Whenever a change is made to the message store default setting, the following no
     
 - An internal notification is issued to the MAPI spooler. Operations already in progress are completed without change; new operations that involve the default message store, such as message downloading, are processed for the new default store.
     
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

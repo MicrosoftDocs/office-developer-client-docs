@@ -37,7 +37,7 @@ HRESULT IOlkAccountHelper::GetIdentity (
   
 > [in] [out] Upon calling this method, contains the size (in number of characters) of  _pwszIdentity_ that has been allocated. Upon return, contains the actual length, including the 0-terminating character, of the returned profile name. 
     
-## Return Values
+## Return values
 
 |**HRESULT**|**Description**|
 |:-----|:-----|

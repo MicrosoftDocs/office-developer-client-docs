@@ -16,7 +16,7 @@ description: "This section provides reference content for the APIs that Outlook 
 
 This section provides reference content for the APIs that Outlook exports.
   
-## In This Section
+## In this section
 
 - [Constants](constants-outlook-exported-apis.md)
     

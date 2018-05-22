@@ -73,7 +73,7 @@ If you set the TBL_ALL_COLUMNS flag, **QueryColumns** returns all of the columns
   
 Free the memory for the property tag array pointed to by the  _lpPropTagArray_ parameter by calling the [MAPIFreeBuffer](mapifreebuffer.md) function. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

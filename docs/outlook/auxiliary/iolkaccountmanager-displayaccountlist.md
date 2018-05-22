@@ -64,7 +64,7 @@ HRESULT IOlkAccountManager::DisplayAccountList (
   
 > [in] This parameter is not used and must be NULL.
     
-## Return Values
+## Return values
 
 |**HRESULT**|**Description**|
 |:-----|:-----|

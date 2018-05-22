@@ -60,7 +60,7 @@ Always initialize the flag to MAPI_TOP_LEVEL and then rely on service providers 
 
 When you display a progress indicator, make your first call a call to **IMAPIProgress::GetFlags**. The returned value should be MAPI_TOP_LEVEL, because all implementations initialize the contents of the  _lpulFlags_ parameter to this value. For more information about the sequence of calls to a progress object, see [Display a Progress Indicator](how-to-display-a-progress-indicator.md).
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

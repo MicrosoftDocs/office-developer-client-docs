@@ -95,7 +95,7 @@ Your implementation of [IMAPIViewContext::ActivateNext](imapiviewcontext-activat
 
 If **ActivateNext** returns S_FALSE, or if a current message is not present, perform your normal shutdown procedure which should include calling your form's [IMAPIForm::ShutdownForm](imapiform-shutdownform.md) method. If a next or previous message is displayed, use the window rectangle passed in the  _prcPosRect_ parameter to display it. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

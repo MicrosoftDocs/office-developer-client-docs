@@ -92,7 +92,7 @@ If you attempt to impose a property restriction on a property that is not in the
   
 Do not expect to receive a table notification on a row that has been filtered from a table due to a restriction.
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

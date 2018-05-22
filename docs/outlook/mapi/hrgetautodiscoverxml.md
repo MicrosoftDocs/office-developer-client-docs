@@ -64,7 +64,7 @@ HRESULT HrGetAutoDiscoverXML(
   
 > [out] A pointer to an [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) object that contains the autodiscovery XML. Returns **null** if the autodiscovery operation fails. You must release the [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) object when you are finished with it. 
     
-## Return Values
+## Return values
 
 S_OK 
   

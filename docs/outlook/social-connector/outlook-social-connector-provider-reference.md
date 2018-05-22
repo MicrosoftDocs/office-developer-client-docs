@@ -22,7 +22,7 @@ The Outlook Social Connector 2013 Provider Reference describes how to develop an
   
 If you are new to developing solutions for Outlook, see [Selecting an API or technology for developing solutions for Outlook](../selecting-an-api-or-technology-for-developing-solutions-for-outlook.md) to identify the APIs and technologies that are most appropriate for your needs. 
   
-## In This Section
+## In this section
 
 - [Getting Started with Developing an Outlook Social Connector Provider](getting-started-with-developing-an-outlook-social-connector-provider.md)
     

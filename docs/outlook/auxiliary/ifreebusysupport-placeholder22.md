@@ -24,7 +24,7 @@ See [IFreeBusySupport](ifreebusysupport.md).
 HRESULT Placeholder22();
 ```
 
-## Return Values
+## Return values
 
 Always S_OK, because this member is a placeholder and is not supported.
   

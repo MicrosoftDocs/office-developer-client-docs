@@ -46,7 +46,7 @@ HRESULT NSTServiceEntry(
 
  **NSTServiceEntry** uses the **[MSGSERVICEENTRY](msgserviceentry.md)** function prototype. For information on its parameters, see **[MSGSERVICEENTRY](msgserviceentry.md)**. 
   
-## Return Values
+## Return values
 
 For information on return values, see **[MSGSERVICEENTRY](msgserviceentry.md)**. 
   

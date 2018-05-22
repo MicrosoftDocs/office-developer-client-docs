@@ -104,7 +104,7 @@ If a call to **SetColumns** returns MAPI_E_BUSY, indicating that another operati
   
 You can also call [HrAddColumnsEx](hraddcolumnsex.md) to change a column set. The difference between **HrAddColumnsEx** and **IMAPITable::SetColumns** is that **HrAddColumnsEx** is less flexible; it can only add columns. The additional columns are placed at the beginning of the column set; all existing columns appear following these columns. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

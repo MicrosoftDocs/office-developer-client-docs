@@ -26,7 +26,7 @@ The **Excel4** and **Excel12** functions are provided to enable DLLs to call an 
     
 Except for the way in which arguments are passed to these callbacks, the two forms are functionally equivalent. The basic concepts for both forms are fully described in [Excel4/Excel12](excel4-excel12.md). [Excel4v/Excel12v](excel4v-excel12v.md) covers other issues about this form. 
   
-## In This Section
+## In this section
 
 [Excel4/Excel12](excel4-excel12.md)
   

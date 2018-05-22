@@ -59,7 +59,7 @@ MAPI_E_BAD_CHARWIDTH
 
 Client applications call the **IMAPIFormInfo::CalcVerbSet** method to obtain a pointer to the set of verbs used by a form. In the **SMAPIVerbArray** structure returned in the  _ppMAPIVerbArray_ parameter, the verbs are returned in order of index number; each verb's index is found in its **lVerb** member. Client applications can use the verb array to dynamically build menus, hide or show buttons, and so on. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

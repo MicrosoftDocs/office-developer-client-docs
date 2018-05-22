@@ -100,7 +100,7 @@ If there are lots of rows in the table, the **SeekRow** operation can be slow. P
   
 Do not set  _lRowCount_ to a number greater than 50. To seek through a larger number of rows, use the [IMAPITable::SeekRowApprox](imapitable-seekrowapprox.md) method. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

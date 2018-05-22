@@ -62,7 +62,7 @@ void STDAPICALLTYPE RebaseTaskComplete(
   
 > [in] A pointer to a **MAPIERROR** structure with extended error information. 
     
-## Return Values
+## Return values
 
 S_OK if the call succeeded; otherwise, an error code.
   

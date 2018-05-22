@@ -42,7 +42,7 @@ HRESULT IOlkAccountManager::FindAccount (
   
 > [out] The account found. This object supports an [IOlkAccount](iolkaccount.md) interface. 
     
-## Return Values
+## Return values
 
 |**HRESULT**|**Description**|
 |:-----|:-----|
