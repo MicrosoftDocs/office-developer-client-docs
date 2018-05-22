@@ -16,7 +16,7 @@ When a store provider notifies an indexer that an object is ready for indexing, 
   
 `Mapi://SID/StoreDisplayName ($HashNumber)/StoreType/FolderNameA/…/FolderNameN/[EntryIDEncoded[/at=AttachIDEncoded:FileName]]`
 
-The following sections describe the various parts of a typical URL.
+The following table describes the various parts of a typical URL.
 
 |Part | Description|
 |:----|:-----------|  

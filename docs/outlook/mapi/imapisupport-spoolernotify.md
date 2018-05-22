@@ -71,7 +71,7 @@ NOTIFY_SENTDEFERRED
     
  _lpvData_
   
-> [in] A pointer to associated data applicable to a notification. The  _lpvData_ parameter points to valid data only when the following flags are set (  _lpvData_ is NULL when  _ulFlags_ is set to the other notification types): 
+> [in] A pointer to associated data applicable to a notification. The  _lpvData_ parameter points to valid data only when the following flags are set (_lpvData_ is NULL when  _ulFlags_ is set to the other notification types): 
     
 |**_ulFlags_ setting**|**_lpvData_ value**|
 |:-----|:-----|

@@ -1,5 +1,5 @@
 ---
-title: "Attachment Tables"
+title: "Attachment tables"
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -8,25 +8,19 @@ api_type:
 - COM
 ms.assetid: 92a07f7b-d34c-4085-ab11-eadcd918fa1b
 description: "Last modified: March 09, 2015"
- 
- 
 ---
 
-# Attachment Tables
+# Attachment tables
 
-  
-  
 **Applies to**: Outlook 
   
 An attachment table contains information about all of the attachment objects that are associated with a submitted message or a message under composition. 
   
- Only attachments that have been saved through a call to the message's [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method are included in the table. Attachment tables are implemented by message store providers and used by client applications and transport providers. 
+Only attachments that have been saved through a call to the message's [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method are included in the table. Attachment tables are implemented by message store providers and used by client applications and transport providers. 
   
-An attachment table can be accessed by calling:
+An attachment table can be accessed by calling either of the following:
   
-- [IMessage::GetAttachmentTable](imessage-getattachmenttable.md).
-    
-    - Or -
+- [IMessage::GetAttachmentTable](imessage-getattachmenttable.md)
     
 - [IMAPIProp::OpenProperty](imapiprop-openproperty.md), requesting the **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) property.
     
@@ -73,7 +67,5 @@ Some of the properties message store providers commonly include in an attachment
    
 ## See also
 
-
-
-[MAPI Tables](mapi-tables.md)
+- [MAPI Tables](mapi-tables.md)
 
