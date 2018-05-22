@@ -147,20 +147,23 @@ Data elements in this stream are stored in little-endian byte order, immediately
 > 
 > Therefore, to find out which **dwString**, **dwBitmap**, and **dwDisplay** values correspond to a given **FldType** value and **iFmt** value, perform a test by creating a user-defined field of that type, and with that format selected in the **Format** combo box, assuming its applicability, inspect the resulting **FolderUserFields** stream that Outlook creates for that user-defined field. 
   
-> [!NOTE]
-> The field's formula in its UI format is edited in the **Formula** text box of the **New Field**, **Edit Field**, and **Field Properties** dialogs for the user-defined field. The algorithm to convert a formula from the UI format to the standard format depends on the field type as described in the following: 
-> - For fields of types ftCalc and ftSwitch, the standard format for built-in fields, which corresponding MAPI properties are not named properties of the kind MNID\_STRING, is obtained by replacing field name fragments, that is `[<field_name>]` with fragments `[_<field_dispid_decimal>]`. For example, if the UI format of a formula for a field of the type **Formula**, that is **ftCalc**, with the Office UI language being US English, is `[Business Phone] & [My custom field]`, where `My custom field` is the name of a user-defined field, the standard format of such a formula would be `[_14856] & [My custom field]`.
-> - For fields of the type **ftConcat**, the standard format is obtained by performing the following: 
+The field's formula in its UI format is edited in the **Formula** text box of the **New Field**, **Edit Field**, and **Field Properties** dialogs for the user-defined field. The algorithm to convert a formula from the UI format to the standard format depends on the field type as described in the following: 
+- For fields of types ftCalc and ftSwitch, the standard format for built-in fields, which corresponding MAPI properties are not named properties of the kind MNID\_STRING, is obtained by replacing field name fragments, that is `[<field_name>]` with fragments `[_<field_dispid_decimal>]`. 
+
+  For example, if the UI format of a formula for a field of the type **Formula**, that is **ftCalc**, with the Office UI language being US English, is `[Business Phone] & [My custom field]`, where `My custom field` is the name of a user-defined field, the standard format of such a formula would be `[_14856] & [My custom field]`.
+
+- For fields of the type **ftConcat**, the standard format is obtained by performing the following:
+
   1. Truncate leading and trailing whitespace. 
   2. Parse the formula into a sequence of fragments of the following two kinds: 
->    - A field name in square brackets, that is, `[<field_name>]`. 
->    - A substring not containing any square brackets.   
->      Assure that no two fragments of the second kind are adjacent in the sequence. If the formula cannot be parsed this way, it is considered invalid. 
+     - A field name in square brackets, that is, `[<field_name>]`. 
+     - A substring not containing any square brackets.   
+      Assure that no two fragments of the second kind are adjacent in the sequence. If the formula cannot be parsed this way, it is considered invalid. 
   3. Perform the same replacement for fragments of the first kind as for the ftCalc and ftSwitch fields. 
   4. For each fragment of the second kind, escape all double-quote (""") characters, if any, with two consecutive double-quote characters, and enclose it in double quotes. 
   5. Insert an ampersand string (`&`) between each pair of adjacent fragments.
-> 
->  For example, using the Office UI language US English, if the UI format of a formula for a field of the type **ftConcat** is `text1 [Business Phone] "text2" [My custom field]`, where `My custom field` is the name of a user-defined field, the standard format for such a formula would be `""text1" & [_14856] & """text2""" & [My custom field]"`. 
+ 
+  For example, using the Office UI language US English, if the UI format of a formula for a field of the type **ftConcat** is `text1 [Business Phone] "text2" [My custom field]`, where `My custom field` is the name of a user-defined field, the standard format for such a formula would be `""text1" & [_14856] & """text2""" & [My custom field]"`. 
   
 ## See also
 

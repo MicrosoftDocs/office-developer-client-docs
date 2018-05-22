@@ -71,7 +71,7 @@ There are four states that the Click-to-Run installation service may be in durin
 > [!NOTE]
 > Rebooting: When the machine is booting there is a period of time when the Click-to-Run installer service is not available. A successful call to the Status method after a reboot will return eUPDATE_UNKNOWN. 
   
- **Idle:** When the Click-to-Run installer is in the idle state, you can call: 
+**Idle:** When the Click-to-Run installer is in the idle state, you can call: 
   
 - **Apply**: Install previously downloaded content.
     
@@ -742,7 +742,7 @@ The metadata published in this XML file is useful for determining which products
   
 **\<SKU\>** node identifies an individual SKU. 
   
-- The  *ProductID*  attribute identifies the ID that is passed as the ID attribute in the configuration.xml if using the ODT. For example, <Product ID="O365ProPlusRetail" >. 
+- The  *ProductID*  attribute identifies the ID that is passed as the ID attribute in the configuration.xml if using the ODT. For example, `<Product ID="O365ProPlusRetail">`. 
     
 - The  *Default*  attribute, if set to True, identifies the recommended SKU. 
     
