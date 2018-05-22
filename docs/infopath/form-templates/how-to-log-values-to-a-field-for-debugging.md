@@ -50,8 +50,6 @@ When debugging an InfoPath form template, it is often useful to log values direc
         }
     ```
 
-<br/>
-
     ```vb
         Private Sub AddToDebugField(ByVal valueToAdd As String)
             ' Update the value of debugFieldXpath to the XPath of the 
