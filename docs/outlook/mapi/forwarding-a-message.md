@@ -28,17 +28,17 @@ The main difference between creating a message to be forwarded and creating the 
     
 4. Call the original message's [IMAPIProp::CopyTo](imapiprop-copyto.md) method to copy the following properties to the forwarded message: 
     
-  - **PR\_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), **PR\_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)), or **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)), depending on whether or not you support Rich Text Format, plain text, or HTML.
+   - **PR\_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), **PR\_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)), or **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)), depending on whether or not you support Rich Text Format, plain text, or HTML.
     
-  - **PR\_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)) 
+   - **PR\_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)) 
     
 5. Copy the message attachments from the original message either by calling the original message's **IMAPIProp::CopyTo** method to copy the **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) property or by invoking the following three step procedure for each attachment to be copied:
     
-  1. Call the new forwarded message's [IMessage::CreateAttach](imessage-createattach.md) method to create a new attachment. 
+   1. Call the new forwarded message's [IMessage::CreateAttach](imessage-createattach.md) method to create a new attachment. 
       
-  2. Call the original message's [IMessage::OpenAttach](imessage-openattach.md) method to open the attachment to be copied. 
+   2. Call the original message's [IMessage::OpenAttach](imessage-openattach.md) method to open the attachment to be copied. 
       
-  3. Call the original message's **IMAPIProp::CopyTo** method to copy all of the attachment properties from the old attachment to the new one. 
+   3. Call the original message's **IMAPIProp::CopyTo** method to copy all of the attachment properties from the old attachment to the new one. 
     
 6. Do not include the following properties in your call to **IMAPIProp::CopyTo**: 
     
