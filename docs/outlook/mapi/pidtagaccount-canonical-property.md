@@ -35,7 +35,7 @@ Contains the recipient's account name.
 
 These properties provide identification and access information for a recipient. They are defined by the recipient and their organization.
   
-These properties commonly contain the recipient's e-mail name, that is, the final component of the e-mail address, which uniquely identifies the recipient in the local organization. The e-mail name corresponds to the X.400 distinguished name, which is meant to be a short name guaranteed to be unique within a certain messaging domain.
+These properties commonly contain the recipient's email name, that is, the final component of the email address, which uniquely identifies the recipient in the local organization. The email name corresponds to the X.400 distinguished name, which is meant to be a short name guaranteed to be unique within a certain messaging domain.
   
 ## Related resources
 

@@ -36,7 +36,7 @@ The host provider also passes a pointer to its property object implementation fo
   
 - The recipient's display table contains list box controls.
     
-- The e-mail address for the recipient must be assembled from data in multiple display table controls.
+- The email address for the recipient must be assembled from data in multiple display table controls.
     
 - Your provider issues display table notifications.
     

@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Specifies the third e-mail address of the contact.
+Specifies the third email address of the contact.
   
 |||
 |:-----|:-----|
@@ -34,7 +34,7 @@ Specifies the third e-mail address of the contact.
    
 ## Remarks
 
-The value of this property must be appropriate for the address type specified for this e-mail address.
+The value of this property must be appropriate for the address type specified for this email address.
   
 ## Related resources
 

@@ -44,7 +44,7 @@ Defaults suggested to the user for contact objects are as follows:
 |0x0000006E  <br/> |"Follow up"  <br/> |
 |0x0000006F  <br/> |"Call"  <br/> |
 |0x00000070  <br/> |"Arrange Meeting"  <br/> |
-|0x00000071  <br/> |"Send E-mail"  <br/> |
+|0x00000071  <br/> |"Send Email"  <br/> |
 |0x00000072  <br/> |"Send Letter"  <br/> |
    
 Defaults suggested to the user for all other message objects are as follows:

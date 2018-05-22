@@ -30,7 +30,7 @@ Contains an [RFC3282] Xref header field value.
 |Property set:  <br/> |PS_INTERNET_HEADERS  <br/> |
 |Property name:  <br/> |Xref  <br/> |
 |Data type:  <br/> |PT_UNICODE  <br/> |
-|Area:  <br/> |E-mail  <br/> |
+|Area:  <br/> |Email  <br/> |
    
 ## Remarks
 
@@ -46,7 +46,7 @@ To set the value of this property, Multipurpose Internet Message Extensions (MIM
     
 [[MS-OXCMAIL]](http://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Converts from Internet standard e-mail conventions to message objects.
+> Converts from Internet standard email conventions to message objects.
     
 ### Header files
 

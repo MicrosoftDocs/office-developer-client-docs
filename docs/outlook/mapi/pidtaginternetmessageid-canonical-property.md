@@ -33,7 +33,7 @@ Corresponds to the message ID field as specified in [RFC2822].
    
 ## Remarks
 
-These properties should be present on all e-mail messages.
+These properties should be present on all email messages.
   
 ## Related resources
 
@@ -45,7 +45,7 @@ These properties should be present on all e-mail messages.
     
 [[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Specifies the properties and operations that are permissible for e-mail message objects.
+> Specifies the properties and operations that are permissible for email message objects.
     
 ### Header files
 

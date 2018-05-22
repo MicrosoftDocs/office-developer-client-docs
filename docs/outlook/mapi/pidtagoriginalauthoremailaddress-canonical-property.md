@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Contains the e-mail address of the author of the first version of a message, that is, the message before being forwarded or replied to.
+Contains the email address of the author of the first version of a message, that is, the message before being forwarded or replied to.
   
 |||
 |:-----|:-----|

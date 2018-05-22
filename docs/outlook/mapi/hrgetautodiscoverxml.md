@@ -46,7 +46,7 @@ HRESULT HrGetAutoDiscoverXML(
 
  _pwzAddress_
   
-> [in] A null-terminated Simple Mail Transfer Protocol (SMTP) e-mail address of the account for which you want to retrieve the auto-discovery information.
+> [in] A null-terminated Simple Mail Transfer Protocol (SMTP) email address of the account for which you want to retrieve the auto-discovery information.
     
  _pwzPassword_
   

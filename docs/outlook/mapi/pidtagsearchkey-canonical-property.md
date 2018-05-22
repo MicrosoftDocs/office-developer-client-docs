@@ -33,7 +33,7 @@ Contains a binary-comparable key that identifies correlated objects for a search
 
 This property provides a trace for related objects, such as message copies, and facilitates finding unwanted occurrences, such as duplicate recipients.
   
-MAPI uses specific rules for constructing search keys for message recipients. The search key is formed by concatenating the address type (in uppercase characters), the colon character ':', the e-mail address in canonical form, and the terminating null character. Canonical form here means that case-sensitive addresses appear in the correct case, and addresses that are not case-sensitive are converted to uppercase. This is important in preserving correlations among messages.
+MAPI uses specific rules for constructing search keys for message recipients. The search key is formed by concatenating the address type (in uppercase characters), the colon character ':', the email address in canonical form, and the terminating null character. Canonical form here means that case-sensitive addresses appear in the correct case, and addresses that are not case-sensitive are converted to uppercase. This is important in preserving correlations among messages.
   
 For message objects, this property is available through the [IMAPIProp::GetProps](imapiprop-getprops.md) method immediately following message creation. For other objects, it is available following the first call to the [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method. Because this property is changeable, it is unreliable to obtain it through **GetProps** until a **SaveChanges** call has committed any values set or changed by the [IMAPIProp::SetProps](imapiprop-setprops.md) method. 
   

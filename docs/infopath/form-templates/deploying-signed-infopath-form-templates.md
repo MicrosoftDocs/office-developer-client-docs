@@ -14,11 +14,11 @@ description: "Before reading this topic, see theSigned Form Templatessection in 
 
 # Deploying Signed InfoPath Form Templates
 
-Before reading this topic, see the "Signed Form Templates" section in [Additional InfoPath Form Security Concepts](additional-infopath-form-security-concepts.md) for an understanding of signed form template security. Information and discussions in the [Security Levels, E-Mail Deployment, and Remote Form Templates](security-levels-e-mail-deployment-and-remote-form-templates.md) topic are also relevant. 
+Before reading this topic, see the "Signed Form Templates" section in [Additional InfoPath Form Security Concepts](additional-infopath-form-security-concepts.md) for an understanding of signed form template security. Information and discussions in the [Security Levels, E-Mail Deployment, and Remote Form Templates](security-levels-email-deployment-and-remote-form-templates.md) topic are also relevant. 
   
 ## Digitally Signing a Form Template
 
-If you digitally sign a form template, you can set the security level for the form template to Full Trust, which means the form can access files and settings on the user's computer or on a different domain. (Also, digitally signing a form template does not prevent you from using other security levels, if you prefer. You set the security level of a signed form template to the Domain or Restricted security level.) In addition, you can deploy the signed form template to users who are using an e-mail program and then later automatically update the signed form template by sending the updated version to the users as an attachment to an e-mail message, follow these steps:
+If you digitally sign a form template, you can set the security level for the form template to Full Trust, which means the form can access files and settings on the user's computer or on a different domain. (Also, digitally signing a form template does not prevent you from using other security levels, if you prefer. You set the security level of a signed form template to the Domain or Restricted security level.) In addition, you can deploy the signed form template to users who are using an email program and then later automatically update the signed form template by sending the updated version to the users as an attachment to an email message, follow these steps:
   
 ### To digitally sign a form template
 

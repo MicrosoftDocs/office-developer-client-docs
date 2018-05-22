@@ -35,7 +35,7 @@ Contains TRUE if the messaging user is allowed to send and receive messages.
 
 If this property is not set, MAPI treats it as having a TRUE value. 
   
-Set this property to FALSE in a corporate directory where some of the entries are not e-mail-enabled. 
+Set this property to FALSE in a corporate directory where some of the entries are not email-enabled. 
   
 ## Related resources
 

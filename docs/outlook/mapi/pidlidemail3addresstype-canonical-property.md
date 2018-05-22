@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Specifies the address type of the third e-mail address.
+Specifies the address type of the third email address.
   
 |||
 |:-----|:-----|

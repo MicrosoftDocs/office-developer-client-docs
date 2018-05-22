@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Caches the use license for the rights-managed e-mail message.
+Caches the use license for the rights-managed email message.
   
 |||
 |:-----|:-----|
@@ -34,7 +34,7 @@ Caches the use license for the rights-managed e-mail message.
    
 ## Remarks
 
-If the property is present on a rights-managed e-mail message, the first value of this multiple binary property must contain the ZLIB (as specified in [RFC1950]) compressed use license for the rights-managed e-mail message.
+If the property is present on a rights-managed email message, the first value of this multiple binary property must contain the ZLIB (as specified in [RFC1950]) compressed use license for the rights-managed email message.
   
 ## Related resources
 

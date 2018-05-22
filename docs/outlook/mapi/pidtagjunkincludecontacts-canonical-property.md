@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Indicates whether e-mail addresses of the contacts in the Contacts folder are treated specially with respect to the spam filter.
+Indicates whether email addresses of the contacts in the Contacts folder are treated specially with respect to the spam filter.
   
 |||
 |:-----|:-----|
@@ -33,9 +33,9 @@ Indicates whether e-mail addresses of the contacts in the Contacts folder are tr
    
 ## Remarks
 
-If set to "0x00000001", these e-mail addresses must populate the "trusted" contact e-mail address portion of the Junk E-Mail Rule Restriction such that mail from these addresses is treated as "not junk". If set to "0x00000000", e-mail addresses from the Contacts folder must not be added to the Junk E-Mail Rule, and the section of the rule must be NULL.
+If set to "0x00000001", these email addresses must populate the "trusted" contact email address portion of the Junk E-Mail Rule Restriction such that mail from these addresses is treated as "not junk". If set to "0x00000000", email addresses from the Contacts folder must not be added to the Junk E-Mail Rule, and the section of the rule must be NULL.
   
-If this property is present with a value of "0x00000001" and if the added contact has e-mail addresses that are not yet included in the trusted contacts section of the Junk E-Mail Rule, those e-mail addresses must be added to the restriction. If this property is "0x00000000", no action is required.
+If this property is present with a value of "0x00000001" and if the added contact has email addresses that are not yet included in the trusted contacts section of the Junk E-Mail Rule, those email addresses must be added to the restriction. If this property is "0x00000000", no action is required.
   
 ## Related resources
 
@@ -47,7 +47,7 @@ If this property is present with a value of "0x00000001" and if the added contac
     
 [[MS-OXCSPAM]](http://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Enables the handling of allow/block lists and the determination of junk e-mail messages.
+> Enables the handling of allow/block lists and the determination of junk email messages.
     
 ### Header files
 

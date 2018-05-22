@@ -18,7 +18,7 @@ description: "Last modified: July 23, 2011"
   
 **Applies to**: Outlook 
   
-The **attFrom** attribute is encoded as a **TRP** structure which encodes the display name and e-mail address of the sender, followed by the display name and address of the sender, followed by any necessary padding. The format for **attFrom** is as follows: 
+The **attFrom** attribute is encoded as a **TRP** structure which encodes the display name and email address of the sender, followed by the display name and address of the sender, followed by any necessary padding. The format for **attFrom** is as follows: 
   
  **attFrom** _:_
   

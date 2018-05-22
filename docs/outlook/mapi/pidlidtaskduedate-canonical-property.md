@@ -50,7 +50,7 @@ The task has no due date if this property is unset or set to 0x5AE980E0 (1,525,2
     
 [[MS-OXORMDR]](http://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
-> Specifies the properties and the interaction model for e-mail and other object reminders.
+> Specifies the properties and the interaction model for email and other object reminders.
     
 ### Header files
 

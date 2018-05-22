@@ -26,7 +26,7 @@ When a message is addressed, a recipient list is built with properties relating 
     
 - Recipients with an address formatted as follows:
     
-     `displayname[address type:e-mail address]`
+     `displayname[address type:email address]`
     
 For all remaining entries, **ResolveName** searches the address book for an exact match on the display name. **ResolveName** uses the **PR_AB_SEARCH_PATH** ([PidTagAbSearchPath](pidtagabsearchpath-canonical-property.md)) property to determine the set of containers to search and the search order. MAPI calls the [IABContainer::ResolveNames](iabcontainer-resolvenames.md) method of every container to attempt to resolve all of the names. Because some containers do not support **ResolveNames**, if the container returns MAPI_E_NO_SUPPORT, MAPI applies a **PR_ANR** ([PidTagAnr](pidtaganr-canonical-property.md)) property restriction against its contents table. All address book containers are required to support name resolution with this restriction. Once all the names are resolved, no further container calls are made. If all the containers have been called, but ambiguous or unresolved names remain, MAPI displays a dialog box if possible to prompt the user to resolve the remaining names.
   

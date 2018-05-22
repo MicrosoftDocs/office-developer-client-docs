@@ -45,7 +45,7 @@ At first submission of a message, a client application should set this property 
     
 [[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Specifies the properties and operations that are permissible on e-mail message objects.
+> Specifies the properties and operations that are permissible on email message objects.
     
 ### Header files
 

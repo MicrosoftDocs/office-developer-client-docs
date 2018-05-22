@@ -126,7 +126,7 @@ If you have to remove a fully trusted form, you can use the **UnregisterSolution
 
 ### Digitally Signing a Form Template to Create a Fully Trusted Form
 
-Digitally signing a form template enables you to deploy a fully trusted form template by e-mail or on a Web server, such as a server that is running Microsoft SharePoint Foundation. Use the steps in the following three procedures to make a form fully trusted by specifying full trust for the form, signing it digitally, and then publishing it.
+Digitally signing a form template enables you to deploy a fully trusted form template by email or on a Web server, such as a server that is running Microsoft SharePoint Foundation. Use the steps in the following three procedures to make a form fully trusted by specifying full trust for the form, signing it digitally, and then publishing it.
   
 #### To digitally sign a form template
 

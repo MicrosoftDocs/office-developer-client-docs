@@ -47,7 +47,7 @@ When deleting a rule, the only property the client must pass is **PR_RULE_ID** a
     
 [[MS-OXORULE]](http://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
-> Manipulates incoming e-mail messages on a server.
+> Manipulates incoming email messages on a server.
     
 ### Header files
 

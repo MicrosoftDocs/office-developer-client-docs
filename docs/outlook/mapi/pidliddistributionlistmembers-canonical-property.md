@@ -34,11 +34,11 @@ Specifies the list of EntryIds of the objects that correspond to the members of 
    
 ## Remarks
 
-Members of the personal distribution list can be other personal distribution lists, electronic addresses contained in a contact, Global Address List users or distribution lists, or one-off e-mail addresses. The format of each EntryId must be either a one-off EntryId, as specified in [[MS-OXCDATA],](http://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx) or a wrapped EntryId. 
+Members of the personal distribution list can be other personal distribution lists, electronic addresses contained in a contact, Global Address List users or distribution lists, or one-off email addresses. The format of each EntryId must be either a one-off EntryId, as specified in [[MS-OXCDATA],](http://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx) or a wrapped EntryId. 
   
 When setting this property, the client or the server must ensure its total size is less than 15,000 bytes.
   
-This property specifies the list of one-off EntryIds that correspond to the members of the personal distribution list. These one-off EntryIds encapsulate display names and e-mail addresses of the personal distribution list members.
+This property specifies the list of one-off EntryIds that correspond to the members of the personal distribution list. These one-off EntryIds encapsulate display names and email addresses of the personal distribution list members.
   
 If the client or the server set this property, it must be synchronized with this property **dispidDLMembers** for each entry in the **dispidDLOneOffMembers** ([PidLidDistributionListOneOffMembers](pidliddistributionlistoneoffmembers-canonical-property.md)) property, there must be an entry in the same position in the **dispidDLOneOffMembers**.
   

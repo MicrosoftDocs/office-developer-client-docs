@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Specifies the **EntryId** of the object that corresponds to the second e-mail address. 
+Specifies the **EntryId** of the object that corresponds to the second email address. 
   
 |||
 |:-----|:-----|

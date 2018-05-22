@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Specifies the second display name that corresponds to the e-mail address specified for the contact.
+Specifies the second display name that corresponds to the email address specified for the contact.
   
 |||
 |:-----|:-----|

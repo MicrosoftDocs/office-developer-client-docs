@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Specifies the e-mail type of the contact's home fax address.
+Specifies the email type of the contact's home fax address.
   
 |||
 |:-----|:-----|

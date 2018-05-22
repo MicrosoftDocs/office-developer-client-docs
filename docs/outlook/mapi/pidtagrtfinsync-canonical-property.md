@@ -29,7 +29,7 @@ Contains TRUE if the **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompr
 |Associated properties:  <br/> |PR_RTF_IN_SYNC  <br/> |
 |Identifier:  <br/> |0x0E1F  <br/> |
 |Data type:  <br/> |PT_BOOLEAN  <br/> |
-|Area:  <br/> |E-mail  <br/> |
+|Area:  <br/> |Email  <br/> |
    
 ## Remarks
 

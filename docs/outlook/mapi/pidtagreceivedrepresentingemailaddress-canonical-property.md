@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Contains the e-mail address for the messaging user who is represented by the receiving user.
+Contains the email address for the messaging user who is represented by the receiving user.
   
 |||
 |:-----|:-----|
@@ -33,7 +33,7 @@ Contains the e-mail address for the messaging user who is represented by the rec
    
 ## Remarks
 
-These properties are examples of the address properties for the messaging user who is being represented by the receiving user. They must be set by the incoming transport provider, which is also responsible for authorization or verification of the delegate. If no messaging user is being represented, these properties should be set to the e-mail address contained in the **PR_RECEIVED_BY_EMAIL_ADDRESS** ([PidTagReceivedByEmailAddress](pidtagreceivedbyemailaddress-canonical-property.md)) property.
+These properties are examples of the address properties for the messaging user who is being represented by the receiving user. They must be set by the incoming transport provider, which is also responsible for authorization or verification of the delegate. If no messaging user is being represented, these properties should be set to the email address contained in the **PR_RECEIVED_BY_EMAIL_ADDRESS** ([PidTagReceivedByEmailAddress](pidtagreceivedbyemailaddress-canonical-property.md)) property.
   
 A client application replying to a message received on behalf of another client should copy these properties from the received message into the **PR_SENT_REPRESENTING_EMAIL_ADDRESS** ([PidTagSentRepresentingEmailAddress](pidtagsentrepresentingemailaddress-canonical-property.md)) property for the reply.
   
@@ -47,7 +47,7 @@ A client application replying to a message received on behalf of another client 
     
 [[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Specifies the properties and operations that are permissible for e-mail message objects.
+> Specifies the properties and operations that are permissible for email message objects.
     
 [[MS-OXCFXICS]](http://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   

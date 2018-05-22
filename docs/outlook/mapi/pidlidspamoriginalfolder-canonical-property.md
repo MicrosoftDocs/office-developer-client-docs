@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Indicates which folder a message was in before it was filtered into the junk e-mail folder.
+Indicates which folder a message was in before it was filtered into the junk email folder.
   
 |||
 |:-----|:-----|
@@ -46,7 +46,7 @@ The value of this property is the **EntryID** of the folder that contained the m
     
 [[MS-OXCSPAM]](http://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Enables the handling of allow/block lists and the determination of junk e-mail messages.
+> Enables the handling of allow/block lists and the determination of junk email messages.
     
 ### Header files
 

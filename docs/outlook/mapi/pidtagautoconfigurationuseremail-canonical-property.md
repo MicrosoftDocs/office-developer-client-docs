@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Represents the user's e-mail address.
+Represents the user's email address.
   
 |||
 |:-----|:-----|

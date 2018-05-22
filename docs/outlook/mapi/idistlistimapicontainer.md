@@ -66,7 +66,7 @@ Optional distribution list properties include the following:
     
 - **PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) 
     
-Notice that **PR_ADDRTYPE** is required, but **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) is not. That is because a distribution list without an e-mail address can still receive messages, but its member list must be expanded. If the **PR_ADDRTYPE** property is set to MAPIPDL, MAPI performs the expansion. If **PR_ADDRTYPE** is a value other than MAPIPDL, the transport provider performs the expansion. 
+Notice that **PR_ADDRTYPE** is required, but **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) is not. That is because a distribution list without an email address can still receive messages, but its member list must be expanded. If the **PR_ADDRTYPE** property is set to MAPIPDL, MAPI performs the expansion. If **PR_ADDRTYPE** is a value other than MAPIPDL, the transport provider performs the expansion. 
   
 For additional information about how to use the **IDistList** methods, see the reference entries for the parallel methods of **IABContainer**.
   

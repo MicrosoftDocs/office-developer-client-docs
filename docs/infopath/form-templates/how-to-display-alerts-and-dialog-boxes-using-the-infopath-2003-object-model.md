@@ -24,7 +24,7 @@ The [UIObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoP
 |[Confirm](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.Confirm.aspx) <br/> |Displays a message box with buttons for input from a user. The value that is returned is one of the [XdConfirmChoice](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XdConfirmChoice.aspx) enumerated constants.  <br/> |
 |[SetSaveAsDialogFileName](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.SetSaveAsDialogFileName.aspx) <br/> |Sets the default file name for a form in the **Save As** dialog box.  <br/> |
 |[SetSaveAsDialogLocation](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.SetSaveAsDialogLocation.aspx) <br/> |Sets the initial location at which the **Save As** dialog box starts to browse when it is opened.  <br/> |
-|[ShowMailItem](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowMailItem.aspx) <br/> |Creates a new e-mail message in the default e-mail application, with the currently open form attached to the message.  <br/> |
+|[ShowMailItem](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowMailItem.aspx) <br/> |Creates a new email message in the default email application, with the currently open form attached to the message.  <br/> |
 |[ShowModalDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowModalDialog.aspx) <br/> |Displays a modal dialog box, based on the specified .html file and positional arguments. This method should be used if you want to display more than a simple message to the user and you need to get back some data from the user (beyond the simple confirmation that is provided by the **Yes** | **No** | **Cancel** buttons displayed by the **Confirm** method).  <br/> |
 |[ShowSignatureDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowSignatureDialog.aspx) <br/> |Displays the built-in **Digital Signatures** dialog box.  <br/> |
    
@@ -35,13 +35,13 @@ The [UIObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoP
 ```cs
 thisXDocument.UI.ShowMailItem("someone@example.com","", "", 
    "Updated Form", "Here is the updated form that you requested.");
-thisXDocument.UI.Alert("The e-mail message has been created.");
+thisXDocument.UI.Alert("The email message has been created.");
 ```
 
 ```vb
 thisXDocument.UI.ShowMailItem("someone@example.com", "", "", _
    "Updated Form", "Here is the updated form that you requested.")
-thisXDocument.UI.Alert("The e-mail message has been created.")
+thisXDocument.UI.Alert("The email message has been created.")
 ```
 
 ## Using the ShowModalDialog Method

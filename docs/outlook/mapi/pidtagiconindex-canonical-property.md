@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Contains a number that indicates which icon to use when you display a group of e-mail objects.
+Contains a number that indicates which icon to use when you display a group of email objects.
   
 |||
 |:-----|:-----|
@@ -83,7 +83,7 @@ This property, if it exists, is a hint to the client. The client may ignore the 
 |Task acceptance  <br/> |0x00000505  <br/> |
 |Task rejection  <br/> |0x00000506  <br/> |
 |Journal conversation  <br/> |0x00000601  <br/> |
-|Journal e-mail message  <br/> |0x00000602  <br/> |
+|Journal email message  <br/> |0x00000602  <br/> |
 |Journal meeting request  <br/> |0x00000603  <br/> |
 |Journal meeting response  <br/> |0x00000604  <br/> |
 |Journal task request  <br/> |0x00000606  <br/> |
@@ -111,7 +111,7 @@ This property, if it exists, is a hint to the client. The client may ignore the 
     
 [[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Specifies the properties and operations that are permissible on e-mail message objects.
+> Specifies the properties and operations that are permissible on email message objects.
     
 [[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   

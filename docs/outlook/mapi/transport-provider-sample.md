@@ -80,9 +80,9 @@ This sample does not support asynchronous detection of incoming messages.
   
 1. On the **Tools** menu of Outlook, click **Account Settings**.
     
-2. In the **Account Settings** dialog box, on the **E-mail** tab, click **New**.
+2. In the **Account Settings** dialog box, on the **Email** tab, click **New**.
     
-3. Under **Choose E-mail Service** click **Other**, select **MRXP Sample Transport**, and then click **Next**.
+3. Under **Choose Email Service** click **Other**, select **MRXP Sample Transport**, and then click **Next**.
     
 4. In the **MRXP Transport Configuration** dialog box type a **User Display Name**.
     
@@ -93,7 +93,7 @@ This sample does not support asynchronous detection of incoming messages.
   
 6. Click **OK**.
     
-7. In the **Add E-mail Account** dialog box click **OK**. Click **Finish** and then click **Close**.
+7. In the **Add Email Account** dialog box click **OK**. Click **Finish** and then click **Close**.
     
 8. To start using the MRXP account, exit and restart Outlook.
     

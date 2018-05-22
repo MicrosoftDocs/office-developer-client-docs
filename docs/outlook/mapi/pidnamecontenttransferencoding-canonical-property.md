@@ -30,7 +30,7 @@ Contains an [RFC3282] Content-Transfer-Encoding header field value.
 |Property set:  <br/> |PS_INTERNET_HEADERS  <br/> |
 |Property name:  <br/> |Content-Transfer-Encoding  <br/> |
 |Data type:  <br/> |PT_UNICODE  <br/> |
-|Area:  <br/> |E-mail  <br/> |
+|Area:  <br/> |Email  <br/> |
    
 ## Related resources
 

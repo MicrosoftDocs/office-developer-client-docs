@@ -9,12 +9,12 @@ ms.audience: Developer
  
 localization_priority: Normal
 ms.assetid: 074181a2-3a75-824c-049d-549aabff0f9f
-description: "Microsoft InfoPath is a hybrid tool that combines the best of a traditional document editing experience, such as a word processor or e-mail application, with the rigorous data-capture capabilities of a forms package. This article describes the problems InfoPath is designed to address and explains the design principles and XML industry standards used to solve these problems."
+description: "Microsoft InfoPath is a hybrid tool that combines the best of a traditional document editing experience, such as a word processor or email application, with the rigorous data-capture capabilities of a forms package. This article describes the problems InfoPath is designed to address and explains the design principles and XML industry standards used to solve these problems."
 ---
 
 # About InfoPath Support for XML Technologies
 
-Microsoft InfoPath is a hybrid tool that combines the best of a traditional document editing experience, such as a word processor or e-mail application, with the rigorous data-capture capabilities of a forms package. This article describes the problems InfoPath is designed to address and explains the design principles and XML industry standards used to solve these problems.
+Microsoft InfoPath is a hybrid tool that combines the best of a traditional document editing experience, such as a word processor or email application, with the rigorous data-capture capabilities of a forms package. This article describes the problems InfoPath is designed to address and explains the design principles and XML industry standards used to solve these problems.
   
 ## Introduction
 

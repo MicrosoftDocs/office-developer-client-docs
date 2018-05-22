@@ -66,11 +66,11 @@ On calls to the [IAddrBook::ResolveName](iaddrbook-resolvename.md) method when t
     
 [[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Specifies the properties and operations that are permissible for e-mail message objects.
+> Specifies the properties and operations that are permissible for email message objects.
     
 [[MS-OXCMAIL]](http://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> from Internet standard e-mail conventions to message objects.
+> from Internet standard email conventions to message objects.
     
 ### Header files
 

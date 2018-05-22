@@ -26,7 +26,7 @@ This section contains code samples of three MAPI service providers:
     
 - [Address Book Provider Sample](address-book-provider-sample.md)
     
-    This sample supports a single read-only container for display names and e-mail addresses, which are read from a flat binary file.
+    This sample supports a single read-only container for display names and email addresses, which are read from a flat binary file.
     
 - [Message Store Provider Sample](message-store-provider-sample.md)
     
