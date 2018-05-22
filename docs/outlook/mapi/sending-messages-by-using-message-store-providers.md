@@ -1,5 +1,5 @@
 ---
-title: "Sending Messages by Using Message Store Providers"
+title: "Sending messages by using message store providers"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,14 +8,10 @@ api_type:
 - COM
 ms.assetid: 7632d784-00d8-48fd-a73b-73778efbef7f
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
-# Sending Messages by Using Message Store Providers
+# Sending messages by using message store providers
 
-  
-  
 **Applies to**: Outlook 
   
 Message store providers are not required to support outgoing message submissions (that is, the ability for client applications to use the message store provider to send messages). Client applications need to use a message store while sending messages, because the message's data must be stored somewhere between the time that the user is finished composing it and the time that the MAPI spooler gives the message to a transport provider for submission to the underlying messaging system. If your message store provider does not support outgoing message submissions, it cannot be used as the default message store.
@@ -48,65 +44,65 @@ The client application calls the [IMessage::SubmitMessage](imessage-submitmessag
     
 5. Calls [IMAPISupport::ExpandRecips](imapisupport-expandrecips.md) to do the following: 
     
-1. Expand all personal distribution lists and custom recipients and replace all changed display names with their original names.
-    
-2. Remove duplicate names.
-    
-3. Check for any required preprocessing and, if preprocessing is required, set the NEEDS_PREPROCESSING flag and the **PR_PREPROCESS** ([PidTagPreprocess](pidtagpreprocess-canonical-property.md)) property, which is reserved for MAPI. 
-    
-4. Set the NEEDS_SPOOLER flag if the message store is tightly coupled with a transport and it cannot handle all of the recipients. 
+    1. Expand all personal distribution lists and custom recipients and replace all changed display names with their original names.
+        
+    2. Remove duplicate names.
+        
+    3. Check for any required preprocessing and, if preprocessing is required, set the NEEDS_PREPROCESSING flag and the **PR_PREPROCESS** ([PidTagPreprocess](pidtagpreprocess-canonical-property.md)) property, which is reserved for MAPI. 
+        
+    4. Set the NEEDS_SPOOLER flag if the message store is tightly coupled with a transport and it cannot handle all of the recipients. 
     
 6. Performs the following tasks if the NEEDS_PREPROCESSING message flag is set:
     
-1. Puts the message in the outgoing queue with the SUBMITFLAG_PREPROCESS bit set in the **PR_SUBMIT_FLAGS** property. 
+    1. Puts the message in the outgoing queue with the SUBMITFLAG_PREPROCESS bit set in the **PR_SUBMIT_FLAGS** property. 
+        
+    2. Notifies the MAPI spooler that the queue has changed.
+        
+    3. Returns control to the client, and message flow continues in the MAPI spooler. The MAPI spooler performs the following tasks: 
     
-2. Notifies the MAPI spooler that the queue has changed.
-    
-3. Returns control to the client, and message flow continues in the MAPI spooler. The MAPI spooler performs the following tasks: 
-    
-1. Locks the message by calling [IMsgStore::SetLockState](imsgstore-setlockstate.md).
-    
-2. Performs the needed preprocessing by calling all of the preprocessing functions in the order of registration. Transport providers call [IMAPISupport::RegisterPreprocessor](imapisupport-registerpreprocessor.md) to register preprocessing functions. 
-    
-3. Calls [IMessage::SubmitMessage](imessage-submitmessage.md) on the open message to indicate to the message store that preprocessing is complete. 
+       1. Locks the message by calling [IMsgStore::SetLockState](imsgstore-setlockstate.md).
+            
+       2. Performs the needed preprocessing by calling all of the preprocessing functions in the order of registration. Transport providers call [IMAPISupport::RegisterPreprocessor](imapisupport-registerpreprocessor.md) to register preprocessing functions. 
+            
+       3. Calls [IMessage::SubmitMessage](imessage-submitmessage.md) on the open message to indicate to the message store that preprocessing is complete. 
     
 If there was no preprocessing, or there was preprocessing and the MAPI spooler called **SubmitMessage**, the message store provider does the following in the client process: 
   
 - Performs the following tasks if the message store is tightly coupled to a transport and the NEEDS_SPOOLER flag was returned from [IMAPISupport::ExpandRecips](imapisupport-expandrecips.md):
     
-  - Handles any recipients that it can handle.
+   - Handles any recipients that it can handle.
     
-  - Sets the **PR_RESPONSIBILITY** property to TRUE for any recipients that it handles. 
+   - Sets the **PR_RESPONSIBILITY** property to TRUE for any recipients that it handles. 
     
-  - Performs the following tasks if all recipients are known to this tightly coupled store and transport: 
+   - Performs the following tasks if all recipients are known to this tightly coupled store and transport: 
     
-  - Calls [IMAPISupport::CompleteMsg](imapisupport-completemsg.md) if the message was preprocessed or the message store provider wants the MAPI spooler to complete message processing. Message flow continues with the MAPI spooler. 
+     - Calls [IMAPISupport::CompleteMsg](imapisupport-completemsg.md) if the message was preprocessed or the message store provider wants the MAPI spooler to complete message processing. Message flow continues with the MAPI spooler. 
     
-  - Performs the following tasks if the message was not preprocessed or the message store provider does not want the MAPI spooler to complete message processing:
+     - Performs the following tasks if the message was not preprocessed or the message store provider does not want the MAPI spooler to complete message processing:
     
-1. Copies the message to the folder identified by the entry identifier in the **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) property, if set.
-    
-2. Deletes the message if the **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) property has been set to TRUE.
-    
-3. Unlocks the message if it is locked.
-    
-4. Returns to the client. Message flow is complete.
+       1. Copies the message to the folder identified by the entry identifier in the **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) property, if set.
+            
+       2. Deletes the message if the **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) property has been set to TRUE.
+            
+       3. Unlocks the message if it is locked.
+            
+       4. Returns to the client. Message flow is complete.
     
   - Performs the following tasks if the message was preprocessed or the provider wants the MAPI spooler to complete message processing:
     
-1. Calls [IMAPISupport::CompleteMsg](imapisupport-completemsg.md). 
-    
-2. Continues message flow with the MAPI spooler. For more information, see [Sending Messages: MAPI Spooler Tasks](sending-messages-mapi-spooler-tasks.md).
+    1. Calls [IMAPISupport::CompleteMsg](imapisupport-completemsg.md). 
+          
+    2. Continues message flow with the MAPI spooler. For more information, see [Sending Messages: MAPI Spooler Tasks](sending-messages-mapi-spooler-tasks.md).
     
   - Performs the following tasks if the message was not preprocessed or the provider does not want the spooler to complete message processing:
     
-1. Copies the message to the folder identified by the entry identifier in the **PR_SENTMAIL_ENTRYID** property, if set. 
-    
-2. Deletes the message if the **PR_DELETE_AFTER_SUBMIT** property has been set to TRUE. 
-    
-3. Unlocks the message if it is locked. 
-    
-4. Returns to the caller. Message flow is complete.
+    1. Copies the message to the folder identified by the entry identifier in the **PR_SENTMAIL_ENTRYID** property, if set. 
+        
+    2. Deletes the message if the **PR_DELETE_AFTER_SUBMIT** property has been set to TRUE. 
+        
+    3. Unlocks the message if it is locked. 
+        
+    4. Returns to the caller. Message flow is complete.
     
 - Performs the following tasks if the message store is not tightly coupled to a transport, not all of the recipients were known to the message store, or the NEEDS_SPOOLER flag is set:
     
@@ -118,7 +114,5 @@ If there was no preprocessing, or there was preprocessing and the MAPI spooler c
     
 ## See also
 
-
-
-[Message Store Features](message-store-features.md)
+- [Message Store Features](message-store-features.md)
 

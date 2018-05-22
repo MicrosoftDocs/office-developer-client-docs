@@ -1,7 +1,5 @@
 ---
 title: "SContentRestriction"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -17,9 +15,7 @@ description: "Last modified: March 09, 2015"
 ---
 
 # SContentRestriction
-
-  
-  
+ 
 **Applies to**: Outlook 
   
 Describes a content restriction, which is used to limit a table view to only those rows that include a column with contents matching a search string. 
@@ -40,43 +36,31 @@ typedef struct _SContentRestriction
 
 ## Members
 
- **ulFuzzyLevel**
+**ulFuzzyLevel**
   
 > Option settings defining the level of preciseness that the content restriction should enforce when you verify for a match.
     
-    The lower 16 bits of the **ulFuzzyLevel** member apply to properties of type PT_BINARY and PT_STRING8 and must be set to one of the following values: 
+   The **lower 16 bits** of the **ulFuzzyLevel** member apply to properties of type PT_BINARY and PT_STRING8 and must be set to one of the following values: 
     
-FL_FULLSTRING 
-  
-> To match, the **lpProp** search string must be contained in the property identified by **ulPropTag**.
+   - FL_FULLSTRING: To match, the **lpProp** search string must be contained in the property identified by **ulPropTag**.
+        
+   - FL_PREFIX : To match, the **lpProp** search string must appear at the start of the property identified by **ulPropTag**. The two strings should be compared only up to the length of the search string indicated by **lpProp**. 
+        
+   - FL_SUBSTRING: To match, the **lpProp** search string must be contained anywhere in the property identified by **ulPropTag**. 
+        
+   The **upper 16 bits** of the **ulFuzzyLevel** member apply only to properties of type PT_STRING8 and can be set to the following values in any combination: 
+        
+   - FL_IGNORECASE: The comparison should be made without considering case. 
+        
+   - FL_IGNORENONSPACE: The comparison should ignore Unicode-defined non-spacing characters such as diacritical marks. 
+        
+   - FL_LOOSE: The comparison should give you a match whenever possible, ignoring case and non-spacing characters. 
     
-FL_PREFIX 
-  
-> To match, the **lpProp** search string must appear at the start of the property identified by **ulPropTag**. The two strings should be compared only up to the length of the search string indicated by **lpProp**. 
-    
-FL_SUBSTRING 
-  
-> To match, the **lpProp** search string must be contained anywhere in the property identified by **ulPropTag**. 
-    
-    The upper 16 bits of the **ulFuzzyLevel** member apply only to properties of type PT_STRING8 and can be set to the following values in any combination: 
-    
-FL_IGNORECASE 
-  
-> The comparison should be made without considering case. 
-    
-FL_IGNORENONSPACE 
-  
-> The comparison should ignore Unicode-defined non-spacing characters such as diacritical marks. 
-    
-FL_LOOSE 
-  
-> The comparison should give you a match whenever possible, ignoring case and non-spacing characters. 
-    
- **ulPropTag**
+**ulPropTag**
   
 > Property tag identifying the string property to be checked for occurrence of the search string. 
     
- **lpProp**
+**lpProp**
   
 > Pointer to a property value structure that contains the string value to use as the search string.
     
@@ -94,12 +78,7 @@ For more information about the **SContentRestriction** structure and restriction
   
 ## See also
 
-
-
-[SPropValue](spropvalue.md)
-  
-[SRestriction](srestriction.md)
-
-
-[MAPI Structures](mapi-structures.md)
+- [SPropValue](spropvalue.md)
+- [SRestriction](srestriction.md)
+- [MAPI Structures](mapi-structures.md)
 
