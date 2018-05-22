@@ -1,7 +1,5 @@
 ---
 title: "ROWENTRY"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -18,8 +16,6 @@ description: "Last modified: March 09, 2015"
 
 # ROWENTRY
 
-  
-  
 **Applies to**: Outlook 
   
 Contains a row and the operation that is performed on that row in a table through the [IExchangeModifyTable](iexchangemodifytableiunknown.md) interface. 
@@ -35,31 +31,23 @@ typedef struct
 
 ## Members
 
- **ulRowFlags**
+**ulRowFlags**
   
 > One of the following operations to be performed on the data: 
     
-ROW_ADD
-  
-> Add the data to the table as a new row.
+  - ROW_ADD: Add the data to the table as a new row.
+      
+  - ROW_MODIFY: Modify this row in the table.
+      
+  - ROW_REMOVE: Remove this row from the table.
+      
+  - ROW_EMPTY: Do not add the row data to the table. (The row is empty.)
     
-ROW_MODIFY
-  
-> Modify this row in the table.
-    
-ROW_REMOVE
-  
-> Remove this row from the table.
-    
-ROW_EMPTY
-  
-> Do not add the row data to the table. (The row is empty.)
-    
- **cValues**
+**cValues**
   
 > The number of property values in **rgPropvals**.
     
- **rgPropVals**
+**rgPropVals**
   
 > An array of [SPropValue](spropvalue.md) structures representing the columns values to be inserted into the table. 
     
@@ -72,13 +60,7 @@ For MFCMAPI sample code, see the following table.
 |RulesDlg.cpp  <br/> |CRulesDlg::GetSelectedItems  <br/> |Used to build a list of selected rules for subsequent **ModifyTable** actions.  <br/> |
    
 ## See also
-
-
-
-[ROWENTRY](rowentry.md)
   
-[IExchangeModifyTable : IUnknown](iexchangemodifytableiunknown.md)
-
-
-[MAPI Structures](mapi-structures.md)
+- [IExchangeModifyTable : IUnknown](iexchangemodifytableiunknown.md)
+- [MAPI Structures](mapi-structures.md)
 

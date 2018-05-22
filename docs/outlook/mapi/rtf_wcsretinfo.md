@@ -1,7 +1,5 @@
 ---
 title: "RTF_WCSRETINFO"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -14,8 +12,6 @@ description: "Last modified: March 09, 2015"
 
 # RTF_WCSRETINFO
 
-  
-  
 **Applies to**: Outlook 
   
 This structure provides information about a stream in native format returned from decompressing the body of a message that is encapsulated in compressed Rich Text Format (RTF).
@@ -31,11 +27,11 @@ typedef struct {
 
 ## Members
 
- _size_
+_size_
   
 > The size of the **RTF_WCSRETINFO** structure in number of bytes. 
     
- _ulStreamFlags_
+_ulStreamFlags_
   
 > This is a value that indicates the format of the native body. This value is only valid if the **MAPI_NATIVE_BODY** flag is passed in the  _ulFlags_ parameter of the [RTF_WCSINFO](rtf_wcsinfo.md) structure that is passed to the [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) function. This can be one of the following values: 
     
@@ -47,7 +43,5 @@ typedef struct {
    
 ## See also
 
-
-
-[WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md)
+- [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md)
 

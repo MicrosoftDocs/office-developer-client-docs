@@ -41,13 +41,13 @@ Possible ID values include:
     
    The data is a four byte value formatted as:
     
-|**Bits**|**Description**|
-|:-----|:-----|
-|0-1  <br/> |Reserved.  <br/> |
-|2  <br/> |Set to 0 if the application should show a policy description.  <br/> |
-|3-5  <br/> |Reserved.  <br/> |
-|6-7  <br/> |Controls the display of the number of messages in the folder.  <br/> 0 - Use the default setting  <br/> 1 - Use the number of unread messages  <br/> 3 - Use the total number of messages  <br/> |
-|8-31  <br/> |Reserved.  <br/> |
+   |**Bits**|**Description**|
+   |:-----|:-----|
+   |0-1  <br/> |Reserved.  <br/> |
+   |2  <br/> |Set to 0 if the application should show a policy description.  <br/> |
+   |3-5  <br/> |Reserved.  <br/> |
+   |6-7  <br/> |Controls the display of the number of messages in the folder.  <br/> 0 - Use the default setting  <br/> 1 - Use the number of unread messages  <br/> 3 - Use the total number of messages  <br/> |
+   |8-31  <br/> |Reserved.  <br/> |
    
 Reserved items can be ignored, but existing values must be preserved.
     
@@ -87,13 +87,8 @@ Mapitags.h
     
 ## See also
 
-
-
-[MAPI Properties](mapi-properties.md)
-  
-[MAPI Canonical Properties](mapi-canonical-properties.md)
-  
-[Mapping Canonical Property Names to MAPI Names](mapping-canonical-property-names-to-mapi-names.md)
-  
-[Mapping MAPI Names to Canonical Property Names](mapping-mapi-names-to-canonical-property-names.md)
+- [MAPI Properties](mapi-properties.md)
+- [MAPI Canonical Properties](mapi-canonical-properties.md)
+- [Mapping Canonical Property Names to MAPI Names](mapping-canonical-property-names-to-mapi-names.md)
+- [Mapping MAPI Names to Canonical Property Names](mapping-mapi-names-to-canonical-property-names.md)
 

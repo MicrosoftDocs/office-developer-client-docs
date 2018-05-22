@@ -1,5 +1,5 @@
 ---
-title: "PropertyDefinition Stream Structure"
+title: "PropertyDefinition stream structure"
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -10,10 +10,8 @@ description: "Last modified: March 09, 2015"
  
 ---
 
-# PropertyDefinition Stream Structure
+# PropertyDefinition stream structure
 
-  
-  
 **Applies to**: Outlook 
   
 A PropertyDefinition stream structure is an array of [FieldDefinition](fielddefinition-stream-structure.md) stream structures that contain definitions for all user-defined fields in a Microsoft Outlook item, and data-binding settings for some built-in fields. 
@@ -26,10 +24,10 @@ Data elements in this stream are stored in little-endian byte order, immediately
   
 - Version: WORD (2 bytes), the format of the field definitions in the PropertyDefinition stream structure. The following table shows the possible values.
     
-|**Value**|**Description**|
-|:-----|:-----|
-|0x0102  <br/> |Format is PropDefV1.  <br/> |
-|0x0103  <br/> |Format is PropDefV2.  <br/> |
+    |**Value**|**Description**|
+    |:-----|:-----|
+    |0x0102  <br/> |Format is PropDefV1.  <br/> |
+    |0x0103  <br/> |Format is PropDefV2.  <br/> |
    
 - FieldDefinitionCount: DWORD (4 bytes), the number of field definitions in this stream. This is the count of array elements in the FieldDefinitions data element.
     
@@ -37,13 +35,8 @@ Data elements in this stream are stored in little-endian byte order, immediately
     
 ## See also
 
-
-
-[Outlook Items and Fields](outlook-items-and-fields.md)
-  
-[Add a Definition for a New User-Defined Field](how-to-add-a-definition-for-a-new-user-defined-field.md)
-  
-[PropertyDefinition Stream Sample](propertydefinition-stream-sample.md)
-  
-[Stream Structures](stream-structures.md)
+- [Outlook Items and Fields](outlook-items-and-fields.md)
+- [Add a Definition for a New User-Defined Field](how-to-add-a-definition-for-a-new-user-defined-field.md)
+- [PropertyDefinition Stream Sample](propertydefinition-stream-sample.md)
+- [Stream Structures](stream-structures.md)
 
