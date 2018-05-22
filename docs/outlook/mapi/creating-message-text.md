@@ -18,13 +18,13 @@ Although some messages are made up of nothing more than a recipient list and a s
 
 If your client is plain text-based, set **PR\_BODY**. If you support formatted text in the Rich Text Format (RTF), set either **PR_RTF_COMPRESSED** only or both **PR_RTF_COMPRESSED** and **PR\_BODY**, depending on the message store provider that you are using. When an RTF-aware client is using an RTF-aware message store, it sets **PR_RTF_COMPRESSED** only. When an RTF-aware client is using a non-RTF-aware message store, it sets both properties. If your client supports HTML, set the **PR_HTML** property. 
   
-## Determine whether or not your message store supports Rich Text Format
+## Determine whether your message store supports Rich Text Format
   
 1. Call the message store's [IMAPIProp::GetProps](imapiprop-getprops.md) method to retrieve the **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) property.
     
 2. Check for the STORE_RTF_OK bit. If STORE_RTF_OK is set, the message store provider supports RTF text. If it is not set, the message store provider supports plain text only.
     
-## Determine whether or not your message store supports HTML
+## Determine whether your message store supports HTML
   
 1. Call the message store's [IMAPIProp::GetProps](imapiprop-getprops.md) method to retrieve the **PR_STORE_SUPPORT_MASK** property. 
     

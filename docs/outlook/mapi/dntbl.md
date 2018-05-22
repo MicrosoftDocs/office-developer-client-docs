@@ -1,7 +1,5 @@
 ---
 title: "DNTBL"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,9 +11,7 @@ description: "Last modified: July 05, 2012"
 ---
 
 # DNTBL
-
-  
-  
+ 
 **Applies to**: Outlook 
   
 Information for downloading the contents of a folder from the server during the [download table state](download-table-state.md), as part of a full synchronization for contents on a store.
@@ -48,85 +44,81 @@ struct DNTBL
 
 ## Members
 
- _ulFlags_
+_ulFlags_
   
 > [in] Flags to modify behavior 
     
-    - DNT_OK
+  - DNT_OK
     
-  - [in] Download was successful. The client sets this after downloading information from the server.
+    - [in] Download was successful. The client sets this after downloading information from the server.
     
- _pstmReserved1_
+_pstmReserved1_
   
 > [out] This member is reserved for the internal use of Outlook and is not supported. 
     
- _pstmReserved2_
+_pstmReserved2_
   
 > [out] This member is reserved for the internal use of Outlook and is not supported. 
     
- _pstmReserved3_
+_pstmReserved3_
   
 > [out] This member is reserved for the internal use of Outlook and is not supported. 
     
- _pstmReserved4_
+_pstmReserved4_
   
 > [out] This member is reserved for the internal use of Outlook and is not supported. 
     
- _pxicc_
+_pxicc_
   
 >  [out] Pointer to the **IExchangeImportContentsChanges** contents interface that supports downloading content changes. For more information on **IExchangeImportContentsChanges**, see [ICS Evaluation Criteria](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx).
     
- _pxihc_
+_pxihc_
   
 >  [out] Pointer to the **IExchangeImportHierarchyChanges** hierarchy interface that supports downloading incremental hierarchy changes. For more information on **IExchangeImportHierarchyChanges**, see [ICS Evaluation Criteria](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx).
     
- _pszName_
+_pszName_
   
 >  [out] Name of the folder. 
     
- _ftLastMod_
+_ftLastMod_
   
 >  [out] Last modification time of the folder. 
     
- _ulRights_
+_ulRights_
   
 >  [out] Value of the **[PR_RIGHTS](http://msdn.microsoft.com/en-us/library/ee238052%28v=EXCHG.80%29.aspx)** property of the folder. 
     
- _feid_
+_feid_
   
 >  [out] Entry ID of the folder. 
     
- _uintReserved_
+_uintReserved_
   
 >  [out] This member is reserved for the internal use of Outlook and is not supported. 
     
- _rgte_
+_rgte_
   
 > [out] Changes for normal (or non-hidden) and associated (or hidden) items.  *rgte[0]*  is for normal items, and  *rgte[1]*  is for associated items. Outlook populates this member during the downloading when using Incremental Change Synchronization (ICS). For more information on ICS, see [ICS Evaluation Criteria](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx).
     
- _lpsrReserved_
+_lpsrReserved_
   
 >  [in]/[out] This member is reserved for the internal use of Outlook and is not supported. 
     
- _boReserved_
+_boReserved_
   
 >  [in]This member is reserved for the internal use of Outlook and is not supported. 
     
- _pReserved1_
+_pReserved1_
   
 >  [out]This member is reserved for the internal use of Outlook and is not supported. 
     
- _pReserved2_
+_pReserved2_
   
 >  [in]This member is reserved for the internal use of Outlook and is not supported. 
     
 ## See also
 
-
-
-[About the Replication State Machine](about-the-replication-state-machine.md)
-  
-[MAPI Constants](mapi-constants.md)
-  
-[DNTBLE](dntble.md)
+- [About the Replication State Machine](about-the-replication-state-machine.md)  
+- [MAPI Constants](mapi-constants.md) 
+- [DNTBLE](dntble.md)
 
