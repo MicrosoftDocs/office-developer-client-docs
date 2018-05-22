@@ -1,7 +1,5 @@
 ---
 title: "IConverterSessionSetEncoding"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -18,8 +16,6 @@ description: "Last modified: March 09, 2015"
 
 # IConverterSession::SetEncoding
 
-  
-  
 **Applies to**: Outlook 
   
 Initializes the encoding to be used during conversion.
@@ -32,19 +28,15 @@ HRESULT IConverterSession:: SetEncoding (
 
 ## Parameters
 
- _et_
+_et_
   
 > An [ENCODINGTYPE](http://msdn.microsoft.com/en-us/library/aa374936%28VS.85%29.aspx) value. Only the following values are supported: 
     
-    - IET_BASE64
-    
-    - IET_UUENCODE
-    
-    - IET_QP
-    
-    - IET_7BIT
-    
-    - IET_8BIT
+   - IET_BASE64
+   - IET_UUENCODE
+   - IET_QP
+   - IET_7BIT
+   - IET_8BIT
     
 ## Return value
 
@@ -58,7 +50,7 @@ Call **SetEncoding** before using [IConverterSession::MAPIToMIMEStm](iconverters
   
 Use **SetEncoding** to set the encoding for only the outermost message body of a mail item. Microsoft Outlook 2010 and Microsoft Outlook 2013 choose the encoding for any individual attachments. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   
@@ -69,22 +61,12 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-
-
-[IConverterSession : IUnknown](iconvertersessioniunknown.md)
-  
-[IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md)
-  
-[IConverterSession::MIMEToMAPI](iconvertersession-mimetomapi.md)
-  
-[IConverterSession::SetAdrBook](iconvertersession-setadrbook.md)
-  
-[IConverterSession::SetCharSet](iconvertersession-setcharset.md)
-  
-[IConverterSession::SetSaveFormat](iconvertersession-setsaveformat.md)
-  
-[IConverterSession::SetTextWrapping](iconvertersession-settextwrapping.md)
-
-
-[MAPI Constants](mapi-constants.md)
+- [IConverterSession : IUnknown](iconvertersessioniunknown.md)
+- [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md)
+- [IConverterSession::MIMEToMAPI](iconvertersession-mimetomapi.md)
+- [IConverterSession::SetAdrBook](iconvertersession-setadrbook.md)
+- [IConverterSession::SetCharSet](iconvertersession-setcharset.md)
+- [IConverterSession::SetSaveFormat](iconvertersession-setsaveformat.md)
+- [IConverterSession::SetTextWrapping](iconvertersession-settextwrapping.md)
+- [MAPI Constants](mapi-constants.md)
 
