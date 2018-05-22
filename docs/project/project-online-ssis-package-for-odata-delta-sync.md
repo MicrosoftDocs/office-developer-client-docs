@@ -129,8 +129,6 @@ The following flow runs during each sync. It creates and configures storage for 
 ### Full sync flow: Get assignment timephased data for all projects
 
 The following flow runs during a full sync.
-  
-- [Record assignment timephased data for all projects](project-online-ssis-package-for-odata-delta-sync.md#FullRecordAllData)
     
 #### Record assignment timephased data for all projects
 <a name="FullRecordAllData"> </a>
@@ -151,11 +149,10 @@ The following components make up the **Add All Records** data flow.
    
 ### Delta sync flow: Get assignment timephased data for changed projects only
 
-The following flows run during a delta sync.
+The following flows run during a delta sync:
   
-- [Prepare the projects loop and delete obsolete records](project-online-ssis-package-for-odata-delta-sync.md#DeltaPrepLoop)
-    
-- [Foreach loop: Skip the current project, or delete obsolete records and add updated records](project-online-ssis-package-for-odata-delta-sync.md#DeltaForEach)
+- Prepare the projects loop and delete obsolete records.
+- For each loop: Skip the current project, or delete obsolete records and add updated records.
     
 #### Prepare the projects loop and delete obsolete records
 <a name="DeltaPrepLoop"> </a>
@@ -167,7 +164,7 @@ The following flows run during a delta sync.
 |![Delete obsolete records and prepare projects loop](media/PJ15_SSISOData_PrepProjectsFlow5.png)|**Set Local URL** gets all project UIDs from the assignments table and saves the result in a local variable. Later in the flow, the IDs are matched to the projects in the OData feed to determine whether a project is obsolete and its assignment records can be deleted.  <br/> |
 |**Get Projects** saves project information and deletes assignment records. **Get Projects** has two branches (shown below).  <br/> |
    
-#### The Get Projects data flow with its two branches
+##### The Get Projects data flow with its two branches
 
 One branch of the **Get Projects** data flow saves the projects into a recordset to use in the loop. The other branch deletes obsolete assignment records from storage. 
 
@@ -181,7 +178,9 @@ One branch of the **Get Projects** data flow saves the projects into a recordset
    
 > [!NOTE]
 > The **TaskModifiedDate** on the Task entity can't be used for the sync because all tasks are updated when a project is published. 
-  
+
+<br/>
+
 #### For each loop: Skip the current project, or delete obsolete records and add updated records
 <a name="DeltaForEach"> </a>
 

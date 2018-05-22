@@ -97,7 +97,7 @@ Many assemblies are installed when you install Project Server; only four of the 
   
 When developing for Project Online, you can use only the CSOM to access Project Server functionality. You do not have access to the PSI services or the other Project Server assemblies.
   
-The [Project Server 2013 class library and web service reference](http://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx) for the PSI includes namespaces from the following four assemblies: 
+The [Project Server 2013 class library and web service reference](http://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx) for the PSI includes namespaces from the following assemblies: 
   
 - **Microsoft.Office.Project.Server.Library.dll** This assembly contains one documented namespace and three undocumented namespaces, as follows: 
     
@@ -105,13 +105,13 @@ The [Project Server 2013 class library and web service reference](http://msdn.mi
     
     The **Microsoft.Office.Project.Server.Library** namespace also includes the following seven property classes, which include over 3,200 subclasses: 
     
-    - **AssignmentProperties**  
-    - **CalendarProperties**
-    - **ConstraintProperties**
-    - **LookupTableProperties**
-    - **ProjectProperties**
-    - **ResourceProperties**
-    - **TaskProperties**
+      - **AssignmentProperties**  
+      - **CalendarProperties**
+      - **ConstraintProperties**
+      - **LookupTableProperties**
+      - **ProjectProperties**
+      - **ResourceProperties**
+      - **TaskProperties**
     
     The property classes are used internally and are not documented. The property classes are used for serialization between Project Professional 2013 and Project Server. When you work with the **Microsoft.Office.Project.Server.Library** namespace in Visual Studio, the Object Browser shows all of the property classes, which makes it more difficult to find classes that are useful for third-party development. Because third-party developers do not have to use the property classes, the SDK does not document them. 
     
@@ -138,7 +138,7 @@ The [Project Server 2013 class library and web service reference](http://msdn.mi
   Developers write event handlers that derive from event receiver classes. Most of the primary classes in the PSI services have a corresponding event receiver class. For example, the **ProjectEventReceiver** class contains pre-event and post-event receiver methods that correspond to methods in the **Project** class in the PSI. The **OnCreating** method and the **OnCreated** method are the pre-event and post-event receiver methods for the **QueueCreateProject** method. 
     
   Developers typically use the following event receiver classes: 
-    
+  <br/>  
   - [AdminEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.AdminEventReceiver.aspx)
   - [CalendarEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.CalendarEventReceiver.aspx)
   - [CubeAdminEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.CubeAdminEventReceiver.aspx)
