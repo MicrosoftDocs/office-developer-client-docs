@@ -1,5 +1,5 @@
 ---
-title: "Handling Message Store Notification"
+title: "Handling message store notification"
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -8,13 +8,9 @@ api_type:
 - COM
 ms.assetid: 3e0cc2f9-a88d-4cec-bef5-b60f2ec80f1c
 description: "Last modified: March 09, 2015"
- 
- 
 ---
 
-# Handling Message Store Notification
-
-  
+# Handling message store notification
   
 **Applies to**: Outlook 
   

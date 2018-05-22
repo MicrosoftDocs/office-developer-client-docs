@@ -1,5 +1,5 @@
 ---
-title: "Handling Named Property Errors"
+title: "Handling named property errors"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,13 +8,9 @@ api_type:
 - COM
 ms.assetid: f56c56d8-db46-4c69-876f-2bbb4a5c1185
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
-# Handling Named Property Errors
-
-  
+# Handling named property errors
   
 **Applies to**: Outlook 
   
@@ -34,7 +30,5 @@ Sometimes a client makes a call to **GetNamesFromIDs** that results in no proper
     
 ## See also
 
-
-
-[MAPI Named Properties](mapi-named-properties.md)
+- [MAPI Named Properties](mapi-named-properties.md)
 

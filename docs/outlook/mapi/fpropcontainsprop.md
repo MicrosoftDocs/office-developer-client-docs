@@ -1,7 +1,5 @@
 ---
 title: "FPropContainsProp"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -18,8 +16,6 @@ description: "Last modified: March 09, 2015"
 
 # FPropContainsProp
 
-  
-  
 **Applies to**: Outlook 
   
 Compares two property values, generally strings or binary arrays, to see if one contains the other. 
@@ -40,43 +36,45 @@ BOOL FPropContainsProp(
 
 ## Parameters
 
- _lpSPropValueDst_
+_lpSPropValueDst_
   
 > [in] Pointer to an [SPropValue](spropvalue.md) structure defining the property value that might contain the search string pointed to by the  _lpSPropValueSrc_ parameter. 
     
- _lpSPropValueSrc_
+_lpSPropValueSrc_
   
 > [in] Pointer to an **SPropValue** structure defining the search string that **FPropContainsProp** is seeking in the property value pointed to by the  _lpSPropValueDst_ parameter. 
     
- _ulFuzzyLevel_
+_ulFuzzyLevel_
   
-> [in] Option settings defining the level of preciseness to use in the comparison. The lower 16 bits apply to properties of type PT_BINARY and PT_STRING8. They must be set to exactly one of the following values:
+> [in] Option settings defining the level of preciseness to use in the comparison. 
+
+  The lower 16 bits apply to properties of type PT_BINARY and PT_STRING8. They must be set to exactly one of the following values:
     
-- FL_FULLSTRING 
-  
-> The  _lpSPropValueSrc_ search string must be equal to the property value identified by  _lpSPropValueDst_.
+  - FL_FULLSTRING 
     
-- FL_PREFIX 
-  
-> The  _lpSPropValueSrc_ search string must appear at the beginning of the property value identified by  _lpSPropValueDst_. The two values should be compared only up to the length of the search string indicated by  _lpSPropValueSrc_. 
+  > The  _lpSPropValueSrc_ search string must be equal to the property value identified by  _lpSPropValueDst_.
+      
+  - FL_PREFIX 
     
-- FL_SUBSTRING 
-  
-> The  _lpSPropValueSrc_ search string must be contained anywhere in the property value identified by  _lpSPropValueDst_. 
+  > The  _lpSPropValueSrc_ search string must appear at the beginning of the property value identified by  _lpSPropValueDst_. The two values should be compared only up to the length of the search string indicated by  _lpSPropValueSrc_. 
+      
+  - FL_SUBSTRING 
     
-The upper 16 bits apply only to properties of type PT_STRING8. They can be set to the following values in any combination:
-  
-- FL_IGNORECASE 
-  
-> The comparison should be made without considering case sensitivity. 
+  > The  _lpSPropValueSrc_ search string must be contained anywhere in the property value identified by  _lpSPropValueDst_. 
     
-- FL_IGNORENONSPACE 
+  The upper 16 bits apply only to properties of type PT_STRING8. They can be set to the following values in any combination:
   
-> The comparison should ignore Unicode-defined nonspacing characters such as diacritical marks. 
+  - FL_IGNORECASE 
     
-- FL_LOOSE 
-  
-> The comparison should indicate a match whenever possible, ignoring case sensitivity and nonspacing characters.
+  > The comparison should be made without considering case sensitivity. 
+      
+  - FL_IGNORENONSPACE 
+    
+  > The comparison should ignore Unicode-defined nonspacing characters such as diacritical marks. 
+      
+  - FL_LOOSE 
+    
+  > The comparison should indicate a match whenever possible, ignoring case sensitivity and nonspacing characters.
     
 ## Return value
 

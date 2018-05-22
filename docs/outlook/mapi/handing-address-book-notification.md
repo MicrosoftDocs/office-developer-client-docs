@@ -1,5 +1,5 @@
 ---
-title: "Handing Address Book Notification"
+title: "Handing address book notification"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,13 +8,9 @@ api_type:
 - COM
 ms.assetid: 0dc4bb48-c8a1-447f-9e38-1c234a358fca
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
-# Handing Address Book Notification
-
-  
+# Handing address book notification
   
 **Applies to**: Outlook 
   
