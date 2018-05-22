@@ -106,11 +106,11 @@ If there was no preprocessing, or there was preprocessing and the MAPI spooler c
     
 - Performs the following tasks if the message store is not tightly coupled to a transport, not all of the recipients were known to the message store, or the NEEDS_SPOOLER flag is set:
     
-1. Puts the message in the outgoing queue without setting the SUBMITFLAG_PREPROCESS bit in the **PR_SUBMIT_FLAGS** property. 
+  1. Puts the message in the outgoing queue without setting the SUBMITFLAG_PREPROCESS bit in the **PR_SUBMIT_FLAGS** property. 
     
-2. Notifies the MAPI spooler that the outgoing queue has changed by generating a table notification. 
+  2. Notifies the MAPI spooler that the outgoing queue has changed by generating a table notification. 
     
-3. Returns to the client, and message flow continues with a set of tasks performed by the MAPI spooler.
+  3. Returns to the client, and message flow continues with a set of tasks performed by the MAPI spooler.
     
 ## See also
 
