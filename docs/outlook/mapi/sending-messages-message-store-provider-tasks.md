@@ -67,7 +67,7 @@ The following two steps occur in the client process if there was no preprocessin
        - Copies the message to the folder identified by the entry identifier in the PR_SENTMAIL_ENTRYID (PidTagSentMailEntryId) property, if set.
        - Deletes the message if the PR_DELETE_AFTER_SUBMIT (PidTagDeleteAfterSubmit) property has been set to TRUE.
        - Unlocks the message if it is locked.
-       - Returns to the client. Message flow is complete.  |
+       - Returns to the client. Message flow is complete. 
    
 2. Performs the following tasks if the message store is not tightly coupled to a transport, not all of the recipients were known to the message store, or the NEEDS_SPOOLER flag is set:
     

@@ -27,7 +27,10 @@ If a MAPI client needs to adopt fast shutdown, it must use the **IMAPIClientShut
     1. The MAPI subsystem calls the [IMAPIProviderShutdown::QueryFastShutdown](imapiprovidershutdown-queryfastshutdown.md) method for each MAPI provider with which the MAPI client process has an active MAPI session, if the provider has implemented the [IMAPIProviderShutdown : IUnknown](imapiprovidershutdowniunknown.md) interface. 
         
        > [!NOTE]
-       >  The MAPI subsystem always queries and notifies MAPI providers through the **IMAPIProviderShutdown : IUnknown** interface within each MAPI session in the following order: >  Transport providers. >  Address book providers. >  Store providers. 
+       >  The MAPI subsystem always queries and notifies MAPI providers through the **IMAPIProviderShutdown : IUnknown** interface within each MAPI session in the following order:
+       > 1. Transport providers
+       > 2. Address book providers
+       > 3. Store providers 
     
     2. Depending on the fast shutdown registry setting for that user on the client computer, the MAPI subsystem specifies the appropriate return code to **IMAPIClientShutdown::QueryFastShutdown**. The return code is either S_OK or MAPI_E_NO_SUPPORT.
         
