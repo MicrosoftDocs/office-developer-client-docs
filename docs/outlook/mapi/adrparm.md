@@ -169,7 +169,7 @@ DIALOG_SDI
 |**lpfnDismiss** and **lpvDismissContext** <br/> |Modeless  <br/> |
 |**lpszCaption** <br/> |Modal and modeless  <br/> |
 |**lpszNewEntryTitle** <br/> |Modal  <br/> |
-|**lpszDestWellsTitle**, **cDestFields**, **nDestFieldFocus**, **lppszDestTitles**,and **lpulDestComps** <br/> |Modal  <br/> |
+|**lpszDestWellsTitle**, **cDestFields**, **nDestFieldFocus**, **lppszDestTitles**, and **lpulDestComps** <br/> |Modal  <br/> |
 |**lpContRestriction** <br/> |Modal and modeless  <br/> |
 |**lpHierRestriction** <br/> |Modal and modeless  <br/> |
    

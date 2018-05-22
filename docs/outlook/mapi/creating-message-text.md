@@ -1,5 +1,5 @@
 ---
-title: "Creating Message Text"
+title: "Creating message text"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,17 +8,13 @@ api_type:
 - COM
 ms.assetid: 70d1fb24-91a9-4043-8c9d-be1523012e6b
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
-# Creating Message Text
+# Creating message text
 
-  
-  
 **Applies to**: Outlook 
   
-Although some messages are made up of nothing more than a recipient list and a subject line, the content of most messages, specifically IPM.Note messages, includes text. Message text can be plain or formatted and is stored in three properties: **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), **PR_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)), and **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). If your client is plain text-based, set **PR_BODY**. If you support formatted text in the Rich Text Format (RTF), set either **PR_RTF_COMPRESSED** only or both **PR_RTF_COMPRESSED** and **PR_BODY**, depending on the message store provider that you are using. When an RTF-aware client is using an RTF-aware message store, it sets **PR_RTF_COMPRESSED** only. When an RTF-aware client is using a non-RTF-aware message store, it sets both properties. If your client supports HTML, set the **PR_HTML** property. 
+Although some messages are made up of nothing more than a recipient list and a subject line, the content of most messages, specifically IPM.Note messages, includes text. Message text can be plain or formatted and is stored in three properties: **PR\_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), **PR\_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)), and **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). If your client is plain text-based, set **PR\_BODY**. If you support formatted text in the Rich Text Format (RTF), set either **PR_RTF_COMPRESSED** only or both **PR_RTF_COMPRESSED** and **PR\_BODY**, depending on the message store provider that you are using. When an RTF-aware client is using an RTF-aware message store, it sets **PR_RTF_COMPRESSED** only. When an RTF-aware client is using a non-RTF-aware message store, it sets both properties. If your client supports HTML, set the **PR_HTML** property. 
   
  **To determine whether or not your message store supports Rich Text Format**
   
