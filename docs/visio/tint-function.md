@@ -18,7 +18,7 @@ Modifies the color by increasing its luminosity by the amount (positive or negat
   
 ## Syntax
 
-TINT( ** *color* **, ** *int* ** ) 
+TINT(** *color* **, ** *int* ** ) 
   
 ### Parameters
 

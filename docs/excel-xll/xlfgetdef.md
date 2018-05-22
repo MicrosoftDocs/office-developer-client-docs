@@ -23,17 +23,17 @@ Excel12(xlfGetDef, LPXLOPER12 pxRes, 3, LPXLOPER12 pxDefText, LPXLOPER12 pxDocum
 
 ## Parameters
 
-_pxDefText_ ( **xltypeStr**)
+_pxDefText_ (**xltypeStr**)
   
 Can be anything you can define a name to refer to, including a reference, a value, an object, or a formula.
   
 References must be given in R1C1 style, such as  `"R3C5"`. If  _pxDefText_ is a value or formula, it is not necessary to include the equal sign that is displayed in the **Refers To** column in the **Name Manager** dialog box. If there is more than one name for  _pxDefText_, **xlfGetDef** returns the first name. If no name matches  _pxDefText_, **xlfGetDef** returns the  `#NAME?` error value. 
   
-_pxDocumentText_ ( **xltypeStr**)
+_pxDocumentText_ (**xltypeStr**)
   
 Specifies the sheet that  _pxDefText_ is on. If  _pxDocumentText_ is omitted, it is assumed to be the active sheet. 
   
-_pxTypeNum_ ( **xltypeNum**)
+_pxTypeNum_ (**xltypeNum**)
   
 A number from 1 to 3 specifying which types of names are returned.
   
@@ -45,7 +45,7 @@ A number from 1 to 3 specifying which types of names are returned.
    
 ## Property value/Return value
 
- _pxRes_ ( **xltypeStr** or **xltypeErr**)
+ _pxRes_ (**xltypeStr** or **xltypeErr**)
   
 Returns the name associated with the specified definition.
   

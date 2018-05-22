@@ -23,19 +23,19 @@ Excel12(xlfGetName, LPXLOPER12 pxRes, 2, LPXLOPER12 pxNameText, LPXLOPER12 pxInf
 
 ## Parameters
 
-_pxNameText_ ( **xltypeStr**)
+_pxNameText_ (**xltypeStr**)
   
 Can be a name defined on the sheet; an external reference to a name defined on the active workbook, for example,  `"!Sales"`; or an external reference to a name defined on a particular open workbook, for example,  `"[Book1]SHEET1!Sales"`.  _pxNameText_ can also be a hidden name. 
   
-_pxInfoType_ ( **xltypeBool**)
+_pxInfoType_ (**xltypeBool**)
   
 Specifies the type of information to return about the name. If **FALSE** or omitted, the definition is returned. If **TRUE**, returns **TRUE** if the name is defined for just the sheet, **FALSE** if the name is defined for the entire workbook. 
   
 ## Property value/Return value
 
-_pxRes_ ( **xltypeStr**, **xltypeBool**, or **xltypeErr**)
+_pxRes_ (**xltypeStr**, **xltypeBool**, or **xltypeErr**)
   
-Depending on the value passed for  _pxInfoType_, returns the definition of the specified name ( **xltypeStr**), or **TRUE** or **FALSE** ( **xltypeBool**).
+Depending on the value passed for  _pxInfoType_, returns the definition of the specified name (**xltypeStr**), or **TRUE** or **FALSE** (**xltypeBool**).
   
 ## Remarks
 

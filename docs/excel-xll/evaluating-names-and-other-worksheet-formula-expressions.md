@@ -54,7 +54,7 @@ The next example evaluates the formula  `COUNT(A1:IV65536)` for the active works
   
 - `=[Book1.xls]Sheet1!A1` A reference to cell A1 on the specified sheet in the specified workbook. 
   
-In an XLL, a reference without a leading exclamation point ( **!**) cannot be converted to a value. It has no meaning because there is no current macro sheet. Note that a leading equals sign ( **=**) is optional and is omitted in the next example.
+In an XLL, a reference without a leading exclamation point (**!**) cannot be converted to a value. It has no meaning because there is no current macro sheet. Note that a leading equals sign (**=**) is optional and is omitted in the next example.
   
 ```C
 int WINAPI evaluate_expression_example(void)

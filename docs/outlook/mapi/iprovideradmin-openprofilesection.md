@@ -41,7 +41,7 @@ HRESULT OpenProfileSection(
     
  _lpInterface_
   
-> [in] A pointer to the interface identifier (IID) that represents the interface to be used to access the profile section. Passing NULL results in the profile section's standard interface ( **IProfSect**) being returned. 
+> [in] A pointer to the interface identifier (IID) that represents the interface to be used to access the profile section. Passing NULL results in the profile section's standard interface (**IProfSect**) being returned. 
     
  _ulFlags_
   

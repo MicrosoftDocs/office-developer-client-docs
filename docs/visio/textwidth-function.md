@@ -20,7 +20,7 @@ Returns the width of the composed text in a shape.
   
 ## Syntax
 
-TEXTWIDTH( ** *shapename!TheText* ** ** *[,maximumwidth]* ** ) 
+TEXTWIDTH(** *shapename!TheText* ** ** *[,maximumwidth]* ** ) 
   
 ### Parameters
 

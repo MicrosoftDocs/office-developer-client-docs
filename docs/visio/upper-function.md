@@ -20,7 +20,7 @@ Returns a string converted to uppercase.
   
 ## Syntax
 
-UPPER( ** *expression* ** ) 
+UPPER(** *expression* ** ) 
   
 ### Parameters
 

@@ -20,7 +20,7 @@ Returns the largest number from a list. Largest means closest to positive infini
   
 ## Syntax
 
-MAX( ** *number1* **, ** *number2* **,..., ** *numberN* ** ) 
+MAX(** *number1* **, ** *number2* **,..., ** *numberN* ** ) 
   
 ### Parameters
 

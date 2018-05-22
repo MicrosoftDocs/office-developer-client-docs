@@ -20,7 +20,7 @@ Calculates a text block's correct angle of rotation for the indicated shape rota
   
 ## Syntax
 
-GRAVITY( ** *angle* **,[ ** *limit1* ** ],[ ** *limit2* ** ]) 
+GRAVITY(** *angle* **,[ ** *limit1* ** ],[ ** *limit2* ** ]) 
   
 ### Parameters
 

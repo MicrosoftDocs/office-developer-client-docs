@@ -36,7 +36,7 @@ LPXLOPER WINAPI xlAutoRegister(LPXLOPER pxName);
 
 ## Parameters
 
- _pxName_ ( **xltypeStr**)
+ _pxName_ (**xltypeStr**)
   
 The name of the XLL function that is being registered.
   

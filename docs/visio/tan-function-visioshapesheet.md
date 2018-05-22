@@ -20,7 +20,7 @@ Returns the tangent of an angle.
   
 ## Syntax
 
-TAN( ** *angle* ** ) 
+TAN(** *angle* ** ) 
   
 ### Parameters
 

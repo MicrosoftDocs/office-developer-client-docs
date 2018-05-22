@@ -21,7 +21,7 @@ Excel12(xlAsyncReturn, LPXLOPER12 pxRes, 2, LPXLOPER12 pxAsyncHandle, LPXLOPER12
 
 ## Parameters
 
-_pxAsyncHandle_ ( **xltypeBigData**)
+_pxAsyncHandle_ (**xltypeBigData**)
   
 The asynchronous handle of the UDF to which the result is returned.
   
@@ -31,7 +31,7 @@ The return value of the UDF.
   
 ## Property value/Return value
 
-If successful, returns **TRUE** ( **xltypeBool**). If unsuccessful, returns **FALSE**.
+If successful, returns **TRUE** (**xltypeBool**). If unsuccessful, returns **FALSE**.
   
 ## Remarks
 

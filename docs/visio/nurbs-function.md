@@ -20,7 +20,7 @@ Returns a nonuniform rational B-spline (NURBS). This function is used in the E c
   
 ## Syntax
 
-NURBS( ** *knotLast* **, ** *degree* **, ** *xType* **, ** *yType* **, ** *x1* **, ** *y1* **, ** *knot1* **, ** *weight1* **, ...) 
+NURBS(** *knotLast* **, ** *degree* **, ** *xType* **, ** *yType* **, ** *x1* **, ** *y1* **, ** *knot1* **, ** *weight1* **, ...) 
   
 ### Parameters
 

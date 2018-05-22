@@ -20,7 +20,7 @@ Returns the number of characters in a text string.
   
 ## Syntax
 
-LEN ( ** *text* ** ) 
+LEN (** *text* ** ) 
   
 ### Parameters
 

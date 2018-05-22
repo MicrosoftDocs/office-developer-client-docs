@@ -20,7 +20,7 @@ Returns the angle between the vector represented by  *x,y*  and the direction of
   
 ## Syntax
 
-ATAN2( ** *y* **, ** *x* ** ) 
+ATAN2(** *y* **, ** *x* ** ) 
   
 ### Parameters
 

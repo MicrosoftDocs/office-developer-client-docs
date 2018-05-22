@@ -20,7 +20,7 @@ Returns TRUE (1) if  _logicalexpression_ is FALSE. Otherwise, it returns FALSE (
   
 ## Syntax
 
-NOT( ** *logicalexpression* ** ) 
+NOT(** *logicalexpression* ** ) 
   
 ### Parameters
 

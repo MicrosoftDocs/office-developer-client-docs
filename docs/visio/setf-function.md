@@ -20,7 +20,7 @@ Sets a cell's formula.
   
 ## Syntax
 
-SETF( GETREF( ** *cell* ** ), ** *formula* ** ) 
+SETF( GETREF(** *cell* ** ), ** *formula* ** ) 
   
 ### Parameters
 

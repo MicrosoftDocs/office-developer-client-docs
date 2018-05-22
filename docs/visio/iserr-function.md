@@ -20,7 +20,7 @@ Returns TRUE if the value of  _cellreference_ is any error type except #N/A; oth
   
 ## Syntax
 
-ISERR( ** *cellreference* ** ) 
+ISERR(** *cellreference* ** ) 
   
 ### Parameters
 

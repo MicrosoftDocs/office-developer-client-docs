@@ -91,7 +91,7 @@ These procedures use a Windows console application to manipulate the "Visio Pack
     
     In the **Reference Manager** dialog box, under **Assemblies**, choose **Framework**, and then add a reference to the **System.Xml** and **WindowsBase** components. 
     
-4. In the Program.cs or Module1.vb file for the project, add the following **using** directives ( **Imports** statements in Visual Basic): 
+4. In the Program.cs or Module1.vb file for the project, add the following **using** directives (**Imports** statements in Visual Basic): 
     
   ```cs
   using System.Xml;
@@ -111,7 +111,7 @@ These procedures use a Windows console application to manipulate the "Visio Pack
   
   ```
 
-5. Also in the Program.cs or Module1.vb file, before the end of the **Main** method of the **Program** class ( **Module1** in Visual Basic), add the following code that stops execution of the console application until the user presses a key. 
+5. Also in the Program.cs or Module1.vb file, before the end of the **Main** method of the **Program** class (**Module1** in Visual Basic), add the following code that stops execution of the console application until the user presses a key. 
     
   ```cs
   // This code stops the execution of the console application

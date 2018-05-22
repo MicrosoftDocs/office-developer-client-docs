@@ -20,7 +20,7 @@ Returns the square root of a number.
   
 ## Syntax
 
-SQRT( ** *number* ** ) 
+SQRT(** *number* ** ) 
   
 ### Parameters
 

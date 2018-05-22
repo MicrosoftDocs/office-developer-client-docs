@@ -48,7 +48,7 @@ Service providers can also return MAPI_E_BAD_CHARWIDTH when they only support Un
   
 [IAddrBook::ResolveName](iaddrbook-resolvename.md)
   
-[IMAPIProp::GetLastError](imapiprop-getlasterror.md) ( **IAddrBook** implementation only) 
+[IMAPIProp::GetLastError](imapiprop-getlasterror.md) (**IAddrBook** implementation only) 
   
 For these methods, callers can expect any returned strings to be Unicode strings. Character strings returned from MAPI implementations of any other method will be ANSI character strings.
   

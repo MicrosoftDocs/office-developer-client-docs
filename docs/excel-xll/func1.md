@@ -28,7 +28,7 @@ LPXLOPER12 WINAPI Func1(LPXLOPER12 px);
 
 ## Parameters
 
- _px_ ( **LPXLOPER**)
+ _px_ (**LPXLOPER**)
   
 This argument is ignored, and serves only to trigger Microsoft Excel to call the function.
   

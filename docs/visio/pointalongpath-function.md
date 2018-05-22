@@ -22,7 +22,7 @@ Version Added: Visio 2010
   
 ## Syntax
 
-POINTALONGPATH( ** *section* **, ** *travel* ** ** *[,offset]* ** ** *[,segment]* ** ) 
+POINTALONGPATH(** *section* **, ** *travel* ** ** *[,offset]* ** ** *[,segment]* ** ) 
   
 ### Parameters
 

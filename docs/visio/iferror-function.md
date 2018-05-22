@@ -22,7 +22,7 @@ Version Added: Visio 2010
   
 ## Syntax
 
-IFERROR( ** *primary expression* **, ** *alternate expression* ** ) 
+IFERROR(** *primary expression* **, ** *alternate expression* ** ) 
   
 ### Parameters
 

@@ -20,7 +20,7 @@ Returns the  *y*  -coordinate (in the local coordinate system) of the point wher
   
 ## Syntax
 
-INTERSECTX( ** *x1* **, ** *y1* **, ** *angle1* **, ** *x2* **, ** *y2* **, ** *angle2* ** ) 
+INTERSECTX(** *x1* **, ** *y1* **, ** *angle1* **, ** *x2* **, ** *y2* **, ** *angle2* ** ) 
   
 ### Parameters
 

@@ -20,7 +20,7 @@ Returns a number truncated to the specified number of digits.
   
 ## Syntax
 
-TRUNC( ** *number* **, ** *numberofdigits* ** ) 
+TRUNC(** *number* **, ** *numberofdigits* ** ) 
   
 ### Parameters
 

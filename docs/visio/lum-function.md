@@ -20,7 +20,7 @@ Returns the value of a color's luminosity component.
   
 ## Syntax
 
-LUM( ** *expression* ** ) 
+LUM(** *expression* ** ) 
   
 ### Parameters
 

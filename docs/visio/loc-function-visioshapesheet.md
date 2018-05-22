@@ -20,7 +20,7 @@ Takes a point defined in one shape's local coordinates and returns the equivalen
   
 ## Syntax
 
-LOC( ** *point* ** ) 
+LOC(** *point* ** ) 
   
 ### Parameters
 
@@ -42,6 +42,6 @@ LOC(PNT(Sheet.5!LocPinX, Sheet.5!LocPinY))
   
 In this expression, PNT converts a set of local coordinates in Sheet.5 to a point. (Sheet.5 is another shape on the same drawing page.) LOC then converts that point to an equivalent point in the current shape's local coordinate system, relative to the lower-left corner of the selection rectangle of the current shape. 
   
-The 5 in Sheet.5 is the ID number for the shape, which is displayed in the **Shape Name** dialog box ( **Developer** tab). 
+The 5 in Sheet.5 is the ID number for the shape, which is displayed in the **Shape Name** dialog box (**Developer** tab). 
   
 

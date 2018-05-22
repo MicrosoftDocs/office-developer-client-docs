@@ -35,9 +35,9 @@ void WINAPI xlAutoFree12(LPXLOPER12 pxFree);
 
 ## Parameters
 
- _pxFree_ ( **LPXLOPER in the case of xlAutoFree**)
+ _pxFree_ (**LPXLOPER in the case of xlAutoFree**)
   
- _pxFree_ ( **LPXLOPER12 in the case of xlAutoFree12**)
+ _pxFree_ (**LPXLOPER12 in the case of xlAutoFree12**)
   
 A pointer to the **XLOPER** or the **XLOPER12** that has memory that needs to be freed. 
   

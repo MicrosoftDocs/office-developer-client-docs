@@ -20,7 +20,7 @@ Returns the result of  _expression_ as a string formatted according to  _formatp
   
 ## Syntax
 
-FORMAT( ** *expression* **," ** *formatpicture* ** ") 
+FORMAT(** *expression* **," ** *formatpicture* ** ") 
   
 ### Parameters
 

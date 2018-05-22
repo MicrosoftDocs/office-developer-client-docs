@@ -18,7 +18,7 @@ description: "Formulas can contain strings. To format string output, such as in 
 
 Formulas can contain strings. To format string output, such as in a prompt cell, a shape data item value, or a text field, you specify a format picture. Output can be formatted as a number-unit pair, string, date-time, duration, or currency. For example, the format picture "0 #/10 uu" formats the number-unit pair 10.9cm as "10 9/10 centimeters".
   
-You can use format pictures in the **Format** cell of the Shape Data section and as an argument to the **FORMAT** or **FORMATEX** function. When you insert a text field, format pictures appear in the list of formats in the **Field** dialog box ( **Insert** tab). 
+You can use format pictures in the **Format** cell of the Shape Data section and as an argument to the **FORMAT** or **FORMATEX** function. When you insert a text field, format pictures appear in the list of formats in the **Field** dialog box (**Insert** tab). 
   
 ## Using functions to format strings
 

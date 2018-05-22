@@ -20,7 +20,7 @@ Returns the ANSI character for a number.
   
 ## Syntax
 
-CHAR( ** *number* ** ) 
+CHAR(** *number* ** ) 
   
 ### Parameters
 

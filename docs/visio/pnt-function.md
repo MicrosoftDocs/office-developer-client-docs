@@ -20,7 +20,7 @@ Returns the point represented by the coordinates  _x_ and  _y_ as a single value
   
 ## Syntax
 
-PNT( ** *x,y* ** ) 
+PNT(** *x,y* ** ) 
   
 ### Parameters
 

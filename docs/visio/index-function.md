@@ -20,7 +20,7 @@ Returns the substring at the zero-based location  _index_ in the  _list_ delimit
   
 ## Syntax
 
-INDEX( ** *index* **," ** *list* ** "[,[ ** *delimiter* ** ][,[ ** *errorvalue* ** ]]]) 
+INDEX(** *index* **," ** *list* ** "[,[ ** *delimiter* ** ][,[ ** *errorvalue* ** ]]]) 
   
 ### Parameters
 

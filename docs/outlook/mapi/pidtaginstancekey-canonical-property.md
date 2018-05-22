@@ -41,7 +41,7 @@ When a multivalued property is expanded in a table, a row is created for each in
   
 In a categorized sort of a table, rows not corresponding to actual data can be added to the result of the sort. Each such row, like all rows in all tables, has its own unique instance key. 
   
- **PR_INSTANCE_KEY** is also used in table event notifications. The **propIndex** and **propPrior** members of the [TABLE_NOTIFICATION](table_notification.md) structure are [SPropValue](spropvalue.md) structures holding **PR_INSTANCE_KEY** values. The **propIndex** member indicates the row that was added or changed. The **propPrior** member indicates the row before the added or changed row ( **PR_NULL** indicates a change to the first row). 
+ **PR_INSTANCE_KEY** is also used in table event notifications. The **propIndex** and **propPrior** members of the [TABLE_NOTIFICATION](table_notification.md) structure are [SPropValue](spropvalue.md) structures holding **PR_INSTANCE_KEY** values. The **propIndex** member indicates the row that was added or changed. The **propPrior** member indicates the row before the added or changed row (**PR_NULL** indicates a change to the first row). 
   
 This value is not copied as part of the display table. 
   

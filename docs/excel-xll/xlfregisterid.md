@@ -25,21 +25,21 @@ Excel12(xlfRegisterId, LPXLOPER12 pxRes, 3,     LPXLOPER12 pxModuleText, LPXLOPE
 
 ## Parameters
 
-_pxModuleText_ ( **xltypeStr**)
+_pxModuleText_ (**xltypeStr**)
   
 The name of the DLL containing the function.
   
-_pxProcedure_ ( **xltypeStr** or **xltypeNum**)
+_pxProcedure_ (**xltypeStr** or **xltypeNum**)
   
 If a string, the name of the function to call. If a number, the ordinal export number of the function to call. For clarity and robustness, always use the string form.
   
-_pxTypeText_ ( **xltypeStr**)
+_pxTypeText_ (**xltypeStr**)
   
 An optional string specifying the types of all the arguments to the function and the type of the return value of the function. For more information, see the "Remarks" section. This argument can be omitted for a stand-alone DLL (XLL) defining **xlAutoRegister**.
   
 ## Property value/Return value
 
-Returns the register ID of the function ( **xltypeNum**), which can be used in subsequent calls to **xlfUnregister**.
+Returns the register ID of the function (**xltypeNum**), which can be used in subsequent calls to **xlfUnregister**.
   
 ## Remarks
 

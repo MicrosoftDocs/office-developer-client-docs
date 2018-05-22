@@ -20,7 +20,7 @@ Calculates the sector of a rectangle associated with  *x*  and  *y*  and returns
   
 ## Syntax
 
-RECTSECT( ** *width* **, ** *height* **, ** *x* **, ** *y* **, ** *option* ** ) 
+RECTSECT(** *width* **, ** *height* **, ** *x* **, ** *y* **, ** *option* ** ) 
   
 ### Parameters
 

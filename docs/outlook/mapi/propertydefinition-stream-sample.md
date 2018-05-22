@@ -41,7 +41,7 @@ The following is a parse of the sample data for the PropertyDefinition stream:
     
   - Flags: Offset 0x6, 4 bytes: 0x45 (PDO_IS_CUSTOM|PDO_PRINT_SAVEAS|PDO_PRINT_SAVEAS_DEF).
     
-  - VT: Offset 0xA, 2 bytes: 0x8 ( **VT_BSTR**).
+  - VT: Offset 0xA, 2 bytes: 0x8 (**VT_BSTR**).
     
   - DispId: Offset 0xC, 4 bytes: 0x0 (0).
     

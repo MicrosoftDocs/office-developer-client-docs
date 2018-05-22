@@ -20,7 +20,7 @@ Returns a specific number of characters from a text string, starting at the posi
   
 ## Syntax
 
-MID ( ** *text* **, ** *start_num* **, ** *num_chars* ** ) 
+MID (** *text* **, ** *start_num* **, ** *num_chars* ** ) 
   
 ### Parameters
 

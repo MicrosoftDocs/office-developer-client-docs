@@ -20,7 +20,7 @@ Returns a value that represents the sign of a number.
   
 ## Syntax
 
-SIGN( ** *number* **, ** *fuzz* ** ) 
+SIGN(** *number* **, ** *fuzz* ** ) 
   
 ### Parameters
 

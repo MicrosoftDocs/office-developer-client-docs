@@ -20,7 +20,7 @@ Evaluates the text in  _shapename_ as if it were a formula and returns the resul
   
 ## Syntax
 
-EVALTEXT( ** *shapename!theText* ** ) 
+EVALTEXT(** *shapename!theText* ** ) 
   
 ### Parameters
 

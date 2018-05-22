@@ -20,7 +20,7 @@ Replaces part of a text string with a different text string.
   
 ## Syntax
 
- SUBSTITUTE ( ** *text* **, ** *old_text* **, ** *new_text* ** [, ** *start_num* ** ][, ** *ignore_case_opt* ** ) 
+ SUBSTITUTE (** *text* **, ** *old_text* **, ** *new_text* ** [, ** *start_num* ** ][, ** *ignore_case_opt* ** ) 
   
 ### Parameters
 

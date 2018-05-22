@@ -33,7 +33,7 @@ This function has no arguments.
   
 ## Property value/Return value
 
-The instance handle ( **xltypeInt**) will be in the **val.w** field. 
+The instance handle (**xltypeInt**) will be in the **val.w** field. 
   
 ## Remarks
 

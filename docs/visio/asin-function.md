@@ -20,7 +20,7 @@ Returns the arcsine of a number, for example, the angle whose sine is  *number* 
   
 ## Syntax
 
-ASIN( ** *number* ** ) 
+ASIN(** *number* ** ) 
   
 ### Parameters
 

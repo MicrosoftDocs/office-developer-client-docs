@@ -20,7 +20,7 @@ Returns TRUE (1) if all of the logical expressions supplied are TRUE. If any of 
   
 ## Syntax
 
-AND( ** *logical expression1* **, ** *logical expression2* **,..., ** *logical expressionN* ** ) 
+AND(** *logical expression1* **, ** *logical expression2* **,..., ** *logical expressionN* ** ) 
   
 ### Parameters
 

@@ -20,7 +20,7 @@ Returns the date represented by  *year, month,*  and  *day*  formatted according
   
 ## Syntax
 
-DATE( ** *year* **, ** *month* **, ** *day* ** ) 
+DATE(** *year* **, ** *month* **, ** *day* ** ) 
   
 ### Parameters
 

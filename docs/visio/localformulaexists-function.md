@@ -20,7 +20,7 @@ Indicates whether the referenced cell contains a local formula.
   
 ## Syntax
 
-LOCALFORMULAEXISTS ( ** *cellref* ** ) 
+LOCALFORMULAEXISTS (** *cellref* ** ) 
   
 ### Parameters
 

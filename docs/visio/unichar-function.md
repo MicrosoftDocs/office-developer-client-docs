@@ -20,7 +20,7 @@ Returns the Unicode character from a number.
   
 ## Syntax
 
-UNICHAR ( ** *number* ** ) 
+UNICHAR (** *number* ** ) 
   
 ### Parameters
 

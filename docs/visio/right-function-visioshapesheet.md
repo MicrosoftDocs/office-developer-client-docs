@@ -20,7 +20,7 @@ Returns the last character or characters in a text string, based on the number o
   
 ## Syntax
 
-RIGHT( ** *text* ** [, ** *num_chars_opt* ** ]) 
+RIGHT(** *text* ** [, ** *num_chars_opt* ** ]) 
   
 ### Parameters
 

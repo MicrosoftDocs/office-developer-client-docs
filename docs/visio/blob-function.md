@@ -20,7 +20,7 @@ Decodes a base64 string and stores it as binary data.
   
 ## Syntax
 
-BLOB ( ** *bintext* ** ) 
+BLOB (** *bintext* ** ) 
   
 ### Parameters
 

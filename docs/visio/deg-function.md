@@ -20,7 +20,7 @@ Converts the value of an angle from radians to degrees.
   
 ## Syntax
 
-DEG( ** *angle* ** ) 
+DEG(** *angle* ** ) 
   
 ### Parameters
 

@@ -20,7 +20,7 @@ Returns a currency value.
   
 ## Syntax
 
-CY( ** *value* **, ** *cyID* ** ) 
+CY(** *value* **, ** *cyID* ** ) 
   
 ### Parameters
 

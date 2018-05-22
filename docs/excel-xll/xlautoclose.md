@@ -34,7 +34,7 @@ This function takes no arguments.
   
 ## Property value/Return value
 
-Your implementation of this function must return 1 ( **int**).
+Your implementation of this function must return 1 (**int**).
   
 ## Remarks
 

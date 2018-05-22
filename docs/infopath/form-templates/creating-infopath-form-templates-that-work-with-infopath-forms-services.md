@@ -173,7 +173,7 @@ Other features that are not supported on InfoPath Forms Services:
     
 - Modal dialogs from business logic
     
-- XSLT extensibility ( **xd:preserve** blocks) 
+- XSLT extensibility (**xd:preserve** blocks) 
     
 - External automation
     

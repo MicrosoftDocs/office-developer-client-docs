@@ -28,7 +28,7 @@ extern void FAR PASCAL HookExcelWindow(HANDLE hWndExcel);
 
 ## Parameters
 
- _hWndExcel_ ( **HANDLE**)
+ _hWndExcel_ (**HANDLE**)
   
 The Excel main Windows handle.
   

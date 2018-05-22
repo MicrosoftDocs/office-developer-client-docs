@@ -20,7 +20,7 @@ Rounds a number away from 0 (zero) to the next instance of  _multiple_. If  _mul
   
 ## Syntax
 
-CEILING( ** *number* **, ** *multiple* ** ) 
+CEILING(** *number* **, ** *multiple* ** ) 
   
 ### Parameters
 

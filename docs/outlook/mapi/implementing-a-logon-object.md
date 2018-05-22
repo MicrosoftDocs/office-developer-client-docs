@@ -28,17 +28,17 @@ Every address book, message store, and transport provider instantiates a logon o
    
 Address book and message store providers implement the following features in their logon objects:
   
-- Support for event notification ( **Advise** and **Unadvise** methods). For an overview of event notification, see [Event Notification in MAPI](event-notification-in-mapi.md). For more information about supporting notification in your logon object, see [Supporting Event Notification](supporting-event-notification.md). 
+- Support for event notification (**Advise** and **Unadvise** methods). For an overview of event notification, see [Event Notification in MAPI](event-notification-in-mapi.md). For more information about supporting notification in your logon object, see [Supporting Event Notification](supporting-event-notification.md). 
     
-- Entry identifier comparison ( **CompareEntryIDs** method). For general information about entry identifiers, see [MAPI Entry Identifiers](mapi-entry-identifiers.md). For more information about comparing entry identifiers in your logon object's **CompareEntryIDs** method, see [Supporting Object Access and Comparison](supporting-object-access-and-comparison.md).
+- Entry identifier comparison (**CompareEntryIDs** method). For general information about entry identifiers, see [MAPI Entry Identifiers](mapi-entry-identifiers.md). For more information about comparing entry identifiers in your logon object's **CompareEntryIDs** method, see [Supporting Object Access and Comparison](supporting-object-access-and-comparison.md).
     
-- Access to additional error information ( **GetLastError** method). For more information about handling errors in MAPI, see [Error Handling in MAPI](error-handling-in-mapi.md). 
+- Access to additional error information (**GetLastError** method). For more information about handling errors in MAPI, see [Error Handling in MAPI](error-handling-in-mapi.md). 
     
-- Access to objects implemented by the service provider ( **OpenEntry** method). For more information, see [Supporting Object Access and Comparison](supporting-object-access-and-comparison.md).
+- Access to objects implemented by the service provider (**OpenEntry** method). For more information, see [Supporting Object Access and Comparison](supporting-object-access-and-comparison.md).
     
-- Access to a status object ( **OpenStatusEntry** method). For general information about status objects, see [MAPI Status Objects](mapi-status-objects.md). For specific information about implementing a status object, see [Status Object Implementation](status-object-implementation.md).
+- Access to a status object (**OpenStatusEntry** method). For general information about status objects, see [MAPI Status Objects](mapi-status-objects.md). For specific information about implementing a status object, see [Status Object Implementation](status-object-implementation.md).
     
-- A logoff process ( **Logoff** method). For more information, see [Shutting Down a Service Provider](shutting-down-a-service-provider.md).
+- A logoff process (**Logoff** method). For more information, see [Shutting Down a Service Provider](shutting-down-a-service-provider.md).
     
 If your provider is an address book provider, you will also implement the following methods and associated features:
   

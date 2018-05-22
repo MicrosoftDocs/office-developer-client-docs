@@ -20,7 +20,7 @@ Returns a number raised to the power of an exponent.
   
 ## Syntax
 
-POW( ** *number* **, ** *exponent* ** ) 
+POW(** *number* **, ** *exponent* ** ) 
   
 ### Parameters
 

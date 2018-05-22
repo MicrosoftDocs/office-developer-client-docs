@@ -36,19 +36,19 @@ int _cdecl Excel12v(int iFunction, LPXLOPER12 pxRes, int iCount, LPXLOPER12 rgx[
 
 ## Parameters
 
- _iFunction_ ( **int**)
+ _iFunction_ (**int**)
   
 A number that indicates the command, function, or special function you want to call. For a list of valid  _iFunction_ values, see the following Remarks section. 
   
- _pxRes_ ( **LPXLOPER** or **LPXLOPER12**)
+ _pxRes_ (**LPXLOPER** or **LPXLOPER12**)
   
 A pointer to an **XLOPER** (in the case of **Excel4v**) or an **XLOPER12** (in the case of **Excel12v**) that will hold the result of the evaluated function.
   
- _iCount_ ( **int**)
+ _iCount_ (**int**)
   
 The number of subsequent arguments that will be passed to the function. In versions of Excel up to 2003 this can be any number from 0 through 30. Starting in Excel 2007, this can be any number from 0 through 255.
   
- _rgx_ ( **LPXLOPER []** or **LPXLOPER12 []**)
+ _rgx_ (**LPXLOPER []** or **LPXLOPER12 []**)
   
 An array that contains the arguments to the function. All arguments in the array must be pointers to **XLOPER** or **XLOPER12** values. 
   

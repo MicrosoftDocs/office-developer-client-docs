@@ -20,7 +20,7 @@ Returns  _valueiftrue_ if  _logicalexpression_ is TRUE. Otherwise, it returns  _
   
 ## Syntax
 
-IF( ** *logicalexpression* **, ** *valueiftrue* **, ** *valueiffalse* ** ) 
+IF(** *logicalexpression* **, ** *valueiftrue* **, ** *valueiffalse* ** ) 
   
 ### Parameters
 

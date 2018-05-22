@@ -22,7 +22,7 @@ Version Added: Visio 2010
   
 ## Syntax
 
-CONTAINERSHEETREF( ** *index* ** ** *[, category]* ** ) 
+CONTAINERSHEETREF(** *index* ** ** *[, category]* ** ) 
   
 ### Parameters
 

@@ -18,6 +18,6 @@ Shows the attributes for any bevel effects applied to the shape.
   
 ## Remarks
 
-You can apply a bevel to a shape in the **Format Shape** pane ( **Home** > **Shape Styles** > **Bevel** > **3-D Options**, or by making changes to the cells in the **Bevel Properties** section of the ShapeSheet. 
+You can apply a bevel to a shape in the **Format Shape** pane (**Home** > **Shape Styles** > **Bevel** > **3-D Options**, or by making changes to the cells in the **Bevel Properties** section of the ShapeSheet. 
   
 

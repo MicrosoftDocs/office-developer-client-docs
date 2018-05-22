@@ -20,7 +20,7 @@ Gets the text from a shape.
   
 ## Syntax
 
-SHAPETEXT ( ** *shapename!TheText* ** ** *[,flag]* ** ) 
+SHAPETEXT (** *shapename!TheText* ** ** *[,flag]* ** ) 
   
 ### Parameters
 

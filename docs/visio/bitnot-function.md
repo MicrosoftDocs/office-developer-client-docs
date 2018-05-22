@@ -20,7 +20,7 @@ Returns a 16-bit binary number in which each bit is set to 1 only if the corresp
   
 ## Syntax
 
-BITNOT( ** *binary number* ** ) 
+BITNOT(** *binary number* ** ) 
   
 ### Parameters
 

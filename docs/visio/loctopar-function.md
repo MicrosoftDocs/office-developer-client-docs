@@ -20,7 +20,7 @@ Returns a transformed point in parent coordinates in the destination coordinate 
   
 ## Syntax
 
-LOCTOPAR( ** *srcPoint* **, ** *srcRef* **, ** *dstRef* ** ) 
+LOCTOPAR(** *srcPoint* **, ** *srcRef* **, ** *dstRef* ** ) 
   
 ### Parameters
 

@@ -102,13 +102,13 @@ The  _xlfn_ argument is the first argument to the callback functions and is a 32
 ...
 ```
 
-All worksheet and macro sheet functions are in the range from 0 ( **xlfCount**) through 0x0fff hexadecimal, although the highest assigned number in Excel 2013 is 547 decimal, 0x0223 hexadecimal ( **xlfFloor_precise**).
+All worksheet and macro sheet functions are in the range from 0 (**xlfCount**) through 0x0fff hexadecimal, although the highest assigned number in Excel 2013 is 547 decimal, 0x0223 hexadecimal (**xlfFloor_precise**).
   
-All command functions are in the range from 0x8000 hexadecimal ( **xlcBeep**) through 0x8fff hexadecimal, although the highest assigned number in Excel 2013 is 0x8328 hexadecimal ( **xlcHideallInkannots**). These are defined in the header file as  `(n | xlCommand)` where  `n` is a decimal number greater than or equal to 0 and **xlCommand** is defined as 0x8000 hexadecimal. 
+All command functions are in the range from 0x8000 hexadecimal (**xlcBeep**) through 0x8fff hexadecimal, although the highest assigned number in Excel 2013 is 0x8328 hexadecimal (**xlcHideallInkannots**). These are defined in the header file as  `(n | xlCommand)` where  `n` is a decimal number greater than or equal to 0 and **xlCommand** is defined as 0x8000 hexadecimal. 
   
 ### Invoking Excel Commands that Use Dialog Boxes
 
-Some of the command codes correspond to actions in Excel that use dialog boxes. For example, **xlcFileDelete** takes a single argument: a file name or mask. This can be invoked with the dialog box so that the user has the opportunity to cancel or modify the delete operation. It can also be called without the dialog box, in which case the file or files are deleted without any further interaction, assuming they exist and the caller has permission. To call such commands in their dialog box form, the command enumeration must be combined by using the bitwise OR operation with 0x1000 ( **xlPrompt**).
+Some of the command codes correspond to actions in Excel that use dialog boxes. For example, **xlcFileDelete** takes a single argument: a file name or mask. This can be invoked with the dialog box so that the user has the opportunity to cancel or modify the delete operation. It can also be called without the dialog box, in which case the file or files are deleted without any further interaction, assuming they exist and the caller has permission. To call such commands in their dialog box form, the command enumeration must be combined by using the bitwise OR operation with 0x1000 (**xlPrompt**).
   
 The following code example deletes files in the current directory matching the mask my_data\*.bak, displaying a dialog box only if the argument is true.
   
@@ -133,7 +133,7 @@ bool delete_my_backup_files(bool show_dialog)
 
 ### Calling Functions and Commands in International Versions
 
-You can configure Excel to display functions and XLM command names in a variety of languages. Some C API commands and functions operate on strings that are interpreted as function or command names. For example, **xlcFormula** takes a string argument that is intended to be placed in a specified cell. For your add-in to work with all language settings, you can supply the English string names and set the bit 0x2000 ( **xlIntl**) in the function or command enumeration.
+You can configure Excel to display functions and XLM command names in a variety of languages. Some C API commands and functions operate on strings that are interpreted as function or command names. For example, **xlcFormula** takes a string argument that is intended to be placed in a specified cell. For your add-in to work with all language settings, you can supply the English string names and set the bit 0x2000 (**xlIntl**) in the function or command enumeration.
   
 The following code example places the equivalent of  `=SUM(X1:X100)` in cell A2 on the active sheet. Note that it uses the Framework function, **TempActiveRef**, to create a temporary external reference **XLOPER**. The formula will appear in A2 in the correct locale-determined language (for example,  `=SOMME(X1:X100)` if the language is French). 
   
@@ -176,7 +176,7 @@ Excel supports a small number of functions that are only accessible from a DLL o
    
 ## Return value XLOPER/XLOPER12: operRes
 
-The  _operRes_ argument is the second argument to the callbacks and is a pointer to an **XLOPER** ( **Excel4** and **Excel4v**) or **XLOPER12** ( **Excel12** and **Excel12v**). After a successful call, it contains the return value of the function or command. **operRes** can be set to zero (NULL pointer) if no return value is required. The previous contents of **operRes** are overwritten so that any memory previously pointed to must be freed before to the call to avoid memory leaks. 
+The  _operRes_ argument is the second argument to the callbacks and is a pointer to an **XLOPER** (**Excel4** and **Excel4v**) or **XLOPER12** (**Excel12** and **Excel12v**). After a successful call, it contains the return value of the function or command. **operRes** can be set to zero (NULL pointer) if no return value is required. The previous contents of **operRes** are overwritten so that any memory previously pointed to must be freed before to the call to avoid memory leaks. 
   
 If the function or command cannot be called (for example, if the arguments are incorrect), **operRes** is set to the error **#VALUE!**. A command always returns **Boolean** **TRUE** if it is successful, or **FALSE** if it failed or the user canceled it. 
   

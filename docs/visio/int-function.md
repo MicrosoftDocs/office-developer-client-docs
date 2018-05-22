@@ -20,7 +20,7 @@ Rounds a number down to the next integer.
   
 ## Syntax
 
-INT( ** *number* ** ) 
+INT(** *number* ** ) 
   
 ### Parameters
 

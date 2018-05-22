@@ -20,7 +20,7 @@ Rounds a number toward 0 (zero), to the next integer, or to the next instance of
   
 ## Syntax
 
-FLOOR( ** *number* **, ** *multiple* ** ) 
+FLOOR(** *number* **, ** *multiple* ** ) 
   
 ### Parameters
 

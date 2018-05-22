@@ -18,7 +18,7 @@ Returns the 1-based segment number at the specified percentage mark along the sp
   
 ## Syntax
 
-PATHSEGMENT( ** *section* **, ** *travel* ** ) 
+PATHSEGMENT(** *section* **, ** *travel* ** ) 
   
 ### Parameters
 

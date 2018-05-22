@@ -20,7 +20,7 @@ Converts the value of an angle from degrees to radians.
   
 ## Syntax
 
-RAD( ** *angle* ** ) 
+RAD(** *angle* ** ) 
   
 ### Parameters
 

@@ -33,7 +33,7 @@ LPXLOPER12 argument1, ...);
 
 ## Parameters
 
- _iFunction_ ( **int**)
+ _iFunction_ (**int**)
   
 A number indicating the command or function you want to call. For more information, see [Excel4/Excel12](excel4-excel12.md).
   
@@ -41,7 +41,7 @@ A number indicating the command or function you want to call. For more informati
   
 A pointer to result of the evaluated function. Any memory pointed to in the result will have been allocated by Excel and should be freed in a call to [xlFree](xlfree.md) once it is no longer needed, or by setting **xlbitXLFree** if returning it to Excel. 
   
- _iCount_ ( **int**)
+ _iCount_ (**int**)
   
 The number of arguments that will be passed to the function. Starting in Excel 2007, the limit is 255 arguments. In earlier versions, the limit is 30.
   

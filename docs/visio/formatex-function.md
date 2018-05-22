@@ -20,7 +20,7 @@ Returns the result of expression evaluated in srcUnit as a string formatted acco
   
 ## Syntax
 
-FORMATEX( ** *expression* **," ** *format* ** ",[ ** *srcUnit* ** ],[ ** *dstUnit* ** ],[ ** *langID* ** ][, ** *calID* ** ]) 
+FORMATEX(** *expression* **," ** *format* ** ",[ ** *srcUnit* ** ],[ ** *dstUnit* ** ],[ ** *langID* ** ][, ** *calID* ** ]) 
   
 ### Parameters
 

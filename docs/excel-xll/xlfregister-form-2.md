@@ -36,13 +36,13 @@ Excel12(xlfRegister, LPXLOPER12 pxRes, 1, LPXLOPER12 pxModuleText);
 
 ## Parameters
 
- _pxModuleText_ ( **xltypeStr**)
+ _pxModuleText_ (**xltypeStr**)
   
 The name of the DLL to be loaded and activated.
   
 ## Property value/Return value
 
-If successful, this returns the name of the DLL ( **xltypeStr**). Otherwise it returns a #VALUE! error.
+If successful, this returns the name of the DLL (**xltypeStr**). Otherwise it returns a #VALUE! error.
   
 ## See also
 

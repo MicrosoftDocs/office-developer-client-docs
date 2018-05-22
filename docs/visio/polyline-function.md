@@ -20,7 +20,7 @@ Returns a polyline. This function is used in the A cell of PolyLineTo geometry r
   
 ## Syntax
 
-POLYLINE( ** *xType* **, ** *yType* **, ** *x1* **, ** *y1* **...) 
+POLYLINE(** *xType* **, ** *yType* **, ** *x1* **, ** *y1* **...) 
   
 ### Parameters
 

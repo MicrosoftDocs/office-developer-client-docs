@@ -20,7 +20,7 @@ Returns the sum of a list of numbers.
   
 ## Syntax
 
-SUM( ** *number1* **, ** *number2* **,..., ** *[numberN]* ** ) 
+SUM(** *number1* **, ** *number2* **,..., ** *[numberN]* ** ) 
   
 ### Parameters
 

@@ -18,6 +18,6 @@ Shows the properties for any gradient fill or line color effects applied to the 
   
 ## Remarks
 
-You can set gradient settings in the **Format Shape** dialog box ( **Home** > **Shape Styles** > **Fill** > **Fill Options** > **Fill** > **Gradient fill**). 
+You can set gradient settings in the **Format Shape** dialog box (**Home** > **Shape Styles** > **Fill** > **Fill Options** > **Fill** > **Gradient fill**). 
   
 

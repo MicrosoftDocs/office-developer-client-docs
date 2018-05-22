@@ -36,7 +36,7 @@ The POP BLOB structure, as described in Table 1, begins with two fields, **Versi
 
 |**Field in BLOB**|**Size**|**Description**|
 |:-----|:-----|:-----|
-|**Version** <br/> |2 bytes  <br/> |Must be 3 ( **PBLOB_VERSION_NUM**).  <br/> |
+|**Version** <br/> |2 bytes  <br/> |Must be 3 (**PBLOB_VERSION_NUM**).  <br/> |
 |**Count** <br/> |2 bytes  <br/> |The number of resource tags in this BLOB.  <br/> |
 |Resource tag  <br/> |Variable  <br/> |0 or more null-terminated UTF-8 strings that encode the resource tags. The number of null-terminated strings must match **Count**.  <br/> |
    

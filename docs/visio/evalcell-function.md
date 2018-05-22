@@ -18,7 +18,7 @@ Takes a reference to a cell that contains a custom function as well as one or mo
   
 ## Syntax
 
-EVALCELL( ** *cellRef* **,[ ** *arg1Name,arg1* ** ],[ ** *arg2Name,arg2* ** ],…) 
+EVALCELL(** *cellRef* **,[ ** *arg1Name,arg1* ** ],[ ** *arg2Name,arg2* ** ],…) 
   
 ### Parameters
 

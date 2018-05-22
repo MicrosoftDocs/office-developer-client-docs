@@ -48,7 +48,7 @@ The primary use of the **xlfEvaluate** function is to allow DLLs to find out the
 
 This example uses **xlfEvaluate** to coerce the text "!B38" to the contents of cell B38. 
   
- `\SAMPLES\EXAMPLE\EXAMPLE.C`. This function calls a command macro ( **xlcAlert**) and will work correctly only when called from a macro sheet or as a macro command.
+ `\SAMPLES\EXAMPLE\EXAMPLE.C`. This function calls a command macro (**xlcAlert**) and will work correctly only when called from a macro sheet or as a macro command.
   
 ```cs
 short WINAPI EvaluateExample(void)

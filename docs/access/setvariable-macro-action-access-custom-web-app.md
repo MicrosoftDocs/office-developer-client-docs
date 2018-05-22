@@ -23,6 +23,6 @@ The **SetVariable** action has the following arguments.
 |**Action argument**|**Description**|
 |:-----|:-----|
 |**Variable** <br/> |Enter the name of the temporary variable.  <br/> |
-|**Value =** <br/> |Enter an expression that will be used to set the value for this temporary variable. Do not precede the expression with the equal ( **=** ) sign. You can click the **Build** button ![Formula](media/buildbut_ZA06047218.gif) to use the Expression Builder to set this argument.  <br/> |
+|**Value =** <br/> |Enter an expression that will be used to set the value for this temporary variable. Do not precede the expression with the equal (**=** ) sign. You can click the **Build** button ![Formula](media/buildbut_ZA06047218.gif) to use the Expression Builder to set this argument.  <br/> |
    
 

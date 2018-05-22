@@ -20,7 +20,7 @@ Returns the hyperbolic tangent of an angle.
   
 ## Syntax
 
-TANH( ** *angle* ** ) 
+TANH(** *angle* ** ) 
   
 ### Parameters
 

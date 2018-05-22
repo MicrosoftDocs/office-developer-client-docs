@@ -28,15 +28,15 @@ Excel12(xlDefineBinaryName, 0, 2, LPXLOPER12 pxName, LPXLOPER12 pxData);
 
 ## Parameters
 
- _pxName_ ( **xltypeStr**)
+ _pxName_ (**xltypeStr**)
   
 A string specifying the name of the data. The string is subject to the same naming restrictions as defined names.
   
- _pxData_ ( **xltypeBigData**)
+ _pxData_ (**xltypeBigData**)
   
 Bigdata structure specifying the data to be stored. When you call this function, the **lpbData** member of the **bigdata** structure should point to the data for which the name is being defined, and the **cbData** member should contain the length of the data in bytes. 
   
-If the  _pxData_ argument is not specified ( **xltypeMissing**), the named allocation specified by  _pxName_ is deleted. 
+If the  _pxData_ argument is not specified (**xltypeMissing**), the named allocation specified by  _pxName_ is deleted. 
   
 ## See also
 

@@ -20,7 +20,7 @@ Returns the smallest number from a list. Smallest means closest to negative infi
   
 ## Syntax
 
-MIN( ** *number1* **, ** *number2* **,..., ** *numberN* ** ) 
+MIN(** *number1* **, ** *number2* **,..., ** *numberN* ** ) 
   
 ### Parameters
 

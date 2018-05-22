@@ -14,7 +14,7 @@ description: "An activityTemplateContainer element is a template that allows you
 
 # activityTemplateContainer Element
 
-An **activityTemplateContainer** element is a template that allows you to format your activity feed items and reuse XML that specifies a layout. Use IDs ( **applicationID** and **templateID**) to match a feed item ( **activityDetails**) to a template ( **activityTemplateContainer**). Store the layout data as part of the **activityTemplate** element. To reference data that is pulled from the individual activity feed item, use template variables as placeholders for information such as people, links, and text. 
+An **activityTemplateContainer** element is a template that allows you to format your activity feed items and reuse XML that specifies a layout. Use IDs (**applicationID** and **templateID**) to match a feed item (**activityDetails**) to a template (**activityTemplateContainer**). Store the layout data as part of the **activityTemplate** element. To reference data that is pulled from the individual activity feed item, use template variables as placeholders for information such as people, links, and text. 
   
 The following table describes the three elements that the **activityTemplateContainer** element requires. 
   
@@ -22,7 +22,7 @@ The following table describes the three elements that the **activityTemplateCont
 |:-----|:-----|
 |**applicationID** <br/> |One of two unique IDs that are used to match the feed item with its template. If you have multiple applications or other groupings, this can be used as a first-tier template organizer.  <br/> |
 |**templateID** <br/> |The second unique ID that is used to match the feed item with its template. This can be used as a second-tier template organizer.  <br/> |
-|**activityTemplate** <br/> |The layout of the template ( **icon**, **title**, and **data** elements), and the type of activity ( **type** element).  <br/> |
+|**activityTemplate** <br/> |The layout of the template (**icon**, **title**, and **data** elements), and the type of activity (**type** element).  <br/> |
    
 The following table describes the child elements of **activityTemplate**, which describe the layout and the type of a template.
   

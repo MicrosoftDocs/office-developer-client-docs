@@ -34,7 +34,7 @@ There are memory considerations for the following three data structure types:
     
 ## XLOPER/XLOPER12 Memory
 
-The **XLOPER**/ **XLOPER12** data structure has a few sub-types that contain pointers to blocks of memory, namely strings ( **xltypeStr**), arrays ( **xltypeMulti**) and external references ( **xltypeRef**). Note also that **xltypeMulti** arrays can contain string **XLOPER**/ **XLOPER12s** that in turn point to other blocks of memory. 
+The **XLOPER**/ **XLOPER12** data structure has a few sub-types that contain pointers to blocks of memory, namely strings (**xltypeStr**), arrays (**xltypeMulti**) and external references (**xltypeRef**). Note also that **xltypeMulti** arrays can contain string **XLOPER**/ **XLOPER12s** that in turn point to other blocks of memory. 
   
 An **XLOPER**/ **XLOPER12** can be created in several ways: 
   
@@ -323,8 +323,8 @@ As with **XLOPER**/ **XLOPER**s, there are rules and guidelines you should follo
 
 |**Byte strings**|**Wide character strings**|
 |:-----|:-----|
-|Null-terminated ( **char** *) "C" Max length: 255 extended ASCII bytes  <br/> |Null-terminated ( **wchar_t** *) "C%" Maximum length 32,767 Unicode chars  <br/> |
-|Length-counted ( **unsigned char** *) "D"  <br/> |Length-counted ( **wchar_t** *) "D%"  <br/> |
+|Null-terminated (**char** *) "C" Max length: 255 extended ASCII bytes  <br/> |Null-terminated (**wchar_t** *) "C%" Maximum length 32,767 Unicode chars  <br/> |
+|Length-counted (**unsigned char** *) "D"  <br/> |Length-counted (**wchar_t** *) "D%"  <br/> |
    
 ### Strings in xltypeMulti XLOPER/XLOPER12 Arrays
 

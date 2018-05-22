@@ -20,7 +20,7 @@ Returns the sine of an angle.
   
 ## Syntax
 
-SIN( ** *angle* ** ) 
+SIN(** *angle* ** ) 
   
 ### Parameters
 

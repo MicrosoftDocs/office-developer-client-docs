@@ -1,7 +1,5 @@
 ---
 title: "xlStack"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,7 +8,6 @@ f1_keywords:
 - xlStack
 keywords:
 - xlstack function [excel 2007]
- 
 localization_priority: Normal
 ms.assetid: f9f030e8-1ec9-4cbf-92e1-360526260916
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
@@ -18,7 +15,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # xlStack
 
- **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
+**Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 Checks the amount of space left on the stack.
   
@@ -32,7 +29,7 @@ This function takes no arguments.
   
 ## Property value/Return value
 
-Returns the number of bytes ( **xltypeInt**) remaining on the stack.
+Returns the number of bytes (**xltypeInt**) remaining on the stack.
   
 ## Remarks
 
@@ -70,7 +67,5 @@ short int WINAPI xlStackExample_XLOPER(void)
 
 ## See also
 
-
-
-[C API Functions That Can Be Called Only from a DLL or XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [C API Functions That Can Be Called Only from a DLL or XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

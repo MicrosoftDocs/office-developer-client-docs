@@ -42,15 +42,15 @@ Excel12(xlfRegister, LPXLOPER12 pxRes, int iCount,
 
 ## Parameters
 
-_pxModuleText_ ( **xltypeStr**)
+_pxModuleText_ (**xltypeStr**)
   
 The name of the DLL that contains the function. This can be obtained by calling the XLL-only function [xlGetName](xlgetname.md) if the function registered is also within the currently executing DLL. 
   
-_pxProcedure_ ( **xltypeStr** or **xltypeNum**)
+_pxProcedure_ (**xltypeStr** or **xltypeNum**)
   
 If a string, the name of the function to call as it appears in the DLL code. If a number, the ordinal export number of the function to call. For clarity, always use the string form.
   
-_pxTypeText_ ( **xltypeStr**)
+_pxTypeText_ (**xltypeStr**)
   
 An optional string that specifies the types of arguments to the function and the type of the return value of the function. For more information, see the Remarks section. This argument can be omitted for a stand-alone DLL (XLL) that includes an [xlAutoRegister function](xlautoregister-xlautoregister12.md) or **xlAutoRegister12**. 
   
@@ -59,15 +59,15 @@ An optional string that specifies the types of arguments to the function and the
   
 If **xlfRegister** is called with this argument missing, Excel calls **xlAutoRegister** or **xlAutoRegister12**, if either exists in the specified DLL, which should then correctly register the function by providing this information.
   
-_pxFunctionText_ ( **xltypeStr**)
+_pxFunctionText_ (**xltypeStr**)
   
 The function name as it will appear in the Function Wizard. This argument is optional; if it is omitted, the function is not available in the Function Wizard, and can only be called using the **CALL** function using the functions registration ID from an XLM macro sheet. Therefore, for ordinary worksheet use, you should handle this argument as required. 
   
-_pxArgumentText_ ( **xltypeStr**)
+_pxArgumentText_ (**xltypeStr**)
   
 An optional text string that describes the arguments to the function. The user sees this in the Function Wizard. If it is omitted, Excel constructs basic descriptions from  _pxTypeText_.
   
-_pxMacroType_ ( **xltypeNum** or **xltypeInt**)
+_pxMacroType_ (**xltypeNum** or **xltypeInt**)
   
 An optional argument that indicates the type of XLL entry point. The default value, if it is omitted, is 1.
   
@@ -86,29 +86,29 @@ In practice, you should use 1 for worksheet functions, 1 for macro sheet equival
 > [!NOTE]
 > XLL commands are hidden and not displayed in dialog boxes for running macros, although their names can be entered anywhere a valid command name is required. 
   
-_pxCategory_ ( **xltypeStr** or **xltypeNum**)
+_pxCategory_ (**xltypeStr** or **xltypeNum**)
   
 An optional argument that enables you to specify which category that the new function or command should belong to. The Function Wizard divides functions by type (category). You can specify a category name or a sequential number, where the number is the position in which the category appears in the Function Wizard. For more information, see the "Category Names" section. If it is omitted, the User Defined category is assumed.
   
-_pxShortcutText_ ( **xltypeStr**)
+_pxShortcutText_ (**xltypeStr**)
   
 A one-character, case-sensitive string that specifies the control key assigned to this command. For example, "A" assigns this command to CONTROL+SHIFT+A. This argument is optional and is used for commands only.
   
-_pxHelpTopic_ ( **xltypeStr**)
+_pxHelpTopic_ (**xltypeStr**)
   
 An optional reference to the Help file (.chm or .hlp) to display when the user clicks the Help button (when your custom function is displayed). Can be in the form  `filepath!HelpContextID` or  `http://address/path_to_file_in_site!0`. Both parts before and after the "!" are required.  *HelpContextID*  must not contain single quotes, and will be converted by Excel to an unsigned integer 4 bytes long, in decimal form. When using the URL form, Excel opens only the referenced help file. 
   
-_pxFunctionHelp_ ( **xltypeStr**)
+_pxFunctionHelp_ (**xltypeStr**)
   
 An optional string that describes your custom function when it is selected in the Function Wizard.
   
-_pxArgumentHelp1_ ( **xltypeStr**)
+_pxArgumentHelp1_ (**xltypeStr**)
   
 Optional. The first of the strings that describe the custom arguments of the function when the function is selected in the Function Wizard. In Excel 2003 and earlier, **xlfRegister** can take, at most, 30 arguments so that you can provide this help for the first 20 of your function arguments only. Starting in Excel 2007, **xlfRegister** can take up to 255 arguments so that you can provide this help for up to 245 function parameters. 
   
 ## Property value/Return value
 
-If registration was successful, this function returns the register ID of the function ( **xltypeNum**), which can be used in calls to **xlUDF** and **xlfUnregister** in a DLL, or with **CALL** and **UNREGISTER** in an XLM macro sheet. Otherwise, it returns a #VALUE! error. 
+If registration was successful, this function returns the register ID of the function (**xltypeNum**), which can be used in calls to **xlUDF** and **xlfUnregister** in a DLL, or with **CALL** and **UNREGISTER** in an XLM macro sheet. Otherwise, it returns a #VALUE! error. 
   
 ## Remarks
 
@@ -130,7 +130,7 @@ The first table lists the types supported in all versions of Excel.
 |[signed] short [int]  <br/> |I  <br/> |M  <br/> |16-bit signed integer  <br/> |
 |[signed long] int  <br/> |J  <br/> |N  <br/> |32-bit signed integer  <br/> |
 |FP  <br/> ||K  <br/> |Floating-point array structure  <br/> |
-|Array  <br/> ||O  <br/> |Three arguments are passed:  <br/> unsigned short int \*  <br/> unsigned short int \*  <br/> double []  <br/> |
+|Array  <br/> ||O  <br/> |Three arguments are passed:<br/>- unsigned short int \*<br/>- unsigned short int \*<br/>- double []  <br/> |
 |XLOPER  <br/> ||P  <br/> |Variable-type worksheet values and arrays  <br/> |
 |||R  <br/> |Values, arrays, and range references  <br/> |
    
@@ -141,7 +141,7 @@ In Excel 2007 the following data types were introduced to support the larger gri
 |unsigned short \*  <br/> ||C%, F%  <br/> |Null-terminated Unicode wide-character string  <br/> |
 |unsigned short \*  <br/> ||D%, G%  <br/> |Counted Unicode wide-character string  <br/> |
 |FP12  <br/> ||K%  <br/> |Larger grid floating-point array structure  <br/> |
-|Array  <br/> ||O%  <br/> |Three arguments are passed:          signed int * / RW *  <br/> signed int \* / COL \*  <br/> double []  <br/> |
+|Array  <br/> ||O%  <br/> |Three arguments are passed:<br/>- signed int \* / RW \*<br/>- signed int \* / COL \*<br/>- double []  <br/> |
 |XLOPER12  <br/> ||Q  <br/> |Variable-type worksheet values and arrays  <br/> |
 |||U  <br/> |Values, arrays, and range references  <br/> |
    
@@ -183,7 +183,7 @@ extern "C" lpDbl __stdcall AddDbl(double D1,
 
 ### F, F%, G, and G% data types
 
-With the **F**, **F%**, **G**, and **G%** data types, a function can modify a string buffer that is allocated by Excel. If the return value type code is one of these types, Excel ignores the value returned by the function. Instead, Excel searches the list of function arguments for the first corresponding data type ( **F**, **F%**, **G**, or **G%**) and then takes the current contents of the allocated string buffer as the return value. All versions of Excel allocate 256 bytes for **F** and **G** ASCII strings, and starting in Excel 2007 65,536 bytes are allocated, enough for 32,768 Unicode characters, for **F%** and **G%** Unicode strings. Remember that the buffers must include a count character (types **G** and **G%**) or a null-termination character (types **F** and **F%**), so that the actual maximum string lengths are 255 and 32,767. Unicode strings, and therefore type **F%** and **G%** arguments, are available only through the C API in Excel. 
+With the **F**, **F%**, **G**, and **G%** data types, a function can modify a string buffer that is allocated by Excel. If the return value type code is one of these types, Excel ignores the value returned by the function. Instead, Excel searches the list of function arguments for the first corresponding data type (**F**, **F%**, **G**, or **G%**) and then takes the current contents of the allocated string buffer as the return value. All versions of Excel allocate 256 bytes for **F** and **G** ASCII strings, and starting in Excel 2007 65,536 bytes are allocated, enough for 32,768 Unicode characters, for **F%** and **G%** Unicode strings. Remember that the buffers must include a count character (types **G** and **G%**) or a null-termination character (types **F** and **F%**), so that the actual maximum string lengths are 255 and 32,767. Unicode strings, and therefore type **F%** and **G%** arguments, are available only through the C API in Excel. 
   
 ### K and K% data types
 

@@ -1,7 +1,5 @@
 ---
 title: "xlGetHwnd"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,7 +8,6 @@ f1_keywords:
 - xlGetHwnd
 keywords:
 - xlgethwnd function [excel 2007]
- 
 localization_priority: Normal
 ms.assetid: be33b097-812b-4f5c-81be-4d9673e95b0b
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
@@ -18,7 +15,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # xlGetHwnd
 
- **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
+**Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 Returns the window handle of the top-level Microsoft Excel window.
   
@@ -33,7 +30,7 @@ This function has no arguments.
   
 ## Property value/Return value
 
-Contains the window handle ( **xltypeInt**) in the **val.w** field. 
+Contains the window handle (**xltypeInt**) in the **val.w** field. 
   
 ## Remarks
 
@@ -47,10 +44,6 @@ See the code for the [fShowDialog function](fshowdialog.md) in  `SAMPLES\GENERIC
   
 ## See also
 
-
-
-[xlGetInst](xlgetinst.md)
-
-
-[C API Functions That Can Be Called Only from a DLL or XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [xlGetInst](xlgetinst.md)
+- [C API Functions That Can Be Called Only from a DLL or XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

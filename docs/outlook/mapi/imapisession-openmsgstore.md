@@ -51,7 +51,7 @@ HRESULT OpenMsgStore(
     
  _lpInterface_
   
-> [in] A pointer to the interface identifier (IID) that represents the interface to be used to access the message store. Passing NULL causes the  _lppMDB_ parameter to return a pointer to the standard interface for a message store ( **IMsgStore**).
+> [in] A pointer to the interface identifier (IID) that represents the interface to be used to access the message store. Passing NULL causes the  _lppMDB_ parameter to return a pointer to the standard interface for a message store (**IMsgStore**).
     
  _ulFlags_
   

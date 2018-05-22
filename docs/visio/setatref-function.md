@@ -20,7 +20,7 @@ Redirects updated values resulting from actions in the user interface (UI) or Au
   
 ## Syntax
 
-SETATREF( ** *reference* ** [, ** *set_expression* ** [, ** *ignore_eval* ** ]]) 
+SETATREF(** *reference* ** [, ** *set_expression* ** [, ** *ignore_eval* ** ]]) 
   
 ### Parameters
 

@@ -30,9 +30,9 @@ void FreeXLOper12T(LPXLOPER12 pxloper12);
 
 ## Parameters
 
- _pxloper_ ( **LPXLOPER**)
+ _pxloper_ (**LPXLOPER**)
   
- _pxloper12_ ( **LPXLOPER12**)
+ _pxloper12_ (**LPXLOPER12**)
   
 Pointer to the **XLOPER**/ **XLOPER12** to be freed. 
   

@@ -22,7 +22,7 @@ Version Added: Visio 2010
   
 ## Syntax
 
-MSOSHADE( ** *color* **, ** *-deltaLum* ** ) 
+MSOSHADE(** *color* **, ** *-deltaLum* ** ) 
   
 ### Parameters
 

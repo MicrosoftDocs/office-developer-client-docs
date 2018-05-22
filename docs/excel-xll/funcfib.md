@@ -28,13 +28,13 @@ LPXLOPER12 WINAPI FuncFib (LPXLOPER12 pxN);
 
 ## Parameters
 
- _pxN_ ( **LPXLOPER12**)
+ _pxN_ (**LPXLOPER12**)
   
 The value of N for which the Nth Fibonacci number is required.
   
 ## Property value/Return value
 
-( **xltypeNum LPXLOPER12** if successful or **xltypeErr** otherwise) 
+(**xltypeNum LPXLOPER12** if successful or **xltypeErr** otherwise) 
   
 The Nth Fibonacci number.
   

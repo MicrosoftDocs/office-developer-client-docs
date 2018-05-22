@@ -45,7 +45,7 @@ The following table lists all the attributes defined in the TNEF implementation 
 |**attMessageStatus** <br/> |**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md))  <br/> |
 |**attOriginalMessageClass** <br/> |**PR_ORIG_MESSAGE_CLASS ** ([PidTagOriginalMessageClass](pidtagoriginalmessageclass-canonical-property.md))  <br/> |
 |**attOwner** <br/> |See [attOwner](attowner.md).  <br/> |
-|**attParentID** <br/> |**PR_PARENT_KEY** ( **PidTagParentKey**) This property has been deprecated. See [API Elements Deprecated in This Edition](api-elements-deprecated-in-this-edition.md) for more information.  <br/> |
+|**attParentID** <br/> |**PR_PARENT_KEY** (**PidTagParentKey**) This property has been deprecated. See [API Elements Deprecated in This Edition](api-elements-deprecated-in-this-edition.md) for more information.  <br/> |
 |**attPriority** <br/> |**PR_PRIORITY** ([PidTagPriority](pidtagpriority-canonical-property.md))  <br/> |
 |**attRecipTable** <br/> |**PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md))  <br/> |
 |**attRequestRes** <br/> |**PR_RESPONSE_REQUESTED** ([PidTagResponseRequested](pidtagresponserequested-canonical-property.md))  <br/> |

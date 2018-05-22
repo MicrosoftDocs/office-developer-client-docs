@@ -35,7 +35,7 @@ LPXLOPER12 WINAPI xlAddInManagerInfo12(LPXLOPER12 pxAction);
 
 ## Parameters
 
- _pxAction:_ A pointer to a numeric **XLOPER/XLOPER12** ( **xltypeInt** or **xltypeNum**).
+ _pxAction:_ A pointer to a numeric **XLOPER/XLOPER12** (**xltypeInt** or **xltypeNum**).
   
 The information that Excel is asking for.
   

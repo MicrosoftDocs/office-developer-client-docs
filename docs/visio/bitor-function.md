@@ -20,7 +20,7 @@ Returns a 16-bit binary number in which each bit is set to 1 if the correspondin
   
 ## Syntax
 
-BITOR( ** *binary number1* **, ** *binary number2* ** ) 
+BITOR(** *binary number1* **, ** *binary number2* ** ) 
   
 ### Parameters
 

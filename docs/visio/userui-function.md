@@ -20,7 +20,7 @@ Evaluates one of the two expressions depending on the value of  _state_.
   
 ## Syntax
 
-USERUI( ** *state* **, ** *defaultexpression* **, ** *userexpression* ** ) 
+USERUI(** *state* **, ** *defaultexpression* **, ** *userexpression* ** ) 
   
 ### Parameters
 

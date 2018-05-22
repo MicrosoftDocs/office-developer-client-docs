@@ -32,13 +32,13 @@ Excel12(xlCoerce, LPXLOPER12 pxRes, 2, LPXLOPER12 pxSource, LPXLOPER12 pxDestTyp
   
 The source **XLOPER**/ **XLOPER12** that needs to be converted. 
   
- _pxDestType_ ( **xltypeInt**)
+ _pxDestType_ (**xltypeInt**)
   
 (Optional). A bit-mask of the resulting types you are willing to accept. You should use the bitwise **OR** operator ( | ) to specify multiple possible types. If this argument is omitted, references to single cells are converted to one of the value types **xltypeStr**, **xltypeNum**, **xltypeBool**, **xltypeErr**, **xltypeNil** (if the referred-to cell is empty), and references to blocks of cells are converted to **xltypeMulti**. This makes **xlCoerce** the most convenient way to look up cell values. 
   
 ## Property value/Return value
 
-Returns the coerced value ( **xltypeStr**, **xltypeNum**, **xltypeBool**, **xltypeErr**, **xltypeNil**, or **xltypeMulti**).
+Returns the coerced value (**xltypeStr**, **xltypeNum**, **xltypeBool**, **xltypeErr**, **xltypeNil**, or **xltypeMulti**).
   
 ## Remarks
 

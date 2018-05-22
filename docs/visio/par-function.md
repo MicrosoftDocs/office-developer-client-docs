@@ -20,7 +20,7 @@ Returns the  _x,y_ coordinates of a point in the coordinate system of the shape'
   
 ## Syntax
 
-PAR( ** *point* ** ) 
+PAR(** *point* ** ) 
   
 ### Parameters
 

@@ -20,7 +20,7 @@ Returns the base 10 logarithm of a number. The number must be positive or LOG10 
   
 ## Syntax
 
-LOG10( ** *number* ** ) 
+LOG10(** *number* ** ) 
   
 ### Parameters
 

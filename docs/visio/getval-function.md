@@ -20,7 +20,7 @@ Gets the value of a cell and doesn't recalculate the formula when the cell's val
   
 ## Syntax
 
-GETVAL( ** *cellname* ** ) 
+GETVAL(** *cellname* ** ) 
   
 ### Parameters
 

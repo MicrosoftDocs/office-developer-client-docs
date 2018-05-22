@@ -21,6 +21,6 @@ Shows the current values of a shape's angle of rotation along the x-, y-, and z-
   
 ## Remarks
 
-You can change the 3-D rotation values in the **Format Shape** dialog box ( **Home** > **Shape Styles** > **Effects** > **3-D Rotation** or by making a change to one of the cells in the **3-D Rotation Properties** section. 
+You can change the 3-D rotation values in the **Format Shape** dialog box (**Home** > **Shape Styles** > **Effects** > **3-D Rotation** or by making a change to one of the cells in the **3-D Rotation Properties** section. 
   
 
