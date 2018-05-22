@@ -20,40 +20,22 @@ Form templates can have one of three security levels, depending on where the for
 
 The Restricted security level does not allow any communication outside the form template. This security level is intended to prevent harmful forms from transmitting any data from your computer to a malicious attacker. When running in this security mode, the following features will not work:
   
-- HTML Task Panes
-    
+- HTML Task Panes  
 - SharePoint Query
-    
 - SharePoint Submit
-    
 - XML File Query
-    
 - Database Query
-    
 - Database Submit
-    
 - Web Service Query
-    
 - Web Service Submit
-    
 - Custom Code Submit
-    
 - Hosting Environment Submit
-    
 - ActiveX Controls
-    
 - Roles
-    
 - SharePoint Workflow
-    
 - Rules that open a New Document
-    
 - Managed Code
-    
 - External Print View
-    
-- Linked Images
-    
 - Linked Images
     
 ### Domain
