@@ -13,81 +13,79 @@ description: "Last modified: March 09, 2015"
 **Applies to**: Outlook 
   
 A message's [PidTagUserFields](pidtaguserfields-canonical-property.md) property contains a binary stream, FolderUserFields, which contains the folder user-defined field definitions. This topic describes the stream structures for folder user-defined field definitions. 
-  
-## FolderUserFields Stream Structure
 
 A FolderUserFields stream structure consists of either a FolderUserFieldsA structure or a FolderUserFieldsA structure followed by a FolderUserFieldsW structure.
   
 Data elements in this stream are stored immediately following each other in the following specified order:
   
-- FolderUserFieldsAnsi: A FolderUserFieldsA stream structure.
+- **FolderUserFieldsAnsi**: A FolderUserFieldsA stream structure.
     
-- FolderUserFieldsUnicode (optional): A FolderUserFieldsW stream structure.
+- **FolderUserFieldsUnicode** (optional): A FolderUserFieldsW stream structure.
     
 The presence of FolderUserFieldsUnicode is detected by the total length of the FolderUserFields being greater than the length of FolderUserFieldsAnsi.
   
 > [!IMPORTANT]
 > FolderUserFieldsAnsi is used for compatibility with older, non-Unicode, versions of MAPI clients, therefore if FolderUserFieldsUnicode is present, the contents of FolderUserFieldsAnsi is ignored. To avoid possible data loss in ANSI conversion, when creating a FolderUserFields stream always include the FolderUserFieldsW part. 
   
-### FolderUserFieldsA Stream Structure
+## FolderUserFieldsA Stream Structure
 
 A FolderUserFieldsA stream structure is an array of FolderFieldDefinitionA stream structures that contain definitions for all user-defined fields in an Outlook folder, unless overridden by the FolderUserFieldsW part of the FolderUserFields structure.
   
 Data elements in this stream are stored in little-endian byte order, immediately following each other in the following specified order:
   
-- FieldDefinitionCount: DWORD (4 bytes), the number of field definitions in this stream. This is the count of elements in the FieldDefinitions array.
+- **FieldDefinitionCount**: DWORD (4 bytes), the number of field definitions in this stream. This is the count of elements in the **FieldDefinitions** array.
     
-- FieldDefinitions: An array of FolderFieldDefinitionA stream structures. The count of this array is equal to the FieldDefinitionCount data element.
+- **FieldDefinitions**: An array of FolderFieldDefinitionA stream structures. The count of this array is equal to the **FieldDefinitionCount** data element.
     
-Unless this FolderUserFieldsA is overridden by the FolderUserFieldsW part of the FolderUserFields structure, the FieldDefinitions array must be "null-terminated" by having its last FolderFieldDefinitionA element's Common.FieldType field equal to ftNull.
+Unless this FolderUserFieldsA is overridden by the FolderUserFieldsW part of the FolderUserFields structure, the **FieldDefinitions** array must be "null-terminated" by having its last FolderFieldDefinitionA element's Common.FieldType field equal to ftNull.
   
-### FolderUserFieldsW Stream Structure
+## FolderUserFieldsW Stream Structure
 
 A FolderUserFieldsW stream structure is an array of FolderFieldDefinitionW stream structures that contain definitions for all user-defined fields in an Outlook folder.
   
 Data elements in this stream are stored in little-endian byte order, immediately following each other in the following specified order:
   
-- FieldDefinitionCount: DWORD (4 bytes), the number of field definitions in this stream. This is the count of elements in the FieldDefinitions array.
+- **FieldDefinitionCount**: DWORD (4 bytes), the number of field definitions in this stream. This is the count of elements in the **FieldDefinitions** array.
     
-- FieldDefinitions: An array of FolderFieldDefinitionW stream structures. The count of this array is equal to the FieldDefinitionCount data element.
+- **FieldDefinitions**: An array of FolderFieldDefinitionW stream structures. The count of this array is equal to the **FieldDefinitionCount** data element.
     
-The FieldDefinitions array must be "null-terminated" by having its last FolderFieldDefinitionW element's Common.FieldType field equal to ftNull.
+The **FieldDefinitions** array must be "null-terminated" by having its last FolderFieldDefinitionW element's Common.FieldType field equal to ftNull.
   
-### FolderFieldDefinitionA Stream Structure
+## FolderFieldDefinitionA Stream Structure
 
 A FolderFieldDefinitionA stream structure contains a definition of a user-defined field with the field name stored in ANSI.
   
 Data elements in this stream are stored in little-endian byte order, immediately following each other in the following specified order:
   
-- FieldType: FldType (4 bytes), the type of this field.
+- **FieldType**: FldType (4 bytes), the type of this field.
     
-- FieldNameLength: WORD (2 bytes), the number of elements in the FieldName array.
+- **FieldNameLength**: WORD (2 bytes), the number of elements in the **FieldName** array.
     
-- FieldName: An array of CHAR. This is the ANSI CP_ACP codepage representation of the field name. The count of this array is equal to FieldNameLength. The field name must satisfy the restrictions on the Name parameter as specified in the [UserProperties.Add](http://msdn.microsoft.com/en-us/library/microsoft.office.interop.outlook.userproperties.add.aspx) Method. 
+- **FieldName**: An array of CHAR. This is the ANSI CP_ACP codepage representation of the field name. The count of this array is equal to **FieldNameLength**. The field name must satisfy the restrictions on the Name parameter as specified in the [UserProperties.Add](http://msdn.microsoft.com/en-us/library/microsoft.office.interop.outlook.userproperties.add.aspx) Method. 
     
    > [!NOTE]
-   > For reasons of legacy compatibility, Outlook may be able to handle some FieldName values not satisfying these restrictions, however such cases are not covered by this topic. 
+   > For reasons of legacy compatibility, Outlook may be able to handle some **FieldName** values not satisfying these restrictions, however such cases are not covered by this topic. 
   
-- Common: A FolderFieldDefinitionCommon stream structure.
+- **Common**: A FolderFieldDefinitionCommon stream structure.
     
-### FolderFieldDefinitionW Stream Structure
+## FolderFieldDefinitionW Stream Structure
 
 A FolderFieldDefinitionW stream structure contains a definition of a user-defined field with the field name stored in Unicode.
   
 Data elements in this stream are stored in little-endian byte order, immediately following each other in the following specified order:
   
-- FieldType: FldType (4 bytes), the type of this field.
+- **FieldType**: FldType (4 bytes), the type of this field.
     
-- FieldNameLength: WORD (2 bytes), the number of elements in the FieldName array.
+- **FieldNameLength**: WORD (2 bytes), the number of elements in the **FieldName** array.
     
-- FieldName: An array of WCHAR. This is the Unicode (UTF-16) representation of the field name. The count of this array is equal to FieldNameLength. The field name must satisfy the restrictions on the Name parameter as specified in the [UserProperties.Add](http://msdn.microsoft.com/en-us/library/microsoft.office.interop.outlook.userproperties.add.aspx) Method. 
+- **FieldName**: An array of WCHAR. This is the Unicode (UTF-16) representation of the field name. The count of this array is equal to **FieldNameLength**. The field name must satisfy the restrictions on the Name parameter as specified in the [UserProperties.Add](http://msdn.microsoft.com/en-us/library/microsoft.office.interop.outlook.userproperties.add.aspx) Method. 
     
    > [!NOTE]
-   > For reasons of legacy compatibility, Outlook may be able to handle some FieldName values not satisfying these restrictions, but such cases are not covered by this topic. 
+   > For reasons of legacy compatibility, Outlook may be able to handle some **FieldName** values not satisfying these restrictions, but such cases are not covered by this topic. 
   
-- Common: A FolderFieldDefinitionCommon stream structure.
+- **Common**: A FolderFieldDefinitionCommon stream structure.
     
-### FldType Enumeration
+## FldType Enumeration
 
 **FldType** enumeration values are listed in the following table. 
   
@@ -106,7 +104,7 @@ Data elements in this stream are stored in little-endian byte order, immediately
 |ftSwitch  <br/> |0x13  <br/> |Combination of type showing only the first non-empty field - ignoring subsequent ones.  <br/> |
 |ftConcat  <br/> |0x17  <br/> |Combination of type joining fields and any text fragments to each other.  <br/> |
    
-### FolderFieldDefinitionCommon Stream Structure
+## FolderFieldDefinitionCommon Stream Structure
 
 A FolderFieldDefinitionCommon stream structure contains the data of a user-defined field definition that is common to both a FolderFieldDefinitionA and a FolderFieldDefinitionW.
   
