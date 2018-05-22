@@ -64,11 +64,9 @@ _rgte_
   
 > [out] Structure to hold the following information for normal (or non-hidden) items and associated (or hidden) items in the folder:  _rgte[0]_ is for normal items, and  _rgte[1]_ is for associated items. 
     
-    - the number of new or modified items
-    
-    -  the number of read items 
-    
-    - the number of deleted items
+   - the number of new or modified items
+   - the number of read items 
+   - the number of deleted items
     
  _iEnt_
   

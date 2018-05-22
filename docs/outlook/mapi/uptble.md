@@ -1,7 +1,5 @@
 ---
 title: "UPTBLE"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,8 +12,6 @@ description: "Last modified: July 23, 2011"
 
 # UPTBLE
 
-  
-  
 **Applies to**: Outlook 
   
 Extended information for uploading the contents of a folder during the [upload table state](upload-table-state.md).
@@ -62,11 +58,7 @@ struct UPTBLE
     
 ## See also
 
-
-
-[About the Replication API](about-the-replication-api.md)
-  
-[About the Replication State Machine](about-the-replication-state-machine.md)
-  
-[UPTBL](uptbl.md)
+- [About the Replication API](about-the-replication-api.md) 
+- [About the Replication State Machine](about-the-replication-state-machine.md)
+- [UPTBL](uptbl.md)
 
