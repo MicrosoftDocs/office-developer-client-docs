@@ -192,11 +192,11 @@ Procedure 2 shows how to create LINQ queries in Visual C# by using expressions i
     
 3. Add the following code to the Program.cs file. The **context** variable is initialized with the metadata in the **ProjectData** EDM, which you established by adding the **ProjectOData** service reference. 
     
-    The **projectQuery1** variable is set to a LINQ query expression for projects, where the project start date is later than January 1, 2012, and the output is ordered by project name. The **projectQuery1** variable is of type **IOrderedQueryable\<ProjectOData.Project\>**.
+   The **projectQuery1** variable is set to a LINQ query expression for projects, where the project start date is later than January 1, 2012, and the output is ordered by project name. The **projectQuery1** variable is of type **IOrderedQueryable\<ProjectOData.Project\>**.
     
-    The **projectQuery2** variable produces the same query results, by using lambda expressions. The **projectQuery2** variable is of type **IQueryable\<ProjectOData.Project\>**. The .NET Framework internally converts **projectQuery1** to use the method syntax of **projectQuery2**.
+   The **projectQuery2** variable produces the same query results, by using lambda expressions. The **projectQuery2** variable is of type **IQueryable\<ProjectOData.Project\>**. The .NET Framework internally converts **projectQuery1** to use the method syntax of **projectQuery2**.
     
-       ```cs
+   ```cs
         using System;
         using System.Collections.Generic;
         using System.Linq;
@@ -237,15 +237,15 @@ Procedure 2 shows how to create LINQ queries in Visual C# by using expressions i
                 }
             }
         }
-       ```
+   ```
 
 4. Set a breakpoint after initializing the **projectQuery1** variable, and run the application. Internally, Visual Studio converts the query first to OData method syntax with lambda expressions, and then to a REST query for the OData service. Following is the REST query for **projectQuery1** (all on one line): 
     
-    ```html
+   ```html
     http://ServerName/ProjectServerName/_api/ProjectData/Projects()
         ?$filter=ProjectStartDate gt datetime'2012-01-01T00:00:00'
         &$orderby=ProjectName}
-    ```
+   ```
 
 When you run the **TestProjectData** application, the console shows the following output for three sample projects that are published in Project Web App:
 
