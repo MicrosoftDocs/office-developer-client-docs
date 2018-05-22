@@ -1,5 +1,5 @@
 ---
-title: "Opening Address Book Entries"
+title: "Opening address book entries"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,21 +8,17 @@ api_type:
 - COM
 ms.assetid: 017a62c0-49c6-47fb-acce-db58e6bb9cc5
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
-# Opening Address Book Entries
+# Opening address book entries
 
-  
-  
 **Applies to**: Outlook 
   
 When a client or provider has requested that one of your objects be opened, MAPI calls your provider's [IABLogon::OpenEntry](iablogon-openentry.md) method. MAPI determines that the entry identifier representing the target object belongs to your provider by examining the [MAPIUID](mapiuid.md) portion of the entry identifier and matching it to the **MAPIUID** that your provider registered in the call to **IMAPISupport::SetProviderUID**. MAPI then calls your **OpenEntry** method. Your provider must respond by retrieving the corresponding object — a container, distribution list, or messaging user. 
   
 A NULL entry identifier indicates a request to open the address book provider's root container. Clients open the root container to access its hierarchy table and its recipients. Address book providers that only supply templates for creating one-off recipients do not support the **OpenEntry** call for the root container. 
   
- **To implement IABLogon::OpenEntry**
+### To implement IABLogon::OpenEntry
   
 1. Check that the entry identifier is a valid identifier that your provider supports. If it is not a valid entry identifier, return MAPI_E_INVALID_ENTRYID. 
     
@@ -38,16 +34,13 @@ A NULL entry identifier indicates a request to open the address book provider's 
     
 7. Create the object of the appropriate type and set the following basic properties:
     
-    **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))
+    - **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))
+    - **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))
+    - **PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))
+    - **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))
     
-    **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))
+8. Calculate **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) and **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) from information in the entry identifier.
     
-    **PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))
-    
-    **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))
-    
-    Calculate **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) and **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) from information in the entry identifier.
-    
-8. Return a pointer to the interface implementation for the object. 
+9. Return a pointer to the interface implementation for the object. 
     
 

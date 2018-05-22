@@ -1,5 +1,5 @@
 ---
-title: "Opening the Default Message Store"
+title: "Opening the default message store"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,14 +8,10 @@ api_type:
 - COM
 ms.assetid: 670fb896-9aaf-4a96-83f7-76237409e956
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
-# Opening the Default Message Store
+# Opening the default message store
 
-  
-  
 **Applies to**: Outlook 
   
 In any particular session, one message store acts as the default message store. A default message store has the following characteristics:
@@ -30,17 +26,14 @@ To retrieve the entry identifier for the default message store, you must call [I
   
 1. An **AND** restriction that uses an **SAndRestriction** structure to combine: 
     
-  - An exists restriction that uses an **SExistRestriction** structure to test for the existence of the **PR_DEFAULT_STORE** property. 
+   - An exists restriction that uses an **SExistRestriction** structure to test for the existence of the **PR_DEFAULT_STORE** property. 
     
-  - A property restriction that uses an [SPropertyRestriction](spropertyrestriction.md) structure to check for the TRUE value in the **PR_DEFAULT_STORE** property. 
+   - A property restriction that uses an [SPropertyRestriction](spropertyrestriction.md) structure to check for the TRUE value in the **PR_DEFAULT_STORE** property. 
     
 2. A bitmask restriction that uses an [SBitMaskRestriction](sbitmaskrestriction.md) structure for applying STATUS_DEFAULT_STORE as a mask against the **PR_RESOURCE_FLAGS** property. 
     
 ## See also
 
-
-
-[SExistRestriction](sexistrestriction.md)
-  
-[SAndRestriction](sandrestriction.md)
+- [SExistRestriction](sexistrestriction.md)
+- [SAndRestriction](sandrestriction.md)
 
