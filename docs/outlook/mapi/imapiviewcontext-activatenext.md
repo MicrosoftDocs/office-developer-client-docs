@@ -1,7 +1,5 @@
 ---
 title: "IMAPIViewContextActivateNext"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -18,8 +16,6 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIViewContext::ActivateNext
 
-  
-  
 **Applies to**: Outlook 
   
 Activates the next or previous message in the view order. 
@@ -33,41 +29,29 @@ LPCRECT prcPosRect
 
 ## Parameters
 
- _ulDir_
+_ulDir_
   
 > [in] Status flags giving information about the message to be activated. Valid flag settings are:
     
-VCDIR_CATEGORY 
-  
-> The viewer should activate a message in another category of the view. The message to be activated is: 
-    
+  - VCDIR_CATEGORY: The viewer should activate a message in another category of the view. The message to be activated is: 
+        
     - The first message in the next view category if this flag is **OR**ed with VCDIR_NEXT. 
-    
+        
     - The last message in the previous view category if this flag is **OR**ed with VCDIR_PREV and the previous category is expanded. 
-    
+        
     - The first message in the previous view category if this flag is **OR**ed with VCDIR_PREV and the previous category is not expanded. In this case the previous category undergoes automatic expansion. 
+        
+  - VCDIR_DELETE: The viewer should activate the next or previous message because the current message has been deleted. 
+        
+  - VCDIR_MOVE: The viewer should activate the next or previous message because the current message has been moved. 
+        
+  - VCDIR_NEXT: The viewer should activate the next message in the view order. 
+        
+  - VCDIR_PREV: The viewer should activate the previous message in the view order. 
+        
+  - VCDIR_UNREAD: The viewer should activate the next or previous unread message in the view order. 
     
-VCDIR_DELETE 
-  
-> The viewer should activate the next or previous message because the current message has been deleted. 
-    
-VCDIR_MOVE 
-  
-> The viewer should activate the next or previous message because the current message has been moved. 
-    
-VCDIR_NEXT 
-  
-> The viewer should activate the next message in the view order. 
-    
-VCDIR_PREV 
-  
-> The viewer should activate the previous message in the view order. 
-    
-VCDIR_UNREAD 
-  
-> The viewer should activate the next or previous unread message in the view order. 
-    
- _prcPosRect_
+_prcPosRect_
   
 > [in] Pointer to a Windows **RECT** structure containing the size and position of the window to be used to display the activated message. 
     
@@ -105,12 +89,7 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-
-
-[IMAPIViewContext::GetViewStatus](imapiviewcontext-getviewstatus.md)
-  
-[IMAPIViewContext : IUnknown](imapiviewcontextiunknown.md)
-
-
-[MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
+- [IMAPIViewContext::GetViewStatus](imapiviewcontext-getviewstatus.md)
+- [IMAPIViewContext : IUnknown](imapiviewcontextiunknown.md)
+- [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
 
