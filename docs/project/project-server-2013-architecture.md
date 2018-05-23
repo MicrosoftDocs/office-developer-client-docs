@@ -1,12 +1,8 @@
 ---
 title: "Project Server 2013 architecture"
-
- 
 manager: soliver
 ms.date: 9/17/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 2cfa5a6e-2f5c-440c-b35a-bc7a34648f9c
 description: "Project Server 2013 integrates project management functionality throughout a SharePoint farm and enables the use of Project Online with a client-side object model (CSOM) and an OData interface for the Reporting data."
@@ -15,10 +11,6 @@ description: "Project Server 2013 integrates project management functionality th
 # Project Server 2013 architecture
 
 Project Server 2013 integrates project management functionality throughout a SharePoint farm and enables the use of Project Online with a client-side object model (CSOM) and an OData interface for the Reporting data.
-  
-|||
-|:-----|:-----|
-|||
    
 Project Server 2013 is a multitiered system that extends the architecture introduced in Office Project Server 2007. Architectural changes include association of the Project Application Service with SharePoint site collections, the addition of some business objects on the web front-end (WFE), the client-side object model (CSOM) for remote access, a single Project database, an OData interface for the Reporting tables and views, integration of Windows Workflow Foundation version 4 (WF4) through Workflow Manager Client 1.0 in the cloud or on a local server, and remote event receivers that are accessible by multiple Project Server installations. In addition to on-premises custom solutions, you can create apps that include remote event receivers and components that access the CSOM and OData interfaces.
   
@@ -26,9 +18,10 @@ The front-end tier includes Project Professional 2013, Project Web App, and thir
   
 > [!NOTE]
 > Project Server is built on the SharePoint architecture. For information about SharePoint Server 2013 architecture and the SharePoint app model, see the  *Getting started with SharePoint development*  section in the Office 2013 developer documentation. 
-  
-## Integrating with SharePoint site collections
+
 <a name="pj15_Architecture_SharePoint"> </a>
+
+## Integrating with SharePoint site collections
 
 The Project Application Service in Project Server 2013 can be associated with a SharePoint site collection for use with SharePoint tasks lists, The Project Application Service can also import a SharePoint tasks list as an enterprise project for full Project Server control. With a SharePoint tasks list, SharePoint maintains the project site in a site collection; Project Professional can synchronize with and update the tasks list. A project site can be an independent SharePoint tasks list or a tasks list that is synchronized with an .mpp file; the .mpp file can be stored locally or in a SharePoint library. 
   
@@ -36,19 +29,19 @@ Project Server maintains the projects when it has full control; Project Professi
   
 **Table 1. Comparison of SharePoint task lists and full control**
 
-|****Feature****|**Task list**|**Full-control**|
+| Feature | Task list | Full-control |
 |:-----|:-----|:-----|
 |**Task list in SharePoint** <br/> |Read/write  <br/> |Read-only  <br/> |
 |**Schedule web part** <br/> |Read-only  <br/> |Read/write  <br/> |
 |**Reporting** <br/> |Rich reporting through Project Server  <br/> |Rich reporting through Project Server  <br/> |
-|**Other Project Server functionality** <br/> | Blocked functionality:  <br/>  Server-side project edits, with Project Web App or custom client applications  <br/>  Statusing  <br/>  Tasks are not visible in tied mode  <br/> |Full functionality is enabled  <br/> |
+|**Other Project Server functionality** <br/> | Blocked functionality:  <br/>- Server-side project edits, with Project Web App or custom client applications  <br/>- Statusing  <br/>- Tasks are not visible in tied mode  <br/> |Full functionality is enabled  <br/> |
    
 ### Managing projects as SharePoint task lists
 <a name="pj15_Architecture_VisibilityMode"> </a>
 
 When Project Server is associated with a SharePoint site collection where SharePoint maintains control, task lists and Project Professional 2013 (.mpp) files in document libraries are visible to the Project Application Service, but SharePoint maintains the master data for synchronization (see Figure 1). Server-side scheduling with the Schedule web part cannot be done. You can use Project Professional to synchronize with and edit the task list in a project site. By starting with SharePoint task lists, organizations can gradually evolve to use the full functionality of Project Server.
   
- Figure 1 shows the following processes when projects are maintained in SharePoint task lists: 
+Figure 1 shows the following processes when projects are maintained in SharePoint task lists: 
   
 - (A) Project Professional can synchronize with task lists and create new project sites in the site collection either before or after association with the Project Application Service.
     
@@ -61,7 +54,9 @@ When Project Server is associated with a SharePoint site collection where ShareP
 **Figure 1. Using project sites as SharePoint task lists**
 
 ![Using project sites in visibility mode](media/pj15_Architecture_VisibilityMode.gif)
-  
+
+<br/>
+
 ### Managing projects with full control
 <a name="pj15_Architecture_ManagedMode"> </a>
 
@@ -92,7 +87,9 @@ There can be multiple Project Web App instances that communicate with the back-e
 **Figure 3. General Project Server 2013 architecture**
 
 ![Project Server architecture](media/pj15_Architecture_ProjectServiceApp_WFE.gif)
-  
+
+<br/>
+
 The following general comments apply to Figure 3:
   
 - **Project Online:** You can create apps that use the CSOM, REST, and OData interfaces. An app package can also install remote event receivers in a custom web service on a local server, on an Azure server, or on Microsoft Azure. Project Online does not support third-party on-premises solutions, the WCF interface, the ASMX interface, or local event handlers. 
@@ -101,12 +98,9 @@ The following general comments apply to Figure 3:
     
 - **Browsers:** There are no cross-browser limitations on viewing some Project Web App pages, as there are in Project Server 2010. The following browsers are supported for full use with Project Web App: 
     
-  - Internet Explorer 8.x (on Windows 7 and earlier versions of Microsoft Windows), Internet Explorer 9.x, and Internet Explorer 10.x
-    
+  - Internet Explorer 8.x (on Windows 7 and earlier versions of Microsoft Windows), Internet Explorer 9.x, and Internet Explorer 10.x 
   - Firefox 4.x (on Windows, Mac OS-X, and Linux/Unix)
-    
   - Safari 5.x (on Windows and Mac OS-X)
-    
   - Chrome
     
 - **Programmatic interfaces:** For third-party apps, Project Online exposes the HTTP/HTTPS interface (including REST), the CSOM interface, an OData service for the CSOM, and an OData service for reporting. For third-party client applications that are on-premises (on the Intranet), you can use the WCF interface for the PSI, or you can use the CSOM, OData, and REST interfaces through HTTP. The Project Web App and Project Professional 2013 clients both use the WCF interface. In a single-server installation, the front-end ASMX web services, CSOM, and REST internally call the back-end WCF services. 
@@ -254,27 +248,20 @@ Project Server allows the published version of a project to be updated while a p
     
 2. Project Server saves the update to apply to the draft version when either of the following events occur:
     
-  - Project Professional opens the project.
+   - Project Professional opens the project.
     
-  - Project Professional tries to publish the project.
+   - Project Professional tries to publish the project.
     
 3. If there is a conflict, the project manager is notified and must resolve the conflict before the draft version can be published.
     
 ## See also
-<a name="pj15_Architecture_AR"> </a>
 
 - [Project 2013 overview for developers](http://msdn.microsoft.com/library/8da91ab0-af4f-429f-8241-490600e3f7bd%28Office.15%29.aspx)
-    
-- [Project Server programmability](project-server-programmability.md)
-    
-- [Client-side object model (CSOM) for Project 2013](client-side-object-model-csom-for-project-2013.md)
-    
-- [What the PSI does and does not do](what-the-psi-does-and-does-not-do.md)
-    
-- [Getting started developing Project Server workflows](getting-started-developing-project-server-workflows.md)
-    
-- [Project PSI reference overview](project-psi-reference-overview.md)
-    
+- [Project Server programmability](project-server-programmability.md)  
+- [Client-side object model (CSOM) for Project 2013](client-side-object-model-csom-for-project-2013.md)  
+- [What the PSI does and does not do](what-the-psi-does-and-does-not-do.md)  
+- [Getting started developing Project Server workflows](getting-started-developing-project-server-workflows.md)   
+- [Project PSI reference overview](project-psi-reference-overview.md)   
 - [Open Data Protocol](http://www.odata.org/)
     
 
