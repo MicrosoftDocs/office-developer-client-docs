@@ -68,13 +68,13 @@ Use the following procedure to display the recorded Office issues in the Telemet
 
 1. To open the Telemetry Log, do one of the following:
     
-  - **On Windows 7:** On the **Start** menu, choose **All Programs**. Then, in the list of programs, expand **Microsoft Office 2013**, expand **Office 2013 Tools**, and then click **Office 2013 Telemetry Log**.
+   - **On Windows 7:** On the **Start** menu, choose **All Programs**. Then, in the list of programs, expand **Microsoft Office 2013**, expand **Office 2013 Tools**, and then click **Office 2013 Telemetry Log**.
     
-    A new workbook in Excel 2013 opens. The workbook has three worksheets titled **Events** **System info**, and **Guide**.
+     A new workbook in Excel 2013 opens. The workbook has three worksheets titled **Events** **System info**, and **Guide**.
     
-  - **On Windows 8:** Swipe up to display the AppBar, choose **All Apps**, and then choose **Office 2013 Telemetry Log**.
+   - **On Windows 8:** Swipe up to display the AppBar, choose **All Apps**, and then choose **Office 2013 Telemetry Log**.
     
-    A new workbook in Excel 2013 opens. The workbook has three worksheets titled **Events** **System info**, and **Guide**.
+     A new workbook in Excel 2013 opens. The workbook has three worksheets titled **Events** **System info**, and **Guide**.
     
 2. To view an up-to-date list of events, on the **Events** worksheet, at the top of the worksheet, choose **Refresh**.
     
@@ -94,7 +94,16 @@ For example, the issue titled "OM Hidden: Comment.Initial Property" appears if a
 ![The Office Event Viewer displaying records.](media/off15_OfficeEventViewer_SD.png)
   
 > [!NOTE]
->  The **System Info** worksheet in the Telemetry Log contains information about the computer on which Office 2013 is installed. The worksheet displays the following information: >  User name. >  Full computer name. >  Architecture of the operating system (x64/64-bit or x86/32-bit). >  Version of Windows that is installed on the computer. >  Time zone for the computer's internal clock. >  Version of the Telemetry Log. >  Version of Office that is installed on the computer. >  This information can be useful when you are interpreting the issues and events listed on the **Events** worksheet. 
+>  The **System Info** worksheet in the Telemetry Log contains information about the computer on which Office 2013 is installed. The worksheet displays the following information: 
+> - User name.
+> - Full computer name.
+> - Architecture of the operating system (x64/64-bit or x86/32-bit).
+> - Version of Windows that is installed on the computer.
+> - Time zone for the computer's internal clock.
+> - Version of the Telemetry Log.
+> - Version of Office that is installed on the computer.
+> 
+> This information can be useful when you are interpreting the issues and events listed on the **Events** worksheet. 
   
 In the Telemetry Log, a level of severity is displayed together with the known issues. From the previous example, an issue in which a part of the object model has been hidden most often has an "Informative" level of severity. On the other hand, other known issues might be more serious and require more immediate action. The severity of the issues displayed in the Telemetry Log can be one of the following:
   
@@ -112,11 +121,11 @@ Use the following table (Table 2) to interpret the records that are displayed in
 |**Event ID**|**Title**|**Severity**|**Description**|
 |:-----|:-----|:-----|:-----|
 |1  <br/> |Document loaded successfully  <br/> ||The file listed in the **File** column was opened in the Office application without any issues.  <br/> |
-|2  <br/> |Document failed to load  <br/> |Warning  <br/> | The application was unable to load the file. There may be some underlying compatibility issue.  <br/>  For more information about how to repair a corrupted workbook in Excel 2013, see [Repairing a corrupted workbook](http://office.microsoft.com/en-us/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx).  <br/>  For more information about how to repair a corrupted document in Word 2013, see [Save and recover a backup copy of a document](http://office.microsoft.com/en-us/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx) <br/> |
+|2  <br/> |Document failed to load  <br/> |Warning  <br/> | The application was unable to load the file. There may be some underlying compatibility issue.  <br/><br/>For more information about how to repair a corrupted workbook in Excel 2013, see [Repairing a corrupted workbook](http://office.microsoft.com/en-us/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx).<br/><br/>For more information about how to repair a corrupted document in Word 2013, see [Save and recover a backup copy of a document](http://office.microsoft.com/en-us/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx). <br/> |
 |3  <br/> |Template loaded successfully  <br/> ||The template file listed in the **File** column was opened in the Office application without any issues.  <br/> |
-|4  <br/> |Template failed to load  <br/> |Warning  <br/> | The application was unable to load the template file. There may be some underlying compatibility issue or the template availability may have changed.  <br/>  For more information about how to repair a corrupted workbook in Excel 2013, see [Repairing a corrupted workbook](http://office.microsoft.com/en-us/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx).  <br/>  For more information about how to repair a corrupted document in Word 2013, see [Save and recover a backup copy of a document](http://office.microsoft.com/en-us/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx) <br/> |
+|4  <br/> |Template failed to load  <br/> |Warning  <br/> | The application was unable to load the template file. There may be some underlying compatibility issue or the template availability may have changed.<br/><br/>For more information about how to repair a corrupted workbook in Excel 2013, see [Repairing a corrupted workbook](http://office.microsoft.com/en-us/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx).<br/><br/>For more information about how to repair a corrupted document in Word 2013, see [Save and recover a backup copy of a document](http://office.microsoft.com/en-us/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx). <br/> |
 |5  <br/> |Add-in loaded successfully  <br/> ||The add-in listed in the **File** column loaded within the Office application successfully. No compatibility issues were detected.  <br/> |
-|6  <br/> |Add-in failed to load  <br/> |Critical  <br/> | The application was unable to load the add-in listed in the **File** column.  <br/>  For more information about how to repair a corrupted workbook in Excel 2013, see [Repairing a corrupted workbook](http://office.microsoft.com/en-us/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx).  <br/>  For more information about how to repair a corrupted document in Word 2013, see [Save and recover a backup copy of a document](http://office.microsoft.com/en-us/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx) <br/> |
+|6  <br/> |Add-in failed to load  <br/> |Critical  <br/> | The application was unable to load the add-in listed in the **File** column.  <br/><br/>For more information about how to repair a corrupted workbook in Excel 2013, see [Repairing a corrupted workbook](http://office.microsoft.com/en-us/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx). <br/><br/>  For more information about how to repair a corrupted document in Word 2013, see [Save and recover a backup copy of a document](http://office.microsoft.com/en-us/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx). <br/> |
 |7  <br/> |Add-in manifest downloaded successfully  <br/> ||The host application loaded the manifest for the Office Add-in successfully.  <br/> |
 |8  <br/> |Add-in manifest did not download  <br/> |Critical  <br/> |The host application was unable to load the manifest file for the Office Add-in from the SharePoint catalog, corporate catalog, or the Office Store.  <br/> |
 |9  <br/> |Add-in manifest could not be parsed  <br/> |Critical  <br/> |The host application loaded the Office Add-in manifest for the add-in, but could not read the XML.  <br/> |
@@ -131,10 +140,10 @@ Use the following table (Table 2) to interpret the records that are displayed in
 |18  <br/> |App closed successfully  <br/> ||The host application was able to close the Office Add-in successfully.  <br/> |
 |19  <br/> |Add-in encountered runtime error  <br/> |Critical  <br/> |The Office Add-in had a problem that caused it to fail. For more details, look at the Microsoft Office Alerts log using the Windows Event Viewer on the computer that encountered the error.  <br/> |
 |20  <br/> |Add-in failed to verify licensing  <br/> |Critical  <br/> |The licensing information for the Office Add-in could not be verified and may have expired. For more details, look at the Microsoft Office Alerts log using the Windows Event Viewer on the computer that encountered the error.  <br/> |
-|Various  <br/> |"OM Behavior Change: ..."  <br/> |Informative  <br/> |The add-in or macro-enabled document code uses an object, member, collection, enumeration, or constant that behaves differently from previous versions of Office.  <br/> For more information, see [Compatibility issues in Office](compatibility-issues-in-office.md).  <br/> |
-|Various  <br/> |"OM Removed: …"  <br/> |Critical  <br/> |The add-in or macro-enabled document code uses an object, member, collection, enumeration, or constant that has been removed from the object model.  <br/> For more information, see [Compatibility issues in Office](compatibility-issues-in-office.md).  <br/> |
-|Various  <br/> |"OM Hidden: …"  <br/> |Informative  <br/> |The add-in or macro-enabled document code uses an object, member, collection, enumeration, or constant that has been hidden in the object model.  <br/> For more information, see [Compatibility issues in Office](compatibility-issues-in-office.md).  <br/> |
-|Various  <br/> |"Control: …"  <br/> ||The file contains a control that may not be supported in Office 2013 or on the computer's operating system.  <br/> For more information, see [Compatibility issues in Office](compatibility-issues-in-office.md).  <br/> |
+|Various  <br/> |"OM Behavior Change: ..."  <br/> |Informative  <br/> |The add-in or macro-enabled document code uses an object, member, collection, enumeration, or constant that behaves differently from previous versions of Office.<br/><br/> For more information, see [Compatibility issues in Office](compatibility-issues-in-office.md).  <br/> |
+|Various  <br/> |"OM Removed: …"  <br/> |Critical  <br/> |The add-in or macro-enabled document code uses an object, member, collection, enumeration, or constant that has been removed from the object model.<br/><br/>For more information, see [Compatibility issues in Office](compatibility-issues-in-office.md).  <br/> |
+|Various  <br/> |"OM Hidden: …"  <br/> |Informative  <br/> |The add-in or macro-enabled document code uses an object, member, collection, enumeration, or constant that has been hidden in the object model.<br/><br/>For more information, see [Compatibility issues in Office](compatibility-issues-in-office.md).  <br/> |
+|Various  <br/> |"Control: …"  <br/> ||The file contains a control that may not be supported in Office 2013 or on the computer's operating system.<br/><br/>For more information, see [Compatibility issues in Office](compatibility-issues-in-office.md).  <br/> |
    
 ## Conclusion
 <a name="OEV_Conclusion"> </a>
