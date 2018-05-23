@@ -45,11 +45,11 @@ This property represents a per-recipient property on delivery and nondelivery re
     
 [[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Specifies the properties and operations that are permissible on e-mail messages.
+> Specifies the properties and operations that are permissible on email messages.
     
 [[MS-OXCSPAM]](http://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Enables the handling of allow/block lists and the determination of junk e-mail messages.
+> Enables the handling of allow/block lists and the determination of junk email messages.
     
 ### Header files
 

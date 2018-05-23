@@ -34,9 +34,9 @@ int WINAPI xlAutoRemove(void);
 
 This function takes no arguments.
   
-## Property Value/Return Value
+## Property value/Return value
 
-Your implementation of this function must return 1 ( **int**).
+Your implementation of this function must return 1 (**int**).
   
 ## Remarks
 

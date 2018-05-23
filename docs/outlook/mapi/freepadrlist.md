@@ -52,7 +52,7 @@ As part of its implementation of **FreePadrlist**, MAPI calls the [MAPIFreeBuffe
   
 For more information about allocating memory for **ADRLIST** and **SRowSet** structures, see [Managing Memory for ADRLIST and SRowSet Structures](managing-memory-for-adrlist-and-srowset-structures.md). 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

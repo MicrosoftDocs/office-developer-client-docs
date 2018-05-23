@@ -1,18 +1,14 @@
 ---
-title: "Ceiling Function (Access custom web app)"
-  
-  
+title: "Ceiling function (Access custom web app)" 
 manager: kelbow
 ms.date: 9/5/2017
-ms.audience: Developer
- 
-  
+ms.audience: Developer 
 localization_priority: Normal
 ms.assetid: 0245c820-6c60-47e2-8afa-3e56679454a3
 description: "Returns the smallest integer greater than, or equal to, the specified numeric expression."
 ---
 
-# Ceiling Function (Access custom web app)
+# Ceiling function (Access custom web app)
 
 Returns the smallest integer greater than, or equal to, the specified numeric expression.
   
@@ -21,7 +17,7 @@ Returns the smallest integer greater than, or equal to, the specified numeric ex
   
 ## Syntax
 
- **Ceiling** (  *NumericExpression*  ) 
+**Ceiling** (*NumericExpression*) 
   
 The Ceiling function contains the following argument.
   

@@ -45,7 +45,7 @@ The outgoing transport provider must always leave this property unchanged if it 
     
 [[MS-OXOMSG]](http://msdn.microsoft.com/en-us/library/cc433482%28EXCHG.80%29.aspx)
   
-> Specifies the properties and operations that are permissible for e-mail message objects.
+> Specifies the properties and operations that are permissible for email message objects.
     
 [[MS-OXORSS]](http://msdn.microsoft.com/en-us/library/cc463884%28EXCHG.80%29.aspx)
   
@@ -61,7 +61,7 @@ The outgoing transport provider must always leave this property unchanged if it 
     
 [[MS-OXCMAIL]](http://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Converts from Internet standard e-mail conventions to message objects.
+> Converts from Internet standard email conventions to message objects.
     
 [[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   

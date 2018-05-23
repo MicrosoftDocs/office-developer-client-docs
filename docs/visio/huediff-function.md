@@ -18,7 +18,7 @@ Returns the difference in hue between  _color1_ and  _color2_.
   
 ## Syntax
 
-HUEDIFF( ** *color1* **, ** *color2* ** ) 
+HUEDIFF(** *color1* **, ** *color2* ** ) 
   
 ### Parameters
 

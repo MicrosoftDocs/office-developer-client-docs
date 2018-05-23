@@ -21,7 +21,7 @@ Returns an integer that represents the month of the specified date.
   
 ## Syntax
 
- **Month** (  *Date*  ) 
+ **Month** (*Date*) 
   
 The **Month** function contains the following argument. 
   

@@ -1,18 +1,14 @@
 ---
-title: "Cast Function (Access custom web app)"
-  
-  
+title: "Cast function (Access custom web app)"  
 manager: kelbow
 ms.date: 9/5/2017
 ms.audience: Developer
- 
-  
 localization_priority: Normal
 ms.assetid: b33f649c-d9b5-4ae5-a3fa-8681ed9a956d
 description: "Converts an expression of one data type to another."
 ---
 
-# Cast Function (Access custom web app)
+# Cast function (Access custom web app)
 
 Converts an expression of one data type to another.
   
@@ -21,7 +17,7 @@ Converts an expression of one data type to another.
   
 ## Syntax
 
- **Convert** (  *Expression*  ,  *DataType*  ) 
+**Convert** (*Expression*, *DataType*) 
   
 |**Argument Name**|**Description**|
 |:-----|:-----|

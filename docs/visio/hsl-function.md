@@ -20,7 +20,7 @@ Returns a value representing an index in the document's color palette. It specif
   
 ## Syntax
 
-HSL( ** *hue* **, ** *saturation* **, ** *luminosity* ** ) 
+HSL(** *hue* **, ** *saturation* **, ** *luminosity* ** ) 
   
 ### Parameters
 

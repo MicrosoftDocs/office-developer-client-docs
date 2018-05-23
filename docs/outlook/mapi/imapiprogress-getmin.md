@@ -54,7 +54,7 @@ Initialize the minimum value to 1. Service providers can reset this value by cal
   
 For more information about how and when to make calls to a progress object, see [Display a Progress Indicator](how-to-display-a-progress-indicator.md).
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

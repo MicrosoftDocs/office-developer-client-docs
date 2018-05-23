@@ -12,7 +12,7 @@ description: "Last modified: July 06, 2012"
   
 **Applies to**: Outlook 
   
-This topic contains a code sample in C++ that programmatically sets the order of address lists by which recipients in e-mail messages and attendees in meeting requests are resolved.
+This topic contains a code sample in C++ that programmatically sets the order of address lists by which recipients in email messages and attendees in meeting requests are resolved.
   
 In MAPI, each profile can support multiple address lists and each address list resides in its own container. MAPI supports the **[SetSearchPath](http://support.microsoft.com/kb/292590)** method in the interface that allows you to set a new search path in the profile that is used for name resolution. To use the **IAddrBook::SetSearchPath** method, you have to define the desired resolution order in a **[SRowSet](srowset.md)** array that holds the containers of the relevant address books in the desired order, and then specify the array as the  *lpSearchPath*  parameter. The first property for each entry in the **SRowSet** array must be the **[PR_ENTRYID](pidtagentryid-canonical-property.md)** property of the corresponding address book. 
   

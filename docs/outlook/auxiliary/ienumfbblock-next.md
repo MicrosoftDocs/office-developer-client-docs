@@ -42,7 +42,7 @@ HRESULT Next(
   
 > [out] The number of free/busy blocks actually returned in  *pblk*  . 
     
-## Return Values
+## Return values
 
 |**HRESULT**|**Description**|
 |:-----|:-----|

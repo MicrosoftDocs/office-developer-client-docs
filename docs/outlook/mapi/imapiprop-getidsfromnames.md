@@ -109,7 +109,7 @@ Some objects have a limit as to the number of property identifiers they can name
   
 For more information, see [MAPI Named Properties](mapi-named-properties.md). 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

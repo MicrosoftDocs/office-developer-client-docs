@@ -32,7 +32,7 @@ Excel12(xlfEvaluate, LPXLOPER12 pxRes, 1, LPXLOPER12 pxFormulaText);
   
 The string to be evaluated. A leading equal sign (=) is optional. The string can be any text that can legally be entered into a worksheet or macro sheet cell.
   
-## Property Value/Return Value
+## Property value/Return value
 
 Returns the result of evaluating the string which can be any of the types **xltypeNum**, **xltypeStr**, **xltypeBool**, **xltypeErr**, **xltypeNil**, **xltypeMulti**.
   
@@ -48,7 +48,7 @@ The primary use of the **xlfEvaluate** function is to allow DLLs to find out the
 
 This example uses **xlfEvaluate** to coerce the text "!B38" to the contents of cell B38. 
   
- `\SAMPLES\EXAMPLE\EXAMPLE.C`. This function calls a command macro ( **xlcAlert**) and will work correctly only when called from a macro sheet or as a macro command.
+ `\SAMPLES\EXAMPLE\EXAMPLE.C`. This function calls a command macro (**xlcAlert**) and will work correctly only when called from a macro sheet or as a macro command.
   
 ```cs
 short WINAPI EvaluateExample(void)

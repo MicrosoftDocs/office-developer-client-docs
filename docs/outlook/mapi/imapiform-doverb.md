@@ -93,7 +93,7 @@ You can make non-modal verbs act as modal verbs by pointing  _lpViewContext_ to 
   
 For more information about verbs in MAPI, see [Form Verbs](form-verbs.md). For more information about how verbs are handled in OLE, see [OLE and Data Transfer](http://msdn.microsoft.com/en-us/library/ms693425%28VS.85%29.aspx).
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

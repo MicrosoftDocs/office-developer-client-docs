@@ -21,7 +21,7 @@ Returns the statistical variance for a population sample represented as a set of
   
 ## Syntax
 
- **Var** (  *NumericExpression*  ) 
+ **Var** (*NumericExpression*) 
   
 The **Var** function contains the following argument. 
   

@@ -16,7 +16,7 @@ description: "This section describes the Account Management API which provides a
 
 This section describes the Account Management API which provides access to account information and supports account-change notifications. It also includes information about protecting accounts from spam and managing message downloads for POP3 accounts.
   
-## In This Section
+## In this section
 
 - [About the Account Management API](about-the-account-management-api.md)
     

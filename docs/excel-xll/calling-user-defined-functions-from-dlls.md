@@ -1,20 +1,17 @@
 ---
-title: "Calling User-Defined Functions from DLLs"
- 
- 
+title: "Calling user-defined functions from DLLs"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
 - udfs [excel 2007], calling from dlls,user-defined functions [Excel 2007], calling from DLLs,DLLs [Excel 2007], calling UDFs
- 
 localization_priority: Normal
 ms.assetid: 99a37108-0083-4240-9c6a-3afa8d7a04f6
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---
 
-# Calling User-Defined Functions from DLLs
+# Calling user-defined functions from DLLs
 
 **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
@@ -40,7 +37,7 @@ The following example shows the **xlUDF** function being used to call the ATP fu
 > [!NOTE]
 > This example uses the Framework functions **TempNum**, **TempStrConst** to set up the arguments and Excel to call the C API. 
   
-```cs
+```C
 LPXLOPER TempNum(double d);
 LPXLOPER TempStrConst(const LPSTR lpstr);
 int cdecl Excel(int xlfn, LPXLOPER pxResult, int count, ...);
@@ -82,9 +79,11 @@ double call_ATP_example(void)
 }
 ```
 
+<br/>
+
 Where you are calling an XLL function that returns a value by modifying an argument in place, the **xlUDF** function still returns the value via the address of the result **XLOPER/XLOPER12**. In other words, the result is returned as if through a normal return statement. The **XLOPER/XLOPER12** that corresponds to the argument that is used for the return value is unmodified. For example, consider the following two UDFs. 
   
-```cs
+```C
 // Registered as "1E". Returns its argument incremented by 1.
 void WINAPI UDF_1(double *pArg)
 {
@@ -105,18 +104,13 @@ LPXLOPER12 WINAPI UDF_2(LPXLOPER12 pxArg)
 }
 ```
 
-When **UDF_2** calls **UDF_1**, the value of **pxArg** is unchanged after the call to **Excel12**, and the value returned by **UDF_1** is contained in **xRetVal**.
+When **UDF\_2** calls **UDF\_1**, the value of **pxArg** is unchanged after the call to **Excel12**, and the value returned by **UDF_1** is contained in **xRetVal**.
   
 When you are making a large number of calls to a UDF in this way, you can evaluate the function name first by using the [xlfEvaluate function](xlfevaluate.md). The resulting number, which is the same as the registration ID that is returned by the **xlfRegister** function, can be passed in place of the function name as the first argument to the **xlUDF** function. This enables Excel to find and call the function more quickly than if it has to look up the function name every time. 
   
 ## See also
 
-
-
-[Permitting User Breaks in Lengthy Operations](permitting-user-breaks-in-lengthy-operations.md)
-  
-[C API Functions That Can Be Called Only from a DLL or XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
-
-
-[Getting Started with the Excel XLL SDK](getting-started-with-the-excel-xll-sdk.md)
+- [Permitting User Breaks in Lengthy Operations](permitting-user-breaks-in-lengthy-operations.md)
+- [C API Functions That Can Be Called Only from a DLL or XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [Getting Started with the Excel XLL SDK](getting-started-with-the-excel-xll-sdk.md)
 

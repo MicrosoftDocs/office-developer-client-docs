@@ -20,7 +20,7 @@ Returns the height of the composed text in a shape where no text line exceeds  _
   
 ## Syntax
 
-TEXTHEIGHT( ** *shapename!TheText* ** ** *[,maximumwidth]* ** ) 
+TEXTHEIGHT(** *shapename!TheText* ** ** *[,maximumwidth]* ** ) 
   
 ### Parameters
 

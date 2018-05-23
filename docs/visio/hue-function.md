@@ -20,7 +20,7 @@ Returns the value of a color's hue component.
   
 ## Syntax
 
-HUE( ** *expression* ** ) 
+HUE(** *expression* ** ) 
   
 ### Parameters
 

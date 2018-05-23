@@ -20,9 +20,9 @@ MAPI specifies five types of gateway-mappable properties:
   
 - Display name
     
-- E-mail address
+- Email address
     
-- E-mail type
+- Email type
     
 - Entry identifier
     
@@ -33,8 +33,8 @@ This is the set of addressing properties that are associated with recipients, se
 |**Property set**|**Description**|
 |:-----|:-----|
 |PS_ROUTING_DISPLAY_NAME  <br/> |Contains string properties used as display names.  <br/> |
-|PS_ROUTING_EMAIL_ADDRESSES  <br/> |Contains string properties used as e-mail addresses.  <br/> |
-|PS_ROUTING_ADDRTYPE  <br/> |Contains string properties used as e-mail address types.  <br/> |
+|PS_ROUTING_EMAIL_ADDRESSES  <br/> |Contains string properties used as email addresses.  <br/> |
+|PS_ROUTING_ADDRTYPE  <br/> |Contains string properties used as email address types.  <br/> |
 |PS_ROUTING_ENTRYID  <br/> |Contains binary properties used as long-term entry identifiers.  <br/> |
 |PS_ROUTING_SEARCH_KEY  <br/> |Contains binary properties used as search keys.  <br/> |
    

@@ -41,7 +41,7 @@ Signifies, if set to 1, that messages identified as spam may be permanently dele
     
 [[MS-OXCSPAM]](http://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Enables the handling of allow/block lists and the determination of junk e-mail messages.
+> Enables the handling of allow/block lists and the determination of junk email messages.
     
 ### Header files
 

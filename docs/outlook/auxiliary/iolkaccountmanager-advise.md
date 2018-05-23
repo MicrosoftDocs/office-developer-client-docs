@@ -37,7 +37,7 @@ HRESULT IOlkAccountManager::Advise (
   
 > [out] A cookie that [IOlkAccountManager::Unadvise](iolkaccountmanager-unadvise.md) will use when removing the registration for the account. 
     
-## Return Values
+## Return values
 
 |**HRESULT**|**Description**|
 |:-----|:-----|

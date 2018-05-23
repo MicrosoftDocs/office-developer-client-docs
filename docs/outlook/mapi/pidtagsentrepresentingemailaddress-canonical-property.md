@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Contains the e-mail address for the messaging user who is represented by the sender.
+Contains the email address for the messaging user who is represented by the sender.
   
 |||
 |:-----|:-----|
@@ -47,7 +47,7 @@ The outgoing transport provider must always leave these properties unchanged if 
     
 [[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Specifies the properties and operations that are permissible for e-mail message objects.
+> Specifies the properties and operations that are permissible for email message objects.
     
 [[MS-OXORSS]](http://msdn.microsoft.com/library/53bc9634-0040-4b5a-aecd-29781d826009%28Office.15%29.aspx)
   
@@ -63,7 +63,7 @@ The outgoing transport provider must always leave these properties unchanged if 
     
 [[MS-OXCMAIL]](http://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Converts from Internet standard e-mail conventions to message objects.
+> Converts from Internet standard email conventions to message objects.
     
 [[MS-OXOTASK]](http://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   

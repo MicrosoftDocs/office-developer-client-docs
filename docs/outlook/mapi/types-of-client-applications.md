@@ -30,9 +30,9 @@ There are primarily two types of messaging clients: those that handle interperso
     
 - Mix of persons and machines
     
-Person-to-person applications involve a person initiating the exchange of messages and another person responding. This category of applications includes traditional e-mail applications as well as more structured exchanges such as document routing or expense approval.
+Person-to-person applications involve a person initiating the exchange of messages and another person responding. This category of applications includes traditional email applications as well as more structured exchanges such as document routing or expense approval.
   
-Person-to-machine applications involve a person initiating the exchange of messages and a machine responding. This category includes applications that use e-mail to, for example, submit a database query or subscribe to a mailing list.
+Person-to-machine applications involve a person initiating the exchange of messages and a machine responding. This category includes applications that use email to, for example, submit a database query or subscribe to a mailing list.
   
 Machine-to-person applications involve a machine initiating the exchange of messages and a person responding. This category includes applications that distribute documents such as news feeds and opinion surveys.
   

@@ -27,7 +27,7 @@ HRESULT Placeholder1(
 
 ```
 
-## Return Values
+## Return values
 
 Always E_NOTIMPL, because this member is a placeholder in **IFreeBusyData** and is not supported. 
   

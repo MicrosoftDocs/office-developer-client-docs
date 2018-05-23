@@ -21,7 +21,7 @@ Returns the identifier (ID) of the specified font.
   
 ## Syntax
 
-FONTTOID( ** *font_name* ** ) 
+FONTTOID(** *font_name* ** ) 
   
 ### Parameters
 

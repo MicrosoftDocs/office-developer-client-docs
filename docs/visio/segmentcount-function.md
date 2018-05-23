@@ -18,7 +18,7 @@ Returns the number of line segments that make up the path.
   
 ## Syntax
 
-SEGMENTCOUNT( ** *pathRef* ** ) 
+SEGMENTCOUNT(** *pathRef* ** ) 
   
 ### Parameters
 

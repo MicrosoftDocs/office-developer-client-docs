@@ -75,7 +75,7 @@ You can also obtain an associated view context by passing in a non-NULL value in
   
 For a list of interfaces related to form servers, see [MAPI Form Interfaces](mapi-form-interfaces.md).
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

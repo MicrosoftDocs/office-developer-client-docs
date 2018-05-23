@@ -49,9 +49,6 @@ description: "The Project Server Interface (PSI) is the API to use for developin
 The Project Server Interface (PSI) is the API to use for developing applications that integrate with Project Server 2013 on-premises.
   
 This article is an overview of the documented assemblies, namespaces, and services in the PSI. The [Project Server 2013 class library and web service reference](http://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx) in the SDK contains all of the managed code documentation for the PSI and the [Microsoft.ProjectServer.Client](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.aspx) namespace in Project Server 2013. To develop applications for Project Online, you must use the **Microsoft.ProjectServer.Client** namespace instead of the PSI. 
-  
-## Introduction to the PSI reference
-<a name="pj15_PSIRefOverview_Intro"> </a>
 
 The PSI in Project Server 2013 has a dual interface. The ASMX interface for web services is defined by discovery and Web Service Description Language (disco and WSDL) files in the  `http://ServerName/ProjectServerName/_vti_bin/psi/` virtual directory (for example, Projectdisco.aspx and Projectwsdl.aspx). You can access the ASMX interface only through the URL of an on-premises installation of Project Web App (for example,  `http://ServerName/ProjectServerName/_vti_bin/psi/project.asmx?wsdl)`. To show the web service in a browser, you must include the  `?wsdl` URL option. Because the ASMX interface is built using the Windows Communication Foundation (WCF) infrastructure, the .asmx files for Project Server web services do not actually exist in the virtual PSI directory. 
   
@@ -60,7 +57,11 @@ The WCF services interface is defined by .svc files in the back-end  `http://Ser
 The Project Service Application directory name is a GUID value, which is the same as the GUID of the on-premises Project Web App instance. In the **Internet Information Services (IIS) Manager** window, expand the **SharePoint Web Services** node, choose the GUID directory name, and then choose **Advanced Settings** to copy the **Virtual Path** value. 
   
 > [!IMPORTANT]
-> The ASMX web service interface of the PSI is deprecated in Project Server 2013, but is still supported. New applications should use the WCF interface of the PSI or the CSOM. For more information about deprecated features, see [Updates for developers in Project 2013](updates-for-developers-in-project-2013.md)> New applications, and middleware components that run only on an on-premises installation of Project Server, should use the WCF interface, which is the technology that we recommend for network communications. Legacy applications that use the ASMX interface must use the URL through Project Web App, which checks Project Server permissions. For more information about the ASMX interface and how to use the WCF interface, see [Prerequisites for ASMX-based code samples in Project](prerequisites-for-asmx-based-code-samples-in-project.md) and [Prerequisites for WCF-based code samples in Project](prerequisites-for-wcf-based-code-samples-in-project.md). 
+> The ASMX web service interface of the PSI is deprecated in Project Server 2013, but is still supported. New applications should use the WCF interface of the PSI or the CSOM. For more information about deprecated features, see [Updates for developers in Project 2013](updates-for-developers-in-project-2013.md)
+> 
+> New applications, and middleware components that run only on an on-premises installation of Project Server, should use the WCF interface, which is the technology that we recommend for network communications. Legacy applications that use the ASMX interface must use the URL through Project Web App, which checks Project Server permissions. 
+> 
+> For more information about the ASMX interface and how to use the WCF interface, see [Prerequisites for ASMX-based code samples in Project](prerequisites-for-asmx-based-code-samples-in-project.md) and [Prerequisites for WCF-based code samples in Project](prerequisites-for-wcf-based-code-samples-in-project.md). 
   
 For developing applications that use the WCF interface, you can use Visual Studio 2010 or Visual Studio 2012. For creating declarative Project Server workflows, you can use SharePoint Designer 2013. Project Server workflows that require access to the PSI or the CSOM can be developed with Visual Studio 2012.
   
@@ -80,10 +81,8 @@ In addition to the service namespaces, the [Project Server 2013 class library an
   
 For development of most applications that use the PSI, you do not have to develop on a Project Server computer, or set references to Project Server assemblies in the global assembly cache. You can copy the necessary Project Server assemblies to your development computer. Project Server 2013 installs the following assemblies in  _[Program Files]_ `\Microsoft Office Servers\15.0\Bin`: 
   
-- Microsoft.Office.Project.Server.Events.Receivers.dll
-    
+- Microsoft.Office.Project.Server.Events.Receivers.dll 
 - Microsoft.Office.Project.Server.Library.dll
-    
 - Microsoft.Office.Project.Server.Workflow.dll
     
 Namespaces for the PSI services have arbitrary names created for a PSI proxy assembly, ProjectServerServices.dll, which is generated for the purpose of documentation. In the PSI reference, each service namespace has a placeholder name (such as  _[Project web service]_) and a web reference (such as  `http://ServerName/ProjectServerName/_vti_bin/psi/Project.asmx?wsdl`). 
@@ -98,7 +97,7 @@ Many assemblies are installed when you install Project Server; only four of the 
   
 When developing for Project Online, you can use only the CSOM to access Project Server functionality. You do not have access to the PSI services or the other Project Server assemblies.
   
-The [Project Server 2013 class library and web service reference](http://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx) for the PSI includes namespaces from the following four assemblies: 
+The [Project Server 2013 class library and web service reference](http://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx) for the PSI includes namespaces from the following assemblies: 
   
 - **Microsoft.Office.Project.Server.Library.dll** This assembly contains one documented namespace and three undocumented namespaces, as follows: 
     
@@ -106,19 +105,13 @@ The [Project Server 2013 class library and web service reference](http://msdn.mi
     
     The **Microsoft.Office.Project.Server.Library** namespace also includes the following seven property classes, which include over 3,200 subclasses: 
     
-  - **AssignmentProperties**
-    
-  - **CalendarProperties**
-    
-  - **ConstraintProperties**
-    
-  - **LookupTableProperties**
-    
-  - **ProjectProperties**
-    
-  - **ResourceProperties**
-    
-  - **TaskProperties**
+      - **AssignmentProperties**  
+      - **CalendarProperties**
+      - **ConstraintProperties**
+      - **LookupTableProperties**
+      - **ProjectProperties**
+      - **ResourceProperties**
+      - **TaskProperties**
     
     The property classes are used internally and are not documented. The property classes are used for serialization between Project Professional 2013 and Project Server. When you work with the **Microsoft.Office.Project.Server.Library** namespace in Visual Studio, the Object Browser shows all of the property classes, which makes it more difficult to find classes that are useful for third-party development. Because third-party developers do not have to use the property classes, the SDK does not document them. 
     
@@ -142,72 +135,58 @@ The [Project Server 2013 class library and web service reference](http://msdn.mi
     
 - **Microsoft.Office.Project.Server.Events.Receivers.dll**[Microsoft.Office.Project.Server.Events](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.aspx) is the only namespace in this assembly. It includes event receiver and event argument classes for the PSI services and other internal classes. 
     
-    Developers write event handlers that derive from event receiver classes. Most of the primary classes in the PSI services have a corresponding event receiver class. For example, the **ProjectEventReceiver** class contains pre-event and post-event receiver methods that correspond to methods in the **Project** class in the PSI. The **OnCreating** method and the **OnCreated** method are the pre-event and post-event receiver methods for the **QueueCreateProject** method. 
+  Developers write event handlers that derive from event receiver classes. Most of the primary classes in the PSI services have a corresponding event receiver class. For example, the **ProjectEventReceiver** class contains pre-event and post-event receiver methods that correspond to methods in the **Project** class in the PSI. The **OnCreating** method and the **OnCreated** method are the pre-event and post-event receiver methods for the **QueueCreateProject** method. 
     
-    Developers typically use the following event receiver classes: 
-    
+  Developers typically use the following event receiver classes: 
+  <br/>  
   - [AdminEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.AdminEventReceiver.aspx)
-    
   - [CalendarEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.CalendarEventReceiver.aspx)
-    
   - [CubeAdminEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.CubeAdminEventReceiver.aspx)
-    
   - [CustomFieldsEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.CustomFieldsEventReceiver.aspx)
-    
   - [LookupTableEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.LookupTableEventReceiver.aspx)
-    
   - [ProjectEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.ProjectEventReceiver.aspx)
-    
   - [OptimizerEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.OptimizerEventReceiver.aspx)
-    
   - [ReportingEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.ReportingEventReceiver.aspx)
-    
   - [ResourceEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.ResourceEventReceiver.aspx)
-    
   - [SecurityEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.SecurityEventReceiver.aspx)
-    
   - [StatusingEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.StatusingEventReceiver.aspx)
-    
   - [TimesheetEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.TimesheetEventReceiver.aspx)
-    
   - [UserDelegationEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.UserDelegationEventReceiver.aspx)
-    
   - [WorkflowEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.WorkflowEventReceiver.aspx)
-    
   - [WssInteropEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.WssInteropEventReceiver.aspx)
     
-    The **RulesEventReceiver** class and the **StatusReportsEventReceiver** class are used internally in Project Web App. 
+  The **RulesEventReceiver** class and the **StatusReportsEventReceiver** class are used internally in Project Web App. 
     
 - **Microsoft.ProjectServer.Client.dll** This assembly contains the CSOM for development with the .NET Framework 4. The assembly is located in  `%ProgramFiles%\Common Files\Microsoft Shared\Web Server Extensions\15\ISAPI\Microsoft.ProjectServer.Client.dll`. Development of apps with the **Microsoft.ProjectServer.Client** namespace is independent of the on-premises Project Server APIs and services, although the apps can work with either an on-premises or online installation of Project Server. For related CSOM assemblies that can be used for Windows Phone 8, Microsoft Silverlight, or JavaScript with web apps, see [Microsoft.ProjectServer.Client](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.aspx) . 
     
 - **Microsoft.Office.Project.Server.Schema.dll** The Project 2013 SDK does not document the **Microsoft.Office.Project.Server.Schema** namespace, which is in the  `[Windows]\Microsoft.NET\assembly\GAC_MSIL\Microsoft.Office.Project.Schema\v4.0_15.0.0.0__71e9bce111e9429c\Microsoft.Office.Project.Schema.dll` assembly. The namespace contains the definitions of all **DataSet**, **DataTable**, and **DataRow** classes used in the PSI, plus many other similar classes that Project Server uses internally. The public classes in each PSI service are documented in the specific service reference. For example, the **DriverDataSet.DriverRow** class is documented in the [WebSvcDriver](https://msdn.microsoft.com/library/WebSvcDriver.aspx) namespace. 
     
-    > [!NOTE]
-    > Applications that use the CSOM, use remote event handlers, or access Project Online do not use the **Microsoft.Office.Project.Server.Schema** namespace. 
+  > [!NOTE]
+  > Applications that use the CSOM, use remote event handlers, or access Project Online do not use the **Microsoft.Office.Project.Server.Schema** namespace. 
   
-    In some applications that use full-trust event handlers, where the event handlers are installed on the Project Server computer, it is necessary to set a reference to the Microsoft.Office.Project.Schema.dll assembly. Following are two examples:
+  In some applications that use full-trust event handlers, where the event handlers are installed on the Project Server computer, it is necessary to set a reference to the Microsoft.Office.Project.Schema.dll assembly. Following are two examples:
     
   - In a full-trust **OnCreated** post-event handler for custom fields, you can use the **e.CustomFieldInformation** event argument with a reference to the **Microsoft.Office.Project.Server.Schema** namespace for the **CustomFieldDataSet** and **CustomFieldsRow** definitions. 
-    
-  ```cs
-  using PSLibrary = Microsoft.Office.Project.Server.Library;
-  using Microsoft.Office.Project.Server.Schema;
-  . . .
-  // Event handler for the OnCreated event of a custom field.
-  public override void OnCreated(
-      PSLibrary.PSContextInfo contextInfo, 
-      CustomFieldsPostEventArgs e)
-  {
-      // Get information from the event arguments. 
-      string userName = contextInfo.UserName.ToString();
-      CustomFieldDataSet customFieldDs = e.CustomFieldInformation;
-      CustomFieldsRow customFieldRow = customFieldDs.CustomFields.Rows[0];
-      string customFieldName = customFieldRow["MD_PROP_NAME"].ToString();
-      byte customFieldType = (byte)customFieldRow["MD_PROP_TYPE_ENUM"];
-      Guid customFieldUid = (Guid)customFieldRow["MD_PROP_UID"];
-      . . .
-  }
-  ```
+   
+     ```cs
+        using PSLibrary = Microsoft.Office.Project.Server.Library;
+        using Microsoft.Office.Project.Server.Schema;
+        . . .
+        // Event handler for the OnCreated event of a custom field.
+        public override void OnCreated(
+            PSLibrary.PSContextInfo contextInfo, 
+            CustomFieldsPostEventArgs e)
+        {
+            // Get information from the event arguments. 
+            string userName = contextInfo.UserName.ToString();
+            CustomFieldDataSet customFieldDs = e.CustomFieldInformation;
+            CustomFieldsRow customFieldRow = customFieldDs.CustomFields.Rows[0];
+            string customFieldName = customFieldRow["MD_PROP_NAME"].ToString();
+            byte customFieldType = (byte)customFieldRow["MD_PROP_TYPE_ENUM"];
+            Guid customFieldUid = (Guid)customFieldRow["MD_PROP_UID"];
+            . . .
+        }
+     ```
 
   - A custom workflow activity can require a reference to **Microsoft.Office.Project.Server.Schema** for **DataSet** definitions. 
     
@@ -318,18 +297,12 @@ Some of the PSI services contain duplicate **DataSet** classes. For example, the
 When you are navigating the namespaces and classes of the PSI reference, for example to see the web methods for the **Project** service, expand the **[Project web service]** namespace in the **Contents** list, and then expand the **Project** class. 
   
 ## See also
-<a name="pj15_PSIRefOverview_AR"> </a>
 
 - [Project Server 2013 architecture](project-server-2013-architecture.md)
-    
-- [Project Server programmability](project-server-programmability.md)
-    
-- [What the PSI does and does not do](what-the-psi-does-and-does-not-do.md)
-    
-- [Prerequisites for ASMX-based code samples in Project](prerequisites-for-asmx-based-code-samples-in-project.md)
-    
-- [Prerequisites for WCF-based code samples in Project](prerequisites-for-wcf-based-code-samples-in-project.md)
-    
+- [Project Server programmability](project-server-programmability.md)   
+- [What the PSI does and does not do](what-the-psi-does-and-does-not-do.md)   
+- [Prerequisites for ASMX-based code samples in Project](prerequisites-for-asmx-based-code-samples-in-project.md)   
+- [Prerequisites for WCF-based code samples in Project](prerequisites-for-wcf-based-code-samples-in-project.md)   
 - [.NET Framework Developer Center](http://msdn.microsoft.com/en-us/netframework/aa496123.aspx)
     
 

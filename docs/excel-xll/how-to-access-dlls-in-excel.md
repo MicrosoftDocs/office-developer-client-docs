@@ -1,14 +1,11 @@
 ---
 title: "Access DLLs in Excel"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: overview
 keywords:
 - accessing dlls [excel 2007],DLLs [Excel 2007], accessing in Excel
- 
 localization_priority: Normal
 ms.assetid: e2bfd6ea-efa3-45c1-a5b8-2ccb8650c6ab
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
@@ -16,7 +13,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # Access DLLs in Excel
 
- **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
+**Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 You can access a DLL function or command in Microsoft Excel in several ways:
   
@@ -30,19 +27,19 @@ This documentation does not cover XLM functions. It is recommended that you use 
   
 To be accessed directly from the worksheet or from a customized item in the UI, the function or command must first be registered with Excel. For information about registering commands and functions, see [Accessing XLL Code in Excel](accessing-xll-code-in-excel.md).
   
-## Calling DLL Functions and Commands from VBA
+## Calling DLL functions and commands from VBA
 
 You can access DLL functions and commands in VBA by using the **Declare** statement. This statement has one syntax for commands and one for functions. 
   
 - **Syntax 1 - commands**
     
-  ```
+  ```vb
   [Public | Private] Declare Sub name Lib "libname" [Alias "aliasname"] [([arglist])]
   ```
 
 - **Syntax 2 - functions**
     
-  ```
+  ```vb
   [Public | Private] Declare Function name Lib "libname" [Alias "aliasname"] [([arglist])] [As type]
   ```
 
@@ -55,7 +52,7 @@ Commands should return **void**. Functions should return types that VBA can reco
   
 When the function or command's arguments are not passed by reference or pointer, they must be preceded by the **ByVal** keyword in the **arglist** declaration. When a C/C++ function takes pointer arguments, or a C++ function takes reference arguments, they should be passed **ByRef**. The keyword **ByRef** can be omitted from argument lists because it is the default in VBA. 
   
-### Argument Types in C/C++ and VBA
+### Argument types in C/C++ and VBA
 
 You should note the following when you compare the declarations of argument types in C/C++ and VBA.
   
@@ -75,7 +72,7 @@ You should note the following when you compare the declarations of argument type
     
 - The VBA **Currency** data type is passed as a structure of type **CY**, defined in the Windows header file wtypes.h, when passed **ByVal**, and as a pointer to this when passed **ByRef**.
     
-In VBA, data elements in user-defined data types are packed to 4-byte boundaries, whereas in Visual Studio, by default, they are packed to 8-byte boundaries. Therefore you must enclose the C/C++ structure definition in a  `#pragma pack(4) … #pragma pack()` block to avoid elements being misaligned. 
+In VBA, data elements in user-defined data types are packed to 4-byte boundaries, whereas in Visual Studio, by default, they are packed to 8-byte boundaries. Therefore you must enclose the C/C++ structure definition in a `#pragma pack(4) … #pragma pack()` block to avoid elements being misaligned. 
   
 The following is an example of equivalent user type definitions.
   
@@ -88,7 +85,7 @@ End Type
 
 ```
 
-```cs
+```cpp
 #pragma pack(4)
 struct C_user_type
 {
@@ -123,7 +120,7 @@ You can create **Variants** that contain arrays of variants in VBA from a **Rang
 > [!NOTE]
 > The **Variant** stores **True** as -1 and **False** as 0. Numbers not formatted as dates or currency amounts are converted to Variants of type **VT_R8**. 
   
-### Variant and String Arguments
+### Variant and string arguments
 
 Excel works internally with wide-character Unicode strings. When a VBA user-defined function is declared as taking a **String** argument, Excel converts the supplied string to a byte-string in a locale-specific way. If you want your function to be passed a Unicode string, your VBA user-defined function should accept a **Variant** instead of a **String** argument. Your DLL function can then accept that **Variant** BSTR wide-character string from VBA. 
   
@@ -147,7 +144,7 @@ You can create Excel worksheet errors as **Variants** in VBA by using the **CVer
    
 Note that the Variant **ulVal** value given is equivalent to the **CVerr** argument value plus x800A0000 hexadecimal. 
   
-## Calling DLL Functions Directly from the Worksheet
+## Calling DLL functions directly from the worksheet
 
 You cannot access Win32 DLL functions from the worksheet without, for example, using VBA or XLM as interfaces, or without letting Excel know about the function, its arguments, and its return type in advance. The process of doing this is called registration.
   
@@ -163,7 +160,7 @@ The ways in which the functions of a DLL can be accessed in the worksheet are as
     
 The fourth approach is self-contained: the code that registers the functions and the function code are both contained in the same code project. Making changes to the add-in does not involve making changes to an XLM sheet or to a VBA code module. To do this in a well-managed way while still staying within the capabilities of the C API, you must turn your DLL into an XLL and load the resulting add-in by using the Add-in Manager. This enables Excel to call a function that your DLL exposes when the add-in is loaded or activated, from which you can register all of the functions your XLL contains, and carry out any other DLL initialization.
   
-## Calling DLL Commands Directly from Excel
+## Calling DLL commands directly from Excel
 
 Win32 DLL commands are not accessible directly from Excel dialog boxes and menus without there being an interface, such as VBA, or without the commands being registered in advance.
   
@@ -181,7 +178,7 @@ As discussed earlier in the context of DLL functions, the fourth approach is the
   
 All XLL commands that are registered with Excel are assumed by Excel to be of the following form.
   
-```
+```cpp
 int WINAPI my_xll_cmd(void)
 {
 // Function code...
@@ -192,7 +189,7 @@ int WINAPI my_xll_cmd(void)
 > [!NOTE]
 > Excel ignores the return value unless it is called from an XLM macro sheet, in which case the return value is converted to **TRUE** or **FALSE**. You should therefore return 1 if your command executed successfully, and 0 if it failed or was canceled by the user. 
   
-## DLL Memory and Multiple DLL Instances
+## DLL memory and multiple DLL instances
 
 When an application loads a DLL, the DLL's executable code is loaded into the global heap so that it can be run, and space is allocated on the global heap for its data structures. Windows uses memory mapping to make these areas of memory appear as if they are in the application's process so that the application can access them.
   
@@ -204,9 +201,6 @@ DLL developers do need to be concerned about the same instance of an application
   
 ## See also
 
-
-
-[Developing DLLs](developing-dlls.md)
-  
-[Calling into Excel from the DLL or XLL](calling-into-excel-from-the-dll-or-xll.md)
+- [Developing DLLs](developing-dlls.md) 
+- [Calling into Excel from the DLL or XLL](calling-into-excel-from-the-dll-or-xll.md)
 

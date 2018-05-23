@@ -21,7 +21,7 @@ Determines whether a specified value matches any value in a list.
   
 ## Syntax
 
- *expression* **IN** (  *expression*  [ ,...n ]) 
+ *expression* **IN** (*expression*  [ ,...n ]) 
   
  *expression*  Is any valid expression. Both expressions must have implicitly convertible data types. The conversion depends on the rules of data type precedence. 
   

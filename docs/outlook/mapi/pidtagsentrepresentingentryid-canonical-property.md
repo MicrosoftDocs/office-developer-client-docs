@@ -47,7 +47,7 @@ The outgoing transport provider must always leave this property unchanged if it 
     
 [[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Specifies the properties and operations that are permissible for e-mail message objects.
+> Specifies the properties and operations that are permissible for email message objects.
     
 [[MS-OXCFXICS]](http://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   

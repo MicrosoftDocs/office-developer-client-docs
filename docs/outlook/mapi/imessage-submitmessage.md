@@ -64,7 +64,7 @@ When **SubmitMessage** returns, all pointers to the message and its associated s
   
 To cancel a send operation, get and store a pointer to the message's **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) property before the message is submitted. Because a message's entry identifier is invalidated after the message has been submitted, it is necessary to save it before calling **SubmitMessage**. To cancel the send, point the  _lpEntryId_ parameter to this entry identifier and call [IMsgStore::AbortSubmit](imsgstore-abortsubmit.md).
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Determines the need for post-transmit processing of an e-mail.
+Determines the need for post-transmit processing of an email.
   
 |||
 |:-----|:-----|
@@ -51,7 +51,7 @@ For more information, see [[MS-OXOFLAG]](http://msdn.microsoft.com/library/f1e50
     
 [[MS-OXORMDR]](http://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
-> Specifies the properties and the interaction model for e-mail and other object reminders.
+> Specifies the properties and the interaction model for email and other object reminders.
     
 ### Header files
 

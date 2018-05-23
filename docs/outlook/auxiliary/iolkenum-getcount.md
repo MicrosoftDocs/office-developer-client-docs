@@ -33,7 +33,7 @@ HRESULT IOlkEnum::GetCount (
   
 > [out] A pointer to the number of objects being enumerated.
     
-## Return Values
+## Return values
 
 S_OK if the call succeeded; otherwise, an error code.
   

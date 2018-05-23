@@ -29,7 +29,7 @@ Contains the message subject with any prefix removed.
 |Associated properties:  <br/> |PR_NORMALIZED_SUBJECT, PR_NORMALIZED_SUBJECT_A, PR_NORMALIZED_SUBJECT_W  <br/> |
 |Identifier:  <br/> |0x0E1D  <br/> |
 |Data type:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Area:  <br/> |E-mail  <br/> |
+|Area:  <br/> |Email  <br/> |
    
 ## Remarks
 

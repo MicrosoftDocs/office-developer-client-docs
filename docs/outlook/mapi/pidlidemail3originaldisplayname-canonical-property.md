@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Specifies the third display name that corresponds to the e-mail address that is specified for the contact.
+Specifies the third display name that corresponds to the email address that is specified for the contact.
   
 |||
 |:-----|:-----|

@@ -38,7 +38,7 @@ HRESULT Restrict(
   
 > [in] The end time to restrict the enumeration.
     
-## Return Values
+## Return values
 
 S_OK if the call succeeded; otherwise, an error code.
   

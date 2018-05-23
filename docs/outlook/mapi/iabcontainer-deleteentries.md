@@ -51,7 +51,7 @@ MAPI_W_PARTIAL_COMPLETION
   
 > The call succeeded, but one or more of the entries could not be deleted. When this value is returned, the call should be handled as successful. To test for this value, use the **HR_FAILED** macro. For more information, see [Using Macros for Error Handling](using-macros-for-error-handling.md).
     
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

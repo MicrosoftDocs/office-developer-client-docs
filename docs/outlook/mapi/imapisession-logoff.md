@@ -70,7 +70,7 @@ When **Logoff** returns, release the session object by calling its **IUnknown::R
   
 For more information about ending a session, see [Ending a MAPI Session](ending-a-mapi-session.md).
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

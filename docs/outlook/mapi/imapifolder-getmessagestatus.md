@@ -89,7 +89,7 @@ The **IMAPIFolder::GetMessageStatus** method returns the status of a message. Me
 
 How the message status bits are set, cleared, and used depends completely on your implementation, except that bits 0 through 15 are reserved and must be zero. If you store messages in the IPM subtree, MAPI reserves bits 16 through 31 for use by IPM clients. If you store messages in other subtrees, you can use bits 16 through 31 for your own purposes.
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

@@ -30,7 +30,7 @@ LPXLOPER12 TempActiveColumn12(COL col);
 
 ## Parameters
 
- _col_ ( **BYTE**)
+ _col_ (**BYTE**)
   
 The column to be referenced. This is zero-based so that column A is passed as 0. In Microsoft Office Excel 2003 and earlier versions, and starting in Excel 2007 running a workbook in compatibility mode, the maximum value is 255 = 2^8 - 1 and is the maximum value that can be taken by a BYTE integer. Starting in Excel 2007 running a workbook, the maximum value is 16,383 = 2^14 - 1. COL is defined as a 32-bit signed integer in XLCALL.H.
   

@@ -66,7 +66,7 @@ If a form template that requires cross-domain data access is located in a securi
   
 ## Forms Without a publishURL Attribute
 
-If InfoPath loads a form template from the local computer and it has a blank **publishUrl** attribute or the attribute is missing, the form will be placed in a more restrictive security zone. This is performed to reduce the threat of a malicious form template being distributed by e-mail. As a result, if the user saves this form template to disk, it will be unable to run with the permissions of a form that resides in the **Local Machine** zone. 
+If InfoPath loads a form template from the local computer and it has a blank **publishUrl** attribute or the attribute is missing, the form will be placed in a more restrictive security zone. This is performed to reduce the threat of a malicious form template being distributed by email. As a result, if the user saves this form template to disk, it will be unable to run with the permissions of a form that resides in the **Local Machine** zone. 
   
 ## Unsafe ActiveX Controls
 
@@ -143,13 +143,13 @@ You configure a form to use digital signatures by selecting the **Allow signing 
     
 - The digital signature also includes a snapshot of the view as it was presented to the signer when the form was signed. The snapshot is stored as a base64-encoded image in the standard PNG file format. 
     
-## E-mail Deployment
+## Email Deployment
 
-You can deploy your form templates as an attachment to an e-mail message and move the form templates from one location to another. Mail deployment is an easy and effective way to distribute forms for interoffice use and to deploy forms to remote users.
+You can deploy your form templates as an attachment to an email message and move the form templates from one location to another. Mail deployment is an easy and effective way to distribute forms for interoffice use and to deploy forms to remote users.
   
-You can digitally sign a form template that you design and then set the security level for that form template to Full Trust. Additionally, signed fully trusted forms, when they are deployed as an e-mail attachment, can be updated more easily and efficiently.
+You can digitally sign a form template that you design and then set the security level for that form template to Full Trust. Additionally, signed fully trusted forms, when they are deployed as an email attachment, can be updated more easily and efficiently.
   
-All forms in the InfoPath designer are created with an identity. This information helps InfoPath associate forms with form templates in the cache and retrieve updates to forms when they are posted to a shared location. By default, InfoPath creates two identities for form templates: a Form ID and an Access Path (also known as the **publishURL** attribute). You can find more information about e-mail deployment in the [Security Levels, E-Mail Deployment, and Remote Form Templates](security-levels-e-mail-deployment-and-remote-form-templates.md)topic.
+All forms in the InfoPath designer are created with an identity. This information helps InfoPath associate forms with form templates in the cache and retrieve updates to forms when they are posted to a shared location. By default, InfoPath creates two identities for form templates: a Form ID and an Access Path (also known as the **publishURL** attribute). You can find more information about email deployment in the [Security Levels, E-Mail Deployment, and Remote Form Templates](security-levels-email-deployment-and-remote-form-templates.md)topic.
   
 ## ActiveX Controls
 

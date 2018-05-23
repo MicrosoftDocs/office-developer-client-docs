@@ -59,7 +59,7 @@ HRESULT IOlkAccount::GetAccountInfo(
     
     - CLSID_OlkStore
     
-## Return Values
+## Return values
 
 S_OK if the call succeeded; otherwise, an error code.
   
@@ -67,7 +67,7 @@ S_OK if the call succeeded; otherwise, an error code.
 
 After this method returns, you must free  *prgclsidCategory*  by using [IOlkAccount::FreeMemory](iolkaccount-freememory.md).
   
- **IOlkAccount::GetAccountInfo** does not support the address book category for an Exchange account. If the account is an Exchange account (  *pclsidType*  is **CLSID_OlkMAPIAccount** ), and the account implements the address book, calling **IOlkAccount::GetAccountInfo** will not return **CLSID_OlkAddressBook** as a category in  *prgclsidCategory*  . 
+ **IOlkAccount::GetAccountInfo** does not support the address book category for an Exchange account. If the account is an Exchange account (*pclsidType*  is **CLSID_OlkMAPIAccount** ), and the account implements the address book, calling **IOlkAccount::GetAccountInfo** will not return **CLSID_OlkAddressBook** as a category in  *prgclsidCategory*  . 
   
 ## See also
 

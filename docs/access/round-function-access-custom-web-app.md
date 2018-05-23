@@ -21,7 +21,7 @@ Returns a numeric value, either rounded or truncated, to the specified length or
   
 ## Syntax
 
- **Round** (  *Number*  ,  *Precision*  , [  *TruncateInsteadOfRound*  ]) 
+ **Round** (*Number*, *Precision*  , [  *TruncateInsteadOfRound*  ]) 
   
 The **Round** function contains the following arguments. 
   

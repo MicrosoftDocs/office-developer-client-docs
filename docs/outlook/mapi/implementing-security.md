@@ -28,7 +28,7 @@ When implementing your transport provider's security, consider the following:
     
 - Each session with a transport provider is associated by MAPI with a discrete section in the user's profile. The transport provider can use the [IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md) method to gain access to this section, which can be used to store any information associated with this session, including credentials. 
     
-- With multiple installed transport providers, it is not necessarily true that the user only has a single e-mail address. A user can have a separate e-mail address for each installed transport provider or can have a different address for each session on a single provider.
+- With multiple installed transport providers, it is not necessarily true that the user only has a single email address. A user can have a separate email address for each installed transport provider or can have a different address for each session on a single provider.
     
 For more information about storing credentials in profile sections, see [Message Services and Profiles](message-services-and-profiles.md) and [IProfSect : IMAPIProp](iprofsectimapiprop.md).
   

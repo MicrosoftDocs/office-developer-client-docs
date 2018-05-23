@@ -20,7 +20,7 @@ Returns the  *y*  -coordinate (in the local coordinate system) of the point wher
   
 ## Syntax
 
-INTERSECTX( ** *x1* **, ** *y1* **, ** *angle1* **, ** *x2* **, ** *y2* **, ** *angle2* ** ) 
+INTERSECTX(** *x1* **, ** *y1* **, ** *angle1* **, ** *x2* **, ** *y2* **, ** *angle2* ** ) 
   
 ### Parameters
 
@@ -39,7 +39,7 @@ Number
   
 ## Remarks
 
-Each line is defined as a point (  *x,y*  ) and an angle. 
+Each line is defined as a point (*x,y*) and an angle. 
   
 Microsoft Visio uses this function in the PinY cell of a shape glued to a rotated guide. 
   

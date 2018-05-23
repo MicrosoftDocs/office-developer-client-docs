@@ -16,11 +16,11 @@ description: "Returns the date represented by year, month, and day formatted acc
 
 # DATE Function (VisioShapeSheet)
 
-Returns the date represented by  *year, month,*  and  *day*  formatted according to the short date style in the system's Regional Settings. The values for  *year*  ,  *month*  , and  *day*  reflect the Gregorian calendar. 
+Returns the date represented by  *year, month,*  and  *day*  formatted according to the short date style in the system's Regional Settings. The values for  *year*, *month*  , and  *day*  reflect the Gregorian calendar. 
   
 ## Syntax
 
-DATE( ** *year* **, ** *month* **, ** *day* ** ) 
+DATE(** *year* **, ** *month* **, ** *day* ** ) 
   
 ### Parameters
 

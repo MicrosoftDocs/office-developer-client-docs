@@ -60,7 +60,7 @@ LPSPropValue PpropFindProp(
 
 If the given property tag indicates a property of type PT_UNSPECIFIED, the **PpropFindProp** function finds a match only for the property identifier in the tag. Otherwise, it finds a match for the entire property tag, including the property type, and returns the property identified. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

@@ -30,11 +30,11 @@ LPXLOPER12 TempBool12(int b);
 
 ## Parameters
 
- _b_ ( **int**)
+ _b_ (**int**)
   
 Use 0 to return **FALSE**; use any other value to return **TRUE**.
   
-## Property Value/Return Value
+## Property value/Return value
 
 Returns an **xltypeBool** **Boolean** containing the logical value passed in. 
   

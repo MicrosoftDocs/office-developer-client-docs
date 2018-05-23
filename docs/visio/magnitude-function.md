@@ -20,7 +20,7 @@ Returns the magnitude of the vector whose rise is  _A_ and whose run is  _B_, mu
   
 ## Syntax
 
-MAGNITUDE( ** *constantA* **, ** *A* **, ** *constantB* **, ** *B* ** ) 
+MAGNITUDE(** *constantA* **, ** *A* **, ** *constantB* **, ** *B* ** ) 
   
 ### Parameters
 

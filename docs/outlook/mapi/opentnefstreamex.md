@@ -112,7 +112,7 @@ A TNEF object created by the **OpenTnefStreamEx** function later calls the OLE m
   
 The base value for the  _wKeyVal_ parameter must not be zero and should not be the same for every call to **OpenTnefStreamEx**. Instead, use random numbers based on the system time from the run-time library's random number generator.
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

@@ -48,7 +48,7 @@ HRESULT IOlkAccountManager::GetOrder (
   
 > [out] A pointer to an array of accounts.
     
-## Return Values
+## Return values
 
 |**HRESULT**|**Description**|
 |:-----|:-----|

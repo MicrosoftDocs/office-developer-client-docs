@@ -51,7 +51,7 @@ S_OK
 
 Clients call the **GetPAB** method to retrieve the entry identifier of the container designated as the PAB. If a PAB has not been established in the profile, MAPI selects as the PAB the first container in the address book hierarchy that allows modifications. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

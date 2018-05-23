@@ -22,7 +22,7 @@ Version Added: Visio 2010
   
 ## Syntax
 
-BOUNDINGBOXRECT( ** *Index* ** ) 
+BOUNDINGBOXRECT(** *Index* ** ) 
   
 ### Parameters
 

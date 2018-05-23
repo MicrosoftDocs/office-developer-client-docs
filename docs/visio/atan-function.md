@@ -20,7 +20,7 @@ Returns the arctangent of a number, for example, the angle whose tangent is  _nu
   
 ## Syntax
 
-ATAN( ** *number* ** ) 
+ATAN(** *number* ** ) 
   
 ### Parameters
 

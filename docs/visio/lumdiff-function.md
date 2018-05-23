@@ -18,7 +18,7 @@ Returns the difference in luminosity between  *color1*  and  *color2*  .
   
 ## Syntax
 
-LUMDIFF( ** *color1* **, ** *color2* ** ) 
+LUMDIFF(** *color1* **, ** *color2* ** ) 
   
 ### Parameters
 

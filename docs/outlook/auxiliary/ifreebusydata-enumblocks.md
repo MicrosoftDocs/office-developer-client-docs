@@ -43,7 +43,7 @@ HRESULT EnumBlocks(
   
 > [in] The end time for the enumeration. It is expressed in **FILETIME**. 
     
-## Return Values
+## Return values
 
 S_OK if the call succeeded; otherwise, an error code.
   

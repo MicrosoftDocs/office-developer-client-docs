@@ -32,7 +32,7 @@ HRESULT IOlkAccountManager::DeleteAccount (
   
 > [in] The account ID of the account to be deleted.
     
-## Return Values
+## Return values
 
 |**HRESULT**|**Description**|
 |:-----|:-----|

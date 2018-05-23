@@ -80,7 +80,7 @@ The **IMAPIMessageSite::GetSiteStatus** method may require the client applicatio
   
 For a list of interfaces related to form servers, see [MAPI Form Interfaces](mapi-form-interfaces.md).
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

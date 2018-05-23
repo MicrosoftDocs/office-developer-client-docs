@@ -20,7 +20,7 @@ Returns a value representing an index in the document's color palette. It specif
   
 ## Syntax
 
-RGB( ** *red* **, ** *green* **, ** *blue* ** ) 
+RGB(** *red* **, ** *green* **, ** *blue* ** ) 
   
 ### Parameters
 

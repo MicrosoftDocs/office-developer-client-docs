@@ -78,7 +78,7 @@ The  _pfrminfoToActivate_ parameter must point to a form information object that
   
 After the form has been opened, the calling form viewer must set up a message by using the [IPersistMessage](ipersistmessageiunknown.md) interface and can optionally set up a view context for the form. For more information, see [Launching a Form Server](launching-a-form-server.md). 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

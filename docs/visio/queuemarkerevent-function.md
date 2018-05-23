@@ -20,7 +20,7 @@ Causes the application to fire a marker event to your add-on, Microsoft Visual B
   
 ## Syntax
 
-QUEUEMARKEREVENT ( ** *event_string* ** ) 
+QUEUEMARKEREVENT (** *event_string* ** ) 
   
 ### Parameters
 

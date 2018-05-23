@@ -47,7 +47,7 @@ A client application that must route reports to another user should set this pro
     
 [[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Specifies the properties and operations that are permissible on e-mail messages.
+> Specifies the properties and operations that are permissible on email messages.
     
 ### Header files
 

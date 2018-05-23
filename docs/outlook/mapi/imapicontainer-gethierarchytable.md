@@ -95,7 +95,7 @@ String and binary contents table columns can be truncated. Typically, providers 
   
 Depending on the provider's implementation, restrictions and sorting operations can apply to the whole string or to the truncated version of that string. Moreover, store providers are not guaranteed to honor the sort order set [SSortOrderSet](ssortorderset.md) specified for hierarchy tables. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

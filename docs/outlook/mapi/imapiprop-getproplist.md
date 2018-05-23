@@ -71,7 +71,7 @@ Remote transport providers implement **GetPropList** exactly as specified here. 
 
 Call the [MAPIFreeBuffer](mapifreebuffer.md) function to free the property tag array pointed to by  _lppPropTagArray_. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

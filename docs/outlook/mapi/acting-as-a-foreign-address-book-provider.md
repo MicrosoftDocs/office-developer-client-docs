@@ -1,5 +1,5 @@
 ---
-title: "Acting as a Foreign Address Book Provider"
+title: "Acting as a foreign address book provider"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,14 +8,10 @@ api_type:
 - COM
 ms.assetid: 6d532ed4-7dc5-46a9-995a-72bc97d16f6e
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
-# Acting as a Foreign Address Book Provider
+# Acting as a foreign address book provider
 
-  
-  
 **Applies to**: Outlook 
   
 A foreign provider is an address book provider that: 
@@ -36,7 +32,7 @@ The host provider also passes a pointer to its property object implementation fo
   
 - The recipient's display table contains list box controls.
     
-- The e-mail address for the recipient must be assembled from data in multiple display table controls.
+- The email address for the recipient must be assembled from data in multiple display table controls.
     
 - Your provider issues display table notifications.
     
@@ -56,7 +52,7 @@ The first two items are examples of tasks that do not require your provider to s
   
 The second two tasks require that your provider return to the host provider a property object that wraps the host provider's object with additional functionality, such as the ability to display a property sheet for the entry. This property object will either be a messaging user or distribution list, depending on the type of object passed in by the host provider in the  _lpMAPIPropData_ parameter and indicated by the interface identifier in the  _lpInterface_ parameter. If the  _lpMAPIPropData_ parameter points to a messaging user, your provider's wrapped property object must be an **IMailUser** implementation. If  _lpMAPIPropData_ points to a distribution list, it must be an **IDistList** implementation. 
   
-Your provider's wrapped property object intercepts **IMAPIProp** method calls to perform context-specific manipulation of the host provider's recipient — the object it is wrapping. MAPI only has one requirement for wrapped property objects: all calls to [IMAPIProp::OpenProperty](imapiprop-openproperty.md) requesting the **PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) property should be passed to the host provider. Your provider's implementation can use the returned table to intercept display table notifications or to add its own if necessary. 
+Your provider's wrapped property object intercepts **IMAPIProp** method calls to perform context-specific manipulation of the host provider's recipient—the object it is wrapping. MAPI only has one requirement for wrapped property objects: all calls to [IMAPIProp::OpenProperty](imapiprop-openproperty.md) requesting the **PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) property should be passed to the host provider. Your provider's implementation can use the returned table to intercept display table notifications or to add its own if necessary. 
   
 The following list includes tasks that are typically implemented in the wrapped property object implemented by foreign providers:
   
@@ -68,7 +64,7 @@ The following list includes tasks that are typically implemented in the wrapped 
     
 - Computing required properties such as **PR_EMAIL_ADDRESS** and verifying that all of the necessary properties have been set before saving the host recipient in [IMAPIProp::SaveChanges](imapiprop-savechanges.md).
     
- **To implement IABLogon::OpenTemplateID**
+### To implement IABLogon::OpenTemplateID
   
 1. Check if the template identifier passed in with the  _lpTemplateID_ parameter is valid and is in a format that your provider recognizes. If it is not, fail and return MAPI_E_INVALID_ENTRYID. 
     
@@ -78,19 +74,19 @@ The following list includes tasks that are typically implemented in the wrapped 
     
 4. If the  _ulTemplateFlags_ parameter is set to FILL_ENTRY: 
     
-1. If the new object is a messaging user or distribution list:
-    
-1. Retrieve all of the properties of the new object, possibly by calling its **IMAPIProp::GetProps** method. 
-    
-2. Call the host provider's **IMAPIProp::SetProps** method to copy all of the retrieved properties to the host provider's property object. 
-    
-2. If the new object is a one-off recipient, call the host provider's **IMAPIProp::SetProps** method to set the following properties: 
-    
-  - **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) to the address type handled by your provider.
-    
-  - **PR_TEMPLATEID** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)) to the template identifier from the  _lpTemplateID_ and  _cbTemplateID_ parameters. 
-    
-  - **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)) to DT_MAILUSER or DT_DISTLIST, as appropriate.
+   1. If the new object is a messaging user or distribution list:
+      
+      1. Retrieve all of the properties of the new object, possibly by calling its **IMAPIProp::GetProps** method. 
+          
+      2. Call the host provider's **IMAPIProp::SetProps** method to copy all of the retrieved properties to the host provider's property object. 
+      
+   2. If the new object is a one-off recipient, call the host provider's **IMAPIProp::SetProps** method to set the following properties: 
+      
+      - **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) to the address type handled by your provider.
+        
+      - **PR\_TEMPLATEID** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)) to the template identifier from the  _lpTemplateID_ and  _cbTemplateID_ parameters. 
+        
+      - **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)) to DT_MAILUSER or DT_DISTLIST, as appropriate.
     
 5. Set the contents of the  _lppMAPIPropNew_ parameter to point to either your provider's new object or the property object passed in with the  _lpMAPIPropData_ parameter, depending on whether your provider determines a wrapped object is necessary. 
     

@@ -47,7 +47,7 @@ If no transport provider has supplied any sender address properties, the MAPI sp
     
 [[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Specifies the properties and operations that are permissible for e-mail message objects.
+> Specifies the properties and operations that are permissible for email message objects.
     
 [[MS-OXORSS]](http://msdn.microsoft.com/library/53bc9634-0040-4b5a-aecd-29781d826009%28Office.15%29.aspx)
   

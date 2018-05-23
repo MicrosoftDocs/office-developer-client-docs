@@ -21,7 +21,7 @@ Returns a numeric value that represents the year of the specified date in the Gr
   
 ## Syntax
 
- **Year** (  *Date*  ) 
+ **Year** (*Date*) 
   
 The **Year** function contains the following arguments. 
   

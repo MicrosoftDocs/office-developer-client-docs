@@ -1,7 +1,5 @@
 ---
 title: "xlSet"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,7 +8,6 @@ f1_keywords:
 - xlSet
 keywords:
 - xlset function [excel 2007]
- 
 localization_priority: Normal
 ms.assetid: 121e6212-0692-4430-97be-4792b53719bf
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
@@ -18,7 +15,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # xlSet
 
- **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
+**Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 Puts constant values into cells or ranges very quickly. For more information, see "xlSet and Workbooks with Array Formulas" in [Known Issues in Excel XLL Development](known-issues-in-excel-xll-development.md).
   
@@ -28,19 +25,19 @@ Excel12(xlSet, LPXLOPER12 pxRes, 2, LPXLOPER12 pxReference, LPXLOPER pxValue);
 
 ## Parameters
 
- _pxReference_ ( **xltypeRef** or **xltypeSRef**)
+_pxReference_ (**xltypeRef** or **xltypeSRef**)
   
 A rectangular reference describing the target cell or cells. The reference must describe adjacent cells, so that in an **xltypeRef** `val.mref.lpmref->count` must be set to 1. 
   
- _pxValue_
+_pxValue_
   
 The value or values to be placed into the cell or cells. For more information, see the "Remarks" section.
   
 ## Remarks
 
-### pxValue Argument
+### pxValue argument
 
- _pxValue_ can either be a value or an array. If it is a value, the entire destination range is filled with that value. If it is an array ( **xltypeMulti**), the elements of the array are put into the corresponding locations in the rectangle.
+_pxValue_ can either be a value or an array. If it is a value, the entire destination range is filled with that value. If it is an array (**xltypeMulti**), the elements of the array are put into the corresponding locations in the rectangle.
   
 If you use a horizontal array for the second argument, it is duplicated down to fill the entire rectangle. If you use a vertical array, it is duplicated right to fill the entire rectangle. If you use a rectangular array, and it is too small for the rectangular range you want to put it in, that range is padded with **#N/A**s.
   
@@ -50,17 +47,17 @@ To clear an element of the destination rectangle, use an **xltypeNil** type arra
   
 ### Restrictions
 
- **xlSet** cannot be undone. In addition, it destroys any undo information that may have been available before. 
+**xlSet** cannot be undone. In addition, it destroys any undo information that may have been available before. 
   
- **xlSet** can put only constants, not formulas, into cells. 
+**xlSet** can put only constants, not formulas, into cells. 
   
- **xlSet** behaves as a Class 3 command-equivalent function; that is, it is available only inside a DLL when the DLL is called from an object, macro, menu, toolbar, shortcut key, or the **Run** button in the **Macro** dialog box (accessed from **View** tab on the ribbon starting in Excel 2007, and the **Tools** menu in earlier versions). 
+**xlSet** behaves as a Class 3 command-equivalent function; that is, it is available only inside a DLL when the DLL is called from an object, macro, menu, toolbar, shortcut key, or the **Run** button in the **Macro** dialog box (accessed from **View** tab on the ribbon starting in Excel 2007, and the **Tools** menu in earlier versions). 
   
 ## Example
 
 The following example fills B205:B206 with the value that was passed in from a macro. This command function example requires an argument, and so will only work if called from an XLM macro sheet, or from a VBA module using the **Application.Run** method. 
   
- `\SAMPLES\EXAMPLE\EXAMPLE.C`
+`\SAMPLES\EXAMPLE\EXAMPLE.C`
   
 ```cs
 short WINAPI xlSetExample(short int iVal)
@@ -81,10 +78,6 @@ short WINAPI xlSetExample(short int iVal)
 
 ## See also
 
-
-
-[xlCoerce](xlcoerce.md)
-
-
-[C API Functions That Can Be Called Only from a DLL or XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [xlCoerce](xlcoerce.md)
+- [C API Functions That Can Be Called Only from a DLL or XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

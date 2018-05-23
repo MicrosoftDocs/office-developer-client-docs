@@ -21,7 +21,7 @@ Calculates the arithmetic mean of a set of values contained in a specified field
   
 ## Syntax
 
- **Avg** (  *NumericExpression*  ) 
+ **Avg** (*NumericExpression*) 
   
 The **Avg** function contains the following argument. 
   

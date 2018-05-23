@@ -20,7 +20,7 @@ Returns the blue component of a color. The return value is an integer in the ran
   
 ## Syntax
 
-BLUE( ** *expression* ** ) 
+BLUE(** *expression* ** ) 
   
 ### Parameters
 

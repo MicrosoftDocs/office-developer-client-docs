@@ -72,12 +72,12 @@ The **UserPermissionCollection** class provides the following properties and one
 |**Name**|**Description**|
 |:-----|:-----|
 |[ApplyPolicy](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.ApplyPolicy.aspx) method  <br/> |Applies a policy to the form using a policy template file.  <br/> |
-|[DocumentAuthor](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.DocumentAuthor.aspx) property  <br/> |Gets or sets the author of the current form as an e-mail address.  <br/> |
+|[DocumentAuthor](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.DocumentAuthor.aspx) property  <br/> |Gets or sets the author of the current form as an email address.  <br/> |
 |[Enabled](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.Enabled.aspx) property  <br/> |Gets or sets whether the permission settings represented by the **Permission** object are enabled for the current form.  <br/> |
 |[PermissionFromPolicy](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.PermissionFromPolicy.aspx) property  <br/> |Gets or sets whether a permission policy has been applied to the current form.  <br/> |
 |[PolicyDescription](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.PolicyDescription.aspx) property  <br/> |Gets a description of the policy that was applied to the current form.  <br/> |
 |[PolicyName](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.PolicyName.aspx) property  <br/> |Gets the name of the policy that was applied to the current form.  <br/> |
-|[RequestPermissionUrl](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.RequestPermissionUrl.aspx) property  <br/> |Gets or sets the file, URL, or e-mail address to contact for users who need additional permissions on the current form.  <br/> |
+|[RequestPermissionUrl](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.RequestPermissionUrl.aspx) property  <br/> |Gets or sets the file, URL, or email address to contact for users who need additional permissions on the current form.  <br/> |
 |[StoreLicenses](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.StoreLicenses.aspx) property  <br/> |Gets or sets whether the user's license to view the current form should be cached to allow offline viewing when the user cannot connect to a rights management server.  <br/> |
 |[UserPermissions](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.UserPermissions.aspx) property  <br/> |Gets a **UserPermissionCollection** object for the current form.  <br/> |
    
@@ -102,7 +102,7 @@ The **UserPermission** class provides the following properties and one method.
 |[Remove](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermission.Remove.aspx) method  <br/> |Removes the current **UserPermission** object from the form's permissions.  <br/> |
 |[ExpirationDate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermission.ExpirationDate.aspx) property  <br/> |Gets or sets the optional expiration date for the permissions on the current form assigned to the user associated with an instance of the **UserPermission** class.  <br/> |
 |[Permission](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermission.Permission.aspx) property  <br/> |Gets or sets a value representing the permissions on the current form assigned to the user associated with an instance of the **UserPermission** class.  <br/> |
-|[UserId](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermission.UserId.aspx) property  <br/> |Gets the e-mail address of the user whose permissions on the current form are determined by the specified **UserPermission** object.  <br/> |
+|[UserId](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermission.UserId.aspx) property  <br/> |Gets the email address of the user whose permissions on the current form are determined by the specified **UserPermission** object.  <br/> |
    
 ### The PermissionType Enumeration
 

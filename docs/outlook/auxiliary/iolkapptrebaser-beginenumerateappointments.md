@@ -36,7 +36,7 @@ HRESULT BeginEnumerateAppointments(
   
 > [out] Required. A pointer to a pointer to the returned context. This context will be passed to [IOlkApptRebaser::EndEnumerateAppointments](iolkapptrebaser-endenumerateappointments.md).
     
-## Return Values
+## Return values
 
 S_OK if the call succeeded; otherwise, an error code.
   

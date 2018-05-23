@@ -43,7 +43,7 @@ The first five entries of this multi-valued property apply to following special 
   
 3 - server failures folder
   
-4 - junk e-mail folder
+4 - junk email folder
   
 ## Related resources
 
@@ -59,11 +59,11 @@ The first five entries of this multi-valued property apply to following special 
     
 [[MS-OXPHISH]](http://msdn.microsoft.com/library/ed49ab26-ba13-4d4c-8a94-98d4ceecd4b7%28Office.15%29.aspx)
   
-> Identifies and marks e-mail messages that are designed to trick recipients into divulging sensitive information (such as passwords and other personal information) to a non-trustworthy source.
+> Identifies and marks email messages that are designed to trick recipients into divulging sensitive information (such as passwords and other personal information) to a non-trustworthy source.
     
 [[MS-OXCSPAM]](http://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Enables the handling of allow/block lists and the determination of junk e-mail messages.
+> Enables the handling of allow/block lists and the determination of junk email messages.
     
 ### Header files
 

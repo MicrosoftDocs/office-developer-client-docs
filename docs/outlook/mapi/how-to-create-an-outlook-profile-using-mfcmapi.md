@@ -94,7 +94,7 @@ For non-developers, it is recommended that you use the Outlook user interface to
 > - <sup>2</sup> For Outlook 2010, you will need to use the EXPR protocol. Outlook 2013 uses the EXHTTP protocol. 
 > - <sup>3</sup> This value may not be in the Autodiscover response. If not specified, the client should use Kerberos or NTLM. 
     
-For Troubleshooting tips, see [How to configure an Outlook profile using MFCMAPI for Exchange 2013](https://blogs.msdn.microsoft.com/dvespa/2014/01/16/how-to-configure-an-outlook-profile-using-mfcmapi-for-exchange-2013)
+For Troubleshooting tips, see [How to configure an Outlook profile using MFCMAPI for Exchange 2013](https://blogs.msdn.microsoft.com/dvespa/2014/01/16/how-to-configure-an-outlook-profile-using-mfcmapi-for-exchange-2013).
   
 ## See also
 

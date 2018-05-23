@@ -20,7 +20,7 @@ description: "Last modified: July 23, 2011"
   
 This section includes subtopics on how to implement some of the more uncommon or difficult features in a client application.
   
-## In This Section
+## In this section
 
 [Writing an Automated Client](writing-an-automated-client.md)
   

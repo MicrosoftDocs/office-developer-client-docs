@@ -12,9 +12,7 @@ description: "Project Online is an Office 365 service that companies can extend 
 
 Project Online is an Office 365 service that companies can extend to meet business needs. One extension area is Enterprise Custom Fields (ECFs). ECFs are typed value fields that can be added to projects, resources, and tasks. The following table lists ECFs that associate with projects, resources, and tasks, and provides an example of a value for an instance of that ECF:
   
-|
-|
-|**ECF Name**|**ECF Type**|**Association**|**Example Value**|
+|ECF Name|ECF Type|Association|Example Value|
 |:-----|:-----|:-----|:-----|
 |Justification  <br/> |TEXT  <br/> |Project  <br/> |An end user can record vital statistics and health data, with results that include a health evaluation and an individualized action plan towards better health.  <br/> |
 |Risk Rating  <br/> |TEXT  <br/> |Project  <br/> |Low  <br/> |
@@ -71,117 +69,117 @@ The Main method manages the application flow. As with other applications that us
   
 1. Retrieve and list the ECFs in the Project Online PWA.
     
-    This functionality is implemented in the ListPWACustomFields method.
+   This functionality is implemented in the ListPWACustomFields method.
     
 2. Retrieve projects with custom fields and non-custom fields.
     
-    When retrieving projects with ECFs, the query request to the Project Online service needs to include the following items: 
+   When retrieving projects with ECFs, the query request to the Project Online service needs to include the following items: 
     
-  - IncludeCustomFields -- This item requests the service to return a collection of PublishedProjects where each published project includes an extension that supports custom fields. Unless this item is specified, Project Online returns PublishedProject objects that do not include Custom Field data.
+   - **IncludeCustomFields** &ndash; This item requests the service to return a collection of PublishedProjects where each published project includes an extension that supports custom fields. Unless this item is specified, Project Online returns PublishedProject objects that do not include Custom Field data.
     
-  - IncludeCustomFields.CustomFields -- This item requests the service to populate the PublishedProject objects with CustomFields data.
+   - **IncludeCustomFields.CustomFields** &ndash; This item requests the service to populate the PublishedProject objects with CustomFields data.
     
-    The following request specifies the project Id and Name, as well as the object extension for custom fields and the custom field values.
+   The following request specifies the project Id and Name, as well as the object extension for custom fields and the custom field values.
     
-  ```cs
-      var projBlk = projContext.LoadQuery(
-      projContext.Projects.Include(
-          p => p.Id, 
-          p => p.Name,
-          p => p.IncludeCustomFields,
-          p => p.IncludeCustomFields.CustomFields
-      ));
-  
-  ```
+   ```cs
+        var projBlk = projContext.LoadQuery(
+        projContext.Projects.Include(
+            p => p.Id, 
+            p => p.Name,
+            p => p.IncludeCustomFields,
+            p => p.IncludeCustomFields.CustomFields
+        ));
+    
+   ```
 
 3. Examine each project.
     
-    The project objects used in this application are the PublishedProject type because the values are retrieved and displayed. 
+   The project objects used in this application are the PublishedProject type because the values are retrieved and displayed. 
     
-    If you need to update data values in one or more projects, the project undergoing the update would be checked out and the application would use a DraftProject object to retrieve the values and update the project.
+   If you need to update data values in one or more projects, the project undergoing the update would be checked out and the application would use a DraftProject object to retrieve the values and update the project.
     
 4. Accessing the ECF entries for a project
     
-    Each ECF instance separates the field value from the rest of the ECF information. The field value is stored as part of a key/value pair. The rest of the information is stored in a CustomField object.
+   Each ECF instance separates the field value from the rest of the ECF information. The field value is stored as part of a key/value pair. The rest of the information is stored in a CustomField object.
     
-    Accessing ECF values in a project consists of two parts:
+   Accessing ECF values in a project consists of two parts:
     
-  - Cycling through the CustomFields collection
+   - Cycling through the CustomFields collection
     
-  - Accessing the proper entry using two constructs.
+   - Accessing the proper entry using two constructs.
     
-    Each project stores associated ECF entries in two places, a CustomFields collection that is enumerable and and the field values as part of key/value pairs. In the key/value pairs, the internalName is the key and the field value is the value. Use a dictionary to hold and access the field values. 
+   Each project stores associated ECF entries in two places, a CustomFields collection that is enumerable and and the field values as part of key/value pairs. In the key/value pairs, the internalName is the key and the field value is the value. Use a dictionary to hold and access the field values. 
     
-    The ECF properties, other than the field values, are stored in CustomField objects, one object per project. Use a CustomFields collection to access the ECFs associated with an individual project. 
+   The ECF properties, other than the field values, are stored in CustomField objects, one object per project. Use a CustomFields collection to access the ECFs associated with an individual project. 
     
 5. Each project stores the associated ECFs in a collection where each ECF entry consists of a key--the internal name of the ECF--and an object that holds the value of the ECF. Transfer the collection to a dictionary to access individual entries. The declaration follows.
     
-  ```cs
-  Dictionary<string, object> projDict = pubProj.IncludeCustomFields.FieldValues;
-  
-  ```
-
-    The value in a dictionary entry corresponds to the data type of the ECF. The object for each ECF maps to one of a variety of types. Most ECFs use simple types that fit into standard variables. The following fragment shows that minimal processing is involved for several types:
+   ```cs
+    Dictionary<string, object> projDict = pubProj.IncludeCustomFields.FieldValues;
     
-  ```cs
-  switch (cf.FieldType)
-  {
-      case CustomFieldType.COST:
-          decimal costValue = (decimal)oVal;
-          Console.WriteLine("\tFieldType:\t{0}\n\tValue:\t{1}", cf.FieldType, 
-              costValue.ToString("C"));
-          break;
-      case CustomFieldType.DATE:
-          Console.WriteLine("\tFieldType:\t{0}\n\tValue:\t{1}", cf.FieldType, 
-              oVal.ToString());
-          break;
-      case CustomFieldType.FINISHDATE:
-          Console.WriteLine("\tFieldType:\t{0}\n\tValue:\t{1}", cf.FieldType, 
-              oVal.ToString());
-          break;
-      case CustomFieldType.DURATION:
-          Console.WriteLine("\tFieldType:\t{0}\n\tValue:\t{1}", cf.FieldType, 
-              oVal.ToString());
-          break;
-      case CustomFieldType.FLAG:
-          Console.WriteLine("\tFieldType:\t{0}\n\tValue:\t{1}", cf.FieldType, 
-              oVal.ToString());
-          break;
-      case CustomFieldType.NUMBER:
-          Console.WriteLine("\tFieldType:\t{0}\n\tValue:\t{1}", cf.FieldType, 
-              oVal.ToString());
-          break;
-  
-  ```
+   ```
 
-    The lookup table of TEXT values, however, requires additional processing. The application retrieves the appropriate lookup table from the service, and outputs the ECF instance (with single or multiple values) by traversing the lookup table. The following code fragment shows processing of TEXT ECFs, including those with simple values and those using lookup tables: 
+   The value in a dictionary entry corresponds to the data type of the ECF. The object for each ECF maps to one of a variety of types. Most ECFs use simple types that fit into standard variables. The following fragment shows that minimal processing is involved for several types:
     
-  ```cs
-  case CustomFieldType.TEXT:
-      if (!cf.LookupTable.ServerObjectIsNull.HasValue ||
-          (cf.LookupTable.ServerObjectIsNull.HasValue && 
-           cf.LookupTable.ServerObjectIsNull.Value))
-      { //No lookup table
-          Console.WriteLine("\tFieldType:\t{0}\n\tText:\t{1}", cf.FieldType, 
-              oVal.ToString());
-      }
-      else
-      { //Lookup table
-          Console.WriteLine("\tFieldType:\t{0} - using Lookup Table", cf.FieldType);
-          String[] entries = (String[])oVal;
-          foreach (String entry in entries)
-          {
-              var luEntry = projContext.LoadQuery(cf.LookupTable.Entries
-                  .Where(e => e.InternalName == entry));
-              projContext.ExecuteQuery();
-              Console.WriteLine("\tLookup Value:\t{0}", luEntry.First().FullValue);  
-          }
-      }
-      break;
-  
-  ```
+   ```cs
+    switch (cf.FieldType)
+    {
+        case CustomFieldType.COST:
+            decimal costValue = (decimal)oVal;
+            Console.WriteLine("\tFieldType:\t{0}\n\tValue:\t{1}", cf.FieldType, 
+                costValue.ToString("C"));
+            break;
+        case CustomFieldType.DATE:
+            Console.WriteLine("\tFieldType:\t{0}\n\tValue:\t{1}", cf.FieldType, 
+                oVal.ToString());
+            break;
+        case CustomFieldType.FINISHDATE:
+            Console.WriteLine("\tFieldType:\t{0}\n\tValue:\t{1}", cf.FieldType, 
+                oVal.ToString());
+            break;
+        case CustomFieldType.DURATION:
+            Console.WriteLine("\tFieldType:\t{0}\n\tValue:\t{1}", cf.FieldType, 
+                oVal.ToString());
+            break;
+        case CustomFieldType.FLAG:
+            Console.WriteLine("\tFieldType:\t{0}\n\tValue:\t{1}", cf.FieldType, 
+                oVal.ToString());
+            break;
+        case CustomFieldType.NUMBER:
+            Console.WriteLine("\tFieldType:\t{0}\n\tValue:\t{1}", cf.FieldType, 
+                oVal.ToString());
+            break;
+    
+   ```
 
-    This application simply outputs the value(s); however, it is possible to get more meaning from the data value(s).
+   The lookup table of TEXT values, however, requires additional processing. The application retrieves the appropriate lookup table from the service, and outputs the ECF instance (with single or multiple values) by traversing the lookup table. The following code fragment shows processing of TEXT ECFs, including those with simple values and those using lookup tables: 
+    
+   ```cs
+    case CustomFieldType.TEXT:
+        if (!cf.LookupTable.ServerObjectIsNull.HasValue ||
+            (cf.LookupTable.ServerObjectIsNull.HasValue && 
+            cf.LookupTable.ServerObjectIsNull.Value))
+        { //No lookup table
+            Console.WriteLine("\tFieldType:\t{0}\n\tText:\t{1}", cf.FieldType, 
+                oVal.ToString());
+        }
+        else
+        { //Lookup table
+            Console.WriteLine("\tFieldType:\t{0} - using Lookup Table", cf.FieldType);
+            String[] entries = (String[])oVal;
+            foreach (String entry in entries)
+            {
+                var luEntry = projContext.LoadQuery(cf.LookupTable.Entries
+                    .Where(e => e.InternalName == entry));
+                projContext.ExecuteQuery();
+                Console.WriteLine("\tLookup Value:\t{0}", luEntry.First().FullValue);  
+            }
+        }
+        break;
+    
+   ```
+
+   This application simply outputs the value(s); however, it is possible to get more meaning from the data value(s).
     
 ## ListPWACustomFields
 

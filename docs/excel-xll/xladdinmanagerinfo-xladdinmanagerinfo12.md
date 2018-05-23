@@ -35,11 +35,11 @@ LPXLOPER12 WINAPI xlAddInManagerInfo12(LPXLOPER12 pxAction);
 
 ## Parameters
 
- _pxAction:_ A pointer to a numeric **XLOPER/XLOPER12** ( **xltypeInt** or **xltypeNum**).
+ _pxAction:_ A pointer to a numeric **XLOPER/XLOPER12** (**xltypeInt** or **xltypeNum**).
   
 The information that Excel is asking for.
   
-## Property Value/Return Value
+## Property value/Return value
 
 If  _pxAction_ is, or can be coerced to, the number 1, then your implementation of this function should return a string containing some information about the add-in, typically its name and perhaps a version number. Otherwise it should return #VALUE!. 
   

@@ -20,7 +20,7 @@ Repeats text a given number of times.
   
 ## Syntax
 
-REPT ( ** *text* **, ** *number_times* ** ) 
+REPT (** *text* **, ** *number_times* ** ) 
   
 ### Parameters
 

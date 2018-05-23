@@ -18,7 +18,7 @@ description: "Last modified: July 23, 2011"
   
 The Offline State API supports callbacks indicating changes in a user's connection state in Outlook—for example, from being online in Outlook to being offline. The Sample Offline State Add-in is a COM add-in written in C++ that demonstrates how to receive notifications of connection state changes and how to modify the current state using the Offline State API. For more information about the Offline State API, see [About the Offline State API](about-the-offline-state-api.md).
   
-## In This Section
+## In this section
 
 - [Installing the Sample Offline State Add-in](installing-the-sample-offline-state-add-in.md)
     

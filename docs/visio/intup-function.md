@@ -20,7 +20,7 @@ Rounds a number up to the next integer.
   
 ## Syntax
 
-INTUP( ** *number* ** ) 
+INTUP(** *number* ** ) 
   
 ### Parameters
 

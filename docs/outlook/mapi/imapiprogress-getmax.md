@@ -54,7 +54,7 @@ For more information about how and when to make calls to a progress object, see 
 
 Initialize the maximum value to 1000. Service providers can reset this value by calling the [IMAPIProgress::SetLimits](imapiprogress-setlimits.md) method. For more information about how to implement **GetMax** and the other [IMAPIProgress](imapiprogressiunknown.md) methods, see [Implementing a Progress Indicator](implementing-a-progress-indicator.md).
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

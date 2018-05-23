@@ -47,7 +47,7 @@ Implements a progress object that provides client applications with a progress i
 
 MAPI includes an  _lpProgress_ parameter in many of the methods that perform potentially lengthy operations.  _lpProgress_ points to a client implementation of a progress object. Clients that implement the **IMAPIProgress** interface set this parameter to point to their implementation; clients that do not implement **IMAPIProgress** set the parameter to NULL. To display a progress indicator during processing of the operation, service providers use the progress object supplied by the client, if available, or a MAPI implementation (indicated when  _lpProgress_ is set to NULL). 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

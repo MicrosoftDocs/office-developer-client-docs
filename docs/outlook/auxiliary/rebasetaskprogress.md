@@ -69,7 +69,7 @@ void STDAPICALLTYPE RebaseTaskProgress(
   
 > [in] A pointer to an **[SRow](http://msdn.microsoft.com/library/369c2d5c-8c2b-4314-9cb2-aaa89580aa2b%28Office.15%29.aspx)** structure that describes the item being scanned or fixed. 
     
-## Return Values
+## Return values
 
 S_OK if the call succeeded; otherwise, an error code.
   

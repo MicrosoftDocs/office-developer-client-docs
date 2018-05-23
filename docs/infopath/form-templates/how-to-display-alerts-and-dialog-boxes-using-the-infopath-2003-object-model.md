@@ -7,7 +7,7 @@ keywords:
 - infopath 2003-compatible form templates, displaying dialog boxes,form templates [InfoPath 2007], displaying dialog boxes,alerts, displaying in InfoPath 2003-compatible form templates,dialog boxes, displaying in InfoPath 2003-compatible form templates,InfoPath 2003-compatible form templates, displaying alerts
 localization_priority: Normal
 ms.assetid: 721ac58e-56d9-4e3b-93f1-849e0c94d010
-description: "When writing code to extend the functionality of a form template that uses the InfoPath 2003 object model, it is often useful to provide the user with information in a dialog box. Programmatically displaying a dialog box and related user interface elements is accomplished in InfoPath by using the methods of the UIObject interface."
+description: "When writing code to extend the functionality of a form template that uses the InfoPath 2003 object model, it is often useful to provide the user with information in a dialog box."
 ---
 
 # Display Alerts and Dialog Boxes Using the InfoPath 2003 Object Model
@@ -18,13 +18,13 @@ When writing code to extend the functionality of a form template that uses the I
 
 The [UIObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UIObject.aspx) interface provides the following methods, which form developers can use to have different types of dialog boxes displayed to InfoPath users as they are filling out a form. 
   
-|**Name**|**Description**|
+|Name|Description|
 |:-----|:-----|
 |[Alert](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.Alert.aspx) <br/> |Displays a simple message box that contains a specified message string. This method should be used when no input is required from the user and only a message needs to be displayed. The dialog box displayed is closed by clicking the **OK** button.  <br/> |
 |[Confirm](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.Confirm.aspx) <br/> |Displays a message box with buttons for input from a user. The value that is returned is one of the [XdConfirmChoice](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XdConfirmChoice.aspx) enumerated constants.  <br/> |
 |[SetSaveAsDialogFileName](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.SetSaveAsDialogFileName.aspx) <br/> |Sets the default file name for a form in the **Save As** dialog box.  <br/> |
 |[SetSaveAsDialogLocation](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.SetSaveAsDialogLocation.aspx) <br/> |Sets the initial location at which the **Save As** dialog box starts to browse when it is opened.  <br/> |
-|[ShowMailItem](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowMailItem.aspx) <br/> |Creates a new e-mail message in the default e-mail application, with the currently open form attached to the message.  <br/> |
+|[ShowMailItem](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowMailItem.aspx) <br/> |Creates a new email message in the default email application, with the currently open form attached to the message.  <br/> |
 |[ShowModalDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowModalDialog.aspx) <br/> |Displays a modal dialog box, based on the specified .html file and positional arguments. This method should be used if you want to display more than a simple message to the user and you need to get back some data from the user (beyond the simple confirmation that is provided by the **Yes** | **No** | **Cancel** buttons displayed by the **Confirm** method).  <br/> |
 |[ShowSignatureDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowSignatureDialog.aspx) <br/> |Displays the built-in **Digital Signatures** dialog box.  <br/> |
    
@@ -35,13 +35,13 @@ The [UIObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoP
 ```cs
 thisXDocument.UI.ShowMailItem("someone@example.com","", "", 
    "Updated Form", "Here is the updated form that you requested.");
-thisXDocument.UI.Alert("The e-mail message has been created.");
+thisXDocument.UI.Alert("The email message has been created.");
 ```
 
 ```vb
 thisXDocument.UI.ShowMailItem("someone@example.com", "", "", _
    "Updated Form", "Here is the updated form that you requested.")
-thisXDocument.UI.Alert("The e-mail message has been created.")
+thisXDocument.UI.Alert("The email message has been created.")
 ```
 
 ## Using the ShowModalDialog Method

@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Specifies the e-mail account ID through which the e-mail message is sent.
+Specifies the email account ID through which the email message is sent.
   
 |||
 |:-----|:-----|
@@ -46,7 +46,7 @@ The format of this string is implementation dependent. This property can be used
     
 [[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Specifies the properties and operations that are permissible for e-mail message objects.
+> Specifies the properties and operations that are permissible for email message objects.
     
 ### Header files
 

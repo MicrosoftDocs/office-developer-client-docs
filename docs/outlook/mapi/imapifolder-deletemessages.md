@@ -91,7 +91,7 @@ When **DeleteMessages** is unable to complete, do not assume that no work was do
   
  **DeleteMessages** returns MAPI_W_PARTIAL_COMPLETION or MAPI_E_NOT_FOUND, depending on the message store's implementation. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

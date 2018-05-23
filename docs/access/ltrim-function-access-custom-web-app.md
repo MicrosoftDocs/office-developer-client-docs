@@ -21,7 +21,7 @@ Returns a character expression after it removes leading blanks.
   
 ## Syntax
 
- **LTrim** (  *TextExpression*  ) 
+ **LTrim** (*TextExpression*) 
   
 The **LTrim** function contains the following argument. 
   

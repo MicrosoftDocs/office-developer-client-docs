@@ -46,7 +46,7 @@ Excel uses a single main thread to run or execute the following:
     
 - XLL commands
     
-- XLL Add-in Manager interface functions ( **xlAutoOpen** function, and so on) 
+- XLL Add-in Manager interface functions (**xlAutoOpen** function, and so on) 
     
 - Microsoft Visual Basic for Applications (VBA) user-defined commands (often referred to as macros)
     
@@ -105,7 +105,7 @@ The built-in worksheet functions that are not thread safe are:
     
 - **ADDRESS** where the fifth parameter (the sheet_name) is given 
     
-- Any database function ( **DSUM**, **DAVERAGE**, and so on) that refers to a pivot table
+- Any database function (**DSUM**, **DAVERAGE**, and so on) that refers to a pivot table
     
 - **ERROR.TYPE**
     
@@ -123,9 +123,9 @@ To be explicit, the following are considered to be unsafe:
     
 The implications are that the following operations and functions are not thread-safe, and fail if they are called from an XLL function registered as thread safe:
   
-- Calls to XLM information functions, for example, **xlfGetCell** ( **GET.CELL**).
+- Calls to XLM information functions, for example, **xlfGetCell** (**GET.CELL**).
     
-- Calls to **xlfSetName** ( **SET.NAME**) to define or delete XLL-internal names.
+- Calls to **xlfSetName** (**SET.NAME**) to define or delete XLL-internal names.
     
 - Calls to thread-unsafe user-defined functions using **xlUDF**.
     

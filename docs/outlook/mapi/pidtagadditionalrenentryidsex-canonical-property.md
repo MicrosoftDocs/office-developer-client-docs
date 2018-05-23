@@ -88,7 +88,7 @@ If the **PersistElementType** value is not one of the ones defined here, the **P
     
 [[MS-OXCSPAM]](http://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Enables the handling of allow/block lists and the determination of junk e-mail messages.
+> Enables the handling of allow/block lists and the determination of junk email messages.
     
 [[MS-OXOSFLD]](http://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   
@@ -96,7 +96,7 @@ If the **PersistElementType** value is not one of the ones defined here, the **P
     
 [[MS-OXPHISH]](http://msdn.microsoft.com/library/ed49ab26-ba13-4d4c-8a94-98d4ceecd4b7%28Office.15%29.aspx)
   
-> Identifies and marks e-mail messages that are designed to trick recipients into divulging sensitive information (such as passwords and other personal information) to a non-trustworthy source.
+> Identifies and marks email messages that are designed to trick recipients into divulging sensitive information (such as passwords and other personal information) to a non-trustworthy source.
     
 ### Header files
 

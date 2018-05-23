@@ -16,7 +16,7 @@ description: "This section describes the four APIs in the Outlook 2013 Auxiliary
 
 This section describes the four APIs in the Outlook 2013 Auxiliary Reference and provides sample tasks that use those APIs.
   
-## In This Section
+## In this section
 
 - [Outlook account management](outlook-account-management.md)
     

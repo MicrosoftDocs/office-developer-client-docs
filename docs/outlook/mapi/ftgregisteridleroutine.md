@@ -1,7 +1,5 @@
 ---
 title: "FtgRegisterIdleRoutine"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -18,8 +16,6 @@ description: "Last modified: March 09, 2015"
 
 # FtgRegisterIdleRoutine
 
-  
-  
 **Applies to**: Outlook 
   
 Adds a [FNIDLE](fnidle.md) function-based idle routine to the MAPI system. 
@@ -42,53 +38,53 @@ FTG FtgRegisterIdleRoutine(
 
 ## Parameters
 
- _pfnIdle_
+_pfnIdle_
   
 > [in] A pointer to the idle routine. 
     
- _pvIdleParam_
+_pvIdleParam_
   
 > [in] A pointer to a block of memory that the idle engine should pass as a parameter to the idle routine when it calls it. 
     
- _priIdle_
+_priIdle_
   
 > [in] The initial priority for the idle routine. Possible priorities for implementation-defined routines are greater than or less than zero, but not zero. The zero priority is reserved for a user event such as a mouse click or a WM_PAINT message. Priorities greater than zero represent background tasks that have a higher priority than user events and are dispatched as part of the standard Windows message pump loop. Priorities less than zero represent idle tasks that only run during message pump idle time. Examples of priorities are as follows: 1 for foreground submission, 2 for power-edit character insertion, and 3 for downloading new messages.
     
- _csecIdle_
+_csecIdle_
   
 > [in] The initial time value, in hundredths of a second, to be used in specifying idle routine parameters. The meaning of the initial time value varies, depending on what is passed in the  _iroIdle_ parameter. The meaning can be one of the following: 
     
-    - The minimum period of user inaction that must elapse before the MAPI idle engine calls the idle routine for the first time, if the FIROWAIT flag is set in  _iroIdle_. After this time passes, the idle engine can call the idle routine as often as necessary. 
+  - The minimum period of user inaction that must elapse before the MAPI idle engine calls the idle routine for the first time, if the FIROWAIT flag is set in  _iroIdle_. After this time passes, the idle engine can call the idle routine as often as necessary. 
     
-    - The minimum interval between calls to the idle routine, if the FIROINTERVAL flag is set in  _iroIdle_. 
+  - The minimum interval between calls to the idle routine, if the FIROINTERVAL flag is set in  _iroIdle_. 
     
- _iroIdle_
+_iroIdle_
   
 > [in] The bitmask of flags used to set initial options for the idle routine. The following flags can be set:
     
-FIRONOADJUSTMENT
-  
-> Use this flag to specify that the idle routine timer should not be adjusted for sleep or resume. The default behavior without this flag is that sleep time is excluded when calculating the elapsed time. If FIRONOADJUSTMENT is passed then the sleep time is included when calculating elapsed time.
+  FIRONOADJUSTMENT
     
-FIRODISABLED
-  
-> The idle routine should be disabled when registered. The default action is to enable the idle routine when **FtgRegisterIdleRoutine** registers it. 
+  > Use this flag to specify that the idle routine timer should not be adjusted for sleep or resume. The default behavior without this flag is that sleep time is excluded when calculating the elapsed time. If FIRONOADJUSTMENT is passed then the sleep time is included when calculating elapsed time.
+      
+  FIRODISABLED
     
-FIROINTERVAL 
-  
-> The time specified by the  _csecIdle_ parameter is the minimum interval between successive calls to the idle routine. 
+  > The idle routine should be disabled when registered. The default action is to enable the idle routine when **FtgRegisterIdleRoutine** registers it. 
+      
+  FIROINTERVAL 
     
-FIROONCEONLY 
-  
-> Obsolete. Do not use. 
+  > The time specified by the  _csecIdle_ parameter is the minimum interval between successive calls to the idle routine. 
+      
+  FIROONCEONLY 
     
-FIROPERBLOCK 
-  
-> Obsolete. Do not use. 
+  > Obsolete. Do not use. 
+      
+  FIROPERBLOCK 
     
-FIROWAIT 
-  
-> The time specified by the  _csecIdle_ parameter is the minimum period of user inaction that must elapse before the MAPI idle engine calls the idle routine for the first time. After this time passes, the idle engine can call the idle routine as often as necessary. 
+  > Obsolete. Do not use. 
+      
+  FIROWAIT 
+    
+  > The time specified by the  _csecIdle_ parameter is the minimum period of user inaction that must elapse before the MAPI idle engine calls the idle routine for the first time. After this time passes, the idle engine can call the idle routine as often as necessary. 
     
 ## Return value
 
@@ -107,7 +103,7 @@ The following functions deal with the MAPI idle engine and with idle routines ba
 |[MAPIDeInitIdle](mapideinitidle.md) <br/> |Shuts down the MAPI idle engine for the calling application.  <br/> |
 |[MAPIInitIdle](mapiinitidle.md) <br/> |Initializes the MAPI idle engine for the calling application.  <br/> |
    
- **ChangeIdleRoutine**, **DeregisterIdleRoutine**, and **EnableIdleRoutine** take as an input parameter the function tag returned by **FtgRegisterIdleRoutine**. 
+**ChangeIdleRoutine**, **DeregisterIdleRoutine**, and **EnableIdleRoutine** take as an input parameter the function tag returned by **FtgRegisterIdleRoutine**. 
   
 When all foreground tasks for the platform become idle, the MAPI idle engine calls the highest priority idle routine that is ready to execute. There is no guarantee of calling order among idle routines of the same priority. 
   

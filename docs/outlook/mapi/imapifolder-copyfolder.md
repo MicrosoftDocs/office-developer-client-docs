@@ -149,7 +149,7 @@ Depending on the message store provider, the entry identifier of the original me
     
 - When you move a folder to another location in the same message store, the entry identifier may or may not change, depending on the message store provider.
     
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

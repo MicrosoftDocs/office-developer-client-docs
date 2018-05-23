@@ -54,7 +54,7 @@ frightsFreeBusySimple
   
 > [out] Points to a [IMAPITable : IUnknown](imapitableiunknown.md) interface containing the table object. 
     
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

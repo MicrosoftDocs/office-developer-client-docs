@@ -28,7 +28,7 @@ HRESULT Placeholder21(
 );
 ```
 
-## Return Values
+## Return values
 
 Always S_OK, because this member is a placeholder and is not supported.
   

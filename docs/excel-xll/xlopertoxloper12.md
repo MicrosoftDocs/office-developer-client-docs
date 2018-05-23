@@ -1,7 +1,5 @@
 ---
 title: "XLOperToXLOper12"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,7 +8,6 @@ f1_keywords:
 - XLOperToXLOper12
 keywords:
 - xlopertoxloper12 function [excel 2007]
- 
 localization_priority: Normal
 ms.assetid: b2d4581b-ebf6-4eba-aa95-69a5a9ee8028
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
@@ -18,7 +15,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # XLOperToXLOper12
 
- **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
+**Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 Conversion routine used to convert from the old **XLOPER** to the new **XLOPER12**.
   
@@ -28,17 +25,17 @@ BOOL XLOperToXLOper12(LPXLOPER pxloper, LPXLOPER12 pxloper12);
 
 ## Parameters
 
- _pxloper_ ( **LPXLOPER**)
+_pxloper_ (**LPXLOPER**)
   
 Pointer to the source **XLOPER** to be converted. 
   
- _pxloper12_ ( **LPXLOPER12**)
+_pxloper12_ (**LPXLOPER12**)
   
 Pointer to the target **XLOPER12** to contain the converted value. 
   
-## Property Value/Return Value
+## Property value/Return value
 
- **TRUE** if the conversion succeeded, **FALSE** otherwise. 
+**TRUE** if the conversion succeeded, **FALSE** otherwise. 
   
 ## Remarks
 
@@ -48,7 +45,7 @@ If the conversion fails, the caller does not need to free any memory.
   
 In general, conversion from any **XLOPER** to an **XLOPER12** is possible. In contrast, conversion from an **XLOPER12** to an **XLOPER** can fail when the **XLOPER12** contains an array or reference that is too large or a string that is too long for the **XLOPER** to contain. 
   
- **XLOPER** ASCII byte strings are converted to **XLOPER12** Unicode wide-character strings in a way that is locale-dependent. 
+**XLOPER** ASCII byte strings are converted to **XLOPER12** Unicode wide-character strings in a way that is locale-dependent. 
   
 ### Example
 

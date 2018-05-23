@@ -20,7 +20,7 @@ Returns TRUE if the value of  _cellreference_ is any error type; otherwise, it r
   
 ## Syntax
 
-ISERROR( ** *cellreference* ** ) 
+ISERROR(** *cellreference* ** ) 
   
 ### Parameters
 

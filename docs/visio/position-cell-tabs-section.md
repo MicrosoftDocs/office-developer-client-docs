@@ -33,6 +33,6 @@ To get a reference to the Position cell by index from a program, use the **Cells
 |:-----|:-----|
 | Section index:  <br/> |**visSectionTab** <br/> |
 | Row index:  <br/> |**visRowTab** +  *i*            where  *i*  = 0, 1, 2...  <br/> |
-| Cell index:  <br/> | (  *j*  *3) + **visTabPos** <br/> |
+| Cell index:  <br/> | (*j*  *3) + **visTabPos** <br/> |
    
 

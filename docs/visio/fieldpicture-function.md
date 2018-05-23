@@ -20,7 +20,7 @@ Returns a format-picture string that matches the Microsoft Visio internal text f
   
 ## Syntax
 
-FIELDPICTURE( ** *code* ** ) 
+FIELDPICTURE(** *code* ** ) 
   
 ### Parameters
 

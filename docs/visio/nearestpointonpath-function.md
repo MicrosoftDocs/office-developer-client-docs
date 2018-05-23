@@ -22,7 +22,7 @@ Version Added: Visio 2010
   
 ## Syntax
 
-NEARESTPOINTONPATH( ** *section* **, ** *x* **, ** *y* ** ) 
+NEARESTPOINTONPATH(** *section* **, ** *x* **, ** *y* ** ) 
   
 ### Parameters
 

@@ -18,7 +18,7 @@ Blends two colors in the proportion specified by the  _float_ parameter.
   
 ## Syntax
 
-BLEND( ** *color1* **, ** *color2* **, ** *float[0,1]* ** ) 
+BLEND(** *color1* **, ** *color2* **, ** *float[0,1]* ** ) 
   
 ### Parameters
 

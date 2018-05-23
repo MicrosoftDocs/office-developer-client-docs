@@ -18,7 +18,7 @@ Returns the difference in saturation between  _color1_ and  _color2_.
   
 ## Syntax
 
-SATDIFF( ** *color1* **, ** *color2* ** ) 
+SATDIFF(** *color1* **, ** *color2* ** ) 
   
 ### Parameters
 

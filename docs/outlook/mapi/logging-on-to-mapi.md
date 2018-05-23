@@ -8,28 +8,20 @@ api_type:
 - COM
 ms.assetid: 05bafe43-a78a-4659-92f0-0b4fe444c64f
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
 # Logging on to MAPI
-
-  
-  
+ 
 **Applies to**: Outlook 
   
 Client applications log on to the MAPI subsystem by calling the **MAPILogonEx** function. For more information, see [MAPILogonEx](mapilogonex.md). **MAPILogonEx** validates the profile selection and the configuration of each service provider in the profile. Once configured, MAPI starts the address book providers before starting the message store providers. Transport providers are started when their services are first required. 
   
- **To choose a profile**
+## Choose a profile
   
-- Pass in a character string that represents the name of the profile in the  _lpszProfileName_ parameter to **MAPILogonEx**
+- Pass in a character string that represents the name of the profile in the  _lpszProfileName_ parameter to **MAPILogonEx**, or...
     
-    - Or -
-    
-- Allow the user to specify the profile by passing NULL in the  _lpszProfileName_ parameter and setting the MAPI_LOGON_UI flag. 
-    
-    - Or -
-    
+- Allow the user to specify the profile by passing NULL in the  _lpszProfileName_ parameter and setting the MAPI_LOGON_UI flag, or... 
+
 - Select the default profile by passing NULL in the  _lpszProfileName_ parameter and setting the MAPI_USE_DEFAULT flag. 
     
 If you require a specific profile other than the default profile, you must save its name in your own configuration database or use a specific naming convention. MAPI does not expose any profile attributes other than the name and default flag in the profile table, and the default profile flag is reserved for messaging client and related IPM applications.
@@ -42,7 +34,7 @@ The session that **MAPILogonEx** establishes can be an individual messaging sess
   
 Shared messaging sessions are connections that multiple messaging clients can use. Shared sessions are typically established for clients use the same profile. To establish a new session as a shared session, set the MAPI_ALLOW_OTHERS flag. 
   
- **To use an existing shared session**
+## Use an existing shared session
   
 - Do not set the MAPI_NEW_SESSION flag.
     
@@ -62,7 +54,7 @@ The MAPI_NO_MAIL flag should only be set:
     
 A messaging client can share a session with a nonmessaging client. The characteristics of one member of a shared session are not affected by the characteristics of other members. That is, if you log on with the MAPI_NO_MAIL and MAPI_ALLOW_OTHERS flags set, a messaging client logging on to your session has no affect on the operation of your client and vice versa. The messaging client will still be able to send and receive messages and your client will not.
   
- **MAPILogonEx** defines a few other flags that you can set: 
+**MAPILogonEx** defines a few other flags that you can set: 
   
 - MAPI_FORCE_DOWNLOAD indicates that incoming messages should be downloaded before **MAPILogonEx** returns. Not setting this flag causes messages to be downloaded in the background at a later time. 
     

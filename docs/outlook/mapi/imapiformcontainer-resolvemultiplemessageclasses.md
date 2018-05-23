@@ -66,7 +66,7 @@ To resolve a group of message classes to forms, pass in an array of message clas
   
 If a message class cannot be resolved to a form, NULL is returned for that message class in the form information array. Therefore, even if the method returns S_OK, do not assume that all message classes have been successfully resolved. Instead, check the values in the returned array.
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

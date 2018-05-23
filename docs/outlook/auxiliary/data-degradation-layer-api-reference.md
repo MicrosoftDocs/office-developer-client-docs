@@ -16,7 +16,7 @@ description: "This section provides reference content for the Data Degradation L
 
 This section provides reference content for the Data Degradation Layer API, which provides the ability to hide the underlying native character format of an Outlook object, allowing a client to access the object in a preferred character format rather than in the object's native character format.
   
-## In This Section
+## In this section
 
 - [Constants](constants-data-degradation-layer-api.md)
     

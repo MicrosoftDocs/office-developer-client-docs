@@ -1,7 +1,5 @@
 ---
 title: "IABLogonPrepareRecips"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -18,8 +16,6 @@ description: "Last modified: July 23, 2011"
 
 # IABLogon::PrepareRecips
 
-  
-  
 **Applies to**: Outlook 
   
 Prepares a recipient list for later use by the messaging system.
@@ -34,19 +30,17 @@ HRESULT PrepareRecips(
 
 ## Parameters
 
- _ulFlags_
+_ulFlags_
   
 > [in] A bitmask of flags that controls the type of the text in the returned strings. The following flag can be set:
     
-MAPI_CACHE_ONLY
-  
-> Use only the offline address book to perform name resolution. For example, you can use this flag to allow a client application to open the global address list (GAL) in cached exchange mode and access an entry in that address book from the cache without creating traffic between the client and the server. This flag is supported only by the Exchange Address Book Provider.
+  - MAPI_CACHE_ONLY: Use only the offline address book to perform name resolution. For example, you can use this flag to allow a client application to open the global address list (GAL) in cached exchange mode and access an entry in that address book from the cache without creating traffic between the client and the server. This flag is supported only by the Exchange Address Book Provider.
     
- _lpPropTagArray_
+_lpPropTagArray_
   
 > [in] A pointer to an [SPropTagArray](sproptagarray.md) structure that contains an array of property tags that indicate the properties that require updating, if any. The  _lpPropTagArray_ parameter can be NULL. 
     
- _lpRecipList_
+_lpRecipList_
   
 > [in] A pointer to an [ADRLIST](adrlist.md) structure that holds the recipient list. 
     
@@ -64,7 +58,7 @@ MAPI_E_NOT_FOUND
 
 A client calls the MAPI [IAddrBook::PrepareRecips](iaddrbook-preparerecips.md) method to modify or rearrange a set of properties for one or more recipients. The recipients may or may not be part of the recipient list of an outgoing message. MAPI transfers this call to an address book provider's **IABLogon::PrepareRecips** method. 
   
- **IABLogon::PrepareRecips** performs four main tasks: 
+**IABLogon::PrepareRecips** performs four main tasks: 
   
 - Ensures that all recipients in the address list pointed to by the  _lpRecipList_ parameter have a long-term entry identifier. 
     
@@ -88,9 +82,9 @@ To implement **IABLogon::PrepareRecips**, use the following procedure:
     
 2. Process each recipient in the  _lpRecipList_ parameter. There is one **ADRENTRY** structure member for each recipient in the list. Ignore the following types of recipients: 
     
-  - Recipients without an entry identifier in the **rgPropVals** member of their **ADRENTRY** structure (that is, unresolved recipients). 
+   - Recipients without an entry identifier in the **rgPropVals** member of their **ADRENTRY** structure (that is, unresolved recipients). 
     
-  - Recipients with an entry identifier that does not belong to your provider. These recipients will be passed to another address book provider.
+   - Recipients with an entry identifier that does not belong to your provider. These recipients will be passed to another address book provider.
     
 3. Open the recipient and retrieve the properties that are already set for the recipient.
     
@@ -105,15 +99,9 @@ To implement **IABLogon::PrepareRecips**, use the following procedure:
   
 ## See also
 
-
-
-[ADRLIST](adrlist.md)
-  
-[IMAPIProp::GetProps](imapiprop-getprops.md)
-  
-[PidTagEntryId Canonical Property](pidtagentryid-canonical-property.md)
-  
-[SPropValue](spropvalue.md)
-  
-[IABLogon : IUnknown](iablogoniunknown.md)
+- [ADRLIST](adrlist.md)
+- [IMAPIProp::GetProps](imapiprop-getprops.md)
+- [PidTagEntryId Canonical Property](pidtagentryid-canonical-property.md)
+- [SPropValue](spropvalue.md)
+- [IABLogon : IUnknown](iablogoniunknown.md)
 

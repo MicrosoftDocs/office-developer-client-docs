@@ -68,7 +68,7 @@ The classes for accessing data connections provide different properties and meth
 |[WebServiceConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WebServiceConnection.aspx) class  <br/> |Connects to an XML Web service.  <br/> |
 |[FileQueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FileQueryConnection.aspx) class  <br/> |Queries an XML file.  <br/> |
 |[FileSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FileSubmitConnection.aspx) class  <br/> |Submits to an XML file.  <br/> |
-|[EmailSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.EmailSubmitConnection.aspx) class  <br/> |Submits a form as an attachment in e-mail.  <br/> |
+|[EmailSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.EmailSubmitConnection.aspx) class  <br/> |Submits a form as an attachment in email.  <br/> |
 |[BdcQueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.BdcQueryConnection.aspx) class  <br/> |Queries an external list on a server running SharePoint Foundation 2010 or SharePoint Server 2010.  <br/> |
 |[BdcSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.BdcSubmitConnection.aspx) class  <br/> |Submits to an external list on a server running SharePoint Foundation 2010 or SharePoint Server 2010.  <br/> |
    

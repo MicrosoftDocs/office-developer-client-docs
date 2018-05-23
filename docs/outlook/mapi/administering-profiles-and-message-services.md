@@ -32,7 +32,7 @@ If you support profile or message service administration, chances are you will u
     
 Be careful in your support of profile and message service administration. There are no safeguards to protect against adversely modifying a profile that is in use. MAPI can prevent you from deleting a profile in use, but cannot prevent you from deleting every message service in it. If you delete every message service in a profile, all of the service providers in these services will stop thereby causing unpredictable results to occur.
   
-## In This Section
+## In this section
 
 [Creating a Profile](creating-a-profile.md)
   

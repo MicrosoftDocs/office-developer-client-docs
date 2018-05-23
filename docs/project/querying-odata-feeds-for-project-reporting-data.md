@@ -12,7 +12,7 @@ description: "To read reporting data in Project Server 2013, there are multiple 
 
 To read reporting data in Project Server 2013, there are multiple ways to do OData queries of the **ProjectData** service. The Business Intelligence Center in Project Web App includes a Data Connections page, where you can choose the Office Data Connection (ODC) for Project Server OData reporting. Choosing the default ODC opens an Excel 2013 workbook, where you can create pivot tables, pivot charts, and PowerView reports. There are several default reports that are included with Project Server 2013. 
   
-You can create custom apps that are developed by using the Microsoft .NET Framework 4, such as apps for on-premises reporting or remote reporting, or a Silverlight Web Part. For a Windows Phone app, you can use the LINQ query syntax in Visual C# statements, Visual Basic statements, or other .NET Framework languages. If you prefer, you can use Lambda syntax with LINQ methods to do the same queries. For apps that you develop for the web or for other devices, you can use REST queries or JavaScript statements.
+You can create custom apps that are developed by using the Microsoft .NET Framework 4, such as apps for on-premises reporting or remote reporting, or a Silverlight web part. For a Windows Phone app, you can use the LINQ query syntax in Visual C# statements, Visual Basic statements, or other .NET Framework languages. If you prefer, you can use Lambda syntax with LINQ methods to do the same queries. For apps that you develop for the web or for other devices, you can use REST queries or JavaScript statements.
   
 The Project 2013 SDK download includes the **HelloProject_OData** sample Office Add-in, which uses a REST query with JavaScript and jQuery to summarize information from the **ProjectData** service in a task pane within Project Professional 2013. 
   
@@ -192,11 +192,11 @@ Procedure 2 shows how to create LINQ queries in Visual C# by using expressions i
     
 3. Add the following code to the Program.cs file. The **context** variable is initialized with the metadata in the **ProjectData** EDM, which you established by adding the **ProjectOData** service reference. 
     
-    The **projectQuery1** variable is set to a LINQ query expression for projects, where the project start date is later than January 1, 2012, and the output is ordered by project name. The **projectQuery1** variable is of type **IOrderedQueryable\<ProjectOData.Project\>**.
+   The **projectQuery1** variable is set to a LINQ query expression for projects, where the project start date is later than January 1, 2012, and the output is ordered by project name. The **projectQuery1** variable is of type **IOrderedQueryable\<ProjectOData.Project\>**.
     
-    The **projectQuery2** variable produces the same query results, by using lambda expressions. The **projectQuery2** variable is of type **IQueryable\<ProjectOData.Project\>**. The .NET Framework internally converts **projectQuery1** to use the method syntax of **projectQuery2**.
+   The **projectQuery2** variable produces the same query results, by using lambda expressions. The **projectQuery2** variable is of type **IQueryable\<ProjectOData.Project\>**. The .NET Framework internally converts **projectQuery1** to use the method syntax of **projectQuery2**.
     
-       ```cs
+   ```cs
         using System;
         using System.Collections.Generic;
         using System.Linq;
@@ -237,19 +237,19 @@ Procedure 2 shows how to create LINQ queries in Visual C# by using expressions i
                 }
             }
         }
-       ```
+   ```
 
 4. Set a breakpoint after initializing the **projectQuery1** variable, and run the application. Internally, Visual Studio converts the query first to OData method syntax with lambda expressions, and then to a REST query for the OData service. Following is the REST query for **projectQuery1** (all on one line): 
     
-    ```html
+   ```html
     http://ServerName/ProjectServerName/_api/ProjectData/Projects()
         ?$filter=ProjectStartDate gt datetime'2012-01-01T00:00:00'
         &$orderby=ProjectName}
-    ```
+   ```
 
 When you run the **TestProjectData** application, the console shows the following output for three sample projects that are published in Project Web App:
 
-```
+```cs
     Using declarative LINQ query syntax:
     Imported from SharePoint :      Start date: 4/2/2012 8:00:00 AM
     Test Proj 1 :   Start date: 4/5/2012 12:00:00 AM
@@ -307,7 +307,7 @@ If the custom field name includes one or more spaces, such as **Project Departme
   
 **Table 1. Custom fields to create for testing**
 
-|**Custom field name**|**Entity**|**Type**|**Roll down to          assignments**|
+|Custom field name|Entity|Type|Roll down to assignments|
 |:-----|:-----|:-----|:-----|
 |Test Proj Text  <br/> |Project  <br/> |Text  <br/> |N/A  <br/> |
 |Test Res Dur  <br/> |Resource  <br/> |Duration  <br/> |Yes  <br/> |

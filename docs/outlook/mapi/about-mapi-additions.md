@@ -216,7 +216,7 @@ The following properties are exposed by store objects.
     
 - **[PR_IPM_TASK_ENTRYID](pidtagipmtaskentryid-canonical-property.md)**
     
-The following properties are exposed by store objects and are used in searching specific elements of an e-mail on the store.
+The following properties are exposed by store objects and are used in searching specific elements of an email on the store.
   
 - **[PR_SEARCH_ATTACHMENTS_W](pidtagsearchattachments-canonical-property.md)**
     

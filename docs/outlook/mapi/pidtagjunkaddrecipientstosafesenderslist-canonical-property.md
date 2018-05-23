@@ -35,7 +35,7 @@ Indicates whether or not the mail recipients are to be added to the safe senders
 
 If present, this property must be set to 0 or 1. A value of 1 indicates that the mail recipients are to be added to the safe senders list. A value of 0 indicates that the mail recipients are not to be added to the safe senders list.
   
-If this property is present with a value of 1, the SMTP addresses of the e-mail recipients must be added to trusted senders clause of the Junk E-Mail Rule condition. If this property is 0, no action is required.
+If this property is present with a value of 1, the SMTP addresses of the email recipients must be added to trusted senders clause of the Junk E-Mail Rule condition. If this property is 0, no action is required.
   
 ## Related resources
 
@@ -47,7 +47,7 @@ If this property is present with a value of 1, the SMTP addresses of the e-mail 
     
 [[MS-OXCSPAM]](http://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Enables the handling of allow/block lists and the determination of junk e-mail messages.
+> Enables the handling of allow/block lists and the determination of junk email messages.
     
 ### Header files
 

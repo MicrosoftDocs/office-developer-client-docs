@@ -114,7 +114,7 @@ You should have only a single reference to the message passed in the **PrepareFo
   
 Be aware that form implementations can return error values other than the ones documented by MAPI. If you can use these error values to make a more accurate determination of the error condition, do so. Otherwise, handle these errors as you would handle MAPI_E_CALL_FAILED. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

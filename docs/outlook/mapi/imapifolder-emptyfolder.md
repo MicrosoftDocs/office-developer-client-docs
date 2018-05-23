@@ -92,7 +92,7 @@ Expect these return values under the following conditions.
    
 When **EmptyFolder** is unable to complete, do not assume that no work was done. **EmptyFolder** might have been able to delete some of the folder's contents before encountering the error. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

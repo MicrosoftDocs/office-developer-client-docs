@@ -38,7 +38,7 @@ HRESULT GetFBPublishRange(
   
 > [out] A relative time value for the end of free/busy information. This value is the number of minutes since January 1, 1601.
     
-## Return Values
+## Return values
 
 S_OK if the call succeeded; otherwise, an error code.
   

@@ -21,7 +21,7 @@ Returns the maximum value in the expression in a query or table.
   
 ## Syntax
 
- **Max** (  *Expression*  ) 
+ **Max** (*Expression*) 
   
 The **Max** function contains the following argument. 
   

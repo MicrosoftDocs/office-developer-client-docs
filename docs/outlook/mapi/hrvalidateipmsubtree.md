@@ -118,7 +118,7 @@ IPM clients should display their folder view starting at the IPM subtree root fo
   
 > A placeholder [PROP_TAG](prop_tag.md) for the IPM Inbox (PT_BINARY, PROP_ID_NULL). 
     
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

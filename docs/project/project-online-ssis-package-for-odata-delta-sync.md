@@ -1,12 +1,8 @@
 ---
 title: "Project Online SSIS package for OData delta sync"
-
- 
 manager: soliver
 ms.date: 8/10/2016
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: e0d725da-9e0b-4a19-b8a2-da969eb636c8
 description: "For best performance when replicating PWA data to a SQL Server database for Project Online reporting, we recommend that you schedule regular synchronizations and update only changed data. The Project Online: SSIS package for OData delta sync sample package demonstrates how to configure a delta sync that compares the last sync date to the modified date on the Project entity to retrieve data only for projects that have changed since the last sync."
@@ -39,15 +35,15 @@ The package creates a **Synced** table to store sync dates, and sets the initial
     
 4. For each project, compare the project's modified date with the last sync date. If the project was modified before the last sync, skip to the next project. Otherwise:
     
-  - Delete the assignment records for the project.
+   - Delete the assignment records for the project.
     
-  - Get assignment timephased data for the project from the OData feed.
+   - Get assignment timephased data for the project from the OData feed.
     
-  - Insert records for the timephased data into the assignments table.
+   - Insert records for the timephased data into the assignments table.
     
-  - Record the sync date.
+   - Record the sync date.
     
-    This flow minimizes the time that is required for the sync because the package processes data only for entities that have been updated since the last sync.
+   This flow minimizes the time that is required for the sync because the package processes data only for entities that have been updated since the last sync.
     
 Each record in the assignments table is uniquely identified by a composite key that includes the **ProjectId**, **AssignmentId**, and **TimeByDay** fields. 
   
@@ -63,7 +59,7 @@ To run the sample, you'll need the following:
     
 - [Microsoft SQL Server Data Tools - Business Intelligence for Visual Studio 2012](http://www.microsoft.com/en-us/download/details.aspx?id=36843)
     
-    The SQL Server Data Tools installation includes the Visual Studio shell, which is sufficient for creating SQL business intelligence projects that contain embedded scripts. To create a separate EXE project that interacts with the SSIS API, you'll need a C# editor.
+   The SQL Server Data Tools installation includes the Visual Studio shell, which is sufficient for creating SQL business intelligence projects that contain embedded scripts. To create a separate EXE project that interacts with the SSIS API, you'll need a C# editor.
     
 - [SharePoint Server 2013 Client Components SDK](http://www.microsoft.com/en-us/download/details.aspx?id=35585)
     
@@ -85,19 +81,19 @@ To create your own package, you'll also need:
     
 4. In the **Add Copy of Existing Package** dialog box, choose **File system** for the package location. For the package path, locate the downloaded package (OData.AssignmentsTimephased.dtsx), and then choose **OK**.
     
-    This process creates a copy of the sample package file in the new project's folder.
+   This process creates a copy of the sample package file in the new project's folder.
     
 5. Open the shortcut menu for the **OData.AssignmentsTimephased** package and choose **View Designer**.
     
-    On the **Parameters** tab, enter input parameters as described in the following table. These parameters are used to connect to the **ProjectData** OData feed and configure storage for assignment data in SQL Server. 
+   On the **Parameters** tab, enter input parameters as described in the following table. These parameters are used to connect to the **ProjectData** OData feed and configure storage for assignment data in SQL Server. 
     
-|**Name**|**Description**|
-|:-----|:-----|
-|AssignmentsStorage_InitialCatalog  <br/> |The name of the local database to store assignments data retrieved from the OData feed. The default value is **ODATA**.  <br/> |
-|AssignmentsStorage_InitialTable  <br/> |The name of the local table to store assignments data retrieved from the OData feed. The default value is **AssignmentsTimephased**.  <br/> |
-|OData_Password  <br/> |The password for the account to use to access the OData feed.  <br/> |
-|OData_Username  <br/> |The user name of the account to use to access the OData feed. For example:  `mboyer@contoso.onmicrosoft.com` <br/> |
-|OData_Url  <br/> |The endpoint URI of the **ProjectData** OData feed. For example:  `https://contoso.sharepoint.com/sites/pwa/_api/projectdata` <br/> |
+   |Name|Description|
+   |:-----|:-----|
+   |AssignmentsStorage_InitialCatalog  <br/> |The name of the local database to store assignments data retrieved from the OData feed. The default value is **ODATA**.  <br/> |
+   |AssignmentsStorage_InitialTable  <br/> |The name of the local table to store assignments data retrieved from the OData feed. The default value is **AssignmentsTimephased**.  <br/> |
+   |OData_Password  <br/> |The password for the account to use to access the OData feed.  <br/> |
+   |OData_Username  <br/> |The user name of the account to use to access the OData feed. For example:  `mboyer@contoso.onmicrosoft.com` <br/> |
+   |OData_Url  <br/> |The endpoint URI of the **ProjectData** OData feed. For example:  `https://contoso.sharepoint.com/sites/pwa/_api/projectdata` <br/> |
    
 6. Test the sample. In Solution Explorer, in the **SSIS Packages** folder, open the shortcut menu for the **OData.AssignmentsTimephased** package, and then choose **Execute Package**.
     
@@ -133,8 +129,6 @@ The following flow runs during each sync. It creates and configures storage for 
 ### Full sync flow: Get assignment timephased data for all projects
 
 The following flow runs during a full sync.
-  
-- [Record assignment timephased data for all projects](project-online-ssis-package-for-odata-delta-sync.md#FullRecordAllData)
     
 #### Record assignment timephased data for all projects
 <a name="FullRecordAllData"> </a>
@@ -155,11 +149,10 @@ The following components make up the **Add All Records** data flow.
    
 ### Delta sync flow: Get assignment timephased data for changed projects only
 
-The following flows run during a delta sync.
+The following flows run during a delta sync:
   
-- [Prepare the projects loop and delete obsolete records](project-online-ssis-package-for-odata-delta-sync.md#DeltaPrepLoop)
-    
-- [Foreach loop: Skip the current project, or delete obsolete records and add updated records](project-online-ssis-package-for-odata-delta-sync.md#DeltaForEach)
+- Prepare the projects loop and delete obsolete records.
+- For each loop: Skip the current project, or delete obsolete records and add updated records.
     
 #### Prepare the projects loop and delete obsolete records
 <a name="DeltaPrepLoop"> </a>
@@ -171,11 +164,9 @@ The following flows run during a delta sync.
 |![Delete obsolete records and prepare projects loop](media/PJ15_SSISOData_PrepProjectsFlow5.png)|**Set Local URL** gets all project UIDs from the assignments table and saves the result in a local variable. Later in the flow, the IDs are matched to the projects in the OData feed to determine whether a project is obsolete and its assignment records can be deleted.  <br/> |
 |**Get Projects** saves project information and deletes assignment records. **Get Projects** has two branches (shown below).  <br/> |
    
-#### The Get Projects data flow with its two branches
+##### The Get Projects data flow with its two branches
 
 One branch of the **Get Projects** data flow saves the projects into a recordset to use in the loop. The other branch deletes obsolete assignment records from storage. 
-  
-****
 
 |||
 |:-----|:-----|
@@ -187,11 +178,11 @@ One branch of the **Get Projects** data flow saves the projects into a recordset
    
 > [!NOTE]
 > The **TaskModifiedDate** on the Task entity can't be used for the sync because all tasks are updated when a project is published. 
-  
-#### Foreach loop: Skip the current project, or delete obsolete records and add updated records
-<a name="DeltaForEach"> </a>
 
-****
+<br/>
+
+#### For each loop: Skip the current project, or delete obsolete records and add updated records
+<a name="DeltaForEach"> </a>
 
 |||
 |:-----|:-----|
@@ -223,9 +214,7 @@ The following test results are from a tenant that has 37 projects and 40,000 row
 ## See also
 
 - [Project Online: SSIS package for OData delta sync](http://www.microsoft.com/en-us/download/details.aspx?id=43736) download 
-    
 - [ProjectData - Project OData service reference](projectdataproject-odata-service-reference.md)
-    
 - [Best practices for querying OData feeds for Project reporting data](best-practices-for-querying-odata-feeds-for-project-reporting-data.md)
     
 

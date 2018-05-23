@@ -1,7 +1,5 @@
 ---
 title: "IPersistMessageSaveCompleted"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -18,8 +16,6 @@ description: "Last modified: March 09, 2015"
 
 # IPersistMessage::SaveCompleted
 
-  
-  
 **Applies to**: Outlook 
   
 Notifies the form that a save operation has been completed. 
@@ -32,7 +28,7 @@ HRESULT SaveCompleted(
 
 ## Parameters
 
- _pMessage_
+_pMessage_
   
 > [in] A pointer to the newly saved message.
     
@@ -50,11 +46,11 @@ E_UNEXPECTED
   
 > The form is not in one of the following states:
     
-    - HandsOffFromNormal
+   - HandsOffFromNormal
     
-    - HandsOffAfterSave
+   - HandsOffAfterSave
     
-    - [NoScribble](noscribble-state.md)
+   - [NoScribble](noscribble-state.md)
     
 ## Remarks
 

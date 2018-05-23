@@ -84,7 +84,7 @@ CCSF_USE_TNEF
   
 > The converter should use Transport Neutral Encapsulation Format (TNEF) format in the MIME message.
     
-## Return Values
+## Return values
 
 E_INVALIDARG
   
@@ -94,7 +94,7 @@ E_INVALIDARG
 
 Supported only for standard Outlook message types.
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

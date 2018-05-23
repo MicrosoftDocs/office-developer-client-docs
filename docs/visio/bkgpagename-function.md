@@ -20,7 +20,7 @@ Returns a background page name as a string.
   
 ## Syntax
 
-BKGPAGENAME ( ** *langID_opt* ** ) 
+BKGPAGENAME (** *langID_opt* ** ) 
   
 ### Parameters
 

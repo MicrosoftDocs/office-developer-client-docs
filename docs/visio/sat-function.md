@@ -20,7 +20,7 @@ Returns the value of a color's saturation component.
   
 ## Syntax
 
-SAT( ** *expression* ** ) 
+SAT(** *expression* ** ) 
   
 ### Parameters
 

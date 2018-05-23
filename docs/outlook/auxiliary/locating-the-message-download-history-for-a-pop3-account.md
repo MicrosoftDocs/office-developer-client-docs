@@ -38,10 +38,10 @@ The message download history for an Inbox is stored in a binary MAPI property, *
 |[MAPI Hidden Folders](http://msdn.microsoft.com/library/8b3b9c80-f7f4-4f37-bd6b-323469d020f1%28Office.15%29.aspx) <br/> |MAPI allows mail clients to store information in hidden folders and hidden messages. Hidden folders are in the associated part of MAPI folders and typically contain information that is not visible to and not to be manipulated by users. Clients decide the format and contents to store in hidden messages in hidden folders.  <br/> |
 |[MAPI Messages](http://msdn.microsoft.com/library/417c113f-bd98-4515-85d1-09db7fc3a227%28Office.15%29.aspx) <br/> |MAPI stores messages in folders, either in the standard IPM subtree that is visible to users of a client, or outside of the subtree and invisible to users. Messages can have additional data stored in an attachment, which can be in the form of a file, another message, or an OLE object. In the case of the message download history, the history is stored in a property of a message that is attached to another hidden message.  <br/> |
 |[Message Properties Overview](http://msdn.microsoft.com/library/447f54de-9f0d-4f73-89b6-bed9cfea9c15%28Office.15%29.aspx) <br/> |When a client stores information in a message, it actually stores the information in a property of the message. MAPI supports many properties—some always exist and can be set by clients, others are optional—and clients cannot expect them to be available or set to valid values. The message download history is stored in the **PidTagAttachDataBinary** property of an attachment to a hidden message.  <br/> |
-|[MAPI Profiles](http://msdn.microsoft.com/library/493c87a4-317d-47ec-850b-342cac59594b%28Office.15%29.aspx) <br/> |At logon time in a session, the mail client selects a profile that describes the providers and services to be used. A profile is divided into sections that contain properties. In particular, the [PidTagSearchKey](http://msdn.microsoft.com/library/fcab369a-a1f4-4425-a272-e35046914a4d%28Office.15%29.aspx) ( **PR_SEARCH_KEY**) and [PidTagProfileName](http://msdn.microsoft.com/library/13ca726d-ae7a-4da9-9c8e-3db3c479f839%28Office.15%29.aspx) ( **PR_PROFILE_NAME**) properties always exist. A profile's search key is unique among all profiles, and is stored in the profile section that is identified by **MUID_PROFILE_INSTANCE** (which is defined in MAPIGUID.H). Use [IMAPISession::OpenProfileSection](http://msdn.microsoft.com/library/e2757028-27e7-4fc0-9674-e8e30737ef1d%28Office.15%29.aspx) to open the section, and use [IMAPIProp::GetProps](http://msdn.microsoft.com/library/1c7a9cd2-d765-4218-9aee-52df1a2aae6c%28Office.15%29.aspx) to get the property values.  <br/> |
+|[MAPI Profiles](http://msdn.microsoft.com/library/493c87a4-317d-47ec-850b-342cac59594b%28Office.15%29.aspx) <br/> |At logon time in a session, the mail client selects a profile that describes the providers and services to be used. A profile is divided into sections that contain properties. In particular, the [PidTagSearchKey](http://msdn.microsoft.com/library/fcab369a-a1f4-4425-a272-e35046914a4d%28Office.15%29.aspx) (**PR_SEARCH_KEY**) and [PidTagProfileName](http://msdn.microsoft.com/library/13ca726d-ae7a-4da9-9c8e-3db3c479f839%28Office.15%29.aspx) (**PR_PROFILE_NAME**) properties always exist. A profile's search key is unique among all profiles, and is stored in the profile section that is identified by **MUID_PROFILE_INSTANCE** (which is defined in MAPIGUID.H). Use [IMAPISession::OpenProfileSection](http://msdn.microsoft.com/library/e2757028-27e7-4fc0-9674-e8e30737ef1d%28Office.15%29.aspx) to open the section, and use [IMAPIProp::GetProps](http://msdn.microsoft.com/library/1c7a9cd2-d765-4218-9aee-52df1a2aae6c%28Office.15%29.aspx) to get the property values.  <br/> |
 |[Contents Tables](http://msdn.microsoft.com/library/7b8efb4e-b5be-41b8-81bb-9aa1da421433%28Office.15%29.aspx) <br/> |Message store providers implement contents tables for their folders. For hidden messages in the associated part of a folder, message store providers support associated contents tables, and clients can use the [IMAPIContainer::GetContentsTable](http://msdn.microsoft.com/library/88c7a666-875d-473a-b126-dbbb7009f7d9%28Office.15%29.aspx) method to return a pointer to the associated contents table.  <br/> |
 |[About Restrictions](http://msdn.microsoft.com/library/e119fa20-08b8-4c8d-93fc-56037220890d%28Office.15%29.aspx) <br/> [Types of Restrictions](http://msdn.microsoft.com/library/0d3bd58b-7100-4117-91ac-27139715c85b%28Office.15%29.aspx) <br/> [Building a Restriction](http://msdn.microsoft.com/library/12abbd8c-f825-493e-af42-344371d9658e%28Office.15%29.aspx) <br/> [Sample Restriction Code](http://msdn.microsoft.com/library/9b82097c-dbd6-4ba0-a6cb-292301f9402b%28Office.15%29.aspx) <br/> |In MAPI, clients can use restrictions to filter contents tables, to search for rows that represent messages that have a certain property set to a specific value. Restrictions are defined by using the [SRestriction](http://msdn.microsoft.com/library/c12b4409-da6f-480b-87af-1e5baea2e8bd%28Office.15%29.aspx) data structure, which can contain a union of more specialized restriction structures. The [IMAPITable::FindRow](http://msdn.microsoft.com/library/6511368c-9777-497e-9eea-cf390c04b92e%28Office.15%29.aspx) method applies a restriction and retrieves the first row in a table that matches the restriction criteria.  <br/> |
-|[About Registering Stores for Indexing](http://msdn.microsoft.com/library/dd2aa06a-96e8-1291-18b5-fc3c40b74e4d%28Office.15%29.aspx) <br/> |Use the [PidTagStoreProvider](http://msdn.microsoft.com/library/6f6cc66f-a08e-4f8e-b33a-d3674319248e%28Office.15%29.aspx) ( **PR_MDB_PROVIDER**) property to verify the type of store provider. For example, to verify whether a store is an Exchange store, the **PidTagStoreProvider** property should return a value represented by the constant **pbExchangeProviderPrimaryUserGuid**, which is defined in the public header file edkmdb.h.  <br/> |
+|[About Registering Stores for Indexing](http://msdn.microsoft.com/library/dd2aa06a-96e8-1291-18b5-fc3c40b74e4d%28Office.15%29.aspx) <br/> |Use the [PidTagStoreProvider](http://msdn.microsoft.com/library/6f6cc66f-a08e-4f8e-b33a-d3674319248e%28Office.15%29.aspx) (**PR_MDB_PROVIDER**) property to verify the type of store provider. For example, to verify whether a store is an Exchange store, the **PidTagStoreProvider** property should return a value represented by the constant **pbExchangeProviderPrimaryUserGuid**, which is defined in the public header file edkmdb.h.  <br/> |
    
 ### Locating the appropriate hidden message and attachment
 
@@ -56,11 +56,11 @@ Now that we know the message download history for an Inbox is in the **PidTagAtt
 ## Find the appropriate hidden message
 <a name="OL15Con_AuxRef_LocatingMsgsUIDLHistory_FindHiddenMsg"> </a>
 
-1. Get the [PidTagSearchKey](http://msdn.microsoft.com/library/fcab369a-a1f4-4425-a272-e35046914a4d%28Office.15%29.aspx) ( **PR_SEARCH_KEY**) property from the profile, in the profile section specified by **MUID_PROFILE_INSTANCE**.
+1. Get the [PidTagSearchKey](http://msdn.microsoft.com/library/fcab369a-a1f4-4425-a272-e35046914a4d%28Office.15%29.aspx) (**PR_SEARCH_KEY**) property from the profile, in the profile section specified by **MUID_PROFILE_INSTANCE**.
     
 2. Open the Associated Contents for the Inbox folder by calling **IMAPIContainer::GetContentsTable**.
     
-3. Create a restriction based on the [PidTagConversationKey](http://msdn.microsoft.com/library/52c97d6c-7f4b-4522-aeac-0c1ed8475952%28Office.15%29.aspx) ( **PR_CONVERSATION_KEY**), **PidTagSearchKey** ( **PR_SEARCH_KEY**), and [PidTagMessageClass](http://msdn.microsoft.com/library/1e704023-1992-4b43-857e-0a7da7bc8e87%28Office.15%29.aspx) ( **PR_MESSAGE_CLASS**) properties to get a table that contains all the hidden messages in the Associated Contents of the Inbox. The following is an example of a restriction extracted from [Locating the POP3 UIDL History](http://blogs.msdn.com/b/stephen_griffin/archive/2012/12/03/locating-the-pop3-uidl-history.aspx).
+3. Create a restriction based on the [PidTagConversationKey](http://msdn.microsoft.com/library/52c97d6c-7f4b-4522-aeac-0c1ed8475952%28Office.15%29.aspx) (**PR_CONVERSATION_KEY**), **PidTagSearchKey** (**PR_SEARCH_KEY**), and [PidTagMessageClass](http://msdn.microsoft.com/library/1e704023-1992-4b43-857e-0a7da7bc8e87%28Office.15%29.aspx) (**PR_MESSAGE_CLASS**) properties to get a table that contains all the hidden messages in the Associated Contents of the Inbox. The following is an example of a restriction extracted from [Locating the POP3 UIDL History](http://blogs.msdn.com/b/stephen_griffin/archive/2012/12/03/locating-the-pop3-uidl-history.aspx).
     
   ```
   SRestriction rgRes[3]; 
@@ -84,7 +84,7 @@ Now that we know the message download history for an Inbox is in the **PidTagAtt
 
 4. From the table, find the hidden message by using **IMAPITable::FindRow**.
     
-5. If step 4 fails to find a hidden message, change the restriction to use **PidTagSearchKey** ( **PR_SEARCH_KEY**) instead of **PidTagConversationKey**, as shown below:
+5. If step 4 fails to find a hidden message, change the restriction to use **PidTagSearchKey** (**PR_SEARCH_KEY**) instead of **PidTagConversationKey**, as shown below:
     
   ```
   rgRes[1].res.resProperty.ulPropTag = rgProps[0].ulPropTag = PR_SEARCH_KEY;
@@ -92,7 +92,7 @@ Now that we know the message download history for an Inbox is in the **PidTagAtt
 
 6. Find the hidden message using **IMAPITable::FindRow**. 
     
-7. If Step 6 fails, change the restriction to use [PidTagSubject](http://msdn.microsoft.com/library/aa7ba4d9-c5e0-4ce7-a34e-65f675223bc9%28Office.15%29.aspx) ( **PR_SUBJECT**) being equal to the following value (shown below using  `printf` style substitution for brevity). 
+7. If Step 6 fails, change the restriction to use [PidTagSubject](http://msdn.microsoft.com/library/aa7ba4d9-c5e0-4ce7-a34e-65f675223bc9%28Office.15%29.aspx) (**PR_SUBJECT**) being equal to the following value (shown below using  `printf` style substitution for brevity). 
     
   ```
   "Outlook Message Manager (%s) (KEY: %s)", PR_PROFILE_NAME, HexFromBin(PR_SEARCH_KEY)
@@ -100,7 +100,7 @@ Now that we know the message download history for an Inbox is in the **PidTagAtt
 
 8. Find the hidden message by using **IMAPITable::FindRow**.
     
-9. If you are running Outlook 2010 or a later version, use the following values for **PidTagProfileName** ( **PR_PROFILE_NAME**) and **PidTagSearchKey** ( **PR_SEARCH_KEY**), respectively.
+9. If you are running Outlook 2010 or a later version, use the following values for **PidTagProfileName** (**PR_PROFILE_NAME**) and **PidTagSearchKey** (**PR_SEARCH_KEY**), respectively.
     
   ```
   CHAR g_szGeneralKey[] = "General Key"; 
@@ -122,17 +122,17 @@ Because the hidden message may have more than one attachment, look for the appro
   
 ### Find the appropriate attachment
 
-1. Look for an attachment whose [PidTagAttachLongFilename](http://msdn.microsoft.com/library/83b69e8f-0b5a-4992-b5b8-160d3bdfa22a%28Office.15%29.aspx) ( **PR_ATTACH_LONG_FILENAME**) matches the following string, where  `szEmailAddress` is the user's SMTP address, as specified in the user's profile. . 
+1. Look for an attachment whose [PidTagAttachLongFilename](http://msdn.microsoft.com/library/83b69e8f-0b5a-4992-b5b8-160d3bdfa22a%28Office.15%29.aspx) (**PR_ATTACH_LONG_FILENAME**) matches the following string, where  `szEmailAddress` is the user's SMTP address, as specified in the user's profile. . 
     
   ```
   "BlobPOP%s", szEmailAddress
   ```
 
-2. Look for an attachment whose [PidTagAttachFilename](http://msdn.microsoft.com/library/cbf34dd6-7733-47f6-9c41-9d82656ca9dc%28Office.15%29.aspx) ( **PR_ATTACH_FILENAME**) matches "BlobPOP%s",  `szEmailAddress`.
+2. Look for an attachment whose [PidTagAttachFilename](http://msdn.microsoft.com/library/cbf34dd6-7733-47f6-9c41-9d82656ca9dc%28Office.15%29.aspx) (**PR_ATTACH_FILENAME**) matches "BlobPOP%s",  `szEmailAddress`.
     
-3. Look for an attachment whose [PidTagDisplayName](http://msdn.microsoft.com/library/bd094e00-5c60-4bb3-9a45-b943fab52876%28Office.15%29.aspx) ( **PR_DISPLAY_NAME**) matches "BlobPOP%s",  `szEmailAddress`.
+3. Look for an attachment whose [PidTagDisplayName](http://msdn.microsoft.com/library/bd094e00-5c60-4bb3-9a45-b943fab52876%28Office.15%29.aspx) (**PR_DISPLAY_NAME**) matches "BlobPOP%s",  `szEmailAddress`.
     
-4. Look for an attachment whose **PidTagAttachFilename** ( **PR_ATTACH_FILENAME**) matches "Blob%.8x",  `dwAcctUID`, where  `dwAcctUID` comes from [PROP_ACCT_MINI_UID](prop_acct_mini_uid.md). You can use the [IOlkAccount::GetProp](iolkaccount-getprop.md) method to access the **PROP_ACCT_MINI_UID** property. 
+4. Look for an attachment whose **PidTagAttachFilename** (**PR_ATTACH_FILENAME**) matches "Blob%.8x",  `dwAcctUID`, where  `dwAcctUID` comes from [PROP_ACCT_MINI_UID](prop_acct_mini_uid.md). You can use the [IOlkAccount::GetProp](iolkaccount-getprop.md) method to access the **PROP_ACCT_MINI_UID** property. 
     
 ## Access the PidTagAttachDataBinary property of the message attachment
 <a name="OL15Con_AuxRef_LocatingMsgsUIDLHistory_AccessProp"> </a>

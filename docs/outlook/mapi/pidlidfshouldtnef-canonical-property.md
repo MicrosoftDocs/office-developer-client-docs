@@ -34,7 +34,7 @@ Indicates whether to encode an item with Transport Neutral Encapsulation Format 
    
 ## Remarks
 
-This property is set when Microsoft Word is set as the e-mail editor, and it sends an OLE object that is embedded in a Rich Text Format (RTF) stream.
+This property is set when Microsoft Word is set as the email editor, and it sends an OLE object that is embedded in a Rich Text Format (RTF) stream.
   
 ## Related resources
 

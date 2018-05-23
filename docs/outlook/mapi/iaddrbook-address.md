@@ -76,7 +76,7 @@ The **ADRLIST** structure that the caller passes in might be a different size fr
   
  **Address** supports Unicode character strings in the **ADRPARM** structure if AB_UNICODEUI was specified in the **ulFlags** member of **ADRPARM** in the  _lpAdrParms_ parameter, and it supports Unicode character strings in **ADRLIST**. The Unicode strings are converted to the multibyte character string (MBCS) format before they are displayed in the Outlook address book dialog box.
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

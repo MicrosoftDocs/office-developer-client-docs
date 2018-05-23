@@ -20,7 +20,7 @@ Calls a macro in a Microsoft Visual Basic for Applications (VBA) project.
   
 ## Syntax
 
-RUNMACRO ( ** *macroname* ** [, ** *projname_opt* ** ]) 
+RUNMACRO (** *macroname* ** [, ** *projname_opt* ** ]) 
   
 ### Parameters
 

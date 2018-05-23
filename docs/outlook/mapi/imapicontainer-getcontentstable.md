@@ -137,7 +137,7 @@ String and binary contents table columns can be truncated. Typically, providers 
   
 Depending on the provider's implementation, restrictions and sorting operations can apply to all of a string or to the truncated version of that string.
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

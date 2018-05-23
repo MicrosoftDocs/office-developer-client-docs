@@ -20,7 +20,7 @@ Returns the  _x_-coordinate of a point.
   
 ## Syntax
 
-PNTX( ** *point* ** ) 
+PNTX(** *point* ** ) 
   
 ### Parameters
 

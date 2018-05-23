@@ -30,7 +30,7 @@ short WINAPI QuitFramework(void);
 
 This function takes no arguments.
   
-## Property Value/Return Value
+## Property value/Return value
 
 This function does not return a value.
   

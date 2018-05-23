@@ -21,7 +21,7 @@ Returns the number of characters of the specified string expression, excluding t
   
 ## Syntax
 
- **Len** (  *TextExpression*  ) 
+ **Len** (*TextExpression*) 
   
 The **Len** function contains the following argument. 
   

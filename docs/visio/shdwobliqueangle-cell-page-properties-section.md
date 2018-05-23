@@ -22,7 +22,7 @@ Contains a number specifying the angle of oblique direction when applying the de
 
 A value of zero (0) in this cell indicates that the angle direction is straight up and is measured moving clockwise.
   
- The angle described in this cell is used whenever the ShapeShdwType Cell (the shadow type for a shape on the page) is set to Page Default ( **visFSTPageDefault** ), and the shadow type is oblique. The default page shadow type is defined in the ShdwType cell. 
+ The angle described in this cell is used whenever the ShapeShdwType Cell (the shadow type for a shape on the page) is set to Page Default (**visFSTPageDefault** ), and the shadow type is oblique. The default page shadow type is defined in the ShdwType cell. 
   
 To set this behavior for an individual shape, use the ShapeShdwObliqueAngle cell in the Fill Format section.
   

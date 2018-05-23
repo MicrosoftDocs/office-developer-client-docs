@@ -1,18 +1,14 @@
 ---
-title: "DateAdd Function (Access custom web app)"
-  
-  
+title: "DateAdd function (Access custom web app)" 
 manager: kelbow
 ms.date: 9/5/2017
 ms.audience: Developer
- 
-  
 localization_priority: Normal
 ms.assetid: 7174c585-86e1-42a3-bb7f-d6641001b0f2
 description: "Returns a specified date with the specified number interval (positive or negative integer) added to a specified date part of that date."
 ---
 
-# DateAdd Function (Access custom web app)
+# DateAdd function (Access custom web app)
 
 Returns a specified date with the specified number interval (positive or negative integer) added to a specified date part of that date.
   
@@ -21,7 +17,7 @@ Returns a specified date with the specified number interval (positive or negativ
   
 ## Syntax
 
- **DateAdd** (  *DatePart*  ,  *Number*  ,  *Date*  ) 
+**DateAdd** (*DatePart*, *Number*, *Date*) 
   
 The **DateAdd** function contains the following arguments. 
   
@@ -52,14 +48,10 @@ The following table lists all valid  *DatePart*  arguments.
 
 The following expression calculates the last day of the current month.
   
-```
-DateAdd(Day,-1,DateAdd(Month,DateDiff(Month,0,Today())+1,0))
-```
+`DateAdd(Day,-1,DateAdd(Month,DateDiff(Month,0,Today())+1,0))`
 
 The following expression calculates the last day of the previous month.
   
-```
-DateAdd(Day,-1,DateAdd(Month,DateDiff(Month,0,Today()),0))
-```
+`DateAdd(Day,-1,DateAdd(Month,DateDiff(Month,0,Today()),0))`
 
 

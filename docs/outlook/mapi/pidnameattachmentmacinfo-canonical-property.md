@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Contains an [RFC3282] attachment value that is comprised of appropriate header and resource fork data used by Macintosh-based e-mail clients.
+Contains an [RFC3282] attachment value that is comprised of appropriate header and resource fork data used by Macintosh-based email clients.
   
 |||
 |:-----|:-----|
@@ -46,7 +46,7 @@ For more information, see MS-OXCMAIL section 2.2.4.2 Apple File Formats.
     
 [[MS-OXCMAIL]](http://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Converts from Internet standard e-mail conventions to message objects.
+> Converts from Internet standard email conventions to message objects.
     
 ### Header files
 

@@ -20,7 +20,7 @@ Indicates whether the referenced cell contains a formula.
   
 ## Syntax
 
-FORMULAEXISTS ( ** *cellref* ** ) 
+FORMULAEXISTS (** *cellref* ** ) 
   
 ### Parameters
 

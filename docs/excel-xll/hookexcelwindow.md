@@ -28,11 +28,11 @@ extern void FAR PASCAL HookExcelWindow(HANDLE hWndExcel);
 
 ## Parameters
 
- _hWndExcel_ ( **HANDLE**)
+ _hWndExcel_ (**HANDLE**)
   
 The Excel main Windows handle.
   
-## Property Value/Return Value
+## Property value/Return value
 
 The function does not return a value.
   

@@ -21,7 +21,7 @@ Returns whether an INSERT or UPDATE operation was attempted on the specified fie
   
 ## Syntax
 
- **Update** (  *Column*  ) 
+ **Update** (*Column*) 
   
 The **Update** function contains the following arguments. 
   

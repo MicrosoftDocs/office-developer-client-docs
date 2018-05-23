@@ -1,7 +1,5 @@
 ---
 title: "FPropCompareProp"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -18,8 +16,6 @@ description: "Last modified: March 09, 2015"
 
 # FPropCompareProp
 
-  
-  
 **Applies to**: Outlook 
   
 Compares two property values using a specified relational operator. 
@@ -40,15 +36,15 @@ BOOL FPropCompareProp(
 
 ## Parameters
 
- _lpSPropValue1_
+_lpSPropValue1_
   
 > [in] Pointer to an [SPropValue](spropvalue.md) structure defining the first property value for comparison. 
     
- _ulRelOp_
+_ulRelOp_
   
 > [in] The relational operator to use in the comparison. For allowable values, see the [SComparePropsRestriction](scomparepropsrestriction.md) structure. 
     
- _lpSPropValue2_
+_lpSPropValue2_
   
 > [in] Pointer to an **SPropValue** structure defining the second property value for comparison. 
     

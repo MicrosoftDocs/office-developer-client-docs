@@ -22,7 +22,7 @@ Determines the color used for the foreground (stroke) of the shape's fill patter
 
 To set the color, enter a number from 0 to 23.
   
-To enter a custom color, use the RGB or HSL function. The value of a custom color is its RGB color, and RGB( *r, g, b*  ), rather than a number, will be shown in the ShapeSheet window. When used in numeric operations, custom colors have values of 24 and above. 
+To enter a custom color, use the RGB or HSL function. The value of a custom color is its RGB color, and RGB( *r, g, b*), rather than a number, will be shown in the ShapeSheet window. When used in numeric operations, custom colors have values of 24 and above. 
   
 You can set the transparency of the foreground fill in the FillForegndTrans cell.
   

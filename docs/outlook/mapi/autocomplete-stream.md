@@ -202,12 +202,12 @@ As mentioned previously in this topic, the binary blocks that represent properti
 |PR_NICK_NAME_W (not transmitted on recipients, specific to autocomplete stream only)  <br/> |0x6001001f  <br/> |This property must be first in each recipient row. It functionally serves as a key identifier for the recipient row.  <br/> |
 |PR_ENTRYID  <br/> |0x0FFF0102  <br/> |The address book entry identifier for the recipient.  <br/> |
 |PR_DISPLAY_NAME_W  <br/> |0x3001001F  <br/> |The recipient's display name.  <br/> |
-|PR_EMAIL_ADDRESS_W  <br/> |0x3003001F  <br/> |The recipient's e-mail address (e.g. johndoe@contoso.com or /o=Contoso/OU=Foo/cn=Recipients/cn=johndoe)  <br/> |
+|PR_EMAIL_ADDRESS_W  <br/> |0x3003001F  <br/> |The recipient's email address (e.g. johndoe@contoso.com or /o=Contoso/OU=Foo/cn=Recipients/cn=johndoe)  <br/> |
 |PR_ADDRTYPE_W  <br/> |0x3002001F  <br/> |The recipient's address type (e.g. SMTP or EX).  <br/> |
 |PR_SEARCH_KEY  <br/> |0x300B0102  <br/> |The recipient's MAPI search key.  <br/> |
 |PR_SMTP_ADDRESS_W  <br/> |0x39FE001f  <br/> |The recipient's SMTP address.  <br/> |
 |PR_DROPDOWN_DISPLAY_NAME_W (not transmitted on recipients, specific to autocomplete stream only)  <br/> |0X6003001f  <br/> |The display string that appears in the autocomplete list.  <br/> |
-|PR_NICK_NAME_WEIGHT (not transmitted on recipients, specific to autocomplete stream only)  <br/> |0x60040003  <br/> |The weight of this autocomplete entry. The weight is used to determine in what order autocomplete entries occur when matching the autocomplete list. Entries with higher weight will show before entries with lower weight. The complete autocomplete list is sorted by this property. The weight periodically decreases over time and increases when the user sends an e-mail to this recipient. See the description later in this topic for more information about this property.  <br/> |
+|PR_NICK_NAME_WEIGHT (not transmitted on recipients, specific to autocomplete stream only)  <br/> |0x60040003  <br/> |The weight of this autocomplete entry. The weight is used to determine in what order autocomplete entries occur when matching the autocomplete list. Entries with higher weight will show before entries with lower weight. The complete autocomplete list is sorted by this property. The weight periodically decreases over time and increases when the user sends an email to this recipient. See the description later in this topic for more information about this property.  <br/> |
    
 PR_NICK_NAME_WEIGHT
   

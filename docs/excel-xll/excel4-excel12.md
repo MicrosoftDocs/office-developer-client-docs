@@ -36,25 +36,25 @@ int Excel12(int iFunction, LPXLOPER12 pxRes, int iCount, LPXLOPER12 argument1, .
 
 ## Parameters
 
- _iFunction_ ( **int**)
+ _iFunction_ (**int**)
   
 A number that indicates the command, function, or special function you want to call. For a list of valid  _iFunction_ values, see the following Remarks section. 
   
- _pxRes_ ( **LPXLOPER** or **LPXLOPER12**)
+ _pxRes_ (**LPXLOPER** or **LPXLOPER12**)
   
 A pointer to an **XLOPER** (with **Excel4**) or an **XLOPER12** (with **Excel12**) that will hold the result of the evaluated function.
   
- _iCount_ ( **int**)
+ _iCount_ (**int**)
   
 The number of subsequent arguments that will be passed to the function. In versions of Excel up to 2003, this can be any number from 0 through 30. Starting in Excel 2007, this can be any number from 0 through 255.
   
- _argument1, ..._ ( **LPXLOPER** or **LPXLOPER12**)
+ _argument1, ..._ (**LPXLOPER** or **LPXLOPER12**)
   
 The optional arguments to the function. All arguments must be pointers to **XLOPER** or **XLOPER12** values. 
   
 ## Return value
 
-Returns one of the following integer ( **int**) values.
+Returns one of the following integer (**int**) values.
   
 |**Value**|**Return code**|**Description**|
 |:-----|:-----|:-----|

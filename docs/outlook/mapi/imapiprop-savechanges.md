@@ -58,7 +58,7 @@ MAPI_DEFERRED_ERRORS
     
 SPAMFILTER_ONSAVE
   
-> Enables spam filtering on a message that is being saved. Spam filtering support is available only if the sender's e-mail address type is Simple Mail Transfer Protocol (SMTP), and the message is being saved to a store for a Personal Folders file (PST).
+> Enables spam filtering on a message that is being saved. Spam filtering support is available only if the sender's email address type is Simple Mail Transfer Protocol (SMTP), and the message is being saved to a store for a Personal Folders file (PST).
     
 ## Return value
 

@@ -20,7 +20,7 @@ Returns TRUE (1) if any of the logical expressions passed as parameters are TRUE
   
 ## Syntax
 
-OR( ** *logicalexpression1* **, ** *logicalexpression2* **,..., ** *logicalexpressionN* ** ) 
+OR(** *logicalexpression1* **, ** *logicalexpression2* **,..., ** *logicalexpressionN* ** ) 
   
 ### Parameters
 

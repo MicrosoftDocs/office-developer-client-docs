@@ -45,7 +45,7 @@ S_OK
 
 Converting a MAPI message to MIME stream generally does not require logging on to a MAPI profile. However, specifying a MAPI Address Book for conversion requires logging on to a profile to obtain the Address Book.
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

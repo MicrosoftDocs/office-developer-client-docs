@@ -21,7 +21,7 @@ Returns the minimum value in the expression in a query or table.
   
 ## Syntax
 
- **Min** (  *Expression*  ) 
+ **Min** (*Expression*) 
   
 The **Min** function contains the following argument. 
   

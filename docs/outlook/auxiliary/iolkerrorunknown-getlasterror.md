@@ -38,7 +38,7 @@ HRESULT IOlkErrorUnknown::GetLastError(
   
 > [out] The error message that corresponds to  *hr*  . 
     
-## Return Values
+## Return values
 
 |**HRESULT**|**Description**|
 |:-----|:-----|

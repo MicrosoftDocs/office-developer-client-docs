@@ -11,10 +11,6 @@ description: "Learn information to help you create projects in Visual Studio by 
 # Prerequisites for WCF-based code samples in Project
 
 Learn information to help you create projects in Visual Studio by using the WCF-based code samples that are included in the Project Server Interface (PSI) reference topics.
-  
-|||
-|:-----|:-----|
-|||
    
 Many of the WCF-based code samples included in the [Project Server 2013 class library and web service reference](http://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx) were originally created for the Project 2010 developer documentation, and use a standard format for WCF web services. The samples still work in Project Server 2013 and are designed to be copied into a console application and run as a complete unit. Exceptions are noted in the sample. 
   
@@ -338,15 +334,7 @@ If the solution is using a service proxy file, such as wcfResource.cs, compile t
 
 Authentication of on-premises Project Server users, whether by Windows authentication or Forms authentication, is done through claims processing in SharePoint. Multiple authentication means that the web application on which Project Web App is provisioned supports both Windows authentication and Forms-based authentication. If that is the case, any call to a WCF service that uses Windows authentication will fail with the following error, because the claims process cannot determine which type of user to authenticate:
   
-```
-The server was unable to process the request due to an internal error. 
-For more information about the error, either turn on Include ExceptionDetailInFaults 
-(either from ServiceBehaviorAttribute or from the <serviceDebug> configuration behavior) 
-on the server in order to send the exception information back to the client, 
-or turn on tracing as per the Microsoft .NET Framework 3.0 SDK documentation 
-and inspect the server trace logs.
-
-```
+`The server was unable to process the request due to an internal error. For more information about the error, either turn on Include ExceptionDetailInFaults (either from ServiceBehaviorAttribute or from the <serviceDebug> configuration behavior) on the server in order to send the exception information back to the client, or turn on tracing as per the Microsoft .NET Framework 3.0 SDK documentation and inspect the server trace logs.`
 
 To fix the problem for WCF, all calls to PSI methods should be within an **OperationContextScope** that is defined for each PSI service. Do not nest scopes for multiple services; for example, when using calls to the Resource and Project services, each set of calls should be within its own scope. 
   

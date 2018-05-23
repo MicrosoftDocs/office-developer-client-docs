@@ -106,7 +106,7 @@ Use a restriction to find a string prefix for scrolling as follows. For forward 
   
 For more information about using restriction structures to specify a filter, see [About Restrictions](about-restrictions.md).
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

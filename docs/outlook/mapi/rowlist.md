@@ -43,7 +43,7 @@ typedef struct
   
 > Array of **ROWENTRY** structures that contains the rows and the operations that are performed on those rows in the table. 
     
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

@@ -1,7 +1,5 @@
 ---
 title: "SRow"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -18,8 +16,6 @@ description: "Last modified: March 09, 2015"
 
 # SRow
 
-  
-  
 **Applies to**: Outlook 
   
 Describes a row from a table that contains selected properties for a specific object. 
@@ -40,15 +36,15 @@ typedef struct _SRow
 
 ## Members
 
- **ulAdrEntryPad**
+**ulAdrEntryPad**
   
 > Padding bytes to properly align the property values pointed to by the **lpProps** member. 
     
- **cValues**
+**cValues**
   
 > Count of property values pointed to by **lpProps**. 
     
- **lpProps**
+**lpProps**
   
 > Pointer to an array of [SPropValue](spropvalue.md) structures that describe the property values for the columns in the row. 
     
@@ -56,7 +52,7 @@ typedef struct _SRow
 
 An **SRow** structure describes a row in a table. It is included in the [TABLE_NOTIFICATION](table_notification.md) structure that accompanies a table notification. 
   
- **SRow** structures are used in the following methods: 
+**SRow** structures are used in the following methods: 
   
 - [IAddrBook::GetSearchPath](iaddrbook-getsearchpath.md)
     
@@ -78,28 +74,20 @@ When more than one row needs to be described, an [SRowSet](srowset.md) structure
   
 The following illustration shows the relationship between an **SRow** and an **SRowSet** data structure. 
   
- **Relationship between SRow and SRowSet**
+**Relationship between SRow and SRowSet**
   
 ![Relationship between SRow and SRowSet](media/amapi_17.gif)
   
- **SRow** structures are defined the same as [ADRENTRY](adrentry.md) structures. Therefore, a row of a recipient table and an entry in an address list can be treated the same. 
+**SRow** structures are defined the same as [ADRENTRY](adrentry.md) structures. Therefore, a row of a recipient table and an entry in an address list can be treated the same. 
   
 For information about how the memory for **SRow** structures should be allocated, see [Managing Memory for ADRLIST and SRowSet Structures](managing-memory-for-adrlist-and-srowset-structures.md).
   
 ## See also
 
-
-
-[ADRENTRY](adrentry.md)
-  
-[SPropValue](spropvalue.md)
-  
-[SRowSet](srowset.md)
-  
-[TABLE_NOTIFICATION](table_notification.md)
-
-
-[MAPI Structures](mapi-structures.md)
-  
-[Managing Memory for ADRLIST and SRowSet Structures](managing-memory-for-adrlist-and-srowset-structures.md)
+- [ADRENTRY](adrentry.md)
+- [SPropValue](spropvalue.md)
+- [SRowSet](srowset.md)
+- [TABLE_NOTIFICATION](table_notification.md)
+- [MAPI Structures](mapi-structures.md)
+- [Managing Memory for ADRLIST and SRowSet Structures](managing-memory-for-adrlist-and-srowset-structures.md)
 

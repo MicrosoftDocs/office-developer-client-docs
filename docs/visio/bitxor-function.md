@@ -20,7 +20,7 @@ Returns a 16-bit binary number in which each bit is set to 1 if the correspondin
   
 ## Syntax
 
-BITXOR( ** *binary number1* **, ** *binary number2* ** ) 
+BITXOR(** *binary number1* **, ** *binary number2* ** ) 
   
 ### Parameters
 

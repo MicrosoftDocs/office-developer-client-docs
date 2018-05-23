@@ -18,16 +18,12 @@ For more information about working with InfoPath form templates that contain bus
   
 Publish date of this reference: October 2012
   
-## Related Links
+## See also
 
-[InfoPath Developer Center](http://msdn.microsoft.com/en-us/office/aa905434.aspx)
-  
-[Microsoft Office Developer Center](http://msdn.microsoft.com/en-us/office/default.aspx)
-  
-[Document Conventions in Office Developer Documentation](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
-  
-[Microsoft Accessibility](http://www.microsoft.com/ENABLE/)
-  
-[Microsoft Online Privacy Notice](http://privacy.microsoft.com/en-us/default.mspx)
+- [InfoPath Developer Center](http://msdn.microsoft.com/en-us/office/aa905434.aspx)  
+- [Microsoft Office Developer Center](http://msdn.microsoft.com/en-us/office/default.aspx)
+- [Document Conventions in Office Developer Documentation](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
+- [Microsoft Accessibility](http://www.microsoft.com/ENABLE/)
+- [Microsoft Online Privacy Notice](http://privacy.microsoft.com/en-us/default.mspx)
   
 

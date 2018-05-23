@@ -77,7 +77,7 @@ HRESULT HrCreateNewWrappedObject(
   
 >  [out] A pointer to the requested object, wrapped in the requested character format. 
     
-## Return Values
+## Return values
 
 S_OK if the call succeeded; otherwise, an error code.
   

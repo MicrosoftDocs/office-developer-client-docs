@@ -1,7 +1,5 @@
 ---
 title: "xlSheetId"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,7 +8,6 @@ f1_keywords:
 - xlSheetId
 keywords:
 - xlsheetid function [excel 2007]
- 
 localization_priority: Normal
 ms.assetid: cb32059c-b899-49cf-8028-ff828998ab75
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
@@ -18,7 +15,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # xlSheetId
 
- **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
+**Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 Finds the sheet ID of a named sheet in order to construct external references.
   
@@ -28,7 +25,7 @@ Excel12(xlSheetId, LPXLOPER12 pxRes, 1, LPXLOPER12 pxSheetName);
 
 ## Parameters
 
- _pxSheetName_ ( **xltypeStr**)
+_pxSheetName_ (**xltypeStr**)
   
 (Optional). The name of the book and sheet you want to find out about. If omitted, the **xlSheetId** function returns the sheet ID of the active (front) sheet. 
   
@@ -62,10 +59,6 @@ short WINAPI xlSheetIdExample(void)
 
 ## See also
 
-
-
-[xlSheetNm](xlsheetnm.md)
-
-
-[C API Functions That Can Be Called Only from a DLL or XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [xlSheetNm](xlsheetnm.md)
+- [C API Functions That Can Be Called Only from a DLL or XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

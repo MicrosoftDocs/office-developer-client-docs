@@ -20,7 +20,7 @@ Creates a cell reference dependency.
   
 ## Syntax
 
-DEPENDSON( ** *cellref* ** [, ** *cellref2* **,...]) 
+DEPENDSON(** *cellref* ** [, ** *cellref2* **,...]) 
   
 ### Parameters
 

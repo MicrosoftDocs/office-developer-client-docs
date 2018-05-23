@@ -41,7 +41,7 @@ HRESULT OpenProfileSection(
     
  _lpInterface_
   
-> [in] A pointer to the interface identifier (IID) that represents the interface to be used to access the profile section. Passing NULL results in the profile section's standard interface ( **IProfSect**) being returned. 
+> [in] A pointer to the interface identifier (IID) that represents the interface to be used to access the profile section. Passing NULL results in the profile section's standard interface (**IProfSect**) being returned. 
     
  _ulFlags_
   
@@ -91,7 +91,7 @@ If you request that **OpenProfileSection** open a nonexistent profile section by
   
 If you request that **OpenProfileSection** open a nonexistent section with read-only permission, it returns MAPI_E_NOT_FOUND. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

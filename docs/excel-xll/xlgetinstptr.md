@@ -1,12 +1,9 @@
 ---
 title: "xlGetInstPtr"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: a166f39c-f10b-4e56-8b5d-e6a54ee08c8f
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
@@ -14,7 +11,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # xlGetInstPtr
 
- **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
+**Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 Returns the instance handle of the instance of Microsoft Excel that is currently calling a DLL.
   
@@ -26,9 +23,9 @@ Excel4(xlGetInstPtr, LPXLOPER pxRes, 0);Excel12(xlGetInstPtr, LPXLOPER12 pxRes, 
 
 This function has no arguments.
   
-## Property Value/Return Value
+## Property value/Return value
 
-The instance handle ( **xltypeBigData**) will be in the **val.bigdata.h.hdata** field. 
+The instance handle (**xltypeBigData**) will be in the **val.bigdata.h.hdata** field. 
   
 ## Remarks
 
@@ -42,7 +39,7 @@ This function works correctly when it is called by using both the [Excel4 and Ex
 
 The following example compares the instance of the last copy of Excel that called it to the current copy of Excel that called it. If they are the same, it returns 1; if not, it returns 0; if the function fails, it returns -1. This sample works with both 32-bit and 64-bit versions of Excel.
   
- `\SAMPLES\EXAMPLE\EXAMPLE.C`
+`\SAMPLES\EXAMPLE\EXAMPLE.C`
   
 ```cs
 short WINAPI xlGetInstPtrExample(void)
@@ -68,12 +65,7 @@ short WINAPI xlGetInstPtrExample(void)
 
 ## See also
 
-
-
-[xlGetHwnd](xlgethwnd.md)
-  
-[xlGetInst](xlgetinst.md)
-
-
-[C API Functions That Can Be Called Only from a DLL or XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [xlGetHwnd](xlgethwnd.md)
+- [xlGetInst](xlgetinst.md)
+- [C API Functions That Can Be Called Only from a DLL or XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

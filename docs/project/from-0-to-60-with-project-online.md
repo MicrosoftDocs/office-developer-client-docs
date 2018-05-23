@@ -1,12 +1,8 @@
 ---
 title: "From 0 to 60 with Project Online"
-
- 
 manager: soliver
 ms.date: 11/8/2016
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 5b48958e-6dab-4121-871f-fb15f58f1b24
 description: "An application developer can customize a Project Online site (SharePoint hosted) using standalone applications and/or Project add-ins. A wealth of applications is possible that range from addressing needs of those involved in a project to PMO support functions, such as any of the following:"
@@ -17,58 +13,40 @@ description: "An application developer can customize a Project Online site (Shar
 An application developer can customize a Project Online site (SharePoint hosted) using standalone applications and/or Project add-ins. A wealth of applications is possible that range from addressing needs of those involved in a project to PMO support functions, such as any of the following:
   
 - Streamlined timecard data entry for workers
-    
 - Efficient timecard approval for supervisors
-    
 - Oversight of permits (procurement and status) needed for a project
-    
 - Status/Health check of active projects
-    
 - Issues report
-    
 - Change Management Status report
     
 Project Online includes API support to accommodate the following scenarios:
   
-- For a Project (SharePoint) Hosted add-In:
+- For a Project (SharePoint) hosted add-in:
     
   - Code (JavaScript, HTML, CSS) that is hosted in SharePoint Online
-    
-  - Assets that are downloaded to the browser and executed against SharePoint Online.
-    
-  - Business logic that is in JavaScript 
-    
-  - Access data that is in/stored in Project Online or SharePoint such as (but is not limited to):
-    
-  - Custom fields
-    
+  - Assets that are downloaded to the browser and executed against SharePoint Online.  
+  - Business logic that is in JavaScript   
+  - Access data that is in/stored in Project Online or SharePoint such as (but is not limited to):  
+  - Custom fields  
   - Lists
     
-- For a Project (SharePoint) Provider Hosted add-In:
+- For a Project (SharePoint) provider-hosted add-in:
     
-  - Code that exists on a site external to the Project Online site
-    
-  - An external site, which can be (but is not limited to): 
-    
-  - Another SharePoint site
-    
-  - Web App/Service built on any platform
-    
-  - The external site contains business logic
-    
-  - The browser is redirected from Project Online to external site with access tokens to Project Online
-    
+  - Code that exists on a site external to the Project Online site 
+  - An external site, which can be (but is not limited to):  
+  - Another SharePoint site  
+  - Web App/Service built on any platform  
+  - The external site contains business logic  
+  - The browser is redirected from Project Online to external site with access tokens to Project Online  
   - The external site can make calls to SharePoint and Project Online
     
 - For an external/standalone add-in:
     
   - User executes an application on their device
-    
   - Application authenticates and calls Project Online APIs directly
     
-|
-|
-|**Type of application**|**API implementation**|**Target environment**|**Application examples**|
+
+|Type of application|API implementation|Target environment|Application examples|
 |:-----|:-----|:-----|:-----|
 |Project hosted  <br/> |JSOM (Java Script Object Model)  <br/> REST  <br/> |Browser  <br/> |Timecard entry  <br/> Timecard approval  <br/> Project Status  <br/> Issues Report  <br/> |
 |Project Provider Hosted  <br/> |CSOM client library  <br/> |Azure Website/App  <br/> Non-Windows environment (LAMP, etc.)  <br/> |External timesheet validator  <br/> Project Importer  <br/> |
@@ -98,7 +76,7 @@ You can download and run the sample in a few easy steps:
     
 2. Update the SiteURL in the Properties window
     
-    Project Online examines both the application scope of the add-in and the user permissions to govern access to information on the Project Online host. If access is explicitly denied in either or both settings, Project Online denies access to the information. Otherwise, access is granted.
+   Project Online examines both the application scope of the add-in and the user permissions to govern access to information on the Project Online host. If access is explicitly denied in either or both settings, Project Online denies access to the information. Otherwise, access is granted.
     
 3. Enable sideloading on your site. See the [Configuring Project Online for App Development ](http://nearbaseline.com/2013/12/configuring-project-online-for-app-development/.aspx)article for more information. 
     
@@ -106,7 +84,7 @@ You can download and run the sample in a few easy steps:
     
 5. Run the project.
     
-## Project provider-hosted application development environment
+## Project provider-hosted add-in development environment
 
 Provider hosted add-ins are applications written and residing on any web platform. They can connect and perform data operations using the REST (or CSOM for Microsoft platforms) API. Any language and environment that supports the REST interface can be used for development. 
   
@@ -130,7 +108,7 @@ You can run the sample in a few steps:
     
 2. Update the SiteURL in the Properties window
     
-    Project Online examines both the application scope of the add-in and the user permissions to govern access to information on the Project Online host. If access is explicitly denied in either or both settings, Project Online denies access to the information. Otherwise, access is granted.
+   Project Online examines both the application scope of the add-in and the user permissions to govern access to information on the Project Online host. If access is explicitly denied in either or both settings, Project Online denies access to the information. Otherwise, access is granted.
     
 3. Enable sideloading on your site. See the [Configuring Project Online for App Development ](http://nearbaseline.com/2013/12/configuring-project-online-for-app-development/.aspx)article for more information. 
     
@@ -144,7 +122,7 @@ A standalone application can call Project Online using the Client Side Object Mo
   
 An example of the Windows development environment for this type of application includes the following items:
   
--  Visual Studio 2015 (preferred) or Visual Studio 2013 
+- Visual Studio 2015 (preferred) or Visual Studio 2013 
     
 - Microsoft Office Development Tools for Visual Studio (supplied with Visual Studio 2015 Professional and Enterprise editions)
     
@@ -162,19 +140,17 @@ You can run the sample in a few steps:
     
 2. Make a couple of changes to access your Project Online site—the site name, user account, and password.
     
-    Ensure the user has access to all projects. Project Online uses user permissions to govern access to information in the data store.
+   Ensure the user has access to all projects. Project Online uses user permissions to govern access to information in the data store.
     
 3. Add the SharePoint assembly to the references using the Nuget Package Manager Console, available from the Tools menu by typing the following in the Nuget console: 
     
-  ```
-  Install-Package Microsoft.SharePointOnline.CSOM
-  ```
+   `Install-Package Microsoft.SharePointOnline.CSOM`
 
 4. Build the project.
     
 5. Run the project.
     
-## Next Steps
+## Next steps
 
 Each sample application has an article to explain the highlights of working with the individual Project API. The articles appear in the following list, along with a few articles that describe the entity relationships, information on the query system, and accessing Custom Fields. 
   
@@ -185,8 +161,7 @@ Each sample application has an article to explain the highlights of working with
 - [Accessing Project Online enterprise custom fields](accessing-project-online-enterprise-custom-fields.md)
     
 ## See also
-<a name="bk_addresources"> </a>
 
-- For documentation and samples related to Project Online and application development using CSOM, see the [Project Development Portal](http://dev.office.com/project.aspx).
+For documentation and samples related to Project Online and application development using CSOM, see the [Project Development Portal](http://dev.office.com/project.aspx).
     
 

@@ -20,7 +20,7 @@ Returns the page name as a string.
   
 ## Syntax
 
-PAGENAME ( ** *langID_opt* ** ) 
+PAGENAME (** *langID_opt* ** ) 
   
 ### Parameters
 

@@ -22,7 +22,7 @@ Version Added: Visio 2010
   
 ## Syntax
 
-HASCATEGORY( ** *category* ** ) 
+HASCATEGORY(** *category* ** ) 
   
 ### Parameters
 

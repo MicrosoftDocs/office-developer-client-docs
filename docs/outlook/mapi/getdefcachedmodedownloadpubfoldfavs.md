@@ -39,7 +39,7 @@ BOOL GetDefCachedModeDownloadPubFoldFavs(BOOL *pfPolicy);
   
 > [out] **true** if the return value is enforced by policy, **false** if it is not. 
     
-## Return Values
+## Return values
 
  **true**
   

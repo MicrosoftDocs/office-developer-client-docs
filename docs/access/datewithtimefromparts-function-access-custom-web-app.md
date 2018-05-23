@@ -1,18 +1,14 @@
 ---
-title: "DateWithTimeFromParts Function (Access custom web app)"
-  
-  
+title: "DateWithTimeFromParts function (Access custom web app)"
 manager: kelbow
 ms.date: 9/5/2017
 ms.audience: Developer
- 
-  
 localization_priority: Normal
 ms.assetid: aa97cbaa-8b14-42e3-a098-938ebe0769eb
 description: "Returns a Date and Time based on a specified year, month, day, and time."
 ---
 
-# DateWithTimeFromParts Function (Access custom web app)
+# DateWithTimeFromParts function (Access custom web app)
 
 Returns a Date and Time based on a specified year, month, day, and time.
   
@@ -21,7 +17,7 @@ Returns a Date and Time based on a specified year, month, day, and time.
   
 ## Syntax
 
- **DateWithTimeFromParts** (  *Year*  ,  *Month*  ,  *Day*  ,  *Hour*  ,  *Minute*  ,  *Second*  ) 
+**DateWithTimeFromParts** (*Year*, *Month*, *Day*, *Hour*, *Minute*, *Second*) 
   
 The **DateWithTimeFromParts** function contains the following arguments. 
   
@@ -36,6 +32,6 @@ The **DateWithTimeFromParts** function contains the following arguments.
    
 ## Remarks
 
- **DateWithTimeFromParts** returns a fully initialized Date/Time value. If the arguments are not valid, an error is raised. If required arguments are Null, then Null is returned. 
+**DateWithTimeFromParts** returns a fully initialized Date/Time value. If the arguments are not valid, an error is raised. If required arguments are Null, then Null is returned. 
   
 

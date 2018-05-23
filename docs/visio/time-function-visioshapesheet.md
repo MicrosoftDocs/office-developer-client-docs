@@ -20,7 +20,7 @@ Returns the time represented by  _hour_,  _minute_, and  _second_.
   
 ## Syntax
 
-TIME( ** *hour* **, ** *minute* **, ** *second* ** ) 
+TIME(** *hour* **, ** *minute* **, ** *second* ** ) 
   
 ### Parameters
 

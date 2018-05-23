@@ -21,7 +21,7 @@ Returns the exponential value of the specified expression.
   
 ## Syntax
 
- **Exp** (  *NumericExpression*  ) 
+ **Exp** (*NumericExpression*) 
   
 The **Exp** function contains the following argument. 
   
@@ -35,6 +35,6 @@ The constant **e** (2.718281…), is the base of natural logarithms.
   
 The exponent of a number is the constant **e** raised to the power of the number. For example **Exp** (1.0) = e^1.0 = 2.71828182845905 and **Exp** (10) = e^10 = 22026.4657948067. 
   
-The exponential of the natural logarithm of a number is the number itself: **Exp** (LOG (n)) = n. And the natural logarithm of the exponential of a number is the number itself: LOG ( **Exp** (n)) = n. 
+The exponential of the natural logarithm of a number is the number itself: **Exp** (LOG (n)) = n. And the natural logarithm of the exponential of a number is the number itself: LOG (**Exp** (n)) = n. 
   
 

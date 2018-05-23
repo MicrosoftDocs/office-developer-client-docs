@@ -22,7 +22,7 @@ MAPI defines a modular architecture, as shown in the following illustration.  
   
 ![Outlook 2010 architecture](media/amapi_43.gif)
   
-The MAPI application is known as a client application because it is a client of the MAPI subsystem. Messaging-based applications employ messaging as a central part of their processing and offer extensive messaging features, such as the exchange of information of various types in various formats and the ability to save and organize the information locally. E-mail, scheduling, and work flow applications are examples of messaging-based applications.
+The MAPI application is known as a client application because it is a client of the MAPI subsystem. Messaging-based applications employ messaging as a central part of their processing and offer extensive messaging features, such as the exchange of information of various types in various formats and the ability to save and organize the information locally. Email, scheduling, and work flow applications are examples of messaging-based applications.
   
 The MAPI subsystem is made up of a common user interface and the programming interfaces. The common user interface is a set of dialog boxes that gives client applications a consistent look and users a consistent way to work.
   

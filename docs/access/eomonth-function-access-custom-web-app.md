@@ -21,7 +21,7 @@ Returns the last day of the month before or specified number of months.
   
 ## Syntax
 
- **EOMonth** (  *Date*  ,  *NumberOfMonth*  ) 
+ **EOMonth** (*Date*, *NumberOfMonth*) 
   
 The **EOMonth** contains the following arguments. 
   

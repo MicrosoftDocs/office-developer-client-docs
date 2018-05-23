@@ -20,7 +20,7 @@ Replaces part of a text string, based on the number of characters you specify, w
   
 ## Syntax
 
-REPLACE ( ** *old_text* **, ** *start_num* **, ** *num_chars* **, ** *new_text* ** ) 
+REPLACE (** *old_text* **, ** *start_num* **, ** *num_chars* **, ** *new_text* ** ) 
   
 ### Parameters
 

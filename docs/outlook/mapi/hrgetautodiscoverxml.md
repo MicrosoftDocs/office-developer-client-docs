@@ -46,7 +46,7 @@ HRESULT HrGetAutoDiscoverXML(
 
  _pwzAddress_
   
-> [in] A null-terminated Simple Mail Transfer Protocol (SMTP) e-mail address of the account for which you want to retrieve the auto-discovery information.
+> [in] A null-terminated Simple Mail Transfer Protocol (SMTP) email address of the account for which you want to retrieve the auto-discovery information.
     
  _pwzPassword_
   
@@ -64,7 +64,7 @@ HRESULT HrGetAutoDiscoverXML(
   
 > [out] A pointer to an [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) object that contains the autodiscovery XML. Returns **null** if the autodiscovery operation fails. You must release the [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) object when you are finished with it. 
     
-## Return Values
+## Return values
 
 S_OK 
   

@@ -30,7 +30,7 @@ LPXLOPER12 TempNum12(double d);
 
 ## Parameters
 
- _d_ ( **double**)
+ _d_ (**double**)
   
 The intended value. Note that IEEE sub-normal numbers are not currently supported and are rounded to zero. Negative infinity is supported.
   

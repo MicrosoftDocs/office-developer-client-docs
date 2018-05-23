@@ -28,13 +28,13 @@ LPXLOPER12 WINAPI FuncSum(LPXLOPER12 px1, LPXLOPER12 px2, LPXLOPER12 px3,LPXLOPE
 
 ## Parameters
 
- _px1-px29_ ( **LPXLOPER12**)
+ _px1-px29_ (**LPXLOPER12**)
   
 Pointers to **XLOPER12** arguments. The function accepts any kind of input type but is coded only to operate on numbers, literal arrays of numbers, and ranges containing only numbers or blank cells. If fewer than 29 arguments are supplied, the remaining arguments are supplied as **xltypeMissing**.
   
-## Property Value/Return Value
+## Property value/Return value
 
-( **LPXLOPER12 xltypeNum** or **xltypeErr**)
+(**LPXLOPER12 xltypeNum** or **xltypeErr**)
   
 The sum of the arguments or #VALUE! if there are non-numerics in the supplied argument list or in a cell in a range or element in an array.
   

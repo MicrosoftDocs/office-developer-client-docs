@@ -100,7 +100,7 @@ When updating large properties, **SetProps** can fail and return MAPI_E_NOT_ENOU
   
 Call the [MAPIFreeBuffer](mapifreebuffer.md) function to free the **SPropProblemArray** structure. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

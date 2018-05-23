@@ -107,7 +107,7 @@ Project Server 2013 processes and PSI methods have error code numbers that are g
 |30000 - 30999  <br/> |[Table 21: Resource plans](#pj15_ErrorCodes_ResourcePlans) <br/> |
 |31000 - 31999  <br/> 32000 - 32100  <br/> |[Table 14: Miscellaneous](#pj15_ErrorCodes_Miscellaneous) (Auditing; not used)  <br/> Project detail pages  <br/> |
 |35000 - 35999  <br/> 40000 - 40499  <br/> |[Table 30: Workflow](#pj15_ErrorCodes_Workflow) <br/> |
-|40500 - 40999  <br/> 42000 - 42999  <br/> |[Table 14: Miscellaneous](#pj15_ErrorCodes_Miscellaneous) ( **ExchangeSync**; internal use)  <br/> Project Web App timeline  <br/> |
+|40500 - 40999  <br/> 42000 - 42999  <br/> |[Table 14: Miscellaneous](#pj15_ErrorCodes_Miscellaneous) (**ExchangeSync**; internal use)  <br/> Project Web App timeline  <br/> |
 |43000 - 43500  <br/> |[Table 29: User delegation](#pj15_ErrorCodes_UserDelegation) <br/> |
 |50000 - 51999  <br/> |[Table 14: Miscellaneous](#pj15_ErrorCodes_Miscellaneous) (Database errors)  <br/> |
 

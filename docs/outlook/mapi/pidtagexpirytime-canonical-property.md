@@ -45,7 +45,7 @@ This property is used to direct the messaging system in handling delivered inter
     
 [[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Specifies the properties and operations that are permissible on e-mail messages.
+> Specifies the properties and operations that are permissible on email messages.
     
 ### Header files
 

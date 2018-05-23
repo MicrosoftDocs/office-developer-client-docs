@@ -59,7 +59,7 @@ The entry point function for each message service in the profile is called with 
   
 No password is required to delete a profile.
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

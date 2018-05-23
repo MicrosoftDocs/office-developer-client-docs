@@ -22,7 +22,7 @@ Version Added: Visio 2010
   
 ## Syntax
 
-MSOTINT( ** *color* **, ** *deltaLum* ** ) 
+MSOTINT(** *color* **, ** *deltaLum* ** ) 
   
 ### Parameters
 

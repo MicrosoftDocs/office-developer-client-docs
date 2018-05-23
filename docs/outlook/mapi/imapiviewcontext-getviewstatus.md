@@ -82,7 +82,7 @@ Typically, forms disable menu commands and buttons if they are not valid for the
   
 The VCSTATUS_MODAL flag is set if the form must be modal to the window whose handle is passed in the earlier [IMAPIForm::DoVerb](imapiform-doverb.md) call. If VCSTATUS_MODAL is set, the form can use the thread on which the **DoVerb** call was made until the form closes. If VCSTATUS_MODAL is not set, the form should not be modal to this window and must not use the thread. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

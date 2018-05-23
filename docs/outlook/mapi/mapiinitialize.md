@@ -105,7 +105,7 @@ When this structure is declared, MAPI creates a separate thread to handle the no
     
     MAPI_E_NOT_INITIALIZED. The profile provider has encountered an error. 
     
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

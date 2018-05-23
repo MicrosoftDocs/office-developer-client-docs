@@ -79,7 +79,7 @@ MAC_ATTACH_ENCODING_UUENCODE
     
 [[MS-OXCMAIL]](http://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Converts from Internet standard e-mail conventions to message objects.
+> Converts from Internet standard email conventions to message objects.
     
 [[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -87,7 +87,7 @@ MAC_ATTACH_ENCODING_UUENCODE
     
 [[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Specifies the properties and operations that are permissible for e-mail message objects.
+> Specifies the properties and operations that are permissible for email message objects.
     
 ### Header files
 

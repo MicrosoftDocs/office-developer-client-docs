@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Specifies the server that a client is currently attempting to use to send e-mail.
+Specifies the server that a client is currently attempting to use to send email.
   
 |||
 |:-----|:-----|
@@ -33,7 +33,7 @@ Specifies the server that a client is currently attempting to use to send e-mail
    
 ## Remarks
 
-The format of this property is implementation dependent. This property can be used by the client to determine which server to direct the e-mail to, but is optional and the value has no meaning to the server.
+The format of this property is implementation dependent. This property can be used by the client to determine which server to direct the email to, but is optional and the value has no meaning to the server.
   
 ## Related resources
 
@@ -49,7 +49,7 @@ The format of this property is implementation dependent. This property can be us
     
 [[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Specifies the properties and operations that are permissible for e-mail message objects.
+> Specifies the properties and operations that are permissible for email message objects.
     
 ### Header files
 

@@ -42,7 +42,7 @@ Indicates the name of the message classification.
     
 [[MS-OXCMAIL]](http://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Converts from Internet standard e-mail conventions to message objects.
+> Converts from Internet standard email conventions to message objects.
     
 ### Header files
 

@@ -20,7 +20,7 @@ Returns the angle between the vector represented by  *x,y*  and the direction of
   
 ## Syntax
 
-ATAN2( ** *y* **, ** *x* ** ) 
+ATAN2(** *y* **, ** *x* ** ) 
   
 ### Parameters
 
@@ -33,7 +33,7 @@ ATAN2( ** *y* **, ** *x* ** )
 
 The arctangent is the angle measured counterclockwise from the positive  *x*  -axis to a line that intersects the origin (0,0) and the point represented by  *x*  and  *y*  . In Microsoft Visio, ATAN2(0,0) returns 0. To force the result of ATAN2 into a different angular measurement, use the DEG or RAD function. 
   
-The ATAN2 function is the antifunction of the TAN function. The ATAN2 function returns the angle whose angle is equal to  *y*  divided by  *x*  . If ATAN2(  *y,x*  ) represents an angle in a right triangle,  *y*  is the "opposite side" and  *x*  is the "adjacent side," so the function could be written as ATAN2(opposite,adjacent). 
+The ATAN2 function is the antifunction of the TAN function. The ATAN2 function returns the angle whose angle is equal to  *y*  divided by  *x*  . If ATAN2(*y,x*) represents an angle in a right triangle,  *y*  is the "opposite side" and  *x*  is the "adjacent side," so the function could be written as ATAN2(opposite,adjacent). 
   
 ## Example 1
 

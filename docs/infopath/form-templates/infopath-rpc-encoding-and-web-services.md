@@ -1,15 +1,11 @@
 ---
 title: "InfoPath, RPC Encoding and Web Services"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: f8d7b944-a8fd-9c5f-8f66-0f1b628b7c6e
-description: "Web services can expose one of two styles for binding to their Web methods in the Web Service Description Language (WSDL) contract that describes them: Document or RPC. Additionally, each of these two styles of binding can be specified as either literal or encoded. The most common implementations for each type are: document/literal and RPC/encoded. However, Microsoft InfoPath only supports connecting to Web services that use the document/literal style."
+description: "Web services can expose one of two styles for binding to their Web methods in the Web Service Description Language (WSDL) contract that describes them: Document or RPC."
 ---
 
 # InfoPath, RPC Encoding and Web Services
@@ -44,24 +40,24 @@ The prerequisites for creating such a proxy Microsoft .NET Web service are a Mic
     
 7. Within each wrapper method, you have to write code to make a call to the referenced RPC/encoded Web service as shown in the following example. 
     
-  ```cs
-  [WebMethod] 
-  public string[] doSearch(string keyword) 
-  { 
-     SearchService srch = new SearchService(); 
-     return srch.doSearch(keyword); 
-  } 
-  
-  ```
+   ```cs
+    [WebMethod] 
+    public string[] doSearch(string keyword) 
+    { 
+        SearchService srch = new SearchService(); 
+        return srch.doSearch(keyword); 
+    } 
+    
+   ```
 
 8. If the RPC/encoded Web service requires authentication, you can hard code the credentials required to connect to the RPC/encoded Web service into the source code for the proxy .NET Web service, or you can use code like the following example. 
     
-  ```cs
-  myProxy.Credentials = System.Net.CredentialCache.DefaultCredentials; 
-  
-  ```
+   ```cs
+    myProxy.Credentials = System.Net.CredentialCache.DefaultCredentials; 
+    
+   ```
 
-    For more information, search for the Microsoft Knowledge Base article "HOW TO: Pass Current Credentials to an ASP.NET Web Service" on http://support.microsoft.com/.
+For more information, search for the Microsoft Knowledge Base article "HOW TO: Pass Current Credentials to an ASP.NET Web Service" on http://support.microsoft.com/.
     
 ## Creating a Proxy Web Service Without Visual Studio .NET
 
@@ -71,12 +67,11 @@ Use the Web Services Description Language Tool (Wsdl.exe) to create the code fil
   
 ```cs
 <%@ WebService Language="C#" class="GoogleSearchServiceWrapper" %> 
-
 ```
 
 Go to the end of the code file and create a call to each Web Service method in the RPC/encoded Web service. The following code sample shows the code for a .NET Web service that connects to the Google Web service, which uses the RPC/encoded style of development. There is a placeholder for where the wsdl.exe generated code should go.
   
-```
+```cs
 <%@ WebService Language="C#" class="GoogleSearchServiceWrapper" %> 
  
 using System; 

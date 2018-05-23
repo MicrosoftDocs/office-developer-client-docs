@@ -685,7 +685,7 @@
                     - name: Configure Security Settings for Form Templates with Code
                       href: infopath/form-templates/how-to-configure-security-settings-for-form-templates-with-code.md
                     - name: Security Levels, E-Mail Deployment, and Remote Form Templates
-                      href: infopath/form-templates/security-levels-e-mail-deployment-and-remote-form-templates.md
+                      href: infopath/form-templates/security-levels-email-deployment-and-remote-form-templates.md
                     - name: Understanding Fully Trusted Forms
                       href: infopath/form-templates/understanding-fully-trusted-forms.md
                     - name: Digitally Signing Data in InfoPath Forms

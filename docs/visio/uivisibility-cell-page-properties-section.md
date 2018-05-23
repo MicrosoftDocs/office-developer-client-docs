@@ -30,7 +30,7 @@ Setting the UIVisibility cell to **visUIVHidden** prevents the page from appeari
  This cell is intended for use with document pages; it is not intended for use with markup overlay pages, which have the UIVisibility cell set to **visUIVHidden** by default and should not be changed. 
   
 > [!NOTE]
-> To hide a page from the document's **Print** command, make it a background page ( **Type** property is **visTypeBackground** ) that is not used as a background by any page (shapes on background pages are printed when a page using it as a background is printed). The document's **Print** command only works with indexed pages, and background pages are not indexed. 
+> To hide a page from the document's **Print** command, make it a background page (**Type** property is **visTypeBackground** ) that is not used as a background by any page (shapes on background pages are printed when a page using it as a background is printed). The document's **Print** command only works with indexed pages, and background pages are not indexed. 
   
 To get a reference to the UIVisibility cell by name from another formula, or from a program by using the **CellsU** property, use: 
   

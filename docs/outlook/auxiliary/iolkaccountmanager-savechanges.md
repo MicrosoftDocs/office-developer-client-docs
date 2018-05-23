@@ -37,7 +37,7 @@ HRESULT IOlkAccountManager::SaveChanges (
   
 > [in] Flags to modify behavior. OLK_ACCOUNT_NO_FLAGS is the only supported value.
     
-## Return Values
+## Return values
 
 |**HRESULT**|**Description**|
 |:-----|:-----|

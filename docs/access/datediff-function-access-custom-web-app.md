@@ -1,18 +1,14 @@
 ---
-title: "DateDiff Function (Access custom web app)"
-  
-  
+title: "DateDiff function (Access custom web app)"
 manager: kelbow
 ms.date: 9/5/2017
-ms.audience: Developer
- 
-  
+ms.audience: Developer 
 localization_priority: Normal
 ms.assetid: 1c58ee87-0f57-4643-be4d-62da815df705
 description: "Returns the count of the specified date part boundaries crossed between the specified start date and end date."
 ---
 
-# DateDiff Function (Access custom web app)
+# DateDiff function (Access custom web app)
 
 Returns the count of the specified date part boundaries crossed between the specified start date and end date.
   
@@ -21,7 +17,7 @@ Returns the count of the specified date part boundaries crossed between the spec
   
 ## Syntax
 
- **DateDiff** (  *DatePart*  ,  *StartDate*  ,  *EndDate*  ) 
+**DateDiff** (*DatePart*, *StartDate*, *EndDate*) 
   
 The **DateDiff** function contains the following arguments. 
   

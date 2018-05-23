@@ -1,12 +1,8 @@
 ---
-title: "EditRecord Data Block (Access custom web app)"
-  
-  
+title: "EditRecord Data Block (Access custom web app)" 
 manager: kelbow
 ms.date: 9/5/2017
-ms.audience: Developer
- 
-  
+ms.audience: Developer 
 localization_priority: Normal
 ms.assetid: 54975434-78b2-4010-b2f9-f277831fa92e
 description: "You can use the EditRecord data block to change the values contained in an existing record."
@@ -51,8 +47,6 @@ To cancel the editing of a record, use the **CancelRecordChange** action. This p
   
 You can use the **LastCreateRecordIdentity** local variable to work with last record created in a **CreateRecord** data block. For example, use the following syntax to refer to the AssignedTo field of the most recently created record: 
   
-```
-[LastCreateRecordIdentity].[AssignedTo]
-```
+`[LastCreateRecordIdentity].[AssignedTo]`
 
 

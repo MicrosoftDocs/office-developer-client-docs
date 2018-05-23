@@ -160,7 +160,7 @@ The MAPI_NO_MAIL flag has several effects that cause the following when not usin
     
 A service should always log on using the MAPI_NO_MAIL flag. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

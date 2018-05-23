@@ -20,7 +20,7 @@ Removes all space from text, except for single spaces between words.
   
 ## Syntax
 
-TRIM ( ** *text* ** ) 
+TRIM (** *text* ** ) 
   
 ### Parameters
 

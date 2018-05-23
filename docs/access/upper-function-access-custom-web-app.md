@@ -21,7 +21,7 @@ Returns a text expression with lowercase character data converted to uppercase.
   
 ## Syntax
 
- **Upper** (  *TextExpression*  ) 
+ **Upper** (*TextExpression*) 
   
 The **Upper** function contains the following argument. 
   

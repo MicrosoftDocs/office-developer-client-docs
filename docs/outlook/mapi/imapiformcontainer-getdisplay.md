@@ -51,7 +51,7 @@ S_OK
   
 > The call succeeded and has returned the expected value or values.
     
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

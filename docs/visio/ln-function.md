@@ -20,7 +20,7 @@ Returns the natural logarithm of a number. The number must be positive, or LN re
   
 ## Syntax
 
-LN( ** *number* ** ) 
+LN(** *number* ** ) 
   
 ### Parameters
 

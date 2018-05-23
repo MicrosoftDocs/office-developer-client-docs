@@ -36,11 +36,11 @@ LPXLOPER WINAPI xlAutoRegister(LPXLOPER pxName);
 
 ## Parameters
 
- _pxName_ ( **xltypeStr**)
+ _pxName_ (**xltypeStr**)
   
 The name of the XLL function that is being registered.
   
-## Property Value/Return Value
+## Property value/Return value
 
 The function should return the result of the attempt to register the XLL function  _pxName_ using the **xlfRegister** function. If the specified function is not one of the XLL's exports, it should return the **#VALUE!** error, or **NULL** which Excel will interpret at **#VALUE!**.
   

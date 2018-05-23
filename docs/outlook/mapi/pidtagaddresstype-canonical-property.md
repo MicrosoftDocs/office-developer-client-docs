@@ -18,7 +18,7 @@ description: "Last modified: March 09, 2015"
 
 **Applies to**: Outlook 
   
-Contains the messaging user's e-mail address type, such as SMTP.
+Contains the messaging user's email address type, such as SMTP.
   
 |||
 |:-----|:-----|
@@ -58,7 +58,7 @@ X400
     
 [[MS-OXCMAIL]](http://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Converts from Internet standard e-mail conventions to message objects.
+> Converts from Internet standard email conventions to message objects.
     
 [[MS-NSPI]](http://msdn.microsoft.com/library/6dd0a3ea-b4d4-4a73-a857-add03a89a543%28Office.15%29.aspx)
   
@@ -90,11 +90,11 @@ X400
     
 [[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Specifies the properties and operations that are permissible for e-mail message objects.
+> Specifies the properties and operations that are permissible for email message objects.
     
 [[MS-OXORULE]](http://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
-> Manipulates incoming e-mail messages on a server.
+> Manipulates incoming email messages on a server.
     
 [[MS-OXOSRCH]](http://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   

@@ -30,7 +30,7 @@ InfoPath helps protect users against the following potential threats posed by ma
     
 ## Disclosure of Sensitive Information
 
-The most common scenario for the disclosure of sensitive information can occur if a malicious form author creates a form that uses the current user's security credentials to access a data source on a domain other than the one on which the form itself was deployed. For example, a malicious user could send a form by e-mail message or by using a URL to a form on a private share or Web server. The form could contain script that performs a data access request by using the current user's credentials to retrieve data from a data source in another domain that the malicious user would not otherwise have access to, such as a database of payroll or other sensitive information. This class of security risk scenarios is referred to as cross-domain data access.
+The most common scenario for the disclosure of sensitive information can occur if a malicious form author creates a form that uses the current user's security credentials to access a data source on a domain other than the one on which the form itself was deployed. For example, a malicious user could send a form by email message or by using a URL to a form on a private share or Web server. The form could contain script that performs a data access request by using the current user's credentials to retrieve data from a data source in another domain that the malicious user would not otherwise have access to, such as a database of payroll or other sensitive information. This class of security risk scenarios is referred to as cross-domain data access.
   
 The Internet Explorer security model that InfoPath is built upon provides a setting called **Access data sources across domains** that, by default, disables cross-domain access for InfoPath forms that reside in the **Internet** and **Restricted sites** security zones. This setting also prompts the user to allow or disallow cross-domain access for InfoPath forms that reside in the **Local intranet** security zone, and it enables cross-domain access for InfoPath forms that reside in the **Trusted sites** or **Local Machine** zones. 
   
@@ -56,11 +56,11 @@ Developers creating InfoPath forms should know how to implement the following se
     
 - How to sign the CAB files of ActiveX controls.
     
-- How to sign form templates sent as an attachment to an e-mail message.
+- How to sign form templates sent as an attachment to an email message.
     
 ## Best Practices for XML Data Associated with a Form
 
-Note that InfoPath forms can be fed XML data from any source, including those that the user does not necessarily trust or control. For example, InfoPath can get XML data from a link to a Web page or from an XML attachment sent to the user in e-mail message. To mitigate these risks, be aware of the following best practices:
+Note that InfoPath forms can be fed XML data from any source, including those that the user does not necessarily trust or control. For example, InfoPath can get XML data from a link to a Web page or from an XML attachment sent to the user in email message. To mitigate these risks, be aware of the following best practices:
   
 - Do not pass untrusted data that is read from the XML to the Microsoft JScript **eval()** function or the **innerHTML** property of the task pane. Both of these calls could be used to execute malicious script. In a task pane, use the **innerText** property as an alternative. Note that InfoPath views cannot execute script. 
     
@@ -86,15 +86,15 @@ ActiveX controls can be hosted in form templates designed for the InfoPath edito
   
 To ensure that the digital signature on the CAB file can be verified, the file should be signed with a certificate that has a trust chain leading to an already trusted certificate root. Otherwise, the signature cannot be authenticated, the signature verification will fail, and the CAB file will not be installed.
   
-## Best Practices for Form Templates Sent as an Attachment to an E-mail Message
+## Best Practices for Form Templates Sent as an Attachment to an Email Message
 
-InfoPath supports deploying form templates as an attachment to an e-mail message and moving form templates from one location to another. It is good security practice to digitally sign a form template that you design and intend to deploy as an attachment to an e-mail message. A digital signature on a form template deployed by e-mail message not only ensures the authenticity of the template. It also has the added benefit of allowing the form template to be updated automatically.
+InfoPath supports deploying form templates as an attachment to an email message and moving form templates from one location to another. It is good security practice to digitally sign a form template that you design and intend to deploy as an attachment to an email message. A digital signature on a form template deployed by email message not only ensures the authenticity of the template. It also has the added benefit of allowing the form template to be updated automatically.
   
 The form template should be signed with a certificate that has a trust chain leading to an already trusted certificate root. If it is not signed with such a certificate, signature verification will fail, because the signature cannot be authenticated.
   
 > [!NOTE]
 > If a signed form template requests Domain or Restricted access, InfoPath will not check or verify the signature except to determine whether InfoPath can automatically update the template. 
   
-You can find more information about e-mail deployment in [Security Levels, E-Mail Deployment, and Remote Form Templates](security-levels-e-mail-deployment-and-remote-form-templates.md).
+You can find more information about email deployment in [Security Levels, E-Mail Deployment, and Remote Form Templates](security-levels-email-deployment-and-remote-form-templates.md).
   
 

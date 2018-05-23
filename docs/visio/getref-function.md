@@ -20,7 +20,7 @@ References a cell and doesn't recalculate the formula when the referenced cell c
   
 ## Syntax
 
-GETREF( ** *cellname* ** ) 
+GETREF(** *cellname* ** ) 
   
 ### Parameters
 

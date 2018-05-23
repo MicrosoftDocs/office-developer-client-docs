@@ -55,7 +55,7 @@ A call to **SetPAB** establishes a container as the PAB until that container is 
   
 Clients and providers do not have to call the [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method to make the PAB change permanent. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

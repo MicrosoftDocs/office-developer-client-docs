@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Specifies the user-readable display name for the third e-mail address.
+Specifies the user-readable display name for the third email address.
   
 |||
 |:-----|:-----|

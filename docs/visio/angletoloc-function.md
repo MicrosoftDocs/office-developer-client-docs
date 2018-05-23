@@ -20,7 +20,7 @@ Returns a transformed angle in the destination shape's local coordinate system. 
   
 ## Syntax
 
-ANGLETOLOC( ** *srcAngle* **, ** *srcRef* **, ** *dstRef* ** ) 
+ANGLETOLOC(** *srcAngle* **, ** *srcRef* **, ** *dstRef* ** ) 
   
 ### Parameters
 

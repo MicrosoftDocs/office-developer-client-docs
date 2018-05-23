@@ -20,7 +20,7 @@ Returns TRUE if the value of  _cellreference_ is error type #N/A! (not available
   
 ## Syntax
 
-ISERRNA( ** *cellreference* ** ) 
+ISERRNA(** *cellreference* ** ) 
   
 ### Parameters
 

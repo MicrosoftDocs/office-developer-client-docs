@@ -28,13 +28,13 @@ Excel12(xlAbort, LPXLOPER12 pxRes, 1, LPXLOPER12 pxRetain);
 
 ## Parameters
 
- _pxRetain_ ( **xltypeBool**)
+ _pxRetain_ (**xltypeBool**)
   
 (Optional). If **FALSE**, this function checks for the break condition and clears any pending break. This enables the user to continue despite the break condition. If this argument is omitted or is **TRUE**, the function checks for a user abort without clearing it.
   
-## Property Value/Return Value
+## Property value/Return value
 
-Returns **TRUE** ( **xltypeBool**) if the user has pressed **ESC**.
+Returns **TRUE** (**xltypeBool**) if the user has pressed **ESC**.
   
 ## Remarks
 

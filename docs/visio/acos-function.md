@@ -20,7 +20,7 @@ Returns the arccosine of number, for example, the angle whose cosine is  *number
   
 ## Syntax
 
-ACOS( *number*  ) 
+ACOS( *number*) 
   
 ## Remarks
 

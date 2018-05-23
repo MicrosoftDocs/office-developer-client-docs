@@ -21,7 +21,7 @@ Returns the base-10 logarithm of a number.
   
 ## Syntax
 
- **Log10** (  *NumericExpression*  ) 
+ **Log10** (*NumericExpression*) 
   
 The **Log10** function contains the following argument. 
   

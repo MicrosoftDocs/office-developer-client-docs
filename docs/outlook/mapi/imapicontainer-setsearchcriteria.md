@@ -112,7 +112,7 @@ When you are through using a search-results folder, you can either delete the fo
   
 For more information about search-results folders, see [MAPI Search Folders](mapi-search-folders.md). 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

@@ -33,7 +33,7 @@ HRESULT IOlkEnum:: GetNext(
   
 > [in] A pointer to an **IUnknown** interface that the client can query to obtain an [IOlkAccount](iolkaccount.md) interface. 
     
-## Return Values
+## Return values
 
 |**HRESULT**|**Description**|
 |:-----|:-----|

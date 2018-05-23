@@ -34,7 +34,7 @@ CALLTHIS(" ** *procedure* ** ",[" ** *project* ** "],[ ** *arg1* **, ** *arg2* *
 
 In the VBA project,  *procedure*  is defined as follows: 
   
-procedure(  *vsoShape*  As Visio.Shape [arg1 As type, arg2 As type...]) 
+procedure(*vsoShape*  As Visio.Shape [arg1 As type, arg2 As type...]) 
   
 where  *vsoShape*  is a reference to the **Shape** object that contains the CALLTHIS formula being evaluated, and  _arg1_,  *arg2*  ... are the arguments specified in that formula. 
   

@@ -21,7 +21,7 @@ Converts a value to a specified data type or returns Null if the conversion is n
   
 ## Syntax
 
- **Try_Convert** (  *DataType*  ,  *Expression*  ) 
+ **Try_Convert** (*DataType*, *Expression*) 
   
 The **Try_Convert** function contains the following arguments. 
   

@@ -28,21 +28,21 @@ LRESULT CALLBACK ExcelCursorProc(HWND hwnd, UINT wMsg, WPARAM wParam, LPARAM lPa
 
 ## Parameters
 
- _hWndDlg_ ( **HWND**)
+ _hWndDlg_ (**HWND**)
   
 Contains the HWND Windows handle of the dialog box.
   
- _message_ ( **UINT**)
+ _message_ (**UINT**)
   
 The message to respond to.
   
- _wParam_ ( **WPARAM**)
+ _wParam_ (**WPARAM**)
   
- _lParam_ ( **LPARAM**)
+ _lParam_ (**LPARAM**)
   
 Arguments passed by Windows.
   
-## Property Value/Return Value
+## Property value/Return value
 
 LRESULT: 0 if the message was handled, otherwise the result returned by the default **WndProc**.
   

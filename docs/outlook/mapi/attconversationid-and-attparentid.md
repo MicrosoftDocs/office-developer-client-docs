@@ -8,14 +8,10 @@ api_type:
 - COM
 ms.assetid: bed36900-e44d-434b-a4f2-d10f2d6f70da
 description: "Last modified: March 12, 2013"
- 
- 
 ---
 
 # attConversationID and attParentID
 
- 
-  
 **Applies to**: Outlook 
   
 The Windows for Workgroups 3.1 Mail conversation key is a text string. The MAPI equivalent is a binary value. To provide backward compatibility, the TNEF implementation converts the binary data to text and adds a terminating null character.
@@ -29,9 +25,6 @@ The **PR_CONVERSATION_KEY** property is the otherwise obsolete precursor of the 
   
 ## See also
 
-
-
-[IPM Subtree](ipm-subtree.md)
-  
-[MAPI Special Folders](mapi-special-folders.md)
+- [IPM Subtree](ipm-subtree.md)
+- [MAPI Special Folders](mapi-special-folders.md)
 

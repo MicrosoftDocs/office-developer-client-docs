@@ -1,7 +1,5 @@
 ---
 title: "xlfSetName"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,7 +8,6 @@ f1_keywords:
 - xlfSetName
 keywords:
 - xlfsetname function [excel 2007]
- 
 localization_priority: Normal
 ms.assetid: ea7fd713-7c1b-4648-a609-3334f595c61a
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
@@ -18,7 +15,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # xlfSetName
 
- **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
+**Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 Used to create and delete defined names associated with the DLL.
   
@@ -28,17 +25,17 @@ Excel12(xlfSetName, LPXLOPER12 pxRes, 2, LPXLOPER12 pxNameText, LPXLOPER12 pxNam
 
 ## Parameters
 
- _pxNameText_ ( **xltypeStr**)
+_pxNameText_ (**xltypeStr**)
   
 The name of the range, which should conform to the usual limitations in Microsoft Excel on valid names.
   
- _pxNameDefinition_ ( **xltypeStr**, **xltypeNum**, **xltypeBool**, **xltypeErr**, **xltypeMulti**, **xltypeSRef**, **xltypeRef**, or **xltypeInt**)
+_pxNameDefinition_ (**xltypeStr**, **xltypeNum**, **xltypeBool**, **xltypeErr**, **xltypeMulti**, **xltypeSRef**, **xltypeRef**, or **xltypeInt**)
   
 (Optional). The value, set of values, cell, or range of cells that  _pxNameText_ is defined as. If omitted, the name is deleted. 
   
-## Property Value/Return Value
+## Property value/Return value
 
- _pxRes_ ( **xltypeBool** or **xltypeErr**)
+_pxRes_ (**xltypeBool** or **xltypeErr**)
   
 TRUE if the operation succeeded or FALSE if the name could not be created or deleted. Returns #VALUE! if one or more of the arguments was invalid.
   
@@ -52,7 +49,5 @@ See the code for the **xlAutoClose** function in  `\SAMPLES\GENERIC\GENERIC.C`.
   
 ## See also
 
-
-
-[Essential and Useful C API XLM Functions](essential-and-useful-c-api-xlm-functions.md)
+- [Essential and Useful C API XLM Functions](essential-and-useful-c-api-xlm-functions.md)
 

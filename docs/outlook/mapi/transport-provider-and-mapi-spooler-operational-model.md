@@ -24,7 +24,7 @@ Transport provider initialization, startup, processing, shutdown and deinitializ
     
 2. The MAPI spooler calls the [IXPProvider::TransportLogon](ixpprovider-transportlogon.md) method of the [IXPProvider : IUnknown](ixpprovideriunknown.md) interface. A session is established between the MAPI spooler and the transport provider with the credentials in the current section of the profile. The transport provider returns a logon object. 
     
-3. The MAPI spooler calls the [IXPLogon::AddressTypes](ixplogon-addresstypes.md) method. The transport provider returns a list of the unique identifiers (UIDs) and e-mail address types it will accept. 
+3. The MAPI spooler calls the [IXPLogon::AddressTypes](ixplogon-addresstypes.md) method. The transport provider returns a list of the unique identifiers (UIDs) and email address types it will accept. 
     
 4. The transport provider calls the [IMAPISupport::ModifyStatusRow](imapisupport-modifystatusrow.md) method to create its row in the MAPI status table. 
     

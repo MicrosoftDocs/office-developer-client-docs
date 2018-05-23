@@ -20,7 +20,7 @@ Finds one text string contained within another text string, and returns the star
   
 ## Syntax
 
-FIND ( ** *find_text* **, ** *within_text* **,[ ** *start_num* ** ], [ ** *ignore_case* ** ]) 
+FIND (** *find_text* **, ** *within_text* **,[ ** *start_num* ** ], [ ** *ignore_case* ** ]) 
   
 ### Parameters
 

@@ -18,7 +18,7 @@ Modifies the color by decreasing its luminosity by the amount (positive or negat
   
 ## Syntax
 
-SHADE( ** *color* **, ** *int* ** ) 
+SHADE(** *color* **, ** *int* ** ) 
   
 ### Parameters
 

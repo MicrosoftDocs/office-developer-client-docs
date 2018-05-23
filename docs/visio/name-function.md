@@ -20,7 +20,7 @@ Returns a sheet's name as a string.
   
 ## Syntax
 
-NAME ( ** *langID_opt* ** ) 
+NAME (** *langID_opt* ** ) 
   
 ### Parameters
 

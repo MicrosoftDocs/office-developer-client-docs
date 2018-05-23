@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Specifies the address type of the second e-mail address.
+Specifies the address type of the second email address.
   
 |||
 |:-----|:-----|

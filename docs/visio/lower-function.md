@@ -20,7 +20,7 @@ Returns a string converted to lowercase.
   
 ## Syntax
 
-LOWER( ** *expression* ** ) 
+LOWER(** *expression* ** ) 
   
 ### Parameters
 

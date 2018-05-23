@@ -26,7 +26,7 @@ Indicates the default shadow type for a page.
    
 ## Remarks
 
- The shadow type described in this cell is used whenever the ShapeShdwType Cell (the shadow type for an individual shape on the page) is set to Page Default ( **visFSTPageDefault** ). 
+ The shadow type described in this cell is used whenever the ShapeShdwType Cell (the shadow type for an individual shape on the page) is set to Page Default (**visFSTPageDefault** ). 
   
 Simple shadow types are described as offset shadows in the user interface (UI). A simple shadow gives the effect of the shape being shadowed onto a parallel plane located some distance behind it. Oblique shadows are described as oblique shadows in the UI and give the effect of a shadow being cast onto a plane perpendicular to the shape. 
   

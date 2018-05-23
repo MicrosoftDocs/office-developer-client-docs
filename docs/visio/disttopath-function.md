@@ -22,7 +22,7 @@ Version Added: Visio 2010
   
 ## Syntax
 
-DISTTOPATH( ** *section* **, ** *x* **, ** *y* ** ) 
+DISTTOPATH(** *section* **, ** *x* **, ** *y* ** ) 
   
 ### Parameters
 

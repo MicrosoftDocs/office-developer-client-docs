@@ -89,7 +89,7 @@ Do not expect to receive a table notification when a category changes its state.
   
 For more information about categorized tables, see [Sorting and Categorization](sorting-and-categorization.md).
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

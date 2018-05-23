@@ -22,7 +22,7 @@ Version Added: Visio 2010
   
 ## Syntax
 
-PATHLENGTH( ** *section* ** ** *[,segment]* ** ) 
+PATHLENGTH(** *section* ** ** *[,segment]* ** ) 
   
 ### Parameters
 

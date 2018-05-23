@@ -20,7 +20,7 @@ Rounds a number to the precision represented by  *numberofdigits*  .
   
 ## Syntax
 
-ROUND( ** *number* **, ** *numberofdigits* ** ) 
+ROUND(** *number* **, ** *numberofdigits* ** ) 
   
 ### Parameters
 

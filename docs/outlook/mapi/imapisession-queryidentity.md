@@ -83,7 +83,7 @@ For more information about identity in general, see [MAPI Primary Identity](mapi
   
 For more information about retrieving MAPI session identity, see [Retrieving Primary and Provider Identity](retrieving-primary-and-provider-identity.md). 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

@@ -29,7 +29,7 @@ Contains the Rich Text Format (RTF) version of the message text, usually in comp
 |Associated properties:  <br/> |PR_RTF_COMPRESSED  <br/> |
 |Identifier:  <br/> |0x1009  <br/> |
 |Data type:  <br/> |PT_BINARY  <br/> |
-|Area:  <br/> |E-mail  <br/> |
+|Area:  <br/> |Email  <br/> |
    
 ## Remarks
 

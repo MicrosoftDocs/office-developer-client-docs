@@ -39,7 +39,7 @@ Note that there are certain restrictions to deploying your form as a sandboxed s
     
 - Must use C# or Visual Basic as the programming language.
     
-- Cannot submit to e-mail data connections.
+- Cannot submit to email data connections.
     
 - Cannot have properties promoted for part-to-part connections.
     

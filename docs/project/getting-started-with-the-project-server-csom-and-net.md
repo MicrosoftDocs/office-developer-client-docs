@@ -1,12 +1,8 @@
 ---
 title: "Getting started with the Project Server CSOM and .NET"
-
- 
 manager: soliver
 ms.date: 8/10/2016
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 5ce73baa-dfb6-41d0-918d-b0c3a498815f
 description: "You can use the Project Server 2013 client-side object model (CSOM) to develop Project Online and on-premises solutions with the .NET Framework 4. This article describes how to create a console application that uses the CSOM to create and publish projects. After publishing a project, the application waits for the Project Server Queue Service to finish with the publish action, and then lists the published projects."
@@ -35,98 +31,96 @@ The **QueueCreateProject** application uses command-line arguments for the name 
     
 3. In Visual Studio, create a Windows console application, and set the target framework to .NET Framework 4. For example, name the application QueueCreateProject.
     
-    > [!NOTE]
-    > If you forget to set the correct target, after Visual Studio creates the project, open **QueueCreateProject Properties** in the **Project** menu. On the **Application** tab, in the **Target framework** drop-down list, choose **.NET Framework 4**. Do not use the **.NET Framework 4 Client Profile**. 
+   > [!NOTE]
+   > If you forget to set the correct target, after Visual Studio creates the project, open **QueueCreateProject Properties** in the **Project** menu. On the **Application** tab, in the **Target framework** drop-down list, choose **.NET Framework 4**. Do not use the **.NET Framework 4 Client Profile**. 
   
 4. In Solution Explorer, set references to the following assemblies:
     
-  - Microsoft.ProjectServer.Client.dll
-    
-  - Microsoft.SharePoint.Client.dll
-    
-  - Microsoft.SharePoint.Client.Runtime.dll
+   - Microsoft.ProjectServer.Client.dll
+   - Microsoft.SharePoint.Client.dll
+   - Microsoft.SharePoint.Client.Runtime.dll
     
 5. In the Program.cs file, edit the  `using` statements, as follows. 
     
-  ```cs
-  using System;
-  using System.Collections.Generic;
-  using System.Linq;
-  using System.Text;
-  using Microsoft.ProjectServer.Client;
-  ```
+   ```cs
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using Microsoft.ProjectServer.Client;
+   ```
 
 6. Add methods to parse the command-line arguments for the project name and the number of seconds for queue timeout, show usage information, and exit the application. Replace the main body of code in the Program.cs file with the following code.
     
-  ```cs
-  namespace QueueCreateProject
-  {
-      class Program
-      {
-          static void Main(string[] args)
-          {
-              if (!ParseCommandLine(args))
-              {
-                  Usage();
-                  ExitApp();
-              }
-              /* Add calls to methods here to get the project context and create a project. */
-              ExitApp();
-          }
-          // Parse the command line. Return true if there are no errors.
-          private static bool ParseCommandLine(string[] args)
-          {
-              bool error = false;
-              int argsLen = args.Length;
-              try
-              {
-                  for (int i = 0; i < argsLen; i++)
-                  {
-                      if (error) break;
-                      if (args[i].StartsWith("-") || args[i].StartsWith("/"))
-                          args[i] = "*" + args[i].Substring(1).ToLower();
-                      switch (args[i])
-                      {
-                          case "*projname":
-                          case "*n":
-                              if (++i >= argsLen) return false;
-                              projName = args[i];
-                              break;
-                          case "*timeout":
-                          case "*t":
-                              if (++i >= argsLen) return false;
-                              timeoutSeconds = Convert.ToInt32(args[i]);
-                              break;
-                          case "*?":
-                          default:
-                              error = true;
-                              break;
-                      }
-                  }
-              }
-              catch (FormatException)
-              {
-                  error = true;
-              }
-              if (string.IsNullOrEmpty(projName)) error = true;
-              return !error;
-          }
-          private static void Usage()
-          {
-              string example = "Usage: QueueCreateProject -projName | -n \"New project name\" [-timeout | -t sec]";
-              example += "\nExample: QueueCreateProject -n \"My new project\"";
-              example += "\nDefault timeout seconds = " + timeoutSeconds.ToString();
-              Console.WriteLine(example);
-          }
-          private static void ExitApp()
-          {
-              Console.Write("\nPress any key to exit... ");
-              Console.ReadKey(true);
-              Environment.Exit(0);
-          }
-      }
-  }
-  ```
+   ```cs
+    namespace QueueCreateProject
+    {
+        class Program
+        {
+            static void Main(string[] args)
+            {
+                if (!ParseCommandLine(args))
+                {
+                    Usage();
+                    ExitApp();
+                }
+                /* Add calls to methods here to get the project context and create a project. */
+                ExitApp();
+            }
+            // Parse the command line. Return true if there are no errors.
+            private static bool ParseCommandLine(string[] args)
+            {
+                bool error = false;
+                int argsLen = args.Length;
+                try
+                {
+                    for (int i = 0; i < argsLen; i++)
+                    {
+                        if (error) break;
+                        if (args[i].StartsWith("-") || args[i].StartsWith("/"))
+                            args[i] = "*" + args[i].Substring(1).ToLower();
+                        switch (args[i])
+                        {
+                            case "*projname":
+                            case "*n":
+                                if (++i >= argsLen) return false;
+                                projName = args[i];
+                                break;
+                            case "*timeout":
+                            case "*t":
+                                if (++i >= argsLen) return false;
+                                timeoutSeconds = Convert.ToInt32(args[i]);
+                                break;
+                            case "*?":
+                            default:
+                                error = true;
+                                break;
+                        }
+                    }
+                }
+                catch (FormatException)
+                {
+                    error = true;
+                }
+                if (string.IsNullOrEmpty(projName)) error = true;
+                return !error;
+            }
+            private static void Usage()
+            {
+                string example = "Usage: QueueCreateProject -projName | -n \"New project name\" [-timeout | -t sec]";
+                example += "\nExample: QueueCreateProject -n \"My new project\"";
+                example += "\nDefault timeout seconds = " + timeoutSeconds.ToString();
+                Console.WriteLine(example);
+            }
+            private static void ExitApp()
+            {
+                Console.Write("\nPress any key to exit... ");
+                Console.ReadKey(true);
+                Environment.Exit(0);
+            }
+        }
+    }
+   ```
 
 ## Getting the project context
 <a name="pj15_GettingStartedCSOM_GettingContext"> </a>
@@ -137,23 +131,23 @@ CSOM development requires the **ProjectContext** object to be initialized with t
 
 1. Add **Program** class constants and variables that the **QueueCreateProject** application will use. In addition to the Project Web App URL, the application uses the name of the default enterprise project type (EPT), the name of the project to create, and a maximum queue timeout in seconds. In this case, the **timeoutSeconds** variable enables you to test how various values for the timeout affect the application. The **ProjectContext** object is the primary object for access to the CSOM. 
     
-  ```cs
-  private const string pwaPath = "http://ServerName /pwa/"; // Change the path to your Project Web App instance.
-  private static string basicEpt = "Enterprise Project";   // Basic enterprise project type.
-  private static string projName = string.Empty;
-  private static int timeoutSeconds = 10;  // The maximum wait time for a queue job, in seconds.
-  private static ProjectContext projContext;
-  ```
+   ```cs
+    private const string pwaPath = "http://ServerName /pwa/"; // Change the path to your Project Web App instance.
+    private static string basicEpt = "Enterprise Project";   // Basic enterprise project type.
+    private static string projName = string.Empty;
+    private static int timeoutSeconds = 10;  // The maximum wait time for a queue job, in seconds.
+    private static ProjectContext projContext;
+   ```
 
 2. Replace the  `/* Add calls to methods here to get the project context and create a project. */` comment with the following code. The **Microsoft.ProjectServer.Client.ProjectContext** object is initialized with the Project Web App URL. The **CreateTestProject** method and the **ListPublishedProjects** method are shown in Procedure 4 and Procedure 5. 
     
-  ```cs
-  projContext = new ProjectContext(pwaPath);
-  if (CreateTestProject())
-      ListPublishedProjects();
-  else
-      Console.WriteLine("\nProject creation failed: {0}", projName);
-  ```
+   ```cs
+    projContext = new ProjectContext(pwaPath);
+    if (CreateTestProject())
+        ListPublishedProjects();
+    else
+        Console.WriteLine("\nProject creation failed: {0}", projName);
+   ```
 
 ## Getting an enterprise project type
 <a name="pj15_GettingStartedCSOM_GettingEPT"> </a>
@@ -166,32 +160,33 @@ The **GetEptUid** method queries the **ProjectContext** object for the collectio
 
 - Add the **GetEptUid** method to the **Program** class. 
     
-  ```cs
-  // Get the GUID of the specified enterprise project type.
-  private static Guid GetEptUid(string eptName)
-  {
-      Guid eptUid = Guid.Empty;
-      try
-      {
-          // Get the list of EPTs that have the specified name. 
-          // If the EPT name exists, the list will contain only one EPT.
-          var eptList = projContext.LoadQuery(
-              projContext.EnterpriseProjectTypes.Where(
-                  ept => ept.Name == eptName));
-          projContext.ExecuteQuery();
-          eptUid = eptList.First().Id;
-      }
-      catch (Exception ex)
-      {
-          string msg = string.Format("GetEptUid: eptName = \"{0}\"\n\n{1}",
-              eptName, ex.GetBaseException().ToString());
-          throw new ArgumentException(msg);
-      }
-      return eptUid;
-  }
-  ```
+   ```cs
+    // Get the GUID of the specified enterprise project type.
+    private static Guid GetEptUid(string eptName)
+    {
+        Guid eptUid = Guid.Empty;
+        try
+        {
+            // Get the list of EPTs that have the specified name. 
+            // If the EPT name exists, the list will contain only one EPT.
+            var eptList = projContext.LoadQuery(
+                projContext.EnterpriseProjectTypes.Where(
+                    ept => ept.Name == eptName));
+            projContext.ExecuteQuery();
+            eptUid = eptList.First().Id;
+        }
+        catch (Exception ex)
+        {
+            string msg = string.Format("GetEptUid: eptName = \"{0}\"\n\n{1}",
+                eptName, ex.GetBaseException().ToString());
+            throw new ArgumentException(msg);
+        }
+        return eptUid;
+    }
+   ```
 
 There are several ways to find the EPT GUID. The query shown in the **GetEptUid** method is efficient because it downloads only the one **EnterpriseProjectType** object that matches the EPT name. The following alternate routine is less efficient, because it downloads the complete list of EPTs to the client application and iterates through the list. 
+
 ```cs
 foreach (EnterpriseProjectType ept in projSvr.EnterpriseProjectTypes)
 {
@@ -222,59 +217,59 @@ After setting the new project properties, the **Projects.Add** method adds the p
 
 1. Add the **CreateTestProject** method to the **Program** class. The following code creates and publishes a project, but does not wait for the queue job to complete. 
     
-  ```cs
-  // Create a project.
-  private static bool CreateTestProject()
-  {
-      bool projCreated = false;
-      try
-      {
-          Console.Write("\nCreating project: {0} ...", projName);
-          ProjectCreationInformation newProj = new ProjectCreationInformation();
-          newProj.Id = Guid.NewGuid();
-          newProj.Name = projName;
-          newProj.Description = "Test creating a project with CSOM";
-          newProj.Start = DateTime.Today.Date;
-          // Setting the EPT GUID is optional. If no EPT is specified, Project Server  
-          // uses the default EPT. 
-          newProj.EnterpriseProjectTypeId = GetEptUid(basicEpt);
-          PublishedProject newPublishedProj = projContext.Projects.Add(newProj);
-          QueueJob qJob = projContext.Projects.Update();
-          /* Add code here to wait for the queue. */
-      }
-      catch(Exception ex)
-      {
-          Console.ForegroundColor = ConsoleColor.Red;
-          Console.WriteLine("\nError: {0}", ex.Message);
-          Console.ResetColor();
-      }
-      return projCreated;
-  }
-  ```
+   ```cs
+    // Create a project.
+    private static bool CreateTestProject()
+    {
+        bool projCreated = false;
+        try
+        {
+            Console.Write("\nCreating project: {0} ...", projName);
+            ProjectCreationInformation newProj = new ProjectCreationInformation();
+            newProj.Id = Guid.NewGuid();
+            newProj.Name = projName;
+            newProj.Description = "Test creating a project with CSOM";
+            newProj.Start = DateTime.Today.Date;
+            // Setting the EPT GUID is optional. If no EPT is specified, Project Server  
+            // uses the default EPT. 
+            newProj.EnterpriseProjectTypeId = GetEptUid(basicEpt);
+            PublishedProject newPublishedProj = projContext.Projects.Add(newProj);
+            QueueJob qJob = projContext.Projects.Update();
+            /* Add code here to wait for the queue. */
+        }
+        catch(Exception ex)
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("\nError: {0}", ex.Message);
+            Console.ResetColor();
+        }
+        return projCreated;
+    }
+   ```
 
 2. Replace the  `/* Add code here to wait for the queue. */` comment with the following code to wait for the queue job. The routine waits a maximum of the specified **timeoutSeconds** number of seconds, or proceeds if the queue job completes before the timeout. For possible queue job states, see [Microsoft.ProjectServer.Client.JobState](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.JobState.aspx) . 
     
-    Calling the **Load** method and the **ExecuteQuery** method for the **QueueJob** object is optional. If the **QueueJob** object is not initialized when you call the **WaitForQueue** method, Project Server initializes it. 
+   Calling the **Load** method and the **ExecuteQuery** method for the **QueueJob** object is optional. If the **QueueJob** object is not initialized when you call the **WaitForQueue** method, Project Server initializes it. 
     
-  ```cs
-  // Calling Load and ExecuteQuery for the queue job is optional.
-  // projContext.Load(qJob);
-  // projContext.ExecuteQuery();
-  JobState jobState = projContext.WaitForQueue(qJob, timeoutSeconds);
-  if (jobState == JobState.Success)
-  {
-      projCreated = true;
-  }
-  else
-  {
-      Console.ForegroundColor = ConsoleColor.Yellow;
-      Console.WriteLine("\nThere is a problem in the queue. Timeout is {0} seconds.", 
-          timeoutSeconds);
-      Console.WriteLine("\tQueue JobState: {0}", jobState.ToString());
-      Console.ResetColor();
-  }
-  Console.WriteLine();
-  ```
+   ```cs
+    // Calling Load and ExecuteQuery for the queue job is optional.
+    // projContext.Load(qJob);
+    // projContext.ExecuteQuery();
+    JobState jobState = projContext.WaitForQueue(qJob, timeoutSeconds);
+    if (jobState == JobState.Success)
+    {
+        projCreated = true;
+    }
+    else
+    {
+        Console.ForegroundColor = ConsoleColor.Yellow;
+        Console.WriteLine("\nThere is a problem in the queue. Timeout is {0} seconds.", 
+            timeoutSeconds);
+        Console.WriteLine("\tQueue JobState: {0}", jobState.ToString());
+        Console.ResetColor();
+    }
+    Console.WriteLine();
+   ```
 
 ## Listing the published projects
 <a name="pj15_GettingStartedCSOM_ListingPublished"> </a>
@@ -285,21 +280,21 @@ The **ListPublishedProjects** method gets the collection of all projects that ar
 
 1. Add the **ListPublishedProjects** method to the **Program** class. 
     
-  ```cs
-  // List the published projects.
-  private static void ListPublishedProjects()
-  {
-      // Get the list of projects on the server.
-      projContext.Load(projContext.Projects);
-      projContext.ExecuteQuery();
-      Console.WriteLine("\nProject ID : Project name : Created date");
-      foreach (PublishedProject pubProj in projContext.Projects)
-      {
-          Console.WriteLine("\n\t{0} :\n\t{1} : {2}", pubProj.Id.ToString(), pubProj.Name,
-              pubProj.CreatedDate.ToString());
-      }
-  }
-  ```
+   ```cs
+    // List the published projects.
+    private static void ListPublishedProjects()
+    {
+        // Get the list of projects on the server.
+        projContext.Load(projContext.Projects);
+        projContext.ExecuteQuery();
+        Console.WriteLine("\nProject ID : Project name : Created date");
+        foreach (PublishedProject pubProj in projContext.Projects)
+        {
+            Console.WriteLine("\n\t{0} :\n\t{1} : {2}", pubProj.Id.ToString(), pubProj.Name,
+                pubProj.CreatedDate.ToString());
+        }
+    }
+   ```
 
 2. Set the correct value for your Project Web App URL, compile the **QueueCreateProject** application, and then test the application as in Procedure 6. 
     
@@ -312,79 +307,79 @@ When you first run the **QueueCreateProject** application on a test instance of 
 
 1. Open the **QueueCreateProject Properties** window, select the **Debug** tab, and then add the following command-line arguments in the **Start Options** section:  `-n "Test proj 1" -t 20`
     
-    Run the application (for example, press **F5**). If the timeout value is long enough, the application shows the following output (if other published projects exist in your Project Web App instance, they will also be shown):
+   Run the application (for example, press **F5**). If the timeout value is long enough, the application shows the following output (if other published projects exist in your Project Web App instance, they will also be shown):
     
-  ```
-  Creating project: Test proj 1 ...
-  Project ID : Project name : Created date
-          b34d7009-753f-4abb-9191-f4b15a82aac3 :
-          Test proj 1 : 9/22/2011 11:27:57 AM
-  Press any key to exit...
-  ```
+   ```MS-DOS
+    Creating project: Test proj 1 ...
+    Project ID : Project name : Created date
+            b34d7009-753f-4abb-9191-f4b15a82aac3 :
+            Test proj 1 : 9/22/2011 11:27:57 AM
+    Press any key to exit...
+   ```
 
-2. Run another test with the following command-line arguments, to use the default 10-second queue timeout:  `-n "Test proj 1"`
+2. Run another test with the following command-line arguments, to use the default 10-second queue timeout: `-n "Test proj 1"`
     
-    Because Test proj 1 already exists, the application shows the following output.
+   Because Test proj 1 already exists, the application shows the following output.
     
-  ```
-  Creating project: Test proj 1 ...
-  Error: PJClientCallableException: ProjectNameAlreadyExists
-  ProjectNameAlreadyExists
-  projName = Test proj 1
-  Project creation failed: Test proj 1
-  Press any key to exit...
-  ```
+   ```MS-DOS
+    Creating project: Test proj 1 ...
+    Error: PJClientCallableException: ProjectNameAlreadyExists
+    ProjectNameAlreadyExists
+    projName = Test proj 1
+    Project creation failed: Test proj 1
+    Press any key to exit...
+   ```
 
 3. Run another test with the following command-line arguments, to use the default 10-second queue timeout:  `-n "Test proj 2"`
     
-    The **QueueCreateProject** application creates and publishes the project named Test proj 2. 
+   The **QueueCreateProject** application creates and publishes the project named Test proj 2. 
     
 4. Run another test with the following command-line arguments, and set the timeout to be too short for the queue job to finish:  `-n "Test proj 3" -t 1`
     
-    Because the queue timeout is too short, the project is not created. The application shows the following output.
+   Because the queue timeout is too short, the project is not created. The application shows the following output.
     
-  ```
-  Creating project: Test proj 3 ...
-  There is a problem in the queue. Timeout is 1 seconds.
-          Queue JobState: Unknown
-  Project creation failed: Test proj 3
-  Press any key to exit...
-  ```
+   ```MS-DOS
+    Creating project: Test proj 3 ...
+    There is a problem in the queue. Timeout is 1 seconds.
+            Queue JobState: Unknown
+    Project creation failed: Test proj 3
+    Press any key to exit...
+   ```
 
 5. Modify the code so that the application does not wait for the queue job. For example, comment out the code that waits for the queue, except for the  `projCreated = true` line, as follows. 
     
-  ```cs
-  //JobState jobState = projContext.WaitForQueue(qJob, timeoutSeconds);
-  //if (jobState == JobState.Success)
-  //{
-  projCreated = true;
-  //}
-  //else
-  //{
-  //    Console.ForegroundColor = ConsoleColor.Yellow;
-  //    Console.WriteLine("\nThere is a problem in the queue. Timeout is {0} seconds.",
-  //        timeoutSeconds);
-  //    Console.WriteLine("\tQueue JobState: {0}", jobState.ToString());
-  //    Console.ResetColor();
-  //}
-  
-  ```
+   ```cs
+    //JobState jobState = projContext.WaitForQueue(qJob, timeoutSeconds);
+    //if (jobState == JobState.Success)
+    //{
+    projCreated = true;
+    //}
+    //else
+    //{
+    //    Console.ForegroundColor = ConsoleColor.Yellow;
+    //    Console.WriteLine("\nThere is a problem in the queue. Timeout is {0} seconds.",
+    //        timeoutSeconds);
+    //    Console.WriteLine("\tQueue JobState: {0}", jobState.ToString());
+    //    Console.ResetColor();
+    //}
+    
+   ```
 
 6. Recompile the application and run another test with the following command-line arguments:  `-n "Test proj 4"`
     
-    Because the **WaitForQueue** routine is commented out, the application does not use the default timeout value. Even though the application does not wait for the queue, it may show Test proj 4, if the publish action in Project Server is fast enough. 
+   Because the **WaitForQueue** routine is commented out, the application does not use the default timeout value. Even though the application does not wait for the queue, it may show Test proj 4, if the publish action in Project Server is fast enough. 
     
-  ```
-  Creating project: Test proj 4 ...
-  Project ID : Project name : Created date
-          cdd54103-082f-425c-b075-9ff52ac7d4e6 :
-          Test proj 2 : 9/25/2011 4:28:55 PM
-          b34d7009-753f-4abb-9191-f4b15a82aac3 :
-          Test proj 1 : 9/22/2011 11:27:57 AM
-          5c0c73f2-f5dd-499b-8bd8-ebb74bf8c122 :
-          Test proj 4 : 9/25/2011 4:39:21 PM
-  Press any key to exit...
-  ```
+   ```MS-DOS
+    Creating project: Test proj 4 ...
+    Project ID : Project name : Created date
+            cdd54103-082f-425c-b075-9ff52ac7d4e6 :
+            Test proj 2 : 9/25/2011 4:28:55 PM
+            b34d7009-753f-4abb-9191-f4b15a82aac3 :
+            Test proj 1 : 9/22/2011 11:27:57 AM
+            5c0c73f2-f5dd-499b-8bd8-ebb74bf8c122 :
+            Test proj 4 : 9/25/2011 4:39:21 PM
+    Press any key to exit...
+   ```
 
 Refresh the Project Center page in Project Web App ( `http://ServerName/ProjectServerName/Projects.aspx`), to show the published projects. Figure 1 shows that the test projects are published.
 **Figure 1. Checking the published projects in Project Web App**
@@ -578,8 +573,7 @@ namespace QueueCreateProject
 ## See also
 <a name="pj15_GettingStartedCSOM_AR"> </a>
 
-- [Updates for developers in Project 2013](updates-for-developers-in-project-2013.md)
-    
+- [Updates for developers in Project 2013](updates-for-developers-in-project-2013.md) 
 - [Client-side object model (CSOM) for Project 2013](client-side-object-model-csom-for-project-2013.md)
     
 

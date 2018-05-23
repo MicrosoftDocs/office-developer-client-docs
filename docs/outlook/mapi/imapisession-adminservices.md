@@ -51,7 +51,7 @@ S_OK
 
 The **IMAPISession::AdminServices** method creates a message service administration object, an object that supports the **IMsgServiceAdmin** interface and returns a pointer. By using this pointer, you can call **IMsgServiceAdmin** methods to change any of the message services in the session profile. Be aware that these changes do not take effect until the next session; the current session is unaffected. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

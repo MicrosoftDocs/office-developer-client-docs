@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Contains the e-mail address type, such as SMTP, for the messaging user who actually receives the message.
+Contains the email address type, such as SMTP, for the messaging user who actually receives the message.
   
 |||
 |:-----|:-----|
@@ -47,7 +47,7 @@ The address type string can contain only the uppercase alphabetic characters A t
     
 [[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Specifies the properties and operations that are permissible on e-mail messages.
+> Specifies the properties and operations that are permissible on email messages.
     
 ### Header files
 

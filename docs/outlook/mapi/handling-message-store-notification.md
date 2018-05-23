@@ -1,5 +1,5 @@
 ---
-title: "Handling Message Store Notification"
+title: "Handling message store notification"
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -8,13 +8,9 @@ api_type:
 - COM
 ms.assetid: 3e0cc2f9-a88d-4cec-bef5-b60f2ec80f1c
 description: "Last modified: March 09, 2015"
- 
- 
 ---
 
-# Handling Message Store Notification
-
-  
+# Handling message store notification
   
 **Applies to**: Outlook 
   
@@ -40,7 +36,7 @@ Because there are no strict guidelines that describe how to implement event noti
 |Delete a folder  <br/> | _fnevObjectDeleted_ <br/> |Message store Deleted folder  <br/> |
 |Move a folder from one folder to another  <br/> | _fnevObjectMoved_ <br/> |Message store Moved folder  <br/> |
 |Copy a folder from one folder to another  <br/> | _fnevObjectCopied_ <br/> |Message store and copied folder (no  _fnevObjectCreated_ notification sent for the new copy of the folder)  <br/> |
-|Change in a computed folder property ( **PR_SUBFOLDERS** ([PidTagSubfolders](pidtagsubfolders-canonical-property.md)), **PR_CONTENT_UNREAD** ([PidTagContentUnreadCount](pidtagcontentunreadcount-canonical-property.md)), **PR_CONTENT_COUNT** ([PidTagContentCount](pidtagcontentcount-canonical-property.md))  <br/> | _fnevObjectModified_ <br/> |Message store Changed folder (No notification to parent folder)  <br/> |
+|Change in a computed folder property (**PR_SUBFOLDERS** ([PidTagSubfolders](pidtagsubfolders-canonical-property.md)), **PR_CONTENT_UNREAD** ([PidTagContentUnreadCount](pidtagcontentunreadcount-canonical-property.md)), **PR_CONTENT_COUNT** ([PidTagContentCount](pidtagcontentcount-canonical-property.md))  <br/> | _fnevObjectModified_ <br/> |Message store Changed folder (No notification to parent folder)  <br/> |
 |Create a message  <br/> | _fnevObjectCreated_ <br/> |Message store  <br/> |
 |Delete a message, causing a change in the parent folder's **PR_CONTENT_COUNT** property  <br/> | _fnevObjectDeleted_ <br/> |Message store Deleted message  <br/> |
 |Move a message from one folder to another  <br/> | _fnevObjectMoved_ <br/> |Message store Moved message  <br/> |

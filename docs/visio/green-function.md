@@ -20,7 +20,7 @@ Returns the green component of a color.
   
 ## Syntax
 
-GREEN( ** *expression* ** ) 
+GREEN(** *expression* ** ) 
   
 ### Parameters
 

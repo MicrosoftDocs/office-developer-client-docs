@@ -29,7 +29,7 @@ Contains TRUE if a message sender wants the messaging system to generate a read 
 |Associated properties:  <br/> |PR_READ_RECEIPT_REQUESTED  <br/> |
 |Identifier:  <br/> |0x0029  <br/> |
 |Data type:  <br/> |PT_BOOLEAN  <br/> |
-|Area:  <br/> |E-mail  <br/> |
+|Area:  <br/> |Email  <br/> |
    
 ## Remarks
 
@@ -47,7 +47,7 @@ If a message with **PR_READ_RECEIPT_REQUESTED** set is deleted or expires before
     
 [[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Specifies the properties and operations that are permissible for e-mail message objects.
+> Specifies the properties and operations that are permissible for email message objects.
     
 ### Header files
 

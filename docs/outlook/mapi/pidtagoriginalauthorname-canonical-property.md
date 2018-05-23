@@ -29,7 +29,7 @@ Contains the display name of the author of the first version of a message, that 
 |Associated properties:  <br/> |PR_ORIGINAL_AUTHOR_NAME, PR_ORIGINAL_AUTHOR_NAME_A, PR_ORIGINAL_AUTHOR_NAME_W  <br/> |
 |Identifier:  <br/> |0x004D  <br/> |
 |Data type:  <br/> |PT_UNICODE, PT_STRING8  <br/> |
-|Area:  <br/> |E-mail  <br/> |
+|Area:  <br/> |Email  <br/> |
    
 ## Remarks
 

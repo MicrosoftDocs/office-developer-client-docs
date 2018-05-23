@@ -20,7 +20,7 @@ Returns the hyperbolic cosine of an angle.
   
 ## Syntax
 
-COSH( *angle*  ) 
+COSH( *angle*) 
   
 ### Parameters
 

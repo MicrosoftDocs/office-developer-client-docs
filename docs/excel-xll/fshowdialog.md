@@ -30,7 +30,7 @@ int WINAPI fShowDialog(void);
 
 The function takes no parameters.
   
-## Property Value/Return Value
+## Property value/Return value
 
 The function return integer zero to indicate successful completion
   

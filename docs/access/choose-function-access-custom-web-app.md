@@ -1,18 +1,14 @@
 ---
-title: "Choose Function (Access custom web app)"
-  
-  
+title: "Choose function (Access custom web app)" 
 manager: kelbow
 ms.date: 9/5/2017
 ms.audience: Developer
- 
-  
 localization_priority: Normal
 ms.assetid: 70c1ac24-a28f-4401-91d3-61129578bebd
 description: "Returns the item at the specified index from a list of values."
 ---
 
-# Choose Function (Access custom web app)
+# Choose function (Access custom web app)
 
 Returns the item at the specified index from a list of values.
   
@@ -21,7 +17,7 @@ Returns the item at the specified index from a list of values.
   
 ## Syntax
 
- **Choose** (  *IndexNumber*  ,  *Value*  [,  *Value_n*  ]) 
+**Choose** (*IndexNumber*, *Value*, [*Value_n*]) 
   
 The **Choose** function contains the following arguments. 
   
@@ -34,6 +30,6 @@ The **Choose** function contains the following arguments.
 
 If the provided  *IndexNumber*  is not an integer, then the value is implicitly converted to an integer. 
   
-If the index value exceeds the bounds of the array of values, then **Choose** returns NULL. 
+If the index value exceeds the bounds of the array of values, **Choose** returns NULL. 
   
 

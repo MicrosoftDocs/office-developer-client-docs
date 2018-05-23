@@ -44,13 +44,9 @@ _ulFlags_
   
 > [in] Bitmask of flags used to indicate the RTF or plain text version of the message has changed. The following flags can be set:
     
-RTF_SYNC_BODY_CHANGED 
-  
-> The plain text version of the message has changed.
-    
-RTF_SYNC_RTF_CHANGED 
-  
-> The RTF version of the message has changed.
+  - RTF_SYNC_BODY_CHANGED: The plain text version of the message has changed.
+      
+  - RTF_SYNC_RTF_CHANGED: The RTF version of the message has changed.
     
   All other bits in the  _ulFlags_ parameter are reserved for future use. 
     

@@ -25,7 +25,9 @@ Many of the code samples included in the [Project Server 2013 class library and 
 New PSI samples in the Project 2013 SDK conform to a format that uses Windows Communication Foundation (WCF) services. The ASMX-based samples can also be adapted to use WCF services. This article shows how to use the samples with ASMX web services. For information about using the samples with WCF services, see [Prerequisites for WCF-based code samples in Project](prerequisites-for-wcf-based-code-samples-in-project.md).
   
 > [!NOTE]
-> The ASMX web service interface of the PSI is deprecated in Project Server 2013, but is still supported. > If the client-side object model (CSOM) includes the methods that your application requires, new applications should be developed with the CSOM. The CSOM enables applications to work with Project Online or an on-premises installation of Project Server 2013. Otherwise, if your application uses the PSI, it should use the WCF interface, which is the technology that we recommend for network communications. Applications that use the ASMX interface or the WCF interface can work only for on-premises installations of Project Server 2013. > For more information about the CSOM, see [Project Server 2013 architecture](project-server-2013-architecture.md) and [Client-side object model (CSOM) for Project 2013](client-side-object-model-csom-for-project-2013.md). 
+> The ASMX web service interface of the PSI is deprecated in Project Server 2013, but is still supported. 
+> If the client-side object model (CSOM) includes the methods that your application requires, new applications should be developed with the CSOM. The CSOM enables applications to work with Project Online or an on-premises installation of Project Server 2013. Otherwise, if your application uses the PSI, it should use the WCF interface, which is the technology that we recommend for network communications. Applications that use the ASMX interface or the WCF interface can work only for on-premises installations of Project Server 2013. 
+> For more information about the CSOM, see [Project Server 2013 architecture](project-server-2013-architecture.md) and [Client-side object model (CSOM) for Project 2013](client-side-object-model-csom-for-project-2013.md). 
   
 Before running the code samples, you must set up the development environment, configure the application, and change generic constant values to match your environment.
   
@@ -34,28 +36,27 @@ Before running the code samples, you must set up the development environment, co
 
 1. **Set up a test Project Server system**.
     
-    Use a test Project Server system whenever you are developing or testing. Even when your code works perfectly, interproject dependencies, reporting, or other environmental factors can cause unintended consequences. 
+   Use a test Project Server system whenever you are developing or testing. Even when your code works perfectly, interproject dependencies, reporting, or other environmental factors can cause unintended consequences. 
     
-    > [!NOTE]
-    > Ensure that you are a valid user on the server, and check that you have sufficient permissions for the PSI calls that your application uses. The reference topic for each PSI method includes a Project Server Permissions table. For example, the [Project.QueueCreateProject](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueCreateProject.aspx) method requires the global **NewProject** permission and the **SaveProjectTemplate** permission. 
+   > [!NOTE]
+   > Ensure that you are a valid user on the server, and check that you have sufficient permissions for the PSI calls that your application uses. The reference topic for each PSI method includes a Project Server Permissions table. For example, the [Project.QueueCreateProject](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueCreateProject.aspx) method requires the global **NewProject** permission and the **SaveProjectTemplate** permission. 
   
-    In some cases, you may have to do remote debugging on the server. You may also have to set up an event handler by installing an event handler assembly on each Project Server computer in the SharePoint farm, and then configuring the event handler for the Project Web App instance by using the Project Server Settings page in the General Application Settings of SharePoint Central Administration.
+   In some cases, you may have to do remote debugging on the server. You may also have to set up an event handler by installing an event handler assembly on each Project Server computer in the SharePoint farm, and then configuring the event handler for the Project Web App instance by using the Project Server Settings page in the General Application Settings of SharePoint Central Administration.
     
 2. **Set up a development computer.**
     
-    You usually access the PSI through a network. The code samples are designed to be run on a client that is separate from the server, except where noted.
+   You usually access the PSI through a network. The code samples are designed to be run on a client that is separate from the server, except where noted.
     
-3. **Install the correct version of Visual Studio.** Except where noted, the code samples are written in Visual C#. They can be used with Visual Studio 2010 or Visual Studio 2012. Ensure that you have the most recent service pack installed. 
+   1. **Install the correct version of Visual Studio.** Except where noted, the code samples are written in Visual C#. They can be used with Visual Studio 2010 or Visual Studio 2012. Ensure that you have the most recent service pack installed. 
+        
+   2. **Copy Project Server DLLs to the development computer.** Copy the following assemblies from  `[Program Files]\Microsoft Office Servers\15.0\Bin` on the Project Server computer to the development computer: 
+        
+      - Microsoft.Office.Project.Server.Events.Receivers.dll
+      - Microsoft.Office.Project.Server.Library.dll
+        
+   3. For information about how to compile and use the ProjectServerServices.dll proxy assembly for the ASMX web services in the PSI, see [Using a PSI proxy assembly and IntelliSense descriptions](#pj15_PrerequisitesASMX_BuildingProxy).
     
-4. **Copy Project Server DLLs to the development computer.** Copy the following assemblies from  `[Program Files]\Microsoft Office Servers\15.0\Bin` on the Project Server computer to the development computer: 
-    
-  - Microsoft.Office.Project.Server.Events.Receivers.dll
-    
-  - Microsoft.Office.Project.Server.Library.dll
-    
-5. For information about how to compile and use the ProjectServerServices.dll proxy assembly for the ASMX web services in the PSI, see [Using a PSI proxy assembly and IntelliSense descriptions](#pj15_PrerequisitesASMX_BuildingProxy).
-    
-6. **Install the IntelliSense files.**
+3. **Install the IntelliSense files.**
     
     To use IntelliSense descriptions for classes and members in Project Server assemblies, copy the updated IntelliSense XML files from the Project 2013 SDK download to the same directory where the Project Server assemblies are located. For example, copy the Microsoft.Office.Project.Server.Library.xml file to the directory where your application will set a reference to the Microsoft.Office.Project.Server.Library.dll assembly.
     
@@ -66,37 +67,37 @@ Before running the code samples, you must set up the development environment, co
 
 1. **Create a console application**.
     
-    When you create a console application, in the drop-down list of the **New Project** dialog box, select **.NET Framework 4**. You can copy the PSI example code into the new application.
+   When you create a console application, in the drop-down list of the **New Project** dialog box, select **.NET Framework 4**. You can copy the PSI example code into the new application.
     
 2. **Add the reference required for ASMX.**
     
-    In Solution Explorer, add a reference to **System.Web.Services** (see Figure 1). 
+   In Solution Explorer, add a reference to **System.Web.Services** (see Figure 1). 
     
    **Figure 1. Adding a reference in Visual Studio**
 
-     ![Adding a reference in Visual Studio](media/pj15_PrerequisitesASMX_AddReference.gif)
+   ![Adding a reference in Visual Studio](media/pj15_PrerequisitesASMX_AddReference.gif)
   
 3. **Copy the code**.
     
-    Copy the complete code example into the Program.cs file of the console application.
+   Copy the complete code example into the Program.cs file of the console application.
     
 4. **Set the namespace for the sample application**.
     
-    You can either change the namespace listed at the top of the sample to the application default namespace, or change the default application namespace to match the sample. You can change the default application namespace by changing the application properties.
+   You can either change the namespace listed at the top of the sample to the application default namespace, or change the default application namespace to match the sample. You can change the default application namespace by changing the application properties.
     
-    For example, the code sample for [QueueRenameProject](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueRenameProject.aspx) has the namespace **Microsoft.SDK.Project.Samples.RenameProject**. If the name of the Visual Studio project is **RenameProject**, copy the namespace from the Program.cs file, and then open the project **Properties** pane (on the **Project** menu, choose **RenameProject Properties**). On the **Application** tab, copy the namespace into the **Default namespace** text box. 
+   For example, the code sample for [QueueRenameProject](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueRenameProject.aspx) has the namespace **Microsoft.SDK.Project.Samples.RenameProject**. If the name of the Visual Studio project is **RenameProject**, copy the namespace from the Program.cs file, and then open the project **Properties** pane (on the **Project** menu, choose **RenameProject Properties**). On the **Application** tab, copy the namespace into the **Default namespace** text box. 
     
 5. **Set the web references**.
     
-    Most examples require a reference to one or more of the PSI web services. These are listed in the sample itself or in comments that precede the sample. To get the correct namespace of the web references, ensure that you first set the default application namespace.
+   Most examples require a reference to one or more of the PSI web services. These are listed in the sample itself or in comments that precede the sample. To get the correct namespace of the web references, ensure that you first set the default application namespace.
     
-    There are three ways to add an ASMX web service reference for the PSI:
+   There are three ways to add an ASMX web service reference for the PSI:
     
-  - Build a PSI proxy assembly named ProjectServerServices.dll, and then set a reference to the assembly. To get IntelliSense, this is the recommended way to add a PSI reference. See [Using a PSI proxy assembly and IntelliSense descriptions](#pj15_PrerequisitesASMX_BuildingProxy).
+   - Build a PSI proxy assembly named ProjectServerServices.dll, and then set a reference to the assembly. To get IntelliSense, this is the recommended way to add a PSI reference. See [Using a PSI proxy assembly and IntelliSense descriptions](#pj15_PrerequisitesASMX_BuildingProxy).
     
-  - Add a proxy file from the wsdl.exe output to the Visual Studio solution. See [Adding a PSI proxy file](#pj15_PrerequisitesASMX_AddingProxyFile).
+   - Add a proxy file from the wsdl.exe output to the Visual Studio solution. See [Adding a PSI proxy file](#pj15_PrerequisitesASMX_AddingProxyFile).
     
-  - Add a web service reference by using Visual Studio. See [Adding a web service reference](#pj15_PrerequisitesASMX_AddingServiceReference).
+   - Add a web service reference by using Visual Studio. See [Adding a web service reference](#pj15_PrerequisitesASMX_AddingServiceReference).
 
 <a name="pj15_PrerequisitesASMX_BuildingProxy"> </a>
 
@@ -105,11 +106,12 @@ Before running the code samples, you must set up the development environment, co
 You can build and use the ProjectServerServices.dll proxy assembly for all ASMX-based web services in the PSI, by using the CompileASMXProxyAssembly.cmd script in the  `Documentation\IntelliSense\WSDL` folder of the Project 2013 SDK download. For a link to the download, see [Project 2013 developer documentation](project-2013-developer-documentation.md).
   
 > [!NOTE]
-> When you extract the proxy source files from the Source.zip file, the files in the  `Documentation\IntelliSense\WSDL\Source` folder are current as of the publication date of the Project 2013 SDK download. To generate updated PSI proxy source files, run the GenASMXProxyAssembly.cmd script on the Project Server computer. > The scripts in the  `Documentation\IntelliSense\WCF` folder do not work for ASMX-based applications. The GenWCFProxyAssembly.cmd script calls SvcUtil.exe, which generates source code files for the WCF services. The WCF proxy files include different attributes, the channel interface, and a client class for each PSI service. For example, the WCF-based Resource service includes the **ResourceChannel** interface, the **Resource** interface, and the **ResourceClient** class. The ASMX-based Resource web includes the **Resource** class with some different properties. 
+> When you extract the proxy source files from the Source.zip file, the files in the  `Documentation\IntelliSense\WSDL\Source` folder are current as of the publication date of the Project 2013 SDK download. To generate updated PSI proxy source files, run the GenASMXProxyAssembly.cmd script on the Project Server computer. 
+> The scripts in the  `Documentation\IntelliSense\WCF` folder do not work for ASMX-based applications. The GenWCFProxyAssembly.cmd script calls SvcUtil.exe, which generates source code files for the WCF services. The WCF proxy files include different attributes, the channel interface, and a client class for each PSI service. For example, the WCF-based Resource service includes the **ResourceChannel** interface, the **Resource** interface, and the **ResourceClient** class. The ASMX-based Resource web includes the **Resource** class with some different properties. 
   
 Following is the GenASMXProxyAssembly.cmd script that generates WSDL output files for the PSI web services, and then compiles the assembly.
   
-```
+```MS-DOS
 @echo off
 @ECHO ---------------------------------------------------
 @ECHO Creating C# files for the ASMX-based proxy assembly
@@ -179,7 +181,7 @@ Disadvantages to using the proxy assembly are that the solution is larger and yo
 
 The Project 2013 SDK download includes the source files generated by the Wsdl.exe command for the proxy assembly. The source files are in Source.zip in the  `Documentation\IntelliSense\ASMX` subdirectory. Instead of setting a reference to the proxy assembly, you can add one or more of the source files to a Visual Studio solution. For example, after running the GenASMXProxyAssembly.cmd script, add the wsdl.Project.cs file to the solution. Instead of running the script, you can run the following commands to generate a single source file, for example: 
   
-```cs
+```MS-DOS
 set VDIR=http://ServerName/ProjectServerName/_vti_bin/psi
 set WSDL="C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin\x64\wsdl.exe"
 %WSDL% /nologo /l:cs /namespace:SvcProject /out:wsdl.Project.cs %VDIR%/Project.asmx?wsdl
@@ -217,23 +219,21 @@ If you do not use the ASMX-based proxy assembly or add a WSDL output file, you c
     
 3. In the **Service Reference Settings** dialog box, choose **Add Web Reference**.
     
-4. In the **URL** text box, type http:// _ServerName_/ _ProjectServerName_/_vti_bin/psi/ _ServiceName_.asmx?wsdl, and then press **Enter** or choose the **Go** icon. If you have Secure Sockets Layer (SSL) installed, you should use the HTTPS protocol instead of the HTTP protocol. For example, use the following URL for the Project service on the  `http://MyServer/pwa` site for Project Web App: 
-  
- `http://MyServer/pwa/_vti_bin/psi/project.asmx?wsdl`
+4. In the **URL** text box, type `http:// _ServerName_/ _ProjectServerName_/_vti_bin/psi/ _ServiceName_.asmx?wsdl`, and then press **Enter** or choose the **Go** icon. If you have Secure Sockets Layer (SSL) installed, you should use the HTTPS protocol instead of the HTTP protocol. 
+
+   For example, use the following URL for the Project service on the  `http://MyServer/pwa` site for Project Web App: `http://MyServer/pwa/_vti_bin/psi/project.asmx?wsdl`
     
-    **OR**
-    
-    Open your web browser, and navigate to  `http://ServerName/ProjectServerName/_vti_bin/psi/ServiceName.asmx?wsdl`. Save the file to a local directory, such as  `C:\Project\WebServices\ServiceName.wsdl`. In the **Add Web Reference** dialog box, for **URL**, type the file protocol and the path to the file. For example, type file://C:\Project\WebServices\Project.wsdl. 
+   Or, open your web browser, and navigate to `http://ServerName/ProjectServerName/_vti_bin/psi/ServiceName.asmx?wsdl`. Save the file to a local directory, such as `C:\Project\WebServices\ServiceName.wsdl`. In the **Add Web Reference** dialog box, for **URL**, type the file protocol and the path to the file. For example, type `file://C:\Project\WebServices\Project.wsdl`. 
     
 5. After the reference resolves, type the reference name in the **Web reference name** text box. Code examples in the Project 2013 developer documentation use the arbitrary standard reference name **Svc _ServiceName_**. For example, the Project web service is named **SvcProject** (see Figure 3). 
     
    **Figure 3. Adding an ASMX web service reference**
 
-     ![Adding an ASMX web service reference](media/pj15_PrerequisitesASMX_AddWebSvcReference.gif)
+   ![Adding an ASMX web service reference](media/pj15_PrerequisitesASMX_AddWebSvcReference.gif)
   
 For application components that must run on the Project Server computer, use impersonation, or have elevated permissions, use a WCF service reference instead of an ASMX web reference. For more information, see [Prerequisites for WCF-based code samples in Project](prerequisites-for-wcf-based-code-samples-in-project.md).
   
-## Setting Other References
+## Setting other references
 <a name="pj15_PrerequisitesASMX_OtherReferences"> </a>
 
 Project Server applications often use other services, such as SharePoint Server 2013 web services. If other services are required, they are noted in the example.
@@ -252,10 +252,7 @@ Local references for the code sample are listed in **using** statements at the t
 
 Authentication of on-premises Project Server users, whether by Windows authentication or Forms authentication, is done through claims processing in SharePoint Server 2013. Multiple authentication means that the web application on which Project Web App is provisioned supports both Windows authentication and Forms-based authentication. If that is the case, a call to an ASMX web service that uses Windows authentication will fail with the following error, because the claims process cannot determine which type of user to authenticate:
   
-```
-The server was unable to process the request due to an internal error. 
-. . .
-```
+`The server was unable to process the request due to an internal error. . . .`
 
 To fix the problem for ASMX, all calls to PSI methods should be to a derived class that is defined for each PSI web service. The derived class must also use the **SvcLoginWindows.LoginWindows** class to get a cookie for the derived PSI service class. In the following example, the **ProjectDerived** class derives from the **SvcProject.Project** class. The derived class adds the **EnforceWindowsAuth** property and overrides the web request header for every call to a method in the **Project** class. If the **EnforceWindowsAuth** property is **true**, the **GetWebRequest** method adds a header that disables Forms authentication. If **EnforceWindowsAuth** is **false**, Forms authentication can proceed.
   
@@ -394,16 +391,16 @@ You can verify code sample results in several ways, for example:
     
 - Use **Microsoft SQL Server Management Studio** to run a query on a table in the Project database. For example, use the following query to select the top 200 rows of the pub.MSP_WORKFLOW_STAGE_PDPS table to show information about the project detail pages (PDPs) in workflow stages. 
     
-  ```
-  SELECT TOP 200 [STAGE_UID]
-        ,[PDP_UID]
-        ,[PDP_NAME]
-        ,[PDP_POSITION]
-        ,[PDP_ID]
-        ,[PDP_STAGE_DESCRIPTION]
-        ,[PDP_REQUIRES_ATTENTION]
-    FROM [ProjectService].[pub].[MSP_WORKFLOW_STAGE_PDPS]
-  ```
+   ```sql
+    SELECT TOP 200 [STAGE_UID]
+            ,[PDP_UID]
+            ,[PDP_NAME]
+            ,[PDP_POSITION]
+            ,[PDP_ID]
+            ,[PDP_STAGE_DESCRIPTION]
+            ,[PDP_REQUIRES_ATTENTION]
+        FROM [ProjectService].[pub].[MSP_WORKFLOW_STAGE_PDPS]
+   ```
 
 ## Cleaning up
 <a name="pj15_PrerequisitesASMX_Cleanup"> </a>
@@ -440,11 +437,8 @@ Additional settings are managed by SharePoint Server 2013 for each Project Web A
 <a name="pj15_PrerequisitesASMX_AR"> </a>
 
 - [Prerequisites for WCF-based code samples in Project](prerequisites-for-wcf-based-code-samples-in-project.md)
-    
 - [Use Impersonation with WCF](http://msdn.microsoft.com/library/e3597901-2f02-44a2-8076-d32aae540b38%28Office.15%29.aspx)
-    
 - [Project PSI reference overview](project-psi-reference-overview.md)
-    
 - [SharePoint Developer Center](http://msdn.microsoft.com/en-us/sharepoint/default.aspx)
     
 

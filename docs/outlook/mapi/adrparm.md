@@ -1,7 +1,5 @@
 ---
 title: "ADRPARM"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -18,8 +16,6 @@ description: "Last modified: March 09, 2015"
 
 # ADRPARM
 
-  
-  
 **Applies to**: Outlook 
   
 Describes the display and behavior of the common address dialog box. 
@@ -55,15 +51,15 @@ typedef struct _ADRPARM
 
 ## Members
 
- **cbABContEntryID**
+**cbABContEntryID**
   
 > Count of bytes in the entry identifier pointed to by **lpABContEntryID**.
     
- **lpABContEntryID**
+**lpABContEntryID**
   
 > Pointer to the entry identifier of the container that supplies the initial list of recipient addresses that are displayed in the address dialog box.
     
- **ulFlags**
+**ulFlags**
   
 > Bitmask of flags associated with various address dialog box options. The following flags can be set:
     
@@ -91,89 +87,89 @@ DIALOG_SDI
   
 > Causes the modeless version of the common address dialog box to be displayed. Either this flag or DIALOG_MODAL should be set; they cannot both be set. The DIALOG_SDI flag is ignored for non-Outlook clients, and the modal version of the dialog box will be displayed. Consequently, a pointer to a handle should not be expected in the  _lpulUIParam_ parameter of [IAddrBook::Address](iaddrbook-address.md).
     
- **lpReserved**
+**lpReserved**
   
 > Reserved, must be zero.
     
- **ulHelpContext**
+**ulHelpContext**
   
 > Specifies the context within **Help** that will first be shown when the user clicks the Help button in the address dialog box. 
     
- **lpszHelpFileName**
+**lpszHelpFileName**
   
 > Pointer to the name of a Help file that will be associated with the address dialog box. The **lpszHelpFileName** member is used together with **ulHelpContext** to call the Windows **WinHelp** function. 
     
- **lpfnABSDI**
+**lpfnABSDI**
   
 > Pointer to a MAPI function based on the [ACCELERATEABSDI](accelerateabsdi.md) prototype or NULL. This member applies to the modeless version of the dialog box only, as indicated by the DIALOG_SDI flag being set. Clients building an **ADRPARM** structure to pass to [IAddrBook::Address](iaddrbook-address.md) must always set the **lpfnABSDI** member to NULL. If the DIALOG_SDI flag is set, MAPI will then set it to a valid function before returning. Clients call this function from in their message loop to make sure that accelerators in the address book dialog box work. When the dialog box is dismissed and MAPI calls the function pointed to by the **lpfnDismiss** member, clients should unhook the **ACCELERATEABSDI** function from their message loop. 
     
- **lpfnDismiss**
+**lpfnDismiss**
   
 > Pointer to a function based on the [DISMISSMODELESS](dismissmodeless.md) prototype or NULL. This member applies only to the modeless version of the dialog box only, as indicated by the DIALOG_SDI flag being set. MAPI calls the **DISMISSMODELESS** function when the user dismisses the modeless address dialog box, informing a client calling **IAddrBook::Address** that the dialog box is no longer active. 
     
- **lpvDismissContext**
+**lpvDismissContext**
   
 > Pointer to context information to be passed to the **DISMISSMODELESS** function pointed to by the **lpfnDismiss** member. This member applies only to the modeless version of the dialog box, as indicated by the DIALOG_SDI flag being set. 
     
- **lpszCaption**
+**lpszCaption**
   
 > Pointer to text to be used as the title for the common address dialog box.
     
- **lpszNewEntryTitle**
+**lpszNewEntryTitle**
   
 > Pointer to text to be used as the button label for the button that invokes either the **New Entry** dialog box or another dialog box. 
     
- **lpszDestWellsTitle**
+**lpszDestWellsTitle**
   
 > Pointer to text to be used as a title for the recipient text box controls that can appear in the modal version of the common address dialog box. This member is not used for modeless dialog boxes. 
     
- **cDestFields**
+**cDestFields**
   
 > Count of recipient text box controls in the modal version of the address dialog box, or zero if the dialog box is modeless. The address dialog box is open for browsing only when the following conditions are true: 
     
-    - The **cDestFields** member is set to zero. 
+  - The **cDestFields** member is set to zero. 
     
-    - The DIALOG_BOX flag is set.
+  - The DIALOG_BOX flag is set.
     
-    - The ADDRESS_ONE flag is not set.
+  - The ADDRESS_ONE flag is not set.
     
-    Setting **cDestFields** to 0XFFFFFFFF implies that MAPI should create the default number of recipient text box controls. In this case, the **lppszDestTitles** and **lpulDestComps** members must be NULL. 
+  Setting **cDestFields** to 0XFFFFFFFF implies that MAPI should create the default number of recipient text box controls. In this case, the **lppszDestTitles** and **lpulDestComps** members must be NULL. 
     
- **nDestFieldFocus**
+**nDestFieldFocus**
   
 > Indicates the particular text box control that should have the initial focus when the modal version of the dialog box appears. This value must be between 0 and the value of **cDestFields** minus 1. 
     
- **lppszDestTitles**
+**lppszDestTitles**
   
 > Pointer to an array of labels for buttons associated with each of the text box controls that are displayed in the modal version of the address dialog box. The value of the **cDestFields** member indicates the number of labels included in the array. If the **lppszDestTitles** member is NULL, the **Address** method uses default titles. 
     
- **lpulDestComps**
+**lpulDestComps**
   
 > Pointer to an array of recipient type values, such as MAPI_TO, MAPI_CC, and MAPI_BCC, that is associated with each text box control. The value of the **CDestFields** member indicates the number of recipient types included in the array. The values pointed to by **lpulDestComps** can be used to set the **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) property of each recipient. If the **lpulDestComps** member is NULL, the **Address** method uses default recipient types. 
     
- **lpContRestriction**
+**lpContRestriction**
   
 > Pointer to an [SRestriction](srestriction.md) structure that limits the type of address entries that can be displayed in the dialog box. 
     
- **lpHierRestriction**
+**lpHierRestriction**
   
 > Pointer to an **SRestriction** structure that limits the address book containers that can supply address entries to be displayed in the dialog box. 
     
 ## Remarks
 
- **ADRPARM** structures are used by clients and service providers to control the appearance and behavior of the MAPI common address dialog boxes. There are two varieties of the address dialog box: modeless and modal. Some of the members in the **ADRPARM** structure apply to both versions of the dialog box, but some only apply to one of the two versions. The following table relates the members of an **ADRPARM** structure to their use with the common address dialog boxes. 
+**ADRPARM** structures are used by clients and service providers to control the appearance and behavior of the MAPI common address dialog boxes. There are two varieties of the address dialog box: modeless and modal. Some of the members in the **ADRPARM** structure apply to both versions of the dialog box, but some only apply to one of the two versions. The following table relates the members of an **ADRPARM** structure to their use with the common address dialog boxes. 
   
-|**ADRPARM member**|**Type of dialog box**|
+|ADRPARM member|Type of dialog box|
 |:-----|:-----|
-|**cbABContEntryID** and ** lpABContEntryID ** <br/> |Modal and modeless  <br/> |
+|**cbABContEntryID** and **lpABContEntryID** <br/> |Modal and modeless  <br/> |
 |**ulFlags** <br/> |Modal and modeless  <br/> |
 |**lpReserved** <br/> |Modal and modeless  <br/> |
-|**ulHelpContext** and ** lpszHelpFileName ** <br/> |Modal and modeless  <br/> |
+|**ulHelpContext** and **lpszHelpFileName** <br/> |Modal and modeless  <br/> |
 |**lpfnABSDI** <br/> |Modeless  <br/> |
-|**lpfnDismiss** and ** lpvDismissContext ** <br/> |Modeless  <br/> |
+|**lpfnDismiss** and **lpvDismissContext** <br/> |Modeless  <br/> |
 |**lpszCaption** <br/> |Modal and modeless  <br/> |
 |**lpszNewEntryTitle** <br/> |Modal  <br/> |
-|**lpszDestWellsTitle**, **cDestFields**, **nDestFieldFocus**, ** lppszDestTitles **,and ** lpulDestComps ** <br/> |Modal  <br/> |
+|**lpszDestWellsTitle**, **cDestFields**, **nDestFieldFocus**, **lppszDestTitles**, and **lpulDestComps** <br/> |Modal  <br/> |
 |**lpContRestriction** <br/> |Modal and modeless  <br/> |
 |**lpHierRestriction** <br/> |Modal and modeless  <br/> |
    
@@ -191,26 +187,16 @@ The most significant four bits of the **ADRPARM** structure's **ulFlags** member
   
 Future versions of the structure may be completely different; they may not support the version-zero structure. The following macros are provided for extracting the version number from the **ulFlags** member and for combining it with the defined flags: 
   
- **GET_ADRPARM_VERSION** (  _ulFlags_) 
-  
- **SET_ADRPARM_VERSION** (  _ulFlags_, _ ulVersion _) 
-  
- **ADRPARM_HELP_CTX**
+- **GET_ADRPARM_VERSION** (_ulFlags_) 
+- **SET_ADRPARM_VERSION** (_ulFlags_, _ ulVersion _) 
+- **ADRPARM_HELP_CTX**
   
 ## See also
 
-
-
-[ACCELERATEABSDI](accelerateabsdi.md)
-  
-[DISMISSMODELESS](dismissmodeless.md)
-  
-[IAddrBook::Address](iaddrbook-address.md)
-  
-[IMAPISupport::Address](imapisupport-address.md)
-  
-[SRestriction](srestriction.md)
-
-
-[MAPI Structures](mapi-structures.md)
+- [ACCELERATEABSDI](accelerateabsdi.md)
+- [DISMISSMODELESS](dismissmodeless.md)
+- [IAddrBook::Address](iaddrbook-address.md)
+- [IMAPISupport::Address](imapisupport-address.md)
+- [SRestriction](srestriction.md)
+- [MAPI Structures](mapi-structures.md)
 

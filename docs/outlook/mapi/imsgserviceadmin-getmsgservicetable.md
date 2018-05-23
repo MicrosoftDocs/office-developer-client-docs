@@ -53,7 +53,7 @@ The **IMsgServiceAdmin::GetMsgServiceTable** method provides access to the messa
   
 The message service table is static. After a client has been given access to it, subsequent message service additions or deletions will not affect it. If there are no message services in the current profile, **GetMsgServiceTable** returns a table with zero rows. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

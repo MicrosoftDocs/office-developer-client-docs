@@ -20,7 +20,7 @@ Returns the red component of a color.
   
 ## Syntax
 
-RED( ** *expression* ** ) 
+RED(** *expression* ** ) 
   
 ### Parameters
 

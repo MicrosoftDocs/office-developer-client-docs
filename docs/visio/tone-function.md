@@ -18,7 +18,7 @@ Modifies the color by decreasing its saturation by the amount specified in the  
   
 ## Syntax
 
-TONE( ** *color* **, ** *int* ** ) 
+TONE(** *color* **, ** *int* ** ) 
   
 ### Parameters
 

@@ -20,7 +20,7 @@ Constrains the value of a cell to a range or set of ranges.
   
 ## Syntax
 
-BOUND ( ** *value* **, ** *type* **, ** *ignore* **, ** *value1* **, ** *value2* ** ** * [,ignore(n), value1(n), value2(n),...] * ** ) 
+BOUND (** *value* **, ** *type* **, ** *ignore* **, ** *value1* **, ** *value2* ** ** * [,ignore(n), value1(n), value2(n),...] * ** ) 
   
 ### Parameters
 

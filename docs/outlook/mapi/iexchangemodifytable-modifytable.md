@@ -62,7 +62,7 @@ ROWLIST_REPLACE
   
 > [in] Points to a [ROWLIST](rowlist.md) structure containing the properties for the table object. 
     
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

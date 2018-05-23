@@ -70,7 +70,7 @@ To resolve a message class to a form, pass in the name of the message class to b
   
 The class identifier for the resolved message class is returned as part of the form information object. Do not assume that the class identifier exists in the OLE library until after you call either the [IMAPIFormMgr::PrepareForm](imapiformmgr-prepareform.md) or [IMAPIFormMgr::CreateForm](imapiformmgr-createform.md) method. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

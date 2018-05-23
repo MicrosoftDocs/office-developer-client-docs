@@ -18,7 +18,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-The format of SMTP e-mail addresses is defined in RFC 822. MAPI components should handle any address that complies with that standard. However, there is a particular form of RFC 822 address that best encodes MAPI addresses:
+The format of SMTP email addresses is defined in RFC 822. MAPI components should handle any address that complies with that standard. However, there is a particular form of RFC 822 address that best encodes MAPI addresses:
   
  _display-name_ **\<** _email-address_ **\>**
   
@@ -26,7 +26,7 @@ The angle brackets are included as literals. Blanks are common in display names;
   
 Nathaniel Borenstein \<nsb@bellcore.com\>
   
-If the display name contains characters that have special meaning in SMTP addresses, such as \< or @, the entire display name should be enclosed in double quotes. On outbound mail, if the total length of the e-mail address plus display name exceeds 255 characters, the display name should be dropped.
+If the display name contains characters that have special meaning in SMTP addresses, such as \< or @, the entire display name should be enclosed in double quotes. On outbound mail, if the total length of the email address plus display name exceeds 255 characters, the display name should be dropped.
   
 The parts of an SMTP address map into MAPI properties as follows:
   
@@ -38,7 +38,7 @@ The parts of an SMTP address map into MAPI properties as follows:
 | _email-address_ <br/> |**PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |
 |implicit, always "SMTP"  <br/> |**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |
    
-If there is no display name for an address on inbound mail, the entire e-mail address should be used instead. The address type is always SMTP.
+If there is no display name for an address on inbound mail, the entire email address should be used instead. The address type is always SMTP.
   
 Recipient properties are taken from the MAPI message's recipient table; sender properties are taken from the message itself.
   

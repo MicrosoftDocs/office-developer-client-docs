@@ -64,7 +64,7 @@ A typical implementation of the **CopyMessage** method performs the following ta
     
 For a list of interfaces that are related to form servers, see [MAPI Form Interfaces](mapi-form-interfaces.md).
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

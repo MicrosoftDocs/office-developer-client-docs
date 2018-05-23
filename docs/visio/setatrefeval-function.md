@@ -20,7 +20,7 @@ Used in the  _set_expression_ parameter of the SETATREF function to indicate tha
   
 ## Syntax
 
-SETATREFEVAL( ** *expr* ** ) 
+SETATREFEVAL(** *expr* ** ) 
   
 ### Parameters
 

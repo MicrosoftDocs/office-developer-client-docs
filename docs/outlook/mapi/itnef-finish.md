@@ -64,7 +64,7 @@ If a provider or gateway does not work with problem arrays, it can pass NULL in 
   
 The value returned in  _lpProblem_ is valid only if the call returns S_OK. When S_OK is returned, the provider or gateway should check the values returned in the **STnefProblemArray** structure. If an error occurs on the call, the **STnefProblemArray** structure is not filled in and the calling provider or gateway should not use or free the structure. If no error occurs on the call, the calling provider or gateway must release the memory for the **STnefProblemArray** by calling the [MAPIFreeBuffer](mapifreebuffer.md) function. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

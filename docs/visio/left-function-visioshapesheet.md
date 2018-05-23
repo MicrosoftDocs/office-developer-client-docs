@@ -20,7 +20,7 @@ Returns the left-most character or characters in a text string, based on the num
   
 ## Syntax
 
-LEFT( ** *text* **, [, ** *num_chars_opt* ** ]) 
+LEFT(** *text* **, [, ** *num_chars_opt* ** ]) 
   
 ### Parameters
 

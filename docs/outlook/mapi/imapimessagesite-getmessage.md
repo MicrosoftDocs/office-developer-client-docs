@@ -54,7 +54,7 @@ Forms call the **IMAPIMessageSite::GetMessage** method to obtain a message inter
   
 For a list of interfaces related to form servers, see [MAPI Form Interfaces](mapi-form-interfaces.md).
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

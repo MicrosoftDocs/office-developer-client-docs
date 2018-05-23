@@ -21,7 +21,7 @@ Opens the specified view in a popup window.
   
 ## Syntax
 
- **OpenPopup** (  *View*  ,  *Where=*  ,  *Order By*  ) 
+ **OpenPopup** (*View*, *Where=*, *Order By*) 
   
 The **OpenPopup** action contains the following arguments. 
   

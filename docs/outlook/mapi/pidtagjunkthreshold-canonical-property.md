@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Indicates how aggressively incoming mail should be sent to the Junk E-mail folder.
+Indicates how aggressively incoming mail should be sent to the Junk Email folder.
   
 |||
 |:-----|:-----|
@@ -52,7 +52,7 @@ This property corresponds to the high / low / none filter setting. A value of "0
     
 [[MS-OXCSPAM]](http://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Enables the handling of allow/block lists and the determination of junk e-mail messages.
+> Enables the handling of allow/block lists and the determination of junk email messages.
     
 ### Header files
 

@@ -20,7 +20,7 @@ Returns the hyperbolic sine of an angle.
   
 ## Syntax
 
-SINH( ** *angle* ** ) 
+SINH(** *angle* ** ) 
   
 ### Parameters
 

@@ -53,7 +53,7 @@ HRESULT IOlkAccount::Notify(
   
 >  [in] Not used. OLK_ACCOUNT_NO_FLAGS is the only supported value. 
     
-## Return Values
+## Return values
 
 S_OK if the call succeeded; otherwise, an error code.
   

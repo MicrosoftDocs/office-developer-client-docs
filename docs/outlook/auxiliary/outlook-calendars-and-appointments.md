@@ -16,7 +16,7 @@ description: "This section provides conceptual information about Outlook calenda
 
 This section provides conceptual information about Outlook calendars and appointments, including the Free/Busy API, meeting request updates, and rebasing calendars for daylight saving time. 
   
-## In This Section
+## In this section
 
 - [About the Free/Busy API](about-the-free-busy-api.md)
     

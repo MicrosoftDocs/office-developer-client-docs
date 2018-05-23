@@ -75,7 +75,7 @@ Some tables do not support **GetRowCount** and return MAPI_E_NO_SUPPORT. If **Ge
   
 When **GetRowCount** returns MAPI_E_BUSY because it is temporarily unable to retrieve a row count, call the [IMAPITable::WaitForCompletion](imapitable-waitforcompletion.md) method. When **WaitForCompletion** returns, retry the call to **GetRowCount**. Another way to detect whether an asynchronous operation is in progress is to call the [IMAPITable::GetStatus](imapitable-getstatus.md) method and check the contents of the  _lpulTableState_ parameter. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

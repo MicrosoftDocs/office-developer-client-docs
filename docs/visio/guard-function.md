@@ -20,7 +20,7 @@ Protects  *expression*  from deletion and change by actions performed in the dra
   
 ## Syntax
 
-GUARD( ** *expression* ** ) 
+GUARD(** *expression* ** ) 
   
 ### Parameters
 

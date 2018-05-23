@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Contains flags that indicating whether the providers will support multiple e-mail addresses per contact item.
+Contains flags that indicating whether the providers will support multiple email addresses per contact item.
   
 |||
 |:-----|:-----|
@@ -33,7 +33,7 @@ Contains flags that indicating whether the providers will support multiple e-mai
    
 ## Remarks
 
-If the flags in this property are TRUE, the provider does not include contacts without e-mail addresses. Only the primary e-mail address will be honored. This is a property on a Contact Address Book profile section.
+If the flags in this property are TRUE, the provider does not include contacts without email addresses. Only the primary email address will be honored. This is a property on a Contact Address Book profile section.
   
 ## Related resources
 

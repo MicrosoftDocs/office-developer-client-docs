@@ -1,14 +1,11 @@
 ---
 title: "Developing DLLs"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
 - dlls [excel 2007], creating,creating DLLs [Excel 2007]
- 
 localization_priority: Normal
 ms.assetid: 5d69d06d-a126-4c47-82ad-17112674c8a3
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
@@ -20,7 +17,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
   
 A library is a body of compiled code that provides some functionality and data to an executable application. Libraries can be either statically linked or dynamically linked, and they conventionally have the file name extensions .lib and .dll respectively. Static libraries (such as the C run-time library) are linked to the application at compilation and so become part of the resulting executable. The application loads a DLL when it is needed, usually when the application starts up. One DLL can load and dynamically link to another DLL.
   
-## Benefits of Using DLLs
+## Benefits of using DLLs
 
 The main benefits of DLLs are as follows:
   
@@ -34,7 +31,7 @@ The main benefits of DLLs are as follows:
     
 You can use DLLs to add worksheet functions and commands in Microsoft Excel.
   
-## Resources for Creating DLLs
+## Resources for creating DLLs
 
 To create a DLL, you need the following:
   
@@ -48,7 +45,7 @@ Modern integrated development environments (IDEs), such as Microsoft Visual Stud
   
 You can create DLLs in several languages, for example, C/C++, Pascal and Visual Basic. Given that the API source code provided with Excel is C and C++, only these two languages are considered in this documentation.
   
-## Exporting Functions and Commands
+## Exporting functions and commands
 
 When compiling a DLL project, the compiler and linker need to know what functions are to be exported so that they can make them available to the application. This section describes the ways this can be done.
   
@@ -66,11 +63,11 @@ You can tell the linker that a function is to be exported, and the name it is to
     
 - Use a **#pragma** preprocessor directive to send a message to the linker. 
     
-Although your project can use all three methods and your compiler and linker support them, you should not try to export one function in more than one of these ways. For example, suppose that a DLL contains two source code modules, one C and one C++, which contain two functions to be exported, **my_C_export** and **my_Cpp_export** respectively. For simplicity, suppose that each function takes a single double-precision numerical argument and returns the same data type. The alternatives for exporting each function using each of these methods are outlined in the following sections. 
+Although your project can use all three methods and your compiler and linker support them, you should not try to export one function in more than one of these ways. For example, suppose that a DLL contains two source code modules, one C and one C++, which contain two functions to be exported, **my\_C\_export** and **my\_Cpp\_export** respectively. For simplicity, suppose that each function takes a single double-precision numerical argument and returns the same data type. The alternatives for exporting each function by using each of these methods are outlined in the following sections. 
   
-### Using a DEF File
+### Using a DEF file
 
-```
+```C
 double WINAPI my_C_export(double x)
 {
 /* Modify x and return it. */
@@ -78,7 +75,7 @@ double WINAPI my_C_export(double x)
 }
 ```
 
-```cs
+```cpp
 double WINAPI my_Cpp_export(double x)
 {
 // Modify x and return it.
@@ -86,20 +83,17 @@ double WINAPI my_Cpp_export(double x)
 }
 ```
 
+<br/>
+
 The DEF file would then need to contain these lines.
   
-```
-EXPORTS
-    my_C_export = _my_C_export@8
-    my_Cpp_export
-```
+`EXPORTS my_C_export = _my_C_export@8  my_Cpp_export`
+
+<br/>
 
 The general syntax of a line that follows an **EXPORTS** statement is as follows. 
   
-```
-entryname[=internalname] [@ordinal[NONAME]] [DATA] [PRIVATE]
-
-```
+`entryname[=internalname] [@ordinal[NONAME]] [DATA] [PRIVATE]`
 
 Note that the C function has been decorated, but the DEF file explicitly forces the linker to expose the function using the original source code name (in this example). The linker implicitly exports the C++ function using the original code name, so that it is not necessary to include the decorated name in the DEF file.
   
@@ -110,7 +104,7 @@ For 32-bit Windows API function calls, the convention for the decoration of C-co
   
 It is possible to force the C++ compiler to expose undecorated names for C++ functions by enclosing the function, and any function prototypes, within an extern "C" {…} block, as shown in this example. (The braces **{}** are omitted here because the declaration only refers to the function code block that immediately follows it). 
   
-```cs
+```cpp
 extern "C"
 double WINAPI my_undecorated_Cpp_export(double x)
 {
@@ -122,7 +116,7 @@ double WINAPI my_undecorated_Cpp_export(double x)
 
 When you are placing C function prototypes in header files that could be included in C or C++ source files, you should include the following pre-processor directive.
   
-```cs
+```cpp
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -133,11 +127,11 @@ double WINAPI my_Cdecorated_Cpp_export(double x);
 #endif
 ```
 
-### Using the __declspec(dllexport) Declarator
+### Using the __declspec(dllexport) declarator
 
 The **__declspec(dllexport)** keyword can be used in the declaration of the function as follows. 
   
-```
+```cpp
 __declspec(dllexport) double WINAPI my_C_export(double x)
 {
 /* Modify x and return it. */
@@ -149,7 +143,7 @@ The **__declspec(dllexport)** keyword must be added at the extreme left of the d
   
 If you want to avoid a C++ function being made available with the C++ name decoration, you must declare the function as follows.
   
-```cs
+```cpp
 extern "C"
 __declspec(dllexport) double WINAPI my_undecorated_Cpp_export(double x)
 {
@@ -160,13 +154,13 @@ __declspec(dllexport) double WINAPI my_undecorated_Cpp_export(double x)
 
 The linker will make the function available as my_undecorated_Cpp_export, that is, the name as it appears in the source code with no decoration.
   
-### Using a #pragma Preprocessor Linker Directive
+### Using a #pragma preprocessor linker directive
 
 Recent versions of Microsoft Visual Studio support two predefined macros that, when used in conjunction with a **#pragma** directive, enable you to instruct the linker to export the function directly from within the function code. The macros are __FUNCTION__ and __FUNCDNAME__ (note the double underline at each end) which are expanded to the undecorated and decorated function names respectively. 
   
 For example, when you are using Microsoft Visual Studio, these lines can be incorporated into a common header file as follows.
   
-```cs
+```cpp
 #if _MSC_VER > 1200 // Later than Visual Studio 6.0
 #define EXPORT comment(linker, "/EXPORT:"__FUNCTION__"="__FUNCDNAME__)
 #else // Cannot use this way of exporting functions.
@@ -179,7 +173,7 @@ If this header is included in the source files, the two example functions can th
   
 C code:
   
-```
+```C
 double WINAPI my_C_export(double x)
 {
 #pragma EXPORT
@@ -190,7 +184,7 @@ double WINAPI my_C_export(double x)
 
 C++ code:
   
-```cs
+```cpp
 double WINAPI my_Cpp_export(double x)
 {
 #pragma EXPORT
@@ -203,13 +197,8 @@ Note that the directive must be placed within the body of the function and is on
   
 ## See also
 
-
-
-[Access DLLs in Excel](how-to-access-dlls-in-excel.md)
-  
-[Calling into Excel from the DLL or XLL](calling-into-excel-from-the-dll-or-xll.md)
-  
-[Excel Programming Concepts](excel-programming-concepts.md)
-  
-[Developing Excel XLLs](developing-excel-xlls.md)
+- [Access DLLs in Excel](how-to-access-dlls-in-excel.md)
+- [Calling into Excel from the DLL or XLL](calling-into-excel-from-the-dll-or-xll.md)
+- [Excel Programming Concepts](excel-programming-concepts.md)
+- [Developing Excel XLLs](developing-excel-xlls.md)
 

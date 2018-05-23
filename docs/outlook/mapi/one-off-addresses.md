@@ -18,22 +18,22 @@ One-off addresses are used to send messages to one-off recipients, recipients th
   
 To create a one-off address, clients use a special template containing edit controls for entering all of the information that makes up a one-off address. One-off addresses, like addresses of other types, use a predefined format. The one-off address format is defined by MAPI as follows:
   
- `Display name[Address type:E-mail address]`
+ `Display name[Address type:Email address]`
   
 There are six components to this format and some rules about quoting characters. The components are described in the following table.
   
 |**Component**|**Usage**|**Description**|
 |:-----|:-----|:-----|
-|Display name  <br/> |Optional  <br/> |If not present, **IAddrBook::ResolveName** uses the visible part of the e-mail address as the display name. May include blanks. For more information, see [IAddrBook::ResolveName](iaddrbook-resolvename.md).  <br/> |
+|Display name  <br/> |Optional  <br/> |If not present, **IAddrBook::ResolveName** uses the visible part of the email address as the display name. May include blanks. For more information, see [IAddrBook::ResolveName](iaddrbook-resolvename.md).  <br/> |
 |[  <br/> |Required  <br/> |Delineates the start of the type and address information.  <br/> |
 |]  <br/> |Required  <br/> |Delineates the end of the type and address information. If anything other than white space follows this character, the entry is not treated as a custom recipient.  <br/> |
 |Address type  <br/> |Required  <br/> |Type of address; maps to a specific address format. For more information, see [MAPI Address Types](mapi-address-types.md).  <br/> |
-|:  <br/> |Required  <br/> |Separates the address type from the e-mail address.  <br/> |
-|E-mail address  <br/> |Required  <br/> |Address of the recipient. May include blanks.  <br/> |
+|:  <br/> |Required  <br/> |Separates the address type from the email address.  <br/> |
+|Email address  <br/> |Required  <br/> |Address of the recipient. May include blanks.  <br/> |
    
 MAPI uses particular sets of quoting characters to allow addresses to contain special characters such as comma (,), left bracket ([), and colon (:) and some untypeable characters such as the carriage return or line feed or any other hexadecimal equivalent. The quoting character is the backslash (\). Therefore, if clients or providers must insert a backslash in an address, they must preceed it with the quoting character ("\\").
   
-Clients and service providers can use this quoting technique in any of the nonfixed, typeable fields. For example, the following entry translates to Bill Lee as the display name, MSPEER as the address type, and \\billll\in as the e-mail address:
+Clients and service providers can use this quoting technique in any of the nonfixed, typeable fields. For example, the following entry translates to Bill Lee as the display name, MSPEER as the address type, and \\billll\in as the email address:
   
 ```
 Bill Lee[MSPEER:\\\\billl\in]
@@ -78,7 +78,7 @@ One-off entry identifiers include the following information in the following ord
     
 5. Address type
     
-6. E-mail address
+6. Email address
     
 In the calls to **IAddrBook::CreateOneOff** and **IMAPISupport::CreateOneOff**, clients and transport providers can set a flag that indicates whether or not the recipient represented by the one-off address can process formatted text or embedded OLE objects. To indicate that a recipient can handle formatted text and OLE objects, clients and transport providers set the MAPI_SEND_NO_RICH_INFO flag in the  _ulFlags_ parameter. MAPI then sets the one-off recipient's **PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)) property to FALSE. When this flag is not set, MAPI sets **PR_SEND_RICH_INFO** to TRUE unless the one-off address is interpreted as an SMTP address. In this one case, **PR_SEND_RICH_INFO** defaults to FALSE. 
   

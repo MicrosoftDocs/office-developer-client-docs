@@ -1,12 +1,8 @@
 ---
 title: "Troubleshooting Office files and custom solutions with the telemetry log"
- 
- 
 manager: soliver
 ms.date: 9/17/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: ef88e30e-7537-488e-bc72-8da29810f7aa
 description: "Use the Telemetry Log for Office 2013 to determine compatibility issues with Office 2013 and solutions built for previous versions of Office."
@@ -17,9 +13,6 @@ description: "Use the Telemetry Log for Office 2013 to determine compatibility i
 Use the Telemetry Log for Office 2013 to determine compatibility issues with Office 2013 and solutions built for previous versions of Office.
   
 The following article describes the Telemetry Log and how to use it. For more information about specific results displayed in the Telemetry Log, see [Compatibility issues in Office](compatibility-issues-in-office.md).
-  
-## Introduction
-<a name="OEV_Intro"> </a>
 
 Over the course of many releases, Microsoft has provided tools and frameworks for customizing, automating, and extending Office. This has enabled businesses and users to build solutions or add-ins for Office applications to improve their productivity and efficiency. These solutions can range in complexity from simple Visual Basic for Applications (VBA) macros to robust .NET Framework customizations. Many users who have these solutions rely on them to complete business-critical tasks and may not even know that they are using a customization that is added to their Office applications.
   
@@ -54,7 +47,7 @@ The Telemetry Log displays information about a large list of files and solution 
 |:-----|:-----|:-----|
 |Task pane apps  <br/> |Excel 2013, Word 2013, Project 2013  <br/> |These are Office Add-ins that are hosted in a task pane within the client application.  <br/> |
 |Content apps  <br/> |Excel 2013  <br/> |These are Office Add-ins that are integrated into the content of the Office file.  <br/> |
-|Mail apps  <br/> |Outlook 2013  <br/> |These are apps that appear inOutlook 2013 when certain conditions are met (the e-mail body or subject includes particular words or phrases).  <br/> |
+|Mail apps  <br/> |Outlook 2013  <br/> |These are apps that appear inOutlook 2013 when certain conditions are met (the email body or subject includes particular words or phrases).  <br/> |
 |Active documents  <br/> |Word 2013  <br/> PowerPoint 2013  <br/> Excel 2013  <br/> | Active documents are any Office document files other than the other solution types listed in this table. This can include the following:  <br/>  Office binary format files (.doc, .ppt, .pps, .xls).  <br/>  Office OpenXML format files (.docx, .pptx, .ppsx, .xlsx).  <br/>  Macro-enabled files that contain VBA code (.docm, .dotm, .pptm, .potm, .xlsm, .xltm).  <br/>  Files that contain ActiveX controls.  <br/>  Files that have External Data Connections.  <br/> |
 |COM add-ins  <br/> |Word 2013  <br/> PowerPoint 2013  <br/> Excel 2013  <br/> Outlook 2013  <br/> |COM add-ins include Office development tools in Visual Studio 2010 application-level add-ins.  <br/> |
 |Excel Automation add-ins  <br/> |Excel 2013  <br/> |This solution type includes previous versions of Excel-supported Automation Add-ins, which are built upon COM add-ins. Functions in Automation add-ins can be called from formulas in Excel worksheets.  <br/> |
@@ -75,13 +68,13 @@ Use the following procedure to display the recorded Office issues in the Telemet
 
 1. To open the Telemetry Log, do one of the following:
     
-  - **On Windows 7:** On the **Start** menu, choose **All Programs**. Then, in the list of programs, expand **Microsoft Office 2013**, expand **Office 2013 Tools**, and then click **Office 2013 Telemetry Log**.
+   - **On Windows 7:** On the **Start** menu, choose **All Programs**. Then, in the list of programs, expand **Microsoft Office 2013**, expand **Office 2013 Tools**, and then click **Office 2013 Telemetry Log**.
     
-    A new workbook in Excel 2013 opens. The workbook has three worksheets titled **Events** **System info**, and **Guide**.
+     A new workbook in Excel 2013 opens. The workbook has three worksheets titled **Events** **System info**, and **Guide**.
     
-  - **On Windows 8:** Swipe up to display the AppBar, choose **All Apps**, and then choose **Office 2013 Telemetry Log**.
+   - **On Windows 8:** Swipe up to display the AppBar, choose **All Apps**, and then choose **Office 2013 Telemetry Log**.
     
-    A new workbook in Excel 2013 opens. The workbook has three worksheets titled **Events** **System info**, and **Guide**.
+     A new workbook in Excel 2013 opens. The workbook has three worksheets titled **Events** **System info**, and **Guide**.
     
 2. To view an up-to-date list of events, on the **Events** worksheet, at the top of the worksheet, choose **Refresh**.
     
@@ -96,12 +89,21 @@ The Telemetry Log displays some simple information about the recorded events. Ea
   
 For example, the issue titled "OM Hidden: Comment.Initial Property" appears if a solution or macro-enabled file opened in Word 2013 attempts to get the initials of a commenter who is associated with a comment. Word 2013 features an improved commenting experience that does not display commenter initials by default. The APIs associated with the older commenting model have been hidden in the Word 2013 object model but remain available for backwards-compatibility. The "OM Hidden: Comment.Initial" issue in the indicates the file that attempted to use the API, the application that raised the event (Word 2013), the time and date of the event, and short description about the error and how to fix it.
   
- **Figure 1. Office Telemetry Log**
+**Figure 1. Office Telemetry Log**
   
 ![The Office Event Viewer displaying records.](media/off15_OfficeEventViewer_SD.png)
   
 > [!NOTE]
->  The **System Info** worksheet in the Telemetry Log contains information about the computer on which Office 2013 is installed. The worksheet displays the following information: >  User name. >  Full computer name. >  Architecture of the operating system (x64/64-bit or x86/32-bit). >  Version of Windows that is installed on the computer. >  Time zone for the computer's internal clock. >  Version of the Telemetry Log. >  Version of Office that is installed on the computer. >  This information can be useful when you are interpreting the issues and events listed on the **Events** worksheet. 
+>  The **System Info** worksheet in the Telemetry Log contains information about the computer on which Office 2013 is installed. The worksheet displays the following information: 
+> - User name.
+> - Full computer name.
+> - Architecture of the operating system (x64/64-bit or x86/32-bit).
+> - Version of Windows that is installed on the computer.
+> - Time zone for the computer's internal clock.
+> - Version of the Telemetry Log.
+> - Version of Office that is installed on the computer.
+> 
+> This information can be useful when you are interpreting the issues and events listed on the **Events** worksheet. 
   
 In the Telemetry Log, a level of severity is displayed together with the known issues. From the previous example, an issue in which a part of the object model has been hidden most often has an "Informative" level of severity. On the other hand, other known issues might be more serious and require more immediate action. The severity of the issues displayed in the Telemetry Log can be one of the following:
   
@@ -119,11 +121,11 @@ Use the following table (Table 2) to interpret the records that are displayed in
 |**Event ID**|**Title**|**Severity**|**Description**|
 |:-----|:-----|:-----|:-----|
 |1  <br/> |Document loaded successfully  <br/> ||The file listed in the **File** column was opened in the Office application without any issues.  <br/> |
-|2  <br/> |Document failed to load  <br/> |Warning  <br/> | The application was unable to load the file. There may be some underlying compatibility issue.  <br/>  For more information about how to repair a corrupted workbook in Excel 2013, see [Repairing a corrupted workbook](http://office.microsoft.com/en-us/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx).  <br/>  For more information about how to repair a corrupted document in Word 2013, see [Save and recover a backup copy of a document](http://office.microsoft.com/en-us/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx) <br/> |
+|2  <br/> |Document failed to load  <br/> |Warning  <br/> | The application was unable to load the file. There may be some underlying compatibility issue.  <br/><br/>For more information about how to repair a corrupted workbook in Excel 2013, see [Repairing a corrupted workbook](http://office.microsoft.com/en-us/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx).<br/><br/>For more information about how to repair a corrupted document in Word 2013, see [Save and recover a backup copy of a document](http://office.microsoft.com/en-us/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx). <br/> |
 |3  <br/> |Template loaded successfully  <br/> ||The template file listed in the **File** column was opened in the Office application without any issues.  <br/> |
-|4  <br/> |Template failed to load  <br/> |Warning  <br/> | The application was unable to load the template file. There may be some underlying compatibility issue or the template availability may have changed.  <br/>  For more information about how to repair a corrupted workbook in Excel 2013, see [Repairing a corrupted workbook](http://office.microsoft.com/en-us/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx).  <br/>  For more information about how to repair a corrupted document in Word 2013, see [Save and recover a backup copy of a document](http://office.microsoft.com/en-us/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx) <br/> |
+|4  <br/> |Template failed to load  <br/> |Warning  <br/> | The application was unable to load the template file. There may be some underlying compatibility issue or the template availability may have changed.<br/><br/>For more information about how to repair a corrupted workbook in Excel 2013, see [Repairing a corrupted workbook](http://office.microsoft.com/en-us/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx).<br/><br/>For more information about how to repair a corrupted document in Word 2013, see [Save and recover a backup copy of a document](http://office.microsoft.com/en-us/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx). <br/> |
 |5  <br/> |Add-in loaded successfully  <br/> ||The add-in listed in the **File** column loaded within the Office application successfully. No compatibility issues were detected.  <br/> |
-|6  <br/> |Add-in failed to load  <br/> |Critical  <br/> | The application was unable to load the add-in listed in the **File** column.  <br/>  For more information about how to repair a corrupted workbook in Excel 2013, see [Repairing a corrupted workbook](http://office.microsoft.com/en-us/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx).  <br/>  For more information about how to repair a corrupted document in Word 2013, see [Save and recover a backup copy of a document](http://office.microsoft.com/en-us/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx) <br/> |
+|6  <br/> |Add-in failed to load  <br/> |Critical  <br/> | The application was unable to load the add-in listed in the **File** column.  <br/><br/>For more information about how to repair a corrupted workbook in Excel 2013, see [Repairing a corrupted workbook](http://office.microsoft.com/en-us/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx). <br/><br/>  For more information about how to repair a corrupted document in Word 2013, see [Save and recover a backup copy of a document](http://office.microsoft.com/en-us/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx). <br/> |
 |7  <br/> |Add-in manifest downloaded successfully  <br/> ||The host application loaded the manifest for the Office Add-in successfully.  <br/> |
 |8  <br/> |Add-in manifest did not download  <br/> |Critical  <br/> |The host application was unable to load the manifest file for the Office Add-in from the SharePoint catalog, corporate catalog, or the Office Store.  <br/> |
 |9  <br/> |Add-in manifest could not be parsed  <br/> |Critical  <br/> |The host application loaded the Office Add-in manifest for the add-in, but could not read the XML.  <br/> |
@@ -138,25 +140,22 @@ Use the following table (Table 2) to interpret the records that are displayed in
 |18  <br/> |App closed successfully  <br/> ||The host application was able to close the Office Add-in successfully.  <br/> |
 |19  <br/> |Add-in encountered runtime error  <br/> |Critical  <br/> |The Office Add-in had a problem that caused it to fail. For more details, look at the Microsoft Office Alerts log using the Windows Event Viewer on the computer that encountered the error.  <br/> |
 |20  <br/> |Add-in failed to verify licensing  <br/> |Critical  <br/> |The licensing information for the Office Add-in could not be verified and may have expired. For more details, look at the Microsoft Office Alerts log using the Windows Event Viewer on the computer that encountered the error.  <br/> |
-|Various  <br/> |"OM Behavior Change: ..."  <br/> |Informative  <br/> |The add-in or macro-enabled document code uses an object, member, collection, enumeration, or constant that behaves differently from previous versions of Office.  <br/> For more information, see [Compatibility issues in Office](compatibility-issues-in-office.md).  <br/> |
-|Various  <br/> |"OM Removed: …"  <br/> |Critical  <br/> |The add-in or macro-enabled document code uses an object, member, collection, enumeration, or constant that has been removed from the object model.  <br/> For more information, see [Compatibility issues in Office](compatibility-issues-in-office.md).  <br/> |
-|Various  <br/> |"OM Hidden: …"  <br/> |Informative  <br/> |The add-in or macro-enabled document code uses an object, member, collection, enumeration, or constant that has been hidden in the object model.  <br/> For more information, see [Compatibility issues in Office](compatibility-issues-in-office.md).  <br/> |
-|Various  <br/> |"Control: …"  <br/> ||The file contains a control that may not be supported in Office 2013 or on the computer's operating system.  <br/> For more information, see [Compatibility issues in Office](compatibility-issues-in-office.md).  <br/> |
+|Various  <br/> |"OM Behavior Change: ..."  <br/> |Informative  <br/> |The add-in or macro-enabled document code uses an object, member, collection, enumeration, or constant that behaves differently from previous versions of Office.<br/><br/> For more information, see [Compatibility issues in Office](compatibility-issues-in-office.md).  <br/> |
+|Various  <br/> |"OM Removed: …"  <br/> |Critical  <br/> |The add-in or macro-enabled document code uses an object, member, collection, enumeration, or constant that has been removed from the object model.<br/><br/>For more information, see [Compatibility issues in Office](compatibility-issues-in-office.md).  <br/> |
+|Various  <br/> |"OM Hidden: …"  <br/> |Informative  <br/> |The add-in or macro-enabled document code uses an object, member, collection, enumeration, or constant that has been hidden in the object model.<br/><br/>For more information, see [Compatibility issues in Office](compatibility-issues-in-office.md).  <br/> |
+|Various  <br/> |"Control: …"  <br/> ||The file contains a control that may not be supported in Office 2013 or on the computer's operating system.<br/><br/>For more information, see [Compatibility issues in Office](compatibility-issues-in-office.md).  <br/> |
    
 ## Conclusion
 <a name="OEV_Conclusion"> </a>
 
 The Telemetry Log provides large enterprises, individual users, and developers with a simple tool for monitoring their critical Office solutions. By identifying problematic Office solutions before a large-scale upgrade, businesses can more reasonably predict the cost of adopting Office 2013.
   
-## Additional Resources
+## See also
 <a name="OEV_Additional"> </a>
 
 - [Office Developer Center](http://msdn.microsoft.com/en-us/office/aa905340.aspx)
-    
 - [Compatibility issues in Office](compatibility-issues-in-office.md)
-    
 - [Deploy Office Telemetry Dashboard](http://technet.microsoft.com/library/f69cde72-689d-421f-99b8-c51676c77717)
-    
 - [Office Developer Center](http://msdn.microsoft.com/en-us/office/aa905340)
     
 

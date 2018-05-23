@@ -40,6 +40,6 @@ To get a reference to the Alignment cell by index from a program, use the **Cell
 |:-----|:-----|
 | Section index:  <br/> |**visSectionTab** <br/> |
 | Row index:  <br/> |**visRowTab +** *i*            where  *i*  = 0, 1, 2...  <br/> |
-| Cell index:  <br/> | (  *j*  *3) **+ visTabAlign** <br/> |
+| Cell index:  <br/> | (*j*  *3) **+ visTabAlign** <br/> |
    
 

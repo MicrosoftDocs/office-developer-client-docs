@@ -73,7 +73,7 @@ Before calling **DeleteAttach**, call the **IUnknown::Release** method for the a
   
 Because deleting an attachment can be a lengthy process, **DeleteAttach** provides the mechanism that displays a progress indicator. You can request the display of a progress indicator by passing a pointer to your [IMAPIProgress : IUnknown](imapiprogressiunknown.md) implementation or NULL if you do not have an implementation. You must also specify a window handle in the  _ulUIParam_ parameter and the ATTACH_DIALOG flag in the  _ulFlags_ parameter. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

@@ -258,7 +258,7 @@ All XML that is returned by OSC providers in OSC provider extensibility methods 
       <xs:element name="showOnDemandActivitiesWhenMinimized" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
       <!-- Indicates if the OSC should sync on-demand contacts when people pane is minimized -->
       <xs:element name="showOnDemandContactsWhenMinimized" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
-      <!-- Indicates hashing function used to hash e-mail addresses, ignored unless-->
+      <!-- Indicates hashing function used to hash email addresses, ignored unless-->
       <!-- dynamicActivitiesLookupEx = true or dyanamicContactsLookup = true in capabilities XML-->
       <xs:element name="hashFunction" minOccurs="0" maxOccurs="1">
         <xs:simpleType>

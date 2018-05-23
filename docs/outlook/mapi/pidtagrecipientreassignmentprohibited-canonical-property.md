@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 
   
-Specifies whether adding additional recipients, when forwarding the message, is prohibited for the e-mail message.
+Specifies whether adding additional recipients, when forwarding the message, is prohibited for the email message.
   
 |||
 |:-----|:-----|
@@ -31,7 +31,7 @@ Specifies whether adding additional recipients, when forwarding the message, is 
    
 ## Remarks
 
-This property is set based on the e-mail message's **PR_SENSITIVITY** ([PidTagSensitivity](pidtagsensitivity-canonical-property.md)) value. If **PR_SENSITIVITY** is set to "0x00000000" (normal) or "0x00000003" (confidential), this property must be set to "0x00" or absent meaning that adding additional or different recipients to the e-mail message is allowed. If the e-mail object's **PR_SENSITIVITY** is set to "0x00000001" (personal) or "0x00000002" (private), this property must be set "0x01" to prevent adding additional or different recipients of this e-mail through forwarding. 
+This property is set based on the email message's **PR_SENSITIVITY** ([PidTagSensitivity](pidtagsensitivity-canonical-property.md)) value. If **PR_SENSITIVITY** is set to "0x00000000" (normal) or "0x00000003" (confidential), this property must be set to "0x00" or absent meaning that adding additional or different recipients to the email message is allowed. If the email object's **PR_SENSITIVITY** is set to "0x00000001" (personal) or "0x00000002" (private), this property must be set "0x01" to prevent adding additional or different recipients of this email through forwarding. 
   
 ## Related resources
 
@@ -43,7 +43,7 @@ This property is set based on the e-mail message's **PR_SENSITIVITY** ([PidTagSe
     
 [[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Specifies the properties and operations that are permissible on e-mail messages.
+> Specifies the properties and operations that are permissible on email messages.
     
 ### Header files
 

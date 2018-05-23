@@ -21,7 +21,7 @@ Returns the square root of the specified value.
   
 ## Syntax
 
- **Sqrt** (  *NumericExpression*  ) 
+ **Sqrt** (*NumericExpression*) 
   
 The **Sqrt** function contains the following argument. 
   

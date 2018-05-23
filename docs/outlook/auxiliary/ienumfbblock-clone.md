@@ -32,7 +32,7 @@ HRESULT Clone(
   
 > [out] A pointer to pointer to the copy of [IEnumFBBlock](ienumfbblock.md) interface. 
     
-## Return Values
+## Return values
 
 |**HRESULT**|**Description**|
 |:-----|:-----|

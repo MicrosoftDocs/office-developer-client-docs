@@ -108,7 +108,7 @@ When calling **QueryRows**, be aware that the timing of asynchronous notificatio
   
 For more information about retrieving rows from tables, see [Retrieving Data from Table Rows](retrieving-data-from-table-rows.md).
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

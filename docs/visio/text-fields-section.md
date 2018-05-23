@@ -20,7 +20,7 @@ Displays functions and formulas inserted in the shape's text by using the **Fiel
   
 ## Remarks
 
-The only way to add this section is to insert a field into a shape by using the **Field** dialog box ( **Insert** tab). 
+The only way to add this section is to insert a field into a shape by using the **Field** dialog box (**Insert** tab). 
   
 Each text field in a text block has a corresponding row in the ShapeSheet window. The name of the row represents the number of characters the field contains.
   

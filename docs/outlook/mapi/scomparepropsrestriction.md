@@ -1,7 +1,5 @@
 ---
 title: "SComparePropsRestriction"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -18,8 +16,6 @@ description: "Last modified: March 09, 2015"
 
 # SComparePropsRestriction
 
-  
-  
 **Applies to**: Outlook 
   
 Describes a compare property restriction, which tests two properties using a relational operator. 
@@ -40,43 +36,29 @@ typedef struct _SComparePropsRestriction
 
 ## Members
 
- **relop**
+**relop**
   
 > Relational operator to use to compare the two properties. Possible values are as follows:
     
-RELOP_GE 
-  
-> The comparison is made based on a greater or equal first value.
+  - RELOP_GE: The comparison is made based on a greater or equal first value.
+      
+  - RELOP_GT: The comparison is made based on a greater first value.
+      
+  - RELOP_LE: The comparison is made based on a lesser or equal first value.
+      
+  - RELOP_LT: The comparison is made based on a lesser first value.
+      
+  - RELOP_NE: The comparison is made based on unequal values.
+      
+  - RELOP_RE: The comparison is made based on LIKE (regular expression) values.
+      
+  - RELOP_EQ: The comparison is made based on equal values.
     
-RELOP_GT 
-  
-> The comparison is made based on a greater first value.
-    
-RELOP_LE 
-  
-> The comparison is made based on a lesser or equal first value.
-    
-RELOP_LT 
-  
-> The comparison is made based on a lesser first value.
-    
-RELOP_NE 
-  
-> The comparison is made based on unequal values.
-    
-RELOP_RE 
-  
-> The comparison is made based on LIKE (regular expression) values.
-    
-RELOP_EQ 
-  
-> The comparison is made based on equal values.
-    
- **ulPropTag1**
+**ulPropTag1**
   
 > Property tag of the first property to be compared. 
     
- **ulPropTag2**
+**ulPropTag2**
   
 > Property tag of the second property to be compared.
     
@@ -92,12 +74,7 @@ For more information about the **SComparePropsRestriction** structure and restri
   
 ## See also
 
-
-
-[SBitMaskRestriction](sbitmaskrestriction.md)
-  
-[SRestriction](srestriction.md)
-
-
-[MAPI Structures](mapi-structures.md)
+- [SBitMaskRestriction](sbitmaskrestriction.md)
+- [SRestriction](srestriction.md)
+- [MAPI Structures](mapi-structures.md)
 

@@ -28,15 +28,15 @@ BOOL ConvertXLRefToXLRef12(LPXLREF pxRef, LPXLREF12 pxRef12);
 
 ## Parameters
 
- _pxRef_ ( **LPXLREF**)
+ _pxRef_ (**LPXLREF**)
   
 Pointer to the source reference structure.
   
- _pxRef12_ ( **LPXLREF12**)
+ _pxRef12_ (**LPXLREF12**)
   
 Pointer to the target reference structure into which the converted value is to be placed.
   
-## Property Value/Return Value
+## Property value/Return value
 
  **TRUE** if the conversion succeeded, **FALSE** otherwise. 
   

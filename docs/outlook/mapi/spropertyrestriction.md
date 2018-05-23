@@ -1,7 +1,5 @@
 ---
 title: "SPropertyRestriction"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -18,8 +16,6 @@ description: "Last modified: March 09, 2015"
 
 # SPropertyRestriction
 
-  
-  
 **Applies to**: Outlook 
   
 Describes a property restriction that is used to match a constant with the value of a property.
@@ -40,43 +36,29 @@ typedef struct _SPropertyRestriction
 
 ## Members
 
- **relop**
+**relop**
   
 > Relational operator that will be used in the search. Possible values are as follows:
     
-RELOP_GE 
-  
-> The comparison is made based on a greater or equal first value.
+  - RELOP_GE: The comparison is made based on a greater or equal first value.
+        
+  - RELOP_GT: The comparison is made based on a greater first value.
+        
+  - RELOP_LE: The comparison is made based on a lesser or equal first value.
+        
+  - RELOP_LT: The comparison is made based on a lesser first value.
+        
+  - RELOP_NE: The comparison is made based on unequal values.
+        
+  - RELOP_RE: The comparison is made based on LIKE (regular expression) values.
+        
+  - RELOP_EQ: The comparison is made based on equal values.
     
-RELOP_GT 
-  
-> The comparison is made based on a greater first value.
-    
-RELOP_LE 
-  
-> The comparison is made based on a lesser or equal first value.
-    
-RELOP_LT 
-  
-> The comparison is made based on a lesser first value.
-    
-RELOP_NE 
-  
-> The comparison is made based on unequal values.
-    
-RELOP_RE 
-  
-> The comparison is made based on LIKE (regular expression) values.
-    
-RELOP_EQ 
-  
-> The comparison is made based on equal values.
-    
- **ulPropTag**
+**ulPropTag**
   
 > Property tag identifying the property to be compared. 
     
- **lpProp**
+**lpProp**
   
 > Pointer to an [SPropValue](spropvalue.md) structure that contains the constant value that will be used in the comparison. 
     
@@ -109,20 +91,11 @@ For more information about the **SPropertyRestriction** structure, see [About Re
   
 ## See also
 
-
-
-[SExistRestriction](sexistrestriction.md)
-  
-[SAndRestriction](sandrestriction.md)
-  
-[SPropValue](spropvalue.md)
-  
-[SRestriction](srestriction.md)
-  
-[IMAPITable::FindRow](imapitable-findrow.md)
-  
-[IMAPITable::Restrict](imapitable-restrict.md)
-
-
-[MAPI Structures](mapi-structures.md)
+- [SExistRestriction](sexistrestriction.md)
+- [SAndRestriction](sandrestriction.md)
+- [SPropValue](spropvalue.md)
+- [SRestriction](srestriction.md)
+- [IMAPITable::FindRow](imapitable-findrow.md)
+- [IMAPITable::Restrict](imapitable-restrict.md)
+- [MAPI Structures](mapi-structures.md)
 

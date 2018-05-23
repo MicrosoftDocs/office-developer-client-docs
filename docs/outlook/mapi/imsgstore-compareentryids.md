@@ -81,7 +81,7 @@ The **IMsgStore::CompareEntryIDs** method compares two entry identifiers that be
   
 If **CompareEntryIDs** returns an error, do not take any action based on the result of the comparison. Instead, take the most conservative approach possible. **CompareEntryIDs** might fail if, for example, one or both of the entry identifiers contains an invalid **MAPIUID**. 
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

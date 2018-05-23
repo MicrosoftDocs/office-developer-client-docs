@@ -20,7 +20,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
   
 This section contains the reference documentation for the functions that Microsoft Excel and the Add-in Manager look for in an XLL.
   
-## In This Section
+## In this section
 
 [xlAddInManagerInfo/xlAddInManagerInfo12](xladdinmanagerinfo-xladdinmanagerinfo12.md)
   

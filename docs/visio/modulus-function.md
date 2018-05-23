@@ -20,7 +20,7 @@ Returns the remainder (modulus) that results when a number is divided by a divis
   
 ## Syntax
 
-MODULUS( ** *number* **, ** *divisor* ** ) 
+MODULUS(** *number* **, ** *divisor* ** ) 
   
 ### Parameters
 

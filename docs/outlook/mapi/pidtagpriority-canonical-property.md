@@ -29,7 +29,7 @@ Contains the relative priority of a message.
 |Associated properties:  <br/> |PR_PRIORITY  <br/> |
 |Identifier:  <br/> |0x0026  <br/> |
 |Data type:  <br/> |PT_LONG  <br/> |
-|Area:  <br/> |E-mail  <br/> |
+|Area:  <br/> |Email  <br/> |
    
 ## Remarks
 
@@ -61,7 +61,7 @@ PRIO_URGENT
     
 [[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Specifies the properties and operations that are permissible on e-mail message objects.
+> Specifies the properties and operations that are permissible on email message objects.
     
 ### Header files
 

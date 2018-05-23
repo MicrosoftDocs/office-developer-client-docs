@@ -1,5 +1,5 @@
 ---
-title: "Handling an Incoming Message"
+title: "Handling an incoming message"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,14 +8,10 @@ api_type:
 - COM
 ms.assetid: d45d5ed9-41cd-4aaf-91d2-1e4a27bb16d4
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
-# Handling an Incoming Message
+# Handling an incoming message
 
-  
-  
 **Applies to**: Outlook 
   
 An incoming message is a message that has been sent across one or more messaging systems. It may have been sent only to you or to many other recipients. Incoming messages are placed in a receive folder designated to hold messages of a particular class. You can set up a different receive folder for each message class that you handle or use one folder for all of the classes.
@@ -30,11 +26,11 @@ Clients register for new mail notifications by setting the parameters to [IMsgSt
     
 - Set  _ulEventMask_ to fnevNewMail. 
     
-The  _lpNotifications_ parameter in the call to your **IMAPIAdviseSink::OnNotify** method points to a **NEWMAIL_NOTIFICATION** structure that contains information about the incoming message, such as its message class, its entry identifier, the entry identifier of its parent folder, and the contents of its **PR_MESSAGE_FLAGS** property. For more information about registering for and handling notifications, see [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md), [NEWMAIL_NOTIFICATION](newmail_notification.md), **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)), and [Handling Notifications](handling-notifications.md). 
+The  _lpNotifications_ parameter in the call to your **IMAPIAdviseSink::OnNotify** method points to a **NEWMAIL\_NOTIFICATION** structure that contains information about the incoming message, such as its message class, its entry identifier, the entry identifier of its parent folder, and the contents of its **PR_MESSAGE_FLAGS** property. For more information about registering for and handling notifications, see [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md), [NEWMAIL_NOTIFICATION](newmail_notification.md), **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)), and [Handling Notifications](handling-notifications.md). 
   
 Before displaying an incoming message to a user, determine if its message class is a class that your client supports. If not, ignore the message. If the class is one that you support, you can open and display the message with a form that is appropriate for the message class of the message. The choice of forms is based on message class. Messages that belong to the IPM class use a default form implemented by MAPI. Messages that belong to custom classes defined by clients can use either client-defined specialized forms or the MAPI default form.
   
- **To open and display an incoming message**
+## Open and display an incoming message
   
 1. Call **IMsgStore::GetReceiveFolder** to retrieve the entry identifier of the receive folder for the message class of the message and pass this entry identifier to **IMsgStore::OpenEntry** to open the folder. For more information, see [IMsgStore::GetReceiveFolder](imsgstore-getreceivefolder.md), [IMsgStore::OpenEntry](imsgstore-openentry.md), and [Opening a Message Store Folder](opening-a-message-store-folder.md).
     
@@ -50,22 +46,14 @@ Before displaying an incoming message to a user, determine if its message class 
     
 7. Open an attachment if desired. For more information see [Opening an Attachment](opening-an-attachment.md).
     
-## In This Section
+## In this section
 
-[Opening Message Text](opening-message-text.md)
-  
-> Describes how to open the message text.
+- [Opening Message Text](opening-message-text.md): Describes how to open the message text.
     
-[Rendering an Attachment in Plain Text](rendering-an-attachment-in-plain-text.md)
-  
-> Describes how to render an attachment in plain text.
+- [Rendering an Attachment in Plain Text](rendering-an-attachment-in-plain-text.md): Describes how to render an attachment in plain text.
     
-[Rendering an Attachment in RTF Text](rendering-an-attachment-in-rtf-text.md)
-  
-> Describes how to render an attachment in formatted text.
+- [Rendering an Attachment in RTF Text](rendering-an-attachment-in-rtf-text.md): Describes how to render an attachment in formatted text.
     
-[Opening an Attachment](opening-an-attachment.md)
-  
-> Describes how to open an attachment.
+- [Opening an Attachment](opening-an-attachment.md): Describes how to open an attachment.
     
 

@@ -16,7 +16,7 @@ description: "This section contains sample tasks that use the APIs available in 
 
 This section contains sample tasks that use the APIs available in the Outlook 2013 Auxiliary Reference.
   
-## In This Section
+## In this section
 
 - [Determine whether an Outlook item has been modified but not saved (Outlook Auxiliary Reference)](how-to-determine-whether-an-outlook-item-has-been-modified-but-not-saved-outlook.md)
     

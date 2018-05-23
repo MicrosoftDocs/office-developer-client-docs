@@ -20,7 +20,7 @@ description: "Last modified: July 23, 2011"
   
 A client can create a profile in one of two ways, by using the Profile Wizard, or by writing custom code.
   
-## In This Section
+## In this section
 
 [Creating a Profile by Using the Profile Wizard](creating-a-profile-by-using-the-profile-wizard.md)
   

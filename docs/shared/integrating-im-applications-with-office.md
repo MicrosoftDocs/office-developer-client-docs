@@ -239,7 +239,7 @@ public class LitwareClientAppObject : IUCOfficeIntegration
 
 ```
 
-The **GetAuthenticationInfo** method takes a string as an argument for the  _version_ parameter. When the Office application calls this method, it passes in one of two strings for the argument, depending on the version of Office. When the Office application supplies the method with the version of Office that the IM client application supports (that is, supports the functionality), the **GetAuthenticationInfo** method returns a hard-coded XML string "<authenticationinfo>". 
+The **GetAuthenticationInfo** method takes a string as an argument for the  _version_ parameter. When the Office application calls this method, it passes in one of two strings for the argument, depending on the version of Office. When the Office application supplies the method with the version of Office that the IM client application supports (that is, supports the functionality), the **GetAuthenticationInfo** method returns a hard-coded XML string `<authenticationinfo>`. 
   
 Use the following code to implement the **GetAuthentication** method within the IM client application code. 
   
@@ -303,7 +303,10 @@ public object GetInterface(string _version, OIInterface _interface)
 The **GetSupportedFeatures** method returns information about the IM features that the IM client application supports. It takes a string for its only parameter,  _version_. When the Office application calls the **GetSupportFeatures** method, the method returns a value from the [UCCollaborationLib.OIFeature](http://msdn.microsoft.com/library/UCCollaborationLib.OIFeature) enumeration. The returned value specifies the capabilities of the IM client, where each capability of the IM client application is indicated to the Office application by adding a flag to the value. 
   
 > [!NOTE]
->  Office 2013 applications ignore the following constants in the **OIFeature** enumeration: > **oiFeaturePictures** (2) > **oiFeatureFreeBusyIntegration**> **oiFeaturePhoneNormalization**
+>  Office 2013 applications ignore the following constants in the **OIFeature** enumeration: 
+> - **oiFeaturePictures** (2) 
+> - **oiFeatureFreeBusyIntegration**
+> - **oiFeaturePhoneNormalization**
   
 Use the following code example to implement the **GetSupportFeatures** method within the IM client application code. 
   
@@ -327,7 +330,9 @@ In addition, the class that implements the **ILyncClient** interface should also
 Table 3 shows the members that must be implemented in the class that inherits from **ILyncClient** and **_ILyncClientEvents**.
   
 > [!NOTE]
-> Any member of the **ILyncClient** or **_ILyncClientEvents** interface not listed in the table must be present but does not need to be implemented. Members that are present but not implemented can throw a **NotImplementedException** or **E_NOTIMPL** error. > For more information about the **ILyncClient** and **_ILyncClientEvents** interfaces and their members, see [UCCollaborationLib.ILyncClient](http://msdn.microsoft.com/library/UCCollaborationLib.ILyncClient) and [UCCollaborationLib._ILyncClientEvents](http://msdn.microsoft.com/library/UCCollaborationLib._ILyncClientEvents). 
+> Any member of the **ILyncClient** or **\_ILyncClientEvents** interface not listed in the table must be present but does not need to be implemented. Members that are present but not implemented can throw a **NotImplementedException** or **E\_NOTIMPL** error. 
+> 
+> For more information about the **ILyncClient** and **_ILyncClientEvents** interfaces and their members, see [UCCollaborationLib.ILyncClient](http://msdn.microsoft.com/library/UCCollaborationLib.ILyncClient) and [UCCollaborationLib._ILyncClientEvents](http://msdn.microsoft.com/library/UCCollaborationLib._ILyncClientEvents). 
   
 **Table 3. Implementation of ILyncClient and ILyncClientEvents interfaces**
 
@@ -652,7 +657,9 @@ The **IAutomation** interface automates features of the IM client application. I
 Table 4 shows the members that must be implemented in the class that inherits from **IAutomation**.
   
 > [!NOTE]
-> Any member of the **IAutomation** interface not listed in the table must be present but does not need to be implemented. Members that are present but not implemented can throw a **NotImplementedException** or **E_NOTIMPL** error. > For more information about the **IAutomation** interface and its members, see [UCCollaborationLib.IAutomation](http://msdn.microsoft.com/library/UCCollaborationLib.IAutomation). 
+> Any member of the **IAutomation** interface not listed in the table must be present but does not need to be implemented. Members that are present but not implemented can throw a **NotImplementedException** or **E_NOTIMPL** error. 
+> 
+> For more information about the **IAutomation** interface and its members, see [UCCollaborationLib.IAutomation](http://msdn.microsoft.com/library/UCCollaborationLib.IAutomation). 
   
 **Table 4. Implementation of IAutomation interface**
 
@@ -687,7 +694,9 @@ The **IContact** interface represents an IM client application user. The interfa
 Table 5 shows the members that must be implemented in the class that inherits from **IContact**.
   
 > [!NOTE]
-> Any member of the **IContact** interface not listed in the table must be present but does not need to be implemented. Members that are present but not implemented can throw a **NotImplementedException** or **E_NOTIMPL** error. > For more information about the **IContact** interface and its members, see [UCCollaborationLib.IContact](http://msdn.microsoft.com/library/UCCollaborationLib.IContact). 
+> Any member of the **IContact** interface not listed in the table must be present but does not need to be implemented. Members that are present but not implemented can throw a **NotImplementedException** or **E_NOTIMPL** error. 
+>
+> For more information about the **IContact** interface and its members, see [UCCollaborationLib.IContact](http://msdn.microsoft.com/library/UCCollaborationLib.IContact). 
   
 **Table 5. Implementation of the IContact interface**
 
@@ -857,7 +866,9 @@ The **IContactManager** object manages the contacts for the local user, includin
 Table 7 shows the members that must be implemented in the class that inherits from **IContactManager** and **_IContactManagerEvents**.
   
 > [!NOTE]
-> Any member of the **IContactManager** interface not listed in the table must be present but does not need to be implemented. Members that are present but not implemented can throw a **NotImplementedException** or **E_NOTIMPL** error. > For more information about the **IContactManager** and **_IContactManagerEvents** interfaces and their members, see [UCCollaborationLib.IContactManager](http://msdn.microsoft.com/library/UCCollaborationLib.IContactManager) and [UCCollaborationLib._IContactManagerEvents](http://msdn.microsoft.com/library/UCCollaborationLib._IContactManagerEvents). 
+> Any member of the **IContactManager** interface not listed in the table must be present but does not need to be implemented. Members that are present but not implemented can throw a **NotImplementedException** or **E\_NOTIMPL** error. 
+>
+> For more information about the **IContactManager** and **_IContactManagerEvents** interfaces and their members, see [UCCollaborationLib.IContactManager](http://msdn.microsoft.com/library/UCCollaborationLib.IContactManager) and [UCCollaborationLib._IContactManagerEvents](http://msdn.microsoft.com/library/UCCollaborationLib._IContactManagerEvents). 
   
 **Table 7. Implementation of the IContactManager and _IContactManagerEvents interfaces**
 
@@ -921,7 +932,9 @@ The **IGroup** object represents a collection of contacts with additional proper
 Table 9 shows the members that must be implemented in the classes that inherit from **IGroup** and **IGroupCollection** in the following table. 
   
 > [!NOTE]
-> Any member of the **IGroup** interface not listed in the table must be present but does not need to be implemented. Members that are present but not implemented can throw a **NotImplementedException** or **E_NOTIMPL** error. > For more information about the **IGroup** and **IGroupCollection** interfaces and their members, see [UCCollaborationLib.IGroup](http://msdn.microsoft.com/library/UCCollaborationLib.IGroup) and [UCCollaborationLib.IGroupCollection](http://msdn.microsoft.com/library/UCCollaborationLib.IGroupCollection). 
+> Any member of the **IGroup** interface not listed in the table must be present but does not need to be implemented. Members that are present but not implemented can throw a **NotImplementedException** or **E_NOTIMPL** error. 
+>
+> For more information about the **IGroup** and **IGroupCollection** interfaces and their members, see [UCCollaborationLib.IGroup](http://msdn.microsoft.com/library/UCCollaborationLib.IGroup) and [UCCollaborationLib.IGroupCollection](http://msdn.microsoft.com/library/UCCollaborationLib.IGroupCollection). 
   
 **Table 9. Implementation of the IGroup and IGroupCollection interfaces**
 
@@ -941,7 +954,9 @@ The **IContactSubscription** interface allows you to specify the contacts to rec
 Table 10 shows the members that must be implemented in the classes that inherit from **IContactSubscription**.
   
 > [!NOTE]
-> Any member of the **IContactSubscription** interface not listed in the table must be present but does not need to be implemented. Members that are present but not implemented can throw a **NotImplementedException** or **E_NOTIMPL** error. > For more information about the **IContactSubscription** interface and its members, see [UCCollaborationLib.IContactSubscription](http://msdn.microsoft.com/library/UCCollaborationLib.IContactSubscription). 
+> Any member of the **IContactSubscription** interface not listed in the table must be present but does not need to be implemented. Members that are present but not implemented can throw a **NotImplementedException** or **E_NOTIMPL** error.
+>
+> For more information about the **IContactSubscription** interface and its members, see [UCCollaborationLib.IContactSubscription](http://msdn.microsoft.com/library/UCCollaborationLib.IContactSubscription). 
   
 **Table 10. Implementation of the IContactSubscription interface**
 
@@ -972,7 +987,9 @@ The **IContactEndPoint** represents a telephone number from a contact's collecti
 Table 11 shows the members that must be implemented in the classes that inherit from **IContactEndPoint**.
   
 > [!NOTE]
-> Any member of the **IContactEndPoint** interface not listed in the table must be present but does not need to be implemented. Members that are present but not implemented can throw a **NotImplementedException** or **E_NOTIMPL** error. > For more information about the **IContactEndPoint** interface and its members, see [UCCollaborationLib.IContactEndpoint](http://msdn.microsoft.com/library/UCCollaborationLib.IContactEndpoint). 
+> Any member of the **IContactEndPoint** interface not listed in the table must be present but does not need to be implemented. Members that are present but not implemented can throw a **NotImplementedException** or **E_NOTIMPL** error.
+>
+> For more information about the **IContactEndPoint** interface and its members, see [UCCollaborationLib.IContactEndpoint](http://msdn.microsoft.com/library/UCCollaborationLib.IContactEndpoint). 
   
 **Table 11. Implementation of the IContactEndPoint interface**
 
@@ -990,7 +1007,9 @@ The **ILocaleString** is a localized string structure that contains both a local
 Table 12 shows the members that must be implemented in the classes that inherit from **ILocaleString**.
   
 > [!NOTE]
-> Any member of the **ILocaleString** interface not listed in the table must be present but does not need to be implemented. Members that are present but not implemented can throw a **NotImplementedException** or **E_NOTIMPL** error. > For more information about the **ILocalString** interface and its members, see [UCCollaborationLib.ILocaleString](http://msdn.microsoft.com/library/UCCollaborationLib.ILocaleString). 
+> Any member of the **ILocaleString** interface not listed in the table must be present but does not need to be implemented. Members that are present but not implemented can throw a **NotImplementedException** or **E_NOTIMPL** error.
+>
+> For more information about the **ILocalString** interface and its members, see [UCCollaborationLib.ILocaleString](http://msdn.microsoft.com/library/UCCollaborationLib.ILocaleString). 
   
 **Table 12. Implementation of the ILocaleString interface**
 

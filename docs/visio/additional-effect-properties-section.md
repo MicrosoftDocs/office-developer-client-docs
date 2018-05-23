@@ -18,6 +18,6 @@ Shows the additional effects applied to the shape, including reflection, glow, a
   
 ## Remarks
 
-You can set the reflection, glow, and soft edges effects in the **Format Shape** dialog box ( **Home** > **Shape Styles** > **Effects**). A Sketch effect can be applied to a shape by using one of the sketch themes ( **Design** > **Themes** > **Effects**) or by making changes to values in the corresponding ShapeSheet cells.
+You can set the reflection, glow, and soft edges effects in the **Format Shape** dialog box (**Home** > **Shape Styles** > **Effects**). A Sketch effect can be applied to a shape by using one of the sketch themes (**Design** > **Themes** > **Effects**) or by making changes to values in the corresponding ShapeSheet cells.
   
 

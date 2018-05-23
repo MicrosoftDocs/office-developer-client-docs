@@ -52,7 +52,7 @@ When **SetAdviseSink** includes a form advise sink pointer, keep a reference to 
   
 For more information, see [Sending and Receiving Form Notifications](sending-and-receiving-form-notifications.md).
   
-## MFCMAPI Reference
+## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
   

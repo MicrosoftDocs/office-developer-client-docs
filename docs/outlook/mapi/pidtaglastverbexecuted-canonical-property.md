@@ -82,7 +82,7 @@ This property can have one the following values:
 |Task Acceptance  <br/> |0x00000505  <br/> |
 |Task Rejection  <br/> |0x00000506  <br/> |
 |Journal Conversation  <br/> |0x00000601  <br/> |
-|Journal E-mail Message  <br/> |0x00000602  <br/> |
+|Journal Email Message  <br/> |0x00000602  <br/> |
 |Journal Meeting request  <br/> |0x00000603  <br/> |
 |Journal Meeting response  <br/> |0x00000604  <br/> |
 |Journal Task request  <br/> |0x00000606  <br/> |

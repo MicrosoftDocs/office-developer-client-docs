@@ -34,7 +34,7 @@ Specifies the list of one-off EntryIds that correspond to the members of the per
    
 ## Remarks
 
-These one-off EntryIds encapsulate display names and e-mail addresses of the personal distribution list members.
+These one-off EntryIds encapsulate display names and email addresses of the personal distribution list members.
   
 If the client or the server set this property, it must be synchronized with the **dispidDLMembers** ([PidLidDistributionListMembers](pidliddistributionlistmembers-canonical-property.md)) property: for each entry in the **dispidDLOneOffMembers** property, there must be an entry in the same position in the **dispidDLMembers** property. 
   

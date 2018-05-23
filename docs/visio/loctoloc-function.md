@@ -20,7 +20,7 @@ Returns a transformed point in local coordinates in the destination coordinate s
   
 ## Syntax
 
-LOCTOLOC( ** *srcPoint* **, ** *srcRef* **, ** *dstRef* ** ) 
+LOCTOLOC(** *srcPoint* **, ** *srcRef* **, ** *dstRef* ** ) 
   
 ### Parameters
 
