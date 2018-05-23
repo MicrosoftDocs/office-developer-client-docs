@@ -35,7 +35,7 @@ These messages can appear if the file contains a control that may not be support
 ## Removed and deprecated members in the Object Model
 <a name="OEV_CompatIssues_Removed"> </a>
 
-These messages can appear if the add-in or macro-enabled document code uses an object, member, collection, enumeration, or constant that has been removed from the application's object model.
+These messages can appear if the add-in or macro-enabled document code uses an object, member, collection, enumeration, or constant that has been removed from the application's object model. 
   
 **Table 2. Issues displayed in the telemetry log about removed and deprecated members**
 
