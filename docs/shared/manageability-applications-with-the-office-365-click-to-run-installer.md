@@ -69,7 +69,7 @@ There are four states that the Click-to-Run installation service may be in durin
 ![A state diagram for the COM interface.](media/a409003e-6876-4ab3-bb4c-cd0c0fed5cbb.png)
   
 > [!NOTE]
-> Rebooting: When the machine is booting there is a period of time when the Click-to-Run installer service is not available. A successful call to the Status method after a reboot will return eUPDATE_UNKNOWN. 
+> **Rebooting**: When the machine is booting there is a period of time when the Click-to-Run installer service is not available. A successful call to the Status method after a reboot will return eUPDATE_UNKNOWN. 
   
 **Idle:** When the Click-to-Run installer is in the idle state, you can call: 
   
@@ -81,7 +81,7 @@ There are four states that the Click-to-Run installation service may be in durin
     
 - **Status**: Returns the result of the last completed action, or an error message if the action ended in failure. If there is no previous action, **Status** returns  `eUPDATE_UNKNOWN`.
     
- **Downloading:** When the Click-to-Run installer is in the downloading state, you can call: 
+**Downloading:** When the Click-to-Run installer is in the downloading state, you can call: 
   
 - **Apply**: Returns an **HRESULT** with the value  `0x800000e`, "A method was called at an unexpected time."
     
@@ -91,7 +91,7 @@ There are four states that the Click-to-Run installation service may be in durin
     
 - **Status**: Returns **DOWNLOAD_WIP** to indicate that download work is in progress. 
     
- **Applying:** When the Click-to-Run installer is in the process of installing previously download content: 
+**Applying:** When the Click-to-Run installer is in the process of installing previously download content: 
   
 - **Apply**: Returns an **HRESULT** with the value  `0x800000e`, "A method was called at an unexpected time."
     
@@ -451,7 +451,7 @@ The minimum requirement for a customized BITS interface to work with Office C2R 
   
   ```
 
-## Automating content staging
+<!--## Automating content staging
 
 IT administrators can choose to have desktop clients enabled to automatically receive updates when they are available directly from the Microsoft Content Delivery Network (CDN) or they can choose to control the deployment of updates available from the [update channels](https://support.office.com/en-us/article/Overview-of-update-channels-for-Office-365-ProPlus-9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4?ui=en-US&rs=en-US&ad=US) using the [Office 2016 Deployment Tool](https://www.microsoft.com/en-us/download/details.aspx?id=49117) or [System Center Configuration Manager](https://support.office.com/en-us/article/Manage-updates-to-Office-365-ProPlus-with-System-Center-Configuration-Manager-b4a17328-fcfe-40bf-9202-58d7cbf1cede).
   
@@ -495,14 +495,14 @@ The steps for creating an image are:
     
 4. Remove language nodes for any languages not required in the custom image.
     
-  > [!NOTE]
-  > Nodes with language='0' are language neutral and must be included in the image. 
+   > [!NOTE]
+   > Nodes with language='0' are language neutral and must be included in the image. 
   
 5. Construct a local image of the CDN by iterating through the XML file list and copying the CDN files, while creating the folder structure as needed. 
     
-  - If the  _rename_ attribute is provided, then rename the copied file to the value provided in the  _rename_ attribute. This used to create the top-level default v64.cab and v32.cab files. These are the renamed versions of the top-level build cab file and are used as the default installation version if the version is not specified. 
+   - If the  _rename_ attribute is provided, then rename the copied file to the value provided in the  _rename_ attribute. This used to create the top-level default v64.cab and v32.cab files. These are the renamed versions of the top-level build cab file and are used as the default installation version if the version is not specified. 
     
-  - Use URL + relativePath + filename to construct the CDN location.
+   - Use URL + relativePath + filename to construct the CDN location.
     
 The following examples use the Monthly channel (as defined by the  `baseURL` node) and build version 16.0.4229.1004 from releasehistory.xml. 
   
@@ -573,6 +573,7 @@ http://officecdn.microsoft.com/pr/wsus/ofl.cab is the location of the XML file l
 http://go.microsoft.com/fwlink/?LinkId=626090&Ver=16.0.8326.2096&Branch=Current&Arch=64&XMLVer=1.4&xmlPath=http://officecdn.microsoft.com/pr/wsus/ofl.cab&xmlFile=O365Client_64bit.xml 
 
 ```
+THE ABOVE SECTION APPEARS TO BE A DUPLICATE OF THE FOLLOWING SECTION; TEMPORARILY COMMENTING IT OUT.-->
 
 ## Automating content staging
 
@@ -584,7 +585,7 @@ The service supports the ability for management tools to recognize and automate 
 
 ![A diagram of using the COM interface on  the Office Click-To-Run installer.](media/e7ac2523-e67b-4a44-ae67-c048709f872a.png)
   
-Overview of downloading a custom image
+### Overview of downloading a custom image
   
 In the previous diagram, you see that a new Office 365 ProPlus image is available on the Office Content Distribution Network (CDN). Along with the Office 365 ProPlus image, an XML-formatted file list is also available which has the information needed to enable manageability software to directly create customized images replacing the need for using the Office Deployment Tool.
   
@@ -618,14 +619,14 @@ The steps for creating an image are:
     
 4. Remove language nodes for any languages not required in the custom image.
     
-    > [!NOTE]
-    > Nodes with language='0' are language neutral and must be included in the image. 
+   > [!NOTE]
+   > Nodes with language='0' are language neutral and must be included in the image. 
   
 5. Construct a local image of the CDN by iterating through the XML file list and copying the CDN files, while creating the folder structure as needed. 
     
-- If the  *rename*  attribute is provided, then  *rename*  the copied file to the value provided in the rename attribute. This is used to create the top-level default v64.cab and v32.cab files. These are the renamed versions of the top-level build cab file and are used as the default installation version if the version is not specified. 
+   - If the  *rename*  attribute is provided, then  *rename*  the copied file to the value provided in the rename attribute. This is used to create the top-level default v64.cab and v32.cab files. These are the renamed versions of the top-level build cab file and are used as the default installation version if the version is not specified. 
     
-- Use URL + relativePath + filename to construct the CDN location.
+   - Use URL + relativePath + filename to construct the CDN location.
     
 The following are examples that use the Monthly channel (as defined by the  `<baseURL>` node) and build version 16.0.4229.1004 from releasehistory.xml. 
   
@@ -646,7 +647,7 @@ The following are examples that use the Monthly channel (as defined by the  `<ba
   <File name="s641033.cab" relativePath="/office/data/%version%/" language="1033" />
   ```
 
-### Hash Verification of .dat files
+### Hash verification of .dat files
 
 Image creation tools may verify the integrity of the downloaded .dat files by comparing a computed HASH value with the supplied HASH value associated with each of the .dat files. Following is an example of a .dat file from the Monthly channel with build version 16.0.4229.1004 and language set to Bulgarian:
   
@@ -701,7 +702,7 @@ http://officecdn.microsoft.com/pr/wsus/ofl.cab is the location of the XML file l
   
 [Office 365 client update channel releases](http://go.microsoft.com/fwlink/?LinkId=626090&Ver=16.0.8326.2096&Branch=Current&Arch=64&XMLVer=1.4&xmlPath=http://officecdn.microsoft.com/pr/wsus/ofl.cab&xmlFile=O365Client_64bit.xml)
   
-### Additional Metadata for automating content staging
+### Additional metadata for automating content staging
 
 In addition to the metadata that is published which defines there are also additional XML files published to the CDN that can help provide additional information about the Office 365 clients that are available from the Office CDN.
   
