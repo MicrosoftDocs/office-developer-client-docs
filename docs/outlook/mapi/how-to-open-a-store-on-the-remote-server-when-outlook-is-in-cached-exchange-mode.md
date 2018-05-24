@@ -1,5 +1,5 @@
 ---
-title: "Open a store on the remote server when Outlook is in Cached Exchange mode"
+title: "Open a store on the remote server when Outlook is in Cached Exchange Mode"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,7 +8,7 @@ ms.assetid: cf01eab7-164d-c3b3-8bb0-9281e2119bc5
 description: "Last modified: June 25, 2012"
 ---
 
-# Open a store on the remote server when Outlook is in Cached Exchange mode
+# Open a store on the remote server when Outlook is in Cached Exchange Mode
 
 **Applies to**: Outlook 
   

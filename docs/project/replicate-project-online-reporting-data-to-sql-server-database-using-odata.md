@@ -1,5 +1,5 @@
 ---
-title: "Replicate Project Online Reporting Data to a SQL Server database"
+title: "Replicate Project Online reporting data to a SQL Server database"
 manager: soliver
 ms.date: 8/10/2016
 ms.audience: Developer
@@ -8,7 +8,7 @@ ms.assetid: dcb1ca53-0fa9-4b58-ad70-bc2061cfd68e
 description: "This topic describes how you can use SQL Server Integration Services (SSIS) to replicate your reporting data from Project Online to a separate SQL Server database by using the Open Data protocol (OData)."
 ---
 
-# Replicate Project Online Reporting Data to a SQL Server database
+# Replicate Project Online reporting data to a SQL Server database
 
 This topic describes how you can use SQL Server Integration Services (SSIS) to replicate your reporting data from Project Online to a separate SQL Server database by using the Open Data protocol (OData). It explains how to install the add-on, the high level details of the replication process and how to get started in Visual Studio with the Integration Services project template to create a project that automatically pulls your data based on a schedule.
   
@@ -69,8 +69,8 @@ Your project has been created and opened in the SSIS Designer, ready for you to 
     
 5. For the **Authentication** section, select **Use this username and password**, and specify credentials for an account with OData permissions.
     
-    > [!NOTE]
-    > A best practice here is to create a system account and grant OData permissions to this account. In the default SharePoint permission mode, not all Project Web App users have access to the OData feed. Only users in the following groups have access: Portfolio Viewers, Portfolio Managers, and Administrators. Access cannot be managed for individual entities in the OData feed; so if a user with access to the OData service also has access to the reporting data published for all of the projects, resources, tasks, and other entities. For more information about the permission modes, see [Plan user access in Project Server 2013](http://technet.microsoft.com/en-us/library/fp161361%28v=office.15%29.aspx). 
+   > [!NOTE]
+   > A best practice here is to create a system account and grant OData permissions to this account. In the default SharePoint permission mode, not all Project Web App users have access to the OData feed. Only users in the following groups have access: Portfolio Viewers, Portfolio Managers, and Administrators. Access cannot be managed for individual entities in the OData feed; so if a user with access to the OData service also has access to the reporting data published for all of the projects, resources, tasks, and other entities. For more information about the permission modes, see [Plan user access in Project Server 2013](http://technet.microsoft.com/en-us/library/fp161361%28v=office.15%29.aspx). 
   
 6. Click **All** in the left pane. 
     
@@ -92,13 +92,13 @@ Once you have confirmed that the connection is configured correctly, you are rea
     
    **Figure 2. Connection settings in the OData Source Editor**
 
-     ![OData Source Editor](media/ODataSourceEditor.JPG)
+   ![OData Source Editor](media/ODataSourceEditor.JPG)
   
 5. To see how the column mapping will work between the OData feed and the database you are creating with this tool, click **Columns** in the left pane of the **OData Source Editor**. From here you can change the column mappings, define custom names for the SQL columns, or remove any columns you don't want to sync.
     
    **Figure 3. Column mappings in the OData Source Editor**
 
-     ![Column Mappings OData Source Editor](media/ColumnMappingsODataSourceEditor.PNG)
+   ![Column Mappings OData Source Editor](media/ColumnMappingsODataSourceEditor.PNG)
   
 6. Click **OK** to save the configuration for the OData source. 
     
@@ -108,7 +108,7 @@ Once you have confirmed that the connection is configured correctly, you are rea
     
    **Figure 4. Data connection on the Data Flow tab**
 
-     ![Data Flow tab](media/DataFlowTab.png)
+   ![Data Flow tab](media/DataFlowTab.png)
   
 Now you're ready to configure the settings for the SQL reporting database to be created for the destination.
   
@@ -131,7 +131,7 @@ Now you're ready to configure the settings for the SQL reporting database to be 
     
    **Figure 5. Create table statement**
 
-     ![Create table dialog](media/CreateTable.PNG)
+   ![Create table dialog](media/CreateTable.PNG)
   
 7. In the **OLE DB Destination Editor**, click **Mappings** in the left navigation pane and verify that the input and destination column mappings are correct. 
     
@@ -174,7 +174,7 @@ In this example, the data will be duplicated with every synchronization. To prev
     
    **Figure 8. Execute SQL Task Editor**
 
-     ![Execute SQL Task Editor](media/ExecuteSQLTaskEditor.PNG)
+   ![Execute SQL Task Editor](media/ExecuteSQLTaskEditor.PNG)
   
 Now when you synchronize the data, the old data will be removed before the new data is synchronized.
   
@@ -247,14 +247,10 @@ See the [ProjectData OData service schema reference](https://msdn.microsoft.com/
 ## See also
 <a name="ProjODataSSISToolAddResources"> </a>
 
-- [Project 2013 developer documentation](project-2013-developer-documentation.md)
-    
-- [ProjectData - Project OData service reference](projectdataproject-odata-service-reference.md)
-    
+- [Project 2013 developer documentation](project-2013-developer-documentation.md)  
+- [ProjectData - Project OData service reference](projectdataproject-odata-service-reference.md) 
 - [Schema: ReportingData (ProjectData service)](https://msdn.microsoft.com/en-us/library/office/jj163529.aspx)
-    
 - [Project Online](http://technet.microsoft.com/en-us/projectserver/fp123547.aspx)
-    
 - [Microsoft SQL Server Data Tools](http://msdn.microsoft.com/en-us/data/tools.aspx)
     
 
