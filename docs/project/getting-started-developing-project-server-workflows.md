@@ -31,7 +31,7 @@ You can use SharePoint Designer 2013 to create relatively simple declarative wor
 
 
 
-[Bulk update custom fields and create project sites from a Project Online workflow](bulk-update-custom-fields-and-create-project-sites-from-a-workflow-in-project.md)
+[Bulk update custom fields and create project sites from a Project Online workflow](bulk-update-custom-fields-and-create-project-sites-from-workflow-in-project.md)
 
 
 [Workflow development in SharePoint Designer 2013 and Visio 2013](http://msdn.microsoft.com/en-us/library/jj163272%28office.15%29.aspx)

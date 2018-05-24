@@ -857,7 +857,7 @@ The following resources provide more information about the Outlook auxiliary API
     
 ### Item currency
 
-- [Determine whether an Outlook item has been modified but not saved (Outlook Auxiliary Reference)](auxiliary/how-to-determine-whether-an-outlook-item-has-been-modified-but-not-saved-outlook.md)
+- [Determine whether an Outlook item has been modified but not saved (Outlook Auxiliary Reference)](auxiliary/how-to-determine-if-outlook-item-has-been-modified-but-not-saved.md)
     
 ### Rebase calendars
 
@@ -865,7 +865,7 @@ The following resources provide more information about the Outlook auxiliary API
     
 - [About persisting TZDEFINITION to a stream to commit to a binary property](auxiliary/about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property.md)
     
-- [Parse a stream from a binary property to read the TZDEFINITION structure](auxiliary/how-to-parse-a-stream-from-a-binary-property-to-read-the-tzdefinition-structure.md)
+- [Parse a stream from a binary property to read the TZDEFINITION structure](auxiliary/how-to-parse-stream-from-binary-property-to-read-tzdefinition-structure.md)
     
 - [Parse a stream from a binary property to read the TZREG structure](auxiliary/how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md)
     

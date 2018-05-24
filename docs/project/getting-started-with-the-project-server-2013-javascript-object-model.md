@@ -261,7 +261,7 @@ My Application Page
 
 ## See also
 
-- [Create, retrieve, update, and delete projects by using the Project Server JavaScript object model](create-retrieve-update-and-delete-projects-using-the-project-server-javascript.md)  
+- [Create, retrieve, update, and delete projects by using the Project Server JavaScript object model](create-retrieve-update-delete-projects-using-project-server-javascript.md)  
 - [Client-side object model (CSOM) for Project 2013](client-side-object-model-csom-for-project-2013.md)
 - [Getting started with the Project Server CSOM and .NET](getting-started-with-the-project-server-csom-and-net.md)
     

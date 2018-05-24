@@ -87,5 +87,5 @@ HRESULT HrRemoteMessageStore(
 
 - [About MAPI Additions](about-mapi-additions.md) 
 - [MAPI Constants](mapi-constants.md)
-- [Access a Store on the Remote Server When Outlook is in Cached Exchange Mode](how-to-access-a-store-on-remote-server-when-outlook-is-in-cached-exchange-mode.md)
+- [Access a Store on the Remote Server When Outlook is in Cached Exchange Mode](how-to-access-store-on-remote-server-in-cached-exchange-mode.md)
 

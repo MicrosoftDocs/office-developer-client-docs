@@ -34,7 +34,7 @@ Set these properties in the **System.ExpandoProperties** property set.
 |:-----|:-----|:-----|:-----|
 |**AppDisplayName** <br/> |Provider name to display to the user. Appears in multiple places in Office, such as the recent document list.  <br/> |String  <br/> |Contoso  <br/> |
 |**MicrosoftOfficeOwnershipType** <br/> |For licensing, indicate whether the document/location is Personal/Consumer or Work/Business. Allowed values are 1 (personal) and 2 (business). For example, if your user's file is stored in Contoso Business, use the value "2" for business.  <br/> |Unit32  <br/> | 1 or 2  <br/> For example, if your user's file is stored in Contoso Business, this file should be marked 2 for business.  <br/> |
-|**MicrosoftOfficeTermsOfUse** <br/> |Legal text to declare that the information you provide is accurate per our terms of use. This text is not displayed to the user. It is an agreement between you, the application provider, and Microsoft.  <br/> See the following for an example.  <br/> | String  <br/> | I agree to the terms located in [https://go.microsoft.com/fwlink/p/?LinkId=528381](third-party-applications-integrating-with-office-mobile-products-on-windows-10-w.md) <br/> |
+|**MicrosoftOfficeTermsOfUse** <br/> |Legal text to declare that the information you provide is accurate per our terms of use. This text is not displayed to the user. It is an agreement between you, the application provider, and Microsoft.  <br/> See the following for an example.  <br/> | String  <br/> | I agree to the terms located in [https://go.microsoft.com/fwlink/p/?LinkId=528381](third-party-applications-integrating-with-office-mobile-products.md) <br/> |
    
 The following code example shows how to set these properties.
   

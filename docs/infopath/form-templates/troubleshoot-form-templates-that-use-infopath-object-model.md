@@ -16,9 +16,9 @@ This section contains tips for solving common problems that you might encounter 
   
 ## In this section
 
-[Troubleshooting Form Templates That Use the InfoPath 2003 Object Model at Run Time](troubleshooting-form-templates-that-use-infopath-2003-object-model-at-runtime.md): Describes troubleshooting issues that might arise while you are building and previewing InfoPath managed code form templates that use the InfoPath 2003-compatible object model.
+[Troubleshooting Form Templates That Use the InfoPath 2003 Object Model at Run Time](troubleshoot-form-templates-that-use-infopath-object-model-at-runtime.md): Describes troubleshooting issues that might arise while you are building and previewing InfoPath managed code form templates that use the InfoPath 2003-compatible object model.
     
-[Troubleshooting Form Templates That Use the InfoPath 2003 Object Model At Design Time](troubleshooting-form-templates-that-use-the-infopath-2003-object-model-at-design.md): Describes troubleshooting issues that might arise while you are designing managed code form templates that use the InfoPath 2003-compatible object model.
+[Troubleshooting Form Templates That Use the InfoPath 2003 Object Model At Design Time](troubleshoot-form-templates-that-use-infopath-object-model-at-design-time.md): Describes troubleshooting issues that might arise while you are designing managed code form templates that use the InfoPath 2003-compatible object model.
     
 ## Related sections
 
@@ -26,6 +26,6 @@ This section contains tips for solving common problems that you might encounter 
     
 [Handle Errors Using the InfoPath 2003 Object Model](how-to-handle-errors-using-the-infopath-2003-object-model.md): Explains how to handle errors in InfoPath managed-code solutions.
     
-[Common Tasks for Developing Form Templates Using the InfoPath 2003 Object Model](common-tasks-for-developing-form-templates-using-the-infopath-2003-object-model.md): Lists frequently asked questions about programming with the InfoPath 2003-compatible object model and provides links to topics that can help solve common problems.
+[Common Tasks for Developing Form Templates Using the InfoPath 2003 Object Model](common-tasks-for-developing-form-templates-using-infopath-object-model.md): Lists frequently asked questions about programming with the InfoPath 2003-compatible object model and provides links to topics that can help solve common problems.
     
 

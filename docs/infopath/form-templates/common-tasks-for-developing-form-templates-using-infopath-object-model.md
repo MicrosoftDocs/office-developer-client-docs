@@ -26,7 +26,7 @@ Common tasks performed when creating and developing projects.
     
 - [Add and Reference Custom Assemblies](how-to-add-and-reference-custom-assemblies.md)
     
-- [Walkthrough: Creating and Debugging a Basic Form Template Using the InfoPath 2003 Object Model](walkthrough-creating-and-debugging-a-basic-form-template-using-the-infopath-2003.md)
+- [Walkthrough: Creating and Debugging a Basic Form Template Using the InfoPath 2003 Object Model](walkthrough-create-and-debug-basic-form-template-using-infopath-object-model.md)
     
 ## Programming tasks
 

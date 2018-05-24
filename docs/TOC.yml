@@ -619,7 +619,7 @@
                     - name: Develop with Visual Studio
                       href: infopath/form-templates/how-to-develop-with-visual-studio.md
                     - name: Install Local .NET Framework Help for Visual Studio Tools for Applications
-                      href: infopath/form-templates/how-to-install-local-net-framework-help-for-visual-studio-tools-for-applications.md
+                      href: infopath/form-templates/how-to-install-net-framework-help-for-visual-studio-tools-for-applications.md
                     - name: Add an Event Handler
                       href: infopath/form-templates/how-to-add-an-event-handler.md
                     - name: Preview and Debug InfoPath Form Templates with Code
@@ -728,14 +728,14 @@
                   href: infopath/form-templates/developing-form-templates-using-the-infopath-2003-object-model.md
                   items:
                   - name: Getting Started Developing Form Templates Using the InfoPath 2003 Object Model
-                    href: infopath/form-templates/getting-started-developing-form-templates-using-the-infopath-2003-object-model.md
+                    href: infopath/form-templates/get-started-developing-form-templates-using-infopath-object-model.md
                     items:
                     - name: Create a Form Template Using the InfoPath 2003 Object Model
                       href: infopath/form-templates/how-to-create-a-form-template-using-the-infopath-2003-object-model.md
                     - name: 'Walkthrough: Creating and Debugging a Basic Form Template Using the InfoPath 2003 Object Model
-                      href: infopath/form-templates/walkthrough-creating-and-debugging-a-basic-form-template-using-the-infopath-2003.md
+                      href: infopath/form-templates/walkthrough-create-and-debug-basic-form-template-using-infopath-object-model.md
                     - name: Common Tasks for Developing Form Templates Using the InfoPath 2003 Object Model
-                      href: infopath/form-templates/common-tasks-for-developing-form-templates-using-the-infopath-2003-object-model.md
+                      href: infopath/form-templates/common-tasks-for-developing-form-templates-using-infopath-object-model.md
                     - name: Use Microsoft.Office.Interop.InfoPath.SemiTrust Members That Are Not Compatible with InfoPath 2003'
                       href: infopath/form-templates/how-to-use-microsoft-office-interop-infopath-semitrust-members.md
                   - name: Creating Form Templates Using the InfoPath 2003 Object Model
@@ -777,12 +777,12 @@
                     - name: Work with Offline Solutions Using the InfoPath 2003 Object Model
                       href: infopath/form-templates/how-to-work-with-offline-solutions-using-the-infopath-2003-object-model.md
                   - name: Troubleshooting Form Templates That Use the InfoPath 2003 Object Model
-                    href: infopath/form-templates/troubleshooting-form-templates-that-use-the-infopath-2003-object-model.md
+                    href: infopath/form-templates/troubleshoot-form-templates-that-use-infopath-object-model.md
                     items:
                     - name: Troubleshooting Form Templates That Use the InfoPath 2003 Object Model at Run Time
-                      href: infopath/form-templates/troubleshooting-form-templates-that-use-infopath-2003-object-model-at-runtime.md
+                      href: infopath/form-templates/troubleshoot-form-templates-that-use-infopath-object-model-at-runtime.md
                     - name: Troubleshooting Form Templates That Use the InfoPath 2003 Object Model At Design Time
-                      href: infopath/form-templates/troubleshooting-form-templates-that-use-the-infopath-2003-object-model-at-design.md
+                      href: infopath/form-templates/troubleshoot-form-templates-that-use-infopath-object-model-at-design-time.md
                 - name: Class library reference for InfoPath form templates
                   href: https://msdn.microsoft.com/en-us/library/office/ee526341.aspx
             - name: InfoPath developer reference for external automation
@@ -1113,9 +1113,9 @@
                 href: outlook/auxiliary/sample-tasks.md
                 items:
                 - name: Determine whether an Outlook item has been modified but not saved
-                  href: outlook/auxiliary/how-to-determine-whether-an-outlook-item-has-been-modified-but-not-saved-outlook.md
+                  href: outlook/auxiliary/how-to-determine-if-outlook-item-has-been-modified-but-not-saved.md
                 - name: Parse a stream from a binary property to read the TZDEFINITION structure
-                  href: outlook/auxiliary/how-to-parse-a-stream-from-a-binary-property-to-read-the-tzdefinition-structure.md
+                  href: outlook/auxiliary/how-to-parse-stream-from-binary-property-to-read-tzdefinition-structure.md
                 - name: Parse a stream from a binary property to read the TZREG structure
                   href: outlook/auxiliary/how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md
                 - name: Read time zone properties from an appointment
@@ -1625,7 +1625,7 @@
                     - name: Calling MAPI from Windows Services
                       href: outlook/mapi/calling-mapi-from-windows-services.md
                   - name: Access a Store on the Remote Server When Outlook is in Cached Exchange Mode
-                    href: outlook/mapi/how-to-access-a-store-on-remote-server-when-outlook-is-in-cached-exchange-mode.md
+                    href: outlook/mapi/how-to-access-store-on-remote-server-in-cached-exchange-mode.md
                   - name: Create an Outlook profile using MFCMAPI
                     href: outlook/mapi/how-to-create-an-outlook-profile-using-mfcmapi.md
                   - name: Detect the Version of Exchange Server in an Outlook Profile
@@ -1635,15 +1635,15 @@
                   - name: Get the Email Address of a Contact Item
                     href: outlook/mapi/how-to-get-the-email-address-of-a-contact-item.md
                   - name: Get the Path of a Specific Version of MAPI for the Default Mail Client
-                    href: outlook/mapi/how-to-get-the-path-of-a-specific-version-of-mapi-for-the-default-mail-client.md
+                    href: outlook/mapi/how-to-get-path-of-specific-version-of-mapi-for-default-mail-client.md
                   - name: Manage a Message in an OST Without Invoking a Synchronization in Cached Exchange Mode
                     href: outlook/mapi/how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md
                   - name: Obtain a Contact Message Given a Contacts Address Book Entry
                     href: outlook/mapi/how-to-obtain-a-contact-message-given-a-contacts-address-book-entry.md
                   - name: Access a Message on an IMAP Store Without Downloading the Entire Message
-                    href: outlook/mapi/how-to-access-a-message-on-an-imap-store-without-downloading-the-entire-message.md
+                    href: outlook/mapi/how-to-access-message-on-imap-store-without-downloading-entire-message.md
                   - name: Open a Store on the Remote Server When Outlook is in Cached Exchange Mode
-                    href: outlook/mapi/how-to-open-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode.md
+                    href: outlook/mapi/how-to-open-store-on-remote-server-in-cached-exchange-mode.md
                   - name: Programmatically Set the Resolution Order for Address Lists
                     href: outlook/mapi/how-to-programmatically-set-the-resolution-order-for-address-lists.md
                   - name: Programmatically Create a Profile in Outlook
@@ -6254,9 +6254,9 @@
                        - name: Create a Project Server workflow for Demand Management
                          href: project/create-a-project-server-workflow-for-demand-management.md
                      - name: Bulk update custom fields and create project sites from a workflow in Project Online
-                       href: project/bulk-update-custom-fields-and-create-project-sites-from-a-workflow-in-project.md
+                       href: project/bulk-update-custom-fields-and-create-project-sites-from-workflow-in-project.md
                      - name: Work with projects by using the JavaScript object model
-                       href: project/create-retrieve-update-and-delete-projects-using-the-project-server-javascript.md
+                       href: project/create-retrieve-update-delete-projects-using-project-server-javascript.md
                      - name: Create a SharePoint-hosted Project Server add-in
                        href: project/create-a-sharepoint-hosted-project-server-add-in.md
                      - name: Get the project ID in an add-in part on a Project Details Page
@@ -6280,7 +6280,7 @@
                        - name: Best practices for querying OData feeds for reporting data
                          href: project/best-practices-for-querying-odata-feeds-for-project-reporting-data.md
                        - name: Replicate Project Online Reporting Data to a SQL Server database using the OData protocol
-                         href: project/replicate-project-online-reporting-data-to-a-sql-server-database-using-the-odata.md
+                         href: project/replicate-project-online-reporting-data-to-sql-server-database-using-odata.md
                        - name: 'Project Online: SSIS package for OData delta sync'
                          href: project/project-online-ssis-package-for-odata-delta-sync.md
                        - name: 'Schema: ReportingData'
