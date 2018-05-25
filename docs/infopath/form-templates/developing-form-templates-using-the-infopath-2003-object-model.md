@@ -23,7 +23,7 @@ Microsoft InfoPath continues to support form template projects created with Micr
   
 ## In this section
 
-[Getting Started Developing Form Templates Using the InfoPath 2003 Object Model](getting-started-developing-form-templates-using-the-infopath-2003-object-model.md)
+[Getting Started Developing Form Templates Using the InfoPath 2003 Object Model](get-started-developing-form-templates-using-infopath-object-model.md)
   
 > Provides information about how to start creating managed code form templates that work with the InfoPath 2003-compatible object model.
     
@@ -39,7 +39,7 @@ Microsoft InfoPath continues to support form template projects created with Micr
   
 > Discusses the InfoPath 2003-compatible object model, and common programming tasks for managed code form templates that work with that object model.
     
-[Troubleshooting Form Templates That Use the InfoPath 2003 Object Model](troubleshooting-form-templates-that-use-the-infopath-2003-object-model.md)
+[Troubleshooting Form Templates That Use the InfoPath 2003 Object Model](troubleshoot-form-templates-that-use-infopath-object-model.md)
   
 > Contains tips for solving common problems that you might encounter when creating managed-code form templates that work with the InfoPath 2003-compatible object model.
     

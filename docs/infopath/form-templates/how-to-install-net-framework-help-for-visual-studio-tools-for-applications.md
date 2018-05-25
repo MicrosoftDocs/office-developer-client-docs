@@ -1,5 +1,5 @@
 ---
-title: Install Local .NET Framework Help for Visual Studio Tools for Applications
+title: Install local .NET Framework Help for Visual Studio Tools for Applications
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,7 +10,7 @@ ms.assetid: 69b293ac-8ddf-4ba6-92c8-37ed51358232
 description: "Download and install a local copy of .NET Framework 2.0 SDK documentation and perform the steps required to integrate that documentation with the Visual Studio 2012 development environment."
 ---
 
-# Install Local .NET Framework Help for Visual Studio Tools for Applications
+# Install local .NET Framework Help for Visual Studio Tools for Applications
 
 When the computer on which you are running Microsoft InfoPath and Visual Studio 2012 is connected to the Internet, the Visual Studio 2012 help viewer can access .NET Framework documentation and the Visual Basic and Visual C# language references from online sources. However, when the computer you are working with is not connected to the Internet, you cannot access these sources of documentation until you download and install a local copy of .NET Framework 2.0 SDK documentation and perform the steps required to integrate that documentation with the Visual Studio 2012 development environment.
   

@@ -48,7 +48,7 @@ Events:
     
 Additionally, using the dispatch identifiers, **dispidFDirty** and **dispidShowSenderPhoto**, you can achieve the following tasks:
   
-- [Determine whether an Outlook item has been modified but not saved (Outlook Auxiliary Reference)](how-to-determine-whether-an-outlook-item-has-been-modified-but-not-saved-outlook.md)
+- [Determine whether an Outlook item has been modified but not saved (Outlook Auxiliary Reference)](how-to-determine-if-outlook-item-has-been-modified-but-not-saved.md)
     
 - [Specify whether to display a contact's picture in Outlook (Outlook Auxiliary Reference)](https://msdn.microsoft.com/en-us/library/office/gg262879.aspx)
     

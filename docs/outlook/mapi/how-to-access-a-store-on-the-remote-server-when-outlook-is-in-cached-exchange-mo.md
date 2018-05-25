@@ -44,6 +44,6 @@ If you opened the message store with the **MDB_ONLINE** flag on the remote serve
 ## See also
 
 - [About MAPI Additions](about-mapi-additions.md) 
-- [Open a Store on the Remote Server When Outlook is in Cached Exchange Mode](how-to-open-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode.md)
+- [Open a Store on the Remote Server When Outlook is in Cached Exchange Mode](how-to-open-store-on-remote-server-in-cached-exchange-mode.md)
 - [Manage a Message in an OST Without Invoking a Synchronization in Cached Exchange Mode](how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md)
 

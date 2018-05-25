@@ -39,15 +39,9 @@ If an InfoPath object model member contains an optional parameter, and you do no
   
 ## See also
 
-
-
-[About the Security Model for Form Templates with Code](about-the-security-model-for-form-templates-with-code.md)
-  
-[Deploy InfoPath Form Templates with Code](how-to-deploy-infopath-form-templates-with-code.md)
-  
-[Handle Errors Using the InfoPath 2003 Object Model](how-to-handle-errors-using-the-infopath-2003-object-model.md)
-  
-[Preview and Debug Form Templates that Require Full Trust](how-to-preview-and-debug-form-templates-that-require-full-trust.md)
-  
-[Debug InfoPath Projects Using the InfoPath 2003 Object Model](how-to-debug-infopath-projects-using-the-infopath-2003-object-model.md)
+- [About the Security Model for Form Templates with Code](about-the-security-model-for-form-templates-with-code.md)
+- [Deploy InfoPath Form Templates with Code](how-to-deploy-infopath-form-templates-with-code.md)
+- [Handle Errors Using the InfoPath 2003 Object Model](how-to-handle-errors-using-the-infopath-2003-object-model.md)
+- [Preview and Debug Form Templates that Require Full Trust](how-to-preview-and-debug-form-templates-that-require-full-trust.md)
+- [Debug InfoPath Projects Using the InfoPath 2003 Object Model](how-to-debug-infopath-projects-using-the-infopath-2003-object-model.md)
 

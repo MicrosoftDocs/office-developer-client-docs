@@ -1,5 +1,5 @@
 ---
-title: "Create, retrieve, update, and delete projects"
+title: "Create, retrieve, update, and delete projects using Project Server JavaScript"
 manager: soliver
 ms.date: 8/10/2016
 ms.audience: Developer
@@ -8,7 +8,7 @@ ms.assetid: 6b690938-05bc-46a3-a40e-30f081403767
 description: "Get the current ProjectContext instance; retrieve and iterate through the collection of published projects on the server; create, retrieve, check out, and delete a project by using the Project Server JavaScript object model; and change a project's properties."
 ---
 
-# Create, retrieve, update, and delete projects
+# Create, retrieve, update, and delete projects using Project Server JavaScript
 
 The scenarios in this article show how to get the current **ProjectContext** instance; retrieve and iterate through the collection of published projects on the server; create, retrieve, check out, and delete a project by using the Project Server JavaScript object model; and change a project's properties. 
   
@@ -20,11 +20,8 @@ The scenarios in this article show how to get the current **ProjectContext** ins
 To perform the scenarios that are described in this article, you must install and configure the following products:
   
 - SharePoint Server 2013
-    
 - Project Server 2013
-    
 - Visual Studio 2012
-    
 - Office Developer Tools for Visual Studio 2012
     
 You must also have permissions to deploy the extension to SharePoint Server 2013 and to contribute to projects.

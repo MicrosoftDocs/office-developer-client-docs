@@ -14,7 +14,7 @@ description: "This topic is designed to help you quickly find the answers to com
 
 This topic is designed to help you quickly find the answers to common questions about developing form templates with form code that works against the **Microsoft.Office.Interop.InfoPath.SemiTrust** assembly. 
   
-## Projects and General Tasks
+## Projects and general tasks
 
 Common tasks performed when creating and developing projects.
   
@@ -26,9 +26,9 @@ Common tasks performed when creating and developing projects.
     
 - [Add and Reference Custom Assemblies](how-to-add-and-reference-custom-assemblies.md)
     
-- [Walkthrough: Creating and Debugging a Basic Form Template Using the InfoPath 2003 Object Model](walkthrough-creating-and-debugging-a-basic-form-template-using-the-infopath-2003.md)
+- [Walkthrough: Creating and Debugging a Basic Form Template Using the InfoPath 2003 Object Model](walkthrough-create-and-debug-basic-form-template-using-infopath-object-model.md)
     
-## Programming Tasks
+## Programming tasks
 
 Common tasks performed when programming managed-code form templates.
   
@@ -58,7 +58,7 @@ Common tasks performed when working with data.
     
 - [Access Form Data Using the InfoPath 2003 Object Model](how-to-access-form-data-using-the-infopath-2003-object-model.md)
     
-## Security and Deployment
+## Security and deployment
 
 Common tasks and information about security and deploying managed-code form templates.
   
@@ -72,7 +72,5 @@ Common tasks and information about security and deploying managed-code form temp
     
 ## See also
 
-
-
-[InfoPath 2003 Compatible Object Models](infopath-2003-compatible-object-models.md)
+- [InfoPath 2003 Compatible Object Models](infopath-2003-compatible-object-models.md)
 

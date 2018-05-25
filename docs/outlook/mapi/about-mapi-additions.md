@@ -228,8 +228,8 @@ The following properties are exposed by store objects and are used in searching 
     
 ## See also
 
-- [Access a Store on the Remote Server When Outlook is in Cached Exchange Mode](how-to-access-a-store-on-remote-server-when-outlook-is-in-cached-exchange-mode.md)  
+- [Access a Store on the Remote Server When Outlook is in Cached Exchange Mode](how-to-access-store-on-remote-server-in-cached-exchange-mode.md)  
 - [Detect the Version of Exchange Server in an Outlook Profile](how-to-detect-the-version-of-exchange-server-in-an-outlook-profile.md)
-- [Open a Store on the Remote Server When Outlook is in Cached Exchange Mode](how-to-open-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode.md)
+- [Open a Store on the Remote Server When Outlook is in Cached Exchange Mode](how-to-open-store-on-remote-server-in-cached-exchange-mode.md)
 - [Manage a Message in an OST Without Invoking a Synchronization in Cached Exchange Mode](how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md)
 

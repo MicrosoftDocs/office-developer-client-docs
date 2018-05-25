@@ -118,7 +118,7 @@ Internally, every interface and member in the Microsoft.Office.Interop.InfoPath.
   
 ## See also
 
-- [Common Tasks for Developing Form Templates Using the InfoPath 2003 Object Model](common-tasks-for-developing-form-templates-using-the-infopath-2003-object-model.md)
+- [Common Tasks for Developing Form Templates Using the InfoPath 2003 Object Model](common-tasks-for-developing-form-templates-using-infopath-object-model.md)
 - [About the Security Model for Form Templates with Code](about-the-security-model-for-form-templates-with-code.md)
 - [Creating Form Templates Using the InfoPath 2003 Object Model](creating-form-templates-using-the-infopath-2003-object-model.md)
 - [Understanding the InfoPath 2003 Object Model](understanding-the-infopath-2003-object-model.md)

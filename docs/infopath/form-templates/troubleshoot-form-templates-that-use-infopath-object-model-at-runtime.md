@@ -14,11 +14,11 @@ description: "The following sections describe common troubleshooting scenarios y
 
 The following sections describe common troubleshooting scenarios you may encounter while working with InfoPath managed-code form templates that use the InfoPath 2003-compatible object model provided by the **Microsoft.Office.Interop.InfoPath.SemiTrust** namespace at run time. 
   
-## Display Notifications for Unhandled Managed-Code Exceptions at Run Time
+## Display notifications for unhandled managed-code exceptions at run time
 
 If you do not use try-catch exception handling in your form code, InfoPath will display information about unhandled exceptions in the InfoPath error dialog box while debugging and previewing. However, by default, unhandled exceptions are not displayed in the InfoPath error dialog box at run time when you deploy your managed-code form template. If you want managed-code exceptions displayed at run time, follow the procedure in the "Handling Managed Code Exceptions" section of [Handle Errors Using the InfoPath 2003 Object Model](how-to-handle-errors-using-the-infopath-2003-object-model.md).
   
-## Problems with Managed-Code Form Templates after Deployment
+## Problems with managed-code form templates after deployment
 
 Be sure to test your managed-code form template in the location where it will be finally deployed. For information on deployment procedures, see [Deploy InfoPath Form Templates with Code](how-to-deploy-infopath-form-templates-with-code.md). For information on security scenarios that affect deployment, see [About the Security Model for Form Templates with Code](about-the-security-model-for-form-templates-with-code.md).
   
@@ -26,13 +26,8 @@ If you use the .NET Framework 1.1 Configuration utility and the InfoPath Form Te
   
 ## See also
 
-
-
-[About the Security Model for Form Templates with Code](about-the-security-model-for-form-templates-with-code.md)
-  
-[Deploy InfoPath Form Templates with Code](how-to-deploy-infopath-form-templates-with-code.md)
-  
-[Handle Errors Using the InfoPath 2003 Object Model](how-to-handle-errors-using-the-infopath-2003-object-model.md)
-  
-[Debug InfoPath Projects Using the InfoPath 2003 Object Model](how-to-debug-infopath-projects-using-the-infopath-2003-object-model.md)
+- [About the Security Model for Form Templates with Code](about-the-security-model-for-form-templates-with-code.md)
+- [Deploy InfoPath Form Templates with Code](how-to-deploy-infopath-form-templates-with-code.md)
+- [Handle Errors Using the InfoPath 2003 Object Model](how-to-handle-errors-using-the-infopath-2003-object-model.md)
+- [Debug InfoPath Projects Using the InfoPath 2003 Object Model](how-to-debug-infopath-projects-using-the-infopath-2003-object-model.md)
 

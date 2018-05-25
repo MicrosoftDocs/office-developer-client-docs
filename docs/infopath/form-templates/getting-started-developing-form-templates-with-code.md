@@ -32,7 +32,7 @@ This section provides information on how to get started creating managed code fo
   
 > Describes how to install the Visual Studio 2012 environment.
     
-[Install Local .NET Framework Help for Visual Studio Tools for Applications](how-to-install-local-net-framework-help-for-visual-studio-tools-for-applications.md)
+[Install Local .NET Framework Help for Visual Studio Tools for Applications](how-to-install-net-framework-help-for-visual-studio-tools-for-applications.md)
   
 > Describes how to install a local copy of the .NET Framework documentation for offline use in the Visual Studio 2012 environment.
     

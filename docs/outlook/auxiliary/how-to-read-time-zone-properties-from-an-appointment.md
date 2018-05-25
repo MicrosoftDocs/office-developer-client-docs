@@ -1,12 +1,9 @@
 ---
 title: "Read time zone properties from an appointment"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
- 
 localization_priority: Normal
 ms.assetid: ba1b9425-6c16-cab2-da0a-a21734118098
 description: "This topic shows a function, ReadTimeZones, that calls the two functions, BinToTZDEFINITION and BinToTZREG, to read the time zone properties, PidLidAppointmentTimeZoneDefinitionStartDisplay and PidLidTimeZoneStruct, from an appointment."
@@ -16,9 +13,9 @@ description: "This topic shows a function, ReadTimeZones, that calls the two fun
 
 This topic shows a function,  `ReadTimeZones`, that calls the two functions,  `BinToTZDEFINITION` and  `BinToTZREG`, to read the time zone properties, [PidLidAppointmentTimeZoneDefinitionStartDisplay](http://msdn.microsoft.com/library/08239670-3211-420c-99d7-0056ed967cb8%28Office.15%29.aspx) and [PidLidTimeZoneStruct](http://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx), from an appointment.
   
- **PidLidAppointmentTimeZoneDefinitionStartDisplay** contains a stream that maps to the persisted format of a [TZDEFINITION](tzdefinition.md) structure, and **PidLidTimeZoneStruct** contains a stream that maps to the persisted format of a [TZREG](tzreg.md) structure. To obtain the exact **TZDEFINITION** and **TZREG** structures,  `BinToTZDEFINITION` and  `BinToTZREG` are used to parse the stream values of these properties appropriately. These two functions are defined in [Parse a stream from a binary property to read the TZDEFINITION structure](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzdefinition-structure.md) and [Parse a stream from a binary property to read the TZREG structure](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md), respectively. 
+**PidLidAppointmentTimeZoneDefinitionStartDisplay** contains a stream that maps to the persisted format of a [TZDEFINITION](tzdefinition.md) structure, and **PidLidTimeZoneStruct** contains a stream that maps to the persisted format of a [TZREG](tzreg.md) structure. To obtain the exact **TZDEFINITION** and **TZREG** structures,  `BinToTZDEFINITION` and  `BinToTZREG` are used to parse the stream values of these properties appropriately. These two functions are defined in [Parse a stream from a binary property to read the TZDEFINITION structure](how-to-parse-stream-from-binary-property-to-read-tzdefinition-structure.md) and [Parse a stream from a binary property to read the TZREG structure](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md), respectively. 
   
-```
+```cpp
 void ReadTimeZones(LPMAPIPROP lpAppointment) 
 { 
     HRESULT hRes = S_OK; 
@@ -74,7 +71,5 @@ void ReadTimeZones(LPMAPIPROP lpAppointment)
 
 ## See also
 
-
-
-[About rebasing calendars programmatically for Daylight Saving Time](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
+- [About rebasing calendars programmatically for Daylight Saving Time](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
 
