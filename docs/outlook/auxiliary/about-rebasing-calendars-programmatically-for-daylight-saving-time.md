@@ -1,15 +1,12 @@
 ---
 title: "About rebasing calendars programmatically for Daylight Saving Time"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
- 
 localization_priority: Normal
 ms.assetid: 38b342d9-ab10-04b6-5490-9a45f847a60f
-description: "Many countries observe daylight saving time (DST) by advancing clocks so that evenings have longer daylight. This is typically done by setting the clock an hour ahead in the spring, and setting the clock an hour back in the fall. In this topic, this period between the spring and fall is referred to as the DST period. Most countries have their own regulations for when DST starts and ends. The dates of the DST period can change from year to year, and users must update their Microsoft Outlook calendar every time that the DST regulations change."
+description: "In this topic, this period between the spring and fall is referred to as the DST period."
 ---
 
 # About rebasing calendars programmatically for Daylight Saving Time

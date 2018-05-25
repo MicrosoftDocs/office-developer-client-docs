@@ -1,7 +1,5 @@
 ---
 title: "About the Free/Busy API"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -9,7 +7,7 @@ ms.topic: overview
  
 localization_priority: Normal
 ms.assetid: 17c5e44e-ae56-8de7-3579-90171d996411
-description: "The Free/Busy API allows mail providers to provide free/busy status information for specified user accounts within a specified time range. The free/busy status of a block of time on a user's calendar is one of the following: out-of-office, busy, tentative, or free."
+description: "The Free/Busy API allows mail providers to provide free/busy status information for specified user accounts within a specified time range."
 ---
 
 # About the Free/Busy API
