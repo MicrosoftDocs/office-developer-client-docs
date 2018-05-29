@@ -881,7 +881,7 @@
                   href: outlook/social-connector/friends-xml-example.md
                 - name: Activity feed XML example
                   href: outlook/social-connector/activity-feed-xml-example.md
-              - name: XML for Capabilities
+              - name: XML for capabilities
                 href: outlook/social-connector/xml-for-capabilities.md
                 items:
                 - name: Capabilities XML elements
