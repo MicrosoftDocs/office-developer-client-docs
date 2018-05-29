@@ -1,12 +1,9 @@
 ---
 title: "IEnumFBBlockNext"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: 9b46358c-bcab-f097-8746-fabfd4722b3c
 description: "Gets the next specified number of blocks of free/busy data in an enumeration."
@@ -20,7 +17,7 @@ Gets the next specified number of blocks of free/busy data in an enumeration.
 
 See [IEnumFBBlock](ienumfbblock.md).
   
-```
+```cpp
 HRESULT Next(  
         LONG celt,
         FBBlock_1 *pblk,
@@ -30,15 +27,15 @@ HRESULT Next(
 
 ## Parameters
 
- _celt_
+_celt_
   
 > [in] The number of free/busy data blocks in  *pblk*  to retrieve. 
     
- _pblk_
+_pblk_
   
 > [in] A pointer to an array of free/busy blocks. The array is allocated a size of  *celt*  . The requested free/busy blocks are returned in this array. 
     
- _pcfetch_
+_pcfetch_
   
 > [out] The number of free/busy blocks actually returned in  *pblk*  . 
     
@@ -51,17 +48,10 @@ HRESULT Next(
    
 ## See also
 
-
-
-[Constants (Free/busy API)](constants-free-busy-api.md)
-  
-[FBBlock_1](fbblock_1.md)
-  
-[IEnumFBBlock::Clone](ienumfbblock-clone.md)
-  
-[IEnumFBBlock::Reset](ienumfbblock-reset.md)
-  
-[IEnumFBBlock::Restrict](ienumfbblock-restrict.md)
-  
-[IEnumFBBlock::Skip](ienumfbblock-skip.md)
+- [Constants (Free/busy API)](constants-free-busy-api.md)  
+- [FBBlock_1](fbblock_1.md)  
+- [IEnumFBBlock::Clone](ienumfbblock-clone.md)  
+- [IEnumFBBlock::Reset](ienumfbblock-reset.md)  
+- [IEnumFBBlock::Restrict](ienumfbblock-restrict.md)  
+- [IEnumFBBlock::Skip](ienumfbblock-skip.md)
 

@@ -1,12 +1,9 @@
 ---
 title: "Data types (Account management API)"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: overview
- 
 localization_priority: Normal
 ms.assetid: 513de39d-6d16-47b6-b2f4-e1bd12a7193f
 description: "This section describes the data types in the Account Management API."

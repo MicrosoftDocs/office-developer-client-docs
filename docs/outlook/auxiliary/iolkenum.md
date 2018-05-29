@@ -1,12 +1,9 @@
 ---
 title: "IOlkEnum"
- 
- 
 manager: soliver
 ms.date: 12/8/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: 33cb89cb-c967-760c-6bc4-94118a4f872c
 ---
@@ -40,9 +37,6 @@ This interface is returned by **IOlkAccountManager::EnumerateAccounts** when obt
   
 ## See also
 
-
-
-[About the Account Management API](about-the-account-management-api.md)
-  
-[Constants (Account management API)](constants-account-management-api.md)
+- [About the Account Management API](about-the-account-management-api.md) 
+- [Constants (Account management API)](constants-account-management-api.md)
 

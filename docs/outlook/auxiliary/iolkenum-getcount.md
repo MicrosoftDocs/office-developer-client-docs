@@ -1,12 +1,9 @@
 ---
 title: "IOlkEnumGetCount"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: dd7a7e62-4cf2-bdd3-8a00-4fff5ac575d3
 description: "Gets the number of accounts in the enumerator."
@@ -20,7 +17,7 @@ Gets the number of accounts in the enumerator.
 
 See [IOlkEnum](iolkenum.md).
   
-```
+```cpp
 HRESULT IOlkEnum::GetCount ( 
     DWORD *pulCount 
 );
@@ -29,7 +26,7 @@ HRESULT IOlkEnum::GetCount (
 
 ## Parameters
 
- _pulCount_
+_pulCount_
   
 > [out] A pointer to the number of objects being enumerated.
     
@@ -39,11 +36,7 @@ S_OK if the call succeeded; otherwise, an error code.
   
 ## See also
 
-
-
-[IOlkEnum::GetNext](iolkenum-getnext.md)
-  
-[IOlkEnum::Reset](iolkenum-reset.md)
-  
-[IOlkEnum::Skip](iolkenum-skip.md)
+- [IOlkEnum::GetNext](iolkenum-getnext.md)  
+- [IOlkEnum::Reset](iolkenum-reset.md) 
+- [IOlkEnum::Skip](iolkenum-skip.md)
 

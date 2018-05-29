@@ -1,12 +1,9 @@
 ---
 title: "IOlkAccountNotify"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
-ms.topic: reference
- 
+ms.topic: reference 
 localization_priority: Normal
 ms.assetid: 360854bb-e9be-a784-e80b-3f18418ded1b
 ---
@@ -35,9 +32,6 @@ This interface is passed to [IOlkAccountManager::Advise](iolkaccountmanager-advi
   
 ## See also
 
-
-
-[About the Account Management API](about-the-account-management-api.md)
-  
-[Constants (Account management API)](constants-account-management-api.md)
+- [About the Account Management API](about-the-account-management-api.md) 
+- [Constants (Account management API)](constants-account-management-api.md)
 

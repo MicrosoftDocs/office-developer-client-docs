@@ -1,12 +1,9 @@
 ---
 title: "IOlkEnumGetNext"
- 
- 
 manager: soliver
 ms.date: 12/7/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: b387f896-c213-fc07-a12a-33917e620837
 description: "Gets the next account in the enumerator."
@@ -20,7 +17,7 @@ Gets the next account in the enumerator.
 
 See [IOlkEnum](iolkenum.md).
   
-```
+```cpp
 HRESULT IOlkEnum:: GetNext( 
     LPUNKNOWN *ppunk 
 );
@@ -29,7 +26,7 @@ HRESULT IOlkEnum:: GetNext(
 
 ## Parameters
 
- _ppunk_
+_ppunk_
   
 > [in] A pointer to an **IUnknown** interface that the client can query to obtain an [IOlkAccount](iolkaccount.md) interface. 
     
@@ -46,13 +43,8 @@ The interface specified by  *ppunk*  inherits from **IUnknown**. The client can 
   
 ## See also
 
-
-
-[Constants (Account management API)](constants-account-management-api.md)
-  
-[IOlkEnum::GetCount](iolkenum-getcount.md)
-  
-[IOlkEnum::Reset](iolkenum-reset.md)
-  
-[IOlkEnum::Skip](iolkenum-skip.md)
+- [Constants (Account management API)](constants-account-management-api.md) 
+- [IOlkEnum::GetCount](iolkenum-getcount.md)  
+- [IOlkEnum::Reset](iolkenum-reset.md) 
+- [IOlkEnum::Skip](iolkenum-skip.md)
 

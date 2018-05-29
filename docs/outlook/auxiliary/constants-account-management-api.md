@@ -1,12 +1,9 @@
 ---
 title: "Constants (Account management API)"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: overview
- 
 localization_priority: Normal
 ms.assetid: 2a15e5df-b8e3-9c37-b1ee-2881d010e30b
 description: "This topic contains constant definitions, class identifiers, and interface identifiers for the Account Management API."
@@ -61,7 +58,7 @@ This topic contains constant definitions, class identifiers, and interface ident
 |GET_REMOVE_AFTER_DAYS(ul)  <br/> |((ul)\>\>16)  <br/> |
 |SET_REMOVE_AFTER_DAYS(days)  <br/> |((days)\<\<16)  <br/> |
    
-## Class Identifiers
+## Class identifiers
 
 Use the DEFINE_GUID macro defined in the Windows SDK header file guiddef.h to associate the GUID symbolic name with its value.
   
@@ -101,7 +98,7 @@ DEFINE_GUID(CLSID_OlkHotmailAccount, 0x4db5cbf0, 0x3b77, 0x4852, 0xbc, 0x8e, 0xb
   
 DEFINE_GUID(CLSID_OlkLDAPAccount, 0x4db5cbf2, 0x3b77, 0x4852, 0xbc, 0x8e, 0xbb, 0x81, 0x90, 0x88, 0x61, 0xf3);
   
-## Interface Identifiers
+## Interface identifiers
 
 Use the DEFINE_GUID macro defined in the Windows SDK header file guiddef.h to associate the GUID symbolic name with its value.
   

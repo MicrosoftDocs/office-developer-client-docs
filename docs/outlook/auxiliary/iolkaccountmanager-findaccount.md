@@ -1,12 +1,9 @@
 ---
 title: "IOlkAccountManagerFindAccount"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
-ms.topic: reference
- 
+ms.topic: reference 
 localization_priority: Normal
 ms.assetid: 31004aec-7bd2-6e12-83eb-1a32da121c54
 description: "Finds an account by property value."
@@ -20,7 +17,7 @@ Finds an account by property value.
 
 See [IOlkAccountManager](iolkaccountmanager.md).
   
-```
+```cpp
 HRESULT IOlkAccountManager::FindAccount (  
     DWORD dwProp, 
     ACCT_VARIANT *pVar, 
@@ -30,15 +27,15 @@ HRESULT IOlkAccountManager::FindAccount (
 
 ## Parameters
 
- _dwProp_
+_dwProp_
   
 > [in] The property to search on. Must be [PROP_ACCT_ID](prop_acct_id.md) or [PROP_ACCT_IS_EXCH](prop_acct_is_exch.md).
     
- _pVar_
+_pVar_
   
 > [in] The value to match.
     
- _ppAccount_
+_ppAccount_
   
 > [out] The account found. This object supports an [IOlkAccount](iolkaccount.md) interface. 
     
@@ -53,11 +50,7 @@ HRESULT IOlkAccountManager::FindAccount (
    
 ## See also
 
-
-
-[ACCT_VARIANT](acct_variant.md)
-  
-[Constants (Account management API)](constants-account-management-api.md)
-  
-[IOlkAccountHelper](iolkaccounthelper.md)
+- [ACCT_VARIANT](acct_variant.md)  
+- [Constants (Account management API)](constants-account-management-api.md)  
+- [IOlkAccountHelper](iolkaccounthelper.md)
 

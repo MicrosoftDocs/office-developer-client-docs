@@ -1,12 +1,9 @@
 ---
 title: "IOlkAccountNotifyNotify"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: dbce1c47-1252-ddeb-64ae-d52118e6821f
 description: "Notifies the client of changes to the specified account."
@@ -20,7 +17,7 @@ Notifies the client of changes to the specified account.
 
 See [IOlkAccountNotify](iolkaccountnotify.md).
   
-```
+```cpp
 HRESULT IOlkAccount::Notify(  
     DWORD dwNotify, 
     DWORD dwAcctID, 
@@ -31,19 +28,19 @@ HRESULT IOlkAccount::Notify(
 
 ## Parameters
 
- _dwNotify_
+_dwNotify_
   
 > [in] The type of notification. The value must be one of the following:
     
-    - NOTIFY_ACCT_CHANGED 
+   - NOTIFY_ACCT_CHANGED 
     
-    - NOTIFY_ACCT_CREATED 
+   - NOTIFY_ACCT_CREATED 
     
-    - NOTIFY_ACCT_DELETED
+   - NOTIFY_ACCT_DELETED
     
-    - NOTIFY_ACCT_ORDER_CHANGED 
+   - NOTIFY_ACCT_ORDER_CHANGED 
     
-    - NOTIFY_ACCT_PREDELETED 
+   - NOTIFY_ACCT_PREDELETED 
     
  _dwAcctID_
   
@@ -59,9 +56,6 @@ S_OK if the call succeeded; otherwise, an error code.
   
 ## See also
 
-
-
-[Constants (Account management API)](constants-account-management-api.md)
-  
-[IOlkAccountManager](iolkaccountmanager.md)
+- [Constants (Account management API)](constants-account-management-api.md)  
+- [IOlkAccountManager](iolkaccountmanager.md)
 

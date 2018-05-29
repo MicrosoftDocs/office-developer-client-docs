@@ -1,12 +1,9 @@
 ---
 title: "IOlkAccountManagerEnumerateAccounts"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: dbb8342b-e4e0-f89d-3e14-b4c7049095ef
 description: "Gets an enumerator for the accounts of the specific category or type."
@@ -20,7 +17,7 @@ Gets an enumerator for the accounts of the specific category or type.
 
 See [IOlkAccountManager](iolkaccountmanager.md).
   
-```
+```cpp
 HRESULT IOlkAccountManager::EnumerateAccounts (  
     const CLSID *pclsidCategory, 
     const CLSID *pclsidType, 
@@ -32,35 +29,35 @@ HRESULT IOlkAccountManager::EnumerateAccounts (
 
 ## Parameters
 
- _pclsidCategory_
+_pclsidCategory_
   
 > [in] The class identifier of the category to enumerate. The value must be one of the following:
     
-    - CLSID_OlkMail 
+   - CLSID_OlkMail 
     
-    -  CLSID_OlkAddressBook 
+   -  CLSID_OlkAddressBook 
     
-    - CLSID_OlkStore 
+   - CLSID_OlkStore 
     
- _pclsidType_
+_pclsidType_
   
 > [in] The class identifier of the account type to enumerate. The value must be one of the following:
     
-    - CLSID_OlkPOP3Account
+   - CLSID_OlkPOP3Account
     
-    - CLSID_OlkIMAP4Account
+   - CLSID_OlkIMAP4Account
     
-    - CLSID_OlkMAPIAccount
+   - CLSID_OlkMAPIAccount
     
-    - CLSID_OlkHotmailAccount
+   - CLSID_OlkHotmailAccount
     
-    - CLSID_OlkLDAPAccount
+   - CLSID_OlkLDAPAccount
     
- _dwFlags_
+_dwFlags_
   
 > [in] Flags to modify behavior. The only supported value is OLK_ACCOUNT_NO_FLAGS.
     
- _ppEnum_
+_ppEnum_
   
 > [out] An enumerator that supports the [IOlkEnum](iolkenum.md) interface. 
     
@@ -79,9 +76,6 @@ Specifying NULL for category returns an enumerator of all accounts of the specif
   
 ## See also
 
-
-
-[Constants (Account management API)](constants-account-management-api.md)
-  
-[IOlkEnum](iolkenum.md)
+- [Constants (Account management API)](constants-account-management-api.md)  
+- [IOlkEnum](iolkenum.md)
 

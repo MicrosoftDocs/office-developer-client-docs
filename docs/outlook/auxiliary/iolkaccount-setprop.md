@@ -1,12 +1,9 @@
 ---
 title: "IOlkAccountSetProp"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: 883b1c5d-47dd-a006-b5f1-130691bdd019
 description: "Sets the value of the specified account property."
@@ -20,7 +17,7 @@ Sets the value of the specified account property.
 
 See [IOlkAccount](iolkaccount.md).
   
-```
+```cpp
 HRESULT IOlkAccount::SetProp(  
     DWORD dwProp, 
     ACCT_VARIANT *pVar 
@@ -29,11 +26,11 @@ HRESULT IOlkAccount::SetProp(
 
 ## Parameters
 
- _dwProp_
+_dwProp_
   
 > [in] The property tag of the account property to set.
     
- _pVar_
+_pVar_
   
 > [in] The value of the specified property.
     
@@ -50,9 +47,6 @@ Use [IOlkAccount::SaveChanges](iolkaccount-savechanges.md) to save changes to th
   
 ## See also
 
-
-
-[Constants (Account management API)](constants-account-management-api.md)
-  
-[IOlkAccount::GetProp](iolkaccount-getprop.md)
+- [Constants (Account management API)](constants-account-management-api.md) 
+- [IOlkAccount::GetProp](iolkaccount-getprop.md)
 

@@ -1,12 +1,9 @@
 ---
 title: "IOlkAccountManagerAdvise"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: c88f087e-4ff4-0837-186d-b6e761468a4d
 description: "Registers a client with the account manager for notifications regarding all accounts."
@@ -20,7 +17,7 @@ Registers a client with the account manager for notifications regarding all acco
 
 See [IOlkAccountManager](iolkaccountmanager.md).
   
-```
+```cpp
 HRESULT IOlkAccountManager::Advise (  
     IOlkAccountNotify *pNotify, 
     DWORD *pdwCookie 
@@ -29,11 +26,11 @@ HRESULT IOlkAccountManager::Advise (
 
 ## Parameters
 
- _pNotify_
+_pNotify_
   
 > [in] An [IOlkAccountNotify](iolkaccountnotify.md) interface that the account manager will use to send notifications to the client. 
     
- _pdwCookie_
+_pdwCookie_
   
 > [out] A cookie that [IOlkAccountManager::Unadvise](iolkaccountmanager-unadvise.md) will use when removing the registration for the account. 
     
@@ -47,9 +44,6 @@ HRESULT IOlkAccountManager::Advise (
    
 ## See also
 
-
-
-[Constants (Account management API)](constants-account-management-api.md)
-  
-[IOlkAccountManager::Unadvise](iolkaccountmanager-unadvise.md)
+- [Constants (Account management API)](constants-account-management-api.md)  
+- [IOlkAccountManager::Unadvise](iolkaccountmanager-unadvise.md)
 
