@@ -1,5 +1,5 @@
 ---
-title: "Copying or Moving a Message or a Folder"
+title: "Copying or moving a message or a folder"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,13 +8,9 @@ api_type:
 - COM
 ms.assetid: 72290fd3-00d7-4055-bbfa-0c47b6e0f62d
 description: "Last modified: November 08, 2011"
- 
- 
 ---
 
-# Copying or Moving a Message or a Folder
-
- 
+# Copying or moving a message or a folder
   
 **Applies to**: Outlook 
   
@@ -42,7 +38,7 @@ Whereas using the **IMAPIFolder** methods does not require any knowledge of the 
   
 The number of properties to be copied or moved can affect your decision as to which method to use. If you are copying or moving multiple messages, call **IMAPIFolder::CopyMessages**. An alternate choice is to call **IMAPIProp::CopyProps** to copy only the folder's **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)) property. The following procedure shows how to use **CopyMessages**. 
   
- **To copy or move one or more messages**
+### To copy or move one or more messages
   
 1. Locate valid entry identifiers for the source and destination folders.
     
@@ -54,9 +50,9 @@ The number of properties to be copied or moved can affect your decision as to wh
     
 5. Call **IMAPIFolder::CopyMessages** with the following flags set: 
     
-  - MESSAGE_MOVE, if you want to perform a move operation. 
+   - MESSAGE_MOVE, if you want to perform a move operation. 
     
-  - MESSAGE_DIALOG and pass a window handle in the  _ulUIParam_ parameter, if you want the folder to show a progress indicator. 
+   - MESSAGE_DIALOG and pass a window handle in the  _ulUIParam_ parameter, if you want the folder to show a progress indicator. 
     
 6. Release the **IMAPIFolder** pointers for the source and destination folders. 
     
