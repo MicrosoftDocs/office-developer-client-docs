@@ -42,7 +42,7 @@ Scenario 1—OSC gets a list of friends, and an [ISocialPerson](isocialpersoniun
     
    The OSC can make further calls on the **ISocialPerson** object to obtain activities and details (for example, email addresses) for that friend. 
     
-## Scenario 2: synchronize friends 
+### Scenario 2: synchronize friends 
 
 Scenario 2—OSC synchronizes friends dynamically:
     

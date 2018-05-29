@@ -829,99 +829,99 @@
             href: outlook/selecting-an-api-or-technology-for-developing-solutions-for-outlook.md
           - name: Outlook VBA reference
             href: https://msdn.microsoft.com/EN-US/library/office/ee861520.aspx
-          - name: Outlook Primary Interop Assembly Reference
+          - name: Outlook Primary Interop Assembly reference
             href: https://msdn.microsoft.com/EN-US/library/office/bb652780.aspx
           - name: Outlook Social Connector provider reference
             href: outlook/social-connector/outlook-social-connector-provider-reference.md
             items:
-            - name: Getting Started
+            - name: Getting started
               href: outlook/social-connector/getting-started-with-developing-an-outlook-social-connector-provider.md
               items:
-              - name: What's New for Providers
+              - name: What's new for providers
                 href: outlook/social-connector/what-s-new-for-providers.md
-              - name: Why Develop an Outlook Social Connector Provider
+              - name: Why develop an Outlook Social Connector provider
                 href: outlook/social-connector/why-develop-an-outlook-social-connector-provider.md
-              - name: Relating the OSC with Outlook and Social Networks
+              - name: Relating the OSC with Outlook and social networks
                 href: outlook/social-connector/relating-the-osc-with-outlook-and-social-networks.md
-              - name: Quick Steps for Learning to Develop a Provider
+              - name: Quick steps for learning to develop a provider
                 href: outlook/social-connector/quick-steps-for-learning-to-develop-a-provider.md
-              - name: Technical Requirements
+              - name: Technical requirements
                 href: outlook/social-connector/technical-requirements.md
-              - name: Best Practices for Developing a Provider
+              - name: Best practices for developing a provider
                 href: outlook/social-connector/best-practices-for-developing-a-provider.md
-            - name: Sample Templates
+            - name: Sample templates
               href: outlook/social-connector/osc-sample-templates.md
               items:
-              - name: Downloading the Samples
+              - name: Downloading the samples
                 href: outlook/social-connector/downloading-the-samples.md
-              - name: Applying a Sample Provider Template
+              - name: Applying a sample provider template
                 href: outlook/social-connector/applying-a-sample-provider-template.md
-            - name: OSC Typical Calling Sequences
+            - name: OSC typical calling sequences
               href: outlook/social-connector/osc-typical-calling-sequences.md
               items:
-              - name: Basic Authentication
+              - name: Basic authentication
                 href: outlook/social-connector/basic-authentication.md
-              - name: Forms-Based Authentication
+              - name: Forms-based authentication
                 href: outlook/social-connector/forms-based-authentication.md
-              - name: Getting Friends Information
+              - name: Getting friends information
                 href: outlook/social-connector/getting-friends-information.md
-              - name: Getting Activities
+              - name: Getting activities
                 href: outlook/social-connector/getting-activities.md
-            - name: Developing a Provider with the OSC XML Schema
+            - name: Developing a provider with the OSC XML schema
               href: outlook/social-connector/developing-a-provider-with-the-osc-xml-schema.md
               items:
-              - name: Synchronizing Friends and Activities
+              - name: Synchronizing friends and activities
                 href: outlook/social-connector/synchronizing-friends-and-activities.md
-              - name: XML Examples
+              - name: XML examples
                 href: outlook/social-connector/osc-provider-xml-examples.md
                 items:
-                - name: Capabilities XML Example
+                - name: Capabilities XML example
                   href: outlook/social-connector/capabilities-xml-example.md
-                - name: Friends XML Example
+                - name: Friends XML example
                   href: outlook/social-connector/friends-xml-example.md
-                - name: Activity Feed XML Example
+                - name: Activity feed XML example
                   href: outlook/social-connector/activity-feed-xml-example.md
               - name: XML for Capabilities
                 href: outlook/social-connector/xml-for-capabilities.md
                 items:
-                - name: Capabilities XML Elements
+                - name: Capabilities XML elements
                   href: outlook/social-connector/capabilities-xml-elements.md
-              - name: XML for Friends
+              - name: XML for friends
                 href: outlook/social-connector/xml-for-friends.md
-              - name: XML for Activities
+              - name: XML for activities
                 href: outlook/social-connector/xml-for-activities.md
                 items:
-                - name: Overview of XML for an Activity Feed Item
+                - name: Overview of XML for an activity feed item
                   href: outlook/social-connector/overview-of-xml-for-an-activity-feed-item.md
-                - name: activityDetails Element
+                - name: activityDetails element
                   href: outlook/social-connector/activitydetails-element.md
-                - name: activityTemplateContainer Element
+                - name: activityTemplateContainer element
                   href: outlook/social-connector/activitytemplatecontainer-element.md
-                - name: Template Variables
+                - name: Template variables
                   href: outlook/social-connector/template-variables.md
-                - name: Guidelines for Properly Displaying Activities
+                - name: Guidelines for properly displaying activities
                   href: outlook/social-connector/guidelines-for-properly-displaying-activities.md
-            - name: Debugging a Provider
+            - name: Debugging a provider
               href: outlook/social-connector/debugging-a-provider.md
-            - name: Deploying a Provider
+            - name: Deploying a provider
               href: outlook/social-connector/deploying-a-provider.md
               items:
-              - name: Registering a Provider
+              - name: Registering a provider
                 href: outlook/social-connector/registering-a-provider.md
-              - name: Installation Checklist
+              - name: Installation checklist
                 href: outlook/social-connector/installation-checklist.md
-            - name: Getting Ready to Release
+            - name: Getting ready to release
               href: outlook/social-connector/getting-ready-to-release-an-osc-provider.md
               items:
-              - name: Testing Deployment
+              - name: Testing deployment
                 href: outlook/social-connector/testing-deployment.md
-              - name: Testing Capabilities, Authentication, and Configuration
+              - name: Testing capabilities, authentication, and configuration
                 href: outlook/social-connector/testing-capabilities-authentication-and-configuration.md
-              - name: Testing Following and Stop-Following Persons
+              - name: Testing following and stop-following persons
                 href: outlook/social-connector/testing-following-and-stop-following-persons.md
-              - name: Testing Friends
+              - name: Testing friends
                 href: outlook/social-connector/testing-friends.md
-              - name: Testing Activities
+              - name: Testing activities
                 href: outlook/social-connector/testing-activities.md
             - name: Reference
               href: outlook/social-connector/outlook-social-connector-provider-reference-0.md
@@ -1016,9 +1016,9 @@
                     href: outlook/social-connector/isocialsession2-getpeopledetails.md
                   - name: ISocialSession2::LogonCached
                     href: outlook/social-connector/isocialsession2-logoncached.md
-              - name: XML Schema
+              - name: XML schema
                 href: outlook/social-connector/outlook-social-connector-provider-xml-schema.md
-              - name: Error Codes
+              - name: Error codes
                 href: outlook/social-connector/outlook-social-connector-provider-error-codes.md
           - name: Extending the Weather Bar in Outlook
             href: outlook/weather/extending-the-weather-bar-in-outlook.md

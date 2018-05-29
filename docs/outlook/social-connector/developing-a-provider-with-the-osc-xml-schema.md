@@ -14,7 +14,7 @@ description: "The Outlook Social Connector (OSC) provider XML schema defines the
 
 The Outlook Social Connector (OSC) provider XML schema defines the format of a significant amount of information that is passed from a social network through the network's OSC provider to the OSC. The XML schema allows an OSC provider to specify capabilities of the provider, friends, and activity feed items on the social network, by using the three main elements, **capabilities**, **friends**, and **activityFeed**, and their child elements. The OSC provider implements interfaces and their methods in the OSC provider extensibility, returning XML strings as output parameters that comply with the OSC provider XML schema. The OSC calls these methods to obtain information that it can understand as defined by the XML schema.
   
-> - [!NOTE]
+> [!NOTE]
 > OSC provider extensibility supports debugging providers by setting the `DebugProviders` value of the  `HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\SocialConnector` registry key to 1. When you turn on provider debugging, the OSC validates the provider XML against the version of the OSC XML schema that you specify in the **xmlns** XML attribute. For OSC 1.1 and versions of the OSC since Outlook Social Connector 2013, specify the **xmlns** attribute as follows: 
 >  `xmlns="http://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd"`
   

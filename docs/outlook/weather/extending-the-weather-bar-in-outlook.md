@@ -14,20 +14,6 @@ description: "Learn how to plug in a third-party weather web service for the Wea
 
 Learn how to plug in a third-party weather web service for the Weather Bar in Outlook 2013, to provide weather conditions data for a user-chosen location.
   
-- [Weather Bar overview](extending-the-weather-bar-in-outlook.md#ol15_weatherbar_overview)
-  
-- [Weather Bar protocol](extending-the-weather-bar-in-outlook.md#ol15_weatherbar_theprotocol)
-  
-- [Setting the Weather Bar to use a weather service](extending-the-weather-bar-in-outlook.md#ol15_weatherbar_setting)
-  
-- [Dependent conditions](extending-the-weather-bar-in-outlook.md#ol15_weatherbar_dependentconditions)
-  
-- [Weather Bar example](extending-the-weather-bar-in-outlook.md#ol15_weatherbar_example)
-  
-- [Conclusion](extending-the-weather-bar-in-outlook.md#ol15_weatherbar_conclusion)
-  
-- [Additional resources](extending-the-weather-bar-in-outlook.md#ol15_weatherbar_additionalrsc)
-  
 ## Weather Bar overview
 <a name="ol15_weatherbar_overview"> </a>
 
