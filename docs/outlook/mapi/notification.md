@@ -1,7 +1,5 @@
 ---
 title: "NOTIFICATION"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -17,9 +15,7 @@ description: "Last modified: March 09, 2015"
 ---
 
 # NOTIFICATION
-
-  
-  
+ 
 **Applies to**: Outlook 
   
 Contains information about an event that has occurred and the data that has been affected by the event.
@@ -47,7 +43,7 @@ typedef struct
 
 ## Members
 
- **ulEventType**
+**ulEventType**
   
 > Type of notification event that occurred. The value of the **ulEventType** member corresponds to the structure that is included in the **info** union. The **ulEventType** member can be set to one of the following values: 
     
@@ -91,7 +87,7 @@ typedef struct
   
 > Information in a table has changed. The **info** member contains an [TABLE_NOTIFICATION](table_notification.md) structure. 
     
- **info**
+**info**
   
 > Union of notification structures describing the affected data for a particular type of event. The structure included in the **info** member depends on the value of the **ulEventType** member. 
     
@@ -101,7 +97,7 @@ One or more **NOTIFICATION** structures are passed as input parameters with ever
   
 Before clients or service providers receiving a notification can use the structure to process the event, they must check the event type as indicated in the **ulEventType** member. For example, the code sample that is shown here checks for the arrival of a new message and upon detecting an event of this kind, prints out the message class of the message. 
   
-```
+```cpp
 if (pNotif -> ulEventType == fnevNewMail)
 {
 printf("%s\n", pNotif -> newmail.lpszMessageClass)
@@ -120,19 +116,11 @@ For more information about notification, see the topics described in the followi
 ## See also
 
 
-
-[ERROR_NOTIFICATION](error_notification.md)
-  
-[EXTENDED_NOTIFICATION](extended_notification.md)
-  
-[NEWMAIL_NOTIFICATION](newmail_notification.md)
-  
-[OBJECT_NOTIFICATION](object_notification.md)
-  
-[STATUS_OBJECT_NOTIFICATION](status_object_notification.md)
-  
-[TABLE_NOTIFICATION](table_notification.md)
-
-
-[MAPI Structures](mapi-structures.md)
+- [ERROR_NOTIFICATION](error_notification.md)  
+- [EXTENDED_NOTIFICATION](extended_notification.md)  
+- [NEWMAIL_NOTIFICATION](newmail_notification.md)  
+- [OBJECT_NOTIFICATION](object_notification.md)  
+- [STATUS_OBJECT_NOTIFICATION](status_object_notification.md)  
+- [TABLE_NOTIFICATION](table_notification.md)
+- [MAPI Structures](mapi-structures.md)
 

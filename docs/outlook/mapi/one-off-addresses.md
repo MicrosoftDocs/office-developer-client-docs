@@ -1,5 +1,5 @@
 ---
-title: "One-Off Addresses"
+title: "One-off addresses"
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -10,7 +10,7 @@ ms.assetid: 9224c694-b26f-42c7-9404-ee2dd832cfbb
 description: "Last modified: March 09, 2015"
 ---
 
-# One-Off Addresses
+# One-off addresses
 
 **Applies to**: Outlook 
   
@@ -18,7 +18,7 @@ One-off addresses are used to send messages to one-off recipients, recipients th
   
 To create a one-off address, clients use a special template containing edit controls for entering all of the information that makes up a one-off address. One-off addresses, like addresses of other types, use a predefined format. The one-off address format is defined by MAPI as follows:
   
- `Display name[Address type:Email address]`
+`Display name[Address type:Email address]`
   
 There are six components to this format and some rules about quoting characters. The components are described in the following table.
   
@@ -35,24 +35,15 @@ MAPI uses particular sets of quoting characters to allow addresses to contain sp
   
 Clients and service providers can use this quoting technique in any of the nonfixed, typeable fields. For example, the following entry translates to Bill Lee as the display name, MSPEER as the address type, and \\billll\in as the email address:
   
-```
-Bill Lee[MSPEER:\\\\billl\in]
- 
-```
+`Bill Lee[MSPEER:\\\\billl\in]`
 
 To insert special nontypeable characters, clients and service providers use a quoting character followed by an x and two hexadecimal digits to represent their hexadecimal equivalent. For example, if an address has a nontypeable character that equates to a carriage return, (\0d) in hexadecimal, a client would enter them as:
   
-```
-Fax Recipient[fax:recipient\x0dbuilding\x0doffice\x0d555-1212\x0d]
- 
-```
+`Fax Recipient[fax:recipient\x0dbuilding\x0doffice\x0d555-1212\x0d]`
 
- **IAddrBook::ResolveName** also automatically parses most SMTP addresses, looking for addresses with the following format: 
+**IAddrBook::ResolveName** also automatically parses most SMTP addresses, looking for addresses with the following format: 
   
-```
-XXX@YYY.ZZZ
- 
-```
+`XXX@YYY.ZZZ`
 
 Although not all of the possible RFC822 formats are handled, this automatic parsing is adequate for most users. **ResolveName** includes this functionality to enable users to enter SMTP addresses directly into a message and have that message go to the Internet user. The XXX, YYY, and ZZZ components of the address can be one or more characters. The at sign (@) cannot be included in either the XXX, YYY, or ZZZ address components and the YYY component also cannot include the period. Because the following characters are special characters in SMTP addresses, MAPI automatically converts a display name containing these characters into a one-off address: 
   

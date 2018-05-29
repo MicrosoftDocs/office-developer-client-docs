@@ -10,6 +10,7 @@ ms.assetid: 59f43316-3ff6-4ed0-bc29-b31039192b08
 description: "Last modified: March 09, 2015"
 ---
 
+
 # PidTagSpamTrustedRecipients Canonical Property
  
 **Applies to**: Outlook 
