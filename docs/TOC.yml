@@ -47,7 +47,7 @@
        - name: Using CSISyncClient to control the ODC
          href: shared/using-csisyncclient-to-control-the-office-document-cache-odc.md
      - name: Access
-       href: access/access.md
+       href: access/access-home.md
        items:
         - name: Access VBA reference
           href: https://msdn.microsoft.com/en-us/library/mt346046.aspx
@@ -346,7 +346,7 @@
         - name: Access desktop database reference
           href: https://msdn.microsoft.com/en-us/library/dn142571.aspx       
      - name: Excel
-       href: excel/excel.md
+       href: excel/excel-home.md
        items:
         - name: Excel VBA reference
           href: https://msdn.microsoft.com/en-us/library/office/ee861528.aspx
@@ -601,7 +601,7 @@
         - name: Tips for optimizing performance obstructions
           href: https://msdn.microsoft.com/en-us/library/office/mt709003.aspx
      - name: Infopath
-       href: infopath/infopath.md
+       href: infopath/infopath-home.md
        items:
             - name: InfoPath developer reference for form templates
               href: infopath/form-templates/infopath-developer-reference-for-form-templates.md
@@ -807,7 +807,7 @@
                 - name: Class library reference for InfoPath external automation
                   href: https://msdn.microsoft.com/en-us/library/office/ff663147.aspx          
      - name: OneNote
-       href: onenote/onenote.md
+       href: onenote/onenote-home.md
        items:
        - name: OneNote developer reference
          href: onenote/onenote-developer-reference.md
@@ -823,7 +823,7 @@
          - name: Error codes
            href: onenote/error-codes-onenote.md
      - name: Outlook
-       href: outlook/outlook.md
+       href: outlook/outlook-home.md
        items:
           - name: Selecting an API or technology for developing solutions for Outlook
             href: outlook/selecting-an-api-or-technology-for-developing-solutions-for-outlook.md
@@ -6200,12 +6200,12 @@
               - name: MAPI Constants
                 href: outlook/mapi/mapi-constants.md
      - name: PowerPoint
-       href: powerpoint.md
+       href: powerpoint-home.md
        items:
         - name: PowerPoint VBA reference
           href: https://msdn.microsoft.com/en-us/library/office/ee861525.aspx
      - name: Project
-       href: project/project.md
+       href: project/project-home.md
        items:
            - name: Project VBA reference
              href: https://msdn.microsoft.com/en-us/library/office/ee861523.aspx
@@ -6292,12 +6292,12 @@
                  - name: JavaScript API reference
                    href: https://msdn.microsoft.com/en-us/library/office/jj712612.aspx
      - name: Publisher
-       href: publisher.md
+       href: publisher-home.md
        items: 
         - name: Publisher VBA reference
           href: https://msdn.microsoft.com/en-us/library/office/ee861522.aspx
      - name: Visio
-       href: visio/visio.md
+       href: visio/visio-home.md
        items:
        - name: Visio VBA reference
          href: https://msdn.microsoft.com/EN-US/library/office/ee861526.aspx
@@ -8441,7 +8441,7 @@
            - name: Windows_Type complexType
              href: visio/windows_type-complextypevisio-xml.md
      - name: Word
-       href: word/word.md
+       href: word/word-home.md
        items:
           - name: Content controls in Word
             href: word/content-controls-in-word.md
