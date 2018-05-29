@@ -1,7 +1,5 @@
 ---
 title: "ISocialSession2GetPeopleDetails"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,17 +14,17 @@ description: "Returns a string that contains a collection of person and picture 
 
 Returns a string that contains a collection of person and picture details for the users specified by the  _personsAddresses_ parameter. 
   
-```
+```cpp
 HRESULT _stdcall GetPeopleDetails([in] BSTR personsAddresses, [out, retval] BSTR* personsCollection);
 ```
 
 ## Parameters
 
- _personsAddresses_
+_personsAddresses_
   
 > [in] An XML string that specifies the hashed SMTP addresses of a set of users.
     
- _personsCollection_
+_personsCollection_
   
 > [out] An XML string that contains a collection of person and picture details.
     
@@ -40,10 +38,6 @@ The OSC stores the information returned by the  _personsCollection_ parameter in
   
 ## See also
 
-
-
-[ISocialSession2 : IUnknown](isocialsession2iunknown.md)
-
-
-[Synchronizing Friends and Activities](synchronizing-friends-and-activities.md)
+- [ISocialSession2 : IUnknown](isocialsession2iunknown.md)
+- [Synchronizing Friends and Activities](synchronizing-friends-and-activities.md)
 

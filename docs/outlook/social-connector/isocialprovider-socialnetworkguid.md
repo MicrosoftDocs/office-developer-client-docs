@@ -1,7 +1,5 @@
 ---
 title: "ISocialProviderSocialNetworkGuid"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,11 +14,11 @@ description: "Returns a GUID that represents a unique identifier for the social 
 
 Returns a GUID that represents a unique identifier for the social network.
   
-```
+```cpp
 [propget] HRESULT _stdcall SocialNetworkGuid([out, retval] GUID* guid);
 ```
 
-## Property Value
+## Property value
 
 A pointer to a GUID value that represents a unique identifier for the social network.
   
@@ -30,7 +28,5 @@ The GUID must be immutable and must not change even if the provider version chan
   
 ## See also
 
-
-
-[ISocialProvider : IUnknown](isocialprovideriunknown.md)
+- [ISocialProvider : IUnknown](isocialprovideriunknown.md)
 

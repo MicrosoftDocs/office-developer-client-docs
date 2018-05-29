@@ -1,7 +1,5 @@
 ---
 title: "PidLidContactLinkSearchKey Canonical Property"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -18,8 +16,6 @@ description: "Last modified: March 09, 2015"
 
 # PidLidContactLinkSearchKey Canonical Property
 
-  
-  
 **Applies to**: Outlook 
   
 Contains the list of **SearchKeys** for the contact linked to by this message object. 
@@ -59,13 +55,8 @@ Mapidefs.h
     
 ## See also
 
-
-
-[MAPI Properties](mapi-properties.md)
-  
-[MAPI Canonical Properties](mapi-canonical-properties.md)
-  
-[Mapping Canonical Property Names to MAPI Names](mapping-canonical-property-names-to-mapi-names.md)
-  
-[Mapping MAPI Names to Canonical Property Names](mapping-mapi-names-to-canonical-property-names.md)
+- [MAPI Properties](mapi-properties.md) 
+- [MAPI Canonical Properties](mapi-canonical-properties.md)
+- [Mapping Canonical Property Names to MAPI Names](mapping-canonical-property-names-to-mapi-names.md)
+- [Mapping MAPI Names to Canonical Property Names](mapping-mapi-names-to-canonical-property-names.md)
 

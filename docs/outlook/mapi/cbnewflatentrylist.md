@@ -29,7 +29,7 @@ Computes the number of bytes that should be allocated for a new [FLATENTRYLIST](
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**FLATENTRYLIST** <br/> |
    
-```
+```cpp
 CbNewFLATENTRY (_cb)
 ```
 

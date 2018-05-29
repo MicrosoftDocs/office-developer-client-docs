@@ -1,12 +1,9 @@
 ---
 title: "PROP_ACCT_IS_EXCH"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: 599bfc7d-7b62-7cc1-69ff-6db04c96a49b
 description: "True if the account is an Exchange account."
@@ -33,9 +30,6 @@ Get this property by using [IOlkAccount::GetProp](iolkaccount-getprop.md). If th
   
 ## See also
 
-
-
-[About the Account Management API](about-the-account-management-api.md)
-  
-[Constants (Account management API)](constants-account-management-api.md)
+- [About the Account Management API](about-the-account-management-api.md) 
+- [Constants (Account management API)](constants-account-management-api.md)
 

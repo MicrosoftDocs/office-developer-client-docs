@@ -1,7 +1,5 @@
 ---
 title: "ISocialProviderSocialNetworkName"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,11 +14,11 @@ description: "Returns a string that represents the social network name."
 
 Returns a string that represents the social network name. 
   
-```
+```cpp
 [propget] HRESULT _stdcall SocialNetworkName([out, retval] BSTR* networkName);
 ```
 
-## Property Value
+## Property value
 
 A string that contains the social network name.
   
@@ -30,7 +28,5 @@ Outlook Social Connector (OSC) providers should localize the social network name
   
 ## See also
 
-
-
-[ISocialProvider : IUnknown](isocialprovideriunknown.md)
+- [ISocialProvider : IUnknown](isocialprovideriunknown.md)
 

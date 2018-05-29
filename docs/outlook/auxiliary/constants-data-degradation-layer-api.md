@@ -1,12 +1,9 @@
 ---
 title: "Constants (Data degradation layer API)"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: overview
- 
 localization_priority: Normal
 ms.assetid: 541dfe13-0f85-bac6-b302-fc044a75631e
 description: "This topic contains constant definitions for the Data Degradation Layer API."
@@ -25,7 +22,5 @@ This topic contains constant definitions for the Data Degradation Layer API.
    
 ## See also
 
-
-
-[About the Data Degradation Layer API](about-the-data-degradation-layer-api.md)
+- [About the Data Degradation Layer API](about-the-data-degradation-layer-api.md)
 

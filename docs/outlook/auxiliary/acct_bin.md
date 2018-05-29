@@ -25,11 +25,11 @@ typedef struct {
 
 ## Members
 
- _cb_
+_cb_
   
 > Number of bytes that  _pb_ points to. 
     
- _pb_
+_pb_
   
 > Pointer to binary information.
     

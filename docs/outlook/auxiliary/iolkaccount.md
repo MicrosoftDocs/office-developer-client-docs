@@ -1,12 +1,9 @@
 ---
 title: "IOlkAccount"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: 7b7cb295-fc77-a8b9-aac9-e548f3b4afcb
 ---
@@ -71,9 +68,6 @@ This interface is returned by **IOlkAccountManager::FindAccount** when searching
   
 ## See also
 
-
-
-[About the Account Management API](about-the-account-management-api.md)
-  
-[Constants (Account management API)](constants-account-management-api.md)
+- [About the Account Management API](about-the-account-management-api.md)  
+- [Constants (Account management API)](constants-account-management-api.md)
 

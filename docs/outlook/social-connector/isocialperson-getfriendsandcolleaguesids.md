@@ -1,7 +1,5 @@
 ---
 title: "ISocialPersonGetFriendsAndColleaguesIDs"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,13 +14,11 @@ description: "This method is currently not supported."
 
 This method is currently not supported. 
   
-```
+```cpp
 HRESULT _stdcall GetFriendsAndColleaguesIDs([out, retval] SAFEARRAY(BSTR)* friendsIDs);
 ```
 
 ## See also
 
-
-
-[ISocialPerson : IUnknown](isocialpersoniunknown.md)
+- [ISocialPerson : IUnknown](isocialpersoniunknown.md)
 

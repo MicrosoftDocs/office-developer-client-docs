@@ -1,12 +1,9 @@
 ---
 title: "IOlkAccountManagerDisplayAccountList"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: a637dcab-81e0-4195-a1d5-61d9957fcf10
 description: "Displays either the Account Settings or Add New Account dialog box."
@@ -20,7 +17,7 @@ Displays either the **Account Settings** or **Add New Account** dialog box.
 
 See [IOlkAccountManager](iolkaccountmanager.md).
   
-```
+```cpp
 HRESULT IOlkAccountManager::DisplayAccountList ( 
     HWND hwnd,
     DWORD dwFlags,
@@ -34,33 +31,33 @@ HRESULT IOlkAccountManager::DisplayAccountList (
 
 ## Parameters
 
- _hwnd_
+_hwnd_
   
 > [in] The handle to the window to which the displayed dialog box is modal. May be zero.
     
- _dwFlags_
+_dwFlags_
   
 > [in] Flags to modify the behavior of the display. 
     
-    - **ACCTUI_NO_WARNING**—Do not display the warning that changes will not take effect until Outlook is restarted. Applies only if the application is running in-process with Outlook.exe.
+   - **ACCTUI_NO_WARNING**—Do not display the warning that changes will not take effect until Outlook is restarted. Applies only if the application is running in-process with Outlook.exe.
     
-    - **ACCTUI_SHOW_DATA_TAB**—Show the **Account Settings** dialog box with the **Data** tab selected. Valid only if **ACCTUI_SHOW_ACCTWIZARD** is not set. 
+   - **ACCTUI_SHOW_DATA_TAB**—Show the **Account Settings** dialog box with the **Data** tab selected. Valid only if **ACCTUI_SHOW_ACCTWIZARD** is not set. 
     
-    - **ACCTUI_SHOW_ACCTWIZARD**—Display the **Add New Account** dialog box. 
+   - **ACCTUI_SHOW_ACCTWIZARD**—Display the **Add New Account** dialog box. 
     
- _wszTitle_
+_wszTitle_
   
 > [in] This parameter is not used and should be NULL.
     
- _cCategories_
+_cCategories_
   
 > [in] This parameter is not used and must be NULL. 
     
- _rgclsidCategories_
+_rgclsidCategories_
   
 > [in] This parameter is not used and must be NULL.
     
- _pclsidType_
+_pclsidType_
   
 > [in] This parameter is not used and must be NULL.
     

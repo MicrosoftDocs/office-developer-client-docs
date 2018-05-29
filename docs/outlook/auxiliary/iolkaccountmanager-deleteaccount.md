@@ -1,12 +1,9 @@
 ---
 title: "IOlkAccountManagerDeleteAccount"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: df210364-fe20-8e33-a455-9902f04ec739
 description: "Deletes the specified account."
@@ -20,7 +17,7 @@ Deletes the specified account.
 
 See [IOlkAccountManager](iolkaccountmanager.md).
   
-```
+```cpp
 HRESULT IOlkAccountManager::DeleteAccount (  
     DWORD dwAcctID, 
 );
@@ -28,7 +25,7 @@ HRESULT IOlkAccountManager::DeleteAccount (
 
 ## Parameters
 
- _dwAcctID_
+_dwAcctID_
   
 > [in] The account ID of the account to be deleted.
     
@@ -42,9 +39,6 @@ HRESULT IOlkAccountManager::DeleteAccount (
    
 ## See also
 
-
-
-[Constants (Account management API)](constants-account-management-api.md)
-  
-[IOlkAccountManager::FindAccount](iolkaccountmanager-findaccount.md)
+- [Constants (Account management API)](constants-account-management-api.md)  
+- [IOlkAccountManager::FindAccount](iolkaccountmanager-findaccount.md)
 

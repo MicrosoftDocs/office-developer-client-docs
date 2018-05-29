@@ -1,7 +1,5 @@
 ---
 title: "ISocialSessionGetPerson"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,17 +14,17 @@ description: "Gets an ISocialPerson interface based on the userID parameter."
 
 Gets an [ISocialPerson](isocialpersoniunknown.md) interface based on the  _userID_ parameter. 
   
-```
+```cpp
 HRESULT _stdcall GetPerson([in] BSTR userId, [out, retval] ISocialPerson** result);
 ```
 
 ## Parameters
 
- _userId_
+_userId_
   
 > [in] A string that contains a user ID or SMTP address of a person.
     
- _result_
+_result_
   
 > [out] An **ISocialPerson** interface. 
     
@@ -36,7 +34,5 @@ The  _userID_ parameter must be a user ID or SMTP address.
   
 ## See also
 
-
-
-[ISocialSession : IUnknown](isocialsessioniunknown.md)
+- [ISocialSession : IUnknown](isocialsessioniunknown.md)
 

@@ -1,12 +1,9 @@
 ---
 title: "PROP_POP_LEAVE_ON_SERVER"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: overview
- 
 localization_priority: Normal
 ms.assetid: 22d7c1e8-48b9-4768-b4de-9a9f32a3aabb
 description: "Specifies leaving a copy of a message on the server for a POP account."
@@ -39,9 +36,6 @@ The following table lists the possible values. See [Constants (Account managemen
    
 ## See also
 
-
-
-[Managing message downloads for POP3 accounts](managing-message-downloads-for-pop3-accounts.md)
-  
-[Constants (Account management API)](constants-account-management-api.md)
+- [Managing message downloads for POP3 accounts](managing-message-downloads-for-pop3-accounts.md) 
+- [Constants (Account management API)](constants-account-management-api.md)
 

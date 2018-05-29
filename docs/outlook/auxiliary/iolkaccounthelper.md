@@ -1,12 +1,9 @@
 ---
 title: "IOlkAccountHelper"
- 
- 
 manager: soliver
 ms.date: 12/7/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: fc2972da-80e9-50e2-10b3-585eb63e9103
 ---
@@ -38,9 +35,6 @@ This interface is passed to [IOlkAccountManager::Init](iolkaccountmanager-init.m
   
 ## See also
 
-
-
-[About the Account Management API](about-the-account-management-api.md)
-  
-[Constants (Account management API)](constants-account-management-api.md)
+- [About the Account Management API](about-the-account-management-api.md) 
+- [Constants (Account management API)](constants-account-management-api.md)
 

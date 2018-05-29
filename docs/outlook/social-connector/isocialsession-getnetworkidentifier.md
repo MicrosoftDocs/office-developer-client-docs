@@ -1,7 +1,5 @@
 ---
 title: "ISocialSessionGetNetworkIdentifier"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,13 +14,13 @@ description: "Gets a string that represents a unique social network identifier f
 
 Gets a string that represents a unique social network identifier for a given social network connection. 
   
-```
+```cpp
 HRESULT _stdcall GetNetworkIdentifier([out, retval] BSTR* networkIdentifier);
 ```
 
 ## Parameters
 
- _networkIdentifier_
+_networkIdentifier_
   
 > [out] A string that contains a unique social network identifier.
     
@@ -32,7 +30,5 @@ A unique network identifier is a string that identifies the Outlook Social Conne
   
 ## See also
 
-
-
-[ISocialSession : IUnknown](isocialsessioniunknown.md)
+- [ISocialSession : IUnknown](isocialsessioniunknown.md)
 

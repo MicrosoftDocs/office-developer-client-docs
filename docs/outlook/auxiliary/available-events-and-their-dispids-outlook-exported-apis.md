@@ -24,14 +24,8 @@ For an example of how to use a dispid to listen to and handle an event, see the 
   
 ## See also
 
-
-
-[Outlook exported APIs](outlook-exported-apis.md)
-  
-[Constants (Outlook exported APIs)](constants-outlook-exported-apis.md)
-  
-[About APIs exported by Outlook](about-apis-exported-by-outlook.md)
-
-
-[Implementing Outlook 2002/XP Event Sinks in MFC C++ 2003 .NET](http://www.codeproject.com/Articles/4230/Implementing-Outlook-2002-XP-Event-Sinks-in-MFC-C)
+- [Outlook exported APIs](outlook-exported-apis.md)
+- [Constants (Outlook exported APIs)](constants-outlook-exported-apis.md)
+- [About APIs exported by Outlook](about-apis-exported-by-outlook.md)
+- [Implementing Outlook 2002/XP Event Sinks in MFC C++ 2003 .NET](http://www.codeproject.com/Articles/4230/Implementing-Outlook-2002-XP-Event-Sinks-in-MFC-C)
 

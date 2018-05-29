@@ -1,7 +1,5 @@
 ---
 title: "activityTemplateContainer Element"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -9,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 74662f25-5e18-4d0b-999c-a144427ad9e3
-description: "An activityTemplateContainer element is a template that allows you to format your activity feed items and reuse XML that specifies a layout. Use IDs (applicationID and templateID) to match a feed item (activityDetails) to a template (activityTemplateContainer). Store the layout data as part of the activityTemplate element. To reference data that is pulled from the individual activity feed item, use template variables as placeholders for information such as people, links, and text."
+description: "An activityTemplateContainer element is a template that allows you to format your activity feed items and reuse XML that specifies a layout."
 ---
 
 # activityTemplateContainer Element
@@ -37,20 +35,11 @@ For an example of activity feed XML, see [Activity Feed XML Example](activity-fe
   
 ## See also
 
-
-
-[Overview of XML for an Activity Feed Item](overview-of-xml-for-an-activity-feed-item.md)
-  
-[activityDetails Element](activitydetails-element.md)
-  
-[Template Variables](template-variables.md)
-  
-[Guidelines for Properly Displaying Activities](guidelines-for-properly-displaying-activities.md)
-  
-[XML for Activities](xml-for-activities.md)
-  
-[Outlook Social Connector Provider XML Schema](outlook-social-connector-provider-xml-schema.md)
-
-
-[Developing a Provider with the OSC XML Schema](developing-a-provider-with-the-osc-xml-schema.md)
+- [Overview of XML for an Activity Feed Item](overview-of-xml-for-an-activity-feed-item.md)  
+- [activityDetails Element](activitydetails-element.md)  
+- [Template Variables](template-variables.md)  
+- [Guidelines for Properly Displaying Activities](guidelines-for-properly-displaying-activities.md)  
+- [XML for Activities](xml-for-activities.md)  
+- [Outlook Social Connector Provider XML Schema](outlook-social-connector-provider-xml-schema.md)
+- [Developing a Provider with the OSC XML Schema](developing-a-provider-with-the-osc-xml-schema.md)
 

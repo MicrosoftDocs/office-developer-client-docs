@@ -1,7 +1,5 @@
 ---
-title: "Getting Activities"
- 
- 
+title: "Getting activities"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -9,10 +7,10 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8cb8f916-f061-4c4c-ad1b-40d44af3345a
-description: "The OSC calls the ISocialProvider::GetCapabilities method to determine the capabilities of the OSC provider for a social network. If the getActivities and dynamicActivitiesLookupEx elements in the returned capabilities XML indicate that the OSC provider supports getting activities on demand and storing activities in memory, the OSC can make the following calling sequence. The OSC also notes the hash function specified in the hashFunction element in the capabilities XML. The OSC calls methods in the following sequence to get activities and information (as supported by the ISocialPerson interface) for friends and non-friends on the social network:"
+description: "The OSC calls the ISocialProvider::GetCapabilities method to determine the capabilities of the OSC provider for a social network."
 ---
 
-# Getting Activities
+# Getting activities
 
 The OSC calls the [ISocialProvider::GetCapabilities](isocialprovider-getcapabilities.md) method to determine the capabilities of the OSC provider for a social network. If the **getActivities** and **dynamicActivitiesLookupEx** elements in the returned **capabilities** XML indicate that the OSC provider supports getting activities on demand and storing activities in memory, the OSC can make the following calling sequence. The OSC also notes the hash function specified in the **hashFunction** element in the **capabilities** XML. The OSC calls methods in the following sequence to get activities and information (as supported by the [ISocialPerson](isocialpersoniunknown.md) interface) for friends and non-friends on the social network: 
   
@@ -29,10 +27,6 @@ The OSC calls the [ISocialProvider::GetCapabilities](isocialprovider-getcapabili
   
 ## See also
 
-
-
-[XML for Capabilities](xml-for-capabilities.md)
-
-
-[OSC Typical Calling Sequences](osc-typical-calling-sequences.md)
+- [XML for Capabilities](xml-for-capabilities.md)
+- [OSC Typical Calling Sequences](osc-typical-calling-sequences.md)
 

@@ -1,7 +1,5 @@
 ---
-title: "ISocialProviderGetStatusSettings"
- 
- 
+title: "ISocialProviderGetStatusSettings" 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,13 +14,11 @@ description: "This method is currently not supported."
 
 This method is currently not supported. 
   
-```
+```cpp
 HRESULT _stdcall GetStatusSettings([out] BSTR* statusDefault, [out] int* maxStatusLength);
 ```
 
 ## See also
 
-
-
-[ISocialProvider : IUnknown](isocialprovideriunknown.md)
+- [ISocialProvider : IUnknown](isocialprovideriunknown.md)
 

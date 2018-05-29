@@ -1,7 +1,5 @@
 ---
 title: "ISocialSessionFollowPerson"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,13 +14,13 @@ description: "Adds the person identified by the emailAddress parameter as a frie
 
 Adds the person identified by the  _emailAddress_ parameter as a friend for the logged-on user on the social network. 
   
-```
+```cpp
 HRESULT _stdcall FollowPerson([in] BSTR emailAddress);
 ```
 
 ## Parameters
 
- _emailAddress_
+_emailAddress_
   
 > [in] A string that contains an email address of a person.
     
@@ -36,7 +34,5 @@ In deciding whether to implement **ISocalSession::FollowPerson** or **ISocialSes
   
 ## See also
 
-
-
-[ISocialSession : IUnknown](isocialsessioniunknown.md)
+- [ISocialSession : IUnknown](isocialsessioniunknown.md)
 

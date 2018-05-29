@@ -1,7 +1,5 @@
 ---
 title: "ISocialProviderGetAutoConfiguredSession"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,13 +14,13 @@ description: "Gets an automatically configured ISocialSession interface."
 
 Gets an automatically configured [ISocialSession](isocialsessioniunknown.md) interface. 
   
-```
+```cpp
 HRESULT _stdcall GetAutoConfiguredSession([out, retval] ISocialSession** session);
 ```
 
 ## Parameters
 
- _session_
+_session_
   
 > [out] An **ISocialSession** interface. 
     
@@ -34,7 +32,5 @@ The provider should return the OSC_E_NOT_IMPLEMENTED error if the social network
   
 ## See also
 
-
-
-[ISocialProvider : IUnknown](isocialprovideriunknown.md)
+- [ISocialProvider : IUnknown](isocialprovideriunknown.md)
 

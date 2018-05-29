@@ -9,6 +9,7 @@ description: "Use user-defined functions (UDFs) in Excel Online in Office Online
 ---
 
 # Configure UDFs in Excel Online in Office Online Server Preview
+
 [This topic is pre-release documentation and is subject to change in future releases.]
 Use user-defined functions (UDFs) in Excel Online in Office Online Server Preview to call custom functions. 
   
@@ -41,7 +42,7 @@ When an adminstrator creates a new Office Web Apps Server farm by using the [New
   
 To enable UDFs, run the following Windows PowerShell command on the Office Online Server Preview, after the Office Web Apps Server farm has been created.
   
- `Set-OfficeWebAppsFarm - ExcelUdfsAllowed:$true`
+`Set-OfficeWebAppsFarm - ExcelUdfsAllowed:$true`
   
 ## Create UDF definitions on Office Online Server Preview
 
@@ -57,9 +58,9 @@ After you enable UDFs, you need to create a definition for the binary that conta
     
 The following examples show how create the UDF definitions.
   
- `New-OfficeWebAppsExcelUserDefinedFunction -Assembly c:\myudf.dll -AssemblyLocation LocalFile -Enable:$true -Description "My Server UDFs"`
+`New-OfficeWebAppsExcelUserDefinedFunction -Assembly c:\myudf.dll -AssemblyLocation LocalFile -Enable:$true -Description "My Server UDFs"`
   
- `New-OfficeWebAppsExcelUserDefinedFunction -Assembly "CompanyName.Hierarchichal.MyUdfNamespace.MyUdfClassName.dll, Version=1.1.0.0, Culture=en, PublicKeyToken=e8123117d7ba9ae38" -AssemblyLocation GAC -Enable:$true -Description "My GAC Server UDFs"`
+`New-OfficeWebAppsExcelUserDefinedFunction -Assembly "CompanyName.Hierarchichal.MyUdfNamespace.MyUdfClassName.dll, Version=1.1.0.0, Culture=en, PublicKeyToken=e8123117d7ba9ae38" -AssemblyLocation GAC -Enable:$true -Description "My GAC Server UDFs"`
   
 After you create the new UDF reference, run **iisreset** on the server to pick up the reference immediately. 
   
@@ -77,15 +78,12 @@ Use the following Windows PowerShell cmdlets to work with UDFs:
 
 The following files provide a sample workbook that uses a UDF and the UDF binary:
   
-- [BooleanDataType.xlsx](http://download.microsoft.com/download/6/7/F/67F724FD-1186-4209-BFF1-FBFD99E959D9/User%20Defined%20Function%20Assemblies/BooleanDataType.xlsx) -- a sample workbook that uses a UDF 
-    
+- [BooleanDataType.xlsx](http://download.microsoft.com/download/6/7/F/67F724FD-1186-4209-BFF1-FBFD99E959D9/User%20Defined%20Function%20Assemblies/BooleanDataType.xlsx) -- a sample workbook that uses a UDF  
 - [EcsUdfsCommonSet.dll](http://download.microsoft.com/download/6/7/F/67F724FD-1186-4209-BFF1-FBFD99E959D9/User%20Defined%20Function%20Assemblies/EcsUdfsCommonSet.dll) -- the UDF binary 
     
 ## See also
-<a name="bk_addresources"> </a>
 
-- [Configure Excel Online administrative settings](https://technet.microsoft.com/en-us/library/jj219698%28v=office.16%29.aspx)
-    
+- [Configure Excel Online administrative settings](https://technet.microsoft.com/en-us/library/jj219698%28v=office.16%29.aspx)  
 - [Office Online Server Preview](https://technet.microsoft.com/en-us/library/jj219456%28v=office.16%29.aspx)
     
 

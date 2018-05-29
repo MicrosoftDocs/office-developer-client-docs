@@ -1,7 +1,5 @@
 ---
 title: "IOlkAccountHelperHandsOffSession"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -14,13 +12,13 @@ description: "Releases the MAPI session object that was returned by IOlkAccountH
 
 # IOlkAccountHelper::HandsOffSession
 
-Releases the MAPI session object that was returned by [IOlkAccountHelper::GetMapiSession](iolkaccounthelper-getmapisession.md).
+Releases the MAPI session object that was returned by - [IOlkAccountHelper::GetMapiSession](iolkaccounthelper-getmapisession.md).
   
 ## Quick info
 
 See [IOlkAccountHelper](iolkaccounthelper.md).
   
-```
+```cpp
 HRESULT IOlkAccountHelper::HandsOffSession( );
 ```
 
@@ -33,9 +31,6 @@ HRESULT IOlkAccountHelper::HandsOffSession( );
    
 ## See also
 
-
-
-[Constants (Account management API)](constants-account-management-api.md)
-  
-[IOlkAccountHelper::GetMapiSession](iolkaccounthelper-getmapisession.md)
+- [Constants (Account management API)](constants-account-management-api.md)  
+- [IOlkAccountHelper::GetMapiSession](iolkaccounthelper-getmapisession.md)
 

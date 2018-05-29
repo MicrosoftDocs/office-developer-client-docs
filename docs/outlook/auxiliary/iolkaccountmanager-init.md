@@ -1,12 +1,9 @@
 ---
 title: "IOlkAccountManagerInit"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: 0e5ffb61-1469-bc91-f237-27d1156179cd
 description: "Initializes the account manager for use."
@@ -20,7 +17,7 @@ Initializes the account manager for use.
 
 See [IOlkAccountManager](iolkaccountmanager.md).
   
-```
+```cpp
 HRESULT IOlkAccountManager::Init (  
     IOlkAccountHelper *pAcctHelper, 
     DWORD dwFlags 
@@ -30,19 +27,19 @@ HRESULT IOlkAccountManager::Init (
 
 ## Parameters
 
- _pAcctHelper_
+_pAcctHelper_
   
 > [in] An [IOlkAccountHelper](iolkaccounthelper.md) interface that provides account helper functionality. 
     
- _dwFlags_
+_dwFlags_
   
 > [in] Flags to modify behavior.
     
-    - **ACCT_INIT_NO_STORES_CHECK** —Prevents an account (such as an IMAP account) from synchronizing with an associated store. 
+   - **ACCT_INIT_NO_STORES_CHECK** —Prevents an account (such as an IMAP account) from synchronizing with an associated store. 
     
-    - **ACCT_INIT_NOSYNCH_MAPI_ACCTS** —Prevents MAPI services from synchronizing with accounts. 
+   - **ACCT_INIT_NOSYNCH_MAPI_ACCTS** —Prevents MAPI services from synchronizing with accounts. 
     
-    - **OLK_ACCOUNT_NO_FLAGS** —Synchronizes MAPI services with accounts. 
+   - **OLK_ACCOUNT_NO_FLAGS** —Synchronizes MAPI services with accounts. 
     
 ## Return values
 
@@ -58,7 +55,5 @@ The client must call **IOlkAccountManager::Init** to initialize the account mana
   
 ## See also
 
-
-
-[Constants (Account management API)](constants-account-management-api.md)
+- [Constants (Account management API)](constants-account-management-api.md)
 

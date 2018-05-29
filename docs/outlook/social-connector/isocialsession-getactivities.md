@@ -1,7 +1,5 @@
 ---
 title: "ISocialSessionGetActivities"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,7 +14,7 @@ description: "This method has been deprecated in OSC 1.1."
 
 This method has been deprecated in OSC 1.1.
   
-```
+```cpp
 HRESULT GetActivities([in] SAFEARRAY(BSTR) emailAddresses, [in] DATE startTime, [out, retval] BSTR *activities);
 ```
 
@@ -26,7 +24,5 @@ Starting in OSC 1.1, the OSC no longer calls **GetActivities**. The OSC ignores 
   
 ## See also
 
-
-
-[ISocialSession : IUnknown](isocialsessioniunknown.md)
+- [ISocialSession : IUnknown](isocialsessioniunknown.md)
 

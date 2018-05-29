@@ -1,12 +1,9 @@
 ---
 title: "IOlkAccountManagerGetOrder"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: bd22026c-e4f7-2f25-0ef2-5d9539fd7eee
 description: "Gets the ordering of the specified category of accounts."
@@ -20,7 +17,7 @@ Gets the ordering of the specified category of accounts.
 
 See [IOlkAccountManager](iolkaccountmanager.md)
   
-```
+```cpp
 HRESULT IOlkAccountManager::GetOrder (  
     const CLSID *pclsidCategory, 
     DWORD *pcAccts, 
@@ -30,21 +27,21 @@ HRESULT IOlkAccountManager::GetOrder (
 
 ## Parameters
 
- _pclsidCategory_
+_pclsidCategory_
   
 > [in] The category class ID for which to get the order. The value must be one of the following:
     
-    - CLSID_OlkMail
+   - CLSID_OlkMail
     
-    - CLSID_OlkAddressBook
+   - CLSID_OlkAddressBook
     
-    - CLSID_OlkStore
+   - CLSID_OlkStore
     
- _pcAccts_
+_pcAccts_
   
 >  [out] The number of accounts. 
     
- _prgAccts_
+_prgAccts_
   
 > [out] A pointer to an array of accounts.
     
@@ -62,9 +59,6 @@ Before calling this method, the caller allocates only an array pointer  *prgAcct
   
 ## See also
 
-
-
-[Constants (Account management API)](constants-account-management-api.md)
-  
-[IOlkAccountManager::SetOrder](iolkaccountmanager-setorder.md)
+- [Constants (Account management API)](constants-account-management-api.md)  
+- [IOlkAccountManager::SetOrder](iolkaccountmanager-setorder.md)
 

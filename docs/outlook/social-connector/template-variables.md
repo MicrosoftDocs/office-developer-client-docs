@@ -1,7 +1,5 @@
 ---
-title: "Template Variables"
- 
- 
+title: "Template variables"
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -12,13 +10,11 @@ ms.assetid: 6f8f6af2-c7fa-4135-9532-7af5fc643b0d
 description: "Instances of template variables (represented by a templateVariable element) specify the data of an activity feed item in an activity template."
 ---
 
-# Template Variables
+# Template variables
 
 Instances of template variables (represented by a **templateVariable** element) specify the data of an activity feed item in an activity template. 
   
 For an example of activity feed XML, see [Activity Feed XML Example](activity-feed-xml-example.md).
-  
-## Types of Template Variables
 
 The following table shows the types of supported template variables, each represented by the corresponding XML enumeration value.
   
@@ -33,13 +29,13 @@ The following table shows the types of supported template variables, each repres
    
 Each type of template variable has required elements to specify the data about that variable. Template variables are specified as follows:
   
- `<templateVariable type="variable type">`
+`<templateVariable type="variable type">`
   
-## List Template Variable
+## List template variable
 
 You can specify template variables that are contained within a list (delimited by the **listVariable** and **listItems** elements) as follows: 
   
- `<simpleTemplateVariable type="variable type of text, link, or picture">`
+`<simpleTemplateVariable type="variable type of text, link, or picture">`
   
 A template variable of the **listVariable** type is a container for objects. It can contain comma-delimited items (of the **linkVariable** or **textVariable** type) or pictures (of the **pictureVariable** type). Lists can contain up to five link items, five text items, or five pictures. 
   
@@ -47,7 +43,7 @@ The Outlook Social Connector (OSC) localizes link or text list items according t
   
 To correctly parse and display pictures in an activity feed item, you must include pictures in a list. All pictures are resized to be 52 pixels high. The width of the picture is not resized.
   
-## Template Variable Elements
+## Template variable elements
 
 This section covers the required and optional elements supported for each type of template variable.
   
@@ -104,20 +100,11 @@ This section covers the required and optional elements supported for each type o
    
 ## See also
 
-
-
-[Overview of XML for an Activity Feed Item](overview-of-xml-for-an-activity-feed-item.md)
-  
-[activityDetails Element](activitydetails-element.md)
-  
-[activityTemplateContainer Element](activitytemplatecontainer-element.md)
-  
-[Guidelines for Properly Displaying Activities](guidelines-for-properly-displaying-activities.md)
-  
-[XML for Activities](xml-for-activities.md)
-  
-[Outlook Social Connector Provider XML Schema](outlook-social-connector-provider-xml-schema.md)
-
-
-[Developing a Provider with the OSC XML Schema](developing-a-provider-with-the-osc-xml-schema.md)
+- [Overview of XML for an Activity Feed Item](overview-of-xml-for-an-activity-feed-item.md)  
+- [activityDetails Element](activitydetails-element.md)  
+- [activityTemplateContainer Element](activitytemplatecontainer-element.md)  
+- [Guidelines for Properly Displaying Activities](guidelines-for-properly-displaying-activities.md)  
+- [XML for Activities](xml-for-activities.md)  
+- [Outlook Social Connector Provider XML Schema](outlook-social-connector-provider-xml-schema.md)
+- [Developing a Provider with the OSC XML Schema](developing-a-provider-with-the-osc-xml-schema.md)
 

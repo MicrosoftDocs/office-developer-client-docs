@@ -1,7 +1,5 @@
 ---
-title: "What's New for Providers"
- 
- 
+title: "What's new for providers"
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -9,10 +7,10 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 92f59a0d-3834-424d-ad81-167fdeba9bd0
-description: "This topic lists the major changes in Outlook Social Connector 2013 (OSC). It presents a comparison of the features available between Outlook Social Connector 2013 and Outlook Social Connector 1.1. It also describes interface members and XML elements that have been added, changed, or deprecated."
+description: "This topic lists the major changes in Outlook Social Connector 2013 (OSC). It presents a comparison of the features available between Outlook Social Connector 2013 and Outlook Social Connector 1.1."
 ---
 
-# What's New for Providers
+# What's new for providers
 
 This topic lists the major changes in Outlook Social Connector 2013 (OSC). It presents a comparison of the features available between Outlook Social Connector 2013 and Outlook Social Connector 1.1. It also describes interface members and XML elements that have been added, changed, or deprecated. 
   
@@ -43,9 +41,10 @@ The following table shows the availability of various features in Outlook Social
 |Visit user profile page  <br/> |Via a link  <br/> |Via a network badge  <br/> |
 |Observing privacy settings on social network (for example, displaying profile and activities of non-friends who allow viewing of such)  <br/> |Yes  <br/> |Yes  <br/> |
 |Hashed email addresses passed to provider  <br/> |Yes  <br/> |Yes  <br/> |
-   
-## Changes from the Previous Version of OSC Provider Extensibility
+
 <a name="OlSocialConnector_Changes"> </a>
+
+## Changes from the previous version of OSC provider extensibility
 
 The following table shows the members that have been added or deprecated from the corresponding interface.
   
@@ -61,14 +60,8 @@ The following table shows the schema elements that have changed.
 |**person** <br/> |Added in Outlook Social Connector 2013: **askmeabout**, **businessAddress**, **businessCity**, **businessCountryOrRegion**, **businessState**, **businessZip**, **industries**, **interests**, **location**, **otherAddress**, **otherCity**, **otherCountryOrRegion**, **otherState**, **otherZip**, **skills**, **schools**, and **website** elements.  <br/> |
    
 ## See also
-<a name="OlSocialConnector_Changes"> </a>
 
-
-
-[XML for Capabilities](xml-for-capabilities.md)
-  
-[XML for Friends](xml-for-friends.md)
-
-
-[Getting Started with Developing an Outlook Social Connector Provider](getting-started-with-developing-an-outlook-social-connector-provider.md)
+- [XML for Capabilities](xml-for-capabilities.md)
+- [XML for Friends](xml-for-friends.md)
+- [Getting Started with Developing an Outlook Social Connector Provider](getting-started-with-developing-an-outlook-social-connector-provider.md)
 

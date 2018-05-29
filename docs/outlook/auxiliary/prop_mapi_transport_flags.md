@@ -1,12 +1,9 @@
 ---
 title: "PROP_MAPI_TRANSPORT_FLAGS"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: 12cfe096-6882-c0be-b248-87567cb71e83
 description: "Represents transport settings that Outlook uses to determine the necessary synchronization tasks and to disable the user interface (UI) elements that the account does not support."
@@ -35,9 +32,6 @@ Returns **MAPIACCT_SEND_ONLY** if the account can only send messages but cannot 
   
 ## See also
 
-
-
-[About the Account Management API](about-the-account-management-api.md)
-  
-[Constants (Account management API)](constants-account-management-api.md)
+- [About the Account Management API](about-the-account-management-api.md)  
+- [Constants (Account management API)](constants-account-management-api.md)
 

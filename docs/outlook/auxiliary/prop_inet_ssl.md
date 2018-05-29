@@ -1,12 +1,9 @@
 ---
 title: "PROP_INET_SSL"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: overview
- 
 localization_priority: Normal
 ms.assetid: 27732f6d-e030-4080-9684-69293a57598b
 description: "Specifies whether to use Secure Socket Layer (SSL) for a general Internet mailbox."
@@ -31,9 +28,6 @@ A zero value means do not use SSL, otherwise use SSL.
   
 ## See also
 
-
-
-[Managing message downloads for POP3 accounts](managing-message-downloads-for-pop3-accounts.md)
-  
-[Constants (Account management API)](constants-account-management-api.md)
+- [Managing message downloads for POP3 accounts](managing-message-downloads-for-pop3-accounts.md)  
+- [Constants (Account management API)](constants-account-management-api.md)
 

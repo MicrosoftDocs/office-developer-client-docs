@@ -1,7 +1,5 @@
 ---
 title: "ISocialSession2  IUnknown"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -33,7 +31,5 @@ An Outlook Social Connector (OSC) provider can choose to implement this interfac
   
 ## See also
 
-
-
-[Outlook Social Connector Provider Interfaces](outlook-social-connector-provider-interfaces.md)
+- [Outlook Social Connector Provider Interfaces](outlook-social-connector-provider-interfaces.md)
 

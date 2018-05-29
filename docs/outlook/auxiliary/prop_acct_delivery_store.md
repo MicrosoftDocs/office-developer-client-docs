@@ -1,12 +1,9 @@
 ---
 title: "PROP_ACCT_DELIVERY_STORE"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: f5db43e9-687b-d467-1be1-3737e3f91c27
 description: "Represents the Entry ID of the default delivery store for the account."
@@ -35,9 +32,6 @@ One of the side effects of setting a store as the default delivery store for an 
   
 ## See also
 
-
-
-[About the Account Management API](about-the-account-management-api.md)
-  
-[Constants (Account management API)](constants-account-management-api.md)
+- [About the Account Management API](about-the-account-management-api.md)
+- [Constants (Account management API)](constants-account-management-api.md)
 

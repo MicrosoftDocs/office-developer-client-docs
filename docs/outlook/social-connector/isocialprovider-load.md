@@ -1,7 +1,5 @@
 ---
 title: "ISocialProviderLoad"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,17 +14,17 @@ description: "Initializes the Outlook Social Connector (OSC) provider."
 
 Initializes the Outlook Social Connector (OSC) provider.
   
-```
+```cpp
 HRESULT _stdcall Load([in] BSTR socialProviderInterfaceVersion, [in] BSTR languageTag);
 ```
 
 ## Parameters
 
- _socialProviderInterfaceVersion_
+_socialProviderInterfaceVersion_
   
 > [in] The version of the OSC provider interfaces expected by the OSC.
     
- _languageTag_
+_languageTag_
   
 > [in] The Internet Engineering Task Force (IETF) language tag, defined by [[RFC4646]](http://www.ietf.org/rfc/rfc4646.txt) and [[RFC4647]](http://www.ietf.org/rfc/rfc4647.txt), that represents the current Outlook user-interface language.
     
@@ -36,7 +34,5 @@ The version format for the  _socialProviderInterfaceVersion_ parameter is  _X_. 
   
 ## See also
 
-
-
-[ISocialProvider : IUnknown](isocialprovideriunknown.md)
+- [ISocialProvider : IUnknown](isocialprovideriunknown.md)
 

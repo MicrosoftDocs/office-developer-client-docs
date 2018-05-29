@@ -1,12 +1,9 @@
 ---
 title: "IOlkAccountManagerUnadvise"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: ea5cbf9f-25cc-9cca-9be0-d2deed576153
 description: "Unregisters a client with the account manager for notifications for all accounts."
@@ -20,7 +17,7 @@ Unregisters a client with the account manager for notifications for all accounts
 
 See [IOlkAccountManager](iolkaccountmanager.md).
   
-```
+```cpp
 HRESULT Unadvise(
     DWORD dwCookie
 );
@@ -29,7 +26,7 @@ HRESULT Unadvise(
 
 ## Parameters
 
- _dwCookie_
+_dwCookie_
   
 > [in] The cookie returned by [IOlkAccountManager::Advise](iolkaccountmanager-advise.md).
     
@@ -43,9 +40,6 @@ HRESULT Unadvise(
    
 ## See also
 
-
-
-[Constants (Account management API)](constants-account-management-api.md)
-  
-[IOlkAccountManager::Advise](iolkaccountmanager-advise.md)
+- [Constants (Account management API)](constants-account-management-api.md)  
+- [IOlkAccountManager::Advise](iolkaccountmanager-advise.md)
 

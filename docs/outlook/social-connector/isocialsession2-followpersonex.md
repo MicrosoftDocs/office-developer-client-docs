@@ -1,7 +1,5 @@
 ---
 title: "ISocialSession2FollowPersonEx"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,17 +14,17 @@ description: "Adds the person identified by the emailAddresses and displayName p
 
 Adds the person identified by the  _emailAddresses_ and  _displayName_ parameters as a friend for the logged-on user on the social network. 
   
-```
+```cpp
 HRESULT _stdcall FollowPersonEx([in] SAFEARRAY(BSTR) emailAddresses, [in] BSTR displayName);
 ```
 
 ## Parameters
 
- _emailAddresses_
+_emailAddresses_
   
 > [in] An array that contains one or multiple valid SMTP addresses for a person on the social network.
     
- _displayName_
+_displayName_
   
 > [in] A string that contains the display name of the person to be added as a friend.
     
@@ -42,7 +40,5 @@ If the provider implements the [ISocialSession2](isocialsession2iunknown.md) int
   
 ## See also
 
-
-
-[ISocialSession2 : IUnknown](isocialsession2iunknown.md)
+- [ISocialSession2 : IUnknown](isocialsession2iunknown.md)
 

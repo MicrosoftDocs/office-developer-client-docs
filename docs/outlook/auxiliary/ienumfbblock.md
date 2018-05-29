@@ -1,12 +1,9 @@
 ---
 title: "IEnumFBBlock"
- 
- 
 manager: soliver
 ms.date: 12/8/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: fad9c0fd-b523-db98-ee0d-78aad5914ff2
 ---
@@ -41,11 +38,7 @@ A free/busy provider obtains this interface and the enumeration for a time range
   
 ## See also
 
-
-
-[About the Free/Busy API](about-the-free-busy-api.md)
-  
-[Constants (Free/busy API)](constants-free-busy-api.md)
-  
-[IFreeBusyData](ifreebusydata.md)
+- [About the Free/Busy API](about-the-free-busy-api.md)  
+- [Constants (Free/busy API)](constants-free-busy-api.md)  
+- [IFreeBusyData](ifreebusydata.md)
 

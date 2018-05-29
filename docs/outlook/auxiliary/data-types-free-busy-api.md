@@ -1,7 +1,5 @@
 ---
 title: "Data types (Free/busy API)"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer

@@ -1,7 +1,5 @@
 ---
 title: "ISocialPersonGetFriendsAndColleagues"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,13 +14,13 @@ description: "Gets a string that represents a collection of people."
 
 Gets a string that represents a collection of people.
   
-```
+```cpp
 HRESULT _stdcall GetFriendsAndColleagues([out, retval] BSTR* personsCollection);
 ```
 
 ## Parameters
 
- _personsCollection_
+_personsCollection_
   
 > [out] An XML string that represents a set of friends of the person, and that complies with the definition of **friends** as defined in the XML schema for Outlook Social Connector (OSC) provider extensibility. 
     
@@ -40,10 +38,6 @@ However, if the selected Outlook user does not specify that same SMTP address on
   
 ## See also
 
-
-
-[ISocialPerson : IUnknown](isocialpersoniunknown.md)
-
-
-[Getting Friends Information](getting-friends-information.md)
+- [ISocialPerson : IUnknown](isocialpersoniunknown.md)
+- [Getting Friends Information](getting-friends-information.md)
 

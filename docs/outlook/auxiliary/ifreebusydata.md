@@ -1,12 +1,9 @@
 ---
 title: "IFreeBusyData"
- 
- 
 manager: soliver
 ms.date: 12/8/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: c9a80ad3-6311-fe07-b6f7-9fd63424753b
 ---
@@ -43,9 +40,6 @@ Most of the members in this interface are placeholders reserved for the internal
   
 ## See also
 
-
-
-[About the Free/Busy API](about-the-free-busy-api.md)
-  
-[Constants (Free/busy API)](constants-free-busy-api.md)
+- [About the Free/Busy API](about-the-free-busy-api.md)
+- [Constants (Free/busy API)](constants-free-busy-api.md)
 

@@ -1,18 +1,14 @@
 ---
-title: "JavaScript library and REST reference for Project Server 2013"
-
- 
+title: "JavaScript library and REST reference for Project Server"
 manager: soliver
 ms.date: 8/10/2016
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 67b47b8b-d34b-4fad-af49-0c258c345ad2
 description: "The JavaScript library and REST reference for Project Server 2013 contains information about the JavaScript object model and the REST interface that you use to access Project Server functionality. You can use these APIs to develop cross-browser web apps, Project Professional 2013 add-ins, and apps for non-Windows devices that access Project Server 2013 and Project Online."
 ---
 
-# JavaScript library and REST reference for Project Server 2013
+# JavaScript library and REST reference for Project Server
 
 The JavaScript library and REST reference for Project Server 2013 contains information about the JavaScript object model and the REST interface that you use to access Project Server functionality. You can use these APIs to develop cross-browser web apps, Project Professional 2013 add-ins, and apps for non-Windows devices that access Project Server 2013 and Project Online.
   
@@ -26,9 +22,7 @@ You can access Project Server functionality through the JavaScript object model,
   
 You can also access Project Server functionality through the REST interface. The entry point to the REST interface is the **ProjectServer** resource, which you access by using the  `http://ServerName/pwaName/_api/ProjectServer` endpoint URI. For example, the following query gets the assignments in the specified project (replace  _ServerName_ and  _pwaName_, and change the GUID to match a project).
   
-```
-http://ServerName/pwaName/_api/ProjectServer/Projects('263fc8d7-427c-e111-92fc-00155d3ba208')/Assignments
-```
+`http://ServerName/pwaName/_api/ProjectServer/Projects('263fc8d7-427c-e111-92fc-00155d3ba208')/Assignments`
 
 The **ProjectServer** resource is described in [ProjectServer resources in the REST interface](http://msdn.microsoft.com/library/a490b675-a845-ee94-3877-b99ada9bf2b0%28Office.15%29.aspx#bk_ProjectServerResources). Other REST resources are described in the documentation for the corresponding JavaScript objects and members in this reference. For more information about using REST, see [Client-side object model (CSOM) for Project Server](client-side-object-model-csom-for-project-2013.md) and [Programming using the SharePoint 2013 REST service](http://msdn.microsoft.com/en-us/library/fp142385%28office.15%29.aspx).
   
@@ -40,12 +34,9 @@ The **ProjectServer** resource is described in [ProjectServer resources in the R
 ## See also
 <a name="bk_addresources"> </a>
 
-- [Project 2013 developer documentation](project-2013-developer-documentation.md)
-    
-- [Client-side object model (CSOM) for Project Server](client-side-object-model-csom-for-project-2013.md)
-    
-- [Getting started with the JavaScript object model](getting-started-with-the-project-server-2013-javascript-object-model.md)
-    
+- [Project 2013 developer documentation](project-2013-developer-documentation.md)   
+- [Client-side object model (CSOM) for Project Server](client-side-object-model-csom-for-project-2013.md)   
+- [Getting started with the JavaScript object model](getting-started-with-the-project-server-2013-javascript-object-model.md)  
 - [Work with projects by using the JavaScript object model](create-retrieve-update-delete-projects-using-project-server-javascript.md)
     
 

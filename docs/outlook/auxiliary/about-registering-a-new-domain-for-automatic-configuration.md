@@ -15,11 +15,11 @@ Outlook provides a way to specify a new message service domain for automatic con
   
 When designing a message service provider, you can use the following key in the Windows registry to specify a new domain to be automatically configured by the corresponding message service provider: 
   
- `HKLM\Software\Microsoft\Office\Outlook\AutoConfigDomains\<domain name>\`
+`HKLM\Software\Microsoft\Office\Outlook\AutoConfigDomains\<domain name>\`
   
-In the key,  `<domain name>` is the domain for automatic configuration. This domain name supports a wildcard \* at the beginning only. The following table shows the values that this key supports. 
+In the key, `<domain name>` is the domain for automatic configuration. This domain name supports a wildcard \* at the beginning only. The following table shows the values that this key supports. 
   
-|**Value**|**Type**|**Description**|
+| Value | Type | Description |
 |:-----|:-----|:-----|
 |Friendly Name  <br/> |REG_SZ  <br/> |The domain name that is displayed to the user during automatic configuration.  <br/> |
 |Service Name  <br/> |REG_SZ  <br/> |The message service registered in mapisvc.inf that supports this domain.  <br/> |
@@ -34,7 +34,5 @@ If the message service is currently registered in Mapisvc.inf and the service pr
   
 ## See also
 
-
-
-[File Format of MapiSvc.inf](http://msdn.microsoft.com/library/b48eda17-83a8-4dc4-85c8-4ca827d13d25%28Office.15%29.aspx)
+- [File Format of MapiSvc.inf](http://msdn.microsoft.com/library/b48eda17-83a8-4dc4-85c8-4ca827d13d25%28Office.15%29.aspx)
 

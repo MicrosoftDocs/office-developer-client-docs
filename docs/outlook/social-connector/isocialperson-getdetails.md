@@ -1,7 +1,5 @@
 ---
 title: "ISocialPersonGetDetails"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,13 +14,13 @@ description: "Gets a string that represents details for the person, such as the 
 
 Gets a string that represents details for the person, such as the first name, last name, and a URL to a profile picture. 
   
-```
+```cpp
 HRESULT _stdcall GetDetails([out, retval] BSTR* details);
 ```
 
 ## Parameters
 
- _details_
+_details_
   
 > [out] An XML string value that represents the details for a person.
     
@@ -34,7 +32,5 @@ The OSC calls **GetDetails** if the OSC provider supports cached or hybrid synch
   
 ## See also
 
-
-
-[ISocialPerson : IUnknown](isocialpersoniunknown.md)
+- [ISocialPerson : IUnknown](isocialpersoniunknown.md)
 

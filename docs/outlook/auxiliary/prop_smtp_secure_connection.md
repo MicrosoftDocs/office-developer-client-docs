@@ -1,12 +1,9 @@
 ---
 title: "PROP_SMTP_SECURE_CONNECTION"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: overview
- 
 localization_priority: Normal
 ms.assetid: e316a424-d789-4ce5-bcc6-263049f3659e
 description: "Specifies the type of encrypted connection to use for an SMTP account."
@@ -38,9 +35,6 @@ The value can be one of the following constants. See [Constants (Account managem
    
 ## See also
 
-
-
-[Managing message downloads for POP3 accounts](managing-message-downloads-for-pop3-accounts.md)
-  
-[Constants (Account management API)](constants-account-management-api.md)
+- [Managing message downloads for POP3 accounts](managing-message-downloads-for-pop3-accounts.md) 
+- [Constants (Account management API)](constants-account-management-api.md)
 
