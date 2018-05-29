@@ -1,7 +1,5 @@
 ---
 title: "Outlook auxiliary reference copyright notice"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer

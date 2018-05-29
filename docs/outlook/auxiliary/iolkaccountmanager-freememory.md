@@ -1,12 +1,9 @@
 ---
 title: "IOlkAccountManagerFreeMemory"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: acb67186-ab38-e918-5402-2526307a5bd0
 description: "Frees memory allocated by the IOlkAccountManager interface."
@@ -20,7 +17,7 @@ Frees memory allocated by the [IOlkAccountManager](iolkaccountmanager.md) interf
 
 See [IOlkAccountManager](iolkaccountmanager.md).
   
-```
+```cpp
 HRESULT IOlkAccountManager::FreeMemory (  
     BYTE *pv, 
 );
@@ -28,7 +25,7 @@ HRESULT IOlkAccountManager::FreeMemory (
 
 ## Parameters
 
- _pv_
+_pv_
   
 > [in] A pointer to the memory to free.
     
@@ -42,7 +39,5 @@ Use this method to release memory allocated by [IOlkAccountManager::GetOrder](io
   
 ## See also
 
-
-
-[IOlkAccountManager::GetOrder](iolkaccountmanager-getorder.md)
+- [IOlkAccountManager::GetOrder](iolkaccountmanager-getorder.md)
 

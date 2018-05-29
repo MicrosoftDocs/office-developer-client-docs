@@ -1,7 +1,5 @@
 ---
 title: "PidTagSpamTrustedRecipients Canonical Property"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -12,10 +10,9 @@ ms.assetid: 59f43316-3ff6-4ed0-bc29-b31039192b08
 description: "Last modified: March 09, 2015"
 ---
 
-# PidTagSpamTrustedRecipients Canonical Property
 
-  
-  
+# PidTagSpamTrustedRecipients Canonical Property
+ 
 **Applies to**: Outlook 
   
 Contains a semicolon-delimited list of email addresses and domains that represent the trusted recipients.
@@ -51,13 +48,8 @@ Mapitags.h
     
 ## See also
 
-
-
-[MAPI Properties](mapi-properties.md)
-  
-[MAPI Canonical Properties](mapi-canonical-properties.md)
-  
-[Mapping Canonical Property Names to MAPI Names](mapping-canonical-property-names-to-mapi-names.md)
-  
-[Mapping MAPI Names to Canonical Property Names](mapping-mapi-names-to-canonical-property-names.md)
+- [MAPI Properties](mapi-properties.md) 
+- [MAPI Canonical Properties](mapi-canonical-properties.md)  
+- [Mapping Canonical Property Names to MAPI Names](mapping-canonical-property-names-to-mapi-names.md)  
+- [Mapping MAPI Names to Canonical Property Names](mapping-mapi-names-to-canonical-property-names.md)
 

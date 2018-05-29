@@ -1,7 +1,5 @@
 ---
 title: "ISocialProfileGetActivitiesOfFriendsAndColleagues"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,7 +14,7 @@ description: "This method has been deprecated in Outlook Social Connector 2013."
 
 This method has been deprecated in Outlook Social Connector 2013.
   
-```
+```cpp
 HRESULT _stdcall GetActivitiesOfFriendsAndColleagues([in] DATE startTime, [out, retval] BSTR* activitiesCollection);
 ```
 
@@ -28,7 +26,5 @@ For more information about how the OSC gets friends' activities, see [Synchroniz
   
 ## See also
 
-
-
-[ISocialProfile : ISocialPerson](isocialprofileisocialperson.md)
+- [ISocialProfile : ISocialPerson](isocialprofileisocialperson.md)
 

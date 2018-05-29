@@ -1,7 +1,5 @@
 ---
-title: "Outlook Social Connector Provider XML Schema"
- 
- 
+title: "Outlook Social Connector provider XML schema"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -9,10 +7,10 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5a88adf0-9265-4d49-976d-de0d93269aa9
-description: "All XML that is returned by OSC providers in OSC provider extensibility methods must comply with the following OSC provider XML schema. The OSC schema is reproduced here in its entirety. The current schema definition file, OutlookSocialProvider1_1.xsd, is also provided in the download for the provider templates that accompany this article. For more information, see Outlook Social Connector 2013: Provider templates."
+description: "All XML that is returned by OSC providers in OSC provider extensibility methods must comply with the following OSC provider XML schema. The OSC schema is reproduced here in its entirety."
 ---
 
-# Outlook Social Connector Provider XML Schema
+# Outlook Social Connector provider XML schema
 
 All XML that is returned by OSC providers in OSC provider extensibility methods must comply with the following OSC provider XML schema. The OSC schema is reproduced here in its entirety. The current schema definition file, OutlookSocialProvider1_1.xsd, is also provided in the download for the provider templates that accompany this article. For more information, see [Outlook Social Connector 2013: Provider templates](http://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c). 
   
@@ -457,19 +455,11 @@ All XML that is returned by OSC providers in OSC provider extensibility methods 
 
 ## See also
 
-
-
-[Capabilities XML Example](capabilities-xml-example.md)
-  
-[Friends XML Example](friends-xml-example.md)
-  
-[Activity Feed XML Example](activity-feed-xml-example.md)
-  
-[XML for Capabilities](xml-for-capabilities.md)
-  
-[XML for Friends](xml-for-friends.md)
-  
-[XML for Activities](xml-for-activities.md)
-  
-[Outlook Social Connector Provider Interfaces](outlook-social-connector-provider-interfaces.md)
+- [Capabilities XML Example](capabilities-xml-example.md)  
+- [Friends XML Example](friends-xml-example.md) 
+- [Activity Feed XML Example](activity-feed-xml-example.md)  
+- [XML for Capabilities](xml-for-capabilities.md)  
+- [XML for Friends](xml-for-friends.md)  
+- [XML for Activities](xml-for-activities.md)  
+- [Outlook Social Connector Provider Interfaces](outlook-social-connector-provider-interfaces.md)
 

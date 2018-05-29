@@ -1,12 +1,9 @@
 ---
 title: "IOlkApptRebaser"
- 
- 
 manager: soliver
 ms.date: 12/7/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: d67bd395-d324-217d-8ddc-1d48dd724383
 description: "Supports rebasing appointments in a calendar folder."
@@ -37,7 +34,5 @@ Supports rebasing appointments in a calendar folder.
    
 ## See also
 
-
-
-[About rebasing calendars programmatically for Daylight Saving Time](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
+- [About rebasing calendars programmatically for Daylight Saving Time](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
 

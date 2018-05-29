@@ -1,7 +1,5 @@
 ---
 title: "ISocialSessionLogonWeb"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,17 +14,17 @@ description: "Logs on to the social network site by using forms-based authentica
 
 Logs on to the social network site by using forms-based authentication.
   
-```
+```cpp
 HRESULT _stdcall LogonWeb([in] BSTR connectIn, [out] BSTR* connectOut);
 ```
 
 ## Parameters
 
- _connectIn_
+_connectIn_
   
 > [in] A string that is **null**, an URL to a logon form on the web, or a string that contains logon credentials, depending on the context in the logon process when this method is called.
     
- _connectOut_
+_connectOut_
   
 > [out] A string that contains logon credentials.
     
@@ -56,10 +54,6 @@ For information about error codes, see [Outlook Social Connector Provider Error 
   
 ## See also
 
-
-
-[ISocialSession : IUnknown](isocialsessioniunknown.md)
-
-
-[Forms-Based Authentication](forms-based-authentication.md)
+- [ISocialSession : IUnknown](isocialsessioniunknown.md)
+- [Forms-Based Authentication](forms-based-authentication.md)
 

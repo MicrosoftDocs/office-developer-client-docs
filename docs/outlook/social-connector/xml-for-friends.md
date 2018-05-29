@@ -1,7 +1,5 @@
 ---
-title: "XML for Friends"
- 
- 
+title: "XML for friends"
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -9,18 +7,24 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3362639a-8098-47ab-ba94-ee89e4920032
-description: "The friends element in the Microsoft Outlook Social Connector (OSC) provider XML schema allows an OSC provider to specify information for a list of persons associated with an Outlook user in the social network. If the OSC provider supports cached synchronization, this list of person will contain only friends of the Outlook user on the social network. If the OSC supports on-demand or hybrid synchronization, this list may contain both friends and non-friends of the Outlook user. Each person in the list is represented as a person element in the XML schema, which supports details such as first name, last name, and email addresses. OSC providers use the friends and person elements regardless of how they want the OSC to synchronize friend information from the social network. Note that the child elements of person are similar to some of the properties of an Outlook contact, which facilitates storing friends in an Outlook contacts folder specific to the social network, if the social network supports cached or hybrid synchronization of friends to an Outlook contacts folder."
+description: "The friends element in the Microsoft Outlook Social Connector (OSC) provider XML schema allows an OSC provider to specify information for a list of persons associated with an Outlook user in the social network."
 ---
 
-# XML for Friends
+# XML for friends
 
-The **friends** element in the Microsoft Outlook Social Connector (OSC) provider XML schema allows an OSC provider to specify information for a list of persons associated with an Outlook user in the social network. If the OSC provider supports cached synchronization, this list of person will contain only friends of the Outlook user on the social network. If the OSC supports on-demand or hybrid synchronization, this list may contain both friends and non-friends of the Outlook user. Each person in the list is represented as a **person** element in the XML schema, which supports details such as first name, last name, and email addresses. OSC providers use the **friends** and **person** elements regardless of how they want the OSC to synchronize friend information from the social network. Note that the child elements of **person** are similar to some of the properties of an Outlook contact, which facilitates storing friends in an Outlook contacts folder specific to the social network, if the social network supports cached or hybrid synchronization of friends to an Outlook contacts folder. 
-  
+The **friends** element in the Microsoft Outlook Social Connector (OSC) provider XML schema allows an OSC provider to specify information for a list of persons associated with an Outlook user in the social network. If the OSC provider supports cached synchronization, this list of person will contain only friends of the Outlook user on the social network. If the OSC supports on-demand or hybrid synchronization, this list may contain both friends and non-friends of the Outlook user. 
+
+Each person in the list is represented as a **person** element in the XML schema, which supports details such as first name, last name, and email addresses. OSC providers use the **friends** and **person** elements regardless of how they want the OSC to synchronize friend information from the social network. Note that the child elements of **person** are similar to some of the properties of an Outlook contact, which facilitates storing friends in an Outlook contacts folder specific to the social network, if the social network supports cached or hybrid synchronization of friends to an Outlook contacts folder. 
+
+## Example scenarios
+
 The following example scenarios show the OSC provider extensibility API calls that an OSC provider implements and the OSC makes to obtain friend information. Information is expressed in XML strings that conform to the OSC provider XML schema.
   
 For an example of friends XML, see [Friends XML Example](friends-xml-example.md). For more information about synchronizing friends' information, see [Synchronizing Friends and Activities](synchronizing-friends-and-activities.md).
-  
-- Scenario 1—OSC gets a list of friends, and an [ISocialPerson](isocialpersoniunknown.md) object and a picture for each friend: 
+
+### Scenario 1: get a list of friends
+
+Scenario 1—OSC gets a list of friends, and an [ISocialPerson](isocialpersoniunknown.md) object and a picture for each friend: 
     
 1. An OSC provider that supports showing friends from the social network site and allowing the OSC to cache friend information indicates that to the OSC by using the **getFriends** and **cacheFriends** elements, which are child elements of the **capabilities** element. 
     
@@ -36,9 +40,11 @@ For an example of friends XML, see [Friends XML Example](friends-xml-example.md)
     
 7. For each friend in the **personCollection** XML string, the OSC calls [ISocialPerson::GetPicture](isocialperson-getpicture.md) to get a picture resource for that friend. 
     
-    The OSC can make further calls on the **ISocialPerson** object to obtain activities and details (for example, email addresses) for that friend. 
+   The OSC can make further calls on the **ISocialPerson** object to obtain activities and details (for example, email addresses) for that friend. 
     
-- Scenario 2—OSC synchronizes friends dynamically:
+### Scenario 2: synchronize friends 
+
+Scenario 2—OSC synchronizes friends dynamically:
     
 1. An OSC provider that supports on-demand synchronization of friends and non-friends indicates that to the OSC by using the **getFriends** and **dynamicContactsLookup** elements. The OSC provider also sets the **hashFunction** element. All three elements are child elements of **capabilities**. 
     
@@ -49,7 +55,9 @@ For an example of friends XML, see [Friends XML Example](friends-xml-example.md)
 4. For each user displayed in the People Pane, the OSC collects the user's email address and encrypts it by using the hash function specified in **hashFunction**. This forms an XML string that conforms to the XML schema definition for the **hashedAddresses** element. 
     
 5. The OSC calls **ISocialSession2::GetPeopleDetails**, providing this XML string of hashed addresses as the  _personAddresses_ parameter, to dynamically obtain updated details for persons in the  _personsCollection_ parameter. The  _personsCollection_ parameter string complies with the XML schema definition for the **friends** element in the XML schema. 
-    
+
+## Parent and child elements
+
 The following are the two top-level elements in the **friends** schema. 
   
 |**Element**|**Description**|
@@ -114,16 +122,9 @@ For a complete definition of the OSC provider XML schema, including which elemen
    
 ## See also
 
-
-
-[Friends XML Example](friends-xml-example.md)
-  
-[Synchronizing Friends and Activities](synchronizing-friends-and-activities.md)
-  
-[XML for Capabilities](xml-for-capabilities.md)
-  
-[XML for Activities](xml-for-activities.md)
-
-
-[Developing a Provider with the OSC XML Schema](developing-a-provider-with-the-osc-xml-schema.md)
+- [Friends XML Example](friends-xml-example.md)  
+- [Synchronizing Friends and Activities](synchronizing-friends-and-activities.md)  
+- [XML for Capabilities](xml-for-capabilities.md) 
+- [XML for Activities](xml-for-activities.md)
+- [Developing a Provider with the OSC XML Schema](developing-a-provider-with-the-osc-xml-schema.md)
 

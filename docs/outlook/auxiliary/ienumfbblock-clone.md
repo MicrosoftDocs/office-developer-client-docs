@@ -1,12 +1,9 @@
 ---
 title: "IEnumFBBlockClone"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: 5af36a87-e782-df63-4190-a608758fef50
 description: "Creates a copy of the enumerator, using the same time restriction but setting the cursor to the beginning of the enumerator."
@@ -20,7 +17,7 @@ Creates a copy of the enumerator, using the same time restriction but setting th
 
 See [IEnumFBBlock](ienumfbblock.md).
   
-```
+```cpp
 HRESULT Clone(  
      IEnumFBBlock **ppclone 
 ); 
@@ -28,7 +25,7 @@ HRESULT Clone(
 
 ## Parameters
 
- _ppclone_
+_ppclone_
   
 > [out] A pointer to pointer to the copy of [IEnumFBBlock](ienumfbblock.md) interface. 
     
@@ -41,15 +38,9 @@ HRESULT Clone(
    
 ## See also
 
-
-
-[Constants (Free/busy API)](constants-free-busy-api.md)
-  
-[IEnumFBBlock::Next](ienumfbblock-next.md)
-  
-[IEnumFBBlock::Reset](ienumfbblock-reset.md)
-  
-[IEnumFBBlock::Restrict](ienumfbblock-restrict.md)
-  
-[IEnumFBBlock::Skip](ienumfbblock-skip.md)
+- [Constants (Free/busy API)](constants-free-busy-api.md)
+- [IEnumFBBlock::Next](ienumfbblock-next.md)  
+- [IEnumFBBlock::Reset](ienumfbblock-reset.md)  
+- [IEnumFBBlock::Restrict](ienumfbblock-restrict.md)  
+- [IEnumFBBlock::Skip](ienumfbblock-skip.md)
 

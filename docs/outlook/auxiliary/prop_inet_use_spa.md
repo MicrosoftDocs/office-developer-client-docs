@@ -1,12 +1,9 @@
 ---
 title: "PROP_INET_USE_SPA"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: overview
- 
 localization_priority: Normal
 ms.assetid: 9641a5a2-af6a-4999-b42b-5e9a004b47fc
 description: "Specifies whether to use Secure Password Authentication (SPA) for a general Internet mailbox."
@@ -31,9 +28,6 @@ A zero value means do not use SPA, otherwise use SPA.
   
 ## See also
 
-
-
-[Managing message downloads for POP3 accounts](managing-message-downloads-for-pop3-accounts.md)
-  
-[Constants (Account management API)](constants-account-management-api.md)
+- [Managing message downloads for POP3 accounts](managing-message-downloads-for-pop3-accounts.md) 
+- [Constants (Account management API)](constants-account-management-api.md)
 

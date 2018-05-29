@@ -1,7 +1,5 @@
 ---
-title: "XML for Capabilities"
- 
- 
+title: "XML for capabilities" 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,7 +10,7 @@ ms.assetid: edad1223-a55f-4e4a-8e90-3471f2f559ac
 description: "The capabilities element in the (OSC) provider XML schema allows an OSC provider to specify its functionality. Such functionality includes the following:"
 ---
 
-# XML for Capabilities
+# XML for capabilities
 
 The **capabilities** element in the (OSC) provider XML schema allows an OSC provider to specify its functionality. Such functionality includes the following: 
   
@@ -34,16 +32,9 @@ For detailed descriptions of child elements of the **capabilities** element, see
   
 ## See also
 
-
-
-[Capabilities XML Example](capabilities-xml-example.md)
-  
-[Synchronizing Friends and Activities](synchronizing-friends-and-activities.md)
-  
-[XML for Friends](xml-for-friends.md)
-  
-[XML for Activities](xml-for-activities.md)
-
-
-[Developing a Provider with the OSC XML Schema](developing-a-provider-with-the-osc-xml-schema.md)
+- [Capabilities XML Example](capabilities-xml-example.md)  
+- [Synchronizing Friends and Activities](synchronizing-friends-and-activities.md)  
+- [XML for Friends](xml-for-friends.md)  
+- [XML for Activities](xml-for-activities.md)
+- [Developing a Provider with the OSC XML Schema](developing-a-provider-with-the-osc-xml-schema.md)
 

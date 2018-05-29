@@ -1,7 +1,5 @@
 ---
 title: "ISocialPersonGetPicture"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,13 +14,13 @@ description: "Gets an array of bytes that contains the picture resource for the 
 
 Gets an array of bytes that contains the picture resource for the person. 
   
-```
+```cpp
 HRESULT _stdcall GetPicture([out, retval] SAFEARRAY(unsigned char)* picture);
 ```
 
 ## Parameters
 
- _picture_
+_picture_
   
 > [out] A pointer to a structure that specifies an array of bytes that represent the picture resource for a person.
     
@@ -32,7 +30,5 @@ Supported picture resources are in .bmp, .jpeg, or .png format.
   
 ## See also
 
-
-
-[ISocialPerson : IUnknown](isocialpersoniunknown.md)
+- [ISocialPerson : IUnknown](isocialpersoniunknown.md)
 

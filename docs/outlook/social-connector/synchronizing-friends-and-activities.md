@@ -1,7 +1,5 @@
 ---
-title: "Synchronizing Friends and Activities"
- 
- 
+title: "Synchronizing friends and activities"
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -12,7 +10,7 @@ ms.assetid: 6e91b765-a207-4d8c-8763-5d643ca4d0c0
 description: "The Outlook Social Connector (OSC) supports displaying information from a social network about a person in the Contact Card or in the Outlook People Pane. SharePoint Server, SharePoint Workspace, Lync client, and all Office client applications that support presence information support the Contact Card."
 ---
 
-# Synchronizing Friends and Activities
+# Synchronizing friends and activities
 
 The Outlook Social Connector (OSC) supports displaying information from a social network about a person in the Contact Card or in the Outlook People Pane. SharePoint Server, SharePoint Workspace, Lync client, and all Office client applications that support presence information support the Contact Card.
   
@@ -26,14 +24,14 @@ The OSC supports synchronizing friends, non-friends, and activities for friends 
   
 Note that if the selected person is not a member of the social network, the OSC does not display any person or activity information for that person in the Contact Card or People Pane.
   
-## Cached Synchronization
+## Cached synchronization
 
 An OSC provider can store information for friends on the social network in a specific folder on the user's default Outlook store, and periodically update that cache after a specified length of time has expired. Caching information in a folder has the advantage of reducing traffic to the social network.
   
 > [!NOTE]
 > Starting in Outlook Social Connector 2013, the OSC no longer supports cached synchronization of activities. 
   
-### Cached Synchronization of Friends
+### Cached synchronization of friends
 
 If an OSC provider supports cached synchronization for friends, the OSC caches information for friends of the logged-on user on the social network. The information is cached in an Outlook contacts folder that's specific to that social network in the user's default Outlook store. The contacts folder name is based on the name of the social network, which the OSC obtains by using the [ISocialProvider::SocialNetworkName](isocialprovider-socialnetworkname.md) property. 
   
@@ -53,11 +51,13 @@ The OSC provider informs the OSC that it supports cached synchronization of frie
     
 - **dynamicContactsLookup** = **false**
     
-## On-Demand Synchronization
+## On-demand synchronization
 
 When a user selects the **What's new** tab in a Contact Card, or selects a different Outlook item or a different person in the People Pane in Outlook, the OSC refreshes the Contact Card or People Pane respectively. If an OSC provider supports on-demand synchronization of persons or activities, the OSC synchronizes with a cache in memory, and updates details, such as name, title, picture, and activity streams, on the Contact Card or People Pane. For on-demand synchronization, unlike cached synchronization, the OSC attempts to refresh the information for the person regardless of whether that person is a friend or non-friend of the logged-on user on the social network. 
   
-On-demand person (or activity) data is stored in memory only. The in-memory data is cleared when the Office client application shuts down, or the user causes a refresh of the Contact Card or People Pane and the data has remained in memory for longer than the refresh interval. Note that the refresh from the social network is always initiated by a user refreshing the Contact Card or People Pane, (for example, by selecting a different user in the People Pane, or selecting a different item in Outlook explorer window). However, the reverse is not always true—not every refresh of the Contact Card or People Pane necessarily incurs a refresh from the social network. If the user refreshes the Contact Card or People Pane, and the person (or activity) data has remained in memory for longer than the refresh interval, the OSC calls [ISocialSession2::GetPeopleDetails](isocialsession2-getpeopledetails.md) (or [ISocialSession2::GetActivitiesEx](isocialsession2-getactivitiesex.md)) to update the information in memory from the social network. The allowed period for friend and non-friend information in memory is 24 hours, and for activities, 30 minutes. 
+On-demand person (or activity) data is stored in memory only. The in-memory data is cleared when the Office client application shuts down, or the user causes a refresh of the Contact Card or People Pane and the data has remained in memory for longer than the refresh interval. Note that the refresh from the social network is always initiated by a user refreshing the Contact Card or People Pane, (for example, by selecting a different user in the People Pane, or selecting a different item in Outlook explorer window). 
+
+However, the reverse is not always true—not every refresh of the Contact Card or People Pane necessarily incurs a refresh from the social network. If the user refreshes the Contact Card or People Pane, and the person (or activity) data has remained in memory for longer than the refresh interval, the OSC calls [ISocialSession2::GetPeopleDetails](isocialsession2-getpeopledetails.md) (or [ISocialSession2::GetActivitiesEx](isocialsession2-getactivitiesex.md)) to update the information in memory from the social network. The allowed period for friend and non-friend information in memory is 24 hours, and for activities, 30 minutes. 
   
 One important difference between cached and on-demand synchronization is that on-demand synchronization can fetch person and activity information for both friends and non-friends on the network. If the selected person is a non-friend, the OSC refreshes information and activities for that person if either of the following requirements is met: 
   
@@ -67,7 +67,7 @@ One important difference between cached and on-demand synchronization is that on
     
 On-demand synchronization of persons and activities results in more calls to the provider from the OSC core engine. Social networks must be able to handle the increased bandwidth requirements of on-demand synchronization.
   
-### Specifying XML Elements for On-Demand Synchronization
+### Specifying XML elements for on-demand synchronization
 
 The OSC provider informs the OSC that it supports on-demand synchronization of friends and non-friends by specifying the following elements in the **capabilities** XML: 
   
@@ -85,14 +85,14 @@ The OSC provider informs the OSC that it supports on-demand synchronization of a
     
 - **dynamicActivitiesLookupEx** = **true**
     
-## Hybrid Synchronization
+## Hybrid synchronization
 
 An OSC provider can support hybrid synchronization of friends and non-friends. This can optimize the calls between the OSC core engine and the OSC provider, the calls to the social network for on-demand synchronization of friends, and the currency of the friends' data. The minimum time the data can remain in a folder or memory, where applicable, is the same as the limits in cached or on-demand synchronization modes.
   
 > [!NOTE]
 > Starting in Outlook Social Connector 2013, the OSC supports only on-demand synchronization of activities and no longer supports hybrid synchronization of activities. 
   
-### Hybrid Synchronization of Friends and Non-Friends
+### Hybrid synchronization of friends and non-friends
 
 If an OSC provider supports hybrid synchronization of friends and non-friends, the OSC does the following: 
   
@@ -108,7 +108,7 @@ The OSC provider informs the OSC that it supports hybrid synchronization of frie
     
 - **dynamicContactsLookup** = **true**
     
-## Synchronization Intervals
+## Synchronization intervals
 
 The following table summarizes the synchronization intervals for friends and non-friends information between the corresponding cache (folder or memory) and the social network, depending on the supported synchronization mode. For hybrid synchronization mode, refer to the rows for cached mode for friends, and the row for on-demand mode for non-friends.
   
@@ -132,14 +132,8 @@ The following information applies to the Windows registry values listed in the t
     
 ## See also
 
-
-
-[Capabilities XML Example](capabilities-xml-example.md)
-  
-[XML for Capabilities](xml-for-capabilities.md)
-
-
-[Developing a Provider with the OSC XML Schema](developing-a-provider-with-the-osc-xml-schema.md)
-  
-[How to manage the Outlook Social Connector by using Group Policy](http://support.microsoft.com/default.aspx?scid=kb%3Ben-US%3B2020103)
+- [Capabilities XML Example](capabilities-xml-example.md)  
+- [XML for Capabilities](xml-for-capabilities.md)
+- [Developing a Provider with the OSC XML Schema](developing-a-provider-with-the-osc-xml-schema.md)  
+- [How to manage the Outlook Social Connector by using Group Policy](http://support.microsoft.com/default.aspx?scid=kb%3Ben-US%3B2020103)
 

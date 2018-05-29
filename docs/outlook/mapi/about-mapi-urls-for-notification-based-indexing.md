@@ -63,7 +63,7 @@ Certain characters are encoded if they appear in the message or attachment. The 
 
 When pushing a MAPI URL for an object to be indexed, a store provider also creates a binary large object (BLOB) that contains certain information for the MAPI Protocol Handler. The store provider associates this BLOB with each MAPI URL and sends it when pushing the MAPI URL to the indexer. The format of the BLOB is as follows: 
   
-```
+```cpp
 DWORD  dwVersion
 DWORD  dwFlags
 ULONG  cbProfileName

@@ -1,12 +1,9 @@
 ---
 title: "IOlkAccountFreeMemory"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: 3b2ee5aa-7639-d86d-447e-50bda54aa3ec
 description: "Frees memory allocated by the IOlkAccount interface."
@@ -20,7 +17,7 @@ Frees memory allocated by the [IOlkAccount](iolkaccount.md) interface.
 
 See [IOlkAccount](iolkaccount.md).
   
-```
+```cpp
 HRESULT IOlkAccount::FreeMemory (  
     BYTE *pv, 
 ); 
@@ -29,7 +26,7 @@ HRESULT IOlkAccount::FreeMemory (
 
 ## Parameters
 
- _pv_
+_pv_
   
 > [in] A pointer to memory to be freed.
     
@@ -43,9 +40,6 @@ Use this method to free memory allocated by [IOlkAccount::GetProp](iolkaccount-g
   
 ## See also
 
-
-
-[IOlkAccount::GetAccountInfo](iolkaccount-getaccountinfo.md)
-  
-[IOlkAccount::GetProp](iolkaccount-getprop.md)
+- [IOlkAccount::GetAccountInfo](iolkaccount-getaccountinfo.md)  
+- [IOlkAccount::GetProp](iolkaccount-getprop.md)
 

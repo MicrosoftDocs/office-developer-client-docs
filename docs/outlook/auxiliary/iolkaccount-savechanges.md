@@ -1,12 +1,9 @@
 ---
 title: "IOlkAccountSaveChanges"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: 8f1ab61e-7d1c-50d5-ae21-8cb4b08d729c
 description: "Commits changes to the account object by writing to the registry store."
@@ -20,7 +17,7 @@ Commits changes to the account object by writing to the registry store.
 
 See [IOlkAccount](iolkaccount.md).
   
-```
+```cpp
 HRESULT IOlkAccount::SaveChanges (  
     DWORD dwFlags 
 ); 
@@ -28,7 +25,7 @@ HRESULT IOlkAccount::SaveChanges (
 
 ## Parameters
 
- _dwFlags_
+_dwFlags_
   
 > [in] Flags to modify behavior. OLK_ACCOUNT_NO_FLAGS is the only supported value.
     
@@ -46,9 +43,6 @@ After changing the value of account properties by using [IOlkAccount::SetProp](i
   
 ## See also
 
-
-
-[Constants (Account management API)](constants-account-management-api.md)
-  
-[IOlkAccountManager::SaveChanges](iolkaccountmanager-savechanges.md)
+- [Constants (Account management API)](constants-account-management-api.md) 
+- [IOlkAccountManager::SaveChanges](iolkaccountmanager-savechanges.md)
 

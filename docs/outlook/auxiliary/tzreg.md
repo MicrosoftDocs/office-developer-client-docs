@@ -1,12 +1,9 @@
 ---
 title: "TZREG"
- 
- 
 manager: soliver
 ms.date: 12/7/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: a353e1a3-0187-20af-b9ba-43438f6024d5
 description: "Defines when daylight saving time starts, when the return to standard time occurs, and how many hours the daylight saving shift is."
@@ -18,7 +15,7 @@ Defines when daylight saving time starts, when the return to standard time occur
   
 ## Quick info
 
-```
+```cpp
 typedef struct RenTimeZone { 
     long        lBias;  
     long        lStandardBias; 
@@ -31,23 +28,23 @@ typedef struct RenTimeZone {
 
 ## Members
 
- _lBias_
+_lBias_
   
 > The offset from Greenwich Mean Time (GMT).
     
- _lStandardBias_
+_lStandardBias_
   
 > The offset from bias during standard time.
     
- _lDaylightBias_
+_lDaylightBias_
   
 > The offset from bias during daylight saving time.
     
- _stStandardDate_
+_stStandardDate_
   
 > The time to switch to standard time.
     
- _stDaylightDate_
+_stDaylightDate_
   
 > The time to switch to daylight saving time.
     
@@ -57,11 +54,7 @@ This structure is similar to **TIME_ZONE_INFORMATION**. This is the structure us
   
 ## See also
 
-
-
-[About rebasing calendars programmatically for Daylight Saving Time](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
-  
-[HrCreateApptRebaser](hrcreateapptrebaser.md)
-  
-[TZRULE](tzrule.md)
+- [About rebasing calendars programmatically for Daylight Saving Time](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)  
+- [HrCreateApptRebaser](hrcreateapptrebaser.md)  
+- [TZRULE](tzrule.md)
 

@@ -1,12 +1,9 @@
 ---
 title: "IOlkAccountManager"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: 544c87e5-887d-82ec-bf1a-0d95027fe0ec
 ---
@@ -57,7 +54,5 @@ Manages access to accounts and sets up notifications about account changes.
    
 ## See also
 
-
-
-[About the Account Management API](about-the-account-management-api.md)
+- [About the Account Management API](about-the-account-management-api.md)
 

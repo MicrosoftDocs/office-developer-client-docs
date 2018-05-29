@@ -1,7 +1,5 @@
 ---
 title: "Applying a Sample Provider Template"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -9,7 +7,7 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: da487569-f2f0-404c-b944-38ed1c1b82bb
-description: "The sample Outlook Social Connector (OSC) provider templates give you a framework for implementing an OSC provider. The provider templates are available in C++, C#, and Visual Basic. These templates are just a starting point for your provider development; the templates do not address writing the implementation code for the provider and creating a setup package for the provider. The following procedure shows how to apply an OSC provider template when you begin to develop a provider."
+description: "The sample Outlook Social Connector (OSC) provider templates give you a framework for implementing an OSC provider. "
 ---
 
 # Applying a Sample Provider Template
@@ -36,10 +34,6 @@ The sample Outlook Social Connector (OSC) provider templates give you a framewor
     
 ## See also
 
-
-
-[Downloading the Samples](downloading-the-samples.md)
-
-
-[OSC Sample Templates](osc-sample-templates.md)
+- [Downloading the Samples](downloading-the-samples.md)
+- [OSC Sample Templates](osc-sample-templates.md)
 

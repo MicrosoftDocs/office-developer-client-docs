@@ -1,12 +1,9 @@
 ---
 title: "PROP_ACCT_MINI_UID"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: overview
- 
 localization_priority: Normal
 ms.assetid: 30d8268e-0c64-401d-8799-e8e1ba78b88f
 description: "Returns an account identifier that is unique across Outlook profiles."
@@ -35,11 +32,7 @@ This property is different from [PROP_ACCT_ID](prop_acct_id.md) in that its valu
   
 ## See also
 
-
-
-[PROP_ACCT_ID](prop_acct_id.md)
-  
-[About the Account Management API](about-the-account-management-api.md)
-  
-[Constants (Account management API)](constants-account-management-api.md)
+- [PROP_ACCT_ID](prop_acct_id.md)  
+- [About the Account Management API](about-the-account-management-api.md) 
+- [Constants (Account management API)](constants-account-management-api.md)
 

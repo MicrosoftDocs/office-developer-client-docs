@@ -1,7 +1,5 @@
 ---
 title: "IProviderAdminCreateProvider"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -18,13 +16,11 @@ description: "Last modified: July 23, 2011"
 
 # IProviderAdmin::CreateProvider
 
-  
-  
 **Applies to**: Outlook 
   
 Adds a service provider to the message service. 
   
-```
+```cpp
 HRESULT CreateProvider(
   LPSTR lpszProvider,
   ULONG cValues,
@@ -57,13 +53,9 @@ HRESULT CreateProvider(
   
 > [in] A bitmask of flags that controls the provider addition. The following flags can be set:
     
-MAPI_DIALOG 
-  
-> Displays a dialog box to prompt for configuration information.
-    
-MAPI_UNICODE 
-  
-> The provider name and string properties are in Unicode format. If the MAPI_UNICODE flag is not set, these strings are in ANSI format.
+  - MAPI_DIALOG: Displays a dialog box to prompt for configuration information.
+      
+  - MAPI_UNICODE: The provider name and string properties are in Unicode format. If the MAPI_UNICODE flag is not set, these strings are in ANSI format.
     
  _lpUID_
   
@@ -87,13 +79,8 @@ After all of the available information about the service provider has been added
   
 ## See also
 
-
-
-[MAPIUID](mapiuid.md)
-  
-[MSGSERVICEENTRY](msgserviceentry.md)
-  
-[SPropValue](spropvalue.md)
-  
-[IProviderAdmin : IUnknown](iprovideradminiunknown.md)
+- [MAPIUID](mapiuid.md)  
+- [MSGSERVICEENTRY](msgserviceentry.md)  
+- [SPropValue](spropvalue.md)  
+- [IProviderAdmin : IUnknown](iprovideradminiunknown.md)
 

@@ -1,7 +1,5 @@
 ---
 title: "ISocialSessionLoggedOnUserName"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,19 +14,16 @@ description: "Returns a string that represents the user name that is used when l
 
 Returns a string that represents the user name that is used when logging on.
   
-```
+```cpp
 [propget] HRESULT _stdcall LoggedOnUserName([out, retval] BSTR* result);
 ```
 
-## Property Value
+## Property value
 
 A string that represents the user name of the logged-on user.
   
 ## See also
 
-
-
-[ISocialSession::LoggedOnUserID](isocialsession-loggedonuserid.md)
-  
-[ISocialSession : IUnknown](isocialsessioniunknown.md)
+- [ISocialSession::LoggedOnUserID](isocialsession-loggedonuserid.md)  
+- [ISocialSession : IUnknown](isocialsessioniunknown.md)
 

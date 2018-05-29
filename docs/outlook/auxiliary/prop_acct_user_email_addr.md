@@ -1,12 +1,9 @@
 ---
 title: "PROP_ACCT_USER_EMAIL_ADDR"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: fe447899-d37a-4775-a09d-13ba3a878008
 description: "Specifies the email address for the account."
@@ -33,7 +30,5 @@ See [IOlkAccount](iolkaccount.md).
   
 ## See also
 
-
-
-[About the Account Management API](about-the-account-management-api.md)
+- [About the Account Management API](about-the-account-management-api.md)
 

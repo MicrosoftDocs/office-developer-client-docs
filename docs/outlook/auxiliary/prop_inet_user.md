@@ -1,12 +1,9 @@
 ---
 title: "PROP_INET_USER"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: overview
- 
 localization_priority: Normal
 ms.assetid: de0436de-5cd6-4e13-8794-6dfbdb1e4ea0
 description: "Represents the user name for a general Internet mailbox."
@@ -27,9 +24,6 @@ Represents the user name for a general Internet mailbox.
    
 ## See also
 
-
-
-[Managing message downloads for POP3 accounts](managing-message-downloads-for-pop3-accounts.md)
-  
-[Constants (Account management API)](constants-account-management-api.md)
+- [Managing message downloads for POP3 accounts](managing-message-downloads-for-pop3-accounts.md) 
+- [Constants (Account management API)](constants-account-management-api.md)
 

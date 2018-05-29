@@ -1,7 +1,5 @@
 ---
-title: "Capabilities XML Elements"
- 
- 
+title: "Capabilities XML elements"
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -9,16 +7,16 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1951643d-e3ca-4d04-bc0c-10d9d0b35dad
-description: "The tables in this topic describe child elements of the capabilities XML and are grouped by the areas they support. The default value of each capabilities element is false. If the element is not specified in the capabilities XML returned by the ISocialProvider::GetCapabilities method, the value of the element is equal to false."
+description: "The tables in this topic describe child elements of the capabilities XML and are grouped by the areas they support."
 ---
 
-# Capabilities XML Elements
+# Capabilities XML elements
 
 The tables in this topic describe child elements of the **capabilities** XML and are grouped by the areas they support. The default value of each **capabilities** element is **false**. If the element is not specified in the **capabilities** XML returned by the [ISocialProvider::GetCapabilities](isocialprovider-getcapabilities.md) method, the value of the element is equal to **false**.
   
 For an overview description of **capabilities** XML, see [XML for Capabilities](xml-for-capabilities.md). For an example of **capabilities** XML, see [Capabilities XML Example](capabilities-xml-example.md). For a complete definition of the Microsoft Outlook Social Connector (OSC) provider XML schema, including which elements are required or optional, see [Outlook Social Connector Provider XML Schema](outlook-social-connector-provider-xml-schema.md).
   
-## Capabilities for Supporting Friends
+## Capabilities for supporting friends
 
 The following table shows elements that apply to any form of synchronization of friends or non-friends.
   
@@ -42,7 +40,7 @@ The following elements apply to only on-demand synchronization or hybrid synchro
 |**dynamicContactsLookup** <br/> |Indicates whether the OSC provider supports the [ISocialSession2::GetPeopleDetails](isocialsession2-getpeopledetails.md) call for on-demand synchronization of friends and non-friends.  <br/> The OSC checks **dynamicContactsLookup** only if **getFriends** is **true**.The default setting for **dynamicContactsLookup** is **false**.  <br/> If the OSC provider specifies **dynamicContactsLookup** as **true** and **getFriends** as **true**, the OSC calls **ISocialSession2::GetPeopleDetails** every time the People Pane is refreshed. The People Pane is refreshed when the user selects another user in the People Pane or another item in the Outlook explorer window, or opens an Outlook inspector window. Dynamic contacts lookup ensures that the user always sees the latest user pictures and profile information in the People Pane, but increases the number of calls from the provider to the social network.  <br/> If the provider sets **dynamicContactsLookup** as **false**, the OSC does not call **ISocialSession2::GetPeopleDetails** to refresh the People Pane.  <br/> |
 |**showOnDemandContactsWhenMinimized** <br/> |Indicates if the OSC should carry out on-demand synchronization for friends and non-friends when the People Pane is minimized.  <br/> |
    
-## Capabilities for Supporting Activities
+## Capabilities for supporting activities
 
 The following element applies to any form of synchronization of activities supported by the OSC provider.
   
@@ -64,13 +62,13 @@ The following elements apply to only on-demand synchronization or hybrid synchro
 |**dynamicActivitiesLookupEx** <br/> |Indicates whether the OSC provider supports the **ISocialSession2::GetActivitiesEx** call for on-demand synchronization of activities.  <br/> If the OSC provider supports on-demand activities synchronization, it sets **getActivities** and **dynamicActivitiesLookupEx** as **true**, and **cacheActivities** as **false**. The OSC calls **ISocialSession2::GetActivitiesEx** every time the People Pane is refreshed. The People Pane is refreshed when the user changes the selected item in the Outlook explorer window or opens an Outlook inspector window. Dynamic activities lookup ensures that the user will always see the latest activities in the People Pane, but will increase the number of calls from the provider to the social network.  <br/> If the provider sets **dynamicActivitiesLookupEx** as **false**, the OSC does not call **ISocialSession2::GetActivitiesEx** for people displayed in the People Pane.  <br/> |
 |**showOnDemandActivitiesWhenMinimized** <br/> |Indicates whether the OSC should carry out on-demand synchronization for activities when the People Pane is minimized.  <br/> |
    
-## Common Capabilities for Supporting On-Demand or Hybrid Synchronization of Friends, Non-Friends, and Activities
+## Common capabilities for supporting on-demand or hybrid synchronization of friends, non-friends, and activities
 
 |**Element**|**Description**|
 |:-----|:-----|
 |**hashFunction** <br/> | Specifies the hash function that the OSC provider supports. To protect personally identifiable information of users who are not on the provider's social network or line-of-business application, the OSC passes hashed email addresses to **ISocialSession2::GetPeopleDetails** and **ISocialSession2::GetActivitiesEx**.  <br/>  If **dynamicContactsLookup** is set to **true** or **dynamicActivitiesLookupEx** is set to **true**, the provider must set **hashFunction** to one of the allowed values: **SHA1**, **MD5**, or **CRC32MD5**. If **hashFunction** is missing or specifies an incorrect value, the OSC returns an error.  <br/> **SHA1** is Internet Engineering Task Force (IETF) US Secure Hash Algorithm 1 defined by [[RFC3174]](http://www.rfc-editor.org/rfc/rfc3174.txt). For example, the **SHA1** hashed value of email address melissa@contoso.com is  `bb81577b567262a21a4df5f6e335c1250acd7b50`.  <br/> **MD5** is Internet Engineering Task Force (IETF) MD5 Message-Digest Algorithm defined by [[RFC1321]](http://www.rfc-editor.org/rfc/rfc1321.txt). For example, the **MD5** hashed value of email address melissa@contoso.com is  `c8c39e61ca1662477b39b83d7b0a0615`.  <br/> **CRC32MD5** is a combination of **CRC32** and **MD5** defined as follows:  <br/>  Normalize the email address by removing leading and trailing whitespace and converting all characters to lowercase.  <br/>  Compute the **CRC32** value for the normalized email address and use the decimal integer representation of this value. If your implementation returns signed integers, you must convert the signed integer to an unsigned integer.  <br/>  Compute the **MD5** value for the normalized email address and use the hex representation of this value (using lowercase for A through F).  <br/>  Combine these two values with an underscore.  <br/>  For example, the **CRC32MD5** hashed value of email address melissa@contoso.com is  `2149665315_c8c39e61ca1662477b39b83d7b0a0615`.  <br/> |
    
-## Capabilities for Supporting Authentication and Account Configuration
+## Capabilities for supporting authentication and account configuration
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -92,7 +90,5 @@ Depending on the **capabilities** XML returned by the provider in the **ISocialP
   
 ## See also
 
-
-
-[XML for Capabilities](xml-for-capabilities.md)
+- [XML for Capabilities](xml-for-capabilities.md)
 

@@ -1,12 +1,9 @@
 ---
 title: "IOlkAccountManagerSaveChanges"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: 32a5d4b7-ead7-24e7-58f2-750232263a0d
 description: "Saves changes to the specified account."
@@ -20,7 +17,7 @@ Saves changes to the specified account.
 
 See [IOlkAccountManager](iolkaccountmanager.md).
   
-```
+```cpp
 HRESULT IOlkAccountManager::SaveChanges (  
     DWORD dwAcctID, 
     DWORD dwFlags 
@@ -29,11 +26,11 @@ HRESULT IOlkAccountManager::SaveChanges (
 
 ## Parameters
 
- _dwAcctID_
+_dwAcctID_
   
 > [in] The account ID to save. 
     
- _dwFlags_
+_dwFlags_
   
 > [in] Flags to modify behavior. OLK_ACCOUNT_NO_FLAGS is the only supported value.
     
@@ -51,9 +48,6 @@ After changing the value of account properties by using [IOlkAccount::SetProp](i
   
 ## See also
 
-
-
-[Constants (Account management API)](constants-account-management-api.md)
-  
-[IOlkAccount::SaveChanges](iolkaccount-savechanges.md)
+- [Constants (Account management API)](constants-account-management-api.md) 
+- [IOlkAccount::SaveChanges](iolkaccount-savechanges.md)
 

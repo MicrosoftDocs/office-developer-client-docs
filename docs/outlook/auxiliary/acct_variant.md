@@ -31,7 +31,7 @@ typedef struct
 
 ## Members
 
- _dwType_
+_dwType_
   
 > Type of variant:
     
@@ -41,15 +41,15 @@ typedef struct
     
     - PT_BINARY
     
- _dw_
+_dw_
   
 > DWORD value of variant.
     
- _pwsz_
+_pwsz_
   
 > String value of variant.
     
- _bin_
+_bin_
   
 > Binary value of the variant.
     

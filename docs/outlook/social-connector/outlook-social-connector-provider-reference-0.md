@@ -1,7 +1,5 @@
 ---
-title: "Outlook Social Connector Provider Reference"
- 
- 
+title: "Outlook Social Connector provider reference"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,22 +10,22 @@ ms.assetid: 157aed97-1cb9-465d-b7eb-343771cc0cba
 description: "This section contains reference topics for Outlook Social Connector (OSC) provider extensibility."
 ---
 
-# Outlook Social Connector Provider Reference
+# Outlook Social Connector provider reference
 
 This section contains reference topics for Outlook Social Connector (OSC) provider extensibility.
   
 ## In this section
 
-[Interfaces](outlook-social-connector-provider-interfaces.md)
+- [Interfaces](outlook-social-connector-provider-interfaces.md)
   
-[XML Schema](outlook-social-connector-provider-xml-schema.md)
+- [XML Schema](outlook-social-connector-provider-xml-schema.md)
   
-[Error Codes](outlook-social-connector-provider-error-codes.md)
+- [Error Codes](outlook-social-connector-provider-error-codes.md)
   
 ## Related sections
 
-[Best Practices for Developing a Provider](best-practices-for-developing-a-provider.md)
+- [Best Practices for Developing a Provider](best-practices-for-developing-a-provider.md)
   
-[OSC Sample Templates](osc-sample-templates.md)
+- [OSC Sample Templates](osc-sample-templates.md)
   
 

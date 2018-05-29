@@ -1,7 +1,5 @@
 ---
 title: "SSortOrder"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -17,9 +15,7 @@ description: "Last modified: March 09, 2015"
 ---
 
 # SSortOrder
-
-  
-  
+ 
 **Applies to**: Outlook 
   
 Defines how to sort the rows of a table, what column to use as the sort key, and the direction of the sort. 
@@ -39,35 +35,25 @@ typedef struct _SSortOrder
 
 ## Members
 
- **ulPropTag**
+**ulPropTag**
   
 > Property tag identifying the sort key or, for a categorized sort, the category column.
     
- **ulOrder**
+**ulOrder**
   
 > The order in which the data is to be sorted. Possible values are as follow:
     
-TABLE_SORT_ASCEND 
-  
-> The table should be sorted in ascending order.
-    
-TABLE_SORT_COMBINE 
-  
-> The sort operation should create a category that combines the property identified as the sort key column in the **ulPropTag** member with the sort key column specified in the previous **SSortOrder** structure. 
-    
+  - TABLE_SORT_ASCEND: The table should be sorted in ascending order.
+      
+  - TABLE_SORT_COMBINE: The sort operation should create a category that combines the property identified as the sort key column in the **ulPropTag** member with the sort key column specified in the previous **SSortOrder** structure. 
+      
     TABLE_SORT_COMBINE can only be used when the **SSortOrder** structure is being used as an entry in an [SSortOrderSet](ssortorderset.md) structure to specify multiple sort orders for a categorized sort. TABLE_SORT_COMBINE cannot be used in the first **SSortOrder** structure in an **SSortOrderSet** structure. 
-    
-TABLE_SORT_DESCEND 
-  
-> The table should be sorted in descending order.
-    
-TABLE_SORT_CATEG_MAX
-  
-> The table should be sorted on the maximum value of the **ulPropTag** member for the data rows in the categories specified by the previous sort order in the **SSortOrderSet** structure. 
-    
-TABLE_SORT_CATEG_MIN
-  
-> The table should be sorted on the minimum value of the **ulPropTag** member for the data rows in the categories specified by the previous sort order in the in **SSortOrderSet** structure. 
+      
+  - TABLE_SORT_DESCEND: The table should be sorted in descending order.
+      
+  - TABLE_SORT_CATEG_MAX: The table should be sorted on the maximum value of the **ulPropTag** member for the data rows in the categories specified by the previous sort order in the **SSortOrderSet** structure. 
+      
+  - TABLE_SORT_CATEG_MIN: The table should be sorted on the minimum value of the **ulPropTag** member for the data rows in the categories specified by the previous sort order in the in **SSortOrderSet** structure. 
     
 ## Remarks
 
@@ -100,10 +86,6 @@ For more information about standard and categorized sorting, see [Sorting and Ca
   
 ## See also
 
-
-
-[SSortOrderSet](ssortorderset.md)
-
-
-[MAPI Structures](mapi-structures.md)
+- [SSortOrderSet](ssortorderset.md)
+- [MAPI Structures](mapi-structures.md)
 

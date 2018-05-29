@@ -1,7 +1,5 @@
 ---
 title: "ISocialSessionGetLoggedOnUser"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,19 +14,17 @@ description: "Gets an ISocialProfile interface that represents the logged-on use
 
 Gets an [ISocialProfile](isocialprofileisocialperson.md) interface that represents the logged-on user. 
   
-```
+```cpp
 HRESULT _stdcall GetLoggedOnUser([out, retval] ISocialProfile** result);
 ```
 
 ## Parameters
 
- _result_
+_result_
   
 > [out] An **ISocialProfile** interface. 
     
 ## See also
 
-
-
-[ISocialSession : IUnknown](isocialsessioniunknown.md)
+- [ISocialSession : IUnknown](isocialsessioniunknown.md)
 

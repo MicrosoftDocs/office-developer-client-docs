@@ -1,12 +1,9 @@
 ---
 title: "IFreeBusySupport"
- 
- 
 manager: soliver
 ms.date: 12/8/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: 17df868b-d329-cefa-bd16-84960cbf5921
 ---
@@ -58,9 +55,6 @@ Most of the members in this interface are placeholders reserved for the internal
   
 ## See also
 
-
-
-[About the Free/Busy API](about-the-free-busy-api.md)
-  
-[FBUser](fbuser.md)
+- [About the Free/Busy API](about-the-free-busy-api.md)
+- [FBUser](fbuser.md)
 

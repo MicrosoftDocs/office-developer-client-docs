@@ -19,7 +19,5 @@ Outlook solutions that want to provide their users offline access to an OAB may 
   
 ## See also
 
-
-
-[Managing Offline Address Books](http://msdn.microsoft.com/library/b7f26eca-b93b-4834-ba50-11febdefbb18.aspx)
+- [Managing Offline Address Books](http://msdn.microsoft.com/library/b7f26eca-b93b-4834-ba50-11febdefbb18.aspx)
 

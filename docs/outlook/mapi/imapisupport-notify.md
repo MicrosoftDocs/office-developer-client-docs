@@ -1,7 +1,5 @@
 ---
 title: "IMAPISupportNotify"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -18,8 +16,6 @@ description: "Last modified: July 23, 2011"
 
 # IMAPISupport::Notify
 
-  
-  
 **Applies to**: Outlook 
   
 Sends a notification of a specified event to an advise source that originally registered for the notification through the [IMAPISupport::Subscribe](imapisupport-subscribe.md) method. 
@@ -35,31 +31,31 @@ ULONG FAR * lpulFlags
 
 ## Parameters
 
- _lpKey_
+_lpKey_
   
 > [in] A pointer to the notification key for the advise source object. The  _lpKey_ parameter cannot be NULL. 
     
- _cNotification_
+_cNotification_
   
 > [in] The count of notification structures pointed to by the  _lpNotifications_ parameter. 
     
- _lpNotifications_
+_lpNotifications_
   
 > [in] A pointer to an array of [NOTIFICATION](notification.md) structures that describe pending notifications. 
     
- _lpulFlags_
+_lpulFlags_
   
 > [in, out] A bitmask of flags that controls the notification process. On input, the following flag can be set:
     
-MAPI_UNICODE 
-  
-> The strings in the notification structures pointed to by  _lpNotifications_ are in Unicode format. If the MAPI_UNICODE flag is not set, the strings are in ANSI format. 
+  - MAPI_UNICODE 
     
+    > The strings in the notification structures pointed to by  _lpNotifications_ are in Unicode format. If the MAPI_UNICODE flag is not set, the strings are in ANSI format. 
+
     On output, MAPI can set the following flag:
+        
+  - NOTIFY_CANCELED 
     
-NOTIFY_CANCELED 
-  
-> A callback function canceled a synchronous notification.
+    > A callback function canceled a synchronous notification.
     
 ## Return value
 
@@ -71,7 +67,7 @@ S_OK
 
 The **IMAPISupport::Notify** method is implemented for all service provider support objects. Service providers call **Notify** to request that MAPI generate a notification for an advise sink that has previously registered for the notification through the **IMAPISupport::Subscribe** method. 
   
- **Notify** copies the structures pointed to by the  _lpNotifications_ parameter into memory and calls the appropriate advise sink's [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) method. When **OnNotify** is finished with the notification, it releases the memory involved. The caller does not need to allocate memory; MAPI performs all necessary memory allocation. 
+**Notify** copies the structures pointed to by the  _lpNotifications_ parameter into memory and calls the appropriate advise sink's [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) method. When **OnNotify** is finished with the notification, it releases the memory involved. The caller does not need to allocate memory; MAPI performs all necessary memory allocation. 
   
 ## Notes to callers
 
@@ -89,19 +85,11 @@ For more information about the notification process, see [Event Notification in 
   
 ## See also
 
-
-
-[IMAPISupport::Subscribe](imapisupport-subscribe.md)
-  
-[IMAPISupport::Unsubscribe](imapisupport-unsubscribe.md)
-  
-[NOTIFCALLBACK](notifcallback.md)
-  
-[NOTIFICATION](notification.md)
-  
-[NOTIFKEY](notifkey.md)
-  
-[PidTagRecordKey Canonical Property](pidtagrecordkey-canonical-property.md)
-  
-[IMAPISupport : IUnknown](imapisupportiunknown.md)
+- [IMAPISupport::Subscribe](imapisupport-subscribe.md)  
+- [IMAPISupport::Unsubscribe](imapisupport-unsubscribe.md)  
+- [NOTIFCALLBACK](notifcallback.md) 
+- [NOTIFICATION](notification.md)  
+- [NOTIFKEY](notifkey.md)  
+- [PidTagRecordKey Canonical Property](pidtagrecordkey-canonical-property.md)  
+- [IMAPISupport : IUnknown](imapisupportiunknown.md)
 

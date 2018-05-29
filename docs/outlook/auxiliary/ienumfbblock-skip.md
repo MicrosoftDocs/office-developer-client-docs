@@ -1,12 +1,9 @@
 ---
 title: "IEnumFBBlockSkip"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: 70fbdb41-46ea-d016-25a2-37e94962095d
 description: "Skips a specified number of blocks of free/busy data."
@@ -20,7 +17,7 @@ Skips a specified number of blocks of free/busy data.
 
 See [IEnumFBBlock](ienumfbblock.md).
   
-```
+```cpp
 HRESULT Skip(  
     LONG celt 
 );
@@ -28,7 +25,7 @@ HRESULT Skip(
 
 ## Parameters
 
- _celt_
+_celt_
   
 >  [in] The number of free/busy blocks to skip. 
     
@@ -38,13 +35,8 @@ S_OK if the call succeeded; otherwise, an error code.
   
 ## See also
 
-
-
-[IEnumFBBlock::Clone](ienumfbblock-clone.md)
-  
-[IEnumFBBlock::Next](ienumfbblock-next.md)
-  
-[IEnumFBBlock::Reset](ienumfbblock-reset.md)
-  
-[IEnumFBBlock::Restrict](ienumfbblock-restrict.md)
+- [IEnumFBBlock::Clone](ienumfbblock-clone.md)  
+- [IEnumFBBlock::Next](ienumfbblock-next.md)  
+- [IEnumFBBlock::Reset](ienumfbblock-reset.md)  
+- [IEnumFBBlock::Restrict](ienumfbblock-restrict.md)
 

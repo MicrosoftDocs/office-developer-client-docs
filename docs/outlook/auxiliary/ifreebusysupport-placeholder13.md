@@ -1,12 +1,9 @@
 ---
 title: "IFreeBusySupportPlaceholder13"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: cf6e67f1-4978-4908-67f3-53925fc2ae63
 description: "This member is a placeholder and is not supported."
@@ -20,7 +17,7 @@ This member is a placeholder and is not supported.
 
 See [IFreeBusySupport](ifreebusysupport.md).
   
-```
+```cpp
 HRESULT Placeholder13( 
      void * 
 );
@@ -36,9 +33,6 @@ This member must return E_NOTIMPL.
   
 ## See also
 
-
-
-[Constants (Free/busy API)](constants-free-busy-api.md)
-  
-[IFreeBusySupport::LoadFreeBusyData](ifreebusysupport-loadfreebusydata.md)
+- [Constants (Free/busy API)](constants-free-busy-api.md)
+- [IFreeBusySupport::LoadFreeBusyData](ifreebusysupport-loadfreebusydata.md)
 

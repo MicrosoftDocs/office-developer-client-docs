@@ -19,9 +19,8 @@ Use the following properties to obtain anti-spam settings for the account:
     
 - [PidTagSpamThreshold](http://msdn.microsoft.com/library/2b2d6b8e-e3dd-4a9b-8bb5-53add675605d%28Office.15%29.aspx)—Specifies the level of spam-filtering that the user has specified for the account. The following table shows the supported values.
     
-|||
+|Supported value |Definition |
 |:-----|:-----|
-|**Supported value** <br/> |**Definition** <br/> |
 |None  <br/> |0xFFFFFFFF  <br/> |
 |Low  <br/> |0x00000006  <br/> |
 |Medium  <br/> |0x00000005  <br/> |
@@ -33,10 +32,6 @@ Use the following properties to obtain anti-spam settings for the account:
     
 ## See also
 
-
-
-[About the Account Management API](about-the-account-management-api.md)
-
-
-[Add names to the Junk Email Filter lists](http://office.microsoft.com/en-us/outlook-help/add-names-to-the-junk-email-filter-lists-HA010355043.aspx?CTT=1)
+- [About the Account Management API](about-the-account-management-api.md)
+- [Add names to the Junk Email Filter lists](http://office.microsoft.com/en-us/outlook-help/add-names-to-the-junk-email-filter-lists-HA010355043.aspx?CTT=1)
 

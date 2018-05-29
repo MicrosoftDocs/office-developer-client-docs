@@ -1,12 +1,9 @@
 ---
 title: "Constants (Free/busy API)"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: overview
- 
 localization_priority: Normal
 ms.assetid: ff756bf1-9395-5e50-4f55-1eb0365a84ed
 description: "This topic contains constant definitions, class identifiers, and interface identifiers for the Free/Busy API."
@@ -25,7 +22,7 @@ This topic contains constant definitions, class identifiers, and interface ident
 |S_FALSE  <br/> | *As defined in the Windows SDK header file winerror.h.*  <br/> |
 |S_OK  <br/> | *As defined in the Windows SDK header file winerror.h.*  <br/> |
    
-## Interface Identifiers
+## Interface identifiers
 
 For the following interface identifiers, assume the DEFINE_GUID macro defined in the Windows SDK header file guiddef.h to associate the GUID symbolic name with its value.
   

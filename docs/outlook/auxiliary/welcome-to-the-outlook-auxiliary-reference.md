@@ -1,12 +1,9 @@
 ---
 title: "Welcome to the Outlook Auxiliary Reference"
- 
- 
 manager: soliver
 ms.date: 9/10/2015
 ms.audience: Developer
 ms.topic: overview
- 
 localization_priority: Normal
 ms.assetid: 2e48a625-b3f7-9fd0-253e-fe12a1aca446
 description: "The Outlook Auxiliary Reference contains conceptual content and reference documentation for four sets of APIs, code samples, and a redistributable installer that allow developers to extend and integrate with Outlook. APIs in this reference are exposed by Outlook for extensibility, outside of the Outlook object model."
@@ -16,8 +13,14 @@ description: "The Outlook Auxiliary Reference contains conceptual content and re
 
 The Outlook Auxiliary Reference contains conceptual content and reference documentation for four sets of APIs, code samples, and a redistributable installer that allow developers to extend and integrate with Outlook. APIs in this reference are exposed by Outlook for extensibility, outside of the Outlook object model. 
   
-If you are new to developing solutions for Outlook, see [Selecting an API or technology for developing solutions for Outlook](../selecting-an-api-or-technology-for-developing-solutions-for-outlook.md) to identify the APIs and technologies that are most appropriate for your needs. For specific information about the Outlook object model, see the [Outlook VBA reference](http://msdn.microsoft.com/library/75e4ad96-62a2-49d2-bc51-48ceab50634c%28Office.15%29.aspx). For specific information on Messaging API (MAPI) supported by Outlook, see the [Outlook MAPI Reference](http://msdn.microsoft.com/library/3d980b86-7001-4869-9780-121c6bfc7275%28Office.15%29.aspx).
-  
+If you are new to developing solutions for Outlook, see [Selecting an API or technology for developing solutions for Outlook](../selecting-an-api-or-technology-for-developing-solutions-for-outlook.md) to identify the APIs and technologies that are most appropriate for your needs. 
+
+For specific information about the Outlook object model, see the [Outlook VBA reference](http://msdn.microsoft.com/library/75e4ad96-62a2-49d2-bc51-48ceab50634c%28Office.15%29.aspx). 
+
+For specific information about Messaging API (MAPI) supported by Outlook, see the [Outlook MAPI Reference](http://msdn.microsoft.com/library/3d980b86-7001-4869-9780-121c6bfc7275%28Office.15%29.aspx).
+
+## Conceptual 
+
 The conceptual discussion includes the following subjects:
   
 - [About anti-spam settings](about-anti-spam-settings.md)
@@ -39,7 +42,9 @@ The conceptual discussion includes the following subjects:
 - [About rebasing calendars programmatically for Daylight Saving Time](about-rebasing-calendars-programmatically-for-daylight-saving-time.md) (There is also a redistributable installer for third-party calendar rebasing tools, which works for previous versions of Outlook as well, since Outlook 2010. To download the installer, see [Outlook 2010: Auxiliary Reference Redistributable Installer and Header File for Rebasing Calendars](http://www.microsoft.com/downloads/details.aspx?FamilyID=77748863-4352-4b99-ae57-1d4ae803983b).)
     
 - [About persisting TZDEFINITION to a stream to commit to a binary property](about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property.md)
-    
+
+## Reference
+
 The reference content includes the following:
   
 - The [APIs Exported by Outlook](about-apis-exported-by-outlook.md) include functions and data structures that were originally implemented for internal use and are now exposed for public use. 
@@ -49,20 +54,22 @@ The reference content includes the following:
 - The [Data Degradation Layer API](about-the-data-degradation-layer-api.md) supports clients that access an Outlook item in a preferred character format rather than the object's native character format. 
     
 - The [Free/Busy API](about-the-free-busy-api.md) provides free/busy status information about specific user accounts within a specific time range. 
+
+## Sample tasks
+
+Sample how-to tasks in the Outlook Auxiliary Reference include the following:
     
-- Sample how-to tasks in the Outlook Auxiliary Reference include the following:
+- [Determine whether an Outlook item has been modified but not saved (Outlook Auxiliary Reference)](how-to-determine-if-outlook-item-has-been-modified-but-not-saved.md)
     
-  - [Determine whether an Outlook item has been modified but not saved (Outlook Auxiliary Reference)](how-to-determine-if-outlook-item-has-been-modified-but-not-saved.md)
+- [Parse a stream from a binary property to read the TZDEFINITION structure](how-to-parse-stream-from-binary-property-to-read-tzdefinition-structure.md)
     
-  - [Parse a stream from a binary property to read the TZDEFINITION structure](how-to-parse-stream-from-binary-property-to-read-tzdefinition-structure.md)
+- [Parse a stream from a binary property to read the TZREG structure](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md)
     
-  - [Parse a stream from a binary property to read the TZREG structure](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md)
+- [Read time zone properties from an appointment](how-to-read-time-zone-properties-from-an-appointment.md)
     
-  - [Read time zone properties from an appointment](how-to-read-time-zone-properties-from-an-appointment.md)
+- [Specify whether to display a contact's picture in Outlook (Outlook Auxiliary Reference)](https://msdn.microsoft.com/en-us/library/office/gg262879.aspx)
     
-  - [Specify whether to display a contact's picture in Outlook (Outlook Auxiliary Reference)](https://msdn.microsoft.com/en-us/library/office/gg262879.aspx)
-    
-  - [Use relative time to access free/busy data](how-to-use-relative-time-to-access-free-busy-data.md)
+- [Use relative time to access free/busy data](how-to-use-relative-time-to-access-free-busy-data.md)
     
 The reference for each API lists the constants, type definitions, and interfaces that a developer must implement to use the additional functionality.
   

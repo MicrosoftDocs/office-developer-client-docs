@@ -1,7 +1,5 @@
 ---
 title: "ISocialProviderVersion"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,11 +14,11 @@ description: "Returns a string that represents the version number of the provide
 
 Returns a string that represents the version number of the provider for this social network. 
   
-```
+```cpp
 [propget] HRESULT _stdcall Version([out, retval] BSTR* Version);
 ```
 
-## Property Value
+## Property value
 
 A string that contains the version number of the provider.
   
@@ -30,7 +28,5 @@ The version string should use the  _MajorVersion_. _MinorVersion_ format (for ex
   
 ## See also
 
-
-
-[ISocialProvider : IUnknown](isocialprovideriunknown.md)
+- [ISocialProvider : IUnknown](isocialprovideriunknown.md)
 

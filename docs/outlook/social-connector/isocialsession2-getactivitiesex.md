@@ -1,7 +1,5 @@
 ---
 title: "ISocialSession2GetActivitiesEx"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,21 +14,21 @@ description: "Gets a string that represents a collection of activities of each o
 
 Gets a string that represents a collection of activities of each of the users specified by the  _hashedAddresses_ parameter. 
   
-```
+```cpp
 HRESULT _stdcall GetActivitiesEx([in] SAFEARRAY(BSTR) hashedAddresses, [in] DATE startTime, [out, retval] BSTR *activities);
 ```
 
 ## Parameters
 
- _hashedAddresses_
+_hashedAddresses_
   
 > [in] A structure that specifies an array of hashed SMTP addresses for a set of users.
     
- _startTime_
+_startTime_
   
 > [in] The time after which activities that are created would be returned.
     
- _activities_
+_activities_
   
 > [out] An XML string that represents the set of activities of the users specified by  _hashedAddresses_ on the social network since  _startTime_.
     
@@ -50,10 +48,6 @@ Activities that the **GetActivitiesEx** method returns must have a creation time
   
 ## See also
 
-
-
-[ISocialSession2 : IUnknown](isocialsession2iunknown.md)
-
-
-[Synchronizing Friends and Activities](synchronizing-friends-and-activities.md)
+- [ISocialSession2 : IUnknown](isocialsession2iunknown.md)
+- [Synchronizing Friends and Activities](synchronizing-friends-and-activities.md)
 
