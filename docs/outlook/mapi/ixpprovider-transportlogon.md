@@ -1,7 +1,5 @@
 ---
 title: "IXPProviderTransportLogon"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -18,8 +16,6 @@ description: "Last modified: July 23, 2011"
 
 # IXPProvider::TransportLogon
 
-  
-  
 **Applies to**: Outlook 
   
 Establishes a session in which a client application logs on to a transport provider. 
@@ -37,93 +33,51 @@ HRESULT TransportLogon(
 
 ## Parameters
 
- _lpMAPISup_
-  
-> [in] Pointer to the transport provider's support object for callback functions within MAPI for this session. This object remains valid until the transport provider releases it.
+_lpMAPISup_: [in] Pointer to the transport provider's support object for callback functions within MAPI for this session. This object remains valid until the transport provider releases it.
     
- _ulUIParam_
-  
-> [in] Handle to the parent window of any dialog boxes or windows this method displays. The  _ulUIParam_ parameter can be non-null, for example when the LOGON_SETUP flag is set in the  _lpulFlags_ parameter. 
+_ulUIParam_: [in] Handle to the parent window of any dialog boxes or windows this method displays. The  _ulUIParam_ parameter can be non-null, for example when the LOGON_SETUP flag is set in the  _lpulFlags_ parameter. 
     
- _lpszProfileName_
-  
-> [in] Pointer to the profile name of the user. The  _lpszProfileName_ parameter is primarily used when a dialog box must be presented. 
+_lpszProfileName_: [in] Pointer to the profile name of the user. The  _lpszProfileName_ parameter is primarily used when a dialog box must be presented. 
     
- _lpulFlags_
-  
-> [in, out] Bitmask of flags that controls how the logon session is established. The following flags can be set on input by the MAPI spooler:
+_lpulFlags_: [in, out] Bitmask of flags that controls how the logon session is established. The following flags can be set on input by the MAPI spooler:
     
-LOGON_NO_CONNECT 
-  
-> The user account is logging on to this transport provider for purposes other than transmission and reception of messages. The transport provider should not attempt to make any connections to other messaging systems.
+  - LOGON_NO_CONNECT: The user account is logging on to this transport provider for purposes other than transmission and reception of messages. The transport provider should not attempt to make any connections to other messaging systems.
+        
+  - LOGON_NO_DIALOG: No dialog box should be displayed even if the currently saved user credentials are invalid or insufficient for logon.
+        
+  - LOGON_NO_INBOUND: The transport provider does not have to initialize for reception of messages and should not accept incoming messages. The MAPI spooler can use the [IXPLogon::TransportNotify](ixplogon-transportnotify.md) method later to signal the transport provider to enable incoming message processing. 
+        
+  - LOGON_NO_OUTBOUND: The transport provider does not have to initialize for sending messages, as the MAPI spooler does not provide any. If a client application requires a connection to a remote provider during the composition of a message so that it can make [IXPLogon::AddressTypes](ixplogon-addresstypes.md) method calls, the transport provider should make the connection. The MAPI spooler can use **TransportNotify** to signal the transport provider when outgoing operations can begin. 
+      
+  - MAPI_UNICODE: The passed-in string for the profile name is in Unicode format. If the MAPI\_UNICODE flag is not set, the string is in ANSI format.
+      
+  The following flags can be set on output by the transport provider:
+      
+  - LOGON_SP_IDLE: Requests that the MAPI spooler frequently call the transport provider's [IXPLogon::Idle](ixplogon-idle.md) method for idle-time processing. 
+      
+  - LOGON_SP_POLL: Requests that the MAPI spooler frequently call the [IXPLogon::Poll](ixplogon-poll.md) method on the returned logon object to check for new messages. If this flag is not set, the MAPI spooler only checks for new messages when the transport provider uses the [IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md) method to notify the spooler that there are new messages to process. A transport provider effectively becomes send-only by not setting this flag and by not notifying the MAPI spooler of message receipt. 
+      
+  - LOGON_SP_RESOLVE: Requests that the MAPI spooler resolve to full addresses all message addresses for recipients not supported by this transport provider. Therefore that the transport provider can construct a reply path for all recipients.
+      
+  - MAPI_UNICODE: The returned strings in the [MAPIERROR](mapierror.md) structure, if any, are in Unicode format. If the MAPI_UNICODE flag is not set, the strings are in ANSI format. 
     
-LOGON_NO_DIALOG 
-  
-> No dialog box should be displayed even if the currently saved user credentials are invalid or insufficient for logon.
+_lppMAPIError_: [out] Pointer to a pointer to the returned **MAPIERROR** structure, if any, that contains version, component, and context information for the error. The  _lppMAPIError_ parameter can be set to NULL if there is no **MAPIERROR** structure to return. 
     
-LOGON_NO_INBOUND 
-  
-> The transport provider does not have to initialize for reception of messages and should not accept incoming messages. The MAPI spooler can use the [IXPLogon::TransportNotify](ixplogon-transportnotify.md) method later to signal the transport provider to enable incoming message processing. 
-    
-LOGON_NO_OUTBOUND 
-  
-> The transport provider does not have to initialize for sending messages, as the MAPI spooler does not provide any. If a client application requires a connection to a remote provider during the composition of a message so that it can make [IXPLogon::AddressTypes](ixplogon-addresstypes.md) method calls, the transport provider should make the connection. The MAPI spooler can use **TransportNotify** to signal the transport provider when outgoing operations can begin. 
-    
-MAPI_UNICODE 
-  
-> The passed-in string for the profile name is in Unicode format. If the MAPI_UNICODE flag is not set, the string is in ANSI format.
-    
-    The following flags can be set on output by the transport provider:
-    
-LOGON_SP_IDLE 
-  
-> Requests that the MAPI spooler frequently call the transport provider's [IXPLogon::Idle](ixplogon-idle.md) method for idle-time processing. 
-    
-LOGON_SP_POLL 
-  
-> Requests that the MAPI spooler frequently call the [IXPLogon::Poll](ixplogon-poll.md) method on the returned logon object to check for new messages. If this flag is not set, the MAPI spooler only checks for new messages when the transport provider uses the [IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md) method to notify the spooler that there are new messages to process. A transport provider effectively becomes send-only by not setting this flag and by not notifying the MAPI spooler of message receipt. 
-    
-LOGON_SP_RESOLVE 
-  
-> Requests that the MAPI spooler resolve to full addresses all message addresses for recipients not supported by this transport provider. Therefore that the transport provider can construct a reply path for all recipients.
-    
-MAPI_UNICODE 
-  
-> The returned strings in the [MAPIERROR](mapierror.md) structure, if any, are in Unicode format. If the MAPI_UNICODE flag is not set, the strings are in ANSI format. 
-    
- _lppMAPIError_
-  
-> [out] Pointer to a pointer to the returned **MAPIERROR** structure, if any, that contains version, component, and context information for the error. The  _lppMAPIError_ parameter can be set to NULL if there is no **MAPIERROR** structure to return. 
-    
- _lppXPLogon_
-  
-> [out] Pointer to the pointer to the returned transport provider logon object.
+_lppXPLogon_: [out] Pointer to the pointer to the returned transport provider logon object.
     
 ## Return value
 
-S_OK 
-  
-> The call succeeded and has returned the expected value or values.
+S_OK: The call succeeded and has returned the expected value or values.
     
-MAPI_E_FAILONEPROVIDER 
-  
-> This provider cannot log on, but this error should not disable the service. 
+MAPI_E_FAILONEPROVIDER: This provider cannot log on, but this error should not disable the service. 
     
-MAPI_E_UNCONFIGURED 
-  
-> The profile does not contain enough information for the logon to be completed. MAPI calls the provider's message service entry point function.
+MAPI_E_UNCONFIGURED: The profile does not contain enough information for the logon to be completed. MAPI calls the provider's message service entry point function.
     
-MAPI_E_UNKNOWN_CPID 
-  
-> The provider cannot support the client's code page.
+MAPI_E_UNKNOWN_CPID: The provider cannot support the client's code page.
     
-MAPI_E_UNKNOWN_LCID 
-  
-> The provider cannot support the client's locale information.
+MAPI_E_UNKNOWN_LCID: The provider cannot support the client's locale information.
     
-MAPI_E_USER_CANCEL 
-  
-> The user canceled the operation, typically by clicking the **Cancel** button in a dialog box. 
+MAPI_E_USER_CANCEL: The user canceled the operation, typically by clicking the **Cancel** button in a dialog box. 
     
 ## Remarks
 
@@ -153,21 +107,12 @@ If the provider finds that all the required information is not in the profile, i
   
 ## See also
 
-
-
-[IXPProvider : IUnknown](ixpprovideriunknown.md)
-  
-[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)
-  
-[IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md)
-  
-[IXPLogon::AddressTypes](ixplogon-addresstypes.md)
-  
-[IXPLogon::Idle](ixplogon-idle.md)
-  
-[IXPLogon::Poll](ixplogon-poll.md)
-  
-[IXPLogon::TransportNotify](ixplogon-transportnotify.md)
-  
-[MAPIERROR](mapierror.md)
+- [IXPProvider : IUnknown](ixpprovideriunknown.md)  
+- [IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)  
+- [IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md)  
+- [IXPLogon::AddressTypes](ixplogon-addresstypes.md)  
+- [IXPLogon::Idle](ixplogon-idle.md)  
+- [IXPLogon::Poll](ixplogon-poll.md)  
+- [IXPLogon::TransportNotify](ixplogon-transportnotify.md) 
+- [MAPIERROR](mapierror.md)
 

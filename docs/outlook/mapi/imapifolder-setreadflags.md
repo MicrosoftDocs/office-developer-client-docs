@@ -1,7 +1,5 @@
 ---
 title: "IMAPIFolderSetReadFlags"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -18,8 +16,6 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIFolder::SetReadFlags
 
-  
-  
 **Applies to**: Outlook 
   
 Sets or clears the MSGFLAG_READ flag in the **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property of one or more of the folder's messages, and manages the sending of read reports. 
@@ -35,51 +31,37 @@ HRESULT SetReadFlags(
 
 ## Parameters
 
- _lpMsgList_
+_lpMsgList_
   
 > [in] A pointer to an array of [ENTRYLIST](entrylist.md) structures that identify the message or messages that have read flags to set or clear. If  _lpMsgList_ is set to NULL, the read flags for all the folder's messages are set or cleared. 
     
- _ulUIParam_
+_ulUIParam_
   
 > [in] A handle to the parent window of the progress indicator. The  _ulUIParam_ parameter is ignored unless the MESSAGE_DIALOG flag is set in the  _ulFlags_ parameter. 
     
- _lpProgress_
+_lpProgress_
   
 > [in] A pointer to a progress object that displays a progress indicator. If NULL is passed in  _lpProgress_, the message store provider displays a progress indicator by using MAPI's implementation. The  _lpProgress_ parameter is ignored unless the MESSAGE_DIALOG flag is set in  _ulFlags_.
     
- _ulFlags_
+_ulFlags_
   
 > [in] A bitmask of flags that controls the setting of a message's read flag and the processing of read reports. The following flags can be set:
     
-CLEAR_READ_FLAG 
-  
-> The MSGFLAG_READ flag should be cleared in **PR_MESSAGE_FLAGS** and a read report should not be sent. 
+  - CLEAR_READ_FLAG: The MSGFLAG_READ flag should be cleared in **PR_MESSAGE_FLAGS** and a read report should not be sent. 
+        
+  - CLEAR_NRN_PENDING: The MSGFLAG_NRN_PENDING flag should be cleared in **PR_MESSAGE_FLAGS** and an unread report should not be sent. 
+        
+  - CLEAR_RN_PENDING: The MSGFLAG_RN_PENDING flag should be cleared in **PR_MESSAGE_FLAGS** and a read report should not be sent. 
+        
+  - GENERATE_RECEIPT_ONLY: A read report should be sent if one is pending, but there should be no change in the state of the MSGFLAG_READ flag.
+        
+  - MAPI_DEFERRED_ERRORS: Allows **SetReadFlags** to return successfully, possibly before the operation has completed. 
+        
+  - MESSAGE_DIALOG: Displays a progress indicator while the operation proceeds.
     
-CLEAR_NRN_PENDING 
-  
-> The MSGFLAG_NRN_PENDING flag should be cleared in **PR_MESSAGE_FLAGS** and an unread report should not be sent. 
+  - SUPPRESS_RECEIPT: A pending read report should be canceled if a read report had been requested and this call changes the state of the message from unread to read. If this call does not change the state of the message, the message store provider can ignore this flag.
     
-CLEAR_RN_PENDING 
-  
-> The MSGFLAG_RN_PENDING flag should be cleared in **PR_MESSAGE_FLAGS** and a read report should not be sent. 
-    
-GENERATE_RECEIPT_ONLY 
-  
-> A read report should be sent if one is pending, but there should be no change in the state of the MSGFLAG_READ flag.
-    
-MAPI_DEFERRED_ERRORS 
-  
-> Allows **SetReadFlags** to return successfully, possibly before the operation has completed. 
-    
-MESSAGE_DIALOG 
-  
-> Displays a progress indicator while the operation proceeds.
-    
-SUPPRESS_RECEIPT 
-  
-> A pending read report should be canceled if a read report had been requested and this call changes the state of the message from unread to read. If this call does not change the state of the message, the message store provider can ignore this flag.
-    
-## Return value
+## Return values
 
 S_OK 
   
@@ -93,11 +75,11 @@ MAPI_E_INVALID_PARAMETER
   
 > One of the following incompatible combinations of flags is set in the  _ulFlags_ parameter: 
     
-    - SUPPRESS_RECEIPT | CLEAR_READ_FLAG 
+   - SUPPRESS_RECEIPT | CLEAR_READ_FLAG 
     
-    - SUPPRESS_RECEIPT | CLEAR_READ_FLAG | GENERATE_RECEIPT_ONLY
+   - SUPPRESS_RECEIPT | CLEAR_READ_FLAG | GENERATE_RECEIPT_ONLY
     
-    - CLEAR_READ_FLAG | GENERATE_RECEIPT_ONLY
+   - CLEAR_READ_FLAG | GENERATE_RECEIPT_ONLY
     
 MAPI_W_PARTIAL_COMPLETION 
   
@@ -107,7 +89,7 @@ MAPI_W_PARTIAL_COMPLETION
 
 The **IMAPIFolder::SetReadFlags** method sets or clears the MSGFLAG_READ flag in the **PR_MESSAGE_FLAGS** property of one or more of the folder's messages. Setting the MSGFLAG_READ flag marks a message as read, which does not necessarily indicate that the intended recipient has actually read the message. 
   
- **SetReadFlags** also manages the sending of read reports. 
+**SetReadFlags** also manages the sending of read reports. 
   
 The read flag cannot be changed for the following:
   
@@ -165,20 +147,11 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-
-
-[ENTRYLIST](entrylist.md)
-  
-[IMessage::SetReadFlag](imessage-setreadflag.md)
-  
-[PidTagMessageFlags Canonical Property](pidtagmessageflags-canonical-property.md)
-  
-[PidTagReadReceiptRequested Canonical Property](pidtagreadreceiptrequested-canonical-property.md)
-  
-[IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
-
-
-[MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
-  
-[Using Macros for Error Handling](using-macros-for-error-handling.md)
+- [ENTRYLIST](entrylist.md) 
+- [IMessage::SetReadFlag](imessage-setreadflag.md)  
+- [PidTagMessageFlags Canonical Property](pidtagmessageflags-canonical-property.md)  
+- [PidTagReadReceiptRequested Canonical Property](pidtagreadreceiptrequested-canonical-property.md)  
+- [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
+- [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)  
+- [Using Macros for Error Handling](using-macros-for-error-handling.md)
 
