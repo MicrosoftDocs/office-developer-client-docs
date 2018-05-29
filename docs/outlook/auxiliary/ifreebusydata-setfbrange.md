@@ -1,12 +1,9 @@
 ---
 title: "IFreeBusyDataSetFBRange"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: 4e7147ea-0eb0-324a-80d8-4f0eef654c32
 description: "Sets the range of time for an enumeration of free/busy blocks of data for a user."
@@ -20,7 +17,7 @@ Sets the range of time for an enumeration of free/busy blocks of data for a user
 
 See [IFreeBusyData](ifreebusydata.md).
   
-```
+```cpp
 HRESULT SetFBRange(
      LONG rtmStart,
      LONG rtmEnd
@@ -29,11 +26,11 @@ HRESULT SetFBRange(
 
 ## Parameters
 
- _rtmStart_
+_rtmStart_
   
 > [in] A relative time value for the start of free/busy information. This value is the number of minutes since January 1, 1601.
     
- _rtmEnd_
+_rtmEnd_
   
 > [in] A relative time value for the end of free/busy information. This value is the number of minutes since January 1, 1601.
     
@@ -47,11 +44,7 @@ This method is used to indicate the time range of calendar items for which to re
   
 ## See also
 
-
-
-[IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md)
-  
-[IFreeBusyData::GetFBPublishRange](ifreebusydata-getfbpublishrange.md)
-  
-[Use relative time to access free/busy data](how-to-use-relative-time-to-access-free-busy-data.md)
+- [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md)
+- [IFreeBusyData::GetFBPublishRange](ifreebusydata-getfbpublishrange.md)
+- [Use relative time to access free/busy data](how-to-use-relative-time-to-access-free-busy-data.md)
 

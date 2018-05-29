@@ -24,20 +24,22 @@ The Account Management API provides access to account information and supports n
 5. Implement and use [IOlkAccountHelper](iolkaccounthelper.md) to provide the account manager helper functionality, including getting an account's profile name and the current MAPI session. 
     
 6. Implement and use [IOlkErrorUnknown](iolkerrorunknown.md) to provide extra information about an error in **IOlkAccountManager**, **IOlkAccountNotify**, and **IOlkAccount**. 
-    
+
+##  Account Management API components
+
 The Account Management API provides the following definitions, data types, interfaces, named properties, and properties.
   
-Definitions:
+### Definitions
   
 - [Constants (Account management API)](constants-account-management-api.md)
     
-Data types:
+### Data types
   
 - [ACCT_BIN](acct_bin.md)
     
 - [ACCT_VARIANT](acct_variant.md)
     
-Interfaces:
+### Interfaces
   
 - [IOlkAccount](iolkaccount.md)
     
@@ -51,13 +53,13 @@ Interfaces:
     
 - [IOlkErrorUnknown](iolkerrorunknown.md)
     
-Named properties:
+### Named properties
   
 - [PidLidInternetAccountName](pidlidinternetaccountname.md)
     
 - [PidLidInternetAccountStamp](pidlidinternetaccountstamp.md)
     
-Properties:
+### Properties
   
 - [PidTagNextSendAcct](pidtagnextsendacct.md)
     

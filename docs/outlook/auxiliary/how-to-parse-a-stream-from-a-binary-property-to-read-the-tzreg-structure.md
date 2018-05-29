@@ -52,7 +52,5 @@ TZREG* BinToTZREG(ULONG cbReg, LPBYTE lpbReg)
 
 ## See also
 
-
-
-[Read time zone properties from an appointment](how-to-read-time-zone-properties-from-an-appointment.md)
+- [Read time zone properties from an appointment](how-to-read-time-zone-properties-from-an-appointment.md)
 

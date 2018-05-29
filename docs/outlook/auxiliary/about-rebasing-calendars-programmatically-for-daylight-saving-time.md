@@ -17,7 +17,9 @@ If you use a version of Windows that is Windows Vista or later, or have Windows 
   
 Outlook provides tools for users and Exchange Server provides tools for administrators to rebase calendars. Outlook provides the Time Zone Data Update Tool for Outlook users. With this tool, users can update their own calendars. Exchange Server provides the Exchange Calendar Update Tool that helps administrators to avoid difficulties that result from deploying the Outlook tool widely to all users and to make sure that each user runs the Outlook tool correctly.
   
-In addition to relying on users to run the Time Zone Data Update Tool or administrators to run the Exchange Calendar Update Tool, third-party MAPI client software developers can download a DLL, Tzmovelib.dll. By using this assembly, developers can use the same APIs that Outlook and Exchange Server use in their calendar rebasing tools. The following list shows the calendar rebasing APIs:
+In addition to relying on users to run the Time Zone Data Update Tool or administrators to run the Exchange Calendar Update Tool, third-party MAPI client software developers can download a DLL, Tzmovelib.dll. By using this assembly, developers can use the same APIs that Outlook and Exchange Server use in their calendar rebasing tools. 
+
+The following list shows the calendar rebasing APIs:
   
 - [HrCreateApptRebaser](hrcreateapptrebaser.md)
     
@@ -59,20 +61,11 @@ To obtain the Tzmovelib.dll assembly, download the OutlookTimeZoneMoveLibRedist.
   
 ## See also
 
-
-
-[About persisting TZDEFINITION to a stream to commit to a binary property](about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property.md)
-  
-[Parse a stream from a binary property to read the TZDEFINITION structure](how-to-parse-stream-from-binary-property-to-read-tzdefinition-structure.md)
-  
-[Parse a stream from a binary property to read the TZREG structure](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md)
-  
-[Read time zone properties from an appointment](how-to-read-time-zone-properties-from-an-appointment.md)
-
-
-[Daylight Saving Time Help and Support Center](http://support.microsoft.com/gp/cp_dst)
-  
-[How to address daylight saving time by using the Exchange Calendar Update Tool](http://support.microsoft.com/kb/941018)
-  
-[How to address time zone changes by using the Time Zone Data Update Tool for Microsoft Office Outlook](http://support.microsoft.com/kb/931667)
+- [About persisting TZDEFINITION to a stream to commit to a binary property](about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property.md)
+- [Parse a stream from a binary property to read the TZDEFINITION structure](how-to-parse-stream-from-binary-property-to-read-tzdefinition-structure.md)
+- [Parse a stream from a binary property to read the TZREG structure](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md)
+- [Read time zone properties from an appointment](how-to-read-time-zone-properties-from-an-appointment.md)
+- [Daylight Saving Time Help and Support Center](http://support.microsoft.com/gp/cp_dst)
+- [How to address daylight saving time by using the Exchange Calendar Update Tool](http://support.microsoft.com/kb/941018)
+- [How to address time zone changes by using the Time Zone Data Update Tool for Microsoft Office Outlook](http://support.microsoft.com/kb/931667)
 

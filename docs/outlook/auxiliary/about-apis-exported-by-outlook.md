@@ -13,11 +13,11 @@ description: "Outlook exports the following definitions, data structures, functi
 
 Outlook exports the following definitions, data structures, functions, and interfaces that were originally designed for internal use but are now exposed for public consumption.
   
-Definitions:
+### Definitions
   
 - [Constants (Outlook exported APIs)](constants-outlook-exported-apis.md)
     
-Data structures:
+### Data structures
   
 - [TZDEFINITION](tzdefinition.md)
     
@@ -25,7 +25,7 @@ Data structures:
     
 - [TZRULE](tzrule.md)
     
-Functions:
+### Functions
   
 - [HrCreateApptRebaser](hrcreateapptrebaser.md)
     
@@ -35,11 +35,11 @@ Functions:
     
 - [RebaseTaskProgress](rebasetaskprogress.md)
     
-Interfaces:
+### Interfaces
   
 - [IOlkApptRebaser](iolkapptrebaser.md)
     
-Events:
+### Events
   
 - [Available events and their dispids (Outlook exported APIs)](available-events-and-their-dispids-outlook-exported-apis.md)
     
