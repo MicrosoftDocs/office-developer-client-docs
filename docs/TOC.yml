@@ -17,7 +17,7 @@
           - name: Integrate with Office from Android applications
             href: integration/integrate-with-office-from-android-applications.md
      - name: Office Online Server
-       href: configure-udfs-in-excel-online-in-office-online-server-preview.md
+       href: excel/configure-udfs-in-excel-online-in-office-online-server-preview.md
      - name: Office for Mac
        href: https://msdn.microsoft.com/en-us/library/office/mt654019.aspx
      - name: Office shared
