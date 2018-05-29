@@ -1,7 +1,5 @@
 ---
 title: "ISocialProfileAreFriendsOrColleagues"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,17 +14,17 @@ description: "Determines whether the specified users are friends."
 
 Determines whether the specified users are friends.
   
-```
+```cpp
 HRESULT _stdcall AreFriendsOrColleagues(SAFEARRAY(BSTR) userIds, [out, retval] SAFEARRAY(VARIANT_BOOL)* results);
 ```
 
 ## Parameters
 
- _userIds_
+_userIds_
   
 > [in] A structure that specifies an array of user ID values that correspond to a set of persons on the social network.
     
- _results_
+_results_
   
 > [out] A pointer to structure that specifies an array of Boolean values, indicating whether the corresponding person in the  _userIds_ array is a friend. 
     
@@ -36,7 +34,5 @@ For each person represented in the input array of the  _userIds_ parameter, this
   
 ## See also
 
-
-
-[ISocialProfile : ISocialPerson](isocialprofileisocialperson.md)
+- [ISocialProfile : ISocialPerson](isocialprofileisocialperson.md)
 

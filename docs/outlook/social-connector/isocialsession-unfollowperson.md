@@ -1,7 +1,5 @@
 ---
 title: "ISocialSessionUnFollowPerson"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,13 +14,13 @@ description: "Removes the person identified by the userID parameter as a friend 
 
 Removes the person identified by the  _userID_ parameter as a friend on the social network. 
   
-```
+```cpp
 HRESULT _stdcall UnFollowPerson([in] BSTR userID);
 ```
 
 ## Parameters
 
- _userID_
+_userID_
   
 > [in] A string that contains a social network user ID for a person.
     
@@ -34,7 +32,5 @@ If the Outlook Social Connector (OSC) provider has set **doNotFollowPerson** as 
   
 ## See also
 
-
-
-[ISocialSession : IUnknown](isocialsessioniunknown.md)
+- [ISocialSession : IUnknown](isocialsessioniunknown.md)
 

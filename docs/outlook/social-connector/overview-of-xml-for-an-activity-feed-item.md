@@ -1,7 +1,5 @@
 ---
-title: "Overview of XML for an Activity Feed Item"
- 
- 
+title: "Overview of XML for an activity feed item"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,7 +10,7 @@ ms.assetid: 366550fa-e787-4ca0-bfe1-a7890dfc27c6
 description: "An activity feed consists of one or more activities occurring on a social network. Each activity feed is represented by an activityFeed element, and is characterized by these three pieces of information:"
 ---
 
-# Overview of XML for an Activity Feed Item
+# Overview of XML for an activity feed item
 
 An activity feed consists of one or more activities occurring on a social network. Each activity feed is represented by an **activityFeed** element, and is characterized by these three pieces of information: 
   
@@ -61,12 +59,7 @@ For an example of activity feed XML, see [Activity Feed XML Example](activity-fe
   
 ## See also
 
-
-
-[XML for Activities](xml-for-activities.md)
-  
-[Outlook Social Connector Provider XML Schema](outlook-social-connector-provider-xml-schema.md)
-
-
-[Developing a Provider with the OSC XML Schema](developing-a-provider-with-the-osc-xml-schema.md)
+- [XML for Activities](xml-for-activities.md) 
+- [Outlook Social Connector Provider XML Schema](outlook-social-connector-provider-xml-schema.md)
+- [Developing a Provider with the OSC XML Schema](developing-a-provider-with-the-osc-xml-schema.md)
 

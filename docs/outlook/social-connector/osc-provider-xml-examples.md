@@ -1,7 +1,5 @@
 ---
-title: "OSC Provider XML Examples"
- 
- 
+title: "OSC provider XML examples"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,7 +10,7 @@ ms.assetid: 65d0c111-b090-4b1b-a747-44285b7c16b2
 description: "This section contains XML examples that use the capabilities, friends, and activityFeed XML elements, complying with the Outlook Social Connector (OSC) provider XML schema."
 ---
 
-# OSC Provider XML Examples
+# OSC provider XML examples
 
 This section contains XML examples that use the **capabilities**, **friends**, and **activityFeed** XML elements, complying with the Outlook Social Connector (OSC) provider XML schema. 
   
@@ -24,10 +22,6 @@ This section contains XML examples that use the **capabilities**, **friends**, a
     
 ## See also
 
-
-
-[Outlook Social Connector Provider XML Schema](outlook-social-connector-provider-xml-schema.md)
-
-
-[Developing a Provider with the OSC XML Schema](developing-a-provider-with-the-osc-xml-schema.md)
+- [Outlook Social Connector Provider XML Schema](outlook-social-connector-provider-xml-schema.md)
+- [Developing a Provider with the OSC XML Schema](developing-a-provider-with-the-osc-xml-schema.md)
 

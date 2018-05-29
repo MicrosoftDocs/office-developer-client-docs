@@ -1,7 +1,5 @@
 ---
-title: "Capabilities XML Example"
- 
- 
+title: "Capabilities XML example"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,11 +10,11 @@ ms.assetid: ae1abafe-160c-47c0-b4d5-4a689c8c4cb1
 description: "The XML example in this topic is an XML string returned to the Outlook Social Connector (OSC) after it calls the ISocialProvider::GetCapabilities method for a social network. The XML shows how an OSC provider specifies its capabilities and requirements for the OSC."
 ---
 
-# Capabilities XML Example
+# Capabilities XML example
 
 The XML example in this topic is an XML string returned to the Outlook Social Connector (OSC) after it calls the [ISocialProvider::GetCapabilities](isocialprovider-getcapabilities.md) method for a social network. The XML shows how an OSC provider specifies its capabilities and requirements for the OSC. 
   
-## Capabilities for Friends
+## Capabilities for friends
 
 In this example, the OSC provider specifies the following elements to show its capabilities in supporting the friends feature:
   
@@ -32,7 +30,7 @@ In this example, the OSC provider specifies the following elements to show its c
     
 - **dynamicContactsLookup** as **false** to indicate that the OSC should not store friends' information in memory. 
     
-## Capabilities for Activities
+## Capabilities for activities
 
 The OSC provider specifies the following elements to show its capability to support activities:
   
@@ -42,7 +40,7 @@ The OSC provider specifies the following elements to show its capability to supp
     
 - **dynamicActivitiesLookupEx** as **true** to indicate that the OSC should store friends' activities in memory. 
     
-## Capabilities for Authentication and Account Configuration
+## Capabilities for authentication and account configuration
 
 The OSC provider specifies the following elements to show its support for authentication and account configuration:
   
@@ -56,7 +54,7 @@ The OSC provider specifies the following elements to show its support for authen
     
 - **hideHyperlinks** as **false** to indicate that the OSC provider supports only existing accounts with known passwords, and the OSC should not display the **Click here to create an account** and **Forgot your password?** hyperlinks in the account configuration dialog box. 
     
-## XML Example
+## XML example
 
 The following example shows the **capabilities** XML of an OSC provider. 
   
@@ -86,15 +84,9 @@ The following example shows the **capabilities** XML of an OSC provider.
 
 ## See also
 
-
-
-[OSC Provider XML Examples](osc-provider-xml-examples.md)
-  
-[XML for Capabilities](xml-for-capabilities.md)
-  
-[Friends XML Example](friends-xml-example.md)
-  
-[Activity Feed XML Example](activity-feed-xml-example.md)
-  
-[Outlook Social Connector Provider XML Schema](outlook-social-connector-provider-xml-schema.md)
+- [OSC Provider XML Examples](osc-provider-xml-examples.md)  
+- [XML for Capabilities](xml-for-capabilities.md)  
+- [Friends XML Example](friends-xml-example.md)  
+- [Activity Feed XML Example](activity-feed-xml-example.md)  
+- [Outlook Social Connector Provider XML Schema](outlook-social-connector-provider-xml-schema.md)
 

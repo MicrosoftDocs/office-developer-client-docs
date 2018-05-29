@@ -1,7 +1,5 @@
 ---
 title: "PROP_TAG"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -18,8 +16,6 @@ description: "Last modified: March 09, 2015"
 
 # PROP_TAG
 
-  
-  
 **Applies to**: Outlook 
   
 Returns a property tag created by combining a specified property type and identifier. 
@@ -35,19 +31,19 @@ PROP_TAG (ulPropType, ulPropID)
 
 ## Parameters
 
- _ulPropType_
+_ulPropType_
   
 > Property type for the new property tag.
     
- _ulPropID_
+_ulPropID_
   
 > Property identifier for the new property tag.
     
 ## Remarks
 
-The **PROP_TAG** macro creates a property tag for a property of type  _ulPropType_ and the identifier that is specified in  _ulPropID_. For example, a property tag for an entry identifier can be created by using the **PROP_TAG** macro as follows: 
+The **PROP\_TAG** macro creates a property tag for a property of type  _ulPropType_ and the identifier that is specified in  _ulPropID_. For example, a property tag for an entry identifier can be created by using the **PROP_TAG** macro as follows: 
   
-```
+```cpp
 PROP_TAG( PT_BINARY, 0x0FFF)
 
 ```
@@ -58,10 +54,6 @@ For more information about property tags, see [MAPI Property Tags](mapi-property
   
 ## See also
 
-
-
-[SPropValue](spropvalue.md)
-
-
-[Macros Related to Structures](macros-related-to-structures.md)
+- [SPropValue](spropvalue.md)
+- [Macros Related to Structures](macros-related-to-structures.md)
 

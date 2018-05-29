@@ -1,7 +1,5 @@
 ---
 title: "ISocialSessionSiteUrl"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,17 +14,15 @@ description: "Sets the social network site URL."
 
 Sets the social network site URL. 
   
-```
+```cpp
 [propput] HRESULT _stdcall siteUrl([in] BSTR rhs);
 ```
 
-## Property Value
+## Property value
 
 A string that represents a social network site URL.
   
 ## See also
 
-
-
-[ISocialSession : IUnknown](isocialsessioniunknown.md)
+- [ISocialSession : IUnknown](isocialsessioniunknown.md)
 

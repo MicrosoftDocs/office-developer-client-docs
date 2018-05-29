@@ -1,7 +1,5 @@
 ---
 title: "ISocialProviderGetSession"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,13 +14,13 @@ description: "Gets an ISocialSession interface."
 
 Gets an [ISocialSession](isocialsessioniunknown.md) interface. 
   
-```
+```cpp
 HRESULT _stdcall GetSession([out, retval] ISocialSession** session);
 ```
 
 ## Parameters
 
- _session_
+_session_
   
 > [out] An **ISocialSession** interface. 
     
@@ -32,7 +30,5 @@ The Outlook Social Connector (OSC) uses the **ISocialSession** interface to log 
   
 ## See also
 
-
-
-[ISocialProvider : IUnknown](isocialprovideriunknown.md)
+- [ISocialProvider : IUnknown](isocialprovideriunknown.md)
 

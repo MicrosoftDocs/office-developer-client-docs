@@ -1,7 +1,5 @@
 ---
 title: "Activity Feed XML Example"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -38,7 +36,7 @@ For a detailed description of the XML elements used in the example, see the foll
     
 - [Template Variables](template-variables.md)
     
-## XML Example
+## XML example
 
 The following example shows the **activityFeed** XML of four activities: two profile picture updates, a status update, and a blog post. The XML also specifies three activity display templates for displaying the corresponding activities. 
   
@@ -177,15 +175,9 @@ The following example shows the **activityFeed** XML of four activities: two pro
 
 ## See also
 
-
-
-[OSC Provider XML Examples](osc-provider-xml-examples.md)
-  
-[XML for Activities](xml-for-activities.md)
-  
-[Capabilities XML Example](capabilities-xml-example.md)
-  
-[Friends XML Example](friends-xml-example.md)
-  
-[Outlook Social Connector Provider XML Schema](outlook-social-connector-provider-xml-schema.md)
+- [OSC Provider XML Examples](osc-provider-xml-examples.md)  
+- [XML for Activities](xml-for-activities.md) 
+- [Capabilities XML Example](capabilities-xml-example.md)  
+- [Friends XML Example](friends-xml-example.md)
+- [Outlook Social Connector Provider XML Schema](outlook-social-connector-provider-xml-schema.md)
 

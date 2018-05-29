@@ -1,7 +1,5 @@
 ---
-title: "Downloading the Samples"
- 
- 
+title: "Downloading the samples"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,7 +10,7 @@ ms.assetid: bf0d3edc-3280-4500-8fae-bb7f338bb7dd
 description: "This topic describes how to download the code samples that accompany this documentation."
 ---
 
-# Downloading the Samples
+# Downloading the samples
 
 This topic describes how to download the code samples that accompany this documentation.
   
@@ -24,18 +22,14 @@ This topic describes how to download the code samples that accompany this docume
     
 3. After extracting the .zip file, you will find the following projects in your projects folder:
     
-  - OSCProvider_CPP—Contains the C++ provider template.
+   - OSCProvider_CPP—Contains the C++ provider template.
     
-  - OSCProvider_CS—Contains the C# provider template.
+   - OSCProvider_CS—Contains the C# provider template.
     
-  - OSCProvider_VB—Contains the Visual Basic provider template.
+   - OSCProvider_VB—Contains the Visual Basic provider template.
     
 ## See also
 
-
-
-[Applying a Sample Provider Template](applying-a-sample-provider-template.md)
-
-
-[OSC Sample Templates](osc-sample-templates.md)
+- [Applying a Sample Provider Template](applying-a-sample-provider-template.md)
+- [OSC Sample Templates](osc-sample-templates.md)
 

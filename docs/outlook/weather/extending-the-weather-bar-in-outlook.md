@@ -1,7 +1,5 @@
 ---
 title: "Extending the Weather Bar in Outlook"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -16,21 +14,19 @@ description: "Learn how to plug in a third-party weather web service for the Wea
 
 Learn how to plug in a third-party weather web service for the Weather Bar in Outlook 2013, to provide weather conditions data for a user-chosen location.
   
- **In this article**
+- [Weather Bar overview](extending-the-weather-bar-in-outlook.md#ol15_weatherbar_overview)
   
-[Weather Bar overview](extending-the-weather-bar-in-outlook.md#ol15_weatherbar_overview)
+- [Weather Bar protocol](extending-the-weather-bar-in-outlook.md#ol15_weatherbar_theprotocol)
   
-[Weather Bar protocol](extending-the-weather-bar-in-outlook.md#ol15_weatherbar_theprotocol)
+- [Setting the Weather Bar to use a weather service](extending-the-weather-bar-in-outlook.md#ol15_weatherbar_setting)
   
-[Setting the Weather Bar to use a weather service](extending-the-weather-bar-in-outlook.md#ol15_weatherbar_setting)
+- [Dependent conditions](extending-the-weather-bar-in-outlook.md#ol15_weatherbar_dependentconditions)
   
-[Dependent conditions](extending-the-weather-bar-in-outlook.md#ol15_weatherbar_dependentconditions)
+- [Weather Bar example](extending-the-weather-bar-in-outlook.md#ol15_weatherbar_example)
   
-[Weather Bar example](extending-the-weather-bar-in-outlook.md#ol15_weatherbar_example)
+- [Conclusion](extending-the-weather-bar-in-outlook.md#ol15_weatherbar_conclusion)
   
-[Conclusion](extending-the-weather-bar-in-outlook.md#ol15_weatherbar_conclusion)
-  
-[Additional resources](extending-the-weather-bar-in-outlook.md#ol15_weatherbar_additionalrsc)
+- [Additional resources](extending-the-weather-bar-in-outlook.md#ol15_weatherbar_additionalrsc)
   
 ## Weather Bar overview
 <a name="ol15_weatherbar_overview"> </a>
@@ -54,51 +50,35 @@ A user can specify a different weather data service for the Weather Bar, as long
     
 2. The web service allows Outlook to append the following parameters to the base URL, to request a location code: 
     
-  - outputview=search
+   - outputview=search: This parameter indicates that the request is a location search.
     
-    This parameter indicates that the request is a location search.
+   - weasearchstr= _city_: This parameter indicates the location,  _city_, for which the user wants a weather forecast (for example, London).
     
-  - weasearchstr= _city_
+   - culture= _LCID_: This parameter indicates the culture of the version of Office installed for the user on that computer. The LCID value is defined in [[RFC4646] Tags for Identifying Languages](http://www.ietf.org/rfc/rfc4646.txt)
     
-    This parameter indicates the location,  _city_, for which the user wants a weather forecast (for example, London).
+   - src=outlook: This parameter indicates that Outlook is the client application requesting the service.
     
-  - culture= _LCID_
-    
-    This parameter indicates the culture of the version of Office installed for the user on that computer. The LCID value is defined in [[RFC4646] Tags for Identifying Languages](http://www.ietf.org/rfc/rfc4646.txt)
-    
-  - src=outlook
-    
-    This parameter indicates that Outlook is the client application requesting the service.
-    
-    These parameters allow Outlook to take the location that the user is interested in and search for the associated location code as supported by the weather data service. The web service should respond to Outlook with a location code in XML that follows the [Outlook Weather Location XML Schema](outlook-weather-location-xml-schema.md). Figure 2 summarizes the web service request and response for a location code.
+   These parameters allow Outlook to take the location that the user is interested in and search for the associated location code as supported by the weather data service. The web service should respond to Outlook with a location code in XML that follows the [Outlook Weather Location XML Schema](outlook-weather-location-xml-schema.md). Figure 2 summarizes the web service request and response for a location code.
     
    **Figure 2. Web service request and response for a location code**
 
-     ![Weather location request and response](media/ol15_WeatherBar_Fig02.gif)
+   ![Weather location request and response](media/ol15_WeatherBar_Fig02.gif)
   
 3. The web service also allows Outlook to append the following parameters, to request forecast information for a location code:
     
-  - wealocations= _code_
+   - wealocations= _code_: _code_ in this parameter is a location code that Outlook obtains from Step 2, and that maps to the location that the user is interested in. 
     
-     _code_ in this parameter is a location code that Outlook obtains from Step 2, and that maps to the location that the user is interested in. 
+   - weadegreetype= _degreetype_: This parameter specifies whether to use metric or imperial units of measurement for temperature. Specify c for metric, f for imperial for  _degreetype_. This parameter is optional and does not always exist in the web service request.
     
-  - weadegreetype= _degreetype_
+   - culture= _LCID_: This parameter indicates the culture of the version of Office installed for the user on that computer. The LCID value is defined in [[RFC4646] Tags for Identifying Languages](http://www.ietf.org/rfc/rfc4646.txt)
     
-    This parameter specifies whether to use metric or imperial units of measurement for temperature. Specify c for metric, f for imperial for  _degreetype_. This parameter is optional and does not always exist in the web service request.
+   - src=outlook: This parameter indicates that Outlook is the client application requesting the service.
     
-  - culture= _LCID_
-    
-    This parameter indicates the culture of the version of Office installed for the user on that computer. The LCID value is defined in [[RFC4646] Tags for Identifying Languages](http://www.ietf.org/rfc/rfc4646.txt)
-    
-  - src=outlook
-    
-    This parameter indicates that Outlook is the client application requesting the service.
-    
-    These parameters allow Outlook to take the location code returned from Step 2 and request the weather data service for the forecast. The web service should respond to Outlook with the corresponding weather data in XML that follows the [Outlook Weather Information XML Schema](outlook-weather-information-xml-schema.md). Figure 3 summarizes the web service request and response for weather data given a location code.
+   These parameters allow Outlook to take the location code returned from Step 2 and request the weather data service for the forecast. The web service should respond to Outlook with the corresponding weather data in XML that follows the [Outlook Weather Information XML Schema](outlook-weather-information-xml-schema.md). Figure 3 summarizes the web service request and response for weather data given a location code.
     
    **Figure 3. Web service request and response for weather information**
 
-     ![Weather information request and response](media/ol15_WeatherBar_Fig03.gif)
+   ![Weather information request and response](media/ol15_WeatherBar_Fig03.gif)
   
 ## Setting the Weather Bar to use a weather service
 <a name="ol15_weatherbar_setting"> </a>
@@ -243,10 +223,8 @@ Even though Outlook uses MSN Weather by default, if a user has customized the We
 The Weather Bar in the Outlook calendar uses MSN Weather by default to provide the weather forecast for a specified location. Users can conveniently see weather information for the locations they care about. Third-party weather data services can also integrate with the Weather Bar by supporting the Outlook Weather Location XML Schema and Outlook Weather Information XML Schema and following a simple web service protocol with Outlook.
   
 ## See also
-<a name="ol15_weatherbar_additionalrsc"> </a>
 
-- [Outlook Weather Location XML Schema](outlook-weather-location-xml-schema.md)
-    
+- [Outlook Weather Location XML Schema](outlook-weather-location-xml-schema.md)   
 - [Outlook Weather Information XML Schema](outlook-weather-information-xml-schema.md)
     
 

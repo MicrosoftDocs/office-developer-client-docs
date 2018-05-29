@@ -1,7 +1,5 @@
 ---
 title: "ISocialProvider  IUnknown"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -39,7 +37,5 @@ An OSC provider must implement this interface to communicate with the OSC.
   
 ## See also
 
-
-
-[Outlook Social Connector Provider Interfaces](outlook-social-connector-provider-interfaces.md)
+- [Outlook Social Connector Provider Interfaces](outlook-social-connector-provider-interfaces.md)
 

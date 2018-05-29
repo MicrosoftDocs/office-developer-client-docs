@@ -1,7 +1,5 @@
 ---
-title: "Debugging a Provider"
- 
- 
+title: "Debugging a provider"
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -12,7 +10,7 @@ ms.assetid: d2dfaeed-7635-4c6b-9c35-b955ca1a85e9
 description: "There are several ways you can debug an Outlook Social Connector (OSC) provider:"
 ---
 
-# Debugging a Provider
+# Debugging a provider
 
 There are several ways you can debug an Outlook Social Connector (OSC) provider: 
   
@@ -20,11 +18,11 @@ There are several ways you can debug an Outlook Social Connector (OSC) provider:
     
 - By using Fiddler to trace API calls and XML sent between a social network and its OSC provider
     
-## Debug Buttons
+## Debug buttons
 
 The OSC provider extensibility provides the capability of debugging an OSC provider. To debug a provider, create a  `DebugProviders` value of type DWORD in the Windows registry under the  `SocialConnector` key (as shown in the following line), and set the  `DebugProviders` value to 1. 
   
- `HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\SocialConnector`
+`HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\SocialConnector`
   
 By default, provider debugging is off. If the  `DebugProviders` value is not present, or it is present and set to a value of 0, provider debugging is turned off. 
   
@@ -48,18 +46,10 @@ Fiddler is an over-the-wire debugging tool to check the API calls sent from your
   
 ## See also
 
-
-
-[Quick Steps for Learning to Develop a Provider](quick-steps-for-learning-to-develop-a-provider.md)
-  
-[Synchronizing Friends and Activities](synchronizing-friends-and-activities.md)
-  
-[Best Practices for Developing a Provider](best-practices-for-developing-a-provider.md)
-
-
-[OSC Typical Calling Sequences](osc-typical-calling-sequences.md)
-  
-[Developing a Provider with the OSC XML Schema](developing-a-provider-with-the-osc-xml-schema.md)
-  
-[Getting Ready to Release an OSC Provider](getting-ready-to-release-an-osc-provider.md)
+- [Quick Steps for Learning to Develop a Provider](quick-steps-for-learning-to-develop-a-provider.md)  
+- [Synchronizing Friends and Activities](synchronizing-friends-and-activities.md) 
+- [Best Practices for Developing a Provider](best-practices-for-developing-a-provider.md)
+- [OSC Typical Calling Sequences](osc-typical-calling-sequences.md)  
+- [Developing a Provider with the OSC XML Schema](developing-a-provider-with-the-osc-xml-schema.md)  
+- [Getting Ready to Release an OSC Provider](getting-ready-to-release-an-osc-provider.md)
 

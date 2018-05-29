@@ -1,7 +1,5 @@
 ---
 title: "ISocialSessionFindPerson"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,17 +14,17 @@ description: "Gets a string that represents one or more persons who match the us
 
 Gets a string that represents one or more persons who match the  _userID_ parameter. 
   
-```
+```cpp
 HRESULT _stdcall FindPerson([in] BSTR userId, [out, retval] BSTR* result);
 ```
 
 ## Parameters
 
- _userId_
+_userId_
   
 > [in] A social network user ID, SMTP address, or display name of a person.
     
- _result_
+_result_
   
 > [out] An XML string that represents one or more persons who match the identification information specified by the  _userId_ parameter. 
     
@@ -36,7 +34,5 @@ If one or more persons match the **FindPerson** request, this method returns the
   
 ## See also
 
-
-
-[ISocialSession : IUnknown](isocialsessioniunknown.md)
+- [ISocialSession : IUnknown](isocialsessioniunknown.md)
 

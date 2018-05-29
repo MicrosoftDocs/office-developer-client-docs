@@ -1,7 +1,5 @@
 ---
 title: "ISocialProviderDefaultSiteUrls"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,11 +14,11 @@ description: "Returns an array of strings that specify site URLs for the Outlook
 
 Returns an array of strings that specify site URLs for the Outlook Social Connector (OSC) provider.
   
-```
+```cpp
 [propget] HRESULT _stdcall DefaultSiteUrls([out, retval] SAFEARRAY(BSTR)* siteUrls);
 ```
 
-## Property Value
+## Property value
 
 A pointer to a structure that specifies an array of strings that represent site URLs for the OSC provider.
   
@@ -32,7 +30,5 @@ The OSC uses the first element of the array as the default site URL. A provider 
   
 ## See also
 
-
-
-[ISocialProvider : IUnknown](isocialprovideriunknown.md)
+- [ISocialProvider : IUnknown](isocialprovideriunknown.md)
 

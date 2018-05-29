@@ -1,7 +1,5 @@
 ---
 title: "ISocialProfile  ISocialPerson"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -32,7 +30,5 @@ An Outlook Social Connector (OSC) provider must implement this interface to comm
   
 ## See also
 
-
-
-[Outlook Social Connector Provider Interfaces](outlook-social-connector-provider-interfaces.md)
+- [Outlook Social Connector Provider Interfaces](outlook-social-connector-provider-interfaces.md)
 

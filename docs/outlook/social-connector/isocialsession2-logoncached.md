@@ -1,7 +1,5 @@
 ---
 title: "ISocialSession2LogonCached"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,25 +14,25 @@ description: "Logs on to the social network site by using cached credentials."
 
 Logs on to the social network site by using cached credentials.
   
-```
+```cpp
 HRESULT _stdcall LogonCached([in] BSTR connectIn, [in] BSTR userName, [in] BSTR password,  [out] BSTR connectOut);
 ```
 
 ## Parameters
 
- _connectIn_
+_connectIn_
   
 > [in] A string that can be empty or contains the logon credentials, depending on the context in which the OSC is calling **LogonCached**.
     
- _userName_
+_userName_
   
 > [in] A string that contains the user name.
     
- _password_
+_password_
   
 > [in] A string that contains the user's password.
     
- _connectOut_
+_connectOut_
   
 > [out] An opaque string that contains credentials.
     
@@ -48,7 +46,5 @@ The  _connectOut_ parameter is an opaque string to the OSC, and is passed to the
   
 ## See also
 
-
-
-[ISocialSession2 : IUnknown](isocialsession2iunknown.md)
+- [ISocialSession2 : IUnknown](isocialsession2iunknown.md)
 

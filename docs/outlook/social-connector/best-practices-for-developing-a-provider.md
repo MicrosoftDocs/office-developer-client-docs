@@ -1,7 +1,5 @@
 ---
-title: "Best Practices for Developing a Provider"
- 
- 
+title: "Best practices for developing a provider"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,7 +10,7 @@ ms.assetid: 22e3de8a-c4f2-41a4-a5b1-c5b1bf06f724
 description: "You should adhere to the following practices when you develop an Outlook Social Connector 2013 (OSC) provider:"
 ---
 
-# Best Practices for Developing a Provider
+# Best practices for developing a provider
 
 You should adhere to the following practices when you develop an Outlook Social Connector 2013 (OSC) provider:
   
@@ -32,13 +30,8 @@ You should adhere to the following practices when you develop an Outlook Social 
     
 ## See also
 
-
-
-[OSC Typical Calling Sequences](osc-typical-calling-sequences.md)
-  
-[Developing a Provider with the OSC XML Schema](developing-a-provider-with-the-osc-xml-schema.md)
-  
-[Deploying a Provider](deploying-a-provider.md)
-  
-[Getting Started with Developing an Outlook Social Connector Provider](getting-started-with-developing-an-outlook-social-connector-provider.md)
+- [OSC Typical Calling Sequences](osc-typical-calling-sequences.md)  
+- [Developing a Provider with the OSC XML Schema](developing-a-provider-with-the-osc-xml-schema.md)  
+- [Deploying a Provider](deploying-a-provider.md)  
+- [Getting Started with Developing an Outlook Social Connector Provider](getting-started-with-developing-an-outlook-social-connector-provider.md)
 

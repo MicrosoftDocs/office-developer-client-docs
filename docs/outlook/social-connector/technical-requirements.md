@@ -1,7 +1,5 @@
 ---
-title: "Technical Requirements"
- 
- 
+title: "Technical requirements"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,11 +10,11 @@ ms.assetid: eff6d5d6-8855-4e54-a781-9deab8cc0aca
 description: "This topic describes the supported programming languages, COM visibility and method return type requirements, and details of the Outlook Social Connector (OSC) provider extensibility DLL."
 ---
 
-# Technical Requirements
+# Technical requirements
 
 This topic describes the supported programming languages, COM visibility and method return type requirements, and details of the Outlook Social Connector (OSC) provider extensibility DLL. 
   
-## Programming Language and COM Requirements
+## Programming language and COM requirements
 
 You can create an OSC provider by using managed languages such as Visual C# or Visual Basic, or unmanaged languages such as Visual C++. You can use any tool that can create a COM-visible DLL component to develop an OSC provider. The decision to use a managed or unmanaged language to develop a provider should take into account the download size and dependencies of the provider installation package.
   
@@ -34,7 +32,7 @@ An OSC provider must be COM-visible as defined by the following:
     
 Methods in OSC provider extensibility must return primitive types such as **string** or **bool**. Certain **string** return values must comply with the schema definition for OSC provider extensibility. Only XML is supported as a return value. 
   
-## Details of the OSC Provider Extensibility DLL
+## Details of the OSC provider extensibility DLL
 
 The component that supports OSC provider extensibility is the OSC provider extensibility DLL. Third-party developers can build OSC provider DLLs by using these extensibility interfaces. The following list shows the details of the OSC provider extensibility DLL:
   
@@ -46,7 +44,7 @@ The component that supports OSC provider extensibility is the OSC provider exten
     
 - Extensibiilty DLL TypeLib version: 1.1
     
-## Miscellaneous Technical Information
+## Miscellaneous technical information
 
 JavaScript Object Notation (JSON) is not supported in the OSC provider extensibility model.
   
@@ -54,14 +52,8 @@ There are no dependencies on an XML parser. The OSC provider can use an XML pars
   
 ## See also
 
-
-
-[Best Practices for Developing a Provider](best-practices-for-developing-a-provider.md)
-  
-[Quick Steps for Learning to Develop a Provider](quick-steps-for-learning-to-develop-a-provider.md)
-
-
-[Deploying a Provider](deploying-a-provider.md)
-  
-[Getting Started with Developing an Outlook Social Connector Provider](getting-started-with-developing-an-outlook-social-connector-provider.md)
+- [Best Practices for Developing a Provider](best-practices-for-developing-a-provider.md)  
+- [Quick Steps for Learning to Develop a Provider](quick-steps-for-learning-to-develop-a-provider.md)
+- [Deploying a Provider](deploying-a-provider.md)  
+- [Getting Started with Developing an Outlook Social Connector Provider](getting-started-with-developing-an-outlook-social-connector-provider.md)
 

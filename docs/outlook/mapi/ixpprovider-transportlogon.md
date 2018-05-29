@@ -51,7 +51,7 @@ _lpulFlags_: [in, out] Bitmask of flags that controls how the logon session is e
       
   - MAPI_UNICODE: The passed-in string for the profile name is in Unicode format. If the MAPI\_UNICODE flag is not set, the string is in ANSI format.
       
-  The following flags can be set on output by the transport provider:
+    The following flags can be set on output by the transport provider:
       
   - LOGON_SP_IDLE: Requests that the MAPI spooler frequently call the transport provider's [IXPLogon::Idle](ixplogon-idle.md) method for idle-time processing. 
       

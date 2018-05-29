@@ -1,7 +1,5 @@
 ---
 title: "ISocialProfileSetStatus"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,13 +14,11 @@ description: "This method is currently not supported."
 
 This method is currently not supported. 
   
-```
+```cpp
 HRESULT _stdcall SetStatus(BSTR status);
 ```
 
 ## See also
 
-
-
-[ISocialProfile : ISocialPerson](isocialprofileisocialperson.md)
+- [ISocialProfile : ISocialPerson](isocialprofileisocialperson.md)
 

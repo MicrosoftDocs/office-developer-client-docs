@@ -1,7 +1,5 @@
 ---
 title: "ISocialSessionGetLogonUrl"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,13 +14,13 @@ description: "Gets a string that represents a URL that is used for presenting a 
 
 Gets a string that represents a URL that is used for presenting a browser-based form to the user during web authentication.
   
-```
+```cpp
 HRESULT _stdcall GetLogonUrl([out, retval] BSTR* url);
 ```
 
 ## Parameters
 
- _url_
+_url_
   
 > [out] A string that contains a URL for the form used in web authentication.
     
@@ -32,7 +30,5 @@ After the form is presented to the user, the [ISocialSession::LogonWeb](isocials
   
 ## See also
 
-
-
-[ISocialSession : IUnknown](isocialsessioniunknown.md)
+- [ISocialSession : IUnknown](isocialsessioniunknown.md)
 

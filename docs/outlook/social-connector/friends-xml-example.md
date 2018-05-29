@@ -1,7 +1,5 @@
 ---
-title: "Friends XML Example"
- 
- 
+title: "Friends XML example"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,13 +10,13 @@ ms.assetid: 83afbdef-4f12-4673-a0c1-bbf86274558f
 description: "The XML example in this topic is a friend XML string returned to the Outlook Social Connector (OSC) after it calls the ISocialPerson::GetFriendsAndColleagues method. The example shows the friends XML for two friends, each delimited by the person element. Each friend specifies a unique value for the userID element on the social network."
 ---
 
-# Friends XML Example
+# Friends XML example
 
 The XML example in this topic is a friend XML string returned to the Outlook Social Connector (OSC) after it calls the [ISocialPerson::GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md) method. The example shows the **friends** XML for two friends, each delimited by the **person** element. Each friend specifies a unique value for the **userID** element on the social network. 
   
 The remaining elements of the **friends** XML have self-explanatory names. For detailed description of these elements, see [XML for Friends](xml-for-friends.md). 
   
-## XML Example
+## XML example
 
 The following example shows the **friends** XML for two persons on the social network. 
   
@@ -77,13 +75,8 @@ The following example shows the **friends** XML for two persons on the social ne
 
 ## See also
 
-
-
-[OSC Provider XML Examples](osc-provider-xml-examples.md)
-  
-[Capabilities XML Example](capabilities-xml-example.md)
-  
-[Activity Feed XML Example](activity-feed-xml-example.md)
-  
-[Outlook Social Connector Provider XML Schema](outlook-social-connector-provider-xml-schema.md)
+- [OSC Provider XML Examples](osc-provider-xml-examples.md)  
+- [Capabilities XML Example](capabilities-xml-example.md) 
+- [Activity Feed XML Example](activity-feed-xml-example.md) 
+- [Outlook Social Connector Provider XML Schema](outlook-social-connector-provider-xml-schema.md)
 

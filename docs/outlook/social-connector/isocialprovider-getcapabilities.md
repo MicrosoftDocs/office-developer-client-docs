@@ -1,7 +1,5 @@
 ---
 title: "ISocialProviderGetCapabilities"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,13 +14,13 @@ description: "Gets a string that describes provider capabilities."
 
 Gets a string that describes provider capabilities.
   
-```
+```cpp
 HRESULT _stdcall GetCapabilities([out, retval] BSTR* result);
 ```
 
 ## Parameters
 
- _result_
+_result_
   
 > [out] An XML string that represents the capabilities of an Outlook Social Connector (OSC) provider.
     
@@ -34,7 +32,5 @@ The provider must return a  _result_ string to enable subsequent calls from the 
   
 ## See also
 
-
-
-[ISocialProvider : IUnknown](isocialprovideriunknown.md)
+- [ISocialProvider : IUnknown](isocialprovideriunknown.md)
 
