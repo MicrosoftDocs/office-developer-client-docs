@@ -1,12 +1,9 @@
 ---
 title: "PROP_INET_PORT"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: overview
- 
 localization_priority: Normal
 ms.assetid: 5633d70c-ca3e-4b9d-8e85-ef98f85f1961
 description: "Represents the port number for a general Internet mailbox."
@@ -31,9 +28,6 @@ An example is 110 for POP accounts.
   
 ## See also
 
-
-
-[Managing message downloads for POP3 accounts](managing-message-downloads-for-pop3-accounts.md)
-  
-[Constants (Account management API)](constants-account-management-api.md)
+- [Managing message downloads for POP3 accounts](managing-message-downloads-for-pop3-accounts.md) 
+- [Constants (Account management API)](constants-account-management-api.md)
 

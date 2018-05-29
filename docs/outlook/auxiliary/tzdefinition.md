@@ -1,12 +1,9 @@
 ---
 title: "TZDEFINITION"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: 0ae21571-2299-6407-807c-428668bb6798
 description: "Represents an entire time zone including all historical, current, and future time zone shift rules for daylight saving time."
@@ -18,7 +15,7 @@ Represents an entire time zone including all historical, current, and future tim
   
 ## Quick info
 
-```
+```cpp
 typedef struct { 
     WORD     wFlags;  
     LPWSTR   pwszKeyName; 
@@ -29,19 +26,19 @@ typedef struct {
 
 ## Members
 
- _wFlags_
+_wFlags_
   
 > Indicates that the key name that represents the time zone in the Windows registry is valid. Because each time zone should always be identified by a key name, this member should always have the value **TZDEFINITION_FLAG_VALID_KEYNAME**.
     
- _pwszKeyName_
+_pwszKeyName_
   
 > The name of the key for this time zone in the Windows registry. This name must not be localized. It has a maximum size of **MAX_PATH**, which is defined in the Windows Software Development Kit (SDK) header file windows.h. 
     
- _cRules_
+_cRules_
   
 > The number of time zone rules for this definition. The maximum number of rules is **TZ_MAX_RULES**. 
     
- _rgRules_
+_rgRules_
   
 > An array of rules that describe when shifts occur.
     
@@ -53,11 +50,7 @@ The rules should be sorted from oldest to newest. There is no overlap allowed be
   
 ## See also
 
-
-
-[Constants (Outlook exported APIs)](constants-outlook-exported-apis.md)
-  
-[About rebasing calendars programmatically for Daylight Saving Time](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
-  
-[HrCreateApptRebaser](hrcreateapptrebaser.md)
+- [Constants (Outlook exported APIs)](constants-outlook-exported-apis.md)
+- [About rebasing calendars programmatically for Daylight Saving Time](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)  
+- [HrCreateApptRebaser](hrcreateapptrebaser.md)
 

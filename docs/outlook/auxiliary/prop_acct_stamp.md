@@ -1,12 +1,9 @@
 ---
 title: "PROP_ACCT_STAMP"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: 70b6ecc8-6be3-0f05-3291-ac5b7f2ecfdb
 description: "Returns the account stamp."
@@ -33,9 +30,6 @@ Get this property by using [IOlkAccount::GetProp](iolkaccount-getprop.md). If th
   
 ## See also
 
-
-
-[About the Account Management API](about-the-account-management-api.md)
-  
-[Constants (Account management API)](constants-account-management-api.md)
+- [About the Account Management API](about-the-account-management-api.md)  
+- [Constants (Account management API)](constants-account-management-api.md)
 

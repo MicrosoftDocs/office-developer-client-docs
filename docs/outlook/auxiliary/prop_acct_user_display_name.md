@@ -1,12 +1,9 @@
 ---
 title: "PROP_ACCT_USER_DISPLAY_NAME"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: ffe48267-d6c7-c1d0-9298-272b31fd8102
 description: "Returns or sets the user display name."
@@ -33,9 +30,6 @@ Get or set this property by using [IOlkAccount::GetProp](iolkaccount-getprop.md)
   
 ## See also
 
-
-
-[About the Account Management API](about-the-account-management-api.md)
-  
-[Constants (Account management API)](constants-account-management-api.md)
+- [About the Account Management API](about-the-account-management-api.md)  
+- [Constants (Account management API)](constants-account-management-api.md)
 

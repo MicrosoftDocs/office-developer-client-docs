@@ -1,12 +1,9 @@
 ---
 title: "PROP_ACCT_DELIVERY_FOLDER"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: a409c49b-b390-021e-2ec1-7a5932a0c8de
 description: "Represents the Entry ID of the default delivery folder for the account."
@@ -35,9 +32,6 @@ The default delivery folder is **Inbox**.
   
 ## See also
 
-
-
-[About the Account Management API](about-the-account-management-api.md)
-  
-[Constants (Account management API)](constants-account-management-api.md)
+- [About the Account Management API](about-the-account-management-api.md)  
+- [Constants (Account management API)](constants-account-management-api.md)
 

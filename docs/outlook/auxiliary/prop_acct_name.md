@@ -1,12 +1,9 @@
 ---
 title: "PROP_ACCT_NAME"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: 260ee328-e73f-48bc-7762-d592b7d42afc
 description: "Returns or sets the account name."
@@ -33,9 +30,6 @@ Get or set this property by using [IOlkAccount::GetProp](iolkaccount-getprop.md)
   
 ## See also
 
-
-
-[About the Account Management API](about-the-account-management-api.md)
-  
-[Constants (Account management API)](constants-account-management-api.md)
+- [About the Account Management API](about-the-account-management-api.md) 
+- [Constants (Account management API)](constants-account-management-api.md)
 

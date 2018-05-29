@@ -1,12 +1,9 @@
 ---
 title: "PidLidInternetAccountStamp"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: overview
- 
 localization_priority: Normal
 ms.assetid: 52003a4e-1b61-2965-5204-6601652dd15b
 description: "Returns the account stamp of the account that delivered the message."
@@ -48,12 +45,7 @@ To support these named properties, store providers should expect Outlook to use 
    
 ## See also
 
-
-
-[About the Account Management API](about-the-account-management-api.md)
-  
-[Constants (Account management API)](constants-account-management-api.md)
-
-
-[PidLidInternetAccountStamp Canonical Property](http://msdn.microsoft.com/library/819179fe-e58e-415c-abc7-1949036745ee%28Office.15%29.aspx)
+- [About the Account Management API](about-the-account-management-api.md) 
+- [Constants (Account management API)](constants-account-management-api.md)
+- [PidLidInternetAccountStamp Canonical Property](http://msdn.microsoft.com/library/819179fe-e58e-415c-abc7-1949036745ee%28Office.15%29.aspx)
 

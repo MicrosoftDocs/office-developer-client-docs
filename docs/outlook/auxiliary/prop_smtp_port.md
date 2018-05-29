@@ -1,12 +1,9 @@
 ---
 title: "PROP_SMTP_PORT"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: overview
- 
 localization_priority: Normal
 ms.assetid: 5f2abb1a-fcf5-4d06-9576-34a50e21c911
 description: "Represents the port number of the SMTP account."
@@ -27,9 +24,6 @@ Represents the port number of the SMTP account.
    
 ## See also
 
-
-
-[Managing message downloads for POP3 accounts](managing-message-downloads-for-pop3-accounts.md)
-  
-[Constants (Account management API)](constants-account-management-api.md)
+- [Managing message downloads for POP3 accounts](managing-message-downloads-for-pop3-accounts.md) 
+- [Constants (Account management API)](constants-account-management-api.md)
 
