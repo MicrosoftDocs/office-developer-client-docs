@@ -51,7 +51,7 @@
 	"ms.technology": 
        { 
          "project/**.md" : "dev-overview",
-		 "excel-xll/**.md" : "excel-xll",
+		 "excel/**.md" : "excel",
 		 "access/**.md" : "custom-web-app",
 		 "word/**.md" : "content-controls",
 		 "integration/**.md" : "integration",
@@ -69,7 +69,7 @@
 	 "ms.prod": 
        { 
          "project/**.md" : "project",
-		 "excel-xll/**.md" : "excel",
+		 "excel/**.md" : "excel",
 		 "access/**.md" : "access",
 		 "word/**.md" : "word",
 		 "infopath/**.md" : "infopath",

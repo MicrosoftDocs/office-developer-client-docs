@@ -346,258 +346,258 @@
         - name: Access desktop database reference
           href: https://msdn.microsoft.com/en-us/library/dn142571.aspx       
      - name: Excel
-       href: excel-xll/excel.md
+       href: excel/excel.md
        items:
         - name: Excel VBA reference
           href: https://msdn.microsoft.com/en-us/library/office/ee861528.aspx
         - name: Excel Primary Interop Assembly Reference
           href: https://msdn.microsoft.com/en-us/library/office/ff597926.aspx
         - name: Excel XLL SDK
-          href: excel-xll/welcome-to-the-excel-software-development-kit.md
+          href: excel/welcome-to-the-excel-software-development-kit.md
           items:
           - name: Getting Started
-            href: excel-xll/getting-started-with-the-excel-xll-sdk.md
+            href: excel/getting-started-with-the-excel-xll-sdk.md
             items:
             - name: Programming with the C API in Excel
-              href: excel-xll/programming-with-the-c-api-in-excel.md
+              href: excel/programming-with-the-c-api-in-excel.md
             - name: What's New in the C API for Excel
-              href: excel-xll/what-s-new-in-the-c-api-for-excel.md
+              href: excel/what-s-new-in-the-c-api-for-excel.md
             - name: Known Issues
-              href: excel-xll/known-issues-in-excel-xll-development.md
+              href: excel/known-issues-in-excel-xll-development.md
           - name: Developing Excel XLLs
-            href: excel-xll/developing-excel-xlls.md
+            href: excel/developing-excel-xlls.md
             items:
             - name: Excel Programming Concepts
-              href: excel-xll/excel-programming-concepts.md
+              href: excel/excel-programming-concepts.md
               items:
               - name: Excel Commands, Functions, and States
-                href: excel-xll/excel-commands-functions-and-states.md
+                href: excel/excel-commands-functions-and-states.md
               - name: Excel Worksheet and Expression Evaluation
-                href: excel-xll/excel-worksheet-and-expression-evaluation.md
+                href: excel/excel-worksheet-and-expression-evaluation.md
               - name: Worksheet References
-                href: excel-xll/worksheet-references.md
+                href: excel/worksheet-references.md
               - name: Data Types Used by Excel
-                href: excel-xll/data-types-used-by-excel.md
+                href: excel/data-types-used-by-excel.md
               - name: Excel Recalculation
-                href: excel-xll/excel-recalculation.md
+                href: excel/excel-recalculation.md
             - name: Working with DLLs
-              href: excel-xll/working-with-dlls.md
+              href: excel/working-with-dlls.md
               items:
               - name: Developing DLLs
-                href: excel-xll/developing-dlls.md
+                href: excel/developing-dlls.md
               - name: Access DLLs in Excel
-                href: excel-xll/how-to-access-dlls-in-excel.md
+                href: excel/how-to-access-dlls-in-excel.md
               - name: Calling User-Defined Functions from DLLs
-                href: excel-xll/calling-user-defined-functions-from-dlls.md
+                href: excel/calling-user-defined-functions-from-dlls.md
             - name: Accessing XLL Code in Excel
-              href: excel-xll/accessing-xll-code-in-excel.md
+              href: excel/accessing-xll-code-in-excel.md
             - name: Call XLL Functions from the Function Wizard or Replace Dialog Boxes
-              href: excel-xll/how-to-call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes.md
+              href: excel/how-to-call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes.md
             - name: Calling into Excel from the DLL or XLL
-              href: excel-xll/calling-into-excel-from-the-dll-or-xll.md
+              href: excel/calling-into-excel-from-the-dll-or-xll.md
             - name: Creating XLLs
-              href: excel-xll/creating-xlls.md
+              href: excel/creating-xlls.md
             - name: Handling Events
-              href: excel-xll/handling-events.md
+              href: excel/handling-events.md
             - name: Evaluating Names and Other Worksheet Formula Expressions
-              href: excel-xll/evaluating-names-and-other-worksheet-formula-expressions.md
+              href: excel/evaluating-names-and-other-worksheet-formula-expressions.md
             - name: Multithreading and Memory Management
-              href: excel-xll/multithreading-and-memory-management.md
+              href: excel/multithreading-and-memory-management.md
               items:
               - name: Memory Management in Excel
-                href: excel-xll/memory-management-in-excel.md
+                href: excel/memory-management-in-excel.md
               - name: Multithreading and Memory Contention in Excel
-                href: excel-xll/multithreading-and-memory-contention-in-excel.md
+                href: excel/multithreading-and-memory-contention-in-excel.md
               - name: Multithreaded Recalculation in Excel
-                href: excel-xll/multithreaded-recalculation-in-excel.md
+                href: excel/multithreaded-recalculation-in-excel.md
             - name: Asynchronous User-Defined Functions
-              href: excel-xll/asynchronous-user-defined-functions.md
+              href: excel/asynchronous-user-defined-functions.md
             - name: Cluster Safe Functions
-              href: excel-xll/cluster-safe-functions.md
+              href: excel/cluster-safe-functions.md
             - name: Permitting User Breaks in Lengthy Operations
-              href: excel-xll/permitting-user-breaks-in-lengthy-operations.md
+              href: excel/permitting-user-breaks-in-lengthy-operations.md
             - name: Displaying Dialog Boxes from Within a DLL or XLL
-              href: excel-xll/displaying-dialog-boxes-from-within-a-dll-or-xll.md
+              href: excel/displaying-dialog-boxes-from-within-a-dll-or-xll.md
             - name: Access Excel Instance and Main Window Handles
-              href: excel-xll/how-to-access-excel-instance-and-main-window-handles.md
+              href: excel/how-to-access-excel-instance-and-main-window-handles.md
             - name: Backward Compatibility
-              href: excel-xll/backward-compatibility.md
+              href: excel/backward-compatibility.md
           - name: Developing Excel Cluster Connectors
-            href: excel-xll/developing-excel-cluster-connectors.md
+            href: excel/developing-excel-cluster-connectors.md
           - name: API Function Reference
-            href: excel-xll/excel-xll-sdk-api-function-reference.md
+            href: excel/excel-xll-sdk-api-function-reference.md
             items:
             - name: Add-in Manager and XLL Interface Functions
-              href: excel-xll/add-in-manager-and-xll-interface-functions.md
+              href: excel/add-in-manager-and-xll-interface-functions.md
               items:
               - name: xlAddInManagerInfo/xlAddInManagerInfo12
-                href: excel-xll/xladdinmanagerinfo-xladdinmanagerinfo12.md
+                href: excel/xladdinmanagerinfo-xladdinmanagerinfo12.md
               - name: xlAutoAdd
-                href: excel-xll/xlautoadd.md
+                href: excel/xlautoadd.md
               - name: xlAutoClose
-                href: excel-xll/xlautoclose.md
+                href: excel/xlautoclose.md
               - name: xlAutoFree/xlAutoFree12
-                href: excel-xll/xlautofree-xlautofree12.md
+                href: excel/xlautofree-xlautofree12.md
               - name: xlAutoOpen
-                href: excel-xll/xlautoopen.md
+                href: excel/xlautoopen.md
               - name: xlAutoRegister/xlAutoRegister12
-                href: excel-xll/xlautoregister-xlautoregister12.md
+                href: excel/xlautoregister-xlautoregister12.md
               - name: xlAutoRemove
-                href: excel-xll/xlautoremove.md
+                href: excel/xlautoremove.md
             - name: C API Callback Functions Excel4, Excel12
-              href: excel-xll/c-api-callback-functions-excel4-excel12.md
+              href: excel/c-api-callback-functions-excel4-excel12.md
               items:
               - name: Excel4/Excel12
-                href: excel-xll/excel4-excel12.md
+                href: excel/excel4-excel12.md
               - name: Excel4v/Excel12v
-                href: excel-xll/excel4v-excel12v.md
+                href: excel/excel4v-excel12v.md
             - name: Essential and Useful C API XLM Functions
-              href: excel-xll/essential-and-useful-c-api-xlm-functions.md
+              href: excel/essential-and-useful-c-api-xlm-functions.md
               items:
               - name: xlfCaller
-                href: excel-xll/xlfcaller.md
+                href: excel/xlfcaller.md
               - name: xlfEvaluate
-                href: excel-xll/xlfevaluate.md
+                href: excel/xlfevaluate.md
               - name: xlfGetDef
-                href: excel-xll/xlfgetdef.md
+                href: excel/xlfgetdef.md
               - name: xlfGetName
-                href: excel-xll/xlfgetname.md
+                href: excel/xlfgetname.md
               - name: xlfRegister (Form 1)
-                href: excel-xll/xlfregister-form-1.md
+                href: excel/xlfregister-form-1.md
               - name: xlfRegister (Form 2)
-                href: excel-xll/xlfregister-form-2.md
+                href: excel/xlfregister-form-2.md
               - name: xlfRegisterId
-                href: excel-xll/xlfregisterid.md
+                href: excel/xlfregisterid.md
               - name: xlfUnregister (Form 1)
-                href: excel-xll/xlfunregister-form-1.md
+                href: excel/xlfunregister-form-1.md
               - name: xlfUnregister (Form 2)
-                href: excel-xll/xlfunregister-form-2.md
+                href: excel/xlfunregister-form-2.md
               - name: xlfSetName
-                href: excel-xll/xlfsetname.md
+                href: excel/xlfsetname.md
             - name: C API Functions That Can Be Called Only from a DLL or XLL
-              href: excel-xll/c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md
+              href: excel/c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md
               items:
               - name: xlAbort
-                href: excel-xll/xlabort.md
+                href: excel/xlabort.md
               - name: xlAsyncReturn
-                href: excel-xll/xlasyncreturn.md
+                href: excel/xlasyncreturn.md
               - name: xlCoerce
-                href: excel-xll/xlcoerce.md
+                href: excel/xlcoerce.md
               - name: xlDefineBinaryName
-                href: excel-xll/xldefinebinaryname.md
+                href: excel/xldefinebinaryname.md
               - name: xlDisableXLMsgs
-                href: excel-xll/xldisablexlmsgs.md
+                href: excel/xldisablexlmsgs.md
               - name: xlEnableXLMsgs
-                href: excel-xll/xlenablexlmsgs.md
+                href: excel/xlenablexlmsgs.md
               - name: xlEventRegister
-                href: excel-xll/xleventregister.md
+                href: excel/xleventregister.md
               - name: xlFree
-                href: excel-xll/xlfree.md
+                href: excel/xlfree.md
               - name: xlGetBinaryName
-                href: excel-xll/xlgetbinaryname.md
+                href: excel/xlgetbinaryname.md
               - name: xlGetHwnd
-                href: excel-xll/xlgethwnd.md
+                href: excel/xlgethwnd.md
               - name: xlGetInst
-                href: excel-xll/xlgetinst.md
+                href: excel/xlgetinst.md
               - name: xlGetInstPtr
-                href: excel-xll/xlgetinstptr.md
+                href: excel/xlgetinstptr.md
               - name: xlGetName
-                href: excel-xll/xlgetname.md
+                href: excel/xlgetname.md
               - name: xlRunningOnCluster
-                href: excel-xll/xlrunningoncluster.md
+                href: excel/xlrunningoncluster.md
               - name: xlSet
-                href: excel-xll/xlset.md
+                href: excel/xlset.md
               - name: xlSheetId
-                href: excel-xll/xlsheetid.md
+                href: excel/xlsheetid.md
               - name: xlSheetNm
-                href: excel-xll/xlsheetnm.md
+                href: excel/xlsheetnm.md
               - name: xlStack
-                href: excel-xll/xlstack.md
+                href: excel/xlstack.md
               - name: xlUDF
-                href: excel-xll/xludf.md
+                href: excel/xludf.md
             - name: Functions in the Framework Library
-              href: excel-xll/functions-in-the-framework-library.md
+              href: excel/functions-in-the-framework-library.md
               items:
               - name: debugPrintf
-                href: excel-xll/debugprintf.md
+                href: excel/debugprintf.md
               - name: Excel/Excel12f
-                href: excel-xll/excel-excel12f.md
+                href: excel/excel-excel12f.md
               - name: InitFramework
-                href: excel-xll/initframework.md
+                href: excel/initframework.md
               - name: QuitFramework
-                href: excel-xll/quitframework.md
+                href: excel/quitframework.md
               - name: TempActiveCell/TempActiveCell12
-                href: excel-xll/tempactivecell-tempactivecell12.md
+                href: excel/tempactivecell-tempactivecell12.md
               - name: TempActiveColumn/TempActiveColumn12
-                href: excel-xll/tempactivecolumn-tempactivecolumn12.md
+                href: excel/tempactivecolumn-tempactivecolumn12.md
               - name: TempActiveRef/TempActiveRef12
-                href: excel-xll/tempactiveref-tempactiveref12.md
+                href: excel/tempactiveref-tempactiveref12.md
               - name: TempActiveRow/TempActiveRow12
-                href: excel-xll/tempactiverow-tempactiverow12.md
+                href: excel/tempactiverow-tempactiverow12.md
               - name: TempBool/TempBool12
-                href: excel-xll/tempbool-tempbool12.md
+                href: excel/tempbool-tempbool12.md
               - name: TempErr/TempErr12
-                href: excel-xll/temperr-temperr12.md
+                href: excel/temperr-temperr12.md
               - name: TempInt/TempInt12
-                href: excel-xll/tempint-tempint12.md
+                href: excel/tempint-tempint12.md
               - name: TempMissing/TempMissing12
-                href: excel-xll/tempmissing-tempmissing12.md
+                href: excel/tempmissing-tempmissing12.md
               - name: TempNum/TempNum12
-                href: excel-xll/tempnum-tempnum12.md
+                href: excel/tempnum-tempnum12.md
               - name: TempStr
-                href: excel-xll/tempstr.md
+                href: excel/tempstr.md
               - name: TempStrConst/TempStr12
-                href: excel-xll/tempstrconst-tempstr12.md
+                href: excel/tempstrconst-tempstr12.md
               - name: FreeXLOperT/FreeXLOper12T
-                href: excel-xll/freexlopert-freexloper12t.md
+                href: excel/freexlopert-freexloper12t.md
               - name: ConvertXLRefToXLRef12
-                href: excel-xll/convertxlreftoxlref12.md
+                href: excel/convertxlreftoxlref12.md
               - name: ConvertXLRef12ToXLRef
-                href: excel-xll/convertxlref12toxlref.md
+                href: excel/convertxlref12toxlref.md
               - name: XLOperToXLOper12
-                href: excel-xll/xlopertoxloper12.md
+                href: excel/xlopertoxloper12.md
               - name: XLOper12ToXLOper
-                href: excel-xll/xloper12toxloper.md
+                href: excel/xloper12toxloper.md
             - name: Functions in the Generic DLL
-              href: excel-xll/functions-in-the-generic-dll.md
+              href: excel/functions-in-the-generic-dll.md
               items:
               - name: DIALOGMsgProc
-                href: excel-xll/dialogmsgproc.md
+                href: excel/dialogmsgproc.md
               - name: ExcelCursorProc
-                href: excel-xll/excelcursorproc.md
+                href: excel/excelcursorproc.md
               - name: HookExcelWindow
-                href: excel-xll/hookexcelwindow.md
+                href: excel/hookexcelwindow.md
               - name: UnhookExcelWindow
-                href: excel-xll/unhookexcelwindow.md
+                href: excel/unhookexcelwindow.md
               - name: fShowDialog
-                href: excel-xll/fshowdialog.md
+                href: excel/fshowdialog.md
               - name: fDance
-                href: excel-xll/fdance.md
+                href: excel/fdance.md
               - name: fDialog/fDialog12
-                href: excel-xll/fdialog-fdialog12.md
+                href: excel/fdialog-fdialog12.md
               - name: fExit
-                href: excel-xll/fexit.md
+                href: excel/fexit.md
               - name: Func1
-                href: excel-xll/func1.md
+                href: excel/func1.md
               - name: FuncSum
-                href: excel-xll/funcsum.md
+                href: excel/funcsum.md
               - name: FuncFib
-                href: excel-xll/funcfib.md
+                href: excel/funcfib.md
             - name: Excel Cluster Connector Functions
-              href: excel-xll/excel-cluster-connector-functions.md
+              href: excel/excel-cluster-connector-functions.md
               items:
               - name: CallUDF
-                href: excel-xll/calludf.md
+                href: excel/calludf.md
               - name: CancelOutstandingRequests
-                href: excel-xll/canceloutstandingrequests.md
+                href: excel/canceloutstandingrequests.md
               - name: CloseSession
-                href: excel-xll/closesession.md
+                href: excel/closesession.md
               - name: OpenSession
-                href: excel-xll/opensession.md
+                href: excel/opensession.md
               - name: PingSession
-                href: excel-xll/pingsession.md
+                href: excel/pingsession.md
               - name: ShowOptions
-                href: excel-xll/showoptions.md 
+                href: excel/showoptions.md 
         - name: Tips for optimizing performance obstructions
           href: https://msdn.microsoft.com/en-us/library/office/mt709003.aspx
      - name: Infopath
