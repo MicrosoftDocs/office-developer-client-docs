@@ -1,5 +1,5 @@
 ---
-title: "MAPI Message Store Provider Overview"
+title: "MAPI message store provider overview"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,13 +8,9 @@ api_type:
 - COM
 ms.assetid: eae44469-b217-4d05-b47f-5a0b1fab7056
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
-# MAPI Message Store Provider Overview
-
-  
+# MAPI message store provider overview
   
 **Applies to**: Outlook 
   
@@ -22,9 +18,9 @@ Message store providers handle the storage and retrieval of messages and other i
   
 The following illustration shows the hierarchical message store architecture.
   
- **Message store architecture**
+**Message store architecture**
   
-![Message store architecture](media/amapi_03.gif)
+![Message store architecture](media/amapi_03.gif "Message store architecture")
   
 The figure shows two folders, one with a subfolder. Client application users can access a summary view of the messages contained in each folder or view them individually with a form. Whether the client displays a standard form that MAPI supplies or a custom form that a form developer supplies depends on the type, or class, of the message. The first folder contains note messages and uses the MAPI standard note form. The second folder contains inventory request messages and uses a custom inventory form. The information on both forms represents the properties of the message.
   
@@ -38,7 +34,5 @@ Depending on the message store provider, a user can save a new message currently
   
 ## See also
 
-
-
-[MAPI Features and Architecture](mapi-features-and-architecture.md)
+- [MAPI Features and Architecture](mapi-features-and-architecture.md)
 

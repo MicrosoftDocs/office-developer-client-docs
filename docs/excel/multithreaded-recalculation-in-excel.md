@@ -1,22 +1,19 @@
 ---
-title: "Multithreaded Recalculation in Excel"
- 
- 
+title: "Multithreaded recalculation in Excel"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 keywords:
-- thread-safe cells [excel 2007],multithreading in Excel,concurrent tasks [Excel 2007],thread-safe functions [Excel 2007],multithreaded recalculation [Excel 2007],MTR [Excel 2007],XLL functions [Excel 2007], registering as thread safe,recalculation [Excel 2007], multithreaded,memory contention [Excel 2007],registering XLL functions as thread safe [Excel 2007],unsafe functions [Excel 2007]
- 
+- thread-safe cells [excel 2007],multithreading in Excel,concurrent tasks [Excel 2007],thread-safe functions [Excel 2007],multithreaded recalculation [Excel 2007],MTR [Excel 2007],XLL functions [Excel 2007], registering as thread safe,recalculation [Excel 2007], multithreaded,memory contention [Excel 2007],registering XLL functions as thread safe [Excel 2007],unsafe functions [Excel 2007] 
 localization_priority: Normal
 ms.assetid: c6c831f1-4be1-4dcc-a0fa-c26052ec53c9
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---
 
-# Multithreaded Recalculation in Excel
+# Multithreaded recalculation in Excel
 
- **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
+**Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 Microsoft Office Excel 2007 was the first version of Excel to use multithreaded recalculation (MTR) of worksheets. You can configure Excel to use up to 1024 concurrent threads when recalculating, regardless of the number of processors or processor cores on the computer. 
   
@@ -25,13 +22,13 @@ Microsoft Office Excel 2007 was the first version of Excel to use multithreaded 
   
 If the computer has multiple processors or processor cores, the operating system takes responsibility for allocating the threads to the processors in the most efficient way.
   
-## Excel MTR Overview
+## Excel MTR overview
 
 Excel tries to identify parts of the calculation chain that can be recalculated concurrently on different threads. The following very simple tree (where x ← y means y only depends on x) shows an example of this.
   
 **Figure 1. Calculating concurrently on different threads**
 
-![Calculating concurrently on different threads](media/12b5a52b-6308-420c-b6cf-492bd1f195ce.gif)
+![Calculating concurrently on different threads](media/12b5a52b-6308-420c-b6cf-492bd1f195ce.gif "Calculating concurrently on different threads")
   
 After A1 is calculated, A2 and then A3 can be calculated on one thread, while B1 and then C1 can be calculated on another, assuming all the cells are thread safe. 
   
@@ -68,7 +65,7 @@ All worksheet formulas, regardless of whether the functions are thread safe or n
   
 It is worth restating that Excel does not run more than one command at once, so you do not need to employ the same precautions as when you are writing thread-safe functions, such as the use of thread-local memory and critical sections.
   
-## What Is and Is Not Considered Thread Safe by Excel
+## What is and is not considered thread safe by Excel
 <a name="xl2007xllsdk_threadsafe"> </a>
 
 Excel only considers the following as thread safe:
@@ -166,7 +163,7 @@ The one exception is the **xlSet** function, which is, in any case, a command-eq
   
 An XLL worksheet function can be registered with Excel as thread safe. This tells Excel that the function can be called safely and simultaneously on multiple threads, although you must make sure this is really the case. You can possibly destabilize Excel if a function registered as thread safe then behaves unsafely.
   
-## Registering XLL Functions as Thread Safe
+## Registering XLL functions as thread safe
 <a name="xl2007xllsdk_threadsafe"> </a>
 
 The rules that a developer must obey when writing thread-safe functions are as follows:
@@ -181,7 +178,7 @@ The rules that a developer must obey when writing thread-safe functions are as f
     
 Excel imposes an additional restriction: thread-safe functions cannot be registered as macro-sheet equivalents, and therefore cannot call XLM information functions or get the values of un-recalculated cells.
   
-## Memory Contention
+## Memory contention
 <a name="xl2007xllsdk_threadsafe"> </a>
 
 Multithreaded systems must address two fundamental issues:
@@ -196,7 +193,7 @@ The first issue can arise, for example, when two worksheet functions (or two sim
   
 The second issue can arise, for example, when a worksheet function declares a static variable or object within the function body code. The C/C++ compiler only creates a single copy that all threads use. This means one instance of the function could change the value, while another on a different thread might be assuming the value is what it previously set.
   
-## Example Applications of MTR
+## Example applications of MTR
 <a name="xl2007xllsdk_threadsafe"> </a>
 
 Any XLL that exports worksheet functions can take advantage of multithreaded recalculation (MTR) in Excel provided that those functions do not need to perform thread-unsafe actions. This enables Excel to recalculate workbooks that depend on them as quickly as possible and is therefore desirable whatever the application.
@@ -211,7 +208,7 @@ For example, consider a single-processor computer that is running Excel and a wo
   
 One practical application in which this technique can have an important benefit is that of Monte-Carlo methods, as well as other numerically intensive tasks that can be split into smaller sub-tasks that can be farmed out to servers.
   
-## Excel Services Considerations
+## Excel Services considerations
 <a name="xl2007xllsdk_threadsafe"> </a>
 
 Excel Services supports the loading, calculating, and rendering of Excel spreadsheets on a server. Users can then access and interact with the spreadsheets by using standard browser tools.
@@ -221,17 +218,10 @@ Excel Services UDFs are created using Microsoft .NET Framework managed code and 
 To make an XLL's functions available in this way, they must therefore be wrapped in a .NET assembly that converts arguments and return values from the native data types to the .NET Framework managed data types, and that calls the XLL functions. The .NET wrapper would export one server UDF for each XLL function being accessed. An additional requirement is that any XLL functions called in this way must be thread safe. Because the XLL functions are not registered in the way that they are with client Excel, the server and the .NET wrapper have no way of enforcing that they are thread safe. It is the responsibility of the XLL developer to ensure this.
   
 ## See also
-<a name="xl2007xllsdk_threadsafe"> </a>
 
-
-
-[Excel Recalculation](excel-recalculation.md)
-  
-[Memory Management in Excel](memory-management-in-excel.md)
-  
-[Accessing XLL Code in Excel](accessing-xll-code-in-excel.md)
-  
-[Excel Programming Concepts](excel-programming-concepts.md)
-  
-[Excel XLL SDK API Function Reference](excel-xll-sdk-api-function-reference.md)
+- [Excel Recalculation](excel-recalculation.md)  
+- [Memory Management in Excel](memory-management-in-excel.md) 
+- [Accessing XLL Code in Excel](accessing-xll-code-in-excel.md)  
+- [Excel Programming Concepts](excel-programming-concepts.md)  
+- [Excel XLL SDK API Function Reference](excel-xll-sdk-api-function-reference.md)
 

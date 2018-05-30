@@ -1,5 +1,5 @@
 ---
-title: "MAPI Client Objects"
+title: "MAPI client objects"
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -8,13 +8,9 @@ api_type:
 - COM
 ms.assetid: 11304a4c-d986-4ad9-a140-19a59825a8df
 description: "Last modified: March 09, 2015"
- 
- 
 ---
 
-# MAPI Client Objects
-
-  
+# MAPI client objects
   
 **Applies to**: Outlook 
   
@@ -34,7 +30,7 @@ The following table summarizes the MAPI objects implemented by standard messagin
    
 The following illustration shows the relationship between these different client objects, the interfaces from which they inherit, and the MAPI components that use them. 
   
-![Client objects and corresponding interfaces](media/amapi_65.gif)
+![Client objects and corresponding interfaces](media/amapi_65.gif "Client objects and corresponding interfaces")
   
 Clients use many more objects than they implement. All clients use a session object to gain access to a wide variety of service provider objects and objects that MAPI implements. Clients interact with service providers either indirectly, through the session, the address book, or the status objects that MAPI supplies, or directly through a variety of objects that particular service providers implement. To make direct contact with address book providers, clients use address book containers, messaging users, and distribution lists. To access a message store provider directly, clients use the message store object, folders, messages, and attachments. When service providers support a status object, clients can use the status object to monitor the service provider's state.
   
@@ -42,14 +38,8 @@ Clients that support service provider and message service configuration use thre
   
 ## See also
 
-
-
-[IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
-  
-[IMAPIViewContext : IUnknown](imapiviewcontextiunknown.md)
-  
-[IMAPIViewAdviseSink : IUnknown](imapiviewadvisesinkiunknown.md)
-
-
-[MAPI Object and Interface Overview](mapi-object-and-interface-overview.md)
+- [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md) 
+- [IMAPIViewContext : IUnknown](imapiviewcontextiunknown.md)  
+- [IMAPIViewAdviseSink : IUnknown](imapiviewadvisesinkiunknown.md)
+- [MAPI Object and Interface Overview](mapi-object-and-interface-overview.md)
 

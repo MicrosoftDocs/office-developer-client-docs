@@ -1,5 +1,5 @@
 ---
-title: "Transport Provider Role in the MAPI Subsystem"
+title: "Transport provider role in the MAPI subsystem"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,13 +8,9 @@ api_type:
 - COM
 ms.assetid: 7659369a-0952-4f5a-a86b-91958c4c1a3f
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
-# Transport Provider Role in the MAPI Subsystem
-
-  
+# Transport provider role in the MAPI subsystem
   
 **Applies to**: Outlook 
   
@@ -52,8 +48,8 @@ Transport providers have the following responsibilities in a MAPI messaging syst
     
 The following illustration shows a transport provider's role with respect to the other components of the MAPI architecture.
   
- **Transport provider role in a messaging system**
+**Transport provider role in a messaging system**
   
-![Transport provider role in a messaging system](media/xp01.gif)
+![Transport provider role in a messaging system](media/xp01.gif "Transport provider role in a messaging system")
   
 

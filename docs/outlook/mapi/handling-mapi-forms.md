@@ -28,7 +28,7 @@ The following diagram shows the relationship between a client and the other part
   
 ## MAPI form architecture
   
-![MAPI form architecture](media/forms01.gif)
+![MAPI form architecture](media/forms01.gif "MAPI form architecture")
   
 If your client plans to handle MAPI forms, you will use the form manager's [IMAPIFormMgr : IUnknown](imapiformmgriunknown.md) interface to perform five basic tasks: 
   

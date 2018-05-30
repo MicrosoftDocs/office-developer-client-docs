@@ -1,5 +1,5 @@
 ---
-title: "MAPI Tables"
+title: "MAPI tables"
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -8,13 +8,9 @@ api_type:
 - COM
 ms.assetid: 7974cae1-10f1-42e9-8be4-c02f2bd86714
 description: "Last modified: March 09, 2015"
- 
- 
 ---
 
-# MAPI Tables
-
-  
+# MAPI tables
   
 **Applies to**: Outlook 
   
@@ -38,9 +34,9 @@ The following table shows the properties that make up the column set for the tab
    
 Notice that the set of properties displayed in the message are not the same as the set of columns displayed in the table. The implementer of the table, in this case a message store provider, supplies a default set of columns in a default order. The client can modify this column set, requesting additional columns or rejecting default ones, and ask that they be ordered in a specific way. The client can also order the rows, sorting them according to the value of one or more columns.
   
- **Using a table to display folder contents**
+**Using a table to display folder contents**
   
-![Using a table to display folder contents](media/amapi_54.gif)
+![Using a table to display folder contents](media/amapi_54.gif "Using a table to display folder contents")
   
 There are two interfaces for working with tables:
   
@@ -50,7 +46,5 @@ There are two interfaces for working with tables:
     
 ## See also
 
-
-
-[MAPI Concepts](mapi-concepts.md)
+- [MAPI Concepts](mapi-concepts.md)
 

@@ -1,5 +1,5 @@
 ---
-title: "Using MAPI Objects"
+title: "Using MAPI objects"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,23 +8,19 @@ api_type:
 - COM
 ms.assetid: e342c1bd-8bee-4b02-a93f-e3941f4716c1
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
-# Using MAPI Objects
+# Using MAPI objects
 
-  
-  
 **Applies to**: Outlook 
   
 Clients and service providers use MAPI objects by calling the methods in their interface implementations. This is the only way that MAPI objects can be used; methods that are implemented by an object outside of a MAPI interface are not publicly accessible. Because all of an object's interfaces are related through inheritance, an object's user can call methods in either the base interface or one of the inherited interfaces as if they belong to the same interface. 
   
 When an object's user wants to make a call to a method and that object implements several interfaces related through inheritance, the user need not know to which interface the method belongs. The user can call any of the methods on any of the interfaces with a single pointer to the object. For example, the following illustration shows how a client application uses a folder object. Folder objects implement the [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md) interface, which inherits from [IUnknown](http://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) indirectly through [IMAPIProp : IUnknown](imapipropiunknown.md) and [IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md). A client can call one of the **IMAPIProp** methods, such as [IMAPIProp::GetProps](imapiprop-getprops.md), and one of the [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md) methods, such as [IMAPIFolder::CreateMessage](imapifolder-createmessage.md), in the same way with the same object pointer. A client is not aware of or affected by the fact that these calls belong to different interfaces.
   
- **Client use of a folder object**
+**Client use of a folder object**
   
-![Client use of a folder object](media/amapi_40.gif)
+![Client use of a folder object](media/amapi_40.gif "Client use of a folder object")
   
 These calls translate into code differently depending on whether the client making the calls is written in C or C++. Before any call to a method can be made, a pointer to the interface implementation must be retrieved. Interface pointers can be obtained in the following ways:
   
@@ -38,7 +34,5 @@ MAPI provides several methods and API functions that return pointers to interfac
   
 ## See also
 
-
-
-[MAPI Object and Interface Overview](mapi-object-and-interface-overview.md)
+- [MAPI Object and Interface Overview](mapi-object-and-interface-overview.md)
 

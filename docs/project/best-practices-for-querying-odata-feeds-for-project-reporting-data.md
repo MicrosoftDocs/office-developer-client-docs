@@ -1,15 +1,11 @@
 ---
 title: "Best practices for querying OData feeds for Project reporting data"
-
- 
 manager: soliver
 ms.date: 8/10/2016
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: a01a3bef-093d-4b01-9f3b-c76cba070ad1
-description: "You can speed up your download times and access your Project Web App (PWA) data faster by reducing payload size. Project 2013 provides the ProjectData service as the OData source for PWA reporting data for both Project Server 2013 and Project Online. By following best practices for querying ProjectData—such as filtering data requests and creating delta syncs—you can greatly improve performance when reporting in Excel, replicating data with SQL Server Integration Services (SSIS) packages, or reporting in custom apps."
+description: "You can speed up your download times and access your Project Web App (PWA) data faster by reducing payload size."
 ---
 
 # Best practices for querying OData feeds for Project reporting data
@@ -46,23 +42,23 @@ Table 2 shows which reporting tools support JSON light.
   
 ### Specifying the JSON light format in SSIS
 
-In your SSIS data flow package, you can add the  `$format=json` query option to the OData source connection, as shown in Figure 1. 
+In your SSIS data flow package, you can add the  `$format=json` query option to the OData source connection, as shown in the following figure. 
   
-**Figure 1. Specifying the JSON light format in the OData Source Editor**
+**Specifying the JSON light format in the OData Source Editor**
 
-![JSON format specified as a query option](media/PJ15_ODataBP_ODataSourceEditor.png)
+![JSON format specified as a query option](media/PJ15_ODataBP_ODataSourceEditor.png "JSON format specified as a query option")
   
 ### Specifying the JSON light format in a custom app
 
 In a custom reporting app, you can request the JSON light format by using a query option in the URL or by specifying the format in the **Accept** header of the request. 
   
- **Example:** Request JSON light in the URL 
+**Example:** Request JSON light in the URL 
   
- `~/_api/projectdata/Resources?$format=json`
+`~/_api/projectdata/Resources?$format=json`
   
- **Example:** Request JSON light in the **Accept** header (jQuery) 
+**Example:** Request JSON light in the **Accept** header (jQuery) 
   
- `headers:{"accept":"application/json"}`
+`headers:{"accept":"application/json"}`
   
 The server returns JSON in the  `minimalmetadata` format by default. 
   
@@ -71,9 +67,9 @@ The server returns JSON in the  `minimalmetadata` format by default.
 
 Use the **$select** query option to request only the properties that you need for your report. By default, the **ProjectData** service sends all entities and all their properties in the response payload. Depending on your report, this can be a waste of time and downloaded bytes. For example, a Task entity contains 100 properties, but reports often only use a few of them. So, by selecting the six properties you need instead of retrieving all 100 properties, you reduce the payload by over 90%. 
   
- **Example:** Select only four properties 
+**Example:** Select only four properties 
   
- `~/_api/projectdata/Resources?$select=ResourceId,ResourceName,ResourceIsActive,ResourceGroup`
+`~/_api/projectdata/Resources?$select=ResourceId,ResourceName,ResourceIsActive,ResourceGroup`
   
 Selecting only indexed properties ([keys](best-practices-for-querying-odata-feeds-for-project-reporting-data.md#FilterQueryOption)) results in the best query and sync times.
   
@@ -84,15 +80,15 @@ Use the **$filter** query option to filter your data request and reduce payload 
   
 Filtering is useful even when you want to download all the properties on an entity. For example, you'll get a faster sync time for all tasks in PWA by first getting all projects and then getting all tasks per project based on the **ProjectId** key. 
   
- **Example:** Filter for all tasks in a specific project by using the ProjectId key 
+**Example:** Filter for all tasks in a specific project by using the ProjectId key 
   
- `~/_api/projectdata/Tasks?$filter=ProjectId eq guid'456d8654-56a5-e311-8c46-22155d085820'`
+`~/_api/projectdata/Tasks?$filter=ProjectId eq guid'456d8654-56a5-e311-8c46-22155d085820'`
   
 You can use multiple keys in a filter.
   
- **Example:** Filter for timephased data for a specific project and date range by using the ProjectId and TimeByDay key 
+**Example:** Filter for timephased data for a specific project and date range by using the ProjectId and TimeByDay key 
   
- `~_api/projectdata/AssignmentTimephasedDataSet?$filter=ProjectId eq guid'3a9acc04-3ce6-e111-9724-00155d344f1a' and TimeByDay gt datetime'2014-07-13'`
+`~_api/projectdata/AssignmentTimephasedDataSet?$filter=ProjectId eq guid'3a9acc04-3ce6-e111-9724-00155d344f1a' and TimeByDay gt datetime'2014-07-13'`
   
 > [!IMPORTANT]
 > Microsoft reserves the right to enforce the usage of keys when querying large entities. 
@@ -147,23 +143,23 @@ In SSIS and custom reporting apps, use the **$top** and **$skip** query options 
   
 In tests using a PWA instance with 37 projects and 12,000 tasks, it took 17 minutes to retrieve all tasks when using the following OData request:
   
- `https://contoso.sharepoint.com/sites/pwa/_api/projectdata/Tasks`
+`https://contoso.sharepoint.com/sites/pwa/_api/projectdata/Tasks`
   
 But it took only 5-10 minutes to retrieve all 12,000 tasks by using 170+ batched requests. The following procedure describes the process used to batch the requests:
   
 1. Get all projects from the PWA instance.
     
-     `https://contoso.sharepoint.com/sites/pwa/_api/projectdata/Projects`
+    `https://contoso.sharepoint.com/sites/pwa/_api/projectdata/Projects`
     
 2. Save the ProjectId keys and the number of tasks per project.
     
 3. Filter for the first project by using the ProjectId key, and use the **$top** query option to get the first 100 tasks. 
     
-     `~/_api/projectdata/Tasks?$filter=ProjectId eq guid'456d8654-56a5-e311-8c46-22155d085820'&amp;$top=100`
+    `~/_api/projectdata/Tasks?$filter=ProjectId eq guid'456d8654-56a5-e311-8c46-22155d085820'&amp;$top=100`
     
 4. Use the **$top** and **$skip** query options to get all the tasks for the project in batches of 100. Use the number of tasks you saved in step 2 to determine how many queries you'll need to get all the tasks for the project. 
     
-     `~/_api/projectdata/Tasks?$filter=ProjectId eq guid'456d8654-56a5-e311-8c46-22155d085820'&amp;$top=100&amp;$skip=100`
+    `~/_api/projectdata/Tasks?$filter=ProjectId eq guid'456d8654-56a5-e311-8c46-22155d085820'&amp;$top=100&amp;$skip=100`
     
 5. Repeat steps 3 and 4 for each project.
     
@@ -177,7 +173,7 @@ When creating a report with Excel, you can minimize the refresh time of your rep
   
 1. Request only the first 100 rows of report data.
     
-     `https://contoso.sharepoint.com/sites/pwa/_api/projectdata/Tasks?$top=100`
+    `https://contoso.sharepoint.com/sites/pwa/_api/projectdata/Tasks?$top=100`
     
 2. Create the report by using this subset of data.
     
@@ -185,13 +181,13 @@ When creating a report with Excel, you can minimize the refresh time of your rep
     
 4. Update the query to request only the properties you need, keeping the **$top** query option. 
     
-     `~/_api/projectdata/Tasks?$select=TaskName,ProjectName,TaskActualDuration,TaskFinishDate,TaskPercentCompleted&amp;$top=100`
+    `~/_api/projectdata/Tasks?$select=TaskName,ProjectName,TaskActualDuration,TaskFinishDate,TaskPercentCompleted&amp;$top=100`
     
 5. Finalize the report.
     
 6. Remove the top 100 row limit from the query.
     
-     `~/_api/projectdata/Tasks?$select=TaskName,ProjectName,TaskActualDuration,TaskFinishDate,TaskPercentCompleted`
+    `~/_api/projectdata/Tasks?$select=TaskName,ProjectName,TaskActualDuration,TaskFinishDate,TaskPercentCompleted`
     
 ## Schedule regular delta syncs in SSIS
 <a name="TopAndSkip"> </a>
@@ -204,12 +200,9 @@ When using SSIS to replicate reporting data to a SQL Server database, we recomme
 You can [download a sample SSIS package](http://www.microsoft.com/en-us/download/details.aspx?id=43736) that demonstrates best practices for querying **ProjectData** OData feeds. To learn about the sample's data flows, see [Project Online: SSIS package for OData delta sync](project-online-ssis-package-for-odata-delta-sync.md).
   
 ## See also
-<a name="bk_addresources"> </a>
 
-- [ProjectData - Project OData service reference](projectdataproject-odata-service-reference.md)
-    
-- [Querying OData feeds for Project reporting data](querying-odata-feeds-for-project-reporting-data.md)
-    
+- [ProjectData - Project OData service reference](projectdataproject-odata-service-reference.md)   
+- [Querying OData feeds for Project reporting data](querying-odata-feeds-for-project-reporting-data.md)   
 - [Create a Project add-in that uses REST with an on-premises Project Server OData service](http://msdn.microsoft.com/library/196e08ba-0d1d-4353-9b95-20c16de365d4%28Office.15%29.aspx)
     
 

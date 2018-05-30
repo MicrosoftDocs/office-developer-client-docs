@@ -1,5 +1,5 @@
 ---
-title: "MAPI Object Containment Hierarchy"
+title: "MAPI object containment hierarchy"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,13 +8,9 @@ api_type:
 - COM
 ms.assetid: 33747835-6eeb-4e07-8f92-3cfa81eecd0f
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
-# MAPI Object Containment Hierarchy
-
-  
+# MAPI object containment hierarchy
   
 **Applies to**: Outlook 
   
@@ -28,13 +24,11 @@ With some objects, containers provide the only access. Attachments and recipient
   
 The following illustration shows the MAPI containment hierarchy. The session is at the top of the tree because it is through the session that a client gains access to all other objects. The next level includes the message store table, a table object that lists properties for all of the message store providers in the current session, and the address book to supply access to all of the address book providers. The message store table and address book are used to access the objects implemented by particular service providers, shown next, in containment order.
   
- **MAPI containment hierarchy**
+**MAPI containment hierarchy**
   
-![MAPI containment hierarchy](media/amapi_41.gif)
+![MAPI containment hierarchy](media/amapi_41.gif "MAPI containment hierarchy")
   
 ## See also
 
-
-
-[MAPI Object and Interface Overview](mapi-object-and-interface-overview.md)
+- [MAPI Object and Interface Overview](mapi-object-and-interface-overview.md)
 

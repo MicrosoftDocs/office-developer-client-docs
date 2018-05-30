@@ -1,5 +1,5 @@
 ---
-title: "MAPI Custom Form Objects"
+title: "MAPI custom form objects"
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -8,13 +8,9 @@ api_type:
 - COM
 ms.assetid: 306d62b1-d541-4039-9759-3903f62e0f26
 description: "Last modified: March 09, 2015"
- 
- 
 ---
 
-# MAPI Custom Form Objects
-
-  
+# MAPI custom form objects
   
 **Applies to**: Outlook 
   
@@ -48,13 +44,11 @@ The following table describes all of the custom form objects.
    
 The following illustration shows the relationship between custom form components, the objects and interfaces that they implement, and the components that are users of the objects. Notice that, unlike most other MAPI objects, the form object implements two interfaces that are not related by direct inheritance. When an object exposes multiple independent interfaces, a user of the object that has a pointer to one of the interfaces can retrieve a pointer to any of the other interfaces. This ability to navigate between an object's interface implementations is a feature of the [IUnknown::QueryInterface](http://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx) method. 
   
- **Custom form components**
+**Custom form components**
   
-![Custom form components](media/amapi_67.gif)
+![Custom form components](media/amapi_67.gif "Custom form components")
   
 ## See also
 
-
-
-[MAPI Object and Interface Overview](mapi-object-and-interface-overview.md)
+- [MAPI Object and Interface Overview](mapi-object-and-interface-overview.md)
 

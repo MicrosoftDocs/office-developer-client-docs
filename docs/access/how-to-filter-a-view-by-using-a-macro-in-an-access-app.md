@@ -24,11 +24,10 @@ The default list view in an Access app enables you to filter the issues on value
 To follow the steps in this example, you need:
   
 - Access 2013
-    
 - A SharePoint 2013 development environment
     
 > [!NOTE]
->  For more information about setting up your SharePoint development environment, see [Set up a general development environment for SharePoint 2013](http://msdn.microsoft.com/library/08e4e4e1-d960-43fa-85df-f3c279ed6927%28Office.15%29.aspx). >  For more information about obtaining Access 2013 and SharePoint 2013, see [Downloads](http://msdn.microsoft.com/en-US/office/apps/fp123627). 
+> For more information about setting up your SharePoint development environment, see [Set up a general development environment for SharePoint 2013](http://msdn.microsoft.com/library/08e4e4e1-d960-43fa-85df-f3c279ed6927%28Office.15%29.aspx). >  For more information about obtaining Access 2013 and SharePoint 2013, see [Downloads](http://msdn.microsoft.com/en-US/office/apps/fp123627). 
   
 ## Create the app
 <a name="Access2013FilterViewByUsingMacro_CreateApp"> </a>
@@ -47,7 +46,7 @@ Suppose you want to create an Access app that tracks tasks for your business. Be
     
    **Figure 1. Templates that match the search for tasks**
 
-   ![Templates that match the search for issues](media/odc_Access15_CreateAndCustomizeWebApp_Figure01.JPG)
+   ![Templates that match the search for issues](media/odc_Access15_CreateAndCustomizeWebApp_Figure01.JPG "Templates that match the search for issues")
   
 4. Choose **Tasks**.
     
@@ -72,7 +71,7 @@ The relevant facts are:
     
 - How to determine which on tasks are in progress
     
-The **Due Date** field provides information about when a task is due. The **Status** field provides status information about each task. To refer to a field in a macro, use the format **[ *TableName*  ].[  *FieldName*  ]. ** Use **[Tasks].[Due Date]** to refer to the **Due Date** field and **[Tasks].[Status]** to refer to the **Status** field. 
+The **Due Date** field provides information about when a task is due. The **Status** field provides status information about each task. To refer to a field in a macro, use the format **[*TableName*].[*FieldName*]**. Use **[Tasks].[Due Date]** to refer to the **Due Date** field and **[Tasks].[Status]** to refer to the **Status** field. 
   
 The [Today Function (Access custom web app)](today-function-access-custom-web-app.md) function returns today's date. The [DateAdd Function (Access custom web app)](dateadd-function-access-custom-web-app.md) function can be used to calculate a date that's a certain number of days after a specified date. 
   
@@ -118,7 +117,7 @@ Now that you've determined the customizations, implement them. The data macro sh
   
    **Figure 1. Add New Action list box**
 
-   ![Add New Action dropdown](media/odc_Access2013_FilterFormByUsingMacro_Figure01.jpg)
+   ![Add New Action dropdown](media/odc_Access2013_FilterFormByUsingMacro_Figure01.jpg "Add New Action dropdown")
   
 7. In the **Name** box, enter **TaskFound**. 
     
@@ -130,7 +129,7 @@ Now that you've determined the customizations, implement them. The data macro sh
     
    **Figure 2. TasksDueSoon data macro**
 
-   ![TasksDueSoon data macro](media/odc_Access2013_FilterFormByUsingMacro_Figure02.jpg)
+   ![TasksDueSoon data macro](media/odc_Access2013_FilterFormByUsingMacro_Figure02.jpg "TasksDueSoon data macro")
   
 10. Close macro Design View.
     
@@ -148,13 +147,13 @@ Now, we're ready to add a custom button to the Action Bar.
     
    **Figure 3. Add custom action button**
 
-   ![Add custom action button](media/odc_Access2013_FilterFormByUsingMacro_Figure03.jpg)
+   ![Add custom action button](media/odc_Access2013_FilterFormByUsingMacro_Figure03.jpg "Add custom action button")
   
     The new action is displayed as a button with a star icon as shown in Figure 4.
     
    **Figure 4. New Action Bar button**
 
-   ![New Action Bar button](media/odc_Access2013_FilterFormByUsingMacro_Figure04.jpg)
+   ![New Action Bar button](media/odc_Access2013_FilterFormByUsingMacro_Figure04.jpg "New Action Bar button")
   
 4. Choose the custom Action Bar Button, and then choose the **Data** icon. 
     
@@ -172,7 +171,7 @@ Now, we're ready to create the UI macro that will filter the view.
     
    **Figure 5. Data dialog box**
 
-   ![Data dialog box](media/odc_Access2013_FilterFormByUsingMacro_Figure05.jpg)
+   ![Data dialog box](media/odc_Access2013_FilterFormByUsingMacro_Figure05.jpg "Data dialog box")
   
     A blank UI macro is opened in macro Design View.
     
@@ -195,7 +194,7 @@ Now, we're ready to create the UI macro that will filter the view.
   
    **Figure 6. Add New Action list box**
 
-   ![Add New Action dropdown](media/odc_Access2013_FilterFormByUsingMacro_Figure06.jpg)
+   ![Add New Action dropdown](media/odc_Access2013_FilterFormByUsingMacro_Figure06.jpg "Add New Action dropdown")
   
 7. In the **Where** box, enter **[Tasks].[Due Date]\<DateAdd(Day,7,Today()) AND [Tasks].[Status]\<\>"Completed"**. 
     
@@ -205,7 +204,7 @@ Now, we're ready to create the UI macro that will filter the view.
     
    **Figure 7. Add Else link**
 
-   ![Add Else link](media/odc_Access2013_FilterFormByUsingMacro_Figure07.jpg)
+   ![Add Else link](media/odc_Access2013_FilterFormByUsingMacro_Figure07.jpg "Add Else link")
   
     An Else clause is added to the If block.
     
@@ -219,7 +218,7 @@ Now, we're ready to create the UI macro that will filter the view.
     
     **Figure 8. UI macro to filter the view**
 
-    ![UI macro to filter the view](media/odc_Access2013_FilterFormByUsingMacro_Figure08.jpg)
+    ![UI macro to filter the view](media/odc_Access2013_FilterFormByUsingMacro_Figure08.jpg "UI macro to filter the view")
   
 13. Close macro Design View.
     

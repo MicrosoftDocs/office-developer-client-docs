@@ -1,5 +1,5 @@
 ---
-title: "Message Services and Profiles"
+title: "Message services and profiles"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,13 +8,9 @@ api_type:
 - COM
 ms.assetid: df0db1e4-69c8-44ec-bb2a-d31fc8a564b9
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
-# Message Services and Profiles
-
-  
+# Message services and profiles
   
 **Applies to**: Outlook 
   
@@ -46,22 +42,18 @@ Profiles are organized in a similar way to the Mapisvc.inf file. Profiles have l
   
 The following illustration shows the contents of two typical profiles. Sam has two profiles on his computer, one for home use and one for office use. The home profile contains three message services. Message Service X is a single provider service for address book management. Message Services Y and Z have three providers — an address book provider, a message store provider, and a transport provider. Sam's Work Profile contains two different message services, each of which has an address book provider, a message store provider, and a transport provider. 
   
- **Profile example**
+**Profile example**
   
-![Profile example](media/amapi_56.gif)
+![Profile example](media/amapi_56.gif "Profile example")
   
 The following illustration shows a profile that includes two message services. The code for installing and configuring the service providers that belong to the message service resides in the same DLL as the code for the providers. This code reads information from the profile at logon time to configure the service providers, and it prompts the user, if possible and necessary, for missing information. Requests from a client to view or change configuration settings for any of the providers are also handled by this common code.
   
- **Installing and configuring service providers**
+**Installing and configuring service providers**
   
-![Installing and configuring service providers](media/amapi_55.gif)
+![Installing and configuring service providers](media/amapi_55.gif "Installing and configuring service providers")
   
 ## See also
 
-
-
-[MAPIUID](mapiuid.md)
-
-
-[MAPI Programming Overview](mapi-programming-overview.md)
+- [MAPIUID](mapiuid.md)
+- [MAPI Programming Overview](mapi-programming-overview.md)
 

@@ -47,7 +47,7 @@ Suppose you want to create an Access app that tracks issues for your business. B
     
    **Figure 1. Templates that match the search for issues**
 
-   ![Templates that match the search for issues](media/odc_Access15_CreateAndCustomizeWebApp_Figure01.JPG)
+   ![Templates that match the search for issues](media/odc_Access15_CreateAndCustomizeWebApp_Figure01.JPG "Templates that match the search for issues")
   
 4. Choose **Issues**.
     
@@ -66,7 +66,7 @@ The **Customer** field is related to the **Customers** table. To examine the rel
   
 **Figure 2. Lookup Wizard displaying the relationship to the Customers table**
 
-![Lookup Wizard displaying the relationship](media/odc_Access15_CreateAndCustomizeWebApp_Figure02.jpg)
+![Lookup Wizard displaying the relationship](media/odc_Access15_CreateAndCustomizeWebApp_Figure02.jpg "Lookup Wizard displaying the relationship")
   
 The Lookup Wizard dialog box shows that the **Customer** field is linked to the **Customers** table and to return the **Display Name First Last** field from the **Customers** table. 
   
@@ -76,7 +76,7 @@ Close the **Issues** table and examine the Tile Pane. The top three tiles, for t
   
 **Figure 3. Tile Pane for the Issues schema**
 
-![Tile Pane for the Issues schema](media/odc_Access15_CreateAndCustomizeWebApp_Figure03.jpg)
+![Tile Pane for the Issues schema](media/odc_Access15_CreateAndCustomizeWebApp_Figure03.jpg "Tile Pane for the Issues schema")
   
 The **Related Issues** and **Issue Comments** tables are dimmed because they are to be hidden from the user in the web browser. 
   
@@ -88,7 +88,7 @@ Use the View Selector to choose one of three views available for the **Customers
   
 **Figure 4. View Selector**
 
-![View Selector](media/odc_Access15_CreateAndCustomizeWebApp_Figure04.jpg)
+![View Selector](media/odc_Access15_CreateAndCustomizeWebApp_Figure04.jpg "View Selector")
   
 Choosing **List** activates the **Customers List** view, which is a List Details view. List Details is one of the views Access automatically generates when you create a table. The main feature that distinguishes a List Details view is the list pane that appears on the left side of the view. The list pane is used to filter and navigate the records contained in the view. In an Access desktop database, implementing a searchable list view would require writing custom code. 
   
@@ -100,13 +100,13 @@ As you're adding customers, use the Action Bar to add records, edit records, sav
   
 **Figure 5. Action Bar**
 
-![Action Bar](media/odc_Access15_CreateAndCustomizeWebApp_Figure05.jpg)
+![Action Bar](media/odc_Access15_CreateAndCustomizeWebApp_Figure05.jpg "Action Bar")
   
 Once you've added some customers and employees open the Issues List view and start adding an issue. As you type the name of a customer into the into the Customer box, one or more of the customer names will appear, as shown in Figure 6.
   
 **Figure 6. AutoComplete control**
 
-![AutoComplete control](media/odc_Access15_CreateAndCustomizeWebApp_Figure06.jpg)
+![AutoComplete control](media/odc_Access15_CreateAndCustomizeWebApp_Figure06.jpg "AutoComplete control")
   
 The Customer box is an AutoComplete control. The AutoComplete control displays a list of records that match what you're typing into the box. This helps ensure the accuracy of data entry.
   
@@ -152,7 +152,7 @@ Now that we have field in which to store the phone number, let's create a data m
   
    **Figure 7. Add New Action dropdown**
 
-   ![Add New Action dropdown](media/odc_Access15_CreateAndCustomizeWebApp_Figure07.jpg)
+   ![Add New Action dropdown](media/odc_Access15_CreateAndCustomizeWebApp_Figure07.jpg "Add New Action dropdown")
   
 8. In the **Name** box, enter **ContactPhone**. 
     
@@ -164,7 +164,7 @@ Now that we have field in which to store the phone number, let's create a data m
     
     **Figure 8. GetContactPhone data macro**
 
-    ![GetContactPhone data macro](media/odc_Access15_CreateAndCustomizeWebApp_Figure08.jpg)
+    ![GetContactPhone data macro](media/odc_Access15_CreateAndCustomizeWebApp_Figure08.jpg "GetContactPhone data macro")
   
 11. Close macro Design View.
     
@@ -218,17 +218,17 @@ Now we should write a user interface (UI) macro that copies the **Work Phone** f
     
     **Figure 9. After Update macro**
 
-    ![After Update macro](media/odc_Access15_CreateAndCustomizeWebApp_Figure09.jpg)
+    ![After Update macro](media/odc_Access15_CreateAndCustomizeWebApp_Figure09.jpg "After Update macro")
   
 11. Close macro Design View.
     
 12. Close the Issues List view. Choose **Yes** when you are prompted to save your changes. 
     
-Now we're ready to text the customization. Click **Launch App** to open the app in your web browser and then add a new issue. The Contact Number bosx will update automatically after the customer name is entered as shown in Figure 10. 
+Now we're ready to text the customization. Click **Launch App** to open the app in your web browser and then add a new issue. The **Contact Number** box updates automatically after the customer name is entered,  as shown in Figure 10. 
   
 **Figure 10. Issues view updated with phone number**
 
-![Issues view updated with phone number](media/odc_Access15_CreateAndCustomizeWebApp_Figure10.jpg)
+![Issues view updated with phone number](media/odc_Access15_CreateAndCustomizeWebApp_Figure10.jpg "Issues view updated with phone number")
   
 ## Conclusion
 

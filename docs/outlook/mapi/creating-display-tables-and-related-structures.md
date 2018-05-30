@@ -1,5 +1,5 @@
 ---
-title: "Creating Display Tables and Related Structures"
+title: "Creating display tables and related structures"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,13 +8,9 @@ api_type:
 - COM
 ms.assetid: a8548040-13ed-4a9f-a7ca-de610f94d7df
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
-# Creating Display Tables and Related Structures
-
-  
+# Creating display tables and related structures
   
 **Applies to**: Outlook 
   
@@ -34,19 +30,17 @@ Each **DTCTL** structure in a **DTPAGE** structure contains the following data t
     
 - The control structure for setting **PR_CONTROL_STRUCTURE** ([PidTagControlStructure](pidtagcontrolstructure-canonical-property.md)).
     
- **DTCTL** structures also contain a resource identifier and, for edit and combo box controls, a character filter. 
+**DTCTL** structures also contain a resource identifier and, for edit and combo box controls, a character filter. 
   
 The control structure member of a **DTCTL** structure describes the data that is unique for the type of control. MAPI defines a different structure for each control type. For example, the data of an edit control is represented by a **DTBLEDIT** structure; the data of a list box is represented by a **DTBLLBX** structure. 
   
 The relationship between the three types of display table structures is shown in the following illustration. The dialog box described by this display table has two controls: a label and an edit control. The **DTBLLBX** structure has a label offset member, as do several of the control structures, that describes where the character string for the label begins. Label character strings are typically placed in memory immediately following the structure. 
   
- **Display table structures**
+**Display table structures**
   
-![Display table structures](media/dtstruct.gif)
+![Display table structures](media/dtstruct.gif "Display table structures")
   
 ## See also
 
-
-
-[Display Table Implementation](display-table-implementation.md)
+- [Display table implementation](display-table-implementation.md)
 

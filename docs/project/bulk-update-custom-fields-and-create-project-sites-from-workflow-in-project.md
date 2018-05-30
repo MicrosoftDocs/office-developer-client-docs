@@ -14,8 +14,8 @@ To help customers get the most out of Project Online and improve our service ext
   
 |||
 |:-----|:-----|
-|**UpdateCustomFields** <br/> |Bulk updates project custom fields.           For Project Online only. Available only in the REST API.  <br/> |
-|**CreateProjectSite** <br/> | Creates a Project site.           For Project Online only. Available in the REST API, managed client object model, and JavaScript client object model.  <br/> |
+|**UpdateCustomFields** <br/> |Bulk updates project custom fields. For Project Online only. Available only in the REST API.  <br/> |
+|**CreateProjectSite** <br/> | Creates a Project site. For Project Online only. Available in the REST API, managed client object model, and JavaScript client object model.  <br/> |
    
 In addition to providing more flexibility, these methods also offer significant performance improvements when saving and publishing projects in a workflow. This article describes how to use the methods in the REST API and provides instructions for creating a workflow that bulk updates custom fields and a workflow that creates a Project site.
   
@@ -52,21 +52,21 @@ This section describes how to create a workflow that bulk updates custom fields 
     
 The final, end-to-end workflow looks like this:
   
-![End-to-end workflow](media/8c0741f9-7f76-409d-8c00-e7a8c3ddb89f.png)
+![End-to-end workflow](media/8c0741f9-7f76-409d-8c00-e7a8c3ddb89f.png "End-to-end workflow")
   
 ### To create a workflow that bulk updates custom fields
 
 1. Optional. Store the full URL of your project in a variable that you can use throughout the workflow.
     
-    ![Store the URL of the project in a variable](media/a880c5c6-8e7a-44dd-87e9-7e532169d489.png)
+    ![Store the URL of the project in a variable](media/a880c5c6-8e7a-44dd-87e9-7e532169d489.png "Store the URL of the project in a variable")
   
 2. Add the **Wait for Project Event** action to the workflow and choose the **When a project is checked in** event. 
     
-    ![Wait for the project to be checked in](media/699aa9c7-b3c9-426e-a775-96993a13559c.png)
+    ![Wait for the project to be checked in](media/699aa9c7-b3c9-426e-a775-96993a13559c.png "Wait for the project to be checked in")
   
 3. Create a **requestHeader** dictionary using the **Build dictionary** action. You'll use the same request header for all the web service calls in this workflow. 
     
-    ![Build the requestHeader dictionary](media/83b0aa10-9ab7-43dd-800d-a738bb815876.png)
+    ![Build the requestHeader dictionary](media/83b0aa10-9ab7-43dd-800d-a738bb815876.png "Build the requestHeader dictionary")
   
 4. Add the following two items to the dictionary.
     
@@ -75,7 +75,7 @@ The final, end-to-end workflow looks like this:
     |Accept  <br/> |String  <br/> |application/json; odata=verbose  <br/> |
     |Content-Type  <br/> |String  <br/> |application/json; odata=verbose  <br/> |
    
-    ![Adding an Accept header](media/2f2e2016-3c49-4cac-b1e7-f2b8118b840c.png)
+    ![Adding an Accept header](media/2f2e2016-3c49-4cac-b1e7-f2b8118b840c.png "Adding an Accept header")
   
 5. Create a **requestBody** dictionary using the **Build dictionary** action. This dictionary stores all the field updates that you want to apply. 
     
@@ -89,7 +89,7 @@ The final, end-to-end workflow looks like this:
             
        - Value: SP.KeyValue
     
-       ![Defining a custom field update](media/a4423493-6603-42ee-ae50-1ef74c5c59bd.png)
+       ![Defining a custom field update](media/a4423493-6603-42ee-ae50-1ef74c5c59bd.png "Defining a custom field update")
   
     - **Key** The internal name of the custom field, in the format: *Custom_ce23fbf43fa0e411941000155d3c8201* 
     
@@ -131,43 +131,43 @@ The final, end-to-end workflow looks like this:
        |customFieldDictionary(2)/Value  <br/> |String  <br/> |2015-04-01T00:00:00.0000000  <br/> |
        |customFieldDictionary(2)/ValueType  <br/> |String  <br/> |Edm.DateTime  <br/> |
    
-       ![Dictionary that defines custom field updates](media/41a1f18f-a6b2-40ff-904b-437baf962621.png)
+       ![Dictionary that defines custom field updates](media/41a1f18f-a6b2-40ff-904b-437baf962621.png "Dictionary that defines custom field updates")
   
 6. Add a **Call HTTP Web Service** action to check the project out. 
     
-    ![Call the Checkout method](media/8ce56014-0317-419b-afa7-229d05c86885.png)
+    ![Call the Checkout method](media/8ce56014-0317-419b-afa7-229d05c86885.png "Call the Checkout method")
   
 7. Edit the properties of the web service call to specify the request header. To open the **Properties** dialog box, right-click the action and choose **Properties**.
     
-    ![Specify the request header in web service call properties](media/d81e92b1-43df-42ad-9cd0-a693f93b164e.png)
+    ![Specify the request header in web service call properties](media/d81e92b1-43df-42ad-9cd0-a693f93b164e.png "Specify the request header in web service call properties")
   
 8. Add a **Call HTTP Web Service** action to call the **UpdateCustomFields** method. 
     
-    ![Create a Call HTTP Web Service action](media/9a73a201-c035-41b4-8798-506ac48b90f8.png)
+    ![Create a Call HTTP Web Service action](media/9a73a201-c035-41b4-8798-506ac48b90f8.png "Create a Call HTTP Web Service action")
   
     Note the  `/Draft/` segment in the web service URL. The full URL should look like this: `https://<site-url>/_api/ProjectServer/Projects('<guid>')/Draft/UpdateCustomFields()`
     
-    ![Call the UpdateCustomFields method](media/03b323f1-8e99-4b18-be18-be505d7cec7e.png)
+    ![Call the UpdateCustomFields method](media/03b323f1-8e99-4b18-be18-be505d7cec7e.png "Call the UpdateCustomFields method")
   
 9. Edit the properties of the web service call to bind the **RequestHeader** and **RequestContent** parameters to the dictionaries you created. You can also create a new variable to store the **ResponseContent**.
     
-    ![Bind the dictionaries to the request header and content](media/f96bec92-138e-4eab-b1e7-1ab83d0428a5.png)
+    ![Bind the dictionaries to the request header and content](media/f96bec92-138e-4eab-b1e7-1ab83d0428a5.png "Bind the dictionaries to the request header and content")
   
 10. Optional. Read from the response dictionary to check the state of the queue job and log the information in the workflow history list.
     
-    ![Setting up logging](media/7d2f4936-61d7-4906-83e8-7478a5935af5.png)
+    ![Setting up logging](media/7d2f4936-61d7-4906-83e8-7478a5935af5.png "Setting up logging")
   
 11. Add a web service call to the **Publish** endpoint to publish the project. Always use the same request header. 
     
-    ![Call the Publish method](media/3b661091-ffae-4d7e-a0bb-5b96a6292731.png)
+    ![Call the Publish method](media/3b661091-ffae-4d7e-a0bb-5b96a6292731.png "Call the Publish method")
   
-    ![Properties for the Publish web service call](media/6a80a5d3-7e29-4398-993c-f78b3faca8b1.png)
+    ![Properties for the Publish web service call](media/6a80a5d3-7e29-4398-993c-f78b3faca8b1.png "Properties for the Publish web service call")
   
 12. Add a final web service call to the **Checkin** endpoint to check the project in. 
     
-    ![Call the Checkin method](media/430510cb-0774-4911-af7f-b565b83eba0e.png)
+    ![Call the Checkin method](media/430510cb-0774-4911-af7f-b565b83eba0e.png "Call the Checkin method")
   
-    ![Properties for the Checkin web service call](media/485f48d6-bbb8-4568-9dc3-aae3218f6bd1.png)
+    ![Properties for the Checkin web service call](media/485f48d6-bbb8-4568-9dc3-aae3218f6bd1.png "Properties for the Checkin web service call")
 
 <a name="CreateProjectSite"> </a>
 
@@ -179,7 +179,7 @@ We've added the **CreateProjectSite** method so you can choose when to create pr
   
 **Prerequisite:** Before you can use **CreateProjectSite**, the **Allow users to choose** setting must be set for project site creation in **PWA Settings** > ** Connected SharePoint Sites ** > **Settings**.
   
-![Setting "Allow users to choose" in PWA settings](media/6c6c8175-eb10-431d-8056-cea55718fdb4.png)
+![Setting "Allow users to choose" in PWA settings](media/6c6c8175-eb10-431d-8056-cea55718fdb4.png "Setting Allow users to choose in PWA settings")
   
 ### To create a workflow that creates a Project site
 
@@ -187,7 +187,7 @@ We've added the **CreateProjectSite** method so you can choose when to create pr
     
 2. Create a **requestHeader** dictionary using the **Build dictionary** action. 
     
-    ![Build the requestHeader dictionary](media/83b0aa10-9ab7-43dd-800d-a738bb815876.png)
+    ![Build the requestHeader dictionary](media/83b0aa10-9ab7-43dd-800d-a738bb815876.png "Build the requestHeader dictionary")
   
 3. Add the following two items to the dictionary.
     
@@ -196,19 +196,19 @@ We've added the **CreateProjectSite** method so you can choose when to create pr
     |Accept  <br/> |String  <br/> |application/json; odata=verbose  <br/> |
     |Content-Type  <br/> |String  <br/> |application/json; odata=verbose  <br/> |
    
-    ![Adding an Accept header](media/2f2e2016-3c49-4cac-b1e7-f2b8118b840c.png)
+    ![Adding an Accept header](media/2f2e2016-3c49-4cac-b1e7-f2b8118b840c.png "Adding an Accept header")
   
 4. Add the **Call HTTP Web Service** action. Change the request type to use **POST**, and set the URL using the following format:
     
     `https://<site-url>/_api/ProjectServer/Projects('<guid>')/CreateProjectSite('New web name')`
     
-    ![Building the CreateProjectSite endpoint URI](media/42a90a5e-8d1b-4667-a933-785175212847.png)
+    ![Building the CreateProjectSite endpoint URI](media/42a90a5e-8d1b-4667-a933-785175212847.png "Building the CreateProjectSite endpoint URI")
   
     Pass the name of the Project site to the **CreateProjectSite** method as a string. To use the project name as the site name, pass an empty string. Be sure to use unique names so the next project site you create will work. 
     
 5. Edit the properties of the web service call to bind the **RequestHeader** parameter to the dictionary you created. 
     
-    ![Binding the dictionary to the request](media/61a5a0a8-405f-44eb-b5e7-80b11f7caec3.png)
+    ![Binding the dictionary to the request](media/61a5a0a8-405f-44eb-b5e7-80b11f7caec3.png "Binding the dictionary to the request")
   
 ## See also
 

@@ -1,5 +1,5 @@
 ---
-title: "MAPI Forms Overview"
+title: "MAPI forms overview"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,13 +8,9 @@ api_type:
 - COM
 ms.assetid: 1b3afeaa-4ede-41eb-a3c1-b8947a46ef97
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
-# MAPI Forms Overview
-
-  
+# MAPI forms overview
   
 **Applies to**: Outlook 
   
@@ -24,9 +20,9 @@ Every custom form implements a set of standard menu commands, such as **Open**, 
   
 The following illustration shows the relationship between the MAPI components involved in using forms. 
   
- **MAPI form architecture**
+**MAPI form architecture**
   
-![MAPI form architecture](media/forms01.gif)
+![MAPI form architecture](media/forms01.gif "MAPI form architecture")
   
 In the diagram, notice that the form manager plays a role that is similar to other MAPI service providers, although it is not a service provider itself. The form manager is a replaceable DLL that implements some of the MAPI interfaces. Although developers can implement their own form manager, most environments will use the form manager provided by Microsoft due to the form manager's complexity.
   
@@ -48,7 +44,5 @@ For more information about MAPI form components, see [MAPI Forms](mapi-forms.md)
   
 ## See also
 
-
-
-[MAPI Features and Architecture](mapi-features-and-architecture.md)
+- [MAPI Features and Architecture](mapi-features-and-architecture.md)
 

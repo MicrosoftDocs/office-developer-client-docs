@@ -1,5 +1,5 @@
 ---
-title: "MAPI Object Inheritance Hierarchy"
+title: "MAPI object inheritance hierarchy"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,7 +10,7 @@ ms.assetid: 3dc0b79f-e346-416d-ac81-42eba6b6d3b2
 description: "Last modified: July 23, 2011"
 ---
 
-# MAPI Object Inheritance Hierarchy
+# MAPI object inheritance hierarchy
 
 **Applies to**: Outlook 
   
@@ -18,7 +18,7 @@ All interfaces implemented by MAPI objects ultimately inherit from [IUnknown](ht
   
 **MAPI inheritance hierarchy**
   
-![MAPI inheritance hierarchy](media/amapi_06.gif)
+![MAPI inheritance hierarchy](media/amapi_06.gif "MAPI inheritance hierarchy")
   
 ## See also
 

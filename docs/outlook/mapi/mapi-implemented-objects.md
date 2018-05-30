@@ -1,5 +1,5 @@
 ---
-title: "MAPI-Implemented Objects"
+title: "MAPI-implemented objects"
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -8,13 +8,9 @@ api_type:
 - COM
 ms.assetid: 5d07c259-0ceb-4ea5-98b4-b01720edfe2a
 description: "Last modified: March 09, 2015"
- 
- 
 ---
 
-# MAPI-Implemented Objects
-
-  
+# MAPI-implemented objects
   
 **Applies to**: Outlook 
   
@@ -47,16 +43,12 @@ The following table summarizes the purpose for each object that MAPI implements.
    
 The following illustration shows the relationship between the objects that MAPI implements, the interfaces from which they inherit, and the components that use them. 
   
- **Objects that MAPI implements**
+**Objects that MAPI implements**
   
-![Objects that MAPI implements](media/amapi_68.gif)
+![Objects that MAPI implements](media/amapi_68.gif "Objects that MAPI implements")
   
 ## See also
 
-
-
-[IMAPIProp : IUnknown](imapipropiunknown.md)
-
-
-[MAPI Object and Interface Overview](mapi-object-and-interface-overview.md)
+- [IMAPIProp : IUnknown](imapipropiunknown.md)
+- [MAPI Object and Interface Overview](mapi-object-and-interface-overview.md)
 

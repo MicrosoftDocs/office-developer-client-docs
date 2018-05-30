@@ -22,7 +22,7 @@ The following illustration shows how this works. The box on the far left represe
   
 **Object implementation**
   
-![Object implementation](media/amapi_42.gif)
+![Object implementation](media/amapi_42.gif "Object implementation")
   
 The following code example shows how a C service provider can define a simple status object. The first member is the vtable pointer; the rest of the object is made up of data members. 
   

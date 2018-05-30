@@ -1,5 +1,5 @@
 ---
-title: "MAPI Spooler Overview"
+title: "MAPI spooler overview"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,13 +8,9 @@ api_type:
 - COM
 ms.assetid: 5866b202-883e-454e-aeb1-61526c43dae9
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
-# MAPI Spooler Overview
-
-  
+# MAPI spooler overview
   
 **Applies to**: Outlook 
   
@@ -34,9 +30,9 @@ MAPI spooler has additional responsibilities related to message distribution. Th
     
 The following illustration shows at a high level how a message flows from a client to the messaging system.
   
- **Outgoing message flow**
+**Outgoing message flow**
   
-![Outgoing message flow](media/amapi_46.gif)
+![Outgoing message flow](media/amapi_46.gif "Outgoing message flow")
   
 The user of a client application sends a message to one or more recipients. The message store provider initiates the sending process, formatting the message with additional information needed for transmission.
   
@@ -54,7 +50,5 @@ With incoming messages, the flow is reversed. The transport provider receives a 
   
 ## See also
 
-
-
-[MAPI Features and Architecture](mapi-features-and-architecture.md)
+- [MAPI Features and Architecture](mapi-features-and-architecture.md)
 

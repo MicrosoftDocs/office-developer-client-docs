@@ -1,5 +1,5 @@
 ---
-title: "MAPI Message Service Overview"
+title: "MAPI message service overview"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,13 +8,9 @@ api_type:
 - COM
 ms.assetid: 58f36a6b-bcc5-4ebb-9761-6f420a718d97
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
-# MAPI Message Service Overview
-
-  
+# MAPI message service overview
   
 **Applies to**: Outlook 
   
@@ -24,9 +20,9 @@ Message services exist to make the installation and configuration of service pro
   
 The following figure shows the relationship between a messaging-based client application and two message services.
   
- **Message service installation and configuration**
+**Message service installation and configuration**
   
-![Message service installation and configuration](media/amapi_44.gif)
+![Message service installation and configuration](media/amapi_44.gif "Message service installation and configuration")
   
 The user invokes the installation code of each message service to add the service and its service providers to a profile. In one of the message services shown in the figure, there are three service providers; in the other message service, there are two service providers. At some later time after installation is complete, typically at logon time, the service providers in each message service are configured. The configuration code in each message service handles the configuration of the providers in the service.
   
@@ -36,7 +32,5 @@ To handle configuration, a message service implements an entry point function th
   
 ## See also
 
-
-
-[MAPI Features and Architecture](mapi-features-and-architecture.md)
+- [MAPI Features and Architecture](mapi-features-and-architecture.md)
 

@@ -1,5 +1,5 @@
 ---
-title: "MAPI Property Type Overview"
+title: "MAPI property type overview"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,13 +8,9 @@ api_type:
 - COM
 ms.assetid: b762f5fb-7c2c-4303-96f7-0b6e657146c9
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
-# MAPI Property Type Overview
-
-  
+# MAPI property type overview
   
 **Applies to**: Outlook 
   
@@ -26,17 +22,17 @@ Multiple-value properties contain more than one value of its type. Unlike OLE va
   
 The following illustration shows the structure of an [SPropValue](spropvalue.md) structure to describe a multiple-value integer, a property of type PT_MV_LONG. The **Value** member is expanded to include a count of the number of integer values in the property and a pointer to an array of those values. 
   
- **Multiple-value properties**
+**Multiple-value properties**
   
-![Multiple-value properties](media/amapi_12.gif)
+![Multiple-value properties](media/amapi_12.gif "Multiple-value properties")
   
 Although support for multiple-value properties is optional, MAPI recommends that clients and service providers support both types of properties because doing so enables greater interaction between MAPI-compliant components.
   
 The following illustration lists all of the different property type constants, showing where they are stored in an **SPropValue** structure. The size of the **Value** member is dependent on the particular type. Notice that not all of the single-value types have multiple-value equivalents. 
   
- **Property type constants**
+**Property type constants**
   
-![Property type constants](media/amapi_11.gif)
+![Property type constants](media/amapi_11.gif "Property type constants")
   
 Clients and service providers working with a property need to follow two steps:
   
@@ -44,7 +40,7 @@ Clients and service providers working with a property need to follow two steps:
     
 2. If available, retrieve the property's value.
     
-Sometimes a client or service provider need only check for the existence of a property; other times it is necessary to check for a specific value. For example, transport providers have three different courses of action for processing the **PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)) property, a Boolean value that indicates whether or not a message should be transmitted with formatted text. If **PR_SEND_RICH_INFO** is set to TRUE, the transport provider transmits the formatted text. If it is set to FALSE, the formatted text is discarded before transmission. If **PR_SEND_RICH_INFO** is unavailable, the transport provider follows its default course of action, whatever that is for the particular provider. 
+Sometimes a client or service provider need only check for the existence of a property; other times it is necessary to check for a specific value. For example, transport providers have three different courses of action for processing the **PR\_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)) property, a Boolean value that indicates whether or not a message should be transmitted with formatted text. If **PR\_SEND_RICH_INFO** is set to TRUE, the transport provider transmits the formatted text. If it is set to FALSE, the formatted text is discarded before transmission. If **PR_SEND_RICH_INFO** is unavailable, the transport provider follows its default course of action, whatever that is for the particular provider. 
   
 MAPI defines a special property type, PT_UNSPECIFIED, that a client or service provider can use to retrieve a property when the property type is unknown.To retrieve a property without advance knowledge of its type, a client or service provider calls an object's [IMAPIProp::GetProps](imapiprop-getprops.md) method and passes a property tag made up of the property's identifier and the PT_UNSPECIFIED property type. **GetProps** returns an [SPropValue](spropvalue.md) structure for the property, replacing PT_UNSPECIFIED with the appropriate type. Service providers implementing **GetProps** are required to support PT_UNSPECIFIED. 
   
@@ -58,7 +54,5 @@ For a complete list of the single-value and multiple-value property types, see [
   
 ## See also
 
-
-
-[MAPI Property Overview](mapi-property-overview.md)
+- [MAPI Property Overview](mapi-property-overview.md)
 

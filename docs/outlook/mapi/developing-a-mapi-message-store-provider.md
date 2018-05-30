@@ -1,5 +1,5 @@
 ---
-title: "Developing a MAPI Message Store Provider"
+title: "Developing a MAPI message store provider"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,13 +8,9 @@ api_type:
 - COM
 ms.assetid: 83692674-0b5a-468d-9cd7-a2ac3d140bda
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
-# Developing a MAPI Message Store Provider
-
-  
+# Developing a MAPI message store provider
   
 **Applies to**: Outlook 
   
@@ -22,9 +18,9 @@ Like other MAPI service providers, message stores are dynamic-link libraries (DL
   
 The following illustration shows the basic MAPI message store architecture.
   
- **Message store architecture**
+**Message store architecture**
   
-![Message store architecture](media/storearc.gif)
+![Message store architecture](media/storearc.gif "Message store architecture")
   
 You can implement a message store provider by using any sort of underlying storage mechanism you like. However, you need to be aware of performance concerns. In addition, the underlying storage mechanism must be presented as a hierarchical collection of MAPI objects. These requirements mean that message stores are typically implemented by using an existing database product that supports hierarchical storage of objects in the database and that has a programming interface or well-defined file structure. For example, Microsoft Office Access, SQL, and Oracle databases can be used as the underlying storage mechanism. Some database products have feature sets that make it easier to implement MAPI features, so your choice of database product may be affected by the features that your message store provider needs to support.
   
@@ -40,7 +36,5 @@ There are two important types of message store providers: those that can act as 
   
 ## See also
 
-
-
-[MAPI Concepts](mapi-concepts.md)
+- [MAPI concepts](mapi-concepts.md)
 
