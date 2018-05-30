@@ -70,7 +70,7 @@ Before running the code samples, you must set up the development environment, co
     
     **Figure 1. Adding the references in Visual Studio for a WCF-based application**
 
-    ![Adding references for WCF](media/pj15_PrerequisitesWCF_AddReference.gif)
+    ![Adding references for WCF](media/pj15_PrerequisitesWCF_AddReference.gif "Adding references for WCF")
   
 3. **Copy the code**.
     
@@ -120,7 +120,7 @@ Advantages to using the WCF-based proxy assembly include the following:
     
 **Figure 2. Using IntelliSense for a method in the Resource service**
 
-![Using Intellisense for the ReadResource method](media/pj15_PrerequisitesWCF_Intellisense.gif)
+![Using Intellisense for the ReadResource method](media/pj15_PrerequisitesWCF_Intellisense.gif "Using Intellisense for the ReadResource method")
   
 Disadvantages to using the proxy assembly are that the solution is larger and you must distribute and install the proxy assembly with the solution. You must also use the same namespaces that are in the proxy assembly and IntelliSense files, unless you change the script to build a proxy assembly and change the ProjectServerServices.xml IntelliSense file to use different namespaces.
   
@@ -206,7 +206,7 @@ The following steps show how to set a service reference by using Visual Studio 2
     
     **Figure 3. Adding the WCF-based Resource service reference**
 
-    ![Adding the WCF-based Resource service reference](media/pj15_PrerequisitesWCF_AddSvcReference.gif)
+    ![Adding the WCF-based Resource service reference](media/pj15_PrerequisitesWCF_AddSvcReference.gif "Adding the WCF-based Resource service reference")
   
 5. Replace the temporary web.config file in the Project Service directory with the original (renamed to web.config), and then rerun  `iisreset`.
     
@@ -321,13 +321,13 @@ You can edit an app.config file by using the **WCF Service Configuration Editor*
   
 **Figure 4. Using the WCF Service Configuration Editor**
 
-![Using the WCF Service Configuration Editor](media/pj15_PrerequisitesWCF_ServiceConfigurationEditor.gif)
+![Using the WCF Service Configuration Editor](media/pj15_PrerequisitesWCF_ServiceConfigurationEditor.gif "Using the WCF Service Configuration Editor")
   
 If the solution is using a service proxy file, such as wcfResource.cs, compile the application and then open the executable file in the  `bin\debug` directory. For more information about editing the app.config file, see [Walkthrough: Developing PSI applications using WCF](http://msdn.microsoft.com/library/65707234-c3da-44e4-8364-32a6be28f645%28Office.15%29.aspx).
   
 **Figure 5. Using the Contract Type Browser in the WCF Service Configuration Editor**
 
-![Using the Contract Type Browser](media/pj15_PrerequisitesWCF_ContractTypeBrowser.gif)
+![Using the Contract Type Browser](media/pj15_PrerequisitesWCF_ContractTypeBrowser.gif "Using the Contract Type Browser")
   
 ## Using multiple authentication
 <a name="pj15_PrerequisitesWCF_ClaimsMultiAuth"> </a>

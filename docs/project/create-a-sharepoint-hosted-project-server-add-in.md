@@ -5,7 +5,7 @@ ms.date: 8/10/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: bb9c3c00-7121-41e1-9db3-75550d040ba8
-description: "Of the three types of apps that you can create for Project Online (autohosted, provider-hosted, and SharePoint-hosted), the SharePoint-hosted app is the simplest to create and deploy. A SharePoint-hosted app does not require OAuth authentication, and does not use Azure or require maintenance of a local site for the provider-hosted resources. The App for SharePoint 2013 template in Visual Studio is a convenient framework for developing apps that can be published and sold in the Office Store or deployed to a private app catalog on SharePoint."
+description: "Of the three types of apps that you can create for Project Online (autohosted, provider-hosted, and SharePoint-hosted), the SharePoint-hosted app is the simplest to create and deploy."
 ---
 
 # Create a SharePoint-hosted Project Server add-in
@@ -69,7 +69,7 @@ To modify the Project Web App ribbon, you can add a ribbon custom action. The [E
     
    **Figure 1. Creating a Project Server app in Visual Studio**
 
-   ![Creating a Project Server app in Visual Studio](media/pj15_CreateStatusingApp_NewProject.gif)
+   ![Creating a Project Server app in Visual Studio](media/pj15_CreateStatusingApp_NewProject.gif "Creating a Project Server app in Visual Studio")
   
 4. In the **New app for SharePoint** dialog box, fill in the following three fields: 
     
@@ -92,7 +92,7 @@ To modify the Project Web App ribbon, you can add a ribbon custom action. The [E
     
    **Figure 2. Setting the permission scope for a statusing app**
 
-   ![Setting the permission scope for a statusing app](media/pj15_CreateStatusingApp_PermissionScope.gif)
+   ![Setting the permission scope for a statusing app](media/pj15_CreateStatusingApp_PermissionScope.gif "Setting the permission scope for a statusing app")
   
 The **QuickStatus** app enables a Project Web App user to read assignments for that user from multiple projects, change the assignment percent complete, and submit the update. The other permission request scopes shown in the drop-down list in Figure 2 are not required for this app. The permission request scopes are the permissions that the app requests on behalf of the user. If the user does not have those permissions in Project Web App, the app does not run. An app can have multiple permission request scopes, including those for other SharePoint permissions, but should have only the minimum necessary for the app functionality. Following are the permission request scopes that are related to Project Server: 
 
@@ -121,7 +121,7 @@ Before you start coding the HTML content, design the user interface and user exp
   
 **Figure 3. Design of the QuickStatus app page**
 
-![Design of the QuickStatus app page](media/pj15_CreateStatusingApp_AfterRefresh.gif)
+![Design of the QuickStatus app page](media/pj15_CreateStatusingApp_AfterRefresh.gif "Design of the QuickStatus app page")
   
 The app shows the display name at the top, which is the value of the **Title** element in AppManifest.xml. 
   
@@ -518,19 +518,19 @@ Although the groups and controls in each region look similar, a control for the 
     
    **Figure 4. Adding a ribbon custom action**
 
-   ![Adding a ribbon custom action](media/pj15_CreateStatusingApp_AddRibbonCustomAction.gif)
+   ![Adding a ribbon custom action](media/pj15_CreateStatusingApp_AddRibbonCustomAction.gif "Adding a ribbon custom action")
   
 3. On the first page of the **Create Custom Action for Ribbon** wizard, leave the **Host Web** option selected, choose **None** in the drop-down list for the custom action scope, and then choose **Next** (see Figure 5). The items in the drop-down lists are relevant to SharePoint, not to Project Server. We will replace most of the generated XML for the custom action so that it applies to Project Server. 
     
    **Figure 5. Specifying properties for the ribbon custom action**
 
-   ![Specifying properties for the ribbon custom action](media/pj15_CreateStatusingApp_RibbonCustomAction2.gif)
+   ![Specifying properties for the ribbon custom action](media/pj15_CreateStatusingApp_RibbonCustomAction2.gif "Specifying properties for the ribbon custom action")
   
 4. On the next page of the **Create Custom Action for Ribbon** wizard, leave all the default values for the settings, and then choose **Finish** (see Figure 6). Visual Studio creates the **RibbonQuickStatusAction** folder, which contains an Elements.xml file. 
     
    **Figure 6. Specifying the settings for a button control**
 
-   ![Specifying the settings for a button control](media/pj15_CreateStatusingApp_RibbonCustomAction3.gif)
+   ![Specifying the settings for a button control](media/pj15_CreateStatusingApp_RibbonCustomAction3.gif "Specifying the settings for a button control")
   
 5. Modify the default generated code in the Elements.xml file for the ribbon custom action. Following is the default XML code:
     
@@ -624,7 +624,7 @@ As you develop the app and add a ribbon button, you normally test the app and se
   
 **Figure 7. Viewing the tooltip of the disabled Quick Status button**
 
-![Viewing the tooltip of the disabled button](media/pj15_CreateStatusingApp_ButtonToolTipDisabled.gif)
+![Viewing the tooltip of the disabled button](media/pj15_CreateStatusingApp_ButtonToolTipDisabled.gif "Viewing the tooltip of the disabled button")
   
 Procedure 5 shows how to deploy and install the **QuickStatus** app. Procedure 6 shows some additional steps in testing the app after you have installed it. 
 
@@ -645,7 +645,7 @@ There are several ways to deploy an app to a SharePoint web application such as 
     
    **Figure 8. Publishing the QuickStatus app**
 
-   ![Using the Publish Wizard](media/pj15_CreateStatusingApp_PublishWizard.gif)
+   ![Using the Publish Wizard](media/pj15_CreateStatusingApp_PublishWizard.gif "Using the Publish Wizard")
   
 3. Copy the QuickStatus.app file from the  `~\QuickStatus\bin\Debug\app.publish\1.0.0.0` directory to a convenient directory on the local computer (or to the SharePoint computer for an on-premises installation). 
     
@@ -669,7 +669,7 @@ There are several ways to deploy an app to a SharePoint web application such as 
     
       **Figure 9. Adding an icon URL for the QuickStatus app**
 
-      ![Setting properties in SharePoint for the app](media/pj15_CreateStatusingApp_AddAppToSharePointSettings.gif)
+      ![Setting properties in SharePoint for the app](media/pj15_CreateStatusingApp_AddAppToSharePointSettings.gif "Setting properties in SharePoint for the app")
   
    4. **Category** field: Choose an existing category, or specify your own value. For example, type Statusing.
     
@@ -686,25 +686,25 @@ There are several ways to deploy an app to a SharePoint web application such as 
     
       **Figure 10. The QuickStatus app is added to the Apps for SharePoint library.**
 
-      ![The QuickStatus app is added to SharePoint](media/pj15_CreateStatusingApp_AddAppToSharePoint.gif)
+      ![The QuickStatus app is added to SharePoint](media/pj15_CreateStatusingApp_AddAppToSharePoint.gif "The QuickStatus app is added to SharePoint")
   
 9. In Project Web App, in the **Settings** drop-down menu, choose **Add an app**. On the Your Apps page, in the Quick Launch, choose **From Your Organization**, and then choose **App Details** for the **Quick Status Update** app. Figure 11 shows the details page with the app icon, screenshot, and other information that you added in the previous step. 
     
    **Figure 11. Using the Quick Status Update details page in Project Web App**
 
-   ![Adding the QuickStatus app to Project Web App](media/pj15_CreateStatusingApp_AddAppToPWA.gif)
+   ![Adding the QuickStatus app to Project Web App](media/pj15_CreateStatusingApp_AddAppToPWA.gif "Adding the QuickStatus app to Project Web App")
   
 10. On the Quick Status Update details page, choose **ADD IT**. Project Web App displays a dialog box that lists the operations that the QuickStatus app can perform (see Figure 12). The list of operations is derived from the **AppPermissionRequest** elements in the AppManifest.xml file. 
     
     **Figure 12. Verifying that you trust the Quick Status app**
 
-    ![Verifying trust for the QuickStatus app](media/pj15_CreateStatusingApp_AddAppToPWA2Trust.gif)
+    ![Verifying trust for the QuickStatus app](media/pj15_CreateStatusingApp_AddAppToPWA2Trust.gif "Verifying trust for the QuickStatus app")
   
 11. In the **Do you trust Quick Status Update** dialog box, choose **Trust It**. The app is added to the Project Web App Site Contents page (see Figure 13).
     
     **Figure 13. Viewing the Quick Status app on the Site Contents page**
 
-    ![Viewing the QuickStatus app in Site Contents](media/pj15_CreateStatusingApp_AddAppToPWA3.gif)
+    ![Viewing the QuickStatus app in Site Contents](media/pj15_CreateStatusingApp_AddAppToPWA3.gif "Viewing the QuickStatus app in Site Contents")
   
 On the Site Contents page, you can select the **Quick Status Update** icon to run the app.
 
@@ -715,7 +715,7 @@ On the Tasks page in Project Web App (see Figure 14), the **QuickStatus** button
 
 **Figure 14. Starting the QuickStatus app from the TASKS tab**
 
-![Starting the QuickStatus app from the TASKS tab](media/pj15_CreateStatusingApp_TasksRibbon.gif)
+![Starting the QuickStatus app from the TASKS tab](media/pj15_CreateStatusingApp_TasksRibbon.gif "Starting the QuickStatus app from the TASKS tab")
   
 Procedure 6 shows some tests to make with the QuickStatus app.
 
@@ -748,25 +748,25 @@ Every operation that a user might try in the **QuickStatus** app should be teste
     
       **Figure 15. Updating an assignment in the QuickStatus app**
 
-      ![Updating an assignment in the QuickStatus app](media/pj15_CreateStatusingApp_Testing1Update.gif)
+      ![Updating an assignment in the QuickStatus app](media/pj15_CreateStatusingApp_Testing1Update.gif "Updating an assignment in the QuickStatus app")
   
 3. Choose **Refresh** (see Figure 16). All of the tasks are selected again, and the top task shows 80% complete. 
     
       **Figure 16. Refreshing the Quick Status Update page**
 
-      ![Refreshing the QuickStatus page](media/pj15_CreateStatusingApp_Testing2Refresh.gif)
+      ![Refreshing the QuickStatus page](media/pj15_CreateStatusingApp_Testing2Refresh.gif "Refreshing the QuickStatus page")
   
 4. Clear all of the check boxes, and then select another task. For example, select **New task from PWA**. Leave the **Set percent complete** text box empty, delete all text in the **% complete** column for the selected task, and then choose **Update**. Because both text boxes are empty, the app shows a red error message (see Figure 17).
     
       **Figure 17. Testing the error message**
 
-      ![Testing the error message](media/pj15_CreateStatusingApp_Testing3Error.gif)
+      ![Testing the error message](media/pj15_CreateStatusingApp_Testing3Error.gif "Testing the error message")
   
 5. Update the previous task to 80% complete, and then choose **Exit**. The **exitToPwa** function changes the browser window location to the Tasks page in the SharePoint host application (that is, the URL changes to https://ServerName/pwa/Tasks.aspx). Figure 18 shows that the **T1** task and the **New task from PWA** task each show 80% complete. 
     
       **Figure 18. Verifying the tasks are updated in Project Web App**
 
-      ![Verifying the updated tasks in Project Web App](media/pj15_CreateStatusingApp_TasksUpdatedInPWA.gif)
+      ![Verifying the updated tasks in Project Web App](media/pj15_CreateStatusingApp_TasksUpdatedInPWA.gif "Verifying the updated tasks in Project Web App")
   
 6. Before the updated status shows in Project Professional 2013, the changes must be submitted for approval, and then approved by the project manager.
     

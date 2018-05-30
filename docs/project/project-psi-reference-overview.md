@@ -198,11 +198,11 @@ The PSI is a set of WCF services and identical ASMX web services for Project Ser
 > [!NOTE]
 > The PSI reference includes placeholder nameservice names for the PSI services such as  _[Admin web service]_,  _[Driver web service]_, and  _[Project web service]_. Each PSI nameservice includes a primary class that contains the web methods for that service. For example, if you set a reference to the **Admin** service and name it **WebSvcAdmin**, then in your application the **WebSvcAdmin** nameservice includes the primary **Admin** class that has the web methods **GetServerCurrency**, **ListInstalledLanguages**, **ReadServerVersion**, and so on. See [Updates for developers in Project 2013](updates-for-developers-in-project-2013.md) for a list of deprecated PSI services. 
   
-Of the 30 total PSI services, **authentication**, **ExchangeSync**, **OData**, **P12Upgrade**, **psiserviceapp**, **PWA**, **View**, and **WinProj** are for internal use by Project Web App and Project Professional and are not documented. Although you can create proxy files or a proxy assembly that includes the PSI internal services, the internal services are not for third-party use; the PSI reference does not document those services. Figure 1 shows the location of the back-end PSI services in Internet Information Services Manager. 
+Of the 30 total PSI services, **authentication**, **ExchangeSync**, **OData**, **P12Upgrade**, **psiserviceapp**, **PWA**, **View**, and **WinProj** are for internal use by Project Web App and Project Professional and are not documented. Although you can create proxy files or a proxy assembly that includes the PSI internal services, the internal services are not for third-party use; the PSI reference does not document those services. The following figure shows the location of the back-end PSI services in Internet Information Services Manager. 
   
-**Figure 1. Locating the PSI services in IIS**
+**Locating the PSI services in IIS**
 
-![PSI services in IIS Manager](media/pj15_PSIReference_IIS.gif)
+![PSI services in IIS Manager](media/pj15_PSIReference_IIS.gif "PSI services in IIS Manager")
   
 The following are all of the classes that contain web methods in the PSI services:
   

@@ -76,7 +76,7 @@ The following illustration shows the relationship between an **SRow** and an **S
   
 **Relationship between SRow and SRowSet**
   
-![Relationship between SRow and SRowSet](media/amapi_17.gif)
+![Relationship between SRow and SRowSet](media/amapi_17.gif "Relationship between SRow and SRowSet")
   
 **SRow** structures are defined the same as [ADRENTRY](adrentry.md) structures. Therefore, a row of a recipient table and an entry in an address list can be treated the same. 
   

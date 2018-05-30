@@ -75,7 +75,7 @@ Before running the code samples, you must set up the development environment, co
     
    **Figure 1. Adding a reference in Visual Studio**
 
-   ![Adding a reference in Visual Studio](media/pj15_PrerequisitesASMX_AddReference.gif)
+   ![Adding a reference in Visual Studio](media/pj15_PrerequisitesASMX_AddReference.gif "Adding a reference in Visual Studio")
   
 3. **Copy the code**.
     
@@ -172,7 +172,7 @@ An advantage to using the ASMX-based proxy assembly is that it includes all PSI 
   
 **Figure 2. Using IntelliSense for a method in the Project web service**
 
-![Using Intellisense for a method in a PSI service](media/pj15_PrerequisitesASMX_Intellisense.gif)
+![Using Intellisense for a method in a PSI service](media/pj15_PrerequisitesASMX_Intellisense.gif "Using Intellisense for a method in a PSI service")
   
 Disadvantages to using the proxy assembly are that the solution is larger and you must distribute and install the proxy assembly with the solution. You must also use the same namespaces that are in the proxy assembly and IntelliSense files, unless you change the script and ProjectServerServices.xml IntelliSense file to use different namespaces.
   
@@ -229,7 +229,7 @@ If you do not use the ASMX-based proxy assembly or add a WSDL output file, you c
     
    **Figure 3. Adding an ASMX web service reference**
 
-   ![Adding an ASMX web service reference](media/pj15_PrerequisitesASMX_AddWebSvcReference.gif)
+   ![Adding an ASMX web service reference](media/pj15_PrerequisitesASMX_AddWebSvcReference.gif "Adding an ASMX web service reference")
   
 For application components that must run on the Project Server computer, use impersonation, or have elevated permissions, use a WCF service reference instead of an ASMX web reference. For more information, see [Prerequisites for WCF-based code samples in Project](prerequisites-for-wcf-based-code-samples-in-project.md).
   

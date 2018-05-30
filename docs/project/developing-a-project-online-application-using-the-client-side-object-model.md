@@ -189,7 +189,7 @@ Preparations to access the hosted environment include the following items:
 
    When instantiating the projects context, the application needs to provide the root of the Projects site collection. The application uses a substring of the URL of the root of the Projects. A snapshot of this location is highlighted with a red rectangle in the following illustration. The authentication needs the string from its start through the substring "pwa". In the code listing, the application uses the string "https://XXXXXXXX.sharepoint.com/sites/pwa".
         
-   ![Screen shot of the URL of the Projects site collection within a red border.](media/d48c4894-5dba-46b6-886a-3c59bfb83c4d.png)
+   ![Screen shot of the URL of the Projects site collection within a red border.](media/d48c4894-5dba-46b6-886a-3c59bfb83c4d.png "Screen shot of the URL of the Projects site collection within a red border")
   
 3. Place the password in a secure string -- this is done in the following code from the preceding code fragment.
     

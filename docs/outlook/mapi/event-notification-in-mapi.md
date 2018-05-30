@@ -1,5 +1,5 @@
 ---
-title: "Event Notification in MAPI"
+title: "Event notification in MAPI"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,24 +8,18 @@ api_type:
 - COM
 ms.assetid: 7b3b625b-6dea-4b12-99a9-152935bdfe39
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
-# Event Notification in MAPI
+# Event notification in MAPI
 
-  
-  
 **Applies to**: Outlook 
   
 Event notification is the communication of information between two MAPI objects. Through one of the objects, a client or service provider registers for notification of a change or error, called an event, which may take place in the other object. After the event occurs, the first object is notified of the change or error. The object receiving the notification is called the advise sink; the object responsible for the notification is called the advise source.
   
 There are three types of advise sink objects (all types are standard MAPI objects):
   
-- Advise sink objects.
-    
-- Form advise sink objects.
-    
+- Advise sink objects.   
+- Form advise sink objects.  
 - View advise sink objects.
     
 Advise sink objects are the most common type. Advise sinks are typically implemented by client applications to receive address book and message store notifications and support the [IMAPIAdviseSink : IUnknown](imapiadvisesinkiunknown.md) interface. **IMAPIAdviseSink** contains a single method, [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md). Form and view advise sinks are less common; they are implemented to receive notifications about changes to custom forms. Form advise sinks support the [IMAPIFormAdviseSink : IUnknown](imapiformadvisesinkiunknown.md) interface and view advise sinks support the [IMAPIViewAdviseSink : IUnknown](imapiviewadvisesinkiunknown.md) interface. Because most clients implement standard advise sink objects, assume that discussions of notifications relate to address book and message store notifications rather than forms notifications. For more information about forms notifications, see [MAPI Forms Notifications](mapi-forms-notifications.md) and [Writing Form Server Code](writing-form-server-code.md).
@@ -56,9 +50,9 @@ When it is time to generate a notification, service providers perform any intern
   
 The following illustration shows the communication between advise sink objects, advise source objects, and MAPI. MAPI is involved only when the advise source calls the **IMAPISupport** methods for notification support. 
   
- **Event notification calls**
+**Event notification calls**
   
-![Event notification calls](media/amapi_51.gif)
+![Event notification calls](media/amapi_51.gif "Event notification calls")
   
 The MFCMAPI **CAdviseSink** class (using the AdviseSink.h and AdviseSink.cpp files) implements the advise sink object for all calls to **Advise**. For more information about MFCMAPI, see [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md) and [MFCMAPI](http://go.microsoft.com/fwlink/?LinkId=124154).
   

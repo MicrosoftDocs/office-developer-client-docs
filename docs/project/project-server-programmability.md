@@ -1,11 +1,8 @@
 ---
 title: "Project Server programmability"
-
- 
 manager: soliver
 ms.date: 9/17/2015
 ms.audience: Developer
- 
 f1_keywords:
 - events
 - PDS
@@ -25,7 +22,6 @@ f1_keywords:
 - WSS
 keywords:
 - project 2013, architecture and programmability,PSI,Projects, versions,Programmability, Project Server,PSI, limitations,Project Server Interface, unsupported features,Project Server Interface, PDS compatibility,Project Server Interface, generic,Project Server, project versions,Versions, projects,Project Server, databases,Project 2013, platform,Project Server Interface, use scenarios,Project Server, events,Project Server,Project Data Service, compatibility with PSI,Project Server Interface
- 
 localization_priority: Normal
 ms.assetid: a93d2153-5132-4289-af51-69350471e248
 description: "Learn about the major programmability features in Project Server 2013. This article includes information about porting applications that were built for previous versions of Project Server."
@@ -34,11 +30,7 @@ description: "Learn about the major programmability features in Project Server 2
 # Project Server programmability
 
 Learn about the major programmability features in Project Server 2013. This article includes information about porting applications that were built for previous versions of Project Server.
-  
-|||
-|:-----|:-----|
-|||
-   
+
 Project Server 2013 is designed to support most applications that were developed for Project Server 2010 and new solutions for multiple platforms, where apps can access both online and on-premises Project Server installations. Applications and extensions that were developed for Project Server 2003 or earlier must be redesigned to use the client-side object model (CSOM) or the Project Server Interface (PSI). Applications that were developed for Office Project Server 2007 or Project Server 2010 may require some changes and recompiling to use the PSI; to use the CSOM, those applications require a redesign.
   
 The Project Server platform enables high levels of programmer productivity by building on SharePoint Server 2013, .NET Framework 4, and the OData protocol with the CSOM. Developers can extend Project Web App with apps, app parts, and Web Parts, define workflows by using SharePoint Designer 2013, and enforce business rules by using remote event receivers for Project Server events.
@@ -59,7 +51,7 @@ The Project Service Application is a logical service provider that can manage mu
   
 **Figure 1. Using the Edit Page menu in Project Web App**
 
-![Editing the Home page in Project Web Access](media/pj15_Programmability_PWAHome.gif)
+![Editing the Home page in Project Web Access](media/pj15_Programmability_PWAHome.gif "Editing the Home page in Project Web Access")
   
 To access the Site Settings page in Project Web App, choose the **Settings** icon in the top-right corner of the page. The Site Settings page (  `http://ServerName/ProjectServerName/_layouts/15/settings.aspx`) enables changing the look and feel and the site theme, adding custom Web Parts, and modifying or creating master pages for project sites.
   
@@ -79,7 +71,7 @@ The PSEntityProvision.xsd schema file is available in the Project 2013 SDK downl
   
 **Figure 2. Visual Studio view of the Project Server entity provisioning schema**
 
-![View of the Project Server entity schema](media/pj15_Programmability_EntitySchema.gif)
+![View of the Project Server entity schema](media/pj15_Programmability_EntitySchema.gif "View of the Project Server entity schema")
   
 SharePoint packages that install features for Project Server can contain one or more elements.xml files that follow the **PSEntityProvision** schema. The Project Server entities in a single XML file must appear in the following order: 
   
@@ -136,7 +128,7 @@ The CSOM can be used by copying the following resources to your local developmen
   
 - For .NET Framework 4 development, copy the  `%ProgramFiles%\Common Files\Microsoft Shared\Web Server Extensions\15\ISAPI\Microsoft.ProjectServer.Client.dll` assembly. 
     
-    For documentation of the CSOM classes and members, see the [Microsoft.ProjectServer.Client](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.aspx) namespace. For an example application, see [Getting started with the CSOM and .NET](getting-started-with-the-project-server-csom-and-net.md).
+  For documentation of the CSOM classes and members, see the [Microsoft.ProjectServer.Client](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.aspx) namespace. For an example application, see [Getting started with the CSOM and .NET](getting-started-with-the-project-server-csom-and-net.md).
     
 - For Microsoft Silverlight development, copy the  `%ProgramFiles%\Common Files\Microsoft Shared\Web Server Extensions\15\TEMPLATE\LAYOUTS\ClientBin\Microsoft.ProjectServer.Client.Silverlight.dll` assembly. 
     
@@ -175,8 +167,8 @@ The PSI in Project Server 2013 is a superset of the PSI object model in Office P
     
 - Applications that rely on or modify specific Project Server security settings.
     
-    > [!NOTE]
-    > A default on-premises installation of Project Server 2013 uses the SharePoint permission mode, where Project Server security settings are not accessible through the PSI. To change to the Project permission mode, see the  *SharePoint Permission Mode*  section in [What's new for IT pros in Project Server 2013](http://technet.microsoft.com/en-us/library/ff631142%28office.15%29.aspx#section13). 
+  > [!NOTE]
+  > A default on-premises installation of Project Server 2013 uses the SharePoint permission mode, where Project Server security settings are not accessible through the PSI. To change to the Project permission mode, see the  *SharePoint Permission Mode*  section in [What's new for IT pros in Project Server 2013](http://technet.microsoft.com/en-us/library/ff631142%28office.15%29.aspx#section13). 
   
 - For many custom Project Server workflows, you can use SharePoint Designer 2013 to create declarative workflows. For custom workflows that require additional programming, you should  *not*  directly use classes or members in the **Microsoft.Office.Project.Server.Workflow** namespace. Instead, use the [Microsoft.ProjectServer.Client.WorkflowActivities](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.WorkflowActivities.aspx) class in the CSOM. 
     
@@ -204,8 +196,8 @@ When you migrate a solution to Project Server 2013, or if a solution does not wo
     
 - Add the ProjectServerServices.dll proxy assembly that you can build from the WCF proxy source files in the Project 2013 SDK download, or add the proxy source files for the required WCF services. For ASMX services, add the front-end ASMX web service references again, by using the same namespace names; or add the ProjectServerServices.dll proxy assembly that you can build from the WSDL sources in the Project 2013 SDK download.
     
-    > [!NOTE]
-    > In the Project 2013 SDK download, the namespaces in the proxy source files all start with  *Svc*  . For example, the **Resource** service namespace in the WCF proxy file and in the ASMX proxy file is **SvcResource**. > If your application uses different namespace names, you can either recompile the proxy assembly to use your namespaces, or change the PSI namespaces in your application. For example, you can modify the CompileWCFProxyAssembly.cmd script and recompile ProjectServerServices.dll from the proxy source files in the SDK download. 
+  > [!NOTE]
+  > In the Project 2013 SDK download, the namespaces in the proxy source files all start with  *Svc*  . For example, the **Resource** service namespace in the WCF proxy file and in the ASMX proxy file is **SvcResource**. > If your application uses different namespace names, you can either recompile the proxy assembly to use your namespaces, or change the PSI namespaces in your application. For example, you can modify the CompileWCFProxyAssembly.cmd script and recompile ProjectServerServices.dll from the proxy source files in the SDK download. 
   
 - If you change from using the ASMX interface of the PSI to the WCF interface, you can initialize the client classes either programmatically or by using WCF endpoints in app.config. Use programmatic initialization when you have to quickly switch to different instances of Project Web App, or when you are developing a web part that uses the PSI.
     
@@ -254,17 +246,17 @@ You can handle the PSI scheduling limitations in the following ways:
     
 There are flags in the reporting tables and the cubes that help you detect when some project data is not updated. The reporting data in the MSP_EpmProject table and in MSP_EpmProject_UserView includes the following fields: 
   
--  _ProjectWbsIsStale_ Indicates whether the work breakdown structure (task outline hierarchy) is stale. 
+-  _ProjectWbsIsStale_ &ndash; Indicates whether the work breakdown structure (task outline hierarchy) is stale. 
     
--  _ProjectEarnedValueIsStale_ Indicates the earned value fields are stale. 
+-  _ProjectEarnedValueIsStale_ &ndash; Indicates the earned value fields are stale. 
     
--  _ProjectRollupsAreStale_ Indicates that a subproject is updated in the draft database, but the master project is not updated. The rolled-up values from the subproject are stale. 
+-  _ProjectRollupsAreStale_ &ndash; Indicates that a subproject is updated in the draft database, but the master project is not updated. The rolled-up values from the subproject are stale. 
     
--  _ProjectHierarchyNotSynchronized_ The master project is not synchronized with its children. This happens when the child projects are published explicitly, not as part of the master project publishing. 
+-  _ProjectHierarchyNotSynchronized_ &ndash; The master project is not synchronized with its children. This happens when the child projects are published explicitly, not as part of the master project publishing. 
     
--  _ProjectCalculationsAreStale_ Project Professional saved a project without calculating the schedule (that is, the calculation mode is set to **Manual** on the **Schedule** tab in the **Project Options** dialog box). 
+-  _ProjectCalculationsAreStale_ &ndash; Project Professional saved a project without calculating the schedule (that is, the calculation mode is set to **Manual** on the **Schedule** tab in the **Project Options** dialog box). 
     
--  _ProjectGhostTaskAreStale_ Similar to  _ProjectHierarchyNotSynchronized_, but warns on cross-project link data. It is possible that no master project exists, but the project data on one side of the link is newer than on the other side.
+-  _ProjectGhostTaskAreStale_ &ndash; Similar to  _ProjectHierarchyNotSynchronized_, but warns on cross-project link data. It is possible that no master project exists, but the project data on one side of the link is newer than on the other side.
     
 ## About accessing the Project Server database
 <a name="pj15_Programmability_Databases"> </a>
@@ -281,30 +273,18 @@ For all of these reasons, Project Professional and Project Web App do not make d
 The schemas for the draft, published, and archive tables are not documented. You can use the reporting tables to help generate reports, and the schema for the reporting tables and views is documented in the Project 2013 SDK download. For the OData schema of the reporting data, see [ProjectData - Project OData service reference](projectdataproject-odata-service-reference.md).
   
 ## See also
-<a name="pj15_Programmability_AR"> </a>
 
-- [Updates for developers in Project 2013](updates-for-developers-in-project-2013.md)
-    
-- [Project Server 2013 architecture](project-server-2013-architecture.md)
-    
-- [What the PSI does and does not do](what-the-psi-does-and-does-not-do.md)
-    
-- [What the CSOM does and does not do](what-the-csom-does-and-does-not-do.md)
-    
-- [Client-side object model (CSOM) for Project 2013](client-side-object-model-csom-for-project-2013.md)
-    
-- [Getting started developing Project Server workflows](getting-started-developing-project-server-workflows.md)
-    
-- [Project 2013 programming references](project-2013-programming-references.md)
-    
-- [Project PSI reference overview](project-psi-reference-overview.md)
-    
-- [Create custom actions to deploy with apps for SharePoint](http://msdn.microsoft.com/en-us/library/office/apps/jj163954%28v=office.15%29.aspx)
-    
-- [Introducing Inactive Tasks in Project 2010](http://blogs.msdn.com/b/project/archive/2010/06/10/introducing-inactive-tasks-in-project-2010.aspx)Link
-    
+- [Updates for developers in Project 2013](updates-for-developers-in-project-2013.md)    
+- [Project Server 2013 architecture](project-server-2013-architecture.md)    
+- [What the PSI does and does not do](what-the-psi-does-and-does-not-do.md)   
+- [What the CSOM does and does not do](what-the-csom-does-and-does-not-do.md)    
+- [Client-side object model (CSOM) for Project 2013](client-side-object-model-csom-for-project-2013.md)    
+- [Getting started developing Project Server workflows](getting-started-developing-project-server-workflows.md)    
+- [Project 2013 programming references](project-2013-programming-references.md)    
+- [Project PSI reference overview](project-psi-reference-overview.md)    
+- [Create custom actions to deploy with apps for SharePoint](http://msdn.microsoft.com/en-us/library/office/apps/jj163954%28v=office.15%29.aspx)    
+- [Introducing Inactive Tasks in Project 2010](http://blogs.msdn.com/b/project/archive/2010/06/10/introducing-inactive-tasks-in-project-2010.aspx)    
 - [Project Server 2010: Scheduling on the Web, the PSI and Project Professional](http://blogs.msdn.com/b/brismith/archive/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional.aspx?wa=wsignin1.0)
-    
 - [Web-Based Schedule Management Comparison](http://www.microsoft.com/project/en/us/project-server-2010-editions.aspx)
     
 

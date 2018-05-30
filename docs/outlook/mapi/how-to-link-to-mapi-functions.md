@@ -22,7 +22,7 @@ Historically, calling MAPI functions in a messaging application always involved 
   
 **Comparison of implicit and explicit linking.**
 
-![Comparison of implicit and explicit linking](media/09d9c49a-a52d-4407-9013-d0d14c8f63f6.gif)
+![Comparison of implicit and explicit linking](media/09d9c49a-a52d-4407-9013-d0d14c8f63f6.gif "Comparison of implicit and explicit linking")
   
 ## Explicit linking
 
@@ -107,16 +107,11 @@ The advent of Microsoft Outlook 2010 and 64-bit MAPI, now extending to the Micro
   
 Some of the new functions linked from this library that are not available in Mapi32.lib include the following:
   
-- [GetDefCachedMode](getdefcachedmode.md)
-    
-- [HrGetGALFromEmsmdbUID](hrgetgalfromemsmdbuid.md)
-    
-- [HrOpenOfflineObj](hropenofflineobj.md)
-    
-- [MAPICrashRecovery](mapicrashrecovery.md)
-    
-- [OpenStreamOnFileW](openstreamonfilew.md)
-    
+- [GetDefCachedMode](getdefcachedmode.md)    
+- [HrGetGALFromEmsmdbUID](hrgetgalfromemsmdbuid.md)   
+- [HrOpenOfflineObj](hropenofflineobj.md)    
+- [MAPICrashRecovery](mapicrashrecovery.md)   
+- [OpenStreamOnFileW](openstreamonfilew.md)    
 - [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md)
     
 An alternate method of incorporating the MAPI Stub Library is to copy the source files, MapiStubLibrary.cpp and StubUtils.cpp, directly into your project and remove any linkage to Mapi32.lib and any code that explicitly links to MAPI.

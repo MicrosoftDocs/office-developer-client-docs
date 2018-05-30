@@ -14,7 +14,7 @@ This article describes Microsoft Project Online Add-in development to enhance yo
   
 At run time, the add-in listing looks similar to the following illustration:
   
-![Screen shot showing a listing of JSOM projects and tasks](media/766e5914-f048-48f4-9282-291f55e6e90d.png)
+![Screen shot showing a listing of JSOM projects and tasks](media/766e5914-f048-48f4-9282-291f55e6e90d.png "Screen shot showing a listing of JSOM projects and tasks")
   
 The focus of the example is the interaction with the Project Online, making queries and setting the context for each request from the service. User interface (UI) elements receive minimal attention. Instead, the source listings provide comments regarding the UI.
   
@@ -322,7 +322,7 @@ The displayTasks function displays the tasks associated with a specified project
   
 Sample output for the tasks of a single project follows.
   
-![Screen shot showing the output for a project task](media/f6500a3f-000b-4f3e-9be6-9a74d0bea15e.png)
+![Screen shot showing the output for a project task](media/f6500a3f-000b-4f3e-9be6-9a74d0bea15e.png "Screen shot showing the output for a project task")
   
 ## See also
 

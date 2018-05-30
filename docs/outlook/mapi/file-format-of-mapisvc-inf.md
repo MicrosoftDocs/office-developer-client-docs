@@ -34,7 +34,7 @@ The following illustration shows the organization of a typical MapiSvc.inf file.
   
 **MapiSvc.inf file organization**
   
-![MapiSvc.inf file organization](media/amapi_30.gif)
+![MapiSvc.inf file organization](media/amapi_30.gif "MapiSvc.inf file organization")
   
 MAPI provides a skeletal version of the MapiSvc.inf file that contains the entries for the MAPI subsystem. Each message service implementer adds entries that are appropriate both for their service and the service providers that belong to their service. Some of the entries are required while others are optional. For example, MAPI requires that you specify the name and path of each of the service providers in your message service. Without this information, they cannot be loaded.
   

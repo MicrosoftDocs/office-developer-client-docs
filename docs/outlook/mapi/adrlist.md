@@ -1,7 +1,5 @@
 ---
 title: "ADRLIST"
- 
- 
 manager: soliver
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -18,8 +16,6 @@ description: "Last modified: March 09, 2015"
 
 # ADRLIST
 
-  
-  
 **Applies to**: Outlook 
   
 Describes zero or more properties that belong to one or more recipients. 
@@ -40,25 +36,25 @@ typedef struct _ADRLIST
 
 ## Members
 
- **cEntries**
+**cEntries**
   
 > Count of entries in the array specified by the **aEntries** member. 
     
- **aEntries**
+**aEntries**
   
 > Array of [ADRENTRY](adrentry.md) structures, one structure for each recipient. 
     
 ## Remarks
 
-An **ADRLIST** structure contains one or more **ADRENTRY** structures, each describing the properties of a recipient. A recipient can be unresolved. This means that it is lacking an entry identifier in its array of property values. A resolved recipient means that the **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) property is included. Typically, resolved recipients also have an email address the **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) property. However, the email address is not required. **ADRLIST** structures are used, for example, to describe the recipient list for an outgoing message and by MAPI to display the entries in the address book. 
+An **ADRLIST** structure contains one or more **ADRENTRY** structures, each describing the properties of a recipient. A recipient can be unresolved. This means that it is lacking an entry identifier in its array of property values. A resolved recipient means that the **PR\_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) property is included. Typically, resolved recipients also have an email address the **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) property. However, the email address is not required. **ADRLIST** structures are used, for example, to describe the recipient list for an outgoing message and by MAPI to display the entries in the address book. 
   
- **ADRLIST** structures resemble [SRowSet](srowset.md) structures the structures used for representing rows in tables. In fact, these two structures are designed so that they can be used interchangeably. Both contain an array of structures describing a group of properties and a count of the values in the array. Whereas in the **ADRLIST** structure, the array contains [ADRENTRY](adrentry.md) structures, in the **SRowSet** structure the array contains [SRow](srow.md) structures. **ADRENTRY** structures and **SRow** structures are identical in layout. Because **ADRLIST** and **SRowSet** structures follow the same allocation rules, an **SRowSet** structure that is retrieved from the contents table of an address book container can be cast to an **ADRLIST** structure and used as is. 
+**ADRLIST** structures resemble [SRowSet](srowset.md) structures the structures used for representing rows in tables. In fact, these two structures are designed so that they can be used interchangeably. Both contain an array of structures describing a group of properties and a count of the values in the array. Whereas in the **ADRLIST** structure, the array contains [ADRENTRY](adrentry.md) structures, in the **SRowSet** structure the array contains [SRow](srow.md) structures. **ADRENTRY** structures and **SRow** structures are identical in layout. Because **ADRLIST** and **SRowSet** structures follow the same allocation rules, an **SRowSet** structure that is retrieved from the contents table of an address book container can be cast to an **ADRLIST** structure and used as is. 
   
 The following illustration shows the layout of an **ADRLIST** structure. 
   
- **ADRLIST components**
+**ADRLIST components**
   
-![ADRLIST components](media/amapi_18.gif)
+![ADRLIST components](media/amapi_18.gif "ADRLIST components")
   
 The **ADRENTRY** and [SPropValue](spropvalue.md) portions in an **ADRLIST** structure must be allocated and freed independently of the other parts. That is, each **SPropValue** structure must be allocated individually after memory for the **ADRENTRY** structure has been allocated and freed before the **ADRENTRY** structure is freed. This independence in handling memory allows recipients and individual recipient properties to be freely added or deleted from the address list. 
   
@@ -70,16 +66,9 @@ For more information about how to allocate memory for **ADRENTRY** structures, s
   
 ## See also
 
-
-
-[ADRENTRY](adrentry.md)
-  
-[CbNewADRLIST](cbnewadrlist.md)
-  
-[IMessage::ModifyRecipients](imessage-modifyrecipients.md)
-  
-[SRowSet](srowset.md)
-
-
-[MAPI Structures](mapi-structures.md)
+- [ADRENTRY](adrentry.md)  
+- [CbNewADRLIST](cbnewadrlist.md) 
+- [IMessage::ModifyRecipients](imessage-modifyrecipients.md) 
+- [SRowSet](srowset.md)
+- [MAPI Structures](mapi-structures.md)
 

@@ -13,21 +13,19 @@ description: "This topic describes the interfaces that you can use to programmat
 
 This topic describes the interfaces that you can use to programmatically customize the Quick Filing dialog box in OneNote 2013.
   
-## Quick Filing Dialog Box
+## Quick Filing dialog box
 
 The Quick Filing dialog box in OneNote 2013 is a customizable dialog box that allows users to select a location within the OneNote hierarchy structure. Selectable locations include notebooks, section groups, sections, pages, and subpages. The dialog box is used both within the OneNote application and by external applications through the OneNote 2013 API. Figure 1 shows the Quick Filing dialog box in its default state.
   
 **Figure 1. Quick Filing dialog box without customizations**
 
-![Quick Filing dialog box without customizations](media/ON15Con_quick_filing_dialog.jpg)
+![Quick Filing dialog box without customizations](media/ON15Con_quick_filing_dialog.jpg "Quick Filing dialog box without customizations")
   
 Within the dialog box, users can navigate the All Notebooks hierarchy to look for specific locations or search the OneNote tree structure by typing into the text box. Aspects of the dialog box that can be customized include the title, description, recent results list, check box text and state, tree depth, buttons, and selectable location types.
-  
-## Interfaces
 
 You can access the Quick Filing dialog box functionality through two OneNote 2013 interfaces. The **IQuickFilingDialog** interface allows users to instantiate, set up, and run the dialog box. The **IQuickFilingDialogCallback** interface is called after the dialog box is closed. The dialog box is run in the OneNote process, so a mechanism is needed to keep the dialog box's thread running and then to capture the user's selection and the state of the dialog box when it is closed. 
   
-## IQuickFilingDialog Interface
+## IQuickFilingDialog interface
 <a name="odc_IQuickFilingDialog"> </a>
 
 This interface allows the user to customize and run the dialog box. The user can instantiate a dialog box through the **Application** class by using the **Application.QuickFilingDialog** method. The method returns an instance of the dialog box. Once the properties of the dialog box are set, the **IQuickFilingDialog.Run** method is used to run the dialog box. This method runs the dialog box on a new thread. 
@@ -187,7 +185,7 @@ The following example uses the **Run** method to display the Quick Filing dialog
 |**Syntax** <br/> | `HRESULT ShowSharingHyperlink();` <br/> |
 |**Parameters** <br/> |None  <br/> |
    
-## IQuickFilingDialogCallback Interface
+## IQuickFilingDialogCallback interface
 <a name="odc_IQuickFilingDialog"> </a>
 
 This interface allows the user to access the dialog box properties after the dialog box closes. Once the dialog box closes, OneNote 2013 calls the **IQuickFilingDialogCallback.OnDialogClose** method in this interface. 

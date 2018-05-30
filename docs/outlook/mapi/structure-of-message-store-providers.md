@@ -1,5 +1,5 @@
 ---
-title: "Structure of Message Store Providers"
+title: "Structure of message store providers"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,13 +8,9 @@ api_type:
 - COM
 ms.assetid: 064b2fc1-e690-43e6-95d3-a61438115de5
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
-# Structure of Message Store Providers
-
-  
+# Structure of message store providers
   
 **Applies to**: Outlook 
   
@@ -24,13 +20,11 @@ Because the **IMSLogon** and **IMsgStore** interfaces share some methods, it may
   
 The following illustration shows a high-level outline of the object hierarchy within a running message store.
   
- **Message store object hierarchy**
+**Message store object hierarchy**
   
-![Message store object hierarchy](media/storeobj.gif)
+![Message store object hierarchy](media/storeobj.gif "Message store object hierarchy")
   
 ## See also
 
-
-
-[Developing a MAPI Message Store Provider](developing-a-mapi-message-store-provider.md)
+- [Developing a MAPI Message Store Provider](developing-a-mapi-message-store-provider.md)
 

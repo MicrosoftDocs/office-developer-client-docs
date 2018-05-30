@@ -13,7 +13,7 @@ description: "The Window and Windows interfaces are OneNote 2013 API objects tha
 
 The **Window** and **Windows** interfaces are OneNote 2013 API objects that enables users to work with OneNote windows. These objects allow users to enumerate through the set of OneNote windows and modify certain window properties. 
   
-## OneNote Window Views
+## OneNote window views
 
 The following list shows the four view modes that you can use for OneNote windows: 
   
@@ -25,17 +25,17 @@ The following list shows the four view modes that you can use for OneNote window
     
 - Dock to Desktop—Displays a OneNote window that you can dock to any side of the desktop (similar to the taskbar). This view reduces the size of the desktop to fit the window. You can dock only one window at any time, and the window is always visible without blocking the desktop. 
     
-Figure 1 shows what the Full Page view, Dock to Desktop view, and quick notes look like on your desktop.
+The following figure shows what the Full Page view, Dock to Desktop view, and quick notes look like on your desktop.
   
-**Figure 1. OneNote views**
+**OneNote views**
 
-![OneNote window views](media/ON15Con_views.jpg)
+![OneNote window views](media/ON15Con_views.jpg "OneNote window views")
   
 ## Interfaces
 
 This section lists the interfaces and members that you can use to modify OneNote windows programmatically.
   
-### Windows Interface
+### Windows interface
 
 The **Windows** interface allows the user to access the set of opened OneNote windows. It is a property of the OneNote **Application** class, accessed through **Application.Windows**. This returns the enumerated set of OneNote windows. 
   
@@ -47,7 +47,7 @@ The **Windows** interface allows the user to access the set of opened OneNote wi
 |**CurrentWindow** <br/> |**Window** <br/> |Gets the **Window** object of the active OneNote window.  <br/> |
 |**Items** <br/> |**Window** <br/> |Returns the **Window** object that corresponds to the index value passed. This property cannot be accessed directly. To return a **Window** object, use **Windows [(uint) index]**.  <br/> |
    
-### Window Interface
+### Window interface
 
 The **Window** interface allows the user to access certain properties of each window. Each OneNote window can be accessed by enumerating through the **Windows** property of the **Application** class. 
   
@@ -66,7 +66,7 @@ The **Window** interface allows the user to access certain properties of each wi
 |**SideNote** <br/> |bool  <br/> |Gets or sets a value that indicates whether the window is a quick note window.  <br/> |
 |**WindowHandle** <br/> |ulong  <br/> |Gets the handle ID of the OneNote window.  <br/> |
    
- **Methods**
+**Methods**
   
 You can use the following methods of the **Window** interface to navigate to specified objects in the OneNote window or to specified URLs. 
   

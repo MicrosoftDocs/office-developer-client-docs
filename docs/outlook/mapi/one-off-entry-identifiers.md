@@ -1,5 +1,5 @@
 ---
-title: "One-Off Entry Identifiers"
+title: "One-off entry identifiers"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,21 +8,17 @@ api_type:
 - COM
 ms.assetid: 741d21ae-f14a-4b7f-80aa-91d0f0ff3f34
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
-# One-Off Entry Identifiers
-
-  
+# One-off entry identifiers
   
 **Applies to**: Outlook 
   
 One-off entry identifiers are created by MAPI in the **IAddrBook::CreateOneOff** method and by components that do not have access to the MAPI subsystem, such as gateway components. For more information, see [IAddrBook::CreateOneOff](iaddrbook-createoneoff.md). The following illustration shows the format of a one-off entry identifier.
   
- **One-off entry identifier format**
+**One-off entry identifier format**
   
-![One-off entry identifier format](media/amapi_69.gif)
+![One-off entry identifier format](media/amapi_69.gif "One-off entry identifier format")
   
 The first field is a special [MAPIUID](mapiuid.md) structure that identifies the entry identifier as representing a custom recipient. This **MAPIUID** structure must be set to the constant MAPI_ONE_OFF_UID. MAPI_ONE_OFF_UID is defined in the header file MAPIDEFS.H. 
   

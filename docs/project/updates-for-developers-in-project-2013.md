@@ -5,7 +5,7 @@ ms.date: 9/29/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5b2b22cd-6e28-43a8-9092-b411da8bfb53
-description: "Extensibility features in Project Server 2013 work with add-ins for Project Online and with on-premises installations. New features include a client-side object model (CSOM), REST interfaces, an OData service for reporting, remote event receivers, declarative workflows, and task pane add-ins for Project clients. Also learn about deprecated features that should not be used for new development."
+description: "New features include a client-side object model (CSOM), REST interfaces, an OData service for reporting, remote event receivers, declarative workflows, and task pane add-ins for Project clients."
 ---
 
 # Updates for developers in Project
@@ -91,7 +91,7 @@ Project Server 2013 workflows are built on the SharePoint 2013 workflow platform
   
 **Figure 1. Using SharePoint Designer to add a stage to a workflow for Project Web App**
 
-![Adding a stage to a workflow in SPD](media/pj15_CreateWorkflowSPD_AddStageInSPD.gif)
+![Adding a stage to a workflow in SPD](media/pj15_CreateWorkflowSPD_AddStageInSPD.gif "Adding a stage to a workflow in SPD")
 
 <br/>
 
@@ -181,7 +181,7 @@ Figure 2 shows the **Hello ProjectData** task pane add-in that queries the **Pro
   
 **Figure 2. A task pane add-in in Project Professional can access data in Project Server**
 
-![Comparing the current project with all projects](media/pj15_RestQueryApp_CompareProject.gif)
+![Comparing the current project with all projects](media/pj15_RestQueryApp_CompareProject.gif "Comparing the current project with all projects")
   
 > [!NOTE]
 > Project Standard 2013 cannot directly integrate with Project Server 2013 through task pane add-ins. 
@@ -209,7 +209,7 @@ On the Server Side Event Handlers page, the process to add a local event handler
   
 **Figure 3. Adding a local event handler or a remote event receiver**
 
-![Configuring an event handler or event receiver](media/pj15_EventHandlers_NewEventHandler.gif)
+![Configuring an event handler or event receiver](media/pj15_EventHandlers_NewEventHandler.gif "Configuring an event handler or event receiver")
     
 If you require access to PSI datasets for a local event handler, you can copy the Microsoft.Office.Project.Schema.dll assembly from the [Windows]\Microsoft.NET\assembly\GAC\_MSIL\Microsoft.Office.Project.Schema\v4.0_15.0.0.0__71e9bce111e9429c directory. 
 

@@ -5,7 +5,7 @@ ms.date: 8/10/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e0d725da-9e0b-4a19-b8a2-da969eb636c8
-description: "For best performance when replicating PWA data to a SQL Server database for Project Online reporting, we recommend that you schedule regular synchronizations and update only changed data. The Project Online: SSIS package for OData delta sync sample package demonstrates how to configure a delta sync that compares the last sync date to the modified date on the Project entity to retrieve data only for projects that have changed since the last sync."
+description: "For best performance when replicating PWA data to a SQL Server database for Project Online reporting, we recommend that you schedule regular synchronizations and update only changed data."
 ---
 
 # Project Online: SSIS package for OData delta sync
@@ -99,11 +99,11 @@ To create your own package, you'll also need:
     
 ## Walkthrough of the flow and components in the sample package
 
-The complete control flow for the sample package is shown in Figure 1, and the following sections describe different parts of the flow and their components in detail.
+The complete control flow for the sample package is shown in the following figure, and the following sections describe different parts of the flow and their components in detail.
   
-**Figure 1. The complete control flow**
+**The complete control flow**
 
-![Control flow for the package](media/PJ15_SSISOData_ControlFlow0.png)
+![Control flow for the package](media/PJ15_SSISOData_ControlFlow0.png "Control flow for the package")
   
 The **OData Source**, **OLE DB Source**, and **OLE DB Destination** components in the flow are set up dynamically. They use connection managers to build connection strings and credentials from local variables and input parameters. 
   
@@ -116,7 +116,7 @@ The following flow runs during each sync. It creates and configures storage for 
   
 |||
 |:-----|:-----|
-|![Create storage and initialize connection string](media/PJ15_SSISOData_StorageFlow1.png)|**DB SQL Command** initializes the SQL command to create the SQL Server database to store assignments timephased data.  <br/> |
+|![Create storage and initialize connection string](media/PJ15_SSISOData_StorageFlow1.png "Create storage and initialize connection string")|**DB SQL Command** initializes the SQL command to create the SQL Server database to store assignments timephased data.  <br/> |
 |**Create DB** executes **DB SQL Command** and creates the database (if it doesn't exist) based on the input parameters.  <br/> |
 |**Schema SQL** initializes the SQL command that defines the storage schema for assignments timephased data.  <br/> |
 |**Create Schema** executes **Schema SQL** and creates the table (if it doesn't exist) based on the input parameters.  <br/> |
@@ -124,7 +124,7 @@ The following flow runs during each sync. It creates and configures storage for 
    
 |||
 |:-----|:-----|
-|![Get last sync date and split the flow](media/PJ15_SSISOData_SyncDateCheck2.png)|**Set Local Sync Date** gets the last sync date from storage:  <br/>  `SELECT TOP 1 [SyncedDate] FROM [Synced]` <br/> Then it runs the appropriate sync type based on the last sync date. The condition is:  <br/>  `@[User::SyncedDate] != (DT_DATE)("1900-01-01")` <br/> If the date equals  `"1900-01-01"`, then the package runs a full sync. Otherwise, it runs a delta sync.  <br/> |
+|![Get last sync date and split the flow](media/PJ15_SSISOData_SyncDateCheck2.png "Get last sync date and split the flow")|**Set Local Sync Date** gets the last sync date from storage:  <br/>  `SELECT TOP 1 [SyncedDate] FROM [Synced]` <br/> Then it runs the appropriate sync type based on the last sync date. The condition is:  <br/>  `@[User::SyncedDate] != (DT_DATE)("1900-01-01")` <br/> If the date equals  `"1900-01-01"`, then the package runs a full sync. Otherwise, it runs a delta sync.  <br/> |
    
 ### Full sync flow: Get assignment timephased data for all projects
 
@@ -135,7 +135,7 @@ The following flow runs during a full sync.
 
 |||
 |:-----|:-----|
-|![Add all records and update the sync date](media/PJ15_SSISOData_FullSyncFlow3.png)|**Add All Records** performs a full sync. The **Add All Records** data flow contains the **OData Source** and **OLE DB Destination** components (shown below).  <br/> |
+|![Add all records and update the sync date](media/PJ15_SSISOData_FullSyncFlow3.png "Add all records and update the sync date")|**Add All Records** performs a full sync. The **Add All Records** data flow contains the **OData Source** and **OLE DB Destination** components (shown below).  <br/> |
 |**Update Sync Date** executes the following SQL command to set current sync date:  <br/>  `UPDATE [Synced] SET [SyncedDate] = GETDATE()` <br/> |
    
 #### Add All Records data flow
@@ -144,7 +144,7 @@ The following components make up the **Add All Records** data flow.
   
 |||
 |:-----|:-----|
-|![Append assignments records to storage](media/PJ15_SSISOData_AllRecordsFlow4.png)|**OData Source** reads all the records from the AssignmentsTimephasedDataSet entity set.  <br/> |
+|![Append assignments records to storage](media/PJ15_SSISOData_AllRecordsFlow4.png "Append assignments records to storage")|**OData Source** reads all the records from the AssignmentsTimephasedDataSet entity set.  <br/> |
 |**OLE DB Destination** appends the records to the assignments table.  <br/> |
    
 ### Delta sync flow: Get assignment timephased data for changed projects only
@@ -161,7 +161,7 @@ The following flows run during a delta sync:
 
 |||
 |:-----|:-----|
-|![Delete obsolete records and prepare projects loop](media/PJ15_SSISOData_PrepProjectsFlow5.png)|**Set Local URL** gets all project UIDs from the assignments table and saves the result in a local variable. Later in the flow, the IDs are matched to the projects in the OData feed to determine whether a project is obsolete and its assignment records can be deleted.  <br/> |
+|![Delete obsolete records and prepare projects loop](media/PJ15_SSISOData_PrepProjectsFlow5.png "Delete obsolete records and prepare projects loop")|**Set Local URL** gets all project UIDs from the assignments table and saves the result in a local variable. Later in the flow, the IDs are matched to the projects in the OData feed to determine whether a project is obsolete and its assignment records can be deleted.  <br/> |
 |**Get Projects** saves project information and deletes assignment records. **Get Projects** has two branches (shown below).  <br/> |
    
 ##### The Get Projects data flow with its two branches
@@ -170,7 +170,7 @@ One branch of the **Get Projects** data flow saves the projects into a recordset
 
 |||
 |:-----|:-----|
-|![Get Projects flow with two branches](media/PJ15_SSISOData_GetProjectsFlow6.png)|The **OData All Projects** component gets the **ProjectId** and **ProjectModifiedDate** properties for all projects from the OData feed. It multicasts the data to the recordset and to the **Merge Join** component for a **LEFT OUTER JOIN** operation.  <br/> |
+|![Get Projects flow with two branches](media/PJ15_SSISOData_GetProjectsFlow6.png "Get Projects flow with two branches")|The **OData All Projects** component gets the **ProjectId** and **ProjectModifiedDate** properties for all projects from the OData feed. It multicasts the data to the recordset and to the **Merge Join** component for a **LEFT OUTER JOIN** operation.  <br/> |
 |**Project Assignments** gets projects by using the project IDs variable and transfers the data to the **Merge Join** component.  <br/> |
 |**Merge Join** filters projects that exist in the assignments table but not in the PWA instance.  <br/> |
 |**Conditional Split** performs the check:  <br/>  `!ISNULL(ProjectUID) &amp;&amp; ISNULL(ProjectId)` <br/> |
@@ -186,7 +186,7 @@ One branch of the **Get Projects** data flow saves the projects into a recordset
 
 |||
 |:-----|:-----|
-|![Foreach loop for all projects](media/PJ15_SSISOData_UpdateProjectsFlow7.png)|**Set Local URL** determines whether to update the project's assignments data.  <br/>  `@[User::SyncedDate] < @[User::EachProject_CurrentProjectModifiedDate]` <br/> If the last sync date is older than the project's modified date, execute the **Delete Assignments** and **Add Assignments** components. Otherwise, skip the project.  <br/> |
+|![For each loop for all projects](media/PJ15_SSISOData_UpdateProjectsFlow7.png "For each loop for all projects")|**Set Local URL** determines whether to update the project's assignments data.  <br/>  `@[User::SyncedDate] < @[User::EachProject_CurrentProjectModifiedDate]` <br/> If the last sync date is older than the project's modified date, execute the **Delete Assignments** and **Add Assignments** components. Otherwise, skip the project.  <br/> |
 |**Delete Assignments** deletes the assignment records for the project from storage.  <br/>  `exec DeleteProjectAssignments ?` <br/> |
 |**Add Assignments** adds records from the OData feed. The **Add Assignments** data flow contains the **OData Assignments** and **Assignments Timephased** components (shown below).  <br/> |
    
@@ -196,7 +196,7 @@ The following components make up the **Add Assignments** data flow.
   
 |||
 |:-----|:-----|
-|![Add assignment records from the OData feed](media/PJ15_SSISOData_AssignmentsFlow8.png)|**OData Assignments** reads the records for the current project. It uses the **$filter** query option to filter the AssignmentsTimephasedDataSet entity set by the current project ID:  <br/>  `"$filter=ProjectId eq guid'" + @[User::EachProject_CurrentProjectId] + "'&amp;$format=json"` <br/> |
+|![Add assignment records from the OData feed](media/PJ15_SSISOData_AssignmentsFlow8.png "Add assignment records from the OData feed")|**OData Assignments** reads the records for the current project. It uses the **$filter** query option to filter the AssignmentsTimephasedDataSet entity set by the current project ID:  <br/>  `"$filter=ProjectId eq guid'" + @[User::EachProject_CurrentProjectId] + "'&amp;$format=json"` <br/> |
 |**Assignments Timephased** appends the records to the assignments table.  <br/> |
    
 ## How fast is this?

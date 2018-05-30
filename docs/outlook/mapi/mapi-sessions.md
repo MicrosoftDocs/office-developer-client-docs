@@ -1,5 +1,5 @@
 ---
-title: "MAPI Sessions"
+title: "MAPI sessions"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,14 +8,10 @@ api_type:
 - COM
 ms.assetid: c5a7c137-393e-40ff-a2b9-afe02da2435a
 description: "Last modified: July 23, 2011"
- 
- 
 ---
 
-# MAPI Sessions
+# MAPI sessions
 
-  
-  
 **Applies to**: Outlook 
   
 Before the client application can call an underlying messaging system, it must establish a session, or connection, with the MAPI subsystem.
@@ -34,22 +30,16 @@ The function calls for establishing a session have a collection of flags and par
   
 The following illustration shows how these various parameters and flags establish a MAPI session.
   
- **MAPI session flowchart**
+**MAPI session flowchart**
   
-![MAPI session flowchart](media/amapi_47.gif)
+![MAPI session flowchart](media/amapi_47.gif "MAPI session flowchart")
   
 For information about handling sessions from within a client application, see [MAPI Session Handling](mapi-session-handling.md)
   
 ## See also
 
-
-
-[MAPILogonEx](mapilogonex.md)
-  
-[IMAPISession : IUnknown](imapisessioniunknown.md)
-
-
-[MAPI Session Handling](mapi-session-handling.md)
-  
-[MAPI Programming Overview](mapi-programming-overview.md)
+- [MAPILogonEx](mapilogonex.md)  
+- [IMAPISession : IUnknown](imapisessioniunknown.md)
+- [MAPI Session Handling](mapi-session-handling.md)  
+- [MAPI Programming Overview](mapi-programming-overview.md)
 

@@ -91,7 +91,7 @@ For example, the issue titled "OM Hidden: Comment.Initial Property" appears if a
   
 **Figure 1. Office Telemetry Log**
   
-![The Office Event Viewer displaying records.](media/off15_OfficeEventViewer_SD.png)
+![The Office Event Viewer displaying records.](media/off15_OfficeEventViewer_SD.png "The Office Event Viewer displaying records")
   
 > [!NOTE]
 >  The **System Info** worksheet in the Telemetry Log contains information about the computer on which Office 2013 is installed. The worksheet displays the following information: 

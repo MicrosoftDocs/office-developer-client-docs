@@ -26,7 +26,7 @@ To use this interface, a manageability application invokes the COM interface and
   
 **Following is a conceptual diagram of the COM interface**
 
-![A diagram of using the COM interface on  the Office Click-To-Run installer.](media/e7ac2523-e67b-4a44-ae67-c048709f872a.png)
+![A diagram of using the COM interface on  the Office Click-To-Run installer.](media/e7ac2523-e67b-4a44-ae67-c048709f872a.png "A diagram of using the COM interface on  the Office Click-To-Run installer")
   
 The Office 365 Click-to-Run installer implements a COM-based interface, **IUpdateNotify** registered to CLSID **CLSID_UpdateNotifyObject**.
   
@@ -66,7 +66,7 @@ There are four states that the Click-to-Run installation service may be in durin
   
 **Following is the COM Interface State Machine diagram**
 
-![A state diagram for the COM interface.](media/a409003e-6876-4ab3-bb4c-cd0c0fed5cbb.png)
+![A state diagram for the COM interface.](media/a409003e-6876-4ab3-bb4c-cd0c0fed5cbb.png "A state diagram for the COM interface")
   
 > [!NOTE]
 > **Rebooting**: When the machine is booting there is a period of time when the Click-to-Run installer service is not available. A successful call to the Status method after a reboot will return eUPDATE_UNKNOWN. 
@@ -459,7 +459,7 @@ The service supports the ability for management tools to recognize and automate 
   
 **Following is a diagram showing the overview of downloading a custom image**
 
-![An overview of downloading Office updates from the CDN.](media/9afac230-6b22-4526-a800-0562708cc436.png)
+![An overview of downloading Office updates from the CDN.](media/9afac230-6b22-4526-a800-0562708cc436.png "An overview of downloading Office updates from the CDN")
   
 In the above diagram you see that a new Office 365 ProPlus image is available on the Office Content Distribution Network (CDN). Along with the Office 365 ProPlus image, an XML-formatted file list is also available which has the information needed to enable manageability software to directly create customized images replacing the need for using the Office Deployment Tool.
   
@@ -550,7 +550,7 @@ Office 365 Client Updates enable manageability software to treat the Office 365 
   
 **Office 365 Client Update workflow**
 
-![Workflow diagram for O365PP client updates.](media/bc8092b0-62b8-402c-a5c0-04d55cca01d4.png)
+![Workflow diagram for O365PP client updates.](media/bc8092b0-62b8-402c-a5c0-04d55cca01d4.png "Workflow diagram for O365PP client updates")
   
 Each Office 365 Client Update that is published includes metadata about the update. This metadata includes a parameter called  _MoreInfoUrl_ which can be used to derive the following information: 
   
@@ -583,7 +583,7 @@ The service supports the ability for management tools to recognize and automate 
   
 **The following image is an overview of downloading a custom image**
 
-![A diagram of using the COM interface on  the Office Click-To-Run installer.](media/e7ac2523-e67b-4a44-ae67-c048709f872a.png)
+![A diagram of using the COM interface on  the Office Click-To-Run installer.](media/e7ac2523-e67b-4a44-ae67-c048709f872a.png "A diagram of using the COM interface on  the Office Click-To-Run installer")
   
 ### Overview of downloading a custom image
   
@@ -680,7 +680,7 @@ Office 365 Client Updates enable manageability software to treat the Office 365 
   
 **The following figure shows a diagram of the Office 365 Client Update workflow.**
 
-![Workflow diagram for O365PP client updates.](media/bc8092b0-62b8-402c-a5c0-04d55cca01d4.png)
+![Workflow diagram for O365PP client updates.](media/bc8092b0-62b8-402c-a5c0-04d55cca01d4.png "Workflow diagram for O365PP client updates")
   
 Each Office 365 Client Update that is published includes metadata about the update. This metadata includes a parameter called  *MoreInfoUrl*  which can be used to derive the following information: 
   
