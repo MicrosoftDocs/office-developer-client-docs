@@ -53,7 +53,7 @@ Figure 1 shows the following processes when projects are maintained in SharePoin
     
 **Figure 1. Using project sites as SharePoint task lists**
 
-![Using project sites in visibility mode](media/pj15_Architecture_VisibilityMode.gif)
+![Using project sites in visibility mode](media/pj15_Architecture_VisibilityMode.gif "Using project sites in visibility mode")
 
 <br/>
 
@@ -75,7 +75,7 @@ Figure 2 shows the following processes when Project Server maintains enterprise 
     
 **Figure 2. Using project sites with full control**
 
-![Using project sites in managed mode](media/pj15_Architecture_ManagedMode.gif)
+![Using project sites in managed mode](media/pj15_Architecture_ManagedMode.gif "Using project sites in managed mode")
   
 ## General architecture
 <a name="pj15_Architecture_General"> </a>
@@ -86,7 +86,7 @@ There can be multiple Project Web App instances that communicate with the back-e
   
 **Figure 3. General Project Server 2013 architecture**
 
-![Project Server architecture](media/pj15_Architecture_ProjectServiceApp_WFE.gif)
+![Project Server architecture](media/pj15_Architecture_ProjectServiceApp_WFE.gif "Project Server architecture")
 
 <br/>
 
@@ -166,7 +166,7 @@ Figure 4 shows the **Connections** pane in **Internet Information Services (IIS)
   
 **Figure 4. IIS Manager showing the front-end PSI (A), and the back-end PSI (B)**
 
-![The front-end PSI and the back-end PSI](media/pj15_Architecture_PSI_IIS.gif)
+![The front-end PSI and the back-end PSI](media/pj15_Architecture_PSI_IIS.gif "The front-end PSI and the back-end PSI")
   
 Client applications cannot directly access the WCF services for the PSI in the back-end Project Service Application. If they do not require access to Project Online, client applications and components of LOB applications use proxies for the PSI. A back-end URL for the WCF interface of the **Resource** service in Figure 4, for example, would be  `http://ServerName:32843/508c23fb7dfd4c83a8919fae24bc68c5/psi/resource.svc`. Port 32843 is the default HTTP port for the SharePoint Web Services application (32844 is the port for HTTPS communications). However, the web.config file for Project Web App blocks direct access to back-end PSI services.
   

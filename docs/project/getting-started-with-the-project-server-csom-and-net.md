@@ -381,10 +381,11 @@ When you first run the **QueueCreateProject** application on a test instance of 
     Press any key to exit...
    ```
 
-Refresh the Project Center page in Project Web App ( `http://ServerName/ProjectServerName/Projects.aspx`), to show the published projects. Figure 1 shows that the test projects are published.
-**Figure 1. Checking the published projects in Project Web App**
+Refresh the Project Center page in Project Web App (`http://ServerName/ProjectServerName/Projects.aspx`), to show the published projects. The following figure shows that the test projects are published.
 
-![Checking the published projects in Project Web App](media/pj15_GetStartedCSOMNET_pwa.gif)
+**Checking the published projects in Project Web App**
+
+![Checking the published projects in Project Web App](media/pj15_GetStartedCSOMNET_pwa.gif "Checking the published projects in Project Web App")
   
 The **QueueCreateProject** sample application shows a typical example of how to create a project entity with the CSOM by using the **ProjectCreationInformation** class, how to add the project to the published collection, how to wait for a queue job by using the **WaitForQueue** method, and how to enumerate the collection of published projects. 
   
@@ -571,7 +572,6 @@ namespace QueueCreateProject
 ```
 
 ## See also
-<a name="pj15_GettingStartedCSOM_AR"> </a>
 
 - [Updates for developers in Project 2013](updates-for-developers-in-project-2013.md) 
 - [Client-side object model (CSOM) for Project 2013](client-side-object-model-csom-for-project-2013.md)

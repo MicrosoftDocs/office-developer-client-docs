@@ -81,7 +81,7 @@ Word 2013 allows an individual content control to appear in one of three possibl
   
 **Figure 1. Content Control Properties dialog box**
 
-![Content control properties dialog box](media/DK2_WordCC_Fig01.jpg)
+![Content control properties dialog box](media/DK2_WordCC_Fig01.jpg "Content control properties dialog box")
   
 You can also set the display mode for a content control by using the Word 2013 object model (discussed later in [New Word 2013 content control object model members](#WordCC_NewOM)).
   
@@ -96,13 +96,13 @@ The default rendering for content controls in Word 2013 is to preserve the look 
     
 **Figure 2. Content control on mouse-over**
 
-![Content control on mouse over](media/DK2_WordCC_Fig02.jpg)
+![Content control on mouse over](media/DK2_WordCC_Fig02.jpg "Content control on mouse over")
   
 - When the content control has the focus (when the user chooses the content control), the control appears as a "bounding box" (with a line around the content and the title showing, if a title has been set)
     
 **Figure 3. Content control with focus**
 
-![Content control with focus](media/DK2_WordCC_Fig03.jpg)
+![Content control with focus](media/DK2_WordCC_Fig03.jpg "Content control with focus")
   
 ### Start/End tags
 <a name="WordCC_StartEndTags"> </a>
@@ -111,7 +111,7 @@ When the content control is set to show as **Start/End tag**, the tags are displ
   
 **Figure 4. Content control set to show as start/end tags**
 
-![Content control set to show as start and end tags](media/DK2_WordCC_Fig04.jpg)
+![Content control set to show as start and end tags](media/DK2_WordCC_Fig04.jpg "Content control set to show as start and end tags")
   
 ### None
 <a name="WordCC_Invisible"> </a>
@@ -127,7 +127,7 @@ You can also set the color of a content control by using the Word 2013 object mo
   
 **Figure 5. Content Control Properties dialog box**
 
-![Content control properties dialog box](media/DK2_WordCC_Fig05.jpg)
+![Content control properties dialog box](media/DK2_WordCC_Fig05.jpg "Content control properties dialog box")
   
 ### Support for XML mapping for rich text content controls
 <a name="WordCC_XMLMapping"> </a>
@@ -148,19 +148,19 @@ You insert the repeating section content control around entire paragraphs or tab
   
 **Figure 6. Repeating section content control context menu**
 
-![Repeating section content control context](media/DK2_WordCC_Fig06.jpg)
+![Repeating section content control context](media/DK2_WordCC_Fig06.jpg "Repeating section content control context")
   
-You can repeat the inserted section by using either the control on the end of the content control (displayed as a button with a plus sign (![Plus sign](media/DK2_WordCC_Fig06A.jpg))) or by choosing a command on the context menu, as shown in Figure 6. The repeated content becomes a separate section of the control that you can assign a title by using the **Content Control Properties** dialog box. 
+You can repeat the inserted section by using either the control on the end of the content control (displayed as a button with a plus sign (![Plus sign](media/DK2_WordCC_Fig06A.jpg "Plus sign"))) or by choosing a command on the context menu, as shown in Figure 6. The repeated content becomes a separate section of the control that you can assign a title by using the **Content Control Properties** dialog box. 
   
 **Figure 7. Assign a section title in the Content Control Properties dialog box**
 
-![Content control properties dialog box](media/DK2_WordCC_Fig07.jpg)
+![Content control properties dialog box](media/DK2_WordCC_Fig07.jpg "Content control properties dialog box")
   
 Once you have given the section a title, if you select **Allow users to add and remove sections** in the **Content Control Properties** dialog box, users can add or delete the section by name. 
   
 **Figure 8. Use the repeating section content control context menu to delete a section**
 
-![Repeating section content control context](media/DK2_WordCC_Fig08.jpg)
+![Repeating section content control context](media/DK2_WordCC_Fig08.jpg "Repeating section content control context")
   
 When a repeating section content control surrounds other content controls, the enclosed content controls are repeated in each new item; but any such content controls have their contents reset to placeholder text. There are two exceptions where child control contents are preserved: 
   
@@ -170,11 +170,11 @@ When a repeating section content control surrounds other content controls, the e
     
 **Figure 9. Repeating section content control containing child controls before repeat**
 
-![Repeating section content control before repeat](media/DK2_WordCC_Fig09.jpg)
+![Repeating section content control before repeat](media/DK2_WordCC_Fig09.jpg "Repeating section content control before repeat")
   
 **Figure 10. Repeating section content control containing child controls after repeat**
 
-![Repeating section content control after repeat](media/DK2_WordCC_Fig10.jpg)
+![Repeating section content control after repeat](media/DK2_WordCC_Fig10.jpg "Repeating section content control after repeat")
   
 ### Repeating section content controls around XML-mapped controls
 <a name="WordCC_RepeatingSectionCCs"> </a>

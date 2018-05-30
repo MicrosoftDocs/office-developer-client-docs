@@ -182,11 +182,11 @@ Procedure 2 shows how to create LINQ queries in Visual C# by using expressions i
 
 1. Create a Visual Studio project that uses the Windows Console Application template. Select the target .NET Framework 4. For example, create a project named TestProjectData.
     
-2. Add a service reference to the **ProjectData** service, which has the address  `http://ServerName/ProjectServername/_api/ProjectData/$metadata`. In the **Add Service Reference** dialog box, choose **Go** to resolve the address, select the **ReportingData** service, and then name the service reference namespace. For example, name the namespace ProjectOData. If you expand the ReportingData node, you can see all the entity sets that are defined in the **ProjectData** service (see Figure 1). 
+2. Add a service reference to the **ProjectData** service, which has the address  `http://ServerName/ProjectServername/_api/ProjectData/$metadata`. In the **Add Service Reference** dialog box, choose **Go** to resolve the address, select the **ReportingData** service, and then name the service reference namespace. For example, name the namespace ProjectOData. If you expand the ReportingData node, you can see all the entity sets that are defined in the **ProjectData** service (see the following figure). 
     
-    **Figure 1. Setting an OData service reference**
+    **Setting an OData service reference**
 
-    ![Setting an OData service reference](media/pj15_QueryingOData_AddServiceReference.gif)
+    ![Setting an OData service reference](media/pj15_QueryingOData_AddServiceReference.gif "Setting an OData service reference")
   
     Visual Studio adds the necessary **System.Data.Services.Client** reference when you create the **ProjectOData** service reference. 
     
