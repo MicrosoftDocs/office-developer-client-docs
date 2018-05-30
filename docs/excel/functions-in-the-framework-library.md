@@ -1,7 +1,7 @@
 ---
 title: "Functions in the Framework Library"
 manager: soliver
-ms.date: 3/9/2015
+ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
 keywords:

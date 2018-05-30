@@ -1,7 +1,7 @@
 ---
 title: "Check the version of Outlook"
 manager: soliver
-ms.date: 12/7/2015
+ms.date: 12/07/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 672fc380-a29b-4e99-9211-949fd5065723

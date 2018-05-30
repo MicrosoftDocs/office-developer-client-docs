@@ -1,7 +1,7 @@
 ---
 title: "Coalesce function (Access custom web app)" 
 manager: kelbow
-ms.date: 9/5/2017
+ms.date: 09/05/2017
 ms.audience: Developer 
 localization_priority: Normal
 ms.assetid: 92a7cc0a-1f9f-4969-8439-56a8d18e1347

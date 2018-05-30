@@ -3,7 +3,7 @@ title: "Text functions (Access custom web app)"
  
  
 manager: kelbow
-ms.date: 8/18/2017
+ms.date: 08/18/2017
 ms.audience: Developer
 ms.topic: reference
   

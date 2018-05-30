@@ -1,7 +1,7 @@
 ---
 title: "DateAdd function (Access custom web app)" 
 manager: kelbow
-ms.date: 9/5/2017
+ms.date: 09/05/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 7174c585-86e1-42a3-bb7f-d6641001b0f2

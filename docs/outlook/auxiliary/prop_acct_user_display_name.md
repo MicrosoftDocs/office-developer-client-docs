@@ -1,7 +1,7 @@
 ---
 title: "PROP_ACCT_USER_DISPLAY_NAME"
 manager: soliver
-ms.date: 3/9/2015
+ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal

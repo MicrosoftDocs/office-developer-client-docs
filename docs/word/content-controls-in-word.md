@@ -1,7 +1,7 @@
 ---
 title: "Content controls in Word"
 manager: soliver
-ms.date: 9/10/2015
+ms.date: 09/10/2015
 ms.audience: Developer
 keywords:
 - content controls [word],content controls [Word], what's new

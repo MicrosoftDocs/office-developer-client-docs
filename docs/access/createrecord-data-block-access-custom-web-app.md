@@ -1,7 +1,7 @@
 ---
 title: "CreateRecord Data Block (Access custom web app)" 
 manager: kelbow
-ms.date: 9/5/2017
+ms.date: 09/05/2017
 ms.audience: Developer 
 localization_priority: Normal
 ms.assetid: 9dd73bae-a8d5-4d8b-b356-01ac72f7e5d9

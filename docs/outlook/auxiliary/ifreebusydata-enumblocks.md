@@ -1,7 +1,7 @@
 ---
 title: "IFreeBusyDataEnumBlocks"
 manager: soliver
-ms.date: 2/18/2016
+ms.date: 02/18/2016
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal

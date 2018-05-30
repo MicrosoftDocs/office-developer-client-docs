@@ -1,7 +1,7 @@
 ---
 title: "About the last update time of an Offline Address Book"
 manager: soliver
-ms.date: 12/8/2015
+ms.date: 12/08/2015
 ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal

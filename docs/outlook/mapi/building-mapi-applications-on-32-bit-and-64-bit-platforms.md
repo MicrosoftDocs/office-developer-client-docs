@@ -1,7 +1,7 @@
 ---
 title: "Building MAPI applications on 32-bit and 64-bit platforms"
 manager: soliver
-ms.date: 3/9/2015
+ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 api_type:

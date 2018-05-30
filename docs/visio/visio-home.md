@@ -1,7 +1,7 @@
 ---
 title: "Visio"
 manager: soliver
-ms.date: 4/20/2016
+ms.date: 04/20/2016
 ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal

@@ -1,7 +1,7 @@
 ---
 title: "Download Message Header State"
 manager: soliver
-ms.date: 3/9/2015
+ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 03f69592-a5ea-e30b-9674-9cfa895163d8

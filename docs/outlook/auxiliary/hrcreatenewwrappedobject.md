@@ -1,7 +1,7 @@
 ---
 title: "HrCreateNewWrappedObject"
 manager: soliver
-ms.date: 12/7/2015
+ms.date: 12/07/2015
 ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal

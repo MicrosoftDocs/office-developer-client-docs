@@ -1,7 +1,7 @@
 ---
 title: "Display Alerts and Dialog Boxes Using the InfoPath 2003 Object Model"
 manager: soliver
-ms.date: 3/9/2015
+ms.date: 03/09/2015
 ms.audience: Developer
 keywords:
 - infopath 2003-compatible form templates, displaying dialog boxes,form templates [InfoPath 2007], displaying dialog boxes,alerts, displaying in InfoPath 2003-compatible form templates,dialog boxes, displaying in InfoPath 2003-compatible form templates,InfoPath 2003-compatible form templates, displaying alerts

@@ -1,7 +1,7 @@
 ---
 title: "DeleteRecord Macro action (Access custom web app)" 
 manager: kelbow
-ms.date: 9/5/2017
+ms.date: 09/05/2017
 ms.audience: Developer 
 localization_priority: Normal
 ms.assetid: 071ef6c8-ee0a-4092-8f41-bbb115f5eeea

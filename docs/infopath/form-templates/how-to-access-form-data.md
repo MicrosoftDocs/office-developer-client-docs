@@ -1,7 +1,7 @@
 ---
 title: "Access Form Data"
 manager: soliver
-ms.date: 12/7/2015
+ms.date: 12/07/2015
 ms.audience: Developer
 keywords:
 - form data [infopath 2007],forms [InfoPath 2007], accessing properties,form templates [InfoPath 2007], accessing properties,opening forms [InfoPath 2007],printing forms [InfoPath 2007],forms [InfoPath 2007], printing,closing forms [InfoPath 2007],InfoPath 2007, accessing form data,forms [InfoPath 2007], accessing data source,forms [InfoPath 2007], closing,forms [InfoPath 2007], opening,printing [InfoPath 2007], forms,forms [InfoPath 2007], creating

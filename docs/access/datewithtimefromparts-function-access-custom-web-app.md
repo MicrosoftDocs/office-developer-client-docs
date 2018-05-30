@@ -1,7 +1,7 @@
 ---
 title: "DateWithTimeFromParts function (Access custom web app)"
 manager: kelbow
-ms.date: 9/5/2017
+ms.date: 09/05/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: aa97cbaa-8b14-42e3-a098-938ebe0769eb

@@ -3,7 +3,7 @@ title: "OR (Access custom web app)"
  
  
 manager: kelbow
-ms.date: 9/5/2017
+ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
   

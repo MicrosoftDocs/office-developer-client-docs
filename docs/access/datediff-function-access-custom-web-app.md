@@ -1,7 +1,7 @@
 ---
 title: "DateDiff function (Access custom web app)"
 manager: kelbow
-ms.date: 9/5/2017
+ms.date: 09/05/2017
 ms.audience: Developer 
 localization_priority: Normal
 ms.assetid: 1c58ee87-0f57-4643-be4d-62da815df705

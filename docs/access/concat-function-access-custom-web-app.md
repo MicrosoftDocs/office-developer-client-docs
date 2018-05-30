@@ -1,7 +1,7 @@
 ---
 title: "Concat function (Access custom web app)"
 manager: kelbow
-ms.date: 9/5/2017
+ms.date: 09/05/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 38ad6365-79df-4342-9b76-ca27b8ab8952

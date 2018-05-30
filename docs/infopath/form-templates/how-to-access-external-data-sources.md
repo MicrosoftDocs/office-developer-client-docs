@@ -3,7 +3,7 @@ title: "Access External Data Sources"
  
  
 manager: soliver
-ms.date: 12/7/2015
+ms.date: 12/07/2015
 ms.audience: Developer
  
 keywords:

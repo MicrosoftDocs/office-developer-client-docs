@@ -1,7 +1,7 @@
 ---
 title: "Ceiling function (Access custom web app)" 
 manager: kelbow
-ms.date: 9/5/2017
+ms.date: 09/05/2017
 ms.audience: Developer 
 localization_priority: Normal
 ms.assetid: 0245c820-6c60-47e2-8afa-3e56679454a3

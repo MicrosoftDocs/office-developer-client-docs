@@ -1,7 +1,7 @@
 ---
 title: "Create and customize a web app in Access"
 manager: kelbow
-ms.date: 8/18/2017
+ms.date: 08/18/2017
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal

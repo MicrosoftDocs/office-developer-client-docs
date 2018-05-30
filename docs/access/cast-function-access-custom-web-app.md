@@ -1,7 +1,7 @@
 ---
 title: "Cast function (Access custom web app)"  
 manager: kelbow
-ms.date: 9/5/2017
+ms.date: 09/05/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: b33f649c-d9b5-4ae5-a3fa-8681ed9a956d

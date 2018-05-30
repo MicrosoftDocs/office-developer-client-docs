@@ -1,6 +1,6 @@
 ---
 title: "Office client development"
-ms.date: 4/20/2016
+ms.date: 04/20/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 74a80e0a-fe60-4356-b238-13de4c2822d9

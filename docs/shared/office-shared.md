@@ -1,7 +1,7 @@
 ---
 title: "Office shared"
 manager: soliver
-ms.date: 4/20/2016
+ms.date: 04/20/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 1c4937c4-0998-4f81-a994-50d3dd54727c

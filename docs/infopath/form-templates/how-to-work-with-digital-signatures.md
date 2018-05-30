@@ -3,7 +3,7 @@ title: "Work with Digital Signatures"
  
  
 manager: soliver
-ms.date: 3/9/2015
+ms.date: 03/09/2015
 ms.audience: Developer
  
 keywords:

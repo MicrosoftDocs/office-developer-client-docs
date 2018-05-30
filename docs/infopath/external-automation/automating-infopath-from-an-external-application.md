@@ -1,7 +1,7 @@
 ---
 title: "Automating InfoPath from an external application"
 manager: soliver
-ms.date: 3/9/2015
+ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 4d2248d9-ab20-bcaa-d75b-62876c5e95eb

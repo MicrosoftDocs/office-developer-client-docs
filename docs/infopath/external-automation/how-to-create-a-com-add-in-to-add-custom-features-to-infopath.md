@@ -1,7 +1,7 @@
 ---
 title: "Create a COM Add-in to Add Custom Features to InfoPath"
 manager: soliver
-ms.date: 3/9/2015
+ms.date: 03/09/2015
 ms.audience: Developer
 keywords:
 - infopath 2007, creating com add-ins,InfoPath 2007, adding custom features,COM add-ins [InfoPath 2007]

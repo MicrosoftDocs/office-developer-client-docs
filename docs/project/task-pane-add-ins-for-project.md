@@ -3,7 +3,7 @@ title: "Task pane add-ins for Project"
 
  
 manager: soliver
-ms.date: 9/10/2015
+ms.date: 09/10/2015
 ms.audience: Developer
  
  

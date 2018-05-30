@@ -1,7 +1,7 @@
 ---
 title: "Conversion functions (Access custom web app)" 
 manager: kelbow
-ms.date: 8/18/2017
+ms.date: 08/18/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 3dcb0228-9f44-4261-93ea-df519b0ebe38

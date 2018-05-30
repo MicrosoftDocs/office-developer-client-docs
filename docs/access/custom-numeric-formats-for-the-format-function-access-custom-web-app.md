@@ -1,7 +1,7 @@
 ---
 title: "Custom numeric formats for the Format function (Access custom web app)"
 manager: kelbow
-ms.date: 8/18/2017
+ms.date: 08/18/2017
 ms.audience: Developer 
 localization_priority: Normal
 ms.assetid: 97efe972-d873-47d7-be81-8ae3461870c4

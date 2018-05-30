@@ -1,7 +1,7 @@
 ---
 title: "Welcome to the Outlook Auxiliary Reference"
 manager: soliver
-ms.date: 9/10/2015
+ms.date: 09/10/2015
 ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal

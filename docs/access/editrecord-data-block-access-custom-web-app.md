@@ -1,7 +1,7 @@
 ---
 title: "EditRecord Data Block (Access custom web app)" 
 manager: kelbow
-ms.date: 9/5/2017
+ms.date: 09/05/2017
 ms.audience: Developer 
 localization_priority: Normal
 ms.assetid: 54975434-78b2-4010-b2f9-f277831fa92e

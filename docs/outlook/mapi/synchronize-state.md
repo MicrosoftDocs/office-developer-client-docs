@@ -1,7 +1,7 @@
 ---
 title: "Synchronize State"
 manager: soliver
-ms.date: 3/9/2015
+ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 270ff414-514c-b1fc-db48-761bf6de8867

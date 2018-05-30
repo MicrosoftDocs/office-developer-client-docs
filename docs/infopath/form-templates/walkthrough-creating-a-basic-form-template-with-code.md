@@ -1,7 +1,7 @@
 ---
 title: 'Walkthrough: Create a basic form template with code'
 manager: soliver
-ms.date: 12/7/2015
+ms.date: 12/07/2015
 ms.audience: Developer
 keywords:
 - form templates [infopath 2007], creating managed code,managed code form templates [InfoPath 2007], creating,form templates [InfoPath 2007], walkthroughs,InfoPath 2007, walkthroughs

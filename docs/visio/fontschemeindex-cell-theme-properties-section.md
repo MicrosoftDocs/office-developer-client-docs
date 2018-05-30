@@ -3,7 +3,7 @@ title: "FontSchemeIndex Cell (Theme Properties Section"
  
  
 manager: soliver
-ms.date: 3/9/2015
+ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  

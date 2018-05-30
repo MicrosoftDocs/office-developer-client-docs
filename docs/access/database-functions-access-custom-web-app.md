@@ -1,7 +1,7 @@
 ---
 title: "Database functions (Access custom web app)"  
 manager: kelbow
-ms.date: 8/18/2017
+ms.date: 08/18/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f2bfd27a-e6cd-4d07-b03f-071ed40c15a6

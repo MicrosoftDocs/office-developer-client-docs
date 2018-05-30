@@ -1,7 +1,7 @@
 ---
 title: "IFreeBusyDataGetFBPublishRange"
 manager: soliver
-ms.date: 9/23/2016
+ms.date: 09/23/2016
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal

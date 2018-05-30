@@ -1,7 +1,7 @@
 ---
 title: "Count function (Access custom web app)" 
 manager: kelbow
-ms.date: 9/5/2017
+ms.date: 09/05/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: d931535b-428f-4300-93bf-cfe0ebcc2ac9

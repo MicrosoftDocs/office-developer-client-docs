@@ -1,7 +1,7 @@
 ---
 title: "CharIndex function (Access custom web app)" 
 manager: kelbow
-ms.date: 9/5/2017
+ms.date: 09/05/2017
 ms.audience: Developer 
 localization_priority: Normal
 ms.assetid: 340ed9a8-6f82-4aa8-a951-2c453b3d1ac4

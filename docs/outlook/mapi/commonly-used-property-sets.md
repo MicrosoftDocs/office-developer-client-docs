@@ -1,7 +1,7 @@
 ---
 title: "Commonly Used Property Sets"
 manager: soliver
-ms.date: 3/9/2015
+ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: b68f8bff-1a20-4dfd-92fe-57869328879d

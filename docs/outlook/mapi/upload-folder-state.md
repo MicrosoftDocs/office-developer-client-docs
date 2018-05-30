@@ -1,7 +1,7 @@
 ---
 title: "Upload Folder State"
 manager: soliver
-ms.date: 3/9/2015
+ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 270b1df0-c5cd-0d0f-7b57-2726dee978ab
