@@ -6273,20 +6273,7 @@
                      - name: Project Server error codes
                        href: project/project-server-error-codes.md
                      - name: ProjectData - OData service reference
-                       href: project/projectdataproject-odata-service-reference.md
-                       items:
-                       - name: Querying OData feeds for Project reporting data
-                         href: project/querying-odata-feeds-for-project-reporting-data.md
-                       - name: Best practices for querying OData feeds for reporting data
-                         href: project/best-practices-for-querying-odata-feeds-for-project-reporting-data.md
-                       - name: Replicate Project Online Reporting Data to a SQL Server database using the OData protocol
-                         href: project/replicate-project-online-reporting-data-to-sql-server-database-using-odata.md
-                       - name: 'Project Online: SSIS package for OData delta sync'
-                         href: project/project-online-ssis-package-for-odata-delta-sync.md
-                       - name: 'Schema: ReportingData'
-                         href: https://msdn.microsoft.com/EN-US/library/office/jj163529.aspx
-                       - name: 'Schema: Microsoft.Office.Project.Server'
-                         href: https://msdn.microsoft.com/EN-US/library/office/jj163137.aspx
+                       href: https://msdn.microsoft.com/en-us/library/office/jj163015.aspx
                  - name: Class library and web service reference
                    href: https://msdn.microsoft.com/en-us/library/office/ee767707.aspx
                  - name: JavaScript API reference
