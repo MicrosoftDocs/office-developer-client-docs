@@ -155,7 +155,7 @@ The four databases in Project Server 2010 are combined into a single Project dat
 >
 > There is nothing to actively prevent you from using direct programmatic database access to update data in any of the tables and views in the Project database. You should be aware that the Project Professional cache, the tables for draft and published data, and the reporting tables all rely on a cache synchronization protocol that can be disrupted by direct data editing. If you damage your Project Server databases or corrupt Project Professional client-side caches by using direct access to change data, be warned that product support won't be able to help! 
   
-Project Server 2013 introduces an OData service for online and on-premises access. The online reporting tables and views are exposed only by the OData interface; for on-premises use, you can use the OData interface or directly access the reporting tables and views in the ProjectService database in the SharePoint farm. Project Online does not support a multitenant database. That is, multiple instances of Project Web App each have their own Project database. The OData service internally runs SQL queries on the reporting tables and views, and delivers an XML or JSON payload. For an introduction to the OData service for reporting in Project Server 2013, and for the **ProjectData** schema reference, see [ProjectData - Project OData service reference](projectdataproject-odata-service-reference.md).
+Project Server 2013 introduces an OData service for online and on-premises access. The online reporting tables and views are exposed only by the OData interface; for on-premises use, you can use the OData interface or directly access the reporting tables and views in the ProjectService database in the SharePoint farm. Project Online does not support a multitenant database. That is, multiple instances of Project Web App each have their own Project database. The OData service internally runs SQL queries on the reporting tables and views, and delivers an XML or JSON payload. For an introduction to the OData service for reporting in Project Server 2013, and for the **ProjectData** schema reference, see [ProjectData - Project OData service reference](https://msdn.microsoft.com/en-us/library/office/jj163015.aspx).
   
 For general information about OData queries, see [OData: URI conventions](http://www.odata.org/developers/protocols/uri-conventions#FilterSystemQueryOption). For example, you can see all of the projects in an on-premises instance of Project Web App where the project name starts with "Test" by using the following query in a browser. Right-click in the browser page, and then click **View source**.
   
@@ -170,7 +170,7 @@ On-premises Project Server users, who have the correct permissions, can directly
 > [!NOTE]
 > You can extend on-premises reporting by adding tables, views, fields, and stored procedures in a separate database. You should not modify the existing reporting tables and views in the Project Server database. 
   
-The reporting tables, views, and fields in the Project database will be documented in an HTML Help file in a later update of the Project 2013 SDK download. For documentation of the OData XML schema for the **ProjectData** service, see [ProjectData - Project OData service reference](projectdataproject-odata-service-reference.md). Queries of the reporting tables and views that were created for Project Server 2010 will, in most cases, work with the Project database in Project Server 2013. On-premises users can access the Project Server OLAP cubes in SQL Server Analysis Services, as they currently do. In Project Online, OLAP cubes are not available.
+The reporting tables, views, and fields in the Project database will be documented in an HTML Help file in a later update of the Project 2013 SDK download. For documentation of the OData XML schema for the **ProjectData** service, see [ProjectData - Project OData service reference](https://msdn.microsoft.com/en-us/library/office/jj163015.aspx). Queries of the reporting tables and views that were created for Project Server 2010 will, in most cases, work with the Project database in Project Server 2013. On-premises users can access the Project Server OLAP cubes in SQL Server Analysis Services, as they currently do. In Project Online, OLAP cubes are not available.
   
 ### Task pane add-ins in Project
 <a name="pj15_WhatsNew_Agave"> </a>
@@ -297,7 +297,7 @@ For more information about developing apps, and using the programmability featur
 - [Project Server 2013 architecture](project-server-2013-architecture.md)  
 - [Project programming tasks](project-programming-tasks.md) 
 - [Client-side object model (CSOM) for Project 2013](client-side-object-model-csom-for-project-2013.md) 
-- [ProjectData - Project OData service reference](projectdataproject-odata-service-reference.md)  
+- [ProjectData - Project OData service reference](https://msdn.microsoft.com/en-us/library/office/jj163015.aspx)  
 - [Task pane add-ins for Project](task-pane-add-ins-for-project.md)   
 - [OData: URI conventions](http://www.odata.org/documentation/uri-conventions#FilterSystemQueryOption)    
 - [SharePoint for developers](http://msdn.microsoft.com/en-US/sharepoint)    

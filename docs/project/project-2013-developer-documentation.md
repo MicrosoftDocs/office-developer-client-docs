@@ -84,7 +84,7 @@ New topics include the following:
     
 - [Create a Project Server workflow for Demand Management](create-a-project-server-workflow-for-demand-management.md) shows how SharePoint Designer 2013 can be used to create Project Server workflows. 
     
-- [ProjectData - Project OData service reference](projectdataproject-odata-service-reference.md) includes an overview of the OData interface for Project Server reporting, plus XML reference topics for the **ProjectData** service. 
+- [ProjectData - Project OData service reference](https://msdn.microsoft.com/en-us/library/office/jj163015.aspx) includes an overview of the OData interface for Project Server reporting, plus XML reference topics for the **ProjectData** service. 
     
 Topics in the **Microsoft.ProjectServer.Client** namespace and new methods in the PSI services have only minimal documentation. Most of the reference topics for the PSI services are unchanged from the July 2011 release of the Project 2010 SDK. 
   

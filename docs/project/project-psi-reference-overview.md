@@ -244,7 +244,7 @@ The following are all of the classes that contain web methods in the PSI service
   
 15. **OData** Provides the internal **OData** interface for the reporting tables and views. Access to the **OData** service is available only through the back-end **ProjectServiceApplication** URL. The private **OData** service in the PSI provides one method, **ODataClient.ProcessOdataMessage**, which Project Server uses internally to process requests for reporting data. The HTTP requests go through the front-end **ProjectData** service. 
     
-    For information about the **ProjectData** service and the OData protocol to read reporting data, see [ProjectData - Project OData service reference](projectdataproject-odata-service-reference.md).
+    For information about the **ProjectData** service and the OData protocol to read reporting data, see [ProjectData - Project OData service reference](https://msdn.microsoft.com/en-us/library/office/jj163015.aspx).
     
 16. **P12Upgrade** Provides internal methods for the Project Server 2013 installer to upgrade an Office Project Server 2007 installation. Access to the **P12Upgrade** service is available only through the **ProjectServiceApplication** URL. The **P12Upgrade** methods are not supported for third-party development. 
     

@@ -40,7 +40,7 @@ Find an overview of the Project Server Interface (PSI) reference, how to use the
   
 [Project Server error codes](project-server-error-codes.md) Lists the codes and descriptions of Project Server errors by functional area. 
   
-[ProjectData - Project OData service reference](projectdataproject-odata-service-reference.md) Includes an overview of the OData service for Project Server reporting data, an introduction to using the OData feeds with LINQ queries, and references for the XML metadata in the **ProjectData** service. 
+[ProjectData - Project OData service reference](https://msdn.microsoft.com/en-us/library/office/jj163015.aspx) Includes an overview of the OData service for Project Server reporting data, an introduction to using the OData feeds with LINQ queries, and references for the XML metadata in the **ProjectData** service. 
   
 ## See also
 

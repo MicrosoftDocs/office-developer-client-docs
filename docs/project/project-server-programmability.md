@@ -99,7 +99,7 @@ When you upgrade an application that was developed for a previous version of Pro
 > [!NOTE]
 > If the CSOM includes the functionality you require, we recommend that you upgrade applications to use the CSOM. The CSOM enables applications to be used for both on-premises and online installations of Project Server 2013. 
   
-If your application primarily reads data from Project Server, you can use the reporting tables and views in the Project Server database for an on-premises scenario. If you intend to use the application with Project Online, you can use the OData protocol for the **ProjectData** service, which provides both on-premises and online access to the reporting data. For more information, see [ProjectData - Project OData service reference](projectdataproject-odata-service-reference.md)
+If your application primarily reads data from Project Server, you can use the reporting tables and views in the Project Server database for an on-premises scenario. If you intend to use the application with Project Online, you can use the OData protocol for the **ProjectData** service, which provides both on-premises and online access to the reporting data. For more information, see [ProjectData - Project OData service reference](https://msdn.microsoft.com/en-us/library/office/jj163015.aspx)
   
 ### Using the PSI
 <a name="pj15_Programmability_PSI"> </a>
@@ -270,7 +270,7 @@ Applications that directly access the draft, published, or archive tables and vi
   
 For all of these reasons, Project Professional and Project Web App do not make direct calls to the draft, published, or archive tables; neither should any other application that integrates with Project Server.
   
-The schemas for the draft, published, and archive tables are not documented. You can use the reporting tables to help generate reports, and the schema for the reporting tables and views is documented in the Project 2013 SDK download. For the OData schema of the reporting data, see [ProjectData - Project OData service reference](projectdataproject-odata-service-reference.md).
+The schemas for the draft, published, and archive tables are not documented. You can use the reporting tables to help generate reports, and the schema for the reporting tables and views is documented in the Project 2013 SDK download. For the OData schema of the reporting data, see [ProjectData - Project OData service reference](https://msdn.microsoft.com/en-us/library/office/jj163015.aspx).
   
 ## See also
 
