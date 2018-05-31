@@ -732,7 +732,7 @@
                     items:
                     - name: Create a Form Template Using the InfoPath 2003 Object Model
                       href: infopath/form-templates/how-to-create-a-form-template-using-the-infopath-2003-object-model.md
-                    - name: Walkthrough: Creating and Debugging a Basic Form Template Using the InfoPath 2003 Object Model
+                    - name: Walkthrough':' Creating and Debugging a Basic Form Template Using the InfoPath 2003 Object Model
                       href: infopath/form-templates/walkthrough-create-and-debug-basic-form-template-using-infopath-object-model.md
                     - name: Common Tasks for Developing Form Templates Using the InfoPath 2003 Object Model
                       href: infopath/form-templates/common-tasks-for-developing-form-templates-using-infopath-object-model.md
