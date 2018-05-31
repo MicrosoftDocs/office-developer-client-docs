@@ -1,0 +1,81 @@
+---
+title: "PidTagMessageSize Canonical Property"
+ 
+ 
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+api_name:
+- PidTagMessageSize
+api_type:
+- HeaderDef
+ms.assetid: c67fb54b-8cc7-4fbc-8204-36fcddfa6192
+description: "Last modified: March 09, 2015"
+---
+
+# PidTagMessageSize Canonical Property
+
+  
+  
+**Applies to**: Outlook 
+  
+Contains the sum, in bytes, of the sizes of all properties on a message object. 
+  
+|||
+|:-----|:-----|
+|Associated properties:  <br/> |PR_MESSAGE_SIZE  <br/> |
+|Identifier:  <br/> |0x0E08  <br/> |
+|Data type:  <br/> |PT_LONG  <br/> |
+|Area:  <br/> |General messaging  <br/> |
+   
+## Remarks
+
+It is recommended that message objects expose this property. The message size indicates the approximate number of bytes that are transferred when the message is moved from one message store to another. Being the sum of the sizes of all properties on the message object, it is usually considerably greater than the message text alone. 
+  
+Most message store providers compute this property for messages that they handle. However, some message store providers do not support this property. In any case, this property is not available until the [IMAPIProp::SaveChanges](imapiprop-savechanges.md) or [IMessage::SubmitMessage](imessage-submitmessage.md) method has been called. 
+  
+## Related resources
+
+### Protocol specifications
+
+[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+  
+> Provides references to related Exchange Server protocol specifications.
+    
+[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+  
+> Handles message and attachment objects.
+    
+[[MS-OXCFOLD]](http://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
+  
+> Handles folder operations.
+    
+[[MS-OXCSTOR]](http://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
+  
+> Specifies permissible operations for the core message store objects.
+    
+### Header files
+
+Mapidefs.h
+  
+> Provides data type definitions.
+    
+Mapitags.h
+  
+> Contains definitions of properties listed as alternate names.
+    
+## See also
+
+
+
+[MAPI Properties](mapi-properties.md)
+  
+[MAPI Canonical Properties](mapi-canonical-properties.md)
+  
+[Mapping Canonical Property Names to MAPI Names](mapping-canonical-property-names-to-mapi-names.md)
+  
+[Mapping MAPI Names to Canonical Property Names](mapping-mapi-names-to-canonical-property-names.md)
+

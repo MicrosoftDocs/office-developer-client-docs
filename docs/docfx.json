@@ -21,8 +21,11 @@
     "resource": [
       {
         "files": [
-          "**/*.png",
-          "**/*.jpg"
+              "**/*.png",
+              "**/*.jpg",
+              "**/*.gif",
+              "**/*.bmp",
+              "**/*.jpeg"
         ],
         "exclude": [
           "**/obj/**",
@@ -35,10 +38,47 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "/office/client/breadcrumb/toc.json",
-      "extendBreadcrumb": true
+      "breadcrumb_path": "/office/client-developer/breadcrumb/toc.json",
+      "extendBreadcrumb": true,
+	  "ms.author": "o365devx", 
+	   "author": "o365devx",
+       "ms.topic": "conceptual",
+	   "uhfHeaderId": "MSDocsHeader-Dev_Office",
+	   "ms.suite": "office",
+	   "ms.prod" : "office"
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+	"ms.technology": 
+       { 
+         "project/**.md" : "dev-overview",
+		 "excel/**.md" : "excel-xll",
+		 "access/**.md" : "custom-web-app",
+		 "word/**.md" : "content-controls",
+		 "integration/**.md" : "integration",
+		 "shared/**.md" : "telemetry",
+		 "infopath/external-automation/**.md" : "external-automation",
+		 "infopath/form-templates/**.md" : "form-templates",
+		 "onenote/**.md" : "dev-overview",
+		 "outlook/**.md" : "dev-overview",	
+		 "outlook/mapi/**.md" : "mapi",
+		 "outlook/social-connector/**.md" : "social-connector",
+		 "outlook/auxiliary/**.md" : "auxiliary",
+		 "outlook/weather/**.md" : "weather"
+		 
+       },
+	 "ms.prod": 
+       { 
+         "project/**.md" : "project",
+		 "excel/**.md" : "excel",
+		 "access/**.md" : "access",
+		 "word/**.md" : "word",
+		 "infopath/**.md" : "infopath",
+		 "onenote/**.md" : "onenote",
+		 "outlook/**.md" : "outlook",
+		 "visio/**.md" : "visio"
+       }
+	   
+	   },
     "template": [],
     "dest": "officedocs-dev-client-docs",
     "markdownEngineName": "markdig"

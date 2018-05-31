@@ -1,0 +1,32 @@
+---
+title: "IFreeBusySupportPlaceholder3"
+manager: soliver
+ms.date: 11/16/2014
+ms.audience: Developer
+ms.topic: reference
+localization_priority: Normal
+ms.assetid: 5b050392-46b5-4f3a-dc67-714c32e6f8fd
+description: "This member is a placeholder and is not supported."
+---
+
+# IFreeBusySupport::Placeholder3
+
+This member is a placeholder and is not supported.
+  
+## Quick info
+
+See [IFreeBusySupport](ifreebusysupport.md).
+  
+```cpp
+HRESULT Placeholder3();
+```
+
+## Return values
+
+Always S_OK, because this member is a placeholder and is not supported.
+  
+## Remarks
+
+This member must return S_OK.
+  
+
