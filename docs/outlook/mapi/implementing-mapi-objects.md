@@ -28,7 +28,7 @@ When a MAPI object is implemented, a client or service provider creates code for
   
 There are many macros in the Mapidefs.h header file and OLE header files that clients and service providers in either language can use to help them with their definitions of MAPI objects. For example, there is a macro to define the methods of each of the MAPI interfaces. The macro to define the methods of the [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx) interface appears in Mapidefs.h as follows: 
   
-```
+```cpp
 #define MAPI_IUNKNOWN_METHODS(IPURE)          \
     MAPIMETHOD(QueryInterface)                \
         (THIS_ REFIID riid, LPVOID FAR * ppvObj) IPURE;    \
