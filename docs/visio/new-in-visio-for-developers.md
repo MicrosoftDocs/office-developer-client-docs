@@ -3,7 +3,7 @@ title: "New in Visio for developers"
  
  
 manager: soliver
-ms.date: 9/18/2015
+ms.date: 09/18/2015
 ms.audience: Developer
 ms.topic: overview
  

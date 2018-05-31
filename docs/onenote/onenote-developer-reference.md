@@ -1,7 +1,7 @@
 ---
 title: OneNote developer reference
 manager: soliver
-ms.date: 5/16/2016
+ms.date: 05/16/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 4c4ef9e8-6b30-481b-8023-2e1280bcbcc9

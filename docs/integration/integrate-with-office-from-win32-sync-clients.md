@@ -3,7 +3,7 @@ title: "Integrate with Office from Win32 sync clients"
  
  
 manager: soliver
-ms.date: 7/29/2015
+ms.date: 07/29/2015
 ms.audience: Developer
  
  

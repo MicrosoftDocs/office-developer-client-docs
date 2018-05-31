@@ -1,7 +1,7 @@
 ---
 title: "Third-party applications integrating with Office Mobile products on Windows, Android, and iOS"
 manager: soliver
-ms.date: 6/4/2015
+ms.date: 06/04/2015
 ms.audience: ITPro
 localization_priority: Normal
 ms.assetid: 3ae2fc01-73a6-4d0c-a056-fe65d7fd7159

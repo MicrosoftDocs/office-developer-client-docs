@@ -1,7 +1,7 @@
 ---
 title: "Locating the message download history for a POP3 account"
 manager: soliver
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal

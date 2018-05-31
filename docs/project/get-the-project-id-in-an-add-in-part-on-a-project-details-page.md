@@ -1,7 +1,7 @@
 ---
 title: "Get the project ID in an add-in part on a Project Details Page"
 manager: soliver
-ms.date: 8/10/2016
+ms.date: 08/10/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 009cd997-c7e5-4078-b495-c40caa29a5fb

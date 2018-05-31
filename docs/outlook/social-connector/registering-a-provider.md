@@ -1,7 +1,7 @@
 ---
 title: "Registering a provider"
 manager: soliver
-ms.date: 3/5/2015
+ms.date: 03/05/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server

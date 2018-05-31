@@ -1,7 +1,7 @@
 ---
 title: "Configure UDFs in Excel Online in Office Online Server Preview"
 manager: soliver
-ms.date: 3/18/2016
+ms.date: 03/18/2016
 ms.audience: ITPro
 localization_priority: Normal
 ms.assetid: 3e0ca274-e9cd-48a1-8cfc-9d5053738972

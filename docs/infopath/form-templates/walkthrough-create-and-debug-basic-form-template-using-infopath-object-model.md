@@ -1,7 +1,7 @@
 ---
 title: 'Walkthrough: Create and debug a basic form template using the InfoPath object model'
 manager: soliver
-ms.date: 1/13/2015
+ms.date: 01/13/2015
 ms.audience: Developer
 keywords:
 - form templates [infopath 2007], walkthroughs,form templates [InfoPath 2007], creating InfoPath 2003-compatible,InfoPath 2003-compatible form templates, walkthroughs

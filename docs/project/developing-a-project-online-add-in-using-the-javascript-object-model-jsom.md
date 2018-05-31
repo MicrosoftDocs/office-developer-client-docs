@@ -1,7 +1,7 @@
 ---
 title: "Developing a Project Online add-in using the JavaScript Object Model (JSOM)"
 manager: soliver
-ms.date: 11/8/2016
+ms.date: 11/08/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 4a4b1ad2-de46-421d-a698-53c20c90b93a

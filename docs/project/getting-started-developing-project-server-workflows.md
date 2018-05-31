@@ -3,7 +3,7 @@ title: "Getting started developing Project Server workflows"
 
  
 manager: soliver
-ms.date: 8/10/2016
+ms.date: 08/10/2016
 ms.audience: Developer
  
  

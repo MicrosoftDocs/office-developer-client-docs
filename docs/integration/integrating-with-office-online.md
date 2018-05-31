@@ -3,7 +3,7 @@ title: "Integrating with Office Online"
  
  
 manager: soliver
-ms.date: 5/20/2015
+ms.date: 05/20/2015
 ms.audience: Developer
  
  

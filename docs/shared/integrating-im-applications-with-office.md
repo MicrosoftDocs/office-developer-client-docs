@@ -1,7 +1,7 @@
 ---
 title: "Integrating IM applications with Office"
 manager: soliver
-ms.date: 7/25/2016
+ms.date: 07/25/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: beba316b-1dfe-4e1b-adae-42418906c177

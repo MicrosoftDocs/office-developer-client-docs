@@ -1,7 +1,7 @@
 ---
 title: "Project Server architecture"
 manager: soliver
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2cfa5a6e-2f5c-440c-b35a-bc7a34648f9c

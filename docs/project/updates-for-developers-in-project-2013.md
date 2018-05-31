@@ -1,7 +1,7 @@
 ---
 title: "Updates for developers in Project"
 manager: soliver
-ms.date: 9/29/2015
+ms.date: 09/29/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5b2b22cd-6e28-43a8-9092-b411da8bfb53

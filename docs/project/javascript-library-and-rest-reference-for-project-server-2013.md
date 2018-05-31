@@ -1,7 +1,7 @@
 ---
 title: "JavaScript library and REST reference for Project Server"
 manager: soliver
-ms.date: 8/10/2016
+ms.date: 08/10/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 67b47b8b-d34b-4fad-af49-0c258c345ad2

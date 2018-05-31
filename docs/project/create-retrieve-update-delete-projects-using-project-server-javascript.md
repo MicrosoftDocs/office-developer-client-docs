@@ -1,7 +1,7 @@
 ---
 title: "Create, retrieve, update, and delete projects using Project Server JavaScript"
 manager: soliver
-ms.date: 8/10/2016
+ms.date: 08/10/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 6b690938-05bc-46a3-a40e-30f081403767

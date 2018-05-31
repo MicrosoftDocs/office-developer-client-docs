@@ -3,7 +3,7 @@ title: "Project client programming"
 
  
 manager: soliver
-ms.date: 8/10/2016
+ms.date: 08/10/2016
 ms.audience: Developer
  
 f1_keywords:

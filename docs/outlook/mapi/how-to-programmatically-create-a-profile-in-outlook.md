@@ -1,7 +1,7 @@
 ---
 title: "Programmatically create a profile in Outlook"
 manager: soliver
-ms.date: 6/2/2016
+ms.date: 06/02/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2a8561a9-df09-453a-b415-c45910625870

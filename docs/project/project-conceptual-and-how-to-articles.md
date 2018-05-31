@@ -1,7 +1,7 @@
 ---
 title: "Project conceptual and how-to articles"
 manager: soliver
-ms.date: 9/15/2015
+ms.date: 09/15/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: da7f2b16-cbd6-4a98-b577-31841e60a656

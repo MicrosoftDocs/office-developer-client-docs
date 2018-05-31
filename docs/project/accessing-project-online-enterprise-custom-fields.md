@@ -1,7 +1,7 @@
 ---
 title: "Accessing Project Online enterprise custom fields"
 manager: soliver
-ms.date: 11/8/2016
+ms.date: 11/08/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 25509631-fa14-49d8-b594-cfacf5355c38

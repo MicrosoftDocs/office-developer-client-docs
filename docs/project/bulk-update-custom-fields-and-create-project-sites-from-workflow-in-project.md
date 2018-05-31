@@ -1,7 +1,7 @@
 ---
 title: "Bulk update custom fields and create project sites in Project Online"
 manager: soliver
-ms.date: 8/10/2016
+ms.date: 08/10/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 815131c6-190c-4f29-83bf-c853eee72821

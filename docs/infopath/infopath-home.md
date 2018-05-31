@@ -1,7 +1,7 @@
 ---
 title: "InfoPath"
 manager: soliver
-ms.date: 9/9/2015
+ms.date: 09/09/2015
 ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal

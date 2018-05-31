@@ -1,7 +1,7 @@
 ---
 title: "Integrate with Office from Windows universal apps"
 manager: soliver
-ms.date: 2/6/2017
+ms.date: 02/06/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 60b4fa23-0075-4f6a-8bd0-9e53e99432d5

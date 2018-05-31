@@ -3,7 +3,7 @@ title: "Office for Android support for the Android Storage Access Framework"
  
  
 manager: soliver
-ms.date: 6/18/2015
+ms.date: 06/18/2015
 ms.audience: Developer
  
  

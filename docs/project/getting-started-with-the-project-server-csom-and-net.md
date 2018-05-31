@@ -1,7 +1,7 @@
 ---
 title: "Getting started with the Project Server CSOM and .NET"
 manager: soliver
-ms.date: 8/10/2016
+ms.date: 08/10/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5ce73baa-dfb6-41d0-918d-b0c3a498815f

@@ -1,7 +1,7 @@
 ---
 title: "Developing a Project Online application using the client-side object model"
 manager: soliver
-ms.date: 11/8/2016
+ms.date: 11/08/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5740d0b2-5d36-40e4-9e83-577cb186359f

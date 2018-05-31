@@ -3,7 +3,7 @@ title: "Office for iOS support for the iOS Document Picker"
  
  
 manager: soliver
-ms.date: 2/9/2015
+ms.date: 02/09/2015
 ms.audience: Developer
  
  

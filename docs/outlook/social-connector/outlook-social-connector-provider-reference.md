@@ -1,7 +1,7 @@
 ---
 title: "Outlook Social Connector provider reference"
 manager: soliver
-ms.date: 4/4/2016
+ms.date: 04/04/2016
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server

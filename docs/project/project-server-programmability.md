@@ -1,7 +1,7 @@
 ---
 title: "Project Server programmability"
 manager: soliver
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 f1_keywords:
 - events

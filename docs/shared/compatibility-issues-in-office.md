@@ -1,7 +1,7 @@
 ---
 title: "Compatibility issues in Office"
 manager: scotv
-ms.date: 4/12/2016
+ms.date: 04/12/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: dd279238-ae75-4ad9-b9e5-364924090485

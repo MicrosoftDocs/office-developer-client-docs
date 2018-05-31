@@ -3,7 +3,7 @@ title: "Integrate with Office from iOS applications"
  
  
 manager: soliver
-ms.date: 6/4/2015
+ms.date: 06/04/2015
 ms.audience: Developer
  
  

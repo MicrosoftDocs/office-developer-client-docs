@@ -1,7 +1,7 @@
 ---
 title: "Integrate with Office"
 manager: soliver
-ms.date: 7/29/2015
+ms.date: 07/29/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 369b30e3-eadf-4086-b023-abbdd8e810b0

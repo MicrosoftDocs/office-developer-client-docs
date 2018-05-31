@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Office files and custom solutions with the telemetry log"
 manager: soliver
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: ef88e30e-7537-488e-bc72-8da29810f7aa

@@ -1,7 +1,7 @@
 ---
 title: "Create a SharePoint-hosted Project Server add-in"
 manager: soliver
-ms.date: 8/10/2016
+ms.date: 08/10/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: bb9c3c00-7121-41e1-9db3-75550d040ba8

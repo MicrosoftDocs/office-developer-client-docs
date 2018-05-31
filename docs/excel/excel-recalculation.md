@@ -3,7 +3,7 @@ title: "Excel Recalculation"
  
  
 manager: kelbow
-ms.date: 3/9/2018
+ms.date: 03/09/2018
 ms.audience: Developer
 ms.topic: overview
 keywords:
