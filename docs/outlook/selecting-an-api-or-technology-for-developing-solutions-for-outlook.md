@@ -5,12 +5,12 @@ ms.date: 10/21/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 01a46083-03d0-4333-920c-01a9f17f68cb
-description: "This article describes the APIs and technologies you can use to extend Outlook 2013, and helps you decide the appropriate API or technology for your scenario."
+description: "This article describes the APIs and technologies you can use to extend Outlook 2013 and Outlook 2016, and helps you decide the appropriate API or technology for your scenario."
 ---
 
 # Selecting an API or technology for developing solutions for Outlook
 
-This article describes the APIs and technologies you can use to extend Outlook 2013, and helps you decide the appropriate API or technology for your scenario.
+This article describes the APIs and technologies that you can use to extend Outlook 2013 and Outlook 2016, and helps you decide the appropriate API or technology for your scenario.
   
 Microsoft supports various APIs and technologies that extend Outlook: 
   
@@ -258,7 +258,7 @@ However, the following features are unique to add-ins and may make them a more a
     
 - You can detect events such as sending an item or modifying properties of an item.
     
-- You can use add-ins on Outlook 2013 and Exchange Server 2013, as well as earlier versions of Outlook and Exchange. On the other hand, mail apps work with Outlook and Exchange starting in Outlook 2013 and Exchange Server 2013, but not earlier versions
+- You can use add-ins on Outlook 2013 and Exchange Server 2013, as well as earlier versions of Outlook and Exchange. On the other hand, mail apps work with Outlook and Exchange starting in Outlook 2013 and Exchange Server 2013, but not earlier versions.
     
 For more information about scenarios that the object model and PIA support, see the next section, [Decision factors for the object model or PIA](#OLSelectAPI_FactorsOM). For a comparison of the Office Add-ins platform with other extensibility technologies for Office, see [The background on apps for Office and SharePoint](http://blogs.msdn.com/b/officeapps/archive/2012/07/23/introducing-apps-for-the-new-office-and-sharepoint.aspx).
   
@@ -878,40 +878,25 @@ The following resources provide more information about the primary Outlook refer
   
 ### Major references and resources
 
-- [Office Add-ins](http://msdn.microsoft.com/library/1e123201-6e70-45c1-a48c-d5b955896ddb%28Office.15%29.aspx)
-    
-- [Outlook 2013 developer reference](http://msdn.microsoft.com/library/75e4ad96-62a2-49d2-bc51-48ceab50634c%28Office.15%29.aspx)
-    
-- [Outlook 2010 Primary Interop Assembly Reference](http://msdn.microsoft.com/library/54bdde85-8dc9-4498-a1ac-f72eaf8f0cd3%28Office.15%29.aspx)
-    
-- [Outlook MAPI Reference](http://msdn.microsoft.com/library/3d980b86-7001-4869-9780-121c6bfc7275%28Office.15%29.aspx)
-    
-- [Outlook 2013 Auxiliary Reference](auxiliary/welcome-to-the-outlook-auxiliary-reference.md)
-    
-- [Outlook Social Connector provider reference](social-connector/outlook-social-connector-provider-reference.md)
-    
-- [Extending the Weather Bar in Outlook](weather/extending-the-weather-bar-in-outlook.md)
-    
-- [Outlook Weather Information XML Schema](weather/outlook-weather-information-xml-schema.md)
-    
-- [Outlook Weather Location XML Schema](weather/outlook-weather-location-xml-schema.md)
-    
-- [What's New in XML Schemas for Outlook 2010](http://msdn.microsoft.com/library/52f91e6f-a774-488c-8e55-111ae8f68f8a%28Office.15%29.aspx)
-    
-- [Outlook 2010: XML Schema Reference](http://www.microsoft.com/downloads/en/details.aspx?FamilyID=10ca414a-6cff-46a1-a521-e42c25f079d3&amp;displaylang=en)
-    
+- [Office Add-ins](http://msdn.microsoft.com/library/1e123201-6e70-45c1-a48c-d5b955896ddb%28Office.15%29.aspx)   
+- [Outlook 2013 developer reference](http://msdn.microsoft.com/library/75e4ad96-62a2-49d2-bc51-48ceab50634c%28Office.15%29.aspx)   
+- [Outlook 2010 Primary Interop Assembly Reference](http://msdn.microsoft.com/library/54bdde85-8dc9-4498-a1ac-f72eaf8f0cd3%28Office.15%29.aspx)   
+- [Outlook MAPI Reference](http://msdn.microsoft.com/library/3d980b86-7001-4869-9780-121c6bfc7275%28Office.15%29.aspx)   
+- [Outlook 2013 Auxiliary Reference](auxiliary/welcome-to-the-outlook-auxiliary-reference.md)   
+- [Outlook Social Connector provider reference](social-connector/outlook-social-connector-provider-reference.md)   
+- [Extending the Weather Bar in Outlook](weather/extending-the-weather-bar-in-outlook.md)   
+- [Outlook Weather Information XML Schema](weather/outlook-weather-information-xml-schema.md)   
+- [Outlook Weather Location XML Schema](weather/outlook-weather-location-xml-schema.md)   
+- [What's New in XML Schemas for Outlook 2010](http://msdn.microsoft.com/library/52f91e6f-a774-488c-8e55-111ae8f68f8a%28Office.15%29.aspx)   
+- [Outlook 2010: XML Schema Reference](http://www.microsoft.com/downloads/en/details.aspx?FamilyID=10ca414a-6cff-46a1-a521-e42c25f079d3&amp;displaylang=en)   
 - [Developing Outlook 2010 Solutions for 32-Bit and 64-Bit Systems](http://msdn.microsoft.com/library/076753e1-6252-4189-843c-7b1be1967176%28Office.15%29.aspx)
     
 ### Code samples
 
-- [Mail apps samples](http://code.msdn.microsoft.com/officeapps/site/search?f%5B0%5D.Type=Technology&amp;f%5B0%5D.Value=Outlook%202013)
-    
-- Object model code samples: [How Do I ... in Outlook](http://msdn.microsoft.com/library/3c33646d-e5c2-3103-b219-487ffe23357f%28Office.15%29.aspx)
-    
-- PIA code samples: [How Do I... (Outlook Reference)](http://msdn.microsoft.com/library/ff647d52-bd32-4945-afa4-5b97d9a0d7dd%28Office.15%29.aspx)
-    
+- [Mail apps samples](http://code.msdn.microsoft.com/officeapps/site/search?f%5B0%5D.Type=Technology&amp;f%5B0%5D.Value=Outlook%202013)   
+- Object model code samples: [How Do I ... in Outlook](http://msdn.microsoft.com/library/3c33646d-e5c2-3103-b219-487ffe23357f%28Office.15%29.aspx)  
+- PIA code samples: [How Do I... (Outlook Reference)](http://msdn.microsoft.com/library/ff647d52-bd32-4945-afa4-5b97d9a0d7dd%28Office.15%29.aspx)  
 - [MAPI Samples](http://msdn.microsoft.com/library/641659f2-3c0a-43af-96f1-2521b4b06680%28Office.15%29.aspx)
-    
 - Auxiliary API code samples: [Sample tasks](auxiliary/sample-tasks.md)
     
 
