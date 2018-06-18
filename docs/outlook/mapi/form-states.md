@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # Form states
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Form objects can be in one of five distinct states, depending on what methods have been called in them and whether any errors have occurred in performing those methods. The states are described in the following topics:
   

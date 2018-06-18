@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Provides implementations for tasks that are typically performed by service providers and message service entry point functions. Service providers receive a pointer to their support object when MAPI calls their provider object's logon method. Message services receive their support object pointer in the call to their entry point function.
   

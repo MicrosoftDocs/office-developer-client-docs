@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # Implementing IUnknown in C
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Implementations of the [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx) method in C are very similar to C++ implementations. There are two basic steps to the implementation: 
   

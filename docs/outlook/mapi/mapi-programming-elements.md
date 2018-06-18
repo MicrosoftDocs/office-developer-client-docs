@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # MAPI programming elements
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 This section contains conceptual overviews of the programming elements in the [MAPI Reference](mapi-reference.md). 
   

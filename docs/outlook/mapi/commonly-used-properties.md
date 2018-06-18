@@ -16,7 +16,7 @@ description: "Last modified: November 08, 2011"
 
  
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Lists of required and optional MAPI properties are documented in several places.
   

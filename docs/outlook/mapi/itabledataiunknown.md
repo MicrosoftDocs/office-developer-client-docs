@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Provides utility methods for working with tables. MAPI provides table data objects or objects that implement **ITableData** to help service providers perform table maintenance. To obtain a table data object, service providers call the [CreateTable](createtable.md) function. 
   

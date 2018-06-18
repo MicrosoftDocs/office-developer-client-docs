@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
 # FNIDLE
  
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Defines an idle routine that the MAPI idle engine calls periodically according to priority. 
   

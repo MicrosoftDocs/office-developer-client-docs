@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 The MAPI utilities are made up of table data and property data objects and a variety of functions to support miscellaneous features. It is possible for a client to need only these utilities and not have to log on to the MAPI subsystem to establish a connection with service providers. If your client fits into this category, call the API function [ScInitMapiUtil](scinitmapiutil.md) rather than the [MAPIInitialize](mapiinitialize.md) function at initialization time. 
   

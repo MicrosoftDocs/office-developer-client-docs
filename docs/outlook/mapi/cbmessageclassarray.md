@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Computes the number of bytes in an existing [SMessageClassArray](smessageclassarray.md) structure that contains a specified number of string pointers to message classes. 
   

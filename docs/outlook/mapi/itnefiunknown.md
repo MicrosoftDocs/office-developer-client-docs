@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Provides methods for encapsulating MAPI properties that are not supported by a messaging system into binary streams that can be attached to messages. The format used for this encapsulation is the Transport-Neutral Encapsulation Format (TNEF). The target transport provider or MAPI-based client application can then, on receiving a message that includes a TNEF attachment, recover the properties from the attachment.
   

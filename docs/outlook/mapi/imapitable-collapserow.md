@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Collapses an expanded table category, removing any lower-level headings and leaf rows belonging to the category from the table view.
   

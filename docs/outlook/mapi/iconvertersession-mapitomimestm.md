@@ -18,7 +18,7 @@ description: "Last modified: September 20, 2017"
 # IConverterSession::MAPIToMIMEStm
  
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Converts a MAPI message to a MIME stream.
   

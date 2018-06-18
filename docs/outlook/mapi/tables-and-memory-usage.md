@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # Tables and memory usage
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 An important issue connected with retrieving data from a table is memory usage. Lack of available memory can cause [IMAPITable::QueryRows](imapitable-queryrows.md) and [HrQueryAllRows](hrqueryallrows.md) to fail, returning less than the desired number of rows. Deciding which method or function to use to retrieve table data depends on whether the table can be expected to fit in memory, and if it cannot, if failure is acceptable. 
   

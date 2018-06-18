@@ -14,7 +14,7 @@ description: "Last modified: July 06, 2012"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 This topic takes you through the steps to download and install the Sample Offline State Add-in. The Sample Offline State Add-in is a COM add-in that adds an **Offline State** menu to Outlook and utilizes the Offline State API. Through the Offline State menu you can enable or disable state monitoring, check the current state, and change the current state. For more information about how the Offline State Add-in is implemented, see [Setting Up an Offline State Add-in](setting-up-an-offline-state-add-in.md).
   

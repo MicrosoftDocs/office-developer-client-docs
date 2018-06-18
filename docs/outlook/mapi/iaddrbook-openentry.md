@@ -16,7 +16,7 @@ description: "Last modified: February 01, 2013"
 
 # IAddrBook::OpenEntry
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Opens an address book entry and returns a pointer to an interface that can be used to access the entry.
   

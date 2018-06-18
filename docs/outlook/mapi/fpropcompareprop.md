@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
 # FPropCompareProp
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Compares two property values using a specified relational operator. 
   

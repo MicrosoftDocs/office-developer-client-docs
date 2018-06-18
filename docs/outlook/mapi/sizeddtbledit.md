@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
 # SizedDtblEdit
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Creates a named structure that includes a [DTBLEDIT](dtbledit.md) structure for describing an edit control and the maximum number of characters that can be entered in the control. 
   

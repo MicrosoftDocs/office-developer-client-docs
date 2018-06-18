@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Provides access to the current MAPI session associated with the support object. MAPI Providers can query their MAPI Support Object for this interface. For more information on support objects, see [Support Object Overview](support-object-overview.md).
   

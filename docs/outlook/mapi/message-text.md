@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 For outbound messages in MIME mode, the content-type depends on whether there are attachments and what the message text looks like. If there are attachments, the Content-type is  _multipart/mixed;_ the message text and each attachment become a separate part of the message content, each with its own content-type. If there are no attachments, the content-type of the message is  _text/plain_ and there is only one part. 
   

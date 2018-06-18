@@ -13,7 +13,7 @@ description: "Last modified: March 09, 2015"
 
 # PidTagSpamTrustedRecipients Canonical Property
  
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Contains a semicolon-delimited list of email addresses and domains that represent the trusted recipients.
   

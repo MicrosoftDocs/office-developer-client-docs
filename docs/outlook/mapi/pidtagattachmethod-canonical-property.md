@@ -20,7 +20,7 @@ description: "Last modified: September 07, 2016"
 
  
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Contains a MAPI-defined constant representing the way the contents of an attachment can be accessed. 
   

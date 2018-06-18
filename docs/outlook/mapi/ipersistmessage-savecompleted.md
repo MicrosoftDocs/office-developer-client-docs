@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
 # IPersistMessage::SaveCompleted
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Notifies the form that a save operation has been completed. 
   

@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
 # ACCELERATEABSDI
  
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Defines a callback function to process accelerator keys in a modeless address book dialog box. 
   

@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # Handing address book notification
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Address book notifications allow a client to learn of events that occur to any address book entry or to a particular entry. You can register for these notifications either through the MAPI address book by calling [IAddrBook::Advise](iaddrbook-advise.md) or through an address book container's hierarchy or contents table by calling [IMAPITable::Advise](imapitable-advise.md). 
   

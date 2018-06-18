@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
 # SRow
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Describes a row from a table that contains selected properties for a specific object. 
   

@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # Form verbs
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 A form's user interface typically offers menu items or controls that enable users to take some kind of action with the form. It is the form server's job to handle these user actions. This interface is implemented using standard Win32 APIs; writing one is just like writing other interfaces for regular Win32 programs.
   

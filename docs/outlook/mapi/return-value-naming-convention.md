@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 The MAPICODE.H header file contains many of the values that a client or service provider might return from an interface method implementation or might see returned from a call.
   

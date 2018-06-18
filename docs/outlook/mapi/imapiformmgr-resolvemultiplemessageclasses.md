@@ -20,7 +20,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Resolves a group of message classes to their forms within a form container, and returns an array of form information objects for those forms.
   

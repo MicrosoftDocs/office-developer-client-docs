@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 A display table is used to show a property sheet, a special dialog box that is composed of one or more tabbed property pages dedicated to displaying and possibly editing one or more properties. Associated with every display table is an [IAttach : IMAPIProp](iattachimapiprop.md) interface implementation. The [IMAPIProp](imapipropiunknown.md) implementation maintains the property data that is presented in the property sheet. 
   

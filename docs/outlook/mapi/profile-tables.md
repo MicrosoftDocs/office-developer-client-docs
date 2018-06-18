@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 The profile table lists information about all profiles associated with a particular client application. There is one profile table for every session, implemented by MAPI for use by clients. 
   

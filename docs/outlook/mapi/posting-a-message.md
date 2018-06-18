@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # Posting a message
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Posting a message is similar to sending a message. The main difference is the destination. Rather than being directed to one or more recipients across one or more messaging systems, a posted message remains in a folder in the current message store.
   

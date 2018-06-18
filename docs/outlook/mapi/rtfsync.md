@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
 # RTFSync
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Makes sure that the Rich Text Format (RTF) message text matches the plain text version. It is necessary to call this function before reading the RTF version and after modifying the RTF version. 
   

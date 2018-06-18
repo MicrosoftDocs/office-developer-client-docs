@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 MAPI defines the MAPI_ASSOCIATED flag for various MAPI components to use when dealing with associated information tables. Each folder in a message store should have an associated contents table along with its standard contents table. Client applications store special messages in a folder's associated contents table to hold forms and views. In fact, to support forms and views, your message store provider must implement associated contents tables.
   

@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Status objects report information about MAPI resources. For example, a service provider, the MAPI send/receive process, or the address book.
   

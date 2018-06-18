@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 The session pointer that you receive from your call to [MAPILogonEx](mapilogonex.md) can be used to access a wide variety of objects. The following table lists the methods that are used to access various objects: 
   

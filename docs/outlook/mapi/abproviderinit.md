@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
 # ABProviderInit
  
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Initializes an address book provider for operation. 
   

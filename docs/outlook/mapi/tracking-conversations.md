@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Conversation tracking is collecting responses to a message. Clients should set two properties that aid in tracking conversations:
   

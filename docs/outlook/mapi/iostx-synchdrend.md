@@ -20,7 +20,7 @@ description: "Last modified: July 03, 2012"
 
  
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Ends synchronization for a message header.
   

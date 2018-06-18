@@ -18,7 +18,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Contains the email address of the messaging user on whose behalf the original message was sent.
   

@@ -20,7 +20,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Processes individual components from a message one at a time into a Transport-Neutral Encapsulation Format (TNEF) stream.
   

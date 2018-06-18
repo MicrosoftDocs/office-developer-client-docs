@@ -20,7 +20,7 @@ description: "Last modified: June 25, 2012"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Sends notifications to the client about changes in connection state.
   

@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Entry identifiers are pieces of binary data stored in an [ENTRYID](entryid.md) structure that are used to uniquely identify and open a MAPI object. Most MAPI objects have entry identifiers. Entry identifiers for objects are analogous to file names for files. However, they are not transmittable and cannot be used on systems other than the system they originated on. 
   

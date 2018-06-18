@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
 # PidTagRoamingDictionary Canonical Property
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Contains an XML document that describes the roaming dictionary.
   

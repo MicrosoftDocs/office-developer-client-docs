@@ -14,7 +14,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 This section contains code samples that show how to achieve certain tasks or implement certain service providers using MAPI. MFCMAPI is also used in this reference to demonstrate the use of many APIs. To run any of the samples on the Windows Vista, Windows Server 2008, Windows XP, or Windows Server 2003 operating systems, you must first set up the MAPI runtime system. For more information, see [MAPI Programming Overview](mapi-programming-overview.md).
   

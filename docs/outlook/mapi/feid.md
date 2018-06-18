@@ -16,7 +16,7 @@ description: "Last modified: July 02, 2012"
 
  
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Identifier for a folder. It contains an entry identifier and other relevant information.
   

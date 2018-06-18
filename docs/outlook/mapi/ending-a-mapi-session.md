@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Clients can end their sessions in response to a user's request, either immediately or after all outbound messages have been processed, and when a critical error occurs. Some clients need to stay logged on so that pending outbound messages can reach the transport provider and the destination messaging system. If such a client sends a message and immediately logs off, the message may remain in the outgoing queue until a user logs back on and stays logged on long enough for the message to be transmitted.
   

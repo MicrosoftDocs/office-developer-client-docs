@@ -10,7 +10,7 @@ description: "Last modified: July 06, 2012"
 
 # Programmatically set the resolution order for address lists
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 This topic contains a code sample in C++ that programmatically sets the order of address lists by which recipients in email messages and attendees in meeting requests are resolved.
   

@@ -12,7 +12,7 @@ description: "Last modified: March 09, 2015"
 
 # Link to MAPI functions
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 There are three methods of linking: implicit linking, explicit linking, and a new hybrid model using the MAPI Stub Library.
   

@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Indicates whether Cached Exchange Mode for the private Exchange store is enabled, and whether this is enforced by policy.
   

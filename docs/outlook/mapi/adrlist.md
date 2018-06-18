@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
 # ADRLIST
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Describes zero or more properties that belong to one or more recipients. 
   

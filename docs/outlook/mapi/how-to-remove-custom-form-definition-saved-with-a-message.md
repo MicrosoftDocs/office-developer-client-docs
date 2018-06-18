@@ -10,7 +10,7 @@ description: "Last modified: June 25, 2012"
 
 # Remove custom form definition saved with a message
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 This topic shows a code sample in C++ that converts a message that has been saved with a custom form definition to a regular message without the form definition.
   

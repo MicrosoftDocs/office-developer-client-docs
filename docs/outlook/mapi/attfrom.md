@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # attFrom
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 The **attFrom** attribute is encoded as a **TRP** structure which encodes the display name and email address of the sender, followed by the display name and address of the sender, followed by any necessary padding. The format for **attFrom** is as follows: 
   

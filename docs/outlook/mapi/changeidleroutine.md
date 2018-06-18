@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
 # ChangeIdleRoutine
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Changes some or all of the characteristics of a [FNIDLE](fnidle.md) based idle routine. 
   

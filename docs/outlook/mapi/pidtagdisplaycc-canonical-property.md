@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Contains an ASCII list of the display names of any carbon copy (CC) message recipients, separated by semicolons (;). 
   

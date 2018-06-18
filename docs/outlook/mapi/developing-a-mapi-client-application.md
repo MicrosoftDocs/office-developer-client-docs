@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 MAPI client applications are written with the object oriented MAPI client interface. MAPI clients interact with one or more messaging systems through the MAPI subsystem and MAPI-compliant service providers. This interaction can occur in many different ways; there is an enormous variety in client applications. Most clients are messaging clients, either integrating messaging into their established feature set or performing messaging as their primary feature. Other features that MAPI clients might provide include profile administration or address book and message store management.
   

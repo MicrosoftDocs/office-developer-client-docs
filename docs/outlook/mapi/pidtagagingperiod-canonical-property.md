@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Represents the number of time units that are used to determine the length of time that an item remains in a folder before the item is archived.
   

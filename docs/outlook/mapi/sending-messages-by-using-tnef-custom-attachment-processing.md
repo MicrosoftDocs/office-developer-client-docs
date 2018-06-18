@@ -16,7 +16,7 @@ description: "Last modified: December 07, 2015"
 
  
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 To customize attachment processing when sending a message:
   

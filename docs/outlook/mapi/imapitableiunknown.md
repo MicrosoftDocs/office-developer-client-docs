@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Provides a read-only view of a table. **IMAPITable** is used by clients and service providers to manipulate the way a table appears. 
   

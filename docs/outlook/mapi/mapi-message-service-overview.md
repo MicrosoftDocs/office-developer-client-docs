@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # MAPI message service overview
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 A message service defines a group of related service providers, typically service providers that work with the same messaging system. Whereas service providers perform the work of communicating between messaging systems and the MAPI subsystem, message services perform the work of interfacing between the user and service providers that work with a common messaging system.  
   

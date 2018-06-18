@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
 # IConverterSession::SetSaveFormat
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Sets the format in which the converter will return a MIME stream in [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md).
   

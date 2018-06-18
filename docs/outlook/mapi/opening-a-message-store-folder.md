@@ -12,7 +12,7 @@ description: "Last modified: March 09, 2015"
 
 # Opening a message store folder
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Before any folder can be opened, its entry identifier must be available. For most folders, this means retrieving their **PR_ENTRYID** properties. For special folders, such as some of the IPM subtree folders and other root folders, MAPI defines special entry identifier properties that are accessible by calling the message store's **IMAPIProp::GetProps** method. These entry identifiers are always long-term and are named as follows: 
   

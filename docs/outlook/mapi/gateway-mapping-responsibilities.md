@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # Gateway mapping responsibilities
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 When a MAPI-aware gateway receives a message containing named properties in one of the special property sets designated to contain gateway-mappable properties, the gateway should map all of the properties to the protocol of the destination messaging system. Although MAPI recommends that gateways handle all named properties in the special property sets, gateways are expected to handle only two: email address and address type. Because the email address and address type properties directly affect message transmission, it is critical that gateways support the mapping of these two properties. Because search keys consist of a user's address type and address, they should also be translated if at all possible.
   

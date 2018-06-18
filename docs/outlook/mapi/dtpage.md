@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Describes the dialog box that is built from a display table by the [BuildDisplayTable](builddisplaytable.md) function. 
   

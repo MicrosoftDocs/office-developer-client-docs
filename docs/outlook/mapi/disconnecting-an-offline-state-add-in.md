@@ -10,7 +10,7 @@ description: "Last modified: December 07, 2015"
 
 # Disconnecting an Offline State Add-in
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 When the offline state add-in is disconnected, you must implement functions to properly terminate and clean up the add-in. For more information on setting up and using the offline state add-in to monitor connection state changes, see [Setting Up an Offline State Add-in](setting-up-an-offline-state-add-in.md) and [Monitoring Connection State Changes Using an Offline State Add-in](monitoring-connection-state-changes-using-an-offline-state-add-in.md).
   

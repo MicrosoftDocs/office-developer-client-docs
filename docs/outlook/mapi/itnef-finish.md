@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Finishes processing for all Transport-Neutral Encapsulation Format (TNEF) operations that are queued and waiting. 
   

@@ -18,7 +18,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 The topics in this section describe the macros related to MAPI structures. For more detailed information, cross references to other publications or to other topics in this documentation are also included. 
   

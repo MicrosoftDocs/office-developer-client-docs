@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Supported versions of Windows install the MAPI stub library, Mapi32.dll, in the  _\<drive\>_\Windows\System32 folder. 
   

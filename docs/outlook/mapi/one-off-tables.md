@@ -14,7 +14,7 @@ description: "Last modified: November 08, 2011"
 
 # One-Off Tables
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 A one-off table contains information about the templates that an address book provider supports for creating new recipients. One-off tables are implemented by address book providers, individual address book containers, and by MAPI, and can be persistent or temporary. 
   

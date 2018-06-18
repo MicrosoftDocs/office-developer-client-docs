@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 All address book providers assign entry identifiers using the **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) property to their messaging user and distribution list objects. Client applications use these entry identifiers to open and access the objects to which they are assigned.
   

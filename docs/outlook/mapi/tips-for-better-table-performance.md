@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # Tips for better table performance
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Because many of the table operations can be time-consuming and there is no way to indicate progress, it is helpful to use the following techniques for improving performance:
   

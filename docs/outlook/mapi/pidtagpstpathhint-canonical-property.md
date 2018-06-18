@@ -18,7 +18,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Provides the personal storage table (.pst file) name, which the user can edit, for the configuration dialog box. 
   

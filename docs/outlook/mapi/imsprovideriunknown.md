@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Provides access to a message store provider through a message store provider object. This message store provider object is returned at provider logon by the message store provider's [MSProviderInit](msproviderinit.md) entry point function. The message store provider object is primarily used by client applications and the MAPI spooler to open message stores. 
   

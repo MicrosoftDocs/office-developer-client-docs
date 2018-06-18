@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
 # IProviderAdmin::CreateProvider
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Adds a service provider to the message service. 
   

@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Most MAPI sessions have a particular service provider that supplies the primary identity for the session. Typically, it is an address book provider, which supplies identity through one of its messaging user objects or distribution lists. In fact, MAPI recommends that message services that include an address book provider use one of its objects for the primary identity. When a service provider that belongs to a message service supplies the primary identity, all of the other service providers in the message service share this identity.
   

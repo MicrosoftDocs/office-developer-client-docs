@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Message service entry point function for a MAPI store provider to wrap a PST-based local store as an NST store. 
   

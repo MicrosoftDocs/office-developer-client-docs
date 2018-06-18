@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 A property sheet is a dialog box for displaying the properties of an object. The properties can be read-only, enabling the user only to view them, or read/write, enabling the user to make changes. A property sheet contains one or more overlapping child windows called pages. Each page contains control windows for setting a group of related properties. Users navigate from page to page by selecting a tab that brings the corresponding page to the foreground of the property sheet.
   

@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # Using MAPI objects
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Clients and service providers use MAPI objects by calling the methods in their interface implementations. This is the only way that MAPI objects can be used; methods that are implemented by an object outside of a MAPI interface are not publicly accessible. Because all of an object's interfaces are related through inheritance, an object's user can call methods in either the base interface or one of the inherited interfaces as if they belong to the same interface. 
   

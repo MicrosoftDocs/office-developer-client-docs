@@ -16,7 +16,7 @@ description: "Last modified: June 18, 2012"
 
  
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Compares two Unicode strings.
   

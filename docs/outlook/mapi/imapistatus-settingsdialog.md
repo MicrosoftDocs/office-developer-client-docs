@@ -20,7 +20,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Displays a property sheet that enables the user to change a service provider's configuration This method is not supported in status objects that MAPI implements.
   

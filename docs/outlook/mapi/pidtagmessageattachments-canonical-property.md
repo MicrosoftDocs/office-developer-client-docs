@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Contains a table of restrictions that can be applied to a contents table to find all messages that contain attachment subobjects that meet the restrictions. 
   

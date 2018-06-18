@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
 # ADRPARM
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Describes the display and behavior of the common address dialog box. 
   

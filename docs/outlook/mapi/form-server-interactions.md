@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # Form server interactions
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 The topics in this section describe interactions between client applications, the MAPI form manager, form servers, and form objects for a variety of common actions such as opening a message and composing a new message.
   

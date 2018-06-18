@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Because interface methods are virtual, it is not possible to know, as a caller, the full set of values that can be returned from any one call. One implementation of a method might return five values; another might return eight. The reference entries in the MAPI documentation list a few values that can be returned for each method; these are the values that your client or service provider can check for and handle because they have special meanings. Other values can be returned, but because they are not meaningful, special code to handle those is not necessary. A simple check for success or failure is adequate.
   

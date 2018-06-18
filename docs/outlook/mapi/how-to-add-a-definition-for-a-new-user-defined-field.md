@@ -11,7 +11,7 @@ description: "Last modified: July 23, 2011"
 
 # Add a definition for a new user-defined field
  
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 When you add a user-defined field to a Microsoft Outlook item, you add a field definition to the corresponding [PropertyDefinition](propertydefinition-stream-structure.md) stream structure. Use the following procedure to add a new field definition to a PropertyDefinition stream structure. 
   

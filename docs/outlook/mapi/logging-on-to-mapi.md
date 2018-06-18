@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # Logging on to MAPI
  
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Client applications log on to the MAPI subsystem by calling the **MAPILogonEx** function. For more information, see [MAPILogonEx](mapilogonex.md). **MAPILogonEx** validates the profile selection and the configuration of each service provider in the profile. Once configured, MAPI starts the address book providers before starting the message store providers. Transport providers are started when their services are first required. 
   

@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # MAPI message store provider objects
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Message store providers implement provider and logon objects, as do all service providers. They also implement a message store object, folders, messages, attachments, and tables. As an option, some message store providers implement status objects.
   

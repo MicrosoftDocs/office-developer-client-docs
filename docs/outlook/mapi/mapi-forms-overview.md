@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # MAPI forms overview
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 A MAPI form is a viewer for a message. Every message has a message class that dictates the particular form that is used as its viewer. MAPI defines several message classes and has implemented the forms for viewing messages of these classes. Client software developers can create new message classes and custom forms for viewing messages created by using the new classes.
   

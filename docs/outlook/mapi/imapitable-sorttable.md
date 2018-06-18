@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
 # IMAPITable::SortTable
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 The **IMAPITable::SortTable** method orders the rows of the table, depending on sort criteria. 
   

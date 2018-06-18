@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # UPTBLE
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Extended information for uploading the contents of a folder during the [upload table state](upload-table-state.md).
   

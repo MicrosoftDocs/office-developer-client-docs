@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Contains the persisted message value that indicates that the message should not be processed by a spam filter because the message was either already processed or is safe.
   

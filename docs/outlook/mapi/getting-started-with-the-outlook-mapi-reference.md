@@ -10,7 +10,7 @@ description: "The Microsoft Outlook 2013 Messaging API (MAPI) Reference describe
 
 # Getting started with the Outlook MAPI reference
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 The Microsoft Outlook 2013 Messaging API (MAPI) Reference describes how to create MAPI solutions that work with Microsoft Outlook 2013. This section describes how to find the various reference and conceptual resources in the Outlook 2013 MAPI Reference.
   

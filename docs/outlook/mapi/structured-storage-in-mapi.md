@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Structured storage refers to the hierarchical organization of storage introduced with COM. In a structured storage environment, storage is organized into two or three types of objects: 
   

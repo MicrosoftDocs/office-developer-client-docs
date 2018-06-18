@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Most address book providers support at least one container, some of them modifiable. Address book containers can supply contents and hierarchy tables, search capabilities, and name resolution. Modifiable containers allow the deletion of entries such as messaging users, distribution lists, or other containers and the addition of entries from entries in other containers or from one-off templates.
   

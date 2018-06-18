@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # MAPIOFFLINE_ADVISEINFO
  
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Provides information to **[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)** to register callback for an offline object. 
   

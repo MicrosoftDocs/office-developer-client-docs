@@ -12,7 +12,7 @@ description: "Last modified: March 09, 2015"
 
 # RTF_WCSRETINFO
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 This structure provides information about a stream in native format returned from decompressing the body of a message that is encapsulated in compressed Rich Text Format (RTF).
   

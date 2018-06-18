@@ -12,7 +12,7 @@ description: "Last modified: March 09, 2015"
 
 # MAPI custom form objects
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Objects for custom forms are implemented by three different components:
   

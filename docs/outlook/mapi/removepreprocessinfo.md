@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Removes preprocessed information written by a [PreprocessMessage](preprocessmessage.md) based function from a message. 
   

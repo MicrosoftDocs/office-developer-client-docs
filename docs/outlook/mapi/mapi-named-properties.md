@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # MAPI Named Properties
  
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 MAPI provides a facility for assigning names to properties, for mapping these names to unique identifiers, and for making this mapping persistent. Persistent name to identifier mapping ensures that property names remain valid across sessions.
   

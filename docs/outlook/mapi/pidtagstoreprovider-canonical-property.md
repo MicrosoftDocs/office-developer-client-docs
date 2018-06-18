@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Contains a provider-defined [MAPIUID](mapiuid.md) structure that indicates the type of the message store. 
   

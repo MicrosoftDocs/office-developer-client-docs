@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
 # SizedADRLIST
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Defines an [ADRLIST](adrlist.md) structure with the specified name that contains a specified number of [ADRENTRY](adrentry.md) structures. 
   

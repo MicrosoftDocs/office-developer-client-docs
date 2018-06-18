@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Table users can move the cursor to a row that matches a set of filter criteria. Filters can be based on a variety of guidelines such as column property values, bitmasks, or subobjects. Filters are specified in MAPI using an [SRestriction](srestriction.md) structure. 
   

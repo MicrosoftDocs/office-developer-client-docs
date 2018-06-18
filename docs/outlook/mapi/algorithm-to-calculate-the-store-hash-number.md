@@ -10,7 +10,7 @@ description: "Last modified: July 23, 2011"
 
 # Algorithm to Calculate the Store Hash Number
  
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 As part of a MAPI Uniform Resource Locator (URL), a store provider sends a store hash number to the MAPI Protocol Handler to identify an object that is ready for indexing. The MAPI Protocol Handler uses this store hash number to identify a store. In general, a store provider calculates the store hash number based on the store mapping signature, if the store has the **[PR_MAPPING_SIGNATURE](pidtagmappingsignature-canonical-property.md)** property defined in the global profile section. Otherwise, the store provider uses the store entry ID. The algorithm to calculate the store hash number must minimize ambiguities identifying stores. 
   

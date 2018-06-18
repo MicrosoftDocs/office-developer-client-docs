@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Clients must follow a naming convention for their properties that need to be translated by a gateway. All properties to be translated should be created as named properties in one of the five property sets designated to hold mappable properties:
   

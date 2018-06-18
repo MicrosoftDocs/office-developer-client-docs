@@ -14,7 +14,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 The Attachment Security API allows Outlook solutions to discover whether an attachment is considered unsafe by Outlook and is blocked for viewing and indexing. It provides the following definitions and interface.
   

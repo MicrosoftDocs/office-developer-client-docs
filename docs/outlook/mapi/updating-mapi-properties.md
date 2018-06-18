@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # Updating MAPI properties
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Clients and service providers can update a property value by calling:
   

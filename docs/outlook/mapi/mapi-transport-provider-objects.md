@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # MAPI transport provider objects
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 In addition to the standard provider and logon objects implemented by all service providers, transport providers are required to implement a status object. For the other service provider types, implementing a status object is optional. However, MAPI requires it for transport providers. Transport providers that support the downloading of message headers from a remote server also implement a folder and a table. 
   

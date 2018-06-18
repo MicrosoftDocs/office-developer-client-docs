@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 The issues of operating system and operating environment are important when MAPI developers choose a development environment and an environment for Windows SDK installation.
   

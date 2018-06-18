@@ -14,7 +14,7 @@ description: "Last modified: July 05, 2012"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 For each profile, Microsoft Office Outlook supports multiple address lists and users can manually specify the order of address lists by which recipients in email messages and attendees in meeting requests are resolved. For example, you can set the resolution order so that names are resolved first against your Outlook Address Book, and then against the Global Address List. On a computer, a user can open the Address Book, click **Tools** and then **Options** to specify this resolution order. However, in a corporate environment, it is more efficient for IT administrators to programmatically set the order of address lists by which names are resolved. Such code can be used as part of a startup automation script that an administrator deploys inside the corporation. 
   

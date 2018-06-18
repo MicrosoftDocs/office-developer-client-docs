@@ -10,7 +10,7 @@ description: "Last modified: July 23, 2011"
 
 # MAPI concepts
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 This section provides a guide to understanding and programming with MAPI.
   

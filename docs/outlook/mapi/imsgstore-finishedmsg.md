@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Enables the message store provider to perform processing on a sent message. This method is called only by the MAPI spooler.
   

@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 MAPI provides a table with information about the status of the MAPI subsystem, MAPI spooler, address book, or a particular service provider. You can access this table by calling [IMAPISession::GetStatusTable](imapisession-getstatustable.md).
   

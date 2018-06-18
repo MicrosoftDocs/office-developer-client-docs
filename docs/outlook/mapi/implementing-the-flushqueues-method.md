@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 The MAPI spooler uses the [IXPLogon::FlushQueues](ixplogon-flushqueues.md) method to download and upload any pending messages to and from a transport provider. Typically, the MAPI spooler will flush the queues for all transport providers that are logged on to the session, starting with the first transport provider as set in the transport order section of the user's profile. Flushing queues is almost always the result of a direct request by the user, so the sending and receiving of messages while queues are flushing is synchronous to the MAPI spooler. Because these calls are synchronous, the transport provider should process them as quickly as possible. 
   

@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # MAPI message store provider overview
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Message store providers handle the storage and retrieval of messages and other information for the users of client applications. The message information is organized by using a hierarchical system known as a message store. The message store is implemented in multiple levels, with containers called folders holding messages of different types. There is no limit to the number of levels in a message store; folders can contain many subfolders. 
   

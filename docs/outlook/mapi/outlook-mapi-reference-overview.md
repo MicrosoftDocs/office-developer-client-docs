@@ -12,7 +12,7 @@ description: "Last modified: February 01, 2013"
 
 # Outlook MAPI Reference Overview
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 This topic provides overview information about the Outlook 2013 MAPI Reference documentation.
   

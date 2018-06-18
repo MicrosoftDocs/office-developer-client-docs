@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
 # IConverterSession::SetEncoding
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Initializes the encoding to be used during conversion.
   

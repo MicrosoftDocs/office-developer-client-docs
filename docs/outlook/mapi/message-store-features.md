@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Message store providers are more complex than other MAPI service providers in that message store providers have a wider range of optional features they can implement. The list of required features for a message store provider is fairly short. However, a typical message store provider will support a number of optional features, because many of the optional features are very useful or required by most MAPI clients. The following table lists the major features that message store providers can implement and whether each feature is required or optional for all message store providers and for default message store providers.
   

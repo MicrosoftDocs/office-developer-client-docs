@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Form notifications are used in MAPI to facilitate communication both from the form to your viewer as well as from your viewer to the form.
   

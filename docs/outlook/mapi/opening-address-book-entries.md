@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # Opening address book entries
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 When a client or provider has requested that one of your objects be opened, MAPI calls your provider's [IABLogon::OpenEntry](iablogon-openentry.md) method. MAPI determines that the entry identifier representing the target object belongs to your provider by examining the [MAPIUID](mapiuid.md) portion of the entry identifier and matching it to the **MAPIUID** that your provider registered in the call to **IMAPISupport::SetProviderUID**. MAPI then calls your **OpenEntry** method. Your provider must respond by retrieving the corresponding object — a container, distribution list, or messaging user. 
   

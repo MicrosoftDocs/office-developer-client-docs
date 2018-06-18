@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # Status object implementation
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 All service providers must implement a status object and furnish properties from it to the session status table. You can include one or more rows in the status table, depending on the number of resources that you control. A transport provider, for example, should create a row in the status table for each message queue it manages. When changes occur, the appropriate status table row must be updated. Status objects are implemented to provide access both to the information included in the status table and to additional information not included in the table.
   

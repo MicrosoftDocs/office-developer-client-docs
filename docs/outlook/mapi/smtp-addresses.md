@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 The format of SMTP email addresses is defined in RFC 822. MAPI components should handle any address that complies with that standard. However, there is a particular form of RFC 822 address that best encodes MAPI addresses:
   

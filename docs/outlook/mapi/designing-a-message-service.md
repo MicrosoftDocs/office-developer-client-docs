@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # Designing a message service
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Before you begin to write code to support your message service, it is important to create a design. Resolve the following issues in your design process:
   

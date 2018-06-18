@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # Handling MAPI property errors
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Instead of complete failure or success, the following **IMAPIProp** methods report partial success: 
   

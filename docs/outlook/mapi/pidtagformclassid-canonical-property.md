@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Contains the 128-bit Object Linking and Embedding (OLE) globally unique identifier (GUID) of a form. 
   

@@ -14,7 +14,7 @@ description: "Last modified: April 04, 2016"
 
  
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Welcome to the Microsoft Outlook 2013 Messaging API (MAPI) Reference. MAPI provides the messaging architecture for Microsoft Outlook 2013. MAPI for Outlook 2013 provides a set of interfaces, functions, and other data types to facilitate the development of Outlook 2013 messaging applications. Applications and transports use MAPI to manipulate email data, to create email messages and the folders to store them in, and to support notifications of changes to existing MAPI-related data.
   

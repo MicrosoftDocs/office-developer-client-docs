@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
 # SzFindCh
  
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Searches for the first occurrence of a character in a null-terminated string. 
   

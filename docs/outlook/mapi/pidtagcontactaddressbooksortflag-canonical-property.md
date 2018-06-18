@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Contains a flag that is TRUE when contacts should be sorted by File Under and FALSE when they should be sorted by Display Name. 
   

@@ -20,7 +20,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Determines whether a form can handle its own message conflicts. A message is in conflict if it has been simultaneously edited by more than one user. This can happen to messages in public folders.
   

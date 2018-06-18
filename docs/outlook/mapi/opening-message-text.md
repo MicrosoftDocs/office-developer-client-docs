@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # Opening message text
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 The text of a message is stored either in its **PR\_BODY** property or **PR\_RTF\_COMPRESSED** property. For more information, see **PR\_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), **PR\_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)), and **PR\_RTF\_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). 
 

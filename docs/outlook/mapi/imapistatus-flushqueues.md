@@ -20,7 +20,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Forces all messages waiting to be sent or received to be immediately uploaded or downloaded. The MAPI spooler status object and status objects that transport providers implement support this method.
   

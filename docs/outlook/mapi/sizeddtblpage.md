@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
 # SizedDtblPage
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Creates a named structure that includes a [DTBLPAGE](dtblpage.md) structure for describing a tabbed page control, a label of a specified length, and a Help file entry of a specified length. 
   

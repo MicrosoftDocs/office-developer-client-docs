@@ -20,7 +20,7 @@ description: "Last modified: February 24, 2013"
 
  
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Initiates the unlocking procedure for a Personal Folders (.pst) file.
   

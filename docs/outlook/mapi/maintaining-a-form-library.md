@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 A form library holds all of the important information about a form: its properties, its verbs, and its server's executable files. Some clients allow their users to maintain, install, or remove form servers. If you want to offer this feature to your users, you must have access to:
   

@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Specifies a list of the **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) property of tasks that are related to the calendar. 
   

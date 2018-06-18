@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Because supporting event notification can be complicated, MAPI supplies three support object methods that implement the most difficult parts of the process. These methods work as a unit, and a provider must use all three or none of them.
   

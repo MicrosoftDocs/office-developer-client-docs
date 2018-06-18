@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 A MAPI client application is any application that uses the MAPI programming interface. Client applications implement messaging tasks as either their primary or secondary focus. Messaging client applications, such as applications that send and receive email, implement messaging as their primary focus. For non-messaging client applications, such as inventory or configuration applications, messaging is a secondary feature.
   

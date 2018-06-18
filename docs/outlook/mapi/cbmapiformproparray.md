@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Computes the number of bytes in an existing [SMAPIFormPropArray](smapiformproparray.md) structure that contains a specified number of [SMAPIFormProp](smapiformprop.md) structures. 
   

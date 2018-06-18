@@ -16,7 +16,7 @@ description: "Last modified: June 25, 2012"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Between the MAPI subsystem and the messaging systems are the various service providers. Service providers are like drivers that connect MAPI client applications to an underlying messaging system. There are three types of providers: message store providers, address book or directory providers, and message transport providers. MAPI supports each type of service independently, enabling a vendor to offer one or more custom service providers. For example, a vendor might want to create an address book provider that uses a corporate telephone book directory of employees or to create a message store provider that uses an existing database.
   

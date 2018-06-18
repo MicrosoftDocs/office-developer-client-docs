@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Clients often rely on table notifications to learn of changes to objects instead of registering to receive notifications directly from the objects. Typical changes that cause notifications to be sent include the addition, deletion, or modification of a row and any critical error. When notifications arrive, clients can determine whether to make another call to reload the table. 
   

@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Implements an advise sink object for handling notification. A pointer to an advise sink object is passed in a call to a service provider's **Advise** method, the mechanism used to register for notification. 
   

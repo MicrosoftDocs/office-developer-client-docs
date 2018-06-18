@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # MAPI object containment hierarchy
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 The containment relationship between objects specifies the dependencies that some objects have on other objects for access. For a client application, access to particular objects enables access to others. In some cases, the containment relationship between objects implemented by a service provider follows a logical hierarchy. In other cases, it is arbitrary. 
   

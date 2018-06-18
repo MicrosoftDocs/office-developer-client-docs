@@ -20,7 +20,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Sets the value of one or more properties for an encapsulated message or attachment without modifying the original message or attachment. 
   

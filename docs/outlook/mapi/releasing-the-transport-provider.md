@@ -16,7 +16,7 @@ description: "Last modified: December 07, 2015"
 
  
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 When MAPI or the MAPI spooler finishes using a transport logon object:
   

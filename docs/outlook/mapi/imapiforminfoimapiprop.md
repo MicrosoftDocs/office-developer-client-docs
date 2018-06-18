@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Gives client applications access to properties that are particular to form definition. By keeping form information in a separate object, the form library provider can describe a form to a client without activating the form.
   

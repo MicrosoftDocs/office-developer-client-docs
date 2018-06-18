@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # Implementing objects in C
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Client applications and service providers written in C define MAPI objects by creating a data structure and an array of ordered function pointers known as a virtual function table, or vtable. A pointer to the vtable must be the first member of the data structure.
   

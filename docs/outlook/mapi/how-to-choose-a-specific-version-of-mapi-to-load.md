@@ -12,7 +12,7 @@ description: "Last modified: March 09, 2015"
 
 # Choose a specific version of MAPI to load
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 When linking explicitly to an implementation of MAPI, you must carefully select which implementation to load. 
   

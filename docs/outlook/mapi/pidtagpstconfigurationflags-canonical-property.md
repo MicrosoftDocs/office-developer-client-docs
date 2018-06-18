@@ -14,7 +14,7 @@ description: "Last modified: March 09, 2015"
 
 # PidTagPstConfigurationFlags Canonical Property
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Specfies configuration flags for a personal storage table (.pst file).
   

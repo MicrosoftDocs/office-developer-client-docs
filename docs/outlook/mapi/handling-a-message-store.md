@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # Handling a message store
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Handling a message store is an important part of any client's set of tasks. These tasks include opening, copying, moving, adding, and deleting folders and messages, displaying various tables, setting properties, and controlling access levels.
 

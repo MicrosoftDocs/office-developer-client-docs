@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Improve performance by storing data that takes time and resources to retrieve and is accessed frequently. Using extra memory can sometimes be a better option that repeated retrievals. Use caution and care when creating a cache for storing this data. Keep in mind that a poorly designed cache can negatively impact performance.
   

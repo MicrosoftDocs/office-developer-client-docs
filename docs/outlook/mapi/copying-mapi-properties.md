@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Clients and service providers can copy one or more of an object's properties with the following **IMAPIProp** methods and API functions: 
   

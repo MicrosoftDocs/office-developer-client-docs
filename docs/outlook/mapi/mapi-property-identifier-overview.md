@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 A property identifier is a number that is used to indicate what a property is used for and who is responsible for it. Property identifiers are divided by MAPI into ranges; where an identifier falls in the range indicates its use and ownership. 
   

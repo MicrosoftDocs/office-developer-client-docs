@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Before a message is saved, clients typically call the message's [IMAPIProp::SetProps](imapiprop-setprops.md) method to set a few properties in addition to the message text properties, attachment properties, **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)), and properties associated with the recipient list.
   

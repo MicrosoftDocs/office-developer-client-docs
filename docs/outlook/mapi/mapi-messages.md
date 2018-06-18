@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Messages are MAPI objects that are transmitted from one client application to another through the MAPI spooler and service providers by way of a messaging system. Nearly every component in MAPI works with messages. Clients let users create, save, send, and delete messages in addition to copy and move them from one folder to another. Message store providers are responsible for message management and for delivering messages to the MAPI spooler or a transport provider. The MAPI spooler moves messages to an appropriate transport provider, whereas transport providers handle the delivery and receipt of messages to and from a messaging system and set recipient and message option properties. Address book providers work indirectly with messages, supporting properties that describe message recipients.
   

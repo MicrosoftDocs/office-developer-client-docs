@@ -12,7 +12,7 @@ description: "Last modified: June 26, 2012"
 
 # Fast Shutdown Overview
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Fast shutdown is a mechanism for a MAPI client to initiate a quick shutdown of the client process, notifying all providers with which the client has an active MAPI session to save data and settings before the client process exits. This topic describes the basic mechanism of fast shutdown. 
 

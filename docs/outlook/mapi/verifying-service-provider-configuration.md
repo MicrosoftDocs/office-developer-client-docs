@@ -12,7 +12,7 @@ description: "Last modified: March 09, 2015"
 
 # Verifying service provider configuration
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Your logon method ([IABProvider::Logon](iabprovider-logon.md), [IMSProvider::Logon](imsprovider-logon.md), or [IXPProvider::TransportLogon](ixpprovider-transportlogon.md)) must verify your provider's configuration. This involves checking that all of the properties needed for full operation are set correctly. Every provider requires a different number of properties; configuration depends on your provider and the degree of user interaction you allow. Some service providers keep all of the necessary properties in the profile. 
 

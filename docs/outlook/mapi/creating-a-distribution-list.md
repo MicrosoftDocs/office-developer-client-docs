@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # Creating a distribution list
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Clients can create a distribution list directly into a modifiable container such as the personal address book (PAB).
   
