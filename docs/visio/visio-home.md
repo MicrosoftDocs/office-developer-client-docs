@@ -17,7 +17,9 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
 > Interested in developing solutions that extend the Office experience across [multiple platforms](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-in-availability)? Check out the new [Office Add-ins model](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins). 
   
 ### Viewed most
-  
+
+- [VSTO Add-ins for Visio](https://docs.microsoft.com/en-us/visualstudio/vsto/visio-solutions)
+
 - [Visio VBA reference](http://msdn.microsoft.com/library/b6834d21-5898-4dd9-af2b-9ffeb1b92a1c%28Office.15%29.aspx)
   
 - [Visio Save as Web reference](http://msdn.microsoft.com/library/83e06e12-2b4d-2bba-71e3-cb65307a3af0%28Office.15%29.aspx)
@@ -28,18 +30,12 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
   
 - [Visio file format reference](visio-file-format-reference.md)
   
-- [Visio 2010](http://msdn.microsoft.com/library/4076d9a1-2c7f-499f-87c1-7ae515b7b1d2%28Office.15%29.aspx)
-  
 ### Downloads
   
 - [Visio 2013 SDK download](http://www.microsoft.com/en-us/download/details.aspx?id=36825)
-  
-### Office Add-ins
-  
-- [Get started](https://dev.office.com/getting-started/addins)
-  
-- [Platform overview](https://msdn.microsoft.com/EN-US/library/office/jj220082.aspx)
-  
+
+- [Visio 2016 SDK download](http://www.microsoft.com/en-us/download/details.aspx?id=51221)  
+
 ### Other resources
   
 - [Office VBA Object library reference](http://msdn.microsoft.com/library/727c4e1c-e13c-7bac-e833-b1322607dfd3%28Office.15%29.aspx)
