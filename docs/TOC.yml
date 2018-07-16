@@ -6275,7 +6275,7 @@
                      - name: ProjectData - OData service reference
                        href: https://msdn.microsoft.com/en-us/library/office/jj163015.aspx
                  - name: Class library and web service reference
-                   href: https://msdn.microsoft.com/en-us/library/office/ee767707.aspx
+                   href: https://docs.microsoft.com/en-us/dotnet/api/microsoft.office.interop.msproject?view=office-project-server
                  - name: JavaScript API reference
                    href: https://msdn.microsoft.com/en-us/library/office/jj712612.aspx
      - name: Publisher
