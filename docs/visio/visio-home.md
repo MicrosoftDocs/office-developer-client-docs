@@ -1,7 +1,7 @@
 ---
 title: "Visio"
 manager: soliver
-ms.date: 04/20/2016
+ms.date: 08/22/2018
 ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
@@ -14,17 +14,17 @@ description: "Find how-to content, sample code, SDK and API documentation, VBA r
 Find how-to content, sample code, SDK and API documentation, VBA references, training, and technical articles for developing solutions and customizing Visio.
   
 > [!NOTE]
-> Interested in developing solutions that extend the Office experience across [multiple platforms](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-in-availability)? Check out the new [Office Add-ins model](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins). 
+> Interested in developing solutions that extend the Office experience across [multiple platforms](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-in-availability)? Check out the new [Office Add-ins model](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins). 
   
 ### Viewed most
 
-- [VSTO Add-ins for Visio](https://docs.microsoft.com/en-us/visualstudio/vsto/visio-solutions)
+- [VSTO Add-ins for Visio](https://docs.microsoft.com/visualstudio/vsto/visio-solutions)
 
-- [Visio VBA reference](http://msdn.microsoft.com/library/b6834d21-5898-4dd9-af2b-9ffeb1b92a1c%28Office.15%29.aspx)
+- [Visio VBA reference](https://docs.microsoft.com/office/vba/api/overview/visio)
   
-- [Visio Save as Web reference](http://msdn.microsoft.com/library/83e06e12-2b4d-2bba-71e3-cb65307a3af0%28Office.15%29.aspx)
+- [Visio Save as Web reference](https://docs.microsoft.com/office/vba/api/overview/Visio/visio-save-as-web-reference)
   
-- [Visio Viewer reference](http://msdn.microsoft.com/library/6ee197eb-5d40-61a8-4ba4-8c13c9dc3a7e%28Office.15%29.aspx)
+- [Visio Viewer reference](https://docs.microsoft.com/office/vba/api/overview/Visio/visio-viewer-reference)
   
 - [Visio ShapeSheet reference](visio-shapesheet-reference.md)
   
@@ -32,18 +32,18 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
   
 ### Downloads
   
-- [Visio 2013 SDK download](http://www.microsoft.com/en-us/download/details.aspx?id=36825)
+- [Visio 2013 SDK download](http://www.microsoft.com/download/details.aspx?id=36825)
 
-- [Visio 2016 SDK download](http://www.microsoft.com/en-us/download/details.aspx?id=51221)  
+- [Visio 2016 SDK download](http://www.microsoft.com/download/details.aspx?id=51221)  
 
 ### Other resources
   
-- [Office VBA Object library reference](http://msdn.microsoft.com/library/727c4e1c-e13c-7bac-e833-b1322607dfd3%28Office.15%29.aspx)
+- [Office VBA Object library reference](https://docs.microsoft.com/office/vba/Library-Reference/Concepts/office-vba-object-library-reference)
   
-- [Office VBA language reference](http://msdn.microsoft.com/library/9c1e8386-0309-c52c-856b-963220382eb8%28Office.15%29.aspx)
+- [Office VBA language reference](https://docs.microsoft.com/office/vba/api/overview/language-reference)
   
-- [Open XML SDK](http://msdn.microsoft.com/library/f6a9ae68-7989-4208-97f5-3c945137a0ab%28Office.15%29.aspx)
+- [Open XML SDK](https://docs.microsoft.com/office/open-xml/open-xml-sdk)
   
-- [VSTO Add-ins for Office](https://msdn.microsoft.com/en-us/library/jj620922.aspx)
+- [VSTO Add-ins for Office](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio)
   
 
