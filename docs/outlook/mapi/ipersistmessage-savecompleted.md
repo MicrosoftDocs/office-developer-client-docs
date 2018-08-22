@@ -78,19 +78,9 @@ The following table describes the conditions that affect the actions you should 
 |The form is in one of the HandsOff states and the  _pMessage_ parameter is set to NULL.  <br/> |Return E_INVALIDARG.  <br/> |
 |The form is in a state other than one of the HandsOff states or the NoScribble state.  <br/> |Return E_UNEXPECTED.  <br/> |
    
-For more information about saving storage objects, see the documentation for the [IPersistStorage::SaveCompleted](http://msdn.microsoft.com/library/_com_ipersiststorage_savecompleted%28Office.15%29.aspx) or [IPersistFile::SaveCompleted](http://msdn.microsoft.com/library/_com_ipersistfile_savecompleted%28Office.15%29.aspx) methods. 
+For more information about saving storage objects, see the documentation for the [IPersistStorage::SaveCompleted](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nf-objidl-ipersiststorage-savecompleted) or [IPersistFile::SaveCompleted](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nf-objidl-ipersistfile-savecompleted) methods. 
   
 ## See also
 
-
-
-[IPersistMessage : IUnknown](ipersistmessageiunknown.md)
-
-
-[Form States](form-states.md)
-
-
-[IPersistStorage::SaveCompleted](http://msdn.microsoft.com/library/_com_ipersiststorage_savecompleted%28Office.15%29.aspx)
-  
-[IPersistFile::SaveCompleted](http://msdn.microsoft.com/library/_com_ipersistfile_savecompleted%28Office.15%29.aspx)
-
+- [IPersistMessage : IUnknown](ipersistmessageiunknown.md)
+- [Form States](form-states.md)

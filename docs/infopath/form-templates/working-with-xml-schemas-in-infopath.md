@@ -527,8 +527,8 @@ By taking advantage of InfoPath support for designing XML form solutions that ar
 
 - [W3C XML Schema](http://www.w3.org/XML/Schema)
 - [W3C XML Schema Primer](http://www.w3.org/TR/xmlschema-0/)
-- [W3C XML Schema Structures Reference](http://www.xml.com/pub/a/2000/11/29/schemas/structuresref.mdl)
-- [W3C XML Schema Datatypes Reference](http://www.xml.com/pub/a/2000/11/29/schemas/dataref.mdl)
-- [XML Schema Tutorial](http://www.w3schools.com/schema/default.asp)
+- [W3C XML Schema Structures Reference](https://www.xml.com/pub/a/2000/11/29/schemas/structuresref.html)
+- [W3C XML Schema Datatypes Reference](https://www.xml.com/pub/a/2000/11/29/schemas/dataref.html)
+- [XML Schema Tutorial](https://www.w3schools.com/xml/schema_intro.asp)
 - [XML Developer Center](http://msdn.microsoft.com/en-us/xml/default.aspx)
 

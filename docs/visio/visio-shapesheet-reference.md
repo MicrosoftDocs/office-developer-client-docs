@@ -32,14 +32,10 @@ This documentation contains the following sections:
     
 ## See also
 
-- [Visio Developer Center](http://msdn.microsoft.com/en-us/office/aa905478.aspx)
-    
-- [Accessibility in Microsoft Products](http://www.microsoft.com/enable/products/default.aspx)
-    
-- [Document Conventions](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
-    
+- [Visio Developer Center](http://msdn.microsoft.com/en-us/office/aa905478.aspx)    
+- [Accessibility in Microsoft Products](http://www.microsoft.com/enable/products/default.aspx)    
+- [Document Conventions](http://msdn.microsoft.com/en-us/office/aa905365.aspx)   
 - [Visio SDK copyright notice](visio-sdk-copyright-notice.md)
-    
-- [Microsoft Online Privacy Notice](http://privacy.microsoft.com/en-us/default.mspx)
+
     
 

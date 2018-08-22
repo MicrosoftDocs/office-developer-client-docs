@@ -1,14 +1,10 @@
 ---
 title: "Creating InfoPath Form Templates That Work With InfoPath Forms Services"
- 
- 
 manager: soliver
 ms.date: 03/20/2015
 ms.audience: Developer
- 
 keywords:
 - browser-compatible form templates [infopath 2007],forms [InfoPath 2007], browser-compatible,browser-compatible forms [InfoPath 2007],form templates [InfoPath 2007], browser-compatible,InfoPath 2007, browser-compatible forms,business logic, InfoPath Forms Services,InfoPath Forms Services, creating forms,InfoPath Forms Services, supported object model members,InfoPath Forms Services, supported classes and members
- 
 localization_priority: Normal
 ms.assetid: 7bd4fbbb-49c6-46a1-9584-895e5aa9a772
 description: "Browser-compatible forms deployed to Microsoft SharePoint Server 2013 with InfoPath Forms Services support features and controls that cover the majority of InfoPath form usage scenarios. However, browser-compatible forms delivered by InfoPath Forms Services do not support all InfoPath features. Some features and controls are not implemented on the server. Other features do not have a meaningful representation on the server."

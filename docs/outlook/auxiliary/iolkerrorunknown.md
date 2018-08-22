@@ -16,7 +16,7 @@ Provides extra information about the last error.
 
 |||
 |:-----|:-----|
-|Inherits from:  <br/> |[IUnknown](http://msdn.microsoft.com/library/com.iunknown%28Office.15%29.aspx) <br/> |
+|Inherits from:  <br/> |[IUnknown](https://docs.microsoft.com/en-us/windows/desktop/api/unknwn/nn-unknwn-iunknown) <br/> |
 |Provided by:  <br/> |Client  <br/> |
 |Interface identifier:  <br/> |IID_IOlkErrorUnknown  <br/> |
    

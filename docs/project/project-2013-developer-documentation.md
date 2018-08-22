@@ -29,7 +29,7 @@ Find documentation, code samples, how-to articles, and programming references to
 Welcome to the Microsoft Project 2013 Software Development Kit (SDK). The SDK contains documentation, code samples, how-to articles, and programming references to help build apps for a public store or private app catalog and to customize and integrate Project Server and the Project clients with a wide variety of other desktop and business applications for enterprise project management.
   
 > [!NOTE]
-> Project Server 2013 is built on the SharePoint Server 2013 platform, and Project 2013 includes much of the same infrastructure as the other Office 2013 applications. For documentation of the model for SharePoint Add-ins, SharePoint-based workflows, Web Parts, development with other SharePoint features, and documentation of Office Add-ins, see [Apps for Office and SharePoint](http://msdn.microsoft.com/en-us/library/fp161507%28office.15%29.aspx). 
+> Project Server 2013 is built on the SharePoint Server 2013 platform, and Project 2013 includes much of the same infrastructure as the other Office 2013 applications. For documentation of the model for SharePoint Add-ins, SharePoint-based workflows, Web Parts, development with other SharePoint features, and documentation of Office Add-ins, see [SharePoint Add-ins](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/sharepoint-add-ins) and [Office Add-ins](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins). 
   
 ## Introduction to the Project SDK
 <a name="pj15_Welcome_IntroToSDK"> </a>

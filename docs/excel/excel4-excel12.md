@@ -1,7 +1,5 @@
 ---
 title: "Excel4/Excel12"
- 
- 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +9,6 @@ f1_keywords:
 - Excel4
 keywords:
 - excel4 function [excel 2007],Excel12 function [Excel 2007]
- 
 localization_priority: Normal
 ms.assetid: 2404f10d-8641-4ee6-a909-1c5a26610f80
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
@@ -19,13 +16,13 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # Excel4/Excel12
 
- **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
+**Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
 Calls an internal Microsoft Excel worksheet function, macro sheet function or command, or XLL-only special function or command, from within a DLL/XLL or code resource.
   
 All recent versions of Excel support **Excel4**. Starting in Excel 2007, **Excel12** is supported. 
   
-These functions can be called only when Excel has passed control to the DLL or XLL. They can also be called when Excel has passed control indirectly via a call to Visual Basic for Applications (VBA). They cannot be called at any other time. For example, they cannot be called during calls to the [DllMain](http://msdn.microsoft.com/library/base.dllmain%28Office.15%29.aspx) function or other times when the operating system has called the DLL, or from a thread created by the DLL. 
+These functions can be called only when Excel has passed control to the DLL or XLL. They can also be called when Excel has passed control indirectly via a call to Visual Basic for Applications (VBA). They cannot be called at any other time. For example, they cannot be called during calls to the [DllMain](https://docs.microsoft.com/windows/desktop/dlls/dllmain) function or other times when the operating system has called the DLL, or from a thread created by the DLL. 
   
 The [Excel4v and Excel12v](excel4v-excel12v.md) functions accept their arguments as an array, whereas the **Excel4** and **Excel12** functions accept their arguments as a variable-length list on the stack. In all other respects, **Excel4** behaves the same as **Excel4v**, and **Excel12** behaves the same as **Excel12v**.
   

@@ -1,17 +1,12 @@
 ---
 title: "Understanding InfoPath Object Models and Development Environment"
- 
- 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
- 
 keywords:
 - infopath 2007, object models,object models [InfoPath 2007],InfoPath 2007, development environments
- 
 localization_priority: Normal
 ms.assetid: 29415c5b-9a42-46f4-a9e8-6a7d5bb7bdbf
-
 description: "Microsoft InfoPath 2013 supports two kinds of programming models for developing business logic in form templates, and supports external automation from managed code."
 ---
 
@@ -110,16 +105,13 @@ For more information about the InfoPath Forms Services object model, see the Sha
   
 ## InfoPath Development Environment
 
-The development of business logic in InfoPath 2013 form templates can be performed by using Visual Studio 2012 with the [Microsoft Visual Studio Tools for Applications 2012](http://www.microsoft.com/en-us/download/details.aspx?id=30364) add-on installed. 
+The development of business logic in InfoPath 2013 form templates can be performed by using Visual Studio 2012 with the [Microsoft Visual Studio Tools for Applications 2012](https://www.microsoft.com/en-us/download/details.aspx?id=38807) add-on installed. 
   
 > [!NOTE]
 > InfoPath 2013 does not support creating or editing form templates that use business logic written with JScript or VBScript, although the InfoPath Filler supports opening script-based form templates that were created in previous versions of InfoPath. 
   
 ## See also
 
-
-
-[Walkthrough: Creating a Basic Form Template with Code](walkthrough-creating-a-basic-form-template-with-code.md)
-  
-[Walkthrough: Creating and Debugging a Basic Form Template Using the InfoPath 2003 Object Model](walkthrough-create-and-debug-basic-form-template-using-infopath-object-model.md)
+- [Walkthrough: Creating a Basic Form Template with Code](walkthrough-creating-a-basic-form-template-with-code.md)
+- [Walkthrough: Creating and Debugging a Basic Form Template Using the InfoPath 2003 Object Model](walkthrough-create-and-debug-basic-form-template-using-infopath-object-model.md)
 
