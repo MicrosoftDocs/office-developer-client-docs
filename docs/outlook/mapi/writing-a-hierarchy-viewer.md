@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 A hierarchy viewer is a user interface component that is used for displaying folder and address book container hierarchy tables. Hierarchy viewers can display members of the hierarchy at different levels, expanding and contracting each level on demand.
   

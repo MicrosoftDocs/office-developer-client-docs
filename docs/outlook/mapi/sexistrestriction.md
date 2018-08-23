@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Describes an exist restriction which is used to test whether a particular property exists as a column in the table. 
   

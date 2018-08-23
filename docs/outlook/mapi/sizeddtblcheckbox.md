@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
 # SizedDtblCheckBox
  
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Creates a named structure that includes a [DTBLCHECKBOX](dtblcheckbox.md) structure for describing a check box control and a label of a specified length. 
   

@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 This section describes the process of creating form server executable and form configuration files for creating custom MAPI forms. Before reading this section, you should familiarize yourself with the information in [MAPI Forms](mapi-forms.md).
   

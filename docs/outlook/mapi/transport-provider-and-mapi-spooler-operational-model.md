@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Transport provider initialization, startup, processing, shutdown and deinitialization are accomplished by a series of calls from the MAPI spooler to the transport provider. The calls are sequenced as follows:
   

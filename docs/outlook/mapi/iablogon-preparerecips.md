@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
 # IABLogon::PrepareRecips
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Prepares a recipient list for later use by the messaging system.
   

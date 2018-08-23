@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 The Profile Wizard is a MAPI feature that enables a user to create a profile in the easiest possible way. The Profile Wizard displays a series of dialog boxes which prompt the user to select message services and enter values for a few of the most essential configuration properties. For most of the other required properties, the Profile Wizard uses default values provided. To invoke the Profile Wizard, call **LaunchWizard**, a function based on the [LAUNCHWIZARDENTRY](launchwizardentry.md) prototype. 
   

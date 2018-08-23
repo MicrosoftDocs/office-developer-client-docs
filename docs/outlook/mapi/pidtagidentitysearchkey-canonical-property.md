@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Contains the search key for a service provider's identity as defined within a messaging system. 
   

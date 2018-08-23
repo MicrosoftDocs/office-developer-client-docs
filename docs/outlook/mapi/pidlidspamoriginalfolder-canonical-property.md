@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Indicates which folder a message was in before it was filtered into the junk email folder.
   

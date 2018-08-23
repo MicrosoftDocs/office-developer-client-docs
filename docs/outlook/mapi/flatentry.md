@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 An [ENTRYID](entryid.md) structure plus a byte count that specifies the size of the **ENTRYID** structure. 
   

@@ -12,7 +12,7 @@ description: "Last modified: November 08, 2011"
 
 # Copying or moving a message or a folder
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 A client can use one of four methods to copy or move a message or a folder:
   

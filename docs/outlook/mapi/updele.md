@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # UPDELE
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Extended information for items that have been deleted in a local store. This information is used during the [upload delete status state](upload-delete-status-state.md).
   

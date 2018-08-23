@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Describes a label that will be used in a dialog box that is built from a display table.
   

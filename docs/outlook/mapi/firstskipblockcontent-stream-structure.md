@@ -14,7 +14,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 The FirstSkipBlockContent stream structure is the content of the first [SkipBlock](skipblock-stream-structure.md) structure in the SkipBlocks data element of a [FieldDefinition](fielddefinition-stream-structure.md) stream. The FirstSkipBlockContent stream is simply a single data element, FieldName: 
   

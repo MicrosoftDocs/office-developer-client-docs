@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Form server implementers should expect the following sequence of method calls to their form server and form objects when a client application loads a message:
   

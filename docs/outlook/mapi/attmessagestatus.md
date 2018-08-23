@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 MAPI message flags are mapped to TNEF flags to preserve backward compatibility. All the flags are grouped together and encoded in a single byte. The mappings are as follows:
   

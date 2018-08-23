@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # MAPI property type overview
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Property types are constants defined by MAPI in the MAPIDEFS.H header file that indicate the underlying data type of a property value. All properties, whether they are defined by MAPI, by client applications, or by service providers, use one of these types. 
   

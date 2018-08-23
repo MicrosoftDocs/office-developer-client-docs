@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 The MAPI common address dialog box can be used for a variety of addressing tasks such as constructing a recipient list. To display this dialog box, call **IAddrBook::Address**. Depending on which of the many parameters you set and how you set them, you can limit your display to entries of a particular type from a particular container.
   

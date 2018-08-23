@@ -16,7 +16,7 @@ description: "Last modified: December 07, 2015"
 
  
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 At some point after a client starts a session with MAPI, your service provider will be started. Transport providers are started when a client makes a request for their services. Address book and message store providers are started during the client's logon process.
   

@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
 # TABLE_NOTIFICATION
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Describes a row in a table that has been affected by some type of event, such as a change or an error. This causes a table notification to be generated. 
   

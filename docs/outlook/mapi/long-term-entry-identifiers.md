@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 A long-term entry identifier is assigned by a service provider to an object when an object requires an identifier with a prolonged lifespan. Long-term entry identifiers are always valid for weeks or months and can be valid on other workstations, depending on the provider. The long-term identifiers created by address book providers for custom recipients are universally valid. 
   

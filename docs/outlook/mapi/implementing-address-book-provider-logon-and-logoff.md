@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # Implementing Address Book Provider Logon and Logoff
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Address book providers support session logon and logoff by implementing the methods of the [IABProvider : IUnknown](iabprovideriunknown.md) interface. The ** IABProvider ** interface inherits directly from **IUnknown** and adds only two other methods: **Logon** and **Shutdown**. 
   

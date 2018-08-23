@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 When client applications register for event notification, they must specify one or more events. The events that they can specify depend on the set of events that the intended advise source supports. There are ten types of notifications that clients and service providers can register for, each represented by a constant. Status object notification is an exception. Status object notification is an internal MAPI notification; clients cannot register for it and service providers cannot generate it. The following table describes the types of events and the advise source objects that can support them. The event constant is included with the event type.
   

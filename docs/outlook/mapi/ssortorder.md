@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
 # SSortOrder
  
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Defines how to sort the rows of a table, what column to use as the sort key, and the direction of the sort. 
   

@@ -20,7 +20,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 A 32-bit value that is used to describe an error or warning.
   

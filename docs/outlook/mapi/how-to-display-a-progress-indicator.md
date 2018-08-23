@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # Display a progress indicator
  
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 To display a progress indicator, call [IMAPIProgress::GetFlags](imapiprogress-getflags.md) to retrieve the current flags setting. 
   

@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Entry identifiers are constructed with the [ENTRYID](entryid.md) structure. The **ENTRYID** structure is composed of a flag that describes the attributes of the entry identifier and the actual entry identifier. 
   

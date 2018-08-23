@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 As its name suggests, personal form libraries contain forms of interest to a particular user. A user's personal form library is the form library associated with the default message store identified in the user's profile; each profile installed on a workstation can use a separate default store, and therefore, a separate personal form library. A personal form library can contain copies of forms that are also contained in other form libraries in addition to other forms.
   

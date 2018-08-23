@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 If you choose to write code to create a profile, make sure that you understand how to order profile entries and the type and amount of information that is needed for each entry. The implications of ordering entries in a profile is explained in [MAPI Profiles](mapi-profiles.md).
   

@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 The series of interactions that occurs when a form is loaded from persistent storage (that is, from a form library) to display a message is as follows:
   

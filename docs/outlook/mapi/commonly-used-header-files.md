@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Each reference topic includes a table that names the MAPI header file where the API element is defined. The following table describes the MAPI header files that developers frequently use.
   

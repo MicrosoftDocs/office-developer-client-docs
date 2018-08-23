@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Obtains the folder that was established as the destination for incoming messages of a specified message class or as the default receive folder for the message store.
   

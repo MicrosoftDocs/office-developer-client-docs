@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # File format of MapiSvc.inf
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 The MapiSvc.inf file acts as the central database for MAPI message service configuration information. MapiSvc.inf contains information about each of the message services installed on the workstation, information about the service providers that belong to each message service, and information about the MAPI subsystem. MapiSvc.inf is the primary source of information for profiles. That is, when a new profile is being built or an existing one modified, relevant information for each message service or service provider is copied from MapiSvc.inf. 
   

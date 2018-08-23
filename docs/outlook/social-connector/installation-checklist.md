@@ -85,7 +85,7 @@ The following procedure describes the installation checks outlined in Figure 1.
       
       `{A3B82DA3-8AD9-4935-AEA8-54B754459483}`
       
-      The qualified component ID is a GUID that provides a method of single-level indirection, similar to a pointer. For more information about Windows Installer, see [Roadmap to Windows Installer Documentation](http://msdn.microsoft.com/library/_msi_roadmap_to_windows_installer_documentation.aspx).
+      The qualified component ID is a GUID that provides a method of single-level indirection, similar to a pointer. For more information about Windows Installer, see [Roadmap to Windows Installer Documentation](https://docs.microsoft.com/en-us/windows/desktop/msi/roadmap-to-windows-installer-documentation).
       
    2. If the specified qualified component exists, a version of the OSC is installed. Proceed to step 5 to find the current Outlook user interface locale to prepare for installing the latest version of the OSC.
       

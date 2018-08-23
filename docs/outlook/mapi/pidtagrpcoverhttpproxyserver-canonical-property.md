@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Contains the URL of the proxy server that is used to connect Microsoft Outlook to Microsoft Exchange Server without the HTTP protocol or the Hypertext Transfer Protocol Secure (HTTPS) protocol that comes before the URL.
   

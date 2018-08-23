@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
 # SContentRestriction
  
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Describes a content restriction, which is used to limit a table view to only those rows that include a column with contents matching a search string. 
   

@@ -16,7 +16,7 @@ description: "Last modified: November 08, 2011"
 
 # IPSTOVERRIDE1::SetPersistedRegistrations
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Registers Personal Folders (.pst) files for automatic unlocking, avoiding further calls to the HrTrustedPSTOverrideHandlerCallback.
   

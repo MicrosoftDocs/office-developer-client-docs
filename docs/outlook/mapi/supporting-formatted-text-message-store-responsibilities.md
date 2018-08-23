@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Message store providers use the **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) property to publish whether or not they can handle Rich Text Format (RTF), HTML text and, if they are RTF-aware, whether they store the formatted text in a compressed or uncompressed format. Message store providers indicate that they are RTF-aware by setting the STORE_RTF_OK bit and that they store the formatted text in an uncompressed form by setting the STORE_UNCOMPRESSED_RTF bit. Message store providers indicate they are HTML-aware by setting the STORE_HTML_OK bit.
   

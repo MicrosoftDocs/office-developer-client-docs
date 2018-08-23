@@ -20,7 +20,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Updates the status in the Send/Receive dialog. The store provider periodically calls this function.
   

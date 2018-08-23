@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Creates a numeric token that the [IMAPISession::ShowForm](imapisession-showform.md) method uses to access a message. 
   

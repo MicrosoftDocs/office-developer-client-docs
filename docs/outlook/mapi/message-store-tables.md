@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 The message store table contains information about message store providers in the current profile. There is one message store table for every MAPI session, implemented by MAPI and used by clients. Clients can use this table, for example, to locate all instances of a particular provider or to locate a specific message store. 
   

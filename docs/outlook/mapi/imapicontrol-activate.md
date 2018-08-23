@@ -20,7 +20,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Performs a task such as displaying a dialog box or starting a programmatic operation when a client application user clicks the button control.
   

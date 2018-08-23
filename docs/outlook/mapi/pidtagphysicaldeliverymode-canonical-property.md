@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Contains a bitmask of flags that define the physical delivery mode (for example, special delivery) for a message designated for a specific recipient.
   

@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # File format of form configuration files
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 A form configuration file is a formatted file created by form developers to define a form.
   

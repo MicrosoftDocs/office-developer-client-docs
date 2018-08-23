@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 A profile is a collection of information about the message services and service providers that a user of a client application wants to be available during a particular MAPI session. Every user has at least one profile; many users keep several. For example, a user might have one profile to work with a server-based message store service and another profile to work with a message store service on the local computer. A user might want to access one set of messaging systems by using the appropriate transport services for part of the day and another set for the rest of the day. Profiles provide a flexible way to select combinations of messaging system services. 
   

@@ -10,7 +10,7 @@ description: "Last modified: July 23, 2011"
 
 # About MAPI additions
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 MAPI additions are APIs that belong to Messaging Application Programming Interface (MAPI), such as data types, functions, and properties, that were previously not exposed and documented as part of the MAPI Programmer's Reference. They include the following definitions and properties.
   

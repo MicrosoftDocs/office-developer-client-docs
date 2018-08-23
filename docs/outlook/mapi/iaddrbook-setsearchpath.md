@@ -20,7 +20,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Sets a new search path in the profile that is used for the name resolution process. 
   

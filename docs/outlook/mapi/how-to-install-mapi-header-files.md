@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # Install MAPI header files
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 This topic describes how to obtain and install MAPI header files and library files.
 

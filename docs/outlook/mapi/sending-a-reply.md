@@ -12,7 +12,7 @@ description: "Last modified: March 09, 2015"
 
 # Sending a reply
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Client applications typically support two types of replies: one that is sent only to the sender of the original message and one that is sent to all other recipients included in the recipient list of the original message in addition to the sender. This second type of reply is commonly referred to as a reply all message.
   

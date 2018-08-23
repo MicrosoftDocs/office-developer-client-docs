@@ -12,7 +12,7 @@ description: "Last modified: March 09, 2015"
 
 # Form Configuration File [Platforms] Section
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 The **[Platforms]** section lists the complete set of platforms supported by this form. Each platform entry consists of the prefix **Platform.** _string_, where  _string_ is an arbitrary string code for the platform. Each string corresponds to the **CPU** entry of an individual **[Platforms]** sections. Each entry in a **[Platforms]** section defines a  _platform string_ that references a subsequent **[Platform.** _platform string_ **]** section as shown here. 
   

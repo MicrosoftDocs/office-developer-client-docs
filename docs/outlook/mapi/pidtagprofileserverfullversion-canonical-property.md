@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Specifies complete version and build information about the Microsoft Exchange Server to which accounts in a profile are connected.
   

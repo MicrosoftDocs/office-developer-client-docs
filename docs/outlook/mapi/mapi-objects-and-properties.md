@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Some properties are supported by many different types of objects. The following properties are examples of properties that are used by multiple objects:
   

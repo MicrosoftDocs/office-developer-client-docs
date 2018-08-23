@@ -24,6 +24,6 @@ Publish date of this reference: October 2012
 - [Microsoft Office Developer Center](http://msdn.microsoft.com/en-us/office/default.aspx)
 - [Document Conventions in Office Developer Documentation](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
 - [Microsoft Accessibility](http://www.microsoft.com/ENABLE/)
-- [Microsoft Online Privacy Notice](http://privacy.microsoft.com/en-us/default.mspx)
+
   
 

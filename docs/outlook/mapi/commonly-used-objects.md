@@ -16,7 +16,7 @@ description: "Last modified: June 25, 2012"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Information about objects is documented in various sections of the Microsoft Outlook 2013 MAPI Reference. Because almost all MAPI objects expose a single MAPI interface, the approach is to treat objects and the interfaces that they expose as synonymous.
   

@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Compares two address book **entryIDs** safely in a Multiple Exchange profile. This function is a replacement function for [IAddrBook::CompareEntryIDs](iaddrbook-compareentryids.md).
   

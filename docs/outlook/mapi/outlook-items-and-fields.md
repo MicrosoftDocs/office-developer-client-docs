@@ -14,7 +14,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Microsoft Outlook provides item types that are specialized for their functionality (for example, mail items, appointments, contacts, tasks, and notes). Outlook provides standard fields for each type of item, commonly referred to as built-in fields. Outlook also allows users to create custom fields, commonly referred to as user-defined fields. Each field is associated with a data type and a value. Examples of data types are **Currency**, **Date/Time**, **Duration**, **Integer**, **Keywords**, and **Text**. Users can define custom fields by using the Forms Designer in Outlook.
   

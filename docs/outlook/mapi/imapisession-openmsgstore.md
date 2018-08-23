@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
 # IMAPISession::OpenMsgStore
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Opens a message store and returns an [IMsgStore](imsgstoreimapiprop.md) pointer for further access. 
   

@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Defines a service provider entry point function which the Profile Wizard calls to retrieve enough information to display the provider's configuration property sheets. 
   

@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 The encoding of a recipient table into the TNEF stream is rarely necessary since most messaging systems support recipient lists directly. In general, the recipient properties are transmitted in the message header. When inclusion of the recipient table is necessary, TNEF can encode the recipient table as a part of its usual processing. This is done during the initial phase of TNEF processing. The transport provider can include the message's recipient table by calling the [ITnef::AddProps](itnef-addprops.md) method with the **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) property specified in the inclusion list. TNEF gets the recipient table from the message, queries the column set, and processes every row of the table into the TNEF stream.
   

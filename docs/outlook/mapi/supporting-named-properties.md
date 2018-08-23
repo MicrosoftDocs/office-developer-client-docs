@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Any object that implements the [IMAPIProp : IUnknown](imapipropiunknown.md) interface can support named properties. Support for named properties is required for: 
   

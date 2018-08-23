@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 This sample supports a single read-only container for display names and email addresses, which are read from a flat binary file. The sample supports one-off templates and all configuration options except the Profile Wizard.
   

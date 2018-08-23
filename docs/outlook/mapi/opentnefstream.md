@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
 # OpenTnefStream
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Called by a transport provider to initiate a MAPI Transport Neutral Encapsulation Format (TNEF) session. 
   

@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 RFC 822 headers are mapped to MAPI properties as follows. PR_SENDER_\* is an abbreviation for the following 5 properties:
   

@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # MAPI address book provider objects
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 In addition to the standard provider and logon objects, address book providers implement address book containers, distribution lists, messaging users, tables, status objects, and controls.
   

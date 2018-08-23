@@ -155,5 +155,5 @@ This example assumes that you have created a form for submitting a sales report 
     
 ## See also
 
-- [Design a form template for offline use](http://office.microsoft.com/en-us/infopath/HA102117391033.aspx?pid=CH100341121033)
+- [Design a form template for offline use](https://support.office.com/en-us/article/design-a-form-template-for-offline-use-3ab8de84-babc-4bd7-9215-66d308546be4)
 

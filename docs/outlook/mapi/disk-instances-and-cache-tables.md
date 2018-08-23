@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # Disk Instances and Cache Tables
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 To activate a form, its executable files must be available on the user's computer. If they are not available, they must be copied from the form library to the local disk. To do this, the default form manager creates a subdirectory in the user's Windows directory to contain the form's executable files (.EXEs,.HLPs). This directory is referred to as the disk instance of the form.
   

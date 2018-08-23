@@ -16,7 +16,7 @@ description: "Last modified: July 05, 2012"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Information for downloading the contents of a folder from the server during the [download table state](download-table-state.md). This downloading process uses Microsoft Exchange Incremental Change Synchronization (ICS). For more information on ICS, see [ICS Evaluation Criteria](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx).
   

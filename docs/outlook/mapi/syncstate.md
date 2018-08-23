@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # SYNCSTATE
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 This structure defines the states for the replication state machine.
   

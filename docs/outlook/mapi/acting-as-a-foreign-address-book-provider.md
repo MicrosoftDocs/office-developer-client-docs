@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # Acting as a foreign address book provider
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 A foreign provider is an address book provider that: 
   

@@ -14,7 +14,7 @@ description: "Last modified: June 25, 2012"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 The Store API provides miscellaneous store functionality to store providers. It provides the following defintions, data types, properties, and interfaces.
   

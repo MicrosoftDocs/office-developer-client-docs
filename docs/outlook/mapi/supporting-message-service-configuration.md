@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # Supporting message service configuration
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 To support message service configuration, use the following procedure:
   

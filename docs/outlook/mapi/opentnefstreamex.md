@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
 # OpenTnefStreamEx
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Creates a Transport-Neutral Encapsulation Format (TNEF) object that can be used to encode or decode a message object into a TNEF data stream for use by transports or gateways and message stores. This is the entry point for TNEF access. 
   

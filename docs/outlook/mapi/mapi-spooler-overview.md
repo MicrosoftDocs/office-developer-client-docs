@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # MAPI spooler overview
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 MAPI spooler is a function of the Microsoft Office Outlook process that is responsible for sending messages to and receiving messages from a messaging system. MAPI spooler plays a vital role in message receipt and delivery. When a messaging system is unavailable, MAPI spooler stores the messages and automatically forwards them at a later time. This ability to hold on to or send data when necessary is known as store and forward, a critical feature in environments where remote connections are common and network traffic is high. MAPI spooler runs as a background thread within Outlook.
   

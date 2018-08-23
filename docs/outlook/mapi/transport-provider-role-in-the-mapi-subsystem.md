@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # Transport provider role in the MAPI subsystem
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Transport provider dynamic-link libraries (DLLs) provide the interface between the MAPI spooler and the part of a messaging system responsible for message sending and receiving. The MAPI spooler and the transport provider work together to handle the responsibilities of sending a message or receiving a message. The MAPI spooler loads the transport provider DLL when it is first used and releases it when it is no longer needed. Multiple transport providers can be installed on the same system, but MAPI supplies the one spooler required.
   

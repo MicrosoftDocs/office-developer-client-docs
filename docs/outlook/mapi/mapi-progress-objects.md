@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 With the methods and data of a progress object, you can control how the indicator reports progress. Although a client or MAPI implements the progress object, most of the burden of ensuring the correctness of the progress display falls on service providers. You can guarantee its accuracy by specifying a particular order and value for the parameters that are passed to progress object methods.
   

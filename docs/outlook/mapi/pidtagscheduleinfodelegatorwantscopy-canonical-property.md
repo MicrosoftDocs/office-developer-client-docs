@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Contains TRUE if the delegator wants to receive copies of the meeting-related objects that are sent to the delegate.
   

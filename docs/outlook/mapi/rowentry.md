@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
 # ROWENTRY
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Contains a row and the operation that is performed on that row in a table through the [IExchangeModifyTable](iexchangemodifytableiunknown.md) interface. 
   

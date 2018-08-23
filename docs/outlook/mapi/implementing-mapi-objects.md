@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 MAPI objects can be implemented by using C++ classes or C data structures, depending on the language and the API set a client or service provider is using. Service providers can be written in C or C++ with the MAPI service provider interface; client applications can also use C or C++. If possible, clients and service providers that use the object-oriented programming interface should use C++. 
   

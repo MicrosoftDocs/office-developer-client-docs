@@ -14,7 +14,7 @@ description: "Last modified: October 05, 2012"
 
 
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 The content that you tried to view is no longer available. It may have been deleted or replaced with a more recent version. Explore this set of links to get you up to speed.
   

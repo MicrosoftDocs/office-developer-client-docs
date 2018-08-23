@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # Retrieving recipient properties
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 ### To access one or more properties of an address book entry
   

@@ -16,7 +16,7 @@ description: "Last modified: June 25, 2012"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 The following API elements are deprecated in Microsoft Outlook 2013. They are no longer supported and you should not use them in new projects.
   

@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 The status table contains information relating to the state of the current session. There is one status table for every MAPI session that includes information provided by MAPI and by service providers. MAPI provides data for three rows: a row for the MAPI subsystem, a row for the MAPI spooler, and a row for the integrated address book. Because transport providers are required to supply status information to the status table, there is one row for every active transport provider. Address book and message store providers can choose whether to support the status table. 
   

@@ -16,7 +16,7 @@ description: "Last modified: February 21, 2012"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Determines the length of the specified Unicode string, excluding the terminating null character.
   

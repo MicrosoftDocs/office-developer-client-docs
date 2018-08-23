@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 There are many types of restrictions, some that focus on specific columns. All table implementations are expected to support restrictions on the columns in the current column set. However, to add value, table implementers can also support restrictions based on object properties that are not currently in the table view.
   

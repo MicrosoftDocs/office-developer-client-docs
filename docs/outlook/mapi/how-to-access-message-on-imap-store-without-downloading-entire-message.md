@@ -10,7 +10,7 @@ description: "Last modified: July 23, 2011"
 
 # Access a message on an IMAP store without downloading the entire message
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 This topic shows a code sample in C++ that queries a message store for the **[IProxyStoreObject](iproxystoreobject.md)** interface, and uses the returned pointer and the **[IProxyStoreObject::UnwrapNoRef](iproxystoreobject-unwrapnoref.md)** function to obtain a pointer to an IMAP store object that has been unwrapped. Using this unwrapped store allows access to a message in its current state without invoking a download of the entire message. 
   

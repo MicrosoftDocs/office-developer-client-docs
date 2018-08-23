@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIStatus::ValidateState
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Confirms the external status information available for the MAPI resource or the service provider. This method is supported in all status objects. 
   

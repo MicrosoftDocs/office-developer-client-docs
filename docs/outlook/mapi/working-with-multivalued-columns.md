@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 A multivalued column contains the data of a multivalued property, which is a property that has an array of values of the base type instead of a single value. Because none of the tables include multivalued properties in their default column sets, multivalued properties are included in a table only if the user of the table requests it. 
   

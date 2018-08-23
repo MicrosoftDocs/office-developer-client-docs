@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 The current position within a table is always indicated by a cursor. There is one cursor for each view of a table; its value is set by the table's implementer. When a client or service provider using the table makes a call to change the position of the table, the value of the cursor is reset. A table's position can be changed with:
   

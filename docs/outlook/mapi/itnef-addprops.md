@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Enables the calling service provider or gateway to add properties to the encapsulation of a message or an attachment. 
   
@@ -49,7 +49,7 @@ TNEF_PROP_CONTAINED
     
 TNEF_PROP_CONTAINED_TNEF 
   
-> Encodes only properties from the message or attachment specified by the  _ulElemID_ parameter. If this flag is set, the value in  _lpvData_ must be an [IStream](http://msdn.microsoft.com/library/stg.istream%28Office.15%29.aspx) pointer. 
+> Encodes only properties from the message or attachment specified by the  _ulElemID_ parameter. If this flag is set, the value in  _lpvData_ must be an [IStream](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nn-objidl-istream) pointer. 
     
 TNEF_PROP_EXCLUDE 
   

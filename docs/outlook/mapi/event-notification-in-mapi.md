@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # Event notification in MAPI
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Event notification is the communication of information between two MAPI objects. Through one of the objects, a client or service provider registers for notification of a change or error, called an event, which may take place in the other object. After the event occurs, the first object is notified of the change or error. The object receiving the notification is called the advise sink; the object responsible for the notification is called the advise source.
   

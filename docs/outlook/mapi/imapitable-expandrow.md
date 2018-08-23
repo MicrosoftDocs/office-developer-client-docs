@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Expands a collapsed table category, adding the leaf or lower-level heading rows belonging to the category to the table view.
   

@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIViewContext::ActivateNext
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Activates the next or previous message in the view order. 
   

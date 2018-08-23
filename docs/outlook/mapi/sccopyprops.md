@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Copies the properties defined by an array of [SPropValue](spropvalue.md) structures to a new destination. 
   

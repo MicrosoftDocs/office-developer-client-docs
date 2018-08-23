@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # Opening an attachment
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Opening an attachment involves displaying its data. For example, when a file attachment is opened, the contents of the file are displayed. Whereas messages and folders are opened using their entry identifiers, attachments are opened using their attachment numbers — **PR_ATTACH_NUM** properties. For more information, see **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)). Attachment numbers are available through a message's attachment table.
   

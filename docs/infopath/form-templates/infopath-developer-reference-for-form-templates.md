@@ -20,7 +20,7 @@ Welcome to the InfoPath 2013 developer reference for form templates. This docume
   
 Publish date of this reference: October 2012
   
-## Related Links
+## Related links
 
 [InfoPath Developer Center](http://msdn.microsoft.com/en-us/office/aa905434.aspx)
   
@@ -29,7 +29,6 @@ Publish date of this reference: October 2012
 [Document Conventions in Office Developer Documentation](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
   
 [Microsoft Accessibility](http://www.microsoft.com/ENABLE/)
-  
-[Microsoft Online Privacy Notice](http://privacy.microsoft.com/en-us/default.mspx)
+
   
 

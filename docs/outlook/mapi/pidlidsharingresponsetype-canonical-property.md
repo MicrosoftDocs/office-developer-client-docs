@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Specifies the type of response with which the recipient of the sharing request responded. This is a property of a sharing message.
   

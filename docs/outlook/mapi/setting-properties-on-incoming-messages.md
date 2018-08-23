@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 The client applications within the MAPI subsystem expect a number of properties in any received message. When the transport provider brings a message into MAPI, it should set these properties, since it is either the only process with the necessary information to do so, or is at least the best source of the information.
   

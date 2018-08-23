@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 This topic maps each canonical property name to the MAPI property or properties it represents. The topic contains three tables: a table for named properties with numerical identifiers, a second table for named properties with string identifiers, and a third table for tagged properties.
   

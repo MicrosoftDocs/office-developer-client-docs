@@ -1,7 +1,7 @@
 ---
 title: "Calling into Excel from the DLL or XLL"
 manager: soliver
-ms.date: 03/09/2015
+ms.date: 08/22/2018
 ms.audience: Developer
 ms.topic: overview
 keywords:
@@ -45,7 +45,7 @@ For the DLL to be able to call **Excel4**, **Excel4v**, **Excel12**, or **Excel1
     
 You cannot call the Excel C API in the following scenarios:
   
-- From an operating system event (for example, from the [DllMain](http://msdn.microsoft.com/library/base.dllmain%28Office.15%29.aspx) function). 
+- From an operating system event (for example, from the [DllMain](https://docs.microsoft.com/windows/desktop/dlls/dllmain) function). 
     
 - From a background thread that your DLL created.
     
@@ -61,7 +61,7 @@ All four of these functions return an integer value that informs the caller whet
 |4  <br/> |**xlretInvCount** <br/> |The number of arguments supplied in the call is not correct.  <br/> |
 |8  <br/> |**xlretInvXloper** <br/> |One or more of the argument **XLOPER** or **XLOPER12** values are not properly formed or populated.  <br/> |
 |16  <br/> |**xlretStackOvfl** <br/> |Excel detected a risk that the operation might overflow its stack and, therefore, did not call the function.  <br/> |
-|32  <br/> |**xlretFailed** <br/> |The command or function failed for a reason not described by one of the other return values. An operation that would require too much memory, for example, would fail with this error. This could happen during an attempt to convert a very large reference to an **xltypeMulti** array by using the [xlCoerce](http://msdn.microsoft.com/library/guid_9d47c16c-a7e7-4998-b594-9cf001827b7b%28Office.15%29.aspx) function.  <br/> |
+|32  <br/> |**xlretFailed** <br/> |The command or function failed for a reason not described by one of the other return values. An operation that would require too much memory, for example, would fail with this error. This could happen during an attempt to convert a very large reference to an **xltypeMulti** array by using the [xlCoerce](xlcoerce.md) function.  <br/> |
 |64  <br/> |**xlretUncalced** <br/> |The operation attempted to retrieve the value of an uncalculated cell. To preserve recalculation integrity in Excel, worksheet functions are not permitted to do this. However, XLL commands and functions registered as macro sheet functions are permitted to access uncalculated cell values.  <br/> |
 |128  <br/> |**xlretNotThreadSafe** <br/> |(Starting in Excel 2007) An XLL worksheet function registered as thread safe attempted to call a C API function that is not thread safe. For example, a thread-safe function cannot call the XLM function **xlfGetCell**.  <br/> |
 |256  <br/> |**xlRetInvAsynchronousContext** <br/> |(Starting in Excel 2010) The asynchronous function handle is invalid.  <br/> |
@@ -69,7 +69,7 @@ All four of these functions return an integer value that informs the caller whet
    
 If the function returns one of the failure values in the table (that is, it does not return **xlretSuccess**), the **XLOPER** or **XLOPER12** return value will also be set to **#VALUE!**. In certain circumstances, checking for this might be a sufficient test of success, but you should note that a call can return both **xlretSuccess** and **#VALUE!**.
   
-If a call to the C API results in either **xlretUncalced** or **xlretAbort**, your DLL or XLL code should return control to Excel before making any other C API calls (other than calls to the [xlfree](http://msdn.microsoft.com/library/guid_8ce2eef2-0138-495d-b6cb-bbb727a3cda4%28Office.15%29.aspx) function to release Excel-allocated memory resources in **XLOPER** and **XLOPER12** values). 
+If a call to the C API results in either **xlretUncalced** or **xlretAbort**, your DLL or XLL code should return control to Excel before making any other C API calls (other than calls to the [xlfree](xlfree.md) function to release Excel-allocated memory resources in **XLOPER** and **XLOPER12** values). 
   
 ### Command or Function Enumeration Argument: xlfn
 
@@ -233,7 +233,7 @@ void Excel12v_example(double *dbl_array, int size, double &sum, double &average,
 
 Replacing references to **XLOPER12** values with **XLOPER**, and **Excel12v** with **Excel4v**, in the preceding code would result in a function that would work with all versions of Excel. This operation of the Excel functions **SUM**, **AVERAGE**, **MIN**, and **MAX** is simple enough that it would be more efficient to code them in C and avoid the overhead of preparing the arguments and calling into Excel. However, many of the functions Excel contains are more complex, making this approach useful in some cases. 
   
-The [xlfRegister](http://msdn.microsoft.com/library/guid_c730124c-1886-4a0f-8f06-79763025537d%28Office.15%29.aspx) topic provides another example of working with **Excel4v** and **Excel12v**. When registering an XLL worksheet function, you can supply a descriptive string for each argument that is used in the **Paste Function** dialog box. Therefore, the number of total arguments being supplied to **xlfRegister** depends on the number of arguments your XLL function takes and will vary from one function to the next. 
+The [xlfRegister](xlfregister-form-1.md) topic provides another example of working with **Excel4v** and **Excel12v**. When registering an XLL worksheet function, you can supply a descriptive string for each argument that is used in the **Paste Function** dialog box. Therefore, the number of total arguments being supplied to **xlfRegister** depends on the number of arguments your XLL function takes and will vary from one function to the next. 
   
 Where you always call a C API function or command with the same number of arguments, you want to avoid the extra step of creating an array of pointers for those arguments. In those cases, it is simpler and cleaner to use **Excel4** and **Excel12**. For example, when registering XLL functions and commands, you need to supply the full path and file name of the DLL or XLL. You can obtain the file name in a call to **xlfGetName** and then release it with a call to **xlFree**, as shown in the following example for both **Excel4** and **Excel12**.
   
@@ -312,15 +312,9 @@ Although you can use this to determine whether the new C API is available at run
   
 ## See also
 
-
-
-[Creating XLLs](creating-xlls.md)
-  
-[Accessing XLL Code in Excel](accessing-xll-code-in-excel.md)
-  
-[Excel XLL SDK API Function Reference](excel-xll-sdk-api-function-reference.md)
-  
-[C API Callback Functions Excel4, Excel12](c-api-callback-functions-excel4-excel12.md)
-  
-[Developing Excel XLLs](developing-excel-xlls.md)
+- [Creating XLLs](creating-xlls.md)  
+- [Accessing XLL Code in Excel](accessing-xll-code-in-excel.md)  
+- [Excel XLL SDK API Function Reference](excel-xll-sdk-api-function-reference.md)  
+- [C API Callback Functions Excel4, Excel12](c-api-callback-functions-excel4-excel12.md)  
+- [Developing Excel XLLs](developing-excel-xlls.md)
 

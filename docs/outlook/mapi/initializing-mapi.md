@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 All client applications that use the MAPI libraries must call the **MAPIInitialize** function. For more information, see [MAPIInitialize](mapiinitialize.md). **MAPIInitialize** initializes global data for the session and prepares the MAPI libraries to accept calls. There are a few flags that are important to set in some situations: 
   

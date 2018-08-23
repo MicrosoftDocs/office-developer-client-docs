@@ -78,7 +78,7 @@ You can download and run the sample in a few easy steps:
     
    Project Online examines both the application scope of the add-in and the user permissions to govern access to information on the Project Online host. If access is explicitly denied in either or both settings, Project Online denies access to the information. Otherwise, access is granted.
     
-3. Enable sideloading on your site. See the [Configuring Project Online for App Development ](http://nearbaseline.com/2013/12/configuring-project-online-for-app-development/.aspx)article for more information. 
+3. Enable [sideloading](https://docs.microsoft.com/en-us/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins) on your site.  
     
 4. Build the project.
     
@@ -96,7 +96,7 @@ An example of the Windows development environment for this type of application i
     
 - .NET Framework 4.0 or newer
     
-- [SharePointOnline CSOM package](https://www.nuget.org/packages/Microsoft.SharePointOnline.CSOM/.aspx) (for CSOM calls) 
+- [SharePointOnline CSOM package](https://www.nuget.org/packages/Microsoft.SharePointOnline.CSOM) (for CSOM calls) 
     
 - A programming language, such as C# 
     
@@ -110,7 +110,7 @@ You can run the sample in a few steps:
     
    Project Online examines both the application scope of the add-in and the user permissions to govern access to information on the Project Online host. If access is explicitly denied in either or both settings, Project Online denies access to the information. Otherwise, access is granted.
     
-3. Enable sideloading on your site. See the [Configuring Project Online for App Development ](http://nearbaseline.com/2013/12/configuring-project-online-for-app-development/.aspx)article for more information. 
+3. Enable [sideloading](https://docs.microsoft.com/en-us/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins) on your site. 
     
 4. Build the project.
     
@@ -128,7 +128,7 @@ An example of the Windows development environment for this type of application i
     
 - .NET Framework 4.0 or newer
     
-- [SharePointOnline CSOM package](https://www.nuget.org/packages/Microsoft.SharePointOnline.CSOM/.aspx) (for CSOM calls) 
+- [SharePointOnline CSOM package](https://www.nuget.org/packages/Microsoft.SharePointOnline.CSOM) (for CSOM calls) 
     
 - A programming language, such as C# 
     
@@ -162,6 +162,6 @@ Each sample application has an article to explain the highlights of working with
     
 ## See also
 
-For documentation and samples related to Project Online and application development using CSOM, see the [Project Development Portal](http://dev.office.com/project.aspx).
+For documentation and samples related to Project Online and application development using CSOM, see the [Project Development Portal](https://developer.microsoft.com/en-us/project).
     
 

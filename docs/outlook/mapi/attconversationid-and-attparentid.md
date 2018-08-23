@@ -12,7 +12,7 @@ description: "Last modified: March 12, 2013"
 
 # attConversationID and attParentID
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 The Windows for Workgroups 3.1 Mail conversation key is a text string. The MAPI equivalent is a binary value. To provide backward compatibility, the TNEF implementation converts the binary data to text and adds a terminating null character.
   

@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # Improving client performance
  
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 The topics in this section contain tips that help you create a client application with the best possible performance.
   

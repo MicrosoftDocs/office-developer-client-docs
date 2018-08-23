@@ -10,7 +10,7 @@ description: "Last modified: June 25, 2012"
 
 # Get the email address of a Contact item
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 This topic shows how to obtain the value of a named property that represents the email address of an Microsoft Outlook 2010 or Microsoft Outlook 2013 Contact item.
   

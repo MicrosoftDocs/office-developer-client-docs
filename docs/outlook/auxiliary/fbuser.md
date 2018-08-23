@@ -30,7 +30,7 @@ typedef struct tagFBUser
 
 _m_cbEid_
   
-> The length of the entry ID of the mail user as represented by the [IMailUser](http://msdn.microsoft.com/library/wab._wab_IMailUser%28Office.15%29.aspx) interface. 
+> The length of the entry ID of the mail user as represented by the [IMailUser](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-imailuser-deleteprops) interface. 
     
 _m_lpEid_
   

@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 A form manager is an object that implements the [IMAPIFormMgr](imapiformmgriunknown.md) interface. Most organizations will use the form manager supplied with MAPI, referred to as the default form manager. However, an organization can replace the default form manager with a custom form manager if desired. The form manager takes care of locating forms within form libraries, loading forms in response to user requests, and installing forms into a user's local form library, folder form library, or personal form library. 
   

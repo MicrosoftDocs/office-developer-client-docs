@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # Handling an outgoing message
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 An outgoing message is a message that can be sent to one or more recipients across one or more messaging systems or be posted to a folder in a message store.
   

@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Testing strategies differ depending on whether you are developing a client or service provider. Because a client application requires one or more service providers to operate, clients should be tested in an environment with different sets of service providers.
   

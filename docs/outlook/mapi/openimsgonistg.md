@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
 # OpenIMsgOnIStg
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Builds a new [IMessage](imessageimapiprop.md) object on top of an existing OLE **IStorage** object, to be used within a message session. 
   

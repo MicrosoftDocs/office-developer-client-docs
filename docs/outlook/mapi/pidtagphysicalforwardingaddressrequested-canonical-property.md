@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Contains TRUE if a message sender requests the message transfer agent to attach a physical forwarding address for a message recipient.
   

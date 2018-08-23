@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # Forms and MAPI client applications
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Because all MAPI messages are instances of forms, client applications display and interact with form objects just as they do with other message objects.
   

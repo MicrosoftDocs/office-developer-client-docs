@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 The **[Services]** section lists the message services that are installed on a computer. Entries in this section use the following format: 
   

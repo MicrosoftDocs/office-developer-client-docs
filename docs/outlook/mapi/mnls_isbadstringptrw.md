@@ -16,7 +16,7 @@ description: "Last modified: February 20, 2012"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Verifies that a pointer to a wide string is valid.
   

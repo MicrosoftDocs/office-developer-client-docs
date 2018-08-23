@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Displays the sizes of specified folders on the server in the Outlook **Folder Size** dialog box. 
   

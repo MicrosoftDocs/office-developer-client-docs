@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Identifies what account the header item is associated with, primarily to implement the POP Leave on Server functionality. 
   

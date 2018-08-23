@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Allows conversions between MIME objects and MAPI messages. This can be useful in transporting messages across the Internet.
   

@@ -40,9 +40,8 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Trigger](http://msdn.microsoft.com/library/6dbd2c66-3b29-03f6-648f-723d359ded0d%28Office.15%29.aspx) <br/> |[Trigger_Type](trigger_type-complextypevisio-xml.md) <br/> |Provides instructions to Microsoft Visio to recalculate a relationship between document parts in a Visio file.  <br/> |
-|[Trigger](http://msdn.microsoft.com/library/e4eeb238-f6d0-fb23-db1c-01d55b0a8d88%28Office.15%29.aspx) <br/> |[Trigger_Type](trigger_type-complextypevisio-xml.md) <br/> |Provides instructions to Microsoft Visio to recalculate a relationship between document parts in a Visio file.  <br/> |
 |[Trigger](trigger-elementvisio-xml.md) <br/> |[Trigger_Type](trigger_type-complextypevisio-xml.md) <br/> |Provides instructions to Microsoft Visio to recalculate a relationship between document parts in a Visio file.  <br/> |
+
    
 ### Child elements
 

@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # Searching the address book
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 MAPI enables address book providers to implement two levels of search functionality:
   

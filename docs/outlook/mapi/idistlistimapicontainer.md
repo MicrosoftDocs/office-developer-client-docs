@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Provides access to distribution lists in modifiable address book containers. **IDistList** can create, copy, and delete distribution lists, in addition to performing name resolution. 
   

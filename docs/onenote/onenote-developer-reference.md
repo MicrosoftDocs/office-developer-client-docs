@@ -29,16 +29,11 @@ This documentation contains the following information:
   
 ## See also
 
-- [OneNote for developers](http://go.microsoft.com/fwlink/?LinkID=390615)
-    
-- [Samples on GitHub](https://github.com/OneNoteDev/) (OneNote service APIs) 
-    
-- [Accessibility in Microsoft Products](http://www.microsoft.com/enable/products/default.aspx)
-    
-- [Document Conventions](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
-    
+- [OneNote for developers](http://go.microsoft.com/fwlink/?LinkID=390615)   
+- [Samples on GitHub](https://github.com/OneNoteDev/) (OneNote service APIs)     
+- [Accessibility in Microsoft Products](http://www.microsoft.com/enable/products/default.aspx)    
+- [Document Conventions](http://msdn.microsoft.com/en-us/office/aa905365.aspx)    
 - [OneNote Developer Reference Copyright Information](https://msdn.microsoft.com/en-us/library/office/jj680116.aspx)
     
-- [Microsoft Online Privacy Notice](http://privacy.microsoft.com/en-us/default.mspx)
     
 

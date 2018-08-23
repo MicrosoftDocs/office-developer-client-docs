@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Responds to a notification by performing one or more tasks. The tasks performed depend on the type of event and the object that generates the notification. 
   

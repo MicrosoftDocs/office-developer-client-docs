@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # MAPI architecture overview
  
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 MAPI defines a modular architecture, as shown in the following illustration.  
   

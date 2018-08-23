@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # Message services and profiles
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Some users require the services of several messaging systems, each with one or more service providers. Because it is cumbersome to install and configure each of these service providers individually, and because a messaging server usually requires a group of related providers to expose all its functionality, MAPI includes the concept of a message service. Message services help users install and configure their service providers.
   

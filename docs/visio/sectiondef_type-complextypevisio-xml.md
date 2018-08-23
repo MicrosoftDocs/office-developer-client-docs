@@ -63,8 +63,8 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[CellDef](http://msdn.microsoft.com/library/f0ec7afe-9e0a-b5e5-82dd-4adff1c1607f%28Office.15%29.aspx) <br/> |[CellDef_Type](celldef_type-complextypevisio-xml.md) <br/> ||
-|[RowDef](http://msdn.microsoft.com/library/25615be9-1d19-1ba9-4192-7d4a0dfae717%28Office.15%29.aspx) <br/> |[RowDef_Type](rowdef_type-complextypevisio-xml.md) <br/> ||
+|CellDef <br/> |[CellDef_Type](celldef_type-complextypevisio-xml.md) <br/> ||
+|RowDef <br/> |[RowDef_Type](rowdef_type-complextypevisio-xml.md) <br/> ||
    
 ### Attributes
 

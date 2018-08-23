@@ -10,7 +10,7 @@ description: "Last modified: June 25, 2012"
 
 # Open a store on the remote server when Outlook is in Cached Exchange Mode
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 This topic contains a code sample in C++ that shows how to use the **MDB_ONLINE** flag to open a message store on the remote server when Microsoft Outlook 2010 or Microsoft Outlook 2013 is in Cached Exchange Mode. 
   

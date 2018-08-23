@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
 # IMAPISupport::Notify
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Sends a notification of a specified event to an advise source that originally registered for the notification through the [IMAPISupport::Subscribe](imapisupport-subscribe.md) method. 
   

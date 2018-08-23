@@ -12,7 +12,7 @@ description: "Last modified: July 05, 2012"
 
 # UPMOV
  
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Information for uploading items that have been moved. This information is used during the [upload delete status state](upload-delete-status-state.md) and [upload table state](upload-table-state.md).
   

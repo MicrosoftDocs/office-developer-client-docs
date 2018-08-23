@@ -14,7 +14,7 @@ description: "Last modified: July 05, 2012"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 This topic takes you through the steps to download and install the Sample Wrapped PST Store Provider. The Sample Wrapped PST Store Provider, WrapPST, implements a wrapped PST store provider that is intended to be used in conjunction with the Replication API. For more information about the Replication API, see [About the Replication API](about-the-replication-api.md).
   

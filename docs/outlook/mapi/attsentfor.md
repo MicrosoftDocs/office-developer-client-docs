@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 The **attSentFor** attribute is encoded as counted strings laid end-to-end. The format for **attSentFor** is as follows: 
   

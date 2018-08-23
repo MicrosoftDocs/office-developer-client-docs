@@ -12,7 +12,7 @@ description: "Last modified: March 09, 2015"
 
 # HrCreateOfflineObj
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
  Creates a MAPI offline object that is used by the provider and store in order to notify MAPI when the object goes online and offline, 
   

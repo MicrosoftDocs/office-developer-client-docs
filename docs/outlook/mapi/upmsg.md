@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # UPMSG
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Information for uploading an Outlook item during the [upload message state](upload-message-state.md).
   

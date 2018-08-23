@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 You can use a transport provider's status object to change some of the properties of the provider. The range of properties that can be changed depends on the properties that are included with the provider's property sheet and how those properties are defined. 
   

@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Service providers implement many objects. Some are used primarily by MAPI and some are used by client applications. A few objects are implemented by all types of service providers; the rest are specific to a single provider type. The following table describes all of the service provider objects.
   

@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 When a client application calls [MAPILogonEx](mapilogonex.md) to begin a session using a profile that contains your address book provider, MAPI loads your provider and all others that are part of the profile. MAPI learns of the name of your provider's entry point function by looking in the profile. Remember that this function is not the same as a DLL entry point function; see the documentation for **DllMain** in the Win32 documentation. 
   

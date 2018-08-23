@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 A bookmark is a resource that indicates a particular location in a table. Setting a bookmark makes it possible to return to a position at a later time, a feature that can significantly improve the performance of table operations. MAPI defines three standard bookmarks: 
   

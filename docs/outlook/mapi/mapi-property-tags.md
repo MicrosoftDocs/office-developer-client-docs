@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # MAPI property tags
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 A property tag is a 32-bit number that contains a unique property identifier in bits 16 through 31 and a property type in bits 0 through 15 as shown in the following illustration. 
   

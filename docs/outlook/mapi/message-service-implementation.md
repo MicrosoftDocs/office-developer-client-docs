@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 A message service is one or more related service providers grouped together for the purpose of simplifying installation and configuration. All service providers should be included in a message service.
   

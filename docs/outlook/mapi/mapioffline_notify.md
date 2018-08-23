@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # MAPIOFFLINE_NOTIFY
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 This is the notification for a change in the connection state. It indicates the part of the connection state that has changed, the old connection state, and the new connection state.
   

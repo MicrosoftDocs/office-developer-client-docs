@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 A form viewer includes three objects: a message site, a view advise sink, and a view context. Each of these objects allows you to interact with a form server and its forms.
   

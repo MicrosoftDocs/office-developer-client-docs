@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 The subject of a message, **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)), is an optional property, used to summarize the intent of a message. If you choose to set it, make it a character string 128 bytes or less. The 128 byte limit is not a limit imposed by MAPI; it is a limit imposed by some message store providers. To ensure interoperability with providers that do impose it, limit subjects to 128 bytes. 
   

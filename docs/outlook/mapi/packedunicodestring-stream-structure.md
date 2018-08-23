@@ -14,7 +14,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 The PackedUnicodeString stream structure contains a Unicode (UTF-16) representation of a string. This string is not terminated by a null character. Data elements in this stream are stored in little-endian byte order, immediately following each other in the order listed below. The actual data elements that exist depend on the length of the string in UTF-16 representation.
   

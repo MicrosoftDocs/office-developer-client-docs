@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
 # SizedSPropTagArray
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Creates a named [SPropTagArray](sproptagarray.md) structure that includes a specified number of property tags. 
   

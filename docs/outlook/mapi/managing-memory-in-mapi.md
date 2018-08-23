@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Knowing how and when to allocate and free memory is an important part of programming with MAPI. MAPI provides both functions and macros that your client or service provider can use to manage memory in a consistent way. The three functions are as follows:
   

@@ -59,9 +59,9 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[CellDef](http://msdn.microsoft.com/library/8fb193f0-5c88-6891-1cda-f1df486aabfc%28Office.15%29.aspx) <br/> |[CellDef_Type](celldef_type-complextypevisio-xml.md) <br/> ||
-|[FunctionDef](http://msdn.microsoft.com/library/dad99181-c14c-cce7-3883-106fe05f20a6%28Office.15%29.aspx) <br/> |[FunctionDef_Type](functiondef_type-complextypevisio-xml.md) <br/> ||
-|[SectionDef](http://msdn.microsoft.com/library/751da480-f387-4c68-6699-8948271c23ac%28Office.15%29.aspx) <br/> |[SectionDef_Type](sectiondef_type-complextypevisio-xml.md) <br/> ||
+|CellDef <br/> |[CellDef_Type](celldef_type-complextypevisio-xml.md) <br/> ||
+|FunctionDef <br/> |[FunctionDef_Type](functiondef_type-complextypevisio-xml.md) <br/> ||
+|SectionDef <br/> |[SectionDef_Type](sectiondef_type-complextypevisio-xml.md) <br/> ||
    
 ### Attributes
 

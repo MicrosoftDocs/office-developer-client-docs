@@ -20,7 +20,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Presents a dialog box that enables the user to select multiple forms, and returns an array of form information objects that describe those forms.
   

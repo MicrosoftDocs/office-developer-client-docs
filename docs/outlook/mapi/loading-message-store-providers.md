@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 When a client application opens a message store, MAPI loads the message store provider's DLL into memory. After MAPI loads the DLL, a very specific sequence of method calls occurs between the message store provider and MAPI. This method call sequence enables MAPI to get top-level [IMSProvider : IUnknown](imsprovideriunknown.md), [IMSLogon : IUnknown](imslogoniunknown.md), and [IMsgStore : IMAPIProp](imsgstoreimapiprop.md) interfaces, and allows the message store provider to get a MAPI support object. After the call sequence, the message store provider should be ready to accept logons from clients. 
   

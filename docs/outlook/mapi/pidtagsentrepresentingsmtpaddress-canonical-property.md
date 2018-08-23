@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Contains the Simple Mail Transport Protocol (SMTP) email address for the messaging user who is represented by the sender.
   

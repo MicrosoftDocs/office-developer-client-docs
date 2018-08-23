@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Determines whether a personal folders file (PST) store provider is configured as a Microsoft SharePoint 2010 PST.
   

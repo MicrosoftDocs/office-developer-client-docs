@@ -19,7 +19,7 @@ The Project Server databases are combined into a single database; you can access
 For diagrams and more information about major changes in Project Server 2013, see [Project Server 2013 architecture](project-server-2013-architecture.md).
   
 > [!NOTE]
-> Project Server 2013 is built on the SharePoint Server 2013 platform, and Project 2013 includes much of the same infrastructure as the other Office 2013 applications. For documentation of the model for SharePoint Add-ins, SharePoint-based workflows, Web Parts, development with other SharePoint features, and documentation of Office Add-ins, see [Office and SharePoint Add-ins](http://msdn.microsoft.com/library/fp161507%28office.15%29.aspx) and [SharePoint 2013 development overview](http://msdn.microsoft.com/library/jj164084%28office.15%29.aspx). 
+> Project Server 2013 is built on the SharePoint Server 2013 platform, and Project 2013 includes much of the same infrastructure as the other Office 2013 applications. For documentation of the model for SharePoint Add-ins, SharePoint-based workflows, Web Parts, development with other SharePoint features, and documentation of Office Add-ins, see [SharePoint Add-ins](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/sharepoint-add-ins), [Office Add-ins](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins), and [SharePoint 2013 development overview](http://msdn.microsoft.com/library/jj164084%28office.15%29.aspx). 
   
 ## Major new features in Project 2013
 <a name="pj15_WhatsNew_MajorNewFeatures"> </a>
@@ -73,7 +73,7 @@ In Office Developer Tools for Visual Studio 2012, the AppManifext.xml file has a
 > [!NOTE]
 > Project Server 2013 and Project Online do not use the app-only authentication model in SharePoint 2013 (see [Add-in authorization policy types in SharePoint 2013](http://msdn.microsoft.com/library/124879c7-a746-4c10-96a7-da76ad5327f0%28Office.15%29.aspx)). 
   
-For information about developing, distributing, hosting, and managing add-ins, see [SharePoint Add-ins](http://msdn.microsoft.com/library/cd1eda9e-8e54-4223-93a9-a6ea0d18df70%28Office.15%29.aspx) and [Office Add-ins](http://msdn.microsoft.com/library/1e123201-6e70-45c1-a48c-d5b955896ddb%28Office.15%29.aspx), and related topics in the SharePoint Server 2013 and Office 2013 developer documentation. For information about permission request scope for other SharePoint add-ins, see [Add-in permissions in SharePoint 2013](http://msdn.microsoft.com/library/5f7a8440-3c09-4cf8-83ec-c236bfa2d6c4%28Office.15%29.aspx).
+For information about developing, distributing, hosting, and managing add-ins, see [SharePoint Add-ins](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/sharepoint-add-ins) and [Office Add-ins](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins), and related topics in the SharePoint Server 2013 and Office 2013 developer documentation. For information about permission request scope for other SharePoint Add-ins, see [Add-in permissions in SharePoint 2013](http://msdn.microsoft.com/library/5f7a8440-3c09-4cf8-83ec-c236bfa2d6c4%28Office.15%29.aspx).
   
 ### Integrating with SharePoint Server
 <a name="pj15_WhatsNew_IntegrationWSS"> </a>
@@ -157,7 +157,7 @@ The four databases in Project Server 2010 are combined into a single Project dat
   
 Project Server 2013 introduces an OData service for online and on-premises access. The online reporting tables and views are exposed only by the OData interface; for on-premises use, you can use the OData interface or directly access the reporting tables and views in the ProjectService database in the SharePoint farm. Project Online does not support a multitenant database. That is, multiple instances of Project Web App each have their own Project database. The OData service internally runs SQL queries on the reporting tables and views, and delivers an XML or JSON payload. For an introduction to the OData service for reporting in Project Server 2013, and for the **ProjectData** schema reference, see [ProjectData - Project OData service reference](https://msdn.microsoft.com/en-us/library/office/jj163015.aspx).
   
-For general information about OData queries, see [OData: URI conventions](http://www.odata.org/developers/protocols/uri-conventions#FilterSystemQueryOption). For example, you can see all of the projects in an on-premises instance of Project Web App where the project name starts with "Test" by using the following query in a browser. Right-click in the browser page, and then click **View source**.
+For general information about OData queries, see [OData: URI conventions](https://www.odata.org/documentation/). For example, you can see all of the projects in an on-premises instance of Project Web App where the project name starts with "Test" by using the following query in a browser. Right-click in the browser page, and then click **View source**.
   
 ```html
 http://ServerName /ProjectServerName /_api/ProjectData/Projects?$filter=startswith(ProjectName, 'Test') eq true
@@ -234,7 +234,7 @@ If your solutions use deprecated features, they should be tested thoroughly befo
   
 - **Extensions** [PSI extension scenarios](https://msdn.microsoft.com/library/office/ff843378%28v=office.14%29.aspx) are deprecated, and will not be supported in future releases. These on-premises Project Server 2013 scenarios enabled integration by using custom Windows Communication Foundation (WCF) services. 
   
-- **Project PSI** The [Project class](https://msdn.microsoft.com/library/office/websvcproject.project_di_pj14mref.aspx%28Office.15%29.aspx) of the PSI is deprecated. For all new development, use the [Project CSOM](https://msdn.microsoft.com/library/office/microsoft.projectserver.client_di_pj14mref.aspx%28Office.15%29.aspx). Project Server 2013 apps that use the Project PSI will continue to work, but Project Online apps will need to replace any Project-class PSI methods with their equivalent CSOM methods.
+- **Project PSI** The [Project class](https://docs.microsoft.com/en-us/office/client-developer/project/project-psi-reference-overview) of the PSI is deprecated. For all new development, use the [Project CSOM](client-side-object-model-csom-for-project-2013.md). Project Server 2013 apps that use the Project PSI will continue to work, but Project Online apps will need to replace any Project-class PSI methods with their equivalent CSOM methods.
   
 - **Resource Plan PSI** The [Resource Plan PSI](https://msdn.microsoft.com/library/office/websvcresourceplan_di_pj14mref.aspx) is deprecated. It will continue to be supported for Project 2013 development, but will not be supported in future releases. 
   
@@ -267,7 +267,7 @@ If your solutions use deprecated features, they should be tested thoroughly befo
 ## Comparing Project Server on-premises with Project Online
 <a name="pj15_WhatsNew_Comparing"> </a>
 
-To help you decide whether to use Project Server on-premises or Project Online, and what kinds of extensions you can develop in either case, Table 2 compares the extensible features of an on-premises installation of Project Server 2013 with Project Online. Table 2 does not include differences in deployment, administration, or usage. For more information about Project Online and Project Server 2013, see [Project 2013 for developers](http://msdn.microsoft.com/en-US/office/fp161502) and [Project Online](http://www.microsoft.com/project/).
+To help you decide whether to use Project Server on-premises or Project Online, and what kinds of extensions you can develop in either case, Table 2 compares the extensible features of an on-premises installation of Project Server 2013 with Project Online. Table 2 does not include differences in deployment, administration, or usage. For more information about Project Online and Project Server 2013, see [Project 2013 for developers](http://msdn.microsoft.com/en-US/office/fp161502) and [Project Online](https://developer.microsoft.com/en-us/project).
   
 **Table 2. Extensibility of Project Server on-premises and Project Online**
 
@@ -304,6 +304,6 @@ For more information about developing apps, and using the programmability featur
 - [Office for developers](http://msdn.microsoft.com/en-US/office)   
 - [Handling events in apps for SharePoint](http://msdn.microsoft.com/en-us/library/jj220048%28office.15%29.aspx)   
 - [Office Store](http://office.microsoft.com/en-us/store/)   
-- [Project Online](http://www.microsoft.com/project/)
+- [Project Online](https://developer.microsoft.com/en-us/project)
     
 

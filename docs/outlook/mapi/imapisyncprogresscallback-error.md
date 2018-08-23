@@ -20,7 +20,7 @@ description: "Last modified: July 23, 2011"
 
   
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Provides details that are displayed in the Send/Receive dialog. If errors are encountered during synchronization, the store provider calls this function.
   

@@ -16,7 +16,7 @@ description: "Last modified: July 23, 2011"
 
 # IXPLogon::TransportNotify
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Signals the occurrence of an event about which the transport provider requested notification.
   

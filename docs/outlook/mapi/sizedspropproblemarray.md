@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
 # SizedSPropProblemArray
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Creates a named [SPropProblemArray](spropproblemarray.md) structure that contains a specified number of [SPropProblem](spropproblem.md) structures. 
   

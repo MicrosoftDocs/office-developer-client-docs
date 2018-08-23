@@ -12,7 +12,7 @@ description: "Last modified: March 09, 2015"
 
 # MAPI constants
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 This topic contains constant definitions, MAPI interface declarations, and class and interface identifiers used by the MAPI APIs.
   

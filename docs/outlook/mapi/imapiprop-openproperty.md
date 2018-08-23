@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
 
 # IMAPIProp::OpenProperty
 
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Returns a pointer to an interface that can be used to access a property.
   

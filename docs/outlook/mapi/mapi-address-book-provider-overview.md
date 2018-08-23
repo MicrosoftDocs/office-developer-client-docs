@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # MAPI address book provider overview
   
-**Applies to**: Outlook 
+**Applies to**: Outlook 2013 | Outlook 2016 
   
 Address book providers handle access to directory information. Directory information consists of data for two types of message recipients: individual messaging users and groups of messaging users who are commonly addressed together in distribution lists. Depending on the type of recipient and the address book provider, there is a wide range of information that can be made available. For example, all address book providers store a recipient's name, address, and address type.
   
