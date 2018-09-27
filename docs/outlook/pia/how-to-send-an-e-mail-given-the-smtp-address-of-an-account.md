@@ -133,7 +133,7 @@ namespace OutlookAddIn1
 
 ## See also
 
-#### Other resources
+
 
 [Mail](mail.md)
 

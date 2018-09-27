@@ -68,7 +68,7 @@ private void SetRecipientTypeForMail()
 
 ## See also
 
-#### Other resources
+
 
 [Mail](mail.md)
 

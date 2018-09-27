@@ -131,7 +131,7 @@ private void RemoveAttachmentsAndSaveToDisk(string path,
 
 ## See also
 
-#### Other resources
+
 
 [Attachments](attachments.md)
 

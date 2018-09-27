@@ -61,7 +61,7 @@ private void ReminderExample()
 
 ## See also
 
-#### Other resources
+
 
 [Appointments](appointments.md)
 

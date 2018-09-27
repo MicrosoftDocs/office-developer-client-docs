@@ -161,7 +161,7 @@ private void SearchRecurringAppointments()
 
 ## See also
 
-#### Other resources
+
 
 [Search and Filter](search-and-filter.md)
 

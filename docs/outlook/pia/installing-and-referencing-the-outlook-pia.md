@@ -22,7 +22,7 @@ After installation, if you are using Visual Studio to create the managed project
 
 ## See also
 
-#### Other resources
+
 
 [How to: Install Office Primary Interop Assemblies](https://msdn.microsoft.com/en-us/library/kh3965hw\(v=office.15\))
 

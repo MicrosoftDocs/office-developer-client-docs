@@ -87,7 +87,7 @@ private void SetRecipientTypeForAppt()
 
 ## See also
 
-#### Other resources
+
 
 [Meeting Requests](meeting-requests.md)
 

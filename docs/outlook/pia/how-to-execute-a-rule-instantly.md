@@ -111,7 +111,7 @@ private void ExecuteManagerRule()
 
 ## See also
 
-#### Other resources
+
 
 [Rules](rules.md)
 

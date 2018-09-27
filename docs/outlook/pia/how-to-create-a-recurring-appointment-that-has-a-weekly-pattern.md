@@ -111,7 +111,7 @@ private void RecurringAppointmentEveryMondayWednesdayFriday()
 
 ## See also
 
-#### Other resources
+
 
 [Appointments](appointments.md)
 

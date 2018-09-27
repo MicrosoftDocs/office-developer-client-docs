@@ -36,7 +36,7 @@
            href: shared/troubleshooting-office-files-and-custom-solutions-with-the-telemetry-log.md
          - name: Compatibility issues in Office
            href: shared/compatibility-issues-in-office.md
-       - name: Office VBA Object library reference
+       - name: Office VBA object library reference
          href: https://docs.microsoft.com/office/vba/Library-Reference/Concepts/office-vba-object-library-reference
        - name: Office VBA language reference
          href: https://docs.microsoft.com/office/vba/api/overview/language-reference
@@ -275,7 +275,7 @@
                 href: access/stopmacro-macro-action-access-custom-web-app.md
               - name: CancelRecordChange
                 href: access/cancelrecordchange-macro-action-access-custom-web-app.md
-              - name: DeleteRecord Data
+              - name: DeleteRecord data
                 href: access/deleterecord-data-macro-action-access-custom-web-app.md
               - name: RaiseError
                 href: access/raiseerror-macro-action-access-custom-web-app.md
@@ -362,7 +362,7 @@
               href: excel/programming-with-the-c-api-in-excel.md
             - name: What's New in the C API for Excel
               href: excel/what-s-new-in-the-c-api-for-excel.md
-            - name: Known Issues
+            - name: Known issues
               href: excel/known-issues-in-excel-xll-development.md
           - name: Developing Excel XLLs
             href: excel/developing-excel-xlls.md
@@ -376,7 +376,7 @@
                 href: excel/excel-worksheet-and-expression-evaluation.md
               - name: Worksheet References
                 href: excel/worksheet-references.md
-              - name: Data Types Used by Excel
+              - name: Data types Used by Excel
                 href: excel/data-types-used-by-excel.md
               - name: Excel Recalculation
                 href: excel/excel-recalculation.md
@@ -387,17 +387,17 @@
                 href: excel/developing-dlls.md
               - name: Access DLLs in Excel
                 href: excel/how-to-access-dlls-in-excel.md
-              - name: Calling User-Defined Functions from DLLs
+              - name: Calling user-Defined Functions from DLLs
                 href: excel/calling-user-defined-functions-from-dlls.md
             - name: Accessing XLL Code in Excel
               href: excel/accessing-xll-code-in-excel.md
-            - name: Call XLL Functions from the Function Wizard or Replace Dialog Boxes
+            - name: Call XLL Functions from the Function Wizard or Replace dialog boxes
               href: excel/how-to-call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes.md
             - name: Calling into Excel from the DLL or XLL
               href: excel/calling-into-excel-from-the-dll-or-xll.md
             - name: Creating XLLs
               href: excel/creating-xlls.md
-            - name: Handling Events
+            - name: Handling events
               href: excel/handling-events.md
             - name: Evaluating Names and Other Worksheet Formula Expressions
               href: excel/evaluating-names-and-other-worksheet-formula-expressions.md
@@ -410,13 +410,13 @@
                 href: excel/multithreading-and-memory-contention-in-excel.md
               - name: Multithreaded Recalculation in Excel
                 href: excel/multithreaded-recalculation-in-excel.md
-            - name: Asynchronous User-Defined Functions
+            - name: Asynchronous user-Defined Functions
               href: excel/asynchronous-user-defined-functions.md
             - name: Cluster Safe Functions
               href: excel/cluster-safe-functions.md
-            - name: Permitting User Breaks in Lengthy Operations
+            - name: Permitting user Breaks in Lengthy Operations
               href: excel/permitting-user-breaks-in-lengthy-operations.md
-            - name: Displaying Dialog Boxes from Within a DLL or XLL
+            - name: Displaying dialog boxes from Within a DLL or XLL
               href: excel/displaying-dialog-boxes-from-within-a-dll-or-xll.md
             - name: Access Excel Instance and Main Window Handles
               href: excel/how-to-access-excel-instance-and-main-window-handles.md
@@ -427,7 +427,7 @@
           - name: API Function Reference
             href: excel/excel-xll-sdk-api-function-reference.md
             items:
-            - name: Add-in Manager and XLL Interface Functions
+            - name: Add-in manager and XLL Interface Functions
               href: excel/add-in-manager-and-xll-interface-functions.md
               items:
               - name: xlAddInManagerInfo/xlAddInManagerInfo12
@@ -474,7 +474,7 @@
                 href: excel/xlfunregister-form-2.md
               - name: xlfSetName
                 href: excel/xlfsetname.md
-            - name: C API Functions That Can Be Called Only from a DLL or XLL
+            - name: C API Functions that Can Be Called Only from a DLL or XLL
               href: excel/c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md
               items:
               - name: xlAbort
@@ -618,9 +618,9 @@
                       href: infopath/form-templates/understanding-infopath-object-models-and-development-environment.md
                     - name: Develop with Visual Studio
                       href: infopath/form-templates/how-to-develop-with-visual-studio.md
-                    - name: Install Local .NET Framework Help for Visual Studio Tools for Applications
+                    - name: Install Local .NET Framework Help for Visual Studio Tools for applications
                       href: infopath/form-templates/how-to-install-net-framework-help-for-visual-studio-tools-for-applications.md
-                    - name: Add an Event Handler
+                    - name: Add an event Handler
                       href: infopath/form-templates/how-to-add-an-event-handler.md
                     - name: Preview and Debug InfoPath Form Templates with Code
                       href: infopath/form-templates/how-to-preview-and-debug-infopath-form-templates-with-code.md
@@ -638,7 +638,7 @@
                       href: infopath/form-templates/how-do-iin-infopath-form-templates-with-code.md
                     - name: Work with the XPathNavigator and XPathNodeIterator Classes
                       href: infopath/form-templates/how-to-work-with-the-xpathnavigator-and-xpathnodeiterator-classes.md
-                    - name: Use SharePoint Object Model Members
+                    - name: Use SharePoint Object Model members
                       href: infopath/form-templates/how-to-use-sharepoint-object-model-members.md
                     - name: Publishing Forms with Code
                       href: infopath/form-templates/publishing-forms-with-code.md
@@ -649,15 +649,15 @@
                   - name: Understanding the InfoPath Object Model and Common Developer Tasks
                     href: infopath/form-templates/understanding-the-infopath-object-model-and-common-developer-tasks.md
                     items:
-                    - name: Access Application Data
+                    - name: Access application Data
                       href: infopath/form-templates/how-to-access-application-data.md
-                    - name: Respond to Form Events
+                    - name: Respond to Form events
                       href: infopath/form-templates/how-to-respond-to-form-events.md
                     - name: Access Form Data
                       href: infopath/form-templates/how-to-access-form-data.md
                     - name: Access External Data Sources
                       href: infopath/form-templates/how-to-access-external-data-sources.md
-                    - name: Write Conditional Logic That Determines the Run-time Environment
+                    - name: Write Conditional Logic that Determines the Run-time Environment
                       href: infopath/form-templates/how-to-write-conditional-logic-that-determines-the-run-time-environment.md
                     - name: Work with Form Windows
                       href: infopath/form-templates/how-to-work-with-form-windows.md
@@ -676,15 +676,15 @@
                   - name: Security in InfoPath Form Templates with Code
                     href: infopath/form-templates/security-in-infopath-form-templates-with-code.md
                     items:
-                    - name: About the Security Model for Form Templates with Code
+                    - name: About the security Model for Form Templates with Code
                       href: infopath/form-templates/about-the-security-model-for-form-templates-with-code.md
-                    - name: Additional InfoPath Form Security Concepts
+                    - name: Additional InfoPath Form security Concepts
                       href: infopath/form-templates/additional-infopath-form-security-concepts.md
                     - name: Security Guidelines for Developing InfoPath Forms
                       href: infopath/form-templates/security-guidelines-for-developing-infopath-forms.md
-                    - name: Configure Security Settings for Form Templates with Code
+                    - name: Configure security Settings for Form Templates with Code
                       href: infopath/form-templates/how-to-configure-security-settings-for-form-templates-with-code.md
-                    - name: Security Levels, E-Mail Deployment, and Remote Form Templates
+                    - name: Security Levels, email Deployment, and Remote Form Templates
                       href: infopath/form-templates/security-levels-email-deployment-and-remote-form-templates.md
                     - name: Understanding Fully Trusted Forms
                       href: infopath/form-templates/understanding-fully-trusted-forms.md
@@ -695,7 +695,7 @@
                   - name: Working with SharePoint and InfoPath Forms Services
                     href: infopath/form-templates/working-with-sharepoint-and-infopath-forms-services.md
                     items:
-                    - name: Creating InfoPath Form Templates That Work With InfoPath Forms Services
+                    - name: Creating InfoPath Form Templates that Work With InfoPath Forms Services
                       href: infopath/form-templates/creating-infopath-form-templates-that-work-with-infopath-forms-services.md
                     - name: SharePoint Workflow Support in InfoPath Forms
                       href: infopath/form-templates/sharepoint-workflow-support-in-infopath-forms.md
@@ -710,9 +710,9 @@
                       href: infopath/form-templates/guidelines-for-improving-the-performance-of-infopath-forms.md
                     - name: Working with XML Schemas in InfoPath
                       href: infopath/form-templates/working-with-xml-schemas-in-infopath.md
-                    - name: Using Custom XSLT in InfoPath Form Templates
+                    - name: Using custom XSLT in InfoPath Form Templates
                       href: infopath/form-templates/using-custom-xslt-in-infopath-form-templates.md
-                    - name: Hosting InfoPath as an XML Editor in Another Application
+                    - name: Hosting InfoPath as an XML Editor in Another application
                       href: infopath/form-templates/hosting-infopath-as-an-xml-editor-in-another-application.md
                     - name: Rich Text and Web Services
                       href: infopath/form-templates/rich-text-and-web-services.md
@@ -722,66 +722,66 @@
                       href: infopath/form-templates/integrate-an-infopath-form-with-a-microsoft-access-database.md
                     - name: Create an ActiveX Control that can Bind to InfoPath Form Data
                       href: infopath/form-templates/create-an-activex-control-that-can-bind-to-infopath-form-data.md
-                    - name: Enable Custom Merging of InfoPath Forms
+                    - name: Enable custom Merging of InfoPath Forms
                       href: infopath/form-templates/enable-custom-merging-of-infopath-forms.md
-                - name: Developing Form Templates Using the InfoPath 2003 Object Model
+                - name: Developing Form Templates using the InfoPath 2003 Object Model
                   href: infopath/form-templates/developing-form-templates-using-the-infopath-2003-object-model.md
                   items:
-                  - name: Getting Started Developing Form Templates Using the InfoPath 2003 Object Model
+                  - name: Getting Started Developing Form Templates using the InfoPath 2003 Object Model
                     href: infopath/form-templates/get-started-developing-form-templates-using-infopath-object-model.md
                     items:
-                    - name: Create a Form Template Using the InfoPath 2003 Object Model
+                    - name: Create a Form Template using the InfoPath 2003 Object Model
                       href: infopath/form-templates/how-to-create-a-form-template-using-the-infopath-2003-object-model.md
-                    - name: Walkthrough':' Creating and Debugging a Basic Form Template Using the InfoPath 2003 Object Model
+                    - name: Walkthrough':' Creating and Debugging a Basic Form Template using the InfoPath 2003 Object Model
                       href: infopath/form-templates/walkthrough-create-and-debug-basic-form-template-using-infopath-object-model.md
-                    - name: Common Tasks for Developing Form Templates Using the InfoPath 2003 Object Model
+                    - name: Common Tasks for Developing Form Templates using the InfoPath 2003 Object Model
                       href: infopath/form-templates/common-tasks-for-developing-form-templates-using-infopath-object-model.md
-                    - name: Use Microsoft.Office.Interop.InfoPath.SemiTrust Members That Are Not Compatible with InfoPath 2003
+                    - name: Use Microsoft.Office.Interop.InfoPath.SemiTrust members that Are Not Compatible with InfoPath 2003
                       href: infopath/form-templates/how-to-use-microsoft-office-interop-infopath-semitrust-members.md
-                  - name: Creating Form Templates Using the InfoPath 2003 Object Model
+                  - name: Creating Form Templates using the InfoPath 2003 Object Model
                     href: infopath/form-templates/creating-form-templates-using-the-infopath-2003-object-model.md
                     items:
-                    - name: Initialization and Clean-up Code Using InfoPath 2003 Object Model
+                    - name: Initialization and Clean-up Code using InfoPath 2003 Object Model
                       href: infopath/form-templates/initialization-and-clean-up-code-using-infopath-2003-object-model.md
-                    - name: Debug InfoPath Projects Using the InfoPath 2003 Object Model
+                    - name: Debug InfoPath Projects using the InfoPath 2003 Object Model
                       href: infopath/form-templates/how-to-debug-infopath-projects-using-the-infopath-2003-object-model.md
-                    - name: Add an Event Handler Using the InfoPath 2003 Object Model
+                    - name: Add an event Handler using the InfoPath 2003 Object Model
                       href: infopath/form-templates/how-to-add-an-event-handler-using-the-infopath-2003-object-model.md
-                    - name: Threading Support in InfoPath Projects Using the InfoPath 2003 Object Model
+                    - name: Threading Support in InfoPath Projects using the InfoPath 2003 Object Model
                       href: infopath/form-templates/threading-support-in-infopath-projects-using-the-infopath-2003-object-model.md
-                    - name: Working with MSXML and System.Xml Using the InfoPath 2003 Object Model
+                    - name: Working with MSXML and System.Xml using the InfoPath 2003 Object Model
                       href: infopath/form-templates/working-with-msxml-and-system-xml-using-the-infopath-2003-object-model.md
                   - name: Understanding the InfoPath 2003 Object Model
                     href: infopath/form-templates/understanding-the-infopath-2003-object-model.md
                     items:
                     - name: InfoPath 2003 Compatible Object Models
                       href: infopath/form-templates/infopath-2003-compatible-object-models.md
-                    - name: Access Application Data Using the InfoPath 2003 Object Model
+                    - name: Access application Data using the InfoPath 2003 Object Model
                       href: infopath/form-templates/how-to-access-application-data-using-the-infopath-2003-object-model.md
-                    - name: Access External Data Sources Using the InfoPath 2003 Object Model
+                    - name: Access External Data Sources using the InfoPath 2003 Object Model
                       href: infopath/form-templates/how-to-access-external-data-sources-using-the-infopath-2003-object-model.md
-                    - name: Access Form Data Using the InfoPath 2003 Object Model
+                    - name: Access Form Data using the InfoPath 2003 Object Model
                       href: infopath/form-templates/how-to-access-form-data-using-the-infopath-2003-object-model.md
-                    - name: Display Alerts and Dialog Boxes Using the InfoPath 2003 Object Model
+                    - name: Display Alerts and dialog boxes using the InfoPath 2003 Object Model
                       href: infopath/form-templates/how-to-display-alerts-and-dialog-boxes-using-the-infopath-2003-object-model.md
-                    - name: Handle Errors Using the InfoPath 2003 Object Model
+                    - name: Handle Errors using the InfoPath 2003 Object Model
                       href: infopath/form-templates/how-to-handle-errors-using-the-infopath-2003-object-model.md
-                    - name: Respond to Form Events Using the InfoPath 2003 Object Model
+                    - name: Respond to Form events using the InfoPath 2003 Object Model
                       href: infopath/form-templates/how-to-respond-to-form-events-using-the-infopath-2003-object-model.md
-                    - name: Work with Form Windows Using the InfoPath 2003 Object Model
+                    - name: Work with Form Windows using the InfoPath 2003 Object Model
                       href: infopath/form-templates/how-to-work-with-form-windows-using-the-infopath-2003-object-model.md
-                    - name: Work with Views Using the InfoPath 2003 Object Model
+                    - name: Work with Views using the InfoPath 2003 Object Model
                       href: infopath/form-templates/how-to-work-with-views-using-the-infopath-2003-object-model.md
-                    - name: Work with Digital Signatures Using the InfoPath 2003 Object Model
+                    - name: Work with Digital Signatures using the InfoPath 2003 Object Model
                       href: infopath/form-templates/how-to-work-with-digital-signatures-using-the-infopath-2003-object-model.md
-                    - name: Work with Offline Solutions Using the InfoPath 2003 Object Model
+                    - name: Work with Offline Solutions using the InfoPath 2003 Object Model
                       href: infopath/form-templates/how-to-work-with-offline-solutions-using-the-infopath-2003-object-model.md
-                  - name: Troubleshooting Form Templates That Use the InfoPath 2003 Object Model
+                  - name: Troubleshooting Form Templates that Use the InfoPath 2003 Object Model
                     href: infopath/form-templates/troubleshoot-form-templates-that-use-infopath-object-model.md
                     items:
-                    - name: Troubleshooting Form Templates That Use the InfoPath 2003 Object Model at Run Time
+                    - name: Troubleshooting Form Templates that Use the InfoPath 2003 Object Model at Run Time
                       href: infopath/form-templates/troubleshoot-form-templates-that-use-infopath-object-model-at-runtime.md
-                    - name: Troubleshooting Form Templates That Use the InfoPath 2003 Object Model At Design Time
+                    - name: Troubleshooting Form Templates that Use the InfoPath 2003 Object Model At Design Time
                       href: infopath/form-templates/troubleshoot-form-templates-that-use-infopath-object-model-at-design-time.md
                 - name: Class library reference for InfoPath form templates
                   href: https://msdn.microsoft.com/en-us/library/office/ee526341.aspx
@@ -791,9 +791,9 @@
                 - name: Creating InfoPath Projects in Visual Studio
                   href: infopath/external-automation/creating-infopath-projects-in-visual-studio.md
                   items:
-                  - name: Create a COM Add-in to Add Custom Features to InfoPath
+                  - name: Create a COM add-in to add custom Features to InfoPath
                     href: infopath/external-automation/how-to-create-a-com-add-in-to-add-custom-features-to-infopath.md
-                - name: Automating InfoPath from Other Applications
+                - name: Automating InfoPath from Other applications
                   href: infopath/external-automation/automating-infopath-from-other-applications.md
                   items:
                   - name: About the Microsoft Office InfoPath Primary Interop Assembly
@@ -802,7 +802,7 @@
                     href: infopath/external-automation/about-the-infopath-xml-interop-assembly.md
                   - name: External Automation Scenarios and Examples
                     href: infopath/external-automation/external-automation-scenarios-and-examples.md
-                  - name: Automating InfoPath from an External Application
+                  - name: Automating InfoPath from an External application
                     href: infopath/external-automation/automating-infopath-from-an-external-application.md
                 - name: Class library reference for InfoPath external automation
                   href: https://msdn.microsoft.com/en-us/library/office/ff663147.aspx          
@@ -828,9 +828,333 @@
           - name: Selecting an API or technology for developing solutions for Outlook
             href: outlook/selecting-an-api-or-technology-for-developing-solutions-for-outlook.md
           - name: Outlook VBA reference
-            href: https://docs.microsoft.com/en-us/office/vba/api/overview/outlook
+            href: https://docs.microsoft.com/office/vba/api/overview/outlook
           - name: Outlook Primary Interop Assembly reference
-            href: https://msdn.microsoft.com/EN-US/library/office/bb652780.aspx
+            href: welcome-to-the-outlook-primary-interop-assembly-reference.md
+            items:
+            - name: What's new in the Outlook PIA reference
+              href: what-s-new-in-the-outlook-pia-reference.md
+            - name: Setting up to use the Outlook PIA
+              href: setting-up-to-use-the-outlook-pia.md
+              items:
+              - name: Introduction to interoperability between COM and .NET
+                href: introduction-to-interoperability-between-com-and-net.md
+              - name: Why use the Outlook PIA
+                href: why-use-the-outlook-pia.md
+              - name: Installing and referencing the Outlook PIA
+                href: installing-and-referencing-the-outlook-pia.md
+            - name: Architecture of the Outlook PIA
+              href: architecture-of-the-outlook-pia.md
+              items:
+              - name: Relating the Outlook PIA with the object model
+                href: relating-the-outlook-pia-with-the-object-model.md
+              - name: Objects in the Outlook PIA
+                href: objects-in-the-outlook-pia.md
+              - name: Methods and properties in the Outlook PIA
+                href: methods-and-properties-in-the-outlook-pia.md
+              - name: Events in the Outlook PIA
+                href: events-in-the-outlook-pia.md
+            - name: Developing managed Outlook add-ins using the Outlook PIA
+              href: developing-managed-outlook-add-ins-using-the-outlook-pia.md
+              items:
+              - name: Connecting to custom event handlers
+                href: connecting-to-custom-event-handlers.md
+              - name: Best practices in developing managed Outlook add-ins
+                href: best-practices-in-developing-managed-outlook-add-ins.md
+                items:
+                - name: Systematically releasing objects
+                  href: systematically-releasing-objects.md
+                - name: Using a separate application domain to avoid crashing
+                  href: using-a-separate-application-domain-to-avoid-crashing.md
+                - name: Using a trusted application object provided by Office Developer Tools for Visual Studio
+                  href: using-a-trusted-application-object-provided-by-office-developer-tools-for-visual-studio.md
+                - name: Scoping variables appropriately in event handlers
+                  href: scoping-variables-appropriately-in-event-handlers.md
+                - name: Avoiding unsupported technologies in managed Outlook add-ins
+                  href: avoiding-unsupported-technologies-in-managed-outlook-add-ins.md
+                - name: Using late binding if depending on multiple versions of Outlook
+                  href: using-late-binding-if-depending-on-multiple-versions-of-outlook.md
+            - name: How do I...
+              href: how-do-i-outlook-2013-pia-reference.md
+              items:
+              - name: Accounts
+                href: accounts.md
+                items:
+                - name: Get account information
+                  href: how-to-get-account-information.md
+                - name: Create a sendable item for a specific account based on the current folder
+                  href: how-to-create-a-sendable-item-for-a-specific-account-based-on-the-current-folder.md
+                - name: Get the account for a folder
+                  href: how-to-get-the-account-for-a-folder.md
+                - name: Get information about multiple accounts
+                  href: how-to-get-information-about-multiple-accounts.md
+                - name: Send a mail item by using a Hotmail account
+                  href: how-to-send-a-mail-item-by-using-a-hotmail-account.md
+              - name: Address book
+                href: address-book.md
+                items:
+                - name: Display in the Select Names dialog box the address book corresponding to a Contacts folder
+                  href: how-to-display-in-the-select-names-dialog-box-the-address-book-corresponding-to-a-contacts-folder.md
+                - name: Get the Global address List or a set of address lists for a store
+                  href: how-to-get-the-global-address-list-or-a-set-of-address-lists-for-a-store.md
+                - name: Enumerate the entries in the Global address List
+                  href: how-to-enumerate-the-entries-in-the-global-address-list.md
+                - name: Display the address lists for a profile
+                  href: how-to-display-the-address-lists-for-a-profile.md
+              - name: Add-in administration
+                href: add-in-administration.md
+                items:
+                - name: Determine whether Outlook is a click-to-run application on a computer
+                  href: how-to-determine-whether-outlook-is-a-click-to-run-application-on-a-computer.md
+              - name: Appointments
+                href: appointments.md
+                items:
+                - name: Create an appointment that is an all-day event
+                  href: how-to-create-an-appointment-that-is-an-all-day-event.md
+                - name: Create an appointment that starts in the Pacific Time Zone and ends in the Eastern Time Zone
+                  href: how-to-create-an-appointment-that-starts-in-the-pacific-time-zone-and-ends-in-the-eastern-time-zone.md
+                - name: Specify different recipient types for an appointment item
+                  href: how-to-specify-different-recipient-types-for-an-appointment-item.md
+                - name: Create a recurring appointment by using the default recurrence pattern
+                  href: how-to-create-a-recurring-appointment-by-using-the-default-recurrence-pattern.md
+                - name: Create a recurring appointment that has a weekly pattern
+                  href: how-to-create-a-recurring-appointment-that-has-a-weekly-pattern.md
+                - name: Create an annual recurring appointment that uses a yearNth pattern
+                  href: how-to-create-an-annual-recurring-appointment-that-uses-a-yearnth-pattern.md
+                - name: Find a specific appointment in a recurring appointment series
+                  href: how-to-find-a-specific-appointment-in-a-recurring-appointment-series.md
+                - name: Create an exception appointment in a recurring appointment series
+                  href: how-to-create-an-exception-appointment-in-a-recurring-appointment-series.md
+                - name: Create a reminder for an appointment item
+                  href: how-to-create-a-reminder-for-an-appointment-item.md
+                - name: Import appointment XML data into Outlook appointment objects
+                  href: how-to-import-appointment-xml-data-into-outlook-appointment-objects.md
+              - name: Attachments
+                href: attachments.md
+                items:
+                - name: Programmatically remove security level 2 attachments from messages and save them to disk
+                  href: how-to-programmatically-remove-security-level-2-attachments-from-messages-and-save-them-to-disk.md
+              - name: Calendar
+                href: calendar.md
+                items:
+                - name: Share Free/Busy schedule within a specified period in a calendar
+                  href: how-to-share-free-busy-schedule-within-a-specified-period-in-a-calendar.md
+                - name: Share calendar information through email
+                  href: how-to-share-calendar-information-through-e-mail.md
+                - name: Display a shared calendar of a recipient
+                  href: how-to-display-a-shared-calendar-of-a-recipient.md
+                - name: Save a calendar to disk
+                  href: how-to-save-a-calendar-to-disk.md
+                - name: Open and display the contents of an iCalendar file
+                  href: how-to-open-and-display-the-contents-of-an-icalendar-file.md
+              - name: Color categories
+                href: color-categories.md
+                items:
+                - name: Enumerate and add categories
+                  href: how-to-enumerate-and-add-categories.md
+                - name: Assign categories to an item
+                  href: how-to-assign-categories-to-an-item.md
+              - name: Contacts
+                href: contacts.md
+                items:
+                - name: Create a Contact item
+                  href: how-to-create-a-contact-item.md
+                - name: Create a custom Contact item
+                  href: how-to-create-a-custom-contact-item.md
+                - name: Create a Contact item from a vCard file and save the item in a folder
+                  href: how-to-create-a-contact-item-from-a-vcard-file-and-save-the-item-in-a-folder.md
+              - name: Conversations
+                href: conversations.md
+                items:
+                - name: Get and display items in a conversation
+                  href: how-to-get-and-display-items-in-a-conversation.md
+                - name: Get and enumerate selected conversations
+                  href: how-to-get-and-enumerate-selected-conversations.md
+              - name: Electronic business cards
+                href: electronic-business-cards.md
+                items:
+                - name: Modify the layout of an electronic business card
+                  href: how-to-modify-the-layout-of-an-electronic-business-card.md
+                - name: Send a mail item with an electronic business card
+                  href: how-to-send-a-mail-item-with-an-electronic-business-card.md
+              - name: Exchange users
+                href: exchange-users.md
+                items:
+                - name: Get information about the current user
+                  href: how-to-get-information-about-the-current-user.md
+                - name: Get information about all distribution lists of which the current user is a member
+                  href: how-to-get-information-about-all-distribution-lists-of-which-the-current-user-is-a-member.md
+                - name: Create a distribution list
+                  href: how-to-create-a-distribution-list.md
+                - name: Get members of an Exchange distribution list
+                  href: how-to-get-members-of-an-exchange-distribution-list.md
+                - name: Get information about the current user's manager
+                  href: how-to-get-information-about-the-current-user-s-manager.md
+                - name: Get availability information for an Exchange user's manager
+                  href: how-to-get-availability-information-for-an-exchange-user-s-manager.md
+                - name: Check a manager's response to a meeting request
+                  href: how-to-check-a-manager-s-response-to-a-meeting-request.md
+                - name: Get information about direct reports of the current user's manager
+                  href: how-to-get-information-about-direct-reports-of-the-current-user-s-manager.md
+              - name: General Outlook items
+                href: general-outlook-items.md
+                items:
+                - name: Create a Helper class to access common Outlook item members
+                  href: how-to-create-a-helper-class-to-access-common-outlook-item-members.md
+                - name: Display selected items in the active Explorer
+                  href: how-to-display-selected-items-in-the-active-explorer.md
+              - name: Group sharing
+                href: group-sharing.md
+                items:
+                - name: Subscribe to an RSS feed
+                  href: how-to-subscribe-to-an-rss-feed.md
+                - name: Synchronize Outlook with a SharePoint folder
+                  href: how-to-synchronize-outlook-with-a-sharepoint-folder.md
+              - name: Sample tasks using Outlook events
+                href: sample-tasks-using-outlook-events.md
+                items:
+                - name: Implement a wrapper for inspectors and track item-level events in each inspector
+                  href: how-to-implement-a-wrapper-for-inspectors-and-track-item-level-events-in-each-inspector.md
+              - name: Folders
+                href: folders.md
+                items:
+                - name: Add a folder to the folder List
+                  href: how-to-add-a-folder-to-the-folder-list.md
+                - name: Enumerate folders
+                  href: how-to-enumerate-folders.md
+                - name: Get a default folder and enumerate its subfolders
+                  href: how-to-get-a-default-folder-and-enumerate-its-subfolders.md
+                - name: Get a folder based on its folder path
+                  href: how-to-get-a-folder-based-on-its-folder-path.md
+                - name: Select a folder and display folder information
+                  href: how-to-select-a-folder-and-display-folder-information.md
+                - name: Get the default Message class of a folder
+                  href: how-to-get-the-default-message-class-of-a-folder.md
+                - name: Access solution-specific data stored as a hidden message in a folder
+                  href: how-to-access-solution-specific-data-stored-as-a-hidden-message-in-a-folder.md
+                - name: Ensure that custom item properties are supported in folder-level queries
+                  href: how-to-ensure-that-custom-item-properties-are-supported-in-folder-level-queries.md
+              - name: Mail
+                href: mail.md
+                items:
+                - name: Create a mail item by using a message template
+                  href: how-to-create-a-mail-item-by-using-a-message-template.md
+                - name: Create a mail item, attach a report, and send the mail item to the user's manager
+                  href: how-to-create-a-mail-item-attach-a-report-and-send-the-mail-item-to-the-user-s-manager.md
+                - name: Send an email given the SMTP address of an account
+                  href: how-to-send-an-e-mail-given-the-smtp-address-of-an-account.md
+                - name: Add voting options to a mail item
+                  href: how-to-add-voting-options-to-a-mail-item.md
+                - name: Add a custom action as a response to a mail item
+                  href: how-to-add-a-custom-action-as-a-response-to-a-mail-item.md
+                - name: Get the SMTP address of the sender of a mail item
+                  href: how-to-get-the-smtp-address-of-the-sender-of-a-mail-item.md
+                - name: Specify different recipient types for a mail item
+                  href: how-to-specify-different-recipient-types-for-a-mail-item.md
+              - name: Meeting requests
+                href: meeting-requests.md
+                items:
+                - name: Create a meeting request, add recipients, and specify a location
+                  href: how-to-create-a-meeting-request-add-recipients-and-specify-a-location.md
+                - name: Get the organizer of a meeting
+                  href: how-to-get-the-organizer-of-a-meeting.md
+                - name: Check all responses to a meeting request
+                  href: how-to-check-all-responses-to-a-meeting-request.md
+                - name: Find the appointment item associated with a meeting request
+                  href: how-to-find-the-appointment-item-associated-with-a-meeting-request.md
+                - name: Automatically accept a meeting request
+                  href: how-to-automatically-accept-a-meeting-request.md
+                - name: Prompt a user to respond to a meeting request
+                  href: how-to-prompt-a-user-to-respond-to-a-meeting-request.md
+              - name: Recipients
+                href: recipients.md
+                items:
+                - name: Display the Select Names dialog box to resolve recipients
+                  href: how-to-display-the-select-names-dialog-box-to-resolve-recipients.md
+                - name: Use the Select Names dialog box to obtain and assign recipients to an appointment
+                  href: how-to-use-the-select-names-dialog-box-to-obtain-and-assign-recipients-to-an-appointment.md
+                - name: Get the email address of a recipient
+                  href: how-to-get-the-e-mail-address-of-a-recipient.md
+              - name: Rules
+                href: rules.md
+                items:
+                - name: Create a rule to file mail items from a manager and flag them for follow-up
+                  href: how-to-create-a-rule-to-file-mail-items-from-a-manager-and-flag-them-for-follow-up.md
+                - name: Execute a rule instantly
+                  href: how-to-execute-a-rule-instantly.md
+                - name: Execute a rule on a local computer
+                  href: how-to-execute-a-rule-on-a-local-computer.md
+                - name: Create a rule to assign categories to mail items based on multiple words in the subject
+                  href: how-to-create-a-rule-to-assign-categories-to-mail-items-based-on-multiple-words-in-the-subject.md
+              - name: Search and filter
+                href: search-and-filter.md
+                items:
+                - name: Filter and efficiently enumerate items in a folder
+                  href: how-to-filter-and-efficiently-enumerate-items-in-a-folder.md
+                - name: Use SetColumns to efficiently enumerate items in a folder
+                  href: how-to-use-setcolumns-to-efficiently-enumerate-items-in-a-folder.md
+                - name: Use arrays to efficiently enumerate items in a folder
+                  href: how-to-use-arrays-to-efficiently-enumerate-items-in-a-folder.md
+                - name: Enumerate items in the Inbox based on the last modification time
+                  href: how-to-enumerate-items-in-the-inbox-based-on-the-last-modification-time.md
+                - name: Filter and display Inbox items modified in the last month
+                  href: how-to-filter-and-display-inbox-items-modified-in-the-last-month.md
+                - name: Filter and display multivalued properties when enumerating items in a folder
+                  href: how-to-filter-and-display-multivalued-properties-when-enumerating-items-in-a-folder.md
+                - name: Filter and display computed properties when enumerating items in a folder
+                  href: how-to-filter-and-display-computed-properties-when-enumerating-items-in-a-folder.md
+                - name: Enumerate hidden items in a folder
+                  href: how-to-enumerate-hidden-items-in-a-folder.md
+                - name: Use instant search to search all folders and all stores for a phrase in the subject
+                  href: how-to-use-instant-search-to-search-all-folders-and-all-stores-for-a-phrase-in-the-subject.md
+                - name: Search for a phrase in the body of items in a folder
+                  href: how-to-search-for-a-phrase-in-the-body-of-items-in-a-folder.md
+                - name: Search attachments of items in a folder for an exact phrase
+                  href: how-to-search-attachments-of-items-in-a-folder-for-an-exact-phrase.md
+                - name: Search and obtain appointments in a time range
+                  href: how-to-search-and-obtain-appointments-in-a-time-range.md
+                - name: Filter recurring appointments and search for a string in the subject
+                  href: how-to-filter-recurring-appointments-and-search-for-a-string-in-the-subject.md
+                - name: Search and obtain items in an aggregated view
+                  href: how-to-search-and-obtain-items-in-an-aggregated-view.md
+              - name: Sessions
+                href: sessions.md
+                items:
+                - name: Get and sign in to an instance of Outlook
+                  href: how-to-get-and-log-on-to-an-instance-of-outlook.md
+              - name: Stores
+                href: stores.md
+                items:
+                - name: Get information about stores in a profile
+                  href: how-to-get-information-about-stores-in-a-profile.md
+                - name: Add or remove a store
+                  href: how-to-add-or-remove-a-store.md
+              - name: Tasks
+                href: tasks.md
+                items:
+                - name: Create a task item
+                  href: how-to-create-a-task-item.md
+                - name: Assign a task to a recipient
+                  href: how-to-assign-a-task-to-a-recipient.md
+                - name: Display the task request items sent to a recipient
+                  href: how-to-display-the-task-request-items-sent-to-a-recipient.md
+                - name: Respond to a task request item
+                  href: how-to-respond-to-a-task-request-item.md
+                - name: Create a recurring task
+                  href: how-to-create-a-recurring-task.md
+                - name: Flag mail items from a manager for follow-up
+                  href: how-to-flag-mail-items-from-a-manager-for-follow-up.md
+              - name: Views
+                href: views.md
+                items:
+                - name: Create a view
+                  href: how-to-create-a-view.md
+                - name: Add fields to a view
+                  href: how-to-add-fields-to-a-view.md
+                - name: Enumerate items in a table view
+                  href: how-to-enumerate-items-in-a-table-view.md
+            - name: Class library
+              href: outlook-2013-interop-assembly-class-library.md
           - name: Outlook Social Connector provider reference
             href: outlook/social-connector/outlook-social-connector-provider-reference.md
             items:
@@ -893,9 +1217,9 @@
                 items:
                 - name: Overview of XML for an activity feed item
                   href: outlook/social-connector/overview-of-xml-for-an-activity-feed-item.md
-                - name: activityDetails element
+                - name: ActivityDetails element
                   href: outlook/social-connector/activitydetails-element.md
-                - name: activityTemplateContainer element
+                - name: ActivityTemplateContainer element
                   href: outlook/social-connector/activitytemplatecontainer-element.md
                 - name: Template variables
                   href: outlook/social-connector/template-variables.md
@@ -1023,7 +1347,7 @@
           - name: Extending the Weather Bar in Outlook
             href: outlook/weather/extending-the-weather-bar-in-outlook.md
             items:
-            - name: Outlook Weather Information XML Schema
+            - name: Outlook Weather information XML Schema
               href: outlook/weather/outlook-weather-information-xml-schema.md
               items:
               - name: Schema map
@@ -1085,7 +1409,7 @@
                     href: outlook/auxiliary/locating-the-message-download-history-for-a-pop3-account.md
                   - name: Parsing the message download history for a POP3 account
                     href: outlook/auxiliary/parsing-the-message-download-history-for-a-pop3-account.md
-              - name: About the Data Degradation Layer API
+              - name: About the data Degradation Layer API
                 href: outlook/auxiliary/about-the-data-degradation-layer-api.md
               - name: About APIs exported by Outlook
                 href: outlook/auxiliary/about-apis-exported-by-outlook.md
@@ -1094,7 +1418,7 @@
                 items:
                 - name: About conflict resolution for custom item types
                   href: outlook/auxiliary/about-conflict-resolution-for-custom-item-types.md
-                - name: About the last update time of an Offline Address Book
+                - name: About the last update time of an Offline address book
                   href: outlook/auxiliary/about-the-last-update-time-of-an-offline-address-book.md
                 - name: About registering a new domain for automatic configuration
                   href: outlook/auxiliary/about-registering-a-new-domain-for-automatic-configuration.md
@@ -1449,11 +1773,11 @@
                 href: outlook/mapi/outlook-mapi-reference-overview.md
               - name: What's New in This Edition
                 href: outlook/mapi/what-s-new-in-this-edition.md
-              - name: Commonly Used Header Files
+              - name: Commonly Used Header files
                 href: outlook/mapi/commonly-used-header-files.md
               - name: Commonly Used Properties
                 href: outlook/mapi/commonly-used-properties.md
-              - name: Commonly Used Objects
+              - name: Commonly Used objects
                 href: outlook/mapi/commonly-used-objects.md
               - name: API Elements Deprecated in This Edition
                 href: outlook/mapi/api-elements-deprecated-in-this-edition.md
@@ -1484,18 +1808,18 @@
                     href: outlook/mapi/shutting-down-a-wrapped-pst-store-provider.md
                 - name: Transport Provider Sample
                   href: outlook/mapi/transport-provider-sample.md
-              - name: Creating Outlook Items by Using MAPI
+              - name: Creating Outlook items by using MAPI
                 href: outlook/mapi/creating-outlook-items-by-using-mapi.md
                 items:
                 - name: Install the Samples Used in This Section
                   href: outlook/mapi/how-to-install-the-samples-used-in-this-section.md
-                - name: Create a Simple Mail Item
+                - name: Create a Simple mail item
                   href: outlook/mapi/how-to-create-a-simple-mail-item.md
-                - name: Create a Simple Recurrent Task Item
+                - name: Create a Simple Recurrent task item
                   href: outlook/mapi/how-to-create-a-simple-recurrent-task-item.md
-                - name: Create a Complex Recurrent Appointment Item
+                - name: Create a Complex Recurrent appointment item
                   href: outlook/mapi/how-to-create-a-complex-recurrent-appointment-item.md
-                - name: Read and Parse a Recurrence Pattern
+                - name: Read and Parse a Recurrence pattern
                   href: outlook/mapi/how-to-read-and-parse-a-recurrence-pattern.md
             - name: Concepts
               href: outlook/mapi/mapi-concepts.md
@@ -1507,7 +1831,7 @@
                   href: outlook/mapi/mapi-feature-overview.md
                 - name: Architecture Overview
                   href: outlook/mapi/mapi-architecture-overview.md
-                - name: Client Application Overview
+                - name: Client application Overview
                   href: outlook/mapi/mapi-client-application-overview.md
                 - name: MAPI Spooler Overview
                   href: outlook/mapi/mapi-spooler-overview.md
@@ -1528,19 +1852,19 @@
                 - name: About the Offline State API
                   href: outlook/mapi/about-the-offline-state-api.md
                   items:
-                  - name: About the Sample Offline State Add-in
+                  - name: About the Sample Offline State add-in
                     href: outlook/mapi/about-the-sample-offline-state-add-in.md
-                  - name: Installing the Sample Offline State Add-in
+                  - name: Installing the Sample Offline State add-in
                     href: outlook/mapi/installing-the-sample-offline-state-add-in.md
-                  - name: Setting Up an Offline State Add-in
+                  - name: Setting Up an Offline State add-in
                     href: outlook/mapi/setting-up-an-offline-state-add-in.md
-                  - name: Monitoring Connection State Changes Using an Offline State Add-in
+                  - name: Monitoring Connection State Changes using an Offline State add-in
                     href: outlook/mapi/monitoring-connection-state-changes-using-an-offline-state-add-in.md
-                  - name: Disconnecting an Offline State Add-in
+                  - name: Disconnecting an Offline State add-in
                     href: outlook/mapi/disconnecting-an-offline-state-add-in.md
                 - name: About the MAPI Crash Recovery API
                   href: outlook/mapi/about-the-mapi-crash-recovery-api.md
-                - name: About Setting the Resolution Order for Address Lists in Outlook
+                - name: About Setting the Resolution Order for add lists in Outlook
                   href: outlook/mapi/about-setting-the-resolution-order-for-address-lists-in-outlook.md
                 - name: About the Replication API
                   href: outlook/mapi/about-the-replication-api.md
@@ -1558,13 +1882,13 @@
                     href: outlook/mapi/download-table-state.md
                   - name: Idle State
                     href: outlook/mapi/idle-state.md
-                  - name: Synchronize Contents State
+                  - name: Synchronize contents State
                     href: outlook/mapi/synchronize-contents-state.md
                   - name: Synchronize State
                     href: outlook/mapi/synchronize-state.md
                   - name: Upload Delete Status State
                     href: outlook/mapi/upload-delete-status-state.md
-                  - name: Upload Folder State
+                  - name: Upload folder State
                     href: outlook/mapi/upload-folder-state.md
                   - name: Upload Hierarchy State
                     href: outlook/mapi/upload-hierarchy-state.md
@@ -1583,17 +1907,17 @@
                     href: outlook/mapi/about-notification-based-store-indexing.md
                   - name: About MAPI URLs for Notification-Based Indexing
                     href: outlook/mapi/about-mapi-urls-for-notification-based-indexing.md
-                  - name: Algorithm to Calculate the Store Hash Number
+                  - name: Algorithm to Calculate the Store hash Number
                     href: outlook/mapi/algorithm-to-calculate-the-store-hash-number.md
-                  - name: Algorithm to Encode Entry IDs and Attachment IDs
+                  - name: Algorithm to Encode Entry IDs and attachment IDs
                     href: outlook/mapi/algorithm-to-encode-entry-ids-and-attachment-ids.md
                 - name: About the MAPI-MIME Conversion API
                   href: outlook/mapi/about-the-mapi-mime-conversion-api.md
                 - name: About the Attachment Security API
                   href: outlook/mapi/about-the-attachment-security-api.md
-                - name: About MAPI Additions
+                - name: About MAPI additions
                   href: outlook/mapi/about-mapi-additions.md
-                - name: About Named Properties Used by Outlook
+                - name: About Named properties Used by Outlook
                   href: outlook/mapi/about-named-properties-used-by-outlook.md
               - name: Application Development
                 href: outlook/mapi/mapi-application-development.md
@@ -1603,11 +1927,11 @@
                   items:
                   - name: Installing the MAPI Subsystem
                     href: outlook/mapi/installing-the-mapi-subsystem.md
-                  - name: Install MAPI Header Files
+                  - name: Install MAPI Header files
                     href: outlook/mapi/how-to-install-mapi-header-files.md
                   - name: Link to MAPI Functions
                     href: outlook/mapi/how-to-link-to-mapi-functions.md
-                  - name: Choose a Specific Version of MAPI to Load
+                  - name: Choose a specific Version of MAPI to Load
                     href: outlook/mapi/how-to-choose-a-specific-version-of-mapi-to-load.md
                   - name: Check the Version of Outlook
                     href: outlook/mapi/how-to-check-the-version-of-outlook.md
@@ -1615,12 +1939,12 @@
                     href: outlook/mapi/testing-and-debugging.md
                   - name: MAPI Sessions
                     href: outlook/mapi/mapi-sessions.md
-                  - name: Message Services and Profiles
+                  - name: Message Services and profiles
                     href: outlook/mapi/message-services-and-profiles.md
-                  - name: Operating Environment Issues
+                  - name: Operating Environment issues
                     href: outlook/mapi/operating-environment-issues.md
                     items:
-                    - name: Building MAPI Applications on 32-Bit and 64-Bit Platforms
+                    - name: Building MAPI applications on 32-Bit and 64-Bit Platforms
                       href: outlook/mapi/building-mapi-applications-on-32-bit-and-64-bit-platforms.md
                     - name: Calling MAPI from Windows Services
                       href: outlook/mapi/calling-mapi-from-windows-services.md
@@ -1628,33 +1952,33 @@
                     href: outlook/mapi/how-to-access-store-on-remote-server-in-cached-exchange-mode.md
                   - name: Create an Outlook profile using MFCMAPI
                     href: outlook/mapi/how-to-create-an-outlook-profile-using-mfcmapi.md
-                  - name: Detect the Version of Exchange Server in an Outlook Profile
+                  - name: Detect the Version of Exchange Server in an Outlook profile
                     href: outlook/mapi/how-to-detect-the-version-of-exchange-server-in-an-outlook-profile.md
                   - name: Determine if Outlook Downloaded Only the Header of a Message
                     href: outlook/mapi/how-to-determine-if-outlook-downloaded-only-the-header-of-a-message.md
-                  - name: Get the Email Address of a Contact Item
+                  - name: Get the Email add of a Contact item
                     href: outlook/mapi/how-to-get-the-email-address-of-a-contact-item.md
-                  - name: Get the Path of a Specific Version of MAPI for the Default Mail Client
+                  - name: Get the path of a specific Version of MAPI for the default mail Client
                     href: outlook/mapi/how-to-get-path-of-specific-version-of-mapi-for-default-mail-client.md
                   - name: Manage a Message in an OST Without Invoking a Synchronization in Cached Exchange Mode
                     href: outlook/mapi/how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md
-                  - name: Obtain a Contact Message Given a Contacts Address Book Entry
+                  - name: Obtain a Contact Message Given a Contacts address book Entry
                     href: outlook/mapi/how-to-obtain-a-contact-message-given-a-contacts-address-book-entry.md
                   - name: Access a Message on an IMAP Store Without Downloading the Entire Message
                     href: outlook/mapi/how-to-access-message-on-imap-store-without-downloading-entire-message.md
                   - name: Open a Store on the Remote Server When Outlook is in Cached Exchange Mode
                     href: outlook/mapi/how-to-open-store-on-remote-server-in-cached-exchange-mode.md
-                  - name: Programmatically Set the Resolution Order for Address Lists
+                  - name: Programmatically Set the Resolution Order for address lists
                     href: outlook/mapi/how-to-programmatically-set-the-resolution-order-for-address-lists.md
-                  - name: Programmatically Create a Profile in Outlook
+                  - name: Programmatically Create a profile in Outlook
                     href: outlook/mapi/how-to-programmatically-create-a-profile-in-outlook.md
-                  - name: Remove Custom Form Definition Saved With a Message
+                  - name: Remove custom Form Definition saved With a Message
                     href: outlook/mapi/how-to-remove-custom-form-definition-saved-with-a-message.md
-                  - name: Retrieve the Body of a Message in Compressed RTF and Convert It to Its Native Format
+                  - name: Retrieve the Body of a Message in Compressed RTF and Convert It to its Native Format
                     href: outlook/mapi/how-to-retrieve-the-body-of-a-message-in-compressed-rtf-and-convert.md
                   - name: Use the MAPI Crash Recovery API
                     href: outlook/mapi/how-to-use-the-mapi-crash-recovery-api.md
-                  - name: Verify an Attachment is Blocked
+                  - name: Verify an attachment is Blocked
                     href: outlook/mapi/how-to-verify-an-attachment-is-blocked.md
                 - name: Tables
                   href: outlook/mapi/mapi-tables.md
@@ -1681,7 +2005,7 @@
                     href: outlook/mapi/profile-tables.md
                   - name: Provider Tables
                     href: outlook/mapi/provider-tables.md
-                  - name: Receive Folder Tables
+                  - name: Receive folder Tables
                     href: outlook/mapi/receive-folder-tables.md
                   - name: Recipient Tables
                     href: outlook/mapi/recipient-tables.md
@@ -1690,7 +2014,7 @@
                   - name: Tips for Working with Tables
                     href: outlook/mapi/tips-for-working-with-tables.md
                     items:
-                    - name: Retrieving Data from Table Rows
+                    - name: Retrieving data from Table Rows
                       href: outlook/mapi/retrieving-data-from-table-rows.md
                     - name: Table Positioning
                       href: outlook/mapi/table-positioning.md
@@ -1726,7 +2050,7 @@
                         href: outlook/mapi/sample-restriction-code.md
                     - name: About Table Notifications
                       href: outlook/mapi/about-table-notifications.md
-                    - name: About Display Table Notifications
+                    - name: About display Table Notifications
                       href: outlook/mapi/about-display-table-notifications.md
                     - name: About Asynchronous Table Operations
                       href: outlook/mapi/about-asynchronous-table-operations.md
@@ -1740,12 +2064,12 @@
                     items:
                     - name: Form Verbs
                       href: outlook/mapi/form-verbs.md
-                  - name: Form Objects
+                  - name: Form objects
                     href: outlook/mapi/mapi-form-objects.md
-                  - name: Form Manager
+                  - name: Form manager
                     href: outlook/mapi/mapi-form-manager.md
                     items:
-                    - name: Capabilities Not Supported by Form Managers
+                    - name: Capabilities Not Supported by Form managers
                       href: outlook/mapi/capabilities-not-supported-by-form-managers.md
                     - name: Disk Instances and Cache Tables
                       href: outlook/mapi/disk-instances-and-cache-tables.md
@@ -1760,14 +2084,14 @@
                       href: outlook/mapi/folder-form-libraries.md
                     - name: Personal Form Libraries
                       href: outlook/mapi/personal-form-libraries.md
-                  - name: Forms and MAPI Client Applications
+                  - name: Forms and MAPI Client applications
                     href: outlook/mapi/forms-and-mapi-client-applications.md
                   - name: MAPI Form Interfaces
                     href: outlook/mapi/mapi-form-interfaces.md
-                - name: Developing a MAPI Client Application
+                - name: Developing a MAPI Client application
                   href: outlook/mapi/developing-a-mapi-client-application.md
                   items:
-                  - name: Types of Client Applications
+                  - name: Types of Client applications
                     href: outlook/mapi/types-of-client-applications.md
                   - name: Linking to the MAPI DLLs
                     href: outlook/mapi/linking-to-the-mapi-dlls.md
@@ -1787,30 +2111,30 @@
                         href: outlook/mapi/logging-on-to-mapi.md
                     - name: Ending a MAPI Session
                       href: outlook/mapi/ending-a-mapi-session.md
-                    - name: Accessing Objects by Using the Session
+                    - name: Accessing objects by using the Session
                       href: outlook/mapi/accessing-objects-by-using-the-session.md
                     - name: Retrieving Primary and Provider Identity
                       href: outlook/mapi/retrieving-primary-and-provider-identity.md
-                    - name: Status Table and Status Objects
+                    - name: Status Table and Status objects
                       href: outlook/mapi/status-table-and-status-objects.md
                   - name: Handling an Outgoing Message
                     href: outlook/mapi/handling-an-outgoing-message.md
                     items:
-                    - name: Creating a Recipient List
+                    - name: Creating a recipient List
                       href: outlook/mapi/creating-a-recipient-list.md
                     - name: Creating a Message Subject
                       href: outlook/mapi/creating-a-message-subject.md
                     - name: Creating Message Text
                       href: outlook/mapi/creating-message-text.md
-                    - name: Adding Rendering Information to Formatted Text
+                    - name: Adding Rendering information to Formatted Text
                       href: outlook/mapi/adding-rendering-information-to-formatted-text.md
-                    - name: Creating a Message Attachment
+                    - name: Creating a Message attachment
                       href: outlook/mapi/creating-a-message-attachment.md
                     - name: Saving a Message
                       href: outlook/mapi/saving-a-message.md
                     - name: Sending a Message
                       href: outlook/mapi/sending-a-message.md
-                    - name: Processing a Sent Message
+                    - name: Processing a sent Message
                       href: outlook/mapi/processing-a-sent-message.md
                   - name: Posting a Message
                     href: outlook/mapi/posting-a-message.md
@@ -1825,32 +2149,32 @@
                     items:
                     - name: Opening Message Text
                       href: outlook/mapi/opening-message-text.md
-                    - name: Rendering an Attachment in Plain Text
+                    - name: Rendering an attachment in Plain Text
                       href: outlook/mapi/rendering-an-attachment-in-plain-text.md
-                    - name: Rendering an Attachment in RTF Text
+                    - name: Rendering an attachment in RTF Text
                       href: outlook/mapi/rendering-an-attachment-in-rtf-text.md
-                    - name: Opening an Attachment
+                    - name: Opening an attachment
                       href: outlook/mapi/opening-an-attachment.md
                   - name: Handling a Message Store
                     href: outlook/mapi/handling-a-message-store.md
                     items:
                     - name: Opening a Message Store
                       href: outlook/mapi/opening-a-message-store.md
-                    - name: Opening the Default Message Store
+                    - name: Opening the default Message Store
                       href: outlook/mapi/opening-the-default-message-store.md
                     - name: Validating and Initializing a Message Store
                       href: outlook/mapi/validating-and-initializing-a-message-store.md
                     - name: Searching a Message Store
                       href: outlook/mapi/searching-a-message-store.md
-                    - name: Selecting a Receive Folder
+                    - name: Selecting a Receive folder
                       href: outlook/mapi/selecting-a-receive-folder.md
-                    - name: Opening a Message Store Folder
+                    - name: Opening a Message Store folder
                       href: outlook/mapi/opening-a-message-store-folder.md
-                    - name: Displaying a Folder Contents Table
+                    - name: Displaying a folder contents Table
                       href: outlook/mapi/displaying-a-folder-contents-table.md
-                    - name: Traversing the Inbox Folder
+                    - name: Traversing the Inbox folder
                       href: outlook/mapi/traversing-the-inbox-folder.md
-                    - name: Copying or Moving a Message or a Folder
+                    - name: Copying or Moving a Message or a folder
                       href: outlook/mapi/copying-or-moving-a-message-or-a-folder.md
                     - name: Opening a Message
                       href: outlook/mapi/opening-a-message.md
@@ -1862,42 +2186,42 @@
                       href: outlook/mapi/deleting-a-message.md
                     - name: Saving a Message in the Inbox
                       href: outlook/mapi/saving-a-message-in-the-inbox.md
-                    - name: Finding Sent or Saved Messages
+                    - name: Finding sent or saved messages
                       href: outlook/mapi/finding-sent-or-saved-messages.md
                     - name: Tracking Conversations
                       href: outlook/mapi/tracking-conversations.md
-                  - name: Handling the Address Book
+                  - name: Handling the address book
                     href: outlook/mapi/handling-the-address-book.md
                     items:
-                    - name: Opening the Address Book
+                    - name: Opening the address book
                       href: outlook/mapi/opening-the-address-book.md
-                    - name: Displaying the Common Address Dialog Box
+                    - name: Displaying the Common address dialog box
                       href: outlook/mapi/displaying-the-common-address-dialog-box.md
-                    - name: Opening an Address Book Container
+                    - name: Opening an address book Container
                       href: outlook/mapi/opening-an-address-book-container.md
-                    - name: Setting Address Book Options
+                    - name: Setting address book Options
                       href: outlook/mapi/setting-address-book-options.md
-                    - name: Creating a Recipient
+                    - name: Creating a recipient
                       href: outlook/mapi/creating-a-recipient.md
-                    - name: Creating a Distribution List
+                    - name: Creating a distribution list
                       href: outlook/mapi/creating-a-distribution-list.md
-                    - name: Copying a Recipient
+                    - name: Copying a recipient
                       href: outlook/mapi/copying-a-recipient.md
-                    - name: Deleting a Recipient
+                    - name: Deleting a recipient
                       href: outlook/mapi/deleting-a-recipient.md
-                    - name: Preparing a Recipient
+                    - name: Preparing a recipient
                       href: outlook/mapi/preparing-a-recipient.md
-                    - name: Accessing the Members of a Distribution List
+                    - name: Accessing the members of a distribution list
                       href: outlook/mapi/accessing-the-members-of-a-distribution-list.md
-                    - name: Retrieving Recipient Properties
+                    - name: Retrieving recipient properties
                       href: outlook/mapi/retrieving-recipient-properties.md
-                    - name: Searching the Address Book
+                    - name: Searching the address book
                       href: outlook/mapi/searching-the-address-book.md
-                    - name: Using an Advanced Search Dialog Box
+                    - name: Using an Advanced Search dialog box
                       href: outlook/mapi/using-an-advanced-search-dialog-box.md
-                    - name: Resolving a Recipient Name
+                    - name: Resolving a recipient Name
                       href: outlook/mapi/resolving-a-recipient-name.md
-                    - name: Expanding Distribution Lists
+                    - name: Expanding distribution lists
                       href: outlook/mapi/expanding-distribution-lists.md
                   - name: Handling a Transport Provider
                     href: outlook/mapi/handling-a-transport-provider.md
@@ -1917,11 +2241,11 @@
                       href: outlook/mapi/canceling-a-notification.md
                     - name: Handling Message Store Notification
                       href: outlook/mapi/handling-message-store-notification.md
-                    - name: Handing Address Book Notification
+                    - name: Handing address book Notification
                       href: outlook/mapi/handing-address-book-notification.md
                     - name: Handling Table Notification
                       href: outlook/mapi/handling-table-notification.md
-                    - name: Implementing an Advise Sink Object
+                    - name: Implementing an Advise Sink object
                       href: outlook/mapi/implementing-an-advise-sink-object.md
                     - name: Timing a Notification
                       href: outlook/mapi/timing-a-notification.md
@@ -1942,27 +2266,27 @@
                       href: outlook/mapi/maintaining-a-form-library.md
                     - name: Loading a Message Into a Form
                       href: outlook/mapi/loading-a-message-into-a-form.md
-                    - name: Composing a New Message by Using a Form
+                    - name: Composing a New Message by using a Form
                       href: outlook/mapi/composing-a-new-message-by-using-a-form.md
                     - name: Displaying Form Icons
                       href: outlook/mapi/displaying-form-icons.md
-                  - name: Administering Profiles and Message Services
+                  - name: Administering profiles and Message Services
                     href: outlook/mapi/administering-profiles-and-message-services.md
                     items:
-                    - name: Creating a Profile
+                    - name: Creating a profile
                       href: outlook/mapi/creating-a-profile.md
                       items:
-                      - name: Creating a Profile by Using the Profile Wizard
+                      - name: Creating a profile by using the Profile Wizard
                         href: outlook/mapi/creating-a-profile-by-using-the-profile-wizard.md
-                      - name: Creating a Profile by Using Custom Code
+                      - name: Creating a profile by using custom Code
                         href: outlook/mapi/creating-a-profile-by-using-custom-code.md
-                    - name: Copying a Profile
+                    - name: Copying a profile
                       href: outlook/mapi/copying-a-profile.md
-                    - name: Deleting a Profile
+                    - name: Deleting a profile
                       href: outlook/mapi/deleting-a-profile.md
-                    - name: Setting a Default Profile
+                    - name: Setting a default profile
                       href: outlook/mapi/setting-a-default-profile.md
-                    - name: Finding a Profile Name
+                    - name: Finding a profile Name
                       href: outlook/mapi/finding-a-profile-name.md
                     - name: Adding a Message Service
                       href: outlook/mapi/adding-a-message-service.md
@@ -1994,27 +2318,27 @@
                     items:
                     - name: Avoiding Certain Methods at Startup
                       href: outlook/mapi/avoiding-certain-methods-at-startup.md
-                    - name: Getting and Setting Multiple Properties
+                    - name: Getting and Setting multiple properties
                       href: outlook/mapi/getting-and-setting-multiple-properties.md
-                    - name: Using a Table to Work with Properties
+                    - name: Using a Table to Work with properties
                       href: outlook/mapi/using-a-table-to-work-with-properties.md
-                    - name: Getting and Setting Properties with GetProps and SetProps
+                    - name: Getting and Setting properties with GetProps and SetProps
                       href: outlook/mapi/getting-and-setting-properties-with-getprops-and-setprops.md
-                    - name: Saving Frequently Used Properties
+                    - name: Saving Frequently Used properties
                       href: outlook/mapi/saving-frequently-used-properties.md
                     - name: Deferring Processing
                       href: outlook/mapi/deferring-processing.md
                     - name: Writing Uncompressed Formatted Text
                       href: outlook/mapi/writing-uncompressed-formatted-text.md
-                    - name: Avoiding Using IStream::SetSize to Extend a Stream
+                    - name: Avoiding using IStream::SetSize to Extend a Stream
                       href: outlook/mapi/avoiding-using-istream-setsize-to-extend-a-stream.md
                     - name: Sorting Tables After Setting Columns and Restrictions
                       href: outlook/mapi/sorting-tables-after-setting-columns-and-restrictions.md
                     - name: Calling QueryRows for Small Tables
                       href: outlook/mapi/calling-queryrows-for-small-tables.md
-                    - name: Opening OLE Attachments with IStreamDocfile
+                    - name: Opening OLE attachments with IStreamDocfile
                       href: outlook/mapi/opening-ole-attachments-with-istreamdocfile.md
-                    - name: Naming Folders by Using Character Strings
+                    - name: Naming folders by using Character Strings
                       href: outlook/mapi/naming-folders-by-using-character-strings.md
                 - name: Developing MAPI Form Servers
                   href: outlook/mapi/developing-mapi-form-servers.md
@@ -2045,12 +2369,12 @@
                       href: outlook/mapi/integrating-mapi-form-server-code-with-windows-code.md
                     - name: Implementing the IClassFactory Interface for Form Servers
                       href: outlook/mapi/implementing-the-iclassfactory-interface-for-form-servers.md
-                  - name: Creating a Form Configuration File
+                  - name: Creating a Form Configuration file
                     href: outlook/mapi/creating-a-form-configuration-file.md
                   - name: Form Server Interactions
                     href: outlook/mapi/form-server-interactions.md
                     items:
-                    - name: Retrieving Form Properties
+                    - name: Retrieving Form properties
                       href: outlook/mapi/retrieving-form-properties.md
                     - name: Launching a Form to Read a Message
                       href: outlook/mapi/launching-a-form-to-read-a-message.md
@@ -2076,40 +2400,40 @@
                   items:
                   - name: IPM Subtree
                     href: outlook/mapi/ipm-subtree.md
-                  - name: Special Folders
+                  - name: Special folders
                     href: outlook/mapi/mapi-special-folders.md
-                  - name: Receive Folders
+                  - name: Receive folders
                     href: outlook/mapi/mapi-receive-folders.md
-                  - name: Search Folders
+                  - name: Search folders
                     href: outlook/mapi/mapi-search-folders.md
-                  - name: Hidden Folders
+                  - name: Hidden folders
                     href: outlook/mapi/mapi-hidden-folders.md
-                  - name: View Folders
+                  - name: View folders
                     href: outlook/mapi/mapi-view-folders.md
                 - name: Messages
                   href: outlook/mapi/mapi-messages.md
                   items:
                   - name: Message Classes
                     href: outlook/mapi/mapi-message-classes.md
-                  - name: Report Messages
+                  - name: Report messages
                     href: outlook/mapi/mapi-report-messages.md
-                  - name: Message Properties Overview
+                  - name: Message properties Overview
                     href: outlook/mapi/message-properties-overview.md
                     items:
-                    - name: Required Properties for All Messages
+                    - name: Required properties for all messages
                       href: outlook/mapi/required-properties-for-all-messages.md
-                    - name: Required Report Message Properties
+                    - name: Required Report Message properties
                       href: outlook/mapi/required-report-message-properties.md
-                    - name: Optional Report Message Properties
+                    - name: Optional Report Message properties
                       href: outlook/mapi/optional-report-message-properties.md
-                    - name: Recipient Properties for All Messages
+                    - name: Recipient properties for all messages
                       href: outlook/mapi/recipient-properties-for-all-messages.md
-                    - name: Recipient Properties for Delivery Status Reports
+                    - name: Recipient properties for Delivery Status Reports
                       href: outlook/mapi/recipient-properties-for-delivery-status-reports.md
-                  - name: Outlook Items and Fields
+                  - name: Outlook items and Fields
                     href: outlook/mapi/outlook-items-and-fields.md
                     items:
-                    - name: Add a Definition for a New User-Defined Field
+                    - name: Add a Definition for a New user-Defined Field
                       href: outlook/mapi/how-to-add-a-definition-for-a-new-user-defined-field.md
                     - name: PropertyDefinition Stream Sample
                       href: outlook/mapi/propertydefinition-stream-sample.md
@@ -2139,17 +2463,17 @@
                 - name: Address Book
                   href: outlook/mapi/mapi-address-book.md
                   items:
-                  - name: Address Types
+                  - name: Address types
                     href: outlook/mapi/mapi-address-types.md
-                  - name: One-Off Addresses
+                  - name: One-Off addresses
                     href: outlook/mapi/one-off-addresses.md
                   - name: Address Book Identifiers
                     href: outlook/mapi/address-book-identifiers.md
                   - name: One-Off Entry Identifiers
                     href: outlook/mapi/one-off-entry-identifiers.md
-                  - name: Using Multiple Exchange Accounts
+                  - name: Using multiple Exchange accounts
                     href: outlook/mapi/using-multiple-exchange-accounts.md
-                - name: Status Objects
+                - name: Status objects
                   href: outlook/mapi/mapi-status-objects.md
                 - name: Profiles
                   href: outlook/mapi/mapi-profiles.md
@@ -2182,23 +2506,23 @@
                     href: outlook/mapi/mapi-extended-errors.md
                   - name: Deferring Errors
                     href: outlook/mapi/deferring-mapi-errors.md
-                - name: Sending Messages by Using MAPI
+                - name: Sending messages by using MAPI
                   href: outlook/mapi/sending-messages-by-using-mapi.md
                   items:
-                  - name: Delegate Access
+                  - name: Delegate access
                     href: outlook/mapi/delegate-access.md
-                  - name: Sending Messages with TNEF
+                  - name: Sending messages with TNEF
                     href: outlook/mapi/sending-messages-with-tnef.md
-                  - name: 'Sending Messages: MAPI Spooler Tasks'
+                  - name: 'Sending messages: MAPI Spooler Tasks'
                     href: outlook/mapi/sending-messages-mapi-spooler-tasks.md
-                  - name: 'Sending Messages: Message Store Provider Tasks'
+                  - name: 'Sending messages: Message Store Provider Tasks'
                     href: outlook/mapi/sending-messages-message-store-provider-tasks.md
-                  - name: 'Sending Messages: Transport Provider Tasks'
+                  - name: 'Sending messages: Transport Provider Tasks'
                     href: outlook/mapi/sending-messages-transport-provider-tasks.md
                 - name: Sending Across Messaging Domains
                   href: outlook/mapi/sending-across-messaging-domains.md
                   items:
-                  - name: Gateway Mappable Properties
+                  - name: Gateway Mappable properties
                     href: outlook/mapi/gateway-mappable-properties.md
                   - name: Client Naming Responsibilities
                     href: outlook/mapi/client-naming-responsibilities.md
@@ -2207,23 +2531,23 @@
                 - name: Event Notification in MAPI
                   href: outlook/mapi/event-notification-in-mapi.md
                   items:
-                  - name: Notification Events
+                  - name: Notification events
                     href: outlook/mapi/mapi-notification-events.md
                   - name: Forms Notifications
                     href: outlook/mapi/mapi-forms-notifications.md
                 - name: Threading in MAPI
                   href: outlook/mapi/threading-in-mapi.md
                   items:
-                  - name: Using Thread-Safe Objects
+                  - name: Using Thread-Safe objects
                     href: outlook/mapi/using-thread-safe-objects.md
-                  - name: Implementing Thread-Safe Objects
+                  - name: Implementing Thread-Safe objects
                     href: outlook/mapi/implementing-thread-safe-objects.md
                 - name: Client Shutdown
                   href: outlook/mapi/client-shutdown-in-mapi.md
                   items:
                   - name: Fast Shutdown Overview
                     href: outlook/mapi/fast-shutdown-overview.md
-                  - name: Fast Shutdown User Options
+                  - name: Fast Shutdown user Options
                     href: outlook/mapi/fast-shutdown-user-options.md
                   - name: Best Practices for Fast Shutdown
                     href: outlook/mapi/best-practices-for-fast-shutdown.md
@@ -2236,19 +2560,19 @@
                   items:
                   - name: Synchronizing Text and Formatting
                     href: outlook/mapi/synchronizing-text-and-formatting.md
-                  - name: 'Supporting Formatted Text in Outgoing Messages: Client Responsibilities'
+                  - name: 'Supporting Formatted Text in Outgoing messages: Client Responsibilities'
                     href: outlook/mapi/supporting-formatted-text-in-outgoing-messages-client-responsibilities.md
-                  - name: 'Supporting Formatted Text in Incoming Messages: Client Responsibilities'
+                  - name: 'Supporting Formatted Text in Incoming messages: Client Responsibilities'
                     href: outlook/mapi/supporting-formatted-text-in-incoming-messages-client-responsibilities.md
                   - name: 'Supporting Formatted Text: Message Store Responsibilities'
                     href: outlook/mapi/supporting-formatted-text-message-store-responsibilities.md
-                  - name: 'Supporting Formatted Text: Rendering Attachments'
+                  - name: 'Supporting Formatted Text: Rendering attachments'
                     href: outlook/mapi/supporting-formatted-text-rendering-attachments.md
                   - name: 'Supporting Formatted Text: Gateway Responsibilities'
                     href: outlook/mapi/supporting-formatted-text-gateway-responsibilities.md
                 - name: Idle Engine
                   href: outlook/mapi/mapi-idle-engine.md
-                - name: MAPI File Formats
+                - name: MAPI file Formats
                   href: outlook/mapi/mapi-file-formats.md
                   items:
                   - name: File Format of MapiSvc.inf
@@ -2263,26 +2587,26 @@
                     - name: MapiSvc.inf Message Service Sections
                       href: outlook/mapi/mapisvc-inf-message-service-sections.md
                       items:
-                      - name: Property Entries in MapiSvc.inf Message Service Sections
+                      - name: Property entries in MapiSvc.inf Message Service Sections
                         href: outlook/mapi/property-entries-in-mapisvc-inf-message-service-sections.md
-                      - name: List Entries in MapiSvc.inf Message Service Sections
+                      - name: List entries in MapiSvc.inf Message Service Sections
                         href: outlook/mapi/list-entries-in-mapisvc-inf-message-service-sections.md
                     - name: MapiSvc.inf Service Provider Sections
                       href: outlook/mapi/mapisvc-inf-service-provider-sections.md
                     - name: Registering Services and Service Providers in MapiSvc.inf
                       href: outlook/mapi/registering-services-and-service-providers-in-mapisvc-inf.md
-                  - name: File Format of Form Configuration Files
+                  - name: File Format of Form Configuration files
                     href: outlook/mapi/file-format-of-form-configuration-files.md
                     items:
-                    - name: Form Configuration File [Description] Section
+                    - name: Form Configuration file [Description] Section
                       href: outlook/mapi/form-configuration-file-description-section.md
-                    - name: Form Configuration File [Extensions] Section
+                    - name: Form Configuration file [Extensions] Section
                       href: outlook/mapi/form-configuration-file-extensions-section.md
-                    - name: Form Configuration File [Platforms] Section
+                    - name: Form Configuration file [Platforms] Section
                       href: outlook/mapi/form-configuration-file-platforms-section.md
-                    - name: Form Configuration File [Properties] Section
+                    - name: Form Configuration file [Properties] Section
                       href: outlook/mapi/form-configuration-file-properties-section.md
-                    - name: Form Configuration File [Verbs] Section
+                    - name: Form Configuration file [Verbs] Section
                       href: outlook/mapi/form-configuration-file-verbs-section.md
                 - name: Transport-Neutral Encapsulation Format (TNEF)
                   href: outlook/mapi/transport-neutral-encapsulation-format-tnef.md
@@ -2292,7 +2616,7 @@
                     items:
                     - name: TNEF Stream Syntax
                       href: outlook/mapi/tnef-stream-syntax.md
-                  - name: Mapping of TNEF Attributes to MAPI Properties
+                  - name: Mapping of TNEF Attributes to MAPI properties
                     href: outlook/mapi/mapping-of-tnef-attributes-to-mapi-properties.md
                   - name: TNEF Attributes
                     href: outlook/mapi/tnef-attributes.md
@@ -2319,7 +2643,7 @@
                       href: outlook/mapi/attmessagestatus.md
                     - name: attAttachRenddata
                       href: outlook/mapi/attattachrenddata.md
-                    - name: OLE Attachments
+                    - name: OLE attachments
                       href: outlook/mapi/ole-attachments.md
                   - name: TNEF Correlation
                     href: outlook/mapi/tnef-correlation.md
@@ -2342,29 +2666,29 @@
                     href: outlook/mapi/mapi-object-inheritance-hierarchy.md
                   - name: Object Containment Hierarchy
                     href: outlook/mapi/mapi-object-containment-hierarchy.md
-                  - name: MAPI-Implemented Objects
+                  - name: MAPI-Implemented objects
                     href: outlook/mapi/mapi-implemented-objects.md
-                  - name: Client Objects
+                  - name: Client objects
                     href: outlook/mapi/mapi-client-objects.md
-                  - name: Service Provider Objects
+                  - name: Service Provider objects
                     href: outlook/mapi/mapi-service-provider-objects.md
                     items:
-                    - name: Address Book Provider Objects
+                    - name: Address Book Provider objects
                       href: outlook/mapi/mapi-address-book-provider-objects.md
-                    - name: Message Store Provider Objects
+                    - name: Message Store Provider objects
                       href: outlook/mapi/mapi-message-store-provider-objects.md
-                    - name: Transport Provider Objects
+                    - name: Transport Provider objects
                       href: outlook/mapi/mapi-transport-provider-objects.md
-                  - name: Custom Form Objects
+                  - name: Custom Form objects
                     href: outlook/mapi/mapi-custom-form-objects.md
-                  - name: Using MAPI Objects
+                  - name: Using MAPI objects
                     href: outlook/mapi/using-mapi-objects.md
-                  - name: Implementing MAPI Objects
+                  - name: Implementing MAPI objects
                     href: outlook/mapi/implementing-mapi-objects.md
                     items:
-                    - name: Implementing Objects in C++
+                    - name: Implementing objects in C++
                       href: outlook/mapi/implementing-objects-in-c-plus-plus.md
-                    - name: Implementing Objects in C
+                    - name: Implementing objects in C
                       href: outlook/mapi/implementing-objects-in-c.md
                     - name: Implementing the IUnknown Interface
                       href: outlook/mapi/implementing-the-iunknown-interface.md
@@ -2373,7 +2697,7 @@
                         href: outlook/mapi/implementing-iunknown-in-c-plus-plus.md
                       - name: Implementing IUnknown in C
                         href: outlook/mapi/implementing-iunknown-in-c.md
-                    - name: Implementing a Sample Object
+                    - name: Implementing a Sample object
                       href: outlook/mapi/implementing-a-sample-object.md
                 - name: Property Overview
                   href: outlook/mapi/mapi-property-overview.md
@@ -2382,36 +2706,36 @@
                     href: outlook/mapi/mapi-property-tags.md
                   - name: Property Identifier Overview
                     href: outlook/mapi/mapi-property-identifier-overview.md
-                  - name: Property Type Overview
+                  - name: Property type Overview
                     href: outlook/mapi/mapi-property-type-overview.md
-                  - name: String Properties
+                  - name: String properties
                     href: outlook/mapi/mapi-string-properties.md
-                  - name: Canonical Properties
+                  - name: Canonical properties
                     href: outlook/mapi/mapi-canonical-properties.md
                   - name: Mapping Canonical Property Names to MAPI Names
                     href: outlook/mapi/mapping-canonical-property-names-to-mapi-names.md
                   - name: Mapping MAPI Names to Canonical Property Names
                     href: outlook/mapi/mapping-mapi-names-to-canonical-property-names.md
-                  - name: Objects and Properties
+                  - name: Objects and properties
                     href: outlook/mapi/mapi-objects-and-properties.md
                   - name: Handling Property Errors
                     href: outlook/mapi/handling-mapi-property-errors.md
-                  - name: Defining New Properties
+                  - name: Defining New properties
                     href: outlook/mapi/defining-new-mapi-properties.md
-                  - name: Permissions for Objects and Properties
+                  - name: Permissions for objects and properties
                     href: outlook/mapi/permissions-for-mapi-objects-and-properties.md
-                  - name: Retrieving Properties
+                  - name: Retrieving properties
                     href: outlook/mapi/retrieving-mapi-properties.md
-                  - name: Updating Properties
+                  - name: Updating properties
                     href: outlook/mapi/updating-mapi-properties.md
-                  - name: Copying Properties
+                  - name: Copying properties
                     href: outlook/mapi/copying-mapi-properties.md
-                  - name: Saving Properties
+                  - name: Saving properties
                     href: outlook/mapi/saving-mapi-properties.md
-                  - name: Named Properties
+                  - name: Named properties
                     href: outlook/mapi/mapi-named-properties.md
                     items:
-                    - name: Supporting Named Properties
+                    - name: Supporting Named properties
                       href: outlook/mapi/supporting-named-properties.md
                     - name: Property Names and Property Sets
                       href: outlook/mapi/property-names-and-property-sets.md
@@ -2419,21 +2743,21 @@
                       href: outlook/mapi/mappings-and-mapping-signatures.md
                     - name: Handling Named Property Errors
                       href: outlook/mapi/handling-named-property-errors.md
-                    - name: Transmitting and Copying Named Properties
+                    - name: Transmitting and Copying Named properties
                       href: outlook/mapi/transmitting-and-copying-named-properties.md
                     - name: Commonly Used Property Sets
                       href: outlook/mapi/commonly-used-property-sets.md
-                  - name: Property Identifiers and Types
+                  - name: Property Identifiers and types
                     href: outlook/mapi/property-identifiers-and-types.md
                     items:
                     - name: Property Identifier Ranges
                       href: outlook/mapi/property-identifier-ranges.md
-                    - name: Property Types
+                    - name: Property types
                       href: outlook/mapi/property-types.md
-                  - name: Mapping of Internet Mail Attributes to MAPI Properties
+                  - name: Mapping of Internet mail Attributes to MAPI properties
                     href: outlook/mapi/mapping-of-internet-mail-attributes-to-mapi-properties.md
                     items:
-                    - name: SMTP Addresses
+                    - name: SMTP addresses
                       href: outlook/mapi/smtp-addresses.md
                     - name: Message Envelope
                       href: outlook/mapi/message-envelope.md
@@ -2442,7 +2766,7 @@
                       items:
                       - name: Message Text
                         href: outlook/mapi/message-text.md
-                      - name: Attached Files and Messages
+                      - name: Attached files and messages
                         href: outlook/mapi/attached-files-and-messages.md
               - name: Service Providers
                 href: outlook/mapi/mapi-service-providers.md
@@ -2450,7 +2774,7 @@
                 - name: Service Provider Development Basics
                   href: outlook/mapi/service-provider-development-basics.md
                   items:
-                  - name: Support Object Overview
+                  - name: Support object Overview
                     href: outlook/mapi/support-object-overview.md
                   - name: Starting a Service Provider
                     href: outlook/mapi/starting-a-service-provider.md
@@ -2462,7 +2786,7 @@
                       items:
                       - name: Verifying Service Provider Configuration
                         href: outlook/mapi/verifying-service-provider-configuration.md
-                      - name: Implementing a Logon Object
+                      - name: Implementing a Logon object
                         href: outlook/mapi/implementing-a-logon-object.md
                       - name: Registering Service Provider Unique Identifiers
                         href: outlook/mapi/registering-service-provider-unique-identifiers.md
@@ -2471,11 +2795,11 @@
                     items:
                     - name: Shutting Down a Message Store Provider
                       href: outlook/mapi/shutting-down-a-message-store-provider.md
-                    - name: Invalidating an Object
+                    - name: Invalidating an object
                       href: outlook/mapi/invalidating-an-object.md
-                  - name: Supporting Object Access and Comparison
+                  - name: Supporting object access and Comparison
                     href: outlook/mapi/supporting-object-access-and-comparison.md
-                  - name: Supporting Event Notification
+                  - name: Supporting event Notification
                     href: outlook/mapi/supporting-event-notification.md
                   - name: Message Service Implementation
                     href: outlook/mapi/message-service-implementation.md
@@ -2491,56 +2815,56 @@
                   - name: Display Table Implementation
                     href: outlook/mapi/display-table-implementation.md
                     items:
-                    - name: Creating Display Tables and Related Structures
+                    - name: Creating display Tables and Related Structures
                       href: outlook/mapi/creating-display-tables-and-related-structures.md
                     - name: Displaying Table Controls
                       href: outlook/mapi/displaying-table-controls.md
                     - name: Displaying Table Rows and Columns
                       href: outlook/mapi/displaying-table-rows-and-columns.md
-                  - name: Control Object Implementation
+                  - name: Control object Implementation
                     href: outlook/mapi/control-object-implementation.md
-                  - name: Status Object Implementation
+                  - name: Status object Implementation
                     href: outlook/mapi/status-object-implementation.md
                   - name: Progress Indicators
                     href: outlook/mapi/mapi-progress-indicators.md
                     items:
-                    - name: Progress Objects
+                    - name: Progress objects
                       href: outlook/mapi/mapi-progress-objects.md
                     - name: Display a Progress Indicator
                       href: outlook/mapi/how-to-display-a-progress-indicator.md
-                - name: Developing a MAPI Address Book Provider
+                - name: Developing a MAPI address book Provider
                   href: outlook/mapi/developing-a-mapi-address-book-provider.md
                   items:
-                  - name: Required Features for Address Book Providers
+                  - name: Required Features for address book Providers
                     href: outlook/mapi/required-features-for-address-book-providers.md
                     items:
-                    - name: Implementing an Address Book Provider Entry Point Function
+                    - name: Implementing an address book Provider Entry Point Function
                       href: outlook/mapi/implementing-an-address-book-provider-entry-point-function.md
-                    - name: Implementing Address Book Provider Logon and Logoff
+                    - name: Implementing address book Provider Logon and Logoff
                       href: outlook/mapi/implementing-address-book-provider-logon-and-logoff.md
-                  - name: Required Features for Address Book Containers
+                  - name: Required Features for address book Containers
                     href: outlook/mapi/required-features-for-address-book-containers.md
                     items:
-                    - name: Opening Address Book Entries
+                    - name: Opening address book entries
                       href: outlook/mapi/opening-address-book-entries.md
-                    - name: Comparing Address Book Entries
+                    - name: Comparing address book entries
                       href: outlook/mapi/comparing-address-book-entries.md
-                    - name: Adding Address Book Entries
+                    - name: Adding address book entries
                       href: outlook/mapi/adding-address-book-entries.md
-                    - name: Copying Address Book Entries
+                    - name: Copying address book entries
                       href: outlook/mapi/copying-address-book-entries.md
-                    - name: Removing Address Book Entries
+                    - name: Removing address book entries
                       href: outlook/mapi/removing-address-book-entries.md
                     - name: Implementing Name Resolution
                       href: outlook/mapi/implementing-name-resolution.md
-                    - name: Displaying Recipient Information
+                    - name: Displaying recipient information
                       href: outlook/mapi/displaying-recipient-information.md
-                  - name: Optional Features for Address Book Providers
+                  - name: Optional Features for address book Providers
                     href: outlook/mapi/optional-features-for-address-book-providers.md
                     items:
-                    - name: Acting as a Foreign Address Book Provider
+                    - name: Acting as a Foreign address book Provider
                       href: outlook/mapi/acting-as-a-foreign-address-book-provider.md
-                    - name: Acting as a Host Address Book Provider
+                    - name: Acting as a Host address book Provider
                       href: outlook/mapi/acting-as-a-host-address-book-provider.md
                     - name: Implementing Advanced Searching
                       href: outlook/mapi/implementing-advanced-searching.md
@@ -2581,12 +2905,12 @@
                       href: outlook/mapi/releasing-the-transport-provider.md
                     - name: Implementing the FlushQueues Method
                       href: outlook/mapi/implementing-the-flushqueues-method.md
-                    - name: Setting Properties on Incoming Messages
+                    - name: Setting properties on Incoming messages
                       href: outlook/mapi/setting-properties-on-incoming-messages.md
                   - name: Optional Transport Provider Features
                     href: outlook/mapi/optional-transport-provider-features.md
                     items:
-                    - name: Implementing Security
+                    - name: Implementing security
                       href: outlook/mapi/implementing-security.md
                     - name: Displaying Configuration Property Sheets
                       href: outlook/mapi/displaying-configuration-property-sheets.md
@@ -2602,13 +2926,13 @@
                     - name: Custom Processing with TNEF
                       href: outlook/mapi/custom-processing-with-tnef.md
                       items:
-                      - name: Sending Messages by Using TNEF Custom Attachment Processing
+                      - name: Sending messages by using TNEF Custom attachment Processing
                         href: outlook/mapi/sending-messages-by-using-tnef-custom-attachment-processing.md
-                      - name: Receiving Messages by Using TNEF Custom Attachment Processing
+                      - name: Receiving messages by using TNEF Custom attachment Processing
                         href: outlook/mapi/receiving-messages-by-using-tnef-custom-attachment-processing.md
                     - name: TNEF-Tagged Message Text
                       href: outlook/mapi/tnef-tagged-message-text.md
-                    - name: Encoding Recipient Tables by Using TNEF
+                    - name: Encoding recipient Tables by using TNEF
                       href: outlook/mapi/encoding-recipient-tables-by-using-tnef.md
                 - name: Developing a MAPI Message Store Provider
                   href: outlook/mapi/developing-a-mapi-message-store-provider.md
@@ -2620,37 +2944,37 @@
                   - name: Message Store Features
                     href: outlook/mapi/message-store-features.md
                     items:
-                    - name: Implementing Folders in Message Stores
+                    - name: Implementing folders in Message Stores
                       href: outlook/mapi/implementing-folders-in-message-stores.md
                       items:
-                      - name: Exposing Folders in Message Stores
+                      - name: Exposing folders in Message Stores
                         href: outlook/mapi/exposing-folders-in-message-stores.md
-                      - name: Inbox and Outbox Folders in Message Stores
+                      - name: Inbox and Outbox folders in Message Stores
                         href: outlook/mapi/inbox-and-outbox-folders-in-message-stores.md
-                      - name: Special Folders in Message Stores
+                      - name: Special folders in Message Stores
                         href: outlook/mapi/special-folders-in-message-stores.md
-                    - name: Implementing Messages in Message Stores
+                    - name: Implementing messages in Message Stores
                       href: outlook/mapi/implementing-messages-in-message-stores.md
                       items:
-                      - name: Creating and Storing Messages in Message Stores
+                      - name: Creating and Storing messages in Message Stores
                         href: outlook/mapi/creating-and-storing-messages-in-message-stores.md
-                      - name: Supporting Named Properties in Message Stores
+                      - name: Supporting Named properties in Message Stores
                         href: outlook/mapi/supporting-named-properties-in-message-stores.md
-                      - name: Supporting Multivalued Properties in Message Stores
+                      - name: Supporting Multivalued properties in Message Stores
                         href: outlook/mapi/supporting-multivalued-properties-in-message-stores.md
-                      - name: Supporting Multiple Client Access to Messages in Message Stores
+                      - name: Supporting multiple Client access to messages in Message Stores
                         href: outlook/mapi/supporting-multiple-client-access-to-messages-in-message-stores.md
                     - name: Providing Read and Nonread Reports for Message Store Providers
                       href: outlook/mapi/providing-read-and-nonread-reports-for-message-store-providers.md
                     - name: Implementing a Configuration Interface for Message Store Providers
                       href: outlook/mapi/implementing-a-configuration-interface-for-message-store-providers.md
-                    - name: Folder-Associated Information Tables
+                    - name: Folder-Associated information Tables
                       href: outlook/mapi/folder-associated-information-tables.md
-                    - name: Sending Messages by Using Message Store Providers
+                    - name: Sending messages by using Message Store Providers
                       href: outlook/mapi/sending-messages-by-using-message-store-providers.md
-                    - name: Receiving Messages by Using Message Store Providers
+                    - name: Receiving messages by using Message Store Providers
                       href: outlook/mapi/receiving-messages-by-using-message-store-providers.md
-                    - name: Supporting Message Attachments for Message Store Providers
+                    - name: Supporting Message attachments for Message Store Providers
                       href: outlook/mapi/supporting-message-attachments-for-message-store-providers.md
                     - name: Supporting RTF Text for Message Store Providers
                       href: outlook/mapi/supporting-rtf-text-for-message-store-providers.md
@@ -2660,7 +2984,7 @@
                       href: outlook/mapi/grouping-and-restricting-tables-in-message-store-providers.md
                     - name: Supporting Searches in Message Store Providers
                       href: outlook/mapi/supporting-searches-in-message-store-providers.md
-                    - name: Generating and Using Entry Identifiers in Message Store Providers
+                    - name: Generating and using Entry Identifiers in Message Store Providers
                       href: outlook/mapi/generating-and-using-entry-identifiers-in-message-store-providers.md
                   - name: Default Message Stores
                     href: outlook/mapi/default-message-stores.md
@@ -3904,11 +4228,11 @@
                   href: outlook/mapi/archivesourcesupportmask.md
                 - name: CrawlSourceSupportMask
                   href: outlook/mapi/crawlsourcesupportmask.md
-                - name: Display Server Folder Sizes Property
+                - name: Display Server folder Sizes Property
                   href: outlook/mapi/display-server-folder-sizes-property.md
-                - name: Hide Meeting Update Option Property
+                - name: Hide meeting Update Option Property
                   href: outlook/mapi/hide-meeting-update-option-property.md
-                - name: Make Store Type Private Property
+                - name: Make Store type Private Property
                   href: outlook/mapi/make-store-type-private-property.md
                 - name: NoFolderScan
                   href: outlook/mapi/nofolderscan.md
@@ -6124,7 +6448,7 @@
                   href: outlook/mapi/sizedsrowset.md
                 - name: SizedSSortOrderSet
                   href: outlook/mapi/sizedssortorderset.md
-              - name: Data Types
+              - name: Data types
                 href: outlook/mapi/mapi-data-types.md
                 items:
                 - name: BOOKMARK
@@ -6288,7 +6612,7 @@
        items:
        - name: Visio VBA reference
          href: https://docs.microsoft.com/en-us/office/vba/api/overview/visio
-       - name: Visio Save as Web Reference
+       - name: Visio save as Web Reference
          href: https://docs.microsoft.com/en-us/office/vba/api/overview/Visio/visio-save-as-web-reference
        - name: Visio Viewer reference
          href: https://docs.microsoft.com/en-us/office/vba/api/overview/Visio/visio-viewer-reference
@@ -6316,7 +6640,7 @@
              href: visio/about-functions.md
            - name: About Operators
              href: visio/about-operators.md
-           - name: About Security Settings and Running Code in Visio
+           - name: About security Settings and Running Code in Visio
              href: visio/about-security-settings-and-running-code-in-visio-shapesheet.md
            - name: About Strings
              href: visio/about-strings.md
@@ -6355,7 +6679,7 @@
              href: visio/reference-a-cell-in-a-formula.md
            - name: Run in Developer Mode (Display the Developer Tab)
              href: visio/run-in-developer-mode-display-the-developer-tab.md
-           - name: Show an Object in the ShapeSheet Window
+           - name: Show an object in the ShapeSheet Window
              href: visio/show-an-object-in-the-shapesheet-window.md
            - name: Type a New Formula for a Cell
              href: visio/type-a-new-formula-for-a-cell.md
@@ -7728,7 +8052,7 @@
                href: visio/hyperlinks-section.md
              - name: Image Properties Section
                href: visio/image-properties-section.md
-             - name: Layer Membership Section
+             - name: Layer membership Section
                href: visio/layer-membership-section.md
              - name: Layers Section
                href: visio/layers-section.md

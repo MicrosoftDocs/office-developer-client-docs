@@ -70,7 +70,7 @@ private void RecurringYearNthAppointment()
 
 ## See also
 
-#### Other resources
+
 
 [Appointments](appointments.md)
 

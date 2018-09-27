@@ -68,7 +68,7 @@ private void BusinessCardLayoutExample()
 
 ## See also
 
-#### Other resources
+
 
 [Electronic Business Cards](electronic-business-cards.md)
 

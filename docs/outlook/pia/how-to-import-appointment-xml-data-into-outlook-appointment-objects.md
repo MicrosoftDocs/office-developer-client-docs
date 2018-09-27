@@ -295,7 +295,7 @@ namespace OutlookAddIn1
 
 ## See also
 
-#### Other resources
+
 
 [Appointments](appointments.md)
 

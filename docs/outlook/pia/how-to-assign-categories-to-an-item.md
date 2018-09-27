@@ -70,7 +70,7 @@ private void AssignCategories()
 
 ## See also
 
-#### Other resources
+
 
 [Color Categories](color-categories.md)
 

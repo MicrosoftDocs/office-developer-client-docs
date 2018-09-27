@@ -60,7 +60,7 @@ private void CreateRecurringAppointment()
 
 ## See also
 
-#### Other resources
+
 
 [Appointments](appointments.md)
 

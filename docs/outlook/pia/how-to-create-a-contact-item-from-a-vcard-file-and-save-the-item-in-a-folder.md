@@ -86,7 +86,7 @@ private void ImportContacts(string path, Outlook.Folder targetFolder)
 
 ## See also
 
-#### Other resources
+
 
 [Contacts](contacts.md)
 

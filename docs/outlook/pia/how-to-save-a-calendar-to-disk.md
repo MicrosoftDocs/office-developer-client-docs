@@ -83,7 +83,7 @@ private void SaveCalendarToDisk(string calendarFileName)
 
 ## See also
 
-#### Other resources
+
 
 [Calendar](calendar.md)
 

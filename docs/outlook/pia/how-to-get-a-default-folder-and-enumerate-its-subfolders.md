@@ -68,7 +68,7 @@ private void GetRSSFeeds()
 
 ## See also
 
-#### Other resources
+
 
 [Folders](folders.md)
 

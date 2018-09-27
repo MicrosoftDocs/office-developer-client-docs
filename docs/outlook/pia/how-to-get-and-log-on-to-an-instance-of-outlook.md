@@ -129,7 +129,7 @@ namespace OutlookAddIn1
 
 ## See also
 
-#### Other resources
+
 
 [Sessions](sessions.md)
 

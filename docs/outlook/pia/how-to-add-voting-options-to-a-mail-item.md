@@ -53,7 +53,7 @@ using Outlook = Microsoft.Office.Interop.Outlook;
 
 ## See also
 
-#### Other resources
+
 
 [Mail](mail.md)
 

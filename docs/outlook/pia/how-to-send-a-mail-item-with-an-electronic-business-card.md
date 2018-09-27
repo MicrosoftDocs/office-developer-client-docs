@@ -73,7 +73,7 @@ private void AddBusinessCard(string eMailAddress)
 
 ## See also
 
-#### Other resources
+
 
 [Electronic Business Cards](electronic-business-cards.md)
 

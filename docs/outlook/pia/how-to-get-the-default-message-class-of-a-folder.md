@@ -65,7 +65,7 @@ private string GetDefaultMessageClass(Outlook.Folder folder)
 
 ## See also
 
-#### Other resources
+
 
 [Folders](folders.md)
 

@@ -79,7 +79,7 @@ private void EnumerateContactsWithSetColumns()
 
 ## See also
 
-#### Other resources
+
 
 [Search and Filter](search-and-filter.md)
 

@@ -73,7 +73,7 @@ private void SetRecipientTypeForAppt()
 
 ## See also
 
-#### Other resources
+
 
 [Appointments](appointments.md)
 

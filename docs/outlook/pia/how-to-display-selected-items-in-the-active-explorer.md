@@ -59,7 +59,7 @@ private void DisplaySelectedItems()
 
 [How to: Create a Helper Class to Access Common Outlook Item Members](how-to-create-a-helper-class-to-access-common-outlook-item-members.md)
 
-#### Other resources
+
 
 [General Outlook Items](https://msdn.microsoft.com/en-us/library/hh780899\(v=office.15\))
 

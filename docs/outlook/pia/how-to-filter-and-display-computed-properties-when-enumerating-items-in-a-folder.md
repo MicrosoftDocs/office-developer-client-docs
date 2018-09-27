@@ -179,7 +179,7 @@ private void GetToDoItems()
 
 ## See also
 
-#### Other resources
+
 
 [Search and Filter](search-and-filter.md)
 

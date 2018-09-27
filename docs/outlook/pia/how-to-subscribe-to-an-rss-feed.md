@@ -62,7 +62,7 @@ private void AddRssFeed()
 
 ## See also
 
-#### Other resources
+
 
 [Group Sharing](group-sharing.md)
 

@@ -113,7 +113,7 @@ private bool CategoryExists(string categoryName)
 
 ## See also
 
-#### Other resources
+
 
 [Color Categories](color-categories.md)
 

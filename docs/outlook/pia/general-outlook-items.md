@@ -34,7 +34,7 @@ This section includes sample code that is applicable to most Outlook items. Furt
 
 [How to: Implement a Wrapper for Inspectors and Track Item-Level Events in Each Inspector](how-to-implement-a-wrapper-for-inspectors-and-track-item-level-events-in-each-inspector.md)
 
-#### Other resources
+
 
 [How Do I... (Outlook 2013 PIA Reference)](how-do-i-outlook-2013-pia-reference.md)
 

@@ -74,7 +74,7 @@ private void SendSalesReport()
 
 ## See also
 
-#### Other resources
+
 
 [Mail](mail.md)
 

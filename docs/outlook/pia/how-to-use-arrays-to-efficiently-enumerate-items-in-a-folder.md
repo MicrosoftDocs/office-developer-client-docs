@@ -63,7 +63,7 @@ private void DemoGetArrayForTable()
 
 ## See also
 
-#### Other resources
+
 
 [Search and Filter](search-and-filter.md)
 

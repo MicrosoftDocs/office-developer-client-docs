@@ -58,7 +58,7 @@ private void ShowTaskRequests()
 
 ## See also
 
-#### Other resources
+
 
 [Tasks](tasks.md)
 

@@ -28,7 +28,7 @@ This section provides sample tasks that involve stores. A store represents a fil
 
 ## See also
 
-#### Other resources
+
 
 [How Do I... (Outlook 2013 PIA Reference)](how-do-i-outlook-2013-pia-reference.md)
 

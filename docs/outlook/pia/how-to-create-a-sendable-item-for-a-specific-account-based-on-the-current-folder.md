@@ -101,7 +101,7 @@ private void CreateMeetingRequestFromAccount()
 
 ## See also
 
-#### Other resources
+
 
 [Accounts](accounts.md)
 

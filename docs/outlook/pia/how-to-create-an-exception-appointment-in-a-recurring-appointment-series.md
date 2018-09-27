@@ -96,7 +96,7 @@ private void CreateExceptionExample()
 
 ## See also
 
-#### Other resources
+
 
 [Appointments](appointments.md)
 

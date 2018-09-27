@@ -115,7 +115,7 @@ private void DemoTableColumns()
 
 ## See also
 
-#### Other resources
+
 
 [Search and Filter](search-and-filter.md)
 

@@ -1040,7 +1040,7 @@ namespace SampleCodeAddinCS
 
 [How to: Implement a Wrapper for Inspectors and Track Item-Level Events in Each Inspector](how-to-implement-a-wrapper-for-inspectors-and-track-item-level-events-in-each-inspector.md)
 
-#### Other resources
+
 
 [General Outlook Items](general-outlook-items.md)
 

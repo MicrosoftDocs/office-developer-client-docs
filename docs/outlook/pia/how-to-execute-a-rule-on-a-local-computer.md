@@ -65,7 +65,7 @@ private void DemoOnMachineOnly()
 
 ## See also
 
-#### Other resources
+
 
 [Rules](rules.md)
 

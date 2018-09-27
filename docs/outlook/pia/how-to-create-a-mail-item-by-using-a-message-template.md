@@ -60,7 +60,7 @@ private void CreateItemFromTemplate()
 
 ## See also
 
-#### Other resources
+
 
 [Mail](mail.md)
 

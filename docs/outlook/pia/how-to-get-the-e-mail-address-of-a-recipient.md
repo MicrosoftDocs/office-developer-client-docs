@@ -42,7 +42,7 @@ private void GetSMTPAddressForRecipients(Outlook.MailItem mail)
 
 ## See also
 
-#### Other resources
+
 
 [Recipients](recipients.md)
 

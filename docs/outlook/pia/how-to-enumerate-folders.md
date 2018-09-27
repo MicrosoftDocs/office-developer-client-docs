@@ -69,7 +69,7 @@ private void EnumerateFolders(Outlook.Folder folder)
 
 ## See also
 
-#### Other resources
+
 
 [Folders](folders.md)
 

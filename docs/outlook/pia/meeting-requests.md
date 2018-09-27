@@ -42,7 +42,7 @@ This section provides sample tasks that involve meeting requests, which are requ
 
 ## See also
 
-#### Other resources
+
 
 [How Do I... (Outlook 2013 PIA Reference)](how-do-i-outlook-2013-pia-reference.md)
 

@@ -60,7 +60,7 @@ private void DemoViewGetTable()
 
 ## See also
 
-#### Other resources
+
 
 [Views](views.md)
 

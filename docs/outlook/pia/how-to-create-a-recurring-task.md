@@ -68,7 +68,7 @@ private void CreateRecurringTask()
 
 ## See also
 
-#### Other resources
+
 
 [Tasks](tasks.md)
 

@@ -103,7 +103,7 @@ private void DemoTaskFlagging()
 
 ## See also
 
-#### Other resources
+
 
 [Tasks](tasks.md)
 

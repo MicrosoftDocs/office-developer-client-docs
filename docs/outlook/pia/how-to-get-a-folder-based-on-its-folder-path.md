@@ -92,7 +92,7 @@ private Outlook.Folder GetFolder(string folderPath)
 
 ## See also
 
-#### Other resources
+
 
 [Folders](folders.md)
 

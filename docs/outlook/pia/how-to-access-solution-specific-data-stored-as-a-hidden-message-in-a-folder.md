@@ -80,7 +80,7 @@ private string GetWorkHoursXML()
 
 ## See also
 
-#### Other resources
+
 
 [Folders](folders.md)
 

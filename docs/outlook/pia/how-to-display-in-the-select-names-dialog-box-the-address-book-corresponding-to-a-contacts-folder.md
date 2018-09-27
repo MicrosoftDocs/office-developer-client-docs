@@ -92,7 +92,7 @@ private void ShowContactsFolderAsInitialAddressList()
 
 ## See also
 
-#### Other resources
+
 
 [Address Book](address-book.md)
 

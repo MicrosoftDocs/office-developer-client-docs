@@ -39,7 +39,5 @@ This section provides sample tasks that involve e-mail accounts. Examples of e-m
 
 ## See also
 
-#### Other resources
-
-[How Do I... (Outlook 2013 PIA Reference)](how-do-i-outlook-2013-pia-reference.md)
+- [How Do I... (Outlook 2013 PIA Reference)](how-do-i-outlook-2013-pia-reference.md)
 

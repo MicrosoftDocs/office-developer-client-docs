@@ -30,7 +30,7 @@ Click-to-Run is fast—users can start running an application within a short tim
 
 ## See also
 
-#### Other resources
+
 
 [Add-in Administration](add-in-administration.md)
 

@@ -60,7 +60,7 @@ private void SendUsingAccountExample()
 
 ## See also
 
-#### Other resources
+
 
 [Accounts](accounts.md)
 

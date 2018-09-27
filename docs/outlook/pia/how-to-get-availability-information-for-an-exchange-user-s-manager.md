@@ -118,7 +118,7 @@ private void GetManagerOpenInterval()
 
 ## See also
 
-#### Other resources
+
 
 [Exchange Users](exchange-users.md)
 

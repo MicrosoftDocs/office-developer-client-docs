@@ -59,7 +59,7 @@ private void EnumerateStores()
 
 ## See also
 
-#### Other resources
+
 
 [Stores](stores.md)
 

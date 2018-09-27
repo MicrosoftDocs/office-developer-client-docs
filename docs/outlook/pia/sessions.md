@@ -19,7 +19,7 @@ This section includes a sample task that pertains to Microsoft Outlook sessions.
 
 ## See also
 
-#### Other resources
+
 
 [How Do I... (Outlook 2013 PIA Reference)](how-do-i-outlook-2013-pia-reference.md)
 

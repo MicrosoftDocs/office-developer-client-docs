@@ -183,7 +183,7 @@ class OutlookInspector
 
 ## See also
 
-#### Other resources
+
 
 [Sample Tasks Using Outlook Events](sample-tasks-using-outlook-events.md)
 

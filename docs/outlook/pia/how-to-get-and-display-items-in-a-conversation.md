@@ -122,7 +122,7 @@ void EnumerateConversation(object item,
 
 ## See also
 
-#### Other resources
+
 
 [Conversations](conversations.md)
 

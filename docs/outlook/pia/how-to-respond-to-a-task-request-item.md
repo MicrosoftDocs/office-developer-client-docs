@@ -63,7 +63,7 @@ private void AcceptTaskRequest()
 
 ## See also
 
-#### Other resources
+
 
 [Tasks](tasks.md)
 

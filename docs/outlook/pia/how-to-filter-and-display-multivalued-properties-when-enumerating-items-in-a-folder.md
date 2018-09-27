@@ -113,7 +113,7 @@ private void TableMultiValuedProperties()
 
 ## See also
 
-#### Other resources
+
 
 [Search and Filter](search-and-filter.md)
 

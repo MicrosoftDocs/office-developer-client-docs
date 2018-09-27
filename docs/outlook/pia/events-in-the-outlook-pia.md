@@ -94,7 +94,7 @@ Using the Application object as an example, this section describes what each int
 
 [Methods and Properties in the Outlook PIA](methods-and-properties-in-the-outlook-pia.md)
 
-#### Other resources
+
 
 [Developing Managed Outlook Add-ins Using the Outlook PIA](developing-managed-outlook-add-ins-using-the-outlook-pia.md)
 

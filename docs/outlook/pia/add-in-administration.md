@@ -1,5 +1,5 @@
 ﻿---
-title: Add-in Administration
+title: Add-in administration
 TOCTitle: Add-in Administration
 ms:assetid: 08d383c0-18b2-4ce6-bd6b-16c4bb26801b
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff522354(v=office.15)
@@ -19,7 +19,5 @@ This section includes procedures that show common add-in administrative tasks.
 
 ## See also
 
-#### Other resources
-
-[How Do I... (Outlook 2013 PIA Reference)](how-do-i-outlook-2013-pia-reference.md)
+- [How Do I... (Outlook 2013 PIA Reference)](how-do-i-outlook-2013-pia-reference.md)
 

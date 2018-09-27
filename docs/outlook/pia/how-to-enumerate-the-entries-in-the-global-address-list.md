@@ -80,7 +80,7 @@ private void EnumerateGAL()
 
 ## See also
 
-#### Other resources
+
 
 [Address Book](address-book.md)
 

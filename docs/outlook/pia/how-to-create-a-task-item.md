@@ -61,7 +61,7 @@ private void CreateToDoItemExample()
 
 ## See also
 
-#### Other resources
+
 
 [Tasks](tasks.md)
 

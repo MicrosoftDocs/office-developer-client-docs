@@ -107,7 +107,7 @@ private void CreateMeetingRequestsView()
 
 ## See also
 
-#### Other resources
+
 
 [Views](views.md)
 

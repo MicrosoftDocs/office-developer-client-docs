@@ -102,7 +102,7 @@ private void ModifyMeetingRequestsView()
 
 ## See also
 
-#### Other resources
+
 
 [Views](views.md)
 

@@ -40,7 +40,7 @@ This section provides examples that involve tasks. Tasks are used in Microsoft O
 
 ## See also
 
-#### Other resources
+
 
 [How Do I... (Outlook 2013 PIA Reference)](how-do-i-outlook-2013-pia-reference.md)
 

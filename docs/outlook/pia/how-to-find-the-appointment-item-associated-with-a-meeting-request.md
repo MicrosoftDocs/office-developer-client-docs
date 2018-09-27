@@ -69,7 +69,7 @@ private void MeetingRequestsExample()
 
 ## See also
 
-#### Other resources
+
 
 [Meeting Requests](meeting-requests.md)
 

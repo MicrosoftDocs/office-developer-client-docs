@@ -84,7 +84,7 @@ private Object CheckManagerResponseStatus(Outlook.AppointmentItem appt)
 
 ## See also
 
-#### Other resources
+
 
 [Exchange Users](exchange-users.md)
 

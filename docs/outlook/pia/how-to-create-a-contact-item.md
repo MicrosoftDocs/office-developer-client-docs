@@ -73,7 +73,7 @@ private void CreateContactExample()
 
 ## See also
 
-#### Other resources
+
 
 [Contacts](contacts.md)
 

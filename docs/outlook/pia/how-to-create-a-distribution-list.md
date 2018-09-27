@@ -88,7 +88,7 @@ private void CreateDistributionList()
 
 ## See also
 
-#### Other resources
+
 
 [Exchange Users](exchange-users.md)
 

@@ -69,7 +69,7 @@ private Outlook.AddressEntry GetMeetingOrganizer(Outlook.AppointmentItem appt)
 
 ## See also
 
-#### Other resources
+
 
 [Meeting Requests](meeting-requests.md)
 

@@ -278,7 +278,7 @@ The Office Developer Documentation team welcomes your task ideas and code sample
 
 ## See also
 
-#### Other resources
+
 
 [Programming Applications for Microsoft Office Outlook 2007](http://www.amazon.com/gp/product/0735622493?ie=utf8%26tag=msmsdn-20%26linkcode=as2%26camp=1789%26creative=9325%26creativeasin=0735622493)
 

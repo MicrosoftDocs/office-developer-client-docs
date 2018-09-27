@@ -95,7 +95,7 @@ private void DemoSearchBody()
 
 ## See also
 
-#### Other resources
+
 
 [Search and Filter](search-and-filter.md)
 

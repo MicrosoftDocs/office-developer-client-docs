@@ -102,7 +102,7 @@ private void ResolveRecipients(Outlook.Recipients recips)
 
 ## See also
 
-#### Other resources
+
 
 [Recipients](recipients.md)
 

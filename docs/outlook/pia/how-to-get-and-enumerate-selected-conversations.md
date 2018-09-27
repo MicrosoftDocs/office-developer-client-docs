@@ -82,7 +82,7 @@ private void DemoConversationHeadersFromSelection()
 
 ## See also
 
-#### Other resources
+
 
 [Conversations](conversations.md)
 

@@ -96,7 +96,7 @@ private void DemoCalendarSharing()
 
 ## See also
 
-#### Other resources
+
 
 [Calendar](calendar.md)
 

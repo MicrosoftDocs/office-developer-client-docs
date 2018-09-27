@@ -36,7 +36,7 @@ This section provides sample tasks that involve address books. Address books are
 
 ## See also
 
-#### Other resources
+
 
 [How Do I... (Outlook 2013 PIA Reference)](how-do-i-outlook-2013-pia-reference.md)
 

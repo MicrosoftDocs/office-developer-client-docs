@@ -79,7 +79,7 @@ private void CheckOccurrenceExample()
 
 ## See also
 
-#### Other resources
+
 
 [Appointments](appointments.md)
 

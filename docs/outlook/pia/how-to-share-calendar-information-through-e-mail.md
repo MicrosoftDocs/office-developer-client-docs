@@ -95,7 +95,7 @@ private void SendNextWeekToAddress(string sendToAddresses)
 
 ## See also
 
-#### Other resources
+
 
 [Calendar](calendar.md)
 

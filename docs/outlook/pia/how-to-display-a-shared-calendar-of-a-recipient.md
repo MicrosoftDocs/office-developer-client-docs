@@ -94,7 +94,7 @@ private void DisplayManagerCalendar()
 
 ## See also
 
-#### Other resources
+
 
 [Calendar](calendar.md)
 

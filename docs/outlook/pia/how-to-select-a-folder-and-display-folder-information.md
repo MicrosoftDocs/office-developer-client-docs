@@ -78,7 +78,7 @@ private void ShowFolderInfo()
 
 ## See also
 
-#### Other resources
+
 
 [Folders](folders.md)
 

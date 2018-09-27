@@ -129,7 +129,7 @@ private void OpenICalendarFile(string fileName)
 
 ## See also
 
-#### Other resources
+
 
 [Calendar](calendar.md)
 

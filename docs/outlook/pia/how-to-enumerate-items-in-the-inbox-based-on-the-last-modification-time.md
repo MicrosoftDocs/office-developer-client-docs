@@ -65,7 +65,7 @@ private void DemoTableForInbox()
 
 ## See also
 
-#### Other resources
+
 
 [Search and Filter](search-and-filter.md)
 

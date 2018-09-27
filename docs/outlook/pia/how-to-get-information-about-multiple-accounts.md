@@ -110,7 +110,7 @@ private void EnumerateAccounts()
 
 ## See also
 
-#### Other resources
+
 
 [Accounts](accounts.md)
 

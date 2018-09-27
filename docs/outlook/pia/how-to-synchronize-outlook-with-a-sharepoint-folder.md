@@ -99,7 +99,7 @@ private void AddSpsFolder()
 
 ## See also
 
-#### Other resources
+
 
 [Group Sharing](group-sharing.md)
 

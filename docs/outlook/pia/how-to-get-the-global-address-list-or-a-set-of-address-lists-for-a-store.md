@@ -130,7 +130,7 @@ public List<Outlook.AddressList> GetAddressLists(Outlook.Store store)
 
 ## See also
 
-#### Other resources
+
 
 [Address Book](address-book.md)
 

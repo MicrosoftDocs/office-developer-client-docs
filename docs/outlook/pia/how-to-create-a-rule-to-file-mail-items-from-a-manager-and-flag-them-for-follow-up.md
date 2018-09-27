@@ -162,7 +162,7 @@ private void CreateManagerRule()
 
 ## See also
 
-#### Other resources
+
 
 [Rules](rules.md)
 

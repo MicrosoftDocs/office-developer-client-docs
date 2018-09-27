@@ -137,7 +137,7 @@ private void DemoUserDefinedProperty()
 
 ## See also
 
-#### Other resources
+
 
 [Folders](folders.md)
 

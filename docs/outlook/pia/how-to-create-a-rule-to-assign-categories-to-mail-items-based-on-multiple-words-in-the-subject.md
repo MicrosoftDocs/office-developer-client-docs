@@ -97,7 +97,7 @@ private bool CategoryExists(string categoryName)
 
 ## See also
 
-#### Other resources
+
 
 [Rules](rules.md)
 

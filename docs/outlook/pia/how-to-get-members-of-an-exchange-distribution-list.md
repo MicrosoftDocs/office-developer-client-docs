@@ -122,7 +122,7 @@ private void GetDistributionListMembers()
 
 ## See also
 
-#### Other resources
+
 
 [Exchange Users](exchange-users.md)
 

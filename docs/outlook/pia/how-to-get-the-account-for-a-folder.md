@@ -63,7 +63,7 @@ Outlook.Account GetAccountForFolder(Outlook.Folder folder)
 
 ## See also
 
-#### Other resources
+
 
 [Accounts](accounts.md)
 

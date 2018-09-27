@@ -74,7 +74,7 @@ private void GetManagerInfo()
 
 ## See also
 
-#### Other resources
+
 
 [Exchange Users](exchange-users.md)
 

@@ -78,7 +78,7 @@ private void DemoSelectNamesDialogRecipients()
 
 ## See also
 
-#### Other resources
+
 
 [Recipients](recipients.md)
 

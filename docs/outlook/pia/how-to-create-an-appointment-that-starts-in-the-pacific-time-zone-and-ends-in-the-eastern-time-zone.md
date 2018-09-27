@@ -74,7 +74,7 @@ private void TimeZoneExample()
 
 ## See also
 
-#### Other resources
+
 
 [Appointments](appointments.md)
 

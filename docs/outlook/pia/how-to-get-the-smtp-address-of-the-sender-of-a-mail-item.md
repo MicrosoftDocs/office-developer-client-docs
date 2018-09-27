@@ -81,7 +81,7 @@ private string GetSenderSMTPAddress(Outlook.MailItem mail)
 
 ## See also
 
-#### Other resources
+
 
 [Mail](mail.md)
 

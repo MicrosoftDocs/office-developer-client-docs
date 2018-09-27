@@ -125,7 +125,7 @@ private Outlook.Items GetAppointmentsInRange(
 
 ## See also
 
-#### Other resources
+
 
 [Search and Filter](search-and-filter.md)
 

@@ -64,7 +64,7 @@ private void AssignTaskExample()
 
 ## See also
 
-#### Other resources
+
 
 [Tasks](tasks.md)
 

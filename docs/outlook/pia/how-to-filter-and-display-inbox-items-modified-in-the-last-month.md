@@ -143,7 +143,7 @@ private void DemoDASLDateMacro()
 
 ## See also
 
-#### Other resources
+
 
 [Search and Filter](search-and-filter.md)
 

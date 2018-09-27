@@ -87,7 +87,7 @@ private void CreateUnicodePST()
 
 ## See also
 
-#### Other resources
+
 
 [Stores](stores.md)
 

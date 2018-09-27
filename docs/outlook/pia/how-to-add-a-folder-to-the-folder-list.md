@@ -68,7 +68,7 @@ private void AddMyNewFolder()
 
 ## See also
 
-#### Other resources
+
 
 [Folders](folders.md)
 

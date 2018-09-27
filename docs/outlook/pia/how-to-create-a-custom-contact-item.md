@@ -61,7 +61,7 @@ private void CreateCustomItem()
 
 ## See also
 
-#### Other resources
+
 
 [Contacts](contacts.md)
 

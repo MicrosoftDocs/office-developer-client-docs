@@ -68,7 +68,7 @@ private void GetCurrentUserMembership()
 
 ## See also
 
-#### Other resources
+
 
 [Exchange Users](exchange-users.md)
 

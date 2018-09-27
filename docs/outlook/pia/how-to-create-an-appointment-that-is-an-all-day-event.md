@@ -66,7 +66,7 @@ private void AllDayEventExample()
 
 ## See also
 
-#### Other resources
+
 
 [Appointments](appointments.md)
 
