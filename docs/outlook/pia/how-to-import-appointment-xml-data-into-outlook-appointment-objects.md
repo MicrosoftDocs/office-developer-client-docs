@@ -86,7 +86,7 @@ The CreateAppointmentsFromXml method accepts two input parameters:
 
 The following example shows input data for the xml parameter.
 
-``` xml
+```xml
 <?xml version="1.0" encoding="utf-8" ?> 
 <appointments>
     <appointment>
