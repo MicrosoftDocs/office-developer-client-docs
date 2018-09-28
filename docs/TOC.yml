@@ -1155,6 +1155,9 @@
                   href: outlook/pia/how-to-enumerate-items-in-a-table-view.md
             - name: Class library
               href: outlook/pia/outlook-2013-interop-assembly-class-library.md
+              items:
+              - name: Microsoft.Office.Interop.Outlook Namespace
+                href: https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook?view=outlook-pia
           - name: Outlook Social Connector provider reference
             href: outlook/social-connector/outlook-social-connector-provider-reference.md
             items:
