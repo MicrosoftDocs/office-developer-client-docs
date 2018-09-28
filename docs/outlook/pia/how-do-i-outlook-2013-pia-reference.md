@@ -20,7 +20,7 @@ Code examples in this section range from the beginner to the intermediate levels
 
 The Office Developer Documentation team welcomes your task ideas and code samples. If we use your code samples in Outlook content, we will recognize your work with a byline and a link to your website. For more information, contact us at docthis@microsoft.com.
 
-## In this section
+## In this section 
 
 [Accounts](accounts.md)
 
@@ -30,16 +30,16 @@ The Office Developer Documentation team welcomes your task ideas and code sample
 - [Get information about multiple accounts](how-to-get-information-about-multiple-accounts.md)
 - [Send a mail item by using a Hotmail account](how-to-send-a-mail-item-by-using-a-hotmail-account.md)
 
-[Address Book](address-book.md)
+[Address book](address-book.md)
 
-- [Display in the Select Names Dialog Box the Address Book Corresponding to a Contacts Folder](how-to-display-in-the-select-names-dialog-box-the-address-book-corresponding-to-a-contacts-folder.md)
-- [Get the Global Address List or a Set of Address Lists for a Store](how-to-get-the-global-address-list-or-a-set-of-address-lists-for-a-store.md)
-- [Enumerate the Entries in the Global Address List](how-to-enumerate-the-entries-in-the-global-address-list.md)
-- [Display the Address Lists for a Profile](how-to-display-the-address-lists-for-a-profile.md)
+- [Display in the Select Names dialog box the address book corresponding to a Contacts folder](how-to-display-in-the-select-names-dialog-box-the-address-book-corresponding-to-a-contacts-folder.md)
+- [[Get the Global Address List or a set of address lists for a store](how-to-get-the-global-address-list-or-a-set-of-address-lists-for-a-store.md)
+- [Enumerate the entries in the Global Address List](how-to-enumerate-the-entries-in-the-global-address-list.md)
+- [Display the address lists for a profile](how-to-display-the-address-lists-for-a-profile.md)
 
 [Add-in Administration](add-in-administration.md)
 
-- [Determine Whether Outlook Is a Click-to-Run Application on a Computer](how-to-determine-whether-outlook-is-a-click-to-run-application-on-a-computer.md)
+- [Determine whether Outlook is a Click-to-Run application on a computer](how-to-determine-whether-outlook-is-a-click-to-run-application-on-a-computer.md)
 
 [Appointments](appointments.md)
 

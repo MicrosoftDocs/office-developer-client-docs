@@ -1,6 +1,6 @@
 ﻿---
-title: 'Determine Whether Outlook Is a Click-to-Run Application on a Computer'
-TOCTitle: 'Determine Whether Outlook Is a Click-to-Run Application on a Computer'
+title: Determine whether Outlook is a Click-to-Run application on a computer
+TOCTitle: Determine whether Outlook is a Click-to-Run application on a computer
 ms:assetid: 1b8573be-8ea8-4973-869d-87fda57ce525
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff522355(v=office.15)
 ms:contentKeyID: 55119804
@@ -8,7 +8,7 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 ---
 
-# Determine Whether Outlook Is a Click-to-Run Application on a Computer
+# Determine whether Outlook is a Click-to-Run application on a computer
 
 Click-to-Run is a software delivery and updating mechanism available to Office 2010 and later versions. Products delivered via Click-to-Run execute in a virtual application environment on the local operating system. This means that they have private copies of their files and settings, and that any changes they make are captured in the virtual environment.
 
@@ -22,15 +22,13 @@ Click-to-Run is fast—users can start running an application within a short tim
 
 ### To check whether Outlook 2013 was delivered by Click-to-Run on a client computer
 
-  - Verify whether the VirtualOutlook key exists in the following location in the Windows registry:
+- Verify whether the VirtualOutlook key exists in the following location in the Windows registry:
     
-    HKEY\_LOCAL\_MACHINE\\SOFTWARE\\WOW6432Node\\Microsoft\\Office\\15.0\\Common\\InstallRoot\\Virtual\\VirtualOutlook
+  `HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\15.0\Common\InstallRoot\Virtual\VirtualOutlook`
     
-    The VirtualOutlook key is a REG\_SZ value that contains the culture tag of the installed product language, such as "en-us".
+  The VirtualOutlook key is a REG\_SZ value that contains the culture tag of the installed product language, such as "en-us".
 
 ## See also
 
-
-
-[Add-in Administration](add-in-administration.md)
+- [Add-in administration](add-in-administration.md)
 

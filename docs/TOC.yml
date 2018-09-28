@@ -27,7 +27,7 @@
          href: shared/compatibility-between-the-32-bit-and-64-bit-versions-of-office.md
        - name: Integrating IM applications with Office
          href: shared/integrating-im-applications-with-office.md
-       - name: Manageability applications and the Office 365 click-to-run installer
+       - name: Manageability applications and the Office 365 Click-to-Run installer
          href: shared/manageability-applications-with-the-office-365-click-to-run-installer.md
        - name: Office telemetry log
          href: shared/office-telemetry-log.md
@@ -904,7 +904,7 @@
               - name: Add-in administration
                 href: outlook/pia/add-in-administration.md
                 items:
-                - name: Determine whether Outlook is a click-to-run application on a computer
+                - name: Determine whether Outlook is a Click-to-Run application on a computer
                   href: outlook/pia/how-to-determine-whether-outlook-is-a-click-to-run-application-on-a-computer.md
               - name: Appointments
                 href: outlook/pia/appointments.md

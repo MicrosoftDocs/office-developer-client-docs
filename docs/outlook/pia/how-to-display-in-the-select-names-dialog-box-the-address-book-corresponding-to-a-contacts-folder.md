@@ -1,6 +1,6 @@
 ﻿---
-title: 'Display in the Select Names Dialog Box the Address Book Corresponding to a Contacts Folder'
-TOCTitle: 'Display in the Select Names Dialog Box the Address Book Corresponding to a Contacts Folder'
+title: Display in the Select Names dialog box the address book corresponding to a Contacts folder
+TOCTitle: Display in the Select Names dialog box the address book corresponding to a Contacts folder
 ms:assetid: 6cbfc843-51b5-4841-bbb1-14b93a35ba78
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb610437(v=office.15)
 ms:contentKeyID: 55119799
@@ -11,7 +11,7 @@ dev_langs:
 - csharp
 ---
 
-# Display in the Select Names Dialog Box the Address Book Corresponding to a Contacts Folder
+# Display in the Select Names dialog box the address book corresponding to a Contacts folder
 
 This example shows how to obtain the address book that corresponds to the default Contacts folder, and then displays the address book in the **Select Names** dialog box.
 
@@ -27,9 +27,11 @@ If you use Visual Studio to test this code example, you must first add a referen
 Imports Outlook = Microsoft.Office.Interop.Outlook
 ```
 
+
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
 ```
+
 
 ```vb
 Private Sub ShowContactsFolderAsInitialAddressList()
@@ -57,6 +59,7 @@ Private Sub ShowContactsFolderAsInitialAddressList()
     Next
 End Sub
 ```
+
 
 ```csharp
 private void ShowContactsFolderAsInitialAddressList()
@@ -92,7 +95,5 @@ private void ShowContactsFolderAsInitialAddressList()
 
 ## See also
 
-
-
-[Address Book](address-book.md)
+- [Address book](address-book.md)
 

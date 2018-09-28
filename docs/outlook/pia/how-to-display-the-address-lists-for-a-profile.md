@@ -1,6 +1,6 @@
 ﻿---
-title: 'Display the Address Lists for a Profile'
-TOCTitle: 'Display the Address Lists for a Profile'
+title: Display the address lists for a profile
+TOCTitle: Display the address lists for a profile
 ms:assetid: ced8230b-110b-4ccb-a699-588798144154
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184643(v=office.15)
 ms:contentKeyID: 55119802
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# Display the Address Lists for a Profile
+# Display the address lists for a profile
 
 This example shows how to display the address lists for the current profile.
 
@@ -65,7 +65,5 @@ private void EnumerateAddressLists()
 
 ## See also
 
-
-
-[Address Book](address-book.md)
+- [Address book](address-book.md)
 
