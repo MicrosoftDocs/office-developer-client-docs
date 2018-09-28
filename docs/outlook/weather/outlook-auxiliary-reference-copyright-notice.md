@@ -9,12 +9,12 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 94e13811-04ec-e381-99ff-cb8f42d4bf1e
-description: "This document is providedas-is. Information and views expressed in this document, including URL and other Internet Web site references, may change without notice. You bear the risk of using it."
+description: "This document is providedas-is. Information and views expressed in this document, including URL and other Internet website references, may change without notice. You bear the risk of using it."
 ---
 
 # Outlook auxiliary reference copyright notice
 
-This document is provided "as-is". Information and views expressed in this document, including URL and other Internet Web site references, may change without notice. You bear the risk of using it.
+This document is provided "as-is". Information and views expressed in this document, including URL and other Internet website references, may change without notice. You bear the risk of using it.
   
 Some examples depicted herein are provided for illustration only and are fictitious. No real association or connection is intended or should be inferred.
   

@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 1425b9f2-606a-4522-b97c-0875d45eb175
-description: "This document is providedas-is. Information and views expressed in this document, including URL and other Internet Web site references, may change without notice. You bear the risk of using it."
+description: "This document is providedas-is. Information and views expressed in this document, including URL and other Internet website references, may change without notice. You bear the risk of using it."
 ---
 
 # Outlook Social Connector 2013 provider reference copyright notice
 
-This document is provided "as-is". Information and views expressed in this document, including URL and other Internet Web site references, may change without notice. You bear the risk of using it.
+This document is provided "as-is". Information and views expressed in this document, including URL and other Internet website references, may change without notice. You bear the risk of using it.
   
 Some examples depicted herein are provided for illustration only and are fictitious. No real association or connection is intended or should be inferred.
   

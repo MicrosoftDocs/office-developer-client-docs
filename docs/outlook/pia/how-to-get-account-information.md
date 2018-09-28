@@ -1,8 +1,7 @@
 ﻿---
-title: 'Get Account Information'
-TOCTitle: 'Get Account Information'
+title: Get account information
+TOCTitle: Get account information
 ms:assetid: 02825449-50eb-42d0-8e45-361db5f473df
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff462091(v=office.15)
 ms:contentKeyID: 55119795
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -11,25 +10,14 @@ dev_langs:
 - csharp
 ---
 
-# Get Account Information
+# Get account information
 
 This topic takes as an input argument a trusted Outlook [Application](https://msdn.microsoft.com/en-us/library/bb646615\(v=office.15\)) object, and uses the Account object to display the details of each account that is available for the current Outlook profile.
 
 ## Example
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p></p></td>
-<td><p>Helmut Obertanner provided the following code examples. Helmut's expertise is in Office Developer Tools for Visual Studio and Outlook. Helmut maintains a professional site at <a href="http://www.outlooksharp.de/">X4Uelectronix</a>.</p></td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE] 
+> Helmut Obertanner provided the following code examples. Helmut's expertise is in Office Developer Tools for Visual Studio and Outlook. Helmut maintains a professional site at [X4Uelectronix](http://www.outlooksharp.de/).
 
 The following code examples contain the DisplayAccountInformation method of the Sample class, implemented as part of an Outlook add-in project. Each project adds a reference to the Outlook Primary Interop Assembly, which is based on the [Microsoft.Office.Interop.Outlook](https://msdn.microsoft.com/en-us/library/bb610835\(v=office.15\)) namespace.
 
@@ -38,6 +26,7 @@ If you use Visual Studio to test this code example, you must first add a referen
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook
 ```
+
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
@@ -111,6 +100,8 @@ Namespace OutlookAddIn2
 End Namespace
 ```
 
+
+
 ```csharp
 using System;
 using System.Text;
@@ -181,7 +172,5 @@ namespace OutlookAddIn1
 
 ## See also
 
-
-
-[Accounts](accounts.md)
+- [Accounts](accounts.md)
 

@@ -1,8 +1,7 @@
 ﻿---
-title: 'Get the Account for a Folder'
-TOCTitle: 'Get the Account for a Folder'
+title: Get the account for a folder
+TOCTitle: Get the account for a folder
 ms:assetid: 3706be15-f746-4d0d-9ffe-d6f46b2004dc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184600(v=office.15)
 ms:contentKeyID: 55119793
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -10,7 +9,7 @@ dev_langs:
 - csharp
 ---
 
-# Get the Account for a Folder
+# Get the account for a folder
 
 This example gets the account that is associated with a folder in the current session.
 
@@ -63,7 +62,5 @@ Outlook.Account GetAccountForFolder(Outlook.Folder folder)
 
 ## See also
 
-
-
-[Accounts](accounts.md)
+- [Accounts](accounts.md)
 

@@ -107,7 +107,7 @@ After defining custom security policy for InfoPath managed-form templates, you c
     
 4. Click **Finish** to create the deployment package. 
     
-5. For information about how to use the .NET Framework Configuration tool, search Visual Studio Help or the MSDN Web site for ".NET Framework Configuration Tool (Mscorcfg.msc)".
+5. For information about how to use the .NET Framework Configuration tool, search Visual Studio Help or the MSDN website for ".NET Framework Configuration Tool (Mscorcfg.msc)".
     
 ## See also
 

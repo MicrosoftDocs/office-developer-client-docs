@@ -181,7 +181,7 @@ The following example shows how an updated, signed form template requesting eith
     
 ### Example: Deploying restricted form templates on an extranet
   
-1. Save the Domain form template on a Web site that is running Microsoft SharePoint Foundation 2010.
+1. Save the Domain form template on a website that is running Microsoft SharePoint Foundation 2010.
     
 2. Change the form template security level to Restricted.
     
@@ -195,7 +195,7 @@ The following example shows how an updated, signed form template requesting eith
     
 7. Have users send the form back to you after filling it out.
     
-8. Save the form back to the Web site that is running SharePoint Foundation 2010 and relink the form by using the **Relink documents to this Library** option in the **Form Library Settings** page. 
+8. Save the form back to the website that is running SharePoint Foundation 2010 and relink the form by using the **Relink documents to this Library** option in the **Form Library Settings** page. 
     
 ## Signature verification failure
 
