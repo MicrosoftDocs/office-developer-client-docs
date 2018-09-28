@@ -43,8 +43,8 @@ The Office Developer Documentation team welcomes your task ideas and code sample
 
 [Appointments](appointments.md)
 
-- [Create an Appointment That Is an All-Day Event](how-to-create-an-appointment-that-is-an-all-day-event.md)
-- [Create an Appointment That Starts in the Pacific Time Zone and Ends in the Eastern Time Zone](how-to-create-an-appointment-that-starts-in-the-pacific-time-zone-and-ends-in-the-eastern-time-zone.md)
+- [Create an appointment that is an all-day event](how-to-create-an-appointment-that-is-an-all-day-event.md)
+- [Create an appointment that starts in the Pacific Time Zone and ends in the Eastern Time Zone](how-to-create-an-appointment-that-starts-in-the-pacific-time-zone-and-ends-in-the-eastern-time-zone.md)
 - [Specify Different Recipient Types for an Appointment Item](how-to-specify-different-recipient-types-for-an-appointment-item.md)
 - [Create a Recurring Appointment by Using the Default Recurrence Pattern](how-to-create-a-recurring-appointment-by-using-the-default-recurrence-pattern.md)
 - [Create a Recurring Appointment That Has a Weekly Pattern](how-to-create-a-recurring-appointment-that-has-a-weekly-pattern.md)

@@ -1,6 +1,6 @@
 ﻿---
-title: 'Create an Appointment That Is an All-Day Event'
-TOCTitle: 'Create an Appointment That Is an All-Day Event'
+title: Create an appointment that is an all-day event
+TOCTitle: Create an appointment that is an all-day event
 ms:assetid: a0d3baeb-6ed5-41b6-bef5-d6c1bb56fee3
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184629(v=office.15)
 ms:contentKeyID: 55119806
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# Create an Appointment That Is an All-Day Event
+# Create an appointment that is an all-day event
 
 This example shows how use the [AllDayEvent](https://msdn.microsoft.com/en-us/library/bb610279\(v=office.15\)) property to create an appointment that is an all-day event.
 
@@ -36,11 +36,10 @@ An event is different from a regular appointment because it is an activity that 
 
 To create an all-day event programmatically, set the [AllDayEvent](https://msdn.microsoft.com/en-us/library/bb610279\(v=office.15\)) property of the [AppointmentItem](https://msdn.microsoft.com/en-us/library/bb645611\(v=office.15\)) object to true. Then set the [Start](https://msdn.microsoft.com/en-us/library/bb647263\(v=office.15\)) and [End](https://msdn.microsoft.com/en-us/library/bb623715\(v=office.15\)) properties of the AppointmentItem. If you set the AllDayEvent property to true and do not set the Start and End properties, the event will occur today, and it will be an appointment, showing a busy status on your calendar. You must set the Start and End properties if you want the event to occur on a future date.
 
-
 > [!NOTE]
-> <P>To make the appointment an all-day event, you must set the Start property to 12:00 A.M. (midnight) on the day you want the event to begin, and set End property to 12:00 A.M. on the day after you want the event to end. If you set the Start or End time to a date and time value other than 12:00 A.M., the appointment will become a multiday appointment instead of an all-day event. For example, if your event duration is only one day, set the Start property to 12:00 A.M. on the day you want the event to begin, and set the End property to 12:00 A.M. on the following day. You should always set the End property to 12:00 A.M. on a date that is more than one day after the start date.</P>
-
-
+> To make the appointment an all-day event, you must set the Start property to 12:00 A.M. (midnight) on the day you want the event to begin, and set End property to 12:00 A.M. on the day after you want the event to end. If you set the Start or End time to a date and time value other than 12:00 A.M., the appointment will become a multiday appointment instead of an all-day event. 
+>
+> For example, if your event duration is only one day, set the Start property to 12:00 A.M. on the day you want the event to begin, and set the End property to 12:00 A.M. on the following day. You should always set the End property to 12:00 A.M. on a date that is more than one day after the start date.
 
 In the following code example, AllDayEventExample creates an all-day event that begins on June 11, 2007, and ends on June 15, 2007. Note that the End property for the appointment is set to 12:00 A.M. on June 16, 2007.
 
@@ -66,7 +65,5 @@ private void AllDayEventExample()
 
 ## See also
 
-
-
-[Appointments](appointments.md)
+- [Appointments](appointments.md)
 
