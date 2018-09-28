@@ -1,6 +1,6 @@
 ﻿---
-title: 'Import Appointment XML Data into Outlook Appointment Objects'
-TOCTitle: 'Import Appointment XML Data into Outlook Appointment Objects'
+title: Import appointment XML data into Outlook appointment objects
+TOCTitle: Import appointment XML data into Outlook appointment objects
 ms:assetid: 166a648a-1c48-4984-8889-a7614cc277b1
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff462092(v=office.15)
 ms:contentKeyID: 55119821
@@ -12,7 +12,7 @@ dev_langs:
 - csharp
 ---
 
-# Import Appointment XML Data into Outlook Appointment Objects
+# Import appointment XML data into Outlook appointment objects
 
 This topic shows how to read appointment data formatted in XML, save the data to Outlook [AppointmentItem](https://msdn.microsoft.com/en-us/library/bb645611\(v=office.15\)) objects in the default calendar, and return the appointment objects in an array.
 
@@ -121,15 +121,21 @@ CreateAppointmentsFromXml uses the [Add](http://msdn2.microsoft.com/en-us/librar
 
 If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the Microsoft.Office.Interop.Outlook namespace. The Imports or using statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following lines of code show how to do the import and assignment in Visual Basic and C\#.
 
+#### Visual Basic
+
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook
 ```
+
+#### C#
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
 ```
 
 The following is the Visual Basic code example, followed by the C\# code example.
+
+#### Visual Basic
 
 ```vb
 Imports System.IO
@@ -205,6 +211,8 @@ Namespace OutlookAddIn2
     End Class
 End Namespace
 ```
+
+#### C#
 
 ```csharp
 using System;
@@ -295,7 +303,5 @@ namespace OutlookAddIn1
 
 ## See also
 
-
-
-[Appointments](appointments.md)
+- [Appointments](appointments.md)
 

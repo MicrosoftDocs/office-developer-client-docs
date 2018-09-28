@@ -1,6 +1,6 @@
 ﻿---
-title: 'Find a Specific Appointment in a Recurring Appointment Series'
-TOCTitle: 'Find a Specific Appointment in a Recurring Appointment Series'
+title: Find a specific appointment in a recurring appointment series
+TOCTitle: Find a specific appointment in a recurring appointment series
 ms:assetid: 01f55f04-7245-4325-a354-50a6eb270a31
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184586(v=office.15)
 ms:contentKeyID: 55119812
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# Find a Specific Appointment in a Recurring Appointment Series
+# Find a specific appointment in a recurring appointment series
 
 This example shows how to return an [AppointmentItem](https://msdn.microsoft.com/en-us/library/bb645611\(v=office.15\)) object that represents a specific appointment in a recurring appointment series.
 
@@ -79,7 +79,5 @@ private void CheckOccurrenceExample()
 
 ## See also
 
-
-
-[Appointments](appointments.md)
+- [Appointments](appointments.md)
 

@@ -1,6 +1,6 @@
 ﻿---
-title: 'Create a Reminder for an Appointment Item'
-TOCTitle: 'Create a Reminder for an Appointment Item'
+title: Create a reminder for an appointment item
+TOCTitle: Create a reminder for an appointment item
 ms:assetid: 85e772f0-65ac-4abc-8286-9099882a2400
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184623(v=office.15)
 ms:contentKeyID: 55119814
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# Create a Reminder for an Appointment Item
+# Create a reminder for an appointment item
 
 This example shows how to use the [ReminderSet](https://msdn.microsoft.com/en-us/library/bb624262\(v=office.15\)) property to create a reminder for an appointment item.
 
@@ -61,7 +61,5 @@ private void ReminderExample()
 
 ## See also
 
-
-
-[Appointments](appointments.md)
+- [Appointments](appointments.md)
 

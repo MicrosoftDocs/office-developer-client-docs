@@ -1,6 +1,6 @@
 ﻿---
-title: 'Create an Exception Appointment in a Recurring Appointment Series'
-TOCTitle: 'Create an Exception Appointment in a Recurring Appointment Series'
+title: Create an exception appointment in a recurring appointment series
+TOCTitle: Create an exception appointment in a recurring appointment series
 ms:assetid: b7cd0975-4f44-453a-b878-ec55feeedc4e
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184635(v=office.15)
 ms:contentKeyID: 55119813
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# Create an Exception Appointment in a Recurring Appointment Series
+# Create an exception appointment in a recurring appointment series
 
 This example uses an [Exception](https://msdn.microsoft.com/en-us/library/bb610440\(v=office.15\)) object to create an exception to a standard recurrence pattern for an appointment.
 
@@ -96,7 +96,5 @@ private void CreateExceptionExample()
 
 ## See also
 
-
-
-[Appointments](appointments.md)
+- [Appointments](appointments.md)
 

@@ -1,6 +1,6 @@
 ﻿---
-title: 'Create a Recurring Appointment That Has a Weekly Pattern'
-TOCTitle: 'Create a Recurring Appointment That Has a Weekly Pattern'
+title: Create a recurring appointment that has a weekly pattern
+TOCTitle: Create a recurring appointment that has a weekly pattern
 ms:assetid: 20b46b26-e278-451b-9e35-36683205d164
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184595(v=office.15)
 ms:contentKeyID: 55119810
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# Create a Recurring Appointment That Has a Weekly Pattern
+# Create a recurring appointment that has a weekly pattern
 
 This example shows how to create a recurring appointment that has a weekly pattern (for example, an appointment that occurs every Monday, Wednesday, and Friday).
 
@@ -111,7 +111,5 @@ private void RecurringAppointmentEveryMondayWednesdayFriday()
 
 ## See also
 
-
-
-[Appointments](appointments.md)
+- [Appointments](appointments.md)
 

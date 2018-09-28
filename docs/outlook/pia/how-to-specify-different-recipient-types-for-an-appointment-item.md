@@ -1,6 +1,6 @@
 ﻿---
-title: 'Specify Different Recipient Types for an Appointment Item'
-TOCTitle: 'Specify Different Recipient Types for an Appointment Item'
+title: Specify different recipient types for an appointment item
+TOCTitle: Specify different recipient types for an appointment item
 ms:assetid: 83aedc8f-adc0-453d-8e71-1bb9aacc7993
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184622(v=office.15)
 ms:contentKeyID: 55119807
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# Specify Different Recipient Types for an Appointment Item
+# Specify different recipient types for an appointment item
 
 This example shows how to use the [OlMeetingRecipientType](https://msdn.microsoft.com/en-us/library/bb623431\(v=office.15\)) enumeration to specify different recipient types for an appointment item.
 
@@ -73,7 +73,5 @@ private void SetRecipientTypeForAppt()
 
 ## See also
 
-
-
-[Appointments](appointments.md)
+- [Appointments](appointments.md)
 

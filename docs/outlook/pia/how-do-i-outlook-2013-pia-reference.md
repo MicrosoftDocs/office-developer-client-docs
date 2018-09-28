@@ -45,14 +45,14 @@ The Office Developer Documentation team welcomes your task ideas and code sample
 
 - [Create an appointment that is an all-day event](how-to-create-an-appointment-that-is-an-all-day-event.md)
 - [Create an appointment that starts in the Pacific Time Zone and ends in the Eastern Time Zone](how-to-create-an-appointment-that-starts-in-the-pacific-time-zone-and-ends-in-the-eastern-time-zone.md)
-- [Specify Different Recipient Types for an Appointment Item](how-to-specify-different-recipient-types-for-an-appointment-item.md)
-- [Create a Recurring Appointment by Using the Default Recurrence Pattern](how-to-create-a-recurring-appointment-by-using-the-default-recurrence-pattern.md)
-- [Create a Recurring Appointment That Has a Weekly Pattern](how-to-create-a-recurring-appointment-that-has-a-weekly-pattern.md)
-- [Create an Annual Recurring Appointment That Uses a YearNth Pattern](how-to-create-an-annual-recurring-appointment-that-uses-a-yearnth-pattern.md)
-- [Find a Specific Appointment in a Recurring Appointment Series](how-to-find-a-specific-appointment-in-a-recurring-appointment-series.md)
-- [Create an Exception Appointment in a Recurring Appointment Series](how-to-create-an-exception-appointment-in-a-recurring-appointment-series.md)
-- [Create a Reminder for an Appointment Item](how-to-create-a-reminder-for-an-appointment-item.md)
-- [Import Appointment XML Data into Outlook Appointment Objects](how-to-import-appointment-xml-data-into-outlook-appointment-objects.md)
+- [Specify different recipient types for an appointment item](how-to-specify-different-recipient-types-for-an-appointment-item.md)
+- [Create a recurring appointment by using the default recurrence pattern](how-to-create-a-recurring-appointment-by-using-the-default-recurrence-pattern.md)
+- [Create a recurring appointment that has a weekly pattern](how-to-create-a-recurring-appointment-that-has-a-weekly-pattern.md)
+- [Create an annual recurring appointment that uses a YearNth pattern](how-to-create-an-annual-recurring-appointment-that-uses-a-yearnth-pattern.md)
+- [Find a specific appointment in a recurring appointment series](how-to-find-a-specific-appointment-in-a-recurring-appointment-series.md)
+- [Create an exception appointment in a recurring appointment series](how-to-create-an-exception-appointment-in-a-recurring-appointment-series.md)
+- [Create a reminder for an appointment item](how-to-create-a-reminder-for-an-appointment-item.md)
+- [Import appointment XML data into Outlook appointment objects](how-to-import-appointment-xml-data-into-outlook-appointment-objects.md)
 
 [Attachments](attachments.md)
 
