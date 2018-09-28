@@ -27,5 +27,5 @@ This section provides a sample task that involves email attachments.
 
 
 
-[How Do I... (Outlook 2013 PIA Reference)](how-do-i-outlook-2013-pia-reference.md)
+[How do I... (Outlook 2013 PIA reference)](how-do-i-outlook-2013-pia-reference.md)
 

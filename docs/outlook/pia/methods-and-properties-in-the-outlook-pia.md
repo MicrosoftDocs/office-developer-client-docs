@@ -52,7 +52,7 @@ Using the Application object as another example, you access the Application obje
 
 - When you access a method that shares the same name as an event, a good practice is to cast to the primary interface to call the method. For example, the Application object has a [Quit](https://msdn.microsoft.com/en-us/library/bb646614\(v=office.15\)) method and a [Quit](https://msdn.microsoft.com/en-us/library/bb622595\(v=office.15\)) event. In Visual Basic .NET, you can access the Quit method through the Application interface. In C\#, you can avoid a compiler warning by casting the Quit method to the primary interface, as shown in the following code sample:
     
-   ``` csharp
+   ```csharp
       void DemoApp()
       {
           Outlook.Application myApp = new Outlook.Application();

@@ -37,5 +37,5 @@ This section provides sample topics that involve contacts. Contacts represent pe
 
 
 
-[How Do I... (Outlook 2013 PIA Reference)](how-do-i-outlook-2013-pia-reference.md)
+[How do I... (Outlook 2013 PIA reference)](how-do-i-outlook-2013-pia-reference.md)
 

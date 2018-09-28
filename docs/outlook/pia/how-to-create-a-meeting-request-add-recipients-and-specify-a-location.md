@@ -21,15 +21,15 @@ In Outlook, a meeting request is an [AppointmentItem](https://msdn.microsoft.com
 
 If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the Microsoft.Office.Interop.Outlook namespace. The Imports or using statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following lines of code show how to do the import and assignment in Visual Basic and C\#.
 
-``` vb
+```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook
 ```
 
-``` csharp
+```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
 ```
 
-``` vb
+```vb
 Private Sub SetRecipientTypeForAppt()
     Dim appt As Outlook.AppointmentItem = _
         CType(Application.CreateItem( _
@@ -56,7 +56,7 @@ Private Sub SetRecipientTypeForAppt()
 End Sub
 ```
 
-``` csharp
+```csharp
 private void SetRecipientTypeForAppt()
 {
     Outlook.AppointmentItem appt =

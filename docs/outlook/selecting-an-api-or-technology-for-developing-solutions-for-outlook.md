@@ -577,7 +577,7 @@ The following resources provide more information about using the object model an
     
 - [Why Use the Outlook PIA](http://msdn.microsoft.com/library/5cc9085e-7c97-4698-8cb9-e33e427c02e7%28Office.15%29.aspx)
     
-- [Best Practices in Developing Managed Outlook Add-Ins](http://msdn.microsoft.com/library/a03246f6-2ca5-4fcb-8e63-a11cfbc8d9a0%28Office.15%29.aspx)
+- [Best practices in developing managed Outlook add-ins](http://msdn.microsoft.com/library/a03246f6-2ca5-4fcb-8e63-a11cfbc8d9a0%28Office.15%29.aspx)
     
 - [Obtain and Log On to an Instance of Outlook ](http://msdn.microsoft.com/library/ef369364-6500-2759-3ef4-ed4411112e96%28Office.15%29.aspx)
     

@@ -36,7 +36,7 @@ This section includes sample code that is applicable to most Outlook items. Furt
 
 
 
-[How Do I... (Outlook 2013 PIA Reference)](how-do-i-outlook-2013-pia-reference.md)
+[How do I... (Outlook 2013 PIA reference)](how-do-i-outlook-2013-pia-reference.md)
 
 [Display Selected Items in the Active Explorer](https://msdn.microsoft.com/en-us/library/hh780898\(v=office.15\))
 

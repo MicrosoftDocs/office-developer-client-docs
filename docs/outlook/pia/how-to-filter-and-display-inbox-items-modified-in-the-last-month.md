@@ -38,7 +38,7 @@ Because DASL queries always perform DateTime comparisons in Coordinated Universa
 
 The following line of code shows how to use the LocalTimeToUTC method to convert the value of the LastModificationTime property (which is a default column in all Item objects) to UTC.
 
-``` csharp
+```csharp
 DateTime modified = nextRow.LocalTimeUTC(“LastModificationTime”);
 ```
 
@@ -121,11 +121,11 @@ In the following example, DemoDASLDateMacro creates a DASL query that uses the l
 
 If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the Microsoft.Office.Interop.Outlook namespace. The using statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
 
-``` csharp
+```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
 ```
 
-``` csharp
+```csharp
 private void DemoDASLDateMacro()
 {
     string filter = "@SQL=" + "%lastmonth(" + "\"" +

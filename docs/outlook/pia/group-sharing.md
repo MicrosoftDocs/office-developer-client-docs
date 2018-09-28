@@ -30,5 +30,5 @@ This section provides sample tasks that involve group sharing.
 
 
 
-[How Do I... (Outlook 2013 PIA Reference)](how-do-i-outlook-2013-pia-reference.md)
+[How do I... (Outlook 2013 PIA reference)](how-do-i-outlook-2013-pia-reference.md)
 

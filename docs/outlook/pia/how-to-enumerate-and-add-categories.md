@@ -64,11 +64,11 @@ Outlook items are displayed based on the category name. Each item object has a C
 
 In the following code example, the first procedure, EnumerateCategories, gets the current user’s main list of categories, represented by the Categories collection. It then enumerates the Category objects in that collection, and writes the Name and CategoryID properties to the trace listeners of the [Listeners](http://msdn.microsoft.com/en-us/library/system.diagnostics.debug.listeners.aspx) collection. The second procedure, AddACategory, gets the current user’s main list of categories and uses the CategoryExists method to check whether a category named “ISV” exists in the collection. If no category with the name “ISV” exists, AddACategory adds a category named “ISV” to the main category list and assigns it a dark blue color by using the Add method of the Categories collection. It also assigns CTRL+F11 as the shortcut key for the category.
 
-``` csharp
+```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
 ```
 
-``` csharp
+```csharp
 private void EnumerateCategories()
 {
     Outlook.Categories categories =

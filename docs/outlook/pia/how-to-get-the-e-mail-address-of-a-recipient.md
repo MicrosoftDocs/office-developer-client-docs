@@ -20,11 +20,11 @@ In the following the code example, the GetSMTPAddressForRecipients method takes 
 
 If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the Microsoft.Office.Interop.Outlook namespace. The using statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
 
-``` csharp
+```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
 ```
 
-``` csharp
+```csharp
 private void GetSMTPAddressForRecipients(Outlook.MailItem mail)
 {
     const string PR_SMTP_ADDRESS =

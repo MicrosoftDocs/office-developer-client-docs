@@ -21,7 +21,7 @@ This code example contains two methods: DemoAppointmentsInRange and GetAppointme
 
 GetAppointmentsInRange accepts an Outlook folder, and the start and end DateTime values of the time range as input parameters. This method uses the [Restrict(String)](https://msdn.microsoft.com/en-us/library/bb612531\(v=office.15\)) method and a string filter in Jet format that returns appointments that start and end within the specified time range. Assuming \[Start\] and \[End\] are the start time and end time of an appointment, and startTime and endTime are the beginning and end time of the specified time range, GetAppointmentsInRange sets up a filter that looks for appointments with \[Start\]\>=startTime, and \[End\]\<=endTime. The following code shows the Jet filter in C\#.
 
-``` csharp
+```csharp
 string filter = "[Start] >= '"
     + startTime.ToString("g")
     + "' AND [End] <= '"
@@ -52,7 +52,7 @@ Because in any time range startTime\<=endTime, a filter with \[Start\]\<=endTime
 
 In C\#, you can express the Jet filter as follows.
 
-``` csharp
+```csharp
 string filter = "[Start] <= '"
     + endTime.ToString("g")
     + "' AND [End] >= '"
@@ -61,15 +61,15 @@ string filter = "[Start] <= '"
 
 The following code shows the complete example. If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the Microsoft.Office.Interop.Outlook namespace. The Imports or using statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following lines of code show how to do the import and assignment in Visual Basic and C\#.
 
-``` vb
+```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook
 ```
 
-``` csharp
+```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
 ```
 
-``` csharp
+```csharp
 private void DemoAppointmentsInRange()
 {
     Outlook.Folder calFolder =

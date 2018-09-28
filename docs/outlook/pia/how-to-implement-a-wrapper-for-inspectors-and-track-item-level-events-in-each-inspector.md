@@ -36,13 +36,13 @@ The following two code examples implement the Connect and OutlookInspector class
 
 If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the Microsoft.Office.Interop.Outlook namespace. The using statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
 
-``` csharp
+```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
 ```
 
 In the following code example, a [NewInspector(Inspector)](https://msdn.microsoft.com/en-us/library/bb610594\(v=office.15\)) event occurs after a new inspector window has been created and before it is displayed. A user action may also create a new inspector window. A class-level instance variable named inspectors in the Connect class is declared, and a NewInspector event is hooked up. In the inspectors\_NewInspector method, the FindOutlookInspector method checks whether the new inspector window is already in the inspectorWindows list. If FindOutlookInspector does not find the Inspector object in inspectorWindows, the AddInspector method adds an instance of the OutlookInspector class to inspectorWindows. You can use the OutlookInspector class to raise events for this particular inspector window. The implementation of the OutlookInspector class is shown in the second code example.
 
-``` csharp
+```csharp
 class Connect
 {
     // Connect class-level Instance Variables
@@ -98,7 +98,7 @@ The following code example is an implementation of the OutlookInspector class. T
 
 Note that at the object model level, an Outlook inspector object is not specific to any Outlook item type. This code sample makes use of the OutlookItem helper class, defined in [Create a Helper Class to Access Common Outlook Item Members](how-to-create-a-helper-class-to-access-common-outlook-item-members.md), to conveniently call the OutlookItem.Class property to verify the message class of the current item in the inspector, before assuming the item is a contact item.
 
-``` csharp
+```csharp
 // This class tracks the state of an Outlook Inspector window 
 // and ensures that what happens in this window is handled correctly.
 class OutlookInspector

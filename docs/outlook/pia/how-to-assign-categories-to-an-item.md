@@ -36,11 +36,11 @@ To assign categories to an item, use the particular item's Categories property. 
 
 In the following code example, AssignCategories creates a restriction for items that contain “ISV” in the subject by first using a DAV Searching and Locating (DASL) query to filter items in the Inbox that contain “ISV” in the subject. AssignCategories then iterates through the filtered items by using the OutlookItem class and, if the string returned by item.Categories is not a null reference or was already assigned to the ISV, the ISV category is assigned to the item.
 
-``` csharp
+```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
 ```
 
-``` csharp
+```csharp
 private void AssignCategories()
 {
     string filter = "@SQL=" + "\"" + "urn:schemas:httpmail:subject"

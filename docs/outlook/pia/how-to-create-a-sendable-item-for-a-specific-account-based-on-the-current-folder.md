@@ -20,13 +20,13 @@ When you use the [CreateItem(OlItemType)](https://msdn.microsoft.com/en-us/libra
 
 If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the Microsoft.Office.Interop.Outlook namespace. The using statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
 
-``` csharp
+```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
 ```
 
 In the first method below, CreateMailItemFromAccount first identifies the appropriate account by matching the store of the current folder (obtained from the [Store](https://msdn.microsoft.com/en-us/library/bb612742\(v=office.15\)) property) with the default delivery store of each account (obtained with the [DeliveryStore](https://msdn.microsoft.com/en-us/library/ff185090\(v=office.15\)) property) that is defined in the [Accounts](https://msdn.microsoft.com/en-us/library/bb646328\(v=office.15\)) collection for the session. CreateMailItemFromAccount then creates the MailItem. To associate the item with the account, CreateMailItemFromAccount assigns the user of the account as the sender of the item by setting the account.CurrentUser.AddressEntry property to the [Sender](https://msdn.microsoft.com/en-us/library/ff184720\(v=office.15\)) property of the MailItem. Assigning the Sender property is the important step; if you do not specify the sender, the MailItem is created for the primary account by default. At the end of the method, CreateMailItemFromAccount displays the MailItem. Note that if the current folder is not on a delivery store, CreateMailItemFromAccount creates the MailItem for the primary account for the session.
 
-``` csharp
+```csharp
 private void CreateMailItemFromAccount()
 {
     Outlook.AddressEntry addrEntry = null;
@@ -65,7 +65,7 @@ private void CreateMailItemFromAccount()
 
 The next method, CreateMeetingRequestFromAccount, is similar to CreateMailItemFromAccount except that it creates an AppointmentItem instead of a MailItem. CreateMeetingRequestFromAccount first identifies the appropriate account by matching the store of the current folder (obtained from the [Store](https://msdn.microsoft.com/en-us/library/bb612742\(v=office.15\)) property) with the default delivery store of each account (obtained from the [DeliveryStore](https://msdn.microsoft.com/en-us/library/ff185090\(v=office.15\)) property) that is defined in the Accounts collection for the session. CreateMeetingRequestFromAccount then creates the AppointmentItem. To associate the item with the account, CreateMeetingRequestFromAccount assigns that account as the item's sending account by setting the [Account](https://msdn.microsoft.com/en-us/library/bb645103\(v=office.15\)) object to the [SendUsingAccount](https://msdn.microsoft.com/en-us/library/bb610680\(v=office.15\)) property of the AppointmentItem. Assigning the SendUsingAccount property is the important step; if you do not specify the account, the AppointmentItem is created for the primary account by default. At the end of the method, CreateMeetingRequestFromAccount displays the AppointmentItem. Note that if the current folder is not on a delivery store, CreateMeetingRequestFromAccount creates the AppointmentItem for the primary account for the session.
 
-``` csharp
+```csharp
 private void CreateMeetingRequestFromAccount()
 {
     Outlook.Account acct = null;
