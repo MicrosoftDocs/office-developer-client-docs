@@ -2,7 +2,6 @@
 title: Events in the Outlook PIA
 TOCTitle: Events in the Outlook PIA
 ms:assetid: 1f9eafb3-6645-4e27-81fa-5d73bf94ae40
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb644571(v=office.15)
 ms:contentKeyID: 55119782
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -12,7 +11,7 @@ mtps_version: v=office.15
 
 Browsing the Outlook Primary Interop Assembly (PIA), you might notice that many interfaces and event delegates are named after familiar names of objects and events in the Outlook object model. Unlike events in the COM type library, events in the Outlook PIA are not defined in the same interface as methods and properties of the same object. Event-related interfaces, delegates, and sink helper classes are either imported or created to support events in the Outlook PIA. This topic describes these event-related interfaces, delegates, and sink helper classes.
 
-## Where Do the Event Interfaces, Delegates and Sink Helper Classes Come From
+## Where do the event interfaces, delegates, and Sink Helper classes come from
 
 To create the Outlook PIA, Outlook uses the Type Library Importer (TLBIMP) in the .NET Framework to convert type definitions in the COM type library into equivalent definitions in a common language runtime (CLR) assembly. TLBIMP imports the following two types of interfaces for each object:
 
@@ -28,7 +27,7 @@ TLBIMP processes the imported interfaces and creates a number of interfaces, del
 
   - Sink helper class (for example, [ApplicationEvents\_11\_SinkHelper](https://msdn.microsoft.com/en-us/library/bb609842\(v=office.15\)) class)
 
-### Multiple Versions of Events
+### Multiple versions of events
 
 Some objects that have existed for multiple versions of Outlook have different implementations of events over the versions, and have had additional events added as new versions are released. To support events that vary over multiple versions, Outlook distinguishes these event-related interfaces, delegates, and classes by adding a version number to their names. For example:
 
@@ -64,7 +63,7 @@ Logically, events that are added to a later version do not appear in event inter
 
 On the other hand, you can find the event in the most recent .NET event interface, ExplorerEvents\_10\_Event, and its delegate for the Outlook 2010 version, [ExplorerEvents\_10\_AttachmentSelectionChangeEventHandler](https://msdn.microsoft.com/en-us/library/ff185177\(v=office.15\)).
 
-## What the Event Interfaces, Delegates, and Sink Helper Classes Are For
+## What the event interfaces, delegates, and Sink Helper classes are for
 
 Using the Application object as an example, this section describes what each interface and class listed above contains:
 
@@ -80,21 +79,14 @@ Using the Application object as an example, this section describes what each int
     
       - When you connect to an earlier version of an event that has been subsequently extended in a later version of Outlook, connect to the version of the event in the earlier interface. For example, if you want to connect to the version of the Quit event of the Application object implemented for Outlook 2002 instead of the latest version, connect to the [Quit](https://msdn.microsoft.com/en-us/library/bb609660\(v=office.15\)) event defined in the ApplicationEvents\_10\_Event interface, instead of the Quit event defined in the ApplicationEvents\_11\_Event interface.
 
-  - Delegates provide a framework for you to create custom event handlers for specific events in a specific version of Outlook. For example, if you want to add a check for the existence of a subject line in an Outlook item just before you send it, you implement the check in a callback method that has the same signature as the delegate, ApplicationEvents\_11\_ItemSendEventHandler. Then you hook up the callback method as an event handler for the ItemSend event that is defined in the ApplicationEvents\_11\_Event interface. For more information about connecting the callback method as an event handler for an object, see [Connecting to Custom Event Handlers](connecting-to-custom-event-handlers.md).
+  - Delegates provide a framework for you to create custom event handlers for specific events in a specific version of Outlook. For example, if you want to add a check for the existence of a subject line in an Outlook item just before you send it, you implement the check in a callback method that has the same signature as the delegate, ApplicationEvents\_11\_ItemSendEventHandler. Then you hook up the callback method as an event handler for the ItemSend event that is defined in the ApplicationEvents\_11\_Event interface. For more information about connecting the callback method as an event handler for an object, see [Connecting to custom event handlers](connecting-to-custom-event-handlers.md).
 
   - The sink helper classes created by TLBIMP, for example, ApplicationEvents\_11\_SinkHelper and [ApplicationEvents\_10\_SinkHelper](https://msdn.microsoft.com/en-us/library/bb644070\(v=office.15\)), are event helper objects for Application events in the corresponding version of Outlook. Do not use these classes in code.
 
 ## See also
 
-#### Concepts
-
-[Relating the Outlook PIA with the Object Model](relating-the-outlook-pia-with-the-object-model.md)
-
-[Objects in the Outlook PIA](objects-in-the-outlook-pia.md)
-
-[Methods and Properties in the Outlook PIA](methods-and-properties-in-the-outlook-pia.md)
-
-
-
-[Developing Managed Outlook Add-ins Using the Outlook PIA](developing-managed-outlook-add-ins-using-the-outlook-pia.md)
+- [Relating the Outlook PIA with the object model](relating-the-outlook-pia-with-the-object-model.md)
+- [Objects in the Outlook PIA](objects-in-the-outlook-pia.md)
+- [Methods and properties in the Outlook PIA](methods-and-properties-in-the-outlook-pia.md)
+- [Developing managed Outlook add-ins using the Outlook PIA](developing-managed-outlook-add-ins-using-the-outlook-pia.md)
 

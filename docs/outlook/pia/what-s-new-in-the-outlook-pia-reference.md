@@ -1,22 +1,15 @@
 ﻿---
-title: What's New in the Outlook PIA Reference
-TOCTitle: What's New in the Outlook PIA Reference
+title: What's new in the Outlook PIA reference
+TOCTitle: What's new in the Outlook PIA reference
 ms:assetid: 9863c857-2991-49af-84c7-1dd273172fe3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn292515(v=office.15)
 ms:contentKeyID: 55119775
 ms.date: 09/15/2015
 mtps_version: v=office.15
 ---
 
-# What's New in the Outlook PIA Reference
+# What's new in the Outlook PIA reference
 
-This version of the Outlook Primary Interop Assembly (PIA) Reference includes all the additions and changes to the Outlook 2013 object model.
-
-**In this article**  
-New objects  
-Enhancements to existing objects and enumerations  
-Deprecated objects, members, and enumeration values  
-Additional resources
+This version of the Outlook Primary Interop Assembly (PIA) reference includes all the additions and changes to the Outlook 2013 object model.
 
 ## New objects
 
@@ -442,7 +435,5 @@ The following table lists the objects, members and enumeration values have been 
 </table>
 
 
-## Additional resources
 
-For more information about what's added and changed in Outlook 2013, see [What's new for Outlook developers](https://msdn.microsoft.com/en-us/library/jj228679\(v=office.15\)).
 

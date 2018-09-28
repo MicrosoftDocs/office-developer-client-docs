@@ -12,7 +12,7 @@ dev_langs:
 
 # Create a Sendable Item for a Specific Account Based on the Current Folder
 
-This topic contains two code examples that show how to create a sendable e-mail item and meeting request, and then how to send them by using a specific account that is based on the current folder.
+This topic contains two code examples that show how to create a sendable email item and meeting request, and then how to send them by using a specific account that is based on the current folder.
 
 ## Example
 

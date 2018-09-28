@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Contacts
 
-This section provides sample topics that involve contacts. Contacts represent people and businesses you want to communicate with. The Contacts folder is your e-mail address book and information storage for the contacts. A [ContactItem](https://msdn.microsoft.com/en-us/library/bb644956\(v=office.15\)) object is an Outlook built-in object that represents unique contacts in a Contacts folder. The ContactItem object has over 100 properties, such as [FirstName](https://msdn.microsoft.com/en-us/library/bb652965\(v=office.15\)), [CompanyName](https://msdn.microsoft.com/en-us/library/bb610212\(v=office.15\)), and [OfficeLocation](https://msdn.microsoft.com/en-us/library/bb647145\(v=office.15\)), as well as custom properties if the built-in properties are not sufficient, that you can use to store information about each contact.
+This section provides sample topics that involve contacts. Contacts represent people and businesses you want to communicate with. The Contacts folder is your email address book and information storage for the contacts. A [ContactItem](https://msdn.microsoft.com/en-us/library/bb644956\(v=office.15\)) object is an Outlook built-in object that represents unique contacts in a Contacts folder. The ContactItem object has over 100 properties, such as [FirstName](https://msdn.microsoft.com/en-us/library/bb652965\(v=office.15\)), [CompanyName](https://msdn.microsoft.com/en-us/library/bb610212\(v=office.15\)), and [OfficeLocation](https://msdn.microsoft.com/en-us/library/bb647145\(v=office.15\)), as well as custom properties if the built-in properties are not sufficient, that you can use to store information about each contact.
 
 ## In this section
 
@@ -23,7 +23,7 @@ This section provides sample topics that involve contacts. Contacts represent pe
   - [Create a Contact Item from a vCard file and Save the Item in a Folder](how-to-create-a-contact-item-from-a-vcard-file-and-save-the-item-in-a-folder.md)  
     Imports all the vCard files in a file system folder and saves the contacts into the folder specified by the targetFolder parameter.
 
-## Related sections
+## See also
 
 [Address Book](address-book.md)
 

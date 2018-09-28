@@ -12,7 +12,7 @@ dev_langs:
 
 # Add a Custom Action as a Response to a Mail Item
 
-This example shows how to add custom actions as a response to an e-mail item by using the [Add()](https://msdn.microsoft.com/en-us/library/bb612077\(v=office.15\)) method of the [Actions](https://msdn.microsoft.com/en-us/library/bb611963\(v=office.15\)) collection.
+This example shows how to add custom actions as a response to an email item by using the [Add()](https://msdn.microsoft.com/en-us/library/bb612077\(v=office.15\)) method of the [Actions](https://msdn.microsoft.com/en-us/library/bb611963\(v=office.15\)) collection.
 
 ## Example
 
@@ -32,7 +32,7 @@ This example shows how to add custom actions as a response to an e-mail item by 
 </table>
 
 
-You can create custom actions programmatically to appear on the ribbon in the **Actions** group on the **Message** tab in an e-mail response. In the following code example, ReplyWithVoiceMail creates and adds a custom action named “Reply with Voice Mail” to the inspector command bar. ReplyWithVoiceMail first gets a [\_MailItem](https://msdn.microsoft.com/en-us/library/bb610623\(v=office.15\)) object and then creates an [Action](https://msdn.microsoft.com/en-us/library/bb646971\(v=office.15\)) object by calling the Add method of the Actions collection that is associated with the MailItem. It then sets the [Name](https://msdn.microsoft.com/en-us/library/bb624053\(v=office.15\)) property of the Action object to “Reply with Voice Mail”. The [ReplyStyle](https://msdn.microsoft.com/en-us/library/bb624278\(v=office.15\)), [ResponseStyle](https://msdn.microsoft.com/en-us/library/bb622491\(v=office.15\)), [CopyLike](https://msdn.microsoft.com/en-us/library/bb624213\(v=office.15\)), and [MessageClass](https://msdn.microsoft.com/en-us/library/bb624391\(v=office.15\)) properties are also set. Finally, the MailItem is saved.
+You can create custom actions programmatically to appear on the ribbon in the **Actions** group on the **Message** tab in an email response. In the following code example, ReplyWithVoiceMail creates and adds a custom action named “Reply with Voice Mail” to the inspector command bar. ReplyWithVoiceMail first gets a [\_MailItem](https://msdn.microsoft.com/en-us/library/bb610623\(v=office.15\)) object and then creates an [Action](https://msdn.microsoft.com/en-us/library/bb646971\(v=office.15\)) object by calling the Add method of the Actions collection that is associated with the MailItem. It then sets the [Name](https://msdn.microsoft.com/en-us/library/bb624053\(v=office.15\)) property of the Action object to “Reply with Voice Mail”. The [ReplyStyle](https://msdn.microsoft.com/en-us/library/bb624278\(v=office.15\)), [ResponseStyle](https://msdn.microsoft.com/en-us/library/bb622491\(v=office.15\)), [CopyLike](https://msdn.microsoft.com/en-us/library/bb624213\(v=office.15\)), and [MessageClass](https://msdn.microsoft.com/en-us/library/bb624391\(v=office.15\)) properties are also set. Finally, the MailItem is saved.
 
 
 > [!NOTE]

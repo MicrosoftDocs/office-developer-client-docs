@@ -24,7 +24,7 @@ This section provides sample tasks that involve views. Views are used to sort, g
   - [Enumerate Items in a Table View](how-to-enumerate-items-in-a-table-view.md)  
     Enumerates items in a table view by using the [GetTable()](https://msdn.microsoft.com/en-us/library/ff184699\(v=office.15\)) method.
 
-## Related sections
+## See also
 
 [Color Categories](color-categories.md)
 

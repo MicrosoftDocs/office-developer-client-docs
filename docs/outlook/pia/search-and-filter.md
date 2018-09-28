@@ -56,7 +56,7 @@ This section provides sample tasks that involve searching and filtering through 
   - [Search and Obtain Items in an Aggregated View](how-to-search-and-obtain-items-in-an-aggregated-view.md)  
     Searches for items in multiple folders and stores and returns those items in an aggregated table view.
 
-## Related sections
+## See also
 
 [Appointments](appointments.md)
 

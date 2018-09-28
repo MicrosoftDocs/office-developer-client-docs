@@ -38,7 +38,7 @@ This section provides sample tasks that involve Microsoft Exchange mailbox users
   - [Get Information About Direct Reports of the Current User's Manager](how-to-get-information-about-direct-reports-of-the-current-user-s-manager.md)  
     Gets the direct reports of the current user’s manager, if any, and then displays information about each of the manager’s direct reports.
 
-## Related sections
+## See also
 
 [Accounts](accounts.md)
 

@@ -20,7 +20,7 @@ This section provides sample tasks that involve color categories, which enable u
   - [Assign Categories to an Item](how-to-assign-categories-to-an-item.md)  
     Assigns categories to an item by using its Categories property.
 
-## Related sections
+## See also
 
 [Mail](mail.md)
 

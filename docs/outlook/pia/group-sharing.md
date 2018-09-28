@@ -20,7 +20,7 @@ This section provides sample tasks that involve group sharing.
   - [Synchronize Outlook with a SharePoint Folder](how-to-synchronize-outlook-with-a-sharepoint-folder.md)  
     Programmatically connects Outlook with a SharePoint folder and synchronizes the folder contents.
 
-## Related sections
+## See also
 
 [Calendar](calendar.md)
 

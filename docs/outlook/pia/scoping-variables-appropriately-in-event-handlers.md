@@ -97,7 +97,7 @@ In this example, because the Region\_Expanded callback method is connected to th
 
 ## See also
 
-#### Concepts
+
 
 [Connecting to Custom Event Handlers](connecting-to-custom-event-handlers.md)
 

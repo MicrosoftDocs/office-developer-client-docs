@@ -59,7 +59,7 @@ AddHandler app.ItemSend, AddressOf MyItemSendEventHandler
 
 ## See also
 
-#### Concepts
+
 
 [Events in the Outlook PIA](events-in-the-outlook-pia.md)
 

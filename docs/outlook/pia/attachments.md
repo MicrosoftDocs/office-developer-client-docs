@@ -10,14 +10,14 @@ mtps_version: v=office.15
 
 # Attachments
 
-This section provides a sample task that involves e-mail attachments.
+This section provides a sample task that involves email attachments.
 
 ## In this section
 
   - [Programmatically Remove Security Level 2 Attachments from Messages and Save Them to Disk](how-to-programmatically-remove-security-level-2-attachments-from-messages-and-save-them-to-disk.md)  
-    Removes security Level 2 attachments from e-mail messages and saves them to a disk, from where they can be opened.
+    Removes security Level 2 attachments from email messages and saves them to a disk, from where they can be opened.
 
-## Related sections
+## See also
 
 [Mail](mail.md)
 

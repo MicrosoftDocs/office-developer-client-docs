@@ -38,7 +38,7 @@ This section provides sample tasks that involve folders. [Folder](https://msdn.m
   - [Ensure that Custom Item Properties Are Supported in Folder-Level Queries](how-to-ensure-that-custom-item-properties-are-supported-in-folder-level-queries.md)  
     Shows how to ensure that when you add a custom property to an item type, you also add the property to the folder so that you can query on that custom property at the folder level.
 
-## Related sections
+## See also
 
 [Calendar](calendar.md)
 

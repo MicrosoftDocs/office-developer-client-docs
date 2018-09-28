@@ -30,9 +30,9 @@ This section provides examples that involve tasks. Tasks are used in Microsoft O
     Creates a recurring task.
 
   - [Flag Mail Items from a Manager for Follow-Up](how-to-flag-mail-items-from-a-manager-for-follow-up.md)  
-    Flags e-mail items that were received from the user’s manager for follow-up.
+    Flags email items that were received from the user’s manager for follow-up.
 
-## Related sections
+## See also
 
 [Calendar](calendar.md)
 

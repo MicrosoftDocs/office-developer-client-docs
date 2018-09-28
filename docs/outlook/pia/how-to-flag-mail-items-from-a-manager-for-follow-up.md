@@ -12,7 +12,7 @@ dev_langs:
 
 # Flag Mail Items from a Manager for Follow-Up
 
-This example shows how to flag e-mail items that were received from the user’s manager for follow-up.
+This example shows how to flag email items that were received from the user’s manager for follow-up.
 
 ## Example
 

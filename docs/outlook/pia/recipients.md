@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Recipients
 
-This section provides sample tasks that involve recipients. Recipients are users who receive outbound e-mail messages, sharing requests, or meeting requests.
+This section provides sample tasks that involve recipients. Recipients are users who receive outbound email messages, sharing requests, or meeting requests.
 
 ## In this section
 
@@ -23,7 +23,7 @@ This section provides sample tasks that involve recipients. Recipients are users
   - [Get the E-Mail Address of a Recipient](how-to-get-the-e-mail-address-of-a-recipient.md)  
     Gets the Simple Mail Transfer Protocol (SMTP) address of a recipient.
 
-## Related sections
+## See also
 
 [Appointments](appointments.md)
 

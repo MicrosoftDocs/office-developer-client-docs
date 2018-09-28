@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Electronic Business Cards
 
-This section provides samples tasks that involve Electronic Business Cards. Electronic Business Cards are customized signatures that you can include in your e-mail messages. By using Electronic Business Cards, you can easily share your contact information with others.
+This section provides samples tasks that involve Electronic Business Cards. Electronic Business Cards are customized signatures that you can include in your email messages. By using Electronic Business Cards, you can easily share your contact information with others.
 
 ## In this section
 
@@ -20,7 +20,7 @@ This section provides samples tasks that involve Electronic Business Cards. Elec
   - [Send a Mail Item with an Electronic Business Card](how-to-send-a-mail-item-with-an-electronic-business-card.md)  
     Creates a mail item, looks for an Electronic Business Card, and if it finds one, inserts the Electronic Business Card into the mail item.
 
-## Related sections
+## See also
 
 [Contacts](contacts.md)
 

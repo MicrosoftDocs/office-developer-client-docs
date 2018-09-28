@@ -12,7 +12,7 @@ dev_langs:
 
 # Add Voting Options to a Mail Item
 
-This example shows how to use the [VotingOptions](https://msdn.microsoft.com/en-us/library/bb652695\(v=office.15\)) property of the [MailItem](https://msdn.microsoft.com/en-us/library/bb643865\(v=office.15\)) object to add voting options to an e-mail message.
+This example shows how to use the [VotingOptions](https://msdn.microsoft.com/en-us/library/bb652695\(v=office.15\)) property of the [MailItem](https://msdn.microsoft.com/en-us/library/bb643865\(v=office.15\)) object to add voting options to an email message.
 
 ## Example
 

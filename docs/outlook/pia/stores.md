@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Stores
 
-This section provides sample tasks that involve stores. A store represents a file on the local computer or a network drive that stores e-mail messages and other items.
+This section provides sample tasks that involve stores. A store represents a file on the local computer or a network drive that stores email messages and other items.
 
 ## In this section
 
@@ -20,7 +20,7 @@ This section provides sample tasks that involve stores. A store represents a fil
   - [Add or Remove a Store](how-to-add-or-remove-a-store.md)  
     Shows how to add or remove a store in a given profile.
 
-## Related sections
+## See also
 
 [Accounts](accounts.md)
 

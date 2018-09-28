@@ -18,7 +18,7 @@ Note that late binding requires obtaining a DispID for every method or property,
 
 ## See also
 
-#### Concepts
+
 
 [Introduction to Interoperability Between COM and .NET](introduction-to-interoperability-between-com-and-net.md)
 

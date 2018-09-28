@@ -26,7 +26,7 @@ This section provides sample tasks that involve Microsoft Outlook rules. Rules a
   - [Create a Rule to Assign Categories to Mail Items Based on Multiple Words in the Subject](how-to-create-a-rule-to-assign-categories-to-mail-items-based-on-multiple-words-in-the-subject.md)  
     Sets up a rule that assigns categories to mail items based on multiple words in the subject.
 
-## Related sections
+## See also
 
 [Appointments](appointments.md)
 

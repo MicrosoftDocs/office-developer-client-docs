@@ -20,7 +20,7 @@ This section provides sample tasks that involve conversations. Conversations in 
   - [Get and Enumerate Selected Conversations](how-to-get-and-enumerate-selected-conversations.md)  
     Obtains and enumerates selected conversations by using the [GetSelection(OlSelectionContents)](https://msdn.microsoft.com/en-us/library/ff185002\(v=office.15\)) method.
 
-## Related sections
+## See also
 
 [Folders](folders.md)
 

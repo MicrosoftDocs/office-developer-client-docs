@@ -12,7 +12,7 @@ dev_langs:
 
 # Programmatically Remove Security Level 2 Attachments from Messages and Save Them to Disk
 
-This example shows how to remove security Level 2 attachments from e-mail messages and save them to a disk, from where they can be opened.
+This example shows how to remove security Level 2 attachments from email messages and save them to a disk, from where they can be opened.
 
 ## Example
 
@@ -32,7 +32,7 @@ This example shows how to remove security Level 2 attachments from e-mail messag
 </table>
 
 
-Outlook protects users from malicious code transported via e-mail attachments that have certain file extensions such as .exe or .bat. Those particular attachments are blocked by default and identified as Level 1 attachments. Level 2 attachments have a lesser chance of containing malicious code, but users cannot open a Level 2 attachment directly from an e-mail message. A Level 2 attachment must first be saved to a disk.
+Outlook protects users from malicious code transported via email attachments that have certain file extensions such as .exe or .bat. Those particular attachments are blocked by default and identified as Level 1 attachments. Level 2 attachments have a lesser chance of containing malicious code, but users cannot open a Level 2 attachment directly from an email message. A Level 2 attachment must first be saved to a disk.
 
 By using the [SaveAsFile(String)](https://msdn.microsoft.com/en-us/library/bb624311\(v=office.15\)) method in the [Attachment](https://msdn.microsoft.com/en-us/library/bb609285\(v=office.15\)) object, you can save attachments to a disk. In the following code example, RemoveAttachmentsAndSaveToDisk first removes from mail items in a folder all Level 2 attachments that are greater than a specified size. This is done by enumerating the [Type](https://msdn.microsoft.com/en-us/library/bb609277\(v=office.15\)) property of each Attachment object in the [Attachments](https://msdn.microsoft.com/en-us/library/bb646211\(v=office.15\)) collection and removing the ones that are equal to [olByValue](https://msdn.microsoft.com/en-us/library/bb623448\(v=office.15\)). RemoveAttachmentsAndSaveToDisk then saves the removed attachment by using the SaveAsFile method.
 

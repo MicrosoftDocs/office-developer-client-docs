@@ -32,7 +32,7 @@ This section provides sample tasks that involve meeting requests, which are requ
   - [Prompt a User to Respond to a Meeting Request](how-to-prompt-a-user-to-respond-to-a-meeting-request.md)  
     Prompts the user for a response to a meeting request, and enables the user to edit the response before sending it.
 
-## Related sections
+## See also
 
 [Appointments](appointments.md)
 

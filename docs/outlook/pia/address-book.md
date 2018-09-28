@@ -26,7 +26,7 @@ This section provides sample tasks that involve address books. Address books are
   - [Display the Address Lists for a Profile](how-to-display-the-address-lists-for-a-profile.md)  
     Displays the address lists for the current profile.
 
-## Related sections
+## See also
 
 [Exchange Users](exchange-users.md)
 

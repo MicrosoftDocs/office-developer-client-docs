@@ -44,7 +44,7 @@ This section provides sample tasks that involve appointments. Appointments inclu
   - [Import Appointment XML Data into Outlook Appointment Objects](how-to-import-appointment-xml-data-into-outlook-appointment-objects.md)  
     Reads appointment data formatted in XML, saves the data to Outlook AppointmentItem objects in the default calendar, and returns the appointment objects in an array.
 
-## Related sections
+## See also
 
 [Calendar](calendar.md)
 
