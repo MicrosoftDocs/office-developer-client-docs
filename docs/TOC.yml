@@ -830,331 +830,331 @@
           - name: Outlook VBA reference
             href: https://docs.microsoft.com/office/vba/api/overview/outlook
           - name: Outlook Primary Interop Assembly reference
-            href: welcome-to-the-outlook-primary-interop-assembly-reference.md
+            href: outlook/pia/welcome-to-the-outlook-primary-interop-assembly-reference.md
             items:
             - name: What's new in the Outlook PIA reference
-              href: what-s-new-in-the-outlook-pia-reference.md
+              href: outlook/pia/what-s-new-in-the-outlook-pia-reference.md
             - name: Setting up to use the Outlook PIA
-              href: setting-up-to-use-the-outlook-pia.md
+              href: outlook/pia/setting-up-to-use-the-outlook-pia.md
               items:
               - name: Introduction to interoperability between COM and .NET
-                href: introduction-to-interoperability-between-com-and-net.md
+                href: outlook/pia/introduction-to-interoperability-between-com-and-net.md
               - name: Why use the Outlook PIA
-                href: why-use-the-outlook-pia.md
+                href: outlook/pia/why-use-the-outlook-pia.md
               - name: Installing and referencing the Outlook PIA
-                href: installing-and-referencing-the-outlook-pia.md
+                href: outlook/pia/installing-and-referencing-the-outlook-pia.md
             - name: Architecture of the Outlook PIA
-              href: architecture-of-the-outlook-pia.md
+              href: outlook/pia/architecture-of-the-outlook-pia.md
               items:
               - name: Relating the Outlook PIA with the object model
-                href: relating-the-outlook-pia-with-the-object-model.md
+                href: outlook/pia/relating-the-outlook-pia-with-the-object-model.md
               - name: Objects in the Outlook PIA
-                href: objects-in-the-outlook-pia.md
+                href: outlook/pia/objects-in-the-outlook-pia.md
               - name: Methods and properties in the Outlook PIA
-                href: methods-and-properties-in-the-outlook-pia.md
+                href: outlook/pia/methods-and-properties-in-the-outlook-pia.md
               - name: Events in the Outlook PIA
-                href: events-in-the-outlook-pia.md
+                href: outlook/pia/events-in-the-outlook-pia.md
             - name: Developing managed Outlook add-ins using the Outlook PIA
-              href: developing-managed-outlook-add-ins-using-the-outlook-pia.md
+              href: outlook/pia/developing-managed-outlook-add-ins-using-the-outlook-pia.md
               items:
               - name: Connecting to custom event handlers
-                href: connecting-to-custom-event-handlers.md
+                href: outlook/pia/connecting-to-custom-event-handlers.md
               - name: Best practices in developing managed Outlook add-ins
-                href: best-practices-in-developing-managed-outlook-add-ins.md
+                href: outlook/pia/best-practices-in-developing-managed-outlook-add-ins.md
                 items:
                 - name: Systematically releasing objects
-                  href: systematically-releasing-objects.md
+                  href: outlook/pia/systematically-releasing-objects.md
                 - name: Using a separate application domain to avoid crashing
-                  href: using-a-separate-application-domain-to-avoid-crashing.md
+                  href: outlook/pia/using-a-separate-application-domain-to-avoid-crashing.md
                 - name: Using a trusted application object provided by Office Developer Tools for Visual Studio
-                  href: using-a-trusted-application-object-provided-by-office-developer-tools-for-visual-studio.md
+                  href: outlook/pia/using-a-trusted-application-object-provided-by-office-developer-tools-for-visual-studio.md
                 - name: Scoping variables appropriately in event handlers
-                  href: scoping-variables-appropriately-in-event-handlers.md
+                  href: outlook/pia/scoping-variables-appropriately-in-event-handlers.md
                 - name: Avoiding unsupported technologies in managed Outlook add-ins
-                  href: avoiding-unsupported-technologies-in-managed-outlook-add-ins.md
+                  href: outlook/pia/avoiding-unsupported-technologies-in-managed-outlook-add-ins.md
                 - name: Using late binding if depending on multiple versions of Outlook
-                  href: using-late-binding-if-depending-on-multiple-versions-of-outlook.md
+                  href: outlook/pia/using-late-binding-if-depending-on-multiple-versions-of-outlook.md
             - name: How do I...
-              href: how-do-i-outlook-2013-pia-reference.md
+              href: outlook/pia/how-do-i-outlook-2013-pia-reference.md
               items:
               - name: Accounts
-                href: accounts.md
+                href: outlook/pia/accounts.md
                 items:
                 - name: Get account information
-                  href: how-to-get-account-information.md
+                  href: outlook/pia/how-to-get-account-information.md
                 - name: Create a sendable item for a specific account based on the current folder
-                  href: how-to-create-a-sendable-item-for-a-specific-account-based-on-the-current-folder.md
+                  href: outlook/pia/how-to-create-a-sendable-item-for-a-specific-account-based-on-the-current-folder.md
                 - name: Get the account for a folder
-                  href: how-to-get-the-account-for-a-folder.md
+                  href: outlook/pia/how-to-get-the-account-for-a-folder.md
                 - name: Get information about multiple accounts
-                  href: how-to-get-information-about-multiple-accounts.md
+                  href: outlook/pia/how-to-get-information-about-multiple-accounts.md
                 - name: Send a mail item by using a Hotmail account
-                  href: how-to-send-a-mail-item-by-using-a-hotmail-account.md
+                  href: outlook/pia/how-to-send-a-mail-item-by-using-a-hotmail-account.md
               - name: Address book
-                href: address-book.md
+                href: outlook/pia/address-book.md
                 items:
                 - name: Display in the Select Names dialog box the address book corresponding to a Contacts folder
-                  href: how-to-display-in-the-select-names-dialog-box-the-address-book-corresponding-to-a-contacts-folder.md
+                  href: outlook/pia/how-to-display-in-the-select-names-dialog-box-the-address-book-corresponding-to-a-contacts-folder.md
                 - name: Get the Global address List or a set of address lists for a store
-                  href: how-to-get-the-global-address-list-or-a-set-of-address-lists-for-a-store.md
+                  href: outlook/pia/how-to-get-the-global-address-list-or-a-set-of-address-lists-for-a-store.md
                 - name: Enumerate the entries in the Global address List
-                  href: how-to-enumerate-the-entries-in-the-global-address-list.md
+                  href: outlook/pia/how-to-enumerate-the-entries-in-the-global-address-list.md
                 - name: Display the address lists for a profile
-                  href: how-to-display-the-address-lists-for-a-profile.md
+                  href: outlook/pia/how-to-display-the-address-lists-for-a-profile.md
               - name: Add-in administration
-                href: add-in-administration.md
+                href: outlook/pia/add-in-administration.md
                 items:
                 - name: Determine whether Outlook is a click-to-run application on a computer
-                  href: how-to-determine-whether-outlook-is-a-click-to-run-application-on-a-computer.md
+                  href: outlook/pia/how-to-determine-whether-outlook-is-a-click-to-run-application-on-a-computer.md
               - name: Appointments
-                href: appointments.md
+                href: outlook/pia/appointments.md
                 items:
                 - name: Create an appointment that is an all-day event
-                  href: how-to-create-an-appointment-that-is-an-all-day-event.md
+                  href: outlook/pia/how-to-create-an-appointment-that-is-an-all-day-event.md
                 - name: Create an appointment that starts in the Pacific Time Zone and ends in the Eastern Time Zone
-                  href: how-to-create-an-appointment-that-starts-in-the-pacific-time-zone-and-ends-in-the-eastern-time-zone.md
+                  href: outlook/pia/how-to-create-an-appointment-that-starts-in-the-pacific-time-zone-and-ends-in-the-eastern-time-zone.md
                 - name: Specify different recipient types for an appointment item
-                  href: how-to-specify-different-recipient-types-for-an-appointment-item.md
+                  href: outlook/pia/how-to-specify-different-recipient-types-for-an-appointment-item.md
                 - name: Create a recurring appointment by using the default recurrence pattern
-                  href: how-to-create-a-recurring-appointment-by-using-the-default-recurrence-pattern.md
+                  href: outlook/pia/how-to-create-a-recurring-appointment-by-using-the-default-recurrence-pattern.md
                 - name: Create a recurring appointment that has a weekly pattern
-                  href: how-to-create-a-recurring-appointment-that-has-a-weekly-pattern.md
+                  href: outlook/pia/how-to-create-a-recurring-appointment-that-has-a-weekly-pattern.md
                 - name: Create an annual recurring appointment that uses a yearNth pattern
-                  href: how-to-create-an-annual-recurring-appointment-that-uses-a-yearnth-pattern.md
+                  href: outlook/pia/how-to-create-an-annual-recurring-appointment-that-uses-a-yearnth-pattern.md
                 - name: Find a specific appointment in a recurring appointment series
-                  href: how-to-find-a-specific-appointment-in-a-recurring-appointment-series.md
+                  href: outlook/pia/how-to-find-a-specific-appointment-in-a-recurring-appointment-series.md
                 - name: Create an exception appointment in a recurring appointment series
-                  href: how-to-create-an-exception-appointment-in-a-recurring-appointment-series.md
+                  href: outlook/pia/how-to-create-an-exception-appointment-in-a-recurring-appointment-series.md
                 - name: Create a reminder for an appointment item
-                  href: how-to-create-a-reminder-for-an-appointment-item.md
+                  href: outlook/pia/how-to-create-a-reminder-for-an-appointment-item.md
                 - name: Import appointment XML data into Outlook appointment objects
-                  href: how-to-import-appointment-xml-data-into-outlook-appointment-objects.md
+                  href: outlook/pia/how-to-import-appointment-xml-data-into-outlook-appointment-objects.md
               - name: Attachments
-                href: attachments.md
+                href: outlook/pia/attachments.md
                 items:
                 - name: Programmatically remove security level 2 attachments from messages and save them to disk
-                  href: how-to-programmatically-remove-security-level-2-attachments-from-messages-and-save-them-to-disk.md
+                  href: outlook/pia/how-to-programmatically-remove-security-level-2-attachments-from-messages-and-save-them-to-disk.md
               - name: Calendar
-                href: calendar.md
+                href: outlook/pia/calendar.md
                 items:
                 - name: Share Free/Busy schedule within a specified period in a calendar
-                  href: how-to-share-free-busy-schedule-within-a-specified-period-in-a-calendar.md
+                  href: outlook/pia/how-to-share-free-busy-schedule-within-a-specified-period-in-a-calendar.md
                 - name: Share calendar information through email
-                  href: how-to-share-calendar-information-through-e-mail.md
+                  href: outlook/pia/how-to-share-calendar-information-through-e-mail.md
                 - name: Display a shared calendar of a recipient
-                  href: how-to-display-a-shared-calendar-of-a-recipient.md
+                  href: outlook/pia/how-to-display-a-shared-calendar-of-a-recipient.md
                 - name: Save a calendar to disk
-                  href: how-to-save-a-calendar-to-disk.md
+                  href: outlook/pia/how-to-save-a-calendar-to-disk.md
                 - name: Open and display the contents of an iCalendar file
-                  href: how-to-open-and-display-the-contents-of-an-icalendar-file.md
+                  href: outlook/pia/how-to-open-and-display-the-contents-of-an-icalendar-file.md
               - name: Color categories
-                href: color-categories.md
+                href: outlook/pia/color-categories.md
                 items:
                 - name: Enumerate and add categories
-                  href: how-to-enumerate-and-add-categories.md
+                  href: outlook/pia/how-to-enumerate-and-add-categories.md
                 - name: Assign categories to an item
-                  href: how-to-assign-categories-to-an-item.md
+                  href: outlook/pia/how-to-assign-categories-to-an-item.md
               - name: Contacts
-                href: contacts.md
+                href: outlook/pia/contacts.md
                 items:
                 - name: Create a Contact item
-                  href: how-to-create-a-contact-item.md
+                  href: outlook/pia/how-to-create-a-contact-item.md
                 - name: Create a custom Contact item
-                  href: how-to-create-a-custom-contact-item.md
+                  href: outlook/pia/how-to-create-a-custom-contact-item.md
                 - name: Create a Contact item from a vCard file and save the item in a folder
-                  href: how-to-create-a-contact-item-from-a-vcard-file-and-save-the-item-in-a-folder.md
+                  href: outlook/pia/how-to-create-a-contact-item-from-a-vcard-file-and-save-the-item-in-a-folder.md
               - name: Conversations
-                href: conversations.md
+                href: outlook/pia/conversations.md
                 items:
                 - name: Get and display items in a conversation
-                  href: how-to-get-and-display-items-in-a-conversation.md
+                  href: outlook/pia/how-to-get-and-display-items-in-a-conversation.md
                 - name: Get and enumerate selected conversations
-                  href: how-to-get-and-enumerate-selected-conversations.md
+                  href: outlook/pia/how-to-get-and-enumerate-selected-conversations.md
               - name: Electronic business cards
-                href: electronic-business-cards.md
+                href: outlook/pia/electronic-business-cards.md
                 items:
                 - name: Modify the layout of an electronic business card
-                  href: how-to-modify-the-layout-of-an-electronic-business-card.md
+                  href: outlook/pia/how-to-modify-the-layout-of-an-electronic-business-card.md
                 - name: Send a mail item with an electronic business card
-                  href: how-to-send-a-mail-item-with-an-electronic-business-card.md
+                  href: outlook/pia/how-to-send-a-mail-item-with-an-electronic-business-card.md
               - name: Exchange users
-                href: exchange-users.md
+                href: outlook/pia/exchange-users.md
                 items:
                 - name: Get information about the current user
-                  href: how-to-get-information-about-the-current-user.md
+                  href: outlook/pia/how-to-get-information-about-the-current-user.md
                 - name: Get information about all distribution lists of which the current user is a member
-                  href: how-to-get-information-about-all-distribution-lists-of-which-the-current-user-is-a-member.md
+                  href: outlook/pia/how-to-get-information-about-all-distribution-lists-of-which-the-current-user-is-a-member.md
                 - name: Create a distribution list
-                  href: how-to-create-a-distribution-list.md
+                  href: outlook/pia/how-to-create-a-distribution-list.md
                 - name: Get members of an Exchange distribution list
-                  href: how-to-get-members-of-an-exchange-distribution-list.md
+                  href: outlook/pia/how-to-get-members-of-an-exchange-distribution-list.md
                 - name: Get information about the current user's manager
-                  href: how-to-get-information-about-the-current-user-s-manager.md
+                  href: outlook/pia/how-to-get-information-about-the-current-user-s-manager.md
                 - name: Get availability information for an Exchange user's manager
-                  href: how-to-get-availability-information-for-an-exchange-user-s-manager.md
+                  href: outlook/pia/how-to-get-availability-information-for-an-exchange-user-s-manager.md
                 - name: Check a manager's response to a meeting request
-                  href: how-to-check-a-manager-s-response-to-a-meeting-request.md
+                  href: outlook/pia/how-to-check-a-manager-s-response-to-a-meeting-request.md
                 - name: Get information about direct reports of the current user's manager
-                  href: how-to-get-information-about-direct-reports-of-the-current-user-s-manager.md
+                  href: outlook/pia/how-to-get-information-about-direct-reports-of-the-current-user-s-manager.md
               - name: General Outlook items
-                href: general-outlook-items.md
+                href: outlook/pia/general-outlook-items.md
                 items:
                 - name: Create a Helper class to access common Outlook item members
-                  href: how-to-create-a-helper-class-to-access-common-outlook-item-members.md
+                  href: outlook/pia/how-to-create-a-helper-class-to-access-common-outlook-item-members.md
                 - name: Display selected items in the active Explorer
-                  href: how-to-display-selected-items-in-the-active-explorer.md
+                  href: outlook/pia/how-to-display-selected-items-in-the-active-explorer.md
               - name: Group sharing
-                href: group-sharing.md
+                href: outlook/pia/group-sharing.md
                 items:
                 - name: Subscribe to an RSS feed
-                  href: how-to-subscribe-to-an-rss-feed.md
+                  href: outlook/pia/how-to-subscribe-to-an-rss-feed.md
                 - name: Synchronize Outlook with a SharePoint folder
-                  href: how-to-synchronize-outlook-with-a-sharepoint-folder.md
+                  href: outlook/pia/how-to-synchronize-outlook-with-a-sharepoint-folder.md
               - name: Sample tasks using Outlook events
-                href: sample-tasks-using-outlook-events.md
+                href: outlook/pia/sample-tasks-using-outlook-events.md
                 items:
                 - name: Implement a wrapper for inspectors and track item-level events in each inspector
-                  href: how-to-implement-a-wrapper-for-inspectors-and-track-item-level-events-in-each-inspector.md
+                  href: outlook/pia/how-to-implement-a-wrapper-for-inspectors-and-track-item-level-events-in-each-inspector.md
               - name: Folders
-                href: folders.md
+                href: outlook/pia/folders.md
                 items:
                 - name: Add a folder to the folder List
-                  href: how-to-add-a-folder-to-the-folder-list.md
+                  href: outlook/pia/how-to-add-a-folder-to-the-folder-list.md
                 - name: Enumerate folders
-                  href: how-to-enumerate-folders.md
+                  href: outlook/pia/how-to-enumerate-folders.md
                 - name: Get a default folder and enumerate its subfolders
-                  href: how-to-get-a-default-folder-and-enumerate-its-subfolders.md
+                  href: outlook/pia/how-to-get-a-default-folder-and-enumerate-its-subfolders.md
                 - name: Get a folder based on its folder path
-                  href: how-to-get-a-folder-based-on-its-folder-path.md
+                  href: outlook/pia/how-to-get-a-folder-based-on-its-folder-path.md
                 - name: Select a folder and display folder information
-                  href: how-to-select-a-folder-and-display-folder-information.md
+                  href: outlook/pia/how-to-select-a-folder-and-display-folder-information.md
                 - name: Get the default Message class of a folder
-                  href: how-to-get-the-default-message-class-of-a-folder.md
+                  href: outlook/pia/how-to-get-the-default-message-class-of-a-folder.md
                 - name: Access solution-specific data stored as a hidden message in a folder
-                  href: how-to-access-solution-specific-data-stored-as-a-hidden-message-in-a-folder.md
+                  href: outlook/pia/how-to-access-solution-specific-data-stored-as-a-hidden-message-in-a-folder.md
                 - name: Ensure that custom item properties are supported in folder-level queries
-                  href: how-to-ensure-that-custom-item-properties-are-supported-in-folder-level-queries.md
+                  href: outlook/pia/how-to-ensure-that-custom-item-properties-are-supported-in-folder-level-queries.md
               - name: Mail
-                href: mail.md
+                href: outlook/pia/mail.md
                 items:
                 - name: Create a mail item by using a message template
-                  href: how-to-create-a-mail-item-by-using-a-message-template.md
+                  href: outlook/pia/how-to-create-a-mail-item-by-using-a-message-template.md
                 - name: Create a mail item, attach a report, and send the mail item to the user's manager
-                  href: how-to-create-a-mail-item-attach-a-report-and-send-the-mail-item-to-the-user-s-manager.md
+                  href: outlook/pia/how-to-create-a-mail-item-attach-a-report-and-send-the-mail-item-to-the-user-s-manager.md
                 - name: Send an email given the SMTP address of an account
-                  href: how-to-send-an-e-mail-given-the-smtp-address-of-an-account.md
+                  href: outlook/pia/how-to-send-an-e-mail-given-the-smtp-address-of-an-account.md
                 - name: Add voting options to a mail item
-                  href: how-to-add-voting-options-to-a-mail-item.md
+                  href: outlook/pia/how-to-add-voting-options-to-a-mail-item.md
                 - name: Add a custom action as a response to a mail item
-                  href: how-to-add-a-custom-action-as-a-response-to-a-mail-item.md
+                  href: outlook/pia/how-to-add-a-custom-action-as-a-response-to-a-mail-item.md
                 - name: Get the SMTP address of the sender of a mail item
-                  href: how-to-get-the-smtp-address-of-the-sender-of-a-mail-item.md
+                  href: outlook/pia/how-to-get-the-smtp-address-of-the-sender-of-a-mail-item.md
                 - name: Specify different recipient types for a mail item
-                  href: how-to-specify-different-recipient-types-for-a-mail-item.md
+                  href: outlook/pia/how-to-specify-different-recipient-types-for-a-mail-item.md
               - name: Meeting requests
-                href: meeting-requests.md
+                href: outlook/pia/meeting-requests.md
                 items:
                 - name: Create a meeting request, add recipients, and specify a location
-                  href: how-to-create-a-meeting-request-add-recipients-and-specify-a-location.md
+                  href: outlook/pia/how-to-create-a-meeting-request-add-recipients-and-specify-a-location.md
                 - name: Get the organizer of a meeting
-                  href: how-to-get-the-organizer-of-a-meeting.md
+                  href: outlook/pia/how-to-get-the-organizer-of-a-meeting.md
                 - name: Check all responses to a meeting request
-                  href: how-to-check-all-responses-to-a-meeting-request.md
+                  href: outlook/pia/how-to-check-all-responses-to-a-meeting-request.md
                 - name: Find the appointment item associated with a meeting request
-                  href: how-to-find-the-appointment-item-associated-with-a-meeting-request.md
+                  href: outlook/pia/how-to-find-the-appointment-item-associated-with-a-meeting-request.md
                 - name: Automatically accept a meeting request
-                  href: how-to-automatically-accept-a-meeting-request.md
+                  href: outlook/pia/how-to-automatically-accept-a-meeting-request.md
                 - name: Prompt a user to respond to a meeting request
-                  href: how-to-prompt-a-user-to-respond-to-a-meeting-request.md
+                  href: outlook/pia/how-to-prompt-a-user-to-respond-to-a-meeting-request.md
               - name: Recipients
-                href: recipients.md
+                href: outlook/pia/recipients.md
                 items:
                 - name: Display the Select Names dialog box to resolve recipients
-                  href: how-to-display-the-select-names-dialog-box-to-resolve-recipients.md
+                  href: outlook/pia/how-to-display-the-select-names-dialog-box-to-resolve-recipients.md
                 - name: Use the Select Names dialog box to obtain and assign recipients to an appointment
-                  href: how-to-use-the-select-names-dialog-box-to-obtain-and-assign-recipients-to-an-appointment.md
+                  href: outlook/pia/how-to-use-the-select-names-dialog-box-to-obtain-and-assign-recipients-to-an-appointment.md
                 - name: Get the email address of a recipient
-                  href: how-to-get-the-e-mail-address-of-a-recipient.md
+                  href: outlook/pia/how-to-get-the-e-mail-address-of-a-recipient.md
               - name: Rules
-                href: rules.md
+                href: outlook/pia/rules.md
                 items:
                 - name: Create a rule to file mail items from a manager and flag them for follow-up
-                  href: how-to-create-a-rule-to-file-mail-items-from-a-manager-and-flag-them-for-follow-up.md
+                  href: outlook/pia/how-to-create-a-rule-to-file-mail-items-from-a-manager-and-flag-them-for-follow-up.md
                 - name: Execute a rule instantly
-                  href: how-to-execute-a-rule-instantly.md
+                  href: outlook/pia/how-to-execute-a-rule-instantly.md
                 - name: Execute a rule on a local computer
-                  href: how-to-execute-a-rule-on-a-local-computer.md
+                  href: outlook/pia/how-to-execute-a-rule-on-a-local-computer.md
                 - name: Create a rule to assign categories to mail items based on multiple words in the subject
-                  href: how-to-create-a-rule-to-assign-categories-to-mail-items-based-on-multiple-words-in-the-subject.md
+                  href: outlook/pia/how-to-create-a-rule-to-assign-categories-to-mail-items-based-on-multiple-words-in-the-subject.md
               - name: Search and filter
-                href: search-and-filter.md
+                href: outlook/pia/search-and-filter.md
                 items:
                 - name: Filter and efficiently enumerate items in a folder
-                  href: how-to-filter-and-efficiently-enumerate-items-in-a-folder.md
+                  href: outlook/pia/how-to-filter-and-efficiently-enumerate-items-in-a-folder.md
                 - name: Use SetColumns to efficiently enumerate items in a folder
-                  href: how-to-use-setcolumns-to-efficiently-enumerate-items-in-a-folder.md
+                  href: outlook/pia/how-to-use-setcolumns-to-efficiently-enumerate-items-in-a-folder.md
                 - name: Use arrays to efficiently enumerate items in a folder
-                  href: how-to-use-arrays-to-efficiently-enumerate-items-in-a-folder.md
+                  href: outlook/pia/how-to-use-arrays-to-efficiently-enumerate-items-in-a-folder.md
                 - name: Enumerate items in the Inbox based on the last modification time
-                  href: how-to-enumerate-items-in-the-inbox-based-on-the-last-modification-time.md
+                  href: outlook/pia/how-to-enumerate-items-in-the-inbox-based-on-the-last-modification-time.md
                 - name: Filter and display Inbox items modified in the last month
-                  href: how-to-filter-and-display-inbox-items-modified-in-the-last-month.md
+                  href: outlook/pia/how-to-filter-and-display-inbox-items-modified-in-the-last-month.md
                 - name: Filter and display multivalued properties when enumerating items in a folder
-                  href: how-to-filter-and-display-multivalued-properties-when-enumerating-items-in-a-folder.md
+                  href: outlook/pia/how-to-filter-and-display-multivalued-properties-when-enumerating-items-in-a-folder.md
                 - name: Filter and display computed properties when enumerating items in a folder
-                  href: how-to-filter-and-display-computed-properties-when-enumerating-items-in-a-folder.md
+                  href: outlook/pia/how-to-filter-and-display-computed-properties-when-enumerating-items-in-a-folder.md
                 - name: Enumerate hidden items in a folder
-                  href: how-to-enumerate-hidden-items-in-a-folder.md
+                  href: outlook/pia/how-to-enumerate-hidden-items-in-a-folder.md
                 - name: Use instant search to search all folders and all stores for a phrase in the subject
-                  href: how-to-use-instant-search-to-search-all-folders-and-all-stores-for-a-phrase-in-the-subject.md
+                  href: outlook/pia/how-to-use-instant-search-to-search-all-folders-and-all-stores-for-a-phrase-in-the-subject.md
                 - name: Search for a phrase in the body of items in a folder
-                  href: how-to-search-for-a-phrase-in-the-body-of-items-in-a-folder.md
+                  href: outlook/pia/how-to-search-for-a-phrase-in-the-body-of-items-in-a-folder.md
                 - name: Search attachments of items in a folder for an exact phrase
-                  href: how-to-search-attachments-of-items-in-a-folder-for-an-exact-phrase.md
+                  href: outlook/pia/how-to-search-attachments-of-items-in-a-folder-for-an-exact-phrase.md
                 - name: Search and obtain appointments in a time range
-                  href: how-to-search-and-obtain-appointments-in-a-time-range.md
+                  href: outlook/pia/how-to-search-and-obtain-appointments-in-a-time-range.md
                 - name: Filter recurring appointments and search for a string in the subject
-                  href: how-to-filter-recurring-appointments-and-search-for-a-string-in-the-subject.md
+                  href: outlook/pia/how-to-filter-recurring-appointments-and-search-for-a-string-in-the-subject.md
                 - name: Search and obtain items in an aggregated view
-                  href: how-to-search-and-obtain-items-in-an-aggregated-view.md
+                  href: outlook/pia/how-to-search-and-obtain-items-in-an-aggregated-view.md
               - name: Sessions
-                href: sessions.md
+                href: outlook/pia/sessions.md
                 items:
                 - name: Get and sign in to an instance of Outlook
-                  href: how-to-get-and-log-on-to-an-instance-of-outlook.md
+                  href: outlook/pia/how-to-get-and-log-on-to-an-instance-of-outlook.md
               - name: Stores
-                href: stores.md
+                href: outlook/pia/stores.md
                 items:
                 - name: Get information about stores in a profile
-                  href: how-to-get-information-about-stores-in-a-profile.md
+                  href: outlook/pia/how-to-get-information-about-stores-in-a-profile.md
                 - name: Add or remove a store
-                  href: how-to-add-or-remove-a-store.md
+                  href: outlook/pia/how-to-add-or-remove-a-store.md
               - name: Tasks
-                href: tasks.md
+                href: outlook/pia/tasks.md
                 items:
                 - name: Create a task item
-                  href: how-to-create-a-task-item.md
+                  href: outlook/pia/how-to-create-a-task-item.md
                 - name: Assign a task to a recipient
-                  href: how-to-assign-a-task-to-a-recipient.md
+                  href: outlook/pia/how-to-assign-a-task-to-a-recipient.md
                 - name: Display the task request items sent to a recipient
-                  href: how-to-display-the-task-request-items-sent-to-a-recipient.md
+                  href: outlook/pia/how-to-display-the-task-request-items-sent-to-a-recipient.md
                 - name: Respond to a task request item
-                  href: how-to-respond-to-a-task-request-item.md
+                  href: outlook/pia/how-to-respond-to-a-task-request-item.md
                 - name: Create a recurring task
-                  href: how-to-create-a-recurring-task.md
+                  href: outlook/pia/how-to-create-a-recurring-task.md
                 - name: Flag mail items from a manager for follow-up
-                  href: how-to-flag-mail-items-from-a-manager-for-follow-up.md
+                  href: outlook/pia/how-to-flag-mail-items-from-a-manager-for-follow-up.md
               - name: Views
-                href: views.md
+                href: outlook/pia/views.md
                 items:
                 - name: Create a view
-                  href: how-to-create-a-view.md
+                  href: outlook/pia/how-to-create-a-view.md
                 - name: Add fields to a view
-                  href: how-to-add-fields-to-a-view.md
+                  href: outlook/pia/how-to-add-fields-to-a-view.md
                 - name: Enumerate items in a table view
-                  href: how-to-enumerate-items-in-a-table-view.md
+                  href: outlook/pia/how-to-enumerate-items-in-a-table-view.md
             - name: Class library
-              href: outlook-2013-interop-assembly-class-library.md
+              href: outlook/pia/outlook-2013-interop-assembly-class-library.md
           - name: Outlook Social Connector provider reference
             href: outlook/social-connector/outlook-social-connector-provider-reference.md
             items:
