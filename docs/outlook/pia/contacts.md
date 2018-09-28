@@ -14,13 +14,13 @@ This section provides sample topics that involve contacts. Contacts represent pe
 
 ## In this section
 
-  - [How to: Create a Contact Item](how-to-create-a-contact-item.md)  
+  - [Create a Contact Item](how-to-create-a-contact-item.md)  
     Creates a contact item and sets various properties for the contact.
 
-  - [How to: Create a Custom Contact Item](how-to-create-a-custom-contact-item.md)  
+  - [Create a Custom Contact Item](how-to-create-a-custom-contact-item.md)  
     Creates a custom contact item and sets both predefined and user-defined properties.
 
-  - [How to: Create a Contact Item from a vCard file and Save the Item in a Folder](how-to-create-a-contact-item-from-a-vcard-file-and-save-the-item-in-a-folder.md)  
+  - [Create a Contact Item from a vCard file and Save the Item in a Folder](how-to-create-a-contact-item-from-a-vcard-file-and-save-the-item-in-a-folder.md)  
     Imports all the vCard files in a file system folder and saves the contacts into the folder specified by the targetFolder parameter.
 
 ## Related sections

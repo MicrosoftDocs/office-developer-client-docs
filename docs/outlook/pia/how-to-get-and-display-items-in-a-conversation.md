@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Get and Display Items in a Conversation'
-TOCTitle: 'How to: Get and Display Items in a Conversation'
+title: 'Get and Display Items in a Conversation'
+TOCTitle: 'Get and Display Items in a Conversation'
 ms:assetid: 8f30a7cb-0949-46d7-bc51-2d93dbb22bf8
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184625(v=office.15)
 ms:contentKeyID: 55119832
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Get and Display Items in a Conversation
+# Get and Display Items in a Conversation
 
 This example shows how to get and display mail items in a conversation.
 

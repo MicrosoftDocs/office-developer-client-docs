@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Search Attachments of Items in a Folder for an Exact Phrase'
-TOCTitle: 'How to: Search Attachments of Items in a Folder for an Exact Phrase'
+title: 'Search Attachments of Items in a Folder for an Exact Phrase'
+TOCTitle: 'Search Attachments of Items in a Folder for an Exact Phrase'
 ms:assetid: 3202c0c7-ee3d-4396-b3a9-d24990b44829
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb609825(v=office.15)
 ms:contentKeyID: 55119889
@@ -11,7 +11,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Search Attachments of Items in a Folder for an Exact Phrase
+# Search Attachments of Items in a Folder for an Exact Phrase
 
 This example searches for the exact search string "office" in attachments to items in the Inbox.
 

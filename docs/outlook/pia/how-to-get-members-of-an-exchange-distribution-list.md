@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Get Members of an Exchange Distribution List'
-TOCTitle: 'How to: Get Members of an Exchange Distribution List'
+title: 'Get Members of an Exchange Distribution List'
+TOCTitle: 'Get Members of an Exchange Distribution List'
 ms:assetid: 75b38e40-772c-400b-8df9-e3e385b87f9c
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb645998(v=office.15)
 ms:contentKeyID: 55119837
@@ -11,7 +11,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Get Members of an Exchange Distribution List
+# Get Members of an Exchange Distribution List
 
 This example prompts the user to select an Exchange distribution list from the **Select Names** dialog box and expands the distribution list to display its members.
 

@@ -14,7 +14,7 @@ This section includes a sample task that pertains to Microsoft Outlook sessions.
 
 ## In this section
 
-  - [How to: Get and Log On to an Instance of Outlook](how-to-get-and-log-on-to-an-instance-of-outlook.md)  
+  - [Get and Log On to an Instance of Outlook](how-to-get-and-log-on-to-an-instance-of-outlook.md)  
     Obtains an [Application](https://msdn.microsoft.com/en-us/library/bb646615\(v=office.15\)) object that represents an active instance of Outlook, if there is one running on the local computer, or creates a new instance of Outlook, logs on to the default profile, and returns that instance of Outlook.
 
 ## See also

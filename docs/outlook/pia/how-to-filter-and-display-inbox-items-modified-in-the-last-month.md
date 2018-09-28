@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Filter and Display Inbox Items Modified in the Last Month'
-TOCTitle: 'How to: Filter and Display Inbox Items Modified in the Last Month'
+title: 'Filter and Display Inbox Items Modified in the Last Month'
+TOCTitle: 'Filter and Display Inbox Items Modified in the Last Month'
 ms:assetid: ef6004dc-0b5a-4d1f-8937-1384d1dfc1ca
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff424482(v=office.15)
 ms:contentKeyID: 55119886
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Filter and Display Inbox Items Modified in the Last Month
+# Filter and Display Inbox Items Modified in the Last Month
 
 This example shows how to filter and display Inbox items that were modified in the last month.
 

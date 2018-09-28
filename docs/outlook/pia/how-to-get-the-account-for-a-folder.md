@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Get the Account for a Folder'
-TOCTitle: 'How to: Get the Account for a Folder'
+title: 'Get the Account for a Folder'
+TOCTitle: 'Get the Account for a Folder'
 ms:assetid: 3706be15-f746-4d0d-9ffe-d6f46b2004dc
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184600(v=office.15)
 ms:contentKeyID: 55119793
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Get the Account for a Folder
+# Get the Account for a Folder
 
 This example gets the account that is associated with a folder in the current session.
 

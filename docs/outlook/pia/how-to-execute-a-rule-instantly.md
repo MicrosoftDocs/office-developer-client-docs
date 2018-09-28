@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Execute a Rule Instantly'
-TOCTitle: 'How to: Execute a Rule Instantly'
+title: 'Execute a Rule Instantly'
+TOCTitle: 'Execute a Rule Instantly'
 ms:assetid: b41031d5-aa81-40e2-ae78-b45a2f79eb5d
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff424476(v=office.15)
 ms:contentKeyID: 55119919
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Execute a Rule Instantly
+# Execute a Rule Instantly
 
 This example shows how to execute a rule instantly by using the [Execute(Object, Object, Object, Object)](https://msdn.microsoft.com/en-us/library/bb645769\(v=office.15\)) method of the [Rule](https://msdn.microsoft.com/en-us/library/bb647152\(v=office.15\)) object.
 
@@ -68,7 +68,7 @@ You can cause a rule to execute immediately by calling the Execute method on the
 
 You can cancel a rule execution by using the Rules and Alerts Wizard. You can also cancel a rule execution by setting the ShowProgress parameter to true and then canceling the progress dialog box. Once you cancel the progress dialog box, Execute will return an error.
 
-In the following code example, ExecuteManagerRule gets the rule that was created in the procedure CreateManagerRule from the topic [How to: Create a Rule to File Mail Items from a Manager and Flag Them for Follow-Up](how-to-create-a-rule-to-file-mail-items-from-a-manager-and-flag-them-for-follow-up.md). ExecuteManagerRule then checks whether the rule is not a null reference. If the rule is not a null reference, ExecuteManagerRule calls the Execute method on the rule with default parameters, instantly executing the rule.
+In the following code example, ExecuteManagerRule gets the rule that was created in the procedure CreateManagerRule from the topic [Create a Rule to File Mail Items from a Manager and Flag Them for Follow-Up](how-to-create-a-rule-to-file-mail-items-from-a-manager-and-flag-them-for-follow-up.md). ExecuteManagerRule then checks whether the rule is not a null reference. If the rule is not a null reference, ExecuteManagerRule calls the Execute method on the rule with default parameters, instantly executing the rule.
 
 
 > [!NOTE]

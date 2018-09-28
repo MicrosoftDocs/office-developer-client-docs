@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Enumerate Folders'
-TOCTitle: 'How to: Enumerate Folders'
+title: 'Enumerate Folders'
+TOCTitle: 'Enumerate Folders'
 ms:assetid: 564730f9-3da3-4eff-b207-64ac4fec632d
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184607(v=office.15)
 ms:contentKeyID: 55119855
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Enumerate Folders
+# Enumerate Folders
 
 This example shows how to enumerate folders by iterating through a collection of folders.
 

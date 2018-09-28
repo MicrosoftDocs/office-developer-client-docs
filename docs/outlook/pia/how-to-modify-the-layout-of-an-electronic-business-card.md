@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Modify the Layout of an Electronic Business Card'
-TOCTitle: 'How to: Modify the Layout of an Electronic Business Card'
+title: 'Modify the Layout of an Electronic Business Card'
+TOCTitle: 'Modify the Layout of an Electronic Business Card'
 ms:assetid: f387c4a7-59c5-4b6a-b33a-1bfa7d499bbf
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184653(v=office.15)
 ms:contentKeyID: 55119838
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Modify the Layout of an Electronic Business Card
+# Modify the Layout of an Electronic Business Card
 
 This example shows how to modify the layout of an Electronic Business Card by using the [BusinessCardLayoutXml](https://msdn.microsoft.com/en-us/library/bb624276\(v=office.15\)) property of the [ContactItem](https://msdn.microsoft.com/en-us/library/bb644956\(v=office.15\)) interface.
 

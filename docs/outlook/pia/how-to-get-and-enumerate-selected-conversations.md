@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Get and Enumerate Selected Conversations'
-TOCTitle: 'How to: Get and Enumerate Selected Conversations'
+title: 'Get and Enumerate Selected Conversations'
+TOCTitle: 'Get and Enumerate Selected Conversations'
 ms:assetid: 835312ea-2b29-49a5-b128-f69cf8d4427c
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184621(v=office.15)
 ms:contentKeyID: 55119833
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Get and Enumerate Selected Conversations
+# Get and Enumerate Selected Conversations
 
 This example obtains and enumerates selected conversations by using the [GetSelection(OlSelectionContents)](https://msdn.microsoft.com/en-us/library/ff185002\(v=office.15\)) method.
 

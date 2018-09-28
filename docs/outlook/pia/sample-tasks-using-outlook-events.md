@@ -14,7 +14,7 @@ This section provides sample tasks that involve Microsoft Outlook PIA events.
 
 ## In this section
 
-  - [How to: Implement a Wrapper for Inspectors and Track Item-Level Events in Each Inspector](how-to-implement-a-wrapper-for-inspectors-and-track-item-level-events-in-each-inspector.md)  
+  - [Implement a Wrapper for Inspectors and Track Item-Level Events in Each Inspector](how-to-implement-a-wrapper-for-inspectors-and-track-item-level-events-in-each-inspector.md)  
     Implements a wrapper for an [Inspectors](https://msdn.microsoft.com/en-us/library/bb623458\(v=office.15\)) collection and to uses that wrapper to track item-level events in each [Inspector](https://msdn.microsoft.com/en-us/library/bb647744\(v=office.15\)) object in the collection.
 
 ## See also

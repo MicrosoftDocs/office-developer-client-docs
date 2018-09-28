@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Get Information About All Distribution Lists of Which the Current User is a Member'
-TOCTitle: 'How to: Get Information About All Distribution Lists of Which the Current User is a Member'
+title: 'Get Information About All Distribution Lists of Which the Current User is a Member'
+TOCTitle: 'Get Information About All Distribution Lists of Which the Current User is a Member'
 ms:assetid: c5be6aa8-8d85-463e-a377-2a4d57e2106b
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184638(v=office.15)
 ms:contentKeyID: 55119836
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Get Information About All Distribution Lists of Which the Current User is a Member
+# Get Information About All Distribution Lists of Which the Current User is a Member
 
 This example uses the [GetMemberOfList()](https://msdn.microsoft.com/en-us/library/bb623397\(v=office.15\)) method to get information about all distribution lists of which the current user is a member.
 

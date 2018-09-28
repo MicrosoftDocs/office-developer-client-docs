@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Create a View'
-TOCTitle: 'How to: Create a View'
+title: 'Create a View'
+TOCTitle: 'Create a View'
 ms:assetid: 2f8ad187-1030-420a-bc74-c327e3521550
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff424468(v=office.15)
 ms:contentKeyID: 55119902
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Create a View
+# Create a View
 
 This example shows how to use the [Add(String, OlViewType, OlViewSaveOption)](https://msdn.microsoft.com/en-us/library/bb643986\(v=office.15\)) method of the [Views](https://msdn.microsoft.com/en-us/library/bb644226\(v=office.15\)) collection to create a view for a [Folder](https://msdn.microsoft.com/en-us/library/bb645774\(v=office.15\)) object.
 

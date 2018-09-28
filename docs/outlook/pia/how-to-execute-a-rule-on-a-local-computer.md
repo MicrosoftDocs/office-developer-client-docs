@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Execute a Rule on a Local Computer'
-TOCTitle: 'How to: Execute a Rule on a Local Computer'
+title: 'Execute a Rule on a Local Computer'
+TOCTitle: 'Execute a Rule on a Local Computer'
 ms:assetid: 65e91010-3e4c-4921-a0fb-ad90a7b841b2
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff424471(v=office.15)
 ms:contentKeyID: 55119883
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Execute a Rule on a Local Computer
+# Execute a Rule on a Local Computer
 
 This example shows how to execute a rule on a local computer by using the [OnLocalMachine](https://msdn.microsoft.com/en-us/library/bb612005\(v=office.15\)) property of the [RuleConditions](https://msdn.microsoft.com/en-us/library/bb610965\(v=office.15\)) object.
 

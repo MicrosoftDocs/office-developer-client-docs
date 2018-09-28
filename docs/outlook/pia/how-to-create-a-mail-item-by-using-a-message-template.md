@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Create a Mail Item by Using a Message Template'
-TOCTitle: 'How to: Create a Mail Item by Using a Message Template'
+title: 'Create a Mail Item by Using a Message Template'
+TOCTitle: 'Create a Mail Item by Using a Message Template'
 ms:assetid: 7d1ffc3b-d1a7-46d1-adb9-ac41e67f626a
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb623026(v=office.15)
 ms:contentKeyID: 55119862
@@ -11,7 +11,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Create a Mail Item by Using a Message Template
+# Create a Mail Item by Using a Message Template
 
 This example creates a mail item by using the [CreateItemFromTemplate](https://msdn.microsoft.com/en-us/library/bb611329\(v=office.15\)) method.
 

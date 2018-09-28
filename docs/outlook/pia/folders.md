@@ -14,28 +14,28 @@ This section provides sample tasks that involve folders. [Folder](https://msdn.m
 
 ## In this section
 
-  - [How to: Add a Folder to the Folder List](how-to-add-a-folder-to-the-folder-list.md)  
+  - [Add a Folder to the Folder List](how-to-add-a-folder-to-the-folder-list.md)  
     Uses the [Add(String, Object)](https://msdn.microsoft.com/en-us/library/bb645065\(v=office.15\)) method to add a folder to the Outlook folder list.
 
-  - [How to: Enumerate Folders](how-to-enumerate-folders.md)  
+  - [Enumerate Folders](how-to-enumerate-folders.md)  
     Enumerates folders by iterating through a collection of folders.
 
-  - [How to: Get a Default Folder and Enumerate Its Subfolders](how-to-get-a-default-folder-and-enumerate-its-subfolders.md)  
+  - [Get a Default Folder and Enumerate Its Subfolders](how-to-get-a-default-folder-and-enumerate-its-subfolders.md)  
     Obtains a default folder in the user’s default store and enumerates its subfolders.
 
-  - [How to: Get a Folder Based on Its Folder Path](how-to-get-a-folder-based-on-its-folder-path.md)  
+  - [Get a Folder Based on Its Folder Path](how-to-get-a-folder-based-on-its-folder-path.md)  
     Takes a folder path and obtains the associated folder.
 
-  - [How to: Select a Folder and Display Folder Information](how-to-select-a-folder-and-display-folder-information.md)  
+  - [Select a Folder and Display Folder Information](how-to-select-a-folder-and-display-folder-information.md)  
     Programmatically displays information about a folder that a user selects from a specified folder list.
 
-  - [How to: Get the Default Message Class of a Folder](how-to-get-the-default-message-class-of-a-folder.md)  
+  - [Get the Default Message Class of a Folder](how-to-get-the-default-message-class-of-a-folder.md)  
     Uses the [DefaultMessageClass](https://msdn.microsoft.com/en-us/library/bb646541\(v=office.15\)) property to obtain the default message class of a folder.
 
-  - [How to: Access Solution-Specific Data Stored as a Hidden Message in a Folder](how-to-access-solution-specific-data-stored-as-a-hidden-message-in-a-folder.md)  
+  - [Access Solution-Specific Data Stored as a Hidden Message in a Folder](how-to-access-solution-specific-data-stored-as-a-hidden-message-in-a-folder.md)  
     Uses the [StorageItem](https://msdn.microsoft.com/en-us/library/bb623436\(v=office.15\)) object to retrieve data that is stored as a hidden message of a specific message class in a folder.
 
-  - [How to: Ensure that Custom Item Properties Are Supported in Folder-Level Queries](how-to-ensure-that-custom-item-properties-are-supported-in-folder-level-queries.md)  
+  - [Ensure that Custom Item Properties Are Supported in Folder-Level Queries](how-to-ensure-that-custom-item-properties-are-supported-in-folder-level-queries.md)  
     Shows how to ensure that when you add a custom property to an item type, you also add the property to the folder so that you can query on that custom property at the folder level.
 
 ## Related sections

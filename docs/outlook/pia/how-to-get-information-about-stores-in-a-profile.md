@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Get Information About Stores in a Profile'
-TOCTitle: 'How to: Get Information About Stores in a Profile'
+title: 'Get Information About Stores in a Profile'
+TOCTitle: 'Get Information About Stores in a Profile'
 ms:assetid: e88222d2-e1b7-4393-aac4-5ce9d24d5d5b
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184648(v=office.15)
 ms:contentKeyID: 55119893
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Get Information About Stores in a Profile
+# Get Information About Stores in a Profile
 
 This example shows how to get and enumerate stores in a profile.
 

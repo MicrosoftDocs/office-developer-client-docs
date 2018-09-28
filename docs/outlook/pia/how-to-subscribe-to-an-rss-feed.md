@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Subscribe to an RSS Feed'
-TOCTitle: 'How to: Subscribe to an RSS Feed'
+title: 'Subscribe to an RSS Feed'
+TOCTitle: 'Subscribe to an RSS Feed'
 ms:assetid: 7ecefbcd-1a34-48e8-afac-7d54e79fd159
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff424473(v=office.15)
 ms:contentKeyID: 55119852
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Subscribe to an RSS Feed
+# Subscribe to an RSS Feed
 
 This example shows how to subscribe to an RSS feed by using the [OpenSharedFolder(String, Object, Object, Object)](https://msdn.microsoft.com/en-us/library/bb610157\(v=office.15\)) method.
 

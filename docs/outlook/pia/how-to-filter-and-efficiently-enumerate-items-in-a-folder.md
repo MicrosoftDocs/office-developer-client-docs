@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Filter and Efficiently Enumerate Items in a Folder'
-TOCTitle: 'How to: Filter and Efficiently Enumerate Items in a Folder'
+title: 'Filter and Efficiently Enumerate Items in a Folder'
+TOCTitle: 'Filter and Efficiently Enumerate Items in a Folder'
 ms:assetid: efee7704-b7d9-4586-a72e-4e960ec1ffdb
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb612664(v=office.15)
 ms:contentKeyID: 55119884
@@ -11,7 +11,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Filter and Efficiently Enumerate Items in a Folder
+# Filter and Efficiently Enumerate Items in a Folder
 
 This example shows how to use the [Table](https://msdn.microsoft.com/en-us/library/bb652856\(v=office.15\)) object to filter for items in the Inbox that have attachments, and efficiently enumerate such items, displaying selected properties for each item.
 

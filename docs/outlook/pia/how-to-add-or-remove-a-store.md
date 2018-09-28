@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Add or Remove a Store'
-TOCTitle: 'How to: Add or Remove a Store'
+title: 'Add or Remove a Store'
+TOCTitle: 'Add or Remove a Store'
 ms:assetid: db2930ec-ef99-4e31-86c5-820e8368e05f
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb612380(v=office.15)
 ms:contentKeyID: 55119895
@@ -11,7 +11,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Add or Remove a Store
+# Add or Remove a Store
 
 This example shows how to add and remove a store in a given profile.
 

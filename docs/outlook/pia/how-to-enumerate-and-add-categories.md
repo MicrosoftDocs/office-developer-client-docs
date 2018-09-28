@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Enumerate and Add Categories'
-TOCTitle: 'How to: Enumerate and Add Categories'
+title: 'Enumerate and Add Categories'
+TOCTitle: 'Enumerate and Add Categories'
 ms:assetid: 17a94a01-c463-4332-851e-7d280c66d8c2
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff424467(v=office.15)
 ms:contentKeyID: 55119829
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Enumerate and Add Categories
+# Enumerate and Add Categories
 
 This example shows how to enumerate categories and add a category to the main category list.
 

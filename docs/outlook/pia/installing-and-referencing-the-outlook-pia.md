@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Installing and Referencing the Outlook PIA
 
-You must have the Outlook Primary Interop Assembly (PIA) installed in the Global Assembly Cache (GAC) before you can incorporate information from the PIA in an Outlook managed add-in. By default, the PIA is installed automatically when you install Office on the development computer. However, if you need to install the PIA separately, see [Configuring a Computer to Develop Office Solutions](https://msdn.microsoft.com/en-us/library/bb398242\(v=office.15\)) and [How to: Configure a Computer to Develop Office Solutions](https://msdn.microsoft.com/en-us/library/54ds2za4\(v=office.15\)) for more information.
+You must have the Outlook Primary Interop Assembly (PIA) installed in the Global Assembly Cache (GAC) before you can incorporate information from the PIA in an Outlook managed add-in. By default, the PIA is installed automatically when you install Office on the development computer. However, if you need to install the PIA separately, see [Configuring a Computer to Develop Office Solutions](https://msdn.microsoft.com/en-us/library/bb398242\(v=office.15\)) and [Configure a Computer to Develop Office Solutions](https://msdn.microsoft.com/en-us/library/54ds2za4\(v=office.15\)) for more information.
 
 
 > [!NOTE]
@@ -24,7 +24,7 @@ After installation, if you are using Visual Studio to create the managed project
 
 
 
-[How to: Install Office Primary Interop Assemblies](https://msdn.microsoft.com/en-us/library/kh3965hw\(v=office.15\))
+[Install Office Primary Interop Assemblies](https://msdn.microsoft.com/en-us/library/kh3965hw\(v=office.15\))
 
 [Architecture of the Outlook PIA](architecture-of-the-outlook-pia.md)
 

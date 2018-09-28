@@ -14,19 +14,19 @@ This section provides sample tasks that involve e-mail accounts. Examples of e-m
 
 ## In this section
 
-  - [How to: Get Account Information](how-to-get-account-information.md)  
+  - [Get Account Information](how-to-get-account-information.md)  
     Takes as an input argument a trusted Microsoft Outlook [Application](https://msdn.microsoft.com/en-us/library/bb646615\(v=office.15\)) object, and uses the Account object to display the details of each account that is available for the current Outlook profile.
 
-  - [How to: Create a Sendable Item for a Specific Account Based on the Current Folder](how-to-create-a-sendable-item-for-a-specific-account-based-on-the-current-folder.md)  
+  - [Create a Sendable Item for a Specific Account Based on the Current Folder](how-to-create-a-sendable-item-for-a-specific-account-based-on-the-current-folder.md)  
     Contains two code examples that show how to create a sendable e-mail item and meeting request, and then to send them by using a specific account that is based on the current folder.
 
-  - [How to: Get the Account for a Folder](how-to-get-the-account-for-a-folder.md)  
+  - [Get the Account for a Folder](how-to-get-the-account-for-a-folder.md)  
     Gets the account that is associated with a folder in the current session.
 
-  - [How to: Get Information About Multiple Accounts](how-to-get-information-about-multiple-accounts.md)  
+  - [Get Information About Multiple Accounts](how-to-get-information-about-multiple-accounts.md)  
     Obtains and displays miscellaneous information about each account in the current profile.
 
-  - [How to: Send a Mail Item by Using a Hotmail Account](how-to-send-a-mail-item-by-using-a-hotmail-account.md)  
+  - [Send a Mail Item by Using a Hotmail Account](how-to-send-a-mail-item-by-using-a-hotmail-account.md)  
     Uses the [SendUsingAccount](https://msdn.microsoft.com/en-us/library/bb623679\(v=office.15\)) property to send a mail item by using a Windows Live Hotmail account.
 
 ## Related sections

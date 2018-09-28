@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Filter and Display Multivalued Properties When Enumerating Items in a Folder'
-TOCTitle: 'How to: Filter and Display Multivalued Properties When Enumerating Items in a Folder'
+title: 'Filter and Display Multivalued Properties When Enumerating Items in a Folder'
+TOCTitle: 'Filter and Display Multivalued Properties When Enumerating Items in a Folder'
 ms:assetid: 62dd2120-5c85-44b3-89ec-c4ca85aa2964
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184613(v=office.15)
 ms:contentKeyID: 55119887
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Filter and Display Multivalued Properties When Enumerating Items in a Folder
+# Filter and Display Multivalued Properties When Enumerating Items in a Folder
 
 This example shows how to filter and display multivalued properties while enumerating items in a folder.
 

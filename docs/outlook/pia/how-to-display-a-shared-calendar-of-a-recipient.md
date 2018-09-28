@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Display a Shared Calendar of a Recipient'
-TOCTitle: 'How to: Display a Shared Calendar of a Recipient'
+title: 'Display a Shared Calendar of a Recipient'
+TOCTitle: 'Display a Shared Calendar of a Recipient'
 ms:assetid: 3dcfec17-c836-4bd0-a177-33c911a94b1f
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184606(v=office.15)
 ms:contentKeyID: 55119825
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Display a Shared Calendar of a Recipient
+# Display a Shared Calendar of a Recipient
 
 This example shows how to display a recipient's shared calendar by using the [CreateRecipient(String)](https://msdn.microsoft.com/en-us/library/bb609962\(v=office.15\)) and [GetSharedDefaultFolder(Recipient, OlDefaultFolders)](https://msdn.microsoft.com/en-us/library/bb644850\(v=office.15\)) methods.
 

@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Send a Mail Item by Using a Hotmail Account'
-TOCTitle: 'How to: Send a Mail Item by Using a Hotmail Account'
+title: 'Send a Mail Item by Using a Hotmail Account'
+TOCTitle: 'Send a Mail Item by Using a Hotmail Account'
 ms:assetid: f25853a7-67c0-46a3-a298-5cdf72ebc53f
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184652(v=office.15)
 ms:contentKeyID: 55119797
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Send a Mail Item by Using a Hotmail Account
+# Send a Mail Item by Using a Hotmail Account
 
 This example uses the [SendUsingAccount](https://msdn.microsoft.com/en-us/library/bb623679\(v=office.15\)) property to send a mail item by using a Windows Live Hotmail account.
 

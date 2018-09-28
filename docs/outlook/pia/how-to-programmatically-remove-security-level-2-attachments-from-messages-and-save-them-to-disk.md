@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Programmatically Remove Security Level 2 Attachments from Messages and Save Them to Disk'
-TOCTitle: 'How to: Programmatically Remove Security Level 2 Attachments from Messages and Save Them to Disk'
+title: 'Programmatically Remove Security Level 2 Attachments from Messages and Save Them to Disk'
+TOCTitle: 'Programmatically Remove Security Level 2 Attachments from Messages and Save Them to Disk'
 ms:assetid: fb63e505-a243-40a5-919d-e4fe914af3f9
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184657(v=office.15)
 ms:contentKeyID: 55119822
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Programmatically Remove Security Level 2 Attachments from Messages and Save Them to Disk
+# Programmatically Remove Security Level 2 Attachments from Messages and Save Them to Disk
 
 This example shows how to remove security Level 2 attachments from e-mail messages and save them to a disk, from where they can be opened.
 

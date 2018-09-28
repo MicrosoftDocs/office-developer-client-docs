@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Respond to a Task Request Item'
-TOCTitle: 'How to: Respond to a Task Request Item'
+title: 'Respond to a Task Request Item'
+TOCTitle: 'Respond to a Task Request Item'
 ms:assetid: 573c98ef-4d15-4fd1-bccd-25a22c9a63f0
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184608(v=office.15)
 ms:contentKeyID: 55119896
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Respond to a Task Request Item
+# Respond to a Task Request Item
 
 This example shows how to get and respond to a task request item.
 

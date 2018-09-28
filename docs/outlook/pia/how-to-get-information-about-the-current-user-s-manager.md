@@ -1,6 +1,6 @@
 ﻿---
-title: "How to: Get Information About the Current User's Manager"
-TOCTitle: "How to: Get Information About the Current User's Manager"
+title: "Get Information About the Current User's Manager"
+TOCTitle: "Get Information About the Current User's Manager"
 ms:assetid: 3a77fa51-e2e3-4544-849f-4267b1762270
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184603(v=office.15)
 ms:contentKeyID: 55119846
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Get Information About the Current User's Manager
+# Get Information About the Current User's Manager
 
 This example shows how to get information (such as name, job title, and phone numbers) about the current user’s manager.
 

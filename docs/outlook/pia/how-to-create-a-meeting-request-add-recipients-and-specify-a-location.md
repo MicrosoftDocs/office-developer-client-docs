@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Create a Meeting Request, Add Recipients, and Specify a Location'
-TOCTitle: 'How to: Create a Meeting Request, Add Recipients, and Specify a Location'
+title: 'Create a Meeting Request, Add Recipients, and Specify a Location'
+TOCTitle: 'Create a Meeting Request, Add Recipients, and Specify a Location'
 ms:assetid: 3053c27e-34d9-440e-9b66-06de940c2813
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb644964(v=office.15)
 ms:contentKeyID: 55119873
@@ -11,7 +11,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Create a Meeting Request, Add Recipients, and Specify a Location
+# Create a Meeting Request, Add Recipients, and Specify a Location
 
 This example creates an appointment item as a meeting request, specifies the time, recipients, and location of the meeting, and displays the appointment in an inspector.
 

@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Create an Appointment That Is an All-Day Event'
-TOCTitle: 'How to: Create an Appointment That Is an All-Day Event'
+title: 'Create an Appointment That Is an All-Day Event'
+TOCTitle: 'Create an Appointment That Is an All-Day Event'
 ms:assetid: a0d3baeb-6ed5-41b6-bef5-d6c1bb56fee3
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184629(v=office.15)
 ms:contentKeyID: 55119806
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Create an Appointment That Is an All-Day Event
+# Create an Appointment That Is an All-Day Event
 
 This example shows how use the [AllDayEvent](https://msdn.microsoft.com/en-us/library/bb610279\(v=office.15\)) property to create an appointment that is an all-day event.
 

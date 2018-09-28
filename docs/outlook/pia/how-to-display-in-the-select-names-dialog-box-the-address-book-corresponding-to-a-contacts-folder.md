@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Display in the Select Names Dialog Box the Address Book Corresponding to a Contacts Folder'
-TOCTitle: 'How to: Display in the Select Names Dialog Box the Address Book Corresponding to a Contacts Folder'
+title: 'Display in the Select Names Dialog Box the Address Book Corresponding to a Contacts Folder'
+TOCTitle: 'Display in the Select Names Dialog Box the Address Book Corresponding to a Contacts Folder'
 ms:assetid: 6cbfc843-51b5-4841-bbb1-14b93a35ba78
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb610437(v=office.15)
 ms:contentKeyID: 55119799
@@ -11,7 +11,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Display in the Select Names Dialog Box the Address Book Corresponding to a Contacts Folder
+# Display in the Select Names Dialog Box the Address Book Corresponding to a Contacts Folder
 
 This example shows how to obtain the address book that corresponds to the default Contacts folder, and then displays the address book in the **Select Names** dialog box.
 

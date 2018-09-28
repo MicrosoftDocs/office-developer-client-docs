@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Create an Annual Recurring Appointment That Uses a YearNth Pattern'
-TOCTitle: 'How to: Create an Annual Recurring Appointment That Uses a YearNth Pattern'
+title: 'Create an Annual Recurring Appointment That Uses a YearNth Pattern'
+TOCTitle: 'Create an Annual Recurring Appointment That Uses a YearNth Pattern'
 ms:assetid: 5fb2ad0b-248c-417d-8868-52e0550d970f
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184611(v=office.15)
 ms:contentKeyID: 55119811
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Create an Annual Recurring Appointment That Uses a YearNth Pattern
+# Create an Annual Recurring Appointment That Uses a YearNth Pattern
 
 This example shows how to create an appointment for which the annual recurrence pattern is a specific day such as the first Monday in June.
 

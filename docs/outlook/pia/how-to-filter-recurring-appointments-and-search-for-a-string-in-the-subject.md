@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Filter Recurring Appointments and Search for a String in the Subject'
-TOCTitle: 'How to: Filter Recurring Appointments and Search for a String in the Subject'
+title: 'Filter Recurring Appointments and Search for a String in the Subject'
+TOCTitle: 'Filter Recurring Appointments and Search for a String in the Subject'
 ms:assetid: 997186aa-5264-4b19-bed6-51c38831c03d
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb611267(v=office.15)
 ms:contentKeyID: 55119891
@@ -11,7 +11,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Filter Recurring Appointments and Search for a String in the Subject
+# Filter Recurring Appointments and Search for a String in the Subject
 
 This example filters recurring appointments that fall within a date range in a Calendar folder, and then searches in two ways for the string "office" in the subject.
 

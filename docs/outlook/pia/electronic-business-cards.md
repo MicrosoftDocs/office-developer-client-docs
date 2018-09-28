@@ -14,10 +14,10 @@ This section provides samples tasks that involve Electronic Business Cards. Elec
 
 ## In this section
 
-  - [How to: Modify the Layout of an Electronic Business Card](how-to-modify-the-layout-of-an-electronic-business-card.md)  
+  - [Modify the Layout of an Electronic Business Card](how-to-modify-the-layout-of-an-electronic-business-card.md)  
     Modifies the layout of an Electronic Business Card by using the [BusinessCardLayoutXml](https://msdn.microsoft.com/en-us/library/bb624276\(v=office.15\)) property of the [ContactItem](https://msdn.microsoft.com/en-us/library/bb644956\(v=office.15\)) interface.
 
-  - [How to: Send a Mail Item with an Electronic Business Card](how-to-send-a-mail-item-with-an-electronic-business-card.md)  
+  - [Send a Mail Item with an Electronic Business Card](how-to-send-a-mail-item-with-an-electronic-business-card.md)  
     Creates a mail item, looks for an Electronic Business Card, and if it finds one, inserts the Electronic Business Card into the mail item.
 
 ## Related sections

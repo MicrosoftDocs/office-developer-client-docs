@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Get Information About Multiple Accounts'
-TOCTitle: 'How to: Get Information About Multiple Accounts'
+title: 'Get Information About Multiple Accounts'
+TOCTitle: 'Get Information About Multiple Accounts'
 ms:assetid: 363f4058-3069-4ddc-b3ff-113a4dfd58c4
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184599(v=office.15)
 ms:contentKeyID: 55119794
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Get Information About Multiple Accounts
+# Get Information About Multiple Accounts
 
 Outlook supports a profile that contains one or more accounts that are connected to an Exchange Server. This example shows how to obtain and display miscellaneous information about each account in the current profile.
 

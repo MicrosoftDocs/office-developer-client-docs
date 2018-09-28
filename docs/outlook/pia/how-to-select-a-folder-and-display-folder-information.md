@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Select a Folder and Display Folder Information'
-TOCTitle: 'How to: Select a Folder and Display Folder Information'
+title: 'Select a Folder and Display Folder Information'
+TOCTitle: 'Select a Folder and Display Folder Information'
 ms:assetid: 737b19bc-1efd-4ddb-86d0-72b3ab8eaf8c
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184616(v=office.15)
 ms:contentKeyID: 55119859
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Select a Folder and Display Folder Information
+# Select a Folder and Display Folder Information
 
 This example shows how to programmatically display information about a folder that a user selects from a specified folder list.
 

@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Display the Task Request Items Sent to a Recipient'
-TOCTitle: 'How to: Display the Task Request Items Sent to a Recipient'
+title: 'Display the Task Request Items Sent to a Recipient'
+TOCTitle: 'Display the Task Request Items Sent to a Recipient'
 ms:assetid: 167c3d52-67b5-467c-a7b6-e8cc96002b63
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184591(v=office.15)
 ms:contentKeyID: 55119930
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Display the Task Request Items Sent to a Recipient
+# Display the Task Request Items Sent to a Recipient
 
 This example shows how to display all of the task request items that are in a recipient's Inbox.
 

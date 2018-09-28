@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Specify Different Recipient Types for a Mail Item'
-TOCTitle: 'How to: Specify Different Recipient Types for a Mail Item'
+title: 'Specify Different Recipient Types for a Mail Item'
+TOCTitle: 'Specify Different Recipient Types for a Mail Item'
 ms:assetid: 2a3ace9f-627c-4fdd-b182-afc1b53af85b
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184598(v=office.15)
 ms:contentKeyID: 55119871
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Specify Different Recipient Types for a Mail Item
+# Specify Different Recipient Types for a Mail Item
 
 This example shows how to programmatically set different recipient types (To, Cc, or Bcc) for a mail item.
 

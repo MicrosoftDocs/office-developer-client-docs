@@ -14,10 +14,10 @@ This section provides sample tasks that involve conversations. Conversations in 
 
 ## In this section
 
-  - [How to: Get and Display Items in a Conversation](how-to-get-and-display-items-in-a-conversation.md)  
+  - [Get and Display Items in a Conversation](how-to-get-and-display-items-in-a-conversation.md)  
     Gets and displays mail items in a conversation.
 
-  - [How to: Get and Enumerate Selected Conversations](how-to-get-and-enumerate-selected-conversations.md)  
+  - [Get and Enumerate Selected Conversations](how-to-get-and-enumerate-selected-conversations.md)  
     Obtains and enumerates selected conversations by using the [GetSelection(OlSelectionContents)](https://msdn.microsoft.com/en-us/library/ff185002\(v=office.15\)) method.
 
 ## Related sections

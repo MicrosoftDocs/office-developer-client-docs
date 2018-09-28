@@ -14,13 +14,13 @@ This section provides sample tasks that involve views. Views are used to sort, g
 
 ## In this section
 
-  - [How to: Create a View](how-to-create-a-view.md)  
+  - [Create a View](how-to-create-a-view.md)  
     Uses the [Add(String, OlViewType, OlViewSaveOption)](https://msdn.microsoft.com/en-us/library/bb643986\(v=office.15\)) method of the [Views](https://msdn.microsoft.com/en-us/library/bb644226\(v=office.15\)) collection to create a view for a [Folder](https://msdn.microsoft.com/en-us/library/bb645774\(v=office.15\)) object.
 
-  - [How to: Add Fields to a View](how-to-add-fields-to-a-view.md)  
+  - [Add Fields to a View](how-to-add-fields-to-a-view.md)  
     Customizes a view by using the [Add(String)](https://msdn.microsoft.com/en-us/library/bb646040\(v=office.15\)) method of the [ViewFields](https://msdn.microsoft.com/en-us/library/bb645950\(v=office.15\)) collection to add fields to a view.
 
-  - [How to: Enumerate Items in a Table View](how-to-enumerate-items-in-a-table-view.md)  
+  - [Enumerate Items in a Table View](how-to-enumerate-items-in-a-table-view.md)  
     Enumerates items in a table view by using the [GetTable()](https://msdn.microsoft.com/en-us/library/ff184699\(v=office.15\)) method.
 
 ## Related sections

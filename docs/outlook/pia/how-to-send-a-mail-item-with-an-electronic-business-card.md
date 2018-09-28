@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Send a Mail Item with an Electronic Business Card'
-TOCTitle: 'How to: Send a Mail Item with an Electronic Business Card'
+title: 'Send a Mail Item with an Electronic Business Card'
+TOCTitle: 'Send a Mail Item with an Electronic Business Card'
 ms:assetid: f8aae7f2-85fc-4ed0-9f59-282ede702357
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb624312(v=office.15)
 ms:contentKeyID: 55119839
@@ -11,7 +11,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Send a Mail Item with an Electronic Business Card
+# Send a Mail Item with an Electronic Business Card
 
 This example creates a mail item, looks for an Electronic Business Card, and if it finds one, inserts the Electronic Business Card into the mail item.
 

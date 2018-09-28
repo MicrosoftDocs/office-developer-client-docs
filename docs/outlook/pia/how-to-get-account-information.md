@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Get Account Information'
-TOCTitle: 'How to: Get Account Information'
+title: 'Get Account Information'
+TOCTitle: 'Get Account Information'
 ms:assetid: 02825449-50eb-42d0-8e45-361db5f473df
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff462091(v=office.15)
 ms:contentKeyID: 55119795
@@ -11,7 +11,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Get Account Information
+# Get Account Information
 
 This topic takes as an input argument a trusted Outlook [Application](https://msdn.microsoft.com/en-us/library/bb646615\(v=office.15\)) object, and uses the Account object to display the details of each account that is available for the current Outlook profile.
 

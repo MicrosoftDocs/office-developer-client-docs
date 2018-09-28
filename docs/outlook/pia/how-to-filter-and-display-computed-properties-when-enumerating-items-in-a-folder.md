@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Filter and Display Computed Properties When Enumerating Items in a Folder'
-TOCTitle: 'How to: Filter and Display Computed Properties When Enumerating Items in a Folder'
+title: 'Filter and Display Computed Properties When Enumerating Items in a Folder'
+TOCTitle: 'Filter and Display Computed Properties When Enumerating Items in a Folder'
 ms:assetid: b068e625-ff12-444d-a30d-51a3acba3043
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184632(v=office.15)
 ms:contentKeyID: 55119922
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Filter and Display Computed Properties When Enumerating Items in a Folder
+# Filter and Display Computed Properties When Enumerating Items in a Folder
 
 This example shows how to filter and display computed properties when enumerating items in a folder.
 

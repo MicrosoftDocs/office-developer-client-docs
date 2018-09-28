@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Assign a Task to a Recipient'
-TOCTitle: 'How to: Assign a Task to a Recipient'
+title: 'Assign a Task to a Recipient'
+TOCTitle: 'Assign a Task to a Recipient'
 ms:assetid: c6be97a7-de3f-43e5-9111-534d0f04e986
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184639(v=office.15)
 ms:contentKeyID: 55119929
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Assign a Task to a Recipient
+# Assign a Task to a Recipient
 
 This example shows how to create a task and assign it to a recipient.
 

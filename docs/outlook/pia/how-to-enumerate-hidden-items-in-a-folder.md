@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Enumerate Hidden Items in a Folder'
-TOCTitle: 'How to: Enumerate Hidden Items in a Folder'
+title: 'Enumerate Hidden Items in a Folder'
+TOCTitle: 'Enumerate Hidden Items in a Folder'
 ms:assetid: dafad1fb-94ce-4584-b5d1-2de5fad2f72a
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184645(v=office.15)
 ms:contentKeyID: 55119888
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Enumerate Hidden Items in a Folder
+# Enumerate Hidden Items in a Folder
 
 This example shows how to find and enumerate hidden items in a folder.
 

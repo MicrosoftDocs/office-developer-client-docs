@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Use Instant Search to Search All Folders and All Stores for a Phrase in the Subject'
-TOCTitle: 'How to: Use Instant Search to Search All Folders and All Stores for a Phrase in the Subject'
+title: 'Use Instant Search to Search All Folders and All Stores for a Phrase in the Subject'
+TOCTitle: 'Use Instant Search to Search All Folders and All Stores for a Phrase in the Subject'
 ms:assetid: d3152bfa-6e7d-4b68-8c7e-e2e155a92b49
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff424478(v=office.15)
 ms:contentKeyID: 55119923
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Use Instant Search to Search All Folders and All Stores for a Phrase in the Subject
+# Use Instant Search to Search All Folders and All Stores for a Phrase in the Subject
 
 This example uses Instant Search to search all folders and all stores for a phrase in the subject, and then displays the items in an explorer window.
 

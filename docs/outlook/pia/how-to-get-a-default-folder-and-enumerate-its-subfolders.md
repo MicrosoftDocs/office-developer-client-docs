@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Get a Default Folder and Enumerate Its Subfolders'
-TOCTitle: 'How to: Get a Default Folder and Enumerate Its Subfolders'
+title: 'Get a Default Folder and Enumerate Its Subfolders'
+TOCTitle: 'Get a Default Folder and Enumerate Its Subfolders'
 ms:assetid: 587e8392-cb03-442c-9058-1282f36dabdb
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184610(v=office.15)
 ms:contentKeyID: 55119857
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Get a Default Folder and Enumerate Its Subfolders
+# Get a Default Folder and Enumerate Its Subfolders
 
 This example shows how to obtain a default folder in the user’s default store and enumerate its subfolders.
 

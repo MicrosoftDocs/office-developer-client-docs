@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Get the E-Mail Address of a Recipient'
-TOCTitle: 'How to: Get the E-Mail Address of a Recipient'
+title: 'Get the E-Mail Address of a Recipient'
+TOCTitle: 'Get the E-Mail Address of a Recipient'
 ms:assetid: e585811b-a298-496f-ba79-df7d46526169
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184647(v=office.15)
 ms:contentKeyID: 55119879
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Get the E-Mail Address of a Recipient
+# Get the E-Mail Address of a Recipient
 
 This example shows how to get the Simple Mail Transfer Protocol (SMTP) address of a recipient.
 

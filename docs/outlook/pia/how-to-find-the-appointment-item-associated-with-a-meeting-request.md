@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Find the Appointment Item Associated with a Meeting Request'
-TOCTitle: 'How to: Find the Appointment Item Associated with a Meeting Request'
+title: 'Find the Appointment Item Associated with a Meeting Request'
+TOCTitle: 'Find the Appointment Item Associated with a Meeting Request'
 ms:assetid: ff356fcf-0980-4567-8570-4bbcb14381e7
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184658(v=office.15)
 ms:contentKeyID: 55119875
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Find the Appointment Item Associated with a Meeting Request
+# Find the Appointment Item Associated with a Meeting Request
 
 This example shows how to use the [GetAssociatedAppointment(Boolean)](https://msdn.microsoft.com/en-us/library/bb652725\(v=office.15\)) method to find the appointment that is associated with a meeting request.
 

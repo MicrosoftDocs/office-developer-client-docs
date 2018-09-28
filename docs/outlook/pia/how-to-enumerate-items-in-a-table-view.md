@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Enumerate Items in a Table View'
-TOCTitle: 'How to: Enumerate Items in a Table View'
+title: 'Enumerate Items in a Table View'
+TOCTitle: 'Enumerate Items in a Table View'
 ms:assetid: c7d9a667-cfec-49c1-af7a-4c8063991588
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184640(v=office.15)
 ms:contentKeyID: 55119900
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Enumerate Items in a Table View
+# Enumerate Items in a Table View
 
 This example enumerates items in a table view by using the [GetTable()](https://msdn.microsoft.com/en-us/library/ff184699\(v=office.15\)) method.
 

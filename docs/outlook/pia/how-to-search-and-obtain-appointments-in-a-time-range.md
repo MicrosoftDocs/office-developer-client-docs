@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Search and Obtain Appointments in a Time Range'
-TOCTitle: 'How to: Search and Obtain Appointments in a Time Range'
+title: 'Search and Obtain Appointments in a Time Range'
+TOCTitle: 'Search and Obtain Appointments in a Time Range'
 ms:assetid: ce5205ad-6967-4f21-8a9d-503b731dbd40
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg619398(v=office.15)
 ms:contentKeyID: 55119927
@@ -11,7 +11,7 @@ dev_langs:
 - vb
 ---
 
-# How to: Search and Obtain Appointments in a Time Range
+# Search and Obtain Appointments in a Time Range
 
 This example returns appointments in a specific time range in the default Microsoft Outlook calendar.
 

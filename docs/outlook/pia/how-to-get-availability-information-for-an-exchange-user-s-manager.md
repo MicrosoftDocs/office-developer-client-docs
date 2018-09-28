@@ -1,6 +1,6 @@
 ﻿---
-title: "How to: Get Availability Information for an Exchange User's Manager"
-TOCTitle: "How to: Get Availability Information for an Exchange User's Manager"
+title: "Get Availability Information for an Exchange User's Manager"
+TOCTitle: "Get Availability Information for an Exchange User's Manager"
 ms:assetid: b59dd875-50c2-4f24-ba91-24429abf1b72
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb646996(v=office.15)
 ms:contentKeyID: 55119849
@@ -11,7 +11,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Get Availability Information for an Exchange User's Manager
+# Get Availability Information for an Exchange User's Manager
 
 This example displays the next free 60-minute time slot in the calendar for a user's manager.
 

@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Get the Default Message Class of a Folder'
-TOCTitle: 'How to: Get the Default Message Class of a Folder'
+title: 'Get the Default Message Class of a Folder'
+TOCTitle: 'Get the Default Message Class of a Folder'
 ms:assetid: 1c5faefd-b180-4114-a955-3fc524210317
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184594(v=office.15)
 ms:contentKeyID: 55119860
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Get the Default Message Class of a Folder
+# Get the Default Message Class of a Folder
 
 This example shows how to use the [DefaultMessageClass](https://msdn.microsoft.com/en-us/library/bb646541\(v=office.15\)) property to obtain the default message class of a folder.
 

@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Create a Distribution List'
-TOCTitle: 'How to: Create a Distribution List'
+title: 'Create a Distribution List'
+TOCTitle: 'Create a Distribution List'
 ms:assetid: c1fdbf3d-9669-4721-aabf-e8a332b82e0e
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184637(v=office.15)
 ms:contentKeyID: 55119841
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Create a Distribution List
+# Create a Distribution List
 
 This example shows how to create a distribution list and display it to the user.
 

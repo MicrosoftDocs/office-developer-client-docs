@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Save a Calendar to Disk'
-TOCTitle: 'How to: Save a Calendar to Disk'
+title: 'Save a Calendar to Disk'
+TOCTitle: 'Save a Calendar to Disk'
 ms:assetid: f1b57bd0-c972-4b86-8870-f26290f28050
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb647583(v=office.15)
 ms:contentKeyID: 55119827
@@ -11,7 +11,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Save a Calendar to Disk
+# Save a Calendar to Disk
 
 This example shows how to save an entire calendar to disk in the iCalendar (.ics) file format.
 

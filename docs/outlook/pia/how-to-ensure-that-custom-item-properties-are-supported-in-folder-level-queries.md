@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Ensure that Custom Item Properties Are Supported in Folder-Level Queries'
-TOCTitle: 'How to: Ensure that Custom Item Properties Are Supported in Folder-Level Queries'
+title: 'Ensure that Custom Item Properties Are Supported in Folder-Level Queries'
+TOCTitle: 'Ensure that Custom Item Properties Are Supported in Folder-Level Queries'
 ms:assetid: 02cf14c6-ee1b-4e04-a865-32adaac13f9b
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb608929(v=office.15)
 ms:contentKeyID: 55119863
@@ -11,7 +11,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Ensure that Custom Item Properties Are Supported in Folder-Level Queries
+# Ensure that Custom Item Properties Are Supported in Folder-Level Queries
 
 This example shows how to ensure that when you add a custom property to an item type, you also add the property to the folder so that you can query on that custom property at the folder level.
 

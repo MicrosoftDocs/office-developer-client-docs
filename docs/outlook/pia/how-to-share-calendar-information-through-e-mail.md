@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Share Calendar Information Through E-Mail'
-TOCTitle: 'How to: Share Calendar Information Through E-Mail'
+title: 'Share Calendar Information Through E-Mail'
+TOCTitle: 'Share Calendar Information Through E-Mail'
 ms:assetid: 3382010c-0a16-4dca-a99e-669e9178354e
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb609881(v=office.15)
 ms:contentKeyID: 55119817
@@ -11,7 +11,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Share Calendar Information Through E-Mail
+# Share Calendar Information Through E-Mail
 
 This example shows how to share information from a calendar by e-mail in the iCalendar format.
 

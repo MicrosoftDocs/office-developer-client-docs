@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Import Appointment XML Data into Outlook Appointment Objects'
-TOCTitle: 'How to: Import Appointment XML Data into Outlook Appointment Objects'
+title: 'Import Appointment XML Data into Outlook Appointment Objects'
+TOCTitle: 'Import Appointment XML Data into Outlook Appointment Objects'
 ms:assetid: 166a648a-1c48-4984-8889-a7614cc277b1
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff462092(v=office.15)
 ms:contentKeyID: 55119821
@@ -12,7 +12,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Import Appointment XML Data into Outlook Appointment Objects
+# Import Appointment XML Data into Outlook Appointment Objects
 
 This topic shows how to read appointment data formatted in XML, save the data to Outlook [AppointmentItem](https://msdn.microsoft.com/en-us/library/bb645611\(v=office.15\)) objects in the default calendar, and return the appointment objects in an array.
 

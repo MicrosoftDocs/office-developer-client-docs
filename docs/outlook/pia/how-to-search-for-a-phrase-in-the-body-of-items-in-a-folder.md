@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Search for a Phrase in the Body of Items in a Folder'
-TOCTitle: 'How to: Search for a Phrase in the Body of Items in a Folder'
+title: 'Search for a Phrase in the Body of Items in a Folder'
+TOCTitle: 'Search for a Phrase in the Body of Items in a Folder'
 ms:assetid: 2c9f3b5f-ed91-4a07-b247-8f89f00cbc68
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb644806(v=office.15)
 ms:contentKeyID: 55119924
@@ -11,7 +11,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Search for a Phrase in the Body of Items in a Folder
+# Search for a Phrase in the Body of Items in a Folder
 
 This example searches for the string "office" in the Body of items in the Inbox.
 

@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Add a Custom Action as a Response to a Mail Item'
-TOCTitle: 'How to: Add a Custom Action as a Response to a Mail Item'
+title: 'Add a Custom Action as a Response to a Mail Item'
+TOCTitle: 'Add a Custom Action as a Response to a Mail Item'
 ms:assetid: 99e8ba6b-9c47-4b10-968b-436b08d199ec
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff424474(v=office.15)
 ms:contentKeyID: 55119870
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Add a Custom Action as a Response to a Mail Item
+# Add a Custom Action as a Response to a Mail Item
 
 This example shows how to add custom actions as a response to an e-mail item by using the [Add()](https://msdn.microsoft.com/en-us/library/bb612077\(v=office.15\)) method of the [Actions](https://msdn.microsoft.com/en-us/library/bb611963\(v=office.15\)) collection.
 

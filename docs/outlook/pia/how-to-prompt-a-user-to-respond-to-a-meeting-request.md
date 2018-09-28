@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Prompt a User to Respond to a Meeting Request'
-TOCTitle: 'How to: Prompt a User to Respond to a Meeting Request'
+title: 'Prompt a User to Respond to a Meeting Request'
+TOCTitle: 'Prompt a User to Respond to a Meeting Request'
 ms:assetid: a0d69f82-8659-457d-9418-1a897a10882f
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184630(v=office.15)
 ms:contentKeyID: 55119877
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Prompt a User to Respond to a Meeting Request
+# Prompt a User to Respond to a Meeting Request
 
 This example shows how to prompt the user for a response to a meeting request, and to enable the user to edit the response before sending it.
 

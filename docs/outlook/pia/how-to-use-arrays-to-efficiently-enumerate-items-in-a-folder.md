@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Use Arrays to Efficiently Enumerate Items in a Folder'
-TOCTitle: 'How to: Use Arrays to Efficiently Enumerate Items in a Folder'
+title: 'Use Arrays to Efficiently Enumerate Items in a Folder'
+TOCTitle: 'Use Arrays to Efficiently Enumerate Items in a Folder'
 ms:assetid: 05a73225-ad0d-4d52-90b6-448d220348df
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184588(v=office.15)
 ms:contentKeyID: 55119885
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Use Arrays to Efficiently Enumerate Items in a Folder
+# Use Arrays to Efficiently Enumerate Items in a Folder
 
 This example shows how to efficiently enumerate items in a [Folder](https://msdn.microsoft.com/en-us/library/bb645774\(v=office.15\)) object by using the [GetArray(Int32)](https://msdn.microsoft.com/en-us/library/bb608928\(v=office.15\)) method.
 

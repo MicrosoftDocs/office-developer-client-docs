@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Create a Contact Item from a vCard file and Save the Item in a Folder'
-TOCTitle: 'How to: Create a Contact Item from a vCard file and Save the Item in a Folder'
+title: 'Create a Contact Item from a vCard file and Save the Item in a Folder'
+TOCTitle: 'Create a Contact Item from a vCard file and Save the Item in a Folder'
 ms:assetid: b207b584-ffcf-4ac5-ab1f-4f91d43000e1
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb646856(v=office.15)
 ms:contentKeyID: 55119826
@@ -11,7 +11,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Create a Contact Item from a vCard file and Save the Item in a Folder
+# Create a Contact Item from a vCard file and Save the Item in a Folder
 
 This example imports all the vCard files in a file system folder and saves the contacts into the folder specified by the targetFolder parameter.
 

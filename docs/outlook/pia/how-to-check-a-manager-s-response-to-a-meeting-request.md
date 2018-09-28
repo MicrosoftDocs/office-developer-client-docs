@@ -1,6 +1,6 @@
 ﻿---
-title: "How to: Check a Manager's Response to a Meeting Request"
-TOCTitle: "How to: Check a Manager's Response to a Meeting Request"
+title: "Check a Manager's Response to a Meeting Request"
+TOCTitle: "Check a Manager's Response to a Meeting Request"
 ms:assetid: 7bdb2163-17e3-47b4-95e5-e051b90506c6
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184618(v=office.15)
 ms:contentKeyID: 55119847
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Check a Manager's Response to a Meeting Request
+# Check a Manager's Response to a Meeting Request
 
 This example illustrates how to use the [GetExchangeUser()](https://msdn.microsoft.com/en-us/library/bb611808\(v=office.15\)) and [GetExchangeUserManager()](https://msdn.microsoft.com/en-us/library/bb646656\(v=office.15\)) methods to check the status of the response of the current user's manager to a meeting request.
 

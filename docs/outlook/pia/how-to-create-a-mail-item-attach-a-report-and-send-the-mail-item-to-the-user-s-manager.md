@@ -1,6 +1,6 @@
 ﻿---
-title: "How to: Create a Mail Item, Attach a Report, and Send the Mail Item to the User's Manager"
-TOCTitle: "How to: Create a Mail Item, Attach a Report, and Send the Mail Item to the User's Manager"
+title: "Create a Mail Item, Attach a Report, and Send the Mail Item to the User's Manager"
+TOCTitle: "Create a Mail Item, Attach a Report, and Send the Mail Item to the User's Manager"
 ms:assetid: 15c26c3b-5e86-4e28-92c5-7389572521da
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb644320(v=office.15)
 ms:contentKeyID: 55119866
@@ -11,7 +11,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Create a Mail Item, Attach a Report, and Send the Mail Item to the User's Manager
+# Create a Mail Item, Attach a Report, and Send the Mail Item to the User's Manager
 
 This example creates a mail item that has an attachment, and then sends the mail item to the user's manager.
 

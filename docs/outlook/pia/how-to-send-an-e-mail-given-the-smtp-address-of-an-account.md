@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Send an E-Mail Given the SMTP Address of an Account'
-TOCTitle: 'How to: Send an E-Mail Given the SMTP Address of an Account'
+title: 'Send an E-Mail Given the SMTP Address of an Account'
+TOCTitle: 'Send an E-Mail Given the SMTP Address of an Account'
 ms:assetid: 4ff4aaac-54ba-45c7-8b2e-aeba35af1e56
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff462095(v=office.15)
 ms:contentKeyID: 55119865
@@ -11,7 +11,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Send an E-Mail Given the SMTP Address of an Account
+# Send an E-Mail Given the SMTP Address of an Account
 
 This topic shows how to create an e-mail and send it from a Microsoft Outlook account, given the Simple Mail Transfer Protocol (SMTP) address of that account.
 

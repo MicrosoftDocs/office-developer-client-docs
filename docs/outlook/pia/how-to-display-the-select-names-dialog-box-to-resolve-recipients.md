@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Display the Select Names Dialog Box to Resolve Recipients'
-TOCTitle: 'How to: Display the Select Names Dialog Box to Resolve Recipients'
+title: 'Display the Select Names Dialog Box to Resolve Recipients'
+TOCTitle: 'Display the Select Names Dialog Box to Resolve Recipients'
 ms:assetid: 841dd4cd-6d69-46d5-8c83-e28c95b631a9
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb646055(v=office.15)
 ms:contentKeyID: 55119876
@@ -11,7 +11,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Display the Select Names Dialog Box to Resolve Recipients
+# Display the Select Names Dialog Box to Resolve Recipients
 
 This example attempts to resolve the recipients provided by the recips parameter, and displays the Outlook **Select Names** dialog box for each recipient that is ambiguous and cannot be resolved.
 

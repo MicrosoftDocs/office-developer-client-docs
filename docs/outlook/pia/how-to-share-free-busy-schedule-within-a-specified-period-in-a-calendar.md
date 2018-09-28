@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Share Free/Busy Schedule Within a Specified Period in a Calendar'
-TOCTitle: 'How to: Share Free/Busy Schedule Within a Specified Period in a Calendar'
+title: 'Share Free/Busy Schedule Within a Specified Period in a Calendar'
+TOCTitle: 'Share Free/Busy Schedule Within a Specified Period in a Calendar'
 ms:assetid: 1d038f56-80dd-42fd-809b-f5b3a47cd5ee
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb609503(v=office.15)
 ms:contentKeyID: 55119824
@@ -11,7 +11,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Share Free/Busy Schedule Within a Specified Period in a Calendar
+# Share Free/Busy Schedule Within a Specified Period in a Calendar
 
 This example obtains the free/busy schedule within a specified week from a calendar and displays the free, busy, and subject details to the user.
 

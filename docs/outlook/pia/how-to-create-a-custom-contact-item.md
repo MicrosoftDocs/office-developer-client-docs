@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Create a Custom Contact Item'
-TOCTitle: 'How to: Create a Custom Contact Item'
+title: 'Create a Custom Contact Item'
+TOCTitle: 'Create a Custom Contact Item'
 ms:assetid: 24b2a104-a0a7-469b-9676-a07cab613f59
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184596(v=office.15)
 ms:contentKeyID: 55119831
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Create a Custom Contact Item
+# Create a Custom Contact Item
 
 This example shows how to create a custom contact item and set both predefined and user-defined properties.
 

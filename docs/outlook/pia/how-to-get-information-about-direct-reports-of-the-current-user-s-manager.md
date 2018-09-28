@@ -1,6 +1,6 @@
 ﻿---
-title: "How to: Get Information About Direct Reports of the Current User's Manager"
-TOCTitle: "How to: Get Information About Direct Reports of the Current User's Manager"
+title: "Get Information About Direct Reports of the Current User's Manager"
+TOCTitle: "Get Information About Direct Reports of the Current User's Manager"
 ms:assetid: 768bf573-1b10-4776-8947-a7f8dc3ebde0
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184617(v=office.15)
 ms:contentKeyID: 55119842
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Get Information About Direct Reports of the Current User's Manager
+# Get Information About Direct Reports of the Current User's Manager
 
 This example gets the direct reports of the current user’s manager, if any, and then displays information about each of the manager’s direct reports.
 

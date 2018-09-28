@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Add Fields to a View'
-TOCTitle: 'How to: Add Fields to a View'
+title: 'Add Fields to a View'
+TOCTitle: 'Add Fields to a View'
 ms:assetid: ea371f27-ea65-47ef-ae44-ef843a78ab6f
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff424481(v=office.15)
 ms:contentKeyID: 55119934
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Add Fields to a View
+# Add Fields to a View
 
 This example shows how to customize a view by using the [Add(String)](https://msdn.microsoft.com/en-us/library/bb646040\(v=office.15\)) method of the [ViewFields](https://msdn.microsoft.com/en-us/library/bb645950\(v=office.15\)) collection to add fields to a view.
 

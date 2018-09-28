@@ -14,10 +14,10 @@ This section provides sample tasks that involve color categories, which enable u
 
 ## In this section
 
-  - [How to: Enumerate and Add Categories](how-to-enumerate-and-add-categories.md)  
+  - [Enumerate and Add Categories](how-to-enumerate-and-add-categories.md)  
     Shows how to enumerate categories and add a category to the main category list.
 
-  - [How to: Assign Categories to an Item](how-to-assign-categories-to-an-item.md)  
+  - [Assign Categories to an Item](how-to-assign-categories-to-an-item.md)  
     Assigns categories to an item by using its Categories property.
 
 ## Related sections

@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Implement a Wrapper for Inspectors and Track Item-Level Events in Each Inspector'
-TOCTitle: 'How to: Implement a Wrapper for Inspectors and Track Item-Level Events in Each Inspector'
+title: 'Implement a Wrapper for Inspectors and Track Item-Level Events in Each Inspector'
+TOCTitle: 'Implement a Wrapper for Inspectors and Track Item-Level Events in Each Inspector'
 ms:assetid: 8021dd2b-c36c-492b-b281-783e85140ad8
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184620(v=office.15)
 ms:contentKeyID: 55119854
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Implement a Wrapper for Inspectors and Track Item-Level Events in Each Inspector
+# Implement a Wrapper for Inspectors and Track Item-Level Events in Each Inspector
 
 This topic contains two code examples that show how to implement a wrapper for an [Inspectors](https://msdn.microsoft.com/en-us/library/bb623458\(v=office.15\)) collection and to use that wrapper to track item-level events in each [Inspector](https://msdn.microsoft.com/en-us/library/bb647744\(v=office.15\)) object in the collection.
 
@@ -96,7 +96,7 @@ class Connect
 
 The following code example is an implementation of the OutlookInspector class. This class is used to raise events for the inspector window from the preceding code example. Multiple inspector windows can be open simultaneously. Item-level events such as [Open](https://msdn.microsoft.com/en-us/library/bb644296\(v=office.15\)), [PropertyChange](https://msdn.microsoft.com/en-us/library/bb647794\(v=office.15\)), and [CustomPropertyChange](https://msdn.microsoft.com/en-us/library/bb645015\(v=office.15\)) are tracked by hooking them up in this class constructor. A [Close](https://msdn.microsoft.com/en-us/library/bb645009\(v=office.15\)) event for a [ContactItem](https://msdn.microsoft.com/en-us/library/bb644956\(v=office.15\)) object is also hooked up in this class constructor. You can define other class-level item instance variables as needed. All the events that were hooked up in the OutlookInspector constructor are unhooked in the OutlookInspectorWindow\_Close event handler.
 
-Note that at the object model level, an Outlook inspector object is not specific to any Outlook item type. This code sample makes use of the OutlookItem helper class, defined in [How to: Create a Helper Class to Access Common Outlook Item Members](how-to-create-a-helper-class-to-access-common-outlook-item-members.md), to conveniently call the OutlookItem.Class property to verify the message class of the current item in the inspector, before assuming the item is a contact item.
+Note that at the object model level, an Outlook inspector object is not specific to any Outlook item type. This code sample makes use of the OutlookItem helper class, defined in [Create a Helper Class to Access Common Outlook Item Members](how-to-create-a-helper-class-to-access-common-outlook-item-members.md), to conveniently call the OutlookItem.Class property to verify the message class of the current item in the inspector, before assuming the item is a contact item.
 
 ``` csharp
 // This class tracks the state of an Outlook Inspector window 

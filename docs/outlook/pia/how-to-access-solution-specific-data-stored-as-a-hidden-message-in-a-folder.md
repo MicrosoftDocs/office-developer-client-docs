@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Access Solution-Specific Data Stored as a Hidden Message in a Folder'
-TOCTitle: 'How to: Access Solution-Specific Data Stored as a Hidden Message in a Folder'
+title: 'Access Solution-Specific Data Stored as a Hidden Message in a Folder'
+TOCTitle: 'Access Solution-Specific Data Stored as a Hidden Message in a Folder'
 ms:assetid: bacf0562-1026-4c3b-87b0-4eaad5033592
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb623414(v=office.15)
 ms:contentKeyID: 55119861
@@ -11,7 +11,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Access Solution-Specific Data Stored as a Hidden Message in a Folder
+# Access Solution-Specific Data Stored as a Hidden Message in a Folder
 
 This example shows how to use the [StorageItem](https://msdn.microsoft.com/en-us/library/bb623436\(v=office.15\)) object to retrieve data that is stored as a hidden message of a specific message class in a folder.
 

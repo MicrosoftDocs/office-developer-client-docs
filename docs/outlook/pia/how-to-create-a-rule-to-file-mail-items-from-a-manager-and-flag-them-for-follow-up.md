@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Create a Rule to File Mail Items from a Manager and Flag Them for Follow-Up'
-TOCTitle: 'How to: Create a Rule to File Mail Items from a Manager and Flag Them for Follow-Up'
+title: 'Create a Rule to File Mail Items from a Manager and Flag Them for Follow-Up'
+TOCTitle: 'Create a Rule to File Mail Items from a Manager and Flag Them for Follow-Up'
 ms:assetid: c50578c2-15de-4d5f-87d9-d6162034f083
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff424477(v=office.15)
 ms:contentKeyID: 55119880
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Create a Rule to File Mail Items from a Manager and Flag Them for Follow-Up
+# Create a Rule to File Mail Items from a Manager and Flag Them for Follow-Up
 
 This example shows how to set up a rule to file mail items from the user’s manager and flag them for follow up.
 

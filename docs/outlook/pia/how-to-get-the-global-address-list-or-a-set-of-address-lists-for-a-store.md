@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Get the Global Address List or a Set of Address Lists for a Store'
-TOCTitle: 'How to: Get the Global Address List or a Set of Address Lists for a Store'
+title: 'Get the Global Address List or a Set of Address Lists for a Store'
+TOCTitle: 'Get the Global Address List or a Set of Address Lists for a Store'
 ms:assetid: a361ac58-25c6-4ce1-97b0-403ad67ee7a4
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184631(v=office.15)
 ms:contentKeyID: 55119800
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Get the Global Address List or a Set of Address Lists for a Store
+# Get the Global Address List or a Set of Address Lists for a Store
 
 This topic contains two code examples that show how to get the Global Address List (GAL) that is associated with a store, and how to get all of the address lists that are associated with a store.
 

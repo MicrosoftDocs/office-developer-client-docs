@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Create a Helper Class to Access Common Outlook Item Members'
-TOCTitle: 'How to: Create a Helper Class to Access Common Outlook Item Members'
+title: 'Create a Helper Class to Access Common Outlook Item Members'
+TOCTitle: 'Create a Helper Class to Access Common Outlook Item Members'
 ms:assetid: 344ff07d-e448-4418-910d-930e60f7381f
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn292518(v=office.15)
 ms:contentKeyID: 55119845
@@ -11,7 +11,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Create a Helper Class to Access Common Outlook Item Members
+# Create a Helper Class to Access Common Outlook Item Members
 
 This example shows how to implement an OutlookItem helper class that accesses common properties and methods of Outlook item objects, saving the overhead of testing for and casting to a specific item object before accessing these common item members.
 
@@ -1030,15 +1030,15 @@ namespace SampleCodeAddinCS
 
 #### Tasks
 
-[How to: Display Selected Items in the Active Explorer](how-to-display-selected-items-in-the-active-explorer.md)
+[Display Selected Items in the Active Explorer](how-to-display-selected-items-in-the-active-explorer.md)
 
-[How to: Open and Display the Contents of an iCalendar File](how-to-open-and-display-the-contents-of-an-icalendar-file.md)
+[Open and Display the Contents of an iCalendar File](how-to-open-and-display-the-contents-of-an-icalendar-file.md)
 
-[How to: Open and Display the Contents of an iCalendar File](how-to-open-and-display-the-contents-of-an-icalendar-file.md)
+[Open and Display the Contents of an iCalendar File](how-to-open-and-display-the-contents-of-an-icalendar-file.md)
 
-[How to: Assign Categories to an Item](how-to-assign-categories-to-an-item.md)
+[Assign Categories to an Item](how-to-assign-categories-to-an-item.md)
 
-[How to: Implement a Wrapper for Inspectors and Track Item-Level Events in Each Inspector](how-to-implement-a-wrapper-for-inspectors-and-track-item-level-events-in-each-inspector.md)
+[Implement a Wrapper for Inspectors and Track Item-Level Events in Each Inspector](how-to-implement-a-wrapper-for-inspectors-and-track-item-level-events-in-each-inspector.md)
 
 
 

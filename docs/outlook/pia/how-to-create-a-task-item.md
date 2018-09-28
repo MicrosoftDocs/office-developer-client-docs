@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Create a Task Item'
-TOCTitle: 'How to: Create a Task Item'
+title: 'Create a Task Item'
+TOCTitle: 'Create a Task Item'
 ms:assetid: d458dd31-2771-4a3c-a713-13c7e4e02a74
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184644(v=office.15)
 ms:contentKeyID: 55119894
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Create a Task Item
+# Create a Task Item
 
 This example shows how to create a task item by using the [MarkAsTask(OlMarkInterval)](https://msdn.microsoft.com/en-us/library/bb609068\(v=office.15\)) method.
 

@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Check All Responses to a Meeting Request'
-TOCTitle: 'How to: Check All Responses to a Meeting Request'
+title: 'Check All Responses to a Meeting Request'
+TOCTitle: 'Check All Responses to a Meeting Request'
 ms:assetid: ebe10e5a-7f04-447a-bfc1-aa8a726cb0b3
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184650(v=office.15)
 ms:contentKeyID: 55119881
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Check All Responses to a Meeting Request
+# Check All Responses to a Meeting Request
 
 This example shows how to check the status of each recipient’s response to a meeting request.
 

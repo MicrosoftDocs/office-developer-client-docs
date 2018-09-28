@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Use the Select Names Dialog Box to Obtain and Assign Recipients to an Appointment'
-TOCTitle: 'How to: Use the Select Names Dialog Box to Obtain and Assign Recipients to an Appointment'
+title: 'Use the Select Names Dialog Box to Obtain and Assign Recipients to an Appointment'
+TOCTitle: 'Use the Select Names Dialog Box to Obtain and Assign Recipients to an Appointment'
 ms:assetid: b9bcb341-1912-425c-8d75-ed5be233145a
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184636(v=office.15)
 ms:contentKeyID: 55119878
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Use the Select Names Dialog Box to Obtain and Assign Recipients to an Appointment
+# Use the Select Names Dialog Box to Obtain and Assign Recipients to an Appointment
 
 This example shows how to use the **Select Names** dialog box to obtain and assign recipients to an appointment item.
 

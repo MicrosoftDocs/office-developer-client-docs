@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Enumerate the Entries in the Global Address List'
-TOCTitle: 'How to: Enumerate the Entries in the Global Address List'
+title: 'Enumerate the Entries in the Global Address List'
+TOCTitle: 'Enumerate the Entries in the Global Address List'
 ms:assetid: f3dfe312-fe91-475d-8435-1c7a0bb2b725
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184654(v=office.15)
 ms:contentKeyID: 55119801
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Enumerate the Entries in the Global Address List
+# Enumerate the Entries in the Global Address List
 
 This example enumerates the first 100 primary Simple Mail Transfer Protocol (SMTP) addresses in the Global Address List (GAL).
 

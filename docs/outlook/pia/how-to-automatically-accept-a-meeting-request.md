@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Automatically Accept a Meeting Request'
-TOCTitle: 'How to: Automatically Accept a Meeting Request'
+title: 'Automatically Accept a Meeting Request'
+TOCTitle: 'Automatically Accept a Meeting Request'
 ms:assetid: 3c729bcf-4c85-4efa-af79-2c94d55c2042
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184604(v=office.15)
 ms:contentKeyID: 55119874
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Automatically Accept a Meeting Request
+# Automatically Accept a Meeting Request
 
 This example shows how to use the [Respond(OlMeetingResponse, Object, Object)](https://msdn.microsoft.com/en-us/library/bb647086\(v=office.15\)) method to automatically accept a meeting request.
 

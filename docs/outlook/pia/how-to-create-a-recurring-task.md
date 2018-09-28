@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Create a Recurring Task'
-TOCTitle: 'How to: Create a Recurring Task'
+title: 'Create a Recurring Task'
+TOCTitle: 'Create a Recurring Task'
 ms:assetid: bbca8527-79af-4c00-aae7-a1fd381e707c
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb623455(v=office.15)
 ms:contentKeyID: 55119932
@@ -11,7 +11,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Create a Recurring Task
+# Create a Recurring Task
 
 This example creates a recurrent task.
 

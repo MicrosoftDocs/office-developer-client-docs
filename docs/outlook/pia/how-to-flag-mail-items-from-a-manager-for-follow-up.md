@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Flag Mail Items from a Manager for Follow-Up'
-TOCTitle: 'How to: Flag Mail Items from a Manager for Follow-Up'
+title: 'Flag Mail Items from a Manager for Follow-Up'
+TOCTitle: 'Flag Mail Items from a Manager for Follow-Up'
 ms:assetid: 5f7f3678-0f63-451e-ba08-cd973525aa1b
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff424470(v=office.15)
 ms:contentKeyID: 55119898
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Flag Mail Items from a Manager for Follow-Up
+# Flag Mail Items from a Manager for Follow-Up
 
 This example shows how to flag e-mail items that were received from the user’s manager for follow-up.
 

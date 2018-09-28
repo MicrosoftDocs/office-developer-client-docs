@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Get a Folder Based on Its Folder Path'
-TOCTitle: 'How to: Get a Folder Based on Its Folder Path'
+title: 'Get a Folder Based on Its Folder Path'
+TOCTitle: 'Get a Folder Based on Its Folder Path'
 ms:assetid: 613f2209-667c-48f0-82cf-86e3c9a24cb4
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184612(v=office.15)
 ms:contentKeyID: 55119858
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Get a Folder Based on Its Folder Path
+# Get a Folder Based on Its Folder Path
 
 This example takes a folder path and obtains the associated folder.
 

@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Enumerate Items in the Inbox Based on the Last Modification Time'
-TOCTitle: 'How to: Enumerate Items in the Inbox Based on the Last Modification Time'
+title: 'Enumerate Items in the Inbox Based on the Last Modification Time'
+TOCTitle: 'Enumerate Items in the Inbox Based on the Last Modification Time'
 ms:assetid: 93a25143-def6-4832-bac2-3744558c2736
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184626(v=office.15)
 ms:contentKeyID: 55119920
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Enumerate Items in the Inbox Based on the Last Modification Time
+# Enumerate Items in the Inbox Based on the Last Modification Time
 
 This example shows how to enumerate items in the Inbox folder based on the last modification time.
 

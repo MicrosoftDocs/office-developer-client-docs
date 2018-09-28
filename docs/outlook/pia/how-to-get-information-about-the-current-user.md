@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Get Information About the Current User'
-TOCTitle: 'How to: Get Information About the Current User'
+title: 'Get Information About the Current User'
+TOCTitle: 'Get Information About the Current User'
 ms:assetid: 3802523a-3ccf-4cca-a348-abe2645a0d9c
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184601(v=office.15)
 ms:contentKeyID: 55119840
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Get Information About the Current User
+# Get Information About the Current User
 
 This example shows how to get the current user’s information, such as name, job title, and telephone number.
 

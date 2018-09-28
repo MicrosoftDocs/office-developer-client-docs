@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Create a Recurring Appointment by Using the Default Recurrence Pattern'
-TOCTitle: 'How to: Create a Recurring Appointment by Using the Default Recurrence Pattern'
+title: 'Create a Recurring Appointment by Using the Default Recurrence Pattern'
+TOCTitle: 'Create a Recurring Appointment by Using the Default Recurrence Pattern'
 ms:assetid: 157bf1ae-2efe-4783-99ea-606722dde204
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184589(v=office.15)
 ms:contentKeyID: 55119809
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Create a Recurring Appointment by Using the Default Recurrence Pattern
+# Create a Recurring Appointment by Using the Default Recurrence Pattern
 
 This example shows how to create a recurring appointment by using the default recurrence pattern.
 

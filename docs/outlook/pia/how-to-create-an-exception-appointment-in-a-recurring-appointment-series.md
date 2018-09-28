@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Create an Exception Appointment in a Recurring Appointment Series'
-TOCTitle: 'How to: Create an Exception Appointment in a Recurring Appointment Series'
+title: 'Create an Exception Appointment in a Recurring Appointment Series'
+TOCTitle: 'Create an Exception Appointment in a Recurring Appointment Series'
 ms:assetid: b7cd0975-4f44-453a-b878-ec55feeedc4e
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184635(v=office.15)
 ms:contentKeyID: 55119813
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Create an Exception Appointment in a Recurring Appointment Series
+# Create an Exception Appointment in a Recurring Appointment Series
 
 This example uses an [Exception](https://msdn.microsoft.com/en-us/library/bb610440\(v=office.15\)) object to create an exception to a standard recurrence pattern for an appointment.
 
@@ -40,7 +40,7 @@ When you work with recurring appointment items, you should release any prior ref
 
 Note that even after you release your reference and attempt to obtain a new reference, if there is still an active reference, held by another add-in or Outlook, to one of the above objects, your new reference will still point to an out-of-date copy of the object. Therefore, it is important that you release your references as soon as you are finished with the recurring appointment.
 
-In the following code example, CreateExceptionExample changes the subject of the recurring appointment that was created in the topic [How to: Find a Specific Appointment in a Recurring Appointment Series](how-to-find-a-specific-appointment-in-a-recurring-appointment-series.md), and then uses the AppointmentItem property of the resulting Exception object to retrieve the AppointmentItem that corresponds to the appointment exception. CreateExceptionExample then changes the start and end times of the appointment exception.
+In the following code example, CreateExceptionExample changes the subject of the recurring appointment that was created in the topic [Find a Specific Appointment in a Recurring Appointment Series](how-to-find-a-specific-appointment-in-a-recurring-appointment-series.md), and then uses the AppointmentItem property of the resulting Exception object to retrieve the AppointmentItem that corresponds to the appointment exception. CreateExceptionExample then changes the start and end times of the appointment exception.
 
 If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the Microsoft.Office.Interop.Outlook namespace. The using statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
 

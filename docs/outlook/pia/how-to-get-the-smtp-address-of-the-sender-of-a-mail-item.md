@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Get the SMTP Address of the Sender of a Mail Item'
-TOCTitle: 'How to: Get the SMTP Address of the Sender of a Mail Item'
+title: 'Get the SMTP Address of the Sender of a Mail Item'
+TOCTitle: 'Get the SMTP Address of the Sender of a Mail Item'
 ms:assetid: 86e0c0aa-1696-4415-b25f-f9c1c29d88a9
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184624(v=office.15)
 ms:contentKeyID: 55119869
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Get the SMTP Address of the Sender of a Mail Item
+# Get the SMTP Address of the Sender of a Mail Item
 
 This example gets the sender’s Simple Mail Transfer Protocol (SMTP) address for a mail item.
 

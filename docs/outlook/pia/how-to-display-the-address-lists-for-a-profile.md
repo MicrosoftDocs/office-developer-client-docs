@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Display the Address Lists for a Profile'
-TOCTitle: 'How to: Display the Address Lists for a Profile'
+title: 'Display the Address Lists for a Profile'
+TOCTitle: 'Display the Address Lists for a Profile'
 ms:assetid: ced8230b-110b-4ccb-a699-588798144154
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184643(v=office.15)
 ms:contentKeyID: 55119802
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Display the Address Lists for a Profile
+# Display the Address Lists for a Profile
 
 This example shows how to display the address lists for the current profile.
 

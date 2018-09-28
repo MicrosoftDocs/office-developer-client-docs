@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Use SetColumns to Efficiently Enumerate Items in a Folder'
-TOCTitle: 'How to: Use SetColumns to Efficiently Enumerate Items in a Folder'
+title: 'Use SetColumns to Efficiently Enumerate Items in a Folder'
+TOCTitle: 'Use SetColumns to Efficiently Enumerate Items in a Folder'
 ms:assetid: cd7c7758-8a9c-4f1c-a49c-9305d75be341
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184641(v=office.15)
 ms:contentKeyID: 55119921
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Use SetColumns to Efficiently Enumerate Items in a Folder
+# Use SetColumns to Efficiently Enumerate Items in a Folder
 
 This example shows how to improve the performance of enumerating the [Items](https://msdn.microsoft.com/en-us/library/bb645287\(v=office.15\)) collection by using the [SetColumns(String)](https://msdn.microsoft.com/en-us/library/bb610268\(v=office.15\)) method to cache certain properties of each item in the collection.
 
@@ -36,7 +36,7 @@ To enumerate items in a collection, use the SetColumns method to cache propertie
 
 In the following code example, EnumerateContactsWithSetColumns uses the SetColumns method to cache the [FileAs](https://msdn.microsoft.com/en-us/library/bb647792\(v=office.15\)), [CompanyName](https://msdn.microsoft.com/en-us/library/bb610212\(v=office.15\)), and [JobTitle](https://msdn.microsoft.com/en-us/library/bb609294\(v=office.15\)) properties of items in the Contacts folder. Note that you must test for empty strings or a null reference in the restriction.
 
-Note that an Outlook folder can possibly contain items of different types. This code sample makes use of the OutlookItem helper class, defined in [How to: Create a Helper Class to Access Common Outlook Item Members](how-to-create-a-helper-class-to-access-common-outlook-item-members.md), to conveniently call the OutlookItem.Class property to verify the message class of each item in the filtered subset of items in the folder, before assuming the item is a contact item.
+Note that an Outlook folder can possibly contain items of different types. This code sample makes use of the OutlookItem helper class, defined in [Create a Helper Class to Access Common Outlook Item Members](how-to-create-a-helper-class-to-access-common-outlook-item-members.md), to conveniently call the OutlookItem.Class property to verify the message class of each item in the filtered subset of items in the folder, before assuming the item is a contact item.
 
 If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the Microsoft.Office.Interop.Outlook namespace. The using statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
 

@@ -14,7 +14,7 @@ This section includes procedures that show common add-in administrative tasks.
 
 ## In this section
 
-  - [How to: Determine Whether Outlook Is a Click-to-Run Application on a Computer](how-to-determine-whether-outlook-is-a-click-to-run-application-on-a-computer.md)  
+  - [Determine Whether Outlook Is a Click-to-Run Application on a Computer](how-to-determine-whether-outlook-is-a-click-to-run-application-on-a-computer.md)  
     Shows how to determine whether Outlook was delivered by Click-to-Run on a client computer.
 
 ## See also

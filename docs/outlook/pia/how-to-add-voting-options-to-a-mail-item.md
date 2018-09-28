@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Add Voting Options to a Mail Item'
-TOCTitle: 'How to: Add Voting Options to a Mail Item'
+title: 'Add Voting Options to a Mail Item'
+TOCTitle: 'Add Voting Options to a Mail Item'
 ms:assetid: 0fb209a8-178d-411e-9551-0a72e041fd65
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff424466(v=office.15)
 ms:contentKeyID: 55119867
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Add Voting Options to a Mail Item
+# Add Voting Options to a Mail Item
 
 This example shows how to use the [VotingOptions](https://msdn.microsoft.com/en-us/library/bb652695\(v=office.15\)) property of the [MailItem](https://msdn.microsoft.com/en-us/library/bb643865\(v=office.15\)) object to add voting options to an e-mail message.
 

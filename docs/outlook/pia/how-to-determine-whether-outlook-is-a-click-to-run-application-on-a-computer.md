@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Determine Whether Outlook Is a Click-to-Run Application on a Computer'
-TOCTitle: 'How to: Determine Whether Outlook Is a Click-to-Run Application on a Computer'
+title: 'Determine Whether Outlook Is a Click-to-Run Application on a Computer'
+TOCTitle: 'Determine Whether Outlook Is a Click-to-Run Application on a Computer'
 ms:assetid: 1b8573be-8ea8-4973-869d-87fda57ce525
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff522355(v=office.15)
 ms:contentKeyID: 55119804
@@ -8,7 +8,7 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 ---
 
-# How to: Determine Whether Outlook Is a Click-to-Run Application on a Computer
+# Determine Whether Outlook Is a Click-to-Run Application on a Computer
 
 Click-to-Run is a software delivery and updating mechanism available to Office 2010 and later versions. Products delivered via Click-to-Run execute in a virtual application environment on the local operating system. This means that they have private copies of their files and settings, and that any changes they make are captured in the virtual environment.
 
@@ -16,7 +16,7 @@ Click-to-Run is fast—users can start running an application within a short tim
 
 
 > [!NOTE]
-> <P>Only 32-bit Office 2013 is supported in the Click-to-Run virtual application environment, even if the client computer runs a 64-bit operating system.</P>
+> Only 32-bit Office 2013 is supported in the Click-to-Run virtual application environment, even if the client computer runs a 64-bit operating system.
 
 
 

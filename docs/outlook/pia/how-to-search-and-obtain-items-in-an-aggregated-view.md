@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Search and Obtain Items in an Aggregated View'
-TOCTitle: 'How to: Search and Obtain Items in an Aggregated View'
+title: 'Search and Obtain Items in an Aggregated View'
+TOCTitle: 'Search and Obtain Items in an Aggregated View'
 ms:assetid: 1a875dc8-dd52-4e9c-b292-5f6ba3d7a940
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184592(v=office.15)
 ms:contentKeyID: 55119925
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Search and Obtain Items in an Aggregated View
+# Search and Obtain Items in an Aggregated View
 
 This example shows how to search for items in multiple folders and stores and to return those items in an aggregated table view.
 

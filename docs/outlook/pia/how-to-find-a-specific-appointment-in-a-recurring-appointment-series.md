@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Find a Specific Appointment in a Recurring Appointment Series'
-TOCTitle: 'How to: Find a Specific Appointment in a Recurring Appointment Series'
+title: 'Find a Specific Appointment in a Recurring Appointment Series'
+TOCTitle: 'Find a Specific Appointment in a Recurring Appointment Series'
 ms:assetid: 01f55f04-7245-4325-a354-50a6eb270a31
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184586(v=office.15)
 ms:contentKeyID: 55119812
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Find a Specific Appointment in a Recurring Appointment Series
+# Find a Specific Appointment in a Recurring Appointment Series
 
 This example shows how to return an [AppointmentItem](https://msdn.microsoft.com/en-us/library/bb645611\(v=office.15\)) object that represents a specific appointment in a recurring appointment series.
 
@@ -38,7 +38,7 @@ When you work with recurring appointment items, you should release any prior ref
 
 Note that even after you release your reference and attempt to obtain a new reference, if there is still an active reference (held by another add-in or Outlook) to one of the above objects, your new reference will still point to an out-of-date copy of the object. Therefore, it is important that you release your references as soon as you are finished with the recurring appointment.
 
-In the following code example, CheckOccurrenceExample uses the recurring appointment that was created in the code example in [How to: Create a Recurring Appointment That Has a Weekly Pattern](how-to-create-a-recurring-appointment-that-has-a-weekly-pattern.md). It then calls the GetOccurrence method to determine whether the recurring appointment starts on the specified date and time. To ensure that the procedure will continue even if the provided information does not match the start date and time of an instance of the recurring appointment, the example uses a try…catch block. After calling the GetOccurrence method on every appointment in the recurring appointment series, CheckOccurrenceExample tests the singleAppt variable to determine whether it is set to a null reference, indicating that the method failed and did not return an AppointmentItem object.
+In the following code example, CheckOccurrenceExample uses the recurring appointment that was created in the code example in [Create a Recurring Appointment That Has a Weekly Pattern](how-to-create-a-recurring-appointment-that-has-a-weekly-pattern.md). It then calls the GetOccurrence method to determine whether the recurring appointment starts on the specified date and time. To ensure that the procedure will continue even if the provided information does not match the start date and time of an instance of the recurring appointment, the example uses a try…catch block. After calling the GetOccurrence method on every appointment in the recurring appointment series, CheckOccurrenceExample tests the singleAppt variable to determine whether it is set to a null reference, indicating that the method failed and did not return an AppointmentItem object.
 
 If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the Microsoft.Office.Interop.Outlook namespace. The using statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
 

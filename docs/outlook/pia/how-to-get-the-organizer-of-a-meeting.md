@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Get the Organizer of a Meeting'
-TOCTitle: 'How to: Get the Organizer of a Meeting'
+title: 'Get the Organizer of a Meeting'
+TOCTitle: 'Get the Organizer of a Meeting'
 ms:assetid: 6a33db84-573b-4d1b-a91a-903f30630ec9
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184615(v=office.15)
 ms:contentKeyID: 55119872
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Get the Organizer of a Meeting
+# Get the Organizer of a Meeting
 
 This example shows how to programmatically return the organizer of a meeting.
 

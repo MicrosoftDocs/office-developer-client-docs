@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Add a Folder to the Folder List'
-TOCTitle: 'How to: Add a Folder to the Folder List'
+title: 'Add a Folder to the Folder List'
+TOCTitle: 'Add a Folder to the Folder List'
 ms:assetid: f636a190-d966-4421-9977-0ead2bff5eee
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184655(v=office.15)
 ms:contentKeyID: 55119850
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Add a Folder to the Folder List
+# Add a Folder to the Folder List
 
 This example shows how to use the [Add(String, Object)](https://msdn.microsoft.com/en-us/library/bb645065\(v=office.15\)) method to add a folder to the Outlook folder list.
 

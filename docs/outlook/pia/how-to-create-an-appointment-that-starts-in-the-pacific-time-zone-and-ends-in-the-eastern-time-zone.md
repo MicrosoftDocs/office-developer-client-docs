@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Create an Appointment That Starts in the Pacific Time Zone and Ends in the Eastern Time Zone'
-TOCTitle: 'How to: Create an Appointment That Starts in the Pacific Time Zone and Ends in the Eastern Time Zone'
+title: 'Create an Appointment That Starts in the Pacific Time Zone and Ends in the Eastern Time Zone'
+TOCTitle: 'Create an Appointment That Starts in the Pacific Time Zone and Ends in the Eastern Time Zone'
 ms:assetid: ba19532b-df31-4384-8816-e64e6eecbe53
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb623388(v=office.15)
 ms:contentKeyID: 55119808
@@ -11,7 +11,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Create an Appointment That Starts in the Pacific Time Zone and Ends in the Eastern Time Zone
+# Create an Appointment That Starts in the Pacific Time Zone and Ends in the Eastern Time Zone
 
 Occasionally, an appointment may span over a period of time during which the user may have traveled to a different time zone than when the appointment starts. This example creates an appointment that begins in the Pacific Time Zone (UTC-8) and ends in the Eastern Time Zone (UTC-5).
 

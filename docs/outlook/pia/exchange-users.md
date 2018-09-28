@@ -14,28 +14,28 @@ This section provides sample tasks that involve Microsoft Exchange mailbox users
 
 ## In this section
 
-  - [How to: Get Information About the Current User](how-to-get-information-about-the-current-user.md)  
+  - [Get Information About the Current User](how-to-get-information-about-the-current-user.md)  
     Gets the current user’s information, such as name, job title, and telephone number.
 
-  - [How to: Get Information About All Distribution Lists of Which the Current User is a Member](how-to-get-information-about-all-distribution-lists-of-which-the-current-user-is-a-member.md)  
+  - [Get Information About All Distribution Lists of Which the Current User is a Member](how-to-get-information-about-all-distribution-lists-of-which-the-current-user-is-a-member.md)  
     Uses the [GetMemberOfList()](https://msdn.microsoft.com/en-us/library/bb623397\(v=office.15\)) method to get information about all distribution lists of which the current user is a member.
 
-  - [How to: Create a Distribution List](how-to-create-a-distribution-list.md)  
+  - [Create a Distribution List](how-to-create-a-distribution-list.md)  
     Creates a distribution list and displays it to the user.
 
-  - [How to: Get Members of an Exchange Distribution List](how-to-get-members-of-an-exchange-distribution-list.md)  
+  - [Get Members of an Exchange Distribution List](how-to-get-members-of-an-exchange-distribution-list.md)  
     Prompts the user to select an Exchange distribution list from the **Select Names** dialog box and expands the distribution list to display its members.
 
-  - [How to: Get Information About the Current User's Manager](how-to-get-information-about-the-current-user-s-manager.md)  
+  - [Get Information About the Current User's Manager](how-to-get-information-about-the-current-user-s-manager.md)  
     Gets information (such as name, job title, and phone numbers) about the current user’s manager.
 
-  - [How to: Get Availability Information for an Exchange User's Manager](how-to-get-availability-information-for-an-exchange-user-s-manager.md)  
+  - [Get Availability Information for an Exchange User's Manager](how-to-get-availability-information-for-an-exchange-user-s-manager.md)  
     Displays the next free 60-minute time slot in the calendar for a user's manager.
 
-  - [How to: Check a Manager's Response to a Meeting Request](how-to-check-a-manager-s-response-to-a-meeting-request.md)  
+  - [Check a Manager's Response to a Meeting Request](how-to-check-a-manager-s-response-to-a-meeting-request.md)  
     Uses the [GetExchangeUser()](https://msdn.microsoft.com/en-us/library/bb611808\(v=office.15\)) and [GetExchangeUserManager()](https://msdn.microsoft.com/en-us/library/bb646656\(v=office.15\)) methods to check the status of the response of the current user's manager to a meeting request.
 
-  - [How to: Get Information About Direct Reports of the Current User's Manager](how-to-get-information-about-direct-reports-of-the-current-user-s-manager.md)  
+  - [Get Information About Direct Reports of the Current User's Manager](how-to-get-information-about-direct-reports-of-the-current-user-s-manager.md)  
     Gets the direct reports of the current user’s manager, if any, and then displays information about each of the manager’s direct reports.
 
 ## Related sections

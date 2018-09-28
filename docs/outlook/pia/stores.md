@@ -14,10 +14,10 @@ This section provides sample tasks that involve stores. A store represents a fil
 
 ## In this section
 
-  - [How to: Get Information About Stores in a Profile](how-to-get-information-about-stores-in-a-profile.md)  
+  - [Get Information About Stores in a Profile](how-to-get-information-about-stores-in-a-profile.md)  
     Gets and enumerates stores in a profile.
 
-  - [How to: Add or Remove a Store](how-to-add-or-remove-a-store.md)  
+  - [Add or Remove a Store](how-to-add-or-remove-a-store.md)  
     Shows how to add or remove a store in a given profile.
 
 ## Related sections

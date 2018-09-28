@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Get and Log On to an Instance of Outlook'
-TOCTitle: 'How to: Get and Log On to an Instance of Outlook'
+title: 'Get and Log On to an Instance of Outlook'
+TOCTitle: 'Get and Log On to an Instance of Outlook'
 ms:assetid: 7f5057dc-4232-4dc7-b597-16ff5f7bcd7d
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff462097(v=office.15)
 ms:contentKeyID: 55119926
@@ -11,7 +11,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Get and Log On to an Instance of Outlook
+# Get and Log On to an Instance of Outlook
 
 This topic shows how to obtain an [Application](https://msdn.microsoft.com/en-us/library/bb646615\(v=office.15\)) object that represents an active instance of Microsoft Outlook, if there is one running on the local computer, or to create a new instance of Outlook, log on to the default profile, and return that instance of Outlook.
 

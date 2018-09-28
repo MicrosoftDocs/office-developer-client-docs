@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Synchronize Outlook with a SharePoint Folder'
-TOCTitle: 'How to: Synchronize Outlook with a SharePoint Folder'
+title: 'Synchronize Outlook with a SharePoint Folder'
+TOCTitle: 'Synchronize Outlook with a SharePoint Folder'
 ms:assetid: fecb04ab-39c6-43e1-9a21-12ecb29d94fb
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff424483(v=office.15)
 ms:contentKeyID: 55119853
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Synchronize Outlook with a SharePoint Folder
+# Synchronize Outlook with a SharePoint Folder
 
 This example shows how to programmatically connect Outlook with a SharePoint folder and to synchronize the folder contents.
 

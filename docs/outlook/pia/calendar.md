@@ -14,19 +14,19 @@ This section provides sample tasks that involve the Outlook Calendar folder.
 
 ## In this section
 
-  - [How to: Share Free/Busy Schedule Within a Specified Period in a Calendar](how-to-share-free-busy-schedule-within-a-specified-period-in-a-calendar.md)  
+  - [Share Free/Busy Schedule Within a Specified Period in a Calendar](how-to-share-free-busy-schedule-within-a-specified-period-in-a-calendar.md)  
     Obtains the free/busy schedule within a specified week from a calendar and displays the free, busy, and subject details to the user.
 
-  - [How to: Share Calendar Information Through E-Mail](how-to-share-calendar-information-through-e-mail.md)  
+  - [Share Calendar Information Through E-Mail](how-to-share-calendar-information-through-e-mail.md)  
     Shares information from a calendar by e-mail in the iCalendar format.
 
-  - [How to: Display a Shared Calendar of a Recipient](how-to-display-a-shared-calendar-of-a-recipient.md)  
+  - [Display a Shared Calendar of a Recipient](how-to-display-a-shared-calendar-of-a-recipient.md)  
     Displays a recipient's shared calendar by using the [CreateRecipient(String)](https://msdn.microsoft.com/en-us/library/bb609962\(v=office.15\)) and [GetSharedDefaultFolder(Recipient, OlDefaultFolders)](https://msdn.microsoft.com/en-us/library/bb644850\(v=office.15\)) methods.
 
-  - [How to: Save a Calendar to Disk](how-to-save-a-calendar-to-disk.md)  
+  - [Save a Calendar to Disk](how-to-save-a-calendar-to-disk.md)  
     Saves an entire calendar to disk in the iCalendar (.ics) file format.
 
-  - [How to: Open and Display the Contents of an iCalendar File](how-to-open-and-display-the-contents-of-an-icalendar-file.md)  
+  - [Open and Display the Contents of an iCalendar File](how-to-open-and-display-the-contents-of-an-icalendar-file.md)  
     Opens and displays the contents of an iCalendar file, depending on whether the file contains a single or recurrent appointment, or the file contains a group of appointments.
 
 ## Related sections

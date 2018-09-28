@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Create a Sendable Item for a Specific Account Based on the Current Folder'
-TOCTitle: 'How to: Create a Sendable Item for a Specific Account Based on the Current Folder'
+title: 'Create a Sendable Item for a Specific Account Based on the Current Folder'
+TOCTitle: 'Create a Sendable Item for a Specific Account Based on the Current Folder'
 ms:assetid: 665ebdc5-2912-4d85-ac40-835c9ef9a439
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184614(v=office.15)
 ms:contentKeyID: 55119796
@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Create a Sendable Item for a Specific Account Based on the Current Folder
+# Create a Sendable Item for a Specific Account Based on the Current Folder
 
 This topic contains two code examples that show how to create a sendable e-mail item and meeting request, and then how to send them by using a specific account that is based on the current folder.
 
