@@ -6,9 +6,9 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb644806(v=office.15)
 ms:contentKeyID: 55119924
 ms.date: 07/24/2014
 mtps_version: v=office.15
-dev_langs:
-- vb
-- csharp
+
+
+
 ---
 
 # Search for a Phrase in the Body of Items in a Folder

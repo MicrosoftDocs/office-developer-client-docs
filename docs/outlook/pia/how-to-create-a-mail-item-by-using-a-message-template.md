@@ -6,9 +6,9 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb623026(v=office.15)
 ms:contentKeyID: 55119862
 ms.date: 07/24/2014
 mtps_version: v=office.15
-dev_langs:
-- vb
-- csharp
+
+
+
 ---
 
 # Create a Mail Item by Using a Message Template

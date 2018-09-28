@@ -6,9 +6,9 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb624312(v=office.15)
 ms:contentKeyID: 55119839
 ms.date: 07/24/2014
 mtps_version: v=office.15
-dev_langs:
-- vb
-- csharp
+
+
+
 ---
 
 # Send a Mail Item with an Electronic Business Card

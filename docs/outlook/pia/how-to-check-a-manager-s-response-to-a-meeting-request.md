@@ -6,8 +6,8 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184618(v=office.15)
 ms:contentKeyID: 55119847
 ms.date: 07/24/2014
 mtps_version: v=office.15
-dev_langs:
-- csharp
+
+
 ---
 
 # Check a Manager's Response to a Meeting Request

@@ -6,9 +6,6 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb623414(v=office.15)
 ms:contentKeyID: 55119861
 ms.date: 07/24/2014
 mtps_version: v=office.15
-dev_langs:
-- vb
-- csharp
 ---
 
 # Access Solution-Specific Data Stored as a Hidden Message in a Folder

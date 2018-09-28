@@ -6,8 +6,8 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff424478(v=office.15)
 ms:contentKeyID: 55119923
 ms.date: 07/24/2014
 mtps_version: v=office.15
-dev_langs:
-- csharp
+
+
 ---
 
 # Use Instant Search to Search All Folders and All Stores for a Phrase in the Subject

@@ -6,8 +6,8 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184658(v=office.15)
 ms:contentKeyID: 55119875
 ms.date: 07/24/2014
 mtps_version: v=office.15
-dev_langs:
-- csharp
+
+
 ---
 
 # Find the Appointment Item Associated with a Meeting Request

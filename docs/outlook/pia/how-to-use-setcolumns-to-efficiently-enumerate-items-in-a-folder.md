@@ -6,8 +6,8 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184641(v=office.15)
 ms:contentKeyID: 55119921
 ms.date: 07/24/2014
 mtps_version: v=office.15
-dev_langs:
-- csharp
+
+
 ---
 
 # Use SetColumns to Efficiently Enumerate Items in a Folder

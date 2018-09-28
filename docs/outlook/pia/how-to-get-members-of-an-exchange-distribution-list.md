@@ -6,9 +6,9 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb645998(v=office.15)
 ms:contentKeyID: 55119837
 ms.date: 07/24/2014
 mtps_version: v=office.15
-dev_langs:
-- vb
-- csharp
+
+
+
 ---
 
 # Get Members of an Exchange Distribution List

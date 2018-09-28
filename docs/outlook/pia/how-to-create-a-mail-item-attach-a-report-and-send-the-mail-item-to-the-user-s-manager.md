@@ -6,9 +6,9 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb644320(v=office.15)
 ms:contentKeyID: 55119866
 ms.date: 07/24/2014
 mtps_version: v=office.15
-dev_langs:
-- vb
-- csharp
+
+
+
 ---
 
 # Create a Mail Item, Attach a Report, and Send the Mail Item to the User's Manager

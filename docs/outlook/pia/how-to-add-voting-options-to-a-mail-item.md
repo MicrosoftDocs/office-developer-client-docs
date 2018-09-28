@@ -6,8 +6,6 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff424466(v=office.15)
 ms:contentKeyID: 55119867
 ms.date: 07/24/2014
 mtps_version: v=office.15
-dev_langs:
-- csharp
 ---
 
 # Add Voting Options to a Mail Item

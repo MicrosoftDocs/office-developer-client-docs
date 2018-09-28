@@ -6,9 +6,9 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb609825(v=office.15)
 ms:contentKeyID: 55119889
 ms.date: 07/24/2014
 mtps_version: v=office.15
-dev_langs:
-- vb
-- csharp
+
+
+
 ---
 
 # Search Attachments of Items in a Folder for an Exact Phrase

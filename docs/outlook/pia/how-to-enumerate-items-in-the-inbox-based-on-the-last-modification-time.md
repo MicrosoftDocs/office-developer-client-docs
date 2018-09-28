@@ -6,8 +6,8 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184626(v=office.15)
 ms:contentKeyID: 55119920
 ms.date: 07/24/2014
 mtps_version: v=office.15
-dev_langs:
-- csharp
+
+
 ---
 
 # Enumerate Items in the Inbox Based on the Last Modification Time

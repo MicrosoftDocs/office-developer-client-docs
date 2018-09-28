@@ -5,8 +5,8 @@ ms:assetid: 3706be15-f746-4d0d-9ffe-d6f46b2004dc
 ms:contentKeyID: 55119793
 ms.date: 07/24/2014
 mtps_version: v=office.15
-dev_langs:
-- csharp
+
+
 ---
 
 # Get the account for a folder

@@ -6,8 +6,6 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184611(v=office.15)
 ms:contentKeyID: 55119811
 ms.date: 07/24/2014
 mtps_version: v=office.15
-dev_langs:
-- csharp
 ---
 
 # Create an annual recurring appointment that uses a YearNth pattern

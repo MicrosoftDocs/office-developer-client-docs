@@ -6,8 +6,6 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184595(v=office.15)
 ms:contentKeyID: 55119810
 ms.date: 07/24/2014
 mtps_version: v=office.15
-dev_langs:
-- csharp
 ---
 
 # Create a recurring appointment that has a weekly pattern

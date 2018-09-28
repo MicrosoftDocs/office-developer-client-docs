@@ -6,8 +6,8 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff424477(v=office.15)
 ms:contentKeyID: 55119880
 ms.date: 07/24/2014
 mtps_version: v=office.15
-dev_langs:
-- csharp
+
+
 ---
 
 # Create a Rule to File Mail Items from a Manager and Flag Them for Follow-Up

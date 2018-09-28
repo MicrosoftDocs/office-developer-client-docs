@@ -6,9 +6,9 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb608929(v=office.15)
 ms:contentKeyID: 55119863
 ms.date: 07/24/2014
 mtps_version: v=office.15
-dev_langs:
-- vb
-- csharp
+
+
+
 ---
 
 # Ensure that Custom Item Properties Are Supported in Folder-Level Queries
