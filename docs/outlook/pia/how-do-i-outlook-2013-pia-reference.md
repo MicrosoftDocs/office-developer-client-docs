@@ -134,20 +134,20 @@ The Office Developer Documentation team welcomes your task ideas and code sample
 - [Get the SMTP address of the sender of a mail item](how-to-get-the-smtp-address-of-the-sender-of-a-mail-item.md)
 - [Specify different recipient types for a mail item](how-to-specify-different-recipient-types-for-a-mail-item.md)
 
-[Meeting Requests](meeting-requests.md)
+[Meeting requests](meeting-requests.md)
 
-- [Create a Meeting Request, Add Recipients, and Specify a Location](how-to-create-a-meeting-request-add-recipients-and-specify-a-location.md)
-- [Get the Organizer of a Meeting](how-to-get-the-organizer-of-a-meeting.md)
-- [Check All Responses to a Meeting Request](how-to-check-all-responses-to-a-meeting-request.md)
-- [Find the Appointment Item Associated with a Meeting Request](how-to-find-the-appointment-item-associated-with-a-meeting-request.md)
-- [Automatically Accept a Meeting Request](how-to-automatically-accept-a-meeting-request.md)
-- [Prompt a User to Respond to a Meeting Request](how-to-prompt-a-user-to-respond-to-a-meeting-request.md)
+- [Create a meeting request, add recipients, and specify a location](how-to-create-a-meeting-request-add-recipients-and-specify-a-location.md)
+- [Get the organizer of a meeting](how-to-get-the-organizer-of-a-meeting.md)
+- [Check all responses to a meeting request](how-to-check-all-responses-to-a-meeting-request.md)
+- [Find the appointment item associated with a meeting request](how-to-find-the-appointment-item-associated-with-a-meeting-request.md)
+- [Automatically accept a meeting request](how-to-automatically-accept-a-meeting-request.md)
+- [Prompt a user to respond to a meeting request](how-to-prompt-a-user-to-respond-to-a-meeting-request.md)
 
 [Recipients](recipients.md)
 
-- [Display the Select Names Dialog Box to Resolve Recipients](how-to-display-the-select-names-dialog-box-to-resolve-recipients.md)
-- [Use the Select Names Dialog Box to Obtain and Assign Recipients to an Appointment](how-to-use-the-select-names-dialog-box-to-obtain-and-assign-recipients-to-an-appointment.md)
-- [Get the E-Mail Address of a Recipient](how-to-get-the-e-mail-address-of-a-recipient.md)
+- [Display the Select Names dialog box to resolve recipients](how-to-display-the-select-names-dialog-box-to-resolve-recipients.md)
+- [Use the Select Names dialog box to obtain and assign recipients to an appointment](how-to-use-the-select-names-dialog-box-to-obtain-and-assign-recipients-to-an-appointment.md)
+- [Get the email address of a recipient](how-to-get-the-e-mail-address-of-a-recipient.md)
 
 [Rules](rules.md)
 

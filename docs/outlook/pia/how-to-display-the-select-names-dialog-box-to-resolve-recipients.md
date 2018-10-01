@@ -1,17 +1,14 @@
 ﻿---
-title: 'Display the Select Names Dialog Box to Resolve Recipients'
-TOCTitle: 'Display the Select Names Dialog Box to Resolve Recipients'
+title: Display the Select Names dialog box to resolve recipients
+TOCTitle: Display the Select Names dialog box to resolve recipients
 ms:assetid: 841dd4cd-6d69-46d5-8c83-e28c95b631a9
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb646055(v=office.15)
 ms:contentKeyID: 55119876
 ms.date: 07/24/2014
 mtps_version: v=office.15
-
-
-
 ---
 
-# Display the Select Names Dialog Box to Resolve Recipients
+# Display the Select Names dialog box to resolve recipients
 
 This example attempts to resolve the recipients provided by the recips parameter, and displays the Outlook **Select Names** dialog box for each recipient that is ambiguous and cannot be resolved.
 
@@ -25,9 +22,11 @@ If you use Visual Studio to test this code example, you must first add a referen
 Imports Outlook = Microsoft.Office.Interop.Outlook
 ```
 
+
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
 ```
+
 
 ```vb
 Private Sub ResolveRecipients(ByVal recips As Outlook.Recipients)
@@ -58,6 +57,7 @@ Private Sub ResolveRecipients(ByVal recips As Outlook.Recipients)
     End If
 End Sub
 ```
+
 
 ```csharp
 private void ResolveRecipients(Outlook.Recipients recips)
@@ -102,7 +102,5 @@ private void ResolveRecipients(Outlook.Recipients recips)
 
 ## See also
 
-
-
-[Recipients](recipients.md)
+- [Recipients](recipients.md)
 
