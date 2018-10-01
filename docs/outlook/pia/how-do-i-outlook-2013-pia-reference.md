@@ -37,7 +37,7 @@ The Office Developer Documentation team welcomes your task ideas and code sample
 - [Enumerate the entries in the Global Address List](how-to-enumerate-the-entries-in-the-global-address-list.md)
 - [Display the address lists for a profile](how-to-display-the-address-lists-for-a-profile.md)
 
-[Add-in Administration](add-in-administration.md)
+[Add-in administration](add-in-administration.md)
 
 - [Determine whether Outlook is a Click-to-Run application on a computer](how-to-determine-whether-outlook-is-a-click-to-run-application-on-a-computer.md)
 
@@ -102,14 +102,19 @@ The Office Developer Documentation team welcomes your task ideas and code sample
 - [Check a manager's response to a meeting request](how-to-check-a-manager-s-response-to-a-meeting-request.md)
 - [Get information about direct reports of the current user's manager](how-to-get-information-about-direct-reports-of-the-current-user-s-manager.md)
 
-[Group Sharing](group-sharing.md)
+[General Outlook items](general-outlook-items.md)
 
-- [Subscribe to an RSS Feed](how-to-subscribe-to-an-rss-feed.md)
-- [Synchronize Outlook with a SharePoint Folder](how-to-synchronize-outlook-with-a-sharepoint-folder.md)
+- [Create a Helper class to access common Outlook item members](how-to-create-a-helper-class-to-access-common-outlook-item-members.md)
+- [Display selected items in the active Explorer](how-to-display-selected-items-in-the-active-explorer.md)
 
-[Sample Tasks Using Outlook Events](sample-tasks-using-outlook-events.md)
+[Group sharing](group-sharing.md)
 
-- [Implement a Wrapper for Inspectors and Track Item-Level Events in Each Inspector](how-to-implement-a-wrapper-for-inspectors-and-track-item-level-events-in-each-inspector.md)
+- [Subscribe to an RSS feed](how-to-subscribe-to-an-rss-feed.md)
+- [Synchronize Outlook with a SharePoint folder](how-to-synchronize-outlook-with-a-sharepoint-folder.md)
+
+[Sample tasks using Outlook events](sample-tasks-using-outlook-events.md)
+
+- [Implement a wrapper for inspectors and track item-level events in each inspector](how-to-implement-a-wrapper-for-inspectors-and-track-item-level-events-in-each-inspector.md)
 
 [Folders](folders.md)
 

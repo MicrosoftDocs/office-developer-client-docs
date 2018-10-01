@@ -1,16 +1,14 @@
 ﻿---
-title: 'Implement a Wrapper for Inspectors and Track Item-Level Events in Each Inspector'
-TOCTitle: 'Implement a Wrapper for Inspectors and Track Item-Level Events in Each Inspector'
+title: Implement a wrapper for inspectors and track item-level events in each inspector
+TOCTitle: Implement a wrapper for inspectors and track item-level events in each inspector
 ms:assetid: 8021dd2b-c36c-492b-b281-783e85140ad8
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184620(v=office.15)
 ms:contentKeyID: 55119854
 ms.date: 07/24/2014
 mtps_version: v=office.15
-
-
 ---
 
-# Implement a Wrapper for Inspectors and Track Item-Level Events in Each Inspector
+# Implement a wrapper for inspectors and track item-level events in each inspector
 
 This topic contains two code examples that show how to implement a wrapper for an [Inspectors](https://msdn.microsoft.com/en-us/library/bb623458\(v=office.15\)) collection and to use that wrapper to track item-level events in each [Inspector](https://msdn.microsoft.com/en-us/library/bb647744\(v=office.15\)) object in the collection.
 
@@ -19,7 +17,7 @@ This topic contains two code examples that show how to implement a wrapper for a
 > [!NOTE] 
 > The following code example is an excerpt from [Programming Applications for Microsoft Office Outlook 2007](https://www.amazon.com/gp/product/0735622493?ie=UTF8&tag=msmsdn-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0735622493).
 
-The following two code examples implement the Connect and OutlookInspector classes. The first code example involves methods and event handlers you include in the Connect class to implement a wrapper for an Inspectors collection. The second code example involves a simple implementation of the OutlookInspector class.
+The following two code examples implement the Connect and OutlookInspector classes. The first code example involves methods and event handlers you include in the Connect class to implement a wrapper for an **Inspectors** collection. The second code example involves a simple implementation of the **OutlookInspector** class.
 
 If you use Visual Studio to test this code example, you must first add a reference to the **Microsoft Outlook 15.0 Object Library** component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
 
@@ -27,7 +25,9 @@ If you use Visual Studio to test this code example, you must first add a referen
 using Outlook = Microsoft.Office.Interop.Outlook;
 ```
 
-In the following code example, a [NewInspector(Inspector)](https://msdn.microsoft.com/en-us/library/bb610594\(v=office.15\)) event occurs after a new inspector window has been created and before it is displayed. A user action may also create a new inspector window. A class-level instance variable named inspectors in the Connect class is declared, and a NewInspector event is hooked up. In the inspectors\_NewInspector method, the FindOutlookInspector method checks whether the new inspector window is already in the inspectorWindows list. If FindOutlookInspector does not find the Inspector object in inspectorWindows, the AddInspector method adds an instance of the OutlookInspector class to inspectorWindows. You can use the OutlookInspector class to raise events for this particular inspector window. The implementation of the OutlookInspector class is shown in the second code example.
+In the following code example, a [NewInspector(Inspector)](https://msdn.microsoft.com/en-us/library/bb610594\(v=office.15\)) event occurs after a new inspector window has been created and before it is displayed. A user action may also create a new inspector window. A class-level instance variable named inspectors in the **Connect** class is declared, and a **NewInspector** event is hooked up. 
+
+In the inspectors\_NewInspector method, the **FindOutlookInspector** method checks whether the new inspector window is already in the inspectorWindows list. If FindOutlookInspector does not find the **Inspector** object in inspectorWindows, the **AddInspector** method adds an instance of the **OutlookInspector** class to inspectorWindows. You can use the **OutlookInspector** class to raise events for this particular inspector window. The implementation of the **OutlookInspector** class is shown in the second code example.
 
 ```csharp
 class Connect
@@ -57,7 +57,7 @@ class Connect
         }
     }
 
-    // Adds an instance of OutlookInspector class
+    // Adds an instance of **OutlookInspector** class
     private void AddInspector(Outlook.Inspector inspector)
     {
         OutlookInspector window = new OutlookInspector(inspector);
@@ -81,9 +81,9 @@ class Connect
 }
 ```
 
-The following code example is an implementation of the OutlookInspector class. This class is used to raise events for the inspector window from the preceding code example. Multiple inspector windows can be open simultaneously. Item-level events such as [Open](https://msdn.microsoft.com/en-us/library/bb644296\(v=office.15\)), [PropertyChange](https://msdn.microsoft.com/en-us/library/bb647794\(v=office.15\)), and [CustomPropertyChange](https://msdn.microsoft.com/en-us/library/bb645015\(v=office.15\)) are tracked by hooking them up in this class constructor. A [Close](https://msdn.microsoft.com/en-us/library/bb645009\(v=office.15\)) event for a [ContactItem](https://msdn.microsoft.com/en-us/library/bb644956\(v=office.15\)) object is also hooked up in this class constructor. You can define other class-level item instance variables as needed. All the events that were hooked up in the OutlookInspector constructor are unhooked in the OutlookInspectorWindow\_Close event handler.
+The following code example is an implementation of the **OutlookInspector** class. This class is used to raise events for the inspector window from the preceding code example. Multiple inspector windows can be open simultaneously. Item-level events such as [Open](https://msdn.microsoft.com/en-us/library/bb644296\(v=office.15\)), [PropertyChange](https://msdn.microsoft.com/en-us/library/bb647794\(v=office.15\)), and [CustomPropertyChange](https://msdn.microsoft.com/en-us/library/bb645015\(v=office.15\)) are tracked by hooking them up in this class constructor. A [Close](https://msdn.microsoft.com/en-us/library/bb645009\(v=office.15\)) event for a [ContactItem](https://msdn.microsoft.com/en-us/library/bb644956\(v=office.15\)) object is also hooked up in this class constructor. You can define other class-level item instance variables as needed. All the events that were hooked up in the OutlookInspector constructor are unhooked in the OutlookInspectorWindow\_Close event handler.
 
-Note that at the object model level, an Outlook inspector object is not specific to any Outlook item type. This code sample makes use of the OutlookItem helper class, defined in [Create a Helper Class to Access Common Outlook Item Members](how-to-create-a-helper-class-to-access-common-outlook-item-members.md), to conveniently call the OutlookItem.Class property to verify the message class of the current item in the inspector, before assuming the item is a contact item.
+Note that at the object model level, an **Outlook inspector** object is not specific to any Outlook item type. This code sample makes use of the OutlookItem helper class, defined in [Create a Helper Class to Access Common Outlook Item Members](how-to-create-a-helper-class-to-access-common-outlook-item-members.md), to conveniently call the OutlookItem.Class property to verify the message class of the current item in the inspector, before assuming the item is a contact item.
 
 ```csharp
 // This class tracks the state of an Outlook Inspector window 
@@ -170,7 +170,5 @@ class OutlookInspector
 
 ## See also
 
-
-
-[Sample Tasks Using Outlook Events](sample-tasks-using-outlook-events.md)
+- [Sample tasks using Outlook events](sample-tasks-using-outlook-events.md)
 

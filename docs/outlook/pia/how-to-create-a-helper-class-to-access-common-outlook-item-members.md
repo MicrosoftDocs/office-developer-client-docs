@@ -1,6 +1,6 @@
 ﻿---
-title: 'Create a Helper Class to Access Common Outlook Item Members'
-TOCTitle: 'Create a Helper Class to Access Common Outlook Item Members'
+title: Create a Helper class to access common Outlook item members
+TOCTitle: Create a Helper class to access common Outlook item members
 ms:assetid: 344ff07d-e448-4418-910d-930e60f7381f
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn292518(v=office.15)
 ms:contentKeyID: 55119845
@@ -8,7 +8,7 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 ---
 
-# Create a Helper Class to Access Common Outlook Item Members
+# Create a Helper class to access common Outlook item members
 
 This example shows how to implement an OutlookItem helper class that accesses common properties and methods of Outlook item objects, saving the overhead of testing for and casting to a specific item object before accessing these common item members.
 
@@ -18,7 +18,11 @@ This example shows how to implement an OutlookItem helper class that accesses co
 > The following code example is an excerpt from [Programming Applications for Microsoft Office Outlook 2007](https://www.amazon.com/gp/product/0735622493?ie=UTF8&tag=msmsdn-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0735622493).
 
 
-Many Outlook items have similar properties and methods. For example, the Application, Attachments, Body, Categories, and Class properties, and Close, Copy, and Display methods are common to all Outlook item object. The COM-based Outlook object model returns the generic Visual Basic Object instead of the exact item type for many members. For example, the [CurrentItem](https://msdn.microsoft.com/en-us/library/bb611743\(v=office.15\)) property returns a generic Object. On the other hand, the strongly typed managed code environment requires you to cast the Object representing an Outlook item to the exact Outlook type such as MailItem. The OutlookItem helper class uses reflection to expose properties and methods that are common to all items. The class helps you cast the object to the exact type and provides the convenience of directly using common item properties or methods on the OutlookItem object. This is a very useful technique and several other how-to topics listed in the See Also section below take advantage of this helper class.
+Many Outlook items have similar properties and methods. For example, the **Application**, **Attachments**, **Body**, **Categories**, and **Class** properties, and **Close**, **Copy**, and **Display** methods are common to all Outlook item objects. The COM-based Outlook object model returns the generic Visual Basic **Object** instead of the exact item type for many members. 
+
+For example, the [CurrentItem](https://msdn.microsoft.com/en-us/library/bb611743\(v=office.15\)) property returns a generic **Object**. On the other hand, the strongly typed managed code environment requires you to cast the **Object** representing an Outlook item to the exact Outlook type such as **MailItem**. 
+
+The OutlookItem helper class uses reflection to expose properties and methods that are common to all items. The class helps you cast the object to the exact type and provides the convenience of directly using common item properties or methods on the **OutlookItem** object. This is a very useful technique, and several other how-to topics listed in the **See also** section take advantage of this helper class.
 
 If you use Visual Studio to test this code example, you must first add a reference to the **Microsoft Outlook 15.0 Object Library** component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The **Imports** or **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following lines of code show how to do the import and assignment in Visual Basic and C\#.
 
@@ -26,9 +30,11 @@ If you use Visual Studio to test this code example, you must first add a referen
 Imports Outlook = Microsoft.Office.Interop.Outlook
 ```
 
+
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
 ```
+
 
 ```vb
 Option Strict On
@@ -1013,19 +1019,9 @@ namespace SampleCodeAddinCS
 
 ## See also
 
-#### Tasks
-
-[Display Selected Items in the Active Explorer](how-to-display-selected-items-in-the-active-explorer.md)
-
-[Open and Display the Contents of an iCalendar File](how-to-open-and-display-the-contents-of-an-icalendar-file.md)
-
-[Open and Display the Contents of an iCalendar File](how-to-open-and-display-the-contents-of-an-icalendar-file.md)
-
-[Assign Categories to an Item](how-to-assign-categories-to-an-item.md)
-
-[Implement a Wrapper for Inspectors and Track Item-Level Events in Each Inspector](how-to-implement-a-wrapper-for-inspectors-and-track-item-level-events-in-each-inspector.md)
-
-
-
-[General Outlook Items](general-outlook-items.md)
+- [Display selected items in the active Explorer](how-to-display-selected-items-in-the-active-explorer.md)
+- [Open and display the contents of an iCalendar file](how-to-open-and-display-the-contents-of-an-icalendar-file.md)
+- [Assign categories to an item](how-to-assign-categories-to-an-item.md)
+- [Implement a wrapper for inspectors and track item-level events in each inspector](how-to-implement-a-wrapper-for-inspectors-and-track-item-level-events-in-each-inspector.md)
+- [General Outlook items](general-outlook-items.md)
 
