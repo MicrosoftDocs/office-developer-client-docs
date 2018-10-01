@@ -1,6 +1,6 @@
 ﻿---
-title: How Do I... (Outlook 2013 PIA Reference)
-TOCTitle: How Do I...
+title: How do I... (Outlook 2013 PIA reference)
+TOCTitle: How do I...
 ms:assetid: ff647d52-bd32-4945-afa4-5b97d9a0d7dd
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb612741(v=office.15)
 ms:contentKeyID: 55119792
@@ -8,7 +8,7 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 ---
 
-# How Do I... (Outlook 2013 PIA Reference)
+# How do I... (Outlook 2013 PIA reference)
 
 This section contains procedural tasks topics and code examples in Visual Basic and C\# that demonstrate how to perform some common tasks in Outlook.
 
@@ -56,11 +56,11 @@ The Office Developer Documentation team welcomes your task ideas and code sample
 
 [Attachments](attachments.md)
 
-- [Attach a File to a Mail Item](https://msdn.microsoft.com/en-us/library/ff862085\(v=office.15\))
-- [Attach an Outlook Contact Item to an Email Message](https://msdn.microsoft.com/en-us/library/hh290848\(v=office.15\))
-- [Limit the Size of an Attachment to an Outlook Email Message](https://msdn.microsoft.com/en-us/library/hh290847\(v=office.15\))
-- [Modify an Attachment of an Outlook Email Message](https://msdn.microsoft.com/en-us/library/hh290849\(v=office.15\))
-- [Programmatically Remove Security Level 2 Attachments from Messages and Save Them to Disk](how-to-programmatically-remove-security-level-2-attachments-from-messages-and-save-them-to-disk.md)
+- [Attach a file to a mail item](https://docs.microsoft.com/office/vba/outlook/How-to/Items-Folders-and-Stores/attach-a-file-to-a-mail-item)
+- [Attach an Outlook Contact item to an email message](https://docs.microsoft.com/office/vba/outlook/Concepts/Attachments/attach-an-outlook-contact-item-to-an-email-message)
+- [Limit the size of an attachment to an Outlook email message](https://docs.microsoft.com/office/vba/outlook/Concepts/Attachments/limit-the-size-of-an-attachment-to-an-outlook-email-message)
+- [Modify an attachment of an Outlook email message](https://docs.microsoft.com/office/vba/outlook/concepts/attachments/modify-an-attachment-of-an-outlook-email-message)
+- [Programmatically remove security level 2 attachments from messages and save them to disk](how-to-programmatically-remove-security-level-2-attachments-from-messages-and-save-them-to-disk.md)
 
 [Calendar](calendar.md)
 

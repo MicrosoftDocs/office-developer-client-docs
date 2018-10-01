@@ -14,20 +14,8 @@ This example shows how to add custom actions as a response to an email item by u
 
 ## Example
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p></p></td>
-<td><p>The following code example is an excerpt from <em>Programming Applications for Microsoft Office Outlook 2007</em>, from <a href="http://www.microsoft.com/learning/books/default.mspx">Microsoft Press</a> (ISBN 9780735622494, copyright Microsoft Press 2007, all rights reserved).</p>
-<p><a href="http://www.amazon.com/gp/product/0735622493?ie=utf8%26tag=msmsdn-20%26linkcode=as2%26camp=1789%26creative=9325%26creativeasin=0735622493">Buy this book</a></p>
-<p><a href="https://msdn.microsoft.com/en-us/library/cc513844(v=office.15)">Sample chapters</a></p></td>
-</tr>
-</tbody>
-</table>
+> [!NOTE] 
+> The following code example is an excerpt from [Programming Applications for Microsoft Office Outlook 2007](https://www.amazon.com/gp/product/0735622493?ie=UTF8&tag=msmsdn-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0735622493).
 
 
 You can create custom actions programmatically to appear on the ribbon in the **Actions** group on the **Message** tab in an email response. In the following code example, ReplyWithVoiceMail creates and adds a custom action named “Reply with Voice Mail” to the inspector command bar. ReplyWithVoiceMail first gets a [\_MailItem](https://msdn.microsoft.com/en-us/library/bb610623\(v=office.15\)) object and then creates an [Action](https://msdn.microsoft.com/en-us/library/bb646971\(v=office.15\)) object by calling the Add method of the Actions collection that is associated with the MailItem. It then sets the [Name](https://msdn.microsoft.com/en-us/library/bb624053\(v=office.15\)) property of the **Action** object to “Reply with Voice Mail”. The [ReplyStyle](https://msdn.microsoft.com/en-us/library/bb624278\(v=office.15\)), [ResponseStyle](https://msdn.microsoft.com/en-us/library/bb622491\(v=office.15\)), [CopyLike](https://msdn.microsoft.com/en-us/library/bb624213\(v=office.15\)), and [MessageClass](https://msdn.microsoft.com/en-us/library/bb624391\(v=office.15\)) properties are also set. Finally, the MailItem is saved.

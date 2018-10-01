@@ -14,18 +14,13 @@ This section provides a sample task that involves email attachments.
 
 ## In this section
 
-  - [Programmatically Remove Security Level 2 Attachments from Messages and Save Them to Disk](how-to-programmatically-remove-security-level-2-attachments-from-messages-and-save-them-to-disk.md)  
-    Removes security Level 2 attachments from email messages and saves them to a disk, from where they can be opened.
+- [Programmatically remove security level 2 attachments from messages and save them to disk](how-to-programmatically-remove-security-level-2-attachments-from-messages-and-save-them-to-disk.md)  
+  
+  Removes security Level 2 attachments from email messages and saves them to a disk, from where they can be opened.
 
 ## See also
 
-[Mail](mail.md)
-
-[Search and Filter](search-and-filter.md)
-
-## See also
-
-
-
-[How do I... (Outlook 2013 PIA reference)](how-do-i-outlook-2013-pia-reference.md)
+- [Mail](mail.md)
+- [Search and filter](search-and-filter.md)
+- [How do I... (Outlook 2013 PIA reference)](how-do-i-outlook-2013-pia-reference.md)
 

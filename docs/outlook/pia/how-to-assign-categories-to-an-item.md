@@ -16,20 +16,8 @@ This example shows how to assign categories to an item by using its Categories p
 
 ## Example
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p></p></td>
-<td><p>The following code example is an excerpt from <em>Programming Applications for Microsoft Office Outlook 2007</em>, from <a href="http://www.microsoft.com/learning/books/default.mspx">Microsoft Press</a> (ISBN 9780735622494, copyright Microsoft Press 2007, all rights reserved).</p>
-<p><a href="http://www.amazon.com/gp/product/0735622493?ie=utf8%26tag=msmsdn-20%26linkcode=as2%26camp=1789%26creative=9325%26creativeasin=0735622493">Buy this book</a></p>
-<p><a href="https://msdn.microsoft.com/en-us/library/cc513844(v=office.15)">Sample chapters</a></p></td>
-</tr>
-</tbody>
-</table>
+> [!NOTE] 
+> The following code example is an excerpt from [Programming Applications for Microsoft Office Outlook 2007](https://www.amazon.com/gp/product/0735622493?ie=UTF8&tag=msmsdn-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0735622493).
 
 
 To assign categories to an item, use the particular item's Categories property. This code sample makes use of the OutlookItem helper class, defined in [Create a Helper Class to Access Common Outlook Item Members](how-to-create-a-helper-class-to-access-common-outlook-item-members.md), to conveniently call the OutlookItem.Categories property without having to first cast the item. The Categories property gets or sets categories that are represented by a comma-delimited string that can contain a maximum of 255 characters. The commas and spaces are used to separate the category values. Assigning a category that is not in the [Categories](https://msdn.microsoft.com/en-us/library/bb646607\(v=office.15\)) collection of the [NameSpace](https://msdn.microsoft.com/en-us/library/bb645857\(v=office.15\)) object will result in the category not displaying a color.

@@ -16,21 +16,8 @@ This example enumerates the first 100 primary Simple Mail Transfer Protocol (SMT
 
 ## Example
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p></p></td>
-<td><p>The following code example is an excerpt from <em>Programming Applications for Microsoft Office Outlook 2007</em>, from <a href="http://www.microsoft.com/learning/books/default.mspx">Microsoft Press</a> (ISBN 9780735622494, copyright Microsoft Press 2007, all rights reserved).</p>
-<p><a href="http://www.amazon.com/gp/product/0735622493?ie=utf8%26tag=msmsdn-20%26linkcode=as2%26camp=1789%26creative=9325%26creativeasin=0735622493">Buy this book</a></p>
-<p><a href="https://msdn.microsoft.com/en-us/library/cc513844(v=office.15)">Sample chapters</a></p></td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE] 
+> The following code example is an excerpt from [Programming Applications for Microsoft Office Outlook 2007](https://www.amazon.com/gp/product/0735622493?ie=UTF8&tag=msmsdn-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0735622493).
 
 In the following code example, the SMTP address for an [AddressEntry](https://msdn.microsoft.com/en-us/library/bb609728\(v=office.15\)) object is obtained by casting it to an [ExchangeUser](https://msdn.microsoft.com/en-us/library/bb609574\(v=office.15\)) or [ExchangeDistributionList](https://msdn.microsoft.com/en-us/library/bb624320\(v=office.15\)) object in a call to the [GetExchangeUser()](https://msdn.microsoft.com/en-us/library/bb645260\(v=office.15\)) or [GetExchangeDistributionList()](https://msdn.microsoft.com/en-us/library/bb611805\(v=office.15\)) methods. If the AddressEntry object represents an Exchange user, EnumerateGAL returns an ExchangeUser object that exposes properties of the AddressEntry object. Use ExchangeUser properties such as [JobTitle](https://msdn.microsoft.com/en-us/library/bb645451\(v=office.15\)), [Department](https://msdn.microsoft.com/en-us/library/bb623789\(v=office.15\)), [Alias](https://msdn.microsoft.com/en-us/library/bb610682\(v=office.15\)), [BusinessTelephoneNumber](https://msdn.microsoft.com/en-us/library/bb612294\(v=office.15\)), or [PrimarySmtpAddress](https://msdn.microsoft.com/en-us/library/bb645506\(v=office.15\)) to expose them.
 

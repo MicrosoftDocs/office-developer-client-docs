@@ -1,35 +1,21 @@
 ﻿---
-title: 'Programmatically Remove Security Level 2 Attachments from Messages and Save Them to Disk'
-TOCTitle: 'Programmatically Remove Security Level 2 Attachments from Messages and Save Them to Disk'
+title: Programmatically remove security level 2 attachments from messages and save them to disk
+TOCTitle: Programmatically remove security level 2 attachments from messages and save them to disk
 ms:assetid: fb63e505-a243-40a5-919d-e4fe914af3f9
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184657(v=office.15)
 ms:contentKeyID: 55119822
 ms.date: 07/24/2014
 mtps_version: v=office.15
-
-
 ---
 
-# Programmatically Remove Security Level 2 Attachments from Messages and Save Them to Disk
+# Programmatically remove security level 2 attachments from messages and save them to disk
 
-This example shows how to remove security Level 2 attachments from email messages and save them to a disk, from where they can be opened.
+This example shows how to remove security level 2 attachments from email messages and save them to a disk, from where they can be opened.
 
 ## Example
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p></p></td>
-<td><p>The following code example is an excerpt from <em>Programming Applications for Microsoft Office Outlook 2007</em>, from <a href="http://www.microsoft.com/learning/books/default.mspx">Microsoft Press</a> (ISBN 9780735622494, copyright Microsoft Press 2007, all rights reserved).</p>
-<p><a href="http://www.amazon.com/gp/product/0735622493?ie=utf8%26tag=msmsdn-20%26linkcode=as2%26camp=1789%26creative=9325%26creativeasin=0735622493">Buy this book</a></p>
-<p><a href="https://msdn.microsoft.com/en-us/library/cc513844(v=office.15)">Sample chapters</a></p></td>
-</tr>
-</tbody>
-</table>
+> [!NOTE] 
+> The following code example is an excerpt from [Programming Applications for Microsoft Office Outlook 2007](https://www.amazon.com/gp/product/0735622493?ie=UTF8&tag=msmsdn-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0735622493).
 
 
 Outlook protects users from malicious code transported via email attachments that have certain file extensions such as .exe or .bat. Those particular attachments are blocked by default and identified as Level 1 attachments. Level 2 attachments have a lesser chance of containing malicious code, but users cannot open a Level 2 attachment directly from an email message. A Level 2 attachment must first be saved to a disk.

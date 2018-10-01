@@ -16,21 +16,8 @@ This example shows how to use the **Select Names** dialog box to obtain and assi
 
 ## Example
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p></p></td>
-<td><p>The following code example is an excerpt from <em>Programming Applications for Microsoft Office Outlook 2007</em>, from <a href="http://www.microsoft.com/learning/books/default.mspx">Microsoft Press</a> (ISBN 9780735622494, copyright Microsoft Press 2007, all rights reserved).</p>
-<p><a href="http://www.amazon.com/gp/product/0735622493?ie=utf8%26tag=msmsdn-20%26linkcode=as2%26camp=1789%26creative=9325%26creativeasin=0735622493">Buy this book</a></p>
-<p><a href="https://msdn.microsoft.com/en-us/library/cc513844(v=office.15)">Sample chapters</a></p></td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE] 
+> The following code example is an excerpt from [Programming Applications for Microsoft Office Outlook 2007](https://www.amazon.com/gp/product/0735622493?ie=UTF8&tag=msmsdn-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0735622493).
 
 To display the **Select Names** dialog box, call the [Display()](https://msdn.microsoft.com/en-us/library/bb646086\(v=office.15\)) method of the [SelectNamesDialog](https://msdn.microsoft.com/en-us/library/bb609866\(v=office.15\)) object. Once the **Select Names** dialog box is displayed to the user, code execution halts until the user clicks **OK** or closes the dialog box. To set initial recipients to display in the dialog box, or to get the recipients selected in the dialog box, use the [Recipients](https://msdn.microsoft.com/en-us/library/bb652601\(v=office.15\)) property of the SelectNamesDialog object. This returns a [Recipients](https://msdn.microsoft.com/en-us/library/bb646361\(v=office.15\)) collection that is associated with the SelectNamesDialog. To add a [Recipient](https://msdn.microsoft.com/en-us/library/bb624370\(v=office.15\)) object to the Recipients collection for the SelectNamesDialog, use the [Add](https://msdn.microsoft.com/en-us/library/bb612668\(v=office.15\)) method for the collection and specify the [Type](https://msdn.microsoft.com/en-us/library/bb611841\(v=office.15\)) property of the Recipient object.
 

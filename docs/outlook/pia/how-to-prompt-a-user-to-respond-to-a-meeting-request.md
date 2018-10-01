@@ -16,21 +16,8 @@ This example shows how to prompt the user for a response to a meeting request, a
 
 ## Example
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p></p></td>
-<td><p>The following code example is an excerpt from <em>Programming Applications for Microsoft Office Outlook 2007</em>, from <a href="http://www.microsoft.com/learning/books/default.mspx">Microsoft Press</a> (ISBN 9780735622494, copyright Microsoft Press 2007, all rights reserved).</p>
-<p><a href="http://www.amazon.com/gp/product/0735622493?ie=utf8%26tag=msmsdn-20%26linkcode=as2%26camp=1789%26creative=9325%26creativeasin=0735622493">Buy this book</a></p>
-<p><a href="https://msdn.microsoft.com/en-us/library/cc513844(v=office.15)">Sample chapters</a></p></td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE] 
+> The following code example is an excerpt from [Programming Applications for Microsoft Office Outlook 2007](https://www.amazon.com/gp/product/0735622493?ie=UTF8&tag=msmsdn-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0735622493).
 
 The [Respond](https://msdn.microsoft.com/en-us/library/bb647086\(v=office.15\)) method of the [AppointmentItem](https://msdn.microsoft.com/en-us/library/bb645611\(v=office.15\)) object is used to notify the meeting organizer whether the meeting has been accepted, declined, or tentatively added to the recipient’s calendar. By using the Respond method, you can indicate whether you want to send the notification automatically, or whether you want to allow the user to edit the response before sending it. The Respond method accepts three parameters. The Response parameter indicates whether the response is accept, decline, or tentative. The fNoUI and fAdditionalTextDialog parameters are bool values that indicate whether the response will be sent to the organizer, and whether the user can edit the body of the response before sending it, respectively. In the following code example, PromptUserMeetingRequest enumerates through the [MeetingItem](https://msdn.microsoft.com/en-us/library/bb645703\(v=office.15\)) objects to get the associated AppointmentItem objects, and then calls the Respond method with the fNoUI parameter set to false and the fAdditionalTextDialog parameter set to true. This allows the user to choose whether to send a response, and whether to edit the body of the response before sending it.
 

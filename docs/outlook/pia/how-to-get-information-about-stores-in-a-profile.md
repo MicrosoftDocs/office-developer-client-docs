@@ -16,21 +16,8 @@ This example shows how to get and enumerate stores in a profile.
 
 ## Example
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p></p></td>
-<td><p>The following code example is an excerpt from <em>Programming Applications for Microsoft Office Outlook 2007</em>, from <a href="http://www.microsoft.com/learning/books/default.mspx">Microsoft Press</a> (ISBN 9780735622494, copyright Microsoft Press 2007, all rights reserved).</p>
-<p><a href="http://www.amazon.com/gp/product/0735622493?ie=utf8%26tag=msmsdn-20%26linkcode=as2%26camp=1789%26creative=9325%26creativeasin=0735622493">Buy this book</a></p>
-<p><a href="https://msdn.microsoft.com/en-us/library/cc513844(v=office.15)">Sample chapters</a></p></td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE] 
+> The following code example is an excerpt from [Programming Applications for Microsoft Office Outlook 2007](https://www.amazon.com/gp/product/0735622493?ie=UTF8&tag=msmsdn-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0735622493).
 
 You can use the [Stores](https://msdn.microsoft.com/en-us/library/bb622944\(v=office.15\)) collection to enumerate the stores for a given profile. The Stores collection provides members that expose information about each [Store](https://msdn.microsoft.com/en-us/library/bb609139\(v=office.15\)) object, such as when a Store object has been added or when a Store object is about to be removed in the current profile. In the following code example, EnumerateStores gets the Stores object that represents stores in the current profile, and enumerates the stores. EnumerateStores examines each Store object in the Stores collection. If the [IsDataFileStore](https://msdn.microsoft.com/en-us/library/bb624116\(v=office.15\)) property returns true, indicating that it is a .pst or .ost store, the [DisplayName](https://msdn.microsoft.com/en-us/library/bb612209\(v=office.15\)) and [FilePath](https://msdn.microsoft.com/en-us/library/bb646113\(v=office.15\)) properties are written to the trace listeners in the [Listeners](http://msdn.microsoft.com/en-us/library/system.diagnostics.debug.listeners.aspx) collection.
 

@@ -16,21 +16,8 @@ This example shows how to enumerate items in the Inbox folder based on the last 
 
 ## Example
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p></p></td>
-<td><p>The following code example is an excerpt from <em>Programming Applications for Microsoft Office Outlook 2007</em>, from <a href="http://www.microsoft.com/learning/books/default.mspx">Microsoft Press</a> (ISBN 9780735622494, copyright Microsoft Press 2007, all rights reserved).</p>
-<p><a href="http://www.amazon.com/gp/product/0735622493?ie=utf8%26tag=msmsdn-20%26linkcode=as2%26camp=1789%26creative=9325%26creativeasin=0735622493">Buy this book</a></p>
-<p><a href="https://msdn.microsoft.com/en-us/library/cc513844(v=office.15)">Sample chapters</a></p></td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE] 
+> The following code example is an excerpt from [Programming Applications for Microsoft Office Outlook 2007](https://www.amazon.com/gp/product/0735622493?ie=UTF8&tag=msmsdn-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0735622493).
 
 The [Table](https://msdn.microsoft.com/en-us/library/bb652856\(v=office.15\)) object represents a set of items from a [Folder](https://msdn.microsoft.com/en-us/library/bb645774\(v=office.15\)) or [Search](https://msdn.microsoft.com/en-us/library/bb612611\(v=office.15\)) object. To obtain a Table, call the [GetTable(Object, Object)](https://msdn.microsoft.com/en-us/library/bb612592\(v=office.15\)) method on a Folder or Search object. Each item in the returned Table contains only a default subset of the item’s properties. Each [Row](https://msdn.microsoft.com/en-us/library/bb610126\(v=office.15\)) object can be regarded as an item in the folder, and each [Column](https://msdn.microsoft.com/en-us/library/bb609646\(v=office.15\)) object as a property of an item. Removing, adding, or changing rows is not supported in the Table. To enumerate items in a Table, first use the [EndOfTable](https://msdn.microsoft.com/en-us/library/bb647715\(v=office.15\)) property to see whether your current position is at the end of the table. If EndOfTable returns false, use the [GetNextRow()](https://msdn.microsoft.com/en-us/library/bb609740\(v=office.15\)) method to return a Row, which contains a default number of Column objects. You continue iterating in a forward manner through the Table by calling GetNextRow until EndOfTable returns true.
 

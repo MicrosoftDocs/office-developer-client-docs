@@ -16,20 +16,8 @@ This example shows how to create a distribution list and display it to the user.
 
 ## Example
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p></p></td>
-<td><p>The following code example is an excerpt from <em>Programming Applications for Microsoft Office Outlook 2007</em>, from <a href="http://www.microsoft.com/learning/books/default.mspx">Microsoft Press</a> (ISBN 9780735622494, copyright Microsoft Press 2007, all rights reserved).</p>
-<p><a href="http://www.amazon.com/gp/product/0735622493?ie=utf8%26tag=msmsdn-20%26linkcode=as2%26camp=1789%26creative=9325%26creativeasin=0735622493">Buy this book</a></p>
-<p><a href="https://msdn.microsoft.com/en-us/library/cc513844(v=office.15)">Sample chapters</a></p></td>
-</tr>
-</tbody>
-</table>
+> [!NOTE] 
+> The following code example is an excerpt from [Programming Applications for Microsoft Office Outlook 2007](https://www.amazon.com/gp/product/0735622493?ie=UTF8&tag=msmsdn-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0735622493).
 
 
 In the following code example, CreateDistributionList creates a distribution list by calling the [CreateItem(OlItemType)](https://msdn.microsoft.com/en-us/library/bb610587\(v=office.15\)) method to create a [DistListItem](https://msdn.microsoft.com/en-us/library/bb645382\(v=office.15\)) object. Next it creates a [Table](https://msdn.microsoft.com/en-us/library/bb652856\(v=office.15\)) object, and calls the [GetTable(Object, Object)](https://msdn.microsoft.com/en-us/library/bb612189\(v=office.15\)) method to find all contacts in the default Contacts folder for which the [Subject](https://msdn.microsoft.com/en-us/library/bb624088\(v=office.15\)) property value is “Top Customer” and the [Email1Address](https://msdn.microsoft.com/en-us/library/bb609902\(v=office.15\)) property value is not empty. Once all contacts are identified, the Email1Address name is added as a column to the Table. CreateDistributionList then creates a [Recipient](https://msdn.microsoft.com/en-us/library/bb624370\(v=office.15\)) object by using the [CreateRecipient(String)](https://msdn.microsoft.com/en-us/library/bb609962\(v=office.15\)) method from the [NameSpace](https://msdn.microsoft.com/en-us/library/bb645857\(v=office.15\)) object. CreateDistributionList finally displays the “Top Customers” distribution list to the user.

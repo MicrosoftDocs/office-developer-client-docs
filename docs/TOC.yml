@@ -1,6 +1,6 @@
 - name: Office client development
   href: office-client-development.md
-  items: 
+  items:
      - name: Integrate with Office
        href: integration/integrate-with-office.md
        items:
