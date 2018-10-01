@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Outlook 2013 Interop Assembly Class Library
 
-The interfaces and members of the Microsoft.Office.Interop.Outlook namespace provide support for interoperability between the COM object model of Outlook 2013 and managed applications that automate Outlook. For more information on the interoperability, see [Why Use the Outlook PIA](why-use-the-outlook-pia.md).
+The interfaces and members of the **Microsoft.Office.Interop.Outlook** namespace provide support for interoperability between the COM object model of Outlook 2013 and managed applications that automate Outlook. For more information on the interoperability, see [Why Use the Outlook PIA](why-use-the-outlook-pia.md).
 
 
 ## In this section

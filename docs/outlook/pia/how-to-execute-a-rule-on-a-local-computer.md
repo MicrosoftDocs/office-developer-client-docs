@@ -38,7 +38,7 @@ For rule actions that execute on the client by default (such as displaying a new
 
 In the following code example, DemoOnMachineOnly creates a rule and enables the [OnlyToMe](https://msdn.microsoft.com/en-us/library/bb609250\(v=office.15\)) condition and [Forward](https://msdn.microsoft.com/en-us/library/bb652908\(v=office.15\)) action by setting the Enabled properties to true. The OnLocalMachine condition is then enabled, forcing a server-side rule to execute locally, and the rules are saved. By default, a Forward action and OnlyToMe condition will operate on the server. Once the OnLocalMachine condition has been enabled, they will operate as a client-side rule.
 
-If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the Microsoft.Office.Interop.Outlook namespace. The using statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
+If you use Visual Studio to test this code example, you must first add a reference to the **Microsoft Outlook 15.0 Object Library** component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The using statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

@@ -19,7 +19,7 @@ This example creates an appointment item as a meeting request, specifies the tim
 
 In Outlook, a meeting request is an [AppointmentItem](https://msdn.microsoft.com/en-us/library/bb645611\(v=office.15\)). To set an appointment item as a meeting request, you must set the [MeetingStatus](https://msdn.microsoft.com/en-us/library/bb611417\(v=office.15\)) property to olMeeting. Use the [Type](https://msdn.microsoft.com/en-us/library/bb611841\(v=office.15\)) property of the [Recipient](https://msdn.microsoft.com/en-us/library/bb624370\(v=office.15\)) object to specify if the meeting attendee is optional, or if a recipient is actually a meeting resource instead of an attendee.
 
-If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the Microsoft.Office.Interop.Outlook namespace. The Imports or using statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following lines of code show how to do the import and assignment in Visual Basic and C\#.
+If you use Visual Studio to test this code example, you must first add a reference to the **Microsoft Outlook 15.0 Object Library** component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The Imports or using statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following lines of code show how to do the import and assignment in Visual Basic and C\#.
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook

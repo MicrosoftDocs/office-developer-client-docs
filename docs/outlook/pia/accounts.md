@@ -14,7 +14,7 @@ This section provides sample tasks that involve email accounts. Examples of emai
 
 |Topic|Description|
 |:----|:----------|
-|[Get account information](how-to-get-account-information.md) | Takes as an input argument a trusted Microsoft Outlook [Application](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.application?view=outlook-pia) object, and uses the Account object to display the details of each account that is available for the current Outlook profile.|
+|[Get account information](how-to-get-account-information.md) | Takes as an input argument a trusted Microsoft Outlook [Application](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.application?view=outlook-pia) object, and uses the **Account** object to display the details of each account that is available for the current Outlook profile.|
 |[Create a sendable item for a specific account based on the current folder](how-to-create-a-sendable-item-for-a-specific-account-based-on-the-current-folder.md) | Contains two code examples that show how to create a sendable email item and meeting request, and then send them by using a specific account that is based on the current folder.|
 |[Get the account for a folder](how-to-get-the-account-for-a-folder.md) | Gets the account that is associated with a folder in the current session.|
 |[Get information about multiple accounts](how-to-get-information-about-multiple-accounts.md) | Obtains and displays miscellaneous information about each account in the current profile.|

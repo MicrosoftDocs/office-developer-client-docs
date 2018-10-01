@@ -36,7 +36,7 @@ An Outlook[ContactItem](https://msdn.microsoft.com/en-us/library/bb644956\(v=off
 
 In the following code example, CreateContactExample creates a ContactItem and sets commonly used properties for that object. It then calls the [ShowCheckPhoneDialog(OlContactPhoneNumber)](https://msdn.microsoft.com/en-us/library/bb646168\(v=office.15\)) method on the ContactItem object. The ShowCheckPhoneDialog method allows the user to resolve a phone number based on local dialing conventions.
 
-If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the Microsoft.Office.Interop.Outlook namespace. The using statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
+If you use Visual Studio to test this code example, you must first add a reference to the **Microsoft Outlook 15.0 Object Library** component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The using statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 
 The Component Object Model (COM) and .NET development have vastly different type systems and mechanisms for object lifetime management, interface creation, and interface inheritance. 
 
-For example, a Variant type in COM is a System.Object data type in the .NET Framework. To create an object, a COM client calls [CoCreateInstance](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance), whereas a managed client can use keywords such as new or New that are built in to a managed programming language. 
+For example, a **Variant** type in COM is a **System.Object** data type in the .NET Framework. To create an object, a COM client calls [CoCreateInstance](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance), whereas a managed client can use keywords such as new or New that are built in to a managed programming language. 
 
 While COM does not support classical inheritance and a COM client manages an internal reference count provided by [IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) to free a coclass, a managed client relies on the common language runtime (CLR) garbage collector provided by the .NET Framework to free an object. 
 
@@ -33,7 +33,7 @@ Figure 1 illustrates a managed client that wants to use a COM type library that 
   
 In general, as long as you set a reference to a type library, Visual Studio generates a copy of an interop assembly for that type library. Any number of interop assemblies can exist to describe the same COM type. However, a type library can have only one Primary Interop Assembly (PIA), which is the interop assembly published by the type library. Unlike other interop assemblies, the PIA is not generated every time you add a reference in Visual Studio. Instead, you install the PIA to the global assembly cache (GAC) just once on a computer. When you add a reference to the type library, Visual Studio automatically loads the PIA.
 
-To program a managed solution for Outlook, you should use the Outlook PIA. To incorporate information from the Outlook PIA into a managed add-in, first you must install the Outlook PIA in the GAC. If you are using Visual Studio to create the managed project, after adding a reference to the Outlook type library, Visual Studio loads the PIA. In the object browser, under the namespace Microsoft.Office.Interop.Outlook, you can see managed interfaces that have names corresponding to objects in the Outlook object model. For example, the Account interface corresponds to the Account object in the Outlook object model. When you compile the managed project, this information is incorporated in your executable.
+To program a managed solution for Outlook, you should use the Outlook PIA. To incorporate information from the Outlook PIA into a managed add-in, first you must install the Outlook PIA in the GAC. If you are using Visual Studio to create the managed project, after adding a reference to the Outlook type library, Visual Studio loads the PIA. In the object browser, under the namespace Microsoft.Office.Interop.Outlook, you can see managed interfaces that have names corresponding to objects in the Outlook object model. For example, the Account interface corresponds to the **Account** object in the Outlook object model. When you compile the managed project, this information is incorporated in your executable.
 
 ### Run time
 

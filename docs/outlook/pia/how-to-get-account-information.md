@@ -9,7 +9,7 @@ mtps_version: v=office.15
 
 # Get account information
 
-This topic takes as an input argument a trusted Outlook [Application](https://msdn.microsoft.com/en-us/library/bb646615\(v=office.15\)) object, and uses the Account object to display the details of each account that is available for the current Outlook profile.
+This topic takes as an input argument a trusted Outlook [Application](https://msdn.microsoft.com/en-us/library/bb646615\(v=office.15\)) object, and uses the **Account** object to display the details of each account that is available for the current Outlook profile.
 
 ## Example
 
@@ -18,7 +18,7 @@ This topic takes as an input argument a trusted Outlook [Application](https://ms
 
 The following code examples contain the DisplayAccountInformation method of the Sample class, implemented as part of an Outlook add-in project. Each project adds a reference to the Outlook Primary Interop Assembly, which is based on the [Microsoft.Office.Interop.Outlook](https://msdn.microsoft.com/en-us/library/bb610835\(v=office.15\)) namespace.
 
-If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the Microsoft.Office.Interop.Outlook namespace. The Imports or using statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following lines of code show how to do the import and assignment in Visual Basic and C\#.
+If you use Visual Studio to test this code example, you must first add a reference to the **Microsoft Outlook 15.0 Object Library** component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The Imports or using statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following lines of code show how to do the import and assignment in Visual Basic and C\#.
 
 
 ```vb

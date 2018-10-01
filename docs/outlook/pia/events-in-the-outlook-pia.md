@@ -31,7 +31,7 @@ TLBIMP processes the imported interfaces and creates a number of interfaces, del
 
 Some objects that have existed for multiple versions of Outlook have different implementations of events over the versions, and have had additional events added as new versions are released. To support events that vary over multiple versions, Outlook distinguishes these event-related interfaces, delegates, and classes by adding a version number to their names. For example:
 
-  - The imported event interfaces of the Application object includes:
+  - The imported event interfaces of the **Application** object includes:
     
       - The earliest version for Outlook 98 and Outlook 2000: the [ApplicationEvents](https://msdn.microsoft.com/en-us/library/bb644093\(v=office.15\)) interface
     
@@ -39,7 +39,7 @@ Some objects that have existed for multiple versions of Outlook have different i
     
       - The version for Outlook 2003 and later releases: the [ApplicationEvents\_11](https://msdn.microsoft.com/en-us/library/bb609229\(v=office.15\)) interface
 
-  - The .NET event interfaces created by TLBIMP for the Application object includes:
+  - The .NET event interfaces created by TLBIMP for the **Application** object includes:
     
       - The earliest version for Outlook 98 and Outlook 2000: the [ApplicationEvents\_Event](https://msdn.microsoft.com/en-us/library/bb609380\(v=office.15\)) interface
     
@@ -47,7 +47,7 @@ Some objects that have existed for multiple versions of Outlook have different i
     
       - The version for Outlook 2003 and later releases: the [ApplicationEvents\_11\_Event](https://msdn.microsoft.com/en-us/library/bb622725\(v=office.15\)) interface
 
-  - The delegates that TLBIMP creates for each event in each version of the Application object, for example, a delegate for each version of the ItemSend event:
+  - The delegates that TLBIMP creates for each event in each version of the **Application** object, for example, a delegate for each version of the ItemSend event:
     
       - The earliest version for Outlook 98 and Outlook 2000: the [ApplicationEvents\_ItemSendEventHandler](https://msdn.microsoft.com/en-us/library/bb622515\(v=office.15\)) delegate
     
@@ -65,7 +65,7 @@ On the other hand, you can find the event in the most recent .NET event interfac
 
 ## What the event interfaces, delegates, and Sink Helper classes are for
 
-Using the Application object as an example, this section describes what each interface and class listed above contains:
+Using the **Application** object as an example, this section describes what each interface and class listed above contains:
 
   - The primary interface, \_Application, defines all the methods and properties of Application. Except for a condition discussed below, typically you do not use this interface in code.
 
@@ -73,11 +73,11 @@ Using the Application object as an example, this section describes what each int
 
   - The events interfaces created by TLBIMP, such as ApplicationEvents\_11\_Event and ApplicationEvents\_10\_Event, define all the events of Application in the corresponding version of Outlook. When designing an event handler for an event in a specific version, you implement the event handler as a method and connect the method to the event defined in the corresponding version of the .NET events interface. Except for a condition discussed below, typically you do not reference the events interface in code.
 
-  - The .NET interface, Application, inherits the \_Application interface and the ApplicationEvents\_11\_Event interface. Typically, this is the one interface you use in managed code to access the object, method, property, and the latest event members of the Application object. There are however two exceptions where you would not use the .NET interface but a different interface to connect to an event:
+  - The .NET interface, Application, inherits the \_Application interface and the ApplicationEvents\_11\_Event interface. Typically, this is the one interface you use in managed code to access the object, method, property, and the latest event members of the **Application** object. There are however two exceptions where you would not use the .NET interface but a different interface to connect to an event:
     
       - When you access an event that shares the same name as a method of that object, cast to the appropriate event interface to connect to the event. For example, to connect to the [Quit](https://msdn.microsoft.com/en-us/library/bb622595\(v=office.15\)) event, you cast to the ApplicationEvents\_11\_Event interface.
     
-      - When you connect to an earlier version of an event that has been subsequently extended in a later version of Outlook, connect to the version of the event in the earlier interface. For example, if you want to connect to the version of the Quit event of the Application object implemented for Outlook 2002 instead of the latest version, connect to the [Quit](https://msdn.microsoft.com/en-us/library/bb609660\(v=office.15\)) event defined in the ApplicationEvents\_10\_Event interface, instead of the Quit event defined in the ApplicationEvents\_11\_Event interface.
+      - When you connect to an earlier version of an event that has been subsequently extended in a later version of Outlook, connect to the version of the event in the earlier interface. For example, if you want to connect to the version of the Quit event of the **Application** object implemented for Outlook 2002 instead of the latest version, connect to the [Quit](https://msdn.microsoft.com/en-us/library/bb609660\(v=office.15\)) event defined in the ApplicationEvents\_10\_Event interface, instead of the Quit event defined in the ApplicationEvents\_11\_Event interface.
 
   - Delegates provide a framework for you to create custom event handlers for specific events in a specific version of Outlook. For example, if you want to add a check for the existence of a subject line in an Outlook item just before you send it, you implement the check in a callback method that has the same signature as the delegate, ApplicationEvents\_11\_ItemSendEventHandler. Then you hook up the callback method as an event handler for the ItemSend event that is defined in the ApplicationEvents\_11\_Event interface. For more information about connecting the callback method as an event handler for an object, see [Connecting to custom event handlers](connecting-to-custom-event-handlers.md).
 

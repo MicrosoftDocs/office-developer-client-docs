@@ -36,7 +36,7 @@ A [ContactItem](https://msdn.microsoft.com/en-us/library/bb644956\(v=office.15\)
 
 In the following code example, CreateCustomItem creates a custom ContactItem object, names it "Shoe Store", and calls the [Add(String, Object)](https://msdn.microsoft.com/en-us/library/bb645065\(v=office.15\)) method to add it to a folder named "Shoe Store". CreateCustomItem first gets the "Shoe Store" folder by using the [GetDefaultFolder(OlDefaultFolders)](https://msdn.microsoft.com/en-us/library/bb646473\(v=office.15\)) method. The "Shoe Store" folder is a subfolder of the default Contacts folder. CreateCustomItem then sets the FirstName and LastName properties, and creates a user-defined property ("Shoe Size") by using the UserProperties collection.
 
-If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the Microsoft.Office.Interop.Outlook namespace. The using statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
+If you use Visual Studio to test this code example, you must first add a reference to the **Microsoft Outlook 15.0 Object Library** component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The using statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

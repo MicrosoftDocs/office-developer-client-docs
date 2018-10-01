@@ -26,7 +26,7 @@ Public Delegate Sub ApplicationEvents_11_ItemSendEventHandler(_
     ByVal Item As Object, ByRef Cancel As Boolean)
 ```
 
-When defining the callback method, ignore the Delegate keyword which otherwise would define another delegate. A sample callback method, MyItemSendEventHandler, is shown below:
+When defining the callback method, ignore the **Delegate** keyword which otherwise would define another delegate. A sample callback method, **MyItemSendEventHandler**, is shown below:
 
 ```csharp
 public void MyItemSendEventHandler(object Item, ref bool Cancel)
@@ -44,13 +44,13 @@ End Sub
 
 After implementing a callback method for an event, you can connect it to the Outlook object so that Outlook knows to call the method as an event handler of that event. Note that an event can be handled by more than one event handler, and this is where delegates that assign event handling to event handlers come into play.
 
-Continuing with the last example of specifying a event handler for the ItemSend event of the Application object, to connect MyItemSendEventHandler to the Application object in C\#, create an instance of the delegate object, pass MyItemSendEventHandler to the constructor of the delegate object, and then add this delegate object to the ItemSend event using the += operator:
+Continuing with the last example of specifying a event handler for the **ItemSend** event of the **Application** object, to connect **MyItemSendEventHandler** to the **Application** object in C\#, create an instance of the delegate object, pass **MyItemSendEventHandler** to the constructor of the delegate object, and then add this delegate object to the **ItemSend** event using the += operator:
 
 ```csharp
 app.ItemSend += new ApplicationEvents_11_ItemSendEventHandler(MyItemSendEventHandler)
 ```
 
-In Visual Basic, you use the AddHandler statement to associate the ItemSend event with the MyItemSendEventHandler event handler:
+In Visual Basic, you use the **AddHandler** statement to associate the **ItemSend** event with the **MyItemSendEventHandler** event handler:
 
 ```vb
 AddHandler app.ItemSend, AddressOf MyItemSendEventHandler

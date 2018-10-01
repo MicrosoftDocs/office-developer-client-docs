@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Folders
 
-This section provides sample tasks that involve folders. [Folder](https://msdn.microsoft.com/en-us/library/bb645774\(v=office.15\)) objects represent the folder hierarchy where Microsoft Outlook items are stored. Examples of folders include the Calendar, Mail, and Deleted Items folders. In the Outlook Primary Interop Assembly (PIA), members of the Folder object are exposed as members of the [MAPIFolder](https://msdn.microsoft.com/en-us/library/bb624369\(v=office.15\)) object.
+This section provides sample tasks that involve folders. [Folder](https://msdn.microsoft.com/en-us/library/bb645774\(v=office.15\)) objects represent the folder hierarchy where Microsoft Outlook items are stored. Examples of folders include the Calendar, Mail, and Deleted Items folders. In the Outlook Primary Interop Assembly (PIA), members of the **Folder** object are exposed as members of the [MAPIFolder](https://msdn.microsoft.com/en-us/library/bb624369\(v=office.15\)) object.
 
 ## In this section
 

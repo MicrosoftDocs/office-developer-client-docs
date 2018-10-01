@@ -34,7 +34,7 @@ Voting options on messages are used to give message recipients a list of choices
 
 In the following example, OrderPizza creates voting options in a new mail message. OrderPizza first creates a MailItem, and then sets the VotingOptions property to “Cheese; Mushroom; Sausage; Combo; Veg Combo”, and the [Subject](https://msdn.microsoft.com/en-us/library/bb611353\(v=office.15\)) property to “Pizza Order”. When the “Pizza Order” message is sent, the voting options appear to recipients. For each response received, the recipient’s choice will be tallied on the **Tracking** page of the message in the sender’s Sent Items folder.
 
-If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the Microsoft.Office.Interop.Outlook namespace. The using statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
+If you use Visual Studio to test this code example, you must first add a reference to the **Microsoft Outlook 15.0 Object Library** component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The using statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
