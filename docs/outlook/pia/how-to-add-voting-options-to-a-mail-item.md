@@ -18,7 +18,7 @@ This example shows how to use the [VotingOptions](https://msdn.microsoft.com/en-
 > The following code example is an excerpt from [Programming Applications for Microsoft Office Outlook 2007](https://www.amazon.com/gp/product/0735622493?ie=UTF8&tag=msmsdn-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0735622493).
 
 
-Voting options on messages are used to give message recipients a list of choices and to track their responses. To create voting options programmatically, set a string that is a semicolon-delimited list of values for the VotingOptions property of a MailItem object. The values for the VotingOptions property will appear under the **Vote** command in the **Respond** group in the ribbon of the received message.
+Voting options on messages are used to give message recipients a list of choices and to track their responses. To create voting options programmatically, set a string that is a semicolon-delimited list of values for the VotingOptions property of a **MailItem** object. The values for the VotingOptions property will appear under the **Vote** command in the **Respond** group in the ribbon of the received message.
 
 In the following example, OrderPizza creates voting options in a new mail message. OrderPizza first creates a MailItem, and then sets the VotingOptions property to “Cheese; Mushroom; Sausage; Combo; Veg Combo”, and the [Subject](https://msdn.microsoft.com/en-us/library/bb611353\(v=office.15\)) property to “Pizza Order”. When the “Pizza Order” message is sent, the voting options appear to recipients. For each response received, the recipient’s choice will be tallied on the **Tracking** page of the message in the sender’s Sent Items folder.
 

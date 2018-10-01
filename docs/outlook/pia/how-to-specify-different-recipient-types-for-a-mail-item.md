@@ -19,7 +19,7 @@ This example shows how to programmatically set different recipient types (To, Cc
 > [!NOTE] 
 > The following code example is an excerpt from [Programming Applications for Microsoft Office Outlook 2007](https://www.amazon.com/gp/product/0735622493?ie=UTF8&tag=msmsdn-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0735622493).
 
-The following code example illustrates how to specify whether a recipient of a [MailItem](https://msdn.microsoft.com/en-us/library/bb643865\(v=office.15\)) object is a To, Cc, or Bcc recipient. SetRecipientTypeForMail creates a MailItem object, adds three [Recipient](https://msdn.microsoft.com/en-us/library/bb624370\(v=office.15\)) objects to the [Recipients](https://msdn.microsoft.com/en-us/library/bb646361\(v=office.15\)) collection of the MailItem, and then sets the [Type](https://msdn.microsoft.com/en-us/library/bb611841\(v=office.15\)) property of each Recipient object to a value from the [OlMailRecipientType](https://msdn.microsoft.com/en-us/library/bb647641\(v=office.15\)) enumeration.
+The following code example illustrates how to specify whether a recipient of a [MailItem](https://msdn.microsoft.com/en-us/library/bb643865\(v=office.15\)) object is a To, Cc, or Bcc recipient. SetRecipientTypeForMail creates a **MailItem** object, adds three [Recipient](https://msdn.microsoft.com/en-us/library/bb624370\(v=office.15\)) objects to the [Recipients](https://msdn.microsoft.com/en-us/library/bb646361\(v=office.15\)) collection of the MailItem, and then sets the [Type](https://msdn.microsoft.com/en-us/library/bb611841\(v=office.15\)) property of each Recipient object to a value from the [OlMailRecipientType](https://msdn.microsoft.com/en-us/library/bb647641\(v=office.15\)) enumeration.
 
 
 > [!NOTE]

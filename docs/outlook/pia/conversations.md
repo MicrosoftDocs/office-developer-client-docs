@@ -14,21 +14,14 @@ This section provides sample tasks that involve conversations. Conversations in 
 
 ## In this section
 
-  - [Get and Display Items in a Conversation](how-to-get-and-display-items-in-a-conversation.md)  
-    Gets and displays mail items in a conversation.
-
-  - [Get and Enumerate Selected Conversations](how-to-get-and-enumerate-selected-conversations.md)  
-    Obtains and enumerates selected conversations by using the [GetSelection(OlSelectionContents)](https://msdn.microsoft.com/en-us/library/ff185002\(v=office.15\)) method.
-
-## See also
-
-[Folders](folders.md)
-
-[Mail](mail.md)
+|Topic|Description|
+|:----|:----------|
+|[Get and display items in a conversation](how-to-get-and-display-items-in-a-conversation.md)  |Gets and displays mail items in a conversation.|
+|[Get and enumerate selected conversations](how-to-get-and-enumerate-selected-conversations.md)  |Obtains and enumerates selected conversations by using the [GetSelection(OlSelectionContents)](https://msdn.microsoft.com/en-us/library/ff185002\(v=office.15\)) method.|
 
 ## See also
 
-
-
-[How do I... (Outlook 2013 PIA reference)](how-do-i-outlook-2013-pia-reference.md)
+- [Folders](folders.md)
+- [Mail](mail.md)
+- [How do I... (Outlook 2013 PIA reference)](how-do-i-outlook-2013-pia-reference.md)
 

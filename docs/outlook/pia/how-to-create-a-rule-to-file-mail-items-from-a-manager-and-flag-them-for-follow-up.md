@@ -44,7 +44,7 @@ To create rules through the Outlook object model, follow these steps:
 
 4.  Set the [Enabled](https://msdn.microsoft.com/en-us/library/bb609147\(v=office.15\)) property to true for any given rule action, condition, or exception to be operational. Some actions or conditions, such as the [Folder](https://msdn.microsoft.com/en-us/library/bb646755\(v=office.15\)) property, require that you set additional properties on the action or condition to save the Rule object without an error.
 
-5.  Finally, call the [Save(Object)](https://msdn.microsoft.com/en-us/library/bb610738\(v=office.15\)) method on the Rules collection to save the created or modified rules. Enclose the Save method in a try…catch block to handle exceptions.
+5.  Finally, call the [Save(Object)](https://msdn.microsoft.com/en-us/library/bb610738\(v=office.15\)) method on the Rules collection to save the created or modified rules. Enclose the **Save** method in a try…catch block to handle exceptions.
 
 In the following code example, CreateManagerRule implements the steps previously described. CreateManagerRule first verifies whether the [CurrentUser](https://msdn.microsoft.com/en-us/library/bb622574\(v=office.15\)) property represents an [ExchangeUser](https://msdn.microsoft.com/en-us/library/bb609574\(v=office.15\)) object, indicating that the current user is an Exchange user. If the current user is an Exchange user, CreateManagerRule gets the current user’s manager by calling the [GetExchangeUserManager()](https://msdn.microsoft.com/en-us/library/bb646656\(v=office.15\)) method on the ExchangeUser object of the CurrentUser property of the **NameSpace** object. A receive rule is then created to move received messages to a subfolder of the Inbox for the following conditions:
 

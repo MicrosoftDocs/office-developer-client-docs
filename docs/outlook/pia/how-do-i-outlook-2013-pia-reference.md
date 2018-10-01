@@ -70,26 +70,26 @@ The Office Developer Documentation team welcomes your task ideas and code sample
 - [Save a calendar to disk](how-to-save-a-calendar-to-disk.md)
 - [Open and display the contents of an iCalendar file](how-to-open-and-display-the-contents-of-an-icalendar-file.md)
 
-[Color Categories](color-categories.md)
+[Color categories](color-categories.md)
 
-- [Enumerate and Add Categories](how-to-enumerate-and-add-categories.md)
-- [Assign Categories to an Item](how-to-assign-categories-to-an-item.md)
+- [Enumerate and add categories](how-to-enumerate-and-add-categories.md)
+- [Assign categories to an item](how-to-assign-categories-to-an-item.md)
 
 [Contacts](contacts.md)
 
-- [Create a Contact Item](how-to-create-a-contact-item.md)
-- [Create a Custom Contact Item](how-to-create-a-custom-contact-item.md)
-- [Create a Contact Item from a vCard file and Save the Item in a Folder](how-to-create-a-contact-item-from-a-vcard-file-and-save-the-item-in-a-folder.md)
+- [Create a Contact item](how-to-create-a-contact-item.md)
+- [Create a custom Contact item](how-to-create-a-custom-contact-item.md)
+- [Create a Contact item from a vCard file and save the item in a folder](how-to-create-a-contact-item-from-a-vcard-file-and-save-the-item-in-a-folder.md)
 
 [Conversations](conversations.md)
 
-- [Get and Display Items in a Conversation](how-to-get-and-display-items-in-a-conversation.md)
-- [Get and Enumerate Selected Conversations](how-to-get-and-enumerate-selected-conversations.md)
+- [Get and display items in a conversation](how-to-get-and-display-items-in-a-conversation.md)
+- [Get and enumerate selected conversations](how-to-get-and-enumerate-selected-conversations.md)
 
-[Electronic Business Cards](electronic-business-cards.md)
+[Electronic business cards](electronic-business-cards.md)
 
-- [Modify the Layout of an Electronic Business Card](how-to-modify-the-layout-of-an-electronic-business-card.md)
-- [Send a Mail Item with an Electronic Business Card](how-to-send-a-mail-item-with-an-electronic-business-card.md)
+- [Modify the layout of an electronic business card](how-to-modify-the-layout-of-an-electronic-business-card.md)
+- [Send a mail item with an electronic business card](how-to-send-a-mail-item-with-an-electronic-business-card.md)
 
 [Exchange Users](exchange-users.md)
 
