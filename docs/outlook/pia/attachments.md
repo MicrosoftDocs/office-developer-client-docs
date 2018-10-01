@@ -14,9 +14,9 @@ This section provides a sample task that involves email attachments.
 
 ## In this section
 
-- [Programmatically remove security level 2 attachments from messages and save them to disk](how-to-programmatically-remove-security-level-2-attachments-from-messages-and-save-them-to-disk.md)  
-  
-  Removes security Level 2 attachments from email messages and saves them to a disk, from where they can be opened.
+|Topic|Description|
+|:----|:----------|
+|[Programmatically remove security level 2 attachments from messages and save them to disk](how-to-programmatically-remove-security-level-2-attachments-from-messages-and-save-them-to-disk.md)  |Removes security Level 2 attachments from email messages and saves them to a disk, from where they can be opened.|
 
 ## See also
 
