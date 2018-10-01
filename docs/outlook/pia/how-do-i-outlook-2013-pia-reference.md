@@ -126,13 +126,13 @@ The Office Developer Documentation team welcomes your task ideas and code sample
 
 [Mail](mail.md)
 
-- [Create a Mail Item by Using a Message Template](how-to-create-a-mail-item-by-using-a-message-template.md)
-- [Create a Mail Item, Attach a Report, and Send the Mail Item to the User's Manager](how-to-create-a-mail-item-attach-a-report-and-send-the-mail-item-to-the-user-s-manager.md)
-- [Send an E-Mail Given the SMTP Address of an Account](how-to-send-an-e-mail-given-the-smtp-address-of-an-account.md)
-- [Add Voting Options to a Mail Item](how-to-add-voting-options-to-a-mail-item.md)
-- [Add a Custom Action as a Response to a Mail Item](how-to-add-a-custom-action-as-a-response-to-a-mail-item.md)
-- [Get the SMTP Address of the Sender of a Mail Item](how-to-get-the-smtp-address-of-the-sender-of-a-mail-item.md)
-- [Specify Different Recipient Types for a Mail Item](how-to-specify-different-recipient-types-for-a-mail-item.md)
+- [Create a mail item by using a message template](how-to-create-a-mail-item-by-using-a-message-template.md)
+- [Create a mail item, attach a report, and send the mail item to the user's manager](how-to-create-a-mail-item-attach-a-report-and-send-the-mail-item-to-the-user-s-manager.md)
+- [Send an email given the SMTP address of an account](how-to-send-an-e-mail-given-the-smtp-address-of-an-account.md)
+- [Add voting options to a mail item](how-to-add-voting-options-to-a-mail-item.md)
+- [Add a custom action as a response to a mail item](how-to-add-a-custom-action-as-a-response-to-a-mail-item.md)
+- [Get the SMTP address of the sender of a mail item](how-to-get-the-smtp-address-of-the-sender-of-a-mail-item.md)
+- [Specify different recipient types for a mail item](how-to-specify-different-recipient-types-for-a-mail-item.md)
 
 [Meeting Requests](meeting-requests.md)
 

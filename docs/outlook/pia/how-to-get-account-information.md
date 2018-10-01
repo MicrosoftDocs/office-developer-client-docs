@@ -14,7 +14,7 @@ This topic takes as an input argument a trusted Outlook [Application](https://ms
 ## Example
 
 > [!NOTE] 
-> Helmut Obertanner provided the following code examples. Helmut's expertise is in Office Developer Tools for Visual Studio and Outlook. Helmut maintains a professional site at [X4Uelectronix](http://www.outlooksharp.de/).
+> Helmut Obertanner provided the following code examples. Helmut's expertise is in Office Developer Tools for Visual Studio and Outlook. 
 
 The following code examples contain the DisplayAccountInformation method of the Sample class, implemented as part of an Outlook add-in project. Each project adds a reference to the Outlook Primary Interop Assembly, which is based on the [Microsoft.Office.Interop.Outlook](https://msdn.microsoft.com/en-us/library/bb610835\(v=office.15\)) namespace.
 

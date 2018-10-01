@@ -1,17 +1,14 @@
 ﻿---
-title: 'Create a Mail Item by Using a Message Template'
-TOCTitle: 'Create a Mail Item by Using a Message Template'
+title: Create a mail item by using a message template
+TOCTitle: Create a mail item by using a message template
 ms:assetid: 7d1ffc3b-d1a7-46d1-adb9-ac41e67f626a
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb623026(v=office.15)
 ms:contentKeyID: 55119862
 ms.date: 07/24/2014
 mtps_version: v=office.15
-
-
-
 ---
 
-# Create a Mail Item by Using a Message Template
+# Create a mail item by using a message template
 
 This example creates a mail item by using the [CreateItemFromTemplate](https://msdn.microsoft.com/en-us/library/bb611329\(v=office.15\)) method.
 
@@ -19,7 +16,7 @@ This example creates a mail item by using the [CreateItemFromTemplate](https://m
 
 This code sample opens the Ivy.oft template file, assigns a subject, and then saves the message to the Drafts folder.
 
-The CreateItemFromTemplate method is useful if you have an Outlook form template file (.oft) stored on disk that you want to use as a message template. The template file can contain preformatted text, stationery, or images that you want to include in the message. However, if the template file contains code behind the form, the form code will not run.
+The **CreateItemFromTemplate** method is useful if you have an Outlook form template file (.oft) stored on disk that you want to use as a message template. The template file can contain preformatted text, stationery, or images that you want to include in the message. However, if the template file contains code behind the form, the form code will not run.
 
 If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The **Imports** or **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following lines of code show how to do the import and assignment in Visual Basic and C\#.
 
@@ -27,9 +24,11 @@ If you use Visual Studio to test this code example, you must first add a referen
 Imports Outlook = Microsoft.Office.Interop.Outlook
 ```
 
+
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
 ```
+
 
 ```vb
 Private Sub CreateItemFromTemplate()
@@ -43,6 +42,7 @@ Private Sub CreateItemFromTemplate()
     mail.Save()
 End Sub
 ```
+
 
 ```csharp
 private void CreateItemFromTemplate()
@@ -60,7 +60,5 @@ private void CreateItemFromTemplate()
 
 ## See also
 
-
-
-[Mail](mail.md)
+- [Mail](mail.md)
 

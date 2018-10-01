@@ -1,6 +1,6 @@
 ﻿---
-title: "Create a Mail Item, Attach a Report, and Send the Mail Item to the User's Manager"
-TOCTitle: "Create a Mail Item, Attach a Report, and Send the Mail Item to the User's Manager"
+title: Create a mail item, attach a report, and send the mail item to the user's manager
+TOCTitle: Create a mail item, attach a report, and send the mail item to the user's manager
 ms:assetid: 15c26c3b-5e86-4e28-92c5-7389572521da
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb644320(v=office.15)
 ms:contentKeyID: 55119866
@@ -8,7 +8,7 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 ---
 
-# Create a Mail Item, Attach a Report, and Send the Mail Item to the User's Manager
+# Create a mail item, attach a report, and send the mail item to the user's manager
 
 This example creates a mail item that has an attachment, and then sends the mail item to the user's manager.
 
@@ -22,9 +22,11 @@ If you use Visual Studio to test this code example, you must first add a referen
 Imports Outlook = Microsoft.Office.Interop.Outlook
 ```
 
+
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
 ```
+
 
 ```vb
 Private Sub SendSalesReport()
@@ -45,6 +47,7 @@ Private Sub SendSalesReport()
     End If
 End Sub
 ```
+
 
 ```csharp
 private void SendSalesReport()
@@ -71,7 +74,5 @@ private void SendSalesReport()
 
 ## See also
 
-
-
-[Mail](mail.md)
+- [Mail](mail.md)
 

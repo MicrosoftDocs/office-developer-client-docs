@@ -17,18 +17,8 @@ This topic shows how to obtain an [Application](https://msdn.microsoft.com/en-us
 
 ## Example
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p></p></td>
-<td><p>Helmut Obertanner provided the following code examples. Helmut's expertise is in Office Developer Tools for Visual Studio and Outlook. Helmut maintains a professional site at <a href="http://www.outlooksharp.de/">X4Uelectronix</a>.</p></td>
-</tr>
-</tbody>
-</table>
+> [!NOTE] 
+> Helmut Obertanner provided the following code examples. Helmut's expertise is in Office Developer Tools for Visual Studio and Outlook. 
 
 
 The following code examples contain the GetApplicationObject method of the Sample class, implemented as part of an Outlook add-in project. Each project adds a reference to the Outlook Primary Interop Assembly, which is based on the [Microsoft.Office.Interop.Outlook](https://msdn.microsoft.com/en-us/library/bb610835\(v=office.15\)) namespace.

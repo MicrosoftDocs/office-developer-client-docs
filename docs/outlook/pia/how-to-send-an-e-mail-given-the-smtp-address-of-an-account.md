@@ -1,37 +1,24 @@
 ﻿---
-title: 'Send an E-Mail Given the SMTP Address of an Account'
-TOCTitle: 'Send an E-Mail Given the SMTP Address of an Account'
+title: Send an email given the SMTP address of an account
+TOCTitle: Send an email given the SMTP address of an account
 ms:assetid: 4ff4aaac-54ba-45c7-8b2e-aeba35af1e56
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff462095(v=office.15)
 ms:contentKeyID: 55119865
 ms.date: 07/24/2014
 mtps_version: v=office.15
-
-
-
 ---
 
-# Send an E-Mail Given the SMTP Address of an Account
+# Send an email given the SMTP address of an account
 
 This topic shows how to create an email and send it from a Microsoft Outlook account, given the Simple Mail Transfer Protocol (SMTP) address of that account.
 
 ## Example
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p></p></td>
-<td><p>Helmut Obertanner provided the following code examples. Helmut's expertise is in Office Developer Tools for Visual Studio and Outlook. Helmut maintains a professional site at <a href="http://www.outlooksharp.de/">X4Uelectronix</a>.</p></td>
-</tr>
-</tbody>
-</table>
+> [!NOTE] 
+> Helmut Obertanner provided the following code examples. Helmut's expertise is in Office Developer Tools for Visual Studio and Outlook. 
 
 
-The following code examples contain the SendEmailFromAccount and GetAccountForEmailAddress methods of the Sample class, implemented as part of an Outlook add-in project. Each project adds a reference to the Outlook Primary Interop Assembly, which is based on the [Microsoft.Office.Interop.Outlook](https://msdn.microsoft.com/en-us/library/bb610835\(v=office.15\)) namespace. The SendEmailFromAccount method accepts as input arguments a trusted [Application](https://msdn.microsoft.com/en-us/library/bb646615\(v=office.15\)) object, and strings that represent the subject, body, a semicolon-delimited list of recipients, and the SMTP address of an email account. SendEmailFromAccount creates a [MailItem](https://msdn.microsoft.com/en-us/library/bb643865\(v=office.15\)) object and initializes the [To](https://msdn.microsoft.com/en-us/library/bb624372\(v=office.15\)), [Subject](https://msdn.microsoft.com/en-us/library/bb611353\(v=office.15\)), and [Body](https://msdn.microsoft.com/en-us/library/bb646600\(v=office.15\)) properties with the given arguments. To find the [Account](https://msdn.microsoft.com/en-us/library/bb645103\(v=office.15\)) object from which to send the email, SendEmailFromAccount calls the GetAccountForEmailAddress method, which matches the given SMTP address with the [SmtpAddress](https://msdn.microsoft.com/en-us/library/bb623516\(v=office.15\)) property of each account for the current profile. The matching **Account** object is returned to SendEmailFromAccount, which then initializes the [SendUsingAccount](https://msdn.microsoft.com/en-us/library/bb623679\(v=office.15\)) property of the MailItem with this **Account** object, and sends the MailItem.
+The following code examples contain the SendEmailFromAccount and GetAccountForEmailAddress methods of the Sample class, implemented as part of an Outlook add-in project. Each project adds a reference to the Outlook Primary Interop Assembly, which is based on the [Microsoft.Office.Interop.Outlook](https://msdn.microsoft.com/en-us/library/bb610835\(v=office.15\)) namespace. The SendEmailFromAccount method accepts as input arguments a trusted [Application](https://msdn.microsoft.com/en-us/library/bb646615\(v=office.15\)) object, and strings that represent the subject, body, a semicolon-delimited list of recipients, and the SMTP address of an email account. SendEmailFromAccount creates a [MailItem](https://msdn.microsoft.com/en-us/library/bb643865\(v=office.15\)) object and initializes the [To](https://msdn.microsoft.com/en-us/library/bb624372\(v=office.15\)), [Subject](https://msdn.microsoft.com/en-us/library/bb611353\(v=office.15\)), and [Body](https://msdn.microsoft.com/en-us/library/bb646600\(v=office.15\)) properties with the given arguments. To find the [Account](https://msdn.microsoft.com/en-us/library/bb645103\(v=office.15\)) object from which to send the email, SendEmailFromAccount calls the GetAccountForEmailAddress method, which matches the given SMTP address with the [SmtpAddress](https://msdn.microsoft.com/en-us/library/bb623516\(v=office.15\)) property of each account for the current profile. The matching **Account** object is returned to SendEmailFromAccount, which then initializes the [SendUsingAccount](https://msdn.microsoft.com/en-us/library/bb623679\(v=office.15\)) property of the **MailItem** with this **Account** object, and sends the **MailItem**.
 
 The following is the Visual Basic code example, followed by the C\# code example.
 
@@ -41,9 +28,11 @@ If you use Visual Studio to test this code example, you must first add a referen
 Imports Outlook = Microsoft.Office.Interop.Outlook
 ```
 
+
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
 ```
+
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook
@@ -84,6 +73,7 @@ Namespace OutlookAddIn2
     End Class
 End Namespace
 ```
+
 
 ```csharp
 using System;
@@ -133,7 +123,5 @@ namespace OutlookAddIn1
 
 ## See also
 
-
-
-[Mail](mail.md)
+- [Mail](mail.md)
 
