@@ -20,7 +20,7 @@ This example shows how to use the [Add(String, Object)](https://msdn.microsoft.c
 
 In the following code example, AddMyNewFolder calls the Add method of the [Folders](https://msdn.microsoft.com/en-us/library/bb612071\(v=office.15\)) collection to add a [Folder](https://msdn.microsoft.com/en-us/library/bb645774\(v=office.15\)) object that represents a folder called “My New Folder” to the **Inbox** in the Outlook folder list. “My New Folder” is then displayed.
 
-If you use Visual Studio to test this code example, you must first add a reference to the **Microsoft Outlook 15.0 Object Library** component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The using statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
+If you use Visual Studio to test this code example, you must first add a reference to the **Microsoft Outlook 15.0 Object Library** component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

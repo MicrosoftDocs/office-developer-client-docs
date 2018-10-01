@@ -21,7 +21,7 @@ If there are multiple accounts in the current profile and you create a sendable 
 
 This topic shows how to programmatically create a sendable item and send it by using a specific sending account. The topic has two code examples that show how to create a [MailItem](https://msdn.microsoft.com/en-us/library/bb643865\(v=office.15\)) and an [AppointmentItem](https://msdn.microsoft.com/en-us/library/bb645611\(v=office.15\)) for a specific account that is determined by the current folder in the active explorer.
 
-If you use Visual Studio to test this code example, you must first add a reference to the **Microsoft Outlook 15.0 Object Library** component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The using statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
+If you use Visual Studio to test this code example, you must first add a reference to the **Microsoft Outlook 15.0 Object Library** component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

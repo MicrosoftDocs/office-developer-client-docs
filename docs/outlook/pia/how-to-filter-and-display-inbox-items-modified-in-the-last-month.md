@@ -106,7 +106,7 @@ The following table lists the DateTime macros you can use to return filtered str
 
 In the following example, DemoDASLDateMacro creates a DASL query that uses the lastmonthDateTime macro to filter for items in the user’s Inbox that were modified in the last month. It then creates a Table object with that filter, and enumerates and displays the rows in the restricted Table object.
 
-If you use Visual Studio to test this code example, you must first add a reference to the **Microsoft Outlook 15.0 Object Library** component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The using statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
+If you use Visual Studio to test this code example, you must first add a reference to the **Microsoft Outlook 15.0 Object Library** component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

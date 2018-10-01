@@ -51,7 +51,7 @@ Instant Search is a feature of Microsoft Outlook that enables you to search by i
 
 In the following code example, DemoInstantSearch gets all mail folders in all stores where indexing is enabled by using the [IsInstantSearchEnabled](https://msdn.microsoft.com/en-us/library/bb609793\(v=office.15\)) property of the [Store](https://msdn.microsoft.com/en-us/library/bb609139\(v=office.15\)) object. It then uses the Search method of the Explorer object to filter for all items that contain the exact phrase “Office 2007” in the subject and that have been received in the last month. The results of the search are finally displayed in a separate explorer window.
 
-If you use Visual Studio to test this code example, you must first add a reference to the **Microsoft Outlook 15.0 Object Library** component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The using statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
+If you use Visual Studio to test this code example, you must first add a reference to the **Microsoft Outlook 15.0 Object Library** component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

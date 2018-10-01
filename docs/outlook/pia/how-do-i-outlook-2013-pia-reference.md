@@ -64,11 +64,11 @@ The Office Developer Documentation team welcomes your task ideas and code sample
 
 [Calendar](calendar.md)
 
-- [Share Free/Busy Schedule Within a Specified Period in a Calendar](how-to-share-free-busy-schedule-within-a-specified-period-in-a-calendar.md)
-- [Share Calendar Information Through E-Mail](how-to-share-calendar-information-through-e-mail.md)
-- [Display a Shared Calendar of a Recipient](how-to-display-a-shared-calendar-of-a-recipient.md)
-- [Save a Calendar to Disk](how-to-save-a-calendar-to-disk.md)
-- [Open and Display the Contents of an iCalendar File](how-to-open-and-display-the-contents-of-an-icalendar-file.md)
+- [Share Free/Busy schedule within a specified period in a calendar](how-to-share-free-busy-schedule-within-a-specified-period-in-a-calendar.md)
+- [Share calendar information through email](how-to-share-calendar-information-through-e-mail.md)
+- [Display a shared calendar of a recipient](how-to-display-a-shared-calendar-of-a-recipient.md)
+- [Save a calendar to disk](how-to-save-a-calendar-to-disk.md)
+- [Open and display the contents of an iCalendar file](how-to-open-and-display-the-contents-of-an-icalendar-file.md)
 
 [Color Categories](color-categories.md)
 

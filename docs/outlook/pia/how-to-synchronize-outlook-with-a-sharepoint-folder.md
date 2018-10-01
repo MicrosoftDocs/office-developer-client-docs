@@ -25,7 +25,7 @@ When connecting to a SharePoint folder programmatically, you must determine the 
 
 Now you have the proper URL to create the sharing relationship. To synchronize the new SharePoint folder in Outlook, copy and paste the URL to the assignment of the string variable calendarUrl in the second procedure, AddSpsFolder. AddSpsFolder automates the synchronization of the new SharePoint folder in Outlook by using the NameSpace.OpenSharedFolder method with a stssync:// URL (in this case, the URL produced by the DisplaySharePointUrl procedure). AddSpsFolderalso provides a custom folder name, “Example SPS Calendar”, and specifies Outlook to use the default Time to Live (TTL) for the folder. SharePoint folders always download item attachments, so you do not have to specify that here.
 
-If you use Visual Studio to test this code example, you must first add a reference to the **Microsoft Outlook 15.0 Object Library** component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The using statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
+If you use Visual Studio to test this code example, you must first add a reference to the **Microsoft Outlook 15.0 Object Library** component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

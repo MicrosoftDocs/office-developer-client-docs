@@ -23,7 +23,7 @@ When you use the [Add](https://msdn.microsoft.com/en-us/library/bb611522\(v=offi
 
 To persist a custom property represented by a UserDefinedProperty object in a folder, you must save the custom property with the same name in the item. Storing a value in the UserDefinedProperty object for the folder has no effect. You must se the item's UserProperties collection to access the [UserProperty](https://msdn.microsoft.com/en-us/library/bb623119\(v=office.15\)) object that you want to set, and then set the value on the UserProperty object. Be sure to call the Save method on the item to persist your changes.
 
-If you use Visual Studio to test this code example, you must first add a reference to the **Microsoft Outlook 15.0 Object Library** component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The Imports or using statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following lines of code show how to do the import and assignment in Visual Basic and C\#.
+If you use Visual Studio to test this code example, you must first add a reference to the **Microsoft Outlook 15.0 Object Library** component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The **Imports** or **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following lines of code show how to do the import and assignment in Visual Basic and C\#.
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook

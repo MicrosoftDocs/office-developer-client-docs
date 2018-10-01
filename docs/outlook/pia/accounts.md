@@ -7,7 +7,7 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 ---
 
-# Accounts
+# Accounts 
 
 This section provides sample tasks that involve email accounts. Examples of email accounts are Microsoft Exchange Server, Post Office Protocol 3 (POP3), Internet Message Access Protocol (IMAP), and Hypertext Transfer Protocol (HTTP) accounts. An account for the current profile is represented by an [Account](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.account?view=outlook-pia) object.
 

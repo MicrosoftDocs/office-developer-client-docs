@@ -46,7 +46,7 @@ To create rules through the Outlook object model, follow these steps:
 
 5.  Finally, call the [Save(Object)](https://msdn.microsoft.com/en-us/library/bb610738\(v=office.15\)) method on the Rules collection to save the created or modified rules. Enclose the Save method in a try…catch block to handle exceptions.
 
-In the following code example, CreateManagerRule implements the steps previously described. CreateManagerRule first verifies whether the [CurrentUser](https://msdn.microsoft.com/en-us/library/bb622574\(v=office.15\)) property represents an [ExchangeUser](https://msdn.microsoft.com/en-us/library/bb609574\(v=office.15\)) object, indicating that the current user is an Exchange user. If the current user is an Exchange user, CreateManagerRule gets the current user’s manager by calling the [GetExchangeUserManager()](https://msdn.microsoft.com/en-us/library/bb646656\(v=office.15\)) method on the ExchangeUser object of the CurrentUser property of the NameSpace object. A receive rule is then created to move received messages to a subfolder of the Inbox for the following conditions:
+In the following code example, CreateManagerRule implements the steps previously described. CreateManagerRule first verifies whether the [CurrentUser](https://msdn.microsoft.com/en-us/library/bb622574\(v=office.15\)) property represents an [ExchangeUser](https://msdn.microsoft.com/en-us/library/bb609574\(v=office.15\)) object, indicating that the current user is an Exchange user. If the current user is an Exchange user, CreateManagerRule gets the current user’s manager by calling the [GetExchangeUserManager()](https://msdn.microsoft.com/en-us/library/bb646656\(v=office.15\)) method on the ExchangeUser object of the CurrentUser property of the **NameSpace** object. A receive rule is then created to move received messages to a subfolder of the Inbox for the following conditions:
 
   - The message is from the user’s manager.
 
@@ -56,7 +56,7 @@ In the following code example, CreateManagerRule implements the steps previously
 
 Finally, the message is flagged for follow-up today. CreateManagerRule also illustrates appropriate error handling for conditions that could raise an exception such as the user being offline or disconnected in cached Exchange mode.
 
-If you use Visual Studio to test this code example, you must first add a reference to the **Microsoft Outlook 15.0 Object Library** component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The using statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
+If you use Visual Studio to test this code example, you must first add a reference to the **Microsoft Outlook 15.0 Object Library** component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

@@ -23,7 +23,7 @@ To obtain the default message class for a folder, use the DefaultMessageClass pr
 
 In the following code example, the GetDefaultMessageClass procedure uses the PropertyAccessor to determine the default form of a folder. If the folder property PR\_DEF\_POST\_MSGCLASS [(PidTagDefaultPostMessageClass)](https://msdn.microsoft.com/en-us/library/cc815305\(v=office.15\)) is not found and Outlook raises an error, the try…catch block returns the DefaultMessageClass property for the Folder.
 
-If you use Visual Studio to test this code example, you must first add a reference to the **Microsoft Outlook 15.0 Object Library** component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The using statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
+If you use Visual Studio to test this code example, you must first add a reference to the **Microsoft Outlook 15.0 Object Library** component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

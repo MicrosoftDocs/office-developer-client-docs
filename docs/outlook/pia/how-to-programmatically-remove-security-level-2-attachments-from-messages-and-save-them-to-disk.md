@@ -17,30 +17,16 @@ This example shows how to remove security level 2 attachments from email message
 > [!NOTE] 
 > The following code example is an excerpt from [Programming Applications for Microsoft Office Outlook 2007](https://www.amazon.com/gp/product/0735622493?ie=UTF8&tag=msmsdn-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0735622493).
 
-
 Outlook protects users from malicious code transported via email attachments that have certain file extensions such as .exe or .bat. Those particular attachments are blocked by default and identified as Level 1 attachments. Level 2 attachments have a lesser chance of containing malicious code, but users cannot open a Level 2 attachment directly from an email message. A Level 2 attachment must first be saved to a disk.
 
-By using the [SaveAsFile(String)](https://msdn.microsoft.com/en-us/library/bb624311\(v=office.15\)) method in the [Attachment](https://msdn.microsoft.com/en-us/library/bb609285\(v=office.15\)) object, you can save attachments to a disk. In the following code example, RemoveAttachmentsAndSaveToDisk first removes from mail items in a folder all Level 2 attachments that are greater than a specified size. This is done by enumerating the [Type](https://msdn.microsoft.com/en-us/library/bb609277\(v=office.15\)) property of each Attachment object in the [Attachments](https://msdn.microsoft.com/en-us/library/bb646211\(v=office.15\)) collection and removing the ones that are equal to [olByValue](https://msdn.microsoft.com/en-us/library/bb623448\(v=office.15\)). RemoveAttachmentsAndSaveToDisk then saves the removed attachment by using the SaveAsFile method.
+By using the [SaveAsFile(String)](https://msdn.microsoft.com/en-us/library/bb624311\(v=office.15\)) method in the [Attachment](https://msdn.microsoft.com/en-us/library/bb609285\(v=office.15\)) object, you can save attachments to a disk. In the following code example, RemoveAttachmentsAndSaveToDisk first removes from mail items in a folder all Level 2 attachments that are greater than a specified size. This is done by enumerating the [Type](https://msdn.microsoft.com/en-us/library/bb609277\(v=office.15\)) property of each **Attachment** object in the [Attachments](https://msdn.microsoft.com/en-us/library/bb646211\(v=office.15\)) collection and removing the ones that are equal to [olByValue](https://msdn.microsoft.com/en-us/library/bb623448\(v=office.15\)). RemoveAttachmentsAndSaveToDisk then saves the removed attachment by using the **SaveAsFile** method.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>C# note</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Collections in Outlook are linear. Use the <a href="https://msdn.microsoft.com/en-us/library/bb608897(v=office.15)">Index</a>[n] operator to reference Attachments[1] to Attachments[n] where n represents the value of the <a href="https://msdn.microsoft.com/en-us/library/bb610960(v=office.15)">Count</a> property.</p>
-<p>You cannot use a foreach statement to remove items in a collection. Instead, use an Index operator to obtain the first item in the collection, and then delete the item. Then use a while statement to determine when you have deleted the appropriate number of items in the collection. This will ensure that you have iterated over the correct number of items in the collection.</p></td>
-</tr>
-</tbody>
-</table>
+> [!NOTE] 
+> Collections in Outlook are linear. Use the [Index](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.attachment.index?view=outlook-pia) operator to reference **Attachments**[1] to **Attachments**[n], where n represents the value of the [Count](https://docs.microsoft.com/en-us/dotnet/api/microsoft.office.interop.outlook.attachments.count?view=outlook-pia) property.
+> 
+> You cannot use a **foreach** statement to remove items in a collection. Instead, use an **Index** operator to obtain the first item in the collection, and then delete the item. Then use a **while** statement to determine when you have deleted the appropriate number of items in the collection. This will ensure that you have iterated over the correct number of items in the collection.
 
-
-If you use Visual Studio to test this code example, you must first add a reference to the **Microsoft Outlook 15.0 Object Library** component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The using statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
+If you use Visual Studio to test this code example, you must first add a reference to the **Microsoft Outlook 15.0 Object Library** component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
@@ -117,7 +103,5 @@ private void RemoveAttachmentsAndSaveToDisk(string path,
 
 ## See also
 
-
-
-[Attachments](attachments.md)
+- [Attachments](attachments.md)
 

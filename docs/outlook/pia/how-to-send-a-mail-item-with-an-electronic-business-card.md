@@ -19,7 +19,7 @@ This example creates a mail item, looks for an Electronic Business Card, and if 
 
 To insert an Electronic Business Card, you can call [AddBusinessCard](https://msdn.microsoft.com/en-us/library/bb647034\(v=office.15\)) on the [MailItem](https://msdn.microsoft.com/en-us/library/bb643865\(v=office.15\)) object. This method takes a string representing an email address and attempts to find a [ContactItem](https://msdn.microsoft.com/en-us/library/bb644956\(v=office.15\)) with that address in the default Contacts folder. A ContactItem can have as many as three email addresses. If the contact is found, the example calls the AddBusinessCard method, and then displays the message to the user.
 
-If you use Visual Studio to test this code example, you must first add a reference to the **Microsoft Outlook 15.0 Object Library** component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The Imports or using statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following lines of code show how to do the import and assignment in Visual Basic and C\#.
+If you use Visual Studio to test this code example, you must first add a reference to the **Microsoft Outlook 15.0 Object Library** component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The **Imports** or **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following lines of code show how to do the import and assignment in Visual Basic and C\#.
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook

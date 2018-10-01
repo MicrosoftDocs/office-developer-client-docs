@@ -14,34 +14,19 @@ This section provides sample tasks that involve the Outlook Calendar folder.
 
 ## In this section
 
-  - [Share Free/Busy Schedule Within a Specified Period in a Calendar](how-to-share-free-busy-schedule-within-a-specified-period-in-a-calendar.md)  
-    Obtains the free/busy schedule within a specified week from a calendar and displays the free, busy, and subject details to the user.
-
-  - [Share Calendar Information Through E-Mail](how-to-share-calendar-information-through-e-mail.md)  
-    Shares information from a calendar by email in the iCalendar format.
-
-  - [Display a Shared Calendar of a Recipient](how-to-display-a-shared-calendar-of-a-recipient.md)  
-    Displays a recipient's shared calendar by using the [CreateRecipient(String)](https://msdn.microsoft.com/en-us/library/bb609962\(v=office.15\)) and [GetSharedDefaultFolder(Recipient, OlDefaultFolders)](https://msdn.microsoft.com/en-us/library/bb644850\(v=office.15\)) methods.
-
-  - [Save a Calendar to Disk](how-to-save-a-calendar-to-disk.md)  
-    Saves an entire calendar to disk in the iCalendar (.ics) file format.
-
-  - [Open and Display the Contents of an iCalendar File](how-to-open-and-display-the-contents-of-an-icalendar-file.md)  
-    Opens and displays the contents of an iCalendar file, depending on whether the file contains a single or recurrent appointment, or the file contains a group of appointments.
+|Topic|Description|
+|:----|:----------|
+|[Share Free/Busy schedule within a specified period in a calendar](how-to-share-free-busy-schedule-within-a-specified-period-in-a-calendar.md)  |Obtains the Free/Busy schedule within a specified week from a calendar and displays the free, busy, and subject details to the user.|
+|[Share calendar information through email](how-to-share-calendar-information-through-e-mail.md)  |Shares information from a calendar by email in the iCalendar format.|
+|[Display a shared calendar of a recipient](how-to-display-a-shared-calendar-of-a-recipient.md)  |Displays a recipient's shared calendar by using the [CreateRecipient(String)](https://msdn.microsoft.com/en-us/library/bb609962\(v=office.15\)) and [GetSharedDefaultFolder(Recipient, OlDefaultFolders)](https://msdn.microsoft.com/en-us/library/bb644850\(v=office.15\)) methods.|
+|[Save a calendar to disk](how-to-save-a-calendar-to-disk.md)  |Saves an entire calendar to disk in the iCalendar (.ics) file format.|
+|[Open and display the contents of an iCalendar file](how-to-open-and-display-the-contents-of-an-icalendar-file.md)  |Opens and displays the contents of an iCalendar file, depending on whether the file contains a single or recurrent appointment, or the file contains a group of appointments.|
 
 ## See also
 
-[Appointments](appointments.md)
-
-[Meeting Requests](meeting-requests.md)
-
-[Recipients](recipients.md)
-
-[Tasks](tasks.md)
-
-## See also
-
-
-
-[How do I... (Outlook 2013 PIA reference)](how-do-i-outlook-2013-pia-reference.md)
+- [Appointments](appointments.md)
+- [Meeting requests](meeting-requests.md)
+- [Recipients](recipients.md)
+- [Tasks](tasks.md)
+- [How do I... (Outlook 2013 PIA reference)](how-do-i-outlook-2013-pia-reference.md)
 
