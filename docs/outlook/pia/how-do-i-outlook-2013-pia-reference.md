@@ -91,16 +91,16 @@ The Office Developer Documentation team welcomes your task ideas and code sample
 - [Modify the layout of an electronic business card](how-to-modify-the-layout-of-an-electronic-business-card.md)
 - [Send a mail item with an electronic business card](how-to-send-a-mail-item-with-an-electronic-business-card.md)
 
-[Exchange Users](exchange-users.md)
+[Exchange users](exchange-users.md)
 
-- [Get Information About the Current User](how-to-get-information-about-the-current-user.md)
-- [Get Information About All Distribution Lists of Which the Current User is a Member](how-to-get-information-about-all-distribution-lists-of-which-the-current-user-is-a-member.md)
-- [Create a Distribution List](how-to-create-a-distribution-list.md)
-- [Get Members of an Exchange Distribution List](how-to-get-members-of-an-exchange-distribution-list.md)
-- [Get Information About the Current User's Manager](how-to-get-information-about-the-current-user-s-manager.md)
-- [Get Availability Information for an Exchange User's Manager](how-to-get-availability-information-for-an-exchange-user-s-manager.md)
-- [Check a Manager's Response to a Meeting Request](how-to-check-a-manager-s-response-to-a-meeting-request.md)
-- [Get Information About Direct Reports of the Current User's Manager](how-to-get-information-about-direct-reports-of-the-current-user-s-manager.md)
+- [Get information about the current user](how-to-get-information-about-the-current-user.md)
+- [Get information about all distribution lists of which the current user is a member](how-to-get-information-about-all-distribution-lists-of-which-the-current-user-is-a-member.md)
+- [Create a distribution list](how-to-create-a-distribution-list.md)
+- [Get members of an Exchange distribution list](how-to-get-members-of-an-exchange-distribution-list.md)
+- [Get information about the current user's manager](how-to-get-information-about-the-current-user-s-manager.md)
+- [Get availability information for an Exchange user's manager](how-to-get-availability-information-for-an-exchange-user-s-manager.md)
+- [Check a manager's response to a meeting request](how-to-check-a-manager-s-response-to-a-meeting-request.md)
+- [Get information about direct reports of the current user's manager](how-to-get-information-about-direct-reports-of-the-current-user-s-manager.md)
 
 [Group Sharing](group-sharing.md)
 

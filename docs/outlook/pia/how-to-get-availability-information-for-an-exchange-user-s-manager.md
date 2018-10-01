@@ -1,23 +1,20 @@
 ﻿---
-title: "Get Availability Information for an Exchange User's Manager"
-TOCTitle: "Get Availability Information for an Exchange User's Manager"
+title: Get availability information for an Exchange user's manager
+TOCTitle: Get availability information for an Exchange user's manager
 ms:assetid: b59dd875-50c2-4f24-ba91-24429abf1b72
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb646996(v=office.15)
 ms:contentKeyID: 55119849
 ms.date: 07/24/2014
 mtps_version: v=office.15
-
-
-
 ---
 
-# Get Availability Information for an Exchange User's Manager
+# Get availability information for an Exchange user's manager
 
 This example displays the next free 60-minute time slot in the calendar for a user's manager.
 
 ## Example
 
-This code sample checks whether the current user is an Exchange user. If so, and if the current user has a manager, it obtains the manager's information by calling the [GetExchangeUser](https://msdn.microsoft.com/en-us/library/bb611808\(v=office.15\)) method of the [AddressEntry](https://msdn.microsoft.com/en-us/library/bb609728\(v=office.15\)) object and the [GetExchangeUserManager](https://msdn.microsoft.com/en-us/library/bb646656\(v=office.15\)) method of the [ExchangeUser](https://msdn.microsoft.com/en-us/library/bb609574\(v=office.15\)) object. The manager's information is contained in an ExchangeUser object that includes the manager's Free/Busy schedule.
+This code sample checks whether the current user is an Exchange user. If so, and if the current user has a manager, it obtains the manager's information by calling the [GetExchangeUser](https://msdn.microsoft.com/en-us/library/bb611808\(v=office.15\)) method of the [AddressEntry](https://msdn.microsoft.com/en-us/library/bb609728\(v=office.15\)) object and the [GetExchangeUserManager](https://msdn.microsoft.com/en-us/library/bb646656\(v=office.15\)) method of the [ExchangeUser](https://msdn.microsoft.com/en-us/library/bb609574\(v=office.15\)) object. The manager's information is contained in an **ExchangeUser** object that includes the manager's Free/Busy schedule.
 
 If you use Visual Studio to test this code example, you must first add a reference to the **Microsoft Outlook 15.0 Object Library** component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The **Imports** or **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following lines of code show how to do the import and assignment in Visual Basic and C\#.
 
@@ -25,9 +22,11 @@ If you use Visual Studio to test this code example, you must first add a referen
 Imports Outlook = Microsoft.Office.Interop.Outlook
 ```
 
+
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
 ```
+
 
 ```vb
 Private Sub GetManagerOpenInterval()
@@ -69,6 +68,7 @@ Private Sub GetManagerOpenInterval()
     End If
 End Sub
 ```
+
 
 ```csharp
 private void GetManagerOpenInterval()
@@ -118,7 +118,5 @@ private void GetManagerOpenInterval()
 
 ## See also
 
-
-
-[Exchange Users](exchange-users.md)
+- [Exchange users](exchange-users.md)
 

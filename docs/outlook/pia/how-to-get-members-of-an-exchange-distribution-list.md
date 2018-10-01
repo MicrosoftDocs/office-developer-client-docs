@@ -1,29 +1,24 @@
 ﻿---
-title: 'Get Members of an Exchange Distribution List'
-TOCTitle: 'Get Members of an Exchange Distribution List'
+title: Get members of an Exchange distribution list
+TOCTitle: Get members of an Exchange distribution list
 ms:assetid: 75b38e40-772c-400b-8df9-e3e385b87f9c
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb645998(v=office.15)
 ms:contentKeyID: 55119837
 ms.date: 07/24/2014
 mtps_version: v=office.15
-
-
-
 ---
 
-# Get Members of an Exchange Distribution List
+# Get members of an Exchange distribution list
 
 This example prompts the user to select an Exchange distribution list from the **Select Names** dialog box and expands the distribution list to display its members.
 
 ## Example
 
-This code sample calls the [GetExchangeDistributionListMembers](https://msdn.microsoft.com/en-us/library/bb647622\(v=office.15\)) method of the [ExchangeDistributionList](https://msdn.microsoft.com/en-us/library/bb624320\(v=office.15\)) object to get an [AddressEntries](https://msdn.microsoft.com/en-us/library/bb647650\(v=office.15\)) collection that contains all the members of the list. Because distribution lists can be nested inside another distribution list, the returned AddressEntries collection can represent any type of Exchange [AddressEntry](https://msdn.microsoft.com/en-us/library/bb609728\(v=office.15\)) object.
+This code sample calls the [GetExchangeDistributionListMembers](https://msdn.microsoft.com/en-us/library/bb647622\(v=office.15\)) method of the [ExchangeDistributionList](https://msdn.microsoft.com/en-us/library/bb624320\(v=office.15\)) object to get an [AddressEntries](https://msdn.microsoft.com/en-us/library/bb647650\(v=office.15\)) collection that contains all the members of the list. Because distribution lists can be nested inside another distribution list, the returned **AddressEntries** collection can represent any type of Exchange [AddressEntry](https://msdn.microsoft.com/en-us/library/bb609728\(v=office.15\)) object.
 
 
 > [!NOTE]
-> <P>Expanding distribution lists can create a performance burden on an Exchange server, so use the GetExchangeDistributionListMembers method cautiously. Expect that your code will be slow when it expands large distribution lists.</P>
-
-
+> Expanding distribution lists can create a performance burden on an Exchange server, so use the **GetExchangeDistributionListMembers** method cautiously. Expect that your code will be slow when it expands large distribution lists.
 
 To obtain the members of a distribution list, the user must be connected to an Exchange server and online.
 
@@ -33,9 +28,11 @@ If you use Visual Studio to test this code example, you must first add a referen
 Imports Outlook = Microsoft.Office.Interop.Outlook
 ```
 
+
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
 ```
+
 
 ```vb
 Private Sub GetDistributionListMembers()
@@ -75,6 +72,7 @@ Private Sub GetDistributionListMembers()
     End If
 End Sub
 ```
+
 
 ```csharp
 private void GetDistributionListMembers()
@@ -122,7 +120,5 @@ private void GetDistributionListMembers()
 
 ## See also
 
-
-
-[Exchange Users](exchange-users.md)
+- [Exchange users](exchange-users.md)
 
