@@ -6,8 +6,6 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb612528(v=office.15)
 ms:contentKeyID: 55119780
 ms.date: 07/24/2014
 mtps_version: v=office.15
-
-
 ---
 
 # Methods and properties in the Outlook PIA
@@ -18,17 +16,17 @@ This topic describes how to access methods and properties of an object in manage
 
 To create the Outlook PIA, Outlook uses the Type Library Importer (TLBIMP) in the .NET Framework to convert type definitions in the COM type library into equivalent definitions in a common language runtime (CLR) assembly. In COM, an object is actually a coclass that consists of the following:
 
-  - The primary interface (for example, the [\_FormRegion](https://msdn.microsoft.com/en-us/library/bb645761\(v=office.15\)) interface).
+- The primary interface (for example, the [\_FormRegion](https://msdn.microsoft.com/en-us/library/bb645761\(v=office.15\)) interface).
 
-  - The event interface (for example, the [FormRegionEvents](https://msdn.microsoft.com/en-us/library/bb611940\(v=office.15\)) interface).
+- The event interface (for example, the [FormRegionEvents](https://msdn.microsoft.com/en-us/library/bb611940\(v=office.15\)) interface).
 
 TLBIMP imports the primary interface and the event interface for each object and creates a number of interfaces, delegates, and classes, among which are the following:
 
-  - The .NET event interface (for example, the [FormRegionEvents\_Event](https://msdn.microsoft.com/en-us/library/bb647619\(v=office.15\)) interface).
+- The .NET event interface (for example, the [FormRegionEvents\_Event](https://msdn.microsoft.com/en-us/library/bb647619\(v=office.15\)) interface).
 
-  - The .NET class (for example, the [FormRegionClass](https://msdn.microsoft.com/en-us/library/bb624204\(v=office.15\)) class).
+- The .NET class (for example, the [FormRegionClass](https://msdn.microsoft.com/en-us/library/bb624204\(v=office.15\)) class).
 
-  - The .NET interface (for example, the [FormRegion](https://msdn.microsoft.com/en-us/library/bb652633\(v=office.15\)) interface).
+- The .NET interface (for example, the [FormRegion](https://msdn.microsoft.com/en-us/library/bb652633\(v=office.15\)) interface).
 
 ## What the Helper objects are for
 
@@ -44,7 +42,9 @@ Continuing to use the FormRegion object as an example, the following list examin
 
 - The FormRegion interface inherits the \_FormRegion interface and the FormRegionEvents\_Event interface. Figure 1 illustrates this inheritance relationship.
     
-  <!--Figure 1. The FormRegion interface inherits methods and properties from the \_FormRegion interface, and inherits events from the FormRegionEvents\_Event interface-->
+  **Figure 1. The FormRegion interface inherits methods and properties from the \_FormRegion interface, and inherits events from the FormRegionEvents\_Event interface**
+
+  ![The FormRegion interface inherits methods and properties from the \_FormRegion interface, and inherits events from the FormRegionEvents\_Event interface]()
     
   Typically, FormRegion is the one interface you use in managed code to access the object and the method, property, and event members of the FormRegion object.
 
