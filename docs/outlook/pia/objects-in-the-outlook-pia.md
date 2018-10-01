@@ -6,9 +6,6 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb609459(v=office.15)
 ms:contentKeyID: 55119778
 ms.date: 07/24/2014
 mtps_version: v=office.15
-
-
-
 ---
 
 # Objects in the Outlook PIA
@@ -21,23 +18,27 @@ However, most other objects have a one-to-many mapping in the PIA. This one-to-m
 
 ## Helper objects
 
-This section illustrates the typical helper classes for an object in the Outlook PIA by using the FormRegion object as an example. The FormRegion object was added to the object model in Outlook 2007. Related to the FormRegion object in the PIA are the interfaces, classes, and delegates.
+This section illustrates the typical helper classes for an object in the Outlook PIA by using the FormRegion object as an example. The FormRegion object was added to the object model in Outlook 2007. Related to the FormRegion object in the PIA are the interfaces, classes, and delegates, illustrated in Figure 1.
+
+**Figure 1. The FormRegion object represented in the Outlook object model and in the Outlook PIA**
+
+![The FormRegion object represented in the Outlook object model and in the Outlook PIA](media/pia-outlook-object-model.gif)
 
 The one interface that you most often use to access the FormRegion object and its method, property, and event members is the [FormRegion](https://msdn.microsoft.com/en-us/library/bb652633\(v=office.15\)) interface. However, you should not consider the FormRegion .NET interface as an exact mirror image of the FormRegion COM object; if you look at the Object Browser in Visual Studio, you will find that the FormRegion interface inherits from another interface, the [\_FormRegion](https://msdn.microsoft.com/en-us/library/bb645761\(v=office.15\)) interface. In fact, the FormRegion interface is just one of the few interfaces and classes that result from creating the Outlook PIA based on the COM type library.
 
 To create the Outlook PIA, Outlook uses the Type Library Importer (TLBIMP) in the .NET Framework to convert type definitions in the COM type library into equivalent definitions in a Common Language Runtime assembly. In COM, the FormRegion object is actually a coclass that consists of the following two interfaces defining the interfaces that the FormRegion object implements:
 
-  - The primary interface \_FormRegion
+- The primary interface \_FormRegion
 
-  - The event interface [FormRegionEvents](https://msdn.microsoft.com/en-us/library/bb611940\(v=office.15\))
+- The event interface [FormRegionEvents](https://msdn.microsoft.com/en-us/library/bb611940\(v=office.15\))
 
 TLBIMP directly imports \_FormRegion and FormRegionEvents from the type library.
 
 Other than importing the primary interface and event interface, TLBIMP creates a .NET interface that has the same name as the COM object, and a .NET class that uses the name of the object and appends it with "Class". In the case of the FormRegion object, TLBIMP creates the following:
 
-  - The .NET interface FormRegion
+- The .NET interface FormRegion
 
-  - The .NET class [FormRegionClass](https://msdn.microsoft.com/en-us/library/bb624204\(v=office.15\))
+- The .NET class [FormRegionClass](https://msdn.microsoft.com/en-us/library/bb624204\(v=office.15\))
 
 Of the .NET interfaces and .NET class mentioned in this topic, you always use the .NET interface that TLBIMP creates to access an object. For example, to access a FormRegion object in VB, you always use the FormRegion interface, as in the following code example:
 

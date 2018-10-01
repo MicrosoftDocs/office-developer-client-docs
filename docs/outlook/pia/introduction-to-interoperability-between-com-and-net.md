@@ -25,14 +25,12 @@ This topic gives a high-level description of how the RCW facilitates communicati
 
 An interop assembly defines managed interfaces that map to a COM-based type library and that a managed client can interact with. To use an interop assembly in Visual Studio, first add a reference to the corresponding COM component. Visual Studio will automatically generate a local copy of the interop assembly. The interop assembly contains one namespace, under which there is a managed equivalent interface of each COM object in the COM object model. 
 
-<!--no figure! 
-
 Figure 1 illustrates a managed client that wants to use a COM type library that defines coclass X. The managed client calls class X, which is the managed equivalent interface for coclass X, as defined in the interop assembly. At compile time, the managed project is compiled with information about class X from the interop assembly.
 
-Figure 1. A managed application compiled with an interop assembly that interoperates with an unmanaged type library
--->
-  
+**Figure 1. A managed application compiled with an interop assembly that interoperates with an unmanaged type library**
 
+![A managed application compiled with an interop assembly that interoperates with an unmanaged type library](media/pia-unmanaged-type-library.gif)
+  
 In general, as long as you set a reference to a type library, Visual Studio generates a copy of an interop assembly for that type library. Any number of interop assemblies can exist to describe the same COM type. However, a type library can have only one Primary Interop Assembly (PIA), which is the interop assembly published by the type library. Unlike other interop assemblies, the PIA is not generated every time you add a reference in Visual Studio. Instead, you install the PIA to the global assembly cache (GAC) just once on a computer. When you add a reference to the type library, Visual Studio automatically loads the PIA.
 
 To program a managed solution for Outlook, you should use the Outlook PIA. To incorporate information from the Outlook PIA into a managed add-in, first you must install the Outlook PIA in the GAC. If you are using Visual Studio to create the managed project, after adding a reference to the Outlook type library, Visual Studio loads the PIA. In the object browser, under the namespace Microsoft.Office.Interop.Outlook, you can see managed interfaces that have names corresponding to objects in the Outlook object model. For example, the Account interface corresponds to the Account object in the Outlook object model. When you compile the managed project, this information is incorporated in your executable.
@@ -40,8 +38,6 @@ To program a managed solution for Outlook, you should use the Outlook PIA. To in
 ### Run time
 
 At run time, with the information provided by an interop assembly, the .NET Framework CLR creates an RCW for each coclass the managed client interacts with. Note that the runtime creates only one RCW for each coclass, regardless of how many interfaces the client has obtained from the coclass. The RCW is a .NET Framework class type that wraps around the COM coclass. The RCW keeps track of the instances of the coclass and releases references to them only when the client no longer needs the RCW. This way, a managed client does not have to manage the lifetime of an object the way an unmanaged client would under COM.
-
-<!-- No figure! 
 
 Figure 2 illustrates an RCW intercepting an API call from a managed client at run time, and using information from the interop assembly, transparently mapping the call to the corresponding API in the COM coclass. The following process describes how this happens:
 
@@ -51,8 +47,9 @@ Figure 2 illustrates an RCW intercepting an API call from a managed client at ru
 
 3.  The RCW intercepts the call to method A', translates the arguments into corresponding COM types, and invokes method A of coclass X as defined in the COM type library.
 
-Figure 2. An RCW intercepts a call from a managed executable and maps it to a coclass in an unmanaged type library
--->
+**Figure 2. An RCW intercepts a call from a managed executable and maps it to a coclass in an unmanaged type library**
+
+![An RCW intercepts a call from a managed executable and maps it to a coclass in an unmanaged type library](media/pia-unmanaged-type-library-2.gif)
   
 
 ## See also

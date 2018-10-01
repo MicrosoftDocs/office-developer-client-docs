@@ -44,7 +44,7 @@ Continuing to use the FormRegion object as an example, the following list examin
     
   **Figure 1. The FormRegion interface inherits methods and properties from the \_FormRegion interface, and inherits events from the FormRegionEvents\_Event interface**
 
-  ![The FormRegion interface inherits methods and properties from the \_FormRegion interface, and inherits events from the FormRegionEvents\_Event interface]()
+  ![The FormRegion interface inherits methods and properties from the \_FormRegion interface, and inherits events from the FormRegionEvents\_Event interface](media/pia-form-region-interface.gif)
     
   Typically, FormRegion is the one interface you use in managed code to access the object and the method, property, and event members of the FormRegion object.
 

@@ -43,7 +43,7 @@ Alternatively, if you are also interested in appointments that overlap partially
 
 **Figure 1. Types of appointments that occur within a time range, or overlap with that time range**
 
-![Types of appointments that occur within a time range, or overlap with that time range](media/Gg619398.Outlook14PIACon_(Office.15).gif)
+![Types of appointments that occur within a time range, or overlap with that time range](media/pia-appointment-starttime-endtime.gif)
  
 
 Because in any time range startTime\<=endTime, a filter with \[Start\]\<=endTime and \[End\]\>=startTime would capture the preceding types of appointments in that time range.
