@@ -1,6 +1,6 @@
 ﻿---
-title: 'Access Solution-Specific Data Stored as a Hidden Message in a Folder'
-TOCTitle: 'Access Solution-Specific Data Stored as a Hidden Message in a Folder'
+title: Access solution-specific data stored as a hidden message in a folder
+TOCTitle: Access solution-specific data stored as a hidden message in a folder
 ms:assetid: bacf0562-1026-4c3b-87b0-4eaad5033592
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb623414(v=office.15)
 ms:contentKeyID: 55119861
@@ -8,27 +8,29 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 ---
 
-# Access Solution-Specific Data Stored as a Hidden Message in a Folder
+# Access solution-specific data stored as a hidden message in a folder
 
 This example shows how to use the [StorageItem](https://msdn.microsoft.com/en-us/library/bb623436\(v=office.15\)) object to retrieve data that is stored as a hidden message of a specific message class in a folder.
 
 ## Example
 
-The StorageItem object is typically used to hide solution-specific data that cannot be displayed programmatically. In an Exchange environment, the StorageItem object is used to roam solution settings and ensure that these settings are available online and offline. You can assign a custom message class to the StorageItem object, or identify the object by subject.
+The **StorageItem** object is typically used to hide solution-specific data that cannot be displayed programmatically. In an Exchange environment, the **StorageItem** object is used to roam solution settings and ensure that these settings are available online and offline. You can assign a custom message class to the **StorageItem** object, or identify the object by subject.
 
 The following code sample retrieves the XML data that is stored as a hidden message in the Calendar folder with the message class equal to IPM.Configuration.WorkHours.
 
-The [PropertyAccessor](https://msdn.microsoft.com/en-us/library/bb646034\(v=office.15\)) object returns the XML as an object that contains a byte stream rather than a string representation of the XML. The code sample uses System.Text.Encoding.Ascii.GetString to convert the byte stream to a string.
+The [PropertyAccessor](https://msdn.microsoft.com/en-us/library/bb646034\(v=office.15\)) object returns the XML as an object that contains a byte stream rather than a string representation of the XML. The code sample uses **System.Text.Encoding.Ascii.GetString** to convert the byte stream to a string.
 
-If you use Visual Studio to test this code example, you must first add a reference to the **Microsoft Outlook 15.0 Object Library** component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The **Imports** or **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following lines of code show how to do the import and assignment in Visual Basic and C\#.
+If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The **Imports** or **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following lines of code show how to do the import and assignment in Visual Basic and C\#.
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook
 ```
 
+
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
 ```
+
 
 ```vb
 Private Function GetWorkHoursXML() As String
@@ -75,9 +77,8 @@ private string GetWorkHoursXML()
 }
 ```
 
+
 ## See also
 
-
-
-[Folders](folders.md)
+- [Folders](folders.md)
 

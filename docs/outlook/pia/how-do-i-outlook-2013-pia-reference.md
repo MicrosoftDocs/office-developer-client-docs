@@ -30,16 +30,17 @@ The Office Developer Documentation team welcomes your task ideas and code sample
 - [Get information about multiple accounts](how-to-get-information-about-multiple-accounts.md)
 - [Send a mail item by using a Hotmail account](how-to-send-a-mail-item-by-using-a-hotmail-account.md)
 
+[Add-in administration](add-in-administration.md)
+
+- [Determine whether Outlook is a Click-to-Run application on a computer](how-to-determine-whether-outlook-is-a-click-to-run-application-on-a-computer.md)
+
+
 [Address book](address-book.md)
 
 - [Display in the Select Names dialog box the address book corresponding to a Contacts folder](how-to-display-in-the-select-names-dialog-box-the-address-book-corresponding-to-a-contacts-folder.md)
 - [[Get the Global Address List or a set of address lists for a store](how-to-get-the-global-address-list-or-a-set-of-address-lists-for-a-store.md)
 - [Enumerate the entries in the Global Address List](how-to-enumerate-the-entries-in-the-global-address-list.md)
 - [Display the address lists for a profile](how-to-display-the-address-lists-for-a-profile.md)
-
-[Add-in administration](add-in-administration.md)
-
-- [Determine whether Outlook is a Click-to-Run application on a computer](how-to-determine-whether-outlook-is-a-click-to-run-application-on-a-computer.md)
 
 [Appointments](appointments.md)
 
@@ -102,6 +103,17 @@ The Office Developer Documentation team welcomes your task ideas and code sample
 - [Check a manager's response to a meeting request](how-to-check-a-manager-s-response-to-a-meeting-request.md)
 - [Get information about direct reports of the current user's manager](how-to-get-information-about-direct-reports-of-the-current-user-s-manager.md)
 
+[Folders](folders.md)
+
+- [Add a folder to the folder list](how-to-add-a-folder-to-the-folder-list.md)
+- [Enumerate folders](how-to-enumerate-folders.md)
+- [Get a default folder and enumerate its subfolders](how-to-get-a-default-folder-and-enumerate-its-subfolders.md)
+- [Get a folder based on its folder path](how-to-get-a-folder-based-on-its-folder-path.md)
+- [Select a folder and display folder information](how-to-select-a-folder-and-display-folder-information.md)
+- [Get the default message class of a folder](how-to-get-the-default-message-class-of-a-folder.md)
+- [Access solution-specific data stored as a hidden message in a folder](how-to-access-solution-specific-data-stored-as-a-hidden-message-in-a-folder.md)
+- [Ensure that custom item properties are supported in folder-level queries](how-to-ensure-that-custom-item-properties-are-supported-in-folder-level-queries.md)
+
 [General Outlook items](general-outlook-items.md)
 
 - [Create a Helper class to access common Outlook item members](how-to-create-a-helper-class-to-access-common-outlook-item-members.md)
@@ -111,21 +123,6 @@ The Office Developer Documentation team welcomes your task ideas and code sample
 
 - [Subscribe to an RSS feed](how-to-subscribe-to-an-rss-feed.md)
 - [Synchronize Outlook with a SharePoint folder](how-to-synchronize-outlook-with-a-sharepoint-folder.md)
-
-[Sample tasks using Outlook events](sample-tasks-using-outlook-events.md)
-
-- [Implement a wrapper for inspectors and track item-level events in each inspector](how-to-implement-a-wrapper-for-inspectors-and-track-item-level-events-in-each-inspector.md)
-
-[Folders](folders.md)
-
-- [Add a Folder to the Folder List](how-to-add-a-folder-to-the-folder-list.md)
-- [Enumerate Folders](how-to-enumerate-folders.md)
-- [Get a Default Folder and Enumerate Its Subfolders](how-to-get-a-default-folder-and-enumerate-its-subfolders.md)
-- [Get a Folder Based on Its Folder Path](how-to-get-a-folder-based-on-its-folder-path.md)
-- [Select a Folder and Display Folder Information](how-to-select-a-folder-and-display-folder-information.md)
-- [Get the Default Message Class of a Folder](how-to-get-the-default-message-class-of-a-folder.md)
-- [Access Solution-Specific Data Stored as a Hidden Message in a Folder](how-to-access-solution-specific-data-stored-as-a-hidden-message-in-a-folder.md)
-- [Ensure that Custom Item Properties Are Supported in Folder-Level Queries](how-to-ensure-that-custom-item-properties-are-supported-in-folder-level-queries.md)
 
 [Mail](mail.md)
 
@@ -158,6 +155,11 @@ The Office Developer Documentation team welcomes your task ideas and code sample
 - [Execute a Rule Instantly](how-to-execute-a-rule-instantly.md)
 - [Execute a Rule on a Local Computer](how-to-execute-a-rule-on-a-local-computer.md)
 - [Create a Rule to Assign Categories to Mail Items Based on Multiple Words in the Subject](how-to-create-a-rule-to-assign-categories-to-mail-items-based-on-multiple-words-in-the-subject.md)
+
+
+[Sample tasks using Outlook events](sample-tasks-using-outlook-events.md)
+
+- [Implement a wrapper for inspectors and track item-level events in each inspector](how-to-implement-a-wrapper-for-inspectors-and-track-item-level-events-in-each-inspector.md)
 
 [Search and Filter](search-and-filter.md)
 

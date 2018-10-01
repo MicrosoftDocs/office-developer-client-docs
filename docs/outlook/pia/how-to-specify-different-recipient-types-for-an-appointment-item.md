@@ -23,7 +23,7 @@ To add recipients to an [AppointmentItem](https://msdn.microsoft.com/en-us/libra
 
 In the following code example, SetRecipientTypeForAppt creates an **AppointmentItem** object, sets properties for that object, and adds required and optional attendees. It also adds a conference room for the meeting. Note that the [MeetingStatus](https://msdn.microsoft.com/en-us/library/bb611417\(v=office.15\)) property is set to [olMeeting](https://msdn.microsoft.com/en-us/library/bb644590\(v=office.15\)), indicating that the appointment is a meeting request.
 
-If you use Visual Studio to test this code example, you must first add a reference to the **Microsoft Outlook 15.0 Object Library** component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
+If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

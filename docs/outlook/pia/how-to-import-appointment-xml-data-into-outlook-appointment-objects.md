@@ -115,7 +115,7 @@ For each appointment child node delimited by the appointment tag in the XML data
 
 CreateAppointmentsFromXml uses the [Add](http://msdn2.microsoft.com/en-us/library/3wcytfd1) method of the [List\<T\>](http://msdn2.microsoft.com/en-us/library/6sh2ey19) class in the [System.Collections.Generic](http://msdn2.microsoft.com/en-us/library/0sbxh9x2) namespace to aggregate these AppointmentItem objects. When the method has processed all the appointments in the XML data, it returns the AppointmentItem objects in an array.
 
-If you use Visual Studio to test this code example, you must first add a reference to the **Microsoft Outlook 15.0 Object Library** component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The **Imports** or **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following lines of code show how to do the import and assignment in Visual Basic and C\#.
+If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The **Imports** or **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following lines of code show how to do the import and assignment in Visual Basic and C\#.
 
 
 ```vb

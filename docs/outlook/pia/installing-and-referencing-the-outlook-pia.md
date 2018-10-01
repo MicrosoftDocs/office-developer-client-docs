@@ -15,7 +15,7 @@ You must have the Outlook Primary Interop Assembly (PIA) installed in the Global
 > [!NOTE] 
 > You must be an administrator on the development computer to install the Office PIAs.
 
-After installation, if you are using Visual Studio to create the managed project, you can add a reference to the **Microsoft Outlook 15.0 Object Library** component. Subsequently, in the object browser, under the **Microsoft.Office.Interop.Outlook** namespace, you can see managed interfaces in the PIA that have names corresponding to objects in the Outlook object model.
+After installation, if you are using Visual Studio to create the managed project, you can add a reference to the Microsoft Outlook 15.0 Object Library component. Subsequently, in the object browser, under the **Microsoft.Office.Interop.Outlook** namespace, you can see managed interfaces in the PIA that have names corresponding to objects in the Outlook object model.
 
 ## See also
 

@@ -23,7 +23,7 @@ In the following code example, CreateDistributionList creates a distribution lis
 > [!NOTE] 
 > You must pass a resolved **Recipient** object as a parameter to the [AddMember(Recipient)](https://msdn.microsoft.com/en-us/library/bb612290(v=office.15)) method of the [DistListItem](https://msdn.microsoft.com/en-us/library/bb645382(v=office.15)) object. To resolve a **Recipient** object, use the [Resolve()](https://msdn.microsoft.com/en-us/library/bb624165(v=office.15)) method.
 
-If you use Visual Studio to test this code example, you must first add a reference to the **Microsoft Outlook 15.0 Object Library** component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
+If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

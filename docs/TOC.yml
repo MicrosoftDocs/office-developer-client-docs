@@ -890,6 +890,11 @@
                   href: outlook/pia/how-to-get-information-about-multiple-accounts.md
                 - name: Send a mail item by using a Hotmail account
                   href: outlook/pia/how-to-send-a-mail-item-by-using-a-hotmail-account.md
+              - name: Add-in administration
+                href: outlook/pia/add-in-administration.md
+                items:
+                - name: Determine whether Outlook is a Click-to-Run application on a computer
+                  href: outlook/pia/how-to-determine-whether-outlook-is-a-click-to-run-application-on-a-computer.md              
               - name: Address book
                 href: outlook/pia/address-book.md
                 items:
@@ -901,11 +906,6 @@
                   href: outlook/pia/how-to-enumerate-the-entries-in-the-global-address-list.md
                 - name: Display the address lists for a profile
                   href: outlook/pia/how-to-display-the-address-lists-for-a-profile.md
-              - name: Add-in administration
-                href: outlook/pia/add-in-administration.md
-                items:
-                - name: Determine whether Outlook is a Click-to-Run application on a computer
-                  href: outlook/pia/how-to-determine-whether-outlook-is-a-click-to-run-application-on-a-computer.md
               - name: Appointments
                 href: outlook/pia/appointments.md
                 items:
@@ -996,29 +996,10 @@
                   href: outlook/pia/how-to-check-a-manager-s-response-to-a-meeting-request.md
                 - name: Get information about direct reports of the current user's manager
                   href: outlook/pia/how-to-get-information-about-direct-reports-of-the-current-user-s-manager.md
-              - name: General Outlook items
-                href: outlook/pia/general-outlook-items.md
-                items:
-                - name: Create a Helper class to access common Outlook item members
-                  href: outlook/pia/how-to-create-a-helper-class-to-access-common-outlook-item-members.md
-                - name: Display selected items in the active Explorer
-                  href: outlook/pia/how-to-display-selected-items-in-the-active-explorer.md
-              - name: Group sharing
-                href: outlook/pia/group-sharing.md
-                items:
-                - name: Subscribe to an RSS feed
-                  href: outlook/pia/how-to-subscribe-to-an-rss-feed.md
-                - name: Synchronize Outlook with a SharePoint folder
-                  href: outlook/pia/how-to-synchronize-outlook-with-a-sharepoint-folder.md
-              - name: Sample tasks using Outlook events
-                href: outlook/pia/sample-tasks-using-outlook-events.md
-                items:
-                - name: Implement a wrapper for inspectors and track item-level events in each inspector
-                  href: outlook/pia/how-to-implement-a-wrapper-for-inspectors-and-track-item-level-events-in-each-inspector.md
               - name: Folders
                 href: outlook/pia/folders.md
                 items:
-                - name: Add a folder to the folder List
+                - name: Add a folder to the folder list
                   href: outlook/pia/how-to-add-a-folder-to-the-folder-list.md
                 - name: Enumerate folders
                   href: outlook/pia/how-to-enumerate-folders.md
@@ -1033,7 +1014,21 @@
                 - name: Access solution-specific data stored as a hidden message in a folder
                   href: outlook/pia/how-to-access-solution-specific-data-stored-as-a-hidden-message-in-a-folder.md
                 - name: Ensure that custom item properties are supported in folder-level queries
-                  href: outlook/pia/how-to-ensure-that-custom-item-properties-are-supported-in-folder-level-queries.md
+                  href: outlook/pia/how-to-ensure-that-custom-item-properties-are-supported-in-folder-level-queries.md                  
+              - name: General Outlook items
+                href: outlook/pia/general-outlook-items.md
+                items:
+                - name: Create a Helper class to access common Outlook item members
+                  href: outlook/pia/how-to-create-a-helper-class-to-access-common-outlook-item-members.md
+                - name: Display selected items in the active Explorer
+                  href: outlook/pia/how-to-display-selected-items-in-the-active-explorer.md
+              - name: Group sharing
+                href: outlook/pia/group-sharing.md
+                items:
+                - name: Subscribe to an RSS feed
+                  href: outlook/pia/how-to-subscribe-to-an-rss-feed.md
+                - name: Synchronize Outlook with a SharePoint folder
+                  href: outlook/pia/how-to-synchronize-outlook-with-a-sharepoint-folder.md
               - name: Mail
                 href: outlook/pia/mail.md
                 items:
@@ -1086,6 +1081,11 @@
                   href: outlook/pia/how-to-execute-a-rule-on-a-local-computer.md
                 - name: Create a rule to assign categories to mail items based on multiple words in the subject
                   href: outlook/pia/how-to-create-a-rule-to-assign-categories-to-mail-items-based-on-multiple-words-in-the-subject.md
+              - name: Sample tasks using Outlook events
+                href: outlook/pia/sample-tasks-using-outlook-events.md
+                items:
+                - name: Implement a wrapper for inspectors and track item-level events in each inspector
+                  href: outlook/pia/how-to-implement-a-wrapper-for-inspectors-and-track-item-level-events-in-each-inspector.md              
               - name: Search and filter
                 href: outlook/pia/search-and-filter.md
                 items:
