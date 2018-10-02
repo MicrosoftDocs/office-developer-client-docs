@@ -38,7 +38,7 @@ The Office Developer Documentation team welcomes your task ideas and code sample
 [Address book](address-book.md)
 
 - [Display in the Select Names dialog box the address book corresponding to a Contacts folder](how-to-display-in-the-select-names-dialog-box-the-address-book-corresponding-to-a-contacts-folder.md)
-- [[Get the Global Address List or a set of address lists for a store](how-to-get-the-global-address-list-or-a-set-of-address-lists-for-a-store.md)
+- [Get the Global Address List or a set of address lists for a store](how-to-get-the-global-address-list-or-a-set-of-address-lists-for-a-store.md)
 - [Enumerate the entries in the Global Address List](how-to-enumerate-the-entries-in-the-global-address-list.md)
 - [Display the address lists for a profile](how-to-display-the-address-lists-for-a-profile.md)
 
