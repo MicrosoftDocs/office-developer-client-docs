@@ -70,7 +70,7 @@ The CreateAppointmentsFromXml method accepts two input parameters:
     </table>
 
 
-The following example shows input data for the xml parameter.
+The following example shows input data for the *xml* parameter.
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?> 

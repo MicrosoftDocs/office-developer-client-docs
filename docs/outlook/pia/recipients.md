@@ -16,7 +16,7 @@ This section provides sample tasks that involve recipients. Recipients are users
 
 |Topic|Description|
 |:----|:----------|
-|[Display the Select Names dialog box to resolve recipients](how-to-display-the-select-names-dialog-box-to-resolve-recipients.md)  |Attempts to resolve the recipients provided by the recips parameter, and displays the Outlook **Select Names** dialog box for each recipient that is ambiguous and cannot be resolved.|
+|[Display the Select Names dialog box to resolve recipients](how-to-display-the-select-names-dialog-box-to-resolve-recipients.md)  |Attempts to resolve the recipients provided by the *recips* parameter, and displays the Outlook **Select Names** dialog box for each recipient that is ambiguous and cannot be resolved.|
 |[Use the Select Names dialog box to obtain and assign recipients to an appointment](how-to-use-the-select-names-dialog-box-to-obtain-and-assign-recipients-to-an-appointment.md)  |Uses the **Select Names** dialog box to obtain and assign recipients to an appointment item.|
 |[Get the email address of a recipient](how-to-get-the-e-mail-address-of-a-recipient.md)  |Gets the Simple Mail Transfer Protocol (SMTP) address of a recipient.|
 

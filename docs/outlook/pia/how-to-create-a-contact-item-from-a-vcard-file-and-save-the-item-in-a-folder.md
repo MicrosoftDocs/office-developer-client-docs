@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Create a Contact item from a vCard file and save the item in a folder
 
-This example imports all the vCard files in a file system folder and saves the contacts into the folder specified by the targetFolder parameter.
+This example imports all the vCard files in a file system folder and saves the contacts into the folder specified by the *targetFolder* parameter.
 
 ## Example
 

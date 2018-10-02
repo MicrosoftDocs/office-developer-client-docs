@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Display the Select Names dialog box to resolve recipients
 
-This example attempts to resolve the recipients provided by the recips parameter, and displays the Outlook **Select Names** dialog box for each recipient that is ambiguous and cannot be resolved.
+This example attempts to resolve the recipients provided by the *recips* parameter, and displays the Outlook **Select Names** dialog box for each recipient that is ambiguous and cannot be resolved.
 
 ## Example
 

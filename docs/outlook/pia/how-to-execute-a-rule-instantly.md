@@ -51,7 +51,7 @@ You can cause a rule to execute immediately by calling the **Execute** method on
 </table>
 
 
-You can cancel a rule execution by using the Rules and Alerts Wizard. You can also cancel a rule execution by setting the ShowProgress parameter to **true** and then canceling the progress dialog box. Once you cancel the progress dialog box, **Execute** will return an error.
+You can cancel a rule execution by using the Rules and Alerts Wizard. You can also cancel a rule execution by setting the *ShowProgress* parameter to **true** and then canceling the progress dialog box. Once you cancel the progress dialog box, **Execute** will return an error.
 
 In the following code example, ExecuteManagerRule gets the rule that was created in the procedure CreateManagerRule from the topic [Create a Rule to File Mail Items from a Manager and Flag Them for Follow-Up](how-to-create-a-rule-to-file-mail-items-from-a-manager-and-flag-them-for-follow-up.md). ExecuteManagerRule then checks whether the rule is not a null reference. If the rule is not a null reference, ExecuteManagerRule calls the **Execute** method on the rule with default parameters, instantly executing the rule.
 
