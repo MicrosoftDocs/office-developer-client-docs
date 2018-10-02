@@ -14,31 +14,18 @@ This section provides sample tasks that involve Microsoft Outlook rules. Rules a
 
 ## In this section
 
-  - [Create a Rule to File Mail Items from a Manager and Flag Them for Follow-Up](how-to-create-a-rule-to-file-mail-items-from-a-manager-and-flag-them-for-follow-up.md)  
-    Sets up a rule to file mail items from the user’s manager and flags them for follow up.
-
-  - [Execute a Rule Instantly](how-to-execute-a-rule-instantly.md)  
-    Executes a rule instantly by using [Execute(Object, Object, Object, Object)](https://msdn.microsoft.com/en-us/library/bb645769\(v=office.15\)) method of the [Rule](https://msdn.microsoft.com/en-us/library/bb647152\(v=office.15\)) object.
-
-  - [Execute a Rule on a Local Computer](how-to-execute-a-rule-on-a-local-computer.md)  
-    Executes a rule on a local computer by using the [OnLocalMachine](https://msdn.microsoft.com/en-us/library/bb612005\(v=office.15\)) property of the [RuleConditions](https://msdn.microsoft.com/en-us/library/bb610965\(v=office.15\)) object.
-
-  - [Create a Rule to Assign Categories to Mail Items Based on Multiple Words in the Subject](how-to-create-a-rule-to-assign-categories-to-mail-items-based-on-multiple-words-in-the-subject.md)  
-    Sets up a rule that assigns categories to mail items based on multiple words in the subject.
+|Topic|Description|
+|:----|:----------|
+|[Create a rule to file mail items from a manager and flag them for follow-up](how-to-create-a-rule-to-file-mail-items-from-a-manager-and-flag-them-for-follow-up.md)  |Sets up a rule to file mail items from the user’s manager and flags them for follow up.|
+|[Execute a rule instantly](how-to-execute-a-rule-instantly.md)  |Executes a rule instantly by using [Execute(Object, Object, Object, Object)](https://msdn.microsoft.com/en-us/library/bb645769\(v=office.15\)) method of the [Rule](https://msdn.microsoft.com/en-us/library/bb647152\(v=office.15\)) object.|
+|[Execute a rule on a local computer](how-to-execute-a-rule-on-a-local-computer.md)  |Executes a rule on a local computer by using the [OnLocalMachine](https://msdn.microsoft.com/en-us/library/bb612005\(v=office.15\)) property of the [RuleConditions](https://msdn.microsoft.com/en-us/library/bb610965\(v=office.15\)) object.|
+|[Create a rule to assign categories to mail items based on multiple words in the subject](how-to-create-a-rule-to-assign-categories-to-mail-items-based-on-multiple-words-in-the-subject.md)  |Sets up a rule that assigns categories to mail items based on multiple words in the subject.|
 
 ## See also
 
-[Appointments](appointments.md)
-
-[Calendar](calendar.md)
-
-[Mail](mail.md)
-
-[Tasks](tasks.md)
-
-## See also
-
-
-
-[How do I... (Outlook 2013 PIA reference)](how-do-i-outlook-2013-pia-reference.md)
+- [Appointments](appointments.md)
+- [Calendar](calendar.md)
+- [Mail](mail.md)
+- [Tasks](tasks.md)
+- [How do I... (Outlook 2013 PIA reference)](how-do-i-outlook-2013-pia-reference.md)
 

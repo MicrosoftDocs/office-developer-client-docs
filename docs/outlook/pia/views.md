@@ -30,7 +30,7 @@ This section provides sample tasks that involve views. Views are used to sort, g
 
 [Contacts](contacts.md)
 
-[Electronic Business Cards](electronic-business-cards.md)
+[Electronic business cards](electronic-business-cards.md)
 
 [Folders](folders.md)
 

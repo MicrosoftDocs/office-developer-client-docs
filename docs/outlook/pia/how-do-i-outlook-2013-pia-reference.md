@@ -151,10 +151,10 @@ The Office Developer Documentation team welcomes your task ideas and code sample
 
 [Rules](rules.md)
 
-- [Create a Rule to File Mail Items from a Manager and Flag Them for Follow-Up](how-to-create-a-rule-to-file-mail-items-from-a-manager-and-flag-them-for-follow-up.md)
-- [Execute a Rule Instantly](how-to-execute-a-rule-instantly.md)
-- [Execute a Rule on a Local Computer](how-to-execute-a-rule-on-a-local-computer.md)
-- [Create a Rule to Assign Categories to Mail Items Based on Multiple Words in the Subject](how-to-create-a-rule-to-assign-categories-to-mail-items-based-on-multiple-words-in-the-subject.md)
+- [Create a rule to file mail items from a manager and flag them for follow-up](how-to-create-a-rule-to-file-mail-items-from-a-manager-and-flag-them-for-follow-up.md)
+- [Execute a rule instantly](how-to-execute-a-rule-instantly.md)
+- [Execute a rule on a local computer](how-to-execute-a-rule-on-a-local-computer.md)
+- [Create a rule to assign categories to mail items based on multiple words in the subject](how-to-create-a-rule-to-assign-categories-to-mail-items-based-on-multiple-words-in-the-subject.md)
 
 
 [Sample tasks using Outlook events](sample-tasks-using-outlook-events.md)
