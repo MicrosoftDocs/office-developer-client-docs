@@ -34,7 +34,7 @@ In previous versions of Visio, settings were made in the **Security** dialog box
   
 For more information about settings in the Office **Trust Center**, see [Security Notes for Microsoft Office Solution Developers](http://msdn2.microsoft.com/en-us/library/aa433259.aspx).
   
- For information about digitally signing code and trusted sources and publishers, search for "code signing" on MSDN, the Microsoft Developer Network Web site. 
+ For information about digitally signing code and trusted sources and publishers, search for "code signing" on MSDN, the Microsoft Developer Network website. 
   
 For more information about good security design practices and technologies, search for "security" on MSDN. 
   

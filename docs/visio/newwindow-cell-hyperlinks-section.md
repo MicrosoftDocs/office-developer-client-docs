@@ -21,7 +21,7 @@ Specifies whether to open the hyperlink in a new window.
   
 |**Value**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Open the linked page, document, or Web site in a new window.  <br/> |
+| TRUE  <br/> | Open the linked page, document, or website in a new window.  <br/> |
 | FALSE  <br/> | Default. Do not open a new window for the hyperlink.  <br/> |
    
 ## Remarks
