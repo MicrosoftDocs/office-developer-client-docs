@@ -14,12 +14,11 @@ This section includes a sample task that pertains to Microsoft Outlook sessions.
 
 ## In this section
 
-  - [Get and Log On to an Instance of Outlook](how-to-get-and-log-on-to-an-instance-of-outlook.md)  
-    Obtains an [Application](https://msdn.microsoft.com/en-us/library/bb646615\(v=office.15\)) object that represents an active instance of Outlook, if there is one running on the local computer, or creates a new instance of Outlook, logs on to the default profile, and returns that instance of Outlook.
+|Topic|Description|
+|:----|:----------|
+|[Get and sign in to an instance of Outlook](how-to-get-and-log-on-to-an-instance-of-outlook.md)  |Obtains an [Application](https://msdn.microsoft.com/en-us/library/bb646615\(v=office.15\)) object that represents an active instance of Outlook, if there is one running on the local computer, or creates a new instance of Outlook, signs in to the default profile, and returns that instance of Outlook.|
 
 ## See also
 
-
-
-[How do I... (Outlook 2013 PIA reference)](how-do-i-outlook-2013-pia-reference.md)
+- [How do I... (Outlook 2013 PIA reference)](how-do-i-outlook-2013-pia-reference.md)
 

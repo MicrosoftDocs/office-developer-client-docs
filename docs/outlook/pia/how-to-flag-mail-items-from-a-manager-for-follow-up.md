@@ -1,16 +1,14 @@
 ﻿---
-title: 'Flag Mail Items from a Manager for Follow-Up'
-TOCTitle: 'Flag Mail Items from a Manager for Follow-Up'
+title: Flag mail items from a manager for follow-up
+TOCTitle: Flag mail items from a manager for follow-up
 ms:assetid: 5f7f3678-0f63-451e-ba08-cd973525aa1b
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff424470(v=office.15)
 ms:contentKeyID: 55119898
 ms.date: 07/24/2014
 mtps_version: v=office.15
-
-
 ---
 
-# Flag Mail Items from a Manager for Follow-Up
+# Flag mail items from a manager for follow-up
 
 This example shows how to flag email items that were received from the user’s manager for follow-up.
 
@@ -25,8 +23,7 @@ The following code example marks a group of items for a specified follow-up inte
 
 
 > [!NOTE]
-> <P>The Importance property and the MarkAsTask method are Item object members</P>
-
+> The **Importance** property and the **MarkAsTask** method are **Item** object members.
 
 
 If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
@@ -34,6 +31,7 @@ If you use Visual Studio to test this code example, you must first add a referen
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
 ```
+
 
 ```csharp
 private void DemoTaskFlagging()
@@ -90,7 +88,5 @@ private void DemoTaskFlagging()
 
 ## See also
 
-
-
-[Tasks](tasks.md)
+- [Tasks](tasks.md)
 

@@ -1,16 +1,14 @@
 ﻿---
-title: 'Respond to a Task Request Item'
-TOCTitle: 'Respond to a Task Request Item'
+title: Respond to a task request item
+TOCTitle: Respond to a task request item
 ms:assetid: 573c98ef-4d15-4fd1-bccd-25a22c9a63f0
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184608(v=office.15)
 ms:contentKeyID: 55119896
 ms.date: 07/24/2014
 mtps_version: v=office.15
-
-
 ---
 
-# Respond to a Task Request Item
+# Respond to a task request item
 
 This example shows how to get and respond to a task request item.
 
@@ -26,6 +24,7 @@ If you use Visual Studio to test this code example, you must first add a referen
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
 ```
+
 
 ```csharp
 private void AcceptTaskRequest()
@@ -50,7 +49,5 @@ private void AcceptTaskRequest()
 
 ## See also
 
-
-
-[Tasks](tasks.md)
+- [Tasks](tasks.md)
 

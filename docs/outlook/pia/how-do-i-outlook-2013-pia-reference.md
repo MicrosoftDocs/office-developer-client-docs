@@ -180,27 +180,27 @@ The Office Developer Documentation team welcomes your task ideas and code sample
 
 [Sessions](sessions.md)
 
-- [Get and Log On to an Instance of Outlook](how-to-get-and-log-on-to-an-instance-of-outlook.md)
+- [Get and sign in to an instance of Outlook](how-to-get-and-log-on-to-an-instance-of-outlook.md)
 
 [Stores](stores.md)
 
-- [Get Information About Stores in a Profile](how-to-get-information-about-stores-in-a-profile.md)
-- [Add or Remove a Store](how-to-add-or-remove-a-store.md)
+- [Get information about stores in a profile](how-to-get-information-about-stores-in-a-profile.md)
+- [Add or remove a store](how-to-add-or-remove-a-store.md)
 
 [Tasks](tasks.md)
 
-- [Create a Task Item](how-to-create-a-task-item.md)
-- [Assign a Task to a Recipient](how-to-assign-a-task-to-a-recipient.md)
-- [Display the Task Request Items Sent to a Recipient](how-to-display-the-task-request-items-sent-to-a-recipient.md)
-- [Respond to a Task Request Item](how-to-respond-to-a-task-request-item.md)
-- [Create a Recurring Task](how-to-create-a-recurring-task.md)
-- [Flag Mail Items from a Manager for Follow-Up](how-to-flag-mail-items-from-a-manager-for-follow-up.md)
+- [Create a task item](how-to-create-a-task-item.md)
+- [Assign a task to a recipient](how-to-assign-a-task-to-a-recipient.md)
+- [Display the task request items sent to a recipient](how-to-display-the-task-request-items-sent-to-a-recipient.md)
+- [Respond to a task request item](how-to-respond-to-a-task-request-item.md)
+- [Create a recurring task](how-to-create-a-recurring-task.md)
+- [Flag mail items from a manager for follow-up](how-to-flag-mail-items-from-a-manager-for-follow-up.md)
 
 [Views](views.md)
 
-- [Create a View](how-to-create-a-view.md)
-- [Add Fields to a View](how-to-add-fields-to-a-view.md)
-- [Enumerate Items in a Table View](how-to-enumerate-items-in-a-table-view.md)
+- [Create a view](how-to-create-a-view.md)
+- [Add fields to a view](how-to-add-fields-to-a-view.md)
+- [Enumerate items in a table view](how-to-enumerate-items-in-a-table-view.md)
 
 
 

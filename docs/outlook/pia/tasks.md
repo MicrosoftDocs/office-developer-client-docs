@@ -14,33 +14,19 @@ This section provides examples that involve tasks. Tasks are used in Microsoft O
 
 ## In this section
 
-  - [Create a Task Item](how-to-create-a-task-item.md)  
-    Creates a task item by using the [MarkAsTask(OlMarkInterval)](https://msdn.microsoft.com/en-us/library/bb609068\(v=office.15\)) method.
+|Topic|Description|
+|:----|:----------|
+|[Create a task item](how-to-create-a-task-item.md)  |Creates a task item by using the [MarkAsTask(OlMarkInterval)](https://msdn.microsoft.com/en-us/library/bb609068\(v=office.15\)) method.|
+|[Assign a task to a recipient](how-to-assign-a-task-to-a-recipient.md)  |Creates a task and assigns it to a recipient.|
+|[Display the task request items sent to a recipient](how-to-display-the-task-request-items-sent-to-a-recipient.md)  |Displays all of the task request items that are in a recipient's Inbox.|
+|[Respond to a task request item](how-to-respond-to-a-task-request-item.md)  |Gets and responds to a task request item.|
+|[Create a recurring task](how-to-create-a-recurring-task.md)  |Creates a recurring task.|
+|[Flag mail items from a manager for follow-up](how-to-flag-mail-items-from-a-manager-for-follow-up.md)  |Flags email items that were received from the user’s manager for follow-up.|
 
-  - [Assign a Task to a Recipient](how-to-assign-a-task-to-a-recipient.md)  
-    Creates a task and assigns it to a recipient.
-
-  - [Display the Task Request Items Sent to a Recipient](how-to-display-the-task-request-items-sent-to-a-recipient.md)  
-    Displays all of the task request items that are in a recipient's Inbox.
-
-  - [Respond to a Task Request Item](how-to-respond-to-a-task-request-item.md)  
-    Gets and responds to a task request item.
-
-  - [Create a Recurring Task](how-to-create-a-recurring-task.md)  
-    Creates a recurring task.
-
-  - [Flag Mail Items from a Manager for Follow-Up](how-to-flag-mail-items-from-a-manager-for-follow-up.md)  
-    Flags email items that were received from the user’s manager for follow-up.
 
 ## See also
 
-[Calendar](calendar.md)
-
-[Recipients](recipients.md)
-
-## See also
-
-
-
-[How do I... (Outlook 2013 PIA reference)](how-do-i-outlook-2013-pia-reference.md)
+- [Calendar](calendar.md)
+- [Recipients](recipients.md)
+- [How do I... (Outlook 2013 PIA reference)](how-do-i-outlook-2013-pia-reference.md)
 

@@ -14,21 +14,14 @@ This section provides sample tasks that involve stores. A store represents a fil
 
 ## In this section
 
-  - [Get Information About Stores in a Profile](how-to-get-information-about-stores-in-a-profile.md)  
-    Gets and enumerates stores in a profile.
-
-  - [Add or Remove a Store](how-to-add-or-remove-a-store.md)  
-    Shows how to add or remove a store in a given profile.
-
-## See also
-
-[Accounts](accounts.md)
-
-[Folders](folders.md)
+|Topic|Description|
+|:----|:----------|
+|[Get information about stores in a profile](how-to-get-information-about-stores-in-a-profile.md)  |Gets and enumerates stores in a profile.|
+|[Add or remove a store](how-to-add-or-remove-a-store.md)  |Shows how to add or remove a store in a given profile.|
 
 ## See also
 
-
-
-[How do I... (Outlook 2013 PIA reference)](how-do-i-outlook-2013-pia-reference.md)
+- [Accounts](accounts.md)
+- [Folders](folders.md)
+- [How do I... (Outlook 2013 PIA reference)](how-do-i-outlook-2013-pia-reference.md)
 
