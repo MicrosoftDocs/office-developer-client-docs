@@ -1,25 +1,22 @@
 ﻿---
-title: 'Filter Recurring Appointments and Search for a String in the Subject'
-TOCTitle: 'Filter Recurring Appointments and Search for a String in the Subject'
+title: Filter recurring appointments and search for a string in the subject
+TOCTitle: Filter recurring appointments and search for a string in the subject
 ms:assetid: 997186aa-5264-4b19-bed6-51c38831c03d
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb611267(v=office.15)
 ms:contentKeyID: 55119891
 ms.date: 07/24/2014
 mtps_version: v=office.15
-
-
-
 ---
 
-# Filter Recurring Appointments and Search for a String in the Subject
+# Filter recurring appointments and search for a string in the subject
 
 This example filters recurring appointments that fall within a date range in a Calendar folder, and then searches in two ways for the string "office" in the subject.
 
 ## Example
 
-To filter recurring appointments, this code sample uses the [Items](https://msdn.microsoft.com/en-us/library/bb645287\(v=office.15\)) collection instead of the [Table](https://msdn.microsoft.com/en-us/library/bb652856\(v=office.15\)) object, because the Table object returns only the master series appointments and does not include recurring items in the folder. To include recurring appointments when calling the [Find(String)](https://msdn.microsoft.com/en-us/library/bb646289\(v=office.15\)) or [Restrict(String)](https://msdn.microsoft.com/en-us/library/bb612531\(v=office.15\)) method, the code sample sets the [IncludeRecurrences](https://msdn.microsoft.com/en-us/library/bb646522\(v=office.15\)) property of the Items collection, and then sorts appointments in the folder by their [Start](https://msdn.microsoft.com/en-us/library/bb647263\(v=office.15\)) property. It then uses a Jet query to specify start and end dates for the recurrences.
+To filter recurring appointments, this code sample uses the [Items](https://msdn.microsoft.com/en-us/library/bb645287\(v=office.15\)) collection instead of the [Table](https://msdn.microsoft.com/en-us/library/bb652856\(v=office.15\)) object, because the **Table** object returns only the master series appointments and does not include recurring items in the folder. To include recurring appointments when calling the [Find(String)](https://msdn.microsoft.com/en-us/library/bb646289\(v=office.15\)) or [Restrict(String)](https://msdn.microsoft.com/en-us/library/bb612531\(v=office.15\)) method, the code sample sets the [IncludeRecurrences](https://msdn.microsoft.com/en-us/library/bb646522\(v=office.15\)) property of the **Items** collection, and then sorts appointments in the folder by their [Start](https://msdn.microsoft.com/en-us/library/bb647263\(v=office.15\)) property. It then uses a Jet query to specify start and end dates for the recurrences.
 
-After obtaining an Items collection of recurring appointment items that fall within the specified range of dates, the code sample carries out two more searches using DAV Searching and Locating (DASL) queries. The first search uses Items.Find, [FindNext](https://msdn.microsoft.com/en-us/library/bb623799\(v=office.15\)), and the like keyword to search for items that have "office" as a substring in the subject. The second search uses the Items.Restrict method and the ci\_startswith keyword to search for items that have subjects beginning with "office."
+After obtaining an **Items** collection of recurring appointment items that fall within the specified range of dates, the code sample carries out two more searches using DAV Searching and Locating (DASL) queries. The first search uses **Items.Find**, [FindNext](https://msdn.microsoft.com/en-us/library/bb623799\(v=office.15\)), and the **like** keyword to search for items that have "office" as a substring in the subject. The second search uses the **Items.Restrict** method and the **ci\_startswith** keyword to search for items that have subjects beginning with "office."
 
 If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The **Imports** or **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following lines of code show how to do the import and assignment in Visual Basic and C\#.
 
@@ -27,9 +24,11 @@ If you use Visual Studio to test this code example, you must first add a referen
 Imports Outlook = Microsoft.Office.Interop.Outlook
 ```
 
+
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
 ```
+
 
 ```vb
 Private Sub SearchRecurringAppointments()
@@ -88,6 +87,7 @@ Private Sub SearchRecurringAppointments()
     Next
 End Sub
 ```
+
 
 ```csharp
 private void SearchRecurringAppointments()
@@ -161,7 +161,5 @@ private void SearchRecurringAppointments()
 
 ## See also
 
-
-
-[Search and Filter](search-and-filter.md)
+- [Search and filter](search-and-filter.md)
 

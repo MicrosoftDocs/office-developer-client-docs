@@ -33,20 +33,20 @@ Before calling the **Items.Restrict** method to search for appointments, GetAppo
 
 Alternatively, if you are also interested in appointments that overlap partially or entirely with the specified time range, you would specify a different filter to return additional types of appointments (as shown in Figure 1):
 
-  - Appointments that start and end within the specified time range (for example, appointment A):<br/>`[Start]>=startTime and [End]<=endTime`
+- Appointments that start and end within the specified time range (for example, appointment A):<br/><br/>`[Start]>=startTime and [End]<=endTime`
 
-  - Appointments that start before the specified time range but end within the time range (for example, appointment B):<br/>`[Start]<startTime and [End]<=endTime`
+- Appointments that start before the specified time range but end within the time range (for example, appointment B):<br/><br/>`[Start]<startTime and [End]<=endTime`
 
-  - Appointments that start within the specified time range but end after the time range (for example, appointment C):<br/>`[Start]>=startTime and [End]>endTime`
+- Appointments that start within the specified time range but end after the time range (for example, appointment C):<br/><br/>`[Start]>=startTime and [End]>endTime`
 
-  - Appointments that start before the specified time range and end after the time range (for example, appointment D):<br/> `[Start]<startTime and [End]>endTime`
+- Appointments that start before the specified time range and end after the time range (for example, appointment D):<br/><br/>`[Start]<startTime and [End]>endTime`
 
 **Figure 1. Types of appointments that occur within a time range, or overlap with that time range**
 
 ![Types of appointments that occur within a time range, or overlap with that time range](media/pia-appointment-starttime-endtime.gif)
  
 
-Because in any time range startTime\<=endTime, a filter with \[Start\]\<=endTime and \[End\]\>=startTime would capture the preceding types of appointments in that time range.
+Because in any time range `startTime<=endTime`, a filter with `[Start]<=endTime` and `[End]>=startTime` would capture the preceding types of appointments in that time range.
 
 In C\#, you can express the Jet filter as follows.
 
@@ -63,9 +63,11 @@ The following code shows the complete example. If you use Visual Studio to test 
 Imports Outlook = Microsoft.Office.Interop.Outlook
 ```
 
+
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
 ```
+
 
 ```csharp
 private void DemoAppointmentsInRange()
@@ -123,5 +125,5 @@ private Outlook.Items GetAppointmentsInRange(
 
 ## See also
 
-- [Search and Filter](search-and-filter.md)
+- [Search and filter](search-and-filter.md)
 

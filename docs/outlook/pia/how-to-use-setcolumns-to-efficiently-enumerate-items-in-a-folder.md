@@ -1,16 +1,14 @@
 ﻿---
-title: 'Use SetColumns to Efficiently Enumerate Items in a Folder'
-TOCTitle: 'Use SetColumns to Efficiently Enumerate Items in a Folder'
+title: Use SetColumns to efficiently enumerate items in a folder
+TOCTitle: Use SetColumns to efficiently enumerate items in a folder
 ms:assetid: cd7c7758-8a9c-4f1c-a49c-9305d75be341
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184641(v=office.15)
 ms:contentKeyID: 55119921
 ms.date: 07/24/2014
 mtps_version: v=office.15
-
-
 ---
 
-# Use SetColumns to Efficiently Enumerate Items in a Folder
+# Use SetColumns to efficiently enumerate items in a folder
 
 This example shows how to improve the performance of enumerating the [Items](https://msdn.microsoft.com/en-us/library/bb645287\(v=office.15\)) collection by using the [SetColumns(String)](https://msdn.microsoft.com/en-us/library/bb610268\(v=office.15\)) method to cache certain properties of each item in the collection.
 
@@ -19,9 +17,9 @@ This example shows how to improve the performance of enumerating the [Items](htt
 > [!NOTE] 
 > The following code example is an excerpt from [Programming Applications for Microsoft Office Outlook 2007](https://www.amazon.com/gp/product/0735622493?ie=UTF8&tag=msmsdn-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0735622493).
 
-To enumerate items in a collection, use the SetColumns method to cache properties on the Items collection. SetColumns takes an argument that is a comma-delimited string that represents property names. Once all items in the collection have been enumerated, call the [ResetColumns()](https://msdn.microsoft.com/en-us/library/bb624355\(v=office.15\)) method to clear the property cache.
+To enumerate items in a collection, use the **SetColumns** method to cache properties on the **Items** collection. **SetColumns** takes an argument that is a comma-delimited string that represents property names. Once all items in the collection have been enumerated, call the [ResetColumns()](https://msdn.microsoft.com/en-us/library/bb624355\(v=office.15\)) method to clear the property cache.
 
-In the following code example, EnumerateContactsWithSetColumns uses the SetColumns method to cache the [FileAs](https://msdn.microsoft.com/en-us/library/bb647792\(v=office.15\)), [CompanyName](https://msdn.microsoft.com/en-us/library/bb610212\(v=office.15\)), and [JobTitle](https://msdn.microsoft.com/en-us/library/bb609294\(v=office.15\)) properties of items in the Contacts folder. Note that you must test for empty strings or a null reference in the restriction.
+In the following code example, EnumerateContactsWithSetColumns uses the **SetColumns** method to cache the [FileAs](https://msdn.microsoft.com/en-us/library/bb647792\(v=office.15\)), [CompanyName](https://msdn.microsoft.com/en-us/library/bb610212\(v=office.15\)), and [JobTitle](https://msdn.microsoft.com/en-us/library/bb609294\(v=office.15\)) properties of items in the Contacts folder. Note that you must test for empty strings or a null reference in the restriction.
 
 Note that an Outlook folder can possibly contain items of different types. This code sample makes use of the OutlookItem helper class, defined in [Create a Helper Class to Access Common Outlook Item Members](how-to-create-a-helper-class-to-access-common-outlook-item-members.md), to conveniently call the OutlookItem.Class property to verify the message class of each item in the filtered subset of items in the folder, before assuming the item is a contact item.
 
@@ -30,6 +28,7 @@ If you use Visual Studio to test this code example, you must first add a referen
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
 ```
+
 
 ```csharp
 private void EnumerateContactsWithSetColumns()
@@ -66,7 +65,5 @@ private void EnumerateContactsWithSetColumns()
 
 ## See also
 
-
-
-[Search and Filter](search-and-filter.md)
+- [Search and filter](search-and-filter.md)
 

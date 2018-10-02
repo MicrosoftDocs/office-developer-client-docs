@@ -1,16 +1,14 @@
 ﻿---
-title: 'Filter and Display Inbox Items Modified in the Last Month'
-TOCTitle: 'Filter and Display Inbox Items Modified in the Last Month'
+title: Filter and display Inbox items modified in the last month
+TOCTitle: Filter and display Inbox items modified in the last month
 ms:assetid: ef6004dc-0b5a-4d1f-8937-1384d1dfc1ca
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff424482(v=office.15)
 ms:contentKeyID: 55119886
 ms.date: 07/24/2014
 mtps_version: v=office.15
-
-
 ---
 
-# Filter and Display Inbox Items Modified in the Last Month
+# Filter and display Inbox items modified in the last month
 
 This example shows how to filter and display Inbox items that were modified in the last month.
 
@@ -21,15 +19,15 @@ This example shows how to filter and display Inbox items that were modified in t
 
 DAV Searching and Locating (DASL) query language is based on the Microsoft Exchange implementation of DASL in Outlook. It can be used to return property-based results for item-level searches in folder data, such as that represented by a [Table](https://msdn.microsoft.com/en-us/library/bb652856\(v=office.15\)) object. DASL filters support string comparisons, including equivalence, prefix, phrase, and substring matching, by using the equal (=) operator. You can use DASL queries to perform date-time comparison and filtering.
 
-Because DASL queries always perform DateTime comparisons in Coordinated Universal Time (UTC), you must convert the local time value to UTC if you want the query to operate correctly. You must also convert the DateTime value to a string representation because DASL filters support string comparisons. You can make the DateTime conversion in two ways: by using the [LocalTimeToUTC(Object)](https://msdn.microsoft.com/en-us/library/bb645832\(v=office.15\)) method of the [Row](https://msdn.microsoft.com/en-us/library/bb610126\(v=office.15\)) object, or by using Outlook DateTime macros to make the conversion.
+Because DASL queries always perform **DateTime** comparisons in Coordinated Universal Time (UTC), you must convert the local time value to UTC if you want the query to operate correctly. You must also convert the **DateTime** value to a string representation because DASL filters support string comparisons. You can make the **DateTime** conversion in two ways: by using the [LocalTimeToUTC(Object)](https://msdn.microsoft.com/en-us/library/bb645832\(v=office.15\)) method of the [Row](https://msdn.microsoft.com/en-us/library/bb610126\(v=office.15\)) object, or by using Outlook **DateTime** macros to make the conversion.
 
-The following line of code shows how to use the LocalTimeToUTC method to convert the value of the LastModificationTime property (which is a default column in all Item objects) to UTC.
+The following line of code shows how to use the **LocalTimeToUTC** method to convert the value of the **LastModificationTime** property (which is a default column in all **Item** objects) to UTC.
 
 ```csharp
 DateTime modified = nextRow.LocalTimeUTC(“LastModificationTime”);
 ```
 
-The following table lists the DateTime macros you can use to return filtered strings that compare the value of a given DateTime property with a specified relative date or date range in UTC. The SchemaName property value represents any valid DateTime property referenced by namespace.
+The following table lists the **DateTime** macros you can use to return filtered strings that compare the value of a given **DateTime** property with a specified relative date or date range in UTC. The SchemaName property value represents any valid **DateTime** property referenced by namespace.
 
 <table>
 <colgroup>
@@ -104,13 +102,14 @@ The following table lists the DateTime macros you can use to return filtered str
 </table>
 
 
-In the following example, DemoDASLDateMacro creates a DASL query that uses the lastmonthDateTime macro to filter for items in the user’s Inbox that were modified in the last month. It then creates a Table object with that filter, and enumerates and displays the rows in the restricted Table object.
+In the following example, DemoDASLDateMacro creates a DASL query that uses the **lastmonthDateTime** macro to filter for items in the user’s Inbox that were modified in the last month. It then creates a **Table** object with that filter, and enumerates and displays the rows in the restricted **Table** object.
 
 If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
 ```
+
 
 ```csharp
 private void DemoDASLDateMacro()
@@ -130,7 +129,5 @@ private void DemoDASLDateMacro()
 
 ## See also
 
-
-
-[Search and Filter](search-and-filter.md)
+- [Search and filter](search-and-filter.md)
 
