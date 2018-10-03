@@ -62,6 +62,7 @@ This section contains constant definitions and class and interface identifiers f
 |CCSF_USE_RTF  <br/> |0x0080  <br/> |
 |CCSF_PLAIN_TEXT_ONLY  <br/> |0x1000  <br/> |
 |CCSF_NO_MSGID  <br/> |0x4000  <br/> |
+|CCSF_GLOBAL_MESSAGE  <br/> |0x00200000  <br/> |
 |E_INVALIDARG  <br/> | *As defined in the Microsoft Windows Software Development Kit (SDK) header file winerror.h*  <br/> |
    
 ### Class identifiers
