@@ -2,6 +2,7 @@
 title: Developing managed Outlook add-ins using the Outlook PIA
 TOCTitle: Developing managed Outlook add-ins using the Outlook PIA
 ms:assetid: a779f49e-656b-4726-b0c6-37c4a6f9abd1
+ms:mtpsurl: https://msdn.microsoft.com/library/office/bb646706(v=office.15)
 ms:contentKeyID: 55119781
 ms.date: 07/24/2014
 mtps_version: v=office.15

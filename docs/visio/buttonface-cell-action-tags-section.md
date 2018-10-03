@@ -24,7 +24,7 @@ Contains the ID of the button face image that appears on the action tag button.
   
 ## Remarks
 
-The string contained in the ButtonFace cell represents the ID of a Microsoft Office button face image. A value of 0 (zero) or blank defaults to the standard action tag "i" info button ![](media/InfoPS_ZA10180114.gif).
+The string contained in the ButtonFace cell represents the ID of a Microsoft Office button face image. A value of 0 (zero) or blank defaults to the standard action tag "i" info button ![Standard action tag "i" info button](media/InfoPS_ZA10180114.gif).
   
 The IDs that can be used in the ButtonFace cell are the same as the IDs used with the **FaceID** property of a **CommandBarButton** object. For more details about these IDs, search for "working with command bar button images" on MSDN. 
   

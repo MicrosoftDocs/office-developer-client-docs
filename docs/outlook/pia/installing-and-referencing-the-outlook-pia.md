@@ -2,6 +2,7 @@
 title: Installing and referencing the Outlook PIA
 TOCTitle: Installing and referencing the Outlook PIA
 ms:assetid: b1afd047-dcbb-480f-ba74-993d7d7114cb
+ms:mtpsurl: https://msdn.microsoft.com/library/office/bb646840(v=office.15)
 ms:contentKeyID: 55119774
 ms.date: 07/24/2014
 mtps_version: v=office.15

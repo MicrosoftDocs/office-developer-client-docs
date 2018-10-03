@@ -2,6 +2,7 @@
 title: Using a separate application domain to avoid crashing
 TOCTitle: Using a separate application domain to avoid crashing
 ms:assetid: 7fc6d1e5-7032-47a9-826f-6b5d3b43fef9
+ms:mtpsurl: https://msdn.microsoft.com/library/office/bb623114(v=office.15)
 ms:contentKeyID: 55119786
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,6 +2,7 @@
 title: Avoiding unsupported technologies in managed Outlook add-ins
 TOCTitle: Avoiding unsupported technologies in managed Outlook add-ins
 ms:assetid: 365fd319-725f-4c4b-b6e7-575f78ed8bda
+ms:mtpsurl: https://msdn.microsoft.com/library/office/bb610014(v=office.15)
 ms:contentKeyID: 55119789
 ms.date: 07/24/2014
 mtps_version: v=office.15

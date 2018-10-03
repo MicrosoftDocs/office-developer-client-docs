@@ -2,6 +2,7 @@
 title: What's new in the Outlook PIA reference
 TOCTitle: What's new in the Outlook PIA reference
 ms:assetid: 9863c857-2991-49af-84c7-1dd273172fe3
+ms:mtpsurl: https://msdn.microsoft.com/library/office/dn292515(v=office.15)
 ms:contentKeyID: 55119775
 ms.date: 09/15/2015
 mtps_version: v=office.15

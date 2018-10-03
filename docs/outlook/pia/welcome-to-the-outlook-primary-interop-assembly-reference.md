@@ -2,6 +2,7 @@
 title: Outlook Primary Interop Assembly reference
 TOCTitle: '@NoTitle'
 ms:assetid: 54bdde85-8dc9-4498-a1ac-f72eaf8f0cd3
+ms:mtpsurl: https://msdn.microsoft.com/library/office/bb652780(v=office.15)
 ms:contentKeyID: 55119771
 ms.date: 09/15/2015
 mtps_version: v=office.15

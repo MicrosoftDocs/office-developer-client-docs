@@ -32,7 +32,7 @@ All security settings are Office-wide and are set in the **Trust Center** (click
     
 In previous versions of Visio, settings were made in the **Security** dialog box and the **Security** tab of the **Options** dialog box (**Tools** menu). As of Office Visio 2007, these dialog boxes have been eliminated, and as of Microsoft Visio 2010, Visio toolbars and menus have been replaced by the ribbon. 
   
-For more information about settings in the Office **Trust Center**, see [Security Notes for Microsoft Office Solution Developers](https://msdn2.microsoft.com/en-us/library/aa433259.aspx).
+For more information about settings in the Office **Trust Center**, see [Security Notes for Microsoft Office Solution Developers](https://msdn.microsoft.com/en-us/library/aa433259.aspx).
   
  For information about digitally signing code and trusted sources and publishers, search for "code signing" on MSDN, the Microsoft Developer Network website. 
   

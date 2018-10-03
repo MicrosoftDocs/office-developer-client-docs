@@ -51,9 +51,9 @@ You can add, show, hide, and delete sections in the ShapeSheet.
     
 2. Point to the section title.
     
-    If the pointer changes to a minus sign ![](media/IC_SSMinus_ZA07645855.gif), you can collapse the section.
+    If the pointer changes to a minus sign ![If the pointer changes to a minus sign, collapse the section](media/IC_SSMinus_ZA07645855.gif), you can collapse the section.
     
-    If the pointer changes to a plus sign ![](media/IC_SSPlus_ZA07645856.gif), you can expand the section.
+    If the pointer changes to a plus sign ![If the pointer changes to a plus sign, expand the section](media/IC_SSPlus_ZA07645856.gif), you can expand the section.
     
 3. Click the section title.
     
