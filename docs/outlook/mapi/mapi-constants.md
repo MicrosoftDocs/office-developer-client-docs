@@ -1,13 +1,13 @@
 ---
 title: "MAPI constants"
 manager: soliver
-ms.date: 03/09/2015
+ms.date: 10/02/2018
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8fa5ac8d-3f63-499c-bb4e-439984773e4a
-description: "Last modified: March 09, 2015"
+description: Constant definitions, MAPI interface declarations, and class and interface identifiers used by the MAPI APIs.
 ---
 
 # MAPI constants
@@ -62,6 +62,7 @@ This section contains constant definitions and class and interface identifiers f
 |CCSF_USE_RTF  <br/> |0x0080  <br/> |
 |CCSF_PLAIN_TEXT_ONLY  <br/> |0x1000  <br/> |
 |CCSF_NO_MSGID  <br/> |0x4000  <br/> |
+|CCSF_GLOBAL_MESSAGE  <br/> |0x00200000  <br/> |
 |E_INVALIDARG  <br/> | *As defined in the Microsoft Windows Software Development Kit (SDK) header file winerror.h*  <br/> |
    
 ### Class identifiers
