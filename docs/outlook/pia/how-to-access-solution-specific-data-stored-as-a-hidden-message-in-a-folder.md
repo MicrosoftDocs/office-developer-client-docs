@@ -2,7 +2,7 @@
 title: Access solution-specific data stored as a hidden message in a folder
 TOCTitle: Access solution-specific data stored as a hidden message in a folder
 ms:assetid: bacf0562-1026-4c3b-87b0-4eaad5033592
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb623414(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb623414(v=office.15)
 ms:contentKeyID: 55119861
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Access solution-specific data stored as a hidden message in a folder
 
-This example shows how to use the [StorageItem](https://msdn.microsoft.com/en-us/library/bb623436\(v=office.15\)) object to retrieve data that is stored as a hidden message of a specific message class in a folder.
+This example shows how to use the [StorageItem](https://msdn.microsoft.com/library/bb623436\(v=office.15\)) object to retrieve data that is stored as a hidden message of a specific message class in a folder.
 
 ## Example
 
@@ -18,7 +18,7 @@ The **StorageItem** object is typically used to hide solution-specific data that
 
 The following code sample retrieves the XML data that is stored as a hidden message in the Calendar folder with the message class equal to IPM.Configuration.WorkHours.
 
-The [PropertyAccessor](https://msdn.microsoft.com/en-us/library/bb646034\(v=office.15\)) object returns the XML as an object that contains a byte stream rather than a string representation of the XML. The code sample uses **System.Text.Encoding.Ascii.GetString** to convert the byte stream to a string.
+The [PropertyAccessor](https://msdn.microsoft.com/library/bb646034\(v=office.15\)) object returns the XML as an object that contains a byte stream rather than a string representation of the XML. The code sample uses **System.Text.Encoding.Ascii.GetString** to convert the byte stream to a string.
 
 If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The **Imports** or **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following lines of code show how to do the import and assignment in Visual Basic and C\#.
 
@@ -43,7 +43,7 @@ Private Function GetWorkHoursXML() As String
         Dim pa As Outlook.PropertyAccessor = storage.PropertyAccessor
         ' PropertyAccessor will return a byte array for this property
         Dim rawXmlBytes As Byte() = CType(pa.GetProperty( _
-            "http://schemas.microsoft.com/mapi/proptag/0x7C080102"), _
+            "https://schemas.microsoft.com/mapi/proptag/0x7C080102"), _
             Byte())
         ' Use Encoding to convert the array to a string
         Return System.Text.Encoding.ASCII.GetString(rawXmlBytes)
@@ -66,7 +66,7 @@ private string GetWorkHoursXML()
         Outlook.PropertyAccessor pa = storage.PropertyAccessor;
         // PropertyAccessor will return a byte array for this property
         byte[] rawXmlBytes = (byte[])pa.GetProperty(
-            "http://schemas.microsoft.com/mapi/proptag/0x7C080102");
+            "https://schemas.microsoft.com/mapi/proptag/0x7C080102");
         // Use Encoding to convert the array to a string
         return System.Text.Encoding.ASCII.GetString(rawXmlBytes);
     }

@@ -37,7 +37,7 @@ HRESULT IConverterSession:: MIMEToMAPI (
 
  _pstm_
   
-> [in] [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) interface to a MIME stream. 
+> [in] [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) interface to a MIME stream. 
     
  _pmsg_
   

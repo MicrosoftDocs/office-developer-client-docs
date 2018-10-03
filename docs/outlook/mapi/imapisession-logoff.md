@@ -62,7 +62,7 @@ S_OK
     
 ## Remarks
 
-The **IMAPISession::Logoff** method ends a MAPI session. When **Logoff** returns, none of the methods except for [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) can be called. 
+The **IMAPISession::Logoff** method ends a MAPI session. When **Logoff** returns, none of the methods except for [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) can be called. 
   
 ## Notes to callers
 

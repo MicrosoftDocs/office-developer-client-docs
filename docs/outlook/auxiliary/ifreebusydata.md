@@ -16,7 +16,7 @@ For a given user, gets and sets a time range and returns an interface for enumer
 
 |||
 |:-----|:-----|
-|Inherits from:  <br/> |[IUnknown](http://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) <br/> |
+|Inherits from:  <br/> |[IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) <br/> |
 |Provided by:  <br/> |Free/busy provider  <br/> |
 |Interface identifier:  <br/> |IID_IFreeBusyData  <br/> |
    

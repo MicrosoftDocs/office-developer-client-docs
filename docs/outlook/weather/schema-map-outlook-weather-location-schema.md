@@ -20,12 +20,12 @@ This topic shows the schema definition for the Outlook Weather Location XML Sche
 <?xml version="1.0" ?>
 <xs:schema
   attributeFormDefault="unqualified" elementFormDefault="qualified"
-xmlns:xs="http://www.w3.org/2001/XMLSchema"
-targetNamespace= "http://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd"
-xmlns="http://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd"
+xmlns:xs="https://www.w3.org/2001/XMLSchema"
+targetNamespace= "https://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd"
+xmlns="https://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd"
 >
   <!-- get weather location  -->
-  <!-- example query: http://weather.service.msn.com/data.aspx?outputview=search&amp;weasearchstr=tsurumi -->
+  <!-- example query: https://weather.service.msn.com/data.aspx?outputview=search&amp;weasearchstr=tsurumi -->
   
   <xs:element name="weatherdata">
     <xs:annotation>

@@ -22,7 +22,7 @@ A canonical property is a virtual property that represents a MAPI property, or m
   
 ## Naming Conventions
 
-Canonical property names begin with a prefix, "Pid", which represents "property identifier." Depending on whether the property is a tagged property, a named property with a numerical identifier, or a named property with a string name, the prefix is further qualified as "PidTag," "PidLid," and "PidName" respectively. For example, [PidTagAccount](pidtagaccount-canonical-property.md) represents the tagged properties, **PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md)), **PR_ACCOUNT_A** ([PidTagAccount](pidtagaccount-canonical-property.md)), and **PR_ACCOUNT_W** ([PidTagAccount](pidtagaccount-canonical-property.md)), that specify a recipient's account name; [PidLidContacts](pidlidcontacts-canonical-property.md) represents the **dispidContacts** property, a named property that has a numerical identifier and that specifies the name of contacts associated with a message; and [PidNamePhishingStamp](pidnamephishingstamp-canonical-property.md) represents "http://schemas.microsoft.com/outlook/phishingstamp," a named property that has a string name, and that specifies the string marking messages that are likely to be phishing. 
+Canonical property names begin with a prefix, "Pid", which represents "property identifier." Depending on whether the property is a tagged property, a named property with a numerical identifier, or a named property with a string name, the prefix is further qualified as "PidTag," "PidLid," and "PidName" respectively. For example, [PidTagAccount](pidtagaccount-canonical-property.md) represents the tagged properties, **PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md)), **PR_ACCOUNT_A** ([PidTagAccount](pidtagaccount-canonical-property.md)), and **PR_ACCOUNT_W** ([PidTagAccount](pidtagaccount-canonical-property.md)), that specify a recipient's account name; [PidLidContacts](pidlidcontacts-canonical-property.md) represents the **dispidContacts** property, a named property that has a numerical identifier and that specifies the name of contacts associated with a message; and [PidNamePhishingStamp](pidnamephishingstamp-canonical-property.md) represents "https://schemas.microsoft.com/outlook/phishingstamp," a named property that has a string name, and that specifies the string marking messages that are likely to be phishing. 
   
 ## Representing Similar Properties Using One Canonical Property
 
@@ -68,7 +68,7 @@ If you must use canonical property names in your code, you must first define the
   
 ## Canonical Property Names and Exchange Protocol Specifications
 
-Canonical names are referenced in Microsoft Exchange Server protocol specifications that are used by Exchange Server to communicate with other Microsoft products. For more information about message object properties referenced by Exchange protocol specifications, see [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx).
+Canonical names are referenced in Microsoft Exchange Server protocol specifications that are used by Exchange Server to communicate with other Microsoft products. For more information about message object properties referenced by Exchange protocol specifications, see [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx).
   
 ## See also
 

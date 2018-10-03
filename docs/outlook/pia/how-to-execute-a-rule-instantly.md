@@ -2,7 +2,7 @@
 title: Execute a rule instantly
 TOCTitle: Execute a rule instantly
 ms:assetid: b41031d5-aa81-40e2-ae78-b45a2f79eb5d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff424476(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff424476(v=office.15)
 ms:contentKeyID: 55119919
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Execute a rule instantly
 
-This example shows how to execute a rule instantly by using the [Execute(Object, Object, Object, Object)](https://msdn.microsoft.com/en-us/library/bb645769\(v=office.15\)) method of the [Rule](https://msdn.microsoft.com/en-us/library/bb647152\(v=office.15\)) object.
+This example shows how to execute a rule instantly by using the [Execute(Object, Object, Object, Object)](https://msdn.microsoft.com/library/bb645769\(v=office.15\)) method of the [Rule](https://msdn.microsoft.com/library/bb647152\(v=office.15\)) object.
 
 ## Example
 
@@ -56,7 +56,7 @@ You can cancel a rule execution by using the Rules and Alerts Wizard. You can al
 In the following code example, ExecuteManagerRule gets the rule that was created in the procedure CreateManagerRule from the topic [Create a Rule to File Mail Items from a Manager and Flag Them for Follow-Up](how-to-create-a-rule-to-file-mail-items-from-a-manager-and-flag-them-for-follow-up.md). ExecuteManagerRule then checks whether the rule is not a null reference. If the rule is not a null reference, ExecuteManagerRule calls the **Execute** method on the rule with default parameters, instantly executing the rule.
 
 > [!NOTE]
-> To apply a rule once, regardless of whether the [Enabled](https://msdn.microsoft.com/en-us/library/bb609147(v=office.15)) property returns **true**, use the **Rule.Execute** method. To apply the rule for the current session and beyond the current session, use both the **Rule.Enabled** property and the [Save(Object)](https://msdn.microsoft.com/en-us/library/bb610738(v=office.15)) method.
+> To apply a rule once, regardless of whether the [Enabled](https://msdn.microsoft.com/library/bb609147(v=office.15)) property returns **true**, use the **Rule.Execute** method. To apply the rule for the current session and beyond the current session, use both the **Rule.Enabled** property and the [Save(Object)](https://msdn.microsoft.com/library/bb610738(v=office.15)) method.
 
 If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
 

@@ -54,11 +54,11 @@ S_OK
     
 ## Remarks
 
-The **IMAPISession::PrepareForm** method creates a message token for the message pointed to by the  _lpMessage_ parameter and calls the message's [IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) method. This token is passed in the  _ulMessageToken_ parameter to **IMAPISession::ShowForm**. 
+The **IMAPISession::PrepareForm** method creates a message token for the message pointed to by the  _lpMessage_ parameter and calls the message's [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) method. This token is passed in the  _ulMessageToken_ parameter to **IMAPISession::ShowForm**. 
   
 ## Notes to callers
 
-If the call to **PrepareForm** succeeds, release the message pointed to by  _lpMessage_ by calling its [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) method before you call **ShowForm**. Failure to release the message before you call **ShowForm** can cause memory leaks. 
+If the call to **PrepareForm** succeeds, release the message pointed to by  _lpMessage_ by calling its [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) method before you call **ShowForm**. Failure to release the message before you call **ShowForm** can cause memory leaks. 
   
 ## MFCMAPI reference
 

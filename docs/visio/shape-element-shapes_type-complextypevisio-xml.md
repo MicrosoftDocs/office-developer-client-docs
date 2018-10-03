@@ -21,7 +21,7 @@ Contains elements that define a shape in a **Master**, **Page**, or group shape 
 |||
 |:-----|:-----|
 |**Element type** <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |page#.xml, master#.xml  <br/> |
    

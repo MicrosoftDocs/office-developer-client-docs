@@ -21,13 +21,13 @@ Office Add-ins is an extensibility model that is supported in several Office 201
 For example, a Project add-in can summarize data in the active project and show additional data about a selected task or resource. Related data in the add-in can come from an external source such as a SharePoint list, reporting tables in the Project Server database, a web service, or another enterprise application. A task pane add-in can be developed with HTML 5, JavaScript, JQuery and other JavaScript libraries. A task pane add-in does not directly support ActiveX, Silverlight, or Flash components. Although an Office Add-in could use an **IFrame** element to access a server-side web application that uses ASP.NET and the .NET Framework 4.5 library, that kind of solution is not recommended or supported. The add-in can be developed to save data locally or write data to an external location. 
   
 > [!NOTE]
-> Task pane Project Add-ins can access data from Project Online by using OAuth authentication. With Project Professional 2013, you can develop task pane add-ins that access both on-premises installations of Project Server 2013 and on-premises or online SharePoint 2013. For example, see [Connecting a Project Task Pane add-in to PWA](http://blogs.msdn.com/b/project_programmability/archive/2012/11/02/connecting-a-project-task-pane-app-to-pwa.aspx) in the Project Programmibility blog. > Project Standard 2013 does not support direct integration with Project Server data or SharePoint task lists that are synchronized with Project Server. 
+> Task pane Project Add-ins can access data from Project Online by using OAuth authentication. With Project Professional 2013, you can develop task pane add-ins that access both on-premises installations of Project Server 2013 and on-premises or online SharePoint 2013. For example, see [Connecting a Project Task Pane add-in to PWA](https://blogs.msdn.com/b/project_programmability/archive/2012/11/02/connecting-a-project-task-pane-app-to-pwa.aspx) in the Project Programmibility blog. > Project Standard 2013 does not support direct integration with Project Server data or SharePoint task lists that are synchronized with Project Server. 
   
-For more information about add-ins for Office 2013, see [Office and SharePoint Add-ins](http://msdn.microsoft.com/en-us/library/office/fp161507%28v=office.15%29). 
+For more information about add-ins for Office 2013, see [Office and SharePoint Add-ins](https://msdn.microsoft.com/library/office/fp161507%28v=office.15%29). 
   
 ## Developing task pane add-ins
 
-The developer documentation for Office and SharePoint Add-ins includes comprehensive articles and references. For an introduction to developing add-ins for Project Professional 2013 and other Office 2013 client applications, and for the JavaScript reference and XML manifest reference, see [Office Add-ins](http://msdn.microsoft.com/en-us/library/office/apps/jj220060%28v=office.15%29).
+The developer documentation for Office and SharePoint Add-ins includes comprehensive articles and references. For an introduction to developing add-ins for Project Professional 2013 and other Office 2013 client applications, and for the JavaScript reference and XML manifest reference, see [Office Add-ins](https://msdn.microsoft.com/library/office/apps/jj220060%28v=office.15%29).
   
 The Project 2013 SDK download includes the **Project OM Test** sample add-in that shows how to get the GUID of a task, resource, and view, how to get properties of the active project, and how to set a task, resource, or view selection changed event handler. When you extract and install the SDK and samples in the Project2013SDK.msi file, see the  `\Samples\Apps\Copy_to_AppSource_FileShare` subdirectory and the  `\Samples\Apps\Copy_to_AppManifests_FileShare` subdirectory. The JSOMCall.html sample uses JavaScript functions in the office.js file and project-15.js file, which are included in the download. You can use the corresponding debug files (office.debug.js and project-15.debug.js) to examine the functions. 
   
@@ -36,14 +36,14 @@ The **HelloProject_OData** sample add-in for Project Professional 2013 was devel
 ## See also
 <a name="bk_addresources"> </a>
 
-- [Task pane add-ins for Project](http://msdn.microsoft.com/en-us/library/office/apps/fp161143%28v=office.15%29)
+- [Task pane add-ins for Project](https://msdn.microsoft.com/library/office/apps/fp161143%28v=office.15%29)
     
-- [Connecting a Project Task Pane add-in to PWA](http://blogs.msdn.com/b/project_programmability/archive/2012/11/02/connecting-a-project-task-pane-app-to-pwa.aspx)
+- [Connecting a Project Task Pane add-in to PWA](https://blogs.msdn.com/b/project_programmability/archive/2012/11/02/connecting-a-project-task-pane-app-to-pwa.aspx)
     
 - [Project 2013 SDK download](https://www.microsoft.com/en-us/download/details.aspx?id=30435%20)
     
-- [Office and SharePoint Add-ins](http://msdn.microsoft.com/en-us/library/office/fp161507%28v=office.15%29)
+- [Office and SharePoint Add-ins](https://msdn.microsoft.com/library/office/fp161507%28v=office.15%29)
     
-- [Office Add-ins](http://msdn.microsoft.com/en-us/library/office/apps/jj220060%28v=office.15%29)
+- [Office Add-ins](https://msdn.microsoft.com/library/office/apps/jj220060%28v=office.15%29)
     
 

@@ -40,5 +40,5 @@ The recommended method of deploying a Outlook Social Connector (OSC) provider is
   
 ## See also
 
-- [How to manage the Outlook Social Connector by using Group Policy](http://support.microsoft.com/default.aspx?scid=kb%3Ben-US%3B2020103)
+- [How to manage the Outlook Social Connector by using Group Policy](https://support.microsoft.com/default.aspx?scid=kb%3Ben-US%3B2020103)
 

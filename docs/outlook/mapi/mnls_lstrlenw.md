@@ -21,7 +21,7 @@ description: "Last modified: February 21, 2012"
 Determines the length of the specified Unicode string, excluding the terminating null character.
   
 > [!TIP]
-> Consider using [StringCchLength](http://msdn.microsoft.com/en-us/library/ms647539%28VS.85%29.aspx) instead. 
+> Consider using [StringCchLength](https://msdn.microsoft.com/library/ms647539%28VS.85%29.aspx) instead. 
   
 ```cpp
 int MNLS_lstrlen(
@@ -40,13 +40,13 @@ The function returns an integer with the length of the string. It is a count of 
   
 ## Remarks
 
-This function wraps the **lstrlen** function. For more information, see [lstrlen](http://msdn.microsoft.com/en-us/library/ms647492%28VS.85%29.aspx).
+This function wraps the **lstrlen** function. For more information, see [lstrlen](https://msdn.microsoft.com/library/ms647492%28VS.85%29.aspx).
   
 ## See also
 
 
 
-[lstrlen](http://msdn.microsoft.com/en-us/library/ms647492%28VS.85%29.aspx)
+[lstrlen](https://msdn.microsoft.com/library/ms647492%28VS.85%29.aspx)
   
-[StringCchLength](http://msdn.microsoft.com/en-us/library/ms647539%28VS.85%29.aspx)
+[StringCchLength](https://msdn.microsoft.com/library/ms647539%28VS.85%29.aspx)
 

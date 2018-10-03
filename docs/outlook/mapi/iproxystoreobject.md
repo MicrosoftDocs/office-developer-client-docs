@@ -28,7 +28,7 @@ Provides an Internet Message Access Protocol (IMAP) store object that has been u
 
 |||
 |:-----|:-----|
-|Inherited from:  <br/> |[IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx) <br/> |
+|Inherited from:  <br/> |[IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) <br/> |
 |Provided By:  <br/> |Message store provider  <br/> |
 |Interface identifier:  <br/> |**IID_IProxyStoreObject** <br/> |
    
@@ -42,8 +42,8 @@ Provides an Internet Message Access Protocol (IMAP) store object that has been u
    
 ## Remarks
 
-Call [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx) on the source message store to obtain the **IProxyStoreObject** interface. Then call **IProxyStoreObject::UnwrapNoRef** to obtain the unwrapped store object. If **QueryInterface** returns the error **MAPI_E_INTERFACE_NOT_SUPPORTED**, then the store has not been wrapped. 
+Call [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) on the source message store to obtain the **IProxyStoreObject** interface. Then call **IProxyStoreObject::UnwrapNoRef** to obtain the unwrapped store object. If **QueryInterface** returns the error **MAPI_E_INTERFACE_NOT_SUPPORTED**, then the store has not been wrapped. 
   
-Because **UnwrapNoRef** does not increment the reference count for this new pointer to the unwrapped store object, after successfully calling **UnwrapNoRef**, you should call [IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) to maintain the reference count. 
+Because **UnwrapNoRef** does not increment the reference count for this new pointer to the unwrapped store object, after successfully calling **UnwrapNoRef**, you should call [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) to maintain the reference count. 
   
 

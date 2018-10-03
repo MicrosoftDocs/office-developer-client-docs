@@ -123,7 +123,7 @@ If a client logs on to your provider more than once, you may want to register a 
   
 The support object that MAPI passes to your **Logon** method in the  _lpMAPISup_ parameter provides access to many of the methods included in the [IMAPISupport : IUnknown](imapisupportiunknown.md) interface. MAPI creates a support object that is customized to your type of provider. For example, if you need to log on to an underlying messaging system or directory service when you establish your connection, you can call the [IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md) method to retrieve security credentials for this particular logon session. 
   
-If **Logon** is successful, be sure that you call the support object's [IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28VS.85%29.aspx) method to increment its reference count. This enables your provider to hold onto the support object pointer for the rest of the session. If you do not call this **AddRef** method, MAPI will unload your provider. 
+If **Logon** is successful, be sure that you call the support object's [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) method to increment its reference count. This enables your provider to hold onto the support object pointer for the rest of the session. If you do not call this **AddRef** method, MAPI will unload your provider. 
   
 You can include the profile name passed in the  _lpszProfileName_ parameter in error dialog boxes, logon screens, or other user interfaces. To use the profile name, copy it to storage that you have allocated. 
   

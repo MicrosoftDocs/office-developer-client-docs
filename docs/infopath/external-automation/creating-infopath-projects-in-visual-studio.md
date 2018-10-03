@@ -18,9 +18,9 @@ This section discusses how to create an InfoPath COM Add-in.
     
 ## Related sections
 
-- [Developing InfoPath Form Templates with Code](http://msdn.microsoft.com/library/b43ada73-349d-498f-a8bb-e8fd5020d207%28Office.15%29.aspx): Describes how to create projects for InfoPath form templates that have business logic written in managed code (Visual Basic or C#) against members of the [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) namespace. 
+- [Developing InfoPath Form Templates with Code](https://msdn.microsoft.com/library/b43ada73-349d-498f-a8bb-e8fd5020d207%28Office.15%29.aspx): Describes how to create projects for InfoPath form templates that have business logic written in managed code (Visual Basic or C#) against members of the [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) namespace. 
     
-- [Developing Form Templates Using the InfoPath 2003 Object Model](http://msdn.microsoft.com/library/c74cbcd0-4fe6-4eb7-a05c-f61e1868c42b%28Office.15%29.aspx): Describes how to create projects for InfoPath form templates that have business logic written in managed code (Visual Basic or C#) against members of the InfoPath 2003-compatible object model provided by the [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) namespace. 
+- [Developing Form Templates Using the InfoPath 2003 Object Model](https://msdn.microsoft.com/library/c74cbcd0-4fe6-4eb7-a05c-f61e1868c42b%28Office.15%29.aspx): Describes how to create projects for InfoPath form templates that have business logic written in managed code (Visual Basic or C#) against members of the InfoPath 2003-compatible object model provided by the [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) namespace. 
     
 - [Automating InfoPath from Other Applications](automating-infopath-from-other-applications.md): Describes the InfoPath primary interop and XML interop assemblies and how their types and members are used to automate InfoPath from external applications using managed code.
     

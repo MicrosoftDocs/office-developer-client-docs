@@ -105,8 +105,8 @@ Schema format:
 
 - [Integrate with Office](integrate-with-office.md)
     
-- [PackageManager](http://developer.android.com/reference/android/content/pm/PackageManager.html)
+- [PackageManager](https://developer.android.com/reference/android/content/pm/PackageManager.html)
     
-- [GetPackageManager()](http://developer.android.com/reference/android/content/Context.html)
+- [GetPackageManager()](https://developer.android.com/reference/android/content/Context.html)
     
 

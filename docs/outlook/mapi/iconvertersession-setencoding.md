@@ -30,7 +30,7 @@ HRESULT IConverterSession:: SetEncoding (
 
 _et_
   
-> An [ENCODINGTYPE](http://msdn.microsoft.com/en-us/library/aa374936%28VS.85%29.aspx) value. Only the following values are supported: 
+> An [ENCODINGTYPE](https://msdn.microsoft.com/library/aa374936%28VS.85%29.aspx) value. Only the following values are supported: 
     
    - IET_BASE64
    - IET_UUENCODE

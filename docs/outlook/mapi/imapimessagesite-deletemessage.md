@@ -39,7 +39,7 @@ HRESULT DeleteMessage(
     
  _prcPosRect_
   
-> [in] A pointer to a [RECT](http://msdn.microsoft.com/en-us/library/dd162897%28VS.85%29.aspx) structure that contains the current form's window size and position. The next form displayed also uses this window rectangle. 
+> [in] A pointer to a [RECT](https://msdn.microsoft.com/library/dd162897%28VS.85%29.aspx) structure that contains the current form's window size and position. The next form displayed also uses this window rectangle. 
     
 ## Return value
 
@@ -73,7 +73,7 @@ A typical implementation of **DeleteMessage** performs the following tasks:
     
 4. It deletes or moves the message.
     
-To obtain the **RECT** structure used by a form's window, call the Windows [GetWindowRect](http://msdn.microsoft.com/en-us/library/ms633519) function. 
+To obtain the **RECT** structure used by a form's window, call the Windows [GetWindowRect](https://msdn.microsoft.com/library/ms633519) function. 
   
 For a list of interfaces related to form servers, see [MAPI Form Interfaces](mapi-form-interfaces.md).
   

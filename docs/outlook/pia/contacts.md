@@ -2,7 +2,7 @@
 title: Contacts
 TOCTitle: Contacts
 ms:assetid: e988de54-6b1e-4e83-a226-3a898903608f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184649(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff184649(v=office.15)
 ms:contentKeyID: 55119820
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Contacts
 
-This section provides sample topics that involve contacts. Contacts represent people and businesses you want to communicate with. The Contacts folder is your email address book and information storage for the contacts. A [ContactItem](https://msdn.microsoft.com/en-us/library/bb644956\(v=office.15\)) object is an Outlook built-in object that represents unique contacts in a Contacts folder. The **ContactItem** object has over 100 properties, such as [FirstName](https://msdn.microsoft.com/en-us/library/bb652965\(v=office.15\)), [CompanyName](https://msdn.microsoft.com/en-us/library/bb610212\(v=office.15\)), and [OfficeLocation](https://msdn.microsoft.com/en-us/library/bb647145\(v=office.15\)), as well as custom properties if the built-in properties are not sufficient, that you can use to store information about each contact.
+This section provides sample topics that involve contacts. Contacts represent people and businesses you want to communicate with. The Contacts folder is your email address book and information storage for the contacts. A [ContactItem](https://msdn.microsoft.com/library/bb644956\(v=office.15\)) object is an Outlook built-in object that represents unique contacts in a Contacts folder. The **ContactItem** object has over 100 properties, such as [FirstName](https://msdn.microsoft.com/library/bb652965\(v=office.15\)), [CompanyName](https://msdn.microsoft.com/library/bb610212\(v=office.15\)), and [OfficeLocation](https://msdn.microsoft.com/library/bb647145\(v=office.15\)), as well as custom properties if the built-in properties are not sufficient, that you can use to store information about each contact.
 
 ## In this section
 

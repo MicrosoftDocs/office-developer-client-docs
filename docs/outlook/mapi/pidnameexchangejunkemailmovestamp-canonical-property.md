@@ -28,7 +28,7 @@ Contains the persisted message value that indicates that the message should not 
 |:-----|:-----|
 |Friendly names:  <br/> |None  <br/> |
 |Property set:  <br/> |PS_PUBLIC_STRINGS  <br/> |
-|Property name:  <br/> |http://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |
+|Property name:  <br/> |https://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |
 |Data type:  <br/> |PT_LONG  <br/> |
 |Area:  <br/> |Secure messaging  <br/> |
    
@@ -40,15 +40,15 @@ This property is stamped on every message that is moved by the Junk E-Mail Rule 
 
 ### Protocol specifications
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Provides property set definitions and references to related Exchange Server protocol specifications.
     
-[[MS-OXCSPAM]](http://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
+[[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
 > Enables the handling of allow/block lists and the determination of junk email messages.
     
-[[MS-OXORSS]](http://msdn.microsoft.com/library/53bc9634-0040-4b5a-aecd-29781d826009%28Office.15%29.aspx)
+[[MS-OXORSS]](https://msdn.microsoft.com/library/53bc9634-0040-4b5a-aecd-29781d826009%28Office.15%29.aspx)
   
 > Specifies the properties and operations that represent RSS items.
     

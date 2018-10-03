@@ -98,7 +98,7 @@ For Troubleshooting tips, see [How to configure an Outlook profile using MFCMAPI
   
 ## See also
 
-- [Outlook MAPI Reference](https://msdn.microsoft.com/en-us/library/office/cc765775.aspx)  
-- [Programmatically Create a Profile in Outlook](https://msdn.microsoft.com/en-us/library/office/mt707568.aspx)
+- [Outlook MAPI Reference](https://msdn.microsoft.com/library/office/cc765775.aspx)  
+- [Programmatically Create a Profile in Outlook](https://msdn.microsoft.com/library/office/mt707568.aspx)
     
 

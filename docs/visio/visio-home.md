@@ -32,9 +32,9 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
   
 ### Downloads
   
-- [Visio 2013 SDK download](http://www.microsoft.com/download/details.aspx?id=36825)
+- [Visio 2013 SDK download](https://www.microsoft.com/download/details.aspx?id=36825)
 
-- [Visio 2016 SDK download](http://www.microsoft.com/download/details.aspx?id=51221)  
+- [Visio 2016 SDK download](https://www.microsoft.com/download/details.aspx?id=51221)  
 
 ### Other resources
   

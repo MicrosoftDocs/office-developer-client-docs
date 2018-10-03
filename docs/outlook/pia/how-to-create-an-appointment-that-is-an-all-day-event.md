@@ -2,7 +2,7 @@
 title: Create an appointment that is an all-day event
 TOCTitle: Create an appointment that is an all-day event
 ms:assetid: a0d3baeb-6ed5-41b6-bef5-d6c1bb56fee3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184629(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff184629(v=office.15)
 ms:contentKeyID: 55119806
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Create an appointment that is an all-day event
 
-This example shows how use the [AllDayEvent](https://msdn.microsoft.com/en-us/library/bb610279\(v=office.15\)) property to create an appointment that is an all-day event.
+This example shows how use the [AllDayEvent](https://msdn.microsoft.com/library/bb610279\(v=office.15\)) property to create an appointment that is an all-day event.
 
 ## Example
 
@@ -19,7 +19,7 @@ This example shows how use the [AllDayEvent](https://msdn.microsoft.com/en-us/li
 
 An event is different from a regular appointment because it is an activity that lasts 24 hours or longer. Examples of events include trade shows, seminars, or vacations. Events and annual events do not appear as occupied blocks of time in the user’s calendar. Instead, they appear as banners. You can see the banners at the top of a calendar day or week view. For an all-day appointment, by default, the user’s time is displayed as busy when viewed by other people, but the user’s time is displayed as free for an event or annual event.
 
-To create an all-day event programmatically, set the [AllDayEvent](https://msdn.microsoft.com/en-us/library/bb610279\(v=office.15\)) property of the [AppointmentItem](https://msdn.microsoft.com/en-us/library/bb645611\(v=office.15\)) object to true. Then set the [Start](https://msdn.microsoft.com/en-us/library/bb647263\(v=office.15\)) and [End](https://msdn.microsoft.com/en-us/library/bb623715\(v=office.15\)) properties of the AppointmentItem. If you set the AllDayEvent property to true and do not set the Start and End properties, the event will occur today, and it will be an appointment, showing a busy status on your calendar. You must set the Start and End properties if you want the event to occur on a future date.
+To create an all-day event programmatically, set the [AllDayEvent](https://msdn.microsoft.com/library/bb610279\(v=office.15\)) property of the [AppointmentItem](https://msdn.microsoft.com/library/bb645611\(v=office.15\)) object to true. Then set the [Start](https://msdn.microsoft.com/library/bb647263\(v=office.15\)) and [End](https://msdn.microsoft.com/library/bb623715\(v=office.15\)) properties of the AppointmentItem. If you set the AllDayEvent property to true and do not set the Start and End properties, the event will occur today, and it will be an appointment, showing a busy status on your calendar. You must set the Start and End properties if you want the event to occur on a future date.
 
 > [!NOTE]
 > To make the appointment an all-day event, you must set the Start property to 12:00 A.M. (midnight) on the day you want the event to begin, and set End property to 12:00 A.M. on the day after you want the event to end. If you set the Start or End time to a date and time value other than 12:00 A.M., the appointment will become a multiday appointment instead of an all-day event. 

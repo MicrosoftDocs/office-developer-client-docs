@@ -11,7 +11,7 @@ description: "A meeting request is an email that has IPM.Schedule.Meeting.Reques
 
 # About meeting requests as informational updates and full updates
 
-A meeting request is an email that has **IPM.Schedule.Meeting.Request** as the message class. By default, an attendee receiving a meeting request responds to it directly. Outlook supports setting up delegates who can respond to meeting requests on behalf of the principal recipient. Programmatically, Outlook sets the named property [PidLidMeetingType](http://msdn.microsoft.com/library/290b290c-7836-4a7e-bf1a-8d0225a07e56%28Office.15%29.aspx) of a meeting request to identify the current update status. 
+A meeting request is an email that has **IPM.Schedule.Meeting.Request** as the message class. By default, an attendee receiving a meeting request responds to it directly. Outlook supports setting up delegates who can respond to meeting requests on behalf of the principal recipient. Programmatically, Outlook sets the named property [PidLidMeetingType](https://msdn.microsoft.com/library/290b290c-7836-4a7e-bf1a-8d0225a07e56%28Office.15%29.aspx) of a meeting request to identify the current update status. 
   
 ## Recipients without delegates
 

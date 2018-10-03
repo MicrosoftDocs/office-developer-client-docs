@@ -78,12 +78,12 @@ Use the following Windows PowerShell cmdlets to work with UDFs:
 
 The following files provide a sample workbook that uses a UDF and the UDF binary:
   
-- [BooleanDataType.xlsx](http://download.microsoft.com/download/6/7/F/67F724FD-1186-4209-BFF1-FBFD99E959D9/User%20Defined%20Function%20Assemblies/BooleanDataType.xlsx) -- a sample workbook that uses a UDF  
+- [BooleanDataType.xlsx](https://download.microsoft.com/download/6/7/F/67F724FD-1186-4209-BFF1-FBFD99E959D9/User%20Defined%20Function%20Assemblies/BooleanDataType.xlsx) -- a sample workbook that uses a UDF  
 - [EcsUdfsCommonSet.dll](https://www.microsoft.com/en-us/search/result.aspx?q=EcsUdfsCommonSet.dll) -- the UDF binary 
     
 ## See also
 
-- [Configure Excel Online administrative settings](https://docs.microsoft.com/en-us/officeonlineserver/configure-excel-online-administrative-settings)  
-- [Office Online Server](https://docs.microsoft.com/en-us/officeonlineserver/office-online-server)
+- [Configure Excel Online administrative settings](https://docs.microsoft.com/officeonlineserver/configure-excel-online-administrative-settings)  
+- [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server)
     
 

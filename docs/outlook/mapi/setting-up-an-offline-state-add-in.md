@@ -18,7 +18,7 @@ After you set up an offline state add-in, you must implement functions to monito
   
 ## On Connection routine
 
-The **[IDTExtensibility2.OnConnection Method](http://msdn.microsoft.com/en-us/library/extensibility.idtextensibility2.onconnection%28v=VS.80%29.aspx)** is called every time an add-in is loaded. It is the entry point for the add-in, so the code you put in the  `OnConnection` function will be called when the add-in starts. In the following example, the  `OnConnection` function calls the  `HrInitAddin` function. 
+The **[IDTExtensibility2.OnConnection Method](https://msdn.microsoft.com/library/extensibility.idtextensibility2.onconnection%28v=VS.80%29.aspx)** is called every time an add-in is loaded. It is the entry point for the add-in, so the code you put in the  `OnConnection` function will be called when the add-in starts. In the following example, the  `OnConnection` function calls the  `HrInitAddin` function. 
   
 ### CMyAddin::OnConnection() example
 

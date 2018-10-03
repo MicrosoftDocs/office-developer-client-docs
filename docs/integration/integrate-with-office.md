@@ -14,7 +14,7 @@ You can integrate with Office for iOS, Office for Android, Office Online, and Ex
   
 Universal Office, Office for iPad, Office for iPhone, Office for Android tablets, and Office for Android phones can natively integrate with third-party cloud storage providers. You can integrate with Office from your applications to enable users to open, edit, and save documents in Excel, OneNote, PowerPoint, or Word.
   
-If you are a cloud storage provider, you can register for our [partner program](http://dev.office.com/programs/officecloudstorage) to integrate with the Office Online apps to enable your users to view and edit Excel, PowerPoint, and Word documents in any web browser. 
+If you are a cloud storage provider, you can register for our [partner program](https://developer.microsoft.com/office/cloud-storage-partner-program) to integrate with the Office Online apps to enable your users to view and edit Excel, PowerPoint, and Word documents in any web browser. 
   
 ## In this section
 
@@ -32,9 +32,9 @@ If you are a cloud storage provider, you can register for our [partner program](
     
 ## See also
 
-- [Office client development](https://msdn.microsoft.com/en-us/library/dn833103.aspx)
+- [Office client development](https://msdn.microsoft.com/library/dn833103.aspx)
     
-- [Office development](http://msdn.microsoft.com/library/7f24db34-c1ad-4a83-a9bd-3c85a39c0bd8%28Office.15%29.aspx)
+- [Office development](https://msdn.microsoft.com/library/7f24db34-c1ad-4a83-a9bd-3c85a39c0bd8%28Office.15%29.aspx)
     
 - [Integrating with Office Online](https://wopi.readthedocs.org/en/latest/)
     

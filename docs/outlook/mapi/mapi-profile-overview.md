@@ -36,7 +36,7 @@ The entries included in a profile vary from message service to message service. 
     
 Profiles can be created at installation time, when MAPI or a message service is loaded onto a computer, or at any later time. MAPI provides the Profile Wizard for profile administration. 
   
-The Profile Wizard is an application that creates new profiles with a minimum amount of work. The wizard uses default values for settings wherever possible, saving users time and effort. Users enter values only when absolutely necessary. For more information, see [Creating a Profile by Using the Profile Wizard](creating-a-profile-by-using-the-profile-wizard.md). You can also use the Office Customization Tool to create a new profile. For more information, see [Office Customization Tool](http://go.microsoft.com/fwlink/?LinkId=123000).
+The Profile Wizard is an application that creates new profiles with a minimum amount of work. The wizard uses default values for settings wherever possible, saving users time and effort. Users enter values only when absolutely necessary. For more information, see [Creating a Profile by Using the Profile Wizard](creating-a-profile-by-using-the-profile-wizard.md). You can also use the Office Customization Tool to create a new profile. For more information, see [Office Customization Tool](https://go.microsoft.com/fwlink/?LinkId=123000).
   
 ## See also
 

@@ -101,7 +101,7 @@ pTZMissing
     
 _ppError_
   
-> [out] A pointer to a pointer to a **MAPIERROR** structure containing version, component, and context information for the error. Can be NULL if no extended error information is desired. Free with [MAPIFreeBuffer](http://msdn.microsoft.com/library/9412594f-8acc-4c7e-a668-4ec1da0ad9cf%28Office.15%29.aspx). 
+> [out] A pointer to a pointer to a **MAPIERROR** structure containing version, component, and context information for the error. Can be NULL if no extended error information is desired. Free with [MAPIFreeBuffer](https://msdn.microsoft.com/library/9412594f-8acc-4c7e-a668-4ec1da0ad9cf%28Office.15%29.aspx). 
     
 _ppApptRebase_
   
@@ -113,9 +113,9 @@ S_OK if the call succeeded; otherwise, an error code.
   
 ## Remarks
 
-When using [GetProcAddress](http://msdn.microsoft.com/library/a0d7fc09-f888-4f46-a571-d3719a627597%28Office.15%29.aspx) to look for the address of this function in tzmovelib.dll, specify **HrCreateApptRebaser@44** as the procedure name. Not all of the flags are valid in combination with each other. 
+When using [GetProcAddress](https://msdn.microsoft.com/library/a0d7fc09-f888-4f46-a571-d3719a627597%28Office.15%29.aspx) to look for the address of this function in tzmovelib.dll, specify **HrCreateApptRebaser@44** as the procedure name. Not all of the flags are valid in combination with each other. 
   
-For more information about the various options, see the section "Glossary of command-line options for the Outlook Time Zone Data Update tool" in [KB 931667: How to address time zone changes by using the Time Zone Data Update Tool for Microsoft Office Outlook](http://support.microsoft.com/kb/931667/en-us).
+For more information about the various options, see the section "Glossary of command-line options for the Outlook Time Zone Data Update tool" in [KB 931667: How to address time zone changes by using the Time Zone Data Update Tool for Microsoft Office Outlook](https://support.microsoft.com/kb/931667/en-us).
   
 ## See also
 

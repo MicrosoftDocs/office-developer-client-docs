@@ -27,7 +27,7 @@ Previous to Microsoft Office Outlook 2007, the MAPI Programmer's Reference was p
   
 The Outlook implementation of MAPI differs from the Microsoft Exchange implementation. The Outlook implementation is optimized for running on client computers and emphasizes low latency. The Exchange implementation is intended for servers where high availability and better multithreading are important.
   
-Use this documentation for applications running on end-user systems. For server applications, use the Exchange implementation of MAPI if appropriate, or use current Exchange APIs such as Exchange Web Services. For more information on Exchange Web Services, see the [Exchange Web Services Reference](http://msdn.microsoft.com/en-us/library/bb204119.aspx).
+Use this documentation for applications running on end-user systems. For server applications, use the Exchange implementation of MAPI if appropriate, or use current Exchange APIs such as Exchange Web Services. For more information on Exchange Web Services, see the [Exchange Web Services Reference](https://msdn.microsoft.com/library/bb204119.aspx).
   
 It may be possible to write applications that work with either the Outlook or Exchange implementations of MAPI. For example, MFCMAPI works well on either platform. The implementations have many common features, but there are differences both obvious and subtle. You will have to test carefully on both platforms if you intend for your application to work in all environments. This testing will require two systems because running both implementations on the same operating system installation is not supported.
   
@@ -41,7 +41,7 @@ For information about what is new in this edition, see the following topics:
     
 If you are new to developing MAPI applications for Outlook, see the following topics:
   
-- [Selecting an API or technology for developing solutions for Outlook 2013](http://msdn.microsoft.com/en-us/library/jj900714.aspx)
+- [Selecting an API or technology for developing solutions for Outlook 2013](https://msdn.microsoft.com/library/jj900714.aspx)
     
 - [Commonly Used Header Files](commonly-used-header-files.md)
     

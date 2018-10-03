@@ -32,7 +32,7 @@ The following series of actions describe how transports use TNEF methods to proc
     
 5. Use [ITnef : IUnknown](itnefiunknown.md) interface methods to insert tags describing the positions of message attachments in the message text. 
     
-6. Access the tagged message text through [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) methods, and send it to the messaging system. 
+6. Access the tagged message text through [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) methods, and send it to the messaging system. 
     
  **To retrieve encapsulated properties**
   

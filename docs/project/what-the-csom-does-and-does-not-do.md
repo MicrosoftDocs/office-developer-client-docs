@@ -64,11 +64,11 @@ For a list of actions that neither the PSI nor the CSOM handle, see the  *What t
 
 The CSOM does not include functionality of the following PSI services:
   
-- **Admin service** To manage administrative settings and operations in Project Server and for related project sites, such as creating fiscal periods and making timesheet settings, use PSI methods in the [WebSvcAdmin.Admin](https://msdn.microsoft.com/library/WebSvcAdmin.Admin.aspx) class. Project Web App itself uses **Admin** methods in many of the pages that are linked to the Server Settings page (http://  *ServerName*  /  *ProjectServerName*  /_layouts/15/pwa/Admin/Admin.aspx). 
+- **Admin service** To manage administrative settings and operations in Project Server and for related project sites, such as creating fiscal periods and making timesheet settings, use PSI methods in the [WebSvcAdmin.Admin](https://msdn.microsoft.com/library/WebSvcAdmin.Admin.aspx) class. Project Web App itself uses **Admin** methods in many of the pages that are linked to the Server Settings page (https://  *ServerName*  /  *ProjectServerName*  /_layouts/15/pwa/Admin/Admin.aspx). 
     
 - **Archive service** To save and manage entities such as projects, resources, and custom fields in the archive tables, use PSI methods in the [Archive](https://msdn.microsoft.com/library/WebSvcArchive.Archive.aspx) class. 
     
-- **CubeAdmin service** To create and manage OLAP cubes for on-premises installations, use PSI methods in the [WebSvcCubeAdmin.CubeAdmin](https://msdn.microsoft.com/library/WebSvcCubeAdmin.CubeAdmin.aspx) class, or use the OLAP Database Management page (http://  *ServerName*  /  *ProjectServerName*  /_layouts/15/pwa/CubeAdmin/CubeAnalysisAdmin.aspx) in Project Web App. 
+- **CubeAdmin service** To create and manage OLAP cubes for on-premises installations, use PSI methods in the [WebSvcCubeAdmin.CubeAdmin](https://msdn.microsoft.com/library/WebSvcCubeAdmin.CubeAdmin.aspx) class, or use the OLAP Database Management page (https://  *ServerName*  /  *ProjectServerName*  /_layouts/15/pwa/CubeAdmin/CubeAnalysisAdmin.aspx) in Project Web App. 
     
     > [!NOTE]
     > Project Online does not support OLAP cubes. 
@@ -109,7 +109,7 @@ The CSOM in Project Server 2013 is built on the CSOM implementation in SharePoin
   
 For example, if you use the CSOM to create a project, and then edit the project to add 252 tasks with a minimum amount of information such as a short name, the task GUID, and a duration of 1d, the total amount of data in the **DraftProject.Update** request is less than 2 MB. But, if you try to add 253 such tasks to an empty project, the 2 MB limit is exceeded, and you get the following exception: **Microsoft.SharePoint.Client.ServerException: The request uses too many resources**
   
-To capture the data in a CSOM request over HTTP or HTTPS, you can use a web debugging tool such as [Fiddler](http://www.fiddler2.com) (http://www.fiddler2.com). For a code example that implements a test for request size and includes a solution that breaks a large request into to smaller groups, see [DraftProject.Update](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.DraftProject.Update.aspx) . 
+To capture the data in a CSOM request over HTTP or HTTPS, you can use a web debugging tool such as [Fiddler](https://www.fiddler2.com) (https://www.fiddler2.com). For a code example that implements a test for request size and includes a solution that breaks a large request into to smaller groups, see [DraftProject.Update](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.DraftProject.Update.aspx) . 
   
 ## See also
 <a name="pj15_WhatTheCSOM_AR"> </a>

@@ -21,7 +21,7 @@ Contains a **Connect** element for each connection between two shapes in a drawi
 |||
 |:-----|:-----|
 |**Element type** <br/> |[Connects_Type](connects_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |page#.xml, master#.xml  <br/> |
    

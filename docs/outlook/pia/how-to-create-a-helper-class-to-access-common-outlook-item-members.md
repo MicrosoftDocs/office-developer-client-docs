@@ -2,7 +2,7 @@
 title: Create a Helper class to access common Outlook item members
 TOCTitle: Create a Helper class to access common Outlook item members
 ms:assetid: 344ff07d-e448-4418-910d-930e60f7381f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn292518(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn292518(v=office.15)
 ms:contentKeyID: 55119845
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -20,7 +20,7 @@ This example shows how to implement an OutlookItem helper class that accesses co
 
 Many Outlook items have similar properties and methods. For example, the **Application**, **Attachments**, **Body**, **Categories**, and **Class** properties, and **Close**, **Copy**, and **Display** methods are common to all Outlook item objects. The COM-based Outlook object model returns the generic Visual Basic **Object** instead of the exact item type for many members. 
 
-For example, the [CurrentItem](https://msdn.microsoft.com/en-us/library/bb611743\(v=office.15\)) property returns a generic **Object**. On the other hand, the strongly typed managed code environment requires you to cast the **Object** representing an Outlook item to the exact Outlook type such as **MailItem**. 
+For example, the [CurrentItem](https://msdn.microsoft.com/library/bb611743\(v=office.15\)) property returns a generic **Object**. On the other hand, the strongly typed managed code environment requires you to cast the **Object** representing an Outlook item to the exact Outlook type such as **MailItem**. 
 
 The OutlookItem helper class uses reflection to expose properties and methods that are common to all items. The class helps you cast the object to the exact type and provides the convenience of directly using common item properties or methods on the **OutlookItem** object. This is a very useful technique, and several other how-to topics listed in the **See also** section take advantage of this helper class.
 

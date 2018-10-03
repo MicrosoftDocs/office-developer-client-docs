@@ -2,7 +2,7 @@
 title: Color categories
 TOCTitle: Color categories
 ms:assetid: 0b4674dd-e38b-4aee-8387-1470611215df
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff424465(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff424465(v=office.15)
 ms:contentKeyID: 55119819
 ms.date: 07/24/2014
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Attachments
 TOCTitle: Attachments
 ms:assetid: 02552591-a40c-4950-9bf9-6c6664a00a80
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184587(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff184587(v=office.15)
 ms:contentKeyID: 55119815
 ms.date: 07/24/2014
 mtps_version: v=office.15

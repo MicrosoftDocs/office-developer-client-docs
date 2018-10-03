@@ -20,7 +20,7 @@ In MAPI, you can update a profile by setting the property **PR_PROFILE_USER_SMTP
 
 1. Make sure Outlook 2016 is property configured.
     
-2. Using the [IMAPIProp](https://msdn.microsoft.com/en-us/library/cc815525.aspx) interface, go to the Outlook Profile section. 
+2. Using the [IMAPIProp](https://msdn.microsoft.com/library/cc815525.aspx) interface, go to the Outlook Profile section. 
     
    This can be difficult in Outlook's MAPI, since in 2010 and above there is no longer the global profile section. To find the Profile section, find the property PR_EMSMDB_SECTION_UID (0x3D150102). The value will be the GUID of the profile section persisted in binary form, which will be used in the subsequent steps. You will need to remember this value. 
     
@@ -311,10 +311,10 @@ Cleanup:
 
 ## Use MFCMAPI to configure Outlook profiles
 
-[MFCMAPI](http://mfcmapi.codeplex.com) provides access to MAPI stores to facilitate investigation of Exchange and Outlook issues and to provide developers support for MAPI development. 
+[MFCMAPI](https://mfcmapi.codeplex.com) provides access to MAPI stores to facilitate investigation of Exchange and Outlook issues and to provide developers support for MAPI development. 
   
 ## See also
 
-- [Create an Outlook profile using MFCMAPI](https://msdn.microsoft.com/en-us/library/office/mt723322.aspx)
+- [Create an Outlook profile using MFCMAPI](https://msdn.microsoft.com/library/office/mt723322.aspx)
   
 

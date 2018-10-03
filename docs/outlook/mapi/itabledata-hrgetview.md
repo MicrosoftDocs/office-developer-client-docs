@@ -61,7 +61,7 @@ S_OK
 
 The **ITableData::HrGetView** method creates a read-only view of the data in the table, sorted in the order pointed to by the  _lpSSortOrderSet_ parameter. The cursor is placed at the beginning of the first row in the view. An **IMAPITable** interface implementation for accessing the view is returned. 
   
-Service providers call **HrGetView** when they need to give a client access to a table. **HrGetView** creates the view and returns the **IMAPITable** pointer. Service providers in turn pass the pointer on to the client. When the client is finished using the table and calls its [IUnknown::Release](http://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) method, **HrGetView** calls the callback function pointed to by the  _lpfCallerRelease_ parameter. 
+Service providers call **HrGetView** when they need to give a client access to a table. **HrGetView** creates the view and returns the **IMAPITable** pointer. Service providers in turn pass the pointer on to the client. When the client is finished using the table and calls its [IUnknown::Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) method, **HrGetView** calls the callback function pointed to by the  _lpfCallerRelease_ parameter. 
   
 If a service provider needs to return to a client a view that has a customized column set or a restriction, the provider can call the view's [IMAPITable::SetColumns](imapitable-setcolumns.md) and [IMAPITable::Restrict](imapitable-restrict.md) methods before allowing the client access. 
   

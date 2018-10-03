@@ -16,7 +16,7 @@ The Outlook Social Connector (OSC) provider XML schema defines the format of a s
   
 > [!NOTE]
 > OSC provider extensibility supports debugging providers by setting the `DebugProviders` value of the  `HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\SocialConnector` registry key to 1. When you turn on provider debugging, the OSC validates the provider XML against the version of the OSC XML schema that you specify in the **xmlns** XML attribute. For OSC 1.1 and versions of the OSC since Outlook Social Connector 2013, specify the **xmlns** attribute as follows: 
->  `xmlns="http://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd"`
+>  `xmlns="https://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd"`
   
 ## In this section
 

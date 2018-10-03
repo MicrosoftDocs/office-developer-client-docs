@@ -50,7 +50,7 @@ You can use the GOTOPAGE function to navigate to pages of a document.
   
 ## Example 3
 
- `HYPERLINK("http://www.microsoft.com")`
+ `HYPERLINK("https://www.microsoft.com")`
   
 ## Example 4
 

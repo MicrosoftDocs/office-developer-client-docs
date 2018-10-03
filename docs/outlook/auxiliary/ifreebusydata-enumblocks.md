@@ -34,7 +34,7 @@ _ppenumfb_
     
 _ftmStart_
   
-> [in] The start time for the enumeration. It is expressed in [FILETIME](http://msdn.microsoft.com/library/ 4af8e79a-697e-44a1-8576-fdc57726e9ef.aspx).
+> [in] The start time for the enumeration. It is expressed in [FILETIME](https://msdn.microsoft.com/library/ 4af8e79a-697e-44a1-8576-fdc57726e9ef.aspx).
     
 _ftmEnd_
   

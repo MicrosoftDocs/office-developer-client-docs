@@ -21,7 +21,7 @@ Specifies one shape data entry for associating data with a shape.
 |||
 |:-----|:-----|
 |**Element type** <br/> |[Shape Data_Type](propertyrow_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |master#.xml, page#.xml  <br/> |
    

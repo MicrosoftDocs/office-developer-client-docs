@@ -28,7 +28,7 @@ An OSC provider must be COM-visible as defined by the following:
     
 - An OSC provider developed in a managed language is COM-visible.
     
-- An OSC provider should add values to the Windows registry that indicate that the provider DLL supports both single-threaded apartment (STA) and multithreaded apartment (MTA) threading models. For more information about COM threading models, see [Descriptions and Workings of OLE Threading Models](http://support.microsoft.com/kb/150777).
+- An OSC provider should add values to the Windows registry that indicate that the provider DLL supports both single-threaded apartment (STA) and multithreaded apartment (MTA) threading models. For more information about COM threading models, see [Descriptions and Workings of OLE Threading Models](https://support.microsoft.com/kb/150777).
     
 Methods in OSC provider extensibility must return primitive types such as **string** or **bool**. Certain **string** return values must comply with the schema definition for OSC provider extensibility. Only XML is supported as a return value. 
   

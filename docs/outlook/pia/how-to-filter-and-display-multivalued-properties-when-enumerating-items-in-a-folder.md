@@ -2,7 +2,7 @@
 title: Filter and display multivalued properties when enumerating items in a folder
 TOCTitle: Filter and display multivalued properties when enumerating items in a folder
 ms:assetid: 62dd2120-5c85-44b3-89ec-c4ca85aa2964
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184613(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff184613(v=office.15)
 ms:contentKeyID: 55119887
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -17,7 +17,7 @@ This example shows how to filter and display multivalued properties while enumer
 > [!NOTE] 
 > The following code example is an excerpt from [Programming Applications for Microsoft Office Outlook 2007](https://www.amazon.com/gp/product/0735622493?ie=UTF8&tag=msmsdn-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0735622493).
 
-The [Table](https://msdn.microsoft.com/en-us/library/bb652856\(v=office.15\)) object represents a set of item data from a [Folder](https://msdn.microsoft.com/en-us/library/bb645774\(v=office.15\)) or [Search](https://msdn.microsoft.com/en-us/library/bb612611\(v=office.15\)) object. When a binary, date, or multivalued property is first added to a **Table** object, the way the property is referenced affects its type and format. Because built-in name references sometimes return a different column value than a namespace reference, you should determine whether the property is referenced by its explicit built-in name (if it has one), or by namespace (regardless of the existence of an explicit built-in name). The following table shows the difference in the property value representation (in terms of type and format) per original property type.
+The [Table](https://msdn.microsoft.com/library/bb652856\(v=office.15\)) object represents a set of item data from a [Folder](https://msdn.microsoft.com/library/bb645774\(v=office.15\)) or [Search](https://msdn.microsoft.com/library/bb612611\(v=office.15\)) object. When a binary, date, or multivalued property is first added to a **Table** object, the way the property is referenced affects its type and format. Because built-in name references sometimes return a different column value than a namespace reference, you should determine whether the property is referenced by its explicit built-in name (if it has one), or by namespace (regardless of the existence of an explicit built-in name). The following table shows the difference in the property value representation (in terms of type and format) per original property type.
 
 <table>
 <colgroup>
@@ -52,7 +52,7 @@ The [Table](https://msdn.microsoft.com/en-us/library/bb652856\(v=office.15\)) ob
 </table>
 
 
-The following code example illustrates how to add a MAPI string namespace property to the **Table** object and how multivalued properties affect the values returned in a [Column](https://msdn.microsoft.com/en-us/library/bb609646\(v=office.15\)) object. The TableMultiValuedProperties procedure filters the **Table** object for rows where the [Categories](https://msdn.microsoft.com/en-us/library/bb646607\(v=office.15\)) property is not a null reference. The **Categories** property is represented by a property that uses the MAPI string namespace. A DAV Searching and Locating (DASL) filter is constructed for items that have categories (the actual filter returns categories that do not have a null reference). A **Categories** column is then added to the **Table** object by concatenating the type specifier, 0000001f, with the categoriesProperty constant. Finally, the **Column** object that represents the **Categories** property contains a one-dimensional string array where each element of the array represents a category assigned to the item. Both the item’s **Categories** and **Subject** properties are written to the trace listeners of the [Listeners](http://msdn.microsoft.com/en-us/library/system.diagnostics.debug.listeners.aspx) collection.
+The following code example illustrates how to add a MAPI string namespace property to the **Table** object and how multivalued properties affect the values returned in a [Column](https://msdn.microsoft.com/library/bb609646\(v=office.15\)) object. The TableMultiValuedProperties procedure filters the **Table** object for rows where the [Categories](https://msdn.microsoft.com/library/bb646607\(v=office.15\)) property is not a null reference. The **Categories** property is represented by a property that uses the MAPI string namespace. A DAV Searching and Locating (DASL) filter is constructed for items that have categories (the actual filter returns categories that do not have a null reference). A **Categories** column is then added to the **Table** object by concatenating the type specifier, 0000001f, with the categoriesProperty constant. Finally, the **Column** object that represents the **Categories** property contains a one-dimensional string array where each element of the array represents a category assigned to the item. Both the item’s **Categories** and **Subject** properties are written to the trace listeners of the [Listeners](https://msdn.microsoft.com/library/system.diagnostics.debug.listeners.aspx) collection.
 
 If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
 
@@ -65,7 +65,7 @@ using Outlook = Microsoft.Office.Interop.Outlook;
 private void TableMultiValuedProperties()
 {
     const string categoriesProperty =
-        "http://schemas.microsoft.com/mapi/string/"
+        "https://schemas.microsoft.com/mapi/string/"
         + "{00020329-0000-0000-C000-000000000046}/Keywords";
     // Inbox
     Outlook.Folder folder =

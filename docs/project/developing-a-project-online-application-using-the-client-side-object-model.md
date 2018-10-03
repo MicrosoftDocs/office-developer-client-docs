@@ -38,7 +38,7 @@ This article focuses on an application that uses the .NET CSOM interface.
 
 Start with a base system running Windows 10, and add the following items:
   
-- .Net Framework 4.0 or later -- Use the complete framework. The download site is https://msdn.microsoft.com/en-us/vstudio/aa496123.aspx.
+- .Net Framework 4.0 or later -- Use the complete framework. The download site is https://msdn.microsoft.com/vstudio/aa496123.aspx.
     
 - Visual Studio 2013 or later -- Any edition is acceptable. The community edition of Visual Studio 2015 was used to develop the sample application. The community edition is available at https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx.
     

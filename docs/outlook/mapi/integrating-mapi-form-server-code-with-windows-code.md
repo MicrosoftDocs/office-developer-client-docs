@@ -28,7 +28,7 @@ Recall that your form server is a Win32 application. As such, there are some tas
     
 - Registering a global atom with a string representation of the form server's class identifier (CLSID). This atom should exist for the lifetime of the form server.
     
-- Calling the OLE function [CoRegisterClassObject](http://msdn.microsoft.com/en-us/library/ms693407.aspx) to register your form server's class factory with OLE. 
+- Calling the OLE function [CoRegisterClassObject](https://msdn.microsoft.com/library/ms693407.aspx) to register your form server's class factory with OLE. 
     
 - Creating a main window to receive messages. This window probably does not need to be visible because the user will be interacting with the specific windows associated with individual form objects. However, during development, the main window can be a convenient place for debugging output or control of your form server.
     
@@ -36,7 +36,7 @@ Recall that your form server is a Win32 application. As such, there are some tas
     
 When your form server exits, it should perform the following tasks:
   
-- Call the OLE function [CoRevokeClassObject](http://msdn.microsoft.com/en-us/library/ms688650%28VS.85%29.aspx) to revoke your message class's OLE registration. 
+- Call the OLE function [CoRevokeClassObject](https://msdn.microsoft.com/library/ms688650%28VS.85%29.aspx) to revoke your message class's OLE registration. 
     
 - Call **MAPIUninitialize** to properly close the form server's connection to MAPI. 
     

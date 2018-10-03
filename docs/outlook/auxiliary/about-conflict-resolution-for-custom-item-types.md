@@ -28,7 +28,7 @@ In such cases, users can choose to go to the Conflicts folder to verify which it
 
 ### Item types and message classes
   
-All items in Outlook are associated with a message class. For example, by default, a mail item is associated with the message class **IPM.Note**. The message class is primarily used to identify the form that should be used to display the item in Outlook. Outlook supports a list of message classes that are mapped to the types of items built in to Outlook. For more information about message classes, see [Item Types and Message Classes](http://msdn.microsoft.com/library/15b709cc-7486-b6c7-88a3-4a4d8e0ab292%28Office.15%29.aspx). 
+All items in Outlook are associated with a message class. For example, by default, a mail item is associated with the message class **IPM.Note**. The message class is primarily used to identify the form that should be used to display the item in Outlook. Outlook supports a list of message classes that are mapped to the types of items built in to Outlook. For more information about message classes, see [Item Types and Message Classes](https://msdn.microsoft.com/library/15b709cc-7486-b6c7-88a3-4a4d8e0ab292%28Office.15%29.aspx). 
   
 Users can create custom item types, assign custom message classes to the custom item types, and have Outlook use a custom form to display the custom item types. For example, you may want Outlook to display a custom business contact form for your business contacts. To do that, you can create a custom message class **IPM.Contact.Business**, create a custom form for this message class, and assign business contacts with this message class. 
   
@@ -67,5 +67,5 @@ Using the same business contacts example above, if you want to specify the conta
   
 ## See also
 
-- [Outlook Item Objects](http://msdn.microsoft.com/library/6ea4babf-facf-4018-ef5a-4a484e55153a%28Office.15%29.aspx)
+- [Outlook Item Objects](https://msdn.microsoft.com/library/6ea4babf-facf-4018-ef5a-4a484e55153a%28Office.15%29.aspx)
 

@@ -26,7 +26,7 @@ Developers can use Microsoft Visual Studio and third-party development tools to 
   
 When a MAPI object is implemented, a client or service provider creates code for all of the interface methods, code for any private methods that are specific to the implementation, and code to support private data members for maintaining state information. The code for the interface methods must follow the specifications published by MAPI that document expected behavior. 
   
-There are many macros in the Mapidefs.h header file and OLE header files that clients and service providers in either language can use to help them with their definitions of MAPI objects. For example, there is a macro to define the methods of each of the MAPI interfaces. The macro to define the methods of the [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx) interface appears in Mapidefs.h as follows: 
+There are many macros in the Mapidefs.h header file and OLE header files that clients and service providers in either language can use to help them with their definitions of MAPI objects. For example, there is a macro to define the methods of each of the MAPI interfaces. The macro to define the methods of the [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) interface appears in Mapidefs.h as follows: 
   
 ```cpp
 #define MAPI_IUNKNOWN_METHODS(IPURE)          \

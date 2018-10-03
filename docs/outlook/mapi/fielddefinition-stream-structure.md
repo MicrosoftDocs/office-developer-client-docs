@@ -35,7 +35,7 @@ Data elements in this stream are stored in little-endian byte order, immediately
     |PDO_FT_SWITCH  <br/> |0x00000020  <br/> |This field is of type **Combination** and has the **Showing only the first non-empty field, ignoring subsequent ones** option selected in the **Combination Formula Field** dialog box.  <br/> |
     |PDO_PRINT_SAVEAS_DEF  <br/> |0x00000040  <br/> |This flag is not used by Outlook, but it is included for all user-defined field definitions.  <br/> |
    
-- VT: WORD (2 bytes), the data type of the field, which is a constant from the [VARENUM](http://msdn.microsoft.com/en-us/library/system.runtime.interopservices.varenum.aspx) enumeration. 
+- VT: WORD (2 bytes), the data type of the field, which is a constant from the [VARENUM](https://msdn.microsoft.com/library/system.runtime.interopservices.varenum.aspx) enumeration. 
     
 - DispId: DWORD (4 bytes), the dispatch identifier of the field. For a user-defined field, the value is 0.
     

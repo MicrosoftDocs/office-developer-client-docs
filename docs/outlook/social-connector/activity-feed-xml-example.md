@@ -42,7 +42,7 @@ The following example shows the **activityFeed** XML of four activities: two pro
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<activityFeed xmlns="http://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd">
+<activityFeed xmlns="https://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd">
   <network>Contoso</network>
   <activities>
     <activityDetails>
@@ -56,16 +56,16 @@ The following example shows the **activityFeed** XML of four activities: two pro
           <name>Publisher</name>
           <id>4667647</id>
           <nameHint>Melissa Macbeth</nameHint>
-          <profileUrl>http://www.contoso.com/</profileUrl>
+          <profileUrl>https://www.contoso.com/</profileUrl>
         </templateVariable>
         <templateVariable type="listVariable">
           <name>ProfilePhoto</name>
           <listItems>
             <simpleTemplateVariable type="pictureVariable">
               <name>Photo</name>
-              <value>http://office.microsoft.com/global/images/default.aspx?assetid=ZA103873861033</value>
+              <value>https://office.microsoft.com/global/images/default.aspx?assetid=ZA103873861033</value>
               <altText>Melissa Macbeth</altText>
-              <href>http://office.microsoft.com/global/images/default.aspx?assetid=ZA103873861033</href>
+              <href>https://office.microsoft.com/global/images/default.aspx?assetid=ZA103873861033</href>
             </simpleTemplateVariable>
           </listItems>
         </templateVariable>
@@ -82,16 +82,16 @@ The following example shows the **activityFeed** XML of four activities: two pro
           <name>Publisher</name>
           <id>5015012</id>
           <nameHint>Michael Affronti</nameHint>
-          <profileUrl>http://www.contoso.com/</profileUrl>
+          <profileUrl>https://www.contoso.com/</profileUrl>
         </templateVariable>
         <templateVariable type="listVariable">
           <name>ProfilePhoto</name>
           <listItems>
             <simpleTemplateVariable type="pictureVariable">
               <name>Photo</name>
-              <value>http://office.microsoft.com/global/images/default.aspx?assetid=ZA103895491033</value>
+              <value>https://office.microsoft.com/global/images/default.aspx?assetid=ZA103895491033</value>
               <altText>Michael Affronti</altText>
-              <href>http://office.microsoft.com/global/images/default.aspx?assetid=ZA103895491033</href>
+              <href>https://office.microsoft.com/global/images/default.aspx?assetid=ZA103895491033</href>
             </simpleTemplateVariable>
           </listItems>
         </templateVariable>
@@ -108,7 +108,7 @@ The following example shows the **activityFeed** XML of four activities: two pro
           <name>Publisher</name>
           <id>5015012</id>
           <nameHint>Michael Affronti</nameHint>
-          <profileUrl>http://www.contoso.com</profileUrl>
+          <profileUrl>https://www.contoso.com</profileUrl>
         </templateVariable>
         <templateVariable type="textVariable">
           <name>statusText</name>
@@ -127,12 +127,12 @@ The following example shows the **activityFeed** XML of four activities: two pro
           <name>Publisher</name>
           <id>5015012</id>
           <nameHint>Michael Affronti</nameHint>
-          <profileUrl>http://www.contoso.com/</profileUrl>
+          <profileUrl>https://www.contoso.com/</profileUrl>
         </templateVariable>
         <templateVariable type="linkVariable">
           <name>blogPost</name>
           <text>Connect your Inbox to Facebook and Windows Live with the Outlook Social Connector</text>
-          <value>http://blogs.office.com/b/office_blog/archive/2010/07/13/connect-to-facebook-and-windows-live-with-the-outlook-social-connector.aspx</value>
+          <value>https://blogs.office.com/b/office_blog/archive/2010/07/13/connect-to-facebook-and-windows-live-with-the-outlook-social-connector.aspx</value>
         </templateVariable>
       </templateVariables>
     </activityDetails>
@@ -145,7 +145,7 @@ The following example shows the **activityFeed** XML of four activities: two pro
         <type>Photo</type>
         <title>{publisher:Publisher} has a new profile photo: </title>
         <data>{list:ProfilePhoto({picture:Photo})}</data>
-        <icon>http://www.microsoft.com/about/images/rss_button.gif</icon>
+        <icon>https://www.microsoft.com/about/images/rss_button.gif</icon>
       </activityTemplate>
     </activityTemplateContainer>
     <activityTemplateContainer>
@@ -155,7 +155,7 @@ The following example shows the **activityFeed** XML of four activities: two pro
         <type>Status Update</type>
         <title>{publisher:Publisher}: {text:statusText}</title>
                 <data></data>
-        <icon>http://www.microsoft.com/about/images/rss_button.gif</icon>
+        <icon>https://www.microsoft.com/about/images/rss_button.gif</icon>
       </activityTemplate>
     </activityTemplateContainer>
     <activityTemplateContainer>
@@ -165,7 +165,7 @@ The following example shows the **activityFeed** XML of four activities: two pro
         <type>Other</type>
         <title>{publisher:Publisher} wrote a new blog post {link:blogPost}</title>
                 <data></data>
-        <icon>http://www.microsoft.com/about/images/rss_button.gif</icon>
+        <icon>https://www.microsoft.com/about/images/rss_button.gif</icon>
       </activityTemplate>
     </activityTemplateContainer>
   </templates>

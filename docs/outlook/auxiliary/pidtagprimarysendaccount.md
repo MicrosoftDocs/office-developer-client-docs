@@ -29,6 +29,6 @@ This property applies to a MAPI message object. For a received message, the prim
 ## See also
 
 - [Constants (Account management API)](constants-account-management-api.md)
-- [MAPI Properties](http://msdn.microsoft.com/library/3b980217-b65b-442b-8c18-b8b9f3ff487a%28Office.15%29.aspx)
-- [PidTagPrimarySendAccount Canonical Property](http://msdn.microsoft.com/library/2f268b3b-2e4c-4aea-8879-bdd0ac1df35c%28Office.15%29.aspx)
+- [MAPI Properties](https://msdn.microsoft.com/library/3b980217-b65b-442b-8c18-b8b9f3ff487a%28Office.15%29.aspx)
+- [PidTagPrimarySendAccount Canonical Property](https://msdn.microsoft.com/library/2f268b3b-2e4c-4aea-8879-bdd0ac1df35c%28Office.15%29.aspx)
 

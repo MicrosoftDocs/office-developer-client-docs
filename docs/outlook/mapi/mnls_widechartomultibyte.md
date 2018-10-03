@@ -72,11 +72,11 @@ Returns the number of bytes written to the buffer pointed to by  _lpMultiByteStr
   
 ## Remarks
 
-This function wraps the **WideCharToMultiByte** function. For more information, see [WideCharToMultiByte](http://msdn.microsoft.com/en-us/library/dd374130%28VS.85%29.aspx).
+This function wraps the **WideCharToMultiByte** function. For more information, see [WideCharToMultiByte](https://msdn.microsoft.com/library/dd374130%28VS.85%29.aspx).
   
 ## See also
 
 
 
-[WideCharToMultiByte](http://msdn.microsoft.com/en-us/library/dd374130%28VS.85%29.aspx)
+[WideCharToMultiByte](https://msdn.microsoft.com/library/dd374130%28VS.85%29.aspx)
 

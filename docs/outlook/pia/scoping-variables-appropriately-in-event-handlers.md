@@ -14,7 +14,7 @@ mtps_version: v=office.15
 
 A common mistake in programming event handlers is connecting the event handler to an object that has been declared with a scope too limited for the purpose of handling the event. The object must have a life that spans not just over the function that connects the callback method as an event handler of the object, but also over the callback method itself where the event is actually handled. Otherwise, if the object is out of scope and is no longer defined in the callback method, the callback method is not called and the event is not handled as desired.
 
-The following example attempts to connect the MyNewInspector callback method to the [NewInspector](https://msdn.microsoft.com/en-us/library/bb612750\(v=office.15\)) event. However, the callback method is hooked up in the code sample to the NewInspector event of an [Inspectors](https://msdn.microsoft.com/en-us/library/bb623458\(v=office.15\)) object that has a scope limited to the Connect function. When the callback method is eventually called, the Connect function has already exited, the Inspectors object has already been garbage collected, and so MyNewInspector is never called.
+The following example attempts to connect the MyNewInspector callback method to the [NewInspector](https://msdn.microsoft.com/library/bb612750\(v=office.15\)) event. However, the callback method is hooked up in the code sample to the NewInspector event of an [Inspectors](https://msdn.microsoft.com/library/bb623458\(v=office.15\)) object that has a scope limited to the Connect function. When the callback method is eventually called, the Connect function has already exited, the Inspectors object has already been garbage collected, and so MyNewInspector is never called.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
@@ -80,7 +80,7 @@ class MyClass
 
 <br/>
 
-By virtue of the syntactic differences in how various languages connect event handlers, this issue is less common in languages such as Visual Basic where you can connect an event specifying an instance of the parent object, and define the callback method at the same time. The following example in Visual Basic uses the Handles keyword to connect the Region\_Expanded callback method to the [Expanded](https://msdn.microsoft.com/en-us/library/bb609515\(v=office.15\)) event. An instance of the parent object, Region, has a scope that spans MyClass including the Region\_Expanded callback method.
+By virtue of the syntactic differences in how various languages connect event handlers, this issue is less common in languages such as Visual Basic where you can connect an event specifying an instance of the parent object, and define the callback method at the same time. The following example in Visual Basic uses the Handles keyword to connect the Region\_Expanded callback method to the [Expanded](https://msdn.microsoft.com/library/bb609515\(v=office.15\)) event. An instance of the parent object, Region, has a scope that spans MyClass including the Region\_Expanded callback method.
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook

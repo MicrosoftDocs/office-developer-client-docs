@@ -32,7 +32,7 @@ description: "Last modified: March 09, 2015"
   
 ## Description
 
-This state initiates downloading a folder. During this state, Outlook initializes the associated **DNTBL** data structure with information about the folder. The client downloads the folder contents, and updates the folder on the local store with new contents, modifications, or deletions from the server. The download process adopts Microsoft Exchange Incremental Change Synchronization (ICS). For more information on ICS, see [ICS Evaluation Criteria](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx).
+This state initiates downloading a folder. During this state, Outlook initializes the associated **DNTBL** data structure with information about the folder. The client downloads the folder contents, and updates the folder on the local store with new contents, modifications, or deletions from the server. The download process adopts Microsoft Exchange Incremental Change Synchronization (ICS). For more information on ICS, see [ICS Evaluation Criteria](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
   
 When this state ends, the local store returns to the synchronize contents state.
   

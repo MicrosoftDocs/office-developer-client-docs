@@ -570,7 +570,7 @@ Outlook's MAPI supports reconnection to a GC server without special reconfigurat
 |MAPI_E_RECONNECTED  <br/> |0x80040125  <br/> |Returned when the Remote Procedure Call (RPC) connection token is out-of-date. If the token of the current transaction is different from the token of the connection that means it has reconnected, so **MAPI_E_RECONNECTED** is returned and can be treated the same as **MAPI_E_END_OF_SESSION**. The call should be retried.  <br/> |
 |MAPI_E_OFFLINE  <br/> |0x80040126  <br/> |Returned when the connection is offline. Typically this means that something has occurred in the environment, such as server failure or loss of network connectivity. This error is most likely to occur when using a cached mode profile and attempting to bypass the cache to communicate with the server. If the cache was never able to initially establish a connection to the server, it may be in the offline state in which **MAPI_E_OFFLINE** could surface.  <br/> |
    
-Neither of the preceding two errors will be returned in all scenarios where they would likely appear to apply. In most cases, **MAPI\_E_NETWORK_ERROR** or **MAPI_E_CALL_FAILED** will be returned. Neither will appear using the [Microsoft Exchange Server MAPI Client and Collaboration Data Objects 1.2.1](http://support.microsoft.com/kb/171440) download. 
+Neither of the preceding two errors will be returned in all scenarios where they would likely appear to apply. In most cases, **MAPI\_E_NETWORK_ERROR** or **MAPI_E_CALL_FAILED** will be returned. Neither will appear using the [Microsoft Exchange Server MAPI Client and Collaboration Data Objects 1.2.1](https://support.microsoft.com/kb/171440) download. 
   
 ### Definitions for Exchange Server Mailbox cached mode quotas
 

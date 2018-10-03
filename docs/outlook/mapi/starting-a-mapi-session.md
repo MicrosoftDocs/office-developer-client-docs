@@ -24,7 +24,7 @@ Although there is a significant amount of work performed during session start up
   
 1. Call **MAPIInitialize** to initialize the standard set of MAPI libraries. 
     
-2. If you need to use the OLE libraries, call the OLE function [OleInitialize](http://msdn.microsoft.com/library/9a13e7a0-f2e2-466b-98f5-38d5972fa391%28Office.15%29.aspx).
+2. If you need to use the OLE libraries, call the OLE function [OleInitialize](https://msdn.microsoft.com/library/9a13e7a0-f2e2-466b-98f5-38d5972fa391%28Office.15%29.aspx).
     
 3. If you need to use the MAPI utility library, call [ScInitMapiUtil](scinitmapiutil.md).
     

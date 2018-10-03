@@ -30,7 +30,7 @@ HRESULT IConverterSession::SetSaveFormat (
 
 _mstSaveFormat_
   
-> [in] The save format to be used for a MIME stream. For more information, see the enum type [MIMESAVETYPE](http://msdn.microsoft.com/en-us/library/ms715128%28VS.85%29.aspx).
+> [in] The save format to be used for a MIME stream. For more information, see the enum type [MIMESAVETYPE](https://msdn.microsoft.com/library/ms715128%28VS.85%29.aspx).
     
   - **SAVE_RFC1521**: Use MIME, which is the default.      
   - **SAVE_RFC822**: Use uuencode.

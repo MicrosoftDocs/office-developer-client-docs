@@ -2,7 +2,7 @@
 title: Filter and display Inbox items modified in the last month
 TOCTitle: Filter and display Inbox items modified in the last month
 ms:assetid: ef6004dc-0b5a-4d1f-8937-1384d1dfc1ca
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff424482(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff424482(v=office.15)
 ms:contentKeyID: 55119886
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -17,9 +17,9 @@ This example shows how to filter and display Inbox items that were modified in t
 > [!NOTE] 
 > The following code example is an excerpt from [Programming Applications for Microsoft Office Outlook 2007](https://www.amazon.com/gp/product/0735622493?ie=UTF8&tag=msmsdn-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0735622493).
 
-DAV Searching and Locating (DASL) query language is based on the Microsoft Exchange implementation of DASL in Outlook. It can be used to return property-based results for item-level searches in folder data, such as that represented by a [Table](https://msdn.microsoft.com/en-us/library/bb652856\(v=office.15\)) object. DASL filters support string comparisons, including equivalence, prefix, phrase, and substring matching, by using the equal (=) operator. You can use DASL queries to perform date-time comparison and filtering.
+DAV Searching and Locating (DASL) query language is based on the Microsoft Exchange implementation of DASL in Outlook. It can be used to return property-based results for item-level searches in folder data, such as that represented by a [Table](https://msdn.microsoft.com/library/bb652856\(v=office.15\)) object. DASL filters support string comparisons, including equivalence, prefix, phrase, and substring matching, by using the equal (=) operator. You can use DASL queries to perform date-time comparison and filtering.
 
-Because DASL queries always perform **DateTime** comparisons in Coordinated Universal Time (UTC), you must convert the local time value to UTC if you want the query to operate correctly. You must also convert the **DateTime** value to a string representation because DASL filters support string comparisons. You can make the **DateTime** conversion in two ways: by using the [LocalTimeToUTC(Object)](https://msdn.microsoft.com/en-us/library/bb645832\(v=office.15\)) method of the [Row](https://msdn.microsoft.com/en-us/library/bb610126\(v=office.15\)) object, or by using Outlook **DateTime** macros to make the conversion.
+Because DASL queries always perform **DateTime** comparisons in Coordinated Universal Time (UTC), you must convert the local time value to UTC if you want the query to operate correctly. You must also convert the **DateTime** value to a string representation because DASL filters support string comparisons. You can make the **DateTime** conversion in two ways: by using the [LocalTimeToUTC(Object)](https://msdn.microsoft.com/library/bb645832\(v=office.15\)) method of the [Row](https://msdn.microsoft.com/library/bb610126\(v=office.15\)) object, or by using Outlook **DateTime** macros to make the conversion.
 
 The following line of code shows how to use the **LocalTimeToUTC** method to convert the value of the **LastModificationTime** property (which is a default column in all **Item** objects) to UTC.
 

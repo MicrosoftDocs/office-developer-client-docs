@@ -22,13 +22,13 @@ Publish date of this reference: October 2012
   
 ## Related links
 
-[InfoPath Developer Center](http://msdn.microsoft.com/en-us/office/aa905434.aspx)
+[InfoPath Developer Center](https://msdn.microsoft.com/office/aa905434.aspx)
   
-[Microsoft Office Developer Center](http://msdn.microsoft.com/en-us/office/default.aspx)
+[Microsoft Office Developer Center](https://msdn.microsoft.com/office/default.aspx)
   
-[Document Conventions in Office Developer Documentation](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
+[Document Conventions in Office Developer Documentation](https://msdn.microsoft.com/office/aa905365.aspx)
   
-[Microsoft Accessibility](http://www.microsoft.com/ENABLE/)
+[Microsoft Accessibility](https://www.microsoft.com/ENABLE/)
 
   
 

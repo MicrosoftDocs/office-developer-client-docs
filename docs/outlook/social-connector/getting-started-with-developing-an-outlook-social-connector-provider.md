@@ -12,7 +12,7 @@ description: "The Outlook Social Connector (OSC) Provider Reference describes ho
 
 # Getting started with developing an Outlook Social Connector provider
 
-The Outlook Social Connector (OSC) Provider Reference describes how to develop an OSC provider by using OSC provider extensibility. If you are new to developing solutions for Outlook, see [Selecting an API or Technology for Developing Outlook Solutions](http://msdn.microsoft.com/library/8295da20-e567-4d08-b8e4-5c9b4498edd4%28Office.15%29.aspx) to identify the APIs and technologies that are most appropriate for your needs. 
+The Outlook Social Connector (OSC) Provider Reference describes how to develop an OSC provider by using OSC provider extensibility. If you are new to developing solutions for Outlook, see [Selecting an API or Technology for Developing Outlook Solutions](https://msdn.microsoft.com/library/8295da20-e567-4d08-b8e4-5c9b4498edd4%28Office.15%29.aspx) to identify the APIs and technologies that are most appropriate for your needs. 
 
 This section gives an overview of the OSC, how an OSC provider can be useful, quick steps for learning to develop a provider, technical requirements, best practices for developing a provider, and what's new in this release. 
   
@@ -50,8 +50,8 @@ This section gives an overview of the OSC, how an OSC provider can be useful, qu
   
 ## See also
 
-- [Microsoft Outlook Social Connector 32-bit](http://www.microsoft.com/downloads/details.aspx?FamilyID=b638cc14-11e5-448a-b5a6-4f553ce81b94)
-- [Update for Outlook Social Connector (KB983403), 32-Bit Edition](http://www.microsoft.com/downloads/details.aspx?FamilyID=9886faca-f1c5-4579-83e2-c872c7abc61a)
-- [Update for Outlook Social Connector (KB983403), 64-bit Edition](http://www.microsoft.com/downloads/details.aspx?FamilyID=72a506a7-8a91-4d56-8b27-bf3b3f58fe9a)
-- [Outlook Social Connector 2013: Provider templates](http://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c)
+- [Microsoft Outlook Social Connector 32-bit](https://www.microsoft.com/downloads/details.aspx?FamilyID=b638cc14-11e5-448a-b5a6-4f553ce81b94)
+- [Update for Outlook Social Connector (KB983403), 32-Bit Edition](https://www.microsoft.com/downloads/details.aspx?FamilyID=9886faca-f1c5-4579-83e2-c872c7abc61a)
+- [Update for Outlook Social Connector (KB983403), 64-bit Edition](https://www.microsoft.com/downloads/details.aspx?FamilyID=72a506a7-8a91-4d56-8b27-bf3b3f58fe9a)
+- [Outlook Social Connector 2013: Provider templates](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c)
 

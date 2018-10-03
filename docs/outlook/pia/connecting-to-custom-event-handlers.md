@@ -2,7 +2,7 @@
 title: Connecting to custom event handlers
 TOCTitle: Connecting to custom event handlers
 ms:assetid: 6e894c16-0fe9-4b86-b798-547b86f44cd8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb610520(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb610520(v=office.15)
 ms:contentKeyID: 55119783
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -14,7 +14,7 @@ Outlook raises events to notify add-ins about something happening, such as the I
 
 ## Creating a Callback method
 
-A callback is a method that is implemented to handle the occurrence of a specific event and is executed by a notification source. In Outlook, add-ins can implement callback methods to respond to certain events raised by Outlook. This callback method must match the signature of the delegate of that event. For example, to implement an event handler for the [ItemSend](https://msdn.microsoft.com/en-us/library/bb647198\(v=office.15\)) event, you must declare the callback method that matches the signature of the corresponding delegate:
+A callback is a method that is implemented to handle the occurrence of a specific event and is executed by a notification source. In Outlook, add-ins can implement callback methods to respond to certain events raised by Outlook. This callback method must match the signature of the delegate of that event. For example, to implement an event handler for the [ItemSend](https://msdn.microsoft.com/library/bb647198\(v=office.15\)) event, you must declare the callback method that matches the signature of the corresponding delegate:
 
 ```csharp
 public delegate void ApplicationEvents_11_ItemSendEventHandler(object Item, ref bool Cancel)

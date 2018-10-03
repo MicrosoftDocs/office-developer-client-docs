@@ -26,7 +26,7 @@ Also in these topics, you will find a discussion of the nickname cache, which is
     
 - [Autocomplete Stream](autocomplete-stream.md)
     
-- [Binary File Parsing](http://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf)
+- [Binary File Parsing](https://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf)
     
 ## Profile Sections
 

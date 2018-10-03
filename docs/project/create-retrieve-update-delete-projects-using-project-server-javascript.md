@@ -48,7 +48,7 @@ The following steps create a Visual Studio 2012 solution that contains a SharePo
     
 6. In the **SharePoint Customization Wizard** dialog box, choose **Deploy as a farm solution**, and then choose the **Finish** button. 
     
-7. Edit the value of the **Site URL** property for the **ProjectsJSOM** project to match the URL of the Project Web App instance (for example,  `http://ServerName/PWA`).
+7. Edit the value of the **Site URL** property for the **ProjectsJSOM** project to match the URL of the Project Web App instance (for example,  `https://ServerName/PWA`).
     
 ### To create the application page in Visual Studio
 

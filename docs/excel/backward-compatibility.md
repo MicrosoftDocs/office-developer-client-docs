@@ -58,7 +58,7 @@ For these reasons, ideally, starting in Excel 2007 you should export a function 
   
 Another reason why you might want to register a different function starting in Excel 2007 is that it permits XLL functions to take up to 255 arguments, instead of the 30 limit of earlier versions.
   
-Fortunately, you can have the benefits of both by exporting both versions from your project. You can then detect the running Excel version and conditionally register the most appropriate function. For more information and an example implementation, see [Developing Add-ins (XLLs) in Excel 2007](http://msdn.microsoft.com/en-us/library/aa730920.aspx).
+Fortunately, you can have the benefits of both by exporting both versions from your project. You can then detect the running Excel version and conditionally register the most appropriate function. For more information and an example implementation, see [Developing Add-ins (XLLs) in Excel 2007](https://msdn.microsoft.com/library/aa730920.aspx).
   
 This approach leads to the possibility that a worksheet running in Excel 2003 could display different results than the same sheet running starting in Excel 2007. For example, Excel 2003 would map a Unicode string in an Excel 2003 worksheet cell to an ASCII byte-string and truncate it before passing it to an XLL function. Starting in Excel 2007, Excel will pass an unconverted Unicode string to an XLL function registered in the right way. This could lead to a different result. You should be aware of this possibility and the consequences to your users, not just in the upgrade. For example, some built-in numeric functions were improved between Excel 2000 and Excel 2003.
   

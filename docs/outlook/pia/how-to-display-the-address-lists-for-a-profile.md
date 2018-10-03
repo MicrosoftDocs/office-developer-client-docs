@@ -2,7 +2,7 @@
 title: Display the address lists for a profile
 TOCTitle: Display the address lists for a profile
 ms:assetid: ced8230b-110b-4ccb-a699-588798144154
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184643(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff184643(v=office.15)
 ms:contentKeyID: 55119802
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -19,9 +19,9 @@ This example shows how to display the address lists for the current profile.
 > [!NOTE] 
 > The following code example is an excerpt from [Programming Applications for Microsoft Office Outlook 2007](https://www.amazon.com/gp/product/0735622493?ie=UTF8&tag=msmsdn-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0735622493).
 
-The current profile contains address lists that are represented by the [AddressLists](https://msdn.microsoft.com/en-us/library/bb611894\(v=office.15\)) collection. To get an instance of the AddressLists collection, you must use the [AddressLists](https://msdn.microsoft.com/en-us/library/bb624048\(v=office.15\)) property of the [NameSpace](https://msdn.microsoft.com/en-us/library/bb645857\(v=office.15\)) object.
+The current profile contains address lists that are represented by the [AddressLists](https://msdn.microsoft.com/library/bb611894\(v=office.15\)) collection. To get an instance of the AddressLists collection, you must use the [AddressLists](https://msdn.microsoft.com/library/bb624048\(v=office.15\)) property of the [NameSpace](https://msdn.microsoft.com/library/bb645857\(v=office.15\)) object.
 
-In the following code example, EnumerateAddressLists first enumerates each [AddressList](https://msdn.microsoft.com/en-us/library/bb623538\(v=office.15\)) object in the AddressLists collection by using a foreach statement. The example then creates a string that contains the values of the [Name](https://msdn.microsoft.com/en-us/library/bb609849\(v=office.15\)), [ResolutionOrder](https://msdn.microsoft.com/en-us/library/bb646853\(v=office.15\)), [IsReadOnly](https://msdn.microsoft.com/en-us/library/bb612676\(v=office.15\)), and [IsInitialAddressList](https://msdn.microsoft.com/en-us/library/bb646646\(v=office.15\)) properties. Finally, EnumerateAddressLists writes the string to the trace listeners of the [Listeners](http://msdn.microsoft.com/en-us/library/system.diagnostics.debug.listeners.aspx) collection. This displays each address list for the current profile.
+In the following code example, EnumerateAddressLists first enumerates each [AddressList](https://msdn.microsoft.com/library/bb623538\(v=office.15\)) object in the AddressLists collection by using a foreach statement. The example then creates a string that contains the values of the [Name](https://msdn.microsoft.com/library/bb609849\(v=office.15\)), [ResolutionOrder](https://msdn.microsoft.com/library/bb646853\(v=office.15\)), [IsReadOnly](https://msdn.microsoft.com/library/bb612676\(v=office.15\)), and [IsInitialAddressList](https://msdn.microsoft.com/library/bb646646\(v=office.15\)) properties. Finally, EnumerateAddressLists writes the string to the trace listeners of the [Listeners](https://msdn.microsoft.com/library/system.diagnostics.debug.listeners.aspx) collection. This displays each address list for the current profile.
 
 If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
 

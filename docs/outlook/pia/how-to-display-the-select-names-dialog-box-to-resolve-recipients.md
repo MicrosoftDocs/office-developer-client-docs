@@ -2,7 +2,7 @@
 title: Display the Select Names dialog box to resolve recipients
 TOCTitle: Display the Select Names dialog box to resolve recipients
 ms:assetid: 841dd4cd-6d69-46d5-8c83-e28c95b631a9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb646055(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb646055(v=office.15)
 ms:contentKeyID: 55119876
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -14,7 +14,7 @@ This example attempts to resolve the recipients provided by the *recips* paramet
 
 ## Example
 
-This code sample calls the [SelectNamesDialog](https://msdn.microsoft.com/en-us/library/bb609866\(v=office.15\)) object to display the **Select Names** dialog box which shows the Outlook address book. Through this dialog box, the user can select a name from the address book. If the name is not resolved, the recipient will be removed from recips. If the name is resolved, then the code sample will return the [AddressEntry](https://msdn.microsoft.com/en-us/library/bb609728\(v=office.15\)) object of the recipient to recips.
+This code sample calls the [SelectNamesDialog](https://msdn.microsoft.com/library/bb609866\(v=office.15\)) object to display the **Select Names** dialog box which shows the Outlook address book. Through this dialog box, the user can select a name from the address book. If the name is not resolved, the recipient will be removed from recips. If the name is resolved, then the code sample will return the [AddressEntry](https://msdn.microsoft.com/library/bb609728\(v=office.15\)) object of the recipient to recips.
 
 If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The **Imports** or **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following lines of code show how to do the import and assignment in Visual Basic and C\#.
 

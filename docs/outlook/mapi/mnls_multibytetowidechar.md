@@ -62,6 +62,6 @@ Returns the number of characters written to the buffer indicated by  _lpWideChar
   
 ## Remarks
 
-This function wraps the **MultiByteToWideChar** function. For more information, see [MultiByteToWideChar](http://msdn.microsoft.com/en-us/library/dd319072%28VS.85%29.aspx).
+This function wraps the **MultiByteToWideChar** function. For more information, see [MultiByteToWideChar](https://msdn.microsoft.com/library/dd319072%28VS.85%29.aspx).
   
 

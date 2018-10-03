@@ -2,7 +2,7 @@
 title: Import appointment XML data into Outlook appointment objects
 TOCTitle: Import appointment XML data into Outlook appointment objects
 ms:assetid: 166a648a-1c48-4984-8889-a7614cc277b1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff462092(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff462092(v=office.15)
 ms:contentKeyID: 55119821
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Import appointment XML data into Outlook appointment objects
 
-This topic shows how to read appointment data formatted in XML, save the data to Outlook [AppointmentItem](https://msdn.microsoft.com/en-us/library/bb645611\(v=office.15\)) objects in the default calendar, and return the appointment objects in an array.
+This topic shows how to read appointment data formatted in XML, save the data to Outlook [AppointmentItem](https://msdn.microsoft.com/library/bb645611\(v=office.15\)) objects in the default calendar, and return the appointment objects in an array.
 
 ## Example
 
@@ -18,11 +18,11 @@ This topic shows how to read appointment data formatted in XML, save the data to
 > Helmut Obertanner provided the following code examples. Helmut's expertise is in Office Developer Tools for Visual Studio and Outlook. 
 
 
-The following code examples contain the CreateAppointmentsFromXml method of the Sample class, implemented as part of an Outlook add-in project. Each project adds a reference to the Outlook Primary Interop Assembly, which is based on the [Microsoft.Office.Interop.Outlook](https://msdn.microsoft.com/en-us/library/bb610835\(v=office.15\)) namespace.
+The following code examples contain the CreateAppointmentsFromXml method of the Sample class, implemented as part of an Outlook add-in project. Each project adds a reference to the Outlook Primary Interop Assembly, which is based on the [Microsoft.Office.Interop.Outlook](https://msdn.microsoft.com/library/bb610835\(v=office.15\)) namespace.
 
 The CreateAppointmentsFromXml method accepts two input parameters:
 
-  - application is a trusted Outlook [Application](https://msdn.microsoft.com/en-us/library/bb646615\(v=office.15\)) object.
+  - application is a trusted Outlook [Application](https://msdn.microsoft.com/library/bb646615\(v=office.15\)) object.
 
   - xml is either an XML string, or a string that represents a path to a valid XML file. For the purpose of the following code examples, the XML delimits appointment data by using the following XML tags:
     
@@ -99,11 +99,11 @@ The following example shows input data for the *xml* parameter.
 </appointments>
 ```
 
-The CreateAppointmentsFromXml method uses the Microsoft COM implementation of the XML Document Object Model (DOM) to load and process the XML data that xml provides. CreateAppointmentsFromXml first checks whether xml specifies a valid source of XML data. If so, it loads the data into an XML document, [DOMDocument](https://msdn.microsoft.com/en-us/library/ms756987\(v=office.15\)). Otherwise, CreateAppointmentsFromXml throws an exception. For more information about the XML DOM, see [DOM](https://msdn.microsoft.com/en-us/library/ms766487\(v=office.15\)).
+The CreateAppointmentsFromXml method uses the Microsoft COM implementation of the XML Document Object Model (DOM) to load and process the XML data that xml provides. CreateAppointmentsFromXml first checks whether xml specifies a valid source of XML data. If so, it loads the data into an XML document, [DOMDocument](https://msdn.microsoft.com/library/ms756987\(v=office.15\)). Otherwise, CreateAppointmentsFromXml throws an exception. For more information about the XML DOM, see [DOM](https://msdn.microsoft.com/library/ms766487\(v=office.15\)).
 
-For each appointment child node delimited by the appointment tag in the XML data, CreateAppointmentsFromXml looks for specific tags, uses the DOM to extract the data, and assigns the data to corresponding properties of an **AppointmentItem** object: [Start](https://msdn.microsoft.com/en-us/library/bb647263\(v=office.15\)), [End](https://msdn.microsoft.com/en-us/library/bb623715\(v=office.15\)), [Subject](https://msdn.microsoft.com/en-us/library/bb611653\(v=office.15\)), [Location](https://msdn.microsoft.com/en-us/library/bb608946\(v=office.15\)), and [Body](https://msdn.microsoft.com/en-us/library/bb644880\(v=office.15\)). CreateAppointmentsFromXml then saves the appointment to the default calendar.
+For each appointment child node delimited by the appointment tag in the XML data, CreateAppointmentsFromXml looks for specific tags, uses the DOM to extract the data, and assigns the data to corresponding properties of an **AppointmentItem** object: [Start](https://msdn.microsoft.com/library/bb647263\(v=office.15\)), [End](https://msdn.microsoft.com/library/bb623715\(v=office.15\)), [Subject](https://msdn.microsoft.com/library/bb611653\(v=office.15\)), [Location](https://msdn.microsoft.com/library/bb608946\(v=office.15\)), and [Body](https://msdn.microsoft.com/library/bb644880\(v=office.15\)). CreateAppointmentsFromXml then saves the appointment to the default calendar.
 
-CreateAppointmentsFromXml uses the [Add](http://msdn2.microsoft.com/en-us/library/3wcytfd1) method of the [List\<T\>](http://msdn2.microsoft.com/en-us/library/6sh2ey19) class in the [System.Collections.Generic](http://msdn2.microsoft.com/en-us/library/0sbxh9x2) namespace to aggregate these AppointmentItem objects. When the method has processed all the appointments in the XML data, it returns the AppointmentItem objects in an array.
+CreateAppointmentsFromXml uses the [Add](https://msdn2.microsoft.com/en-us/library/3wcytfd1) method of the [List\<T\>](https://msdn2.microsoft.com/en-us/library/6sh2ey19) class in the [System.Collections.Generic](https://msdn2.microsoft.com/en-us/library/0sbxh9x2) namespace to aggregate these AppointmentItem objects. When the method has processed all the appointments in the XML data, it returns the AppointmentItem objects in an array.
 
 If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The **Imports** or **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following lines of code show how to do the import and assignment in Visual Basic and C\#.
 

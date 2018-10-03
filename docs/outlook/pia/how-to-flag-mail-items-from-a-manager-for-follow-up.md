@@ -2,7 +2,7 @@
 title: Flag mail items from a manager for follow-up
 TOCTitle: Flag mail items from a manager for follow-up
 ms:assetid: 5f7f3678-0f63-451e-ba08-cd973525aa1b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff424470(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff424470(v=office.15)
 ms:contentKeyID: 55119898
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -19,7 +19,7 @@ This example shows how to flag email items that were received from the user’s 
 
 Microsoft Outlook provides a task flagging system in which certain Outlook items such as mail items or contact items can be flagged for follow-up. When you flag an Outlook item for follow-up, information about that Outlook item, along with other task-based information, is displayed on the **To-Do Bar** and Calendar navigation module in the Outlook user interface. The **To-Do Bar** is displayed as a vertical pane in a typical configuration of the Outlook explorer window. It contains a date navigator control, upcoming appointments, and items that have been flagged for follow-up. The **To-Do Bar** itself is not extensible, and you can set configuration options for the **To-Do Bar** only through the Outlook user interface. Flagging items allows to you organize and prioritize tasks and to-do items.
 
-The following code example marks a group of items for a specified follow-up interval. The example gets all items in the current user’s Inbox that are from the current user’s manager by using a DAV Searching and Locating (DASL) query to filter for messages of type “IPM.NOTE” with the manager’s name as the sender. It then flags all items according to the [OlImportance](https://msdn.microsoft.com/en-us/library/bb609592\(v=office.15\)) value of the [Importance](https://msdn.microsoft.com/en-us/library/bb611974\(v=office.15\)) property. All high-importance items are flagged for follow-up today and all normal-importance items are flagged for follow-up this week by using the [MarkAsTask(OlMarkInterval)](https://msdn.microsoft.com/en-us/library/bb609068\(v=office.15\)) method.
+The following code example marks a group of items for a specified follow-up interval. The example gets all items in the current user’s Inbox that are from the current user’s manager by using a DAV Searching and Locating (DASL) query to filter for messages of type “IPM.NOTE” with the manager’s name as the sender. It then flags all items according to the [OlImportance](https://msdn.microsoft.com/library/bb609592\(v=office.15\)) value of the [Importance](https://msdn.microsoft.com/library/bb611974\(v=office.15\)) property. All high-importance items are flagged for follow-up today and all normal-importance items are flagged for follow-up this week by using the [MarkAsTask(OlMarkInterval)](https://msdn.microsoft.com/library/bb609068\(v=office.15\)) method.
 
 
 > [!NOTE]
@@ -37,9 +37,9 @@ using Outlook = Microsoft.Office.Interop.Outlook;
 private void DemoTaskFlagging()
 {
     const string PR_SENT_REPRESENTING_NAME =
-        "http://schemas.microsoft.com/mapi/proptag/0x0042001E";
+        "https://schemas.microsoft.com/mapi/proptag/0x0042001E";
     const string PR_MESSAGE_CLASS =
-        "http://schemas.microsoft.com/mapi/proptag/0x001A001E";
+        "https://schemas.microsoft.com/mapi/proptag/0x001A001E";
     Outlook.AddressEntry currentUser =
         Application.Session.CurrentUser.AddressEntry;
     if (currentUser.Type == "EX")

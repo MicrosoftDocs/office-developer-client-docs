@@ -34,7 +34,7 @@ The means of storing the autocomplete data differs between Outlook 2007 and Outl
   
  **Outlook 2007**
   
-For Outlook 2007, the autocomplete stream is stored in a file with the same name as the profile and an extension of .nk2. For example, if the default profile of "outlook" is used, the file will be called "outlook.nk2". The .nk2 file is stored in %APPDATA%\Microsoft\Outlook. For more information about the nickname cache binary file format, see [Outlook 2003/2007 NK2 File Format and Developer Guidelines](http://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf).
+For Outlook 2007, the autocomplete stream is stored in a file with the same name as the profile and an extension of .nk2. For example, if the default profile of "outlook" is used, the file will be called "outlook.nk2". The .nk2 file is stored in %APPDATA%\Microsoft\Outlook. For more information about the nickname cache binary file format, see [Outlook 2003/2007 NK2 File Format and Developer Guidelines](https://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf).
   
  **Outlook 2010 and Outlook 2013**
   
@@ -81,5 +81,5 @@ Saving changes to the autocomplete data involves writing the in-memory structure
 [MAPI Profiles](mapi-profiles.md)
 
 
-[Outlook 2003/2007 NK2 File Format and Developer Guidelines](http://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf)
+[Outlook 2003/2007 NK2 File Format and Developer Guidelines](https://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf)
 

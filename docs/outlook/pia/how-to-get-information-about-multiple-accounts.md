@@ -2,7 +2,7 @@
 title: Get information about multiple accounts
 TOCTitle: Get information about multiple accounts
 ms:assetid: 363f4058-3069-4ddc-b3ff-113a4dfd58c4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184599(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff184599(v=office.15)
 ms:contentKeyID: 55119794
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -18,9 +18,9 @@ Outlook supports a profile that contains one or more accounts that are connected
 
 The following method, EnumerateAccounts, displays the account name, user name, and Simple Mail Transfer Protocol (SMTP) address for each account that is defined in the current profile. If the account is connected to an Exchange server, EnumerateAccounts displays the Exchange server name and version information. And if the account resides on a delivery store, EnumerateAccounts displays the name of the default delivery store for the account.
 
-EnumerateAccounts accesses most of this information from the [Account](https://msdn.microsoft.com/en-us/library/bb645103\(v=office.15\)) object, except when the **Account** object does not contain information about the user name and SMTP address. In that case, EnumerateAccounts uses the [AddressEntry](https://msdn.microsoft.com/en-us/library/bb609728\(v=office.15\)) and [ExchangeUser](https://msdn.microsoft.com/en-us/library/bb609574\(v=office.15\)) objects. 
+EnumerateAccounts accesses most of this information from the [Account](https://msdn.microsoft.com/library/bb645103\(v=office.15\)) object, except when the **Account** object does not contain information about the user name and SMTP address. In that case, EnumerateAccounts uses the [AddressEntry](https://msdn.microsoft.com/library/bb609728\(v=office.15\)) and [ExchangeUser](https://msdn.microsoft.com/library/bb609574\(v=office.15\)) objects. 
 
-EnumerateAccounts obtains the **AddressEntry** object by using the [AddressEntry](https://msdn.microsoft.com/en-us/library/bb644359\(v=office.15\)) property of the [Recipient](https://msdn.microsoft.com/en-us/library/bb624370\(v=office.15\)) object obtained from the [CurrentUser](https://msdn.microsoft.com/en-us/library/ff184864\(v=office.15\)) property. EnumerateAccounts obtains the **ExchangeUser** object by using the [GetExchangeUser()](https://msdn.microsoft.com/en-us/library/bb611808\(v=office.15\)) method of the **AddressEntry** object. 
+EnumerateAccounts obtains the **AddressEntry** object by using the [AddressEntry](https://msdn.microsoft.com/library/bb644359\(v=office.15\)) property of the [Recipient](https://msdn.microsoft.com/library/bb624370\(v=office.15\)) object obtained from the [CurrentUser](https://msdn.microsoft.com/library/ff184864\(v=office.15\)) property. EnumerateAccounts obtains the **ExchangeUser** object by using the [GetExchangeUser()](https://msdn.microsoft.com/library/bb611808\(v=office.15\)) method of the **AddressEntry** object. 
 
 The following is the algorithm to obtain various information by using the Account, AddressEntry, and ExchangeUser objects:
 

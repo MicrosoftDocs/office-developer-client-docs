@@ -2,7 +2,7 @@
 title: Programmatically remove security level 2 attachments from messages and save them to disk
 TOCTitle: Programmatically remove security level 2 attachments from messages and save them to disk
 ms:assetid: fb63e505-a243-40a5-919d-e4fe914af3f9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184657(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff184657(v=office.15)
 ms:contentKeyID: 55119822
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -19,10 +19,10 @@ This example shows how to remove security level 2 attachments from email message
 
 Outlook protects users from malicious code transported via email attachments that have certain file extensions such as .exe or .bat. Those particular attachments are blocked by default and identified as Level 1 attachments. Level 2 attachments have a lesser chance of containing malicious code, but users cannot open a Level 2 attachment directly from an email message. A Level 2 attachment must first be saved to a disk.
 
-By using the [SaveAsFile(String)](https://msdn.microsoft.com/en-us/library/bb624311\(v=office.15\)) method in the [Attachment](https://msdn.microsoft.com/en-us/library/bb609285\(v=office.15\)) object, you can save attachments to a disk. In the following code example, RemoveAttachmentsAndSaveToDisk first removes from mail items in a folder all Level 2 attachments that are greater than a specified size. This is done by enumerating the [Type](https://msdn.microsoft.com/en-us/library/bb609277\(v=office.15\)) property of each **Attachment** object in the [Attachments](https://msdn.microsoft.com/en-us/library/bb646211\(v=office.15\)) collection and removing the ones that are equal to [olByValue](https://msdn.microsoft.com/en-us/library/bb623448\(v=office.15\)). RemoveAttachmentsAndSaveToDisk then saves the removed attachment by using the **SaveAsFile** method.
+By using the [SaveAsFile(String)](https://msdn.microsoft.com/library/bb624311\(v=office.15\)) method in the [Attachment](https://msdn.microsoft.com/library/bb609285\(v=office.15\)) object, you can save attachments to a disk. In the following code example, RemoveAttachmentsAndSaveToDisk first removes from mail items in a folder all Level 2 attachments that are greater than a specified size. This is done by enumerating the [Type](https://msdn.microsoft.com/library/bb609277\(v=office.15\)) property of each **Attachment** object in the [Attachments](https://msdn.microsoft.com/library/bb646211\(v=office.15\)) collection and removing the ones that are equal to [olByValue](https://msdn.microsoft.com/library/bb623448\(v=office.15\)). RemoveAttachmentsAndSaveToDisk then saves the removed attachment by using the **SaveAsFile** method.
 
 > [!NOTE] 
-> Collections in Outlook are linear. Use the [Index](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.attachment.index?view=outlook-pia) operator to reference **Attachments**[1] to **Attachments**[n], where n represents the value of the [Count](https://docs.microsoft.com/en-us/dotnet/api/microsoft.office.interop.outlook.attachments.count?view=outlook-pia) property.
+> Collections in Outlook are linear. Use the [Index](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.attachment.index?view=outlook-pia) operator to reference **Attachments**[1] to **Attachments**[n], where n represents the value of the [Count](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.attachments.count?view=outlook-pia) property.
 > 
 > You cannot use a **foreach** statement to remove items in a collection. Instead, use an **Index** operator to obtain the first item in the collection, and then delete the item. Then use a **while** statement to determine when you have deleted the appropriate number of items in the collection. This will ensure that you have iterated over the correct number of items in the collection.
 
@@ -49,7 +49,7 @@ private void RemoveAttachmentsAndSaveToDisk(string path,
         string filter = "@SQL=" + "\""
             + "urn:schemas:httpmail:hasattachment"
             + "\"" + " = True" + " AND " + "\""
-            + "http://schemas.microsoft.com/mapi/proptag/0x001A001E"
+            + "https://schemas.microsoft.com/mapi/proptag/0x001A001E"
             + "\"" + " = 'IPM.Note'";
         attachItems = folder.Items.Restrict(filter);
         foreach (Outlook.MailItem mail in attachItems)

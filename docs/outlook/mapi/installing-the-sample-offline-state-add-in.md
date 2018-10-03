@@ -20,7 +20,7 @@ This topic takes you through the steps to download and install the Sample Offlin
   
 ## Install the Sample Offline State Add-in
 
-1. Download the Sample Offline State Add-in here: [Outlook 2007 Auxiliary Reference Code Samples and Redistributable Installer](http://www.microsoft.com/en-us/download/details.aspx?id=24102).
+1. Download the Sample Offline State Add-in here: [Outlook 2007 Auxiliary Reference Code Samples and Redistributable Installer](https://www.microsoft.com/en-us/download/details.aspx?id=24102).
     
 2. Run Visual Studio 2005 as an administrator.
     

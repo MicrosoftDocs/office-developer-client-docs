@@ -18,7 +18,7 @@ description: "You can customize the permission set that is applied to an InfoPat
 
 You can customize the permission set that is applied to an InfoPath managed code form template by using the .NET Configuration snap-in.
   
-The common language runtime (CLR) hosted by InfoPath will look for a predefined code group named  *InfoPath Form Templates*  at the Machine policy level under the All_Code group. The CLR will apply the permission sets that are defined under that group to the application domain (AppDomain) where the form code runs. This enables you to customize the permission sets that are granted to InfoPath managed code form templates. For example, you can grant a form template downloaded from http://MySite permission to access the Active Directory. 
+The common language runtime (CLR) hosted by InfoPath will look for a predefined code group named  *InfoPath Form Templates*  at the Machine policy level under the All_Code group. The CLR will apply the permission sets that are defined under that group to the application domain (AppDomain) where the form code runs. This enables you to customize the permission sets that are granted to InfoPath managed code form templates. For example, you can grant a form template downloaded from https://MySite permission to access the Active Directory. 
   
 For custom security policy defined by using the .NET Configuration snap-in to be applied, it must be deployed on all the client computers where the form template will run.
   
@@ -74,13 +74,13 @@ You can create code groups under the **InfoPath Form Templates** group to grant 
     
      `\\MyServer\MyShare\MyFormTemplate.xsn`
     
-     `http://MySite/MySubsite/MyFormTempate.xsn`
+     `https://MySite/MySubsite/MyFormTempate.xsn`
     
     To grant the permission set to all form templates in a URL or UNC, omit the name of the template and add an asterisk at the end of the URL or UNC. For example:
     
      `\\MyServer\MyShare\*`
     
-     `http://MySite/MySubsite/*`
+     `https://MySite/MySubsite/*`
     
 5. Click **Next**, and then click **Use existing permission set** and assign the **FullTrust** permission set to the code group. 
     

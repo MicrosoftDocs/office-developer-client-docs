@@ -44,7 +44,7 @@ S_OK
 
 Without first unwrapping an IMAP store, accessing a message in the store can force a synchronization that attempts to download the entire message. Using the unwrapped store allows access to the message in its current state without triggering a download.
   
-Because **UnwrapNoRef** does not increment the reference count for this new pointer to the unwrapped store object, after successfully calling **UnwrapNoRef**, you should call [IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) to maintain the reference count. 
+Because **UnwrapNoRef** does not increment the reference count for this new pointer to the unwrapped store object, after successfully calling **UnwrapNoRef**, you should call [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) to maintain the reference count. 
   
 ## See also
 

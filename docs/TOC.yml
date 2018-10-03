@@ -19,7 +19,7 @@
      - name: Office Online Server
        href: excel/configure-udfs-in-excel-online-in-office-online-server-preview.md
      - name: Office for Mac
-       href: https://docs.microsoft.com/en-us/office/vba/api/overview/office-mac
+       href: https://docs.microsoft.com/office/vba/api/overview/office-mac
      - name: Office shared
        href: shared/office-shared.md
        items:
@@ -344,12 +344,12 @@
               - name: OpenPopup
                 href: access/openpopup-macro-action-access-custom-web-app.md
         - name: Access desktop database reference
-          href: https://msdn.microsoft.com/en-us/library/dn142571.aspx       
+          href: https://msdn.microsoft.com/library/dn142571.aspx       
      - name: Excel
        href: excel/excel-home.md
        items:
         - name: Excel VBA reference
-          href: https://docs.microsoft.com/en-us/office/vba/api/overview/excel
+          href: https://docs.microsoft.com/office/vba/api/overview/excel
         - name: Excel Primary Interop Assembly reference
           href: https://docs.microsoft.com/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2017
         - name: Excel XLL SDK
@@ -599,7 +599,7 @@
               - name: ShowOptions
                 href: excel/showoptions.md 
         - name: Tips for optimizing performance obstructions
-          href: https://docs.microsoft.com/en-us/office/vba/excel/concepts/excel-performance/excel-tips-for-optimizing-performance-obstructions
+          href: https://docs.microsoft.com/office/vba/excel/concepts/excel-performance/excel-tips-for-optimizing-performance-obstructions
      - name: Infopath
        href: infopath/infopath-home.md
        items:
@@ -784,7 +784,7 @@
                     - name: Troubleshooting form templates at design time
                       href: infopath/form-templates/troubleshoot-form-templates-that-use-infopath-object-model-at-design-time.md
                 - name: Class library reference for InfoPath form templates
-                  href: https://msdn.microsoft.com/en-us/library/office/ee526341.aspx
+                  href: https://msdn.microsoft.com/library/office/ee526341.aspx
             - name: InfoPath developer reference for external automation
               href: infopath/external-automation/infopath-developer-reference-for-external-automation.md
               items:
@@ -805,7 +805,7 @@
                   - name: Automating InfoPath from an external application
                     href: infopath/external-automation/automating-infopath-from-an-external-application.md
                 - name: Class library reference for InfoPath external automation
-                  href: https://msdn.microsoft.com/en-us/library/office/ff663147.aspx          
+                  href: https://msdn.microsoft.com/library/office/ff663147.aspx          
      - name: OneNote
        href: onenote/onenote-home.md
        items:
@@ -6600,7 +6600,7 @@
                      - name: Project Server error codes
                        href: project/project-server-error-codes.md
                      - name: ProjectData - OData service reference
-                       href: https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163015(v=office.15)
+                       href: https://docs.microsoft.com/previous-versions/office/project-odata/jj163015(v=office.15)
                  - name: Class library and web service reference
                    href: https://docs.microsoft.com/dotnet/api/index?view=office-project-server
                  - name: JavaScript API reference

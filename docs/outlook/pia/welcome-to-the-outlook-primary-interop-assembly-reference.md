@@ -18,7 +18,7 @@ f1_keywords:
 
 # Outlook Primary Interop Assembly reference
 
-The Outlook 2013 Primary Interop Assembly (PIA) reference provides help for developing managed applications for Outlook 2013. It extends the [Outlook 2013 Developer Reference](https://docs.microsoft.com/en-us/office/vba/api/overview/outlook) from the COM environment to the managed environment and focuses on how to use the PIA. It includes all the additions and changes to the object model in Outlook 2013, and provides many code samples in C\# and Visual Basic to show how to perform common tasks in Outlook.
+The Outlook 2013 Primary Interop Assembly (PIA) reference provides help for developing managed applications for Outlook 2013. It extends the [Outlook 2013 Developer Reference](https://docs.microsoft.com/office/vba/api/overview/outlook) from the COM environment to the managed environment and focuses on how to use the PIA. It includes all the additions and changes to the object model in Outlook 2013, and provides many code samples in C\# and Visual Basic to show how to perform common tasks in Outlook.
 
 If you are new to developing solutions for Outlook, see [Selecting an API or technology for developing solutions for Outlook](../selecting-an-api-or-technology-for-developing-solutions-for-outlook.md) to identify the APIs and technologies that are most appropriate for your needs.
 

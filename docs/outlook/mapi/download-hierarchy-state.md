@@ -34,7 +34,7 @@ description: "Last modified: March 09, 2015"
 
 This state initiates downloading a tree hierarchy of folders from a server to the local store. 
   
-Outlook initializes the associated **DNHIER** data structure with a pointer to the hierarchy. The client downloads the hierarchy, and inserts new folders or modifications to folders in the local store. The download process adopts Microsoft Exchange Incremental Change Synchronization (ICS). For more information on ICS, see [ICS Evaluation Criteria](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx).
+Outlook initializes the associated **DNHIER** data structure with a pointer to the hierarchy. The client downloads the hierarchy, and inserts new folders or modifications to folders in the local store. The download process adopts Microsoft Exchange Incremental Change Synchronization (ICS). For more information on ICS, see [ICS Evaluation Criteria](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
   
 When this state ends, the local store returns to the synchronize state.
   

@@ -2,7 +2,7 @@
 title: Filter and efficiently enumerate items in a folder
 TOCTitle: Filter and efficiently enumerate items in a folder
 ms:assetid: efee7704-b7d9-4586-a72e-4e960ec1ffdb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb612664(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb612664(v=office.15)
 ms:contentKeyID: 55119884
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -10,11 +10,11 @@ mtps_version: v=office.15
 
 # Filter and efficiently enumerate items in a folder
 
-This example shows how to use the [Table](https://msdn.microsoft.com/en-us/library/bb652856\(v=office.15\)) object to filter for items in the Inbox that have attachments, and efficiently enumerate such items, displaying selected properties for each item.
+This example shows how to use the [Table](https://msdn.microsoft.com/library/bb652856\(v=office.15\)) object to filter for items in the Inbox that have attachments, and efficiently enumerate such items, displaying selected properties for each item.
 
 ## Example
 
-The code sample specifies the property **PR\_HASATTACH** with the MAPI namespace, and uses the property to create the initial filter in the [GetTable](https://msdn.microsoft.com/en-us/library/bb612592\(v=office.15\)) method on the Inbox. A **Table** object for an item type has default columns representing certain properties of that item type. To customize the columns, this example first calls the [RemoveAll](https://msdn.microsoft.com/en-us/library/bb611528\(v=office.15\)) method on the [Columns](https://msdn.microsoft.com/en-us/library/bb646214\(v=office.15\)) collection of that **Table**, and then calls the [Add](https://msdn.microsoft.com/en-us/library/bb652865\(v=office.15\)) method on the **Columns** collection to add the **EntryID**, **Subject**, and **ReceivedTime** properties using the built-in property names, with the **ReceivedTime** column storing values in local date-time representation. 
+The code sample specifies the property **PR\_HASATTACH** with the MAPI namespace, and uses the property to create the initial filter in the [GetTable](https://msdn.microsoft.com/library/bb612592\(v=office.15\)) method on the Inbox. A **Table** object for an item type has default columns representing certain properties of that item type. To customize the columns, this example first calls the [RemoveAll](https://msdn.microsoft.com/library/bb611528\(v=office.15\)) method on the [Columns](https://msdn.microsoft.com/library/bb646214\(v=office.15\)) collection of that **Table**, and then calls the [Add](https://msdn.microsoft.com/library/bb652865\(v=office.15\)) method on the **Columns** collection to add the **EntryID**, **Subject**, and **ReceivedTime** properties using the built-in property names, with the **ReceivedTime** column storing values in local date-time representation. 
 
 The example then calls **Columns.Add** one more time to add the **ReceiveTime** property specifying its MAPI namespace so that this column will store the value as a Universal Coordinated Time (UTC) date-time value. Finally, the example enumerates each item in the Table, displaying the value of each of the four properties specified as the table columns.
 
@@ -33,7 +33,7 @@ using Outlook = Microsoft.Office.Interop.Outlook;
 ```vb
 Private Sub DemoTableColumns()
     Const PR_HAS_ATTACH As String = _
-        "http://schemas.microsoft.com/mapi/proptag/0x0E1B000B"
+        "https://schemas.microsoft.com/mapi/proptag/0x0E1B000B"
     ' Obtain Inbox
     Dim folder As Outlook.Folder = _
         CType(Application.Session.GetDefaultFolder( _
@@ -76,7 +76,7 @@ End Sub
 private void DemoTableColumns()
 {
     const string PR_HAS_ATTACH =
-        "http://schemas.microsoft.com/mapi/proptag/0x0E1B000B";
+        "https://schemas.microsoft.com/mapi/proptag/0x0E1B000B";
     // Obtain Inbox
     Outlook.Folder folder =
         Application.Session.GetDefaultFolder(

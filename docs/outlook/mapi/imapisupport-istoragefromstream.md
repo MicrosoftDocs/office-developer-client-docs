@@ -41,7 +41,7 @@ HRESULT IStorageFromStream(
     
  _lpInterface_
   
-> [in] A pointer to the interface identifier (IID) that represents the interface to be used to access the stream pointed to by  _lpUnkIn_. Any of the following values are valid: IID_IStream, IID_ILockBytes, or **null**, which indicates that the [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) interface should be used to access the stream. 
+> [in] A pointer to the interface identifier (IID) that represents the interface to be used to access the stream pointed to by  _lpUnkIn_. Any of the following values are valid: IID_IStream, IID_ILockBytes, or **null**, which indicates that the [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) interface should be used to access the stream. 
     
  _ulFlags_
   
@@ -75,9 +75,9 @@ S_OK
     
 ## Remarks
 
-The **IMAPISupport::IStorageFromStream** method is implemented for all service provider support objects. Service providers call **IStorageFromStream** to create a storage object to use for opening particular properties. Service providers that have their own implementation of the [IStorage](http://msdn.microsoft.com/en-us/library/aa380015%28VS.85%29.aspx) interface do not need to call **IStorageFromStream**. 
+The **IMAPISupport::IStorageFromStream** method is implemented for all service provider support objects. Service providers call **IStorageFromStream** to create a storage object to use for opening particular properties. Service providers that have their own implementation of the [IStorage](https://msdn.microsoft.com/library/aa380015%28VS.85%29.aspx) interface do not need to call **IStorageFromStream**. 
   
-The storage object created by **IStorageFromStream** calls the stream's [IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) method to increment its reference count and then decrements the count when the storage is released. 
+The storage object created by **IStorageFromStream** calls the stream's [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) method to increment its reference count and then decrements the count when the storage is released. 
   
 ## Notes to callers
 
@@ -91,7 +91,7 @@ When the [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method of one of y
     
 4. Return a pointer to this storage object.
     
-If you implement additional interfaces that use the storage object, create an object that wraps the storage object and implement a higher level [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx) method. 
+If you implement additional interfaces that use the storage object, create an object that wraps the storage object and implement a higher level [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) method. 
   
 Do not allow a property to be opened with the **IStream** interface if it was created with **IStorage**. Conversely, do not allow a property to be opened with the **IStorage** interface if it was created with **IStream**. 
   

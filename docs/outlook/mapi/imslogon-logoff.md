@@ -48,7 +48,7 @@ Message store providers implement the **IMSLogon::Logoff** method to forcibly sh
   
 - While MAPI is logging off a client after a call to the [IMAPISession::Logoff](imapisession-logoff.md) method. 
     
-- While MAPI is logging off a message store provider. In this case, **IMSLogon::Logoff** is called as part of MAPI processing the [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) method of the support object that the message store provider creates while it is processing an [IMsgStore::StoreLogoff](imsgstore-storelogoff.md) or **IUnknown::Release** method call on a message store object. 
+- While MAPI is logging off a message store provider. In this case, **IMSLogon::Logoff** is called as part of MAPI processing the [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) method of the support object that the message store provider creates while it is processing an [IMsgStore::StoreLogoff](imsgstore-storelogoff.md) or **IUnknown::Release** method call on a message store object. 
     
 ## See also
 

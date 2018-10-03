@@ -2,7 +2,7 @@
 title: Best practices in developing managed Outlook add-ins
 TOCTitle: Best practices in developing managed Outlook add-ins
 ms:assetid: a03246f6-2ca5-4fcb-8e63-a11cfbc8d9a0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb611563(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb611563(v=office.15)
 ms:contentKeyID: 55119784
 ms.date: 07/24/2014
 mtps_version: v=office.15

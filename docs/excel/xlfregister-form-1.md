@@ -96,7 +96,7 @@ A one-character, case-sensitive string that specifies the control key assigned t
   
 _pxHelpTopic_ (**xltypeStr**)
   
-An optional reference to the Help file (.chm or .hlp) to display when the user clicks the Help button (when your custom function is displayed). Can be in the form  `filepath!HelpContextID` or  `http://address/path_to_file_in_site!0`. Both parts before and after the "!" are required.  *HelpContextID*  must not contain single quotes, and will be converted by Excel to an unsigned integer 4 bytes long, in decimal form. When using the URL form, Excel opens only the referenced help file. 
+An optional reference to the Help file (.chm or .hlp) to display when the user clicks the Help button (when your custom function is displayed). Can be in the form  `filepath!HelpContextID` or  `https://address/path_to_file_in_site!0`. Both parts before and after the "!" are required.  *HelpContextID*  must not contain single quotes, and will be converted by Excel to an unsigned integer 4 bytes long, in decimal form. When using the URL form, Excel opens only the referenced help file. 
   
 _pxFunctionHelp_ (**xltypeStr**)
   

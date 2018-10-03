@@ -16,7 +16,7 @@ Provides helper functionality in the current MAPI session to manage accounts.
 
 |||
 |:-----|:-----|
-|Inherits from:  <br/> |[IUnknown](http://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) <br/> |
+|Inherits from:  <br/> |[IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) <br/> |
 |Provided by:  <br/> |Client  <br/> |
 |Interface identifier:  <br/> |IID_IOlkAccountHelper  <br/> |
    

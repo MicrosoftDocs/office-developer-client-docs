@@ -2,7 +2,7 @@
 title: Find a specific appointment in a recurring appointment series
 TOCTitle: Find a specific appointment in a recurring appointment series
 ms:assetid: 01f55f04-7245-4325-a354-50a6eb270a31
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184586(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff184586(v=office.15)
 ms:contentKeyID: 55119812
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -12,16 +12,16 @@ mtps_version: v=office.15
 
 # Find a specific appointment in a recurring appointment series
 
-This example shows how to return an [AppointmentItem](https://msdn.microsoft.com/en-us/library/bb645611\(v=office.15\)) object that represents a specific appointment in a recurring appointment series.
+This example shows how to return an [AppointmentItem](https://msdn.microsoft.com/library/bb645611\(v=office.15\)) object that represents a specific appointment in a recurring appointment series.
 
 ## Example
 
 > [!NOTE] 
 > The following code example is an excerpt from [Programming Applications for Microsoft Office Outlook 2007](https://www.amazon.com/gp/product/0735622493?ie=UTF8&tag=msmsdn-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0735622493).
 
-To find an instance of a recurring appointment that occurs at a specified date and time, use the [GetOccurrence(DateTime)](https://msdn.microsoft.com/en-us/library/bb622806\(v=office.15\)) method of the [RecurrencePattern](https://msdn.microsoft.com/en-us/library/bb608903\(v=office.15\)) object to return an **AppointmentItem** object.
+To find an instance of a recurring appointment that occurs at a specified date and time, use the [GetOccurrence(DateTime)](https://msdn.microsoft.com/library/bb622806\(v=office.15\)) method of the [RecurrencePattern](https://msdn.microsoft.com/library/bb608903\(v=office.15\)) object to return an **AppointmentItem** object.
 
-When you work with recurring appointment items, you should release any prior references, obtain new references to the recurring appointment item before you access or modify the item, and release these references as soon as you are finished and have saved the changes. This practice applies to the recurring **AppointmentItem** object, and any [Exception](https://msdn.microsoft.com/en-us/library/bb610440\(v=office.15\)) or [RecurrencePattern](https://msdn.microsoft.com/en-us/library/bb608903\(v=office.15\)) object. To release a reference in Visual Basic, set that existing object to Nothing. In C\#, explicitly release the memory for that object.
+When you work with recurring appointment items, you should release any prior references, obtain new references to the recurring appointment item before you access or modify the item, and release these references as soon as you are finished and have saved the changes. This practice applies to the recurring **AppointmentItem** object, and any [Exception](https://msdn.microsoft.com/library/bb610440\(v=office.15\)) or [RecurrencePattern](https://msdn.microsoft.com/library/bb608903\(v=office.15\)) object. To release a reference in Visual Basic, set that existing object to Nothing. In C\#, explicitly release the memory for that object.
 
 Note that even after you release your reference and attempt to obtain a new reference, if there is still an active reference (held by another add-in or Outlook) to one of the above objects, your new reference will still point to an out-of-date copy of the object. Therefore, it is important that you release your references as soon as you are finished with the recurring appointment.
 

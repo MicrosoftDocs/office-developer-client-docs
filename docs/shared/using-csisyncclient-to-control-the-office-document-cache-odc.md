@@ -197,7 +197,7 @@ Identifies the consumer and which cache to use. Must be non-empty with a maximum
   
  _bstrProgID_
   
-Identifies the consumer's COM object for two-way communication. Must be non-empty with a maximum of 39 characters. See [\<ProgID\> Key](https://docs.microsoft.com/en-us/windows/desktop/com/-progid--key) for more information about ProgIDs. 
+Identifies the consumer's COM object for two-way communication. Must be non-empty with a maximum of 39 characters. See [\<ProgID\> Key](https://docs.microsoft.com/windows/desktop/com/-progid--key) for more information about ProgIDs. 
   
  _bstrFileSystemDirectoryHint_
   
@@ -243,7 +243,7 @@ A string which identifies the ResourceID of the file. This value must be non-emp
   
  _bstrWebPath_
   
-A string which identifies the file on the server. This value must be non-empty, valid URL, but no longer than INTERNET_MAX_URL_LENGTH, as defined by http://support.microsoft.com/kb/208427. 
+A string which identifies the file on the server. This value must be non-empty, valid URL, but no longer than INTERNET_MAX_URL_LENGTH, as defined by https://support.microsoft.com/kb/208427. 
   
 ##### Return values
 
@@ -282,7 +282,7 @@ A string which specifies the new local path for the file. This value must be a n
   
  _bstrNewWebPath_
   
-A string which specifies the new URL for the file. This value must be non-empty valid URL, but no longer than INTERNET_MAX_URL_LENGTH, as defined by http://support.microsoft.com/kb/208427. 
+A string which specifies the new URL for the file. This value must be non-empty valid URL, but no longer than INTERNET_MAX_URL_LENGTH, as defined by https://support.microsoft.com/kb/208427. 
   
  _fBlockUploads_
   
@@ -335,7 +335,7 @@ This method will allow downloads if it was marked as downloads blocked previousl
 |:-----|:-----|
 |bstrFileSystemPath  <br/> |A string which identifies the file on the client. This value must be a non-empty local path with a maximum of 256 characters. This path must be in the directory tree specified by the FileSystemDirectoryHint when the call to Initialize was made.  <br/> |
 |bstrResourceID  <br/> |A string which identifies the ResourceID of the file. This value must be non-empty with a maximum of 128 characters.  <br/> |
-|bstrWebPath  <br/> |A string which identifies the file on the server. This value must be a non-empty valid URL, but no longer than INTERNET_MAX_URL_LENGTH, as defined by http://support.microsoft.com/kb/208427.  <br/> |
+|bstrWebPath  <br/> |A string which identifies the file on the server. This value must be a non-empty valid URL, but no longer than INTERNET_MAX_URL_LENGTH, as defined by https://support.microsoft.com/kb/208427.  <br/> |
    
 ##### Return values
 

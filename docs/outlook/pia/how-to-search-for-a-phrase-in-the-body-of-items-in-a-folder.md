@@ -2,7 +2,7 @@
 title: Search for a phrase in the body of items in a folder
 TOCTitle: Search for a phrase in the body of items in a folder
 ms:assetid: 2c9f3b5f-ed91-4a07-b247-8f89f00cbc68
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb644806(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb644806(v=office.15)
 ms:contentKeyID: 55119924
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -14,7 +14,7 @@ This example searches for the string "office" in the Body of items in the Inbox.
 
 ## Example
 
-This code sample uses a DAV Searching and Locating (DASL) syntax to specify a query. To construct the filter, the code sample first checks if Instant Search is enabled in the default store to determine whether to use the **ci\_phrasematch** keyword for an exact phrase match of "office" in the item body, or the **like** keyword to match any occurrence of "office" as an exact string or a substring in the item body. The sample then applies the filter to the [GetTable](https://msdn.microsoft.com/en-us/library/bb612592\(v=office.15\)) method on the Inbox and obtains the results in a [Table](https://msdn.microsoft.com/en-us/library/bb652856\(v=office.15\)) object. The code sample then displays the subject of each of the returned items in the **Table**.
+This code sample uses a DAV Searching and Locating (DASL) syntax to specify a query. To construct the filter, the code sample first checks if Instant Search is enabled in the default store to determine whether to use the **ci\_phrasematch** keyword for an exact phrase match of "office" in the item body, or the **like** keyword to match any occurrence of "office" as an exact string or a substring in the item body. The sample then applies the filter to the [GetTable](https://msdn.microsoft.com/library/bb612592\(v=office.15\)) method on the Inbox and obtains the results in a [Table](https://msdn.microsoft.com/library/bb652856\(v=office.15\)) object. The code sample then displays the subject of each of the returned items in the **Table**.
 
 The code sample specifies the **Body** property by using the namespace representation urn:schemas:httpmail:textdescription.
 

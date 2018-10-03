@@ -57,7 +57,7 @@ Provides access to address book containers. MAPI and client applications call th
    
 ## Remarks
 
-The **IABContainer** interface inherits indirectly from the [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28VS.85%29.aspx) interface through the [IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md) and [IMAPIProp : IUnknown](imapipropiunknown.md) interfaces. Address book providers implement the **IABContainer** interface. 
+The **IABContainer** interface inherits indirectly from the [IUnknown](https://msdn.microsoft.com/library/ms680509%28VS.85%29.aspx) interface through the [IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md) and [IMAPIProp : IUnknown](imapipropiunknown.md) interfaces. Address book providers implement the **IABContainer** interface. 
   
 Any number of messaging user objects, distribution lists, and other address book containers can exist in an address book container. As with any container, clients or service providers can use an address book container to open one of its entries or to retrieve a hierarchy table or contents table. Address book containers also provide name resolution and, depending on the provider, the ability to add, remove, or modify entries.
   

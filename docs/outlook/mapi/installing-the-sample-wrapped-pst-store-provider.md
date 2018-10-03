@@ -20,7 +20,7 @@ This topic takes you through the steps to download and install the Sample Wrappe
   
 ## Install the Sample Wrapped PST Store Provider
 
-1. To download the Sample Wrapped PST Store Provider, see [Outlook 2007 Auxiliary Reference Code Samples and Redistributable Installer](http://www.microsoft.com/en-us/download/details.aspx?id=24102).
+1. To download the Sample Wrapped PST Store Provider, see [Outlook 2007 Auxiliary Reference Code Samples and Redistributable Installer](https://www.microsoft.com/en-us/download/details.aspx?id=24102).
     
 2. Open the **SampleWrappedPSTStoreProvider** folder and click **Extract All Files**.
     

@@ -2,7 +2,7 @@
 title: Search attachments of items in a folder for an exact phrase
 TOCTitle: Search attachments of items in a folder for an exact phrase
 ms:assetid: 3202c0c7-ee3d-4396-b3a9-d24990b44829
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb609825(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb609825(v=office.15)
 ms:contentKeyID: 55119889
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -14,9 +14,9 @@ This example searches for the exact search string "office" in attachments to ite
 
 ## Example
 
-This code sample uses a DAV Searching and Locating (DASL) syntax to specify a query. To construct the filter, the code sample first checks whether Instant Search is enabled in the default store to determine whether to use the **ci\_phrasematch** keyword for an exact phrase match to "office" in any attachment. The sample then applies the filter to the [GetTable](https://msdn.microsoft.com/en-us/library/bb612592\(v=office.15\)) method on the Inbox and obtains the results in a [Table](https://msdn.microsoft.com/en-us/library/bb652856\(v=office.15\)) object. The code sample then displays the subject of each of the returned items in the **Table**.
+This code sample uses a DAV Searching and Locating (DASL) syntax to specify a query. To construct the filter, the code sample first checks whether Instant Search is enabled in the default store to determine whether to use the **ci\_phrasematch** keyword for an exact phrase match to "office" in any attachment. The sample then applies the filter to the [GetTable](https://msdn.microsoft.com/library/bb612592\(v=office.15\)) method on the Inbox and obtains the results in a [Table](https://msdn.microsoft.com/library/bb652856\(v=office.15\)) object. The code sample then displays the subject of each of the returned items in the **Table**.
 
-The code sample specifies the **Attachments** property of an item using the namespace representation, http://schemas.microsoft.com/mapi/proptag/0x0EA5001E. The syntax for using the **ci\_phrasematch** keyword is:
+The code sample specifies the **Attachments** property of an item using the namespace representation, https://schemas.microsoft.com/mapi/proptag/0x0EA5001E. The syntax for using the **ci\_phrasematch** keyword is:
 
 `<PropertySchemaName> ci_phrasematch <ComparisonString>`
 
@@ -36,7 +36,7 @@ using Outlook = Microsoft.Office.Interop.Outlook;
 Private Sub DemoSearchAttachments()
     Dim filter As String
     Const PR_SEARCH_ATTACHMENTS As String = _
-        "http://schemas.microsoft.com/mapi/proptag/0x0EA5001E"
+        "https://schemas.microsoft.com/mapi/proptag/0x0EA5001E"
     If (Application.Session.DefaultStore.IsInstantSearchEnabled) Then
         filter = "@SQL=" & Chr(34) _
             & PR_SEARCH_ATTACHMENTS & Chr(34) _
@@ -59,7 +59,7 @@ private void DemoSearchAttachments()
 {
     string filter;
     const string PR_SEARCH_ATTACHMENTS =
-        "http://schemas.microsoft.com/mapi/proptag/0x0EA5001E";
+        "https://schemas.microsoft.com/mapi/proptag/0x0EA5001E";
     if (Application.Session.DefaultStore.IsInstantSearchEnabled)
     {
         filter = "@SQL=" + "\""

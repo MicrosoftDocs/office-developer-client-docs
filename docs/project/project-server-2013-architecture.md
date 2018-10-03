@@ -108,7 +108,7 @@ The following general comments apply to Figure 3:
     > [!NOTE]
     > The SOAP-based ASMX interface for web services in the PSI is still available in Project Server 2013, but is deprecated. 
   
-    The OData service for reporting is implemented by the internal OData.svc WCF service. You can get the Service Metadata Document for the reporting data by using  `http://ServerName/ProjectServerName/_api/ProjectData/$metadata`. 
+    The OData service for reporting is implemented by the internal OData.svc WCF service. You can get the Service Metadata Document for the reporting data by using  `https://ServerName/ProjectServerName/_api/ProjectData/$metadata`. 
     
     The OData service for the CSOM is intended for platforms such as Windows RT, iOS, and Android, where you can use the REST interface with JavaScript in HTML pages. 
     
@@ -160,7 +160,7 @@ Project Professional 2013 and Project Web App use the PSI to access Project Serv
   
 Some line-of-business (LOB) applications and other third-party applications that were developed for Project Server 2010 require PSI services that are not yet represented in the CSOM. If they target only an on-premises installation of Project Server, applications can continue to use the WCF interface or the ASMX interface of the PSI.
   
-Client applications call the PSI through service proxies. Clients that use the WCF interface access all PSI services through  `http://ServerName/ProjectServerName/_vti_bin/psi/ProjectServer.svc`. Clients that use an ASMX web service interface use the Project Web App URL for the specific service. For example, the **Resource** service is at  `http://ServerName/ProjectServerName/_vti_bin/psi/resource.asmx?wsdl`. If applications do not have intranet access to Project Server, they can use a Project Web App server in a perimeter network (not shown in Figure 3).
+Client applications call the PSI through service proxies. Clients that use the WCF interface access all PSI services through  `https://ServerName/ProjectServerName/_vti_bin/psi/ProjectServer.svc`. Clients that use an ASMX web service interface use the Project Web App URL for the specific service. For example, the **Resource** service is at  `https://ServerName/ProjectServerName/_vti_bin/psi/resource.asmx?wsdl`. If applications do not have intranet access to Project Server, they can use a Project Web App server in a perimeter network (not shown in Figure 3).
   
 Figure 4 shows the **Connections** pane in **Internet Information Services (IIS) Manager** for a single-server installation of SharePoint Server 2013, Project Server 2013, and a local Workflow Management site for Workflow Manager Client 1.0. The SharePoint site collection (A) includes the front-end PSI services in the  `_vti_bin\PSI` virtual subdirectory. The SharePoint Web Services application (B) includes the Project Service Application, with the back-end PSI services in the  `508c23fb7dfd4c83a8919fae24bc68c5/PSI` virtual subdirectory. The GUID is the name of the Project Service Application instance for that Project Server installation. 
   
@@ -168,7 +168,7 @@ Figure 4 shows the **Connections** pane in **Internet Information Services (IIS)
 
 ![The front-end PSI and the back-end PSI](media/pj15_Architecture_PSI_IIS.gif "The front-end PSI and the back-end PSI")
   
-Client applications cannot directly access the WCF services for the PSI in the back-end Project Service Application. If they do not require access to Project Online, client applications and components of LOB applications use proxies for the PSI. A back-end URL for the WCF interface of the **Resource** service in Figure 4, for example, would be  `http://ServerName:32843/508c23fb7dfd4c83a8919fae24bc68c5/psi/resource.svc`. Port 32843 is the default HTTP port for the SharePoint Web Services application (32844 is the port for HTTPS communications). However, the web.config file for Project Web App blocks direct access to back-end PSI services.
+Client applications cannot directly access the WCF services for the PSI in the back-end Project Service Application. If they do not require access to Project Online, client applications and components of LOB applications use proxies for the PSI. A back-end URL for the WCF interface of the **Resource** service in Figure 4, for example, would be  `https://ServerName:32843/508c23fb7dfd4c83a8919fae24bc68c5/psi/resource.svc`. Port 32843 is the default HTTP port for the SharePoint Web Services application (32844 is the port for HTTPS communications). However, the web.config file for Project Web App blocks direct access to back-end PSI services.
   
 > [!NOTE]
 > The Project 2013 SDK download includes PSI proxy files for the WCF services and the ASMX services, and instructions for how to compile them into proxy assemblies. > To create updated PSI proxy files that use the WCF interface, you have to use the svcutil.exe utility or Visual Studio directly on the Project Server computer. 
@@ -256,12 +256,12 @@ Project Server allows the published version of a project to be updated while a p
     
 ## See also
 
-- [Project 2013 overview for developers](http://msdn.microsoft.com/library/8da91ab0-af4f-429f-8241-490600e3f7bd%28Office.15%29.aspx)
+- [Project 2013 overview for developers](https://msdn.microsoft.com/library/8da91ab0-af4f-429f-8241-490600e3f7bd%28Office.15%29.aspx)
 - [Project Server programmability](project-server-programmability.md)  
 - [Client-side object model (CSOM) for Project 2013](client-side-object-model-csom-for-project-2013.md)  
 - [What the PSI does and does not do](what-the-psi-does-and-does-not-do.md)  
 - [Getting started developing Project Server workflows](getting-started-developing-project-server-workflows.md)   
 - [Project PSI reference overview](project-psi-reference-overview.md)   
-- [Open Data Protocol](http://www.odata.org/)
+- [Open Data Protocol](https://www.odata.org/)
     
 

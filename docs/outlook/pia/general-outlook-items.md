@@ -2,7 +2,7 @@
 title: General Outlook items
 TOCTitle: General Outlook items
 ms:assetid: e7d57811-17b6-4689-b2fc-8eddddcbb6ba
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn292516(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn292516(v=office.15)
 ms:contentKeyID: 55119843
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -12,7 +12,7 @@ mtps_version: v=office.15
 
 This section provides sample code that applies to items in Microsoft Outlook in general.
 
-This section includes sample code that is applicable to most Outlook items. Further examples are available under sections specific for the [\_AppointmentItem](https://msdn.microsoft.com/en-us/library/bb623692\(v=office.15\)), [\_ContactItem](https://msdn.microsoft.com/en-us/library/bb643903\(v=office.15\)), and [\_MailItem](https://msdn.microsoft.com/en-us/library/bb610623\(v=office.15\)) objects.
+This section includes sample code that is applicable to most Outlook items. Further examples are available under sections specific for the [\_AppointmentItem](https://msdn.microsoft.com/library/bb623692\(v=office.15\)), [\_ContactItem](https://msdn.microsoft.com/library/bb643903\(v=office.15\)), and [\_MailItem](https://msdn.microsoft.com/library/bb610623\(v=office.15\)) objects.
 
 ## In this section
 

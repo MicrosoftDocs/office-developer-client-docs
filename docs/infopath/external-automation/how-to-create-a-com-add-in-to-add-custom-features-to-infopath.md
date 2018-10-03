@@ -124,11 +124,11 @@ To compile the managed COM Add-in for testing on the computer on which the Share
     
 To compile the managed COM add-in for use on a computer other than the computer on which the Shared Add-In project was developed, you must follow additional steps to secure your code. For information on securing Shared Add-In projects for use on other computers, see the following three articles:
   
-- [Deployment of Managed COM Add-Ins in Office XP](http://go.microsoft.com/fwlink/?LinkID=73473)
+- [Deployment of Managed COM Add-Ins in Office XP](https://go.microsoft.com/fwlink/?LinkID=73473)
   
-- [Using the COM Add-in Shim Solution to Deploy Managed COM Add-ins in Office XP](http://go.microsoft.com/fwlink/?LinkID=73474)
+- [Using the COM Add-in Shim Solution to Deploy Managed COM Add-ins in Office XP](https://go.microsoft.com/fwlink/?LinkID=73474)
   
-- [Isolating Office Extensions with the COM Shim Wizard](http://go.microsoft.com/fwlink/?LinkID=73475)
+- [Isolating Office Extensions with the COM Shim Wizard](https://go.microsoft.com/fwlink/?LinkID=73475)
   
 > [!IMPORTANT]
 > Not isolating the COM Add-in may cause memory leaks and application instability. 
@@ -195,10 +195,10 @@ Any of the events of the **ApplicationEvents** object can be handled by the COM 
   
 ## See also
 
-- [Creating a Microsoft Office 2000 COM Add-in](http://go.microsoft.com/fwlink/?LinkID=73468) 
-- [Creating Office Managed COM Add-Ins with Visual Studio .NET](http://go.microsoft.com/fwlink/?LinkID=73470)
-- [Working with the IDTExtensibility2 Event Procedures](http://go.microsoft.com/fwlink/?LinkID=73471)
-- [Build an Office COM Add-in With Visual Basic .NET](http://go.microsoft.com/fwlink/?LinkID=73469)
-- [Build an Office COM Add-in With Visual C# .NET](http://go.microsoft.com/fwlink/?LinkID=73472)
-- [Creating InfoPath 2007 Add-Ins by Using Visual Studio 2005 Tools for the Office System SE](http://msdn.microsoft.com/en-us/library/bb968857%28office.12%29.aspx)
+- [Creating a Microsoft Office 2000 COM Add-in](https://go.microsoft.com/fwlink/?LinkID=73468) 
+- [Creating Office Managed COM Add-Ins with Visual Studio .NET](https://go.microsoft.com/fwlink/?LinkID=73470)
+- [Working with the IDTExtensibility2 Event Procedures](https://go.microsoft.com/fwlink/?LinkID=73471)
+- [Build an Office COM Add-in With Visual Basic .NET](https://go.microsoft.com/fwlink/?LinkID=73469)
+- [Build an Office COM add-in by using Visual C# .NET](https://support.microsoft.com/en-us/help/302901/how-to-build-an-office-com-add-in-by-using-visual-c-net)
+- [Creating InfoPath 2007 Add-Ins by Using Visual Studio 2005 Tools for the Office System SE](https://msdn.microsoft.com/library/bb968857%28office.12%29.aspx)
 

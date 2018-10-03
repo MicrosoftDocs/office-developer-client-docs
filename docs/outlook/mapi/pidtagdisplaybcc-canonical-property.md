@@ -51,7 +51,7 @@ Because of the possible need for localization, MAPI provides these guidelines fo
 
 ### Protocol specifications
 
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Describes the format of messages used to send information related to sharing folders on the client.
     

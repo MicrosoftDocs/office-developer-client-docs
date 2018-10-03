@@ -2,7 +2,7 @@
 title: Get members of an Exchange distribution list
 TOCTitle: Get members of an Exchange distribution list
 ms:assetid: 75b38e40-772c-400b-8df9-e3e385b87f9c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb645998(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb645998(v=office.15)
 ms:contentKeyID: 55119837
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -14,7 +14,7 @@ This example prompts the user to select an Exchange distribution list from the *
 
 ## Example
 
-This code sample calls the [GetExchangeDistributionListMembers](https://msdn.microsoft.com/en-us/library/bb647622\(v=office.15\)) method of the [ExchangeDistributionList](https://msdn.microsoft.com/en-us/library/bb624320\(v=office.15\)) object to get an [AddressEntries](https://msdn.microsoft.com/en-us/library/bb647650\(v=office.15\)) collection that contains all the members of the list. Because distribution lists can be nested inside another distribution list, the returned **AddressEntries** collection can represent any type of Exchange [AddressEntry](https://msdn.microsoft.com/en-us/library/bb609728\(v=office.15\)) object.
+This code sample calls the [GetExchangeDistributionListMembers](https://msdn.microsoft.com/library/bb647622\(v=office.15\)) method of the [ExchangeDistributionList](https://msdn.microsoft.com/library/bb624320\(v=office.15\)) object to get an [AddressEntries](https://msdn.microsoft.com/library/bb647650\(v=office.15\)) collection that contains all the members of the list. Because distribution lists can be nested inside another distribution list, the returned **AddressEntries** collection can represent any type of Exchange [AddressEntry](https://msdn.microsoft.com/library/bb609728\(v=office.15\)) object.
 
 
 > [!NOTE]

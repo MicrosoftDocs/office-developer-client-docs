@@ -30,7 +30,7 @@ GOTOPAGE(" ** *pagename* ** ")
    
 ## Remarks
 
-If a window is already displaying the page, that window becomes active. If  *pagename*  does not exist, the application attempts to navigate to http://  *pagename*  /. If Visio is acting as an in-place server, the GOTOPAGE function has no effect. 
+If a window is already displaying the page, that window becomes active. If  *pagename*  does not exist, the application attempts to navigate to https://  *pagename*  /. If Visio is acting as an in-place server, the GOTOPAGE function has no effect. 
   
 You can use the HYPERLINK function to navigate to any DOS, UNC, or URL path. 
   

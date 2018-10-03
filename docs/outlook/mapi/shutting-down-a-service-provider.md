@@ -30,7 +30,7 @@ These methods have similar implementations. The main tasks that a logoff method 
   
 - Releasing all open objects, including subobjects and status objects.
     
-- Calling the support object's [IUnknown::Release](http://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) method to decrement its reference count. 
+- Calling the support object's [IUnknown::Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) method to decrement its reference count. 
     
 - Removing all of your provider's registered [MAPIUID](mapiuid.md) structures. 
     

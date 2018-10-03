@@ -36,7 +36,7 @@ DWORD STDAPICALLTYPE FixMAPI(void);
 
 If the function succeeds, the return value is a non-zero value.
   
-If the function fails, the return value is zero. To get extended error information, call the Microsoft Windows Software Development Kit (SDK) function, **[GetLastError](http://msdn.microsoft.com/en-us/library/ms679360.aspx)**. 
+If the function fails, the return value is zero. To get extended error information, call the Microsoft Windows Software Development Kit (SDK) function, **[GetLastError](https://msdn.microsoft.com/library/ms679360.aspx)**. 
   
 ## Remarks
 
@@ -50,7 +50,7 @@ When **FixMAPI** makes a backup copy of the current copy of mapi32.dll on the co
 
 
 
-[KB 256946: You receive a program conflict error message when you start Outlook 2000](http://support.microsoft.com/kb/256946)
+[KB 256946: You receive a program conflict error message when you start Outlook 2000](https://support.microsoft.com/kb/256946)
   
-[KB 228457: Description of the Fixmapi.exe Tool Included with Internet Explorer 5](http://support.microsoft.com/kb/228457)
+[KB 228457: Description of the Fixmapi.exe Tool Included with Internet Explorer 5](https://support.microsoft.com/kb/228457)
 

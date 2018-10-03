@@ -2,7 +2,7 @@
 title: Add fields to a view
 TOCTitle: Add fields to a view
 ms:assetid: ea371f27-ea65-47ef-ae44-ef843a78ab6f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff424481(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff424481(v=office.15)
 ms:contentKeyID: 55119934
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Add fields to a view
 
-This example shows how to customize a view by using the [Add(String)](https://msdn.microsoft.com/en-us/library/bb646040\(v=office.15\)) method of the [ViewFields](https://msdn.microsoft.com/en-us/library/bb645950\(v=office.15\)) collection to add fields to a view.
+This example shows how to customize a view by using the [Add(String)](https://msdn.microsoft.com/library/bb646040\(v=office.15\)) method of the [ViewFields](https://msdn.microsoft.com/library/bb645950\(v=office.15\)) collection to add fields to a view.
 
 ## Example
 
@@ -18,9 +18,9 @@ This example shows how to customize a view by using the [Add(String)](https://ms
 > The following code example is an excerpt from [Programming Applications for Microsoft Office Outlook 2007](https://www.amazon.com/gp/product/0735622493?ie=UTF8&tag=msmsdn-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0735622493).
 
 
-You can specify which Outlook item properties are displayed in a view by adding one or more properties to the **ViewFields** collection for only the [CardView](https://msdn.microsoft.com/en-us/library/bb609216\(v=office.15\)) and [TableView](https://msdn.microsoft.com/en-us/library/bb608854\(v=office.15\)) objects. For other derived **View** objects such as [BusinessCardView](https://msdn.microsoft.com/en-us/library/bb646315\(v=office.15\)), [CalendarView](https://msdn.microsoft.com/en-us/library/bb622874\(v=office.15\)), [IconView](https://msdn.microsoft.com/en-us/library/bb612031\(v=office.15\)), and [TimelineView](https://msdn.microsoft.com/en-us/library/bb609455\(v=office.15\)) objects, use other methods of determining which Outlook item properties are displayed within the view. For example, the fields displayed for the **BusinessCardView** object are determined by the electronic business card (EBC) layout associated with each displayed Outlook item.
+You can specify which Outlook item properties are displayed in a view by adding one or more properties to the **ViewFields** collection for only the [CardView](https://msdn.microsoft.com/library/bb609216\(v=office.15\)) and [TableView](https://msdn.microsoft.com/library/bb608854\(v=office.15\)) objects. For other derived **View** objects such as [BusinessCardView](https://msdn.microsoft.com/library/bb646315\(v=office.15\)), [CalendarView](https://msdn.microsoft.com/library/bb622874\(v=office.15\)), [IconView](https://msdn.microsoft.com/library/bb612031\(v=office.15\)), and [TimelineView](https://msdn.microsoft.com/library/bb609455\(v=office.15\)) objects, use other methods of determining which Outlook item properties are displayed within the view. For example, the fields displayed for the **BusinessCardView** object are determined by the electronic business card (EBC) layout associated with each displayed Outlook item.
 
-To get the **ViewFields** collection for a view, use the **ViewFields** property of the associated **View** object (for example, the **CardView** or **TableView** objects). The **Add** method of the **ViewFields** collection is used to create a [ViewField](https://msdn.microsoft.com/en-us/library/bb610583\(v=office.15\)) object that represents the Outlook item property to be displayed in the view. A **ViewField** object not only identifies an Outlook item property to display within the view, but it also describes how the values for that property should be displayed. You can change how individual column properties are displayed in a view by modifying the [ColumnFormat](https://msdn.microsoft.com/en-us/library/bb646462\(v=office.15\)) property of the **ViewField** object.
+To get the **ViewFields** collection for a view, use the **ViewFields** property of the associated **View** object (for example, the **CardView** or **TableView** objects). The **Add** method of the **ViewFields** collection is used to create a [ViewField](https://msdn.microsoft.com/library/bb610583\(v=office.15\)) object that represents the Outlook item property to be displayed in the view. A **ViewField** object not only identifies an Outlook item property to display within the view, but it also describes how the values for that property should be displayed. You can change how individual column properties are displayed in a view by modifying the [ColumnFormat](https://msdn.microsoft.com/library/bb646462\(v=office.15\)) property of the **ViewField** object.
 
 In the following code example, ModifyMeetingRequestsView gets the **TableView** object that represents all the views from the user’s Inbox that are “Meeting Requests” views. The example then uses the **Add** method to add the “Start” and “End” fields to the **ViewFields** object that corresponds to the **TableView** object. It also changes the label for the “From” field to “Organized By”. ModifyMeetingRequestsView then saves the modified **TableView** object.
 

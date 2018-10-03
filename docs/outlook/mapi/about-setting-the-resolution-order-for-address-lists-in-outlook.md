@@ -24,6 +24,6 @@ The following are code examples of how to specify a custom search path for addre
   
 - [Programmatically Set the Resolution Order for Address Lists](how-to-programmatically-set-the-resolution-order-for-address-lists.md)
     
-- [KB 292590: How To Change Address Book Sort Order with SetSearchPath](http://support.microsoft.com/kb/292590)
+- [KB 292590: How To Change Address Book Sort Order with SetSearchPath](https://support.microsoft.com/kb/292590)
     
 

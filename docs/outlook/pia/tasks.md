@@ -2,7 +2,7 @@
 title: Tasks
 TOCTitle: Tasks
 ms:assetid: f691b618-9cbd-4c7a-ad5c-c28ae12da907
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff184656(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff184656(v=office.15)
 ms:contentKeyID: 55119928
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -16,7 +16,7 @@ This section provides examples that involve tasks. Tasks are used in Microsoft O
 
 |Topic|Description|
 |:----|:----------|
-|[Create a task item](how-to-create-a-task-item.md)  |Creates a task item by using the [MarkAsTask(OlMarkInterval)](https://msdn.microsoft.com/en-us/library/bb609068\(v=office.15\)) method.|
+|[Create a task item](how-to-create-a-task-item.md)  |Creates a task item by using the [MarkAsTask(OlMarkInterval)](https://msdn.microsoft.com/library/bb609068\(v=office.15\)) method.|
 |[Assign a task to a recipient](how-to-assign-a-task-to-a-recipient.md)  |Creates a task and assigns it to a recipient.|
 |[Display the task request items sent to a recipient](how-to-display-the-task-request-items-sent-to-a-recipient.md)  |Displays all of the task request items that are in a recipient's Inbox.|
 |[Respond to a task request item](how-to-respond-to-a-task-request-item.md)  |Gets and responds to a task request item.|

@@ -1,6 +1,6 @@
 ---
 title: "Access" 
-ms.date: 05/26/2017
+ms.date: 10/03/2018
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 9858d097-d1d1-48df-8344-e7b46afbe0d1
@@ -13,32 +13,32 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
   
 ### Viewed most
   
-- [Access VBA reference](http://msdn.microsoft.com/library/0e9c6fa4-3289-4a13-b409-354c70129308%28Office.15%29.aspx)
+- [Access VBA reference](https://docs.microsoft.com/office/vba/api/overview/access)
   
-- [Access 2010](https://msdn.microsoft.com/en-us/library/office/ff604965%28v=office.14%29.aspx)
+- [Access 2010](https://docs.microsoft.com/previous-versions/office/developer/office-2010/ff604965(v=office.14))
   
 ### Office Add-ins
   
-- [Get started](https://dev.office.com/getting-started/addins)
+- [Get started](https://docs.microsoft.com/office/dev/add-ins/)
   
-- [Platform overview](https://msdn.microsoft.com/EN-US/library/office/jj220082.aspx)
+- [Platform overview](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)
   
 ### Other resources
   
-- [Office VBA Object library reference](http://msdn.microsoft.com/library/727c4e1c-e13c-7bac-e833-b1322607dfd3%28Office.15%29.aspx)
+- [Office VBA Object library reference](https://docs.microsoft.com/office/vba/api/overview/library-reference)
   
-- [Office VBA language reference](http://msdn.microsoft.com/library/9c1e8386-0309-c52c-856b-963220382eb8%28Office.15%29.aspx)
+- [Office VBA language reference](https://docs.microsoft.com/office/vba/api/overview/language-reference)
   
-- [Open XML SDK](http://msdn.microsoft.com/library/f6a9ae68-7989-4208-97f5-3c945137a0ab%28Office.15%29.aspx)
+- [Open XML SDK](https://docs.microsoft.com/office/open-xml/open-xml-sdk)
   
-- [VSTO Add-ins for Office](https://msdn.microsoft.com/en-us/library/jj620922.aspx)
+- [VSTO Add-ins for Office](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017)
   
 ### Support
   
-- [Office Dev Center](http://dev.office.com)
+- [Office Dev Center](https://developer.microsoft.com/en-us/office)
   
 - [Office support](https://support.office.com/)
   
-- [Access forum on MSDN](https://social.msdn.microsoft.com/Forums/office/en-US/home?forum=accessdev)
+- [Access forum on Office Dev Center](https://social.msdn.microsoft.com/Forums/office/en-US/home?forum=accessdev)
   
 

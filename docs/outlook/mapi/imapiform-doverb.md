@@ -49,7 +49,7 @@ HRESULT DoVerb(
     
  _lprcPosRect_
   
-> [in] A pointer to a Win32 [RECT](http://msdn.microsoft.com/en-us/library/dd162897%28VS.85%29.aspx) structure that contains the size and position of the form's window. 
+> [in] A pointer to a Win32 [RECT](https://msdn.microsoft.com/library/dd162897%28VS.85%29.aspx) structure that contains the size and position of the form's window. 
     
 ## Return value
 
@@ -83,7 +83,7 @@ Perform the following tasks in your **DoVerb** implementation:
     
 Some verbs, such as Print, should be modal with respect to the **DoVerb** call — that is, the indicated operation must be finished before the **DoVerb** call returns. 
   
-To obtain the **RECT** structure used by a form's window, call the [GetWindowRect](http://msdn.microsoft.com/en-us/library/ms633519) function. 
+To obtain the **RECT** structure used by a form's window, call the [GetWindowRect](https://msdn.microsoft.com/library/ms633519) function. 
   
 Do not save the handle in the  _hwndParent_ parameter because, although it usually remains valid until the completion of **DoVerb**, it can be destroyed immediately upon the call's return.
   
@@ -91,7 +91,7 @@ Do not save the handle in the  _hwndParent_ parameter because, although it usual
 
 You can make non-modal verbs act as modal verbs by pointing  _lpViewContext_ to a view context implementation that returns the VCSTATUS_MODAL flag from its [IMAPIViewContext::GetViewStatus](imapiviewcontext-getviewstatus.md) method. 
   
-For more information about verbs in MAPI, see [Form Verbs](form-verbs.md). For more information about how verbs are handled in OLE, see [OLE and Data Transfer](http://msdn.microsoft.com/en-us/library/ms693425%28VS.85%29.aspx).
+For more information about verbs in MAPI, see [Form Verbs](form-verbs.md). For more information about how verbs are handled in OLE, see [OLE and Data Transfer](https://msdn.microsoft.com/library/ms693425%28VS.85%29.aspx).
   
 ## MFCMAPI reference
 

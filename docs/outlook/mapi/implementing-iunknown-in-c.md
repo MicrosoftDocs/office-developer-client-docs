@@ -14,11 +14,11 @@ description: "Last modified: July 23, 2011"
 
 **Applies to**: Outlook 2013 | Outlook 2016 
   
-Implementations of the [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx) method in C are very similar to C++ implementations. There are two basic steps to the implementation: 
+Implementations of the [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) method in C are very similar to C++ implementations. There are two basic steps to the implementation: 
   
 1. Validating parameters.
     
-2. Checking the identifier of the requested interface against the list of interfaces supported by the object and returning either the E_NO_INTERFACE value or a valid interface pointer. If an interface pointer is returned, the implementation should also call the [IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) method to increment the reference count. 
+2. Checking the identifier of the requested interface against the list of interfaces supported by the object and returning either the E_NO_INTERFACE value or a valid interface pointer. If an interface pointer is returned, the implementation should also call the [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) method to increment the reference count. 
     
 The main difference between an implementation of **QueryInterface** in C and C++ is the additional first parameter in the C version. Because the object pointer is added to the parameter list, a C implementation of **QueryInterface** must have more parameter validation than a C++ implementation. The logic for checking the interface identifier, incrementing the reference count, and returning an object pointer should be identical in both languages. 
   
@@ -59,7 +59,7 @@ STDMETHODIMP STATUS_QueryInterface(LPMYSTATUSOBJ lpMyObj, REFIID riid,
 
 ```
 
-Whereas the implementation of the **AddRef** method in C is similar to a C++ implementation, a C implementation of the [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) method can get more elaborate than a C++ version. This is because much of the functionality involved with freeing an object can be incorporated into the C++ constructor and destructor, and C has no such mechanism. All of this functionality must be included in the **Release** method. Also, because of the additional parameter and its explicit vtable, more validation is required. 
+Whereas the implementation of the **AddRef** method in C is similar to a C++ implementation, a C implementation of the [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) method can get more elaborate than a C++ version. This is because much of the functionality involved with freeing an object can be incorporated into the C++ constructor and destructor, and C has no such mechanism. All of this functionality must be included in the **Release** method. Also, because of the additional parameter and its explicit vtable, more validation is required. 
   
 The following **AddRef** method call illustrates a typical C implementation for a status object. 
   

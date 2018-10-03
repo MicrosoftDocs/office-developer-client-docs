@@ -2,7 +2,7 @@
 title: Create a Contact item from a vCard file and save the item in a folder
 TOCTitle: Create a Contact item from a vCard file and save the item in a folder
 ms:assetid: b207b584-ffcf-4ac5-ab1f-4f91d43000e1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb646856(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb646856(v=office.15)
 ms:contentKeyID: 55119826
 ms.date: 07/24/2014
 mtps_version: v=office.15
@@ -14,7 +14,7 @@ This example imports all the vCard files in a file system folder and saves the c
 
 ## Example
 
-This example uses the [OpenSharedItem](https://msdn.microsoft.com/en-us/library/bb645399\(v=office.15\)) method. The **OpenSharedItem** method opens messages stored as Outlook message format (.msg) files, iCalendar appointment (.ics) files, or vCard (.vcf) files. Be sure to cast the returned object to the appropriate item type and call the corresponding **Save** method to persist the item. By default, the item returned by **OpenSharedItem** is saved in the default folder for the specific item type. You can use the corresponding **Move** method to move the item to a different folder.
+This example uses the [OpenSharedItem](https://msdn.microsoft.com/library/bb645399\(v=office.15\)) method. The **OpenSharedItem** method opens messages stored as Outlook message format (.msg) files, iCalendar appointment (.ics) files, or vCard (.vcf) files. Be sure to cast the returned object to the appropriate item type and call the corresponding **Save** method to persist the item. By default, the item returned by **OpenSharedItem** is saved in the default folder for the specific item type. You can use the corresponding **Move** method to move the item to a different folder.
 
 If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The **Imports** or **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following lines of code show how to do the import and assignment in Visual Basic and C\#.
 

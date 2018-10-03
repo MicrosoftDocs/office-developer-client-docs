@@ -18,12 +18,12 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 2013 | Outlook 2016 
   
-[IClassFactory](http://msdn.microsoft.com/en-us/library/ms694364%28VS.85%29.aspx) is the OLE interface that client applications use to create new form objects of your form server's message class. The following table lists the **IClassFactory** methods that are required. 
+[IClassFactory](https://msdn.microsoft.com/library/ms694364%28VS.85%29.aspx) is the OLE interface that client applications use to create new form objects of your form server's message class. The following table lists the **IClassFactory** methods that are required. 
   
 |**Method**|**Description**|
 |:-----|:-----|
-|[CreateInstance](http://msdn.microsoft.com/en-us/library/ms682215%28v=VS.85%29.aspx) <br/> |Creates a new form object.  <br/> |
-|[LockServer](http://msdn.microsoft.com/en-us/library/ms682332%28v=VS.85%29.aspx) <br/> |Locks the form server in memory so that startup overhead can be avoided when multiple form objects are created.  <br/> |
+|[CreateInstance](https://msdn.microsoft.com/library/ms682215%28v=VS.85%29.aspx) <br/> |Creates a new form object.  <br/> |
+|[LockServer](https://msdn.microsoft.com/library/ms682332%28v=VS.85%29.aspx) <br/> |Locks the form server in memory so that startup overhead can be avoided when multiple form objects are created.  <br/> |
    
 For all the information necessary to implement these methods, see the COM and ActiveX Object Services section in the Windows SDK.
   

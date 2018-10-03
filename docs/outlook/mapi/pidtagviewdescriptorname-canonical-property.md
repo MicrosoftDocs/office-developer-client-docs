@@ -39,7 +39,7 @@ These properties must be set to a non-empty string for a Folder Associate Inform
 
 ### Protocol specifications
 
-[[MS-OXOCFG]](http://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
+[[MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
   
 > Specifies the location and properties of client and server configuration data, such as shared category lists and working hours.
     

@@ -16,7 +16,7 @@ Microsoft InfoPath supports binding a **Rich Text Box** control in a form to an 
 <xsd:element name="MyRichTextElement"> 
     <xsd:complexType mixed="true"> 
         <xsd:sequence> 
-            <xsd:any namespace="http://www.w3.org/1999/xhtml" processContents="lax" 
+            <xsd:any namespace="https://www.w3.org/1999/xhtml" processContents="lax" 
                 minOccurs="0" maxOccurs="unbounded"/> 
         </xsd:sequence> 
     </xsd:complexType> 
@@ -26,8 +26,8 @@ Microsoft InfoPath supports binding a **Rich Text Box** control in a form to an 
 Before a **Rich Text Box** control can be bound with the XHTML element, the element should be wrapped with a wrapper node; this wrapper node can belong to any arbitrary namespace. The wrapper node can look like this: 
   
 ```xml
-<xhtmlNode xmlns="http:// someNamespace"> 
-    <div xmlns="http://www.w3.org/1999/xhtml">Your rich text here</div> 
+<xhtmlNode xmlns="https:// someNamespace"> 
+    <div xmlns="https://www.w3.org/1999/xhtml">Your rich text here</div> 
 </xhtmlNode>
 ```
 
@@ -50,9 +50,9 @@ public XmlNode getXhtml()
             XmlDocument document = new XmlDocument(); 
  
             // Create a wrapping node with the name of the rich text field. 
-            // The "http://someNameSpace" can be any arbitrary namespace 
+            // The "https://someNameSpace" can be any arbitrary namespace 
             XmlNode richNode = document.CreateNode 
-                        (XmlNodeType.Element, "MyRichTextElement", "http://someNameSpace"); 
+                        (XmlNodeType.Element, "MyRichTextElement", "https://someNameSpace"); 
  
             // Temporary XmlDocument 
             XmlDocument tempDocument = new XmlDocument(); 
@@ -64,7 +64,7 @@ public XmlNode getXhtml()
             catch (XmlException) 
             { 
                 // If the file does not exist or content is not valid XML 
-                tempDocument.LoadXml("<div xmlns=\"http://www.w3.org/1999/xhtml\"></div>"); 
+                tempDocument.LoadXml("<div xmlns=\"https://www.w3.org/1999/xhtml\"></div>"); 
             } 
  
             // Add the file content to the xml 
@@ -93,7 +93,7 @@ public void setXhtml(XmlNode xn)
             { 
                 // If nothing was submitted or the rich text field is empty, 
                 // create a DIV that references the XHTML namespace 
-                XmlElement div = document.CreateElement("div", "http://www.w3.org/1999/xhtml"); 
+                XmlElement div = document.CreateElement("div", "https://www.w3.org/1999/xhtml"); 
                 // Copy the node to our own XmlDocument 
                 document.AppendChild(div); 
             } 
@@ -101,7 +101,7 @@ public void setXhtml(XmlNode xn)
             { 
                 // If plain text is passed in, wrap it in a DIV 
                 // that references the XHTML namespace 
-                XmlElement div = document.CreateElement("div", "http://www.w3.org/1999/xhtml"); 
+                XmlElement div = document.CreateElement("div", "https://www.w3.org/1999/xhtml"); 
                 // Copy the text to the DIV. 
                 div.AppendChild(document.ImportNode(xn, true)); 
                 // Copy the node to our own XmlDocument 

@@ -20,7 +20,7 @@ With such a proliferation of Office solutions, upgrading versions of Office can 
   
 The Telemetry Log for Office 2013, a tool built upon Excel 2013, helps developers and experienced users diagnose compatibility issues by displaying events that occur within select Office 2013 applications. Using this tool, users can determine potential issues with add-ins that they use in their work environment, giving enterprise decision-makers the information that they need to decide whether to upgrade to Office 2013. The Telemetry Log also gives detailed feedback about specific changes or deprecations in the object models for the Office 2013 applications, which helps developers quickly identify and refactor problematic code or controls. IT professionals can view trends in solution health across multiple clients by using the Telemetry Dashboard for Office 2013, a companion tool to the Telemetry Log.
   
-For more information, see [Deploy Office Telemetry Dashboard](http://technet.microsoft.com/library/f69cde72-689d-421f-99b8-c51676c77717).
+For more information, see [Deploy Office Telemetry Dashboard](https://technet.microsoft.com/library/f69cde72-689d-421f-99b8-c51676c77717).
   
 ## How the Telemetry Log works
 <a name="OEV_Types"> </a>
@@ -121,11 +121,11 @@ Use the following table (Table 2) to interpret the records that are displayed in
 |**Event ID**|**Title**|**Severity**|**Description**|
 |:-----|:-----|:-----|:-----|
 |1  <br/> |Document loaded successfully  <br/> ||The file listed in the **File** column was opened in the Office application without any issues.  <br/> |
-|2  <br/> |Document failed to load  <br/> |Warning  <br/> | The application was unable to load the file. There may be some underlying compatibility issue.  <br/><br/>For more information about how to repair a corrupted workbook in Excel 2013, see [Repairing a corrupted workbook](http://office.microsoft.com/en-us/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx).<br/><br/>For more information about how to repair a corrupted document in Word 2013, see [Save and recover a backup copy of a document](http://office.microsoft.com/en-us/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx). <br/> |
+|2  <br/> |Document failed to load  <br/> |Warning  <br/> | The application was unable to load the file. There may be some underlying compatibility issue.  <br/><br/>For more information about how to repair a corrupted workbook in Excel 2013, see [Repairing a corrupted workbook](https://office.microsoft.com/en-us/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx).<br/><br/>For more information about how to repair a corrupted document in Word 2013, see [Save and recover a backup copy of a document](https://office.microsoft.com/en-us/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx). <br/> |
 |3  <br/> |Template loaded successfully  <br/> ||The template file listed in the **File** column was opened in the Office application without any issues.  <br/> |
-|4  <br/> |Template failed to load  <br/> |Warning  <br/> | The application was unable to load the template file. There may be some underlying compatibility issue or the template availability may have changed.<br/><br/>For more information about how to repair a corrupted workbook in Excel 2013, see [Repairing a corrupted workbook](http://office.microsoft.com/en-us/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx).<br/><br/>For more information about how to repair a corrupted document in Word 2013, see [Save and recover a backup copy of a document](http://office.microsoft.com/en-us/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx). <br/> |
+|4  <br/> |Template failed to load  <br/> |Warning  <br/> | The application was unable to load the template file. There may be some underlying compatibility issue or the template availability may have changed.<br/><br/>For more information about how to repair a corrupted workbook in Excel 2013, see [Repairing a corrupted workbook](https://office.microsoft.com/en-us/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx).<br/><br/>For more information about how to repair a corrupted document in Word 2013, see [Save and recover a backup copy of a document](https://office.microsoft.com/en-us/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx). <br/> |
 |5  <br/> |Add-in loaded successfully  <br/> ||The add-in listed in the **File** column loaded within the Office application successfully. No compatibility issues were detected.  <br/> |
-|6  <br/> |Add-in failed to load  <br/> |Critical  <br/> | The application was unable to load the add-in listed in the **File** column.  <br/><br/>For more information about how to repair a corrupted workbook in Excel 2013, see [Repairing a corrupted workbook](http://office.microsoft.com/en-us/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx). <br/><br/>  For more information about how to repair a corrupted document in Word 2013, see [Save and recover a backup copy of a document](http://office.microsoft.com/en-us/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx). <br/> |
+|6  <br/> |Add-in failed to load  <br/> |Critical  <br/> | The application was unable to load the add-in listed in the **File** column.  <br/><br/>For more information about how to repair a corrupted workbook in Excel 2013, see [Repairing a corrupted workbook](https://office.microsoft.com/en-us/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx). <br/><br/>  For more information about how to repair a corrupted document in Word 2013, see [Save and recover a backup copy of a document](https://office.microsoft.com/en-us/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx). <br/> |
 |7  <br/> |Add-in manifest downloaded successfully  <br/> ||The host application loaded the manifest for the Office Add-in successfully.  <br/> |
 |8  <br/> |Add-in manifest did not download  <br/> |Critical  <br/> |The host application was unable to load the manifest file for the Office Add-in from the SharePoint catalog, corporate catalog, or the Office Store.  <br/> |
 |9  <br/> |Add-in manifest could not be parsed  <br/> |Critical  <br/> |The host application loaded the Office Add-in manifest for the add-in, but could not read the XML.  <br/> |
@@ -153,9 +153,9 @@ The Telemetry Log provides large enterprises, individual users, and developers w
 ## See also
 <a name="OEV_Additional"> </a>
 
-- [Office Developer Center](http://msdn.microsoft.com/en-us/office/aa905340.aspx)
+- [Office Developer Center](https://msdn.microsoft.com/office/aa905340.aspx)
 - [Compatibility issues in Office](compatibility-issues-in-office.md)
-- [Deploy Office Telemetry Dashboard](http://technet.microsoft.com/library/f69cde72-689d-421f-99b8-c51676c77717)
-- [Office Developer Center](http://msdn.microsoft.com/en-us/office/aa905340)
+- [Deploy Office Telemetry Dashboard](https://technet.microsoft.com/library/f69cde72-689d-421f-99b8-c51676c77717)
+- [Office Developer Center](https://msdn.microsoft.com/office/aa905340)
     
 

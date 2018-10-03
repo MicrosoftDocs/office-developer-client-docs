@@ -14,6 +14,6 @@ description: "Last modified: July 23, 2011"
  
 **Applies to**: Outlook 2013 | Outlook 2016 
   
-Whenever possible, try to retrieve or modify a property with the [IMAPIProp::GetProps](imapiprop-getprops.md) and [IMAPIProp::SetProps](imapiprop-setprops.md) methods. Unless the property you are working with is very large, these methods should be adequate. The other alternative is to read from or write to a stream with the [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) interface. Streams can handle very large properties successfully, but they are a greater drain on resources because they require the COM libraries. Use the **IStream** interface only after your call to **IMAPIProp::GetProps** or **IMAPIProp::SetProps** fails. 
+Whenever possible, try to retrieve or modify a property with the [IMAPIProp::GetProps](imapiprop-getprops.md) and [IMAPIProp::SetProps](imapiprop-setprops.md) methods. Unless the property you are working with is very large, these methods should be adequate. The other alternative is to read from or write to a stream with the [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) interface. Streams can handle very large properties successfully, but they are a greater drain on resources because they require the COM libraries. Use the **IStream** interface only after your call to **IMAPIProp::GetProps** or **IMAPIProp::SetProps** fails. 
   
 

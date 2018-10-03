@@ -15,9 +15,9 @@ The Outlook Auxiliary Reference contains conceptual content and reference docume
   
 If you are new to developing solutions for Outlook, see [Selecting an API or technology for developing solutions for Outlook](../selecting-an-api-or-technology-for-developing-solutions-for-outlook.md) to identify the APIs and technologies that are most appropriate for your needs. 
 
-For specific information about the Outlook object model, see the [Outlook VBA reference](http://msdn.microsoft.com/library/75e4ad96-62a2-49d2-bc51-48ceab50634c%28Office.15%29.aspx). 
+For specific information about the Outlook object model, see the [Outlook VBA reference](https://msdn.microsoft.com/library/75e4ad96-62a2-49d2-bc51-48ceab50634c%28Office.15%29.aspx). 
 
-For specific information about Messaging API (MAPI) supported by Outlook, see the [Outlook MAPI Reference](http://msdn.microsoft.com/library/3d980b86-7001-4869-9780-121c6bfc7275%28Office.15%29.aspx).
+For specific information about Messaging API (MAPI) supported by Outlook, see the [Outlook MAPI Reference](https://msdn.microsoft.com/library/3d980b86-7001-4869-9780-121c6bfc7275%28Office.15%29.aspx).
 
 ## Conceptual 
 
@@ -39,7 +39,7 @@ The conceptual discussion includes the following subjects:
     
 - [About meeting requests as informational updates and full updates](about-meeting-requests-as-informational-updates-and-full-updates.md)
     
-- [About rebasing calendars programmatically for Daylight Saving Time](about-rebasing-calendars-programmatically-for-daylight-saving-time.md) (There is also a redistributable installer for third-party calendar rebasing tools, which works for previous versions of Outlook as well, since Outlook 2010. To download the installer, see [Outlook 2010: Auxiliary Reference Redistributable Installer and Header File for Rebasing Calendars](http://www.microsoft.com/downloads/details.aspx?FamilyID=77748863-4352-4b99-ae57-1d4ae803983b).)
+- [About rebasing calendars programmatically for Daylight Saving Time](about-rebasing-calendars-programmatically-for-daylight-saving-time.md) (There is also a redistributable installer for third-party calendar rebasing tools, which works for previous versions of Outlook as well, since Outlook 2010. To download the installer, see [Outlook 2010: Auxiliary Reference Redistributable Installer and Header File for Rebasing Calendars](https://www.microsoft.com/downloads/details.aspx?FamilyID=77748863-4352-4b99-ae57-1d4ae803983b).)
     
 - [About persisting TZDEFINITION to a stream to commit to a binary property](about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property.md)
 
@@ -67,7 +67,7 @@ Sample how-to tasks in the Outlook Auxiliary Reference include the following:
     
 - [Read time zone properties from an appointment](how-to-read-time-zone-properties-from-an-appointment.md)
     
-- [Specify whether to display a contact's picture in Outlook (Outlook Auxiliary Reference)](https://msdn.microsoft.com/en-us/library/office/gg262879.aspx)
+- [Specify whether to display a contact's picture in Outlook (Outlook Auxiliary Reference)](https://msdn.microsoft.com/library/office/gg262879.aspx)
     
 - [Use relative time to access free/busy data](how-to-use-relative-time-to-access-free-busy-data.md)
     

@@ -24,7 +24,7 @@ The name of every named property has two parts:
     
 - A Unicode character string or 32-bit numeric value. 
     
-Names of named properties are described using a [MAPINAMEID](mapinameid.md) structure. This structure contains a property set member, a member for specifying the name in either numeric or string format, and a member for identifying which format is used. Because the property set is part of the property's name, it is not optional. MAPI has defined several property sets for use by clients and service providers, but if an existing property set is inappropriate, a new property set can be defined. Clients and service providers can define their own property sets by calling [CoCreateGUID](http://msdn.microsoft.com/en-us/library/ms688568.aspx) function. Typically these property sets are created for custom client applications. 
+Names of named properties are described using a [MAPINAMEID](mapinameid.md) structure. This structure contains a property set member, a member for specifying the name in either numeric or string format, and a member for identifying which format is used. Because the property set is part of the property's name, it is not optional. MAPI has defined several property sets for use by clients and service providers, but if an existing property set is inappropriate, a new property set can be defined. Clients and service providers can define their own property sets by calling [CoCreateGUID](https://msdn.microsoft.com/library/ms688568.aspx) function. Typically these property sets are created for custom client applications. 
   
 MAPI's property sets are represented by the following constants:
   
