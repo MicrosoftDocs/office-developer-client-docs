@@ -40,44 +40,45 @@
     "globalMetadata": {
       "breadcrumb_path": "/office/client-developer/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-	  "ms.author": "o365devx", 
-	   "author": "o365devx",
-       "ms.topic": "conceptual",
-	   "uhfHeaderId": "MSDocsHeader-Dev_Office",
-	   "ms.suite": "Office 365",
-	   "ms.prod" : "Office 365"
+	    "ms.author": "o365devx", 
+	    "author": "o365devx",
+      "ms.topic": "conceptual",
+	    "uhfHeaderId": "MSDocsHeader-Dev_Office",
+	    "ms.suite": "Office 365",
+	    "ms.prod": "Office 365"
     },
     "fileMetadata": {
-	"ms.technology": 
+	    "ms.technology": 
        { 
-         "project/**.md" : "dev-overview",
-		 "excel/**.md" : "excel-xll",
-		 "access/**.md" : "custom-web-app",
-		 "word/**.md" : "content-controls",
-		 "integration/**.md" : "integration",
-		 "shared/**.md" : "telemetry",
-		 "infopath/external-automation/**.md" : "external-automation",
-		 "infopath/form-templates/**.md" : "form-templates",
-		 "onenote/**.md" : "dev-overview",
-		 "outlook/**.md" : "dev-overview",	
-		 "outlook/mapi/**.md" : "mapi",
-		 "outlook/social-connector/**.md" : "social-connector",
-		 "outlook/auxiliary/**.md" : "auxiliary",
-		 "outlook/weather/**.md" : "weather"
-		 
+          "project/**.md": "dev-overview",
+          "excel/**.md": "excel-xll",
+          "access/**.md": "custom-web-app",
+          "word/**.md": "content-controls",
+          "integration/**.md": "integration",
+          "shared/**.md": "telemetry",
+          "infopath/external-automation/**.md": "external-automation",
+          "infopath/form-templates/**.md": "form-templates",
+          "onenote/**.md": "dev-overview",
+          "outlook/**.md": "dev-overview",
+          "outlook/pia/**.md": "pia",	
+          "outlook/mapi/**.md": "mapi",
+          "outlook/social-connector/**.md": "social-connector",
+          "outlook/auxiliary/**.md": "auxiliary",
+          "outlook/weather/**.md": "weather"
+
        },
-	 "ms.prod": 
-       { 
-         "project/**.md" : "project",
-		 "excel/**.md" : "excel",
-		 "access/**.md" : "access",
-		 "word/**.md" : "word",
-		 "infopath/**.md" : "infopath",
-		 "onenote/**.md" : "onenote",
-		 "outlook/**.md" : "outlook",
-		 "visio/**.md" : "visio"
-       }
-	   
+      "ms.prod": 
+        { 
+          "project/**.md": "project",
+          "excel/**.md": "excel",
+          "access/**.md": "access",
+          "word/**.md": "word",
+          "infopath/**.md": "infopath",
+          "onenote/**.md": "onenote",
+          "outlook/**.md": "outlook",
+          "visio/**.md": "visio"
+        }
+        
 	   },
     "template": [],
     "dest": "officedocs-dev-client-docs",
