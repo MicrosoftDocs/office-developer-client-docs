@@ -1,13 +1,13 @@
 ---
 title: "MAPI constants"
 manager: soliver
-ms.date: 03/09/2015
+ms.date: 10/02/2018
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8fa5ac8d-3f63-499c-bb4e-439984773e4a
-description: "Last modified: March 09, 2015"
+description: Constant definitions, MAPI interface declarations, and class and interface identifiers used by the MAPI APIs.
 ---
 
 # MAPI constants
