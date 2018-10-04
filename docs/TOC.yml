@@ -1840,7 +1840,7 @@
                     href: access/access-desktop-database-reference/chapter-6-error-handling.md
                   - name: ADO Errors
                     href: access/access-desktop-database-reference/ado-errors.md
-                  - name: ADO Error Reference
+                  - name: ADO Error reference
                     href: access/access-desktop-database-reference/ado-error-reference.md
                   - name: Provider Errors
                     href: access/access-desktop-database-reference/provider-errors.md
@@ -2259,12 +2259,12 @@
               - name: ADO API reference
                 href: access/access-desktop-database-reference/ado-api-reference-topics.md
                 items:
-                - name: ADO API Reference
+                - name: ADO API reference
                   href: access/access-desktop-database-reference/ado-api-reference.md
-                - name: ADO Objects and Interfaces
+                - name: ADO objects and interfaces
                   href: access/access-desktop-database-reference/ado-objects-and-interfaces-reference.md
                   items:
-                  - name: ADO Objects and Interfaces
+                  - name: ADO objects and interfaces
                     href: access/access-desktop-database-reference/ado-objects-and-interfaces.md
                   - name: ADORecordConstruction Interface (ADO)
                     href: access/access-desktop-database-reference/adorecordconstruction-interface-ado.md
@@ -2511,12 +2511,12 @@
                     href: access/access-desktop-database-reference/value-property-ado.md
                   - name: Version property (ADO)
                     href: access/access-desktop-database-reference/version-property-ado.md
-                - name: ADO Dynamic properties
+                - name: ADO dynamic properties
                   href: access/access-desktop-database-reference/ado-dynamic-properties-reference.md
                   items:
-                  - name: ADO Dynamic properties
+                  - name: ADO dynamic properties
                     href: access/access-desktop-database-reference/ado-dynamic-properties.md
-                  - name: ADO Dynamic property Index
+                  - name: ADO dynamic property index
                     href: access/access-desktop-database-reference/ado-dynamic-property-index.md
                   - name: Optimize property--dynamic (ADO)
                     href: access/access-desktop-database-reference/optimize-property-dynamic-ado.md
@@ -2666,10 +2666,10 @@
                     href: access/access-desktop-database-reference/willexecute-event-ado.md
                   - name: WillMove and MoveComplete events (ADO)
                     href: access/access-desktop-database-reference/willmove-and-movecomplete-events-ado.md
-                - name: ADO Enumerated Constants
+                - name: ADO enumerated constants
                   href: access/access-desktop-database-reference/ado-enumerated-constants-reference.md
                   items:
-                  - name: ADO Enumerated Constants
+                  - name: ADO enumerated constants
                     href: access/access-desktop-database-reference/ado-enumerated-constants.md
                   - name: ADCPROP_ASYNCTHREADPRIORITY_ENUM
                     href: access/access-desktop-database-reference/adcprop-asyncthreadpriority-enum.md
@@ -2777,15 +2777,15 @@
                     href: access/access-desktop-database-reference/stringformatenum.md
                   - name: XactAttributeEnum
                     href: access/access-desktop-database-reference/xactattributeenum.md
-                - name: ADO Code examples
+                - name: ADO code examples
                   href: access/access-desktop-database-reference/ado-code-examples-access.md
                   items:
-                  - name: ADO Code examples
+                  - name: ADO code examples
                     href: access/access-desktop-database-reference/ado-code-examples.md
-                  - name: ADO Code examples in Microsoft Visual Basic
+                  - name: ADO code examples in Microsoft Visual Basic
                     href: access/access-desktop-database-reference/ado-code-examples-in-microsoft-visual-basic-access.md
                     items:
-                    - name: ADO Code examples in Microsoft Visual Basic
+                    - name: ADO code examples in Microsoft Visual Basic
                       href: access/access-desktop-database-reference/ado-code-examples-in-microsoft-visual-basic.md
                     - name: AbsolutePage, PageCount, and PageSize properties example (VB)
                       href: access/access-desktop-database-reference/absolutepage-pagecount-and-pagesize-properties-example-vb.md
@@ -2911,10 +2911,10 @@
                       href: access/access-desktop-database-reference/value-property-example-vb.md
                     - name: Version property example (VB)
                       href: access/access-desktop-database-reference/version-property-example-vb.md
-                  - name: ADO Code examples in Microsoft Visual Basic Scripting Edition
+                  - name: ADO code examples in Microsoft Visual Basic Scripting Edition
                     href: access/access-desktop-database-reference/ado-code-examples-in-microsoft-visual-basic-scripting-edition-access.md
                     items:
-                    - name: ADO Code examples in Microsoft Visual Basic Scripting Edition
+                    - name: ADO code examples in Microsoft Visual Basic Scripting Edition
                       href: access/access-desktop-database-reference/ado-code-examples-in-microsoft-visual-basic-scripting-edition.md
                     - name: AddNew method example (VBScript)
                       href: access/access-desktop-database-reference/addnew-method-example-vbscript.md
@@ -2930,10 +2930,10 @@
                       href: access/access-desktop-database-reference/movefirst-movelast-movenext-and-moveprevious-methods-example-vbscript.md
                     - name: Open and Close methods example (VBScript)
                       href: access/access-desktop-database-reference/open-and-close-methods-example-vbscript.md
-                  - name: ADO Code examples in Microsoft Visual C++
+                  - name: ADO code examples in Microsoft Visual C++
                     href: access/access-desktop-database-reference/ado-code-examples-in-microsoft-visual-c-access.md
                     items:
-                    - name: ADO Code examples in Microsoft Visual C++
+                    - name: ADO code examples in Microsoft Visual C++
                       href: access/access-desktop-database-reference/ado-code-examples-in-microsoft-visual-c.md
                     - name: ADO events Model example (VC++)
                       href: access/access-desktop-database-reference/ado-events-model-example-vc.md
@@ -3045,10 +3045,10 @@
                       href: access/access-desktop-database-reference/value-property-example-vc.md
                     - name: Version property example (VC++)
                       href: access/access-desktop-database-reference/version-property-example-vc.md
-                  - name: ADO Code examples in Microsoft Visual J++
+                  - name: ADO code examples in Microsoft Visual J++
                     href: access/access-desktop-database-reference/ado-code-examples-in-microsoft-visual-j-access.md
                     items:
-                    - name: ADO Code examples in Microsoft Visual J++
+                    - name: ADO code examples in Microsoft Visual J++
                       href: access/access-desktop-database-reference/ado-code-examples-in-microsoft-visual-j.md
                     - name: AbsolutePage, PageCount, and PageSize properties example (VJ++)
                       href: access/access-desktop-database-reference/absolutepage-pagecount-and-pagesize-properties-example-vj.md
@@ -3154,10 +3154,10 @@
                       href: access/access-desktop-database-reference/value-property-example-vj.md
                     - name: Version property example (VJ++)
                       href: access/access-desktop-database-reference/version-property-example-vj.md
-                  - name: ADO Code examples in Microsoft JScript
+                  - name: ADO code examples in Microsoft JScript
                     href: access/access-desktop-database-reference/ado-code-examples-in-microsoft-jscript-access.md
                     items:
-                    - name: ADO Code examples in Microsoft JScript
+                    - name: ADO code examples in Microsoft JScript
                       href: access/access-desktop-database-reference/ado-code-examples-in-microsoft-jscript.md
                     - name: AbsolutePage, PageCount, and PageSize properties example (JScript)
                       href: access/access-desktop-database-reference/absolutepage-pagecount-and-pagesize-properties-example-jscript.md
@@ -3186,7 +3186,7 @@
               - name: RDS API reference
                 href: access/access-desktop-database-reference/rds-api-reference-topics.md
                 items:
-                - name: RDS API Reference
+                - name: RDS API reference
                   href: access/access-desktop-database-reference/rds-api-reference.md
                 - name: RDS Objects
                   href: access/access-desktop-database-reference/rds-objects-access.md
@@ -3284,7 +3284,7 @@
               - name: ADO MD API reference
                 href: access/access-desktop-database-reference/ado-md-api-reference-topics.md
                 items:
-                - name: ADO MD API Reference
+                - name: ADO MD API reference
                   href: access/access-desktop-database-reference/ado-md-api-reference.md
                 - name: ADO MD Objects
                   href: access/access-desktop-database-reference/ado-md-objects-reference.md
@@ -3485,7 +3485,7 @@
               - name: ADOX API reference
                 href: access/access-desktop-database-reference/adox-api-reference-topics.md
                 items:
-                - name: ADOX API Reference
+                - name: ADOX API reference
                   href: access/access-desktop-database-reference/adox-api-reference.md
                 - name: ADOX Objects
                   href: access/access-desktop-database-reference/adox-objects-reference.md
@@ -3831,7 +3831,7 @@
           - name: Microsoft Access SQL reference
             href: access/access-desktop-database-reference/microsoft-access-sql-reference.md
             items:
-            - name: Overview of the Access SQL Reference
+            - name: Overview of the Access SQL reference
               href: access/access-desktop-database-reference/overview-of-the-access-sql-reference.md
               items:
               - name: SQL Aggregate Functions (SQL)
@@ -10439,7 +10439,7 @@
        items:
        - name: Visio VBA reference
          href: https://docs.microsoft.com/office/vba/api/overview/visio
-       - name: Visio save as Web Reference
+       - name: Visio Save as Web reference
          href: https://docs.microsoft.com/office/vba/api/overview/Visio/visio-save-as-web-reference
        - name: Visio Viewer reference
          href: https://docs.microsoft.com/office/vba/api/overview/Visio/visio-viewer-reference
