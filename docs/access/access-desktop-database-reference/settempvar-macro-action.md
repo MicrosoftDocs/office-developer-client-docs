@@ -46,7 +46,7 @@ The **SetTempVar** action has the following arguments.
 </tr>
 <tr class="even">
 <td><p><strong>Expression</strong></p></td>
-<td><p>Enter an expression that will be used to set the value for this temporary variable. Do not precede the expression with the equal (<strong>=</strong>) sign. You can click the <strong>Build</strong> button <img src="images/Ff198102.buildbut_ZA06047218(Office.15).gif" title="buildbut_ZA06047218" alt="buildbut_ZA06047218" /> to use the Expression Builder to set this argument.</p></td>
+<td><p>Enter an expression that will be used to set the value for this temporary variable. Do not precede the expression with the equal (<strong>=</strong>) sign. You can click the <strong>Build</strong> button <img src="media/access-build-button.gif" title="buildbut_ZA06047218" alt="buildbut_ZA06047218" /> to use the Expression Builder to set this argument.</p></td>
 </tr>
 </tbody>
 </table>
@@ -54,20 +54,18 @@ The **SetTempVar** action has the following arguments.
 
 ## Remarks
 
-  - You can have up to 255 temporary variables defined at one time. If you do not remove a temporary variable, it will remain in memory until you close the database. It is a good practice to remove temporary variables when you are finished using them. To remove a single temporary variable, use the **[RemoveTempVar](removetempvar-macro-action.md)** action and set its argument to the name of the temporary variable that you want to remove. If you have more than one temporary variable and you want to remove them all at once, use the **RemoveAllTempVars** action.
+- You can have up to 255 temporary variables defined at one time. If you do not remove a temporary variable, it will remain in memory until you close the database. It is a good practice to remove temporary variables when you are finished using them. To remove a single temporary variable, use the **[RemoveTempVar](removetempvar-macro-action.md)** action and set its argument to the name of the temporary variable that you want to remove. If you have more than one temporary variable and you want to remove them all at once, use the **RemoveAllTempVars** action.
 
-  - Temporary variables are global. Once a temporary variable has been created, you can refer to it in an event procedure, a Visual Basic for Applications (VBA) module, a query, or an expression. For example, if you created a temporary variable named *MyVar*, you could use the variable as the control source for a text box by using the following syntax:
+- Temporary variables are global. Once a temporary variable has been created, you can refer to it in an event procedure, a Visual Basic for Applications (VBA) module, a query, or an expression. For example, if you created a temporary variable named *MyVar*, you could use the variable as the control source for a text box by using the following syntax:
     
-        =[TempVars]![MyVar]
+  `=[TempVars]![MyVar]`
     
+  > [!NOTE]
+  > In macros, queries and event procedures, you do not need to precede the expression with an equal sign.
+ 
+  You can also refer to temporary variables in any add-ins or referenced databases.
 
-    > [!NOTE]
-    > <P>In macros, queries and event procedures, you do not need to precede the expression with an equal sign.</P>
-
-    
-    You can also refer to temporary variables in any add-ins or referenced databases.
-
-  - To run the **SetTempVar** action in a VBA module, use the **Add** method of the **TempVars** object.
+- To run the **SetTempVar** action in a VBA module, use the **Add** method of the **TempVars** object.
 
 ## Example
 

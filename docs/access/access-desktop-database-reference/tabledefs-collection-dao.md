@@ -10,13 +10,7 @@ mtps_version: v=office.15
 
 # TableDefs Collection (DAO)
 
-
-_**Applies to:** Access 2013 | Office 2013_
-
-**In this article**  
-Remarks  
-Example  
-About the Contributors  
+**Applies to:** Access 2013 | Office 2013
 
 A **TableDefs** collection contains all stored **TableDef** objects in a database (Microsoft Access workspaces only).
 
@@ -34,7 +28,7 @@ To refer to a **TableDef** object in a collection by its ordinal number or by it
 
 **TableDefs**\!\[name\]
 
-**Links provided by:**![Community Member Icon](images/Ff193201.8b9774c4-6c97-470e-b3a2-56d8f786444c(Office.15).png "Community Member Icon") The [UtterAccess](http://www.utteraccess.com) community | About the Contributors
+**Links provided by** the [UtterAccess](http://www.utteraccess.com) community. UtterAccess is the premier Microsoft Access wiki and help forum.
 
   - [Re-Linker Multi-Backends](http://www.utteraccess.com/wiki/index.php/re-linker_multi-backends)
 
@@ -44,6 +38,7 @@ To refer to a **TableDef** object in a collection by its ordinal number or by it
 
 This example creates a new **TableDef** object and appends it to the **TableDefs** collection of the Northwind Database object. It then enumerates the **TableDefs** collection and the **Properties** collection of the new **TableDef**.
 
+```
     Sub TableDefX() 
      
        Dim dbsNorthwind As Database 
@@ -90,6 +85,7 @@ This example creates a new **TableDef** object and appends it to the **TableDefs
        End With 
      
     End Sub 
+```
 
 This example creates a new **TableDef** object in the Northwind database.
 
@@ -153,7 +149,5 @@ Sub CreateTableDefX()
  
 ```
 
-## About the Contributors
 
-UtterAccess is the premier Microsoft Access wiki and help forum. Click here to join.
 

@@ -14,20 +14,13 @@ f1_categories:
 
 # TableDef.CreateField Method (DAO)
 
-
-_**Applies to:** Access 2013 | Office 2013_
-
-**In this article**  
-Syntax  
-Remarks  
-Example  
-About the Contributors  
+**Applies to:** Access 2013 | Office 2013
 
 Creates a new **[Field](field-object-dao.md)** object (Microsoft Access workspaces only).
 
 ## Syntax
 
-*expression* .CreateField(***Name***, ***Type***, ***Size***)
+*expression* .CreateField(_**Name**_, _**Type**_, _**Size**_)
 
 *expression* A variable that represents a **TableDef** object.
 
@@ -85,7 +78,7 @@ If Name refers to an object that is already a member of the collection, a run-ti
 
 To remove a **Field** object from a **Fields** collection, use the **[Delete](fields-delete-method-dao.md)** method on the collection. You can't delete a **Field** object from a **TableDef** object's **Fields** collection after you create an index that references the field.
 
-**Link provided by:**![Community Member Icon](images/Ff193201.8b9774c4-6c97-470e-b3a2-56d8f786444c(Office.15).png "Community Member Icon") The [UtterAccess](http://www.utteraccess.com) community | About the Contributors
+**Link provided by** the [UtterAccess](http://www.utteraccess.com) community. UtterAccess is the premier Microsoft Access wiki and help forum.
 
   - [Adding a hyperlink field to an existing table with DAO](http://www.utteraccess.com/wiki/index.php/adding_a_hyperlink_field_to_an_existing_table_with_dao)
 
@@ -93,8 +86,9 @@ To remove a **Field** object from a **Fields** collection, use the **[Delete](fi
 
 The following example shows how to create a calculated field. The CreateField method creates a field named **FullName**. The Expression property is then set to the expression that calculates the value of the field.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](http://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
+**Sample code provided by** The [Microsoft Access 2010 Programmer’s Reference](http://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html).
 
+```
     Sub CreateCalculatedField()
         Dim dbs As DAO.Database
         Dim tdf As DAO.TableDef
@@ -123,10 +117,11 @@ The following example shows how to create a calculated field. The CreateField me
         Set tdf = Nothing
         Set dbs = Nothing
     End Sub
+```
 
-## About the Contributors
+### About the contributors
 
-UtterAccess is the premier Microsoft Access wiki and help forum. Click here to join.
+UtterAccess is the premier Microsoft Access wiki and help forum. 
 
 Wrox Press is driven by the Programmer to Programmer philosophy. Wrox books are written by programmers for programmers, and the Wrox brand means authoritative solutions to real-world programming problems.
 

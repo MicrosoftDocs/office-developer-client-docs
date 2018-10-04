@@ -10,13 +10,7 @@ mtps_version: v=office.15
 
 # QueryDef Object (DAO)
 
-
-_**Applies to:** Access 2013 | Office 2013_
-
-**In this article**  
-Remarks  
-Example  
-About the Contributors  
+**Applies to:** Access 2013 | Office 2013 
 
 A **QueryDef** object is a stored definition of a query in a Microsoft Access database engine database.
 
@@ -24,19 +18,19 @@ A **QueryDef** object is a stored definition of a query in a Microsoft Access da
 
 You can use the **QueryDef** object to define a query. For example, you can:
 
-  - Use the **SQL** property to set or return the query definition.
+- Use the **SQL** property to set or return the query definition.
 
-  - Use the **QueryDef** object's **Parameters** collection to set or return query parameters.
+- Use the **QueryDef** object's **Parameters** collection to set or return query parameters.
 
-  - Use the **Type** property to return a value indicating whether the query selects records from an existing table, makes a new table, inserts records from one table into another table, deletes records, or updates records.
+- Use the **Type** property to return a value indicating whether the query selects records from an existing table, makes a new table, inserts records from one table into another table, deletes records, or updates records.
 
-  - Use the **MaxRecords** property to limit the number of records returned from a query.
+- Use the **MaxRecords** property to limit the number of records returned from a query.
 
-  - Use the **ODBCTimeout** property to indicate how long to wait before the query returns records. The **ODBCTimeout** property applies to any query that accesses ODBC data.
+- Use the **ODBCTimeout** property to indicate how long to wait before the query returns records. The **ODBCTimeout** property applies to any query that accesses ODBC data.
 
-  - Use the **ReturnsRecords** property to indicate that the query returns records. The **ReturnsRecords** property is only valid on SQL pass-through queries.
+- Use the **ReturnsRecords** property to indicate that the query returns records. The **ReturnsRecords** property is only valid on SQL pass-through queries.
 
-  - Use the **Connect** property to make an SQL pass-through query to an ODC database.
+- Use the **Connect** property to make an SQL pass-through query to an ODC database.
 
 You can also create temporary **QueryDef** objects. Unlike permanent **QueryDef** objects, temporary **QueryDef** objects are not saved to disk or appended to the **QueryDefs** collection. Temporary **QueryDef** objects are useful for queries that you must run repeatedly during run time but do not not need to save to disk, particularly if you create their SQL statements during run time.
 
@@ -56,7 +50,7 @@ QueryDefs\!\[ name\]
 
 You can refer to temporary **QueryDef** objects only by the object variables that you have assigned to them.
 
-**Link provided by:**![Community Member Icon](images/Ff193201.8b9774c4-6c97-470e-b3a2-56d8f786444c(Office.15).png "Community Member Icon") The [UtterAccess](http://www.utteraccess.com) community | About the Contributors
+**Link provided by** the [UtterAccess](http://www.utteraccess.com) community. UtterAccess is the premier Microsoft Access wiki and help forum.
 
   - [Queries: Document SQL to Word](http://www.utteraccess.com/wiki/index.php/queries:_document_sql_to_word)
 
@@ -64,6 +58,7 @@ You can refer to temporary **QueryDef** objects only by the object variables tha
 
 This example creates a new **QueryDef** object and appends it to the **QueryDefs** collection of the Northwind **Database** object. It then enumerates the **QueryDefs** collection and the **Properties** collection of the new **QueryDef**.
 
+```sql
     Sub QueryDefX() 
      
        Dim dbsNorthwind As Database 
@@ -108,9 +103,11 @@ This example creates a new **QueryDef** object and appends it to the **QueryDefs
        End With 
      
     End Sub 
+```
 
 This example uses the **CreateQueryDef** method to create and execute both a temporary and a permanent **QueryDef**. The GetrstTemp function is required for this procedure to run.
 
+```sql
     Sub CreateQueryDefX() 
      
        Dim dbsNorthwind As Database 
@@ -159,11 +156,13 @@ This example uses the **CreateQueryDef** method to create and execute both a tem
        End With 
      
     End Function 
+```
 
 The following example shows how to replace the Structured Query Language (SQL) statement in a saved query.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](http://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
+**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](http://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html).
 
+```sql
     ‘To change the Where clause in a saved query  
     Dim qdf as QueryDef
     Dim db as Database
@@ -202,10 +201,11 @@ The following example shows how to replace the Structured Query Language (SQL) s
             Resume Exit_Procedure
     
     End Function
+```
 
-## About the Contributors
+### About the contributors
 
-UtterAccess is the premier Microsoft Access wiki and help forum. Click here to join.
+UtterAccess is the premier Microsoft Access wiki and help forum. 
 
 Wrox Press is driven by the Programmer to Programmer philosophy. Wrox books are written by programmers for programmers, and the Wrox brand means authoritative solutions to real-world programming problems.
 

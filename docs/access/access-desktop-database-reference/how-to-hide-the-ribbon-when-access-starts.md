@@ -10,8 +10,7 @@ mtps_version: v=office.15
 
 # How to: Hide the Ribbon When Access Starts
 
-
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to:** Access 2013 | Office 2013
 
 By default, Microsoft Access does not provide a method for hiding the ribbon. This topic describes how to load a customized ribbon that hides all of the built-in tabs.
 
@@ -81,7 +80,7 @@ To apply a custom ribbon so that it is available when the application starts, us
 
 2.  Close and then restart the application.
 
-3.  Click the **Microsoft Office Button**![O12FileMenuButton\_ZA10077102](images/Ff837012.O12FileMenuButton_ZA10077102(Office.15).gif "O12FileMenuButton_ZA10077102") and then click **Access Options**.
+3.  Click the **Microsoft Office Button**![O12FileMenuButton\_ZA10077102](media/access-file-menu-button.gif "O12FileMenuButton_ZA10077102") and then click **Access Options**.
 
 4.  Click the **Current Database** option and then, in the **Ribbon and Toolbar Options** section, click the **Ribbon Name** list and select **HideTheRibbon**.
 
@@ -89,6 +88,6 @@ To apply a custom ribbon so that it is available when the application starts, us
 
 
 > [!NOTE]
-> <P>For more information about the ribbon UI in other Office applications, see <A href="https://msdn.microsoft.com/en-us/library/ff862537(v=office.15)">Overview of the Office Fluent Ribbon</A>.</P>
+> For more information about the ribbon UI in other Office applications, see [Overview of the Office Fluent Ribbon](https://msdn.microsoft.com/en-us/library/ff862537(v=office.15)).
 
 

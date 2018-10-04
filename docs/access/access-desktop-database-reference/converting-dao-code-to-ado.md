@@ -126,12 +126,11 @@ rs.Update</code></pre>
 </tbody>
 </table>
 
+### About the contributors
 
-**Link provided by:**![Community Member Icon](images/Ff193201.8b9774c4-6c97-470e-b3a2-56d8f786444c(Office.15).png "Community Member Icon") The [UtterAccess](http://www.utteraccess.com) community
+**Link provided by** the [UtterAccess](http://www.utteraccess.com) community. UtterAccess is the premier Microsoft Access wiki and help forum.
 
   - [Choosing between DAO and ADO](http://www.utteraccess.com/wiki/index.php/choosing_between_dao_and_ado)
 
-## About the Contributors
 
-UtterAccess is the premier Microsoft Access wiki and help forum. Click here to join.
 

@@ -14,21 +14,12 @@ f1_categories:
 
 # EMailDatabaseObject Macro Action
 
-
-_**Applies to:** Access 2013 | Office 2013_
-
-**In this article**  
-Settings  
-Remarks  
-About the Contributors  
+**Applies to:** Access 2013 | Office 2013
 
 You can use the **EMailDatabaseObject** action to include the specified Microsoft Access datasheet, form, report, module, or data access page in an electronic mail message, where it can be viewed and forwarded.
 
-
 > [!NOTE]
-> <P>This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</P>
-
-
+> This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.
 
 ## Settings
 
@@ -96,27 +87,29 @@ The object in the mail message is in the selected output format. When you double
 
 The following rules apply when you use the **EMailDatabaseObject** action to include a database object in a mail message:
 
-  - You can send table, query, and form datasheets. In the included object, all fields in the datasheet look as they do in Access, except fields containing OLE objects. The columns for these fields are included in the object, but the fields are blank.
+- You can send table, query, and form datasheets. In the included object, all fields in the datasheet look as they do in Access, except fields containing OLE objects. The columns for these fields are included in the object, but the fields are blank.
 
-  - For a control bound to a Yes/No field (a toggle button, option button, or check box), the output file displays the value –1 (Yes) or 0 (No).
+- For a control bound to a Yes/No field (a toggle button, option button, or check box), the output file displays the value –1 (Yes) or 0 (No).
 
-  - For a text box bound to a Hyperlink field, the output file displays the hyperlink for all output formats except MS-DOS text (in this case, the hyperlink is just displayed as normal text).
+- For a text box bound to a Hyperlink field, the output file displays the hyperlink for all output formats except MS-DOS text (in this case, the hyperlink is just displayed as normal text).
 
-  - If you send a form in Form view, the included object always contains the form's Datasheet view.
+- If you send a form in Form view, the included object always contains the form's Datasheet view.
 
-  - If you send a report, the only controls that are included in the object are text boxes and (in some cases) labels. All other controls are ignored. Header and footer information is also not included. The only exception to this is that when you send a report in Excel format, a text box in a group footer containing an expression with the **Sum** function is included in the object. No other control in a header or footer (and no aggregate function other than **Sum**) is included in the object.
+- If you send a report, the only controls that are included in the object are text boxes and (in some cases) labels. All other controls are ignored. Header and footer information is also not included. The only exception to this is that when you send a report in Excel format, a text box in a group footer containing an expression with the **Sum** function is included in the object. No other control in a header or footer (and no aggregate function other than **Sum**) is included in the object.
 
-  - Subreports are included in the object.
+- Subreports are included in the object.
 
-  - When you send a datasheet, form, or data access page in HTML format, one .html file is created. When you send a report in HTML format, one .html file is created for each page in the report.
+- When you send a datasheet, form, or data access page in HTML format, one .html file is created. When you send a report in HTML format, one .html file is created for each page in the report.
 
 To run the **EMailDatabaseObject** action in a Visual Basic for Applications (VBA) module, use the **SendObject** method of the **DoCmd** object.
 
-**Link provided by:**![Community Member Icon](images/Ff193201.8b9774c4-6c97-470e-b3a2-56d8f786444c(Office.15).png "Community Member Icon") Luke Chung, [FMS, Inc.](http://www.fmsinc.com/)
+### About the contributor
+
+**Link provided by** Luke Chung, [FMS, Inc.](http://www.fmsinc.com/), the founder and president of FMS, Inc., a leading provider of custom database solutions and developer tools.
 
   - [Features and Limits of Using the SendObject Method to Send](http://www.fmsinc.com/microsoftaccess/email/sendobject.html)
 
-## About the Contributors
 
-Luke Chung is the founder and president of FMS, Inc., a leading provider of custom database solutions and developer tools.
+
+
 

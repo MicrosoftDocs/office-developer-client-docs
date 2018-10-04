@@ -12,14 +12,7 @@ dev_langs:
 
 # SELECT Statement (Microsoft Access SQL)
 
-
-_**Applies to:** Access 2013 | Office 2013_
-
-**In this article**  
-Syntax  
-Remarks  
-Example  
-About the Contributors  
+**Applies to:** Access 2013 | Office 2013
 
 Instructs the Microsoft Access database engine to return information from the database as a set of records.
 
@@ -87,13 +80,13 @@ SELECT *fields* FROM *table*
 
 You can use an asterisk (\*) to select all fields in a table. The following example selects all of the fields in the Employees table:
 
-``` sql
+```sql
 SELECT * FROM Employees;
 ```
 
 If a field name is included in more than one table in the FROM clause, precede it with the table name and the **.** (dot) operator. In the following example, the Department field is in both the Employees table and the Supervisors table. The SQL statement selects departments from the Employees table and supervisor names from the Supervisors table:
 
-``` sql
+```sql
 SELECT Employees.Department, Supervisors.SupvName 
 FROM Employees INNER JOIN Supervisors 
 WHERE Employees.Department = Supervisors.Department;
@@ -101,25 +94,25 @@ WHERE Employees.Department = Supervisors.Department;
 
 When a **Recordset** object is created, the Microsoft Jet database engine uses the table's field name as the **Field** object name in the **Recordset** object. If you want a different field name or a name is not implied by the expression used to generate the field, use the AS reserved word. The following example uses the title Birth to name the returned **Field** object in the resulting **Recordset** object:
 
-``` sql
+```sql
 SELECT BirthDate 
 AS Birth FROM Employees;
 ```
 
 Whenever you use aggregate functions or queries that return ambiguous or duplicate **Field** object names, you must use the AS clause to provide an alternate name for the **Field** object. The following example uses the title HeadCount to name the returned **Field** object in the resulting **Recordset** object:
 
-``` sql
+```sql
 SELECT COUNT(EmployeeID)
 AS HeadCount FROM Employees;
 ```
 
 You can use the other clauses in a SELECT statement to further restrict and organize your returned data. For more information, see the Help topic for the clause you are using.
 
-**Links provided by:**![Community Member Icon](images/Ff193201.8b9774c4-6c97-470e-b3a2-56d8f786444c(Office.15).png "Community Member Icon") The [UtterAccess](http://www.utteraccess.com) community | About the Contributors
+**Links provided by** the [UtterAccess](http://www.utteraccess.com) community. UtterAccess is the premier Microsoft Access wiki and help forum.
 
-  - [SQL to VBA Formatter](http://www.utteraccess.com/forum/sql-vba-formatter-t1165308.html)
+- [SQL to VBA Formatter](http://www.utteraccess.com/forum/sql-vba-formatter-t1165308.html)
 
-  - [Viewing Records Within A Defined Range](http://www.utteraccess.com/wiki/index.php/records_within_a_defined_range)
+- [Viewing Records Within A Defined Range](http://www.utteraccess.com/wiki/index.php/records_within_a_defined_range)
 
 ## Example
 
@@ -127,6 +120,7 @@ Some of the following examples assume the existence of a hypothetical Salary fie
 
 This example creates a dynaset-type **Recordset** based on an SQL statement that selects the LastName and FirstName fields of all records in the Employees table. It calls the EnumFields procedure, which prints the contents of a **Recordset** object to the **Debug** window.
 
+```sql
     Sub SelectX1() 
      
         Dim dbs As Database, rst As Recordset 
@@ -150,9 +144,11 @@ This example creates a dynaset-type **Recordset** based on an SQL statement that
         dbs.Close 
      
     End Sub
+```
 
 This example counts the number of records that have an entry in the PostalCode field and names the returned field Tally.
 
+```sql
     Sub SelectX2() 
      
         Dim dbs As Database, rst As Recordset 
@@ -176,9 +172,11 @@ This example counts the number of records that have an entry in the PostalCode f
         dbs.Close 
      
     End Sub 
+```
 
 This example shows the number of employees and the average and maximum salaries.
 
+```sql
     Sub SelectX3() 
      
         Dim dbs As Database, rst As Recordset 
@@ -205,9 +203,11 @@ This example shows the number of employees and the average and maximum salaries.
         dbs.Close 
      
     End Sub 
+```
 
 The **Sub** procedure EnumFields is passed a **Recordset** object from the calling procedure. The procedure then formats and prints the fields of the **Recordset** to the **Debug** window. The variable is the desired printed field width. Some fields may be truncated.
 
+```sql
     Sub EnumFields(rst As Recordset, intFldLen As Integer) 
      
         Dim lngRecords As Long, lngFields As Long 
@@ -277,8 +277,8 @@ The **Sub** procedure EnumFields is passed a **Recordset** object from the calli
         Next lngRecCount 
      
     End Sub 
+```
 
-## About the Contributors
 
-UtterAccess is the premier Microsoft Access wiki and help forum. Click here to join.
+
 

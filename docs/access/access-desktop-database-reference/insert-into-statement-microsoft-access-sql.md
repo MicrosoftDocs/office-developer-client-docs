@@ -101,7 +101,7 @@ An append query copies records from one or more tables to another. The tables th
 
 Instead of appending existing records from another table, you can specify the value for each field in a single new record using the VALUES clause. If you omit the field list, the VALUES clause must include a value for every field in the table; otherwise, the INSERT operation will fail. Use an additional INSERT INTO statement with a VALUES clause for each additional record you want to create.
 
-**Links provided by:**![Community Member Icon](images/Ff193201.8b9774c4-6c97-470e-b3a2-56d8f786444c(Office.15).png "Community Member Icon") The [UtterAccess](http://www.utteraccess.com) community | About the Contributors
+**Link provided by** the [UtterAccess](http://www.utteraccess.com) community. UtterAccess is the premier Microsoft Access wiki and help forum.
 
   - [Generating sequential numbers for INSERT/UPDATE statements](http://www.utteraccess.com/forum/generating-sequential-num-t446039.html)
 
@@ -111,6 +111,7 @@ Instead of appending existing records from another table, you can specify the va
 
 This example selects all records in a hypothetical New Customers table and adds them to the Customers table. When individual columns are not designated, the SELECT table column names must match exactly those in the INSERT INTO table.
 
+```sql
     Sub InsertIntoX1() 
      
         Dim dbs As Database 
@@ -128,9 +129,11 @@ This example selects all records in a hypothetical New Customers table and adds 
         dbs.Close 
      
     End Sub
+```
 
 This example creates a new record in the Employees table.
 
+```sql
     Sub InsertIntoX2() 
      
         Dim dbs As Database 
@@ -149,8 +152,5 @@ This example creates a new record in the Employees table.
         dbs.Close 
      
     End Sub 
-
-## About the Contributors
-
-UtterAccess is the premier Microsoft Access wiki and help forum. Click here to join.
+```
 

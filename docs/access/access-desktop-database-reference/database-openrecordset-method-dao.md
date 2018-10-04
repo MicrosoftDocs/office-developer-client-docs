@@ -14,20 +14,13 @@ f1_categories:
 
 # Database.OpenRecordset Method (DAO)
 
-
-_**Applies to:** Access 2013 | Office 2013_
-
-**In this article**  
-Syntax  
-Remarks  
-Example  
-About the Contributors  
+**Applies to:** Access 2013 | Office 2013
 
 Creates a new **[Recordset](recordset-object-dao.md)** object and appends it to the **Recordsets** collection.
 
 ## Syntax
 
-*expression* .OpenRecordset(***Name***, ***Type***, ***Options***, ***LockEdit***)
+*expression* .OpenRecordset(_**Name**_, _**Type**_, _**Options**_, _**LockEdit**_)
 
 *expression* A variable that represents a **Database** object.
 
@@ -62,7 +55,7 @@ Creates a new **[Recordset](recordset-object-dao.md)** object and appends it to 
 <td><p>A <strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> constant that indicates the type of <strong>Recordset</strong> to open.</p>
 
 > [!NOTE]
-> <P>If you open a <STRONG>Recordset</STRONG> in a Microsoft Access workspace and you don't specify a type, <STRONG>OpenRecordset</STRONG> creates a table-type <STRONG>Recordset</STRONG>, if possible. If you specify a linked table or query, <STRONG>OpenRecordset</STRONG> creates a dynaset-type <STRONG>Recordset</STRONG>.</P>
+> If you open a **Recordset** in a Microsoft Access workspace and you don't specify a type, **OpenRecordset** creates a table-type **Recordset**, if possible. If you specify a linked table or query, **OpenRecordset** creates a dynaset-type **Recordset**.
 
 
 </td>
@@ -74,7 +67,7 @@ Creates a new **[Recordset](recordset-object-dao.md)** object and appends it to 
 <td><p>A combination of <strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong> constants that specify characteristics of the new <strong>Recordset</strong>.</p>
 
 > [!NOTE]
-> <P>The constants <STRONG>dbConsistent</STRONG> and <STRONG>dbInconsistent</STRONG> are mutually exclusive, and using both causes an error. Supplying a LockEdit argument when Options uses the <STRONG>dbReadOnly</STRONG> constant also causes an error.</P>
+> The constants **dbConsistent** and **dbInconsistent** are mutually exclusive, and using both causes an error. Supplying a LockEdit argument when Options uses the **dbReadOnly** constant also causes an error.
 
 
 </td>
@@ -86,7 +79,7 @@ Creates a new **[Recordset](recordset-object-dao.md)** object and appends it to 
 <td><p>A <strong><a href="locktypeenum-enumeration-dao.md">LockTypeEnum</a></strong> constant that determines the locking for the <strong>Recordset</strong>.</p>
 
 > [!NOTE]
-> <P>You can use <STRONG>dbReadOnly</STRONG> in either the Options argument or the LockedEdit argument, but not both. If you use it for both arguments, a run-time error occurs.</P>
+> You can use **dbReadOnly** in either the Options argument or the LockedEdit argument, but not both. If you use it for both arguments, a run-time error occurs.
 
 
 </td>
@@ -111,11 +104,9 @@ Closing a **Recordset** with the **[Close](connection-close-method-dao.md)** met
 
 
 > [!NOTE]
-> <P>If <EM>source</EM> refers to an SQL statement composed of a string concatenated with a non-integer value, and the system parameters specify a non-U.S. decimal character such as a comma (for example, strSQL = "PRICE &gt; " &amp; lngPrice, and lngPrice = 125,50), an error occurs when you try to open the <STRONG>Recordset</STRONG>. This is because during concatenation, the number will be converted to a string using your system's default decimal character, and SQL only accepts U.S. decimal characters.</P>
+> If *source* refers to an SQL statement composed of a string concatenated with a non-integer value, and the system parameters specify a non-U.S. decimal character such as a comma (for example, strSQL = "PRICE &gt; " &amp; lngPrice, and lngPrice = 125,50), an error occurs when you try to open the **Recordset**. This is because during concatenation, the number will be converted to a string using your system's default decimal character, and SQL only accepts U.S. decimal characters.
 
-
-
-**Link provided by:**![Community Member Icon](images/Ff193201.8b9774c4-6c97-470e-b3a2-56d8f786444c(Office.15).png "Community Member Icon") The [UtterAccess](http://www.utteraccess.com) community | About the Contributors
+**Link provided by** the [UtterAccess](http://www.utteraccess.com) community. UtterAccess is the premier Microsoft Access wiki and help forum.
 
   - [Transfer data from Access to Excel](http://www.utteraccess.com/forum/transfer-data-access-ex-t1672619.html)
 
@@ -123,8 +114,9 @@ Closing a **Recordset** with the **[Close](connection-close-method-dao.md)** met
 
 The following example shows how to open a Recordset that is based on a parameter query.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](http://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
+**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](http://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html).
 
+```
     Dim dbs As DAO.Database
     Dim qdf As DAO.QueryDef
     Dim rst As DAO.Recordset
@@ -140,9 +132,12 @@ The following example shows how to open a Recordset that is based on a parameter
     
     'Open a Recordset based on the parameter query
     Set rst = qdf.OpenRecordset()
+```
 
 The following example shows how to open a Recordset based on a table or a query.
 
+
+``` 
     Dim dbs As DAO.Database
     Dim rsTable As DAO.Recordset
     Dim rsQuery As DAO.Recordset
@@ -154,9 +149,11 @@ The following example shows how to open a Recordset based on a table or a query.
     
     'Open a dynaset-type Recordset using a saved query
     Set rsQuery = dbs.OpenRecordset("qryMyQuery", dbOpenDynaset)
+```
 
 The following example shows how to open a Recordset based on a Structured Query Language (SQL) statement.
 
+```
     Dim dbs As DAO.Database
     Dim rsSQL As DAO.Recordset
     Dim strSQL As String
@@ -166,9 +163,11 @@ The following example shows how to open a Recordset based on a Structured Query 
     'Open a snapshot-type Recordset based on an SQL statement
     strSQL = "SELECT * FROM Table1 WHERE Field2 = 33"
     Set rsSQL = dbs.OpenRecordset(strSQL, dbOpenSnapshot)
+```
 
 The following sample shows how to use the Filter property to determine the records to be included in a subsequently opened Recordset.
 
+```
     Dim dbs As DAO.Database
     Dim rst As DAO.Recordset
     Dim rstFiltered As DAO.Recordset
@@ -212,10 +211,11 @@ The following sample shows how to use the Filter property to determine the recor
     
     Set rstFiltered = Nothing
     Set rst = Nothing
+```
 
-## About the Contributors
+## About the contributors
 
-UtterAccess is the premier Microsoft Access wiki and help forum. Click here to join.
+UtterAccess is the premier Microsoft Access wiki and help forum. 
 
-Wrox Press is driven by the Programmer to Programmer philosophy. Wrox books are written by programmers for programmers, and the Wrox brand means authoritative solutions to real-world programming problems.
+Wrox Press is driven by the programmer to programmer philosophy. Wrox books are written by programmers for programmers, and the Wrox brand means authoritative solutions to real-world programming problems.
 
