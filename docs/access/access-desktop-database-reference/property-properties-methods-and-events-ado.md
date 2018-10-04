@@ -13,20 +13,15 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Properties  
-Methods  
-Events  
-
 ## Properties
 
-[Attributes Property](attributes-property-ado.md)
+- [Attributes Property](attributes-property-ado.md)
 
-[Name Property](name-property-ado.md)
+- [Name Property](name-property-ado.md)
 
-[Type Property](type-property-ado.md)
+- [Type Property](type-property-ado.md)
 
-[Value Property](value-property-ado.md)
+- [Value Property](value-property-ado.md)
 
 ## Methods
 

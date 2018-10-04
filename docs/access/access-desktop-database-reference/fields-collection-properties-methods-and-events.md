@@ -10,33 +10,27 @@ mtps_version: v=office.15
 
 # Fields Collection Properties, Methods, and Events
 
-
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Properties  
-Methods  
-Events  
 
 ## Properties
 
-[Count Property](count-property-ado.md)
+- [Count Property](count-property-ado.md)
 
-[Item Property](item-property-ado.md)
+- [Item Property](item-property-ado.md)
 
 ## Methods
 
-[Append Method](append-method-ado.md)
+- [Append Method](append-method-ado.md)
 
-[CancelUpdate Method](cancelupdate-method-ado.md)
+- [CancelUpdate Method](cancelupdate-method-ado.md)
 
-[Delete Method (ADO Fields Collection)](delete-method-ado-fields-collection.md)
+- [Delete Method (ADO Fields Collection)](delete-method-ado-fields-collection.md)
 
-[Refresh Method](refresh-method-ado.md)
+- [Refresh Method](refresh-method-ado.md)
 
-[Resync Method](resync-method-ado.md)
+- [Resync Method](resync-method-ado.md)
 
-[Update Method](update-method-ado.md)
+- [Update Method](update-method-ado.md)
 
 ## Events
 

@@ -13,10 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Parameters  
-Remarks  
 
 Adds a new [Key](key-object-adox.md) object to the [Keys](keys-collection-adox.md) collection.
 

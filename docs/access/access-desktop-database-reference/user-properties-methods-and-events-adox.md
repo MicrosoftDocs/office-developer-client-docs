@@ -13,26 +13,21 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Properties/Collections  
-Methods  
-Events  
-
 ## Properties/Collections
 
-[Groups Collection](groups-collection-adox.md)
+- [Groups Collection](groups-collection-adox.md)
 
-[Name Property](name-property-adox.md)
+- [Name Property](name-property-adox.md)
 
-[Properties Collection](properties-collection-ado.md)
+- [Properties Collection](properties-collection-ado.md)
 
 ## Methods
 
-[ChangePassword Method](changepassword-method-adox.md)
+- [ChangePassword Method](changepassword-method-adox.md)
 
-[GetPermissions Method](getpermissions-method-adox.md)
+- [GetPermissions Method](getpermissions-method-adox.md)
 
-[SetPermissions Method](setpermissions-method-adox.md)
+- [SetPermissions Method](setpermissions-method-adox.md)
 
 ## Events
 

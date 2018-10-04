@@ -10,21 +10,15 @@ mtps_version: v=office.15
 
 # Catalog Properties, Methods, and Events (ADO MD)
 
-
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Properties/Collections  
-Methods  
-Events  
 
 ## Properties/Collections
 
-[ActiveConnection Property](activeconnection-property-ado-md.md)
+- [ActiveConnection Property](activeconnection-property-ado-md.md)
 
-[CubeDefs Collection](cubedefs-collection-ado-md.md)
+- [CubeDefs Collection](cubedefs-collection-ado-md.md)
 
-[Name Property](name-property-ado-md.md)
+- [Name Property](name-property-ado-md.md)
 
 ## Methods
 

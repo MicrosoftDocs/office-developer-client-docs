@@ -13,22 +13,18 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Properties/Collections  
-Methods  
-Events  
 
 ## Properties/Collections
 
-[Description Property](description-property-ado-md.md)
+- [Description Property](description-property-ado-md.md)
 
-[Levels Collection](levels-collection-ado-md.md)
+- [Levels Collection](levels-collection-ado-md.md)
 
-[Name Property](name-property-ado-md.md)
+- [Name Property](name-property-ado-md.md)
 
-[Properties Collection](properties-collection-ado.md)
+- [Properties Collection](properties-collection-ado.md)
 
-[UniqueName Property](uniquename-property-ado-md.md)
+- [UniqueName Property](uniquename-property-ado-md.md)
 
 ## Methods
 

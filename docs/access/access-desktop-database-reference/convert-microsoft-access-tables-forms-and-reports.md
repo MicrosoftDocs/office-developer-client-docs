@@ -14,19 +14,7 @@ f1_categories:
 
 # Convert Microsoft Access Tables, Forms, and Reports
 
-
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Indexes and Relationships  
-The LimitToList Property of Combo Boxes  
-Menus and In-Place Activation of OLE Objects  
-Referencing a Control on a Read-Only Form  
-Date Fields and Data Entry  
-Buttons Created with the Command Button Wizard  
-Form and Report Class Modules  
-Converted Version 2.0 Report Has Different Margins  
-Can't Use the Format Property to Distinguish Null Values and Zero-Length Strings  
 
 Several changes introduced by Microsoft Access 2002 might affect the behavior of your version 1.*x* or 2.0 applications. The following sections provide more information about those changes.
 

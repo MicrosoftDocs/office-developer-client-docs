@@ -13,38 +13,33 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Properties/Collections  
-Methods  
-Events  
-
 ## Properties/Collections
 
-[ActiveConnection Property](activeconnection-property-ado.md)
+- [ActiveConnection Property](activeconnection-property-ado.md)
 
-[CommandText Property](commandtext-property-ado.md)
+- [CommandText Property](commandtext-property-ado.md)
 
-[CommandTimeout Property](commandtimeout-property-ado.md)
+- [CommandTimeout Property](commandtimeout-property-ado.md)
 
-[CommandType Property](commandtype-property-ado.md)
+- [CommandType Property](commandtype-property-ado.md)
 
-[Name Property](name-property-ado.md)
+- [Name Property](name-property-ado.md)
 
-[Parameters Collection](parameters-collection-ado.md)
+- [Parameters Collection](parameters-collection-ado.md)
 
-[Prepared Property](prepared-property-ado.md)
+- [Prepared Property](prepared-property-ado.md)
 
-[Properties Collection](properties-collection-ado.md)
+- [Properties Collection](properties-collection-ado.md)
 
-[State Property](state-property-ado.md)
+- [State Property](state-property-ado.md)
 
 ## Methods
 
-[Cancel Method](cancel-method-ado.md)
+- [Cancel Method](cancel-method-ado.md)
 
-[CreateParameter Method](createparameter-method-ado.md)
+- [CreateParameter Method](createparameter-method-ado.md)
 
-[Execute Method (ADO Command)](https://msdn.microsoft.com/library/jj248785\(v=office.15\))
+- [Execute Method (ADO Command)](https://msdn.microsoft.com/library/jj248785\(v=office.15\))
 
 ## Events
 

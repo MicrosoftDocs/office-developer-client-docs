@@ -1,6 +1,6 @@
 ﻿---
-title: The ActiveX Control's Custom Properties Dialog Box
-TOCTitle: The ActiveX Control's Custom Properties Dialog Box
+title: ActiveX Control's Custom Properties Dialog Box
+TOCTitle: ActiveX Control's Custom Properties Dialog Box
 ms:assetid: 124cf679-6efc-567a-84d1-8057dec93bde
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845396(v=office.15)
 ms:contentKeyID: 48543338
@@ -12,21 +12,14 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# The ActiveX Control's Custom Properties Dialog Box
-
+# ActiveX Control's Custom Properties Dialog Box
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Two Ways to Set Properties  
-Finding the Custom Properties Dialog Box  
-Using the Custom Properties Dialog Box  
-
 When setting the properties of an ActiveX control, you may need or prefer to use the control's custom properties dialog box. This custom properties dialog box provides an alternative to the list of properties in the Microsoft Access property sheet for setting ActiveX control properties in Design view.
 
-
 > [!NOTE]
-> <P>This information only applies to ActiveX controls in a Microsoft Access database environment.</P>
+> This information only applies to ActiveX controls in a Microsoft Access database environment.
 
 
 

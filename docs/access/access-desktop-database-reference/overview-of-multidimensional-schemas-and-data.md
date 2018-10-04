@@ -13,18 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Understanding Multidimensional Schemas  
-Dimensions  
-Hierarchies  
-Levels  
-Members  
-Understanding Multidimensional Schemas  
-Dimensions  
-Hierarchies  
-Levels  
-Members  
-
 ## Understanding Multidimensional Schemas
 
 The central metadata object in ADO MD is the *cube*, which consists of a structured set of related dimensions, hierarchies, levels, and members.

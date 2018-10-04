@@ -13,10 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Return Value  
-Parameters  
 
 These transaction methods manage transaction processing within a [Connection](connection-object-ado.md) object as follows:
 

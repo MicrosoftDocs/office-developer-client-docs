@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Apply a Custom Ribbon to a Form or Report'
-TOCTitle: 'How to: Apply a Custom Ribbon to a Form or Report'
+title: Apply a custom ribbon to a form or report
+TOCTitle: Apply a custom ribbon to a form or report
 ms:assetid: 7dcdfa42-3eaa-43f9-b99d-56b2cac97f84
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196428(v=office.15)
 ms:contentKeyID: 48545865
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# How to: Apply a Custom Ribbon to a Form or Report
+# Apply a custom ribbon to a form or report
 
 
 **Applies to**: Access 2013 | Office 2013
@@ -73,12 +73,9 @@ After the procedure is complete, you then create an AutoExec macro that calls th
 
 
 > [!NOTE]
-> <P>The tabs displayed in the ribbon UI are additive. That is, unless you specifically hide the tabs or set the <EM>Start from Scratch</EM> attribute to <STRONG>True</STRONG>, the tabs displayed in a form's or report's ribbon user interface are in addition to the existing tabs.</P>
-
-
-
+> The tabs displayed in the ribbon UI are additive. That is, unless you specifically hide the tabs or set the *Start from Scratch* attribute to **True**, the tabs displayed in a form's or report's ribbon user interface are in addition to the existing tabs.
 
 > [!NOTE]
-> <P>For more information about the ribbon UI in other Office applications, see <A href="https://msdn.microsoft.com/library/ff862537(v=office.15)">Overview of the Office Fluent Ribbon</A>.</P>
+> For more information about the ribbon UI in other Office applications, see [Overview of the Office Fluent Ribbon](https://docs.microsoft.com/office/vba/Library-Reference/Concepts/overview-of-the-office-fluent-ribbon).
 
 

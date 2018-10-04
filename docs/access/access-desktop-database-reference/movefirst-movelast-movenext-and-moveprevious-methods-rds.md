@@ -13,11 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Parameters  
-Remarks  
-
 Moves to the first, last, next, or previous record in a specified [Recordset](recordset-object-ado.md) object.
 
 ## Syntax

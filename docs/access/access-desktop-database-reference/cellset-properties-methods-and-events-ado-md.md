@@ -13,32 +13,27 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Properties/Collections  
-Methods  
-Events  
-
 ## Properties/Collections
 
-[ActiveConnection Property](activeconnection-property-ado-md.md)
+- [ActiveConnection Property](activeconnection-property-ado-md.md)
 
-[Axes Collection](axes-collection-ado-md.md)
+- [Axes Collection](axes-collection-ado-md.md)
 
-[FilterAxis Property](filteraxis-property-ado-md.md)
+- [FilterAxis Property](filteraxis-property-ado-md.md)
 
-[Item Property (Cellset)](item-property-ado-md-cellset.md)
+- [Item Property (Cellset)](item-property-ado-md-cellset.md)
 
-[Properties Collection](properties-collection-ado.md)
+- [Properties Collection](properties-collection-ado.md)
 
-[Source Property](source-property-ado-md.md)
+- [Source Property](source-property-ado-md.md)
 
-[State Property](state-property-ado-md.md)
+- [State Property](state-property-ado-md.md)
 
 ## Methods
 
-[Close Method](close-method-ado-md.md)
+- [Close Method](close-method-ado-md.md)
 
-[Open Method](open-method-ado-md.md)
+- [Open Method](open-method-ado-md.md)
 
 ## Events
 

@@ -13,20 +13,16 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Properties  
-Methods  
-Events  
 
 ## Properties
 
-[Command Property](command-property-adox.md)
+- [Command Property](command-property-adox.md)
 
-[DateCreated Property](datecreated-property-adox.md)
+- [DateCreated Property](datecreated-property-adox.md)
 
-[DateModified Property](datemodified-property-adox.md)
+- [DateModified Property](datemodified-property-adox.md)
 
-[Name Property](name-property-adox.md)
+- [Name Property](name-property-adox.md)
 
 ## Methods
 

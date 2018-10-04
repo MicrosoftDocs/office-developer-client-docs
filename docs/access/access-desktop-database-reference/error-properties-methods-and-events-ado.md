@@ -13,24 +13,20 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Properties  
-Methods  
-Events  
 
 ## Properties
 
-[Description Property](description-property-ado.md)
+- [Description Property](description-property-ado.md)
 
-[HelpContext, HelpFile Properties](helpcontext-helpfile-properties-ado.md)
+- [HelpContext, HelpFile Properties](helpcontext-helpfile-properties-ado.md)
 
-[NativeError Property](nativeerror-property-ado.md)
+- [NativeError Property](nativeerror-property-ado.md)
 
-[Number Property](number-property-ado.md)
+- [Number Property](number-property-ado.md)
 
-[Source Property (ADO Error)](source-property-ado-error.md)
+- [Source Property (ADO Error)](source-property-ado-error.md)
 
-[SQLState Property](sqlstate-property-ado.md)
+- [SQLState Property](sqlstate-property-ado.md)
 
 ## Methods
 

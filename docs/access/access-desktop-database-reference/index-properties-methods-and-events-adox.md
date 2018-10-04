@@ -13,26 +13,21 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Properties/Collections  
-Methods  
-Events  
-
 ## Properties/Collections
 
-[Clustered Property](clustered-property-adox.md)
+- [Clustered Property](clustered-property-adox.md)
 
-[Columns Collection](columns-collection-adox.md)
+- [Columns Collection](columns-collection-adox.md)
 
-[IndexNulls Property](indexnulls-property-adox.md)
+- [IndexNulls Property](indexnulls-property-adox.md)
 
-[Name Property](name-property-adox.md)
+- [Name Property](name-property-adox.md)
 
-[PrimaryKey Property](primarykey-property-adox.md)
+- [PrimaryKey Property](primarykey-property-adox.md)
 
-[Properties Collection](properties-collection-ado.md)
+- [Properties Collection](properties-collection-ado.md)
 
-[Unique Property](unique-property-adox.md)
+- [Unique Property](unique-property-adox.md)
 
 ## Methods
 

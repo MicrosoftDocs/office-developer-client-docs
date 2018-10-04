@@ -17,10 +17,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Attributes Property  
-Settings and Return Values  
-Remarks  
 
 ## Attributes Property
 

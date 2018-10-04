@@ -13,12 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Find Button  
-Building the SQL Query  
-Preparing and Sending the Query  
-Update Profile Button  
-Cancel Changes Button  
 
 The Address Book application includes the following command buttons:
 

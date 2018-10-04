@@ -13,20 +13,16 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Properties/Collections  
-Methods  
-Events  
 
 ## Properties/Collections
 
-[DimensionCount Property](dimensioncount-property-ado-md.md)
+- [DimensionCount Property](dimensioncount-property-ado-md.md)
 
-[Name Property](name-property-ado-md.md)
+- [Name Property](name-property-ado-md.md)
 
-[Positions Collection](positions-collection-ado-md.md)
+- [Positions Collection](positions-collection-ado-md.md)
 
-[Properties Collection](properties-collection-ado.md)
+- [Properties Collection](properties-collection-ado.md)
 
 ## Methods
 

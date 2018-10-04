@@ -13,10 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Parameters  
-Remarks  
 
 Creates a new [View](view-object-adox.md) object and appends it to the [Views](views-collection-adox.md) collection.
 

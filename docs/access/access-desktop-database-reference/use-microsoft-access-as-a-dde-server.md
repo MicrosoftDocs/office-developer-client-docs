@@ -1,5 +1,5 @@
 ﻿---
-title: Use Microsoft Access as a DDE Server
+title: Use Microsoft Access as a DDE server
 TOCTitle: Use Microsoft Access as a DDE Server
 ms:assetid: a3e82bf7-94b5-8eec-86bc-2d5387d66738
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821067(v=office.15)
@@ -12,23 +12,14 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Use Microsoft Access as a DDE Server
+# Use Microsoft Access as a DDE server
 
-
-**Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-The System Topic  
-The  
-The TABLE  
+**Applies to**: Access 2013 | Office 2013 
 
 Microsoft Access supports dynamic data exchange (DDE) as either a destination (client) application or a source (server) application. For example, an application such as Microsoft Word, acting as a client, can request data through DDE from a Microsoft Access database that's acting as a server.
 
-
 > [!TIP]
-> <P>If you need to manipulate Microsoft Access objects from another application, you may want to consider using Automation.</P>
-
-
+> If you need to manipulate Microsoft Access objects from another application, you may want to consider using Automation.
 
 A DDE conversation between a client and server is established on a particular topic. A topic can be either a data file in the format supported by the server application, or it can be the System topic, which supplies information about the server application itself. Once a conversation has begun on a particular topic, only a data item associated with that topic can be transferred.
 
@@ -70,6 +61,7 @@ The client application can use the **DDERequest** function to request text data 
 
 The following example demonstrates how to create a Microsoft Word procedure with Visual Basic that uses Microsoft Access as a DDE server. (For this example to work, Microsoft Access must be running.)
 
+```vb
     Sub AccessDDE() 
         Dim intChan1 As Integer, intChan2 As Integer 
         Dim strQueryData As String 
@@ -94,10 +86,11 @@ The following example demonstrates how to create a Microsoft Word procedure with
         ' Print retrieved data to Debug Window. 
         Debug.Print strQueryData 
     End Sub
+```
 
 The following sections provide information about the valid DDE topics supported by Microsoft Access.
 
-## The System Topic
+## The System topic
 
 The System topic is a standard topic for all Microsoft Windows–based applications. It supplies information about the other topics supported by the application. To access this information, your code must first call the **DDEInitiate** function with as the *topic* argument, and then execute the **DDERequest** statement with one of the following supplied for the *item* argument.
 
@@ -135,6 +128,7 @@ The System topic is a standard topic for all Microsoft Windows–based applicati
 
 The following example demonstrates the use of the **DDEInitiate** and **DDERequest** functions with the System topic:
 
+```vb
     ' In Visual Basic, initiate DDE conversation with Microsoft Access. 
     Dim intChan1 As Integer, strResults As String 
     intChan1 = DDEInitiate("MSAccess", "System") 
@@ -144,8 +138,9 @@ The following example demonstrates the use of the **DDEInitiate** and **DDEReque
     ' You may need to change this path to point to actual location 
     ' of Northwind sample database. 
     DDEExecute intChan1, "[OpenDatabase C:\Access\Samples\Northwind.mdb]"
+```
 
-## The
+## The database topic
 
 The *database* topic is the file name of an existing database. You can type either just the base name (Northwind), or its path and .mdb extension (C:\\Access\\Samples\\Northwind.mdb). After you start a DDE conversation with the database, you can request a list of the objects in that database.
 
@@ -211,6 +206,7 @@ The *database* topic supports the following items.
 
 The following example shows how you can open the Employees form in the Northwind sample database from a Visual Basic procedure:
 
+```vb
     ' In Visual Basic, initiate DDE conversation with 
     ' Northwind sample database. 
     ' Make sure database is open. 
@@ -219,16 +215,19 @@ The following example shows how you can open the Employees form in the Northwind
     strResponse = DDERequest(intChan2, "FormList") 
     ' Run OpenForm action and arguments to open Employees form. 
     DDEExecute intChan2, "[OpenForm Employees,0,,,1,0]"
+```
 
-## The TABLE
+## The TABLE topic
 
 These topics use the following syntax:
 
-*databasename***; TABLE***tablename*
+_databasename_ ; **TABLE** _tablename_
 
-*databasename***; QUERY***queryname*
+_databasename_ ; **QUERY** _queryname_
 
-*databasename***; SQL \[***sqlstring***\]**
+_databasename_ ; **SQL** [ _sqlstring_ ]
+
+<br/>
 
 <table>
 <colgroup>
@@ -258,13 +257,10 @@ These topics use the following syntax:
 <td><p><em>sqlstring</em></p></td>
 <td><p>A valid SQL statement up to 256 characters long, ending with a semicolon. To exchange more than 256 characters, omit this argument and instead use successive <strong>DDEPoke</strong> statements to build an SQL statement. For example, the following Visual Basic code uses the <strong>DDEPoke</strong> statement to build an SQL statement and then request the results of the query.</p></td>
 </tr>
-<tr class="odd">
-<td><p></p></td>
-<td><p></p></td>
-</tr>
 </tbody>
 </table>
 
+<br/>
 
 The following table lists the valid items for the TABLE *tablename*, QUERY *queryname*, and SQL *sqlstring* topics.
 
@@ -302,7 +298,7 @@ The following table lists the valid items for the TABLE *tablename*, QUERY *quer
 </tr>
 <tr class="even">
 <td><p></p></td>
-<td><p>Value</p></td>
+<td><p><b>Value</b></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
@@ -378,7 +374,7 @@ The following table lists the valid items for the TABLE *tablename*, QUERY *quer
 </tr>
 <tr class="odd">
 <td><p>SQLText</p></td>
-<td><p>An SQL statement representing the table or query. For tables, this item returns an SQL statement in the form &quot;SELECT * FROM <em>table</em>;&quot;.</p></td>
+<td><p>An SQL statement representing the table or query. For tables, this item returns an SQL statement in the form &quot;SELECT `*` FROM <em>table</em>;&quot;.</p></td>
 </tr>
 <tr class="even">
 <td><p>SQLText;<em>n</em></p></td>
@@ -390,6 +386,7 @@ The following table lists the valid items for the TABLE *tablename*, QUERY *quer
 
 The following example shows how you can use DDE in a Visual Basic procedure to request data from a table in the Northwind sample database and insert that data into a text file:
 
+```vb
     Sub NorthwindDDE 
         Dim intChan1 As Integer, intChan2 As Integer, intChan3 As Integer 
         Dim strResp1 As Variant, strResp2 As Variant, strResp3 As Variant 
@@ -417,4 +414,4 @@ The following example shows how you can use DDE in a Visual Basic procedure to r
         Print #1, strResp3 
         Close #1 
     End Sub
-
+```

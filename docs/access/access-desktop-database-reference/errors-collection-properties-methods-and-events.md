@@ -13,22 +13,18 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Properties  
-Methods  
-Events  
 
 ## Properties
 
-[Count Property](count-property-ado.md)
+- [Count Property](count-property-ado.md)
 
-[Item Property](item-property-ado.md)
+- [Item Property](item-property-ado.md)
 
 ## Methods
 
-[Clear Method](clear-method-ado.md)
+- [Clear Method](clear-method-ado.md)
 
-[Refresh Method](refresh-method-ado.md)
+- [Refresh Method](refresh-method-ado.md)
 
 ## Events
 

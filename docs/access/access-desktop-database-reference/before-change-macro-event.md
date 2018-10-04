@@ -19,10 +19,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Remarks  
-Example  
-About the Contributors  
 
 The **Before Change** event occurs when a record changes, but before the change is committed.
 

@@ -10,25 +10,19 @@ mtps_version: v=office.15
 
 # Cell Properties, Methods, and Events (ADO MD)
 
-
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Properties/Collections  
-Methods  
-Events  
 
 ## Properties/Collections
 
-[FormattedValue Property](formattedvalue-property-ado-md.md)
+- [FormattedValue Property](formattedvalue-property-ado-md.md)
 
-[Ordinal Property (Cell)](ordinal-property-ado-md-cell.md)
+- [Ordinal Property (Cell)](ordinal-property-ado-md-cell.md)
 
-[Positions Collection](positions-collection-ado-md.md)
+- [Positions Collection](positions-collection-ado-md.md)
 
-[Properties Collection](properties-collection-ado.md)
+- [Properties Collection](properties-collection-ado.md)
 
-[Value Property](value-property-ado-md.md)
+- [Value Property](value-property-ado-md.md)
 
 ## Methods
 

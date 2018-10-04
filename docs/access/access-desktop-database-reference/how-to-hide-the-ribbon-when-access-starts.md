@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Hide the Ribbon When Access Starts'
-TOCTitle: 'How to: Hide the Ribbon When Access Starts'
+title: Hide the ribbon when Access starts
+TOCTitle: Hide the ribbon when Access starts
 ms:assetid: f98bab58-8094-1c56-f70b-ced2e7849574
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837012(v=office.15)
 ms:contentKeyID: 48548817
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# How to: Hide the Ribbon When Access Starts
+# Hide the ribbon when Access starts
 
 **Applies to:** Access 2013 | Office 2013
 
@@ -86,8 +86,7 @@ To apply a custom ribbon so that it is available when the application starts, us
 
 5.  Close and then restart the application.
 
-
 > [!NOTE]
-> For more information about the ribbon UI in other Office applications, see [Overview of the Office Fluent Ribbon](https://msdn.microsoft.com/library/ff862537(v=office.15)).
+> For more information about the ribbon UI in other Office applications, see [Overview of the Office Fluent Ribbon](https://docs.microsoft.com/office/vba/Library-Reference/Concepts/overview-of-the-office-fluent-ribbon).
 
 

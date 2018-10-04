@@ -11,13 +11,7 @@ mtps_version: v=office.15
 # VBScript ADO Programming
 
 
-**Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Creating an ADO Project  
-Creating ADO Objects in VBScript  
-VBScript Examples  
-Differences Between VBScript and Visual Basic  
+**Applies to**: Access 2013 | Office 2013 
 
 ## Creating an ADO Project
 

@@ -10,35 +10,29 @@ mtps_version: v=office.15
 
 # Catalog Properties, Methods, and Events (ADOX)
 
-
-**Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Properties/Collections  
-Methods  
-Events  
+**Applies to**: Access 2013 | Office 2013 
 
 ## Properties/Collections
 
-[ActiveConnection Property](activeconnection-property-adox.md)
+- [ActiveConnection Property](activeconnection-property-adox.md)
 
-[Groups Collection](groups-collection-adox.md)
+- [Groups Collection](groups-collection-adox.md)
 
-[Procedures Collection](procedures-collection-adox.md)
+- [Procedures Collection](procedures-collection-adox.md)
 
-[Tables Collection](tables-collection-adox.md)
+- [Tables Collection](tables-collection-adox.md)
 
-[Users Collection](users-collection-adox.md)
+- [Users Collection](users-collection-adox.md)
 
-[Views Collection](views-collection-adox.md)
+- [Views Collection](views-collection-adox.md)
 
 ## Methods
 
-[Create Method](create-method-adox.md)
+- [Create Method](create-method-adox.md)
 
-[GetObjectOwner Method](getobjectowner-method-adox.md)
+- [GetObjectOwner Method](getobjectowner-method-adox.md)
 
-[SetObjectOwner Method](https://msdn.microsoft.com/library/jj249006\(v=office.15\))
+- [SetObjectOwner Method](https://msdn.microsoft.com/library/jj249006\(v=office.15\))
 
 ## Events
 

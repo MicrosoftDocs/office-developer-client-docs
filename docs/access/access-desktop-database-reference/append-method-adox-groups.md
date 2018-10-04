@@ -13,10 +13,7 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Parameters  
-Remarks  
+
 
 Adds a new [Group](group-object-adox.md) object to the [Groups](groups-collection-adox.md) collection.
 

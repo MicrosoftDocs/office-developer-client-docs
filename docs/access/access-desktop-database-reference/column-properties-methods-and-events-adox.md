@@ -10,35 +10,30 @@ mtps_version: v=office.15
 
 # Column Properties, Methods, and Events (ADOX)
 
-
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Properties/Collections  
-Methods  
-Events  
 
 ## Properties/Collections
 
-[Attributes Property](attributes-property-adox.md)
+- [Attributes Property](attributes-property-adox.md)
 
-[DefinedSize Property](definedsize-property-adox.md)
+- [DefinedSize Property](definedsize-property-adox.md)
 
-[Name Property](name-property-adox.md)
+- [Name Property](name-property-adox.md)
 
-[NumericScale Property](numericscale-property-adox.md)
+- [NumericScale Property](numericscale-property-adox.md)
 
-[ParentCatalog Property](parentcatalog-property-adox.md)
+- [ParentCatalog Property](parentcatalog-property-adox.md)
 
-[Precision Property](precision-property-adox.md)
+- [Precision Property](precision-property-adox.md)
 
-[Properties Collection](properties-collection-ado.md)
+- [Properties Collection](properties-collection-ado.md)
 
-[RelatedColumn Property](relatedcolumn-property-adox.md)
+- [RelatedColumn Property](relatedcolumn-property-adox.md)
 
-[SortOrder Property](sortorder-property-adox.md)
+- [SortOrder Property](sortorder-property-adox.md)
 
-[Type Property (Column)](https://msdn.microsoft.com/library/jj249169\(v=office.15\))
+- [Type Property (Column)](https://msdn.microsoft.com/library/jj249169\(v=office.15\))
 
 ## Methods
 

@@ -11,14 +11,7 @@ mtps_version: v=office.15
 # Absolute and Relative URLs
 
 
-**Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-URL Scheme Registration  
-Defining Context with a URL  
-Scoped Operations  
-Relative URLs as Command Text  
-OLE DB Provider-Supplied URL Schemes  
+**Applies to**: Access 2013 | Office 2013 
 
 A URL specifies the location of a target stored on a local or networked computer, such as a file, directory, HTML page, image, program, and so on*.* In this discussion, an *absolute URL* is of the form:
 

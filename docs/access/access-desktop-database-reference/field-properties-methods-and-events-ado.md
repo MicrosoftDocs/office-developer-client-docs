@@ -13,42 +13,37 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Properties/Collections  
-Methods  
-Events  
-
 ## Properties/Collections
 
-[ActualSize Property](actualsize-property-ado.md)
+- [ActualSize Property](actualsize-property-ado.md)
 
-[Attributes Property](attributes-property-ado.md)
+- [Attributes Property](attributes-property-ado.md)
 
-[DefinedSize Property](definedsize-property-ado.md)
+- [DefinedSize Property](definedsize-property-ado.md)
 
-[Name Property](name-property-ado.md)
+- [Name Property](name-property-ado.md)
 
-[NumericScale Property](numericscale-property-ado.md)
+- [NumericScale Property](numericscale-property-ado.md)
 
-[OriginalValue Property](originalvalue-property-ado.md)
+- [OriginalValue Property](originalvalue-property-ado.md)
 
-[Precision Property](precision-property-ado.md)
+- [Precision Property](precision-property-ado.md)
 
-[Properties Collection](properties-collection-ado.md)
+- [Properties Collection](properties-collection-ado.md)
 
-[Status Property (ADO Field)](status-property-ado-field.md)
+- [Status Property (ADO Field)](status-property-ado-field.md)
 
-[Type Property](type-property-ado.md)
+- [Type Property](type-property-ado.md)
 
-[UnderlyingValue Property](underlyingvalue-property-ado.md)
+- [UnderlyingValue Property](underlyingvalue-property-ado.md)
 
-[Value Property](value-property-ado.md)
+- [Value Property](value-property-ado.md)
 
 ## Methods
 
-[AppendChunk Method](appendchunk-method-ado.md)
+- [AppendChunk Method](appendchunk-method-ado.md)
 
-[GetChunk Method](getchunk-method-ado.md)
+- [GetChunk Method](getchunk-method-ado.md)
 
 ## Events
 

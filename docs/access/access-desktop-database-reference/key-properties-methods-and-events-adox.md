@@ -11,26 +11,21 @@ mtps_version: v=office.15
 # Key Properties, Methods, and Events (ADOX)
 
 
-**Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Properties/Collections  
-Methods  
-Events  
+**Applies to**: Access 2013 | Office 2013 
 
 ## Properties/Collections
 
-[Columns Collection](columns-collection-adox.md)
+- [Columns Collection](columns-collection-adox.md)
 
-[DeleteRule Property](deleterule-property-adox.md)
+- [DeleteRule Property](deleterule-property-adox.md)
 
-[Name Property](name-property-adox.md)
+- [Name Property](name-property-adox.md)
 
-[RelatedTable Property](relatedtable-property-adox.md)
+- [RelatedTable Property](relatedtable-property-adox.md)
 
-[Type Property (Key)](https://msdn.microsoft.com/library/jj248879\(v=office.15\))
+- [Type Property (Key)](https://msdn.microsoft.com/library/jj248879\(v=office.15\))
 
-[UpdateRule Property](updaterule-property-adox.md)
+- [UpdateRule Property](updaterule-property-adox.md)
 
 ## Methods
 

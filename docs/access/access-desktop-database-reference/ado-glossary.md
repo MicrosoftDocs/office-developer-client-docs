@@ -10,25 +10,7 @@ mtps_version: v=office.15
 
 # ADO Glossary
 
-
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-  
-A  
-B  
-C  
-D  
-E-I  
-K-M  
-N-O  
-P  
-R  
-S  
-T-W  
-
-
-ABCDE-IK-MN-OPRST-W
 
 ## A
 

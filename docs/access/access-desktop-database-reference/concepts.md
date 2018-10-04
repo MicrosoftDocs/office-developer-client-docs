@@ -20,6 +20,7 @@ If you are viewing the content on docs.microsoft.com, you can use the table of c
 - [Conversion](conversion.md)
 - [Ribbon](ribbon.md)
 - [Working with other applications](working-with-other-applications-access.md)
+- [Set form, report, and control properties](set-form-report-and-control-properties.md)
 
 ## See also
 

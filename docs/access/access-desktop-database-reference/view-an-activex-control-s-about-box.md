@@ -1,5 +1,5 @@
 ﻿---
-title: View an ActiveX Control's About Box
+title: View an ActiveX Control's Aboutbox
 TOCTitle: View an ActiveX Control's About Box
 ms:assetid: 72a855b4-dd1a-a531-6402-0321335d3bf5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195825(v=office.15)
@@ -12,8 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# View an ActiveX Control's About Box
-
+# View an ActiveX Control's About box
 
 **Applies to**: Access 2013 | Office 2013
 

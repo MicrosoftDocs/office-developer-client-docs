@@ -1,6 +1,6 @@
 ﻿---
-title: 'How to: Apply a Custom Ribbon When Starting Access'
-TOCTitle: 'How to: Apply a Custom Ribbon When Starting Access'
+title: Apply a custom ribbon when starting Access
+TOCTitle: Apply a custom ribbon when starting Access
 ms:assetid: 9e8ddf95-35aa-4e57-8422-d770da14711e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198313(v=office.15)
 ms:contentKeyID: 48546659
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# How to: Apply a Custom Ribbon When Starting Access
+# Apply a custom ribbon when starting Access
 
 **Applies to:** Access 2013 | Office 2013
 
@@ -72,8 +72,7 @@ To apply a custom UI so that it is available when the application starts, use th
 
 5.  Now close and restart the application. The UI you selected is displayed.
 
-
 > [!NOTE]
-> For more information about the ribbon UI in other Office applications, see [Overview of the Office Fluent Ribbon](https://msdn.microsoft.com/library/ff862537(v=office.15)).
+> For more information about the ribbon UI in other Office applications, see [Overview of the Office Fluent Ribbon](https://docs.microsoft.com/office/vba/Library-Reference/Concepts/overview-of-the-office-fluent-ribbon).
 
 
