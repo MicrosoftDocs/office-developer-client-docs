@@ -2,7 +2,7 @@
 title: Connection Properties (DAO)
 TOCTitle: Properties
 ms:assetid: 599272da-bdce-408f-9e79-700a8d084cde
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn124934(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn124934(v=office.15)
 ms:contentKeyID: 52072554
 ms.date: 09/18/2015
 mtps_version: v=office.15

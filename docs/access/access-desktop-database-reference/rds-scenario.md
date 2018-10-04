@@ -2,7 +2,7 @@
 title: RDS Scenario
 TOCTitle: RDS Scenario
 ms:assetid: 61b4b047-4a8f-491c-868e-08aa87d81dff
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249361(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249361(v=office.15)
 ms:contentKeyID: 48545218
 ms.date: 09/18/2015
 mtps_version: v=office.15

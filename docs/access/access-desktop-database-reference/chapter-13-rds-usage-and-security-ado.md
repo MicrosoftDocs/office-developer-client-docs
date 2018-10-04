@@ -2,7 +2,7 @@
 title: 'Chapter 13: RDS Usage and Security (ADO)'
 TOCTitle: 'Chapter 13: RDS Usage and Security'
 ms:assetid: 8baf666e-1f36-4735-8434-98d8c496a460
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249615(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249615(v=office.15)
 ms:contentKeyID: 48546224
 ms.date: 09/18/2015
 mtps_version: v=office.15

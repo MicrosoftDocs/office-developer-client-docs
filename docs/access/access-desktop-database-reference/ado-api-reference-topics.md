@@ -2,7 +2,7 @@
 title: ADO API Reference Topics
 TOCTitle: ADO API reference
 ms:assetid: c6191aa9-d8e9-4764-acb0-ae56ca759a8b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249967(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249967(v=office.15)
 ms:contentKeyID: 48547622
 ms.date: 09/18/2015
 mtps_version: v=office.15

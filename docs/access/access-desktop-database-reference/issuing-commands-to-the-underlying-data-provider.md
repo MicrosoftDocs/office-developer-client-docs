@@ -2,7 +2,7 @@
 title: Issuing Commands to the Underlying Data Provider
 TOCTitle: Issuing Commands to the Underlying Data Provider
 ms:assetid: 9d8ef3f3-d93c-af67-3114-d2c36c78a802
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249716(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249716(v=office.15)
 ms:contentKeyID: 48546626
 ms.date: 09/18/2015
 mtps_version: v=office.15

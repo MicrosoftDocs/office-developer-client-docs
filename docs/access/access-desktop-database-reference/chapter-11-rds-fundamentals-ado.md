@@ -2,7 +2,7 @@
 title: 'Chapter 11: RDS Fundamentals (ADO)'
 TOCTitle: 'Chapter 11: RDS Fundamentals'
 ms:assetid: 18c805d9-d7e0-4f70-93fa-e1ba700c3fed
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248936(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248936(v=office.15)
 ms:contentKeyID: 48543480
 ms.date: 09/18/2015
 mtps_version: v=office.15

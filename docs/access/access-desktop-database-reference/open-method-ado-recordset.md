@@ -2,7 +2,7 @@
 title: Open Method (ADO Recordset)
 TOCTitle: Open Method (ADO Recordset)
 ms:assetid: 87ef19a4-28e1-dec7-ed33-4ae500b9c460
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249591(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249591(v=office.15)
 ms:contentKeyID: 48546119
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -60,9 +60,9 @@ The default cursor for an ADO **Recordset** is a forward-only, read-only cursor 
 
 Using the **Open** method on a **Recordset** object opens a cursor that represents records from a base table, the results of a query, or a previously saved **Recordset**.
 
-Use the optional *Source* argument to specify a data source using one of the following: a **Command** object variable, an SQL statement, a stored procedure, a table name, a URL, or a complete file path name. If *Source* is a file path name, it can be a full path ("c:\\dir\\file.rst"), a relative path ("..\\file.rst"), or a URL ("http://files/file.rst").
+Use the optional *Source* argument to specify a data source using one of the following: a **Command** object variable, an SQL statement, a stored procedure, a table name, a URL, or a complete file path name. If *Source* is a file path name, it can be a full path ("c:\\dir\\file.rst"), a relative path ("..\\file.rst"), or a URL ("https://files/file.rst").
 
-It is not a good idea to use the *Source* argument of the **Open** method to perform an action query that doesnt return records because there is no easy way to determine whether the call succeeded. The **Recordset** returned by such a query will be closed. Call the [Execute](https://msdn.microsoft.com/en-us/library/jj248785\(v=office.15\)) method of a **Command** object or the [Execute](https://msdn.microsoft.com/en-us/library/jj249832\(v=office.15\)) method of a **Connection** object instead to perform a query that, such as a SQL INSERT statement, that doesnt return records.
+It is not a good idea to use the *Source* argument of the **Open** method to perform an action query that doesnt return records because there is no easy way to determine whether the call succeeded. The **Recordset** returned by such a query will be closed. Call the [Execute](https://msdn.microsoft.com/library/jj248785\(v=office.15\)) method of a **Command** object or the [Execute](https://msdn.microsoft.com/library/jj249832\(v=office.15\)) method of a **Connection** object instead to perform a query that, such as a SQL INSERT statement, that doesnt return records.
 
 The *ActiveConnection* argument corresponds to the [ActiveConnection](activeconnection-property-ado.md) property and specifies in which connection to open the **Recordset** object. If you pass a connection definition for this argument, ADO opens a new connection using the specified parameters. After opening the **Recordset** with a client-side cursor (**CursorLocation** = **adUseClient**), you can change the value of this property to send updates to another provider. Or you can set this property to **Nothing** (in Microsoft Visual Basic) or NULL to disconnect the **Recordset** from any provider. Changing **ActiveConnection** for a server-side cursor generates an error, however.
 

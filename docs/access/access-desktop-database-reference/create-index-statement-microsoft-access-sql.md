@@ -2,7 +2,7 @@
 title: CREATE INDEX Statement (Microsoft Access SQL)
 TOCTitle: CREATE INDEX Statement (Microsoft Access SQL)
 ms:assetid: c5919ef4-a08d-df06-7078-5331adbcb45c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff823109(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff823109(v=office.15)
 ms:contentKeyID: 48547612
 ms.date: 09/18/2015
 mtps_version: v=office.15

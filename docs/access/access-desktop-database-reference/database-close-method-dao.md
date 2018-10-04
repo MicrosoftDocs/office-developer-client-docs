@@ -2,7 +2,7 @@
 title: Database.Close Method (DAO)
 TOCTitle: Close Method
 ms:assetid: b777ee92-172a-3342-31fc-76e7361c47fd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff822418(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff822418(v=office.15)
 ms:contentKeyID: 48547296
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Command Object (ADO)
 TOCTitle: Command Object (ADO)
 ms:assetid: 64f4ef03-f858-c004-b891-0c96d13a5e6e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249389(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249389(v=office.15)
 ms:contentKeyID: 48545303
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -29,7 +29,7 @@ With the collections, methods, and properties of a **Command** object, you can d
 
   - Define parameterized queries or stored-procedure arguments with [Parameter](parameter-object-ado.md) objects and the [Parameters](parameters-collection-ado.md) collection.
 
-  - Execute a command and return a **Recordset** object if appropriate with the [Execute](https://msdn.microsoft.com/en-us/library/jj248785\(v=office.15\)) method.
+  - Execute a command and return a **Recordset** object if appropriate with the [Execute](https://msdn.microsoft.com/library/jj248785\(v=office.15\)) method.
 
   - Specify the type of command with the [CommandType](commandtype-property-ado.md) property prior to execution to optimize performance.
 
@@ -47,7 +47,7 @@ With the collections, methods, and properties of a **Command** object, you can d
 
 
 > [!NOTE]
-> <P>To execute a query without using a <STRONG>Command</STRONG> object, pass a query string to the <A href="https://msdn.microsoft.com/en-us/library/jj249832(v=office.15)">Execute</A> method of a <STRONG>Connection</STRONG> object or to the <A href="open-method-ado-recordset.md">Open</A> method of a <STRONG>Recordset</STRONG> object. However, a <STRONG>Command</STRONG> object is required when you want to persist the command text and re-execute it, or use query parameters.</P>
+> <P>To execute a query without using a <STRONG>Command</STRONG> object, pass a query string to the <A href="https://msdn.microsoft.com/library/jj249832(v=office.15)">Execute</A> method of a <STRONG>Connection</STRONG> object or to the <A href="open-method-ado-recordset.md">Open</A> method of a <STRONG>Recordset</STRONG> object. However, a <STRONG>Command</STRONG> object is required when you want to persist the command text and re-execute it, or use query parameters.</P>
 
 
 

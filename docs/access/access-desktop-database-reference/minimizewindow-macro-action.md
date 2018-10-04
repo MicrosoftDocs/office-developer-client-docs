@@ -2,7 +2,7 @@
 title: MinimizeWindow Macro Action
 TOCTitle: MinimizeWindow Macro Action
 ms:assetid: 3a92b654-15ce-1ed1-63e0-eed927dbe26c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff192648(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff192648(v=office.15)
 ms:contentKeyID: 48544265
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Procedures Collection (ADOX)
 TOCTitle: Procedures Collection (ADOX)
 ms:assetid: e1ca53ad-1213-b514-e015-e18c2ab15e23
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250150(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250150(v=office.15)
 ms:contentKeyID: 48548267
 ms.date: 09/18/2015
 mtps_version: v=office.15

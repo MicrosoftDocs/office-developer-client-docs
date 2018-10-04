@@ -2,7 +2,7 @@
 title: User Object (ADOX) Reference
 TOCTitle: User Object (ADOX)
 ms:assetid: 1e3090b2-443b-41df-a67a-f2c1452c48f3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248974(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248974(v=office.15)
 ms:contentKeyID: 48543617
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Using the Connection Object (Access)
 TOCTitle: Using the Connection Object
 ms:assetid: e8786411-2be4-8d75-9df7-e345d5a6a7e8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250177(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250177(v=office.15)
 ms:contentKeyID: 48548423
 ms.date: 09/18/2015
 mtps_version: v=office.15

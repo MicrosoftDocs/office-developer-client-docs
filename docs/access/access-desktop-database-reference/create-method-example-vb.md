@@ -2,7 +2,7 @@
 title: Create Method Example (VB)
 TOCTitle: Create Method Example (VB)
 ms:assetid: 3e6a4f3d-3b25-2dfb-5ef3-6a4c5326b78f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249171(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249171(v=office.15)
 ms:contentKeyID: 48544372
 ms.date: 09/18/2015
 mtps_version: v=office.15

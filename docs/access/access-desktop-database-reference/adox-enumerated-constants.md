@@ -2,7 +2,7 @@
 title: ADOX Enumerated Constants
 TOCTitle: ADOX Enumerated Constants
 ms:assetid: 0ad716a0-8801-50cb-024a-85c308c65c78
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248840(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248840(v=office.15)
 ms:contentKeyID: 48543163
 ms.date: 09/18/2015
 mtps_version: v=office.15

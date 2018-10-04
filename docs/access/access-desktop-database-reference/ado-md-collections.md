@@ -2,7 +2,7 @@
 title: ADO MD Collections
 TOCTitle: ADO MD Collections
 ms:assetid: dc7df649-80bb-b517-f084-2bfa780fb2f8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250115(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250115(v=office.15)
 ms:contentKeyID: 48548139
 ms.date: 09/18/2015
 mtps_version: v=office.15

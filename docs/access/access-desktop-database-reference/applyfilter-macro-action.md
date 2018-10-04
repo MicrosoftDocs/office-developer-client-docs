@@ -2,7 +2,7 @@
 title: ApplyFilter Macro Action
 TOCTitle: ApplyFilter Macro Action
 ms:assetid: c63988c4-4506-cc51-98f7-478d1f3fe668
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff823130(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff823130(v=office.15)
 ms:contentKeyID: 48547623
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -95,7 +95,7 @@ When you save a table or form, Access saves any filter currently defined in that
 
 The following example shows how to use the ApplyFilter action to filter the frmFoods form as it is opened.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](http://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html)
+**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html)
 
     OpenForm
         Form Name sfrmFoods

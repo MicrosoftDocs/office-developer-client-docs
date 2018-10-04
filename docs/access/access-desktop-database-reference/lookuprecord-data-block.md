@@ -2,7 +2,7 @@
 title: LookupRecord Data Block
 TOCTitle: LookupRecord Data Block
 ms:assetid: 750dc8ca-3bab-c3d1-c91d-2196f9c0604d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff195882(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff195882(v=office.15)
 ms:contentKeyID: 48545671
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -78,7 +78,7 @@ If the criteria specified by the *In* and *Where Condition* arguments specifies 
 
 The following example shows how to use the SetReturnVar action to return a value from a named data macro. A ReturnVar named **CurrentServiceRequest** is returned to the macro or Visual Basic for Applications (VBA) subroutine that called the named data macro.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](http://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html)
+**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html)
 
     RunDataMacro
         Macro Name tblServiceRequests.dmGetCurrentServiceRequest

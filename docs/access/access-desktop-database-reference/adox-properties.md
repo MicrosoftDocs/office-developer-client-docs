@@ -2,7 +2,7 @@
 title: ADOX Properties
 TOCTitle: ADOX Properties
 ms:assetid: 7559af18-83a4-dc7f-015f-6a7c55c520d8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249480(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249480(v=office.15)
 ms:contentKeyID: 48545675
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -96,15 +96,15 @@ mtps_version: v=office.15
 <td><p>Indicates the sort sequence for the column (index columns only).</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj249169(v=office.15)">Type (Column)</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj249169(v=office.15)">Type (Column)</a></p></td>
 <td><p>Indicates the data type of a column.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj248879(v=office.15)">Type (Key)</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj248879(v=office.15)">Type (Key)</a></p></td>
 <td><p>Indicates the data type of the Key.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj250042(v=office.15)">Type (Table)</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj250042(v=office.15)">Type (Table)</a></p></td>
 <td><p>Indicates the type of a table.</p></td>
 </tr>
 <tr class="odd">

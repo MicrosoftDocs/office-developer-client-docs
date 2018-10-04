@@ -2,7 +2,7 @@
 title: Container Members (DAO)
 TOCTitle: Container Members
 ms:assetid: bdf7aeff-0203-7880-99b4-db5b55e98d33
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff822740(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff822740(v=office.15)
 ms:contentKeyID: 48547451
 ms.date: 09/18/2015
 mtps_version: v=office.15

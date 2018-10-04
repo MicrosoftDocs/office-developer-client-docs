@@ -2,7 +2,7 @@
 title: Container.Name Property (DAO)
 TOCTitle: Name Property
 ms:assetid: c3f9fdc9-beed-a57b-ae95-5612db75b50c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff823054(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff823054(v=office.15)
 ms:contentKeyID: 48547580
 ms.date: 09/18/2015
 mtps_version: v=office.15

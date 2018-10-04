@@ -2,7 +2,7 @@
 title: Relation.PartialReplica Property (DAO)
 TOCTitle: PartialReplica Property
 ms:assetid: 3cb15639-371e-06e3-e2ba-30466ce09a72
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff192692(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff192692(v=office.15)
 ms:contentKeyID: 48544324
 ms.date: 09/18/2015
 mtps_version: v=office.15

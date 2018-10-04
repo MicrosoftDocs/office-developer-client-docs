@@ -2,7 +2,7 @@
 title: ADO Dynamic Property Index
 TOCTitle: ADO Dynamic Property Index
 ms:assetid: 437beced-b97a-894d-b08f-4a322629a5a6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249202(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249202(v=office.15)
 ms:contentKeyID: 48544502
 ms.date: 09/18/2015
 mtps_version: v=office.15

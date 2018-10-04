@@ -2,7 +2,7 @@
 title: StartNewWorkflow Macro Action
 TOCTitle: StartNewWorkflow Macro Action
 ms:assetid: b3e81a11-b816-0eef-fc70-6d6da7a5a845
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff822054(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff822054(v=office.15)
 ms:contentKeyID: 48547206
 ms.date: 09/18/2015
 mtps_version: v=office.15

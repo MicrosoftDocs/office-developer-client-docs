@@ -2,7 +2,7 @@
 title: TableDef.Attributes Property (DAO)
 TOCTitle: Attributes Property
 ms:assetid: d01588c3-e94e-06bd-6568-974873411f2d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff834701(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff834701(v=office.15)
 ms:contentKeyID: 48547828
 ms.date: 09/18/2015
 mtps_version: v=office.15

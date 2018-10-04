@@ -2,7 +2,7 @@
 title: ADO Properties
 TOCTitle: ADO Properties
 ms:assetid: 04f08f22-6327-c603-229e-d06a9f1c0d83
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248809(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248809(v=office.15)
 ms:contentKeyID: 48543020
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -244,7 +244,7 @@ mtps_version: v=office.15
 <td><p>Indicates the maximum size, in bytes or characters, of a <strong>Parameter</strong> object.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj250128(v=office.15)">Size (ADO Stream)</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj250128(v=office.15)">Size (ADO Stream)</a></p></td>
 <td><p>Indicates the total size of the stream in number of bytes.</p></td>
 </tr>
 <tr class="even">

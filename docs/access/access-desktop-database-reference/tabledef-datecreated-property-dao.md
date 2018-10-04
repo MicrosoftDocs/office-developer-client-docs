@@ -2,7 +2,7 @@
 title: TableDef.DateCreated Property (DAO)
 TOCTitle: DateCreated Property
 ms:assetid: fedd28e9-41a4-db7f-9ba9-6ada350d594a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff837292(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff837292(v=office.15)
 ms:contentKeyID: 48548947
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Batch Mode
 TOCTitle: Batch Mode
 ms:assetid: b73921f6-5a12-9b26-ea65-99b32dd763f6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249883(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249883(v=office.15)
 ms:contentKeyID: 48547294
 ms.date: 09/18/2015
 mtps_version: v=office.15

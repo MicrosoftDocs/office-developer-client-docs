@@ -2,7 +2,7 @@
 title: RefreshRecord Macro Action
 TOCTitle: RefreshRecord Macro Action
 ms:assetid: 68c90d7d-f59c-9e83-bc30-8f37cf5a3696
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff195261(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff195261(v=office.15)
 ms:contentKeyID: 48545396
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -32,7 +32,7 @@ The behavior of this macro action depends on whether you are calling it in a cli
 
 ## Client database
 
-In a client database, you can use the **RefreshRecord** action to update the underlying record source for the active form or datasheet to reflect changes made to the data in the current set. Changes include those made by the current user or by other users in a multiuser environment. It is equivalent to the **[Refresh](https://msdn.microsoft.com/en-us/library/ff836021\(v=office.15\))** method.
+In a client database, you can use the **RefreshRecord** action to update the underlying record source for the active form or datasheet to reflect changes made to the data in the current set. Changes include those made by the current user or by other users in a multiuser environment. It is equivalent to the **[Refresh](https://msdn.microsoft.com/library/ff836021\(v=office.15\))** method.
 
 The **RefreshRecord** macro action does the following in a client database:
 

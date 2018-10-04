@@ -2,7 +2,7 @@
 title: Connection.Close Method (DAO)
 TOCTitle: Close Method
 ms:assetid: 9b1a77cb-da12-24d6-892f-a56be103d51d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff198015(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff198015(v=office.15)
 ms:contentKeyID: 48546559
 ms.date: 09/18/2015
 mtps_version: v=office.15

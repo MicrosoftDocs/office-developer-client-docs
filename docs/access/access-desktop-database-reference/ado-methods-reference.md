@@ -2,7 +2,7 @@
 title: ADO Methods Reference
 TOCTitle: ADO Methods
 ms:assetid: 78cc536f-7b96-4494-befe-526bec1e9322
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249497(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249497(v=office.15)
 ms:contentKeyID: 48545759
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: QueryDef.RecordsAffected Property (DAO)
 TOCTitle: RecordsAffected Property
 ms:assetid: 29a864b5-305c-d33f-b2ca-fc9a08baaa5c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff192040(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff192040(v=office.15)
 ms:contentKeyID: 48543886
 ms.date: 09/18/2015
 mtps_version: v=office.15

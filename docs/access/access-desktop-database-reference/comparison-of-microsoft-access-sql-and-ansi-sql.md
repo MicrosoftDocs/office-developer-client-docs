@@ -2,7 +2,7 @@
 title: Comparison of Microsoft Access SQL and ANSI SQL
 TOCTitle: Comparison of Microsoft Access SQL and ANSI SQL
 ms:assetid: 0686f98f-10fe-0e02-e9d1-84ff3e755b57
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff844937(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff844937(v=office.15)
 ms:contentKeyID: 48543052
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -24,13 +24,13 @@ Microsoft Access database engine SQL is generally ANSI-89 Level 1 compliant. How
 
   - Microsoft Access SQL and ANSI SQL each have different reserved words and data types. For more information, see [Microsoft Access Database Engine SQL Reserved Words](sql-reserved-words.md) and [Equivalent ANSI SQL Data Types](equivalent-ansi-sql-data-types.md). Using the Microsoft Access Database Engine OLE DB Provider there are additional reserved words.
 
-  - **[Between…And](https://msdn.microsoft.com/en-us/library/ff192436\(v=office.15\))**
+  - **[Between…And](https://msdn.microsoft.com/library/ff192436\(v=office.15\))**
     
     *expr1* \[NOT\] **Between** *value1* **And** *value2*
     
     In Microsoft Access SQL, *value1* can be greater than *value2*; in ANSI SQL, *value1* must be equal to or less than *value2.*
 
-  - Microsoft Access SQL supports both ANSI SQL wildcard characters and [wildcard characters](using-wildcard-characters-in-string-comparisons.md) that are specific to the Microsoft Access database engine to use with the **[Like](https://msdn.microsoft.com/en-us/library/ff195752\(v=office.15\))** operator. The use of the ANSI and Microsoft Access database engine wildcard characters is mutually exclusive. You must use one set or the other and cannot mix them. The ANSI SQL wildcards are only available when using the Microsoft Access database engine and the Microsoft Access Database Engine OLE DB Provider. If you try to use the ANSI SQL wildcards through Microsoft Access or DAO, then they will be interpreted as literals. The opposite is true when using the Microsoft Access Database Engine OLE DB Provider.
+  - Microsoft Access SQL supports both ANSI SQL wildcard characters and [wildcard characters](using-wildcard-characters-in-string-comparisons.md) that are specific to the Microsoft Access database engine to use with the **[Like](https://msdn.microsoft.com/library/ff195752\(v=office.15\))** operator. The use of the ANSI and Microsoft Access database engine wildcard characters is mutually exclusive. You must use one set or the other and cannot mix them. The ANSI SQL wildcards are only available when using the Microsoft Access database engine and the Microsoft Access Database Engine OLE DB Provider. If you try to use the ANSI SQL wildcards through Microsoft Access or DAO, then they will be interpreted as literals. The opposite is true when using the Microsoft Access Database Engine OLE DB Provider.
     
     <table>
     <colgroup>
@@ -80,5 +80,5 @@ Microsoft Access SQL does not support the following ANSI SQL features:
 
   - DISTINCT aggregate function references. For example, Microsoft Access SQL does not allow SUM(DISTINCT *columnname*).
 
-  - The LIMIT TO *nn* ROWS clause used to limit the number of rows returned by a query. You can use only the [WHERE clause](https://msdn.microsoft.com/en-us/library/ff195245\(v=office.15\)) to limit the scope of a query.
+  - The LIMIT TO *nn* ROWS clause used to limit the number of rows returned by a query. You can use only the [WHERE clause](https://msdn.microsoft.com/library/ff195245\(v=office.15\)) to limit the scope of a query.
 

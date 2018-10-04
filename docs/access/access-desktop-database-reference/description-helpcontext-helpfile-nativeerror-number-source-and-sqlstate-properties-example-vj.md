@@ -2,7 +2,7 @@
 title: Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState Properties Example (VJ++)
 TOCTitle: Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState Properties Example (VJ++)
 ms:assetid: daa3ff89-9f7f-f832-479e-bbb51c918ae8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250100(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250100(v=office.15)
 ms:contentKeyID: 48548085
 ms.date: 09/18/2015
 mtps_version: v=office.15

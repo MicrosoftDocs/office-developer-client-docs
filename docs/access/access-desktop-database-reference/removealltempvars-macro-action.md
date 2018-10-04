@@ -2,7 +2,7 @@
 title: RemoveAllTempVars Macro Action
 TOCTitle: RemoveAllTempVars Macro Action
 ms:assetid: 409fd836-4a53-cefd-4264-8cee0fa8ac52
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff192877(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff192877(v=office.15)
 ms:contentKeyID: 48544430
 ms.date: 09/18/2015
 mtps_version: v=office.15

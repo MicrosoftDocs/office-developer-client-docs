@@ -2,7 +2,7 @@
 title: Recordset Properties, Methods, and Events (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: aca81c6c-5b08-13e9-5bf5-3561a173f5bc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249806(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249806(v=office.15)
 ms:contentKeyID: 48547019
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Recordset2.EOF Property (DAO)
 TOCTitle: EOF Property
 ms:assetid: 9d4e1ee2-e866-3ebf-e08b-b31b0cb47ed9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff198245(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff198245(v=office.15)
 ms:contentKeyID: 48546622
 ms.date: 09/18/2015
 mtps_version: v=office.15

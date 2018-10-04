@@ -2,7 +2,7 @@
 title: SearchForRecord Macro Action
 TOCTitle: SearchForRecord Macro Action
 ms:assetid: a3483c41-adb5-5923-55f4-1a3c4f60cb2f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff821023(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff821023(v=office.15)
 ms:contentKeyID: 48546781
 ms.date: 09/18/2015
 mtps_version: v=office.15

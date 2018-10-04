@@ -2,7 +2,7 @@
 title: Attributes Property (ADO)
 TOCTitle: Attributes Property (ADO)
 ms:assetid: 4cc1f036-606e-7d4b-d270-af374e9d99fa
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249242(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249242(v=office.15)
 ms:contentKeyID: 48544716
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Filter/Query/Search
 TOCTitle: Filter/Query/Search
 ms:assetid: 383df639-4a9b-4741-add2-e6e36e1bdde5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn124363(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn124363(v=office.15)
 ms:contentKeyID: 52071997
 ms.date: 09/18/2015
 mtps_version: v=office.15

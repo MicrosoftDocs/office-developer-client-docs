@@ -2,7 +2,7 @@
 title: ADO Programmer's Reference Topics
 TOCTitle: ADO programmer's reference
 ms:assetid: 26589057-87f7-45c7-8ae0-4b9208460f8a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249026(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249026(v=office.15)
 ms:contentKeyID: 48543804
 ms.date: 09/18/2015
 mtps_version: v=office.15

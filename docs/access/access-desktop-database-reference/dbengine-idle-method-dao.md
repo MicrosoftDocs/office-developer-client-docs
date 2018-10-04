@@ -2,7 +2,7 @@
 title: DBEngine.Idle Method (DAO)
 TOCTitle: Idle Method
 ms:assetid: c90b565e-626e-139d-102a-0386601ce0c8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff823202(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff823202(v=office.15)
 ms:contentKeyID: 48547666
 ms.date: 09/18/2015
 mtps_version: v=office.15

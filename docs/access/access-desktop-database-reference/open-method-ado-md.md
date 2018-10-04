@@ -2,7 +2,7 @@
 title: Open Method (ADO MD)
 TOCTitle: Open Method (ADO MD)
 ms:assetid: 12395ff6-fe07-325a-2b69-007aa0b11ee6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248894(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248894(v=office.15)
 ms:contentKeyID: 48543335
 ms.date: 09/18/2015
 mtps_version: v=office.15

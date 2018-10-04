@@ -2,7 +2,7 @@
 title: Persisting Hierarchical Recordsets
 TOCTitle: Persisting Hierarchical Recordsets
 ms:assetid: 28f48d4a-1c32-7b60-cd65-51fb87c5380e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249048(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249048(v=office.15)
 ms:contentKeyID: 48543872
 ms.date: 09/18/2015
 mtps_version: v=office.15

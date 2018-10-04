@@ -2,7 +2,7 @@
 title: EMailDatabaseObject Macro Action
 TOCTitle: EMailDatabaseObject Macro Action
 ms:assetid: 7fd80596-5c08-dab9-5343-c0edc38a1af9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff196469(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff196469(v=office.15)
 ms:contentKeyID: 48545915
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -105,9 +105,9 @@ To run the **EMailDatabaseObject** action in a Visual Basic for Applications (VB
 
 ### About the contributor
 
-**Link provided by** Luke Chung, [FMS, Inc.](http://www.fmsinc.com/), the founder and president of FMS, Inc., a leading provider of custom database solutions and developer tools.
+**Link provided by** Luke Chung, [FMS, Inc.](https://www.fmsinc.com/), the founder and president of FMS, Inc., a leading provider of custom database solutions and developer tools.
 
-  - [Features and Limits of Using the SendObject Method to Send](http://www.fmsinc.com/microsoftaccess/email/sendobject.html)
+  - [Features and Limits of Using the SendObject Method to Send](https://www.fmsinc.com/microsoftaccess/email/sendobject.html)
 
 
 

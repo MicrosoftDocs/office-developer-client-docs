@@ -2,7 +2,7 @@
 title: ADO Technology Table
 TOCTitle: ADO Technology Table
 ms:assetid: 3aaf5036-ff18-7e80-c131-9459ce78eec4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249146(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249146(v=office.15)
 ms:contentKeyID: 48544268
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -85,15 +85,15 @@ The following table lists the Microsoft products, tools, and technologies discus
 </tr>
 <tr class="odd">
 <td><p>Visual Basic</p></td>
-<td><p><a href="errors.md">Errors</a><a href="ado-errors.md">ADO Errors</a><a href="https://msdn.microsoft.com/en-us/library/jj250244(v=office.15)">ADO Event Instantiation By Language</a><a href="visual-basic-for-applications-functions.md">Visual Basic for Applications Functions</a><a href="chapter-12-rds-tutorial.md">Chapter 12: RDS Tutorial</a><a href="using-ado-with-microsoft-visual-basic.md">Using ADO with Microsoft Visual Basic</a><a href="ado-code-examples-in-microsoft-visual-basic.md">ADO Code Examples in Microsoft Visual Basic</a></p></td>
+<td><p><a href="errors.md">Errors</a><a href="ado-errors.md">ADO Errors</a><a href="https://msdn.microsoft.com/library/jj250244(v=office.15)">ADO Event Instantiation By Language</a><a href="visual-basic-for-applications-functions.md">Visual Basic for Applications Functions</a><a href="chapter-12-rds-tutorial.md">Chapter 12: RDS Tutorial</a><a href="using-ado-with-microsoft-visual-basic.md">Using ADO with Microsoft Visual Basic</a><a href="ado-code-examples-in-microsoft-visual-basic.md">ADO Code Examples in Microsoft Visual Basic</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Visual C++</p></td>
-<td><p><a href="handling-errors-in-other-languages.md">Handling Errors in Other Languages</a><a href="https://msdn.microsoft.com/en-us/library/jj250244(v=office.15)">ADO Event Instantiation By Language</a><a href="using-ado-with-microsoft-visual-c.md">Using ADO with Microsoft Visual C++</a><a href="ado-code-examples-in-microsoft-visual-c.md">ADO Code Examples in Microsoft Visual C++</a></p></td>
+<td><p><a href="handling-errors-in-other-languages.md">Handling Errors in Other Languages</a><a href="https://msdn.microsoft.com/library/jj250244(v=office.15)">ADO Event Instantiation By Language</a><a href="using-ado-with-microsoft-visual-c.md">Using ADO with Microsoft Visual C++</a><a href="ado-code-examples-in-microsoft-visual-c.md">ADO Code Examples in Microsoft Visual C++</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Visual J++</p></td>
-<td><p><a href="handling-errors-in-other-languages.md">Handling Errors in Other Languages</a><a href="https://msdn.microsoft.com/en-us/library/jj250244(v=office.15)">ADO Event Instantiation By Language</a><a href="rds-tutorial-visual-j.md">RDS Tutorial (Visual J++)</a><a href="using-ado-with-microsoft-visual-j.md">Using ADO with Microsoft Visual J++</a><a href="ado-code-examples-in-microsoft-visual-j.md">ADO Code Examples in Microsoft Visual J++</a></p></td>
+<td><p><a href="handling-errors-in-other-languages.md">Handling Errors in Other Languages</a><a href="https://msdn.microsoft.com/library/jj250244(v=office.15)">ADO Event Instantiation By Language</a><a href="rds-tutorial-visual-j.md">RDS Tutorial (Visual J++)</a><a href="using-ado-with-microsoft-visual-j.md">Using ADO with Microsoft Visual J++</a><a href="ado-code-examples-in-microsoft-visual-j.md">ADO Code Examples in Microsoft Visual J++</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Visual Studio</p></td>
@@ -101,7 +101,7 @@ The following table lists the Microsoft products, tools, and technologies discus
 </tr>
 <tr class="odd">
 <td><p>Windows 2000</p></td>
-<td><p><a href="system-requirements-for-the-address-book-application.md">System Requirements for the Address Book Application</a><a href="granting-guest-privileges-to-a-web-server-computer;-rds-guest-privileges.md">Granting Guest Privileges to a Web Server Computer</a><a href="https://msdn.microsoft.com/en-us/library/ff836389(v=office.15)">Registering a Custom Business Object</a><a href="securing-rds-applications.md">Securing RDS Applications</a><a href="configuring-rds-on-windows-2000.md">Configuring RDS on Windows 2000</a></p></td>
+<td><p><a href="system-requirements-for-the-address-book-application.md">System Requirements for the Address Book Application</a><a href="granting-guest-privileges-to-a-web-server-computer;-rds-guest-privileges.md">Granting Guest Privileges to a Web Server Computer</a><a href="https://msdn.microsoft.com/library/ff836389(v=office.15)">Registering a Custom Business Object</a><a href="securing-rds-applications.md">Securing RDS Applications</a><a href="configuring-rds-on-windows-2000.md">Configuring RDS on Windows 2000</a></p></td>
 </tr>
 <tr class="even">
 <td><p>XML</p></td>

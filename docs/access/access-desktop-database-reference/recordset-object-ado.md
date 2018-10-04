@@ -2,7 +2,7 @@
 title: Recordset Object (ADO)
 TOCTitle: Recordset Object (ADO)
 ms:assetid: 0f963bf8-f066-dc8a-b754-f427de712df1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248865(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248865(v=office.15)
 ms:contentKeyID: 48543267
 ms.date: 09/18/2015
 mtps_version: v=office.15

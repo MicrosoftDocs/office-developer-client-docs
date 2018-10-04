@@ -2,7 +2,7 @@
 title: 'Section I: ActiveX Data Objects'
 TOCTitle: 'Section I: ActiveX Data Objects'
 ms:assetid: 8f794f04-6977-7af0-fdfd-126a92d33e94
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249635(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249635(v=office.15)
 ms:contentKeyID: 48546307
 ms.date: 09/18/2015
 mtps_version: v=office.15

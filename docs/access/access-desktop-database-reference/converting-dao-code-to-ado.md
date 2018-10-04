@@ -2,7 +2,7 @@
 title: Converting DAO Code to ADO
 TOCTitle: Converting DAO Code to ADO
 ms:assetid: 4720906b-d6b1-aa6d-3b18-ff828d16acae
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff193201(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff193201(v=office.15)
 ms:contentKeyID: 48544585
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -128,9 +128,9 @@ rs.Update</code></pre>
 
 ### About the contributors
 
-**Link provided by** the [UtterAccess](http://www.utteraccess.com) community. UtterAccess is the premier Microsoft Access wiki and help forum.
+**Link provided by** the [UtterAccess](https://www.utteraccess.com) community. UtterAccess is the premier Microsoft Access wiki and help forum.
 
-  - [Choosing between DAO and ADO](http://www.utteraccess.com/wiki/index.php/choosing_between_dao_and_ado)
+  - [Choosing between DAO and ADO](https://www.utteraccess.com/wiki/index.php/choosing_between_dao_and_ado)
 
 
 

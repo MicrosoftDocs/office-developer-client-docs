@@ -2,7 +2,7 @@
 title: BookmarkEnum
 TOCTitle: BookmarkEnum
 ms:assetid: 75cf5edd-bcb6-ab61-8703-73775cce91de
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249482(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249482(v=office.15)
 ms:contentKeyID: 48545681
 ms.date: 09/18/2015
 mtps_version: v=office.15

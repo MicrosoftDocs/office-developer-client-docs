@@ -2,7 +2,7 @@
 title: Groups Collection Properties, Methods, and Events (ADOX)
 TOCTitle: Groups Collection Properties, Methods, and Events (ADOX)
 ms:assetid: 6893863d-a9e9-cde8-3ad9-283332c6da88
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249410(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249410(v=office.15)
 ms:contentKeyID: 48545388
 ms.date: 09/18/2015
 mtps_version: v=office.15

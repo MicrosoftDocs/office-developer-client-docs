@@ -2,7 +2,7 @@
 title: Using the Connection Object Reference (ADO)
 TOCTitle: Using the Connection Object
 ms:assetid: 3a0848bd-63a7-4706-a524-bb157d4a887e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249144(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249144(v=office.15)
 ms:contentKeyID: 48544259
 ms.date: 09/18/2015
 mtps_version: v=office.15

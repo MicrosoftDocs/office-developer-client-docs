@@ -2,7 +2,7 @@
 title: ADO Code Examples in Microsoft Visual C++ (Access)
 TOCTitle: ADO Code Examples in Microsoft Visual C++
 ms:assetid: 99929dbc-6ab0-4d9a-8a00-59a69a9d1340
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249688(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249688(v=office.15)
 ms:contentKeyID: 48546517
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: ParameterDirectionEnum
 TOCTitle: ParameterDirectionEnum
 ms:assetid: 73a97522-010e-d8f4-1a30-15df2469cad4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249473(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249473(v=office.15)
 ms:contentKeyID: 48545643
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Minimizing Log File Space Usage
 TOCTitle: Minimizing Log File Space Usage
 ms:assetid: d527c313-35ad-c30e-6ea1-ddfeff1fe890
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250073(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250073(v=office.15)
 ms:contentKeyID: 48547960
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: DBEngine.SetOption Method (DAO)
 TOCTitle: SetOption Method
 ms:assetid: ea55c10c-2385-1b7e-0cba-32982c9b6643
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff836236(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff836236(v=office.15)
 ms:contentKeyID: 48548461
 ms.date: 09/18/2015
 mtps_version: v=office.15

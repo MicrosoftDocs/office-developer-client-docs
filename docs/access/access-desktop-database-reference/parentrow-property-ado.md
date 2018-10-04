@@ -2,7 +2,7 @@
 title: ParentRow Property (ADO)
 TOCTitle: ParentRow Property (ADO)
 ms:assetid: c7520353-9428-9c8f-9d21-ff42e30e1193
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249971(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249971(v=office.15)
 ms:contentKeyID: 48547638
 ms.date: 09/18/2015
 mtps_version: v=office.15

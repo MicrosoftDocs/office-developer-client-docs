@@ -2,7 +2,7 @@
 title: Troubleshooting RDS
 TOCTitle: Troubleshooting RDS
 ms:assetid: c0e3243a-2e9d-33c1-b83f-c70a0836a9aa
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249938(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249938(v=office.15)
 ms:contentKeyID: 48547518
 ms.date: 09/18/2015
 mtps_version: v=office.15

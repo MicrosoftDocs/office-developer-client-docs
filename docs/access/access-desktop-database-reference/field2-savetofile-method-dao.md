@@ -2,7 +2,7 @@
 title: Field2.SaveToFile Method (DAO)
 TOCTitle: SaveToFile Method
 ms:assetid: 250f9596-1a03-471d-96f9-718cd57dc94f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff191852(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff191852(v=office.15)
 ms:contentKeyID: 48543776
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -86,7 +86,7 @@ The following code snippet illustrates how to use the **SaveToFile** method to s
 
 The following example shows how to save the files stored in an attachment field to the specified folder path.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](http://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
+**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
 
     Public Function SaveAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
         Dim dbs As DAO.Database

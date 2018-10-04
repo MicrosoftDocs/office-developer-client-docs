@@ -2,7 +2,7 @@
 title: Jumping to a Record
 TOCTitle: Jumping to a Record
 ms:assetid: 27177bbe-066c-aeb0-6dfd-45d8c2a87487
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249033(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249033(v=office.15)
 ms:contentKeyID: 48543829
 ms.date: 09/18/2015
 mtps_version: v=office.15

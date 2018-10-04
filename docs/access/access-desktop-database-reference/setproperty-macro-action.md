@@ -2,7 +2,7 @@
 title: SetProperty Macro Action
 TOCTitle: SetProperty Macro Action
 ms:assetid: 58d2eac3-35b2-e9f8-47e0-62c9b52f2c24
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff194340(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff194340(v=office.15)
 ms:contentKeyID: 48545004
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -71,7 +71,7 @@ The **SetProperty** action has the following arguments.
 
 The following example shows how to use the SetProperty action to toggle the visibility of the **MyTextBox** text box.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](http://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html)
+**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html)
 
     Submacro: TestVisible
         SetProperty

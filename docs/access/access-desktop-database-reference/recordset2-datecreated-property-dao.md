@@ -2,7 +2,7 @@
 title: Recordset2.DateCreated Property (DAO)
 TOCTitle: DateCreated Property
 ms:assetid: b22aa1c1-b1a8-fe80-7a7e-b2a51249b198
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff822016(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff822016(v=office.15)
 ms:contentKeyID: 48547163
 ms.date: 09/18/2015
 mtps_version: v=office.15

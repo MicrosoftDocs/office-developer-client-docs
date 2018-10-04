@@ -2,7 +2,7 @@
 title: Refresh Method Example (VJ++)
 TOCTitle: Refresh Method Example (VJ++)
 ms:assetid: f77a2944-1fcc-4816-8780-feeaae18e5f2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250259(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250259(v=office.15)
 ms:contentKeyID: 48548767
 ms.date: 09/18/2015
 mtps_version: v=office.15

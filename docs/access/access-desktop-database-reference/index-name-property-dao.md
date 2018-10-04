@@ -2,7 +2,7 @@
 title: Index.Name Property (DAO)
 TOCTitle: Name Property
 ms:assetid: 83cb72c8-068a-229d-c95d-ba16567505c5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff196754(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff196754(v=office.15)
 ms:contentKeyID: 48546017
 ms.date: 09/18/2015
 mtps_version: v=office.15

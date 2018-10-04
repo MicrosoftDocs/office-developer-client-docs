@@ -2,7 +2,7 @@
 title: Parameter Object (DAO)
 TOCTitle: Parameter Object
 ms:assetid: 194efd23-6086-13ac-beb9-c2aec101d6fe
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff845640(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff845640(v=office.15)
 ms:contentKeyID: 48543495
 ms.date: 09/18/2015
 mtps_version: v=office.15

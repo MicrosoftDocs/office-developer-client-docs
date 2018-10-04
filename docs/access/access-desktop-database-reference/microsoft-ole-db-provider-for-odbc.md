@@ -2,7 +2,7 @@
 title: Microsoft OLE DB Provider for ODBC
 TOCTitle: Microsoft OLE DB Provider for ODBC
 ms:assetid: c507567e-5ad1-b32a-f6ad-5ba2c39aa4c2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249964(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249964(v=office.15)
 ms:contentKeyID: 48547602
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -1452,5 +1452,5 @@ The following properties are added to the **Command** object's **Properties** co
 </table>
 
 
-**See Also**For details regarding specific implementation and functional information about the Microsoft OLE DB Provider for ODBC, consult the [OLE DB Programmer's Guide](http://msdn.microsoft.com/en-us/library/ms713643\(vs.85\).aspx) or visit the [Data Platform Developer Center](http://msdn.microsoft.com/en-us/data/default.aspx).
+**See Also**For details regarding specific implementation and functional information about the Microsoft OLE DB Provider for ODBC, consult the [OLE DB Programmer's Guide](https://msdn.microsoft.com/library/ms713643\(vs.85\).aspx) or visit the [Data Platform Developer Center](https://msdn.microsoft.com/data/default.aspx).
 

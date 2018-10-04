@@ -2,7 +2,7 @@
 title: Recordset.Fields Property (DAO)
 TOCTitle: Fields Property
 ms:assetid: ba6bbc10-41e0-87af-4372-f81205e7a320
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff822496(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff822496(v=office.15)
 ms:contentKeyID: 48547367
 ms.date: 09/18/2015
 mtps_version: v=office.15

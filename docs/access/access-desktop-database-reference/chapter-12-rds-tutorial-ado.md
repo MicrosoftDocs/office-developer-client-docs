@@ -2,7 +2,7 @@
 title: 'Chapter 12: RDS Tutorial (ADO)'
 TOCTitle: 'Chapter 12: RDS Tutorial'
 ms:assetid: 851496d3-1605-40cf-85c9-9d307983f687
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249578(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249578(v=office.15)
 ms:contentKeyID: 48546049
 ms.date: 09/18/2015
 mtps_version: v=office.15

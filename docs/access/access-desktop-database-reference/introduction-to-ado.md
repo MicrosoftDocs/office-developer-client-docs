@@ -2,7 +2,7 @@
 title: Introduction to ADO
 TOCTitle: Introduction to ADO
 ms:assetid: bda4ab68-6a04-4896-9310-6287452c99f4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249917(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249917(v=office.15)
 ms:contentKeyID: 48547441
 ms.date: 09/18/2015
 mtps_version: v=office.15

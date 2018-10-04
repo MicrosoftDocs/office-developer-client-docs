@@ -2,7 +2,7 @@
 title: StopAllMacros Macro Action
 TOCTitle: StopAllMacros Macro Action
 ms:assetid: 6afbf906-03b8-6e68-bbc9-7a4b141cf1c5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff195440(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff195440(v=office.15)
 ms:contentKeyID: 48545442
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: CursorDriverEnum Enumeration (DAO)
 TOCTitle: CursorDriverEnum Enumeration
 ms:assetid: d0312ece-c30a-7d61-d5f3-75edf0d0afc8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff834707(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff834707(v=office.15)
 ms:contentKeyID: 48547832
 ms.date: 09/18/2015
 mtps_version: v=office.15

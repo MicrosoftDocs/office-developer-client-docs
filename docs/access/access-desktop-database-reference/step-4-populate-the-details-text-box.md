@@ -2,7 +2,7 @@
 title: 'Step 4: Populate the Details Text Box'
 TOCTitle: 'Step 4: Populate the Details Text Box'
 ms:assetid: fa5e4482-8986-0c03-1e46-7b7fefb5fb58
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250278(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250278(v=office.15)
 ms:contentKeyID: 48548839
 ms.date: 09/18/2015
 mtps_version: v=office.15

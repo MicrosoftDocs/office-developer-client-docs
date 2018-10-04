@@ -2,7 +2,7 @@
 title: Recordsets Members (DAO)
 TOCTitle: Recordsets Members
 ms:assetid: 8df1994c-8142-d587-5b13-0fa7b14497e4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff197366(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff197366(v=office.15)
 ms:contentKeyID: 48546271
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Requery Macro Action
 TOCTitle: Requery Macro Action
 ms:assetid: 6dbdcae5-81b6-9925-4cad-64b178c23060
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff195544(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff195544(v=office.15)
 ms:contentKeyID: 48545499
 ms.date: 09/18/2015
 mtps_version: v=office.15

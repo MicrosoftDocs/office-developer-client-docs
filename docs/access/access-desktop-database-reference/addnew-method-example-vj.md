@@ -2,7 +2,7 @@
 title: AddNew Method Example (VJ++)
 TOCTitle: AddNew Method Example (VJ++)
 ms:assetid: 25924e0d-8cfb-13c3-0a56-0a6feb2787be
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249023(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249023(v=office.15)
 ms:contentKeyID: 48543786
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Recordset.BOF Property (DAO)
 TOCTitle: BOF Property
 ms:assetid: c50a0c5f-1b26-33ea-4cf2-311f9514a94a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff823092(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff823092(v=office.15)
 ms:contentKeyID: 48547603
 ms.date: 09/18/2015
 mtps_version: v=office.15

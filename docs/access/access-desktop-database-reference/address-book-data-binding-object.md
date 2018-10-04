@@ -2,7 +2,7 @@
 title: Address Book Data-Binding Object
 TOCTitle: Address Book Data-Binding Object
 ms:assetid: cf43f645-1ee1-8655-eb70-86d601e9f3f7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250030(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250030(v=office.15)
 ms:contentKeyID: 48547807
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -25,7 +25,7 @@ The following code defines the **RDS.DataControl** component:
  
 <OBJECT classid="clsid:BD96C556-65A3-11D0-983A-00C04FC29E33" 
    ID=DC1 Width=1 Height=1> 
-   <PARAM NAME="SERVER" VALUE="http://<%=Request.ServerVariables("SERVER_NAME")%>"> 
+   <PARAM NAME="SERVER" VALUE="https://<%=Request.ServerVariables("SERVER_NAME")%>"> 
    <PARAM NAME="CONNECT" VALUE="Provider=sqloledb; 
 Initial Catalog=AddrBookDb;Integrated Security=SSPI;"> 
 </OBJECT> 
@@ -83,14 +83,14 @@ The following table describes the parameters specific to the **RDS.DataControl**
 <tbody>
 <tr class="odd">
 <td><p><a href="server-property-rds.md">SERVER</a></p></td>
-<td><p>If you are using HTTP, the value is the name of the server computer preceded by http:// .</p></td>
+<td><p>If you are using HTTP, the value is the name of the server computer preceded by https:// .</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="connect-property-rds.md">CONNECT</a></p></td>
 <td><p>Provides the necessary connection information for the <strong>RDS.DataControl</strong> to connect to SQL Server.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj248989(v=office.15)">SQL</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj248989(v=office.15)">SQL</a></p></td>
 <td><p>Sets or returns the query string used to retrieve the <a href="recordset-object-ado.md">Recordset</a>.</p></td>
 </tr>
 </tbody>

@@ -2,7 +2,7 @@
 title: ErrorValueEnum
 TOCTitle: ErrorValueEnum
 ms:assetid: 2af99f32-6004-1225-367c-45d693f447b8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249058(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249058(v=office.15)
 ms:contentKeyID: 48543921
 ms.date: 09/18/2015
 mtps_version: v=office.15

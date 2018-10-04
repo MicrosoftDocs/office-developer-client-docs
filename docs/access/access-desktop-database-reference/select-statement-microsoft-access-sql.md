@@ -2,7 +2,7 @@
 title: SELECT Statement (Microsoft Access SQL)
 TOCTitle: SELECT Statement (Microsoft Access SQL)
 ms:assetid: a5c9da94-5f9e-0fc0-767a-4117f38a5ef3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff821148(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff821148(v=office.15)
 ms:contentKeyID: 48546837
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -36,7 +36,7 @@ The SELECT statement has these parts:
 <tbody>
 <tr class="odd">
 <td><p><em>predicate</em></p></td>
-<td><p>One of the following predicates: <a href="https://msdn.microsoft.com/en-us/library/ff195711(v=office.15)">ALL, DISTINCT, DISTINCTROW, or TOP</a>. You use the predicate to restrict the number of records returned. If none is specified, the default is ALL.</p></td>
+<td><p>One of the following predicates: <a href="https://msdn.microsoft.com/library/ff195711(v=office.15)">ALL, DISTINCT, DISTINCTROW, or TOP</a>. You use the predicate to restrict the number of records returned. If none is specified, the default is ALL.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>*</em></p></td>
@@ -108,11 +108,11 @@ AS HeadCount FROM Employees;
 
 You can use the other clauses in a SELECT statement to further restrict and organize your returned data. For more information, see the Help topic for the clause you are using.
 
-**Links provided by** the [UtterAccess](http://www.utteraccess.com) community. UtterAccess is the premier Microsoft Access wiki and help forum.
+**Links provided by** the [UtterAccess](https://www.utteraccess.com) community. UtterAccess is the premier Microsoft Access wiki and help forum.
 
-- [SQL to VBA Formatter](http://www.utteraccess.com/forum/sql-vba-formatter-t1165308.html)
+- [SQL to VBA Formatter](https://www.utteraccess.com/forum/sql-vba-formatter-t1165308.html)
 
-- [Viewing Records Within A Defined Range](http://www.utteraccess.com/wiki/index.php/records_within_a_defined_range)
+- [Viewing Records Within A Defined Range](https://www.utteraccess.com/wiki/index.php/records_within_a_defined_range)
 
 ## Example
 

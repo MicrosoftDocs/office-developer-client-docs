@@ -2,7 +2,7 @@
 title: Database.DesignMasterID Property (DAO)
 TOCTitle: DesignMasterID Property
 ms:assetid: c0545561-d44f-5479-8ae0-e3955db91761
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff822824(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff822824(v=office.15)
 ms:contentKeyID: 48547508
 ms.date: 09/18/2015
 mtps_version: v=office.15

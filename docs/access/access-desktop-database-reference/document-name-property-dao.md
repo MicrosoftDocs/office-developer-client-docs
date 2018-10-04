@@ -2,7 +2,7 @@
 title: Document.Name Property (DAO)
 TOCTitle: Name Property
 ms:assetid: 7810a441-2d85-fa9e-a27f-9db464cb9cce
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff196102(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff196102(v=office.15)
 ms:contentKeyID: 48545743
 ms.date: 09/18/2015
 mtps_version: v=office.15

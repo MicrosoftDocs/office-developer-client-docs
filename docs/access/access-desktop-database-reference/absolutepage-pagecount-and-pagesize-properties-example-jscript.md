@@ -2,7 +2,7 @@
 title: AbsolutePage, PageCount, and PageSize Properties Example (JScript)
 TOCTitle: AbsolutePage, PageCount, and PageSize Properties Example (JScript)
 ms:assetid: 6df29022-16f2-c7d8-d45b-b9998e929030
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249434(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249434(v=office.15)
 ms:contentKeyID: 48545506
 ms.date: 09/18/2015
 mtps_version: v=office.15

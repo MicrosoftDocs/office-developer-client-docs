@@ -2,7 +2,7 @@
 title: Workspace.IsolateODBCTrans Property (DAO)
 TOCTitle: IsolateODBCTrans Property
 ms:assetid: f7a48358-870b-cad3-d4ef-e46b50428e12
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff836924(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff836924(v=office.15)
 ms:contentKeyID: 48548770
 ms.date: 09/18/2015
 mtps_version: v=office.15

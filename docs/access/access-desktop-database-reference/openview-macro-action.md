@@ -2,7 +2,7 @@
 title: OpenView Macro Action
 TOCTitle: OpenView Macro Action
 ms:assetid: 4d3b7e6d-4b81-4fbe-7222-24d745350321
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff193569(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff193569(v=office.15)
 ms:contentKeyID: 48544726
 ms.date: 09/18/2015
 mtps_version: v=office.15

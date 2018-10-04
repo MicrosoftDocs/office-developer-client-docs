@@ -2,7 +2,7 @@
 title: OnError Macro Action
 TOCTitle: OnError Macro Action
 ms:assetid: 5c6073c4-2c0f-0ed2-83b0-477636e2d81c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff194562(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff194562(v=office.15)
 ms:contentKeyID: 48545088
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -92,7 +92,7 @@ The **OnError** action has the following arguments.
 
 The following macro demonstrates the use of the **OnError** action. In this example, the **OnError** action specifies that Access run a custom error handling macro named ErrorHandler when an error occurs. When an error occurs, the CatchErrors submacro is called. If the error number is 2102, a specific message is displayed and macro execution is halted. Otherwise, a message describing the error is displayed and the macro is paused so that you can perform additional troubleshooting. The ErrorHandler macro displays a message box that refers to the **MacroError** object to display information about the error.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](http://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html)
+**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html)
 
     /* MACRO: mcrThrowErrors                                  */
     /* PURPOSE: Error handling using macros in Access 2010    */

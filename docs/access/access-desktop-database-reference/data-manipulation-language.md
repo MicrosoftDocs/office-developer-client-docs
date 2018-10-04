@@ -2,7 +2,7 @@
 title: Data Manipulation Language
 TOCTitle: Data Manipulation Language
 ms:assetid: 25c6f127-0fee-470e-bf16-9253b14e8086
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn124073(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn124073(v=office.15)
 ms:contentKeyID: 52071710
 ms.date: 09/18/2015
 mtps_version: v=office.15

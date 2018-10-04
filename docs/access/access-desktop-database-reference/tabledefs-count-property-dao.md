@@ -2,7 +2,7 @@
 title: TableDefs.Count Property (DAO)
 TOCTitle: Count Property
 ms:assetid: 6e2cf3e5-524f-a643-b1dc-99a4b2bb2e63
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff195561(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff195561(v=office.15)
 ms:contentKeyID: 48545508
 ms.date: 09/18/2015
 mtps_version: v=office.15

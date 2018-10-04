@@ -2,7 +2,7 @@
 title: WorkspaceTypeEnum Enumeration (DAO)
 TOCTitle: WorkspaceTypeEnum Enumeration
 ms:assetid: c660a0a9-b0ae-a7be-5635-761d3a05a4ef
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff823134(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff823134(v=office.15)
 ms:contentKeyID: 48547625
 ms.date: 09/18/2015
 mtps_version: v=office.15

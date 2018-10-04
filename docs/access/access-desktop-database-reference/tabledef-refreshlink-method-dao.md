@@ -2,7 +2,7 @@
 title: TableDef.RefreshLink Method (DAO)
 TOCTitle: RefreshLink Method
 ms:assetid: 9f0059c6-3b7b-57e3-7527-ef674ad9417d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff198349(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff198349(v=office.15)
 ms:contentKeyID: 48546674
 ms.date: 09/18/2015
 mtps_version: v=office.15

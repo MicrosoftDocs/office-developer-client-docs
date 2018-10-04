@@ -2,7 +2,7 @@
 title: Handling Errors in VBScript
 TOCTitle: Handling Errors in VBScript
 ms:assetid: df8f96d5-b917-ddac-d274-6345b2499bf1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250135(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250135(v=office.15)
 ms:contentKeyID: 48548222
 ms.date: 09/18/2015
 mtps_version: v=office.15

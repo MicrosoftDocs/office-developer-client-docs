@@ -2,7 +2,7 @@
 title: Errors.Count Property (DAO)
 TOCTitle: Count Property
 ms:assetid: ad135955-3b18-4f99-66d9-aff1492df13b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff821719(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff821719(v=office.15)
 ms:contentKeyID: 48547028
 ms.date: 09/18/2015
 mtps_version: v=office.15

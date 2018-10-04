@@ -2,7 +2,7 @@
 title: RecordStatusEnum Enumeration (DAO)
 TOCTitle: RecordStatusEnum Enumeration
 ms:assetid: bf4492f2-8d8f-f10f-7a3c-d6296d2ce96b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff822784(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff822784(v=office.15)
 ms:contentKeyID: 48547483
 ms.date: 09/18/2015
 mtps_version: v=office.15

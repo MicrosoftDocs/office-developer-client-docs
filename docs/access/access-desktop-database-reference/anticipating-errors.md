@@ -2,7 +2,7 @@
 title: Anticipating Errors
 TOCTitle: Anticipating Errors
 ms:assetid: f2368a03-d446-ab42-b505-d5f5a214c000
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250229(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250229(v=office.15)
 ms:contentKeyID: 48548645
 ms.date: 09/18/2015
 mtps_version: v=office.15

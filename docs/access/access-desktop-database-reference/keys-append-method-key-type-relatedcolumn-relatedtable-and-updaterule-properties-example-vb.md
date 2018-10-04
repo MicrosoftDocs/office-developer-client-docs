@@ -2,7 +2,7 @@
 title: Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule Properties Example (VB)
 TOCTitle: Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule Properties Example (VB)
 ms:assetid: d1b0508d-ab2c-eece-061c-09c67ea9ecae
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250047(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250047(v=office.15)
 ms:contentKeyID: 48547871
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Relations.Refresh Method (DAO)
 TOCTitle: Refresh Method
 ms:assetid: d71cecf2-da90-5f62-9e51-f994e660ad34
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff835058(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff835058(v=office.15)
 ms:contentKeyID: 48547997
 ms.date: 09/18/2015
 mtps_version: v=office.15

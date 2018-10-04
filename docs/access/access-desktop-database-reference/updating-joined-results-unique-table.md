@@ -2,7 +2,7 @@
 title: 'Updating JOINed Results: Unique Table'
 TOCTitle: 'Updating JOINed Results: Unique Table'
 ms:assetid: 80fca1ba-01e4-8d0b-8ce2-51831979450e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249551(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249551(v=office.15)
 ms:contentKeyID: 48545940
 ms.date: 09/18/2015
 mtps_version: v=office.15

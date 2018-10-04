@@ -2,7 +2,7 @@
 title: Recordset.FindPrevious Method (DAO)
 TOCTitle: FindPrevious Method
 ms:assetid: 62f26b0b-f3f1-a6fe-e84d-f93623e1f7f9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff194940(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff194940(v=office.15)
 ms:contentKeyID: 48545252
 ms.date: 09/18/2015
 mtps_version: v=office.15

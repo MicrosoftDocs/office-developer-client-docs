@@ -2,7 +2,7 @@
 title: Recordset.Clone Method (DAO)
 TOCTitle: Clone Method
 ms:assetid: 50cbc011-7e72-4dee-488d-96e681618e8e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff193824(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff193824(v=office.15)
 ms:contentKeyID: 48544802
 ms.date: 09/18/2015
 mtps_version: v=office.15

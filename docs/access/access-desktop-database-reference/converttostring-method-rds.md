@@ -2,7 +2,7 @@
 title: ConvertToString Method (RDS)
 TOCTitle: ConvertToString Method (RDS)
 ms:assetid: dc6381e4-98c8-badc-ad8c-87c70574a8a4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250113(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250113(v=office.15)
 ms:contentKeyID: 48548136
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -44,6 +44,6 @@ On the client, Remote Data Service can convert the MIME string back into a fully
 
 
 > [!NOTE]
-> <P>If you are using Active Server Pages to embed the resulting MIME string in a client HTML page, be aware that versions of VBScript earlier than version 2.0 limit the string's size to 32K. If this limit is exceeded, an error is returned. Keep the query scope relatively small when using MIME embedding via .asp files. To fix this, download the latest version of VBScript from the <A href="http://www.microsoft.com/downloads/en/default.aspx">Microsoft Download Center</A>.</P>
+> <P>If you are using Active Server Pages to embed the resulting MIME string in a client HTML page, be aware that versions of VBScript earlier than version 2.0 limit the string's size to 32K. If this limit is exceeded, an error is returned. Keep the query scope relatively small when using MIME embedding via .asp files. To fix this, download the latest version of VBScript from the <A href="https://www.microsoft.com/downloads/en/default.aspx">Microsoft Download Center</A>.</P>
 
 

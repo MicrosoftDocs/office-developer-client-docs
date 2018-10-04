@@ -2,7 +2,7 @@
 title: CREATE PROCEDURE Statement (Microsoft Access SQL)
 TOCTitle: CREATE PROCEDURE Statement (Microsoft Access SQL)
 ms:assetid: 1fbb5267-9862-bfb4-6436-176152d7a6cd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff845861(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff845861(v=office.15)
 ms:contentKeyID: 48543649
 ms.date: 09/18/2015
 mtps_version: v=office.15

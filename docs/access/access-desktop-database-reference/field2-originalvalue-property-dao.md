@@ -2,7 +2,7 @@
 title: Field2.OriginalValue Property (DAO)
 TOCTitle: OriginalValue Property
 ms:assetid: 10fed55e-c938-2ae6-8fd2-996745a63da3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff845353(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff845353(v=office.15)
 ms:contentKeyID: 48543306
 ms.date: 09/18/2015
 mtps_version: v=office.15

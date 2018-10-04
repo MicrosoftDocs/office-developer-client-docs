@@ -2,7 +2,7 @@
 title: Properties Collection (ADO)
 TOCTitle: Properties Collection (ADO)
 ms:assetid: 4d662790-1252-c930-e6f9-edf6a38636af
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249245(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249245(v=office.15)
 ms:contentKeyID: 48544729
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Set Form, Report, and Control Properties
 TOCTitle: Set Form, Report, and Control Properties
 ms:assetid: 03349d86-f107-9e49-89df-62f55f3a0735
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff844789(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff844789(v=office.15)
 ms:contentKeyID: 48542977
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: AbsolutePosition and CursorLocation Properties Example (VB)
 TOCTitle: AbsolutePosition and CursorLocation Properties Example (VB)
 ms:assetid: 572c1a51-b7f4-5861-cfb9-960219e0a831
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249293(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249293(v=office.15)
 ms:contentKeyID: 48544966
 ms.date: 09/18/2015
 mtps_version: v=office.15

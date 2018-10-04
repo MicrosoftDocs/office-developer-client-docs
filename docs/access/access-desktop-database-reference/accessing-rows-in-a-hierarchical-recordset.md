@@ -2,7 +2,7 @@
 title: Accessing Rows in a Hierarchical Recordset
 TOCTitle: Accessing Rows in a Hierarchical Recordset
 ms:assetid: db59b152-b780-539c-17ef-462e8adfb26e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250106(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250106(v=office.15)
 ms:contentKeyID: 48548104
 ms.date: 09/18/2015
 mtps_version: v=office.15

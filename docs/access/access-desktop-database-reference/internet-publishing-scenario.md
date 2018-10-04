@@ -2,7 +2,7 @@
 title: Internet Publishing Scenario
 TOCTitle: Internet Publishing Scenario
 ms:assetid: 25a3fa8b-86ec-9e72-5e62-bf0d849479b7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249024(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249024(v=office.15)
 ms:contentKeyID: 48543790
 ms.date: 09/18/2015
 mtps_version: v=office.15

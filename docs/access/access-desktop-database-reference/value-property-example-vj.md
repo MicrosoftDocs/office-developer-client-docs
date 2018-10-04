@@ -2,7 +2,7 @@
 title: Value Property Example (VJ++)
 TOCTitle: Value Property Example (VJ++)
 ms:assetid: 1894c483-f5b0-c83e-35fb-c975ca867fc9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248934(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248934(v=office.15)
 ms:contentKeyID: 48543474
 ms.date: 09/18/2015
 mtps_version: v=office.15

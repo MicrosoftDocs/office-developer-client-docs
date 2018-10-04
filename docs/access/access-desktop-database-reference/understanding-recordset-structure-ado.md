@@ -2,7 +2,7 @@
 title: Understanding Recordset Structure (ADO)
 TOCTitle: Understanding Recordset Structure
 ms:assetid: a33049c2-090f-487c-8ad6-5413905d0972
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249753(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249753(v=office.15)
 ms:contentKeyID: 48546778
 ms.date: 09/18/2015
 mtps_version: v=office.15

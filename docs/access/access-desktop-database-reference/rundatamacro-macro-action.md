@@ -2,7 +2,7 @@
 title: RunDataMacro Macro Action
 TOCTitle: RunDataMacro Macro Action
 ms:assetid: fe4ac2f4-7851-7797-ce91-5f2dd3ba4d22
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff837269(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff837269(v=office.15)
 ms:contentKeyID: 48548933
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -63,7 +63,7 @@ When you run a macro that contains the **RunDataMacro** action and it reaches th
 
 The following example shows how to pass a parameter to a named data macro. The dmGetCurrentServiceRequest data macro of the tblServiceRequests table is called by using the RunDataMacro action. When the dmGetCurrentServiceRequest is finished, the CurrentServiceRequest variable returned form the data macro is written to the txtCurrentSR text box.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](http://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html)
+**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html)
 
     RunDataMacro
         Macro Name tblServiceRequests.dmGetCurrentServiceRequest

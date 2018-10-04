@@ -2,7 +2,7 @@
 title: Recordset2.RecordCount Property (DAO)
 TOCTitle: RecordCount Property
 ms:assetid: 77852966-11e9-1773-6e58-53927b84c03b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff196071(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff196071(v=office.15)
 ms:contentKeyID: 48545728
 ms.date: 09/18/2015
 mtps_version: v=office.15

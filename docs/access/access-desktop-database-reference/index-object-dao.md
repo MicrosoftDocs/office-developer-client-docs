@@ -2,7 +2,7 @@
 title: Index Object (DAO)
 TOCTitle: Index Object
 ms:assetid: 92c32cad-ec8a-1243-1d18-83f50b269ecb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff197655(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff197655(v=office.15)
 ms:contentKeyID: 48546380
 ms.date: 09/18/2015
 mtps_version: v=office.15

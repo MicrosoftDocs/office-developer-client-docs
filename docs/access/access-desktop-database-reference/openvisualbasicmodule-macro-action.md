@@ -2,7 +2,7 @@
 title: OpenVisualBasicModule Macro Action
 TOCTitle: OpenVisualBasicModule Macro Action
 ms:assetid: 26eb31c8-3c65-b17d-46cd-c8967434a7a0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff191906(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff191906(v=office.15)
 ms:contentKeyID: 48543826
 ms.date: 09/18/2015
 mtps_version: v=office.15

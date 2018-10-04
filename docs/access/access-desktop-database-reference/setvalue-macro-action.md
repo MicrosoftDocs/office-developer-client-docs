@@ -2,7 +2,7 @@
 title: SetValue Macro Action
 TOCTitle: SetValue Macro Action
 ms:assetid: a08be0c1-a053-45f9-b4ae-709fedc58e8b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff820771(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff820771(v=office.15)
 ms:contentKeyID: 48546712
 ms.date: 09/18/2015
 mtps_version: v=office.15

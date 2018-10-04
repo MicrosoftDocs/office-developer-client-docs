@@ -2,7 +2,7 @@
 title: Source Property Example (VB)
 TOCTitle: Source Property Example (VB)
 ms:assetid: 7ebc5028-8a2c-51ab-a397-8a50642fabd5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249532(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249532(v=office.15)
 ms:contentKeyID: 48545885
 ms.date: 09/18/2015
 mtps_version: v=office.15

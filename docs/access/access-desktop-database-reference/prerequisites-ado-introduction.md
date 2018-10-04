@@ -2,7 +2,7 @@
 title: Prerequisites (ADO Introduction)
 TOCTitle: Prerequisites
 ms:assetid: 32a418ed-70d6-06ad-f387-b7a36abf60a6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249098(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249098(v=office.15)
 ms:contentKeyID: 48544084
 ms.date: 09/18/2015
 mtps_version: v=office.15

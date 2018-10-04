@@ -2,7 +2,7 @@
 title: DBEngine.DefaultUser Property (DAO)
 TOCTitle: DefaultUser Property
 ms:assetid: 41ee0211-0794-6026-7341-3698a0b2c588
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff192905(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff192905(v=office.15)
 ms:contentKeyID: 48544464
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Equivalent ANSI SQL Data Types
 TOCTitle: Equivalent ANSI SQL Data Types
 ms:assetid: 720abf59-f9ef-4e14-4223-c873f604ad58
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff195814(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff195814(v=office.15)
 ms:contentKeyID: 48545599
 ms.date: 09/18/2015
 mtps_version: v=office.15

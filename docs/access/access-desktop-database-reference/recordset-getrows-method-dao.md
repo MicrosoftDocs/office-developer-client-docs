@@ -2,7 +2,7 @@
 title: Recordset.GetRows Method (DAO)
 TOCTitle: GetRows Method
 ms:assetid: 59f6e4f0-e7b1-db60-31c7-3338b66d3345
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff194427(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff194427(v=office.15)
 ms:contentKeyID: 48545031
 ms.date: 09/18/2015
 mtps_version: v=office.15

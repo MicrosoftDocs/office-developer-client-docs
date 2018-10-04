@@ -2,7 +2,7 @@
 title: Stream Properties, Methods, and Events (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 12542605-9520-f0a9-09e4-9eac6b37c35e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248897(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248897(v=office.15)
 ms:contentKeyID: 48543339
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -30,7 +30,7 @@ Events
 
 [Position Property](position-property-ado.md)
 
-[Size Property (ADO Stream)](https://msdn.microsoft.com/en-us/library/jj250128\(v=office.15\))
+[Size Property (ADO Stream)](https://msdn.microsoft.com/library/jj250128\(v=office.15\))
 
 [State Property](state-property-ado.md)
 

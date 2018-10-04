@@ -2,7 +2,7 @@
 title: Source Property (ADO Recordset)
 TOCTitle: Source Property (ADO Recordset)
 ms:assetid: 523ea81e-d011-8d87-436e-084b6eba0908
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249269(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249269(v=office.15)
 ms:contentKeyID: 48544843
 ms.date: 09/18/2015
 mtps_version: v=office.15

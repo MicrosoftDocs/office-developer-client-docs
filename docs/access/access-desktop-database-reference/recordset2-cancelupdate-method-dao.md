@@ -2,7 +2,7 @@
 title: Recordset2.CancelUpdate Method (DAO)
 TOCTitle: CancelUpdate Method
 ms:assetid: f741dec1-b9a4-506e-74ec-2bc309b0918e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff836907(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff836907(v=office.15)
 ms:contentKeyID: 48548761
 ms.date: 09/18/2015
 mtps_version: v=office.15

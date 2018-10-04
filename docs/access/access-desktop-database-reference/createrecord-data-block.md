@@ -2,7 +2,7 @@
 title: CreateRecord Data Block
 TOCTitle: CreateRecord Data Block
 ms:assetid: e18f47f8-2aad-9a14-ad63-ab603a4d5b07
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff835671(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff835671(v=office.15)
 ms:contentKeyID: 48548263
 ms.date: 09/18/2015
 mtps_version: v=office.15

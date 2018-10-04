@@ -2,7 +2,7 @@
 title: Databases Members (DAO)
 TOCTitle: Databases Members
 ms:assetid: 26590849-6530-7e10-9a2c-1a9a5b2bfac6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff191890(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff191890(v=office.15)
 ms:contentKeyID: 48543805
 ms.date: 09/18/2015
 mtps_version: v=office.15

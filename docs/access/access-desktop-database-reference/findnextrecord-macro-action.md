@@ -2,7 +2,7 @@
 title: FindNextRecord Macro Action
 TOCTitle: FindNextRecord Macro Action
 ms:assetid: 57fb6457-9098-4e81-c693-78ccd262ce0b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff194307(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff194307(v=office.15)
 ms:contentKeyID: 48544985
 ms.date: 09/18/2015
 mtps_version: v=office.15

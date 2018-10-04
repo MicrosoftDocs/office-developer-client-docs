@@ -2,7 +2,7 @@
 title: Recordset.PercentPosition Property (DAO)
 TOCTitle: PercentPosition Property
 ms:assetid: aebbda44-ed72-7a6c-0cd5-28c8997d4d96
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff821751(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff821751(v=office.15)
 ms:contentKeyID: 48547077
 ms.date: 09/18/2015
 mtps_version: v=office.15

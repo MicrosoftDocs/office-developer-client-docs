@@ -2,7 +2,7 @@
 title: ADOX Objects Reference
 TOCTitle: ADOX Objects
 ms:assetid: a35b8759-848f-47cd-86ff-61ab5b3c7dbf
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249756(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249756(v=office.15)
 ms:contentKeyID: 48546783
 ms.date: 09/18/2015
 mtps_version: v=office.15

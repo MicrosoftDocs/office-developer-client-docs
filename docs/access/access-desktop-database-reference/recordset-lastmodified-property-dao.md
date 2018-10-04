@@ -2,7 +2,7 @@
 title: Recordset.LastModified Property (DAO)
 TOCTitle: LastModified Property
 ms:assetid: 7386f25b-bde1-a446-e980-640696a3bfec
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff195859(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff195859(v=office.15)
 ms:contentKeyID: 48545640
 ms.date: 09/18/2015
 mtps_version: v=office.15

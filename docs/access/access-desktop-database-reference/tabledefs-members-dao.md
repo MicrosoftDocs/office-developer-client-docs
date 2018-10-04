@@ -2,7 +2,7 @@
 title: TableDefs Members (DAO)
 TOCTitle: TableDefs Members
 ms:assetid: 7a365303-1e7d-0c01-67ed-defcc76577d1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff196175(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff196175(v=office.15)
 ms:contentKeyID: 48545784
 ms.date: 09/18/2015
 mtps_version: v=office.15

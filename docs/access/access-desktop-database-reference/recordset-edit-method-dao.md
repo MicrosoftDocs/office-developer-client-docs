@@ -2,7 +2,7 @@
 title: Recordset.Edit Method (DAO)
 TOCTitle: Edit Method
 ms:assetid: a64d601b-f446-da40-0020-b99110a72872
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff821175(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff821175(v=office.15)
 ms:contentKeyID: 48546850
 ms.date: 09/18/2015
 mtps_version: v=office.15

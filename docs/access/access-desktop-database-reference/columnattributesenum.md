@@ -2,7 +2,7 @@
 title: ColumnAttributesEnum
 TOCTitle: ColumnAttributesEnum
 ms:assetid: ec060342-5ec0-020c-dea0-aa64420b73d7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250198(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250198(v=office.15)
 ms:contentKeyID: 48548504
 ms.date: 09/18/2015
 mtps_version: v=office.15

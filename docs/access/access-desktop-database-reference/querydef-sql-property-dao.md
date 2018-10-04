@@ -2,7 +2,7 @@
 title: QueryDef.SQL Property (DAO)
 TOCTitle: SQL Property
 ms:assetid: 16446789-c8be-bff0-eddd-b5f6a8530128
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff845522(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff845522(v=office.15)
 ms:contentKeyID: 48543429
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -244,7 +244,7 @@ This example uses the **CreateQueryDef** and **OpenRecordset** methods and the *
 
 The following example shows how to create a parameter query. A query named **myQuery** is created with two parameters, named Param1 and Param2. To do this, the SQL property of the query is set to a Structured Query Language (SQL) statement that defines the parameters.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](http://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
+**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
 
     Sub CreateQueryWithParameters()
     

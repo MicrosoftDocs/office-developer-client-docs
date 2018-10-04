@@ -2,7 +2,7 @@
 title: StayInSync Property Example (VJ++)
 TOCTitle: StayInSync Property Example (VJ++)
 ms:assetid: e9e0fcc7-07b6-c433-7c4c-478fc69eacaf
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250184(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250184(v=office.15)
 ms:contentKeyID: 48548448
 ms.date: 09/18/2015
 mtps_version: v=office.15

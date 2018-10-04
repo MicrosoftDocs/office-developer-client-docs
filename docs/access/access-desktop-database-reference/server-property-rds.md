@@ -2,7 +2,7 @@
 title: Server Property (RDS)
 TOCTitle: Server Property (RDS)
 ms:assetid: 17519dbe-a43a-1d0d-22c1-dc0def2f63ab
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248926(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248926(v=office.15)
 ms:contentKeyID: 48543448
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -38,7 +38,7 @@ You can set the **Server** property at design time in the [RDS.DataControl](data
 <tbody>
 <tr class="odd">
 <td><p>HTTP</p></td>
-<td><pre><code>&lt;PARAM NAME=&quot;Server&quot; VALUE=&quot;http://awebsrvr:port&quot;&gt;</code></pre>
+<td><pre><code>&lt;PARAM NAME=&quot;Server&quot; VALUE=&quot;https://awebsrvr:port&quot;&gt;</code></pre>
 <p></p></td>
 </tr>
 <tr class="even">
@@ -74,7 +74,7 @@ You can set the **Server** property at design time in the [RDS.DataControl](data
 <tbody>
 <tr class="odd">
 <td><p>HTTP</p></td>
-<td><pre><code>DataControl.Server=&quot;http://awebsrvr:port&quot;</code></pre></td>
+<td><pre><code>DataControl.Server=&quot;https://awebsrvr:port&quot;</code></pre></td>
 </tr>
 <tr class="even">
 <td><p>HTTPS</p></td>

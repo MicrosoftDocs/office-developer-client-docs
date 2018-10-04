@@ -2,7 +2,7 @@
 title: GetRows Method Example (VJ++)
 TOCTitle: GetRows Method Example (VJ++)
 ms:assetid: 60f7d621-3a9d-167e-8798-aeb2a881d975
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249355(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249355(v=office.15)
 ms:contentKeyID: 48545194
 ms.date: 09/18/2015
 mtps_version: v=office.15

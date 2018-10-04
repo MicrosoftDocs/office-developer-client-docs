@@ -2,7 +2,7 @@
 title: Views Delete Method Example (VB)
 TOCTitle: Views Delete Method Example (VB)
 ms:assetid: 423cd4e6-dfa5-8559-b1f3-b789a7aa9590
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249194(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249194(v=office.15)
 ms:contentKeyID: 48544474
 ms.date: 09/18/2015
 mtps_version: v=office.15

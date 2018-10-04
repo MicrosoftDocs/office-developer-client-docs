@@ -2,7 +2,7 @@
 title: DBEngine.DefaultPassword Property (DAO)
 TOCTitle: DefaultPassword Property
 ms:assetid: 189e34f3-d573-c75f-8be2-d98c50df8a52
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff845616(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff845616(v=office.15)
 ms:contentKeyID: 48543478
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Group Object (ADOX)
 TOCTitle: Group Object (ADOX)
 ms:assetid: 91cf1b87-c928-1d89-2731-138f6299cc60
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249642(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249642(v=office.15)
 ms:contentKeyID: 48546359
 ms.date: 09/18/2015
 mtps_version: v=office.15

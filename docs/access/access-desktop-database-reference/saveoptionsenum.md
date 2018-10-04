@@ -2,7 +2,7 @@
 title: SaveOptionsEnum
 TOCTitle: SaveOptionsEnum
 ms:assetid: 2a4e4c7a-6331-7270-0514-cc549c721ffd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249053(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249053(v=office.15)
 ms:contentKeyID: 48543906
 ms.date: 09/18/2015
 mtps_version: v=office.15

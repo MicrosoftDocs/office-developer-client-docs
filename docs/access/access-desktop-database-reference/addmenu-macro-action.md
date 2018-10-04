@@ -2,7 +2,7 @@
 title: AddMenu Macro Action
 TOCTitle: AddMenu Macro Action
 ms:assetid: 4eb2afa0-ed1f-41b1-d27f-b3ce7a73d2bb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff193760(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff193760(v=office.15)
 ms:contentKeyID: 48544762
 ms.date: 09/18/2015
 mtps_version: v=office.15

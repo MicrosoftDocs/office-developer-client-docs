@@ -2,7 +2,7 @@
 title: TableDef.Connect Property (DAO)
 TOCTitle: Connect Property
 ms:assetid: 4fbb324c-a358-8fad-60f2-fb8005cf74d9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff193791(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff193791(v=office.15)
 ms:contentKeyID: 48544782
 ms.date: 09/18/2015
 mtps_version: v=office.15

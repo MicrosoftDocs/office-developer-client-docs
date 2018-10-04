@@ -2,7 +2,7 @@
 title: Field2.DataUpdatable Property (DAO)
 TOCTitle: DataUpdatable Property
 ms:assetid: e6619c4e-26b1-777b-f0de-78fed3dbc890
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff835966(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff835966(v=office.15)
 ms:contentKeyID: 48548377
 ms.date: 09/18/2015
 mtps_version: v=office.15

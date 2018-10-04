@@ -2,7 +2,7 @@
 title: Field2.SourceField Property (DAO)
 TOCTitle: SourceField Property
 ms:assetid: f89146c1-d4a4-1129-636a-c22cf7921a4e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff836948(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff836948(v=office.15)
 ms:contentKeyID: 48548784
 ms.date: 09/18/2015
 mtps_version: v=office.15

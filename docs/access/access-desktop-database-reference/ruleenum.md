@@ -2,7 +2,7 @@
 title: RuleEnum
 TOCTitle: RuleEnum
 ms:assetid: 5b59f202-315b-09b7-8505-9ac08ceccb3d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249317(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249317(v=office.15)
 ms:contentKeyID: 48545071
 ms.date: 09/18/2015
 mtps_version: v=office.15

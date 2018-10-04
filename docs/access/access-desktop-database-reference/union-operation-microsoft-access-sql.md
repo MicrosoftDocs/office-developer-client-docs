@@ -2,7 +2,7 @@
 title: UNION Operation (Microsoft Access SQL)
 TOCTitle: UNION Operation (Microsoft Access SQL)
 ms:assetid: a5139921-51e5-7d96-74e3-11c3fd5f7eaa
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff821131(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff821131(v=office.15)
 ms:contentKeyID: 48546826
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -63,7 +63,7 @@ FROM Customers
 WHERE OrderAmount > 1000;
 ```
 
-By default, no duplicate records are returned when you use a UNION operation; however, you can include the [ALL](https://msdn.microsoft.com/en-us/library/ff195711\(v=office.15\)) predicate to ensure that all records are returned. This also makes the query run faster.
+By default, no duplicate records are returned when you use a UNION operation; however, you can include the [ALL](https://msdn.microsoft.com/library/ff195711\(v=office.15\)) predicate to ensure that all records are returned. This also makes the query run faster.
 
 All queries in a UNION operation must request the same number of fields; however, the fields do not have to be of the same size or data type.
 
@@ -73,9 +73,9 @@ Use aliases only in the first SELECT statement because they are ignored in any o
 > [!NOTE]
 > <UL>
 > <LI>
-> <P>You can use a <A href="https://msdn.microsoft.com/en-us/library/ff837271(v=office.15)">GROUP BY</A> or <A href="https://msdn.microsoft.com/en-us/library/ff193795(v=office.15)">HAVING</A> clause in each <EM>query</EM> argument to group the returned data.</P>
+> <P>You can use a <A href="https://msdn.microsoft.com/library/ff837271(v=office.15)">GROUP BY</A> or <A href="https://msdn.microsoft.com/library/ff193795(v=office.15)">HAVING</A> clause in each <EM>query</EM> argument to group the returned data.</P>
 > <LI>
-> <P>You can use an <A href="https://msdn.microsoft.com/en-us/library/ff198293(v=office.15)">ORDER BY</A> clause at the end of the last <EM>query</EM> argument to display the returned data in a specified order.</P></LI></UL>
+> <P>You can use an <A href="https://msdn.microsoft.com/library/ff198293(v=office.15)">ORDER BY</A> clause at the end of the last <EM>query</EM> argument to display the returned data in a specified order.</P></LI></UL>
 
 
 

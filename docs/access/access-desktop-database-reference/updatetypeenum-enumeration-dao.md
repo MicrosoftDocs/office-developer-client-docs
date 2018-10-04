@@ -2,7 +2,7 @@
 title: UpdateTypeEnum Enumeration (DAO)
 TOCTitle: UpdateTypeEnum Enumeration
 ms:assetid: 7ac38bae-27fc-f3d0-5b75-569bce547954
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff196186(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff196186(v=office.15)
 ms:contentKeyID: 48545800
 ms.date: 09/18/2015
 mtps_version: v=office.15

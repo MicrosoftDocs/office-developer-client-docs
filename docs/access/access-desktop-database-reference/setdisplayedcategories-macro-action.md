@@ -2,7 +2,7 @@
 title: SetDisplayedCategories Macro Action
 TOCTitle: SetDisplayedCategories Macro Action
 ms:assetid: e8bf39a6-c639-2232-7b21-3b0badf37e4b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff836053(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff836053(v=office.15)
 ms:contentKeyID: 48548429
 ms.date: 09/18/2015
 mtps_version: v=office.15

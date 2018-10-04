@@ -2,7 +2,7 @@
 title: Save and Open Methods Example (VJ++)
 TOCTitle: Save and Open Methods Example (VJ++)
 ms:assetid: 15ad340a-2d32-3656-25d1-5c3927b9fed2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248920(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248920(v=office.15)
 ms:contentKeyID: 48543414
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: DefinedSize Property (ADO)
 TOCTitle: DefinedSize Property (ADO)
 ms:assetid: 8d6db4c9-fbdc-9fcd-63f0-bd677c5ebcf6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249619(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249619(v=office.15)
 ms:contentKeyID: 48546257
 ms.date: 09/18/2015
 mtps_version: v=office.15

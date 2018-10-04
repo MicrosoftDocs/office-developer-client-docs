@@ -2,7 +2,7 @@
 title: Resync Method Example (VC++)
 TOCTitle: Resync Method Example (VC++)
 ms:assetid: 4a3af21e-b605-bdad-dfeb-fe89c44c6e45
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249229(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249229(v=office.15)
 ms:contentKeyID: 48544665
 ms.date: 09/18/2015
 mtps_version: v=office.15

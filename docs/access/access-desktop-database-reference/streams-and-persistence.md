@@ -2,7 +2,7 @@
 title: Streams and Persistence
 TOCTitle: Streams and Persistence
 ms:assetid: 564fc098-52bf-77d7-9d48-75186483e3fe
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249289(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249289(v=office.15)
 ms:contentKeyID: 48544949
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -109,7 +109,7 @@ In this scenario, ASP code writes the contents of the **Recordset** in ADTG form
 
 A new property on the RDS [DataControl](datacontrol-object-rds.md), [URL](url-property-rds.md), points to the .asp page that generates the **Recordset**. This means a **Recordset** object can be obtained without RDS using the server-side [DataFactory](datafactory-object-rdsserver.md) object or the user writing a business object. This simplifies the RDS programming model significantly.
 
-Server-side code, named http://server/directory/recordset.asp:
+Server-side code, named https://server/directory/recordset.asp:
 
 ``` 
  
@@ -147,7 +147,7 @@ Client-side code:
  
 <OBJECT classid="clsid:BD96C556-65A3-11D0-983A-00C04FC29E33" 
  ID=DC1 HEIGHT=1 WIDTH = 1> 
- <PARAM NAME="URL" VALUE="http://server/directory/recordset.asp"> 
+ <PARAM NAME="URL" VALUE="https://server/directory/recordset.asp"> 
 </OBJECT> 
  
 </SCRIPT> 
@@ -163,7 +163,7 @@ Developers also have the option of using a **Recordset** object on the client:
 function GetRs() 
  { 
  rs = CreateObject("ADODB.Recordset"); 
- rs.Open "http://server/directory/recordset.asp" 
+ rs.Open "https://server/directory/recordset.asp" 
  DC1.SourceRecordset = rs; 
  } 
 ... 

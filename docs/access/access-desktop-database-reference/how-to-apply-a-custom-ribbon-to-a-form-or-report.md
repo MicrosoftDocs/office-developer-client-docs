@@ -2,7 +2,7 @@
 title: 'How to: Apply a Custom Ribbon to a Form or Report'
 TOCTitle: 'How to: Apply a Custom Ribbon to a Form or Report'
 ms:assetid: 7dcdfa42-3eaa-43f9-b99d-56b2cac97f84
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff196428(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff196428(v=office.15)
 ms:contentKeyID: 48545865
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -53,7 +53,7 @@ One method that you can use to make ribbon customizations available is to store 
 
 **Loading Ribbon Extensibility XML Programmatically**
 
-You can use the **[LoadCustomUI](https://msdn.microsoft.com/en-us/library/ff194416\(v=office.15\))** method to load ribbon customizations programmatically. Typically, to create and make the ribbon available to the application, you first create a module in the database with a procedure that calls the **LoadCustomUI** method, passing in the name of the ribbon and the XML customization markup.
+You can use the **[LoadCustomUI](https://msdn.microsoft.com/library/ff194416\(v=office.15\))** method to load ribbon customizations programmatically. Typically, to create and make the ribbon available to the application, you first create a module in the database with a procedure that calls the **LoadCustomUI** method, passing in the name of the ribbon and the XML customization markup.
 
 The XML markup can come from a **Recordset** object created from a table, from a source external to the database such as an XML file that you parse into a string, or from XML markup embedded directly inside the procedure. You can make different ribbons using multiple calls to the **LoadCustomUI** method, passing in different XML markup as long as the name of each ribbon and the **id** attribute of the tabs that make up the ribbon are unique.
 
@@ -79,6 +79,6 @@ After the procedure is complete, you then create an AutoExec macro that calls th
 
 
 > [!NOTE]
-> <P>For more information about the ribbon UI in other Office applications, see <A href="https://msdn.microsoft.com/en-us/library/ff862537(v=office.15)">Overview of the Office Fluent Ribbon</A>.</P>
+> <P>For more information about the ribbon UI in other Office applications, see <A href="https://msdn.microsoft.com/library/ff862537(v=office.15)">Overview of the Office Fluent Ribbon</A>.</P>
 
 

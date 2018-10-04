@@ -2,7 +2,7 @@
 title: Property Members (DAO)
 TOCTitle: Property Members
 ms:assetid: 32658adb-f153-148d-a216-eb97b996579a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff192303(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff192303(v=office.15)
 ms:contentKeyID: 48544076
 ms.date: 09/18/2015
 mtps_version: v=office.15

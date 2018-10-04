@@ -2,7 +2,7 @@
 title: Recordset.Transactions Property (DAO)
 TOCTitle: Transactions Property
 ms:assetid: 7830c056-8d6a-7942-7993-aa04b29cd77f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff196110(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff196110(v=office.15)
 ms:contentKeyID: 48545746
 ms.date: 09/18/2015
 mtps_version: v=office.15

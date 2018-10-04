@@ -2,7 +2,7 @@
 title: Index.IgnoreNulls Property (DAO)
 TOCTitle: IgnoreNulls Property
 ms:assetid: f49f17b8-d7c1-18ab-07a8-e1be61488519
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff836698(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff836698(v=office.15)
 ms:contentKeyID: 48548694
 ms.date: 09/18/2015
 mtps_version: v=office.15

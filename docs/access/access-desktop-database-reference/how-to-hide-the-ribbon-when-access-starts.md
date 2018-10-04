@@ -2,7 +2,7 @@
 title: 'How to: Hide the Ribbon When Access Starts'
 TOCTitle: 'How to: Hide the Ribbon When Access Starts'
 ms:assetid: f98bab58-8094-1c56-f70b-ced2e7849574
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff837012(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff837012(v=office.15)
 ms:contentKeyID: 48548817
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -66,7 +66,7 @@ The following table lists the ribbon customization settings to store in the **US
 </tr>
 <tr class="even">
 <td><p><strong>RibbonXML</strong></p></td>
-<td><p>&lt;CustomUI xmlns=&quot;http://schemas.microsoft.com/office/2006/01/CustomUI&quot;&gt; &lt;ribbon startFromScratch=&quot;true&quot;/&gt;&lt;/CustomUI&gt;</p></td>
+<td><p>&lt;CustomUI xmlns=&quot;https://schemas.microsoft.com/office/2006/01/CustomUI&quot;&gt; &lt;ribbon startFromScratch=&quot;true&quot;/&gt;&lt;/CustomUI&gt;</p></td>
 </tr>
 </tbody>
 </table>
@@ -88,6 +88,6 @@ To apply a custom ribbon so that it is available when the application starts, us
 
 
 > [!NOTE]
-> For more information about the ribbon UI in other Office applications, see [Overview of the Office Fluent Ribbon](https://msdn.microsoft.com/en-us/library/ff862537(v=office.15)).
+> For more information about the ribbon UI in other Office applications, see [Overview of the Office Fluent Ribbon](https://msdn.microsoft.com/library/ff862537(v=office.15)).
 
 

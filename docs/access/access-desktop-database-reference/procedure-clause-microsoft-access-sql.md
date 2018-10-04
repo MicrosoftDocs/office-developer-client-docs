@@ -2,7 +2,7 @@
 title: PROCEDURE Clause (Microsoft Access SQL)
 TOCTitle: PROCEDURE Clause (Microsoft Access SQL)
 ms:assetid: a718802c-9260-88d5-ec29-d5e5594927b0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff821342(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff821342(v=office.15)
 ms:contentKeyID: 48546872
 ms.date: 09/18/2015
 mtps_version: v=office.15

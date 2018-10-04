@@ -2,7 +2,7 @@
 title: Errors Collection (ADO)
 TOCTitle: Errors Collection (ADO)
 ms:assetid: 76c234b8-7fec-11c5-275e-864d5d880ee7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249486(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249486(v=office.15)
 ms:contentKeyID: 48545706
 ms.date: 09/18/2015
 mtps_version: v=office.15

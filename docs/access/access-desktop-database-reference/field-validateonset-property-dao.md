@@ -2,7 +2,7 @@
 title: Field.ValidateOnSet Property (DAO)
 TOCTitle: ValidateOnSet Property
 ms:assetid: 00245a8a-a78f-b0a8-3eb3-11dd27873984
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff844720(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff844720(v=office.15)
 ms:contentKeyID: 48542898
 ms.date: 09/18/2015
 mtps_version: v=office.15

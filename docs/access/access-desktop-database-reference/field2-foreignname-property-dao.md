@@ -2,7 +2,7 @@
 title: Field2.ForeignName Property (DAO)
 TOCTitle: ForeignName Property
 ms:assetid: 76da233a-efb4-63cd-a2a2-d18d9e2fb2fb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff196027(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff196027(v=office.15)
 ms:contentKeyID: 48545708
 ms.date: 09/18/2015
 mtps_version: v=office.15

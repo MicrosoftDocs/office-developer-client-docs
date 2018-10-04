@@ -2,7 +2,7 @@
 title: ADO MD Methods Reference
 TOCTitle: ADO MD Methods
 ms:assetid: c8421bec-e674-4175-94f7-8504b9ebb506
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249973(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249973(v=office.15)
 ms:contentKeyID: 48547650
 ms.date: 09/18/2015
 mtps_version: v=office.15

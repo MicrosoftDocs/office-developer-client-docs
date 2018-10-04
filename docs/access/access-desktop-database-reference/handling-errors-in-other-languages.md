@@ -2,7 +2,7 @@
 title: Handling Errors In Other Languages
 TOCTitle: Handling Errors In Other Languages
 ms:assetid: 74497220-dcbf-2f1d-8fde-166e0df22cac
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249475(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249475(v=office.15)
 ms:contentKeyID: 48545656
 ms.date: 09/18/2015
 mtps_version: v=office.15

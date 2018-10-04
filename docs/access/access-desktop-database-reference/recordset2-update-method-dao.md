@@ -2,7 +2,7 @@
 title: Recordset2.Update Method (DAO)
 TOCTitle: Update Method
 ms:assetid: 1b47606a-e79c-23f1-b120-46d1429bc167
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff845700(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff845700(v=office.15)
 ms:contentKeyID: 48543537
 ms.date: 09/18/2015
 mtps_version: v=office.15

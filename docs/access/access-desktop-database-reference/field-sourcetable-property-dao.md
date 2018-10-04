@@ -2,7 +2,7 @@
 title: Field.SourceTable Property (DAO)
 TOCTitle: SourceTable Property
 ms:assetid: 9564ea1c-eafd-0b72-fd68-d88fcc3ea189
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff197694(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff197694(v=office.15)
 ms:contentKeyID: 48546429
 ms.date: 09/18/2015
 mtps_version: v=office.15

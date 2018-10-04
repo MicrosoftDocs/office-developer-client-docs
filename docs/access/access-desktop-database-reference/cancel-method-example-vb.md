@@ -2,7 +2,7 @@
 title: Cancel Method Example (VB)
 TOCTitle: Cancel Method Example (VB)
 ms:assetid: 80851036-3627-87c2-60ca-65629136bf28
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249547(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249547(v=office.15)
 ms:contentKeyID: 48545926
 ms.date: 09/18/2015
 mtps_version: v=office.15

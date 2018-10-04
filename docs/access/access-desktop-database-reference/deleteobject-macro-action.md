@@ -2,7 +2,7 @@
 title: DeleteObject Macro Action
 TOCTitle: DeleteObject Macro Action
 ms:assetid: a8deb2a7-4e73-8696-b8c1-3a3939d813f7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff821415(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff821415(v=office.15)
 ms:contentKeyID: 48546912
 ms.date: 09/18/2015
 mtps_version: v=office.15

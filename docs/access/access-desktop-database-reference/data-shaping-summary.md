@@ -2,7 +2,7 @@
 title: Data Shaping Summary
 TOCTitle: Data Shaping Summary
 ms:assetid: b1a34128-2846-12ef-d157-16636cf80bd8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249847(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249847(v=office.15)
 ms:contentKeyID: 48547153
 ms.date: 09/18/2015
 mtps_version: v=office.15

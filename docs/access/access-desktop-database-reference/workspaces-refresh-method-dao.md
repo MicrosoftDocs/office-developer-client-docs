@@ -2,7 +2,7 @@
 title: Workspaces.Refresh Method (DAO)
 TOCTitle: Refresh Method
 ms:assetid: e22c8c45-c3e1-b587-a36e-d9fff3f39695
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff835687(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff835687(v=office.15)
 ms:contentKeyID: 48548275
 ms.date: 09/18/2015
 mtps_version: v=office.15

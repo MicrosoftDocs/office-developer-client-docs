@@ -2,7 +2,7 @@
 title: CREATE USER or GROUP Statement (Microsoft Access SQL)
 TOCTitle: CREATE USER or GROUP Statement (Microsoft Access SQL)
 ms:assetid: 62148ce2-0f81-944e-a1ab-edef990fff9f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff194914(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff194914(v=office.15)
 ms:contentKeyID: 48545229
 ms.date: 09/18/2015
 mtps_version: v=office.15

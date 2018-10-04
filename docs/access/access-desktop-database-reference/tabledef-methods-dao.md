@@ -2,7 +2,7 @@
 title: TableDef Methods (DAO)
 TOCTitle: Methods
 ms:assetid: 16c435e7-85ce-4888-9ad9-a12a0bc37d90
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn123832(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn123832(v=office.15)
 ms:contentKeyID: 52071472
 ms.date: 09/18/2015
 mtps_version: v=office.15

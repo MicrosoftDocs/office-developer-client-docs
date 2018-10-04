@@ -2,7 +2,7 @@
 title: Index.Primary Property (DAO)
 TOCTitle: Primary Property
 ms:assetid: 90eda1cb-cf7f-9682-9b74-81c27a37af16
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff197416(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff197416(v=office.15)
 ms:contentKeyID: 48546336
 ms.date: 09/18/2015
 mtps_version: v=office.15

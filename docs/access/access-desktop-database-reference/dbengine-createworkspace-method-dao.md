@@ -2,7 +2,7 @@
 title: DBEngine.CreateWorkspace Method (DAO)
 TOCTitle: CreateWorkspace Method
 ms:assetid: a7d73771-9420-0448-99e6-d6c4aa78683a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff821374(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff821374(v=office.15)
 ms:contentKeyID: 48546888
 ms.date: 09/18/2015
 mtps_version: v=office.15

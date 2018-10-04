@@ -2,7 +2,7 @@
 title: Workspaces.Delete Method (DAO)
 TOCTitle: Delete Method
 ms:assetid: 0774a791-63da-a31a-552a-c5aa4d1f1b50
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff844977(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff844977(v=office.15)
 ms:contentKeyID: 48543078
 ms.date: 09/18/2015
 mtps_version: v=office.15

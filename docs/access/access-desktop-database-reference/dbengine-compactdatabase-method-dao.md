@@ -2,7 +2,7 @@
 title: DBEngine.CompactDatabase Method (DAO)
 TOCTitle: CompactDatabase Method
 ms:assetid: 03f3a156-005a-4b71-81b0-598f326f7d42
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff844821(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff844821(v=office.15)
 ms:contentKeyID: 48542997
 ms.date: 10/24/2016
 mtps_version: v=office.15

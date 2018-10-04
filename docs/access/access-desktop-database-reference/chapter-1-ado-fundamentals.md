@@ -2,7 +2,7 @@
 title: 'Chapter 1: ADO Fundamentals'
 TOCTitle: 'Chapter 1: ADO Fundamentals'
 ms:assetid: d9834665-062b-c469-77a6-7fd9ea2a848e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250096(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250096(v=office.15)
 ms:contentKeyID: 48548054
 ms.date: 09/18/2015
 mtps_version: v=office.15

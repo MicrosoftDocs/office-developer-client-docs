@@ -2,7 +2,7 @@
 title: Field.DefaultValue Property (DAO)
 TOCTitle: DefaultValue Property
 ms:assetid: 8a1c558b-c8f6-757d-c595-4e50b9b6ae3f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff197092(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff197092(v=office.15)
 ms:contentKeyID: 48546185
 ms.date: 09/18/2015
 mtps_version: v=office.15

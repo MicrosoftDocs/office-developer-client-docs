@@ -2,7 +2,7 @@
 title: Working with Multidimensional Data
 TOCTitle: Working with Multidimensional Data
 ms:assetid: a0c9ac73-04da-cfdd-8787-15c8a53ff819
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249740(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249740(v=office.15)
 ms:contentKeyID: 48546717
 ms.date: 09/18/2015
 mtps_version: v=office.15

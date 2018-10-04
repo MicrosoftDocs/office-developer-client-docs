@@ -2,7 +2,7 @@
 title: Property Object (DAO)
 TOCTitle: Property Object
 ms:assetid: a1ecb0db-bb93-a7b5-23c3-0b73f275dfe0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff820932(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff820932(v=office.15)
 ms:contentKeyID: 48546744
 ms.date: 09/18/2015
 mtps_version: v=office.15

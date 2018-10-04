@@ -2,7 +2,7 @@
 title: ADOX Methods Reference
 TOCTitle: ADOX Methods
 ms:assetid: 96f1b2d7-16b2-42ca-90bd-2f73127dc989
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249672(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249672(v=office.15)
 ms:contentKeyID: 48546461
 ms.date: 09/18/2015
 mtps_version: v=office.15

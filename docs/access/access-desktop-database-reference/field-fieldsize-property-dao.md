@@ -2,7 +2,7 @@
 title: Field.FieldSize Property (DAO)
 TOCTitle: FieldSize Property
 ms:assetid: c81bd5cb-6b7c-5390-2d6b-049143f2f3b6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff823165(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff823165(v=office.15)
 ms:contentKeyID: 48547645
 ms.date: 09/18/2015
 mtps_version: v=office.15

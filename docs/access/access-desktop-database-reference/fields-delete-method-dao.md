@@ -2,7 +2,7 @@
 title: Fields.Delete Method (DAO)
 TOCTitle: Delete Method
 ms:assetid: a8e249e7-7526-3eff-a5cf-70cab2081970
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff821417(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff821417(v=office.15)
 ms:contentKeyID: 48546913
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Microsoft OLE DB Provider for Oracle
 TOCTitle: Microsoft OLE DB Provider for Oracle
 ms:assetid: 97508e3f-077f-9b85-f4dd-8dd01a201aba
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249674(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249674(v=office.15)
 ms:contentKeyID: 48546465
 ms.date: 09/18/2015
 mtps_version: v=office.15

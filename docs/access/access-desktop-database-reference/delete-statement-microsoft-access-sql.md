@@ -2,7 +2,7 @@
 title: DELETE Statement (Microsoft Access SQL)
 TOCTitle: DELETE Statement (Microsoft Access SQL)
 ms:assetid: 64c235bc-5b1a-0a33-714a-9933ba7a81e5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff195097(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff195097(v=office.15)
 ms:contentKeyID: 48545299
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -22,7 +22,7 @@ Syntax
 Remarks  
 Example  
 
-Creates a delete query that removes records from one or more of the tables listed in the [FROM](https://msdn.microsoft.com/en-us/library/ff836674\(v=office.15\)) clause that satisfy the [WHERE](https://msdn.microsoft.com/en-us/library/ff195245\(v=office.15\)) clause.
+Creates a delete query that removes records from one or more of the tables listed in the [FROM](https://msdn.microsoft.com/library/ff836674\(v=office.15\)) clause that satisfy the [WHERE](https://msdn.microsoft.com/library/ff195245\(v=office.15\)) clause.
 
 ## Syntax
 

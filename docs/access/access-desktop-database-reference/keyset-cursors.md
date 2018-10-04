@@ -2,7 +2,7 @@
 title: Keyset Cursors
 TOCTitle: Keyset Cursors
 ms:assetid: 4b6e5f90-4413-4fb3-0a08-2cb89d3c61f7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249236(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249236(v=office.15)
 ms:contentKeyID: 48544690
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: TableDefs.Refresh Method (DAO)
 TOCTitle: Refresh Method
 ms:assetid: f76c1a3f-1561-ce1f-a535-a5a2179ea739
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff836915(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff836915(v=office.15)
 ms:contentKeyID: 48548765
 ms.date: 09/18/2015
 mtps_version: v=office.15

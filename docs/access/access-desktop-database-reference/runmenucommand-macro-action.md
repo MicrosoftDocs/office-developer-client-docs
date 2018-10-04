@@ -2,7 +2,7 @@
 title: RunMenuCommand Macro Action
 TOCTitle: RunMenuCommand Macro Action
 ms:assetid: cc4a4f72-0c73-91b7-8cec-6cbcda7e5b1c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff834420(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff834420(v=office.15)
 ms:contentKeyID: 48547735
 ms.date: 09/18/2015
 mtps_version: v=office.15

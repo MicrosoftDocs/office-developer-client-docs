@@ -2,7 +2,7 @@
 title: State Property (ADO)
 TOCTitle: State Property (ADO)
 ms:assetid: ade0a50c-e2d8-23ac-4ea9-b012fedcd5db
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249819(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249819(v=office.15)
 ms:contentKeyID: 48547053
 ms.date: 09/18/2015
 mtps_version: v=office.15

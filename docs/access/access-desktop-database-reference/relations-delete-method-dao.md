@@ -2,7 +2,7 @@
 title: Relations.Delete Method (DAO)
 TOCTitle: Delete Method
 ms:assetid: e95408d2-9dde-44e7-875e-8f2d4b837cf6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff836064(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff836064(v=office.15)
 ms:contentKeyID: 48548438
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: QueryDef Object (DAO)
 TOCTitle: QueryDef Object
 ms:assetid: 0b3d901c-345d-42a2-f5f1-fb09cc562e27
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff845129(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff845129(v=office.15)
 ms:contentKeyID: 48543169
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -50,9 +50,9 @@ QueryDefs\!\[ name\]
 
 You can refer to temporary **QueryDef** objects only by the object variables that you have assigned to them.
 
-**Link provided by** the [UtterAccess](http://www.utteraccess.com) community. UtterAccess is the premier Microsoft Access wiki and help forum.
+**Link provided by** the [UtterAccess](https://www.utteraccess.com) community. UtterAccess is the premier Microsoft Access wiki and help forum.
 
-  - [Queries: Document SQL to Word](http://www.utteraccess.com/wiki/index.php/queries:_document_sql_to_word)
+  - [Queries: Document SQL to Word](https://www.utteraccess.com/wiki/index.php/queries:_document_sql_to_word)
 
 ## Example
 
@@ -160,7 +160,7 @@ This example uses the **CreateQueryDef** method to create and execute both a tem
 
 The following example shows how to replace the Structured Query Language (SQL) statement in a saved query.
 
-**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](http://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html).
+**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html).
 
 ```sql
     ‘To change the Where clause in a saved query  

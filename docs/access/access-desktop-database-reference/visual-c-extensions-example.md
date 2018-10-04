@@ -2,7 +2,7 @@
 title: Visual C++ Extensions Example
 TOCTitle: Visual C++ Extensions Example
 ms:assetid: fe57868f-5707-3c5b-cb93-4121732d67cc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250305(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250305(v=office.15)
 ms:contentKeyID: 48548934
 ms.date: 09/18/2015
 mtps_version: v=office.15

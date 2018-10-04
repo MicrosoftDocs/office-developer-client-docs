@@ -2,7 +2,7 @@
 title: QueryDef.ReturnsRecords Property (DAO)
 TOCTitle: ReturnsRecords Property
 ms:assetid: 3d1e538b-4d60-588f-4a20-89f1e2b434e6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff192701(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff192701(v=office.15)
 ms:contentKeyID: 48544334
 ms.date: 09/18/2015
 mtps_version: v=office.15

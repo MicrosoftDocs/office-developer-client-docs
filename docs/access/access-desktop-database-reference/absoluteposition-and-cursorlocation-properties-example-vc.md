@@ -2,7 +2,7 @@
 title: AbsolutePosition and CursorLocation Properties Example (VC++)
 TOCTitle: AbsolutePosition and CursorLocation Properties Example (VC++)
 ms:assetid: a1ae63dd-296b-09b0-a898-091b855e3141
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249745(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249745(v=office.15)
 ms:contentKeyID: 48546739
 ms.date: 09/18/2015
 mtps_version: v=office.15

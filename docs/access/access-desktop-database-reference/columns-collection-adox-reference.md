@@ -2,7 +2,7 @@
 title: Columns Collection (ADOX) Reference
 TOCTitle: Columns Collection (ADOX)
 ms:assetid: 0ae90fa1-09ed-4d6e-b573-8dc83d000551
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248841(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248841(v=office.15)
 ms:contentKeyID: 48543165
 ms.date: 09/18/2015
 mtps_version: v=office.15

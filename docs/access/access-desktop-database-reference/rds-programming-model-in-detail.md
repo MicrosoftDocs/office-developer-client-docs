@@ -2,7 +2,7 @@
 title: RDS Programming Model in Detail
 TOCTitle: RDS Programming Model in Detail
 ms:assetid: 133fc059-9b51-52e2-2e61-339716d8d965
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248906(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248906(v=office.15)
 ms:contentKeyID: 48543364
 ms.date: 09/18/2015
 mtps_version: v=office.15

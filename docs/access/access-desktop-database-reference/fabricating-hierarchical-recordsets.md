@@ -2,7 +2,7 @@
 title: Fabricating Hierarchical Recordsets
 TOCTitle: Fabricating Hierarchical Recordsets
 ms:assetid: 0a6e41ba-015e-c07e-8876-1e744256b876
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248836(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248836(v=office.15)
 ms:contentKeyID: 48543153
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Prepared Property (ADO)
 TOCTitle: Prepared Property (ADO)
 ms:assetid: 33becda2-faab-5000-8904-6ffd8c5805f2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249105(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249105(v=office.15)
 ms:contentKeyID: 48544116
 ms.date: 09/18/2015
 mtps_version: v=office.15

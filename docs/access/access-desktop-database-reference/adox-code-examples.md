@@ -2,7 +2,7 @@
 title: ADOX Code Examples
 TOCTitle: ADOX Code Examples
 ms:assetid: 706689e7-8b34-59eb-533b-65fb73f1eb5f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249443(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249443(v=office.15)
 ms:contentKeyID: 48545557
 ms.date: 09/18/2015
 mtps_version: v=office.15

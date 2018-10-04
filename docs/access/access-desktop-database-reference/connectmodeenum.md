@@ -2,7 +2,7 @@
 title: ConnectModeEnum
 TOCTitle: ConnectModeEnum
 ms:assetid: a15aa733-f899-5fe9-e705-67a4301706d1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249743(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249743(v=office.15)
 ms:contentKeyID: 48546728
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: GoToRecord Macro Action
 TOCTitle: GoToRecord Macro Action
 ms:assetid: 76f936de-739b-63be-9b28-5b0e111408e6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff196037(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff196037(v=office.15)
 ms:contentKeyID: 48545712
 ms.date: 09/18/2015
 mtps_version: v=office.15

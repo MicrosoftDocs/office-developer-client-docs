@@ -2,7 +2,7 @@
 title: Groups and Users Append, ChangePassword Methods Example (VB)
 TOCTitle: Groups and Users Append, ChangePassword Methods Example (VB)
 ms:assetid: e9ae5f1c-d1fa-ab58-c889-b4e197cecf4c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250183(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250183(v=office.15)
 ms:contentKeyID: 48548445
 ms.date: 09/18/2015
 mtps_version: v=office.15

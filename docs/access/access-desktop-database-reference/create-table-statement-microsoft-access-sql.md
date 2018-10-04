@@ -2,7 +2,7 @@
 title: CREATE TABLE Statement (Microsoft Access SQL)
 TOCTitle: CREATE TABLE Statement (Microsoft Access SQL)
 ms:assetid: fc45d36e-6e43-c030-5016-cca8bb1379fe
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff837200(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff837200(v=office.15)
 ms:contentKeyID: 48548888
 ms.date: 09/18/2015
 mtps_version: v=office.15

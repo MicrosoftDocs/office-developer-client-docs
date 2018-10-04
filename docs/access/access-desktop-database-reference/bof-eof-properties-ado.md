@@ -2,7 +2,7 @@
 title: BOF, EOF Properties (ADO)
 TOCTitle: BOF, EOF Properties (ADO)
 ms:assetid: f797e140-5572-1a4d-9afc-285f6a3868a8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250260(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250260(v=office.15)
 ms:contentKeyID: 48548768
 ms.date: 09/18/2015
 mtps_version: v=office.15

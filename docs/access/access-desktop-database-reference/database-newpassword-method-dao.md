@@ -2,7 +2,7 @@
 title: Database.NewPassword Method (DAO)
 TOCTitle: NewPassword Method
 ms:assetid: 01c1c454-d651-222c-225a-2b02734a1b7a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff844754(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff844754(v=office.15)
 ms:contentKeyID: 48542941
 ms.date: 09/18/2015
 mtps_version: v=office.15

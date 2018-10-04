@@ -2,7 +2,7 @@
 title: 'Chapter 6: Error Handling'
 TOCTitle: 'Chapter 6: Error Handling'
 ms:assetid: 6ae7343b-b9e0-c4c3-f65c-110f903e573e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249420(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249420(v=office.15)
 ms:contentKeyID: 48545440
 ms.date: 09/18/2015
 mtps_version: v=office.15

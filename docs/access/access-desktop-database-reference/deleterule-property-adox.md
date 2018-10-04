@@ -2,7 +2,7 @@
 title: DeleteRule Property (ADOX)
 TOCTitle: DeleteRule Property (ADOX)
 ms:assetid: cd05e024-c1fc-a0b8-8ada-e05ec899c334
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250018(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250018(v=office.15)
 ms:contentKeyID: 48547752
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: ODBC Scalar Functions
 TOCTitle: ODBC Scalar Functions
 ms:assetid: dc1096bf-8241-036a-14c6-b19afae45454
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff835353(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff835353(v=office.15)
 ms:contentKeyID: 48548120
 ms.date: 09/18/2015
 mtps_version: v=office.15

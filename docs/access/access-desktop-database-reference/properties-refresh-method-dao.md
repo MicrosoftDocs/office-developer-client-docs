@@ -2,7 +2,7 @@
 title: Properties.Refresh Method (DAO)
 TOCTitle: Refresh Method
 ms:assetid: 71ba18fb-55a5-6a5f-3631-1c81c20f3369
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff195805(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff195805(v=office.15)
 ms:contentKeyID: 48545593
 ms.date: 09/18/2015
 mtps_version: v=office.15

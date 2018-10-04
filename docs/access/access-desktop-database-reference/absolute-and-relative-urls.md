@@ -2,7 +2,7 @@
 title: Absolute and Relative URLs
 TOCTitle: Absolute and Relative URLs
 ms:assetid: 79a1f793-7154-1c13-7dfe-a1b8cd64e1ea
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249501(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249501(v=office.15)
 ms:contentKeyID: 48545774
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -62,7 +62,7 @@ Context may also be defined with an open **Record** or **Recordset** object that
 
 ## Scoped Operations
 
-The context simultaneously defines a *scope* — that is, the directory and its subdirectories that may participate in subsequent operations. The **Record** object has several scoped methods, including [CopyRecord](copyrecord-method-ado.md), [MoveRecord](moverecord-method-ado.md), and [DeleteRecord](https://msdn.microsoft.com/en-us/library/jj249832\(v=office.15\)), that operate on a directory and all its subdirectories.
+The context simultaneously defines a *scope* — that is, the directory and its subdirectories that may participate in subsequent operations. The **Record** object has several scoped methods, including [CopyRecord](copyrecord-method-ado.md), [MoveRecord](moverecord-method-ado.md), and [DeleteRecord](https://msdn.microsoft.com/library/jj249832\(v=office.15\)), that operate on a directory and all its subdirectories.
 
 ## Relative URLs as Command Text
 
@@ -74,7 +74,7 @@ For example, a **Recordset** could be opened on the Readme25.txt file of the Win
 
 ``` 
  
-recordset.Open "system32/Readme25.txt", "URL=http://YourServer/Winnt/",,,adCmdTableDirect 
+recordset.Open "system32/Readme25.txt", "URL=https://YourServer/Winnt/",,,adCmdTableDirect 
 ```
 
 The absolute URL in the connection string specifies the server (YourServer ) and the path () and the path (Winnt ). This URL also defines the context.
@@ -87,7 +87,7 @@ As another example, the following code will open a **Recordset** on the contents
 
 ``` 
  
-recordset.Open "", "URL=http://YourServer/Winnt/",,,adCmdTableDirect 
+recordset.Open "", "URL=https://YourServer/Winnt/",,,adCmdTableDirect 
 ```
 
 ## OLE DB Provider-Supplied URL Schemes

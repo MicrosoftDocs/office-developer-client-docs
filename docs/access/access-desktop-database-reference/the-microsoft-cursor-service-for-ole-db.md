@@ -2,7 +2,7 @@
 title: The Microsoft Cursor Service for OLE DB
 TOCTitle: The Microsoft Cursor Service for OLE DB
 ms:assetid: 31861eef-9860-c884-3c60-9794def7be78
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249088(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249088(v=office.15)
 ms:contentKeyID: 48544057
 ms.date: 09/18/2015
 mtps_version: v=office.15

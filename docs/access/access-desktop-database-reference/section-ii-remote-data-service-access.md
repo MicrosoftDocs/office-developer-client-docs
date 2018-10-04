@@ -2,7 +2,7 @@
 title: 'Section II: Remote Data Service (Access)'
 TOCTitle: 'Section II: remote data service'
 ms:assetid: 2a79176f-c42f-4122-b4f5-2ab02685b622
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249055(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249055(v=office.15)
 ms:contentKeyID: 48543908
 ms.date: 09/18/2015
 mtps_version: v=office.15

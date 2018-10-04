@@ -2,7 +2,7 @@
 title: Provider and DefaultDatabase Properties Example (VB)
 TOCTitle: Provider and DefaultDatabase Properties Example (VB)
 ms:assetid: 337b90e6-851d-2101-0671-50c4173aec13
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249104(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249104(v=office.15)
 ms:contentKeyID: 48544107
 ms.date: 09/18/2015
 mtps_version: v=office.15

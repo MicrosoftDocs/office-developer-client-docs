@@ -2,7 +2,7 @@
 title: DataControl Properties, Methods, and Events (RDS)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 93590783-2102-534c-6639-212ae9d63fe0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249652(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249652(v=office.15)
 ms:contentKeyID: 48546397
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -46,7 +46,7 @@ Events
 
 [SortDirection Property (RDS)](sortdirection-property-rds.md)
 
-[SQL Property (RDS)](https://msdn.microsoft.com/en-us/library/jj248989\(v=office.15\))
+[SQL Property (RDS)](https://msdn.microsoft.com/library/jj248989\(v=office.15\))
 
 [URL Property (RDS)](url-property-rds.md)
 

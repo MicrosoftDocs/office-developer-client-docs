@@ -2,7 +2,7 @@
 title: After Update Macro Event
 TOCTitle: After Update Macro Event
 ms:assetid: 5213793b-8301-0f18-3a12-4e3764c879ac
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff193905(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff193905(v=office.15)
 ms:contentKeyID: 48544838
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -175,7 +175,7 @@ To view this example in the macro designer, use the following steps:
 
 <!-- end list -->
 
-    <DataMacros xmlns="http://schemas.microsoft.com/office/accessservices/2009/04/application"> 
+    <DataMacros xmlns="https://schemas.microsoft.com/office/accessservices/2009/04/application"> 
       <DataMacro Event="AfterUpdate"> 
         <Statements> 
           <ConditionalBlock> 

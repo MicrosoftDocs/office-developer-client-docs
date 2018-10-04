@@ -2,7 +2,7 @@
 title: FetchProgress Event (ADO)
 TOCTitle: FetchProgress Event (ADO)
 ms:assetid: 09145d9a-ea5e-b41c-6c54-33ec83e642a9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248828(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248828(v=office.15)
 ms:contentKeyID: 48543114
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: RenameObject Macro Action
 TOCTitle: RenameObject Macro Action
 ms:assetid: fee04eb0-23c0-5d57-b903-e1ae54f2d25e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff837293(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff837293(v=office.15)
 ms:contentKeyID: 48548948
 ms.date: 09/18/2015
 mtps_version: v=office.15

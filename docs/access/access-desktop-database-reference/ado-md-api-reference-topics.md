@@ -2,7 +2,7 @@
 title: ADO MD API Reference Topics
 TOCTitle: ADO MD API reference
 ms:assetid: af1d69ed-859d-4f38-88b8-fdcc381a0448
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249833(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249833(v=office.15)
 ms:contentKeyID: 48547094
 ms.date: 09/18/2015
 mtps_version: v=office.15

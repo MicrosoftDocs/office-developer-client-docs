@@ -2,7 +2,7 @@
 title: EditMode Property (ADO)
 TOCTitle: EditMode Property (ADO)
 ms:assetid: 28ca8f14-abee-ad20-9c16-11bb36b487e4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249045(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249045(v=office.15)
 ms:contentKeyID: 48543867
 ms.date: 09/18/2015
 mtps_version: v=office.15

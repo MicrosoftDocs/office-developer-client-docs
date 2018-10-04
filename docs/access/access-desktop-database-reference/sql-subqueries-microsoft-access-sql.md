@@ -2,7 +2,7 @@
 title: SQL Subqueries (Microsoft Access SQL)
 TOCTitle: SQL Subqueries (Microsoft Access SQL)
 ms:assetid: 3b6c0a5d-ab24-e1cf-0175-3f8e68c2dfbf
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff192664(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff192664(v=office.15)
 ms:contentKeyID: 48544285
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -68,7 +68,7 @@ A subquery has these parts:
 
 ## Remarks
 
-You can use a subquery instead of an expression in the field list of a SELECT statement or in a [WHERE](https://msdn.microsoft.com/en-us/library/ff195245\(v=office.15\)) or [HAVING](https://msdn.microsoft.com/en-us/library/ff193795\(v=office.15\)) clause. In a subquery, you use a SELECT statement to provide a set of one or more specific values to evaluate in the WHERE or HAVING clause expression.
+You can use a subquery instead of an expression in the field list of a SELECT statement or in a [WHERE](https://msdn.microsoft.com/library/ff195245\(v=office.15\)) or [HAVING](https://msdn.microsoft.com/library/ff193795\(v=office.15\)) clause. In a subquery, you use a SELECT statement to provide a set of one or more specific values to evaluate in the WHERE or HAVING clause expression.
 
 Use the ANY or SOME predicate, which are synonymous, to retrieve records in the main query that satisfy the comparison with any records retrieved in the subquery. The following example returns all products whose unit price is greater than that of any product sold at a discount of 25 percent or more:
 
@@ -79,7 +79,7 @@ WHERE UnitPrice > ANY
 WHERE Discount >= .25);
 ```
 
-Use the [ALL](https://msdn.microsoft.com/en-us/library/ff195711\(v=office.15\)) predicate to retrieve only those records in the main query that satisfy the comparison with all records retrieved in the subquery. If you changed ANY to ALL in the previous example, the query would return only those products whose unit price is greater than that of all products sold at a discount of 25 percent or more. This is much more restrictive.
+Use the [ALL](https://msdn.microsoft.com/library/ff195711\(v=office.15\)) predicate to retrieve only those records in the main query that satisfy the comparison with all records retrieved in the subquery. If you changed ANY to ALL in the previous example, the query would return only those products whose unit price is greater than that of all products sold at a discount of 25 percent or more. This is much more restrictive.
 
 Use the IN predicate to retrieve only those records in the main query for which some record in the subquery contains an equal value. The following example returns all products with a discount of 25 percent or more:
 
@@ -94,7 +94,7 @@ Conversely, you can use NOT IN to retrieve only those records in the main query 
 
 Use the EXISTS predicate (with the optional NOT reserved word) in true/false comparisons to determine whether the subquery returns any records.
 
-You can also use table name aliases in a subquery to refer to tables listed in a [FROM](https://msdn.microsoft.com/en-us/library/ff836674\(v=office.15\)) clause outside the subquery. The following example returns the names of employees whose salaries are equal to or greater than the average salary of all employees having the same job title. The Employees table is given the alias "T1":
+You can also use table name aliases in a subquery to refer to tables listed in a [FROM](https://msdn.microsoft.com/library/ff836674\(v=office.15\)) clause outside the subquery. The following example returns the names of employees whose salaries are equal to or greater than the average salary of all employees having the same job title. The Employees table is given the alias "T1":
 
 ``` sql
 SELECT LastName,

@@ -2,7 +2,7 @@
 title: Source Property (ADO MD)
 TOCTitle: Source Property (ADO MD)
 ms:assetid: 956e8bf4-a1af-3202-b289-61073a14ee6c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249664(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249664(v=office.15)
 ms:contentKeyID: 48546431
 ms.date: 09/18/2015
 mtps_version: v=office.15

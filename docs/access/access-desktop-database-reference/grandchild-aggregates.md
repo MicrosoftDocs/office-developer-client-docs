@@ -2,7 +2,7 @@
 title: Grandchild Aggregates
 TOCTitle: Grandchild Aggregates
 ms:assetid: ea5e2e1f-f3d5-f851-623a-a5d1385fe206
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250188(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250188(v=office.15)
 ms:contentKeyID: 48548462
 ms.date: 09/18/2015
 mtps_version: v=office.15

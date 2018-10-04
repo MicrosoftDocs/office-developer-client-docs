@@ -2,7 +2,7 @@
 title: QueryDef.Connect Property (DAO)
 TOCTitle: Connect Property
 ms:assetid: 14f19205-e92e-acc6-5677-b6d88772d5da
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff845479(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff845479(v=office.15)
 ms:contentKeyID: 48543398
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: RecordTypeEnum
 TOCTitle: RecordTypeEnum
 ms:assetid: 7edd6508-1507-4649-f1aa-03f1873ef09c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249534(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249534(v=office.15)
 ms:contentKeyID: 48545890
 ms.date: 09/18/2015
 mtps_version: v=office.15

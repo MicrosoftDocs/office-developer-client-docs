@@ -2,7 +2,7 @@
 title: CancelEvent Macro Action
 TOCTitle: CancelEvent Macro Action
 ms:assetid: d9d3ea99-c9fb-2524-c570-e3ee6d20af98
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff835110(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff835110(v=office.15)
 ms:contentKeyID: 48548066
 ms.date: 09/18/2015
 mtps_version: v=office.15

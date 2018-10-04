@@ -2,7 +2,7 @@
 title: Refresh Method Example (VB)
 TOCTitle: Refresh Method Example (VB)
 ms:assetid: d5094e57-e85e-7c65-cd28-ac04692608d0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250071(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250071(v=office.15)
 ms:contentKeyID: 48547958
 ms.date: 09/18/2015
 mtps_version: v=office.15

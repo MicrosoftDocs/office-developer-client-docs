@@ -2,7 +2,7 @@
 title: After Delete Macro Event
 TOCTitle: After Delete Macro Event
 ms:assetid: ecf9e6d4-345f-9b78-eb36-bd526e5df09b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff836323(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff836323(v=office.15)
 ms:contentKeyID: 48548527
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -178,7 +178,7 @@ To view this example in the macro designer, use the following steps.
 <!-- end list -->
 
     <?xml version="1.0" encoding="UTF-16" standalone="no"?> 
-    <DataMacros xmlns="http://schemas.microsoft.com/office/accessservices/2009/04/application"> 
+    <DataMacros xmlns="https://schemas.microsoft.com/office/accessservices/2009/04/application"> 
       <DataMacro Event="AfterDelete"> 
         <Statements> 
           <Comment>Initialize a variable and assign the old</Comment> 

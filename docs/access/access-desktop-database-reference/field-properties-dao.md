@@ -2,7 +2,7 @@
 title: Field Properties (DAO)
 TOCTitle: Properties
 ms:assetid: 015f30e9-324c-46b1-8e19-e68954e66139
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn123487(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn123487(v=office.15)
 ms:contentKeyID: 52071130
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Key Properties, Methods, and Events (ADOX)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 35639116-c8ec-103d-88f6-c0560efef2c0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249115(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249115(v=office.15)
 ms:contentKeyID: 48544145
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -28,7 +28,7 @@ Events
 
 [RelatedTable Property](relatedtable-property-adox.md)
 
-[Type Property (Key)](https://msdn.microsoft.com/en-us/library/jj248879\(v=office.15\))
+[Type Property (Key)](https://msdn.microsoft.com/library/jj248879\(v=office.15\))
 
 [UpdateRule Property](updaterule-property-adox.md)
 

@@ -2,7 +2,7 @@
 title: RDS Tutorial (VBScript)
 TOCTitle: RDS Tutorial (VBScript)
 ms:assetid: 7a6596fd-00b9-a637-7d00-fb55a621305f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249506(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249506(v=office.15)
 ms:contentKeyID: 48545792
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -40,7 +40,7 @@ VBScript can discover the name of the IIS Web server it is running on by accessi
 
 ``` 
  
-"http://<%=Request.ServerVariables("SERVER_NAME")%>" 
+"https://<%=Request.ServerVariables("SERVER_NAME")%>" 
 ```
 
 However, for this tutorial, use the imaginary server, "yourServer".
@@ -53,7 +53,7 @@ However, for this tutorial, use the imaginary server, "yourServer".
 
 ``` 
  
-Set DF1 = DS1.CreateObject("RDSServer.DataFactory", "http://yourServer") 
+Set DF1 = DS1.CreateObject("RDSServer.DataFactory", "https://yourServer") 
 ```
 
 **Step 2a — Invoke the server program with RDS.DataControl**
@@ -65,7 +65,7 @@ This example is merely a comment demonstrating that the default behavior of the 
 <OBJECT CLASSID="clsid:BD96C556-65A3-11D0-983A-00C04FC29E33" ID="DC1"> 
  <PARAM NAME="SQL" VALUE="SELECT * FROM Authors"> 
  <PARAM NAME="Connect" VALUE="DSN=Pubs;"> 
- <PARAM NAME="Server" VALUE="http://yourServer/"> 
+ <PARAM NAME="Server" VALUE="https://yourServer/"> 
 </OBJECT> 
 ... 
 <SCRIPT LANGUAGE="VBScript"> 
@@ -106,7 +106,7 @@ This example is merely a comment demonstrating how the **RDS.DataControl** perfo
 <OBJECT CLASSID="clsid:BD96C556-65A3-11D0-983A-00C04FC29E33" ID="DC1"> 
  <PARAM NAME="SQL" VALUE="SELECT * FROM Authors"> 
  <PARAM NAME="Connect" VALUE="DSN=Pubs;"> 
- <PARAM NAME="Server" VALUE="http://yourServer/"> 
+ <PARAM NAME="Server" VALUE="https://yourServer/"> 
 </OBJECT> 
 ... 
 <SCRIPT LANGUAGE="VBScript"> 

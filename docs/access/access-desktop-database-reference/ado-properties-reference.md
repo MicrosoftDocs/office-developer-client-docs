@@ -2,7 +2,7 @@
 title: ADO Properties Reference
 TOCTitle: ADO Properties
 ms:assetid: 275940f1-d022-43d1-a08e-eabf22b95bef
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249036(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249036(v=office.15)
 ms:contentKeyID: 48543835
 ms.date: 09/18/2015
 mtps_version: v=office.15

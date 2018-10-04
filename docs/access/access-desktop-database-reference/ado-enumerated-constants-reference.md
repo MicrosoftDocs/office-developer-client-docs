@@ -2,7 +2,7 @@
 title: ADO Enumerated Constants Reference
 TOCTitle: ADO Enumerated Constants
 ms:assetid: 23e315c8-928a-49ad-b0cb-b70a078bb740
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249015(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249015(v=office.15)
 ms:contentKeyID: 48543748
 ms.date: 09/18/2015
 mtps_version: v=office.15

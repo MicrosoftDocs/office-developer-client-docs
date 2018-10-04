@@ -2,7 +2,7 @@
 title: Using ADO with Microsoft Visual J++
 TOCTitle: Using ADO with Microsoft Visual J++
 ms:assetid: 88630e80-92f0-9a9f-b23a-da7344ce45c8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249596(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249596(v=office.15)
 ms:contentKeyID: 48546135
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -25,5 +25,5 @@ For further information about using ADO with Visual J++, see the following topic
 
   - [ADO Java Class Wrappers](ado-java-class-wrappers.md)
 
-  - [ADO/WFC Syntax Index](https://msdn.microsoft.com/en-us/library/jj250066\(v=office.15\))
+  - [ADO/WFC Syntax Index](https://msdn.microsoft.com/library/jj250066\(v=office.15\))
 

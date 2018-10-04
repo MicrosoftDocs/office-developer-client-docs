@@ -2,7 +2,7 @@
 title: Property.Value Property (DAO)
 TOCTitle: Value Property
 ms:assetid: 26e47b3a-4f70-27b5-2498-b44ce4dfc99f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff191905(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff191905(v=office.15)
 ms:contentKeyID: 48543824
 ms.date: 09/18/2015
 mtps_version: v=office.15

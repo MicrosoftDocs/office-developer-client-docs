@@ -2,7 +2,7 @@
 title: ADO Events Model Example (VC++)
 TOCTitle: ADO Events Model Example (VC++)
 ms:assetid: 3785406b-844c-419f-e6ac-78aa8c4e78b2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249132(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249132(v=office.15)
 ms:contentKeyID: 48544197
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -13,7 +13,7 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-The Visual C++ section of [ADO Event Instantiation by Language](https://msdn.microsoft.com/en-us/library/jj250244\(v=office.15\)) gives a general description of how to instantiate the ADO event model. The following is a specific example of instantiating the event model within the environment created by the **\#import** directive.
+The Visual C++ section of [ADO Event Instantiation by Language](https://msdn.microsoft.com/library/jj250244\(v=office.15\)) gives a general description of how to instantiate the ADO event model. The following is a specific example of instantiating the event model within the environment created by the **\#import** directive.
 
 The general description uses **adoint.h** as a reference for method signatures. However, a few details in the general description change slightly as a result of using the **\#import** directive:
 

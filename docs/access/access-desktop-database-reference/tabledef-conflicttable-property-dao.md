@@ -2,7 +2,7 @@
 title: TableDef.ConflictTable Property (DAO)
 TOCTitle: ConflictTable Property
 ms:assetid: 0db8b975-eb6d-19c6-cfb7-6ce01230ebe4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff845218(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff845218(v=office.15)
 ms:contentKeyID: 48543228
 ms.date: 09/18/2015
 mtps_version: v=office.15

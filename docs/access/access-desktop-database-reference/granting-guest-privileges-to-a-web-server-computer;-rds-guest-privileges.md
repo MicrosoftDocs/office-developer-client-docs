@@ -2,7 +2,7 @@
 title: Granting Guest Privileges to a Web Server Computer; RDS guest privileges
 TOCTitle: Granting Guest Privileges to a Web Server Computer; RDS guest privileges
 ms:assetid: 4ec9c05b-36f6-de22-b848-0cb8573f9dd1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249254(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249254(v=office.15)
 ms:contentKeyID: 48544766
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Append Method (ADOX Indexes)
 TOCTitle: Append Method (ADOX Indexes)
 ms:assetid: 015ebab4-5e9d-8777-ac82-4d20e957c274
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248784(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248784(v=office.15)
 ms:contentKeyID: 48542933
 ms.date: 09/18/2015
 mtps_version: v=office.15

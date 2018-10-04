@@ -2,7 +2,7 @@
 title: ADO Programmer's Guide Topics
 TOCTitle: ADO programmer's guide
 ms:assetid: 37393fde-6e9c-4cce-b7b1-84b578d3560f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249129(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249129(v=office.15)
 ms:contentKeyID: 48544187
 ms.date: 09/18/2015
 mtps_version: v=office.15

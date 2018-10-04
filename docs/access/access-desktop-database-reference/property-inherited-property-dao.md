@@ -2,7 +2,7 @@
 title: Property.Inherited Property (DAO)
 TOCTitle: Inherited Property
 ms:assetid: 10e624db-2301-b9be-beca-6e8caccf7274
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff845349(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff845349(v=office.15)
 ms:contentKeyID: 48543304
 ms.date: 09/18/2015
 mtps_version: v=office.15

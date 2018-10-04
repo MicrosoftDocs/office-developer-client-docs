@@ -2,7 +2,7 @@
 title: DBEngine Members (DAO)
 TOCTitle: DBEngine Members
 ms:assetid: 740b6a85-585f-0e1d-710b-84ba24825325
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff195868(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff195868(v=office.15)
 ms:contentKeyID: 48545652
 ms.date: 09/18/2015
 mtps_version: v=office.15

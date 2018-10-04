@@ -2,7 +2,7 @@
 title: Schema Section
 TOCTitle: Schema Section
 ms:assetid: 59b42ffb-0524-adc3-8bcd-6e4cd2c505ce
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249304(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249304(v=office.15)
 ms:contentKeyID: 48545023
 ms.date: 09/18/2015
 mtps_version: v=office.15

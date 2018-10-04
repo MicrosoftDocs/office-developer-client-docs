@@ -2,7 +2,7 @@
 title: 'Section V: Appendixes (Access)'
 TOCTitle: 'Section V: appendixes'
 ms:assetid: 6ca51632-dfef-447e-8ffc-127431fe9975
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249429(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249429(v=office.15)
 ms:contentKeyID: 48545474
 ms.date: 09/18/2015
 mtps_version: v=office.15

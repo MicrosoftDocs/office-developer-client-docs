@@ -2,7 +2,7 @@
 title: ParentURL Property (ADO)
 TOCTitle: ParentURL Property (ADO)
 ms:assetid: ec7ec476-6f9e-8486-fe02-74995975df5c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250200(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250200(v=office.15)
 ms:contentKeyID: 48548517
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -25,12 +25,12 @@ The **ParentURL** property depends upon the source used to open the **Record** o
 
 Suppose "second" is a folder contained under "first". Open the **Record** object with the following:
 
-    record.ActiveConnection = "http://first"
+    record.ActiveConnection = "https://first"
     record.Open "second"
 
-Now, the value of the **ParentURL** property is **ParentURL** property is "http://first" , the same as **ActiveConnection**.
+Now, the value of the **ParentURL** property is **ParentURL** property is "https://first" , the same as **ActiveConnection**.
 
-The source may also be an absolute URL such as, "http://first/second" . The **ParentURL** property is then "http://first" , the level above . The **ParentURL** property is then "http://first" , the level above "second" .
+The source may also be an absolute URL such as, "https://first/second" . The **ParentURL** property is then "https://first" , the level above . The **ParentURL** property is then "https://first" , the level above "second" .
 
 This property may be a null value if:
 

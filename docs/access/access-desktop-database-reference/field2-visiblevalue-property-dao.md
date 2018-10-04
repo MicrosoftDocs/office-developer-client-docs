@@ -2,7 +2,7 @@
 title: Field2.VisibleValue Property (DAO)
 TOCTitle: VisibleValue Property
 ms:assetid: 1e023a1a-fd49-7570-42bd-2f4c06ac5e5e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff845809(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff845809(v=office.15)
 ms:contentKeyID: 48543611
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Connection.OpenRecordset Method (DAO)
 TOCTitle: OpenRecordset Method
 ms:assetid: 584a3e00-7589-90f1-aa6a-5d6116f0b5b6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff194324(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff194324(v=office.15)
 ms:contentKeyID: 48544993
 ms.date: 09/18/2015
 mtps_version: v=office.15

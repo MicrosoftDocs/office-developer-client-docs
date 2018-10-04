@@ -2,7 +2,7 @@
 title: 'Step 4: Server Returns the Recordset (RDS Tutorial)'
 TOCTitle: 'Step 4: Server Returns the Recordset (RDS Tutorial)'
 ms:assetid: 4503151d-de8b-98d1-1aa8-11f1b6e6b55c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249209(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249209(v=office.15)
 ms:contentKeyID: 48544542
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -23,7 +23,7 @@ Sub RDSTutorial4()
  Dim DS as New RDS.DataSpace 
  Dim RS as ADODB.Recordset 
  Dim DF as Object 
- Set DF = DS.CreateObject("RDSServer.DataFactory", "http://yourServer") 
+ Set DF = DS.CreateObject("RDSServer.DataFactory", "https://yourServer") 
  Set RS = DF.Query("DSN=Pubs", "SELECT * FROM Authors") 
 ... 
 ```

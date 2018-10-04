@@ -2,7 +2,7 @@
 title: ALTER TABLE Statement (Microsoft Access SQL)
 TOCTitle: ALTER TABLE Statement (Microsoft Access SQL)
 ms:assetid: 78e6c92c-e88c-e55f-6b89-435360c166a6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff196148(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff196148(v=office.15)
 ms:contentKeyID: 48545763
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: ADO Error Codes
 TOCTitle: ADO Error Codes
 ms:assetid: d7cad7f6-9b95-a521-9947-32658f503e3b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250086(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250086(v=office.15)
 ms:contentKeyID: 48548016
 ms.date: 09/18/2015
 mtps_version: v=office.15

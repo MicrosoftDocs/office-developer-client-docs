@@ -2,7 +2,7 @@
 title: RDS Properties
 TOCTitle: RDS Properties
 ms:assetid: 002989dc-0022-d3a2-ddd2-2230837b3a63
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248775(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248775(v=office.15)
 ms:contentKeyID: 48542899
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -72,7 +72,7 @@ mtps_version: v=office.15
 <td><p>Indicates whether a sort order is ascending or descending.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj248989(v=office.15)">SQL (RDS)</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj248989(v=office.15)">SQL (RDS)</a></p></td>
 <td><p>Indicates the query string used to retrieve the <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="odd">

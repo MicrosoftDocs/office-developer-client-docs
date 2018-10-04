@@ -2,7 +2,7 @@
 title: DBEngine.LoginTimeout Property (DAO)
 TOCTitle: LoginTimeout Property
 ms:assetid: 81d14153-79c5-7860-b6a8-4079d2d7acf7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff196648(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff196648(v=office.15)
 ms:contentKeyID: 48545964
 ms.date: 09/18/2015
 mtps_version: v=office.15

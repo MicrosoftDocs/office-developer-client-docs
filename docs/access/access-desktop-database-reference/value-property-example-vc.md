@@ -2,7 +2,7 @@
 title: Value Property Example (VC++)
 TOCTitle: Value Property Example (VC++)
 ms:assetid: d8a496f9-5864-ffd8-ca99-5a2f10dcdcb4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250092(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250092(v=office.15)
 ms:contentKeyID: 48548040
 ms.date: 09/18/2015
 mtps_version: v=office.15

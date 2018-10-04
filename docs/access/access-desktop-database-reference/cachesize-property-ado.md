@@ -2,7 +2,7 @@
 title: CacheSize Property (ADO)
 TOCTitle: CacheSize Property (ADO)
 ms:assetid: 42f86cc0-30dc-669b-9e65-5e7ecd52c4d7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249200(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249200(v=office.15)
 ms:contentKeyID: 48544491
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Dealing with Failed Updates
 TOCTitle: Dealing with Failed Updates
 ms:assetid: f6f4914d-59b3-f3f2-b986-218e07ce5a1d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250258(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250258(v=office.15)
 ms:contentKeyID: 48548752
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Macro Commands
 TOCTitle: Macro Commands
 ms:assetid: 24e7f34d-7902-4644-bb67-33689d9895c0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn124057(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn124057(v=office.15)
 ms:contentKeyID: 52071694
 ms.date: 09/18/2015
 mtps_version: v=office.15

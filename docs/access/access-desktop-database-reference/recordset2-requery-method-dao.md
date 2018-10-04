@@ -2,7 +2,7 @@
 title: Recordset2.Requery Method (DAO)
 TOCTitle: Requery Method
 ms:assetid: d063c1e0-2fb7-b5cf-4d98-6f77a5a13cec
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff834712(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff834712(v=office.15)
 ms:contentKeyID: 48547837
 ms.date: 09/18/2015
 mtps_version: v=office.15

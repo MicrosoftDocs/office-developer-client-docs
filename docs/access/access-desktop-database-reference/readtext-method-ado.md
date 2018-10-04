@@ -2,7 +2,7 @@
 title: ReadText Method (ADO)
 TOCTitle: ReadText Method (ADO)
 ms:assetid: 08f5bac4-dccd-696c-09a7-e1ba0cb38d79
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248826(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248826(v=office.15)
 ms:contentKeyID: 48543108
 ms.date: 09/18/2015
 mtps_version: v=office.15

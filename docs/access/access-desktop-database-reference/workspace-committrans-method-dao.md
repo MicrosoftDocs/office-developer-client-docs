@@ -2,7 +2,7 @@
 title: Workspace.CommitTrans Method (DAO)
 TOCTitle: CommitTrans Method
 ms:assetid: e6d129fb-a578-5c79-9c16-6444519f0daf
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff835985(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff835985(v=office.15)
 ms:contentKeyID: 48548391
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -97,7 +97,7 @@ In ODBC workspaces, when you use **CommitTrans** your cursor may no longer be va
 
 The following example shows how to use a transaction in a Data Access Objects (DAO) workspace.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](http://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
+**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
 
     Public Sub TransferFunds()
         Dim wrk As DAO.Workspace

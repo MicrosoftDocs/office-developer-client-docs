@@ -2,7 +2,7 @@
 title: View an ActiveX Control's About Box
 TOCTitle: View an ActiveX Control's About Box
 ms:assetid: 72a855b4-dd1a-a531-6402-0321335d3bf5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff195825(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff195825(v=office.15)
 ms:contentKeyID: 48545612
 ms.date: 09/18/2015
 mtps_version: v=office.15

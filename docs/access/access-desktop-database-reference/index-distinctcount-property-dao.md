@@ -2,7 +2,7 @@
 title: Index.DistinctCount Property (DAO)
 TOCTitle: DistinctCount Property
 ms:assetid: 24cb7247-76b4-1fce-c3c4-892f16634eff
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff191836(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff191836(v=office.15)
 ms:contentKeyID: 48543767
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Before Delete Macro Event
 TOCTitle: Before Delete Macro Event
 ms:assetid: 1a8d3457-5c59-d13e-ada9-6ecd33dfd5b3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff845672(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff845672(v=office.15)
 ms:contentKeyID: 48543520
 ms.date: 09/18/2015
 mtps_version: v=office.15

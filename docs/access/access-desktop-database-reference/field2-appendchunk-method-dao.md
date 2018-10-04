@@ -2,7 +2,7 @@
 title: Field2.AppendChunk Method (DAO)
 TOCTitle: AppendChunk Method
 ms:assetid: 540cd02d-1fc6-81d1-ac08-1e3df72a7208
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff194088(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff194088(v=office.15)
 ms:contentKeyID: 48544886
 ms.date: 09/18/2015
 mtps_version: v=office.15

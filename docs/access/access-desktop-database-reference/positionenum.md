@@ -2,7 +2,7 @@
 title: PositionEnum
 TOCTitle: PositionEnum
 ms:assetid: 2a6f294b-74f2-b951-e32a-79ff5e782204
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249054(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249054(v=office.15)
 ms:contentKeyID: 48543907
 ms.date: 09/18/2015
 mtps_version: v=office.15

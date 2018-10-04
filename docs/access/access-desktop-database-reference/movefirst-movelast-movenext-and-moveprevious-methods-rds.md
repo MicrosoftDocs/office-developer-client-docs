@@ -2,7 +2,7 @@
 title: MoveFirst, MoveLast, MoveNext, and MovePrevious Methods (RDS)
 TOCTitle: MoveFirst, MoveLast, MoveNext, and MovePrevious Methods (RDS)
 ms:assetid: 32ef8fa9-c096-b4e7-3396-b88a6a9bd1a2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249101(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249101(v=office.15)
 ms:contentKeyID: 48544092
 ms.date: 09/18/2015
 mtps_version: v=office.15

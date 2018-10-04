@@ -2,7 +2,7 @@
 title: Shape Commands in General (ADO)
 TOCTitle: Shape Commands in General
 ms:assetid: 41ba726c-37d9-4b9a-92a4-7ddbbfec4458
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249189(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249189(v=office.15)
 ms:contentKeyID: 48544458
 ms.date: 09/18/2015
 mtps_version: v=office.15

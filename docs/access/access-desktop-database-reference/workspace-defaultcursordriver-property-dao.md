@@ -2,7 +2,7 @@
 title: Workspace.DefaultCursorDriver Property (DAO)
 TOCTitle: DefaultCursorDriver Property
 ms:assetid: 15a8356d-7ae0-3c8e-fbb7-2d8ad6d9a582
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff845499(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff845499(v=office.15)
 ms:contentKeyID: 48543413
 ms.date: 09/18/2015
 mtps_version: v=office.15

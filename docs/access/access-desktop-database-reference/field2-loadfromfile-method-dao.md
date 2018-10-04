@@ -2,7 +2,7 @@
 title: Field2.LoadFromFile Method (DAO)
 TOCTitle: LoadFromFile Method
 ms:assetid: 8ffe4636-d4da-0579-f4b5-14f423647562
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff197396(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff197396(v=office.15)
 ms:contentKeyID: 48546314
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -90,7 +90,7 @@ The following code snippet uses the **LoadFromFile** method to load an employee'
 
 The following example shows how to add files from a specified folder path to an attachment field.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](http://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
+**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
 
     Public Function LoadAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
         Dim dbs As DAO.Database

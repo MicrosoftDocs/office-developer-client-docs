@@ -2,7 +2,7 @@
 title: Position Object (ADO MD)
 TOCTitle: Position Object (ADO MD)
 ms:assetid: f8d33cbf-6196-cce4-a140-75521677f1f4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250264(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250264(v=office.15)
 ms:contentKeyID: 48548794
 ms.date: 09/18/2015
 mtps_version: v=office.15

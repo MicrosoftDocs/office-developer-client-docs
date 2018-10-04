@@ -2,7 +2,7 @@
 title: CursorTypeEnum
 TOCTitle: CursorTypeEnum
 ms:assetid: 7c5fa8b2-85ea-a0a7-41f1-a78650aced3e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249519(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249519(v=office.15)
 ms:contentKeyID: 48545835
 ms.date: 09/18/2015
 mtps_version: v=office.15

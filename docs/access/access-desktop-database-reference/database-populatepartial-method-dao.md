@@ -2,7 +2,7 @@
 title: Database.PopulatePartial Method (DAO)
 TOCTitle: PopulatePartial Method
 ms:assetid: fa3227a2-c961-6a98-32b3-5b6e5329a21d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff837034(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff837034(v=office.15)
 ms:contentKeyID: 48548834
 ms.date: 09/18/2015
 mtps_version: v=office.15

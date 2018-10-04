@@ -2,7 +2,7 @@
 title: Use Microsoft Access as a DDE Server
 TOCTitle: Use Microsoft Access as a DDE Server
 ms:assetid: a3e82bf7-94b5-8eec-86bc-2d5387d66738
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff821067(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff821067(v=office.15)
 ms:contentKeyID: 48546801
 ms.date: 09/18/2015
 mtps_version: v=office.15

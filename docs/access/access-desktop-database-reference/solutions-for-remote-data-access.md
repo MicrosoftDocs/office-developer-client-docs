@@ -2,7 +2,7 @@
 title: Solutions for Remote Data Access
 TOCTitle: Solutions for Remote Data Access
 ms:assetid: ae84c05a-cf9b-2b4c-4d7a-e6c9dcd120c1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249825(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249825(v=office.15)
 ms:contentKeyID: 48547072
 ms.date: 09/18/2015
 mtps_version: v=office.15

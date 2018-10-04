@@ -2,7 +2,7 @@
 title: Cancel Method (ADO)
 TOCTitle: Cancel Method (ADO)
 ms:assetid: 747edc04-a5cc-3631-2d0b-82e7e41a76b7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249476(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249476(v=office.15)
 ms:contentKeyID: 48545662
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -44,11 +44,11 @@ If <em>object</em> is a</p></th>
 <tbody>
 <tr class="odd">
 <td><p><a href="command-object-ado.md">Command</a></p></td>
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj248785(v=office.15)">Execute</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj248785(v=office.15)">Execute</a></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="connection-object-ado.md">Connection</a></p></td>
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj249832(v=office.15)">Execute</a> or <a href="open-method-ado-connection.md">Open</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj249832(v=office.15)">Execute</a> or <a href="open-method-ado-connection.md">Open</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="record-object-ado.md">Record</a></p></td>

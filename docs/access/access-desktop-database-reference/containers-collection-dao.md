@@ -2,7 +2,7 @@
 title: Containers Collection (DAO)
 TOCTitle: Containers Object
 ms:assetid: 4996ee39-ea13-f560-3069-dd7bc6022119
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff193464(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff193464(v=office.15)
 ms:contentKeyID: 48544642
 ms.date: 09/18/2015
 mtps_version: v=office.15

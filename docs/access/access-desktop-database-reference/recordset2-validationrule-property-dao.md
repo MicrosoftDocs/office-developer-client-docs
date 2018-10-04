@@ -2,7 +2,7 @@
 title: Recordset2.ValidationRule Property (DAO)
 TOCTitle: ValidationRule Property
 ms:assetid: d46cc255-e588-e9e6-66d7-31fc26ae45b8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff835002(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff835002(v=office.15)
 ms:contentKeyID: 48547940
 ms.date: 09/18/2015
 mtps_version: v=office.15

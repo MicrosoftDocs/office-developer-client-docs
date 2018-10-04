@@ -2,7 +2,7 @@
 title: Parameters Collection Properties, Methods, and Events
 TOCTitle: Parameters Collection Properties, Methods, and Events
 ms:assetid: 2bbed059-7dbf-f305-87d0-3b1304542557
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249064(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249064(v=office.15)
 ms:contentKeyID: 48543936
 ms.date: 09/18/2015
 mtps_version: v=office.15

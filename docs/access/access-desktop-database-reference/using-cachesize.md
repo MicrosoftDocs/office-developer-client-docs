@@ -2,7 +2,7 @@
 title: Using CacheSize
 TOCTitle: Using CacheSize
 ms:assetid: b1677a9f-f22f-9456-0d2a-1ef7cf81bbdf
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249846(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249846(v=office.15)
 ms:contentKeyID: 48547148
 ms.date: 09/18/2015
 mtps_version: v=office.15

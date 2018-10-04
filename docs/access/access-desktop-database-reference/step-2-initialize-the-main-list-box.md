@@ -2,7 +2,7 @@
 title: 'Step 2: Initialize the Main List Box'
 TOCTitle: 'Step 2: Initialize the Main List Box'
 ms:assetid: 81e4dcfd-6ee0-b5f9-9ea3-026c38c26bf0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249562(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249562(v=office.15)
 ms:contentKeyID: 48545967
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -37,7 +37,7 @@ mtps_version: v=office.15
     Private Sub Form_Load() 
         Set grec = New Record 
         Set grs = New Recordset 
-        grec.Open "", "URL=http://servername/foldername/", , _ 
+        grec.Open "", "URL=https://servername/foldername/", , _ 
             adOpenIfExists Or adCreateCollection 
         Set grs = grec.GetChildren 
         While Not grs.EOF 
@@ -47,5 +47,5 @@ mtps_version: v=office.15
     End Sub 
     ```
     
-    This code instantiates the global **Record** and **Recordset** objects. The **Record**, grec, is opened with a URL specified as the **ActiveConnection**. If the URL exists, it is opened; if it does not already exist, it is created. Note that you should replace "http://servername/foldername/" with a valid URL from your environment. The **Recordset**, grs, is opened on the children of the **Record**, grec. Then lstMain is populated with the file names of the resources published to the URL.
+    This code instantiates the global **Record** and **Recordset** objects. The **Record**, grec, is opened with a URL specified as the **ActiveConnection**. If the URL exists, it is opened; if it does not already exist, it is created. Note that you should replace "https://servername/foldername/" with a valid URL from your environment. The **Recordset**, grs, is opened on the children of the **Record**, grec. Then lstMain is populated with the file names of the resources published to the URL.
 

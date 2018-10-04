@@ -2,7 +2,7 @@
 title: UpdateCriteriaEnum Enumeration (DAO)
 TOCTitle: UpdateCriteriaEnum Enumeration
 ms:assetid: 1f83a0c6-bdc8-9c3e-380b-524f611f6476
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff845853(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff845853(v=office.15)
 ms:contentKeyID: 48543644
 ms.date: 09/18/2015
 mtps_version: v=office.15

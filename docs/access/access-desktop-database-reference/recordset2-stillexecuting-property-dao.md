@@ -2,7 +2,7 @@
 title: Recordset2.StillExecuting Property (DAO)
 TOCTitle: StillExecuting Property
 ms:assetid: f051c350-0451-44fe-0e47-b152bae4b481
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff836546(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff836546(v=office.15)
 ms:contentKeyID: 48548601
 ms.date: 09/18/2015
 mtps_version: v=office.15

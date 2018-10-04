@@ -2,7 +2,7 @@
 title: CopyObject Macro Action
 TOCTitle: CopyObject Macro Action
 ms:assetid: 746f61df-d5db-284a-0897-75820c2be11f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff195876(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff195876(v=office.15)
 ms:contentKeyID: 48545661
 ms.date: 09/18/2015
 mtps_version: v=office.15

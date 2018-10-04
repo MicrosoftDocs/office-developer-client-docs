@@ -2,7 +2,7 @@
 title: Cursor and Lock Characteristics
 TOCTitle: Cursor and Lock Characteristics
 ms:assetid: 5f8b6700-14f6-d342-42f6-cc8e89c71a1a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249347(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249347(v=office.15)
 ms:contentKeyID: 48545164
 ms.date: 09/18/2015
 mtps_version: v=office.15

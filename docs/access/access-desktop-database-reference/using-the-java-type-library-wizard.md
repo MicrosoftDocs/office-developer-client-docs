@@ -2,7 +2,7 @@
 title: Using the Java Type Library Wizard
 TOCTitle: Using the Java Type Library Wizard
 ms:assetid: 96af770c-c7c2-c905-3c3e-383a5b99cab2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249670(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249670(v=office.15)
 ms:contentKeyID: 48546455
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Operation of Non-Parameterized Commands
 TOCTitle: Operation of Non-Parameterized Commands
 ms:assetid: 934740b1-07d0-140e-7c83-00feb34c01d1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249651(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249651(v=office.15)
 ms:contentKeyID: 48546395
 ms.date: 09/18/2015
 mtps_version: v=office.15

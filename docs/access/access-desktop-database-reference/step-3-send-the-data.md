@@ -2,7 +2,7 @@
 title: 'Step 3: Send the Data'
 TOCTitle: 'Step 3: Send the Data'
 ms:assetid: d22ffe59-179b-fd1a-1211-be1a0d76b02f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250049(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250049(v=office.15)
 ms:contentKeyID: 48547878
 ms.date: 09/18/2015
 mtps_version: v=office.15

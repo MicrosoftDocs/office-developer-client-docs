@@ -2,7 +2,7 @@
 title: Catalog Object (ADOX)
 TOCTitle: Catalog Object (ADOX)
 ms:assetid: d9e8d94b-9161-3eb6-abaf-00d1244d1f2d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250097(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250097(v=office.15)
 ms:contentKeyID: 48548068
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -25,5 +25,5 @@ With the properties and methods of a **Catalog** object, you can:
 
   - Create a new catalog with the [Create](create-method-adox.md) method.
 
-  - Determine the owners of the objects in a **Catalog** with the [GetObjectOwner](getobjectowner-method-adox.md) and [SetObjectOwner](https://msdn.microsoft.com/en-us/library/jj249006\(v=office.15\)) methods.
+  - Determine the owners of the objects in a **Catalog** with the [GetObjectOwner](getobjectowner-method-adox.md) and [SetObjectOwner](https://msdn.microsoft.com/library/jj249006\(v=office.15\)) methods.
 

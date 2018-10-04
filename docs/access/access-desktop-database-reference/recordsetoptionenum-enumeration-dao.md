@@ -2,7 +2,7 @@
 title: RecordsetOptionEnum Enumeration (DAO)
 TOCTitle: RecordsetOptionEnum Enumeration
 ms:assetid: 3a9d8664-dcb6-cb60-7cf6-e229eb699ef1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff192649(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff192649(v=office.15)
 ms:contentKeyID: 48544266
 ms.date: 09/18/2015
 mtps_version: v=office.15

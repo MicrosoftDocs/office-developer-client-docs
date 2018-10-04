@@ -2,7 +2,7 @@
 title: Parameters Collection (DAO)
 TOCTitle: Parameters Collection
 ms:assetid: 52fc1ce4-7b3e-152d-7b6a-9c32a6470147
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff193967(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff193967(v=office.15)
 ms:contentKeyID: 48544862
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -92,7 +92,7 @@ This example demonstrates **Parameter** objects and the **Parameters** collectio
 
 The following example shows how to create a parameter query. A query named **myQuery** is created with two parameters, named Param1 and Param2. To do this, the SQL property of the query is set to a Structured Query Language (SQL) statement that defines the parameters.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](http://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
+**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
 
     Sub CreateQueryWithParameters()
     

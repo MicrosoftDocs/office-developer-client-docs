@@ -2,7 +2,7 @@
 title: DBEngine.Version Property (DAO)
 TOCTitle: Version Property
 ms:assetid: b2807dc1-604f-4423-289a-ff38a3d9f31b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff822024(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff822024(v=office.15)
 ms:contentKeyID: 48547171
 ms.date: 09/18/2015
 mtps_version: v=office.15

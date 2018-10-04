@@ -2,7 +2,7 @@
 title: CopyRecordOptionsEnum
 TOCTitle: CopyRecordOptionsEnum
 ms:assetid: ab9426e9-0e4e-6c85-43cf-e4a205a7c4c0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249795(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249795(v=office.15)
 ms:contentKeyID: 48546975
 ms.date: 09/18/2015
 mtps_version: v=office.15

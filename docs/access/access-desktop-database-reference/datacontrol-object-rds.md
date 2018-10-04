@@ -2,7 +2,7 @@
 title: DataControl Object (RDS)
 TOCTitle: DataControl Object (RDS)
 ms:assetid: ac430669-7628-696c-c036-b5d35405d788
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249801(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249801(v=office.15)
 ms:contentKeyID: 48547001
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -19,7 +19,7 @@ Binds a data query [Recordset](recordset-object-ado.md) to one or more controls 
 
     <OBJECT CLASSID="clsid:BD96C556-65A3-11D0-983A-00C04FC29E33" ID="DataControl"
        <PARAM NAME="Connect" VALUE="DSN=DSNName;UID=usr;PWD=pw;">
-       <PARAM NAME="Server" VALUE="http://awebsrvr">
+       <PARAM NAME="Server" VALUE="https://awebsrvr">
        <PARAM NAME="SQL" VALUE="QueryText">
     </OBJECT>
 
@@ -66,7 +66,7 @@ The **RDS.DataControl** object runs in asynchronous mode by default. If you requ
     <OBJECT CLASSID="clsid:BD96C556-65A3-11D0-983A-00C04FC29E33" 
         ID="DataControl"
        <PARAM NAME="Connect" VALUE="DSN=DSNName;UID=usr;PWD=pw;">
-       <PARAM NAME="Server" VALUE="http://awebsrvr">
+       <PARAM NAME="Server" VALUE="https://awebsrvr">
        <PARAM NAME="SQL" VALUE="QueryText">
        <PARAM NAME="ExecuteOptions" VALUE="1">
        <PARAM NAME="FetchOptions" VALUE="1">

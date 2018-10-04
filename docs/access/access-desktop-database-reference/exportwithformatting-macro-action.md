@@ -2,7 +2,7 @@
 title: ExportWithFormatting Macro Action
 TOCTitle: ExportWithFormatting Macro Action
 ms:assetid: 8926dfa3-bf11-30ab-0f85-46f0a4961784
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff197066(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff197066(v=office.15)
 ms:contentKeyID: 48546152
 ms.date: 09/18/2015
 mtps_version: v=office.15

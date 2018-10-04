@@ -2,7 +2,7 @@
 title: NextRecordset Method Example (VJ++)
 TOCTitle: NextRecordset Method Example (VJ++)
 ms:assetid: 1803ce0e-43a6-0571-5703-525f1d2e29ea
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248930(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248930(v=office.15)
 ms:contentKeyID: 48543457
 ms.date: 09/18/2015
 mtps_version: v=office.15

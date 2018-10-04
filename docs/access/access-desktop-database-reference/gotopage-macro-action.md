@@ -2,7 +2,7 @@
 title: GoToPage Macro Action
 TOCTitle: GoToPage Macro Action
 ms:assetid: 611aadff-83b7-e74d-4093-93fb5ce6e3ab
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff194858(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff194858(v=office.15)
 ms:contentKeyID: 48545199
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: RestoreWindow Macro Action
 TOCTitle: RestoreWindow Macro Action
 ms:assetid: 507a6452-2be0-a523-1201-0108d2b9d23c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff193815(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff193815(v=office.15)
 ms:contentKeyID: 48544796
 ms.date: 09/18/2015
 mtps_version: v=office.15

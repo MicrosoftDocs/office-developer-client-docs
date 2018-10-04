@@ -2,7 +2,7 @@
 title: Field2.ComplexType Property (DAO)
 TOCTitle: ComplexType Property
 ms:assetid: 9b4ebabf-22de-0ab8-73ea-10c496eedf97
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff198034(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff198034(v=office.15)
 ms:contentKeyID: 48546568
 ms.date: 09/18/2015
 mtps_version: v=office.15

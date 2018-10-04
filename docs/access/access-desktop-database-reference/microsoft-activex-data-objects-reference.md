@@ -2,7 +2,7 @@
 title: Microsoft ActiveX Data Objects Reference
 TOCTitle: Microsoft ActiveX Data Objects Reference
 ms:assetid: 235fc575-8a2e-913c-fa3d-bb86256733f9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249010(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249010(v=office.15)
 ms:contentKeyID: 48543728
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -47,7 +47,7 @@ ADOX is a companion library to the core ADO objects. It exposes additional objec
 
 An introduction to using ADO, RDS, ADO MD, and ADOX.
 
-[Programmer's Reference](https://msdn.microsoft.com/en-us/library/jj248831\(v=office.15\))
+[Programmer's Reference](https://msdn.microsoft.com/library/jj248831\(v=office.15\))
 
 This section of the ADO documentation contains topics for each ADO, RDS, ADO MD, and ADOX object, collection, property, dynamic property, method, event, and enumeration.
 

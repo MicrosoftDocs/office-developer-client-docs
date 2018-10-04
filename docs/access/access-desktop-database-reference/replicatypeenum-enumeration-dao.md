@@ -2,7 +2,7 @@
 title: ReplicaTypeEnum Enumeration (DAO)
 TOCTitle: ReplicaTypeEnum Enumeration
 ms:assetid: 9c0aed9d-a617-bda1-bfb2-867d28ef2586
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff198082(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff198082(v=office.15)
 ms:contentKeyID: 48546585
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: WITH OWNERACCESS OPTION Declaration (Microsoft Access SQL)
 TOCTitle: WITH OWNERACCESS OPTION Declaration (Microsoft Access SQL)
 ms:assetid: 82e51071-12b2-e97e-07b4-27ffceda831e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff196724(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff196724(v=office.15)
 ms:contentKeyID: 48545993
 ms.date: 09/18/2015
 mtps_version: v=office.15

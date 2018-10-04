@@ -2,7 +2,7 @@
 title: 'Chapter 6: Error Handlinge (ADO)'
 TOCTitle: 'Chapter 6: Error Handling'
 ms:assetid: e6a15bec-14d4-41fc-8dd2-6e29091b3285
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250170(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250170(v=office.15)
 ms:contentKeyID: 48548382
 ms.date: 09/18/2015
 mtps_version: v=office.15

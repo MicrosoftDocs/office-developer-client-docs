@@ -2,7 +2,7 @@
 title: Record Object (ADO) Reference
 TOCTitle: Record Object (ADO)
 ms:assetid: 19cdd7b8-1dde-40f6-b971-b30cf0bfbf4e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248943(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248943(v=office.15)
 ms:contentKeyID: 48543507
 ms.date: 09/18/2015
 mtps_version: v=office.15

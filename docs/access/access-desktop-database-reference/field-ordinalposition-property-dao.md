@@ -2,7 +2,7 @@
 title: Field.OrdinalPosition Property (DAO)
 TOCTitle: OrdinalPosition Property
 ms:assetid: 07f2344e-2a72-33d8-be47-b37d76ecca47
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff845002(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff845002(v=office.15)
 ms:contentKeyID: 48543088
 ms.date: 09/18/2015
 mtps_version: v=office.15

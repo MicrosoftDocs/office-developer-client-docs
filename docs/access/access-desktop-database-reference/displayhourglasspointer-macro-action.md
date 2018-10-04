@@ -2,7 +2,7 @@
 title: DisplayHourglassPointer Macro Action
 TOCTitle: DisplayHourglassPointer Macro Action
 ms:assetid: 2c93039a-f75c-abeb-1dfa-e632a5bdf6f2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff192103(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff192103(v=office.15)
 ms:contentKeyID: 48543957
 ms.date: 09/18/2015
 mtps_version: v=office.15

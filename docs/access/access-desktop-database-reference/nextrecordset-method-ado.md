@@ -2,7 +2,7 @@
 title: NextRecordset Method (ADO)
 TOCTitle: NextRecordset Method (ADO)
 ms:assetid: d2776dd5-d521-c57f-dbe5-e02ee238104d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250051(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250051(v=office.15)
 ms:contentKeyID: 48547887
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -43,7 +43,7 @@ Returns a **Recordset** object. In the syntax model, *recordset1* and *recordset
 
 ## Remarks
 
-Use the **NextRecordset** method to return the results of the next command in a compound command statement or of a stored procedure that returns multiple results. If you open a **Recordset** object based on a compound command statement (for example, "SELECT \* FROM table1;SELECT \* FROM table2") using the [Execute](https://msdn.microsoft.com/en-us/library/jj248785\(v=office.15\)) method on a [Command](command-object-ado.md) or the [Open](open-method-ado-recordset.md) method on a **Recordset**, ADO executes only the first command and returns the results to *recordset*. To access the results of subsequent commands in the statement, call the **NextRecordset** method.
+Use the **NextRecordset** method to return the results of the next command in a compound command statement or of a stored procedure that returns multiple results. If you open a **Recordset** object based on a compound command statement (for example, "SELECT \* FROM table1;SELECT \* FROM table2") using the [Execute](https://msdn.microsoft.com/library/jj248785\(v=office.15\)) method on a [Command](command-object-ado.md) or the [Open](open-method-ado-recordset.md) method on a **Recordset**, ADO executes only the first command and returns the results to *recordset*. To access the results of subsequent commands in the statement, call the **NextRecordset** method.
 
 As long as there are additional results and the **Recordset** containing the compound statements is not disconnected or marshaled across process boundaries, the **NextRecordset** method will continue to return **Recordset** objects. If a row-returning command executes successfully but returns no records, the returned **Recordset** object will be open but empty. Test for this case by verifying that the [BOF](bof-eof-properties-ado.md) and [EOF](bof-eof-properties-ado.md) properties are both **True**. If a non–row-returning command executes successfully, the returned **Recordset** object will be closed, which you can verify by testing the [State](state-property-ado.md) property on the **Recordset**. When there are no more results, *recordset* will be set to *Nothing*.
 

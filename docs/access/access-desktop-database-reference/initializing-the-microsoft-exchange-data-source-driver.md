@@ -2,7 +2,7 @@
 title: Initializing the Microsoft Exchange Data Source Driver
 TOCTitle: Initializing the Microsoft Exchange Data Source Driver
 ms:assetid: cf87a746-f846-1a01-f4ec-20a25e335193
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff834677(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff834677(v=office.15)
 ms:contentKeyID: 48547810
 ms.date: 09/18/2015
 mtps_version: v=office.15

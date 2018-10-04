@@ -2,7 +2,7 @@
 title: Open and Close Methods Example (VB)
 TOCTitle: Open and Close Methods Example (VB)
 ms:assetid: 5c000d5f-2560-2530-fe36-163f6600f3cc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249319(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249319(v=office.15)
 ms:contentKeyID: 48545078
 ms.date: 09/18/2015
 mtps_version: v=office.15

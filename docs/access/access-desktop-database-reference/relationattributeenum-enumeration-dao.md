@@ -2,7 +2,7 @@
 title: RelationAttributeEnum Enumeration (DAO)
 TOCTitle: RelationAttributeEnum Enumeration
 ms:assetid: ce8d0696-66d7-052f-1313-64baee3442ed
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff834499(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff834499(v=office.15)
 ms:contentKeyID: 48547787
 ms.date: 09/18/2015
 mtps_version: v=office.15

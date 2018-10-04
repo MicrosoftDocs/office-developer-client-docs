@@ -2,7 +2,7 @@
 title: Index.CreateField Method (DAO)
 TOCTitle: CreateField Method
 ms:assetid: fc82b785-8768-b144-a2a4-c1f1798865a6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff837208(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff837208(v=office.15)
 ms:contentKeyID: 48548892
 ms.date: 09/18/2015
 mtps_version: v=office.15

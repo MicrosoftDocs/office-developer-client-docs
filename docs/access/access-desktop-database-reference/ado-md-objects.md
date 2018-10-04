@@ -2,7 +2,7 @@
 title: ADO MD Objects
 TOCTitle: ADO MD Objects
 ms:assetid: 13501e44-70b6-1036-a8b7-c276f187e4f4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248907(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248907(v=office.15)
 ms:contentKeyID: 48543366
 ms.date: 09/18/2015
 mtps_version: v=office.15

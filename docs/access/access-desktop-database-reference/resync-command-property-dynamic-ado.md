@@ -2,7 +2,7 @@
 title: Resync Command Property--Dynamic (ADO)
 TOCTitle: Resync Command Property--Dynamic (ADO)
 ms:assetid: 5c0c0819-620a-6eb0-a217-69113ec8d094
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249322(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249322(v=office.15)
 ms:contentKeyID: 48545081
 ms.date: 09/18/2015
 mtps_version: v=office.15

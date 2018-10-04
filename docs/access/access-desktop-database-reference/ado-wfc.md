@@ -2,7 +2,7 @@
 title: ADO/WFC
 TOCTitle: ADO/WFC
 ms:assetid: 73206be8-6515-79e4-e904-cc2d0d59411d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249468(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249468(v=office.15)
 ms:contentKeyID: 48545628
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: ConvertToString Method Example (VB)
 TOCTitle: ConvertToString Method Example (VB)
 ms:assetid: a75f9d56-7043-34b0-ab78-e146c4a69e15
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249772(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249772(v=office.15)
 ms:contentKeyID: 48546875
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -40,7 +40,7 @@ Public Sub Main()
  ' Create a DataSpace object 
  Set rdsDS = New RDS.DataSpace 
  ' Create a DataFactory object 
- Set rdsDF = rdsDS.CreateObject("RDSServer.DataFactory", "http://MyServer") 'MyServer 
+ Set rdsDF = rdsDS.CreateObject("RDSServer.DataFactory", "https://MyServer") 'MyServer 
  
  ' Get all of the Author records 
  

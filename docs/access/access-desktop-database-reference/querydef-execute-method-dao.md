@@ -2,7 +2,7 @@
 title: QueryDef.Execute Method (DAO)
 TOCTitle: Execute Method
 ms:assetid: ad9e859e-c6fe-496c-a1f2-a000cf4bebcc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff821728(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff821728(v=office.15)
 ms:contentKeyID: 48547043
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -248,7 +248,7 @@ This example demonstrates the **Execute** method when run from both a **QueryDef
 
 The following example shows how to execute a parameter query. The Parameters collection is used to set the Organization parameter of the myActionQuery query before the query is executed.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](http://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
+**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
 
     Public Sub ExecParameterQuery()
     

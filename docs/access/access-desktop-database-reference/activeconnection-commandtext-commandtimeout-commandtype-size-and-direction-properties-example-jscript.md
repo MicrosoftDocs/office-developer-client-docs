@@ -2,7 +2,7 @@
 title: ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction Properties Example (JScript)
 TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction Properties Example (JScript)
 ms:assetid: 2a79222c-4dba-9c5a-fff7-c8dd2711801f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249056(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249056(v=office.15)
 ms:contentKeyID: 48543909
 ms.date: 09/18/2015
 mtps_version: v=office.15

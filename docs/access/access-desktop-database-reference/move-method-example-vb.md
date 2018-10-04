@@ -2,7 +2,7 @@
 title: Move Method Example (VB)
 TOCTitle: Move Method Example (VB)
 ms:assetid: e3e837a4-f46d-f8ec-11ba-9b8d66105b13
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250161(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250161(v=office.15)
 ms:contentKeyID: 48548328
 ms.date: 09/18/2015
 mtps_version: v=office.15

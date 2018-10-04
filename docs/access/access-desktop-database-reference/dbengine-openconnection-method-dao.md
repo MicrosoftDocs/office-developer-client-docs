@@ -2,7 +2,7 @@
 title: DBEngine.OpenConnection Method (DAO)
 TOCTitle: OpenConnection Method
 ms:assetid: 778a581f-be42-94ee-e5c6-4cbc1843450d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff196074(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff196074(v=office.15)
 ms:contentKeyID: 48545729
 ms.date: 09/18/2015
 mtps_version: v=office.15

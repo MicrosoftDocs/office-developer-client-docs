@@ -2,7 +2,7 @@
 title: ActualSize and DefinedSize Properties Example (VJ++)
 TOCTitle: ActualSize and DefinedSize Properties Example (VJ++)
 ms:assetid: 3a25d3b7-df53-66c1-6141-d51cd57aca96
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249145(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249145(v=office.15)
 ms:contentKeyID: 48544261
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Using Related Technologies with RDS (ADO)
 TOCTitle: Using Related Technologies with RDS
 ms:assetid: 8173230f-8b95-4c4e-a3db-e2002d694753
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249554(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249554(v=office.15)
 ms:contentKeyID: 48545949
 ms.date: 09/18/2015
 mtps_version: v=office.15

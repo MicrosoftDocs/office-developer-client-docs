@@ -2,7 +2,7 @@
 title: RecordCount Property (ADO)
 TOCTitle: RecordCount Property (ADO)
 ms:assetid: e3072d10-5bf7-02a8-027e-a9d9a34e3f27
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250155(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250155(v=office.15)
 ms:contentKeyID: 48548304
 ms.date: 09/18/2015
 mtps_version: v=office.15

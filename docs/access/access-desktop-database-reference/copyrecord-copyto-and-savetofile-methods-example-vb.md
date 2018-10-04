@@ -2,7 +2,7 @@
 title: CopyRecord, CopyTo, and SaveToFile Methods Example (VB)
 TOCTitle: CopyRecord, CopyTo, and SaveToFile Methods Example (VB)
 ms:assetid: 97f9bdc5-acde-ef74-f96a-d2daeb252911
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249679(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249679(v=office.15)
 ms:contentKeyID: 48546479
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -21,7 +21,7 @@ This example demonstrates how to create copies of a file using [Stream](stream-o
  
 'Note: 
 ' This sample requires that "C:\checkmrk.wmf" and 
-' "http://MyServer/mywmf.wmf" exist. 
+' "https://MyServer/mywmf.wmf" exist. 
  
 Option Explicit 
  
@@ -43,10 +43,10 @@ Private Sub Form_Load()
  ' Initialize path and URL strings 
  strPicturePath = "C:\checkmrk.wmf" 
  strStreamPath = "C:\mywmf.wmf" 
- strStreamURL = "URL=http://MyServer/mywmf.wmf" 
+ strStreamURL = "URL=https://MyServer/mywmf.wmf" 
  strStream2Path = "C:\checkmrk2.wmf" 
  strRecordPath = "C:\mywmf.wmf" 
- strRecordURL = "http://MyServer/mywmf2.wmf" 
+ strRecordURL = "https://MyServer/mywmf2.wmf" 
  
  ' Load the file into the stream 
  objStream.Open 

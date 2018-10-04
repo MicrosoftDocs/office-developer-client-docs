@@ -2,7 +2,7 @@
 title: Relation.Table Property (DAO)
 TOCTitle: Table Property
 ms:assetid: cc4f64ef-c4e9-1a14-9263-5f8220d89840
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff834423(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff834423(v=office.15)
 ms:contentKeyID: 48547736
 ms.date: 09/18/2015
 mtps_version: v=office.15

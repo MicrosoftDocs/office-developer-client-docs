@@ -2,7 +2,7 @@
 title: ADO Error Reference
 TOCTitle: ADO Error Reference
 ms:assetid: 21cec161-664a-4c18-4458-8117f4f63845
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248997(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248997(v=office.15)
 ms:contentKeyID: 48543690
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -217,7 +217,7 @@ The **ErrorValueEnum** constant describes the ADO error values. For a complete l
 <tr class="even">
 <td><p><strong>3727</strong></p></td>
 <td><p><strong>adErrURLDoesNotExist</strong></p></td>
-<td><p>Either the source URL or the parent of the destination URL does not exist. There is a typographical error in either the source or destination URL. You might have http://mysite/photo/myphoto.jpg when you should actually have http://mysite/photos/myphoto.jpg instead. The typographical error in the parent URL (in this case, <em>photo</em> instead of <em>photos</em>) has caused the error.</p></td>
+<td><p>Either the source URL or the parent of the destination URL does not exist. There is a typographical error in either the source or destination URL. You might have https://mysite/photo/myphoto.jpg when you should actually have https://mysite/photos/myphoto.jpg instead. The typographical error in the parent URL (in this case, <em>photo</em> instead of <em>photos</em>) has caused the error.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>3728</strong></p></td>

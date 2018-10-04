@@ -2,7 +2,7 @@
 title: Saving to the XML DOM Object
 TOCTitle: Saving to the XML DOM Object
 ms:assetid: 3c61fc30-9862-347b-c215-08597eccfead
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249160(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249160(v=office.15)
 ms:contentKeyID: 48544318
 ms.date: 09/18/2015
 mtps_version: v=office.15

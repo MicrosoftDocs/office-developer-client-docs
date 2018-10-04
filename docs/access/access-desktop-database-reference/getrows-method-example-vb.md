@@ -2,7 +2,7 @@
 title: GetRows Method Example (VB)
 TOCTitle: GetRows Method Example (VB)
 ms:assetid: 5a4e03de-0c89-ed93-7fe8-685906878e60
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249311(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249311(v=office.15)
 ms:contentKeyID: 48545041
 ms.date: 09/18/2015
 mtps_version: v=office.15

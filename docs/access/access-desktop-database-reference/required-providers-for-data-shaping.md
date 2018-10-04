@@ -2,7 +2,7 @@
 title: Required Providers for Data Shaping
 TOCTitle: Required Providers for Data Shaping
 ms:assetid: eb8933fb-d533-3ea7-e045-35c1ca585765
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250194(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250194(v=office.15)
 ms:contentKeyID: 48548488
 ms.date: 09/18/2015
 mtps_version: v=office.15

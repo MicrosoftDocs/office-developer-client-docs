@@ -2,7 +2,7 @@
 title: Handling Errors in JScript
 TOCTitle: Handling Errors in JScript
 ms:assetid: 2197b4b9-819f-43ff-3ac6-3823c62b40c6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248993(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248993(v=office.15)
 ms:contentKeyID: 48543684
 ms.date: 09/18/2015
 mtps_version: v=office.15

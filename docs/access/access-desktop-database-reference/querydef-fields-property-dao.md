@@ -2,7 +2,7 @@
 title: QueryDef.Fields Property (DAO)
 TOCTitle: Fields Property
 ms:assetid: 72b60c04-fd20-cfa3-d5f6-d0472ea5478b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff195834(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff195834(v=office.15)
 ms:contentKeyID: 48545616
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: 'Chapter 9: Data Shaping'
 TOCTitle: 'Chapter 9: Data Shaping'
 ms:assetid: f66a319f-1b3d-c4a3-50b3-af1a47540832
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250253(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250253(v=office.15)
 ms:contentKeyID: 48548739
 ms.date: 09/18/2015
 mtps_version: v=office.15

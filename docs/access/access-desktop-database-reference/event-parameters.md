@@ -2,7 +2,7 @@
 title: Event Parameters
 TOCTitle: Event Parameters
 ms:assetid: 626de9b1-4d45-d77e-ccf2-23f2ea31c043
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249371(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249371(v=office.15)
 ms:contentKeyID: 48545239
 ms.date: 09/18/2015
 mtps_version: v=office.15

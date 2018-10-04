@@ -2,7 +2,7 @@
 title: ALTER USER or DATABASE Statement (Microsoft Access SQL)
 TOCTitle: ALTER USER or DATABASE Statement (Microsoft Access SQL)
 ms:assetid: 86ccd296-5171-97e7-683f-cdaab4bde9ab
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff197012(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff197012(v=office.15)
 ms:contentKeyID: 48546093
 ms.date: 09/18/2015
 mtps_version: v=office.15

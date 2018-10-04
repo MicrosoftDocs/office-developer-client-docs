@@ -2,7 +2,7 @@
 title: Using ADO with Scripting Languages
 TOCTitle: Using ADO with Scripting Languages
 ms:assetid: 2e163ffb-22fe-36f5-9960-8f6bcb148183
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249074(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249074(v=office.15)
 ms:contentKeyID: 48543985
 ms.date: 09/18/2015
 mtps_version: v=office.15

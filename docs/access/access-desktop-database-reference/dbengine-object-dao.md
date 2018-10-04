@@ -2,7 +2,7 @@
 title: DBEngine Object (DAO)
 TOCTitle: DBEngine Object
 ms:assetid: ceaeb505-615e-37ba-4633-27240ef8c5de
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff834506(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff834506(v=office.15)
 ms:contentKeyID: 48547792
 ms.date: 09/18/2015
 mtps_version: v=office.15

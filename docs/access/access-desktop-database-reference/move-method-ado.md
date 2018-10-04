@@ -2,7 +2,7 @@
 title: Move Method (ADO)
 TOCTitle: Move Method (ADO)
 ms:assetid: 1f858654-5fa3-273d-7cdc-574c5f09a420
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248982(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248982(v=office.15)
 ms:contentKeyID: 48543645
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Before Change Macro Event
 TOCTitle: Before Change Macro Event
 ms:assetid: da456d55-a773-abeb-1fac-ef58e3331cb5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff835322(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff835322(v=office.15)
 ms:contentKeyID: 48548077
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -182,7 +182,7 @@ To view this example in the macro designer, use the following steps.
 <!-- end list -->
 
 ``` xml
-<DataMacros xmlns="http://schemas.microsoft.com/office/accessservices/2009/04/application"> 
+<DataMacros xmlns="https://schemas.microsoft.com/office/accessservices/2009/04/application"> 
   <DataMacro Event="BeforeChange"> 
     <Statements> 
       <Comment>Check to ensure that if the bug is resloved that the user has selected a resolution </Comment> 
@@ -227,7 +227,7 @@ To view this example in the macro designer, use the following steps.
 
 The following example shows how to use the RaiseError action to cancel the Before Change data macro event. When the AssignedTo field is updated, a LookupRecord data block is used to determine whether the assigned technician is currently assigned to an open service request. If this is true, then the Before Change event is cancelled and the record is not updated.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](http://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html)
+**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html)
 
     /* Get the name of the technician  */
     Look Up A Record In tblTechnicians

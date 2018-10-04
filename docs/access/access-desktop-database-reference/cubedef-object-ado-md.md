@@ -2,7 +2,7 @@
 title: CubeDef Object (ADO MD)
 TOCTitle: CubeDef Object (ADO MD)
 ms:assetid: 199235b7-3d98-f655-27bc-94f66e994e06
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248941(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248941(v=office.15)
 ms:contentKeyID: 48543502
 ms.date: 09/18/2015
 mtps_version: v=office.15

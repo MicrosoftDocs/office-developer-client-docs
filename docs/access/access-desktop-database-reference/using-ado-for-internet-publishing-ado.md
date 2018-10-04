@@ -2,7 +2,7 @@
 title: Using ADO for Internet Publishing (ADO)
 TOCTitle: Using ADO for Internet Publishing
 ms:assetid: e5621d28-64be-44f3-ba6e-5de1d4ea9922
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250165(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250165(v=office.15)
 ms:contentKeyID: 48548358
 ms.date: 09/18/2015
 mtps_version: v=office.15

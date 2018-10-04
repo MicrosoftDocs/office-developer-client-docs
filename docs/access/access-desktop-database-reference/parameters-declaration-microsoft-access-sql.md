@@ -2,7 +2,7 @@
 title: PARAMETERS Declaration (Microsoft Access SQL)
 TOCTitle: PARAMETERS Declaration (Microsoft Access SQL)
 ms:assetid: 0dcaad68-6a5f-93dc-e62a-b82b36e1e69c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff845220(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff845220(v=office.15)
 ms:contentKeyID: 48543230
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -68,7 +68,7 @@ If the declaration includes more than one parameter, separate them with commas. 
 PARAMETERS [Low price] Currency, [Beginning date] DateTime;
 ```
 
-You can use *name* but not *datatype* in a [WHERE](https://msdn.microsoft.com/en-us/library/ff195245\(v=office.15\)) or [HAVING](https://msdn.microsoft.com/en-us/library/ff193795\(v=office.15\)) clause. The following example expects two parameters to be provided and then applies the criteria to records in the Orders table:
+You can use *name* but not *datatype* in a [WHERE](https://msdn.microsoft.com/library/ff195245\(v=office.15\)) or [HAVING](https://msdn.microsoft.com/library/ff193795\(v=office.15\)) clause. The following example expects two parameters to be provided and then applies the criteria to records in the Orders table:
 
 ``` sql
 PARAMETERS [Low price] Currency, 

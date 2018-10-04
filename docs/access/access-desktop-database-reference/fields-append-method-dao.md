@@ -2,7 +2,7 @@
 title: Fields.Append Method (DAO)
 TOCTitle: Append Method
 ms:assetid: a0e553ba-6a57-09af-3436-4f6ca3cbe561
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff820791(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff820791(v=office.15)
 ms:contentKeyID: 48546719
 ms.date: 09/18/2015
 mtps_version: v=office.15

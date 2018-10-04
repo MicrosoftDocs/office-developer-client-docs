@@ -2,7 +2,7 @@
 title: EventReasonEnum
 TOCTitle: EventReasonEnum
 ms:assetid: 0639928e-d0ef-3db3-887e-f3da03913bc7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248815(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248815(v=office.15)
 ms:contentKeyID: 48543047
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: QueryDef Members (DAO)
 TOCTitle: QueryDef Members
 ms:assetid: 3f914d23-aa63-3ebd-1d86-4f53da71131b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff192855(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff192855(v=office.15)
 ms:contentKeyID: 48544403
 ms.date: 09/18/2015
 mtps_version: v=office.15

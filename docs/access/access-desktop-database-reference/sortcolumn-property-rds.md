@@ -2,7 +2,7 @@
 title: SortColumn Property (RDS)
 TOCTitle: SortColumn Property (RDS)
 ms:assetid: 0a5d157c-9261-960d-6f89-33d9c94b3940
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248835(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248835(v=office.15)
 ms:contentKeyID: 48543151
 ms.date: 09/18/2015
 mtps_version: v=office.15

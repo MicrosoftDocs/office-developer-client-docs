@@ -2,7 +2,7 @@
 title: Attributes and Name Properties Example (VJ++)
 TOCTitle: Attributes and Name Properties Example (VJ++)
 ms:assetid: ad3fe113-ad14-2df3-ec41-c24e6d2b1b21
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249812(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249812(v=office.15)
 ms:contentKeyID: 48547035
 ms.date: 09/18/2015
 mtps_version: v=office.15

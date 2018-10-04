@@ -2,7 +2,7 @@
 title: Type Property (ADO)
 TOCTitle: Type Property (ADO)
 ms:assetid: 14d99172-2145-05ae-620b-459ba097f05c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248914(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248914(v=office.15)
 ms:contentKeyID: 48543397
 ms.date: 09/18/2015
 mtps_version: v=office.15

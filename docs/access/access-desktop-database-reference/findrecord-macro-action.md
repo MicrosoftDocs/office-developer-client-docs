@@ -2,7 +2,7 @@
 title: FindRecord Macro Action
 TOCTitle: FindRecord Macro Action
 ms:assetid: 379e3dda-cb7d-a294-29b1-c6ce9a62ba8a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff192494(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff192494(v=office.15)
 ms:contentKeyID: 48544199
 ms.date: 09/18/2015
 mtps_version: v=office.15

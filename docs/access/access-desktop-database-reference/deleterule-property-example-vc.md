@@ -2,7 +2,7 @@
 title: DeleteRule Property Example (VC++)
 TOCTitle: DeleteRule Property Example (VC++)
 ms:assetid: 364efee7-d579-57df-aeb0-fa352a72d704
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249122(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249122(v=office.15)
 ms:contentKeyID: 48544164
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: AffectEnum
 TOCTitle: AffectEnum
 ms:assetid: 15393398-d7eb-a685-1bfa-d6712d8e5015
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248916(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248916(v=office.15)
 ms:contentKeyID: 48543404
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: 'Chapter 9: Data Shaping (ADO)'
 TOCTitle: 'Chapter 9: Data Shaping'
 ms:assetid: 70d0fc11-8738-46b5-a107-48e3acc3ce26
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249449(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249449(v=office.15)
 ms:contentKeyID: 48545569
 ms.date: 09/18/2015
 mtps_version: v=office.15

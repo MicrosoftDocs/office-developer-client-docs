@@ -2,7 +2,7 @@
 title: FieldAttributeEnum
 TOCTitle: FieldAttributeEnum
 ms:assetid: 2d3a541e-a437-6108-ab0e-90c7884b3df7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249071(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249071(v=office.15)
 ms:contentKeyID: 48543967
 ms.date: 09/18/2015
 mtps_version: v=office.15

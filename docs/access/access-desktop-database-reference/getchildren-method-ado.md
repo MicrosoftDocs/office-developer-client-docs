@@ -2,7 +2,7 @@
 title: GetChildren Method (ADO)
 TOCTitle: GetChildren Method (ADO)
 ms:assetid: 998cf640-ffc7-51e1-4d1e-4797f7cdea4a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249687(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249687(v=office.15)
 ms:contentKeyID: 48546515
 ms.date: 09/18/2015
 mtps_version: v=office.15

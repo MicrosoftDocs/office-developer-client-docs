@@ -2,7 +2,7 @@
 title: LockNavigationPane Macro Action
 TOCTitle: LockNavigationPane Macro Action
 ms:assetid: abf7a989-c7cf-3efa-8df4-3c5b075d0e5f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff821487(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff821487(v=office.15)
 ms:contentKeyID: 48546986
 ms.date: 09/18/2015
 mtps_version: v=office.15

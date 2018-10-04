@@ -2,7 +2,7 @@
 title: Command Object Overview
 TOCTitle: Command Object Overview
 ms:assetid: 3d6d81c4-4cf0-0c13-adb3-0c2c5934dc21
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249166(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249166(v=office.15)
 ms:contentKeyID: 48544346
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Visual Basic for Applications functions
 TOCTitle: Visual Basic for Applications functions
 ms:assetid: 482b1236-0051-8737-b8f8-e29e9223a739
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249223(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249223(v=office.15)
 ms:contentKeyID: 48544617
 ms.date: 09/18/2015
 mtps_version: v=office.15

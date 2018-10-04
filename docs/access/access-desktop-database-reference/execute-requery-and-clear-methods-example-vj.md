@@ -2,7 +2,7 @@
 title: Execute, Requery, and Clear Methods Example (VJ++)
 TOCTitle: Execute, Requery, and Clear Methods Example (VJ++)
 ms:assetid: 00210f2e-7454-25c7-a035-68344868fe11
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248774(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248774(v=office.15)
 ms:contentKeyID: 48542897
 ms.date: 09/18/2015
 mtps_version: v=office.15

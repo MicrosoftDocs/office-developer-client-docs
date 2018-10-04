@@ -2,7 +2,7 @@
 title: ADO Code Examples in Microsoft Visual Basic
 TOCTitle: ADO Code Examples in Microsoft Visual Basic
 ms:assetid: 5eb855d4-e5e1-2626-3a21-891d195fb193
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249342(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249342(v=office.15)
 ms:contentKeyID: 48545145
 ms.date: 09/18/2015
 mtps_version: v=office.15

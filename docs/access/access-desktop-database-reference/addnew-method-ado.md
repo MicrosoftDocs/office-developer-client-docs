@@ -2,7 +2,7 @@
 title: AddNew Method (ADO)
 TOCTitle: AddNew Method (ADO)
 ms:assetid: bae09be0-5707-4f38-9c74-0acd0f29dbac
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249899(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249899(v=office.15)
 ms:contentKeyID: 48547384
 ms.date: 09/18/2015
 mtps_version: v=office.15

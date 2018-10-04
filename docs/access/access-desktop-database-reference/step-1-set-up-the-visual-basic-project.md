@@ -2,7 +2,7 @@
 title: 'Step 1: Set Up the Visual Basic Project'
 TOCTitle: 'Step 1: Set Up the Visual Basic Project'
 ms:assetid: 1b8195c9-60c8-18a2-3fa2-ffdeed370748
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248954(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248954(v=office.15)
 ms:contentKeyID: 48543544
 ms.date: 09/18/2015
 mtps_version: v=office.15

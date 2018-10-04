@@ -2,7 +2,7 @@
 title: FilterCriterion Property (RDS)
 TOCTitle: FilterCriterion Property (RDS)
 ms:assetid: 51e6cb64-a404-114e-8e1a-0744cceeec3e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249267(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249267(v=office.15)
 ms:contentKeyID: 48544834
 ms.date: 09/18/2015
 mtps_version: v=office.15

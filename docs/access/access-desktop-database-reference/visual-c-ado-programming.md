@@ -2,7 +2,7 @@
 title: Visual C++ ADO Programming
 TOCTitle: Visual C++ ADO Programming
 ms:assetid: 117c4fad-8c11-5e3a-ea0c-18811e87475f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248878(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248878(v=office.15)
 ms:contentKeyID: 48543319
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Database Object (DAO)
 TOCTitle: Database Object
 ms:assetid: 6cf2ddf8-3957-a15e-5eeb-85f81c1e415e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff195520(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff195520(v=office.15)
 ms:contentKeyID: 48545482
 ms.date: 09/18/2015
 mtps_version: v=office.15

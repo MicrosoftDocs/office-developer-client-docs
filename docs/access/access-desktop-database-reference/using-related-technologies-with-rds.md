@@ -2,7 +2,7 @@
 title: Using Related Technologies with RDS
 TOCTitle: Using Related Technologies with RDS
 ms:assetid: 4e5fe705-6f1e-33ce-437e-d61fd86f9206
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249250(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249250(v=office.15)
 ms:contentKeyID: 48544752
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -17,7 +17,7 @@ This section contains specific information about using RDS with aspects of the f
 
   - [Using RDS with ODBC Connection Pooling](using-rds-with-odbc-connection-pooling.md)
 
-  - [Running Business Objects in Component Services](http://www.microsoft.com/com/default.mspx)
+  - [Running Business Objects in Component Services](https://www.microsoft.com/com/default.mspx)
 
 **Internet Information Services** For more information about Microsoft Internet Information Services (IIS), see the Microsoft Internet Information Services Web site.
 

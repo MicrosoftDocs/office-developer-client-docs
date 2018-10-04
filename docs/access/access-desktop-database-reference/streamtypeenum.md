@@ -2,7 +2,7 @@
 title: StreamTypeEnum
 TOCTitle: StreamTypeEnum
 ms:assetid: 3e84c728-0c71-55fb-06f2-7f4e644689ce
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249172(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249172(v=office.15)
 ms:contentKeyID: 48544377
 ms.date: 09/18/2015
 mtps_version: v=office.15

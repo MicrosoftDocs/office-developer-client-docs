@@ -2,7 +2,7 @@
 title: Windows Registry Settings for External Data Sources
 TOCTitle: Windows Registry Settings for External Data Sources
 ms:assetid: bfd5e88e-3a0b-41e5-8a0d-9dd34ac6cbd3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn161249(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn161249(v=office.15)
 ms:contentKeyID: 52074216
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: 'Chapter 8: Understanding Cursors and Locks'
 TOCTitle: 'Chapter 8: Understanding Cursors and Locks'
 ms:assetid: 889356f9-53ca-3c46-6781-b37e1f065717
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249598(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249598(v=office.15)
 ms:contentKeyID: 48546139
 ms.date: 09/18/2015
 mtps_version: v=office.15

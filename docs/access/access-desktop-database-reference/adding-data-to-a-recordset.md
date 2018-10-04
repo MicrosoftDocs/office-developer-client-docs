@@ -2,7 +2,7 @@
 title: Adding Data to a Recordset
 TOCTitle: Adding Data to a Recordset
 ms:assetid: a3d121a8-f52f-66cd-8849-c3a75aeb276a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249761(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249761(v=office.15)
 ms:contentKeyID: 48546797
 ms.date: 09/18/2015
 mtps_version: v=office.15

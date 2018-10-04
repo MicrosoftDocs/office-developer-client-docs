@@ -2,7 +2,7 @@
 title: AbsolutePage, PageCount, and PageSize Properties Example (VB)
 TOCTitle: AbsolutePage, PageCount, and PageSize Properties Example (VB)
 ms:assetid: bd13fb6c-8ee4-7475-ef2d-9067e30918de
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249911(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249911(v=office.15)
 ms:contentKeyID: 48547426
 ms.date: 09/18/2015
 mtps_version: v=office.15

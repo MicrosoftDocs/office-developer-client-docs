@@ -2,7 +2,7 @@
 title: RDS Properties (Access)
 TOCTitle: RDS Properties
 ms:assetid: ac03da9a-91fb-42a5-989f-09e09100719e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249798(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249798(v=office.15)
 ms:contentKeyID: 48546989
 ms.date: 09/18/2015
 mtps_version: v=office.15

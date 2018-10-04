@@ -2,7 +2,7 @@
 title: TableDefs.Append Method (DAO)
 TOCTitle: Append Method
 ms:assetid: f951a3c4-dade-c1ef-3bfc-6b2a60e12adc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff837001(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff837001(v=office.15)
 ms:contentKeyID: 48548811
 ms.date: 09/18/2015
 mtps_version: v=office.15

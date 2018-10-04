@@ -2,7 +2,7 @@
 title: Database.Synchronize Method (DAO)
 TOCTitle: Synchronize Method
 ms:assetid: 5e716a4a-2430-8106-5c34-a02dd28bc4f6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff194659(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff194659(v=office.15)
 ms:contentKeyID: 48545137
 ms.date: 09/18/2015
 mtps_version: v=office.15

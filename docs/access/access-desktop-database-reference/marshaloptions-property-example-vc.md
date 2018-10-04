@@ -2,7 +2,7 @@
 title: MarshalOptions Property Example (VC++)
 TOCTitle: MarshalOptions Property Example (VC++)
 ms:assetid: 8c47eb55-f86d-e4c0-9617-d2ac3c91199f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249617(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249617(v=office.15)
 ms:contentKeyID: 48546236
 ms.date: 09/18/2015
 mtps_version: v=office.15

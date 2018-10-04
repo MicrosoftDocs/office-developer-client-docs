@@ -2,7 +2,7 @@
 title: Resync Method Example (VJ++)
 TOCTitle: Resync Method Example (VJ++)
 ms:assetid: f8394f26-7a56-a342-ef99-9b32a3f8ebf5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250261(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250261(v=office.15)
 ms:contentKeyID: 48548780
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Using Wildcard Characters in String Comparisons
 TOCTitle: Using Wildcard Characters in String Comparisons
 ms:assetid: 37dda2b8-c710-4f73-bb2a-76a1348c42fe
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff192499(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff192499(v=office.15)
 ms:contentKeyID: 48544205
 ms.date: 09/18/2015
 mtps_version: v=office.15

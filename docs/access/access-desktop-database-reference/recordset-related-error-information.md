@@ -2,7 +2,7 @@
 title: Recordset-Related Error Information
 TOCTitle: Recordset-Related Error Information
 ms:assetid: 388308c7-e121-bd12-228a-312c897b8c55
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249136(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249136(v=office.15)
 ms:contentKeyID: 48544222
 ms.date: 09/18/2015
 mtps_version: v=office.15

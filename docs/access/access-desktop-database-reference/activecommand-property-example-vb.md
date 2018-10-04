@@ -2,7 +2,7 @@
 title: ActiveCommand Property Example (VB)
 TOCTitle: ActiveCommand Property Example (VB)
 ms:assetid: 831032cb-d557-aa98-5637-07bad65f924a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249569(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249569(v=office.15)
 ms:contentKeyID: 48545999
 ms.date: 09/18/2015
 mtps_version: v=office.15

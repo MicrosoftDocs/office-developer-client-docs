@@ -2,7 +2,7 @@
 title: MoveRecord Method (ADO)
 TOCTitle: MoveRecord Method (ADO)
 ms:assetid: efc341a2-0e08-a838-5925-8d4c46377e48
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250217(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250217(v=office.15)
 ms:contentKeyID: 48548588
 ms.date: 09/18/2015
 mtps_version: v=office.15

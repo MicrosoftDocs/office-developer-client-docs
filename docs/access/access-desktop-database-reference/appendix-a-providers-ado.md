@@ -2,7 +2,7 @@
 title: 'Appendix A: Providers (ADO)'
 TOCTitle: 'Appendix A: Providers'
 ms:assetid: acce14df-9f9d-4b4f-9be5-407ff92620df
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249807(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249807(v=office.15)
 ms:contentKeyID: 48547022
 ms.date: 09/18/2015
 mtps_version: v=office.15

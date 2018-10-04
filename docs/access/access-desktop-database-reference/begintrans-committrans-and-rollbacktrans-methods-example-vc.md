@@ -2,7 +2,7 @@
 title: BeginTrans, CommitTrans, and RollbackTrans Methods Example (VC++)
 TOCTitle: BeginTrans, CommitTrans, and RollbackTrans Methods Example (VC++)
 ms:assetid: b2e53b79-4f10-f9cc-59f7-61c9557e5ef2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249853(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249853(v=office.15)
 ms:contentKeyID: 48547182
 ms.date: 09/18/2015
 mtps_version: v=office.15

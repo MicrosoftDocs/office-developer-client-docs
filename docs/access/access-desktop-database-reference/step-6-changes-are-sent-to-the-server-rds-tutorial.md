@@ -2,7 +2,7 @@
 title: 'Step 6: Changes are Sent to the Server (RDS Tutorial)'
 TOCTitle: 'Step 6: Changes are Sent to the Server (RDS Tutorial)'
 ms:assetid: c5915d89-77b6-bb3f-a962-49378160751f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249965(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249965(v=office.15)
 ms:contentKeyID: 48547611
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -25,7 +25,7 @@ If the **Recordset** object is edited, any changes (that is, rows that are added
  
 Dim rs as New ADODB.Recordset 
 rs.Open "SELECT * FROM Authors","Provider=MS Remote;Data Source=Pubs;" & _ 
- "Remote Server=http://yourServer;Remote Provider=SQLOLEDB;" 
+ "Remote Server=https://yourServer;Remote Provider=SQLOLEDB;" 
 ... ' Edit the Recordset. 
 rs.UpdateBatch ' The equivalent of SubmitChanges. 
 ... 
@@ -38,7 +38,7 @@ rs.UpdateBatch ' The equivalent of SubmitChanges.
 Sub RDSTutorial6A() 
 Dim DC as New RDS.DataControl 
 Dim RS as ADODB.Recordset 
-DC.Server = "http://yourServer" 
+DC.Server = "https://yourServer" 
 DC.Connect = "DSN=Pubs" 
 DC.SQL = "SELECT * FROM Authors" 
 DC.Refresh 
@@ -60,7 +60,7 @@ Dim RS As ADODB.Recordset
 Dim DC As New RDS.DataControl 
 Dim DF As Object 
 Dim blnStatus As Boolean 
-Set DF = DS.CreateObject("RDSServer.DataFactory", "http://yourServer") 
+Set DF = DS.CreateObject("RDSServer.DataFactory", "https://yourServer") 
 Set RS = DF.Query ("DSN=Pubs", "SELECT * FROM Authors") 
 DC.SourceRecordset = RS ' Visual controls can now bind to DC. 
  ' Edit the Recordset. 

@@ -2,7 +2,7 @@
 title: Close Method (ADO)
 TOCTitle: Close Method (ADO)
 ms:assetid: 26a7cced-ebeb-70be-f5de-96a35711bc37
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249029(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249029(v=office.15)
 ms:contentKeyID: 48543818
 ms.date: 09/18/2015
 mtps_version: v=office.15

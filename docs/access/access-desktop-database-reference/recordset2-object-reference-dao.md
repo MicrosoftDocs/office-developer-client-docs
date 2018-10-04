@@ -2,7 +2,7 @@
 title: Recordset2 Object Reference (DAO)
 TOCTitle: Recordset2 Object
 ms:assetid: 04eeb018-3679-4c81-b294-a11780bf2f32
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn123541(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn123541(v=office.15)
 ms:contentKeyID: 52071184
 ms.date: 09/18/2015
 mtps_version: v=office.15

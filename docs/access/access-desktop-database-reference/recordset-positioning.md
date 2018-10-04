@@ -2,7 +2,7 @@
 title: Recordset Positioning
 TOCTitle: Recordset Positioning
 ms:assetid: 1b8b08d5-a11c-ec6e-201c-1405171a1264
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248955(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248955(v=office.15)
 ms:contentKeyID: 48543546
 ms.date: 09/18/2015
 mtps_version: v=office.15

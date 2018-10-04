@@ -2,7 +2,7 @@
 title: Cellset Object (ADO MD)
 TOCTitle: Cellset Object (ADO MD)
 ms:assetid: 28d4b3b9-f907-9ec0-00e1-9666c887cdf0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249047(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249047(v=office.15)
 ms:contentKeyID: 48543869
 ms.date: 09/18/2015
 mtps_version: v=office.15

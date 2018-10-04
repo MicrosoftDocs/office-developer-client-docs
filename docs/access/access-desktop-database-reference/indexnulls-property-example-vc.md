@@ -2,7 +2,7 @@
 title: IndexNulls Property Example (VC++)
 TOCTitle: IndexNulls Property Example (VC++)
 ms:assetid: 05d1f8b3-ae70-cca5-d60d-af55f5f7c13a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248813(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248813(v=office.15)
 ms:contentKeyID: 48543039
 ms.date: 09/18/2015
 mtps_version: v=office.15

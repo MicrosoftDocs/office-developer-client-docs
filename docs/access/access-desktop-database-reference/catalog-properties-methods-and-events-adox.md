@@ -2,7 +2,7 @@
 title: Catalog Properties, Methods, and Events (ADOX)
 TOCTitle: Catalog Properties, Methods, and Events (ADOX)
 ms:assetid: 82d7dfc2-6fc8-709c-96e0-d8cddd1d5432
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249567(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249567(v=office.15)
 ms:contentKeyID: 48545989
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -38,7 +38,7 @@ Events
 
 [GetObjectOwner Method](getobjectowner-method-adox.md)
 
-[SetObjectOwner Method](https://msdn.microsoft.com/en-us/library/jj249006\(v=office.15\))
+[SetObjectOwner Method](https://msdn.microsoft.com/library/jj249006\(v=office.15\))
 
 ## Events
 

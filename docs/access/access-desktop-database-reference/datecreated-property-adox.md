@@ -2,7 +2,7 @@
 title: DateCreated Property (ADOX)
 TOCTitle: DateCreated Property (ADOX)
 ms:assetid: ee975bf5-7d44-a993-d1c0-077993515698
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250209(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250209(v=office.15)
 ms:contentKeyID: 48548564
 ms.date: 09/18/2015
 mtps_version: v=office.15

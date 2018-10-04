@@ -2,7 +2,7 @@
 title: Connection.QueryTimeout Property (DAO)
 TOCTitle: QueryTimeout Property
 ms:assetid: 97853412-d5ae-7a71-ccaa-595c68919654
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff197804(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff197804(v=office.15)
 ms:contentKeyID: 48546471
 ms.date: 09/18/2015
 mtps_version: v=office.15

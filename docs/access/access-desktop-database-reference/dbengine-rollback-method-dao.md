@@ -2,7 +2,7 @@
 title: DBEngine.Rollback Method (DAO)
 TOCTitle: Rollback Method
 ms:assetid: da7e2fe0-c837-7b1e-d35c-98e6cb0a7bbe
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff835327(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff835327(v=office.15)
 ms:contentKeyID: 48548084
 ms.date: 09/18/2015
 mtps_version: v=office.15

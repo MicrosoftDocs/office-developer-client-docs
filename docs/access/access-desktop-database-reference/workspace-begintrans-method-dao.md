@@ -2,7 +2,7 @@
 title: Workspace.BeginTrans Method (DAO)
 TOCTitle: BeginTrans Method
 ms:assetid: aa7c3bf8-fb08-9360-5998-4bf3f721ecbb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff821457(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff821457(v=office.15)
 ms:contentKeyID: 48546948
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -69,7 +69,7 @@ In ODBC workspaces, when you use **CommitTrans** your cursor may no longer be va
 
 The following example shows how to use a transaction in a Data Access Objects (DAO) workspace.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](http://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
+**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
 
     Public Sub TransferFunds()
         Dim wrk As DAO.Workspace

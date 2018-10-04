@@ -2,7 +2,7 @@
 title: LockTypeEnum
 TOCTitle: LockTypeEnum
 ms:assetid: 966b4952-5591-4a99-82d5-99cb9ae3fc72
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249667(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249667(v=office.15)
 ms:contentKeyID: 48546448
 ms.date: 09/18/2015
 mtps_version: v=office.15

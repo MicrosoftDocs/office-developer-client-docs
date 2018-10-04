@@ -2,7 +2,7 @@
 title: Initializing the Microsoft Excel Driver
 TOCTitle: Initializing the Microsoft Excel Driver
 ms:assetid: 06c7f823-8e74-0811-cc00-e6b32075ef11
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff844939(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff844939(v=office.15)
 ms:contentKeyID: 48543054
 ms.date: 09/18/2015
 mtps_version: v=office.15

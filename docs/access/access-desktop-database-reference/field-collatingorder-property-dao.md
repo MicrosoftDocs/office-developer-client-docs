@@ -2,7 +2,7 @@
 title: Field.CollatingOrder Property (DAO)
 TOCTitle: CollatingOrder Property
 ms:assetid: a2607ace-a660-899b-eae8-4612ce2f87f8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff820980(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff820980(v=office.15)
 ms:contentKeyID: 48546758
 ms.date: 09/18/2015
 mtps_version: v=office.15

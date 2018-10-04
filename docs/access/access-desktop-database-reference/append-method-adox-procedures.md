@@ -2,7 +2,7 @@
 title: Append Method (ADOX Procedures)
 TOCTitle: Append Method (ADOX Procedures)
 ms:assetid: a93b31bb-e41a-5152-abe7-dd7c2b2fcd0a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249783(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249783(v=office.15)
 ms:contentKeyID: 48546919
 ms.date: 09/18/2015
 mtps_version: v=office.15

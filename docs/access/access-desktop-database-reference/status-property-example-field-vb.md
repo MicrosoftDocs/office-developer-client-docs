@@ -2,7 +2,7 @@
 title: Status Property Example (Field) (VB)
 TOCTitle: Status Property Example (Field) (VB)
 ms:assetid: 1dc2807f-f469-de97-1280-4b1984b271b4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248969(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248969(v=office.15)
 ms:contentKeyID: 48543601
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -27,7 +27,7 @@ The following example opens a document from a read/write folder using the [Inter
        Dim strCnxn As String
        
        Set Cnxn = New ADODB.Connection
-       strCnxn = "url=http://MyServer/"
+       strCnxn = "url=https://MyServer/"
        Cnxn.Open strCnxn
        
        Set File = New ADODB.Record
@@ -85,7 +85,7 @@ The following example deletes a known **Field** from a **Record** opened from a 
        
         ' create connection as a URL
        Set Cnxn = New ADODB.Connection
-       strCnxn = "url=http://MyServer/"
+       strCnxn = "url=https://MyServer/"
        Cnxn.Open strCnxn
        Set File = New ADODB.Record
        strFile = "Folder/FileName"
@@ -129,7 +129,7 @@ The following code deletes a **Field** from a **Record** opened on a read-only d
        
         ' create connection as a URL
        Set Cnxn = New ADODB.Connection
-       strCnxn = "url=http://MyServer/"
+       strCnxn = "url=https://MyServer/"
        Cnxn.Open strCnxn
     
        ' Open a read/write document

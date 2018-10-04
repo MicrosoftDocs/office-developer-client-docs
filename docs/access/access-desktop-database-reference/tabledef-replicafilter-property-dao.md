@@ -2,7 +2,7 @@
 title: TableDef.ReplicaFilter Property (DAO)
 TOCTitle: ReplicaFilter Property
 ms:assetid: f44273de-2b6a-750f-cb7c-12c3ac2da503
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff836681(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff836681(v=office.15)
 ms:contentKeyID: 48548683
 ms.date: 09/18/2015
 mtps_version: v=office.15

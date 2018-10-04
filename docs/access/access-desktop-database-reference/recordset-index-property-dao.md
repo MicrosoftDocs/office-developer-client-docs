@@ -2,7 +2,7 @@
 title: Recordset.Index Property (DAO)
 TOCTitle: Index Property
 ms:assetid: 54626de0-eb51-31f2-bf24-e29cbfbbaa02
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff194103(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff194103(v=office.15)
 ms:contentKeyID: 48544895
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -161,7 +161,7 @@ This example demonstrates the **Seek** method by allowing the user to search for
 
 The following example shows how to use the Seek method to find a record in a linked table.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](http://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
+**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
 
     Sub TestSeek()
         ' Get the path to the external database that contains

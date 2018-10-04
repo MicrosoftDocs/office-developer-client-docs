@@ -2,7 +2,7 @@
 title: 'Chapter 4: Editing Data'
 TOCTitle: 'Chapter 4: Editing Data'
 ms:assetid: 822b7365-0926-6411-6fb4-30de032570f8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249563(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249563(v=office.15)
 ms:contentKeyID: 48545974
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: RDS Programming Model with Objects
 TOCTitle: RDS Programming Model with Objects
 ms:assetid: 207150ec-8eb5-bec5-3059-db37a0e28c19
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248987(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248987(v=office.15)
 ms:contentKeyID: 48543663
 ms.date: 09/18/2015
 mtps_version: v=office.15

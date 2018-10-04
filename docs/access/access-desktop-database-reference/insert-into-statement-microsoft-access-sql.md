@@ -2,7 +2,7 @@
 title: INSERT INTO Statement (Microsoft Access SQL)
 TOCTitle: INSERT INTO Statement (Microsoft Access SQL)
 ms:assetid: d3e44258-79f2-caba-8629-bde03f898f2d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff834799(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff834799(v=office.15)
 ms:contentKeyID: 48547918
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -59,7 +59,7 @@ The INSERT INTO statement has these parts:
 </tr>
 <tr class="odd">
 <td><p><em>externaldatabase</em></p></td>
-<td><p>The path to an external database. For a description of the path, see the <a href="https://msdn.microsoft.com/en-us/library/ff194542(v=office.15)">IN</a> clause.</p></td>
+<td><p>The path to an external database. For a description of the path, see the <a href="https://msdn.microsoft.com/library/ff194542(v=office.15)">IN</a> clause.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>source</em></p></td>
@@ -101,11 +101,11 @@ An append query copies records from one or more tables to another. The tables th
 
 Instead of appending existing records from another table, you can specify the value for each field in a single new record using the VALUES clause. If you omit the field list, the VALUES clause must include a value for every field in the table; otherwise, the INSERT operation will fail. Use an additional INSERT INTO statement with a VALUES clause for each additional record you want to create.
 
-**Link provided by** the [UtterAccess](http://www.utteraccess.com) community. UtterAccess is the premier Microsoft Access wiki and help forum.
+**Link provided by** the [UtterAccess](https://www.utteraccess.com) community. UtterAccess is the premier Microsoft Access wiki and help forum.
 
-  - [Generating sequential numbers for INSERT/UPDATE statements](http://www.utteraccess.com/forum/generating-sequential-num-t446039.html)
+  - [Generating sequential numbers for INSERT/UPDATE statements](https://www.utteraccess.com/forum/generating-sequential-num-t446039.html)
 
-  - [SQL to VBA Formatter](http://www.utteraccess.com/forum/sql-vba-formatter-t1165308.html)
+  - [SQL to VBA Formatter](https://www.utteraccess.com/forum/sql-vba-formatter-t1165308.html)
 
 ## Example
 

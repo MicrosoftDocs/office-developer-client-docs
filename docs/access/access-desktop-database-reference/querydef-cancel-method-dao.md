@@ -2,7 +2,7 @@
 title: QueryDef.Cancel Method (DAO)
 TOCTitle: Cancel Method
 ms:assetid: 91e61012-c01c-4c24-185c-bdadb7f33a58
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff197642(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff197642(v=office.15)
 ms:contentKeyID: 48546364
 ms.date: 09/18/2015
 mtps_version: v=office.15

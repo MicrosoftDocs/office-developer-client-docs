@@ -2,7 +2,7 @@
 title: Data Macro Events
 TOCTitle: Data Macro Events
 ms:assetid: 4b36bcff-f733-442f-9098-cc5e4ee69ca3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn124692(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn124692(v=office.15)
 ms:contentKeyID: 52072314
 ms.date: 09/18/2015
 mtps_version: v=office.15

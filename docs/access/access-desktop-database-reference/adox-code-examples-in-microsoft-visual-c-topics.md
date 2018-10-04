@@ -2,7 +2,7 @@
 title: ADOX Code Examples in Microsoft Visual C++ Topics
 TOCTitle: ADOX Code Examples in Microsoft Visual C++
 ms:assetid: fd79fd9e-69ac-44b1-9115-93cebb5d8e3b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250301(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250301(v=office.15)
 ms:contentKeyID: 48548917
 ms.date: 09/18/2015
 mtps_version: v=office.15

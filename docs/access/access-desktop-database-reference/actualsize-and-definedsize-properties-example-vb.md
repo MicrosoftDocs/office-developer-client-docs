@@ -2,7 +2,7 @@
 title: ActualSize and DefinedSize Properties Example (VB)
 TOCTitle: ActualSize and DefinedSize Properties Example (VB)
 ms:assetid: fc268c63-c4b3-f633-1efb-aaf88354efd4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250291(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250291(v=office.15)
 ms:contentKeyID: 48548884
 ms.date: 09/18/2015
 mtps_version: v=office.15

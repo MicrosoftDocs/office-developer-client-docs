@@ -2,7 +2,7 @@
 title: Append and CreateParameter Methods Example (VB)
 TOCTitle: Append and CreateParameter Methods Example (VB)
 ms:assetid: 0b7a5329-4be3-2854-530d-fb01213f34f9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248846(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248846(v=office.15)
 ms:contentKeyID: 48543177
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Workspace Methods (DAO)
 TOCTitle: Methods
 ms:assetid: 20faf18e-4c9f-4802-a7c5-5297debfd712
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn123992(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn123992(v=office.15)
 ms:contentKeyID: 52071631
 ms.date: 09/18/2015
 mtps_version: v=office.15

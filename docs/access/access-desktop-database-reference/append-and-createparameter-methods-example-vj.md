@@ -2,7 +2,7 @@
 title: Append and CreateParameter Methods Example (VJ++)
 TOCTitle: Append and CreateParameter Methods Example (VJ++)
 ms:assetid: efd5da94-4fcb-1c05-a3ef-e73a84c91ca8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250220(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250220(v=office.15)
 ms:contentKeyID: 48548594
 ms.date: 09/18/2015
 mtps_version: v=office.15

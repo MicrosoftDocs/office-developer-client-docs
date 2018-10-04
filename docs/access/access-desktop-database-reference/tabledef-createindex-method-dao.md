@@ -2,7 +2,7 @@
 title: TableDef.CreateIndex Method (DAO)
 TOCTitle: CreateIndex Method
 ms:assetid: 857b25c1-01fa-b926-0c74-7105e71b7505
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff196791(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff196791(v=office.15)
 ms:contentKeyID: 48546062
 ms.date: 09/18/2015
 mtps_version: v=office.15

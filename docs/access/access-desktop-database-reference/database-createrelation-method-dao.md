@@ -2,7 +2,7 @@
 title: Database.CreateRelation Method (DAO)
 TOCTitle: CreateRelation Method
 ms:assetid: e240c7e3-c293-5e19-afcc-34d9a5549c64
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff835692(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff835692(v=office.15)
 ms:contentKeyID: 48548279
 ms.date: 09/18/2015
 mtps_version: v=office.15

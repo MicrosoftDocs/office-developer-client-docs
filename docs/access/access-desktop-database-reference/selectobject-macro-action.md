@@ -2,7 +2,7 @@
 title: SelectObject Macro Action
 TOCTitle: SelectObject Macro Action
 ms:assetid: a90539a0-c5a0-e997-9c25-e0972d28f2a6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff821420(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff821420(v=office.15)
 ms:contentKeyID: 48546914
 ms.date: 09/18/2015
 mtps_version: v=office.15

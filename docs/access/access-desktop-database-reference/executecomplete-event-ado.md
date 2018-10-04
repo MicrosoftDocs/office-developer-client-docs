@@ -2,7 +2,7 @@
 title: ExecuteComplete Event (ADO)
 TOCTitle: ExecuteComplete Event (ADO)
 ms:assetid: 47317d97-e373-32f4-9438-2dff46b8d367
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249219(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249219(v=office.15)
 ms:contentKeyID: 48544589
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -54,5 +54,5 @@ ExecuteComplete*RecordsAffected*, *pError*, *adStatus*, *pCommand*, *pRecordset*
 
 ## Remarks
 
-An **ExecuteComplete** event may occur due to the **Connection.**[Execute](https://msdn.microsoft.com/en-us/library/jj249832\(v=office.15\)), **Command.**[Execute](https://msdn.microsoft.com/en-us/library/jj248785\(v=office.15\)), **Recordset.**[Open](open-method-ado-recordset.md), **Recordset.**[Requery](requery-method-ado.md), or **Recordset.**[NextRecordset](nextrecordset-method-ado.md) methods.
+An **ExecuteComplete** event may occur due to the **Connection.**[Execute](https://msdn.microsoft.com/library/jj249832\(v=office.15\)), **Command.**[Execute](https://msdn.microsoft.com/library/jj248785\(v=office.15\)), **Recordset.**[Open](open-method-ado-recordset.md), **Recordset.**[Requery](requery-method-ado.md), or **Recordset.**[NextRecordset](nextrecordset-method-ado.md) methods.
 

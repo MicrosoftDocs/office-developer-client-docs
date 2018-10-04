@@ -2,7 +2,7 @@
 title: Relation Properties (DAO)
 TOCTitle: Properties
 ms:assetid: 1dbd0b17-acbb-4de4-97a0-395efc61f31c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn123943(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn123943(v=office.15)
 ms:contentKeyID: 52071582
 ms.date: 09/18/2015
 mtps_version: v=office.15

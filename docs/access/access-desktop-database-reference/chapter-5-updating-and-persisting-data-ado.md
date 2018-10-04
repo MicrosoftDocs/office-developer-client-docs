@@ -2,7 +2,7 @@
 title: 'Chapter 5: Updating and Persisting Data (ADO)'
 TOCTitle: 'Chapter 5: Updating and Persisting Data'
 ms:assetid: afbad965-978d-4af6-96db-e21004a70b84
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249837(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249837(v=office.15)
 ms:contentKeyID: 48547103
 ms.date: 09/18/2015
 mtps_version: v=office.15

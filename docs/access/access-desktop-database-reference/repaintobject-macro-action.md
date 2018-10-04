@@ -2,7 +2,7 @@
 title: RepaintObject Macro Action
 TOCTitle: RepaintObject Macro Action
 ms:assetid: e8fa7d0b-578c-5071-2bd5-b772b48637a5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff836055(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff836055(v=office.15)
 ms:contentKeyID: 48548431
 ms.date: 09/18/2015
 mtps_version: v=office.15

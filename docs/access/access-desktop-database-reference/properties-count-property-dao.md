@@ -2,7 +2,7 @@
 title: Properties.Count Property (DAO)
 TOCTitle: Count Property
 ms:assetid: 2aa1ea3c-f1c7-3450-8da6-8323a0509859
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff192069(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff192069(v=office.15)
 ms:contentKeyID: 48543913
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -29,7 +29,7 @@ You can use the **Count** property to determine the number of items in a specifi
 
 #### Other resources
 
-[Properties Collection](https://msdn.microsoft.com/en-us/library/ff196448\(v=office.15\))
+[Properties Collection](https://msdn.microsoft.com/library/ff196448\(v=office.15\))
 
-[Properties Members](https://msdn.microsoft.com/en-us/library/ff836991\(v=office.15\))
+[Properties Members](https://msdn.microsoft.com/library/ff836991\(v=office.15\))
 

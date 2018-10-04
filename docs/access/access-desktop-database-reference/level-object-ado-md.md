@@ -2,7 +2,7 @@
 title: Level Object (ADO MD)
 TOCTitle: Level Object (ADO MD)
 ms:assetid: ddbcabce-8777-1068-98a3-be209084f497
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250121(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250121(v=office.15)
 ms:contentKeyID: 48548160
 ms.date: 09/18/2015
 mtps_version: v=office.15

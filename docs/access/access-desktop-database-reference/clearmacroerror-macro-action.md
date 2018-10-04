@@ -2,7 +2,7 @@
 title: ClearMacroError Macro Action
 TOCTitle: ClearMacroError Macro Action
 ms:assetid: 1091747e-e957-38c6-6454-5169f091323e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff845338(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff845338(v=office.15)
 ms:contentKeyID: 48543296
 ms.date: 09/18/2015
 mtps_version: v=office.15

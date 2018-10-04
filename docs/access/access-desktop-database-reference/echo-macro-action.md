@@ -2,7 +2,7 @@
 title: Echo Macro Action
 TOCTitle: Echo Macro Action
 ms:assetid: 38dfb2cf-8db5-44b3-91fa-e490932b940b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff192516(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff192516(v=office.15)
 ms:contentKeyID: 48544227
 ms.date: 09/18/2015
 mtps_version: v=office.15

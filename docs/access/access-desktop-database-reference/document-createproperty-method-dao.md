@@ -2,7 +2,7 @@
 title: Document.CreateProperty Method (DAO)
 TOCTitle: CreateProperty Method
 ms:assetid: 834fda60-1edf-38df-a9a5-d9d15e55e425
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff196739(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff196739(v=office.15)
 ms:contentKeyID: 48546003
 ms.date: 09/18/2015
 mtps_version: v=office.15

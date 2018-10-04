@@ -2,7 +2,7 @@
 title: CreateParameter Method (ADO)
 TOCTitle: CreateParameter Method (ADO)
 ms:assetid: cf080a0b-75d2-dcdf-2715-10af147358e9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250026(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250026(v=office.15)
 ms:contentKeyID: 48547799
 ms.date: 09/18/2015
 mtps_version: v=office.15

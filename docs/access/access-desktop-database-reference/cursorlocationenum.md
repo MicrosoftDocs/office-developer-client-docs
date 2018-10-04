@@ -2,7 +2,7 @@
 title: CursorLocationEnum
 TOCTitle: CursorLocationEnum
 ms:assetid: 520cc738-998b-ce80-6362-0df310c40c39
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249268(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249268(v=office.15)
 ms:contentKeyID: 48544836
 ms.date: 09/18/2015
 mtps_version: v=office.15

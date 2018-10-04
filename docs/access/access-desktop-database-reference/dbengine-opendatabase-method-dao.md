@@ -2,7 +2,7 @@
 title: DBEngine.OpenDatabase Method (DAO)
 TOCTitle: OpenDatabase Method
 ms:assetid: 49fca321-5955-3e69-64ea-da191536eadb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff193474(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff193474(v=office.15)
 ms:contentKeyID: 48544654
 ms.date: 09/18/2015
 mtps_version: v=office.15

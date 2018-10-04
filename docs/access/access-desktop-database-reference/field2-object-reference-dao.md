@@ -2,7 +2,7 @@
 title: Field2 Object Reference (DAO)
 TOCTitle: Field2 Object
 ms:assetid: 1f2fde45-577d-4f53-9652-1307ac038f87
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn123963(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn123963(v=office.15)
 ms:contentKeyID: 52071602
 ms.date: 09/18/2015
 mtps_version: v=office.15

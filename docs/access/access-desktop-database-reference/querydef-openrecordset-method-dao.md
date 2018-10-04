@@ -2,7 +2,7 @@
 title: QueryDef.OpenRecordset Method (DAO)
 TOCTitle: OpenRecordset Method
 ms:assetid: b4908c36-c156-e269-e2ad-b1fa20ec4884
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff822070(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff822070(v=office.15)
 ms:contentKeyID: 48547232
 ms.date: 09/18/2015
 mtps_version: v=office.15

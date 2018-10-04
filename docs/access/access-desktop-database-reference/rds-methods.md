@@ -2,7 +2,7 @@
 title: RDS Methods
 TOCTitle: RDS Methods
 ms:assetid: 7f4e2a28-cf6b-4621-5352-ed983a3c7450
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249538(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249538(v=office.15)
 ms:contentKeyID: 48545899
 ms.date: 09/18/2015
 mtps_version: v=office.15

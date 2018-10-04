@@ -2,7 +2,7 @@
 title: Flush Method (ADO)
 TOCTitle: Flush Method (ADO)
 ms:assetid: c167e3b1-c133-ce45-6cee-5a1280a1568f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249941(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249941(v=office.15)
 ms:contentKeyID: 48547529
 ms.date: 09/18/2015
 mtps_version: v=office.15

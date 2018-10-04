@@ -2,7 +2,7 @@
 title: Recordset2.CopyQueryDef Method (DAO)
 TOCTitle: CopyQueryDef Method
 ms:assetid: 36689ac0-f8a6-1f3e-4170-799141373777
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff192474(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff192474(v=office.15)
 ms:contentKeyID: 48544170
 ms.date: 09/18/2015
 mtps_version: v=office.15

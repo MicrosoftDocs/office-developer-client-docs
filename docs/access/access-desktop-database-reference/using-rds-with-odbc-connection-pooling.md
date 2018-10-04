@@ -2,7 +2,7 @@
 title: Using RDS with ODBC Connection Pooling
 TOCTitle: Using RDS with ODBC Connection Pooling
 ms:assetid: 6e8b023a-d211-44cb-10af-d43174a5d4bc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249437(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249437(v=office.15)
 ms:contentKeyID: 48545513
 ms.date: 09/18/2015
 mtps_version: v=office.15

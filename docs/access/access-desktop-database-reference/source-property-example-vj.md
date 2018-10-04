@@ -2,7 +2,7 @@
 title: Source Property Example (VJ++)
 TOCTitle: Source Property Example (VJ++)
 ms:assetid: cfe6293f-19b7-cc57-c53a-611f841273a5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250036(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250036(v=office.15)
 ms:contentKeyID: 48547821
 ms.date: 09/18/2015
 mtps_version: v=office.15

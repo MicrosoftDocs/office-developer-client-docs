@@ -2,7 +2,7 @@
 title: EndOfRecordset Event (ADO)
 TOCTitle: EndOfRecordset Event (ADO)
 ms:assetid: 8995b851-dff6-2525-1d62-a2cfb4f95393
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249603(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249603(v=office.15)
 ms:contentKeyID: 48546167
 ms.date: 09/18/2015
 mtps_version: v=office.15

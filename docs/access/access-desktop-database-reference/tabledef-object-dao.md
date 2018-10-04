@@ -2,7 +2,7 @@
 title: TableDef Object (DAO)
 TOCTitle: TableDef Object
 ms:assetid: 715146b6-c62a-abff-28ee-e6bbe3c08adf
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff195790(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff195790(v=office.15)
 ms:contentKeyID: 48545582
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -191,7 +191,7 @@ Sub CreateTableDefX()
 
 The following example shows how to create a calculated field. The CreateField method creates a field named **FullName**. The Expression property is then set to the expression that calculates the value of the field.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](http://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
+**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
 
     Sub CreateCalculatedField()
         Dim dbs As DAO.Database

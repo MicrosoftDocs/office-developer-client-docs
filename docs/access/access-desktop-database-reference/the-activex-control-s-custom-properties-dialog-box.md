@@ -2,7 +2,7 @@
 title: The ActiveX Control's Custom Properties Dialog Box
 TOCTitle: The ActiveX Control's Custom Properties Dialog Box
 ms:assetid: 124cf679-6efc-567a-84d1-8057dec93bde
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff845396(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff845396(v=office.15)
 ms:contentKeyID: 48543338
 ms.date: 09/18/2015
 mtps_version: v=office.15

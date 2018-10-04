@@ -2,7 +2,7 @@
 title: ShowAllRecords Macro Action
 TOCTitle: ShowAllRecords Macro Action
 ms:assetid: 6f9741ad-0440-4b8d-abea-009063c111f8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff195587(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff195587(v=office.15)
 ms:contentKeyID: 48545538
 ms.date: 09/18/2015
 mtps_version: v=office.15

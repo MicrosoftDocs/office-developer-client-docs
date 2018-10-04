@@ -2,7 +2,7 @@
 title: WorkflowTasks Macro Action
 TOCTitle: WorkflowTasks Macro Action
 ms:assetid: 4b299681-b45b-f6d1-2cfe-ebf01712bfc1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff193503(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff193503(v=office.15)
 ms:contentKeyID: 48544684
 ms.date: 09/18/2015
 mtps_version: v=office.15

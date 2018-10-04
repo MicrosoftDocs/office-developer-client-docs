@@ -2,7 +2,7 @@
 title: LockTypeEnum Enumeration (DAO)
 TOCTitle: LockTypeEnum Enumeration
 ms:assetid: d40f984c-b37f-72f7-7b05-752f106b6029
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff834802(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff834802(v=office.15)
 ms:contentKeyID: 48547925
 ms.date: 09/18/2015
 mtps_version: v=office.15

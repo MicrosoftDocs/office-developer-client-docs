@@ -2,7 +2,7 @@
 title: Recordset.NoMatch Property (DAO)
 TOCTitle: NoMatch Property
 ms:assetid: 47d03575-f570-89b5-a20f-a3bd8b8b5c6d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff193226(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff193226(v=office.15)
 ms:contentKeyID: 48544606
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -168,7 +168,7 @@ This example uses the **NoMatch** property to determine whether a **Seek** and a
 
 The following example shows how to use the Seek method to find a record in a linked table.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](http://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
+**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
 
     Sub TestSeek()
         ' Get the path to the external database that contains

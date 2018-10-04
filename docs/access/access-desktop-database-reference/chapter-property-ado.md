@@ -2,7 +2,7 @@
 title: Chapter Property (ADO)
 TOCTitle: Chapter Property (ADO)
 ms:assetid: d7c9478e-487f-7023-1dd8-5313433dbc5e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250085(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250085(v=office.15)
 ms:contentKeyID: 48548014
 ms.date: 09/18/2015
 mtps_version: v=office.15

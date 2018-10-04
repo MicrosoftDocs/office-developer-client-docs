@@ -2,7 +2,7 @@
 title: Move Method Example (VBScript)
 TOCTitle: Move Method Example (VBScript)
 ms:assetid: 42f2eb08-47cf-f422-6176-badd414d0bfc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249198(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249198(v=office.15)
 ms:contentKeyID: 48544489
 ms.date: 09/18/2015
 mtps_version: v=office.15

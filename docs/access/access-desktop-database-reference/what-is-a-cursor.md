@@ -2,7 +2,7 @@
 title: What is a Cursor?
 TOCTitle: What is a Cursor?
 ms:assetid: cc70d941-05e0-9b14-1c5d-6b1a5802f546
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250013(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250013(v=office.15)
 ms:contentKeyID: 48547738
 ms.date: 09/18/2015
 mtps_version: v=office.15

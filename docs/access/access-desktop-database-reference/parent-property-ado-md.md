@@ -2,7 +2,7 @@
 title: Parent Property (ADO MD)
 TOCTitle: Parent Property (ADO MD)
 ms:assetid: 62649da7-d35f-f11f-674c-28ce95abaf20
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249370(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249370(v=office.15)
 ms:contentKeyID: 48545238
 ms.date: 09/18/2015
 mtps_version: v=office.15

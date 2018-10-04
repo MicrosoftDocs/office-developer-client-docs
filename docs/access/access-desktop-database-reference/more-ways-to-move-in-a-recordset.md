@@ -2,7 +2,7 @@
 title: More Ways to Move in a Recordset
 TOCTitle: More Ways to Move in a Recordset
 ms:assetid: ae49b20e-0050-c44b-67e9-7e39de5098c4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249822(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249822(v=office.15)
 ms:contentKeyID: 48547067
 ms.date: 09/18/2015
 mtps_version: v=office.15

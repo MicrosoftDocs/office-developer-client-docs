@@ -2,7 +2,7 @@
 title: Field2.IsComplex Property (DAO)
 TOCTitle: IsComplex Property
 ms:assetid: ffc90e6e-e3ee-4f9b-ca6b-615199300d45
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff837318(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff837318(v=office.15)
 ms:contentKeyID: 48548970
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -35,7 +35,7 @@ Version Added: Access 2007
 
 The following example shows how to navigate a Recordset that contains a multi-value field.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](http://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
+**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
 
     Sub PrintStudentsAndClasses()
         Dim dbs As DAO.Database

@@ -2,7 +2,7 @@
 title: 'Chapter 11: RDS Fundamentals'
 TOCTitle: 'Chapter 11: RDS Fundamentals'
 ms:assetid: 28b507c2-c184-18c1-aa45-b6900cf226a3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249044(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249044(v=office.15)
 ms:contentKeyID: 48543865
 ms.date: 09/18/2015
 mtps_version: v=office.15

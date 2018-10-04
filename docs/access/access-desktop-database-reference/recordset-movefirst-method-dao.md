@@ -2,7 +2,7 @@
 title: Recordset.MoveFirst Method (DAO)
 TOCTitle: MoveFirst Method
 ms:assetid: 338f7e86-6997-b80a-fc7a-a395d10b4a62
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff192329(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff192329(v=office.15)
 ms:contentKeyID: 48544109
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Views Collection Properties, Methods, and Events (ADOX)
 TOCTitle: Views Collection Properties, Methods, and Events (ADOX)
 ms:assetid: 83108c15-39f9-d82b-9617-be1938bdc2f7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249570(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249570(v=office.15)
 ms:contentKeyID: 48546000
 ms.date: 09/18/2015
 mtps_version: v=office.15

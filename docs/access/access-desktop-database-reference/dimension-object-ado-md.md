@@ -2,7 +2,7 @@
 title: Dimension Object (ADO MD)
 TOCTitle: Dimension Object (ADO MD)
 ms:assetid: 12f43cfc-c74e-a2e8-7f6e-75fc68472c4b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248902(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248902(v=office.15)
 ms:contentKeyID: 48543355
 ms.date: 09/18/2015
 mtps_version: v=office.15

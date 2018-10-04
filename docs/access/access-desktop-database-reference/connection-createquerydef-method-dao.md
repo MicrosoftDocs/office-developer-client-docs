@@ -2,7 +2,7 @@
 title: Connection.CreateQueryDef Method (DAO)
 TOCTitle: CreateQueryDef Method
 ms:assetid: 254fe81a-9b45-e8e7-108d-503c1c1c0fcc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff191860(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff191860(v=office.15)
 ms:contentKeyID: 48543781
 ms.date: 09/18/2015
 mtps_version: v=office.15

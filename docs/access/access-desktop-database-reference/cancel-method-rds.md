@@ -2,7 +2,7 @@
 title: Cancel Method (RDS)
 TOCTitle: Cancel Method (RDS)
 ms:assetid: 08f667c2-7a3f-c2e7-7bdf-3eb533defa33
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248827(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248827(v=office.15)
 ms:contentKeyID: 48543109
 ms.date: 09/18/2015
 mtps_version: v=office.15

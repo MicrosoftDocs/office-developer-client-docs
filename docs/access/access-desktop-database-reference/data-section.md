@@ -2,7 +2,7 @@
 title: Data Section
 TOCTitle: Data Section
 ms:assetid: fd8d31aa-af13-a52f-5e91-20225b8df175
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250303(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250303(v=office.15)
 ms:contentKeyID: 48548920
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -43,7 +43,7 @@ Binary data is bin.hex encoded (that is, one byte maps to two characters, one ch
 
 The variant VT\_DATE format is not directly supported by XML-Data data types. The correct format for dates with both a data and time component is yyyy-mm-dd**T**hh:mm:ss.
 
-For more information about date formats specified by XML, refer to [W3C XMLData Note](http://www.w3.org/tr/1998/note-xml-data/).
+For more information about date formats specified by XML, refer to [W3C XMLData Note](https://www.w3.org/tr/1998/note-xml-data/).
 
 When the XML-Data specification defines two equivalent data types (for example, i4 == int), ADO will write out the friendly name but read in both.
 

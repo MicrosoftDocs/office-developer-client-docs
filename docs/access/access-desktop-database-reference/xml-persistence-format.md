@@ -2,7 +2,7 @@
 title: XML Persistence Format
 TOCTitle: XML Persistence Format
 ms:assetid: 499f335c-ee1f-c803-e3a8-034b8decf1ae
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249226(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249226(v=office.15)
 ms:contentKeyID: 48544643
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -60,7 +60,7 @@ xmlns:z="#RowsetSchema">
 
 The schema shows the declarations of namespaces, the schema section, and the data section. The schema section contains definitions for row, ShipperID, CompanyName, and Phone.
 
-Schema definitions conform to the XML-Data specification and are able to be fully validated (though validation will not occur in Internet Explorer 5). You can view this specification at [W3C XMLData Note](http://www.w3.org/tr/1998/note-xml-data/). XML-Data is the only supported schema format for **Recordset** persistence currently.
+Schema definitions conform to the XML-Data specification and are able to be fully validated (though validation will not occur in Internet Explorer 5). You can view this specification at [W3C XMLData Note](https://www.w3.org/tr/1998/note-xml-data/). XML-Data is the only supported schema format for **Recordset** persistence currently.
 
 The data section has three rows containing information about shippers. For an empty rowset, the data section may be empty, but the \<rs:data\> tags must be present. With no data, you could write the tag shorthand as simply \<rs:data/\>. Any tag prefixed with "rs" indicates that it is in the namespace defined by urn:schemas-microsoft-com:rowset. The full definition of this schema is defined in the appendix to this document.
 
@@ -111,7 +111,7 @@ xmlns:z="#RowsetSchema">
 
 The schema shows the declarations of namespaces, the schema section, and the data section. The schema section contains definitions for row, ShipperID, CompanyName, and Phone.
 
-Schema definitions conform to the XML-Data specification and are able to be fully validated (though validation will not occur in Internet Explorer 5). You can view this specification at [W3C XMLData Note](http://www.w3.org/tr/1998/note-xml-data/). XML-Data is the only supported schema format for **Recordset** persistence currently.
+Schema definitions conform to the XML-Data specification and are able to be fully validated (though validation will not occur in Internet Explorer 5). You can view this specification at [W3C XMLData Note](https://www.w3.org/tr/1998/note-xml-data/). XML-Data is the only supported schema format for **Recordset** persistence currently.
 
 The data section has three rows containing information about shippers. For an empty rowset, the data section may be empty, but the \<rs:data\> tags must be present. With no data, you could write the tag shorthand as simply \<rs:data/\>. Any tag prefixed with "rs" indicates that it is in the namespace defined by urn:schemas-microsoft-com:rowset. The full definition of this schema is defined in the appendix to this document.
 

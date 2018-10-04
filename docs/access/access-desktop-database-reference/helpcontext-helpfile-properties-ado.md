@@ -2,7 +2,7 @@
 title: HelpContext, HelpFile Properties (ADO)
 TOCTitle: HelpContext, HelpFile Properties (ADO)
 ms:assetid: 8a79f994-f17c-2983-0593-095801be762e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249608(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249608(v=office.15)
 ms:contentKeyID: 48546194
 ms.date: 09/18/2015
 mtps_version: v=office.15

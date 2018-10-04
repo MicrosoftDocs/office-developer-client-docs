@@ -2,7 +2,7 @@
 title: ADO Code Examples in Microsoft Visual Basic Scripting Edition
 TOCTitle: ADO Code Examples in Microsoft Visual Basic Scripting Edition
 ms:assetid: 841a7005-9f04-ecbf-fd8f-d924b7cbfce0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249575(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249575(v=office.15)
 ms:contentKeyID: 48546024
 ms.date: 09/18/2015
 mtps_version: v=office.15

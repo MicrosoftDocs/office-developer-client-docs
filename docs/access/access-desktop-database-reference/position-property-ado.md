@@ -2,7 +2,7 @@
 title: Position Property (ADO)
 TOCTitle: Position Property (ADO)
 ms:assetid: a07c9197-673b-ddf2-fca9-b0b54fbd67b4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249738(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249738(v=office.15)
 ms:contentKeyID: 48546709
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -21,7 +21,7 @@ Sets or returns a **Long** value that specifies the offset, in number of bytes, 
 
 ## Remarks
 
-The current position can be moved to a point after the end of the stream. If you specify the current position beyond the end of the stream, the [Size](https://msdn.microsoft.com/en-us/library/jj250128\(v=office.15\)) of the **Stream** object will be increased accordingly. Any new bytes added in this way will be null.
+The current position can be moved to a point after the end of the stream. If you specify the current position beyond the end of the stream, the [Size](https://msdn.microsoft.com/library/jj250128\(v=office.15\)) of the **Stream** object will be increased accordingly. Any new bytes added in this way will be null.
 
 
 > [!NOTE]

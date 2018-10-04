@@ -2,7 +2,7 @@
 title: Prepared Property Example (VJ++)
 TOCTitle: Prepared Property Example (VJ++)
 ms:assetid: 4b8402c2-9604-aaba-ba75-43161a8df9c8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249237(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249237(v=office.15)
 ms:contentKeyID: 48544693
 ms.date: 09/18/2015
 mtps_version: v=office.15

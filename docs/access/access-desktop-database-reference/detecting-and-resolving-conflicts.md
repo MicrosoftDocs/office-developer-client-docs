@@ -2,7 +2,7 @@
 title: Detecting and Resolving Conflicts
 TOCTitle: Detecting and Resolving Conflicts
 ms:assetid: 8299745b-e595-21d5-26c1-a078d00a1c0c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249566(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249566(v=office.15)
 ms:contentKeyID: 48545983
 ms.date: 09/18/2015
 mtps_version: v=office.15

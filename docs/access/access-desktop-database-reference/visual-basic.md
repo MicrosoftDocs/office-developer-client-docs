@@ -2,7 +2,7 @@
 title: Visual Basic
 TOCTitle: Visual Basic
 ms:assetid: 9d153b6c-c860-7350-cb3c-b9bd08f75ba8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249714(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249714(v=office.15)
 ms:contentKeyID: 48546616
 ms.date: 09/18/2015
 mtps_version: v=office.15

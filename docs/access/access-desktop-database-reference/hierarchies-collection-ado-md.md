@@ -2,7 +2,7 @@
 title: Hierarchies Collection (ADO MD)
 TOCTitle: Hierarchies Collection (ADO MD)
 ms:assetid: 5f8d4231-9d00-66d3-d7b0-f2a0b6b714cc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249348(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249348(v=office.15)
 ms:contentKeyID: 48545165
 ms.date: 09/18/2015
 mtps_version: v=office.15

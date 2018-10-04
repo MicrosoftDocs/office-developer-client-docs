@@ -2,7 +2,7 @@
 title: SetFilter Macro Action
 TOCTitle: SetFilter Macro Action
 ms:assetid: dee699e2-0840-1612-23ce-199ef8d30566
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff835438(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff835438(v=office.15)
 ms:contentKeyID: 48548203
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -73,7 +73,7 @@ In a web database, to automatically apply a filter when the object is opened, ad
 
 The following example shows how to use the SetFilter action to filter the form in which the macro is defined.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](http://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html)
+**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html)
 
     OpenForm
         Form Name sfrmFoods

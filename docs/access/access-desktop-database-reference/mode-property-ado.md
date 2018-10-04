@@ -2,7 +2,7 @@
 title: Mode Property (ADO)
 TOCTitle: Mode Property (ADO)
 ms:assetid: 62086f4f-8624-16c4-dae1-a17475d1864d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249365(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249365(v=office.15)
 ms:contentKeyID: 48545227
 ms.date: 09/18/2015
 mtps_version: v=office.15

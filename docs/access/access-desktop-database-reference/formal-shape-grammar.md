@@ -2,7 +2,7 @@
 title: Formal Shape Grammar
 TOCTitle: Formal Shape Grammar
 ms:assetid: a3220569-8804-3dc3-7f9f-b4f8cdab1316
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249752(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249752(v=office.15)
 ms:contentKeyID: 48546774
 ms.date: 09/18/2015
 mtps_version: v=office.15

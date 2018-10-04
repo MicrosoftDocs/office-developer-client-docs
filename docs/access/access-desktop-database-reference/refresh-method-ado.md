@@ -2,7 +2,7 @@
 title: Refresh Method (ADO)
 TOCTitle: Refresh Method (ADO)
 ms:assetid: f1c8829f-9c7d-12b6-7470-727ff38d663e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250227(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250227(v=office.15)
 ms:contentKeyID: 48548631
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -38,7 +38,7 @@ If you access the **Parameters** collection before calling the **Refresh** metho
 
 
 > [!NOTE]
-> <P>If you use the <STRONG>Refresh</STRONG> method to obtain parameter information from the provider and it returns one or more variable-length data type <A href="parameter-object-ado.md">Parameter</A> objects, ADO may allocate memory for the parameters based on their maximum potential size, which will cause an error during execution. You should explicitly set the <A href="size-property-ado.md">Size</A> property for these parameters before calling the <A href="https://msdn.microsoft.com/en-us/library/jj248785(v=office.15)">Execute</A> method to prevent errors.</P>
+> <P>If you use the <STRONG>Refresh</STRONG> method to obtain parameter information from the provider and it returns one or more variable-length data type <A href="parameter-object-ado.md">Parameter</A> objects, ADO may allocate memory for the parameters based on their maximum potential size, which will cause an error during execution. You should explicitly set the <A href="size-property-ado.md">Size</A> property for these parameters before calling the <A href="https://msdn.microsoft.com/library/jj248785(v=office.15)">Execute</A> method to prevent errors.</P>
 
 
 

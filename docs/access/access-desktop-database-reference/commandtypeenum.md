@@ -2,7 +2,7 @@
 title: CommandTypeEnum
 TOCTitle: CommandTypeEnum
 ms:assetid: 9ad8f155-88a0-00eb-2855-1e1a2a677437
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249700(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249700(v=office.15)
 ms:contentKeyID: 48546549
 ms.date: 09/18/2015
 mtps_version: v=office.15

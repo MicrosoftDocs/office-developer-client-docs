@@ -2,7 +2,7 @@
 title: Customization File SQL Section
 TOCTitle: Customization File SQL Section
 ms:assetid: 002c544f-fe1b-6aeb-ba9a-97b1e1159516
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248776(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248776(v=office.15)
 ms:contentKeyID: 48542901
 ms.date: 09/18/2015
 mtps_version: v=office.15

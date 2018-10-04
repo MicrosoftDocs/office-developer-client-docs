@@ -2,7 +2,7 @@
 title: LockType Property (ADO)
 TOCTitle: LockType Property (ADO)
 ms:assetid: 1d2622dc-6cab-1b7f-98a8-97a41d5c047f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248965(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248965(v=office.15)
 ms:contentKeyID: 48543589
 ms.date: 09/18/2015
 mtps_version: v=office.15

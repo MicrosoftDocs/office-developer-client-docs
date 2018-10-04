@@ -2,7 +2,7 @@
 title: Types of Locks
 TOCTitle: Types of Locks
 ms:assetid: 8276edca-f603-2487-a2ca-73e618c0f11e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249565(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249565(v=office.15)
 ms:contentKeyID: 48545978
 ms.date: 09/18/2015
 mtps_version: v=office.15

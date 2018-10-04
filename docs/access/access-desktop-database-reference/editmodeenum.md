@@ -2,7 +2,7 @@
 title: EditModeEnum
 TOCTitle: EditModeEnum
 ms:assetid: 4da0e504-aca2-b769-04a2-0df687fa4422
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249248(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249248(v=office.15)
 ms:contentKeyID: 48544737
 ms.date: 09/18/2015
 mtps_version: v=office.15

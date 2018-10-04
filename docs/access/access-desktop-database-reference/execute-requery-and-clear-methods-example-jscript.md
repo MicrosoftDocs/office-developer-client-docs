@@ -2,7 +2,7 @@
 title: Execute, Requery, and Clear Methods Example (JScript)
 TOCTitle: Execute, Requery, and Clear Methods Example (JScript)
 ms:assetid: 3c1f1913-f168-b8a9-8791-f4a0b1aa8273
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249157(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249157(v=office.15)
 ms:contentKeyID: 48544306
 ms.date: 09/18/2015
 mtps_version: v=office.15

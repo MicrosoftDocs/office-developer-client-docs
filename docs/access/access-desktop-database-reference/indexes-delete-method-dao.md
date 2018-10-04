@@ -2,7 +2,7 @@
 title: Indexes.Delete Method (DAO)
 TOCTitle: Delete Method
 ms:assetid: 8d3c3221-3b2e-15ba-32ff-f2dfc592d82c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff197351(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff197351(v=office.15)
 ms:contentKeyID: 48546252
 ms.date: 09/18/2015
 mtps_version: v=office.15

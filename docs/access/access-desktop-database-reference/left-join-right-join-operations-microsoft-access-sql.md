@@ -2,7 +2,7 @@
 title: LEFT JOIN, RIGHT JOIN Operations (Microsoft Access SQL)
 TOCTitle: LEFT JOIN, RIGHT JOIN Operations (Microsoft Access SQL)
 ms:assetid: 9c10525f-98b1-fd4f-8b40-07a32c5c6502
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff198084(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff198084(v=office.15)
 ms:contentKeyID: 48546586
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -20,7 +20,7 @@ Syntax
 Remarks  
 Example  
 
-Combines source-table records when used in any [FROM](https://msdn.microsoft.com/en-us/library/ff836674\(v=office.15\)) clause.
+Combines source-table records when used in any [FROM](https://msdn.microsoft.com/library/ff836674\(v=office.15\)) clause.
 
 ## Syntax
 

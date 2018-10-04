@@ -2,7 +2,7 @@
 title: Error Object (DAO)
 TOCTitle: Error Object
 ms:assetid: e2608bc9-bece-9b47-4562-7a2689601f75
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff835711(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff835711(v=office.15)
 ms:contentKeyID: 48548289
 ms.date: 09/18/2015
 mtps_version: v=office.15

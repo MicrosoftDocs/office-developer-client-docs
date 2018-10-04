@@ -2,7 +2,7 @@
 title: QueryDefs.Delete Method (DAO)
 TOCTitle: Delete Method
 ms:assetid: a93a93d9-7b5e-c8be-588e-37addb076025
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff821426(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff821426(v=office.15)
 ms:contentKeyID: 48546918
 ms.date: 09/18/2015
 mtps_version: v=office.15

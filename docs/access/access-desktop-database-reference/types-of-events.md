@@ -2,7 +2,7 @@
 title: Types of Events
 TOCTitle: Types of Events
 ms:assetid: 94660fc1-65c3-1d21-c451-f3898014e0b6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249660(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249660(v=office.15)
 ms:contentKeyID: 48546414
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Navigating Through the Data
 TOCTitle: Navigating Through the Data
 ms:assetid: 65e6cbe7-ec45-85b9-472e-845ce9b2ed21
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249394(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249394(v=office.15)
 ms:contentKeyID: 48545332
 ms.date: 09/18/2015
 mtps_version: v=office.15

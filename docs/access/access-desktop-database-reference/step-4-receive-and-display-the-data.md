@@ -2,7 +2,7 @@
 title: 'Step 4: Receive and Display the Data'
 TOCTitle: 'Step 4: Receive and Display the Data'
 ms:assetid: a27cc1d8-0ee0-95a5-ad70-88c454c10485
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249749(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249749(v=office.15)
 ms:contentKeyID: 48546764
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -38,5 +38,5 @@ In this step you will create an HTML file with an embedded [RDS.DataControl](dat
 </HTML> 
 ```
 
-Close the default.htm file and save it to the same folder where you saved XMLResponse.asp. Using Internet Explorer 4.0 or later, open the URL http://*sqlserver*/XMLPersist/default.htm and observe the results. The data is displayed in a bound DHTML table. Now open the URL http://*sqlserver*/XMLPersist/XMLResponse.asp and observe the results. The XML is displayed.
+Close the default.htm file and save it to the same folder where you saved XMLResponse.asp. Using Internet Explorer 4.0 or later, open the URL https://*sqlserver*/XMLPersist/default.htm and observe the results. The data is displayed in a bound DHTML table. Now open the URL https://*sqlserver*/XMLPersist/XMLResponse.asp and observe the results. The XML is displayed.
 

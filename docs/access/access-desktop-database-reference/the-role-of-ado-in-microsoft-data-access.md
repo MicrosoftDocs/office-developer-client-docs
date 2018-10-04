@@ -2,7 +2,7 @@
 title: The Role of ADO in Microsoft Data Access
 TOCTitle: The Role of ADO in Microsoft Data Access
 ms:assetid: e9087ec8-850b-ebbe-369a-a5987a528de6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250180(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250180(v=office.15)
 ms:contentKeyID: 48548433
 ms.date: 09/18/2015
 mtps_version: v=office.15

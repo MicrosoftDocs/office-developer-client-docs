@@ -2,7 +2,7 @@
 title: Index.Unique Property (DAO)
 TOCTitle: Unique Property
 ms:assetid: a4486da5-8a1a-b4fc-0e07-e65cd2e726f6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff821087(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff821087(v=office.15)
 ms:contentKeyID: 48546809
 ms.date: 09/18/2015
 mtps_version: v=office.15

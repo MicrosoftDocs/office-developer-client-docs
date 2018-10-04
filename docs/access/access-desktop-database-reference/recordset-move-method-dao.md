@@ -2,7 +2,7 @@
 title: Recordset.Move Method (DAO)
 TOCTitle: Move Method
 ms:assetid: 21ca5ab5-ff71-1ae8-21b3-8991d5f795cf
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff191697(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff191697(v=office.15)
 ms:contentKeyID: 48543689
 ms.date: 09/18/2015
 mtps_version: v=office.15

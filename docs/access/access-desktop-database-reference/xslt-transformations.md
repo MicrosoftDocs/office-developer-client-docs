@@ -2,7 +2,7 @@
 title: XSLT Transformations
 TOCTitle: XSLT Transformations
 ms:assetid: 6a19310d-027f-e8d6-9859-0b545ae7e2f1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249418(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249418(v=office.15)
 ms:contentKeyID: 48545425
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -24,7 +24,7 @@ The following XSLT script can be applied to the XML shown in the previous sectio
 ``` 
  
 <?xml version="1.0" encoding="ISO-8859-1"?> 
-<html xmlns:xsl="http://www.w3.org/TR/WD-xsl"> 
+<html xmlns:xsl="https://www.w3.org/TR/WD-xsl"> 
 <body STYLE="font-family:Arial, helvetica, sans-serif; font-size:12pt; background-color:white"> 
 <table border="1" style="table-layout:fixed" width="600"> 
   <col width="200"></col> 

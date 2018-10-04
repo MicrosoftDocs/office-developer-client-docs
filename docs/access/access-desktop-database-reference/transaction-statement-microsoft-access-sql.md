@@ -2,7 +2,7 @@
 title: TRANSACTION Statement (Microsoft Access SQL)
 TOCTitle: TRANSACTION Statement (Microsoft Access SQL)
 ms:assetid: 481e807d-94e4-f201-adac-d25ee89d9220
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff193241(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff193241(v=office.15)
 ms:contentKeyID: 48544614
 ms.date: 09/18/2015
 mtps_version: v=office.15

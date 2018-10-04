@@ -2,7 +2,7 @@
 title: SELECT.INTO Statement (Microsoft Access SQL)
 TOCTitle: SELECT.INTO Statement (Microsoft Access SQL)
 ms:assetid: 29f3bd55-52f5-a36e-4e33-4b3499c6ce8d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff192059(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff192059(v=office.15)
 ms:contentKeyID: 48543897
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -48,7 +48,7 @@ The SELECT…INTO statement has these parts:
 </tr>
 <tr class="odd">
 <td><p><em>externaldatabase</em></p></td>
-<td><p>The path to an external database. For a description of the path, see the <a href="https://msdn.microsoft.com/en-us/library/ff194542(v=office.15)">IN</a> clause.</p></td>
+<td><p>The path to an external database. For a description of the path, see the <a href="https://msdn.microsoft.com/library/ff194542(v=office.15)">IN</a> clause.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>source</em></p></td>

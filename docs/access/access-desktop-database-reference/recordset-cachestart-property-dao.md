@@ -2,7 +2,7 @@
 title: Recordset.CacheStart Property (DAO)
 TOCTitle: CacheStart Property
 ms:assetid: 03814312-660a-d8e9-8a7b-bc14d66e05ab
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff844802(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff844802(v=office.15)
 ms:contentKeyID: 48542986
 ms.date: 09/18/2015
 mtps_version: v=office.15

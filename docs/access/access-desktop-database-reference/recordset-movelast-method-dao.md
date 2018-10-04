@@ -2,7 +2,7 @@
 title: Recordset.MoveLast Method (DAO)
 TOCTitle: MoveLast Method
 ms:assetid: fc0f7a33-1f55-9f5b-b00d-1b81f49b1c3e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff837192(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff837192(v=office.15)
 ms:contentKeyID: 48548881
 ms.date: 09/18/2015
 mtps_version: v=office.15

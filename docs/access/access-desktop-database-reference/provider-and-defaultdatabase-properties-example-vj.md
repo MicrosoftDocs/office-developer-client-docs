@@ -2,7 +2,7 @@
 title: Provider and DefaultDatabase Properties Example (VJ++)
 TOCTitle: Provider and DefaultDatabase Properties Example (VJ++)
 ms:assetid: babd3c3c-bb6e-46ce-88f2-ef2810d798fd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249898(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249898(v=office.15)
 ms:contentKeyID: 48547380
 ms.date: 09/18/2015
 mtps_version: v=office.15

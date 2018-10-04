@@ -2,7 +2,7 @@
 title: 'Chapter 15: ADOX Fundamentals'
 TOCTitle: 'Chapter 15: ADOX Fundamentals'
 ms:assetid: 973d7579-4f34-3b31-a761-a951ab29e850
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249673(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249673(v=office.15)
 ms:contentKeyID: 48546464
 ms.date: 09/18/2015
 mtps_version: v=office.15

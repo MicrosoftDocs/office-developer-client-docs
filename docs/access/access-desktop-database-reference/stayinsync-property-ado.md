@@ -2,7 +2,7 @@
 title: StayInSync Property (ADO)
 TOCTitle: StayInSync Property (ADO)
 ms:assetid: 02c95c10-4032-14e1-e506-f334a8787142
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248792(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248792(v=office.15)
 ms:contentKeyID: 48542966
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: 'Step 5: DataControl is Made Usable (RDS Tutorial)'
 TOCTitle: 'Step 5: DataControl is Made Usable (RDS Tutorial)'
 ms:assetid: 9eff5732-2743-6891-dfa6-0991645e17ad
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249728(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249728(v=office.15)
 ms:contentKeyID: 48546672
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -28,7 +28,7 @@ Sub RDSTutorial5()
  Dim RS as ADODB.Recordset 
  Dim DC as New RDS.DataControl 
  Dim DF as Object 
- Set DF = DS.CreateObject("RDSServer.DataFactory", "http://yourServer") 
+ Set DF = DS.CreateObject("RDSServer.DataFactory", "https://yourServer") 
  Set RS = DF.Query ("DSN=Pubs", "SELECT * FROM Authors") 
  DC.SourceRecordset = RS ' Visual controls can now bind to DC. 
 ... 

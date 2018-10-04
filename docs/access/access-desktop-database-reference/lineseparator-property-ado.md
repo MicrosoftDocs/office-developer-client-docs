@@ -2,7 +2,7 @@
 title: LineSeparator Property (ADO)
 TOCTitle: LineSeparator Property (ADO)
 ms:assetid: 9f1323cd-d4ed-2bfa-554b-faebab529548
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249729(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249729(v=office.15)
 ms:contentKeyID: 48546676
 ms.date: 09/18/2015
 mtps_version: v=office.15

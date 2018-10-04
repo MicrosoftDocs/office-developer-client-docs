@@ -2,7 +2,7 @@
 title: SendKeys Macro Action
 TOCTitle: SendKeys Macro Action
 ms:assetid: 3b06fcfc-ea64-c780-b5fc-6fc72853f524
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff192656(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff192656(v=office.15)
 ms:contentKeyID: 48544275
 ms.date: 09/18/2015
 mtps_version: v=office.15

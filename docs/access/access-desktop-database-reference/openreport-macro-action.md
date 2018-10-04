@@ -2,7 +2,7 @@
 title: OpenReport Macro Action
 TOCTitle: OpenReport Macro Action
 ms:assetid: cd35faf2-190d-ac48-cf59-81c1599eb764
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff834462(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff834462(v=office.15)
 ms:contentKeyID: 48547758
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -103,7 +103,7 @@ The **OpenReport** action is similar to double-clicking the report in the Naviga
 
 The following example shows how to use the OpenReport action to pass a parameter that filters a report as it is opened. The **rptChapters** report displays the records for the specified author by passing the item selected in the **cboAuthors** combo box to the SelectedAuthor parameter.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](http://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html)
+**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html)
 
     OpenReport
         Report Name rptChapters

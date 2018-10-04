@@ -2,7 +2,7 @@
 title: Document.Container Property (DAO)
 TOCTitle: Container Property
 ms:assetid: aa1ace1d-f0b8-e0b0-20b6-d3e296254c51
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff821451(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff821451(v=office.15)
 ms:contentKeyID: 48546940
 ms.date: 09/18/2015
 mtps_version: v=office.15

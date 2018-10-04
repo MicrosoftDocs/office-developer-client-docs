@@ -2,7 +2,7 @@
 title: OpenSchema Method Example (VB)
 TOCTitle: OpenSchema Method Example (VB)
 ms:assetid: 02fe101a-c2df-6454-2cca-f5833e60fc03
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248797(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248797(v=office.15)
 ms:contentKeyID: 48542973
 ms.date: 09/18/2015
 mtps_version: v=office.15

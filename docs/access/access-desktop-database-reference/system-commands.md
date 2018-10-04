@@ -2,7 +2,7 @@
 title: System Commands
 TOCTitle: System Commands
 ms:assetid: b85d04eb-c30f-47c3-9aa2-ed2f8d12afad
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn179887(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn179887(v=office.15)
 ms:contentKeyID: 52074096
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: DataControl Object (RDS) (ADO)
 TOCTitle: DataControl Object (RDS)
 ms:assetid: 10871580-2f49-4d1e-8acb-c3754c1797fb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248873(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248873(v=office.15)
 ms:contentKeyID: 48543295
 ms.date: 09/18/2015
 mtps_version: v=office.15

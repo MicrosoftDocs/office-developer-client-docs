@@ -2,7 +2,7 @@
 title: Open Method (ADO Stream)
 TOCTitle: Open Method (ADO Stream)
 ms:assetid: fa2e6aaa-e9f5-009c-f3a0-050a00abf9b0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250275(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250275(v=office.15)
 ms:contentKeyID: 48548833
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -48,7 +48,7 @@ Opens a [Stream](stream-object-ado.md) object to manipulate streams of binary or
 
 ## Remarks
 
-When a **Record** object is passed in as the source parameter, the *UserID* and *Password* parameters are not used because access to the **Record** object is already available. Similarly, the [Mode](mode-property-ado.md) of the **Record** object is transferred to the **Stream** object.When *Source* is not specified, the **Stream** opened contains no data and has a [Size](https://msdn.microsoft.com/en-us/library/jj250128\(v=office.15\)) of zero (0). To avoid losing any data that is written to this **Stream** when the **Stream** is closed, save the **Stream** with the [CopyTo](copyto-method-ado.md) or [SaveToFile](savetofile-method-ado.md) methods, or save it to another memory location.
+When a **Record** object is passed in as the source parameter, the *UserID* and *Password* parameters are not used because access to the **Record** object is already available. Similarly, the [Mode](mode-property-ado.md) of the **Record** object is transferred to the **Stream** object.When *Source* is not specified, the **Stream** opened contains no data and has a [Size](https://msdn.microsoft.com/library/jj250128\(v=office.15\)) of zero (0). To avoid losing any data that is written to this **Stream** when the **Stream** is closed, save the **Stream** with the [CopyTo](copyto-method-ado.md) or [SaveToFile](savetofile-method-ado.md) methods, or save it to another memory location.
 
 An *OpenOptions* value of **adOpenStreamFromRecord** identifies the contents of the *Source* parameter to be an already open **Record** object. The default behavior is to treat *Source* as a URL that points directly to a node in a tree structure, such as a file. The default stream associated with that node is opened.
 

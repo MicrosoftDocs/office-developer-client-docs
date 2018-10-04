@@ -2,7 +2,7 @@
 title: ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction Properties Example (VB)
 TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction Properties Example (VB)
 ms:assetid: dc869f6b-3c48-9fc8-ae3a-5850ed5d3274
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250116(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250116(v=office.15)
 ms:contentKeyID: 48548140
 ms.date: 09/18/2015
 mtps_version: v=office.15

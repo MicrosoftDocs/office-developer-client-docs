@@ -2,7 +2,7 @@
 title: GoToControl Macro Action
 TOCTitle: GoToControl Macro Action
 ms:assetid: caff76dc-7ca8-4f87-8144-89445ed4600d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff834370(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff834370(v=office.15)
 ms:contentKeyID: 48547705
 ms.date: 09/18/2015
 mtps_version: v=office.15

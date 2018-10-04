@@ -2,7 +2,7 @@
 title: Recordset2.FindLast Method (DAO)
 TOCTitle: FindLast Method
 ms:assetid: 6a31dd00-8e05-6226-ebd8-703d2562b5c7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff195400(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff195400(v=office.15)
 ms:contentKeyID: 48545428
 ms.date: 09/18/2015
 mtps_version: v=office.15

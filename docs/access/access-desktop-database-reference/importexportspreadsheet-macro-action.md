@@ -2,7 +2,7 @@
 title: ImportExportSpreadsheet Macro Action
 TOCTitle: ImportExportSpreadsheet Macro Action
 ms:assetid: 526aef41-8329-5335-9d16-4d332542a297
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff193927(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff193927(v=office.15)
 ms:contentKeyID: 48544846
 ms.date: 09/18/2015
 mtps_version: v=office.15

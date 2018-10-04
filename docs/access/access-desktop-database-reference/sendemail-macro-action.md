@@ -2,7 +2,7 @@
 title: SendEmail Macro Action
 TOCTitle: SendEmail Macro Action
 ms:assetid: 84ff6b46-d239-4716-9964-5b909656d347
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff196780(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff196780(v=office.15)
 ms:contentKeyID: 48546046
 ms.date: 09/18/2015
 mtps_version: v=office.15

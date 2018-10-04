@@ -2,7 +2,7 @@
 title: FieldStatusEnum
 TOCTitle: FieldStatusEnum
 ms:assetid: 49570042-8435-8618-3ba1-7006c47735e0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249225(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249225(v=office.15)
 ms:contentKeyID: 48544635
 ms.date: 09/18/2015
 mtps_version: v=office.15

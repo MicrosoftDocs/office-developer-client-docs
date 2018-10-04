@@ -2,7 +2,7 @@
 title: DBEngine.Properties Property (DAO)
 TOCTitle: Properties Property
 ms:assetid: 603e1bd9-53e5-00cd-f6a7-c3dac7c0ff1a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff194802(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff194802(v=office.15)
 ms:contentKeyID: 48545175
 ms.date: 09/18/2015
 mtps_version: v=office.15

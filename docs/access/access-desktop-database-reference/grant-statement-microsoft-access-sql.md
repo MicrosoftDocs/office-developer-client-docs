@@ -2,7 +2,7 @@
 title: GRANT Statement (Microsoft Access SQL)
 TOCTitle: GRANT Statement (Microsoft Access SQL)
 ms:assetid: 50ae97ae-d5be-57e5-d9da-f3fc42f01d83
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff193820(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff193820(v=office.15)
 ms:contentKeyID: 48544800
 ms.date: 09/18/2015
 mtps_version: v=office.15

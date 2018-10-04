@@ -2,7 +2,7 @@
 title: SetWarnings Macro Action
 TOCTitle: SetWarnings Macro Action
 ms:assetid: ff95b919-b1ee-c0a0-851d-71894851bb1d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff837313(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff837313(v=office.15)
 ms:contentKeyID: 48548965
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Properties.Append Method (DAO)
 TOCTitle: Append Method
 ms:assetid: 47f1e24f-975c-3fdc-5c3c-8c91f2920c81
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff193232(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff193232(v=office.15)
 ms:contentKeyID: 48544609
 ms.date: 09/18/2015
 mtps_version: v=office.15

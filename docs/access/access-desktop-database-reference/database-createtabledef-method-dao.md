@@ -2,7 +2,7 @@
 title: Database.CreateTableDef Method (DAO)
 TOCTitle: CreateTableDef Method
 ms:assetid: d919b44e-ffae-dc4a-f1cc-d01df49987a3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff835094(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff835094(v=office.15)
 ms:contentKeyID: 48548046
 ms.date: 09/18/2015
 mtps_version: v=office.15

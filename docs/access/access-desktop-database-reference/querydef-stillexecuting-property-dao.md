@@ -2,7 +2,7 @@
 title: QueryDef.StillExecuting Property (DAO)
 TOCTitle: StillExecuting Property
 ms:assetid: 98e85d37-de50-afe1-dcca-01623546e0ad
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff197953(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff197953(v=office.15)
 ms:contentKeyID: 48546505
 ms.date: 09/18/2015
 mtps_version: v=office.15

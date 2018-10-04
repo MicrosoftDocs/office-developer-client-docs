@@ -2,7 +2,7 @@
 title: The OLE DB Provider for Internet Publishing
 TOCTitle: The OLE DB Provider for Internet Publishing
 ms:assetid: 864e5ece-0f50-5d88-4c40-f951b2a2eded
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249583(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249583(v=office.15)
 ms:contentKeyID: 48546082
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -25,14 +25,14 @@ There are three ways to connect ADO to the Internet Publishing Provider:
     
     ``` 
      
-    objConn.Open "URL=http://servername" 
+    objConn.Open "URL=https://servername" 
     ```
 
   - Specify Msdaipp.dso for the *Provider* keyword of the connection string. For example:
     
     ``` 
      
-    objConn.Open "provider=MSDAIPP.DSO;data source=http://servername" 
+    objConn.Open "provider=MSDAIPP.DSO;data source=https://servername" 
     ```
 
   - Specify Msdaipp.dso for the [Provider](provider-property-ado.md) property of the [Connection](connection-object-ado.md) object. For example:
@@ -40,7 +40,7 @@ There are three ways to connect ADO to the Internet Publishing Provider:
     ``` 
      
     objConn.Provider = "MSDAIPP.DSO" 
-    objConn.Open "http://servername" 
+    objConn.Open "https://servername" 
     ```
 
 

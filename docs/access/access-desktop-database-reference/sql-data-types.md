@@ -2,7 +2,7 @@
 title: SQL Data Types
 TOCTitle: SQL Data Types
 ms:assetid: 4fc2dc8c-7825-8fbb-ff91-a0f39ef90115
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff193793(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff193793(v=office.15)
 ms:contentKeyID: 48544783
 ms.date: 09/18/2015
 mtps_version: v=office.15

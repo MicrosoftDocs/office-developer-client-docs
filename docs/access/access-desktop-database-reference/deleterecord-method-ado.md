@@ -2,7 +2,7 @@
 title: DeleteRecord Method (ADO)
 TOCTitle: DeleteRecord Method (ADO)
 ms:assetid: ba71187f-e580-bba8-f41b-bedfa0bc2b04
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249895(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249895(v=office.15)
 ms:contentKeyID: 48547370
 ms.date: 09/18/2015
 mtps_version: v=office.15

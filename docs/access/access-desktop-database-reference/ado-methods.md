@@ -2,7 +2,7 @@
 title: ADO Methods
 TOCTitle: ADO Methods
 ms:assetid: 1fd965a0-711c-e199-822c-b9575c5034bd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248984(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248984(v=office.15)
 ms:contentKeyID: 48543651
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -94,11 +94,11 @@ mtps_version: v=office.15
 <td><p>Deletes a file or directory, and all its subdirectories.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj248785(v=office.15)">Execute (ADO Command)</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj248785(v=office.15)">Execute (ADO Command)</a></p></td>
 <td><p>Executes the query, SQL statement, or stored procedure specified in the <strong>CommandText</strong> property.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj249832(v=office.15)">Execute (ADO Connection)</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj249832(v=office.15)">Execute (ADO Connection)</a></p></td>
 <td><p>Executes the specified query, SQL statement, stored procedure, or provider-specific text.</p></td>
 </tr>
 <tr class="odd">

@@ -2,7 +2,7 @@
 title: ActualSize Property (ADO)
 TOCTitle: ActualSize Property (ADO)
 ms:assetid: 020a414d-e6aa-5fb9-9b77-bd9d10124f8a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248787(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248787(v=office.15)
 ms:contentKeyID: 48542949
 ms.date: 09/18/2015
 mtps_version: v=office.15

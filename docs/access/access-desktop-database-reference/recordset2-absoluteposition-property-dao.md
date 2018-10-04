@@ -2,7 +2,7 @@
 title: Recordset2.AbsolutePosition Property (DAO)
 TOCTitle: AbsolutePosition Property
 ms:assetid: 91ca203f-0c80-67f4-e180-415b6af05030
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff197637(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff197637(v=office.15)
 ms:contentKeyID: 48546358
 ms.date: 09/18/2015
 mtps_version: v=office.15

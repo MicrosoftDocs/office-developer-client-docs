@@ -2,7 +2,7 @@
 title: Relation.Attributes Property (DAO)
 TOCTitle: Attributes Property
 ms:assetid: db19d2ad-5965-214c-211d-9a8eb9c3c522
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff835337(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff835337(v=office.15)
 ms:contentKeyID: 48548098
 ms.date: 09/18/2015
 mtps_version: v=office.15

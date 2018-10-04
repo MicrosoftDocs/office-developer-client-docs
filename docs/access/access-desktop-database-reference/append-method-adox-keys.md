@@ -2,7 +2,7 @@
 title: Append Method (ADOX Keys)
 TOCTitle: Append Method (ADOX Keys)
 ms:assetid: 14d6e8d7-5c9e-a422-47d6-ebfd9dd7a120
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248913(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248913(v=office.15)
 ms:contentKeyID: 48543396
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -32,7 +32,7 @@ Adds a new [Key](key-object-adox.md) object to the [Keys](keys-collection-adox.m
 
   - *KeyType*
 
-  - Optional. A **Long** value that specifies the type of key. The *Key* parameter corresponds to the [Type](https://msdn.microsoft.com/en-us/library/jj248879\(v=office.15\)) property of a **Key** object.
+  - Optional. A **Long** value that specifies the type of key. The *Key* parameter corresponds to the [Type](https://msdn.microsoft.com/library/jj248879\(v=office.15\)) property of a **Key** object.
 
   - *Column*
 

@@ -2,7 +2,7 @@
 title: DrilledDown Property (ADO MD)
 TOCTitle: DrilledDown Property (ADO MD)
 ms:assetid: 1dfe728f-8da2-1d2b-7361-8689a0b088b4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248972(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248972(v=office.15)
 ms:contentKeyID: 48543610
 ms.date: 09/18/2015
 mtps_version: v=office.15

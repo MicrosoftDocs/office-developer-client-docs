@@ -2,7 +2,7 @@
 title: 'Chapter 3: Examining Data (ADO)'
 TOCTitle: 'Chapter 3: Examining Data'
 ms:assetid: 647539f3-5f79-4b83-9786-17e1c73fc5e6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249386(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249386(v=office.15)
 ms:contentKeyID: 48545290
 ms.date: 09/18/2015
 mtps_version: v=office.15

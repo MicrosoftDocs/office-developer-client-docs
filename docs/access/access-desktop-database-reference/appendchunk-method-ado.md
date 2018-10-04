@@ -2,7 +2,7 @@
 title: AppendChunk Method (ADO)
 TOCTitle: AppendChunk Method (ADO)
 ms:assetid: 3fa931a3-2cd7-a3b0-a750-40e18bc9937e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249179(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249179(v=office.15)
 ms:contentKeyID: 48544405
 ms.date: 09/18/2015
 mtps_version: v=office.15

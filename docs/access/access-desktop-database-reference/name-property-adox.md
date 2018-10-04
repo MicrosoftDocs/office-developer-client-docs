@@ -2,7 +2,7 @@
 title: Name Property (ADOX)
 TOCTitle: Name Property (ADOX)
 ms:assetid: c92a3b2b-6e3f-1ed9-c7be-bf348a0737af
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249979(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249979(v=office.15)
 ms:contentKeyID: 48547674
 ms.date: 09/18/2015
 mtps_version: v=office.15

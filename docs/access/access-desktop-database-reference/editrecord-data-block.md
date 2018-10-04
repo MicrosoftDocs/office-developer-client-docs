@@ -2,7 +2,7 @@
 title: EditRecord Data Block
 TOCTitle: EditRecord Data Block
 ms:assetid: fe9f55eb-d7ed-1914-65a9-fa2fcb332b98
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff837277(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff837277(v=office.15)
 ms:contentKeyID: 48548940
 ms.date: 09/18/2015
 mtps_version: v=office.15

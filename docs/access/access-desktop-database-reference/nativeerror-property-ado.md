@@ -2,7 +2,7 @@
 title: NativeError Property (ADO)
 TOCTitle: NativeError Property (ADO)
 ms:assetid: 9f4d4064-5ee7-20f8-fd54-2cb2eae64d7b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249731(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249731(v=office.15)
 ms:contentKeyID: 48546685
 ms.date: 09/18/2015
 mtps_version: v=office.15

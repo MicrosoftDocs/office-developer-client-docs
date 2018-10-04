@@ -2,7 +2,7 @@
 title: Database.OpenRecordset Method (DAO)
 TOCTitle: OpenRecordset Method
 ms:assetid: a243bc79-cac4-fe12-768d-d3d017954e78
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff820966(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff820966(v=office.15)
 ms:contentKeyID: 48546753
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -106,15 +106,15 @@ Closing a **Recordset** with the **[Close](connection-close-method-dao.md)** met
 > [!NOTE]
 > If *source* refers to an SQL statement composed of a string concatenated with a non-integer value, and the system parameters specify a non-U.S. decimal character such as a comma (for example, strSQL = "PRICE &gt; " &amp; lngPrice, and lngPrice = 125,50), an error occurs when you try to open the **Recordset**. This is because during concatenation, the number will be converted to a string using your system's default decimal character, and SQL only accepts U.S. decimal characters.
 
-**Link provided by** the [UtterAccess](http://www.utteraccess.com) community. UtterAccess is the premier Microsoft Access wiki and help forum.
+**Link provided by** the [UtterAccess](https://www.utteraccess.com) community. UtterAccess is the premier Microsoft Access wiki and help forum.
 
-  - [Transfer data from Access to Excel](http://www.utteraccess.com/forum/transfer-data-access-ex-t1672619.html)
+  - [Transfer data from Access to Excel](https://www.utteraccess.com/forum/transfer-data-access-ex-t1672619.html)
 
 ## Example
 
 The following example shows how to open a Recordset that is based on a parameter query.
 
-**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](http://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html).
+**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html).
 
 ```
     Dim dbs As DAO.Database

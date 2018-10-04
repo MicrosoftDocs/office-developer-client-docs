@@ -2,7 +2,7 @@
 title: Recordset2.NextRecordset Method (DAO)
 TOCTitle: NextRecordset Method
 ms:assetid: 33288131-d4f3-0159-1736-f401346087f3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff192318(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff192318(v=office.15)
 ms:contentKeyID: 48544096
 ms.date: 09/18/2015
 mtps_version: v=office.15

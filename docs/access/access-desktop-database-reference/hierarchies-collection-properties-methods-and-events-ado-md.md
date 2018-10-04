@@ -2,7 +2,7 @@
 title: Hierarchies Collection Properties, Methods, and Events (ADO MD)
 TOCTitle: Hierarchies Collection Properties, Methods, and Events
 ms:assetid: 6bd1df55-c35f-ae6c-75de-ecda0c9be82f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249423(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249423(v=office.15)
 ms:contentKeyID: 48545458
 ms.date: 09/18/2015
 mtps_version: v=office.15

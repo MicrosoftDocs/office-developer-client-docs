@@ -2,7 +2,7 @@
 title: Fields Members (DAO)
 TOCTitle: Fields Members
 ms:assetid: b7ba5b21-03f4-6ac0-2acc-777da3d22839
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff822428(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff822428(v=office.15)
 ms:contentKeyID: 48547307
 ms.date: 09/18/2015
 mtps_version: v=office.15

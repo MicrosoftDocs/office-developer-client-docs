@@ -2,7 +2,7 @@
 title: Recordset.Connection Property (DAO)
 TOCTitle: Connection Property
 ms:assetid: 3d757283-761c-dc79-bb1e-5e607edbb0db
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff192710(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff192710(v=office.15)
 ms:contentKeyID: 48544347
 ms.date: 09/18/2015
 mtps_version: v=office.15

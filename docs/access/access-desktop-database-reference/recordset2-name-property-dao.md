@@ -2,7 +2,7 @@
 title: Recordset2.Name Property (DAO)
 TOCTitle: Name Property
 ms:assetid: adce493c-b038-fa83-d292-5ebb8dd60cd7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff821731(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff821731(v=office.15)
 ms:contentKeyID: 48547048
 ms.date: 09/18/2015
 mtps_version: v=office.15

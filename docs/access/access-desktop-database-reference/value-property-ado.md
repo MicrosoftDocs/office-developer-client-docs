@@ -2,7 +2,7 @@
 title: Value Property (ADO)
 TOCTitle: Value Property (ADO)
 ms:assetid: ff21d122-98e3-2b48-d92f-e696b8079fc5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250310(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250310(v=office.15)
 ms:contentKeyID: 48548958
 ms.date: 09/18/2015
 mtps_version: v=office.15

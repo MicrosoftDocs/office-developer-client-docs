@@ -2,7 +2,7 @@
 title: SQLState Property (ADO)
 TOCTitle: SQLState Property (ADO)
 ms:assetid: cf3b078a-849e-1ad2-cba4-a26160080868
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250029(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250029(v=office.15)
 ms:contentKeyID: 48547806
 ms.date: 09/18/2015
 mtps_version: v=office.15

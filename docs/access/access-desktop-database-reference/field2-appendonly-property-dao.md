@@ -2,7 +2,7 @@
 title: Field2.AppendOnly Property (DAO)
 TOCTitle: AppendOnly Property
 ms:assetid: 4427f3af-6393-0f1c-ecac-017112022583
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff193152(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff193152(v=office.15)
 ms:contentKeyID: 48544524
 ms.date: 09/18/2015
 mtps_version: v=office.15

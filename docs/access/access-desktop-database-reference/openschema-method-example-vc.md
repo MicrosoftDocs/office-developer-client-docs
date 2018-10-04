@@ -2,7 +2,7 @@
 title: OpenSchema Method Example (VC++)
 TOCTitle: OpenSchema Method Example (VC++)
 ms:assetid: 8654d003-2c6d-f8dc-5680-5e195ca5f9bd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249584(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249584(v=office.15)
 ms:contentKeyID: 48546083
 ms.date: 09/18/2015
 mtps_version: v=office.15

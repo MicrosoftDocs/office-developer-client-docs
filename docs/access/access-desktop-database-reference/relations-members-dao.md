@@ -2,7 +2,7 @@
 title: Relations Members (DAO)
 TOCTitle: Relations Members
 ms:assetid: b885db68-cee2-c5d7-1f1b-1f53eeae8308
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff822446(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff822446(v=office.15)
 ms:contentKeyID: 48547326
 ms.date: 09/18/2015
 mtps_version: v=office.15

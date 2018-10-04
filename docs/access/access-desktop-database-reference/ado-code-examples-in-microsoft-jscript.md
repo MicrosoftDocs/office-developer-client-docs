@@ -2,7 +2,7 @@
 title: ADO Code Examples in Microsoft JScript
 TOCTitle: ADO Code Examples in Microsoft JScript
 ms:assetid: 32e82313-4ee7-2d78-4840-e929b4e67ac8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249099(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249099(v=office.15)
 ms:contentKeyID: 48544090
 ms.date: 09/18/2015
 mtps_version: v=office.15

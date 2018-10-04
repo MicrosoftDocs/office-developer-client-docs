@@ -2,7 +2,7 @@
 title: Data Shaping
 TOCTitle: Data Shaping
 ms:assetid: 650571cc-6874-2cdb-dd76-0804d1cc4e38
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249390(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249390(v=office.15)
 ms:contentKeyID: 48545305
 ms.date: 09/18/2015
 mtps_version: v=office.15

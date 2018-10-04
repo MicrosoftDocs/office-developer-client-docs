@@ -2,7 +2,7 @@
 title: Connection Object (ADO)
 TOCTitle: Connection Object (ADO)
 ms:assetid: c16023aa-0321-2513-ee71-255d6ffba03d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249940(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249940(v=office.15)
 ms:contentKeyID: 48547528
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -37,7 +37,7 @@ With the collections, methods, and properties of a **Connection** object, you ca
 
   - Establish, and later break, the physical connection to the data source with the [Open](open-method-ado-connection.md) and [Close](close-method-ado.md) methods.
 
-  - Execute a command on the connection with the [Execute](https://msdn.microsoft.com/en-us/library/jj249832\(v=office.15\)) method and configure the execution with the [CommandTimeout](commandtimeout-property-ado.md) property.
+  - Execute a command on the connection with the [Execute](https://msdn.microsoft.com/library/jj249832\(v=office.15\)) method and configure the execution with the [CommandTimeout](commandtimeout-property-ado.md) property.
     
 
     > [!NOTE]

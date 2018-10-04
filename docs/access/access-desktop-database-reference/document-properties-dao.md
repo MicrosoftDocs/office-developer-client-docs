@@ -2,7 +2,7 @@
 title: Document Properties (DAO)
 TOCTitle: Properties
 ms:assetid: 44c2192b-1dab-482c-9952-7fdae549c228
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn124584(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn124584(v=office.15)
 ms:contentKeyID: 52072207
 ms.date: 09/18/2015
 mtps_version: v=office.15

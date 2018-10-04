@@ -2,7 +2,7 @@
 title: Using ADO with Microsoft Visual C++ Topics
 TOCTitle: Using ADO with Microsoft Visual C++
 ms:assetid: ba885acd-515e-45cf-a8bf-3f30e30061c3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249897(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249897(v=office.15)
 ms:contentKeyID: 48547374
 ms.date: 09/18/2015
 mtps_version: v=office.15

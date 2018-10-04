@@ -2,7 +2,7 @@
 title: GetObjectOwner and SetObjectOwner Methods Example (VC++)
 TOCTitle: GetObjectOwner and SetObjectOwner Methods Example (VC++)
 ms:assetid: af38cc5c-4475-20fa-edcd-a439e1ffbf99
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249835(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249835(v=office.15)
 ms:contentKeyID: 48547096
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -13,7 +13,7 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-This example demonstrates the [GetObjectOwner](getobjectowner-method-adox.md) and [SetObjectOwner](https://msdn.microsoft.com/en-us/library/jj249006\(v=office.15\)) methods. This code assumes the existence of the group Accounting (see the [Groups and Users Append, ChangePassword Methods Example (VC++)](groups-and-users-append-changepassword-methods-example-vc.md) to see how to add this group to the system). The owner of the Categories table is set to Accounting.
+This example demonstrates the [GetObjectOwner](getobjectowner-method-adox.md) and [SetObjectOwner](https://msdn.microsoft.com/library/jj249006\(v=office.15\)) methods. This code assumes the existence of the group Accounting (see the [Groups and Users Append, ChangePassword Methods Example (VC++)](groups-and-users-append-changepassword-methods-example-vc.md) to see how to add this group to the system). The owner of the Categories table is set to Accounting.
 
 ``` 
  

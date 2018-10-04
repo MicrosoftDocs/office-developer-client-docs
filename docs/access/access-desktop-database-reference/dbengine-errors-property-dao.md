@@ -2,7 +2,7 @@
 title: DBEngine.Errors Property (DAO)
 TOCTitle: Errors Property
 ms:assetid: 594a8752-1f15-0690-b01c-9254951f16f6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff194384(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff194384(v=office.15)
 ms:contentKeyID: 48545013
 ms.date: 09/18/2015
 mtps_version: v=office.15

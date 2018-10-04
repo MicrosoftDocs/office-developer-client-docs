@@ -2,7 +2,7 @@
 title: Append Method (ADOX Columns)
 TOCTitle: Append Method (ADOX Columns)
 ms:assetid: e256a478-abc0-f15b-fc29-1b52e354144a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250152(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250152(v=office.15)
 ms:contentKeyID: 48548285
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -27,7 +27,7 @@ Adds a new [Column](column-object-adox.md) object to the [Columns](columns-colle
 
   - *Type*
 
-  - Optional. A **Long** value that specifies the data type of the column. The *Type* parameter corresponds to the [Type](https://msdn.microsoft.com/en-us/library/jj249169\(v=office.15\)) property of a **Column** object.
+  - Optional. A **Long** value that specifies the data type of the column. The *Type* parameter corresponds to the [Type](https://msdn.microsoft.com/library/jj249169\(v=office.15\)) property of a **Column** object.
 
   - *DefinedSize*
 

@@ -2,7 +2,7 @@
 title: Field2.AllowZeroLength Property (DAO)
 TOCTitle: AllowZeroLength Property
 ms:assetid: d3795634-527f-b4c5-b606-50f9945cac12
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff834791(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff834791(v=office.15)
 ms:contentKeyID: 48547908
 ms.date: 09/18/2015
 mtps_version: v=office.15

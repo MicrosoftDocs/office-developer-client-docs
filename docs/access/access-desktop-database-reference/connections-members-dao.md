@@ -2,7 +2,7 @@
 title: Connections Members (DAO)
 TOCTitle: Connections Members
 ms:assetid: e57a9548-455b-b6e8-6e9c-8bbf9613003a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff835954(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff835954(v=office.15)
 ms:contentKeyID: 48548361
 ms.date: 09/18/2015
 mtps_version: v=office.15

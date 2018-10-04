@@ -2,7 +2,7 @@
 title: Parameter Object (ADO) Reference
 TOCTitle: Parameter Object (ADO)
 ms:assetid: dab4b726-04e6-4441-968b-a7491d8d3311
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250101(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250101(v=office.15)
 ms:contentKeyID: 48548087
 ms.date: 09/18/2015
 mtps_version: v=office.15

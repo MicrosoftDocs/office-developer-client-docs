@@ -2,7 +2,7 @@
 title: DataFactory Customization
 TOCTitle: DataFactory Customization
 ms:assetid: 43cd7416-1f05-87ee-22f0-6cf0d2d1b39f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249205(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249205(v=office.15)
 ms:contentKeyID: 48544511
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -35,7 +35,7 @@ See the following topics for more information about customizing the **DataFactor
 
   - [Customization File Logs Section](customization-file-logs-section.md)
 
-  - [Required Client Settings](https://msdn.microsoft.com/en-us/library/ff836356\(v=office.15\))
+  - [Required Client Settings](https://msdn.microsoft.com/library/ff836356\(v=office.15\))
 
-  - [Writing Your Own Customized Handler](https://msdn.microsoft.com/en-us/library/jj249402\(v=office.15\))
+  - [Writing Your Own Customized Handler](https://msdn.microsoft.com/library/jj249402\(v=office.15\))
 

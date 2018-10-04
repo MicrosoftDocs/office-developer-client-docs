@@ -2,7 +2,7 @@
 title: The Significance of Cursor Location
 TOCTitle: The Significance of Cursor Location
 ms:assetid: 57cf91a0-2612-b1ca-1c03-9c1ccb396b2e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249296(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249296(v=office.15)
 ms:contentKeyID: 48544978
 ms.date: 09/18/2015
 mtps_version: v=office.15

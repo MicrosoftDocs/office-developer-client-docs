@@ -2,7 +2,7 @@
 title: Index Properties (DAO)
 TOCTitle: Properties
 ms:assetid: 50ef6a19-235a-4d0e-979b-7f62fe50ac05
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn124774(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn124774(v=office.15)
 ms:contentKeyID: 52072396
 ms.date: 09/18/2015
 mtps_version: v=office.15

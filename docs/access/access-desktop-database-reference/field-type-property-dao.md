@@ -2,7 +2,7 @@
 title: Field.Type Property (DAO)
 TOCTitle: Type Property
 ms:assetid: 1295ca40-78c1-bdd0-d407-e1b5be8adfd4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff845405(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff845405(v=office.15)
 ms:contentKeyID: 48543345
 ms.date: 09/18/2015
 mtps_version: v=office.15

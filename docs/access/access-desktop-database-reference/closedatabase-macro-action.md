@@ -2,7 +2,7 @@
 title: CloseDatabase Macro Action
 TOCTitle: CloseDatabase Macro Action
 ms:assetid: c4b4278d-932c-99f6-da2d-8953109b44b3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff823085(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff823085(v=office.15)
 ms:contentKeyID: 48547598
 ms.date: 09/18/2015
 mtps_version: v=office.15

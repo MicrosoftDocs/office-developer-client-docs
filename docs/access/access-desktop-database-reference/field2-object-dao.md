@@ -2,7 +2,7 @@
 title: Field2 Object (DAO)
 TOCTitle: Field2 Object
 ms:assetid: 585aa163-402b-2c2b-d8d7-733a6d55d104
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff194326(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff194326(v=office.15)
 ms:contentKeyID: 48544994
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -48,7 +48,7 @@ With the same syntax forms, you can also refer to the **Value** property of a **
 
 The following example shows how to navigate a Recordset that contains a multi-value field.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](http://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
+**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
 
     Sub PrintStudentsAndClasses()
         Dim dbs As DAO.Database

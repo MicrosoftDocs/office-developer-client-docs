@@ -2,7 +2,7 @@
 title: UPDATE Statement (Microsoft Access SQL)
 TOCTitle: UPDATE Statement (Microsoft Access SQL)
 ms:assetid: 08f9c3d6-c020-ecf1-5748-43b93a76dfbb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff845036(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff845036(v=office.15)
 ms:contentKeyID: 48543111
 ms.date: 09/18/2015
 mtps_version: v=office.15

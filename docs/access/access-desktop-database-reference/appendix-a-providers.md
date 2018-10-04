@@ -2,7 +2,7 @@
 title: 'Appendix A: Providers'
 TOCTitle: 'Appendix A: Providers'
 ms:assetid: b3f92279-8d66-ad59-71c4-c0448168125a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249857(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249857(v=office.15)
 ms:contentKeyID: 48547207
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -100,7 +100,7 @@ To use a service provider, you must supply a keyword. You should also be aware o
 
 The [Cursor Service for OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) service component supplements the cursor support functions of data providers. It also requires a keyword and has dynamic properties.
 
-For more information about providers, see the documentation for Microsoft OLE DB in the Microsoft Data Access Components SDK or visit the [Data Platform Developer Center](http://msdn.microsoft.com/en-us/data/default.aspx).
+For more information about providers, see the documentation for Microsoft OLE DB in the Microsoft Data Access Components SDK or visit the [Data Platform Developer Center](https://msdn.microsoft.com/data/default.aspx).
 
 ## Provider Commands
 

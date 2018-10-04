@@ -2,7 +2,7 @@
 title: Table Object (ADOX)
 TOCTitle: Table Object (ADOX)
 ms:assetid: 53a3e2f9-4ec0-8fed-d482-4f995921587b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249273(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249273(v=office.15)
 ms:contentKeyID: 48544874
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -25,7 +25,7 @@ With the properties and collections of a **Table** object, you can:
 
   - Identify the table with the [Name](name-property-adox.md) property.
 
-  - Determine the type of table with the [Type](https://msdn.microsoft.com/en-us/library/jj250042\(v=office.15\)) property.
+  - Determine the type of table with the [Type](https://msdn.microsoft.com/library/jj250042\(v=office.15\)) property.
 
   - Access the database columns of the table with the [Columns](columns-collection-adox.md) collection.
 

@@ -2,7 +2,7 @@
 title: RunMacro Macro Action
 TOCTitle: RunMacro Macro Action
 ms:assetid: 25966f20-8160-0821-b88a-ed08b7786fdc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff191868(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff191868(v=office.15)
 ms:contentKeyID: 48543787
 ms.date: 09/18/2015
 mtps_version: v=office.15

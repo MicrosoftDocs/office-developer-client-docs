@@ -2,7 +2,7 @@
 title: Documents.Count Property (DAO)
 TOCTitle: Count Property
 ms:assetid: 3fc0b1e6-f7be-cd43-711f-5cf5763fe7f6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff192858(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff192858(v=office.15)
 ms:contentKeyID: 48544407
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: 'Chapter 7: Handling ADO Events (ADO)'
 TOCTitle: 'Chapter 7: Handling ADO Events'
 ms:assetid: ad732c9b-4191-4cc0-9bc0-2f64e93cd872
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249815(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249815(v=office.15)
 ms:contentKeyID: 48547040
 ms.date: 09/18/2015
 mtps_version: v=office.15

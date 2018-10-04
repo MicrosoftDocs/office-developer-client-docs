@@ -2,7 +2,7 @@
 title: Type Property (ADO Stream)
 TOCTitle: Type Property (ADO Stream)
 ms:assetid: 43872c74-51bf-47ae-6bdc-55d25b0dc84a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249203(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249203(v=office.15)
 ms:contentKeyID: 48544505
 ms.date: 09/18/2015
 mtps_version: v=office.15

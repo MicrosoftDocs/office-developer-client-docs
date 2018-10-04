@@ -2,7 +2,7 @@
 title: Field.Size Property (DAO)
 TOCTitle: Size Property
 ms:assetid: 15e25201-87b6-f62f-ff18-259414a47891
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff845510(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff845510(v=office.15)
 ms:contentKeyID: 48543419
 ms.date: 09/18/2015
 mtps_version: v=office.15

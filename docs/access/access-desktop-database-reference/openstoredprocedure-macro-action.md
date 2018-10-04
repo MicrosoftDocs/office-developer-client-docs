@@ -2,7 +2,7 @@
 title: OpenStoredProcedure Macro Action
 TOCTitle: OpenStoredProcedure Macro Action
 ms:assetid: b14dbb82-7c8a-0ace-e251-46599551a490
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff822003(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff822003(v=office.15)
 ms:contentKeyID: 48547142
 ms.date: 09/18/2015
 mtps_version: v=office.15

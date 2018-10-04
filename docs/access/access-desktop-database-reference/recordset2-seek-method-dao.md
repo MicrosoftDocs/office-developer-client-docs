@@ -2,7 +2,7 @@
 title: Recordset2.Seek Method (DAO)
 TOCTitle: Seek Method
 ms:assetid: 9871619b-a303-c97d-54c0-defc8d9b87f5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff197940(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff197940(v=office.15)
 ms:contentKeyID: 48546489
 ms.date: 09/18/2015
 mtps_version: v=office.15

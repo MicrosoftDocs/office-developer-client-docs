@@ -2,7 +2,7 @@
 title: TableDef.Indexes Property (DAO)
 TOCTitle: Indexes Property
 ms:assetid: b168ff75-0a5f-2bc0-9180-2add520a12c6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff822007(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff822007(v=office.15)
 ms:contentKeyID: 48547149
 ms.date: 09/18/2015
 mtps_version: v=office.15

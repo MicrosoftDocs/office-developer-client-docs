@@ -2,7 +2,7 @@
 title: ADD USER Statement (Microsoft Access SQL)
 TOCTitle: ADD USER Statement (Microsoft Access SQL)
 ms:assetid: 1feb631f-cb8c-14ae-6214-276f1faf1a55
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff845862(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff845862(v=office.15)
 ms:contentKeyID: 48543652
 ms.date: 09/18/2015
 mtps_version: v=office.15

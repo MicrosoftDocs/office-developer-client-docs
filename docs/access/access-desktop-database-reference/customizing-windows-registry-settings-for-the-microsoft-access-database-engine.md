@@ -2,7 +2,7 @@
 title: Customizing Windows Registry Settings for the Microsoft Access Database Engine
 TOCTitle: Customizing Windows Registry Settings for the Microsoft Access Database Engine
 ms:assetid: ca7e958a-ea26-d67d-45b9-10aeb1eac96b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff834346(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff834346(v=office.15)
 ms:contentKeyID: 48547690
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -21,11 +21,11 @@ If your application cannot work correctly with the default functionality of the 
 
 You can customize the settings in the Windows Registry in four different ways:
 
-[Using Regedit.exe to Overwrite the Default Settings](https://msdn.microsoft.com/en-us/library/ff193205\(v=office.15\))
+[Using Regedit.exe to Overwrite the Default Settings](https://msdn.microsoft.com/library/ff193205\(v=office.15\))
 
-[Creating a Portion in Your Application's Registry Tree to Manage the Settings](https://msdn.microsoft.com/en-us/library/ff836342\(v=office.15\))
+[Creating a Portion in Your Application's Registry Tree to Manage the Settings](https://msdn.microsoft.com/library/ff836342\(v=office.15\))
 
-[Using the SetOption Method from DAO](https://msdn.microsoft.com/en-us/library/ff194471\(v=office.15\))
+[Using the SetOption Method from DAO](https://msdn.microsoft.com/library/ff194471\(v=office.15\))
 
-[Using the Connection Properties in the Microsoft OLE DB Provider for Access](https://msdn.microsoft.com/en-us/library/ff196356\(v=office.15\))
+[Using the Connection Properties in the Microsoft OLE DB Provider for Access](https://msdn.microsoft.com/library/ff196356\(v=office.15\))
 

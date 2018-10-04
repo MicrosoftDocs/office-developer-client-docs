@@ -2,7 +2,7 @@
 title: Beep Macro Action
 TOCTitle: Beep Macro Action
 ms:assetid: 5ca1600f-7934-3b3d-19fd-f305cda0e5d8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff194572(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff194572(v=office.15)
 ms:contentKeyID: 48545092
 ms.date: 09/18/2015
 mtps_version: v=office.15

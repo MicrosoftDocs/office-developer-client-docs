@@ -2,7 +2,7 @@
 title: Stream Object (ADO)
 TOCTitle: Stream Object (ADO)
 ms:assetid: d49b1514-e0b4-0aca-d5c2-8266f3f4fe65
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250065(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250065(v=office.15)
 ms:contentKeyID: 48547945
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -49,7 +49,7 @@ With the methods and properties of a **Stream** object, you can do the following
 
   - Halt an asynchronous **Stream** operation with the [Cancel](cancel-method-ado.md) method.
 
-  - Determine the number of bytes in a **Stream** with the [Size](https://msdn.microsoft.com/en-us/library/jj250128\(v=office.15\)) property.
+  - Determine the number of bytes in a **Stream** with the [Size](https://msdn.microsoft.com/library/jj250128\(v=office.15\)) property.
 
   - Control the current position within a **Stream** with the [Position](position-property-ado.md) property.
 

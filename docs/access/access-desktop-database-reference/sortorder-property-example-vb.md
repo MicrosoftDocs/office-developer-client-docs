@@ -2,7 +2,7 @@
 title: SortOrder Property Example (VB)
 TOCTitle: SortOrder Property Example (VB)
 ms:assetid: 97937644-e3ef-06dc-d8ba-55ecaf7ac1ad
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249675(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249675(v=office.15)
 ms:contentKeyID: 48546472
 ms.date: 09/18/2015
 mtps_version: v=office.15

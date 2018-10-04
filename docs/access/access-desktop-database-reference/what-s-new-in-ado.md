@@ -2,7 +2,7 @@
 title: What's New in ADO
 TOCTitle: What's New in ADO
 ms:assetid: fd3d0f9c-e9df-d130-13e3-757620e9400c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250297(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250297(v=office.15)
 ms:contentKeyID: 48548905
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -83,7 +83,7 @@ The following new properties are included in this release.
 <td><p>Indicates the type of <strong>Record</strong> object.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj250128(v=office.15)">Size</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj250128(v=office.15)">Size</a></p></td>
 <td><p>Indicates the size of the stream in number of bytes.</p></td>
 </tr>
 <tr class="odd">

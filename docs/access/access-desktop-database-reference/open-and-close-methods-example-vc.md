@@ -2,7 +2,7 @@
 title: Open and Close Methods Example (VC++)
 TOCTitle: Open and Close Methods Example (VC++)
 ms:assetid: 34493c4d-a60a-96b3-b94b-f93e306a66a7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249112(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249112(v=office.15)
 ms:contentKeyID: 48544132
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: 'Chapter 10: Records and Streams'
 TOCTitle: 'Chapter 10: Records and Streams'
 ms:assetid: 74862096-2273-3b61-f89c-06554ccf42cd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249477(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249477(v=office.15)
 ms:contentKeyID: 48545663
 ms.date: 09/18/2015
 mtps_version: v=office.15

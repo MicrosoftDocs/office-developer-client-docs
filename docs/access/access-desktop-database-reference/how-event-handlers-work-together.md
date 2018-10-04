@@ -2,7 +2,7 @@
 title: How Event Handlers Work Together
 TOCTitle: How Event Handlers Work Together
 ms:assetid: 02122824-881e-0bb8-cba1-c963024790ae
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248788(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248788(v=office.15)
 ms:contentKeyID: 48542951
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -18,7 +18,7 @@ Paired Event Handlers
 Unpaired Event Handlers  
 Single Event Handlers and Multiple Objects  
 
-Unless you are programming in Visual Basic, all event handlers for **Connection** and **Recordset** events must be implemented, regardless of whether you actually process all of the events. The amount of implementation work you have to do depends on your programming language. For more information, see [ADO Event Instantiation by Language](https://msdn.microsoft.com/en-us/library/jj250244\(v=office.15\)).
+Unless you are programming in Visual Basic, all event handlers for **Connection** and **Recordset** events must be implemented, regardless of whether you actually process all of the events. The amount of implementation work you have to do depends on your programming language. For more information, see [ADO Event Instantiation by Language](https://msdn.microsoft.com/library/jj250244\(v=office.15\)).
 
 ## Paired Event Handlers
 

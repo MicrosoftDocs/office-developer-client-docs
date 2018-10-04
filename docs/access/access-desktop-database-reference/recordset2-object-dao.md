@@ -2,7 +2,7 @@
 title: Recordset2 Object (DAO)
 TOCTitle: Recordset2 Object
 ms:assetid: 964f9961-807c-e4f3-5919-74e25f6e9069
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff197737(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff197737(v=office.15)
 ms:contentKeyID: 48546446
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -28,7 +28,7 @@ A **Recordset2** object is contains all of the same properties and methods as th
 
 The following example shows how to navigate a Recordset that contains a multi-value field.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](http://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
+**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
 
     Sub PrintStudentsAndClasses()
         Dim dbs As DAO.Database

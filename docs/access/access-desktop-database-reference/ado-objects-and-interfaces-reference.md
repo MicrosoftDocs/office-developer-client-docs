@@ -2,7 +2,7 @@
 title: ADO Objects and Interfaces Reference
 TOCTitle: ADO Objects and Interfaces
 ms:assetid: 30b8ae58-90b3-4050-83ce-bc53a4303ab0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249084(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249084(v=office.15)
 ms:contentKeyID: 48544032
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Recordset2.Type Property (DAO)
 TOCTitle: Type Property
 ms:assetid: 9bec543e-7f59-ea59-dc79-41d0e08b5ab6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff198080(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff198080(v=office.15)
 ms:contentKeyID: 48546583
 ms.date: 09/18/2015
 mtps_version: v=office.15

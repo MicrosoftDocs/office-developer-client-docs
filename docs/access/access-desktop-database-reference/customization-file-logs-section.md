@@ -2,7 +2,7 @@
 title: Customization File Logs Section
 TOCTitle: Customization File Logs Section
 ms:assetid: de331a97-c9cd-5f02-692b-d7afd9e9342a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250124(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250124(v=office.15)
 ms:contentKeyID: 48548178
 ms.date: 09/18/2015
 mtps_version: v=office.15

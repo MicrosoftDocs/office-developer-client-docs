@@ -2,7 +2,7 @@
 title: 'Internet Server Error: Access Denied'
 TOCTitle: 'Internet Server Error: Access Denied'
 ms:assetid: 65f4608b-afec-2867-dae3-e29bae03a6fd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249395(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249395(v=office.15)
 ms:contentKeyID: 48545334
 ms.date: 09/18/2015
 mtps_version: v=office.15

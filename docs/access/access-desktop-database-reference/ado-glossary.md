@@ -2,7 +2,7 @@
 title: ADO Glossary
 TOCTitle: ADO Glossary
 ms:assetid: 40f00876-7525-4117-8f57-f3d87c54be99
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249184(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249184(v=office.15)
 ms:contentKeyID: 48544438
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -432,7 +432,7 @@ A structure representing a hierarchical relationship between elements (nodes). T
 
 Specifies the location of a resource residing on the Internet or an intranet. A complete URL consists of a scheme (such as FTP, HTTP, mailto, file, and so on), followed by a colon, a server name, and the full path of a resource (such as a document, graphic, or other file). Some examples of URLs are:  
   
-http://www.domain.com/default.html  
+https://www.domain.com/default.html  
 ftp://ftp.server.somewhere/ftp.file  
   
 ftp://ftp.server.somewhere/ftp.file  

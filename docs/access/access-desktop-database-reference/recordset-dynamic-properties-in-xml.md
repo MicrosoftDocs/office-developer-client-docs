@@ -2,7 +2,7 @@
 title: Recordset Dynamic Properties in XML
 TOCTitle: Recordset Dynamic Properties in XML
 ms:assetid: 6ee1f176-9986-4ade-fc97-e3dad8e6bc6b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249439(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249439(v=office.15)
 ms:contentKeyID: 48545522
 ms.date: 09/18/2015
 mtps_version: v=office.15

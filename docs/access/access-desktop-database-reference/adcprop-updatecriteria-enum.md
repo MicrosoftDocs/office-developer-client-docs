@@ -2,7 +2,7 @@
 title: ADCPROP_UPDATECRITERIA_ENUM
 TOCTitle: ADCPROP_UPDATECRITERIA_ENUM
 ms:assetid: 70da63fa-fa75-9bb4-683d-0fcb4c4a2934
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249450(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249450(v=office.15)
 ms:contentKeyID: 48545571
 ms.date: 09/18/2015
 mtps_version: v=office.15

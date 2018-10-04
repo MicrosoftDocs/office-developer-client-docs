@@ -2,7 +2,7 @@
 title: Recordset.Bookmark Property (DAO)
 TOCTitle: Bookmark Property
 ms:assetid: c4b1c2d9-668e-e365-544c-efb4ae4efcc9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff823084(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff823084(v=office.15)
 ms:contentKeyID: 48547597
 ms.date: 09/18/2015
 mtps_version: v=office.15

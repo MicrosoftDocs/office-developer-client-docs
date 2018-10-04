@@ -2,7 +2,7 @@
 title: ADO MD API Reference
 TOCTitle: ADO MD API Reference
 ms:assetid: 897193ef-5b7c-78b2-cd88-92d19247fbaf
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249602(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249602(v=office.15)
 ms:contentKeyID: 48546163
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -25,5 +25,5 @@ This section of the ADO MD documentation contains topics for each ADO MD object,
 
   - [ADO MD Enumerated Constants](ado-md-enumerated-constants.md)
 
-  - [ADO MD Examples](https://msdn.microsoft.com/en-us/library/jj250276\(v=office.15\))
+  - [ADO MD Examples](https://msdn.microsoft.com/library/jj250276\(v=office.15\))
 

@@ -2,7 +2,7 @@
 title: ADO Event Instantiation by Language (ADO)
 TOCTitle: ADO Event Instantiation by Language
 ms:assetid: d21cc0bd-8450-4f8f-92f8-78ca9861f44a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250048(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250048(v=office.15)
 ms:contentKeyID: 48547876
 ms.date: 09/18/2015
 mtps_version: v=office.15

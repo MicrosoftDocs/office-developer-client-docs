@@ -2,7 +2,7 @@
 title: MaximizeWindow Macro Action
 TOCTitle: MaximizeWindow Macro Action
 ms:assetid: 79c9e430-07a7-02b2-ff5a-c6b9ec32c5b6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff196171(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff196171(v=office.15)
 ms:contentKeyID: 48545778
 ms.date: 09/18/2015
 mtps_version: v=office.15

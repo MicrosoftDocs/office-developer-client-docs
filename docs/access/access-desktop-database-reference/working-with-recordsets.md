@@ -2,7 +2,7 @@
 title: Working with Recordsets
 TOCTitle: Working with Recordsets
 ms:assetid: 9cd52866-2738-8150-381c-eee0b8a6cd36
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249711(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249711(v=office.15)
 ms:contentKeyID: 48546608
 ms.date: 09/18/2015
 mtps_version: v=office.15

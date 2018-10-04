@@ -2,7 +2,7 @@
 title: Data Actions
 TOCTitle: Data Actions
 ms:assetid: f6ec7193-9693-4543-bdc7-569d60f59185
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn180129(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn180129(v=office.15)
 ms:contentKeyID: 52075078
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: SetOrderBy Macro Action
 TOCTitle: SetOrderBy Macro Action
 ms:assetid: 78f65ce9-b56f-f476-3bd6-f3307bc22a08
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff196152(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff196152(v=office.15)
 ms:contentKeyID: 48545765
 ms.date: 09/18/2015
 mtps_version: v=office.15

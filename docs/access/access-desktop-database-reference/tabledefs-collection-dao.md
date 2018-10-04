@@ -2,7 +2,7 @@
 title: TableDefs Collection (DAO)
 TOCTitle: TableDefs Collection
 ms:assetid: a2986b02-0437-d6ac-7bbb-c43f5225c3fc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff820997(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff820997(v=office.15)
 ms:contentKeyID: 48546766
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -28,11 +28,11 @@ To refer to a **TableDef** object in a collection by its ordinal number or by it
 
 **TableDefs**\!\[name\]
 
-**Links provided by** the [UtterAccess](http://www.utteraccess.com) community. UtterAccess is the premier Microsoft Access wiki and help forum.
+**Links provided by** the [UtterAccess](https://www.utteraccess.com) community. UtterAccess is the premier Microsoft Access wiki and help forum.
 
-  - [Re-Linker Multi-Backends](http://www.utteraccess.com/wiki/index.php/re-linker_multi-backends)
+  - [Re-Linker Multi-Backends](https://www.utteraccess.com/wiki/index.php/re-linker_multi-backends)
 
-  - [Swap/Relink Between LIVE, TEST and LOCAL Data](http://www.utteraccess.com/forum/swap-relink-live-test-t1328573.html)
+  - [Swap/Relink Between LIVE, TEST and LOCAL Data](https://www.utteraccess.com/forum/swap-relink-live-test-t1328573.html)
 
 ## Example
 

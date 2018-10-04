@@ -2,7 +2,7 @@
 title: Prompt Property--Dynamic (ADO)
 TOCTitle: Prompt Property--Dynamic (ADO)
 ms:assetid: 6c899b03-1d1f-a81f-dc17-7205a0230af9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249428(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249428(v=office.15)
 ms:contentKeyID: 48545473
 ms.date: 09/18/2015
 mtps_version: v=office.15

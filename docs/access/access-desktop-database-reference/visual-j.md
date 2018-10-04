@@ -2,7 +2,7 @@
 title: Visual J++
 TOCTitle: Visual J++
 ms:assetid: 5c05db85-cdf2-9a73-fbc5-3dbfa6752376
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249320(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249320(v=office.15)
 ms:contentKeyID: 48545079
 ms.date: 09/18/2015
 mtps_version: v=office.15

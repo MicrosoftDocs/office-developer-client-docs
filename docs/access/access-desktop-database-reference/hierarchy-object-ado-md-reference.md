@@ -2,7 +2,7 @@
 title: Hierarchy Object (ADO MD Reference)
 TOCTitle: Hierarchy Object (ADO MD)
 ms:assetid: 0c849ee3-4b3f-4bfa-87e9-c9466881aca1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248848(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248848(v=office.15)
 ms:contentKeyID: 48543194
 ms.date: 09/18/2015
 mtps_version: v=office.15

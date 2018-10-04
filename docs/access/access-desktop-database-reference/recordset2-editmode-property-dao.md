@@ -2,7 +2,7 @@
 title: Recordset2.EditMode Property (DAO)
 TOCTitle: EditMode Property
 ms:assetid: fd61ea2b-e7d7-195f-4114-87e54eba2451
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff837240(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff837240(v=office.15)
 ms:contentKeyID: 48548914
 ms.date: 09/18/2015
 mtps_version: v=office.15

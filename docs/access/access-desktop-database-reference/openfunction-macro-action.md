@@ -2,7 +2,7 @@
 title: OpenFunction Macro Action
 TOCTitle: OpenFunction Macro Action
 ms:assetid: 0446dbb9-c342-9225-27ba-b8a6892030e1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff844833(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff844833(v=office.15)
 ms:contentKeyID: 48543005
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: BrowseTo Macro Action
 TOCTitle: BrowseTo Macro Action
 ms:assetid: b25e1cc6-c4ed-abd6-0285-94fc7dae0bdf
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff822020(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff822020(v=office.15)
 ms:contentKeyID: 48547167
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -81,7 +81,7 @@ In this example, the Main Form is the top level form in the Access client applic
 
 The following example shows how to use the BrowseTo action to open a report in a subform control or within a navigation control.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](http://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html)
+**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html)
 
     OnError
         Go to Next

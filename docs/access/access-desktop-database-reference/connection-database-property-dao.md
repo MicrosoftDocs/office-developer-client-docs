@@ -2,7 +2,7 @@
 title: Connection.Database Property (DAO)
 TOCTitle: Database Property
 ms:assetid: cf871353-0ea4-f995-6e0e-812af443daf9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff834675(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff834675(v=office.15)
 ms:contentKeyID: 48547809
 ms.date: 09/18/2015
 mtps_version: v=office.15

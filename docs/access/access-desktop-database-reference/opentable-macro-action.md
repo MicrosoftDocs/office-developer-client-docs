@@ -2,7 +2,7 @@
 title: OpenTable Macro Action
 TOCTitle: OpenTable Macro Action
 ms:assetid: 4220ad3a-d064-0034-2806-ec1a447cebac
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff192909(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff192909(v=office.15)
 ms:contentKeyID: 48544469
 ms.date: 09/18/2015
 mtps_version: v=office.15

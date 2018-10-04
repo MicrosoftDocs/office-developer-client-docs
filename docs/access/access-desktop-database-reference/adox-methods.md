@@ -2,7 +2,7 @@
 title: ADOX Methods
 TOCTitle: ADOX Methods
 ms:assetid: 1a2eed52-2b09-e528-2cdc-134df3c9441f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248947(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248947(v=office.15)
 ms:contentKeyID: 48543516
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -72,7 +72,7 @@ mtps_version: v=office.15
 <td><p>Returns the permissions for a group or user on an object.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/en-us/library/jj249006(v=office.15)">SetObjectOwner</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj249006(v=office.15)">SetObjectOwner</a></p></td>
 <td><p>Specifies the owner of an object in a catalog.</p></td>
 </tr>
 <tr class="odd">

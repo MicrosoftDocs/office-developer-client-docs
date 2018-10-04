@@ -2,7 +2,7 @@
 title: Field.GetChunk Method (DAO)
 TOCTitle: GetChunk Method
 ms:assetid: b8984e79-54f7-8052-85a3-d12033daf7a1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff822448(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff822448(v=office.15)
 ms:contentKeyID: 48547328
 ms.date: 09/18/2015
 mtps_version: v=office.15

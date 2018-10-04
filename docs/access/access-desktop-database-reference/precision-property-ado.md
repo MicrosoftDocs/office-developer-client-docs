@@ -2,7 +2,7 @@
 title: Precision Property (ADO)
 TOCTitle: Precision Property (ADO)
 ms:assetid: c9d54d78-d5a5-caf8-d635-259d1fcc0595
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249983(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249983(v=office.15)
 ms:contentKeyID: 48547685
 ms.date: 09/18/2015
 mtps_version: v=office.15

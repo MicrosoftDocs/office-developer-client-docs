@@ -2,7 +2,7 @@
 title: Shape Compute Clause
 TOCTitle: Shape Compute Clause
 ms:assetid: f4fee4a6-ec9e-c0b6-40e0-258f76c4696f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250245(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250245(v=office.15)
 ms:contentKeyID: 48548699
 ms.date: 09/18/2015
 mtps_version: v=office.15

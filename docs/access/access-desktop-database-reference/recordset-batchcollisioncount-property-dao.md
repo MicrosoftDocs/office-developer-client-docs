@@ -2,7 +2,7 @@
 title: Recordset.BatchCollisionCount Property (DAO)
 TOCTitle: BatchCollisionCount Property
 ms:assetid: 9d166463-8313-c0f5-8389-5d5ad933eb33
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff198240(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff198240(v=office.15)
 ms:contentKeyID: 48546617
 ms.date: 09/18/2015
 mtps_version: v=office.15

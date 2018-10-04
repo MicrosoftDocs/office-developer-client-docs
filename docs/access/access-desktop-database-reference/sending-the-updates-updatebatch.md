@@ -2,7 +2,7 @@
 title: 'Sending the Updates: UpdateBatch'
 TOCTitle: 'Sending the Updates: UpdateBatch'
 ms:assetid: a840b9a7-7ccd-9c31-7951-8921dadf381e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249778(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249778(v=office.15)
 ms:contentKeyID: 48546898
 ms.date: 09/18/2015
 mtps_version: v=office.15

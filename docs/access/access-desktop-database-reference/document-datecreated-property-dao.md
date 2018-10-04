@@ -2,7 +2,7 @@
 title: Document.DateCreated Property (DAO)
 TOCTitle: DateCreated Property
 ms:assetid: e3b881df-1673-f584-bda5-5945b3081ac1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff835760(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff835760(v=office.15)
 ms:contentKeyID: 48548322
 ms.date: 09/18/2015
 mtps_version: v=office.15

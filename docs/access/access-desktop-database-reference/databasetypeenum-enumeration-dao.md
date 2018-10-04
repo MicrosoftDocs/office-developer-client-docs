@@ -2,7 +2,7 @@
 title: DatabaseTypeEnum Enumeration (DAO)
 TOCTitle: DatabaseTypeEnum Enumeration
 ms:assetid: a9bfc7cd-63d2-a012-bd3b-4cec072706c2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff821447(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff821447(v=office.15)
 ms:contentKeyID: 48546934
 ms.date: 09/18/2015
 mtps_version: v=office.15

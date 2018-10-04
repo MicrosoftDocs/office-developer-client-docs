@@ -2,7 +2,7 @@
 title: Making a Connection
 TOCTitle: Making a Connection
 ms:assetid: 188f6794-f4ec-8e8d-5adc-bdee36f4c9ae
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248932(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248932(v=office.15)
 ms:contentKeyID: 48543472
 ms.date: 09/18/2015
 mtps_version: v=office.15

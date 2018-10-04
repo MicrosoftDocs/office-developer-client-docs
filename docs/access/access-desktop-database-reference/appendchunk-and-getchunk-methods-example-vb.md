@@ -2,7 +2,7 @@
 title: AppendChunk and GetChunk Methods Example (VB)
 TOCTitle: AppendChunk and GetChunk Methods Example (VB)
 ms:assetid: 42b3ee69-f4c4-3533-59b1-d14cb3cc88d8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249196(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249196(v=office.15)
 ms:contentKeyID: 48544482
 ms.date: 09/18/2015
 mtps_version: v=office.15

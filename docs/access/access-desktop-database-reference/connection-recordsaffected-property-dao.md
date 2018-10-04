@@ -2,7 +2,7 @@
 title: Connection.RecordsAffected Property (DAO)
 TOCTitle: RecordsAffected Property
 ms:assetid: abce8e96-9ed4-b162-207f-52605d7af8ee
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff821486(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff821486(v=office.15)
 ms:contentKeyID: 48546983
 ms.date: 09/18/2015
 mtps_version: v=office.15

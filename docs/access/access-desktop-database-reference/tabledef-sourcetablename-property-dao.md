@@ -2,7 +2,7 @@
 title: TableDef.SourceTableName Property (DAO)
 TOCTitle: SourceTableName Property
 ms:assetid: 3c02f5f6-70ae-39ec-0984-8d6b81992418
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff192675(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff192675(v=office.15)
 ms:contentKeyID: 48544300
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -129,7 +129,7 @@ Sub ConnectX()
  Case 8 
  ConnectOutput dbsTemp, _ 
  "HTMLTable", _ 
- "HTML Import;DATABASE=http://" & _ 
+ "HTML Import;DATABASE=https://" & _ 
  "www.server1.com/samples/page1.html", _ 
  "Q1SalesData" 
  Case 9 

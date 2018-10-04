@@ -2,7 +2,7 @@
 title: ADOX API Reference Topics
 TOCTitle: ADOX API reference
 ms:assetid: fc30f950-3a05-4253-aa37-e5ba6b2cf59c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250292(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250292(v=office.15)
 ms:contentKeyID: 48548885
 ms.date: 09/18/2015
 mtps_version: v=office.15

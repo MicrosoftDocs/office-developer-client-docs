@@ -2,7 +2,7 @@
 title: Namespaces
 TOCTitle: Namespaces
 ms:assetid: e39f003c-3d16-1fae-48c5-304593c41f2f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250158(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250158(v=office.15)
 ms:contentKeyID: 48548318
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -49,7 +49,7 @@ The XML persistence format in ADO uses the following four namespaces.
 </table>
 
 
-A client should not add its own tags to these namespaces, as defined by the specification. For example, a client should not define a namespace as "urn:schemas-microsoft-com:rowset" and then write out something such as "rs:MyOwnTag." To learn more about namespaces, see [XML Namespaces](http://www.w3.org/tr/xml-names/).
+A client should not add its own tags to these namespaces, as defined by the specification. For example, a client should not define a namespace as "urn:schemas-microsoft-com:rowset" and then write out something such as "rs:MyOwnTag." To learn more about namespaces, see [XML Namespaces](https://www.w3.org/tr/xml-names/).
 
 
 > [!NOTE]
@@ -102,7 +102,7 @@ The XML persistence format in ADO uses the following four namespaces.
 </table>
 
 
-A client should not add its own tags to these namespaces, as defined by the specification. For example, a client should not define a namespace as "urn:schemas-microsoft-com:rowset" and then write out something such as "rs:MyOwnTag." To learn more about namespaces, see [XML Namespaces](http://www.w3.org/tr/xml-names/).
+A client should not add its own tags to these namespaces, as defined by the specification. For example, a client should not define a namespace as "urn:schemas-microsoft-com:rowset" and then write out something such as "rs:MyOwnTag." To learn more about namespaces, see [XML Namespaces](https://www.w3.org/tr/xml-names/).
 
 
 > [!NOTE]

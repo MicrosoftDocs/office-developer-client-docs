@@ -2,7 +2,7 @@
 title: Visual C++ Extensions Header
 TOCTitle: Visual C++ Extensions Header
 ms:assetid: 59fb9758-be43-051e-b3ae-6fdf50218057
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249308(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249308(v=office.15)
 ms:contentKeyID: 48545032
 ms.date: 09/18/2015
 mtps_version: v=office.15

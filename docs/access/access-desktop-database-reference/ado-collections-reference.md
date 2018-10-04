@@ -2,7 +2,7 @@
 title: ADO Collections Reference
 TOCTitle: ADO Collections
 ms:assetid: 40ff4d30-85de-4cc6-a3d0-e24a3c5c2c0d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249185(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249185(v=office.15)
 ms:contentKeyID: 48544441
 ms.date: 09/18/2015
 mtps_version: v=office.15

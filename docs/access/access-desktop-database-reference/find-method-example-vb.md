@@ -2,7 +2,7 @@
 title: Find Method Example (VB)
 TOCTitle: Find Method Example (VB)
 ms:assetid: 93fa7cab-e66d-7d9c-22bb-d73b44982649
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249657(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249657(v=office.15)
 ms:contentKeyID: 48546408
 ms.date: 09/18/2015
 mtps_version: v=office.15

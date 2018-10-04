@@ -2,7 +2,7 @@
 title: Microsoft OLE DB Remoting Provider (ADO Service Provider)
 TOCTitle: Microsoft OLE DB Remoting Provider (ADO Service Provider)
 ms:assetid: f39bd83d-8c2c-302e-16e3-0fae50f89fbc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250238(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250238(v=office.15)
 ms:contentKeyID: 48548673
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -156,7 +156,7 @@ cn.Properties("Internet Timeout") = 5000
 
 In ADO 2.0, the OLE DB Remoting Provider could only be specified in the *ActiveConnection* parameter of the [Recordset](recordset-object-ado.md) object **Open** method. Starting with ADO 2.1, the provider may also be specified in the *ConnectionString* parameter of the [Connection](connection-object-ado.md) object **Open** method.
 
-The equivalent of the **RDS.DataControl** object [SQL](https://msdn.microsoft.com/en-us/library/jj248989\(v=office.15\)) property is not available. The [Recordset](recordset-object-ado.md) object **Open** method *Source* argument is used instead.
+The equivalent of the **RDS.DataControl** object [SQL](https://msdn.microsoft.com/library/jj248989\(v=office.15\)) property is not available. The [Recordset](recordset-object-ado.md) object **Open** method *Source* argument is used instead.
 
 Specifying "...;Remote Provider=MS Remote;..." would create a four-tier scenario.Scenarios beyond three tiers have not been tested and should not be needed.
 
@@ -169,7 +169,7 @@ This example performs a query on the **authors** table of the **pubs** database 
 Dim rs as New ADODB.Recordset 
 Dim cn as New ADODB.Connection 
 cn.Open  "Provider=MS Remote;Data Source=pubs;" & _ 
-         "Remote Server=http://YourServer" 
+         "Remote Server=https://YourServer" 
 rs.Open "SELECT * FROM authors", cn 
 ...                'Edit the recordset 
 rs.UpdateBatch     'Equivalent of RDS SubmitChanges 

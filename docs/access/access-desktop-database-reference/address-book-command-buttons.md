@@ -2,7 +2,7 @@
 title: Address Book Command Buttons
 TOCTitle: Address Book Command Buttons
 ms:assetid: bcea6f53-3e36-b067-03c2-b157ed02d41d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249908(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249908(v=office.15)
 ms:contentKeyID: 48547422
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Error.Number Property (DAO)
 TOCTitle: Number Property
 ms:assetid: 2fb94dca-f990-04f8-bbd2-9919d28de75a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff192259(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff192259(v=office.15)
 ms:contentKeyID: 48544013
 ms.date: 09/18/2015
 mtps_version: v=office.15

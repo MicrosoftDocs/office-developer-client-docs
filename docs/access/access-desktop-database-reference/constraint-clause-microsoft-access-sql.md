@@ -2,7 +2,7 @@
 title: CONSTRAINT Clause (Microsoft Access SQL)
 TOCTitle: CONSTRAINT Clause (Microsoft Access SQL)
 ms:assetid: f8e89a91-a69e-1811-42a7-921692110bcb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff836971(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff836971(v=office.15)
 ms:contentKeyID: 48548797
 ms.date: 09/18/2015
 mtps_version: v=office.15

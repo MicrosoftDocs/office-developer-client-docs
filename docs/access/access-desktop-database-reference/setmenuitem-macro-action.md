@@ -2,7 +2,7 @@
 title: SetMenuItem Macro Action
 TOCTitle: SetMenuItem Macro Action
 ms:assetid: 503b3635-e721-1b99-3249-626e5dccdb8a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff193803(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff193803(v=office.15)
 ms:contentKeyID: 48544789
 ms.date: 09/18/2015
 mtps_version: v=office.15

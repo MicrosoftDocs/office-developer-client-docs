@@ -2,7 +2,7 @@
 title: Adding Records
 TOCTitle: Adding Records
 ms:assetid: 7a5b27bc-7b28-4f43-b55e-a21edfb9e1b3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249505(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249505(v=office.15)
 ms:contentKeyID: 48545791
 ms.date: 09/18/2015
 mtps_version: v=office.15

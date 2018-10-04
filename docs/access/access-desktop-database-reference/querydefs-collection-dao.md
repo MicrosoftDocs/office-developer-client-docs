@@ -2,7 +2,7 @@
 title: QueryDefs Collection (DAO)
 TOCTitle: QueryDefs Collection
 ms:assetid: 6178c3a6-8301-16bf-4657-0fb113de0a36
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff194892(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff194892(v=office.15)
 ms:contentKeyID: 48545215
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -136,7 +136,7 @@ This example uses the **CreateQueryDef** method to create and execute both a tem
 
 The following example shows how to execute a parameter query. The Parameters collection is used to set the Organization parameter of the myActionQuery query before the query is executed.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](http://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
+**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
 
     Public Sub ExecParameterQuery()
     

@@ -2,7 +2,7 @@
 title: Cell Object (ADO MD)
 TOCTitle: Cell Object (ADO MD)
 ms:assetid: b9d00b71-1f40-5bd1-4b89-fbdb59c552ba
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249892(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249892(v=office.15)
 ms:contentKeyID: 48547356
 ms.date: 09/18/2015
 mtps_version: v=office.15

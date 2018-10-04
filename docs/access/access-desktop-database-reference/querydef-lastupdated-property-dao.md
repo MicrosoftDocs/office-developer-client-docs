@@ -2,7 +2,7 @@
 title: QueryDef.LastUpdated Property (DAO)
 TOCTitle: LastUpdated Property
 ms:assetid: 3b7818d4-054e-54e2-bf63-58b340bb4a90
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff192665(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff192665(v=office.15)
 ms:contentKeyID: 48544287
 ms.date: 09/18/2015
 mtps_version: v=office.15

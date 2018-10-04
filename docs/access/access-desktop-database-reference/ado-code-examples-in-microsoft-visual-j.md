@@ -2,7 +2,7 @@
 title: ADO Code Examples in Microsoft Visual J++
 TOCTitle: ADO Code Examples in Microsoft Visual J++
 ms:assetid: c924a813-0375-3e8e-f9e3-ff5ca51db218
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249978(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249978(v=office.15)
 ms:contentKeyID: 48547670
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -123,9 +123,9 @@ Use the following code examples to learn how to use the ADO methods and properti
 
   - [StayInSync Property Example](stayinsync-property-example-vj.md)
 
-  - [Type Property Example (Fields)](https://msdn.microsoft.com/en-us/library/jj250207\(v=office.15\))
+  - [Type Property Example (Fields)](https://msdn.microsoft.com/library/jj250207\(v=office.15\))
 
-  - [Type Property Example (Property)](https://msdn.microsoft.com/en-us/library/jj249182\(v=office.15\))
+  - [Type Property Example (Property)](https://msdn.microsoft.com/library/jj249182\(v=office.15\))
 
   - [Value Property Example](value-property-example-vj.md)
 

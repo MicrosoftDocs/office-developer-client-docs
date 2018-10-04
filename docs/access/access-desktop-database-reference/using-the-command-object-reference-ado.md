@@ -2,7 +2,7 @@
 title: Using the Command Object Reference (ADO)
 TOCTitle: Using the Command Object
 ms:assetid: 9813dedd-a770-44e6-b42d-b1bde360e820
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249680(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249680(v=office.15)
 ms:contentKeyID: 48546481
 ms.date: 09/18/2015
 mtps_version: v=office.15

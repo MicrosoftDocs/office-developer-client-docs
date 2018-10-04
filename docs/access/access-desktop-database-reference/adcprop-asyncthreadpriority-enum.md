@@ -2,7 +2,7 @@
 title: ADCPROP_ASYNCTHREADPRIORITY_ENUM
 TOCTitle: ADCPROP_ASYNCTHREADPRIORITY_ENUM
 ms:assetid: b15006dd-22d5-fcf3-8196-9e24ea9d55a7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249844(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249844(v=office.15)
 ms:contentKeyID: 48547143
 ms.date: 09/18/2015
 mtps_version: v=office.15

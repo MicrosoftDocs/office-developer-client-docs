@@ -2,7 +2,7 @@
 title: Indexes Collection (DAO)
 TOCTitle: Indexes Collection
 ms:assetid: 26450e85-c79d-b12a-d760-dfc89c37f36c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff191889(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff191889(v=office.15)
 ms:contentKeyID: 48543802
 ms.date: 09/18/2015
 mtps_version: v=office.15

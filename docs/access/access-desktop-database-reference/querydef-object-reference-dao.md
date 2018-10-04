@@ -2,7 +2,7 @@
 title: QueryDef Object Reference (DAO)
 TOCTitle: QueryDef Object
 ms:assetid: 139071c2-94c4-4607-8a10-3c2ab39d04ef
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn123782(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn123782(v=office.15)
 ms:contentKeyID: 52071422
 ms.date: 09/18/2015
 mtps_version: v=office.15

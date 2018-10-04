@@ -2,7 +2,7 @@
 title: DBEngine.RegisterDatabase Method (DAO)
 TOCTitle: RegisterDatabase Method
 ms:assetid: ed87a694-2c89-0a78-5d8b-0cc7e09fadff
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff836347(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff836347(v=office.15)
 ms:contentKeyID: 48548541
 ms.date: 09/18/2015
 mtps_version: v=office.15

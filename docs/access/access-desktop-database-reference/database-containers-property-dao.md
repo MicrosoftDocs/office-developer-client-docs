@@ -2,7 +2,7 @@
 title: Database.Containers Property (DAO)
 TOCTitle: Containers Property
 ms:assetid: d6b13bae-461c-fe5e-692b-0e04fcd5df2a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff835049(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff835049(v=office.15)
 ms:contentKeyID: 48547988
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Configuring RDS
 TOCTitle: Configuring RDS
 ms:assetid: afd76de4-337b-5f6c-7d3e-af019802441d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249838(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249838(v=office.15)
 ms:contentKeyID: 48547106
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -17,7 +17,7 @@ To implement RDS efficiently, be sure you are familiar with the various configur
 
   - [Granting Guest Privileges to a Web Server Computer](granting-guest-privileges-to-a-web-server-computer;-rds-guest-privileges.md)
 
-  - [Registering a Custom Business Object](https://msdn.microsoft.com/en-us/library/ff836389\(v=office.15\))
+  - [Registering a Custom Business Object](https://msdn.microsoft.com/library/ff836389\(v=office.15\))
 
   - [Marking Business Objects as Safe for Scripting](marking-business-objects-as-safe-for-scripting.md)
 

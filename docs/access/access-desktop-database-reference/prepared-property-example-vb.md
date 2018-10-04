@@ -2,7 +2,7 @@
 title: Prepared Property Example (VB)
 TOCTitle: Prepared Property Example (VB)
 ms:assetid: d7332052-bf2e-f7d4-eb06-59ff8d68f812
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ250081(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250081(v=office.15)
 ms:contentKeyID: 48548000
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: Precision Property (ADOX)
 TOCTitle: Precision Property (ADOX)
 ms:assetid: 5d8ca497-572a-52e0-18aa-f82deaea0813
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249330(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249330(v=office.15)
 ms:contentKeyID: 48545117
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -17,7 +17,7 @@ Indicates the maximum precision of data values in the column.
 
 ## Settings and Return Values
 
-Sets and returns a **Long** value that is the maximum precision of data values in the column when the [Type](https://msdn.microsoft.com/en-us/library/jj249169\(v=office.15\)) property is a numeric type. **Precision** is ignored for all other data types.
+Sets and returns a **Long** value that is the maximum precision of data values in the column when the [Type](https://msdn.microsoft.com/library/jj249169\(v=office.15\)) property is a numeric type. **Precision** is ignored for all other data types.
 
 ## Remarks
 

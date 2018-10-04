@@ -2,7 +2,7 @@
 title: Field.Attributes Property (DAO)
 TOCTitle: Attributes Property
 ms:assetid: 8e6f6afb-1a89-7315-c129-cf7ff19e0ca9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff197380(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff197380(v=office.15)
 ms:contentKeyID: 48546287
 ms.date: 09/18/2015
 mtps_version: v=office.15

@@ -2,7 +2,7 @@
 title: SetPermissions Method (ADOX)
 TOCTitle: SetPermissions Method (ADOX)
 ms:assetid: 63d1053d-fb32-456b-ae67-3a4e45aa01af
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ249382(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249382(v=office.15)
 ms:contentKeyID: 48545274
 ms.date: 09/18/2015
 mtps_version: v=office.15

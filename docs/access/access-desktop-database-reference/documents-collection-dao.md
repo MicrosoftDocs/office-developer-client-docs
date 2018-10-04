@@ -2,7 +2,7 @@
 title: Documents Collection (DAO)
 TOCTitle: Documents Collection
 ms:assetid: ae2fef58-34e7-eea6-ca51-d3903432c7f5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff821742(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff821742(v=office.15)
 ms:contentKeyID: 48547063
 ms.date: 09/18/2015
 mtps_version: v=office.15

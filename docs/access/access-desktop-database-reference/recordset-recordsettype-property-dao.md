@@ -2,7 +2,7 @@
 title: Recordset.RecordsetType Property (DAO)
 TOCTitle: RecordsetType Property
 ms:assetid: a66d4043-08cc-ead1-f9ff-efc7d7ea21bf
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff821178(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff821178(v=office.15)
 ms:contentKeyID: 48546853
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -128,7 +128,7 @@ In the following example, only if the user ID is ADMIN can records be updated. T
 
 #### Other resources
 
-[Form Object](https://msdn.microsoft.com/en-us/library/ff195841\(v=office.15\))
+[Form Object](https://msdn.microsoft.com/library/ff195841\(v=office.15\))
 
-[Form Object Members](https://msdn.microsoft.com/en-us/library/ff835672\(v=office.15\))
+[Form Object Members](https://msdn.microsoft.com/library/ff835672\(v=office.15\))
 

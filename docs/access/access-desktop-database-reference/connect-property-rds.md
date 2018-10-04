@@ -2,7 +2,7 @@
 title: Connect Property (RDS)
 TOCTitle: Connect Property (RDS)
 ms:assetid: 11aa3284-18e9-6d2d-761b-c25090370b77
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248890(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248890(v=office.15)
 ms:contentKeyID: 48543324
 ms.date: 09/18/2015
 mtps_version: v=office.15

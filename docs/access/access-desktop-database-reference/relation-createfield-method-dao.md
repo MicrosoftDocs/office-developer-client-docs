@@ -2,7 +2,7 @@
 title: Relation.CreateField Method (DAO)
 TOCTitle: CreateField Method
 ms:assetid: bc60c91e-acef-1c90-7303-12f77cce15b8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff822717(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff822717(v=office.15)
 ms:contentKeyID: 48547411
 ms.date: 09/18/2015
 mtps_version: v=office.15

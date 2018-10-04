@@ -2,7 +2,7 @@
 title: View Properties, Methods, and Events (ADOX)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 1c2cd5af-e471-5e71-6eb0-cdb8b46315c1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ248960(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248960(v=office.15)
 ms:contentKeyID: 48543563
 ms.date: 09/18/2015
 mtps_version: v=office.15

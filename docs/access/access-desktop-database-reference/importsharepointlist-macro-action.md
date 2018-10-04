@@ -2,7 +2,7 @@
 title: ImportSharePointList Macro Action
 TOCTitle: ImportSharePointList Macro Action
 ms:assetid: 6a633d7d-d81d-0e2e-6c1c-706a552c1bf2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff195403(v=office.15)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff195403(v=office.15)
 ms:contentKeyID: 48545429
 ms.date: 09/18/2015
 mtps_version: v=office.15
@@ -94,7 +94,7 @@ The **ImportSharePointList** action has the following arguments.
     
     3.  Click the **View** drop-down arrow and then select **Modify this View**.The address in the browser's address bar contains the GUIDs for both the list and the view. The GUID for the list follows **List=**, and the GUID for the view follows **View=**. However, in the address, each **{** (left brace) character is represented by the string **%7B**, each **-** (hyphen) character is represented by the string **%2D**, and each **}** (right brace) character is represented by the string **%7D**. For example:
         
-            http://MySite12/_layouts/ViewEdit.aspx?List=%7B2A82A404%2D5529%2D47DC%2DAE13%2DAC1D9BC0A84F%7D&View=%7B357B4FE6%2D44CF%2D4275%2DB91F%2D46558301579B%7D
+            https://MySite12/_layouts/ViewEdit.aspx?List=%7B2A82A404%2D5529%2D47DC%2DAE13%2DAC1D9BC0A84F%7D&View=%7B357B4FE6%2D44CF%2D4275%2DB91F%2D46558301579B%7D
         
         Before you can use the GUIDs from the address as arguments in this macro action, you must replace each **%7B** string with the **{** character, replace each **%2D** string with the **-** character, and replace each **%7D** string with the **}** character. Do not include the **&** (ampersand) character that follows the **%7D** string in the list GUID.
 
