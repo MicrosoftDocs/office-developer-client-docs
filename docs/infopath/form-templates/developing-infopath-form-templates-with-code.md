@@ -42,11 +42,11 @@ The topics in this section provide information about creating form templates tha
     
 ## Related sections
 
-[InfoPath Developer Portal](http://go.microsoft.com/fwlink?LinkID=11689)
+[InfoPath Developer Portal](https://go.microsoft.com/fwlink?LinkID=11689)
   
 > Contains links to technical articles, code samples, downloads, support, and other MSDN documentation on building custom InfoPath solutions.
     
-[Microsoft Office Developer Center](http://go.microsoft.com/fwlink?LinkID=27128)
+[Microsoft Office Developer Center](https://go.microsoft.com/fwlink?LinkID=27128)
   
 > Contains links to technical articles, code samples, downloads, support, and other MSDN documentation on building custom Office solutions.
     

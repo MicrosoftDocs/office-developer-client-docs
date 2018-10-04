@@ -66,7 +66,7 @@ typedef struct {
     
 ## Remarks
 
-An Entry ID is a 4-byte MAPI entry identifier for a folder or a message. For more information, see [ENTRYID](http://msdn.microsoft.com/en-us/library/ms836424).
+An Entry ID is a 4-byte MAPI entry identifier for a folder or a message. For more information, see [ENTRYID](https://msdn.microsoft.com/library/ms836424).
   
 When a PST store provider assigns an Entry ID to a new object, it first needs a GUID that identifies the server, and an index that identifies the object in the store. Even though the GUID is not unique across all Entry IDs, the GUID and the index combined provide a unique entry. This GUID and index pair is tracked by a long-term ID structure, **LTID**, which is part of the **OLFI** structure. 
   

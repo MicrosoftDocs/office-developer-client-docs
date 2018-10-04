@@ -24,7 +24,7 @@ MAPI calls a method in your provider object to begin the logon process by using 
     
 Perform the following tasks in whatever logon method you implement:
   
-1. Increment the reference count on the support object that is passed as an input parameter by calling its [IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) method. 
+1. Increment the reference count on the support object that is passed as an input parameter by calling its [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) method. 
     
 2. Call the support object's [IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md) method to access your profile section. 
     

@@ -68,13 +68,13 @@ Perform the following tasks in your implementation of **ShutdownForm**:
   
 1. Check that a viewer has not already called **ShutdownForm**, and return E_UNEXPECTED if it has. Although this is unlikely, you should check.
     
-2. Call your form's [IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28VS.85%29.aspx) method so that storage for the form and any internal data structures remain available until processing is finished. 
+2. Call your form's [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) method so that storage for the form and any internal data structures remain available until processing is finished. 
     
 3. Determine whether there are any unsaved changes to the form's data. Save unsaved data according to how the  _ulSaveOptions_ parameter is set by calling your viewer's [IMAPIMessageSite::SaveMessage](imapimessagesite-savemessage.md) method. 
     
 4. Destroy your form's user interface window.
     
-5. Release your form's message and message site objects by calling their [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) methods. 
+5. Release your form's message and message site objects by calling their [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) methods. 
     
 6. Notify all registered viewers of the pending shutdown by calling their [IMAPIViewAdviseSink::OnShutdown](imapiviewadvisesink-onshutdown.md) methods. 
     
@@ -87,7 +87,7 @@ Perform the following tasks in your implementation of **ShutdownForm**:
 10. Return S_OK.
     
 > [!NOTE]
-> After these actions have been completed, the only valid methods on the form object that may be called are those from the [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx) interface. 
+> After these actions have been completed, the only valid methods on the form object that may be called are those from the [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) interface. 
   
 ## Notes to callers
 

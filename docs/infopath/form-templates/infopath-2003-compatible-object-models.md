@@ -24,7 +24,7 @@ The files for the three interop assemblies installed by InfoPath are named:
     
 This topic discusses the object model exposed through the Microsoft.Office.Interop.InfoPath.SemiTrust interop assembly, which is used exclusively for writing and running managed-code business logic from within InfoPath form templates (.xsn). 
   
-For information about the Microsoft.Office.Interop.InfoPath and Microsoft.Office.Interop.InfoPath.Xml assemblies, see the documentation for the [Microsoft.Office.Interop.InfoPath](https://msdn.microsoft.com/en-us/library/microsoft.office.interop.infopath.aspx) and [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/en-us/library/microsoft.office.interop.infopath.xml) namespaces. 
+For information about the Microsoft.Office.Interop.InfoPath and Microsoft.Office.Interop.InfoPath.Xml assemblies, see the documentation for the [Microsoft.Office.Interop.InfoPath](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.aspx) and [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.xml) namespaces. 
   
 ## Important installation information
 
@@ -32,7 +32,7 @@ By default, the **Typical** installation option of the InfoPath setup program in
   
 If these assemblies are not installed, you should confirm that Microsoft InfoPath was installed correctly. As long as the .NET Framework 2.0 or later is installed before running setup, the **.NET Programmability Support** option in the InfoPath setup program is set to **Run from My Computer** for a **Typical** installation of InfoPath. If these interop assemblies are not available on your computer, you must confirm that the .NET Framework 2.0 or later is installed, and then run **Add or Remove Programs** from the **Control Panel** and set the **.NET Programmability Support** option to **Run from My Computer**.
   
-For information on downloading the .NET Framework 2.0 Redistributable, see [.NET Framework 2.0 Redistributable. ](http://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=0856eacb-4362-4b0d-8edd-aab15c5e04f5)
+For information on downloading the .NET Framework 2.0 Redistributable, see [.NET Framework 2.0 Redistributable. ](https://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=0856eacb-4362-4b0d-8edd-aab15c5e04f5)
   
 ## The Microsoft.Office.Interop.InfoPath.SemiTrust namespace
 

@@ -34,13 +34,13 @@ The **Format** function contains the following arguments.
 
 For the  *Format*  parameter, you can pass strings that match any of the following patterns: 
   
-- [Standard Numeric Format Strings](http://msdn.microsoft.com/en-us/library/dwhawy9k%28v=vs.110%29.aspx)
+- [Standard Numeric Format Strings](https://msdn.microsoft.com/library/dwhawy9k%28v=vs.110%29.aspx)
     
-- [Custom Numeric Format Strings](http://msdn.microsoft.com/en-us/library/0c899ak8%28v=vs.110%29.aspx)
+- [Custom Numeric Format Strings](https://msdn.microsoft.com/library/0c899ak8%28v=vs.110%29.aspx)
     
-- [Standard Date and Time Format Strings](http://msdn.microsoft.com/en-us/library/az4se3k1%28v=vs.110%29.aspx)
+- [Standard Date and Time Format Strings](https://msdn.microsoft.com/library/az4se3k1%28v=vs.110%29.aspx)
     
-- [Custom Date and Time Format Strings](http://msdn.microsoft.com/en-us/library/8kb3ddd4%28v=vs.110%29.aspx)
+- [Custom Date and Time Format Strings](https://msdn.microsoft.com/library/8kb3ddd4%28v=vs.110%29.aspx)
     
 You cannot use the **Format** function in the following areas of Access 2013 web apps: 
   

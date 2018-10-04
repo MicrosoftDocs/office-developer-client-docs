@@ -35,6 +35,6 @@ SHADE(** *color* **, ** *int* ** )
 
 The upper and lower limits of luminosity are 0 and 240 respectively. There is no limit on the size of the integer you can pass for the  _int_ parameter, but luminosity never exceeds these limits. 
   
-![](media/image199_ZA10173627.gif)
+![Upper and lower limits of luminosity](media/image199_ZA10173627.gif)
   
 

@@ -18,7 +18,7 @@ You can greatly enhance the functionality of your InfoPath forms by extending th
   
 You can start programming and deploying your InfoPath forms with managed code in three high-level steps:
   
-1. Install Visual Studio 2012 with the [Microsoft Visual Studio Tools for Applications 2012](http://www.microsoft.com/en-us/download/details.aspx?id=38807) add-on. 
+1. Install Visual Studio 2012 with the [Microsoft Visual Studio Tools for Applications 2012](https://www.microsoft.com/en-us/download/details.aspx?id=38807) add-on. 
     
 2. Set your programming language, and then write and debug code in the Visual Studio 2012 code editor.
     

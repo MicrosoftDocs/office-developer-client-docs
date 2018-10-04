@@ -323,8 +323,8 @@ For more information about how canonical properties relate to MAPI properties, s
 |DRMLicense  <br/> |[PidNameRightsManagementLicense](pidnamerightsmanagementlicense-canonical-property.md) <br/> |
 |EditTime  <br/> |[PidNameEditTime](pidnameedittime-canonical-property.md) <br/> |
 |HiddenCount  <br/> |[PidNameHiddenCount](pidnamehiddencount-canonical-property.md) <br/> |
-|http://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |[PidNameExchangeJunkEmailMoveStamp](pidnameexchangejunkemailmovestamp-canonical-property.md) <br/> |
-|http://schemas.microsoft.com/outlook/phishingstamp  <br/> |[PidNameOutlookPhishingstamp](pidnamephishingstamp-canonical-property.md) <br/> |
+|https://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |[PidNameExchangeJunkEmailMoveStamp](pidnameexchangejunkemailmovestamp-canonical-property.md) <br/> |
+|https://schemas.microsoft.com/outlook/phishingstamp  <br/> |[PidNameOutlookPhishingstamp](pidnamephishingstamp-canonical-property.md) <br/> |
 |Keywords  <br/> |[PidNameKeywords](pidnamekeywords-canonical-property.md) <br/> |
 |LastAuthor  <br/> |[PidNameLastAuthor](pidnamelastauthor-canonical-property.md) <br/> |
 |LastPrinted  <br/> |[PidNameLastPrinted](pidnamelastprinted-canonical-property.md) <br/> |

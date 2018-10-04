@@ -34,13 +34,13 @@ You can view a ShapeSheet window and a drawing window simultaneously and see the
 
 A ShapeSheet is divided into  *sections*  that control a particular aspect of a shape's behavior or appearance, for example, its geometry or its formatting. Each section contains one or more  *rows*  that contain  *cells*  . Each cell can contain a formula, its result (commonly called the cell value), and optional error information. A formula may be required or optional, depending on the particular cell. A cell's data (for example, its formula or value) may be locally defined or, more often, inherited from the equivalent cell in the shape's master or style. 
   
-The following example shows the formula bar ![Number 1](media/callout1_ZA01036259.gif), a section ![Number 2](media/callout2_ZA01036260.gif), a cell ![Number 3](media/callout3_ZA01036261.gif), and a row ![Number 4](media/callout4_ZA01036262.gif) in the ShapeSheet window. 
+The following example shows the formula bar ![formula bar](media/callout1_ZA01036259.gif), a section ![section](media/callout2_ZA01036260.gif), a cell ![cell](media/callout3_ZA01036261.gif), and a row ![row](media/callout4_ZA01036262.gif) in the ShapeSheet window. 
   
-![](media/ShpSheetRef_CA_02a_ZA07645861.gif)
+![ShapeSheet window](media/ShpSheetRef_CA_02a_ZA07645861.gif)
   
 When you draw a shape, Visio records the shape as a collection of horizontal and vertical locations connected with line segments. These locations (called vertices) are recorded in the X and Y cells of the shape's **Geometry** section. As shown in the following example, when you click the X and Y cells in the **Geometry** section of a shape's ShapeSheet window, you will see a black-bordered box highlighting the vertex on the shape in the drawing window. 
   
-![](media/ShpSheetRef_CA_01_ZA07645860.gif)
+![Black-bordered box highlighting the vertex on the shape in the drawing window](media/ShpSheetRef_CA_01_ZA07645860.gif)
   
 ## Editing an object in the ShapeSheet window
 

@@ -9,12 +9,12 @@ ms.topic: reference
  
 localization_priority: Normal
 ms.assetid: fb478151-4afc-9a06-42a2-1defa54a3c4a
-description: "This document is providedas-is. Information and views expressed in this document, including URL and other Internet Web site references, may change without notice. You bear the risk of using it."
+description: "This document is providedas-is. Information and views expressed in this document, including URL and other Internet website references, may change without notice. You bear the risk of using it."
 ---
 
 # Visio SDK copyright notice
 
-This document is provided "as-is". Information and views expressed in this document, including URL and other Internet Web site references, may change without notice. You bear the risk of using it. 
+This document is provided "as-is". Information and views expressed in this document, including URL and other Internet website references, may change without notice. You bear the risk of using it. 
   
 Some examples depicted herein are provided for illustration only and are fictitious. No real association or connection is intended or should be inferred.
   

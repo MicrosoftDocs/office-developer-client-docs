@@ -42,7 +42,7 @@ Enables form servers to receive notifications from form viewers.
    
 ## Remarks
 
-Form servers use a form advise sink object to implement **IMAPIFormAdviseSink** instead of including it with their form object. Therefore, form viewers should expect a failed call to a form's [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx) method to obtain a pointer to this interface. 
+Form servers use a form advise sink object to implement **IMAPIFormAdviseSink** instead of including it with their form object. Therefore, form viewers should expect a failed call to a form's [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) method to obtain a pointer to this interface. 
   
 Form servers call a viewer's [IMAPIViewContext::SetAdviseSink](imapiviewcontext-setadvisesink.md) method to register for notifications. A pointer to their **IMAPIFormAdviseSink** implementation is included as a parameter. 
   

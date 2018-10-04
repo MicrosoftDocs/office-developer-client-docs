@@ -140,7 +140,7 @@ BOOL TLS_Action(DWORD DllMainCallReason)
 }
 ```
 
-After you obtain the index, the next step is to allocate a block of memory for each thread. The [Windows Development Documentation](http://msdn.microsoft.com/en-us/library/ms682583%28VS.85%29.aspx) recommends doing this every time the **DllMain** callback function is called with a **DLL_THREAD_ATTACH** event, and freeing the memory on every **DLL_THREAD_DETACH**. However, following this advice would cause your DLL to do unnecessary work for threads not used for recalculation. 
+After you obtain the index, the next step is to allocate a block of memory for each thread. The [Windows Development Documentation](https://msdn.microsoft.com/library/ms682583%28VS.85%29.aspx) recommends doing this every time the **DllMain** callback function is called with a **DLL_THREAD_ATTACH** event, and freeing the memory on every **DLL_THREAD_DETACH**. However, following this advice would cause your DLL to do unnecessary work for threads not used for recalculation. 
   
 Instead, it is better to use an allocate-on-first-use strategy. First, you need to define a structure that you want to allocate for each thread. For the previous examples that return **XLOPERs** or **XLOPER12s**, the following suffices, but you can create any structure that satisfies your needs.
   

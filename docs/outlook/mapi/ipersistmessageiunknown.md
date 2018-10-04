@@ -50,7 +50,7 @@ Enables form viewers to handle the storage of a form and to transition between t
 
 All forms are required to implement the **IPersistMessage** interface. 
   
- **IPersistMessage** works similarly to the OLE [IPersistStorage](http://msdn.microsoft.com/library/1c1a20fc-c101-4cbc-a7a6-30613aa387d7%28Office.15%29.aspx) interface. For more information, see the **IPersistStorage** methods. 
+ **IPersistMessage** works similarly to the OLE [IPersistStorage](https://msdn.microsoft.com/library/1c1a20fc-c101-4cbc-a7a6-30613aa387d7%28Office.15%29.aspx) interface. For more information, see the **IPersistStorage** methods. 
   
 ## See also
 

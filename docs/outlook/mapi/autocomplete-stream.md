@@ -68,7 +68,7 @@ Extra information (EI bytes)
   
 Metadata (8 bytes)
   
-For an example of a binary structure, see Binary Example in the [Outlook 2003/2007 NK2 File Format and Developer Guidelines.](http://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf)
+For an example of a binary structure, see Binary Example in the [Outlook 2003/2007 NK2 File Format and Developer Guidelines.](https://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf)
   
 ## High-level Layout
 
@@ -195,7 +195,7 @@ PT_MV_UNICODE (Outlook 2007, Outlook 2010, Outlook 2013)
    
 ## Significant properties
 
-As mentioned previously in this topic, the binary blocks that represent properties have property tags that correspond to properties on address book recipients. For properties that are not listed here, you can look up the property description at http://msdn.microsoft.com/en-us/library/cc433490(EXCHG.80).aspx.
+As mentioned previously in this topic, the binary blocks that represent properties have property tags that correspond to properties on address book recipients. For properties that are not listed here, you can look up the property description at https://msdn.microsoft.com/library/cc433490(EXCHG.80).aspx.
   
 |**Property Name**|**Property Tag**|**Description (see MSDN for more information)**|
 |:-----|:-----|:-----|

@@ -36,21 +36,21 @@ Indicates whether future instances of recurring tasks need reminders, even thoug
 
 This value is set to TRUE when the task's reminder is dismissed, and set to FALSE otherwise. If left unset, a default of FALSE is assumed.
   
-As specified in [[MS-OXORMDR]](http://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx), the **dispidReminderSet** property indicates whether a reminder is set on the task. However, this property only indicates the presence of a reminder on a single task. It cannot be used alone to determine whether a future instance of a recurring task needs a reminder. 
+As specified in [[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx), the **dispidReminderSet** property indicates whether a reminder is set on the task. However, this property only indicates the presence of a reminder on a single task. It cannot be used alone to determine whether a future instance of a recurring task needs a reminder. 
   
 ## Related resources
 
 ### Protocol specifications
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Provides property set definitions and references to related Exchange Server protocol specifications.
     
-[[MS-OXOTASK]](http://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
 > Defines several objects that model the electronic equivalent of tasks, task assignments, and task updates.
     
-[[MS-OXORMDR]](http://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
+[[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
 > Specifies the properties and the interaction model for email and other object reminders.
     

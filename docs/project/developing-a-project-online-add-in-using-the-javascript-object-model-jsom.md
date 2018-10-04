@@ -32,7 +32,7 @@ Project Online performs one more action to protect information that belongs to o
 The development setup for Project Online add-ins uses the Visual Studio SharePoint Add-in project type. The add-in is written in JavaScript, and uses the Project JavaScript object model (JSOM) to interact with the Project Online service. The JSOM inherits much of its functionality from the SharePoint JSOM.
   
 > [!NOTE]
-> Add-ins can be published and sold in the Office Store or deployed to a private app catalog on SharePoint. For more information, see [Deploy and publish your Office Add-in](https://docs.microsoft.com/en-us/office/dev/add-ins/publish/publish).
+> Add-ins can be published and sold in the Office Store or deployed to a private app catalog on SharePoint. For more information, see [Deploy and publish your Office Add-in](https://docs.microsoft.com/office/dev/add-ins/publish/publish).
 > 
 > The add-in used in this article is a sample for developers; it is not intended for use in a production environment. The primary purpose is to show an example of app development for Project Online. 
   
@@ -40,7 +40,7 @@ The development setup for Project Online add-ins uses the Visual Studio SharePoi
 
 Add the following items to a supported Windows environment:
   
-- **.NET Framework 4.0 or later**: Complete versions of the framework from version 4.0 are compatible. The download site is https://msdn.microsoft.com/en-us/vstudio/aa496123.aspx.
+- **.NET Framework 4.0 or later**: Complete versions of the framework from version 4.0 are compatible. The download site is https://msdn.microsoft.com/vstudio/aa496123.aspx.
     
 - **Visual Studio 2013 or later**:  
     
@@ -87,7 +87,7 @@ The Visual Studio Wizard asks a few follow-up questions about the Project Online
     
 2. How do you want to host your SharePoint Add-in? Choose [X] **SharePoint-hosted**.
     
-   For more information about SharePoint Add-ins, including hosting options, see [SharePoint Add-ins](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/sharepoint-add-ins).
+   For more information about SharePoint Add-ins, including hosting options, see [SharePoint Add-ins](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/sharepoint-add-ins).
     
 3. Click **Next**. 
     
@@ -138,7 +138,7 @@ The add-in project consists of many files. In this example, you'll need to edit 
     
 If the Project Online tenant changes, such as moving from a trial to a subscription site, you can update the project properties, including the Server Connection and Site URL, using the Properties Window available through the **View** > **Properties Window** command. 
   
-You can also add files to the project. If so, you'll need to update the Elements.xml file located in the same group (Content, Images, Pages, or Scripts) to include the new files. For more information about the project files, see [Explore the app manifest structure and the package of a SharePoint Add-in](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/explore-the-app-manifest-structure-and-the-package-of-a-sharepoint-add-in).
+You can also add files to the project. If so, you'll need to update the Elements.xml file located in the same group (Content, Images, Pages, or Scripts) to include the new files. For more information about the project files, see [Explore the app manifest structure and the package of a SharePoint Add-in](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/explore-the-app-manifest-structure-and-the-package-of-a-sharepoint-add-in).
   
 ### Set application scope
 

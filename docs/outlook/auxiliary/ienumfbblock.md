@@ -16,7 +16,7 @@ Supports accessing and enumerating free/busy blocks of data for a user within a 
 
 |||
 |:-----|:-----|
-|Inherits from:  <br/> |[IUnknown](http://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) <br/> |
+|Inherits from:  <br/> |[IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) <br/> |
 |Provided by:  <br/> |Free/busy provider  <br/> |
 |Interface identifier:  <br/> |**IEnumFBBlock** <br/> |
    

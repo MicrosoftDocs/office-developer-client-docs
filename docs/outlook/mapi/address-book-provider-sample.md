@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 This sample supports a single read-only container for display names and email addresses, which are read from a flat binary file. The sample supports one-off templates and all configuration options except the Profile Wizard.
   
-You can download this sample from [Outlook Messaging API (MAPI) Code Samples](http://go.microsoft.com/fwlink/?LinkId=129740
+You can download this sample from [Outlook Messaging API (MAPI) Code Samples](https://go.microsoft.com/fwlink/?LinkId=129740
 ).
   
 |||

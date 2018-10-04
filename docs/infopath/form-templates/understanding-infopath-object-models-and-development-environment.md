@@ -84,14 +84,14 @@ The classes and members of this object model are exposed through the [Microsoft.
 
 In addition to writing business logic with managed code, developers can automate InfoPath by using managed code running in an external application. This functionality and the assemblies required for writing code were introduced in InfoPath 2003 Service Pack 1. The objects and members for automating InfoPath have been updated to provide additional functionality when you write external automation code for InfoPath 2013.
   
-The classes and members used for external automation are exposed through the [Microsoft.Office.Interop.InfoPath](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.aspx) and [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/en-us/library/microsoft.office.interop.infopath.xml) namespaces. The assembly files that are required for writing automation code are located in the C:\Program Files\Microsoft Office\Office14 folder. 
+The classes and members used for external automation are exposed through the [Microsoft.Office.Interop.InfoPath](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.aspx) and [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.xml) namespaces. The assembly files that are required for writing automation code are located in the C:\Program Files\Microsoft Office\Office14 folder. 
   
 |**Assembly**|**Description**|
 |:-----|:-----|
 |Microsoft.Office.Interop.InfoPath.dll  <br/> |Provides COM interop against the InfoPath COM object model for external automation code written using C# or Visual Basic.  <br/> |
 |Microsoft.Office.Interop.InfoPath.Xml.dll  <br/> |Provides COM interop against the MSXML for XML DOM operations in external automation code written using C# or Visual Basic.  <br/> |
    
-For more information about the object models provided by the **Microsoft.Office.Interop.InfoPath** and **Microsoft.Office.Interop.InfoPath.Xml** namespaces, which are used exclusively to automate the InfoPath application by using managed code from external applications, see the [InfoPath Developer Center](http://msdn.microsoft.com/en-us/office/aa905434.aspx).
+For more information about the object models provided by the **Microsoft.Office.Interop.InfoPath** and **Microsoft.Office.Interop.InfoPath.Xml** namespaces, which are used exclusively to automate the InfoPath application by using managed code from external applications, see the [InfoPath Developer Center](https://msdn.microsoft.com/office/aa905434.aspx).
   
 ### The InfoPath Forms Services Object Model
 

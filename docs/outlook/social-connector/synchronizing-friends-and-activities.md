@@ -20,7 +20,7 @@ The Outlook People Pane displays information about a person who can be a sender 
   
 For the Contact Card or People Pane to display current information for the selected person, the OSC synchronizes such information through the OSC providers and some form of caching. This synchronization depends on the OSC providers that are installed on the client computer, the social networks that you have logged onto through their OSC providers, and the synchronization mode that each of the OSC providers for these social networks supports.
   
-The OSC supports synchronizing friends, non-friends, and activities for friends and non-friends in different ways: cached synchronization, on-demand synchronization, and hybrid synchronization. The main difference among these modes of synchronization is where the OSC stores the data—whether it is in a folder in the user's default Outlook store, or in memory on the user's computer. In each case as noted in this topic, there is a default minimum time that the data remains in the folder or memory before the data is refreshed. In some cases, the minimum amount of time can be customized by group policy. For more information about group policies that control the behavior of the OSC, see [How to manage the Outlook Social Connector by using Group Policy](http://support.microsoft.com/default.aspx?scid=kb%3Ben-US%3B2020103).
+The OSC supports synchronizing friends, non-friends, and activities for friends and non-friends in different ways: cached synchronization, on-demand synchronization, and hybrid synchronization. The main difference among these modes of synchronization is where the OSC stores the data—whether it is in a folder in the user's default Outlook store, or in memory on the user's computer. In each case as noted in this topic, there is a default minimum time that the data remains in the folder or memory before the data is refreshed. In some cases, the minimum amount of time can be customized by group policy. For more information about group policies that control the behavior of the OSC, see [How to manage the Outlook Social Connector by using Group Policy](https://support.microsoft.com/default.aspx?scid=kb%3Ben-US%3B2020103).
   
 Note that if the selected person is not a member of the social network, the OSC does not display any person or activity information for that person in the Contact Card or People Pane.
   
@@ -135,5 +135,5 @@ The following information applies to the Windows registry values listed in the t
 - [Capabilities XML Example](capabilities-xml-example.md)  
 - [XML for Capabilities](xml-for-capabilities.md)
 - [Developing a Provider with the OSC XML Schema](developing-a-provider-with-the-osc-xml-schema.md)  
-- [How to manage the Outlook Social Connector by using Group Policy](http://support.microsoft.com/default.aspx?scid=kb%3Ben-US%3B2020103)
+- [How to manage the Outlook Social Connector by using Group Policy](https://support.microsoft.com/default.aspx?scid=kb%3Ben-US%3B2020103)
 

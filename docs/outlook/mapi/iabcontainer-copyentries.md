@@ -89,7 +89,7 @@ The **IABContainer::CopyEntries** method copies entries from the same container 
     
 4. The new entry's [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method to perform a save. 
     
-5. The new entry's [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28VS.85%29.aspx) method to release the container's reference. 
+5. The new entry's [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28VS.85%29.aspx) method to release the container's reference. 
     
 ## Notes to implementers
 

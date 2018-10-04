@@ -32,7 +32,7 @@ A remote viewer is a window in a client application that provides controlled acc
     
 5. Pass the entry identifier for each row in the table in a call to [IMAPISession::OpenEntry](imapisession-openentry.md). Because this interface is marshaled from the MAPI spooler's process context to the client's process context — unlike interfaces typically obtained from address book or message store providers — issues concerning multithreading are of more importance. 
     
-6. Call the status object's [IUnknown::QueryInterface](http://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d.aspx) method, passing IID_IMAPIFolder as the interface identifier, to retrieve the remote folder. The remote folder is not a complete folder implementation; it supports only a subset of folder methods and properties. One of the required methods, [IMAPIProp::GetProps](imapiprop-getprops.md), supports the retrieval of the following properties:
+6. Call the status object's [IUnknown::QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d.aspx) method, passing IID_IMAPIFolder as the interface identifier, to retrieve the remote folder. The remote folder is not a complete folder implementation; it supports only a subset of folder methods and properties. One of the required methods, [IMAPIProp::GetProps](imapiprop-getprops.md), supports the retrieval of the following properties:
     
     |||
     |:-----|:-----|

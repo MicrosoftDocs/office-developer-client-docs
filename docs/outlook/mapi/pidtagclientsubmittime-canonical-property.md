@@ -39,7 +39,7 @@ The store provider sets **PR_CLIENT_SUBMIT_TIME** to the time that the client ap
 
 ### Protocol specifications
 
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Handles message and attachment objects.
     

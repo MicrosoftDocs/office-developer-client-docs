@@ -109,11 +109,11 @@ To access message attachments, open the **PR_ATTACH_DATA_OBJ** ([PidTagAttachDat
 |Message  <br/> |IID_IMessage  <br/> |
 |OLE 2.0  <br/> |IID_IStreamDocfile  <br/> |
    
-**IStreamDocfile** is a derivative of the [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) interface that is based on an OLE 2.0 compound file. **IStreamDocfile** is the best choice for accessing OLE 2.0 attachments because it involves the least amount of overhead. You can use IID_IStreamDocFile for those properties that contain data stored in structured storage available through the [IStorage](http://msdn.microsoft.com/en-us/library/aa380015%28VS.85%29.aspx) interface. 
+**IStreamDocfile** is a derivative of the [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) interface that is based on an OLE 2.0 compound file. **IStreamDocfile** is the best choice for accessing OLE 2.0 attachments because it involves the least amount of overhead. You can use IID_IStreamDocFile for those properties that contain data stored in structured storage available through the [IStorage](https://msdn.microsoft.com/library/aa380015%28VS.85%29.aspx) interface. 
   
 For more information about how to use **OpenProperty** with attachments, see the **PR_ATTACH_DATA_OBJ** property and [Opening an Attachment](opening-an-attachment.md).
   
-Do not use the **IStream** pointer that you receive to call either its [Seek](http://msdn.microsoft.com/en-us/library/aa380043%28v=VS.85%29.aspx) or [SetSize](http://msdn.microsoft.com/en-us/library/aa380044%28v=VS.85%29.aspx) method unless you use a zero position or size variable. Also, do not rely on the value of the  _plibNewPosition_ output parameter returned from the **Seek** call. 
+Do not use the **IStream** pointer that you receive to call either its [Seek](https://msdn.microsoft.com/library/aa380043%28v=VS.85%29.aspx) or [SetSize](https://msdn.microsoft.com/library/aa380044%28v=VS.85%29.aspx) method unless you use a zero position or size variable. Also, do not rely on the value of the  _plibNewPosition_ output parameter returned from the **Seek** call. 
   
 If you call **OpenProperty** to access a property with the **IStream** interface, use only that interface to make changes to it. Do not attempt to update the property with any of the other [IMAPIProp : IUnknown](imapipropiunknown.md) methods, such as **SetProps** or [IMAPIProp::DeleteProps](imapiprop-deleteprops.md). 
   
@@ -121,7 +121,7 @@ Do not try to open a property with **OpenProperty** more than once. The results 
   
 If you need to modify the property to be opened, set the MAPI_MODIFY flag. If you are not sure whether the object supports the property but you think it should, set the MAPI_CREATE and MAPI_MODIFY flags. Whenever MAPI_CREATE is set, MAPI_MODIFY must also be set.
   
-You are responsible for recasting the interface pointer returned in the  _lppUnk_ parameter to one that is appropriate for the interface specified in the  _lpiid_ parameter. You must also use the returned pointer to call its [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) method when you are finished with it. 
+You are responsible for recasting the interface pointer returned in the  _lppUnk_ parameter to one that is appropriate for the interface specified in the  _lpiid_ parameter. You must also use the returned pointer to call its [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) method when you are finished with it. 
   
 Sometimes setting the flags in the  _ulFlags_ parameter is not enough to indicate the type of access to the property that is required. You can put additional data, such as flags, in the  _ulInterfaceOptions_ parameter. This data is interface dependent. Some interfaces (such as **IStream**) use it, and others do not. For example, when you open a property to be modified with **IStream**, set the STGM_WRITE flag in the  _ulInterfaceOptions_ parameter in addition to MAPI_MODIFY. When you open a table by using the [IMAPITable](imapitableiunknown.md) interface, you can set  _ulInterfaceOptions_ to MAPI_UNICODE to indicate whether the columns in the table that hold string properties should be in Unicode format. 
   

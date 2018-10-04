@@ -21,7 +21,7 @@ The Post Office Protocol (POP) provider for Outlook allows users to retrieve and
   
 To get the messages download history for an Inbox:
   
-- Follow the steps in [Locating the message download history for a POP3 account](locating-the-message-download-history-for-a-pop3-account.md) to find the [PidTagAttachDataBinary](http://msdn.microsoft.com/library/3b0a8b28-863e-4b96-a4c0-fdb8f40555b9%28Office.15%29.aspx) property, which contains a binary large object (BLOB) that represents the message history for a POP3 account. 
+- Follow the steps in [Locating the message download history for a POP3 account](locating-the-message-download-history-for-a-pop3-account.md) to find the [PidTagAttachDataBinary](https://msdn.microsoft.com/library/3b0a8b28-863e-4b96-a4c0-fdb8f40555b9%28Office.15%29.aspx) property, which contains a binary large object (BLOB) that represents the message history for a POP3 account. 
     
 - Read this topic, which describes the structure of the BLOB, and shows an example BLOB to identify messages that have been downloaded or deleted for the Inbox of the POP3 account.
 
@@ -86,6 +86,6 @@ You can similarly parse the remaining 22 resource tags for that BLOB.
 
 - [Managing message downloads for POP3 accounts](managing-message-downloads-for-pop3-accounts.md)    
 - [Locating the message download history for a POP3 account](locating-the-message-download-history-for-a-pop3-account.md)    
-- [Parsing the POP3 UIDL History](http://blogs.msdn.com/b/stephen_griffin/archive/2012/12/04/parsing-the-pop3-uidl-history.aspx)
+- [Parsing the POP3 UIDL History](https://blogs.msdn.com/b/stephen_griffin/archive/2012/12/04/parsing-the-pop3-uidl-history.aspx)
     
 

@@ -22,7 +22,7 @@ Welcome to the Excel 2013 XLL Software Development Kit (SDK) documentation. This
   
 Revised: November 2012
   
-Download the [Excel 2013 XLL SDK](http://go.microsoft.com/fwlink/?LinkID=251082&amp;clcid=0x409).
+Download the [Excel 2013 XLL SDK](https://go.microsoft.com/fwlink/?LinkID=251082&amp;clcid=0x409).
   
 The Excel 2013 XLL SDK includes the following:
   
@@ -52,10 +52,10 @@ The following subjects are not covered:
     
 ## Related Links
 
-[Excel Developer Center](http://msdn.microsoft.com/en-us/office/aa905411.aspx)
+[Excel Developer Center](https://msdn.microsoft.com/office/aa905411.aspx)
   
-[Microsoft Office Developer Center](http://msdn.microsoft.com/en-us/office/default.aspx)
+[Microsoft Office Developer Center](https://msdn.microsoft.com/office/default.aspx)
   
-[Excel 2010 SDK: Excel 2010 XLL Software Development Kit](http://go.microsoft.com/fwlink/?LinkID=186435&amp;clcid=0x409)
+[Excel 2010 SDK: Excel 2010 XLL Software Development Kit](https://go.microsoft.com/fwlink/?LinkID=186435&amp;clcid=0x409)
   
 

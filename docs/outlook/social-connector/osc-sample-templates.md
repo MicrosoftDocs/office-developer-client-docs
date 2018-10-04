@@ -12,7 +12,7 @@ description: "Accompanying the Outlook Social Connector 2013 Provider Reference 
 
 # OSC sample templates
 
-Accompanying the Outlook Social Connector 2013 Provider Reference are several provider templates in C++, C#, and Visual Basic. You can download the templates at [Outlook Social Connector 2013: Provider templates](http://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c).
+Accompanying the Outlook Social Connector 2013 Provider Reference are several provider templates in C++, C#, and Visual Basic. You can download the templates at [Outlook Social Connector 2013: Provider templates](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c).
   
 The provider templates are available for use when you build a provider in the language of your choice. To minimize the download size of the provider and to minimize provider load time, you should build a production provider by using C++. If you are developing a provider for users who have .NET Framework 3.5 SP1 or a later version of .NET Framework installed on their computers, you can also consider writing a managed provider using C# or Visual Basic.
   

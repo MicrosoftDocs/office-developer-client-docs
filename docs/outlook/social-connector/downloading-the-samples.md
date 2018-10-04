@@ -16,7 +16,7 @@ This topic describes how to download the code samples that accompany this docume
   
 ### To download the sample code installation package
 
-1. Download the OSCProviderSamples.zip file from [Outlook Social Connector 2013: Provider templates](http://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c).
+1. Download the OSCProviderSamples.zip file from [Outlook Social Connector 2013: Provider templates](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c).
     
 2. Extract the .zip file into the folder of your choice. In Windows 7, the default path for Visual Studio 2010 is C:\Users\ _user_\Documents\Visual Studio 2010\Projects.
     

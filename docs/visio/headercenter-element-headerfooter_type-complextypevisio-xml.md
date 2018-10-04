@@ -21,7 +21,7 @@ Contains the text string that appears in the center portion of a document's head
 |||
 |:-----|:-----|
 |**Element type** <br/> |[HeaderCenter_Type](headercenter_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |document.xml  <br/> |
    

@@ -20,17 +20,17 @@ description: "This topic contains tables of error codes for the Project Server I
 
 This topic contains tables of error codes for the Project Server Interface (PSI) in Project Server 2013. The tables are arranged by functional area and by error code range.
    
-Project Server 2013 processes and PSI methods have error code numbers that are generally arranged by functional area. The [Microsoft.Office.Project.Server.Library.PSErrorID](https://msdn.microsoft.com/en-us/library/microsoft.office.project.server.library.pserrorid_di_pj14mref(v=office.14).aspx) enumeration is duplicated in [WebSvcProject.PSErrorID](https://msdn.microsoft.com/en-us/library/office/websvcproject.pserrorid_di_pj14mref.aspx); they list the error codes in alphabetical order by name. This topic lists the error codes in tables that are arranged by the PSI class or functional area and by the error identifier (ID) number. 
+Project Server 2013 processes and PSI methods have error code numbers that are generally arranged by functional area. The [Microsoft.Office.Project.Server.Library.PSErrorID](https://msdn.microsoft.com/library/microsoft.office.project.server.library.pserrorid_di_pj14mref(v=office.14).aspx) enumeration is duplicated in [WebSvcProject.PSErrorID](https://msdn.microsoft.com/library/office/websvcproject.pserrorid_di_pj14mref.aspx); they list the error codes in alphabetical order by name. This topic lists the error codes in tables that are arranged by the PSI class or functional area and by the error identifier (ID) number. 
   
 > [!NOTE]
 >  Many of the error codes are general and can have multiple possible causes. For more information about errors, you can do the following: 
 > - For ASMX-based applications, use **System.Web.Services.Protocols.SoapException** with the **PSClientError** object to show a list or hierarchy of errors in a PSI method call. See [Error Code Example for ASMX](#pj15_ErrorCodes_ASMXExample). 
 > - For WCF-based applications, you can use **System.ServiceModel.FaultException** to get a **PSClientError** object and also to get additional error information. See [Error Code Example for WCF](#pj15_ErrorCodes_WCFExample). 
 > - Use the application event log on the Project Server computer.
-> - Use the Unified Logging Service (ULS) trace logs. For an explanation, see the *Checking Errors* section in [Getting Started with Development for Project 2010](http://msdn.microsoft.com/en-us/library/gg607685.aspx). 
-> - For more information about using ULS logs, see the Project Support blog article [Project Server 2010: What to Expect when you get the Unexpected](http://blogs.msdn.com/b/brismith/archive/2010/03/24/project-server-2010-what-to-expect-when-you-get-the-unexpected.aspx), and search the blog for "reading ULS logs." 
-> - To help find or watch for specific issues in ULS data, use the [ULS Viewer](http://www.codeproject.com/Articles/458052/ULS-Log-Viewer). 
-> - Use the Microsoft SQL Server Profiler to help catch or monitor database errors. For more information, see [SQL Server Profiler](http://msdn.microsoft.com/library/3ad5f33d-559e-41a4-bde6-bb98792f7f1a.aspx). 
+> - Use the Unified Logging Service (ULS) trace logs. For an explanation, see the *Checking Errors* section in [Getting Started with Development for Project 2010](https://msdn.microsoft.com/library/gg607685.aspx). 
+> - For more information about using ULS logs, see the Project Support blog article [Project Server 2010: What to Expect when you get the Unexpected](https://blogs.msdn.com/b/brismith/archive/2010/03/24/project-server-2010-what-to-expect-when-you-get-the-unexpected.aspx), and search the blog for "reading ULS logs." 
+> - To help find or watch for specific issues in ULS data, use the [ULS Viewer](https://www.codeproject.com/Articles/458052/ULS-Log-Viewer). 
+> - Use the Microsoft SQL Server Profiler to help catch or monitor database errors. For more information, see [SQL Server Profiler](https://msdn.microsoft.com/library/3ad5f33d-559e-41a4-bde6-bb98792f7f1a.aspx). 
 > - Many of the error codes are used only internally. For example, because the **ExchangeSync** and **PWA** web services are not supported for third-party development, you are not likely to see error codes from methods in those areas, such as the **Rules** and **StatusReports** methods. However, tables in this article include all Project Server error codes for completeness. 
   
 ## Table 1. Error code functional areas and related number ranges
@@ -1605,8 +1605,8 @@ CustomFieldRequiredValueNotProvided
 ## See also
 
 - [Project conceptual and how-to articles](project-conceptual-and-how-to-articles.md)
-- [SQL Server Profiler](http://msdn.microsoft.com/library/3ad5f33d-559e-41a4-bde6-bb98792f7f1a.aspx)
-- [Project Server 2010: What to Expect when you get the Unexpected](http://blogs.msdn.com/b/brismith/archive/2010/03/24/project-server-2010-what-to-expect-when-you-get-the-unexpected.aspx)
-- [ULS Viewer](http://www.codeproject.com/Articles/458052/ULS-Log-Viewer)
+- [SQL Server Profiler](https://msdn.microsoft.com/library/3ad5f33d-559e-41a4-bde6-bb98792f7f1a.aspx)
+- [Project Server 2010: What to Expect when you get the Unexpected](https://blogs.msdn.com/b/brismith/archive/2010/03/24/project-server-2010-what-to-expect-when-you-get-the-unexpected.aspx)
+- [ULS Viewer](https://www.codeproject.com/Articles/458052/ULS-Log-Viewer)
     
 

@@ -32,7 +32,7 @@ By default, Outlook uses weather data provided by MSN Weather. The Weather Bar s
 
 A user can specify a different weather data service for the Weather Bar, as long as that weather data service implements a web service that supports the following protocol to communicate with Outlook:
   
-1. The weather data service supports a base URL to a web service. For example, a Contoso Weather web service can have a base URL of http://service.contoso.com/data.aspx.
+1. The weather data service supports a base URL to a web service. For example, a Contoso Weather web service can have a base URL of https://service.contoso.com/data.aspx.
     
 2. The web service allows Outlook to append the following parameters to the base URL, to request a location code: 
     
@@ -40,7 +40,7 @@ A user can specify a different weather data service for the Weather Bar, as long
     
    - weasearchstr= _city_: This parameter indicates the location,  _city_, for which the user wants a weather forecast (for example, London).
     
-   - culture= _LCID_: This parameter indicates the culture of the version of Office installed for the user on that computer. The LCID value is defined in [[RFC4646] Tags for Identifying Languages](http://www.ietf.org/rfc/rfc4646.txt)
+   - culture= _LCID_: This parameter indicates the culture of the version of Office installed for the user on that computer. The LCID value is defined in [[RFC4646] Tags for Identifying Languages](https://www.ietf.org/rfc/rfc4646.txt)
     
    - src=outlook: This parameter indicates that Outlook is the client application requesting the service.
     
@@ -56,7 +56,7 @@ A user can specify a different weather data service for the Weather Bar, as long
     
    - weadegreetype= _degreetype_: This parameter specifies whether to use metric or imperial units of measurement for temperature. Specify c for metric, f for imperial for  _degreetype_. This parameter is optional and does not always exist in the web service request.
     
-   - culture= _LCID_: This parameter indicates the culture of the version of Office installed for the user on that computer. The LCID value is defined in [[RFC4646] Tags for Identifying Languages](http://www.ietf.org/rfc/rfc4646.txt)
+   - culture= _LCID_: This parameter indicates the culture of the version of Office installed for the user on that computer. The LCID value is defined in [[RFC4646] Tags for Identifying Languages](https://www.ietf.org/rfc/rfc4646.txt)
     
    - src=outlook: This parameter indicates that Outlook is the client application requesting the service.
     
@@ -69,7 +69,7 @@ A user can specify a different weather data service for the Weather Bar, as long
 ## Setting the Weather Bar to use a weather service
 <a name="ol15_weatherbar_setting"> </a>
 
-The administrator or power user can use the **WeatherServiceUrl** registry key to customize the Weather Bar to use a specific weather service. For example, if the base URL for a Contoso weather service is http://service.contoso.com/data.aspx, you can set the **WeatherServiceUrl** key to that URL. 
+The administrator or power user can use the **WeatherServiceUrl** registry key to customize the Weather Bar to use a specific weather service. For example, if the base URL for a Contoso weather service is https://service.contoso.com/data.aspx, you can set the **WeatherServiceUrl** key to that URL. 
   
 The following table describes the **WeatherServiceUrl** key. 
   
@@ -129,17 +129,17 @@ This section shows an example of a Contoso Weather service that follows the prec
 
 Contoso Weather provides the following base URL for their weather data service:
   
-http://service.contoso.com/data.aspx
+https://service.contoso.com/data.aspx
   
 ### Getting a location code
 
 Outlook appends the parameters described in Step 2 above to the base URL to obtain the location code for a geographic location  _city_:
   
-http://service.contoso.com/data.aspx?outputview=search&amp;weasearchstr= _city_
+https://service.contoso.com/data.aspx?outputview=search&amp;weasearchstr= _city_
   
 As an example, if the user has selected Tokyo in the Weather Bar, Outlook uses the following URL to obtain the location code for Tokyo from Contoso Weather: 
   
-http://weather.service.contoso.com/data.aspx?outputview=search&amp;weasearchstr=tokyo
+https://weather.service.contoso.com/data.aspx?outputview=search&amp;weasearchstr=tokyo
   
 Contoso Weather responds with the following XML to provide the location code for Tokyo. The XML conforms to the Outlook Weather Location XML Schema. Note that it is common for weather services to return data for more than one location (for example, if the selected location is a greater metropolitan area). In this example, the response for Tokyo includes two locations, each enclosed in a [weather](weather-element-weatherdata-elementoutlook-weather-location-schema.md) element. The corresponding location codes are as follows: 
   
@@ -164,11 +164,11 @@ Contoso Weather responds with the following XML to provide the location code for
 
 After obtaining the location code for a location, Outlook appends the parameters described in Step 3 above to the base URL to obtain weather information for that location code.
   
-http://service.contoso.com/data.aspx?wealocations= _code_
+https://service.contoso.com/data.aspx?wealocations= _code_
   
 As an example, if Outlook has obtained the location code wc:JAXX0085 from Contoso Weather for Tokyo, Outlook uses this location code in the following URL to get the weather information.
   
-http://service.contoso.com/data.aspx?wealocations=wc:JAXX0085
+https://service.contoso.com/data.aspx?wealocations=wc:JAXX0085
   
 Contoso Weather responds with the following XML to provide the weather information for the location code for Tokyo. The XML conforms to the Outlook Weather Information XML Schema.
   
@@ -176,8 +176,8 @@ Contoso Weather responds with the following XML to provide the weather informati
 <?xml version="1.0"?>
 <weatherdata>
   <weather timezone="9" attribution="Data provided by Trey Research" 
-    degreetype="F" imagerelativeurl="http://contoso.com/images/en-us/" 
-    url="http://contoso.com/weather.aspx?eid=33568&amp;q=Tokyo-JPN" 
+    degreetype="F" imagerelativeurl="https://contoso.com/images/en-us/" 
+    url="https://contoso.com/weather.aspx?eid=33568&amp;q=Tokyo-JPN" 
     weatherlocationname="Tokyo, JPN" 
     weatherlocationcode="wc:JAXX0085">
       <current winddisplay="9 mph NNW" windspeed="9" humidity="90" feelslike="44" 

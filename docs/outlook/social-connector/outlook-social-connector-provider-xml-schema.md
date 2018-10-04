@@ -12,7 +12,7 @@ description: "All XML that is returned by OSC providers in OSC provider extensib
 
 # Outlook Social Connector provider XML schema
 
-All XML that is returned by OSC providers in OSC provider extensibility methods must comply with the following OSC provider XML schema. The OSC schema is reproduced here in its entirety. The current schema definition file, OutlookSocialProvider1_1.xsd, is also provided in the download for the provider templates that accompany this article. For more information, see [Outlook Social Connector 2013: Provider templates](http://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c). 
+All XML that is returned by OSC providers in OSC provider extensibility methods must comply with the following OSC provider XML schema. The OSC schema is reproduced here in its entirety. The current schema definition file, OutlookSocialProvider1_1.xsd, is also provided in the download for the provider templates that accompany this article. For more information, see [Outlook Social Connector 2013: Provider templates](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c). 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -22,9 +22,9 @@ All XML that is returned by OSC providers in OSC provider extensibility methods 
     All Rights Reserved
 -->
 <xs:schema
-    xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    targetNamespace="http://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd"
-    xmlns="http://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd"
+    xmlns:xs="https://www.w3.org/2001/XMLSchema"
+    targetNamespace="https://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd"
+    xmlns="https://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd"
     elementFormDefault="qualified">
   <!-- Root element for the activity feed -->
   <xs:element name="activityFeed" type="activityFeedType" />

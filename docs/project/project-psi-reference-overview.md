@@ -48,11 +48,11 @@ description: "The Project Server Interface (PSI) is the API to use for developin
 
 The Project Server Interface (PSI) is the API to use for developing applications that integrate with Project Server 2013 on-premises.
   
-This article is an overview of the documented assemblies, namespaces, and services in the PSI. The [Project Server 2013 class library and web service reference](http://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx) in the SDK contains all of the managed code documentation for the PSI and the [Microsoft.ProjectServer.Client](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.aspx) namespace in Project Server 2013. To develop applications for Project Online, you must use the **Microsoft.ProjectServer.Client** namespace instead of the PSI. 
+This article is an overview of the documented assemblies, namespaces, and services in the PSI. The [Project Server 2013 class library and web service reference](https://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx) in the SDK contains all of the managed code documentation for the PSI and the [Microsoft.ProjectServer.Client](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.aspx) namespace in Project Server 2013. To develop applications for Project Online, you must use the **Microsoft.ProjectServer.Client** namespace instead of the PSI. 
 
-The PSI in Project Server 2013 has a dual interface. The ASMX interface for web services is defined by discovery and Web Service Description Language (disco and WSDL) files in the  `http://ServerName/ProjectServerName/_vti_bin/psi/` virtual directory (for example, Projectdisco.aspx and Projectwsdl.aspx). You can access the ASMX interface only through the URL of an on-premises installation of Project Web App (for example,  `http://ServerName/ProjectServerName/_vti_bin/psi/project.asmx?wsdl)`. To show the web service in a browser, you must include the  `?wsdl` URL option. Because the ASMX interface is built using the Windows Communication Foundation (WCF) infrastructure, the .asmx files for Project Server web services do not actually exist in the virtual PSI directory. 
+The PSI in Project Server 2013 has a dual interface. The ASMX interface for web services is defined by discovery and Web Service Description Language (disco and WSDL) files in the  `https://ServerName/ProjectServerName/_vti_bin/psi/` virtual directory (for example, Projectdisco.aspx and Projectwsdl.aspx). You can access the ASMX interface only through the URL of an on-premises installation of Project Web App (for example,  `https://ServerName/ProjectServerName/_vti_bin/psi/project.asmx?wsdl)`. To show the web service in a browser, you must include the  `?wsdl` URL option. Because the ASMX interface is built using the Windows Communication Foundation (WCF) infrastructure, the .asmx files for Project Server web services do not actually exist in the virtual PSI directory. 
   
-The WCF services interface is defined by .svc files in the back-end  `http://ServerName:32843/GUID/PSI/` virtual directory in the SharePoint Web Services application. The URL of PSI services in the Project Service Application virtual directory (for example,  `http://ServerName:32843/GUID/PSI/project.svc`) includes the .svc files. But, you cannot directly use the back-end URL to set a WCF service reference. To develop an application or component that uses the WCF services of the PSI, you can use a proxy assembly or a proxy file. The Project 2013 SDK download includes proxy files for the WCF services in Project Server 2013, and scripts to get updated WCF proxy files and to compile the files into a proxy assembly for more recent Project Server builds.
+The WCF services interface is defined by .svc files in the back-end  `https://ServerName:32843/GUID/PSI/` virtual directory in the SharePoint Web Services application. The URL of PSI services in the Project Service Application virtual directory (for example,  `https://ServerName:32843/GUID/PSI/project.svc`) includes the .svc files. But, you cannot directly use the back-end URL to set a WCF service reference. To develop an application or component that uses the WCF services of the PSI, you can use a proxy assembly or a proxy file. The Project 2013 SDK download includes proxy files for the WCF services in Project Server 2013, and scripts to get updated WCF proxy files and to compile the files into a proxy assembly for more recent Project Server builds.
   
 The Project Service Application directory name is a GUID value, which is the same as the GUID of the on-premises Project Web App instance. In the **Internet Information Services (IIS) Manager** window, expand the **SharePoint Web Services** node, choose the GUID directory name, and then choose **Advanced Settings** to copy the **Virtual Path** value. 
   
@@ -68,13 +68,13 @@ For developing applications that use the WCF interface, you can use Visual Studi
 ### Using the PSI reference
 <a name="pj15_PSIRefOverview_Using"> </a>
 
-The PSI object model is large, and many classes and members are for internal use only. As a result, it can be confusing to find the topics that you want in the [Project Server 2013 class library and web service reference](http://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx). Most of the reference topics that you will use for development are in the following groups:
+The PSI object model is large, and many classes and members are for internal use only. As a result, it can be confusing to find the topics that you want in the [Project Server 2013 class library and web service reference](https://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx). Most of the reference topics that you will use for development are in the following groups:
   
 - **Primary class methods:** Each service in the PSI includes a primary class that is named for the name of the service. For example, the **Resource** service contains the [Resource](https://msdn.microsoft.com/library/WebSvcResource.Resource.aspx) class, which is in the [WebSvcResource](https://msdn.microsoft.com/library/WebSvcResource.aspx) namespace. To see a list of the methods that are available in the **Resource** class, expand the class node in the content pane, and then choose the **Resource Methods** topic. 
     
 - **DataRow properties:** Many of the primary class methods use or return a **DataSet**. Each **DataTable** object in a **DataSet** contains data in one or more **DataRow** objects. In most cases, you need to see only the row properties, not all of the other members of the **DataSet**, **DataTable**, or **DataRow** classes. For example, the **ResourceAssignmentDataSet** class includes subclasses for the **ResourceAssignmentDataTable** and the [ResourceAssignmentDataSet.ResourceAssignmentRow](https://msdn.microsoft.com/library/WebSvcResource.ResourceAssignmentDataSet.ResourceAssignmentRow.aspx) class. To see a list of properties that are in the **ResourceAssignmentRow** class, expand the class node in the content pane, and then choose the **ResourceAssignmentDataSet.ResourceAssignmentRow Properties** topic. 
     
-In addition to the service namespaces, the [Project Server 2013 class library and web service reference](http://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx) topic links to the three Project Server assemblies that are used in development of third-party solutions for on-premises installations. We provide only minimal documentation for these assemblies. The PSI reference documents the main classes and members in the 23 public services. Six PSI services are for internal use only, and are not documented. 
+In addition to the service namespaces, the [Project Server 2013 class library and web service reference](https://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx) topic links to the three Project Server assemblies that are used in development of third-party solutions for on-premises installations. We provide only minimal documentation for these assemblies. The PSI reference documents the main classes and members in the 23 public services. Six PSI services are for internal use only, and are not documented. 
   
 > [!NOTE]
 > Classes in the client-side object model (CSOM) can be used independently from the other Project Server assemblies and services. You can use the **Microsoft.ProjectServer.Client** namespace in a remote development environment from the Project Server computer, and develop apps that integrate with Project Online or with an on-premises installation of Project Server. But, the CSOM contains a subset of the functionality of the complete PSI. The CSOM enables development of the most common scenarios for Project Server integration. For more information, see [What the CSOM does and does not do](what-the-csom-does-and-does-not-do.md) and [Microsoft.ProjectServer.Client](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.aspx) . 
@@ -85,7 +85,7 @@ For development of most applications that use the PSI, you do not have to develo
 - Microsoft.Office.Project.Server.Library.dll
 - Microsoft.Office.Project.Server.Workflow.dll
     
-Namespaces for the PSI services have arbitrary names created for a PSI proxy assembly, ProjectServerServices.dll, which is generated for the purpose of documentation. In the PSI reference, each service namespace has a placeholder name (such as  _[Project web service]_) and a web reference (such as  `http://ServerName/ProjectServerName/_vti_bin/psi/Project.asmx?wsdl`). 
+Namespaces for the PSI services have arbitrary names created for a PSI proxy assembly, ProjectServerServices.dll, which is generated for the purpose of documentation. In the PSI reference, each service namespace has a placeholder name (such as  _[Project web service]_) and a web reference (such as  `https://ServerName/ProjectServerName/_vti_bin/psi/Project.asmx?wsdl`). 
   
 ## Project Server assemblies and namespaces
 <a name="pj15_PSIRefOverview_Assemblies"> </a>
@@ -97,7 +97,7 @@ Many assemblies are installed when you install Project Server; only four of the 
   
 When developing for Project Online, you can use only the CSOM to access Project Server functionality. You do not have access to the PSI services or the other Project Server assemblies.
   
-The [Project Server 2013 class library and web service reference](http://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx) for the PSI includes namespaces from the following assemblies: 
+The [Project Server 2013 class library and web service reference](https://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx) for the PSI includes namespaces from the following assemblies: 
   
 - **Microsoft.Office.Project.Server.Library.dll** This assembly contains one documented namespace and three undocumented namespaces, as follows: 
     
@@ -244,7 +244,7 @@ The following are all of the classes that contain web methods in the PSI service
   
 15. **OData** Provides the internal **OData** interface for the reporting tables and views. Access to the **OData** service is available only through the back-end **ProjectServiceApplication** URL. The private **OData** service in the PSI provides one method, **ODataClient.ProcessOdataMessage**, which Project Server uses internally to process requests for reporting data. The HTTP requests go through the front-end **ProjectData** service. 
     
-    For information about the **ProjectData** service and the OData protocol to read reporting data, see [ProjectData - Project OData service reference](https://msdn.microsoft.com/en-us/library/office/jj163015.aspx).
+    For information about the **ProjectData** service and the OData protocol to read reporting data, see [ProjectData - Project OData service reference](https://msdn.microsoft.com/library/office/jj163015.aspx).
     
 16. **P12Upgrade** Provides internal methods for the Project Server 2013 installer to upgrade an Office Project Server 2007 installation. Access to the **P12Upgrade** service is available only through the **ProjectServiceApplication** URL. The **P12Upgrade** methods are not supported for third-party development. 
     
@@ -303,6 +303,6 @@ When you are navigating the namespaces and classes of the PSI reference, for exa
 - [What the PSI does and does not do](what-the-psi-does-and-does-not-do.md)   
 - [Prerequisites for ASMX-based code samples in Project](prerequisites-for-asmx-based-code-samples-in-project.md)   
 - [Prerequisites for WCF-based code samples in Project](prerequisites-for-wcf-based-code-samples-in-project.md)   
-- [.NET Framework Developer Center](http://msdn.microsoft.com/en-us/netframework/aa496123.aspx)
+- [.NET Framework Developer Center](https://msdn.microsoft.com/netframework/aa496123.aspx)
     
 

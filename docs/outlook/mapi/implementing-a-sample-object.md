@@ -14,7 +14,7 @@ description: "Last modified: July 23, 2011"
 
 **Applies to**: Outlook 2013 | Outlook 2016 
   
-Advise sink objects — objects that support the [IMAPIAdviseSink : IUnknown](imapiadvisesinkiunknown.md) interface — are MAPI objects that client applications implement for processing notifications. **IMAPIAdviseSink** inherits directly from [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx) and contains only one method, **OnNotify**. Therefore, to implement an advise sink object, a client creates code for the three methods in **IUnknown** and for [OnNotify](imapiadvisesink-onnotify.md).
+Advise sink objects — objects that support the [IMAPIAdviseSink : IUnknown](imapiadvisesinkiunknown.md) interface — are MAPI objects that client applications implement for processing notifications. **IMAPIAdviseSink** inherits directly from [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) and contains only one method, **OnNotify**. Therefore, to implement an advise sink object, a client creates code for the three methods in **IUnknown** and for [OnNotify](imapiadvisesink-onnotify.md).
   
 The Mapidefs.h header file defines an **IMAPIAdviseSink** interface implementation by using **DECLARE_MAPI_INTERFACE**, as follows:
   
@@ -31,7 +31,7 @@ DECLARE_MAPI_INTERFACE_(IMAPIAdviseSink, IUnknown)
 
 Clients that implement advise sink objects can define their interfaces in their objects manually or with the **MAPI_IUNKNOWN_METHODS** and **MAPI_IMAPIADVISESINK_METHODS** macros. Object implementers should use the interface macros whenever possible to ensure consistency across objects and to save time and effort. 
   
-Implementing the [IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) and [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) methods is relatively simple because typically only a few lines of code are needed. Therefore, clients and service providers that implement objects can make their **AddRef** and **Release** implementations inline. The following code shows how to define a C++ advise sink object with inline implementations of **AddRef** and **Release**.
+Implementing the [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) and [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) methods is relatively simple because typically only a few lines of code are needed. Therefore, clients and service providers that implement objects can make their **AddRef** and **Release** implementations inline. The following code shows how to define a C++ advise sink object with inline implementations of **AddRef** and **Release**.
   
 ```cpp
 class  CMAPIAdviseSink : public IMAPIAdviseSink

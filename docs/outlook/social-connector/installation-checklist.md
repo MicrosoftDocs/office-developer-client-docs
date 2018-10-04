@@ -23,15 +23,15 @@ Users should install OSC providers only if a supporting version of Outlook is pr
 - Verify whether the OSC is installed.
     
 > [!NOTE]
-> Click-to-Run is a virtual environment in which Outlook 2010 (32-bit) or Outlook 2013 (32-bit) can run. For Outlook 2013, verify if the VirtualOutlook key exists in HKEY_LOCAL_MACHINE\Software\Microsoft\Office\15.0\Common\InstallRoot\Virtual\VirtualOutlook of the Windows registry. For more information about delivering Outlook as a Click-to-Run product on a client computer, see [How to Verify if Outlook is Available on a Computer as a Click-to-Run Product](http://blogs.msdn.com/b/officedevdocs/archive/2010/03/09/how-to-verify-if-outlook-is-available-on-a-computer-as-a-click-to-run-product.aspx). 
+> Click-to-Run is a virtual environment in which Outlook 2010 (32-bit) or Outlook 2013 (32-bit) can run. For Outlook 2013, verify if the VirtualOutlook key exists in HKEY_LOCAL_MACHINE\Software\Microsoft\Office\15.0\Common\InstallRoot\Virtual\VirtualOutlook of the Windows registry. For more information about delivering Outlook as a Click-to-Run product on a client computer, see [How to Verify if Outlook is Available on a Computer as a Click-to-Run Product](https://blogs.msdn.com/b/officedevdocs/archive/2010/03/09/how-to-verify-if-outlook-is-available-on-a-computer-as-a-click-to-run-product.aspx). 
   
 The user, however, has to ensure that the OSC is enabled before installing the provider.
   
-Third parties, including OSC providers, cannot redistribute the OSC. However, if the OSC is not installed, the provider installer can use appropriate g-links to install the OSC on the client computer. A g-link is a specially constructed URL on http://g.live.com that forwards a user to a corresponding webpage to download the OSC. An OSC g-link is formatted as http://g.live.com/0CR _LCID_/ _Glink_, where  _LCID_ and  _Glink_ specify the locale, version, and bitness of Outlook on the client computer. Each g-link points to an executable and is specific to the specified  _LCID_ and  _Glink_ values. 
+Third parties, including OSC providers, cannot redistribute the OSC. However, if the OSC is not installed, the provider installer can use appropriate g-links to install the OSC on the client computer. A g-link is a specially constructed URL on https://g.live.com that forwards a user to a corresponding webpage to download the OSC. An OSC g-link is formatted as https://g.live.com/0CR _LCID_/ _Glink_, where  _LCID_ and  _Glink_ specify the locale, version, and bitness of Outlook on the client computer. Each g-link points to an executable and is specific to the specified  _LCID_ and  _Glink_ values. 
   
 For example, the g-link to install the latest version of the OSC for Outlook 2003 or Outlook 2007 for the LCID 1033 (US English) is as follows:
   
-http://g.live.com/0CR1033/80
+https://g.live.com/0CR1033/80
   
 For details about  _Glink_ values for different versions and bitness of Outlook, and  _LCID_ values for supported locales, see #7 in the section [Installation Checklist](#olosc_InstallationOverview_InstallationChecklist) below. 
 
@@ -47,7 +47,7 @@ The provider setup package should perform a series of installation checks, as sh
   
 The following procedure describes the installation checks outlined in Figure 1.
   
-1. As a prerequisite, detect whether Outlook is installed or present, and if installed or present, determine whether the version of Outlook supports the OSC. For more information about detecting the installed version of Outlook, see [Check the Version of Outlook](http://msdn.microsoft.com/library/672fc380-a29b-4e99-9211-949fd5065723%28Office.15%29.aspx).
+1. As a prerequisite, detect whether Outlook is installed or present, and if installed or present, determine whether the version of Outlook supports the OSC. For more information about detecting the installed version of Outlook, see [Check the Version of Outlook](https://msdn.microsoft.com/library/672fc380-a29b-4e99-9211-949fd5065723%28Office.15%29.aspx).
     
    - If the installed version of Outlook is earlier than Outlook 2003, the provider installation procedure cannot complete. Inform the user to obtain a supported version of Outlook and the OSC before proceeding to install the OSC provider.
     
@@ -85,7 +85,7 @@ The following procedure describes the installation checks outlined in Figure 1.
       
       `{A3B82DA3-8AD9-4935-AEA8-54B754459483}`
       
-      The qualified component ID is a GUID that provides a method of single-level indirection, similar to a pointer. For more information about Windows Installer, see [Roadmap to Windows Installer Documentation](https://docs.microsoft.com/en-us/windows/desktop/msi/roadmap-to-windows-installer-documentation).
+      The qualified component ID is a GUID that provides a method of single-level indirection, similar to a pointer. For more information about Windows Installer, see [Roadmap to Windows Installer Documentation](https://docs.microsoft.com/windows/desktop/msi/roadmap-to-windows-installer-documentation).
       
    2. If the specified qualified component exists, a version of the OSC is installed. Proceed to step 5 to find the current Outlook user interface locale to prepare for installing the latest version of the OSC.
       
@@ -115,7 +115,7 @@ The following procedure describes the installation checks outlined in Figure 1.
     
    `HKEY_LOCAL_MACHINE\Software\Microsoft\Office\Outlook\SocialConnector\OSCLcid`
     
-   The  `OSCLcid` key is a DWORD value that specifies the Internet Engineering Task Force (IETF) locale tag (defined by [[RFC4646]](http://www.ietf.org/rfc/rfc4646.txt) and [[RFC4647]](http://www.ietf.org/rfc/rfc4647.txt)), that represents the current Outlook user interface locale. Proceed with step 7 to install the latest OSC on the client computer.
+   The  `OSCLcid` key is a DWORD value that specifies the Internet Engineering Task Force (IETF) locale tag (defined by [[RFC4646]](https://www.ietf.org/rfc/rfc4646.txt) and [[RFC4647]](https://www.ietf.org/rfc/rfc4647.txt)), that represents the current Outlook user interface locale. Proceed with step 7 to install the latest OSC on the client computer.
     
 6. **Proceed with this step if Outlook 2003 or Outlook 2007 is installed, or Outlook 2010 or Outlook 2013 is present, but the latest OSC is not necessarily installed on the client computer:**
     
@@ -136,11 +136,11 @@ The following procedure describes the installation checks outlined in Figure 1.
     
    Chain a g-link into your installation package to ensure that the latest version of the OSC is installed on the client computer. The g-link format is as follows:
     
-   http://g.live.com/0CR _LCID_/ _Glink_
+   https://g.live.com/0CR _LCID_/ _Glink_
     
    Refer to Table 1 below for the supported  _LCID_ values, and Table 2 for the supported  _Glink_ values. For example, the g-link to install the latest version of the 32-bit OSC for 32-bit Outlook Social Connector 2013 (US English) is as follows: 
     
-   http://g.live.com/0CR1033/82
+   https://g.live.com/0CR1033/82
     
 8. Install the provider. The provider installation procedure must register the programmatic identifier (ProgID) in the appropriate Windows registry location. For more information, see [Registering a Provider](registering-a-provider.md). Also, be sure that the bitness of the provider to be installed is the same as the bitness of the version of Outlook present on the client computer. For example, install a 32-bit provider if 32-bit Outlook 2013 is present, and a 64-bit provider if 64-bit Outlook 2013 is installed. For Outlook 2003 or 2007, only the 32-bit version of your provider applies. 
     

@@ -9,19 +9,19 @@ ms.topic: reference
  
 localization_priority: Normal
 ms.assetid: f87cd7a4-b9de-5fb1-20ec-90759c966bd9
-description: "Contains elements for creating multiple jumps between a shape or drawing page and another drawing page, another file, or a Web site."
+description: "Contains elements for creating multiple jumps between a shape or drawing page and another drawing page, another file, or a website."
 ---
 
 # Row element (Hyperlink Section) ('Visio XML')
 
-Contains elements for creating multiple jumps between a shape or drawing page and another drawing page, another file, or a Web site.
+Contains elements for creating multiple jumps between a shape or drawing page and another drawing page, another file, or a website.
   
 ## Element information
 
 |||
 |:-----|:-----|
 |**Element type** <br/> |[HyperlinkRow_Type](hyperlinkrow_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |master#.xml, page#.xml  <br/> |
    
@@ -40,7 +40,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |Contains elements for creating multiple jumps between a shape or drawing page and another drawing page, another file, or a Web site.  <br/> |
+|[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |Contains elements for creating multiple jumps between a shape or drawing page and another drawing page, another file, or a website.  <br/> |
    
 ### Child elements
 

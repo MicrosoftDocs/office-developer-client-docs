@@ -34,6 +34,6 @@ Use [PROP_ACCT_IS_EXCH](prop_acct_is_exch.md) to verify if the account is an Exc
 
 - [About the Account Management API](about-the-account-management-api.md) 
 - [Constants (Account management API)](constants-account-management-api.md)
-- [Using Multiple Exchange Accounts](http://msdn.microsoft.com/library/4e1804bf-4c50-4942-a7ab-9a8caf1be7e5%28Office.15%29.aspx)  
-- [PidTagExchangeProfileSectionId Canonical Property](http://msdn.microsoft.com/library/4ad2f417-be8f-4fc8-9321-82097289074b%28Office.15%29.aspx)
+- [Using Multiple Exchange Accounts](https://msdn.microsoft.com/library/4e1804bf-4c50-4942-a7ab-9a8caf1be7e5%28Office.15%29.aspx)  
+- [PidTagExchangeProfileSectionId Canonical Property](https://msdn.microsoft.com/library/4ad2f417-be8f-4fc8-9321-82097289074b%28Office.15%29.aspx)
 

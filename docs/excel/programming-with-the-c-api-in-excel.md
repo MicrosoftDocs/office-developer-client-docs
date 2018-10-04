@@ -88,10 +88,10 @@ The Excel macro (XLM) language was the first user-accessible programming environ
     
 - Flow-control operations such as **GOTO** and **RETURN**.
     
-A limited version of the C API existed in Excel version 3. However, in Excel version 4, the XLM language was mapped to the C API. Since then, DLLs have been able to call all worksheet functions, macro sheet information functions, and commands, and to set event traps. DLLs cannot call XLM flow control functions from within the C API. These macro-sheet functions and commands are documented in the Help file XLMacr8.hlp (formerly named Macrofun.hlp). To obtain this help file, go to the [Microsoft Download Center](http://download.microsoft.com) and search for "XLMacr8.hlp". 
+A limited version of the C API existed in Excel version 3. However, in Excel version 4, the XLM language was mapped to the C API. Since then, DLLs have been able to call all worksheet functions, macro sheet information functions, and commands, and to set event traps. DLLs cannot call XLM flow control functions from within the C API. These macro-sheet functions and commands are documented in the Help file XLMacr8.hlp (formerly named Macrofun.hlp). To obtain this help file, go to the [Microsoft Download Center](https://download.microsoft.com) and search for "XLMacr8.hlp". 
   
 > [!NOTE]
-> Windows Vista and Windows 7 do not directly support .hlp files, but you can download the [Windows Help program (WinHlp32.exe) for Windows Vista](http://go.microsoft.com/fwlink/?LinkID=82148) or the [Windows Help program (WinHlp32.exe) for Windows 7](http://www.microsoft.com/download/en/details.aspx?id=91) from Microsoft that enables them to be opened. 
+> Windows Vista and Windows 7 do not directly support .hlp files, but you can download the [Windows Help program (WinHlp32.exe) for Windows Vista](https://go.microsoft.com/fwlink/?LinkID=82148) or the [Windows Help program (WinHlp32.exe) for Windows 7](https://www.microsoft.com/download/en/details.aspx?id=91) from Microsoft that enables them to be opened. 
   
 DLLs call C API equivalents of these functions and commands by using the callback functions **Excel4**, **Excel4v**, **Excel12**, and **Excel12v** (the last two were introduced in Excel 2007). Enumerated constants that correspond to each function and command are defined in a header file and passed as one of the arguments to these callbacks. For example, **GET.CELL** is represented by **xlfGetCell**, **REGISTER** by **xlfRegister**, and **DEFINE.NAME** by **xlcDefineName**.
   

@@ -39,7 +39,7 @@ HRESULT SetCharset(
     
  _hcharset_
   
-> [in] A handle to a character set as defined in mimeole.h of Windows Mail. Specify **null** to specify that you do not want to apply any specific character set. For non- **null** values, use a function such as [MimeOleGetCodePageCharset](http://msdn.microsoft.com/en-us/library/ms714746%28VS.85%29.aspx) to obtain a handle to the character set. 
+> [in] A handle to a character set as defined in mimeole.h of Windows Mail. Specify **null** to specify that you do not want to apply any specific character set. For non- **null** values, use a function such as [MimeOleGetCodePageCharset](https://msdn.microsoft.com/library/ms714746%28VS.85%29.aspx) to obtain a handle to the character set. 
     
  _csetapplytype_
   

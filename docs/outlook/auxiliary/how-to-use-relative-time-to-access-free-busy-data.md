@@ -21,7 +21,7 @@ The following are some commonly used relative time values:
     
 Use the preceding maximum and minimum relative time values to help verify that your relative time values are valid.
   
-Because NTFS records file times natively in [FILETIME](http://msdn.microsoft.com/library/9baf8a0e-59e3-4fbd-9616-2ec9161520d1%28Office.15%29.aspx) format, it might be handy to use the following code example to convert relative time to and from **FILETIME**. 
+Because NTFS records file times natively in [FILETIME](https://msdn.microsoft.com/library/9baf8a0e-59e3-4fbd-9616-2ec9161520d1%28Office.15%29.aspx) format, it might be handy to use the following code example to convert relative time to and from **FILETIME**. 
   
 ```cpp
 static const LONGLONG UnitsPerMinute = 600000000; 

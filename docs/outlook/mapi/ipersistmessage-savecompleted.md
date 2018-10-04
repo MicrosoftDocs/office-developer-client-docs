@@ -72,13 +72,13 @@ The following table describes the conditions that affect the actions you should 
 |:-----|:-----|
 |The  _pMessage_ parameter is NULL and the  _fSameAsLoad_ parameter of the [IPersistMessage::Save](ipersistmessage-save.md) method is set to TRUE.  <br/> |Call the [IMAPIViewAdviseSink::OnSaved](imapiviewadvisesink-onsaved.md) method of all registered viewers, mark the form as clean, and return S_OK.  <br/> |
 |The  _pMessage_ parameter is NULL and the  _fSameAsLoad_ parameter of the **IPersistMessage::Save** method is set to FALSE.  <br/> |Return S_OK.  <br/> |
-|The form is in the HandsOffFromNormal state.  <br/> |Release the current message and replace it with the message pointed to by the  _pMessage_ parameter. Call the replacement message's [IUnknown::AddRef](http://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) method and return S_OK.  <br/> |
+|The form is in the HandsOffFromNormal state.  <br/> |Release the current message and replace it with the message pointed to by the  _pMessage_ parameter. Call the replacement message's [IUnknown::AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) method and return S_OK.  <br/> |
 |The form is in the HandsOffAfterSave state.  <br/> |Call the **IMAPIViewAdviseSink::OnSaved** method of all registered viewers, mark the form as clean, and return S_OK.  <br/> |
 |The form is in the [NoScribble](noscribble-state.md) state.  <br/> |Release the current message and replace it with the message pointed to by  _pMessage_. Call the replacement message's **IUnknown::AddRef** method. Call the **IMAPIViewAdviseSink::OnSaved** method of all registered viewers, mark the form as clean, and return S_OK.  <br/> |
 |The form is in one of the HandsOff states and the  _pMessage_ parameter is set to NULL.  <br/> |Return E_INVALIDARG.  <br/> |
 |The form is in a state other than one of the HandsOff states or the NoScribble state.  <br/> |Return E_UNEXPECTED.  <br/> |
    
-For more information about saving storage objects, see the documentation for the [IPersistStorage::SaveCompleted](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nf-objidl-ipersiststorage-savecompleted) or [IPersistFile::SaveCompleted](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nf-objidl-ipersistfile-savecompleted) methods. 
+For more information about saving storage objects, see the documentation for the [IPersistStorage::SaveCompleted](https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-savecompleted) or [IPersistFile::SaveCompleted](https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-savecompleted) methods. 
   
 ## See also
 

@@ -63,7 +63,7 @@ When all of the properties have been copied, enter the [NoScribble](noscribble-s
   
 If **Save** is called when the form is in any state other than Normal, return E_UNEXPECTED. 
   
-For more information about saving storage objects, see the documentation on the [IPersistStorage](http://msdn.microsoft.com/library/1c1a20fc-c101-4cbc-a7a6-30613aa387d7%28Office.15%29.aspx) methods. 
+For more information about saving storage objects, see the documentation on the [IPersistStorage](https://msdn.microsoft.com/library/1c1a20fc-c101-4cbc-a7a6-30613aa387d7%28Office.15%29.aspx) methods. 
   
 ## See also
 

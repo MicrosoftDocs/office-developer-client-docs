@@ -48,5 +48,5 @@ Returns the values described for an equivalent call to **MNLS_CompareStringW** e
 
 
 
-[GetUserDefaultLCID](http://msdn.microsoft.com/en-us/library/dd318135%28VS.85%29.aspx)
+[GetUserDefaultLCID](https://msdn.microsoft.com/library/dd318135%28VS.85%29.aspx)
 

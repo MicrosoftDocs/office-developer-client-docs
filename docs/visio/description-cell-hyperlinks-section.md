@@ -21,7 +21,7 @@ Represents a descriptive text string for a hyperlink.
   
 ## Remarks
 
-Use this cell to store comments about the hyperlink; for example, "Link to our pricing Web site."
+Use this cell to store comments about the hyperlink; for example, "Link to our pricing website."
   
 You can also set the value of this cell in the **Hyperlinks** dialog box (click **Hyperlink** on the **Insert** tab). 
   

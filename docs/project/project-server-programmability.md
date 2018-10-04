@@ -53,7 +53,7 @@ The Project Service Application is a logical service provider that can manage mu
 
 ![Editing the Home page in Project Web Access](media/pj15_Programmability_PWAHome.gif "Editing the Home page in Project Web Access")
   
-To access the Site Settings page in Project Web App, choose the **Settings** icon in the top-right corner of the page. The Site Settings page (  `http://ServerName/ProjectServerName/_layouts/15/settings.aspx`) enables changing the look and feel and the site theme, adding custom Web Parts, and modifying or creating master pages for project sites.
+To access the Site Settings page in Project Web App, choose the **Settings** icon in the top-right corner of the page. The Site Settings page (  `https://ServerName/ProjectServerName/_layouts/15/settings.aspx`) enables changing the look and feel and the site theme, adding custom Web Parts, and modifying or creating master pages for project sites.
   
 Customization of the code in ASPX pages, or customization of Project Web App master pages with SharePoint Designer 2013, is not supported. Customization of the code in Project Web App pages can cause problems with Project Server updates and service packs. 
   
@@ -62,7 +62,7 @@ Customization of the code in ASPX pages, or customization of Project Web App mas
 
 Because Project Web App is a SharePoint application, and project sites are SharePoint sites, you can add custom apps, Web Parts, event handlers, custom fields, and other features by using SharePoint packages (.wsp files) or SharePoint apps (.spapp files). A SharePoint package or an app package can include multiple Project Server entities, where entity definitions are specified in an elements.xml file within the package.
   
-For Project Online, you can add buttons to the Project Web App ribbon, but you can't remove or rename existing product buttons, and you can't create new ribbon tabs. For more information, see [Create custom actions to deploy with apps for SharePoint](http://msdn.microsoft.com/en-us/library/office/apps/jj163954%28v=office.15%29.aspx).
+For Project Online, you can add buttons to the Project Web App ribbon, but you can't remove or rename existing product buttons, and you can't create new ribbon tabs. For more information, see [Create custom actions to deploy with apps for SharePoint](https://msdn.microsoft.com/library/office/apps/jj163954%28v=office.15%29.aspx).
   
 > [!CAUTION]
 > When you install a SharePoint package or an app package, the types of Project Server entities must appear in the order that the PSEntityProvision.xsd schema specifies or schema validation of the package fails and installation is not completed. 
@@ -99,7 +99,7 @@ When you upgrade an application that was developed for a previous version of Pro
 > [!NOTE]
 > If the CSOM includes the functionality you require, we recommend that you upgrade applications to use the CSOM. The CSOM enables applications to be used for both on-premises and online installations of Project Server 2013. 
   
-If your application primarily reads data from Project Server, you can use the reporting tables and views in the Project Server database for an on-premises scenario. If you intend to use the application with Project Online, you can use the OData protocol for the **ProjectData** service, which provides both on-premises and online access to the reporting data. For more information, see [ProjectData - Project OData service reference](https://msdn.microsoft.com/en-us/library/office/jj163015.aspx)
+If your application primarily reads data from Project Server, you can use the reporting tables and views in the Project Server database for an on-premises scenario. If you intend to use the application with Project Online, you can use the OData protocol for the **ProjectData** service, which provides both on-premises and online access to the reporting data. For more information, see [ProjectData - Project OData service reference](https://msdn.microsoft.com/library/office/jj163015.aspx)
   
 ### Using the PSI
 <a name="pj15_Programmability_PSI"> </a>
@@ -148,7 +148,7 @@ Applications developed for the PDS are not compatible with later versions of Pro
 > [!NOTE]
 > Because PDS applications must be completely redesigned for Project Server 2013, we recommend that you use the CSOM. 
   
-For more information about PDS compatibility and guidelines for porting PDS extensions to the PSI, see [PDS Parity in PSI Web Services](http://msdn.microsoft.com/library/61a0b0c7-9b74-46d1-87ed-66ffdd8017f8%28Office.15%29.aspx).
+For more information about PDS compatibility and guidelines for porting PDS extensions to the PSI, see [PDS Parity in PSI Web Services](https://msdn.microsoft.com/library/61a0b0c7-9b74-46d1-87ed-66ffdd8017f8%28Office.15%29.aspx).
   
 ### Porting applications built for Project Server 2007 and Project Server 2010
 <a name="pj15_Programmability_Porting2007"> </a>
@@ -163,12 +163,12 @@ The PSI in Project Server 2013 is a superset of the PSI object model in Office P
     
 - For applications that modify project scheduling, use the CSOM, or change the application to use the [QueueUpdateProject2](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueUpdateProject2.aspx) PSI method. 
     
-- Local or web applications that log on users to different instances of Project Web App should use programmatic settings for WCF endpoints of the CSOM or the PSI. The methods are deprecated. Apps should use OAuth authentication in place of Forms authentication and for use with Project Online. For more information, see [Authorization and authentication for apps in SharePoint 2013](http://msdn.microsoft.com/en-us/library/fp142384%28office.15%29.aspx#FileName_uniquekeyword1).
+- Local or web applications that log on users to different instances of Project Web App should use programmatic settings for WCF endpoints of the CSOM or the PSI. The methods are deprecated. Apps should use OAuth authentication in place of Forms authentication and for use with Project Online. For more information, see [Authorization and authentication for apps in SharePoint 2013](https://msdn.microsoft.com/library/fp142384%28office.15%29.aspx#FileName_uniquekeyword1).
     
 - Applications that rely on or modify specific Project Server security settings.
     
   > [!NOTE]
-  > A default on-premises installation of Project Server 2013 uses the SharePoint permission mode, where Project Server security settings are not accessible through the PSI. To change to the Project permission mode, see the  *SharePoint Permission Mode*  section in [What's new for IT pros in Project Server 2013](http://technet.microsoft.com/en-us/library/ff631142%28office.15%29.aspx#section13). 
+  > A default on-premises installation of Project Server 2013 uses the SharePoint permission mode, where Project Server security settings are not accessible through the PSI. To change to the Project permission mode, see the  *SharePoint Permission Mode*  section in [What's new for IT pros in Project Server 2013](https://technet.microsoft.com/en-us/library/ff631142%28office.15%29.aspx#section13). 
   
 - For many custom Project Server workflows, you can use SharePoint Designer 2013 to create declarative workflows. For custom workflows that require additional programming, you should  *not*  directly use classes or members in the **Microsoft.Office.Project.Server.Workflow** namespace. Instead, use the [Microsoft.ProjectServer.Client.WorkflowActivities](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.WorkflowActivities.aspx) class in the CSOM. 
     
@@ -230,7 +230,7 @@ Following are issues and limitations of PSI programming with the older Project S
   
 - **Changing the active status of a task** The older Project Server scheduling engine can show inconsistent start or finish times when you use the [QueueUpdateProject](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueUpdateProject.aspx) method to change the active status of a task, if there are multiple changes in the **ProjectDataSet** object for the  _dataset_ parameter. If the **TASK_IS_ACTIVE** property is the only change in the  _dataset_ parameter of **QueueUpdateProject**, you can update the project.
     
-    For more information about inactive tasks and the older scheduling engine, see the blog articles [Introducing inactive tasks in Project 2010](http://blogs.msdn.com/b/project/archive/2010/06/10/introducing-inactive-tasks-in-project-2010.aspx) and [Project Server 2010: Scheduling on the web, the PSI and Project Professional](http://blogs.msdn.com/b/brismith/archive/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional.aspx?wa=wsignin1.0). For a comparison of scheduling in Project Professional 2010 and Project Web App in Project Server 2010, see [Web-based schedule management comparison](https://blogs.msdn.microsoft.com/brismith/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional/).
+    For more information about inactive tasks and the older scheduling engine, see the blog articles [Introducing inactive tasks in Project 2010](https://blogs.msdn.com/b/project/archive/2010/06/10/introducing-inactive-tasks-in-project-2010.aspx) and [Project Server 2010: Scheduling on the web, the PSI and Project Professional](https://blogs.msdn.com/b/brismith/archive/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional.aspx?wa=wsignin1.0). For a comparison of scheduling in Project Professional 2010 and Project Web App in Project Server 2010, see [Web-based schedule management comparison](https://blogs.msdn.microsoft.com/brismith/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional/).
     
 - **Earned value not calculated** The older scheduling engine does not calculate the earned value fields: ACWP, BAC, BCWP, BCWS, CPI, CV, CV%, EAC, SPI, SV, SV%, TCPI, VAC, Duration Variance, Start Variance, Finish Variance, Cost Variance, and Work Variance. If a project has values for these fields and the project is updated by using the **QueueUpdateProject** method, the field values do not change. To avoid the problem, use the **QueueUpdateProject2** method. 
     
@@ -270,7 +270,7 @@ Applications that directly access the draft, published, or archive tables and vi
   
 For all of these reasons, Project Professional and Project Web App do not make direct calls to the draft, published, or archive tables; neither should any other application that integrates with Project Server.
   
-The schemas for the draft, published, and archive tables are not documented. You can use the reporting tables to help generate reports, and the schema for the reporting tables and views is documented in the Project 2013 SDK download. For the OData schema of the reporting data, see [ProjectData - Project OData service reference](https://msdn.microsoft.com/en-us/library/office/jj163015.aspx).
+The schemas for the draft, published, and archive tables are not documented. You can use the reporting tables to help generate reports, and the schema for the reporting tables and views is documented in the Project 2013 SDK download. For the OData schema of the reporting data, see [ProjectData - Project OData service reference](https://msdn.microsoft.com/library/office/jj163015.aspx).
   
 ## See also
 
@@ -282,7 +282,7 @@ The schemas for the draft, published, and archive tables are not documented. You
 - [Getting started developing Project Server workflows](getting-started-developing-project-server-workflows.md)    
 - [Project 2013 programming references](project-2013-programming-references.md)    
 - [Project PSI reference overview](project-psi-reference-overview.md)    
-- [Create custom actions to deploy with apps for SharePoint](http://msdn.microsoft.com/en-us/library/office/apps/jj163954%28v=office.15%29.aspx)    
-- [Introducing Inactive Tasks in Project 2010](http://blogs.msdn.com/b/project/archive/2010/06/10/introducing-inactive-tasks-in-project-2010.aspx)    
+- [Create custom actions to deploy with apps for SharePoint](https://msdn.microsoft.com/library/office/apps/jj163954%28v=office.15%29.aspx)    
+- [Introducing Inactive Tasks in Project 2010](https://blogs.msdn.com/b/project/archive/2010/06/10/introducing-inactive-tasks-in-project-2010.aspx)    
 - [Project Server 2010: Scheduling on the Web, the PSI and Project Professional](https://blogs.msdn.microsoft.com/brismith/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional/)
 

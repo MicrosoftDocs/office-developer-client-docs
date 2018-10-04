@@ -40,7 +40,7 @@ Indicates the end date and time of the exception in the local time zone of the m
 
 ### Protocol specifications
 
-[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Specifies the properties and operations for appointment, meeting request, and response messages.
     

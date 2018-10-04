@@ -62,7 +62,7 @@ HRESULT HrGetAutoDiscoverXML(
     
  _ppXmlStream_
   
-> [out] A pointer to an [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) object that contains the autodiscovery XML. Returns **null** if the autodiscovery operation fails. You must release the [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) object when you are finished with it. 
+> [out] A pointer to an [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) object that contains the autodiscovery XML. Returns **null** if the autodiscovery operation fails. You must release the [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) object when you are finished with it. 
     
 ## Return values
 
@@ -72,7 +72,7 @@ S_OK
     
 E_INVALIDARG 
   
--  _pwzAddress_ is **null** or is not a valid SMTP address, or  _ppXmlStream_ is a **null** pointer to an [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) object. 
+-  _pwzAddress_ is **null** or is not a valid SMTP address, or  _ppXmlStream_ is a **null** pointer to an [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) object. 
     
 MAPI_E_NOT_FOUND 
   

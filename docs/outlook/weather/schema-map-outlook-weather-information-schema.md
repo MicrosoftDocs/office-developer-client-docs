@@ -20,12 +20,12 @@ This topic shows the schema definition for the Outlook Weather Information XML S
 <?xml version="1.0" ?>
 <xs:schema
   attributeFormDefault="unqualified" elementFormDefault="qualified"
-xmlns:xs="http://www.w3.org/2001/XMLSchema"
-targetNamespace="http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd"
-xmlns="http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd"
+xmlns:xs="https://www.w3.org/2001/XMLSchema"
+targetNamespace="https://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd"
+xmlns="https://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd"
 >
   <!-- get weather info  -->
-  <!-- http://weather.service.msn.com/data.aspx?src=vista&amp;weadegreetype=C&amp;culture=en-US&amp;wealocations=wc:10109953 -->
+  <!-- https://weather.service.msn.com/data.aspx?src=vista&amp;weadegreetype=C&amp;culture=en-US&amp;wealocations=wc:10109953 -->
   <xs:element name="weatherdata">
     <xs:annotation>
       <xs:documentation>Defines the weather element.</xs:documentation>

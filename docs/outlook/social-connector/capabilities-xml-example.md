@@ -60,7 +60,7 @@ The following example shows the **capabilities** XML of an OSC provider.
   
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
-<capabilities xmlns="http://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd">
+<capabilities xmlns="https://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd">
   <getFriends>true</getFriends>
   <cacheFriends>true</cacheFriends>
   <followPerson>true</followPerson>
@@ -76,8 +76,8 @@ The following example shows the **capabilities** XML of an OSC provider.
   <dynamicContactsLookup>false</dynamicContactsLookup>
   <useLogonCached>false</useLogonCached>
   <hideRememberMyPassword>false</hideRememberMyPassword>
-  <createAccountUrl>http://contoso.com/createAccount</createAccountUrl>
-  <forgotPasswordUrl>http://contoso.com/forgotPassword</forgotPasswordUrl>
+  <createAccountUrl>https://contoso.com/createAccount</createAccountUrl>
+  <forgotPasswordUrl>https://contoso.com/forgotPassword</forgotPasswordUrl>
 </capabilities>
 
 ```

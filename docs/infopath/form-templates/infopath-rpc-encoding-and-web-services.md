@@ -57,7 +57,7 @@ The prerequisites for creating such a proxy Microsoft .NET Web service are a Mic
     
    ```
 
-For more information, search for the Microsoft Knowledge Base article "HOW TO: Pass Current Credentials to an ASP.NET Web Service" on http://support.microsoft.com/.
+For more information, search for the Microsoft Knowledge Base article "HOW TO: Pass Current Credentials to an ASP.NET Web Service" on https://support.microsoft.com/.
     
 ## Creating a Proxy Web Service Without Visual Studio .NET
 

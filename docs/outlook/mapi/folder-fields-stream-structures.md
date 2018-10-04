@@ -61,7 +61,7 @@ Data elements in this stream are stored in little-endian byte order, immediately
     
 - **FieldNameLength**: WORD (2 bytes), the number of elements in the **FieldName** array.
     
-- **FieldName**: An array of CHAR. This is the ANSI CP_ACP codepage representation of the field name. The count of this array is equal to **FieldNameLength**. The field name must satisfy the restrictions on the Name parameter as specified in the [UserProperties.Add](http://msdn.microsoft.com/en-us/library/microsoft.office.interop.outlook.userproperties.add.aspx) Method. 
+- **FieldName**: An array of CHAR. This is the ANSI CP_ACP codepage representation of the field name. The count of this array is equal to **FieldNameLength**. The field name must satisfy the restrictions on the Name parameter as specified in the [UserProperties.Add](https://msdn.microsoft.com/library/microsoft.office.interop.outlook.userproperties.add.aspx) Method. 
     
    > [!NOTE]
    > For reasons of legacy compatibility, Outlook may be able to handle some **FieldName** values not satisfying these restrictions, however such cases are not covered by this topic. 
@@ -78,7 +78,7 @@ Data elements in this stream are stored in little-endian byte order, immediately
     
 - **FieldNameLength**: WORD (2 bytes), the number of elements in the **FieldName** array.
     
-- **FieldName**: An array of WCHAR. This is the Unicode (UTF-16) representation of the field name. The count of this array is equal to **FieldNameLength**. The field name must satisfy the restrictions on the Name parameter as specified in the [UserProperties.Add](http://msdn.microsoft.com/en-us/library/microsoft.office.interop.outlook.userproperties.add.aspx) Method. 
+- **FieldName**: An array of WCHAR. This is the Unicode (UTF-16) representation of the field name. The count of this array is equal to **FieldNameLength**. The field name must satisfy the restrictions on the Name parameter as specified in the [UserProperties.Add](https://msdn.microsoft.com/library/microsoft.office.interop.outlook.userproperties.add.aspx) Method. 
     
    > [!NOTE]
    > For reasons of legacy compatibility, Outlook may be able to handle some **FieldName** values not satisfying these restrictions, but such cases are not covered by this topic. 

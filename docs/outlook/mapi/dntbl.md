@@ -70,11 +70,11 @@ _pstmReserved4_
     
 _pxicc_
   
->  [out] Pointer to the **IExchangeImportContentsChanges** contents interface that supports downloading content changes. For more information on **IExchangeImportContentsChanges**, see [ICS Evaluation Criteria](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx).
+>  [out] Pointer to the **IExchangeImportContentsChanges** contents interface that supports downloading content changes. For more information on **IExchangeImportContentsChanges**, see [ICS Evaluation Criteria](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
     
 _pxihc_
   
->  [out] Pointer to the **IExchangeImportHierarchyChanges** hierarchy interface that supports downloading incremental hierarchy changes. For more information on **IExchangeImportHierarchyChanges**, see [ICS Evaluation Criteria](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx).
+>  [out] Pointer to the **IExchangeImportHierarchyChanges** hierarchy interface that supports downloading incremental hierarchy changes. For more information on **IExchangeImportHierarchyChanges**, see [ICS Evaluation Criteria](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
     
 _pszName_
   
@@ -86,7 +86,7 @@ _ftLastMod_
     
 _ulRights_
   
->  [out] Value of the **[PR_RIGHTS](http://msdn.microsoft.com/en-us/library/ee238052%28v=EXCHG.80%29.aspx)** property of the folder. 
+>  [out] Value of the **[PR_RIGHTS](https://msdn.microsoft.com/library/ee238052%28v=EXCHG.80%29.aspx)** property of the folder. 
     
 _feid_
   
@@ -98,7 +98,7 @@ _uintReserved_
     
 _rgte_
   
-> [out] Changes for normal (or non-hidden) and associated (or hidden) items.  *rgte[0]*  is for normal items, and  *rgte[1]*  is for associated items. Outlook populates this member during the downloading when using Incremental Change Synchronization (ICS). For more information on ICS, see [ICS Evaluation Criteria](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx).
+> [out] Changes for normal (or non-hidden) and associated (or hidden) items.  *rgte[0]*  is for normal items, and  *rgte[1]*  is for associated items. Outlook populates this member during the downloading when using Incremental Change Synchronization (ICS). For more information on ICS, see [ICS Evaluation Criteria](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
     
 _lpsrReserved_
   

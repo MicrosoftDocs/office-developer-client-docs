@@ -49,7 +49,7 @@ TNEF_PROP_CONTAINED
     
 TNEF_PROP_CONTAINED_TNEF 
   
-> Encodes only properties from the message or attachment specified by the  _ulElemID_ parameter. If this flag is set, the value in  _lpvData_ must be an [IStream](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nn-objidl-istream) pointer. 
+> Encodes only properties from the message or attachment specified by the  _ulElemID_ parameter. If this flag is set, the value in  _lpvData_ must be an [IStream](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) pointer. 
     
 TNEF_PROP_EXCLUDE 
   

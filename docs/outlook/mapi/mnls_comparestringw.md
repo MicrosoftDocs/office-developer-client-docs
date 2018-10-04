@@ -34,11 +34,11 @@ int MNLS_CompareStringW (
 
  _lcid_
   
-> [in] Locale identifier. For detailed definitions, see the  _Locale_ parameter of [CompareString](http://msdn.microsoft.com/en-us/library/dd317759%28VS.85%29.aspx).
+> [in] Locale identifier. For detailed definitions, see the  _Locale_ parameter of [CompareString](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx).
     
  _dwFlags_
   
-> [in] Flags to ignore case and diacritics. For detailed definitions, see the  _dwCmpFlags_ parameter of [CompareStringEx](http://msdn.microsoft.com/en-us/library/dd317761%28VS.85%29.aspx).
+> [in] Flags to ignore case and diacritics. For detailed definitions, see the  _dwCmpFlags_ parameter of [CompareStringEx](https://msdn.microsoft.com/library/dd317761%28VS.85%29.aspx).
     
  _pstr1_
   
@@ -58,17 +58,17 @@ int MNLS_CompareStringW (
     
 ## Return value
 
-Returns the values described for [CompareStringEx](http://msdn.microsoft.com/en-us/library/dd317761%28VS.85%29.aspx).
+Returns the values described for [CompareStringEx](https://msdn.microsoft.com/library/dd317761%28VS.85%29.aspx).
   
 ## Remarks
 
-This function wraps [CompareStringW](http://msdn.microsoft.com/en-us/library/dd317759%28VS.85%29.aspx). **MNLS_CompareStringW** takes the same parameters and has the same behavior as [CompareStringW](http://msdn.microsoft.com/en-us/library/dd317759%28VS.85%29.aspx).
+This function wraps [CompareStringW](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx). **MNLS_CompareStringW** takes the same parameters and has the same behavior as [CompareStringW](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx).
   
 ## See also
 
 
 
-[CompareStringW](http://msdn.microsoft.com/en-us/library/dd317759%28VS.85%29.aspx)
+[CompareStringW](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx)
   
-[CompareStringEx](http://msdn.microsoft.com/en-us/library/dd317761%28VS.85%29.aspx)
+[CompareStringEx](https://msdn.microsoft.com/library/dd317761%28VS.85%29.aspx)
 

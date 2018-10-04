@@ -24,7 +24,7 @@ Clients can end their sessions in response to a user's request, either immediate
   
 1. Cancel the registrations for all notifications by calling the **Unadvise** method of every registered object. 
     
-2. Release all open objects by calling their [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28VS.85%29.aspx) methods. The types of open objects can include advise sinks, the status table, the Outbox folder, one or more message stores, and the address book. 
+2. Release all open objects by calling their [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28VS.85%29.aspx) methods. The types of open objects can include advise sinks, the status table, the Outbox folder, one or more message stores, and the address book. 
     
 3. Call [MAPIFreeBuffer](mapifreebuffer.md) to free the memory for any cached entry identifiers, such as **PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md)).
     
@@ -32,7 +32,7 @@ Clients can end their sessions in response to a user's request, either immediate
     
 5. Release the session pointer by calling the session's **IUnknown::Release** method. 
     
-6. If you called [OleInitialize](http://msdn.microsoft.com/en-us/library/ms690134%28v=VS.85%29.aspx) during session startup to initialize the OLE libraries, uninitialize them now by calling [OleUninitialize](http://msdn.microsoft.com/en-us/library/ms691326%28VS.85%29.aspx). Only clients that have called **OleInitialize** must call **OleUninitialize**. 
+6. If you called [OleInitialize](https://msdn.microsoft.com/library/ms690134%28v=VS.85%29.aspx) during session startup to initialize the OLE libraries, uninitialize them now by calling [OleUninitialize](https://msdn.microsoft.com/library/ms691326%28VS.85%29.aspx). Only clients that have called **OleInitialize** must call **OleUninitialize**. 
     
 7. Uninitialize the MAPI libraries by calling [MAPIUninitialize](mapiuninitialize.md). If you called **OleInitialize** at some point, make sure that a call to **OleUninitialize** occurs before this call to **MAPIUninitialize**. The timing is crucial. If the call to **OleUninitialize** follows the call to **MAPIUninitialize**, your client might terminate ungracefully. 
     

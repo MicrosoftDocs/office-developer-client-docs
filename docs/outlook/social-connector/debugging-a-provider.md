@@ -42,7 +42,7 @@ The following table describes the debug buttons.
    
 ## Fiddler
 
-Fiddler is an over-the-wire debugging tool to check the API calls sent from your provider to the social network, and XML sent by the social network to your provider. Fiddler is available for download at [Fiddler Web Debugging Proxy](http://www.fiddler2.com/fiddler2/version.asp).
+Fiddler is an over-the-wire debugging tool to check the API calls sent from your provider to the social network, and XML sent by the social network to your provider. Fiddler is available for download at [Fiddler Web Debugging Proxy](https://www.fiddler2.com/fiddler2/version.asp).
   
 ## See also
 

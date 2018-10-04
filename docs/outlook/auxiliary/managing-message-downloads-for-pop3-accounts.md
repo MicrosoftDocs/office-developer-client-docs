@@ -19,7 +19,7 @@ The Post Office Protocol (POP) specifies an application layer protocol for an em
   
 Messages for a POP account are identified by unique identifiers (UIDs). An email client that leaves mail on the server uses the UIDL command to retrieve the UIDL map that associates each message that has been delivered to the mailbox to its UID. The client also gets the UIDL history for messages that have been downloaded or deleted for the Inbox on that client. Based on the UIDL history, the client can determine which messages are new and should be downloaded.
 
-- [Locating the message download history for a POP3 account](locating-the-message-download-history-for-a-pop3-account.md): This topic describes how a mail client accesses the [PidTagAttachDataBinary](http://msdn.microsoft.com/library/3b0a8b28-863e-4b96-a4c0-fdb8f40555b9%28Office.15%29.aspx) property to get the UIDL history for messages in the client Inbox of a POP3 account. 
+- [Locating the message download history for a POP3 account](locating-the-message-download-history-for-a-pop3-account.md): This topic describes how a mail client accesses the [PidTagAttachDataBinary](https://msdn.microsoft.com/library/3b0a8b28-863e-4b96-a4c0-fdb8f40555b9%28Office.15%29.aspx) property to get the UIDL history for messages in the client Inbox of a POP3 account. 
     
 - [Parsing the message download history for a POP3 account](parsing-the-message-download-history-for-a-pop3-account.md): This topic describes how to parse the POP3 BLOB that represents the UIDL history for messages in the client Inbox of a POP3 account, to identify the messages that have been downloaded or deleted on that account.
     

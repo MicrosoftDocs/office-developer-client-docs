@@ -116,7 +116,7 @@ Some of the new functions linked from this library that are not available in Map
     
 An alternate method of incorporating the MAPI Stub Library is to copy the source files, MapiStubLibrary.cpp and StubUtils.cpp, directly into your project and remove any linkage to Mapi32.lib and any code that explicitly links to MAPI.
   
-To access the MAPI Stub Library files and for information about how to build and integrate it into your project, as well as questions about this library such as when and why to use it, see the [MAPI Stub Library](http://mapistublibrary.codeplex.com/documentation) on the CodePlex site. 
+To access the MAPI Stub Library files and for information about how to build and integrate it into your project, as well as questions about this library such as when and why to use it, see the [MAPI Stub Library](https://mapistublibrary.codeplex.com/documentation) on the CodePlex site. 
   
 ## See also
 
@@ -124,7 +124,7 @@ To access the MAPI Stub Library files and for information about how to build and
 - [Installing the MAPI Subsystem](installing-the-mapi-subsystem.md)
 - [Install MAPI Header Files](how-to-install-mapi-header-files.md)
 - [Choose a Specific Version of MAPI to Load](how-to-choose-a-specific-version-of-mapi-to-load.md)
-- [Determining Which Linking Method to Use](http://msdn.microsoft.com/en-us/library/253b8k2c.aspx)
-- [Linking an Executable to a DLL](http://msdn.microsoft.com/en-us/library/9yd93633.aspx)
-- [Setting Up the MSI Keys for Your MAPI DLL](http://msdn.microsoft.com/en-us/library/ee909494%28v=VS.85%29.aspx)
+- [Determining Which Linking Method to Use](https://msdn.microsoft.com/library/253b8k2c.aspx)
+- [Linking an Executable to a DLL](https://msdn.microsoft.com/library/9yd93633.aspx)
+- [Setting Up the MSI Keys for Your MAPI DLL](https://msdn.microsoft.com/library/ee909494%28v=VS.85%29.aspx)
 

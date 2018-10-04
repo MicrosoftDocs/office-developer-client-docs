@@ -132,7 +132,7 @@ CSOM development requires the **ProjectContext** object to be initialized with t
 1. Add **Program** class constants and variables that the **QueueCreateProject** application will use. In addition to the Project Web App URL, the application uses the name of the default enterprise project type (EPT), the name of the project to create, and a maximum queue timeout in seconds. In this case, the **timeoutSeconds** variable enables you to test how various values for the timeout affect the application. The **ProjectContext** object is the primary object for access to the CSOM. 
     
    ```cs
-    private const string pwaPath = "http://ServerName /pwa/"; // Change the path to your Project Web App instance.
+    private const string pwaPath = "https://ServerName /pwa/"; // Change the path to your Project Web App instance.
     private static string basicEpt = "Enterprise Project";   // Basic enterprise project type.
     private static string projName = string.Empty;
     private static int timeoutSeconds = 10;  // The maximum wait time for a queue job, in seconds.
@@ -381,7 +381,7 @@ When you first run the **QueueCreateProject** application on a test instance of 
     Press any key to exit...
    ```
 
-Refresh the Project Center page in Project Web App (`http://ServerName/ProjectServerName/Projects.aspx`), to show the published projects. The following figure shows that the test projects are published.
+Refresh the Project Center page in Project Web App (`https://ServerName/ProjectServerName/Projects.aspx`), to show the published projects. The following figure shows that the test projects are published.
 
 **Checking the published projects in Project Web App**
 
@@ -404,7 +404,7 @@ namespace QueueCreateProject
 {
     class Program
     {
-        private const string pwaPath = "http://ServerName /pwa/"; // Change the path to your Project Web App instance.
+        private const string pwaPath = "https://ServerName /pwa/"; // Change the path to your Project Web App instance.
         private static string basicEpt = "Enterprise Project";   // Basic enterprise project type.
         private static string projName = string.Empty;
         private static int timeoutSeconds = 10;  // The maximum wait time for a queue job, in seconds.

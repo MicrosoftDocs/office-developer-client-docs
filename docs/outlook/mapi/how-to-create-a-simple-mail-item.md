@@ -134,5 +134,5 @@ HRESULT AddMail(LPMAPISESSION lpMAPISession,
 
 ## See also
 
-- [Using MAPI to Create Outlook 2007 Items](http://msdn.microsoft.com/en-us/library/cc678348%28office.12%29.aspx)
+- [Using MAPI to Create Outlook 2007 Items](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx)
 

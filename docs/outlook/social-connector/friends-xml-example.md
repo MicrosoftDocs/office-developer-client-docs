@@ -22,7 +22,7 @@ The following example shows the **friends** XML for two persons on the social ne
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<friends xmlns="http://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd">
+<friends xmlns="https://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd">
   <person>
     <userID>4667647</userID>
     <firstName>Melissa</firstName>
@@ -36,7 +36,7 @@ The following example shows the **friends** XML for two persons on the social ne
     <emailAddress>melissa@contoso.com</emailAddress>
     <emailAddress2>melissa@fabrikam.com</emailAddress2>
     <emailAddress3>melissa@adventureworks.com</emailAddress3>
-    <webProfilePage>http://contoso.com/melissa</webProfilePage>
+    <webProfilePage>https://contoso.com/melissa</webProfilePage>
     <phone>800-555-1212</phone>
     <cell>888-555-1212</cell>
     <workPhone>425-555-1212</workPhone>
@@ -59,7 +59,7 @@ The following example shows the **friends** XML for two persons on the social ne
     <emailAddress>michael@contoso.com</emailAddress>
     <emailAddress2>michael@fabrikam.com</emailAddress2>
     <emailAddress3>michael@adventureworks.com</emailAddress3>
-    <webProfilePage>http://contoso.com/michael</webProfilePage>
+    <webProfilePage>https://contoso.com/michael</webProfilePage>
     <phone>800-555-1212</phone>
     <cell>888-555-1212</cell>
     <workPhone>425-555-1212</workPhone>

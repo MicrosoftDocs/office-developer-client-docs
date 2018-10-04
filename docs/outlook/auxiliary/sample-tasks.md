@@ -21,7 +21,7 @@ This section contains sample tasks that use the APIs available in the Outlook 20
     
 - [Read time zone properties from an appointment](how-to-read-time-zone-properties-from-an-appointment.md)
     
-- [Specify whether to display a contact's picture in Outlook (Outlook Auxiliary Reference)](https://msdn.microsoft.com/en-us/library/office/gg262879.aspx)
+- [Specify whether to display a contact's picture in Outlook (Outlook Auxiliary Reference)](https://msdn.microsoft.com/library/office/gg262879.aspx)
     
 - [Use relative time to access free/busy data](how-to-use-relative-time-to-access-free-busy-data.md)
     

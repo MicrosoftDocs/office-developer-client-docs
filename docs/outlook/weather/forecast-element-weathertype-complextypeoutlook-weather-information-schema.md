@@ -21,7 +21,7 @@ Specifies the future weather conditions of at least three days ahead including t
 |||
 |:-----|:-----|
 |**Element type** <br/> |[forecastType](forecasttype-complextype-outlook-weather-information-schema.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
 |**Schema file** <br/> |getweatherinfo.xsd  <br/> |
    
 ## Definition

@@ -62,6 +62,6 @@ The **HrDispatchNotifications** function causes MAPI to dispatch all notificatio
   
 ## Notes to callers
 
-Some applications wait for a notification message in a timeout loop using the Windows [PeekMessage](http://msdn.microsoft.com/en-us/library/ms644943.aspx) and [DispatchMessage](http://msdn.microsoft.com/en-us/library/ms644934.aspx) functions. On all but the fastest platforms, such applications might experience poor performance or even blockage of notifications. Using **HrDispatchNotifications** not only reduces code but improves performance. 
+Some applications wait for a notification message in a timeout loop using the Windows [PeekMessage](https://msdn.microsoft.com/library/ms644943.aspx) and [DispatchMessage](https://msdn.microsoft.com/library/ms644934.aspx) functions. On all but the fastest platforms, such applications might experience poor performance or even blockage of notifications. Using **HrDispatchNotifications** not only reduces code but improves performance. 
   
 

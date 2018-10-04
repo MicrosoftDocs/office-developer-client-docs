@@ -1,7 +1,5 @@
 ---
 title: "Excel XLL SDK copyright notice"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,7 +14,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
  **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
   
-This document is provided "as-is". Information and views expressed in this document, including URL and other Internet Web site references, may change without notice. You bear the risk of using it. 
+This document is provided "as-is". Information and views expressed in this document, including URL and other Internet website references, may change without notice. You bear the risk of using it. 
   
 Some examples depicted herein are provided for illustration only and are fictitious. No real association or connection is intended or should be inferred.
   

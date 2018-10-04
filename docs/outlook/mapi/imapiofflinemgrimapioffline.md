@@ -49,7 +49,7 @@ Supports registering for notification callbacks about connection state changes o
 
 Upon opening an offline object for a user account profile using **[HrOpenOfflineObj](hropenofflineobj.md)**, a client obtains an offline object that supports **IMAPIOfflineMgr**. 
   
-Because this interface inherits from **[IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx)**, the client can query this interface (by using **[IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx)** ) to obtain an object that supports **[IMAPIOffline](imapiofflineiunknown.md)**. The client can then find out about the callback capabilities of the offline object (by calling **[IMAPIOffline::GetCapabilities](imapioffline-getcapabilities.md)** ), and choose to set up callbacks (by using **IMAPIOfflineMgr::Advise** ). 
+Because this interface inherits from **[IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx)**, the client can query this interface (by using **[IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx)** ) to obtain an object that supports **[IMAPIOffline](imapiofflineiunknown.md)**. The client can then find out about the callback capabilities of the offline object (by calling **[IMAPIOffline::GetCapabilities](imapioffline-getcapabilities.md)** ), and choose to set up callbacks (by using **IMAPIOfflineMgr::Advise** ). 
   
 Most of the members in this interface are placeholders reserved for the internal use of Outlook and are subject to change. Callers of this interface must use non-placeholder members only as documented.
   

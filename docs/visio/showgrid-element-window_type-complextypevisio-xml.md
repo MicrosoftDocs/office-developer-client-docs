@@ -21,7 +21,7 @@ Specifies whether a grid is shown in the drawing window.
 |||
 |:-----|:-----|
 |**Element type** <br/> |[ShowGrid_Type](showgrid_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |windows.xml  <br/> |
    

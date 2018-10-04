@@ -14,16 +14,16 @@ description: "Welcome to the InfoPath 2013 developer reference for external auto
 
 Welcome to the InfoPath 2013 developer reference for external automation. This documentation provides overviews, programming tasks, and class library reference information to help you create managed code solutions that automate InfoPath from external applications or add-ins.
   
-For more information about working with InfoPath form templates that contain business logic written in managed code, see the [InfoPath 2013 developer reference for form templates](http://go.microsoft.com/fwlink/?LinkId=159764).
+For more information about working with InfoPath form templates that contain business logic written in managed code, see the [InfoPath 2013 developer reference for form templates](https://go.microsoft.com/fwlink/?LinkId=159764).
   
 Publish date of this reference: October 2012
   
 ## See also
 
-- [InfoPath Developer Center](http://msdn.microsoft.com/en-us/office/aa905434.aspx)  
-- [Microsoft Office Developer Center](http://msdn.microsoft.com/en-us/office/default.aspx)
-- [Document Conventions in Office Developer Documentation](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
-- [Microsoft Accessibility](http://www.microsoft.com/ENABLE/)
+- [InfoPath Developer Center](https://msdn.microsoft.com/office/aa905434.aspx)  
+- [Microsoft Office Developer Center](https://msdn.microsoft.com/office/default.aspx)
+- [Document Conventions in Office Developer Documentation](https://msdn.microsoft.com/office/aa905365.aspx)
+- [Microsoft Accessibility](https://www.microsoft.com/ENABLE/)
 
   
 

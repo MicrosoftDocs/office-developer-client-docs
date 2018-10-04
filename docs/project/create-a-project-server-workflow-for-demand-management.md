@@ -10,9 +10,9 @@ description: "This article describes how to create a simple workflow by using Sh
 
 # Create a Project Server workflow for demand management
 
-This article describes how to create a simple workflow by using SharePoint Designer 2013. You can export the workflow to Visio 2013 for visualization and editing, or use Visio 2013 to design Project Server 2013 workflows and import the design into SharePoint Designer 2013 for publication to Project Web App. For more information about the SharePoint workflow platform and creating workflows with Visio 2013 and SharePoint Designer 2013, see the [Workflows in SharePoint 2013](http://msdn.microsoft.com/en-us/library/jj163986%28office.15%29.aspx) articles in the SharePoint 2013 developer documentation. 
+This article describes how to create a simple workflow by using SharePoint Designer 2013. You can export the workflow to Visio 2013 for visualization and editing, or use Visio 2013 to design Project Server 2013 workflows and import the design into SharePoint Designer 2013 for publication to Project Web App. For more information about the SharePoint workflow platform and creating workflows with Visio 2013 and SharePoint Designer 2013, see the [Workflows in SharePoint 2013](https://msdn.microsoft.com/library/jj163986%28office.15%29.aspx) articles in the SharePoint 2013 developer documentation. 
   
-For information about preparing Project Server for workflows, see [Start: Set up and configure SharePoint 2013 Workflow Manager](http://msdn.microsoft.com/en-us/library/jj163276%28office.15%29.aspx).
+For information about preparing Project Server for workflows, see [Start: Set up and configure SharePoint 2013 Workflow Manager](https://msdn.microsoft.com/library/jj163276%28office.15%29.aspx).
 
 <a name="pj15_CreateWorkflowSPD_General"> </a>
 
@@ -62,7 +62,7 @@ For detailed steps, see the [Creating a branching workflow](#pj15_CreateWorkflow
 
 ## Creating a branching workflow
 
-Before you can use SharePoint Designer 2013 to create a Project Server workflow, the Workflow Manager Client 1.0 service must be configured to use the Project Server 2013 workflow activities. For information about how to configure Workflow Manager Client 1.0, see the [Workflows in SharePoint 2013](http://msdn.microsoft.com/en-us/library/jj163986%28office.15%29.aspx) articles in the SharePoint Server 2013 developer documentation. 
+Before you can use SharePoint Designer 2013 to create a Project Server workflow, the Workflow Manager Client 1.0 service must be configured to use the Project Server 2013 workflow activities. For information about how to configure Workflow Manager Client 1.0, see the [Workflows in SharePoint 2013](https://msdn.microsoft.com/library/jj163986%28office.15%29.aspx) articles in the SharePoint Server 2013 developer documentation. 
   
 The following detailed procedure includes the same steps as in the [Creating a general workflow](#pj15_CreateWorkflowSPD_General) section. 
   
@@ -72,7 +72,7 @@ The following detailed procedure includes the same steps as in the [Creating a g
 
 A Project Server workflow can integrate with multiple stages and phases in a demand-management process. Because workflows can be complex, you must understand the business requirements and plan a workflow carefully. For a simple example, design a branching workflow that uses the estimated cost of a project proposal to determine whether the proposal is accepted. If the estimated cost is greater than $25,000 USD, reject the proposal; otherwise, accept the proposal and create the project.
     
-Because you can use Visio 2013 and SharePoint Designer 2013 to help design and create workflows for Project Server 2013, you can more easily experiment with workflows than is possible with Project Server 2010. The sample workflow design in this article is the same as in the [Create a branching workflow](http://msdn.microsoft.com/library/a02cafdc-d881-4271-b446-d8b2cd456a52%28Office.15%29.aspx) article in the Project 2010 SDK. You can design and create a test workflow on a remote computer using a test instance of Project Web App—you do not have to create workflows directly on a Project Server 2013 computer. 
+Because you can use Visio 2013 and SharePoint Designer 2013 to help design and create workflows for Project Server 2013, you can more easily experiment with workflows than is possible with Project Server 2010. The sample workflow design in this article is the same as in the [Create a branching workflow](https://msdn.microsoft.com/library/a02cafdc-d881-4271-b446-d8b2cd456a52%28Office.15%29.aspx) article in the Project 2010 SDK. You can design and create a test workflow on a remote computer using a test instance of Project Web App—you do not have to create workflows directly on a Project Server 2013 computer. 
     
 #### 2. Create the entities that your workflow requires.
 
@@ -133,7 +133,7 @@ In Project Web App, review the available workflow phases and stages, and the ent
 
 In SharePoint Designer 2013, construct the workflow by using declarative statements in the Text-Based Designer. You can start typing at the orange insertion line to get context-sensitive auto-completion statements for the workflow logic and steps, or you can insert the logic and steps by using controls in the **Insert** group on the **WORKFLOW** tab of the ribbon. 
     
-1. In the Backstage view of SharePoint Designer 2013, choose **Open Site**. For example, open  `http://ServerName/pwa`. In the **Navigation** pane, choose **Workflows**. Then, on the **WORKFLOWS** tab of the ribbon, in the **New** group, choose **Site Workflow**. For this example, name the workflow Branching Workflow. Ensure that **SharePoint 2013 Workflow - Project Server** is selected in the **Platform Type** drop-down list (see Figure 5). 
+1. In the Backstage view of SharePoint Designer 2013, choose **Open Site**. For example, open  `https://ServerName/pwa`. In the **Navigation** pane, choose **Workflows**. Then, on the **WORKFLOWS** tab of the ribbon, in the **New** group, choose **Site Workflow**. For this example, name the workflow Branching Workflow. Ensure that **SharePoint 2013 Workflow - Project Server** is selected in the **Platform Type** drop-down list (see Figure 5). 
     
     **Figure 5. Creating a Project Server site workflow**
 
@@ -270,7 +270,7 @@ The **Branching Workflow** project is a simple example that has only one compari
 
 To change the workflow, you can create or modify workflow-controlled custom fields and create or modify workflow phases and stages. You can use SharePoint Designer 2013 to add conditions, actions, loops, and stages, and then save and republish the workflow. To reuse or keep a backup of a workflow, you can export it to a Visio 2013 file. 
   
-You can also create or edit the workflow in Visio 2013 and import the file into SharePoint Designer 2013 for use by Project Web App. To use an unmodified workflow, the Project Web App instance must include workflow stage properties that are the same as those in the original Project Web App instance. For more information about using Visio to help create workflows, see [Workflow development in SharePoint Designer 2013 and Visio 2013](http://msdn.microsoft.com/en-us/library/jj163272%28office.15%29.aspx).
+You can also create or edit the workflow in Visio 2013 and import the file into SharePoint Designer 2013 for use by Project Web App. To use an unmodified workflow, the Project Web App instance must include workflow stage properties that are the same as those in the original Project Web App instance. For more information about using Visio to help create workflows, see [Workflow development in SharePoint Designer 2013 and Visio 2013](https://msdn.microsoft.com/library/jj163272%28office.15%29.aspx).
   
 > [!NOTE]
 > When you import a Visio 2013 file to a different instance of Project Web App, the stages have different stage GUIDs, even if the stage names are the same. After you import the workflow, you must configure the stage and action properties to use values that are specific to the Project Web App instance. 
@@ -313,7 +313,7 @@ You can also create or edit the workflow in Visio 2013 and import the file into 
   
    8. On the **PROCESS** tab of the ribbon, in the **Diagram Validation** group, choose **Check Diagram**. Fix any errors, and then save the drawing. For example, name the file Test workflow from Visio.vsdx.
     
-      For information about fixing workflow errors, see [Troubleshooting SharePoint Server 2013 workflow validation errors in Visio 2013](http://msdn.microsoft.com/en-us/library/jj163971%28v=office.15%29.aspx).
+      For information about fixing workflow errors, see [Troubleshooting SharePoint Server 2013 workflow validation errors in Visio 2013](https://msdn.microsoft.com/library/jj163971%28v=office.15%29.aspx).
     
 2. Open SharePoint Designer 2013, and then open the same Project Web App site that you used for the **Branching Workflow** example. 
     
@@ -354,10 +354,10 @@ Visio 2013 and SharePoint Designer together provide convenient ways for designer
 ## See also
 
 - [Project Server 2013 architecture](project-server-2013-architecture.md)
-- [Start: Set up and configure SharePoint 2013 Workflow Manager](http://msdn.microsoft.com/en-us/library/jj163276%28office.15%29.aspx)
-- [Understanding how to package and deploy workflow in SharePoint 2013](http://msdn.microsoft.com/en-us/library/jj819316%28office.15%29.aspx)
-- [Workflows in SharePoint 2013](http://msdn.microsoft.com/en-us/library/jj163986%28office.15%29.aspx)
-- [Workflow development in SharePoint Designer 2013 and Visio 2013](http://msdn.microsoft.com/en-us/library/jj163272%28office.15%29.aspx)
-- [Troubleshooting SharePoint Server 2013 workflow validation errors in Visio 2013](http://msdn.microsoft.com/en-us/library/jj163971%28v=office.15%29.aspx)
-- [Workflow and Demand Management](http://msdn.microsoft.com/library/cf7433a3-a531-4467-ac0c-df0c5d6881ae%28Office.15%29.aspx)
+- [Start: Set up and configure SharePoint 2013 Workflow Manager](https://msdn.microsoft.com/library/jj163276%28office.15%29.aspx)
+- [Understanding how to package and deploy workflow in SharePoint 2013](https://msdn.microsoft.com/library/jj819316%28office.15%29.aspx)
+- [Workflows in SharePoint 2013](https://msdn.microsoft.com/library/jj163986%28office.15%29.aspx)
+- [Workflow development in SharePoint Designer 2013 and Visio 2013](https://msdn.microsoft.com/library/jj163272%28office.15%29.aspx)
+- [Troubleshooting SharePoint Server 2013 workflow validation errors in Visio 2013](https://msdn.microsoft.com/library/jj163971%28v=office.15%29.aspx)
+- [Workflow and Demand Management](https://msdn.microsoft.com/library/cf7433a3-a531-4467-ac0c-df0c5d6881ae%28Office.15%29.aspx)
 

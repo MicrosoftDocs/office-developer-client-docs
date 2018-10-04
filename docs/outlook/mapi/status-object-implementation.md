@@ -26,7 +26,7 @@ All service providers must implement a status object and furnish properties from
           
       2. Create a new status object.
           
-      3. Store a reference to the profile section in your provider's status object and call the profile section's [IUnknown::AddRef](http://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) method to increment its reference count. 
+      3. Store a reference to the profile section in your provider's status object and call the profile section's [IUnknown::AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) method to increment its reference count. 
           
       4. Store a reference to the logon object in your provider's status object and call the logon object's **IUnknown::AddRef** method to increment its reference count. 
           

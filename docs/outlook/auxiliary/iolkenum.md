@@ -10,13 +10,13 @@ ms.assetid: 33cb89cb-c967-760c-6bc4-94118a4f872c
 
 # IOlkEnum
 
-Supports enumerating accounts as [IUnknown](https://docs.microsoft.com/en-us/windows/desktop/api/unknwn/nn-unknwn-iunknown) objects. 
+Supports enumerating accounts as [IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) objects. 
   
 ## Quick info
 
 |||
 |:-----|:-----|
-|Inherits from:  <br/> |[IUnknown](https://docs.microsoft.com/en-us/windows/desktop/api/unknwn/nn-unknwn-iunknown) <br/> |
+|Inherits from:  <br/> |[IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) <br/> |
 |Implemented by:  <br/> |Outlook  <br/> |
 |Provided by:  <br/> |[IOlkAccountManager::EnumerateAccounts](iolkaccountmanager-enumerateaccounts.md) <br/> |
 |Called by:  <br/> |Client  <br/> |

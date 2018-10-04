@@ -20,11 +20,11 @@ To download and install the examples used in the "Using MAPI to create Outlook i
 
 ### To download and install the MFCMAPI application and open CreateOutlookItemsAddin project
 
-1. Download the current version of the [MFCMAPI](http://go.microsoft.com/fwlink/?LinkID=124154) executable to a folder on your system. 
+1. Download the current version of the [MFCMAPI](https://go.microsoft.com/fwlink/?LinkID=124154) executable to a folder on your system. 
     
 2. Extract the MFCMapi.exe file in MFCMapi.exe. _version_.zip to an empty folder on your hard drive.
     
-3. Download the current version of the [CreateOutlookItemsAddin](http://go.microsoft.com/fwlink/?LinkID=127828) project. 
+3. Download the current version of the [CreateOutlookItemsAddin](https://go.microsoft.com/fwlink/?LinkID=127828) project. 
     
 4. Extract all the files in the CreateOutlookItemsAddin.zip file to the folder where you extracted the MFCMapi.exe file in Step 2.
     
@@ -65,7 +65,7 @@ Some topics refer to source code from the MFCMAPI application itself. The follow
 
 ### To download and view the MFCMAPI application source code
 
-1. Download the source code for the current version of the [MFCMAPI](http://go.microsoft.com/fwlink/?LinkID=124154) application to a folder on your system. 
+1. Download the source code for the current version of the [MFCMAPI](https://go.microsoft.com/fwlink/?LinkID=124154) application to a folder on your system. 
     
 2. Extract the files in MFCMAPI- _changeset_.zip to an empty folder on your hard drive.
     

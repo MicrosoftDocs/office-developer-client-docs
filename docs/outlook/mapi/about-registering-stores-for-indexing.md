@@ -35,7 +35,7 @@ By default, Windows Desktop Search adds the following four types of store provid
  Third-party store providers that want to be indexed must register themselves in the Windows registry. 
   
 > [!NOTE]
-> Administrators and users can use a Group Policy setting to prevent Windows Desktop Search from indexing Outlook items. For more information, see [Extending Windows Desktop Search](http://msdn.microsoft.com/library/2eab146a-8516-4b95-b73c-ca7f980ba233%28Office.15%29.aspx). 
+> Administrators and users can use a Group Policy setting to prevent Windows Desktop Search from indexing Outlook items. For more information, see [Extending Windows Desktop Search](https://msdn.microsoft.com/library/2eab146a-8516-4b95-b73c-ca7f980ba233%28Office.15%29.aspx). 
   
 ## Registry Keys
 

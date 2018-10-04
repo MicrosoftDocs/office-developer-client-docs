@@ -20,7 +20,7 @@ The aggregation of data that results from merging forms can include all of the d
     
 ## Creating a Custom Transform
 
-The default operation when merging forms works well for forms that are based on the same XML schema. In some circumstances, however, you may want to merge forms that are based on different schemas or override the default merge operation for forms that are based on the same schema. For these scenarios, you can create an XSL Transform (XSLT), which contains aggregation instructions for the merge operation. The transform is applied at merge time to create a DOM document that contains the information to be imported, together with annotations specifying how to incorporate this information into the target document. These annotations are XML attributes in the namespace  `http://schemas.microsoft.com/office/InfoPath/2003/aggregation`.
+The default operation when merging forms works well for forms that are based on the same XML schema. In some circumstances, however, you may want to merge forms that are based on different schemas or override the default merge operation for forms that are based on the same schema. For these scenarios, you can create an XSL Transform (XSLT), which contains aggregation instructions for the merge operation. The transform is applied at merge time to create a DOM document that contains the information to be imported, together with annotations specifying how to incorporate this information into the target document. These annotations are XML attributes in the namespace  `https://schemas.microsoft.com/office/InfoPath/2003/aggregation`.
   
 The XML attributes and their values serve as aggregation instructions on how each node is merged with the destination XML document. These attributes are described in the following sections.
   
@@ -65,7 +65,7 @@ If the value of the **agg:action** attribute is "delete", each of the destinatio
  agg:action="delete"/>
 ```
 
-In conjunction with the attributes specified in the  `http://schemas.microsoft.com/office/InfoPath/2003/aggregation` namespace, you use the  `http://schemas.microsoft.com/office/infopath/2003/aggregation-target` namespace to denote an XSL object that implements the interface **IXMLDOMDocument**. One of the most useful members of this interface is the method **get-documentElement**.
+In conjunction with the attributes specified in the  `https://schemas.microsoft.com/office/InfoPath/2003/aggregation` namespace, you use the  `https://schemas.microsoft.com/office/infopath/2003/aggregation-target` namespace to denote an XSL object that implements the interface **IXMLDOMDocument**. One of the most useful members of this interface is the method **get-documentElement**.
   
 ### get-documentElement
 
@@ -97,10 +97,10 @@ The **target:get-documentElement** function provides access to the Document Obje
     
     ```XML
         <?xml version="1.0"?> 
-        <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
-        xmlns:agg="http://schemas.microsoft.com/office/infopath/2003/aggregation" 
-        xmlns:target="http://schemas.microsoft.com/office/infopath/2003/aggregation-target" 
-        xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2003-05-29T20:30:47"> 
+        <xsl:stylesheet version="1.0" xmlns:xsl="https://www.w3.org/1999/XSL/Transform" 
+        xmlns:agg="https://schemas.microsoft.com/office/infopath/2003/aggregation" 
+        xmlns:target="https://schemas.microsoft.com/office/infopath/2003/aggregation-target" 
+        xmlns:my="https://schemas.microsoft.com/office/infopath/2003/myXSD/2003-05-29T20:30:47"> 
             <xsl:template match="/"> 
                 <xsl:copy> 
                 <xsl:apply-templates select="@* | node()" /> 

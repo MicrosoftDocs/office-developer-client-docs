@@ -30,24 +30,24 @@ To view the **Formula Tracing** window, with the ShapeSheet window active, under
 
 To see a list of cells that are dependent on a particular cell, select that cell in the ShapeSheet window. In this example, the Width cell is selected. 
   
-![](media/ShapeSheetDependents_UI_01_ZA01039814.gif)
+![Width cell is selected](media/ShapeSheetDependents_UI_01_ZA01039814.gif)
   
 To view its dependent cells, in the **Formula Tracing**group, click **Trace Dependents**.
   
 A list of all the cells with a dependency on the Width cell appears in the **Formula Tracing** window. You can navigate to any cell in the list by double-clicking its entry in the **Formula Tracing** window. 
   
-![](media/ShapeSheetDependents_UI_02_ZA01039815.gif)
+![All the cells with a dependency on the Width cell appear in the Formula Tracing window](media/ShapeSheetDependents_UI_02_ZA01039815.gif)
   
 ## Tracing precendent cells
 
 To see a list of cells that a particular cell is dependent upon, first select the cell in the ShapeSheet window. In this example, the Geometry1.X2 cell is selected. 
   
-![](media/ShapeSheetPrecedents_UI_01_ZA01039817.gif)
+![Geometry1.X2 cell is selected](media/ShapeSheetPrecedents_UI_01_ZA01039817.gif)
   
 To view its precedent cells, in the **Formula Tracing**group, click **Trace Precedents**.
   
 A list of all the cells that the Geometry1.X2 cell is dependent upon appears in the **Formula Tracing** window. You can navigate to any cell in the list by double-clicking its entry in the **Formula Tracing** window. 
   
-![](media/ShapeSheetPrecedents_UI_02_ZA01039818.gif)
+![All the cells that the Geometry1.X2 cell is dependent upon appear in the Formula Tracing window](media/ShapeSheetPrecedents_UI_02_ZA01039818.gif)
   
 

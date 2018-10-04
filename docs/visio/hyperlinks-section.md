@@ -11,12 +11,12 @@ f1_keywords:
  
 localization_priority: Normal
 ms.assetid: fdf442ea-2c86-8bd5-b95d-59ad0e4da719
-description: "Contains cells for creating multiple jumps between a shape or drawing page and another drawing page, another file, or a Web site."
+description: "Contains cells for creating multiple jumps between a shape or drawing page and another drawing page, another file, or a website."
 ---
 
 # Hyperlinks Section
 
-Contains cells for creating multiple jumps between a shape or drawing page and another drawing page, another file, or a Web site.
+Contains cells for creating multiple jumps between a shape or drawing page and another drawing page, another file, or a website.
   
 ## Remarks
 

@@ -49,7 +49,7 @@ There are several file types, by extension, that comprise the Visio 2013 file fo
 The Visio 2013 file format uses the Open Packing Conventions (OPC), which defines a structured means to store application data together with related resources using a container of some sort─for example, a ZIP file. At a basic level, a Visio 2013 file is really a ZIP container that contains other types of files. In fact, you can save a drawing in Visio 2013 as a .vsdx file, rename the file extension to "\*.zip" in Windows Explorer, and then open the file like a folder to see the contents inside.
   
 > [!NOTE]
->  This article contains only a brief overview of the Open Packaging Conventions. You can find more detailed coverage of the conventions in other articles: >  For more information about the Open Packaging Conventions themselves, see [OPC: A New Standard for Packaging Your Data](http://msdn.microsoft.com/en-us/magazine/cc163372.aspx). >  For more information about the Open Packaging Conventions and their use in Microsoft Office files, see [Essentials of the Open Packaging Conventions](http://msdn.microsoft.com/en-us/library/ee361919.aspx) and [Introducing the Office (2007) Open XML File Formats](http://msdn.microsoft.com/en-us/library/aa338205.aspx). 
+>  This article contains only a brief overview of the Open Packaging Conventions. You can find more detailed coverage of the conventions in other articles: >  For more information about the Open Packaging Conventions themselves, see [OPC: A New Standard for Packaging Your Data](https://msdn.microsoft.com/magazine/cc163372.aspx). >  For more information about the Open Packaging Conventions and their use in Microsoft Office files, see [Essentials of the Open Packaging Conventions](https://msdn.microsoft.com/library/ee361919.aspx) and [Introducing the Office (2007) Open XML File Formats](https://msdn.microsoft.com/library/aa338205.aspx). 
   
 ### Packages and Package Parts
 
@@ -133,7 +133,7 @@ However, it looks like the following code in the Visio 2013 file.
 ## Developer scenarios for working with the Visio 2013 file format
 <a name="vis15_IntroVSDX_Scenarios"> </a>
 
-As explained above, the Visio 2013 file format leverages several well-understood technologies like ZIP files and XML to store data. To manipulate a Visio 2013 drawing at the file level, a solution need only to use the .NET Framework namespaces and classes associated with working with ZIP files or XML, like [System.IO.Packaging](http://msdn.microsoft.com/en-us/library/system.io.packaging%28v=vs.110%29.aspx) or [System.Xml](http://msdn.microsoft.com/en-us/library/system.xml%28v=vs.110%29.aspx).
+As explained above, the Visio 2013 file format leverages several well-understood technologies like ZIP files and XML to store data. To manipulate a Visio 2013 drawing at the file level, a solution need only to use the .NET Framework namespaces and classes associated with working with ZIP files or XML, like [System.IO.Packaging](https://msdn.microsoft.com/library/system.io.packaging%28v=vs.110%29.aspx) or [System.Xml](https://msdn.microsoft.com/library/system.xml%28v=vs.110%29.aspx).
   
 The key benefit to developers of the Visio 2013 file format is that you can read and write to Visio 2013 files without automating the Visio client application. Some scenarios that you might consider as a developer for working with Visio 2013 file format include:
   
@@ -283,12 +283,12 @@ In the following code sample, you can see how to open a .vsdx file, read the lis
 
 For more information about the Visio 2013 file format, the Open Packaging Convention, or how to work with Visio 2013or Office OpenXML files programmatically, see the following resources:
   
-- [Visio for developers](http://msdn.microsoft.com/en-us/office/aa905478.aspx)
+- [Visio for developers](https://msdn.microsoft.com/office/aa905478.aspx)
     
-- [OPC: A New Standard for Packaging Your Data](http://msdn.microsoft.com/en-us/magazine/cc163372.aspx).
+- [OPC: A New Standard for Packaging Your Data](https://msdn.microsoft.com/magazine/cc163372.aspx).
     
-- [Essentials of the Open Packaging Conventions](http://msdn.microsoft.com/en-us/library/ee361919.aspx)
+- [Essentials of the Open Packaging Conventions](https://msdn.microsoft.com/library/ee361919.aspx)
     
-- [Introducing the Office (2007) Open XML File Formats](http://msdn.microsoft.com/en-us/library/aa338205.aspx)
+- [Introducing the Office (2007) Open XML File Formats](https://msdn.microsoft.com/library/aa338205.aspx)
     
 

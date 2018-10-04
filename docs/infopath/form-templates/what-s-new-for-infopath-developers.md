@@ -44,7 +44,7 @@ The following sections briefly describe these features and improvements that are
     
 ## New Way to Write and Edit Code
 
-The Microsoft Visual Studio Tools for Applications IDE that was integrated with InfoPath 2010 has been removed in InfoPath 2013. To write or edit form code in InfoPath 2013 now requires Visual Studio 2012 with the [Microsoft Visual Studio Tools for Applications 2012](http://www.microsoft.com/en-us/download/details.aspx?id=38807) add-on installed. The programming experience itself has not fundamentally changed, but you can now use the full Visual Studio development experience when writing managed code for your InfoPath forms. 
+The Microsoft Visual Studio Tools for Applications IDE that was integrated with InfoPath 2010 has been removed in InfoPath 2013. To write or edit form code in InfoPath 2013 now requires Visual Studio 2012 with the [Microsoft Visual Studio Tools for Applications 2012](https://www.microsoft.com/en-us/download/details.aspx?id=38807) add-on installed. The programming experience itself has not fundamentally changed, but you can now use the full Visual Studio development experience when writing managed code for your InfoPath forms. 
   
 The following sections describe features that were first added in InfoPath 2010 and SharePoint Server 2010 and continue to add value for developers using InfoPath 2013 and SharePoint Server 2013.
   
@@ -62,7 +62,7 @@ Using InfoPath, you can now extend and enhance the forms used for creating, edit
   
 ## Host Forms on Portal Pages using the InfoPath Form web part
 
-In SharePoint Server 2013, it is easier than ever to host your forms on Web pages using the new **InfoPath Form web part**. In Microsoft Office SharePoint Server 2007, users who want host their InfoPath forms on Web pages have to write code in Visual Studio. Now, without writing a single line of code, you can add the **InfoPath Form web part** to a Web Parts page and point it to your published form.You can use the **InfoPath Form web part** to host any InfoPath browser form that is published to a SharePoint list or form library. You can also connect it to other Web Parts on the page to send or receive data. For more information about how to use the **InfoPath Form web part**, see [Working with the InfoPath Form web part](http://msdn.microsoft.com/library/bb87e126-1a07-45aa-af36-b294df3a2576%28Office.15%29.aspx) in the SharePoint 2010 SDK. 
+In SharePoint Server 2013, it is easier than ever to host your forms on Web pages using the new **InfoPath Form web part**. In Microsoft Office SharePoint Server 2007, users who want host their InfoPath forms on Web pages have to write code in Visual Studio. Now, without writing a single line of code, you can add the **InfoPath Form web part** to a Web Parts page and point it to your published form.You can use the **InfoPath Form web part** to host any InfoPath browser form that is published to a SharePoint list or form library. You can also connect it to other Web Parts on the page to send or receive data. For more information about how to use the **InfoPath Form web part**, see [Working with the InfoPath Form web part](https://msdn.microsoft.com/library/bb87e126-1a07-45aa-af36-b294df3a2576%28Office.15%29.aspx) in the SharePoint 2010 SDK. 
   
 ## Richer Web Forms
 

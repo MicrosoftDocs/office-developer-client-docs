@@ -30,11 +30,11 @@ The Project 2013 desktop client applications—Project Standard 2013 and Project
   
 The **MSProject** object model for VBA in Project 2013 is essentially the same as the **Microsoft.Office.Interop.MSProject** object model for managed-code solutions with Office Developer Tools for Visual Studio 2013 (also known as VSTO). Visual Studio 2012 includes templates for developing application-level add-ins for Project 2010 and for Project 2013 (either the Project Standard or Project Professional versions). VSTO and Office Developer Tools for Visual Studio 2012 simplify developing, testing, and deploying advanced integration solutions that can use the Project desktop client and other Office 2013 applications, and integrate with SharePoint sites, lists, and workflows. 
   
-Task pane add-ins and other add-ins for Office and SharePoint can be sold in the Office Store (see [http://office.microsoft.com/store/](http://office.microsoft.com/en-us/store/)) for use with both Project Online and on-premises installations. VBA macros and VSTO add-ins cannot be distributed in the Office Store; they are designed for local use with Project Standard and Project Professional. You can distribute VBA macros within a project .MPP file, install them in the Global.MPT file on your computer, or distribute them in the enterprise global template in Project Server 2013. VSTO add-ins can be distributed more securely through [ClickOnce](http://msdn.microsoft.com/en-us/library/t71a733d.aspx) deployment, which enables easy updates. 
+Task pane add-ins and other add-ins for Office and SharePoint can be sold in the Office Store (see [https://office.microsoft.com/store/](https://office.microsoft.com/en-us/store/)) for use with both Project Online and on-premises installations. VBA macros and VSTO add-ins cannot be distributed in the Office Store; they are designed for local use with Project Standard and Project Professional. You can distribute VBA macros within a project .MPP file, install them in the Global.MPT file on your computer, or distribute them in the enterprise global template in Project Server 2013. VSTO add-ins can be distributed more securely through [ClickOnce](https://msdn.microsoft.com/library/t71a733d.aspx) deployment, which enables easy updates. 
   
 ## Reference
 
-[Project VBA developer reference](http://msdn.microsoft.com/en-us/library/ee861523%28office.15%29.aspx) Contains introductory and VBA Help articles. 
+[Project VBA developer reference](https://msdn.microsoft.com/library/ee861523%28office.15%29.aspx) Contains introductory and VBA Help articles. 
   
 ## Related sections
 
@@ -42,9 +42,9 @@ Task pane add-ins and other add-ins for Office and SharePoint can be sold in the
   
 ## See also
 
-- [Project for developers](http://msdn.microsoft.com/en-us/office/aa905469)
+- [Project for developers](https://msdn.microsoft.com/office/aa905469)
 - [Office developer center](https://dev.office.com)
-- [Visual Studio developer center](http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx)
-- [ClickOnce Security and Deployment](http://msdn.microsoft.com/en-us/library/t71a733d.aspx)
+- [Visual Studio developer center](https://msdn.microsoft.com/vstudio/aa718325.aspx)
+- [ClickOnce Security and Deployment](https://msdn.microsoft.com/library/t71a733d.aspx)
 - [Available fields reference](https://support.office.com/en-us/article/available-fields-reference-615a4563-1cc3-40f4-b66f-1b17e793a460)
 

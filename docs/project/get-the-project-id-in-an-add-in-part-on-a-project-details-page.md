@@ -33,7 +33,7 @@ To use the code example in this article, you'll need either of the following:
             
         - You must be logged on as someone other than the system account. The system account does not have permission to install an add-in.
     
-See [Prerequisites for creating an add-in for Project Server 2013](create-a-sharepoint-hosted-project-server-add-in.md#pj15_StatusingApp_Prerequisites) for more information about add-ins for Project. See [Set up an on-premises development environment for SharePoint Add-ins](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/set-up-an-on-premises-development-environment-for-sharepoint-add-ins) for guidance about on-premises setup (including how to disable the loopback check, if necessary). If you're developing remotely, see [Developing apps for SharePoint on a remote system](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/develop-sharepoint-add-ins).
+See [Prerequisites for creating an add-in for Project Server 2013](create-a-sharepoint-hosted-project-server-add-in.md#pj15_StatusingApp_Prerequisites) for more information about add-ins for Project. See [Set up an on-premises development environment for SharePoint Add-ins](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/set-up-an-on-premises-development-environment-for-sharepoint-add-ins) for guidance about on-premises setup (including how to disable the loopback check, if necessary). If you're developing remotely, see [Developing apps for SharePoint on a remote system](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/develop-sharepoint-add-ins).
   
 ## Create the SharePoint-hosted add-in and client web part
 <a name="CreateApp"> </a>
@@ -152,7 +152,7 @@ The add-in part in this example doesn't access Project Server data or SharePoint
   
 In the AppManifest.xml file, specify the permissions that your add-in needs to access Project Server data or SharePoint data. 
   
-See [Create add-in parts to install with your SharePoint Add-in](http://msdn.microsoft.com/library/a2664289-6c56-4cb1-987a-22367fad55eb%28Office.15%29.aspx) to learn how to set custom properties for an add-in part. 
+See [Create add-in parts to install with your SharePoint Add-in](https://msdn.microsoft.com/library/a2664289-6c56-4cb1-987a-22367fad55eb%28Office.15%29.aspx) to learn how to set custom properties for an add-in part. 
   
 ## Example: Getting the project ID in an add-in part on a PDP page
 <a name="CodeExample"> </a>
@@ -247,6 +247,6 @@ The following example is the complete code in the client web part's GetProjectID
 
 - [Project programming tasks](project-programming-tasks.md)
 - [Create a SharePoint-hosted Project Server add-in](create-a-sharepoint-hosted-project-server-add-in.md)
-- [Create add-in parts to install with your SharePoint Add-in](http://msdn.microsoft.com/library/a2664289-6c56-4cb1-987a-22367fad55eb%28Office.15%29.aspx)
+- [Create add-in parts to install with your SharePoint Add-in](https://msdn.microsoft.com/library/a2664289-6c56-4cb1-987a-22367fad55eb%28Office.15%29.aspx)
     
 

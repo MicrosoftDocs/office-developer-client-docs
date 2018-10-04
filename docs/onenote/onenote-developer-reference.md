@@ -25,15 +25,15 @@ This documentation contains the following information:
 - [Error codes](error-codes-onenote.md): Lists the error codes in the OneNote 2013 object model.
     
 > [!NOTE]
-> The APIs described in this documentation are intended only for OneNote Win32 desktop client solutions in unconnected scenarios. For connected scenarios, use the recommended OneNote service APIs. To learn more, visit [dev.onenote.com](http://go.microsoft.com/fwlink/?LinkID=390615). 
+> The APIs described in this documentation are intended only for OneNote Win32 desktop client solutions in unconnected scenarios. For connected scenarios, use the recommended OneNote service APIs. To learn more, visit [dev.onenote.com](https://go.microsoft.com/fwlink/?LinkID=390615). 
   
 ## See also
 
-- [OneNote for developers](http://go.microsoft.com/fwlink/?LinkID=390615)   
+- [OneNote for developers](https://go.microsoft.com/fwlink/?LinkID=390615)   
 - [Samples on GitHub](https://github.com/OneNoteDev/) (OneNote service APIs)     
-- [Accessibility in Microsoft Products](http://www.microsoft.com/enable/products/default.aspx)    
-- [Document Conventions](http://msdn.microsoft.com/en-us/office/aa905365.aspx)    
-- [OneNote Developer Reference Copyright Information](https://msdn.microsoft.com/en-us/library/office/jj680116.aspx)
+- [Accessibility in Microsoft Products](https://www.microsoft.com/enable/products/default.aspx)    
+- [Document Conventions](https://msdn.microsoft.com/office/aa905365.aspx)    
+- [OneNote Developer Reference Copyright Information](https://msdn.microsoft.com/library/office/jj680116.aspx)
     
     
 

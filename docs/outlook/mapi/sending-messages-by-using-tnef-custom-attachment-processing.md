@@ -38,7 +38,7 @@ To customize attachment processing when sending a message:
     
 9. Obtain the tagged message text by calling the [ITnef::OpenTaggedBody](itnef-opentaggedbody.md) method. This tagged text is read using methods from the **IStream** interface, encoded using the messaging system's attachment model, and written out to the messaging system. 
     
-10. Call the [IUnknown::Release](http://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) method to release the [ITnef](itnefiunknown.md) object. 
+10. Call the [IUnknown::Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) method to release the [ITnef](itnefiunknown.md) object. 
     
 11. Write the remaining attachments to the messaging system through the messaging system's attachment model.
     

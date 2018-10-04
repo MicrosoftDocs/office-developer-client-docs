@@ -22,7 +22,7 @@ The Microsoft Outlook MAPI samples include an address book provider, a message s
   
  **To download the Sample Address Book Provider**
   
-1. To download the Outlook MAPI samples, click the **Home** tab on the [Outlook Messaging API (MAPI) Code Samples](http://ol2010mapisamples.codeplex.com/) page. 
+1. To download the Outlook MAPI samples, click the **Home** tab on the [Outlook Messaging API (MAPI) Code Samples](https://ol2010mapisamples.codeplex.com/) page. 
     
 2. On the **Home** tab, click **Click here to download the source for Outlook 2010 MAPI Samples**.
     

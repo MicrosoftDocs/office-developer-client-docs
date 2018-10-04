@@ -1,12 +1,8 @@
 ---
 title: "Create an ActiveX Control that can Bind to InfoPath Form Data"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: a0d62047-bf08-9f70-de00-7f81ef1331f1
 description: "You can host ActiveX controls in InfoPath forms that are designed to be opened in the InfoPath editor. These controls can be preexisting (with some constraints) or can be written specifically for InfoPath."
@@ -50,9 +46,9 @@ In order for InfoPath to update properties in the Document Object Model (DOM) at
     
 Also, there are two InfoPath-specific COM interfaces that provide tighter integration of controls:
   
-- [IInfoPathControl](http://msdn.microsoft.com/en-us/library/bb264625.aspx)
+- [IInfoPathControl](https://msdn.microsoft.com/library/bb264625.aspx)
     
-- [IInfoPathControlSite](http://msdn.microsoft.com/en-us/library/bb264627.aspx)
+- [IInfoPathControlSite](https://msdn.microsoft.com/library/bb264627.aspx)
     
 ## Add an ActiveX Control to the InfoPath Design Environment
 
@@ -75,9 +71,7 @@ To distribute an ActiveX control, you can write an installer that installs the c
   
 ## See also
 
-
-
 Lab 6: Adding ActiveX Controls in InfoPath 2003
   
-[Creating an InfoPath Custom Control using C# and .NET (InfoPath Team Blog)](http://blogs.msdn.com/infopath/archive/2005/04/15/creating-an-infopath-custom-control-using-c-and-net.aspx)
+[Creating an InfoPath Custom Control using C# and .NET (InfoPath Team Blog)](https://blogs.msdn.microsoft.com/infopath/2005/04/15/creating-an-infopath-custom-control-using-c-and-net/)
 

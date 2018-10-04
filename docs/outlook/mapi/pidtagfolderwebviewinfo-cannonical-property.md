@@ -88,7 +88,7 @@ cbData
     
 ### WebViewPersistenceObject Stream Sample
 
-This section describes an example of a **WebViewPersistenceObject** stream. The stream specifies the home page URL "http://www.microsoft.com". 
+This section describes an example of a **WebViewPersistenceObject** stream. The stream specifies the home page URL "https://www.microsoft.com". 
   
  **Data dump**
   
@@ -127,6 +127,6 @@ The following is a parse of the sample data for the **WebViewPersistenceObject**
     
  _wzURL_
   
-> Offset 0x2C, 0x32 bytes: array of 25 WCHARs. A Unicode zero-terminated string value: "http://www.microsoft.com".
+> Offset 0x2C, 0x32 bytes: array of 25 WCHARs. A Unicode zero-terminated string value: "https://www.microsoft.com".
     
 

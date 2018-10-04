@@ -146,13 +146,13 @@ Similarly to the element case, you can declare an attribute with an **anyAttribu
 
 ## Storing XML Signatures in the Data Source
 
-To enable users to digitally sign a form at run time, the schema of the data source must declare an element named signature for storing the XML Signatures (digital signature) information that is created when a user signs the form. You make this declaration by using the **xsd:any** element with the namespace attribute specified as the XML Signatures namespace with a wildcard character, as follows: "http://www.w3c.org/2000/09/xmldsig#" 
+To enable users to digitally sign a form at run time, the schema of the data source must declare an element named signature for storing the XML Signatures (digital signature) information that is created when a user signs the form. You make this declaration by using the **xsd:any** element with the namespace attribute specified as the XML Signatures namespace with a wildcard character, as follows: "https://www.w3c.org/2000/09/xmldsig#" 
   
 ```XML
 <xsd:element name="signature"> 
     <xsd:complexType> 
         <xsd:sequence> 
-            <xsd:any namespace="http://www.w3c.org/2000/09/xmldsig#"  
+            <xsd:any namespace="https://www.w3c.org/2000/09/xmldsig#"  
              processContents="lax" minOccurs="0" maxOccurs="unbounded"/> 
         <xsd:sequence> 
     </xsd:complexType> 
@@ -168,7 +168,7 @@ To enable users to digitally sign a form at run time, the schema of the data sou
 <xsd:element name="xhtml"> 
     <xsd:complexType mixed="true"> 
         <xsd:sequence> 
-            <xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/> 
+            <xsd:any minOccurs="0" maxOccurs="unbounded" namespace="https://www.w3.org/1999/xhtml" processContents="lax"/> 
         </xsd:sequence> 
     </xsd:complexType> 
 </xsd:element> 
@@ -189,7 +189,7 @@ Similar to all W3C standards, XML Schemas (XSD) went through a lengthy review pr
 To ensure that an XSD file supports the full XSD recommendation, it should contain the following XML namespace declaration in the \<schema\> tag:
   
 ```XML
-xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+xmlns:xsd="https://www.w3.org/2001/XMLSchema"
 ```
 
 Similar to all XML namespace declarations, the XML prefix (in this case 'xsd') can be any valid prefix string. Some common prefixes you may see in practice are 'xsd', 'xs', and '' (no prefix). MSXML usually reports an error about the root not being properly defined if this namespace declaration is missing.
@@ -372,14 +372,14 @@ Removing the empty  `<xsd:choice />` tag should resolve this problem.
   
 ## Regular Expressions
 
-MSXML 5.0 can have problems validating regular expression patterns on load. Regular expressions can be complicated, and you should be careful when you are using them. Every XSD parser seems to have flexible regular expression languages; that is, they implement the official XSD regular expression language plus elements from other regular expression languages. If InfoPath form designer has problems parsing a regular expression, then the sample data InfoPath generates might be invalid or might not be generated at all. This is acceptable at design time, because InfoPath uses only sample data for formatting. However, if you use a regular expression that MSXML does not support, then InfoPath cannot validate a value against it when a user is filling out a form. [XML Schema Part 0: Primer Second Edition](http://www.w3.org/TR/xmlschema-0/)describes what is supported in XSD regular expressions. For more information about XSD regular expressions and Unicode level 1 regular expressions, see [Unicode Regular Expressions](http://www.unicode.org/reports/tr18/) . 
+MSXML 5.0 can have problems validating regular expression patterns on load. Regular expressions can be complicated, and you should be careful when you are using them. Every XSD parser seems to have flexible regular expression languages; that is, they implement the official XSD regular expression language plus elements from other regular expression languages. If InfoPath form designer has problems parsing a regular expression, then the sample data InfoPath generates might be invalid or might not be generated at all. This is acceptable at design time, because InfoPath uses only sample data for formatting. However, if you use a regular expression that MSXML does not support, then InfoPath cannot validate a value against it when a user is filling out a form. [XML Schema Part 0: Primer Second Edition](https://www.w3.org/TR/xmlschema-0/)describes what is supported in XSD regular expressions. For more information about XSD regular expressions and Unicode level 1 regular expressions, see [Unicode Regular Expressions](https://www.unicode.org/reports/tr18/) . 
   
 ## targetNamespace Attribute Issues
 
 XSD is interesting in that, by default, the **targetNamespace** attribute refers to only the top-level declarations, although you can set  `attributeFormDefault=qualified` and  `elementFormDefault=qualified` to override this default behavior. As an example, assume that you have the following XSD. 
   
 ```XML
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://ns" > 
+<xsd:schema xmlns:xsd="https://www.w3.org/2001/XMLSchema" targetNamespace="https://ns" > 
     <xsd:element name="root"> 
         <xsd:complexType> 
             <xsd:sequence> 
@@ -394,7 +394,7 @@ XSD is interesting in that, by default, the **targetNamespace** attribute refers
 And that, your XML instance document resembles the following example.
   
 ```XML
-<ns:root xmlns:ns="http://ns"> 
+<ns:root xmlns:ns="https://ns"> 
     <local/> 
 </ns:root> 
 
@@ -403,7 +403,7 @@ And that, your XML instance document resembles the following example.
 Local definitions do not require the target namespace because qualification is turned off by default. However, if you change your local definition to be global, then your reference must be qualified with the namespace prefix. For example, the following schema is invalid.
   
 ```XML
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://ns" > 
+<xsd:schema xmlns:xsd="https://www.w3.org/2001/XMLSchema" targetNamespace="https://ns" > 
     <xsd:element name="root"> 
         <xsd:complexType> 
             <xsd:sequence> 
@@ -417,11 +417,11 @@ Local definitions do not require the target namespace because qualification is t
 
 ```
 
-This schema is invalid because "global" is in the namespace "http://ns". The simple ref="global" is not recognized because the default namespace is not "http://ns". To fix this, you must add a prefix for the target namespace and use that for all global references and type uses. The corrected schema looks like the following.
+This schema is invalid because "global" is in the namespace "https://ns". The simple ref="global" is not recognized because the default namespace is not "https://ns". To fix this, you must add a prefix for the target namespace and use that for all global references and type uses. The corrected schema looks like the following.
   
 ```XML
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"  
-    xmlns:ns="http://ns" targetNamespace="http://ns" > 
+<xsd:schema xmlns:xsd="https://www.w3.org/2001/XMLSchema"  
+    xmlns:ns="https://ns" targetNamespace="https://ns" > 
     <xsd:element name="root"> 
         <xsd:complexType> 
             <xsd:sequence> 
@@ -505,13 +505,13 @@ If you also want to allow user-defined attributes, then you must add  `<xsd:anyA
   
 ## Allowing Rich Text Elements to be Bound in InfoPath Design and Edit Modes
 
-If you want to declare an element that can be bound to a **Rich Text Box** control, then it should have the following form, which includes the **xsd:any** element that has a namespace attribute set to "http://www.w3.org/1999/xhtml" as shown in the following example. 
+If you want to declare an element that can be bound to a **Rich Text Box** control, then it should have the following form, which includes the **xsd:any** element that has a namespace attribute set to "https://www.w3.org/1999/xhtml" as shown in the following example. 
   
 ```XML
 <xsd:element name="your_node_name"> 
     <xsd:complexType mixed="true"> 
         <xsd:sequence> 
-            <xsd:any namespace="http://www.w3.org/1999/xhtml"  
+            <xsd:any namespace="https://www.w3.org/1999/xhtml"  
                 minOccurs="0" maxOccurs="unbounded"/> 
         </xsd:sequence> 
     </xsd:complexType> 
@@ -525,10 +525,10 @@ By taking advantage of InfoPath support for designing XML form solutions that ar
   
 ## See also
 
-- [W3C XML Schema](http://www.w3.org/XML/Schema)
-- [W3C XML Schema Primer](http://www.w3.org/TR/xmlschema-0/)
+- [W3C XML Schema](https://www.w3.org/XML/Schema)
+- [W3C XML Schema Primer](https://www.w3.org/TR/xmlschema-0/)
 - [W3C XML Schema Structures Reference](https://www.xml.com/pub/a/2000/11/29/schemas/structuresref.html)
 - [W3C XML Schema Datatypes Reference](https://www.xml.com/pub/a/2000/11/29/schemas/dataref.html)
 - [XML Schema Tutorial](https://www.w3schools.com/xml/schema_intro.asp)
-- [XML Developer Center](http://msdn.microsoft.com/en-us/xml/default.aspx)
+- [XML Developer Center](https://msdn.microsoft.com/xml/default.aspx)
 

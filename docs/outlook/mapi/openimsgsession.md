@@ -42,7 +42,7 @@ SCODE OpenIMsgSession(
 
  _lpMalloc_
   
-> [in] Pointer to a memory allocator object exposing the OLE [IMalloc](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nn-objidl-imalloc) interface. MAPI needs to use this allocation method when working with the OLE [IStorage](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nn-objidl-istorage) interface. 
+> [in] Pointer to a memory allocator object exposing the OLE [IMalloc](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc) interface. MAPI needs to use this allocation method when working with the OLE [IStorage](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage) interface. 
     
  _ulFlags_
   
@@ -78,6 +78,6 @@ A message session keeps track of all **IMessage**-on- **IStorage** objects creat
   
  **OpenIMsgSession** is used by clients and providers that require the ability to handle several related messages as OLE **IStorage** objects. If only one such message is to be open at a time, there is no need to track multiple messages and no reason to create a message session with **OpenIMsgSession**. 
   
-Because it is dealing with an underlying OLE object, MAPI needs to use OLE memory allocation. For more information about OLE structured storage objects and OLE memory allocation, see [OLE and Data Transfer](http://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx). 
+Because it is dealing with an underlying OLE object, MAPI needs to use OLE memory allocation. For more information about OLE structured storage objects and OLE memory allocation, see [OLE and Data Transfer](https://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx). 
   
 

@@ -57,7 +57,7 @@ Form viewers call a form's **IMAPIForm::Advise** method to register for notifica
   
 ## Notes to implementers
 
-Keep a copy of the view advise sink pointer passed in the  _pAdvise_ parameter so that you can use it to call the appropriate [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) method when an event occurs. Call the view advise sink's [IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28VS.85%29.aspx) method to retain the pointer until notification registration is canceled. Set the contents of the  _pulConnection_ parameter to a nonzero number. 
+Keep a copy of the view advise sink pointer passed in the  _pAdvise_ parameter so that you can use it to call the appropriate [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) method when an event occurs. Call the view advise sink's [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) method to retain the pointer until notification registration is canceled. Set the contents of the  _pulConnection_ parameter to a nonzero number. 
   
 Many forms implement a helper object to handle the registration and subsequent notification of events. 
   

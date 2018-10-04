@@ -21,7 +21,7 @@ description: "Last modified: June 18, 2012"
 Copies a string to a buffer.
   
 > [!CAUTION]
-> Do not use. Consider using [StringCchCopy](http://msdn.microsoft.com/en-us/library/ms647527%28VS.85%29.aspx) instead. 
+> Do not use. Consider using [StringCchCopy](https://msdn.microsoft.com/library/ms647527%28VS.85%29.aspx) instead. 
   
 ```cpp
 LPWSTR MNLS_lstrcpyW(
@@ -47,11 +47,11 @@ If the function fails, the return value is NULL and lpString1 may not be null-te
   
 ## Remarks
 
-This function wraps the **lstrcpy** function. For more information, see [lstrcpy](http://msdn.microsoft.com/en-us/library/ms647490%28VS.85%29.aspx).
+This function wraps the **lstrcpy** function. For more information, see [lstrcpy](https://msdn.microsoft.com/library/ms647490%28VS.85%29.aspx).
   
 ## See also
 
 
 
-[lstrcpy](http://msdn.microsoft.com/en-us/library/ms647490%28VS.85%29.aspx)
+[lstrcpy](https://msdn.microsoft.com/library/ms647490%28VS.85%29.aspx)
 

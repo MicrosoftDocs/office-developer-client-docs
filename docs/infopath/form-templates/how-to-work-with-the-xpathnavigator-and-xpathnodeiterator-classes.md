@@ -72,11 +72,11 @@ Dim emailAlias As XPathNavigator = _
 emailAlias.SetValue(Me.Application.User.UserName.ToString())
 ```
 
-For information about how to create XPath expressions, see the XPath Reference on MSDN, and the [XML Path Language (XPath) Version 1.0 W3C Recommendation](http://www.w3.org/TR/xpath).
+For information about how to create XPath expressions, see the XPath Reference on MSDN, and the [XML Path Language (XPath) Version 1.0 W3C Recommendation](https://www.w3.org/TR/xpath).
   
 ### Setting the Value of a Node That Has the xsi:nil Attribute
 
-For certain data types, trying to set the value of a blank field programmatically raises the error "Schema validation found non-data type errors." Typically the cause of this error is that the element has the [xsi:nil](http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#xsi_nil) attribute set to **true**. If you examine the underlying XML element for the blank field in the form, you can see this setting. For example, the XML fragment for the following blank Date field has the **xsi:nil** attribute set to **true**.
+For certain data types, trying to set the value of a blank field programmatically raises the error "Schema validation found non-data type errors." Typically the cause of this error is that the element has the [xsi:nil](https://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#xsi_nil) attribute set to **true**. If you examine the underlying XML element for the blank field in the form, you can see this setting. For example, the XML fragment for the following blank Date field has the **xsi:nil** attribute set to **true**.
   
 ```XML
 <my:myDate xsi:nil="true"></my:myDate>
@@ -100,7 +100,7 @@ To prevent this error, your code must test for the **xsi:nil** attribute, and if
 public void DeleteNil(XPathNavigator node)
 {
    if (node.MoveToAttribute(
-      "nil", "http://www.w3.org/2001/XMLSchema-instance"))
+      "nil", "https://www.w3.org/2001/XMLSchema-instance"))
       node.DeleteSelf();
 }
 ```
@@ -108,7 +108,7 @@ public void DeleteNil(XPathNavigator node)
 ```vb
 Public Sub DeleteNil(ByVal node As XPathNavigator)
    If (node.MoveToAttribute( _
-      "nil", "http://www.w3.org/2001/XMLSchema-instance")) Then
+      "nil", "https://www.w3.org/2001/XMLSchema-instance")) Then
       node.DeleteSelf()
    End If
 End Sub
