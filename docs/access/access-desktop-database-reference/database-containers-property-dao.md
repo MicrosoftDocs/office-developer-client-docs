@@ -15,7 +15,7 @@ f1_categories:
 # Database.Containers Property (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Returns a **Containers** collection that represents all of the **Container** objects in the specifed database. Read-only.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Hierarchies Collection (ADO MD)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Contains the set [Hierarchy](hierarchy-object-ado-md.md) objects from a dimension.
 

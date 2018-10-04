@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Clear Method (ADO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Removes all the **Error** objects from the **Errors** collection.
 

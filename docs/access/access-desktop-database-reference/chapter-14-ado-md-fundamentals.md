@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Chapter 14: ADO MD Fundamentals
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Microsoft ActiveX Data Objects (Multidimensional) (ADO MD) provides easy access to multidimensional data from languages such as Microsoft Visual Basic, Microsoft Visual C++, and Microsoft Visual J++. ADO MD extends Microsoft ActiveX Data Objects (ADO) to include objects specific to multidimensional data, such as the [CubeDef](cubedef-object-ado-md.md) and [Cellset](cellset-object-ado-md.md) objects. With ADO MD you can browse multidimensional schema, query a cube, and retrieve the results.
 

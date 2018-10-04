@@ -15,7 +15,7 @@ f1_categories:
 # Field2.ComplexType Property (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Returns a **[ComplexType](complextype-object-dao.md)** object that represents a multi-valued field. Read-only.
 

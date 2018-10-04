@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ConnectPromptEnum
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Specifies whether a dialog box should be displayed to prompt for missing parameters when opening a connection to a data source.
 

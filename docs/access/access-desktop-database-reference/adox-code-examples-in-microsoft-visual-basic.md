@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ADOX Code Examples in Microsoft Visual Basic
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 These topics provide sample code to help you understand how to use ADOX. All code examples are written using Microsoft Visual Basic.
 

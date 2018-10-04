@@ -15,7 +15,7 @@ f1_categories:
 # Database.Transactions Property (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Returns a value that indicates whether an object supports transactions. Read-only **Boolean**.
 

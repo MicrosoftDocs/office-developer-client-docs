@@ -15,7 +15,7 @@ f1_categories:
 # Database Object (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 A **Database** object represents an open database.
 

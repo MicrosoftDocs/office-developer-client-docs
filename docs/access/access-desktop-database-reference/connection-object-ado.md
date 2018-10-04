@@ -15,7 +15,7 @@ f1_categories:
 # Connection Object (ADO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Represents an open connection to a data source.
 

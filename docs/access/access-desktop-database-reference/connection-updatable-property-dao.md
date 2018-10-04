@@ -15,7 +15,7 @@ f1_categories:
 # Connection.Updatable Property (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Returns a value that indicates whether you can change a DAO object. Read-only **Boolean**.Read-only.
 

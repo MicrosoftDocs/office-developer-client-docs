@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Parameters Collection, Command Property Example (VB)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 The following code demonstrates how to use the [Command](command-property-adox.md) property with the [Command](command-object-ado.md) object to retrieve parameter information for the procedure.
 

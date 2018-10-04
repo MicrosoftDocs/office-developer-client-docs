@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Prerequisites (ADO Introduction)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 The *ADO Programmer's Guide* will prove useful to developers with a wide variety of backgrounds. At a minimum, readers should have an intermediate level of experience in developing applications with Microsoft Visual Basic, because most of the examples in the guide are written in this language. Other examples are written in Microsoft Visual C++; Java; Visual Basic, Scripting Edition (VBScript); and Microsoft JScript.
 

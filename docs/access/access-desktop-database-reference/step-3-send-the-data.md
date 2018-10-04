@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Step 3: Send the Data
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 ## Step 3: Send the Data
 

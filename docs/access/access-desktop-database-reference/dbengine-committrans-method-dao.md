@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # DBEngine.CommitTrans Method (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Ends the current transaction and saves the changes.
 

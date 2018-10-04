@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Procedures Collection Properties, Methods, and Events (ADOX)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 **In this article**  
 Properties  

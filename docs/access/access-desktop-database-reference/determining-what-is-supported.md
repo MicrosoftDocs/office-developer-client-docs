@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Determining What is Supported
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 The **Supports** method is used to determine whether a specified **Recordset** object supports a particular type of functionality. It has the following syntax:
 

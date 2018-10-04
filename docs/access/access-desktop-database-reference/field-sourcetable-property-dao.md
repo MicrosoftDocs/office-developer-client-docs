@@ -15,7 +15,7 @@ f1_categories:
 # Field.SourceTable Property (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Returns a value that indicates the name of the table that is the original source of the data for a **Field** object. Read-only **String**.
 

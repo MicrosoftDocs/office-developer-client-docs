@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Cellset Object (ADO MD)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Represents the results of a multidimensional query. It is a collection of cells selected from cubes or other cellsets.
 

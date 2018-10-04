@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ExitForEachRecord Macro Action
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Use the **ExitForEachRecord** action to immediately exit a **[ForEachRecord](foreachrecord-data-block.md)** data block.
 

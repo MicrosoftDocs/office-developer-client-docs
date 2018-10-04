@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # SynchronizeTypeEnum Enumeration (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Used with the **Synchronize** method to determine the type of synchronization to apply to two replicas.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Position Object (ADO MD)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Represents a set of one or more members of different dimensions that defines a point along an axis.
 

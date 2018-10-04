@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Updating Data
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Update behavior and functionality is largely dependent upon update mode (lock type), cursor type, and cursor location.
 

@@ -15,7 +15,7 @@ f1_categories:
 # RunMenuCommand Macro Action
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 You can use the **RunMenuCommand** action to run a built-in Microsoft Access command.
 

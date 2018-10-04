@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Errors Collection (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 An **Errors** collection contains all stored **Error** objects, each of which pertains to a single operation involving DAO.
 

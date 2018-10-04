@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Properties Members (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 A Properties collection contains all the **[Property](property-object-dao.md)** objects for a specific instance of an object.
 

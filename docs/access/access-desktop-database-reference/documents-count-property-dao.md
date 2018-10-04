@@ -15,7 +15,7 @@ f1_categories:
 # Documents.Count Property (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Returns the number of objects in the specified collection. Read-only.
 

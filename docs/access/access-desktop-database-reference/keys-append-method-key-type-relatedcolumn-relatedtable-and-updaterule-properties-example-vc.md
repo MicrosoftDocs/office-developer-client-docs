@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule Properties Example (VC++)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 The following code demonstrates how to create a new foreign key. It assumes two tables (Customers and Orders) exist.
 

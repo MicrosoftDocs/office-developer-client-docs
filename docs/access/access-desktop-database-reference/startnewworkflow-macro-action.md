@@ -15,7 +15,7 @@ f1_categories:
 # StartNewWorkflow Macro Action
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 You can use the **StartNewWorkflow** action to start a new workflow for an item in a linked Microsoft SharePoint Foundation list.
 

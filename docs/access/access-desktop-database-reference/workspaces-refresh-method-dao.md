@@ -15,7 +15,7 @@ f1_categories:
 # Workspaces.Refresh Method (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Not supported for this object.
 

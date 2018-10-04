@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Field2.AppendOnly Property (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Gets or sets a **Boolean** that indicates whether the spcified field is set to append new values to the existing contents of the field as they are added. Read/write.
 

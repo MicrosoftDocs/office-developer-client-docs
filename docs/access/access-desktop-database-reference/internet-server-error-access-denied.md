@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Internet Server Error: Access Denied
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 If you get this error, it usually means that Microsoft Internet Information Services (IIS) returned the following status:
 

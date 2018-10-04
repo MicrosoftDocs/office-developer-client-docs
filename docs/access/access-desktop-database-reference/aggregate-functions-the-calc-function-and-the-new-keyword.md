@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Aggregate Functions, the CALC Function, and the NEW Keyword
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Data shaping supports the following functions. The name assigned to the chapter containing the column to be operated on is the *chapter-alias*.
 

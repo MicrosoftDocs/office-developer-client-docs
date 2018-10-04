@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # EOS and LineSeparator Properties and SkipLine Method Example (VB)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 This example demonstrates how to manipulate text streams one line at a time. The effect of changing the line separator from the default carriage return/linefeed (**adCRLF**) to simply linefeed (**adLF**) or carriage return (**adCR**) is shown.
 

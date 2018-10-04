@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # EditRecord Data Block
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 You can use the **EditRecord** data block to change the values contained in an existing record.
 

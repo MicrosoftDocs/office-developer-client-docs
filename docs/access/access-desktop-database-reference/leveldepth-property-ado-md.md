@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # LevelDepth Property (ADO MD)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Indicates the number of levels between the root of the hierarchy and a member.
 

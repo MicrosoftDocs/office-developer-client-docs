@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # SetEOS Method (ADO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Sets the position that is the end of the stream.
 

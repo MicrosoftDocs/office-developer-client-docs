@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Cancel Method (RDS)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Cancels execution of a pending, asynchronous method call.
 

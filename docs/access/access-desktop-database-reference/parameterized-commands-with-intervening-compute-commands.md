@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Parameterized Commands with Intervening COMPUTE Commands
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 A typical parameterized shape APPEND command has a clause that creates a parent **Recordset** with a query command and another clause that creates a child **Recordset** with a parameterized query command — that is, a command containing a parameter placeholder (a question mark, "?"). The resulting shaped **Recordset** has two levels, in which the parent occupies the upper level and the child occupies the lower level.
 

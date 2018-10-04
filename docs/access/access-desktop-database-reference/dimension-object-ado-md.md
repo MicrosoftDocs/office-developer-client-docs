@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Dimension Object (ADO MD)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Represents one of the dimensions of a multidimensional cube, containing one or more hierarchies of members.
 

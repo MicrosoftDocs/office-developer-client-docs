@@ -15,7 +15,7 @@ f1_categories:
 # QueryDef.Parameters Property (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Returns a **[Parameters](parameters-collection-dao.md)** collection that contains all of the **[Parameter](parameter-object-dao.md)** objects of the specified **QueryDef**. Read-only.
 

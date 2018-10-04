@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # EditModeEnum Enumeration (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Indicates the state of editing for the current record.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # SetField Macro Action
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 The **SetField** action can be used to assign a value to a field.
 

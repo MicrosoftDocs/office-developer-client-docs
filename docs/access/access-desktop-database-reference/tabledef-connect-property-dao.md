@@ -15,7 +15,7 @@ f1_categories:
 # TableDef.Connect Property (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Sets or returns a value that provides information about a linked table. Read/write **String**.
 

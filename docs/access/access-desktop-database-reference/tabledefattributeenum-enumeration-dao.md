@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # TableDefAttributeEnum Enumeration (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Used with the **Attributes** property to determine attributes of a **TableDef** object.
 

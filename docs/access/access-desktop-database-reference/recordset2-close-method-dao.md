@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Recordset2.Close Method (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Closes an open **Recordset**.
 

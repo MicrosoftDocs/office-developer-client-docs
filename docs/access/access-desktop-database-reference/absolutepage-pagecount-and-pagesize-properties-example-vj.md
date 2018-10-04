@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # AbsolutePage, PageCount, and PageSize Properties Example (VJ++)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 This example uses the [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md), and [PageSize](pagesize-property-ado.md) properties to display names and hire dates from the ***Employees*** table, five records at a time.
 

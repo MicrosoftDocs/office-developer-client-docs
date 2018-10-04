@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # OpenSchema Method Example (VC++)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 This example uses the [OpenSchema](openschema-method-ado.md) method to display the name and type of each table in the ***Pubs*** database.
 

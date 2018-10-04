@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Resync Method Example (VJ++)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 This example demonstrates using the [Resync](resync-method-ado.md) method to refresh data in a static recordset.
 

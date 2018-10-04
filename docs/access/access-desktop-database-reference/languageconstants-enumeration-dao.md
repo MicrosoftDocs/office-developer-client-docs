@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # LanguageConstants Enumeration (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Specifies a collating order for creating a database.
 

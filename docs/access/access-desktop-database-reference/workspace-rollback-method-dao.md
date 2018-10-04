@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Workspace.Rollback Method (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Ends the current transaction and restores the databases in the **Workspace** object to the state they were in when the current transaction began.
 

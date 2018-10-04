@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # DeleteRecord Macro Action
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 You can use the **DeleteRecord** action to delete a record.
 

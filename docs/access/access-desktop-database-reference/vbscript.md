@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # VBScript
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Microsoft Visual Basic Scripting Edition does not support ADO events.
 

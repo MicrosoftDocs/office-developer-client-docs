@@ -15,7 +15,7 @@ f1_categories:
 # Connection.CreateQueryDef Method (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Creates a new **[QueryDef](querydef-object-dao.md)** object.
 

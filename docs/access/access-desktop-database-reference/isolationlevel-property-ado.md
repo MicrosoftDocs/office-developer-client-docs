@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # IsolationLevel Property (ADO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Indicates the level of isolation for a [Connection](connection-object-ado.md) object.
 

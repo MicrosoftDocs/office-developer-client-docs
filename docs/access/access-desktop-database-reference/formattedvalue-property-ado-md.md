@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # FormattedValue Property (ADO MD)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Indicates the formatted display of a cell value.
 

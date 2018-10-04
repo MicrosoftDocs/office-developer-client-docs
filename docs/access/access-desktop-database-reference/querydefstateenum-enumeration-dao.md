@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # QueryDefStateEnum Enumeration (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Used with the **Prepare** property to specify the method used to specify how a query should be prepared.
 

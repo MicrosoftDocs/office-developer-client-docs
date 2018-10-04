@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ParentURL Property (ADO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Indicates an absolute URL string that points to the parent [Record](record-object-ado.md) of the current **Record** object.
 

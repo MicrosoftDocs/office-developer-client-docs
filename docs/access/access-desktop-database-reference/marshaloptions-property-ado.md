@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # MarshalOptions Property (ADO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Indicates which records are to be marshaled back to the server.
 

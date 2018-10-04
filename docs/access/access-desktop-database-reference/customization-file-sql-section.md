@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Customization File SQL Section
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 The **sql** section can contain a new SQL string that replaces the client command string. If there is no SQL string in the section, the section will be ignored.
 

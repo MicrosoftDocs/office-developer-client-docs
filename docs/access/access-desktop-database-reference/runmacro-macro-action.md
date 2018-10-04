@@ -15,7 +15,7 @@ f1_categories:
 # RunMacro Macro Action
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 You can use the **RunMacro** action to run a macro. The macro can be in a macro group.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Step 6: Changes are Sent to the Server (RDS Tutorial)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 If the **Recordset** object is edited, any changes (that is, rows that are added, changed, or deleted) can be sent back to the server.
 

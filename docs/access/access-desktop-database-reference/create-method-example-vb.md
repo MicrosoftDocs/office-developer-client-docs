@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Create Method Example (VB)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 The following code shows how to create a new Microsoft Jet database with the [Create](create-method-adox.md) method.
 

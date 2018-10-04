@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Chapter 1: ADO Fundamentals
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 This chapter is an introduction to the ADO library. It discusses what you can do with ADO, reviews the objects in the ADO hierarchy, and presents a simple ADO application that uses many of the ADO objects to retrieve, edit, and update data from a data source. Finally, this chapter covers two issues that are important to understand for writing ADO applications: OLE DB providers and errors.
 

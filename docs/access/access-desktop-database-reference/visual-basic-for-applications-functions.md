@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Visual Basic for Applications functions
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 The following Visual Basic for Applications functions can be used in data shaping CALC expressions:
 

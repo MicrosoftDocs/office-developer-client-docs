@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Parameters Members (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 A Parameters collection contains all the Parameter objects of a QueryDef object.
 

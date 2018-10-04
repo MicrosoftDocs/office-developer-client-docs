@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # TableDef.RecordCount Property (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Returns the total number of records in a **[TableDef](tabledef-object-dao.md)** object. Read-only **Long**.
 

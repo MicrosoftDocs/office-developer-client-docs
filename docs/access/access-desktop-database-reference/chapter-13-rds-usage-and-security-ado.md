@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Chapter 13: RDS Usage and Security (ADO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 ## In this section
 

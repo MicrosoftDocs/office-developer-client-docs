@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # PersistFormatEnum
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Specifies the format in which to save a [Recordset](recordset-object-ado.md).
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # DataFactory Object (RDSServer)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 This default server-side business object implements methods that provide read/write data access to specified data sources for client-side applications.
 

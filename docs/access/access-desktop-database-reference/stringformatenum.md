@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # StringFormatEnum
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Specifies the format when retrieving a [Recordset](recordset-object-ado.md) as a string.
 

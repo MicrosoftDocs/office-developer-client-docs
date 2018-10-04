@@ -15,7 +15,7 @@ f1_categories:
 # RunDataMacro Macro Action
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 **In this article**  
 Setting  

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Relation Object (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 A **Relation** object represents a relationship between fields in tables or queries (Microsoft Access database engine databases only).
 

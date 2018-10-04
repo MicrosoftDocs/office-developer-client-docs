@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Enabling a DLL to Run on DCOM
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 The following steps outline how to enable a business object dynamic-link libraries to use both DCOM and Microsoft® Internet Information Services (HTTP) via Component Services.
 

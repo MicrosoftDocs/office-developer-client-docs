@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Connection.OpenRecordset Method (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Creates a new **[Recordset](recordset-object-dao.md)** object and appends it to the **Recordsets** collection.
 

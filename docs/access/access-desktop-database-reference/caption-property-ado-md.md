@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Caption Property (ADO MD)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Indicates the text caption to use when displaying a [Level](level-object-ado-md.md) or [Member](member-object-ado-md.md) object.
 

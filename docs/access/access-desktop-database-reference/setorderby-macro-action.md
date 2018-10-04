@@ -15,7 +15,7 @@ f1_categories:
 # SetOrderBy Macro Action
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 You can use the **SetOrderBy** action to specify how you want to sort records in a form, report, table, or query result.
 

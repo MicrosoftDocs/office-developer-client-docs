@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Running the Address Book Sample Application
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 To run the Address Book application, follow this procedure.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Using the Command Object (Access)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 After connecting to a data source, you need to execute requests against it to obtain result sets. ADO encapsulates this type of command functionality in the **Command** object.
 

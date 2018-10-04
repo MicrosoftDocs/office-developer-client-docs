@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Precision Property (ADOX)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Indicates the maximum precision of data values in the column.
 

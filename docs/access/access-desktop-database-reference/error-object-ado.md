@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Error Object (ADO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Contains details about data access errors that pertain to a single operation involving the provider.
 

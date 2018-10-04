@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # RDS API Reference
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 This section of the ADO documentation contains topics for each RDS object, property, method, and event. For more information, search for a specific topic in the index or refer to the following topics:
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ADO Events Model Example (VC++)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 The Visual C++ section of [ADO Event Instantiation by Language](https://msdn.microsoft.com/en-us/library/jj250244\(v=office.15\)) gives a general description of how to instantiate the ADO event model. The following is a specific example of instantiating the event model within the environment created by the **\#import** directive.
 

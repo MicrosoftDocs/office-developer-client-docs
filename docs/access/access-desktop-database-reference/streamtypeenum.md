@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # StreamTypeEnum
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Specifies the type of data stored in a [Stream](stream-object-ado.md) object.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Recordset2 Members (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 A Recordset2 object represents the records in a base table or the records that result from running a query.
 

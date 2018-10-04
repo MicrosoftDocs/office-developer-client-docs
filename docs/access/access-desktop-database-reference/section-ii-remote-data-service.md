@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Section II: Remote Data Service
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 This section contains the following chapters:
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Controlling Transactions
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 A *transaction* delimits the beginning and end of a series of data access operations that transpire across a connection. Subject to the transactional capabilities of your data source, the **Connection** object also allows you to create and manage transactions. For example, using the Microsoft OLE DB Provider for SQL Server to access a database on Microsoft SQL Server 2000, you can create multiple nested transactions for the commands you execute.
 

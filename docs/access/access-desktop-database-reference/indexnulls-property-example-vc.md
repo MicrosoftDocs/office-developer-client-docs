@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # IndexNulls Property Example (VC++)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 This example demonstrates the [IndexNulls](indexnulls-property-adox.md) property of an [Index](index-object-adox.md). The code creates a new index and sets the value of **IndexNulls** based on user input. Then, the **Index** is appended to the **Employees** [Table](table-object-adox.md) in the *Northwind* [Catalog](catalog-object-adox.md). The new **Index** is applied to a [Recordset](recordset-object-ado.md) based on the **Employees** table, and the **Recordset** is opened. A new record is added to the **Employees** table, with a **Null** value in the indexed field. Whether this new record is displayed depends on the setting of the **IndexNulls** property.
 

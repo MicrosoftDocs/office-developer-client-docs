@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ADOX Code Examples
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Use the following code examples to learn how to use the ADOX objects, methods, properties, and events.
 

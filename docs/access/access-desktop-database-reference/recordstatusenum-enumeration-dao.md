@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # RecordStatusEnum Enumeration (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Used with the **RecordStatus** property to indicate the update status of the current record if it is part of a batch update.
 

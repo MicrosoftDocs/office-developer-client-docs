@@ -15,7 +15,7 @@ f1_categories:
 # ImportExportText Macro Action
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 You can use the **ImportExportText** action to import or export text between the current Microsoft Access database (.mdb or .accdb) or Access project (.adp) and a text file. You can also link the data in a text file to the current Access database. With a linked text file, you can view the text data with Access while still allowing complete access to the data from your word processing program. You can also import from, export to, and link to a table or list in an HTML file (\*.html).
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Step 1: Set Up the Visual Basic Project
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 ## Step 1: Set Up the Visual Basic Project
 

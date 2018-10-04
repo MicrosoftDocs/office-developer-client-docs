@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ObjectTypeEnum
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Specifies the type of database object for which to set permissions or ownership.
 

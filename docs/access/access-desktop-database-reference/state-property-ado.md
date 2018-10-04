@@ -15,7 +15,7 @@ f1_categories:
 # State Property (ADO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Indicates for all applicable objects whether the state of the object is open or closed.
 

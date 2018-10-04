@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Navigating Through the Data
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Now that you have executed a command against the data source and determined that the result set contains data, you can move through the results by using the navigation methods and properties provided by the **Recordset** object. The following topics describe how to use these methods and properties on the sample **Recordset**:
 

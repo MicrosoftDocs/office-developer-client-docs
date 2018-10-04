@@ -15,7 +15,7 @@ f1_categories:
 # LockNavigationPane Macro Action
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 You can use the **LockNavigationPane** action to prevent users from deleting database objects that are displayed in the Navigation Pane.
 

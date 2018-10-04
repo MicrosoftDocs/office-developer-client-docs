@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # SetOptionEnum Enumeration (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Used with the **SetOption** method to specify a Microsoft Access database engine key in the Windows Registry to override.
 

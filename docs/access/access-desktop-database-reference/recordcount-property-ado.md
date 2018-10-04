@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # RecordCount Property (ADO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Indicates the number of records in a [Recordset](recordset-object-ado.md) object.
 

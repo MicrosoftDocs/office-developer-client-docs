@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # EditMode Property (ADO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Indicates the editing status of the current record.
 

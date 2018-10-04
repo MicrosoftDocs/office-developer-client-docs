@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Move Method Example (VB)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 This example uses the [Move](move-method-ado.md) method to position the record pointer based on user input.
 

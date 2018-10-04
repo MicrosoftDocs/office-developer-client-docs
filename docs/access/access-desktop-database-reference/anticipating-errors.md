@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Anticipating Errors
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Error prevention is at least as important as error handling. This final section contains a short list of precautions your application can take to help make errors less likely to occur.
 

@@ -15,7 +15,7 @@ f1_categories:
 # Command Object (ADO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Defines a specific command that you intend to execute against a data source.
 

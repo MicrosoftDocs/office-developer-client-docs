@@ -15,7 +15,7 @@ f1_categories:
 # DBEngine.Version Property (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Rreturns the version of DAO currently in use. Read-only **String**.
 

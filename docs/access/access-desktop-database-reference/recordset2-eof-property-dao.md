@@ -15,7 +15,7 @@ f1_categories:
 # Recordset2.EOF Property (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Returns a value that indicates whether the current record position is after the last record in a **Recordset** object. Read-only **Boolean**.
 

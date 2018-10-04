@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # CubeDef Object (ADO MD)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Represents a cube from a multidimensional schema, containing a set of related dimensions.
 

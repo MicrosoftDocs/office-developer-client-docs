@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # MaxRecords Property (ADO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Indicates the maximum number of records to return to a [Recordset](recordset-object-ado.md) from a query.
 

@@ -15,7 +15,7 @@ f1_categories:
 # The ActiveX Control's Custom Properties Dialog Box
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 **In this article**  
 Two Ways to Set Properties  

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ADO MD Collections Reference
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 ## In this section
 

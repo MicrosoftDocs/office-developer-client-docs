@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Save and Open Methods Example (VC++)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 These three examples demonstrate how the [Save](save-method-ado.md) and **Open** methods can be used together.
 

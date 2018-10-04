@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Using ADO with Microsoft Visual Basic
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 **In this article**  
 Referencing the ADO Library  

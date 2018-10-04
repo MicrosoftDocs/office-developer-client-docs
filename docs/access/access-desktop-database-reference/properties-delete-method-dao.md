@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Properties.Delete Method (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Deletes the specified **Property** object from the **Properties** collection.
 

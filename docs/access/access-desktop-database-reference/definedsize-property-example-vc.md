@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # DefinedSize Property Example (VC++)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 This example demonstrates the [DefinedSize](definedsize-property-adox.md) property of a [Column](column-object-adox.md). The code will redefine the size of the FirstName column of the **Employees** table of the *Northwind* database. Then, the change in the values of the FirstName [Field](field-object-ado.md) of a [Recordset](recordset-object-ado.md) based on the **Employees** table is displayed. Note that by default, the FirstName field becomes padded with spaces after you redefine the **DefinedSize** property.
 

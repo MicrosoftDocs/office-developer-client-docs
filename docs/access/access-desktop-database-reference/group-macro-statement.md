@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Group Macro Statement
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 The **Group** statement enables you to specify a block of actions within a macro that you can expand or collapse.
 

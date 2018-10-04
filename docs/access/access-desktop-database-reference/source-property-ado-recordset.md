@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Source Property (ADO Recordset)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Indicates the data source for a [Recordset](recordset-object-ado.md) object.
 

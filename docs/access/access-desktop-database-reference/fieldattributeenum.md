@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # FieldAttributeEnum
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Specifies one or more attributes of a [Field](field-object-ado.md) object.
 

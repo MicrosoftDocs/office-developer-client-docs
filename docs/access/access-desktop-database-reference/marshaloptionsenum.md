@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # MarshalOptionsEnum
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Specifies which records should be returned to the server.
 

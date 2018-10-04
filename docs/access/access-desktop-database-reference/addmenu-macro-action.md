@@ -15,7 +15,7 @@ f1_categories:
 # AddMenu Macro Action
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 This article describes the basic operation of the **AddMenu** macro action.
 

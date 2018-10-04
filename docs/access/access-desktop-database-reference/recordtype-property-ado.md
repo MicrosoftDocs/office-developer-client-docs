@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # RecordType Property (ADO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Indicates the type of [Record](record-object-ado.md) object.
 

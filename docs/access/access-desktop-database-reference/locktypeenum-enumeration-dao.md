@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # LockTypeEnum Enumeration (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Specifies the type of record locking used when opening a recordset.
 

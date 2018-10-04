@@ -15,7 +15,7 @@ f1_categories:
 # View an ActiveX Control's About Box
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 To view an **About** box showing version and copyright information for an ActiveX control, click the **About** property box in the Microsoft Access property sheet. Then click the **Build** button to the right of the property box.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Cursor and Lock Characteristics
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 While the characteristics of a cursor depend upon capabilities of the provider, the following advantages and disadvantages generally apply to the various types of cursors and locks.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # BookmarkEnum
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Specifies a bookmark indicating where the operation should begin.
 

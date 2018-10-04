@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ADOX API Reference
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 This section of the ADOX documentation contains topics for each ADOX object, collection, method, and property, as well as example code when appropriate. For more information, search for a specific topic in the index or refer to the following topics:
 

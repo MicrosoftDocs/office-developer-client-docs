@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Step 4: Populate the Details Text Box
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 ## Step 4: Populate the Details Text Box
 

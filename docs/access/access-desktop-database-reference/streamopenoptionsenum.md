@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # StreamOpenOptionsEnum
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Specifies options for opening a [Stream](stream-object-ado.md) object. The values can be combined with an OR operation.
 

@@ -15,7 +15,7 @@ f1_categories:
 # Field2.OriginalValue Property (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 ## Syntax
 

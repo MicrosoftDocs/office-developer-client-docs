@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ActiveCommand Property (ADO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Indicates the [Command](command-object-ado.md) object that created the associated [Recordset](recordset-object-ado.md) object.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # BOF, EOF Properties (ADO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
   - **BOF** — Indicates that the current record position is before the first record in a [Recordset](recordset-object-ado.md) object.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # QueryDef.Connect Property (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Sets or returns a value that provides information about the source of database used in a pass-through query. Read-only **String**.
 

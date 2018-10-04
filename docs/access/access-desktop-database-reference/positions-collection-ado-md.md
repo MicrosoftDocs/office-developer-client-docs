@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Positions Collection (ADO MD)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Contains the [Position](position-object-ado-md.md) objects that define a point on an axis.
 

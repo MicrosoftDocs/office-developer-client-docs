@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Recordset.BOF Property (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Returns a value that indicates whether the current record position is before the first record in a **Recordset** object. Read-only **Boolean**.
 

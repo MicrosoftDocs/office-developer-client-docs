@@ -15,7 +15,7 @@ f1_categories:
 # CommandTimeout Property (ADO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Indicates how long to wait while executing a command before terminating the attempt and generating an error.
 

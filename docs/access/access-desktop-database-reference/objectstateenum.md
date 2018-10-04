@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ObjectStateEnum
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Specifies whether an object is open or closed, connecting to a data source, executing a command, or retrieving data.
 

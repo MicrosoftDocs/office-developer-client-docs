@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Troubleshooting RDS
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Refer to this section for solutions to specific errors or issues with RDS. The issues discussed in this section are:
 

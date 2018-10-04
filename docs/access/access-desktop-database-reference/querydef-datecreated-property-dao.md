@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # QueryDef.DateCreated Property (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Returns the date and time that an object was created (Microsoft Access workspaces only). Read-only **Variant**.
 

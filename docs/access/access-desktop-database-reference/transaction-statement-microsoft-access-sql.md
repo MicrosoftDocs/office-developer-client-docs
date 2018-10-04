@@ -15,7 +15,7 @@ f1_categories:
 # TRANSACTION Statement (Microsoft Access SQL)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Used to initiate and conclude explicit transactions.
 

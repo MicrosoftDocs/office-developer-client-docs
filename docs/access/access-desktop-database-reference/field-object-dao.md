@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Field Object (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 A **Field** object represents a column of data with a common data type and a common set of properties.
 

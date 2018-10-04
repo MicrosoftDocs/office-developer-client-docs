@@ -15,7 +15,7 @@ f1_categories:
 # Database.Relations Property (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Returns a **Relations** collection that contains all of the stored **Relation** objects for the specified database. Read-only.
 

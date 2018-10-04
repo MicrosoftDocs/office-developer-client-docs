@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # DBEngine.DefaultPassword Property (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Sets the password used to create the default **Workspace** when it is initialized. Read/write **String**.
 

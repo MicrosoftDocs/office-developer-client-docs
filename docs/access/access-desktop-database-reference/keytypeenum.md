@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # KeyTypeEnum
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Specifies the type of [Key](key-object-adox.md): primary, foreign, or unique.
 

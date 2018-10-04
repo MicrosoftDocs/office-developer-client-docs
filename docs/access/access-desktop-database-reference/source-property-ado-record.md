@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Source Property (ADO Record)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Indicates the data source or object represented by the [Record](record-object-ado.md).
 

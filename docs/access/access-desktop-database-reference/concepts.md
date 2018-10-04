@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Concepts
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 This section provides important concepts for developing custom Access solutions.
 

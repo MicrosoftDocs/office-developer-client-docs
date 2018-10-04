@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ADO Code Examples in Microsoft Visual Basic
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Use the following code examples to learn how to use the ADO methods, properties, and events when writing in Visual Basic.
 

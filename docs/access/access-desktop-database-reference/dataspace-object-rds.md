@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # DataSpace Object (RDS)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Creates client-side proxies to custom business objects located on the middle tier.
 

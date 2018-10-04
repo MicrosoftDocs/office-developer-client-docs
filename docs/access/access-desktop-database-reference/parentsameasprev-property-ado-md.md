@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ParentSameAsPrev Property (ADO MD)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Indicates whether the parent of this position member is the same as the parent of the immediately preceding member.
 

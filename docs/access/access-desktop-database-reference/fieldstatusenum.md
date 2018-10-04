@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # FieldStatusEnum
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Specifies the status of a **Field** object.
 

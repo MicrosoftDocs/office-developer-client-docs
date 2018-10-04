@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # LineSeparatorsEnum
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Specifies the character used as a line separator in text [Stream](stream-object-ado.md) objects.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # More About Recordset Persistence
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 The ADO Recordset object supports storing a **Recordset** object's contents in a file using its [Save](save-method-ado.md) method. The persistently stored file may exist on a local drive, network server, or as a URL on a Web site. Later, the file can be restored with either the **Recordset** object's [Open](open-method-ado-recordset.md) method or the [Connection](connection-object-ado.md) object's [Execute](https://msdn.microsoft.com/en-us/library/jj249832\(v=office.15\)) method.
 

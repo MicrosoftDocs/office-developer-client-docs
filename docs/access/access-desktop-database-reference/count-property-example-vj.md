@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Count Property Example (VJ++)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 This example demonstrates the [Count](count-property-ado.md) property with two collections in the ***Employees*** database. The property obtains the number of objects in each collection, and sets the upper limit for loops that enumerate these collections. Another way to enumerate these collections without using the **Count** property would be to use statements.
 

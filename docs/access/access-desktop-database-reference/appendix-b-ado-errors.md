@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Appendix B: ADO Errors
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 See the following topics for more information about particular error messages:
 

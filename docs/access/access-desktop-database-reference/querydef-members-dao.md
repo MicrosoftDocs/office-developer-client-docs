@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # QueryDef Members (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 A QueryDef object is a stored definition of a query in a Microsoft Access database engine database.
 

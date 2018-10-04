@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Workspaces.Append Method (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Adds a new **Workspace** to the **Workspaces** collection.
 

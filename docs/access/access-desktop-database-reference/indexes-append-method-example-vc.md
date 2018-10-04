@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Indexes Append Method Example (VC++)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 The following code demonstrates how to create a new index. The index is on two columns in the table.
 

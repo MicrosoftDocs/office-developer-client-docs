@@ -15,7 +15,7 @@ f1_categories:
 # RestoreWindow Macro Action
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 You can use the **RestoreWindow** action to restore a maximized or minimized window to its previous size.
 

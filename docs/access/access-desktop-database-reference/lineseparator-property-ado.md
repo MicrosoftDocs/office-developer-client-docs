@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # LineSeparator Property (ADO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Indicates the binary character to be used as the line separator in text [Stream](stream-object-ado.md) objects.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Customization File Logs Section
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 The **logs** section contains a log file entry, which specifies the name of a file that records errors during the operation of the **DataFactory**.
 

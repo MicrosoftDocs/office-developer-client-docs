@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # PropertyAttributesEnum
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Specifies the attributes of a [Property](property-object-ado.md) object.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Optimize Property--Dynamic (ADO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Specifies whether an index should be created on a field.
 

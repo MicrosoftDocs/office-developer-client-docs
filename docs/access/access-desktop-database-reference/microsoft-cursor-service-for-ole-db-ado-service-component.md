@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Microsoft Cursor Service for OLE DB (ADO Service Component)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 **In this article**  
 Keyword  

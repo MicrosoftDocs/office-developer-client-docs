@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Relation.Properties Property (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Returns the **[Properties](properties-collection-dao.md)** collection of the specified object. Read-only.
 

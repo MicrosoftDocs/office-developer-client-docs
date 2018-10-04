@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ADD USER Statement (Microsoft Access SQL)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Adds one or more existing *user*s to an existing *group*.
 

@@ -15,7 +15,7 @@ f1_categories:
 # Properties.Count Property (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 You can use the **Count** property to determine the number of items in a specified collection. Read-only **Long**.
 

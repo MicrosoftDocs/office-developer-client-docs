@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Disconnecting and Reconnecting the Recordset
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 ## Disconnecting and Reconnecting the Recordset
 

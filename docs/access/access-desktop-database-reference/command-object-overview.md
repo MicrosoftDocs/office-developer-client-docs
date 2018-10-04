@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Command Object Overview
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 With the collections, methods, and properties of a **Command** object, you can do the following:
 

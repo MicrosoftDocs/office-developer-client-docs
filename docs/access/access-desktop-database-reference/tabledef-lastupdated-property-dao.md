@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # TableDef.LastUpdated Property (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Returns the date and time of the most recent change made to an object. Read-only **Variant**.
 

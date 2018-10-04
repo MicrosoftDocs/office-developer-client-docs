@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Field.SourceField Property (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Returns a value that indicates the name of the field that is the original source of the data for a **Field** object. Read-only **String**.
 

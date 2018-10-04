@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Connection.Name Property (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Rreturns the name of a **[Connection](connection-object-dao.md)**.
 

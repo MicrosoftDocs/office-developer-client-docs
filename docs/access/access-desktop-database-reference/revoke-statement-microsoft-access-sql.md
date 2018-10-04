@@ -15,7 +15,7 @@ f1_categories:
 # REVOKE Statement (Microsoft Access SQL)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Revokes specific privileges from an existing user or group.
 

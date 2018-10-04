@@ -15,7 +15,7 @@ f1_categories:
 # Initializing the Text Data Source Driver
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 **In this article**  
 Text Data Source Initialization Settings  

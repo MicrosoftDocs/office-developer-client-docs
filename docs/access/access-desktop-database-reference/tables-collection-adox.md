@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Tables Collection (ADOX)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Contains all [Table](table-object-adox.md) objects of a catalog.
 

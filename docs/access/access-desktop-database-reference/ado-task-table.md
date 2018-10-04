@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ADO Task Table
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 The following table lists programming tasks contained in the *ADO Programmer's Guide* and provides references for each task. These references can be textual descriptions or code examples in which you can find information about the ADO feature that performs the task.
 

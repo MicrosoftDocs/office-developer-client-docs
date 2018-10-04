@@ -15,7 +15,7 @@ f1_categories:
 # RenameObject Macro Action
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 You can use the **RenameObject** action to rename a specified database object.
 

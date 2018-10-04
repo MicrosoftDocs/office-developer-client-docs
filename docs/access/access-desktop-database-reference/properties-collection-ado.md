@@ -15,7 +15,7 @@ f1_categories:
 # Properties Collection (ADO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Contains all the [Property](property-object-ado.md) objects for a specific instance of an object.
 

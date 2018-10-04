@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Step 2: Invoke the Server Program (RDS Tutorial)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 When you invoke a method on the client *proxy*, the actual program on the server executes the method. In this step, you'll execute a query on the server.
 

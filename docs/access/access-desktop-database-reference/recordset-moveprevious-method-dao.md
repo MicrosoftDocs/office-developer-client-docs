@@ -15,7 +15,7 @@ f1_categories:
 # Recordset.MovePrevious Method (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Moves to the previous record in a specified **Recordset** object and make that record the current record.
 

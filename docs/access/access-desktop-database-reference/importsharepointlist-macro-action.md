@@ -15,7 +15,7 @@ f1_categories:
 # ImportSharePointList Macro Action
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 You can use the **ImportSharePointList** action to import or link data from a Microsoft SharePoint Foundation site.
 

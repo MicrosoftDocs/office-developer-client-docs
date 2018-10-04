@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Stream Object (ADO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Represents a stream of binary data or text.
 

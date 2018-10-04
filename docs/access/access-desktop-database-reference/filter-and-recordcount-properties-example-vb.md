@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Filter and RecordCount Properties Example (VB)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 This example open a **Recordset** on the Publishers table in the ***Pubs*** database. It then uses the [Filter](filter-property-ado.md) property to limit the number of visible records to those publishers in a particular country/region. The **RecordCount** property is used to show the difference between the filtered and unfiltered recordsets.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Status Property (ADO Recordset)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Indicates the status of the current record with respect to batch updates or other bulk operations.
 

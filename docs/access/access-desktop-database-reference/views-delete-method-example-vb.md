@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Views Delete Method Example (VB)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 The following code shows how to use the [Delete](delete-method-adox-collections.md) method to delete a view from the catalog.
 

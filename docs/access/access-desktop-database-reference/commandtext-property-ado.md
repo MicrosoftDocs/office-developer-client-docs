@@ -15,7 +15,7 @@ f1_categories:
 # CommandText Property (ADO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Indicates the text of a command to be issued against a provider.
 

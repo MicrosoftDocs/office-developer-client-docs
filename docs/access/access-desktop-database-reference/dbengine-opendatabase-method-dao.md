@@ -15,7 +15,7 @@ f1_categories:
 # DBEngine.OpenDatabase Method (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Opens a specified database and returns a reference to the **[Database](database-object-dao.md)** object that represents it.
 

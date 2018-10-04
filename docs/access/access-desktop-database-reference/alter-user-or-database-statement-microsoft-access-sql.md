@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ALTER USER or DATABASE Statement (Microsoft Access SQL)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Changes the password for an existing user or for a database.
 

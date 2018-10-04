@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # DBEngine Object (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 The **DBEngine** object is the top level object in the DAO object model.
 

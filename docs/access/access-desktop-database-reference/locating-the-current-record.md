@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Locating the Current Record
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 The current position of the cursor in the **Recordset** delineates the current record position. Assuming that the command issued returns results, the cursor is automatically placed at the first record when the **Recordset** **Open** method is called. So, with the sample **Recordset**, the cursor would be on the first record, "Uncle Bob's Organic Dried Pears."
 

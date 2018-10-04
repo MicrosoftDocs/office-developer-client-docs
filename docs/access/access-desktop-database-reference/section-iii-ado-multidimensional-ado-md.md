@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Section III: ADO (Multidimensional) (ADO MD)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 This section contains the following chapter:
 

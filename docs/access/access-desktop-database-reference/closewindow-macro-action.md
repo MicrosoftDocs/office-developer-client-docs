@@ -15,7 +15,7 @@ f1_categories:
 # CloseWindow Macro Action
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 You can use the **CloseWindow** action to close either a specified Access document tab or the active document tab if none is specified.
 

@@ -15,12 +15,12 @@ f1_categories:
 # RunApplication Macro Action
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 <table>
 <thead>
 <tr class="header">
-<th><img src="images/Ff192494.alert_security(Office.15).gif" title="Security note" alt="Security note" /><strong>Security Note</strong></th>
+<th><img src="media/access-alert-security.gif" title="Security note" alt="Security note" /><strong>Security Note</strong></th>
 </tr>
 </thead>
 <tbody>

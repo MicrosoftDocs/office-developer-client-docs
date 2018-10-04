@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Levels Collection (ADO MD)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Contains the [Level](level-object-ado-md.md) objects that make up a hierarchy.
 

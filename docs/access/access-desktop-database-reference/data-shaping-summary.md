@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Data Shaping Summary
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 The following sections describe concepts of data shaping, hierarchical recordsets, reshaping, grandchild aggregates, parameterized shapes, and saving shapes to files.
 

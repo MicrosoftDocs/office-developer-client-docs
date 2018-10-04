@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # QueryDef.Name Property (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Returns or sets the name of the specified object. Read/write **String**.
 

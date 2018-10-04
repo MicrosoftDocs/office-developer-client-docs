@@ -15,7 +15,7 @@ f1_categories:
 # WorkflowTasks Macro Action
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 You can use the **WorkflowTasks** action to display the **Workflow Task** dialog box.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # CreateRecordset Method Example (VB)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 You can create a [Recordset](recordset-object-ado.md) object and specify the column information. You can then insert data into the **Recordset** object; the underlying rowset buffers the inserts.
 

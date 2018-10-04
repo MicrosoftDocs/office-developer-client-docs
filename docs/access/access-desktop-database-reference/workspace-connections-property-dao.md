@@ -15,7 +15,7 @@ f1_categories:
 # Workspace.Connections Property (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Returns a **Connections** collection that represents the current connections in the specified **Workspace**. Read-only.
 

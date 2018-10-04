@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Size Property (ADO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Indicates the maximum size, in bytes or characters, of a [Parameter](parameter-object-ado.md) object.
 

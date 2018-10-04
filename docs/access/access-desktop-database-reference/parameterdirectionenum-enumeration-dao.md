@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ParameterDirectionEnum Enumeration (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Used with the **Direction** property to specify the type for a **Parameter** object.
 

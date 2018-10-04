@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # SkipLine Method (ADO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Skips one entire line when reading a text stream.
 

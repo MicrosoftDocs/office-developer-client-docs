@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # SQLState Property (ADO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Indicates the SQL state for a given [Error](error-object-ado.md) object.
 

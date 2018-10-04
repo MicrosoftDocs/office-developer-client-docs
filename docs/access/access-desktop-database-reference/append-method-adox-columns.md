@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Append Method (ADOX Columns)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Adds a new [Column](column-object-adox.md) object to the [Columns](columns-collection-adox.md) collection.
 

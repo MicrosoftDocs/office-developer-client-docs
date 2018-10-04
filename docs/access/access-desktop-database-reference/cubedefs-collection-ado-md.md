@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # CubeDefs Collection (ADO MD)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Contains the [CubeDef](cubedef-object-ado-md.md) objects that represent a cube from a multidimensional catalog.
 

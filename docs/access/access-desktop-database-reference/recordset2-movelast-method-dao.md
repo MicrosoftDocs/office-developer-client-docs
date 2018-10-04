@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Recordset2.MoveLast Method (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 Moves to the last record in a specified **Recordset** object and make that record the current record.
 

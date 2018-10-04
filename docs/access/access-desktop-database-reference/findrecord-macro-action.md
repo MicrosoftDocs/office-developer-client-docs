@@ -15,7 +15,7 @@ f1_categories:
 # FindRecord Macro Action
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 You can use the **FindRecord** action to find the first instance of data that meets the criteria specified by the **FindRecord** arguments. This data can be in the current record, in a succeeding or prior record, or in the first record. You can find records in the active table datasheet, query datasheet, form datasheet, or form.
 
@@ -96,7 +96,7 @@ However, note that if you use a command button to run a macro containing the **F
 <table>
 <thead>
 <tr class="header">
-<th><img src="images/Ff192494.alert_security(Office.15).gif" title="Security note" alt="Security note" /><strong>Security Note</strong></th>
+<th><img src="media/access-alert-security.gif" title="Security note" alt="Security note" /><strong>Security Note</strong></th>
 </tr>
 </thead>
 <tbody>

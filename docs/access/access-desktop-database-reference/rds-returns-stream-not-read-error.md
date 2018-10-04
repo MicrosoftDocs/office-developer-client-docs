@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # RDS Returns \"Stream Not Read\" Error
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 "The Stream object could not be read because it is empty, or the current position is at the end of the Stream. For non-empty Streams, set the current position with the Position property. To determine if a Stream is empty, check the Size property."
 

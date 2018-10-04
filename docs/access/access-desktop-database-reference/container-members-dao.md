@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Container Members (DAO)
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 A Container object groups similar types of Document objects together.
 

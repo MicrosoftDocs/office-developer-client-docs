@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # System Requirements for the Address Book Application
 
 
-_**Applies to:** Access 2013 | Office 2013_
+**Applies to**: Access 2013 | Office 2013
 
 To set up the Address Book sample application, you need to meet the following software and database requirements:
 
