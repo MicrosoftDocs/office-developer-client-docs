@@ -1,0 +1,21 @@
+﻿---
+title: ActiveX Controls (Access)
+TOCTitle: ActiveX Controls
+ms:assetid: 5491e95e-4c96-4f13-8c1c-63ccbd982835
+ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn124841(v=office.15)
+ms:contentKeyID: 52072462
+ms.date: 09/18/2015
+mtps_version: v=office.15
+---
+
+# ActiveX Controls (Access)
+
+
+_**Applies to:** Access 2013 | Office 2013_
+
+## In this section
+
+  - [The ActiveX Control's Custom Properties Dialog Box](the-activex-control-s-custom-properties-dialog-box.md)
+
+  - [View an ActiveX Control's About Box](view-an-activex-control-s-about-box.md)
+

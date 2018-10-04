@@ -1,0 +1,25 @@
+﻿---
+title: Data Blocks
+TOCTitle: Data Blocks
+ms:assetid: 8afd9208-1dcd-4b9a-85a0-dabacc09058d
+ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn125230(v=office.15)
+ms:contentKeyID: 52073354
+ms.date: 09/18/2015
+mtps_version: v=office.15
+---
+
+# Data Blocks
+
+
+_**Applies to:** Access 2013 | Office 2013_
+
+## In this section
+
+  - [CreateRecord Data Block](createrecord-data-block.md)
+
+  - [EditRecord Data Block](editrecord-data-block.md)
+
+  - [ForEachRecord Data Block](foreachrecord-data-block.md)
+
+  - [LookupRecord Data Block](lookuprecord-data-block.md)
+
