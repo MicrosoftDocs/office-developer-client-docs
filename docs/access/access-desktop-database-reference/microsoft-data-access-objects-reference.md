@@ -10,74 +10,71 @@ mtps_version: v=office.15
 
 # Microsoft Data Access Objects reference
 
-
 **Applies to**: Access 2013 | Office 2013
 
-## In this section
+  - [ComplexType Object reference (DAO)](complextype-object-reference-dao.md)
 
-  - [ComplexType Object Reference (DAO)](complextype-object-reference-dao.md)
+  - [Connection Object reference (DAO)](connection-object-reference-dao.md)
 
-  - [Connection Object Reference (DAO)](connection-object-reference-dao.md)
+  - [Connections Object reference (DAO)](connections-object-reference-dao.md)
 
-  - [Connections Object Reference (DAO)](connections-object-reference-dao.md)
+  - [Container Object reference (DAO)](container-object-reference-dao.md)
 
-  - [Container Object Reference (DAO)](container-object-reference-dao.md)
+  - [Containers Object reference (DAO)](containers-object-reference-dao.md)
 
-  - [Containers Object Reference (DAO)](containers-object-reference-dao.md)
+  - [Database Object reference (DAO)](database-object-reference-dao.md)
 
-  - [Database Object Reference (DAO)](database-object-reference-dao.md)
+  - [Databases Object reference (DAO)](databases-object-reference-dao.md)
 
-  - [Databases Object Reference (DAO)](databases-object-reference-dao.md)
+  - [DBEngine Object reference (DAO)](dbengine-object-reference-dao.md)
 
-  - [DBEngine Object Reference (DAO)](dbengine-object-reference-dao.md)
+  - [Document Object reference (DAO)](document-object-reference-dao.md)
 
-  - [Document Object Reference (DAO)](document-object-reference-dao.md)
+  - [Documents Object reference (DAO)](documents-object-reference-dao.md)
 
-  - [Documents Object Reference (DAO)](documents-object-reference-dao.md)
+  - [Error Object reference (DAO)](error-object-reference-dao.md)
 
-  - [Error Object Reference (DAO)](error-object-reference-dao.md)
+  - [Errors Object reference (DAO)](errors-object-reference-dao.md)
 
-  - [Errors Object Reference (DAO)](errors-object-reference-dao.md)
+  - [Field Object reference (DAO)](field-object-reference-dao.md)
 
-  - [Field Object Reference (DAO)](field-object-reference-dao.md)
+  - [Field2 Object reference (DAO)](field2-object-reference-dao.md)
 
-  - [Field2 Object Reference (DAO)](field2-object-reference-dao.md)
+  - [Fields Object reference (DAO)](fields-object-reference-dao.md)
 
-  - [Fields Object Reference (DAO)](fields-object-reference-dao.md)
+  - [Index Object reference (DAO)](index-object-reference-dao.md)
 
-  - [Index Object Reference (DAO)](index-object-reference-dao.md)
+  - [Indexes Object reference (DAO)](indexes-object-reference-dao.md)
 
-  - [Indexes Object Reference (DAO)](indexes-object-reference-dao.md)
+  - [Parameter Object reference (DAO)](parameter-object-reference-dao.md)
 
-  - [Parameter Object Reference (DAO)](parameter-object-reference-dao.md)
+  - [Parameters Object reference (DAO)](parameters-object-reference-dao.md)
 
-  - [Parameters Object Reference (DAO)](parameters-object-reference-dao.md)
+  - [Properties Object reference (DAO)](properties-object-reference-dao.md)
 
-  - [Properties Object Reference (DAO)](properties-object-reference-dao.md)
+  - [Property Object reference (DAO)](property-object-reference-dao.md)
 
-  - [Property Object Reference (DAO)](property-object-reference-dao.md)
+  - [QueryDef Object reference (DAO)](querydef-object-reference-dao.md)
 
-  - [QueryDef Object Reference (DAO)](querydef-object-reference-dao.md)
+  - [QueryDefs Object reference (DAO)](querydefs-object-reference-dao.md)
 
-  - [QueryDefs Object Reference (DAO)](querydefs-object-reference-dao.md)
+  - [Recordset Object reference (DAO)](recordset-object-reference-dao.md)
 
-  - [Recordset Object Reference (DAO)](recordset-object-reference-dao.md)
+  - [Recordset2 Object reference (DAO)](recordset2-object-reference-dao.md)
 
-  - [Recordset2 Object Reference (DAO)](recordset2-object-reference-dao.md)
+  - [Recordsets Object reference (DAO)](recordsets-object-reference-dao.md)
 
-  - [Recordsets Object Reference (DAO)](recordsets-object-reference-dao.md)
+  - [Relation Object reference (DAO)](relation-object-reference-dao.md)
 
-  - [Relation Object Reference (DAO)](relation-object-reference-dao.md)
+  - [Relations Object reference (DAO)](relations-object-reference-dao.md)
 
-  - [Relations Object Reference (DAO)](relations-object-reference-dao.md)
+  - [TableDef Object reference (DAO)](tabledef-object-reference-dao.md)
 
-  - [TableDef Object Reference (DAO)](tabledef-object-reference-dao.md)
+  - [TableDefs Object reference (DAO)](tabledefs-object-reference-dao.md)
 
-  - [TableDefs Object Reference (DAO)](tabledefs-object-reference-dao.md)
+  - [Workspace Object reference (DAO)](workspace-object-reference-dao.md)
 
-  - [Workspace Object Reference (DAO)](workspace-object-reference-dao.md)
+  - [Workspaces Object reference (DAO)](workspaces-object-reference-dao.md)
 
-  - [Workspaces Object Reference (DAO)](workspaces-object-reference-dao.md)
-
-  - [Enumerations (DAO Reference)](enumerations-dao-reference.md)
+  - [Enumerations (DAO reference)](enumerations-dao-reference.md)
 

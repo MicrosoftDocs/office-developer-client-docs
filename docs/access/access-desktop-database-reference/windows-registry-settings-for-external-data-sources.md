@@ -15,11 +15,11 @@ mtps_version: v=office.15
 
 ## In this section
 
-  - [Customizing Windows Registry Settings for the Microsoft Access Database Engine](customizing-windows-registry-settings-for-the-microsoft-access-database-engine.md)
+- [Customizing Windows registry settings for the Microsoft Access database engine](customizing-windows-registry-settings-for-the-microsoft-access-database-engine.md)
 
-  - [Initializing the Microsoft Excel Driver](initializing-the-microsoft-excel-driver.md)
+- [Initializing the Microsoft Excel driver](initializing-the-microsoft-excel-driver.md)
 
-  - [Initializing the Microsoft Exchange Data Source Driver](initializing-the-microsoft-exchange-data-source-driver.md)
+- [Initializing the Microsoft Exchange data source driver](initializing-the-microsoft-exchange-data-source-driver.md)
 
-  - [Initializing the Text Data Source Driver](initializing-the-text-data-source-driver.md)
+- [Initializing the Text data source driver](initializing-the-text-data-source-driver.md)
 

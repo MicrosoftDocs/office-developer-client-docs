@@ -13,19 +13,12 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-## In this section
+- [Concepts](concepts.md)
+- [Microsoft Data Access Objects reference](microsoft-data-access-objects-reference.md)
+- [Microsoft ActiveX Data Objects reference](microsoft-activex-data-objects-reference.md)
+- [Microsoft Access SQL reference](microsoft-access-sql-reference.md)
+- [Access macro actions](access-macro-actions-access-developer-reference.md)
 
-  - [Concepts (Access VBA reference)](https://msdn.microsoft.com/library/ff197628\(v=office.15\))
+## See also
 
-  - [How do I... (Access VBA reference)](https://msdn.microsoft.com/library/ff193161\(v=office.15\))
-
-  - [Access Macro Actions (Access Developer Reference)](access-macro-actions-access-developer-reference.md)
-
-  - [Object model (Access VBA reference)](https://msdn.microsoft.com/library/ff192120\(v=office.15\))
-
-  - [Microsoft Data Access Objects reference](microsoft-data-access-objects-reference.md)
-
-  - [Microsoft ActiveX Data Objects Reference](microsoft-activex-data-objects-reference.md)
-
-  - [Microsoft Access SQL reference](microsoft-access-sql-reference.md)
-
+- [Object model (Access VBA reference)](https://docs.microsoft.com/office/vba/api/overview/Access/object-model)

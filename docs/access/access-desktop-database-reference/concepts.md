@@ -10,16 +10,18 @@ mtps_version: v=office.15
 
 # Concepts
 
-
 **Applies to**: Access 2013 | Office 2013
 
 This section provides important concepts for developing custom Access solutions.
 
-## Are you viewing Help in a Microsoft Office product?
+If you are viewing the content on docs.microsoft.com, you can use the table of contents located to the left of the topic to navigate through the documentation.
 
-If you are viewing Help from inside your installed version of the documentation, you can use the table of contents to navigate through the topics. To open the table of contents, click the **Show Table of Contents** toolbar button in the Help window. Click a topic in the table of contents to view it.
+- [ActiveX Controls](access-desktop-database-reference/activex-controls-access.md)
+- [Conversion](conversion.md)
+- [Ribbon](ribbon.md)
+- [Working with other applications](working-with-other-applications-access.md)
 
-## Are you viewing the content in the MSDN library?
+## See also
 
-If you are viewing the content on MSDN, you can use the table of contents located to the left of the topic to navigate through the documentation.
+- [Access VBA reference](https://docs.microsoft.com/office/vba/api/overview/access)
 

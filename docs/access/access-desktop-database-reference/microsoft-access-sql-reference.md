@@ -10,16 +10,13 @@ mtps_version: v=office.15
 
 # Microsoft Access SQL reference
 
-
 **Applies to**: Access 2013 | Office 2013
 
-## In this section
+- [Overview of the Access SQL reference](overview-of-the-access-sql-reference.md)
 
-  - [Overview of the Access SQL Reference](overview-of-the-access-sql-reference.md)
+- [Data Definition Language](data-definition-language.md)
 
-  - [Data Definition Language](data-definition-language.md)
+- [Data Manipulation Language](data-manipulation-language.md)
 
-  - [Data Manipulation Language](data-manipulation-language.md)
-
-  - [Windows Registry Settings for External Data Sources](windows-registry-settings-for-external-data-sources.md)
+- [Windows registry settings for external data sources](windows-registry-settings-for-external-data-sources.md)
 

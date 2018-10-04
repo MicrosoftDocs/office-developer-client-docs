@@ -10,14 +10,11 @@ mtps_version: v=office.15
 
 # Ribbon
 
-
 **Applies to**: Access 2013 | Office 2013
 
-## In this section
+- [Hide the ribbon when Access starts](how-to-hide-the-ribbon-when-access-starts.md)
 
-  - [How to: Hide the Ribbon When Access Starts](how-to-hide-the-ribbon-when-access-starts.md)
+- [Apply a custom ribbon to a form or report](how-to-apply-a-custom-ribbon-to-a-form-or-report.md)
 
-  - [How to: Apply a Custom Ribbon to a Form or Report](how-to-apply-a-custom-ribbon-to-a-form-or-report.md)
-
-  - [How to: Apply a Custom Ribbon When Starting Access](how-to-apply-a-custom-ribbon-when-starting-access.md)
+- [Apply a custom ribbon when starting Access](how-to-apply-a-custom-ribbon-when-starting-access.md)
 

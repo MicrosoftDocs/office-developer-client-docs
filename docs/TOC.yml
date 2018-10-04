@@ -3834,278 +3834,278 @@
             - name: Overview of the Access SQL reference
               href: access/access-desktop-database-reference/overview-of-the-access-sql-reference.md
               items:
-              - name: SQL Aggregate Functions (SQL)
+              - name: SQL aggregate functions
                 href: access/access-desktop-database-reference/sql-aggregate-functions-sql.md
-              - name: SQL Expressions
+              - name: SQL expressions
                 href: access/access-desktop-database-reference/sql-expressions.md
-              - name: SQL Reserved Words
+              - name: SQL reserved words
                 href: access/access-desktop-database-reference/sql-reserved-words.md
-              - name: SQL Data Types
+              - name: SQL data types
                 href: access/access-desktop-database-reference/sql-data-types.md
-              - name: ODBC Scalar Functions
+              - name: ODBC scalar functions
                 href: access/access-desktop-database-reference/odbc-scalar-functions.md
               - name: Comparison of Microsoft Access SQL and ANSI SQL
                 href: access/access-desktop-database-reference/comparison-of-microsoft-access-sql-and-ansi-sql.md
-              - name: Equivalent ANSI SQL Data Types
+              - name: Equivalent ANSI SQL data types
                 href: access/access-desktop-database-reference/equivalent-ansi-sql-data-types.md
-              - name: Using Wildcard Characters in String Comparisons
+              - name: Using wildcard characters in string comparisons
                 href: access/access-desktop-database-reference/using-wildcard-characters-in-string-comparisons.md
             - name: Data Definition Language
               href: access/access-desktop-database-reference/data-definition-language.md
               items:
-              - name: ADD USER Statement (Microsoft Access SQL)
+              - name: ADD USER statement 
                 href: access/access-desktop-database-reference/add-user-statement-microsoft-access-sql.md
-              - name: ALTER TABLE Statement (Microsoft Access SQL)
+              - name: ALTER TABLE statement 
                 href: access/access-desktop-database-reference/alter-table-statement-microsoft-access-sql.md
-              - name: ALTER USER or DATABASE Statement (Microsoft Access SQL)
+              - name: ALTER USER or DATABASE statement 
                 href: access/access-desktop-database-reference/alter-user-or-database-statement-microsoft-access-sql.md
-              - name: CONSTRAINT Clause (Microsoft Access SQL)
+              - name: CONSTRAINT clause
                 href: access/access-desktop-database-reference/constraint-clause-microsoft-access-sql.md
-              - name: CREATE INDEX Statement (Microsoft Access SQL)
+              - name: CREATE INDEX statement 
                 href: access/access-desktop-database-reference/create-index-statement-microsoft-access-sql.md
-              - name: CREATE PROCEDURE Statement (Microsoft Access SQL)
+              - name: CREATE PROCEDURE statement 
                 href: access/access-desktop-database-reference/create-procedure-statement-microsoft-access-sql.md
-              - name: CREATE TABLE Statement (Microsoft Access SQL)
+              - name: CREATE TABLE statement 
                 href: access/access-desktop-database-reference/create-table-statement-microsoft-access-sql.md
-              - name: CREATE USER or GROUP Statement (Microsoft Access SQL)
+              - name: CREATE USER or GROUP statement 
                 href: access/access-desktop-database-reference/create-user-or-group-statement-microsoft-access-sql.md
-              - name: CREATE VIEW Statement (Microsoft Access SQL)
+              - name: CREATE VIEW statement 
                 href: access/access-desktop-database-reference/create-view-statement-microsoft-access-sql.md
-              - name: DROP Statement (Microsoft Access SQL)
+              - name: DROP statement 
                 href: access/access-desktop-database-reference/drop-statement-microsoft-access-sql.md
-              - name: DROP USER or GROUP Statement (Microsoft Access SQL)
+              - name: DROP USER or GROUP statement 
                 href: access/access-desktop-database-reference/drop-user-or-group-statement-microsoft-access-sql.md
-              - name: GRANT Statement (Microsoft Access SQL)
+              - name: GRANT statement 
                 href: access/access-desktop-database-reference/grant-statement-microsoft-access-sql.md
-              - name: REVOKE Statement (Microsoft Access SQL)
+              - name: REVOKE statement 
                 href: access/access-desktop-database-reference/revoke-statement-microsoft-access-sql.md
             - name: Data Manipulation Language
               href: access/access-desktop-database-reference/data-manipulation-language.md
               items:
-              - name: DELETE Statement (Microsoft Access SQL)
+              - name: DELETE statement 
                 href: access/access-desktop-database-reference/delete-statement-microsoft-access-sql.md
-              - name: EXECUTE Statement (Microsoft Access SQL)
+              - name: EXECUTE statement 
                 href: access/access-desktop-database-reference/execute-statement-microsoft-access-sql.md
-              - name: INNER JOIN Operation (Microsoft Access SQL)
+              - name: INNER JOIN operation
                 href: access/access-desktop-database-reference/inner-join-operation-microsoft-access-sql.md
-              - name: INSERT INTO Statement (Microsoft Access SQL)
+              - name: INSERT INTO statement 
                 href: access/access-desktop-database-reference/insert-into-statement-microsoft-access-sql.md
-              - name: LEFT JOIN, RIGHT JOIN Operations (Microsoft Access SQL)
+              - name: LEFT JOIN, RIGHT JOIN operations
                 href: access/access-desktop-database-reference/left-join-right-join-operations-microsoft-access-sql.md
-              - name: PARAMETERS Declaration (Microsoft Access SQL)
+              - name: PARAMETERS declaration
                 href: access/access-desktop-database-reference/parameters-declaration-microsoft-access-sql.md
-              - name: PROCEDURE Clause (Microsoft Access SQL)
+              - name: PROCEDURE clause
                 href: access/access-desktop-database-reference/procedure-clause-microsoft-access-sql.md
-              - name: SELECT Statement (Microsoft Access SQL)
+              - name: SELECT statement 
                 href: access/access-desktop-database-reference/select-statement-microsoft-access-sql.md
-              - name: SELECT.INTO Statement (Microsoft Access SQL)
+              - name: SELECT.INTO statement 
                 href: access/access-desktop-database-reference/select-into-statement-microsoft-access-sql.md
-              - name: SQL Subqueries (Microsoft Access SQL)
+              - name: SQL subqueries
                 href: access/access-desktop-database-reference/sql-subqueries-microsoft-access-sql.md
-              - name: TRANSACTION Statement (Microsoft Access SQL)
+              - name: TRANSACTION statement 
                 href: access/access-desktop-database-reference/transaction-statement-microsoft-access-sql.md
-              - name: TRANSFORM Statement (Microsoft Access SQL)
+              - name: TRANSFORM statement 
                 href: access/access-desktop-database-reference/transform-statement-microsoft-access-sql.md
-              - name: UNION Operation (Microsoft Access SQL)
+              - name: UNION operation
                 href: access/access-desktop-database-reference/union-operation-microsoft-access-sql.md
-              - name: UPDATE Statement (Microsoft Access SQL)
+              - name: UPDATE statement 
                 href: access/access-desktop-database-reference/update-statement-microsoft-access-sql.md
-              - name: WITH OWNERACCESS OPTION Declaration (Microsoft Access SQL)
+              - name: WITH OWNERACCESS OPTION declaration
                 href: access/access-desktop-database-reference/with-owneraccess-option-declaration-microsoft-access-sql.md
-            - name: Windows Registry Settings for External Data Sources
+            - name: Windows registry settings for external data sources
               href: access/access-desktop-database-reference/windows-registry-settings-for-external-data-sources.md
               items:
-              - name: Customizing Windows Registry Settings for the Microsoft Access Database Engine
+              - name: Customizing Windows registry settings for the Microsoft Access database engine
                 href: access/access-desktop-database-reference/customizing-windows-registry-settings-for-the-microsoft-access-database-engine.md
-              - name: Initializing the Microsoft Excel Driver
+              - name: Initializing the Microsoft Excel driver
                 href: access/access-desktop-database-reference/initializing-the-microsoft-excel-driver.md
-              - name: Initializing the Microsoft Exchange Data Source Driver
+              - name: Initializing the Microsoft Exchange data source driver
                 href: access/access-desktop-database-reference/initializing-the-microsoft-exchange-data-source-driver.md
-              - name: Initializing the Text Data Source Driver
+              - name: Initializing the Text Data source driver
                 href: access/access-desktop-database-reference/initializing-the-text-data-source-driver.md
           - name: Access macro actions
             href: access/access-desktop-database-reference/access-macro-actions-access-developer-reference.md
             items:
-            - name: Program Flow
+            - name: Program flow
               href: access/access-desktop-database-reference/program-flow.md
               items:
-              - name: If...Then...Else Macro Block
+              - name: If...Then...Else macro block
                 href: access/access-desktop-database-reference/if-then-else-macro-block.md
-              - name: Comment Macro Statement
+              - name: Comment macro statement
                 href: access/access-desktop-database-reference/comment-macro-statement.md
-              - name: Group Macro Statement
+              - name: Group macro statement
                 href: access/access-desktop-database-reference/group-macro-statement.md
-              - name: Submacro Macro Statement
+              - name: Submacro macro statement
                 href: access/access-desktop-database-reference/submacro-macro-statement.md
-            - name: Data Entry Operations
+            - name: Data entry operations
               href: access/access-desktop-database-reference/data-entry-operations.md
               items:
-              - name: DeleteRecord Macro Action
+              - name: DeleteRecord macro action
                 href: access/access-desktop-database-reference/deleterecord-macro-action.md
             - name: Data Import/Export
               href: access/access-desktop-database-reference/data-import-export.md
               items:
-              - name: RunSavedImportExport Macro Action
+              - name: RunSavedImportExport macro action
                 href: access/access-desktop-database-reference/runsavedimportexport-macro-action.md
-              - name: EMailDatabaseObject Macro Action
+              - name: EMailDatabaseObject macro action
                 href: access/access-desktop-database-reference/emaildatabaseobject-macro-action.md
-              - name: ExportWithFormatting Macro Action
+              - name: ExportWithFormatting macro action
                 href: access/access-desktop-database-reference/exportwithformatting-macro-action.md
-              - name: ImportExportData Macro Action
+              - name: ImportExportData macro action
                 href: access/access-desktop-database-reference/importexportdata-macro-action.md
-              - name: ImportExportSpreadsheet Macro Action
+              - name: ImportExportSpreadsheet macro action
                 href: access/access-desktop-database-reference/importexportspreadsheet-macro-action.md
-              - name: ImportExportText Macro Action
+              - name: ImportExportText macro action
                 href: access/access-desktop-database-reference/importexporttext-macro-action.md
-              - name: ImportSharePointList Macro Action
+              - name: ImportSharePointList macro action
                 href: access/access-desktop-database-reference/importsharepointlist-macro-action.md
-            - name: Database Objects
+            - name: Database objects
               href: access/access-desktop-database-reference/database-objects.md
               items:
-              - name: CopyObject Macro Action
+              - name: CopyObject macro action
                 href: access/access-desktop-database-reference/copyobject-macro-action.md
-              - name: DeleteObject Macro Action
+              - name: DeleteObject macro action
                 href: access/access-desktop-database-reference/deleteobject-macro-action.md
-              - name: GoToControl Macro Action
+              - name: GoToControl macro action
                 href: access/access-desktop-database-reference/gotocontrol-macro-action.md
-              - name: GoToPage Macro Action
+              - name: GoToPage macro action
                 href: access/access-desktop-database-reference/gotopage-macro-action.md
-              - name: GoToRecord Macro Action
+              - name: GoToRecord macro action
                 href: access/access-desktop-database-reference/gotorecord-macro-action.md
-              - name: OpenForm Macro Action
+              - name: OpenForm macro action
                 href: access/access-desktop-database-reference/openform-macro-action.md
-              - name: OpenReport Macro Action
+              - name: OpenReport macro action
                 href: access/access-desktop-database-reference/openreport-macro-action.md
-              - name: OpenTable Macro Action
+              - name: OpenTable macro action
                 href: access/access-desktop-database-reference/opentable-macro-action.md
-              - name: RenameObject Macro Action
+              - name: RenameObject macro action
                 href: access/access-desktop-database-reference/renameobject-macro-action.md
-              - name: SaveObject Macro Action
+              - name: SaveObject macro action
                 href: access/access-desktop-database-reference/saveobject-macro-action.md
-              - name: SelectObject Macro Action
+              - name: SelectObject macro action
                 href: access/access-desktop-database-reference/selectobject-macro-action.md
-              - name: SetProperty Macro Action
+              - name: SetProperty macro action
                 href: access/access-desktop-database-reference/setproperty-macro-action.md
-              - name: RepaintObject Macro Action
+              - name: RepaintObject macro action
                 href: access/access-desktop-database-reference/repaintobject-macro-action.md
-              - name: SetValue Macro Action
+              - name: SetValue macro action
                 href: access/access-desktop-database-reference/setvalue-macro-action.md
             - name: Filter/Query/Search
               href: access/access-desktop-database-reference/filter-query-search.md
               items:
-              - name: ApplyFilter Macro Action
+              - name: ApplyFilter macro action
                 href: access/access-desktop-database-reference/applyfilter-macro-action.md
-              - name: FindNextRecord Macro Action
+              - name: FindNextRecord macro action
                 href: access/access-desktop-database-reference/findnextrecord-macro-action.md
-              - name: FindRecord Macro Action
+              - name: FindRecord macro action
                 href: access/access-desktop-database-reference/findrecord-macro-action.md
-              - name: OpenQuery Macro Action
+              - name: OpenQuery macro action
                 href: access/access-desktop-database-reference/openquery-macro-action.md
-              - name: RefreshRecord Macro Action
+              - name: RefreshRecord macro action
                 href: access/access-desktop-database-reference/refreshrecord-macro-action.md
-              - name: Requery Macro Action
+              - name: Requery macro action
                 href: access/access-desktop-database-reference/requery-macro-action.md
-              - name: RunSQL Macro Action
+              - name: RunSQL macro action
                 href: access/access-desktop-database-reference/runsql-macro-action.md
-              - name: SearchForRecord Macro Action
+              - name: SearchForRecord macro action
                 href: access/access-desktop-database-reference/searchforrecord-macro-action.md
-              - name: SetFilter Macro Action
+              - name: SetFilter macro action
                 href: access/access-desktop-database-reference/setfilter-macro-action.md
-              - name: SetOrderBy Macro Action
+              - name: SetOrderBy macro action
                 href: access/access-desktop-database-reference/setorderby-macro-action.md
-              - name: ShowAllRecords Macro Action
+              - name: ShowAllRecords macro action
                 href: access/access-desktop-database-reference/showallrecords-macro-action.md
-            - name: Macro Commands
+            - name: Macro commands
               href: access/access-desktop-database-reference/macro-commands.md
               items:
-              - name: CancelEvent Macro Action
+              - name: CancelEvent macro action
                 href: access/access-desktop-database-reference/cancelevent-macro-action.md
-              - name: Echo Macro Action
+              - name: Echo macro action
                 href: access/access-desktop-database-reference/echo-macro-action.md
-              - name: ClearMacroError Macro Action
+              - name: ClearMacroError macro action
                 href: access/access-desktop-database-reference/clearmacroerror-macro-action.md
-              - name: OnError Macro Action
+              - name: OnError macro action
                 href: access/access-desktop-database-reference/onerror-macro-action.md
-              - name: OpenVisualBasicModule Macro Action
+              - name: OpenVisualBasicModule macro action
                 href: access/access-desktop-database-reference/openvisualbasicmodule-macro-action.md
-              - name: RemoveAllTempVars Macro Action
+              - name: RemoveAllTempVars macro action
                 href: access/access-desktop-database-reference/removealltempvars-macro-action.md
-              - name: RemoveTempVar Macro Action
+              - name: RemoveTempVar macro action
                 href: access/access-desktop-database-reference/removetempvar-macro-action.md
-              - name: RunCode Macro Action
+              - name: RunCode macro action
                 href: access/access-desktop-database-reference/runcode-macro-action.md
-              - name: RunDataMacro Macro Action
+              - name: RunDataMacro macro action
                 href: access/access-desktop-database-reference/rundatamacro-macro-action.md
-              - name: RunMacro Macro Action
+              - name: RunMacro macro action
                 href: access/access-desktop-database-reference/runmacro-macro-action.md
-              - name: RunMenuCommand Macro Action
+              - name: RunMenuCommand macro action
                 href: access/access-desktop-database-reference/runmenucommand-macro-action.md
-              - name: SetLocalVar Macro Action
+              - name: SetLocalVar macro action
                 href: access/access-desktop-database-reference/setlocalvar-macro-action.md
-              - name: SetTempVar Macro Action
+              - name: SetTempVar macro action
                 href: access/access-desktop-database-reference/settempvar-macro-action.md
-              - name: SingleStep Macro Action
+              - name: SingleStep macro action
                 href: access/access-desktop-database-reference/singlestep-macro-action.md
-              - name: StartNewWorkflow Macro Action
+              - name: StartNewWorkflow macro action
                 href: access/access-desktop-database-reference/startnewworkflow-macro-action.md
-              - name: StopAllMacros Macro Action
+              - name: StopAllMacros macro action
                 href: access/access-desktop-database-reference/stopallmacros-macro-action.md
-              - name: StopMacro Macro Action
+              - name: StopMacro macro action
                 href: access/access-desktop-database-reference/stopmacro-macro-action.md
-              - name: WorkflowTasks Macro Action
+              - name: WorkflowTasks macro action
                 href: access/access-desktop-database-reference/workflowtasks-macro-action.md
-            - name: System Commands
+            - name: System commands
               href: access/access-desktop-database-reference/system-commands.md
               items:
-              - name: Beep Macro Action
+              - name: Beep macro action
                 href: access/access-desktop-database-reference/beep-macro-action.md
-              - name: CloseDatabase Macro Action
+              - name: CloseDatabase macro action
                 href: access/access-desktop-database-reference/closedatabase-macro-action.md
-              - name: DisplayHourglassPointer Macro Action
+              - name: DisplayHourglassPointer macro action
                 href: access/access-desktop-database-reference/displayhourglasspointer-macro-action.md
-              - name: PrintOut Macro Action
+              - name: PrintOut macro action
                 href: access/access-desktop-database-reference/printout-macro-action.md
-              - name: QuitAccess Macro Action
+              - name: QuitAccess macro action
                 href: access/access-desktop-database-reference/quitaccess-macro-action.md
-              - name: RunApplication Macro Action
+              - name: RunApplication macro action
                 href: access/access-desktop-database-reference/runapplication-macro-action.md
-              - name: SendKeys Macro Action
+              - name: SendKeys macro action
                 href: access/access-desktop-database-reference/sendkeys-macro-action.md
-              - name: SetWarnings Macro Action
+              - name: SetWarnings macro action
                 href: access/access-desktop-database-reference/setwarnings-macro-action.md
-            - name: User Interface Commands
+            - name: User interface commands
               href: access/access-desktop-database-reference/user-interface-commands.md
               items:
-              - name: AddMenu Macro Action
+              - name: AddMenu macro action
                 href: access/access-desktop-database-reference/addmenu-macro-action.md
-              - name: BrowseTo Macro Action
+              - name: BrowseTo macro action
                 href: access/access-desktop-database-reference/browseto-macro-action.md
-              - name: LockNavigationPane Macro Action
+              - name: LockNavigationPane macro action
                 href: access/access-desktop-database-reference/locknavigationpane-macro-action.md
-              - name: MessageBox Macro Action
+              - name: MessageBox macro action
                 href: access/access-desktop-database-reference/messagebox-macro-action.md
-              - name: NavigateTo Macro Action
+              - name: NavigateTo macro action
                 href: access/access-desktop-database-reference/navigateto-macro-action.md
-              - name: SetDisplayedCategories Macro Action
+              - name: SetDisplayedCategories macro action
                 href: access/access-desktop-database-reference/setdisplayedcategories-macro-action.md
-              - name: SetMenuItem Macro Action
+              - name: SetMenuItem macro action
                 href: access/access-desktop-database-reference/setmenuitem-macro-action.md
-              - name: ShowToolbar Macro Action
+              - name: ShowToolbar macro action
                 href: access/access-desktop-database-reference/showtoolbar-macro-action.md
-            - name: Window Management
+            - name: Window management
               href: access/access-desktop-database-reference/window-management.md
               items:
-              - name: CloseWindow Macro Action
+              - name: CloseWindow macro action
                 href: access/access-desktop-database-reference/closewindow-macro-action.md
-              - name: MaximizeWindow Macro Action
+              - name: MaximizeWindow macro action
                 href: access/access-desktop-database-reference/maximizewindow-macro-action.md
-              - name: MoveAndSizeWindow Macro Action
+              - name: MoveAndSizeWindow macro action
                 href: access/access-desktop-database-reference/moveandsizewindow-macro-action.md
-              - name: MinimizeWindow Macro Action
+              - name: MinimizeWindow macro action
                 href: access/access-desktop-database-reference/minimizewindow-macro-action.md
-              - name: RestoreWindow Macro Action
+              - name: RestoreWindow macro action
                 href: access/access-desktop-database-reference/restorewindow-macro-action.md
-            - name: Data Blocks
+            - name: Data blocks
               href: access/access-desktop-database-reference/data-blocks.md
               items:
               - name: CreateRecord Data Block
@@ -4116,58 +4116,58 @@
                 href: access/access-desktop-database-reference/foreachrecord-data-block.md
               - name: LookupRecord Data Block
                 href: access/access-desktop-database-reference/lookuprecord-data-block.md
-            - name: Data Actions
+            - name: Data actions
               href: access/access-desktop-database-reference/data-actions.md
               items:
-              - name: CancelRecordChange Macro Action
+              - name: CancelRecordChange macro action
                 href: access/access-desktop-database-reference/cancelrecordchange-macro-action.md
-              - name: ClearMacroError Macro Action
+              - name: ClearMacroError macro action
                 href: access/access-desktop-database-reference/clearmacroerror-macro-action.md
-              - name: ExitForEachRecord Macro Action
+              - name: ExitForEachRecord macro action
                 href: access/access-desktop-database-reference/exitforeachrecord-macro-action.md
-              - name: LogEvent Macro Action
+              - name: LogEvent macro action
                 href: access/access-desktop-database-reference/logevent-macro-action.md
-              - name: OnError Macro Action
+              - name: OnError macro action
                 href: access/access-desktop-database-reference/onerror-macro-action.md
-              - name: RaiseError Macro Action
+              - name: RaiseError macro action
                 href: access/access-desktop-database-reference/raiseerror-macro-action.md
-              - name: SendEmail Macro Action
+              - name: SendEmail macro action
                 href: access/access-desktop-database-reference/sendemail-macro-action.md
-              - name: SetField Macro Action
+              - name: SetField macro action
                 href: access/access-desktop-database-reference/setfield-macro-action.md
-              - name: SetLocalVar Macro Action
+              - name: SetLocalVar macro action
                 href: access/access-desktop-database-reference/setlocalvar-macro-action.md
-              - name: SetReturnVar Macro Action
+              - name: SetReturnVar macro action
                 href: access/access-desktop-database-reference/setreturnvar-macro-action.md
-              - name: DeleteRecord Macro Action
+              - name: DeleteRecord macro action
                 href: access/access-desktop-database-reference/deleterecord-macro-action.md
-            - name: ADP Objects
+            - name: ADP objects
               href: access/access-desktop-database-reference/adp-objects.md
               items:
-              - name: CopyDatabaseFile Macro Action
+              - name: CopyDatabaseFile macro action
                 href: access/access-desktop-database-reference/copydatabasefile-macro-action.md
-              - name: OpenDiagram Macro Action
+              - name: OpenDiagram macro action
                 href: access/access-desktop-database-reference/opendiagram-macro-action.md
-              - name: OpenFunction Macro Action
+              - name: OpenFunction macro action
                 href: access/access-desktop-database-reference/openfunction-macro-action.md
-              - name: OpenStoredProcedure Macro Action
+              - name: OpenStoredProcedure macro action
                 href: access/access-desktop-database-reference/openstoredprocedure-macro-action.md
-              - name: OpenView Macro Action
+              - name: OpenView macro action
                 href: access/access-desktop-database-reference/openview-macro-action.md
-              - name: TransferSQLDatabase Macro Action
+              - name: TransferSQLDatabase macro action
                 href: access/access-desktop-database-reference/transfersqldatabase-macro-action.md
-            - name: Data Macro events
+            - name: Data macro events
               href: access/access-desktop-database-reference/data-macro-events.md
               items:
-              - name: After Delete Macro event
+              - name: After Delete macro event
                 href: access/access-desktop-database-reference/after-delete-macro-event.md
-              - name: After Insert Macro event
+              - name: After Insert macro event
                 href: access/access-desktop-database-reference/after-insert-macro-event.md
-              - name: After Update Macro event
+              - name: After Update macro event
                 href: access/access-desktop-database-reference/after-update-macro-event.md
-              - name: Before Change Macro event
+              - name: Before Change macro event
                 href: access/access-desktop-database-reference/before-change-macro-event.md
-              - name: Before Delete Macro event
+              - name: Before Delete macro event
                 href: access/access-desktop-database-reference/before-delete-macro-event.md           
      - name: Excel
        href: excel/excel-home.md

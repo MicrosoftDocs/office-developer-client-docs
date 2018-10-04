@@ -1,5 +1,5 @@
 ﻿---
-title: Microsoft ActiveX Data Objects Reference
+title: Microsoft ActiveX Data Objects reference
 TOCTitle: Microsoft ActiveX Data Objects Reference
 ms:assetid: 235fc575-8a2e-913c-fa3d-bb86256733f9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249010(v=office.15)
@@ -8,18 +8,9 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Microsoft ActiveX Data Objects Reference
-
+# Microsoft ActiveX Data Objects reference
 
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Purpose  
-RDS  
-ADO MD  
-ADOX  
-Main Components of ADO 2.5  
-Feedback  
 
 ## Purpose
 
@@ -41,15 +32,11 @@ Microsoft ActiveX Data Objects Extensions for Data Definition Language and Secur
 
 ADOX is a companion library to the core ADO objects. It exposes additional objects for creating, modifying, and deleting schema objects, such as tables and procedures. It also includes security objects to maintain users and groups and to grant and revoke permissions on objects.
 
-## Main Components of ADO 2.5
+## ADO 2.5 main components
 
-[Programmer's Guide](ado-programmer-s-guide.md)
+- [Programmer's guide](ado-programmer-s-guide.md): An introduction to using ADO, RDS, ADO MD, and ADOX.
 
-An introduction to using ADO, RDS, ADO MD, and ADOX.
-
-[Programmer's Reference](https://msdn.microsoft.com/library/jj248831\(v=office.15\))
-
-This section of the ADO documentation contains topics for each ADO, RDS, ADO MD, and ADOX object, collection, property, dynamic property, method, event, and enumeration.
+- [Programmer's reference](ado-programmer-s-reference-topics.md): This section of the ADO documentation contains topics for each ADO, RDS, ADO MD, and ADOX object, collection, property, dynamic property, method, event, and enumeration.
 
 ## Feedback
 
