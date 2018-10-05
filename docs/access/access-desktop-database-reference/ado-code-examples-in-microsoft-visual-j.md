@@ -17,7 +17,7 @@ Use the following code examples to learn how to use the ADO methods and properti
 
 
 > [!NOTE]
-> <P>Paste the entire code example, from beginning to end, into your code editor. The example may not run correctly if partial examples are used or if paragraph formatting is lost.</P>
+> Paste the entire code example, from beginning to end, into your code editor. The example may not run correctly if partial examples are used or if paragraph formatting is lost.
 
 
 

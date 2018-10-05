@@ -13,7 +13,7 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-## In this section
+
 
   - [Field2.AppendChunk Method (DAO)](field2-appendchunk-method-dao.md)
 

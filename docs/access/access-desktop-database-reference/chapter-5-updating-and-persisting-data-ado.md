@@ -13,7 +13,7 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-## In this section
+
 
   - [Chapter 5: Updating and Persisting Data](chapter-5-updating-and-persisting-data.md)
 

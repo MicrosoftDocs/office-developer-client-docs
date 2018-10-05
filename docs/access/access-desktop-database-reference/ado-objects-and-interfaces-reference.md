@@ -13,8 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-## In this section
-
   - [ADO Objects and Interfaces](ado-objects-and-interfaces.md)
 
   - [ADORecordConstruction Interface (ADO)](adorecordconstruction-interface-ado.md)

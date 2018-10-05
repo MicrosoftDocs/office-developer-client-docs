@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.
 
-``` 
+```cpp 
  
 // Note: When adding the record. You need to get the data from the user 
 // The employee id must be formatted as first,middle and last initial, 
@@ -230,9 +230,11 @@ VOID PrintProviderError(_ConnectionPtr pConnection)
 // EndAddNewCpp 
 ```
 
+<br/>
+
 **AddNewX.h**
 
-``` 
+```cpp 
  
 // BeginAddNewH 
 #include "icrsint.h" 

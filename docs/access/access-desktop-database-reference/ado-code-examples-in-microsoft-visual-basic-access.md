@@ -10,10 +10,8 @@ mtps_version: v=office.15
 
 # ADO Code Examples in Microsoft Visual Basic (Access)
 
-
 **Applies to**: Access 2013 | Office 2013
 
-## In this section
 
   - [ADO Code Examples in Microsoft Visual Basic](ado-code-examples-in-microsoft-visual-basic.md)
 

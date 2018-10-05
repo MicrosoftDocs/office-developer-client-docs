@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.
 
-``` 
+```java 
  
 // BeginAddNewJ 
 import com.ms.wfc.data.*; 

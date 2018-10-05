@@ -13,7 +13,5 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-## In this section
-
-  - [Adding Data to a Recordset](adding-data-to-a-recordset.md)
+- [Adding Data to a Recordset](adding-data-to-a-recordset.md)
 

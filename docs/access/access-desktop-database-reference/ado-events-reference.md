@@ -13,8 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-## In this section
-
   - [ADO Events](ado-events.md)
 
   - [BeginTransComplete, CommitTransComplete, and RollbackTransComplete Events (ADO)](begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado.md)

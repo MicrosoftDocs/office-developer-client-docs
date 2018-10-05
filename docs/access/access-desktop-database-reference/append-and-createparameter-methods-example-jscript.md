@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example uses the [Append](append-method-ado.md) and [CreateParameter](createparameter-method-ado.md) methods to execute a stored procedure with an input parameter. Cut and paste the following code to Notepad or another text editor, and save it as **AppendJS.asp**.
 
-``` 
+```javascript 
  
 <!-- BeginAppendJS --> 
 <%@LANGUAGE="JScript" %> 

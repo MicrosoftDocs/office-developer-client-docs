@@ -21,11 +21,11 @@ This article describes the basic operation of the **AddMenu** macro action.
 
 You can use the **AddMenu** action to create:
 
-  - Custom menus on the **Add-Ins** tab for a particular form or report.
+- Custom menus on the **Add-Ins** tab for a particular form or report.
 
-  - A custom shortcut menu for a form, report, or control. The custom shortcut menu replaces the built-in shortcut menu for the form, report, or control.
+- A custom shortcut menu for a form, report, or control. The custom shortcut menu replaces the built-in shortcut menu for the form, report, or control.
 
-  - A global shortcut menu. The global shortcut menu replaces the built-in shortcut menu for fields in table and query datasheets, forms, and reports, except where you've added a custom shortcut menu for a form, report, or control.
+- A global shortcut menu. The global shortcut menu replaces the built-in shortcut menu for fields in table and query datasheets, forms, and reports, except where you've added a custom shortcut menu for a form, report, or control.
 
 ## Setting
 
@@ -52,7 +52,7 @@ The **AddMenu** action has the following arguments.
 <td><p>The name of the macro group that contains the macros for the menu's commands. This is a required argument.</p>
 
 > [!NOTE]
-> <P>If you run a macro containing the <STRONG>AddMenu</STRONG> action in a library database, Microsoft Office Access 2007 looks for the macro group with this name in the current database only.</P>
+> If you run a macro containing the **AddMenu** action in a library database, Microsoft Office Access 2007 looks for the macro group with this name in the current database only.
 
 
 <p></p></td>

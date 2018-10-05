@@ -13,13 +13,11 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-## In this section
+- [Adding Records](adding-records.md)
 
-  - [Adding Records](adding-records.md)
+- [Adding Multiple Fields](adding-multiple-fields.md)
 
-  - [Adding Multiple Fields](adding-multiple-fields.md)
+- [Determining Edit Mode](determining-edit-mode.md)
 
-  - [Determining Edit Mode](determining-edit-mode.md)
-
-  - [Using AddNew in Immediate and Batch Modes](using-addnew-in-immediate-and-batch-modes.md)
+- [Using AddNew in Immediate and Batch Modes](using-addnew-in-immediate-and-batch-modes.md)
 

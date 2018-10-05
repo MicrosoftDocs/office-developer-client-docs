@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example uses the [AppendChunk](appendchunk-method-ado.md) and [GetChunk](getchunk-method-ado.md) methods to fill an image field with data from another record.
 
-``` 
+```cpp 
  
 // BeginAppendChunkCpp 
 #import "C:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 
@@ -290,7 +290,7 @@ VOID PrintProviderError(_ConnectionPtr pConnection)
 
 **AppendChunkX.h**
 
-``` 
+```cpp 
  
 // BeginAppendChunkH 
 #include "icrsint.h" 

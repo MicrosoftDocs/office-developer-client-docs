@@ -39,9 +39,9 @@ An error will occur if you attempt to change the **ActiveConnection** property f
 
 When using the MSOLAP data provider, set the data source in a connection string to a server name and set the initial catalog to the name of a catalog from the data source. To connect to a cube file that is disconnected from a server, set the location to the full path to the .CUB file. In either case, set the provider to the provider name. For example, the following string connects to a catalog named Bobs Video Store on a server named Servername with the MSOLAP Provider:
 
-    "Data Source=Servername;Initial Catalog=Bobs Video Store;Provider=msolap"
+`"Data Source=Servername;Initial Catalog=Bobs Video Store;Provider=msolap"`
 
 The following string connects to a local cube file at the location C:\\MSDASDK\\samples\\oledb\\olap\\data\\bobsvid.cub:
 
-    "Location=C:\MSDASDK\samples\oledb\olap\data\bobsvid.cub;Provider=msolap"
+`"Location=C:\MSDASDK\samples\oledb\olap\data\bobsvid.cub;Provider=msolap"`
 

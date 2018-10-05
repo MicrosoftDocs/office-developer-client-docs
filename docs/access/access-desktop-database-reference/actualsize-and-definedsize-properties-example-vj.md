@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example uses the [ActualSize](actualsize-property-ado.md) and [DefinedSize](definedsize-property-ado.md) properties to display the defined size and actual size of a field.
 
-``` 
+```java 
  
 // BeginActualSizeJ 
 import com.ms.wfc.data.*; 

@@ -31,7 +31,7 @@ Use the **After Update** event to perform any actions that you want to occur whe
 
 You can use the **Updated("*Field Name*")** function to determine whether a field has changed. The following code example shows how to use an **If** statement to determine determine whether the PaidInFull field has been changed.
 
-``` 
+```vb 
  
 If  Updated("PaidInFull")   Then 
  
@@ -43,11 +43,11 @@ End If
 
 You can use access a the previous value in a field by using the following syntax.
 
-    [Old].[Field Name]
+`[Old].[Field Name]`
 
 For example, to access the previous value of the QuantityInStock field, use the following syntax.
 
-    [Old].[QuantityInStock]
+`[Old].[QuantityInStock]`
 
 The previous values are deleted permanently when the **After Update** event ends.
 
@@ -175,6 +175,7 @@ To view this example in the macro designer, use the following steps:
 
 <!-- end list -->
 
+```xml
     <DataMacros xmlns="https://schemas.microsoft.com/office/accessservices/2009/04/application"> 
       <DataMacro Event="AfterUpdate"> 
         <Statements> 
@@ -211,9 +212,11 @@ To view this example in the macro designer, use the following steps:
         </Statements> 
       </DataMacro> 
     </DataMacros>
-
 ``` 
- 
+
+<br/>
+
+```vb
 If  Updated("Status")   Then 
      RunDataMacro 
         Macro Name   Comments.AddComment 

@@ -10,10 +10,7 @@ mtps_version: v=office.15
 
 # ADO Code Examples (Access)
 
-
 **Applies to**: Access 2013 | Office 2013
-
-## In this section
 
   - [ADO Code Examples](ado-code-examples.md)
 

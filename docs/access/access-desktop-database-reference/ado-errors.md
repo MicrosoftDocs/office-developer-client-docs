@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 ADO Errors are reported to your program as run-time errors. You can use the error-trapping mechanism of your programming language to trap and handle them. For example, in Visual Basic, use the **On Error** statement. In Visual J++, use a **try-catch** block. In Visual C++, it depends on the method you are using to access the ADO libraries. With \#import, use a **try-catch** block. Otherwise, C++ programmers need to explicitly retrieve the error object by calling **GetErrorInfo**. The following Visual Basic sub procedure demonstrates trapping an ADO error:
 
-``` 
+```vb 
  
 ' BeginErrorHandlingVB01 
 Private Sub Form_Load() 
@@ -74,8 +74,7 @@ End Sub
 
 This **Form\_Load** event procedure intentionally creates an error by trying to open the same **Connection** object twice. The second time the **Open** method is called, the error handler is activated. In this case the error is of type **adErrObjectOpen**, so the error handler displays the following message before resuming program execution:
 
-``` 
- 
+```vb 
 Error #3705: Operation is not allowed when the object is open. 
 Error reported by: ADODB.Connection 
 Help File: E:\WINNT\HELP\ADO260.CHM Topic ID: 1003705 

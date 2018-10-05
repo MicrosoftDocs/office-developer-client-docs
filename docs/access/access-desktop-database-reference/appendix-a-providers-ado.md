@@ -13,8 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-## In this section
-
   - [Appendix A: Providers](appendix-a-providers.md)
 
   - [Microsoft OLE DB Provider for ODBC](microsoft-ole-db-provider-for-odbc.md)

@@ -10,16 +10,12 @@ mtps_version: v=office.15
 
 # ADO Code Examples in Microsoft JScript
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Use the following code examples to learn how to use the ADO methods, properties, and events when writing in JScript.
 
-
 > [!NOTE]
-> <P>Paste the entire code example, from beginning to end, into your code editor. The example may not run correctly if partial examples are used or if paragraph formatting is lost.</P>
-
-
+> Paste the entire code example, from beginning to end, into your code editor. The example may not run correctly if partial examples are used or if paragraph formatting is lost.
 
 **Methods**
 

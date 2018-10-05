@@ -19,7 +19,7 @@ ADO for Windows Foundation Classes (ADO/WFC) builds on the ADO event model and p
 
 1.  Define your own event handler to process an event. For example, if you wanted to process the **ConnectComplete** event in the **ConnectionEvent** family, you might use this code:
     
-    ``` 
+    ```java 
      
     public void onConnectComplete(Object sender,ConnectionEvent e) 
     { 
@@ -29,18 +29,20 @@ ADO for Windows Foundation Classes (ADO/WFC) builds on the ADO event model and p
 
 2.  Define a handler object to represent your event handler. The handler object should be of data type **ConnectEventHandler** for an event of type **ConnectionEvent**, or data type **RecordsetEventHandler** for an event of type **RecordsetEvent**. For example, code the following for your **ConnectComplete** event handler:
     
+    ```java
         ConnectionEventHandler handler =  
                 new ConnectionEventHandler(this, "onConnectComplete"); 
-    
+    ```
+
     The first argument of the **ConnectionEventHandler** constructor is a reference to the class that contains the event handler named in the second argument. The Microsoft Visual J++ compiler also supports an equivalent syntax:
     
-    ``` 
+    ```java 
      
         ConnectionEventHandler handler =  
             new ConnectionEventHandler(this, "onConnectComplete"); 
     ```
     
-    ``` 
+    ```java 
      
         ConnectionEventHandler handler =  
             new ConnectionEventHandler(this.onConnectComplete); 
@@ -48,7 +50,7 @@ ADO for Windows Foundation Classes (ADO/WFC) builds on the ADO event model and p
     
     The first argument of the **ConnectionEventHandler** constructor is a reference to the class that contains the event handler named in the second argument. The Microsoft Visual J++ compiler also supports an equivalent syntax:
     
-    ``` 
+    ```java 
      
         ConnectionEventHandler handler =  
             new ConnectionEventHandler(this.onConnectComplete); 
@@ -62,7 +64,7 @@ ADO for Windows Foundation Classes (ADO/WFC) builds on the ADO event model and p
 
 5.  ADO/WFC then calls your event handler with the ADO/WFC event object. For example, your **onConnectComplete** handler has a signature like this:
     
-    ``` 
+    ```java 
      
         public void onConnectComplete(Object sender,ConnectionEvent e) 
     ```

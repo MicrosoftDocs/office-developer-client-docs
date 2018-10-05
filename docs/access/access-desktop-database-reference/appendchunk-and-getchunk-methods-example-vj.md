@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example uses the [AppendChunk](appendchunk-method-ado.md) and [GetChunk](getchunk-method-ado.md) methods to fill an image field with data from another record.
 
-``` 
+```java 
  
 // BeginAppendChunkJ 
 import com.ms.wfc.data.*; 

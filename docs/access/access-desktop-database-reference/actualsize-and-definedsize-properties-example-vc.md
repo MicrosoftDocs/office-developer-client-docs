@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example uses the [ActualSize](actualsize-property-ado.md) and [DefinedSize](definedsize-property-ado.md) properties to display the defined size and actual size of a field.
 
-``` 
+```cpp 
  
 // BeginActualSizeCpp 
 #import "C:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 

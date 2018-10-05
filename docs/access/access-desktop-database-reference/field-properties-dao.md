@@ -13,7 +13,7 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-## In this section
+
 
   - [Field.AllowZeroLength Property (DAO)](field-allowzerolength-property-dao.md)
 

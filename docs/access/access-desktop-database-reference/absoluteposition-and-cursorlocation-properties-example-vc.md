@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example demonstrates how the [AbsolutePosition](absoluteposition-property-ado.md) property can track the progress of a loop that enumerates all the records of a [Recordset](recordset-object-ado.md). It uses the [CursorLocation](cursorlocation-property-ado.md) property to enable the **AbsolutePosition** property by setting the cursor to a client cursor.
 
-``` 
+```cpp 
  
 // BeginAbsolutePositionCpp 
 #import "C:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 
@@ -295,9 +295,11 @@ void PrintProviderError(_ConnectionPtr pConnection)
 // EndAbsolutePositionCpp 
 ```
 
+<br/>
+
 **AbsolutePositionX.h**
 
-``` 
+```cpp 
  
 // BeginAbsolutePositionH 
 #include <ole2.h> 

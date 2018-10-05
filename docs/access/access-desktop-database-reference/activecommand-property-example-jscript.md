@@ -15,8 +15,7 @@ mtps_version: v=office.15
 
 This example demonstrates the [ActiveCommand](activecommand-property-ado.md) property. Cut and paste the following code to Notepad or another text editor, and save it as **ActiveCommandJS.asp**.
 
-``` 
- 
+```javascript
 <!-- BeginActiveCommandJS --> 
 <%@LANGUAGE="JScript" %> 
 <%// use this meta tag instead of adojavas.inc%> 

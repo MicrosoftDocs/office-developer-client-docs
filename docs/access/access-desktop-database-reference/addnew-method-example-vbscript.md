@@ -19,7 +19,7 @@ Use the following example in an Active Server Page (ASP). Use **Find** to locate
 
 To exercise the example, add a new record in the HTML form. Click **Add New**. See the [Delete Method Example](delete-method-example-vbscript.md) to remove unwanted records.
 
-``` 
+```vb
  
 <!-- BeginAddNewVBS --> 
 <%@Language = VBScript %> 

@@ -27,7 +27,7 @@ The following example shows the steps necessary to access rows in a hierarchical
 
 **Example**
 
-``` 
+```vb 
  
 Sub datashape() 
  Dim cnn As New ADODB.Connection 

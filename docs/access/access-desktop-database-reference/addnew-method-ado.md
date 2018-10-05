@@ -13,7 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-
 Creates a new record for an updatable [Recordset](recordset-object-ado.md) object.
 
 ## Syntax

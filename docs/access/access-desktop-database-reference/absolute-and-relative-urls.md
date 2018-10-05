@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Absolute and Relative URLs
 
-
 **Applies to**: Access 2013 | Office 2013 
 
 A URL specifies the location of a target stored on a local or networked computer, such as a file, directory, HTML page, image, program, and so on*.* In this discussion, an *absolute URL* is of the form:
@@ -65,8 +64,7 @@ A relative URL may be specified in the *CommandText* or *Source* parameter. The 
 
 For example, a **Recordset** could be opened on the Readme25.txt file of the Winnt/system32 directory like this:
 
-``` 
- 
+```vb
 recordset.Open "system32/Readme25.txt", "URL=https://YourServer/Winnt/",,,adCmdTableDirect 
 ```
 
@@ -78,8 +76,7 @@ The options field () indicates that the command type is a relative URL.
 
 As another example, the following code will open a **Recordset** on the contents of the directory:
 
-``` 
- 
+```vb
 recordset.Open "", "URL=https://YourServer/Winnt/",,,adCmdTableDirect 
 ```
 

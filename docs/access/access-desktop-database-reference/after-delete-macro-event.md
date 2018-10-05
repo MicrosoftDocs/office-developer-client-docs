@@ -21,7 +21,7 @@ The **After Delete** event occurs after a record is deleted.
 
 
 > [!NOTE]
-> <P>The <STRONG>After Delete</STRONG> event is available only in Data Macros.</P>
+> The **After Delete** event is available only in Data Macros.
 
 
 
@@ -33,7 +33,7 @@ When the **After Delete** event occurs, the values contained in the deleted reco
 
 You can use the **Updated("*Field Name*")** function to determine whether a field has changed. The following code example shows how to use an If staement to determine determine whether the PaidInFull field has been changed.
 
-``` 
+```vb 
  
 If  Updated("PaidInFull")   Then 
  
@@ -45,11 +45,11 @@ End If
 
 You can use access a value in the deleted record by using the following syntax.
 
-    [Old].[Field Name]
+`[Old].[Field Name]`
 
 For example, to access the value of the QuantityInStock field in the deleted record, use the following syntax.
 
-    [Old].[QuantityInStock]
+`[Old].[QuantityInStock]`
 
 The values contained in the deleted record are deleted permanently when the **After Delete** event ends.
 
@@ -177,6 +177,7 @@ To view this example in the macro designer, use the following steps.
 
 <!-- end list -->
 
+```xml
     <?xml version="1.0" encoding="UTF-16" standalone="no"?> 
     <DataMacros xmlns="https://schemas.microsoft.com/office/accessservices/2009/04/application"> 
       <DataMacro Event="AfterDelete"> 
@@ -237,7 +238,11 @@ To view this example in the macro designer, use the following steps.
         </Statements> 
       </DataMacro> 
     </DataMacros>
-     
+```
+
+<br/>
+
+```vb
     SetLocalVar 
                     Name    varAmount 
               Expression   =[Old].[Amount] 
@@ -267,4 +272,4 @@ To view this example in the macro designer, use the following steps.
                             Value   =[TotalDonated]-[varAmount] 
             End EditRecord 
     End If
-
+```

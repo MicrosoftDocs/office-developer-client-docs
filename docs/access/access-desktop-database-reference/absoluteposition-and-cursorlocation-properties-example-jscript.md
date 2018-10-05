@@ -15,8 +15,7 @@ mtps_version: v=office.15
 
 This example demonstrates how the [AbsolutePosition](absoluteposition-property-ado.md) property can track the progress of a loop that enumerates all the records of a [Recordset](recordset-object-ado.md). It uses the [CursorLocation](cursorlocation-property-ado.md) property to enable the **AbsolutePosition** property by setting the cursor to a client cursor. Cut and paste the following code to Notepad or another text editor, and save it as **AbsolutePositionJS.asp**.
 
-``` 
- 
+```javascript
 <!-- BeginAbsolutePositionJS --> 
 <%@LANGUAGE="JScript" %> 
 <%// use this meta tag instead of adojavas.inc%> 

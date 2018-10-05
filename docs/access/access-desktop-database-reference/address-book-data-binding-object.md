@@ -21,7 +21,7 @@ The Address Book application uses the [RDS.DataControl](datacontrol-object-rds.m
 
 The following code defines the **RDS.DataControl** component:
 
-``` 
+```vb 
  
 <OBJECT classid="clsid:BD96C556-65A3-11D0-983A-00C04FC29E33" 
    ID=DC1 Width=1 Height=1> 

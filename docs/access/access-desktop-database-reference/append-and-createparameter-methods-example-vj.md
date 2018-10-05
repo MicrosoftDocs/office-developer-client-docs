@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example uses the [Append](append-method-ado.md) and [CreateParameter](createparameter-method-ado.md) methods to execute a stored procedure with an input parameter.
 
-``` 
+```java 
  
 // BeginAppendJ 
 import com.ms.wfc.data.*; 

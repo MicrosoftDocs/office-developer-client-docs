@@ -25,7 +25,7 @@ Modifies the design of a table after it has been created with the [CREATE TABLE]
 
 
 > [!NOTE]
-> <P>The Microsoft Access database engine does not support the use of ALTER TABLE, or any of the data definition language (DDL) statements, with non-Microsoft Access databases. Use the DAO Create methods instead.</P>
+> The Microsoft Access database engine does not support the use of ALTER TABLE, or any of the data definition language (DDL) statements, with non-Microsoft Access databases. Use the DAO Create methods instead.
 
 
 
@@ -85,7 +85,7 @@ Using the ALTER TABLE statement you can alter an existing table in several ways.
 
   - Use ADD COLUMN to add a new field to the table. You specify the field name, data type, and (for Text and Binary fields) an optional size. For example, the following statement adds a 25-character Text field called Notes to the Employees table:
     
-    ``` sql
+    ```sql
     ALTER TABLE Employees ADD COLUMN Notes TEXT(25)
     ```
     
@@ -95,7 +95,7 @@ Using the ALTER TABLE statement you can alter an existing table in several ways.
 
   - Use ALTER COLUMN to change the data type of an existing field. You specify the field name, the new data type, and an optional size for Text and Binary fields. For example, the following statement changes the data type of a field in the Employees table called ZipCode (originally defined as Integer) to a 10-character Text field:
     
-    ``` sql
+    ```sql
     ALTER TABLE Employees ALTER COLUMN ZipCode TEXT(10)
     ```
 
@@ -121,6 +121,7 @@ Using the ALTER TABLE statement you can alter an existing table in several ways.
 
 This example adds a Salary field with the data type **Money** to the Employees table.
 
+```vb
     Sub AlterTableX1() 
      
         Dim dbs As Database 
@@ -137,9 +138,13 @@ This example adds a Salary field with the data type **Money** to the Employees t
         dbs.Close 
      
     End Sub 
+```
+
+<br/>
 
 This example changes the Salary field from the data type **Money** to the data type **Char**.
 
+```vb
     Sub AlterTableX2() 
      
         Dim dbs As Database 
@@ -156,9 +161,13 @@ This example changes the Salary field from the data type **Money** to the data t
         dbs.Close 
      
     End Sub 
+```
+
+<br/>
 
 This example removes the Salary field from the Employees table.
 
+```vb
     Sub AlterTableX3() 
      
         Dim dbs As Database 
@@ -174,9 +183,13 @@ This example removes the Salary field from the Employees table.
         dbs.Close 
      
     End Sub
+```
+
+<br/>
 
 This example adds a foreign key to the Orders table. The foreign key is based on the EmployeeID field and refers to the EmployeeID field of the Employees table. In this example, you do not have to list the EmployeeID field after the Employees table in the REFERENCES clause because EmployeeID is the primary key of the Employees table.
 
+```vb
     Sub AlterTableX4() 
      
         Dim dbs As Database 
@@ -194,9 +207,13 @@ This example adds a foreign key to the Orders table. The foreign key is based on
         dbs.Close 
      
     End Sub 
+```
+
+<br/>
 
 This example removes the foreign key from the Orders table.
 
+```vb
     Sub AlterTableX5() 
      
         Dim dbs As Database 
@@ -213,4 +230,4 @@ This example removes the foreign key from the Orders table.
         dbs.Close 
      
     End Sub
-
+```

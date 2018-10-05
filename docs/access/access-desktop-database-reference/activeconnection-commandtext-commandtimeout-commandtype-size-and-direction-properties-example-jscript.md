@@ -15,8 +15,7 @@ mtps_version: v=office.15
 
 This example uses the [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md), and [Direction](direction-property-ado.md) properties to execute a stored procedure. Cut and paste the following code to Notepad or another text editor, and save it as **ActiveConnectionJS.asp**.
 
-``` 
- 
+```javascript
 <!-- BeginActiveConnectionJS --> 
 <%@LANGUAGE="JScript"%> 
 <%// use this meta tag instead of adojavas.inc%> 

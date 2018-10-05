@@ -17,7 +17,7 @@ This example demonstrates the [ActiveCommand](activecommand-property-ado.md) pro
 
 A subroutine is given a [Recordset](recordset-object-ado.md) object whose **ActiveCommand** property is used to display the command text and parameter that created the **Recordset**.
 
-``` 
+```cpp 
  
 // BeginActiveCommandCpp 
 #import "C:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 

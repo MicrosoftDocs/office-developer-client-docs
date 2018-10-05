@@ -15,8 +15,7 @@ mtps_version: v=office.15
 
 This example uses the [ActualSize](actualsize-property-ado.md) and [DefinedSize](definedsize-property-ado.md) properties to display the defined size and actual size of a field. Cut and paste the following code to Notepad or another text editor, and save it as **ActualSizeJS.asp**.
 
-``` 
- 
+```javascript
 <!-- BeginActualSizeJS --> 
 <%@LANGUAGE="JScript" %> 
 <%// use this meta tag instead of adojavas.inc%> 

@@ -13,7 +13,7 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-## In this section
+
 
   - [Chapter 13: RDS Usage and Security](chapter-13-rds-usage-and-security.md)
 

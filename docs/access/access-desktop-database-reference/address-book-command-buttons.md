@@ -36,7 +36,7 @@ Because the program uses the word in building the SQL statements, the queries ar
 
 For example, if the **Last Name** box contained the entry "Berge" and the **Title** box contained the entry "Program Manager", the SQL statement (value of ) would read:
 
-``` 
+```vb 
  
 Select FirstName, LastName, Title, Email, Building, Room, Phone from Employee where lastname like 'Berge%' and title like 'Program Manager%' 
 ```
@@ -47,7 +47,7 @@ If the query was successful, all persons with a last name containing the text "B
 
 The last part of the Find\_OnClick Sub procedure consists of two statements. The first statement assigns the SQL property of the RDS.DataControl object equal to the dynamically built SQL query. The second statement causes the **RDS.DataControl** object () to query the database, and then display the new results of the query in the grid.
 
-``` 
+```vb 
  
 Sub Find_OnClick 
  '... 
@@ -60,7 +60,7 @@ End Sub
 
 Clicking the **Update Profile** button activates the VBScript Update\_OnClick Sub procedure, which executes the RDS.DataControl object's () SubmitChanges and Refresh methods.
 
-``` 
+```vb 
  
 Sub Update_OnClick 
  DC1.SubmitChanges 
@@ -74,7 +74,7 @@ When DC1.SubmitChanges executes, the Remote Data Service packages all the update
 
 Clicking **Cancel Changes** activates the VBScript Cancel\_OnClick Sub procedure, which executes the RDS.DataControl object's ( CancelUpdate method.
 
-``` 
+```vb 
  
 Sub Cancel_OnClick 
  DC1.CancelUpdate 

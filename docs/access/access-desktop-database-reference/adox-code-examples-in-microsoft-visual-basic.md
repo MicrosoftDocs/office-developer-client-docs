@@ -17,7 +17,7 @@ These topics provide sample code to help you understand how to use ADOX. All cod
 
 
 > [!NOTE]
-> <P>Paste the entire code example, from Sub to End Sub, into your code editor. The example may not run correctly if you use partial examples or if paragraph formatting is lost.</P>
+> Paste the entire code example, from Sub to End Sub, into your code editor. The example may not run correctly if you use partial examples or if paragraph formatting is lost.
 
 
 

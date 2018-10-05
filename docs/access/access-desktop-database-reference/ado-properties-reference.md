@@ -13,8 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-## In this section
-
   - [ADO Properties](ado-properties.md)
 
   - [AbsolutePage Property (ADO)](absolutepage-property-ado.md)

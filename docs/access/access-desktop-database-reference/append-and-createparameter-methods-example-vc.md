@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example uses the [Append](append-method-ado.md) and [CreateParameter](createparameter-method-ado.md) methods to execute a stored procedure with an input parameter.
 
-``` 
+```cpp 
  
 // BeginAppendCpp 
 #import "C:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 
@@ -192,9 +192,11 @@ VOID PrintProviderError(_ConnectionPtr pConnection)
 // EndAppendCpp 
 ```
 
+<br/>
+
 **AppendX.h**
 
-``` 
+```cpp 
  
 // BeginAppendH 
 #include "icrsint.h" 

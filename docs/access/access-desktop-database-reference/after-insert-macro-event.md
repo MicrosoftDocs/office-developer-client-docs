@@ -21,7 +21,7 @@ The **After Insert** event occurs after a record is added.
 
 
 > [!NOTE]
-> <P>The <STRONG>After Insert</STRONG> event is available only in Data Macros.</P>
+> The **After Insert** event is available only in Data Macros.
 
 
 
@@ -31,7 +31,7 @@ Use the **After Insert** event to perform any actions that you want to occur whe
 
 You can use the **Updated("*Field Name*")** function to determine whether a field has changed. The following code example shows how to use an **If** statement to determine determine whether the PaidInFull field has been changed.
 
-``` 
+```vb 
  
 If  Updated("PaidInFull")   Then 
  
@@ -165,6 +165,7 @@ To view this example in the macro designer, use the following steps:
 
 <!-- end list -->
 
+```xml
     <DataMacros> 
       <DataMacro Event="AfterInsert"> 
         <Statements> 
@@ -224,7 +225,11 @@ To view this example in the macro designer, use the following steps:
         </Statements> 
       </DataMacro> 
     </DataMacros>
-     
+```
+
+<br/>
+
+```vb
     SetLocalVar 
                   Name   varAmount 
             Expression   =[Amount] 
@@ -256,4 +261,4 @@ To view this example in the macro designer, use the following steps:
                                 Value   =[TotalDonated]+[varAmount] 
                  End EditRecord 
     End If
-
+```

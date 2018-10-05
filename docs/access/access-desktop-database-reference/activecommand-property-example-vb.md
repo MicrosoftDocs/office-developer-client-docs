@@ -17,7 +17,7 @@ This example demonstrates the [ActiveCommand](activecommand-property-ado.md) pro
 
 A subroutine is given a [Recordset](recordset-object-ado.md) object whose **ActiveCommand** property is used to display the command text and parameter that created the **Recordset**.
 
-``` 
+```vb 
  
 'BeginActiveCommandVB 
  
@@ -88,7 +88,7 @@ The **Command** object's [CommandText](commandtext-property-ado.md) property yie
 
 Finally, an error message or the author's name and ID are printed.
 
-``` 
+```vb 
  
 'BeginActiveCommandPrintVB 
 Public Sub ActiveCommandXprint(rstp As ADODB.Recordset) 

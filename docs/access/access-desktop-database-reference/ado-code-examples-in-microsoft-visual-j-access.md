@@ -13,8 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-## In this section
-
   - [ADO Code Examples in Microsoft Visual J++](ado-code-examples-in-microsoft-visual-j.md)
 
   - [AbsolutePage, PageCount, and PageSize Properties Example (VJ++)](absolutepage-pagecount-and-pagesize-properties-example-vj.md)

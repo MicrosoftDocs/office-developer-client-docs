@@ -10,13 +10,11 @@ mtps_version: v=office.15
 
 # AddNew Method Example (JScript)
 
-
 **Applies to**: Access 2013 | Office 2013
 
 This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name. Cut and paste the following code to Notepad or another text editor, and save it as **AddNewJS.asp**.
 
-``` 
- 
+```javascript
 <!-- BeginAddNewJS --> 
 <%@LANGUAGE="JScript" %> 
 <!-- Include file for JScript ADO Constants --> 

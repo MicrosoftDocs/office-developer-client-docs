@@ -13,8 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-
-
 The **ADORecordConstruction** interface is used to construct an ADO **Record** object from an OLE DB **Row** object in a C/C++ application.
 
 This interface supports the following properties:
@@ -55,21 +53,27 @@ Given an OLE DB **Row** object (pRow), the construction of an ADO **Record** obj
 
 1.  Create an ADO **Record** object:
     
+    ```vb
         _RecordPtr adoR;
         adoRs.CreateInstance(__uuidof(_Record));
+    ```
 
 2.  Query the **IADORecordConstruction** interface on the **Record** object:
     
+    ```vb
         adoRecordConstructionPtr adoRConstruct=NULL;
         adoR->QueryInterface(__uuidof(ADORecordConstruction),
                             (void**)&adoRConstruct);
+    ```
 
 3.  Call the **IADORecordConstruction::put\_Row** property method to set the OLE DB **Row** object on the ADO **Record** object:
     
+    ```vb
         IUnknown *pUnk=NULL;
         pRow->QueryInterface(IID_IUnknown, (void**)&pUnk);
         adoRConstruct->put_Row(pUnk);
-
+    ```
+    
 The resultant **adoR** object now represents the ADO **Record** object constructed from the OLE DB **Row** object.
 
 An ADO **Record** object can also be constructed from the container of an OLE DB **Row** object.

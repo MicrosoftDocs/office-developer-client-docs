@@ -15,8 +15,7 @@ mtps_version: v=office.15
 
 This example uses the [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md), and [PageSize](pagesize-property-ado.md) properties to display names and hire dates from the ***Employee*** table, five records at a time.
 
-``` 
- 
+```cpp
 // BeginAbsolutePageCpp 
 #import "C:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 
  
@@ -191,9 +190,11 @@ void PrintProviderError(_ConnectionPtr pConnection)
 //EndAbsolutePageCpp 
 ```
 
+<br/>
+
 **AbsolutePageX.h**
 
-``` 
+```cpp 
  
 // BeginAbsolutePageH 
 #include "icrsint.h" 

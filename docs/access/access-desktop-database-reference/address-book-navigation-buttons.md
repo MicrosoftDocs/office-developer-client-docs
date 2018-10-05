@@ -21,7 +21,7 @@ The Address Book application contains several procedures that allow users to cli
 
 For example, clicking the **First** button activates the VBScript First\_OnClick Sub procedure. The procedure executes a [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-rds.md) method, which makes the first row of data the current selection. Clicking the **Last** button activates the Last\_OnClick Sub procedure, which invokes the [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-rds.md) method, making the last row of data the current selection. The remaining navigation buttons work in a similar fashion.
 
-``` 
+```vb 
  
 ' Move to the first record in the bound Recordset. 
 Sub First_OnClick 

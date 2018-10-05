@@ -17,8 +17,7 @@ ADO also allows using commands as alternatives to its built-in properties and me
 
 For example, you can pass a SQL string containing a DELETE statement to a database, as shown in the following code:
 
-``` 
- 
+```vb 
 'BeginSQLDelete 
 strSQL = "DELETE FROM Shippers WHERE ShipperID = " & intId 
 objConn.Execute strSQL, , adCmdText + adExecuteNoRecords 

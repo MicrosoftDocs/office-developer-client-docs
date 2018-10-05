@@ -17,7 +17,7 @@ This example demonstrates the [ActiveCommand](activecommand-property-ado.md) pro
 
 A subroutine is given a [Recordset](recordset-object-ado.md) object whose **ActiveCommand** property is used to display the command text and parameter that created the **Recordset**.
 
-``` 
+```java 
  
 // BeginActiveCommandJ 
 import com.ms.wfc.data.*; 

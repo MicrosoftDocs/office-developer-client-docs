@@ -13,7 +13,7 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-## In this section
+
 
   - [Section IV: ADO Extensions for Data Definition Language and Security (ADOX)](section-iv-ado-extensions-for-data-definition-language-and-security-adox.md)
 

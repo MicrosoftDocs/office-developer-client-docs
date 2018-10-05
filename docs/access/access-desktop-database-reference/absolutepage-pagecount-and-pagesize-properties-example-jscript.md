@@ -10,13 +10,11 @@ mtps_version: v=office.15
 
 # AbsolutePage, PageCount, and PageSize Properties Example (JScript)
 
-
 **Applies to**: Access 2013 | Office 2013
 
-This example demonstrates the AbsolutePage, PageCount and PageSize properties. Cut and paste the following code to Notepad or another text editor, and save it as **AbsolutePageJS.asp**.
+This example demonstrates the AbsolutePage, PageCount, and PageSize properties. Cut and paste the following code to Notepad or another text editor, and save it as **AbsolutePageJS.asp**.
 
-``` 
- 
+```javascript
 <!-- BeginAbsolutePageJS --> 
 <%@LANGUAGE="JScript" %> 
 <%// use this meta tag instead of adojavas.inc%> 

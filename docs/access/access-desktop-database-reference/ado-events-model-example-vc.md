@@ -41,7 +41,7 @@ Finally, the example contains some working code.
 
 <!-- end list -->
 
-``` 
+```cpp 
  
 // eventmodel.cpp : Defines the entry point for the console application. 
 // 

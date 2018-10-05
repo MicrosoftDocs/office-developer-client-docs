@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example uses the [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md), and [Direction](direction-property-ado.md) properties to execute a stored procedure.
 
-``` 
+```cpp 
  
 // BeginActiveConnectionCpp 
 #import "C:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 
@@ -195,9 +195,11 @@ VOID PrintProviderError(_ConnectionPtr pConnection)
 // EndActiveConnectionCpp 
 ```
 
+<br/>
+
 **ActiveConnectionX.h**
 
-``` 
+```cpp 
  
 // BeginActiveConnectionH 
 #include "icrsint.h" 

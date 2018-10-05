@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # ADCPROP\_ASYNCTHREADPRIORITY\_ENUM
 
-
 **Applies to**: Access 2013 | Office 2013
 
 For an RDS [Recordset](recordset-object-ado.md) object, specifies the execution priority of the asynchronous thread that retrieves data.

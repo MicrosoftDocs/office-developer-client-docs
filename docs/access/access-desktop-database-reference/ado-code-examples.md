@@ -17,7 +17,7 @@ Use the following code examples to learn how to use the ADO objects, methods, pr
 
 
 > [!NOTE]
-> <P>Paste the entire code example into your code editor. The example may not run correctly if partial examples are used or if paragraph formatting is lost.</P>
+> Paste the entire code example into your code editor. The example may not run correctly if partial examples are used or if paragraph formatting is lost.
 
 
 

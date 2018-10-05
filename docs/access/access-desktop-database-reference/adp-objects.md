@@ -13,7 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-## In this section
 
   - [CopyDatabaseFile Macro Action](copydatabasefile-macro-action.md)
 

@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example uses the [NumericScale](numericscale-property-ado.md) and [Precision](precision-property-ado.md) properties to display the numeric scale and precision of fields in the ***Discounts*** table of the ***Pubs*** database.
 
-``` 
+```cpp 
  
 // BeginNumericScaleCpp 
 #import "C:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 

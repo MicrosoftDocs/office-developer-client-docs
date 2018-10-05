@@ -13,8 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-## In this section
-
   - [ADO API Reference](ado-api-reference.md)
 
   - [ADO Objects and Interfaces Reference](ado-objects-and-interfaces-reference.md)

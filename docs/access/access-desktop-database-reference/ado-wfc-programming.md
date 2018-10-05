@@ -23,7 +23,7 @@ For more detailed information within the ADO documentation about ADO/WFC package
 
 To import the ADO/WFC data classes into your project, include the following line in your code:
 
-``` 
+```java 
  
 import com.ms.wfc.data.*; 
 ```
