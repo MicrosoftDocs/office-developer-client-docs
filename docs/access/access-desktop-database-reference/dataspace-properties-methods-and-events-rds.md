@@ -13,18 +13,13 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Properties  
-Methods  
-Events  
-
 ## Properties
 
-[InternetTimeout Property (RDS)](internettimeout-property-rds.md)
+- [InternetTimeout Property (RDS)](internettimeout-property-rds.md)
 
 ## Methods
 
-[CreateObject Method (RDS)](createobject-method-rds.md)
+- [CreateObject Method (RDS)](createobject-method-rds.md)
 
 ## Events
 

@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example uses the [Cancel](cancel-method-ado.md) method to cancel a command executing on a [Connection](connection-object-ado.md) object if the connection is busy.
 
-``` 
+```cpp 
  
 // BeginCancelCpp 
 #import "C:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 

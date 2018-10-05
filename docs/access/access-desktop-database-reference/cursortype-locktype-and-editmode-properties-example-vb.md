@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example demonstrates setting the [CursorType](cursortype-property-ado.md) and [LockType](locktype-property-ado.md) properties before opening a [Recordset](recordset-object-ado.md). It also shows the value of the [EditMode](editmode-property-ado.md) property under various conditions. The **EditModeOutput** function is required for this procedure to run.
 
-``` 
+```vb 
  
 'BeginEditModeVB 
  

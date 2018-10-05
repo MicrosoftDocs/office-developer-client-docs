@@ -59,7 +59,7 @@ ADO directly supports five arguments in a connection string. Other arguments are
 
 The HelloData application in Chapter 1 used the following connection string:
 
-``` 
+```vb 
  
 m_sConnStr = "Provider='SQLOLEDB';Data Source='MySqlServer';" & _ 
  "Initial Catalog='Northwind';Integrated Security='SSPI';" 
@@ -67,7 +67,7 @@ m_sConnStr = "Provider='SQLOLEDB';Data Source='MySqlServer';" & _
 
 The only ADO parameter supplied in this connection string was "Provider=SQLOLEDB", which indicated the Microsoft OLE DB Provider for SQL Server. Other valid parameters that can be passed in the connection string can be determined by referring to individual providers' documentation. According to the OLE DB Provider for SQL Server documentation, you can substitute "Server" for the *Data Source* parameter and "Database" for the *Initial Catalog* parameter. Thus, the following connection string would produce results identical to the first:
 
-``` 
+```vb 
  
 m_sConnStr = "Provider='SQLOLEDB';Server='MySqlServer';" & _ 
  "Database='Northwind';Integrated Security='SSPI';" 
@@ -75,14 +75,14 @@ m_sConnStr = "Provider='SQLOLEDB';Server='MySqlServer';" & _
 
 To open the connection, simply pass the connection string as the first argument in the **Connection** object **Open** method:
 
-``` 
+```vb 
  
 objConn.Open m_sConnStr 
 ```
 
 It is also possible to supply much of this information by setting properties of the **Connection** object before opening the connection. For example, you could achieve the same effect as the connection string above by using the following code:
 
-``` 
+```vb 
  
 With objConn 
  .Provider = "SQLOLEDB" 

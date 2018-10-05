@@ -13,10 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
 
 Sets or returns a value that specifies the number of seconds to wait before a timeout error occurs when a query is executed on an ODBC data source.
 
@@ -38,7 +34,7 @@ When you use **QueryTimeout** with a **[Connection](connection-object-dao.md)** 
 
 This example uses the **ODBCTimeout** and **QueryTimeout** properties to show how the **QueryTimeout** setting on a **Database** object sets the default **ODBCTimeout** setting on any **QueryDef** objects created from the **Database** object.
 
-``` 
+```vb 
 Sub ODBCTimeoutX() 
  
  Dim dbsCurrent As Database 

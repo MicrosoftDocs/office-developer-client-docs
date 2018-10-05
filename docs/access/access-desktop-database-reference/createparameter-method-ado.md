@@ -17,11 +17,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Return Value  
-Parameters  
-Remarks  
 
 Creates a new [Parameter](parameter-object-ado.md) object with the specified properties.
 

@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example demonstrates the [Attributes](attributes-property-adox.md) property of a [Column](column-object-adox.md). Setting it to **adColNullable** allows the user to set the value of a [Recordset](recordset-object-ado.md)[Field](field-object-ado.md) to an empty string. In this situation, the user can distinguish between a record where data is not known and a record where the data does not apply.
 
-``` 
+```cpp 
  
 // BeginAttributesCpp 
 #import "c:\Program Files\Common Files\system\ado\msado15.dll" 
@@ -218,6 +218,7 @@ void AttributesX(void)
 
 **ADOXAttributesX.h**
 
+```cpp
     // BeginAttributesH 
     #include "icrsint.h" 
      
@@ -250,4 +251,4 @@ void AttributesX(void)
      ULONG lemp_FaxphoneStatus; 
     }; 
     // EndAttributesH
-
+```

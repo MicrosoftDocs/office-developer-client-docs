@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example uses the [Clone](clone-method-ado.md) method to create copies of a [Recordset](recordset-object-ado.md) and then lets the user position the record pointer of each copy independently.
 
-``` 
+```cpp 
  
 // BeginCloneCpp 
 #import "C:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 
@@ -248,7 +248,7 @@ void PrintComError(_com_error &e)
 
 **CloneX.h**
 
-``` 
+```cpp 
  
 // BeginCloneH 
 #include "icrsint.h" 

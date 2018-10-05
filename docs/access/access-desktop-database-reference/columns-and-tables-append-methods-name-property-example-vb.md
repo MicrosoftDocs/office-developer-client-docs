@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 The following code demonstrates how to create a new table.
 
-``` 
+```vb 
  
 ' BeginCreateTableVB 
 Sub Main() 

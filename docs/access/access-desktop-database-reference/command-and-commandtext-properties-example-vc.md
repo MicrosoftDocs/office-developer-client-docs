@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 The following code demonstrates how to use the [Command](command-property-adox.md) property to update the text of a procedure.
 
-``` 
+```cpp 
  
 // BeginCommandTextCpp 
 // This sample runs correctly only if procedure 'CustomerById' 

@@ -38,6 +38,7 @@ This example uses the **Database** property to show how code that used to access
 
 The OldDatabaseCode procedure uses a Microsoft Access database engine-connected data source to access an ODBC database.
 
+```vb
     Sub OldDatabaseCode() 
      
      Dim wrkMain As Workspace 
@@ -82,10 +83,11 @@ The OldDatabaseCode procedure uses a Microsoft Access database engine-connected 
      wrkMain.Close 
      
     End Sub 
+```
 
 The NewDatabaseCode example opens a **Connection** object in an ODBCDirect workspace. It then assigns the **Database** property of the **Connection** object to an object variable with the same name as the data source in the old procedure. None of the subsequent code has to be changed as long as it doesn't use any features specific to Microsoft Access workspaces.
 
-``` 
+```vb 
 Sub NewDatabaseCode() 
  
  Dim wrkMain As Workspace 

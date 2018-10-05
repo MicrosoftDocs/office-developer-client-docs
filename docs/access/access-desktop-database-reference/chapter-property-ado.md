@@ -12,12 +12,7 @@ mtps_version: v=office.15
 
 
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Syntax  
-Parameters  
-Return Values  
-Applies To  
+ 
 
 Gets or sets an OLE DB **Chapter** object from/on an **ADORecordsetConstruction** object. When you use **put\_Chapter** to set the **Chapter** object, a subset of rows is turned into an ADO **Recordset** object. This sets the current chapter of the **Rowset** object. Read/write.
 

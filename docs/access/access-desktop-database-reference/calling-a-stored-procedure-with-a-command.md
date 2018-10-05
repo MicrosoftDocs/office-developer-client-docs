@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 You can also use a command when calling a stored procedure. The following code calls a stored procedure in the Northwind sample database, called CustOrdersOrders, which is defined as follows:
 
-``` 
+```vb 
  
 CREATE PROCEDURE CustOrdersOrders @CustomerID nchar(5) AS 
 SELECT OrderID, OrderDate, RequiredDate, ShippedDate 
@@ -30,7 +30,7 @@ Using the stored procedure allows you to access another capability of ADO: the *
 
 Other important differences exist between the code below and the code in [Command Object Parameters](command-object-parameters.md), where the parameters were entered manually. First, this code does not set the **Prepared** property to **True** because it is a SQL Server stored procedure and is precompiled by definition. Second, the **CommandType** property of the **Command** object changed to **adCmdStoredProc** in the second example to inform ADO that the command was a stored procedure.
 
-``` 
+```vb 
  
 'BeginAutoParamCmd 
  On Error GoTo ErrHandler: 

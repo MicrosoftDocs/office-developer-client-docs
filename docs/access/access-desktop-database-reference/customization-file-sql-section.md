@@ -23,7 +23,7 @@ If the new SQL statement is the null string (""), then the section is ignored.
 
 If the new SQL statement string is not valid, then the execution of the statement will fail. The client parameter is effectively ignored. You can do this intentionally to "turn off" all client SQL commands by specifying:
 
-``` 
+```sql 
  
 [SQL default] 
 SQL = " " 

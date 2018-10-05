@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example displays the value of the [Attributes](attributes-property-ado.md) property for [Connection](connection-object-ado.md), [Field](field-object-ado.md), and [Property](property-object-ado.md) objects. It uses the [Name](name-property-ado.md) property to display the name of each **Field** and **Property** object.
 
-``` 
+```cpp 
  
 // BeginAttributesCpp 
 #import "C:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 
@@ -208,7 +208,7 @@ VOID PrintComError(_com_error &e)
 
 **AttributesX.h**
 
-``` 
+```cpp 
  
 // BeginAttributesH 
 #include "icrsint.h" 

@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 
 > [!NOTE]
-> <P>ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</P>
+> ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.
 
 
 
@@ -45,7 +45,7 @@ The **Name** property setting of a **Connection** is a string that specifies the
 
 This example demonstrates the **Connection** object and **Connections** collection by opening a **Database** object and two ODBCDirect **Connection** objects and listing the properties available to each object.
 
-``` 
+```vb 
 Sub ConnectionObjectX() 
  
    Dim wrkAcc as Workspace 
@@ -124,7 +124,7 @@ End Sub
 
 This example uses the **OpenConnection** method with different parameters to open three different **Connection** objects.
 
-``` 
+```vb 
 Sub OpenConnectionX() 
  
    Dim wrkODBC As Workspace 

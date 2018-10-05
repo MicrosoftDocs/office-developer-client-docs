@@ -17,10 +17,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
 
 Synchronizes any changes in a partial replica with the full replica, clears all records in the partial replica, and then repopulates the partial replica based on the current replica filters. (Microsoft Access database engine databases only.).
 
@@ -86,7 +82,7 @@ The **PopulatePartial** method can only be invoked on a partial replica that has
 
 The following example uses the **PopulatePartial** method after changing a replica filter.
 
-``` 
+```vb 
 Sub PopulatePartialX() 
  
  Dim tdfCustomers As TableDef 

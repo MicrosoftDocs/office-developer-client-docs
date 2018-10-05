@@ -25,7 +25,8 @@ The object referenced must implement the **IDataSource** interface and must cont
 
 **Usage**
 
+```vb
     Dim rs as New ADODB.Recordset
     rs.DataMember = "Command"     'Name of the rowset to bind to
     Set rs.DataSource = myDE      'Name of the object containing an IRowset
-
+```

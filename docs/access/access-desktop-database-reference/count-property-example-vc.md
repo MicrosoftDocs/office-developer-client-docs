@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example demonstrates the [Count](count-property-ado.md) property with two collections in the ***Employee*** database. The property obtains the number of objects in each collection, and sets the upper limit for loops that enumerate these collections. Another way to enumerate these collections without using the **Count** property would be to use statements.
 
-``` 
+```cpp 
  
 // BeginCountCpp 
 #import "C:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 

@@ -17,10 +17,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
 
 Returns a 16-byte value that uniquely identifies a database replica (Microsoft Access workspaces only).
 
@@ -42,7 +38,7 @@ The **ReplicaID** property of each replica (and the Design Master) is stored in 
 
 This example makes a replica from the Design Master of Northwind.mdb, and then returns the replica's **ReplicaID**, which is automatically created by the Microsoft Access database engine. (If you have not yet created a Design Master of Northwind, refer to the **Replicable** property, or change the name of the database in the code to an existing Design Master.)
 
-``` 
+```vb 
 Sub MakeReplicaReplicaIDX() 
  
  Dim dbsNorthwind As Database 

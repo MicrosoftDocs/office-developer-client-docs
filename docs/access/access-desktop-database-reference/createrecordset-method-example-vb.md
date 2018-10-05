@@ -17,7 +17,7 @@ You can create a [Recordset](recordset-object-ado.md) object and specify the col
 
 The following code example shows how to define a **Recordset** by using the [RDSServer.DataFactory](datafactory-object-rdsserver.md) object. You can also do this with the [RDS.DataControl](datacontrol-object-rds.md) object.
 
-``` 
+```vb 
  
 'BeginRsDefineShapeVB 
 Sub Main() 

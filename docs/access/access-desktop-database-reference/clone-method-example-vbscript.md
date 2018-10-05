@@ -19,7 +19,7 @@ Use the following example in an Active Server Page (ASP). This example uses the 
 
 To exercise the example, change the line RsCustomerList.Source = "Customers" to to RsCustomerList.Source = "Products" to count a larger table.
 
-``` 
+```vb 
  
 <!-- BeginCloneVBS --> 
 <% Language = VBScript %> 

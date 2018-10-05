@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example uses the [CacheSize](cachesize-property-ado.md) property to show the difference in performance for an operation performed with and without a 30-record cache.
 
-``` 
+```cpp 
  
 // BeginCacheSizeCpp 
 #import "C:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 

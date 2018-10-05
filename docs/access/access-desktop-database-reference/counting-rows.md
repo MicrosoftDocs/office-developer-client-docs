@@ -23,14 +23,14 @@ In certain cases, your provider or cursor might be unable to provide the **Recor
 
 If you were to replace the line of code that calls the **Recordset** **Open** method with the following:
 
-``` 
+```vb 
  
 oRs.Open sSQL, sCnStr, adOpenStatic, adLockOptimistic, adCmdText 
 ```
 
 you would be able to use the **RecordCount** property because static cursors with the [Microsoft OLE DB Provider for SQL Server](microsoft-ole-db-provider-for-sql-server.md) support **RecordCount**. For example, the following code would print out the number of records returned by the command to the debug window, assuming the cursor supports the **RecordCount** property:
 
-``` 
+```vb 
  
 Debug.Print oRs.RecordCount ' Output: 4 
 ```

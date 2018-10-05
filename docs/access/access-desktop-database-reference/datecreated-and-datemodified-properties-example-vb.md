@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example demonstrates the [DateCreated](datecreated-property-adox.md) and [DateModified](datemodified-property-adox.md) properties by adding a new [Column](column-object-adox.md) to an existing [Table](table-object-adox.md) and by creating a new **Table**. The DateOutput procedure is required for this example to run.
 
-``` 
+```vb 
  
 ' BeginDateCreatedVB 
 Sub Main() 

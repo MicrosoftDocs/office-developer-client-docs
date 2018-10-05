@@ -17,10 +17,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
 
 Creates a new **[TableDef](tabledef-object-dao.md)** object (Microsoft Access workspaces only). .
 

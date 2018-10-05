@@ -17,7 +17,7 @@ This example demonstrates the [CompareBookmarks](comparebookmarks-method-ado.md)
 
 Designate a random row of a [Recordset](recordset-object-ado.md) derived from the ***Authors*** table as the target of a search. Then display the position of each row relative to that target.
 
-``` 
+```cpp 
  
 // BeginCompareBookmarksCpp 
 #import "C:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 

@@ -39,7 +39,7 @@ To refer to a **Database** object in a collection by its ordinal number or by it
 
 This example creates a new **Database** object and opens an existing **Database** object in the default **Workspace** object. Then it enumerates the **Database** collection and the **Properties** collection of each **Database** object.
 
-``` 
+```vb 
 Sub DatabaseObjectX() 
  
  Dim wrkAcc As Workspace 

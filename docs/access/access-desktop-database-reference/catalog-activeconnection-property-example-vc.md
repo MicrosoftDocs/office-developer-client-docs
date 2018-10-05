@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 Setting the [ActiveConnection](activeconnection-property-adox.md) property to a valid, open connection "opens" the catalog. From an open catalog, you can access the schema objects contained within that catalog.
 
-``` 
+```cpp 
  
 // BeginActiveConnectionCpp 
 #import "c:\Program Files\Common Files\system\ado\msado15.dll" 

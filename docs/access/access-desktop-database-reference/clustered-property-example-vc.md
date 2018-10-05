@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example demonstrates the [Clustered](clustered-property-adox.md) property of an [Index](index-object-adox.md). Note that Microsoft Jet databases do not support clustered indexes, so this example will return **False** for the **Clustered** property of all indexes in the *Northwind* database.
 
-``` 
+```cpp 
  
 // BeginClusteredCpp 
 #import "c:\Program Files\Common Files\system\ado\msadox.dll" no_namespace 

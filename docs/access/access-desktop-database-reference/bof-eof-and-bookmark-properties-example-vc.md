@@ -17,7 +17,7 @@ The first function in this example uses the [BOF](bof-eof-properties-ado.md) and
 
 The second function uses the Bookmark property to place the **Bookmark** of every other record from a **Recordset** into an array, and then filters the Recordset using the array.
 
-``` 
+```cpp 
  
 // BeginBOFCpp 
 #import "C:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 
@@ -352,7 +352,7 @@ void PrintProviderError(_ConnectionPtr pConnection)
 
 **BofEofBookmark.h**
 
-``` 
+```cpp 
  
 // BeginBOFEOFH 
 #include "icrsint.h" 

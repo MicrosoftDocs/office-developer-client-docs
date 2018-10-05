@@ -25,6 +25,7 @@ Returns the number of records affected by the most recently invoked **[Execute](
 
 This example uses the **RecordsAffected** property with action queries executed from a **Database** object and from a **QueryDef** object. The RecordsAffectedOutput function is required for this procedure to run.
 
+```vb
     Sub RecordsAffectedX() 
      
      Dim dbsNorthwind As Database 
@@ -94,4 +95,4 @@ This example uses the **RecordsAffected** property with action queries executed 
      End With 
      
     End Function
-
+```

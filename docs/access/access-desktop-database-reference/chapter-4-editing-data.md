@@ -17,7 +17,7 @@ The preceding two chapters explained how use ADO to connect to a data source, ex
 
 This chapter continues to use the sample **Recordset** introduced in Chapter 3 — with one important change. The following code is used to open the **Recordset**:
 
-``` 
+```vb 
  
  . . . 
 'BeginEditIntro 
@@ -47,7 +47,7 @@ You might also have noticed that the **LockType** parameter of the **Open** meth
 
 Finally, the code in this chapter uses a modified version of the GetNewConnection function, introduced in Chapter 2. This version of the function now returns a client-side cursor. The function looks like this:
 
-``` 
+```vb 
  
 'BeginNewConnection 
 Public Function GetNewConnection() As ADODB.Connection 

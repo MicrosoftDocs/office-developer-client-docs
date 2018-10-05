@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 The following code shows how to create a new Microsoft Jet database with the [Create](create-method-adox.md) method.
 
-``` 
+```cpp 
  
 // BeginCreateDatabaseCpp 
 #import "c:\Program Files\Common Files\system\ado\msadox.dll" no_namespace 

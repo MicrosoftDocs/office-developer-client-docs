@@ -13,12 +13,7 @@ dev_langs:
 # CREATE PROCEDURE Statement (Microsoft Access SQL)
 
 
-**Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Syntax  
-Remarks  
-Example  
+**Applies to**: Access 2013 | Office 2013 
 
 Creates a stored procedure.
 

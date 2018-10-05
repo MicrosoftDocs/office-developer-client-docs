@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 Setting the [ActiveConnection](activeconnection-property-adox.md) property to **Nothing** should "close" the catalog. Associated collections will be empty. Any objects that were created from schema objects in the catalog will be orphaned. Any properties on those objects that have been cached will still be available, but attempting to read properties that require a call to the provider will fail.
 
-``` 
+```cpp 
  
 // BeginCloseConnectionCpp 
 #import "c:\Program Files\Common Files\system\ado\msadox.dll" no_namespace 

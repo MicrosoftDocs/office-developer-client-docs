@@ -17,7 +17,7 @@ Chapter 2 explained how to retrieve data from a data source as a **Recordset** o
 
 **Recordsets** have methods and properties designed to make it easy to move through them and examine their contents. Depending on the functionality supported by the provider, some **Recordset** methods or properties might not be available. To continue exploring the **Recordset** object, consider a **Recordset** that would be returned from the Northwind sample database on Microsoft SQL Server 2000, using the following code:
 
-``` 
+```vb 
  
 'BeginRsTour 
 Public Sub RecordsetTour() 

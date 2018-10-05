@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 Though not a typical usage of the **Command** object, the following code shows the basic method of using the **Command** object to execute a command against a data source. In this case, it is a row-returning command, so it returns the results of the command execution into a **Recordset** object.
 
-``` 
+```vb 
  
  'BeginBasicCmd 
  On Error GoTo ErrHandler: 
@@ -81,7 +81,7 @@ The command to be executed is specified with the **CommandText** property.
 
 
 
-``` 
+```vb 
  
 'BeginNewConnection 
 Private Function GetNewConnection() As ADODB.Connection 
