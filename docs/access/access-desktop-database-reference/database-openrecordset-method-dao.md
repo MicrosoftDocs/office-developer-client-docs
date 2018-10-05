@@ -108,15 +108,15 @@ Closing a **Recordset** with the **[Close](connection-close-method-dao.md)** met
 
 **Link provided by** the [UtterAccess](https://www.utteraccess.com) community. UtterAccess is the premier Microsoft Access wiki and help forum.
 
-  - [Transfer data from Access to Excel](https://www.utteraccess.com/forum/transfer-data-access-ex-t1672619.html)
+- [Transfer data from Access to Excel](https://www.utteraccess.com/forum/transfer-data-access-ex-t1672619.html)
 
 ## Example
 
 The following example shows how to open a Recordset that is based on a parameter query.
 
-**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html).
+**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
-```
+```vb
     Dim dbs As DAO.Database
     Dim qdf As DAO.QueryDef
     Dim rst As DAO.Recordset
@@ -134,10 +134,11 @@ The following example shows how to open a Recordset that is based on a parameter
     Set rst = qdf.OpenRecordset()
 ```
 
+<br/>
+
 The following example shows how to open a Recordset based on a table or a query.
 
-
-``` 
+```vb 
     Dim dbs As DAO.Database
     Dim rsTable As DAO.Recordset
     Dim rsQuery As DAO.Recordset
@@ -151,9 +152,11 @@ The following example shows how to open a Recordset based on a table or a query.
     Set rsQuery = dbs.OpenRecordset("qryMyQuery", dbOpenDynaset)
 ```
 
+<br/>
+
 The following example shows how to open a Recordset based on a Structured Query Language (SQL) statement.
 
-```
+```vb
     Dim dbs As DAO.Database
     Dim rsSQL As DAO.Recordset
     Dim strSQL As String
@@ -165,9 +168,11 @@ The following example shows how to open a Recordset based on a Structured Query 
     Set rsSQL = dbs.OpenRecordset(strSQL, dbOpenSnapshot)
 ```
 
+<br/>
+
 The following sample shows how to use the Filter property to determine the records to be included in a subsequently opened Recordset.
 
-```
+```vb
     Dim dbs As DAO.Database
     Dim rst As DAO.Recordset
     Dim rstFiltered As DAO.Recordset
@@ -213,9 +218,5 @@ The following sample shows how to use the Filter property to determine the recor
     Set rst = Nothing
 ```
 
-## About the contributors
 
-UtterAccess is the premier Microsoft Access wiki and help forum. 
-
-Wrox Press is driven by the programmer to programmer philosophy. Wrox books are written by programmers for programmers, and the Wrox brand means authoritative solutions to real-world programming problems.
 

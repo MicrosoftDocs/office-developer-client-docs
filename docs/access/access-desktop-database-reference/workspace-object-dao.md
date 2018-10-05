@@ -10,13 +10,7 @@ mtps_version: v=office.15
 
 # Workspace Object (DAO)
 
-
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Remarks  
-Example  
-About the Contributors  
 
 A **Workspace** object defines a named session for a user. It contains open databases and provides mechanisms for simultaneous transactions and, in Microsoft Access workspaces, secure workgroup support.
 
@@ -24,13 +18,13 @@ A **Workspace** object defines a named session for a user. It contains open data
 
 A **Workspace** is a non-persistent object that defines how your application interacts with data by using the Microsoft Access database engine. Use the **Workspace** object to manage the current session or to start an additional session. In a session, you can open multiple databases or connections, and manage transactions. For example, you can:
 
-  - Use the **Name**, **UserName**, and **Type** properties to establish a named session. The session creates a scope in which you can open multiple databases and conduct one instance of nested transactions.
+- Use the **Name**, **UserName**, and **Type** properties to establish a named session. The session creates a scope in which you can open multiple databases and conduct one instance of nested transactions.
 
-  - Use the **Close** method to terminate a session.
+- Use the **Close** method to terminate a session.
 
-  - Use the **OpenDatabase** method to open one or more existing databases on a **Workspace**.
+- Use the **OpenDatabase** method to open one or more existing databases on a **Workspace**.
 
-  - Use the **BeginTrans**, **CommitTrans**, and **Rollback** methods to manage nested transaction processing within a **Workspace** and use several **Workspace** objects to conduct multiple, simultaneous, and overlapping transactions.
+- Use the **BeginTrans**, **CommitTrans**, and **Rollback** methods to manage nested transaction processing within a **Workspace** and use several **Workspace** objects to conduct multiple, simultaneous, and overlapping transactions.
 
 When you first refer to or use a **Workspace** object, you automatically create the default workspace, DBEngine.Workspaces(0). The settings of the **Name** and **UserName** properties of the default workspace are "\#Default Workspace\#" and "Admin," respectively. If security is enabled, the **UserName** property setting is the name of the user who logged on.
 
@@ -48,17 +42,15 @@ To refer to a **Workspace** object in a collection by its ordinal number or by i
 
 **DBEngine**.**Workspaces**\!\[name\]
 
-
 > [!NOTE]
-> <P>ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</P>
-
+> ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.
 
 
 ## Example
 
 This example creates a new Microsoft Access Workspace object and appends it to the **Workspaces** collection. It then enumerates the **Workspaces** collections and the **Properties** collection of the **Workspace** object.
 
-``` 
+```vb 
 Sub WorkspaceX() 
  
    Dim wrkNewAcc As Workspace 
@@ -87,12 +79,13 @@ Sub WorkspaceX()
  
    wrkNewAcc.Close 
 End Sub 
- 
 ```
+
+<br/>
 
 This example uses the **CreateWorkspace** method to create a Microsoft Access workspace. It then lists the properties of theworkspace.
 
-``` 
+```vb 
 Sub CreateWorkspaceX() 
  
    Dim wrkAcc As Workspace 
@@ -127,13 +120,16 @@ Sub CreateWorkspaceX()
    wrkAcc.Close 
  
 End Sub 
- 
 ```
+
+<br/>
 
 The following example shows how to use a transaction in a Data Access Objects (DAO) workspace.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
+**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
+
+```vb
     Public Sub TransferFunds()
         Dim wrk As DAO.Workspace
         Dim dbC As DAO.Database
@@ -172,8 +168,4 @@ The following example shows how to use a transaction in a Data Access Objects (D
         Resume trans_Exit
         
     End Sub
-
-## About the Contributors
-
-Wrox Press is driven by the Programmer to Programmer philosophy. Wrox books are written by programmers for programmers, and the Wrox brand means authoritative solutions to real-world programming problems.
-
+```

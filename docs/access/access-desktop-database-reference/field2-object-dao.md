@@ -10,13 +10,7 @@ mtps_version: v=office.15
 
 # Field2 Object (DAO)
 
-
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Remarks  
-Example  
-About the Contributors  
 
 A **Field2** object represents a column of data with a common data type and a common set of properties.
 
@@ -24,15 +18,15 @@ A **Field2** object represents a column of data with a common data type and a co
 
 A **Field2** object is contains all of the same properties and methods as the **[Field](field-object-dao.md)** object. The **Field2** object contains several new properties and methods that support multi-valued field types. The new properties and methods are:
 
-  - **[AppendOnly](field2-appendonly-property-dao.md)** property
+- **[AppendOnly](field2-appendonly-property-dao.md)** property
 
-  - **[ComplexType](field2-complextype-property-dao.md)** property
+- **[ComplexType](field2-complextype-property-dao.md)** property
 
-  - **[IsComplex](field2-iscomplex-property-dao.md)** property
+- **[IsComplex](field2-iscomplex-property-dao.md)** property
 
-  - **[LoadFromFile](field2-loadfromfile-method-dao.md)** method
+- **[LoadFromFile](field2-loadfromfile-method-dao.md)** method
 
-  - **[SaveToFile](field2-savetofile-method-dao.md)** method
+- **[SaveToFile](field2-savetofile-method-dao.md)** method
 
 To refer to a **Field2** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:
 
@@ -48,8 +42,9 @@ With the same syntax forms, you can also refer to the **Value** property of a **
 
 The following example shows how to navigate a Recordset that contains a multi-value field.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
+**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
+```vb
     Sub PrintStudentsAndClasses()
         Dim dbs As DAO.Database
         Dim rsStudents As DAO.Recordset2  'Recordset for students
@@ -107,9 +102,13 @@ The following example shows how to navigate a Recordset that contains a multi-va
         Set dbs = Nothing
     
     End Sub
+```
+
+<br/>
 
 The following example shows how to navigate the files in an attachment field. The file type and filename of each attachment is printed in the Immediate window.
 
+```vb
     Sub ListAttachments()
         Dim dbs As DAO.Database
         Dim rst As DAO.Recordset2
@@ -153,9 +152,13 @@ The following example shows how to navigate the files in an attachment field. Th
         Set rst = Nothing
         Set dbs = Nothing
     End Sub
+```
+
+<br/>
 
 The following example shows how to add files from a specified folder path to an attachment field.
 
+```vb
     Public Function LoadAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
         Dim dbs As DAO.Database
         Dim rst As DAO.Recordset2
@@ -206,9 +209,13 @@ The following example shows how to add files from a specified folder path to an 
         Set rst = Nothing
         Set dbs = Nothing
     End Function
+```
+
+<br/>
 
 The following example shows how to save the files stored in an attachment field to the specified folder path.
 
+```vb
     Public Function SaveAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
         Dim dbs As DAO.Database
         Dim rst As DAO.Recordset2
@@ -258,9 +265,13 @@ The following example shows how to save the files stored in an attachment field 
         Set rst = Nothing
         Set dbs = Nothing
     End Function
+```
+
+<br/>
 
 The following example shows how to delete a file stored in an attachment field.
 
+```vb
     Function RemoveAttachment(strRemoveFile As String, Optional strFilter As String) As Long
         Dim dbs As DAO.Database
         Dim rst As DAO.Recordset2
@@ -313,8 +324,4 @@ The following example shows how to delete a file stored in an attachment field.
         Set rst = Nothing
         Set dbs = Nothing
     End Function
-
-## About the Contributors
-
-Wrox Press is driven by the Programmer to Programmer philosophy. Wrox books are written by programmers for programmers, and the Wrox brand means authoritative solutions to real-world programming problems.
-
+```

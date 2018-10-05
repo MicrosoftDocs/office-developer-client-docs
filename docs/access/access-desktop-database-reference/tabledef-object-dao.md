@@ -10,13 +10,7 @@ mtps_version: v=office.15
 
 # TableDef Object (DAO)
 
-
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Remarks  
-Example  
-About the Contributors  
 
 A **TableDef** object represents the stored definition of a base table or a linked table (Microsoft Access workspaces only).
 
@@ -24,13 +18,13 @@ A **TableDef** object represents the stored definition of a base table or a link
 
 You manipulate a table definition using a **TableDef** object and its methods and properties. For example, you can:
 
-  - Examine the field and index structure of any local, linked, or external table in a database.
+- Examine the field and index structure of any local, linked, or external table in a database.
 
-  - Use the **Connect** and **SourceTableName** properties to set or return information about linked tables, and use the **RefreshLink** method to update connections to linked tables.
+- Use the **Connect** and **SourceTableName** properties to set or return information about linked tables, and use the **RefreshLink** method to update connections to linked tables.
 
-  - Use the **ValidationRule** and **ValidationText** properties to set or return validation conditions.
+- Use the **ValidationRule** and **ValidationText** properties to set or return validation conditions.
 
-  - Use the **OpenRecordset** method to create a table–, dynaset–, dynamic–, snapshot–, or forward–only–type **Recordset** object, based on the table definition.
+- Use the **OpenRecordset** method to create a table–, dynaset–, dynamic–, snapshot–, or forward–only–type **Recordset** object, based on the table definition.
 
 For base tables, the **RecordCount** property contains the number of records in the specified database table. For linked tables, the **RecordCount** property setting is always –1.
 
@@ -80,6 +74,7 @@ To refer to a **TableDef** object in a collection by its ordinal number or by it
 
 This example creates a new **TableDef** object and appends it to the **TableDefs** collection of the Northwind Database object. It then enumerates the **TableDefs** collection and the **Properties** collection of the new **TableDef**.
 
+```vb
     Sub TableDefX() 
      
        Dim dbsNorthwind As Database 
@@ -126,10 +121,13 @@ This example creates a new **TableDef** object and appends it to the **TableDefs
        End With 
      
     End Sub 
+```
+
+<br/>
 
 This example creates a new **TableDef** object in the Northwind database.
 
-``` 
+```vb 
 Sub CreateTableDefX() 
  
    Dim dbsNorthwind As Database 
@@ -186,13 +184,15 @@ Sub CreateTableDefX()
    dbsNorthwind.TableDefs.Delete "Contacts" 
  
    dbsNorthwind.Close 
- 
 ```
+
+<br/>
 
 The following example shows how to create a calculated field. The CreateField method creates a field named **FullName**. The Expression property is then set to the expression that calculates the value of the field.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
+**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
+```vb
     Sub CreateCalculatedField()
         Dim dbs As DAO.Database
         Dim tdf As DAO.TableDef
@@ -221,8 +221,4 @@ The following example shows how to create a calculated field. The CreateField me
         Set tdf = Nothing
         Set dbs = Nothing
     End Sub
-
-## About the Contributors
-
-Wrox Press is driven by the Programmer to Programmer philosophy. Wrox books are written by programmers for programmers, and the Wrox brand means authoritative solutions to real-world programming problems.
-
+```

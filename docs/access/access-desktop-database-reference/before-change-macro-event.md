@@ -16,17 +16,12 @@ f1_categories:
 
 # Before Change Macro Event
 
-
 **Applies to**: Access 2013 | Office 2013
-
 
 The **Before Change** event occurs when a record changes, but before the change is committed.
 
-
 > [!NOTE]
-> <P>The <STRONG>Before Change</STRONG> event is available only in Data Macros.</P>
-
-
+> The **Before Change** event is available only in Data Macros.
 
 ## Remarks
 
@@ -34,16 +29,19 @@ Use the **Before Change** event to perform any actions that you want to occur be
 
 You can use the **Updated("*Field Name*")** function to determine whether a field has changed. The following code example shows how to use an **If** statement to determine whether the PaidInFull field has been changed.
 
+```vb
     If  Updated("PaidInFull")   Then 
      
         /* Perform actions based on changes to the field.   */ 
      
     End If 
+```
 
 Use the **IsInsert** property to determine whether the **Before Change** event was triggered by a new record being created or a change to an existing record. They **IsInsert** property contains **True** if the event was triggered by a new record, **False** if the event was triggered by a change to en existing record.
 
 The following code example shows the syntax for using the **IsInsert** property.
 
+```vb
     If   [IsInsert] = True   Then 
      
        /*  Actions for validating a new record go here.       */ 
@@ -53,14 +51,19 @@ The following code example shows the syntax for using the **IsInsert** property.
        /* Actions for processing a changed record go here.    */ 
      
     End If
+```
 
 You can use access a the previous value in a field by using the following syntax.
 
+```vb
     [Old].[Field Name]
+```
 
 For example, to access the previous value of the QuantityInStock field, use the following syntax.
 
+```vb
     [Old].[QuantityInStock]
+```
 
 The previous values are deleted permanently when the **Before Change** event ends.
 
@@ -136,9 +139,7 @@ An empty data macro is displayed in the macro designer.
 
 The following code example uses the **Before Change** event to validate the Status fields. An error is raised if an inappropriate value is contained in the Resolution field.
 
-**Click here to view a copy of the macro that you can paste into Macro Designer.**
-
-``` 
+```vb 
  
 /* Check to ensure that if the bug is resloved that the user has selected a resolution      */ 
 If   [Status]="3 - Resolved" And IsNull([Resolution])   Then 
@@ -175,9 +176,9 @@ To view this example in the macro designer, use the following steps.
 
 4.  Activate the macro designer window and then press **CTRL+V**.
 
-<!-- end list -->
 
-``` xml
+
+```xml
 <DataMacros xmlns="https://schemas.microsoft.com/office/accessservices/2009/04/application"> 
   <DataMacro Event="BeforeChange"> 
     <Statements> 
@@ -223,8 +224,9 @@ To view this example in the macro designer, use the following steps.
 
 The following example shows how to use the RaiseError action to cancel the Before Change data macro event. When the AssignedTo field is updated, a LookupRecord data block is used to determine whether the assigned technician is currently assigned to an open service request. If this is true, then the Before Change event is cancelled and the record is not updated.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html)
+**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
+```vb
     /* Get the name of the technician  */
     Look Up A Record In tblTechnicians
         Where Condition =[tblTechnicians].[ID]=[tblServiceRequests].[AssignedTo]
@@ -243,8 +245,4 @@ The following example shows how to use the RaiseError action to cancel the Befor
                 Error Description ="Cannot assign a request to the specified technician: " & [TechName]
     
     End If
-
-## About the Contributors
-
-Wrox Press is driven by the Programmer to Programmer philosophy. Wrox books are written by programmers for programmers, and the Wrox brand means authoritative solutions to real-world programming problems.
-
+```

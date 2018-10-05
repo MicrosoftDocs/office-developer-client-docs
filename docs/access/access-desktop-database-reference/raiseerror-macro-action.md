@@ -10,22 +10,12 @@ mtps_version: v=office.15
 
 # RaiseError Macro Action
 
-
-**Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Setting  
-Remarks  
-Example  
-About the Contributors  
+**Applies to**: Access 2013 | Office 2013 
 
 The **RaiseError** action throws an exception that can be handled by the **[OnError](onerror-macro-action.md)** macro action.
 
-
 > [!NOTE]
-> <P>The <STRONG>RaiseError</STRONG> action is available only in Data Macros.</P>
-
-
+> The **RaiseError** action is available only in Data Macros.
 
 ## Setting
 
@@ -81,8 +71,9 @@ To see the **USysApplicationLog** table, use the following steps:
 
 The following example shows how to use the RaiseError action to cancel the Before Change data macro event. When the AssignedTo field is updated, a LookupRecord data block is used to determine whether the assigned technician is currently assigned to an open service request. If this is true, then the Before Change event is cancelled and the record is not updated.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html)
+**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
+```vb
     /* Get the name of the technician  */
     Look Up A Record In tblTechnicians
         Where Condition =[tblTechnicians].[ID]=[tblServiceRequests].[AssignedTo]
@@ -101,8 +92,4 @@ The following example shows how to use the RaiseError action to cancel the Befor
                 Error Description ="Cannot assign a request to the specified technician: " & [TechName]
     
     End If
-
-## About the Contributors
-
-Wrox Press is driven by the Programmer to Programmer philosophy. Wrox books are written by programmers for programmers, and the Wrox brand means authoritative solutions to real-world programming problems.
-
+```

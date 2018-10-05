@@ -80,15 +80,15 @@ To remove a **Field** object from a **Fields** collection, use the **[Delete](fi
 
 **Link provided by** the [UtterAccess](https://www.utteraccess.com) community. UtterAccess is the premier Microsoft Access wiki and help forum.
 
-  - [Adding a hyperlink field to an existing table with DAO](https://www.utteraccess.com/wiki/index.php/adding_a_hyperlink_field_to_an_existing_table_with_dao)
+- [Adding a hyperlink field to an existing table with DAO](https://www.utteraccess.com/wiki/index.php/adding_a_hyperlink_field_to_an_existing_table_with_dao)
 
 ## Example
 
 The following example shows how to create a calculated field. The CreateField method creates a field named **FullName**. The Expression property is then set to the expression that calculates the value of the field.
 
-**Sample code provided by** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html).
+**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
-```
+```vb
     Sub CreateCalculatedField()
         Dim dbs As DAO.Database
         Dim tdf As DAO.TableDef
@@ -118,10 +118,4 @@ The following example shows how to create a calculated field. The CreateField me
         Set dbs = Nothing
     End Sub
 ```
-
-### About the contributors
-
-UtterAccess is the premier Microsoft Access wiki and help forum. 
-
-Wrox Press is driven by the Programmer to Programmer philosophy. Wrox books are written by programmers for programmers, and the Wrox brand means authoritative solutions to real-world programming problems.
 

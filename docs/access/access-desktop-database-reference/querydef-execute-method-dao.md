@@ -14,14 +14,7 @@ f1_categories:
 
 # QueryDef.Execute Method (DAO)
 
-
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Syntax  
-Remarks  
-Example  
-About the Contributors  
 
 Executes an SQL statement on the specified object.
 
@@ -111,17 +104,11 @@ You can use the following **[RecordsetOptionEnum](recordsetoptionenum-enumeratio
 </table>
 
 
+> [!NOTE]
+> ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.
 
 > [!NOTE]
-> <P>ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</P>
-
-
-
-
-> [!NOTE]
-> <P>The constants <STRONG>dbConsistent</STRONG> and <STRONG>dbInconsistent</STRONG> are mutually exclusive. You can use one or the other, but not both in a given instance of <STRONG>OpenRecordset</STRONG>. Using both <STRONG>dbConsistent</STRONG> and <STRONG>dbInconsistent</STRONG> causes an error.</P>
-
-
+> The constants **dbConsistent** and **dbInconsistent** are mutually exclusive. You can use one or the other, but not both in a given instance of **OpenRecordset**. Using both **dbConsistent** and **dbInconsistent** causes an error.
 
 Use the **[RecordsAffected](querydef-recordsaffected-property-dao.md)** property of the **[Connection](connection-object-dao.md)**, **[Database](database-object-dao.md)**, or **[QueryDef](querydef-object-dao.md)** object to determine the number of records affected by the most recent **[Execute](querydef-execute-method-dao.md)** method. For example, **RecordsAffected** contains the number of records deleted, updated, or inserted when executing an action query. When you use the **Execute** method to run a query, the **RecordsAffected** property of the **QueryDef** object is set to the number of records affected.
 
@@ -135,6 +122,7 @@ For best performance in a Microsoft Access workspace, especially in a multiuser 
 
 This example demonstrates the **Execute** method when run from both a **QueryDef** object and a **Database** object. The ExecuteQueryDef and PrintOutput procedures are required for this procedure to run.
 
+```vb
     Sub ExecuteX() 
      
        Dim dbsNorthwind As Database 
@@ -245,11 +233,15 @@ This example demonstrates the **Execute** method when run from both a **QueryDef
        Loop 
      
     End Sub 
+```
+
+<br/>
 
 The following example shows how to execute a parameter query. The Parameters collection is used to set the Organization parameter of the myActionQuery query before the query is executed.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
+**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
+```vb
     Public Sub ExecParameterQuery()
     
         Dim dbs As DAO.Database
@@ -270,8 +262,4 @@ The following example shows how to execute a parameter query. The Parameters col
         Set dbs = Nothing
     
     End Sub
-
-## About the Contributors
-
-Wrox Press is driven by the Programmer to Programmer philosophy. Wrox books are written by programmers for programmers, and the Wrox brand means authoritative solutions to real-world programming problems.
-
+```

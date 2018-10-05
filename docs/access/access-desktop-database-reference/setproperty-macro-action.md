@@ -14,14 +14,7 @@ f1_categories:
 
 # SetProperty Macro Action
 
-
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Setting  
-Remarks  
-Example  
-About the Contributors  
 
 You can use the **SetProperty** action to set a property for a control on a form or a report.
 
@@ -59,28 +52,25 @@ The **SetProperty** action has the following arguments.
 
 ## Remarks
 
-  - You can use the **SetProperty** action to set the following properties of a control: **Enabled**, **Visible**, **Locked**, **Left**, **Top**, **Width**, **Height**, **Fore Color**, **Back Color**, or **Caption**.
+- You can use the **SetProperty** action to set the following properties of a control: **Enabled**, **Visible**, **Locked**, **Left**, **Top**, **Width**, **Height**, **Fore Color**, **Back Color**, or **Caption**.
 
-  - If you enter an invalid value for the ***Value*** argument, no error occurs, but Access might change the property to a different value, depending on how it interprets the argument.
+- If you enter an invalid value for the ***Value*** argument, no error occurs, but Access might change the property to a different value, depending on how it interprets the argument.
 
-  - You can use the **SetProperty** action in a stand-alone macro only if you precede it with an action that selects the form or report containing the control for which you are setting the property. If the form or report is not open, you can use the **OpenForm** or **OpenReport** action to open and select it. If the form or report is already open, you can use the **SelectObject** action to select it. You can then use the **SetProperty** action to set the property. Selecting the object is not necessary if you use the **SetProperty** action in a macro which is embedded in a control on the same form or report as the control for which you are setting the property.
+- You can use the **SetProperty** action in a stand-alone macro only if you precede it with an action that selects the form or report containing the control for which you are setting the property. If the form or report is not open, you can use the **OpenForm** or **OpenReport** action to open and select it. If the form or report is already open, you can use the **SelectObject** action to select it. You can then use the **SetProperty** action to set the property. Selecting the object is not necessary if you use the **SetProperty** action in a macro which is embedded in a control on the same form or report as the control for which you are setting the property.
 
-  - To run the **SetProperty** action in a VBA module, use the **SetProperty** method of the **DoCmd** object.
+- To run the **SetProperty** action in a VBA module, use the **SetProperty** method of the **DoCmd** object.
 
 ## Example
 
 The following example shows how to use the SetProperty action to toggle the visibility of the **MyTextBox** text box.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html)
+**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
+```vb
     Submacro: TestVisible
         SetProperty
             Control Name Text40
             Property Visible
             Value =Not[Text40].[Visible]
     End Submacro
-
-## About the Contributors
-
-Wrox Press is driven by the Programmer to Programmer philosophy. Wrox books are written by programmers for programmers, and the Wrox brand means authoritative solutions to real-world programming problems.
-
+```

@@ -14,16 +14,12 @@ f1_categories:
 
 # ImportExportData Macro Action
 
-
 **Applies to**: Access 2013 | Office 2013
 
 You can use the **ImportExportData** action to import or export data between the current Access database (.mdb or .accdb) or Access project (.adp) and another database. For Microsoft Access databases, you can also link a table to the current Access database from another database. With a linked table, you have access to the table's data while the table itself remains in the other database.
 
-
 > [!NOTE]
-> <P>This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</P>
-
-
+> This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.
 
 ## Settings
 
@@ -46,7 +42,7 @@ The **ImportExportData** action has the following arguments.
 <td><p>The type of transfer you want to make. Select <strong>Import</strong>, <strong>Export</strong>, or <strong>Link</strong> in the <strong>Transfer Type</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane. The default is <strong>Import</strong>.</p>
 
 > [!NOTE]
-> <P>The <STRONG>Link</STRONG> transfer type is not supported for Access projects (.adp).</P>
+> The **Link** transfer type is not supported for Access projects (.adp).
 
 
 <p></p></td>
@@ -60,7 +56,6 @@ The **ImportExportData** action has the following arguments.
 <td><p>The name of the database to import from, export to, or link to. Include the full path. This is a required argument. For types of databases that use separate files for each table, such as FoxPro, Paradox, and dBASE, enter the directory containing the file. Enter the file name in the <strong>Source</strong> argument (to import or link) or the <strong>Destination</strong> argument (to export). For ODBC databases, type the full Open Database Connectivity (ODBC) connection string.</p>
 <p>To see an example of a connection string, link an external table to Access:</p>
 <ol>
-<li><p></p></li>
 <li><p>In the <strong>Get External Data</strong> dialog box, enter the path of your source database in the <strong>File name</strong> box.</p></li>
 <li><p>Click <strong>Link to the data source by creating a linked table</strong>, and click <strong>OK</strong>.</p></li>
 <li><p>Select a table in the <strong>Link Tables</strong> dialog box, and click <strong>OK</strong>.</p></li>
@@ -100,25 +95,20 @@ The **ImportExportData** action is similar to the commands on the **External Dat
 
 If you want to supply index information for a linked dBASE table, first link the table:
 
-1.  
+1.  Click **dBASE File**.
 
-2.  Click **dBASE File**.
+2.  In the **Get External Data** dialog box, enter the path for the dBASE file in the **File name** box.
 
-3.  In the **Get External Data** dialog box, enter the path for the dBASE file in the **File name** box.
+3.  Click **Link to the data source by creating a linked table**, then click **OK**.
 
-4.  Click **Link to the data source by creating a linked table**, then click **OK**.
+4.  Specify the indexes in the dialog boxes for this command. Access stores the index information in a special information (.inf) file, located in the Microsoft Office folder.
 
-5.  Specify the indexes in the dialog boxes for this command. Access stores the index information in a special information (.inf) file, located in the Microsoft Office folder.
-
-6.  You can then delete the link to the linked table.
+5.  You can then delete the link to the linked table.
 
 The next time you use the **ImportExportData** action to link this dBASE table, Access uses the index information that you've specified.
 
-
 > [!NOTE]
-> <P>If you query or filter a linked table, the query or filter is case-sensitive.</P>
-
-
+> If you query or filter a linked table, the query or filter is case-sensitive.
 
 To run the **ImportExportData** action in a Visual Basic for Applications (VBA) module, use the **TransferDatabase** method of the **DoCmd** object.
 

@@ -14,14 +14,7 @@ f1_categories:
 
 # Field2.SaveToFile Method (DAO)
 
-
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Version Information  
-Syntax  
-Example  
-About the Contributors  
 
 Saves an attachment to disk.
 
@@ -67,6 +60,7 @@ Version Added: Access 2007
 
 The following code snippet illustrates how to use the **SaveToFile** method to save all of the attachments for a specific employee to disk.
 
+```vb
     '  Instantiate the parent recordset.  
        Set rsEmployees = db.OpenRecordset("Employees") 
       
@@ -83,11 +77,15 @@ The following code snippet illustrates how to use the **SaveToFile** method to s
                       "C:\Documents and Settings\Username\My Documents" 
           rsPictures.MoveNext 
        Wend 
+```
+
+<br/>
 
 The following example shows how to save the files stored in an attachment field to the specified folder path.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
+**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
+```vb
     Public Function SaveAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
         Dim dbs As DAO.Database
         Dim rst As DAO.Recordset2
@@ -137,8 +135,4 @@ The following example shows how to save the files stored in an attachment field 
         Set rst = Nothing
         Set dbs = Nothing
     End Function
-
-## About the Contributors
-
-Wrox Press is driven by the Programmer to Programmer philosophy. Wrox books are written by programmers for programmers, and the Wrox brand means authoritative solutions to real-world programming problems.
-
+```

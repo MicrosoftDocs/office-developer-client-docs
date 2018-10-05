@@ -14,14 +14,7 @@ f1_categories:
 
 # Recordset.NoMatch Property (DAO)
 
-
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Syntax  
-Remarks  
-Example  
-About the Contributors  
 
 Indicates whether a particular record was found by using the **[Seek](recordset-seek-method-dao.md)** method or one of the **[Find](recordset-findfirst-method-dao.md)** methods (Microsoft Access workspaces only).
 
@@ -41,14 +34,14 @@ If the **Seek** or **Find** method is unsuccessful and the **NoMatch** property 
 
 
 > [!NOTE]
-> <P>Using any of the <STRONG><A href="recordset-movefirst-method-dao.md">Move</A></STRONG> methods on a <STRONG>Recordset</STRONG> object won't affect its <STRONG>NoMatch</STRONG> property setting.</P>
-
+> Using any of the **[Move](recordset-movefirst-method-dao.md)** methods on a **Recordset** object won't affect its **NoMatch** property setting.
 
 
 ## Example
 
 This example uses the **NoMatch** property to determine whether a **Seek** and a **FindFirst** were successful, and if not, to give appropriate feedback. The SeekMatch and FindMatch procedures are required for this procedure to run.
 
+```vb
     Sub NoMatchX() 
      
        Dim dbsNorthwind As Database 
@@ -165,11 +158,15 @@ This example uses the **NoMatch** property to determine whether a **Seek** and a
        End With 
      
     End Sub 
+```
+
+<br/>
 
 The following example shows how to use the Seek method to find a record in a linked table.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
+**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
+```vb
     Sub TestSeek()
         ' Get the path to the external database that contains
         ' the tblCustomers table we're going to search.
@@ -211,8 +208,4 @@ The following example shows how to use the Seek method to find a record in a lin
         
         
     End Sub
-
-## About the Contributors
-
-Wrox Press is driven by the Programmer to Programmer philosophy. Wrox books are written by programmers for programmers, and the Wrox brand means authoritative solutions to real-world programming problems.
-
+```

@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # XML Persistence Format
 
-
 **Applies to**: Access 2013 | Office 2013
 
 ## XML Persistence Format
@@ -19,8 +18,7 @@ ADO uses UTF-8 encoding for the XML stream it persists.
 
 The ADO XML format is broken into two sections, a schema section followed by the data section. The following is an example XML file for the Shippers table from the Northwind database. Various parts of the XML are discussed following the example.
 
-``` 
- 
+```xml
 <xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"  
 xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"  
 xmlns:rs="urn:schemas-microsoft-com:rowset"  
@@ -60,7 +58,7 @@ xmlns:z="#RowsetSchema">
 
 The schema shows the declarations of namespaces, the schema section, and the data section. The schema section contains definitions for row, ShipperID, CompanyName, and Phone.
 
-Schema definitions conform to the XML-Data specification and are able to be fully validated (though validation will not occur in Internet Explorer 5). You can view this specification at [W3C XMLData Note](https://www.w3.org/tr/1998/note-xml-data/). XML-Data is the only supported schema format for **Recordset** persistence currently.
+Schema definitions conform to the XML-Data specification and are able to be fully validated (though validation will not occur in Internet Explorer 5). You can view this specification at [W3C XMLData Note](https://www.w3.org/TR/1998/NOTE-XML-data-0105/). XML-Data is the only supported schema format for **Recordset** persistence currently.
 
 The data section has three rows containing information about shippers. For an empty rowset, the data section may be empty, but the \<rs:data\> tags must be present. With no data, you could write the tag shorthand as simply \<rs:data/\>. Any tag prefixed with "rs" indicates that it is in the namespace defined by urn:schemas-microsoft-com:rowset. The full definition of this schema is defined in the appendix to this document.
 
@@ -70,8 +68,7 @@ ADO uses UTF-8 encoding for the XML stream it persists.
 
 The ADO XML format is broken into two sections, a schema section followed by the data section. The following is an example XML file for the Shippers table from the Northwind database. Various parts of the XML are discussed following the example.
 
-``` 
- 
+```xml
 <xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"  
 xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"  
 xmlns:rs="urn:schemas-microsoft-com:rowset"  
@@ -111,7 +108,7 @@ xmlns:z="#RowsetSchema">
 
 The schema shows the declarations of namespaces, the schema section, and the data section. The schema section contains definitions for row, ShipperID, CompanyName, and Phone.
 
-Schema definitions conform to the XML-Data specification and are able to be fully validated (though validation will not occur in Internet Explorer 5). You can view this specification at [W3C XMLData Note](https://www.w3.org/tr/1998/note-xml-data/). XML-Data is the only supported schema format for **Recordset** persistence currently.
+Schema definitions conform to the XML-Data specification and are able to be fully validated (though validation will not occur in Internet Explorer 5). You can view this specification at [W3C XMLData Note](https://www.w3.org/TR/1998/NOTE-XML-data-0105/). XML-Data is the only supported schema format for **Recordset** persistence currently.
 
 The data section has three rows containing information about shippers. For an empty rowset, the data section may be empty, but the \<rs:data\> tags must be present. With no data, you could write the tag shorthand as simply \<rs:data/\>. Any tag prefixed with "rs" indicates that it is in the namespace defined by urn:schemas-microsoft-com:rowset. The full definition of this schema is defined in the appendix to this document.
 

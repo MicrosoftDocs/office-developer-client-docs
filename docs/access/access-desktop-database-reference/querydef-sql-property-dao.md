@@ -14,14 +14,7 @@ f1_categories:
 
 # QueryDef.SQL Property (DAO)
 
-
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Syntax  
-Remarks  
-Example  
-About the Contributors  
 
 Sets or returns the SQL statement that defines the query executed by a **[QueryDef](querydef-object-dao.md)** object.
 
@@ -41,16 +34,14 @@ If the SQL statement includes parameters for the query, you must set these befor
 
 In a Microsoft Access workspace, using a **QueryDef** object is the preferred way to perform SQL pass-through operations on Microsoft Access database engine-connected ODBC data sources. By setting the **QueryDef** object's **[Connect](querydef-connect-property-dao.md)** property to an ODBC data source, you can use non–Microsoft–Access–database SQL in the query to be passed to the external server. For example, you can use TRANSACT SQL statements (with Microsoft SQL Server or Sybase SQL Server databases), which the Microsoft Access database engine would otherwise not process.
 
-
 > [!NOTE]
-> <P>If you set the property to a string concatenated with a non-integer value, and the system parameters specify a non-U.S. decimal character such as a comma (for example, strSQL = "PRICE &gt; " &amp; lngPrice, and lngPrice = 125,50), an error will result when you try to execute the <STRONG>QueryDef</STRONG> object in a Microsoft Access database engine database. This is because during concatenation, the number will be converted to a string using your system's default decimal character, and Microsoft Access SQL only accepts U.S. decimal characters.</P>
-
-
+> If you set the property to a string concatenated with a non-integer value, and the system parameters specify a non-U.S. decimal character such as a comma (for example, strSQL = "PRICE &gt; " &amp; lngPrice, and lngPrice = 125,50), an error will result when you try to execute the **QueryDef** object in a Microsoft Access database engine database. This is because during concatenation, the number will be converted to a string using your system's default decimal character, and Microsoft Access SQL only accepts U.S. decimal characters.
 
 ## Example
 
 This example demonstrates the **SQL** property by setting and changing the **SQL** property of a temporary **QueryDef** and comparing the results. The SQLOutput function is required for this procedure to run.
 
+```vb
     Sub SQLX() 
      
        Dim dbsNorthwind As Database 
@@ -98,9 +89,13 @@ This example demonstrates the **SQL** property by setting and changing the **SQL
        End With 
      
     End Function 
+```
+
+<br/>
 
 This example uses the **CopyQueryDef** method to create a copy of a **QueryDef** from an existing **Recordset** and modifies the copy by adding a clause to the **SQL** property. When you create a permanent **QueryDef**, spaces, semicolons, or linefeeds may be added to the **SQL** property; these extra characters must be stripped before any new clauses can be attached to the SQL statement.
 
+```vb
     Function CopyQueryNew(rstTemp As Recordset, _ 
        strAdd As String) As QueryDef 
      
@@ -177,9 +172,13 @@ This example uses the **CopyQueryDef** method to create a copy of a **QueryDef**
        dbsNorthwind.Close 
      
     End Sub 
+```
+
+<br/>
 
 This example uses the **CreateQueryDef** and **OpenRecordset** methods and the **SQL** property to query the table of titles in the Microsoft SQL Server sample database Pubs and return the title and title identifier of the best-selling book. The example then queries the table of authors and instructs the user to send a bonus check to each author based on his or her royalty share (the total bonus is $1,000 and each author should receive a percentage of that amount).
 
+```vb
     Sub ClientServerX2() 
      
        Dim dbsCurrent As Database 
@@ -241,11 +240,15 @@ This example uses the **CreateQueryDef** and **OpenRecordset** methods and the *
        dbsCurrent.Close 
      
     End Sub 
+```
+
+<br/>
 
 The following example shows how to create a parameter query. A query named **myQuery** is created with two parameters, named Param1 and Param2. To do this, the SQL property of the query is set to a Structured Query Language (SQL) statement that defines the parameters.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
+**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
+```vb
     Sub CreateQueryWithParameters()
     
         Dim dbs As DAO.Database
@@ -266,9 +269,13 @@ The following example shows how to create a parameter query. A query named **myQ
         Set dbs = Nothing
     
     End Sub
+```
+
+<br/>
 
 The following example shows how to replace the Structured Query Language (SQL) statement in a saved query.
 
+```vb
     Dim qdf as QueryDef
     Dim db as Database
     Set db = CurrentDB
@@ -306,8 +313,4 @@ The following example shows how to replace the Structured Query Language (SQL) s
       Resume Exit_Procedure
     
     End Function
-
-## About the Contributors
-
-Wrox Press is driven by the Programmer to Programmer philosophy. Wrox books are written by programmers for programmers, and the Wrox brand means authoritative solutions to real-world programming problems.
-
+```

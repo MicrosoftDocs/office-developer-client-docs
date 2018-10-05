@@ -14,14 +14,7 @@ f1_categories:
 
 # SetFilter Macro Action
 
-
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Setting  
-Remarks  
-Example  
-About the Contributors  
 
 You can use the **SetFilter** action to apply a filter to the records in the active datasheet, form, report, or table.
 
@@ -73,8 +66,9 @@ In a web database, to automatically apply a filter when the object is opened, ad
 
 The following example shows how to use the SetFilter action to filter the form in which the macro is defined.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html)
+**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
+```vb
     OpenForm
         Form Name sfrmFoods
         View Form
@@ -87,8 +81,4 @@ The following example shows how to use the SetFilter action to filter the form i
         Filter Name
         Where Condtion =[display_name] Like "*cheese*"
         Control Name
-
-## About the Contributors
-
-Wrox Press is driven by the Programmer to Programmer philosophy. Wrox books are written by programmers for programmers, and the Wrox brand means authoritative solutions to real-world programming problems.
-
+```

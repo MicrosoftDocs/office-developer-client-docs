@@ -52,13 +52,13 @@ You can refer to temporary **QueryDef** objects only by the object variables tha
 
 **Link provided by** the [UtterAccess](https://www.utteraccess.com) community. UtterAccess is the premier Microsoft Access wiki and help forum.
 
-  - [Queries: Document SQL to Word](https://www.utteraccess.com/wiki/index.php/queries:_document_sql_to_word)
+- [Queries: Document SQL to Word](https://www.utteraccess.com/wiki/index.php/queries:_document_sql_to_word)
 
 ## Example
 
 This example creates a new **QueryDef** object and appends it to the **QueryDefs** collection of the Northwind **Database** object. It then enumerates the **QueryDefs** collection and the **Properties** collection of the new **QueryDef**.
 
-```sql
+```vb
     Sub QueryDefX() 
      
        Dim dbsNorthwind As Database 
@@ -105,9 +105,11 @@ This example creates a new **QueryDef** object and appends it to the **QueryDefs
     End Sub 
 ```
 
+<br/>
+
 This example uses the **CreateQueryDef** method to create and execute both a temporary and a permanent **QueryDef**. The GetrstTemp function is required for this procedure to run.
 
-```sql
+```vb
     Sub CreateQueryDefX() 
      
        Dim dbsNorthwind As Database 
@@ -158,11 +160,13 @@ This example uses the **CreateQueryDef** method to create and execute both a tem
     End Function 
 ```
 
+<br/>
+
 The following example shows how to replace the Structured Query Language (SQL) statement in a saved query.
 
-**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html).
+**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
-```sql
+```vb
     ‘To change the Where clause in a saved query  
     Dim qdf as QueryDef
     Dim db as Database
@@ -202,10 +206,4 @@ The following example shows how to replace the Structured Query Language (SQL) s
     
     End Function
 ```
-
-### About the contributors
-
-UtterAccess is the premier Microsoft Access wiki and help forum. 
-
-Wrox Press is driven by the Programmer to Programmer philosophy. Wrox books are written by programmers for programmers, and the Wrox brand means authoritative solutions to real-world programming problems.
 

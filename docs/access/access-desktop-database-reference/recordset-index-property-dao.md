@@ -14,14 +14,7 @@ f1_categories:
 
 # Recordset.Index Property (DAO)
 
-
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Syntax  
-Remarks  
-Example  
-About the Contributors  
 
 Sets or returns a value that indicates the name of the current **[Index](index-object-dao.md)** object in a table-type **[Recordset](recordset-object-dao.md)** object (Microsoft Access workspaces only).
 
@@ -45,24 +38,18 @@ Records returned from a table-type **Recordset** object can be ordered only by t
 
 
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>You don't have to create indexes for tables. With large, unindexed tables, accessing a specific record or creating a <STRONG>Recordset</STRONG> object can take a long time. On the other hand, creating too many indexes slows down update, append, and delete operations because all indexes are automatically updated.</P>
-> <LI>
-> <P>Records read from tables without indexes are returned in no particular sequence.</P>
-> <LI>
-> <P>The <STRONG><A href="field-attributes-property-dao.md">Attributes</A></STRONG> property of each <STRONG><A href="field-object-dao.md">Field</A></STRONG> object in the <STRONG>Index</STRONG> object determines the order of records and consequently determines the access techniques to use for that index.</P>
-> <LI>
-> <P>A unique index helps optimize finding records.</P>
-> <LI>
-> <P>Indexes don't affect the physical order of a base table, indexes affect only how the records are accessed by the table-type <STRONG>Recordset</STRONG> object when a particular index is chosen or when <STRONG>Recordset</STRONG> is opened.</P></LI></UL>
-
+> - You don't have to create indexes for tables. With large, unindexed tables, accessing a specific record or creating a **Recordset** object can take a long time. On the other hand, creating too many indexes slows down update, append, and delete operations because all indexes are automatically updated.
+> - Records read from tables without indexes are returned in no particular sequence.
+> - The **[Attributes](field-attributes-property-dao.md)** property of each **[Field](field-object-dao.md)** object in the **Index** object determines the order of records and consequently determines the access techniques to use for that index.
+> - A unique index helps optimize finding records.
+> - Indexes don't affect the physical order of a base table, indexes affect only how the records are accessed by the table-type **Recordset** object when a particular index is chosen or when **Recordset** is opened.
 
 
 ## Example
 
 This example uses the **Index** property to set different record orders for a table-type **Recordset**.
 
+```vb
     Sub IndexPropertyX() 
      
        Dim dbsNorthwind As Database 
@@ -100,9 +87,13 @@ This example uses the **Index** property to set different record orders for a ta
        dbsNorthwind.Close 
      
     End Sub 
+```
+
+<br/>
 
 This example demonstrates the **Seek** method by allowing the user to search for a product based on an ID number.
 
+```vb
     Sub SeekX() 
      
        Dim dbsNorthwind As Database 
@@ -158,11 +149,15 @@ This example demonstrates the **Seek** method by allowing the user to search for
        dbsNorthwind.Close 
      
     End Sub 
+```
+
+<br/>
 
 The following example shows how to use the Seek method to find a record in a linked table.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
+**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
+```vb
     Sub TestSeek()
         ' Get the path to the external database that contains
         ' the tblCustomers table we're going to search.
@@ -204,8 +199,4 @@ The following example shows how to use the Seek method to find a record in a lin
         
         
     End Sub
-
-## About the Contributors
-
-Wrox Press is driven by the Programmer to Programmer philosophy. Wrox books are written by programmers for programmers, and the Wrox brand means authoritative solutions to real-world programming problems.
-
+```

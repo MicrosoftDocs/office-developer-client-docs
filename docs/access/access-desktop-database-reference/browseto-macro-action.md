@@ -14,10 +14,7 @@ f1_categories:
 
 # BrowseTo Macro Action
 
-
 **Applies to**: Access 2013 | Office 2013
-
-
 
 You can use the **BrowseTo** action to navigate between objects in place. You can also change the source object of a subform control by specifying the Path to Subform Control argument. Use **BrowseTo** to navigate from form1 to form2 without opening up a new window.
 
@@ -69,7 +66,9 @@ The **BrowseTo** action has the following argument.
 
 The PathToSubFormControl argument must be specified using the syntax in the following code example:
 
+```vb
     Main Form.SubForm Ctrl 1>Form 2.SubForm Ctrl 2>Form 3.SubFormCtrl3
+```
 
 In this example, the Main Form is the top level form in the Access client application. The Path to Sub Form Control argument must alternately specify form and subform control names leading from the main form to the subform control that is the container of the object specified by the Object Name argument. Each subform control specified must be a control on the form that precedes it. The path must end with a subform control.
 
@@ -77,8 +76,9 @@ In this example, the Main Form is the top level form in the Access client applic
 
 The following example shows how to use the BrowseTo action to open a report in a subform control or within a navigation control.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html)
+**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
+```vb
     OnError
         Go to Next
         Macro Name
@@ -106,8 +106,7 @@ The following example shows how to use the BrowseTo action to open a report in a
     
     Parameters
         SelectedAuthor =[cboAuthor]
+```
 
-## About the Contributors
 
-Wrox Press is driven by the Programmer to Programmer philosophy. Wrox books are written by programmers for programmers, and the Wrox brand means authoritative solutions to real-world programming problems.
 

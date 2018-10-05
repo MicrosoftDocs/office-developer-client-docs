@@ -10,13 +10,7 @@ mtps_version: v=office.15
 
 # Recordset2 Object (DAO)
 
-
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Remarks  
-Example  
-About the Contributors  
 
 A **Recordset2** object represents the records in a base table or the records that result from running a query.
 
@@ -28,8 +22,9 @@ A **Recordset2** object is contains all of the same properties and methods as th
 
 The following example shows how to navigate a Recordset that contains a multi-value field.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
+**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
+```vb
     Sub PrintStudentsAndClasses()
         Dim dbs As DAO.Database
         Dim rsStudents As DAO.Recordset2  'Recordset for students
@@ -87,9 +82,13 @@ The following example shows how to navigate a Recordset that contains a multi-va
         Set dbs = Nothing
     
     End Sub
+```
+
+<br/>
 
 The following example shows how to navigate the files in an attachment field. The file type and filename of each attachment is printed in the Immediate window.
 
+```vb
     Sub ListAttachments()
         Dim dbs As DAO.Database
         Dim rst As DAO.Recordset2
@@ -133,9 +132,13 @@ The following example shows how to navigate the files in an attachment field. Th
         Set rst = Nothing
         Set dbs = Nothing
     End Sub
+```
+
+<br/>
 
 The following example shows how to add files from a specified folder path to an attachment field.
 
+```vb
     Public Function LoadAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
         Dim dbs As DAO.Database
         Dim rst As DAO.Recordset2
@@ -186,9 +189,13 @@ The following example shows how to add files from a specified folder path to an 
         Set rst = Nothing
         Set dbs = Nothing
     End Function
+```
+
+<br/>
 
 The following example shows how to save the files stored in an attachment field to the specified folder path.
 
+```vb
     Public Function SaveAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
         Dim dbs As DAO.Database
         Dim rst As DAO.Recordset2
@@ -238,9 +245,13 @@ The following example shows how to save the files stored in an attachment field 
         Set rst = Nothing
         Set dbs = Nothing
     End Function
+```
+
+<br/>
 
 The following example shows how to delete a file stored in an attachment field.
 
+```vb
     Function RemoveAttachment(strRemoveFile As String, Optional strFilter As String) As Long
         Dim dbs As DAO.Database
         Dim rst As DAO.Recordset2
@@ -293,8 +304,5 @@ The following example shows how to delete a file stored in an attachment field.
         Set rst = Nothing
         Set dbs = Nothing
     End Function
-
-## About the Contributors
-
-Wrox Press is driven by the Programmer to Programmer philosophy. Wrox books are written by programmers for programmers, and the Wrox brand means authoritative solutions to real-world programming problems.
+```
 

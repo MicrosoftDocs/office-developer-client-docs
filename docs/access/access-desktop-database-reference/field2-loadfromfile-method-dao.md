@@ -14,14 +14,7 @@ f1_categories:
 
 # Field2.LoadFromFile Method (DAO)
 
-
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Version Information  
-Syntax  
-Example  
-About the Contributors  
 
 Loads the specified file from disk.
 
@@ -67,7 +60,7 @@ Version Added: Access 2007
 
 The following code snippet uses the **LoadFromFile** method to load an employee's picture from disk.
 
-``` 
+```vb 
    '  Instantiate the parent recordset.  
    Set rsEmployees = db.OpenRecordset("Employees") 
   
@@ -88,10 +81,13 @@ The following code snippet uses the **LoadFromFile** method to load an employee'
    rsEmployees.Update 
 ```
 
+<br/>
+
 The following example shows how to add files from a specified folder path to an attachment field.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
+**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
+```vb
     Public Function LoadAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
         Dim dbs As DAO.Database
         Dim rst As DAO.Recordset2
@@ -142,8 +138,4 @@ The following example shows how to add files from a specified folder path to an 
         Set rst = Nothing
         Set dbs = Nothing
     End Function
-
-## About the Contributors
-
-Wrox Press is driven by the Programmer to Programmer philosophy. Wrox books are written by programmers for programmers, and the Wrox brand means authoritative solutions to real-world programming problems.
-
+```

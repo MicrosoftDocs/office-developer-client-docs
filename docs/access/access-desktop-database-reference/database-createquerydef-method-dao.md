@@ -10,14 +10,7 @@ mtps_version: v=office.15
 
 # Database.CreateQueryDef Method (DAO)
 
-
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Syntax  
-Remarks  
-Example  
-About the Contributors  
 
 Creates a new **[QueryDef](querydef-object-dao.md)** object.
 
@@ -69,7 +62,9 @@ QueryDef
 
 In a Microsoft Access workspace, if you provide anything other than a zero-length string for the name when you create a **QueryDef**, the resulting **QueryDef** object is automatically appended to the **[QueryDefs](querydefs-collection-dao.md)** collection.
 
-If the object specified by name is already a member of the **QueryDefs** collection, a run-time error occurs. You can create a temporary **QueryDef** by using a zero-length string for the name argument when you execute the **CreateQueryDef** method. You can also accomplish this by setting the **[Name](querydef-name-property-dao.md)** property of a newly created **QueryDef** to a zero-length string (""). Temporary **QueryDef** objects are useful if you want to repeatedly use dynamic SQL statements without having to create any new permanent objects in the **QueryDefs** collection. You can't append a temporary **QueryDef** to any collection because a zero-length string isn't a valid name for a permanent **QueryDef** object. You can always set the **Name** and **SQL** properties of the newly created **QueryDef** object and subsequently append the **QueryDef** to the **QueryDefs** collection.
+If the object specified by name is already a member of the **QueryDefs** collection, a run-time error occurs. You can create a temporary **QueryDef** by using a zero-length string for the name argument when you execute the **CreateQueryDef** method. You can also accomplish this by setting the **[Name](querydef-name-property-dao.md)** property of a newly created **QueryDef** to a zero-length string (""). 
+
+Temporary **QueryDef** objects are useful if you want to repeatedly use dynamic SQL statements without having to create any new permanent objects in the **QueryDefs** collection. You can't append a temporary **QueryDef** to any collection because a zero-length string isn't a valid name for a permanent **QueryDef** object. You can always set the **Name** and **SQL** properties of the newly created **QueryDef** object and subsequently append the **QueryDef** to the **QueryDefs** collection.
 
 To run the SQL statement in a **QueryDef** object, use the **[Execute](querydef-execute-method-dao.md)** or **[OpenRecordset](database-openrecordset-method-dao.md)** method.
 
@@ -81,6 +76,7 @@ To remove a **QueryDef** object from a **QueryDefs** collection in a Microsoft A
 
 This example uses the **CreateQueryDef** method to create and execute both a temporary and a permanent **QueryDef**. The GetrstTemp function is required for this procedure to run.
 
+```vb
     Sub CreateQueryDefX() 
      
        Dim dbsNorthwind As Database 
@@ -129,10 +125,13 @@ This example uses the **CreateQueryDef** method to create and execute both a tem
        End With 
      
     End Function 
+```
+
+<br/>
 
 This example uses the **CreateQueryDef** and **OpenRecordset** methods and the **SQL** property to query the table of titles in the Microsoft SQL Server sample database Pubs and return the title and title identifier of the best-selling book. The example then queries the table of authors and instructs the user to send a bonus check to each author based on his or her royalty share (the total bonus is $1,000 and each author should receive a percentage of that amount).
 
-``` 
+```vb 
 Sub ClientServerX2() 
  
    Dim dbsCurrent As Database 
@@ -194,13 +193,15 @@ Sub ClientServerX2()
    dbsCurrent.Close 
  
 End Sub 
- 
 ```
+
+<br/>
 
 The following example shows how to create a parameter query. A query named **myQuery** is created with two parameters, named Param1 and Param2. To do this, the SQL property of the query is set to a Structured Query Language (SQL) statement that defines the parameters.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
+**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
+```vb
     Sub CreateQueryWithParameters()
     
         Dim dbs As DAO.Database
@@ -221,8 +222,4 @@ The following example shows how to create a parameter query. A query named **myQ
         Set dbs = Nothing
     
     End Sub
-
-## About the Contributors
-
-Wrox Press is driven by the Programmer to Programmer philosophy. Wrox books are written by programmers for programmers, and the Wrox brand means authoritative solutions to real-world programming problems.
-
+```

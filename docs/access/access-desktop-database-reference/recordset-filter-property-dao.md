@@ -10,14 +10,7 @@ mtps_version: v=office.15
 
 # Recordset.Filter Property (DAO)
 
-
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Syntax  
-Remarks  
-Example  
-About the Contributors  
 
 Sets or returns a value that determines the records included in a subsequently opened **Recordset** object (Microsoft Access workspaces only). Read/write **String**.
 
@@ -45,8 +38,9 @@ If you set the property to a string concatenated with a non–integer value, and
 
 The following sample shows how to use the Filter property to determine the records to be included in a subsequently opened Recordset.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
+**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
+```vb
     Dim dbs As DAO.Database
     Dim rst As DAO.Recordset
     Dim rstFiltered As DAO.Recordset
@@ -90,8 +84,4 @@ The following sample shows how to use the Filter property to determine the recor
     
     Set rstFiltered = Nothing
     Set rst = Nothing
-
-## About the Contributors
-
-Wrox Press is driven by the Programmer to Programmer philosophy. Wrox books are written by programmers for programmers, and the Wrox brand means authoritative solutions to real-world programming problems.
-
+```

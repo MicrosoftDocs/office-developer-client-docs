@@ -10,13 +10,7 @@ mtps_version: v=office.15
 
 # Recordset Object (DAO)
 
-
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Remarks  
-Example  
-About the Contributors  
 
 A **Recordset** object represents the records in a base table or the records that result from running a query.
 
@@ -24,21 +18,18 @@ A **Recordset** object represents the records in a base table or the records tha
 
 You use **Recordset** objects to manipulate data in a database at the record level. When you use DAO objects, you manipulate data almost entirely using **Recordset** objects. All **Recordset** objects are constructed using records (rows) and fields (columns). There are five types of **Recordset** objects:
 
-  - Table-type Recordset— representation in code of a base table that you can use to add, change, or delete records from a single database table (Microsoft Access workspaces only).
+- Table-type Recordset— representation in code of a base table that you can use to add, change, or delete records from a single database table (Microsoft Access workspaces only).
 
-  - Dynaset-type Recordset— the result of a query that can have updatable records. A dynaset-type **Recordset** object is a dynamic set of records that you can use to add, change, or delete records from an underlying database table or tables. A dynaset-type **Recordset** object can contain fields from one or more tables in a database. This type corresponds to an ODBC keyset cursor.
+- Dynaset-type Recordset— the result of a query that can have updatable records. A dynaset-type **Recordset** object is a dynamic set of records that you can use to add, change, or delete records from an underlying database table or tables. A dynaset-type **Recordset** object can contain fields from one or more tables in a database. This type corresponds to an ODBC keyset cursor.
 
-  - Snapshot-type Recordset— a static copy of a set of records that you can use to find data or generate reports. A snapshot-type **Recordset** object can contain fields from one or more tables in a database but can't be updated. This type corresponds to an ODBC static cursor.
+- Snapshot-type Recordset— a static copy of a set of records that you can use to find data or generate reports. A snapshot-type **Recordset** object can contain fields from one or more tables in a database but can't be updated. This type corresponds to an ODBC static cursor.
 
-  - Forward-only-type Recordset— identical to a snapshot except that no cursor is provided. You can only scroll forward through records. This improves performance in situations where you only need to make a single pass through a result set. This type corresponds to an ODBC forward-only cursor.
+- Forward-only-type Recordset— identical to a snapshot except that no cursor is provided. You can only scroll forward through records. This improves performance in situations where you only need to make a single pass through a result set. This type corresponds to an ODBC forward-only cursor.
 
-  - Dynamic-type Recordset— a query result set from one or more base tables in which you can add, change, or delete records from a row-returning query. Further, records other users add, delete, or edit in the base tables also appear in your **Recordset**. This type corresponds to an ODBC dynamic cursor (ODBCDirect workspaces only).
-    
+- Dynamic-type Recordset— a query result set from one or more base tables in which you can add, change, or delete records from a row-returning query. Further, records other users add, delete, or edit in the base tables also appear in your **Recordset**. This type corresponds to an ODBC dynamic cursor (ODBCDirect workspaces only).
 
-    > [!NOTE]
-    > <P>ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</P>
-
-
+> [!NOTE]
+> ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.
 
 You can choose the type of **Recordset** object you want to create using the type argument of the **OpenRecordset** method.
 
@@ -50,11 +41,8 @@ When creating a **Recordset** object using a non-linked **[TableDef](tabledef-ob
 
 A new **Recordset** object is automatically added to the **Recordsets** collection when you open the object, and is automatically removed when you close it.
 
-
 > [!NOTE]
-> <P>If you use variables to represent a <STRONG>Recordset</STRONG> object and the <STRONG>Database</STRONG> object that contains the <STRONG>Recordset</STRONG>, make sure the variables have the same scope, or lifetime. For example, if you declare a public variable that represents a <STRONG>Recordset</STRONG> object, make sure the variable that represents the <STRONG>Database</STRONG> containing the <STRONG>Recordset</STRONG> is also public, or is declared in a <STRONG>Sub</STRONG> or <STRONG>Function</STRONG> procedure using the <STRONG>Static</STRONG> keyword.</P>
-
-
+> If you use variables to represent a **Recordset** object and the **Database** object that contains the **Recordset**, make sure the variables have the same scope, or lifetime. For example, if you declare a public variable that represents a **Recordset** object, make sure the variable that represents the **Database** containing the **Recordset** is also public, or is declared in a **Sub** or **Function** procedure using the **Static** keyword.
 
 You can create as many **Recordset** object variables as needed. Different **Recordset** objects can access the same tables, queries, and fields without conflicting.
 
@@ -80,16 +68,14 @@ To refer to a **Recordset** object in a collection by its ordinal number or by i
 
 **Recordsets**\!\[name\]
 
-
 > [!NOTE]
-> <P>You can open a <STRONG>Recordset</STRONG> object from the same data source or database more than once, creating duplicate names in the <STRONG>Recordsets</STRONG> collection. You should assign <STRONG>Recordset</STRONG> objects to object variables and refer to them by variable name.</P>
-
-
+> You can open a **Recordset** object from the same data source or database more than once, creating duplicate names in the **Recordsets** collection. You should assign **Recordset** objects to object variables and refer to them by variable name.
 
 ## Example
 
 This example demonstrates **Recordset** objects and the **Recordsets** collection by opening four different types of **Recordsets**, enumerating the Recordsets collection of the current **Database**, and enumerating the **Properties** collection of each **Recordset**.
 
+```vb
     Sub RecordsetX() 
      
        Dim dbsNorthwind As Database 
@@ -148,9 +134,13 @@ This example demonstrates **Recordset** objects and the **Recordsets** collectio
        End With 
      
     End Sub 
+```
+
+<br/>
 
 This example uses the **OpenRecordset** method to open five different **Recordset** objects and display their contents. The OpenRecordsetOutput procedure is required for this procedure to run.
 
+```vb
     Sub OpenRecordsetX() 
      
        Dim wrkAcc As Workspace 
@@ -231,9 +221,13 @@ This example uses the **OpenRecordset** method to open five different **Recordse
        End With 
      
     End Sub 
+```
+
+<br/>
 
 This example opens a dynamic-type **Recordset** object and enumerates its records.
 
+```vb
     Sub dbOpenDynamicX() 
      
        Dim wrkMain As Workspace 
@@ -277,9 +271,13 @@ This example opens a dynamic-type **Recordset** object and enumerates its record
        wrkMain.Close 
      
     End Sub 
+```
+
+<br/>
 
 This example opens a dynaset-type **Recordset** and shows the extent to which its fields are updatable.
 
+```vb
     Sub dbOpenDynasetX() 
      
        Dim dbsNorthwind As Database 
@@ -313,10 +311,13 @@ This example opens a dynaset-type **Recordset** and shows the extent to which it
        dbsNorthwind.Close 
      
     End Sub 
+```
+
+<br/>
 
 This example opens a forward-only-type **Recordset**, demonstrates its read-only characteristics, and steps through the **Recordset** with the **MoveNext** method.
 
-``` 
+```vb 
 Sub dbOpenForwardOnlyX() 
  
    Dim dbsNorthwind As Database 
@@ -357,11 +358,13 @@ Sub dbOpenForwardOnlyX()
    dbsNorthwind.Close 
  
 End Sub 
- 
 ```
+
+<br/>
 
 This example opens a snapshot-type **Recordset** and demonstrates its read-only characteristics.
 
+```vb
     Sub dbOpenSnapshotX() 
      
        Dim dbsNorthwind As Database 
@@ -394,9 +397,13 @@ This example opens a snapshot-type **Recordset** and demonstrates its read-only 
        dbsNorthwind.Close 
      
     End Sub 
+```
+
+<br/>
 
 This example opens a table-type **Recordset**, sets its **Index** property, and enumerates its records.
 
+```vb
     Sub dbOpenTableX() 
      
        Dim dbsNorthwind As Database 
@@ -427,11 +434,16 @@ This example opens a table-type **Recordset**, sets its **Index** property, and 
        dbsNorthwind.Close 
      
     End Sub 
+```
+
+<br/>
 
 The following example shows how to use the Seek method to find a record in a linked table.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
+**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
+
+```vb
     Sub TestSeek()
         ' Get the path to the external database that contains
         ' the tblCustomers table we're going to search.
@@ -473,9 +485,13 @@ The following example shows how to use the Seek method to find a record in a lin
         
         
     End Sub
+```
+
+<br/>
 
 The following example shows how to open a Recordset that is based on a parameter query.
 
+```vb
     Dim dbs As DAO.Database
     Dim qdf As DAO.QueryDef
     Dim rst As DAO.Recordset
@@ -491,9 +507,13 @@ The following example shows how to open a Recordset that is based on a parameter
     
     'Open a Recordset based on the parameter query
     Set rst = qdf.OpenRecordset()
+```
+
+<br/>
 
 The following example shows how to open a Recordset based on a table or a query.
 
+```vb
     Dim dbs As DAO.Database
     Dim rsTable As DAO.Recordset
     Dim rsQuery As DAO.Recordset
@@ -505,9 +525,13 @@ The following example shows how to open a Recordset based on a table or a query.
     
     'Open a dynaset-type Recordset using a saved query
     Set rsQuery = dbs.OpenRecordset("qryMyQuery", dbOpenDynaset)
+```
+
+<br/>
 
 The following example shows how to open a Recordset based on a Structured Query Language (SQL) statement.
 
+```vb
     Dim dbs As DAO.Database
     Dim rsSQL As DAO.Recordset
     Dim strSQL As String
@@ -517,9 +541,13 @@ The following example shows how to open a Recordset based on a Structured Query 
     'Open a snapshot-type Recordset based on an SQL statement
     strSQL = "SELECT * FROM Table1 WHERE Field2 = 33"
     Set rsSQL = dbs.OpenRecordset(strSQL, dbOpenSnapshot)
+```
+
+<br/>
 
 The following example shows how to use the FindFirst and FindNext methods to find a record in a Recordset.
 
+```vb
     Sub FindOrgName()
     
         Dim dbs As DAO.Database
@@ -552,9 +580,13 @@ The following example shows how to use the FindFirst and FindNext methods to fin
             Set dbs = Nothing
     
     End Sub
+```
+
+<br/>
 
 The following example shows how to copy the results of a query to a worksheet in a new Microsoft Excel workbook.
 
+```vb
     Public Sub CopyDataFromQuery( _
         xlApp As Excel.Application, _
         strQueryName As String)
@@ -580,8 +612,5 @@ The following example shows how to copy the results of a query to a worksheet in
         End If
     
     End Sub
-
-## About the Contributors
-
-Wrox Press is driven by the Programmer to Programmer philosophy. Wrox books are written by programmers for programmers, and the Wrox brand means authoritative solutions to real-world programming problems.
+```
 

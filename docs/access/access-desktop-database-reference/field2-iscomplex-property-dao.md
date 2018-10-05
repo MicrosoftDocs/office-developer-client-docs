@@ -10,18 +10,11 @@ mtps_version: v=office.15
 
 # Field2.IsComplex Property (DAO)
 
-
-**Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Version Information  
-Syntax  
-Example  
-About the Contributors  
+**Applies to**: Access 2013 | Office 2013 
 
 Returns **Boolean** that indicates whether the specified field is a multi-valued data type. Read-only.
 
-## Version Information
+## Version information
 
 Version Added: Access 2007
 
@@ -35,8 +28,9 @@ Version Added: Access 2007
 
 The following example shows how to navigate a Recordset that contains a multi-value field.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
+**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
+```vb
     Sub PrintStudentsAndClasses()
         Dim dbs As DAO.Database
         Dim rsStudents As DAO.Recordset2  'Recordset for students
@@ -94,8 +88,4 @@ The following example shows how to navigate a Recordset that contains a multi-va
         Set dbs = Nothing
     
     End Sub
-
-## About the Contributors
-
-Wrox Press is driven by the Programmer to Programmer philosophy. Wrox books are written by programmers for programmers, and the Wrox brand means authoritative solutions to real-world programming problems.
-
+```

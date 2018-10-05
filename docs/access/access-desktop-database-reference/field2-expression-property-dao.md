@@ -10,15 +10,7 @@ mtps_version: v=office.15
 
 # Field2.Expression Property (DAO)
 
-
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Version Information  
-Syntax  
-Remarks  
-Example  
-About the Contributors  
 
 Gets or sets an expression that represents the formula for a calculated field. Read/write **String**.
 
@@ -44,8 +36,9 @@ The results of the calculation are read-only.
 
 The following example shows how to create a calculated field. The CreateField method creates a field named **FullName**. The Expression property is then set to the expression that calculates the value of the field.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
+**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
+```vb
     Sub CreateCalculatedField()
         Dim dbs As DAO.Database
         Dim tdf As DAO.TableDef
@@ -74,8 +67,5 @@ The following example shows how to create a calculated field. The CreateField me
         Set tdf = Nothing
         Set dbs = Nothing
     End Sub
-
-## About the Contributors
-
-Wrox Press is driven by the Programmer to Programmer philosophy. Wrox books are written by programmers for programmers, and the Wrox brand means authoritative solutions to real-world programming problems.
+```
 

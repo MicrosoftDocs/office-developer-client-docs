@@ -14,17 +14,12 @@ f1_categories:
 
 # ApplyFilter Macro Action
 
-
 **Applies to**: Access 2013 | Office 2013
-
 
 You can use the **ApplyFilter** action to apply a filter, a query, or an SQL WHERE clause to a table, form, or report to restrict or sort the records in the table, or the records from the underlying table or query of the form or report. For reports, you can use this action only in a macro specified by the report's **OnOpen** event property.
 
-
 > [!NOTE]
-> <P>You can use this action to apply an SQL WHERE clause only when applying a server filter. A server filter cannot be applied to a stored procedure's record source.</P>
-
-
+> You can use this action to apply an SQL WHERE clause only when applying a server filter. A server filter cannot be applied to a stored procedure's record source.
 
 ## Setting
 
@@ -47,7 +42,7 @@ The **ApplyFilter** action has the following arguments.
 <td><p>The name of a filter or query that restricts or sorts the records of the table, form, or report. You can enter the name of either an existing query or a filter that has been saved as a query in the <strong>Filter Name</strong> box in the <strong>Action Arguments</strong> section of the <strong>Macro Builder</strong> pane.</p>
 
 > [!NOTE]
-> <P>When you are using this action to apply a server filter, the Filter Name argument must be blank.</P>
+> When you are using this action to apply a server filter, the Filter Name argument must be blank.
 
 
 <p></p></td>
@@ -55,22 +50,14 @@ The **ApplyFilter** action has the following arguments.
 <tr class="even">
 <td><p>Where Condition</p></td>
 <td><p>A valid SQL WHERE clause (without the word WHERE) or an expression that restricts the records of the table, form, or report.</p>
-
-> [!NOTE]
-> <P>In a Where Condition argument expression, the left side of the expression typically contains a field name from the underlying table or query for the form or report. The right side of the expression typically contains the criteria you want to apply to this field to restrict or sort the records. For example, the criteria can be the name of a control on another form that contains the value you want the records in the first form to match. The name of the control should be fully qualified, for example:</P>
-
-
+<p><b>NOTE</b>: In a Where Condition argument expression, the left side of the expression typically contains a field name from the underlying table or query for the form or report. The right side of the expression typically contains the criteria you want to apply to this field to restrict or sort the records. For example, the criteria can be the name of a control on another form that contains the value you want the records in the first form to match. The name of the control should be fully qualified, for example:</p>
 <p><strong>Forms</strong>!<em>formname</em>!<em>controlname</em> Field names should be surrounded by double quotation marks and string literals should be surrounded by single quotation marks. The maximum length of the Where Condition argument is 255 characters. If you need to enter a longer SQL WHERE clause, use the <strong>ApplyFilter</strong> method of the <strong>DoCmd</strong> object in a Visual Basic for Applications (VBA) module. You can enter SQL WHERE clause statements of up to 32,768 characters in VBA.</p></td>
 </tr>
 </tbody>
 </table>
 
-
-
 > [!NOTE]
-> <P>You can use the Filter Name argument if you have already defined a filter that provides the appropriate data. You can use the Where Condition argument to enter the restriction criteria directly. If you use both arguments, Microsoft Office Access 2007 applies the WHERE clause to the results of the filter. You must use one or both arguments.</P>
-
-
+> You can use the Filter Name argument if you have already defined a filter that provides the appropriate data. You can use the Where Condition argument to enter the restriction criteria directly. If you use both arguments, Microsoft Office Access 2007 applies the WHERE clause to the results of the filter. You must use one or both arguments.
 
 ## Remarks
 
@@ -90,8 +77,9 @@ When you save a table or form, Access saves any filter currently defined in that
 
 The following example shows how to use the ApplyFilter action to filter the frmFoods form as it is opened.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html)
+**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
+```vb
     OpenForm
         Form Name sfrmFoods
         View Form
@@ -104,8 +92,7 @@ The following example shows how to use the ApplyFilter action to filter the frmF
         Filter Name
         Where Condition=[display_name] Link "*cheese*"
         Control Name
+```
 
-## About the Contributors
 
-Wrox Press is driven by the Programmer to Programmer philosophy. Wrox books are written by programmers for programmers, and the Wrox brand means authoritative solutions to real-world programming problems.
 

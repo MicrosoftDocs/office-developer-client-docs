@@ -10,16 +10,8 @@ mtps_version: v=office.15
 
 # Data Section
 
-
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Data Section  
-String  
-Binary  
-DateTime  
-Managing Pending Changes  
-
+ 
 ## Data Section
 
 The data section defines the data of the rowset along with any pending updates, insertions, or deletions. The data section may contain zero or more rows. It may only contain data from one rowset where the row is defined by the schema. Also, as noted before, columns without any data may be omitted. If an attribute or subelement is used in the data section and that construct has not been defined in the schema section, it is silently ignored.
@@ -28,8 +20,7 @@ The data section defines the data of the rowset along with any pending updates, 
 
 Reserved XML characters in text data must be replaced with appropriate character entities. For example, in the company name "Joe's Garage," the single quote character must be replaced by an entity. The actual row would look like:
 
-``` 
- 
+```xml  
 <z:row CompanyName="Joe&apos;s Garage"/> 
 ```
 
@@ -43,7 +34,7 @@ Binary data is bin.hex encoded (that is, one byte maps to two characters, one ch
 
 The variant VT\_DATE format is not directly supported by XML-Data data types. The correct format for dates with both a data and time component is yyyy-mm-dd**T**hh:mm:ss.
 
-For more information about date formats specified by XML, refer to [W3C XMLData Note](https://www.w3.org/tr/1998/note-xml-data/).
+For more information about date formats specified by XML, see [W3C XMLData Note](https://www.w3.org/TR/1998/NOTE-XML-data-0105/).
 
 When the XML-Data specification defines two equivalent data types (for example, i4 == int), ADO will write out the friendly name but read in both.
 
@@ -51,8 +42,7 @@ When the XML-Data specification defines two equivalent data types (for example, 
 
 A **Recordset** can be opened in immediate or batch update mode. When opened in batch update mode with client-side cursors, all changes made to the **Recordset** are in a pending state until the **UpdateBatch** method is called. Pending changes are also persisted when the **Recordset** is saved. In XML, they are represented by the use of the "update" elements defined in urn:schemas-microsoft-com:rowset. In addition, if a rowset can be updated, the updatable property must be set to true in the definition of the row. For example, to define that the Shippers table contains pending changes, the row definition would look like the following:
 
-``` 
- 
+```xml 
 <s:ElementType name="row" content="eltOnly" updatable="true"> 
   <s:attribute type="ShipperID"/> 
   <s:attribute type="CompanyName"/> 
@@ -65,8 +55,7 @@ This tells the Persistence Provider to surface data so that ADO can construct an
 
 The following sample data shows how insertions, changes, and deletions look in the persisted file:
 
-``` 
- 
+```xml 
 <rs:data> 
   <z:row ShipperID="2" CompanyName="United Package"  
     Phone="(503) 555-3199"/> 

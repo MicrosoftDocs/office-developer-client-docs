@@ -14,14 +14,7 @@ f1_categories:
 
 # Recordset.Seek Method (DAO)
 
-
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Syntax  
-Remarks  
-Example  
-About the Contributors  
 
 Locates the record in an indexed table-type **Recordset** object that satisfies the specified criteria for the current index and makes that record the current record (Microsoft Access workspaces only).
 
@@ -91,6 +84,7 @@ You can't use the **Seek** method on a linked table because you can't open linke
 
 This example demonstrates the **Seek** method by allowing the user to search for a product based on an ID number.
 
+```vb
     Sub SeekX() 
      
        Dim dbsNorthwind As Database 
@@ -146,9 +140,13 @@ This example demonstrates the **Seek** method by allowing the user to search for
        dbsNorthwind.Close 
      
     End Sub 
+```
+
+<br/>
 
 This example uses the **NoMatch** property to determine whether a **Seek** and a **FindFirst** were successful, and if not, to give appropriate feedback. The SeekMatch and FindMatch procedures are required for this procedure to run.
 
+```vb
     Sub NoMatchX() 
      
        Dim dbsNorthwind As Database 
@@ -265,11 +263,15 @@ This example uses the **NoMatch** property to determine whether a **Seek** and a
        End With 
      
     End Sub 
+```
+
+<br/>
 
 The following example shows how to use the Seek method to find a record in a linked table.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
+**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
+```vb
     Sub TestSeek()
         ' Get the path to the external database that contains
         ' the tblCustomers table we're going to search.
@@ -311,8 +313,4 @@ The following example shows how to use the Seek method to find a record in a lin
         
         
     End Sub
-
-## About the Contributors
-
-Wrox Press is driven by the Programmer to Programmer philosophy. Wrox books are written by programmers for programmers, and the Wrox brand means authoritative solutions to real-world programming problems.
-
+```

@@ -10,13 +10,7 @@ mtps_version: v=office.15
 
 # QueryDefs Collection (DAO)
 
-
-**Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Remarks  
-Example  
-About the Contributors  
+**Applies to**: Access 2013 | Office 2013 
 
 A **QueryDefs** collection contains all **QueryDef** objects of a **Database** object in a Microsoft Access database engine database.
 
@@ -38,6 +32,7 @@ You can refer to temporary **QueryDef** objects only by the object variables tha
 
 This example creates a new **QueryDef** object and appends it to the **QueryDefs** collection of the Northwind **Database** object. It then enumerates the **QueryDefs** collection and the **Properties** collection of the new **QueryDef**.
 
+```vb
     Sub QueryDefX() 
      
        Dim dbsNorthwind As Database 
@@ -82,9 +77,13 @@ This example creates a new **QueryDef** object and appends it to the **QueryDefs
        End With 
      
     End Sub 
+```
+
+<br/>
 
 This example uses the **CreateQueryDef** method to create and execute both a temporary and a permanent **QueryDef**. The GetrstTemp function is required for this procedure to run.
 
+```vb
     Sub CreateQueryDefX() 
      
        Dim dbsNorthwind As Database 
@@ -133,11 +132,15 @@ This example uses the **CreateQueryDef** method to create and execute both a tem
        End With 
      
     End Function 
+```
+
+<br/>
 
 The following example shows how to execute a parameter query. The Parameters collection is used to set the Organization parameter of the myActionQuery query before the query is executed.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html) | About the Contributors
+**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
+```vb
     Public Sub ExecParameterQuery()
     
         Dim dbs As DAO.Database
@@ -158,9 +161,13 @@ The following example shows how to execute a parameter query. The Parameters col
         Set dbs = Nothing
     
     End Sub
+```
+
+<br/>
 
 The following example shows how to open a Recordset that is based on a parameter query.
 
+```vb
     Dim dbs As DAO.Database
     Dim qdf As DAO.QueryDef
     Dim rst As DAO.Recordset
@@ -176,8 +183,5 @@ The following example shows how to open a Recordset that is based on a parameter
     
     'Open a Recordset based on the parameter query
     Set rst = qdf.OpenRecordset()
-
-## About the Contributors
-
-Wrox Press is driven by the Programmer to Programmer philosophy. Wrox books are written by programmers for programmers, and the Wrox brand means authoritative solutions to real-world programming problems.
+```
 

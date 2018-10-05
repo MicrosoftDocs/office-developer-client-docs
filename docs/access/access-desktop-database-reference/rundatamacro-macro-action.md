@@ -14,14 +14,7 @@ f1_categories:
 
 # RunDataMacro Macro Action
 
-
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Setting  
-Remarks  
-Example  
-About the Contributors  
 
 You can use the **RunDataMacro** action to run a named data macro.
 
@@ -63,8 +56,9 @@ When you run a macro that contains the **RunDataMacro** action and it reaches th
 
 The following example shows how to pass a parameter to a named data macro. The dmGetCurrentServiceRequest data macro of the tblServiceRequests table is called by using the RunDataMacro action. When the dmGetCurrentServiceRequest is finished, the CurrentServiceRequest variable returned form the data macro is written to the txtCurrentSR text box.
 
-**Sample code provided by:** The [Microsoft Access 2010 Programmer’s Reference](https://www.wrox.com/wileycda/wroxtitle/access-2010-programmer-s-reference.productcd-0470591668.html)
+**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
+```vb
     RunDataMacro
         Macro Name tblServiceRequests.dmGetCurrentServiceRequest
     
@@ -75,8 +69,4 @@ The following example shows how to pass a parameter to a named data macro. The d
         Control Name txtCurrentSR
         Property Value
         Value =[ReturnVars]![CurrentServiceRequest]
-
-## About the Contributors
-
-Wrox Press is driven by the Programmer to Programmer philosophy. Wrox books are written by programmers for programmers, and the Wrox brand means authoritative solutions to real-world programming problems.
-
+```
