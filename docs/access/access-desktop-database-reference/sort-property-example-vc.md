@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example uses the [Recordset](recordset-object-ado.md) object's [Sort](sort-property-ado.md) property to reorder the rows of a **Recordset** derived from the ***Authors*** table of the **Pubs** database. A secondary utility routine prints each row.
 
-``` 
+```cpp 
  
 // BeginSortCpp 
 #import "C:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 

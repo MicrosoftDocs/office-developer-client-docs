@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example uses the [NextRecordset](nextrecordset-method-ado.md) method to view the data in a recordset that uses a compound command statement made up of three separate **SELECT** statements.
 
-``` 
+```java 
  
 // BeginNextRecordsetJ 
 import java.io.*; 

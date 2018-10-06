@@ -13,11 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Parameters  
-Return Values  
-Applies To  
 
 Sets the container of an OLE DB **Row** object on an **ADORecordConstruction** object, so that the parent of the row is turned into an ADO **Record** object.
 

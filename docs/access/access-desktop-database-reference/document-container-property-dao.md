@@ -29,7 +29,7 @@ Returns the name of the **[Container](container-object-dao.md)** object to which
 
 This example displays the **Container** property for a variety of **Document** objects.
 
-``` 
+```vb 
 Sub ContainerPropertyX() 
  
  Dim dbsNorthwind As Database 

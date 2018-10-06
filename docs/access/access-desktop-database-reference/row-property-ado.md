@@ -13,11 +13,7 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Parameters  
-Return Values  
-Applies To  
+
 
 Gets or sets an OLE DB **Row** object from/on an **ADORecordConstruction** object. When you use **put\_Row** to set a **Row** object, a row is turned into an ADO **Record** object. Read/write.
 

@@ -17,7 +17,7 @@ This example demonstrates the [GetString](getstring-method-ado.md) method.
 
 Assume you are debugging a data access problem and want a quick, simple way of printing the current contents of a small [Recordset](recordset-object-ado.md).
 
-``` 
+```cpp 
  
 // BeginGetStringCpp 
 #import "C:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 

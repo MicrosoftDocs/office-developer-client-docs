@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example demonstrates the [Prepared](prepared-property-ado.md) property by opening two [Command](command-object-ado.md) objects — one prepared and one not prepared.
 
-``` 
+```cpp 
  
 // BeginPreparedCpp 
 #import "c:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 

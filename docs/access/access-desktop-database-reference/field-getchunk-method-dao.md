@@ -17,11 +17,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 Returns all or a portion of the contents of a **Memo** or **Long Binary** **[Field](field-object-dao.md)** object in the **[Fields](fields-collection-dao.md)** collection of a **[Recordset](recordset-object-dao.md)** object.
 
 ## Syntax
@@ -86,6 +81,7 @@ If numbytes is greater than the number of bytes in the field, **GetChunk** retur
 
 This example uses the **AppendChunk** and **GetChunk** methods to fill an OLE object field with data from another record, 32K at a time. In a real application, one might use a procedure like this to copy an employee record (including the employee's photo) from one table to another. In this example, the record is simply being copied back to same table. Note that all the chunk manipulation takes place within a single AddNew-Update sequence.
 
+```vb
     Sub AppendChunkX() 
      
      Dim dbsNorthwind As Database 
@@ -140,4 +136,4 @@ This example uses the **AppendChunk** and **GetChunk** methods to fill an OLE ob
      Loop 
      
     End Function
-
+```

@@ -17,10 +17,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
 
 Sets or returns a value that indicates the maximum size, in bytes, of a **[Field](field-object-dao.md)** object.
 
@@ -82,6 +78,7 @@ For Long Binary and Memo **Field** objects, **Size** is always set to 0. Use the
 
 This example demonstrates the **Size** property by enumerating the names and sizes of the **Field** objects in the Employees table.
 
+```vb
     Sub SizeX() 
      
      Dim dbsNorthwind As Database 
@@ -119,4 +116,4 @@ This example demonstrates the **Size** property by enumerating the names and siz
      dbsNorthwind.Close 
      
     End Sub
-
+```

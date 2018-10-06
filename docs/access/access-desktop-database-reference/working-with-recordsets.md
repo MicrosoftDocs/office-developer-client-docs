@@ -11,18 +11,7 @@ mtps_version: v=office.15
 # Working with Recordsets
 
 
-**Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Arranging Data  
-Finding a Specific Record  
-Find  
-Seek and Index  
-Filtering the Results  
-Filtering with a Criteria String  
-Filtering with a Constant  
-Filtering with Bookmarks  
-Creating a Clone of a Recordset  
+**Applies to**: Access 2013 | Office 2013 
 
 The **Recordset** object has built-in features that make it possible for you to rearrange the order of the data in the result set, to search for a specific record based on criteria that you supply, and even to optimize those search operations using indexes. Whether these features are available for use depends on the provider and in some cases — such as that of the [Index](index-property-ado.md) property — the structure of the data source itself.
 
@@ -112,14 +101,14 @@ The criteria string is made up of clauses in the form *FieldName Operator Value*
 
 There is no precedence between AND and OR. Clauses can be grouped within parentheses. However, you cannot group clauses joined by an OR and then join the group to another clause with an AND, like this:
 
-``` 
+```vb 
  
 (LastName = 'Smith' OR LastName = 'Jones') AND FirstName = 'John' 
 ```
 
 Instead, you would construct this filter as:
 
-``` 
+```vb 
  
 (LastName = 'Smith' AND FirstName = 'John') OR (LastName = 'Jones' AND FirstName = 'John') 
 ```
@@ -168,7 +157,7 @@ The following constants are available for filtering **Recordsets**.
 
 The filter constants make it easier to resolve individual record conflicts during batch update mode by allowing you to view, for example, only those records that were effected during the last **UpdateBatch** method call, as shown in the following example:
 
-``` 
+```vb 
  
 'BeginDeleteGroup 
     'add some bogus records 
@@ -203,7 +192,7 @@ The filter constants make it easier to resolve individual record conflicts durin
 
 Finally, you can pass a variant array of bookmarks to the **Filter** property. The resulting cursor will contain only those records whose bookmark was passed in to the property. The following code example creates an array of bookmarks from the records in a **Recordset** which have a "B" in the *ProductName* field. It then passes the array to the **Filter** property and displays information about the resulting filtered **Recordset**.
 
-``` 
+```vb 
  
 'BeginFilterBkmk 
     Dim vBkmkArray() As Variant 

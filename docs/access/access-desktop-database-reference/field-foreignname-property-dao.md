@@ -13,11 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 Sets or returns a value that specifies the name of the **[Field](field-object-dao.md)** object in a foreign table that corresponds to a field in a primary table for a relationship (Microsoft Access workspaces only).
 
 ## Syntax
@@ -42,6 +37,7 @@ In this case, the ValidParts table is the foreign table, so the **ForeignTable**
 
 This example shows how the **Table**, **ForeignTable**, and **ForeignName** properties define the terms of a **Relation** between two tables.
 
+```vb
     Sub ForeignNameX() 
      
      Dim dbsNorthwind As Database 
@@ -75,4 +71,4 @@ This example shows how the **Table**, **ForeignTable**, and **ForeignName** prop
      dbsNorthwind.Close 
      
     End Sub
-
+```

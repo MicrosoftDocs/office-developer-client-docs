@@ -17,11 +17,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 Sets or returns the relative record number of a **Recordset2** object's current record.
 
 ## Syntax
@@ -54,6 +49,7 @@ You shouldn't use this property as a surrogate record number. Bookmarks are stil
 
 This example uses the **AbsolutePosition** property to track the progress of a loop that enumerates all the records of a **Recordset2**.
 
+```vb
     Sub AbsolutePositionX() 
      
        Dim dbsNorthwind As Database 
@@ -89,4 +85,4 @@ This example uses the **AbsolutePosition** property to track the progress of a l
        dbsNorthwind.Close 
      
     End Sub
-
+```

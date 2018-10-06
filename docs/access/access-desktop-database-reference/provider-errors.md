@@ -11,12 +11,7 @@ mtps_version: v=office.15
 # Provider Errors
 
 
-**Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-The ADO Errors Collection  
-The Error Object  
-Event-Related Errors  
+**Applies to**: Access 2013 | Office 2013 
 
 When a provider error occurs, a run-time error of -2147467259 is returned. When you receive this error, check the active **Connection** object's **Errors** collection, which will contain one or more errors describing what happened.
 
@@ -28,7 +23,7 @@ Once you have finished handling any errors that have occurred, you can clear the
 
 Some operations can generate warnings as well as errors. Warnings are also represented by **Error** objects in the **Errors** collection. When a provider adds a warning to the collection, it does not generate a run-time error. Check the **Count** property of the **Errors** collection to determine if a warning was produced by a particular operation. If the count is one or greater, an **Error** object has been added to the collection. Once you have determined that the **Errors** collection contains errors or warnings, you can iterate through the collection and retrieve information about each of the **Error** objects it contains. The following short Visual Basic example demonstrates this:
 
-``` 
+```vb 
  
 ' BeginErrorHandlingVB02 
 Private Function DeleteCustomer(ByVal CompanyName As String) As Long 

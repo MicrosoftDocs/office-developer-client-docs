@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example uses the [Recordset](recordset-object-ado.md) object's [Find](find-method-ado.md) method to locate and count the number of business titles in the ***Pubs*** database. The example assumes the underlying provider does not support similar functionality.
 
-``` 
+```cpp 
  
 // BeginFindCpp 
 #import "C:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 
@@ -184,7 +184,7 @@ void PrintComError(_com_error &e)
 
 **FindX.h**
 
-``` 
+```cpp 
  
 // BeginFindH 
 #include "icrsint.h" 

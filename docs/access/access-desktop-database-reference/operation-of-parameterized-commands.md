@@ -21,7 +21,7 @@ A *parameterized command* retrieves the entire parent **Recordset**, but retriev
 
 For example, you can specify the following:
 
-``` 
+```vb 
  
 SHAPE {SELECT * FROM customer} 
  APPEND ({SELECT * FROM orders WHERE cust_id = ?} 
@@ -52,7 +52,7 @@ When the parameterized shape command is executed, the following occurs:
 
 The **Cache Child Rows** dynamic property is set to **True** by default. The caching behavior varies depending upon the parameter values of the query. In a query with a single parameter, the child **Recordset** for a given parameter value will be cached between requests for a child with that value. The following code demonstrates this:
 
-``` 
+```vb 
  
 ... 
 SCmd = "SHAPE {select * from customer} " & _ 
@@ -76,7 +76,7 @@ Using a non-parameterized hierarchy, there is no way to relate the teams and gam
 
 To obtain the desired result, you can use a parameterized command. For example:
 
-``` 
+```vb 
  
 SHAPE {SELECT * FROM teams} 
 APPEND ({SELECT * FROM games WHERE home_team = ? OR visiting_team = ?} 

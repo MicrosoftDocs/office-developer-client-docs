@@ -17,7 +17,7 @@ mtps_version: v=office.15
 
 Now that you have a **Recordset**, you need to send it to the client by saving it as XML to the ASP **Response** object. Add the following code to the bottom of XMLResponse.asp:
 
-``` 
+```vb 
  
   Response.ContentType = "text/xml" 
   Response.Expires = 0 
@@ -35,5 +35,5 @@ Notice that the ASP **Response** object is specified as the destination for the 
 
 Save and close XMLResponse.asp before going to the next step. Also copy the adovbs.inc file from C:\\Program Files\\Common Files\\System\\Ado folder to the same folder where you have the XMLResponse.asp file.
 
-**Next**[Step 4: Receive the Data](step-4-receive-and-display-the-data.md)
+**Next** [Step 4: Receive the Data](step-4-receive-and-display-the-data.md)
 

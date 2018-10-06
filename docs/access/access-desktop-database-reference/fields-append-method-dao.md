@@ -13,10 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
 
 Adds a new **[Field](field-object-dao.md)** to the **[Fields](fields-collection-dao.md)** collection.
 
@@ -68,6 +64,7 @@ If the object you're appending isn't complete (such as when you haven't appended
 
 This example uses either the **Append** method or the **Delete** method to modify the **Fields** collection of a **TableDef**. The AppendDeleteField procedure is required for this procedure to run.
 
+```vb
     Sub AppendX() 
      
      Dim dbsNorthwind As Database 
@@ -140,4 +137,4 @@ This example uses either the **Append** method or the **Delete** method to modif
      End With 
      
     End Sub
-
+```

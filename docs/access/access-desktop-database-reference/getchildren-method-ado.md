@@ -13,10 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Return Value  
-Remarks  
 
 Returns a [Recordset](recordset-object-ado.md) whose rows represent the children of a collection [Record](record-object-ado.md).
 

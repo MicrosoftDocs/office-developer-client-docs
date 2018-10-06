@@ -21,27 +21,27 @@ The Internet Publishing Provider is installed with Microsoft Windows 2000. Earli
 
 There are three ways to connect ADO to the Internet Publishing Provider:
 
-  - Specify "URL=" in the connection string. For example:
+- Specify "URL=" in the connection string. For example:
     
-    ``` 
+  ```vb 
      
     objConn.Open "URL=https://servername" 
-    ```
+  ```
 
-  - Specify Msdaipp.dso for the *Provider* keyword of the connection string. For example:
+- Specify Msdaipp.dso for the *Provider* keyword of the connection string. For example:
     
-    ``` 
+  ```vb 
      
     objConn.Open "provider=MSDAIPP.DSO;data source=https://servername" 
-    ```
+  ```
 
-  - Specify Msdaipp.dso for the [Provider](provider-property-ado.md) property of the [Connection](connection-object-ado.md) object. For example:
+- Specify Msdaipp.dso for the [Provider](provider-property-ado.md) property of the [Connection](connection-object-ado.md) object. For example:
     
-    ``` 
+  ```vb 
      
     objConn.Provider = "MSDAIPP.DSO" 
     objConn.Open "https://servername" 
-    ```
+  ```
 
 
 > [!NOTE]

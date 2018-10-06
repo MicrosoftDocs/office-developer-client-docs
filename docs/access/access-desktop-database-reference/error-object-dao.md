@@ -43,7 +43,7 @@ Enumerating the specific errors in the **Errors** collection enables your error-
 
 This example forces an error, traps it, and displays the **Description**, **Number**, **Source**, **HelpContext**, and **HelpFile** properties of the resulting **Error** object.
 
-``` 
+```vb 
 Sub DescriptionX() 
  
    Dim dbsTest As Database 

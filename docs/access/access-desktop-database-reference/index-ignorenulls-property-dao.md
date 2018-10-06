@@ -17,11 +17,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 Sets or returns a value that indicates whether records that have Null values in their index fields have index entries (Microsoft Access workspaces only).
 
 ## Syntax
@@ -75,6 +70,7 @@ The **IgnoreNulls** property setting and the **[Required](field-required-propert
 
 This example sets the **IgnoreNulls** property of a new **Index** to **True** or **False** based on user input, and then demonstrates the effect on a **Recordset** with a record whose key field contains a **Null** value.
 
+```vb
     Sub IgnoreNullsX() 
      
      Dim dbsNorthwind As Database 
@@ -149,4 +145,4 @@ This example sets the **IgnoreNulls** property of a new **Index** to **True** or
      dbsNorthwind.Close 
      
     End Sub
-
+```

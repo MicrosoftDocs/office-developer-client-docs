@@ -17,10 +17,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
 
 ## Syntax
 
@@ -38,6 +34,7 @@ This property setting only affects connections established after the property ha
 
 This example uses the **NextRecordset** method to view the data from a compound SELECT query. The **DefaultCursorDriver** property must be set to **dbUseODBCCursor** when executing such queries. The **NextRecordset** method will return **True** even if some or all of the SELECT statements return zero records; it will return **False** only after all the individual SQL clauses have been checked.
 
+```vb
     Sub NextRecordsetX() 
      
      Dim wrkODBC As Workspace 
@@ -88,10 +85,13 @@ This example uses the **NextRecordset** method to view the data from a compound 
      wrkODBC.Close 
      
     End Sub 
+```
+
+<br/>
 
 Another way to accomplish the same task would be to create a prepared statement containing the compound SQL statement. The **CacheSize** property of the **QueryDef** object must be set to 1, and the **Recordset** object must be forward-only and read-only.
 
-``` 
+```vb 
 Sub NextRecordsetX2() 
  
  Dim wrkODBC As Workspace 
@@ -153,9 +153,11 @@ End Sub
  
 ```
 
+<br/>
+
 This example uses the **RecordStatus** and **DefaultCursorDriver** properties to show how changes to a local **Recordset** are tracked during batch updating. The RecordStatusOutput function is required for this procedure to run.
 
-``` 
+```vb 
 Sub RecordStatusX() 
  
  Dim wrkMain As Workspace 

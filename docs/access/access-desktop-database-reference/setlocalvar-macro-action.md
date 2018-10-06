@@ -57,7 +57,7 @@ Variables created by the **SetLocalVar** action can be used only in the macro in
 
 Once a temporary variable has been created, you can refer to it in an expression. For example, if you created a temporary variable named TotalAmount, you could use the variable as the control source for a text box by using the following syntax.
 
-    =[LocalVars]![TotalAmount]
+`=[LocalVars]![TotalAmount]`
 
 
 > [!NOTE]

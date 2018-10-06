@@ -35,7 +35,7 @@ For example, a cube containing sales data has the following five dimensions: Sal
 
 The Geography dimension has the following set of members:
 
-``` 
+```text
  
 {All, North America, Europe, Canada, USA, UK, Germany, Canada-West, 
 Canada-East, USA-NW, USA-SW, USA-NE, USA-SE, England, Scotland,  
@@ -104,7 +104,7 @@ For example, a cube containing sales data has the following five dimensions: Sal
 
 The Geography dimension has the following set of members:
 
-``` 
+```text 
  
 {All, North America, Europe, Canada, USA, UK, Germany, Canada-West, 
 Canada-East, USA-NW, USA-SW, USA-NE, USA-SE, England, Scotland,  
@@ -125,27 +125,27 @@ In the example Geography dimension pictured in the previous figure, each box rep
 
 Each level has a set of members, as follows:
 
-  - The World = {All}
+- The World = {All}
 
-  - Continents = {North America, Europe}
+- Continents = {North America, Europe}
 
-  - Countries = {Canada, USA, UK, Germany}
+- Countries = {Canada, USA, UK, Germany}
 
-  - Regions = {Canada-East, Canada-West, USA-NE, USA-NW, USA-SE, USA-SW, England, Ireland, Scotland, Wales, Germany-North, Germany-South}
+- Regions = {Canada-East, Canada-West, USA-NE, USA-NW, USA-SE, USA-SW, England, Ireland, Scotland, Wales, Germany-North, Germany-South}
 
-  - Cities = {Ottawa, Toronto, Vancouver, Calgary, Seattle, Boise, Los Angeles, Houston, Shreveport, Miami, Boston, New York, London, Dover, Glasgow, Edinburgh, Cardiff, Pembroke, Belfast, Berlin, Hamburg, Munich, Stuttgart}
+- Cities = {Ottawa, Toronto, Vancouver, Calgary, Seattle, Boise, Los Angeles, Houston, Shreveport, Miami, Boston, New York, London, Dover, Glasgow, Edinburgh, Cardiff, Pembroke, Belfast, Berlin, Hamburg, Munich, Stuttgart}
 
 ## Members
 
 Members at the leaf level of a hierarchy have no children, and members at the root level have no parent. All other members have at least one parent and at least one child. For example, a partial traversal of the hierarchy tree in the Geography dimension yields the following parent-child relationships:
 
-  - {All} (parent of) {Europe, North America}
+- {All} (parent of) {Europe, North America}
 
-  - {North America} (parent of) {Canada, USA}
+- {North America} (parent of) {Canada, USA}
 
-  - {USA} (parent of) {USA-NE, USA-NW, USA-SE, USA-SW}
+- {USA} (parent of) {USA-NE, USA-NW, USA-SE, USA-SW}
 
-  - {USA-NW} (parent of) {Boise, Seattle}
+- {USA-NW} (parent of) {Boise, Seattle}
 
 Members can be consolidated along one or more hierarchies per dimension.
 

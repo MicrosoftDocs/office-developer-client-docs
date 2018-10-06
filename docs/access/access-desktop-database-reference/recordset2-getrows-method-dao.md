@@ -13,11 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 Retrieves multiple rows from a **[Recordset](recordset-object-dao.md)** object.
 
 ## Syntax
@@ -90,6 +85,7 @@ If you are trying to retrieve all the rows by using multiple **GetRows** calls, 
 
 This example uses the **GetRows** method to retrieve a specified number of rows from a **Recordset** and to fill an array with the resulting data. The **GetRows** method will return fewer than the desired number of rows in two cases: either if **EOF** has been reached, or if **GetRows** tried to retrieve a record that was deleted by another user. The function returns **False** only if the second case occurs. The GetRowsOK function is required for this procedure to run.
 
+```vb
     Sub GetRowsX() 
      
      Dim dbsNorthwind As Database 
@@ -179,4 +175,4 @@ This example uses the **GetRows** method to retrieve a specified number of rows 
      End If 
      
     End Function
-
+```

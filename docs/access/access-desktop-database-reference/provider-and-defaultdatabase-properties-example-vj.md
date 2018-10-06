@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example demonstrates the [Provider](provider-property-ado.md) property by opening three [Connection](connection-object-ado.md) objects using different providers. It also uses the [DefaultDatabase](defaultdatabase-property-ado.md) property to set the default database for the Microsoft ODBC Provider.
 
-``` 
+```java 
  
 // BeginProviderJ 
 import java.io.*; 

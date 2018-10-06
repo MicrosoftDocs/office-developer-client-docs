@@ -13,10 +13,7 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
+
 
 Sets or returns the relative record number of a **Recordset** object's current record.
 

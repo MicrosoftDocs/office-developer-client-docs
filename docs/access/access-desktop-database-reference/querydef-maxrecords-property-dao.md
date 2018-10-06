@@ -17,10 +17,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
 
 Sets or returns the maximum number of records to return from a query against an ODBC data source.
 
@@ -46,7 +42,7 @@ Once the number of rows specified by **MaxRecords** is returned to your applicat
 
 This example uses the **MaxRecords** property to set a limit on how many records are returned by a query on an ODBC data source.
 
-``` 
+```vb 
 Sub MaxRecordsX() 
  
  Dim dbsCurrent As Database 

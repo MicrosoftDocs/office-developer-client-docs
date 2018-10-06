@@ -10,20 +10,7 @@ mtps_version: v=office.15
 
 # Microsoft OLE DB Provider for ODBC
 
-
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Connection String Parameters  
-Typical Connection String  
-Provider-Specific Connection Properties  
-Provider-Specific Recordset and Command Properties  
-Command Text  
-Recordset Behavior  
-Dynamic Properties  
-Connection Dynamic Properties  
-Recordset Dynamic Properties  
-Command Dynamic Properties  
 
 To an ADO or RDS programmer, an ideal world would be one in which every data source exposes an OLE DB interface, so that ADO could call directly into the data source. Although increasingly more database vendors are implementing OLE DB interfaces, some data sources are not yet exposed this way. However, virtually all DBMS systems in use today can be accessed through ODBC.
 
@@ -39,7 +26,7 @@ This is the default provider for ADO, and all provider-dependent ADO properties 
 
 To connect to this provider, set the **Provider=** argument of the [ConnectionString](connectionstring-property-ado.md) property to:
 
-``` 
+```sql 
  
 MSDASQL 
 ```
@@ -50,7 +37,7 @@ Reading the [Provider](provider-property-ado.md) property will return this strin
 
 A typical connection string for this provider is:
 
-``` 
+```sql 
  
 "Provider=MSDASQL;DSN=dsnName;UID=userName;PWD=userPassword;" 
 ```
@@ -101,12 +88,11 @@ Because you can omit the **Provider** parameter, you can therefore compose an AD
 
 **Syntax with a DSN or FileDSN:**
 
-    "[Provider=MSDASQL;] { DSN=name | FileDSN=filename } ;  
-    [DATABASE=database;] UID=user; PWD=password"
+`"[Provider=MSDASQL;] { DSN=name | FileDSN=filename } ; [DATABASE=database;] UID=user; PWD=password"`
 
 **Syntax without a DSN (DSN-less connection):**
 
-    "[Provider=MSDASQL;] DRIVER=driver; SERVER=server;DATABASE=database; UID=user; PWD=password"
+`"[Provider=MSDASQL;] DRIVER=driver; SERVER=server;DATABASE=database; UID=user; PWD=password"`
 
 If you use a **DSN** or **FileDSN**, it must be defined through the ODBC Data Source Administrator in the Windows Control Panel. In Microsoft Windows 2000, the ODBC Administrator is located under Administrative Tools. In previous versions of Windows, the ODBC Administrator icon is named **32-bit ODBC** or simply **ODBC**.
 
@@ -307,25 +293,25 @@ How you use the [Command](command-object-ado.md) object largely depends on the d
 
 ODBC provides a specific syntax for calling stored procedures. For the [CommandText](commandtext-property-ado.md) property of a **Command** object, the *CommandText* argument to the **Execute** method on a [Connection](connection-object-ado.md) object, or the *Source* argument to the **Open** method on a [Recordset](recordset-object-ado.md) object, passes in a string with this syntax:
 
-    "{ [ ? = ] call procedure [ ( ? [, ? [ ,  ]] ) ] }"
+`"{ [ ? = ] call procedure [ ( ? [, ? [ ,  ]] ) ] }"`
 
 Each **?** references an object in the [Parameters](parameters-collection-ado.md) collection. The first **?** references **Parameters**(0), the next **?** references **Parameters**(1), and so on.
 
 The parameter references are optional and depend on the structure of the stored procedure. If you want to call a stored procedure that defines no parameters, your string would look like this:
 
-    "{ call procedure }"
+`"{ call procedure }"`
 
 If you have two query parameters, your string would look like this:
 
-    "{ call procedure ( ?, ? ) }"
+`"{ call procedure ( ?, ? ) }"`
 
 If the stored procedure will return a value, the return value is treated as another parameter. If you have no query parameters but you do have a return value, your string would look like this:
 
-    "{ ? = call procedure }"
+`"{ ? = call procedure }"`
 
 Finally, if you have a return value and two query parameters, your string would look like this:
 
-    "{ ? = call procedure ( ?, ? ) }"
+`"{ ? = call procedure ( ?, ? ) }"`
 
 ## Recordset Behavior
 
@@ -1452,5 +1438,7 @@ The following properties are added to the **Command** object's **Properties** co
 </table>
 
 
-**See Also**For details regarding specific implementation and functional information about the Microsoft OLE DB Provider for ODBC, consult the [OLE DB Programmer's Guide](https://msdn.microsoft.com/library/ms713643\(vs.85\).aspx) or visit the [Data Platform Developer Center](https://msdn.microsoft.com/data/default.aspx).
+## See also
+
+For details regarding specific implementation and functional information about the Microsoft OLE DB Provider for ODBC, consult the [OLE DB Programmer's Guide](https://docs.microsoft.com/previous-versions/windows/desktop/ms713643(v=vs.85)) or visit the [Data Platform Developer Center](https://docs.microsoft.com/sql/connect/sql-data-developer?view=sql-server-2017).
 

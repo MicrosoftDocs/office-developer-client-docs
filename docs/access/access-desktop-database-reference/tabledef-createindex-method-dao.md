@@ -15,12 +15,7 @@ f1_categories:
 # TableDef.CreateIndex Method (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Syntax  
-Remarks  
-Example  
+**Applies to**: Access 2013 | Office 2013 
 
 Creates a new **[Index](index-object-dao.md)** object (Microsoft Access workspaces only). .
 
@@ -74,6 +69,7 @@ To remove an **Index** object from a collection, use the **[Delete](fields-delet
 
 This example uses the **CreateIndex** method to create two new **Index** objects and then appends them to the **Indexes** collection of the Employees **TableDef** object. It then enumerates the Indexes collection of the **TableDef** object, the **Fields** collection of the new **Index** objects, and the Properties collection of the new **Index** objects. The CreateIndexOutput function is required for this procedure to run.
 
+```vb
     Sub CreateIndexX() 
      
      Dim dbsNorthwind As Database 
@@ -157,4 +153,4 @@ This example uses the **CreateIndex** method to create two new **Index** objects
      End With 
      
     End Function
-
+```

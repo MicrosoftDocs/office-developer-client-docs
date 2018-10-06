@@ -17,11 +17,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 Sets or returns the sort order for records in a **[Recordset](recordset-object-dao.md)** object (Microsoft Access workspaces only).
 
 ## Syntax
@@ -50,6 +45,7 @@ The **Sort** property doesn't apply to table– or forward–only–type **Recor
 
 This example demonstrates the **Sort** property by changing its value and creating a new **Recordset**. The SortOutput function is required for this procedure to run.
 
+```vb
     Sub SortX() 
      
      Dim dbsNorthwind As Database 
@@ -99,9 +95,13 @@ This example demonstrates the **Sort** property by changing its value and creati
      End With 
      
     End Function 
+```
+
+<br/>
 
 When you know the data you want to select, it's usually more efficient to create a **Recordset** with an SQL statement. This example shows how you can create just one **Recordset** and obtain the same results as in the preceding example.
 
+```vb
     Sub SortX2() 
      
      Dim dbsNorthwind As Database 
@@ -118,4 +118,4 @@ When you know the data you want to select, it's usually more efficient to create
      dbsNorthwind.Close 
      
     End Sub
-
+```

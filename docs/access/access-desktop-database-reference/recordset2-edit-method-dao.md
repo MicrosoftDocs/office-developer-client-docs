@@ -17,11 +17,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 Copies the current record from an updatable **[Recordset](recordset-object-dao.md)** object to the copy buffer for subsequent editing.
 
 ## Syntax
@@ -66,6 +61,7 @@ In a Microsoft Access workspace, when the **Recordset** object's **[LockEdits](r
 
 This example uses the **Edit** method to replace the current data with the specified name. The EditName procedure is required for this procedure to run.
 
+```vb
     Sub EditX() 
      
      Dim dbsNorthwind As Database 
@@ -133,4 +129,4 @@ This example uses the **Edit** method to replace the current data with the speci
      End With 
      
     End Sub
-
+```

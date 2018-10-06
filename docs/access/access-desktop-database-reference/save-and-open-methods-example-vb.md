@@ -19,7 +19,7 @@ Assume you are going on a business trip and want to take along a table from a da
 
 First, access and save the ***Authors*** table.
 
-``` 
+```vb 
  
 'BeginSaveVB 
  
@@ -75,9 +75,11 @@ End Sub
 'EndSaveVB 
 ```
 
+<br/>
+
 At this point, you have arrived at your destination. You will access the ***Authors*** table as a local, disconnected **Recordset**. Don't forget you must have the **MSPersist** provider on the machine that you are using in order to access the saved file, a:\\Pubs.xml.
 
-``` 
+```vb 
  
 'BeginSave2VB 
 Public Sub Main() 
@@ -123,9 +125,11 @@ End Sub
 'EndSave2VB 
 ```
 
+<br/>
+
 Finally, you return home. Now update the database with your changes.
 
-``` 
+```vb 
  
 'BeginSave3VB 
 Public Sub Main() 

@@ -59,7 +59,7 @@ A client should not add its own tags to these namespaces, as defined by the spec
 
 Note that the prefix of the namespace, that part to the right of the colon and to the left of the equal sign, is arbitrary.
 
-``` 
+```vb 
  
 xmlns:rs="urn:schemas-microsoft-com:rowset" 
 ```
@@ -112,7 +112,7 @@ A client should not add its own tags to these namespaces, as defined by the spec
 
 Note that the prefix of the namespace, that part to the right of the colon and to the left of the equal sign, is arbitrary.
 
-``` 
+```vb 
  
 xmlns:rs="urn:schemas-microsoft-com:rowset" 
 ```

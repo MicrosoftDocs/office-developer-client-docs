@@ -19,10 +19,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
 
 Combines records from two tables whenever there are matching values in a common field.
 
@@ -72,7 +68,7 @@ You can join any two numeric fields of like types. For example, you can join on 
 
 The following example shows how you could join the Categories and Products tables on the CategoryID field:
 
-``` sql
+```sql
 SELECT CategoryName, ProductName 
 FROM Categories INNER JOIN Products 
 ON Categories.CategoryID = Products.CategoryID;
@@ -96,6 +92,7 @@ This example creates two equi-joins: one between the Order Details and Orders ta
 
 This example calls the EnumFields procedure, which you can find in the SELECT statement example.
 
+```vb
     Sub InnerJoinX() 
      
         Dim dbs As Database, rst As Recordset 
@@ -130,4 +127,4 @@ This example calls the EnumFields procedure, which you can find in the SELECT st
         dbs.Close 
      
     End Sub
-
+```

@@ -13,11 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 Sets or returns a bookmark that uniquely identifies the current record in a **Recordset** object.
 
 ## Syntax
@@ -46,6 +41,7 @@ The value of the **Bookmark** property isn't the same as a record number.
 
 This example uses the **Bookmark** and **Bookmarkable** properties to let the user flag a record in a recordset and return to it later.
 
+```vb
     Sub BookmarkX() 
      
      Dim dbsNorthwind As Database 
@@ -116,9 +112,13 @@ This example uses the **Bookmark** and **Bookmarkable** properties to let the us
      dbsNorthwind.Close 
      
     End Sub 
+```
+
+<br/>
 
 This example uses the **LastModified** property to move the current record pointer to both a record that has been modified and a newly created record.
 
+```vb
     Sub LastModifiedX() 
      
      Dim dbsNorthwind As Database 
@@ -173,4 +173,4 @@ This example uses the **LastModified** property to move the current record point
      dbsNorthwind.Close 
      
     End Sub
-
+```

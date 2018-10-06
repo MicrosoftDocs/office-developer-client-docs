@@ -17,12 +17,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Text Data Source Initialization Settings  
-Text Data Source ISAM Formats  
-HTML Import ISAM Formats  
-HTML Export ISAM Formats  
-Customizing the Schema.ini File for Text and HTML Data  
 
 The same database driver is used for both Text Data sources and for HTML data sources.
 
@@ -32,6 +26,7 @@ When you install the Text Data Source database driver, the Setup program writes 
 
 The **Access Connectivity Engine\\ISAM Formats\\Text folder** includes initialization settings for the Acetxt.dll driver, used for external access to text data files. Typical settings for the entries in this folder are shown in the following example.
 
+```vb
     win32=<path>\ ACETXT.DLL 
     
     MaxScanRows=25 
@@ -45,6 +40,7 @@ The **Access Connectivity Engine\\ISAM Formats\\Text folder** includes initializ
     Extensions= txt,csv,tab,asc 
     
     ExportCurrencySymbols=Yes
+```
 
 The Microsoft Access database engine uses the Text folder entries as follows.
 
@@ -344,6 +340,7 @@ The **Access Connectivity Engine\\ISAM Formats\\HTML Export** folder contains th
 
 To read, import, or export text and HTML data, you need to create a Schema.ini file in addition to including the Text ISAM information in the .ini file. Schema.ini contains the specifics of a data source: how the text file is formatted, how it is read at import time, and what the default export format is for files. The following examples show the layout for a fixed-width file, Filename.txt:
 
+```text
     [Filename.txt] 
     
     ColNameHeader=False 
@@ -364,9 +361,11 @@ To read, import, or export text and HTML data, you need to create a Schema.ini f
     
     Col4=columnname8 Integer Width 10 
     Col5=columnname9 LongChar Width 10
+```
 
 Similarly, the format for a delimited file is specified as follows:
 
+```text
     [Delimit.txt] 
     
     ColNameHeader=True 
@@ -380,9 +379,11 @@ Similarly, the format for a delimited file is specified as follows:
     Col1=username char width 50 
     
     Col2=dateofbirth Date width 9
+```
 
 If you are exporting data into a delimited text file, specify the format for that file as well:
 
+```text
     [Export: My Special Export] 
     
     ColNameHeader=True 
@@ -414,6 +415,7 @@ If you are exporting data into a delimited text file, specify the format for tha
     NumberLeadingZeros=0 
     
     TextDelimeter="
+```
 
 The My Special Export example refers to a specific export option; you can specify any variation of export options at connect time. This last example also corresponds to a data source name (DSN) that can be optionally passed at connect time. All three format sections can be included in the same .ini file.
 
@@ -505,6 +507,6 @@ The Microsoft Access database engine uses the Schema.ini entries as follows.
 
 
 > [!NOTE]
-> <P>When you change Schema.ini file settings, you must exit and then restart the database engine for the new settings to take effect.</P>
+> When you change Schema.ini file settings, you must exit and then restart the database engine for the new settings to take effect.
 
 

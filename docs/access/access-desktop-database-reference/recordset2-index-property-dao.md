@@ -13,11 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 Sets or returns a value that indicates the name of the current **[Index](index-object-dao.md)** object in a table-type **[Recordset](recordset-object-dao.md)** object (Microsoft Access workspaces only).
 
 ## Syntax
@@ -58,6 +53,7 @@ Records returned from a table-type **Recordset** object can be ordered only by t
 
 This example uses the **Index** property to set different record orders for a table-type **Recordset**.
 
+```vb
     Sub IndexPropertyX() 
      
        Dim dbsNorthwind As Database 
@@ -95,9 +91,13 @@ This example uses the **Index** property to set different record orders for a ta
        dbsNorthwind.Close 
      
     End Sub 
+```
+
+<br/>
 
 This example demonstrates the **Seek** method by allowing the user to search for a product based on an ID number.
 
+```vb
     Sub SeekX() 
      
        Dim dbsNorthwind As Database 
@@ -153,4 +153,4 @@ This example demonstrates the **Seek** method by allowing the user to search for
        dbsNorthwind.Close 
      
     End Sub
-
+```

@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example uses the [Mode](mode-property-ado.md) property to open an exclusive connection, and the [IsolationLevel](isolationlevel-property-ado.md) property to open a transaction that is conducted in isolation of other transactions.
 
-``` 
+```vb 
  
 'BeginIsolationLevelVB 
  

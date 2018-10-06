@@ -21,7 +21,7 @@ The **ObjectProxy** class implements one method, call, which can invoke any serv
 
 **This is the beginning of the tutorial.**
 
-``` 
+```java 
  
 import com.ms.wfc.data.*; 
 public class RDSTutorial 

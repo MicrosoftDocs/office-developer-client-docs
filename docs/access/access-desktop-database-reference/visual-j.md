@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This short Microsoft Visual J++ example shows how you can associate your own function with a particular event.
 
-``` 
+```java 
  
 // BeginEventExampleVJ 
 import com.ms.wfc.data.*; 

@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example uses the [Mode](mode-property-ado.md) property to open an exclusive connection, and the [IsolationLevel](isolationlevel-property-ado.md) property to open a transaction that is conducted in isolation of other transactions.
 
-``` 
+```cpp 
  
 // BeginIsolationLevelCpp 
 #import "C:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF","EndOfFile") 
@@ -252,7 +252,7 @@ void PrintComError(_com_error &e)
 
 **IsolationLevelX.h**
 
-``` 
+```cpp 
  
 // BeginIsolationLevelH 
  

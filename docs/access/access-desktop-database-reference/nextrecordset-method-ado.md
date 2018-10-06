@@ -12,12 +12,7 @@ mtps_version: v=office.15
 
 
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Syntax  
-Return Value  
-Parameters  
-Remarks  
+ 
 
 Clears the current [Recordset](recordset-object-ado.md) object and returns the next **Recordset** by advancing through a series of commands.
 
@@ -31,9 +26,9 @@ Returns a **Recordset** object. In the syntax model, *recordset1* and *recordset
 
 ## Parameters
 
-  - *RecordsAffected*
+- *RecordsAffected*
 
-  - Optional. A **Long** variable to which the provider returns the number of records that the current operation affected.
+- Optional. A **Long** variable to which the provider returns the number of records that the current operation affected.
 
 
 > [!NOTE]

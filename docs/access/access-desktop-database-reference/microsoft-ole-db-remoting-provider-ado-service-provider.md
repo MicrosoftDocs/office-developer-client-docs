@@ -10,15 +10,7 @@ mtps_version: v=office.15
 
 # Microsoft OLE DB Remoting Provider (ADO Service Provider)
 
-
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Provider Keyword  
-Additional Keywords  
-Dynamic Properties  
-Remarks  
-Example  
 
 The Microsoft OLE DB Remoting Provider enables a local user on a client machine to invoke data providers on a remote machine. Specify the data provider parameters for the remote machine as you would if you were a local user on the remote machine. Then specify the parameters used by the Remoting Provider to access the remote machine. The resulting effect is that you will access the remote machine as if you were a local user.
 
@@ -26,7 +18,7 @@ The Microsoft OLE DB Remoting Provider enables a local user on a client machine 
 
 To invoke the OLE DB Remoting Provider, specify the following keyword and value in the connection string. (Note the blank space in the provider name.)
 
-``` 
+```sql 
  
 "Provider=MS Remote" 
 ```
@@ -138,7 +130,7 @@ When this service provider is invoked, the following dynamic properties are adde
 
 You may also set writable dynamic properties by specifying their names as keywords in the connection string. For example, set the **Internet Timeout** dynamic property to five seconds by specifying:
 
-``` 
+```sql 
  
 Dim cn as New ADODB.Connection 
 cn.Open "Provider=MS Remote;Internet Timeout=5000" 
@@ -146,7 +138,7 @@ cn.Open "Provider=MS Remote;Internet Timeout=5000"
 
 You may also set or retrieve a dynamic property by specifying its name as the index to the **Properties** property. For example, get and print the current value of the **Internet Timeout** dynamic property, and then set a new value, like this:
 
-``` 
+```sql 
  
 Debug.Print cn.Properties("Internet Timeout") 
 cn.Properties("Internet Timeout") = 5000 
@@ -164,7 +156,7 @@ Specifying "...;Remote Provider=MS Remote;..." would create a four-tier scenario
 
 This example performs a query on the **authors** table of the **pubs** database on a server named, *YourServer*. The names of the remote data source and remote server are provided in the [Connection](connection-object-ado.md) object [Open](open-method-ado-connection.md) method, and the SQL query is specified in the [Recordset](recordset-object-ado.md) object [Open](open-method-ado-recordset.md) method. A **Recordset** object is returned, edited, and used to update the data source.
 
-``` 
+```vb 
  
 Dim rs as New ADODB.Recordset 
 Dim cn as New ADODB.Connection 

@@ -13,11 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 ## Syntax
 
 *expression* .OpenConnection(***Name***, ***Options***, ***ReadOnly***, ***Connect***)
@@ -124,7 +119,7 @@ The options argument determines if and when to prompt the user to establish the 
 
 This example uses the **OpenConnection** method with different parameters to open three different **Connection** objects.
 
-``` 
+```vb 
 Sub OpenConnectionX() 
  
  Dim wrkODBC As Workspace 
@@ -198,9 +193,11 @@ End Sub
  
 ```
 
+<br/>
+
 This example demonstrates the **Connection** object and **Connections** collection by opening a Microsoft Access **Database** object and two ODBCDirect **Connection** objects and listing the properties available to each object.
 
-``` 
+```vb 
 Sub ConnectionObjectX() 
  
  Dim wrkAcc as Workspace 

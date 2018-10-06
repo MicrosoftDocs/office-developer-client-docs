@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example uses the **Open** and [Close](close-method-ado.md) methods on both [Recordset](recordset-object-ado.md) and [Connection](connection-object-ado.md) objects that have been opened.
 
-``` 
+```java 
  
 // BeginOpenJ 
 import com.ms.wfc.data.*; 

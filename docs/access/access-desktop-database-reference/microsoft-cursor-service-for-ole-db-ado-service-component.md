@@ -13,12 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Keyword  
-Dynamic Properties  
-Built-in Property Behavior  
-Method Behavior  
-
 The Microsoft Cursor Service for OLE DB supplements the cursor support functions of data providers. As a result, the user perceives relatively uniform functionality from all data providers.
 
 The Cursor Service makes dynamic properties available and enhances the behavior of certain methods. For example, the [Optimize](optimize-property-dynamic-ado.md) dynamic property enables the creation of temporary indexes to facilitate certain operations, such as the [Find](find-method-ado.md) method.
@@ -29,7 +23,7 @@ The Cursor Service enables support for batch updating in all cases. It also simu
 
 To invoke this service component, set the [Recordset](recordset-object-ado.md) or [Connection](connection-object-ado.md) object's [CursorLocation](cursorlocation-property-ado.md) property to **adUseClient**.
 
-    connection.CursorLocation=adUseClientrecordset.CursorLocation=adUseClient
+`connection.CursorLocation=adUseClientrecordset.CursorLocation=adUseClient`
 
 ## Dynamic Properties
 
@@ -37,8 +31,7 @@ When the Cursor Service for OLE DB is invoked, the following dynamic properties 
 
 Changes to some dynamic properties are not visible to the underlying data source after the Cursor Service has been invoked. For example, setting the *Command Time out* property on a **Recordset** will not be visible to the underlying data provider.
 
-``` 
- 
+```vb 
 ... 
 Recordset1.CursorLocation = adUseClient 'invokes cursor service 
 Recordset1.Open "authors", _ 
@@ -47,13 +40,13 @@ Recordset1.Open "authors", _
 Recordset1.Properties.Item("Command Time out") = 50 
 ' 'Command Time out' property on DBServer is still default (30). 
 ... 
+
 ```
 
 If your application requires the Cursor Service, but you need to set dynamic properties on the underlying provider, set the properties before invoking the Cursor Service. Command object property settings are always passed to the underlying data provider regardless of cursor location. Therefore, you can also use a command object to set the properties at any time.
 
-
 > [!NOTE]
-> <P>The dynamic property DBPROP_SERVERDATAONINSERT is not supported by the cursor service, even if it is supported by the underlying data provider.</P>
+> The dynamic property DBPROP_SERVERDATAONINSERT is not supported by the cursor service, even if it is supported by the underlying data provider.
 
 
 
@@ -133,7 +126,7 @@ If your application requires the Cursor Service, but you need to set dynamic pro
 
 You may also set or retrieve a dynamic property by specifying its name as the index to the **Properties** collection. For example, get and print the current value of the [Optimize](optimize-property-dynamic-ado.md) dynamic property, then set a new value, like this:
 
-``` 
+```vb 
  
 Debug.Print rs.Properties("Optimize") 
 rs.Properties("Optimize") = True 

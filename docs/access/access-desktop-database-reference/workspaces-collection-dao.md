@@ -33,7 +33,7 @@ To refer to a **Workspace** object in a collection by its ordinal number or by i
 
 
 > [!NOTE]
-> <P>ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</P>
+> ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.
 
 
 
@@ -41,7 +41,7 @@ To refer to a **Workspace** object in a collection by its ordinal number or by i
 
 This example creates a new Microsoft Access Workspace object and appends it to the **Workspaces** collection. It then enumerates the **Workspaces** collections and the **Properties** collection of the **Workspace** object.
 
-``` 
+```vb 
 Sub WorkspaceX() 
  
  Dim wrkNewAcc As Workspace 
@@ -70,12 +70,13 @@ Sub WorkspaceX()
  
  wrkNewAcc.Close 
 End Sub 
- 
 ```
+
+<br/>
 
 This example uses the **CreateWorkspace** method to create a Microsoft Access workspace. It then lists the properties of theworkspace.
 
-``` 
+```vb 
 Sub CreateWorkspaceX() 
  
  Dim wrkAcc As Workspace 

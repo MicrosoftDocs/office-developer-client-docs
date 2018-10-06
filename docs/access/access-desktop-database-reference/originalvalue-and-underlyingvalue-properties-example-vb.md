@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example demonstrates the [OriginalValue](originalvalue-property-ado.md) and [UnderlyingValue](underlyingvalue-property-ado.md) properties by displaying a message if a record's underlying data has changed during a [Recordset](recordset-object-ado.md) batch update.
 
-``` 
+```vb 
  
 'BeginOriginalValueVB 
 Public Sub Main() 

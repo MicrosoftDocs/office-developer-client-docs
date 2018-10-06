@@ -17,11 +17,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 Sets or returns a value on a **[TableDef](tabledef-object-dao.md)** object within a partial replica that indicates which subset of records is replicated to that table from a full replica. (Microsoft Access workspaces only).
 
 ## Syntax
@@ -88,7 +83,7 @@ To remove a filter, set the **ReplicaFilter** property to **False**. If you remo
 
 The following example uses the **ReplicaFilter** property to replicate only customer records from the California region.
 
-``` 
+```vb 
 Sub ReplicaFilterX() 
  
  ' This example assumes the current open database 

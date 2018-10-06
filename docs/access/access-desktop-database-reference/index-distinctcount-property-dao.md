@@ -14,13 +14,7 @@ f1_categories:
 
 # Index.DistinctCount Property (DAO)
 
-
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Syntax  
-Remarks  
-Example  
 
 Returns a value that indicates the number of unique values for the **[Index](index-object-dao.md)** object that are included in the associated table (Microsoft Access workspaces only).
 
@@ -40,6 +34,7 @@ The **DistinctCount** property won't always reflect the actual number of keys at
 
 This example uses the **DistinctCount** property to show how you can determine the number of unique values in an **Index** object. However, this value is only accurate immediately after creating the **Index**. It will remain accurate if no keys change, or if new keys are added and no old keys are deleted; otherwise, it will not be reliable. (If this procedure is run several times, you can see the effect on the **DistinctCount** property values of the existing Index objects.)
 
+```vb
     Sub DistinctCountX() 
      
      Dim dbsNorthwind As Database 
@@ -109,4 +104,4 @@ This example uses the **DistinctCount** property to show how you can determine t
      dbsNorthwind.Close 
      
     End Sub
-
+```

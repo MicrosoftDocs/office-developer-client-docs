@@ -13,11 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 Locates the record in an indexed table-type **Recordset** object that satisfies the specified criteria for the current index and makes that record the current record (Microsoft Access workspaces only).
 
 ## Syntax
@@ -86,6 +81,7 @@ You can't use the **Seek** method on a linked table because you can't open linke
 
 This example demonstrates the **Seek** method by allowing the user to search for a product based on an ID number.
 
+```vb
     Sub SeekX() 
      
      Dim dbsNorthwind As Database 
@@ -141,9 +137,13 @@ This example demonstrates the **Seek** method by allowing the user to search for
      dbsNorthwind.Close 
      
     End Sub 
+```
+
+<br/>
 
 This example uses the **NoMatch** property to determine whether a **Seek** and a **FindFirst** were successful, and if not, to give appropriate feedback. The SeekMatch and FindMatch procedures are required for this procedure to run.
 
+```vb
     Sub NoMatchX() 
      
      Dim dbsNorthwind As Database 
@@ -260,4 +260,4 @@ This example uses the **NoMatch** property to determine whether a **Seek** and a
      End With 
      
     End Sub
-
+```

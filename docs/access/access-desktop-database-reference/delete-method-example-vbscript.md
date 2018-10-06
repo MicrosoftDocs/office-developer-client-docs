@@ -21,7 +21,7 @@ Use **Find** to locate the file Adovbs.inc and place it in the directory you pla
 
 To exercise the example, try using the [AddNew](addnew-method-example-vbscript.md) example first to add some records. Then you can try to delete them. View the result in any client browser.
 
-``` 
+```vb 
  
 <!-- BeginDeleteVBS --> 
 <%@ Language=VBScript %> 

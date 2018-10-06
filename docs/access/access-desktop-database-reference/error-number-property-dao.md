@@ -16,11 +16,7 @@ f1_categories:
 
 
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Syntax  
-Remarks  
-Example  
+ 
 
 Returns a numeric value specifying an error.
 
@@ -38,7 +34,7 @@ Use the **Number** property to determine the error that occurred. The value of t
 
 This example forces an error, traps it, and displays the **Description**, **Number**, **Source**, **HelpContext**, and **HelpFile** properties of the resulting **Error** object.
 
-``` 
+```vb 
 Sub DescriptionX() 
  
  Dim dbsTest As Database 

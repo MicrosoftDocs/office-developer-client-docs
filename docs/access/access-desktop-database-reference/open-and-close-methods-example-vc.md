@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example uses the **Open** and [Close](close-method-ado.md) methods on both [Recordset](recordset-object-ado.md) and [Connection](connection-object-ado.md) objects that have been opened.
 
-``` 
+```cpp 
  
 // BeginOpenCpp 
 #import "C:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 
@@ -215,7 +215,7 @@ void PrintComError(_com_error &e)
 
 **OpenX.h**
 
-``` 
+```cpp 
  
 // BeginOpenH 
 #include "icrsint.h" 

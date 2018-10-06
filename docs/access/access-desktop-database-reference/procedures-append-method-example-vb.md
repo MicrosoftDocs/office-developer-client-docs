@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 The following code demonstrates how to use a [Command](command-object-ado.md) object and the [Procedures](procedures-collection-adox.md) collection [Append](append-method-adox-procedures.md) method to create a new procedure in the underlying data source.
 
-``` 
+```vb 
  
 ' BeginCreateProcedureVB 
 Sub Main() 

@@ -13,10 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Creating an ADO Project  
-Creating ADO Objects in JScript  
-JScript Example  
 
 ## Creating an ADO Project
 
@@ -24,13 +20,13 @@ Microsoft JScript does not support type libraries, so you do not need to referen
 
 However, ADO provides you with two include files containing the following definitions to be used with JScript:
 
-  - For server-side scripting use Adojavas.inc, which is installed in the c:\\Program Files\\Common Files\\System\\ado\\ folder by default.
+- For server-side scripting use Adojavas.inc, which is installed in the c:\\Program Files\\Common Files\\System\\ado\\ folder by default.
 
-  - For client-side scripting use Adcjavas.inc, which is installed in the c:\\Program Files\\Common Files\\System\\msdac\\ folder by default.
+- For client-side scripting use Adcjavas.inc, which is installed in the c:\\Program Files\\Common Files\\System\\msdac\\ folder by default.
 
 You can either copy and paste constant definitions from these files into your ASP pages, or, if you are doing server-side scripting, copy Adojavas.inc file to a folder on your Web site and references it from your ASP page like this:
 
-``` 
+```javascript  
  
 <!--#include File="adojavas.inc"--> 
 ```
@@ -39,7 +35,7 @@ You can either copy and paste constant definitions from these files into your AS
 
 You must instead use the **CreateObject** function call:
 
-``` 
+```javascript  
  
 var Rs1; 
 Rs1 = Server.CreateObject("ADODB.Recordset"); 
@@ -49,7 +45,7 @@ Rs1 = Server.CreateObject("ADODB.Recordset");
 
 The following code is a generic example of JScript server-side programming in an Active Server Page (ASP) file that opens a **Recordset** object:
 
-``` 
+```javascript 
  
 <%  @LANGUAGE="JScript" %> 
 <!--#include File="adojavas.inc"--> 

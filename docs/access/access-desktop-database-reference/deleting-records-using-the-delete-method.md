@@ -33,7 +33,7 @@ The **Delete** method takes an optional argument that allows you to specify whic
 
 The following code shows an example of specifying **adAffectGroup** when calling the **Delete** method. This example adds some records to the sample **Recordset** and updates the database. Then it filters the **Recordset** using the **adFilterAffectedRecords** filter enumerated constant, which leaves only the newly added records visible in the **Recordset**. Finally, it calls the **Delete** method and specifies that all of the records that satisfy the current **Filter** property setting (the new records) should be deleted.
 
-``` 
+```vb 
  
 'BeginDeleteGroup 
  'add some bogus records 

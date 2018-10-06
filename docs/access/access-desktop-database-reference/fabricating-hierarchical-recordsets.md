@@ -17,6 +17,7 @@ The following example shows how to fabricate a hierarchical Recordset without an
 
 To fabricate a hierarchical **Recordset**, you must specify the Microsoft Data Shaping Service for OLE DB (MSDataShape), and you may specify a Data Provider value of NONE in the connection string parameter of the [Connection](connection-object-ado.md) object's [Open](open-method-ado-connection.md) method. For more information, see [Required Providers for Data Shaping](required-providers-for-data-shaping.md).
 
+```vb
     Dim cn As New ADODB.Connection
     Dim rsCustomers As New ADODB.Recordset
     
@@ -39,6 +40,7 @@ To fabricate a hierarchical **Recordset**, you must specify the Microsoft Data S
                 " AS Vehicles RELATE CustID TO CustID) "
      
     rsCustomers.Open strShape, cn, adOpenStatic, adLockOptimistic, -1
+```
 
-Once the **Recordset** has been fabricated, it can be populated, manipulated, or persisted to a file.
+After the **Recordset** has been fabricated, it can be populated, manipulated, or persisted to a file.
 

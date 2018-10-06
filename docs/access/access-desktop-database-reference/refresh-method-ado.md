@@ -13,11 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Parameters  
-
 Updates the objects in a collection to reflect objects available from, and specific to, the provider.
 
 ## Syntax

@@ -17,7 +17,7 @@ Each section header in the customization file consists of square brackets (**\[\
 
 Therefore, each section is marked with one of the following section headers:
 
-``` 
+```text 
  
 [ connect   default     ]
 [ connect   identifier  ]

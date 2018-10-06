@@ -17,10 +17,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
 
 Returns a value that indicates whether the data in the field represented by a **[Field](field-object-dao.md)** object is updatable.
 
@@ -40,7 +36,7 @@ You can use the **DataUpdatable** property on **Field** objects that are appende
 
 This example demonstrates the **DataUpdatable** property using the first field from six different **Recordsets**. The DataOutput function is required for this procedure to run.
 
-``` 
+```vb 
 Sub DataUpdatableX() 
  
  Dim dbsNorthwind As Database 

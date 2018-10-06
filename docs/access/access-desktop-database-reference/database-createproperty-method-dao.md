@@ -13,10 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
 
 Creates a new user-defined **[Property](property-object-dao.md)** object (Microsoft Access workspaces only). .
 

@@ -19,11 +19,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 A subquery is a [SELECT](select-statement-microsoft-access-sql.md) statement nested inside a SELECT, [SELECT…INTO](select-into-statement-microsoft-access-sql.md), [INSERT…INTO](insert-into-statement-microsoft-access-sql.md), [DELETE](delete-statement-microsoft-access-sql.md), or [UPDATE](update-statement-microsoft-access-sql.md) statement or inside another subquery.
 
 ## Syntax
@@ -72,7 +67,7 @@ You can use a subquery instead of an expression in the field list of a SELECT st
 
 Use the ANY or SOME predicate, which are synonymous, to retrieve records in the main query that satisfy the comparison with any records retrieved in the subquery. The following example returns all products whose unit price is greater than that of any product sold at a discount of 25 percent or more:
 
-``` sql
+```sql
 SELECT * FROM Products 
 WHERE UnitPrice > ANY 
 (SELECT UnitPrice FROM OrderDetails 
@@ -83,7 +78,7 @@ Use the [ALL](https://msdn.microsoft.com/library/ff195711\(v=office.15\)) predic
 
 Use the IN predicate to retrieve only those records in the main query for which some record in the subquery contains an equal value. The following example returns all products with a discount of 25 percent or more:
 
-``` sql
+```sql
 SELECT * FROM Products 
 WHERE ProductID IN 
 (SELECT ProductID FROM OrderDetails 
@@ -96,7 +91,7 @@ Use the EXISTS predicate (with the optional NOT reserved word) in true/false com
 
 You can also use table name aliases in a subquery to refer to tables listed in a [FROM](https://msdn.microsoft.com/library/ff836674\(v=office.15\)) clause outside the subquery. The following example returns the names of employees whose salaries are equal to or greater than the average salary of all employees having the same job title. The Employees table is given the alias "T1":
 
-``` sql
+```sql
 SELECT LastName,
 FirstName, Title, Salary 
 FROM Employees AS T1 
@@ -115,6 +110,7 @@ This example lists the name and contact of every customer who placed an order in
 
 This example calls the EnumFields procedure, which you can find in the SELECT statement example.
 
+```vb
     Sub SubQueryX() 
      
         Dim dbs As Database, rst As Recordset 
@@ -145,4 +141,4 @@ This example calls the EnumFields procedure, which you can find in the SELECT st
         dbs.Close 
      
     End Sub
-
+```

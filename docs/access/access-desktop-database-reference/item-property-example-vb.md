@@ -17,7 +17,7 @@ This example demonstrates how the [Item](item-property-ado.md) property accesses
 
 The parameter in the command issued against the database is accessed from the [Command](command-object-ado.md) object's [Parameters](parameters-collection-ado.md) collection by index and name. The fields of the returned [Recordset](recordset-object-ado.md) are then accessed from that object's [Fields](fields-collection-ado.md) collection by index and name.
 
-``` 
+```vb 
  
 'BeginItemVB 
  

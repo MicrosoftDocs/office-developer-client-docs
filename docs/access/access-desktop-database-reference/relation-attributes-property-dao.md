@@ -13,11 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 Sets or returns a value that indicates one or more characteristics of a **Relation** object. Read/write **Long**.
 
 ## Syntax
@@ -34,7 +29,7 @@ For an object not yet appended to a collection, this property is read/write.
 
 This example displays the **Attributes** property for **Field**, **Relation**, and **TableDef** objects in the Northwind database.
 
-``` 
+```vb 
 Sub AttributesX() 
  
  Dim dbsNorthwind As Database 

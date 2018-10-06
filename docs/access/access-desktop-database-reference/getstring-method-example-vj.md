@@ -17,7 +17,7 @@ This example demonstrates the [GetString](getstring-method-ado.md) method.
 
 Assume you are debugging a data access problem and want a quick, simple way of printing the current contents of a small [Recordset](recordset-object-ado.md).
 
-``` 
+```java 
  
 // BeginGetStringJ 
 // The WFC class includes the ADO objects. 

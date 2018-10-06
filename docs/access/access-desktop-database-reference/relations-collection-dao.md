@@ -31,6 +31,7 @@ To refer to a **Relation** object in a collection by its ordinal number or by it
 
 This example shows how an existing **Relation** object can control data entry. The procedure attempts to add a record with a deliberately incorrect CategoryID; this triggers the error-handling routine.
 
+```vb
     Sub RelationX() 
      
      Dim dbsNorthwind As Database 
@@ -85,9 +86,13 @@ This example shows how an existing **Relation** object can control data entry. T
      Resume Next 
      
     End Sub 
+```
+
+<br/>
 
 This example uses the **CreateRelation** method to create a **Relation** between the Employees **TableDef** and a new **TableDef** called Departments. This example also demonstrates how creating a new **Relation** will also create any necessary **Indexes** in the foreign table (the DepartmentsEmployees Index in the Employees table).
 
+```vb
     Sub CreateRelationX() 
      
      Dim dbsNorthwind As Database 
@@ -170,4 +175,4 @@ This example uses the **CreateRelation** method to create a **Relation** between
      End With 
      
     End Sub
-
+```

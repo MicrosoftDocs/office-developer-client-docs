@@ -13,11 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 Updates the data in a **[Recordset](recordset-object-dao.md)** object by re-executing the query on which the object is based.
 
 ## Syntax
@@ -74,6 +69,7 @@ If both the **[BOF](recordset-bof-property-dao.md)** and **[EOF](recordset-eof-p
 
 This example shows how the **Requery** method can be used to refresh a query after underlying data has been changed.
 
+```vb
     Sub RequeryX() 
      
      Dim dbsNorthwind As Database 
@@ -125,10 +121,13 @@ This example shows how the **Requery** method can be used to refresh a query aft
      dbsNorthwind.Close 
      
     End Sub 
+```
+
+<br/>
 
 This example shows how the **Requery** method can be used to refresh a query after the query parameters have been changed.
 
-``` 
+```vb 
 Sub RequeryX2() 
  
  Dim dbsNorthwind As Database 

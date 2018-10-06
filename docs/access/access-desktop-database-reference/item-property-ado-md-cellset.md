@@ -10,13 +10,7 @@ mtps_version: v=office.15
 
 # Item Property (ADO MD Cellset)
 
-
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Syntax  
-Parameters  
-Remarks  
 
 Retrieves a cell from a cellset using its coordinates.
 
@@ -26,15 +20,15 @@ Set*Cell* = *Cellset*.Item (*Positions*)
 
 ## Parameters
 
-  - *Positions*
+- *Positions*
 
-  - A **Variant** **Array** of values that uniquely specify a cell. *Positions* can be one of the following:
+- A **Variant** **Array** of values that uniquely specify a cell. *Positions* can be one of the following:
     
-      - An array of position numbers
+  - An array of position numbers
     
-      - An array of member names
+  - An array of member names
     
-      - The ordinal position
+  - The ordinal position
 
 ## Remarks
 
@@ -42,8 +36,10 @@ Use the **Item** property to return a [Cell](cell-object-ado-md.md) object withi
 
 The **Item** property is the default property for the **Cellset** object. The following syntax forms are interchangeable:
 
+```vb
     Cellset.Item ( Positions )
     Cellset ( Positions )
+```
 
 The *Positions* argument specifies which cell to return. You can specify the cell by ordinal position or by the position along each axis. When specifying the cell by position along each axis, you can specify the numeric value of the position or the names of the members for each position.
 
@@ -53,6 +49,6 @@ If member names are passed as strings to **Item**, the members must be listed in
 
 
 > [!NOTE]
-> <P>Retrieving cells by member name may not be supported by your data provider. See the documentation for your provider for more information.</P>
+> Retrieving cells by member name may not be supported by your data provider. See the documentation for your provider for more information.
 
 

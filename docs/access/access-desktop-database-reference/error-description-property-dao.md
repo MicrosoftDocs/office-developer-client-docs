@@ -16,11 +16,7 @@ f1_categories:
 
 
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Syntax  
-Remarks  
-Example  
+ 
 
 Returns a descriptive string associated with an error. This is the default property for the **Error** object.
 
@@ -38,7 +34,7 @@ The **Description** property comprises a short description of the error. Use thi
 
 This example forces an error, traps it, and displays the **Description**, **Number**, **Source**, **HelpContext**, and **HelpFile** properties of the resulting Error object.
 
-``` 
+```vb 
 Sub DescriptionX() 
  
  Dim dbsTest As Database 

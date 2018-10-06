@@ -21,7 +21,7 @@ For example, you know that each row of the **Recordset** is saved as the z:row e
 
 The following XSLT script can be applied to the XML shown in the previous section to transform it into an HTML table to be displayed in the browser:
 
-``` 
+```xml 
  
 <?xml version="1.0" encoding="ISO-8859-1"?> 
 <html xmlns:xsl="https://www.w3.org/TR/WD-xsl"> 

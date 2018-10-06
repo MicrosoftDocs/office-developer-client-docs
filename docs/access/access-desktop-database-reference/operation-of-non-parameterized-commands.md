@@ -17,7 +17,7 @@ For non-parameterized commands, all of the provider commands are executed and th
 
 For example, the *parent-command* could return a **Recordset** of customers for a company from a Customers table, and the *child-command* could return a **Recordset** of orders for all customers from an Orders table.
 
-``` 
+```vb 
  
 SHAPE {SELECT * FROM Customers} 
  APPEND ({SELECT * FROM Orders} AS chapOrders 

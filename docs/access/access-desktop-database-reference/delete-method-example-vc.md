@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example uses the [Delete](delete-method-ado-recordset.md) method to remove a specified record from a [Recordset](recordset-object-ado.md).
 
-``` 
+```cpp 
  
 // BeginDeleteCpp 
 #import "C:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 

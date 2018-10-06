@@ -17,7 +17,7 @@ This is a schematic description of how to instantiate ADO events in Microsoft Vi
 
 Create classes derived from the **ConnectionEventsVt** and **RecordsetEventsVt** interfaces found in the file adoint.h.
 
-``` 
+```cpp 
  
 // BeginEventExampleVC01 
 class CConnEvent : public ConnectionEventsVt 
@@ -45,7 +45,7 @@ class CRstEvent : public RecordsetEventsVt
 
 Implement each of the event-handler methods in both classes. It is sufficient that each method merely return an HRESULT of S\_OK. However, when you make it known that your event handlers are available, they will be called continuously by default. Instead, you might want to request no further notification after the first time by setting **adStatus** to **adStatusUnwantedEvent**.
 
-``` 
+```cpp 
  
 // BeginEventExampleVC02 
 STDMETHODIMP CConnEvent::ConnectComplete( 
@@ -66,7 +66,7 @@ Make it known that your event handlers are available by issuing **QueryInterface
 
 For example, assume you are using a Boolean function that returns **True** if it successfully informs a **Recordset** object that you have event handlers available.
 
-``` 
+```cpp 
  
 // BeginEventExampleVC03 
 HRESULT hr; 
@@ -98,7 +98,7 @@ At this point, events for the **RecordsetEvent** family are enabled and your met
 
 Later, when you want to make your event handlers unavailable, get the connection point again and issue the **IConnectionPoint::Unadvise** method.
 
-``` 
+```cpp 
  
 // BeginEventExampleVC04 
 ... 
@@ -113,7 +113,7 @@ You must release interfaces and destroy class objects as appropriate.
 
 The following code shows a complete example of a **Recordset** Event sink class.
 
-``` 
+```vb 
  
 // BeginEventExampleVC05 
 #include <adoint.h> 

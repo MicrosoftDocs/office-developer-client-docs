@@ -12,11 +12,7 @@ mtps_version: v=office.15
 
 
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Syntax  
-Remarks  
-Example  
+ 
 
 Creates a new record for an updatable **Recordset2** object.
 
@@ -64,6 +60,7 @@ The record that was current before you used **AddNew** remains current. If you w
 
 This example uses the **AddNew** method to create a new record with the specified name. The AddName function is required for this procedure to run.
 
+```vb
     Sub AddNewX() 
      
      Dim dbsNorthwind As Database 
@@ -121,4 +118,4 @@ This example uses the **AddNew** method to create a new record with the specifie
      End With 
      
     End Function
-
+```

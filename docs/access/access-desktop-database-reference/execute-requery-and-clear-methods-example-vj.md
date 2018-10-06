@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example demonstrates the **Execute** method when run from both a [Command](command-object-ado.md) object and a [Connection](connection-object-ado.md) object. It also uses the [Requery](requery-method-ado.md) method to retrieve current data in a recordset, and the [Clear](clear-method-ado.md) method to clear the contents of the [Errors](errors-collection-ado.md) collection. The ExecuteCommand and PrintOutput procedures are required for this procedure to run.
 
-``` 
+```java 
  
 // BeginExecuteJ 
 // The WFC class includes the ADO objects. 

@@ -23,7 +23,7 @@ Like ADTG format, **Recordset** persistence in XML format is implemented with th
 
 The easiest way to persist data into XML and load it back again through ADO is with the **Save** and **Open** methods, respectively. The following ADO code example demonstrates saving the data in the Titles table to a file named titles.sav.
 
-``` 
+```vb 
  
 Dim rs as new Recordset 
 Dim rs2 as new Recordset 
@@ -54,7 +54,7 @@ rs2.open s
 
 ADO always persists the entire **Recordset** object. If you wish to only persist a subset of rows of the **Recordset** object, use the **Filter** method to narrow down the rows or change your selection clause. However, you must open a **Recordset** object with a client-side cursor (**CursorLocation** = **adUseClient**) to use the **Filter** method for saving a subset of rows. For example, to retrieve titles that start with the letter "b," you can apply a filter to an open **Recordset** object:
 
-``` 
+```vb 
  
 rs.Filter "title_id like 'B*'" 
 rs.Save "btitles.sav", adPersistXML 

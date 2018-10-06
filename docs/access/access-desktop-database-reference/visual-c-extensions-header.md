@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 The following header, **icrsint.h**, details the interface that allow clients to retrieve fields from a **Recordset** into variables defined in a class derived from **CADORecordBinding**. You must specify an ADO binding macro for each field you intend to access.
 
-``` 
+```cpp 
  
 #ifndef _ICRSINT_H_ 
 #define _ICRSINT_H_ 

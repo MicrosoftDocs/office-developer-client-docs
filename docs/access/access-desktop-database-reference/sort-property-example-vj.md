@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example uses the [Recordset](recordset-object-ado.md) object's [Sort](sort-property-ado.md) property to reorder the rows of a **Recordset** derived from the ***Authors*** table of the ***Pubs*** database. A secondary utility routine prints each row.
 
-``` 
+```java 
  
 // BeginSortJ 
 import com.ms.wfc.data.*; 

@@ -17,11 +17,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 Indicates the number of seconds to wait before a timeout error occurs when a **[QueryDef](querydef-object-dao.md)** is executed on an ODBC database.
 
 ## Syntax
@@ -42,7 +37,7 @@ Setting the **ODBCTimeout** property of a **QueryDef** object overrides the valu
 
 This example uses the **ODBCTimeout** and **QueryTimeout** properties to show how the **QueryTimeout** setting on a **Database** object sets the default **ODBCTimeout** setting on any **QueryDef** objects created from the **Database** object.
 
-``` 
+```vb 
 Sub ODBCTimeoutX() 
  
  Dim dbsCurrent As Database 

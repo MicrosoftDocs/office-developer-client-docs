@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example uses the [MarshalOptions](marshaloptions-property-ado.md) property to specify what rows are sent back to the server — All Rows or only Modified Rows.
 
-``` 
+```vb 
  
 'BeginMarshalOptionsVB 
  

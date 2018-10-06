@@ -17,7 +17,7 @@ This example uses the [MoveFirst](movefirst-movelast-movenext-and-moveprevious-m
 
 Cut and paste the following code into Notepad or another text editor, and save it as **MoveFirstVBS.asp**. You can view the result in any browser.
 
-``` 
+```vb 
  
 <!-- BeginMoveFirstVBS --> 
 <%@ Language=VBScript %> 

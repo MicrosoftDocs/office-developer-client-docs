@@ -13,11 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 Creates a make-table query.
 
 ## Syntax
@@ -78,6 +73,7 @@ You can use make-table queries to archive records, make backup copies of your ta
 
 This example selects all records in the Employees table and copies them into a new table named Emp Backup.
 
+```vb
     Sub SelectIntoX() 
      
         Dim dbs As Database 
@@ -98,4 +94,4 @@ This example selects all records in the Employees table and copies them into a n
         dbs.Close 
      
     End Sub
-
+```

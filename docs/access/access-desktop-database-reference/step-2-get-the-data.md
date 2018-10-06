@@ -17,7 +17,7 @@ mtps_version: v=office.15
 
 In this step, you will write the code to open an ADO **Recordset** and prepare to send it to the client. Open the file XMLResponse.asp with a text editor, such as Windows Notepad, and insert the following code:
 
-``` 
+```vb 
  
 <%@ language="VBScript" %> 
  
@@ -44,5 +44,5 @@ Be sure to change the value of the Data Source parameter in parameter in strCon 
 
 Keep the file open and go on to the next step.
 
-**Next**[Step 3: Send the Data](step-3-send-the-data.md)
+**Next** [Step 3: Send the Data](step-3-send-the-data.md)
 

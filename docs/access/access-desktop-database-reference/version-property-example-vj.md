@@ -27,7 +27,7 @@ This example uses the [Version](version-property-ado.md) property of a [Connecti
 
 <!-- end list -->
 
-``` 
+```java 
  
 // BeginVersionJ 
 import com.ms.wfc.data.*; 

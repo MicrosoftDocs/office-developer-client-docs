@@ -16,11 +16,7 @@ f1_categories:
 
 
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Syntax  
-Remarks  
-Example  
+ 
 
 Updates the connection information for a linked table (Microsoft Access workspaces only).
 

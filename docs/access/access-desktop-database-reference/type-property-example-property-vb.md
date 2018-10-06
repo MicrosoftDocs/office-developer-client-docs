@@ -17,7 +17,7 @@ This example demonstrates the [Type](type-property-ado.md) property. It is a mod
 
 We do not need to open the [Recordset](recordset-object-ado.md) to access its **Properties** collection; they come into existence when the **Recordset** object is instantiated. However, setting the [CursorLocation](cursorlocation-property-ado.md) property to **adUseClient** adds several dynamic properties to the **Recordset** object's **Properties** collection, making the example a little more interesting. For sake of illustration, we explicitly use the [Item](item-property-ado.md) property to access each [Property](property-object-ado.md) object.
 
-``` 
+```vb 
  
 'BeginTypePropertyVB 
 Public Sub Main() 

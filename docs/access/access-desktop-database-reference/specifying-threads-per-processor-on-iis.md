@@ -19,7 +19,7 @@ The method used to determine and change the default value for this setting depen
 
 With MDAC 2.1.2.4202.3 (GA) or later installed on the IIS server, RDS uses the same Component Services (or Microsoft Transaction Services, if you are using Windows NT) thread pool as ASP scripts use. The default value for the number of threads per processor is 10. To change the default, you must add the following key to the server registry:
 
-``` 
+```vb 
  
 HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\InetInfo\Parameters\MaxPoolThreads
 ```
@@ -28,7 +28,7 @@ where *MaxPoolThreads* is a REG\_DWORD. *MaxPoolThreads* does not appear in the 
 
 Alternatively, if MDAC 2.1 2.1.1.3711.11 (GA) or earlier is installed on the IIS server, the default value for the number of threads per processor is 6. To change the default, you must add the following key to the registry on the IIS server:
 
-``` 
+```vb 
  
 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\W3SVC\Parameters\ADCThreads
 ```

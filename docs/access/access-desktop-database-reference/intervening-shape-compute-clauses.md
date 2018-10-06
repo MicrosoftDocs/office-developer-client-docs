@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 It is valid to embed one or more COMPUTE clauses between the parent and child in a parameterized shape command, as in the following example:
 
-``` 
+```vb 
  
 SHAPE {select au_lname, state from authors} APPEND 
  ((SHAPE 

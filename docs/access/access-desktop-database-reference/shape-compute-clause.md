@@ -10,19 +10,13 @@ mtps_version: v=office.15
 
 # Shape Compute Clause
 
-
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Syntax  
-Description  
-Operation  
 
 A shape COMPUTE clause generates a parent **Recordset**, whose columns consist of a reference to the child **Recordset**; optional columns whose contents are chapter, new, or calculated columns, or the result of executing aggregate functions on the child **Recordset** or a previously shaped **Recordset**; and any columns from the child **Recordset** listed in the optional BY clause.
 
 ## Syntax
 
-``` 
+```vb 
  
 SHAPE child-command [AS] child-alias 
    COMPUTE child-alias [[AS] name], [appended-column-list] 
@@ -33,27 +27,27 @@ SHAPE child-command [AS] child-alias
 
 The parts of this clause are as follows:
 
-  - *child-command*
+- *child-command*
 
   - Consists of one of the following:
     
-      - A query command within curly braces ("{}") that returns a child **Recordset** object. The command is issued to the underlying data provider, and its syntax depends on the requirements of that provider. This will typically be the SQL language, although ADO does not require any particular query language.
+    - A query command within curly braces ("{}") that returns a child **Recordset** object. The command is issued to the underlying data provider, and its syntax depends on the requirements of that provider. This will typically be the SQL language, although ADO does not require any particular query language.
     
-      - The name of an existing shaped **Recordset**.
+    - The name of an existing shaped **Recordset**.
     
-      - Another shape command.
+    - Another shape command.
     
-      - The TABLE keyword, followed by the name of a table in the data provider.
+    - The TABLE keyword, followed by the name of a table in the data provider.
 
-  - *child-alias*
+- *child-alias*
 
   - An alias used to refer to the **Recordset** returned by the *child-command.* The *child-alias* is required in the list of columns in the COMPUTE clause and defines the relation between the parent and child **Recordset** objects.
 
-  - *appended-column-list*
+- *appended-column-list*
 
   - A list in which each element defines a column in the generated parent. Each element contains either a chapter column, a new column, a calculated column, or a value resulting from an aggregate function on the child **Recordset**.
 
-  - *grp-field-list*
+- *grp-field-list*
 
   - A list of columns in the parent and child **Recordset** objects that specifies how rows should be grouped in the child. For each column in the *grp-field-list,* there is a corresponding column in the child and parent **Recordset** objects. For each row in the parent **Recordset**, the *grp-field-list* columns have unique values, and the child **Recordset** referenced by the parent row consists solely of child rows whose *grp-field-list* columns have the same values as the parent row.
 
@@ -63,8 +57,10 @@ If the BY clause is omitted, the entire child **Recordset** is treated as a sing
 
 For example:
 
+```vb
     SHAPE {select * from Orders} AS orders
        COMPUTE orders, SUM(orders.OrderAmount) as TotalSales
+```
 
 Regardless of which way the parent **Recordset** is formed (using COMPUTE or using APPEND), it will contain a chapter column that is used to relate it to a child **Recordset**. If you wish, the parent **Recordset** may also contain columns that contain aggregates (SUM, MIN, MAX, and so on) over the child rows. Both the parent and the child **Recordset** may contain columns that contain an expression on the row in the **Recordset**, as well as columns that are new and initially empty.
 
@@ -131,7 +127,7 @@ For example, assume you have a table — Demographics — consisting of State, C
 
 Now, issue this shape command:
 
-``` 
+```vb 
  
 rst.Open  "SHAPE {select * from demographics} AS rs "  & _ 
           "COMPUTE rs, SUM(rs.population) BY state", _ 

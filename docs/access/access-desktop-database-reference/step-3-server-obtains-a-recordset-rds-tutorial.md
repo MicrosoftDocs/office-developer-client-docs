@@ -17,7 +17,7 @@ The server program uses the connect string and command text to query the data so
 
 A custom server program might look like this:
 
-``` 
+```vb 
  
 Public Function ServerProgram(cn as String, qry as String) as Object 
 Dim rs as New ADODB.Recordset 

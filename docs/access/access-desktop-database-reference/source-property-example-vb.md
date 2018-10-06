@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example demonstrates the [Source](source-property-ado-recordset.md) property by opening three [Recordset](recordset-object-ado.md) objects based on different data sources.
 
-``` 
+```vb 
  
 'BeginSourceVB 
  

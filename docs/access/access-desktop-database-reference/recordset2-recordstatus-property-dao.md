@@ -13,11 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 ## Syntax
 
 *expression* .RecordStatus
@@ -34,7 +29,7 @@ When a user changes a record, the **RecordStatus** for that record automatically
 
 This example uses the **RecordStatus** and **DefaultCursorDriver** properties to show how changes to a local **Recordset** are tracked during batch updating. The RecordStatusOutput function is required for this procedure to run.
 
-``` 
+```vb 
 Sub RecordStatusX() 
  
  Dim wrkMain As Workspace 

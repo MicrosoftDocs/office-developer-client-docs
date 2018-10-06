@@ -13,11 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 Sets or returns the relative position of a **[Field](field-object-dao.md)** object within a **[Fields](fields-collection-dao.md)** collection. .
 
 ## Syntax
@@ -90,6 +85,7 @@ You can specify a number that is greater than the number of fields minus 1. The 
 
 This example changes the **OrdinalPosition** property values in the Employees **TableDef** in order to control the **Field** order in a resulting **Recordset**. By setting the **OrdinalPosition** of all the **Fields** to 1, any resulting **Recordset** will order the **Fields** alphabetically. Note that the **OrdinalPosition** values in the **Recordset** don't match the values in the **TableDef**, but simply reflect the end result of the **TableDef** changes.
 
+```vb
     Sub OrdinalPositionX() 
      
      Dim dbsNorthwind As Database 
@@ -145,4 +141,4 @@ This example changes the **OrdinalPosition** property values in the Employees **
      dbsNorthwind.Close 
      
     End Sub
-
+```

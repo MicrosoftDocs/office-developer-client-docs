@@ -13,12 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Connection String Parameters  
-Typical Connection String  
-Command Text  
-Recordset Behavior  
-
 The Microsoft OLE DB Provider for Microsoft Indexing Service provides programmatic read-only access to file system and Web data indexed by Microsoft Indexing Service. ADO applications can issue SQL queries to retrieve content and file property information.
 
 The provider is free-threaded and unicode enabled.
@@ -27,7 +21,7 @@ The provider is free-threaded and unicode enabled.
 
 To connect to this provider, set the **Provider=** argument to the [ConnectionString](connectionstring-property-ado.md) property to:
 
-``` 
+```vb 
  
 MSIDXS 
 ```
@@ -38,7 +32,7 @@ Reading the [Provider](provider-property-ado.md) property will return this strin
 
 A typical connection string for this provider is:
 
-``` 
+```vb 
  
 "Provider=MSIDXS;Data Source=myCatalog;Locale Identifier=nnnn;" 
 ```
@@ -273,5 +267,7 @@ Availability of standard ADO **Recordset** methods:
 </table>
 
 
-**See Also**For specific implementation details and functional information about the Microsoft OLE DB Provider for Microsoft Indexing Service, consult the Microsoft OLE DB Programmer's Reference.
+## See also
+
+For specific implementation details and functional information about the Microsoft OLE DB Provider for Microsoft Indexing Service, consult the Microsoft OLE DB Programmer's Reference.
 

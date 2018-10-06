@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example uses the [Filter](filter-property-ado.md) property to open a new [Recordset](recordset-object-ado.md) based on a specified condition applied to an existing **Recordset**. It uses the [RecordCount](recordcount-property-ado.md) property to show the number of records in the two **Recordsets**. The FilterField function is required for this procedure to run.
 
-``` 
+```cpp 
  
 // BeginFilterCpp 
 #import "C:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 
@@ -316,7 +316,7 @@ void PrintComError(_com_error &e)
 
 **FilterX.h**
 
-``` 
+```cpp 
  
 // BeginFilterH 
 #include "icrsint.h" 

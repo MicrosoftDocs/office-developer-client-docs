@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example demonstrates how to copy, move, edit, and delete the contents of a text file published to a Web folder. Other properties and methods used include [GetChildren](getchildren-method-ado.md), [ParentURL](parenturl-property-ado.md), [Source](source-property-ado-record.md), and [Flush](flush-method-ado.md).
 
-``` 
+```vb 
  
 'BeginDeleteRecordVB 
  

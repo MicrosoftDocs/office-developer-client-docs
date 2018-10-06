@@ -13,10 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Return Value  
-Parameters  
 
 Returns the permissions for a group or user on an object or object container.
 

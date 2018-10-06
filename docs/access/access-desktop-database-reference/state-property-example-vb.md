@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example uses the [State](state-property-ado.md) property to display a message while asynchronous connections are opening and asynchronous commands are executing.
 
-``` 
+```vb 
  
 'BeginStateVB 
  

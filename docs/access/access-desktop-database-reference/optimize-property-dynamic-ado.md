@@ -29,6 +29,7 @@ To create an index on a field, set the **Optimize** property to **True**. To del
 
 **Usage**
 
+```vb
     Dim rs As New Recordset
     Dim fld As Field
     rs.CursorLocation = adUseClient      'Enable index creation
@@ -37,4 +38,4 @@ To create an index on a field, set the **Optimize** property to **True**. To del
     Set fld = rs.Fields(0)
     fld.Properties("Optimize") = True    'Create an index
     fld.Properties("Optimize") = False   'Delete an index
-
+```

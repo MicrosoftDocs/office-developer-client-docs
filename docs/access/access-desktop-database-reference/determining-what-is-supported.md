@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 The **Supports** method is used to determine whether a specified **Recordset** object supports a particular type of functionality. It has the following syntax:
 
-    boolean = recordset.Supports( CursorOptions )
+`boolean = recordset.Supports( CursorOptions )`
 
 **Supports** returns a Boolean value that indicates whether all of the features identified by the *CursorOptions* argument are supported by the provider. You can use the **Supports** method to determine what types of functionality a **Recordset** object supports. If the **Recordset** object supports the features whose corresponding constants are in *CursorOptions*, the **Supports** method returns **True**. Otherwise, it returns **False**.
 

@@ -17,11 +17,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 Sets or returns the name of the foreign table in a relationship (Microsoft Access workspaces only). .
 
 ## Syntax
@@ -44,6 +39,7 @@ In this case, the ValidParts table is the primary table, so the **Table** proper
 
 This example shows how the **Table**, **ForeignTable**, and **ForeignName** properties define the terms of a **Relation** between two tables.
 
+```vb 
     Sub ForeignNameX() 
      
      Dim dbsNorthwind As Database 
@@ -77,4 +73,4 @@ This example shows how the **Table**, **ForeignTable**, and **ForeignName** prop
      dbsNorthwind.Close 
      
     End Sub
-
+```

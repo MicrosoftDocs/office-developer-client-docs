@@ -17,11 +17,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 Indicates the name of a **[Relation](relation-object-dao.md)** object's primary table. This should be equal to the **[Name](connection-name-property-dao.md)** property setting of a **[TableDef](tabledef-object-dao.md)** or **[QueryDef](querydef-object-dao.md)** object (Microsoft Access workspaces only).
 
 ## Syntax
@@ -44,6 +39,7 @@ In this case, the ValidParts table is the primary table, so the **Table** proper
 
 This example shows how the **Table**, **ForeignTable**, and **ForeignName** properties define the terms of a **Relation** between two tables.
 
+```vb
     Sub ForeignNameX() 
      
      Dim dbsNorthwind As Database 
@@ -77,4 +73,4 @@ This example shows how the **Table**, **ForeignTable**, and **ForeignName** prop
      dbsNorthwind.Close 
      
     End Sub
-
+```

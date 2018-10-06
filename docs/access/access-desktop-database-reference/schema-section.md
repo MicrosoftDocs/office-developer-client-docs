@@ -10,20 +10,13 @@ mtps_version: v=office.15
 
 # Schema Section
 
-
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Schema Section  
-Creating Aliases for Column Names  
-Data Types  
-Handling Nulls  
 
 ## Schema Section
 
 The schema section is required. As the previous example shows, ADO writes out detailed metadata about each column to preserve the semantics of the data values as much as possible for updating. However, to load in the XML, ADO only requires the names of the columns and the rowset to which they belong. Here is an example of a minimal schema:
 
-``` 
+```xml 
  
 <xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882" 
     xmlns:rs="urn:schemas-microsoft-com:rowset" 
@@ -48,7 +41,7 @@ In the case above, ADO will treat the data as variable length strings because no
 
 The **rs:name** attribute allows you to create an alias for a column name so that a friendly name may appear in the column information exposed by the rowset and a shorter name may be used in the data section. For example, the schema above could be modified to map ShipperID to s1, CompanyName to s2, and Phone to s3 as follows:
 
-``` 
+```xml 
  
 <s:Schema id="RowsetSchema">  
 <s:ElementType name="row" content="eltOnly" rs:updatable="true">  
@@ -68,21 +61,21 @@ The **rs:name** attribute allows you to create an alias for a column name so tha
 
 Then, in the data section, the row would use the **name** attribute (not **rs:name**) to refer to that column:
 
-``` 
+```xml 
  
 "<row s1="1" s2="Speedy Express" s3="(503) 555-9831"/> 
 ```
 
 Creating aliases for column names is required whenever a column name is not a legal attribute or tag name in XML. For example, "Last Name" must have an alias because names with embedded spaces are illegal attributes. The following line won't be correctly handled by the XML parser, so you must create an alias to some other name that does not have an embedded space:
 
-``` 
+```xml 
  
 <row last name="Jones"/> 
 ```
 
 Whatever value you use for the **name** attribute must be used consistently in each place that the column is referenced in both the schema and data sections of the XML document. The following example shows the consistent use of s1:
 
-``` 
+```xml 
  
 <s:Schema id="RowsetSchema"> 
   <s:ElementType name="row" content="eltOnly"> 
@@ -108,7 +101,7 @@ Similarly, because there is no alias defined for CompanyName above, CompanyName 
 
 You can apply a data type to a column with the **dt:type** attribute. You can specify a data type in two ways: either specify the **dt:type** attribute directly on the column definition itself or use the **s:datatype** construct as a nested element of the column definition. For example,
 
-``` 
+```xml 
  
 <s:AttributeType name="Phone" > 
   <s:datatype dt:type="string"/> 
@@ -117,7 +110,7 @@ You can apply a data type to a column with the **dt:type** attribute. You can sp
 
 is equivalent to
 
-``` 
+```xml 
  
 <s:AttributeType name="Phone" dt:type="string"/> 
 ```
@@ -128,7 +121,7 @@ If you have more type information than simply the type name (for example, **dt:m
 
 The following examples show further how to include type information in your schema:
 
-``` 
+```xml 
  
 <!-- 1. String with no max length --> 
 <s:AttributeType name="title_id"/> 
@@ -155,7 +148,7 @@ There is a subtle use of the **rs:fixedlength** attribute in the second example.
 
 Null values are handled by the **rs:maybenull** attribute. If this attribute is set to true, the contents of the column may contain a null value. Furthermore, if the column is not found in a row of data, the user reading the data back from the rowset will get a null status from **IRowset::GetData()**. Consider the following column definitions from the Shippers table:
 
-``` 
+```xml 
  
 <s:AttributeType name="ShipperID"> 
   <s:datatype dt:type="int" dt:maxLength="4"/> 
@@ -167,21 +160,21 @@ Null values are handled by the **rs:maybenull** attribute. If this attribute is 
 
 The definition allows CompanyName to be null, but ShipperID cannot contain a null value. If the data section contained the following row, the Persistence Provider would set the status of the data for the CompanyName column to the OLE DB status constant DBSTATUS\_S\_ISNULL:
 
-``` 
+```xml 
  
 <z:row ShipperID="1"/> 
 ```
 
 If the row was entirely empty, as follows, the Persistence Provider would return an OLE DB status of DBSTATUS\_E\_UNAVAILABLE for ShipperID and DBSTATUS\_S\_ISNULL for CompanyName.
 
-``` 
+```xml 
  
 <z:row/>  
 ```
 
 Note that a zero-length string is not the same as null.
 
-``` 
+```xml 
  
 <z:row ShipperID="1" CompanyName=""/> 
 ```

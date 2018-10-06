@@ -13,11 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 Creates a new **[Database](database-object-dao.md)** object, saves the database to disk, and returns an opened **Database** object (Microsoft Access workspaces only).
 
 ## Syntax
@@ -231,6 +226,7 @@ Use the **CreateDatabase** method to create and open a new, empty database, and 
 
 This example uses **CreateDatabase** to create a new, encrypted **Database** object.
 
+```vb
     Sub CreateDatabaseX() 
      
        Dim wrkDefault As Workspace 
@@ -262,4 +258,4 @@ This example uses **CreateDatabase** to create a new, encrypted **Database** obj
        dbsNew.Close 
      
     End Sub
-
+```

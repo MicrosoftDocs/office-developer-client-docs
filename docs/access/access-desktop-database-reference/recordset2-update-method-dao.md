@@ -63,19 +63,12 @@ Use **Update** to save the current record and any changes you've made to it.
 
 
 > [!IMPORTANT]
-> <P>Changes to the current record are lost if:</P>
-
-
-
-  - You use the **Edit** or **AddNew** method, and then move to another record without first using **Update**.
-
-  - You use **Edit** or **AddNew**, and then use **Edit** or **AddNew** again without first using **Update**.
-
-  - You set the **[Bookmark](recordset2-bookmark-property-dao.md)** property to another record.
-
-  - You close the **Recordset** without first using **Update**.
-
-  - You cancel the **Edit** operation by using **[CancelUpdate](recordset2-cancelupdate-method-dao.md)**.
+> Changes to the current record are lost if:
+> - You use the **Edit** or **AddNew** method, and then move to another record without first using **Update**.
+> - You use **Edit** or **AddNew**, and then use **Edit** or **AddNew** again without first using **Update**.
+> - You set the **[Bookmark](recordset2-bookmark-property-dao.md)** property to another record.
+> - You close the **Recordset** without first using **Update**.
+> - You cancel the **Edit** operation by using **[CancelUpdate](recordset2-cancelupdate-method-dao.md)**.
 
 To edit a record, use the **Edit** method to copy the contents of the current record to the copy buffer. If you don't use **Edit** first, an error occurs when you use **Update** or attempt to change a field's value.
 
@@ -85,6 +78,6 @@ In a Microsoft Access workspace, when the **Recordset** object's **LockEdits** p
 
 
 > [!NOTE]
-> <P>To add, edit, or delete a record, there must be a unique index on the record in the underlying data source. If not, a "Permission denied" error will occur on the <STRONG>AddNew</STRONG>, <STRONG>Delete</STRONG>, or <STRONG>Edit</STRONG> method call in a Microsoft Access workspace, or an "Invalid argument" error will occur on the <STRONG>Update</STRONG> call in an ODBCDirect workspace.</P>
+> To add, edit, or delete a record, there must be a unique index on the record in the underlying data source. If not, a "Permission denied" error will occur on the **AddNew**, **Delete**, or **Edit** method call in a Microsoft Access workspace, or an "Invalid argument" error will occur on the **Update** call in an ODBCDirect workspace.
 
 

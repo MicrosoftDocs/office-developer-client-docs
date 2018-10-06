@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 The following code demonstrates how to create a new index. The index is on two columns in the table.
 
-``` 
+```cpp 
  
 // BeginCreateIndexCpp 
 #import "c:\Program Files\Common Files\system\ado\msadox.dll" no_namespace 

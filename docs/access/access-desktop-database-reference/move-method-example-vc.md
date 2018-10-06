@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example uses the [Move](move-method-ado.md) method to position the record pointer based on user input.
 
-``` 
+```cpp 
  
 // BeginMoveCpp 
 #import "C:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 

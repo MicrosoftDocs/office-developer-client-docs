@@ -13,11 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 ## Syntax
 
 *expression* .BatchCollisionCount
@@ -36,7 +31,7 @@ After the collision records are corrected, a batch-mode **Update** method can be
 
 This example uses the **BatchCollisionCount** property and the **Update** method to demonstrate batch updating where any collisions are resolved by forcing the batch update.
 
-``` 
+```vb 
 Sub BatchX() 
  
  Dim wrkMain As Workspace 

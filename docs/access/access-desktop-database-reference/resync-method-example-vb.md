@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example demonstrates using the [Resync](resync-method-ado.md) method to refresh data in a static recordset.
 
-``` 
+```vb 
  
 'BeginResyncVB 
  

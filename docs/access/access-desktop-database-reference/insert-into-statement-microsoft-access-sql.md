@@ -14,14 +14,7 @@ f1_categories:
 
 # INSERT INTO Statement (Microsoft Access SQL)
 
-
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Syntax  
-Remarks  
-Example  
-About the Contributors  
 
 Adds a record or multiple records to a table. This is referred to as an append query.
 
@@ -101,7 +94,7 @@ An append query copies records from one or more tables to another. The tables th
 
 Instead of appending existing records from another table, you can specify the value for each field in a single new record using the VALUES clause. If you omit the field list, the VALUES clause must include a value for every field in the table; otherwise, the INSERT operation will fail. Use an additional INSERT INTO statement with a VALUES clause for each additional record you want to create.
 
-**Link provided by** the [UtterAccess](https://www.utteraccess.com) community. UtterAccess is the premier Microsoft Access wiki and help forum.
+**Links provided by** the [UtterAccess](https://www.utteraccess.com) community. UtterAccess is the premier Microsoft Access wiki and help forum.
 
   - [Generating sequential numbers for INSERT/UPDATE statements](https://www.utteraccess.com/forum/generating-sequential-num-t446039.html)
 
@@ -111,7 +104,7 @@ Instead of appending existing records from another table, you can specify the va
 
 This example selects all records in a hypothetical New Customers table and adds them to the Customers table. When individual columns are not designated, the SELECT table column names must match exactly those in the INSERT INTO table.
 
-```sql
+```vb
     Sub InsertIntoX1() 
      
         Dim dbs As Database 
@@ -133,7 +126,7 @@ This example selects all records in a hypothetical New Customers table and adds 
 
 This example creates a new record in the Employees table.
 
-```sql
+```vb
     Sub InsertIntoX2() 
      
         Dim dbs As Database 

@@ -23,6 +23,7 @@ When you install the Microsoft® Excel driver, the Setup program writes a set of
 
 The **Access Connectivity Engine\\Engines\\Excel** folder includes initialization settings for the Aceexcl.dll driver, used for external access to Microsoft Excel worksheets. Typical settings for the entries in this folder are shown in the following example.
 
+```vb
     win32=<path>\ Aceexcl.dll  
     
     TypeGuessRows=8 
@@ -32,6 +33,7 @@ The **Access Connectivity Engine\\Engines\\Excel** folder includes initializatio
     AppendBlankRows=1 
     
     FirstRowHasNames=Yes
+```
 
 The Microsoft Access database engine uses the Excel folder entries as follows.
 
@@ -138,6 +140,6 @@ The **Access Connectivity Engine\\Engines\\Excel 8.0** folder contains the follo
 
 
 > [!NOTE]
-> <P>When you change Windows Registry settings, you must exit and then restart the database engine for the new settings to take effect.</P>
+> When you change Windows Registry settings, you must exit and then restart the database engine for the new settings to take effect.
 
 

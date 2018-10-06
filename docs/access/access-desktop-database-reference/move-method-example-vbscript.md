@@ -21,7 +21,7 @@ Use **Find** to locate the file Adovbs.inc and place it in the directory you pla
 
 Try entering a letter or noninteger to see the error handling work.
 
-``` 
+```vb 
  
 <!-- BeginMoveVBS --> 
 <%@ Language=VBScript %> 

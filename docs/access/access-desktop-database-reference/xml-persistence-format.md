@@ -60,7 +60,7 @@ The schema shows the declarations of namespaces, the schema section, and the dat
 
 Schema definitions conform to the XML-Data specification and are able to be fully validated (though validation will not occur in Internet Explorer 5). You can view this specification at [W3C XMLData Note](https://www.w3.org/TR/1998/NOTE-XML-data-0105/). XML-Data is the only supported schema format for **Recordset** persistence currently.
 
-The data section has three rows containing information about shippers. For an empty rowset, the data section may be empty, but the \<rs:data\> tags must be present. With no data, you could write the tag shorthand as simply \<rs:data/\>. Any tag prefixed with "rs" indicates that it is in the namespace defined by urn:schemas-microsoft-com:rowset. The full definition of this schema is defined in the appendix to this document.
+The data section has three rows containing information about shippers. For an empty rowset, the data section may be empty, but the `<rs:data>` tags must be present. With no data, you could write the tag shorthand as simply `<rs:data>`. Any tag prefixed with "rs" indicates that it is in the namespace defined by urn:schemas-microsoft-com:rowset. The full definition of this schema is defined in the appendix to this document.
 
 ## XML Persistence Format
 
@@ -110,5 +110,5 @@ The schema shows the declarations of namespaces, the schema section, and the dat
 
 Schema definitions conform to the XML-Data specification and are able to be fully validated (though validation will not occur in Internet Explorer 5). You can view this specification at [W3C XMLData Note](https://www.w3.org/TR/1998/NOTE-XML-data-0105/). XML-Data is the only supported schema format for **Recordset** persistence currently.
 
-The data section has three rows containing information about shippers. For an empty rowset, the data section may be empty, but the \<rs:data\> tags must be present. With no data, you could write the tag shorthand as simply \<rs:data/\>. Any tag prefixed with "rs" indicates that it is in the namespace defined by urn:schemas-microsoft-com:rowset. The full definition of this schema is defined in the appendix to this document.
+The data section has three rows containing information about shippers. For an empty rowset, the data section may be empty, but the `<rs:data>` tags must be present. With no data, you could write the tag shorthand as simply `<rs:data>`. Any tag prefixed with "rs" indicates that it is in the namespace defined by urn:schemas-microsoft-com:rowset. The full definition of this schema is defined in the appendix to this document.
 

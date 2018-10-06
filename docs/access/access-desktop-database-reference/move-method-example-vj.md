@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example uses the [Move](move-method-ado.md) method to position the record pointer based on user input.
 
-``` 
+```java 
  
 // BeginMoveJ 
 import java.io.*; 

@@ -17,10 +17,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Setting  
-Remarks  
-Example  
 
 You can use the **RemoveAllTempVars** action to remove any temporary variables that you created by using the **SetTempVar** action.
 

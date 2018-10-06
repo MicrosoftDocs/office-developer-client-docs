@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example uses the [Status](status-property-ado-recordset.md) property to display which records have been modified in a batch operation before a batch update has occurred.
 
-``` 
+```cpp 
  
 // BeginStatusCpp 
 #import "c:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 
@@ -206,7 +206,7 @@ void PrintComError(_com_error &e)
 
 **StatusX.h**
 
-``` 
+```cpp 
  
 // BeginStatusH 
 #include "icrsint.h" 

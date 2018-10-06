@@ -13,14 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Describing a Field  
-Discovering the Data Type  
-Determining Field Size  
-Determining Field Contents  
-Getting More Field Information  
-Dealing with Binary Data  
-
 Each **Field** object usually corresponds to a column in a database table. However, a **Field** can also represent a pointer to another **Recordset**, called a chapter. Exceptions, such as chapter columns, will be covered later in this guide.
 
 Use the **Value** property of **Field** objects to set or return data for the current record. Depending on the functionality the provider exposes, some collections, methods, or properties of a **Field** object may not be available.
@@ -95,7 +87,7 @@ A dynamic **Property** object has four built-in properties of its own:
 
 The **Properties** collection for the **Field** object contains additional metadata about the field. The contents of this collection vary depending upon the provider. The following code example examines the **Properties** collection of the sample **Recordset** introduced at the beginning of this chapter. It first looks at the contents of the collection. This code uses the [OLE DB Provider for SQL Server](microsoft-ole-db-provider-for-sql-server.md), so the **Properties** collection contains information relevant to that provider.
 
-``` 
+```vb 
  
 'BeginFieldProps 
  Dim objProp As ADODB.Property 

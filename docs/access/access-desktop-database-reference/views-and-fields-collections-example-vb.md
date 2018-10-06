@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 The following code demonstrates how to use the [Command](command-property-adox.md) property and the [Recordset](recordset-object-ado.md) object to retrieve field information for the view.
 
-``` 
+```vb 
  
 ' BeginViewFieldsVB 
 Sub ViewFields() 

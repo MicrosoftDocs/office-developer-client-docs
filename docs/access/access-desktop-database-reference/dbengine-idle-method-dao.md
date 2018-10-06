@@ -17,10 +17,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
 
 Suspends data processing, enabling the Microsoft Access database engine to complete any pending tasks, such as memory optimization or page timeouts (Microsoft Access workspaces only).
 
@@ -78,7 +74,7 @@ You don't need to use this method in single-user environments unless multiple in
 
 This example uses the **Idle** method to ensure that an output procedure is accessing the most current data available from the database. The IdleOutput procedure is required for this procedure to run.
 
-``` 
+```vb 
 Sub IdleX() 
  
  Dim dbsNorthwind As Database 

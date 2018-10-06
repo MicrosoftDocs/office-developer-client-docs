@@ -17,11 +17,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 ## Syntax
 
 *expression* .NextRecordset
@@ -36,10 +31,12 @@ Boolean
 
 In an ODBCDirect workspace, you can open a **Recordset** containing more than one select query in the source argument of **OpenRecordset**, or the **[SQL](querydef-sql-property-dao.md)** property of a select query **[QueryDef](querydef-object-dao.md)** object, as in the following example.
 
+```sql
     SELECT LastName, FirstName FROM Authors 
     WHERE LastName = 'Smith'; 
     SELECT Title, ISBN FROM Titles 
     WHERE Pub_ID = 9999 
+```
 
 The returned **Recordset** will open with the results of the first query. To obtain the result sets of records from subsequent queries, use the **NextRecordset** method.
 
@@ -51,6 +48,7 @@ You can also use the **[Cancel](connection-cancel-method-dao.md)** method to flu
 
 This example uses the **NextRecordset** method to view the data from a compound SELECT query. The **DefaultCursorDriver** property must be set to **dbUseODBCCursor** when executing such queries. The **NextRecordset** method will return **True** even if some or all of the SELECT statements return zero records; it will return **False** only after all the individual SQL clauses have been checked.
 
+```vb
     Sub NextRecordsetX() 
      
      Dim wrkODBC As Workspace 
@@ -101,10 +99,13 @@ This example uses the **NextRecordset** method to view the data from a compound 
      wrkODBC.Close 
      
     End Sub 
+```
+
+<br/>
 
 Another way to accomplish the same task would be to create a prepared statement containing the compound SQL statement. The **CacheSize** property of the **QueryDef** object must be set to 1, and the **Recordset** object must be forward-only and read-only.
 
-``` 
+```vb 
 Sub NextRecordsetX2() 
  
  Dim wrkODBC As Workspace 

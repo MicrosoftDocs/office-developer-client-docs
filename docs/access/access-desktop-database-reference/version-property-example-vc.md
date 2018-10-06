@@ -27,7 +27,7 @@ This example uses the [Version](version-property-ado.md) property of a [Connecti
 
 <!-- end list -->
 
-``` 
+```cpp 
  
 // BeginVersionCpp 
 #import "c:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 

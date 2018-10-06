@@ -37,6 +37,7 @@ After you create a new **Index** object, you should use the **Append** method to
 
 This example creates a new **Index** object, appends it to the **Indexes** collection of the Employees **TableDef**, and then enumerates the **Indexes** collection of the **TableDef**. Finally, it enumerates a **Recordset**, first using the primary **Index**, and then using the new **Index**. The IndexOutput procedure is required for this procedure to run.
 
+```vb
     Sub IndexObjectX() 
      
      Dim dbsNorthwind As Database 
@@ -113,9 +114,13 @@ This example creates a new **Index** object, appends it to the **Indexes** colle
      End With 
      
     End Sub 
+```
+
+<br/>
 
 This example uses the **CreateIndex** method to create two new **Index** objects and then appends them to the **Indexes** collection of the Employees **TableDef** object. It then enumerates the **Indexes** collection of the **TableDef** object, the **Fields** collection of the new **Index** objects, and the Properties collection of the new **Index** objects. The CreateIndexOutput function is required for this procedure to run.
 
+```vb
     Sub CreateIndexX() 
      
      Dim dbsNorthwind As Database 
@@ -199,4 +204,4 @@ This example uses the **CreateIndex** method to create two new **Index** objects
      End With 
      
     End Function
-
+```

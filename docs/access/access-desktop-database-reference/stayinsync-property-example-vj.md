@@ -17,7 +17,7 @@ This example demonstrates how the [StayInSync](stayinsync-property-ado.md) prope
 
 The outer loop displays each author's first and last name, state, and identification. The appended **Recordset** for each row is retrieved from the [Fields](fields-collection-ado.md) collection and automatically assigned to **rstTitleAuthor** by the **StayInSync** property whenever the parent **Recordset** moves to a new row. The inner loop displays four fields from each row in the appended recordset.
 
-``` 
+```java 
  
 // BeginStayInSyncJ 
 import com.ms.wfc.data.*; 

@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example demonstrates the [OriginalValue](originalvalue-property-ado.md) and [UnderlyingValue](underlyingvalue-property-ado.md) properties by displaying a message if a record's underlying data has changed during a [Recordset](recordset-object-ado.md) batch update.
 
-``` 
+```cpp 
  
 // BeginOriginalValueCpp 
 #import "c:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 

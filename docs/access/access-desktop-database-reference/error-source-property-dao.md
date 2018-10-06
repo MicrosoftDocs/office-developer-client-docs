@@ -17,10 +17,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
 
 Returns the name of the object or application that originally generated the error.
 
@@ -48,6 +44,7 @@ Based on all of the error documentation, you can write code that will handle the
 
 This example forces an error, traps it, and displays the **Description**, **Number**, **Source**, **HelpContext**, and **HelpFile** properties of the resulting **Error** object.
 
+```vb
     Sub DescriptionX() 
      
      Dim dbsTest As Database 
@@ -84,4 +81,4 @@ This example forces an error, traps it, and displays the **Description**, **Numb
      Resume Next 
      
     End Sub
-
+```

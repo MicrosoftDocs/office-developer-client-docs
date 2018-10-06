@@ -17,10 +17,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
 
 Creates a new **[Workspace](workspace-object-dao.md)** object.
 
@@ -106,7 +102,7 @@ To remove a **Workspace** object from the **Workspaces** collection, close all o
 
 This example uses the **CreateWorkspace** method to createMicrosoft Access workspace. It then lists the properties of the workspace.
 
-``` 
+```vb 
 Sub CreateWorkspaceX() 
  
    Dim wrkAcc As Workspace 

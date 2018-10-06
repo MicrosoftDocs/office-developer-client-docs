@@ -19,7 +19,7 @@ Represents a database table including columns, indexes, and keys.
 
 The following code creates a new **Table**:
 
-    Dim obj As New Table
+`Dim obj As New Table`
 
 With the properties and collections of a **Table** object, you can:
 

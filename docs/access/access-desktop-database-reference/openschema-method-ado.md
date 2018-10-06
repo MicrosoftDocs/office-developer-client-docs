@@ -13,11 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Return Values  
-Parameters  
-Remarks  
 
 Obtains database schema information from the provider .
 

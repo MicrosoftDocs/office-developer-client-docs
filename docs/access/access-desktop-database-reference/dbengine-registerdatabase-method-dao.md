@@ -17,10 +17,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
 
 Enters connection information for an ODBC data source in the Windows Registry. The ODBC driver needs connection information when the ODBC data source is opened during a session.
 
@@ -88,7 +84,7 @@ For more information about ODBC drivers such as SQL Server, see the Help file pr
 
 This example uses the **RegisterDatabase** method to register a Microsoft SQL Server data source named Publishers in the Windows Registry.
 
-``` 
+```vb 
 Sub RegisterDatabaseX() 
  
  Dim dbsRegister As Database 

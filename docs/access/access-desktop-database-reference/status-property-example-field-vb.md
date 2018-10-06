@@ -15,6 +15,7 @@ mtps_version: v=office.15
 
 The following example opens a document from a read/write folder using the [Internet Publishing Provider](microsoft-ole-db-provider-for-internet-publishing.md). The [Status](status-property-ado-field.md) property of a [Field](field-object-ado.md) object of the [Record](record-object-ado.md) will first be set to **adFieldPendingInsert**, then be updated to **adFieldOk**.
 
+```vb
     'BeginStatusFieldVB
         
      ' to integrate this code replace the values in the source string
@@ -67,9 +68,13 @@ The following example opens a document from a read/write folder using the [Inter
           
     End Sub
     'EndStatusFieldVB
+```
+
+<br/>
 
 The following example deletes a known **Field** from a **Record** opened from a document. The **Status** property will first be set to **adFieldOK**, then **adFieldPendingUnknown**.
 
+```vb
     'BeginStatusField2VB
     
     ' to integrate this code replace the values in the source string
@@ -117,9 +122,13 @@ The following example deletes a known **Field** from a **Record** opened from a 
     
     End Sub
     'EndStatusField2VB
+```
+
+<br/>
 
 The following code deletes a **Field** from a **Record** opened on a read-only document. **Status** will be set to **adFieldPendingDelete**. At [Update](update-method-ado.md), the delete will fail and **Status** will be **adFieldPendingDelete** plus **adFieldPermissionDenied**. [CancelUpdate](cancelupdate-method-ado.md) clears the pending **Status** setting.
 
+```vb
     Sub Main()
        Dim File As ADODB.Record
        Dim fld As ADODB.Field
@@ -165,4 +174,4 @@ The following code deletes a **Field** from a **Record** opened on a read-only d
        
     End Sub
     'EndStatusField3VB
-
+```

@@ -14,13 +14,7 @@ f1_categories:
 
 # Index.Foreign Property (DAO)
 
-
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Syntax  
-Remarks  
-Example  
 
 Returns a value that indicates whether an **[Index](index-object-dao.md)** object represents a foreign key in a table (Microsoft Access workspaces only). .
 
@@ -42,6 +36,7 @@ The Microsoft Access database engine creates an **Index** object for the foreign
 
 This example shows how the **Foreign** property can indicate which **Index** objects in a **TableDef** are foreign key indexes. Such indexes are created by the Microsoft Access database engine when a **Relation** is created. The default name for the foreign key indexes is the name of the primary table plus the name of the foreign table. The ForeignOutput function is required for this procedure to run.
 
+```vb
     Sub ForeignX() 
      
      Dim dbsNorthwind As Database 
@@ -75,4 +70,4 @@ This example shows how the **Foreign** property can indicate which **Index** obj
      End With 
      
     End Function
-
+```

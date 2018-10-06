@@ -16,21 +16,12 @@ f1_categories:
 
 # PROCEDURE Clause (Microsoft Access SQL)
 
-
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Syntax  
-Remarks  
-Example  
 
 Defines a name and optional parameters for a query.
 
-
 > [!NOTE]
-> <P>The PROCEDURE clause has been superseded by the PROCEDURE statement. Although the PROCEDURE clause is still supported, the PROCEDURE statement provides a superset of the capability of the PROCEDURE clause and is the recommended syntax.</P>
-
-
+> The PROCEDURE clause has been superseded by the PROCEDURE statement. Although the PROCEDURE clause is still supported, the PROCEDURE statement provides a superset of the capability of the PROCEDURE clause and is the recommended syntax.
 
 ## Syntax
 
@@ -88,6 +79,7 @@ This example names the query CategoryList.
 
 This example calls the EnumFields procedure, which you can find in the SELECT statement example.
 
+```vb
     Sub ProcedureX() 
      
         Dim dbs As Database, rst As Recordset 
@@ -124,4 +116,4 @@ This example calls the EnumFields procedure, which you can find in the SELECT st
         dbs.Close 
      
     End Sub
-
+```

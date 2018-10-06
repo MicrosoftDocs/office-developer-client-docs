@@ -13,12 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Parameters  
-Return Value  
-Remarks  
-
 Reads a specified number of bytes from a binary [Stream](stream-object-ado.md) object.
 
 ## Syntax

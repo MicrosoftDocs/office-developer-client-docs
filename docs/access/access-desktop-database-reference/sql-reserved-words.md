@@ -17,21 +17,7 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-A  
-B-C  
-D  
-E-H  
-I  
-J-M  
-N-P  
-Q-S  
-T-Z  
-
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-
 The following list includes all words reserved by the Microsoft Access database engine for use in SQL statements. The words in the list that are not in all uppercase letters are also reserved by other applications. Consequently, the individual Help topics for these words provide general descriptions that do not focus on SQL usage.
-
 
 > [!NOTE]
 > <P>Words followed by an asterisk (*) are reserved but currently have no meaning in the context of a Microsoft® Access SQL statement (for example, <STRONG>Level</STRONG> and <STRONG>TableID</STRONG>). Words that are not underlined do not have linked explanations.</P>

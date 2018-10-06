@@ -13,27 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Using the \#import Compiler Directive  
-Using Property Directives  
-Collections, the GetItem Method, and the Item Property  
-COM-Specific Data Types  
-Variant  
-BSTR  
-Casting \_variant\_t and \_bstr\_t Classes  
-SafeArray  
-Missing and Default Parameters  
-Error Handling  
-Visual C++ Equivalents of Visual Basic Conventions  
-Declaring an ADO Object  
-Coding a Missing Parameter  
-Coding a Missing Parameter  
-Declaring a Variant  
-Using Arrays of Variants  
-Using Property Get/Put/PutRef  
-Using GetItem(x) and Item\[x\]  
-Casting ADO object pointers with (IDispatch \*)  
-
 The ADO API Reference describes the functionality of the ADO application programming interface (API) using a syntax similar to Microsoft Visual Basic. Though the intended audience is all users, ADO programmers employ diverse languages such as Visual Basic, Visual C++ (with and without the **\#import** directive), and Visual J++ (with the ADO/WFC class package).
 
 To accommodate this diversity, the [ADO for Visual C++ Syntax Indexes](using-ado-with-microsoft-visual-c.md) provide Visual C++ language-specific syntax with links to common descriptions of functionality, parameters, exceptional behaviors, and so on, in the API Reference.
@@ -52,7 +31,7 @@ Operations that retrieve the value of a property have names of the form, **Get**
 
 You can get or set a property with calls of these forms:
 
-``` 
+```vb 
  
 variable = objectPtr->GetProperty(); // get property value 
 objectPtr->PutProperty(value); // set property value 
@@ -63,7 +42,7 @@ objectPtr->PutRefProperty(&value); // set property with object pointer
 
 The **\_\_declspec(property...)** compiler directive is a Microsoft-specific C language extension that declares a function used as a property to have an alternative syntax. As a result, you can set or get values of a property in a way similar to Visual Basic. For example, you can set and get a property this way:
 
-``` 
+```vb 
  
 objectPtr->property = value; // set property value 
 variable = objectPtr->property; // get property value 
@@ -71,7 +50,7 @@ variable = objectPtr->property; // get property value
 
 Notice you do not have to code:
 
-``` 
+```vb 
  
 objectPtr->PutProperty(value); // set property value 
 variable = objectPtr->GetProperty; // get property value 
@@ -91,14 +70,16 @@ ADO defines several collections, including **Fields**, **Parameters**, **Propert
 
 The **\_\_declspec(property...)** compiler directive declares the **Item** property as an alternative syntax to each collection's fundamental **GetItem()** method. The alternative syntax uses square brackets and looks similar to an array reference. In general, the two forms look like the following:
 
+```vb
     collectionPtr->GetItem(index); 
     collectionPtr->Item[index]; 
+```
 
 For example, assign a value to a field of a **Recordset** object, named ***rs***, derived from the **authors** table of the **pubs** database. Use the **Item()** property to access the third **Field** of the **Recordset** object **Fields** collection (collections are indexed from zero; assume the third field is named ***au\_fname***). Then call the **Value()** method on the **Field** object to assign a string value.
 
 This can be expressed in Visual Basic in the following four ways (the last two forms are unique to Visual Basic; other languages do not have equivalents):
 
-``` 
+```vb 
  
 rs.Fields.Item(2).Value = "value" 
 rs.Fields.Item("au_fname").Value = "value" 
@@ -108,7 +89,7 @@ rs!au_fname = "value"
 
 The equivalent in Visual C++ to the first two forms above is:
 
-``` 
+```cpp 
  
 rs->Fields->GetItem(long(2))->PutValue("value"); 
 rs->Fields->GetItem("au_fname")->PutValue("value"); 
@@ -116,7 +97,7 @@ rs->Fields->GetItem("au_fname")->PutValue("value");
 
 \-or- (the alternative syntax for the **Value** property is also shown)
 
-``` 
+```cpp 
  
 rs->Fields->Item[long(2)]->Value = "value"; 
 rs->Fields->Item["au_fname"]->Value = "value"; 
@@ -154,7 +135,7 @@ However, if the argument is ambiguous, that is, the argument's data type matches
 
 For example, the declaration for the **Recordset::Open** method is:
 
-``` 
+```vb 
  
  HRESULT Open ( 
  const _variant_t & Source, 
@@ -192,7 +173,7 @@ In C/C++, all operands must be specified. If you want to specify a missing param
 
 Three methods are exceptions to the typical use of **vtMissing**. These are the **Execute** methods of the **Connection** and **Command** objects, and the **NextRecordset** method of the **Recordset** object. The following are their signatures:
 
-``` 
+```vb 
  
 _RecordsetPtr Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthcnnexecute_HV10294345.xml( _bstr_t CommandText, VARIANT * RecordsAffected, 
  long Options ); // Connection 
@@ -209,7 +190,7 @@ In all the methods, indicate that the number of records affected should not be r
 
 Thus, for these three methods, it is valid to code something such as:
 
-``` 
+```vb 
  
 pConnection->Execute("commandText", NULL, adCmdText); 
 pCommand->Execute(NULL, NULL, adCmdText); 
@@ -232,21 +213,21 @@ The following is a summary of several conventions in the ADO documentation, code
 
 In Visual Basic, an ADO object variable (in this case for a **Recordset** object) is declared as follows:
 
-``` 
+```vb 
  
 Dim rst As ADODB.Recordset 
 ```
 
 The clause, "ADODB.Recordset", is the ProgID of the **Recordset** object as defined in the Registry. A new instance of a **Record** object is declared as follows:
 
-``` 
+```vb 
  
 Dim rst As New ADODB.Recordset 
 ```
 
 \-or-
 
-``` 
+```vb 
  
 Dim rst As ADODB.Recordset 
 Set rst = New ADODB.Recordset 
@@ -254,21 +235,21 @@ Set rst = New ADODB.Recordset
 
 In Visual C++, the **\#import** directive generates smart pointer-type declarations for all the ADO objects. For example, a variable that points to a **\_Recordset** object is of type **\_RecordsetPtr**, and is declared as follows:
 
-``` 
+```cpp 
  
 _RecordsetPtr rs; 
 ```
 
 A variable that points to a new instance of a **\_Recordset** object is declared as follows:
 
-``` 
+```cpp 
  
 _RecordsetPtr rs("ADODB.Recordset"); 
 ```
 
 \-or-
 
-``` 
+```cpp 
  
 _RecordsetPtr rs; 
 rs.CreateInstance("ADODB.Recordset"); 
@@ -276,7 +257,7 @@ rs.CreateInstance("ADODB.Recordset");
 
 \-or-
 
-``` 
+```cpp 
  
 _RecordsetPtr rs; 
 rs.CreateInstance(__uuidof(_Recordset)); 
@@ -284,7 +265,7 @@ rs.CreateInstance(__uuidof(_Recordset));
 
 After the **CreateInstance** method is called, the variable can be used as follows:
 
-``` 
+```cpp 
  
 rs->Open(...); 
 ```
@@ -297,7 +278,7 @@ One variable can be used in two ways because the "-\>" operator is overloaded to
 
 When you need to code a missing **String** operand in Visual Basic, you merely omit the operand. You must specify the operand in Visual C++. Code a **\_bstr\_t** that has an empty string as a value.
 
-``` 
+```cpp 
  
 _bstr_t strMissing(L""); 
 ```
@@ -306,14 +287,14 @@ _bstr_t strMissing(L"");
 
 When you need to code a missing **Variant** operand in Visual Basic, you merely omit the operand. You must specify all operands in Visual C++. Code a missing **Variant** parameter with a **\_variant\_t** set to the special value, DISP\_E\_PARAMNOTFOUND, and type, VT\_ERROR. Alternatively, specify **vtMissing**, which is an equivalent pre-defined constant supplied by the **\#import** directive.
 
-``` 
+```cpp 
  
 _variant_t vtMissingYours(DISP_E_PARAMNOTFOUND, VT_ERROR); 
 ```
 
 \-or use -
 
-``` 
+```cpp 
  
 ...vtMissing...; 
 ```
@@ -322,7 +303,7 @@ _variant_t vtMissingYours(DISP_E_PARAMNOTFOUND, VT_ERROR);
 
 In Visual Basic, a **Variant** is declared with the **Dim** statement as follows:
 
-``` 
+```vb 
  
 Dim VariableName As Variant 
 ```
@@ -335,7 +316,7 @@ In Visual C++, declare a variable as type **\_variant\_t**. A few schematic **\_
 
 
 
-``` 
+```cpp 
  
 _variant_t VariableName(value); 
 _variant_t VariableName((data type cast) value); 
@@ -347,7 +328,7 @@ _variant_t VariableName(interface * value, bool fAddRef = true);
 
 In Visual Basic, arrays of **Variants** can be coded with the **Dim** statement, or you may use the **Array** function, as demonstrated in the following example code:
 
-``` 
+```vb 
  
 Public Sub ArrayOfVariants 
 Dim cn As ADODB.Connection 
@@ -377,7 +358,7 @@ The following Visual C++ example demonstrates using a **SafeArray** used with a 
 
 2.  You only need a one-dimensional array, so you can use **SafeArrayCreateVector**, instead of the general purpose **SAFEARRAYBOUND** declaration and **SafeArrayCreate** function. The following is what that code would look like using **SafeArrayCreate**:
     
-    ``` 
+    ```cpp 
      
      SAFEARRAYBOUND sabound[1]; 
      sabound[0].lLbound = 0; 
@@ -389,7 +370,7 @@ The following Visual C++ example demonstrates using a **SafeArray** used with a 
 
 4.  Those familiar with **SafeArrays** may be surprised that **SafeArrayDestroy**() is not called before the exit. In fact, calling **SafeArrayDestroy**() in this case will cause a run-time exception. The reason is that the destructor for vtCriteria will call **VariantClear**() when the **\_variant\_t** goes out of scope, which will free the **SafeArray**. Calling **SafeArrayDestroy**, without manually clearing the **\_variant\_t**, would cause the destructor to try to clear an invalid **SafeArray** pointer. If **SafeArrayDestroy** were called, the code would look like this:
     
-    ``` 
+    ```cpp 
      
      TESTHR(SafeArrayDestroy(pSa)); 
      vtCriteria.vt = VT_EMPTY; 
@@ -400,7 +381,7 @@ The following Visual C++ example demonstrates using a **SafeArray** used with a 
 
 <!-- end list -->
 
-``` 
+```cpp 
  
 #import "c:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 
 #include <stdio.h> 
@@ -464,6 +445,7 @@ void main(void)
 
 In Visual Basic, the name of a property is not qualified by whether it is retrieved, assigned, or assigned a reference.
 
+```vb
     Public Sub GetPutPutRef 
     Dim rs As New ADODB.Recordset 
     Dim cn As New ADODB.Connection 
@@ -478,6 +460,7 @@ In Visual Basic, the name of a property is not qualified by whether it is retrie
     rs.Close 
     cn.Close 
     End Sub
+```
 
 This Visual C++ example demonstrates the **Get**/**Put**/**PutRef***Property*.
 
@@ -491,7 +474,7 @@ This Visual C++ example demonstrates the **Get**/**Put**/**PutRef***Property*.
 
 2.  It isn't necessary to cast the operand of rs-\>PutRefActiveConnection(cn) to (IDispatch \*) because the type of the operand is already (IDispatch \*).
     
-    ``` 
+    ```cpp 
      
     #import "c:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 
     #include <stdio.h> 
@@ -542,7 +525,7 @@ This Visual C++ example demonstrates the **Get**/**Put**/**PutRef***Property*.
 
 This Visual Basic example demonstrates the standard and alternative syntax for **Item**().
 
-``` 
+```vb 
  
 Public Sub GetItemItem 
 Dim rs As New ADODB.Recordset 
@@ -571,7 +554,7 @@ This Visual C++ example demonstrates **Item**.
 
 1.  When the collection is accessed with **Item**, the index, **2**, must be cast to **long** so an appropriate constructor will be invoked.
     
-    ``` 
+    ```cpp 
      
     #import "c:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 
     #include <stdio.h> 
@@ -628,7 +611,7 @@ The following Visual C++ example demonstrates using (IDispatch \*) to cast ADO o
 
 2.  The expression, (\_bstr\_t), is not a cast, but a **\_variant\_t** operator that extracts a **\_bstr\_t** string from the **Variant** returned by **Value**. The expression, (char\*), is not a cast, but a **\_bstr\_t** operator that extracts a pointer to the encapsulated string in a **\_bstr\_t** object. This section of code demonstrates some of the useful behaviors of **\_variant\_t** and **\_bstr\_t** operators.
     
-    ``` 
+    ```cpp 
      
     #import "c:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 
      

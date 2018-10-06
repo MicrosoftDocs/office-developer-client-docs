@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example uses the [Recordset](recordset-object-ado.md) object's [Seek](seek-method-ado.md) method and [Index](index-property-ado.md) property in conjunction with a given ***Employee ID***, to locate the employee's name in the ***Employees*** table of the Nwind.mdb database.
 
-``` 
+```cpp 
  
 // BeginSeekCpp 
 #import "C:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 
@@ -239,7 +239,7 @@ void PrintComError(_com_error &e)
 
 **SeekX.h**
 
-``` 
+```cpp 
  
 // BeginSeekH 
 #include "icrsint.h" 

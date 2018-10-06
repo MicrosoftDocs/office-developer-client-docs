@@ -19,7 +19,7 @@ You can also use a variant array of bookmarks with the **Recordset** **Filter** 
 
 You can use the **Bookmark** property to get a bookmark for a record, or set the current record in a **Recordset** object to the record identified by a valid bookmark. The following code uses the **Bookmark** property to set a bookmark and then return to the bookmarked record after moving on to other records. To determine if your **Recordset** supports bookmarks, use the **Supports** method.
 
-``` 
+```vb 
  
 'BeginBookmarkEg 
  Dim varBookmark As Variant 

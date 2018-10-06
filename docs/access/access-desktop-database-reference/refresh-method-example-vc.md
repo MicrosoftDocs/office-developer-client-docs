@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example demonstrates using the [Refresh](refresh-method-ado.md) method to refresh the [Parameters](parameters-collection-ado.md) collection for a stored procedure [Command](command-object-ado.md) object.
 
-``` 
+```cpp 
  
 // BeginRefreshCpp 
 #import "c:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 
@@ -235,7 +235,7 @@ void PrintComError(_com_error &e)
 
 **RefreshX.h**
 
-``` 
+```cpp 
  
 // BeginRefreshH 
 #include "icrsint.h" 

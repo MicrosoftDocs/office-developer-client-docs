@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example demonstrates the [GetPermissions](getpermissions-method-adox.md) and [SetPermissions](setpermissions-method-adox.md) methods. The following code gives full access to the Orders table to the Admin user.
 
-``` 
+```cpp 
  
 // BeginGrantPermissionCpp 
 #import "c:\Program Files\Common Files\system\ado\msado15.dll" 

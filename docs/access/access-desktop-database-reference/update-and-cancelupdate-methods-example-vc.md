@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example demonstrates the [Update](update-method-ado.md) method in conjunction with the [CancelUpdate](cancelupdate-method-ado.md) method.
 
-``` 
+```cpp 
  
 // BeginUpdateCpp 
 #import "C:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 
@@ -334,7 +334,7 @@ void PrintComError(_com_error &e)
 
 **UpdateX.h**
 
-``` 
+```cpp 
  
 // BeginUpdateH 
 #include "icrsint.h" 

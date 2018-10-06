@@ -15,12 +15,7 @@ f1_categories:
 # Recordset2.ParentRecordset Property (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Version Information  
-Syntax  
-Remarks  
+**Applies to**: Access 2013 | Office 2013 
 
 Returns the parent **Recordset** of the specified recordset. Read-only.
 

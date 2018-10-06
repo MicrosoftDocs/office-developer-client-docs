@@ -17,7 +17,7 @@ This example demonstrates how the [Item](item-property-ado.md) property accesses
 
 The parameter in the command issued against the database is accessed from the [Command](command-object-ado.md) object's [Parameters](parameters-collection-ado.md) collection by index and name. Then the fields of the returned [Recordset](recordset-object-ado.md) are accessed from that object's [Fields](fields-collection-ado.md) collection by index and name.
 
-``` 
+```cpp 
  
 // BeginItemCpp 
 #import "C:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 

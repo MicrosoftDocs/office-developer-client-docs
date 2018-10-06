@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example demonstrates the [Prepared](prepared-property-ado.md) property by opening two [Command](command-object-ado.md) objects — one prepared and one not prepared.
 
-``` 
+```java 
  
 // BeginPreparedJ 
 import com.ms.wfc.data.*; 

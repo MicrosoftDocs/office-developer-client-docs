@@ -13,15 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-The IADORecordBinding Interface  
-Binding Entries  
-Header File  
-Binding Recordset Fields  
-Interface Methods  
-Binding Entry Macros  
-Status Values  
-
 ## The IADORecordBinding Interface
 
 The Microsoft Visual C++ Extensions for ADO associate, or bind, fields of a [Recordset](recordset-object-ado.md) object to C/C++ variables. Whenever the current row of the bound **Recordset** changes, all the bound fields in the **Recordset** are copied to the C/C++ variables. If necessary, the copied data is converted to the declared data type of the C/C++ variable.
@@ -40,7 +31,7 @@ ADO internally maps the parameters in these macros to an OLE DB **DBBINDING** st
 
 Include the following file in your application in order to use the Visual C++ Extensions for ADO:
 
-``` 
+```cpp 
  
 #include <icrsint.h> 
 ```
@@ -65,15 +56,15 @@ The **IADORecordBinding** interface has three methods: **BindToRecordset**, **Ad
 
 The **BindToRecordset** method associates the **Recordset** fields with C/C++ variables.
 
-    BindToRecordset(CADORecordBinding *binding) 
+`BindToRecordset(CADORecordBinding *binding)` 
 
 The **AddNew** method invokes its namesake, the ADO [AddNew](addnew-method-ado.md) method, to add a new row to the **Recordset**.
 
-    AddNew(CADORecordBinding *binding) 
+`AddNew(CADORecordBinding *binding)` 
 
 The **Update** method invokes its namesake, the ADO [Update](update-method-ado.md) method, to update the **Recordset**.
 
-    Update(CADORecordBinding *binding) 
+`Update(CADORecordBinding *binding)` 
 
 ## Binding Entry Macros
 

@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 Hybrid commands are partially parameterized commands. For example:
 
-``` 
+```vb 
  
 SHAPE {select * from plants} 
  APPEND( {select * from customers where country = ?} 

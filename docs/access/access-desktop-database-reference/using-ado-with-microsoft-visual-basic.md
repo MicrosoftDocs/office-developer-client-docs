@@ -13,14 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Referencing the ADO Library  
-Creating ADO Objects in Visual Basic  
-Dim  
-CreateObject  
-Handling Events  
-Visual Basic Examples  
-
 Setting up an ADO project and writing ADO code is similar whether you use Visual Basic or Visual Basic for Applications. This topic addresses using ADO with both Visual Basic and Visual Basic for Applications and notes any differences.
 
 ## Referencing the ADO Library
@@ -33,13 +25,13 @@ The ADO library must be referenced by your project.
 
 2.  Select **Microsoft ActiveX Data Objects x.x Library** from the list. Verify that at least the following libraries are also selected:
     
-      - Visual Basic for Applications
+    - Visual Basic for Applications
     
-      - Visual Basic runtime objects and procedures
+    - Visual Basic runtime objects and procedures
     
-      - Visual Basic objects and procedures
+    - Visual Basic objects and procedures
     
-      - OLE Automation
+    - OLE Automation
 
 3.  Click **OK**.
 
@@ -53,9 +45,9 @@ You can use ADO just as easily with Visual Basic for Applications, using Microso
 
 3.  Select **Microsoft ActiveX Data Objects x.x Library** from the list. Verify that at least the following libraries are also selected:
     
-      - Visual Basic for Applications
+    - Visual Basic for Applications
     
-      - Microsoft Access 11.0 Object Library (or later)
+    - Microsoft Access 11.0 Object Library (or later)
 
 4.  Click **OK**.
 
@@ -67,14 +59,14 @@ To create an automation variable and an instance of an object for that variable,
 
 You can use the **New** keyword with **Dim** to declare and instantiate ADO objects in one step:
 
-``` 
+```vb 
  
 Dim conn As New ADODB.Connection 
 ```
 
 Alternately, the **Dim** statement declaration and object instantiation can also be two steps:
 
-``` 
+```vb 
  
 Dim conn As ADODB.Connection 
 Set conn = New ADODB.Connection 
@@ -95,7 +87,7 @@ Dim daoRS As DAO.Recordset
 
 With the **CreateObject** method, the declaration and object instantiation must be two discrete steps:
 
-``` 
+```vb 
  
 Dim conn1 
 Set conn1 = CreateObject("ADODB.Connection") As Object 
@@ -103,7 +95,7 @@ Set conn1 = CreateObject("ADODB.Connection") As Object
 
 Objects instantiated with **CreateObject** are late-bound, which means that they are not strongly typed and command-line completion is disabled. However, it does allow you to skip referencing the ADO library from your project, and enables you to instantiate specific versions of objects. For example:
 
-``` 
+```vb 
  
 Set conn1 = CreateObject("ADODB.Connection.2.0") As Object 
 ```

@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example demonstrates the [Update](update-method-ado.md) method in conjunction with the [CancelUpdate](cancelupdate-method-ado.md) method.
 
-``` 
+```java 
  
 // BeginUpdateJ 
 import java.io.*; 

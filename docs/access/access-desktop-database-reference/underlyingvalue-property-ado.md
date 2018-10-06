@@ -13,10 +13,7 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Return Value  
-Remarks  
-Record  
+
 
 Indicates a [Field](field-object-ado.md) object's current value in the database.
 

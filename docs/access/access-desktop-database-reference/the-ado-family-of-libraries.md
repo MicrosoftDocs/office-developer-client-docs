@@ -13,10 +13,7 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-ADO  
-ADO MD  
-ADOX  
+
 
 Three major libraries make up the ADO family: ADO (including RDS), ADO MD, and ADOX.
 

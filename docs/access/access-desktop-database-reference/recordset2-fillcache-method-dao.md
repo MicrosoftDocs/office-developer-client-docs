@@ -17,11 +17,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 Fills all or a part of a local cache for a **Recordset** object that contains data from a Microsoft Access database engine-connected ODBC data source (Microsoft Access database engine-connected ODBC databases only).
 
 ## Syntax
@@ -90,6 +85,7 @@ If **FillCache** requests more records than the number remaining in the remote d
 
 This example uses the **CreateTableDef** and **FillCache** methods and the **CacheSize**, **CacheStart** and **SourceTableName** properties to enumerate the records in a linked table twice. Then it enumerates the records twice with a 50-record cache. The example then displays the performance statistics for the uncached and cached runs through the linked table.
 
+```vb
     Sub ClientServerX3() 
      
        Dim dbsCurrent As Database 
@@ -183,4 +179,4 @@ This example uses the **CreateTableDef** and **FillCache** methods and the **Cac
        dbsCurrent.Close 
      
     End Sub
-
+```

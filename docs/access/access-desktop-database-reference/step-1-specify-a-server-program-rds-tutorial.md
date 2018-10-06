@@ -17,7 +17,7 @@ In the most general case, use the [RDS.DataSpace](dataspace-object-rds.md) objec
 
 This tutorial uses the default server program:
 
-``` 
+```vb 
  
 Sub RDSTutorial1() 
  Dim DS as New RDS.DataSpace 

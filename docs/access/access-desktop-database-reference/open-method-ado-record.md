@@ -13,10 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Parameters  
-Remarks  
 
 Opens an existing [Record](record-object-ado.md) object, or creates a new item represented by the **Record** (such as a file or directory).
 

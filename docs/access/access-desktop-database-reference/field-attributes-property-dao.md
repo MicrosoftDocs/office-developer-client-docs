@@ -13,10 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
 
 Sets or returns a value that indicates one or more characteristics of a **[Field](field-object-dao.md)** object. Read/write **Long**.
 
@@ -118,7 +114,7 @@ When you set multiple attributes, you can combine them by summing the appropriat
 
 This example displays the **Attributes** property for **Field**, **Relation**, and **TableDef** objects in the Northwind database.
 
-``` 
+```vb 
 Sub AttributesX() 
  
  Dim dbsNorthwind As Database 

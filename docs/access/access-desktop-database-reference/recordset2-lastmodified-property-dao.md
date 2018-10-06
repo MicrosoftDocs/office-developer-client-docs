@@ -13,11 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 Returns a ookmark indicating the most recently added or changed record.
 
 ## Syntax
@@ -34,6 +29,7 @@ You can use the **LastModified** property to move to the most recently added or 
 
 This example uses the **LastModified** property to move the current record pointer to both a record that has been modified and a newly created record.
 
+```vb
     Sub LastModifiedX() 
      
      Dim dbsNorthwind As Database 
@@ -88,9 +84,13 @@ This example uses the **LastModified** property to move the current record point
      dbsNorthwind.Close 
      
     End Sub 
+```
+
+<br/>
 
 This example uses the **AddNew** method to create a new record with the specified name. The AddName function is required for this procedure to run.
 
+```vb
     Sub AddNewX() 
      
      Dim dbsNorthwind As Database 
@@ -148,4 +148,4 @@ This example uses the **AddNew** method to create a new record with the specifie
      End With 
      
     End Function
-
+```

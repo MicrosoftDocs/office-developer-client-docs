@@ -13,11 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Parameters  
-Remarks  
-
 Requeries the data source specified in the [Connect](connect-property-rds.md) property and updates the query results.
 
 ## Syntax

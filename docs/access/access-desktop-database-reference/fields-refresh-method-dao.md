@@ -13,10 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
 
 Updates the objects in the specified colletion to reflect the database's current schema.
 
@@ -38,6 +34,7 @@ A collection is filled with objects the first time it's referred to and won't au
 
 This example uses the **Refresh** method to update the **Fields** collection of the Categories table based on changes to the **OrdinalPosition** data. The order of the **Fields** in the collection changes only after the **Refresh** method is used.
 
+```vb
     Sub RefreshX() 
      
      Dim dbsNorthwind As Database 
@@ -97,4 +94,4 @@ This example uses the **Refresh** method to update the **Fields** collection of 
      dbsNorthwind.Close 
      
     End Sub
-
+```

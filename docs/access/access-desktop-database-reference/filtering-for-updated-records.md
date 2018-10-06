@@ -19,7 +19,7 @@ Before you call **UpdateBatch**, you can use the **Recordset** **Filter** proper
 
 This example extends the previous **UpdateBatch** example by filtering the **Recordset** just before calling the **UpdateBatch**, showing the user which records will change and allowing her to cancel the update (using the **CancelBatch** method).
 
-``` 
+```vb 
  
 'BeginFilterAffected 
     objRs1.Filter = adFilterPendingRecords 

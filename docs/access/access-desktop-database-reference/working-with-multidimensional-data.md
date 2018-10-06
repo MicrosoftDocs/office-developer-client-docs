@@ -57,7 +57,7 @@ The x-axis has two nested dimensions: Salesperson and Geography. From Geography,
 
 Each coordinate is represented as a position with two members — one from the Salesperson dimension and another from the Geography dimension:
 
-``` 
+```vb 
  
 (Valentine, Seattle), (Valentine, Boston), (Valentine, USA_North), 
 (Valentine, Japan), (Nash, Seattle), (Nash, Boston), (Nash, USA_North), 
@@ -66,7 +66,7 @@ Each coordinate is represented as a position with two members — one from the S
 
 The y-axis has only one dimension, containing the following eight positions:
 
-``` 
+```vb 
  
 Jan, Feb, Mar, Qtr2, Qtr3, Oct, Nov, Dec 
 ```

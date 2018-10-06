@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example uses the [OpenSchema](openschema-method-ado.md) method to display the name and type of each table in the ***Pubs*** database.
 
-``` 
+```vb 
  
 'BeginOpenSchemaVB 
  
@@ -72,7 +72,7 @@ End Sub
 
 This example specifies a TABLE\_TYPE query constraint in the **OpenSchema** method ***Criteria*** argument. As a result, only schema information for the Views specified in the ***Pubs*** database are returned. The example then displays the name(s) and type(s) of each table(s).
 
-``` 
+```vb 
  
 'BeginOpenSchema2VB 
 Public Sub Main() 

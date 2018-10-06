@@ -55,7 +55,7 @@ The user-defined Function procedures are stored in Microsoft Access modules.
 
 You must include parentheses, even if the Function procedure doesn't have any arguments, as in the following example:
 
-    TestFunction()
+`TestFunction()`
 
 Unlike user-defined function names used for event property settings, the function name in the **Function Name** argument doesn't begin with an equal sign (**=**).
 

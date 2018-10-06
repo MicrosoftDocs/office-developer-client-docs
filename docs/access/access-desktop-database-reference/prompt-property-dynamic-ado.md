@@ -33,7 +33,8 @@ Dynamic properties of a [Connection](connection-object-ado.md) object are lost w
 
 **Usage**
 
+```vb
     Set cn = New Connection
     cn.Provider = "SQLOLEDB"
     cn.Properties("Prompt") = adPromptNever    ' do not prompt the user
-
+```

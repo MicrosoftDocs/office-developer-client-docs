@@ -17,11 +17,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 Returns a value that indicates whether a **[Recordset](recordset-object-dao.md)** object supports the **[Requery](recordset-requery-method-dao.md)** method, which re-executes the query on which the **Recordset** object is based.
 
 ## Syntax
@@ -40,6 +35,7 @@ Check the **Restartable** property before using the **Requery** method on a **Re
 
 This example demonstrates the **Restartable** property with different **Recordset** objects.
 
+```vb
     Sub RestartableX() 
      
      Dim dbsNorthwind As Database 
@@ -77,4 +73,4 @@ This example demonstrates the **Restartable** property with different **Recordse
      End With 
      
     End Sub
-
+```

@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example demonstrates the [UpdateBatch](updatebatch-method-ado.md) method in conjunction with the [CancelBatch](cancelbatch-method-ado.md) method.
 
-``` 
+```cpp 
  
 // BeginUpdateBatchCpp 
 #import "c:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 
@@ -240,7 +240,7 @@ void PrintComError(_com_error &e)
 
 **UpdateBatchX.h**
 
-``` 
+```cpp 
  
 // BeginUpdateBatchH 
 #include "icrsint.h" 

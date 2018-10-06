@@ -19,11 +19,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 Declares the name and data type of each parameter in a parameter query.
 
 ## Syntax
@@ -64,13 +59,13 @@ The PARAMETERS declaration is optional but when included precedes any other stat
 
 If the declaration includes more than one parameter, separate them with commas. The following example includes two parameters:
 
-``` sql
+```sql
 PARAMETERS [Low price] Currency, [Beginning date] DateTime;
 ```
 
 You can use *name* but not *datatype* in a [WHERE](https://msdn.microsoft.com/library/ff195245\(v=office.15\)) or [HAVING](https://msdn.microsoft.com/library/ff193795\(v=office.15\)) clause. The following example expects two parameters to be provided and then applies the criteria to records in the Orders table:
 
-``` sql
+```sql
 PARAMETERS [Low price] Currency, 
 [Beginning date] DateTime; 
 SELECT OrderID, OrderAmount
@@ -85,6 +80,7 @@ This example requires the user to provide a job title and then uses that job tit
 
 This example calls the EnumFields procedure, which you can find in the [SELECT statement](select-statement-microsoft-access-sql.md) example.
 
+```vb
     Sub ParametersX() 
      
         Dim dbs As Database, qdf As QueryDef 
@@ -156,4 +152,4 @@ This example calls the EnumFields procedure, which you can find in the [SELECT s
         dbs.Close 
      
     End Sub
-
+```

@@ -19,7 +19,7 @@ mtps_version: v=office.15
 
   - Insert the following code into the (General) (Declarations) for Form1:
     
-    ``` 
+    ```vb 
      
     Option Explicit 
     Dim grec As Record 
@@ -32,7 +32,7 @@ mtps_version: v=office.15
 
   - Insert the following code into the Form Load event handler for Form1:
     
-    ``` 
+    ```vb 
      
     Private Sub Form_Load() 
         Set grec = New Record 

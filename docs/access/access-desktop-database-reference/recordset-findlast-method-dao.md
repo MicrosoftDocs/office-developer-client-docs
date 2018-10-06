@@ -107,8 +107,10 @@ When working with Microsoft Access database engine-connected ODBC databases and 
 
 You should use the U.S. date format (month-day-year) when you search for fields containing dates, even if you're not using the U.S. version of the Microsoft Access database engine; otherwise, the data may not be found. Use the Visual Basic **Format** function to convert the date. For example:
 
+```vb
     rstEmployees.FindFirst "HireDate > #" _ 
         & Format(mydate, 'm-d-yy' ) & "#" 
+```
 
 If criteria is composed of a string concatenated with a non-integer value, and the system parameters specify a non-U.S. decimal character such as a comma (for example, strSQL = "PRICE \> " & lngPrice, and lngPrice = 125,50), an error occurs when you try to call the method. This is because during concatenation, the number will be converted to a string using your system's default decimal character, and Microsoft Access SQL only accepts U.S. decimal characters.
 

@@ -13,11 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 Sets or returns a value indicating the type of locking that is in effect while editing.
 
 ## Syntax
@@ -72,6 +67,7 @@ When working with Microsoft Access database engine-connected ODBC data sources, 
 
 This example demonstrates pessimistic locking by setting the **LockEdits** property to **True**, and then demonstrates optimistic locking by setting the **LockEdits** property to False. It also demonstrates what kind of error handling is required in a multiuser database environment in order to modify a field. The PessimisticLock and OptimisticLock functions are required for this procedure to run.
 
+```vb
     Sub LockEditsX() 
      
      Dim dbsNorthwind As Database 
@@ -224,4 +220,4 @@ This example demonstrates pessimistic locking by setting the **LockEdits** prope
      Resume Next 
      
     End Function
-
+```

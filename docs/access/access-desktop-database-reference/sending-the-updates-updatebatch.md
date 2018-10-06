@@ -17,7 +17,7 @@ mtps_version: v=office.15
 
 The following code opens a **Recordset** in batch mode by setting the **LockType** property to **adLockBatchOptimistic** and the **CursorLocation** to **adUseClient**. It adds two new records and changes the value of a field in an existing record, saving the original values, and then calls **UpdateBatch** to send the changes back to the data source.
 
-``` 
+```vb 
  
 'BeginBatchUpdate 
     strSQL = "SELECT ShipperId, CompanyName, Phone FROM Shippers" 

@@ -15,12 +15,7 @@ f1_categories:
 # Property.Inherited Property (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Syntax  
-Remarks  
-Example  
+**Applies to**: Access 2013 | Office 2013 
 
 Returns a value that indicates whether a **[Property](property-object-dao.md)** object is inherited from an underlying object.
 
@@ -40,7 +35,7 @@ You can use the **Inherited** property to determine whether a user-defined **Pro
 
 This example use the **Inherited** property to determine if a user-defined **Property** object was created for a **Recordset** object or for some underlying object.
 
-``` 
+```vb 
 Sub InheritedX() 
  
  Dim dbsNorthwind As Database 

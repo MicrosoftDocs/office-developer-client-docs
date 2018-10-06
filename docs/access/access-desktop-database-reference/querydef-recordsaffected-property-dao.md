@@ -17,11 +17,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 Returns the number of records affected by the most recently invoked **[Execute](querydef-execute-method-dao.md)** method.
 
 ## Syntax
@@ -38,6 +33,7 @@ When you use the **Execute** method to run an action query from a **QueryDef** o
 
 This example uses the **RecordsAffected** property with action queries executed from a **[Database](database-object-dao.md)** object and from a **QueryDef** object. The RecordsAffectedOutput function is required for this procedure to run.
 
+```vb
     Sub RecordsAffectedX() 
      
      Dim dbsNorthwind As Database 
@@ -107,4 +103,4 @@ This example uses the **RecordsAffected** property with action queries executed 
      End With 
      
     End Function
-
+```

@@ -17,7 +17,7 @@ Custom business objects need to ensure that the client side can map their progra
 
 For example, if you expose a server-side business object called MyBObj with a specific class ID, for instance, "{00112233-4455-6677-8899-00AABBCCDDEE}", make sure that the following entries are added to the client-side registry:
 
-``` 
+```vb 
  
 [HKEY_CLASSES_ROOT] 
 \MyBObj 

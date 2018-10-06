@@ -13,11 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 Returns a value that indicates whether a **Recordset** object supports bookmarks, which you can set by using the **[Bookmark](recordset-bookmark-property-dao.md)** property.
 
 ## Syntax
@@ -36,6 +31,7 @@ For **Recordset** objects based entirely on Microsoft Access database engine tab
 
 This example uses the **Bookmark** and **Bookmarkable** properties to let the user flag a record in a **Recordset** and return to it later.
 
+```vb
     Sub BookmarkX() 
      
      Dim dbsNorthwind As Database 
@@ -106,4 +102,4 @@ This example uses the **Bookmark** and **Bookmarkable** properties to let the us
      dbsNorthwind.Close 
      
     End Sub
-
+```

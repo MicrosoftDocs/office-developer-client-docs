@@ -25,7 +25,7 @@ However, ADO provides you with two include files containing the following defini
 
 You can either copy and paste constant definitions from these files into your ASP pages, or, if you are doing server-side scripting, copy Adovbs.inc file to a folder on your Web site and referencing it from your ASP page like this:
 
-``` 
+```vb 
  
 <!--#include File="adovbs.inc"--> 
 ```
@@ -34,7 +34,7 @@ You can either copy and paste constant definitions from these files into your AS
 
 You cannot use the **Dim** statement to assign objects to a specific type in VBScript. Also, VBScript does not support the **New** syntax used with the **Dim** statement in Visual Basic for Applications. You must instead use the **CreateObject** function call:
 
-``` 
+```vb 
  
 Dim Rs1 
 Set Rs1 = Server.CreateObject( "ADODB.Recordset" ) 
@@ -44,7 +44,7 @@ Set Rs1 = Server.CreateObject( "ADODB.Recordset" )
 
 The following code is a generic example of VBScript server-side programming in an Active Server Page (ASP) file:
 
-``` 
+```vb 
  
 <%  @LANGUAGE="VBSCRIPT" %> 
 <%  Option Explicit %> 
@@ -76,9 +76,9 @@ More specific VBScript examples are included with the ADO documentation. For mor
 
 Using ADO with VBScript is similar to using ADO with Visual Basic in many ways, including how syntax is used. However, some significant differences exist:
 
-  - VBScript supports only the Variant data type, which can hold different types of data. You can store the data you need in a Variant data type, and the data will function appropriately due to casting performed by VBScript. It recognizes the type required by ADO, and converts the value in the Variant accordingly.
+- VBScript supports only the Variant data type, which can hold different types of data. You can store the data you need in a Variant data type, and the data will function appropriately due to casting performed by VBScript. It recognizes the type required by ADO, and converts the value in the Variant accordingly.
 
-  - You cannot use **on error goto \<label\>** within VBScript.
+- You cannot use `on error goto <label>` within VBScript.
 
-  - VBScript supports some of the built-in Visual Basic functions such as **Msgbox**, **Date**, and **IsNumeric**. However, because VBScript is a subset of Visual Basic, not all built-in functions are supported. For example, VBScript does not support the **Format** function and the file I/O functions.
+- VBScript supports some of the built-in Visual Basic functions such as **Msgbox**, **Date**, and **IsNumeric**. However, because VBScript is a subset of Visual Basic, not all built-in functions are supported. For example, VBScript does not support the **Format** function and the file I/O functions.
 

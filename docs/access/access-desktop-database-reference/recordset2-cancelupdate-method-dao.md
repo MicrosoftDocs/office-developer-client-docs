@@ -13,11 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 Cancels any pending updates for a **[Recordset](recordset-object-dao.md)** object.
 
 ## Syntax
@@ -76,6 +71,7 @@ Check the **[EditMode](recordset2-editmode-property-dao.md)** property of the **
 
 This example shows how the **CancelUpdate** method is used with the **AddNew** method.
 
+```vb
     Sub CancelUpdateX() 
      
        Dim dbsNorthwind As Database 
@@ -108,10 +104,13 @@ This example shows how the **CancelUpdate** method is used with the **AddNew** m
        dbsNorthwind.Close 
      
     End Sub 
+```
+
+<br/>
 
 This example shows how the **CancelUpdate** method is used with the **Edit** method.
 
-``` 
+```vb
 Sub CancelUpdateX2() 
  
    Dim dbsNorthwind As Database 

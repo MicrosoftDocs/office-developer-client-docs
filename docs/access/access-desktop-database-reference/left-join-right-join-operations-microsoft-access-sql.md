@@ -15,10 +15,7 @@ dev_langs:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
+
 
 Combines source-table records when used in any [FROM](https://msdn.microsoft.com/library/ff836674\(v=office.15\)) clause.
 

@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example demonstrates how to manipulate text streams one line at a time. The effect of changing the line separator from the default carriage return/linefeed (**adCRLF**) to simply linefeed (**adLF**) or carriage return (**adCR**) is shown.
 
-``` 
+```vb 
  
 'BeginSkipLineVB 
 Private Sub cmdSkipLine_Click() 

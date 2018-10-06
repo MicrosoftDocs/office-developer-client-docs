@@ -15,12 +15,7 @@ f1_categories:
 # Recordset2.CopyQueryDef Method (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Syntax  
-Remarks  
-Example  
+**Applies to**: Access 2013 | Office 2013 
 
 Returns a **[QueryDef](querydef-object-dao.md)** object that is a copy of the **QueryDef** used to create the **[Recordset](recordset-object-dao.md)** object represented by the recordset placeholder (Microsoft Access workspaces only). .
 
@@ -46,6 +41,7 @@ This method is useful when you create a **Recordset** object from a **QueryDef**
 
 This example uses the **CopyQueryDef** method to create a copy of a **QueryDef** from an existing **Recordset** and modifies the copy by adding a clause to the SQL property. When you create a permanent **QueryDef**, spaces, semicolons, or linefeeds may be added to the SQL property; these extra characters must be stripped before any new clauses can be attached to the SQL statement.
 
+```vb
     Function CopyQueryNew(rstTemp As Recordset, _ 
      strAdd As String) As QueryDef 
      
@@ -66,12 +62,13 @@ This example uses the **CopyQueryDef** method to create a copy of a **QueryDef**
      End With 
      
     End Function 
-     
-    This example shows 
+```     
+
+<br/>
 
 This example shows a possible use of CopyQueryNew().
 
-``` 
+```vb
 Sub CopyQueryDefX() 
  
  Dim dbsNorthwind As Database 

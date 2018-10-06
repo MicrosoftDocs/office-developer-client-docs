@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example uses the [Status](status-property-ado-recordset.md) property to display which records have been modified in a batch operation before a batch update has occurred.
 
-``` 
+```vb 
  
 'BeginStatusRecordsetVB 
 Public Sub Main() 

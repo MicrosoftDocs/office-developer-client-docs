@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 The following code demonstrates how to create a new foreign key. It assumes two tables (**Customers** and **Orders**) exist.
 
-``` 
+```vb 
  
 ' BeginCreateKeyVB 
 Sub Main() 

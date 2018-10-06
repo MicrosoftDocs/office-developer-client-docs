@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example uses the [OpenSchema](openschema-method-ado.md) method to display the name and type of each table in the ***Pubs*** database.
 
-``` 
+```java 
  
 // BeginOpenSchemaJ 
 import com.ms.wfc.data.*; 

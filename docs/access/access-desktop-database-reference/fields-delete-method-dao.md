@@ -17,11 +17,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 Deletes a **[Field](field-object-dao.md)** from the **[Fields](fields-collection-dao.md)** collection.
 
 ## Syntax
@@ -66,6 +61,7 @@ The deletion of a stored object occurs immediately, but you should use the **Ref
 
 This example uses either the **Append** method or the **Delete** method to modify the **Fields** collection of a **TableDef**. The AppendDeleteField procedure is required for this procedure to run.
 
+```vb
     Sub AppendX() 
      
      Dim dbsNorthwind As Database 
@@ -138,4 +134,4 @@ This example uses either the **Append** method or the **Delete** method to modif
      End With 
      
     End Sub
-
+```

@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 The following code demonstrates how to use the [Command](command-property-adox.md) property with the [Command](command-object-ado.md) object to retrieve parameter information for the procedure.
 
-``` 
+```cpp 
  
 // This sample runs correctly only if procedure 'CustomerById' 
 // exists. If the procedure doesn't exist, please use 

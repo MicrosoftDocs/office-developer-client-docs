@@ -17,10 +17,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
 
 Sets or returns a value that indicates whether an **[Index](index-object-dao.md)** object represents a primary key index for a table (Microsoft Access workspaces only).
 
@@ -48,6 +44,7 @@ When you set a primary key for a table, the primary key is automatically defined
 
 This example uses the **Primary** property to designate a new **Index** in a new **TableDef** as the primary **Index** for that table. Note that setting the **Primary** property to **True** automatically sets **Unique** and **Required** properties to **True** as well.
 
+```vb
     Sub PrimaryX() 
      
      Dim dbsNorthwind As Database 
@@ -113,4 +110,4 @@ This example uses the **Primary** property to designate a new **Index** in a new
      dbsNorthwind.Close 
      
     End Sub
-
+```

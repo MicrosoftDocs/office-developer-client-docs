@@ -17,7 +17,7 @@ To help ensure a secure Internet environment, you need to mark any business obje
 
 To manually mark your business object as safe for scripting, create a text file with a .reg extension that contains the following text. The following two numbers enable the safe-for-scripting feature:
 
-``` 
+```vb 
  
 [HKEY_CLASSES_ROOT\CLSID\<MyActiveXGUID>\Implemented 
 Categories\{7DD95801-9882-11CF-9FA9-00AA006C42C4}] 
@@ -35,6 +35,6 @@ Because the business object will be installed in the Windows\\System32\\Occache 
 
 
 > [!NOTE]
-> <P>Business objects marked as safe for scripting or safe for initialization can be instantiated and initialized by anyone over the network. Any custom business object must not be designed and implemented casually. It is imperative that such objects do not present a security threat that hackers can explore to gain access to the sensitive area of the hosting server and inflict damages.</P>
+> Business objects marked as safe for scripting or safe for initialization can be instantiated and initialized by anyone over the network. Any custom business object must not be designed and implemented casually. It is imperative that such objects do not present a security threat that hackers can explore to gain access to the sensitive area of the hosting server and inflict damages.
 
 

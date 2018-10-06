@@ -19,7 +19,7 @@ This example also takes advantage of "smart pointers," which automatically handl
 
 Without smart pointers, you would code:
 
-``` 
+```cpp 
  
 IADORecordBinding *picRs = NULL; 
 ... 
@@ -31,21 +31,21 @@ if (picRs) picRs->Release();
 
 With smart pointers, you derive the IADORecordBindingPtr type from the type from the IADORecordBinding interface with this statement:
 
-``` 
+```cpp 
  
 _COM_SMARTPTR_TYPEDEF(IADORecordBinding, __uuidof(IADORecordBinding)); 
 ```
 
 And instantiate the pointer like this:
 
-``` 
+```cpp 
  
 IADORecordBindingPtr picRs(pRs); 
 ```
 
 Because the Visual C++ Extensions are implemented by the **Recordset** object, the constructor for the smart pointer, picRs , takes the \_RecordsetPtr pointer, pRs . The constructor calls QueryInterface using pRs to find the , takes the \_RecordsetPtr pointer, pRs . The constructor calls QueryInterface using pRs to find the IADORecordBinding interface.
 
-``` 
+```cpp 
  
 // Visual C++ Extensions Example 
 #import "c:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 

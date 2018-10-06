@@ -17,7 +17,7 @@ This example uses the [Open](open-method-ado-recordset.md) and [Close](close-met
 
 Use the following example in an Active Server Page (ASP). Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use. Cut and paste the following code into Notepad or another text editor, and save it as **OpenVBS.asp**. You can view the result in any browser.
 
-``` 
+```vb 
  
 <!-- BeginOpenVBS --> 
 <%@ Language=VBScript %> 

@@ -13,10 +13,7 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
+
 
 Deletes an existing table, procedure, or view from a database, or deletes an existing index from a table.
 

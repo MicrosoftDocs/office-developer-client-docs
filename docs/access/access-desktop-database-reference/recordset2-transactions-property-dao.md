@@ -13,11 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 Returns a value that indicates whether an object supports transactions. Read-only **Boolean**.
 
 ## Syntax
@@ -38,7 +33,7 @@ Check the **Transactions** property before using the **[BeginTrans](dbengine-beg
 
 This example demonstrates the **Transactions** property in Microsoft Access workspaces.
 
-``` 
+```vb 
 Sub TransactionsX() 
  
  Dim wrkAcc As Workspace 

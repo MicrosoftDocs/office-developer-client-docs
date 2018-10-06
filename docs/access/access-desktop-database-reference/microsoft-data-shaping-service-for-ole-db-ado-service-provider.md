@@ -19,7 +19,7 @@ The Microsoft Data Shaping Service for OLE DB service provider supports the cons
 
 To invoke the Data Shaping Service for OLE DB, specify the following keyword and value in the connection string.
 
-``` 
+```vb 
  
 "Provider=MSDataShape" 
 ```
@@ -54,7 +54,7 @@ When this service provider is invoked, the following dynamic properties are adde
 
 You may also set writable dynamic properties by specifying their names as keywords in the connection string. For example, in Microsoft Visual Basic, set the **Data Provider** dynamic property to "MSDASQL" by specifying:
 
-``` 
+```vb 
  
 Dim cn as New ADODB.Connection 
 cn.Open "Provider=MSDataShape;Data Provider=MSDASQL" 
@@ -62,7 +62,7 @@ cn.Open "Provider=MSDataShape;Data Provider=MSDASQL"
 
 You may also set or retrieve a dynamic property by specifying its name as the index to the [Properties](properties-collection-ado.md) property. For example, get and print the current value of the **Data Provider** dynamic property, then set a new value, like this:
 
-``` 
+```vb 
  
 Debug.Print cn.Properties("Data Provider") 
 cn.Properties("Data Provider") = "MSDASQL" 

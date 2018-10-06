@@ -17,7 +17,7 @@ mtps_version: v=office.15
 
 In this step you will create an HTML file with an embedded [RDS.DataControl](datacontrol-object-rds.md) object that points at the XMLResponse.asp file to get the **Recordset**. Open default.htm with a text editor, such as Windows Notepad, and add the code below. Replace "sqlserver" in the URL with the name of your server computer.
 
-``` 
+```html 
  
 <HTML> 
 <HEAD><TITLE>ADO Recordset Persistence Sample</TITLE></HEAD> 

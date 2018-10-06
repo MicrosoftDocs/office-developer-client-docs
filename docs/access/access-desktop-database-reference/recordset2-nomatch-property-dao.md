@@ -13,11 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 Indicates whether a particular record was found by using the **[Seek](recordset2-seek-method-dao.md)** method or one of the **[Find](recordset2-findfirst-method-dao.md)** methods (Microsoft Access workspaces only).
 
 ## Syntax
@@ -44,6 +39,7 @@ If the **Seek** or **Find** method is unsuccessful and the **NoMatch** property 
 
 This example uses the **NoMatch** property to determine whether a **Seek** and a **FindFirst** were successful, and if not, to give appropriate feedback. The SeekMatch and FindMatch procedures are required for this procedure to run.
 
+```vb
     Sub NoMatchX() 
      
      Dim dbsNorthwind As Database 
@@ -160,4 +156,4 @@ This example uses the **NoMatch** property to determine whether a **Seek** and a
      End With 
      
     End Sub
-
+```

@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example demonstrates the [GetPermissions](getpermissions-method-adox.md) and [SetPermissions](setpermissions-method-adox.md) methods. The following code gives full access for the Orders table to the Admin user.
 
-``` 
+```vb 
  
 ' BeginGrantPermissionsVB 
 Sub GrantPermissions() 

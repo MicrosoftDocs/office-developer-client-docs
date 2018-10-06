@@ -14,13 +14,7 @@ f1_categories:
 
 # Index.Unique Property (DAO)
 
-
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Syntax  
-Remarks  
-Example  
 
 Sets or returns a value that indicates whether an **[Index](index-object-dao.md)** object represents a unique (key) index for a table (Microsoft Access workspaces only).
 
@@ -58,6 +52,7 @@ If both the **Unique** and **[Primary](index-primary-property-dao.md)** properti
 
 This example sets the **Unique** property of a new **Index** object to **True**, and appends the Index to the **Indexes** collection of the Employees table. It then enumerates the **Indexes** collection of the **TableDef** and the **Properties** collection of each **Index**. The new **Index** will only allow one record with a particular combination of Country, LastName, and FirstName in the **TableDef**.
 
+```vb
     Sub UniqueX() 
      
        Dim dbsNorthwind As Database 
@@ -107,4 +102,4 @@ This example sets the **Unique** property of a new **Index** object to **True**,
        dbsNorthwind.Close 
      
     End Sub
-
+```

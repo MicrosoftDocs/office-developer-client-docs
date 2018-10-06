@@ -13,10 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
 
 Sets or returns the default value of a **[Field](field-object-dao.md)** object. For a **Field** object not yet appended to the **[Fields](fields-collection-dao.md)** collection, this property is read/write (Microsoft Access workspaces only).
 
@@ -82,6 +78,7 @@ The **DefaultValue** property doesn't apply to **AutoNumber** and **Long Binary*
 
 This example uses the **DefaultValue** property to alert the user of a field's normal value while prompting for input. In addition, it demonstrates how new records will be filled using **DefaultValue** in the absence of any other input. The DefaultPrompt function is required for this procedure to run.
 
+```vb
     Sub DefaultValueX() 
      
      Dim dbsNorthwind As Database 
@@ -152,4 +149,4 @@ This example uses the **DefaultValue** property to alert the user of a field's n
      DefaultPrompt = InputBox(strFullPrompt) 
      
     End Function
-
+```

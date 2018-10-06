@@ -13,12 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Parameters  
-Return Value  
-Remarks  
-
 Reads specified number of characters from a text [Stream](stream-object-ado.md) object.
 
 ## Syntax

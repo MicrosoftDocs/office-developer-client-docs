@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 The following code demonstrates how to use a [Command](command-object-ado.md) object and the [Views](views-collection-adox.md) collection [Append](append-method-adox-views.md) method to create a new view in the underlying data source.
 
-``` 
+```vb 
  
 ' BeginCreateViewVB 
 Sub Main() 

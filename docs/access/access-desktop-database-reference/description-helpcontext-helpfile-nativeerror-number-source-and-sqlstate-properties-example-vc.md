@@ -15,6 +15,7 @@ mtps_version: v=office.15
 
 This example triggers an error, traps it, and displays the [Description](description-property-ado.md), [HelpContext](helpcontext-helpfile-properties-ado.md), [HelpFile](helpcontext-helpfile-properties-ado.md), [NativeError](nativeerror-property-ado.md), [Number](number-property-ado.md), [Source](source-property-ado-error.md), and [SQLState](sqlstate-property-ado.md) properties of the resulting [Error](error-object-ado.md) object.
 
+```cpp
     // BeginDescriptionCpp
     #import "C:\Program Files\Common Files\System\ADO\msado15.dll"     no_namespace rename("EOF", "EndOfFile")
     
@@ -154,4 +155,4 @@ This example triggers an error, traps it, and displays the [Description](descrip
        printf("\tDescription = %s\n", (LPCSTR) bstrDescription);
     }
     // EndDescriptionCpp
-
+```

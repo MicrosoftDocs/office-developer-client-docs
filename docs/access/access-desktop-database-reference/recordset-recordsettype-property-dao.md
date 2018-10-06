@@ -14,13 +14,7 @@ f1_categories:
 
 # Recordset.RecordsetType Property (DAO)
 
-
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Syntax  
-Remarks  
-Example  
 
 You can use the **RecordsetType** property to specify what kind of recordset is made available to a form. Read/write **Byte**.
 
@@ -69,7 +63,7 @@ The **RecordsetType** property uses the following settings in a Microsoft Access
 
 
 > [!NOTE]
-> <P>If you don't want data in bound controls to be edited when a form is in Form view or Datasheet view, you can set the <STRONG>RecordsetType</STRONG> property to 2.</P>
+> If you don't want data in bound controls to be edited when a form is in Form view or Datasheet view, you can set the **RecordsetType** property to 2.
 
 
 
@@ -105,7 +99,7 @@ The **RecordsetType** property uses the following settings in a Microsoft Access
 
 
 > [!NOTE]
-> <P>Changing the <STRONG>RecordsetType</STRONG> property of an open form or report causes an automatic recreation of the recordset.</P>
+> Changing the **RecordsetType** property of an open form or report causes an automatic recreation of the recordset.
 
 
 
@@ -117,18 +111,17 @@ In addition to the editing control provided by **RecordsetType**, each control o
 
 In the following example, only if the user ID is ADMIN can records be updated. This code sample sets the **RecordsetType** property to Snapshot if the public variable gstrUserID value is not ADMIN.
 
+```vb
     Sub Form_Open(Cancel As Integer) 
      Const conSnapshot = 2 
      If gstrUserID <> "ADMIN" Then 
      Forms!Employees.RecordsetType = conSnapshot 
      End If 
     End Sub
+```
 
 ## See also
 
-#### Other resources
+- [Form Object](https://docs.microsoft.com/office/vba/api/Access.Form)
 
-[Form Object](https://msdn.microsoft.com/library/ff195841\(v=office.15\))
-
-[Form Object Members](https://msdn.microsoft.com/library/ff835672\(v=office.15\))
 

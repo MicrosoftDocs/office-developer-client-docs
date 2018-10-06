@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example uses the [Delete](delete-method-ado-recordset.md) method to remove a specified record from a [Recordset](recordset-object-ado.md).
 
-``` 
+```java 
  
 // BeginDeleteJ 
 // The WFC class includes the ADO objects. 

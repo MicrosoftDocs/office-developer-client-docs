@@ -15,6 +15,7 @@ mtps_version: v=office.15
 
 You can use the **If** macro block to conditionally execute a group of actions, depending on the value of an expression.
 
+```vb
     If expression Then 
      Insert macro actions here ... 
     Else If expression 
@@ -22,6 +23,7 @@ You can use the **If** macro block to conditionally execute a group of actions, 
     Else 
      Insert macro actions here ... 
     End If
+```
 
 ## Setting
 
@@ -59,6 +61,7 @@ You can click **Add Else** to insert an optional **Else** block. In this case, t
 
 In the following code example, the macro actions in the first block execute if the value of \[Status\] is greater than 0. If the value of \[Status\] is not greater than 0, the expression that follows the **Else If** is evaluated. The macro actions in the **Else If** block execute if the value of \[Status\] is equal to 0. Finally, if neither the first block nor the second block execute, the actions in the **Else** block execute.
 
+```vb
     If [Status] > 0 Then 
      Insert macro actions here ... 
     Else If [Status] = 0 
@@ -66,12 +69,14 @@ In the following code example, the macro actions in the first block execute if t
     Else 
      Insert macro actions here ... 
     End If
+```
 
 You can nest **If** blocks. You should consider nesting an **If** block within an **If** block if you want to evaluate a second expression when the first expression is True. In the following code example, the inner **If** block only executes when the value of \[Status\] is both greater than 0 *and* greater than 100.
 
+```vb
     If [Status] > 0 Then 
      Insert macro actions here ... 
      If [Status] > 100 
      Insert macro actions here ... 
      EndifEnd If
-
+```

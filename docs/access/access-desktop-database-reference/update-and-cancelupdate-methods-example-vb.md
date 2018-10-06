@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example demonstrates the [Update](update-method-ado.md) method in conjunction with the [CancelUpdate](cancelupdate-method-ado.md) method.
 
-``` 
+```vb 
  
 'BeginUpdateVB 
 Public Sub Main() 
@@ -105,9 +105,11 @@ End Sub
 ' EndUpdateVB 
 ```
 
+<br/>
+
 This example demonstrates the **Update** method in conjunction with the [AddNew](addnew-method-ado.md) method.
 
-``` 
+```vb 
  
 ' BeginUpdate2VB 
 Public Sub Main() 

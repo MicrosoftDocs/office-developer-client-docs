@@ -33,6 +33,7 @@ With the same syntax forms, you can also refer to the **Value** property of a **
 
 This example shows what properties are valid for a **Field** object depending on where the **Field** resides (for example, the **Fields** collection of a **TableDef**, the **Fields** collection of a **QueryDef**, and so forth). The FieldOutput procedure is required for this procedure to run.
 
+```vb
     Sub FieldX() 
      
      Dim dbsNorthwind As Database 
@@ -92,9 +93,13 @@ This example shows what properties are valid for a **Field** object depending on
      Next prpLoop 
      
     End Sub 
+```
+
+<br/>
 
 This example uses the **CreateField** method to create three **Fields** for a new **TableDef**. It then displays the properties of those **Field** objects that are automatically set by the **CreateField** method. (Properties whose values are empty at the time of **Field** creation are not shown.)
 
+```vb
     Sub CreateFieldX() 
      
      Dim dbsNorthwind As Database 
@@ -142,4 +147,4 @@ This example uses the **CreateField** method to create three **Fields** for a ne
      dbsNorthwind.Close 
      
     End Sub
-
+```

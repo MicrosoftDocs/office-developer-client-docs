@@ -17,11 +17,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 Returns a value that indicates the state of editing for the current record.
 
 ## Syntax
@@ -42,6 +37,7 @@ You can also check to see if the **[LockEdits](recordset2-lockedits-property-dao
 
 This example shows the value of the **EditMode** property under various conditions. The EditModeOutput function is required for this procedure to run.
 
+```vb
     Sub EditModeX() 
      
      Dim dbsNorthwind As Database 
@@ -89,4 +85,4 @@ This example shows the value of the **EditMode** property under various conditio
      End Select 
      
     End Function
-
+```

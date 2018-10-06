@@ -17,9 +17,9 @@ Portable computing (for example, using laptops) has generated the need for appli
 
 There are several scenarios in which you could use this type of feature, including the following:
 
-  - **Traveling:** When taking the application on the road, it is vital to supply the ability to make changes and add new records that can then be reconnected to the database later and committed.
+- **Traveling:** When taking the application on the road, it is vital to supply the ability to make changes and add new records that can then be reconnected to the database later and committed.
 
-  - **Infrequently updated lookups:** Often in an application, tables are used as lookups — for example, state tax tables. They are infrequently updated and are read-only. Instead of rereading this data from the server each time the application is started, the application can simply load the data from a locally persisted **Recordset**.
+- **Infrequently updated lookups:** Often in an application, tables are used as lookups — for example, state tax tables. They are infrequently updated and are read-only. Instead of rereading this data from the server each time the application is started, the application can simply load the data from a locally persisted **Recordset**.
 
 In ADO, to save and load **Recordsets**, use the **Recordset.Save** and **Recordset.Open(,,,,adCmdFile)** methods on the ADO **Recordset** object.
 
@@ -27,7 +27,7 @@ You can use the **Recordset** **Save** method to persist your ADO **Recordset** 
 
 The syntax of the **Save** method is as follows:
 
-    recordset.Save Destination, PersistFormat
+`recordset.Save Destination, PersistFormat`
 
 The first time you save the **Recordset**, it is optional to specify *Destination*. If you omit *Destination*, a new file will be created with a name set to the value of the [Source](source-property-ado-recordset.md) property of the **Recordset**.
 
@@ -49,7 +49,7 @@ Because the *Destination* parameter can accept any object that supports the OLE 
 
 In the following example, the **Save** and **Open** methods are used to persist a **Recordset** and later reopen it:
 
-``` 
+```vb 
  
 'BeginPersist 
  conn.ConnectionString = _ 

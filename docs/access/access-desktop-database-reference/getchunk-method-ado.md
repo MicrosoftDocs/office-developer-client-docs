@@ -13,11 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Return Value  
-Parameters  
-Remarks  
 
 Returns all, or a portion, of the contents of a large text or binary data [Field](field-object-ado.md) object.
 

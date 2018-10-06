@@ -19,7 +19,7 @@ mtps_version: v=office.15
 
 Create a new subroutine named recFields and insert the following code:
 
-``` 
+```vb 
  
 Sub recFields(r As Record, l As ListBox, t As TextBox) 
     Dim f As Field 

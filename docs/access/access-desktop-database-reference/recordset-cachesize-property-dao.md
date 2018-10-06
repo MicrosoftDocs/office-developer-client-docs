@@ -13,11 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 Sets or returns the number of records retrieved from an ODBC data source that will be cached locally. Read/write **Long**.
 
 ## Syntax
@@ -46,6 +41,7 @@ To force an update of all the cached data, set the **CacheSize** property of the
 
 This example uses the **CreateTableDef** and **FillCache** methods and the **CacheSize**, **CacheStart** and **SourceTableName** properties to enumerate the records in a linked table twice. Then it enumerates the records twice with a 50-record cache. The example then displays the performance statistics for the uncached and cached runs through the linked table.
 
+```vb
     Sub ClientServerX3() 
      
      Dim dbsCurrent As Database 
@@ -139,4 +135,4 @@ This example uses the **CreateTableDef** and **FillCache** methods and the **Cac
      dbsCurrent.Close 
      
     End Sub
-
+```

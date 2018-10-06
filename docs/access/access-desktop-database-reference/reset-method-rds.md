@@ -13,11 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Parameters  
-Remarks  
-
 Executes the sort or filter on a client-side **Recordset** based on the specified sort and filter properties.
 
 ## Syntax

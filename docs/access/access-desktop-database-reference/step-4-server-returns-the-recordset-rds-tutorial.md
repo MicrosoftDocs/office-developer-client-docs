@@ -17,7 +17,7 @@ RDS converts the retrieved **Recordset** object to a form that can be sent back 
 
 On the client side, a **Recordset** object is returned and assigned to a local variable.
 
-``` 
+```vb 
  
 Sub RDSTutorial4() 
  Dim DS as New RDS.DataSpace 

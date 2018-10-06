@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example uses the [Filter](filter-property-ado.md) property to open a new [Recordset](recordset-object-ado.md) based on a specified condition applied to an existing **Recordset**. It uses the [RecordCount](recordcount-property-ado.md) property to show the number of records in the two **Recordsets**. The FilterField function is required for this procedure to run.
 
-``` 
+```java 
  
 // BeginFilterJ 
 // The WFC class includes the ADO objects. 

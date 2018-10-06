@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example uses the [MaxRecords](maxrecords-property-ado.md) property to open a [Recordset](recordset-object-ado.md) containing the 10 most expensive titles in the ***Titles*** table.
 
-``` 
+```cpp 
  
 // BeginMaxRecordsCpp 
 #import "C:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF","EndOfFile") 

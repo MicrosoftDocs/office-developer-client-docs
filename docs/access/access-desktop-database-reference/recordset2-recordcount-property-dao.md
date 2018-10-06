@@ -17,11 +17,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 Returns the number of records accessed in a **[Recordset](recordset-object-dao.md)** object, or the total number of records in a table-type **Recordset** object. or **[TableDef](tabledef-object-dao.md)** object. Read-only **Long**.
 
 ## Syntax
@@ -52,6 +47,7 @@ Using the **[Requery](recordset2-requery-method-dao.md)** method on a **Recordse
 
 This example demonstrates the **RecordCount** property with different types of **Recordsets** before and after they're populated.
 
+```vb
     Sub RecordCountX() 
      
      Dim dbsNorthwind As Database 
@@ -128,4 +124,4 @@ This example demonstrates the **RecordCount** property with different types of *
      End With 
      
     End Sub
-
+```

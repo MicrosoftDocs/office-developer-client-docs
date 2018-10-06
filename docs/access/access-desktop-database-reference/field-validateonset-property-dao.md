@@ -17,11 +17,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 Sets or returns a value that specifies whether or not the value of a **[Field](field-object-dao.md)** object is immediately validated when the object's **[Value](field-value-property-dao.md)** property is set (Microsoft Access workspaces only).
 
 ## Syntax
@@ -40,6 +35,7 @@ Setting the **ValidateOnSet** property to **True** can be useful in a situation 
 
 This example uses the **ValidateOnSet** property to demonstrate how one might trap for errors during data entry. The ValidateData function is required for this procedure to run.
 
+```vb
     Sub ValidateOnSetX() 
      
      Dim dbsNorthwind As Database 
@@ -145,4 +141,4 @@ This example uses the **ValidateOnSet** property to demonstrate how one might tr
      Resume Next 
      
     End Function
-
+```

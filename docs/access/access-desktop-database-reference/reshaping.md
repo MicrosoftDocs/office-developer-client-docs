@@ -19,7 +19,7 @@ Reshaping has two main functions. The first is to associate an existing **Record
 
 ## Example
 
-``` 
+```vb 
  
 . . . 
 rs1.Open "SHAPE {select * from Customers} " & _ 
@@ -31,7 +31,7 @@ rs2.Open "SHAPE {select * from Employees} " & _
 . . . 
 ```
 
-The second function is to enable non-chaptered access to existing child **Recordset** objects, using the syntax "SHAPE \<recordset reshape name\>".
+The second function is to enable non-chaptered access to existing child **Recordset** objects, using the syntax `"SHAPE <recordset reshape name>"`.
 
 
 > [!NOTE]

@@ -19,11 +19,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 Creates a union query, which combines the results of two or more independent queries or tables.
 
 ## Syntax
@@ -56,7 +51,7 @@ The UNION operation has these parts:
 
 You can merge the results of two or more queries, tables, and SELECT statements, in any combination, in a single UNION operation. The following example merges an existing table named New Accounts and a SELECT statement:
 
-``` sql
+```sql
 TABLE [New Accounts] UNION ALL 
 SELECT * 
 FROM Customers 
@@ -85,6 +80,7 @@ This example retrieves the names and cities of all suppliers and customers in Br
 
 This example calls the EnumFields procedure, which you can find in the SELECT statement example.
 
+```vb
     Sub UnionX() 
      
         Dim dbs As Database, rst As Recordset 
@@ -112,4 +108,4 @@ This example calls the EnumFields procedure, which you can find in the SELECT st
         dbs.Close 
      
     End Sub
-
+```

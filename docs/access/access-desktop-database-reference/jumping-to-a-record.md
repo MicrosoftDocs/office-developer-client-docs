@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 The [Move](move-method-ado.md) method allows you to move forward or backward in the **Recordset** a specified number of records by using the following syntax:
 
-``` 
+```vb 
  
 oRs.Move NumRecords, Start
 ```

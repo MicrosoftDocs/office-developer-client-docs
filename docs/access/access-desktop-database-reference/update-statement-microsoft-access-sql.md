@@ -19,11 +19,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 Creates an update query that changes values in fields in a specified table based on specified criteria.
 
 ## Syntax
@@ -66,7 +61,7 @@ UPDATE is especially useful when you want to change many records or when the rec
 
 You can change several fields at the same time. The following example increases the Order Amount values by 10 percent and the Freight values by 3 percent for shippers in the United Kingdom:
 
-``` sql
+```sql
 UPDATE Orders 
 SET OrderAmount = OrderAmount * 1.1, 
 Freight = Freight * 1.03 
@@ -87,6 +82,7 @@ WHERE ShipCountry = 'UK';
 
 This example changes values in the ReportsTo field to 5 for all employee records that currently have ReportsTo values of 2.
 
+```vb
     Sub UpdateX() 
      
         Dim dbs As Database 
@@ -106,4 +102,4 @@ This example changes values in the ReportsTo field to 5 for all employee records
         dbs.Close 
      
     End Sub
-
+```

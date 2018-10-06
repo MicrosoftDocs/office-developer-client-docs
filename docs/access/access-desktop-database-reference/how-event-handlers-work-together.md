@@ -13,10 +13,7 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Paired Event Handlers  
-Unpaired Event Handlers  
-Single Event Handlers and Multiple Objects  
+
 
 Unless you are programming in Visual Basic, all event handlers for **Connection** and **Recordset** events must be implemented, regardless of whether you actually process all of the events. The amount of implementation work you have to do depends on your programming language. For more information, see [ADO Event Instantiation by Language](https://msdn.microsoft.com/library/jj250244\(v=office.15\)).
 

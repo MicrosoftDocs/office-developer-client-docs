@@ -13,10 +13,7 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Parameter  
-Remarks  
+
 
 Loads the contents of an existing file into a [Stream](stream-object-ado.md).
 

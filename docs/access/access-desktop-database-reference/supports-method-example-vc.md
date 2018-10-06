@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example uses the [Supports](supports-method-ado.md) method to display the options supported by a recordset opened with different cursor types. The DisplaySupport function is required for this example to run.
 
-``` 
+```cpp 
  
 // BeginSupportsCpp 
 #import "C:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 

@@ -17,10 +17,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
 
 Returns the number of bytes used in the database (rather than in memory) of a Memo or Long Binary **Field2** object in the **[Fields](fields-collection-dao.md)** collection of a **[Recordset](recordset-object-dao.md)** object.
 
@@ -50,6 +46,7 @@ The **FieldSize** property and the VBA **Len()** or **LenB()** functions may ret
 
 This example uses the **FieldSize** property to list the number of bytes used by the Memo and Long Binary Field objects in two different tables.
 
+```vb
     Sub FieldSizeX() 
      
      Dim dbsNorthwind As Database 
@@ -103,9 +100,13 @@ This example uses the **FieldSize** property to list the number of bytes used by
      dbsNorthwind.Close 
      
     End Sub 
+```
+
+<br/>
 
 This example uses the **AppendChunk** and **GetChunk** methods to fill an OLE object field with data from another record, 32K at a time. In a real application, one might use a procedure like this to copy an employee record (including the employee's photo) from one table to another. In this example, the record is simply being copied back to same table. Note that all the chunk manipulation takes place within a single AddNew-Update sequence.
 
+```vb
     Sub AppendChunkX() 
      
      Dim dbsNorthwind As Database 
@@ -160,4 +161,4 @@ This example uses the **AppendChunk** and **GetChunk** methods to fill an OLE ob
      Loop 
      
     End Function
-
+```

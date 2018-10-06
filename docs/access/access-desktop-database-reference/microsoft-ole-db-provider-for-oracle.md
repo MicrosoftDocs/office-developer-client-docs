@@ -10,13 +10,7 @@ mtps_version: v=office.15
 
 # Microsoft OLE DB Provider for Oracle
 
-
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Connection String Parameters  
-Typical Connection String  
-Provider-Specific Connection Parameters  
 
 The Microsoft OLE DB Provider for Oracle allows ADO to access Oracle databases.
 
@@ -24,7 +18,7 @@ The Microsoft OLE DB Provider for Oracle allows ADO to access Oracle databases.
 
 To connect to this provider, set the *Provider* argument of the [ConnectionString](connectionstring-property-ado.md) property to:
 
-``` 
+```vb 
  
 MSDAORA 
 ```
@@ -37,7 +31,7 @@ If a join query with a keyset or dynamic cursor is executed in an Oracle databas
 
 A typical connection string for this provider is:
 
-``` 
+```vb 
  
 "Provider=MSDAORA;Data Source=serverName;User ID=userName; Password=userPassword;" 
 ```

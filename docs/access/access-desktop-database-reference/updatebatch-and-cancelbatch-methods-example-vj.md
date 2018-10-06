@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example demonstrates the [UpdateBatch](updatebatch-method-ado.md) method in conjunction with the [CancelBatch](cancelbatch-method-ado.md) method.
 
-``` 
+```java 
  
 // BeginUpdateBatchJ 
 import java.io.*; 

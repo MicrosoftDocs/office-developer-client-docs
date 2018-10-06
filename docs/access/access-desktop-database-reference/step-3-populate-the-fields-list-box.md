@@ -19,7 +19,7 @@ mtps_version: v=office.15
 
 Insert the following code into the Click event handler of lstMain:
 
-``` 
+```vb 
  
 Private Sub lstMain_Click() 
     Dim rec As Record 

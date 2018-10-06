@@ -53,6 +53,7 @@ With the same syntax forms, you can also refer to the **Value** property of a **
 
 This example creates a user-defined property for the current database, sets its **Type** and **Value** properties, and appends it to the **Properties** collection of the database. Then the example enumerates all properties in the database.
 
+```vb
     Sub PropertyX() 
      
      Dim dbsNorthwind As Database 
@@ -87,9 +88,13 @@ This example creates a user-defined property for the current database, sets its 
      End With 
      
     End Sub 
+```
+
+<br/>
 
 This example tries to set the value of a user-defined property. If the property doesn't exist, it uses the **CreateProperty** method to create and set the value of the new property. The SetProperty procedure is required for this procedure to run.
 
+```vb
     Sub CreatePropertyX() 
      
      Dim dbsNorthwind As Database 
@@ -152,4 +157,4 @@ This example tries to set the value of a user-defined property. If the property 
      End If 
      
     End Sub
-
+```

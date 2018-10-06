@@ -29,7 +29,7 @@ For an example of **Recordset** persistence, see the [XML Recordset Persistence 
 
 **Save a Recordset:**
 
-``` 
+```vb 
  
 Dim rs as New ADODB.Recordset 
 rs.Save "c:\yourFile.adtg", adPersistADTG 
@@ -37,7 +37,7 @@ rs.Save "c:\yourFile.adtg", adPersistADTG
 
 **Open a persisted file with Recordset.Open:**
 
-``` 
+```vb 
  
 Dim rs as New ADODB.Recordset 
 rs.Open "c:\yourFile.adtg", "Provider='MSPersist'",,,adCmdFile
@@ -45,7 +45,7 @@ rs.Open "c:\yourFile.adtg", "Provider='MSPersist'",,,adCmdFile
 
 Optionally, if the **Recordset** does not have an active connection, you can accept all the defaults and simply code the following:
 
-``` 
+```vb 
  
 Dim rs as New ADODB.Recordset 
 rs.Open "c:\yourFile.adtg" 
@@ -53,7 +53,7 @@ rs.Open "c:\yourFile.adtg"
 
 **Open a persisted file with Connection.Execute:**
 
-``` 
+```vb 
  
 Dim conn as New ADODB.Connection 
 Dim rs as ADODB.Recordset 
@@ -65,7 +65,7 @@ Set rs = conn.execute("c:\yourFile.adtg")
 
 In this case, the **Server** property is not set.
 
-``` 
+```vb 
  
 Dim dc as New RDS.DataControl 
 dc.Connection = "Provider='MSPersist'" 

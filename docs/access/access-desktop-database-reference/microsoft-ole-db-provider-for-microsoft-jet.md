@@ -10,20 +10,7 @@ mtps_version: v=office.15
 
 # Microsoft OLE DB Provider for Microsoft Jet
 
-
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Connection String Parameters  
-Typical Connection String  
-Provider-Specific Connection Parameters  
-Provider-Specific Recordset and Command Properties  
-Command Object Usage  
-Recordset Behavior  
-Dynamic Properties  
-Connection Dynamic Properties  
-Recordset Dynamic Properties  
-Command Dynamic Properties  
 
 The OLE DB Provider for Microsoft Jet allows ADO to access Microsoft Jet databases.
 
@@ -31,7 +18,7 @@ The OLE DB Provider for Microsoft Jet allows ADO to access Microsoft Jet databas
 
 To connect to this provider, set the *Provider* argument of the [ConnectionString](connectionstring-property-ado.md) property to:
 
-``` 
+```vb 
  
 Microsoft.Jet.OLEDB.4.0 
 ```
@@ -42,7 +29,7 @@ Reading the [Provider](provider-property-ado.md) property will return this strin
 
 A typical connection string for this provider is:
 
-``` 
+```vb 
  
 "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=databaseName;User ID=userName;Password=userPassword;" 
 ```
@@ -1190,5 +1177,7 @@ The following properties are added to the **Command** object's **Properties** co
 </table>
 
 
-**See Also**For specific implementation details and functional information about the OLE DB Provider for Microsoft Jet, consult the OLE DB Provider for Microsoft Jet documentation in the MDAC SDK.
+## See also
+
+For specific implementation details and functional information about the OLE DB Provider for Microsoft Jet, consult the OLE DB Provider for Microsoft Jet documentation in the MDAC SDK.
 

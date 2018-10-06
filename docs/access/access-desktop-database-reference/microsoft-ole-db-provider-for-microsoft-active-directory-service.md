@@ -10,13 +10,7 @@ mtps_version: v=office.15
 
 # Microsoft OLE DB Provider for Microsoft Active Directory Service
 
-
 **Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Connection String Parameters  
-Typical Connection String  
-Recordset Behavior  
 
 The Microsoft Active Directory Service Interfaces (ADSI) Provider allows ADO to connect to heterogeneous directory services through ADSI. This gives ADO applications read-only access to the Microsoft Windows NT 4.0 and Microsoft Windows 2000 directory services, in addition to any LDAP-compliant directory service and Novell Directory Services. ADSI itself is based on a provider model, so if there is a new provider giving access to another directory, the ADO application will be able to access it seamlessly. The ADSI provider is free-threaded and unicode enabled.
 
@@ -24,7 +18,7 @@ The Microsoft Active Directory Service Interfaces (ADSI) Provider allows ADO to 
 
 To connect to this provider, set the **Provider** argument of the [ConnectionString](connectionstring-property-ado.md) property to:
 
-``` 
+```vb 
  
 ADSDSOObject 
 ```
@@ -35,7 +29,7 @@ Reading the [Provider](provider-property-ado.md) property will return this strin
 
 A typical connection string for this provider is:
 
-``` 
+```vb 
  
 "Provider=ADSDSOObject;User ID=userName;Password=userPassword;" 
 ```
@@ -74,7 +68,7 @@ The string consists of these keywords:
 
 A four-part command text string is recognized by the provider in the following syntax:
 
-    "Root; Filter; Attributes[; Scope]"
+`"Root; Filter; Attributes[; Scope]"`
 
 <table>
 <colgroup>
@@ -112,14 +106,14 @@ Subtree — Search the entire subtree.</p></td>
 
 For example:
 
-``` 
+```vb 
  
 "<LDAP://DC=ArcadiaBay,DC=COM>;(objectClass=*);sn, givenName; subtree" 
 ```
 
 The provider also supports SQL SELECT for command text. For example:
 
-``` 
+```vb 
  
 "SELECT title, telephoneNumber From 'LDAP://DC=Microsoft, DC=COM' WHERE 
 objectClass='user' AND objectCategory='Person'" 

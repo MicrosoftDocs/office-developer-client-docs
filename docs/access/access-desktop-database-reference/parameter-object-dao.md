@@ -33,6 +33,7 @@ Using the properties of a **Parameter** object, you can set a query parameter th
 
 This example demonstrates **Parameter** objects and the **Parameters** collection by creating a temporary **QueryDef** and retrieving data based on changes made to the **QueryDef** object's **Parameters**. The ParametersChange procedure is required for this procedure to run.
 
+```vb
     Sub ParameterX() 
      
      Dim dbsNorthwind As Database 
@@ -94,4 +95,4 @@ This example demonstrates **Parameter** objects and the **Parameters** collectio
      rstTemp.Close 
      
     End Sub
-
+```

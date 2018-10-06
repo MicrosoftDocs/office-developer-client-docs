@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example uses the [OpenSchema](openschema-method-ado.md) method to display the name and type of each table in the ***Pubs*** database.
 
-``` 
+```cpp 
  
 // BeginOpenSchemaCpp 
 #import "c:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 

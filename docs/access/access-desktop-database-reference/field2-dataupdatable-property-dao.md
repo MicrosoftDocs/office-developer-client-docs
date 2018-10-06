@@ -13,10 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
 
 Returns a value that indicates whether the data in the field represented by a **Field2** object is updatable.
 
@@ -36,7 +32,7 @@ You can use the **DataUpdatable** property on **Field2** objects that are append
 
 This example demonstrates the **DataUpdatable** property using the first field from six different **Recordsets**. The DataOutput function is required for this procedure to run.
 
-``` 
+```vb 
 Sub DataUpdatableX() 
  
  Dim dbsNorthwind As Database 

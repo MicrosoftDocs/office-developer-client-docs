@@ -13,13 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Examining the Fields Collection  
-Counting Columns  
-Getting to the Field  
-Using the Refresh Method  
-Adding Fields to a Recordset  
-
 The **Fields** collection is one of ADO's intrinsic collections. A collection is an ordered set of items that can be referred to as a unit.
 
 The **Fields** collection contains a **Field** object for every field (column) in the **Recordset**. Like all ADO collections, it has **Count** and **Item** properties, as well as **Append** and **Refresh** methods. It also has **CancelUpdate**, **Delete**, **Resync**, and **Update** methods, which are not available to other ADO collections.
@@ -28,14 +21,14 @@ The **Fields** collection contains a **Field** object for every field (column) i
 
 Consider the **Fields** collection of the sample **Recordset** introduced in this chapter. The sample **Recordset** was derived from the SQL statement
 
-``` 
+```sql 
  
 SELECT ProductID, ProductName, UnitPrice FROM Products WHERE CategoryID = 7 
 ```
 
 Thus, you should find that the **Recordset** **Fields** collection contains three fields.
 
-``` 
+```vb 
  
 'BeginWalkFields 
  Dim objFields As ADODB.Fields 
@@ -62,7 +55,7 @@ If the **Count** property is zero, there are no objects in the collection.
 
 As with any ADO collection, the **Item** property is the default property of the collection. It returns the individual **Field** object specified by the name or index passed to it. Therefore, the following statements are equivalent for the sample **Recordset**:
 
-``` 
+```vb 
  
 objField = objRecordset.Fields.Item("ProductID") 
 objField = objRecordset.Fields("ProductID") 
@@ -84,7 +77,7 @@ You can use the **Append** method to fabricate a **Recordset** programmatically 
 
 Developers often need a place to temporarily store some data, or want some data to act as if it came from a server so it can participate in data binding in a user interface. ADO (in conjunction with the [Microsoft Cursor Service for OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md)) enables the developer to build an empty **Recordset** object by specifying column information and calling **Open**. In the following example, three new fields are appended to a new **Recordset** object. Then the **Recordset** is opened, two new records are added, and the **Recordset** is persisted to a file. (For more information about **Recordset** persistence, see [Chapter 5: Updating and Persisting Data](chapter-5-updating-and-persisting-data.md).)
 
-``` 
+```vb 
  
  'BeginFabricate 
  Dim objRs As New ADODB.Recordset 

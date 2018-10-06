@@ -21,7 +21,7 @@ If there are update errors, they will be trapped in an error-handling routine. F
 
 The code to alert the user to the update conflict looks like this:
 
-``` 
+```vb 
  
 objRs.Filter = adFilterConflictingRecords 
 objRs.MoveFirst 

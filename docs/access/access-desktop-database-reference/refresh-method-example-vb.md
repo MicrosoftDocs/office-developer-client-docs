@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example demonstrates using the [Refresh](refresh-method-ado.md) method to refresh the [Parameters](parameters-collection-ado.md) collection for a stored procedure [Command](command-object-ado.md) object.
 
-``` 
+```vb 
  
 Option Explicit 
  

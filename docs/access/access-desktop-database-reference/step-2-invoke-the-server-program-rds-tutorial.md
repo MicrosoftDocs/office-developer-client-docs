@@ -21,7 +21,7 @@ Set the **RDS.DataControl** object [Server](server-property-rds.md) property to 
 
 This tutorial does not use the **RDS.DataControl**, but this is how it would look if it did:
 
-``` 
+```vb 
  
 Sub RDSTutorial2A() 
  Dim DC as New RDS.DataControl 
@@ -34,7 +34,7 @@ Sub RDSTutorial2A()
 
 Nor does the tutorial invoke RDS with ADO objects, but this is how it would look if it did:
 
-``` 
+```vb 
  
 Dim rs as New ADODB.Recordset 
 rs.Open "SELECT * FROM Authors","Provider=MS Remote;Data Source=Pubs;" & _ 
@@ -45,7 +45,7 @@ rs.Open "SELECT * FROM Authors","Provider=MS Remote;Data Source=Pubs;" & _
 
 This tutorial uses the **DataFactory** object **Query** method:
 
-``` 
+```vb 
  
 Sub RDSTutorial2B() 
  Dim DS as New RDS.DataSpace 

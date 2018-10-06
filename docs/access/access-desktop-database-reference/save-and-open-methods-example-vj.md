@@ -17,7 +17,7 @@ These three examples demonstrate how the [Save](save-method-ado.md) and **Open**
 
 Assume you are going on a business trip and want to take along a table from a database. Before you go, you access the data as a [Recordset](recordset-object-ado.md) and save it in a transportable form. When you arrive at your destination, you access the **Recordset** as a local, disconnected **Recordset**. You make changes to the **Recordset**, then save it again, along with your changes. Finally, when you return home, you connect to the database again and update it with the changes you made on the road.
 
-``` 
+```java 
  
 // BeginSaveJ 
 import com.ms.wfc.data.*; 

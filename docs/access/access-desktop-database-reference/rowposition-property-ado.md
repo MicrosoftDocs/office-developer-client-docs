@@ -13,12 +13,7 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Parameters  
-Return Values  
-Remarks  
-Applies To  
+
 
 Gets or sets an OLE DB **RowPosition** object from/on an **ADORecordsetConstruction** object. When you use **put\_RowPosition** to set the **RowPosition** object, the resulting **Recordset** object uses the **RowPosition** object to determine the current row.
 

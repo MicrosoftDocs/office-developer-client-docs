@@ -21,7 +21,7 @@ The visual control object must have its **DATASRC** parameter set to the **RDS.D
 
 In this tutorial, set the **SourceRecordset** property:
 
-``` 
+```vb 
  
 Sub RDSTutorial5() 
  Dim DS as New RDS.DataSpace 

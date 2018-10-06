@@ -17,10 +17,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
 
 ## Syntax
 
@@ -50,7 +46,7 @@ The Microsoft SQL Server driver automatically sets the **Direction** property fo
 
 This example uses the **Direction** property to configure the parameters of a query to an ODBC data source.
 
-``` 
+```vb 
 Sub DirectionX() 
  
  Dim wrkMain As Workspace 

@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 The following code demonstrates how to use the [ParentCatalog](parentcatalog-property-adox.md) property to access a provider-specific property prior to appending a table to a catalog. The property is AutoIncrement, which creates an AutoIncrement field in a Microsoft Jet database.
 
-``` 
+```cpp 
  
 // BeginCreateAutoIncrColumnCpp 
 #import "c:\Program Files\Common Files\system\ado\msadox.dll" no_namespace 

@@ -17,11 +17,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 Moves the position of the current record in a **[Recordset](recordset-object-dao.md)** object.
 
 ## Syntax
@@ -88,6 +83,7 @@ If either the **BOF** or **EOF** property is **True** and you attempt to use the
 
 This example uses the **Move** method to position the record pointer based on user input.
 
+```vb
     Sub MoveX() 
      
        Dim dbsNorthwind As Database 
@@ -145,4 +141,4 @@ This example uses the **Move** method to position the record pointer based on us
        dbsNorthwind.Close 
      
     End Sub
-
+```

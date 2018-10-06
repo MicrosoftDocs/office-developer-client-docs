@@ -15,12 +15,7 @@ f1_categories:
 # TableDef.SourceTableName Property (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
-
-**In this article**  
-Syntax  
-Remarks  
-Example  
+**Applies to**: Access 2013 | Office 2013 
 
 Sets or returns a value that specifies the name of a linked table or the name of a base table (Microsoft Access workspaces only).
 
@@ -38,7 +33,7 @@ This property setting is read-only for a base table and read/write for a linked 
 
 This example uses the **Connect** and **SourceTableName** properties to link various external tables to a Microsoft Access database. The ConnectOutput procedure is required for this procedure to run.
 
-``` 
+```vb 
 Sub ConnectX() 
  
  Dim dbsTemp As Database 

@@ -13,12 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Scenario 1  
-Scenario 2  
-Scenario 3  
-Scenario 4  
-
 The [Recordset](recordset-object-ado.md) object [Save](save-method-ado.md) method stores, or *persists*, a **Recordset** in a file, and the [Open](open-method-ado-recordset.md) method restores the **Recordset** from that file.
 
 With ADO 2.5, the **Save** and **Open** methods can persist a **Recordset** to a [Stream](stream-object-ado.md) object as well. This feature is especially useful when working with Remote Data Service (RDS) and Active Server Pages (ASP).
@@ -31,7 +25,7 @@ The following are a few scenarios that show how **Stream** objects and persisten
 
 This scenario simply saves a **Recordset** to a file and then to a **Stream**. It then opens the persisted stream into another **Recordset**.
 
-``` 
+```vb 
  
 Dim rs1 As ADODB.Recordset 
 Dim rs2 As ADODB.Recordset 
@@ -53,7 +47,7 @@ rs2.Open stm
 
 This scenario persists a **Recordset** into a **Stream** in XML format. It then reads the **Stream** into a string that you can examine, manipulate, or display.
 
-``` 
+```vb 
  
 Dim rs As ADODB.Recordset 
 Dim stm As ADODB.Stream 
@@ -81,7 +75,7 @@ strRst = stm.ReadText(adReadAll)
 
 This example code shows ASP code persisting a **Recordset** as XML directly to the **Response** object:
 
-``` 
+```vb 
  
 ... 
 <% 
@@ -111,7 +105,7 @@ A new property on the RDS [DataControl](datacontrol-object-rds.md), [URL](url-pr
 
 Server-side code, named https://server/directory/recordset.asp:
 
-``` 
+```vb 
  
 <% 
 Dim rs 
@@ -126,7 +120,7 @@ rs.Save response, adPersistADTG
 
 Client-side code:
 
-``` 
+```html 
  
 <HTML> 
 <HEAD> 
@@ -157,8 +151,7 @@ Client-side code:
 
 Developers also have the option of using a **Recordset** object on the client:
 
-``` 
- 
+```vb
 ... 
 function GetRs() 
  { 

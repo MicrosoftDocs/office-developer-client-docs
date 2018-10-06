@@ -13,27 +13,13 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Connection String Parameters  
-Typical Connection String  
-Provider-Specific Connection Parameters  
-Command Object Usage  
-Stored Procedures  
-ODBC SQL  
-Transact-SQL  
-Recordset Behavior  
-Dynamic Properties  
-Connection Dynamic Properties  
-Recordset Dynamic Properties  
-Command Dynamic Properties  
-
 The Microsoft OLE DB Provider for SQL Server, SQLOLEDB, allows ADO to access Microsoft SQL Server.
 
 ## Connection String Parameters
 
 To connect to this provider, set the *Provider* argument to the [ConnectionString](connectionstring-property-ado.md) property to:
 
-``` 
+```sql 
  
 SQLOLEDB 
 ```
@@ -44,7 +30,7 @@ This value can also be set or read using the [Provider](provider-property-ado.md
 
 A typical connection string for this provider is:
 
-``` 
+```sql 
  
 "Provider=SQLOLEDB;Data Source=serverName;" 
 Initial Catalog=databaseName; 
@@ -149,14 +135,14 @@ The provider supports several provider-specific connection parameters in additio
 
 SQLOLEDB accepts an amalgam of ODBC, ANSI, and SQL Server-specific Transact-SQL as valid syntax. For example, the following SQL statement uses an ODBC SQL escape sequence to specify the LCASE string function:
 
-``` 
+```sql 
  
 SELECT customerid={fn LCASE(CustomerID)} FROM Customers 
 ```
 
 LCASE returns a character string, converting all uppercase characters to their lowercase equivalents. The ANSI SQL string function LOWER performs the same operation, so the following SQL statement is an ANSI equivalent to the ODBC statement presented above:
 
-``` 
+```sql
  
 SELECT customerid=LOWER(CustomerID) FROM Customers 
 ```
@@ -169,14 +155,14 @@ When executing a SQL Server stored procedure using a SQLOLEDB command, use the O
 
 ## ODBC SQL
 
-``` 
+```sql 
  
 {call SalesByCategory('Produce', '1995')} 
 ```
 
 ## Transact-SQL
 
-``` 
+```sql 
  
 EXECUTE SalesByCategory 'Produce', '1995' 
 ```

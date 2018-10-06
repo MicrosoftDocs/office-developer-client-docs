@@ -17,11 +17,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 Creates a duplicate **[Recordset](recordset-object-dao.md)** object that refers to the original **Recordset** object.
 
 ## Syntax
@@ -56,6 +51,7 @@ Using the **[Close](connection-close-method-dao.md)** method on either the origi
 
 This example uses the **Clone** method to create copies of a **Recordset** and then lets the user position the record pointer of each copy independently.
 
+```vb
     Sub CloneX() 
      
        Dim dbsNorthwind As Database 
@@ -115,4 +111,4 @@ This example uses the **Clone** method to create copies of a **Recordset** and t
        dbsNorthwind.Close 
      
     End Sub
-
+```

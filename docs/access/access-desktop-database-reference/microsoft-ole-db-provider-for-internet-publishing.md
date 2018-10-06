@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Microsoft OLE DB Provider for Internet Publishing
 
-
 **Applies to**: Access 2013 | Office 2013
 
 The Microsoft OLE DB Provider for Internet Publishing allows ADO to access resources served by Microsoft FrontPage or Microsoft Internet Information Server. Resources include web source files such as HTML files, or Windows 2000 web folders.
@@ -19,7 +18,7 @@ The Microsoft OLE DB Provider for Internet Publishing allows ADO to access resou
 
 To connect to this provider, set the *Provider* argument of the [ConnectionString](connectionstring-property-ado.md) property to:
 
-``` 
+```vb 
  
 MSDAIPP.DSO 
 ```
@@ -30,14 +29,14 @@ This value can also be set or read using the [Provider](provider-property-ado.md
 
 A typical connection string for this provider is:
 
-``` 
+```vb 
  
 "Provider=MSDAIPP.DSO;Data Source=ResourceURL;User ID=userName;Password=userPassword;" 
 ```
 
 \-or-
 
-``` 
+```vb 
  
 "URL=ResourceURL;User ID=userName;Password=userPassword;" 
 ```

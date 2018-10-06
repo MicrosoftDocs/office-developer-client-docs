@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 The following code demonstrates how to delete a procedure using the [Procedures](procedures-collection-adox.md) collection [Delete](delete-method-adox-collections.md) method.
 
-``` 
+```vb 
  
 ' BeginDeleteProcedureVB 
 Sub Main() 

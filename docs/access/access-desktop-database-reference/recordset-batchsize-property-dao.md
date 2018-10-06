@@ -17,11 +17,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 ## Syntax
 
 *expression* .BatchSize
@@ -36,7 +31,7 @@ The **BatchSize** property determines the batch size used when sending statement
 
 This example uses the **BatchSize** and **UpdateOptions** properties to control aspects of any batch updating for the specified Recordset object.
 
-``` 
+```vb 
 Sub BatchSizeX() 
  
  Dim wrkMain As Workspace 

@@ -21,7 +21,7 @@ If the **Recordset** object is edited, any changes (that is, rows that are added
 
 
 
-``` 
+```vb 
  
 Dim rs as New ADODB.Recordset 
 rs.Open "SELECT * FROM Authors","Provider=MS Remote;Data Source=Pubs;" & _ 
@@ -31,9 +31,11 @@ rs.UpdateBatch ' The equivalent of SubmitChanges.
 ... 
 ```
 
-**Part A**Assume for this case that you have only used the [RDS.DataControl](datacontrol-object-rds.md) and that a **Recordset** object is now associated with the **RDS.DataControl**. The [SubmitChanges](submitchanges-method-rds.md) method updates the data source with any changes to the **Recordset** object if the [Server](server-property-rds.md) and [Connect](connect-property-rds.md) properties are still set.
+**Part A** 
 
-``` 
+Assume for this case that you have only used the [RDS.DataControl](datacontrol-object-rds.md) and that a **Recordset** object is now associated with the **RDS.DataControl**. The [SubmitChanges](submitchanges-method-rds.md) method updates the data source with any changes to the **Recordset** object if the [Server](server-property-rds.md) and [Connect](connect-property-rds.md) properties are still set.
+
+```vb 
  
 Sub RDSTutorial6A() 
 Dim DC as New RDS.DataControl 
@@ -50,9 +52,11 @@ DC.SubmitChanges
 ... 
 ```
 
-**Part B**Alternatively, you could update the server with the [RDSServer.DataFactory](datafactory-object-rdsserver.md) object, specifying a connection and a **Recordset** object.
+**Part B** 
 
-``` 
+Alternatively, you could update the server with the [RDSServer.DataFactory](datafactory-object-rdsserver.md) object, specifying a connection and a **Recordset** object.
+
+```vb 
  
 Sub RDSTutorial6B() 
 Dim DS As New RDS.DataSpace 

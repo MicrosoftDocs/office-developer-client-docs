@@ -13,10 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
 
 Sets or returns a value that indicates the maximum size, in bytes, of a **Field2** object.
 
@@ -78,6 +74,7 @@ For Long Binary and Memo **Field2** objects, **Size** is always set to 0. Use th
 
 This example demonstrates the **Size** property by enumerating the names and sizes of the **Field2** objects in the Employees table.
 
+```vb
     Sub SizeX() 
      
      Dim dbsNorthwind As Database 
@@ -115,4 +112,4 @@ This example demonstrates the **Size** property by enumerating the names and siz
      dbsNorthwind.Close 
      
     End Sub
-
+```

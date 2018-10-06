@@ -13,11 +13,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 Sets or returns a value indicating the approximate location of the current record in the **[Recordset](recordset-object-dao.md)** object based on a percentage of the records in the **Recordset**.
 
 ## Syntax
@@ -46,6 +41,7 @@ You can use the **PercentPosition** property with a scroll bar on a form or text
 
 This example uses the **PercentPosition** property to show the position of the current record pointer relative to the beginning of the **Recordset**.
 
+```vb
     Sub PercentPositionX() 
      
      Dim dbsNorthwind As Database 
@@ -88,4 +84,4 @@ This example uses the **PercentPosition** property to show the position of the c
      dbsNorthwind.Close 
      
     End Sub
-
+```

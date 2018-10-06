@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 This example demonstrates the [NumericScale](numericscale-property-adox.md) and [Precision](precision-property-adox.md) properties of the [Column](column-object-adox.md) object. This code displays their value for the **Order Details** table of the *Northwind* database.
 
-``` 
+```vb 
  
 ' BeginNumericScalePrecVB 
 Sub Main() 

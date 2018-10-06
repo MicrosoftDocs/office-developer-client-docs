@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 The following code demonstrates how to create a new index. The index is on two columns in the table.
 
-``` 
+```vb 
  
 ' BeginCreateIndexVB 
 Sub Main() 

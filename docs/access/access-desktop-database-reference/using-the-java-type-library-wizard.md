@@ -21,14 +21,14 @@ The Java Type Library Wizard generates the classes in the following location: \\
 
 The Java Type Library Wizard converts enumerated types, found in any given type library, to type INT (integer). It also defines an interface that corresponds to each enumerated type in the type library. You can reference the values of an ADO enumerated type with the following syntax:
 
-``` 
+```vb 
  
 msado15.<Enum Name>.<constant Name> 
 ```
 
 An example of this is shown in the following code fragment for setting the **CommandType** property of a **Command** object:
 
-``` 
+```vb 
  
 Cmd1.putCommandType( msado15.CommandTypeEnum.adCmdStoredProc ); 
 ```

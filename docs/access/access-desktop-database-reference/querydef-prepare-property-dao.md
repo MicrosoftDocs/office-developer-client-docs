@@ -17,11 +17,6 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-**In this article**  
-Syntax  
-Remarks  
-Example  
-
 ## Syntax
 
 *expression* .Prepare
@@ -46,7 +41,7 @@ If **Prepare** is set to **dbQPrepare**, this can be overridden when the query i
 
 This example uses the **Prepare** property to specify that a query should be executed directly rather than first creating a temporary stored procedure on the server.
 
-``` 
+```vb 
 Sub PrepareX() 
  
  Dim wrkODBC As Workspace 

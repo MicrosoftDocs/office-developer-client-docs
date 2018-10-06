@@ -78,7 +78,7 @@ The **EOF** property returns **True** if the current record position is after th
 
 If either the **BOF** or **EOF** property is **True**, there is no current record, as shown in the following code:
 
-``` 
+```vb 
  
 If oRs.BOF And oRs.EOF Then 
  ' Command returned no records. 
