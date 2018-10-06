@@ -82,7 +82,7 @@ Because a **Document** object corresponds to an existing object, you can't creat
 
 This example enumerates the **Documents** collection of the Tables container, and then enumerates the **Properties** collection of the first **Document** object in the collection.
 
-``` 
+```vb 
 Sub DocumentX() 
  
  Dim dbsNorthwind As Database 
@@ -119,7 +119,7 @@ End Sub
 
 This example uses the **Owner** and **SystemDB** properties to show the owners of a variety of **Document** objects.
 
-``` 
+```vb 
 Sub OwnerX() 
  
  ' Ensure that the Microsoft Access workgroup file is 
