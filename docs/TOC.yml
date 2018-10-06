@@ -344,7 +344,7 @@
               - name: OpenPopup
                 href: access/openpopup-macro-action-access-custom-web-app.md
         - name: Access desktop database reference
-          href: access/desktop-database-reference/access-desktop-database-reference.md
+          href: access/desktop-database-reference/home.md
           items:
           - name: Concepts
             href: access/desktop-database-reference/concepts.md
