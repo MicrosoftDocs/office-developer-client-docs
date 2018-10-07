@@ -29,34 +29,12 @@ PROCEDURE *name* \[*param1 datatype*\[, *param2 datatype*\[, …\]\]
 
 The PROCEDURE clause has these parts:
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Part</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><em>name</em></p></td>
-<td><p>A name for the procedure. It must follow standard naming conventions.</p></td>
-</tr>
-<tr class="even">
-<td><p><em>param1</em>, <em>param2</em></p></td>
-<td><p>One or more field names or parameters. For example:</p>
-<p>`PROCEDURE Sales_By_Country [Beginning Date] DateTime, [Ending Date] DateTime;`</p>
-<p>For more information on parameters, see <a href="parameters-declaration-microsoft-access-sql.md">parameters</a>.</p></td>
-</tr>
-<tr class="odd">
-<td><p><em>datatype</em></p></td>
-<td><p>One of the primary <a href="sql-data-types.md">Microsoft Access SQL data types</a> or their synonyms.</p></td>
-</tr>
-</tbody>
-</table>
+|Part |Description |
+|:----|:-----------|
+|*name* |A name for the procedure. It must follow standard naming conventions.|
+|*param1*, *param2* |One or more field names or parameters. For example:<br/><br/>
+`PROCEDURE Sales_By_Country [Beginning Date] DateTime, [Ending Date] DateTime;`<br/><br/>For more information about parameters, see [parameters](parameters-declaration-microsoft-access-sql.md).|
+|*datatype* | One of the primary [Microsoft Access SQL data types](sql-data-types.md) or their synonyms. |
 
 
 ## Remarks
