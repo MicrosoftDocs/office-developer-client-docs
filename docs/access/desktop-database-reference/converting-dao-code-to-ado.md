@@ -14,16 +14,12 @@ f1_categories:
 
 # Converting DAO Code to ADO
 
-
 **Applies to**: Access 2013 | Office 2013
 
-
 > [!NOTE]
-> <P>Versions of the DAO library prior to 3.6 are not provided or supported in Access.</P>
+> Versions of the DAO library prior to 3.6 are not provided or supported in Access.
 
-
-
-## DAO to ADO object Map
+## DAO to ADO object map
 
 <table>
 <colgroup>
@@ -82,55 +78,54 @@ f1_categories:
 </tbody>
 </table>
 
+<br/>
+<br/>
 
+### DAO
 
+#### Open a Recordset
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Task</p></th>
-<th><p>DAO</p></th>
-<th><p>ADO</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Open a <strong>Recordset</strong></p></td>
-<td><pre><code>Dim db as Database
-Dim rs as DAO.Recordset
-Set db = CurrentDB()
-Set rs = db.OpenRecordset(&quot;Employees&quot;)</code></pre></td>
-<td><pre><code>Dim rs as New ADODB.Recordset
-rs.Open &quot;Employees&quot;, CurrentProject.Connection, _
-         adOpenKeySet, adLockOptimistic</code></pre></td>
-</tr>
-<tr class="even">
-<td><p>Edit a <strong>Recordset</strong></p></td>
-<td><pre><code>rs.Edit 
-rs(&quot;TextFieldName&quot;) = &quot;NewValue&quot;
-rs.Update</code></pre></td>
-<td><pre><code>rs(&quot;TextFieldName&quot;) = &quot;NewValue&quot; 
-rs.Update</code></pre>
+```vb
+ Dim db as Database
+ Dim rs as DAO.Recordset
+ Set db = CurrentDB()
+ Set rs = db.OpenRecordset("Employees")
+```
+
+#### Edit a Recordset
+
+```vb
+ rs.Edit 
+ rs("TextFieldName") = "NewValue"
+ rs.Update
+```
+
+### ADO
+
+#### Open a Recordset
+
+```vb
+ Dim rs as New ADODB.Recordset
+ rs.Open "Employees", CurrentProject.Connection, _
+         adOpenKeySet, adLockOptimistic
+```
+
+#### Edit a Recordset
+
+```vb
+ rs("TextFieldName") = "NewValue" 
+ rs.Update
+```
+
 
 > [!NOTE]
-> <P>Moving focus from current record via <STRONG>MoveNext, MoveLast, MoveFirst, MovePrevious</STRONG> without first using the <STRONG>CancelUpdate</STRONG> method will implicitly execute the <STRONG>Update</STRONG> method.</P>
-
-
-</td>
-</tr>
-</tbody>
-</table>
+> Moving focus from current record via **MoveNext, MoveLast, MoveFirst, MovePrevious** without first using the **CancelUpdate** method will implicitly execute the **Update** method.
 
 ### About the contributors
 
 **Link provided by** the [UtterAccess](https://www.utteraccess.com) community. UtterAccess is the premier Microsoft Access wiki and help forum.
 
-  - [Choosing between DAO and ADO](https://www.utteraccess.com/wiki/index.php/choosing_between_dao_and_ado)
+- [Choosing between DAO and ADO](https://www.utteraccess.com/wiki/index.php/choosing_between_dao_and_ado)
 
 
 

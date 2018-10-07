@@ -12,10 +12,7 @@ dev_langs:
 
 # LEFT JOIN, RIGHT JOIN Operations (Microsoft Access SQL)
 
-
 **Applies to**: Access 2013 | Office 2013
-
-
 
 Combines source-table records when used in any [FROM](https://msdn.microsoft.com/library/ff836674\(v=office.15\)) clause.
 
@@ -63,7 +60,7 @@ For example, you could use LEFT JOIN with the Departments (left) and Employees (
 
 The following example shows how you could join the Categories and Products tables on the CategoryID field. The query produces a list of all categories, including those that contain no products:
 
-``` sql
+```sql
 SELECT CategoryName, 
 ProductName 
 FROM Categories LEFT JOIN Products 
@@ -72,28 +69,23 @@ ON Categories.CategoryID = Products.CategoryID;
 
 In this example, CategoryID is the joined field, but it is not included in the query results because it is not included in the [SELECT](select-statement-microsoft-access-sql.md) statement. To include the joined field, enter the field name in the SELECT statement — in this case, Categories.CategoryID.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>To create a query that includes only records in which the data in the joined fields is the same, use an <A href="inner-join-operation-microsoft-access-sql.md">INNER JOIN</A> operation.</P>
-> <LI>
-> <P>A LEFT JOIN or a RIGHT JOIN can be nested inside an INNER JOIN, but an INNER JOIN cannot be nested inside a LEFT JOIN or a RIGHT JOIN. See the discussion of nesting in the INNER JOIN topic to see how to nest joins within other joins.</P>
-> <LI>
-> <P>You can link multiple ON clauses. See the discussion of clause linking in the INNER JOIN topic to see how this is done.</P>
-> <LI>
-> <P>If you try to join fields containing Memo or OLE Object data, an error occurs.</P></LI></UL>
-
-
+> - To create a query that includes only records in which the data in the joined fields is the same, use an [INNER JOIN](inner-join-operation-microsoft-access-sql.md) operation.
+> - A LEFT JOIN or a RIGHT JOIN can be nested inside an INNER JOIN, but an INNER JOIN cannot be nested inside a LEFT JOIN or a RIGHT JOIN. See the discussion of nesting in the INNER JOIN topic to see how to nest joins within other joins.
+> - You can link multiple ON clauses. See the discussion of clause linking in the INNER JOIN topic to see how this is done.
+> - If you try to join fields containing Memo or OLE Object data, an error occurs.
 
 ## Example
 
-This example assumes the existence of hypothetical Department Name and Department ID fields in an Employees table. Note that these fields do not actually exist in the Northwind database Employees table.
+This example:
+- Assumes the existence of hypothetical Department Name and Department ID fields in an Employees table. Note that these fields do not actually exist in the Northwind database Employees table.
 
-This example selects all departments, including those without employees.
+- Selects all departments, including those without employees.
 
-This example calls the EnumFields procedure, which you can find in the SELECT statement example.
+- Calls the EnumFields procedure, which you can find in the SELECT statement example.
 
+
+```vb
     Sub LeftRightJoinX() 
      
         Dim dbs As Database, rst As Recordset 
@@ -123,4 +115,4 @@ This example calls the EnumFields procedure, which you can find in the SELECT st
         dbs.Close 
      
     End Sub
-
+```

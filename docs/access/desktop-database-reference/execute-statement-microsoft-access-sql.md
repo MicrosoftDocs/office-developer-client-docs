@@ -14,7 +14,6 @@ f1_categories:
 
 # EXECUTE Statement (Microsoft Access SQL)
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Used to invoke the execution of a procedure.
@@ -51,10 +50,9 @@ The EXECUTE statement has these parts:
 
 ## Example
 
-This example names the query CategoryList.
+This example names the query CategoryList, and calls the EnumFields procedure, which you can find in the SELECT statement example.
 
-This example calls the EnumFields procedure, which you can find in the SELECT statement example.
-
+```vb
     Sub ProcedureX() 
      
         Dim dbs As Database, rst As Recordset 
@@ -91,4 +89,4 @@ This example calls the EnumFields procedure, which you can find in the SELECT st
         dbs.Close 
      
     End Sub
-
+```

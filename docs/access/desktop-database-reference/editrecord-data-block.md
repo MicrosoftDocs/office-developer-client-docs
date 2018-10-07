@@ -10,15 +10,12 @@ mtps_version: v=office.15
 
 # EditRecord Data Block
 
-
 **Applies to**: Access 2013 | Office 2013
 
 You can use the **EditRecord** data block to change the values contained in an existing record.
 
-
 > [!NOTE]
-> <P>The <STRONG>EditRecord</STRONG> data block is available only in Data Macros.</P>
-
+> The **EditRecord** data block is available only in Data Macros.
 
 
 ## Setting
@@ -43,7 +40,6 @@ The **EditRecord** data block has the following arguments.
 </tr>
 </tbody>
 </table>
-
 
 ## Remarks
 
@@ -75,7 +71,6 @@ After **EditRecord** statement, you can insert a block of commands that will exe
 </tbody>
 </table>
 
-
 Use the **SetField** action to specify the new values of a field in the edited record.
 
 You can use an **If...Then...Else** statment to perform operations based on a condition.
@@ -84,7 +79,7 @@ To cancel the editing of a record, use the **CancelRecordChange** action. This p
 
 You can use the **LastCreateRecordIdentity** local variable to work with last record created in a **CreateRecord** data block. For example, use the following syntax to refer to the AssignedTo field of the most recently created record:
 
-    [LastCreateRecordIdentity].[AssignedTo]
+`[LastCreateRecordIdentity].[AssignedTo]`
 
 The CreateRecord data block can only be used in the **[After Insert](after-insert-macro-event.md)**, **[After Update](after-update-macro-event.md)**, and **[After Update](after-update-macro-event.md)** data macro events.
 

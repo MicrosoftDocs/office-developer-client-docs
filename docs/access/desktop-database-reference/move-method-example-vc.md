@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Move Method Example (VC++)
 
-
 **Applies to**: Access 2013 | Office 2013
 
 This example uses the [Move](move-method-ado.md) method to position the record pointer based on user input.
@@ -250,10 +249,11 @@ void PrintComError(_com_error &e)
 // EndMoveCpp 
 ```
 
+<br/>
+
 **MoveX.h**
 
-``` 
- 
+```cpp
 // BeginMoveH 
  
 #include "icrsint.h" 

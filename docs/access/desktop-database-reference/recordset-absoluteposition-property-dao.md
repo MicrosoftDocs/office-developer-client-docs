@@ -10,10 +10,7 @@ mtps_version: v=office.15
 
 # Recordset.AbsolutePosition Property (DAO)
 
-
 **Applies to**: Access 2013 | Office 2013
-
-
 
 Sets or returns the relative record number of a **Recordset** object's current record.
 
@@ -33,20 +30,15 @@ If there is no current record, as when there are no records in the **Recordset**
 
 You shouldn't use this property as a surrogate record number. Bookmarks are still the recommended way of retaining and returning to a given position and are the only way to position the current record across all types of **Recordset** objects. In particular, the position of a record changes when one or more records preceding it are deleted. There is also no assurance that a record will have the same absolute position if the **Recordset** object is re-created again because the order of individual records within a **Recordset** object isn't guaranteed unless it's created with an SQL statement by using an ORDER BY clause.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Setting the <STRONG>AbsolutePosition</STRONG> property to a value greater than zero on a newly opened but unpopulated <STRONG>Recordset</STRONG> object causes a trappable error. Populate the <STRONG>Recordset</STRONG> object first with the <STRONG>MoveLast</STRONG> method.</P>
-> <LI>
-> <P>The <STRONG>AbsolutePosition</STRONG> property isn't available on forward–only–type <STRONG>Recordset</STRONG> objects, or on <STRONG>Recordset</STRONG> objects opened from pass-through queries against Microsoft Access database engine-connected ODBC databases.</P></LI></UL>
-
-
+> - Setting the **AbsolutePosition** property to a value greater than zero on a newly opened but unpopulated **Recordset** object causes a trappable error. Populate the **Recordset** object first with the **MoveLast** method.
+> - The **AbsolutePosition** property isn't available on forward–only–type **Recordset** objects, or on **Recordset** objects opened from pass-through queries against Microsoft Access database engine-connected ODBC databases.
 
 ## Example
 
 This example uses the **AbsolutePosition** property to track the progress of a loop that enumerates all the records of a **Recordset**.
 
+```vb
     Sub AbsolutePositionX() 
      
        Dim dbsNorthwind As Database 
@@ -82,4 +74,4 @@ This example uses the **AbsolutePosition** property to track the progress of a l
        dbsNorthwind.Close 
      
     End Sub
-
+```

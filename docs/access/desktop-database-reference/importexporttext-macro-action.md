@@ -14,22 +14,14 @@ f1_categories:
 
 # ImportExportText Macro Action
 
-
 **Applies to**: Access 2013 | Office 2013
 
 You can use the **ImportExportText** action to import or export text between the current Microsoft Access database (.mdb or .accdb) or Access project (.adp) and a text file. You can also link the data in a text file to the current Access database. With a linked text file, you can view the text data with Access while still allowing complete access to the data from your word processing program. You can also import from, export to, and link to a table or list in an HTML file (\*.html).
 
-
 > [!NOTE]
-> <P>If you link to data in a text file or an HTML file, the data is read-only in Access.</P>
-
-
-
-
-> [!NOTE]
-> <P>This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</P>
-
-
+> If you link to data in a text file or an HTML file, the data is read-only in Access.
+> 
+> This action will not be allowed if the database is not trusted. 
 
 ## Setting
 
@@ -62,7 +54,6 @@ The **ImportExportText** action has the following arguments.
 <td><p>The specification name for the set of options that determines how a text file is imported or linked. For a fixed-width text file, you must either specify an argument or use a schema.ini file, which must be stored in the same folder as the imported or linked text file.</p>
 <p>To create a specification for importing or linking a text file:</p>
 <ol>
-<li><p></p></li>
 <li><p>In the <strong>Get External Data</strong> dialog box, enter the path of the source text file in the <strong>File name</strong> box.</p></li>
 <li><p>Click the option you want for storing the data (import, append, or link), and click <strong>OK</strong>.</p></li>
 <li><p>In the <strong>Import Text Wizard</strong> dialog box, click <strong>Advanced</strong>.</p></li>
@@ -104,23 +95,17 @@ You can export the data in Access select queries to text files. Access exports t
 
 Text data that you append to an existing Access table must be compatible with the table's structure.
 
-  - Each field in the text must be of the same data type as the corresponding field in the table.
+- Each field in the text must be of the same data type as the corresponding field in the table.
 
-  - The fields must be in the same order (unless you set the **Has Field Names** argument to **Yes**, in which case the field names in the text must match the field names in the table).
+- The fields must be in the same order (unless you set the **Has Field Names** argument to **Yes**, in which case the field names in the text must match the field names in the table).
 
 This action is similar to clicking **Text File** in the **Import** or **Export** group on the **External Data** tab. The arguments of the **ImportExportText** action reflect the options in the wizard started by the **Text File** command.
 
-
 > [!TIP]
-> <P>An import/export specification stores the information Access needs to import, export, or link a text file. You can use stored specifications to import, export, or link text data from or to similar text files. For example, you might receive weekly sales figures in a text file from a mainframe computer. You can create and save a specification for this type of data and then use the specification whenever you add this data to your Access database.</P>
-
-
-
+> An import/export specification stores the information Access needs to import, export, or link a text file. You can use stored specifications to import, export, or link text data from or to similar text files. For example, you might receive weekly sales figures in a text file from a mainframe computer. You can create and save a specification for this type of data and then use the specification whenever you add this data to your Access database.
 
 > [!NOTE]
-> <P>If you query or filter a linked text file, the query or filter is case-sensitive.</P>
-
-
+> If you query or filter a linked text file, the query or filter is case-sensitive.
 
 To run the **ImportExportText** action in a Visual Basic for Applications (VBA) module, use the **TransferText** method of the **DoCmd** object.
 

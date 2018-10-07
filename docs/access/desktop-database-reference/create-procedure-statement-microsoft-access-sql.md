@@ -12,16 +12,12 @@ dev_langs:
 
 # CREATE PROCEDURE Statement (Microsoft Access SQL)
 
-
 **Applies to**: Access 2013 | Office 2013 
 
 Creates a stored procedure.
 
-
 > [!NOTE]
-> <P>The Microsoft Access database engine does not support the use of CREATE PROCEDURE, or any of the DDL statements, with non-Microsoft Jet database engine databases.</P>
-
-
+> The Microsoft Access database engine does not support the use of CREATE PROCEDURE, or any of the DDL statements, with non-Microsoft Jet database engine databases.
 
 ## Syntax
 
@@ -71,10 +67,9 @@ A procedure name cannot be the same as the name of an existing table.
 
 ## Example
 
-This example names the query CategoryList.
+This example names the query CategoryList, and calls the EnumFields procedure, which you can find in the SELECT statement example.
 
-This example calls the EnumFields procedure, which you can find in the SELECT statement example.
-
+```vb
     Sub ProcedureX() 
      
         Dim dbs As Database, rst As Recordset 
@@ -111,4 +106,4 @@ This example calls the EnumFields procedure, which you can find in the SELECT st
         dbs.Close 
      
     End Sub
-
+```

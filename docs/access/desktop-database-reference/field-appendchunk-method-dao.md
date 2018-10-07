@@ -10,9 +10,7 @@ mtps_version: v=office.15
 
 # Field.AppendChunk Method (DAO)
 
-
 **Applies to**: Access 2013 | Office 2013
-
 
 Appends data from a string expression to a Memo or Long Binary **[Field](field-object-dao.md)** object in a **[Recordset](recordset-object-dao.md)**.
 
@@ -58,16 +56,14 @@ You can also use these methods to conserve string space when you work with Memo 
 
 If there is no current record when you use **AppendChunk**, an error occurs.
 
-
 > [!NOTE]
-> <P>The initial <STRONG>AppendChunk</STRONG> operation (after an <STRONG><A href="recordset-edit-method-dao.md">Edit</A></STRONG> or <STRONG><A href="recordset-addnew-method-dao.md">AddNew</A></STRONG> call) will simply place the data in the field, overwriting any existing data. Subsequent <STRONG>AppendChunk</STRONG> calls within the same <STRONG>Edit</STRONG> or <STRONG>AddNew</STRONG> session will then add to the existing data.</P>
-
-
+> The initial **AppendChunk** operation (after an **[Edit](recordset-edit-method-dao.md)** or **[AddNew](recordset-addnew-method-dao.md)** call) will simply place the data in the field, overwriting any existing data. Subsequent **AppendChunk** calls within the same **Edit** or **AddNew** session will then add to the existing data.
 
 ## Example
 
 This example uses the **AppendChunk** and **GetChunk** methods to fill an OLE object field with data from another record, 32K at a time. In a real application, one might use a procedure like this to copy an employee record (including the employee's photo) from one table to another. In this example, the record is simply being copied back to same table. Note that all the chunk manipulation takes place within a single AddNew-Update sequence.
 
+```vb
     Sub AppendChunkX() 
      
        Dim dbsNorthwind As Database 
@@ -122,4 +118,4 @@ This example uses the **AppendChunk** and **GetChunk** methods to fill an OLE ob
        Loop 
      
     End Function
-
+```

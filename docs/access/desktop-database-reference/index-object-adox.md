@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Index Object (ADOX)
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Represents an index from a database table.
@@ -19,7 +18,7 @@ Represents an index from a database table.
 
 The following code creates a new **Index**:
 
-    Dim obj As New Index
+`Dim obj As New Index`
 
 With the properties and collections of an **Index** object, you can:
 
@@ -39,9 +38,7 @@ With the properties and collections of an **Index** object, you can:
 
 
 > [!NOTE]
-> <P>An error will occur when appending a <A href="column-object-adox.md">Column</A> to the <STRONG>Columns</STRONG> collection of an <STRONG>Index</STRONG> if the <STRONG>Column</STRONG> does not exist in a <A href="table-object-adox.md">Table</A> object already appended to the <A href="tables-collection-adox.md">Tables</A> collection.</P>
-
-
+> An error will occur when appending a [Column](column-object-adox.md) to the **Columns** collection of an **Index** if the **Column** does not exist in a [Table](table-object-adox.md) object already appended to the [Tables](tables-collection-adox.md) collection.
 
 Your data provider may not support all properties of **Index** objects. An error will occur if you have set a value for a property that is not supported by the provider. For new **Index** objects, the error will occur when the object is appended to the collection. For existing objects, the error will occur when setting the property.
 

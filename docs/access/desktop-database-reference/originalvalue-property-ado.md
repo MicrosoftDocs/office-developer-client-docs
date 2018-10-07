@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # OriginalValue Property (ADO)
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Indicates the value of a [Field](field-object-ado.md) that existed in the record before any changes were made.

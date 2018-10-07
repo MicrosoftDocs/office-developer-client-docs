@@ -14,9 +14,7 @@ f1_categories:
 
 # Database.CreateTableDef Method (DAO)
 
-
 **Applies to**: Access 2013 | Office 2013
-
 
 Creates a new **[TableDef](tabledef-object-dao.md)** object (Microsoft Access workspaces only). .
 
@@ -88,6 +86,7 @@ To remove a **TableDef** object from the **[TableDefs](tabledefs-collection-dao.
 
 This example creates a new **TableDef** object in the Northwind database.
 
+```vb
     Sub CreateTableDefX() 
      
      Dim dbsNorthwind As Database 
@@ -146,9 +145,13 @@ This example creates a new **TableDef** object in the Northwind database.
      dbsNorthwind.Close 
      
     End Sub 
+```
+
+<br/>
 
 This example uses the **CreateTableDef** and **FillCache** methods and the **CacheSize**, **CacheStart** and **SourceTableName** properties to enumerate the records in a linked table twice. Then it enumerates the records twice with a 50-record cache. The example then displays the performance statistics for the uncached and cached runs through the linked table.
 
+```vb
     Sub ClientServerX3() 
      
      Dim dbsCurrent As Database 
@@ -242,4 +245,4 @@ This example uses the **CreateTableDef** and **FillCache** methods and the **Cac
      dbsCurrent.Close 
      
     End Sub
-
+```

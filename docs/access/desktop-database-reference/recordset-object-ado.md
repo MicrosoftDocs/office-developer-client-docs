@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Recordset Object (ADO)
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Represents the entire set of records from a base table or the results of an executed command. At any time, the **Recordset** object refers to only a single record within the set as the current record.
@@ -45,16 +44,14 @@ You can use the [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods
 
 If a provider supports batch updating, you can have the provider cache changes to more than one record and then transmit them in a single call to the database with the [UpdateBatch](updatebatch-method-ado.md) method. This applies to changes made with the **AddNew**, **Update**, and [Delete](delete-method-ado-recordset.md) methods. After you call the **UpdateBatch** method, you can use the [Status](status-property-ado-recordset.md) property to check for any data conflicts in order to resolve them.
 
-
 > [!NOTE]
-> <P>To execute a query without using a <A href="command-object-ado.md">Command</A> object, pass a query string to the <STRONG>Open</STRONG> method of a <STRONG>Recordset</STRONG> object. However, a <STRONG>Command</STRONG> object is required when you want to persist the command text and re-execute it, or use query parameters.</P>
-
-
+> To execute a query without using a [Command](command-object-ado.md) object, pass a query string to the **Open** method of a **Recordset** object. However, a **Command** object is required when you want to persist the command text and re-execute it, or use query parameters.
 
 The [Mode](mode-property-ado.md) property governs access permissions.
 
 The **Fields** collection is the default member of the **Recordset** object. As a result, the following two code statements are equivalent.
 
+```vb
     Debug.Print objRs.Fields.Item(0)  ' Both statements print 
     Debug.Print objRs(0)              '  the Value of Item(0).
-
+```

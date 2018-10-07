@@ -14,10 +14,7 @@ f1_categories:
 
 # Database.CreateRelation Method (DAO)
 
-
 **Applies to**: Access 2013 | Office 2013
-
-
 
 Creates a new **[Relation](relation-object-dao.md)** object (Microsoft Access workspaces only). .
 
@@ -95,6 +92,7 @@ To remove a **Relation** object from the **[Relations](relations-collection-dao.
 
 This example uses the **CreateRelation** method to create a **Relation** between the Employees **TableDef** and a new **TableDef** called Departments. This example also demonstrates how creating a new **Relation** will also create any necessary **Indexes** in the foreign table (the DepartmentsEmployees Index in the Employees table).
 
+```vb
     Sub CreateRelationX() 
      
      Dim dbsNorthwind As Database 
@@ -177,4 +175,4 @@ This example uses the **CreateRelation** method to create a **Relation** between
      End With 
      
     End Sub
-
+```

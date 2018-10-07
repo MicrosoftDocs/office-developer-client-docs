@@ -14,7 +14,6 @@ f1_categories:
 
 # Database Object (DAO)
 
-
 **Applies to**: Access 2013 | Office 2013
 
 A **Database** object represents an open database.
@@ -59,7 +58,7 @@ When you use one of the transaction methods (**BeginTrans**, **CommitTrans**, or
 
 
 > [!NOTE]
-> <P>You can open the same data source or database more than once, creating duplicate names in the <STRONG>Databases</STRONG> collection. You should assign <STRONG>Database</STRONG> objects to object variables and refer to them by variable name.</P>
+> You can open the same data source or database more than once, creating duplicate names in the **Databases** collection. You should assign **Database** objects to object variables and refer to them by variable name.
 
 
 
@@ -110,8 +109,11 @@ End Sub
  
 ```
 
+<br/>
+
 This example uses **CreateDatabase** to create a new, encrypted **Database** object.
 
+```vb
     Sub CreateDatabaseX() 
      
      Dim wrkDefault As Workspace 
@@ -143,4 +145,4 @@ This example uses **CreateDatabase** to create a new, encrypted **Database** obj
      dbsNew.Close 
      
     End Sub
-
+```

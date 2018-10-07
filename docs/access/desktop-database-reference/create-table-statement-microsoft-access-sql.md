@@ -14,16 +14,12 @@ f1_categories:
 
 # CREATE TABLE Statement (Microsoft Access SQL)
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Creates a new table.
 
-
 > [!NOTE]
-> <P>The Microsoft Access database engine does not support the use of CREATE TABLE, or any of the DDL statements, with non-Microsoft Access database engine databases. Use the DAO Create methods instead.</P>
-
-
+> The Microsoft Access database engine does not support the use of CREATE TABLE, or any of the DDL statements, with non-Microsoft Access database engine databases. Use the DAO Create methods instead.
 
 ## Syntax
 
@@ -91,6 +87,7 @@ MEMO columns can also be defined to store data in a compressed format. However, 
 
 This example creates a new table called ThisTable with two text fields.
 
+```vb
     Sub CreateTableX1() 
      
         Dim dbs As Database 
@@ -106,9 +103,13 @@ This example creates a new table called ThisTable with two text fields.
         dbs.Close 
      
     End Sub 
+```
+
+<br/>
 
 This example creates a new table called MyTable with two text fields, a Date/Time field, and a unique index made up of all three fields.
 
+```vb
     Sub CreateTableX2() 
      
         Dim dbs As Database 
@@ -129,9 +130,13 @@ This example creates a new table called MyTable with two text fields, a Date/Tim
         dbs.Close 
      
     End Sub
+```
+
+<br/>
 
 This example creates a new table with two text fields and an **Integer** field. The SSN field is the primary key.
 
+```vb
     Sub CreateTableX3() 
      
          Dim dbs As Database 
@@ -150,4 +155,4 @@ This example creates a new table with two text fields and an **Integer** field. 
         dbs.Close 
      
     End Sub
-
+```

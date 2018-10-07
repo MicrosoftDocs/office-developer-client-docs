@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Connection.Cancel Method (DAO)
 
-
 **Applies to**: Access 2013 | Office 2013
 
 ## Syntax
@@ -29,6 +28,7 @@ An error will occur if, following a **Cancel** method call, you try to reference
 
 This example uses the **StillExecuting** property and the **Cancel** method to asynchronously open a **Connection** object.
 
+```vb
     Sub CancelConnectionX() 
      
      Dim wrkMain As Workspace 
@@ -75,4 +75,4 @@ This example uses the **StillExecuting** property and the **Cancel** method to a
      wrkMain.Close 
      
     End Sub
-
+```

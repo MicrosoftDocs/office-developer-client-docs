@@ -10,38 +10,36 @@ mtps_version: v=office.15
 
 # DataControl Object (RDS)
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Binds a data query [Recordset](recordset-object-ado.md) to one or more controls (for example, a text box, grid control, or combo box) to display the **Recordset** data on a Web page.
 
 ## Syntax
 
+```vb
     <OBJECT CLASSID="clsid:BD96C556-65A3-11D0-983A-00C04FC29E33" ID="DataControl"
        <PARAM NAME="Connect" VALUE="DSN=DSNName;UID=usr;PWD=pw;">
        <PARAM NAME="Server" VALUE="https://awebsrvr">
        <PARAM NAME="SQL" VALUE="QueryText">
     </OBJECT>
+```
 
 ## Remarks
 
 The class ID for the **RDS.DataControl** object is BD96C556-65A3-11D0-983A-00C04FC29E33.
 
-
 > [!NOTE]
-> <P>If you get an error that an <A href="dataspace-object-rds.md">RDS.DataSpace</A> or <STRONG>RDS.DataControl</STRONG> object doesn't load, make sure you are using the correct class ID. The class IDs for these objects have changed from version 1.0 and 1.1.</P>
-
-
+> If you get an error that an [RDS.DataSpace](dataspace-object-rds.md) or **RDS.DataControl** object doesn't load, make sure you are using the correct class ID. The class IDs for these objects have changed from version 1.0 and 1.1.
 
 For a basic scenario, you need to set only the **SQL**, **Connect**, and **Server** properties of the **RDS.DataControl** object, which will automatically call the default business object, [RDSServer.DataFactory](datafactory-object-rdsserver.md).
 
 All the properties in the **RDS.DataControl** are optional because custom business objects can replace their functionality.
 
-
 > [!NOTE]
-> <P>If you query for multiple results, only the first <A href="recordset-object-ado.md">Recordset</A> is returned. If multiple result sets are needed, assign each to its own <STRONG>DataControl</STRONG>. An example of a query for multiple results could be the following:<BR>"Select * from Authors, Select * from Topics"</P>
-
-
+> If you query for multiple results, only the first [Recordset](recordset-object-ado.md) is returned. If multiple result sets are needed, assign each to its own **DataControl**. 
+> 
+> An example of a query for multiple results could be the following:
+> `"Select * from Authors, Select * from Topics"`.
 
 Adding "DFMode=20;" to your connection string when using the **RDS.DataControl** object can improve your server's performance when updating data. With this setting, the **RDSServer.DataFactory** object on the server uses a less resource-intensive mode. However, the following features are not available in this configuration:
 
@@ -63,6 +61,7 @@ Adding "DFMode=20;" to your connection string when using the **RDS.DataControl**
 
 The **RDS.DataControl** object runs in asynchronous mode by default. If you require synchronous execution for your application, set the [ExecuteOptions](executeoptions-property-rds.md) parameter equal to **adcExecSync** and the [FetchOptions](fetchoptions-property-rds.md) parameter equal to **adcFetchUpFront**, as shown in the following example.
 
+```vb
     <OBJECT CLASSID="clsid:BD96C556-65A3-11D0-983A-00C04FC29E33" 
         ID="DataControl"
        <PARAM NAME="Connect" VALUE="DSN=DSNName;UID=usr;PWD=pw;">
@@ -71,6 +70,7 @@ The **RDS.DataControl** object runs in asynchronous mode by default. If you requ
        <PARAM NAME="ExecuteOptions" VALUE="1">
        <PARAM NAME="FetchOptions" VALUE="1">
     </OBJECT>
+```
 
 Use one **RDS.DataControl** object to link the results of a single query to one or more visual controls. For example, suppose you code a query requesting customer data such as Name, Residence, Place of Birth, Age, and Priority Customer Status. You can use a single **RDS.DataControl** object to display a customer's Name, Age, and Region in three separate text boxes; Priority Customer Status in a check box; and all the data in a grid control.
 
@@ -90,5 +90,5 @@ Remote Data Service client components are already included as part of Internet E
 
 With Internet Explorer 4.0 or later, you can bind to data by using HTML controls and ActiveX® controls only if they are marked as apartment model controls.
 
-**Microsoft Visual Basic Users**The **RDS.DataControl** is used only in Web-based applications. A Visual Basic client application has no need for it.
+**Microsoft Visual Basic Users** The **RDS.DataControl** is used only in web-based applications. A Visual Basic client application has no need for it.
 

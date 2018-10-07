@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # DBEngine Object (DAO)
 
-
 **Applies to**: Access 2013 | Office 2013
 
 The **DBEngine** object is the top level object in the DAO object model.
@@ -55,6 +54,7 @@ To refer to a collection that belongs to the **DBEngine** object, or to refer to
 
 This example enumerates the collections of the **DBEngine** object.
 
+```vb
     Sub DBEngineX() 
      
      Dim wrkLoop As Workspace 
@@ -94,4 +94,4 @@ This example enumerates the collections of the **DBEngine** object.
      End With 
      
     End Sub
-
+```

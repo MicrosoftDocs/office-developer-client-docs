@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Field Object (DAO)
 
-
 **Applies to**: Access 2013 | Office 2013
 
 A **Field** object represents a column of data with a common data type and a common set of properties.
@@ -43,11 +42,11 @@ When you access a **Field** object as part of a **Recordset** object, data from 
 
 To refer to a **Field** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:
 
-**Fields**(0)
+- **Fields**(0)
 
-**Fields**("name")
+- **Fields**("name")
 
-**Fields**\!\[name\]
+- **Fields**\!\[name\]
 
 With the same syntax forms, you can also refer to the **Value** property of a **Field** object that you create and append to a **Fields** collection. The context of the field reference will determine whether you are referring to the **Field** object or the **Value** property of the **Field** object.
 
@@ -55,6 +54,7 @@ With the same syntax forms, you can also refer to the **Value** property of a **
 
 This example shows what properties are valid for a **Field** object depending on where the **Field** resides (for example, the **Fields** collection of a **TableDef**, the **Fields** collection of a **QueryDef**, and so forth). The FieldOutput procedure is required for this procedure to run.
 
+```vb
     Sub FieldX() 
      
      Dim dbsNorthwind As Database 
@@ -114,9 +114,13 @@ This example shows what properties are valid for a **Field** object depending on
      Next prpLoop 
      
     End Sub 
+```
+
+<br/>
 
 This example uses the **CreateField** method to create three **Fields** for a new **TableDef**. It then displays the properties of those **Field** objects that are automatically set by the **CreateField** method. (Properties whose values are empty at the time of **Field** creation are not shown.)
 
+```vb
     Sub CreateFieldX() 
      
      Dim dbsNorthwind As Database 
@@ -164,4 +168,4 @@ This example uses the **CreateField** method to create three **Fields** for a ne
      dbsNorthwind.Close 
      
     End Sub
-
+```

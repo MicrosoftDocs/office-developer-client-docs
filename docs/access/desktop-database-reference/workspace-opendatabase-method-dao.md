@@ -10,9 +10,7 @@ mtps_version: v=office.15
 
 # Workspace.OpenDatabase Method (DAO)
 
-
 **Applies to**: Access 2013 | Office 2013
-
 
 Opens a specified database in a **[Workspace](workspace-object-dao.md)** object and returns a reference to the **[Database](database-object-dao.md)** object that represents it.
 
@@ -104,25 +102,22 @@ When you open a database, it is automatically added to the **Databases** collect
 
 Some considerations apply when you use dbname:
 
-  - If it refers to a database that is already open for access by another user, an error occurs.
+- If it refers to a database that is already open for access by another user, an error occurs.
 
-  - If it doesn't refer to an existing database or valid ODBC data source name, an error occurs.
+- If it doesn't refer to an existing database or valid ODBC data source name, an error occurs.
 
-  - If it's a zero-length string ("") and *connect* is "ODBC;" , a dialog box listing all registered ODBC data source names is displayed so the user can select a database.
+- If it's a zero-length string ("") and *connect* is "ODBC;" , a dialog box listing all registered ODBC data source names is displayed so the user can select a database.
 
 To close a database, and thus remove the **Database** object from the **Databases** collection, use the **[Close](connection-close-method-dao.md)** method on the object.
 
-
 > [!NOTE]
-> <P>When you access a Microsoft access database engine-connected ODBC data source, you can improve your application's performance by opening a <STRONG>Database</STRONG> object connected to the ODBC data source, rather than by linking individual <STRONG><A href="tabledef-object-dao.md">TableDef</A></STRONG> objects to specific tables in the ODBC data source.</P>
-
-
+> When you access a Microsoft access database engine-connected ODBC data source, you can improve your application's performance by opening a **Database** object connected to the ODBC data source, rather than by linking individual **[TableDef](tabledef-object-dao.md)** objects to specific tables in the ODBC data source.
 
 ## Example
 
 This example uses the **OpenDatabase** method to open one Microsoft Access database and two Microsoft Access database engine-connected ODBC databases.
 
-``` 
+```vb 
 Sub OpenDatabaseX() 
  
  Dim wrkAcc As Workspace 

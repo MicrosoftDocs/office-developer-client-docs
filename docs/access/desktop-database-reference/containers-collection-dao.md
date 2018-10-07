@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Containers Collection (DAO)
 
-
 **Applies to**: Access 2013 | Office 2013
 
 A **Containers** collection contains all of the **Container** objects that are defined in a database.
@@ -23,6 +22,7 @@ Each **Database** object has a **Containers** collection consisting of built-in 
 
 This example enumerates the **Containers** collection of the Northwind database and the **Properties** collection of each **Container** object in the collection.
 
+```vb
     Sub ContainerObjectX()
     
        Dim dbsNorthwind As Database
@@ -51,4 +51,4 @@ This example enumerates the **Containers** collection of the Northwind database 
        End With
     
     End Sub
-
+```

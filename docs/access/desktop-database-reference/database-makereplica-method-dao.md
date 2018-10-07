@@ -14,9 +14,7 @@ f1_categories:
 
 # Database.MakeReplica Method (DAO)
 
-
 **Applies to**: Access 2013 | Office 2013
-
 
 Makes a new replica from another database replica (Microsoft Access workspaces only).
 
@@ -74,7 +72,7 @@ A newly created partial replica will have all **[ReplicaFilter](tabledef-replica
 
 This function uses the **MakeReplica** method to create an additional replica of an existing Design Master. The intOptions argument can be a combination of the constants **dbRepMakeReadOnly** and **dbRepMakePartial**, or it can be 0. For example, to create a read-only partial replica, you should pass the value **dbRepMakeReadOnly** + **dbRepMakePartial** as the value of intOptions.
 
-``` 
+```vb 
 Function MakeAdditionalReplica(strReplicableDB As _ 
  String, strNewReplica As String, intOptions As _ 
  Integer) As Integer 

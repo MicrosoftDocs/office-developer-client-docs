@@ -15,11 +15,8 @@ mtps_version: v=office.15
 
 You can use the **CreateRecord** data block to create a new record in the specified table.
 
-
 > [!NOTE]
-> <P>The <STRONG>CreateRecord</STRONG> data block is available only in Data Macros.</P>
-
-
+> The **CreateRecord** data block is available only in Data Macros.
 
 ## Setting
 
@@ -94,7 +91,7 @@ To cancel the creation of a record, use the **CancelRecordChange** action. This 
 
 Once the new record is committed, you can use the **LastCreateRecordIdentity** local variable to work with the record. For example, use the following syntax to refer to the AssignedTo field of the most recently created record.
 
-    [LastCreateRecordIdentity].[AssignedTo]
+`[LastCreateRecordIdentity].[AssignedTo]`
 
 The **CreateRecord** data block can only be used in the **[After Insert](after-insert-macro-event.md)**, **[After Update](after-update-macro-event.md)**, and **[After Update](after-update-macro-event.md)** data macro events.
 

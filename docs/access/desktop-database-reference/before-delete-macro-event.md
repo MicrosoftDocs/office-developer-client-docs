@@ -14,34 +14,30 @@ f1_categories:
 
 # Before Delete Macro Event
 
-
 **Applies to**: Access 2013 | Office 2013
 
 The **Before Delete** event occurs when a record is deleted, but before the change is committed.
 
-
 > [!NOTE]
-> <P>The <STRONG>Before Delete</STRONG> event is available only in Data Macros.</P>
-
-
+> The **Before Delete** event is available only in Data Macros.
 
 ## Remarks
 
-Use the **Before Delete** event to perform any actions that you want to occur before a record is deleted. The **Before Change** is comonly used to perform validation and to raise custom error messges.
+Use the **Before Delete** event to perform any actions that you want to occur before a record is deleted. The **Before Change** is commonly used to perform validation and to raise custom error messages.
 
-You can use access a value in the record to be deleted by using the following syntax.
+You can access a value in the record to be deleted by using the following syntax:
 
-    [Old].[Field Name]
+`[Old].[Field Name]`
 
-For example, to access the value of the QuantityInStock field in the record to be deleted, use the following syntax.
+For example, to access the value of the QuantityInStock field in the record to be deleted, use the following syntax:
 
-    [Old].[QuantityInStock]
+`[Old].[QuantityInStock]`
 
 The values contained in the record to be deleted are deleted permanently when the **Before Delete** event ends.
 
-You can cancel the **Before Delete** event by using the **RaiseError** action. When an error is raised the changes contained in the **Before Delete** event are discarded.
+You can cancel the **Before Delete** event by using the **RaiseError** action. When an error is raised, the changes contained in the **Before Delete** event are discarded.
 
-The following table lists macro commands that can be used in the**Before Delete** event.
+The following table lists macro commands that can be used in the **Before Delete** event.
 
 <table>
 <colgroup>
@@ -99,5 +95,5 @@ To create a Data macro that captures the **Before Delete** event, use the follow
 
 1.  Open the table for which you want to capture the **Before Delete** event.
 
-2.  On the **Table** tab, in the **Before Events** group, click **Before Delete**.
+2.  On the **Table** tab, in the **Before Events** group, select **Before Delete**.
 

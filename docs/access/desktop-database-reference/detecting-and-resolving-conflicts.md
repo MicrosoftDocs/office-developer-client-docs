@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Detecting and Resolving Conflicts
 
-
 **Applies to**: Access 2013 | Office 2013
 
 ## Detecting and Resolving Conflicts
@@ -29,7 +28,7 @@ Next, call the **Resync** method on the **Recordset** with the *AffectRecords* a
 
 This technique is shown in the code example below. The example artificially creates a conflict by using a separate **Recordset** to change a value in the underlying table before **UpdateBatch** is called.
 
-``` 
+```vb 
  
 'BeginConflicts 
     On Error GoTo ErrHandler: 

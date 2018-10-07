@@ -19,7 +19,7 @@ Represents a column from a table, index, or key.
 
 The following code creates a new **Column**:
 
-    Dim obj As New Column
+`Dim obj As New Column`
 
 With the properties and collections of a **Column** object, you can:
 
@@ -45,9 +45,7 @@ With the properties and collections of a **Column** object, you can:
 
 
 > [!NOTE]
-> <P>Not all properties of <STRONG>Column</STRONG> objects may be supported by your data provider. An error will occur if you have set a value for a property that the provider does not support. For new <STRONG>Column</STRONG> objects, the error will occur when the object is appended to the collection. For existing objects, the error will occur when setting the property.</P>
-
-
-
-When creating **Column** objects, the existence of an appropriate default value for an optional property does not guarantee that your provider supports the property. For more information about which properties your provider supports, see your provider documentation.
+> Not all properties of **Column** objects may be supported by your data provider. An error will occur if you have set a value for a property that the provider does not support. For new **Column** objects, the error will occur when the object is appended to the collection. For existing objects, the error will occur when setting the property.
+> 
+> When creating **Column** objects, the existence of an appropriate default value for an optional property does not guarantee that your provider supports the property. For more information about which properties your provider supports, see your provider documentation.
 

@@ -14,9 +14,7 @@ f1_categories:
 
 # Field.AllowZeroLength Property (DAO)
 
-
 **Applies to**: Access 2013 | Office 2013
-
 
 Sets or returns a value that indicates whether a zero-length string ("") is a valid setting for the **[Value](field-value-property-dao.md)** property of the **[Field](field-object-dao.md)** object with a Text or Memo data type (Microsoft Access workspaces only).
 
@@ -74,6 +72,7 @@ You can use this property along with the **[Required](field-required-property-da
 
 In this example, the **AllowZeroLength** property allows the user to set the value of a **Field** to an empty string. In this situation, the user can distinguish between a record where data is not known and a record where the data does not apply.
 
+```vb
     Sub AllowZeroLengthX() 
      
      Dim dbsNorthwind As Database 
@@ -140,4 +139,4 @@ In this example, the **AllowZeroLength** property allows the user to set the val
      dbsNorthwind.Close 
      
     End Sub
-
+```

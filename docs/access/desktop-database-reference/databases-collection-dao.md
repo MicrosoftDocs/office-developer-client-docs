@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Databases Collection (DAO)
 
-
 **Applies to**: Access 2013 | Office 2013
 
 A **Databases** collection contains all open **Database** objects opened or created in a **Workspace** object.
@@ -23,17 +22,14 @@ In a Microsoft Access workspace, the **Name** property setting of a database is 
 
 To refer to a **Database** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:
 
-  - **Databases**(0)
+- **Databases**(0)
 
-  - **Databases**("*name*")
+- **Databases**("*name*")
 
-  - **Databases**\!\[*name*\]
-
+- **Databases**\!\[*name*\]
 
 > [!NOTE]
-> <P>You can open the same data source or database more than once, creating duplicate names in the <STRONG>Databases</STRONG> collection. You should assign <STRONG>Database</STRONG> objects to object variables and refer to them by variable name.</P>
-
-
+> You can open the same data source or database more than once, creating duplicate names in the **Databases** collection. You should assign **Database** objects to object variables and refer to them by variable name.
 
 ## Example
 
@@ -82,8 +78,11 @@ End Sub
  
 ```
 
+<br/>
+
 This example uses **CreateDatabase** to create a new, encrypted **Database** object.
 
+```vb
     Sub CreateDatabaseX() 
      
      Dim wrkDefault As Workspace 
@@ -115,4 +114,4 @@ This example uses **CreateDatabase** to create a new, encrypted **Database** obj
      dbsNew.Close 
      
     End Sub
-
+```

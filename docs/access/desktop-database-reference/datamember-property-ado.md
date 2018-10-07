@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # DataMember Property (ADO)
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Indicates the name of the data member that will be retrieved from the object referenced by the [DataSource](datasource-property-ado.md) property.
@@ -29,7 +28,8 @@ The **DataMember** property determines which object specified by the **DataSourc
 
 **Usage**
 
+```vb
     Dim rs as New ADODB.Recordset
     rs.DataMember = "Command"     'Name of the rowset to bind to
     Set rs.DataSource = myDE      'Name of the object containing an IRowset
-
+```

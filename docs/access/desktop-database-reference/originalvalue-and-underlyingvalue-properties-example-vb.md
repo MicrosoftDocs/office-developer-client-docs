@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # OriginalValue and UnderlyingValue Properties Example (VB)
 
-
 **Applies to**: Access 2013 | Office 2013
 
 This example demonstrates the [OriginalValue](originalvalue-property-ado.md) and [UnderlyingValue](underlyingvalue-property-ado.md) properties by displaying a message if a record's underlying data has changed during a [Recordset](recordset-object-ado.md) batch update.

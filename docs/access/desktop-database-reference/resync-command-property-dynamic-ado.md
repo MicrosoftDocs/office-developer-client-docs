@@ -6,12 +6,9 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249322(v=office.15)
 ms:contentKeyID: 48545081
 ms.date: 09/18/2015
 mtps_version: v=office.15
-dev_langs:
-- sql
 ---
 
 # Resync Command Property--Dynamic (ADO)
-
 
 **Applies to**: Access 2013 | Office 2013
 
@@ -29,48 +26,48 @@ The command string of the **Resync Command** property is a parameterized command
 
 Here are two examples based on SQL:
 
-1\) The **Recordset** is defined by a command:
+1.  The **Recordset** is defined by a command:
 
-``` sql
-SELECT * FROM Customers JOIN Orders ON 
-   Customers.CustomerID = Orders.CustomerID
-   WHERE city = Seattle
-   ORDER BY CustomerID
-```
+    ```sql
+        SELECT * FROM Customers JOIN Orders ON 
+        Customers.CustomerID = Orders.CustomerID
+        WHERE city = Seattle
+        ORDER BY CustomerID
+    ```
 
-The **Resync Command** property is set to:
+    The **Resync Command** property is set to:
 
-``` sql
-"SELECT * FROM 
-   (SELECT * FROM Customers JOIN Orders 
-   ON Customers.CustomerID = Orders.CustomerID
-   city = Seattle ORDER BY CustomerID)
-WHERE Orders.OrderID = ?"
-```
+    ```sql
+     SELECT * FROM 
+        (SELECT * FROM Customers JOIN Orders 
+        ON Customers.CustomerID = Orders.CustomerID
+        city = Seattle ORDER BY CustomerID)
+     WHERE Orders.OrderID = ?"
+    ```
 
-The **Unique Table** is *Orders* and its primary key, *OrderID*, is parameterized. The sub-select provides a simple way to programmatically ensure that the same number and order of columns are returned as by the original command.
+    The **Unique Table** is *Orders* and its primary key, *OrderID*, is parameterized. The sub-select provides a simple way to programmatically ensure that the same number and order of columns are returned as by the original command.
 
-2\) The **Recordset** is defined by a stored procedure:
+2. The **Recordset** is defined by a stored procedure:
 
-``` sql
-CREATE PROC Custorders @CustomerID char(5) AS 
-SELECT * FROM Customers JOIN Orders ON 
-Customers.CustomerID = Orders.CustomerID 
-WHERE Customers.CustomerID = @CustomerID
-```
+    ```sql
+        CREATE PROC Custorders @CustomerID char(5) AS 
+        SELECT * FROM Customers JOIN Orders ON 
+        Customers.CustomerID = Orders.CustomerID 
+        WHERE Customers.CustomerID = @CustomerID
+    ```
 
-The **Resync** method should execute the following stored procedure:
+    The **Resync** method should execute the following stored procedure:
 
-``` sql
-CREATE PROC CustordersResync @ordid int AS 
-SELECT * FROM Customers JOIN Orders ON 
-Customers.CustomerID = Orders.CustomerID
-WHERE Orders.ordid  = @ordid
-```
+    ```sql
+        CREATE PROC CustordersResync @ordid int AS 
+        SELECT * FROM Customers JOIN Orders ON 
+        Customers.CustomerID = Orders.CustomerID
+        WHERE Orders.ordid  = @ordid
+    ```
 
-The **Resync Command** property is set to:
+    The **Resync Command** property is set to:
 
-    "{call CustordersResync (?)}"
+    `"{call CustordersResync (?)}"`
 
 Once again, the **Unique Table** is *Orders* and its primary key, *OrderID*, is parameterized.
 

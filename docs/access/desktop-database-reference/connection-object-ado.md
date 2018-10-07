@@ -14,7 +14,6 @@ f1_categories:
 
 # Connection Object (ADO)
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Represents an open connection to a data source.
@@ -41,9 +40,7 @@ With the collections, methods, and properties of a **Connection** object, you ca
     
 
     > [!NOTE]
-    > <P>To execute a query without using a Command object, pass a query string to the <STRONG>Execute</STRONG> method of a <STRONG>Connection</STRONG> object. However, a <A href="command-object-ado.md">Command</A> object is required when you want to persist the command text and re-execute it, or use query parameters.</P>
-
-
+    > To execute a query without using a Command object, pass a query string to the **Execute** method of a **Connection** object. However, a [Command](command-object-ado.md) object is required when you want to persist the command text and re-execute it, or use query parameters.
 
   - Manage transactions on the open connection, including nested transactions if the provider supports them, with the [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md), [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md), and [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) methods and the [Attributes](attributes-property-ado.md) property.
 
@@ -57,10 +54,11 @@ You can create **Connection** objects independently of any other previously defi
 
 You can execute commands or stored procedures as if they were native methods on the **Connection** object, as illustrated below.
 
-**Execute a command as a native method of a Connection object**
+### Execute a command as a native method of a Connection object
 
 To execute a command, give the command a name using the **Command** object [Name](name-property-ado.md) property. Set the **Command** object's **ActiveConnection** property to the connection. Then issue a statement where the command name is used as if it were a method on the **Connection** object, followed by any parameters, then followed by a **Recordset** object if any rows are returned. Set the **Recordset** properties to customize the resulting **Recordset**. For example:
 
+```vb
     Dim cnn As New ADODB.Connection
     Dim cmd As New ADODB.Command
     Dim rst As New ADODB.Recordset
@@ -71,13 +69,15 @@ To execute a command, give the command a name using the **Command** object [Name
     ...
     'Your command name, any parameters, and an optional Recordset.
     cnn.yourCommandName "parameter", rst
+```
 
-**Execute a stored procedure as a native method of a Connection object**
+### Execute a stored procedure as a native method of a Connection object
 
 To execute a stored procedure, issue a statement where the stored procedure name is used as if it were a method on the **Connection** object, followed by any parameters. ADO will make a "best guess" of parameter types. For example:
 
+```vb
     Dim cnn As New ADODB.Connection
     ...
     'Your stored procedure name and any parameters.
     cnn.sp_yourStoredProcedureName "parameter"
-
+```

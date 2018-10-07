@@ -14,9 +14,7 @@ f1_categories:
 
 # Database.DesignMasterID Property (DAO)
 
-
 **Applies to**: Access 2013 | Office 2013
-
 
 Sets or returns a 16-byte value that uniquely identifies the Design Master in a replica set (Microsoft Access workspaces only).
 
@@ -30,11 +28,8 @@ Sets or returns a 16-byte value that uniquely identifies the Design Master in a 
 
 You should set the **DesignMasterID** property only if you need to move the current Design Master. Setting this property makes a specific replica in the replica set the Design Master.
 
-
 > [!NOTE]
-> <P>Never create a second Design Master in a replica set. The existence of a second Design Master can result in the loss of data.</P>
-
-
+> Never create a second Design Master in a replica set. The existence of a second Design Master can result in the loss of data.
 
 Under extreme circumstances— for example, if the Design Master is erased or corrupted— you can set this property at the current replica. However, setting this property at a replica when there is already another Design Master in the set might partition your replica set into two irreconcilable sets and prevent any further synchronization of data.
 
@@ -48,30 +43,30 @@ The **DesignMasterID** property setting is stored in the MSysRepInfo system tabl
 
 This example sets the **DesignMasterID** property to the **ReplicaID** property setting of another database, making that database the Design Master in the replica set. The old and new Design Masters are synchronized to update the design change. For this code to work, you must create a Design Master and replica, include their names and paths as appropriate, and run this code from a database other than the old or new Design Master.
 
-``` 
-Sub SetNewDesignMaster(strOldDM as String, _ 
- strNewDM as String) 
+```vb 
+ Sub SetNewDesignMaster(strOldDM as String, _ 
+    strNewDM as String) 
+    
+    Dim dbsOld As Database 
+    Dim dbsNew As Database 
+    
+    ' Open the current Design Master in exclusive mode. 
+    Set dbsOld = OpenDatabase(strOldDM, True) 
+    
+    ' Open the database that will become the new 
+    ' Design Master. 
+    Set dbsNew = OpenDatabase(strNewDM) 
+    
+    ' Make the new database the Design Master. 
+    dbsOld.DesignMasterID = dbsNew.ReplicaID 
+    
+    ' Synchronize the old Design Master with the new 
+    ' Design Master, and allow two-way exchanges. 
+    dbsOld.Synchronize strNewDM, dbRepImpExpChanges 
+    dbsOld.Close 
+    dbsNew.Close 
  
- Dim dbsOld As Database 
- Dim dbsNew As Database 
- 
- ' Open the current Design Master in exclusive mode. 
- Set dbsOld = OpenDatabase(strOldDM, True) 
- 
- ' Open the database that will become the new 
- ' Design Master. 
- Set dbsNew = OpenDatabase(strNewDM) 
- 
- ' Make the new database the Design Master. 
- dbsOld.DesignMasterID = dbsNew.ReplicaID 
- 
- ' Synchronize the old Design Master with the new 
- ' Design Master, and allow two-way exchanges. 
- dbsOld.Synchronize strNewDM, dbRepImpExpChanges 
- dbsOld.Close 
- dbsNew.Close 
- 
-End Sub 
+ End Sub 
  
 ```
 

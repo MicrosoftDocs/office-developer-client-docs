@@ -14,16 +14,12 @@ f1_categories:
 
 # DBEngine.CompactDatabase Method (DAO)
 
-
-_**Applies to:** Access 2013 | Access 2016_
+**Applies to**: Access 2013 | Access 2016
 
 Copies and compacts a closed database, and gives you the option of changing its version, collating order, and encryption. (Microsoft Access workspaces only).
 
-
 > [!NOTE]
-> <P>When using encrypted linked tables for action, update, and SQL queries [such as a SQL UPDATE statement (CurrentDb.Execute "UPDATE...")], you must supply the encryption key. Also, linked tables have a 19-character limit for the encryption key. See the <EM>Encrypted linked tables</EM> section at the end of this topic.</P>
-
-
+> When using encrypted linked tables for action, update, and SQL queries [such as a SQL UPDATE statement (CurrentDb.Execute "UPDATE...")], you must supply the encryption key. Also, linked tables have a 19-character limit for the encryption key. See the **Encrypted linked tables** section at the end of this topic.
 
 ## Syntax
 
@@ -197,14 +193,12 @@ You can use one of the following constants for the DstLocale argument to specify
 </tbody>
 </table>
 
+<br/>
 
 You can use one of the following constants in the options argument to specify whether to encrypt or to decrypt the database while it's compacted.
 
-
 > [!NOTE]
-> <P>The constants dbEncrypt and dbDecrypt are deprecated and not supported in .ACCDB file formats.</P>
-
-
+> The constants dbEncrypt and dbDecrypt are deprecated and not supported in .ACCDB file formats.
 
 <table>
 <colgroup>
@@ -229,6 +223,7 @@ You can use one of the following constants in the options argument to specify wh
 </tbody>
 </table>
 
+<br/>
 
 If you omit an encryption constant or if you include both **dbDecrypt** and **dbEncrypt**, DstName will have the same encryption as SrcName.
 
@@ -273,6 +268,7 @@ You can use one of the following constants in the options argument to specify th
 </tbody>
 </table>
 
+<br/>
 
 You can specify only one version constant. If you omit a version constant, DstName will have the same version as SrcName. You can compact DstName only to a version that is the same or later than that of SrcName.
 
@@ -284,24 +280,19 @@ Because **CompactDatabase** creates a copy of the database, you must have enough
 
 The **CompactDatabase** method copies all the data and the security permission settings from the database specified by SrcName to the database specified by DstName.
 
-
 > [!NOTE]
-> <P>Because the <STRONG>CompactDatabase</STRONG> method doesn't convert Microsoft Access objects, you shouldn't use <STRONG>CompactDatabase</STRONG> to convert a database containing such objects.</P>
-
-
+> Because the **CompactDatabase** method doesn't convert Microsoft Access objects, you shouldn't use **CompactDatabase** to convert a database containing such objects.
 
 ## Encrypted linked tables
 
 Encrypted passwords are dependent on the file format of the database that you are using. If you are using an Access 2003 (.mdb) or earlier database, you will have one password to protect the database, and a separate password to encrypt the database. For Access 2007 (.accdb) and later (.mdb) databases, the only option is to encrypt and protect the database with one password, as the option to have two separate passwords has been removed.
 
-
 > [!NOTE]
-> <P>For Access 2007 (.accdb) databases, the password is the encryption key</P>
-
-
+> For Access 2007 (.accdb) databases, the password is the encryption key
 
 You can use the following example VBA code for a command button:
 
+```vb
     Private Sub Command0_Click()
     
     Dim strSourcePath As String
@@ -322,9 +313,13 @@ You can use the following example VBA code for a command button:
     MsgBox "Finished"
     
     End Sub 
+```
 
-The code sample below shows how to use CompactDatabase with a password (encryption key) and then link to a table in that compacted database. Note that a password must be supplied.
+<br/>
 
+The following code sample shows how to use CompactDatabase with a password (encryption key) and then link to a table in that compacted database. Note that a password must be supplied.
+
+```vb
     Private Sub CompactAndLink_Click() 
      
     Dim strSourcePath As String
@@ -357,4 +352,4 @@ The code sample below shows how to use CompactDatabase with a password (encrypti
     MsgBox "Database compacted and encrypted password applied. Link to table also completed."
      
     End Sub
-
+```

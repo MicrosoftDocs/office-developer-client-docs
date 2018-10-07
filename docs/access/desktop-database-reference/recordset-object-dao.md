@@ -62,11 +62,11 @@ Information about the structure of a base table, such as the names and data type
 
 To refer to a **Recordset** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:
 
-**Recordsets**(0)
+- **Recordsets**(0)
 
-**Recordsets**("name")
+- **Recordsets**("name")
 
-**Recordsets**\!\[name\]
+- **Recordsets**\!\[name\]
 
 > [!NOTE]
 > You can open a **Recordset** object from the same data source or database more than once, creating duplicate names in the **Recordsets** collection. You should assign **Recordset** objects to object variables and refer to them by variable name.

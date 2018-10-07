@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Recordsets Collection (DAO)
 
-
 **Applies to**: Access 2013 | Office 2013
 
 A **Recordsets** collection contains all open **Recordset** objects in a **Connection** or **Database** object.
@@ -25,22 +24,20 @@ You can create as many **Recordset** object variables as needed. Different **Rec
 
 To refer to a **Recordset** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:
 
-**Recordsets**(0)
+- **Recordsets**(0)
 
-**Recordsets**("name")
+- **Recordsets**("name")
 
-**Recordsets**\!\[name\]
-
+- **Recordsets**\!\[name\]
 
 > [!NOTE]
-> <P>You can open a <STRONG>Recordset</STRONG> object from the same data source or database more than once, creating duplicate names in the <STRONG>Recordsets</STRONG> collection. You should assign <STRONG>Recordset</STRONG> objects to object variables and refer to them by variable name.</P>
-
-
+> You can open a **Recordset** object from the same data source or database more than once, creating duplicate names in the **Recordsets** collection. You should assign **Recordset** objects to object variables and refer to them by variable name.
 
 ## Example
 
 This example demonstrates **Recordset** objects and the **Recordsets** collection by opening four different types of **Recordsets**, enumerating the Recordsets collection of the current **Database**, and enumerating the **Properties** collection of each **Recordset**.
 
+```vb
     Sub RecordsetX() 
      
      Dim dbsNorthwind As Database 
@@ -99,4 +96,4 @@ This example demonstrates **Recordset** objects and the **Recordsets** collectio
      End With 
      
     End Sub
-
+```

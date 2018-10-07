@@ -63,21 +63,13 @@ The PROCEDURE clause has these parts:
 
 An SQL procedure consists of a PROCEDURE clause (which specifies the name of the procedure), an optional list of parameter definitions, and a single SQL statement. For example, the procedure Get\_Part\_Number might run a query that retrieves a specified part number.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>If the clause includes more than one field definition (that is, <EM>param-datatype</EM> pairs), separate them with commas.</P>
-> <LI>
-> <P>The PROCEDURE clause must be followed by an SQL statement (for example, a <A href="select-statement-microsoft-access-sql.md">SELECT</A> or <A href="update-statement-microsoft-access-sql.md">UPDATE</A> statement).</P></LI></UL>
-
-
+> - If the clause includes more than one field definition (that is, *param-datatype* pairs), separate them with commas.
+> - The PROCEDURE clause must be followed by an SQL statement (for example, a [SELECT](select-statement-microsoft-access-sql.md) or [UPDATE](update-statement-microsoft-access-sql.md) statement).
 
 ## Example
 
-This example names the query CategoryList.
-
-This example calls the EnumFields procedure, which you can find in the SELECT statement example.
+This example names the query CategoryList, and calls the EnumFields procedure, which you can find in the SELECT statement example.
 
 ```vb
     Sub ProcedureX() 

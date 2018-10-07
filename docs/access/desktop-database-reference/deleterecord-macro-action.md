@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # DeleteRecord Macro Action
 
-
 **Applies to**: Access 2013 | Office 2013
 
 You can use the **DeleteRecord** action to delete a record.
@@ -38,10 +37,9 @@ The **CreateRecord** data block has the following arguments.
 </tbody>
 </table>
 
-
 ## Remarks
 
 You can use the **LastCreateRecordIdentity** local variable to work with last record created in a **CreateRecord** data block. For example, use the following syntax to refer to the most recently created record:
 
-    [LastCreateRecordIdentity]
+`[LastCreateRecordIdentity]`
 

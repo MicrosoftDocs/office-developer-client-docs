@@ -10,9 +10,7 @@ mtps_version: v=office.15
 
 # Database.Execute Method (DAO)
 
-
 **Applies to**: Access 2013 | Office 2013
-
 
 Runs an action query or executes an SQL statement on the specified object.
 
@@ -108,17 +106,11 @@ You can use the following **[RecordsetOptionEnum](recordsetoptionenum-enumeratio
 </table>
 
 
+> [!NOTE]
+> ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.
 
 > [!NOTE]
-> <P>ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</P>
-
-
-
-
-> [!NOTE]
-> <P>The constants <STRONG>dbConsistent</STRONG> and <STRONG>dbInconsistent</STRONG> are mutually exclusive. You can use one or the other, but not both in a given instance of <STRONG>OpenRecordset</STRONG>. Using both <STRONG>dbConsistent</STRONG> and <STRONG>dbInconsistent</STRONG> causes an error.</P>
-
-
+> The constants **dbConsistent** and **dbInconsistent** are mutually exclusive. You can use one or the other, but not both in a given instance of **OpenRecordset**. Using both **dbConsistent** and **dbInconsistent** causes an error.
 
 The **Execute** method is valid only for action queries. If you use **Execute** with another type of query, an error occurs. Because an action query doesn't return any records, **Execute** doesn't return a **Recordset**. (Executing an SQL pass-through query in an ODBCDirect workspace will not return an error if a **Recordset** isn't returned.)
 
@@ -134,6 +126,7 @@ For best performance in a Microsoft Access workspace, especially in a multiuser 
 
 This example demonstrates the **Execute** method when run from both a **QueryDef** object and a **Database** object. The ExecuteQueryDef and PrintOutput procedures are required for this procedure to run.
 
+```vb
     Sub ExecuteX() 
      
      Dim dbsNorthwind As Database 
@@ -244,4 +237,4 @@ This example demonstrates the **Execute** method when run from both a **QueryDef
      Loop 
      
     End Sub
-
+```

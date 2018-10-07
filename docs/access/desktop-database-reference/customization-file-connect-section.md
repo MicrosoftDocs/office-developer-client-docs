@@ -10,26 +10,25 @@ mtps_version: v=office.15
 
 # Customization File Connect Section
 
-
 **Applies to**: Access 2013 | Office 2013
 
 The default behavior of the handler is to deny all connections. The **connect** section specifies exceptions to that behavior. For example, if all the **connect** sections were absent or empty, then by default no connections could be made.
 
 The **connect** section can contain:
 
-  - A default access entry that specifies the default read and write operations allowed on this connection. If there is no default access entry in the section, the section will be ignored.
+- A default access entry that specifies the default read and write operations allowed on this connection. If there is no default access entry in the section, the section will be ignored.
 
-  - A new connection string that replaces the client connection string.
+- A new connection string that replaces the client connection string.
 
 ## Syntax
 
 A default access entry is of the form:
 
-    Access=accessRight
+`Access=accessRight`
 
 A replacement connection string entry is of the form:
 
-    Connect=connectionString
+`Connect=connectionString`
 
 <table>
 <colgroup>

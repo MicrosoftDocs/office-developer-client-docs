@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Item Property (ADO)
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Indicates a specific member of a collection, by name or ordinal number.
@@ -25,9 +24,9 @@ Returns an object reference.
 
 ## Parameters
 
-  - *Index*
+- *Index*
 
-  - A **Variant** expression that evaluates either to the name or to the ordinal number of an object in a collection.
+- A **Variant** expression that evaluates either to the name or to the ordinal number of an object in a collection.
 
 ## Remarks
 
@@ -35,6 +34,7 @@ Use the **Item** property to return a specific object in a collection. If **Item
 
 The **Item** property is the default property for all collections; therefore, the following syntax forms are interchangeable:
 
+```vb
     collection.Item (Index)
     collection (Index)
-
+```

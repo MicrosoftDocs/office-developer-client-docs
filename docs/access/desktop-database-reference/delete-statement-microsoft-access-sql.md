@@ -14,10 +14,7 @@ f1_categories:
 
 # DELETE Statement (Microsoft Access SQL)
 
-
 **Applies to**: Access 2013 | Office 2013
-
-
 
 Creates a delete query that removes records from one or more of the tables listed in the [FROM](https://msdn.microsoft.com/library/ff836674\(v=office.15\)) clause that satisfy the [WHERE](https://msdn.microsoft.com/library/ff195245\(v=office.15\)) clause.
 
@@ -65,20 +62,15 @@ You can use DELETE to remove records from tables that are in a one-to-many relat
 
 A delete query deletes entire records, not just data in specific fields. If you want to delete values in a specific field, create an update query that changes the values to **Null**.
 
-
 > [!IMPORTANT]
-> <UL>
-> <LI>
-> <P>After you remove records using a delete query, you cannot undo the operation. If you want to know which records were deleted, first examine the results of a select query that uses the same criteria, and then run the delete query.</P>
-> <LI>
-> <P>Maintain backup copies of your data at all times. If you delete the wrong records, you can retrieve them from your backup copies.</P></LI></UL>
-
-
+> - After you remove records using a delete query, you cannot undo the operation. If you want to know which records were deleted, first examine the results of a select query that uses the same criteria, and then run the delete query.
+> - Maintain backup copies of your data at all times. If you delete the wrong records, you can retrieve them from your backup copies.
 
 ## Example
 
 This example deletes all records for employees whose title is Trainee. When the FROM clause includes only one table, you do not have to list the table name in the DELETE statement.
 
+```vb
     Sub DeleteX() 
      
         Dim dbs As Database, rst As Recordset 
@@ -94,4 +86,4 @@ This example deletes all records for employees whose title is Trainee. When the 
         dbs.Close 
      
     End Sub
-
+```

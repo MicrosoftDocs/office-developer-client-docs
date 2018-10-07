@@ -51,6 +51,6 @@ If the **Recordset** object is forward only, a user can still pass a *NumRecords
 
 
 > [!NOTE]
-> <P>Support for moving backwards in a forward-only <STRONG>Recordset</STRONG> is not predictable, depending upon your provider. If the current record has been postioned after the last record in the <STRONG>Recordset</STRONG>, <STRONG>Move</STRONG> backwards may not result in the correct current position.</P>
+> Support for moving backwards in a forward-only **Recordset** is not predictable, depending upon your provider. If the current record has been postioned after the last record in the **Recordset**, **Move** backwards may not result in the correct current position.
 
 

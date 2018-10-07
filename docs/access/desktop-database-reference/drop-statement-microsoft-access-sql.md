@@ -10,18 +10,12 @@ mtps_version: v=office.15
 
 # DROP Statement (Microsoft Access SQL)
 
-
 **Applies to**: Access 2013 | Office 2013
-
-
 
 Deletes an existing table, procedure, or view from a database, or deletes an existing index from a table.
 
-
 > [!NOTE]
-> <P>The Microsoft Access database engine does not support the use of DROP, or any of the DDL statements, with non-Microsoft Access database engine databases. Use the DAO <STRONG>Delete</STRONG> method instead.</P>
-
-
+> The Microsoft Access database engine does not support the use of DROP, or any of the DDL statements, with non-Microsoft Access database engine databases. Use the DAO **Delete** method instead.
 
 ## Syntax
 
@@ -75,6 +69,7 @@ The following example assumes the existence of a hypothetical NewIndex index on 
 
 This example deletes the index MyIndex from the Employees table.
 
+```vb
     Sub DropX1() 
      
         Dim dbs As Database 
@@ -89,9 +84,13 @@ This example deletes the index MyIndex from the Employees table.
         dbs.Close 
      
     End Sub
+```
+
+<br/>
 
 This example deletes the Employees table from the database.
 
+```vb
     Sub DropX2() 
      
         Dim dbs As Database 
@@ -106,4 +105,4 @@ This example deletes the Employees table from the database.
         dbs.Close 
      
     End Sub
-
+```

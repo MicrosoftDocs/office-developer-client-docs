@@ -14,10 +14,8 @@ f1_categories:
 
 # TableDef.RefreshLink Method (DAO)
 
-
 **Applies to**: Access 2013 | Office 2013
  
-
 Updates the connection information for a linked table (Microsoft Access workspaces only).
 
 ## Syntax
@@ -36,7 +34,7 @@ For this connection information to exist in all collections associated with the 
 
 This example uses the **RefreshLink** method to refresh the data in a linked table after its connection has been changed from one data source to another. The RefreshLinkOutput procedure is required for this procedure to run.
 
-``` 
+```vb 
 Sub RefreshLinkX() 
  
  Dim dbsCurrent As Database 

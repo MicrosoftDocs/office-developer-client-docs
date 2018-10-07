@@ -14,9 +14,7 @@ f1_categories:
 
 # Initializing the Microsoft Exchange Data Source Driver
 
-
 **Applies to**: Access 2013 | Office 2013
-
 
 When you install the Microsoft® Exchange Data Source driver, the Setup program writes a set of default values to the Microsoft Windows® Registry in the Engines and ISAM Formats subkeys. You should not modify these settings directly; use the setup program for your application to add, remove, or change these settings. The following sections describe initialization and ISAM Format settings for the Microsoft Exchange Data Source driver.
 
@@ -24,7 +22,7 @@ When you install the Microsoft® Exchange Data Source driver, the Setup program 
 
 The **Access Connectivity Engine\\Engines\\Exchange** folder includes initialization settings for the Aceexch.dll driver, used for external access to Microsoft Outlook and Microsoft Exchange folders. The only entry in this folder is the following:
 
-    win32=<path>\ACEEXCH.DLL
+`win32=<path>\ACEEXCH.DLL`
 
 The Microsoft Access database engine uses this setting to indicate the location of Aceexch.dll. The full path is determined at the time of installation. Values are of type REG\_SZ.
 
@@ -94,7 +92,7 @@ The **Access Connectivity Engine\\ISAM Formats\\Outlook 9.0** folder contains th
 
 
 > [!NOTE]
-> <P>When you change Windows Registry settings, you must exit and then restart the database engine for the new settings to take effect.</P>
+> When you change Windows Registry settings, you must exit and then restart the database engine for the new settings to take effect.
 
 
 
@@ -162,7 +160,7 @@ The **Access Connectivity Engine\\ISAM Formats\\Exchange 4.0** folder contains t
 
 
 > [!NOTE]
-> <P>When you change Windows Registry settings, you must exit and then restart the database engine for the new settings to take effect.</P>
+> When you change Windows Registry settings, you must exit and then restart the database engine for the new settings to take effect.
 
 
 

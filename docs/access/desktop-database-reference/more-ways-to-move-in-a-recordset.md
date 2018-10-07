@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # More Ways to Move in a Recordset
 
-
 **Applies to**: Access 2013 | Office 2013
 
 The following four methods are used to move around, or scroll, in the **Recordset**: [MoveFirst, MoveLast, MoveNext, and MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md). (Some of these methods are unavailable on forward-only cursors.)
@@ -19,8 +18,7 @@ The following four methods are used to move around, or scroll, in the **Recordse
 
 **MoveNext** moves the current record position one place forward. If you are on the last record when you call **MoveNext**, **EOF** will be set to **True**. **MovePrevious** moves the current record position one place backward. If you are on the first record when you call **MovePrevious**, **BOF** will be set to **True**. It is wise to check the **EOF** and **BOF** properties when using these methods and to move the cursor back to a valid current record position if you move off either end of the **Recordset**, as shown here:
 
-``` 
- 
+```vb
 . . . 
 oRs.MoveNext 
 If oRs.EOF Then oRs.MoveLast 
@@ -29,8 +27,7 @@ If oRs.EOF Then oRs.MoveLast
 
 Or, in the case of the **MovePrevious** method:
 
-``` 
- 
+```vb
 . . . 
 oRs.MovePrevious 
 If oRs.BOF Then oRs.MoveFirst 

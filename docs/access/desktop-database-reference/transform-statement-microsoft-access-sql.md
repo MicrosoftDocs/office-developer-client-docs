@@ -14,10 +14,7 @@ f1_categories:
 
 # TRANSFORM Statement (Microsoft Access SQL)
 
-
 **Applies to**: Access 2013 | Office 2013
-
-
 
 Creates a crosstab query.
 
@@ -58,7 +55,6 @@ The TRANSFORM statement has these parts:
 </tbody>
 </table>
 
-
 ## Remarks
 
 When you summarize data using a crosstab query, you select values from specified fields or expressions as column headings so you can view data in a more compact format than with a select query.
@@ -71,6 +67,7 @@ The values returned in *pivotfield* are used as column headings in the query's r
 
 This example uses the SQL TRANSFORM clause to create a crosstab query showing the number of orders taken by each employee for each calendar quarter of 1994. The SQLTRANSFORMOutput function is required for this procedure to run.
 
+```vb
     Sub TransformX1() 
      
         Dim dbs As Database 
@@ -102,9 +99,13 @@ This example uses the SQL TRANSFORM clause to create a crosstab query showing th
         dbs.Close 
      
     End Sub
+```
+
+<br/>
 
 This example uses the SQL TRANSFORM clause to create a slightly more complex crosstab query showing the total dollar amount of orders taken by each employee for each calendar quarter of 1994. The SQLTRANSFORMOutput function is required for this procedure to run.
 
+```vb
     Sub TransformX2() 
      
         Dim dbs As Database 
@@ -184,4 +185,4 @@ This example uses the SQL TRANSFORM clause to create a slightly more complex cro
         End With 
          
     End Function
-
+```
