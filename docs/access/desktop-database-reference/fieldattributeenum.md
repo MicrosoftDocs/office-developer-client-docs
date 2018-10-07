@@ -52,7 +52,7 @@ Specifies one or more attributes of a [Field](field-object-ado.md) object.
 <tr class="odd">
 <td><p><strong>adFldIsDefaultStream</strong></p></td>
 <td><p>0x20000</p></td>
-<td><p>Indicates that the field contains the default stream for the resource represented by the record. For example, the default stream can be the HTML content of a root folder on a Web site, which is automatically served when the root URL is specified.</p></td>
+<td><p>Indicates that the field contains the default stream for the resource represented by the record. For example, the default stream can be the HTML content of a root folder on a website, which is automatically served when the root URL is specified.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFldIsNullable</strong></p></td>

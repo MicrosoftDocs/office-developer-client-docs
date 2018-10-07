@@ -10,24 +10,23 @@ mtps_version: v=office.15
 
 # Using Related Technologies with RDS
 
-
 **Applies to**: Access 2013 | Office 2013
 
 This section contains specific information about using RDS with aspects of the following technologies:
 
   - [Using RDS with ODBC Connection Pooling](using-rds-with-odbc-connection-pooling.md)
 
-  - [Running Business Objects in Component Services](https://www.microsoft.com/com/default.mspx)
+  - [Running Business Objects in Component Services](https://docs.microsoft.com/sql/ado/guide/remote-data-service/running-business-objects-in-component-services?view=sql-server-2017)
 
-**Internet Information Services** For more information about Microsoft Internet Information Services (IIS), see the Microsoft Internet Information Services Web site.
+**Internet Information Services** For more information about Microsoft Internet Information Services (IIS), see the Microsoft Internet Information Services website.
 
-**Active Server Pages** For more information about Microsoft Active Server Pages (ASP), see the Microsoft Active Server Pages Web site.
+**Active Server Pages** For more information about Microsoft Active Server Pages (ASP), see the Microsoft Active Server Pages website.
 
-**Microsoft Component Services** For more information about Component Services, see the Microsoft Transaction Server Web site.
+**Microsoft Component Services** For more information about Component Services, see the Microsoft Transaction Server website.
 
-**Microsoft SQL Server** For more information about Microsoft SQL Server, see the Microsoft SQL Server Web site.
+**Microsoft SQL Server** For more information about Microsoft SQL Server, see the Microsoft SQL Server website.
 
-**Microsoft Internet Explorer** For more information about Microsoft Internet Explorer, see the Microsoft Internet Explorer Web site and the MSDN Library and Web Workshop Web site.
+**Microsoft Internet Explorer** For more information about Microsoft Internet Explorer, see the Microsoft Internet Explorer website and the MSDN Library and Web Workshop website.
 
-**Microsoft Windows NT Server/Windows 2000 Server** For more information about security in Microsoft Windows NT Server or Windows 2000 Server, see the Microsoft Windows Web site.
+**Microsoft Windows NT Server/Windows 2000 Server** For more information about security in Microsoft Windows NT Server or Windows 2000 Server, see the Microsoft Windows website.
 

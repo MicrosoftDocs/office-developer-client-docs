@@ -48,7 +48,7 @@ The PROCEDURE clause has these parts:
 <tr class="even">
 <td><p><em>param1</em>, <em>param2</em></p></td>
 <td><p>One or more field names or parameters. For example:</p>
-<pre class="sourceCode sql" id="cb1"><code class="sourceCode sql"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="kw">PROCEDURE</span> Sales_By_Country [Beginning <span class="dt">Date</span>] DateTime, [Ending <span class="dt">Date</span>] DateTime;</a></code></pre>
+<p>`PROCEDURE Sales_By_Country [Beginning Date] DateTime, [Ending Date] DateTime;`</p>
 <p>For more information on parameters, see <a href="parameters-declaration-microsoft-access-sql.md">parameters</a>.</p></td>
 </tr>
 <tr class="odd">

@@ -76,7 +76,7 @@ The following table lists the [RDS.DataControl](datacontrol-object-rds.md) objec
 <td><p>4112<br />
 -2146824170<br />
 0x800A1016</p></td>
-<td><p>This page accesses data on another domain. Do you want to allow this? To avoid this message in Internet Explorer, you can add a secure Web site to your Trusted Sites zone on the <strong>Security</strong> tab of the <strong>Internet Options</strong> dialog box.</p></td>
+<td><p>This page accesses data on another domain. Do you want to allow this? To avoid this message in Internet Explorer, you can add a secure website to your Trusted Sites zone on the <strong>Security</strong> tab of the <strong>Internet Options</strong> dialog box.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IDS_InvalidADCClientVersion</strong></p></td>

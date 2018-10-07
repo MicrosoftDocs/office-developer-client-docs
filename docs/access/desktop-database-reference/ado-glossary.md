@@ -173,7 +173,7 @@ Those statements in SQL that define, as opposed to manipulate, data. The schema 
 
 **default stream**
 
-A text or binary stream (represented by a **Stream** object) that is associated with **Record** or **Recordset** objects when using certain OLE DB providers, such as the Microsoft OLE DB Provider for Internet Publishing. The default stream typically contains the contents of a file such as the HTML code for the root of a Web site.
+A text or binary stream (represented by a **Stream** object) that is associated with **Record** or **Recordset** objects when using certain OLE DB providers, such as the Microsoft OLE DB Provider for Internet Publishing. The default stream typically contains the contents of a file such as the HTML code for the root of a website.
 
 **distributed application**
 

@@ -286,9 +286,11 @@ void PrintComError(_com_error &e)
 // EndDeleteCpp 
 ```
 
+<br/>
+
 **DeleteX.h**
 
-``` 
+```cpp 
  
 // BeginDeleteH 
 #include "icrsint.h" 
