@@ -32,8 +32,7 @@ The PROCEDURE clause has these parts:
 |Part |Description |
 |:----|:-----------|
 |*name* |A name for the procedure. It must follow standard naming conventions.|
-|*param1*, *param2* |One or more field names or parameters. For example:<br/><br/>
-`PROCEDURE Sales_By_Country [Beginning Date] DateTime, [Ending Date] DateTime;`<br/><br/>For more information about parameters, see [parameters](parameters-declaration-microsoft-access-sql.md).|
+|*param1*, *param2* |One or more field names or parameters. For example:<br/><br/>`PROCEDURE Sales_By_Country [Beginning Date] DateTime, [Ending Date] DateTime;`<br/><br/>For more information about parameters, see [parameters](parameters-declaration-microsoft-access-sql.md).|
 |*datatype* | One of the primary [Microsoft Access SQL data types](sql-data-types.md) or their synonyms. |
 
 
