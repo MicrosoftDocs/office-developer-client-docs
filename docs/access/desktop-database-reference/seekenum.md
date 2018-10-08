@@ -1,5 +1,5 @@
 ﻿---
-title: SeekEnum
+title: SeekEnum (Access desktop database reference)
 TOCTitle: SeekEnum
 ms:assetid: a0574809-db2d-8759-18cc-fb1cf776e8fd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249737(v=office.15)

@@ -25,38 +25,12 @@ CREATE PROCEDURE *procedure* \[*param1 datatype*\[, *param2 datatype*\[, …\]\]
 
 The CREATE PROCEDURE statement has these parts:
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Part</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><em>procedure</em></p></td>
-<td><p>A name for the procedure. It must follow standard naming conventions.</p></td>
-</tr>
-<tr class="even">
-<td><p><em>param1</em>, <em>param2</em></p></td>
-<td><p>From one to 255 field names or parameters. For example:</p>
-<pre class="sourceCode sql" id="cb1"><code class="sourceCode sql"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="kw">CREATE</span> <span class="kw">PROCEDURE</span> Sales_By_Country [Beginning <span class="dt">Date</span>] DateTime, [Ending <span class="dt">Date</span>] DateTime;</a></code></pre>
-<p>For more information on parameters, see <a href="parameters-declaration-microsoft-access-sql.md">PARAMETERS</a>.</p></td>
-</tr>
-<tr class="odd">
-<td><p><em>datatype</em></p></td>
-<td><p>One of the primary <a href="sql-data-types.md">Microsoft Access SQL data types</a> or their synonyms.</p></td>
-</tr>
-<tr class="even">
-<td><p><em>sqlstatement</em></p></td>
-<td><p>An SQL statement such as SELECT, UPDATE, DELETE, INSERT, CREATE TABLE, DROP TABLE, and so on.</p></td>
-</tr>
-</tbody>
-</table>
+|Part|Description|
+|:---|:----------|
+|*procedure*|A name for the procedure. It must follow standard naming conventions.|
+|*param1*, *param2*|From one to 255 field names or parameters. For example:<br/><br/>`CREATE PROCEDURE Sales_By_Country [Beginning Date] DateTime, [Ending Date] DateTime;`<br/><br/>For more information about parameters, see [PARAMETERS](parameters-declaration-microsoft-access-sql.md).|
+|*datatype*|One of the primary [Microsoft Access SQL data types](sql-data-types.md) or their synonyms.|
+|*sqlstatement*|An SQL statement such as SELECT, UPDATE, DELETE, INSERT, CREATE TABLE, DROP TABLE, and so on.|
 
 
 ## Remarks

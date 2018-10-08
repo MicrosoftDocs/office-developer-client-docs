@@ -1,5 +1,5 @@
 ﻿---
-title: What is a Cursor?
+title: What is a Cursor?  (Access desktop database reference)
 TOCTitle: What is a Cursor?
 ms:assetid: cc70d941-05e0-9b14-1c5d-6b1a5802f546
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250013(v=office.15)

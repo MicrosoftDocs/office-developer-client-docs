@@ -1,5 +1,5 @@
 ﻿---
-title: ADO MD Objects
+title: ADO MD Objects (Access desktop database reference)
 TOCTitle: ADO MD Objects
 ms:assetid: 13501e44-70b6-1036-a8b7-c276f187e4f4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248907(v=office.15)

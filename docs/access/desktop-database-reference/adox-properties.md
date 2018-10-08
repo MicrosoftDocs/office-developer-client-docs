@@ -1,5 +1,5 @@
 ﻿---
-title: ADOX Properties
+title: ADOX Properties (Access desktop database reference)
 TOCTitle: ADOX Properties
 ms:assetid: 7559af18-83a4-dc7f-015f-6a7c55c520d8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249480(v=office.15)
