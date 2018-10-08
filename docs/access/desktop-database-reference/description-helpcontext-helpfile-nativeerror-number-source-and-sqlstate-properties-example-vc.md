@@ -1,5 +1,5 @@
 ﻿---
-title: Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState Properties Example (VC++)
+title: Description, HelpContext, HelpFile Properties Example (VC++)
 TOCTitle: Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState Properties Example (VC++)
 ms:assetid: 1375a0e6-c61b-aba5-4d7c-5db597ef873e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248908(v=office.15)

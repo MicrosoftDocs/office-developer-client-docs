@@ -1,5 +1,5 @@
 ﻿---
-title: ADO API Reference
+title: ActiveX Data Objects (ADO) API Reference
 TOCTitle: ADO API Reference
 ms:assetid: 0fd6aff8-dbff-50c7-649f-2d9c31aedb2f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248867(v=office.15)

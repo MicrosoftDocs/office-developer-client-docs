@@ -1,5 +1,5 @@
 ﻿---
-title: ADOX API Reference
+title: ADOX API Reference (Access desktop database reference)
 TOCTitle: ADOX API Reference
 ms:assetid: 70965aa3-992d-c68f-a6e2-a48325561dfd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249446(v=office.15)

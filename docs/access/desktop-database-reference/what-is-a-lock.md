@@ -1,5 +1,5 @@
 ﻿---
-title: What is a Lock?
+title: What is a Lock? (Access desktop database reference)
 TOCTitle: What is a Lock?
 ms:assetid: 9ddc3198-1531-1d8f-153d-fc79847e388a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249721(v=office.15)

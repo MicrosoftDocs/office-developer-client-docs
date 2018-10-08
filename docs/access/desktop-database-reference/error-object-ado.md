@@ -1,5 +1,5 @@
 ﻿---
-title: Error Object (ADO)
+title: Error Object - ActiveX Data Objects (ADO)
 TOCTitle: Error Object (ADO)
 ms:assetid: 97e478bf-8b25-03a8-9358-abba5069cba3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249678(v=office.15)

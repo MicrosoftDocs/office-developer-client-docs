@@ -1,5 +1,5 @@
 ﻿---
-title: PersistFormatEnum
+title: PersistFormatEnum (Access desktop database reference)
 TOCTitle: PersistFormatEnum
 ms:assetid: 5aa99a63-d422-0812-5aba-19305a3ad405
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249313(v=office.15)

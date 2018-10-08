@@ -1,5 +1,5 @@
 ﻿---
-title: LockTypeEnum
+title: LockTypeEnum (Access desktop database reference)
 TOCTitle: LockTypeEnum
 ms:assetid: 966b4952-5591-4a99-82d5-99cb9ae3fc72
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249667(v=office.15)

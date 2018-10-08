@@ -1,5 +1,5 @@
 ﻿---
-title: Seek Method (ADO)
+title: Seek Method - ActiveX Data Objects (ADO)
 TOCTitle: Seek Method (ADO)
 ms:assetid: cf0f133b-31f2-a2df-6cf3-1b5fa73b516c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250027(v=office.15)

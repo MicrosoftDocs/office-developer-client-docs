@@ -1,5 +1,5 @@
 ﻿---
-title: ADOX Collections
+title: ADOX Collections (Access desktop database reference)
 TOCTitle: ADOX Collections
 ms:assetid: bff37fcc-3099-a4a7-b01f-8de1467bf96b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249933(v=office.15)

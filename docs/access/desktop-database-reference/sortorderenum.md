@@ -1,5 +1,5 @@
 ﻿---
-title: SortOrderEnum
+title: SortOrderEnum (Access desktop database reference)
 TOCTitle: SortOrderEnum
 ms:assetid: 65a1f984-3ce4-f434-8c20-33162517ecba
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249393(v=office.15)

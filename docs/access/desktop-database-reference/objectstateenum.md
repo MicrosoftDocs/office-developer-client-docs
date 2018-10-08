@@ -1,5 +1,5 @@
 ﻿---
-title: ObjectStateEnum
+title: ObjectStateEnum (Access desktop database reference)
 TOCTitle: ObjectStateEnum
 ms:assetid: 129d589a-2955-3da9-e60a-7fbfdd6bfbdc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248900(v=office.15)

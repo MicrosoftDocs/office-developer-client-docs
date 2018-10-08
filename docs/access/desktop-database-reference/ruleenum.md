@@ -1,5 +1,5 @@
 ﻿---
-title: RuleEnum
+title: RuleEnum (Access desktop database reference)
 TOCTitle: RuleEnum
 ms:assetid: 5b59f202-315b-09b7-8505-9ac08ceccb3d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249317(v=office.15)

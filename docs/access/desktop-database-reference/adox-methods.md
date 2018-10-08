@@ -1,5 +1,5 @@
 ﻿---
-title: ADOX Methods
+title: ADOX Methods (Access desktop database reference)
 TOCTitle: ADOX Methods
 ms:assetid: 1a2eed52-2b09-e528-2cdc-134df3c9441f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248947(v=office.15)

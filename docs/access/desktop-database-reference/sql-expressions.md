@@ -1,5 +1,5 @@
 ﻿---
-title: SQL Expressions
+title: SQL Expressions (Access desktop database reference)
 TOCTitle: SQL Expressions
 ms:assetid: 91722f18-8589-d9fc-79ef-0be4ab11f822
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197629(v=office.15)

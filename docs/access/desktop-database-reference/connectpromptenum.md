@@ -1,5 +1,5 @@
 ﻿---
-title: ConnectPromptEnum
+title: ConnectPromptEnum (Access desktop database reference)
 TOCTitle: ConnectPromptEnum
 ms:assetid: 81dff685-b2e4-467e-75cc-b8c5bf80fb75
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249561(v=office.15)

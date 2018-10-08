@@ -1,5 +1,5 @@
 ﻿---
-title: CompareEnum
+title: CompareEnum (Access desktop database reference)
 TOCTitle: CompareEnum
 ms:assetid: 7ac84af6-4f8b-4d1f-7eb3-a015b8b60bc6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249509(v=office.15)

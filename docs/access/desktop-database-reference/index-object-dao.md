@@ -1,5 +1,5 @@
 ﻿---
-title: Index Object (DAO)
+title: Index Object - Data Access Objects (DAO)
 TOCTitle: Index Object
 ms:assetid: 92c32cad-ec8a-1243-1d18-83f50b269ecb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197655(v=office.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: What's New in ADO
+title: What's New in ActiveX Data Objects (ADO)
 TOCTitle: What's New in ADO
 ms:assetid: fd3d0f9c-e9df-d130-13e3-757620e9400c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250297(v=office.15)

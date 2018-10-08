@@ -1,5 +1,5 @@
 ﻿---
-title: User Object (ADOX)
+title: User Object (ADOX - Access desktop database reference)
 TOCTitle: User Object (ADOX)
 ms:assetid: e88b9a8a-e70f-c7ca-cb8c-bd274ff24948
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250178(v=office.15)

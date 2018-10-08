@@ -1,5 +1,5 @@
 ﻿---
-title: RDS Objects
+title: RDS Objects (Access desktop database reference)
 TOCTitle: RDS Objects
 ms:assetid: f675369d-26da-fd96-6a52-4a333be57bef
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250254(v=office.15)

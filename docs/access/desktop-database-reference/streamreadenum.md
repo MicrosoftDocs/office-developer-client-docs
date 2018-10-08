@@ -1,5 +1,5 @@
 ﻿---
-title: StreamReadEnum
+title: StreamReadEnum (Access desktop database reference)
 TOCTitle: StreamReadEnum
 ms:assetid: 12432c0d-dc2e-10ea-13db-0c07b6ba29bc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248895(v=office.15)

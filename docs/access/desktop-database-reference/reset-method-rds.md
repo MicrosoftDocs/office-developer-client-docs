@@ -1,5 +1,5 @@
 ﻿---
-title: Reset Method (RDS)
+title: Reset Method (RDS - Access desktop database reference)
 TOCTitle: Reset Method (RDS)
 ms:assetid: 169ebd1e-6071-613e-c065-3af060167456
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248924(v=office.15)

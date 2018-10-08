@@ -1,5 +1,5 @@
 ﻿---
-title: Static Cursors
+title: Static Cursors (Access desktop database reference)
 TOCTitle: Static Cursors
 ms:assetid: 1acf7fc5-fb12-e59e-f480-dde378a29c53
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248950(v=office.15)

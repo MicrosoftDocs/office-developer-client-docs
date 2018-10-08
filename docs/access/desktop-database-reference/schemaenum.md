@@ -1,5 +1,5 @@
 ﻿---
-title: SchemaEnum
+title: SchemaEnum (Access desktop database reference)
 TOCTitle: SchemaEnum
 ms:assetid: 6147b682-3c4f-ea91-fff6-ac73107d206d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249359(v=office.15)

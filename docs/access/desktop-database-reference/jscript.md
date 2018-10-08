@@ -1,5 +1,5 @@
 ﻿---
-title: JScript
+title: JScript (Access desktop database reference)
 TOCTitle: JScript
 ms:assetid: 78da203c-1342-1a04-ae53-c1fb714d18b5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249498(v=office.15)

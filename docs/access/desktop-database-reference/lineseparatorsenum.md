@@ -1,5 +1,5 @@
 ﻿---
-title: LineSeparatorsEnum
+title: LineSeparatorsEnum (Access desktop database reference)
 TOCTitle: LineSeparatorsEnum
 ms:assetid: 3b0c58a8-1617-f9b1-c0c8-928580b2dade
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249148(v=office.15)

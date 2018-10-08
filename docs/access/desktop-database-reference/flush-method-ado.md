@@ -1,5 +1,5 @@
 ﻿---
-title: Flush Method (ADO)
+title: Flush Method - ActiveX Data Objects (ADO)
 TOCTitle: Flush Method (ADO)
 ms:assetid: c167e3b1-c133-ce45-6cee-5a1280a1568f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249941(v=office.15)

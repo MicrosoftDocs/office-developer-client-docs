@@ -1,5 +1,5 @@
 ﻿---
-title: Provider Errors
+title: Provider Errors (Access desktop database reference)
 TOCTitle: Provider Errors
 ms:assetid: 9c39d450-6e67-b2fd-aeb5-849e6b65fd54
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249710(v=office.15)

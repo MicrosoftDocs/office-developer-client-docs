@@ -1,5 +1,5 @@
 ﻿---
-title: URL Property (RDS)
+title: URL Property (RDS - Access desktop database reference)
 TOCTitle: URL Property (RDS)
 ms:assetid: 722765dc-f89c-0131-73b1-69c56a795546
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249457(v=office.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: ConnectOptionEnum
+title: ConnectOptionEnum (Access desktop database reference)
 TOCTitle: ConnectOptionEnum
 ms:assetid: 803d3fd6-93cf-85ea-eeb0-ca1bc965577d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249544(v=office.15)

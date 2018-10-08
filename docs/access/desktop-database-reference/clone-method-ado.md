@@ -1,5 +1,5 @@
 ﻿---
-title: Clone Method (ADO)
+title: Clone Method - ActiveX Data Objects (ADO)
 TOCTitle: Clone Method (ADO)
 ms:assetid: ca9b2b76-90bf-9a60-2611-3cb4977d5591
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249984(v=office.15)

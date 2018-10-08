@@ -1,5 +1,5 @@
 ﻿---
-title: ResyncEnum
+title: ResyncEnum (Access desktop database reference)
 TOCTitle: ResyncEnum
 ms:assetid: 3d38b77b-6afe-e6a0-1a05-7c7ffc19edef
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249164(v=office.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: ADP Objects
+title: ADP Objects (Access desktop database reference)
 TOCTitle: ADP Objects
 ms:assetid: 0a0a71fe-b1b0-4679-b2e6-0f7422b97983
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn123635(v=office.15)

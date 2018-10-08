@@ -1,5 +1,5 @@
 ﻿---
-title: BookmarkEnum
+title: BookmarkEnum (Access desktop database reference)
 TOCTitle: BookmarkEnum
 ms:assetid: 75cf5edd-bcb6-ab61-8703-73775cce91de
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249482(v=office.15)

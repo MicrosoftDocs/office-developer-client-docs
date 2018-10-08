@@ -1,5 +1,5 @@
 ﻿---
-title: The Field Object
+title: The Field Object (Access desktop database reference)
 TOCTitle: The Field Object
 ms:assetid: 55531e04-d74f-6394-df64-1660e5d572ca
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249284(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# The Field Object
+# Field Object
 
 
 **Applies to**: Access 2013 | Office 2013

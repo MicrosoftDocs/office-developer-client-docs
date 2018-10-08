@@ -1,5 +1,5 @@
 ﻿---
-title: Batch Mode
+title: Batch Mode (Access desktop database reference)
 TOCTitle: Batch Mode
 ms:assetid: b73921f6-5a12-9b26-ea65-99b32dd763f6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249883(v=office.15)

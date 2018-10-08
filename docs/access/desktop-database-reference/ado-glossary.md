@@ -1,5 +1,5 @@
 ﻿---
-title: ADO Glossary
+title: ActiveX Data Objects (ADO) Glossary
 TOCTitle: ADO Glossary
 ms:assetid: 40f00876-7525-4117-8f57-f3d87c54be99
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249184(v=office.15)

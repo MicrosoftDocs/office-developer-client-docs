@@ -1,5 +1,5 @@
 ﻿---
-title: CursorLocationEnum
+title: CursorLocationEnum (Access desktop database reference)
 TOCTitle: CursorLocationEnum
 ms:assetid: 520cc738-998b-ce80-6362-0df310c40c39
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249268(v=office.15)

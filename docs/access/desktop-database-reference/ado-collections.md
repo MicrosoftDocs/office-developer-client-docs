@@ -1,5 +1,5 @@
 ﻿---
-title: ADO Collections
+title: ActiveX Data Objects (ADO) Collections
 TOCTitle: ADO Collections
 ms:assetid: a57e4c0c-d043-edb8-1bbe-5b7b437a8150
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249769(v=office.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: EditModeEnum
+title: EditModeEnum (Access desktop database reference)
 TOCTitle: EditModeEnum
 ms:assetid: 4da0e504-aca2-b769-04a2-0df687fa4422
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249248(v=office.15)

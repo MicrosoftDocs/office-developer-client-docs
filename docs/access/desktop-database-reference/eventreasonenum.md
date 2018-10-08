@@ -1,5 +1,5 @@
 ﻿---
-title: EventReasonEnum
+title: EventReasonEnum (Access desktop database reference)
 TOCTitle: EventReasonEnum
 ms:assetid: 0639928e-d0ef-3db3-887e-f3da03913bc7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248815(v=office.15)

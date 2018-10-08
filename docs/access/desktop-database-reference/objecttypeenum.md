@@ -1,5 +1,5 @@
 ﻿---
-title: ObjectTypeEnum
+title: ObjectTypeEnum (Access desktop database reference)
 TOCTitle: ObjectTypeEnum
 ms:assetid: b0ee2113-dea9-912d-3442-e54885397310
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249842(v=office.15)

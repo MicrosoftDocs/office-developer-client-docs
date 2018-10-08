@@ -1,5 +1,5 @@
 ﻿---
-title: ADO MD Properties
+title: ActiveX Data Objects (ADO) MD Properties
 TOCTitle: ADO MD Properties
 ms:assetid: 401085e7-758e-92c8-6f8d-cc8af3ce954c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249180(v=office.15)

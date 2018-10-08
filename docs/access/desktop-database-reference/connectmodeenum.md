@@ -1,5 +1,5 @@
 ﻿---
-title: ConnectModeEnum
+title: ConnectModeEnum (Access desktop database reference)
 TOCTitle: ConnectModeEnum
 ms:assetid: a15aa733-f899-5fe9-e705-67a4301706d1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249743(v=office.15)

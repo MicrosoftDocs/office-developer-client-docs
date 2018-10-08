@@ -1,5 +1,5 @@
 ﻿---
-title: AllowNullsEnum
+title: AllowNullsEnum (Access desktop database reference)
 TOCTitle: AllowNullsEnum
 ms:assetid: 7bb42b38-6b3b-5930-b1d7-16323a3bdf37
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249515(v=office.15)

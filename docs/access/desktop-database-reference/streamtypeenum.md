@@ -1,5 +1,5 @@
 ﻿---
-title: StreamTypeEnum
+title: StreamTypeEnum (Access desktop database reference)
 TOCTitle: StreamTypeEnum
 ms:assetid: 3e84c728-0c71-55fb-06f2-7f4e644689ce
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249172(v=office.15)

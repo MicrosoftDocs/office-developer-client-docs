@@ -1,5 +1,5 @@
 ﻿---
-title: Customizing Windows Registry Settings for the Microsoft Access Database Engine
+title: Customizing Windows Registry Settings for Microsoft Access Database Engine
 TOCTitle: Customizing Windows Registry Settings for the Microsoft Access Database Engine
 ms:assetid: ca7e958a-ea26-d67d-45b9-10aeb1eac96b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834346(v=office.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: Namespaces
+title: Namespaces (Access desktop database reference)
 TOCTitle: Namespaces
 ms:assetid: e39f003c-3d16-1fae-48c5-304593c41f2f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250158(v=office.15)

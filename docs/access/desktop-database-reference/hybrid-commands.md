@@ -1,5 +1,5 @@
 ﻿---
-title: Hybrid Commands
+title: Hybrid Commands (Access desktop database reference)
 TOCTitle: Hybrid Commands
 ms:assetid: 55654274-0494-349f-820d-92108284449d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249286(v=office.15)

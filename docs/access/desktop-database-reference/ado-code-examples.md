@@ -1,5 +1,5 @@
 ﻿---
-title: ADO Code Examples
+title: ActiveX Data Objects (ADO) Code Examples
 TOCTitle: ADO Code Examples
 ms:assetid: ef019dc7-bb60-a989-f0eb-2ba0644b3fde
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250213(v=office.15)

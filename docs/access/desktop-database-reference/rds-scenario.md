@@ -1,5 +1,5 @@
 ﻿---
-title: RDS Scenario
+title: RDS Scenario (Access desktop database reference)
 TOCTitle: RDS Scenario
 ms:assetid: 61b4b047-4a8f-491c-868e-08aa87d81dff
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249361(v=office.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: CursorOptionEnum
+title: CursorOptionEnum (Access desktop database reference)
 TOCTitle: CursorOptionEnum
 ms:assetid: 3c118c08-02f2-5290-1cef-29e97c35fddc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249155(v=office.15)

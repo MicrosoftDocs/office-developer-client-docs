@@ -1,5 +1,5 @@
 ﻿---
-title: RDS Events
+title: RDS Events (Access desktop database reference)
 TOCTitle: RDS Events
 ms:assetid: cf125916-d50d-9fb4-fecc-95675129d8c1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250028(v=office.15)

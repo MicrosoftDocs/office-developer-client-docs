@@ -1,5 +1,5 @@
 ﻿---
-title: ADO/WFC
+title: ADO for Windows Foundation Classes (ADO/WFC)
 TOCTitle: ADO/WFC
 ms:assetid: 73206be8-6515-79e4-e904-cc2d0d59411d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249468(v=office.15)

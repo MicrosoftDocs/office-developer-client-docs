@@ -1,5 +1,5 @@
 ﻿---
-title: RDS API Reference
+title: RDS API Reference (Access desktop database reference)
 TOCTitle: RDS API Reference
 ms:assetid: 11ff3052-c76c-2e53-9bc3-abac5cd78681
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248891(v=office.15)

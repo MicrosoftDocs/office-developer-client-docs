@@ -1,5 +1,5 @@
 ﻿---
-title: ADO Errors
+title: ActiveX Data Objects (ADO) Errors
 TOCTitle: ADO Errors
 ms:assetid: 02fcf563-ce2d-9ef7-b8ae-2795f667335a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248796(v=office.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: ADO Methods
+title: ActiveX Data Objects (ADO) Methods
 TOCTitle: ADO Methods
 ms:assetid: 1fd965a0-711c-e199-822c-b9575c5034bd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248984(v=office.15)

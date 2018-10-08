@@ -1,5 +1,5 @@
 ﻿---
-title: Query Method (RDS)
+title: Query Method (RDS - Access desktop database reference)
 TOCTitle: Query Method (RDS)
 ms:assetid: c88d82bd-2139-7f1e-4e5e-9030f3795816
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249975(v=office.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: Reshaping
+title: Reshaping (Access desktop database reference)
 TOCTitle: Reshaping
 ms:assetid: 89c6a0d6-3bf4-36ae-26ec-d4e60f920490
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249605(v=office.15)

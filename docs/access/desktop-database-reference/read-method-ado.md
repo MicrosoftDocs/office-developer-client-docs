@@ -1,5 +1,5 @@
 ﻿---
-title: Read Method (ADO)
+title: Read Method - ActiveX Data Objects (ADO)
 TOCTitle: Read Method (ADO)
 ms:assetid: 91c3ad34-f891-5be0-1fc1-c5c8a2ff07a4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249641(v=office.15)

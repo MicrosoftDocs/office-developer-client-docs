@@ -1,5 +1,5 @@
 ﻿---
-title: InheritTypeEnum
+title: InheritTypeEnum (Access desktop database reference)
 TOCTitle: InheritTypeEnum
 ms:assetid: aa505c66-5871-10a8-35a7-cb30bb5dc21a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249787(v=office.15)

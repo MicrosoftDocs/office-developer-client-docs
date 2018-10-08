@@ -1,5 +1,5 @@
 ﻿---
-title: EventStatusEnum
+title: EventStatusEnum (Access desktop database reference)
 TOCTitle: EventStatusEnum
 ms:assetid: ae1711bc-2af5-04fd-7d8c-222d8afc9d3d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249821(v=office.15)

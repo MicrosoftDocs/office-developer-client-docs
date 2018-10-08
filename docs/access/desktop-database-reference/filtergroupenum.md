@@ -1,5 +1,5 @@
 ﻿---
-title: FilterGroupEnum
+title: FilterGroupEnum (Access desktop database reference)
 TOCTitle: FilterGroupEnum
 ms:assetid: 141f8f9a-c188-5937-91cc-3155eaebebd2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248912(v=office.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: Types of Locks
+title: Types of Locks (Access desktop database reference)
 TOCTitle: Types of Locks
 ms:assetid: 8276edca-f603-2487-a2ca-73e618c0f11e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249565(v=office.15)

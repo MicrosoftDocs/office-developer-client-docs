@@ -1,5 +1,5 @@
 ﻿---
-title: Batch Mode (ADO)
+title: Batch Mode - ActiveX Data Objects (ADO)
 TOCTitle: Batch Mode
 ms:assetid: a67dc9ec-10b7-4b46-8110-21c0f6592fb7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249770(v=office.15)

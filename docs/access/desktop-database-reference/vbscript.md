@@ -1,5 +1,5 @@
 ﻿---
-title: VBScript
+title: VBScript (Access desktop database reference)
 TOCTitle: VBScript
 ms:assetid: 070ae822-c0e4-3923-3a9c-69474981728b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248817(v=office.15)

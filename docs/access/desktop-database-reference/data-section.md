@@ -1,5 +1,5 @@
 ﻿---
-title: Data Section
+title: Data Section (Access desktop database reference)
 TOCTitle: Data Section
 ms:assetid: fd8d31aa-af13-a52f-5e91-20225b8df175
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250303(v=office.15)

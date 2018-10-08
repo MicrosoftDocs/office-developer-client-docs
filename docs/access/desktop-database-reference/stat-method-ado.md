@@ -1,5 +1,5 @@
 ﻿---
-title: Stat Method (ADO)
+title: Stat Method - ActiveX Data Objects (ADO)
 TOCTitle: Stat Method (ADO)
 ms:assetid: d3d3976b-14d4-dee0-412d-a37bc72fbfd3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250056(v=office.15)

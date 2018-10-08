@@ -1,5 +1,5 @@
 ﻿---
-title: IsolationLevelEnum
+title: IsolationLevelEnum (Access desktop database reference)
 TOCTitle: IsolationLevelEnum
 ms:assetid: 438af3f3-65ed-237d-94d8-f3aff6addd3b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249204(v=office.15)

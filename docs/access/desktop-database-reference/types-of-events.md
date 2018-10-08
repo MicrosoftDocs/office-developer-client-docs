@@ -1,5 +1,5 @@
 ﻿---
-title: Types of Events
+title: Types of Events (Access desktop database reference)
 TOCTitle: Types of Events
 ms:assetid: 94660fc1-65c3-1d21-c451-f3898014e0b6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249660(v=office.15)

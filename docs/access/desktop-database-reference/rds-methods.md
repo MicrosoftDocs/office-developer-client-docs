@@ -1,5 +1,5 @@
 ﻿---
-title: RDS Methods
+title: RDS Methods (Access desktop database reference)
 TOCTitle: RDS Methods
 ms:assetid: 7f4e2a28-cf6b-4621-5352-ed983a3c7450
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249538(v=office.15)

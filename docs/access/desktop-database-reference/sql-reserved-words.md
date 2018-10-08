@@ -1,5 +1,5 @@
 ﻿---
-title: SQL Reserved Words
+title: SQL Reserved Words (Access desktop database reference)
 TOCTitle: SQL Reserved Words
 ms:assetid: 1a074927-64df-d645-99ce-95d9826c5a46
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845663(v=office.15)

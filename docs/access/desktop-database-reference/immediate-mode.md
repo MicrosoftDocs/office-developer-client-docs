@@ -1,5 +1,5 @@
 ﻿---
-title: Immediate Mode
+title: Immediate Mode (Access desktop database reference)
 TOCTitle: Immediate Mode
 ms:assetid: 61bd3645-6e84-2e3a-7814-37d8c1247df0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249362(v=office.15)

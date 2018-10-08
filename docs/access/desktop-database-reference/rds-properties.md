@@ -1,5 +1,5 @@
 ﻿---
-title: RDS Properties
+title: RDS Properties (Access desktop database reference)
 TOCTitle: RDS Properties
 ms:assetid: 002989dc-0022-d3a2-ddd2-2230837b3a63
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248775(v=office.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: Key Object (ADOX)
+title: Key Object (ADOX - Access desktop database reference)
 TOCTitle: Key Object (ADOX)
 ms:assetid: 727198ec-57d2-7766-790c-370beb931de6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249461(v=office.15)
