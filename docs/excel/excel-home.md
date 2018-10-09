@@ -29,7 +29,7 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
   
 ### Code samples
   
-- [Excel code samples in the Office Dev Center](https://developer.microsoft.com/en-us/excel/gallery/?filterBy=Samples)
+- [Excel code samples in the Office Dev Center](https://developer.microsoft.com/excel/gallery/?filterBy=Samples)
   
 ### Other resources
   
@@ -45,6 +45,6 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
   
 ### Support
   
-- [Office Dev Center](https://developer.microsoft.com/en-us/office)
+- [Office Dev Center](https://developer.microsoft.com/office)
   
 - [Office support](https://support.office.com/)

@@ -18,27 +18,27 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
   
 ### Viewed most
   
-- [PowerPoint VBA reference](https://msdn.microsoft.com/EN-US/library/ee861525.aspx)
+- [PowerPoint VBA reference](https://docs.microsoft.com/office/vba/api/overview/powerpoint)
   
-- [PowerPoint 2010](https://msdn.microsoft.com/library/cc313152%28v=office.12%29.aspx)
+- [PowerPoint 2010](https://docs.microsoft.com/previous-versions/office/developer/office-2010/cc313152(v=office.12))
   
 ### Office Add-ins
   
-- [Get started with PowerPoint add-ins](https://docs.microsoft.com/office/dev/add-ins/quickstarts/powerpoint-quickstart)
+- [Get started with PowerPoint add-ins](https://docs.microsoft.com/office/dev/add-ins/quickstarts/powerpoint-quickstart?tabs=visual-studio)
   
 - [Platform overview](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)
   
 ### Code samples
   
-- [PowerPoint code samples in the Office Dev Center](https://dev.office.com/code-samples#?filters=powerpoint)
+- [PowerPoint code samples in the Office Dev Center](https://developer.microsoft.com/office/gallery/?filterBy=Samples,PowerPoint)
   
 ### Other resources
 
-- [Office VBA Object library reference](https://msdn.microsoft.com/VBA/Office-Shared-VBA/articles/office-vba-object-library-reference)
+- [Office VBA Object library reference](https://docs.microsoft.com/office/vba/api/overview/library-reference)
 
-- [Office VBA language reference](https://msdn.microsoft.com/VBA/VBA-Language-Reference) 
+- [Office VBA language reference](https://docs.microsoft.com/office/vba/api/overview/language-reference) 
 
-- [Open XML SDK](https://msdn.microsoft.com/library/bb448854.aspx)
+- [Open XML SDK](https://docs.microsoft.com/office/open-xml/open-xml-sdk)
 
-- [VSTO Add-ins for Office](https://msdn.microsoft.com/library/jj620922.aspx)
+- [VSTO Add-ins for Office](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017)
   

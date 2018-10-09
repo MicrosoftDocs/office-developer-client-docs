@@ -17,9 +17,9 @@ Find how-to content, technical articles, and references for developing solutions
 
 ### Viewed most
 
-- [Publisher VBA reference](https://msdn.microsoft.com/VBA/VBA-Publisher)
+- [Publisher VBA reference](https://docs.microsoft.com/office/vba/api/overview/publisher)
 
-- [Publisher 2010](https://msdn.microsoft.com/library/office/ff604963(v=office.14).aspx)
+- [Publisher 2010](https://docs.microsoft.com/previous-versions/office/developer/office-2010/ff604963(v=office.14))
 
 
 ### Office Add-ins 
@@ -31,10 +31,10 @@ Find how-to content, technical articles, and references for developing solutions
 
 ### Other resources
 
-- [Office VBA Object library reference](https://msdn.microsoft.com/VBA/Office-Shared-VBA/articles/office-vba-object-library-reference)
+- [Office VBA Object library reference](https://docs.microsoft.com/office/vba/api/overview/library-reference)
 
-- [Office VBA language reference](https://msdn.microsoft.com/VBA/VBA-Language-Reference) 
+- [Office VBA language reference](https://docs.microsoft.com/office/vba/api/overview/language-reference) 
 
-- [Open XML SDK](https://msdn.microsoft.com/library/bb448854.aspx)
+- [Open XML SDK](https://docs.microsoft.com/office/open-xml/open-xml-sdk)
 
-- [VSTO Add-ins for Office](https://msdn.microsoft.com/library/jj620922.aspx)
+- [VSTO Add-ins for Office](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017)

@@ -31,31 +31,31 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
   
 ### Office client VBA references
   
-- [Access](../access/access-home.md)
+- [Access](access/access-home.md)
   
-- [Excel](../excel/excel-home.md)
+- [Excel](excel/excel-home.md)
   
-- [InfoPath](../infopath/infopath-home.md)
+- [InfoPath](infopath/infopath-home.md)
   
 - [Office VBA Object library reference](https://docs.microsoft.com/office/vba/api/overview/library-reference)
   
 - [Office VBA language reference](https://docs.microsoft.com/office/vba/api/overview/language-reference)
   
-- [Office shared](../shared/office-shared.md)
+- [Office shared](shared/office-shared.md)
   
-- [OneNote](../onenote/onenote-home.md) (APIs only for OneNote Win32 desktop client solutions in unconnected scenarios) 
+- [OneNote](onenote/onenote-home.md) (APIs only for OneNote Win32 desktop client solutions in unconnected scenarios) 
   
-- [Outlook](../outlook/outlook-home.md)
+- [Outlook](outlook/outlook-home.md)
   
 - [PowerPoint](powerpoint-home.md)
   
-- [Project](../project/project-home.md)
+- [Project](project/project-home.md)
   
 - [Publisher](publisher-home.md)
   
-- [Visio](../visio/visio-home.md)
+- [Visio](visio/visio-home.md)
   
-- [Word](../word/word-home.md)
+- [Word](word/word-home.md)
   
 ### Code samples
   

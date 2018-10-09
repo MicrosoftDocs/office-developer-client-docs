@@ -17,35 +17,33 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
   
 ### Viewed most
   
-- [Office VBA Object library reference](https://msdn.microsoft.com/EN-US/library/office/ff862474.aspx)
+- [Office VBA Object library reference](https://docs.microsoft.com/office/vba/api/overview/library-reference)
   
-- [Office VBA language reference](https://msdn.microsoft.com/EN-US/library/office/gg264383.aspx)
+- [Office VBA language reference](https://docs.microsoft.com/office/vba/api/overview/language-reference)
   
-- [Office 365 APIs reference](https://msdn.microsoft.com/office/office365/api/api-catalog)
+- [Office 365 APIs reference](https://docs.microsoft.com/previous-versions/office/office-365-api/)
   
-- [Office 2010](https://msdn.microsoft.com/library/office/cc313152%28v=office.12%29.aspx)
+- [Office 2010](https://docs.microsoft.com/previous-versions/office/developer/office-2010/cc313152(v=office.12))
   
 ### Office 365 APIs
   
-- [Get started](https://dev.office.com/getting-started)
+- [Get started](https://developer.microsoft.com/en-us/office/docs)
   
-- [Platform overview](https://msdn.microsoft.com/office/office365/howto/platform-development-overview)
+- [Platform overview](https://docs.microsoft.com/previous-versions/office/office-365-api/)
   
 ### Office Add-ins
   
-- [Get started](https://dev.office.com/getting-started)
-  
-- [Platform overview](https://msdn.microsoft.com/EN-US/library/office/jj220082.aspx)
+- [Get started](https://docs.microsoft.com/office/dev/add-ins/)
+
+- [Platform overview](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)
   
 ### SharePoint Add-ins
   
-- [Get started](https://dev.office.com/getting-started)
-  
-- [Platform overview](https://msdn.microsoft.com/library/office/fp179930.aspx)
+- [Get started](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/sharepoint-add-ins)
   
 ### Code samples
   
-- [Code samples on dev.office.com](https://dev.office.com/codesamples)
+- [Code samples](https://developer.microsoft.com/office/gallery/?filterBy=Samples)
   
 - [OfficeDev on GitHub](https://github.com/OfficeDev)
   
@@ -53,7 +51,7 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
   
 - [Office support](https://support.office.com/)
   
-- [Office developer forums on MSDN](https://social.msdn.microsoft.com/Forums/office/en-US/home?category=officedev)
+- [Office developer forums](https://social.msdn.microsoft.com/Forums/office/home?category=officedev)
   
 - [Office forum on stack overflow](https://stackoverflow.com/questions/tagged/ms-office)
   

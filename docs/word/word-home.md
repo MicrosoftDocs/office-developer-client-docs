@@ -17,9 +17,9 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
   
 ### Viewed most
   
-- [Word VBA reference](https://msdn.microsoft.com/library/ee861527.aspx)
+- [Word VBA reference](https://docs.microsoft.com/office/vba/api/overview/word)
   
-- [Word 2010](https://msdn.microsoft.com/library/office/ff601860%28v=office.14%29.aspx)
+- [Word 2010](https://docs.microsoft.com/previous-versions/office/developer/office-2010/ff601860(v=office.14))
   
 ### Office Add-ins
   
@@ -29,16 +29,16 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
   
 ### Code samples
   
-- [Word code samples in the Office Dev Center](https://developer.microsoft.com/en-us/word/gallery/?filterBy=Word,Samples)
+- [Word code samples in the Office Dev Center](https://developer.microsoft.com/word/gallery/?filterBy=Word,Samples)
   
 ### Other resources
   
-- [Office VBA Object library reference](https://msdn.microsoft.com/library/727c4e1c-e13c-7bac-e833-b1322607dfd3%28Office.15%29.aspx)
+- [Office VBA Object library reference](https://docs.microsoft.com/office/vba/api/overview/library-reference)
   
-- [Office VBA language reference](https://msdn.microsoft.com/library/9c1e8386-0309-c52c-856b-963220382eb8%28Office.15%29.aspx)
+- [Office VBA language reference](https://docs.microsoft.com/office/vba/api/overview/language-reference)
   
-- [Open XML SDK](https://msdn.microsoft.com/library/f6a9ae68-7989-4208-97f5-3c945137a0ab%28Office.15%29.aspx)
+- [Open XML SDK](https://docs.microsoft.com/office/open-xml/open-xml-sdk)
   
-- [VSTO Add-ins for Office](https://msdn.microsoft.com/library/jj620922.aspx)
+- [VSTO Add-ins for Office](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017)
   
 
