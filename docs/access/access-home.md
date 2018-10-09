@@ -35,10 +35,10 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
   
 ### Support
   
-- [Office Dev Center](https://developer.microsoft.com/en-us/office)
+- [Office Dev Center](https://developer.microsoft.com/office)
   
 - [Office support](https://support.office.com/)
   
-- [Access forum on Office Dev Center](https://social.msdn.microsoft.com/Forums/office/en-US/home?forum=accessdev)
+- [Access forum on Office Dev Center](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
   
 

@@ -1,6 +1,6 @@
 ---
 title: "Office client development"
-ms.date: 04/20/2016
+ms.date: 10/09/2018
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 74a80e0a-fe60-4356-b238-13de4c2822d9
@@ -13,67 +13,58 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
   
 > [!NOTE]
 > Interested in developing solutions that extend the Office experience across [multiple platforms](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-in-availability)? Check out the new [Office Add-ins model](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins). 
-  
-### Viewed most
-  
-- [Office VBA Object library reference](https://msdn.microsoft.com/EN-US/library/office/ff862474.aspx)
-  
-- [Office VBA language reference](https://msdn.microsoft.com/EN-US/library/office/gg264383.aspx)
-  
-- [Office 2010](https://msdn.microsoft.com/library/office/cc313152%28v=office.12%29.aspx)
+
   
 ### Office Add-ins
   
-- [Get started](https://dev.office.com/getting-started/addins)
+- [Get started](https://docs.microsoft.com/office/dev/add-ins/)
   
-- [Platform overview](https://msdn.microsoft.com/EN-US/library/office/jj220082.aspx)
+- [Platform overview](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)
   
 ### SharePoint Add-ins
   
-- [Get started](https://dev.office.com/getting-started)
-  
-- [Platform overview](https://msdn.microsoft.com/library/office/fp179930.aspx)
+- [Get started](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/sharepoint-add-ins)
   
 ### Visual Studio Tools for Office
   
-- [VSTO Add-ins for Office](https://msdn.microsoft.com/library/jj620922.aspx)
+- [VSTO add-ins for Office](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017)
   
 ### Office client VBA references
   
-- [Access](https://msdn.microsoft.com/library/fp179695.aspx)
+- [Access](access/access-home.md)
   
-- [Excel](https://msdn.microsoft.com/library/fp179694.aspx)
+- [Excel](excel/excel-home.md)
   
-- [InfoPath](https://msdn.microsoft.com/library/fp179694.aspx)
+- [InfoPath](infopath/infopath-home.md)
   
-- [Office VBA Object library reference](https://msdn.microsoft.com/EN-US/library/office/ff862474.aspx)
+- [Office VBA Object library reference](https://docs.microsoft.com/office/vba/api/overview/library-reference)
   
-- [Office VBA language reference](https://msdn.microsoft.com/EN-US/library/office/gg264383.aspx)
+- [Office VBA language reference](https://docs.microsoft.com/office/vba/api/overview/language-reference)
   
-- [Office shared](https://msdn.microsoft.com/library/hh872753.aspx)
+- [Office shared](shared/office-shared.md)
   
-- [OneNote](https://msdn.microsoft.com/library/jj680121.aspx) (APIs only for OneNote Win32 desktop client solutions in unconnected scenarios) 
+- [OneNote](onenote/onenote-home.md) (APIs only for OneNote Win32 desktop client solutions in unconnected scenarios) 
   
-- [Outlook](https://msdn.microsoft.com/library/fp161224.aspx)
+- [Outlook](outlook/outlook-home.md)
   
-- [PowerPoint](https://msdn.microsoft.com/library/fp161225.aspx)
+- [PowerPoint](powerpoint-home.md)
   
-- [Project](https://msdn.microsoft.com/library/fp161358.aspx)
+- [Project](project/project-home.md)
   
-- [Publisher](https://msdn.microsoft.com/library/jj684499.aspx)
+- [Publisher](publisher-home.md)
   
-- [Visio](https://msdn.microsoft.com/library/fp161226.aspx)
+- [Visio](visio/visio-home.md)
   
-- [Word](https://msdn.microsoft.com/library/fp179696.aspx)
+- [Word](word/word-home.md)
   
 ### Code samples
   
-- [Office client code samples on dev.office.com](https://dev.office.com/code-samples)
+- [Office client code samples](https://developer.microsoft.com/office/gallery/?filterBy=Samples)
   
-- [VBA code samples on MSDN](https://code.msdn.microsoft.com/office/site/search?query=VBA&amp;f%5B0%5D.Value=VBA&amp;f%5B0%5D.Type=SearchText&amp;ac=4)
+- [VBA code samples](https://code.msdn.microsoft.com/office/site/search?query=VBA&f%5B0%5D.Value=VBA&f%5B0%5D.Type=SearchText&ac=4)
   
 ### Other resources
   
-- [Open XML SDK](https://msdn.microsoft.com/library/f6a9ae68-7989-4208-97f5-3c945137a0ab%28Office.15%29.aspx)
+- [Open XML SDK](https://docs.microsoft.com/office/open-xml/open-xml-sdk)
   
 
