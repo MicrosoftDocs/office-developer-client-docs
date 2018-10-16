@@ -349,40 +349,40 @@
           - name: Concepts
             href: access/desktop-database-reference/concepts.md
             items:
-            - name: ActiveX Controls
+            - name: ActiveX controls
               href: access/desktop-database-reference/activex-controls-access.md
               items:
-              - name: ActiveX Control's Custom Properties dialog box
+              - name: ActiveX control custom properties dialog box
                 href: access/desktop-database-reference/the-activex-control-s-custom-properties-dialog-box.md
-              - name: View an ActiveX Control's About box
+              - name: View an ActiveX control About box
                 href: access/desktop-database-reference/view-an-activex-control-s-about-box.md
             - name: Conversion
               href: access/desktop-database-reference/conversion.md
               items:
               - name: Changes in Access
                 href: access/desktop-database-reference/changes-in-access.md
-              - name: Convert Microsoft Access tables, forms, and reports
-                href: access/desktop-database-reference/convert-microsoft-access-tables-forms-and-reports.md
               - name: Convert DAO code to ADO
-                href: access/desktop-database-reference/converting-dao-code-to-ado.md
+                href: access/desktop-database-reference/converting-dao-code-to-ado.md                
+              - name: Convert tables, forms, and reports
+                href: access/desktop-database-reference/convert-microsoft-access-tables-forms-and-reports.md
             - name: Ribbon
               href: access/desktop-database-reference/ribbon.md
               items:
-              - name: Hide the ribbon when Access starts
-                href: access/desktop-database-reference/how-to-hide-the-ribbon-when-access-starts.md
               - name: Apply a custom ribbon to a form or report
                 href: access/desktop-database-reference/how-to-apply-a-custom-ribbon-to-a-form-or-report.md
               - name: Apply a custom ribbon when starting Access
                 href: access/desktop-database-reference/how-to-apply-a-custom-ribbon-when-starting-access.md
+              - name: Hide the ribbon when Access starts
+                href: access/desktop-database-reference/how-to-hide-the-ribbon-when-access-starts.md                
             - name: Working with other applications
               href: access/desktop-database-reference/working-with-other-applications-access.md
               items:
               - name: Automation with Microsoft Access
                 href: access/desktop-database-reference/automation-with-microsoft-access.md
+              - name: Use ActiveX Data Objects
+                href: access/desktop-database-reference/using-activex-data-objects.md                
               - name: Use Microsoft Access as a DDE server
                 href: access/desktop-database-reference/use-microsoft-access-as-a-dde-server.md
-              - name: Using ActiveX Data Objects
-                href: access/desktop-database-reference/using-activex-data-objects.md
             - name: Set form, report, and control properties
               href: access/desktop-database-reference/set-form-report-and-control-properties.md
           - name: Microsoft Data Access Objects reference
