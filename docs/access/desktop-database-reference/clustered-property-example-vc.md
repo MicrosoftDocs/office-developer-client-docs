@@ -1,6 +1,6 @@
 ﻿---
-title: Clustered Property Example (VC++)
-TOCTitle: Clustered Property Example (VC++)
+title: Clustered property example (VC++)
+TOCTitle: Clustered property example (VC++)
 ms:assetid: a262e38e-ce44-66cb-1adf-fad8e6b840d1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249748(v=office.15)
 ms:contentKeyID: 48546761
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Clustered Property Example (VC++)
+# Clustered property example (VC++)
 
 
 **Applies to**: Access 2013 | Office 2013

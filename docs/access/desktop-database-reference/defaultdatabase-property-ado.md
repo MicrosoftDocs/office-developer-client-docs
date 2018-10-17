@@ -1,6 +1,6 @@
 ﻿---
-title: DefaultDatabase Property (ADO)
-TOCTitle: DefaultDatabase Property (ADO)
+title: DefaultDatabase property (ADO)
+TOCTitle: DefaultDatabase property (ADO)
 ms:assetid: a35c5631-f9d9-e51f-950b-e52169830d94
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249757(v=office.15)
 ms:contentKeyID: 48546784
@@ -8,14 +8,14 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# DefaultDatabase Property (ADO)
+# DefaultDatabase property (ADO)
 
 
 **Applies to**: Access 2013 | Office 2013
 
 Indicates the default database for a [Connection](connection-object-ado.md) object.
 
-## Settings and Return Values
+## Settings and return values
 
 Sets or returns a **String** value that evaluates to the name of a database available from the provider.
 

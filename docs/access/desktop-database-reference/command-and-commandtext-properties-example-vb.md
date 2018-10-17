@@ -1,6 +1,6 @@
 ﻿---
-title: Command and CommandText Properties Example (VB)
-TOCTitle: Command and CommandText Properties Example (VB)
+title: Command and CommandText properties example (VB)
+TOCTitle: Command and CommandText properties example (VB)
 ms:assetid: 6bf35604-401b-0727-85e8-ac2ecda368df
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249425(v=office.15)
 ms:contentKeyID: 48545462
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Command and CommandText Properties Example (VB)
+# Command and CommandText properties example (VB)
 
 
 **Applies to**: Access 2013 | Office 2013

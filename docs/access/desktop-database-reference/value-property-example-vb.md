@@ -1,6 +1,6 @@
 ﻿---
-title: Value Property Example (VB)
-TOCTitle: Value Property Example (VB)
+title: Value property example (VB)
+TOCTitle: Value property example (VB)
 ms:assetid: c2319a14-e86f-6dc1-b203-fd5f35ffa04f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249947(v=office.15)
 ms:contentKeyID: 48547547
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Value Property Example (VB)
+# Value property example (VB)
 
 
 **Applies to**: Access 2013 | Office 2013

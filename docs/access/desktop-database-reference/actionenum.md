@@ -4,12 +4,11 @@ TOCTitle: ActionEnum
 ms:assetid: 225024c1-9088-b532-2a23-04c1aaaaa892
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248998(v=office.15)
 ms:contentKeyID: 48543704
-ms.date: 09/18/2015
+ms.date: 10/17/2018
 mtps_version: v=office.15
 ---
 
 # ActionEnum
-
 
 **Applies to**: Access 2013 | Office 2013
 

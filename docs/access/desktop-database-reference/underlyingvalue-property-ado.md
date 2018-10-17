@@ -1,6 +1,6 @@
 ﻿---
-title: UnderlyingValue Property (ADO)
-TOCTitle: UnderlyingValue Property (ADO)
+title: UnderlyingValue property (ADO)
+TOCTitle: UnderlyingValue property (ADO)
 ms:assetid: f84f4c1c-2bd4-a725-3575-ed063ead13c8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250262(v=office.15)
 ms:contentKeyID: 48548782
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# UnderlyingValue Property (ADO)
+# UnderlyingValue property (ADO)
 
 
 **Applies to**: Access 2013 | Office 2013
@@ -17,7 +17,7 @@ mtps_version: v=office.15
 
 Indicates a [Field](field-object-ado.md) object's current value in the database.
 
-## Return Value
+## Return value
 
 Returns a **Variant** value that indicates the value of the **Field**.
 

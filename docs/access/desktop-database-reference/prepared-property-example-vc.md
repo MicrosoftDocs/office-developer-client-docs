@@ -1,6 +1,6 @@
 ﻿---
-title: Prepared Property Example (VC++)
-TOCTitle: Prepared Property Example (VC++)
+title: Prepared property example (VC++)
+TOCTitle: Prepared property example (VC++)
 ms:assetid: 9b2d8037-e74d-5fbd-c56c-18187236b1b2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249704(v=office.15)
 ms:contentKeyID: 48546562
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Prepared Property Example (VC++)
+# Prepared property example (VC++)
 
 
 **Applies to**: Access 2013 | Office 2013

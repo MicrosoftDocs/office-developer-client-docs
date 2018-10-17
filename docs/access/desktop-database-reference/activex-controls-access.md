@@ -8,7 +8,7 @@ ms.date: 10/16/2018
 mtps_version: v=office.15
 ---
 
-# ActiveX controls (Access)
+# ActiveX controls (Access) 
 
 **Applies to**: Access 2013 | Office 2013
 

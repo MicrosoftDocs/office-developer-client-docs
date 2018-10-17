@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 Indicates the name of the level of a member.
 
-## Return Values
+## Return values
 
 Returns a **String** and is read-only.
 

@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 Indicates the action performed when a primary key is deleted.
 
-## Settings and Return Values
+## Settings and return values
 
 Sets and returns a **Long** value that can be one of the [RuleEnum](ruleenum.md) constants. The default value is **adRINone**.
 

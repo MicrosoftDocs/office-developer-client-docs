@@ -1,6 +1,6 @@
 ﻿---
-title: Number Property (ADO)
-TOCTitle: Number Property (ADO)
+title: Number property (ADO)
+TOCTitle: Number property (ADO)
 ms:assetid: b5103af5-356b-ec74-cd62-86e59467d491
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249868(v=office.15)
 ms:contentKeyID: 48547243
@@ -8,14 +8,14 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Number Property (ADO)
+# Number property (ADO)
 
 
 **Applies to**: Access 2013 | Office 2013
 
 Indicates the number that uniquely identifies an [Error](error-object-ado.md) object.
 
-## Return Value
+## Return value
 
 Returns a **Long** value that may correspond to one of the [ErrorValueEnum](errorvalueenum.md) constants.
 

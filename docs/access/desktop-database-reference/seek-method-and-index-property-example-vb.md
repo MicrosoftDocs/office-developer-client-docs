@@ -1,6 +1,6 @@
 ﻿---
-title: Seek Method and Index Property Example (VB)
-TOCTitle: Seek Method and Index Property Example (VB)
+title: Seek Method and Index property example (VB)
+TOCTitle: Seek Method and Index property example (VB)
 ms:assetid: c3ddb72c-2b19-53c8-9779-2c503486e44e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249957(v=office.15)
 ms:contentKeyID: 48547577
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Seek Method and Index Property Example (VB)
+# Seek Method and Index property example (VB)
 
 
 **Applies to**: Access 2013 | Office 2013

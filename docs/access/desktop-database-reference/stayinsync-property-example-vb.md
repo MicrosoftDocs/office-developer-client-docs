@@ -1,6 +1,6 @@
 ﻿---
-title: StayInSync Property Example (VB)
-TOCTitle: StayInSync Property Example (VB)
+title: StayInSync property example (VB)
+TOCTitle: StayInSync property example (VB)
 ms:assetid: 1b35f19a-0104-efd5-5222-55f92e08473b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248952(v=office.15)
 ms:contentKeyID: 48543535
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# StayInSync Property Example (VB)
+# StayInSync property example (VB)
 
 
 **Applies to**: Access 2013 | Office 2013

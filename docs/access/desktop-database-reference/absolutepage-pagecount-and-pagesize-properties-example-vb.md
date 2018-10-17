@@ -1,17 +1,19 @@
 ﻿---
-title: AbsolutePage, PageCount, and PageSize Properties Example (VB)
-TOCTitle: AbsolutePage, PageCount, and PageSize Properties Example (VB)
+title: AbsolutePage, PageCount, and PageSize properties example (VB)
+TOCTitle: AbsolutePage, PageCount, and PageSize properties example (VB)
 ms:assetid: bd13fb6c-8ee4-7475-ef2d-9067e30918de
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249911(v=office.15)
 ms:contentKeyID: 48547426
-ms.date: 09/18/2015
+ms.date: 10/17/2018
 mtps_version: v=office.15
 ---
 
-# AbsolutePage, PageCount, and PageSize Properties Example (VB)
+# AbsolutePage, PageCount, and PageSize properties example (VB)
 
 
 **Applies to**: Access 2013 | Office 2013
+
+This example uses the [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md), and [PageSize](pagesize-property-ado.md) properties to display names and hire dates from the ***Employees*** table, five records at a time.
 
 ```vb 
  
