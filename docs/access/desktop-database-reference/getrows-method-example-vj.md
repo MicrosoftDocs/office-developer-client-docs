@@ -1,6 +1,6 @@
 ﻿---
-title: GetRows Method Example (VJ++)
-TOCTitle: GetRows Method Example (VJ++)
+title: GetRows method example (VJ++)
+TOCTitle: GetRows method example (VJ++)
 ms:assetid: 60f7d621-3a9d-167e-8798-aeb2a881d975
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249355(v=office.15)
 ms:contentKeyID: 48545194
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# GetRows Method Example (VJ++)
+# GetRows method example (VJ++)
 
 
 **Applies to**: Access 2013 | Office 2013

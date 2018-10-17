@@ -160,10 +160,7 @@ On a **QueryDef** object in a Microsoft Access workspace, you can use the **Conn
 
 
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>You must set the <STRONG>Connect</STRONG> property before you set the <STRONG>ReturnsRecords</STRONG> property.</P>
-> <LI>
-> <P>You must have access permissions to the computer that contains the database server you're trying to access.</P></LI></UL>
+> - You must set the **Connect** property before you set the **ReturnsRecords** property.
+> - You must have access permissions to the computer that contains the database server you're trying to access.
 
 

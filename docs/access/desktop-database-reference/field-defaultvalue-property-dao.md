@@ -28,8 +28,7 @@ The setting or return value is a **String** data type that can contain a maximum
 
 
 > [!NOTE]
-> <P>You can also set the <STRONG>DefaultValue</STRONG> property of a <STRONG>Field</STRONG> object on a <STRONG><A href="tabledef-object-dao.md">TableDef</A></STRONG> object to a special value called "GenUniqueID( )". This causes a random number to be assigned to this field whenever a new record is added or created, thereby giving each record a unique identifier. The field's <STRONG><A href="field-type-property-dao.md">Type</A></STRONG> property must be <STRONG>Long</STRONG>.</P>
-
+> You can also set the **DefaultValue** property of a **Field** object on a [TableDef](tabledef-object-dao.md) object to a special value called "GenUniqueID( )". This causes a random number to be assigned to this field whenever a new record is added or created, thereby giving each record a unique identifier. The field's [Type](field-type-property-dao.md) property must be **Long**.
 
 
 The availability of the **DefaultValue** property depends on the object that contains the **Fields** collection, as shown in the following table.

@@ -1,6 +1,6 @@
 ﻿---
-title: AddNew Method Example (VBScript)
-TOCTitle: AddNew Method Example (VBScript)
+title: AddNew method example (VBScript)
+TOCTitle: AddNew method example (VBScript)
 ms:assetid: a01f01ca-44a7-8743-394d-ef2c4b0919ca
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249735(v=office.15)
 ms:contentKeyID: 48546699
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# AddNew Method Example (VBScript)
+# AddNew method example (VBScript)
 
 
 **Applies to**: Access 2013 | Office 2013

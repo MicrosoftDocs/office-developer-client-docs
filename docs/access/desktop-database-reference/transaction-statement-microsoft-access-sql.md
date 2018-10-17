@@ -1,6 +1,6 @@
 ﻿---
-title: TRANSACTION Statement (Microsoft Access SQL)
-TOCTitle: TRANSACTION Statement (Microsoft Access SQL)
+title: TRANSACTION statement (Microsoft Access SQL)
+TOCTitle: TRANSACTION statement (Microsoft Access SQL)
 ms:assetid: 481e807d-94e4-f201-adac-d25ee89d9220
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193241(v=office.15)
 ms:contentKeyID: 48544614
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# TRANSACTION Statement (Microsoft Access SQL)
+# TRANSACTION statement (Microsoft Access SQL)
 
 
 **Applies to**: Access 2013 | Office 2013

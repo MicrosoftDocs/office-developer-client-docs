@@ -1,6 +1,6 @@
 ﻿---
-title: Save and Open Methods Example (VC++)
-TOCTitle: Save and Open Methods Example (VC++)
+title: Save and Open methods example (VC++)
+TOCTitle: Save and Open methods example (VC++)
 ms:assetid: 83e9647e-5dbd-2c59-4fff-2a3df79ab93c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249574(v=office.15)
 ms:contentKeyID: 48546019
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Save and Open Methods Example (VC++)
+# Save and Open methods example (VC++)
 
 
 **Applies to**: Access 2013 | Office 2013

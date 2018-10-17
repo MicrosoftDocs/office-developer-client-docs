@@ -63,7 +63,7 @@ Creates a new **[Workspace](workspace-object-dao.md)** object.
 <td><p>A <strong>String</strong> containing the password for the new <strong>Workspace</strong> object. The password can be up to 20 characters long and can include any characters except ASCII character 0 (null).</p>
 
 > [!NOTE]
-> <P>Use strong passwords that combine upper- and lowercase letters, numbers, and symbols. Weak passwords don't mix these elements. Strong password: Y6dh!et5. Weak password: House27. Use a strong password that you can remember so that you don't have to write it down.</P>
+> Use strong passwords that combine upper- and lowercase letters, numbers, and symbols. Weak passwords don't mix these elements. Strong password: Y6dh!et5. Weak password: House27. Use a strong password that you can remember so that you don't have to write it down.
 
 
 </td>
@@ -75,7 +75,7 @@ Creates a new **[Workspace](workspace-object-dao.md)** object.
 <td><p>One of the <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> values.</p>
 
 > [!NOTE]
-> <P>ODBCDirect workspaces are not supported in Microsoft Access 2013. Setting the type argument to <STRONG>dbUseODBC</STRONG> will result in a run-time error. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</P>
+> ODBCDirect workspaces are not supported in Microsoft Access 2013. Setting the type argument to **dbUseODBC** will result in a run-time error. Use ADO if you want to access external data sources without using the Microsoft Access database engine.
 
 
 </td>

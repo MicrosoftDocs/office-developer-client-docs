@@ -1,6 +1,6 @@
 ﻿---
-title: ADO Code Examples in Microsoft Visual Basic
-TOCTitle: ADO Code Examples in Microsoft Visual Basic
+title: ADO code examples in Microsoft Visual Basic
+TOCTitle: ADO code examples in Microsoft Visual Basic
 ms:assetid: 5eb855d4-e5e1-2626-3a21-891d195fb193
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249342(v=office.15)
 ms:contentKeyID: 48545145
@@ -8,16 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ADO Code Examples in Microsoft Visual Basic
+# ADO code examples in Microsoft Visual Basic
 
 
 **Applies to**: Access 2013 | Office 2013
 
 Use the following code examples to learn how to use the ADO methods, properties, and events when writing in Visual Basic.
 
-
 > [!NOTE]
-> <P>Paste the entire code example, from Sub to End Sub, into your code editor. The example may not run correctly if partial examples are used or if paragraph formatting is lost.</P>
+> Paste the entire code example, from beginning to end, into your code editor. The example may not run correctly if partial examples are used or if paragraph formatting is lost.
 
 
 

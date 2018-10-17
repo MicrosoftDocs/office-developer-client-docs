@@ -44,7 +44,7 @@ If there is no current record when you call **AppendChunk** on a **Field** objec
 
 
 > [!NOTE]
-> <P>The <STRONG>AppendChunk</STRONG> method does not operate on <STRONG>Field</STRONG> objects of a <A href="record-object-ado.md">Record</A> object. It does not perform any operation and will produce a run-time error.</P>
+> The **AppendChunk** method does not operate on **Field** objects of a [Record](record-object-ado.md) object. It does not perform any operation and will produce a run-time error.
 
 
 

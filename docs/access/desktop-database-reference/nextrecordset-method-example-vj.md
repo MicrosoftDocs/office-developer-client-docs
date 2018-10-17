@@ -1,6 +1,6 @@
 ﻿---
-title: NextRecordset Method Example (VJ++)
-TOCTitle: NextRecordset Method Example (VJ++)
+title: NextRecordset method example (VJ++)
+TOCTitle: NextRecordset method example (VJ++)
 ms:assetid: 1803ce0e-43a6-0571-5703-525f1d2e29ea
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248930(v=office.15)
 ms:contentKeyID: 48543457
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# NextRecordset Method Example (VJ++)
+# NextRecordset method example (VJ++)
 
 
 **Applies to**: Access 2013 | Office 2013

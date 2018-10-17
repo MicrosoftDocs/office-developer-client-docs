@@ -44,6 +44,6 @@ When using **FetchProgress** with a child **Recordset**, be aware that the *Prog
 
 
 > [!NOTE]
-> <P>To use <STRONG>FetchProgress</STRONG> with Microsoft Visual Basic, Visual Basic 6.0 or later is required.</P>
+> To use **FetchProgress** with Microsoft Visual Basic, Visual Basic 6.0 or later is required.
 
 

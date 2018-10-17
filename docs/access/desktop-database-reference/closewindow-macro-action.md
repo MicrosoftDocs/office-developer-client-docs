@@ -40,7 +40,7 @@ The **CloseWindow** action has the following arguments.
 <td><p>The type of object whose document tab you want to close. Click <strong>Table</strong>, <strong>Query</strong>, <strong>Form</strong>, <strong>Report</strong>, <strong>Macro</strong>, <strong>Module</strong>, <strong>Data Access Page</strong>, <strong>Server View</strong>, <strong>Diagram</strong>, <strong>Stored Procedure</strong>, or <strong>Function</strong> in the <strong>Object Type</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane. To select the active document tab, leave this argument blank.</p>
 
 > [!NOTE]
-> <P>If you are closing a module in the Visual Basic Editor, you must use <STRONG>Module</STRONG> in the <STRONG>Object Type</STRONG> argument.</P>
+> If you are closing a module in the Visual Basic Editor, you must use **Module** in the **Object Type** argument.
 
 
 <p></p></td>

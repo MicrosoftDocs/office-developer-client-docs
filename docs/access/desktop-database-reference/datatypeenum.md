@@ -126,7 +126,7 @@ Specifies the data type of a [Field](field-object-ado.md), [Parameter](parameter
 <td><p>Indicates a pointer to an <strong>IDispatch</strong> interface on a COM object (DBTYPE_IDISPATCH).</p>
 
 > [!NOTE]
-> <P>This data type is currently not supported by ADO. Usage may cause unpredictable results.</P>
+> This data type is currently not supported by ADO. Usage may cause unpredictable results.
 
 
 <p></p></td>
@@ -142,7 +142,7 @@ Specifies the data type of a [Field](field-object-ado.md), [Parameter](parameter
 <td><p>Indicates a pointer to an <strong>IUnknown</strong> interface on a COM object (DBTYPE_IUNKNOWN).</p>
 
 > [!NOTE]
-> <P>This data type is currently not supported by ADO. Usage may cause unpredictable results.</P>
+> This data type is currently not supported by ADO. Usage may cause unpredictable results.
 
 
 <p></p></td>
@@ -228,7 +228,7 @@ Specifies the data type of a [Field](field-object-ado.md), [Parameter](parameter
 <td><p>Indicates an Automation <strong>Variant</strong> (DBTYPE_VARIANT).</p>
 
 > [!NOTE]
-> <P>This data type is currently not supported by ADO. Usage may cause unpredictable results.</P>
+> This data type is currently not supported by ADO. Usage may cause unpredictable results.
 
 
 <p></p></td>

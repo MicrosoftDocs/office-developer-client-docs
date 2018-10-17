@@ -28,7 +28,7 @@ mtps_version: v=office.15
 
   - [Connection Close Method, Table Type property example (VB)](connection-close-method-table-type-property-example-vb.md)
 
-  - [Create Method Example (VB)](create-method-example-vb.md)
+  - [Create method example (VB)](create-method-example-vb.md)
 
   - [DateCreated and DateModified properties example (VB)](datecreated-and-datemodified-properties-example-vb.md)
 
@@ -36,13 +36,13 @@ mtps_version: v=office.15
 
   - [DeleteRule property example (VB)](deleterule-property-example-vb.md)
 
-  - [GetObjectOwner and SetObjectOwner Methods Example (VB)](getobjectowner-and-setobjectowner-methods-example-vb.md)
+  - [GetObjectOwner and SetObjectOwner methods example (VB)](getobjectowner-and-setobjectowner-methods-example-vb.md)
 
-  - [GetPermissions and SetPermissions Methods Example (VB)](getpermissions-and-setpermissions-methods-example-vb.md)
+  - [GetPermissions and SetPermissions methods example (VB)](getpermissions-and-setpermissions-methods-example-vb.md)
 
-  - [Groups and Users Append, ChangePassword Methods Example (VB)](groups-and-users-append-changepassword-methods-example-vb.md)
+  - [Groups and Users Append, ChangePassword methods example (VB)](groups-and-users-append-changepassword-methods-example-vb.md)
 
-  - [Indexes Append Method Example (VB)](indexes-append-method-example-vb.md)
+  - [Indexes Append method example (VB)](indexes-append-method-example-vb.md)
 
   - [IndexNulls property example (VB)](indexnulls-property-example-vb.md)
 
@@ -56,21 +56,21 @@ mtps_version: v=office.15
 
   - [PrimaryKey and Unique properties example (VB)](primarykey-and-unique-properties-example-vb.md)
 
-  - [Procedures Append Method Example (VB)](procedures-append-method-example-vb.md)
+  - [Procedures Append method example (VB)](procedures-append-method-example-vb.md)
 
-  - [Procedures Delete Method Example (VB)](procedures-delete-method-example-vb.md)
+  - [Procedures Delete method example (VB)](procedures-delete-method-example-vb.md)
 
-  - [Procedures Refresh Method Example (VB)](procedures-refresh-method-example-vb.md)
+  - [Procedures Refresh method example (VB)](procedures-refresh-method-example-vb.md)
 
   - [SortOrder property example (VB)](sortorder-property-example-vb.md)
 
-  - [Views and Fields Collections Example (VB)](views-and-fields-collections-example-vb.md)
+  - [Views and Fields Collections example (VB)](views-and-fields-collections-example-vb.md)
 
-  - [Views Append Method Example (VB)](views-append-method-example-vb.md)
+  - [Views Append method example (VB)](views-append-method-example-vb.md)
 
   - [Views Collection, CommandText property example (VB)](views-collection-commandtext-property-example-vb.md)
 
-  - [Views Delete Method Example (VB)](views-delete-method-example-vb.md)
+  - [Views Delete method example (VB)](views-delete-method-example-vb.md)
 
-  - [Views Refresh Method Example (VB)](views-refresh-method-example-vb.md)
+  - [Views Refresh method example (VB)](views-refresh-method-example-vb.md)
 

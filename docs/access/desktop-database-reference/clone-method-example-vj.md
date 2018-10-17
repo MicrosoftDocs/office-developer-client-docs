@@ -1,6 +1,6 @@
 ﻿---
-title: Clone Method Example (VJ++)
-TOCTitle: Clone Method Example (VJ++)
+title: Clone method example (VJ++)
+TOCTitle: Clone method example (VJ++)
 ms:assetid: 8d8ac6dc-af73-1e42-fcc2-0c51709ad580
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249621(v=office.15)
 ms:contentKeyID: 48546259
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Clone Method Example (VJ++)
+# Clone method example (VJ++)
 
 
 **Applies to**: Access 2013 | Office 2013

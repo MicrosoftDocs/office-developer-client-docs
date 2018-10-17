@@ -51,10 +51,8 @@ Each **Container** object has a **Documents** collection containing **Document**
 </tbody>
 </table>
 
-
-
 > [!NOTE]
-> <P>Don't confuse the <STRONG>Container</STRONG> objects listed in the preceding table with the collections of the same name. The Databases <STRONG>Container</STRONG> object refers to all saved database objects, but the <STRONG>Databases</STRONG> collection refers only to database objects that are open in a particular workspace.</P>
+> Don't confuse the **Container** objects listed in the preceding table with the collections of the same name. The Databases **Container** object refers to all saved database objects, but the **Databases** collection refers only to database objects that are open in a particular workspace.
 
 
 

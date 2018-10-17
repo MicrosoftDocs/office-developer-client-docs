@@ -1,6 +1,6 @@
 ﻿---
-title: AppendChunk and GetChunk Methods Example (VJ++)
-TOCTitle: AppendChunk and GetChunk Methods Example (VJ++)
+title: AppendChunk and GetChunk methods example (VJ++)
+TOCTitle: AppendChunk and GetChunk methods example (VJ++)
 ms:assetid: c2d940a4-9954-0282-9438-6a1b1241e38d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249952(v=office.15)
 ms:contentKeyID: 48547562
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# AppendChunk and GetChunk Methods Example (VJ++)
+# AppendChunk and GetChunk methods example (VJ++)
 
 
 **Applies to**: Access 2013 | Office 2013

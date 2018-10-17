@@ -1,6 +1,6 @@
 ﻿---
-title: Update and CancelUpdate Methods Example (VJ++)
-TOCTitle: Update and CancelUpdate Methods Example (VJ++)
+title: Update and CancelUpdate methods example (VJ++)
+TOCTitle: Update and CancelUpdate methods example (VJ++)
 ms:assetid: a177544a-485d-8102-e956-2e223ef5bfa3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249744(v=office.15)
 ms:contentKeyID: 48546732
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Update and CancelUpdate Methods Example (VJ++)
+# Update and CancelUpdate methods example (VJ++)
 
 
 **Applies to**: Access 2013 | Office 2013

@@ -1,6 +1,6 @@
 ﻿---
-title: INSERT INTO Statement (Microsoft Access SQL)
-TOCTitle: INSERT INTO Statement (Microsoft Access SQL)
+title: INSERT INTO statement (Microsoft Access SQL)
+TOCTitle: INSERT INTO statement (Microsoft Access SQL)
 ms:assetid: d3e44258-79f2-caba-8629-bde03f898f2d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834799(v=office.15)
 ms:contentKeyID: 48547918
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# INSERT INTO Statement (Microsoft Access SQL)
+# INSERT INTO statement (Microsoft Access SQL)
 
 **Applies to**: Access 2013 | Office 2013
 

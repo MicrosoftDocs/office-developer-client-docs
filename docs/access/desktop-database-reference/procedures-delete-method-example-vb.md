@@ -1,6 +1,6 @@
 ﻿---
-title: Procedures Delete Method Example (VB)
-TOCTitle: Procedures Delete Method Example (VB)
+title: Procedures Delete method example (VB)
+TOCTitle: Procedures Delete method example (VB)
 ms:assetid: 1cbae0a2-0035-d03f-b9c6-5453ddd51ec4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248964(v=office.15)
 ms:contentKeyID: 48543576
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Procedures Delete Method Example (VB)
+# Procedures Delete method example (VB)
 
 
 **Applies to**: Access 2013 | Office 2013

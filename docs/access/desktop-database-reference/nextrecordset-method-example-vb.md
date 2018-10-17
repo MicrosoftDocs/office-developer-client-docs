@@ -1,6 +1,6 @@
 ﻿---
-title: NextRecordset Method Example (VB)
-TOCTitle: NextRecordset Method Example (VB)
+title: NextRecordset method example (VB)
+TOCTitle: NextRecordset method example (VB)
 ms:assetid: f8d99670-3c28-1704-0ec1-34b06e7cd1b0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250265(v=office.15)
 ms:contentKeyID: 48548795
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# NextRecordset Method Example (VB)
+# NextRecordset method example (VB)
 
 
 **Applies to**: Access 2013 | Office 2013

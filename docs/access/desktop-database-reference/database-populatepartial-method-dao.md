@@ -74,7 +74,7 @@ The **PopulatePartial** method can only be invoked on a partial replica that has
 
 
 > [!NOTE]
-> <P>Although <STRONG>PopulatePartial</STRONG> performs a one-way synchronization before clearing and repopulating the partial replica, it is still a good idea to call <STRONG>Synchronize</STRONG> before calling <STRONG>PopulatePartial</STRONG>. This is because if the call to <STRONG>Synchronize</STRONG> fails, a trappable error occurs. You can use this error to decide whether or not to proceed with the <STRONG>PopulatePartial</STRONG> method (which removes all records in the partial replica). If <STRONG>PopulatePartial</STRONG> is called by itself and an error occurs while records are being synchronized, records in the partial replica will still be cleared, which may not be the desired result.</P>
+> Although **PopulatePartial** performs a one-way synchronization before clearing and repopulating the partial replica, it is still a good idea to call **Synchronize** before calling **PopulatePartial**. This is because if the call to **Synchronize** fails, a trappable error occurs. You can use this error to decide whether or not to proceed with the **PopulatePartial** method (which removes all records in the partial replica). If **PopulatePartial** is called by itself and an error occurs while records are being synchronized, records in the partial replica will still be cleared, which may not be the desired result.
 
 
 

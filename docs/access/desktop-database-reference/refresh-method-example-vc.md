@@ -1,6 +1,6 @@
 ﻿---
-title: Refresh Method Example (VC++)
-TOCTitle: Refresh Method Example (VC++)
+title: Refresh method example (VC++)
+TOCTitle: Refresh method example (VC++)
 ms:assetid: fd40488f-2af5-574a-0717-7bfb5c3f1094
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250298(v=office.15)
 ms:contentKeyID: 48548906
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Refresh Method Example (VC++)
+# Refresh method example (VC++)
 
 
 **Applies to**: Access 2013 | Office 2013

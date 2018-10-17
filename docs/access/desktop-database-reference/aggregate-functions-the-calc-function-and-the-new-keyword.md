@@ -58,7 +58,7 @@ A chapter-alias may be fully qualified, consisting of each chapter column name l
 <td><p>A value of the specified column. ANY has a predictable value only when the value of the column is the same for all rows in the chapter.</p>
 
 > [!NOTE]
-> <P>If the column does not contain the same value for all of the rows in the chapter, the SHAPE command arbitrarily returns one of the values to be the value of the ANY function.</P>
+> If the column does not contain the same value for all of the rows in the chapter, the SHAPE command arbitrarily returns one of the values to be the value of the ANY function.
 
 
 <p></p></td>

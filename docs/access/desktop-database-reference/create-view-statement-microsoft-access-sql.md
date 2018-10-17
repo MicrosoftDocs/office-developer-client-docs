@@ -1,6 +1,6 @@
 ﻿---
-title: CREATE VIEW Statement (Microsoft Access SQL)
-TOCTitle: CREATE VIEW Statement (Microsoft Access SQL)
+title: CREATE VIEW statement (Microsoft Access SQL)
+TOCTitle: CREATE VIEW statement (Microsoft Access SQL)
 ms:assetid: ecaabd75-3081-fd35-830d-5a59b0a51922
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836312(v=office.15)
 ms:contentKeyID: 48548519
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# CREATE VIEW Statement (Microsoft Access SQL)
+# CREATE VIEW statement (Microsoft Access SQL)
 
 
 **Applies to**: Access 2013 | Office 2013
@@ -17,7 +17,7 @@ Creates a new view.
 
 
 > [!NOTE]
-> <P>The Microsoft Access database engine does not support the use of CREATE VIEW, or any of the DDL statements, with non-Microsoft Access database engine databases.</P>
+> The Microsoft Access database engine does not support the use of CREATE VIEW, or any of the DDL statements, with non-Microsoft Access database engine databases.
 
 
 

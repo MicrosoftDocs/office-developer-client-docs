@@ -25,9 +25,7 @@ Three forms of the error number are listed:
 
 
 > [!NOTE]
-> <P>OLE DB errors may be passed to your ADO application. Typically, these can be identified by a Windows facility code of <EM>4</EM>. For example, 0x800<STRONG><EM>4</EM></STRONG>.... For more information about these numbers, see Chapter 16 of the <EM>OLE DB Programmer's Reference.</EM></P>
-
-
+> OLE DB errors may be passed to your ADO application. Typically, these can be identified by a Windows facility code of *4*. For example, 0x800_**4**_.... For more information about these numbers, see Chapter 16 of the *OLE DB Programmer's Reference.*
 
 <table>
 <colgroup>

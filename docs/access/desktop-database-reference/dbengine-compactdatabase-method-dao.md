@@ -81,7 +81,7 @@ Copies and compacts a closed database, and gives you the option of changing its 
 <td><p>A string expression containing an encryption key, if the database is encrypted. The string &quot;;pwd=&quot; must precede the actual password. If you include a password setting in DstLocale, this setting is ignored.</p>
 
 > [!NOTE]
-> <P>This is deprecated parameter and is not supported in .ACCDB format. To encrypt an .ACCDB file, use the "pwd=" option string. Use strong passwords that combine upper- and lowercase letters, numbers, and symbols. Weak passwords don't mix these elements. Strong password: Y6dh!et5. Weak password: House27. Use a strong password that you can remember so that you don't have to write it down.</P>
+> This is deprecated parameter and is not supported in .ACCDB format. To encrypt an .ACCDB file, use the "pwd=" option string. Use strong passwords that combine upper- and lowercase letters, numbers, and symbols. Weak passwords don't mix these elements. Strong password: Y6dh!et5. Weak password: House27. Use a strong password that you can remember so that you don't have to write it down.
 
 
 </td>

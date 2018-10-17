@@ -28,7 +28,7 @@ mtps_version: v=office.15
 
   - [Connection Close Method, Table Type property example (VC++)](connection-close-method-table-type-property-example-vc.md)
 
-  - [Create Method Example (VC++)](create-method-example-vc.md)
+  - [Create method example (VC++)](create-method-example-vc.md)
 
   - [DateCreated and DateModified properties example (VC++)](datecreated-and-datemodified-properties-example-vc.md)
 
@@ -36,15 +36,15 @@ mtps_version: v=office.15
 
   - [DeleteRule property example (VC++)](deleterule-property-example-vc.md)
 
-  - [GetObjectOwner and SetObjectOwner Methods Example (VC++)](getobjectowner-and-setobjectowner-methods-example-vc.md)
+  - [GetObjectOwner and SetObjectOwner methods example (VC++)](getobjectowner-and-setobjectowner-methods-example-vc.md)
 
-  - [GetPermissions and SetPermissions Methods Example (VC++)](getpermissions-and-setpermissions-methods-example-vc.md)
+  - [GetPermissions and SetPermissions methods example (VC++)](getpermissions-and-setpermissions-methods-example-vc.md)
 
-  - [GetString Method Example (VC++)](getstring-method-example-vc.md)
+  - [GetString method example (VC++)](getstring-method-example-vc.md)
 
-  - [Groups and Users Append, ChangePassword Methods Example (VC++)](groups-and-users-append-changepassword-methods-example-vc.md)
+  - [Groups and Users Append, ChangePassword methods example (VC++)](groups-and-users-append-changepassword-methods-example-vc.md)
 
-  - [Indexes Append Method Example (VC++)](indexes-append-method-example-vc.md)
+  - [Indexes Append method example (VC++)](indexes-append-method-example-vc.md)
 
   - [IndexNulls property example (VC++)](indexnulls-property-example-vc.md)
 

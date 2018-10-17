@@ -1,6 +1,6 @@
 ﻿---
-title: GetRows Method Example (JScript)
-TOCTitle: GetRows Method Example (JScript)
+title: GetRows method example (JScript)
+TOCTitle: GetRows method example (JScript)
 ms:assetid: 72d7e2d9-1e19-e993-0b0e-5310405c9b75
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249466(v=office.15)
 ms:contentKeyID: 48545620
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# GetRows Method Example (JScript)
+# GetRows method example (JScript)
 
 
 **Applies to**: Access 2013 | Office 2013
@@ -25,7 +25,7 @@ This example uses the [GetRows](getrows-method-ado.md) method to retrieve all ro
 <html> 
  
 <head> 
-<title>ADO Recordset.GetRows Example (JScript)</title> 
+<title>ADO Recordset.GetRows example (JScript)</title> 
 <style> 
 <!-- 
 BODY { 
@@ -57,7 +57,7 @@ BODY {
  
 <body bgcolor="white"> 
  
-<h1>ADO Recordset.GetRows Example (JScript)</h1> 
+<h1>ADO Recordset.GetRows example (JScript)</h1> 
  <!-- Page text goes here --> 
 <% 
  var Connect = "Provider='sqloledb';Data Source=" + Request.ServerVariables("SERVER_NAME") + ";" + 

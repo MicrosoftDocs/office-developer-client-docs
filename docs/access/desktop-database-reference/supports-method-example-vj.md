@@ -1,6 +1,6 @@
 ﻿---
-title: Supports Method Example (VJ++)
-TOCTitle: Supports Method Example (VJ++)
+title: Supports method example (VJ++)
+TOCTitle: Supports method example (VJ++)
 ms:assetid: a46aa1b3-9b2b-b7ce-6a03-b1cf1a74294a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249764(v=office.15)
 ms:contentKeyID: 48546811
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Supports Method Example (VJ++)
+# Supports method example (VJ++)
 
 
 **Applies to**: Access 2013 | Office 2013

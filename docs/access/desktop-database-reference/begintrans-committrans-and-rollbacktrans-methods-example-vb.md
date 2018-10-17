@@ -1,6 +1,6 @@
 ﻿---
-title: BeginTrans, CommitTrans, RollbackTrans Methods Example (VB)
-TOCTitle: BeginTrans, CommitTrans, and RollbackTrans Methods Example (VB)
+title: BeginTrans, CommitTrans, RollbackTrans methods example (VB)
+TOCTitle: BeginTrans, CommitTrans, and RollbackTrans methods example (VB)
 ms:assetid: 12fce322-dba7-9159-8a09-7f6daf1a80ed
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248904(v=office.15)
 ms:contentKeyID: 48543357
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# BeginTrans, CommitTrans, and RollbackTrans Methods Example (VB)
+# BeginTrans, CommitTrans, and RollbackTrans methods example (VB)
 
 
 **Applies to**: Access 2013 | Office 2013

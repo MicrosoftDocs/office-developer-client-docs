@@ -1,6 +1,6 @@
 ﻿---
-title: Delete Method Example (VBScript)
-TOCTitle: Delete Method Example (VBScript)
+title: Delete method example (VBScript)
+TOCTitle: Delete method example (VBScript)
 ms:assetid: aa647263-334b-152b-1d5e-2abe57bd7d73
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249788(v=office.15)
 ms:contentKeyID: 48546947
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Delete Method Example (VBScript)
+# Delete method example (VBScript)
 
 
 **Applies to**: Access 2013 | Office 2013

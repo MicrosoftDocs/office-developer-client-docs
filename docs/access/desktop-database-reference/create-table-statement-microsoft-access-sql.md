@@ -1,6 +1,6 @@
 ﻿---
-title: CREATE TABLE Statement (Microsoft Access SQL)
-TOCTitle: CREATE TABLE Statement (Microsoft Access SQL)
+title: CREATE TABLE statement (Microsoft Access SQL)
+TOCTitle: CREATE TABLE statement (Microsoft Access SQL)
 ms:assetid: fc45d36e-6e43-c030-5016-cca8bb1379fe
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837200(v=office.15)
 ms:contentKeyID: 48548888
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# CREATE TABLE Statement (Microsoft Access SQL)
+# CREATE TABLE statement (Microsoft Access SQL)
 
 **Applies to**: Access 2013 | Office 2013
 

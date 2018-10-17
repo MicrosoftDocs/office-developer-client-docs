@@ -12,15 +12,15 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-  - [ADO Code Examples](ado-code-examples.md)
+  - [ADO code examples](ado-code-examples.md)
 
-  - [ADO Code Examples in Microsoft Visual Basic (Access)](ado-code-examples-in-microsoft-visual-basic-access.md)
+  - [ADO code examples in Microsoft Visual Basic (Access)](ado-code-examples-in-microsoft-visual-basic-access.md)
 
-  - [ADO Code Examples in Microsoft Visual Basic Scripting Edition (Access)](ado-code-examples-in-microsoft-visual-basic-scripting-edition-access.md)
+  - [ADO code examples in Microsoft Visual Basic Scripting Edition (Access)](ado-code-examples-in-microsoft-visual-basic-scripting-edition-access.md)
 
-  - [ADO Code Examples in Microsoft Visual C++ (Access)](ado-code-examples-in-microsoft-visual-c-access.md)
+  - [ADO code examples in Microsoft Visual C++ (Access)](ado-code-examples-in-microsoft-visual-c-access.md)
 
-  - [ADO Code Examples in Microsoft Visual J++ (Access)](ado-code-examples-in-microsoft-visual-j-access.md)
+  - [ADO code examples in Microsoft Visual J++ (Access)](ado-code-examples-in-microsoft-visual-j-access.md)
 
-  - [ADO Code Examples in Microsoft JScript (Access)](ado-code-examples-in-microsoft-jscript-access.md)
+  - [ADO code examples in Microsoft JScript (Access)](ado-code-examples-in-microsoft-jscript-access.md)
 

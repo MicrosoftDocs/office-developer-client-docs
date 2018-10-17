@@ -29,9 +29,7 @@ Deletes the current record or a group of records.
 
 
 > [!NOTE]
-> <P><STRONG>adAffectAll</STRONG> and <STRONG>adAffectAllChapters</STRONG> are not valid arguments to <STRONG>Delete</STRONG>.</P>
-
-
+> **adAffectAll** and **adAffectAllChapters** are not valid arguments to **Delete**.
 
 ## Remarks
 
