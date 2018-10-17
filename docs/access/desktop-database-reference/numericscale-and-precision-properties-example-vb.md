@@ -1,6 +1,11 @@
 ﻿---
+<<<<<<< HEAD
 title: NumericScale and Precision Properties Example (VB)
 TOCTitle: NumericScale and Precision Properties Example (VB)
+=======
+title: NumericScale and Precision properties example (VB)
+TOCTitle: NumericScale and Precision properties example (VB)
+>>>>>>> master
 ms:assetid: 728a76a3-1f80-935b-b6c7-94255ffe0160
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249462(v=office.15)
 ms:contentKeyID: 48545610
@@ -8,7 +13,11 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
+<<<<<<< HEAD
 # NumericScale and Precision Properties Example (VB)
+=======
+# NumericScale and Precision properties example (VB)
+>>>>>>> master
 
 
 **Applies to**: Access 2013 | Office 2013

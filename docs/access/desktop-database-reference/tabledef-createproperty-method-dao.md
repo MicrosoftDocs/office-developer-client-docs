@@ -67,7 +67,11 @@ Creates a new user-defined **[Property](property-object-dao.md)** object (Micros
 </table>
 
 
+<<<<<<< HEAD
 ### Return Value
+=======
+### Return value
+>>>>>>> master
 
 Property
 

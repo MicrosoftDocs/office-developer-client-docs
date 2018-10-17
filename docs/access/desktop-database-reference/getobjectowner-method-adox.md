@@ -20,7 +20,11 @@ Returns the owner of an object in a [Catalog](catalog-object-adox.md).
 
 *Owner* = *Catalog*.GetObjectOwner(*ObjectName*, *ObjectType* \[,*ObjectTypeId*\])
 
+<<<<<<< HEAD
 ## Return Value
+=======
+## Return value
+>>>>>>> master
 
 Returns a **String** value that specifies the [Name](name-property-adox.md) of the [User](user-object-adox.md) or [Group](group-object-adox.md) that owns the object.
 

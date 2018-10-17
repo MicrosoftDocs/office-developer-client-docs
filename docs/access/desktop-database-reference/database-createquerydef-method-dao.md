@@ -54,7 +54,11 @@ Creates a new **[QueryDef](querydef-object-dao.md)** object.
 </table>
 
 
+<<<<<<< HEAD
 ### Return Value
+=======
+### Return value
+>>>>>>> master
 
 QueryDef
 

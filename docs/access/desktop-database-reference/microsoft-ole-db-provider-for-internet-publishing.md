@@ -61,7 +61,11 @@ The string consists of these keywords:
 </tr>
 <tr class="even">
 <td><p><strong>Data Source</strong> -or- <strong>URL</strong></p></td>
+<<<<<<< HEAD
 <td><p>Specifies the URL of a file or directory published in a Web Folder.</p></td>
+=======
+<td><p>Specifies the URL of a file or directory published in a web folder.</p></td>
+>>>>>>> master
 </tr>
 <tr class="odd">
 <td><p><strong>User ID</strong></p></td>

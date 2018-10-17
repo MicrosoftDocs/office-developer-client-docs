@@ -1,6 +1,11 @@
 ﻿---
+<<<<<<< HEAD
 title: PageCount Property (ADO)
 TOCTitle: PageCount Property (ADO)
+=======
+title: PageCount property (ADO)
+TOCTitle: PageCount property (ADO)
+>>>>>>> master
 ms:assetid: 9cd8bf5c-b1e7-a453-4629-9cba7e408f53
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249712(v=office.15)
 ms:contentKeyID: 48546609
@@ -8,14 +13,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
+<<<<<<< HEAD
 # PageCount Property (ADO)
+=======
+# PageCount property (ADO)
+>>>>>>> master
 
 
 **Applies to**: Access 2013 | Office 2013
 
 Indicates how many pages of data the [Recordset](recordset-object-ado.md) object contains.
 
+<<<<<<< HEAD
 ## Return Value
+=======
+## Return value
+>>>>>>> master
 
 Returns a **Long** value that indicates the number of pages in the **Recordset**.
 

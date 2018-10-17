@@ -15,7 +15,11 @@ mtps_version: v=office.15
 
 Indicates whether the index is clustered.
 
+<<<<<<< HEAD
 ## Settings and Return Values
+=======
+## Settings and return values
+>>>>>>> master
 
 Sets and returns a **Boolean** value.
 

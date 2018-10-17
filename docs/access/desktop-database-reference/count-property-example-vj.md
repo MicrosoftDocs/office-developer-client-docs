@@ -1,6 +1,11 @@
 ﻿---
+<<<<<<< HEAD
 title: Count Property Example (VJ++)
 TOCTitle: Count Property Example (VJ++)
+=======
+title: Count property example (VJ++)
+TOCTitle: Count property example (VJ++)
+>>>>>>> master
 ms:assetid: 749de00a-7530-ea04-558c-34277c4d2f61
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249478(v=office.15)
 ms:contentKeyID: 48545666
@@ -8,7 +13,11 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
+<<<<<<< HEAD
 # Count Property Example (VJ++)
+=======
+# Count property example (VJ++)
+>>>>>>> master
 
 
 **Applies to**: Access 2013 | Office 2013

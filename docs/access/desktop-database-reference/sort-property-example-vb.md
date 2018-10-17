@@ -1,6 +1,11 @@
 ﻿---
+<<<<<<< HEAD
 title: Sort Property Example (VB)
 TOCTitle: Sort Property Example (VB)
+=======
+title: Sort property example (VB)
+TOCTitle: Sort property example (VB)
+>>>>>>> master
 ms:assetid: 6f981e5e-7ee8-e1e7-bea9-7c2081400391
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249440(v=office.15)
 ms:contentKeyID: 48545539
@@ -8,7 +13,11 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
+<<<<<<< HEAD
 # Sort Property Example (VB)
+=======
+# Sort property example (VB)
+>>>>>>> master
 
 
 **Applies to**: Access 2013 | Office 2013

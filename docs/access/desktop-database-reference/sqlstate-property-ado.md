@@ -1,6 +1,11 @@
 ﻿---
+<<<<<<< HEAD
 title: SQLState Property (ADO)
 TOCTitle: SQLState Property (ADO)
+=======
+title: SQLState property (ADO)
+TOCTitle: SQLState property (ADO)
+>>>>>>> master
 ms:assetid: cf3b078a-849e-1ad2-cba4-a26160080868
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250029(v=office.15)
 ms:contentKeyID: 48547806
@@ -8,14 +13,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
+<<<<<<< HEAD
 # SQLState Property (ADO)
+=======
+# SQLState property (ADO)
+>>>>>>> master
 
 
 **Applies to**: Access 2013 | Office 2013
 
 Indicates the SQL state for a given [Error](error-object-ado.md) object.
 
+<<<<<<< HEAD
 ## Return Value
+=======
+## Return value
+>>>>>>> master
 
 Returns a five-character **String** value that follows the ANSI SQL standard and indicates the error code.
 

@@ -1,6 +1,11 @@
 ﻿---
+<<<<<<< HEAD
 title: State Property Example (VC++)
 TOCTitle: State Property Example (VC++)
+=======
+title: State property example (VC++)
+TOCTitle: State property example (VC++)
+>>>>>>> master
 ms:assetid: aedc50d8-81cd-1acd-6d57-48af71369da8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249830(v=office.15)
 ms:contentKeyID: 48547085
@@ -8,7 +13,11 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
+<<<<<<< HEAD
 # State Property Example (VC++)
+=======
+# State property example (VC++)
+>>>>>>> master
 
 
 **Applies to**: Access 2013 | Office 2013

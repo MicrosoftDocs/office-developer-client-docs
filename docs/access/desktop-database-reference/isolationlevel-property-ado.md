@@ -1,6 +1,11 @@
 ﻿---
+<<<<<<< HEAD
 title: IsolationLevel Property (ADO)
 TOCTitle: IsolationLevel Property (ADO)
+=======
+title: IsolationLevel property (ADO)
+TOCTitle: IsolationLevel property (ADO)
+>>>>>>> master
 ms:assetid: 19461be5-c94b-4b61-ce08-7abdf702c3dc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248939(v=office.15)
 ms:contentKeyID: 48543493
@@ -8,14 +13,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
+<<<<<<< HEAD
 # IsolationLevel Property (ADO)
+=======
+# IsolationLevel property (ADO)
+>>>>>>> master
 
 
 **Applies to**: Access 2013 | Office 2013
 
 Indicates the level of isolation for a [Connection](connection-object-ado.md) object.
 
+<<<<<<< HEAD
 ## Settings and Return Values
+=======
+## Settings and return values
+>>>>>>> master
 
 Sets or returns an [IsolationLevelEnum](isolationlevelenum.md) value. The default is **adXactChaos**.
 

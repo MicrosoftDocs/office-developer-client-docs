@@ -1,6 +1,11 @@
 ﻿---
+<<<<<<< HEAD
 title: Sort Property Example (VJ++)
 TOCTitle: Sort Property Example (VJ++)
+=======
+title: Sort property example (VJ++)
+TOCTitle: Sort property example (VJ++)
+>>>>>>> master
 ms:assetid: 29f34b9d-a75a-baa3-2505-ebd70e71950f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249051(v=office.15)
 ms:contentKeyID: 48543896
@@ -8,7 +13,11 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
+<<<<<<< HEAD
 # Sort Property Example (VJ++)
+=======
+# Sort property example (VJ++)
+>>>>>>> master
 
 
 **Applies to**: Access 2013 | Office 2013

@@ -1,6 +1,11 @@
 ﻿---
+<<<<<<< HEAD
 title: CursorLocation Property (ADO)
 TOCTitle: CursorLocation Property (ADO)
+=======
+title: CursorLocation property (ADO)
+TOCTitle: CursorLocation property (ADO)
+>>>>>>> master
 ms:assetid: 8a048bd4-ae25-a555-1c07-14364b7e6560
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249606(v=office.15)
 ms:contentKeyID: 48546182
@@ -8,7 +13,11 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
+<<<<<<< HEAD
 # CursorLocation Property (ADO)
+=======
+# CursorLocation property (ADO)
+>>>>>>> master
 
 
 **Applies to**: Access 2013 | Office 2013

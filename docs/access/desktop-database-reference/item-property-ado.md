@@ -1,6 +1,11 @@
 ﻿---
+<<<<<<< HEAD
 title: Item Property (ADO)
 TOCTitle: Item Property (ADO)
+=======
+title: Item property (ADO)
+TOCTitle: Item property (ADO)
+>>>>>>> master
 ms:assetid: 793c305f-0e5b-a529-e21f-b7ab0843ed49
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249499(v=office.15)
 ms:contentKeyID: 48545767
@@ -8,7 +13,11 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
+<<<<<<< HEAD
 # Item Property (ADO)
+=======
+# Item property (ADO)
+>>>>>>> master
 
 **Applies to**: Access 2013 | Office 2013
 
@@ -18,7 +27,11 @@ Indicates a specific member of a collection, by name or ordinal number.
 
 Set*object* = *collection*.Item ( Index )
 
+<<<<<<< HEAD
 ## Return Value
+=======
+## Return value
+>>>>>>> master
 
 Returns an object reference.
 

@@ -1,6 +1,11 @@
 ﻿---
+<<<<<<< HEAD
 title: DateCreated and DateModified Properties Example (VB)
 TOCTitle: DateCreated and DateModified Properties Example (VB)
+=======
+title: DateCreated and DateModified properties example (VB)
+TOCTitle: DateCreated and DateModified properties example (VB)
+>>>>>>> master
 ms:assetid: 5afdb5a9-394f-c38f-83a4-ae7017673c5e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249316(v=office.15)
 ms:contentKeyID: 48545063
@@ -8,7 +13,11 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
+<<<<<<< HEAD
 # DateCreated and DateModified Properties Example (VB)
+=======
+# DateCreated and DateModified properties example (VB)
+>>>>>>> master
 
 
 **Applies to**: Access 2013 | Office 2013

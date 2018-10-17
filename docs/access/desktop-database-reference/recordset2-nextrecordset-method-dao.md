@@ -23,7 +23,11 @@ f1_categories:
 
 *expression* A variable that represents a **Recordset2** object.
 
+<<<<<<< HEAD
 ### Return Value
+=======
+### Return value
+>>>>>>> master
 
 Boolean
 

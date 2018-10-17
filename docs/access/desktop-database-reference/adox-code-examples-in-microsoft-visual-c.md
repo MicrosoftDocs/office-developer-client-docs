@@ -23,9 +23,15 @@ These topics provide sample code to help you understand how to use ADOX. All cod
 
 **Methods**
 
+<<<<<<< HEAD
   - [Columns and Tables Append Methods, Name Property Example (VC++)](columns-and-tables-append-methods-name-property-example-vc.md)
 
   - [Connection Close Method, Table Type Property Example (VC++)](connection-close-method-table-type-property-example-vc.md)
+=======
+  - [Columns and Tables Append Methods, Name property example (VC++)](columns-and-tables-append-methods-name-property-example-vc.md)
+
+  - [Connection Close Method, Table Type property example (VC++)](connection-close-method-table-type-property-example-vc.md)
+>>>>>>> master
 
   - [Create Method Example (VC++)](create-method-example-vc.md)
 
@@ -37,6 +43,7 @@ These topics provide sample code to help you understand how to use ADOX. All cod
 
   - [Indexes Append Method Example (VC++)](indexes-append-method-example-vc.md)
 
+<<<<<<< HEAD
   - [Keys Append Method, Key Type, RelatedColumn, RelatedTable, and UpdateRule Properties Example (VC++)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc.md)
 
 **Properties**
@@ -58,20 +65,55 @@ These topics provide sample code to help you understand how to use ADOX. All cod
   - [DeleteRule Property Example (VC++)](deleterule-property-example-vc.md)
 
   - [IndexNulls Property Example (VC++)](indexnulls-property-example-vc.md)
+=======
+  - [Keys Append Method, Key Type, RelatedColumn, RelatedTable, and UpdateRule properties example (VC++)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc.md)
+
+**Properties**
+
+  - [Attributes property example (VC++)](attributes-property-example-vc.md)
+
+  - [Catalog ActiveConnection property example (VC++)](catalog-activeconnection-property-example-vc.md)
+
+  - [Clustered property example (VC++)](clustered-property-example-vc.md)
+
+  - [Command and CommandText properties example (VC++)](command-and-commandtext-properties-example-vc.md)
+
+  - [Command Property, Parameters Collection Example (VC++)](parameters-collection-command-property-example-vc.md)
+
+  - [DateCreated and DateModified properties example (VC++)](datecreated-and-datemodified-properties-example-vc.md)
+
+  - [DefinedSize property example (VC++)](definedsize-property-example-vc.md)
+
+  - [DeleteRule property example (VC++)](deleterule-property-example-vc.md)
+
+  - [IndexNulls property example (VC++)](indexnulls-property-example-vc.md)
+>>>>>>> master
 
   - [Key Type, RelatedColumn, RelatedTable, UpdateRule Properties, Keys Append Method Example (VC++)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc.md)
 
   - [Name Property, Columns and Tables Append Methods Example (VC++)](columns-and-tables-append-methods-name-property-example-vc.md)
 
+<<<<<<< HEAD
   - [NumericScale and Precision Properties Example (VC++)](numericscale-and-precision-properties-example-vc.md)
 
   - [ParentCatalog Property Example (VC++)](parentcatalog-property-example-vc.md)
 
   - [PrimaryKey and Unique Properties Example (VC++)](primarykey-and-unique-properties-example-vc.md)
+=======
+  - [NumericScale and Precision properties example (VC++)](numericscale-and-precision-properties-example-vc.md)
+
+  - [ParentCatalog property example (VC++)](parentcatalog-property-example-vc.md)
+
+  - [PrimaryKey and Unique properties example (VC++)](primarykey-and-unique-properties-example-vc.md)
+>>>>>>> master
 
   - [Table Type Property, Connection Close Method Example (VC++)](connection-close-method-table-type-property-example-vc.md)
 
 **Collections**
 
+<<<<<<< HEAD
   - [Parameters Collection, Command Property Example (VC++)](parameters-collection-command-property-example-vc.md)
+=======
+  - [Parameters Collection, Command property example (VC++)](parameters-collection-command-property-example-vc.md)
+>>>>>>> master
 

@@ -39,6 +39,10 @@ If this **Record** was obtained from a [Recordset](recordset-object-ado.md), the
 
 
 > [!NOTE]
+<<<<<<< HEAD
 > <P>URLs using the http scheme will automatically invoke the <A href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider for Internet Publishing</A>. For more information, see <A href="absolute-and-relative-urls.md">Absolute and Relative URLs</A>.</P>
+=======
+> URLs using the http scheme will automatically invoke the [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). For more information, see [Absolute and relative URLs](absolute-and-relative-urls.md).
+>>>>>>> master
 
 

@@ -15,7 +15,11 @@ mtps_version: v=office.15
 
 Indicates the scale of a numeric value in the column.
 
+<<<<<<< HEAD
 ## Settings and Return Values
+=======
+## Settings and return values
+>>>>>>> master
 
 Sets and returns a **Byte** value that is the scale of data values in the column when the [Type](https://msdn.microsoft.com/library/jj249169\(v=office.15\)) property is **adNumeric** or **adDecimal**. **NumericScale** is ignored for all other data types.
 

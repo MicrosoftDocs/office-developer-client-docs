@@ -1,6 +1,11 @@
 ﻿---
+<<<<<<< HEAD
 title: Description, HelpContext, HelpFile Properties Example (VC++)
 TOCTitle: Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState Properties Example (VC++)
+=======
+title: Description, HelpContext, HelpFile properties example (VC++)
+TOCTitle: Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState properties example (VC++)
+>>>>>>> master
 ms:assetid: 1375a0e6-c61b-aba5-4d7c-5db597ef873e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248908(v=office.15)
 ms:contentKeyID: 48543369
@@ -8,7 +13,11 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
+<<<<<<< HEAD
 # Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState Properties Example (VC++)
+=======
+# Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState properties example (VC++)
+>>>>>>> master
 
 
 **Applies to**: Access 2013 | Office 2013

@@ -1,6 +1,11 @@
 ﻿---
+<<<<<<< HEAD
 title: DataMember Property (ADO)
 TOCTitle: DataMember Property (ADO)
+=======
+title: DataMember property (ADO)
+TOCTitle: DataMember property (ADO)
+>>>>>>> master
 ms:assetid: f89e1d42-7993-764b-4e8a-2f449903f792
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250263(v=office.15)
 ms:contentKeyID: 48548787
@@ -8,13 +13,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
+<<<<<<< HEAD
 # DataMember Property (ADO)
+=======
+# DataMember property (ADO)
+>>>>>>> master
 
 **Applies to**: Access 2013 | Office 2013
 
 Indicates the name of the data member that will be retrieved from the object referenced by the [DataSource](datasource-property-ado.md) property.
 
+<<<<<<< HEAD
 ## Settings and Return Values
+=======
+## Settings and return values
+>>>>>>> master
 
 Sets or returns a **String** value. The name is not case sensitive.
 

@@ -15,7 +15,11 @@ mtps_version: v=office.15
 
 Indicates the number of dimensions on an axis.
 
+<<<<<<< HEAD
 ## Return Values
+=======
+## Return values
+>>>>>>> master
 
 Returns a **Long** integer, and is read-only.
 

@@ -52,7 +52,11 @@ The **BrowseTo** action has the following argument.
 </tr>
 <tr class="odd">
 <td><p>Page</p></td>
+<<<<<<< HEAD
 <td><p>If specified, sets the page of the continuous form that will be made the current page. This argument is Web only.</p></td>
+=======
+<td><p>If specified, sets the page of the continuous form that will be made the current page. This argument is web only.</p></td>
+>>>>>>> master
 </tr>
 <tr class="even">
 <td><p>Data Mode</p></td>

@@ -38,7 +38,11 @@ In this tutorial, [RDS.DataControl](datacontrol-object-rds.md) and [RDS.DataSpac
 
 **Step 1 — Specify a server program**
 
+<<<<<<< HEAD
 VBScript can discover the name of the IIS Web server it is running on by accessing the VBScript **Request.ServerVariables** method available to Active Server Pages:
+=======
+VBScript can discover the name of the IIS web server it is running on by accessing the VBScript **Request.ServerVariables** method available to Active Server Pages:
+>>>>>>> master
 
 ```vb 
  

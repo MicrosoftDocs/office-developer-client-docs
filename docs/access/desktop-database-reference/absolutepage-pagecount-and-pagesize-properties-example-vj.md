@@ -1,4 +1,5 @@
 ﻿---
+<<<<<<< HEAD
 title: AbsolutePage, PageCount, and PageSize Properties Example (VJ++)
 TOCTitle: AbsolutePage, PageCount, and PageSize Properties Example (VJ++)
 ms:assetid: 6cdf3880-1d77-5826-1d7b-7bf61a886d1b
@@ -10,6 +11,18 @@ mtps_version: v=office.15
 
 # AbsolutePage, PageCount, and PageSize Properties Example (VJ++)
 
+=======
+title: AbsolutePage, PageCount, and PageSize properties example (VJ++)
+TOCTitle: AbsolutePage, PageCount, and PageSize properties example (VJ++)
+ms:assetid: 6cdf3880-1d77-5826-1d7b-7bf61a886d1b
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249431(v=office.15)
+ms:contentKeyID: 48545480
+ms.date: 10/17/2018
+mtps_version: v=office.15
+---
+
+# AbsolutePage, PageCount, and PageSize properties example (VJ++)
+>>>>>>> master
 
 **Applies to**: Access 2013 | Office 2013
 

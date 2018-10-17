@@ -1,6 +1,11 @@
 ﻿---
+<<<<<<< HEAD
 title: Views Collection, CommandText Property Example (VB)
 TOCTitle: Views Collection, CommandText Property Example (VB)
+=======
+title: Views Collection, CommandText property example (VB)
+TOCTitle: Views Collection, CommandText property example (VB)
+>>>>>>> master
 ms:assetid: 5dacd3c2-a1b2-57a7-1bac-ce0caa7c1a09
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249331(v=office.15)
 ms:contentKeyID: 48545120
@@ -8,7 +13,11 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
+<<<<<<< HEAD
 # Views Collection, CommandText Property Example (VB)
+=======
+# Views Collection, CommandText property example (VB)
+>>>>>>> master
 
 
 **Applies to**: Access 2013 | Office 2013

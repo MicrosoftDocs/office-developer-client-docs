@@ -69,6 +69,7 @@ Use the following code examples to learn how to use the ADO methods and properti
 
 **Properties**
 
+<<<<<<< HEAD
   - [AbsolutePage, PageCount, and PageSize Properties Example](absolutepage-pagecount-and-pagesize-properties-example-vj.md)
 
   - [AbsolutePosition and CursorLocation Properties Example](absoluteposition-and-cursorlocation-properties-example-vj.md)
@@ -130,4 +131,67 @@ Use the following code examples to learn how to use the ADO methods and properti
   - [Value Property Example](value-property-example-vj.md)
 
   - [Version Property Example](version-property-example-vj.md)
+=======
+  - [AbsolutePage, PageCount, and PageSize properties example](absolutepage-pagecount-and-pagesize-properties-example-vj.md)
+
+  - [AbsolutePosition and CursorLocation properties example](absoluteposition-and-cursorlocation-properties-example-vj.md)
+
+  - [ActiveCommand property example](activecommand-property-example-vj.md)
+
+  - [ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vj.md)
+
+  - [ActualSize and DefinedSize properties example](actualsize-and-definedsize-properties-example-vj.md)
+
+  - [Attributes and Name properties example](attributes-and-name-properties-example-vj.md)
+
+  - [BOF, EOF, and Bookmark properties example](bof-eof-and-bookmark-properties-example-vj.md)
+
+  - [CacheSize property example](cachesize-property-example-vj.md)
+
+  - [ConnectionString, ConnectionTimeout, and State properties example](connectionstring-connectiontimeout-and-state-properties-example-vj.md)
+
+  - [Count property example](count-property-example-vj.md)
+
+  - [CursorType, LockType, and EditMode properties example](cursortype-locktype-and-editmode-properties-example-vj.md)
+
+  - [Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState properties example](description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vj.md)
+
+  - [Filter and RecordCount properties example](filter-and-recordcount-properties-example-vj.md)
+
+  - [IsolationLevel and Mode properties example](isolationlevel-and-mode-properties-example-vj.md)
+
+  - [Item property example](item-property-example-vj.md)
+
+  - [MarshalOptions property example](marshaloptions-property-example-vj.md)
+
+  - [MaxRecords property example](maxrecords-property-example-vj.md)
+
+  - [NumericScale and Precision properties example](numericscale-and-precision-properties-example-vj.md)
+
+  - [Optimize property example](optimize-property-example-vj.md)
+
+  - [OriginalValue and UnderlyingValue properties example](originalvalue-and-underlyingvalue-properties-example-vj.md)
+
+  - [Prepared property example](prepared-property-example-vj.md)
+
+  - [Provider and DefaultDatabase properties example](provider-and-defaultdatabase-properties-example-vj.md)
+
+  - [Sort property example](sort-property-example-vj.md)
+
+  - [Source property example](source-property-example-vj.md)
+
+  - [State property example](state-property-example-vj.md)
+
+  - [Status property example](status-property-example-vj.md)
+
+  - [StayInSync property example](stayinsync-property-example-vj.md)
+
+  - [Type property example (Fields)](https://msdn.microsoft.com/library/jj250207\(v=office.15\))
+
+  - [Type property example (Property)](https://msdn.microsoft.com/library/jj249182\(v=office.15\))
+
+  - [Value property example](value-property-example-vj.md)
+
+  - [Version property example](version-property-example-vj.md)
+>>>>>>> master
 

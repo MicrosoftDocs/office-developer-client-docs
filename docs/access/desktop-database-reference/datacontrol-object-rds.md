@@ -12,7 +12,11 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
+<<<<<<< HEAD
 Binds a data query [Recordset](recordset-object-ado.md) to one or more controls (for example, a text box, grid control, or combo box) to display the **Recordset** data on a Web page.
+=======
+Binds a data query [Recordset](recordset-object-ado.md) to one or more controls (for example, a text box, grid control, or combo box) to display the **Recordset** data on a webpage.
+>>>>>>> master
 
 ## Syntax
 
@@ -76,15 +80,25 @@ Use one **RDS.DataControl** object to link the results of a single query to one 
 
 Use different **RDS.DataControl** objects to link the results of multiple queries to different visual controls. For example, suppose you use one query to obtain information about a customer, and a second query to obtain information about merchandise that the customer has purchased. You want to display the results of the first query in three text boxes and one check box, and the results of the second query in a grid control. If you use the default business object (**RDSServer.DataFactory**), you need to do the following:
 
+<<<<<<< HEAD
   - Add two **RDS.DataControl** objects to your Web page.
+=======
+  - Add two **RDS.DataControl** objects to your webpage.
+>>>>>>> master
 
   - Write two queries, one for each **SQL** property of the two **RDS.DataControl** objects. One **RDS.DataControl** object will contain an SQL query requesting customer information; the second will contain a query requesting a list of merchandise the customer has purchased.
 
   - In each of the bound controls' OBJECT tags, specify the DATAFLD value to set the values for the data you want to display in each visual control.
 
+<<<<<<< HEAD
 There is no count restriction on the number of **RDS.DataControl** objects that you can embed via OBJECT tags on a single Web page.
 
 When you define the **RDS.DataControl** object on a Web page, use nonzero **Height** and **Width** values such as 1 (to avoid the inclusion of extra space).
+=======
+There is no count restriction on the number of **RDS.DataControl** objects that you can embed via OBJECT tags on a single webpage.
+
+When you define the **RDS.DataControl** object on a webpage, use nonzero **Height** and **Width** values such as 1 (to avoid the inclusion of extra space).
+>>>>>>> master
 
 Remote Data Service client components are already included as part of Internet Explorer 4.0; therefore, you don't need to include a CODEBASE parameter in your **RDS.DataControl** object tag.
 

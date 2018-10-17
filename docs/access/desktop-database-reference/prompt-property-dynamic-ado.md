@@ -15,7 +15,11 @@ mtps_version: v=office.15
 
 Specifies whether the OLE DB provider should prompt the user for initialization information.
 
+<<<<<<< HEAD
 ## Settings and Return Values
+=======
+## Settings and return values
+>>>>>>> master
 
 Sets and returns a [ConnectPromptEnum](connectpromptenum.md) value.
 

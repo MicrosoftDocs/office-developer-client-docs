@@ -1,6 +1,11 @@
 ﻿---
+<<<<<<< HEAD
 title: Description Property (ADO)
 TOCTitle: Description Property (ADO)
+=======
+title: Description property (ADO)
+TOCTitle: Description property (ADO)
+>>>>>>> master
 ms:assetid: 31df5e36-641c-d213-31fc-6244e2983327
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249092(v=office.15)
 ms:contentKeyID: 48544064
@@ -8,14 +13,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
+<<<<<<< HEAD
 # Description Property (ADO)
+=======
+# Description property (ADO)
+>>>>>>> master
 
 
 **Applies to**: Access 2013 | Office 2013
 
 Describes an [Error](error-object-ado.md) object.
 
+<<<<<<< HEAD
 ## Return Value
+=======
+## Return value
+>>>>>>> master
 
 Returns a **String** value that contains a description of the error.
 

@@ -66,7 +66,11 @@ Opens a specified database in a **[Workspace](workspace-object-dao.md)** object 
 </table>
 
 
+<<<<<<< HEAD
 ### Return Value
+=======
+### Return value
+>>>>>>> master
 
 Database
 

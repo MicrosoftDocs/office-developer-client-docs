@@ -15,7 +15,11 @@ mtps_version: v=office.15
 
 Indicates an unambiguous name for the current object.
 
+<<<<<<< HEAD
 ## Return Values
+=======
+## Return values
+>>>>>>> master
 
 Returns a **String** and is read-only.
 

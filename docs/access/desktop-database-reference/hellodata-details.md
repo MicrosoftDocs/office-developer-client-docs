@@ -23,7 +23,11 @@ Assign an error handler using a Visual Basic **OnError** statement. For more inf
 
 After the connection has been opened, assign a SQL string to a variable (sSQL). Then instantiate a new **Recordset** object, m\_oRecordset1 . In the next line of code, open the **Recordset** over the existing **Connection**, passing in . In the next line of code, open the **Recordset** over the existing **Connection**, passing in sSQL as the source of the **Recordset**. You assist ADO in making the determination that the SQL string you have passed as the source for the **Recordset** is a textual definition of a command by passing **adCmdText** in the final argument to the **Recordset** **Open** method. This line also sets the **LockType** and **CursorType** associated with the **Recordset**.
 
+<<<<<<< HEAD
 The next line of code sets the **MarshalOptions** property equal to **adMarshalModifiedOnly**. **MarshalOptions** indicates which records should be marshaled to the middle tier (or Web server). For more information about marshaling, see the COM documentation. When using **adMarshalModifiedOnly** with a client-side cursor ([CursorLocation](cursorlocation-property-ado.md) = **adUseClient**), only records that have been modified on the client are written back to the middle tier. Setting **MarshalOptions** to **adMarshalModifiedOnly** can improve performance because fewer rows are marshaled.
+=======
+The next line of code sets the **MarshalOptions** property equal to **adMarshalModifiedOnly**. **MarshalOptions** indicates which records should be marshaled to the middle tier (or web server). For more information about marshaling, see the COM documentation. When using **adMarshalModifiedOnly** with a client-side cursor ([CursorLocation](cursorlocation-property-ado.md) = **adUseClient**), only records that have been modified on the client are written back to the middle tier. Setting **MarshalOptions** to **adMarshalModifiedOnly** can improve performance because fewer rows are marshaled.
+>>>>>>> master
 
 Next, disconnect the **Recordset** by setting its **ActiveConnection** property equal to **Nothing**. For more information, see [Disconnecting and Reconnecting the Recordset](disconnecting-and-reconnecting-the-recordset.md) in Chapter 5: Updating and Persisting Data.
 

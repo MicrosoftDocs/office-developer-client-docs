@@ -49,7 +49,11 @@ Retrieves multiple rows from a **[Recordset](recordset-object-dao.md)** object.
 </table>
 
 
+<<<<<<< HEAD
 ### Return Value
+=======
+### Return value
+>>>>>>> master
 
 Variant
 

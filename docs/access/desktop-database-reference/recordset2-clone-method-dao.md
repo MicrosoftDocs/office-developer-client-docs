@@ -21,7 +21,11 @@ Creates a duplicate **[Recordset](recordset-object-dao.md)** object that refers 
 
 *expression* A variable that represents a **Recordset2** object.
 
+<<<<<<< HEAD
 ### Return Value
+=======
+### Return value
+>>>>>>> master
 
 Recordset
 

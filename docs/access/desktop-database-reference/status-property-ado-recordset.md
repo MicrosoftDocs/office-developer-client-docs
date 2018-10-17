@@ -15,7 +15,11 @@ mtps_version: v=office.15
 
 Indicates the status of the current record with respect to batch updates or other bulk operations.
 
+<<<<<<< HEAD
 ## Return Value
+=======
+## Return value
+>>>>>>> master
 
 Returns a sum of one or more [RecordStatusEnum](recordstatusenum.md) values.
 

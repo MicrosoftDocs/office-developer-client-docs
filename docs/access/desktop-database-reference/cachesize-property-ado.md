@@ -1,6 +1,11 @@
 ﻿---
+<<<<<<< HEAD
 title: CacheSize Property (ADO)
 TOCTitle: CacheSize Property (ADO)
+=======
+title: CacheSize property (ADO)
+TOCTitle: CacheSize property (ADO)
+>>>>>>> master
 ms:assetid: 42f86cc0-30dc-669b-9e65-5e7ecd52c4d7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249200(v=office.15)
 ms:contentKeyID: 48544491
@@ -8,14 +13,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
+<<<<<<< HEAD
 # CacheSize Property (ADO)
+=======
+# CacheSize property (ADO)
+>>>>>>> master
 
 
 **Applies to**: Access 2013 | Office 2013
 
 Indicates the number of records from a [Recordset](recordset-object-ado.md) object that are cached locally in memory.
 
+<<<<<<< HEAD
 ## Settings and Return Values
+=======
+## Settings and return values
+>>>>>>> master
 
 Sets or returns a **Long** value that must be greater than 0. Default is 1.
 

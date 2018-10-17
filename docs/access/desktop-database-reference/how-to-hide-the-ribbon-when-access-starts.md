@@ -1,10 +1,18 @@
 ﻿---
 title: Hide the ribbon when Access starts
 TOCTitle: Hide the ribbon when Access starts
+<<<<<<< HEAD
 ms:assetid: f98bab58-8094-1c56-f70b-ced2e7849574
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837012(v=office.15)
 ms:contentKeyID: 48548817
 ms.date: 09/18/2015
+=======
+description: How to load a customized ribbon that hides all of the built-in tabs in Access 2013.
+ms:assetid: f98bab58-8094-1c56-f70b-ced2e7849574
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff837012(v=office.15)
+ms:contentKeyID: 48548817
+ms.date: 10/16/2018
+>>>>>>> master
 mtps_version: v=office.15
 ---
 
@@ -16,7 +24,13 @@ By default, Microsoft Access does not provide a method for hiding the ribbon. Th
 
 To load the customized ribbon when Access starts, you should store its settings in a table named **USysRibbons**.
 
+<<<<<<< HEAD
 The **USysRibbons** table must be created using specific column names in order for the ribbon customizations to be implemented. The following table lists the settings to use when creating the **USysRibbons** table.
+=======
+The **USysRibbons** table must be created using specific column names for the ribbon customizations to be implemented. 
+
+The following table lists the settings to use when creating the **USysRibbons** table.
+>>>>>>> master
 
 <table>
 <colgroup>
@@ -26,8 +40,13 @@ The **USysRibbons** table must be created using specific column names in order f
 </colgroup>
 <thead>
 <tr class="header">
+<<<<<<< HEAD
 <th><p>Column Name</p></th>
 <th><p>Data Type</p></th>
+=======
+<th><p>Column name</p></th>
+<th><p>Data type</p></th>
+>>>>>>> master
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -40,11 +59,16 @@ The **USysRibbons** table must be created using specific column names in order f
 <tr class="even">
 <td><p><strong>RibbonXML</strong></p></td>
 <td><p>Memo</p></td>
+<<<<<<< HEAD
 <td><p>Contains the Ribbon Extensibility XML (RibbonX) that defines the ribbon customization.</p></td>
+=======
+<td><p>Contains the ribbon extensibility XML (RibbonX) that defines the ribbon customization.</p></td>
+>>>>>>> master
 </tr>
 </tbody>
 </table>
 
+<<<<<<< HEAD
 
 The following table lists the ribbon customization settings to store in the **USysRibbons** table.
 
@@ -73,6 +97,19 @@ The following table lists the ribbon customization settings to store in the **US
 
 
 ## Applying a Custom Ribbon When Access Starts
+=======
+<br/>
+
+The following table lists the ribbon customization settings to store in the **USysRibbons** table.
+
+|Column name|Value|
+|:----------|:----|
+|**RibbonName**|HideTheRibbon|
+|**RibbonXML**|`<CustomUI xmlns="https://schemas.microsoft.com/office/2006/01/CustomUI"> <ribbon startFromScratch="true"/></CustomUI>`|
+
+
+## Apply a custom ribbon when Access starts
+>>>>>>> master
 
 To apply a custom ribbon so that it is available when the application starts, use the following procedure:
 
@@ -80,9 +117,15 @@ To apply a custom ribbon so that it is available when the application starts, us
 
 2.  Close and then restart the application.
 
+<<<<<<< HEAD
 3.  Click the **Microsoft Office Button**![O12FileMenuButton\_ZA10077102](media/access-file-menu-button.gif "O12FileMenuButton_ZA10077102") and then click **Access Options**.
 
 4.  Click the **Current Database** option and then, in the **Ribbon and Toolbar Options** section, click the **Ribbon Name** list and select **HideTheRibbon**.
+=======
+3.  Choose the **Microsoft Office Button**![O12FileMenuButton\_ZA10077102](media/access-file-menu-button.gif "O12FileMenuButton_ZA10077102"), and then choose **Access Options**.
+
+4.  Choose the **Current Database** option and then, in the **Ribbon and Toolbar Options** section, choose the **Ribbon Name** list and select **HideTheRibbon**.
+>>>>>>> master
 
 5.  Close and then restart the application.
 

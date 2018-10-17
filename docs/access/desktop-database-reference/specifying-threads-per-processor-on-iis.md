@@ -13,7 +13,11 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
+<<<<<<< HEAD
 When using RDS with Internet Information Services 4.0 or later, the number of threads created per processor can be controlled by manipulating the registry on the Web server. The number of threads per processor can affect performance in a high traffic situation, or in low traffic situations with large query sizes. The user should experiment for best results.
+=======
+When using RDS with Internet Information Services 4.0 or later, the number of threads created per processor can be controlled by manipulating the registry on the web server. The number of threads per processor can affect performance in a high traffic situation, or in low traffic situations with large query sizes. The user should experiment for best results.
+>>>>>>> master
 
 The method used to determine and change the default value for this setting depends upon the configuration of the IIS 4.0 server.
 
