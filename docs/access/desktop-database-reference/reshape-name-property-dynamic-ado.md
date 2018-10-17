@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 Specifies a name for the [Recordset](recordset-object-ado.md) object.
 
-## Return Values
+## Return values
 
 Returns a **String** value that is the name of the **Recordset**.
 

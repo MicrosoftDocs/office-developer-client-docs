@@ -19,7 +19,7 @@ mtps_version: v=office.15
 
 *expression* A variable that represents a **Recordset** object.
 
-### Return Value
+### Return value
 
 Boolean
 

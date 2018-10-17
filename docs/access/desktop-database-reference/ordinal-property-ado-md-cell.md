@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 Uniquely identifies a cell by its position within a cellset.
 
-## Return Values
+## Return values
 
 Returns a **Long** integer and is read-only.
 

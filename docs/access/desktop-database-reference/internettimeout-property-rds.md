@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 Indicates the number of milliseconds to wait before a request times out.
 
-## Settings and Return Values
+## Settings and return values
 
 Sets or returns a **Long** value that represents the number of milliseconds before a request will time out.
 

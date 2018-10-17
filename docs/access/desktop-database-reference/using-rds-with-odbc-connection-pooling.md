@@ -17,7 +17,7 @@ If you're using an ODBC data source, you can use the connection pooling option i
 
 To enable connection pooling, refer to the Internet Information Services documentation.
 
-Please note that enabling connection pooling may subject the Web server to other restrictions, as noted in the Microsoft Internet Information Services documentation.
+Please note that enabling connection pooling may subject the web server to other restrictions, as noted in the Microsoft Internet Information Services documentation.
 
 To ensure that connection pooling is stable and provides additional performance gains, you must configure Microsoft SQL Server to use the TCP/IP Socket network library.
 
@@ -25,7 +25,7 @@ To do this, you need to:
 
   - Configure the SQL Server computer to use TCP/IP Sockets.
 
-  - Configure the Web server to use TCP/IP Sockets.
+  - Configure the web server to use TCP/IP Sockets.
 
 ## Configuring the SQL Server Computer to Use TCP/IP Sockets
 
@@ -57,13 +57,13 @@ On the SQL Server computer, run the SQL Server Setup program so that interaction
 
 5.  Click **OK** to finish, and exit setup.
 
-## Configuring the Web Server to Use TCP/IP Sockets
+## Configuring the web Server to Use TCP/IP Sockets
 
-There are two options for configuring the Web server to use TCP/IP Sockets. What you do depends on whether all SQL Servers are accessed from the Web server, or only a specific SQL Server is accessed from the Web server.
+There are two options for configuring the web server to use TCP/IP Sockets. What you do depends on whether all SQL Servers are accessed from the web server, or only a specific SQL Server is accessed from the web server.
 
-If all SQL Servers are accessed from the Web server, you need to run the SQL Server Client Configuration Utility on the Web server computer. The following steps change the default network library for all SQL Server connections made from this IIS Web server to use the TCP/IP Sockets network library.
+If all SQL Servers are accessed from the web server, you need to run the SQL Server Client Configuration Utility on the web server computer. The following steps change the default network library for all SQL Server connections made from this IIS web server to use the TCP/IP Sockets network library.
 
-**To configure the Web server (all SQL Servers)**
+**To configure the web server (all SQL Servers)**
 
 **For Microsoft SQL Server 6.5:**
 
@@ -85,9 +85,9 @@ If all SQL Servers are accessed from the Web server, you need to run the SQL Ser
 
 4.  Click **OK** to save changes and exit the utility.
 
-If a specific SQL Server is accessed from a Web server, you need to run the SQL Server Client Configuration Utility on the Web server computer. To change the network library for a specific SQL Server connection, configure the SQL Server Client software on the Web server computer as follows.
+If a specific SQL Server is accessed from a web server, you need to run the SQL Server Client Configuration Utility on the web server computer. To change the network library for a specific SQL Server connection, configure the SQL Server Client software on the web server computer as follows.
 
-**To configure the Web server (a specific SQL Server)**
+**To configure the web server (a specific SQL Server)**
 
 **For Microsoft SQL Server 6.5:**
 

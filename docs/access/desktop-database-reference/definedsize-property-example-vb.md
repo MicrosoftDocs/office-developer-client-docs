@@ -1,6 +1,6 @@
 ﻿---
-title: DefinedSize Property Example (VB)
-TOCTitle: DefinedSize Property Example (VB)
+title: DefinedSize property example (VB)
+TOCTitle: DefinedSize property example (VB)
 ms:assetid: 1bad5efa-dd23-b70d-c078-85a3be0729f1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248957(v=office.15)
 ms:contentKeyID: 48543551
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# DefinedSize Property Example (VB)
+# DefinedSize property example (VB)
 
 
 **Applies to**: Access 2013 | Office 2013

@@ -1,6 +1,6 @@
 ﻿---
-title: PrimaryKey and Unique Properties Example (VB)
-TOCTitle: PrimaryKey and Unique Properties Example (VB)
+title: PrimaryKey and Unique properties example (VB)
+TOCTitle: PrimaryKey and Unique properties example (VB)
 ms:assetid: 888f1a35-b883-2449-3b70-103e5116b29f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249597(v=office.15)
 ms:contentKeyID: 48546137
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# PrimaryKey and Unique Properties Example (VB)
+# PrimaryKey and Unique properties example (VB)
 
 
 **Applies to**: Access 2013 | Office 2013

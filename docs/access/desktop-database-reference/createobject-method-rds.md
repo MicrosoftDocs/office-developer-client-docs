@@ -68,9 +68,9 @@ Remote Data Service supports the following protocols: HTTP, HTTPS (HTTP over Sec
 
   - *awebsrvr* or *computername*
 
-  - A **String** value that represents a URL identifying the Internet Information Services (IIS) Web server where an instance of the server business object is created.
+  - A **String** value that represents a URL identifying the Internet Information Services (IIS) web server where an instance of the server business object is created.
 
 ## Remarks
 
-The *HTTP protocol* is the standard Web protocol; *HTTPS* is a secure Web protocol. Use the *DCOM protocol* when running a local-area network without HTTP. The *in-process* protocol is a local dynamic-link library (DLL); it does not use a network.
+The *HTTP protocol* is the standard web protocol; *HTTPS* is a secure web protocol. Use the *DCOM protocol* when running a local-area network without HTTP. The *in-process* protocol is a local dynamic-link library (DLL); it does not use a network.
 

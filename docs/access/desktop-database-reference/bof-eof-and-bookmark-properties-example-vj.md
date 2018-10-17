@@ -1,6 +1,6 @@
 ﻿---
-title: BOF, EOF, and Bookmark Properties Example (VJ++)
-TOCTitle: BOF, EOF, and Bookmark Properties Example (VJ++)
+title: BOF, EOF, and Bookmark properties example (VJ++)
+TOCTitle: BOF, EOF, and Bookmark properties example (VJ++)
 ms:assetid: 68e6fcc5-506a-9064-3e7c-9ce3d64371aa
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249412(v=office.15)
 ms:contentKeyID: 48545400
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# BOF, EOF, and Bookmark Properties Example (VJ++)
+# BOF, EOF, and Bookmark properties example (VJ++)
 
 
 **Applies to**: Access 2013 | Office 2013

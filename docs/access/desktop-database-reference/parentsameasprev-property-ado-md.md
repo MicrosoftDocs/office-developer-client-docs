@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 Indicates whether the parent of this position member is the same as the parent of the immediately preceding member.
 
-## Return Values
+## Return values
 
 Returns a **Boolean** value and is read-only.
 

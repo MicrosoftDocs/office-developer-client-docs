@@ -1,6 +1,6 @@
 ﻿---
-title: Bookmark Property (ADO)
-TOCTitle: Bookmark Property (ADO)
+title: Bookmark property (ADO)
+TOCTitle: Bookmark property (ADO)
 ms:assetid: 101b2ce1-21d8-aa79-e530-20f9d1c73fc8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248870(v=office.15)
 ms:contentKeyID: 48543287
@@ -8,14 +8,14 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Bookmark Property (ADO)
+# Bookmark property (ADO)
 
 
 **Applies to**: Access 2013 | Office 2013
 
 Indicates a bookmark that uniquely identifies the current record in a [Recordset](recordset-object-ado.md) object or sets the current record in a **Recordset** object to the record identified by a valid bookmark.
 
-## Settings and Return Values
+## Settings and return values
 
 Sets or returns a **Variant** expression that evaluates to a valid bookmark.
 

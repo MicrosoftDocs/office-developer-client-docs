@@ -1,6 +1,6 @@
 ﻿---
-title: ADO NumericScale and Precision Properties Example (VB)
-TOCTitle: NumericScale and Precision Properties Example (VB)
+title: ADO NumericScale and Precision properties example (VB)
+TOCTitle: NumericScale and Precision properties example (VB)
 ms:assetid: 060394b1-0c2c-3726-92a0-0f350bbaa3d5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248814(v=office.15)
 ms:contentKeyID: 48543044
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ADO NumericScale and Precision Properties Example (VB)
+# ADO NumericScale and Precision properties example (VB)
 
 
 **Applies to**: Access 2013 | Office 2013

@@ -25,7 +25,7 @@ Creates a duplicate **[Recordset](recordset-object-dao.md)** object that refers 
 
 *expression* A variable that represents a **Recordset** object.
 
-### Return Value
+### Return value
 
 Recordset
 

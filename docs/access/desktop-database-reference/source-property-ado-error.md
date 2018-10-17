@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 Indicates the name of the object or application that originally generated an error.
 
-## Return Value
+## Return value
 
 Returns a **String** value that indicates the name of an object or application.
 
