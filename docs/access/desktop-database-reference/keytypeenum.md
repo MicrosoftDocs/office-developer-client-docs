@@ -4,16 +4,17 @@ TOCTitle: KeyTypeEnum
 ms:assetid: 333fe365-ff74-9a12-63a7-f3e3f5eff7f4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249103(v=office.15)
 ms:contentKeyID: 48544099
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
 # KeyTypeEnum
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Specifies the type of [Key](key-object-adox.md): primary, foreign, or unique.
+
+<br/>
 
 <table>
 <colgroup>

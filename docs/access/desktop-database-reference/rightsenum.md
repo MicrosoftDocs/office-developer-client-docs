@@ -4,16 +4,17 @@ TOCTitle: RightsEnum
 ms:assetid: 7647b9d5-5271-fdcf-489d-5a8beb931ca5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249485(v=office.15)
 ms:contentKeyID: 48545693
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
 # RightsEnum
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Specifies the rights or permissions for a group or user on an object.
+
+<br/>
 
 <table>
 <colgroup>

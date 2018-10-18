@@ -4,16 +4,17 @@ TOCTitle: ResyncEnum
 ms:assetid: 3d38b77b-6afe-e6a0-1a05-7c7ffc19edef
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249164(v=office.15)
 ms:contentKeyID: 48544337
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
 # ResyncEnum
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Specifies whether underlying values are overwritten by a call to [Resync](resync-method-ado.md).
+
+<br/>
 
 <table>
 <colgroup>

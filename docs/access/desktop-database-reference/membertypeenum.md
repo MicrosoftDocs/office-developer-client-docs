@@ -4,16 +4,17 @@ TOCTitle: MemberTypeEnum
 ms:assetid: 3b6f9fff-fe54-b917-9404-927e3a627e0b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249150(v=office.15)
 ms:contentKeyID: 48544286
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
 # MemberTypeEnum
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Specifies the setting for the [Type](type-property-ado-md.md) property of a [Member](member-object-ado-md.md) object.
+
+<br/>
 
 <table>
 <colgroup>

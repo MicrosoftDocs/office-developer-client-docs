@@ -4,16 +4,17 @@ TOCTitle: GetRowsOptionEnum
 ms:assetid: 5c1665bb-555c-f83f-066c-d6de2dd0343f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249323(v=office.15)
 ms:contentKeyID: 48545082
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
 # GetRowsOptionEnum
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Specifies how many records to retrieve from a [Recordset](recordset-object-ado.md).
+
+<br/>
 
 <table>
 <colgroup>

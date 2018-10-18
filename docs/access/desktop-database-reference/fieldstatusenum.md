@@ -4,18 +4,19 @@ TOCTitle: FieldStatusEnum
 ms:assetid: 49570042-8435-8618-3ba1-7006c47735e0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249225(v=office.15)
 ms:contentKeyID: 48544635
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
 # FieldStatusEnum
-
 
 **Applies to**: Access 2013 | Office 2013
 
 Specifies the status of a **Field** object.
 
 The **adFieldPending\*** values indicate the operation that caused the status to be set, and may be combined with other status values.
+
+<br/>
 
 <table>
 <colgroup>

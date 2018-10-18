@@ -4,16 +4,17 @@ TOCTitle: LineSeparatorsEnum
 ms:assetid: 3b0c58a8-1617-f9b1-c0c8-928580b2dade
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249148(v=office.15)
 ms:contentKeyID: 48544277
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
 # LineSeparatorsEnum
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Specifies the character used as a line separator in text [Stream](stream-object-ado.md) objects.
+
+<br/>
 
 <table>
 <colgroup>

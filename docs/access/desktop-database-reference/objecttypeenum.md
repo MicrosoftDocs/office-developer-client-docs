@@ -4,16 +4,17 @@ TOCTitle: ObjectTypeEnum
 ms:assetid: b0ee2113-dea9-912d-3442-e54885397310
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249842(v=office.15)
 ms:contentKeyID: 48547132
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
 # ObjectTypeEnum
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Specifies the type of database object for which to set permissions or ownership.
+
+<br/>
 
 <table>
 <colgroup>

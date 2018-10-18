@@ -4,16 +4,17 @@ TOCTitle: RecordTypeEnum
 ms:assetid: 7edd6508-1507-4649-f1aa-03f1873ef09c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249534(v=office.15)
 ms:contentKeyID: 48545890
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
 # RecordTypeEnum
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Specifies the type of [Record](record-object-ado.md) object.
+
+<br/>
 
 <table>
 <colgroup>

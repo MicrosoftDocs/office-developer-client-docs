@@ -4,26 +4,27 @@ TOCTitle: SchemaEnum
 ms:assetid: 6147b682-3c4f-ea91-fff6-ac73107d206d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249359(v=office.15)
 ms:contentKeyID: 48545208
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
 # SchemaEnum
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Specifies the type of schema **Recordset** that the [OpenSchema](openschema-method-ado.md) method retrieves.
 
-**Remarks**
+## Remarks
 
-Additional information about the function and columns returned for each ADO constant can be found in topics of Appendix B of the *OLE DB Programmers Reference*. The name of each topic is listed in parentheses in the Description section of the table below.
+Additional information about the function and columns returned for each ADO constant can be found in topics of Appendix B of the *OLE DB Programmers Reference*. The name of each topic is listed in parentheses in the Description section of the following table.
 
-Additional information about the function and columns returned for each ADO MD constant can be found in topics of Chapter 23 of the *OLE DB for OLAP* documentation. The name of each topic is listed in parentheses and marked with an asterisk (\*) in the Description column of the table below.
+Additional information about the function and columns returned for each ADO MD constant can be found in topics of Chapter 23 of the *OLE DB for OLAP* documentation. The name of each topic is listed in parentheses and marked with an asterisk (\*) in the Description column of the following table.
 
 Translate the data types of columns in the OLE DB documentation to ADO data types by referring to the Description column of the ADO [DataTypeEnum](datatypeenum.md) topic. For example, an OLE DB data type of **DBTYPE\_WSTR** is equivalent to an ADO data type of **adWChar**.
 
-ADO generates schema-like results for the constants, **adSchemaDBInfoKeywords** and **adSchemaDBInfoLiterals**. ADO creates a **Recordset**, then fills each row with the values returned respectively by the **IDBInfo::GetKeywords** and **IDBInfo::GetLiteralInfo** methods. Additional information about these methods can be found in the IDBInfo section of the *OLE DB Programmer's Reference.*
+ADO generates schema-like results for the constants, **adSchemaDBInfoKeywords** and **adSchemaDBInfoLiterals**. ADO creates a **Recordset**, and then fills each row with the values returned respectively by the **IDBInfo::GetKeywords** and **IDBInfo::GetLiteralInfo** methods. Additional information about these methods can be found in the IDBInfo section of the *OLE DB Programmer's Reference*.
+
+<br/>
 
 <table>
 <colgroup>
@@ -37,7 +38,7 @@ ADO generates schema-like results for the constants, **adSchemaDBInfoKeywords** 
 <th><p>Constant</p></th>
 <th><p>Value</p></th>
 <th><p>Description</p></th>
-<th><p>Constraint Columns</p></th>
+<th><p>Constraint columns</p></th>
 </tr>
 </thead>
 <tbody>
