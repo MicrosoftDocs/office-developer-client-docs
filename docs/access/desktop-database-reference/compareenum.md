@@ -4,16 +4,17 @@ TOCTitle: CompareEnum
 ms:assetid: 7ac84af6-4f8b-4d1f-7eb3-a015b8b60bc6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249509(v=office.15)
 ms:contentKeyID: 48545801
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
 # CompareEnum
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Specifies the relative position of two records represented by their bookmarks.
+
+<br/>
 
 <table>
 <colgroup>
@@ -58,7 +59,7 @@ Specifies the relative position of two records represented by their bookmarks.
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 Package: **com.ms.wfc.data**
 

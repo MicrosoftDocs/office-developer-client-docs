@@ -43,7 +43,7 @@ Specifies the transaction attributes of a [Connection](connection-object-ado.md)
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 Package: **com.ms.wfc.data**
 

@@ -4,7 +4,7 @@ TOCTitle: ADCPROP_UPDATERESYNC_ENUM
 ms:assetid: 890210c4-2290-ddb2-8814-022093c318de
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249600(v=office.15)
 ms:contentKeyID: 48546145
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
@@ -13,6 +13,8 @@ mtps_version: v=office.15
 **Applies to**: Access 2013 | Office 2013
 
 Specifies whether the [UpdateBatch](updatebatch-method-ado.md) method is followed by an implicit [Resync](resync-method-ado.md) method operation and if so, the scope of that operation.
+
+<br/>
 
 <table>
 <colgroup>

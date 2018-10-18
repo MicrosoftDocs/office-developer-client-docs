@@ -58,7 +58,7 @@ Specifies whether the [Parameter](parameter-object-ado.md) represents an input p
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 Package: **com.ms.wfc.data**
 

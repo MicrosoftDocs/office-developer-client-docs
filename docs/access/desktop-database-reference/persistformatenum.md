@@ -53,7 +53,7 @@ Specifies the format in which to save a [Recordset](recordset-object-ado.md).
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 Package: **com.ms.wfc.data**
 

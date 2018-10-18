@@ -185,7 +185,7 @@ The **adFieldPending\*** values indicate the operation that caused the status to
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 These constants do not have ADO/WFC equivalents.
 

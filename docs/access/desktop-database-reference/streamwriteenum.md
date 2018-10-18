@@ -43,7 +43,7 @@ Specifies whether a line separator is appended to the string written to a [Strea
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 These constants do not have ADO/WFC equivalents.
 

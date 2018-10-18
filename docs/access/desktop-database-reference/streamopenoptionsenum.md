@@ -48,7 +48,7 @@ Specifies options for opening a [Stream](stream-object-ado.md) object. The value
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 These constants do not have ADO/WFC equivalents.
 

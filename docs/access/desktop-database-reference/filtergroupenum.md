@@ -58,7 +58,7 @@ Specifies the group of records to be filtered from a [Recordset](recordset-objec
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 Package: **com.ms.wfc.data**
 

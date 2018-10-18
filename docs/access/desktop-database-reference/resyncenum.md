@@ -43,7 +43,7 @@ Specifies whether underlying values are overwritten by a call to [Resync](resync
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 Package: **com.ms.wfc.data**
 

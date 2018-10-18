@@ -58,7 +58,7 @@ Specifies the type of lock placed on records during editing.
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 Package: **com.ms.wfc.data**
 

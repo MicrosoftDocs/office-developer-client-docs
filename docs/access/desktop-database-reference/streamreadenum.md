@@ -43,7 +43,7 @@ Specifies whether the whole stream or the next line should be read from a [Strea
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 These constants do not have ADO/WFC equivalents.
 

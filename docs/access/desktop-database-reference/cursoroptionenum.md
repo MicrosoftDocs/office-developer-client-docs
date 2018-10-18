@@ -4,16 +4,17 @@ TOCTitle: CursorOptionEnum
 ms:assetid: 3c118c08-02f2-5290-1cef-29e97c35fddc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249155(v=office.15)
 ms:contentKeyID: 48544303
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
 # CursorOptionEnum
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Specifies what functionality the [Supports](supports-method-ado.md) method should test for.
+
+<br/>
 
 <table>
 <colgroup>
@@ -98,7 +99,7 @@ Specifies what functionality the [Supports](supports-method-ado.md) method shoul
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 Package: **com.ms.wfc.data**
 

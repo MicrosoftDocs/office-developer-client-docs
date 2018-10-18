@@ -38,7 +38,7 @@ Specifies how many records to retrieve from a [Recordset](recordset-object-ado.m
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 Package: **com.ms.wfc.data**
 

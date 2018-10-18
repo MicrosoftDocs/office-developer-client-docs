@@ -123,7 +123,7 @@ Specifies the status of a record with regard to batch updates and other bulk ope
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 AdoEnums.RecordStatus.
 

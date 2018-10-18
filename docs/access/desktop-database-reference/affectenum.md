@@ -4,16 +4,17 @@ TOCTitle: AffectEnum
 ms:assetid: 15393398-d7eb-a685-1bfa-d6712d8e5015
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248916(v=office.15)
 ms:contentKeyID: 48543404
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
 # AffectEnum
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Specifies which records are affected by an operation.
+
+<br/>
 
 <table>
 <colgroup>
@@ -32,12 +33,8 @@ Specifies which records are affected by an operation.
 <tr class="odd">
 <td><p><strong>adAffectAll</strong></p></td>
 <td><p>3</p></td>
-<td><p>If there is not a <a href="filter-property-ado.md">Filter</a> applied to the <strong>Recordset</strong>, affects all records. If the <strong>Filter</strong> property is set to a string criteria (such as &quot;Author='Smith'&quot;), then the operation affects visible records in the current chapter. If the <strong>Filter</strong> property is set to a member of the <a href="filtergroupenum.md">FilterGroupEnum</a> or an array of Bookmarks, then the operation will affect all rows of the <strong>Recordset</strong>.</p>
-
-> [!NOTE]
-> adAffectAll is hidden in the Visual Basic Object Browser.
-
-
+<td><p>If there is not a <a href="filter-property-ado.md">Filter</a> applied to the <strong>Recordset</strong>, affects all records. If the <strong>Filter</strong> property is set to a string criteria (such as &quot;Author='Smith'&quot;), the operation affects visible records in the current chapter. If the <strong>Filter</strong> property is set to a member of the <a href="filtergroupenum.md">FilterGroupEnum</a> or an array of Bookmarks, the operation will affect all rows of the <strong>Recordset</strong>.</p>
+<p><strong>NOTE</strong>: adAffectAll is hidden in the Visual Basic Object Browser.</p>
 </td>
 </tr>
 <tr class="even">
@@ -59,7 +56,7 @@ Specifies which records are affected by an operation.
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 Package: **com.ms.wfc.data**
 

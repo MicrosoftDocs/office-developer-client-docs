@@ -4,16 +4,17 @@ TOCTitle: CursorTypeEnum
 ms:assetid: 7c5fa8b2-85ea-a0a7-41f1-a78650aced3e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249519(v=office.15)
 ms:contentKeyID: 48545835
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
 # CursorTypeEnum
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Specifies the type of cursor used in a [Recordset](recordset-object-ado.md) object.
+
+<br/>
 
 <table>
 <colgroup>
@@ -58,7 +59,7 @@ Specifies the type of cursor used in a [Recordset](recordset-object-ado.md) obje
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 Package: **com.ms.wfc.data**
 

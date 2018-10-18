@@ -63,7 +63,7 @@ Specifies the type of [Seek](seek-method-ado.md) to execute.
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 Package: **com.ms.wfc.data**
 

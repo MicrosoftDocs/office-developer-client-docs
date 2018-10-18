@@ -43,7 +43,7 @@ Specifies the type of data stored in a [Stream](stream-object-ado.md) object.
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 These constants do not have ADO/WFC equivalents.
 

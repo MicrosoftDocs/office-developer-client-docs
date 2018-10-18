@@ -114,7 +114,7 @@ Specifies one or more attributes of a [Field](field-object-ado.md) object.
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 Package: **com.ms.wfc.data**
 

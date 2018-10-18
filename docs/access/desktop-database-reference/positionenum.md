@@ -48,7 +48,7 @@ Specifies the current position of the record pointer within a [Recordset](record
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 Package: **com.ms.wfc.data**
 

@@ -58,7 +58,7 @@ Specifies the current status of the execution of an event.
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 Package: **com.ms.wfc.data**
 

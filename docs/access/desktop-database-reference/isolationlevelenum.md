@@ -78,7 +78,7 @@ Specifies the level of transaction isolation for a [Connection](connection-objec
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 Package: **com.ms.wfc.data**
 

@@ -4,12 +4,11 @@ TOCTitle: ErrorValueEnum
 ms:assetid: 2af99f32-6004-1225-367c-45d693f447b8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249058(v=office.15)
 ms:contentKeyID: 48543921
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
 # ErrorValueEnum
-
 
 **Applies to**: Access 2013 | Office 2013
 
@@ -17,15 +16,16 @@ Specifies the type of ADO run-time error.
 
 Three forms of the error number are listed:
 
-  - Positive decimal — the low two bytes of the full number in decimal format. This number is displayed in the default Visual Basic error message dialog box. For example, Run-time error '3707'.
+- Positive decimal — the low two bytes of the full number in decimal format. This number is displayed in the default Visual Basic error message dialog box. For example, Run-time error '3707'.
 
-  - Negative decimal — The decimal translation of the full error number.
+- Negative decimal — The decimal translation of the full error number.
 
-  - Hexadecimal — The hexadecimal representation of the full error number. The Windows facility code is in the fourth digit. The facility code for ADO error numbers is *A*. For example: 0x800***A***0E7B.
-
+- Hexadecimal — The hexadecimal representation of the full error number. The Windows facility code is in the fourth digit. The facility code for ADO error numbers is *A*. For example: 0x800***A***0E7B.
 
 > [!NOTE]
 > OLE DB errors may be passed to your ADO application. Typically, these can be identified by a Windows facility code of *4*. For example, 0x800_**4**_.... For more information about these numbers, see Chapter 16 of the *OLE DB Programmer's Reference.*
+
+<br/>
 
 <table>
 <colgroup>
@@ -423,7 +423,7 @@ Three forms of the error number are listed:
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 Package: **com.ms.wfc.data**
 

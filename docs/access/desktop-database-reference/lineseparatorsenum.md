@@ -48,7 +48,7 @@ Specifies the character used as a line separator in text [Stream](stream-object-
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 These constants do not have ADO/WFC equivalents.
 

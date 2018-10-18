@@ -58,7 +58,7 @@ Specifies whether an object is open or closed, connecting to a data source, exec
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 Package: **com.ms.wfc.data**
 

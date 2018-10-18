@@ -415,7 +415,7 @@ VIEW_NAME</p></td>
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 Package: **com.ms.wfc.data**
 

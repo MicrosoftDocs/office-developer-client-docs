@@ -69,7 +69,7 @@ Specifies how a provider should execute a command.
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 Package: **com.ms.wfc.data**
 

@@ -43,7 +43,7 @@ Specifies which records should be returned to the server.
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 Package: **com.ms.wfc.data**
 

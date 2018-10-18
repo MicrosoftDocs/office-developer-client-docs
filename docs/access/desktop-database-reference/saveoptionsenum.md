@@ -43,7 +43,7 @@ Specifies whether a file should be created or overwritten when saving from a [St
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 These constants do not have ADO/WFC equivalents.
 

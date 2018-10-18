@@ -38,7 +38,7 @@ Specifies the format when retrieving a [Recordset](recordset-object-ado.md) as a
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 Package: **com.ms.wfc.data**
 

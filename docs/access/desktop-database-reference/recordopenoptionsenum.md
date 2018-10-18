@@ -63,7 +63,7 @@ Specifies options for opening a [Record](record-object-ado.md). These values may
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 These constants do not have ADO/WFC equivalents.
 
