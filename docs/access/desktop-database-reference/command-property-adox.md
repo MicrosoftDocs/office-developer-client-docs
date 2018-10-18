@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 Specifies an ADO [Command](command-object-ado.md) object that can be used to create or execute the procedure.
 
-## Settings and return values
+## Settings and Return Values
 
 Sets or returns a valid ADO **Command** object.
 

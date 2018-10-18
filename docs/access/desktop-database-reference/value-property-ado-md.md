@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 Indicates the value of the current cell.
 
-## Return values
+## Return Values
 
 Returns a **Variant** and is read-only.
 

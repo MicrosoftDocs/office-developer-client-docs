@@ -1,6 +1,6 @@
 ﻿---
-title: Status property example (VJ++)
-TOCTitle: Status property example (VJ++)
+title: Status Property Example (VJ++)
+TOCTitle: Status Property Example (VJ++)
 ms:assetid: bdfc1b26-b384-e7e5-ff4b-d63ed62f70ca
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249922(v=office.15)
 ms:contentKeyID: 48547452
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Status property example (VJ++)
+# Status Property Example (VJ++)
 
 
 **Applies to**: Access 2013 | Office 2013

@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 Indicates the number of levels between the [Level](level-object-ado-md.md) and the root of the hierarchy.
 
-## Return values
+## Return Values
 
 Returns an integer, and is read-only.
 

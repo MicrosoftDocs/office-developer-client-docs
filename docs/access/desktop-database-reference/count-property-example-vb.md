@@ -1,6 +1,6 @@
 ﻿---
-title: Count property example (VB)
-TOCTitle: Count property example (VB)
+title: Count Property Example (VB)
+TOCTitle: Count Property Example (VB)
 ms:assetid: 9fea66f7-a4ed-fe2e-c199-672b910fef47
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249734(v=office.15)
 ms:contentKeyID: 48546695
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Count property example (VB)
+# Count Property Example (VB)
 
 
 **Applies to**: Access 2013 | Office 2013

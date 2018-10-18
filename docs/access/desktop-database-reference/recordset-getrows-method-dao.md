@@ -53,7 +53,7 @@ Retrieves multiple rows from a **[Recordset](recordset-object-dao.md)** object.
 </table>
 
 
-### Return value
+### Return Value
 
 Variant
 

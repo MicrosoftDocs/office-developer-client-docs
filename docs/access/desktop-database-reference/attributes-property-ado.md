@@ -1,6 +1,6 @@
 ﻿---
-title: Attributes property (ADO)
-TOCTitle: Attributes property (ADO)
+title: Attributes Property (ADO)
+TOCTitle: Attributes Property (ADO)
 ms:assetid: 4cc1f036-606e-7d4b-d270-af374e9d99fa
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249242(v=office.15)
 ms:contentKeyID: 48544716
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Attributes property (ADO)
+# Attributes Property (ADO)
 
 
 **Applies to**: Access 2013 | Office 2013
@@ -22,7 +22,7 @@ f1_categories:
 
 Indicates one or more characteristics of an object.
 
-## Settings and return values
+## Settings and Return Values
 
 Sets or returns a **Long** value.
 

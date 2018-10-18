@@ -1,6 +1,6 @@
 ﻿---
-title: ConnectionString, ConnectionTimeout, and State properties example (VB)
-TOCTitle: ConnectionString, ConnectionTimeout, and State properties example (VB)
+title: ConnectionString, ConnectionTimeout, and State Properties Example (VB)
+TOCTitle: ConnectionString, ConnectionTimeout, and State Properties Example (VB)
 ms:assetid: abdd0262-8647-d545-60e0-13f99337df06
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249796(v=office.15)
 ms:contentKeyID: 48546984
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ConnectionString, ConnectionTimeout, and State properties example (VB)
+# ConnectionString, ConnectionTimeout, and State Properties Example (VB)
 
 
 **Applies to**: Access 2013 | Office 2013

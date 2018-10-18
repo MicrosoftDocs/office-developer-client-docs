@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 Indicates the status of a [Field](field-object-ado.md) object.
 
-## Return value
+## Return Value
 
 Returns a [FieldStatusEnum](fieldstatusenum.md) value. The default value is **adFieldOK**.
 

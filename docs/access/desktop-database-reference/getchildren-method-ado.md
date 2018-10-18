@@ -20,7 +20,7 @@ Returns a [Recordset](recordset-object-ado.md) whose rows represent the children
 
 **Set** *recordset* = *record*.GetChildren
 
-## Return value
+## Return Value
 
 A **Recordset** object for which each row represents a child of the current **Record** object. For example, the children of a **Record** that represents a directory would be the files and subdirectories contained within the parent directory.
 

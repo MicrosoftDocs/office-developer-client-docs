@@ -1,6 +1,6 @@
 ﻿---
-title: Count property example (VC++)
-TOCTitle: Count property example (VC++)
+title: Count Property Example (VC++)
+TOCTitle: Count Property Example (VC++)
 ms:assetid: 5e3d817b-05bf-c96e-67ba-c41f06c367af
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249340(v=office.15)
 ms:contentKeyID: 48545134
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Count property example (VC++)
+# Count Property Example (VC++)
 
 
 **Applies to**: Access 2013 | Office 2013
