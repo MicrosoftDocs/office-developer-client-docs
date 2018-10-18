@@ -55,7 +55,7 @@ Use the following code examples to learn how to use the ADO methods, properties,
 
   - [GetString Method Example](getstring-method-example-vb.md)
 
-  - [SkipLine Method, EOS, and LineSeparator properties example](eos-and-lineseparator-properties-and-skipline-method-example-vb.md)
+  - [SkipLine Method, EOS, and LineSeparator Properties Example](eos-and-lineseparator-properties-and-skipline-method-example-vb.md)
 
   - [Move Method Example](move-method-example-vb.md)
 
@@ -75,7 +75,7 @@ Use the following code examples to learn how to use the ADO methods, properties,
 
   - [Save and Open Methods Example](save-and-open-methods-example-vb.md)
 
-  - [Seek Method and Index property example](seek-method-and-index-property-example-vb.md)
+  - [Seek Method and Index Property Example](seek-method-and-index-property-example-vb.md)
 
   - [Supports Method Example](supports-method-example-vb.md)
 
@@ -85,67 +85,67 @@ Use the following code examples to learn how to use the ADO methods, properties,
 
 **Properties**
 
-  - [AbsolutePage, PageCount, and PageSize properties example](absolutepage-pagecount-and-pagesize-properties-example-vb.md)
+  - [AbsolutePage, PageCount, and PageSize Properties Example](absolutepage-pagecount-and-pagesize-properties-example-vb.md)
 
-  - [AbsolutePosition and CursorLocation properties example](absoluteposition-and-cursorlocation-properties-example-vb.md)
+  - [AbsolutePosition and CursorLocation Properties Example](absoluteposition-and-cursorlocation-properties-example-vb.md)
 
-  - [ActiveCommand property example](activecommand-property-example-vb.md)
+  - [ActiveCommand Property Example](activecommand-property-example-vb.md)
 
-  - [ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vb.md)
+  - [ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction Properties Example](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vb.md)
 
-  - [ActualSize and DefinedSize properties example](actualsize-and-definedsize-properties-example-vb.md)
+  - [ActualSize and DefinedSize Properties Example](actualsize-and-definedsize-properties-example-vb.md)
 
-  - [Attributes and Name properties example](attributes-and-name-properties-example-vb.md)
+  - [Attributes and Name Properties Example](attributes-and-name-properties-example-vb.md)
 
-  - [BOF, EOF, and Bookmark properties example](bof-eof-and-bookmark-properties-example-vb.md)
+  - [BOF, EOF, and Bookmark Properties Example](bof-eof-and-bookmark-properties-example-vb.md)
 
-  - [CacheSize property example](cachesize-property-example-vb.md)
+  - [CacheSize Property Example](cachesize-property-example-vb.md)
 
-  - [ConnectionString, ConnectionTimeout, and State properties example](connectionstring-connectiontimeout-and-state-properties-example-vb.md)
+  - [ConnectionString, ConnectionTimeout, and State Properties Example](connectionstring-connectiontimeout-and-state-properties-example-vb.md)
 
-  - [Count property example](count-property-example-vb.md)
+  - [Count Property Example](count-property-example-vb.md)
 
-  - [CursorType, LockType, and EditMode properties example](cursortype-locktype-and-editmode-properties-example-vb.md)
+  - [CursorType, LockType, and EditMode Properties Example](cursortype-locktype-and-editmode-properties-example-vb.md)
 
-  - [Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState properties example](description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vb.md)
+  - [Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState Properties Example](description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vb.md)
 
   - [EOS and LineSeparator Properties, SkipLine Method Example](eos-and-lineseparator-properties-and-skipline-method-example-vb.md)
 
-  - [Filter and RecordCount properties example](filter-and-recordcount-properties-example-vb.md)
+  - [Filter and RecordCount Properties Example](filter-and-recordcount-properties-example-vb.md)
 
-  - [IsolationLevel and Mode properties example](isolationlevel-and-mode-properties-example-vb.md)
+  - [IsolationLevel and Mode Properties Example](isolationlevel-and-mode-properties-example-vb.md)
 
-  - [Item property example](item-property-example-vb.md)
+  - [Item Property Example](item-property-example-vb.md)
 
-  - [MarshalOptions property example](marshaloptions-property-example-vb.md)
+  - [MarshalOptions Property Example](marshaloptions-property-example-vb.md)
 
-  - [MaxRecords property example](maxrecords-property-example-vb.md)
+  - [MaxRecords Property Example](maxrecords-property-example-vb.md)
 
-  - [NumericScale and Precision properties example](ado-numericscale-and-precision-properties-example-vb.md)
+  - [NumericScale and Precision Properties Example](ado-numericscale-and-precision-properties-example-vb.md)
 
-  - [Optimize property example](optimize-property-example-vb.md)
+  - [Optimize Property Example](optimize-property-example-vb.md)
 
-  - [OriginalValue and UnderlyingValue properties example](originalvalue-and-underlyingvalue-properties-example-vb.md)
+  - [OriginalValue and UnderlyingValue Properties Example](originalvalue-and-underlyingvalue-properties-example-vb.md)
 
-  - [Prepared property example](prepared-property-example-vb.md)
+  - [Prepared Property Example](prepared-property-example-vb.md)
 
-  - [Provider and DefaultDatabase properties example](provider-and-defaultdatabase-properties-example-vb.md)
+  - [Provider and DefaultDatabase Properties Example](provider-and-defaultdatabase-properties-example-vb.md)
 
-  - [Sort property example](sort-property-example-vb.md)
+  - [Sort Property Example](sort-property-example-vb.md)
 
-  - [Source property example](source-property-example-vb.md)
+  - [Source Property Example](source-property-example-vb.md)
 
-  - [State property example](state-property-example-vb.md)
+  - [State Property Example](state-property-example-vb.md)
 
-  - [Status property example](status-property-example-recordset-vb.md)
+  - [Status Property Example](status-property-example-recordset-vb.md)
 
-  - [StayInSync property example](stayinsync-property-example-vb.md)
+  - [StayInSync Property Example](stayinsync-property-example-vb.md)
 
-  - [Type property example (Field)](type-property-example-field-vb.md)
+  - [Type Property Example (Field)](type-property-example-field-vb.md)
 
-  - [Type property example (Property)](type-property-example-property-vb.md)
+  - [Type Property Example (Property)](type-property-example-property-vb.md)
 
-  - [Value property example](value-property-example-vb.md)
+  - [Value Property Example](value-property-example-vb.md)
 
-  - [Version property example](version-property-example-vb.md)
+  - [Version Property Example](version-property-example-vb.md)
 

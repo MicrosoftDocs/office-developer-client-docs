@@ -66,7 +66,7 @@ Opens a specified database in a **[Workspace](workspace-object-dao.md)** object 
 </table>
 
 
-### Return value
+### Return Value
 
 Database
 

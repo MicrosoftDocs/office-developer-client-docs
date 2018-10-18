@@ -1,6 +1,6 @@
 ﻿---
-title: MaxRecords property example (VC++)
-TOCTitle: MaxRecords property example (VC++)
+title: MaxRecords Property Example (VC++)
+TOCTitle: MaxRecords Property Example (VC++)
 ms:assetid: 007936cf-a91c-c447-69f2-8286f3f868e6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248778(v=office.15)
 ms:contentKeyID: 48542910
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# MaxRecords property example (VC++)
+# MaxRecords Property Example (VC++)
 
 
 **Applies to**: Access 2013 | Office 2013

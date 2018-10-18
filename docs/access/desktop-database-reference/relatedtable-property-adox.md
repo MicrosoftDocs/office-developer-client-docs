@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 Indicates the name of the related table.
 
-## Settings and return values
+## Settings and Return Values
 
 Sets and returns a **String** value.
 

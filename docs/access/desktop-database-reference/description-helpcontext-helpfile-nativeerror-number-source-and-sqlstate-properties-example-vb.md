@@ -1,6 +1,6 @@
 ﻿---
-title: Description, HelpContext, HelpFile properties example (VB)
-TOCTitle: Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState properties example (VB)
+title: Description, HelpContext, HelpFile Properties Example (VB)
+TOCTitle: Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState Properties Example (VB)
 ms:assetid: 3c129aec-cd69-5822-4dad-ebef226538e1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249156(v=office.15)
 ms:contentKeyID: 48544304
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState properties example (VB)
+# Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState Properties Example (VB)
 
 
 **Applies to**: Access 2013 | Office 2013

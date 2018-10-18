@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 Indicates the source for the data in the cellset.
 
-## Settings and return values
+## Settings and Return Values
 
 Sets or returns a **Variant**, and is read/write for closed [Cellset](cellset-object-ado-md.md) objects and read-only for open **Cellset** objects. The **Variant** should contain a valid **String**, for example, an MDX query.
 

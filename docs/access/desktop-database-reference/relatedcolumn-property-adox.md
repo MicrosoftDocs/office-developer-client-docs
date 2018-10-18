@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 Indicates the name of the related column in the related table (key columns only).
 
-## Settings and return values
+## Settings and Return Values
 
 Sets and returns a **String** value that is the name of the related column in the related table.
 

@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 Specifies whether the [UpdateBatch](updatebatch-method-ado.md) method is followed by an implicit [Resync](resync-method-ado.md) method operation, and if so, the scope of that operation.
 
-## Settings and return values
+## Settings and Return Values
 
 Sets or returns one or more of the [ADCPROP\_UPDATERESYNC\_ENUM](adcprop-updateresync-enum.md) values.
 

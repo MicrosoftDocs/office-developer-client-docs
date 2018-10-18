@@ -1,14 +1,15 @@
 ﻿---
-title: ActiveCommand property example (JScript)
-TOCTitle: ActiveCommand property example (JScript)
+title: ActiveCommand Property Example (JScript)
+TOCTitle: ActiveCommand Property Example (JScript)
 ms:assetid: ae67b69c-23d9-8c88-763a-a9a63499be32
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249824(v=office.15)
 ms:contentKeyID: 48547070
-ms.date: 10/17/2018
+ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ActiveCommand property example (JScript)
+# ActiveCommand Property Example (JScript)
+
 
 **Applies to**: Access 2013 | Office 2013
 
@@ -28,7 +29,7 @@ This example demonstrates the [ActiveCommand](activecommand-property-ado.md) pro
 <html> 
  
 <head> 
-<title>ActiveCommand property example (JScript)</title> 
+<title>ActiveCommand Property Example (JScript)</title> 
 <style> 
 <!-- 
 BODY { 
@@ -42,7 +43,7 @@ BODY {
  
 <body bgcolor="White"> 
  
-<h1>ActiveCommand property example (JScript)</h1> 
+<h1>ActiveCommand Property Example (JScript)</h1> 
  
 <% 
 if (strName.length > 0) 

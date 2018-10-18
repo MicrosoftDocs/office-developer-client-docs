@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 Indicates the current state of the cellset.
 
-## Return values
+## Return Values
 
 Returns a **Long** integer indicating the current condition of the [Cellset](cellset-object-ado-md.md) object and is read-only. The following values are valid: **adStateClosed** (0) and **adStateOpen** (1).
 

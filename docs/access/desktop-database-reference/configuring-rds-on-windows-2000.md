@@ -29,7 +29,7 @@ If you experience difficulties getting RDS to function properly after upgrading 
 
 4.  Using the RegEdit utility, navigate in the registry to "HKEY\_LOCAL\_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\W3SVC\\Parameters\\ADCLaunch" and verify that there is a key called **RDSServer.Datafactory**. If not, create it.
 
-5.  Using Internet Services Manager, go to the default website and view the properties of the MSADC virtual root. Inspect the Directory Security/IP Address and Domain Name Restrictions. If the "Access is Denied" is checked then select "Granted".
+5.  Using Internet Services Manager, go to the Default Web Site and view the properties of the MSADC virtual root. Inspect the Directory Security/IP Address and Domain Name Restrictions. If the "Access is Denied" is checked then select "Granted".
 
 Be sure to try rebooting the server if the changes to do not appear to solve the problem at first.
 

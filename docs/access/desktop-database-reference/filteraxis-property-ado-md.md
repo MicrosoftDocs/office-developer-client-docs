@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 Indicates filter information about the current cellset.
 
-## Return values
+## Return Values
 
 Returns an [Axis](axis-object-ado-md.md) object, and is read-only.
 

@@ -1,14 +1,14 @@
 ﻿---
-title: ActualSize and DefinedSize properties example (VC++)
-TOCTitle: ActualSize and DefinedSize properties example (VC++)
+title: ActualSize and DefinedSize Properties Example (VC++)
+TOCTitle: ActualSize and DefinedSize Properties Example (VC++)
 ms:assetid: 90b7a53f-c9b1-f3c1-f769-e6a340c90eba
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249638(v=office.15)
 ms:contentKeyID: 48546328
-ms.date: 10/16/2018
+ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ActualSize and DefinedSize properties example (VC++)
+# ActualSize and DefinedSize Properties Example (VC++)
 
 
 **Applies to**: Access 2013 | Office 2013
