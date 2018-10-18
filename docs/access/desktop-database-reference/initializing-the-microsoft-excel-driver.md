@@ -17,9 +17,9 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-When you install the Excel driver, the Setup program writes a set of default values to the Windows Registry in the Engines and ISAM Formats subkeys. You should not modify these settings directly; use the setup program for your application to add, remove, or change these settings. The following sections describe initialization and ISAM Format settings for the Microsoft Excel database driver.
+When you install the Microsoft® Excel driver, the Setup program writes a set of default values to the Microsoft Windows® Registry in the Engines and ISAM Formats subkeys. You should not modify these settings directly; use the setup program for your application to add, remove, or change these settings. The following sections describe initialization and ISAM Format settings for the Microsoft Excel database driver.
 
-## Excel Initialization Settings
+## Microsoft Excel Initialization Settings
 
 The **Access Connectivity Engine\\Engines\\Excel** folder includes initialization settings for the Aceexcl.dll driver, used for external access to Microsoft Excel worksheets. Typical settings for the entries in this folder are shown in the following example.
 
@@ -142,6 +142,4 @@ The **Access Connectivity Engine\\Engines\\Excel 8.0** folder contains the follo
 > [!NOTE]
 > When you change Windows Registry settings, you must exit and then restart the database engine for the new settings to take effect.
 
-## See also
 
-[Using the TypeGuessRows setting for Excel Driver](https://support.office.com/en-us/article/using-the-typeguessrows-setting-for-excel-driver-6aa3e101-2a90-47ac-bf0f-7d4109a5708b?ui=en-US&rs=en-US&ad=US)
