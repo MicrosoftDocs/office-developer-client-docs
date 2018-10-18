@@ -4,7 +4,7 @@ TOCTitle: ALTER TABLE statement (Microsoft Access SQL)
 ms:assetid: 78e6c92c-e88c-e55f-6b89-435360c166a6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196148(v=office.15)
 ms:contentKeyID: 48545763
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 f1_keywords:
 - jetsql40.chm5277560
@@ -16,18 +16,12 @@ f1_categories:
 
 # ALTER TABLE statement (Microsoft Access SQL)
 
-
 **Applies to**: Access 2013 | Office 2013
-
-
 
 Modifies the design of a table after it has been created with the [CREATE TABLE](create-table-statement-microsoft-access-sql.md) statement.
 
-
 > [!NOTE]
-> The Microsoft Access database engine does not support the use of ALTER TABLE, or any of the data definition language (DDL) statements, with non-Microsoft Access databases. Use the DAO Create methods instead.
-
-
+> The Microsoft Access database engine does not support the use of ALTER TABLE, or any of the data definition language (DDL) statements, with non-Microsoft Access databases. Use the **DAO Create** methods instead.
 
 ## Syntax
 
@@ -65,11 +59,11 @@ The ALTER TABLE statement has these parts:
 </tr>
 <tr class="odd">
 <td><p><em>index</em></p></td>
-<td><p>The index for <em>field</em>. For more information on how to construct this index see <a href="constraint-clause-microsoft-access-sql.md">CONSTRAINT Clause</a>.</p></td>
+<td><p>The index for <em>field</em>. For more information about how to construct this index, see <a href="constraint-clause-microsoft-access-sql.md">CONSTRAINT clause</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>multifieldindex</em></p></td>
-<td><p>The definition of a multiple-field index to be added to <em>table</em>. For more information on how to construct this index see <a href="constraint-clause-microsoft-access-sql.md">CONSTRAINT Clause</a>.</p></td>
+<td><p>The definition of a multiple-field index to be added to <em>table</em>. For more information about how to construct this index, see <a href="constraint-clause-microsoft-access-sql.md">CONSTRAINT clause</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>indexname</em></p></td>
@@ -81,37 +75,35 @@ The ALTER TABLE statement has these parts:
 
 ## Remarks
 
-Using the ALTER TABLE statement you can alter an existing table in several ways. You can:
+By using the ALTER TABLE statement, you can alter an existing table in several ways. You can:
 
-  - Use ADD COLUMN to add a new field to the table. You specify the field name, data type, and (for Text and Binary fields) an optional size. For example, the following statement adds a 25-character Text field called Notes to the Employees table:
+- Use ADD COLUMN to add a new field to the table. You specify the field name, data type, and (for Text and Binary fields) an optional size. For example, the following statement adds a 25-character Text field called Notes to the Employees table:
     
-    ```sql
+  ```sql
     ALTER TABLE Employees ADD COLUMN Notes TEXT(25)
-    ```
+  ```
     
-    You can also define an index on that field. For more information on single-field indexes see [CONSTRAINT Clause](constraint-clause-microsoft-access-sql.md).
+  You can also define an index on that field. For more information about single-field indexes, see [CONSTRAINT clause](constraint-clause-microsoft-access-sql.md).
     
-    If you specify NOT NULL for a field then new records are required to have valid data in that field.
+  If you specify NOT NULL for a field, new records are required to have valid data in that field.
 
-  - Use ALTER COLUMN to change the data type of an existing field. You specify the field name, the new data type, and an optional size for Text and Binary fields. For example, the following statement changes the data type of a field in the Employees table called ZipCode (originally defined as Integer) to a 10-character Text field:
+- Use ALTER COLUMN to change the data type of an existing field. You specify the field name, the new data type, and an optional size for Text and Binary fields. For example, the following statement changes the data type of a field in the Employees table called ZipCode (originally defined as Integer) to a 10-character Text field:
     
-    ```sql
+  ```sql
     ALTER TABLE Employees ALTER COLUMN ZipCode TEXT(10)
-    ```
+  ```
 
-  - Use ADD CONSTRAINT to add a multiple-field index. For more information on multiple-field indexes see [CONSTRAINT Clause](constraint-clause-microsoft-access-sql.md).
+- Use ADD CONSTRAINT to add a multiple-field index. For more information about multiple-field indexes, see [CONSTRAINT clause](constraint-clause-microsoft-access-sql.md).
 
-  - Use DROP COLUMN to delete a field. You specify only the name of the field.
+- Use DROP COLUMN to delete a field. You specify only the name of the field.
 
-  - Use DROP CONSTRAINT to delete a multiple-field index. You specify only the index name following the CONSTRAINT reserved word.
+- Use DROP CONSTRAINT to delete a multiple-field index. You specify only the index name following the CONSTRAINT reserved word.
 
 
 > [!NOTE] 
 > - You cannot add or delete more than one field or index at a time.
 > - You can use the [CREATE INDEX](create-index-statement-microsoft-access-sql.md) statement to add a single- or multiple-field index to a table, and you can use ALTER TABLE or the [DROP](drop-statement-microsoft-access-sql.md) statement to delete an index created with ALTER TABLE or CREATE INDEX.
 > - You can use NOT NULL on a single field or within a named CONSTRAINT clause that applies to either a single field or to a multiple-field named CONSTRAINT. However, you can apply the NOT NULL restriction only once to a field. Attempting to apply this restriction more than once restuls in a run-time error.
-
-
 
 ## Example
 

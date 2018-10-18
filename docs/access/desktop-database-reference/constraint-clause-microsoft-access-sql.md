@@ -1,10 +1,10 @@
 ﻿---
-title: CONSTRAINT Clause (Microsoft Access SQL)
-TOCTitle: CONSTRAINT Clause (Microsoft Access SQL)
+title: CONSTRAINT clause (Microsoft Access SQL)
+TOCTitle: CONSTRAINT clause (Microsoft Access SQL)
 ms:assetid: f8e89a91-a69e-1811-42a7-921692110bcb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836971(v=office.15)
 ms:contentKeyID: 48548797
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 f1_keywords:
 - jetsql40.chm5277561
@@ -14,7 +14,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# CONSTRAINT Clause (Microsoft Access SQL)
+# CONSTRAINT clause (Microsoft Access SQL)
 
 **Applies to**: Access 2013 | Office 2013
 
@@ -22,17 +22,16 @@ A constraint is similar to an index, although it can also be used to establish a
 
 You use the CONSTRAINT clause in [ALTER TABLE](alter-table-statement-microsoft-access-sql.md) and [CREATE TABLE](create-table-statement-microsoft-access-sql.md) statements to create or delete constraints. There are two types of CONSTRAINT clauses: one for creating a constraint on a single field and one for creating a constraint on more than one field.
 
-
 > [!NOTE]
-> The Microsoft Access database engine does not support the use of CONSTRAINT, or any of the data definition language (DDL) statements, with non-Microsoft Access database engine databases. Use the DAO Create methods instead.
+> The Microsoft Access database engine does not support the use of CONSTRAINT, or any of the data definition language (DDL) statements, with non-Microsoft Access database engine databases. Use the DAO **Create** methods instead.
 
 ## Syntax
 
-Single-field constraint:
+**Single-field constraint**:
 
 CONSTRAINT *name* {PRIMARY KEY | UNIQUE | NOT NULL | REFERENCES *foreigntable* \[(*foreignfield1, foreignfield2*)\] \[ON UPDATE CASCADE | SET NULL\] \[ON DELETE CASCADE | SET NULL\]}
 
-Multiple-field constraint:
+**Multiple-field constraint**:
 
 CONSTRAINT *name* {PRIMARY KEY (*primary1*\[, *primary2* \[, …\]\]) | UNIQUE (*unique1*\[, *unique2* \[, …\]\]) | NOT NULL (*notnull1*\[, *notnull2* \[, …\]\]) | FOREIGN KEY \[NO INDEX\] (*ref1*\[, *ref2* \[, …\]\]) REFERENCES *foreigntable* \[(*foreignfield1* \[, *foreignfield2* \[, …\]\])\] \[ON UPDATE CASCADE | SET NULL\] \[ON DELETE CASCADE | SET NULL\]}
 

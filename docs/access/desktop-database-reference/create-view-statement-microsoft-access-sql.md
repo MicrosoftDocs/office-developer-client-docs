@@ -4,22 +4,18 @@ TOCTitle: CREATE VIEW statement (Microsoft Access SQL)
 ms:assetid: ecaabd75-3081-fd35-830d-5a59b0a51922
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836312(v=office.15)
 ms:contentKeyID: 48548519
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
 # CREATE VIEW statement (Microsoft Access SQL)
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Creates a new view.
 
-
 > [!NOTE]
 > The Microsoft Access database engine does not support the use of CREATE VIEW, or any of the DDL statements, with non-Microsoft Access database engine databases.
-
-
 
 ## Syntax
 
@@ -49,7 +45,7 @@ The CREATE VIEW statement has these parts:
 </tr>
 <tr class="odd">
 <td><p><em>selectstatement</em></p></td>
-<td><p>A SQL SELECT statement. For more information, see <a href="select-statement-microsoft-access-sql.md">SELECT Statement</a>.</p></td>
+<td><p>A SQL SELECT statement. For more information, see <a href="select-statement-microsoft-access-sql.md">SELECT statement</a>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -63,7 +59,7 @@ The SELECT statement that defines the view cannot contain any parameters.
 
 The name of the view cannot be the same as the name of an existing table.
 
-If the query defined by the SELECT statement is updatable, then the view is also updatable. Otherwise, the view is read-only.
+If the query defined by the SELECT statement is updatable, the view is also updatable. Otherwise, the view is read-only.
 
 If any two fields in the query defined by the SELECT statement have the same name, the view definition must include a field list specifying unique names for each of the fields in the query.
 

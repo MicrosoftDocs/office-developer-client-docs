@@ -4,7 +4,7 @@ TOCTitle: UPDATE statement (Microsoft Access SQL)
 ms:assetid: 08f9c3d6-c020-ecf1-5748-43b93a76dfbb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845036(v=office.15)
 ms:contentKeyID: 48543111
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 f1_keywords:
 - jetsql40.chm5277583
@@ -15,7 +15,6 @@ f1_categories:
 ---
 
 # UPDATE statement (Microsoft Access SQL)
-
 
 **Applies to**: Access 2013 | Office 2013
 
@@ -70,11 +69,8 @@ WHERE ShipCountry = 'UK';
 
 
 > [!IMPORTANT]
-> <UL>
-> <LI>
-> <P>UPDATE does not generate a result set. Also, after you update records using an update query, you cannot undo the operation. If you want to know which records were updated, first examine the results of a select query that uses the same criteria, and then run the update query.</P>
-> <LI>
-> <P>Maintain backup copies of your data at all times. If you update the wrong records, you can retrieve them from your backup copies.</P></LI></UL>
+- UPDATE does not generate a result set. Also, after you update records using an update query, you cannot undo the operation. If you want to know which records were updated, first examine the results of a select query that uses the same criteria, and then run the update query.
+- Maintain backup copies of your data at all times. If you update the wrong records, you can retrieve them from your backup copies.
 
 
 

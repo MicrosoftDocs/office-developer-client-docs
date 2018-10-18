@@ -4,7 +4,7 @@ TOCTitle: GRANT statement (Microsoft Access SQL)
 ms:assetid: 50ae97ae-d5be-57e5-d9da-f3fc42f01d83
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193820(v=office.15)
 ms:contentKeyID: 48544800
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 f1_keywords:
 - jetsql40.chm5277478
@@ -13,7 +13,6 @@ f1_categories:
 ---
 
 # GRANT statement (Microsoft Access SQL)
-
 
 **Applies to**: Access 2013 | Office 2013
 
@@ -41,7 +40,7 @@ The GRANT statement has these parts:
 <tbody>
 <tr class="odd">
 <td><p><em>privilege</em></p></td>
-<td><p>The privilege or privileges to be granted. Privileges are specified using the following keywords: SELECT, DELETE, INSERT, UPDATE, DROP, SELECTSECURITY, UPDATESECURITY, DBPASSWORD, UPDATEIDENTITY, CREATE, SELECTSCHEMA, SCHEMA and UPDATEOWNER.</p></td>
+<td><p>The privilege or privileges to be granted. Privileges are specified using the following keywords: SELECT, DELETE, INSERT, UPDATE, DROP, SELECTSECURITY, UPDATESECURITY, DBPASSWORD, UPDATEIDENTITY, CREATE, SELECTSCHEMA, SCHEMA, and UPDATEOWNER.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>tablename</em></p></td>

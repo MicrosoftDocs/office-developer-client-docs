@@ -4,12 +4,11 @@ TOCTitle: ALTER USER or DATABASE statement (Microsoft Access SQL)
 ms:assetid: 86ccd296-5171-97e7-683f-cdaab4bde9ab
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197012(v=office.15)
 ms:contentKeyID: 48546093
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
 # ALTER USER or DATABASE statement (Microsoft Access SQL)
-
 
 **Applies to**: Access 2013 | Office 2013
 
