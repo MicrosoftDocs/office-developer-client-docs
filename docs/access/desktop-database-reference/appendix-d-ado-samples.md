@@ -17,7 +17,7 @@ The Windows SDK contains several sample applications that demonstrate the use of
 
 
 > [!NOTE]
-> <P>Companies, names, and data used in samples are fictitious unless otherwise noted.</P>
+> Companies, names, and data used in samples are fictitious unless otherwise noted.
 
 
 
@@ -25,15 +25,15 @@ To find the ADO samples, navigate to your Windows SDK root folder, such as C:\\P
 
 The ADO documentation also contains code examples in multiple languages, which are included as topics within this online help. For more information about these examples, see [ADO Code Examples](ado-code-examples.md).
 
-## ADO Code Examples
+## ADO code examples
 
-  - [ADO Code Examples in Microsoft Visual Basic](ado-code-examples-in-microsoft-visual-basic.md)
+  - [ADO code examples in Microsoft Visual Basic](ado-code-examples-in-microsoft-visual-basic.md)
 
-  - [ADO Code Examples in Microsoft Visual Basic Scripting Edition](ado-code-examples-in-microsoft-visual-basic-scripting-edition.md)
+  - [ADO code examples in Microsoft Visual Basic Scripting Edition](ado-code-examples-in-microsoft-visual-basic-scripting-edition.md)
 
-  - [ADO Code Examples in Microsoft Visual C++](ado-code-examples-in-microsoft-visual-c.md)
+  - [ADO code examples in Microsoft Visual C++](ado-code-examples-in-microsoft-visual-c.md)
 
-  - [ADO Code Examples in Microsoft Visual J++](ado-code-examples-in-microsoft-visual-j.md)
+  - [ADO code examples in Microsoft Visual J++](ado-code-examples-in-microsoft-visual-j.md)
 
-  - [ADO Code Examples in Microsoft JScript](ado-code-examples-in-microsoft-jscript.md)
+  - [ADO code examples in Microsoft JScript](ado-code-examples-in-microsoft-jscript.md)
 

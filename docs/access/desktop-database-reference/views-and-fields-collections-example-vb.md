@@ -1,6 +1,6 @@
 ﻿---
-title: Views and Fields Collections Example (VB)
-TOCTitle: Views and Fields Collections Example (VB)
+title: Views and Fields Collections example (VB)
+TOCTitle: Views and Fields Collections example (VB)
 ms:assetid: 7c166bea-d6a3-0a9d-5220-af72996a76fd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249518(v=office.15)
 ms:contentKeyID: 48545828
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Views and Fields Collections Example (VB)
+# Views and Fields Collections example (VB)
 
 
 **Applies to**: Access 2013 | Office 2013

@@ -1,6 +1,6 @@
 ﻿---
-title: MoveFirst, MoveLast, MoveNext, and MovePrevious Methods Example (VB)
-TOCTitle: MoveFirst, MoveLast, MoveNext, and MovePrevious Methods Example (VB)
+title: MoveFirst, MoveLast, MoveNext, and MovePrevious methods example (VB)
+TOCTitle: MoveFirst, MoveLast, MoveNext, and MovePrevious methods example (VB)
 ms:assetid: 61f82932-2ce9-341f-b120-168f786a9040
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249364(v=office.15)
 ms:contentKeyID: 48545226
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# MoveFirst, MoveLast, MoveNext, and MovePrevious Methods Example (VB)
+# MoveFirst, MoveLast, MoveNext, and MovePrevious methods example (VB)
 
 
 **Applies to**: Access 2013 | Office 2013

@@ -1,6 +1,6 @@
 ﻿---
-title: ALTER TABLE Statement (Microsoft Access SQL)
-TOCTitle: ALTER TABLE Statement (Microsoft Access SQL)
+title: ALTER TABLE statement (Microsoft Access SQL)
+TOCTitle: ALTER TABLE statement (Microsoft Access SQL)
 ms:assetid: 78e6c92c-e88c-e55f-6b89-435360c166a6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196148(v=office.15)
 ms:contentKeyID: 48545763
@@ -14,7 +14,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# ALTER TABLE Statement (Microsoft Access SQL)
+# ALTER TABLE statement (Microsoft Access SQL)
 
 
 **Applies to**: Access 2013 | Office 2013
@@ -106,14 +106,10 @@ Using the ALTER TABLE statement you can alter an existing table in several ways.
   - Use DROP CONSTRAINT to delete a multiple-field index. You specify only the index name following the CONSTRAINT reserved word.
 
 
-> [!NOTE]
-> <UL>
-> <LI>
-> <P>You cannot add or delete more than one field or index at a time.</P>
-> <LI>
-> <P>You can use the <A href="create-index-statement-microsoft-access-sql.md">CREATE INDEX</A> statement to add a single- or multiple-field index to a table, and you can use ALTER TABLE or the <A href="drop-statement-microsoft-access-sql.md">DROP</A> statement to delete an index created with ALTER TABLE or CREATE INDEX.</P>
-> <LI>
-> <P>You can use NOT NULL on a single field or within a named CONSTRAINT clause that applies to either a single field or to a multiple-field named CONSTRAINT. However, you can apply the NOT NULL restriction only once to a field. Attempting to apply this restriction more than once restuls in a run-time error.</P></LI></UL>
+> [!NOTE] 
+> - You cannot add or delete more than one field or index at a time.
+> - You can use the [CREATE INDEX](create-index-statement-microsoft-access-sql.md) statement to add a single- or multiple-field index to a table, and you can use ALTER TABLE or the [DROP](drop-statement-microsoft-access-sql.md) statement to delete an index created with ALTER TABLE or CREATE INDEX.
+> - You can use NOT NULL on a single field or within a named CONSTRAINT clause that applies to either a single field or to a multiple-field named CONSTRAINT. However, you can apply the NOT NULL restriction only once to a field. Attempting to apply this restriction more than once restuls in a run-time error.
 
 
 

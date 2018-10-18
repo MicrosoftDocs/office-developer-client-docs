@@ -4,16 +4,17 @@ TOCTitle: PositionEnum
 ms:assetid: 2a6f294b-74f2-b951-e32a-79ff5e782204
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249054(v=office.15)
 ms:contentKeyID: 48543907
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
 # PositionEnum
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Specifies the current position of the record pointer within a [Recordset](recordset-object-ado.md).
+
+<br/>
 
 <table>
 <colgroup>
@@ -48,7 +49,7 @@ Specifies the current position of the record pointer within a [Recordset](record
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 Package: **com.ms.wfc.data**
 

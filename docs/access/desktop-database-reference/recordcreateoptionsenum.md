@@ -63,7 +63,7 @@ Specifies whether an existing **Record** should be opened or a new **Record** cr
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 These constants do not have ADO/WFC equivalents.
 

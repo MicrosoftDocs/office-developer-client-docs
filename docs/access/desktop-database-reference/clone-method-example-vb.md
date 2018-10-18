@@ -1,6 +1,6 @@
 ﻿---
-title: Clone Method Example (VB)
-TOCTitle: Clone Method Example (VB)
+title: Clone method example (VB)
+TOCTitle: Clone method example (VB)
 ms:assetid: 5c589dba-6b2a-0af0-7ad6-807ece5417ff
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249324(v=office.15)
 ms:contentKeyID: 48545085
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Clone Method Example (VB)
+# Clone method example (VB)
 
 
 **Applies to**: Access 2013 | Office 2013

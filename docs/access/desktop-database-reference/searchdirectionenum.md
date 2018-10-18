@@ -43,7 +43,7 @@ Specifies the direction of a record search within a [Recordset](recordset-object
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 Package: **com.ms.wfc.data**
 

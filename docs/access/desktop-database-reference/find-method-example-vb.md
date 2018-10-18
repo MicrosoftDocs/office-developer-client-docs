@@ -1,6 +1,6 @@
 ﻿---
-title: Find Method Example (VB)
-TOCTitle: Find Method Example (VB)
+title: Find method example (VB)
+TOCTitle: Find method example (VB)
 ms:assetid: 93fa7cab-e66d-7d9c-22bb-d73b44982649
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249657(v=office.15)
 ms:contentKeyID: 48546408
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Find Method Example (VB)
+# Find method example (VB)
 
 
 **Applies to**: Access 2013 | Office 2013

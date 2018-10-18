@@ -1,6 +1,6 @@
 ﻿---
-title: GRANT Statement (Microsoft Access SQL)
-TOCTitle: GRANT Statement (Microsoft Access SQL)
+title: GRANT statement (Microsoft Access SQL)
+TOCTitle: GRANT statement (Microsoft Access SQL)
 ms:assetid: 50ae97ae-d5be-57e5-d9da-f3fc42f01d83
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193820(v=office.15)
 ms:contentKeyID: 48544800
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# GRANT Statement (Microsoft Access SQL)
+# GRANT statement (Microsoft Access SQL)
 
 
 **Applies to**: Access 2013 | Office 2013

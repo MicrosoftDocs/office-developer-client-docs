@@ -84,9 +84,7 @@ The error message includes each piece of information provided by the Visual Basi
 
 
 > [!NOTE]
-> <P>The Visual Basic <STRONG>Err</STRONG> object only contains information about the most recent error. The ADO <STRONG>Errors</STRONG> collection of the <STRONG>Connection</STRONG> object contains one <STRONG>Error</STRONG> object for each error raised by the most recent ADO operation. Use the <STRONG>Errors</STRONG> collection rather than the <STRONG>Err</STRONG> object to handle multiple errors. For more information about the <STRONG>Errors</STRONG> collection, see <A href="provider-errors.md">Provider Errors</A>. However, if there is no valid <STRONG>Connection</STRONG> object, the <STRONG>Err</STRONG> object is the only source for information about ADO errors.</P>
-
-
+> The Visual Basic **Err** object only contains information about the most recent error. The ADO **Errors** collection of the **Connection** object contains one **Error** object for each error raised by the most recent ADO operation. Use the **Errors** collection rather than the **Err** object to handle multiple errors. For more information about the **Errors** collection, see <A href="provider-errors.md">Provider Errors</A>. However, if there is no valid **Connection** object, the **Err** object is the only source for information about ADO errors.
 
 What kinds of operations are likely to cause ADO errors? Common ADO errors can involve opening an object such as a **Connection** or **Recordset**, attempting to update data, or calling a method or property that is not supported by your provider.
 

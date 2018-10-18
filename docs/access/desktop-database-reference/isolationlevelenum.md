@@ -4,16 +4,17 @@ TOCTitle: IsolationLevelEnum
 ms:assetid: 438af3f3-65ed-237d-94d8-f3aff6addd3b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249204(v=office.15)
 ms:contentKeyID: 48544506
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
 # IsolationLevelEnum
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Specifies the level of transaction isolation for a [Connection](connection-object-ado.md) object.
+
+<br/>
 
 <table>
 <colgroup>
@@ -78,7 +79,7 @@ Specifies the level of transaction isolation for a [Connection](connection-objec
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 Package: **com.ms.wfc.data**
 

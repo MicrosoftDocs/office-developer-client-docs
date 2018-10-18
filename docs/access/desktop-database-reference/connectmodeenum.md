@@ -4,16 +4,17 @@ TOCTitle: ConnectModeEnum
 ms:assetid: a15aa733-f899-5fe9-e705-67a4301706d1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249743(v=office.15)
 ms:contentKeyID: 48546728
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
 # ConnectModeEnum
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Specifies the available permissions for modifying data in a [Connection](connection-object-ado.md), opening a [Record](record-object-ado.md), or specifying values for the [Mode](mode-property-ado.md) property of the **Record** and [Stream](stream-object-ado.md) objects.
+
+<br/>
 
 <table>
 <colgroup>
@@ -42,7 +43,7 @@ Specifies the available permissions for modifying data in a [Connection](connect
 <tr class="odd">
 <td><p><strong>adModeRecursive</strong></p></td>
 <td><p>0x400000</p></td>
-<td><p>Used in conjunction with the other <em>*ShareDeny*</em> values (<strong>adModeShareDenyNone</strong>, <strong>adModeShareDenyWrite</strong>, or <strong>adModeShareDenyRead</strong>) to propagate sharing restrictions to all sub-records of the current <strong>Record</strong>. It has no affect if the <strong>Record</strong> does not have any children. A run-time error is generated if it is used with <strong>adModeShareDenyNone</strong> only. However, it can be used with <strong>adModeShareDenyNone</strong> when combined with other values. For example, you can use &quot;<strong>adModeRead</strong> Or <strong>adModeShareDenyNone</strong> Or <strong>adModeRecursive</strong>&quot;.</p></td>
+<td><p>Used in conjunction with the other <em>*ShareDeny*</em> values (<strong>adModeShareDenyNone</strong>, <strong>adModeShareDenyWrite</strong>, or <strong>adModeShareDenyRead</strong>) to propagate sharing restrictions to all sub-records of the current <strong>Record</strong>. It has no affect if the <strong>Record</strong> does not have any children.</p><p>A run-time error is generated if it is used with <strong>adModeShareDenyNone</strong> only. However, it can be used with <strong>adModeShareDenyNone</strong> when combined with other values. For example, you can use &quot;<strong>adModeRead</strong> or <strong>adModeShareDenyNone</strong> or <strong>adModeRecursive</strong>&quot;.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adModeShareDenyNone</strong></p></td>
@@ -78,7 +79,7 @@ Specifies the available permissions for modifying data in a [Connection](connect
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 Package: **com.ms.wfc.data**
 

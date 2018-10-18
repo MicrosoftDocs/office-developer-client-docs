@@ -4,16 +4,17 @@ TOCTitle: RecordStatusEnum
 ms:assetid: 302915b8-494d-0be2-6dce-eaf91a0ea8ae
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249080(v=office.15)
 ms:contentKeyID: 48544022
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
 # RecordStatusEnum
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Specifies the status of a record with regard to batch updates and other bulk operations.
+
+<br/>
 
 <table>
 <colgroup>
@@ -123,7 +124,7 @@ Specifies the status of a record with regard to batch updates and other bulk ope
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 AdoEnums.RecordStatus.
 

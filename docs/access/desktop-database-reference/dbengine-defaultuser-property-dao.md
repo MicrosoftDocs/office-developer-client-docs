@@ -31,9 +31,7 @@ The setting for **DefaultUser** is a String data type. It can be 1–20 characte
 
 
 > [!NOTE]
-> <P>Use strong passwords that combine upper- and lowercase letters, numbers, and symbols. Weak passwords don't mix these elements. Strong password: Y6dh!et5. Weak password: House27. Use a strong password that you can remember so that you don't have to write it down.</P>
-
-
+> Use strong passwords that combine upper- and lowercase letters, numbers, and symbols. Weak passwords don't mix these elements. Strong password: Y6dh!et5. Weak password: House27. Use a strong password that you can remember so that you don't have to write it down.
 
 By default, the **DefaultUser** property is set to "admin" and the **DefaultPassword** property is set to a zero-length string ("").
 

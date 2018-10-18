@@ -1,6 +1,6 @@
 ﻿---
-title: GetRows Method Example (VC++)
-TOCTitle: GetRows Method Example (VC++)
+title: GetRows method example (VC++)
+TOCTitle: GetRows method example (VC++)
 ms:assetid: cfb28f6c-b2f0-2afb-f9ce-336f5a99104c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250034(v=office.15)
 ms:contentKeyID: 48547817
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# GetRows Method Example (VC++)
+# GetRows method example (VC++)
 
 
 **Applies to**: Access 2013 | Office 2013

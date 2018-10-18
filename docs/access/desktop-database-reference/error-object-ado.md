@@ -19,21 +19,18 @@ Contains details about data access errors that pertain to a single operation inv
 
 Any operation involving ADO objects can generate one or more provider errors. As each error occurs, one or more **Error** objects are placed in the [Errors](errors-collection-ado.md) collection of the [Connection](connection-object-ado.md) object. When another ADO operation generates an error, the **Errors** collection is cleared, and the new set of **Error** objects is placed in the **Errors** collection.
 
-
 > [!NOTE]
-> <P>Each <STRONG>Error</STRONG> object represents a specific provider error, not an ADO error. ADO errors are exposed to the run-time exception-handling mechanism. For example, in Microsoft Visual Basic, the occurrence of an ADO-specific error will trigger an <STRONG>On Error</STRONG> event and appear in the <STRONG>Error</STRONG> object. For a complete list of ADO errors, see the <A href="errorvalueenum.md">ErrorValueEnum</A> topic.</P>
-
-
+> Each **Error** object represents a specific provider error, not an ADO error. ADO errors are exposed to the run-time exception-handling mechanism. For example, in Microsoft Visual Basic, the occurrence of an ADO-specific error will trigger an **On Error** event and appear in the **Error** object. For a complete list of ADO errors, see the [ErrorValueEnum](errorvalueenum.md) topic.
 
 You can read an **Error** object's properties to obtain specific details about each error, including the following:
 
-  - The [Description](description-property-ado.md) property, which contains the text of the error. This is the default property.
+- The [Description](description-property-ado.md) property, which contains the text of the error. This is the default property.
 
-  - The [Number](number-property-ado.md) property, which contains the **Long** integer value of the error constant.
+- The [Number](number-property-ado.md) property, which contains the **Long** integer value of the error constant.
 
-  - The [Source](source-property-ado-error.md) property, which identifies the object that raised the error. This is particularly useful when you have several **Error** objects in the **Errors** collection following a request to a data source.
+- The [Source](source-property-ado-error.md) property, which identifies the object that raised the error. This is particularly useful when you have several **Error** objects in the **Errors** collection following a request to a data source.
 
-  - The [SQLState](sqlstate-property-ado.md) and [NativeError](nativeerror-property-ado.md) properties, which provide information from SQL data sources.
+- The [SQLState](sqlstate-property-ado.md) and [NativeError](nativeerror-property-ado.md) properties, which provide information from SQL data sources.
 
 When a provider error occurs, it is placed in the **Errors** collection of the **Connection** object. ADO supports the return of multiple errors by a single ADO operation to allow for error information specific to the provider. To obtain this rich error information in an error handler, use the appropriate error-trapping features of the language or environment you are working with, then use nested loops to enumerate the properties of each **Error** object in the **Errors** collection.
 

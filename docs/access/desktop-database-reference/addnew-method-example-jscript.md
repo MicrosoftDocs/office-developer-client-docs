@@ -1,6 +1,6 @@
 ﻿---
-title: AddNew Method Example (JScript)
-TOCTitle: AddNew Method Example (JScript)
+title: AddNew method example (JScript)
+TOCTitle: AddNew method example (JScript)
 ms:assetid: b6f7e98d-d34d-dc2a-bdcb-65452f3fe5e9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249882(v=office.15)
 ms:contentKeyID: 48547290
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# AddNew Method Example (JScript)
+# AddNew method example (JScript)
 
 **Applies to**: Access 2013 | Office 2013
 
@@ -24,7 +24,7 @@ This example uses the [AddNew](addnew-method-ado.md) method to create a new reco
 <html> 
  
 <head> 
- <title>Add New Method Example (JScript)</title> 
+ <title>Add New method example (JScript)</title> 
 <style> 
 <!-- 
 body { 
@@ -37,7 +37,7 @@ body {
 </head> 
  
 <body> 
-<h1>AddNew Method Example (JScript)</h1> 
+<h1>AddNew method example (JScript)</h1> 
  
 <% 
  if (Request.Form("Addit") == "AddNew") 

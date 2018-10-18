@@ -1,6 +1,6 @@
 ﻿---
-title: SELECT.INTO Statement (Microsoft Access SQL)
-TOCTitle: SELECT.INTO Statement (Microsoft Access SQL)
+title: SELECT.INTO statement (Microsoft Access SQL)
+TOCTitle: SELECT.INTO statement (Microsoft Access SQL)
 ms:assetid: 29f3bd55-52f5-a36e-4e33-4b3499c6ce8d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192059(v=office.15)
 ms:contentKeyID: 48543897
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# SELECT.INTO Statement (Microsoft Access SQL)
+# SELECT.INTO statement (Microsoft Access SQL)
 
 
 **Applies to**: Access 2013 | Office 2013

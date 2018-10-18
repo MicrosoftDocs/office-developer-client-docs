@@ -1,6 +1,6 @@
 ﻿---
-title: Views Append Method Example (VB)
-TOCTitle: Views Append Method Example (VB)
+title: Views Append method example (VB)
+TOCTitle: Views Append method example (VB)
 ms:assetid: 24536276-7da9-6ee8-2e27-39531b12b30f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249016(v=office.15)
 ms:contentKeyID: 48543752
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Views Append Method Example (VB)
+# Views Append method example (VB)
 
 
 **Applies to**: Access 2013 | Office 2013

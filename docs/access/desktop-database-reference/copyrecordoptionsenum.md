@@ -53,7 +53,7 @@ Specifies the behavior of the [CopyRecord](copyrecord-method-ado.md) method.
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 These constants do not have ADO/WFC equivalents.
 

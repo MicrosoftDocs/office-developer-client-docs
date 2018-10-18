@@ -58,7 +58,7 @@ Specifies the attributes of a [Property](property-object-ado.md) object.
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 Package: **com.ms.wfc.data**
 

@@ -1,6 +1,6 @@
 ﻿---
-title: SELECT Statement (Microsoft Access SQL)
-TOCTitle: SELECT Statement (Microsoft Access SQL)
+title: SELECT statement (Microsoft Access SQL)
+TOCTitle: SELECT statement (Microsoft Access SQL)
 ms:assetid: a5c9da94-5f9e-0fc0-767a-4117f38a5ef3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821148(v=office.15)
 ms:contentKeyID: 48546837
@@ -10,7 +10,7 @@ dev_langs:
 - sql
 ---
 
-# SELECT Statement (Microsoft Access SQL)
+# SELECT statement (Microsoft Access SQL)
 
 **Applies to:** Access 2013 | Office 2013
 

@@ -1,6 +1,6 @@
 ﻿---
-title: Append and CreateParameter Methods Example (VC++)
-TOCTitle: Append and CreateParameter Methods Example (VC++)
+title: Append and CreateParameter methods example (VC++)
+TOCTitle: Append and CreateParameter methods example (VC++)
 ms:assetid: d979bd89-2d17-e977-a222-11d3c24fd84d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250095(v=office.15)
 ms:contentKeyID: 48548052
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Append and CreateParameter Methods Example (VC++)
+# Append and CreateParameter methods example (VC++)
 
 
 **Applies to**: Access 2013 | Office 2013

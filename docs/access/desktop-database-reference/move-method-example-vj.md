@@ -1,6 +1,6 @@
 ﻿---
-title: Move Method Example (VJ++)
-TOCTitle: Move Method Example (VJ++)
+title: Move method example (VJ++)
+TOCTitle: Move method example (VJ++)
 ms:assetid: 819c02ff-a574-ca91-3ef1-ac90ed4f402f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249558(v=office.15)
 ms:contentKeyID: 48545956
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Move Method Example (VJ++)
+# Move method example (VJ++)
 
 
 **Applies to**: Access 2013 | Office 2013

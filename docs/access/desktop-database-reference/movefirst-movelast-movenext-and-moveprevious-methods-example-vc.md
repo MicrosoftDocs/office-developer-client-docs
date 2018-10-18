@@ -1,6 +1,6 @@
 ﻿---
-title: MoveFirst, MoveLast, MoveNext, and MovePrevious Methods Example (VC++)
-TOCTitle: MoveFirst, MoveLast, MoveNext, and MovePrevious Methods Example (VC++)
+title: MoveFirst, MoveLast, MoveNext, and MovePrevious methods example (VC++)
+TOCTitle: MoveFirst, MoveLast, MoveNext, and MovePrevious methods example (VC++)
 ms:assetid: c4abacfa-724a-dbfd-5bdd-0e34e45093d7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249962(v=office.15)
 ms:contentKeyID: 48547596
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# MoveFirst, MoveLast, MoveNext, and MovePrevious Methods Example (VC++)
+# MoveFirst, MoveLast, MoveNext, and MovePrevious methods example (VC++)
 
 
 **Applies to**: Access 2013 | Office 2013

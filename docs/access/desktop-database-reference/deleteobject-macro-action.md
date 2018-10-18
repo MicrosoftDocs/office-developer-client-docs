@@ -21,9 +21,7 @@ You can use the **DeleteObject** action to delete a specified database object.
 
 
 > [!NOTE]
-> <P>This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</P>
-
-
+> This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.
 
 ## Setting
 
@@ -55,7 +53,7 @@ The **DeleteObject** action has the following arguments.
 
 
 > [!WARNING]
-> <P>If you leave the <STRONG>Object Type</STRONG> and <STRONG>Object Name</STRONG> boxes blank, Access deletes the object selected in the Navigation Pane without displaying a warning message when it encounters the <STRONG>DeleteObject</STRONG> action.</P>
+> If you leave the **Object Type** and **Object Name** boxes blank, Access deletes the object selected in the Navigation Pane without displaying a warning message when it encounters the **DeleteObject** action.
 
 
 

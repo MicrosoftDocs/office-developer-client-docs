@@ -69,6 +69,6 @@ When you synchronize two replicas over the Internet, you must use the **dbRepSyn
 
 
 > [!NOTE]
-> <P>You can't synchronize partial replicas with other partial replicas. See the <STRONG><A href="database-populatepartial-method-dao.md">PopulatePartial</A></STRONG> method for more information.</P>
+> You can't synchronize partial replicas with other partial replicas. See the [PopulatePartial](database-populatepartial-method-dao.md) method for more information.
 
 

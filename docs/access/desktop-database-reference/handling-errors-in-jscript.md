@@ -21,10 +21,10 @@ Your Microsoft JScript code must check the **Count** property of the **Connectio
 <%@ Language=JScript %> 
 <HTML> 
 <HEAD> 
-<title>Error Handling Example (JScript)</title> 
+<title>Error Handling example (JScript)</title> 
 </HEAD> 
 <BODY> 
-<h1>Error Handling Example (JScript)</h1> 
+<h1>Error Handling example (JScript)</h1> 
 <% 
  var cnn1 = Server.CreateObject("ADODB.Connection"); 
  var errLoop = Server.CreateObject("ADODB.Error"); 

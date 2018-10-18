@@ -4,16 +4,17 @@ TOCTitle: FilterGroupEnum
 ms:assetid: 141f8f9a-c188-5937-91cc-3155eaebebd2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248912(v=office.15)
 ms:contentKeyID: 48543381
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
 # FilterGroupEnum
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Specifies the group of records to be filtered from a [Recordset](recordset-object-ado.md).
+
+<br/>
 
 <table>
 <colgroup>
@@ -58,7 +59,7 @@ Specifies the group of records to be filtered from a [Recordset](recordset-objec
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 Package: **com.ms.wfc.data**
 

@@ -1,6 +1,6 @@
 ﻿---
-title: Append and CreateParameter Methods Example (VJ++)
-TOCTitle: Append and CreateParameter Methods Example (VJ++)
+title: Append and CreateParameter methods example (VJ++)
+TOCTitle: Append and CreateParameter methods example (VJ++)
 ms:assetid: efd5da94-4fcb-1c05-a3ef-e73a84c91ca8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250220(v=office.15)
 ms:contentKeyID: 48548594
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Append and CreateParameter Methods Example (VJ++)
+# Append and CreateParameter methods example (VJ++)
 
 
 **Applies to**: Access 2013 | Office 2013

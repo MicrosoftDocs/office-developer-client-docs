@@ -1,6 +1,6 @@
 ﻿---
-title: CREATE INDEX Statement (Microsoft Access SQL)
-TOCTitle: CREATE INDEX Statement (Microsoft Access SQL)
+title: CREATE INDEX statement (Microsoft Access SQL)
+TOCTitle: CREATE INDEX statement (Microsoft Access SQL)
 ms:assetid: c5919ef4-a08d-df06-7078-5331adbcb45c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823109(v=office.15)
 ms:contentKeyID: 48547612
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# CREATE INDEX Statement (Microsoft Access SQL)
+# CREATE INDEX statement (Microsoft Access SQL)
 
 **Applies to**: Access 2013 | Office 2013
 

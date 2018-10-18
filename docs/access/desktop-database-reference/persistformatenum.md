@@ -4,16 +4,17 @@ TOCTitle: PersistFormatEnum
 ms:assetid: 5aa99a63-d422-0812-5aba-19305a3ad405
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249313(v=office.15)
 ms:contentKeyID: 48545050
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
 # PersistFormatEnum
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Specifies the format in which to save a [Recordset](recordset-object-ado.md).
+
+<br/>
 
 <table>
 <colgroup>
@@ -53,7 +54,7 @@ Specifies the format in which to save a [Recordset](recordset-object-ado.md).
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 Package: **com.ms.wfc.data**
 

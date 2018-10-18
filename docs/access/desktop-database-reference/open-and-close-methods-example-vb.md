@@ -1,6 +1,6 @@
 ﻿---
-title: Open and Close Methods Example (VB)
-TOCTitle: Open and Close Methods Example (VB)
+title: Open and Close methods example (VB)
+TOCTitle: Open and Close methods example (VB)
 ms:assetid: 5c000d5f-2560-2530-fe36-163f6600f3cc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249319(v=office.15)
 ms:contentKeyID: 48545078
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Open and Close Methods Example (VB)
+# Open and Close methods example (VB)
 
 
 **Applies to**: Access 2013 | Office 2013

@@ -1,6 +1,6 @@
 ﻿---
-title: DELETE Statement (Microsoft Access SQL)
-TOCTitle: DELETE Statement (Microsoft Access SQL)
+title: DELETE statement (Microsoft Access SQL)
+TOCTitle: DELETE statement (Microsoft Access SQL)
 ms:assetid: 64c235bc-5b1a-0a33-714a-9933ba7a81e5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195097(v=office.15)
 ms:contentKeyID: 48545299
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# DELETE Statement (Microsoft Access SQL)
+# DELETE statement (Microsoft Access SQL)
 
 **Applies to**: Access 2013 | Office 2013
 

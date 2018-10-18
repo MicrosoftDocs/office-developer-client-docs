@@ -4,7 +4,7 @@ TOCTitle: ADCPROP_AUTORECALC_ENUM
 ms:assetid: 79ed16c1-964d-bf88-22c9-aa0a51303da6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249502(v=office.15)
 ms:contentKeyID: 48545779
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
@@ -15,6 +15,8 @@ mtps_version: v=office.15
 Specifies when the [MSDataShape](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md) provider re-calculates aggregate and calculated columns in a hierarchical Recordset.
 
 These constants are only used with the **MSDataShape** provider and the **Recordset** "**Auto Recalc**" dynamic property, which is referenced in the [ADO Dynamic Property Index](ado-dynamic-property-index.md) and documented in the [Microsoft Cursor Service for OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) or [Microsoft Data Shaping Service for OLE DB](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md) documentation.
+
+<br/>
 
 <table>
 <colgroup>
@@ -44,7 +46,7 @@ These constants are only used with the **MSDataShape** provider and the **Record
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 These constants do not have ADO/WFC equivalents.
 

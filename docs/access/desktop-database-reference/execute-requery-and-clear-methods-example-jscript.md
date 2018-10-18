@@ -1,6 +1,6 @@
 ﻿---
-title: Execute, Requery, and Clear Methods Example (JScript)
-TOCTitle: Execute, Requery, and Clear Methods Example (JScript)
+title: Execute, Requery, and Clear methods example (JScript)
+TOCTitle: Execute, Requery, and Clear methods example (JScript)
 ms:assetid: 3c1f1913-f168-b8a9-8791-f4a0b1aa8273
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249157(v=office.15)
 ms:contentKeyID: 48544306
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Execute, Requery, and Clear Methods Example (JScript)
+# Execute, Requery, and Clear methods example (JScript)
 
 
 **Applies to**: Access 2013 | Office 2013
@@ -32,7 +32,7 @@ This example demonstrates the **Execute** method when run from both a [Command](
 <html> 
  
 <head> 
-<title>Execute, Requery and Clear Methods Example (JScript)</title> 
+<title>Execute, Requery and Clear methods example (JScript)</title> 
 <style> 
 <!-- 
 BODY { 
@@ -45,7 +45,7 @@ BODY {
 </head> 
  
 <body bgcolor="White"> 
-<h1>Execute, Requery and Clear Methods Example (JScript)</h1> 
+<h1>Execute, Requery and Clear methods example (JScript)</h1> 
 <% 
  if (strLastName.length > 0) 
  { 

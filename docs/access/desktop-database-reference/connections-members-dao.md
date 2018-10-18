@@ -13,9 +13,8 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-
 > [!NOTE]
-> <P>ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.A Connections collection contains the current Connection objects of a Workspace object. (ODBCDirect workspaces only).</P>
+> ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine. A Connections collection contains the current Connection objects of a Workspace object (ODBCDirect workspaces only).
 
 
 

@@ -13,7 +13,7 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-This is a schematic description of how to instantiate ADO events in Microsoft Visual C++. See [ADO Events Model Example (VC++)](ado-events-model-example-vc.md) for a complete description.
+This is a schematic description of how to instantiate ADO events in Microsoft Visual C++. See [ADO Events Model example (VC++)](ado-events-model-example-vc.md) for a complete description.
 
 Create classes derived from the **ConnectionEventsVt** and **RecordsetEventsVt** interfaces found in the file adoint.h.
 

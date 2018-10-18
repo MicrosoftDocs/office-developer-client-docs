@@ -1,6 +1,6 @@
 ﻿---
-title: TRANSFORM Statement (Microsoft Access SQL)
-TOCTitle: TRANSFORM Statement (Microsoft Access SQL)
+title: TRANSFORM statement (Microsoft Access SQL)
+TOCTitle: TRANSFORM statement (Microsoft Access SQL)
 ms:assetid: 419770b1-c833-959d-a84d-56c68764799f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192901(v=office.15)
 ms:contentKeyID: 48544455
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# TRANSFORM Statement (Microsoft Access SQL)
+# TRANSFORM statement (Microsoft Access SQL)
 
 **Applies to**: Access 2013 | Office 2013
 

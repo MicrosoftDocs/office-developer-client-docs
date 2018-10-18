@@ -4,16 +4,17 @@ TOCTitle: CursorLocationEnum
 ms:assetid: 520cc738-998b-ce80-6362-0df310c40c39
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249268(v=office.15)
 ms:contentKeyID: 48544836
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
 # CursorLocationEnum
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Specifies the location of the cursor service.
+
+<br/>
 
 <table>
 <colgroup>
@@ -42,13 +43,13 @@ Specifies the location of the cursor service.
 <tr class="odd">
 <td><p><strong>adUseServer</strong></p></td>
 <td><p>2</p></td>
-<td><p>Default. Uses data-provider or driver-supplied cursors. These cursors are sometimes very flexible and allow for additional sensitivity to changes others make to the data source. However, some features of the <a href="microsoft-cursor-service-for-ole-db-ado-service-component.md">Microsoft Cursor Service for OLE DB</a> (such as disassociated <a href="recordset-object-ado.md">Recordset</a> objects) cannot be simulated with server-side cursors and these features will be unavailable with this setting.</p></td>
+<td><p>Default. Uses data-provider or driver-supplied cursors. These cursors are sometimes very flexible and allow for additional sensitivity to changes others make to the data source. However, some features of the <a href="microsoft-cursor-service-for-ole-db-ado-service-component.md">Microsoft Cursor Service for OLE DB</a> (such as disassociated <a href="recordset-object-ado.md">Recordset</a> objects) cannot be simulated with server-side cursors, and these features will be unavailable with this setting.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 Package: **com.ms.wfc.data**
 

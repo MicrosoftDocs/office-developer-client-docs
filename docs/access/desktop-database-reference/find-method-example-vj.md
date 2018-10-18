@@ -1,6 +1,6 @@
 ﻿---
-title: Find Method Example (VJ++)
-TOCTitle: Find Method Example (VJ++)
+title: Find method example (VJ++)
+TOCTitle: Find method example (VJ++)
 ms:assetid: 622abf93-01f2-7721-4ca5-54c2c773089b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249367(v=office.15)
 ms:contentKeyID: 48545232
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Find Method Example (VJ++)
+# Find method example (VJ++)
 
 
 **Applies to**: Access 2013 | Office 2013

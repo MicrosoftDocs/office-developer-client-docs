@@ -110,5 +110,5 @@ In order to handle ADO events in Microsoft Visual Basic, you must declare a modu
 
 ## Visual Basic Examples
 
-Many Visual Basic examples are included with the ADO documentation. For more information, see [ADO Code Examples in Microsoft Visual Basic](ado-code-examples-in-microsoft-visual-basic.md).
+Many Visual Basic examples are included with the ADO documentation. For more information, see [ADO code examples in Microsoft Visual Basic](ado-code-examples-in-microsoft-visual-basic.md).
 

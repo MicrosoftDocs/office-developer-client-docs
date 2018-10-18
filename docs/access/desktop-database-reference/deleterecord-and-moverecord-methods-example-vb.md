@@ -1,6 +1,6 @@
 ﻿---
-title: DeleteRecord and MoveRecord Methods Example (VB)
-TOCTitle: DeleteRecord and MoveRecord Methods Example (VB)
+title: DeleteRecord and MoveRecord methods example (VB)
+TOCTitle: DeleteRecord and MoveRecord methods example (VB)
 ms:assetid: f982368b-8828-3e29-9435-6c5cf44941bf
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250268(v=office.15)
 ms:contentKeyID: 48548815
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# DeleteRecord and MoveRecord Methods Example (VB)
+# DeleteRecord and MoveRecord methods example (VB)
 
 
 **Applies to**: Access 2013 | Office 2013
