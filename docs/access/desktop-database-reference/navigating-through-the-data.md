@@ -13,17 +13,15 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-Now that you have executed a command against the data source and determined that the result set contains data, you can move through the results by using the navigation methods and properties provided by the **Recordset** object. 
+Now that you have executed a command against the data source and determined that the result set contains data, you can move through the results by using the navigation methods and properties provided by the **Recordset** object. The following topics describe how to use these methods and properties on the sample **Recordset**:
 
-The following topics describe how to use these methods and properties on the sample **Recordset**:
+  - [Jumping to a Record](jumping-to-a-record.md)
 
-- [Jumping to a Record](jumping-to-a-record.md)
+  - [More Ways to Move in a Recordset](more-ways-to-move-in-a-recordset.md)
 
-- [More Ways to Move in a Recordset](more-ways-to-move-in-a-recordset.md)
+  - [Using Bookmarks](using-bookmarks.md)
 
-- [Using Bookmarks](using-bookmarks.md)
+  - [Using Pages](using-pages.md)
 
-- [Using Pages](using-pages.md)
-
-- [Recordset Positioning](recordset-positioning.md)
+  - [Recordset Positioning](recordset-positioning.md)
 

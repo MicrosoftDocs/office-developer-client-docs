@@ -98,12 +98,5 @@ Name = UnitPrice</p></th>
 </table>
 
 
-The next section explains how to locate the current position of the cursor in this sample **Recordset**.
+The next section will explain how to locate the current position of the cursor in this sample **Recordset**.
 
-This chapter covers the following topics:
-
-  - [Locating the Current Record (ADO)](locating-the-current-record.md)
-
-  - [Navigating Through the Data (ADO)](navigating-through-the-data.md)
-
-  - [Understanding Recordset Structure (ADO)](understanding-recordset-structure.md)

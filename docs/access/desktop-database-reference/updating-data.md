@@ -21,11 +21,3 @@ If the **Recordset** object supports batch updating, you can cache multiple chan
 
 The current record remains current after you call the **Update** or **UpdateBatch** methods.
 
-This section includes the following topics:
-
-- [Immediate Mode](immediate-mode.md)
-
-- [Transaction Processing](transaction-processing.md)
-
-- [Batch Mode (ADO)](batch-mode.md)
-

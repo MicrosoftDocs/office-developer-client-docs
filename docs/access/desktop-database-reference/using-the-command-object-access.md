@@ -19,17 +19,8 @@ You can use the **Command** object to request any type of operation from the pro
 
 It is not always necessary to create a **Command** object to execute a command against a data source. You can use the **Execute** method on the **Connection** object or the **Open** method on the **Recordset** object. However, you should use a **Command** object if you need to reuse a command in your code or if you need to pass detailed parameter information with your command. These scenarios are covered in more detail later in this chapter.
 
+
 > [!NOTE]
-> Certain Commands can return a result set as a binary stream or as a single Record rather than as a Recordset, if this is supported by the provider. Also, some Commands are not intended to return any result set at all (for example, a SQL Update query). This chapter will cover the most typical scenario, however: executing Commands that return results into a Recordset object. For more information about returning results into Records or Streams, see [Chapter 10: Records and Streams](chapter-10-records-and-streams.md).
+> <P>Certain <STRONG>Command</STRONG>s can return a result set as a binary stream or as a single <STRONG>Record</STRONG> rather than as a <STRONG>Recordset</STRONG>, if this is supported by the provider. Also, some <STRONG>Command</STRONG>s are not intended to return any result set at all (for example, a SQL Update query). This chapter will cover the most typical scenario, however: executing <STRONG>Command</STRONG>s that return results into a <STRONG>Recordset</STRONG> object. For more information about returning results into <STRONG>Record</STRONG>s or <STRONG>Stream</STRONG>s, see <A href="chapter-10-records-and-streams.md">Chapter 10: Records and Streams</A>.</P>
 
-This section includes the following topics:
 
-- [Command Object Overview](command-object-overview.md)
-
-- [Creating and Executing a Simple Command](creating-and-executing-a-simple-command.md)
-
-- [Command Object Parameters](command-object-parameters.md)
-
-- [Calling a Stored Procedure with a Command](calling-a-stored-procedure-with-a-command.md)
-
-- [Named Commands](named-commands.md)

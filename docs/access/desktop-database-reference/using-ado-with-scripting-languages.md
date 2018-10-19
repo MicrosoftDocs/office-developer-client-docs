@@ -29,6 +29,7 @@ N/A with scripting languages.
 
 The following topics contain more specific information about using ADO with scripting languages:
 
-- [JScript ADO Programming](jscript-ado-programming.md)
+  - [ADO in VBScript](vbscript-ado-programming.md)
 
-- [VBScript ADO Programming](vbscript-ado-programming.md)
+  - [ADO in JScript](jscript-ado-programming.md)
+

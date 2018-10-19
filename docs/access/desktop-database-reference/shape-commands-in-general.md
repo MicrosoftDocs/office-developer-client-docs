@@ -67,7 +67,3 @@ For information about navigating a hierarchical **Recordset**, see [Accessing Ro
 
 For precise information about syntactically correct shape commands, see [Formal Shape Grammar](formal-shape-grammar.md).
 
-## See also
-
-- [Issuing Commands to the Underlying Data Provider](issuing-commands-to-the-underlying-data-provider.md)
-

@@ -56,7 +56,7 @@ Details for each of the data providers currently available from Microsoft are li
 </tr>
 <tr class="even">
 <td><p>Microsoft Jet databases</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-microsoft-jet.md">Microsoft OLE DB Provider for Microsoft Jet</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-microsoft-jet.md">OLE DB Provider for Microsoft Jet</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Microsoft SQL Server</p></td>

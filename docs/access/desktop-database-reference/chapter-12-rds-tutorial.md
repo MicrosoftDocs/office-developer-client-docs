@@ -43,20 +43,3 @@ The RDS programming model is stated below. Use it as a roadmap as you proceed th
 
   - Changes to the **Recordset** object are sent back to the server and used to update the data source.
 
-Following are the steps in this tutorial:
-
-- [Step 1: Specify a Server Program (RDS Tutorial)](step-1-specify-a-server-program-rds-tutorial.md)
-
-- [Step 2: Invoke the Server Program (RDS Tutorial)](step-2-invoke-the-server-program-rds-tutorial.md)
-
-- [Step 3: Server Obtains a Recordset (RDS Tutorial)](step-3-server-obtains-a-recordset-rds-tutorial.md)
-
-- [Step 4: Server Returns the Recordset (RDS Tutorial)](step-4-server-returns-the-recordset-rds-tutorial.md)
-
-- [Step 5: DataControl is Made Usable (RDS Tutorial)](step-5-datacontrol-is-made-usable-rds-tutorial.md)
-
-- [Step 6: Changes are Sent to the Server (RDS Tutorial)](step-6-changes-are-sent-to-the-server-rds-tutorial.md)
-
-- [RDS Tutorial (VBScript)](rds-tutorial-vbscript.md)
-
-- [RDS Tutorial (Visual J++)](rds-tutorial-visual-j.md)

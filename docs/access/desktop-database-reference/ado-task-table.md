@@ -97,7 +97,7 @@ The following table lists programming tasks contained in the *ADO Programmer's G
 </tr>
 <tr class="even">
 <td><p>Returning related records in a <strong>Recordset</strong></p></td>
-<td><p><a href="data-shaping.md">Data Shaping</a></p></td>
+<td><p><a href="data-shaping-summary.md">Data Shaping Summary</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Accessing semi-structured data</p></td>

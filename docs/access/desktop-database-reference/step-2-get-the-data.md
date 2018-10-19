@@ -44,7 +44,5 @@ Be sure to change the value of the Data Source parameter in parameter in strCon 
 
 Keep the file open and go on to the next step.
 
-### Next step
-
-[Step 3: Send the Data](step-3-send-the-data.md)
+**Next** [Step 3: Send the Data](step-3-send-the-data.md)
 

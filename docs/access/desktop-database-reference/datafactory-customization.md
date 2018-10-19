@@ -35,6 +35,7 @@ See the following topics for more information about customizing the **DataFactor
 
   - [Customization File Logs Section](customization-file-logs-section.md)
 
-  - [Required Client Settings](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/required-client-settings)
+  - [Required Client Settings](https://msdn.microsoft.com/library/ff836356\(v=office.15\))
 
-  - [Writing Your Own Customized Handler](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/writing-your-own-customized-handler)
+  - [Writing Your Own Customized Handler](https://msdn.microsoft.com/library/jj249402\(v=office.15\))
+

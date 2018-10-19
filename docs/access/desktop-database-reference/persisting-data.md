@@ -98,10 +98,3 @@ In the following example, the **Save** and **Open** methods are used to persist 
 'EndPersist 
 ```
 
-This section includes the following topics:
-
-- [More About Recordset Persistence](more-about-recordset-persistence.md)
-
-- [Persisting Filtered and Hierarchical Recordsets](persisting-filtered-and-hierarchical-recordsets.md)
-
-- [Persisting Records in XML Format (ADO)](persisting-records-in-xml-format.md)

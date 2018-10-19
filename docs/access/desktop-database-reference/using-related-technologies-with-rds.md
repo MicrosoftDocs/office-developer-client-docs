@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 This section contains specific information about using RDS with aspects of the following technologies:
 
-- [Using RDS with ODBC Connection Pooling](using-rds-with-odbc-connection-pooling.md)
+  - [Using RDS with ODBC Connection Pooling](using-rds-with-odbc-connection-pooling.md)
 
-- [Running Business Objects in Component Services](running-business-objects-in-component-services.md)
+  - [Running Business Objects in Component Services](https://docs.microsoft.com/sql/ado/guide/remote-data-service/running-business-objects-in-component-services?view=sql-server-2017)
 
 **Internet Information Services** For more information about Microsoft Internet Information Services (IIS), see the Microsoft Internet Information Services website.
 

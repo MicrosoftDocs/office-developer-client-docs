@@ -37,6 +37,3 @@ Several ADO objects have been enhanced to work in conjunction with **Record** an
 
   - As a shortcut and alternative to the **Append** method, you may create fields by simply assigning a value to an undefined or previously deleted field.
 
-## See also
-
-- [Internet Publishing Scenario topics](internet-publishing-scenario.md)

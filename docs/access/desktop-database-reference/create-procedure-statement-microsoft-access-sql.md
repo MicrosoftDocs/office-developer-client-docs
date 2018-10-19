@@ -4,7 +4,7 @@ TOCTitle: CREATE PROCEDURE statement (Microsoft Access SQL)
 ms:assetid: 1fbb5267-9862-bfb4-6436-176152d7a6cd
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845861(v=office.15)
 ms:contentKeyID: 48543649
-ms.date: 10/18/2018
+ms.date: 09/18/2015
 mtps_version: v=office.15
 dev_langs:
 - sql

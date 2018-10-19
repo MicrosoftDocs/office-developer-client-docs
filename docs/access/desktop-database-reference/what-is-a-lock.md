@@ -27,7 +27,3 @@ The **adLockPessimistic** setting is not supported if the [CursorLocation](curso
 
 The **LockType** property is read/write when the **Recordset** is closed, and read-only when it is open.
 
-This section includes the following topic:
-
-- [Types of Locks](types-of-locks.md)
-

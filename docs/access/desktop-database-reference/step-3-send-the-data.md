@@ -35,7 +35,5 @@ Notice that the ASP **Response** object is specified as the destination for the 
 
 Save and close XMLResponse.asp before going to the next step. Also copy the adovbs.inc file from C:\\Program Files\\Common Files\\System\\Ado folder to the same folder where you have the XMLResponse.asp file.
 
-### Next step
-
-[Step 4: Receive the Data](step-4-receive-and-display-the-data.md)
+**Next** [Step 4: Receive the Data](step-4-receive-and-display-the-data.md)
 

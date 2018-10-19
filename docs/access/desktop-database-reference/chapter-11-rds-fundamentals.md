@@ -15,17 +15,15 @@ mtps_version: v=office.15
 
 This section contains a series of topics that you can read in a prescribed order. The following topics are included:
 
-- [Solutions for Remote Data Access](solutions-for-remote-data-access.md)
+  - [Solutions for Remote Data Access](solutions-for-remote-data-access.md)
 
-- [Basic RDS Programming Model](basic-rds-programming-model.md)
+  - [Basic RDS Programming Model](basic-rds-programming-model.md)
 
-- [RDS Programming Model in Detail](rds-programming-model-in-detail.md)
+  - [RDS Programming Model in Detail](rds-programming-model-in-detail.md)
 
-- [RDS Programming Model with Objects](rds-programming-model-with-objects.md)
+  - [RDS Programming Model with Objects](rds-programming-model-with-objects.md)
 
-- [RDS Object Model Summary](rds-object-model-summary.md)
+  - [The RDS Object Model Summary](rds-object-model-summary.md)
 
-- [RDS Scenario](rds-scenario.md)
-
-This section also contains the [RDS tutorial](chapter-12-rds-tutorial.md) which demonstrates how to access and update a data source, and a series of topics about [Using RDS](chapter-13-rds-usage-and-security.md), which discusses more advanced RDS topics.
+This section also contains the [RDS tutorial](chapter-12-rds-tutorial.md) which demonstrate how to access and update a data source, and a series of topics about [Using RDS](chapter-13-rds-usage-and-security.md), which discusses more advanced RDS topics.
 

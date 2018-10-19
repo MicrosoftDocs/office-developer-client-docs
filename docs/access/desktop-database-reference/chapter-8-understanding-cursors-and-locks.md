@@ -19,17 +19,17 @@ Many capabilities of the ADO **Recordset** object are determined by the type and
 
 This chapter covers the following topics:
 
-- [What is a Cursor?](what-is-a-cursor.md)
+  - [What is a Cursor?](what-is-a-cursor.md)
 
-- [The Significance of Cursor Location](the-significance-of-cursor-location.md)
+  - [Types of Cursors](types-of-cursors.md)
 
-- [The Microsoft Cursor Service for OLE DB](the-microsoft-cursor-service-for-ole-db.md)
+  - [The Significance of Cursor Location](the-significance-of-cursor-location.md)
 
-- [Using CacheSize](using-cachesize.md)
+  - [The Microsoft Cursor Service for OLE DB](the-microsoft-cursor-service-for-ole-db.md)
 
-- [Cursor and Lock Characteristics](cursor-and-lock-characteristics.md)
+  - [What is a Lock?](what-is-a-lock.md)
 
-- [Types of Cursors (ADO)](types-of-cursors.md)
+  - [Using CacheSize](using-cachesize.md)
 
-- [What is a Lock? (ADO)](what-is-a-lock.md)
+  - [Cursor and Lock Characteristics](cursor-and-lock-characteristics.md)
 
