@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Using ADO with Microsoft Visual J++
 
-
 **Applies to**: Access 2013 | Office 2013
 
 You can implement ADO using Visual J++ in the following ways:
