@@ -1,4 +1,4 @@
-﻿---
+---
 title: TRANSACTION statement (Microsoft Access SQL)
 TOCTitle: TRANSACTION statement (Microsoft Access SQL)
 ms:assetid: 481e807d-94e4-f201-adac-d25ee89d9220

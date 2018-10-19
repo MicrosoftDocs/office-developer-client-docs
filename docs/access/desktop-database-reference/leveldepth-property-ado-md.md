@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 Indicates the number of levels between the root of the hierarchy and a member.
 
-## Return values
+## Return Values
 
 Returns a **Long** integer, and is read-only.
 

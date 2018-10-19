@@ -1,6 +1,6 @@
 ﻿---
-title: Value property example (VC++)
-TOCTitle: Value property example (VC++)
+title: Value Property Example (VC++)
+TOCTitle: Value Property Example (VC++)
 ms:assetid: d8a496f9-5864-ffd8-ca99-5a2f10dcdcb4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250092(v=office.15)
 ms:contentKeyID: 48548040
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Value property example (VC++)
+# Value Property Example (VC++)
 
 
 **Applies to**: Access 2013 | Office 2013

@@ -21,7 +21,7 @@ Returns a **[QueryDef](querydef-object-dao.md)** object that is a copy of the **
 
 *expression* A variable that represents a **Recordset** object.
 
-### Return value
+### Return Value
 
 QueryDef
 

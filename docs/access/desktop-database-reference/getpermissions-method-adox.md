@@ -20,7 +20,7 @@ Returns the permissions for a group or user on an object or object container.
 
 *ReturnValue* = *GroupOrUser*.GetPermissions(*Name*, *ObjectType* \[,*ObjectTypeId*\])
 
-## Return value
+## Return Value
 
 Returns a **Long** value that specifies a bitmask containing the permissions that the group or user has on the object. This value can be one or more of the [RightsEnum](rightsenum.md) constants.
 

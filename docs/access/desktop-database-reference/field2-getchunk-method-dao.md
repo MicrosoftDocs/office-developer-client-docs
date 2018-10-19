@@ -55,7 +55,7 @@ Returns all or a portion of the contents of a **Memo** or **Long BinaryField2** 
 </table>
 
 
-### Return value
+### Return Value
 
 Variant
 

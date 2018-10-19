@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 Indicates the action performed when a primary key is updated.
 
-## Settings and return values
+## Settings and Return Values
 
 Sets and returns a **Long** value that can be one of the [RuleEnum](ruleenum.md) constants. The default value is **adRINone**.
 

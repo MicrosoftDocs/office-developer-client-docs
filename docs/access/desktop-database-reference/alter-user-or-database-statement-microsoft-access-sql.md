@@ -1,4 +1,4 @@
-﻿---
+---
 title: ALTER USER or DATABASE statement (Microsoft Access SQL)
 TOCTitle: ALTER USER or DATABASE statement (Microsoft Access SQL)
 ms:assetid: 86ccd296-5171-97e7-683f-cdaab4bde9ab

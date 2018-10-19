@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 Indicates the progress of a [DataControl](datacontrol-object-rds.md) object as it retrieves data into its [Recordset](recordset-object-ado.md) object.
 
-## Settings and return values
+## Settings and Return Values
 
 Sets or returns one of the following values.
 

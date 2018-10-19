@@ -1,6 +1,6 @@
 ﻿---
-title: ADO NumericScale and Precision properties example (VC++)
-TOCTitle: NumericScale and Precision properties example (VC++)
+title: ADO NumericScale and Precision Properties Example (VC++)
+TOCTitle: NumericScale and Precision Properties Example (VC++)
 ms:assetid: f0bc84c6-5563-509c-9b4e-3fb45c70a04e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250225(v=office.15)
 ms:contentKeyID: 48548611
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ADO NumericScale and Precision properties example (VC++)
+# ADO NumericScale and Precision Properties Example (VC++)
 
 
 **Applies to**: Access 2013 | Office 2013

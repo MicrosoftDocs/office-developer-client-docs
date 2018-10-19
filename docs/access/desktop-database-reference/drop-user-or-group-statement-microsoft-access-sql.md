@@ -1,4 +1,4 @@
-﻿---
+---
 title: DROP USER or GROUP statement (Microsoft Access SQL)
 TOCTitle: DROP USER or GROUP statement (Microsoft Access SQL)
 ms:assetid: 46bc5916-556b-17df-2f4c-8fd7bbd21ef7

@@ -1,6 +1,6 @@
 ﻿---
-title: Optimize property example (VB)
-TOCTitle: Optimize property example (VB)
+title: Optimize Property Example (VB)
+TOCTitle: Optimize Property Example (VB)
 ms:assetid: f4576247-6057-c1fe-013d-74feaab33174
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250240(v=office.15)
 ms:contentKeyID: 48548686
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Optimize property example (VB)
+# Optimize Property Example (VB)
 
 
 **Applies to**: Access 2013 | Office 2013

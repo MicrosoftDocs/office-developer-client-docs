@@ -32,7 +32,7 @@ These transaction methods manage transaction processing within a [Connection](co
 
 *object*.RollbackTrans
 
-## Return value
+## Return Value
 
 **BeginTrans** can be called as a function that returns a **Long** variable indicating the nesting level of the transaction.
 

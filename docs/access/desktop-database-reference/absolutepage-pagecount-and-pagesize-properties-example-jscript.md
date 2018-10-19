@@ -1,18 +1,18 @@
 ﻿---
-title: AbsolutePage, PageCount, and PageSize properties example (JScript)
-TOCTitle: AbsolutePage, PageCount, and PageSize properties example (JScript)
+title: AbsolutePage, PageCount, and PageSize Properties Example (JScript)
+TOCTitle: AbsolutePage, PageCount, and PageSize Properties Example (JScript)
 ms:assetid: 6df29022-16f2-c7d8-d45b-b9998e929030
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249434(v=office.15)
 ms:contentKeyID: 48545506
-ms.date: 10/17/2018
+ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# AbsolutePage, PageCount, and PageSize properties example (JScript)
+# AbsolutePage, PageCount, and PageSize Properties Example (JScript)
 
 **Applies to**: Access 2013 | Office 2013
 
-This example uses the [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md), and [PageSize](pagesize-property-ado.md) properties to display names and hire dates from the ***Employees*** table, five records at a time. Cut and paste the following code to Notepad or another text editor, and save it as **AbsolutePageJS.asp**.
+This example demonstrates the AbsolutePage, PageCount, and PageSize properties. Cut and paste the following code to Notepad or another text editor, and save it as **AbsolutePageJS.asp**.
 
 ```javascript
 <!-- BeginAbsolutePageJS --> 

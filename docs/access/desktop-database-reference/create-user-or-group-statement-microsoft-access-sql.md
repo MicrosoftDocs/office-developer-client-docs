@@ -1,4 +1,4 @@
-﻿---
+---
 title: CREATE USER or GROUP statement (Microsoft Access SQL)
 TOCTitle: CREATE USER or GROUP statement (Microsoft Access SQL)
 ms:assetid: 62148ce2-0f81-944e-a1ab-edef990fff9f
