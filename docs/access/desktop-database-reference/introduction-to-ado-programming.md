@@ -31,3 +31,7 @@ For an introduction to the Microsoft ActiveX Data Objects (ADO) Programmer's Gui
 ## Next steps
 
 Go to [Section I: Active X Data Objects](section-i-activex-data-objects.md).
+
+## See also
+
+- [ADO programmer's guide](ado-programmer-s-guide.md)

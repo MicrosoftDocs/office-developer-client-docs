@@ -25,5 +25,5 @@ For further information about using ADO with Visual J++, see the following topic
 
   - [ADO Java Class Wrappers](ado-java-class-wrappers.md)
 
-  - [ADO/WFC Syntax Index](https://msdn.microsoft.com/library/jj250066\(v=office.15\))
+  - [ADO/WFC Syntax Index](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/ado-wfc-syntax-index)
 

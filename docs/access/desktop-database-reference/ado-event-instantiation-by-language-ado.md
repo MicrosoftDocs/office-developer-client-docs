@@ -13,15 +13,17 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-  - [Visual Basic](visual-basic.md)
+This section includes the following topics:
 
-  - [Visual C++](visual-c.md)
+- [Visual Basic](visual-basic.md)
 
-  - [Visual J++](visual-j.md)
+- [Visual C++](visual-c.md)
 
-  - [VBScript](vbscript.md)
+- [Visual J++](visual-j.md)
 
-  - [JScript](jscript.md)
+- [VBScript](vbscript.md)
 
-  - [ADO/WFC](ado-wfc.md)
+- [JScript](jscript.md)
+
+- [ADO/WFC](ado-wfc.md)
 
