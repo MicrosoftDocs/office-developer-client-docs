@@ -1,4 +1,4 @@
----
+﻿---
 title: 'Appendix D: ADO Samples'
 TOCTitle: 'Appendix D: ADO Samples'
 ms:assetid: 87cb09e7-5199-5f78-ad6e-bb38079c59cf
@@ -27,14 +27,13 @@ The ADO documentation also contains code examples in multiple languages, which a
 
 ## ADO code examples
 
-- [ADO code examples in Microsoft Visual Basic](ado-code-examples-in-microsoft-visual-basic.md)
+  - [ADO code examples in Microsoft Visual Basic](ado-code-examples-in-microsoft-visual-basic.md)
 
-- [ADO code examples in Microsoft Visual Basic Scripting Edition](ado-code-examples-in-microsoft-visual-basic-scripting-edition.md)
+  - [ADO code examples in Microsoft Visual Basic Scripting Edition](ado-code-examples-in-microsoft-visual-basic-scripting-edition.md)
 
-- [ADO code examples in Microsoft Visual C++](ado-code-examples-in-microsoft-visual-c.md)
+  - [ADO code examples in Microsoft Visual C++](ado-code-examples-in-microsoft-visual-c.md)
 
-- [ADO code examples in Microsoft Visual J++](ado-code-examples-in-microsoft-visual-j.md)
+  - [ADO code examples in Microsoft Visual J++](ado-code-examples-in-microsoft-visual-j.md)
 
-- [ADO code examples in Microsoft JScript](ado-code-examples-in-microsoft-jscript.md)
-
+  - [ADO code examples in Microsoft JScript](ado-code-examples-in-microsoft-jscript.md)
 

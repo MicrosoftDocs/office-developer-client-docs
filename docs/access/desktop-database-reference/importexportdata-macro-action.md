@@ -61,7 +61,7 @@ The **ImportExportData** action has the following arguments.
 <li><p>Select a table in the <strong>Link Tables</strong> dialog box, and click <strong>OK</strong>.</p></li>
 </ol>
 <p>Open the newly linked table in Design view and view the table properties by clicking <strong>Property Sheet</strong> on the <strong>Design</strong> tab, under <strong>Tools</strong>. The text in the <strong>Description</strong> property setting is the connection string for this table.</p>
-<p>For more information about ODBC connection strings, see the Help file or other documentation for the ODBC driver of this type of ODBC database.</p></td>
+<p>For more information on ODBC connection strings, see the Help file or other documentation for the ODBC driver of this type of ODBC database.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Object Type</strong></p></td>

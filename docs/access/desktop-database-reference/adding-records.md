@@ -19,11 +19,3 @@ After you call the **AddNew** method, the new record becomes the current record 
 
 If you call **AddNew** while editing the current record or while adding a new record, ADO calls the **Update** method to save any changes and then creates the new record.
 
-This section includes the following topics:
-
-- [Adding Multiple Fields](adding-multiple-fields.md)
-
-- [Determining Edit Mode](determining-edit-mode.md)
-
-- [Using AddNew in Immediate and Batch Modes](using-addnew-in-immediate-and-batch-modes.md)
-

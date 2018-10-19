@@ -4,7 +4,7 @@ TOCTitle: DELETE statement (Microsoft Access SQL)
 ms:assetid: 64c235bc-5b1a-0a33-714a-9933ba7a81e5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195097(v=office.15)
 ms:contentKeyID: 48545299
-ms.date: 10/18/2018
+ms.date: 09/18/2015
 mtps_version: v=office.15
 f1_keywords:
 - jetsql40.chm5277573
@@ -16,7 +16,7 @@ f1_categories:
 
 **Applies to**: Access 2013 | Office 2013
 
-Creates a delete query that removes records from one or more of the tables listed in the [FROM](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/from-clause-microsoft-access-sql) clause that satisfy the [WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql) clause.
+Creates a delete query that removes records from one or more of the tables listed in the [FROM](https://msdn.microsoft.com/library/ff836674\(v=office.15\)) clause that satisfy the [WHERE](https://msdn.microsoft.com/library/ff195245\(v=office.15\)) clause.
 
 ## Syntax
 

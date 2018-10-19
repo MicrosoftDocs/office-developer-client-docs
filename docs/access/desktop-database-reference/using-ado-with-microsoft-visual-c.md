@@ -15,18 +15,11 @@ mtps_version: v=office.15
 
 For information about using ADO with Visual C++, see the following sections:
 
-- [Visual C++ ADO Programming](visual-c-ado-programming.md)
+  - [Visual C++ ADO Programming](visual-c-ado-programming.md)
 
-- [Visual C++ Extensions for ADO](visual-c-extensions-for-ado.md)
+  - [Visual C++ Extensions for ADO](visual-c-extensions-for-ado.md)
 
-- [Using Visual C++ Extensions](using-visual-c-extensions.md)
+  - [ADO for Visual C++ Syntax Index for COM](https://msdn.microsoft.com/library/jj250140\(v=office.15\))
 
-- [Visual C++ Extensions Header](visual-c-extensions-header.md)
+  - [ADO for Visual C++ Syntax Index with \#import](https://msdn.microsoft.com/library/jj249409\(v=office.15\))
 
-- [Visual C++ Extensions Example](visual-c-extensions-example.md)
-
-
-## See also
-
-- [ADO for Visual C++ Syntax Index for COM](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/ado-for-visual-c-plus-plus-syntax-index-for-com)
-- [ADO for Visual C++ Syntax Index with \#import](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/ado-for-visual-c-plus-plus-syntax-index-with-import)

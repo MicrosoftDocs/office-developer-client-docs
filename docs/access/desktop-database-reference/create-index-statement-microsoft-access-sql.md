@@ -4,7 +4,7 @@ TOCTitle: CREATE INDEX statement (Microsoft Access SQL)
 ms:assetid: c5919ef4-a08d-df06-7078-5331adbcb45c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823109(v=office.15)
 ms:contentKeyID: 48547612
-ms.date: 10/18/2018
+ms.date: 09/18/2015
 mtps_version: v=office.15
 f1_keywords:
 - jetsql40.chm5277562
@@ -19,7 +19,7 @@ f1_categories:
 Creates a new index on an existing table.
 
 > [!NOTE]
-> For non-Microsoft Access database engine databases, the Microsoft Access database engine does not support the use of CREATE INDEX (except to create a pseudo index on an ODBC linked table) or any of the data definition language (DDL) statements. Use the **DAO Create** methods instead. For more information, see the Remarks section.
+> For non-Microsoft Access atabse engine databases, the Microsoft Access database engine does not support the use of CREATE INDEX (except to create a pseudo index on an ODBC linked table) or any of the data definition language (DDL) statements. Use the DAO Create methods instead. For more information see the Remarks section.
 
 ## Syntax
 
@@ -59,7 +59,7 @@ The CREATE INDEX statement has these parts:
 
 To prohibit duplicate values in the indexed field or fields of different records, use the UNIQUE reserved word.
 
-In the optional WITH clause, you can enforce data validation rules. You can:
+In the optional WITH clause you can enforce data validation rules. You can:
 
 - Prohibit Null entries in the indexed field or fields of new records by using the DISALLOW NULL option.
 
@@ -67,7 +67,7 @@ In the optional WITH clause, you can enforce data validation rules. You can:
 
 - Designate the indexed field or fields as the primary key by using the PRIMARY reserved word. This implies that the key is unique, so you can omit the UNIQUE reserved word.
 
-You can use CREATE INDEX to create a pseudo index on a linked table in an ODBC data source, such as Microsoft SQL Server, that does not already have an index. You do not need permission or access to the remote server to create a pseudo index, and the remote database is unaware of and unaffected by the pseudo index. You use the same syntax for both linked and native tables. Creating a pseudo-index on a table that would ordinarily be read-only can be especially useful.
+You can use CREATE INDEX to create a pseudo index on a linked table in an ODBC data source, such as Microsoft® SQL Server™, that does not already have an index. You do not need permission or access to the remote server to create a pseudo index, and the remote database is unaware of and unaffected by the pseudo index. You use the same syntax for both linked and native tables. Creating a pseudo-index on a table that would ordinarily be read-only can be especially useful.
 
 You can also use the [ALTER TABLE](alter-table-statement-microsoft-access-sql.md) statement to add a single- or multiple-field index to a table, and you can use the ALTER TABLE statement or the [DROP](drop-statement-microsoft-access-sql.md) statement to remove an index created with ALTER TABLE or CREATE INDEX.
 

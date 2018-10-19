@@ -31,8 +31,3 @@ Providers fall into two categories: those providing data and those providing ser
 
 ADO provides a consistent, higher level interface to the various OLE DB providers.
 
-This section includes the following topics:
-
-- [Data Providers](data-providers.md)
-
-- [Service Providers and Components](service-providers-and-components.md)

@@ -15,11 +15,11 @@ mtps_version: v=office.15
 
 See the following topics for more information about particular error messages:
 
-- [ADO Error Codes](ado-error-codes.md)
+  - [ADO Error Codes](ado-error-codes.md)
 
-- [DataControl Error Codes](datacontrol-error-codes.md)
+  - [DataControl Error Codes](datacontrol-error-codes.md)
 
-- [Internet Explorer Error Codes](internet-explorer-error-codes.md)
+  - [Internet Explorer Error Codes](internet-explorer-error-codes.md)
 
-- [Internet Information Services Error Codes](internet-information-services-error-codes.md)
+  - [Internet Information Services Error Codes](internet-information-services-error-codes.md)
 

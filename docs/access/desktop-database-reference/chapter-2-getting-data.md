@@ -29,12 +29,3 @@ The ADO object model represents the concept of a connection with the **Connectio
 
   - Provide information about the design of the underlying data source in the form of schema rowsets. For more information about schema rowsets, see [OpenSchema Method](openschema-method-ado.md).
 
-This chapter covers the following topics:
-
-  - [Making a Connection](making-a-connection.md)
-
-  - [Using the Connection Object Reference (ADO)](using-the-connection-object-access.md)
-
-  - [Using the Command Object Reference (ADO)](using-the-command-object-access.md)
-
-  - [Adding Data to a Recordset (ADO)](adding-data-to-a-recordset.md)

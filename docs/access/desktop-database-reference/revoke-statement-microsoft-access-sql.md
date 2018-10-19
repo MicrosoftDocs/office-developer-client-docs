@@ -1,10 +1,10 @@
----
+﻿---
 title: REVOKE statement (Microsoft Access SQL)
 TOCTitle: REVOKE statement (Microsoft Access SQL)
 ms:assetid: 69399fd6-c4e8-f2e2-e5f4-48ae779323f5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195272(v=office.15)
 ms:contentKeyID: 48545409
-ms.date: 10/18/2018
+ms.date: 09/18/2015
 mtps_version: v=office.15
 f1_keywords:
 - jetsql40.chm5277479
@@ -13,6 +13,7 @@ f1_categories:
 ---
 
 # REVOKE statement (Microsoft Access SQL)
+
 
 **Applies to**: Access 2013 | Office 2013
 
@@ -40,7 +41,7 @@ The REVOKE statement has these parts:
 <tbody>
 <tr class="odd">
 <td><p><em>privilege</em></p></td>
-<td><p>The privilege or privileges to be revoked. Privileges are specified using the following keywords: SELECT, DELETE, INSERT, UPDATE, DROP, SELECTSECURITY, UPDATESECURITY, DBPASSWORD, UPDATEIDENTITY, CREATE, SELECTSCHEMA, SCHEMA, and UPDATEOWNER.</p></td>
+<td><p>The privilege or privileges to be revoked. Privileges are specified using the following keywords: SELECT, DELETE, INSERT, UPDATE, DROP, SELECTSECURITY, UPDATESECURITY, DBPASSWORD, UPDATEIDENTITY, CREATE, SELECTSCHEMA, SCHEMA and UPDATEOWNER.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>table</em></p></td>

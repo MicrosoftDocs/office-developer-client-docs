@@ -66,14 +66,3 @@ End Function
 'EndNewConnection 
 ```
 
-This chapter covers the following topics:
-
-- [Editing Existing Records](editing-existing-records.md)
-
-- [Determining What is Supported](determining-what-is-supported.md)
-
-- [Deleting Records Using the Delete Method](deleting-records-using-the-delete-method.md)
-
-- [Alternatives: Using SQL Statements](alternatives-using-sql-statements.md)
-
-- [Adding Records (ADO)](adding-records.md)

@@ -21,14 +21,3 @@ The group of events that occur after an operation completes are especially impor
 
 Using the ADO event model adds some overhead to your application but provides far more flexibility than other methods of dealing with asynchronous operations, such as monitoring the [State](state-property-ado.md) property of an object with a loop.
 
-This chapter covers the following topics:
-
-- [ADO Event Handler Summary](ado-event-handler-summary.md)
-
-- [Types of Events](types-of-events.md)
-
-- [Event Parameters](event-parameters.md)
-
-- [How Event Handlers Work Together](how-event-handlers-work-together.md)
-
-- [ADO Event Instantiation by Language (ADO)](ado-event-instantiation-by-language-ado.md)

@@ -117,12 +117,3 @@ SHAPE {select * from t1; drop table t1} APPEND ({select * from t2} RELATE k1 TO 
 
 SHAPE executes select \* from t1; drop table t1 and (select \* from t2 RELATE k1 TO k2), not realizing that drop table t1 is a separate and in this case, dangerous, provider command. Applications must always validate the user input to prevent such potential hacker attacks from happening.
 
-This section includes the following topics:
-
-- [Operation of Non-Parameterized Commands](operation-of-non-parameterized-commands.md)
-
-- [Operation of Parameterized Commands](operation-of-parameterized-commands.md)
-
-- [Hybrid Commands](hybrid-commands.md)
-
-- [Intervening Shape COMPUTE Clauses](intervening-shape-compute-clauses.md)

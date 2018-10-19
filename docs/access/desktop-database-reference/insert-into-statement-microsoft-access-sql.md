@@ -4,7 +4,7 @@ TOCTitle: INSERT INTO statement (Microsoft Access SQL)
 ms:assetid: d3e44258-79f2-caba-8629-bde03f898f2d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834799(v=office.15)
 ms:contentKeyID: 48547918
-ms.date: 10/18/2018
+ms.date: 09/18/2015
 mtps_version: v=office.15
 f1_keywords:
 - jetsql40.chm5277575
@@ -20,11 +20,11 @@ Adds a record or multiple records to a table. This is referred to as an append q
 
 ## Syntax
 
-**Multiple-record append query**:
+Multiple-record append query:
 
 INSERT INTO *target* \[(*field1*\[, *field2*\[, …\]\])\] \[IN *externaldatabase*\] SELECT \[*source*.\]*field1*\[, *field2*\[, …\] FROM *tableexpression*
 
-**Single-record append query**:
+Single-record append query:
 
 INSERT INTO *target* \[(*field1*\[, *field2*\[, …\]\])\] VALUES (*value1*\[, *value2*\[, …\])
 
@@ -52,7 +52,7 @@ The INSERT INTO statement has these parts:
 </tr>
 <tr class="odd">
 <td><p><em>externaldatabase</em></p></td>
-<td><p>The path to an external database. For a description of the path, see the <a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/in-clause-microsoft-access-sql">IN</a> clause.</p></td>
+<td><p>The path to an external database. For a description of the path, see the <a href="https://msdn.microsoft.com/library/ff194542(v=office.15)">IN</a> clause.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>source</em></p></td>
@@ -96,9 +96,9 @@ Instead of appending existing records from another table, you can specify the va
 
 **Links provided by** the [UtterAccess](https://www.utteraccess.com) community. UtterAccess is the premier Microsoft Access wiki and help forum.
 
-- [Generating sequential numbers for INSERT/UPDATE statements](https://www.utteraccess.com/forum/generating-sequential-num-t446039.html)
+  - [Generating sequential numbers for INSERT/UPDATE statements](https://www.utteraccess.com/forum/generating-sequential-num-t446039.html)
 
-- [SQL to VBA Formatter](https://www.utteraccess.com/forum/sql-vba-formatter-t1165308.html)
+  - [SQL to VBA Formatter](https://www.utteraccess.com/forum/sql-vba-formatter-t1165308.html)
 
 ## Example
 
@@ -123,8 +123,6 @@ This example selects all records in a hypothetical New Customers table and adds 
      
     End Sub
 ```
-
-<br/>
 
 This example creates a new record in the Employees table.
 
