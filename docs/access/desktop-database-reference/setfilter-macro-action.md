@@ -14,7 +14,7 @@ f1_categories:
 
 # SetFilter Macro Action
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 You can use the **SetFilter** action to apply a filter to the records in the active datasheet, form, report, or table.
 

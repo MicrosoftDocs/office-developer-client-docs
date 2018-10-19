@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # CacheSize property (ADO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Indicates the number of records from a [Recordset](recordset-object-ado.md) object that are cached locally in memory.
 

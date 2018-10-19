@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Relations Members (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 A Relations collection contains stored Relation objects of a Database object (Microsoft Access database engine databases only).
 

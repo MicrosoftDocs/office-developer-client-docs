@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # DataMember property (ADO)
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Indicates the name of the data member that will be retrieved from the object referenced by the [DataSource](datasource-property-ado.md) property.
 

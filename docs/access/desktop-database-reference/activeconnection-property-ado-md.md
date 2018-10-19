@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # ActiveConnection property (ADO MD)
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Indicates to which ADO [Connection](connection-object-ado.md) object the current cellset or catalog currently belongs.
 

@@ -15,7 +15,7 @@ f1_categories:
 # Prepared property (ADO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Indicates whether to save a compiled version of a command before execution.
 

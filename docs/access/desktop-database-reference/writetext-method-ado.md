@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # WriteText Method (ADO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Writes a specified text string to a [Stream](stream-object-ado.md) object.
 

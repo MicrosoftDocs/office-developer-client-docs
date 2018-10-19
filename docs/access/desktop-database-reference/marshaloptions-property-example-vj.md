@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # MarshalOptions property example (VJ++)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 This example uses the [MarshalOptions](marshaloptions-property-ado.md) property to specify what rows are sent back to the server — All Rows or only Modified Rows.
 

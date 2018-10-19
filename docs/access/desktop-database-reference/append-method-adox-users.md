@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Append Method (ADOX Users)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 
 Adds a new [User](user-object-adox.md) object to the [Users](users-collection-adox.md) collection.

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Save Method (ADO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Saves the [Recordset](recordset-object-ado.md) in a file or [Stream](stream-object-ado.md) object.
 

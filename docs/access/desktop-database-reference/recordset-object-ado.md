@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Recordset Object (ADO)
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Represents the entire set of records from a base table or the results of an executed command. At any time, the **Recordset** object refers to only a single record within the set as the current record.
 

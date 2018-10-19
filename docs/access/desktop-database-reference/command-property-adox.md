@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Command Property (ADOX)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Specifies an ADO [Command](command-object-ado.md) object that can be used to create or execute the procedure.
 

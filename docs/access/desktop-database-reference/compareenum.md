@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # CompareEnum
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Specifies the relative position of two records represented by their bookmarks.
 

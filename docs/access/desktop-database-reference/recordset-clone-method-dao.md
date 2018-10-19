@@ -15,7 +15,7 @@ f1_categories:
 # Recordset.Clone Method (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Creates a duplicate **[Recordset](recordset-object-dao.md)** object that refers to the original **Recordset** object.
 

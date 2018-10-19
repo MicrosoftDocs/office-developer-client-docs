@@ -15,7 +15,7 @@ f1_categories:
 # QueryDef.Close Method (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Closes an open **QueryDef**.
 

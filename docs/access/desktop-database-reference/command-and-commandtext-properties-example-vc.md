@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Command and CommandText properties example (VC++)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 The following code demonstrates how to use the [Command](command-property-adox.md) property to update the text of a procedure.
 

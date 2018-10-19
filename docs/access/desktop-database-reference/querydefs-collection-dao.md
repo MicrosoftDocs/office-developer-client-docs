@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # QueryDefs Collection (DAO)
 
-**Applies to**: Access 2013 | Office 2013 
+**Applies to**: Access 2013, Office 2013 
 
 A **QueryDefs** collection contains all **QueryDef** objects of a **Database** object in a Microsoft Access database engine database.
 

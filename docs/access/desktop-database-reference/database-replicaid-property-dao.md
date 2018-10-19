@@ -15,7 +15,7 @@ f1_categories:
 # Database.ReplicaID Property (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 
 Returns a 16-byte value that uniquely identifies a database replica (Microsoft Access workspaces only).

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Supports Method (ADO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Determines whether a specified [Recordset](recordset-object-ado.md) object supports a particular type of functionality.
 

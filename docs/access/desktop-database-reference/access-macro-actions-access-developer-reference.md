@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Access macro actions (Access Developer Reference)
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 - [ADP objects](adp-objects.md)
 - [Data actions](data-actions.md)

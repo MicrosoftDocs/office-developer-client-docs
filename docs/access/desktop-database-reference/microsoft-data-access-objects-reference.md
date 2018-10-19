@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Microsoft Data Access Objects reference
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 - [ComplexType](complextype-object-reference-dao.md)
 - [Connection](connection-object-reference-dao.md)

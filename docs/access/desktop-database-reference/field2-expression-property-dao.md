@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Field2.Expression Property (DAO)
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Gets or sets an expression that represents the formula for a calculated field. Read/write **String**.
 

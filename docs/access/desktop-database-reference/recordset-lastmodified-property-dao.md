@@ -15,7 +15,7 @@ f1_categories:
 # Recordset.LastModified Property (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013 
+**Applies to**: Access 2013, Office 2013 
 
 Returns a bookmark indicating the most recently added or changed record.
 

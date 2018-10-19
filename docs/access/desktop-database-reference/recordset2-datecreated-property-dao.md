@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Recordset2.DateCreated Property (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Returns the date and time a base table was created (Microsoft Access workspaces only). Read-only **Variant**.
 

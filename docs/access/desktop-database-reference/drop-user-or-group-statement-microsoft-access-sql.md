@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # DROP USER or GROUP statement (Microsoft Access SQL)
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Deletes one or more existing *users* or *groups*, or removes one or more existing *users* from an existing *group*.
 

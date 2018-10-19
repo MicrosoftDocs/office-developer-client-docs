@@ -16,7 +16,7 @@ f1_categories:
 
 # UPDATE statement (Microsoft Access SQL)
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Creates an update query that changes values in fields in a specified table based on specified criteria.
 

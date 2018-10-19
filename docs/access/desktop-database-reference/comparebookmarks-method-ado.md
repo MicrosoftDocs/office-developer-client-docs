@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # CompareBookmarks Method (ADO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Compares two bookmarks and returns an indication of their relative values.
 

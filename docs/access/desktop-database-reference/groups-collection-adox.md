@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Groups Collection (ADOX)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Contains all stored [Group](group-object-adox.md) objects of a catalog or user.
 

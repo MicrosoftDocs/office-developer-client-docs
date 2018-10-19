@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Microsoft OLE DB Provider for Microsoft Indexing Service
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 The Microsoft OLE DB Provider for Microsoft Indexing Service provides programmatic read-only access to file system and web data indexed by Microsoft Indexing Service. ADO applications can issue SQL queries to retrieve content and file property information.
 

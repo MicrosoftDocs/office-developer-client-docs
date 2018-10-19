@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # LockType property (ADO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Indicates the type of locks placed on records during editing.
 

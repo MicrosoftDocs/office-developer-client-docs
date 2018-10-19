@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Source Property (ADO Error)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Indicates the name of the object or application that originally generated an error.
 

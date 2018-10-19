@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Status property example (Recordset) (VB)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 This example uses the [Status](status-property-ado-recordset.md) property to display which records have been modified in a batch operation before a batch update has occurred.
 

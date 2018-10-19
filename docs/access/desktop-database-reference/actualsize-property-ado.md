@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # ActualSize property (ADO)
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Indicates the actual length of a field's value.
 

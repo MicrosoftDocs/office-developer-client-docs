@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Connection.Connect Property (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Sets or returns a value that provides information about the source of an open connection. Read/write **String**.
 

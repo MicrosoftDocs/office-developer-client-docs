@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Configuring RDS on Windows 2000
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 If you experience difficulties getting RDS to function properly after upgrading to Windows 2000, follow the steps below to troubleshoot the issue.
 

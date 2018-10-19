@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Absolute and relative URLs
 
-**Applies to**: Access 2013 | Office 2013 
+**Applies to**: Access 2013, Office 2013    
 
 A URL specifies the location of a target stored on a local or networked computer, such as a file, directory, HTML page, image, program, and so on. In this discussion, an *absolute URL* is of the form:
 

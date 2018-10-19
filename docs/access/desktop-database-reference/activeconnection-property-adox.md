@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # ActiveConnection property (ADOX)
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Indicates the ADO [Connection](connection-object-ado.md) object to which the [Catalog](catalog-object-adox.md) belongs.
 

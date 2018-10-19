@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Prompt Property--Dynamic (ADO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Specifies whether the OLE DB provider should prompt the user for initialization information.
 

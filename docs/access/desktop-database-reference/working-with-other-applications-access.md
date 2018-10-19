@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Working with other applications (Access)
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 - [Automation with Microsoft Access](automation-with-microsoft-access.md)
 

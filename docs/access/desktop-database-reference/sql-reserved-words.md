@@ -15,7 +15,7 @@ f1_categories:
 # SQL Reserved Words
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 The following list includes all words reserved by the Microsoft Access database engine for use in SQL statements. The words in the list that are not in all uppercase letters are also reserved by other applications. Consequently, the individual Help topics for these words provide general descriptions that do not focus on SQL usage.
 

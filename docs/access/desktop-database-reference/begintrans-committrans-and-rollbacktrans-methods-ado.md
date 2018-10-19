@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # BeginTrans, CommitTrans, and RollbackTrans Methods (ADO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 
 These transaction methods manage transaction processing within a [Connection](connection-object-ado.md) object as follows:

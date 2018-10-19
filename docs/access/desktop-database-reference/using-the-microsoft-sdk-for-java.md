@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Using the Microsoft SDK for Java
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 The Microsoft SDK for Java is the developer kit for the Microsoft Internet Explorer environment. Tools, information, and samples are provided to help you develop Java programs and applets based on JDK 1.1 and the Microsoft Win32 virtual machine (Microsoft VM). The Microsoft SDK for Java is not tied to Microsoft Visual J++.
 

@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Accessing rows in a hierarchical Recordset
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 The following example shows the steps necessary to access rows in a hierarchical [Recordset](recordset-object-ado.md):
 

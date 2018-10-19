@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Cell Object (ADO MD)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Represents the data at the intersection of axis coordinates contained in a cellset.
 

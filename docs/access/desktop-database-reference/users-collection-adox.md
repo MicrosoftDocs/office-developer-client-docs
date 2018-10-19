@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Users Collection (ADOX)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Contains all stored [User](user-object-adox.md) objects of a catalog or group.
 

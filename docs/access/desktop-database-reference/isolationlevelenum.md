@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # IsolationLevelEnum
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Specifies the level of transaction isolation for a [Connection](connection-object-ado.md) object.
 

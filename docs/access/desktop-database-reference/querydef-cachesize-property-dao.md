@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # QueryDef.CacheSize Property (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Sets or returns the number of records retrieved from an ODBC data source that will be cached locally. Read/write **Long**.
 

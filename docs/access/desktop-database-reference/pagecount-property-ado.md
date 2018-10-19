@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # PageCount property (ADO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Indicates how many pages of data the [Recordset](recordset-object-ado.md) object contains.
 

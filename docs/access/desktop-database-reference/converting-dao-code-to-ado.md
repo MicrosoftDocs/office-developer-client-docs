@@ -14,7 +14,7 @@ f1_categories:
 
 # Convert DAO code to ADO
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 > [!NOTE]
 > Versions of the DAO library prior to 3.6 are not provided or supported in Access.

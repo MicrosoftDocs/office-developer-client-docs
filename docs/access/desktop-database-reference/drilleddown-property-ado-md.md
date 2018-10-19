@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # DrilledDown Property (ADO MD)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Indicates whether no children immediately follow the member on the axis.
 

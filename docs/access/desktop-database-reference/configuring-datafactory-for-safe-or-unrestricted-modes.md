@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Configuring DataFactory for Safe or Unrestricted Modes
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 By default, ADO is installed with a "safe" [RDSServer.DataFactory](datafactory-object-rdsserver.md) configuration. Safe mode for RDS Server components means that the following are true:
 

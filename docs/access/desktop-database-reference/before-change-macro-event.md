@@ -16,7 +16,7 @@ f1_categories:
 
 # Before Change Macro Event
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 The **Before Change** event occurs when a record changes, but before the change is committed.
 

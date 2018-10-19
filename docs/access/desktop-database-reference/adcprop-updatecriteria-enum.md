@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # ADCPROP\_UPDATECRITERIA\_ENUM
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Specifies which fields can be used to detect conflicts during an optimistic update of a row of the data source with a [Recordset](recordset-object-ado.md) object.
 

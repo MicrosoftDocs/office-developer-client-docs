@@ -15,7 +15,7 @@ f1_categories:
 # Recordset.AddNew Method (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Creates a new record for an updatable **[Recordset](recordset-object-dao.md)** object.
 

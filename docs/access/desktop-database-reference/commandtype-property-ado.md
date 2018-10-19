@@ -15,7 +15,7 @@ f1_categories:
 # CommandType property (ADO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Indicates the type of a [Command](command-object-ado.md) object.
 

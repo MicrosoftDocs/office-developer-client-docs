@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Using AddNew in Immediate and Batch Modes
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 The behavior of the **AddNew** method depends on the updating mode of the **Recordset** object and whether you pass the *FieldList* and *Values* arguments.
 

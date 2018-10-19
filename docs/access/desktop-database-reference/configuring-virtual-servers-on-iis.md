@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Configuring Virtual Servers on IIS
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 When creating virtual servers in Internet Information Services 4.0, the following two extra steps are needed in order to configure the virtual server to work with RDS:
 

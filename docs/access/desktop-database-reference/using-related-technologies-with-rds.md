@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Using Related Technologies with RDS
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 This section contains specific information about using RDS with aspects of the following technologies:
 

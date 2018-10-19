@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Understanding Recordset Structure
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Every **Recordset** has a **Fields** collection consisting of one or more **Field** objects. A **Field** object usually represents a table column. 
 

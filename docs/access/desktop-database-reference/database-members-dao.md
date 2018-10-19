@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Database Members (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 A Database object represents an open database.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # NextRecordset Method (ADO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
  
 
 Clears the current [Recordset](recordset-object-ado.md) object and returns the next **Recordset** by advancing through a series of commands.

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ChildCount Property (ADO MD)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Indicates the number of members for which the current [Member](member-object-ado-md.md) object is the parent in a hierarchy.
 

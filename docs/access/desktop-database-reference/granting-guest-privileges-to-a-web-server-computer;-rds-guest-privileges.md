@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Granting Guest Privileges to a Web Server Computer; RDS guest privileges 
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 The anonymous web server account (IUSR\_*ComputerName*) must be added to the Guests local group on the web server computer to use RDS.
 

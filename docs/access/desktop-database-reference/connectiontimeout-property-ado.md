@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ConnectionTimeout property (ADO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Indicates how long to wait while establishing a connection before terminating the attempt and generating an error.
 

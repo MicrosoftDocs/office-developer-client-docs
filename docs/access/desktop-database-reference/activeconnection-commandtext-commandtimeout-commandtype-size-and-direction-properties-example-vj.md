@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VJ++)
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 This example uses the [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md), and [Direction](direction-property-ado.md) properties to execute a stored procedure.
 

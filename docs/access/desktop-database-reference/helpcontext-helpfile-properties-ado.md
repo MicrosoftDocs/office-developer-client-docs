@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # HelpContext, HelpFile properties (ADO)
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Indicates the help file and topic associated with an [Error](error-object-ado.md) object.
 

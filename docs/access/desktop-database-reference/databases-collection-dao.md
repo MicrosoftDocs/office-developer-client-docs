@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Databases Collection (DAO)
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 A **Databases** collection contains all open **Database** objects opened or created in a **Workspace** object.
 

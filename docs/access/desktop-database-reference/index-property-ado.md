@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Index property (ADO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Indicates the name of the index currently in effect for a [Recordset](recordset-object-ado.md) object.
 

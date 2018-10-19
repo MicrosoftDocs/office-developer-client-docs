@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # What's New in ADO
 
 
-**Applies to**: Access 2013 | Office 2013 
+**Applies to**: Access 2013, Office 2013 
  
 
 The following new features and enhanced documentation are included in the ADO 2.5 release. This list covers ADO, ADO MD, and ADOX.

@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # ActionEnum
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Specifies the type of action to be performed when [SetPermissions](setpermissions-method-adox.md) is called.
 

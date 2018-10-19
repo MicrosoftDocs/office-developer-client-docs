@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # StreamReadEnum
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Specifies whether the whole stream or the next line should be read from a [Stream](stream-object-ado.md) object.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Ordinal Property (ADO MD Position)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Uniquely identifies a position along an axis.
 

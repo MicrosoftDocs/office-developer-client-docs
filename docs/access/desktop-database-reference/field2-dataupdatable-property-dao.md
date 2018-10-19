@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Field2.DataUpdatable Property (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 
 Returns a value that indicates whether the data in the field represented by a **Field2** object is updatable.

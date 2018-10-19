@@ -15,7 +15,7 @@ f1_categories:
 
 # Convert Microsoft Access tables, forms, and reports
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Several changes introduced by Microsoft Access 2002 might affect the behavior of your version 1.*x* or 2.0 applications. The following sections provide more information about those changes.
 

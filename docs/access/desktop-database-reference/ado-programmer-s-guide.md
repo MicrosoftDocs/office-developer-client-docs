@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # ADO Programmer's Guide
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 The ADO Programmer's Guide has been created to assist developers who are new to ADO by giving them a thorough introduction to the technology. This guide describes the libraries of the ADO family and uses sample code in a variety of languages to explain how to use the libraries, best practices for using the libraries, and tips and tricks for maximizing the performance of your ADO application.
 

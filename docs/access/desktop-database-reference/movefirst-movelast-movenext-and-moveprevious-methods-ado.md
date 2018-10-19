@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # MoveFirst, MoveLast, MoveNext, and MovePrevious Methods (ADO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Moves to the first, last, next, or previous record in a specified [Recordset](recordset-object-ado.md) object and makes that record the current record.
 

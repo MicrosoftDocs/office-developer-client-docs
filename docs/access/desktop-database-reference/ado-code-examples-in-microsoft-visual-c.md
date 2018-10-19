@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ADO code examples in Microsoft Visual C++
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Use the following code examples to learn how to use the ADO methods, properties, and events when writing in Microsoft Visual C++.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # WillExecute Event (ADO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 
 The **WillExecute** event is called just before a pending command executes on a connection.

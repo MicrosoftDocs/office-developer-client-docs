@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Property Members (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 A Property object represents a built-in or user-defined characteristic of a DAO object.
 

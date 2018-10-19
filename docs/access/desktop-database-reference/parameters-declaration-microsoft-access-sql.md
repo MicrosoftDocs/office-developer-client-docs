@@ -17,7 +17,7 @@ f1_categories:
 # PARAMETERS Declaration (Microsoft Access SQL)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Declares the name and data type of each parameter in a parameter query.
 

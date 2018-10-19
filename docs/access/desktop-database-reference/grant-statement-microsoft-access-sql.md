@@ -14,7 +14,7 @@ f1_categories:
 
 # GRANT statement (Microsoft Access SQL)
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Grants specific privileges to an existing user or group.
 

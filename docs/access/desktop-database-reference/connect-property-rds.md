@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Connect Property (RDS)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Indicates the database name from which the query and update operations are run.
 

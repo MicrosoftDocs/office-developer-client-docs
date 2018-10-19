@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Position property (ADO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Indicates the current position within a [Stream](stream-object-ado.md) object.
 

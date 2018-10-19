@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Recordset2.MoveFirst Method (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Moves to the first record in a specified **Recordset** object and make that record the current record.
 

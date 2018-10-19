@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Item property (ADO)
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Indicates a specific member of a collection, by name or ordinal number.
 

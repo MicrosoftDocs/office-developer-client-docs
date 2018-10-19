@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # ADCPROP\_AUTORECALC\_ENUM
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Specifies when the [MSDataShape](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md) provider re-calculates aggregate and calculated columns in a hierarchical Recordset.
 

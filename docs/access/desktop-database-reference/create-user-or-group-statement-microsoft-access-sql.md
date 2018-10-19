@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # CREATE USER or GROUP statement (Microsoft Access SQL)
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Creates one or more new users or groups.
 

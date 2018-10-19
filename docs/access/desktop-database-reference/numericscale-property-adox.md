@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # NumericScale Property (ADOX)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Indicates the scale of a numeric value in the column.
 

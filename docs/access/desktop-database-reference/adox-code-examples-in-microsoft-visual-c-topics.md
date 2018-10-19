@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ADOX Code Examples in Microsoft Visual C++ Topics
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 
   - [ADOX Code Examples in Microsoft Visual C++](adox-code-examples-in-microsoft-visual-c.md)

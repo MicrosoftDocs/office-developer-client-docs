@@ -12,7 +12,7 @@ dev_langs:
 
 # LEFT JOIN, RIGHT JOIN Operations (Microsoft Access SQL)
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Combines source-table records when used in any [FROM](https://msdn.microsoft.com/library/ff836674\(v=office.15\)) clause.
 

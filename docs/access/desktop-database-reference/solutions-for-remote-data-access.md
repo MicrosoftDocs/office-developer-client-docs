@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Solutions for Remote Data Access
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 ## The Issue
 

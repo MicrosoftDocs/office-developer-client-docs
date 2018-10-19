@@ -15,7 +15,7 @@ f1_categories:
 # ODBC Scalar Functions
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Microsoft® Access SQL supports the use of the ODBC defined syntax for scalar functions. For example, the query:
 

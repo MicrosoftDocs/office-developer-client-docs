@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Open Method (ADO Record)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 
 Opens an existing [Record](record-object-ado.md) object, or creates a new item represented by the **Record** (such as a file or directory).

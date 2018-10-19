@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # MoveRecord Method (ADO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
  
 
 Moves the entity represent by a [Record](record-object-ado.md) to another location.

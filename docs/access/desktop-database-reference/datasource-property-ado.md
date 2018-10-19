@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # DataSource property (ADO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Indicates an object that contains data to be represented as a [Recordset](recordset-object-ado.md) object.
 

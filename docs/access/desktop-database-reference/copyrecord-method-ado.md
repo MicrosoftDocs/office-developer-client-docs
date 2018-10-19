@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # CopyRecord Method (ADO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Copies a entity represented by a **Record** to another location.
 

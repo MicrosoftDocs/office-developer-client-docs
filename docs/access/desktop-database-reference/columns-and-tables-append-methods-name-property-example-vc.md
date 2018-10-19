@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Columns and Tables Append Methods, Name property example (VC++)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 The following code demonstrates how to create a new table.
 

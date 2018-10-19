@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Recordset2.AddNew Method (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
  
 
 Creates a new record for an updatable **Recordset2** object.

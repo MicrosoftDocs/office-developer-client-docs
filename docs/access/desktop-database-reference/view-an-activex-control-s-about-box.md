@@ -15,7 +15,7 @@ f1_categories:
 
 # View an ActiveX control About box
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 To view an **About** box showing version and copyright information for an ActiveX control:
 

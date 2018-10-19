@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Unique Table, Unique Schema, Unique Catalog Properties--Dynamic (ADO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Enables you to closely control modifications to a particular base table in a [Recordset](recordset-object-ado.md) that was formed by a JOIN operation on multiple base tables.
 
