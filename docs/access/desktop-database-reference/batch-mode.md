@@ -17,3 +17,17 @@ Batch mode is in effect when the **LockType** property is set to **adLockBatchOp
 
 The **UpdateBatch** method is used to send **Recordset** changes held in the copy buffer to the server to update the data source. In the following section, we will open a **Recordset** in batch mode, make changes to the copy buffer, and then send our changes to the data source using a call to **UpdateBatch**.
 
+This section includes the following topics:
+
+- [Sending the Updates: UpdateBatch](sending-the-updates-updatebatch.md)
+
+- [Filtering for Updated Records](filtering-for-updated-records.md)
+
+- [Dealing with Failed Updates](dealing-with-failed-updates.md)
+
+- [Detecting and Resolving Conflicts](detecting-and-resolving-conflicts.md)
+
+- [Disconnecting and Reconnecting the Recordset](disconnecting-and-reconnecting-the-recordset.md)
+
+- [Updating JOINed Results: Unique Table](updating-joined-results-unique-table.md)
+

@@ -33,3 +33,12 @@ You can access the **Recordset** components of the shaped **Recordset** programm
 
 For examples of shape commands and their resulting hierarchies, see Using the Data Shaping Service for OLE DB: A Closer Look.
 
+This section includes the following topics:
+
+- [Reshaping](reshaping.md)
+
+- [Grandchild Aggregates](grandchild-aggregates.md)
+
+- [Parameterized Commands with Intervening COMPUTE Commands](parameterized-commands-with-intervening-compute-commands.md)
+
+- [Persisting Hierarchical Recordsets](persisting-hierarchical-recordsets.md)

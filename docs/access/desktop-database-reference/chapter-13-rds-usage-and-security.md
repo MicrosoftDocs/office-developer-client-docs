@@ -17,11 +17,29 @@ Use the information in this chapter to set up your server and use RDS quickly. T
 
 This section contains information about:
 
-  - [Configuring RDS](configuring-rds.md)
+- [Configuring RDS](configuring-rds.md)
 
-  - [Using Related Technologies with RDS](using-related-technologies-with-rds.md)
+- [Granting Guest Privileges to a Web Server Computer; RDS guest privileges \[ADO\]](granting-guest-privileges-to-a-web-server-computer;-rds-guest-privileges.md)
 
-  - [DataFactory Customization](datafactory-customization.md)
+- [Marking Business Objects as Safe for Scripting](marking-business-objects-as-safe-for-scripting.md)
 
-  - [Troubleshooting RDS](troubleshooting-rds.md)
+- [Registering Business Objects on the Client for Use with DCOM](registering-business-objects-on-the-client-for-use-with-dcom.md)
+
+- [Setting DCOM Stream Marshaling Format](setting-dcom-stream-marshaling-format.md)
+
+- [Enabling a DLL to Run on DCOM](enabling-a-dll-to-run-on-dcom.md)
+
+- [Configuring Virtual Servers on IIS](configuring-virtual-servers-on-iis.md)
+
+- [Specifying Threads Per Processor on IIS](specifying-threads-per-processor-on-iis.md)
+
+- [Securing RDS Applications](securing-rds-applications.md)
+
+- [Configuring DataFactory for Safe or Unrestricted Modes](configuring-datafactory-for-safe-or-unrestricted-modes.md)
+
+- [Using Related Technologies with RDS (ADO)](using-related-technologies-with-rds.md)
+
+- [DataFactory Customization (ADO)](datafactory-customization.md)
+
+- [Troubleshooting RDS (ADO)](troubleshooting-rds.md)
 

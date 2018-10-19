@@ -68,5 +68,5 @@ Debug.Print cn.Properties("Data Provider")
 cn.Properties("Data Provider") = "MSDASQL" 
 ```
 
-For more information about data shaping, see [Data Shaping](data-shaping-summary.md).
+For more information about data shaping, see [Data Shaping](data-shaping.md).
 
