@@ -55,4 +55,4 @@ This chapter covers the following topics:
 
 - [Absolute and Relative URLs](absolute-and-relative-urls.md)
 
-- [Using ADO for Internet Publishing (ADO)](using-ado-for-internet-publishing-ado.md)
+- [Using ADO for Internet Publishing (ADO)](using-ado-for-internet-publishing.md)

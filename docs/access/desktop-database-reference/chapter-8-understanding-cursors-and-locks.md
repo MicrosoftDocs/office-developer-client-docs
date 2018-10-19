@@ -29,7 +29,7 @@ This chapter covers the following topics:
 
 - [Cursor and Lock Characteristics](cursor-and-lock-characteristics.md)
 
-- [What is a Lock? (ADO)](what-is-a-lock-ado.md)
+- [Types of Cursors (ADO)](types-of-cursors.md)
 
-- [Types of Cursors (ADO)](types-of-cursors-ado.md)
+- [What is a Lock? (ADO)](what-is-a-lock.md)
 

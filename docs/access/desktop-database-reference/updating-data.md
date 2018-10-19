@@ -27,5 +27,5 @@ This section includes the following topics:
 
 - [Transaction Processing](transaction-processing.md)
 
-- [Batch Mode (ADO)](batch-mode-ado.md)
+- [Batch Mode (ADO)](batch-mode.md)
 

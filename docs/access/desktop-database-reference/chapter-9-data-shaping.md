@@ -31,9 +31,9 @@ See the following topics to learn more about data shaping:
 
 - [Visual Basic for Applications functions](visual-basic-for-applications-functions.md)
 
-- [Shape Append Clause (ADO)](shape-append-clause-ado.md)
+- [Shape Append Clause (ADO)](shape-append-clause.md)
 
-- [Data Shaping Summary (ADO)](data-shaping-summary-ado.md)
+- [Data Shaping (ADO)](data-shaping.md)
 
-- [Shape Commands in General (ADO)](shape-commands-in-general-ado.md)
+- [Shape Commands in General (ADO)](shape-commands-in-general.md)
 

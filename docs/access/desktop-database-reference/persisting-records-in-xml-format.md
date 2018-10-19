@@ -80,4 +80,4 @@ This section includes the following topics:
 
 - [XML Security Considerations](xml-security-considerations.md)
 
-- [XML Recordset Persistence Scenario Topics](xml-recordset-persistence-scenario-topics.md)
+- [XML Recordset Persistence Scenario Topics](xml-recordset-persistence-scenario.md)

@@ -21,6 +21,6 @@ This chapter covers the following topics:
 
 - [Errors](errors.md)
 
-- [HelloData: A Simple ADO Application (ADO)](hellodata-a-simple-ado-application-ado.md)
+- [HelloData: A Simple ADO Application (ADO)](hellodata-a-simple-ado-application.md)
 
-- [OLE DB Providers (ADO)](ole-db-providers-ado.md)
+- [OLE DB Providers (ADO)](ole-db-providers.md)

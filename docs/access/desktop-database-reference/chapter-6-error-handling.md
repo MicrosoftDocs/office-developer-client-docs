@@ -45,4 +45,4 @@ The following sections describe each of these notification methods in more detai
 
 - [Anticipating Errors](anticipating-errors.md)
 
-- [Handling Errors in Other Languages (ADO)](handling-errors-in-other-languages-ado.md)
+- [Handling Errors in Other Languages (ADO)](handling-errors-in-other-languages.md)

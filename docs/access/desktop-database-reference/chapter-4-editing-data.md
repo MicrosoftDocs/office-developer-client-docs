@@ -76,4 +76,4 @@ This chapter covers the following topics:
 
 - [Alternatives: Using SQL Statements](alternatives-using-sql-statements.md)
 
-- [Adding Records (ADO)](adding-records-ado.md)
+- [Adding Records (ADO)](adding-records.md)

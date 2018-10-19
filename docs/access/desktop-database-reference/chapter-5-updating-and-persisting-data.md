@@ -25,6 +25,6 @@ In immediate mode, each invocation of the **Update** method propagates the chang
 
 This chapter covers the following topics:
 
-- [Updating Data (ADO)](updating-data-ado.md)
+- [Updating Data (ADO)](updating-data.md)
 
-- [Persisting Data (ADO)](persisting-data-ado.md)
+- [Persisting Data (ADO)](persisting-data.md)

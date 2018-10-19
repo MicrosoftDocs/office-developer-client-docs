@@ -39,4 +39,4 @@ Several ADO objects have been enhanced to work in conjunction with **Record** an
 
 ## See also
 
-- [Internet Publishing Scenario topics](internet-publishing-scenario-topics.md)
+- [Internet Publishing Scenario topics](internet-publishing-scenario.md)

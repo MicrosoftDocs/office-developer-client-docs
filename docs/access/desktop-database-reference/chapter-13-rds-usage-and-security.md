@@ -37,9 +37,9 @@ This section contains information about:
 
 - [Configuring DataFactory for Safe or Unrestricted Modes](configuring-datafactory-for-safe-or-unrestricted-modes.md)
 
-- [Using Related Technologies with RDS (ADO)](using-related-technologies-with-rds-ado.md)
+- [Using Related Technologies with RDS (ADO)](using-related-technologies-with-rds.md)
 
-- [DataFactory Customization (ADO)](datafactory-customization-ado.md)
+- [DataFactory Customization (ADO)](datafactory-customization.md)
 
-- [Troubleshooting RDS (ADO)](troubleshooting-rds-ado.md)
+- [Troubleshooting RDS (ADO)](troubleshooting-rds.md)
 

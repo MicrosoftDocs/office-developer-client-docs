@@ -104,4 +104,4 @@ This section includes the following topics:
 
 - [Persisting Filtered and Hierarchical Recordsets](persisting-filtered-and-hierarchical-recordsets.md)
 
-- [Persisting Records in XML Format (ADO)](persisting-records-in-xml-format-ado.md)
+- [Persisting Records in XML Format (ADO)](persisting-records-in-xml-format.md)

@@ -33,8 +33,8 @@ This chapter covers the following topics:
 
   - [Making a Connection](making-a-connection.md)
 
-  - [Using the Connection Object Reference (ADO)](using-the-connection-object-reference-ado.md)
+  - [Using the Connection Object Reference (ADO)](using-the-connection-object-access.md)
 
-  - [Using the Command Object Reference (ADO)](using-the-command-object-reference-ado.md)
+  - [Using the Command Object Reference (ADO)](using-the-command-object-access.md)
 
-  - [Adding Data to a Recordset (ADO)](adding-data-to-a-recordset-ado.md)
+  - [Adding Data to a Recordset (ADO)](adding-data-to-a-recordset.md)
