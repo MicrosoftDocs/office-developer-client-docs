@@ -27,7 +27,7 @@ The application queries the Northwind sample database that is included with Micr
 
 4.  Create a **TextBox** on the form below the grid and set its properties as shown in the table. The form should look similar to the following figure when you are finished.
 
-5.  Finally, copy the code listed in "[HelloData Code](hellodata-code.md)" and paste it into the code editor window of the form. Press **F5** to run the code.
+5.  Finally, copy the code listed in [HelloData Code](hellodata-code.md) and paste it into the code editor window of the form. Press **F5** to run the code.
 
 
 > [!NOTE]
@@ -35,7 +35,7 @@ The application queries the Northwind sample database that is included with Micr
 
 
 
-For a detailed description of the code, see "[HelloData Details](hellodata-details.md)."
+For a detailed description of the code, see [HelloData Details](hellodata-details.md).
 
 <table>
 <colgroup>
@@ -130,4 +130,6 @@ For a detailed description of the code, see "[HelloData Details](hellodata-detai
 </tr>
 </tbody>
 </table>
+
+
 

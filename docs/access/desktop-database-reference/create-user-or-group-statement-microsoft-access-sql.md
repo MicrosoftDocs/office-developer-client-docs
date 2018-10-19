@@ -1,15 +1,14 @@
-﻿---
+---
 title: CREATE USER or GROUP statement (Microsoft Access SQL)
 TOCTitle: CREATE USER or GROUP statement (Microsoft Access SQL)
 ms:assetid: 62148ce2-0f81-944e-a1ab-edef990fff9f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194914(v=office.15)
 ms:contentKeyID: 48545229
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
 # CREATE USER or GROUP statement (Microsoft Access SQL)
-
 
 **Applies to**: Access 2013 | Office 2013
 
@@ -17,11 +16,11 @@ Creates one or more new users or groups.
 
 ## Syntax
 
-Create a user:
+**Create a user**:
 
 CREATE USER *user* *password pid* \[, *user* *password pid*, …\]
 
-Create a group:
+**Create a group**:
 
 CREATE GROUP *group* *pid*\[, *group* *pid*, …\]
 

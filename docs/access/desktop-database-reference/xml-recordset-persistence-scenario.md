@@ -10,18 +10,14 @@ mtps_version: v=office.15
 
 # XML Recordset Persistence Scenario
 
-
 **Applies to**: Access 2013 | Office 2013
 
 ## XML Recordset Persistence Scenario
 
 In this scenario, you will create an Active Server Pages (ASP) application that saves the contents of a **Recordset** object directly to the ASP **Response** object.
 
-
 > [!NOTE]
-> <P>This scenario requires that your server have Internet Information Server 5.0 (IIS) or later installed.</P>
-
-
+> This scenario requires that your server have Internet Information Server 5.0 (IIS) or later installed.
 
 The returned **Recordset** is displayed in Internet Explorer using an [RDS.DataControl](datacontrol-object-rds.md).
 
@@ -35,5 +31,7 @@ The following steps are necessary to create this scenario:
 
 4.  Receive and display the data.
 
-**Next**[Step 1: Set Up the Application](step-1-set-up-the-application.md)
+### Next step
+
+[Step 1: Set Up the Application](step-1-set-up-the-application.md)
 

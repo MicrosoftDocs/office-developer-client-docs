@@ -17,5 +17,7 @@ mtps_version: v=office.15
 
 Create an IIS virtual directory named "XMLPersist" with script permissions. Create two new text files in the folder to which the virtual directory points, one named "XMLResponse.asp," the other named "Default.htm."
 
-**Next** [Step 2: Get the Data](step-2-get-the-data.md)
+### Next step
+
+[Step 2: Get the Data](step-2-get-the-data.md)
 
