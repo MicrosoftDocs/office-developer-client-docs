@@ -1657,21 +1657,19 @@
                       href: access/desktop-database-reference/data-providers.md
                     - name: Service Providers and Components
                       href: access/desktop-database-reference/service-providers-and-components.md
-                - name: 'Chapter 2: Getting Data'
+                - name: 'Chapter 2: Getting data'
                   href: access/desktop-database-reference/chapter-2-getting-data-ado.md
                   items:
-                  - name: 'Chapter 2: Getting Data'
+                  - name: 'Chapter 2: Getting data'
                     href: access/desktop-database-reference/chapter-2-getting-data.md
                   - name: Making a Connection
                     href: access/desktop-database-reference/making-a-connection.md
                   - name: Using the Connection object
-                    href: access/desktop-database-reference/using-the-connection-object-reference-ado.md
+                    href: access/desktop-database-reference/using-the-connection-object-access.md
                     items:
-                    - name: Using the Connection object
-                      href: access/desktop-database-reference/using-the-connection-object-access.md
-                    - name: Creating the Connection String
+                    - name: Creating the connection string
                       href: access/desktop-database-reference/creating-the-connection-string.md
-                    - name: Controlling Transactions
+                    - name: Controlling transactions
                       href: access/desktop-database-reference/controlling-transactions.md
                   - name: Using the Command object
                     href: access/desktop-database-reference/using-the-command-object-reference-ado.md
@@ -1688,11 +1686,8 @@
                       href: access/desktop-database-reference/calling-a-stored-procedure-with-a-command.md
                     - name: Named Commands
                       href: access/desktop-database-reference/named-commands.md
-                  - name: Adding Data to a Recordset
-                    href: access/desktop-database-reference/adding-data-to-a-recordset-ado.md
-                    items:
-                    - name: Adding Data to a Recordset
-                      href: access/desktop-database-reference/adding-data-to-a-recordset.md
+                  - name: Adding data to a Recordset
+                    href: access/desktop-database-reference/adding-data-to-a-recordset.md
                 - name: 'Chapter 3: Examining Data'
                   href: access/desktop-database-reference/chapter-3-examining-data-ado.md
                   items:

@@ -19,21 +19,21 @@ The data shaping syntax also provides other capabilities. Developers can create 
 
 See the following topics to learn more about data shaping:
 
-  - [Data Shaping Summary](data-shaping-summary.md)
+- [Required Providers for Data Shaping](required-providers-for-data-shaping.md)
 
-  - [Required Providers for Data Shaping](required-providers-for-data-shaping.md)
+- [Shape Compute Clause](shape-compute-clause.md)
 
-  - [Shape Commands in General](shape-commands-in-general.md)
+- [Fabricating Hierarchical Recordsets](fabricating-hierarchical-recordsets.md)
 
-  - [Shape APPEND Clause](shape-append-clause.md)
+- [Accessing Rows in a Hierarchical Recordset](accessing-rows-in-a-hierarchical-recordset.md)
 
-  - [Shape COMPUTE Clause](shape-compute-clause.md)
+- [Formal Shape Grammar](formal-shape-grammar.md)
 
-  - [Fabricating Hierarchical Recordsets](fabricating-hierarchical-recordsets.md)
+- [Visual Basic for Applications functions](visual-basic-for-applications-functions.md)
 
-  - [Accessing Rows in a Hierarchical Recordset](accessing-rows-in-a-hierarchical-recordset.md)
+- [Shape Append Clause (ADO)](shape-append-clause-ado.md)
 
-  - [Formal Shape Grammar](formal-shape-grammar.md)
+- [Data Shaping Summary (ADO)](data-shaping-summary-ado.md)
 
-  - [Visual Basic for Applications Functions](visual-basic-for-applications-functions.md)
+- [Shape Commands in General (ADO)](shape-commands-in-general-ado.md)
 

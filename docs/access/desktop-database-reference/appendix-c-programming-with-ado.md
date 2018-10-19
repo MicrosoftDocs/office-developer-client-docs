@@ -19,11 +19,14 @@ The library for ADO is msado15.dll and the program ID (ProgID) prefix is "ADODB.
 
 For more information about programming with ADO in various development environments, see the following topics:
 
-  - [Using ADO with Microsoft Visual Basic](using-ado-with-microsoft-visual-basic.md)
+- [Using ADO with Microsoft Visual Basic](using-ado-with-microsoft-visual-basic.md)
 
-  - [Using ADO with Scripting Languages](using-ado-with-scripting-languages.md)
+- [Using ADO with Scripting Languages](using-ado-with-scripting-languages.md)
 
-  - [Using ADO with Microsoft Visual C++](using-ado-with-microsoft-visual-c.md)
+- [Using ADO with Microsoft Visual C++](using-ado-with-microsoft-visual-c.md)
 
-  - [Using ADO with Microsoft Visual J++](using-ado-with-microsoft-visual-j.md)
+- [Using ADO with Microsoft Visual J++](using-ado-with-microsoft-visual-j.md)
+
+
+
 

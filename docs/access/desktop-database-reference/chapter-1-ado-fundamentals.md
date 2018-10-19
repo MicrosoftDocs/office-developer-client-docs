@@ -15,3 +15,12 @@ mtps_version: v=office.15
 
 This chapter is an introduction to the ADO library. It discusses what you can do with ADO, reviews the objects in the ADO hierarchy, and presents a simple ADO application that uses many of the ADO objects to retrieve, edit, and update data from a data source. Finally, this chapter covers two issues that are important to understand for writing ADO applications: OLE DB providers and errors.
 
+This chapter covers the following topics:
+
+- [What You Can Do With ADO](what-you-can-do-with-ado.md)
+
+- [Errors](errors.md)
+
+- [HelloData: A Simple ADO Application (ADO)](hellodata-a-simple-ado-application-ado.md)
+
+- [OLE DB Providers (ADO)](ole-db-providers-ado.md)
