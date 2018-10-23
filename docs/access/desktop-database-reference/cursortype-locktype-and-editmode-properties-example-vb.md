@@ -1,6 +1,6 @@
 ﻿---
-title: CursorType, LockType, and EditMode Properties Example (VB)
-TOCTitle: CursorType, LockType, and EditMode Properties Example (VB)
+title: CursorType, LockType, and EditMode properties example (VB)
+TOCTitle: CursorType, LockType, and EditMode properties example (VB)
 ms:assetid: efe3f976-b095-c0ce-376a-693b07ec8e9d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250221(v=office.15)
 ms:contentKeyID: 48548595
@@ -8,10 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# CursorType, LockType, and EditMode Properties Example (VB)
+# CursorType, LockType, and EditMode properties example (VB)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 This example demonstrates setting the [CursorType](cursortype-property-ado.md) and [LockType](locktype-property-ado.md) properties before opening a [Recordset](recordset-object-ado.md). It also shows the value of the [EditMode](editmode-property-ado.md) property under various conditions. The **EditModeOutput** function is required for this procedure to run.
 

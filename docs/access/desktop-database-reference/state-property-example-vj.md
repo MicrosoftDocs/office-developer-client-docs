@@ -1,6 +1,6 @@
 ﻿---
-title: State Property Example (VJ++)
-TOCTitle: State Property Example (VJ++)
+title: State property example (VJ++)
+TOCTitle: State property example (VJ++)
 ms:assetid: 7de6b4c1-b761-4060-7d97-6207542c202d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249529(v=office.15)
 ms:contentKeyID: 48545869
@@ -8,10 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# State Property Example (VJ++)
+# State property example (VJ++)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 This example uses the [State](state-property-ado.md) property to display a message while asynchronous connections are opening and asynchronous commands are executing.
 

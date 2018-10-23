@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Intervening Shape COMPUTE Clauses
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 It is valid to embed one or more COMPUTE clauses between the parent and child in a parameterized shape command, as in the following example:
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # What is a Lock?
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Locking is the process by which a DBMS restricts access to a row in a multi-user environment. When a row or column is exclusively locked, other users are not permitted to access the locked data until the lock is released. This ensures that two users cannot simultaneously update the same column in a row.
 

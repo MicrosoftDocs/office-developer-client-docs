@@ -1,6 +1,6 @@
 ﻿---
-title: Description, HelpContext, HelpFile Properties Example (VJ++)
-TOCTitle: Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState Properties Example (VJ++)
+title: Description, HelpContext, HelpFile properties example (VJ++)
+TOCTitle: Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState properties example (VJ++)
 ms:assetid: daa3ff89-9f7f-f832-479e-bbb51c918ae8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250100(v=office.15)
 ms:contentKeyID: 48548085
@@ -8,10 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState Properties Example (VJ++)
+# Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState properties example (VJ++)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 This example triggers an error, traps it, and displays the [Description](description-property-ado.md), [HelpContext](helpcontext-helpfile-properties-ado.md), [HelpFile](helpcontext-helpfile-properties-ado.md), [NativeError](nativeerror-property-ado.md), [Number](number-property-ado.md), [Source](source-property-ado-error.md), and [SQLState](sqlstate-property-ado.md) properties of the resulting [Error](error-object-ado.md) object.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ConvertToString Method (RDS)
 
 
-**Applies to**: Access 2013, Office 2013 
+**Applies to**: Access 2013 | Office 2013 
 
 Converts a [Recordset](recordset-object-ado.md) to a MIME string that represents the recordset data.
 

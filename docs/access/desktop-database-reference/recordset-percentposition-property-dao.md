@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Recordset.PercentPosition Property (DAO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Sets or returns a value indicating the approximate location of the current record in the **[Recordset](recordset-object-dao.md)** object based on a percentage of the records in the **Recordset**.
 

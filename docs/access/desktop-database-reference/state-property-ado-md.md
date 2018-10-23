@@ -11,11 +11,11 @@ mtps_version: v=office.15
 # State Property (ADO MD)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Indicates the current state of the cellset.
 
-## Return Values
+## Return values
 
 Returns a **Long** integer indicating the current condition of the [Cellset](cellset-object-ado-md.md) object and is read-only. The following values are valid: **adStateClosed** (0) and **adStateOpen** (1).
 

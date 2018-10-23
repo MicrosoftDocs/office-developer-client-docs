@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # The ADO Family of Libraries
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 
 
@@ -21,7 +21,7 @@ Three major libraries make up the ADO family: ADO (including RDS), ADO MD, and A
 
 ADO enables your client applications to access and manipulate data from a database server through an OLE DB provider. The primary benefits of ADO are ease of use, high speed, low memory overhead, and a small disk footprint. ADO supports key features for building client/server and Web-based applications.
 
-ADO also features Remote Data Service (RDS), by which you can move data from a server to a client application or Web page, manipulate the data on the client, and return updates to the server in a single round trip.
+ADO also features Remote Data Service (RDS), by which you can move data from a server to a client application or webpage, manipulate the data on the client, and return updates to the server in a single round trip.
 
 ## ADO MD
 

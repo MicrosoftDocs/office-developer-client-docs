@@ -1,6 +1,6 @@
 ﻿---
-title: Value Property Example (VJ++)
-TOCTitle: Value Property Example (VJ++)
+title: Value property example (VJ++)
+TOCTitle: Value property example (VJ++)
 ms:assetid: 1894c483-f5b0-c83e-35fb-c975ca867fc9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248934(v=office.15)
 ms:contentKeyID: 48543474
@@ -8,10 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Value Property Example (VJ++)
+# Value property example (VJ++)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 This example demonstrates the [Value](value-property-ado.md) property with [Field](field-object-ado.md) and [Property](property-object-ado.md) objects by displaying field and property values for the ***Employees*** table.
 

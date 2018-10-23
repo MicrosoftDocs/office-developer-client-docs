@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # TableDef.Attributes Property (DAO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 
 Sets or returns a value that indicates one or more characteristics of a **TableDef** object. Read/write **Long**.

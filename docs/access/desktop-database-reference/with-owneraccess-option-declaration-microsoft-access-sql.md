@@ -17,7 +17,7 @@ f1_categories:
 # WITH OWNERACCESS OPTION Declaration (Microsoft Access SQL)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 In a multiuser environment with a secure workgroup, use this declaration with a query to give the user who runs the query the same permissions as the query's owner.
 

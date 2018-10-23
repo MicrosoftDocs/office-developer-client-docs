@@ -1,17 +1,16 @@
 ﻿---
-title: ActiveConnection, CommandText, CommandTimeout Properties Example (VC++)
-TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction Properties Example (VC++)
+title: ActiveConnection, CommandText, CommandTimeout properties example (VC++)
+TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VC++)
 ms:assetid: 254e6d48-fc07-1df0-215c-a91141238985
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249021(v=office.15)
 ms:contentKeyID: 48543780
-ms.date: 09/18/2015
+ms.date: 10/17/2018
 mtps_version: v=office.15
 ---
 
-# ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction Properties Example (VC++)
+# ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VC++)
 
-
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 This example uses the [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md), and [Direction](direction-property-ado.md) properties to execute a stored procedure.
 

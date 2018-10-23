@@ -11,11 +11,11 @@ mtps_version: v=office.15
 # Description Property (ADO MD)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Returns a text explanation of the current object.
 
-## Return Values
+## Return values
 
 Returns a **String** and is read-only.
 

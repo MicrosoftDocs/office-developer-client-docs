@@ -11,11 +11,11 @@ mtps_version: v=office.15
 # Attributes Property (ADOX)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Describes column characteristics.
 
-## Settings and Return Values
+## Settings and return values
 
 Sets or returns a **Long** value. The value specifies characteristics of the table represented by the [Column](column-object-adox.md) object and can be a combination of [ColumnAttributesEnum](columnattributesenum.md) constants. The default value is zero (0), which is neither **adColFixed** nor **adColNullable**.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Step 2: Initialize the Main List Box
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 ## Step 2: Initialize the Main List Box
 

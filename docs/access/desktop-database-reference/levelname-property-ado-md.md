@@ -11,11 +11,11 @@ mtps_version: v=office.15
 # LevelName Property (ADO MD)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Indicates the name of the level of a member.
 
-## Return Values
+## Return values
 
 Returns a **String** and is read-only.
 

@@ -14,7 +14,7 @@ f1_categories:
 
 # Recordset.RecordsetType Property (DAO)
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 You can use the **RecordsetType** property to specify what kind of recordset is made available to a form. Read/write **Byte**.
 

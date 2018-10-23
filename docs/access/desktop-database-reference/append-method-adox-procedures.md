@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Append Method (ADOX Procedures)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 
 Adds a new [Procedure](procedure-object-adox.md) object to the [Procedures](procedures-collection-adox.md) collection.

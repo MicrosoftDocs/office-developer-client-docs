@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # SetValue Macro Action
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 
 You can use the **SetValue** action to set the value of a Microsoft Access field, control, or property on a form, a form datasheet, or a report.

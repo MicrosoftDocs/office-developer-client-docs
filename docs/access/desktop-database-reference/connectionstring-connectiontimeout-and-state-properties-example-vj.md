@@ -1,6 +1,6 @@
 ﻿---
-title: ConnectionString, ConnectionTimeout, and State Properties Example (VJ++)
-TOCTitle: ConnectionString, ConnectionTimeout, and State Properties Example (VJ++)
+title: ConnectionString, ConnectionTimeout, and State properties example (VJ++)
+TOCTitle: ConnectionString, ConnectionTimeout, and State properties example (VJ++)
 ms:assetid: 88b3f95e-0e46-7cbb-8086-d583319a6628
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249599(v=office.15)
 ms:contentKeyID: 48546141
@@ -8,10 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ConnectionString, ConnectionTimeout, and State Properties Example (VJ++)
+# ConnectionString, ConnectionTimeout, and State properties example (VJ++)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 This example demonstrates different ways of using the [ConnectionString](connectionstring-property-ado.md) property to open a [Connection](connection-object-ado.md) object. It also uses the [ConnectionTimeout](connectiontimeout-property-ado.md) property to set a connection timeout period, and the [State](state-property-ado.md) property to check the state of the connections. The GetState function is required for this procedure to run.
 

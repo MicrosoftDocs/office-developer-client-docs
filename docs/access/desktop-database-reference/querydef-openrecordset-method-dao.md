@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # QueryDef.OpenRecordset Method (DAO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Creates a new **[Recordset](recordset-object-dao.md)** object and appends it to the **Recordsets** collection.
 
@@ -79,7 +79,7 @@ Creates a new **[Recordset](recordset-object-dao.md)** object and appends it to 
 </table>
 
 
-### Return Value
+### Return value
 
 Recordset
 

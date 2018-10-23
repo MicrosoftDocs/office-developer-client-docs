@@ -1,6 +1,6 @@
 ﻿---
-title: Connection Close Method, Table Type Property Example (VC++)
-TOCTitle: Connection Close Method, Table Type Property Example (VC++)
+title: Connection Close Method, Table Type property example (VC++)
+TOCTitle: Connection Close Method, Table Type property example (VC++)
 ms:assetid: d75fac58-4b25-c446-8c8e-4afcf1efecc5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250082(v=office.15)
 ms:contentKeyID: 48548006
@@ -8,10 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Connection Close Method, Table Type Property Example (VC++)
+# Connection Close Method, Table Type property example (VC++)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Setting the [ActiveConnection](activeconnection-property-adox.md) property to **Nothing** should "close" the catalog. Associated collections will be empty. Any objects that were created from schema objects in the catalog will be orphaned. Any properties on those objects that have been cached will still be available, but attempting to read properties that require a call to the provider will fail.
 

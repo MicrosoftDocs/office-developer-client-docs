@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # AddNew Method (ADO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Creates a new record for an updatable [Recordset](recordset-object-ado.md) object.
 

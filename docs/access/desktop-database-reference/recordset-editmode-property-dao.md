@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Recordset.EditMode Property (DAO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Returns a value that indicates the state of editing for the current record.
 

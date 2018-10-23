@@ -1,6 +1,6 @@
 ﻿---
-title: Optimize Property Example (VJ++)
-TOCTitle: Optimize Property Example (VJ++)
+title: Optimize property example (VJ++)
+TOCTitle: Optimize property example (VJ++)
 ms:assetid: d4ac9ae3-3304-addf-0292-7af4ed4fdbc2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250067(v=office.15)
 ms:contentKeyID: 48547949
@@ -8,10 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Optimize Property Example (VJ++)
+# Optimize property example (VJ++)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 This example demonstrates the [Field](field-object-ado.md) object dynamic Optimize property. The ***zip*** field of the ***Authors*** table in the ***Pubs*** database is not indexed. Setting the [Optimize](optimize-property-dynamic-ado.md) property to **True** on the ***zip*** field authorizes ADO to build an index that improves the performance of the [Find](find-method-ado.md) method.
 

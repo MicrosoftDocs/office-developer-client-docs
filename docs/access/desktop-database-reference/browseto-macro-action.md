@@ -14,7 +14,7 @@ f1_categories:
 
 # BrowseTo Macro Action
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 You can use the **BrowseTo** action to navigate between objects in place. You can also change the source object of a subform control by specifying the Path to Subform Control argument. Use **BrowseTo** to navigate from form1 to form2 without opening up a new window.
 
@@ -52,7 +52,7 @@ The **BrowseTo** action has the following argument.
 </tr>
 <tr class="odd">
 <td><p>Page</p></td>
-<td><p>If specified, sets the page of the continuous form that will be made the current page. This argument is Web only.</p></td>
+<td><p>If specified, sets the page of the continuous form that will be made the current page. This argument is web only.</p></td>
 </tr>
 <tr class="even">
 <td><p>Data Mode</p></td>

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Field2.ValidationRule Property (DAO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Sets or returns a value that validates the data in a field as it's changed or added to a table (Microsoft Access workspaces only). Read/write **String**.
 

@@ -1,6 +1,6 @@
 ﻿---
-title: Index Property (ADO)
-TOCTitle: Index Property (ADO)
+title: Index property (ADO)
+TOCTitle: Index property (ADO)
 ms:assetid: 4cc00521-dcb4-19b2-2174-6e0e9bd42e62
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249241(v=office.15)
 ms:contentKeyID: 48544715
@@ -8,14 +8,14 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Index Property (ADO)
+# Index property (ADO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Indicates the name of the index currently in effect for a [Recordset](recordset-object-ado.md) object.
 
-## Settings and Return Values
+## Settings and return values
 
 Sets or returns a **String** value, which is the name of the index.
 

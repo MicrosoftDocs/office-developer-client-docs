@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ADO code examples in Microsoft Visual Basic Scripting Edition
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Use the following code examples to learn about how to use the ADO methods when writing in Visual Basic Scripting Edition (VBScript).
 

@@ -1,6 +1,6 @@
 ﻿---
-title: OriginalValue and UnderlyingValue Properties Example (VJ++)
-TOCTitle: OriginalValue and UnderlyingValue Properties Example (VJ++)
+title: OriginalValue and UnderlyingValue properties example (VJ++)
+TOCTitle: OriginalValue and UnderlyingValue properties example (VJ++)
 ms:assetid: 622d0356-e33d-4378-df5e-8f15fa91d260
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249368(v=office.15)
 ms:contentKeyID: 48545233
@@ -8,10 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# OriginalValue and UnderlyingValue Properties Example (VJ++)
+# OriginalValue and UnderlyingValue properties example (VJ++)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 This example demonstrates the [OriginalValue](originalvalue-property-ado.md) and [UnderlyingValue](underlyingvalue-property-ado.md) properties by displaying a message if a record's underlying data has changed during a [Recordset](recordset-object-ado.md) batch update.
 

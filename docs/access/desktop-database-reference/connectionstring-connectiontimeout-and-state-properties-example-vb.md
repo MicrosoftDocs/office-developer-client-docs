@@ -1,6 +1,6 @@
 ﻿---
-title: ConnectionString, ConnectionTimeout, and State Properties Example (VB)
-TOCTitle: ConnectionString, ConnectionTimeout, and State Properties Example (VB)
+title: ConnectionString, ConnectionTimeout, and State properties example (VB)
+TOCTitle: ConnectionString, ConnectionTimeout, and State properties example (VB)
 ms:assetid: abdd0262-8647-d545-60e0-13f99337df06
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249796(v=office.15)
 ms:contentKeyID: 48546984
@@ -8,10 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ConnectionString, ConnectionTimeout, and State Properties Example (VB)
+# ConnectionString, ConnectionTimeout, and State properties example (VB)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 This example demonstrates different ways of using the [ConnectionString](connectionstring-property-ado.md) property to open a [Connection](connection-object-ado.md) object. It also uses the [ConnectionTimeout](connectiontimeout-property-ado.md) property to set a connection timeout period, and the [State](state-property-ado.md) property to check the state of the connections. The GetState function is required for this procedure to run.
 

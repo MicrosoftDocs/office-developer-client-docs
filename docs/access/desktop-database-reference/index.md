@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Access desktop database reference
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 - [Concepts](concepts.md)
 - [Microsoft Data Access Objects reference](microsoft-data-access-objects-reference.md)

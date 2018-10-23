@@ -15,7 +15,7 @@ f1_categories:
 # SetWarnings Macro Action
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 You can use the **SetWarnings** action to turn system messages on or off.
 

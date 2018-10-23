@@ -1,6 +1,6 @@
 ﻿---
-title: BOF, EOF, and Bookmark Properties Example (VB)
-TOCTitle: BOF, EOF, and Bookmark Properties Example (VB)
+title: BOF, EOF, and Bookmark properties example (VB)
+TOCTitle: BOF, EOF, and Bookmark properties example (VB)
 ms:assetid: 30d4b424-b3d8-292f-7553-bb15b094eef8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249085(v=office.15)
 ms:contentKeyID: 48544037
@@ -8,10 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# BOF, EOF, and Bookmark Properties Example (VB)
+# BOF, EOF, and Bookmark properties example (VB)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 This example uses the [BOF](bof-eof-properties-ado.md) and [EOF](bof-eof-properties-ado.md) properties to display a message if a user tries to move past the first or last record of a [Recordset](recordset-object-ado.md). It uses the [Bookmark](bookmark-property-ado.md) property to let the user flag a record in a **Recordset** and return to it later.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Step 3: Server Obtains a Recordset (RDS Tutorial)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 The server program uses the connect string and command text to query the data source for the desired rows. ADO is typically used to retrieve this **Recordset**, although other Microsoft data access interfaces, such as OLE DB, could be used.
 

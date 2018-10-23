@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Workspace.CreateDatabase Method (DAO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Creates a new **[Database](database-object-dao.md)** object, saves the database to disk, and returns an opened **Database** object (Microsoft Access workspaces only).
 

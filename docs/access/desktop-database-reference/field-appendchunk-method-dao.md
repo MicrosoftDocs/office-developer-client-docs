@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Field.AppendChunk Method (DAO)
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Appends data from a string expression to a Memo or Long Binary **[Field](field-object-dao.md)** object in a **[Recordset](recordset-object-dao.md)**.
 

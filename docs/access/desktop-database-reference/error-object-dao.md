@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Error Object (DAO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 **Error** object contains details about data access errors, each of which pertains to a single operation involving DAO.
 

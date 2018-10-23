@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # onError Event (RDS)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 The **onError** event is called whenever an error occurs during an operation.
 

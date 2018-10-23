@@ -15,7 +15,7 @@ f1_categories:
 # SelectObject Macro Action
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 You can use the **SelectObject** action to select a specified database object.
 

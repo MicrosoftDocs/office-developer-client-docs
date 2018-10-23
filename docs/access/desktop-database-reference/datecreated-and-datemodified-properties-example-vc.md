@@ -1,6 +1,6 @@
 ﻿---
-title: DateCreated and DateModified Properties Example (VC++)
-TOCTitle: DateCreated and DateModified Properties Example (VC++)
+title: DateCreated and DateModified properties example (VC++)
+TOCTitle: DateCreated and DateModified properties example (VC++)
 ms:assetid: 1c92e8f5-2fed-55dc-2cdd-51dfa16ecd84
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248962(v=office.15)
 ms:contentKeyID: 48543573
@@ -8,10 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# DateCreated and DateModified Properties Example (VC++)
+# DateCreated and DateModified properties example (VC++)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 This example demonstrates the [DateCreated](datecreated-property-adox.md) and [DateModified](datemodified-property-adox.md) properties by adding a new [Column](column-object-adox.md) to an existing [Table](table-object-adox.md) and by creating a new **Table**. The DateOutput procedure is required for this example to run.
 

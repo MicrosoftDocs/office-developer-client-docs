@@ -14,7 +14,7 @@ f1_categories:
 
 # SetProperty Macro Action
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 You can use the **SetProperty** action to set a property for a control on a form or a report.
 

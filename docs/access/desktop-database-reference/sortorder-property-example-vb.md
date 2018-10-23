@@ -1,6 +1,6 @@
 ﻿---
-title: SortOrder Property Example (VB)
-TOCTitle: SortOrder Property Example (VB)
+title: SortOrder property example (VB)
+TOCTitle: SortOrder property example (VB)
 ms:assetid: 97937644-e3ef-06dc-d8ba-55ecaf7ac1ad
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249675(v=office.15)
 ms:contentKeyID: 48546472
@@ -8,9 +8,9 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# SortOrder Property Example (VB)
+# SortOrder property example (VB)
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 This example demonstrates the [SortOrder](sortorder-property-adox.md) property of a [Column](column-object-adox.md) that has been appended to the [Columns](columns-collection-adox.md) collection of an [Index](index-object-adox.md). The code appends an ascending index to the Country column in the **Employees** table, then displays the records. Then the code appends a descending index to the Country column in the **Employees** table and displays the records again. The difference between ascending and descending indexes is shown.
 

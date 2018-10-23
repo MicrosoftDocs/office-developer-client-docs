@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Service Providers and Components
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Service providers are components that extend the functionality of data providers by implementing extended interfaces that are not natively supported by the data store.
 

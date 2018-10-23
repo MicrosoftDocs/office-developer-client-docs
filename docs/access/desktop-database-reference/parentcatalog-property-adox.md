@@ -11,11 +11,11 @@ mtps_version: v=office.15
 # ParentCatalog Property (ADOX)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Specifies the parent catalog of a table or column to provide access to provider-specific properties.
 
-## Settings and Return Values
+## Settings and return values
 
 Sets and returns a [Catalog](catalog-object-adox.md) object. Setting **ParentCatalog** to an open **Catalog** allows access to provider-specific properties prior to appending a table or column to a **Catalog** collection.
 

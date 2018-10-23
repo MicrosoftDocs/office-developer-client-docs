@@ -1,6 +1,6 @@
 ﻿---
-title: Size Property (ADO)
-TOCTitle: Size Property (ADO)
+title: Size property (ADO)
+TOCTitle: Size property (ADO)
 ms:assetid: 24596b5c-b1cc-e97e-68b6-8ff53baf150b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249017(v=office.15)
 ms:contentKeyID: 48543753
@@ -8,14 +8,14 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Size Property (ADO)
+# Size property (ADO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Indicates the maximum size, in bytes or characters, of a [Parameter](parameter-object-ado.md) object.
 
-## Settings and Return Values
+## Settings and return values
 
 Sets or returns a **Long** value that indicates the maximum size in bytes or characters of a value in a **Parameter** object.
 

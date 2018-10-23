@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Containers Collection (DAO)
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 A **Containers** collection contains all of the **Container** objects that are defined in a database.
 

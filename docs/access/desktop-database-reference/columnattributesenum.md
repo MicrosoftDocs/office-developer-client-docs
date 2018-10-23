@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ColumnAttributesEnum
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Specifies characteristics of a [Column](column-object-adox.md).
 

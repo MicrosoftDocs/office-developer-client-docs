@@ -1,6 +1,6 @@
 ﻿---
-title: CacheSize Property Example (VC++)
-TOCTitle: CacheSize Property Example (VC++)
+title: CacheSize property example (VC++)
+TOCTitle: CacheSize property example (VC++)
 ms:assetid: bd5bc7ae-c1fa-361b-9b26-a216655e3cbd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249914(v=office.15)
 ms:contentKeyID: 48547435
@@ -8,10 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# CacheSize Property Example (VC++)
+# CacheSize property example (VC++)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 This example uses the [CacheSize](cachesize-property-ado.md) property to show the difference in performance for an operation performed with and without a 30-record cache.
 

@@ -1,6 +1,6 @@
 ﻿---
-title: Version Property Example (VC++)
-TOCTitle: Version Property Example (VC++)
+title: Version property example (VC++)
+TOCTitle: Version property example (VC++)
 ms:assetid: deda3998-52cd-0068-7f8c-e58c71802226
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250130(v=office.15)
 ms:contentKeyID: 48548201
@@ -8,10 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Version Property Example (VC++)
+# Version property example (VC++)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 This example uses the [Version](version-property-ado.md) property of a [Connection](connection-object-ado.md) object to display the current ADO version. It also uses several dynamic properties to show:
 

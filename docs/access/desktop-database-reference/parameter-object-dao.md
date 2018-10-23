@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Parameter Object (DAO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 A **Parameter** object represents a value supplied to a query. The parameter is associated with a **QueryDef** object created from a parameter query.
 

@@ -14,7 +14,7 @@ f1_categories:
 
 # Database.CreateRelation Method (DAO)
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Creates a new **[Relation](relation-object-dao.md)** object (Microsoft Access workspaces only). .
 
@@ -70,7 +70,7 @@ Creates a new **[Relation](relation-object-dao.md)** object (Microsoft Access wo
 </table>
 
 
-### Return Value
+### Return value
 
 Relation
 

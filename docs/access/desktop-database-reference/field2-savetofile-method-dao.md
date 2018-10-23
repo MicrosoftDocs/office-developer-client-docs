@@ -14,7 +14,7 @@ f1_categories:
 
 # Field2.SaveToFile Method (DAO)
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Saves an attachment to disk.
 

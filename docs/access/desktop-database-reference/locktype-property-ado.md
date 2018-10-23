@@ -1,6 +1,6 @@
 ﻿---
-title: LockType Property (ADO)
-TOCTitle: LockType Property (ADO)
+title: LockType property (ADO)
+TOCTitle: LockType property (ADO)
 ms:assetid: 1d2622dc-6cab-1b7f-98a8-97a41d5c047f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248965(v=office.15)
 ms:contentKeyID: 48543589
@@ -8,14 +8,14 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# LockType Property (ADO)
+# LockType property (ADO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Indicates the type of locks placed on records during editing.
 
-## Settings and Return Values
+## Settings and return values
 
 Sets or returns a [LockTypeEnum](locktypeenum.md) value. The default value is **adLockReadOnly**.
 

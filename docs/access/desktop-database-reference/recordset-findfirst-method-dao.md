@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Recordset.FindFirst Method (DAO)
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Locates the first record in a dynaset- or snapshot-type **Recordset** object that satisfies the specified criteria and makes that record the current record (Microsoft Access workspaces only).
 

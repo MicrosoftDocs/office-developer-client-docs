@@ -1,6 +1,6 @@
 ﻿---
-title: Count Property Example (VB)
-TOCTitle: Count Property Example (VB)
+title: Count property example (VB)
+TOCTitle: Count property example (VB)
 ms:assetid: 9fea66f7-a4ed-fe2e-c199-672b910fef47
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249734(v=office.15)
 ms:contentKeyID: 48546695
@@ -8,10 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Count Property Example (VB)
+# Count property example (VB)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 This example demonstrates the [Count](count-property-ado.md) property with two collections in the ***Employee*** database. The property obtains the number of objects in each collection, and sets the upper limit for loops that enumerate these collections. Another way to enumerate these collections without using the **Count** property would be to use statements.
 

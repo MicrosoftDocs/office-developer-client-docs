@@ -15,7 +15,7 @@ f1_categories:
 # TableDef.SourceTableName Property (DAO)
 
 
-**Applies to**: Access 2013, Office 2013 
+**Applies to**: Access 2013 | Office 2013 
 
 Sets or returns a value that specifies the name of a linked table or the name of a base table (Microsoft Access workspaces only).
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Recordset.Fields Property (DAO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Returns a **Fields** collection that represents all stored **Field** objects for the specified object. Read-only.
 

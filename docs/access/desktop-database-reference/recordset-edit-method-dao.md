@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Recordset.Edit Method (DAO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Copies the current record from an updatable **[Recordset](recordset-object-dao.md)** object to the copy buffer for subsequent editing.
 

@@ -15,7 +15,7 @@ f1_categories:
 # Relation.ForeignTable Property (DAO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Sets or returns the name of the foreign table in a relationship (Microsoft Access workspaces only). .
 

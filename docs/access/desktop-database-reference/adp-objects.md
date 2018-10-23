@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ADP Objects
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 
   - [CopyDatabaseFile Macro Action](copydatabasefile-macro-action.md)

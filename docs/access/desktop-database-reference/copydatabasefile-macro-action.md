@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # CopyDatabaseFile Macro Action
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 You can use the **CopyDatabaseFile** action to make a copy of the current Microsoft SQL Server 7.0 or later database connected to your Access project. Access detaches the current database and then attaches it to the destination server. For more information about detaching and attaching a database, see the SQL Server documentation.
 

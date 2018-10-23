@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ReplicaTypeEnum Enumeration (DAO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Used with the **MakeReplica** method to specify the type of replica to create.
 

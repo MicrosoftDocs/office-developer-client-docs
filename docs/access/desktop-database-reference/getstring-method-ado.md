@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # GetString Method (ADO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 
 Returns the [Recordset](recordset-object-ado.md) as a string.
@@ -20,7 +20,7 @@ Returns the [Recordset](recordset-object-ado.md) as a string.
 
 *Variant* = *recordset*.GetString(*StringFormat*, *NumRows*, *ColumnDelimiter*, *RowDelimiter*, *NullExpr*)
 
-## Return Value
+## Return value
 
 Returns the **Recordset** as a string-valued **Variant** (BSTR).
 

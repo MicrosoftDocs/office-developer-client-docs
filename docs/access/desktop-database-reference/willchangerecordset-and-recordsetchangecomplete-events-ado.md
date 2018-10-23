@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # WillChangeRecordset and RecordsetChangeComplete Events (ADO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 
 The **WillChangeRecordset** event is called before a pending operation changes the [Recordset](recordset-object-ado.md). The **RecordsetChangeComplete** event is called after the **Recordset** has changed.

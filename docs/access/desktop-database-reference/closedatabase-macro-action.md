@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # CloseDatabase Macro Action
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 You can use the **CloseDatabase** action to close the current database.
 

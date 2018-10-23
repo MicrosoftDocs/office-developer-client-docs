@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Member Object (ADO MD)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Represents a member of a level in a cube, the children of a member of a level, or a member of a position along an axis of a cellset.
 

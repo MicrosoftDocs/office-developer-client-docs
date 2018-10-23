@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # InheritTypeEnum
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Specifies how objects will inherit permissions set with [SetPermissions](setpermissions-method-adox.md).
 

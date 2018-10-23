@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Visual C++ Extensions Example
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 This program shows how values are retrieved from fields and converted to C/C++ variables.
 

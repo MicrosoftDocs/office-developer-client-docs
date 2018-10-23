@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Append Method (ADOX Tables)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 
 Adds a new [Table](table-object-adox.md) object to the [Tables](tables-collection-adox.md) collection.

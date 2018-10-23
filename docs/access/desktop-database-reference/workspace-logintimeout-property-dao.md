@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Workspace.LoginTimeout Property (DAO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Sets or returns the number of seconds before an error occurs when you attempt to log on to an ODBC database.
 

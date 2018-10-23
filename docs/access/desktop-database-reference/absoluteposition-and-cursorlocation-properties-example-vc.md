@@ -1,17 +1,17 @@
 ﻿---
-title: AbsolutePosition and CursorLocation Properties Example (VC++)
-TOCTitle: AbsolutePosition and CursorLocation Properties Example (VC++)
+title: AbsolutePosition and CursorLocation properties example (VC++)
+TOCTitle: AbsolutePosition and CursorLocation properties example (VC++)
 ms:assetid: a1ae63dd-296b-09b0-a898-091b855e3141
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249745(v=office.15)
 ms:contentKeyID: 48546739
-ms.date: 09/18/2015
+ms.date: 10/17/2018
 mtps_version: v=office.15
 ---
 
-# AbsolutePosition and CursorLocation Properties Example (VC++)
+# AbsolutePosition and CursorLocation properties example (VC++)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 This example demonstrates how the [AbsolutePosition](absoluteposition-property-ado.md) property can track the progress of a loop that enumerates all the records of a [Recordset](recordset-object-ado.md). It uses the [CursorLocation](cursorlocation-property-ado.md) property to enable the **AbsolutePosition** property by setting the cursor to a client cursor.
 

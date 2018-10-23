@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ADO Collections
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Each collection can contain its corresponding object. For example, an [Error](error-object-ado.md) object can be contained in an [Errors](errors-collection-ado.md) collection. For more information about objects, see [ADO Objects](ado-objects-and-interfaces.md) or a specific object topic.
 

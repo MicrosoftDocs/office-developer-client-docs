@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Reset Method (RDS)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Executes the sort or filter on a client-side **Recordset** based on the specified sort and filter properties.
 

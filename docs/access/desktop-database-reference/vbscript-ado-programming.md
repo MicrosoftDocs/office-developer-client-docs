@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # VBScript ADO Programming
 
 
-**Applies to**: Access 2013, Office 2013 
+**Applies to**: Access 2013 | Office 2013 
 
 ## Creating an ADO Project
 

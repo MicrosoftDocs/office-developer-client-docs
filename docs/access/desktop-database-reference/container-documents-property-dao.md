@@ -15,7 +15,7 @@ f1_categories:
 # Container.Documents Property (DAO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Returns a **Documents** collection that contains all of the documents stored in the specified object. Read-only.
 

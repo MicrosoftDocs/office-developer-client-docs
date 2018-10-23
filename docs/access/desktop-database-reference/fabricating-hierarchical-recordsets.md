@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Fabricating Hierarchical Recordsets
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 The following example shows how to fabricate a hierarchical Recordset without an underlying data source by using the data shaping grammar to define columns for parent, child, and grandchild **Recordsets**.
 

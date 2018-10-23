@@ -1,6 +1,6 @@
 ﻿---
-title: Attributes Property Example (VB)
-TOCTitle: Attributes Property Example (VB)
+title: Attributes property example (VB)
+TOCTitle: Attributes property example (VB)
 ms:assetid: bda5e445-6425-5daf-b182-b6f5ea044b04
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249918(v=office.15)
 ms:contentKeyID: 48547442
@@ -8,10 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Attributes Property Example (VB)
+# Attributes property example (VB)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 This example demonstrates the [Attributes](attributes-property-adox.md) property of a [Column](column-object-adox.md). Setting it to **adColNullable** allows the user to set the value of a [Recordset](recordset-object-ado.md)[Field](field-object-ado.md) to an empty string. In this situation, the user can distinguish between a record where data is not known and a record where the data does not apply.
 

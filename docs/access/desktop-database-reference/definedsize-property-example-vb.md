@@ -1,6 +1,6 @@
 ﻿---
-title: DefinedSize Property Example (VB)
-TOCTitle: DefinedSize Property Example (VB)
+title: DefinedSize property example (VB)
+TOCTitle: DefinedSize property example (VB)
 ms:assetid: 1bad5efa-dd23-b70d-c078-85a3be0729f1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248957(v=office.15)
 ms:contentKeyID: 48543551
@@ -8,10 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# DefinedSize Property Example (VB)
+# DefinedSize property example (VB)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 This example demonstrates the [DefinedSize](definedsize-property-adox.md) property of a [Column](column-object-adox.md). The code will redefine the size of the FirstName column of the **Employees** table of the *Northwind* database. Then, the change in the values of the FirstName [Field](field-object-ado.md) of a [Recordset](recordset-object-ado.md) based on the **Employees** table is displayed. Note that by default, the FirstName field becomes padded with spaces after you redefine the **DefinedSize** property.
 

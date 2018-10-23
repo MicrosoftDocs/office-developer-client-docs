@@ -1,4 +1,4 @@
----
+﻿---
 title: DROP USER or GROUP statement (Microsoft Access SQL)
 TOCTitle: DROP USER or GROUP statement (Microsoft Access SQL)
 ms:assetid: 46bc5916-556b-17df-2f4c-8fd7bbd21ef7
@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # DROP USER or GROUP statement (Microsoft Access SQL)
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Deletes one or more existing *users* or *groups*, or removes one or more existing *users* from an existing *group*.
 

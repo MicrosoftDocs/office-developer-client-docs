@@ -15,7 +15,7 @@ f1_categories:
 # After Update Macro Event
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 The **After Update** event occurs after a record is changed.
 

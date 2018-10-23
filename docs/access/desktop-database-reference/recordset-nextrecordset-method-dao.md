@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Recordset.NextRecordset Method (DAO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 ## Syntax
 
@@ -19,7 +19,7 @@ mtps_version: v=office.15
 
 *expression* A variable that represents a **Recordset** object.
 
-### Return Value
+### Return value
 
 Boolean
 

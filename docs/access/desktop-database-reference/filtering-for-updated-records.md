@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Filtering for Updated Records
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 ## Filtering for Updated Records
 

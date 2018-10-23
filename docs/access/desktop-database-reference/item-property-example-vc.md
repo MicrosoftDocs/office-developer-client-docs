@@ -1,6 +1,6 @@
 ﻿---
-title: Item Property Example (VC++)
-TOCTitle: Item Property Example (VC++)
+title: Item property example (VC++)
+TOCTitle: Item property example (VC++)
 ms:assetid: 17bfcb84-e0f7-7a24-6fc4-ab1dacd2766a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248928(v=office.15)
 ms:contentKeyID: 48543452
@@ -8,10 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Item Property Example (VC++)
+# Item property example (VC++)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 This example demonstrates how the [Item](item-property-ado.md) property accesses members of a collection. The example opens the ***Authors*** table of the ***Pubs*** database with a parameterized command.
 

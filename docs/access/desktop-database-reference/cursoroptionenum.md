@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # CursorOptionEnum
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Specifies what functionality the [Supports](supports-method-ado.md) method should test for.
 

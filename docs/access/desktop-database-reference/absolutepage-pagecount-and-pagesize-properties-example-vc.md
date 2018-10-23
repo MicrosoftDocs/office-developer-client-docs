@@ -1,17 +1,17 @@
 ﻿---
-title: AbsolutePage, PageCount, and PageSize Properties Example (VC++)
-TOCTitle: AbsolutePage, PageCount, and PageSize Properties Example (VC++)
+title: AbsolutePage, PageCount, and PageSize properties example (VC++)
+TOCTitle: AbsolutePage, PageCount, and PageSize properties example (VC++)
 ms:assetid: 884d9405-646c-6ab1-14c1-3c0fe64e2ebe
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249595(v=office.15)
 ms:contentKeyID: 48546133
-ms.date: 09/18/2015
+ms.date: 10/17/2018
 mtps_version: v=office.15
 ---
 
-# AbsolutePage, PageCount, and PageSize Properties Example (VC++)
+# AbsolutePage, PageCount, and PageSize properties example (VC++)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 This example uses the [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md), and [PageSize](pagesize-property-ado.md) properties to display names and hire dates from the ***Employee*** table, five records at a time.
 

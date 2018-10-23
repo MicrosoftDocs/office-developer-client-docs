@@ -11,11 +11,11 @@ mtps_version: v=office.15
 # Unique Property (ADOX)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Indicates whether the index keys must be unique.
 
-## Settings and Return Values
+## Settings and return values
 
 Sets and returns a **Boolean** value.
 

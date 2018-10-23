@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Members Collection (ADO MD)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Contains the [Member](member-object-ado-md.md) objects from a level or a position along an axis.
 

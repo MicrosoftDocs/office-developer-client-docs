@@ -16,7 +16,7 @@ f1_categories:
 
 # CONSTRAINT clause (Microsoft Access SQL)
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 A constraint is similar to an index, although it can also be used to establish a relationship with another table.
 

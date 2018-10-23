@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Handling Errors in VBScript
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 There is little difference between the methods used in Visual Basic and those used with VBScript. The primary difference is that VBScript does not support the concept of error handling by continuing execution at a label. In other words, you cannot use On Error GoTo in VBScript. Instead, use in VBScript. Instead, use On Error Resume Next and then check both **Err.Number** and the **Count** property of the **Errors** collection, as shown in the following example:
 

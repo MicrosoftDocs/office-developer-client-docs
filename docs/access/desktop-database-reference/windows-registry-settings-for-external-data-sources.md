@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Windows registry settings for external data sources
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 - [Customizing Windows registry settings for the Microsoft Access database engine](customizing-windows-registry-settings-for-the-microsoft-access-database-engine.md)
 

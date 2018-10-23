@@ -1,6 +1,6 @@
 ﻿---
-title: Attributes Property (ADO)
-TOCTitle: Attributes Property (ADO)
+title: Attributes property (ADO)
+TOCTitle: Attributes property (ADO)
 ms:assetid: 4cc1f036-606e-7d4b-d270-af374e9d99fa
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249242(v=office.15)
 ms:contentKeyID: 48544716
@@ -12,17 +12,17 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Attributes Property (ADO)
+# Attributes property (ADO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 
 ## Attributes Property
 
 Indicates one or more characteristics of an object.
 
-## Settings and Return Values
+## Settings and return values
 
 Sets or returns a **Long** value.
 

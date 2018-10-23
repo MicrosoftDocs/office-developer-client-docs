@@ -1,6 +1,6 @@
 ﻿---
-title: Provider and DefaultDatabase Properties Example (VJ++)
-TOCTitle: Provider and DefaultDatabase Properties Example (VJ++)
+title: Provider and DefaultDatabase properties example (VJ++)
+TOCTitle: Provider and DefaultDatabase properties example (VJ++)
 ms:assetid: babd3c3c-bb6e-46ce-88f2-ef2810d798fd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249898(v=office.15)
 ms:contentKeyID: 48547380
@@ -8,10 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Provider and DefaultDatabase Properties Example (VJ++)
+# Provider and DefaultDatabase properties example (VJ++)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 This example demonstrates the [Provider](provider-property-ado.md) property by opening three [Connection](connection-object-ado.md) objects using different providers. It also uses the [DefaultDatabase](defaultdatabase-property-ado.md) property to set the default database for the Microsoft ODBC Provider.
 

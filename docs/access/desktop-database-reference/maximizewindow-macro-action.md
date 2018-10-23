@@ -15,7 +15,7 @@ f1_categories:
 # MaximizeWindow Macro Action
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 If Access is configured to use overlapping windows instead of tabbed documents, you can use the **MaximizeWindow** action to enlarge the active window so that it fills the Access window. This action will allow you to see as much of the object in the active window as possible.
 

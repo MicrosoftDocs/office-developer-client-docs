@@ -15,7 +15,7 @@ f1_categories:
 # SingleStep Macro Action
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 You can use the **SingleStep** action to pause macro execution and open the **Macro Single Step** dialog box.
 

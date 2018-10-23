@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # UpdateTypeEnum Enumeration (DAO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Used with the **Update** method to specify which updates to write to disk.
 

@@ -15,7 +15,7 @@ f1_categories:
 # Connection.Recordsets Property (DAO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Returns a **Recordsets** collection that contains all of the open recordsets in the for the specified connection. Read-only.
 

@@ -11,6 +11,6 @@ mtps_version: v=office.15
 # CommitTransOptionsEnum Enumeration (DAO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 TBD

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # BeginTransComplete, CommitTransComplete, and RollbackTransComplete Events (ADO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 
 These events will be called after the associated operation on the [Connection](connection-object-ado.md) object finishes executing.

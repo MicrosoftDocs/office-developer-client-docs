@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # ADCPROP\_UPDATERESYNC\_ENUM
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Specifies whether the [UpdateBatch](updatebatch-method-ado.md) method is followed by an implicit [Resync](resync-method-ado.md) method operation and if so, the scope of that operation.
 

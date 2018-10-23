@@ -1,6 +1,6 @@
 ﻿---
-title: Count Property Example (VC++)
-TOCTitle: Count Property Example (VC++)
+title: Count property example (VC++)
+TOCTitle: Count property example (VC++)
 ms:assetid: 5e3d817b-05bf-c96e-67ba-c41f06c367af
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249340(v=office.15)
 ms:contentKeyID: 48545134
@@ -8,10 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Count Property Example (VC++)
+# Count property example (VC++)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 This example demonstrates the [Count](count-property-ado.md) property with two collections in the ***Employee*** database. The property obtains the number of objects in each collection, and sets the upper limit for loops that enumerate these collections. Another way to enumerate these collections without using the **Count** property would be to use statements.
 

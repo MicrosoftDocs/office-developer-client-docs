@@ -15,7 +15,7 @@ f1_categories:
 # Index.IgnoreNulls Property (DAO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Sets or returns a value that indicates whether records that have Null values in their index fields have index entries (Microsoft Access workspaces only).
 

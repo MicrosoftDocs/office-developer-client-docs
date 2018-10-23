@@ -1,6 +1,6 @@
 ﻿---
-title: EditMode Property (ADO)
-TOCTitle: EditMode Property (ADO)
+title: EditMode property (ADO)
+TOCTitle: EditMode property (ADO)
 ms:assetid: 28ca8f14-abee-ad20-9c16-11bb36b487e4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249045(v=office.15)
 ms:contentKeyID: 48543867
@@ -8,14 +8,14 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# EditMode Property (ADO)
+# EditMode property (ADO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Indicates the editing status of the current record.
 
-## Return Value
+## Return value
 
 Returns an [EditModeEnum](editmodeenum.md) value.
 

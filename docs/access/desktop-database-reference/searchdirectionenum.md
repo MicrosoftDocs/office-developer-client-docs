@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # SearchDirectionEnum
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Specifies the direction of a record search within a [Recordset](recordset-object-ado.md).
 

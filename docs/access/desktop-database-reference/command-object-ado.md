@@ -15,7 +15,7 @@ f1_categories:
 # Command Object (ADO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Defines a specific command that you intend to execute against a data source.
 
@@ -29,7 +29,7 @@ With the collections, methods, and properties of a **Command** object, you can d
 
   - Define parameterized queries or stored-procedure arguments with [Parameter](parameter-object-ado.md) objects and the [Parameters](parameters-collection-ado.md) collection.
 
-  - Execute a command and return a **Recordset** object if appropriate with the [Execute](https://msdn.microsoft.com/library/jj248785\(v=office.15\)) method.
+  - Execute a command and return a **Recordset** object if appropriate with the [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) method.
 
   - Specify the type of command with the [CommandType](commandtype-property-ado.md) property prior to execution to optimize performance.
 

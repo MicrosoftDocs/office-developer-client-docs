@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Handling Errors In Other Languages
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 So far, this chapter has discussed errors from a Microsoft Visual Basic point of view. The remainder of this section will give you an overview of error handling in languages other than Visual Basic.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # DBEngine.BeginTrans Method (DAO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Begins a new transaction. Read/write **Database**.
 

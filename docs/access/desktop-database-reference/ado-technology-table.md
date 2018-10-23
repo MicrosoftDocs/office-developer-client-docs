@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ADO Technology Table
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 The following table lists the Microsoft products, tools, and technologies discussed in the *ADO Programmer's Guide*. It provides links, wherever possible, to relevant topics in the guide.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # TableDef Members (DAO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 A TableDef object represents the stored definition of a base table or a linked table (Microsoft Access workspaces only).
 

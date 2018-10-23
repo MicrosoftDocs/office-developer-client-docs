@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Running Business Objects in Component Services
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Business objects can be executable files (.exe) or dynamic-link libraries (.dll). The configuration you use to run the business object depends on whether the object is a .dll or .exe file:
 

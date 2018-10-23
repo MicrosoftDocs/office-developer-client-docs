@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # DROP statement (Microsoft Access SQL)
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Deletes an existing table, procedure, or view from a database, or deletes an existing index from a table.
 

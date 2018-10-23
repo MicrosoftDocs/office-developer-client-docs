@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # RecordOpenOptionsEnum
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Specifies options for opening a [Record](record-object-ado.md). These values may be combined by using OR.
 

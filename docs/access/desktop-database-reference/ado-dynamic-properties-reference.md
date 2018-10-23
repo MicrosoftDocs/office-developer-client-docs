@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ADO Dynamic Properties Reference
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
   - [ADO Dynamic Properties](ado-dynamic-properties.md)
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ADORecordsetConstruction Interface (ADO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 The **ADORecordsetConstruction** interface is used to construct an ADO **Recordset** object from an OLE DB **Rowset** object in a C/C++ application.
 

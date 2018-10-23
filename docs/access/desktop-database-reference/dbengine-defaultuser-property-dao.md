@@ -15,7 +15,7 @@ f1_categories:
 # DBEngine.DefaultUser Property (DAO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Sets the user name used to create the default **Workspace** when it is initialized. Read/write **String**.
 

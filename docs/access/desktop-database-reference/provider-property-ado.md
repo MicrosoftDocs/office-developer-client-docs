@@ -1,6 +1,6 @@
 ﻿---
-title: Provider Property (ADO)
-TOCTitle: Provider Property (ADO)
+title: Provider property (ADO)
+TOCTitle: Provider property (ADO)
 ms:assetid: 1b795f51-93d7-431c-b1fe-0db95f69a56a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248953(v=office.15)
 ms:contentKeyID: 48543543
@@ -8,14 +8,14 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Provider Property (ADO)
+# Provider property (ADO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Indicates the name of the provider for a [Connection](connection-object-ado.md) object.
 
-## Settings and Return Values
+## Settings and return values
 
 Sets or returns a **String** value that indicates the provider name.
 

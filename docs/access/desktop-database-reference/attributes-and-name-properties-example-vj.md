@@ -1,6 +1,6 @@
 ﻿---
-title: Attributes and Name Properties Example (VJ++)
-TOCTitle: Attributes and Name Properties Example (VJ++)
+title: Attributes and Name properties example (VJ++)
+TOCTitle: Attributes and Name properties example (VJ++)
 ms:assetid: ad3fe113-ad14-2df3-ec41-c24e6d2b1b21
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249812(v=office.15)
 ms:contentKeyID: 48547035
@@ -8,10 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Attributes and Name Properties Example (VJ++)
+# Attributes and Name properties example (VJ++)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 This example displays the value of the [Attributes](attributes-property-ado.md) property for [Connection](connection-object-ado.md), [Field](field-object-ado.md), and [Property](property-object-ado.md) objects. It uses the [Name](name-property-ado.md) property to display the name of each **Field** and **Property** object.
 

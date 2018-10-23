@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Query Method (RDS)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 
 Uses a valid SQL query string to return a [Recordset](recordset-object-ado.md).

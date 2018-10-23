@@ -1,4 +1,4 @@
----
+﻿---
 title: 'Appendix D: ADO Samples'
 TOCTitle: 'Appendix D: ADO Samples'
 ms:assetid: 87cb09e7-5199-5f78-ad6e-bb38079c59cf
@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Appendix D: ADO Samples
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 The Windows SDK contains several sample applications that demonstrate the use of ADO and RDS code. These samples are intended to help you learn how to use ADO and RDS, but are not intended to be deployed on production servers.
 
@@ -36,5 +36,4 @@ The ADO documentation also contains code examples in multiple languages, which a
 - [ADO code examples in Microsoft Visual J++](ado-code-examples-in-microsoft-visual-j.md)
 
 - [ADO code examples in Microsoft JScript](ado-code-examples-in-microsoft-jscript.md)
-
 

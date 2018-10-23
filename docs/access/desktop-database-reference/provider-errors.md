@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Provider Errors
 
 
-**Applies to**: Access 2013, Office 2013 
+**Applies to**: Access 2013 | Office 2013 
 
 When a provider error occurs, a run-time error of -2147467259 is returned. When you receive this error, check the active **Connection** object's **Errors** collection, which will contain one or more errors describing what happened.
 

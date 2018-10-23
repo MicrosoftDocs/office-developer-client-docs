@@ -15,7 +15,7 @@ f1_categories:
 # SendKeys Macro Action
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 <table>
 <thead>

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # The Fields Collection
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 The **Fields** collection is one of ADO's intrinsic collections. A collection is an ordered set of items that can be referred to as a unit.
 

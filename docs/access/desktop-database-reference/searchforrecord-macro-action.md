@@ -15,7 +15,7 @@ f1_categories:
 # SearchForRecord Macro Action
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 You can use the **SearchForRecord** action to search for a specific record in a table, query, form or report.
 

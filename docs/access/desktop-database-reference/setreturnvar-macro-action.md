@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # SetReturnVar Macro Action
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 The **SetReturnVar** action creates a return variable and sets it to a specific value.
 

@@ -1,6 +1,6 @@
 ﻿---
-title: Type Property Example (Property) (VB)
-TOCTitle: Type Property Example (Property) (VB)
+title: Type property example (Property) (VB)
+TOCTitle: Type property example (Property) (VB)
 ms:assetid: b3fecd24-e15a-3216-e2c8-0f4ce5655b9c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249858(v=office.15)
 ms:contentKeyID: 48547209
@@ -8,10 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Type Property Example (Property) (VB)
+# Type property example (Property) (VB)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 This example demonstrates the [Type](type-property-ado.md) property. It is a model of a utility for listing the names and types of a collection, like [Properties](properties-collection-ado.md), [Fields](fields-collection-ado.md), etc.
 

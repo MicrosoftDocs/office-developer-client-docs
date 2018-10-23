@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Field2.Required Property (DAO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 
 Sets or returns a value that indicates whether a **Field2** object requires a non-Null value.

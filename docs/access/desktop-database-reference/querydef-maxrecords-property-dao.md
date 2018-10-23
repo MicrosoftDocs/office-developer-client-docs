@@ -15,7 +15,7 @@ f1_categories:
 # QueryDef.MaxRecords Property (DAO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 
 Sets or returns the maximum number of records to return from a query against an ODBC data source.

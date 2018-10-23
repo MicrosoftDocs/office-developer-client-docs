@@ -11,11 +11,11 @@ mtps_version: v=office.15
 # DateModified Property (ADOX)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Indicates the date the object was last modified.
 
-## Return Values
+## Return values
 
 Returns a **Variant** value specifying the date modified. The value is null if **DateModified** is not supported by the provider.
 

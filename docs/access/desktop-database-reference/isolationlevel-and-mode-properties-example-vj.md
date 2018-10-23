@@ -1,6 +1,6 @@
 ﻿---
-title: IsolationLevel and Mode Properties Example (VJ++)
-TOCTitle: IsolationLevel and Mode Properties Example (VJ++)
+title: IsolationLevel and Mode properties example (VJ++)
+TOCTitle: IsolationLevel and Mode properties example (VJ++)
 ms:assetid: cb2e177c-c60c-b3ca-7de2-cbe2519d1e63
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249989(v=office.15)
 ms:contentKeyID: 48547711
@@ -8,10 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# IsolationLevel and Mode Properties Example (VJ++)
+# IsolationLevel and Mode properties example (VJ++)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 This example uses the [Mode](mode-property-ado.md) property to open an exclusive connection, and the [IsolationLevel](isolationlevel-property-ado.md) property to open a transaction that is conducted in isolation of other transactions.
 

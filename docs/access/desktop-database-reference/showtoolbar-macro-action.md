@@ -15,7 +15,7 @@ f1_categories:
 # ShowToolbar Macro Action
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 You can use the **ShowToolbar** action to display or hide a group of commands on the **Add-Ins** tab.
 

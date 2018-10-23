@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ReadText Method (ADO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Reads specified number of characters from a text [Stream](stream-object-ado.md) object.
 
@@ -25,7 +25,7 @@ Reads specified number of characters from a text [Stream](stream-object-ado.md) 
 
   - Optional. A **Long** value that specifies the number of characters to read from the file, or a [StreamReadEnum](streamreadenum.md) value. The default value is **adReadAll**.
 
-## Return Value
+## Return value
 
 The **ReadText** method reads a specified number of characters, an entire line, or the entire stream from a **Stream** object and returns the resulting string.
 

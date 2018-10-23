@@ -1,17 +1,17 @@
 ﻿---
-title: AbsolutePosition and CursorLocation Properties Example (VB)
-TOCTitle: AbsolutePosition and CursorLocation Properties Example (VB)
+title: AbsolutePosition and CursorLocation properties example (VB)
+TOCTitle: AbsolutePosition and CursorLocation properties example (VB)
 ms:assetid: 572c1a51-b7f4-5861-cfb9-960219e0a831
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249293(v=office.15)
 ms:contentKeyID: 48544966
-ms.date: 09/18/2015
+ms.date: 10/17/2018
 mtps_version: v=office.15
 ---
 
-# AbsolutePosition and CursorLocation Properties Example (VB)
+# AbsolutePosition and CursorLocation properties example (VB)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 This example demonstrates how the [AbsolutePosition](absoluteposition-property-ado.md) property can track the progress of a loop that enumerates all the records of a [Recordset](recordset-object-ado.md). It uses the [CursorLocation](cursorlocation-property-ado.md) property to enable the **AbsolutePosition** property by setting the cursor to a client cursor.
 

@@ -14,7 +14,7 @@ f1_categories:
 
 # RunDataMacro Macro Action
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 You can use the **RunDataMacro** action to run a named data macro.
 

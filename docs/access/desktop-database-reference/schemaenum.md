@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # SchemaEnum
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Specifies the type of schema **Recordset** that the [OpenSchema](openschema-method-ado.md) method retrieves.
 

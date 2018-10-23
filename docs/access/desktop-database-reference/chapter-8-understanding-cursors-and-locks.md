@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Chapter 8: Understanding Cursors and Locks
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 It is important to understand how cursors operate so you can select the best and most efficient cursor type for an application's data-access requirements. A less-than-optimal cursor configuration can make data-access operations painfully slow.
 

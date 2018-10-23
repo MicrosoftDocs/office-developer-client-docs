@@ -1,6 +1,6 @@
 ﻿---
-title: BOF, EOF Properties (ADO)
-TOCTitle: BOF, EOF Properties (ADO)
+title: BOF, EOF properties (ADO)
+TOCTitle: BOF, EOF properties (ADO)
 ms:assetid: f797e140-5572-1a4d-9afc-285f6a3868a8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250260(v=office.15)
 ms:contentKeyID: 48548768
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# BOF, EOF Properties (ADO)
+# BOF, EOF properties (ADO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
   - **BOF** — Indicates that the current record position is before the first record in a [Recordset](recordset-object-ado.md) object.
 
   - **EOF** — Indicates that the current record position is after the last record in a **Recordset** object.
 
-## Return Value
+## Return value
 
 The **BOF** and **EOF** properties return **Boolean** values.
 

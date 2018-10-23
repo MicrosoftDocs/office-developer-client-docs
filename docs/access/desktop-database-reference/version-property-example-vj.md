@@ -1,6 +1,6 @@
 ﻿---
-title: Version Property Example (VJ++)
-TOCTitle: Version Property Example (VJ++)
+title: Version property example (VJ++)
+TOCTitle: Version property example (VJ++)
 ms:assetid: c4f007b8-177d-967e-7f3b-a8945264099b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249963(v=office.15)
 ms:contentKeyID: 48547600
@@ -8,10 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Version Property Example (VJ++)
+# Version property example (VJ++)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 This example uses the [Version](version-property-ado.md) property of a [Connection](connection-object-ado.md) object to display the current ADO version. It also uses several dynamic properties to show:
 

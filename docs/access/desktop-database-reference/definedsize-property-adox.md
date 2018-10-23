@@ -11,11 +11,11 @@ mtps_version: v=office.15
 # DefinedSize Property (ADOX)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Indicates the stated maximum size of the column.
 
-## Settings and Return Values
+## Settings and return values
 
 Sets and returns a **Long** value that is the maximum length in characters of data values.
 

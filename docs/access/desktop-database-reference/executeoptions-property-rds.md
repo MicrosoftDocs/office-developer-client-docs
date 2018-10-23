@@ -11,11 +11,11 @@ mtps_version: v=office.15
 # ExecuteOptions Property (RDS)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Indicates whether asynchronous execution is enabled.
 
-## Settings and Return Values
+## Settings and return values
 
 Sets or returns one of the following values.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ADO MD Enumerated Constants Reference
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 
   - [ADO MD Enumerated Constants](ado-md-enumerated-constants.md)

@@ -1,6 +1,6 @@
 ﻿---
-title: Item Property Example (VJ++)
-TOCTitle: Item Property Example (VJ++)
+title: Item property example (VJ++)
+TOCTitle: Item property example (VJ++)
 ms:assetid: be6f14f1-5d3e-6b13-00fc-cfea12e89dcf
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249923(v=office.15)
 ms:contentKeyID: 48547461
@@ -8,10 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Item Property Example (VJ++)
+# Item property example (VJ++)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 This example demonstrates how the [Item](item-property-ado.md) property accesses members of a collection. The example opens the ***Authors*** table of the ***Pubs*** database with a parameterized command.
 

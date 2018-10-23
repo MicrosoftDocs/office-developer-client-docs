@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ConnectComplete and Disconnect Events (ADO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 The **ConnectComplete** event is called after a connection *starts*. The **Disconnect** event is called after a connection *ends*.
 

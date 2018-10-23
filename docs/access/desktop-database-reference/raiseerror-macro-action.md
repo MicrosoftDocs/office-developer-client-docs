@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # RaiseError Macro Action
 
-**Applies to**: Access 2013, Office 2013 
+**Applies to**: Access 2013 | Office 2013 
 
 The **RaiseError** action throws an exception that can be handled by the **[OnError](onerror-macro-action.md)** macro action.
 

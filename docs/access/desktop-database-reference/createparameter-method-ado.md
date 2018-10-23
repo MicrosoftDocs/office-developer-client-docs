@@ -15,7 +15,7 @@ f1_categories:
 # CreateParameter Method (ADO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 
 Creates a new [Parameter](parameter-object-ado.md) object with the specified properties.
@@ -24,7 +24,7 @@ Creates a new [Parameter](parameter-object-ado.md) object with the specified pro
 
 **Set** *parameter* = *command*.CreateParameter (*Name*, *Type*, *Direction*, *Size*, *Value*)
 
-## Return Value
+## Return value
 
 Returns a **Parameter** object.
 

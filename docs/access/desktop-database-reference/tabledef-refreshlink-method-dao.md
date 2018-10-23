@@ -14,7 +14,7 @@ f1_categories:
 
 # TableDef.RefreshLink Method (DAO)
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
  
 Updates the connection information for a linked table (Microsoft Access workspaces only).
 

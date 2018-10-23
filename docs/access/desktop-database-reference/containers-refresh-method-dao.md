@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Containers.Refresh Method (DAO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Not supported for the **[Connections](connections-collection-dao.md)** collection.
 

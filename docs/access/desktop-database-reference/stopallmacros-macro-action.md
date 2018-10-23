@@ -15,7 +15,7 @@ f1_categories:
 # StopAllMacros Macro Action
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 You can use the **StopAllMacros** action to stop all macros that are currently running.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ADO Objects and Interfaces Reference
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
   - [ADO Objects and Interfaces](ado-objects-and-interfaces.md)
 

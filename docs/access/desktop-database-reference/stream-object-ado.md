@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Stream Object (ADO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Represents a stream of binary data or text.
 
@@ -59,8 +59,7 @@ With the methods and properties of a **Stream** object, you can do the following
 
   - Specify the access mode for the **Stream** with the [Mode](mode-property-ado.md) property.
 
-
 > [!NOTE]
-> <P>URLs using the http scheme will automatically invoke the <A href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider for Internet Publishing</A>. For more information, see <A href="absolute-and-relative-urls.md">Absolute and Relative URLs</A>.</P>
+> URLs using the http scheme will automatically invoke the [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). For more information, see [Absolute and relative URLs](absolute-and-relative-urls.md).
 
 

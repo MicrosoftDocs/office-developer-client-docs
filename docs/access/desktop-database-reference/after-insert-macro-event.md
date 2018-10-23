@@ -15,7 +15,7 @@ f1_categories:
 # After Insert Macro Event
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 The **After Insert** event occurs after a record is added.
 

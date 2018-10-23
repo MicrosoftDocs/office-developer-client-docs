@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Calling a Stored Procedure with a Command
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 You can also use a command when calling a stored procedure. The following code calls a stored procedure in the Northwind sample database, called CustOrdersOrders, which is defined as follows:
 

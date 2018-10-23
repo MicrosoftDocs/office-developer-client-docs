@@ -11,11 +11,11 @@ mtps_version: v=office.15
 # UpdateRule Property (ADOX)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Indicates the action performed when a primary key is updated.
 
-## Settings and Return Values
+## Settings and return values
 
 Sets and returns a **Long** value that can be one of the [RuleEnum](ruleenum.md) constants. The default value is **adRINone**.
 

@@ -15,7 +15,7 @@ f1_categories:
 # TableDef.CreateIndex Method (DAO)
 
 
-**Applies to**: Access 2013, Office 2013 
+**Applies to**: Access 2013 | Office 2013 
 
 Creates a new **[Index](index-object-dao.md)** object (Microsoft Access workspaces only). .
 
@@ -53,7 +53,7 @@ Creates a new **[Index](index-object-dao.md)** object (Microsoft Access workspac
 </table>
 
 
-### Return Value
+### Return value
 
 Index
 

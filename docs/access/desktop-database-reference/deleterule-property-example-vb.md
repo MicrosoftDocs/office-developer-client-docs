@@ -1,6 +1,6 @@
 ﻿---
-title: DeleteRule Property Example (VB)
-TOCTitle: DeleteRule Property Example (VB)
+title: DeleteRule property example (VB)
+TOCTitle: DeleteRule property example (VB)
 ms:assetid: 354e00b6-cecb-1132-6923-fc9e8853fa0e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249114(v=office.15)
 ms:contentKeyID: 48544142
@@ -8,10 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# DeleteRule Property Example (VB)
+# DeleteRule property example (VB)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 This example demonstrates the [DeleteRule](deleterule-property-adox.md) property of a [Key](key-object-adox.md) object. The code appends a new [Table](table-object-adox.md) and then defines a new primary key, setting **DeleteRule** to **adRICascade**.
 

@@ -14,7 +14,7 @@ f1_categories:
 
 # OnError Macro Action
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 You can use the **OnError** action to specify what should happen when an error occurs in a macro.
 

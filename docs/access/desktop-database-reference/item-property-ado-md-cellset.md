@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Item Property (ADO MD Cellset)
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Retrieves a cell from a cellset using its coordinates.
 

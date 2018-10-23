@@ -1,6 +1,6 @@
 ﻿---
-title: DateCreated and DateModified Properties Example (VB)
-TOCTitle: DateCreated and DateModified Properties Example (VB)
+title: DateCreated and DateModified properties example (VB)
+TOCTitle: DateCreated and DateModified properties example (VB)
 ms:assetid: 5afdb5a9-394f-c38f-83a4-ae7017673c5e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249316(v=office.15)
 ms:contentKeyID: 48545063
@@ -8,10 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# DateCreated and DateModified Properties Example (VB)
+# DateCreated and DateModified properties example (VB)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 This example demonstrates the [DateCreated](datecreated-property-adox.md) and [DateModified](datemodified-property-adox.md) properties by adding a new [Column](column-object-adox.md) to an existing [Table](table-object-adox.md) and by creating a new **Table**. The DateOutput procedure is required for this example to run.
 

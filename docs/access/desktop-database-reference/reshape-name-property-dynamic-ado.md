@@ -11,11 +11,11 @@ mtps_version: v=office.15
 # Reshape Name Property--Dynamic (ADO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Specifies a name for the [Recordset](recordset-object-ado.md) object.
 
-## Return Values
+## Return values
 
 Returns a **String** value that is the name of the **Recordset**.
 

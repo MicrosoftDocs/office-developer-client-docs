@@ -15,7 +15,7 @@ f1_categories:
 # RemoveAllTempVars Macro Action
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 
 You can use the **RemoveAllTempVars** action to remove any temporary variables that you created by using the **SetTempVar** action.

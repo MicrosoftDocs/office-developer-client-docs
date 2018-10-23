@@ -14,7 +14,7 @@ f1_categories:
 
 # Database.DesignMasterID Property (DAO)
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Sets or returns a 16-byte value that uniquely identifies the Design Master in a replica set (Microsoft Access workspaces only).
 

@@ -15,7 +15,7 @@ f1_categories:
 # Recordset.Connection Property (DAO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Returns the **[Connection](connection-object-dao.md)** object that corresponds to the database.
 

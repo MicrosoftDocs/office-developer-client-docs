@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # TableDefs Members (DAO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 A TableDefs collection contains all stored TableDef objects in a database (Microsoft Access workspaces only).
 

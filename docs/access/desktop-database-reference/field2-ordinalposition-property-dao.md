@@ -15,7 +15,7 @@ f1_categories:
 # Field2.OrdinalPosition Property (DAO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 
 Sets or returns the relative position of a **Field2** object within a **[Fields](fields-collection-dao.md)** collection. .

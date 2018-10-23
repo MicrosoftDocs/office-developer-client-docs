@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Indexes Collection (DAO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 An **Indexes** collection contains all the stored **Index** objects of a **TableDef** object (Microsoft Access workspaces only).
 

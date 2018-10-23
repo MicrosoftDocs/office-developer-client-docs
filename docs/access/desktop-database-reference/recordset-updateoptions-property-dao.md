@@ -15,7 +15,7 @@ f1_categories:
 # Recordset.UpdateOptions Property (DAO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 ## Syntax
 

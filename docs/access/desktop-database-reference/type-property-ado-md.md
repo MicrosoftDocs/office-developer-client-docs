@@ -11,11 +11,11 @@ mtps_version: v=office.15
 # Type Property (ADO MD)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Indicates the type of the current member.
 
-## Return Values
+## Return values
 
 Returns a [MemberTypeEnum](membertypeenum.md) value and is read-only.
 

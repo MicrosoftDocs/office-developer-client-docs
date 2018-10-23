@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Recordset2.Move Method (DAO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Moves the position of the current record in a **[Recordset](recordset-object-dao.md)** object.
 

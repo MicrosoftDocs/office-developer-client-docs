@@ -1,6 +1,6 @@
 ﻿---
-title: PrimaryKey and Unique Properties Example (VC++)
-TOCTitle: PrimaryKey and Unique Properties Example (VC++)
+title: PrimaryKey and Unique properties example (VC++)
+TOCTitle: PrimaryKey and Unique properties example (VC++)
 ms:assetid: 0aa3faf6-5165-911a-8167-4a7bdd1c7ceb
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248838(v=office.15)
 ms:contentKeyID: 48543158
@@ -8,10 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# PrimaryKey and Unique Properties Example (VC++)
+# PrimaryKey and Unique properties example (VC++)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 This example demonstrates the [PrimaryKey](primarykey-property-adox.md) and [Unique](unique-property-adox.md) properties of an [Index](index-object-adox.md). The code creates a new table with two columns. The **PrimaryKey** and **Unique** properties are used to make one column the primary key for which duplicate values are not allowed.
 

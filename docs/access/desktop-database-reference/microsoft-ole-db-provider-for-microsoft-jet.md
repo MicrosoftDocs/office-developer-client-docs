@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Microsoft OLE DB Provider for Microsoft Jet
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 The OLE DB Provider for Microsoft Jet allows ADO to access Microsoft Jet databases.
 

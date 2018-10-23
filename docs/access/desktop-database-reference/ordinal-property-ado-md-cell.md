@@ -11,11 +11,11 @@ mtps_version: v=office.15
 # Ordinal Property (ADO MD Cell)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Uniquely identifies a cell by its position within a cellset.
 
-## Return Values
+## Return values
 
 Returns a **Long** integer and is read-only.
 

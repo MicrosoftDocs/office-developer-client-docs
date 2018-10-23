@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ADO Objects and Interfaces
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 The relationships between these objects are represented in the ADO Object Model.
 

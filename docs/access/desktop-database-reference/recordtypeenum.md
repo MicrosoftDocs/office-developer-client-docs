@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # RecordTypeEnum
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Specifies the type of [Record](record-object-ado.md) object.
 

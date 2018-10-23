@@ -15,7 +15,7 @@ f1_categories:
 # Database.NewPassword Method (DAO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Changes the password of an existing Microsoft Access database engine database (Microsoft Access workspaces only).
 

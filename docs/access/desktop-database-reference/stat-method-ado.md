@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Stat Method (ADO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Retrieves information about a **Stream** object.
 
@@ -19,7 +19,7 @@ Retrieves information about a **Stream** object.
 
 Long *stream*.Stat(*StatStg*, *StatFlag*)
 
-## Return Value
+## Return value
 
 A long value indicating the status of the operation.
 

@@ -1,6 +1,6 @@
 ﻿---
-title: Type Property Example (Field) (VC++)
-TOCTitle: Type Property Example (Field) (VC++)
+title: Type property example (Field) (VC++)
+TOCTitle: Type property example (Field) (VC++)
 ms:assetid: d157407d-e7c9-897e-a0d1-e6396fb78690
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250045(v=office.15)
 ms:contentKeyID: 48547858
@@ -8,10 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Type Property Example (Field) (VC++)
+# Type property example (Field) (VC++)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 This example demonstrates the [Type](type-property-ado.md) property by displaying the name of the constant that corresponds to the value of the **Type** property of all the [Field](field-object-ado.md) objects in the ***Employees*** table. The FieldType function is required for this procedure to run.
 

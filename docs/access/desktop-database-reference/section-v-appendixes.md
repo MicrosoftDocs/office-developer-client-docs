@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Section V: Appendixes
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 The ADO Programmer's Guide contains the following appendixes:
 

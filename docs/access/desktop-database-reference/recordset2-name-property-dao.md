@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Recordset2.Name Property (DAO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Returns the name of the specified object. Read-only **String**.
 

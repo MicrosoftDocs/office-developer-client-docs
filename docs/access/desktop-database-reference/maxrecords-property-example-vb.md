@@ -1,6 +1,6 @@
 ﻿---
-title: MaxRecords Property Example (VB)
-TOCTitle: MaxRecords Property Example (VB)
+title: MaxRecords property example (VB)
+TOCTitle: MaxRecords property example (VB)
 ms:assetid: e0b21025-3494-81a7-d656-03b85b0102d2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250142(v=office.15)
 ms:contentKeyID: 48548241
@@ -8,10 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# MaxRecords Property Example (VB)
+# MaxRecords property example (VB)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 This example uses the [MaxRecords](maxrecords-property-ado.md) property to open a [Recordset](recordset-object-ado.md) containing the 10 most expensive titles in the ***Titles*** table.
 

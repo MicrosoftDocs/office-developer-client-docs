@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Key Object (ADOX)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Represents a primary, foreign, or unique key field from a database table.
 

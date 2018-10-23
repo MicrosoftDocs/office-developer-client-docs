@@ -15,7 +15,7 @@ f1_categories:
 # Property.Inherited Property (DAO)
 
 
-**Applies to**: Access 2013, Office 2013 
+**Applies to**: Access 2013 | Office 2013 
 
 Returns a value that indicates whether a **[Property](property-object-dao.md)** object is inherited from an underlying object.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Index.CreateProperty Method (DAO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Creates a new user-defined **[Property](property-object-dao.md)** object (Microsoft Access workspaces only).
 
@@ -67,7 +67,7 @@ Creates a new user-defined **[Property](property-object-dao.md)** object (Micros
 </table>
 
 
-### Return Value
+### Return value
 
 Property
 

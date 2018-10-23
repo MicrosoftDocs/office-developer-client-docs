@@ -1,4 +1,4 @@
----
+﻿---
 title: SELECT.INTO statement (Microsoft Access SQL)
 TOCTitle: SELECT.INTO statement (Microsoft Access SQL)
 ms:assetid: 29f3bd55-52f5-a36e-4e33-4b3499c6ce8d
@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # SELECT.INTO statement (Microsoft Access SQL)
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Creates a make-table query.
 

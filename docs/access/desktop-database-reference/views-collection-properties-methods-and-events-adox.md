@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Views Collection Properties, Methods, and Events (ADOX)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 ## Properties
 

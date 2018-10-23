@@ -15,7 +15,7 @@ f1_categories:
 # Initializing the Text Data Source Driver
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 
 The same database driver is used for both Text Data sources and for HTML data sources.

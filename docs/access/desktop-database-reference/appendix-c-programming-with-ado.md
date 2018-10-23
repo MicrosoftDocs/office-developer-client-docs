@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Appendix C: Programming with ADO
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 ADO is a COM automation interface component that can be used with many programming languages, including Microsoft Visual Basic, VBScript, JScript, Visual C++, and Visual J++. A version of ADO is installed with each of these tools and other applications, such as Microsoft Office and Microsoft SQL Server. See the [Data Platform Developer Center](https://msdn.microsoft.com/data/default.aspx) for more information.
 

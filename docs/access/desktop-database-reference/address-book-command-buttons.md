@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Address Book Command Buttons
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 
 The Address Book application includes the following command buttons:

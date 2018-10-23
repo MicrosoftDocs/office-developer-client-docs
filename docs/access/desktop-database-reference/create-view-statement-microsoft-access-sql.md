@@ -1,4 +1,4 @@
----
+﻿---
 title: CREATE VIEW statement (Microsoft Access SQL)
 TOCTitle: CREATE VIEW statement (Microsoft Access SQL)
 ms:assetid: ecaabd75-3081-fd35-830d-5a59b0a51922
@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # CREATE VIEW statement (Microsoft Access SQL)
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Creates a new view.
 

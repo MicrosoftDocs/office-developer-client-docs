@@ -11,11 +11,11 @@ mtps_version: v=office.15
 # DateCreated Property (ADOX)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Indicates the date the object was created.
 
-## Return Values
+## Return values
 
 Returns a **Variant** value specifying the date created. The value is null if **DateCreated** is not supported by the provider.
 

@@ -15,7 +15,7 @@ f1_categories:
 # Error.Source Property (DAO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 
 Returns the name of the object or application that originally generated the error.

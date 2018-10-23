@@ -15,7 +15,7 @@ f1_categories:
 # GoToRecord Macro Action
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 You can use the **GoToRecord** action to make the specified record the current record in an open table, form, or query result set.
 

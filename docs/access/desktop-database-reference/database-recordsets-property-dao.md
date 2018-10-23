@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Database.Recordsets Property (DAO)
 
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Returns a **Recordsets** collection that contains all of the open recordsets in the for the specified database. Read-only.
 

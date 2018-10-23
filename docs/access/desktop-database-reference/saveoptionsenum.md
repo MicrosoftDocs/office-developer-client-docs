@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # SaveOptionsEnum
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 2013 | Office 2013
 
 Specifies whether a file should be created or overwritten when saving from a [Stream](stream-object-ado.md) object. The values can be combined with an AND operator.
 
