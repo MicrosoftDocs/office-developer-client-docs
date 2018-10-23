@@ -1,6 +1,6 @@
 ﻿---
-title: Name property (ADO)
-TOCTitle: Name property (ADO)
+title: Name Property (ADO)
+TOCTitle: Name Property (ADO)
 ms:assetid: 4b19bd08-ac3c-86f0-471d-06a37a0d4f89
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249234(v=office.15)
 ms:contentKeyID: 48544683
@@ -8,14 +8,14 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Name property (ADO)
+# Name Property (ADO)
 
 
 **Applies to**: Access 2013, Office 2013
 
 Indicates the name of an object.
 
-## Settings and return values
+## Settings and Return Values
 
 Sets or returns a **String** value that indicates the name of an object.
 

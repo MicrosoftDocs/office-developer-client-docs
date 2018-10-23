@@ -1,6 +1,6 @@
 ﻿---
-title: ConnectionString property (ADO)
-TOCTitle: ConnectionString property (ADO)
+title: ConnectionString Property (ADO)
+TOCTitle: ConnectionString Property (ADO)
 ms:assetid: c67a7daf-258f-d99d-6475-a4aa98d1e99d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249968(v=office.15)
 ms:contentKeyID: 48547627
@@ -8,14 +8,14 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ConnectionString property (ADO)
+# ConnectionString Property (ADO)
 
 
 **Applies to**: Access 2013, Office 2013
 
 Indicates the information used to establish a connection to a data source.
 
-## Settings and return values
+## Settings and Return Values
 
 Sets or returns a **String** value.
 

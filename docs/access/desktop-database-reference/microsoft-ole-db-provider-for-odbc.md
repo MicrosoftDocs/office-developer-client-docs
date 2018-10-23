@@ -74,7 +74,7 @@ The string consists of these keywords:
 </tr>
 <tr class="odd">
 <td><p><strong>URL</strong></p></td>
-<td><p>Specifies the URL of a file or directory published in a web folder.</p></td>
+<td><p>Specifies the URL of a file or directory published in a Web folder.</p></td>
 </tr>
 </tbody>
 </table>

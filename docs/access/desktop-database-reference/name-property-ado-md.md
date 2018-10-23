@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 Indicates the name of an object.
 
-## Return values
+## Return Values
 
 Returns a **String** and is read-only.
 

@@ -1,6 +1,6 @@
 ﻿---
-title: Parameters Collection, Command property example (VC++)
-TOCTitle: Parameters Collection, Command property example (VC++)
+title: Parameters Collection, Command Property Example (VC++)
+TOCTitle: Parameters Collection, Command Property Example (VC++)
 ms:assetid: 625a83d5-5b73-f945-7e01-bf412fed0827
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249369(v=office.15)
 ms:contentKeyID: 48545237
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Parameters Collection, Command property example (VC++)
+# Parameters Collection, Command Property Example (VC++)
 
 
 **Applies to**: Access 2013, Office 2013

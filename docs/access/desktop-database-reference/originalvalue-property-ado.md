@@ -1,6 +1,6 @@
 ﻿---
-title: OriginalValue property (ADO)
-TOCTitle: OriginalValue property (ADO)
+title: OriginalValue Property (ADO)
+TOCTitle: OriginalValue Property (ADO)
 ms:assetid: 02ffc728-4692-d439-e2a6-2f02cca53a71
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248798(v=office.15)
 ms:contentKeyID: 48542974
@@ -8,13 +8,13 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# OriginalValue property (ADO)
+# OriginalValue Property (ADO)
 
 **Applies to**: Access 2013, Office 2013
 
 Indicates the value of a [Field](field-object-ado.md) that existed in the record before any changes were made.
 
-## Return value
+## Return Value
 
 Returns a **Variant** value that represents the value of a field prior to any change.
 

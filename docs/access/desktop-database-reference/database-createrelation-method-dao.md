@@ -70,7 +70,7 @@ Creates a new **[Relation](relation-object-dao.md)** object (Microsoft Access wo
 </table>
 
 
-### Return value
+### Return Value
 
 Relation
 

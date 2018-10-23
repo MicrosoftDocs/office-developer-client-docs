@@ -1,6 +1,6 @@
 ﻿---
-title: Version property example (VJ++)
-TOCTitle: Version property example (VJ++)
+title: Version Property Example (VJ++)
+TOCTitle: Version Property Example (VJ++)
 ms:assetid: c4f007b8-177d-967e-7f3b-a8945264099b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249963(v=office.15)
 ms:contentKeyID: 48547600
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Version property example (VJ++)
+# Version Property Example (VJ++)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,6 +1,6 @@
 ﻿---
-title: NativeError property (ADO)
-TOCTitle: NativeError property (ADO)
+title: NativeError Property (ADO)
+TOCTitle: NativeError Property (ADO)
 ms:assetid: 9f4d4064-5ee7-20f8-fd54-2cb2eae64d7b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249731(v=office.15)
 ms:contentKeyID: 48546685
@@ -8,14 +8,14 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# NativeError property (ADO)
+# NativeError Property (ADO)
 
 
 **Applies to**: Access 2013, Office 2013
 
 Indicates the provider-specific error code for a given [Error](error-object-ado.md) object.
 
-## Return value
+## Return Value
 
 Returns a **Long** value that indicates the error code.
 

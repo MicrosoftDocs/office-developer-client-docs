@@ -1,6 +1,6 @@
 ﻿---
-title: Source property example (VJ++)
-TOCTitle: Source property example (VJ++)
+title: Source Property Example (VJ++)
+TOCTitle: Source Property Example (VJ++)
 ms:assetid: cfe6293f-19b7-cc57-c53a-611f841273a5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250036(v=office.15)
 ms:contentKeyID: 48547821
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Source property example (VJ++)
+# Source Property Example (VJ++)
 
 
 **Applies to**: Access 2013, Office 2013

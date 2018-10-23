@@ -1,6 +1,6 @@
 ﻿---
-title: StayInSync property example (VJ++)
-TOCTitle: StayInSync property example (VJ++)
+title: StayInSync Property Example (VJ++)
+TOCTitle: StayInSync Property Example (VJ++)
 ms:assetid: e9e0fcc7-07b6-c433-7c4c-478fc69eacaf
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250184(v=office.15)
 ms:contentKeyID: 48548448
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# StayInSync property example (VJ++)
+# StayInSync Property Example (VJ++)
 
 
 **Applies to**: Access 2013, Office 2013

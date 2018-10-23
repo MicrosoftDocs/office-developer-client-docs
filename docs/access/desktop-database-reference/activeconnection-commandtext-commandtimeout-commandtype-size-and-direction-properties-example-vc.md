@@ -1,14 +1,15 @@
 ﻿---
-title: ActiveConnection, CommandText, CommandTimeout properties example (VC++)
-TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VC++)
+title: ActiveConnection, CommandText, CommandTimeout Properties Example (VC++)
+TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction Properties Example (VC++)
 ms:assetid: 254e6d48-fc07-1df0-215c-a91141238985
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249021(v=office.15)
 ms:contentKeyID: 48543780
-ms.date: 10/17/2018
+ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VC++)
+# ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction Properties Example (VC++)
+
 
 **Applies to**: Access 2013, Office 2013
 

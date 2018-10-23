@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 Indicates the date the object was created.
 
-## Return values
+## Return Values
 
 Returns a **Variant** value specifying the date created. The value is null if **DateCreated** is not supported by the provider.
 

@@ -1,6 +1,6 @@
 ﻿---
-title: Position property (ADO)
-TOCTitle: Position property (ADO)
+title: Position Property (ADO)
+TOCTitle: Position Property (ADO)
 ms:assetid: a07c9197-673b-ddf2-fca9-b0b54fbd67b4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249738(v=office.15)
 ms:contentKeyID: 48546709
@@ -8,14 +8,14 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Position property (ADO)
+# Position Property (ADO)
 
 
 **Applies to**: Access 2013, Office 2013
 
 Indicates the current position within a [Stream](stream-object-ado.md) object.
 
-## Settings and return values
+## Settings and Return Values
 
 Sets or returns a **Long** value that specifies the offset, in number of bytes, of the current position from the beginning of the stream. The default is 0, which represents the first byte in the stream.
 

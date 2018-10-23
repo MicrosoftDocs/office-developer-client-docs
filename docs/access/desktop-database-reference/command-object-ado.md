@@ -29,7 +29,7 @@ With the collections, methods, and properties of a **Command** object, you can d
 
   - Define parameterized queries or stored-procedure arguments with [Parameter](parameter-object-ado.md) objects and the [Parameters](parameters-collection-ado.md) collection.
 
-  - Execute a command and return a **Recordset** object if appropriate with the [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) method.
+  - Execute a command and return a **Recordset** object if appropriate with the [Execute](https://msdn.microsoft.com/library/jj248785\(v=office.15\)) method.
 
   - Specify the type of command with the [CommandType](commandtype-property-ado.md) property prior to execution to optimize performance.
 

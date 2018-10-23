@@ -1,6 +1,6 @@
 ﻿---
-title: RecordCount property (ADO)
-TOCTitle: RecordCount property (ADO)
+title: RecordCount Property (ADO)
+TOCTitle: RecordCount Property (ADO)
 ms:assetid: e3072d10-5bf7-02a8-027e-a9d9a34e3f27
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250155(v=office.15)
 ms:contentKeyID: 48548304
@@ -8,14 +8,14 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# RecordCount property (ADO)
+# RecordCount Property (ADO)
 
 
 **Applies to**: Access 2013, Office 2013
 
 Indicates the number of records in a [Recordset](recordset-object-ado.md) object.
 
-## Return value
+## Return Value
 
 Returns a **Long** value that indicates the number of records in the **Recordset**.
 

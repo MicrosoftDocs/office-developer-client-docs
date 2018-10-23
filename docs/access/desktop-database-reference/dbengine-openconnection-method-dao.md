@@ -69,7 +69,7 @@ f1_categories:
 </table>
 
 
-### Return value
+### Return Value
 
 Connection
 

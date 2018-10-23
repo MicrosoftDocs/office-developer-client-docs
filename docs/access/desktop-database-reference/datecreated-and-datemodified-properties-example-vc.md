@@ -1,6 +1,6 @@
 ﻿---
-title: DateCreated and DateModified properties example (VC++)
-TOCTitle: DateCreated and DateModified properties example (VC++)
+title: DateCreated and DateModified Properties Example (VC++)
+TOCTitle: DateCreated and DateModified Properties Example (VC++)
 ms:assetid: 1c92e8f5-2fed-55dc-2cdd-51dfa16ecd84
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248962(v=office.15)
 ms:contentKeyID: 48543573
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# DateCreated and DateModified properties example (VC++)
+# DateCreated and DateModified Properties Example (VC++)
 
 
 **Applies to**: Access 2013, Office 2013

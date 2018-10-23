@@ -1,6 +1,6 @@
 ﻿---
-title: Provider and DefaultDatabase properties example (VC++)
-TOCTitle: Provider and DefaultDatabase properties example (VC++)
+title: Provider and DefaultDatabase Properties Example (VC++)
+TOCTitle: Provider and DefaultDatabase Properties Example (VC++)
 ms:assetid: 21c38be4-3906-cee8-b77b-300f1226392a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248995(v=office.15)
 ms:contentKeyID: 48543687
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Provider and DefaultDatabase properties example (VC++)
+# Provider and DefaultDatabase Properties Example (VC++)
 
 
 **Applies to**: Access 2013, Office 2013

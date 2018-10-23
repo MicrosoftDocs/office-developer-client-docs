@@ -20,7 +20,7 @@ Returns the [Recordset](recordset-object-ado.md) as a string.
 
 *Variant* = *recordset*.GetString(*StringFormat*, *NumRows*, *ColumnDelimiter*, *RowDelimiter*, *NullExpr*)
 
-## Return value
+## Return Value
 
 Returns the **Recordset** as a string-valued **Variant** (BSTR).
 

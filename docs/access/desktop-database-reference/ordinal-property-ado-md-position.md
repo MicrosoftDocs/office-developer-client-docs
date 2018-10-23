@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 Uniquely identifies a position along an axis.
 
-## Return values
+## Return Values
 
 Returns a **Long** integer and is read-only.
 

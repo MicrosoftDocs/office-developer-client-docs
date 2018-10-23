@@ -21,7 +21,7 @@ Enables you to closely control modifications to a particular base table in a [Re
 
   - **Unique Catalog** specifies the *catalog*, or name of the database containing the table.
 
-## Settings and return values
+## Settings and Return Values
 
 Sets or returns a **String** value that is the name of a table, schema, or catalog.
 

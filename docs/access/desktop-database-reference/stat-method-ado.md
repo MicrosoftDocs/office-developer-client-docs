@@ -19,7 +19,7 @@ Retrieves information about a **Stream** object.
 
 Long *stream*.Stat(*StatStg*, *StatFlag*)
 
-## Return value
+## Return Value
 
 A long value indicating the status of the operation.
 

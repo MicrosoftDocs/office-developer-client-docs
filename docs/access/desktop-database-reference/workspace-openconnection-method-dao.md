@@ -65,7 +65,7 @@ mtps_version: v=office.15
 </table>
 
 
-### Return value
+### Return Value
 
 Connection
 

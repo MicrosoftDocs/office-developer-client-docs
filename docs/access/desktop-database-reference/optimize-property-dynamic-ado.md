@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 Specifies whether an index should be created on a field.
 
-## Settings and return values
+## Settings and Return Values
 
 Sets or returns a **Boolean** value that indicates whether an index should be created.
 

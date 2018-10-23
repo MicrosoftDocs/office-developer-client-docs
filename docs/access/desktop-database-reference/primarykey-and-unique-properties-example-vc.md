@@ -1,6 +1,6 @@
 ﻿---
-title: PrimaryKey and Unique properties example (VC++)
-TOCTitle: PrimaryKey and Unique properties example (VC++)
+title: PrimaryKey and Unique Properties Example (VC++)
+TOCTitle: PrimaryKey and Unique Properties Example (VC++)
 ms:assetid: 0aa3faf6-5165-911a-8167-4a7bdd1c7ceb
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248838(v=office.15)
 ms:contentKeyID: 48543158
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# PrimaryKey and Unique properties example (VC++)
+# PrimaryKey and Unique Properties Example (VC++)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,6 +1,6 @@
 ﻿---
-title: Catalog ActiveConnection property example (VB)
-TOCTitle: Catalog ActiveConnection property example (VB)
+title: Catalog ActiveConnection Property Example (VB)
+TOCTitle: Catalog ActiveConnection Property Example (VB)
 ms:assetid: 12a34091-e451-dbd1-e7f3-f794b84ee5b0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248901(v=office.15)
 ms:contentKeyID: 48543348
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Catalog ActiveConnection property example (VB)
+# Catalog ActiveConnection Property Example (VB)
 
 **Applies to**: Access 2013, Office 2013
 

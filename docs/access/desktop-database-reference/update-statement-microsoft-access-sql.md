@@ -1,4 +1,4 @@
-﻿---
+---
 title: UPDATE statement (Microsoft Access SQL)
 TOCTitle: UPDATE statement (Microsoft Access SQL)
 ms:assetid: 08f9c3d6-c020-ecf1-5748-43b93a76dfbb

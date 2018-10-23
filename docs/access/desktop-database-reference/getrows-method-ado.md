@@ -20,7 +20,7 @@ Retrieves multiple records of a [Recordset](recordset-object-ado.md) object into
 
 *array* = *recordset*.GetRows(*Rows*, *Start*, *Fields* )
 
-## Return value
+## Return Value
 
 Returns a **Variant** whose value is a two-dimensional array.
 

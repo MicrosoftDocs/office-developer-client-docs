@@ -1,6 +1,6 @@
 ﻿---
-title: State property example (VB)
-TOCTitle: State property example (VB)
+title: State Property Example (VB)
+TOCTitle: State Property Example (VB)
 ms:assetid: e5a9abc6-9be7-5b70-a2da-9b678b3a8421
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250166(v=office.15)
 ms:contentKeyID: 48548366
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# State property example (VB)
+# State Property Example (VB)
 
 
 **Applies to**: Access 2013, Office 2013

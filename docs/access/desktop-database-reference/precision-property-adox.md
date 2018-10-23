@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 Indicates the maximum precision of data values in the column.
 
-## Settings and return values
+## Settings and Return Values
 
 Sets and returns a **Long** value that is the maximum precision of data values in the column when the [Type](https://msdn.microsoft.com/library/jj249169\(v=office.15\)) property is a numeric type. **Precision** is ignored for all other data types.
 

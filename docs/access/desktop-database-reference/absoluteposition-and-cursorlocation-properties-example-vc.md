@@ -1,14 +1,14 @@
 ﻿---
-title: AbsolutePosition and CursorLocation properties example (VC++)
-TOCTitle: AbsolutePosition and CursorLocation properties example (VC++)
+title: AbsolutePosition and CursorLocation Properties Example (VC++)
+TOCTitle: AbsolutePosition and CursorLocation Properties Example (VC++)
 ms:assetid: a1ae63dd-296b-09b0-a898-091b855e3141
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249745(v=office.15)
 ms:contentKeyID: 48546739
-ms.date: 10/17/2018
+ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# AbsolutePosition and CursorLocation properties example (VC++)
+# AbsolutePosition and CursorLocation Properties Example (VC++)
 
 
 **Applies to**: Access 2013, Office 2013

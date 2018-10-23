@@ -46,7 +46,7 @@ Moves the entity represent by a [Record](record-object-ado.md) to another locati
 
   - Optional. A **Boolean** value that, when **True**, specifies this operation should be asynchronous .
 
-## Return value
+## Return Value
 
 A **String** value. Typically, the value of *Destination* is returned. However, the exact value returned is provider-dependent.
 
@@ -68,6 +68,6 @@ If this **Record** was obtained from a [Recordset](recordset-object-ado.md), the
 
 
 > [!NOTE]
-> URLs using the http scheme will automatically invoke the [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). For more information, see [Absolute and relative URLs](absolute-and-relative-urls.md).
+> <P>URLs using the http scheme will automatically invoke the <A href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider for Internet Publishing</A>. For more information, see <A href="absolute-and-relative-urls.md">Absolute and Relative URLs</A>.</P>
 
 

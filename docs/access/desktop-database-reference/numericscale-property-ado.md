@@ -1,6 +1,6 @@
 ﻿---
-title: NumericScale property (ADO)
-TOCTitle: NumericScale property (ADO)
+title: NumericScale Property (ADO)
+TOCTitle: NumericScale Property (ADO)
 ms:assetid: 51b232d2-5bfd-521c-f4e9-65655ecc7c70
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249263(v=office.15)
 ms:contentKeyID: 48544824
@@ -8,14 +8,14 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# NumericScale property (ADO)
+# NumericScale Property (ADO)
 
 
 **Applies to**: Access 2013, Office 2013
 
 Indicates the scale of numeric values in a [Parameter](parameter-object-ado.md) or [Field](field-object-ado.md) object.
 
-## Settings and return values
+## Settings and Return Values
 
 Sets or returns a **Byte** value that indicates the number of decimal places to which numeric values will be resolved.
 

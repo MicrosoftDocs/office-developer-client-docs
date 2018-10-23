@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 Returns a text explanation of the current object.
 
-## Return values
+## Return Values
 
 Returns a **String** and is read-only.
 

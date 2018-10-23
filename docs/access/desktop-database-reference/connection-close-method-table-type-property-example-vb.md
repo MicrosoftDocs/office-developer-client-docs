@@ -1,6 +1,6 @@
 ﻿---
-title: Connection Close Method, Table Type property example (VB)
-TOCTitle: Connection Close Method, Table Type property example (VB)
+title: Connection Close Method, Table Type Property Example (VB)
+TOCTitle: Connection Close Method, Table Type Property Example (VB)
 ms:assetid: cd0bb6ad-af7b-fb9c-d45c-5d4b62459c03
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250019(v=office.15)
 ms:contentKeyID: 48547754
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Connection Close Method, Table Type property example (VB)
+# Connection Close Method, Table Type Property Example (VB)
 
 **Applies to**: Access 2013, Office 2013
 

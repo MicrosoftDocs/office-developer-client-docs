@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 Indicates whether the index keys must be unique.
 
-## Settings and return values
+## Settings and Return Values
 
 Sets and returns a **Boolean** value.
 

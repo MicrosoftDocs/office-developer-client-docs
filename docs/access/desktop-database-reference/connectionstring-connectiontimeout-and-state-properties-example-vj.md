@@ -1,6 +1,6 @@
 ﻿---
-title: ConnectionString, ConnectionTimeout, and State properties example (VJ++)
-TOCTitle: ConnectionString, ConnectionTimeout, and State properties example (VJ++)
+title: ConnectionString, ConnectionTimeout, and State Properties Example (VJ++)
+TOCTitle: ConnectionString, ConnectionTimeout, and State Properties Example (VJ++)
 ms:assetid: 88b3f95e-0e46-7cbb-8086-d583319a6628
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249599(v=office.15)
 ms:contentKeyID: 48546141
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ConnectionString, ConnectionTimeout, and State properties example (VJ++)
+# ConnectionString, ConnectionTimeout, and State Properties Example (VJ++)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 Indicates the data source or object represented by the [Record](record-object-ado.md).
 
-## Settings and return values
+## Settings and Return Values
 
 Sets or returns a **Variant** value that indicates the entity represented by the **Record**.
 
@@ -31,7 +31,8 @@ If the **ActiveConnection** property is also set, then the **Source** property m
 
 The **Source** property is read/write while the **Record** object is closed, and is read-only while the **Record** object is open.
 
+
 > [!NOTE]
-> URLs using the http scheme will automatically invoke the [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). For more information, see [Absolute and relative URLs](absolute-and-relative-urls.md).
+> <P>URLs using the http scheme will automatically invoke the <A href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider for Internet Publishing</A>. For more information, see <A href="absolute-and-relative-urls.md">Absolute and Relative URLs</A>.</P>
 
 

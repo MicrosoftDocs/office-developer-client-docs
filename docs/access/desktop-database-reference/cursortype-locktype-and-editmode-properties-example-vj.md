@@ -1,6 +1,6 @@
 ﻿---
-title: CursorType, LockType, and EditMode properties example (VJ++)
-TOCTitle: CursorType, LockType, and EditMode properties example (VJ++)
+title: CursorType, LockType, and EditMode Properties Example (VJ++)
+TOCTitle: CursorType, LockType, and EditMode Properties Example (VJ++)
 ms:assetid: bfe87584-4909-8974-b207-4a0c363c5155
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249932(v=office.15)
 ms:contentKeyID: 48547497
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# CursorType, LockType, and EditMode properties example (VJ++)
+# CursorType, LockType, and EditMode Properties Example (VJ++)
 
 
 **Applies to**: Access 2013, Office 2013

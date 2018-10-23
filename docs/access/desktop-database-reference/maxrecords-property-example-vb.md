@@ -1,6 +1,6 @@
 ﻿---
-title: MaxRecords property example (VB)
-TOCTitle: MaxRecords property example (VB)
+title: MaxRecords Property Example (VB)
+TOCTitle: MaxRecords Property Example (VB)
 ms:assetid: e0b21025-3494-81a7-d656-03b85b0102d2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250142(v=office.15)
 ms:contentKeyID: 48548241
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# MaxRecords property example (VB)
+# MaxRecords Property Example (VB)
 
 
 **Applies to**: Access 2013, Office 2013

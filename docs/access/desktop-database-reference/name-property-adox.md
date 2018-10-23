@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 Indicates the name of the object.
 
-## Settings and return values
+## Settings and Return Values
 
 Sets or returns a **String** value.
 

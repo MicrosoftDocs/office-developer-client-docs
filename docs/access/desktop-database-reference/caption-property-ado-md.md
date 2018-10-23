@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 Indicates the text caption to use when displaying a [Level](level-object-ado-md.md) or [Member](member-object-ado-md.md) object.
 
-## Return values
+## Return Values
 
 Returns a **String** and is read-only.
 

@@ -59,7 +59,7 @@ Creates a new **[QueryDef](querydef-object-dao.md)** object.
 </table>
 
 
-### Return value
+### Return Value
 
 QueryDef
 

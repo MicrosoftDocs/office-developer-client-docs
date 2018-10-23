@@ -1,14 +1,15 @@
 ﻿---
-title: AbsolutePosition and CursorLocation properties example (JScript)
-TOCTitle: AbsolutePosition and CursorLocation properties example (JScript)
+title: AbsolutePosition and CursorLocation Properties Example (JScript)
+TOCTitle: AbsolutePosition and CursorLocation Properties Example (JScript)
 ms:assetid: dc98dbcc-ad00-91cb-1cf0-ee6c9150a391
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250117(v=office.15)
 ms:contentKeyID: 48548142
-ms.date: 10/17/2018
+ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# AbsolutePosition and CursorLocation properties example (JScript)
+# AbsolutePosition and CursorLocation Properties Example (JScript)
+
 
 **Applies to**: Access 2013, Office 2013
 
@@ -23,7 +24,7 @@ This example demonstrates how the [AbsolutePosition](absoluteposition-property-a
 <html> 
  
 <head> 
-<title>AbsolutePosition and CursorLocation properties example (JScript)</title> 
+<title>AbsolutePosition and CursorLocation Properties Example (JScript)</title> 
 <style> 
 <!-- 
 BODY { 
@@ -48,7 +49,7 @@ BODY {
 </head> 
  
 <body> 
-<h1>AbsolutePosition and CursorLocation properties example (JScript)</h1> 
+<h1>AbsolutePosition and CursorLocation Properties Example (JScript)</h1> 
 <% 
  // connection and recordset variables 
  var strCnxn = "Provider='sqloledb';Data Source=" + Request.ServerVariables("SERVER_NAME") + ";" + 

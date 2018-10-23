@@ -1,11 +1,10 @@
 ﻿---
 title: Automation with Microsoft Access
 TOCTitle: Automation with Microsoft Access
-description: Microsoft Access is a COM component that supports Automation, formerly called OLE Automation.
 ms:assetid: 39fde349-3ba3-7c7a-3c92-316641dc8712
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192643(v=office.15)
 ms:contentKeyID: 48544258
-ms.date: 10/16/2018
+ms.date: 09/18/2015
 mtps_version: v=office.15
 f1_keywords:
 - vbaac10.chm13783
@@ -23,11 +22,11 @@ You can use the **New** keyword or the **CreateObject** method to create a new i
 
 In Microsoft Access, you can set a reference to a component's type library to improve performance when you work with that component through Automation. Microsoft Access also includes the Object Browser, a tool that enables you to view objects in another component's type library, as well as their methods and properties.
 
-The Microsoft Access type library provides information about Microsoft Access objects to other components. You can [set a reference](https://docs.microsoft.com/office/vba/access/Concepts/Settings/set-references-to-type-libraries) to the Microsoft Access type library from a component and view its objects in the Object Browser.
+The Microsoft Access type library provides information about Microsoft Access objects to other components. You can [set a reference](https://msdn.microsoft.com/library/ff194944\(v=office.15\)) to the Microsoft Access type library from a component and view its objects in the Object Browser.
 
-To work with Microsoft Access objects through Automation, you must create an instance of the Microsoft Access **[Application](https://docs.microsoft.com/office/vba/api/Access.Application)** object. For example, suppose you want to display data from Microsoft Excel in a Microsoft Access form or report. To launch Microsoft Access from Microsoft Excel, you can use the **New** keyword to create an instance of the Microsoft Access **Application** object. You can also use the **CreateObject** method to create a new instance of the Microsoft Access **Application** object, or you can use the **GetObject** method to point an object variable to an existing instance of Microsoft Access. Check your component's documentation to determine which syntax it supports.
+To work with Microsoft Access objects through Automation, you must create an instance of the Microsoft Access **[Application](https://msdn.microsoft.com/library/ff821758\(v=office.15\))** object. For example, suppose you want to display data from Microsoft Excel in a Microsoft Access form or report. To launch Microsoft Access from Microsoft Excel, you can use the **New** keyword to create an instance of the Microsoft Access **Application** object. You can also use the **CreateObject** method to create a new instance of the Microsoft Access **Application** object, or you can use the **GetObject** method to point an object variable to an existing instance of Microsoft Access. Check your component's documentation to determine which syntax it supports.
 
-After you've launched an instance of Microsoft Access, if you want to control any Microsoft Access objects, you must open a database or project (.adp) in the Microsoft Access window by using either the **[OpenCurrentDatabase](https://docs.microsoft.com/office/vba/api/Access.Application.OpenCurrentDatabase)** or the **[NewCurrentDatabase](https://docs.microsoft.com/office/vba/api/Access.Application.NewCurrentDatabase)** method for a database or by using the **[OpenAccessProject](https://docs.microsoft.com/office/vba/api/Access.Application.OpenAccessProject)** or the **[NewAccessProject](https://docs.microsoft.com/office/vba/api/Access.Application.NewAccessProject)** method for a project.
+Once you've launched an instance of Microsoft Access, if you want to control any Microsoft Access objects, you must open a database or project (.adp) in the Microsoft Access window by using either the **[OpenCurrentDatabase](https://msdn.microsoft.com/library/ff837226\(v=office.15\))** or the **[NewCurrentDatabase](https://msdn.microsoft.com/library/ff195271\(v=office.15\))** method for a database or by using the **[OpenAccessProject](https://msdn.microsoft.com/library/ff837249\(v=office.15\))** or the **[NewAccessProject](https://msdn.microsoft.com/library/ff835758\(v=office.15\))** method for a project.
 
-If you've opened Microsoft Access only as a means of using the Data Access Objects provided by Microsoft DAO, you don't need to open a database in the Microsoft Access window. You can use the **[DBEngine](https://docs.microsoft.com/office/vba/api/Access.Application.DBEngine)** property of the Microsoft Access **Application** object to access objects in the Microsoft Office 12.0 Access Database Engine Object Library during an Automation operation.
+If you've opened Microsoft Access only as a means of using the Data Access Objects provided by Microsoft DAO, then you don't need to open a database in the Microsoft Access window. You can use the **[DBEngine](https://msdn.microsoft.com/library/ff821724\(v=office.15\))** property of the Microsoft Access **Application** object to access objects in the Microsoft Office 12.0 Access Database Engine Object Library object library during an Automation operation.
 
