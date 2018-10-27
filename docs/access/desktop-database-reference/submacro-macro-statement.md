@@ -1,4 +1,4 @@
-﻿---
+---
 title: Submacro Macro Statement
 TOCTitle: Submacro Macro Statement
 ms:assetid: fb580c19-52cd-c0bd-9117-4fa721eead6b
@@ -12,7 +12,7 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
-The **Submacro** statement defines a seperate macro in the Macro Designer window.
+The **Submacro** statement defines a separate macro in the Macro Designer window.
 
 ## Setting
 
