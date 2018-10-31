@@ -15,7 +15,7 @@ f1_categories:
 # Error.Description Property (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
  
 
 Returns a descriptive string associated with an error. This is the default property for the **Error** object.

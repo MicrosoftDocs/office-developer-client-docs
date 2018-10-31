@@ -1,11 +1,6 @@
 ﻿---
-<<<<<<< HEAD
-title: Value Property (ADO)
-TOCTitle: Value Property (ADO)
-=======
 title: Value property (ADO)
 TOCTitle: Value property (ADO)
->>>>>>> master
 ms:assetid: ff21d122-98e3-2b48-d92f-e696b8079fc5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250310(v=office.15)
 ms:contentKeyID: 48548958
@@ -13,22 +8,14 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-<<<<<<< HEAD
-# Value Property (ADO)
-=======
 # Value property (ADO)
->>>>>>> master
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Indicates the value assigned to a [Field](field-object-ado.md), [Parameter](parameter-object-ado.md), or [Property](property-object-ado.md) object.
 
-<<<<<<< HEAD
-## Settings and Return Values
-=======
 ## Settings and return values
->>>>>>> master
 
 Sets or returns a **Variant** value that indicates the value of the object. Default value depends on the [Type](type-property-ado.md) property.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Customization File UserList Section
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 The **userlist** section pertains to the **connect** section with the same section *identifier* parameter.
 

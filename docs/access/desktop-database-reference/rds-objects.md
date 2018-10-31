@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # RDS Objects
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 <table>
 <colgroup>
@@ -21,11 +21,7 @@ mtps_version: v=office.15
 <tbody>
 <tr class="odd">
 <td><p><a href="datacontrol-object-rds.md">DataControl (RDS)</a></p></td>
-<<<<<<< HEAD
-<td><p>Binds a data query <strong>Recordset</strong> to one or more controls (for example, a text box, grid control, or combo box) to display the <strong>Recordset</strong> data on a Web page.</p></td>
-=======
 <td><p>Binds a data query <strong>Recordset</strong> to one or more controls (for example, a text box, grid control, or combo box) to display the <strong>Recordset</strong> data on a webpage.</p></td>
->>>>>>> master
 </tr>
 <tr class="even">
 <td><p><a href="datafactory-object-rdsserver.md">DataFactory (RDSServer)</a></p></td>

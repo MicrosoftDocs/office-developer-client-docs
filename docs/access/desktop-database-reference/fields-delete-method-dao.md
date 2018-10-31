@@ -15,7 +15,7 @@ f1_categories:
 # Fields.Delete Method (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Deletes a **[Field](field-object-dao.md)** from the **[Fields](fields-collection-dao.md)** collection.
 

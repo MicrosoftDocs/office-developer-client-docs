@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # GetChildren Method (ADO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 
 Returns a [Recordset](recordset-object-ado.md) whose rows represent the children of a collection [Record](record-object-ado.md).
@@ -20,11 +20,7 @@ Returns a [Recordset](recordset-object-ado.md) whose rows represent the children
 
 **Set** *recordset* = *record*.GetChildren
 
-<<<<<<< HEAD
-## Return Value
-=======
 ## Return value
->>>>>>> master
 
 A **Recordset** object for which each row represents a child of the current **Record** object. For example, the children of a **Record** that represents a directory would be the files and subdirectories contained within the parent directory.
 

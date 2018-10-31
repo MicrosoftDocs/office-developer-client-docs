@@ -15,7 +15,7 @@ f1_categories:
 # Workspace.Databases Property (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Returns a **Databases** collection that represents the open databases in the specified **Workspace**. Read-only.
 

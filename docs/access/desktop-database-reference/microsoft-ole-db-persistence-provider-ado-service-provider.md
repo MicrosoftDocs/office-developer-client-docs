@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Microsoft OLE DB Persistence Provider (ADO Service Provider)
 
 
-**Applies to**: Access 2013 | Office 2013 
+**Applies to**: Access 2013, Office 2013 
 
 The Microsoft OLE DB Persistence Provider enables you to save a [Recordset](recordset-object-ado.md) object into a file, and later restore that **Recordset** object from the file. Schema information, data, and pending changes are preserved.
 

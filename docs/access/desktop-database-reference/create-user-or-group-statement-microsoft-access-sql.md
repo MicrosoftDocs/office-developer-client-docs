@@ -1,4 +1,4 @@
----
+﻿---
 title: CREATE USER or GROUP statement (Microsoft Access SQL)
 TOCTitle: CREATE USER or GROUP statement (Microsoft Access SQL)
 ms:assetid: 62148ce2-0f81-944e-a1ab-edef990fff9f
@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # CREATE USER or GROUP statement (Microsoft Access SQL)
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Creates one or more new users or groups.
 

@@ -15,7 +15,7 @@ f1_categories:
 # DBEngine.Errors Property (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Returns an **Errors** collection that contains all of the stored **Error** objects for the specified object. Read-only.
 

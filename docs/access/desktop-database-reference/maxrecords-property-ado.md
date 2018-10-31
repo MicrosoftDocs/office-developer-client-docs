@@ -1,11 +1,6 @@
 ﻿---
-<<<<<<< HEAD
-title: MaxRecords Property (ADO)
-TOCTitle: MaxRecords Property (ADO)
-=======
 title: MaxRecords property (ADO)
 TOCTitle: MaxRecords property (ADO)
->>>>>>> master
 ms:assetid: 424b2d41-073a-3fbe-30aa-99fac94f9a81
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249195(v=office.15)
 ms:contentKeyID: 48544475
@@ -13,22 +8,14 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-<<<<<<< HEAD
-# MaxRecords Property (ADO)
-=======
 # MaxRecords property (ADO)
->>>>>>> master
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Indicates the maximum number of records to return to a [Recordset](recordset-object-ado.md) from a query.
 
-<<<<<<< HEAD
-## Settings and Return Values
-=======
 ## Settings and return values
->>>>>>> master
 
 Sets or returns a **Long** value that indicates the maximum number of records to return. Default is zero (no limit).
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Write Method (ADO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 
 Writes binary data to a [Stream](stream-object-ado.md) object.

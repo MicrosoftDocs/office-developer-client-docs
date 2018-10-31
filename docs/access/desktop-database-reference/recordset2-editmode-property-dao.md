@@ -15,7 +15,7 @@ f1_categories:
 # Recordset2.EditMode Property (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Returns a value that indicates the state of editing for the current record.
 

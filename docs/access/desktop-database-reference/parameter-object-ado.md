@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Parameter Object (ADO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Represents a parameter or argument associated with a [Command](command-object-ado.md) object based on a parameterized query or stored procedure.
 

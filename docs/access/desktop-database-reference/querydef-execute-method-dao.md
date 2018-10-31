@@ -14,7 +14,7 @@ f1_categories:
 
 # QueryDef.Execute Method (DAO)
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Executes an SQL statement on the specified object.
 

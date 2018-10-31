@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Working with Recordsets
 
 
-**Applies to**: Access 2013 | Office 2013 
+**Applies to**: Access 2013, Office 2013 
 
 The **Recordset** object has built-in features that make it possible for you to rearrange the order of the data in the result set, to search for a specific record based on criteria that you supply, and even to optimize those search operations using indexes. Whether these features are available for use depends on the provider and in some cases — such as that of the [Index](index-property-ado.md) property — the structure of the data source itself.
 

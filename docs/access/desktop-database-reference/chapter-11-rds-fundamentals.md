@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Chapter 11: RDS Fundamentals
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 This section contains a series of topics that you can read in a prescribed order. The following topics are included:
 

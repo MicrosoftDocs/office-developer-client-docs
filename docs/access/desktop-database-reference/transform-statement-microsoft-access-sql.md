@@ -14,7 +14,7 @@ f1_categories:
 
 # TRANSFORM statement (Microsoft Access SQL)
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Creates a crosstab query.
 

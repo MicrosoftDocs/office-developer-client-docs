@@ -11,15 +11,11 @@ mtps_version: v=office.15
 # DrilledDown Property (ADO MD)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Indicates whether no children immediately follow the member on the axis.
 
-<<<<<<< HEAD
-## Return Values
-=======
 ## Return values
->>>>>>> master
 
 Returns a **Boolean** value and is read-only. **DrilledDown** returns **True** if there are no child members of the current member on the axis. **DrilledDown** returns **False** if there is one or more child members of the current member on the axis.
 

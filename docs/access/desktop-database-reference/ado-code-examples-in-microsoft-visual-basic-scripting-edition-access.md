@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ADO code examples in Microsoft Visual Basic Scripting Edition (Access)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
   - [ADO code examples in Microsoft Visual Basic Scripting Edition](ado-code-examples-in-microsoft-visual-basic-scripting-edition.md)
 

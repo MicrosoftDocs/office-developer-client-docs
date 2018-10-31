@@ -1,18 +1,11 @@
 ﻿---
 title: Use Microsoft Access as a DDE server
 TOCTitle: Use Microsoft Access as a DDE Server
-<<<<<<< HEAD
-ms:assetid: a3e82bf7-94b5-8eec-86bc-2d5387d66738
-ms:mtpsurl: https://msdn.microsoft.com/library/Ff821067(v=office.15)
-ms:contentKeyID: 48546801
-ms.date: 09/18/2015
-=======
 description: Microsoft Access supports dynamic data exchange (DDE) as either a destination (client) application or a source (server) application.  
 ms:assetid: a3e82bf7-94b5-8eec-86bc-2d5387d66738
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821067(v=office.15)
 ms:contentKeyID: 48546801
 ms.date: 10/16/2018
->>>>>>> master
 mtps_version: v=office.15
 f1_keywords:
 - vbaac10.chm5186349
@@ -22,56 +15,19 @@ f1_categories:
 
 # Use Microsoft Access as a DDE server
 
-**Applies to**: Access 2013 | Office 2013 
+**Applies to**: Access 2013, Office 2013 
 
 Microsoft Access supports dynamic data exchange (DDE) as either a destination (client) application or a source (server) application. For example, an application such as Microsoft Word, acting as a client, can request data through DDE from a Microsoft Access database that's acting as a server.
 
 > [!TIP]
 > If you need to manipulate Microsoft Access objects from another application, you may want to consider using Automation.
 
-<<<<<<< HEAD
-A DDE conversation between a client and server is established on a particular topic. A topic can be either a data file in the format supported by the server application, or it can be the System topic, which supplies information about the server application itself. Once a conversation has begun on a particular topic, only a data item associated with that topic can be transferred.
-=======
 A DDE conversation between a client and server is established on a particular topic. A topic can be either a data file in the format supported by the server application, or it can be the System topic, which supplies information about the server application itself. After a conversation has begun on a particular topic, only a data item associated with that topic can be transferred.
->>>>>>> master
 
 For example, suppose you are running Microsoft Word and want to insert data from a particular Microsoft Access database into a document. You begin a DDE conversation with Microsoft Access by opening a DDE channel with the **DDEInitiate** function and specifying the database file name as the topic. You can then transfer data from that database to Microsoft Word through that channel.
 
 As a DDE server, Microsoft Access supports the following topics:
 
-<<<<<<< HEAD
-  - The System topic
-
-  - The name of a database (*database* topic)
-
-  - The name of a table (*tablename* topic)
-
-  - The name of a query (*queryname* topic)
-
-  - A Microsoft Access SQL string (*sqlstring* topic)
-
-Once you've established a DDE conversation, you can use the **DDEExecute** statement to send a command from the client to the server application. When used as a DDE server, Microsoft Access recognizes any of the following as a valid command:
-
-  - The name of a macro in the current database.
-
-  - Any action that you can carry out in Visual Basic by using one of the methods of the **DoCmd** object.
-
-  - The OpenDatabase and CloseDatabase actions, which are used only for DDE operations. (For an example of how to use these actions, see the example later in this topic.)
-
-
-> [!NOTE]
-> <P>When you specify a macro action as a <STRONG>DDEExecute</STRONG> statement, the action and any arguments follow the <STRONG>DoCmd</STRONG> object syntax and must be enclosed in brackets ([ ]). However, applications that support DDE don't recognize intrinsic constants in DDE operations. Also, string arguments must be enclosed in quotation marks (" ") if the string contains a comma. Otherwise, quotation marks aren't required.</P>
-
-
-
-The client application can use the **DDERequest** function to request text data from the server application over an open DDE channel. Or the client can use the **DDEPoke** statement to send data to the server application. Once the data transfer is complete, the client can use the **DDETerminate** statement to close the DDE channel, or the **DDETerminateAll** statement to close all open channels.
-
-
-> [!NOTE]
-> <P>When your client application has finished receiving data over a DDE channel, it should close that channel to conserve memory resources.</P>
-
-
-=======
 - The System topic
 
 - The name of a database (*database* topic)
@@ -97,7 +53,6 @@ The client application can use the **DDERequest** function to request text data 
 
 > [!NOTE]
 > When your client application has finished receiving data over a DDE channel, it should close that channel to conserve memory resources.
->>>>>>> master
 
 The following example demonstrates how to create a Microsoft Word procedure with Visual Basic that uses Microsoft Access as a DDE server. (For this example to work, Microsoft Access must be running.)
 
@@ -128,20 +83,13 @@ The following example demonstrates how to create a Microsoft Word procedure with
     End Sub
 ```
 
-<<<<<<< HEAD
-=======
 <br/>
 
->>>>>>> master
 The following sections provide information about the valid DDE topics supported by Microsoft Access.
 
 ## The System topic
 
-<<<<<<< HEAD
-The System topic is a standard topic for all Microsoft Windows–based applications. It supplies information about the other topics supported by the application. To access this information, your code must first call the **DDEInitiate** function with as the *topic* argument, and then execute the **DDERequest** statement with one of the following supplied for the *item* argument.
-=======
 The System topic is a standard topic for all Microsoft Windows–based applications. It supplies information about the other topics supported by the application. To access this information, your code must first call the **DDEInitiate** function with the *topic* argument, and then execute the **DDERequest** statement with one of the following supplied for the *item* argument.
->>>>>>> master
 
 <table>
 <colgroup>
@@ -174,10 +122,7 @@ The System topic is a standard topic for all Microsoft Windows–based applicati
 </tbody>
 </table>
 
-<<<<<<< HEAD
-=======
 <br/>
->>>>>>> master
 
 The following example demonstrates the use of the **DDEInitiate** and **DDERequest** functions with the System topic:
 
@@ -197,16 +142,8 @@ The following example demonstrates the use of the **DDEInitiate** and **DDEReque
 
 The *database* topic is the file name of an existing database. You can type either just the base name (Northwind), or its path and .mdb extension (C:\\Access\\Samples\\Northwind.mdb). After you start a DDE conversation with the database, you can request a list of the objects in that database.
 
-<<<<<<< HEAD
-
-> [!NOTE]
-> <P>You can't use DDE to query the Microsoft Access workgroup information file.</P>
-
-
-=======
 > [!NOTE]
 > You can't use DDE to query the Microsoft Access workgroup information file.
->>>>>>> master
 
 The *database* topic supports the following items.
 
@@ -224,29 +161,6 @@ The *database* topic supports the following items.
 <tbody>
 <tr class="odd">
 <td><p>TableList</p></td>
-<<<<<<< HEAD
-<td><p>A list of tables.</p></td>
-</tr>
-<tr class="even">
-<td><p>QueryList</p></td>
-<td><p>A list of queries.</p></td>
-</tr>
-<tr class="odd">
-<td><p>FormList</p></td>
-<td><p>A list of forms.</p></td>
-</tr>
-<tr class="even">
-<td><p>ReportList</p></td>
-<td><p>A list of reports.</p></td>
-</tr>
-<tr class="odd">
-<td><p>MacroList</p></td>
-<td><p>A list of macros.</p></td>
-</tr>
-<tr class="even">
-<td><p>ModuleList</p></td>
-<td><p>A list of modules.</p></td>
-=======
 <td><p>A list of tables</p></td>
 </tr>
 <tr class="even">
@@ -268,7 +182,6 @@ The *database* topic supports the following items.
 <tr class="even">
 <td><p>ModuleList</p></td>
 <td><p>A list of modules</p></td>
->>>>>>> master
 </tr>
 <tr class="odd">
 <td><p>ViewList</p></td>
@@ -285,10 +198,7 @@ The *database* topic supports the following items.
 </tbody>
 </table>
 
-<<<<<<< HEAD
-=======
 <br/>
->>>>>>> master
 
 The following example shows how you can open the Employees form in the Northwind sample database from a Visual Basic procedure:
 
@@ -376,69 +286,6 @@ The following table lists the valid items for the TABLE *tablename*, QUERY *quer
 </tr>
 <tr class="even">
 <td><p>FieldNames;T</p></td>
-<<<<<<< HEAD
-<td><p>A two-row list of field names (first row) and their data types (second row).</p></td>
-</tr>
-<tr class="odd">
-<td><p></p></td>
-<td><p>These are the values returned and the data types they represent:</p></td>
-</tr>
-<tr class="even">
-<td><p></p></td>
-<td><p><b>Value</b></p></td>
-</tr>
-<tr class="odd">
-<td><p></p></td>
-<td><p>0</p></td>
-</tr>
-<tr class="even">
-<td><p></p></td>
-<td><p>1</p></td>
-</tr>
-<tr class="odd">
-<td><p></p></td>
-<td><p>2</p></td>
-</tr>
-<tr class="even">
-<td><p></p></td>
-<td><p>3</p></td>
-</tr>
-<tr class="odd">
-<td><p></p></td>
-<td><p>4</p></td>
-</tr>
-<tr class="even">
-<td><p></p></td>
-<td><p>5</p></td>
-</tr>
-<tr class="odd">
-<td><p></p></td>
-<td><p>6</p></td>
-</tr>
-<tr class="even">
-<td><p></p></td>
-<td><p>7</p></td>
-</tr>
-<tr class="odd">
-<td><p></p></td>
-<td><p>8</p></td>
-</tr>
-<tr class="even">
-<td><p></p></td>
-<td><p>9</p></td>
-</tr>
-<tr class="odd">
-<td><p></p></td>
-<td><p>10</p></td>
-</tr>
-<tr class="even">
-<td><p></p></td>
-<td><p>11</p></td>
-</tr>
-<tr class="odd">
-<td><p></p></td>
-<td><p>12</p></td>
-=======
 <td><p>A two-row list of field names (first row) and their data types (second row).</p>
 <p>These are the values returned:</p>
 <p>Value</p>
@@ -459,7 +306,6 @@ The following table lists the valid items for the TABLE *tablename*, QUERY *quer
 </ul>
 </p>
 </td>
->>>>>>> master
 </tr>
 <tr class="even">
 <td><p>NextRow</p></td>
@@ -492,10 +338,7 @@ The following table lists the valid items for the TABLE *tablename*, QUERY *quer
 </tbody>
 </table>
 
-<<<<<<< HEAD
-=======
 <br/>
->>>>>>> master
 
 The following example shows how you can use DDE in a Visual Basic procedure to request data from a table in the Northwind sample database and insert that data into a text file:
 

@@ -11,15 +11,11 @@ mtps_version: v=office.15
 # InternetTimeout Property (RDS)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Indicates the number of milliseconds to wait before a request times out.
 
-<<<<<<< HEAD
-## Settings and Return Values
-=======
 ## Settings and return values
->>>>>>> master
 
 Sets or returns a **Long** value that represents the number of milliseconds before a request will time out.
 

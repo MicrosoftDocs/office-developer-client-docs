@@ -15,7 +15,7 @@ f1_categories:
 # Database.Synchronize Method (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Synchronizes two replicas. (Microsoft Access workspaces only).
 

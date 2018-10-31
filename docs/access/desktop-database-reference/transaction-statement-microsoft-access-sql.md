@@ -1,4 +1,4 @@
----
+﻿---
 title: TRANSACTION statement (Microsoft Access SQL)
 TOCTitle: TRANSACTION statement (Microsoft Access SQL)
 ms:assetid: 481e807d-94e4-f201-adac-d25ee89d9220
@@ -14,7 +14,7 @@ f1_categories:
 
 # TRANSACTION statement (Microsoft Access SQL)
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Used to initiate and conclude explicit transactions.
 

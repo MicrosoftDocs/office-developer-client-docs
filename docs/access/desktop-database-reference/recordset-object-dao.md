@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Recordset Object (DAO)
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 A **Recordset** object represents the records in a base table or the records that result from running a query.
 

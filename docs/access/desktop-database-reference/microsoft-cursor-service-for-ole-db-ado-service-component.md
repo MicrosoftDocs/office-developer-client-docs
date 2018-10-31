@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Microsoft Cursor Service for OLE DB (ADO Service Component)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 The Microsoft Cursor Service for OLE DB supplements the cursor support functions of data providers. As a result, the user perceives relatively uniform functionality from all data providers.
 

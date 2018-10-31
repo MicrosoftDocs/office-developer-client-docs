@@ -15,7 +15,7 @@ f1_categories:
 # ClearMacroError Macro Action
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 
 You can use the **ClearMacroError** action to clear information about an error that is stored in the **MacroError** object.

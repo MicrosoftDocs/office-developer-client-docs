@@ -1,17 +1,4 @@
 ﻿---
-<<<<<<< HEAD
-title: ActiveConnection Property (ADO MD)
-TOCTitle: ActiveConnection Property (ADO MD)
-ms:assetid: d09f0f91-5e1d-01ed-4d83-eaf58ff718a2
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250043(v=office.15)
-ms:contentKeyID: 48547845
-ms.date: 09/18/2015
-mtps_version: v=office.15
----
-
-# ActiveConnection Property (ADO MD)
-
-=======
 title: ActiveConnection property (ADO MD)
 TOCTitle: ActiveConnection property (ADO MD)
 ms:assetid: d09f0f91-5e1d-01ed-4d83-eaf58ff718a2
@@ -22,17 +9,12 @@ mtps_version: v=office.15
 ---
 
 # ActiveConnection property (ADO MD)
->>>>>>> master
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Indicates to which ADO [Connection](connection-object-ado.md) object the current cellset or catalog currently belongs.
 
-<<<<<<< HEAD
-## Settings and Return Values
-=======
 ## Settings and return values
->>>>>>> master
 
 Sets or returns a **Variant** that contains a string defining a connection or **Connection** object. The default is empty.
 
@@ -48,16 +30,8 @@ Changing the default database of the connection referenced by the **ActiveConnec
 
 An error will occur if you attempt to change the **ActiveConnection** property for an open **Cellset** object.
 
-<<<<<<< HEAD
-
-> [!NOTE]
-> <P>In Visual Basic, remember to use the <STRONG>Set</STRONG> keyword when setting the <STRONG>ActiveConnection</STRONG> property to a <STRONG>Connection</STRONG> object. If you omit the <STRONG>Set</STRONG> keyword, you will actually be setting the <STRONG>ActiveConnection</STRONG> property equal to the <STRONG>Connection</STRONG> object's default property, <STRONG>ConnectionString</STRONG>. The code will work; however, you will create an additional connection to the data source, which may have negative performance implications.</P>
-
-
-=======
 > [!NOTE]
 > In Visual Basic, remember to use the **Set** keyword when setting the **ActiveConnection** property to a **Connection** object. If you omit the **Set** keyword, you will actually be setting the **ActiveConnection** property equal to the **Connection** object's default property, **ConnectionString**. The code will work; however, you will create an additional connection to the data source, which may have negative performance implications.
->>>>>>> master
 
 When using the MSOLAP data provider, set the data source in a connection string to a server name and set the initial catalog to the name of a catalog from the data source. To connect to a cube file that is disconnected from a server, set the location to the full path to the .CUB file. In either case, set the provider to the provider name. For example, the following string connects to a catalog named Bobs Video Store on a server named Servername with the MSOLAP Provider:
 

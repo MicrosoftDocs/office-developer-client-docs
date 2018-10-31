@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Step 4: Receive and Display the Data
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 ## Step 4: Receive and Display the Data
 

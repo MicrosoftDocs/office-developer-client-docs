@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Recordset, SourceRecordset Properties (RDS)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Indicates the **Recordset** object returned from a custom business object.
 

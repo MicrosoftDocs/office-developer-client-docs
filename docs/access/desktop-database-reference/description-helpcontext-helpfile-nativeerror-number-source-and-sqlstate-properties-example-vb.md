@@ -1,11 +1,6 @@
 ﻿---
-<<<<<<< HEAD
-title: Description, HelpContext, HelpFile Properties Example (VB)
-TOCTitle: Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState Properties Example (VB)
-=======
 title: Description, HelpContext, HelpFile properties example (VB)
 TOCTitle: Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState properties example (VB)
->>>>>>> master
 ms:assetid: 3c129aec-cd69-5822-4dad-ebef226538e1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249156(v=office.15)
 ms:contentKeyID: 48544304
@@ -13,14 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-<<<<<<< HEAD
-# Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState Properties Example (VB)
-=======
 # Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState properties example (VB)
->>>>>>> master
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 This example triggers an error, traps it, and displays the [Description](description-property-ado.md), [HelpContext](helpcontext-helpfile-properties-ado.md), [HelpFile](helpcontext-helpfile-properties-ado.md), [NativeError](nativeerror-property-ado.md), [Number](number-property-ado.md), [Source](source-property-ado-error.md), and [SQLState](sqlstate-property-ado.md) properties of the resulting [Error](error-object-ado.md) object.
 

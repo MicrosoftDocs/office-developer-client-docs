@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # SeekEnum
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Specifies the type of [Seek](seek-method-ado.md) to execute.
 

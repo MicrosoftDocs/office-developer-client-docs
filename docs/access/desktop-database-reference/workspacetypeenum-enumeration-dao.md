@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # WorkspaceTypeEnum Enumeration (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Used with the **CreateWorkspace** method to specify the type of workspace to create.
 

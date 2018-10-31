@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # LogEvent Macro Action
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 The **LogEvent** action writes information to the **USysApplicationLog** system table.
 

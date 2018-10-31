@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # ADO Glossary
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 ## A
 
@@ -254,21 +254,13 @@ The process of packaging, sending, and unpackaging interface method parameters a
 
 **middle tier**
 
-<<<<<<< HEAD
-The logical layer in a distributed system between a user interface or Web client and the database. This is typically where business objects are instantiated. The middle tier is a collection of business rules and functions that generate and operate upon receiving information. They accomplish this through business rules, which can change frequently, and are thus encapsulated into components that are physically separate from the application logic itself. Also known as *application server tier*. See also **distributed application**, **client tier**, **data source tier**.
-=======
 The logical layer in a distributed system between a user interface or web client and the database. This is typically where business objects are instantiated. The middle tier is a collection of business rules and functions that generate and operate upon receiving information. They accomplish this through business rules, which can change frequently, and are thus encapsulated into components that are physically separate from the application logic itself. Also known as *application server tier*. See also **distributed application**, **client tier**, **data source tier**.
->>>>>>> master
 
 **MIME (Multi-purpose Internet Mail Extension)**
 
 An Internet protocol originally developed to allow exchange of electronic mail messages with rich content across heterogeneous network, machine, and e-mail environments. In practice, MIME has also been adopted and extended by non-mail applications.
 
-<<<<<<< HEAD
-MIME is a standard that allows binary data to be published and read on the Internet. The header of a file with binary data contains the MIME type of the data; this informs client programs (Web browsers and mail packages, for instance) that they will need to handle the data in a different way than they handle straight text. For example, the header of a Web document containing a JPEG graphic contains the MIME type specific to the JPEG file format. This allows a browser to display the file with its JPEG viewer, if one is present.
-=======
 MIME is a standard that allows binary data to be published and read on the Internet. The header of a file with binary data contains the MIME type of the data; this informs client programs (web browsers and mail packages, for instance) that they will need to handle the data in a different way than they handle straight text. For example, the header of a web document containing a JPEG graphic contains the MIME type specific to the JPEG file format. This allows a browser to display the file with its JPEG viewer, if one is present.
->>>>>>> master
 
 Return to top
 
@@ -430,15 +422,9 @@ file://Server/Share/File.doc
 
 See also **absolute URL** and **relative URL**.
 
-<<<<<<< HEAD
-**Web server**
-
-A computer that provides Web services and pages to intranet and Internet users.
-=======
 **web server**
 
 A computer that provides web services and pages to intranet and Internet users.
->>>>>>> master
 
 Return to top
 

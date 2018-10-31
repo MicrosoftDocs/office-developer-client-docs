@@ -15,7 +15,7 @@ f1_categories:
 # Recordset.GetRows Method (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Retrieves multiple rows from a **[Recordset](recordset-object-dao.md)** object.
 
@@ -53,11 +53,7 @@ Retrieves multiple rows from a **[Recordset](recordset-object-dao.md)** object.
 </table>
 
 
-<<<<<<< HEAD
-### Return Value
-=======
 ### Return value
->>>>>>> master
 
 Variant
 

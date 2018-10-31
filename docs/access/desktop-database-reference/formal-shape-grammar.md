@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Formal Shape Grammar
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 This is the formal grammar for creating any shape command:
 

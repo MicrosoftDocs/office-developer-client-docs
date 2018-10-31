@@ -1,11 +1,6 @@
 ﻿---
-<<<<<<< HEAD
-title: CacheSize Property Example (JScript)
-TOCTitle: CacheSize Property Example (JScript)
-=======
 title: CacheSize property example (JScript)
 TOCTitle: CacheSize property example (JScript)
->>>>>>> master
 ms:assetid: bee835cb-8d26-b8b7-4958-39261809b86c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249928(v=office.15)
 ms:contentKeyID: 48547473
@@ -13,14 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-<<<<<<< HEAD
-# CacheSize Property Example (JScript)
-=======
 # CacheSize property example (JScript)
->>>>>>> master
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 This example uses the [CacheSize](cachesize-property-ado.md) property to show the difference in performance for an operation performed with and without a 30-record cache. Cut and paste the following code to Notepad or another text editor, and save it as **CacheSizeJS.asp**.
 
@@ -33,11 +24,7 @@ This example uses the [CacheSize](cachesize-property-ado.md) property to show th
  
 <HTML> 
 <HEAD> 
-<<<<<<< HEAD
-<title>CacheSize Property Example (JScript)</title> 
-=======
 <title>CacheSize property example (JScript)</title> 
->>>>>>> master
 <style> 
 <!-- 
 body { 
@@ -61,11 +48,7 @@ body {
 </style> 
 </HEAD> 
 <BODY> 
-<<<<<<< HEAD
-<h1>CacheSize Property Example (JScript)</h1> 
-=======
 <h1>CacheSize property example (JScript)</h1> 
->>>>>>> master
 <% 
  // connection and recordset variables 
  var Cnxn = Server.CreateObject("ADODB.Connection") 

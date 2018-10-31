@@ -15,7 +15,7 @@ f1_categories:
 # Recordset2.Requery Method (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Updates the data in a **[Recordset](recordset-object-dao.md)** object by re-executing the query on which the object is based.
 

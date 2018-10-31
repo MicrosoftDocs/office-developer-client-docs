@@ -11,15 +11,11 @@ mtps_version: v=office.15
 # Clustered Property (ADOX)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Indicates whether the index is clustered.
 
-<<<<<<< HEAD
-## Settings and Return Values
-=======
 ## Settings and return values
->>>>>>> master
 
 Sets and returns a **Boolean** value.
 

@@ -15,7 +15,7 @@ f1_categories:
 # DeleteObject Macro Action
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 You can use the **DeleteObject** action to delete a specified database object.
 

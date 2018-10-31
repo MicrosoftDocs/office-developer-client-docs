@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Understanding the Customization File
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Each section header in the customization file consists of square brackets (**\[\]**) containing a type and parameter. The four section types are indicated by the literal strings **connect**, **sql**, **userlist**, or **logs**. The parameter is the literal string, the default, a user-specified identifier, or nothing.
 

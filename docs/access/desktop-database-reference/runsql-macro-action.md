@@ -15,7 +15,7 @@ f1_categories:
 # RunSQL Macro Action
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 You can use the **RunSQL** action to run a Access action query by using the corresponding SQL statement. You can also run a data-definition query.
 

@@ -1,11 +1,6 @@
 ﻿---
-<<<<<<< HEAD
-title: Clustered Property Example (VC++)
-TOCTitle: Clustered Property Example (VC++)
-=======
 title: Clustered property example (VC++)
 TOCTitle: Clustered property example (VC++)
->>>>>>> master
 ms:assetid: a262e38e-ce44-66cb-1adf-fad8e6b840d1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249748(v=office.15)
 ms:contentKeyID: 48546761
@@ -13,14 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-<<<<<<< HEAD
-# Clustered Property Example (VC++)
-=======
 # Clustered property example (VC++)
->>>>>>> master
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 This example demonstrates the [Clustered](clustered-property-adox.md) property of an [Index](index-object-adox.md). Note that Microsoft Jet databases do not support clustered indexes, so this example will return **False** for the **Clustered** property of all indexes in the *Northwind* database.
 

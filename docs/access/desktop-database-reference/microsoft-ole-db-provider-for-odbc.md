@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Microsoft OLE DB Provider for ODBC
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 To an ADO or RDS programmer, an ideal world would be one in which every data source exposes an OLE DB interface, so that ADO could call directly into the data source. Although increasingly more database vendors are implementing OLE DB interfaces, some data sources are not yet exposed this way. However, virtually all DBMS systems in use today can be accessed through ODBC.
 
@@ -74,11 +74,7 @@ The string consists of these keywords:
 </tr>
 <tr class="odd">
 <td><p><strong>URL</strong></p></td>
-<<<<<<< HEAD
-<td><p>Specifies the URL of a file or directory published in a Web folder.</p></td>
-=======
 <td><p>Specifies the URL of a file or directory published in a web folder.</p></td>
->>>>>>> master
 </tr>
 </tbody>
 </table>

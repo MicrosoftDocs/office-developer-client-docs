@@ -1,11 +1,6 @@
 ﻿---
-<<<<<<< HEAD
-title: Attributes Property Example (VC++)
-TOCTitle: Attributes Property Example (VC++)
-=======
 title: Attributes property example (VC++)
 TOCTitle: Attributes property example (VC++)
->>>>>>> master
 ms:assetid: 031e063b-8fe6-85d8-05a7-e801ceeffa04
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248799(v=office.15)
 ms:contentKeyID: 48542976
@@ -13,14 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-<<<<<<< HEAD
-# Attributes Property Example (VC++)
-=======
 # Attributes property example (VC++)
->>>>>>> master
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 This example demonstrates the [Attributes](attributes-property-adox.md) property of a [Column](column-object-adox.md). Setting it to **adColNullable** allows the user to set the value of a [Recordset](recordset-object-ado.md)[Field](field-object-ado.md) to an empty string. In this situation, the user can distinguish between a record where data is not known and a record where the data does not apply.
 

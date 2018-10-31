@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # RuleEnum
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Specifies the rule to follow when a [Key](key-object-adox.md) is deleted.
 

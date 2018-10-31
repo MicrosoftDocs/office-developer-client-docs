@@ -1,11 +1,6 @@
 ﻿---
-<<<<<<< HEAD
-title: IsolationLevel and Mode Properties Example (VC++)
-TOCTitle: IsolationLevel and Mode Properties Example (VC++)
-=======
 title: IsolationLevel and Mode properties example (VC++)
 TOCTitle: IsolationLevel and Mode properties example (VC++)
->>>>>>> master
 ms:assetid: 851d0dee-6583-d2e2-d598-5a404becc03d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249579(v=office.15)
 ms:contentKeyID: 48546050
@@ -13,14 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-<<<<<<< HEAD
-# IsolationLevel and Mode Properties Example (VC++)
-=======
 # IsolationLevel and Mode properties example (VC++)
->>>>>>> master
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 This example uses the [Mode](mode-property-ado.md) property to open an exclusive connection, and the [IsolationLevel](isolationlevel-property-ado.md) property to open a transaction that is conducted in isolation of other transactions.
 

@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Data Definition Language  (Microsoft Access SQL)
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
   - [ADD USER statement](add-user-statement-microsoft-access-sql.md)
 

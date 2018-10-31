@@ -1,11 +1,6 @@
 ﻿---
-<<<<<<< HEAD
-title: Value Property Example (VB)
-TOCTitle: Value Property Example (VB)
-=======
 title: Value property example (VB)
 TOCTitle: Value property example (VB)
->>>>>>> master
 ms:assetid: c2319a14-e86f-6dc1-b203-fd5f35ffa04f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249947(v=office.15)
 ms:contentKeyID: 48547547
@@ -13,14 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-<<<<<<< HEAD
-# Value Property Example (VB)
-=======
 # Value property example (VB)
->>>>>>> master
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 This example demonstrates the [Value](value-property-ado.md) property with [Field](field-object-ado.md) and [Property](property-object-ado.md) objects by displaying field and property values for the ***Employees*** table.
 

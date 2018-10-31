@@ -1,11 +1,6 @@
 ﻿---
-<<<<<<< HEAD
-title: Keys Append Method, Key Type, RelatedColumn Properties Example (VB)
-TOCTitle: Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule Properties Example (VB)
-=======
 title: Keys Append Method, Key Type, RelatedColumn properties example (VB)
 TOCTitle: Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VB)
->>>>>>> master
 ms:assetid: d1b0508d-ab2c-eece-061c-09c67ea9ecae
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250047(v=office.15)
 ms:contentKeyID: 48547871
@@ -13,14 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-<<<<<<< HEAD
-# Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule Properties Example (VB)
-=======
 # Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VB)
->>>>>>> master
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 The following code demonstrates how to create a new foreign key. It assumes two tables (**Customers** and **Orders**) exist.
 

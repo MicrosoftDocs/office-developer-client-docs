@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Open Method (ADO Connection)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
  
 
 Opens a connection to a data source.
@@ -52,10 +52,6 @@ When you have concluded your operations over an open **Connection**, use the [Cl
 
 
 > [!NOTE]
-<<<<<<< HEAD
-> <P>URLs using the http scheme will automatically invoke the <A href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider for Internet Publishing</A>. For more information, see <A href="absolute-and-relative-urls.md">Absolute and Relative URLs</A>.</P>
-=======
 > URLs using the http scheme will automatically invoke the [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). For more information, see [Absolute and relative URLs](absolute-and-relative-urls.md).
->>>>>>> master
 
 

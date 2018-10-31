@@ -11,15 +11,11 @@ mtps_version: v=office.15
 # Parent Property (ADO MD)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Indicates the member that is the parent of the current member in a hierarchy.
 
-<<<<<<< HEAD
-## Return Values
-=======
 ## Return values
->>>>>>> master
 
 Returns a [Member](member-object-ado-md.md) object and is read-only.
 

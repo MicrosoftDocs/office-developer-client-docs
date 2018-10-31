@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Configuring DataFactory for Safe or Unrestricted Modes
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 By default, ADO is installed with a "safe" [RDSServer.DataFactory](datafactory-object-rdsserver.md) configuration. Safe mode for RDS Server components means that the following are true:
 
@@ -25,11 +25,7 @@ Optionally, you can configure an unrestricted **DataFactory** installation. **Da
 
 The registry file handsafe.reg has been provided to set up the handler registry entries for a safe configuration. To run in safe mode, run handsafe.reg. The registry file handunsf.reg has been provided to set up the handler registry entries for an unrestricted configuration. To run in unrestricted mode, run handunsf.reg.
 
-<<<<<<< HEAD
-After running either handsafe.reg or handunsf.reg, you must stop and restart the World Wide Web Publishing Service on the Web server by typing the following commands in a command window: "NET STOP W3SVC" and "NET START W3SVC".
-=======
 After running either handsafe.reg or handunsf.reg, you must stop and restart the World Wide Web Publishing Service on the web server by typing the following commands in a command window: "NET STOP W3SVC" and "NET START W3SVC".
->>>>>>> master
 
 For more information about using the customization handler feature of RDS, see the technical article Using the Customization Handler Feature in RDS 2.1.
 

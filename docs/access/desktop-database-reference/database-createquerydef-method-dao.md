@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Database.CreateQueryDef Method (DAO)
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Creates a new **[QueryDef](querydef-object-dao.md)** object.
 
@@ -54,11 +54,7 @@ Creates a new **[QueryDef](querydef-object-dao.md)** object.
 </table>
 
 
-<<<<<<< HEAD
-### Return Value
-=======
 ### Return value
->>>>>>> master
 
 QueryDef
 

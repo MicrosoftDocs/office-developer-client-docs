@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ADO Event Instantiation by Language (ADO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 This section includes the following topics:
 

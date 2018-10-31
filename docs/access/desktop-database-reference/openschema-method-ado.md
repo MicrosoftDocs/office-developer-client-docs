@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # OpenSchema Method (ADO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 
 Obtains database schema information from the provider .
@@ -20,11 +20,7 @@ Obtains database schema information from the provider .
 
 **Set***recordset* = *connection*.OpenSchema (*QueryType*, *Criteria*, *SchemaID*)
 
-<<<<<<< HEAD
-## Return Values
-=======
 ## Return values
->>>>>>> master
 
 Returns a [Recordset](recordset-object-ado.md) object that contains schema information. The **Recordset** will be opened as a read-only, static cursor . The *QueryType* determines what columns appear in the **Recordset**.
 

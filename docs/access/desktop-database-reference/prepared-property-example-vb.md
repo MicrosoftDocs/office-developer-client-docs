@@ -1,11 +1,6 @@
 ﻿---
-<<<<<<< HEAD
-title: Prepared Property Example (VB)
-TOCTitle: Prepared Property Example (VB)
-=======
 title: Prepared property example (VB)
 TOCTitle: Prepared property example (VB)
->>>>>>> master
 ms:assetid: d7332052-bf2e-f7d4-eb06-59ff8d68f812
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250081(v=office.15)
 ms:contentKeyID: 48548000
@@ -13,14 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-<<<<<<< HEAD
-# Prepared Property Example (VB)
-=======
 # Prepared property example (VB)
->>>>>>> master
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 This example demonstrates the [Prepared](prepared-property-ado.md) property by opening two [Command](command-object-ado.md) objects — one prepared and one not prepared.
 

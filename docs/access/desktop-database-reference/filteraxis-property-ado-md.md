@@ -11,15 +11,11 @@ mtps_version: v=office.15
 # FilterAxis Property (ADO MD)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Indicates filter information about the current cellset.
 
-<<<<<<< HEAD
-## Return Values
-=======
 ## Return values
->>>>>>> master
 
 Returns an [Axis](axis-object-ado-md.md) object, and is read-only.
 

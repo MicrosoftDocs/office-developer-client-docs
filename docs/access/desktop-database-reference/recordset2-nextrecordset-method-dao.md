@@ -15,7 +15,7 @@ f1_categories:
 # Recordset2.NextRecordset Method (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 ## Syntax
 
@@ -23,11 +23,7 @@ f1_categories:
 
 *expression* A variable that represents a **Recordset2** object.
 
-<<<<<<< HEAD
-### Return Value
-=======
 ### Return value
->>>>>>> master
 
 Boolean
 

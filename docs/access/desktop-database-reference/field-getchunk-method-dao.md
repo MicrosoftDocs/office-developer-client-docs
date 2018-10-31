@@ -15,7 +15,7 @@ f1_categories:
 # Field.GetChunk Method (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Returns all or a portion of the contents of a **Memo** or **Long Binary** **[Field](field-object-dao.md)** object in the **[Fields](fields-collection-dao.md)** collection of a **[Recordset](recordset-object-dao.md)** object.
 
@@ -59,11 +59,7 @@ Returns all or a portion of the contents of a **Memo** or **Long Binary** **[Fie
 </table>
 
 
-<<<<<<< HEAD
-### Return Value
-=======
 ### Return value
->>>>>>> master
 
 Variant
 

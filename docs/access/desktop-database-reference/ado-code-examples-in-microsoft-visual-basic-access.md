@@ -10,22 +10,11 @@ mtps_version: v=office.15
 
 # ADO code examples in Microsoft Visual Basic (Access)
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 
   - [ADO code examples in Microsoft Visual Basic](ado-code-examples-in-microsoft-visual-basic.md)
 
-<<<<<<< HEAD
-  - [AbsolutePage, PageCount, and PageSize Properties Example (VB)](absolutepage-pagecount-and-pagesize-properties-example-vb.md)
-
-  - [AbsolutePosition and CursorLocation Properties Example (VB)](absoluteposition-and-cursorlocation-properties-example-vb.md)
-
-  - [ActiveCommand Property Example (VB)](activecommand-property-example-vb.md)
-
-  - [ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction Properties Example (VB)](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vb.md)
-
-  - [ActualSize and DefinedSize Properties Example (VB)](actualsize-and-definedsize-properties-example-vb.md)
-=======
   - [AbsolutePage, PageCount, and PageSize properties example (VB)](absolutepage-pagecount-and-pagesize-properties-example-vb.md)
 
   - [AbsolutePosition and CursorLocation properties example (VB)](absoluteposition-and-cursorlocation-properties-example-vb.md)
@@ -35,7 +24,6 @@ mtps_version: v=office.15
   - [ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VB)](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vb.md)
 
   - [ActualSize and DefinedSize properties example (VB)](actualsize-and-definedsize-properties-example-vb.md)
->>>>>>> master
 
   - [AddNew method example (VB)](addnew-method-example-vb.md)
 
@@ -43,15 +31,6 @@ mtps_version: v=office.15
 
   - [AppendChunk and GetChunk methods example (VB)](appendchunk-and-getchunk-methods-example-vb.md)
 
-<<<<<<< HEAD
-  - [Attributes and Name Properties Example (VB)](attributes-and-name-properties-example-vb.md)
-
-  - [BeginTrans, CommitTrans, and RollbackTrans Methods Example (VB)](begintrans-committrans-and-rollbacktrans-methods-example-vb.md)
-
-  - [BOF, EOF, and Bookmark Properties Example (VB)](bof-eof-and-bookmark-properties-example-vb.md)
-
-  - [CacheSize Property Example (VB)](cachesize-property-example-vb.md)
-=======
   - [Attributes and Name properties example (VB)](attributes-and-name-properties-example-vb.md)
 
   - [BeginTrans, CommitTrans, and RollbackTrans methods example (VB)](begintrans-committrans-and-rollbacktrans-methods-example-vb.md)
@@ -59,7 +38,6 @@ mtps_version: v=office.15
   - [BOF, EOF, and Bookmark properties example (VB)](bof-eof-and-bookmark-properties-example-vb.md)
 
   - [CacheSize property example (VB)](cachesize-property-example-vb.md)
->>>>>>> master
 
   - [Cancel method example (VB)](cancel-method-example-vb.md)
 
@@ -67,49 +45,29 @@ mtps_version: v=office.15
 
   - [CompareBookmarks method example (VB)](comparebookmarks-method-example-vb.md)
 
-<<<<<<< HEAD
-  - [ConnectionString, ConnectionTimeout, and State Properties Example (VB)](connectionstring-connectiontimeout-and-state-properties-example-vb.md)
-=======
   - [ConnectionString, ConnectionTimeout, and State properties example (VB)](connectionstring-connectiontimeout-and-state-properties-example-vb.md)
->>>>>>> master
 
   - [ConvertToString method example (VB)](converttostring-method-example-vb.md)
 
   - [CopyRecord, CopyTo, and SaveToFile methods example (VB)](copyrecord-copyto-and-savetofile-methods-example-vb.md)
 
-<<<<<<< HEAD
-  - [Count Property Example (VB)](count-property-example-vb.md)
-
-  - [CreateRecordset Method Example (VB)](createrecordset-method-example-vb.md)
-
-  - [CursorType, LockType, and EditMode Properties Example (VB)](cursortype-locktype-and-editmode-properties-example-vb.md)
-=======
   - [Count property example (VB)](count-property-example-vb.md)
 
   - [CreateRecordset method example (VB)](createrecordset-method-example-vb.md)
 
   - [CursorType, LockType, and EditMode properties example (VB)](cursortype-locktype-and-editmode-properties-example-vb.md)
->>>>>>> master
 
   - [Delete method example (VB)](delete-method-example-vb.md)
 
   - [DeleteRecord and MoveRecord methods example (VB)](deleterecord-and-moverecord-methods-example-vb.md)
 
-<<<<<<< HEAD
-  - [Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState Properties Example (VB)](description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vb.md)
-=======
   - [Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState properties example (VB)](description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vb.md)
->>>>>>> master
 
   - [EOS and LineSeparator Properties and SkipLine method example (VB)](eos-and-lineseparator-properties-and-skipline-method-example-vb.md)
 
   - [Execute, Requery, and Clear methods example (VB)](execute-requery-and-clear-methods-example-vb.md)
 
-<<<<<<< HEAD
-  - [Filter and RecordCount Properties Example (VB)](filter-and-recordcount-properties-example-vb.md)
-=======
   - [Filter and RecordCount properties example (VB)](filter-and-recordcount-properties-example-vb.md)
->>>>>>> master
 
   - [Find method example (VB)](find-method-example-vb.md)
 
@@ -117,15 +75,6 @@ mtps_version: v=office.15
 
   - [GetString method example (VB)](getstring-method-example-vb.md)
 
-<<<<<<< HEAD
-  - [IsolationLevel and Mode Properties Example (VB)](isolationlevel-and-mode-properties-example-vb.md)
-
-  - [Item Property Example (VB)](item-property-example-vb.md)
-
-  - [MarshalOptions Property Example (VB)](marshaloptions-property-example-vb.md)
-
-  - [MaxRecords Property Example (VB)](maxrecords-property-example-vb.md)
-=======
   - [IsolationLevel and Mode properties example (VB)](isolationlevel-and-mode-properties-example-vb.md)
 
   - [Item property example (VB)](item-property-example-vb.md)
@@ -133,7 +82,6 @@ mtps_version: v=office.15
   - [MarshalOptions property example (VB)](marshaloptions-property-example-vb.md)
 
   - [MaxRecords property example (VB)](maxrecords-property-example-vb.md)
->>>>>>> master
 
   - [Move method example (VB)](move-method-example-vb.md)
 
@@ -141,25 +89,12 @@ mtps_version: v=office.15
 
   - [NextRecordset method example (VB)](nextrecordset-method-example-vb.md)
 
-<<<<<<< HEAD
-  - [ADO NumericScale and Precision Properties Example (VB)](ado-numericscale-and-precision-properties-example-vb.md)
-=======
   - [ADO NumericScale and Precision properties example (VB)](ado-numericscale-and-precision-properties-example-vb.md)
->>>>>>> master
 
   - [Open and Close methods example (VB)](open-and-close-methods-example-vb.md)
 
   - [OpenSchema method example (VB)](openschema-method-example-vb.md)
 
-<<<<<<< HEAD
-  - [Optimize Property Example (VB)](optimize-property-example-vb.md)
-
-  - [OriginalValue and UnderlyingValue Properties Example (VB)](originalvalue-and-underlyingvalue-properties-example-vb.md)
-
-  - [Prepared Property Example (VB)](prepared-property-example-vb.md)
-
-  - [Provider and DefaultDatabase Properties Example (VB)](provider-and-defaultdatabase-properties-example-vb.md)
-=======
   - [Optimize property example (VB)](optimize-property-example-vb.md)
 
   - [OriginalValue and UnderlyingValue properties example (VB)](originalvalue-and-underlyingvalue-properties-example-vb.md)
@@ -167,7 +102,6 @@ mtps_version: v=office.15
   - [Prepared property example (VB)](prepared-property-example-vb.md)
 
   - [Provider and DefaultDatabase properties example (VB)](provider-and-defaultdatabase-properties-example-vb.md)
->>>>>>> master
 
   - [Read, ReadText, Write, and WriteText methods example (VB)](read-readtext-write-and-writetext-methods-example-vb.md)
 
@@ -177,27 +111,6 @@ mtps_version: v=office.15
 
   - [Save and Open methods example (VB)](save-and-open-methods-example-vb.md)
 
-<<<<<<< HEAD
-  - [Seek Method and Index Property Example (VB)](seek-method-and-index-property-example-vb.md)
-
-  - [Sort Property Example (VB)](sort-property-example-vb.md)
-
-  - [Source Property Example (VB)](source-property-example-vb.md)
-
-  - [State Property Example (VB)](state-property-example-vb.md)
-
-  - [Status Property Example (Field) (VB)](status-property-example-field-vb.md)
-
-  - [Status Property Example (Recordset) (VB)](status-property-example-recordset-vb.md)
-
-  - [StayInSync Property Example (VB)](stayinsync-property-example-vb.md)
-
-  - [Supports Method Example (VB)](supports-method-example-vb.md)
-
-  - [Type Property Example (Field) (VB)](type-property-example-field-vb.md)
-
-  - [Type Property Example (Property) (VB)](type-property-example-property-vb.md)
-=======
   - [Seek Method and Index property example (VB)](seek-method-and-index-property-example-vb.md)
 
   - [Sort property example (VB)](sort-property-example-vb.md)
@@ -217,19 +130,12 @@ mtps_version: v=office.15
   - [Type property example (Field) (VB)](type-property-example-field-vb.md)
 
   - [Type property example (Property) (VB)](type-property-example-property-vb.md)
->>>>>>> master
 
   - [Update and CancelUpdate methods example (VB)](update-and-cancelupdate-methods-example-vb.md)
 
   - [UpdateBatch and CancelBatch methods example (VB)](updatebatch-and-cancelbatch-methods-example-vb.md)
 
-<<<<<<< HEAD
-  - [Value Property Example (VB)](value-property-example-vb.md)
-
-  - [Version Property Example (VB)](version-property-example-vb.md)
-=======
   - [Value property example (VB)](value-property-example-vb.md)
 
   - [Version property example (VB)](version-property-example-vb.md)
->>>>>>> master
 

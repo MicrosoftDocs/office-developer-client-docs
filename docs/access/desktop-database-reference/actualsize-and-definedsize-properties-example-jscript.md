@@ -1,17 +1,4 @@
 ﻿---
-<<<<<<< HEAD
-title: ActualSize and DefinedSize Properties Example (JScript)
-TOCTitle: ActualSize and DefinedSize Properties Example (JScript)
-ms:assetid: cf8d6cb6-3446-c193-8774-db41c4d14a2b
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250032(v=office.15)
-ms:contentKeyID: 48547811
-ms.date: 09/18/2015
-mtps_version: v=office.15
----
-
-# ActualSize and DefinedSize Properties Example (JScript)
-
-=======
 title: ActualSize and DefinedSize properties example (JScript)
 TOCTitle: ActualSize and DefinedSize properties example (JScript)
 ms:assetid: cf8d6cb6-3446-c193-8774-db41c4d14a2b
@@ -22,9 +9,8 @@ mtps_version: v=office.15
 ---
 
 # ActualSize and DefinedSize properties example (JScript)
->>>>>>> master
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 This example uses the [ActualSize](actualsize-property-ado.md) and [DefinedSize](definedsize-property-ado.md) properties to display the defined size and actual size of a field. Cut and paste the following code to Notepad or another text editor, and save it as **ActualSizeJS.asp**.
 
@@ -36,11 +22,7 @@ This example uses the [ActualSize](actualsize-property-ado.md) and [DefinedSize]
 <html> 
  
 <head> 
-<<<<<<< HEAD
- <title>ActualSize and DefinedSize Properties Example (JScript)</title> 
-=======
  <title>ActualSize and DefinedSize properties example (JScript)</title> 
->>>>>>> master
 <style> 
 <!-- 
 body { 

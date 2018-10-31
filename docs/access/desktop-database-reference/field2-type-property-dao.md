@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Field2.Type Property (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Sets or returns a value that indicates the operational type or data type of an object. Read/write **Integer**.
 

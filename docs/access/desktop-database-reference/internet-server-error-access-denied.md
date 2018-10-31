@@ -11,15 +11,11 @@ mtps_version: v=office.15
 # Internet Server Error: Access Denied
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 If you get this error, it usually means that Microsoft Internet Information Services (IIS) returned the following status:
 
 HTTP\_STATUS\_DENIED 401
 
-<<<<<<< HEAD
-Make sure the directories accessed by IIS have proper permissions. RDS can communicate with an IIS Web server running in any one of the three Password Authentication modes: Anonymous, Basic, or NT Challenge/Response (called Integrated Windows authentication in Windows 2000). Also, the Web server must have permissions to the data source computer if it is a Windows NT/Windows 2000 computer.
-=======
 Make sure the directories accessed by IIS have proper permissions. RDS can communicate with an IIS web server running in any one of the three Password Authentication modes: Anonymous, Basic, or NT Challenge/Response (called Integrated Windows authentication in Windows 2000). Also, the web server must have permissions to the data source computer if it is a Windows NT/Windows 2000 computer.
->>>>>>> master
 

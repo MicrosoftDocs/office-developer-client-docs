@@ -1,11 +1,6 @@
 ﻿---
-<<<<<<< HEAD
-title: Type Property Example (Field) (VB)
-TOCTitle: Type Property Example (Field) (VB)
-=======
 title: Type property example (Field) (VB)
 TOCTitle: Type property example (Field) (VB)
->>>>>>> master
 ms:assetid: ff9e26a8-898d-ec89-5093-69c66dbb05ba
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250314(v=office.15)
 ms:contentKeyID: 48548966
@@ -13,14 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-<<<<<<< HEAD
-# Type Property Example (Field) (VB)
-=======
 # Type property example (Field) (VB)
->>>>>>> master
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 This example demonstrates the [Type](type-property-ado.md) property by displaying the name of the constant that corresponds to the value of the [Type](type-property-ado.md) property of all the [Field](field-object-ado.md) objects in the ***Employees*** table. The FieldType function is required for this procedure to run.
 

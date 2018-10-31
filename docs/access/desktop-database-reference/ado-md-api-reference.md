@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ADO MD API Reference
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 This section of the ADO MD documentation contains topics for each ADO MD object, collection, method, and property, as well as example code when appropriate. For more information, search for a specific topic in the index or refer to the following topics:
 

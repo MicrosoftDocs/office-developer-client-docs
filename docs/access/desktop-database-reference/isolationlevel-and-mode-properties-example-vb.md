@@ -1,11 +1,6 @@
 ﻿---
-<<<<<<< HEAD
-title: IsolationLevel and Mode Properties Example (VB)
-TOCTitle: IsolationLevel and Mode Properties Example (VB)
-=======
 title: IsolationLevel and Mode properties example (VB)
 TOCTitle: IsolationLevel and Mode properties example (VB)
->>>>>>> master
 ms:assetid: ac3ec2e7-199c-723c-ff3e-2aaf3e10aa94
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249800(v=office.15)
 ms:contentKeyID: 48546999
@@ -13,14 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-<<<<<<< HEAD
-# IsolationLevel and Mode Properties Example (VB)
-=======
 # IsolationLevel and Mode properties example (VB)
->>>>>>> master
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 This example uses the [Mode](mode-property-ado.md) property to open an exclusive connection, and the [IsolationLevel](isolationlevel-property-ado.md) property to open a transaction that is conducted in isolation of other transactions.
 

@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # ResyncEnum
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Specifies whether underlying values are overwritten by a call to [Resync](resync-method-ado.md).
 

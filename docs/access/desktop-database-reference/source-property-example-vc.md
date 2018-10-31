@@ -1,11 +1,6 @@
 ﻿---
-<<<<<<< HEAD
-title: Source Property Example (VC++)
-TOCTitle: Source Property Example (VC++)
-=======
 title: Source property example (VC++)
 TOCTitle: Source property example (VC++)
->>>>>>> master
 ms:assetid: 2c539e8b-04a8-2fc3-052e-a0776682e16c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249067(v=office.15)
 ms:contentKeyID: 48543949
@@ -13,14 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-<<<<<<< HEAD
-# Source Property Example (VC++)
-=======
 # Source property example (VC++)
->>>>>>> master
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 This example demonstrates the [Source](source-property-ado-recordset.md) property by opening three [Recordset](recordset-object-ado.md) objects based on different data sources.
 

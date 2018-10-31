@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # PositionEnum
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Specifies the current position of the record pointer within a [Recordset](recordset-object-ado.md).
 

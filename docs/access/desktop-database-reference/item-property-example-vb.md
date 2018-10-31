@@ -1,11 +1,6 @@
 ﻿---
-<<<<<<< HEAD
-title: Item Property Example (VB)
-TOCTitle: Item Property Example (VB)
-=======
 title: Item property example (VB)
 TOCTitle: Item property example (VB)
->>>>>>> master
 ms:assetid: e8d17560-8a0d-7045-d8dc-728a85037c0d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250179(v=office.15)
 ms:contentKeyID: 48548430
@@ -13,14 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-<<<<<<< HEAD
-# Item Property Example (VB)
-=======
 # Item property example (VB)
->>>>>>> master
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 This example demonstrates how the [Item](item-property-ado.md) property accesses members of a collection. The example opens the ***Authors*** table of the ***Pubs*** database with a parameterized command.
 

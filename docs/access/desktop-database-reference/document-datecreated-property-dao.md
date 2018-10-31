@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Document.DateCreated Property (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Returns the date and time that an object was created. Read-only **Variant**.
 

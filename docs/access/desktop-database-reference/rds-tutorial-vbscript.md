@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # RDS Tutorial (VBScript)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 This is the RDS Tutorial, written in Microsoft Visual Basic Scripting Edition. For a description of the purpose of this tutorial, see the [RDS Tutorial](chapter-12-rds-tutorial.md).
 
@@ -38,11 +38,7 @@ In this tutorial, [RDS.DataControl](datacontrol-object-rds.md) and [RDS.DataSpac
 
 **Step 1 — Specify a server program**
 
-<<<<<<< HEAD
-VBScript can discover the name of the IIS Web server it is running on by accessing the VBScript **Request.ServerVariables** method available to Active Server Pages:
-=======
 VBScript can discover the name of the IIS web server it is running on by accessing the VBScript **Request.ServerVariables** method available to Active Server Pages:
->>>>>>> master
 
 ```vb 
  

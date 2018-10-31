@@ -1,11 +1,6 @@
 ﻿---
-<<<<<<< HEAD
-title: MaxRecords Property Example (VC++)
-TOCTitle: MaxRecords Property Example (VC++)
-=======
 title: MaxRecords property example (VC++)
 TOCTitle: MaxRecords property example (VC++)
->>>>>>> master
 ms:assetid: 007936cf-a91c-c447-69f2-8286f3f868e6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248778(v=office.15)
 ms:contentKeyID: 48542910
@@ -13,14 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-<<<<<<< HEAD
-# MaxRecords Property Example (VC++)
-=======
 # MaxRecords property example (VC++)
->>>>>>> master
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 This example uses the [MaxRecords](maxrecords-property-ado.md) property to open a [Recordset](recordset-object-ado.md) containing the 10 most expensive titles in the ***Titles*** table.
 

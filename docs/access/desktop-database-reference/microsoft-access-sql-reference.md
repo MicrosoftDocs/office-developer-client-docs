@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Microsoft Access SQL reference
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 - [Overview of the Access SQL reference](overview-of-the-access-sql-reference.md)
 

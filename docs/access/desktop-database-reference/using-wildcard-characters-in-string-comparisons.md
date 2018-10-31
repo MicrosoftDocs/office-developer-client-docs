@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Using Wildcard Characters in String Comparisons
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Built-in pattern matching provides a versatile tool for making string comparisons. The following table shows the wildcard characters you can use with the **Like** operator and the number of digits or strings they match.
 

@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # LookupRecord Data Block
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 A **LookupRecord** data block performs a set of actions on a specific record.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Errors Collection (ADO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Contains all the [Error](error-object-ado.md) objects created in response to a single provider-related failure provider.
 

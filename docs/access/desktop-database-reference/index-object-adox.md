@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Index Object (ADOX)
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Represents an index from a database table.
 

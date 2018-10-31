@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Table Object (ADOX)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Represents a database table including columns, indexes, and keys.
 

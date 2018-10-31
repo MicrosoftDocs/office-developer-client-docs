@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Field2.IsComplex Property (DAO)
 
-**Applies to**: Access 2013 | Office 2013 
+**Applies to**: Access 2013, Office 2013 
 
 Returns **Boolean** that indicates whether the specified field is a multi-valued data type. Read-only.
 

@@ -14,7 +14,7 @@ f1_categories:
 
 # INSERT INTO statement (Microsoft Access SQL)
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Adds a record or multiple records to a table. This is referred to as an append query.
 

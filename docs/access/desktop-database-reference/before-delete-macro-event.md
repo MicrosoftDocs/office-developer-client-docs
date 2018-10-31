@@ -14,7 +14,7 @@ f1_categories:
 
 # Before Delete Macro Event
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 The **Before Delete** event occurs when a record is deleted, but before the change is committed.
 

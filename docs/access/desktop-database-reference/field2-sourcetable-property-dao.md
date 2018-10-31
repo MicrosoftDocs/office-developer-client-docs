@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Field2.SourceTable Property (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Returns a value that indicates the name of the table that is the original source of the data for a **Field2** object. Read-only **String**.
 

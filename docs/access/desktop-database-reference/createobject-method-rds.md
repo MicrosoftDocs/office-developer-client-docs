@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # CreateObject Method (RDS)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 
 Creates the proxy for the target business object and returns a pointer to it. The proxy packages and marshals data to the server-side stub for communications with the business object to send requests and data over the Internet. For in-process component objects, no proxies are used, just a pointer to the object is provided.
@@ -68,17 +68,9 @@ Remote Data Service supports the following protocols: HTTP, HTTPS (HTTP over Sec
 
   - *awebsrvr* or *computername*
 
-<<<<<<< HEAD
-  - A **String** value that represents a URL identifying the Internet Information Services (IIS) Web server where an instance of the server business object is created.
-
-## Remarks
-
-The *HTTP protocol* is the standard Web protocol; *HTTPS* is a secure Web protocol. Use the *DCOM protocol* when running a local-area network without HTTP. The *in-process* protocol is a local dynamic-link library (DLL); it does not use a network.
-=======
   - A **String** value that represents a URL identifying the Internet Information Services (IIS) web server where an instance of the server business object is created.
 
 ## Remarks
 
 The *HTTP protocol* is the standard web protocol; *HTTPS* is a secure web protocol. Use the *DCOM protocol* when running a local-area network without HTTP. The *in-process* protocol is a local dynamic-link library (DLL); it does not use a network.
->>>>>>> master
 

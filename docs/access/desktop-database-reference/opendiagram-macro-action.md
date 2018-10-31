@@ -15,7 +15,7 @@ f1_categories:
 # OpenDiagram Macro Action
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 In an Access project, you can use the **OpenDiagram** action to open a database diagram in Design view.
 

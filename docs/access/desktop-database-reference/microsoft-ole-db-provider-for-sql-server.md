@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Microsoft OLE DB Provider for SQL Server
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 The Microsoft OLE DB Provider for SQL Server, SQLOLEDB, allows ADO to access Microsoft SQL Server.
 
