@@ -1,4 +1,4 @@
-﻿---
+---
 title: ALTER TABLE statement (Microsoft Access SQL)
 TOCTitle: ALTER TABLE statement (Microsoft Access SQL)
 ms:assetid: 78e6c92c-e88c-e55f-6b89-435360c166a6
@@ -92,13 +92,12 @@ By using the ALTER TABLE statement, you can alter an existing table in several w
   ```sql
     ALTER TABLE Employees ALTER COLUMN ZipCode TEXT(10)
   ```
-
+  
 - Use ADD CONSTRAINT to add a multiple-field index. For more information about multiple-field indexes, see [CONSTRAINT clause](constraint-clause-microsoft-access-sql.md).
 
 - Use DROP COLUMN to delete a field. You specify only the name of the field.
 
 - Use DROP CONSTRAINT to delete a multiple-field index. You specify only the index name following the CONSTRAINT reserved word.
-
 
 > [!NOTE] 
 > - You cannot add or delete more than one field or index at a time.

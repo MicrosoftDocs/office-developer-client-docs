@@ -1,4 +1,4 @@
-﻿---
+---
 title: ADO Programmer's Guide
 TOCTitle: ADO Programmer's Guide
 ms:assetid: b68a982e-17b6-7dd6-ca9d-3a5960d815da

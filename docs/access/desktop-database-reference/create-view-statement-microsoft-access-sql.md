@@ -1,4 +1,4 @@
-﻿---
+---
 title: CREATE VIEW statement (Microsoft Access SQL)
 TOCTitle: CREATE VIEW statement (Microsoft Access SQL)
 ms:assetid: ecaabd75-3081-fd35-830d-5a59b0a51922
