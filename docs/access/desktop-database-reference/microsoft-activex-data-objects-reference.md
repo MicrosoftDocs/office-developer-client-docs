@@ -18,7 +18,7 @@ Microsoft ActiveX Data Objects (ADO) enable your client applications to access a
 
 ## RDS
 
-ADO also features Remote Data Service (RDS), by which you can move data from a server to a client application or Web page, manipulate the data on the client, and return updates to the server in a single round trip.
+ADO also features Remote Data Service (RDS), by which you can move data from a server to a client application or webpage, manipulate the data on the client, and return updates to the server in a single round trip.
 
 ## ADO MD
 

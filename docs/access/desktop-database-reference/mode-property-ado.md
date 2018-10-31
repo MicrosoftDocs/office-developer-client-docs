@@ -1,6 +1,6 @@
 ﻿---
-title: Mode Property (ADO)
-TOCTitle: Mode Property (ADO)
+title: Mode property (ADO)
+TOCTitle: Mode property (ADO)
 ms:assetid: 62086f4f-8624-16c4-dae1-a17475d1864d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249365(v=office.15)
 ms:contentKeyID: 48545227
@@ -8,14 +8,14 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Mode Property (ADO)
+# Mode property (ADO)
 
 
 **Applies to**: Access 2013 | Office 2013
 
 Indicates the available permissions for modifying data in a [Connection](connection-object-ado.md), [Record](record-object-ado.md), or [Stream](stream-object-ado.md) object.
 
-## Settings and Return Values
+## Settings and return values
 
 Sets or returns a [ConnectModeEnum](connectmodeenum.md) value. The default value for a **Connection** is **adModeUnknown**. The default value for a **Record** object is **adModeRead**. The default value for a **Stream** associated with an underlying source (opened with a URL as the source, or as the default **Stream** of a **Record**) is **adModeRead**. The default value for a **Stream** not associated with an underlying source (instantiated in memory) is **adModeUnknown**.
 

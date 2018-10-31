@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 Indicates whether asynchronous execution is enabled.
 
-## Settings and Return Values
+## Settings and return values
 
 Sets or returns one of the following values.
 

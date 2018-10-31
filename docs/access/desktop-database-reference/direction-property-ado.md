@@ -1,6 +1,6 @@
 ﻿---
-title: Direction Property (ADO)
-TOCTitle: Direction Property (ADO)
+title: Direction property (ADO)
+TOCTitle: Direction property (ADO)
 ms:assetid: 51a94abb-7ce9-9adb-2b76-5391eb9f6863
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249262(v=office.15)
 ms:contentKeyID: 48544823
@@ -8,14 +8,14 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Direction Property (ADO)
+# Direction property (ADO)
 
 
 **Applies to**: Access 2013 | Office 2013
 
 Indicates whether the [Parameter](parameter-object-ado.md) represents an input parameter, an output parameter, an input and an output parameter, or if the parameter is the return value from a stored procedure.
 
-## Settings and Return Values
+## Settings and return values
 
 Sets or returns a [ParameterDirectionEnum](parameterdirectionenum.md) value.
 

@@ -19,7 +19,7 @@ Determines whether a specified [Recordset](recordset-object-ado.md) object suppo
 
 *boolean* = *recordset*.Supports (*CursorOptions*)
 
-## Return Value
+## Return value
 
 Returns a **Boolean** value that indicates whether all of the features identified by the *CursorOptions* argument are supported by the provider.
 

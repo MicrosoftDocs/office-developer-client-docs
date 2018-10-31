@@ -1,15 +1,14 @@
 ﻿---
-title: ActualSize and DefinedSize Properties Example (JScript)
-TOCTitle: ActualSize and DefinedSize Properties Example (JScript)
+title: ActualSize and DefinedSize properties example (JScript)
+TOCTitle: ActualSize and DefinedSize properties example (JScript)
 ms:assetid: cf8d6cb6-3446-c193-8774-db41c4d14a2b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250032(v=office.15)
 ms:contentKeyID: 48547811
-ms.date: 09/18/2015
+ms.date: 10/16/2018
 mtps_version: v=office.15
 ---
 
-# ActualSize and DefinedSize Properties Example (JScript)
-
+# ActualSize and DefinedSize properties example (JScript)
 
 **Applies to**: Access 2013 | Office 2013
 
@@ -23,7 +22,7 @@ This example uses the [ActualSize](actualsize-property-ado.md) and [DefinedSize]
 <html> 
  
 <head> 
- <title>ActualSize and DefinedSize Properties Example (JScript)</title> 
+ <title>ActualSize and DefinedSize properties example (JScript)</title> 
 <style> 
 <!-- 
 body { 

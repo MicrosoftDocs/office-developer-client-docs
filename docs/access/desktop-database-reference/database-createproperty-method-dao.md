@@ -67,7 +67,7 @@ Creates a new user-defined **[Property](property-object-dao.md)** object (Micros
 </table>
 
 
-### Return Value
+### Return value
 
 Property
 

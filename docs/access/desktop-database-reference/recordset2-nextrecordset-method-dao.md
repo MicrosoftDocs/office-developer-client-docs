@@ -23,7 +23,7 @@ f1_categories:
 
 *expression* A variable that represents a **Recordset2** object.
 
-### Return Value
+### Return value
 
 Boolean
 

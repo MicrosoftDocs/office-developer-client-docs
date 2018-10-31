@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 Indicates whether the index represents the primary key on the table.
 
-## Settings and Return Values
+## Settings and return values
 
 Sets and returns a **Boolean** value.
 

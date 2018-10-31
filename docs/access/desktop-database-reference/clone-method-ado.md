@@ -21,7 +21,7 @@ Creates a duplicate [Recordset](recordset-object-ado.md) object from an existing
 
 **Set** *rstDuplicate* = *rstOriginal*.Clone (*LockType*)
 
-## Return Value
+## Return value
 
 Returns a **Recordset** object reference.
 

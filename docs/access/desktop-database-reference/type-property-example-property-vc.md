@@ -1,6 +1,6 @@
 ﻿---
-title: Type Property Example (Property) (VC++)
-TOCTitle: Type Property Example (Property) (VC++)
+title: Type property example (Property) (VC++)
+TOCTitle: Type property example (Property) (VC++)
 ms:assetid: ddf0233f-585e-6659-7fd6-f924f3a31f21
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250122(v=office.15)
 ms:contentKeyID: 48548168
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Type Property Example (Property) (VC++)
+# Type property example (Property) (VC++)
 
 
 **Applies to**: Access 2013 | Office 2013

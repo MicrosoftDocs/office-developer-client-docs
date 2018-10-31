@@ -84,7 +84,7 @@ Creates a new **[Workspace](workspace-object-dao.md)** object.
 </table>
 
 
-### Return Value
+### Return value
 
 Workspace
 

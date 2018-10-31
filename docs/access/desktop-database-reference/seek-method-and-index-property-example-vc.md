@@ -1,6 +1,6 @@
 ﻿---
-title: Seek Method and Index Property Example (VC++)
-TOCTitle: Seek Method and Index Property Example (VC++)
+title: Seek Method and Index property example (VC++)
+TOCTitle: Seek Method and Index property example (VC++)
 ms:assetid: f99fb4e5-2ddb-ae0c-6d10-c095b3de1909
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250270(v=office.15)
 ms:contentKeyID: 48548820
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Seek Method and Index Property Example (VC++)
+# Seek Method and Index property example (VC++)
 
 
 **Applies to**: Access 2013 | Office 2013

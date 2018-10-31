@@ -15,7 +15,7 @@ mtps_version: v=office.15
 
 Indicates the formatted display of a cell value.
 
-## Return Values
+## Return values
 
 Returns a **String** and is read-only.
 

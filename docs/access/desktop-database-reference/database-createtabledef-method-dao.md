@@ -70,7 +70,7 @@ Creates a new **[TableDef](tabledef-object-dao.md)** object (Microsoft Access wo
 </table>
 
 
-### Return Value
+### Return value
 
 TableDef
 

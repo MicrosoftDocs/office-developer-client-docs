@@ -92,7 +92,7 @@ By using the ALTER TABLE statement, you can alter an existing table in several w
   ```sql
     ALTER TABLE Employees ALTER COLUMN ZipCode TEXT(10)
   ```
-
+  
 - Use ADD CONSTRAINT to add a multiple-field index. For more information about multiple-field indexes, see [CONSTRAINT clause](constraint-clause-microsoft-access-sql.md).
 
 - Use DROP COLUMN to delete a field. You specify only the name of the field.

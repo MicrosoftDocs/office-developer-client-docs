@@ -20,7 +20,7 @@ Obtains database schema information from the provider .
 
 **Set***recordset* = *connection*.OpenSchema (*QueryType*, *Criteria*, *SchemaID*)
 
-## Return Values
+## Return values
 
 Returns a [Recordset](recordset-object-ado.md) object that contains schema information. The **Recordset** will be opened as a read-only, static cursor . The *QueryType* determines what columns appear in the **Recordset**.
 

@@ -19,7 +19,7 @@ Compares two bookmarks and returns an indication of their relative values.
 
 *result* = *recordset*.CompareBookmarks(*Bookmark1*, *Bookmark2*)
 
-## Return Value
+## Return value
 
 Returns a [CompareEnum](compareenum.md) value that indicates the relative row position of two records represented by their bookmarks.
 

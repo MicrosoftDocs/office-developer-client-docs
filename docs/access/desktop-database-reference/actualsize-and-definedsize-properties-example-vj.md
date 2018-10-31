@@ -1,15 +1,14 @@
 ﻿---
-title: ActualSize and DefinedSize Properties Example (VJ++)
-TOCTitle: ActualSize and DefinedSize Properties Example (VJ++)
+title: ActualSize and DefinedSize properties example (VJ++)
+TOCTitle: ActualSize and DefinedSize properties example (VJ++)
 ms:assetid: 3a25d3b7-df53-66c1-6141-d51cd57aca96
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249145(v=office.15)
 ms:contentKeyID: 48544261
-ms.date: 09/18/2015
+ms.date: 10/17/2018
 mtps_version: v=office.15
 ---
 
-# ActualSize and DefinedSize Properties Example (VJ++)
-
+# ActualSize and DefinedSize properties example (VJ++)
 
 **Applies to**: Access 2013 | Office 2013
 
