@@ -1,6 +1,11 @@
 ﻿---
+<<<<<<< HEAD
+title: Prepared Property Example (VJ++)
+TOCTitle: Prepared Property Example (VJ++)
+=======
 title: Prepared property example (VJ++)
 TOCTitle: Prepared property example (VJ++)
+>>>>>>> master
 ms:assetid: 4b8402c2-9604-aaba-ba75-43161a8df9c8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249237(v=office.15)
 ms:contentKeyID: 48544693
@@ -8,7 +13,11 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
+<<<<<<< HEAD
+# Prepared Property Example (VJ++)
+=======
 # Prepared property example (VJ++)
+>>>>>>> master
 
 
 **Applies to**: Access 2013 | Office 2013

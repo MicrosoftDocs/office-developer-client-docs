@@ -55,7 +55,11 @@ Returns all or a portion of the contents of a **Memo** or **Long BinaryField2** 
 </table>
 
 
+<<<<<<< HEAD
+### Return Value
+=======
 ### Return value
+>>>>>>> master
 
 Variant
 

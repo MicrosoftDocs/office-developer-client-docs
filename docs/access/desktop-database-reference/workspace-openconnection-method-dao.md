@@ -65,7 +65,11 @@ mtps_version: v=office.15
 </table>
 
 
+<<<<<<< HEAD
+### Return Value
+=======
 ### Return value
+>>>>>>> master
 
 Connection
 

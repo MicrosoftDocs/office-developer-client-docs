@@ -1,6 +1,11 @@
 ﻿---
+<<<<<<< HEAD
+title: Attributes and Name Properties Example (VJ++)
+TOCTitle: Attributes and Name Properties Example (VJ++)
+=======
 title: Attributes and Name properties example (VJ++)
 TOCTitle: Attributes and Name properties example (VJ++)
+>>>>>>> master
 ms:assetid: ad3fe113-ad14-2df3-ec41-c24e6d2b1b21
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249812(v=office.15)
 ms:contentKeyID: 48547035
@@ -8,7 +13,11 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
+<<<<<<< HEAD
+# Attributes and Name Properties Example (VJ++)
+=======
 # Attributes and Name properties example (VJ++)
+>>>>>>> master
 
 
 **Applies to**: Access 2013 | Office 2013

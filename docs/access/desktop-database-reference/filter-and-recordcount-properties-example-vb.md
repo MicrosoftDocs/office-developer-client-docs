@@ -1,6 +1,11 @@
 ﻿---
+<<<<<<< HEAD
+title: Filter and RecordCount Properties Example (VB)
+TOCTitle: Filter and RecordCount Properties Example (VB)
+=======
 title: Filter and RecordCount properties example (VB)
 TOCTitle: Filter and RecordCount properties example (VB)
+>>>>>>> master
 ms:assetid: 3da4623e-03e7-27ac-7351-3b22415be0b9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249167(v=office.15)
 ms:contentKeyID: 48544354
@@ -8,7 +13,11 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
+<<<<<<< HEAD
+# Filter and RecordCount Properties Example (VB)
+=======
 # Filter and RecordCount properties example (VB)
+>>>>>>> master
 
 
 **Applies to**: Access 2013 | Office 2013

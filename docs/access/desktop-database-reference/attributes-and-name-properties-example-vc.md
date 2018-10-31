@@ -1,6 +1,11 @@
 ﻿---
+<<<<<<< HEAD
+title: Attributes and Name Properties Example (VC++)
+TOCTitle: Attributes and Name Properties Example (VC++)
+=======
 title: Attributes and Name properties example (VC++)
 TOCTitle: Attributes and Name properties example (VC++)
+>>>>>>> master
 ms:assetid: 612b7d4a-b92d-5afd-eeaa-28d7ad1a880a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249356(v=office.15)
 ms:contentKeyID: 48545203
@@ -8,7 +13,11 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
+<<<<<<< HEAD
+# Attributes and Name Properties Example (VC++)
+=======
 # Attributes and Name properties example (VC++)
+>>>>>>> master
 
 
 **Applies to**: Access 2013 | Office 2013

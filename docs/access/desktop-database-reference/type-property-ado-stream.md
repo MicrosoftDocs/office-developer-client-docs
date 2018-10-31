@@ -15,7 +15,11 @@ mtps_version: v=office.15
 
 Indicates the type of data contained in the [Stream](stream-object-ado.md) (binary or text).
 
+<<<<<<< HEAD
+## Settings and Return Values
+=======
 ## Settings and return values
+>>>>>>> master
 
 Sets or returns a [StreamTypeEnum](streamtypeenum.md) value that specifies the type of data contained in the **Stream** object. The default value is **adTypeText**. However, if binary data is initially written to a new, empty **Stream**, the **Type** will be changed to **adTypeBinary**.
 

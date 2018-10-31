@@ -69,7 +69,11 @@ f1_categories:
 </table>
 
 
+<<<<<<< HEAD
+### Return Value
+=======
 ### Return value
+>>>>>>> master
 
 Connection
 

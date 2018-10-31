@@ -53,7 +53,11 @@ Creates a new **[Index](index-object-dao.md)** object (Microsoft Access workspac
 </table>
 
 
+<<<<<<< HEAD
+### Return Value
+=======
 ### Return value
+>>>>>>> master
 
 Index
 

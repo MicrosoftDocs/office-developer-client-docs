@@ -88,7 +88,11 @@ Creates a new **[Recordset](recordset-object-dao.md)** object and appends it to 
 </table>
 
 
+<<<<<<< HEAD
+### Return Value
+=======
 ### Return value
+>>>>>>> master
 
 Recordset
 

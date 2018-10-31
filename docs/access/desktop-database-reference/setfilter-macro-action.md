@@ -36,11 +36,19 @@ The **SetFilter** action has the following arguments.
 <tbody>
 <tr class="odd">
 <td><p>Filter Name</p></td>
+<<<<<<< HEAD
+<td><p>If provided, the name of a query or of a filter saved as a query. This argument or the WhereCondition argument is required in a client database. In a Web database, this argument is not available.</p></td>
+</tr>
+<tr class="even">
+<td><p>Where Condition</p></td>
+<td><p>If provided, a SQL WHERE clause that restricts the records in the datasheet, form, report, or table. In a Web database, this argument is required.</p></td>
+=======
 <td><p>If provided, the name of a query or of a filter saved as a query. This argument or the WhereCondition argument is required in a client database. In a web database, this argument is not available.</p></td>
 </tr>
 <tr class="even">
 <td><p>Where Condition</p></td>
 <td><p>If provided, a SQL WHERE clause that restricts the records in the datasheet, form, report, or table. In a web database, this argument is required.</p></td>
+>>>>>>> master
 </tr>
 <tr class="odd">
 <td><p>Control Name</p></td>

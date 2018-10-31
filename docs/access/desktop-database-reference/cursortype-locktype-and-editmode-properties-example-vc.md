@@ -1,6 +1,11 @@
 ﻿---
+<<<<<<< HEAD
+title: CursorType, LockType, and EditMode Properties Example (VC++)
+TOCTitle: CursorType, LockType, and EditMode Properties Example (VC++)
+=======
 title: CursorType, LockType, and EditMode properties example (VC++)
 TOCTitle: CursorType, LockType, and EditMode properties example (VC++)
+>>>>>>> master
 ms:assetid: edbc4625-5013-cfcd-d709-ac8a85fe17b4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250205(v=office.15)
 ms:contentKeyID: 48548545
@@ -8,7 +13,11 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
+<<<<<<< HEAD
+# CursorType, LockType, and EditMode Properties Example (VC++)
+=======
 # CursorType, LockType, and EditMode properties example (VC++)
+>>>>>>> master
 
 
 **Applies to**: Access 2013 | Office 2013

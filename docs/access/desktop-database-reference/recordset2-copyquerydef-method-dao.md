@@ -25,7 +25,11 @@ Returns a **[QueryDef](querydef-object-dao.md)** object that is a copy of the **
 
 *expression* A variable that represents a **Recordset2** object.
 
+<<<<<<< HEAD
+### Return Value
+=======
 ### Return value
+>>>>>>> master
 
 QueryDef
 

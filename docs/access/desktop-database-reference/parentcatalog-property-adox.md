@@ -15,7 +15,11 @@ mtps_version: v=office.15
 
 Specifies the parent catalog of a table or column to provide access to provider-specific properties.
 
+<<<<<<< HEAD
+## Settings and Return Values
+=======
 ## Settings and return values
+>>>>>>> master
 
 Sets and returns a [Catalog](catalog-object-adox.md) object. Setting **ParentCatalog** to an open **Catalog** allows access to provider-specific properties prior to appending a table or column to a **Catalog** collection.
 

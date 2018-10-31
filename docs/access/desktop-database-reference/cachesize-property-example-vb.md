@@ -1,6 +1,11 @@
 ﻿---
+<<<<<<< HEAD
+title: CacheSize Property Example (VB)
+TOCTitle: CacheSize Property Example (VB)
+=======
 title: CacheSize property example (VB)
 TOCTitle: CacheSize property example (VB)
+>>>>>>> master
 ms:assetid: 558b7718-d32d-45ea-554d-fce0e27d9504
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249287(v=office.15)
 ms:contentKeyID: 48544934
@@ -8,7 +13,11 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
+<<<<<<< HEAD
+# CacheSize Property Example (VB)
+=======
 # CacheSize property example (VB)
+>>>>>>> master
 
 
 **Applies to**: Access 2013 | Office 2013

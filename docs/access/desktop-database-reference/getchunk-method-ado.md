@@ -20,7 +20,11 @@ Returns all, or a portion, of the contents of a large text or binary data [Field
 
 *variable* = *field*.GetChunk(*Size* )
 
+<<<<<<< HEAD
+## Return Value
+=======
 ## Return value
+>>>>>>> master
 
 Returns a **Variant**.
 

@@ -1,6 +1,11 @@
 ﻿---
+<<<<<<< HEAD
+title: StayInSync Property Example (VC++)
+TOCTitle: StayInSync Property Example (VC++)
+=======
 title: StayInSync property example (VC++)
 TOCTitle: StayInSync property example (VC++)
+>>>>>>> master
 ms:assetid: 42c389a8-e6d5-45f4-0442-1b2a2422dcbe
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249197(v=office.15)
 ms:contentKeyID: 48544485
@@ -8,7 +13,11 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
+<<<<<<< HEAD
+# StayInSync Property Example (VC++)
+=======
 # StayInSync property example (VC++)
+>>>>>>> master
 
 
 **Applies to**: Access 2013 | Office 2013

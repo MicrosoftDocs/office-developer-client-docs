@@ -13,7 +13,11 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
+<<<<<<< HEAD
+The Address Book application displays the navigation buttons at the bottom of the Web page. You can use the navigation buttons to navigate through the data in the HTML grid display by selecting either the first or last row of data, or rows adjacent to the current selection.
+=======
 The Address Book application displays the navigation buttons at the bottom of the webpage. You can use the navigation buttons to navigate through the data in the HTML grid display by selecting either the first or last row of data, or rows adjacent to the current selection.
+>>>>>>> master
 
 ## Navigation Sub Procedures
 

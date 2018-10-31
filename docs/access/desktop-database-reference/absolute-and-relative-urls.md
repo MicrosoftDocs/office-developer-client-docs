@@ -1,4 +1,4 @@
-﻿---
+---
 title: Absolute and relative URLs
 TOCTitle: Absolute and relative URLs
 ms:assetid: 79a1f793-7154-1c13-7dfe-a1b8cd64e1ea
@@ -75,5 +75,6 @@ recordset.Open "", "URL=https://YourServer/Winnt/",,,adCmdTableDirect
 
 The leading part of a fully-qualified URL is the *scheme* used to access the resource identified by the remainder of the URL. Examples are HTTP (HyperText Transfer Protocol) and FTP (File Transfer Protocol).
 
-ADO supports OLE DB providers that recognize their own URL schemes. For example, the [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md), which accesses "published" Windows 2000 files, recognizes the existing HTTP scheme. 
+ADO supports OLE DB providers that recognize their own URL schemes. For example, the [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md), which accesses "published" Windows 2000 files, recognizes the existing HTTP scheme.
+
 

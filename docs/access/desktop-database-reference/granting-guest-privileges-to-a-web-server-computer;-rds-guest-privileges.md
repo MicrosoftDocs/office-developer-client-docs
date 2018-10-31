@@ -13,9 +13,15 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
+<<<<<<< HEAD
+The anonymous Web server account (IUSR\_*ComputerName*) must be added to the Guests local group on the Web server computer to use RDS.
+
+**To grant guest privileges to a Web server computer**
+=======
 The anonymous web server account (IUSR\_*ComputerName*) must be added to the Guests local group on the web server computer to use RDS.
 
 **To grant guest privileges to a web server computer**
+>>>>>>> master
 
 1.  On your Microsoft Windows® 2000 Server computer, click **Start**, point to **Programs**, point to **Administrative Tools**, and then click **Computer Management**.
 
@@ -25,7 +31,11 @@ The anonymous web server account (IUSR\_*ComputerName*) must be added to the Gue
 
 4.  In the **Guests Properties** dialog box, click **Add**.
 
+<<<<<<< HEAD
+5.  If the anonymous Web server account does not appear in the list in the **Select Users or Groups** dialog box, type its name (IUSR\_*ComputerName*) into the bottom blank box, and then click **Add**.
+=======
 5.  If the anonymous web server account does not appear in the list in the **Select Users or Groups** dialog box, type its name (IUSR\_*ComputerName*) into the bottom blank box, and then click **Add**.
+>>>>>>> master
 
 6.  Click **OK**.
 

@@ -25,7 +25,11 @@ Reads a specified number of bytes from a binary [Stream](stream-object-ado.md) o
 
   - Optional. A **Long** value that specifies the number of bytes to read from the file or the [StreamReadEnum](streamreadenum.md) value **adReadAll**, which is the default.
 
+<<<<<<< HEAD
+## Return Value
+=======
 ## Return value
+>>>>>>> master
 
 The **Read** method reads a specified number of bytes or the entire stream from a **Stream** object and returns the resulting data as a **Variant**.
 

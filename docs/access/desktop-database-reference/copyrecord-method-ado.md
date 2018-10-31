@@ -45,7 +45,11 @@ Copies a entity represented by a **Record** to another location.
 
   - Optional. A **Boolean** value that, when **True**, specifies that this operation should be asynchronous.
 
+<<<<<<< HEAD
+## Return Value
+=======
 ## Return value
+>>>>>>> master
 
 A **String** value that typically returns the value of *Destination*. However, the exact value returned is provider-dependent.
 
@@ -65,6 +69,10 @@ This method fails if *Destination* identifies an existing entity (for example, a
 
 
 > [!NOTE]
+<<<<<<< HEAD
+> <P>URLs using the http scheme will automatically invoke the <A href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider for Internet Publishing</A>. For more information, see <A href="absolute-and-relative-urls.md">Absolute and Relative URLs</A>.</P>
+=======
 > URLs using the http scheme will automatically invoke the [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). For more information, see [Absolute and relative URLs](absolute-and-relative-urls.md).
+>>>>>>> master
 
 

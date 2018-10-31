@@ -70,7 +70,11 @@ Creates a new **[TableDef](tabledef-object-dao.md)** object (Microsoft Access wo
 </table>
 
 
+<<<<<<< HEAD
+### Return Value
+=======
 ### Return value
+>>>>>>> master
 
 TableDef
 

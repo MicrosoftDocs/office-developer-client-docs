@@ -15,7 +15,11 @@ mtps_version: v=office.15
 
 Indicates the stated maximum size of the column.
 
+<<<<<<< HEAD
+## Settings and Return Values
+=======
 ## Settings and return values
+>>>>>>> master
 
 Sets and returns a **Long** value that is the maximum length in characters of data values.
 

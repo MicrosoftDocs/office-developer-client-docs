@@ -84,7 +84,11 @@ Creates a new **[Workspace](workspace-object-dao.md)** object.
 </table>
 
 
+<<<<<<< HEAD
+### Return Value
+=======
 ### Return value
+>>>>>>> master
 
 Workspace
 

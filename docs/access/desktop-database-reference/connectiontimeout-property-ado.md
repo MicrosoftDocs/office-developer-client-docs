@@ -1,6 +1,11 @@
 ﻿---
+<<<<<<< HEAD
+title: ConnectionTimeout Property (ADO)
+TOCTitle: ConnectionTimeout Property (ADO)
+=======
 title: ConnectionTimeout property (ADO)
 TOCTitle: ConnectionTimeout property (ADO)
+>>>>>>> master
 ms:assetid: efc39fd8-afce-5ac0-2fff-cbb55c1a444d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250218(v=office.15)
 ms:contentKeyID: 48548589
@@ -8,14 +13,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
+<<<<<<< HEAD
+# ConnectionTimeout Property (ADO)
+=======
 # ConnectionTimeout property (ADO)
+>>>>>>> master
 
 
 **Applies to**: Access 2013 | Office 2013
 
 Indicates how long to wait while establishing a connection before terminating the attempt and generating an error.
 
+<<<<<<< HEAD
+## Settings and Return Values
+=======
 ## Settings and return values
+>>>>>>> master
 
 Sets or returns a **Long** value that indicates, in seconds, how long to wait for the connection to open. Default is 15.
 

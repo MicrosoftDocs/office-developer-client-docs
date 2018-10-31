@@ -1,6 +1,11 @@
 ﻿---
+<<<<<<< HEAD
+title: ConnectionString, ConnectionTimeout, and State Properties Example (VC++)
+TOCTitle: ConnectionString, ConnectionTimeout, and State Properties Example (VC++)
+=======
 title: ConnectionString, ConnectionTimeout, and State properties example (VC++)
 TOCTitle: ConnectionString, ConnectionTimeout, and State properties example (VC++)
+>>>>>>> master
 ms:assetid: 39bd3e86-1eb8-7fcb-45c8-b9b0ae5acf83
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249143(v=office.15)
 ms:contentKeyID: 48544254
@@ -8,7 +13,11 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
+<<<<<<< HEAD
+# ConnectionString, ConnectionTimeout, and State Properties Example (VC++)
+=======
 # ConnectionString, ConnectionTimeout, and State properties example (VC++)
+>>>>>>> master
 
 
 **Applies to**: Access 2013 | Office 2013

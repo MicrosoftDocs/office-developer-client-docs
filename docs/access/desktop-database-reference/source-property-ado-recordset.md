@@ -15,7 +15,11 @@ mtps_version: v=office.15
 
 Indicates the data source for a [Recordset](recordset-object-ado.md) object.
 
+<<<<<<< HEAD
+## Settings and Return Values
+=======
 ## Settings and return values
+>>>>>>> master
 
 Sets a **String** value or [Command](command-object-ado.md) object reference; returns only a **String** value that indicates the source of the **Recordset**.
 

@@ -1,6 +1,11 @@
 ﻿---
+<<<<<<< HEAD
+title: Clustered Property Example (VB)
+TOCTitle: Clustered Property Example (VB)
+=======
 title: Clustered property example (VB)
 TOCTitle: Clustered property example (VB)
+>>>>>>> master
 ms:assetid: 1065622d-9473-209a-95be-c4b0ab5b687a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248872(v=office.15)
 ms:contentKeyID: 48543293
@@ -8,7 +13,11 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
+<<<<<<< HEAD
+# Clustered Property Example (VB)
+=======
 # Clustered property example (VB)
+>>>>>>> master
 
 
 **Applies to**: Access 2013 | Office 2013

@@ -19,7 +19,11 @@ To run the Address Book application, follow this procedure.
 
 1.  Make sure that Microsoft SQL Server is running. Click **Start**, point to **Programs**, point to **Microsoft SQL Server 7.0**, and then click **Service Manager**. If there is a green arrow in the white circle, then SQL Server is running. If it is not (there will be a red square in the white circle), click **Start/Continue**.
 
+<<<<<<< HEAD
+2.  In Microsoft Internet Explorer 4.0 or later, type the following address: **https://***webserver***/RDS/AddressBook/AddrBook.asp** where *webserver* is the name of the Web server where the RDS server components are installed.
+=======
 2.  In Microsoft Internet Explorer 4.0 or later, type the following address: **https://***webserver***/RDS/AddressBook/AddrBook.asp** where *webserver* is the name of the web server where the RDS server components are installed.
+>>>>>>> master
 
 3.  You can then try various scenarios in the Address Book sample application, such as searching for a person based on his or her e-mail name, listing all people with the title "Program Manager," or editing existing records. Click **Find** to fill the data grid with all the available names.
 

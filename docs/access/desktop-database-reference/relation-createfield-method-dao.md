@@ -61,7 +61,11 @@ Creates a new **[Field](field-object-dao.md)** object (Microsoft Access workspac
 </table>
 
 
+<<<<<<< HEAD
+### Return Value
+=======
 ### Return value
+>>>>>>> master
 
 Field
 

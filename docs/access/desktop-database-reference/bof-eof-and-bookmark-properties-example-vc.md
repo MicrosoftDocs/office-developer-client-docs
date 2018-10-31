@@ -1,6 +1,11 @@
 ﻿---
+<<<<<<< HEAD
+title: BOF, EOF, and Bookmark Properties Example (VC++)
+TOCTitle: BOF, EOF, and Bookmark Properties Example (VC++)
+=======
 title: BOF, EOF, and Bookmark properties example (VC++)
 TOCTitle: BOF, EOF, and Bookmark properties example (VC++)
+>>>>>>> master
 ms:assetid: d3cf9ace-07d7-6f92-983c-49c8d4216e20
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250055(v=office.15)
 ms:contentKeyID: 48547914
@@ -8,7 +13,11 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
+<<<<<<< HEAD
+# BOF, EOF, and Bookmark Properties Example (VC++)
+=======
 # BOF, EOF, and Bookmark properties example (VC++)
+>>>>>>> master
 
 
 **Applies to**: Access 2013 | Office 2013

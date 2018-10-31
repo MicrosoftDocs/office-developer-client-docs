@@ -20,7 +20,11 @@ Retrieves multiple records of a [Recordset](recordset-object-ado.md) object into
 
 *array* = *recordset*.GetRows(*Rows*, *Start*, *Fields* )
 
+<<<<<<< HEAD
+## Return Value
+=======
 ## Return value
+>>>>>>> master
 
 Returns a **Variant** whose value is a two-dimensional array.
 

@@ -1,6 +1,11 @@
 ﻿---
+<<<<<<< HEAD
+title: Sort Property (ADO)
+TOCTitle: Sort Property (ADO)
+=======
 title: Sort property (ADO)
 TOCTitle: Sort property (ADO)
+>>>>>>> master
 ms:assetid: f2a39b7f-8b96-cd1a-8248-71f8b867454a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250230(v=office.15)
 ms:contentKeyID: 48548652
@@ -8,14 +13,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
+<<<<<<< HEAD
+# Sort Property (ADO)
+=======
 # Sort property (ADO)
+>>>>>>> master
 
 
 **Applies to**: Access 2013 | Office 2013
 
 Indicates one or more field names on which the [Recordset](recordset-object-ado.md) is sorted, and whether each field is sorted in ascending or descending order.
 
+<<<<<<< HEAD
+## Settings and Return Values
+=======
 ## Settings and return values
+>>>>>>> master
 
 Sets or returns a **String** value that indicates the field names in the **Recordset** on which to sort. Each name is separated by a comma, and is optionally followed by a blank and the keyword, **ASC**, which sorts the field in ascending order, or **DESC**, which sorts the field in descending order. By default, if no keyword is specified, the field is sorted in ascending order.
 

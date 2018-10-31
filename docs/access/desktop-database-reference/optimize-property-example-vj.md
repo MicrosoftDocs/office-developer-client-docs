@@ -1,6 +1,11 @@
 ﻿---
+<<<<<<< HEAD
+title: Optimize Property Example (VJ++)
+TOCTitle: Optimize Property Example (VJ++)
+=======
 title: Optimize property example (VJ++)
 TOCTitle: Optimize property example (VJ++)
+>>>>>>> master
 ms:assetid: d4ac9ae3-3304-addf-0292-7af4ed4fdbc2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250067(v=office.15)
 ms:contentKeyID: 48547949
@@ -8,7 +13,11 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
+<<<<<<< HEAD
+# Optimize Property Example (VJ++)
+=======
 # Optimize property example (VJ++)
+>>>>>>> master
 
 
 **Applies to**: Access 2013 | Office 2013

@@ -24,7 +24,11 @@ Creates a new [Parameter](parameter-object-ado.md) object with the specified pro
 
 **Set** *parameter* = *command*.CreateParameter (*Name*, *Type*, *Direction*, *Size*, *Value*)
 
+<<<<<<< HEAD
+## Return Value
+=======
 ## Return value
+>>>>>>> master
 
 Returns a **Parameter** object.
 

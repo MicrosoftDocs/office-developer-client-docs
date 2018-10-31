@@ -15,7 +15,11 @@ mtps_version: v=office.15
 
 Indicates the type of the current member.
 
+<<<<<<< HEAD
+## Return Values
+=======
 ## Return values
+>>>>>>> master
 
 Returns a [MemberTypeEnum](membertypeenum.md) value and is read-only.
 

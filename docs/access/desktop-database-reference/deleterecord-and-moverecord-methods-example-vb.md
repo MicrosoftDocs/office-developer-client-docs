@@ -13,7 +13,11 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013 | Office 2013
 
+<<<<<<< HEAD
+This example demonstrates how to copy, move, edit, and delete the contents of a text file published to a Web folder. Other properties and methods used include [GetChildren](getchildren-method-ado.md), [ParentURL](parenturl-property-ado.md), [Source](source-property-ado-record.md), and [Flush](flush-method-ado.md).
+=======
 This example demonstrates how to copy, move, edit, and delete the contents of a text file published to a web folder. Other properties and methods used include [GetChildren](getchildren-method-ado.md), [ParentURL](parenturl-property-ado.md), [Source](source-property-ado-record.md), and [Flush](flush-method-ado.md).
+>>>>>>> master
 
 ```vb 
  

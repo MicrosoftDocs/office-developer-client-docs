@@ -1,6 +1,11 @@
 ﻿---
+<<<<<<< HEAD
+title: Prepared Property (ADO)
+TOCTitle: Prepared Property (ADO)
+=======
 title: Prepared property (ADO)
 TOCTitle: Prepared property (ADO)
+>>>>>>> master
 ms:assetid: 33becda2-faab-5000-8904-6ffd8c5805f2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249105(v=office.15)
 ms:contentKeyID: 48544116
@@ -12,14 +17,22 @@ f1_categories:
 - Office.Version=v15
 ---
 
+<<<<<<< HEAD
+# Prepared Property (ADO)
+=======
 # Prepared property (ADO)
+>>>>>>> master
 
 
 **Applies to**: Access 2013 | Office 2013
 
 Indicates whether to save a compiled version of a command before execution.
 
+<<<<<<< HEAD
+## Settings and Return Values
+=======
 ## Settings and return values
+>>>>>>> master
 
 Sets or returns a **Boolean** value that, if set to **True**, indicates that the command should be prepared.
 

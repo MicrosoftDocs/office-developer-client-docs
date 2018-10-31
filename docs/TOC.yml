@@ -349,46 +349,46 @@
           - name: Concepts
             href: access/desktop-database-reference/concepts.md
             items:
-            - name: ActiveX Controls
+            - name: ActiveX controls
               href: access/desktop-database-reference/activex-controls-access.md
               items:
-              - name: ActiveX Control's Custom Properties dialog box
+              - name: ActiveX control custom properties dialog box
                 href: access/desktop-database-reference/the-activex-control-s-custom-properties-dialog-box.md
-              - name: View an ActiveX Control's About box
+              - name: View an ActiveX control About box
                 href: access/desktop-database-reference/view-an-activex-control-s-about-box.md
             - name: Conversion
               href: access/desktop-database-reference/conversion.md
               items:
               - name: Changes in Access
                 href: access/desktop-database-reference/changes-in-access.md
-              - name: Convert Microsoft Access tables, forms, and reports
-                href: access/desktop-database-reference/convert-microsoft-access-tables-forms-and-reports.md
               - name: Convert DAO code to ADO
                 href: access/desktop-database-reference/converting-dao-code-to-ado.md
+              - name: Convert tables, forms, and reports
+                href: access/desktop-database-reference/convert-microsoft-access-tables-forms-and-reports.md
             - name: Ribbon
               href: access/desktop-database-reference/ribbon.md
               items:
-              - name: Hide the ribbon when Access starts
-                href: access/desktop-database-reference/how-to-hide-the-ribbon-when-access-starts.md
               - name: Apply a custom ribbon to a form or report
                 href: access/desktop-database-reference/how-to-apply-a-custom-ribbon-to-a-form-or-report.md
               - name: Apply a custom ribbon when starting Access
                 href: access/desktop-database-reference/how-to-apply-a-custom-ribbon-when-starting-access.md
+              - name: Hide the ribbon when Access starts
+                href: access/desktop-database-reference/how-to-hide-the-ribbon-when-access-starts.md                
             - name: Working with other applications
               href: access/desktop-database-reference/working-with-other-applications-access.md
               items:
               - name: Automation with Microsoft Access
                 href: access/desktop-database-reference/automation-with-microsoft-access.md
+              - name: Use ActiveX Data Objects
+                href: access/desktop-database-reference/using-activex-data-objects.md                
               - name: Use Microsoft Access as a DDE server
                 href: access/desktop-database-reference/use-microsoft-access-as-a-dde-server.md
-              - name: Using ActiveX Data Objects
-                href: access/desktop-database-reference/using-activex-data-objects.md
             - name: Set form, report, and control properties
               href: access/desktop-database-reference/set-form-report-and-control-properties.md
           - name: Microsoft Data Access Objects reference
             href: access/desktop-database-reference/microsoft-data-access-objects-reference.md
             items:
-            - name: ComplexType object
+            - name: ComplexType
               href: access/desktop-database-reference/complextype-object-reference-dao.md
               items:
               - name: ComplexType object
@@ -400,7 +400,7 @@
                 items:
                 - name: Fields property
                   href: access/desktop-database-reference/complextype-fields-property-dao.md
-            - name: Connection object
+            - name: Connection
               href: access/desktop-database-reference/connection-object-reference-dao.md
               items:
               - name: Connection object
@@ -443,7 +443,7 @@
                   href: access/desktop-database-reference/connection-execute-method-dao.md
                 - name: OpenRecordset method
                   href: access/desktop-database-reference/connection-openrecordset-method-dao.md
-            - name: Connections object
+            - name: Connections
               href: access/desktop-database-reference/connections-object-reference-dao.md
               items:
               - name: Connections collection
@@ -460,7 +460,7 @@
                 items:
                 - name: Refresh method
                   href: access/desktop-database-reference/connections-refresh-method-dao.md
-            - name: Container object
+            - name: Container
               href: access/desktop-database-reference/container-object-reference-dao.md
               items:
               - name: Container object
@@ -476,7 +476,7 @@
                   href: access/desktop-database-reference/container-name-property-dao.md
                 - name: Properties property
                   href: access/desktop-database-reference/container-properties-property-dao.md
-            - name: Containers object
+            - name: Containers
               href: access/desktop-database-reference/containers-object-reference-dao.md
               items:
               - name: Containers object
@@ -493,7 +493,7 @@
                 items:
                 - name: Refresh method
                   href: access/desktop-database-reference/containers-refresh-method-dao.md
-            - name: Database object
+            - name: Database
               href: access/desktop-database-reference/database-object-reference-dao.md
               items:
               - name: Database object
@@ -562,7 +562,7 @@
                   href: access/desktop-database-reference/database-populatepartial-method-dao.md
                 - name: Synchronize method
                   href: access/desktop-database-reference/database-synchronize-method-dao.md
-            - name: Databases object
+            - name: Databases
               href: access/desktop-database-reference/databases-object-reference-dao.md
               items:
               - name: Databases collection
@@ -579,7 +579,7 @@
                 items:
                 - name: Refresh method
                   href: access/desktop-database-reference/databases-refresh-method-dao.md
-            - name: DBEngine object
+            - name: DBEngine
               href: access/desktop-database-reference/dbengine-object-reference-dao.md
               items:
               - name: DBEngine object
@@ -632,7 +632,7 @@
                   href: access/desktop-database-reference/dbengine-rollback-method-dao.md
                 - name: SetOption method
                   href: access/desktop-database-reference/dbengine-setoption-method-dao.md
-            - name: Document object
+            - name: Document
               href: access/desktop-database-reference/document-object-reference-dao.md
               items:
               - name: Document object
@@ -657,7 +657,7 @@
                 items:
                 - name: CreateProperty method
                   href: access/desktop-database-reference/document-createproperty-method-dao.md
-            - name: Documents object
+            - name: Documents
               href: access/desktop-database-reference/documents-object-reference-dao.md
               items:
               - name: Documents collection
@@ -674,7 +674,7 @@
                 items:
                 - name: Refresh method
                   href: access/desktop-database-reference/documents-refresh-method-dao.md
-            - name: Error object
+            - name: Error
               href: access/desktop-database-reference/error-object-reference-dao.md
               items:
               - name: Error object
@@ -690,7 +690,7 @@
                   href: access/desktop-database-reference/error-number-property-dao.md
                 - name: Source property
                   href: access/desktop-database-reference/error-source-property-dao.md
-            - name: Errors object
+            - name: Errors
               href: access/desktop-database-reference/errors-object-reference-dao.md
               items:
               - name: Errors collection
@@ -707,7 +707,7 @@
                 items:
                 - name: Refresh method
                   href: access/desktop-database-reference/errors-refresh-method-dao.md
-            - name: Field object
+            - name: Field
               href: access/desktop-database-reference/field-object-reference-dao.md
               items:
               - name: Field object
@@ -768,7 +768,7 @@
                   href: access/desktop-database-reference/field-createproperty-method-dao.md
                 - name: GetChunk method
                   href: access/desktop-database-reference/field-getchunk-method-dao.md
-            - name: Field2 object
+            - name: Field2
               href: access/desktop-database-reference/field2-object-reference-dao.md
               items:
               - name: Field2 object
@@ -841,7 +841,7 @@
                   href: access/desktop-database-reference/field2-loadfromfile-method-dao.md
                 - name: SaveToFile method
                   href: access/desktop-database-reference/field2-savetofile-method-dao.md
-            - name: Fields object
+            - name: Fields
               href: access/desktop-database-reference/fields-object-reference-dao.md
               items:
               - name: Fields collection
@@ -862,7 +862,7 @@
                   href: access/desktop-database-reference/fields-delete-method-dao.md
                 - name: Refresh method
                   href: access/desktop-database-reference/fields-refresh-method-dao.md
-            - name: Index object
+            - name: Index
               href: access/desktop-database-reference/index-object-reference-dao.md
               items:
               - name: Index object
@@ -899,7 +899,7 @@
                   href: access/desktop-database-reference/index-createfield-method-dao.md
                 - name: CreateProperty method
                   href: access/desktop-database-reference/index-createproperty-method-dao.md
-            - name: Indexes object
+            - name: Indexes
               href: access/desktop-database-reference/indexes-object-reference-dao.md
               items:
               - name: Indexes collection
@@ -920,7 +920,7 @@
                   href: access/desktop-database-reference/indexes-delete-method-dao.md
                 - name: Refresh method
                   href: access/desktop-database-reference/indexes-refresh-method-dao.md
-            - name: Parameter object
+            - name: Parameter
               href: access/desktop-database-reference/parameter-object-reference-dao.md
               items:
               - name: Parameter object
@@ -940,7 +940,7 @@
                   href: access/desktop-database-reference/parameter-type-property-dao.md
                 - name: Value property
                   href: access/desktop-database-reference/parameter-value-property-dao.md
-            - name: Parameters object
+            - name: Parameters
               href: access/desktop-database-reference/parameters-object-reference-dao.md
               items:
               - name: Parameters collection
@@ -957,7 +957,7 @@
                 items:
                 - name: Refresh method
                   href: access/desktop-database-reference/parameters-refresh-method-dao.md
-            - name: Properties object
+            - name: Properties
               href: access/desktop-database-reference/properties-object-reference-dao.md
               items:
               - name: Properties collection
@@ -978,7 +978,7 @@
                   href: access/desktop-database-reference/properties-delete-method-dao.md
                 - name: Refresh method
                   href: access/desktop-database-reference/properties-refresh-method-dao.md
-            - name: Property object
+            - name: Property
               href: access/desktop-database-reference/property-object-reference-dao.md
               items:
               - name: Property object
@@ -998,7 +998,7 @@
                   href: access/desktop-database-reference/property-type-property-dao.md
                 - name: Value property
                   href: access/desktop-database-reference/property-value-property-dao.md
-            - name: QueryDef object
+            - name: QueryDef
               href: access/desktop-database-reference/querydef-object-reference-dao.md
               items:
               - name: QueryDef object
@@ -1055,7 +1055,7 @@
                   href: access/desktop-database-reference/querydef-execute-method-dao.md
                 - name: OpenRecordset method
                   href: access/desktop-database-reference/querydef-openrecordset-method-dao.md
-            - name: QueryDefs object
+            - name: QueryDefs
               href: access/desktop-database-reference/querydefs-object-reference-dao.md
               items:
               - name: QueryDefs collection
@@ -1076,7 +1076,7 @@
                   href: access/desktop-database-reference/querydefs-delete-method-dao.md
                 - name: Refresh method
                   href: access/desktop-database-reference/querydefs-refresh-method-dao.md
-            - name: Recordset object
+            - name: Recordset
               href: access/desktop-database-reference/recordset-object-reference-dao.md
               items:
               - name: Recordset object
@@ -1207,7 +1207,7 @@
                   href: access/desktop-database-reference/recordset-seek-method-dao.md
                 - name: Update method
                   href: access/desktop-database-reference/recordset-update-method-dao.md
-            - name: Recordset2 object
+            - name: Recordset2
               href: access/desktop-database-reference/recordset2-object-reference-dao.md
               items:
               - name: Recordset2 object
@@ -1338,7 +1338,7 @@
                   href: access/desktop-database-reference/recordset2-seek-method-dao.md
                 - name: Update method
                   href: access/desktop-database-reference/recordset2-update-method-dao.md
-            - name: Recordsets object
+            - name: Recordsets
               href: access/desktop-database-reference/recordsets-object-reference-dao.md
               items:
               - name: Recordsets collection
@@ -1355,7 +1355,7 @@
                 items:
                 - name: Refresh method
                   href: access/desktop-database-reference/recordsets-refresh-method-dao.md
-            - name: Relation object
+            - name: Relation
               href: access/desktop-database-reference/relation-object-reference-dao.md
               items:
               - name: Relation object
@@ -1384,7 +1384,7 @@
                 items:
                 - name: CreateField method
                   href: access/desktop-database-reference/relation-createfield-method-dao.md
-            - name: Relations object
+            - name: Relations
               href: access/desktop-database-reference/relations-object-reference-dao.md
               items:
               - name: Relations collection
@@ -1405,7 +1405,7 @@
                   href: access/desktop-database-reference/relations-delete-method-dao.md
                 - name: Refresh method
                   href: access/desktop-database-reference/relations-refresh-method-dao.md
-            - name: TableDef object
+            - name: TableDef
               href: access/desktop-database-reference/tabledef-object-reference-dao.md
               items:
               - name: TableDef object
@@ -1458,7 +1458,7 @@
                   href: access/desktop-database-reference/tabledef-openrecordset-method-dao.md
                 - name: RefreshLink method
                   href: access/desktop-database-reference/tabledef-refreshlink-method-dao.md
-            - name: TableDefs object
+            - name: TableDefs
               href: access/desktop-database-reference/tabledefs-object-reference-dao.md
               items:
               - name: TableDefs collection
@@ -1479,7 +1479,7 @@
                   href: access/desktop-database-reference/tabledefs-delete-method-dao.md
                 - name: Refresh method
                   href: access/desktop-database-reference/tabledefs-refresh-method-dao.md
-            - name: Workspace object
+            - name: Workspace
               href: access/desktop-database-reference/workspace-object-reference-dao.md
               items:
               - name: Workspace object
@@ -1522,7 +1522,7 @@
                   href: access/desktop-database-reference/workspace-opendatabase-method-dao.md
                 - name: Rollback method
                   href: access/desktop-database-reference/workspace-rollback-method-dao.md
-            - name: Workspaces object
+            - name: Workspaces
               href: access/desktop-database-reference/workspaces-object-reference-dao.md
               items:
               - name: Workspaces collection

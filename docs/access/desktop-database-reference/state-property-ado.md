@@ -1,6 +1,11 @@
 ﻿---
+<<<<<<< HEAD
+title: State Property (ADO)
+TOCTitle: State Property (ADO)
+=======
 title: State property (ADO)
 TOCTitle: State property (ADO)
+>>>>>>> master
 ms:assetid: ade0a50c-e2d8-23ac-4ea9-b012fedcd5db
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249819(v=office.15)
 ms:contentKeyID: 48547053
@@ -12,7 +17,11 @@ f1_categories:
 - Office.Version=v15
 ---
 
+<<<<<<< HEAD
+# State Property (ADO)
+=======
 # State property (ADO)
+>>>>>>> master
 
 
 **Applies to**: Access 2013 | Office 2013
@@ -21,7 +30,11 @@ Indicates for all applicable objects whether the state of the object is open or 
 
 Indicates for all applicable objects executing an asynchronous method, whether the current state of the object is connecting, executing, or retrieving.
 
+<<<<<<< HEAD
+## Return Value
+=======
 ## Return value
+>>>>>>> master
 
 Returns a **Long** value that can be an [ObjectStateEnum](objectstateenum.md) value. The default value is **adStateClosed**.
 

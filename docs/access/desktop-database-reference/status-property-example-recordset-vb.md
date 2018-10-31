@@ -1,6 +1,11 @@
 ﻿---
+<<<<<<< HEAD
+title: Status Property Example (Recordset) (VB)
+TOCTitle: Status Property Example (Recordset) (VB)
+=======
 title: Status property example (Recordset) (VB)
 TOCTitle: Status property example (Recordset) (VB)
+>>>>>>> master
 ms:assetid: 97ddd465-88ed-81dd-3714-1841f1c87611
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249677(v=office.15)
 ms:contentKeyID: 48546476
@@ -8,7 +13,11 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
+<<<<<<< HEAD
+# Status Property Example (Recordset) (VB)
+=======
 # Status property example (Recordset) (VB)
+>>>>>>> master
 
 
 **Applies to**: Access 2013 | Office 2013

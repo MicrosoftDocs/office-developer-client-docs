@@ -15,7 +15,11 @@ mtps_version: v=office.15
 
 Indicates the number of members for which the current [Member](member-object-ado-md.md) object is the parent in a hierarchy.
 
+<<<<<<< HEAD
+## Return Values
+=======
 ## Return values
+>>>>>>> master
 
 Returns a **Long** integer and is read-only.
 

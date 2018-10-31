@@ -71,7 +71,11 @@ Opens a specified database and returns a reference to the **[Database](database-
 </table>
 
 
+<<<<<<< HEAD
+### Return Value
+=======
 ### Return value
+>>>>>>> master
 
 Database
 

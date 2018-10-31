@@ -1,6 +1,11 @@
 ﻿---
+<<<<<<< HEAD
+title: IndexNulls Property Example (VB)
+TOCTitle: IndexNulls Property Example (VB)
+=======
 title: IndexNulls property example (VB)
 TOCTitle: IndexNulls property example (VB)
+>>>>>>> master
 ms:assetid: 69b5661c-931e-3a1c-d60e-96a0f93b9494
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249414(v=office.15)
 ms:contentKeyID: 48545417
@@ -8,7 +13,11 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
+<<<<<<< HEAD
+# IndexNulls Property Example (VB)
+=======
 # IndexNulls property example (VB)
+>>>>>>> master
 
 **Applies to**: Access 2013 | Office 2013
 
