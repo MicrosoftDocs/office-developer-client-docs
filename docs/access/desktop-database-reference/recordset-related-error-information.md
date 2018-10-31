@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Recordset-Related Error Information
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 During batch processing, the **Status** property of the **Recordset** object provides information about the individual records in the **Recordset**. Before a batch update takes place, the **Status** property of the **Recordset** reflects information about records to be added, changed and deleted. 
 

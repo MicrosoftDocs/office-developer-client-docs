@@ -1,11 +1,6 @@
 ﻿---
-<<<<<<< HEAD
-title: ParentURL Property (ADO)
-TOCTitle: ParentURL Property (ADO)
-=======
 title: ParentURL property (ADO)
 TOCTitle: ParentURL property (ADO)
->>>>>>> master
 ms:assetid: ec7ec476-6f9e-8486-fe02-74995975df5c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250200(v=office.15)
 ms:contentKeyID: 48548517
@@ -13,21 +8,13 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-<<<<<<< HEAD
-# ParentURL Property (ADO)
-=======
 # ParentURL property (ADO)
->>>>>>> master
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Indicates an absolute URL string that points to the parent [Record](record-object-ado.md) of the current **Record** object.
 
-<<<<<<< HEAD
-## Return Value
-=======
 ## Return value
->>>>>>> master
 
 Returns a **String** value that indicates the URL of the parent **Record**.
 

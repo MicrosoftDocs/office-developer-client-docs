@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Workspace Members (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 A Workspace object defines a named session for a user. It contains open databases and provides mechanisms for simultaneous transactions and, in Microsoft Access workspaces, secure workgroup support.
 

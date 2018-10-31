@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Microsoft Data Shaping Service for OLE DB (ADO Service Provider)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 The Microsoft Data Shaping Service for OLE DB service provider supports the construction of hierarchical (shaped) [Recordset](recordset-object-ado.md) objects from a data provider.
 

@@ -11,15 +11,11 @@ mtps_version: v=office.15
 # IndexNulls Property (ADOX)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Indicates whether records that have null values in their index fields have index entries.
 
-<<<<<<< HEAD
-## Settings and Return Values
-=======
 ## Settings and return values
->>>>>>> master
 
 Sets and returns an [AllowNullsEnum](allownullsenum.md) value. The default value is **adIndexNullsDisallow**.
 

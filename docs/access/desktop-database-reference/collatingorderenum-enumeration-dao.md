@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # CollatingOrderEnum Enumeration (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Specifies the sequence of the sort order in text for string comparison or sorting.
 

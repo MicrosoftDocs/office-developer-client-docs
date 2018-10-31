@@ -1,4 +1,4 @@
----
+﻿---
 title: REVOKE statement (Microsoft Access SQL)
 TOCTitle: REVOKE statement (Microsoft Access SQL)
 ms:assetid: 69399fd6-c4e8-f2e2-e5f4-48ae779323f5
@@ -14,7 +14,7 @@ f1_categories:
 
 # REVOKE statement (Microsoft Access SQL)
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Revokes specific privileges from an existing user or group.
 

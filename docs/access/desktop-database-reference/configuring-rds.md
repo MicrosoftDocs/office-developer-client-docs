@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Configuring RDS
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 To implement RDS efficiently, be sure you are familiar with the various configurations available to you. This section includes important information about security and scalability in your implementation of RDS. See the following topics for information about configuring your computers to use RDS.
 

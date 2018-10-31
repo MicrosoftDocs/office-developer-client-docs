@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Append Method (ADOX Views)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 
 Creates a new [View](view-object-adox.md) object and appends it to the [Views](views-collection-adox.md) collection.

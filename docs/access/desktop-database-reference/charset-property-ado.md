@@ -1,11 +1,6 @@
 ﻿---
-<<<<<<< HEAD
-title: Charset Property (ADO)
-TOCTitle: Charset Property (ADO)
-=======
 title: Charset property (ADO)
 TOCTitle: Charset property (ADO)
->>>>>>> master
 ms:assetid: 454f664e-6d62-eec9-487d-882c2f9503b0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249213(v=office.15)
 ms:contentKeyID: 48544551
@@ -13,22 +8,14 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-<<<<<<< HEAD
-# Charset Property (ADO)
-=======
 # Charset property (ADO)
->>>>>>> master
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Indicates the character set into which the contents of a text [Stream](stream-object-ado.md) should be translated for storage in the Stream objects internal buffer.
 
-<<<<<<< HEAD
-## Settings and Return Values
-=======
 ## Settings and return values
->>>>>>> master
 
 Sets or returns a **String** value that specifies the character set into which the contents of the **Stream** will be translated. The default value is "Unicode". Allowed values are typical strings passed over the interface as Internet character set strings (for example, "iso-8859-1", "Windows-1252", etc.). For a list of the character set strings that is known by a system, see the subkeys of HKEY\_CLASSES\_ROOT\\MIME\\Database\\Charset in the Windows Registry.
 

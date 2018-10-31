@@ -1,17 +1,4 @@
 ﻿---
-<<<<<<< HEAD
-title: AbsolutePosition and CursorLocation Properties Example (VJ++)
-TOCTitle: AbsolutePosition and CursorLocation Properties Example (VJ++)
-ms:assetid: 38872022-8a65-680f-20af-086e4d9d7b6a
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249137(v=office.15)
-ms:contentKeyID: 48544223
-ms.date: 09/18/2015
-mtps_version: v=office.15
----
-
-# AbsolutePosition and CursorLocation Properties Example (VJ++)
-
-=======
 title: AbsolutePosition and CursorLocation properties example (VJ++)
 TOCTitle: AbsolutePosition and CursorLocation properties example (VJ++)
 ms:assetid: 38872022-8a65-680f-20af-086e4d9d7b6a
@@ -22,9 +9,8 @@ mtps_version: v=office.15
 ---
 
 # AbsolutePosition and CursorLocation properties example (VJ++)
->>>>>>> master
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 This example demonstrates how the [AbsolutePosition](absoluteposition-property-ado.md) property can track the progress of a loop that enumerates all the records of a [Recordset](recordset-object-ado.md). It uses the [CursorLocation](cursorlocation-property-ado.md) property to enable the **AbsolutePosition** property by setting the cursor to a client cursor.
 

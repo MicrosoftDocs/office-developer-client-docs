@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # AddNew method example (VB)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.
 

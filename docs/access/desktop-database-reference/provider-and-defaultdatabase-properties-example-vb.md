@@ -1,11 +1,6 @@
 ﻿---
-<<<<<<< HEAD
-title: Provider and DefaultDatabase Properties Example (VB)
-TOCTitle: Provider and DefaultDatabase Properties Example (VB)
-=======
 title: Provider and DefaultDatabase properties example (VB)
 TOCTitle: Provider and DefaultDatabase properties example (VB)
->>>>>>> master
 ms:assetid: 337b90e6-851d-2101-0671-50c4173aec13
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249104(v=office.15)
 ms:contentKeyID: 48544107
@@ -13,14 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-<<<<<<< HEAD
-# Provider and DefaultDatabase Properties Example (VB)
-=======
 # Provider and DefaultDatabase properties example (VB)
->>>>>>> master
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 This example demonstrates the [Provider](provider-property-ado.md) property by opening three [Connection](connection-object-ado.md) objects using different providers. It also uses the [DefaultDatabase](defaultdatabase-property-ado.md) property to set the default database for the Microsoft ODBC Provider.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ADORecordConstruction Interface (ADO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 The **ADORecordConstruction** interface is used to construct an ADO **Record** object from an OLE DB **Row** object in a C/C++ application.
 

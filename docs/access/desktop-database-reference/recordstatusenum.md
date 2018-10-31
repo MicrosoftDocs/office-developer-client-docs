@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # RecordStatusEnum
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Specifies the status of a record with regard to batch updates and other bulk operations.
 

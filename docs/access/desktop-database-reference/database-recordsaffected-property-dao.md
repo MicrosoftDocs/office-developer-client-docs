@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Database.RecordsAffected Property (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Returns the number of records affected by the most recently invoked **[Execute](connection-execute-method-dao.md)** method.
 

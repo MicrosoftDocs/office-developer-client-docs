@@ -1,11 +1,6 @@
 ﻿---
-<<<<<<< HEAD
-title: Attributes and Name Properties Example (VC++)
-TOCTitle: Attributes and Name Properties Example (VC++)
-=======
 title: Attributes and Name properties example (VC++)
 TOCTitle: Attributes and Name properties example (VC++)
->>>>>>> master
 ms:assetid: 612b7d4a-b92d-5afd-eeaa-28d7ad1a880a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249356(v=office.15)
 ms:contentKeyID: 48545203
@@ -13,14 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-<<<<<<< HEAD
-# Attributes and Name Properties Example (VC++)
-=======
 # Attributes and Name properties example (VC++)
->>>>>>> master
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 This example displays the value of the [Attributes](attributes-property-ado.md) property for [Connection](connection-object-ado.md), [Field](field-object-ado.md), and [Property](property-object-ado.md) objects. It uses the [Name](name-property-ado.md) property to display the name of each **Field** and **Property** object.
 

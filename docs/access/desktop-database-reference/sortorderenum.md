@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # SortOrderEnum
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Specifies the sort sequence for an indexed column.
 

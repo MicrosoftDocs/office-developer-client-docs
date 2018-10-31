@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Connections.Count Property (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Returns the number of **[Connection](connection-object-dao.md)** objects in the **[Connections](connections-collection-dao.md)** collection.
 

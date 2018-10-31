@@ -15,7 +15,7 @@ f1_categories:
 # DBEngine.Workspaces Property (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Returns a **Workspaces** collection that contains all of the active, unhidden **Workspace** objects. Read-only.
 

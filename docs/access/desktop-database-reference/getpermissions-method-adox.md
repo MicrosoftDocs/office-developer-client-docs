@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # GetPermissions Method (ADOX)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 
 Returns the permissions for a group or user on an object or object container.
@@ -20,11 +20,7 @@ Returns the permissions for a group or user on an object or object container.
 
 *ReturnValue* = *GroupOrUser*.GetPermissions(*Name*, *ObjectType* \[,*ObjectTypeId*\])
 
-<<<<<<< HEAD
-## Return Value
-=======
 ## Return value
->>>>>>> master
 
 Returns a **Long** value that specifies a bitmask containing the permissions that the group or user has on the object. This value can be one or more of the [RightsEnum](rightsenum.md) constants.
 

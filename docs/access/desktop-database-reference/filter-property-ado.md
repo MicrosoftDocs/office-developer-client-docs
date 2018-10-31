@@ -1,11 +1,6 @@
 ﻿---
-<<<<<<< HEAD
-title: Filter Property (ADO)
-TOCTitle: Filter Property (ADO)
-=======
 title: Filter property (ADO)
 TOCTitle: Filter property (ADO)
->>>>>>> master
 ms:assetid: 5abc528a-a6ee-34de-5d44-a3249194b0a0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249314(v=office.15)
 ms:contentKeyID: 48545053
@@ -13,22 +8,14 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-<<<<<<< HEAD
-# Filter Property (ADO)
-=======
 # Filter property (ADO)
->>>>>>> master
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Indicates a filter for data in a [Recordset](recordset-object-ado.md).
 
-<<<<<<< HEAD
-## Settings and Return Values
-=======
 ## Settings and return values
->>>>>>> master
 
 Sets or returns a **Variant** value, which can contain one of the following:
 

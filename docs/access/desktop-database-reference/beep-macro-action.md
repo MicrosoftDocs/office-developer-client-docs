@@ -15,7 +15,7 @@ f1_categories:
 # Beep Macro Action
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 You can use the **Beep** action to sound a beep tone through the computer's speaker.
 

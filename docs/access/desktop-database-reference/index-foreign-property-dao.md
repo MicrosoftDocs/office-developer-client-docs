@@ -14,7 +14,7 @@ f1_categories:
 
 # Index.Foreign Property (DAO)
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Returns a value that indicates whether an **[Index](index-object-dao.md)** object represents a foreign key in a table (Microsoft Access workspaces only). .
 

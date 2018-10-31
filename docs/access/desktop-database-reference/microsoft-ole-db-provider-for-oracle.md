@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Microsoft OLE DB Provider for Oracle
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 The Microsoft OLE DB Provider for Oracle allows ADO to access Oracle databases.
 

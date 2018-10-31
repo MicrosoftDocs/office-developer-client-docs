@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # TableDefs.Append Method (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Adds a new **TableDef** to the **TableDefs** collection.
 

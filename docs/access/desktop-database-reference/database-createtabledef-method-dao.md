@@ -14,7 +14,7 @@ f1_categories:
 
 # Database.CreateTableDef Method (DAO)
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Creates a new **[TableDef](tabledef-object-dao.md)** object (Microsoft Access workspaces only). .
 
@@ -70,11 +70,7 @@ Creates a new **[TableDef](tabledef-object-dao.md)** object (Microsoft Access wo
 </table>
 
 
-<<<<<<< HEAD
-### Return Value
-=======
 ### Return value
->>>>>>> master
 
 TableDef
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ADO code examples in Microsoft Visual J++
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Use the following code examples to learn how to use the ADO methods and properties when writing in Microsoft Visual J++.
 
@@ -69,69 +69,6 @@ Use the following code examples to learn how to use the ADO methods and properti
 
 **Properties**
 
-<<<<<<< HEAD
-  - [AbsolutePage, PageCount, and PageSize Properties Example](absolutepage-pagecount-and-pagesize-properties-example-vj.md)
-
-  - [AbsolutePosition and CursorLocation Properties Example](absoluteposition-and-cursorlocation-properties-example-vj.md)
-
-  - [ActiveCommand Property Example](activecommand-property-example-vj.md)
-
-  - [ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction Properties Example](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vj.md)
-
-  - [ActualSize and DefinedSize Properties Example](actualsize-and-definedsize-properties-example-vj.md)
-
-  - [Attributes and Name Properties Example](attributes-and-name-properties-example-vj.md)
-
-  - [BOF, EOF, and Bookmark Properties Example](bof-eof-and-bookmark-properties-example-vj.md)
-
-  - [CacheSize Property Example](cachesize-property-example-vj.md)
-
-  - [ConnectionString, ConnectionTimeout, and State Properties Example](connectionstring-connectiontimeout-and-state-properties-example-vj.md)
-
-  - [Count Property Example](count-property-example-vj.md)
-
-  - [CursorType, LockType, and EditMode Properties Example](cursortype-locktype-and-editmode-properties-example-vj.md)
-
-  - [Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState Properties Example](description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vj.md)
-
-  - [Filter and RecordCount Properties Example](filter-and-recordcount-properties-example-vj.md)
-
-  - [IsolationLevel and Mode Properties Example](isolationlevel-and-mode-properties-example-vj.md)
-
-  - [Item Property Example](item-property-example-vj.md)
-
-  - [MarshalOptions Property Example](marshaloptions-property-example-vj.md)
-
-  - [MaxRecords Property Example](maxrecords-property-example-vj.md)
-
-  - [NumericScale and Precision Properties Example](numericscale-and-precision-properties-example-vj.md)
-
-  - [Optimize Property Example](optimize-property-example-vj.md)
-
-  - [OriginalValue and UnderlyingValue Properties Example](originalvalue-and-underlyingvalue-properties-example-vj.md)
-
-  - [Prepared Property Example](prepared-property-example-vj.md)
-
-  - [Provider and DefaultDatabase Properties Example](provider-and-defaultdatabase-properties-example-vj.md)
-
-  - [Sort Property Example](sort-property-example-vj.md)
-
-  - [Source Property Example](source-property-example-vj.md)
-
-  - [State Property Example](state-property-example-vj.md)
-
-  - [Status Property Example](status-property-example-vj.md)
-
-  - [StayInSync Property Example](stayinsync-property-example-vj.md)
-
-  - [Type Property Example (Fields)](https://msdn.microsoft.com/library/jj250207\(v=office.15\))
-
-  - [Type Property Example (Property)](https://msdn.microsoft.com/library/jj249182\(v=office.15\))
-
-  - [Value Property Example](value-property-example-vj.md)
-
-  - [Version Property Example](version-property-example-vj.md)
-=======
   - [AbsolutePage, PageCount, and PageSize properties example](absolutepage-pagecount-and-pagesize-properties-example-vj.md)
 
   - [AbsolutePosition and CursorLocation properties example](absoluteposition-and-cursorlocation-properties-example-vj.md)
@@ -193,5 +130,4 @@ Use the following code examples to learn how to use the ADO methods and properti
   - [Value property example](value-property-example-vj.md)
 
   - [Version property example](version-property-example-vj.md)
->>>>>>> master
 

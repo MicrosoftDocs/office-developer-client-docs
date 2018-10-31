@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Save and Open methods example (VB)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 These three examples demonstrate how the [Save](save-method-ado.md) and [Open](open-method-ado-recordset.md) methods can be used together.
 

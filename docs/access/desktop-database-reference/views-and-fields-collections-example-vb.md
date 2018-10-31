@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Views and Fields Collections example (VB)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 The following code demonstrates how to use the [Command](command-property-adox.md) property and the [Recordset](recordset-object-ado.md) object to retrieve field information for the view.
 

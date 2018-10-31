@@ -1,4 +1,4 @@
----
+﻿---
 title: Absolute and relative URLs
 TOCTitle: Absolute and relative URLs
 ms:assetid: 79a1f793-7154-1c13-7dfe-a1b8cd64e1ea
@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Absolute and relative URLs
 
-**Applies to**: Access 2013 | Office 2013 
+**Applies to**: Access 2013, Office 2013    
 
 A URL specifies the location of a target stored on a local or networked computer, such as a file, directory, HTML page, image, program, and so on. In this discussion, an *absolute URL* is of the form:
 
@@ -76,5 +76,4 @@ recordset.Open "", "URL=https://YourServer/Winnt/",,,adCmdTableDirect
 The leading part of a fully-qualified URL is the *scheme* used to access the resource identified by the remainder of the URL. Examples are HTTP (HyperText Transfer Protocol) and FTP (File Transfer Protocol).
 
 ADO supports OLE DB providers that recognize their own URL schemes. For example, the [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md), which accesses "published" Windows 2000 files, recognizes the existing HTTP scheme.
-
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ADO Events Reference
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
   - [ADO Events](ado-events.md)
 

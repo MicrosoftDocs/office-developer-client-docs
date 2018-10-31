@@ -1,11 +1,6 @@
 ﻿---
-<<<<<<< HEAD
-title: Type Property Example (Property) (VC++)
-TOCTitle: Type Property Example (Property) (VC++)
-=======
 title: Type property example (Property) (VC++)
 TOCTitle: Type property example (Property) (VC++)
->>>>>>> master
 ms:assetid: ddf0233f-585e-6659-7fd6-f924f3a31f21
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250122(v=office.15)
 ms:contentKeyID: 48548168
@@ -13,14 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-<<<<<<< HEAD
-# Type Property Example (Property) (VC++)
-=======
 # Type property example (Property) (VC++)
->>>>>>> master
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 This example demonstrates the [Type](type-property-ado.md) property. It is a model of a utility for listing the names and types of a collection, like [Properties](properties-collection-ado.md), [Fields](fields-collection-ado.md), etc.
 

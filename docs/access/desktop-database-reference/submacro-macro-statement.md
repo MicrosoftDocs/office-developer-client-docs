@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Submacro Macro Statement
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 The **Submacro** statement defines a seperate macro in the Macro Designer window.
 

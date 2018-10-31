@@ -1,11 +1,6 @@
 ﻿---
-<<<<<<< HEAD
-title: PrimaryKey and Unique Properties Example (VB)
-TOCTitle: PrimaryKey and Unique Properties Example (VB)
-=======
 title: PrimaryKey and Unique properties example (VB)
 TOCTitle: PrimaryKey and Unique properties example (VB)
->>>>>>> master
 ms:assetid: 888f1a35-b883-2449-3b70-103e5116b29f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249597(v=office.15)
 ms:contentKeyID: 48546137
@@ -13,14 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-<<<<<<< HEAD
-# PrimaryKey and Unique Properties Example (VB)
-=======
 # PrimaryKey and Unique properties example (VB)
->>>>>>> master
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 This example demonstrates the [PrimaryKey](primarykey-property-adox.md) and [Unique](unique-property-adox.md) properties of an [Index](index-object-adox.md). The code creates a new table with two columns. The **PrimaryKey** and **Unique** properties are used to make one column the primary key for which duplicate values are not allowed.
 

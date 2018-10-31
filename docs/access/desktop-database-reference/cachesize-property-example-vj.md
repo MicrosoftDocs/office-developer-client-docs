@@ -1,11 +1,6 @@
 ﻿---
-<<<<<<< HEAD
-title: CacheSize Property Example (VJ++)
-TOCTitle: CacheSize Property Example (VJ++)
-=======
 title: CacheSize property example (VJ++)
 TOCTitle: CacheSize property example (VJ++)
->>>>>>> master
 ms:assetid: f51cbf17-2944-91ea-b233-18a897ab8f1f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250248(v=office.15)
 ms:contentKeyID: 48548704
@@ -13,14 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-<<<<<<< HEAD
-# CacheSize Property Example (VJ++)
-=======
 # CacheSize property example (VJ++)
->>>>>>> master
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 This example uses the [CacheSize](cachesize-property-ado.md) property to show the difference in performance for an operation performed with and without a 30-record cache.
 

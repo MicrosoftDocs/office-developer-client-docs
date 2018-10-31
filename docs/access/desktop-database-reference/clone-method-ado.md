@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Clone Method (ADO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 
 
@@ -21,11 +21,7 @@ Creates a duplicate [Recordset](recordset-object-ado.md) object from an existing
 
 **Set** *rstDuplicate* = *rstOriginal*.Clone (*LockType*)
 
-<<<<<<< HEAD
-## Return Value
-=======
 ## Return value
->>>>>>> master
 
 Returns a **Recordset** object reference.
 

@@ -1,11 +1,6 @@
 ﻿---
-<<<<<<< HEAD
-title: ParentCatalog Property Example (VC++)
-TOCTitle: ParentCatalog Property Example (VC++)
-=======
 title: ParentCatalog property example (VC++)
 TOCTitle: ParentCatalog property example (VC++)
->>>>>>> master
 ms:assetid: fad6574f-698f-f48a-ba0b-59f048ae012c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250281(v=office.15)
 ms:contentKeyID: 48548855
@@ -13,14 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-<<<<<<< HEAD
-# ParentCatalog Property Example (VC++)
-=======
 # ParentCatalog property example (VC++)
->>>>>>> master
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 The following code demonstrates how to use the [ParentCatalog](parentcatalog-property-adox.md) property to access a provider-specific property prior to appending a table to a catalog. The property is AutoIncrement, which creates an AutoIncrement field in a Microsoft Jet database.
 

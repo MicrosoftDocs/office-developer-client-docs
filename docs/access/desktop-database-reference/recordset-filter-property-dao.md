@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Recordset.Filter Property (DAO)
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Sets or returns a value that determines the records included in a subsequently opened **Recordset** object (Microsoft Access workspaces only). Read/write **String**.
 

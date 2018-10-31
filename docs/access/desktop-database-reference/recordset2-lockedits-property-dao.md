@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Recordset2.LockEdits Property (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Sets or returns a value indicating the type of locking that is in effect while editing.
 

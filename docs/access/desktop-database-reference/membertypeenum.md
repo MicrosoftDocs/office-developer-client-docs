@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # MemberTypeEnum
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Specifies the setting for the [Type](type-property-ado-md.md) property of a [Member](member-object-ado-md.md) object.
 

@@ -1,11 +1,6 @@
 ﻿---
-<<<<<<< HEAD
-title: CursorType Property (ADO)
-TOCTitle: CursorType Property (ADO)
-=======
 title: CursorType property (ADO)
 TOCTitle: CursorType property (ADO)
->>>>>>> master
 ms:assetid: f42ded8f-9f92-ef03-a198-ffb892324611
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250239(v=office.15)
 ms:contentKeyID: 48548682
@@ -13,22 +8,14 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-<<<<<<< HEAD
-# CursorType Property (ADO)
-=======
 # CursorType property (ADO)
->>>>>>> master
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Indicates the type of cursor used in a [Recordset](recordset-object-ado.md) object.
 
-<<<<<<< HEAD
-## Settings and Return Values
-=======
 ## Settings and return values
->>>>>>> master
 
 Sets or returns a [CursorTypeEnum](cursortypeenum.md) value. The default value is **adOpenForwardOnly**.
 

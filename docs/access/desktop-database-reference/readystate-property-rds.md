@@ -11,15 +11,11 @@ mtps_version: v=office.15
 # ReadyState Property (RDS)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Indicates the progress of a [DataControl](datacontrol-object-rds.md) object as it retrieves data into its [Recordset](recordset-object-ado.md) object.
 
-<<<<<<< HEAD
-## Settings and Return Values
-=======
 ## Settings and return values
->>>>>>> master
 
 Sets or returns one of the following values.
 

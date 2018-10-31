@@ -1,11 +1,6 @@
 ﻿---
-<<<<<<< HEAD
-title: Filter and RecordCount Properties Example (VJ++)
-TOCTitle: Filter and RecordCount Properties Example (VJ++)
-=======
 title: Filter and RecordCount properties example (VJ++)
 TOCTitle: Filter and RecordCount properties example (VJ++)
->>>>>>> master
 ms:assetid: cf062f99-f935-6bf3-a245-fa345ead78db
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250025(v=office.15)
 ms:contentKeyID: 48547798
@@ -13,14 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-<<<<<<< HEAD
-# Filter and RecordCount Properties Example (VJ++)
-=======
 # Filter and RecordCount properties example (VJ++)
->>>>>>> master
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 This example uses the [Filter](filter-property-ado.md) property to open a new [Recordset](recordset-object-ado.md) based on a specified condition applied to an existing **Recordset**. It uses the [RecordCount](recordcount-property-ado.md) property to show the number of records in the two **Recordsets**. The FilterField function is required for this procedure to run.
 

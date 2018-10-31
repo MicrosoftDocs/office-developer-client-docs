@@ -1,11 +1,6 @@
 ﻿---
-<<<<<<< HEAD
-title: Status Property Example (VJ++)
-TOCTitle: Status Property Example (VJ++)
-=======
 title: Status property example (VJ++)
 TOCTitle: Status property example (VJ++)
->>>>>>> master
 ms:assetid: bdfc1b26-b384-e7e5-ff4b-d63ed62f70ca
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249922(v=office.15)
 ms:contentKeyID: 48547452
@@ -13,14 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-<<<<<<< HEAD
-# Status Property Example (VJ++)
-=======
 # Status property example (VJ++)
->>>>>>> master
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 This example uses the [Status](status-property-ado-recordset.md) property to display which records have been modified in a batch operation before a batch update has occurred.
 

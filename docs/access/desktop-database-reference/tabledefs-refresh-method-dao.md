@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # TableDefs.Refresh Method (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Updates the objects in the specified colletion to reflect the database's current schema.
 

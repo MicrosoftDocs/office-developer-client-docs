@@ -11,15 +11,11 @@ mtps_version: v=office.15
 # Optimize Property--Dynamic (ADO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Specifies whether an index should be created on a field.
 
-<<<<<<< HEAD
-## Settings and Return Values
-=======
 ## Settings and return values
->>>>>>> master
 
 Sets or returns a **Boolean** value that indicates whether an index should be created.
 

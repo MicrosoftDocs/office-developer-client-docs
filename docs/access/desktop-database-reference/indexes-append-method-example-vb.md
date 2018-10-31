@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Indexes Append method example (VB)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 The following code demonstrates how to create a new index. The index is on two columns in the table.
 

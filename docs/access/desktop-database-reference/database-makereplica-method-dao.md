@@ -14,7 +14,7 @@ f1_categories:
 
 # Database.MakeReplica Method (DAO)
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Makes a new replica from another database replica (Microsoft Access workspaces only).
 

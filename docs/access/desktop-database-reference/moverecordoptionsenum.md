@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # MoveRecordOptionsEnum
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Specifies the behavior of the [Record](record-object-ado.md) object [MoveRecord](moverecord-method-ado.md) method.
 

@@ -11,15 +11,11 @@ mtps_version: v=office.15
 # Children Property (ADO MD)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Returns a [Members](members-collection-ado-md.md) collection for which the current [Member](member-object-ado-md.md) is the parent in the hierarchy.
 
-<<<<<<< HEAD
-## Return Values
-=======
 ## Return values
->>>>>>> master
 
 Returns a **Members** collection and is read-only.
 

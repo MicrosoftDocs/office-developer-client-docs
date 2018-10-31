@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ForEachRecord Data Block
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 A **ForEachRecord** data block repeats a set of statements for each record in a domain.
 

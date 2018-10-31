@@ -1,17 +1,4 @@
 ﻿---
-<<<<<<< HEAD
-title: ActiveCommand Property Example (VC++)
-TOCTitle: ActiveCommand Property Example (VC++)
-ms:assetid: 35ebe533-73bb-0fe5-ef94-973e124b25cd
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249118(v=office.15)
-ms:contentKeyID: 48544157
-ms.date: 09/18/2015
-mtps_version: v=office.15
----
-
-# ActiveCommand Property Example (VC++)
-
-=======
 title: ActiveCommand property example (VC++)
 TOCTitle: ActiveCommand property example (VC++)
 ms:assetid: 35ebe533-73bb-0fe5-ef94-973e124b25cd
@@ -22,9 +9,8 @@ mtps_version: v=office.15
 ---
 
 # ActiveCommand property example (VC++)
->>>>>>> master
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 This example demonstrates the [ActiveCommand](activecommand-property-ado.md) property.
 

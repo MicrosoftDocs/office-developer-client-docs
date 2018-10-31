@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # Introduction to ADO Programming
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 For an introduction to the Microsoft ActiveX Data Objects (ADO) Programmer's Guide, see the following topics:
 

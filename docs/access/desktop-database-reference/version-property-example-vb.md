@@ -1,11 +1,6 @@
 ﻿---
-<<<<<<< HEAD
-title: Version Property Example (VB)
-TOCTitle: Version Property Example (VB)
-=======
 title: Version property example (VB)
 TOCTitle: Version property example (VB)
->>>>>>> master
 ms:assetid: ffb7b04a-55b9-fa2f-41ec-44af225bd15f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250315(v=office.15)
 ms:contentKeyID: 48548968
@@ -13,14 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-<<<<<<< HEAD
-# Version Property Example (VB)
-=======
 # Version property example (VB)
->>>>>>> master
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 This example uses the [Version](version-property-ado.md) property of a [Connection](connection-object-ado.md) object to display the current ADO version. It also uses several dynamic properties to show:
 

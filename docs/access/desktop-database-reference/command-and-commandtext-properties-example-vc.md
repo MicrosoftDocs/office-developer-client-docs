@@ -1,11 +1,6 @@
 ﻿---
-<<<<<<< HEAD
-title: Command and CommandText Properties Example (VC++)
-TOCTitle: Command and CommandText Properties Example (VC++)
-=======
 title: Command and CommandText properties example (VC++)
 TOCTitle: Command and CommandText properties example (VC++)
->>>>>>> master
 ms:assetid: 99eac61e-22fe-0e2c-542a-7f6ad14f3d60
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249692(v=office.15)
 ms:contentKeyID: 48546525
@@ -13,14 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-<<<<<<< HEAD
-# Command and CommandText Properties Example (VC++)
-=======
 # Command and CommandText properties example (VC++)
->>>>>>> master
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 The following code demonstrates how to use the [Command](command-property-adox.md) property to update the text of a procedure.
 

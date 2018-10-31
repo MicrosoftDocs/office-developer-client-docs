@@ -11,15 +11,11 @@ mtps_version: v=office.15
 # SortOrder Property (ADOX)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Indicates the sort sequence for the column (index columns only).
 
-<<<<<<< HEAD
-## Settings and Return Values
-=======
 ## Settings and return values
->>>>>>> master
 
 Sets and returns a **Long** value that can be one of the [SortOrderEnum](sortorderenum.md) constants. The default value is **adSortAscending**.
 

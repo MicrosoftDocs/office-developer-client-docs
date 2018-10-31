@@ -15,7 +15,7 @@ f1_categories:
 # RefreshRecord Macro Action
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 You can use the **RefreshRecord** action to update the underlying record source for the active form or datasheet to reflect changes made to the records in the current set.
 

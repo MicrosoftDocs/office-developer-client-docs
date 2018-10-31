@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # AppendChunk and GetChunk methods example (VC++)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 This example uses the [AppendChunk](appendchunk-method-ado.md) and [GetChunk](getchunk-method-ado.md) methods to fill an image field with data from another record.
 

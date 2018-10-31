@@ -15,7 +15,7 @@ f1_categories:
 # DBEngine.CreateWorkspace Method (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 
 Creates a new **[Workspace](workspace-object-dao.md)** object.
@@ -84,11 +84,7 @@ Creates a new **[Workspace](workspace-object-dao.md)** object.
 </table>
 
 
-<<<<<<< HEAD
-### Return Value
-=======
 ### Return value
->>>>>>> master
 
 Workspace
 

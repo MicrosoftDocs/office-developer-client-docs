@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # If...Then...Else Macro Block
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 You can use the **If** macro block to conditionally execute a group of actions, depending on the value of an expression.
 

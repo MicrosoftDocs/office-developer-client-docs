@@ -14,7 +14,7 @@ f1_categories:
 
 # QueryDef.SQL Property (DAO)
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Sets or returns the SQL statement that defines the query executed by a **[QueryDef](querydef-object-dao.md)** object.
 

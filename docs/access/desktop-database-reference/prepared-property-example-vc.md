@@ -1,11 +1,6 @@
 ﻿---
-<<<<<<< HEAD
-title: Prepared Property Example (VC++)
-TOCTitle: Prepared Property Example (VC++)
-=======
 title: Prepared property example (VC++)
 TOCTitle: Prepared property example (VC++)
->>>>>>> master
 ms:assetid: 9b2d8037-e74d-5fbd-c56c-18187236b1b2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249704(v=office.15)
 ms:contentKeyID: 48546562
@@ -13,14 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-<<<<<<< HEAD
-# Prepared Property Example (VC++)
-=======
 # Prepared property example (VC++)
->>>>>>> master
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 This example demonstrates the [Prepared](prepared-property-ado.md) property by opening two [Command](command-object-ado.md) objects — one prepared and one not prepared.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # ADOX Properties Reference
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 
   - [ADOX Properties](adox-properties.md)

@@ -11,15 +11,11 @@ mtps_version: v=office.15
 # Name Property (ADO MD)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Indicates the name of an object.
 
-<<<<<<< HEAD
-## Return Values
-=======
 ## Return values
->>>>>>> master
 
 Returns a **String** and is read-only.
 

@@ -1,11 +1,6 @@
 ﻿---
-<<<<<<< HEAD
-title: Parameters Collection, Command Property Example (VC++)
-TOCTitle: Parameters Collection, Command Property Example (VC++)
-=======
 title: Parameters Collection, Command property example (VC++)
 TOCTitle: Parameters Collection, Command property example (VC++)
->>>>>>> master
 ms:assetid: 625a83d5-5b73-f945-7e01-bf412fed0827
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249369(v=office.15)
 ms:contentKeyID: 48545237
@@ -13,14 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-<<<<<<< HEAD
-# Parameters Collection, Command Property Example (VC++)
-=======
 # Parameters Collection, Command property example (VC++)
->>>>>>> master
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 The following code demonstrates how to use the [Command](command-property-adox.md) property with the [Command](command-object-ado.md) object to retrieve parameter information for the procedure.
 

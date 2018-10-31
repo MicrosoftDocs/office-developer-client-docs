@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Workspace.OpenConnection Method (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 ## Syntax
 
@@ -65,11 +65,7 @@ mtps_version: v=office.15
 </table>
 
 
-<<<<<<< HEAD
-### Return Value
-=======
 ### Return value
->>>>>>> master
 
 Connection
 

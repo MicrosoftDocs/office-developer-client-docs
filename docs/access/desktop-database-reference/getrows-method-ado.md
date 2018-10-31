@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # GetRows Method (ADO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 
 Retrieves multiple records of a [Recordset](recordset-object-ado.md) object into an array.
@@ -20,11 +20,7 @@ Retrieves multiple records of a [Recordset](recordset-object-ado.md) object into
 
 *array* = *recordset*.GetRows(*Rows*, *Start*, *Fields* )
 
-<<<<<<< HEAD
-## Return Value
-=======
 ## Return value
->>>>>>> master
 
 Returns a **Variant** whose value is a two-dimensional array.
 

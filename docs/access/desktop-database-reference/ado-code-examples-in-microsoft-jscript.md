@@ -10,7 +10,7 @@ mtps_version: v=office.15
 
 # ADO code examples in Microsoft JScript
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Use the following code examples to learn how to use the ADO methods, properties, and events when writing in JScript.
 
@@ -31,21 +31,6 @@ Use the following code examples to learn how to use the ADO methods, properties,
 
 **Properties**
 
-<<<<<<< HEAD
-  - [AbsolutePage, PageCount, and PageSize Properties Example](absolutepage-pagecount-and-pagesize-properties-example-jscript.md)
-
-  - [AbsolutePosition and CursorLocation Properties Example](absoluteposition-and-cursorlocation-properties-example-jscript.md)
-
-  - [ActiveCommand Property Example](activecommand-property-example-jscript.md)
-
-  - [ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction Properties Example](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-jscript.md)
-
-  - [ActualSize and DefinedSize Properties Example](actualsize-and-definedsize-properties-example-jscript.md)
-
-  - [CacheSize Property Example](cachesize-property-example-jscript.md)
-
-  - [Filter and RecordCount Properties Example](filter-and-recordcount-properties-example-jscript.md)
-=======
   - [AbsolutePage, PageCount, and PageSize properties example](absolutepage-pagecount-and-pagesize-properties-example-jscript.md)
 
   - [AbsolutePosition and CursorLocation properties example](absoluteposition-and-cursorlocation-properties-example-jscript.md)
@@ -59,5 +44,4 @@ Use the following code examples to learn how to use the ADO methods, properties,
   - [CacheSize property example](cachesize-property-example-jscript.md)
 
   - [Filter and RecordCount properties example](filter-and-recordcount-properties-example-jscript.md)
->>>>>>> master
 

@@ -1,11 +1,6 @@
 ﻿---
-<<<<<<< HEAD
-title: Parameters Collection, Command Property Example (VB)
-TOCTitle: Parameters Collection, Command Property Example (VB)
-=======
 title: Parameters Collection, Command property example (VB)
 TOCTitle: Parameters Collection, Command property example (VB)
->>>>>>> master
 ms:assetid: 3bb3e6e1-0ee5-70bb-7f2c-beb461d3914a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249151(v=office.15)
 ms:contentKeyID: 48544290
@@ -13,14 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-<<<<<<< HEAD
-# Parameters Collection, Command Property Example (VB)
-=======
 # Parameters Collection, Command property example (VB)
->>>>>>> master
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 The following code demonstrates how to use the [Command](command-property-adox.md) property with the [Command](command-object-ado.md) object to retrieve parameter information for the procedure.
 

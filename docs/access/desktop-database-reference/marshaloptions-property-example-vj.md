@@ -1,11 +1,6 @@
 ﻿---
-<<<<<<< HEAD
-title: MarshalOptions Property Example (VJ++)
-TOCTitle: MarshalOptions Property Example (VJ++)
-=======
 title: MarshalOptions property example (VJ++)
 TOCTitle: MarshalOptions property example (VJ++)
->>>>>>> master
 ms:assetid: 3c565ed1-1a60-77f5-7c69-ceb28027cb40
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249158(v=office.15)
 ms:contentKeyID: 48544313
@@ -13,14 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-<<<<<<< HEAD
-# MarshalOptions Property Example (VJ++)
-=======
 # MarshalOptions property example (VJ++)
->>>>>>> master
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 This example uses the [MarshalOptions](marshaloptions-property-ado.md) property to specify what rows are sent back to the server — All Rows or only Modified Rows.
 

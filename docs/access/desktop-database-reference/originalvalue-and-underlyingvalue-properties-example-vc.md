@@ -1,11 +1,6 @@
 ﻿---
-<<<<<<< HEAD
-title: OriginalValue and UnderlyingValue Properties Example (VC++)
-TOCTitle: OriginalValue and UnderlyingValue Properties Example (VC++)
-=======
 title: OriginalValue and UnderlyingValue properties example (VC++)
 TOCTitle: OriginalValue and UnderlyingValue properties example (VC++)
->>>>>>> master
 ms:assetid: b51a05f7-e85f-a5e4-e9ae-ec7461eaaf6e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249869(v=office.15)
 ms:contentKeyID: 48547246
@@ -13,13 +8,9 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-<<<<<<< HEAD
-# OriginalValue and UnderlyingValue Properties Example (VC++)
-=======
 # OriginalValue and UnderlyingValue properties example (VC++)
->>>>>>> master
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 This example demonstrates the [OriginalValue](originalvalue-property-ado.md) and [UnderlyingValue](underlyingvalue-property-ado.md) properties by displaying a message if a record's underlying data has changed during a [Recordset](recordset-object-ado.md) batch update.
 

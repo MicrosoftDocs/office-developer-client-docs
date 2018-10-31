@@ -14,7 +14,7 @@ f1_categories:
 
 # EXECUTE statement (Microsoft Access SQL)
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Used to invoke the execution of a procedure.
 

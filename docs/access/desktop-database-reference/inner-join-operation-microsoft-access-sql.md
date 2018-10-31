@@ -17,7 +17,7 @@ f1_categories:
 # INNER JOIN Operation (Microsoft Access SQL)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 
 Combines records from two tables whenever there are matching values in a common field.

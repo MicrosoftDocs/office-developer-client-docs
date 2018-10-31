@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Field2.GetChunk Method (DAO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Returns all or a portion of the contents of a **Memo** or **Long BinaryField2** object in the **[Fields](fields-collection-dao.md)** collection of a **[Recordset](recordset-object-dao.md)** object.
 
@@ -55,11 +55,7 @@ Returns all or a portion of the contents of a **Memo** or **Long BinaryField2** 
 </table>
 
 
-<<<<<<< HEAD
-### Return Value
-=======
 ### Return value
->>>>>>> master
 
 Variant
 

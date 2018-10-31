@@ -11,15 +11,11 @@ mtps_version: v=office.15
 # Status Property (ADO Recordset)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Indicates the status of the current record with respect to batch updates or other bulk operations.
 
-<<<<<<< HEAD
-## Return Value
-=======
 ## Return value
->>>>>>> master
 
 Returns a sum of one or more [RecordStatusEnum](recordstatusenum.md) values.
 

@@ -1,11 +1,6 @@
 ﻿---
-<<<<<<< HEAD
-title: ParentCatalog Property Example (VB)
-TOCTitle: ParentCatalog Property Example (VB)
-=======
 title: ParentCatalog property example (VB)
 TOCTitle: ParentCatalog property example (VB)
->>>>>>> master
 ms:assetid: 3bd01153-40b5-1a45-67e2-eb8154c3fe33
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249152(v=office.15)
 ms:contentKeyID: 48544295
@@ -13,14 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-<<<<<<< HEAD
-# ParentCatalog Property Example (VB)
-=======
 # ParentCatalog property example (VB)
->>>>>>> master
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 The following code demonstrates how to use the [ParentCatalog](parentcatalog-property-adox.md) property to access a provider-specific property prior to appending a table to a catalog. The property is AutoIncrement, which creates an AutoIncrement field in a Microsoft Jet database.
 

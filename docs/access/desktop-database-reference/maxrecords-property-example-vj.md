@@ -1,11 +1,6 @@
 ﻿---
-<<<<<<< HEAD
-title: MaxRecords Property Example (VJ++)
-TOCTitle: MaxRecords Property Example (VJ++)
-=======
 title: MaxRecords property example (VJ++)
 TOCTitle: MaxRecords property example (VJ++)
->>>>>>> master
 ms:assetid: db8c1187-5e15-2c8a-6308-3468c113d962
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250107(v=office.15)
 ms:contentKeyID: 48548106
@@ -13,14 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-<<<<<<< HEAD
-# MaxRecords Property Example (VJ++)
-=======
 # MaxRecords property example (VJ++)
->>>>>>> master
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 This example uses the [MaxRecords](maxrecords-property-ado.md) property to open a [Recordset](recordset-object-ado.md) containing the 10 most expensive titles in the ***Titles*** table.
 

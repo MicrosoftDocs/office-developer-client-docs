@@ -1,11 +1,6 @@
 ﻿---
-<<<<<<< HEAD
-title: ADO NumericScale and Precision Properties Example (VC++)
-TOCTitle: NumericScale and Precision Properties Example (VC++)
-=======
 title: ADO NumericScale and Precision properties example (VC++)
 TOCTitle: NumericScale and Precision properties example (VC++)
->>>>>>> master
 ms:assetid: f0bc84c6-5563-509c-9b4e-3fb45c70a04e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250225(v=office.15)
 ms:contentKeyID: 48548611
@@ -13,14 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-<<<<<<< HEAD
-# ADO NumericScale and Precision Properties Example (VC++)
-=======
 # ADO NumericScale and Precision properties example (VC++)
->>>>>>> master
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 This example uses the [NumericScale](numericscale-property-ado.md) and [Precision](precision-property-ado.md) properties to display the numeric scale and precision of fields in the ***Discounts*** table of the ***Pubs*** database.
 

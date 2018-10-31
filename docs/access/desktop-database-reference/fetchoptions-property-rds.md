@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # FetchOptions Property (RDS)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Indicates the type of asynchronous fetching.
 
@@ -55,9 +55,5 @@ Sets or returns one of the following values.
 
 ## Remarks
 
-<<<<<<< HEAD
-In a Web application, you will usually want to use **adcFetchAsync** (the default value), because it provides better performance. In a compiled client application, you will usually want to use **adcFetchBackground**.
-=======
 In a web application, you will usually want to use **adcFetchAsync** (the default value), because it provides better performance. In a compiled client application, you will usually want to use **adcFetchBackground**.
->>>>>>> master
 

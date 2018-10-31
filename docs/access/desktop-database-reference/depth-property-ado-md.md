@@ -11,15 +11,11 @@ mtps_version: v=office.15
 # Depth Property (ADO MD)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Indicates the number of levels between the [Level](level-object-ado-md.md) and the root of the hierarchy.
 
-<<<<<<< HEAD
-## Return Values
-=======
 ## Return values
->>>>>>> master
 
 Returns an integer, and is read-only.
 

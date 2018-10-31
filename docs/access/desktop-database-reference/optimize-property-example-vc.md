@@ -1,11 +1,6 @@
 ﻿---
-<<<<<<< HEAD
-title: Optimize Property Example (VC++)
-TOCTitle: Optimize Property Example (VC++)
-=======
 title: Optimize property example (VC++)
 TOCTitle: Optimize property example (VC++)
->>>>>>> master
 ms:assetid: f9e83365-93b2-3eb6-0347-8f8aec703d6f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250273(v=office.15)
 ms:contentKeyID: 48548825
@@ -13,14 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-<<<<<<< HEAD
-# Optimize Property Example (VC++)
-=======
 # Optimize property example (VC++)
->>>>>>> master
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 This example demonstrates the [Field](field-object-ado.md) object dynamic Optimize property. The ***zip*** field of the ***Authors*** table in the ***Pubs*** database is not indexed. Setting the [Optimize](optimize-property-dynamic-ado.md) property to **True** on the ***zip*** field authorizes ADO to build an index that improves the performance of the [Find](find-method-ado.md) method.
 

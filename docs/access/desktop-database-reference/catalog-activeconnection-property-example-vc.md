@@ -1,11 +1,6 @@
 ﻿---
-<<<<<<< HEAD
-title: Catalog ActiveConnection Property Example (VC++)
-TOCTitle: Catalog ActiveConnection Property Example (VC++)
-=======
 title: Catalog ActiveConnection property example (VC++)
 TOCTitle: Catalog ActiveConnection property example (VC++)
->>>>>>> master
 ms:assetid: 0e72ff1c-b894-a440-67cf-bba091e7cb8b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248861(v=office.15)
 ms:contentKeyID: 48543246
@@ -13,14 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-<<<<<<< HEAD
-# Catalog ActiveConnection Property Example (VC++)
-=======
 # Catalog ActiveConnection property example (VC++)
->>>>>>> master
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Setting the [ActiveConnection](activeconnection-property-adox.md) property to a valid, open connection "opens" the catalog. From an open catalog, you can access the schema objects contained within that catalog.
 

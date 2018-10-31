@@ -11,7 +11,7 @@ mtps_version: v=office.15
 # Internet Explorer Error Codes
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 The following table lists Microsoft Internet Explorer error codes related to Remote Data Service usage. The positive decimal translation of the low two bytes, the negative decimal translation of the full error code, and the hexadecimal values are shown.
 

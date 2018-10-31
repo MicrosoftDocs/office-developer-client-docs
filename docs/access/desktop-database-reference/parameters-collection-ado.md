@@ -15,7 +15,7 @@ f1_categories:
 # Parameters Collection (ADO)
 
 
-**Applies to**: Access 2013 | Office 2013
+**Applies to**: Access 2013, Office 2013
 
 Contains all the [Parameter](parameter-object-ado.md) objects of a [Command](command-object-ado.md) object.
 
