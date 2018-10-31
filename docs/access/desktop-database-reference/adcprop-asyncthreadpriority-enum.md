@@ -4,7 +4,7 @@ TOCTitle: ADCPROP_ASYNCTHREADPRIORITY_ENUM
 ms:assetid: b15006dd-22d5-fcf3-8196-9e24ea9d55a7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249844(v=office.15)
 ms:contentKeyID: 48547143
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
@@ -15,6 +15,8 @@ mtps_version: v=office.15
 For an RDS [Recordset](recordset-object-ado.md) object, specifies the execution priority of the asynchronous thread that retrieves data.
 
 Use these constants with the **Recordset** "**Background Thread Priority**" dynamic property, which is referenced in the ADO Dynamic Property Index and documented in the [Microsoft Cursor Service for OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) documentation.
+
+<br/>
 
 <table>
 <colgroup>
@@ -58,8 +60,7 @@ Use these constants with the **Recordset** "**Background Thread Priority**" dyna
 </tbody>
 </table>
 
-
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 Package: **com.ms.wfc.data**
 

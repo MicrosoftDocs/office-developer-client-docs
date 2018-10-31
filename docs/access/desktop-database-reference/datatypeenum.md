@@ -4,16 +4,17 @@ TOCTitle: DataTypeEnum
 ms:assetid: a8ab7616-552f-ed5f-ed55-95254cfb374a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249780(v=office.15)
 ms:contentKeyID: 48546904
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
 # DataTypeEnum
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Specifies the data type of a [Field](field-object-ado.md), [Parameter](parameter-object-ado.md), or [Property](property-object-ado.md). The corresponding OLE DB type indicator is shown in parentheses in the description column of the following table. For more information about OLE DB data types, see Chapter 13 and Appendix A of the *OLE DB Programmer's Reference*.
+
+<br/>
 
 <table>
 <colgroup>
@@ -123,13 +124,8 @@ Specifies the data type of a [Field](field-object-ado.md), [Parameter](parameter
 <tr class="odd">
 <td><p><strong>adIDispatch</strong></p></td>
 <td><p>9</p></td>
-<td><p>Indicates a pointer to an <strong>IDispatch</strong> interface on a COM object (DBTYPE_IDISPATCH).</p>
-
-> [!NOTE]
-> <P>This data type is currently not supported by ADO. Usage may cause unpredictable results.</P>
-
-
-<p></p></td>
+<td><p>Indicates a pointer to an <strong>IDispatch</strong> interface on a COM object (DBTYPE_IDISPATCH).</p><p><strong>NOTE</strong>: This data type is currently not supported by ADO. Usage may cause unpredictable results.</p>
+</td>
 </tr>
 <tr class="even">
 <td><p><strong>adInteger</strong></p></td>
@@ -139,13 +135,8 @@ Specifies the data type of a [Field](field-object-ado.md), [Parameter](parameter
 <tr class="odd">
 <td><p><strong>adIUnknown</strong></p></td>
 <td><p>13</p></td>
-<td><p>Indicates a pointer to an <strong>IUnknown</strong> interface on a COM object (DBTYPE_IUNKNOWN).</p>
-
-> [!NOTE]
-> <P>This data type is currently not supported by ADO. Usage may cause unpredictable results.</P>
-
-
-<p></p></td>
+<td><p>Indicates a pointer to an <strong>IUnknown</strong> interface on a COM object (DBTYPE_IUNKNOWN).</p><p><strong>NOTE</strong>: This data type is currently not supported by ADO. Usage may cause unpredictable results.
+</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adLongVarBinary</strong></p></td>
@@ -225,13 +216,7 @@ Specifies the data type of a [Field](field-object-ado.md), [Parameter](parameter
 <tr class="odd">
 <td><p><strong>adVariant</strong></p></td>
 <td><p>12</p></td>
-<td><p>Indicates an Automation <strong>Variant</strong> (DBTYPE_VARIANT).</p>
-
-> [!NOTE]
-> <P>This data type is currently not supported by ADO. Usage may cause unpredictable results.</P>
-
-
-<p></p></td>
+<td><p>Indicates an Automation <strong>Variant</strong> (DBTYPE_VARIANT).</p><p><strong>NOTE</strong>: This data type is currently not supported by ADO. Usage may cause unpredictable results.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adVarNumeric</strong></p></td>
@@ -252,7 +237,7 @@ Specifies the data type of a [Field](field-object-ado.md), [Parameter](parameter
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 Package: **com.ms.wfc.data**
 

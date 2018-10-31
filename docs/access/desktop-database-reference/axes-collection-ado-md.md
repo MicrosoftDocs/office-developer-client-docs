@@ -21,7 +21,7 @@ A [Cellset](cellset-object-ado-md.md) object contains an **Axes** collection. On
 
 
 > [!NOTE]
-> <P>The filter axis of a <STRONG>Cellset</STRONG> is not contained in the <STRONG>Axes</STRONG> collection. See the <A href="filteraxis-property-ado-md.md">FilterAxis</A> property for more information.</P>
+> The filter axis of a **Cellset** is not contained in the **Axes** collection. See the [FilterAxis](filteraxis-property-ado-md.md) property for more information.
 
 
 

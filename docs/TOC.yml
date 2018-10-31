@@ -349,81 +349,46 @@
           - name: Concepts
             href: access/desktop-database-reference/concepts.md
             items:
-<<<<<<< HEAD
-            - name: ActiveX Controls
-              href: access/desktop-database-reference/activex-controls-access.md
-              items:
-              - name: ActiveX Control's Custom Properties dialog box
-                href: access/desktop-database-reference/the-activex-control-s-custom-properties-dialog-box.md
-              - name: View an ActiveX Control's About box
-=======
             - name: ActiveX controls
               href: access/desktop-database-reference/activex-controls-access.md
               items:
               - name: ActiveX control custom properties dialog box
                 href: access/desktop-database-reference/the-activex-control-s-custom-properties-dialog-box.md
               - name: View an ActiveX control About box
->>>>>>> master
                 href: access/desktop-database-reference/view-an-activex-control-s-about-box.md
             - name: Conversion
               href: access/desktop-database-reference/conversion.md
               items:
               - name: Changes in Access
                 href: access/desktop-database-reference/changes-in-access.md
-<<<<<<< HEAD
-              - name: Convert Microsoft Access tables, forms, and reports
-                href: access/desktop-database-reference/convert-microsoft-access-tables-forms-and-reports.md
               - name: Convert DAO code to ADO
                 href: access/desktop-database-reference/converting-dao-code-to-ado.md
-            - name: Ribbon
-              href: access/desktop-database-reference/ribbon.md
-              items:
-              - name: Hide the ribbon when Access starts
-                href: access/desktop-database-reference/how-to-hide-the-ribbon-when-access-starts.md
-=======
-              - name: Convert DAO code to ADO
-                href: access/desktop-database-reference/converting-dao-code-to-ado.md                
               - name: Convert tables, forms, and reports
                 href: access/desktop-database-reference/convert-microsoft-access-tables-forms-and-reports.md
             - name: Ribbon
               href: access/desktop-database-reference/ribbon.md
               items:
->>>>>>> master
               - name: Apply a custom ribbon to a form or report
                 href: access/desktop-database-reference/how-to-apply-a-custom-ribbon-to-a-form-or-report.md
               - name: Apply a custom ribbon when starting Access
                 href: access/desktop-database-reference/how-to-apply-a-custom-ribbon-when-starting-access.md
-<<<<<<< HEAD
-=======
               - name: Hide the ribbon when Access starts
                 href: access/desktop-database-reference/how-to-hide-the-ribbon-when-access-starts.md                
->>>>>>> master
             - name: Working with other applications
               href: access/desktop-database-reference/working-with-other-applications-access.md
               items:
               - name: Automation with Microsoft Access
                 href: access/desktop-database-reference/automation-with-microsoft-access.md
-<<<<<<< HEAD
-              - name: Use Microsoft Access as a DDE server
-                href: access/desktop-database-reference/use-microsoft-access-as-a-dde-server.md
-              - name: Using ActiveX Data Objects
-                href: access/desktop-database-reference/using-activex-data-objects.md
-=======
               - name: Use ActiveX Data Objects
                 href: access/desktop-database-reference/using-activex-data-objects.md                
               - name: Use Microsoft Access as a DDE server
                 href: access/desktop-database-reference/use-microsoft-access-as-a-dde-server.md
->>>>>>> master
             - name: Set form, report, and control properties
               href: access/desktop-database-reference/set-form-report-and-control-properties.md
           - name: Microsoft Data Access Objects reference
             href: access/desktop-database-reference/microsoft-data-access-objects-reference.md
             items:
-<<<<<<< HEAD
-            - name: ComplexType object
-=======
             - name: ComplexType
->>>>>>> master
               href: access/desktop-database-reference/complextype-object-reference-dao.md
               items:
               - name: ComplexType object
@@ -435,11 +400,7 @@
                 items:
                 - name: Fields property
                   href: access/desktop-database-reference/complextype-fields-property-dao.md
-<<<<<<< HEAD
-            - name: Connection object
-=======
             - name: Connection
->>>>>>> master
               href: access/desktop-database-reference/connection-object-reference-dao.md
               items:
               - name: Connection object
@@ -482,11 +443,7 @@
                   href: access/desktop-database-reference/connection-execute-method-dao.md
                 - name: OpenRecordset method
                   href: access/desktop-database-reference/connection-openrecordset-method-dao.md
-<<<<<<< HEAD
-            - name: Connections object
-=======
             - name: Connections
->>>>>>> master
               href: access/desktop-database-reference/connections-object-reference-dao.md
               items:
               - name: Connections collection
@@ -503,11 +460,7 @@
                 items:
                 - name: Refresh method
                   href: access/desktop-database-reference/connections-refresh-method-dao.md
-<<<<<<< HEAD
-            - name: Container object
-=======
             - name: Container
->>>>>>> master
               href: access/desktop-database-reference/container-object-reference-dao.md
               items:
               - name: Container object
@@ -523,11 +476,7 @@
                   href: access/desktop-database-reference/container-name-property-dao.md
                 - name: Properties property
                   href: access/desktop-database-reference/container-properties-property-dao.md
-<<<<<<< HEAD
-            - name: Containers object
-=======
             - name: Containers
->>>>>>> master
               href: access/desktop-database-reference/containers-object-reference-dao.md
               items:
               - name: Containers object
@@ -544,11 +493,7 @@
                 items:
                 - name: Refresh method
                   href: access/desktop-database-reference/containers-refresh-method-dao.md
-<<<<<<< HEAD
-            - name: Database object
-=======
             - name: Database
->>>>>>> master
               href: access/desktop-database-reference/database-object-reference-dao.md
               items:
               - name: Database object
@@ -617,11 +562,7 @@
                   href: access/desktop-database-reference/database-populatepartial-method-dao.md
                 - name: Synchronize method
                   href: access/desktop-database-reference/database-synchronize-method-dao.md
-<<<<<<< HEAD
-            - name: Databases object
-=======
             - name: Databases
->>>>>>> master
               href: access/desktop-database-reference/databases-object-reference-dao.md
               items:
               - name: Databases collection
@@ -638,11 +579,7 @@
                 items:
                 - name: Refresh method
                   href: access/desktop-database-reference/databases-refresh-method-dao.md
-<<<<<<< HEAD
-            - name: DBEngine object
-=======
             - name: DBEngine
->>>>>>> master
               href: access/desktop-database-reference/dbengine-object-reference-dao.md
               items:
               - name: DBEngine object
@@ -695,11 +632,7 @@
                   href: access/desktop-database-reference/dbengine-rollback-method-dao.md
                 - name: SetOption method
                   href: access/desktop-database-reference/dbengine-setoption-method-dao.md
-<<<<<<< HEAD
-            - name: Document object
-=======
             - name: Document
->>>>>>> master
               href: access/desktop-database-reference/document-object-reference-dao.md
               items:
               - name: Document object
@@ -724,11 +657,7 @@
                 items:
                 - name: CreateProperty method
                   href: access/desktop-database-reference/document-createproperty-method-dao.md
-<<<<<<< HEAD
-            - name: Documents object
-=======
             - name: Documents
->>>>>>> master
               href: access/desktop-database-reference/documents-object-reference-dao.md
               items:
               - name: Documents collection
@@ -745,11 +674,7 @@
                 items:
                 - name: Refresh method
                   href: access/desktop-database-reference/documents-refresh-method-dao.md
-<<<<<<< HEAD
-            - name: Error object
-=======
             - name: Error
->>>>>>> master
               href: access/desktop-database-reference/error-object-reference-dao.md
               items:
               - name: Error object
@@ -765,11 +690,7 @@
                   href: access/desktop-database-reference/error-number-property-dao.md
                 - name: Source property
                   href: access/desktop-database-reference/error-source-property-dao.md
-<<<<<<< HEAD
-            - name: Errors object
-=======
             - name: Errors
->>>>>>> master
               href: access/desktop-database-reference/errors-object-reference-dao.md
               items:
               - name: Errors collection
@@ -786,11 +707,7 @@
                 items:
                 - name: Refresh method
                   href: access/desktop-database-reference/errors-refresh-method-dao.md
-<<<<<<< HEAD
-            - name: Field object
-=======
             - name: Field
->>>>>>> master
               href: access/desktop-database-reference/field-object-reference-dao.md
               items:
               - name: Field object
@@ -851,11 +768,7 @@
                   href: access/desktop-database-reference/field-createproperty-method-dao.md
                 - name: GetChunk method
                   href: access/desktop-database-reference/field-getchunk-method-dao.md
-<<<<<<< HEAD
-            - name: Field2 object
-=======
             - name: Field2
->>>>>>> master
               href: access/desktop-database-reference/field2-object-reference-dao.md
               items:
               - name: Field2 object
@@ -928,11 +841,7 @@
                   href: access/desktop-database-reference/field2-loadfromfile-method-dao.md
                 - name: SaveToFile method
                   href: access/desktop-database-reference/field2-savetofile-method-dao.md
-<<<<<<< HEAD
-            - name: Fields object
-=======
             - name: Fields
->>>>>>> master
               href: access/desktop-database-reference/fields-object-reference-dao.md
               items:
               - name: Fields collection
@@ -953,11 +862,7 @@
                   href: access/desktop-database-reference/fields-delete-method-dao.md
                 - name: Refresh method
                   href: access/desktop-database-reference/fields-refresh-method-dao.md
-<<<<<<< HEAD
-            - name: Index object
-=======
             - name: Index
->>>>>>> master
               href: access/desktop-database-reference/index-object-reference-dao.md
               items:
               - name: Index object
@@ -994,11 +899,7 @@
                   href: access/desktop-database-reference/index-createfield-method-dao.md
                 - name: CreateProperty method
                   href: access/desktop-database-reference/index-createproperty-method-dao.md
-<<<<<<< HEAD
-            - name: Indexes object
-=======
             - name: Indexes
->>>>>>> master
               href: access/desktop-database-reference/indexes-object-reference-dao.md
               items:
               - name: Indexes collection
@@ -1019,11 +920,7 @@
                   href: access/desktop-database-reference/indexes-delete-method-dao.md
                 - name: Refresh method
                   href: access/desktop-database-reference/indexes-refresh-method-dao.md
-<<<<<<< HEAD
-            - name: Parameter object
-=======
             - name: Parameter
->>>>>>> master
               href: access/desktop-database-reference/parameter-object-reference-dao.md
               items:
               - name: Parameter object
@@ -1043,11 +940,7 @@
                   href: access/desktop-database-reference/parameter-type-property-dao.md
                 - name: Value property
                   href: access/desktop-database-reference/parameter-value-property-dao.md
-<<<<<<< HEAD
-            - name: Parameters object
-=======
             - name: Parameters
->>>>>>> master
               href: access/desktop-database-reference/parameters-object-reference-dao.md
               items:
               - name: Parameters collection
@@ -1064,11 +957,7 @@
                 items:
                 - name: Refresh method
                   href: access/desktop-database-reference/parameters-refresh-method-dao.md
-<<<<<<< HEAD
-            - name: Properties object
-=======
             - name: Properties
->>>>>>> master
               href: access/desktop-database-reference/properties-object-reference-dao.md
               items:
               - name: Properties collection
@@ -1089,11 +978,7 @@
                   href: access/desktop-database-reference/properties-delete-method-dao.md
                 - name: Refresh method
                   href: access/desktop-database-reference/properties-refresh-method-dao.md
-<<<<<<< HEAD
-            - name: Property object
-=======
             - name: Property
->>>>>>> master
               href: access/desktop-database-reference/property-object-reference-dao.md
               items:
               - name: Property object
@@ -1113,11 +998,7 @@
                   href: access/desktop-database-reference/property-type-property-dao.md
                 - name: Value property
                   href: access/desktop-database-reference/property-value-property-dao.md
-<<<<<<< HEAD
-            - name: QueryDef object
-=======
             - name: QueryDef
->>>>>>> master
               href: access/desktop-database-reference/querydef-object-reference-dao.md
               items:
               - name: QueryDef object
@@ -1174,11 +1055,7 @@
                   href: access/desktop-database-reference/querydef-execute-method-dao.md
                 - name: OpenRecordset method
                   href: access/desktop-database-reference/querydef-openrecordset-method-dao.md
-<<<<<<< HEAD
-            - name: QueryDefs object
-=======
             - name: QueryDefs
->>>>>>> master
               href: access/desktop-database-reference/querydefs-object-reference-dao.md
               items:
               - name: QueryDefs collection
@@ -1199,11 +1076,7 @@
                   href: access/desktop-database-reference/querydefs-delete-method-dao.md
                 - name: Refresh method
                   href: access/desktop-database-reference/querydefs-refresh-method-dao.md
-<<<<<<< HEAD
-            - name: Recordset object
-=======
             - name: Recordset
->>>>>>> master
               href: access/desktop-database-reference/recordset-object-reference-dao.md
               items:
               - name: Recordset object
@@ -1334,11 +1207,7 @@
                   href: access/desktop-database-reference/recordset-seek-method-dao.md
                 - name: Update method
                   href: access/desktop-database-reference/recordset-update-method-dao.md
-<<<<<<< HEAD
-            - name: Recordset2 object
-=======
             - name: Recordset2
->>>>>>> master
               href: access/desktop-database-reference/recordset2-object-reference-dao.md
               items:
               - name: Recordset2 object
@@ -1469,11 +1338,7 @@
                   href: access/desktop-database-reference/recordset2-seek-method-dao.md
                 - name: Update method
                   href: access/desktop-database-reference/recordset2-update-method-dao.md
-<<<<<<< HEAD
-            - name: Recordsets object
-=======
             - name: Recordsets
->>>>>>> master
               href: access/desktop-database-reference/recordsets-object-reference-dao.md
               items:
               - name: Recordsets collection
@@ -1490,11 +1355,7 @@
                 items:
                 - name: Refresh method
                   href: access/desktop-database-reference/recordsets-refresh-method-dao.md
-<<<<<<< HEAD
-            - name: Relation object
-=======
             - name: Relation
->>>>>>> master
               href: access/desktop-database-reference/relation-object-reference-dao.md
               items:
               - name: Relation object
@@ -1523,11 +1384,7 @@
                 items:
                 - name: CreateField method
                   href: access/desktop-database-reference/relation-createfield-method-dao.md
-<<<<<<< HEAD
-            - name: Relations object
-=======
             - name: Relations
->>>>>>> master
               href: access/desktop-database-reference/relations-object-reference-dao.md
               items:
               - name: Relations collection
@@ -1548,11 +1405,7 @@
                   href: access/desktop-database-reference/relations-delete-method-dao.md
                 - name: Refresh method
                   href: access/desktop-database-reference/relations-refresh-method-dao.md
-<<<<<<< HEAD
-            - name: TableDef object
-=======
             - name: TableDef
->>>>>>> master
               href: access/desktop-database-reference/tabledef-object-reference-dao.md
               items:
               - name: TableDef object
@@ -1605,11 +1458,7 @@
                   href: access/desktop-database-reference/tabledef-openrecordset-method-dao.md
                 - name: RefreshLink method
                   href: access/desktop-database-reference/tabledef-refreshlink-method-dao.md
-<<<<<<< HEAD
-            - name: TableDefs object
-=======
             - name: TableDefs
->>>>>>> master
               href: access/desktop-database-reference/tabledefs-object-reference-dao.md
               items:
               - name: TableDefs collection
@@ -1630,11 +1479,7 @@
                   href: access/desktop-database-reference/tabledefs-delete-method-dao.md
                 - name: Refresh method
                   href: access/desktop-database-reference/tabledefs-refresh-method-dao.md
-<<<<<<< HEAD
-            - name: Workspace object
-=======
             - name: Workspace
->>>>>>> master
               href: access/desktop-database-reference/workspace-object-reference-dao.md
               items:
               - name: Workspace object
@@ -1677,11 +1522,7 @@
                   href: access/desktop-database-reference/workspace-opendatabase-method-dao.md
                 - name: Rollback method
                   href: access/desktop-database-reference/workspace-rollback-method-dao.md
-<<<<<<< HEAD
-            - name: Workspaces object
-=======
             - name: Workspaces
->>>>>>> master
               href: access/desktop-database-reference/workspaces-object-reference-dao.md
               items:
               - name: Workspaces collection
@@ -1761,15 +1602,11 @@
             href: access/desktop-database-reference/microsoft-activex-data-objects-reference.md
             items:
             - name: ADO programmer's guide
-              href: access/desktop-database-reference/ado-programmer-s-guide-topics.md
+              href: access/desktop-database-reference/ado-programmer-s-guide.md
               items:
-              - name: ADO programmer's guide
-                href: access/desktop-database-reference/ado-programmer-s-guide.md
               - name: Introduction to ADO
-                href: access/desktop-database-reference/introduction-to-ado.md
+                href: access/desktop-database-reference/introduction-to-ado-programming.md
                 items:
-                - name: Introduction
-                  href: access/desktop-database-reference/introduction-to-ado-programming.md
                 - name: What's new in ADO
                   href: access/desktop-database-reference/what-s-new-in-ado.md
                 - name: Prerequisites
@@ -1784,93 +1621,70 @@
                   href: access/desktop-database-reference/ado-technology-table.md
                 - name: ADO Glossary
                   href: access/desktop-database-reference/ado-glossary.md
-              - name: 'Section I: ActiveX data objects'
-                href: access/desktop-database-reference/section-i-activex-data-objects-access.md
+              - name: 'Section I: ActiveX Data Objects'
+                href: access/desktop-database-reference/section-i-activex-data-objects.md
                 items:
-                - name: 'Section I: ActiveX Data Objects'
-                  href: access/desktop-database-reference/section-i-activex-data-objects.md
                 - name: 'Chapter 1: ADO Fundamentals'
-                  href: access/desktop-database-reference/chapter-1-ado-fundamentals-ado.md
+                  href: access/desktop-database-reference/chapter-1-ado-fundamentals.md
                   items:
-                  - name: 'Chapter 1: ADO Fundamentals'
-                    href: access/desktop-database-reference/chapter-1-ado-fundamentals.md
                   - name: What You Can Do with ADO
                     href: access/desktop-database-reference/what-you-can-do-with-ado.md
                   - name: Errors
                     href: access/desktop-database-reference/errors.md
                   - name: 'HelloData: A Simple ADO Application'
-                    href: access/desktop-database-reference/hellodata-a-simple-ado-application-ado.md
+                    href: access/desktop-database-reference/hellodata-a-simple-ado-application.md
                     items:
-                    - name: 'HelloData: A Simple ADO Application'
-                      href: access/desktop-database-reference/hellodata-a-simple-ado-application.md
                     - name: HelloData Details
                       href: access/desktop-database-reference/hellodata-details.md
                     - name: HelloData Code
                       href: access/desktop-database-reference/hellodata-code.md
                   - name: OLE DB Providers
-                    href: access/desktop-database-reference/ole-db-providers-ado.md
+                    href: access/desktop-database-reference/ole-db-providers.md
                     items:
-                    - name: OLE DB Providers
-                      href: access/desktop-database-reference/ole-db-providers.md
                     - name: Data Providers
                       href: access/desktop-database-reference/data-providers.md
                     - name: Service Providers and Components
                       href: access/desktop-database-reference/service-providers-and-components.md
-                - name: 'Chapter 2: Getting Data'
-                  href: access/desktop-database-reference/chapter-2-getting-data-ado.md
+                - name: 'Chapter 2: Getting data'
+                  href: access/desktop-database-reference/chapter-2-getting-data.md
                   items:
-                  - name: 'Chapter 2: Getting Data'
-                    href: access/desktop-database-reference/chapter-2-getting-data.md
                   - name: Making a Connection
                     href: access/desktop-database-reference/making-a-connection.md
                   - name: Using the Connection object
-                    href: access/desktop-database-reference/using-the-connection-object-reference-ado.md
+                    href: access/desktop-database-reference/using-the-connection-object-access.md
                     items:
-                    - name: Using the Connection object
-                      href: access/desktop-database-reference/using-the-connection-object-access.md
-                    - name: Creating the Connection String
+                    - name: Creating the connection string
                       href: access/desktop-database-reference/creating-the-connection-string.md
-                    - name: Controlling Transactions
+                    - name: Controlling transactions
                       href: access/desktop-database-reference/controlling-transactions.md
                   - name: Using the Command object
-                    href: access/desktop-database-reference/using-the-command-object-reference-ado.md
+                    href: access/desktop-database-reference/using-the-command-object-access.md
                     items:
-                    - name: Using the Command object
-                      href: access/desktop-database-reference/using-the-command-object-access.md
-                    - name: Command object Overview
+                    - name: Command object overview
                       href: access/desktop-database-reference/command-object-overview.md
-                    - name: Creating and Executing a Simple Command
+                    - name: Creating and executing a simple command
                       href: access/desktop-database-reference/creating-and-executing-a-simple-command.md
-                    - name: Command object Parameters
+                    - name: Command object parameters
                       href: access/desktop-database-reference/command-object-parameters.md
-                    - name: Calling a Stored Procedure with a Command
+                    - name: Calling a stored procedure with a command
                       href: access/desktop-database-reference/calling-a-stored-procedure-with-a-command.md
-                    - name: Named Commands
+                    - name: Named commands
                       href: access/desktop-database-reference/named-commands.md
-                  - name: Adding Data to a Recordset
-                    href: access/desktop-database-reference/adding-data-to-a-recordset-ado.md
-                    items:
-                    - name: Adding Data to a Recordset
-                      href: access/desktop-database-reference/adding-data-to-a-recordset.md
+                  - name: Adding data to a Recordset
+                    href: access/desktop-database-reference/adding-data-to-a-recordset.md
                 - name: 'Chapter 3: Examining Data'
-                  href: access/desktop-database-reference/chapter-3-examining-data-ado.md
+                  href: access/desktop-database-reference/chapter-3-examining-data.md
                   items:
-                  - name: 'Chapter 3: Examining Data'
-                    href: access/desktop-database-reference/chapter-3-examining-data.md
                   - name: Locating the Current Record
-                    href: access/desktop-database-reference/locating-the-current-record-ado.md
+                    href: access/desktop-database-reference/locating-the-current-record.md
                     items:
-                    - name: Locating the Current Record
-                      href: access/desktop-database-reference/locating-the-current-record.md
                     - name: Counting Rows
                       href: access/desktop-database-reference/counting-rows.md
                     - name: Limits of a Recordset
                       href: access/desktop-database-reference/the-limits-of-a-recordset.md
                   - name: Navigating Through the Data
-                    href: access/desktop-database-reference/navigating-through-the-data-ado.md
+                    href: access/desktop-database-reference/navigating-through-the-data.md
                     items:
-                    - name: Navigating Through the Data
-                      href: access/desktop-database-reference/navigating-through-the-data.md
                     - name: Jumping to a Record
                       href: access/desktop-database-reference/jumping-to-a-record.md
                     - name: More Ways to Move in a Recordset
@@ -1881,11 +1695,9 @@
                       href: access/desktop-database-reference/using-pages.md
                     - name: Recordset Positioning
                       href: access/desktop-database-reference/recordset-positioning.md
-                  - name: Understanding Recordset Structure
-                    href: access/desktop-database-reference/understanding-recordset-structure-ado.md
+                  - name: Understanding Recordset structure
+                    href: access/desktop-database-reference/understanding-recordset-structure.md
                     items:
-                    - name: Understanding Recordset Structure
-                      href: access/desktop-database-reference/understanding-recordset-structure.md
                     - name: Fields collection
                       href: access/desktop-database-reference/the-fields-collection.md
                     - name: Field object
@@ -1893,10 +1705,8 @@
                     - name: Working with Recordsets
                       href: access/desktop-database-reference/working-with-recordsets.md
                 - name: 'Chapter 4: Editing Data'
-                  href: access/desktop-database-reference/chapter-4-editing-data-ado.md
+                  href: access/desktop-database-reference/chapter-4-editing-data.md
                   items:
-                  - name: 'Chapter 4: Editing Data'
-                    href: access/desktop-database-reference/chapter-4-editing-data.md
                   - name: Editing Existing Records
                     href: access/desktop-database-reference/editing-existing-records.md
                   - name: Determining What is Supported
@@ -1906,10 +1716,8 @@
                   - name: 'Alternatives: Using SQL Statements'
                     href: access/desktop-database-reference/alternatives-using-sql-statements.md
                   - name: Adding Records
-                    href: access/desktop-database-reference/adding-records-ado.md
+                    href: access/desktop-database-reference/adding-records.md
                     items:
-                    - name: Adding Records
-                      href: access/desktop-database-reference/adding-records.md
                     - name: Adding Multiple Fields
                       href: access/desktop-database-reference/adding-multiple-fields.md
                     - name: Determining Edit Mode
@@ -1917,24 +1725,18 @@
                     - name: Using AddNew in Immediate and Batch Modes
                       href: access/desktop-database-reference/using-addnew-in-immediate-and-batch-modes.md
                 - name: 'Chapter 5: Updating and Persisting Data'
-                  href: access/desktop-database-reference/chapter-5-updating-and-persisting-data-ado.md
+                  href: access/desktop-database-reference/chapter-5-updating-and-persisting-data.md
                   items:
-                  - name: 'Chapter 5: Updating and Persisting Data'
-                    href: access/desktop-database-reference/chapter-5-updating-and-persisting-data.md
                   - name: Updating Data
-                    href: access/desktop-database-reference/updating-data-ado.md
+                    href: access/desktop-database-reference/updating-data.md
                     items:
-                    - name: Updating Data
-                      href: access/desktop-database-reference/updating-data.md
                     - name: Immediate Mode
                       href: access/desktop-database-reference/immediate-mode.md
                     - name: Transaction Processing
                       href: access/desktop-database-reference/transaction-processing.md
                     - name: Batch Mode
-                      href: access/desktop-database-reference/batch-mode-ado.md
+                      href: access/desktop-database-reference/batch-mode.md
                       items:
-                      - name: Batch Mode
-                        href: access/desktop-database-reference/batch-mode.md
                       - name: 'Sending the Updates: UpdateBatch'
                         href: access/desktop-database-reference/sending-the-updates-updatebatch.md
                       - name: Filtering for Updated Records
@@ -1948,19 +1750,15 @@
                       - name: 'Updating JOINed Results: Unique Table'
                         href: access/desktop-database-reference/updating-joined-results-unique-table.md
                   - name: Persisting Data
-                    href: access/desktop-database-reference/persisting-data-ado.md
+                    href: access/desktop-database-reference/persisting-data.md
                     items:
-                    - name: Persisting Data
-                      href: access/desktop-database-reference/persisting-data.md
                     - name: More About Recordset Persistence
                       href: access/desktop-database-reference/more-about-recordset-persistence.md
                     - name: Persisting Filtered and Hierarchical Recordsets
                       href: access/desktop-database-reference/persisting-filtered-and-hierarchical-recordsets.md
                     - name: Persisting Records in XML Format
-                      href: access/desktop-database-reference/persisting-records-in-xml-format-ado.md
+                      href: access/desktop-database-reference/persisting-records-in-xml-format.md
                       items:
-                      - name: Persisting Records in XML Format
-                        href: access/desktop-database-reference/persisting-records-in-xml-format.md
                       - name: XML Persistence Format
                         href: access/desktop-database-reference/xml-persistence-format.md
                       - name: Namespaces
@@ -1980,10 +1778,8 @@
                       - name: XML Security Considerations
                         href: access/desktop-database-reference/xml-security-considerations.md
                       - name: XML Recordset Persistence Scenario
-                        href: access/desktop-database-reference/xml-recordset-persistence-scenario-topics.md
+                        href: access/desktop-database-reference/xml-recordset-persistence-scenario.md
                         items:
-                        - name: XML Recordset Persistence Scenario
-                          href: access/desktop-database-reference/xml-recordset-persistence-scenario.md
                         - name: 'Step 1: Set Up the Application'
                           href: access/desktop-database-reference/step-1-set-up-the-application.md
                         - name: 'Step 2: Get the Data'
@@ -1993,10 +1789,8 @@
                         - name: 'Step 4: Receive and Display the Data'
                           href: access/desktop-database-reference/step-4-receive-and-display-the-data.md
                 - name: 'Chapter 6: Error Handling'
-                  href: access/desktop-database-reference/chapter-6-error-handlinge-ado.md
+                  href: access/desktop-database-reference/chapter-6-error-handling.md
                   items:
-                  - name: 'Chapter 6: Error Handling'
-                    href: access/desktop-database-reference/chapter-6-error-handling.md
                   - name: ADO Errors
                     href: access/desktop-database-reference/ado-errors.md
                   - name: ADO Error reference
@@ -2010,21 +1804,17 @@
                   - name: Anticipating Errors
                     href: access/desktop-database-reference/anticipating-errors.md
                   - name: Handling Errors in Other Languages
-                    href: access/desktop-database-reference/handling-errors-in-other-languages-ado.md
+                    href: access/desktop-database-reference/handling-errors-in-other-languages.md
                     items:
                     - name: Handling Errors in JScript
                       href: access/desktop-database-reference/handling-errors-in-jscript.md
-                    - name: Handling Errors In Other Languages
-                      href: access/desktop-database-reference/handling-errors-in-other-languages.md
                     - name: Handling Errors in VBScript
                       href: access/desktop-database-reference/handling-errors-in-vbscript.md
                     - name: Handling Errors in Visual C++
                       href: access/desktop-database-reference/handling-errors-in-visual-c.md
                 - name: 'Chapter 7: Handling ADO events'
-                  href: access/desktop-database-reference/chapter-7-handling-ado-events-ado.md
+                  href: access/desktop-database-reference/chapter-7-handling-ado-events.md
                   items:
-                  - name: 'Chapter 7: Handling ADO events'
-                    href: access/desktop-database-reference/chapter-7-handling-ado-events.md
                   - name: ADO Event Handler Summary
                     href: access/desktop-database-reference/ado-event-handler-summary.md
                   - name: Types of events
@@ -2049,10 +1839,8 @@
                     - name: ADO/WFC
                       href: access/desktop-database-reference/ado-wfc.md
                 - name: 'Chapter 8: Understanding Cursors and Locks'
-                  href: access/desktop-database-reference/chapter-8-understanding-cursors-and-locks-ado.md
+                  href: access/desktop-database-reference/chapter-8-understanding-cursors-and-locks.md
                   items:
-                  - name: 'Chapter 8: Understanding Cursors and Locks'
-                    href: access/desktop-database-reference/chapter-8-understanding-cursors-and-locks.md
                   - name: What is a Cursor?
                     href: access/desktop-database-reference/what-is-a-cursor.md
                   - name: Significance of Cursor Location
@@ -2063,18 +1851,9 @@
                     href: access/desktop-database-reference/using-cachesize.md
                   - name: Cursor and Lock Characteristics
                     href: access/desktop-database-reference/cursor-and-lock-characteristics.md
-                  - name: What is a Lock?
-                    href: access/desktop-database-reference/what-is-a-lock-ado.md
-                    items:
-                    - name: What is a Lock?
-                      href: access/desktop-database-reference/what-is-a-lock.md
-                    - name: Types of Locks
-                      href: access/desktop-database-reference/types-of-locks.md
                   - name: Types of Cursors
-                    href: access/desktop-database-reference/types-of-cursors-ado.md
+                    href: access/desktop-database-reference/types-of-cursors.md
                     items:
-                    - name: Types of Cursors
-                      href: access/desktop-database-reference/types-of-cursors.md
                     - name: Forward-Only Cursors
                       href: access/desktop-database-reference/forward-only-cursors.md
                     - name: Dynamic Cursors
@@ -2083,11 +1862,13 @@
                       href: access/desktop-database-reference/static-cursors.md
                     - name: Keyset Cursors
                       href: access/desktop-database-reference/keyset-cursors.md
+                  - name: What is a Lock?
+                    href: access/desktop-database-reference/what-is-a-lock.md
+                  - name: Types of Locks
+                    href: access/desktop-database-reference/types-of-locks.md                      
                 - name: 'Chapter 9: Data Shaping'
-                  href: access/desktop-database-reference/chapter-9-data-shaping-ado.md
+                  href: access/desktop-database-reference/chapter-9-data-shaping.md
                   items:
-                  - name: 'Chapter 9: Data Shaping'
-                    href: access/desktop-database-reference/chapter-9-data-shaping.md
                   - name: Required Providers for Data Shaping
                     href: access/desktop-database-reference/required-providers-for-data-shaping.md
                   - name: Shape Compute Clause
@@ -2101,10 +1882,8 @@
                   - name: Visual Basic for Applications functions
                     href: access/desktop-database-reference/visual-basic-for-applications-functions.md
                   - name: Shape Append Clause
-                    href: access/desktop-database-reference/shape-append-clause-ado.md
+                    href: access/desktop-database-reference/shape-append-clause.md
                     items:
-                    - name: Shape Append Clause
-                      href: access/desktop-database-reference/shape-append-clause.md
                     - name: Operation of Non-Parameterized Commands
                       href: access/desktop-database-reference/operation-of-non-parameterized-commands.md
                     - name: Operation of Parameterized Commands
@@ -2113,13 +1892,9 @@
                       href: access/desktop-database-reference/hybrid-commands.md
                     - name: Intervening Shape COMPUTE Clauses
                       href: access/desktop-database-reference/intervening-shape-compute-clauses.md
-                  - name: Data Shaping Summary
-                    href: access/desktop-database-reference/data-shaping-summary-ado.md
+                  - name: Data Shaping
+                    href: access/desktop-database-reference/data-shaping.md
                     items:
-                    - name: Data Shaping Summary
-                      href: access/desktop-database-reference/data-shaping-summary.md
-                    - name: Data Shaping
-                      href: access/desktop-database-reference/data-shaping.md
                     - name: Reshaping
                       href: access/desktop-database-reference/reshaping.md
                     - name: Grandchild Aggregates
@@ -2129,19 +1904,15 @@
                     - name: Persisting Hierarchical Recordsets
                       href: access/desktop-database-reference/persisting-hierarchical-recordsets.md
                   - name: Shape Commands in General
-                    href: access/desktop-database-reference/shape-commands-in-general-ado.md
+                    href: access/desktop-database-reference/shape-commands-in-general.md
                     items:
-                    - name: Shape Commands in General
-                      href: access/desktop-database-reference/shape-commands-in-general.md
                     - name: Aggregate Functions, the CALC Function, and the NEW Keyword
                       href: access/desktop-database-reference/aggregate-functions-the-calc-function-and-the-new-keyword.md
                     - name: Issuing Commands to the Underlying Data Provider
                       href: access/desktop-database-reference/issuing-commands-to-the-underlying-data-provider.md
                 - name: 'Chapter 10: Records and Streams'
-                  href: access/desktop-database-reference/chapter-10-records-and-streams-ado.md
+                  href: access/desktop-database-reference/chapter-10-records-and-streams.md
                   items:
-                  - name: 'Chapter 10: Records and Streams'
-                    href: access/desktop-database-reference/chapter-10-records-and-streams.md
                   - name: Streams and Persistence
                     href: access/desktop-database-reference/streams-and-persistence.md
                   - name: Records and Provider-Supplied Fields
@@ -2149,17 +1920,13 @@
                   - name: Absolute and Relative URLs
                     href: access/desktop-database-reference/absolute-and-relative-urls.md
                   - name: Using ADO for Internet Publishing
-                    href: access/desktop-database-reference/using-ado-for-internet-publishing-ado.md
+                    href: access/desktop-database-reference/using-ado-for-internet-publishing.md
                     items:
-                    - name: Using ADO for Internet Publishing
-                      href: access/desktop-database-reference/using-ado-for-internet-publishing.md
                     - name: OLE DB Provider for Internet Publishing
                       href: access/desktop-database-reference/the-ole-db-provider-for-internet-publishing.md
                     - name: Internet Publishing Scenario
-                      href: access/desktop-database-reference/internet-publishing-scenario-topics.md
+                      href: access/desktop-database-reference/internet-publishing-scenario.md
                       items:
-                      - name: Internet Publishing Scenario
-                        href: access/desktop-database-reference/internet-publishing-scenario.md
                       - name: 'Step 1: Set Up the Visual Basic Project'
                         href: access/desktop-database-reference/step-1-set-up-the-visual-basic-project.md
                       - name: 'Step 2: Initialize the Main List Box'
@@ -2169,15 +1936,11 @@
                       - name: 'Step 4: Populate the Details Text Box'
                         href: access/desktop-database-reference/step-4-populate-the-details-text-box.md
               - name: 'Section II: Remote Data Service'
-                href: access/desktop-database-reference/section-ii-remote-data-service-access.md
+                href: access/desktop-database-reference/section-ii-remote-data-service.md
                 items:
-                - name: 'Section II: Remote Data Service'
-                  href: access/desktop-database-reference/section-ii-remote-data-service.md
                 - name: 'Chapter 11: RDS Fundamentals'
-                  href: access/desktop-database-reference/chapter-11-rds-fundamentals-ado.md
+                  href: access/desktop-database-reference/chapter-11-rds-fundamentals.md
                   items:
-                  - name: 'Chapter 11: RDS Fundamentals'
-                    href: access/desktop-database-reference/chapter-11-rds-fundamentals.md
                   - name: Solutions for Remote Data Access
                     href: access/desktop-database-reference/solutions-for-remote-data-access.md
                   - name: Basic RDS Programming Model
@@ -2202,10 +1965,8 @@
                     - name: Address Book Navigation Buttons
                       href: access/desktop-database-reference/address-book-navigation-buttons.md
                 - name: 'Chapter 12: RDS Tutorial'
-                  href: access/desktop-database-reference/chapter-12-rds-tutorial-ado.md
+                  href: access/desktop-database-reference/chapter-12-rds-tutorial.md
                   items:
-                  - name: 'Chapter 12: RDS Tutorial'
-                    href: access/desktop-database-reference/chapter-12-rds-tutorial.md
                   - name: 'Step 1: Specify a Server Program (RDS Tutorial)'
                     href: access/desktop-database-reference/step-1-specify-a-server-program-rds-tutorial.md
                   - name: 'Step 2: Invoke the Server Program (RDS Tutorial)'
@@ -2223,10 +1984,8 @@
                   - name: RDS Tutorial (Visual J++)
                     href: access/desktop-database-reference/rds-tutorial-visual-j.md
                 - name: 'Chapter 13: RDS Usage and Security'
-                  href: access/desktop-database-reference/chapter-13-rds-usage-and-security-ado.md
+                  href: access/desktop-database-reference/chapter-13-rds-usage-and-security.md
                   items:
-                  - name: 'Chapter 13: RDS Usage and Security'
-                    href: access/desktop-database-reference/chapter-13-rds-usage-and-security.md
                   - name: Configuring RDS
                     href: access/desktop-database-reference/configuring-rds.md
                   - name: Granting Guest Privileges to a Web Server Computer; RDS guest privileges [ADO]
@@ -2248,19 +2007,15 @@
                   - name: Configuring DataFactory for Safe or Unrestricted Modes
                     href: access/desktop-database-reference/configuring-datafactory-for-safe-or-unrestricted-modes.md
                   - name: Using Related Technologies with RDS
-                    href: access/desktop-database-reference/using-related-technologies-with-rds-ado.md
+                    href: access/desktop-database-reference/using-related-technologies-with-rds.md
                     items:
-                    - name: Using Related Technologies with RDS
-                      href: access/desktop-database-reference/using-related-technologies-with-rds.md
                     - name: Using RDS with ODBC Connection Pooling
                       href: access/desktop-database-reference/using-rds-with-odbc-connection-pooling.md
                     - name: Running Business Objects in Component Services
                       href: access/desktop-database-reference/running-business-objects-in-component-services.md
                   - name: DataFactory Customization
-                    href: access/desktop-database-reference/datafactory-customization-ado.md
+                    href: access/desktop-database-reference/datafactory-customization.md
                     items:
-                    - name: DataFactory Customization
-                      href: access/desktop-database-reference/datafactory-customization.md
                     - name: Understanding the Customization File
                       href: access/desktop-database-reference/understanding-the-customization-file.md
                     - name: Customization File Connect Section
@@ -2272,10 +2027,8 @@
                     - name: Customization File Logs Section
                       href: access/desktop-database-reference/customization-file-logs-section.md
                   - name: Troubleshooting RDS
-                    href: access/desktop-database-reference/troubleshooting-rds-ado.md
+                    href: access/desktop-database-reference/troubleshooting-rds.md
                     items:
-                    - name: Troubleshooting RDS
-                      href: access/desktop-database-reference/troubleshooting-rds.md
                     - name: Configuring RDS on Windows 2000
                       href: access/desktop-database-reference/configuring-rds-on-windows-2000.md
                     - name: 'Internet Server Error: Access Denied'
@@ -2289,15 +2042,11 @@
                     - name: Minimizing Log File Space Usage
                       href: access/desktop-database-reference/minimizing-log-file-space-usage.md
               - name: 'Section III: ADO (multidimensional) (ADO MD)'
-                href: access/desktop-database-reference/section-iii-ado-multidimensional-ado-md-access.md
+                href: access/desktop-database-reference/section-iii-ado-multidimensional-ado-md.md
                 items:
-                - name: 'Section III: ADO (Multidimensional) (ADO MD)'
-                  href: access/desktop-database-reference/section-iii-ado-multidimensional-ado-md.md
                 - name: 'Chapter 14: ADO MD Fundamentals'
-                  href: access/desktop-database-reference/chapter-14-ado-md-fundamentals-ado.md
+                  href: access/desktop-database-reference/chapter-14-ado-md-fundamentals.md
                   items:
-                  - name: 'Chapter 14: ADO MD Fundamentals'
-                    href: access/desktop-database-reference/chapter-14-ado-md-fundamentals.md
                   - name: Overview of Multidimensional Schemas and Data
                     href: access/desktop-database-reference/overview-of-multidimensional-schemas-and-data.md
                   - name: Working with Multidimensional Data
@@ -2307,27 +2056,19 @@
                   - name: Programming with ADO MD
                     href: access/desktop-database-reference/programming-with-ado-md.md
               - name: 'Section IV: ADO extensions for data definition language and security (ADOX)'
-                href: access/desktop-database-reference/section-iv-ado-extensions-for-data-definition-language-and-security-adox-access.md
+                href: access/desktop-database-reference/section-iv-ado-extensions-for-data-definition-language-and-security-adox.md
                 items:
-                - name: 'Section IV: ADO Extensions for Data Definition Language and Security (ADOX)'
-                  href: access/desktop-database-reference/section-iv-ado-extensions-for-data-definition-language-and-security-adox.md
                 - name: 'Chapter 15: ADOX Fundamentals'
-                  href: access/desktop-database-reference/chapter-15-adox-fundamentals-ado.md
+                  href: access/desktop-database-reference/chapter-15-adox-fundamentals.md
                   items:
-                  - name: 'Chapter 15: ADOX Fundamentals'
-                    href: access/desktop-database-reference/chapter-15-adox-fundamentals.md
                   - name: Provider Support for ADOX
                     href: access/desktop-database-reference/provider-support-for-adox.md
               - name: 'Section V: appendixes'
-                href: access/desktop-database-reference/section-v-appendixes-access.md
+                href: access/desktop-database-reference/section-v-appendixes.md
                 items:
-                - name: 'Section V: Appendixes'
-                  href: access/desktop-database-reference/section-v-appendixes.md
                 - name: 'Appendix A: Providers'
-                  href: access/desktop-database-reference/appendix-a-providers-ado.md
+                  href: access/desktop-database-reference/appendix-a-providers.md
                   items:
-                  - name: 'Appendix A: Providers'
-                    href: access/desktop-database-reference/appendix-a-providers.md
                   - name: Microsoft OLE DB Provider for ODBC
                     href: access/desktop-database-reference/microsoft-ole-db-provider-for-odbc.md
                   - name: Microsoft OLE DB Provider for Microsoft Indexing Service
@@ -2351,10 +2092,8 @@
                   - name: Microsoft Cursor Service for OLE DB (ADO Service Component)
                     href: access/desktop-database-reference/microsoft-cursor-service-for-ole-db-ado-service-component.md
                 - name: 'Appendix B: ADO Errors'
-                  href: access/desktop-database-reference/appendix-b-ado-errors-ado.md
+                  href: access/desktop-database-reference/appendix-b-ado-errors.md
                   items:
-                  - name: 'Appendix B: ADO Errors'
-                    href: access/desktop-database-reference/appendix-b-ado-errors.md
                   - name: ADO Error Codes
                     href: access/desktop-database-reference/ado-error-codes.md
                   - name: DataControl Error Codes
@@ -2364,26 +2103,20 @@
                   - name: Internet Information Services Error Codes
                     href: access/desktop-database-reference/internet-information-services-error-codes.md
                 - name: 'Appendix C: Programming with ADO'
-                  href: access/desktop-database-reference/appendix-c-programming-with-ado-ado.md
+                  href: access/desktop-database-reference/appendix-c-programming-with-ado.md
                   items:
-                  - name: 'Appendix C: Programming with ADO'
-                    href: access/desktop-database-reference/appendix-c-programming-with-ado.md
                   - name: Using ADO with Microsoft Visual Basic
                     href: access/desktop-database-reference/using-ado-with-microsoft-visual-basic.md
                   - name: Using ADO with Scripting Languages
-                    href: access/desktop-database-reference/using-ado-with-scripting-languages-topics.md
+                    href: access/desktop-database-reference/using-ado-with-scripting-languages.md
                     items:
-                    - name: Using ADO with Scripting Languages
-                      href: access/desktop-database-reference/using-ado-with-scripting-languages.md
                     - name: JScript ADO Programming
                       href: access/desktop-database-reference/jscript-ado-programming.md
                     - name: VBScript ADO Programming
                       href: access/desktop-database-reference/vbscript-ado-programming.md
                   - name: Using ADO with Microsoft Visual C++
-                    href: access/desktop-database-reference/using-ado-with-microsoft-visual-c-topics.md
+                    href: access/desktop-database-reference/using-ado-with-microsoft-visual-c.md
                     items:
-                    - name: Using ADO with Microsoft Visual C++
-                      href: access/desktop-database-reference/using-ado-with-microsoft-visual-c.md
                     - name: Visual C++ ADO Programming
                       href: access/desktop-database-reference/visual-c-ado-programming.md
                     - name: Visual C++ Extensions for ADO
@@ -2395,10 +2128,8 @@
                     - name: Visual C++ Extensions example
                       href: access/desktop-database-reference/visual-c-extensions-example.md
                   - name: Using ADO with Microsoft Visual J++
-                    href: access/desktop-database-reference/using-ado-with-microsoft-visual-j-topics.md
+                    href: access/desktop-database-reference/using-ado-with-microsoft-visual-j.md
                     items:
-                    - name: Using ADO with Microsoft Visual J++
-                      href: access/desktop-database-reference/using-ado-with-microsoft-visual-j.md
                     - name: ADO/WFC Programming
                       href: access/desktop-database-reference/ado-wfc-programming.md
                     - name: Using the Java Type Library Wizard
@@ -2408,10 +2139,8 @@
                     - name: ADO Java Class Wrappers
                       href: access/desktop-database-reference/ado-java-class-wrappers.md
                 - name: 'Appendix D: ADO Samples'
-                  href: access/desktop-database-reference/appendix-d-ado-samples-ado.md
+                  href: access/desktop-database-reference/appendix-d-ado-samples.md
                   items:
-                  - name: 'Appendix D: ADO Samples'
-                    href: access/desktop-database-reference/appendix-d-ado-samples.md
             - name: ADO programmer's reference
               href: access/desktop-database-reference/ado-programmer-s-reference-topics.md
               items:

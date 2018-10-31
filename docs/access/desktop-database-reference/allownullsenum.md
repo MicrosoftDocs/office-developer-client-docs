@@ -4,16 +4,17 @@ TOCTitle: AllowNullsEnum
 ms:assetid: 7bb42b38-6b3b-5930-b1d7-16323a3bdf37
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249515(v=office.15)
 ms:contentKeyID: 48545819
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
 # AllowNullsEnum
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Specifies whether records with null values are indexed.
+
+<br/>
 
 <table>
 <colgroup>

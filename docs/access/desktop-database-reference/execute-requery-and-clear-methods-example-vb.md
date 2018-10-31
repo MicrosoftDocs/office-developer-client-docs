@@ -1,6 +1,6 @@
 ﻿---
-title: Execute, Requery, and Clear Methods Example (VB)
-TOCTitle: Execute, Requery, and Clear Methods Example (VB)
+title: Execute, Requery, and Clear methods example (VB)
+TOCTitle: Execute, Requery, and Clear methods example (VB)
 ms:assetid: 6d700971-6b77-bd41-dd22-df53f902c0f2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249432(v=office.15)
 ms:contentKeyID: 48545491
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Execute, Requery, and Clear Methods Example (VB)
+# Execute, Requery, and Clear methods example (VB)
 
 
 **Applies to**: Access 2013 | Office 2013

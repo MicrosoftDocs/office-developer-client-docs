@@ -17,7 +17,7 @@ You can use the **CancelRecordChange** action to cancel the changes applied to a
 
 
 > [!NOTE]
-> <P>The <STRONG>CancelRecordChange</STRONG> action is available only in Data Macros.</P>
+> The **CancelRecordChange** action is available only in Data Macros.
 
 
 

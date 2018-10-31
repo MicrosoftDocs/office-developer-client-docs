@@ -47,3 +47,12 @@ A **Stream** object can be opened on:
 
   - A BLOB field in a **Recordset**.
 
+This chapter covers the following topics:
+
+- [Streams and Persistence](streams-and-persistence.md)
+
+- [Records and Provider-Supplied Fields](records-and-provider-supplied-fields.md)
+
+- [Absolute and Relative URLs](absolute-and-relative-urls.md)
+
+- [Using ADO for Internet Publishing (ADO)](using-ado-for-internet-publishing.md)

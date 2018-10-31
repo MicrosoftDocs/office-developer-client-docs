@@ -53,7 +53,7 @@ Specifies the behavior of the [Record](record-object-ado.md) object [MoveRecord]
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 These constants do not have ADO/WFC equivalents.
 

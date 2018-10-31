@@ -17,7 +17,7 @@ You can use the **CopyDatabaseFile** action to make a copy of the current Micros
 
 
 > [!NOTE]
-> <P>This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</P>
+> This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.
 
 
 
@@ -50,7 +50,7 @@ The **CopyDatabaseFile** action has the following arguments.
 <td><p>Specifies whether or not Access should force users off the database. If set to <strong>Yes</strong>, any users that are connected to the current database are disconnected so that the copy database operation can proceed. If set to <strong>No</strong> and one or more users are connected to the database, the copy database operation fails. The default is <strong>No</strong>.</p>
 
 > [!WARNING]
-> <P>Disconnecting users from a database without adequate warning can lead to data loss.</P>
+> Disconnecting users from a database without adequate warning can lead to data loss.
 
 
 <p></p></td>

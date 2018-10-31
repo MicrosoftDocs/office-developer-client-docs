@@ -4,16 +4,17 @@ TOCTitle: CommandTypeEnum
 ms:assetid: 9ad8f155-88a0-00eb-2855-1e1a2a677437
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249700(v=office.15)
 ms:contentKeyID: 48546549
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
 # CommandTypeEnum
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Specifies how a command argument should be interpreted.
+
+<br/>
 
 <table>
 <colgroup>
@@ -68,7 +69,7 @@ Specifies how a command argument should be interpreted.
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 Package: **com.ms.wfc.data**
 

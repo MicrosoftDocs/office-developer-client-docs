@@ -42,6 +42,6 @@ When a call to [Delete](delete-method-ado-recordset.md) does not successfully de
 
 
 > [!NOTE]
-> <P><STRONG>EditMode</STRONG> can return a valid value only if there is a current record. <STRONG>EditMode</STRONG> will return an error if <A href="bof-eof-properties-ado.md">BOF or EOF</A> is true, or if the current record has been deleted.</P>
+> **EditMode** can return a valid value only if there is a current record. **EditMode** will return an error if [BOF or EOF](bof-eof-properties-ado.md) is true, or if the current record has been deleted.
 
 

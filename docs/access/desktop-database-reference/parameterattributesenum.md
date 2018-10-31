@@ -48,7 +48,7 @@ Specifies the attributes of a [Parameter](parameter-object-ado.md) object.
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 Package: **com.ms.wfc.data**
 

@@ -66,9 +66,7 @@ You don't need to use this method in single-user environments unless multiple in
 
 
 > [!NOTE]
-> <P>You can also release read locks by making operations part of a transaction.</P>
-
-
+> You can also release read locks by making operations part of a transaction.
 
 ## Example
 

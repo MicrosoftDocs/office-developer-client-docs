@@ -1,4 +1,4 @@
-﻿---
+---
 title: Initializing the Microsoft Excel Driver
 TOCTitle: Initializing the Microsoft Excel Driver
 ms:assetid: 06c7f823-8e74-0811-cc00-e6b32075ef11
@@ -14,18 +14,11 @@ f1_categories:
 
 # Initializing the Microsoft Excel Driver
 
+**Applies to**: Access 2013 | Office 2013
 
-**Applies to**: Access 2013 | Office 2013
-
-<<<<<<< HEAD
-When you install the Microsoft® Excel driver, the Setup program writes a set of default values to the Microsoft Windows® Registry in the Engines and ISAM Formats subkeys. You should not modify these settings directly; use the setup program for your application to add, remove, or change these settings. The following sections describe initialization and ISAM Format settings for the Microsoft Excel database driver.
-
-## Microsoft Excel Initialization Settings
-=======
 When you install the Excel driver, the Setup program writes a set of default values to the Windows Registry in the Engines and ISAM Formats subkeys. You should not modify these settings directly; use the setup program for your application to add, remove, or change these settings. The following sections describe initialization and ISAM Format settings for the Microsoft Excel database driver.
 
-## Excel Initialization Settings
->>>>>>> master
+## Excel initialization settings
 
 The **Access Connectivity Engine\\Engines\\Excel** folder includes initialization settings for the Aceexcl.dll driver, used for external access to Microsoft Excel worksheets. Typical settings for the entries in this folder are shown in the following example.
 
@@ -144,14 +137,9 @@ The **Access Connectivity Engine\\Engines\\Excel 8.0** folder contains the follo
 </table>
 
 
-
 > [!NOTE]
 > When you change Windows Registry settings, you must exit and then restart the database engine for the new settings to take effect.
 
-<<<<<<< HEAD
-
-=======
 ## See also
 
-[Using the TypeGuessRows setting for Excel Driver](https://support.office.com/en-us/article/using-the-typeguessrows-setting-for-excel-driver-6aa3e101-2a90-47ac-bf0f-7d4109a5708b?ui=en-US&rs=en-US&ad=US)
->>>>>>> master
+[Using the TypeGuessRows setting for Excel Driver](https://support.office.com/article/using-the-typeguessrows-setting-for-excel-driver-6aa3e101-2a90-47ac-bf0f-7d4109a5708b)

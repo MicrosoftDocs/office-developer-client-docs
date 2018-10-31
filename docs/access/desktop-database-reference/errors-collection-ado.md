@@ -29,6 +29,6 @@ Some properties and methods return warnings that appear as **Error** objects in 
 
 
 > [!NOTE]
-> <P>See the <STRONG>Error</STRONG> object topic for a more detailed explanation of the way a single ADO operation can generate multiple errors.</P>
+> See the **Error** object topic for a more detailed explanation of the way a single ADO operation can generate multiple errors.
 
 

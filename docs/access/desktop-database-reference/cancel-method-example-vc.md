@@ -1,6 +1,6 @@
 ﻿---
-title: Cancel Method Example (VC++)
-TOCTitle: Cancel Method Example (VC++)
+title: Cancel method example (VC++)
+TOCTitle: Cancel method example (VC++)
 ms:assetid: bb5edaeb-0361-3b83-7483-bb43c5cb083f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249900(v=office.15)
 ms:contentKeyID: 48547393
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Cancel Method Example (VC++)
+# Cancel method example (VC++)
 
 
 **Applies to**: Access 2013 | Office 2013

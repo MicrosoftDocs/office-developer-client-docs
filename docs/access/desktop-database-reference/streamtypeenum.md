@@ -4,16 +4,17 @@ TOCTitle: StreamTypeEnum
 ms:assetid: 3e84c728-0c71-55fb-06f2-7f4e644689ce
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249172(v=office.15)
 ms:contentKeyID: 48544377
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
 # StreamTypeEnum
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Specifies the type of data stored in a [Stream](stream-object-ado.md) object.
+
+<br/>
 
 <table>
 <colgroup>
@@ -43,7 +44,7 @@ Specifies the type of data stored in a [Stream](stream-object-ado.md) object.
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 These constants do not have ADO/WFC equivalents.
 

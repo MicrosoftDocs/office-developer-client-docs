@@ -63,7 +63,7 @@ This method fails if *Destination* identifies an existing entity (for example, a
 
 
 > [!IMPORTANT]
-> <P>Use the <STRONG>adCopyOverWrite</STRONG> option judiciously. For example, specifying this option when copying a file to a directory will <EM>delete</EM> the directory and replace it with the file.</P>
+> Use the **adCopyOverWrite** option judiciously. For example, specifying this option when copying a file to a directory will *delete* the directory and replace it with the file.
 
 
 

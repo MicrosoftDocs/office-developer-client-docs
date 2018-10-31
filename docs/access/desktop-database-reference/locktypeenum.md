@@ -4,12 +4,11 @@ TOCTitle: LockTypeEnum
 ms:assetid: 966b4952-5591-4a99-82d5-99cb9ae3fc72
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249667(v=office.15)
 ms:contentKeyID: 48546448
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
 # LockTypeEnum
-
 
 **Applies to**: Access 2013 | Office 2013
 
@@ -58,7 +57,7 @@ Specifies the type of lock placed on records during editing.
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 Package: **com.ms.wfc.data**
 

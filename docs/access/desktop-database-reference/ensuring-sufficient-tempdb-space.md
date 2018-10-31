@@ -15,15 +15,11 @@ mtps_version: v=office.15
 
 If errors occur while handling [Recordset](recordset-object-ado.md) objects that need processing space on Microsoft SQL Server 6.5, you may need to increase the size of the TempDB. (Some queries require temporary processing space; for example, a query with an ORDER BY clause requires a sort of the **Recordset**, which requires some temporary space.)
 
-
 > [!IMPORTANT]
-> <P>Read through this procedure before performing the actions because it isn't as easy to shrink a device once it is expanded.</P>
-
-
-
+> Read through this procedure before performing the actions because it isn't as easy to shrink a device once it is expanded.
 
 > [!NOTE]
-> <P>By default in Microsoft SQL Server 7.0 and later, TempDB is set to automatically grow as needed. Therefore, this procedure may only be necessary on servers running versions earlier than 7.0.</P>
+> By default in Microsoft SQL Server 7.0 and later, TempDB is set to automatically grow as needed. Therefore, this procedure may only be necessary on servers running versions earlier than 7.0.
 
 
 

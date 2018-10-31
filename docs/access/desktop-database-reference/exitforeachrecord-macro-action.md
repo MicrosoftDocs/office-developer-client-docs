@@ -17,6 +17,6 @@ Use the **ExitForEachRecord** action to immediately exit a **[ForEachRecord](for
 
 
 > [!NOTE]
-> <P>The <STRONG>ExitForEachRecord</STRONG> action is available only in Data Macros.</P>
+> The **ExitForEachRecord** action is available only in Data Macros.
 
 

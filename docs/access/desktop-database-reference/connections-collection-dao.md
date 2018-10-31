@@ -37,7 +37,7 @@ The **Name** property setting of a **Connection** is a string that specifies the
 
 
 > [!NOTE]
-> <P>You can open the same data source more than once, creating duplicate names in the <STRONG>Connections</STRONG> collection. You should assign <STRONG>Connection</STRONG> objects to object variables and refer to them by variable name.</P>
+> You can open the same data source more than once, creating duplicate names in the **Connections** collection. You should assign **Connection** objects to object variables and refer to them by variable name.
 
 
 

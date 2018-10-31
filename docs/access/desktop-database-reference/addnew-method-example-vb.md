@@ -1,6 +1,6 @@
 ﻿---
-title: AddNew Method Example (VB)
-TOCTitle: AddNew Method Example (VB)
+title: AddNew method example (VB)
+TOCTitle: AddNew method example (VB)
 ms:assetid: 4ba53857-b5ad-d377-98c6-57992f9d69ab
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249238(v=office.15)
 ms:contentKeyID: 48544697
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# AddNew Method Example (VB)
+# AddNew method example (VB)
 
 
 **Applies to**: Access 2013 | Office 2013

@@ -33,15 +33,15 @@ These topics provide sample code to help you understand how to use ADOX. All cod
   - [Connection Close Method, Table Type property example (VC++)](connection-close-method-table-type-property-example-vc.md)
 >>>>>>> master
 
-  - [Create Method Example (VC++)](create-method-example-vc.md)
+  - [Create method example (VC++)](create-method-example-vc.md)
 
-  - [GetObjectOwner and SetObjectOwner Methods Example (VC++)](getobjectowner-and-setobjectowner-methods-example-vc.md)
+  - [GetObjectOwner and SetObjectOwner methods example (VC++)](getobjectowner-and-setobjectowner-methods-example-vc.md)
 
-  - [GetPermissions and SetPermissions Methods Example (VC++)](getpermissions-and-setpermissions-methods-example-vc.md)
+  - [GetPermissions and SetPermissions methods example (VC++)](getpermissions-and-setpermissions-methods-example-vc.md)
 
-  - [Groups and Users Append, ChangePassword Methods Example (VC++)](groups-and-users-append-changepassword-methods-example-vc.md)
+  - [Groups and Users Append, ChangePassword methods example (VC++)](groups-and-users-append-changepassword-methods-example-vc.md)
 
-  - [Indexes Append Method Example (VC++)](indexes-append-method-example-vc.md)
+  - [Indexes Append method example (VC++)](indexes-append-method-example-vc.md)
 
 <<<<<<< HEAD
   - [Keys Append Method, Key Type, RelatedColumn, RelatedTable, and UpdateRule Properties Example (VC++)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc.md)
@@ -78,7 +78,7 @@ These topics provide sample code to help you understand how to use ADOX. All cod
 
   - [Command and CommandText properties example (VC++)](command-and-commandtext-properties-example-vc.md)
 
-  - [Command Property, Parameters Collection Example (VC++)](parameters-collection-command-property-example-vc.md)
+  - [Command Property, Parameters Collection example (VC++)](parameters-collection-command-property-example-vc.md)
 
   - [DateCreated and DateModified properties example (VC++)](datecreated-and-datemodified-properties-example-vc.md)
 
@@ -89,9 +89,9 @@ These topics provide sample code to help you understand how to use ADOX. All cod
   - [IndexNulls property example (VC++)](indexnulls-property-example-vc.md)
 >>>>>>> master
 
-  - [Key Type, RelatedColumn, RelatedTable, UpdateRule Properties, Keys Append Method Example (VC++)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc.md)
+  - [Key Type, RelatedColumn, RelatedTable, UpdateRule Properties, Keys Append method example (VC++)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc.md)
 
-  - [Name Property, Columns and Tables Append Methods Example (VC++)](columns-and-tables-append-methods-name-property-example-vc.md)
+  - [Name Property, Columns and Tables Append methods example (VC++)](columns-and-tables-append-methods-name-property-example-vc.md)
 
 <<<<<<< HEAD
   - [NumericScale and Precision Properties Example (VC++)](numericscale-and-precision-properties-example-vc.md)
@@ -107,7 +107,7 @@ These topics provide sample code to help you understand how to use ADOX. All cod
   - [PrimaryKey and Unique properties example (VC++)](primarykey-and-unique-properties-example-vc.md)
 >>>>>>> master
 
-  - [Table Type Property, Connection Close Method Example (VC++)](connection-close-method-table-type-property-example-vc.md)
+  - [Table Type Property, Connection Close method example (VC++)](connection-close-method-table-type-property-example-vc.md)
 
 **Collections**
 

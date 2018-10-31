@@ -4,16 +4,17 @@ TOCTitle: MarshalOptionsEnum
 ms:assetid: 5361884b-a0fe-c480-1b9f-18e53be77f86
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249272(v=office.15)
 ms:contentKeyID: 48544867
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
 # MarshalOptionsEnum
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Specifies which records should be returned to the server.
+
+<br/>
 
 <table>
 <colgroup>
@@ -43,7 +44,7 @@ Specifies which records should be returned to the server.
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 Package: **com.ms.wfc.data**
 

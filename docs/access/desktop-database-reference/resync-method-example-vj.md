@@ -1,6 +1,6 @@
 ﻿---
-title: Resync Method Example (VJ++)
-TOCTitle: Resync Method Example (VJ++)
+title: Resync method example (VJ++)
+TOCTitle: Resync method example (VJ++)
 ms:assetid: f8394f26-7a56-a342-ef99-9b32a3f8ebf5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250261(v=office.15)
 ms:contentKeyID: 48548780
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Resync Method Example (VJ++)
+# Resync method example (VJ++)
 
 
 **Applies to**: Access 2013 | Office 2013

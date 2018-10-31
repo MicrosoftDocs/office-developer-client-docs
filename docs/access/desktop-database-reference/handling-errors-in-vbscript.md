@@ -21,11 +21,11 @@ There is little difference between the methods used in Visual Basic and those us
 <HTML> 
 <HEAD> 
 <META NAME="GENERATOR" Content="Microsoft Visual Studio 6.0"> 
-<TITLE>Error Handling Example (VBScript)</TITLE> 
+<TITLE>Error Handling example (VBScript)</TITLE> 
 </HEAD> 
 <BODY> 
  
-<h1>Error Handling Example (VBScript)</h1> 
+<h1>Error Handling example (VBScript)</h1> 
  
 <% 
  Dim errLoop 

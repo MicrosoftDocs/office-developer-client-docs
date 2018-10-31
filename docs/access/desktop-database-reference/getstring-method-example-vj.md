@@ -1,6 +1,6 @@
 ﻿---
-title: GetString Method Example (VJ++)
-TOCTitle: GetString Method Example (VJ++)
+title: GetString method example (VJ++)
+TOCTitle: GetString method example (VJ++)
 ms:assetid: 83d5ab6d-a092-f8ed-81e7-b93922cda93d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249573(v=office.15)
 ms:contentKeyID: 48546018
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# GetString Method Example (VJ++)
+# GetString method example (VJ++)
 
 
 **Applies to**: Access 2013 | Office 2013

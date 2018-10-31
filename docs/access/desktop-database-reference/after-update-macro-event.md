@@ -21,7 +21,7 @@ The **After Update** event occurs after a record is changed.
 
 
 > [!NOTE]
-> <P>The <STRONG>After Update</STRONG> event is available only in Data Macros.</P>
+> The **After Update** event is available only in Data Macros.
 
 
 

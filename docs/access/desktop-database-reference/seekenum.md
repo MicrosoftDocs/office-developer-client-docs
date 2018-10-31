@@ -4,16 +4,17 @@ TOCTitle: SeekEnum
 ms:assetid: a0574809-db2d-8759-18cc-fb1cf776e8fd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249737(v=office.15)
 ms:contentKeyID: 48546706
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
 # SeekEnum
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Specifies the type of [Seek](seek-method-ado.md) to execute.
+
+<br/>
 
 <table>
 <colgroup>
@@ -63,7 +64,7 @@ Specifies the type of [Seek](seek-method-ado.md) to execute.
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 Package: **com.ms.wfc.data**
 

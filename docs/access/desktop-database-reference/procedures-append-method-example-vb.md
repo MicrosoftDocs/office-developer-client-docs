@@ -1,6 +1,6 @@
 ﻿---
-title: Procedures Append Method Example (VB)
-TOCTitle: Procedures Append Method Example (VB)
+title: Procedures Append method example (VB)
+TOCTitle: Procedures Append method example (VB)
 ms:assetid: fa6c5e7a-6764-2208-26c8-f7fe4140dec3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250279(v=office.15)
 ms:contentKeyID: 48548843
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Procedures Append Method Example (VB)
+# Procedures Append method example (VB)
 
 
 **Applies to**: Access 2013 | Office 2013

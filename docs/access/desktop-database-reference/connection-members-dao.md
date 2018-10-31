@@ -10,14 +10,11 @@ mtps_version: v=office.15
 
 # Connection Members (DAO)
 
-
 **Applies to**: Access 2013 | Office 2013
 
-
 > [!NOTE]
-> <P>ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.A Connection object represents a connection to an ODBC database (ODBCDirect workspaces only).</P>
-
-
+> ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine. A Connection object represents a connection to an ODBC database (ODBCDirect workspaces only).
+ 
 
 ## Methods
 
@@ -37,8 +34,7 @@ mtps_version: v=office.15
 <td><p><strong><a href="connection-cancel-method-dao.md">Cancel</a></strong></p></td>
 <td><p></p>
 
-> [!NOTE]
-> <P>ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</P>
+<br/>
 
 
 <p>Cancels execution of a pending asynchronous method call (ODBCDirect workspaces only).</p></td>
@@ -85,8 +81,7 @@ mtps_version: v=office.15
 <td><p><strong><a href="connection-database-property-dao.md">Database</a></strong></p></td>
 <td><p></p>
 
-> [!NOTE]
-> <P>ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</P>
+<br/>
 
 
 <p>Returns the <strong><a href="database-object-dao.md">Database</a></strong> object that corresponds to this connection (ODBCDirect workspaces only).</p></td>
@@ -115,8 +110,7 @@ mtps_version: v=office.15
 <td><p><strong><a href="connection-stillexecuting-property-dao.md">StillExecuting</a></strong></p></td>
 <td><p></p>
 
-> [!NOTE]
-> <P>ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</P>
+<br/>
 
 
 <p>Indicates whether or not an asynchronous operation (that is, a method called with the <strong>dbRunAsync</strong> option) has finished executing (ODBCDirect workspaces only).</p></td>

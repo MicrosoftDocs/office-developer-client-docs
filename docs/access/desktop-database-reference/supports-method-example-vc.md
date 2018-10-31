@@ -1,6 +1,6 @@
 ﻿---
-title: Supports Method Example (VC++)
-TOCTitle: Supports Method Example (VC++)
+title: Supports method example (VC++)
+TOCTitle: Supports method example (VC++)
 ms:assetid: a258cf70-ecd4-20eb-efb2-21c1ca79f180
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249747(v=office.15)
 ms:contentKeyID: 48546756
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Supports Method Example (VC++)
+# Supports method example (VC++)
 
 
 **Applies to**: Access 2013 | Office 2013

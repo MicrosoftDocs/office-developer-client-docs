@@ -1,6 +1,6 @@
 ﻿---
-title: BeginTrans, CommitTrans, RollbackTrans Methods Example (VJ++)
-TOCTitle: BeginTrans, CommitTrans, and RollbackTrans Methods Example (VJ++)
+title: BeginTrans, CommitTrans, RollbackTrans methods example (VJ++)
+TOCTitle: BeginTrans, CommitTrans, and RollbackTrans methods example (VJ++)
 ms:assetid: 8c1ca470-792e-4792-8913-fa7d3b46218f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249616(v=office.15)
 ms:contentKeyID: 48546229
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# BeginTrans, CommitTrans, and RollbackTrans Methods Example (VJ++)
+# BeginTrans, CommitTrans, and RollbackTrans methods example (VJ++)
 
 
 **Applies to**: Access 2013 | Office 2013

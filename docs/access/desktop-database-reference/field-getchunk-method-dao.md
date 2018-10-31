@@ -77,7 +77,7 @@ If numbytes is greater than the number of bytes in the field, **GetChunk** retur
 
 
 > [!NOTE]
-> <P>Use a <STRONG>Memo</STRONG> field for text, and put binary data only in <STRONG>Long Binary</STRONG> fields. Doing otherwise will cause undesirable results.</P>
+> Use a **Memo** field for text, and put binary data only in **Long Binary** fields. Doing otherwise will cause undesirable results.
 
 
 

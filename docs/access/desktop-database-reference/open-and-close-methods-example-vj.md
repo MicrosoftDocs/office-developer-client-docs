@@ -1,6 +1,6 @@
 ﻿---
-title: Open and Close Methods Example (VJ++)
-TOCTitle: Open and Close Methods Example (VJ++)
+title: Open and Close methods example (VJ++)
+TOCTitle: Open and Close methods example (VJ++)
 ms:assetid: bdcf4a4a-2f70-ef83-7ab2-39d5625fc7aa
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249920(v=office.15)
 ms:contentKeyID: 48547448
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Open and Close Methods Example (VJ++)
+# Open and Close methods example (VJ++)
 
 
 **Applies to**: Access 2013 | Office 2013

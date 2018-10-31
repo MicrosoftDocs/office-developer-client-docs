@@ -4,16 +4,17 @@ TOCTitle: StreamReadEnum
 ms:assetid: 12432c0d-dc2e-10ea-13db-0c07b6ba29bc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248895(v=office.15)
 ms:contentKeyID: 48543336
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
 # StreamReadEnum
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Specifies whether the whole stream or the next line should be read from a [Stream](stream-object-ado.md) object.
+
+<br/>
 
 <table>
 <colgroup>
@@ -43,7 +44,7 @@ Specifies whether the whole stream or the next line should be read from a [Strea
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 These constants do not have ADO/WFC equivalents.
 

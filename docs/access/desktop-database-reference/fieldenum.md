@@ -4,20 +4,21 @@ TOCTitle: FieldEnum
 ms:assetid: fbd415c0-d6b4-278f-318b-98432c013634
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250289(v=office.15)
 ms:contentKeyID: 48548876
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
 # FieldEnum
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Specifies the special fields referenced in a [Record](record-object-ado.md) object's [Fields](fields-collection-ado.md) collection.
 
-**Remarks**
+## Remarks
 
 These constants provide a "shortcut" to accessing special fields associated with a **Record**. Retrieve the [Field](field-object-ado.md) object from the **Fields** collection, and then obtain its contents with the **Field** object's [Value](value-property-ado.md) property.
+
+<br/>
 
 <table>
 <colgroup>

@@ -4,7 +4,7 @@ TOCTitle: ADCPROP_UPDATECRITERIA_ENUM
 ms:assetid: 70da63fa-fa75-9bb4-683d-0fcb4c4a2934
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249450(v=office.15)
 ms:contentKeyID: 48545571
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
@@ -15,6 +15,8 @@ mtps_version: v=office.15
 Specifies which fields can be used to detect conflicts during an optimistic update of a row of the data source with a [Recordset](recordset-object-ado.md) object.
 
 Use these constants with the **Recordset** "**Update Criteria**" dynamic property, which is referenced in the [ADO Dynamic Property Index](ado-dynamic-property-index.md) and documented in the [Microsoft Cursor Service for OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) documentation.
+
+<br/>
 
 <table>
 <colgroup>
@@ -54,7 +56,7 @@ Use these constants with the **Recordset** "**Update Criteria**" dynamic propert
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 Package: **com.ms.wfc.data**
 

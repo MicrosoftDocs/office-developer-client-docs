@@ -1,27 +1,26 @@
-﻿---
-title: DROP USER or GROUP Statement (Microsoft Access SQL)
-TOCTitle: DROP USER or GROUP Statement (Microsoft Access SQL)
+---
+title: DROP USER or GROUP statement (Microsoft Access SQL)
+TOCTitle: DROP USER or GROUP statement (Microsoft Access SQL)
 ms:assetid: 46bc5916-556b-17df-2f4c-8fd7bbd21ef7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193192(v=office.15)
 ms:contentKeyID: 48544575
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
-# DROP USER or GROUP Statement (Microsoft Access SQL)
-
+# DROP USER or GROUP statement (Microsoft Access SQL)
 
 **Applies to**: Access 2013 | Office 2013
 
-Deletes one or more existing *user*s or *group*s, or removes one or more existing *user*s from an existing *group*.
+Deletes one or more existing *users* or *groups*, or removes one or more existing *users* from an existing *group*.
 
 ## Syntax
 
-Delete one or more *user*s or remove one or more *user*s from a *group*:
+**Delete one or more _users_ or remove one or more _users_ from a _group_**:
 
 DROP USER *user*\[, *user*, …\] \[FROM *group*\]
 
-Delete one or more *group*s:
+**Delete one or more _groups_**:
 
 DROP GROUP *group*\[, *group*, …\]
 
@@ -53,7 +52,7 @@ The DROP USER or GROUP statement has these parts:
 
 ## Remarks
 
-If the FROM keyword is used in the DROP USER statement, then each of the *user*s listed in the statement will be removed from the *group* specified following the FROM keyword. However, the *user*s themselves will not be deleted.
+If the FROM keyword is used in the DROP USER statement, each of the *users* listed in the statement will be removed from the *group* specified following the FROM keyword. However, the *users* themselves will not be deleted.
 
-The DROP GROUP statement will delete the specified *group*(s). The *user*s who are members of the *group*(s) will not be affected, but they will no longer be members of the deleted *group*(s).
+The DROP GROUP statement will delete the specified *group*(s). The *users* who are members of the *group*(s) will not be affected, but they will no longer be members of the deleted *group*(s).
 

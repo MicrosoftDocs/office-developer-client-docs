@@ -77,9 +77,7 @@ The command to be executed is specified with the **CommandText** property.
 
 
 > [!NOTE]
-> <P>Several examples in this section call a utility function, GetNewConnection, to establish a connection with the data provider. To avoid redundancy, it is listed only once, here:</P>
-
-
+> Several examples in this section call a utility function, **GetNewConnection**, to establish a connection with the data provider. To avoid redundancy, it is listed only once:
 
 ```vb 
  

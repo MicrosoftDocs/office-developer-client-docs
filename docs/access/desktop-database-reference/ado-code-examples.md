@@ -21,13 +21,13 @@ Use the following code examples to learn how to use the ADO objects, methods, pr
 
 
 
-  - [ADO Code Examples in Microsoft Visual Basic](ado-code-examples-in-microsoft-visual-basic.md)
+  - [ADO code examples in Microsoft Visual Basic](ado-code-examples-in-microsoft-visual-basic.md)
 
-  - [ADO Code Examples in Microsoft Visual Basic Scripting Edition](ado-code-examples-in-microsoft-visual-basic-scripting-edition.md)
+  - [ADO code examples in Microsoft Visual Basic Scripting Edition](ado-code-examples-in-microsoft-visual-basic-scripting-edition.md)
 
-  - [ADO Code Examples in Microsoft Visual C++](ado-code-examples-in-microsoft-visual-c.md)
+  - [ADO code examples in Microsoft Visual C++](ado-code-examples-in-microsoft-visual-c.md)
 
-  - [ADO Code Examples in Microsoft Visual J++](ado-code-examples-in-microsoft-visual-j.md)
+  - [ADO code examples in Microsoft Visual J++](ado-code-examples-in-microsoft-visual-j.md)
 
-  - [ADO Code Examples in Microsoft JScript](ado-code-examples-in-microsoft-jscript.md)
+  - [ADO code examples in Microsoft JScript](ado-code-examples-in-microsoft-jscript.md)
 

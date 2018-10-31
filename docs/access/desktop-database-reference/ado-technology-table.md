@@ -57,7 +57,7 @@ The following table lists the Microsoft products, tools, and technologies discus
 </tr>
 <tr class="even">
 <td><p>JScript</p></td>
-<td><p><a href="handling-errors-in-other-languages.md">Handling Errors in Other Languages</a><a href="jscript-ado-programming.md">JScript ADO Programming</a><a href="ado-code-examples-in-microsoft-jscript.md">ADO Code Examples in Microsoft JScript</a></p></td>
+<td><p><a href="handling-errors-in-other-languages.md">Handling Errors in Other Languages</a><a href="jscript-ado-programming.md">JScript ADO Programming</a><a href="ado-code-examples-in-microsoft-jscript.md">ADO code examples in Microsoft JScript</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>ODBC</p></td>
@@ -81,19 +81,19 @@ The following table lists the Microsoft products, tools, and technologies discus
 </tr>
 <tr class="even">
 <td><p>VBScript</p></td>
-<td><p><a href="handling-errors-in-other-languages.md">Handling Errors in Other Languages</a><a href="visual-basic-for-applications-functions.md">Visual Basic for Applications Functions</a><a href="solutions-for-remote-data-access.md">Solutions for Remote Data Access</a><a href="rds-tutorial-vbscript.md">RDS Tutorial (VBScript)</a><a href="vbscript-ado-programming.md">VBScript ADO Programming</a><a href="ado-code-examples-in-microsoft-visual-basic-scripting-edition.md">ADO Code Examples in Microsoft Visual Basic Scripting Edition</a></p></td>
+<td><p><a href="handling-errors-in-other-languages.md">Handling Errors in Other Languages</a><a href="visual-basic-for-applications-functions.md">Visual Basic for Applications Functions</a><a href="solutions-for-remote-data-access.md">Solutions for Remote Data Access</a><a href="rds-tutorial-vbscript.md">RDS Tutorial (VBScript)</a><a href="vbscript-ado-programming.md">VBScript ADO Programming</a><a href="ado-code-examples-in-microsoft-visual-basic-scripting-edition.md">ADO code examples in Microsoft Visual Basic Scripting Edition</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Visual Basic</p></td>
-<td><p><a href="errors.md">Errors</a><a href="ado-errors.md">ADO Errors</a><a href="https://msdn.microsoft.com/library/jj250244(v=office.15)">ADO Event Instantiation By Language</a><a href="visual-basic-for-applications-functions.md">Visual Basic for Applications Functions</a><a href="chapter-12-rds-tutorial.md">Chapter 12: RDS Tutorial</a><a href="using-ado-with-microsoft-visual-basic.md">Using ADO with Microsoft Visual Basic</a><a href="ado-code-examples-in-microsoft-visual-basic.md">ADO Code Examples in Microsoft Visual Basic</a></p></td>
+<td><p><a href="errors.md">Errors</a><a href="ado-errors.md">ADO Errors</a><a href="https://msdn.microsoft.com/library/jj250244(v=office.15)">ADO Event Instantiation By Language</a><a href="visual-basic-for-applications-functions.md">Visual Basic for Applications Functions</a><a href="chapter-12-rds-tutorial.md">Chapter 12: RDS Tutorial</a><a href="using-ado-with-microsoft-visual-basic.md">Using ADO with Microsoft Visual Basic</a><a href="ado-code-examples-in-microsoft-visual-basic.md">ADO code examples in Microsoft Visual Basic</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Visual C++</p></td>
-<td><p><a href="handling-errors-in-other-languages.md">Handling Errors in Other Languages</a><a href="https://msdn.microsoft.com/library/jj250244(v=office.15)">ADO Event Instantiation By Language</a><a href="using-ado-with-microsoft-visual-c.md">Using ADO with Microsoft Visual C++</a><a href="ado-code-examples-in-microsoft-visual-c.md">ADO Code Examples in Microsoft Visual C++</a></p></td>
+<td><p><a href="handling-errors-in-other-languages.md">Handling Errors in Other Languages</a><a href="https://msdn.microsoft.com/library/jj250244(v=office.15)">ADO Event Instantiation By Language</a><a href="using-ado-with-microsoft-visual-c.md">Using ADO with Microsoft Visual C++</a><a href="ado-code-examples-in-microsoft-visual-c.md">ADO code examples in Microsoft Visual C++</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Visual J++</p></td>
-<td><p><a href="handling-errors-in-other-languages.md">Handling Errors in Other Languages</a><a href="https://msdn.microsoft.com/library/jj250244(v=office.15)">ADO Event Instantiation By Language</a><a href="rds-tutorial-visual-j.md">RDS Tutorial (Visual J++)</a><a href="using-ado-with-microsoft-visual-j.md">Using ADO with Microsoft Visual J++</a><a href="ado-code-examples-in-microsoft-visual-j.md">ADO Code Examples in Microsoft Visual J++</a></p></td>
+<td><p><a href="handling-errors-in-other-languages.md">Handling Errors in Other Languages</a><a href="https://msdn.microsoft.com/library/jj250244(v=office.15)">ADO Event Instantiation By Language</a><a href="rds-tutorial-visual-j.md">RDS Tutorial (Visual J++)</a><a href="using-ado-with-microsoft-visual-j.md">Using ADO with Microsoft Visual J++</a><a href="ado-code-examples-in-microsoft-visual-j.md">ADO code examples in Microsoft Visual J++</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Visual Studio</p></td>

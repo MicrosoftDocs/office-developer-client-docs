@@ -1,6 +1,6 @@
 ﻿---
-title: Execute, Requery, and Clear Methods Example (VBScript)
-TOCTitle: Execute, Requery, and Clear Methods Example (VBScript)
+title: Execute, Requery, and Clear methods example (VBScript)
+TOCTitle: Execute, Requery, and Clear methods example (VBScript)
 ms:assetid: 3999d3d8-693b-99ee-421a-7c67ff0e3cbf
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249142(v=office.15)
 ms:contentKeyID: 48544252
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Execute, Requery, and Clear Methods Example (VBScript)
+# Execute, Requery, and Clear methods example (VBScript)
 
 
 **Applies to**: Access 2013 | Office 2013

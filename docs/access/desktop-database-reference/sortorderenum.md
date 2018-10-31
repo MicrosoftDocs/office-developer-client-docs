@@ -4,16 +4,17 @@ TOCTitle: SortOrderEnum
 ms:assetid: 65a1f984-3ce4-f434-8c20-33162517ecba
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249393(v=office.15)
 ms:contentKeyID: 48545327
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
 # SortOrderEnum
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Specifies the sort sequence for an indexed column.
+
+<br/>
 
 <table>
 <colgroup>

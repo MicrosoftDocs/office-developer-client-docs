@@ -1,6 +1,6 @@
 ﻿---
-title: Append and CreateParameter Methods Example (JScript)
-TOCTitle: Append and CreateParameter Methods Example (JScript)
+title: Append and CreateParameter methods example (JScript)
+TOCTitle: Append and CreateParameter methods example (JScript)
 ms:assetid: 77de4191-12f1-cd6b-1805-02546fe0a942
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249494(v=office.15)
 ms:contentKeyID: 48545737
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Append and CreateParameter Methods Example (JScript)
+# Append and CreateParameter methods example (JScript)
 
 
 **Applies to**: Access 2013 | Office 2013
@@ -24,7 +24,7 @@ This example uses the [Append](append-method-ado.md) and [CreateParameter](creat
  
 <html> 
 <head> 
- <title>Append and CreateParameter Methods Example (JScript)</title> 
+ <title>Append and CreateParameter methods example (JScript)</title> 
 <style> 
 <!-- 
 body { 
@@ -37,7 +37,7 @@ body {
 </head> 
  
 <body> 
-<h1>Append and CreateParameter Methods Example (JScript)</h1> 
+<h1>Append and CreateParameter methods example (JScript)</h1> 
 <% 
  // verify user-input 
  var iRoyalty = parseInt(Request.Form("RoyaltyValue")); 

@@ -21,15 +21,21 @@ To use ADOX with your development tool, you should establish a reference to the 
 
 The Microsoft OLE DB Provider for the Microsoft Jet Database Engine fully supports ADOX. Certain features of ADOX may not be supported, depending on your data provider. For more information about supported features with the Microsoft OLE DB Provider for ODBC, the Microsoft OLE DB Provider for Oracle, or the Microsoft SQL Server OLE DB Provider, see the MDAC readme file.
 
-This document assumes a working knowledge of the Microsoft® Visual Basic® programming language and a general knowledge of ADO. For more information about ADO, see the [ADO Programmer's Guide](ado-programmer-s-guide.md). For more overview information about ADOX, see the following topics:
+This document assumes a working knowledge of the Microsoft® Visual Basic® programming language and a general knowledge of ADO. For more information about ADO, see the [ADO Programmer's Guide](ado-programmer-s-guide.md).
 
-  - [ADOX Objects](adox-objects.md)
+This chapter covers the following topic:
 
-  - [ADOX Collections](adox-collections.md)
+- [Provider Support for ADOX](provider-support-for-adox.md)
 
-  - [ADOX Properties](adox-properties.md)
+For more overview information about ADOX, see the following topics:
 
-  - [ADOX Methods](adox-methods.md)
+- [ADOX Objects](adox-objects.md)
 
-  - [ADOX Examples](adox-code-examples.md)
+- [ADOX Collections](adox-collections.md)
+
+- [ADOX Properties](adox-properties.md)
+
+- [ADOX Methods](adox-methods.md)
+
+- [ADOX Examples](adox-code-examples.md)
 

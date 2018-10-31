@@ -49,15 +49,9 @@ You often use this action if you have turned echo off by using the **Echo** acti
 
 Access automatically resets the **Hourglass On** argument to **No** when the macro finishes running.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>In Microsoft Windows, this is the icon you set for <STRONG>Busy</STRONG> in the <STRONG>Mouse Properties</STRONG> dialog box of Windows Control Panel. The default for all Windows operating systems is an animated hourglass icon.</P>
-> <LI>
-> <P>You can choose another icon if you want.</P></LI></UL>
-
-
+> - In Microsoft Windows, this is the icon you set for **Busy** in the **Mouse Properties** dialog box of Windows Control Panel. The default for all Windows operating systems is an animated hourglass icon.
+> - You can choose another icon if you want.
 
 To run the **DisplayHourglassPointer** action in a Visual Basic for Applications (VBA) module, use the **Hourglass** method of the **DoCmd** object.
 

@@ -21,7 +21,7 @@ You can use the **CopyObject** action to copy the specified database object to a
 
 
 > [!NOTE]
-> <P>This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</P>
+> This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.
 
 
 
@@ -46,7 +46,7 @@ The **CopyObject** action has the following arguments.
 <td><p>A valid path and file name for the destination database. Enter the path and file name in the <strong>Destination Database</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane. Leave this argument blank if you want to select the current database.</p>
 
 > [!NOTE]
-> <P>This argument is only available in the Access database environment. When using this action in an Access project environment (.adp), the Destination Database argument must be blank.</P>
+> This argument is only available in the Access database environment. When using this action in an Access project environment (.adp), the Destination Database argument must be blank.
 
 
 <p>If you run a macro containing the <strong>CopyObject</strong> action in a library database and leave this argument blank, Microsoft Office Access 2007 will copy the object into the library database.</p></td>
@@ -83,7 +83,7 @@ The **CopyObject** action is similar to performing the following steps manually:
 
 
 > [!NOTE]
-> <P>When copying data access pages, the <STRONG>CopyObject</STRONG> action copies only the link to the associated .htm file, not the file itself.</P>
+> When copying data access pages, the **CopyObject** action copies only the link to the associated .htm file, not the file itself.
 
 
 

@@ -4,16 +4,17 @@ TOCTitle: RuleEnum
 ms:assetid: 5b59f202-315b-09b7-8505-9ac08ceccb3d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249317(v=office.15)
 ms:contentKeyID: 48545071
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
 # RuleEnum
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Specifies the rule to follow when a [Key](key-object-adox.md) is deleted.
+
+<br/>
 
 <table>
 <colgroup>

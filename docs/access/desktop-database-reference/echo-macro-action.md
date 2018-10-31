@@ -19,7 +19,7 @@ You can use the **Echo** action to specify whether echo is turned on. For exampl
 
 
 > [!NOTE]
-> <P>This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</P>
+> This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.
 
 
 

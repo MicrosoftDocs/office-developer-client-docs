@@ -1,6 +1,6 @@
 ﻿---
-title: CompareBookmarks Method Example (VB)
-TOCTitle: CompareBookmarks Method Example (VB)
+title: CompareBookmarks method example (VB)
+TOCTitle: CompareBookmarks method example (VB)
 ms:assetid: 048c91a1-d1dd-6b8a-b602-09cdb0f8a6f7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248807(v=office.15)
 ms:contentKeyID: 48543012
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# CompareBookmarks Method Example (VB)
+# CompareBookmarks method example (VB)
 
 
 **Applies to**: Access 2013 | Office 2013

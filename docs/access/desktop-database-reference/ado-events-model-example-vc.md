@@ -1,6 +1,6 @@
 ﻿---
-title: ADO Events Model Example (VC++)
-TOCTitle: ADO Events Model Example (VC++)
+title: ADO Events Model example (VC++)
+TOCTitle: ADO Events Model example (VC++)
 ms:assetid: 3785406b-844c-419f-e6ac-78aa8c4e78b2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249132(v=office.15)
 ms:contentKeyID: 48544197
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ADO Events Model Example (VC++)
+# ADO Events Model example (VC++)
 
 
 **Applies to**: Access 2013 | Office 2013

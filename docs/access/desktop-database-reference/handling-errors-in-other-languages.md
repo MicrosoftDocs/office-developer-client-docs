@@ -15,3 +15,9 @@ mtps_version: v=office.15
 
 So far, this chapter has discussed errors from a Microsoft Visual Basic point of view. The remainder of this section will give you an overview of error handling in languages other than Visual Basic.
 
+  - [Handling Errors in JScript](handling-errors-in-jscript.md)
+
+  - [Handling Errors in VBScript](handling-errors-in-vbscript.md)
+
+  - [Handling Errors in Visual C++](handling-errors-in-visual-c.md)
+

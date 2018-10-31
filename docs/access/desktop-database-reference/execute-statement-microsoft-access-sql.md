@@ -1,10 +1,10 @@
 ﻿---
-title: EXECUTE Statement (Microsoft Access SQL)
-TOCTitle: EXECUTE Statement (Microsoft Access SQL)
+title: EXECUTE statement (Microsoft Access SQL)
+TOCTitle: EXECUTE statement (Microsoft Access SQL)
 ms:assetid: 9ec4d9ee-db2a-0319-3ccf-c035d67a1496
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198330(v=office.15)
 ms:contentKeyID: 48546667
-ms.date: 09/28/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 f1_keywords:
 - jetsql40.chm5277471
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# EXECUTE Statement (Microsoft Access SQL)
+# EXECUTE statement (Microsoft Access SQL)
 
 **Applies to**: Access 2013 | Office 2013
 

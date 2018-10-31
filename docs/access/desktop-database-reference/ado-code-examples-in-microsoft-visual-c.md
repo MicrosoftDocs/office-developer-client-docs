@@ -1,6 +1,6 @@
 ﻿---
-title: ADO Code Examples in Microsoft Visual C++
-TOCTitle: ADO Code Examples in Microsoft Visual C++
+title: ADO code examples in Microsoft Visual C++
+TOCTitle: ADO code examples in Microsoft Visual C++
 ms:assetid: 4542fed7-4d5e-83f9-84dc-7f7991f969dc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249212(v=office.15)
 ms:contentKeyID: 48544550
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ADO Code Examples in Microsoft Visual C++
+# ADO code examples in Microsoft Visual C++
 
 
 **Applies to**: Access 2013 | Office 2013

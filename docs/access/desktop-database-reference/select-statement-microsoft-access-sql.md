@@ -1,16 +1,16 @@
 ﻿---
-title: SELECT Statement (Microsoft Access SQL)
-TOCTitle: SELECT Statement (Microsoft Access SQL)
+title: SELECT statement (Microsoft Access SQL)
+TOCTitle: SELECT statement (Microsoft Access SQL)
 ms:assetid: a5c9da94-5f9e-0fc0-767a-4117f38a5ef3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821148(v=office.15)
 ms:contentKeyID: 48546837
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 dev_langs:
 - sql
 ---
 
-# SELECT Statement (Microsoft Access SQL)
+# SELECT statement (Microsoft Access SQL)
 
 **Applies to:** Access 2013 | Office 2013
 
@@ -36,7 +36,7 @@ The SELECT statement has these parts:
 <tbody>
 <tr class="odd">
 <td><p><em>predicate</em></p></td>
-<td><p>One of the following predicates: <a href="https://msdn.microsoft.com/library/ff195711(v=office.15)">ALL, DISTINCT, DISTINCTROW, or TOP</a>. You use the predicate to restrict the number of records returned. If none is specified, the default is ALL.</p></td>
+<td><p>One of the following predicates: <a href="https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/all-distinct-distinctrow-top-predicates-microsoft-access-sql">ALL, DISTINCT, DISTINCTROW, or TOP</a>. You use the predicate to restrict the number of records returned. If none is specified, the default is ALL.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>*</em></p></td>
@@ -68,7 +68,7 @@ The SELECT statement has these parts:
 
 ## Remarks
 
-To perform this operation, the Microsoft® Jet database engine searches the specified table or tables, extracts the chosen columns, selects rows that meet the criterion, and sorts or groups the resulting rows into the order specified.
+To perform this operation, the Microsoft Jet database engine searches the specified table or tables, extracts the chosen columns, selects rows that meet the criterion, and sorts or groups the resulting rows into the order specified.
 
 SELECT statements do not change data in the database.
 
@@ -146,6 +146,8 @@ This example creates a dynaset-type **Recordset** based on an SQL statement that
     End Sub
 ```
 
+<br/>
+
 This example counts the number of records that have an entry in the PostalCode field and names the returned field Tally.
 
 ```sql
@@ -173,6 +175,8 @@ This example counts the number of records that have an entry in the PostalCode f
      
     End Sub 
 ```
+
+<br/>
 
 This example shows the number of employees and the average and maximum salaries.
 
@@ -204,6 +208,8 @@ This example shows the number of employees and the average and maximum salaries.
      
     End Sub 
 ```
+
+<br/>
 
 The **Sub** procedure EnumFields is passed a **Recordset** object from the calling procedure. The procedure then formats and prints the fields of the **Recordset** to the **Debug** window. The variable is the desired printed field width. Some fields may be truncated.
 

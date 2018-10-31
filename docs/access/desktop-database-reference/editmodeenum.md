@@ -4,16 +4,17 @@ TOCTitle: EditModeEnum
 ms:assetid: 4da0e504-aca2-b769-04a2-0df687fa4422
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249248(v=office.15)
 ms:contentKeyID: 48544737
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 ---
 
 # EditModeEnum
 
-
 **Applies to**: Access 2013 | Office 2013
 
 Specifies the editing status of a record.
+
+<br/>
 
 <table>
 <colgroup>
@@ -53,7 +54,7 @@ Specifies the editing status of a record.
 </table>
 
 
-**ADO/WFC Equivalent**
+### ADO/WFC equivalent
 
 Package: **com.ms.wfc.data**
 
