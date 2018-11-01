@@ -219,6 +219,142 @@
   {
     "source_path": "docs/access/desktop-database-reference/xml-recordset-persistence-scenario-topics.md",
     "redirect_url": "/office/client-developer/access/desktop-database-reference/xml-recordset-persistence-scenario"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/ado-api-reference-topics.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-api-reference"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/ado-objects-and-interfaces-reference.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-objects-and-interfaces"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/ado-collections-reference.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-collections"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/ado-properties-reference.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-properties"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/ado-dynamic-properties-reference.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-dynamic-properties"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/ado-methods-reference.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-methods"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/ado-events-reference.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-events"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/ado-enumerated-constants-reference.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-enumerated-constants"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/ado-code-examples-access.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-code-examples"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/ado-code-examples-in-microsoft-visual-basic-access.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-code-examples-in-microsoft-visual-basic"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/ado-code-examples-in-microsoft-visual-basic-scripting-edition-access.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-code-examples-in-microsoft-visual-basic-scripting-edition"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/ado-code-examples-in-microsoft-visual-c-access.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-code-examples-in-microsoft-visual-c"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/ado-code-examples-in-microsoft-visual-j-access.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-code-examples-in-microsoft-visual-j"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/ado-code-examples-in-microsoft-jscript-access.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-code-examples-in-microsoft-jscript"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/rds-api-reference-topics.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/rds-api-reference"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/rds-objects-access.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/rds-objects"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/rds-properties-access.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/rds-properties"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/rds-methods-access.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/rds-methods"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/rds-events-access.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/rds-events"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/ado-md-api-reference-topics.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-md-api-reference"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/ado-md-objects-reference.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-md-objects"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/ado-md-collections-reference.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-md-collections"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/ado-md-properties-reference.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-md-properties"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/ado-md-methods-reference.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-md-methods"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/ado-md-enumerated-constants-reference.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-md-enumerated-constants"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/adox-api-reference-topics.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/adox-api-reference"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/adox-objects-reference.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/adox-objects"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/adox-collections-reference.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/adox-collections"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/adox-properties-reference.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/adox-properties"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/adox-methods-reference.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/adox-methods"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/adox-enumerated-constants-reference.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/adox-enumerated-constants"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/adox-code-example-topics.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/adox-code-examples"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/adox-code-examples-in-microsoft-visual-basic-topics.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/adox-code-examples-in-microsoft-visual-basic"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/adox-code-examples-in-microsoft-visual-c-topics.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/adox-code-examples-in-microsoft-visual-c"
   }
 ]
 }
