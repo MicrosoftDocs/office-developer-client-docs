@@ -3132,204 +3132,192 @@
                   - name: onReadyStateChange event
                     href: access/desktop-database-reference/onreadystatechange-event-rds.md
               - name: ADO MD API reference
-                href: access/desktop-database-reference/ado-md-api-reference-topics.md
+                href: access/desktop-database-reference/ado-md-api-reference.md
                 items:
-                - name: ADO MD API reference
-                  href: access/desktop-database-reference/ado-md-api-reference.md
-                - name: ADO MD Objects
-                  href: access/desktop-database-reference/ado-md-objects-reference.md
+                - name: ADO MD objects
+                  href: access/desktop-database-reference/ado-md-objects.md
                   items:
-                  - name: ADO MD Objects
-                    href: access/desktop-database-reference/ado-md-objects.md
-                  - name: Axis object (ADO MD)
+                  - name: Axis
                     href: access/desktop-database-reference/axis-object-ado-md-reference.md
                     items:
-                    - name: Axis object (ADO MD)
+                    - name: Axis object
                       href: access/desktop-database-reference/axis-object-ado-md.md
                     - name: Properties, methods, and events
                       href: access/desktop-database-reference/axis-properties-methods-and-events-ado-md.md
-                  - name: Catalog object (ADO MD)
+                  - name: Catalog
                     href: access/desktop-database-reference/catalog-object-ado-md-reference.md
                     items:
-                    - name: Catalog object (ADO MD)
+                    - name: Catalog object
                       href: access/desktop-database-reference/catalog-object-ado-md.md
                     - name: Properties, methods, and events
                       href: access/desktop-database-reference/catalog-properties-methods-and-events-ado-md.md
-                  - name: Cell object (ADO MD)
+                  - name: Cell
                     href: access/desktop-database-reference/cell-object-ado-md-reference.md
                     items:
-                    - name: Cell object (ADO MD)
+                    - name: Cell object
                       href: access/desktop-database-reference/cell-object-ado-md.md
                     - name: Properties, methods, and events
                       href: access/desktop-database-reference/cell-properties-methods-and-events-ado-md.md
-                  - name: Cellset object (ADO MD)
+                  - name: Cellset
                     href: access/desktop-database-reference/cellset-object-ado-md-reference.md
                     items:
-                    - name: Cellset object (ADO MD)
+                    - name: Cellset object
                       href: access/desktop-database-reference/cellset-object-ado-md.md
                     - name: Properties, methods, and events
                       href: access/desktop-database-reference/cellset-properties-methods-and-events-ado-md.md
-                  - name: CubeDef object (ADO MD)
+                  - name: CubeDef
                     href: access/desktop-database-reference/cubedef-object-ado-md-reference.md
                     items:
-                    - name: CubeDef object (ADO MD)
+                    - name: CubeDef object
                       href: access/desktop-database-reference/cubedef-object-ado-md.md
                     - name: Properties, methods, and events
                       href: access/desktop-database-reference/cubedef-properties-methods-and-events-ado-md.md
-                  - name: Dimension object (ADO MD)
+                  - name: Dimension
                     href: access/desktop-database-reference/dimension-object-ado-md-reference.md
                     items:
-                    - name: Dimension object (ADO MD)
+                    - name: Dimension object
                       href: access/desktop-database-reference/dimension-object-ado-md.md
                     - name: Properties, methods, and events
                       href: access/desktop-database-reference/dimension-properties-methods-and-events-ado-md.md
-                  - name: Hierarchy object (ADO MD)
+                  - name: Hierarchy
                     href: access/desktop-database-reference/hierarchy-object-ado-md-reference.md
                     items:
-                    - name: Hierarchy object (ADO MD)
+                    - name: Hierarchy object
                       href: access/desktop-database-reference/hierarchy-object-ado-md.md
                     - name: Properties, methods, and events
                       href: access/desktop-database-reference/hierarchy-properties-methods-and-events-ado-md.md
-                  - name: Level object (ADO MD)
+                  - name: Level
                     href: access/desktop-database-reference/level-object-ado-md-reference.md
                     items:
-                    - name: Level object (ADO MD)
+                    - name: Level object
                       href: access/desktop-database-reference/level-object-ado-md.md
                     - name: Properties, methods, and events
                       href: access/desktop-database-reference/level-properties-methods-and-events-ado-md.md
-                  - name: Member object (ADO MD)
+                  - name: Member
                     href: access/desktop-database-reference/member-object-ado-md-reference.md
                     items:
-                    - name: Member object (ADO MD)
+                    - name: Member object
                       href: access/desktop-database-reference/member-object-ado-md.md
                     - name: Properties, methods, and events
                       href: access/desktop-database-reference/member-properties-methods-and-events-ado-md.md
-                  - name: Position object (ADO MD)
+                  - name: Position
                     href: access/desktop-database-reference/position-object-ado-md-reference.md
                     items:
-                    - name: Position object (ADO MD)
+                    - name: Position object
                       href: access/desktop-database-reference/position-object-ado-md.md
                     - name: Properties, methods, and events
                       href: access/desktop-database-reference/position-properties-methods-and-events-ado-md.md
                 - name: ADO MD collections
-                  href: access/desktop-database-reference/ado-md-collections-reference.md
+                  href: access/desktop-database-reference/ado-md-collections.md
                   items:
-                  - name: ADO MD collections
-                    href: access/desktop-database-reference/ado-md-collections.md
-                  - name: Axes collection (ADO MD)
+                  - name: Axes
                     href: access/desktop-database-reference/axes-collection-ado-md-reference.md
                     items:
-                    - name: Axes collection (ADO MD)
+                    - name: Axes collection
                       href: access/desktop-database-reference/axes-collection-ado-md.md
                     - name: Axes collection properties, methods, and events
                       href: access/desktop-database-reference/axes-collection-properties-methods-and-events-ado-md.md
-                  - name: CubeDefs collection (ADO MD)
+                  - name: CubeDefs
                     href: access/desktop-database-reference/cubedefs-collection-ado-md-reference.md
                     items:
-                    - name: CubeDefs collection (ADO MD)
+                    - name: CubeDefs collection
                       href: access/desktop-database-reference/cubedefs-collection-ado-md.md
                     - name: CubeDefs collection properties, methods, and events
                       href: access/desktop-database-reference/cubedefs-collection-properties-methods-and-events-ado-md.md
-                  - name: Dimensions collection (ADO MD)
+                  - name: Dimensions
                     href: access/desktop-database-reference/dimensions-collection-ado-md-reference.md
                     items:
-                    - name: Dimensions collection (ADO MD)
+                    - name: Dimensions collection
                       href: access/desktop-database-reference/dimensions-collection-ado-md.md
                     - name: Dimensions collection properties, methods, and events
                       href: access/desktop-database-reference/dimensions-collection-properties-methods-and-events-ado-md.md
-                  - name: Hierarchies collection (ADO MD)
+                  - name: Hierarchies
                     href: access/desktop-database-reference/hierarchies-collection-ado-md-reference.md
                     items:
-                    - name: Hierarchies collection (ADO MD)
+                    - name: Hierarchies collection
                       href: access/desktop-database-reference/hierarchies-collection-ado-md.md
                     - name: Hierarchies collection properties, methods, and events
                       href: access/desktop-database-reference/hierarchies-collection-properties-methods-and-events-ado-md.md
-                  - name: Levels collection (ADO MD)
+                  - name: Levels
                     href: access/desktop-database-reference/levels-collection-ado-md-reference.md
                     items:
-                    - name: Levels collection (ADO MD)
+                    - name: Levels collection
                       href: access/desktop-database-reference/levels-collection-ado-md.md
                     - name: Levels collection properties, methods, and events
                       href: access/desktop-database-reference/levels-collection-properties-methods-and-events-ado-md.md
-                  - name: Members collection (ADO MD)
+                  - name: Members
                     href: access/desktop-database-reference/members-collection-ado-md-reference.md
                     items:
-                    - name: Members collection (ADO MD)
+                    - name: Members collection
                       href: access/desktop-database-reference/members-collection-ado-md.md
                     - name: Members collection properties, methods, and events
                       href: access/desktop-database-reference/members-collection-properties-methods-and-events-ado-md.md
-                  - name: Positions collection (ADO MD)
+                  - name: Positions
                     href: access/desktop-database-reference/positions-collection-ado-md-reference.md
                     items:
-                    - name: Positions collection (ADO MD)
+                    - name: Positions collection
                       href: access/desktop-database-reference/positions-collection-ado-md.md
                     - name: Positions collection properties, methods, and events
                       href: access/desktop-database-reference/positions-collection-properties-methods-and-events-ado-md.md
                 - name: ADO MD properties
-                  href: access/desktop-database-reference/ado-md-properties-reference.md
+                  href: access/desktop-database-reference/ado-md-properties.md
                   items:
-                  - name: ADO MD properties
-                    href: access/desktop-database-reference/ado-md-properties.md
-                  - name: ActiveConnection property (ADO MD)
+                  - name: ActiveConnection property
                     href: access/desktop-database-reference/activeconnection-property-ado-md.md
-                  - name: Caption property (ADO MD)
+                  - name: Caption property
                     href: access/desktop-database-reference/caption-property-ado-md.md
-                  - name: ChildCount property (ADO MD)
+                  - name: ChildCount property
                     href: access/desktop-database-reference/childcount-property-ado-md.md
-                  - name: Children property (ADO MD)
+                  - name: Children property
                     href: access/desktop-database-reference/children-property-ado-md.md
-                  - name: Depth property (ADO MD)
+                  - name: Depth property
                     href: access/desktop-database-reference/depth-property-ado-md.md
-                  - name: Description property (ADO MD)
+                  - name: Description property
                     href: access/desktop-database-reference/description-property-ado-md.md
-                  - name: DimensionCount property (ADO MD)
+                  - name: DimensionCount property
                     href: access/desktop-database-reference/dimensioncount-property-ado-md.md
-                  - name: DrilledDown property (ADO MD)
+                  - name: DrilledDown property
                     href: access/desktop-database-reference/drilleddown-property-ado-md.md
-                  - name: FilterAxis property (ADO MD)
+                  - name: FilterAxis property
                     href: access/desktop-database-reference/filteraxis-property-ado-md.md
-                  - name: FormattedValue property (ADO MD)
+                  - name: FormattedValue property
                     href: access/desktop-database-reference/formattedvalue-property-ado-md.md
                   - name: Item property (ADO MD Cellset)
                     href: access/desktop-database-reference/item-property-ado-md-cellset.md
-                  - name: LevelDepth property (ADO MD)
+                  - name: LevelDepth property
                     href: access/desktop-database-reference/leveldepth-property-ado-md.md
-                  - name: LevelName property (ADO MD)
+                  - name: LevelName property
                     href: access/desktop-database-reference/levelname-property-ado-md.md
-                  - name: Name property (ADO MD)
+                  - name: Name property
                     href: access/desktop-database-reference/name-property-ado-md.md
                   - name: Ordinal property (ADO MD Cell)
                     href: access/desktop-database-reference/ordinal-property-ado-md-cell.md
                   - name: Ordinal property (ADO MD Position)
                     href: access/desktop-database-reference/ordinal-property-ado-md-position.md
-                  - name: Parent property (ADO MD)
+                  - name: Parent property
                     href: access/desktop-database-reference/parent-property-ado-md.md
-                  - name: ParentSameAsPrev property (ADO MD)
+                  - name: ParentSameAsPrev property
                     href: access/desktop-database-reference/parentsameasprev-property-ado-md.md
-                  - name: Source property (ADO MD)
+                  - name: Source property
                     href: access/desktop-database-reference/source-property-ado-md.md
-                  - name: State property (ADO MD)
+                  - name: State property
                     href: access/desktop-database-reference/state-property-ado-md.md
-                  - name: Type property (ADO MD)
+                  - name: Type property
                     href: access/desktop-database-reference/type-property-ado-md.md
-                  - name: UniqueName property (ADO MD)
+                  - name: UniqueName property
                     href: access/desktop-database-reference/uniquename-property-ado-md.md
-                  - name: Value property (ADO MD)
+                  - name: Value property
                     href: access/desktop-database-reference/value-property-ado-md.md
                 - name: ADO MD methods
-                  href: access/desktop-database-reference/ado-md-methods-reference.md
+                  href: access/desktop-database-reference/ado-md-methods.md
                   items:
-                  - name: ADO MD methods
-                    href: access/desktop-database-reference/ado-md-methods.md
-                  - name: Close method (ADO MD)
+                  - name: Close method
                     href: access/desktop-database-reference/close-method-ado-md.md
-                  - name: Open method (ADO MD)
+                  - name: Open method
                     href: access/desktop-database-reference/open-method-ado-md.md
-                - name: ADO MD Enumerated Constants
-                  href: access/desktop-database-reference/ado-md-enumerated-constants-reference.md
+                - name: ADO MD enumerated constants
+                  href: access/desktop-database-reference/ado-md-enumerated-constants.md
                   items:
-                  - name: ADO MD Enumerated Constants
-                    href: access/desktop-database-reference/ado-md-enumerated-constants.md
                   - name: MemberTypeEnum
                     href: access/desktop-database-reference/membertypeenum.md
               - name: ADOX API reference

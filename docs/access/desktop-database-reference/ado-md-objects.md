@@ -1,6 +1,6 @@
 ﻿---
-title: ADO MD Objects (Access desktop database reference)
-TOCTitle: ADO MD Objects
+title: ADO MD objects (Access desktop database reference)
+TOCTitle: ADO MD objects
 ms:assetid: 13501e44-70b6-1036-a8b7-c276f187e4f4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248907(v=office.15)
 ms:contentKeyID: 48543366
@@ -8,10 +8,11 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ADO MD Objects
-
+# ADO MD objects
 
 **Applies to**: Access 2013, Office 2013
+
+<br/>
 
 <table>
 <colgroup>
@@ -19,6 +20,10 @@ mtps_version: v=office.15
 <col style="width: 50%" />
 </colgroup>
 <tbody>
+<tr class="even">
+<th>Object</th>
+<th>Description</th>
+</tr>
 <tr class="odd">
 <td><p><a href="axis-object-ado-md.md">Axis</a></p></td>
 <td><p>Represents a positional or filter axis of a cellset, containing selected members of one or more dimensions.</p></td>
@@ -62,8 +67,11 @@ mtps_version: v=office.15
 </tbody>
 </table>
 
+<br/>
 
 Also, the **Catalog** object is connected to an ADO **Connection** object, which is included with the standard ADO library:
+
+<br/>
 
 <table>
 <colgroup>
@@ -84,6 +92,7 @@ Also, the **Catalog** object is connected to an ADO **Connection** object, which
 </tbody>
 </table>
 
+<br/>
 
 Many ADO MD objects can be contained in a corresponding collection. For example, a [CubeDef](cubedef-object-ado-md.md) object can be contained in a [CubeDefs](cubedefs-collection-ado-md.md) collection of a **Catalog**. For more information, see [ADO MD Collections](ado-md-collections.md).
 
