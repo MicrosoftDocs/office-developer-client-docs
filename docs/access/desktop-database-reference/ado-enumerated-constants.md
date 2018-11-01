@@ -1,6 +1,6 @@
 ﻿---
-title: ADO Enumerated Constants
-TOCTitle: ADO Enumerated Constants
+title: ADO enumerated constants
+TOCTitle: ADO enumerated constants
 ms:assetid: 7c983acd-8b38-dc3c-6704-46e649ebb7d6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249522(v=office.15)
 ms:contentKeyID: 48545841
@@ -8,12 +8,13 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ADO Enumerated Constants
-
+# ADO enumerated constants
 
 **Applies to**: Access 2013, Office 2013
 
 To assist in debugging, the ADO enumerations list a value for each constant. However, this value is purely advisory, and may change from one release of ADO to another. Your code should only depend on the name, not the actual value, of each enumerated constant.
+
+<br/>
 
 <table>
 <colgroup>
@@ -21,6 +22,10 @@ To assist in debugging, the ADO enumerations list a value for each constant. How
 <col style="width: 50%" />
 </colgroup>
 <tbody>
+<tr class="even">
+<th>Enumerated constant</th>
+<th>Description</th>
+</tr>
 <tr class="odd">
 <td><p><a href="adcprop-asyncthreadpriority-enum.md">ADCPROP_ASYNCTHREADPRIORITY_ENUM</a></p></td>
 <td><p>For an RDS <strong>Recordset</strong> object, specifies the execution priority of the asynchronous thread that retrieves data.</p></td>

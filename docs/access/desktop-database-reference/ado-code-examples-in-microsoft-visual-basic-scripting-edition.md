@@ -10,30 +10,20 @@ mtps_version: v=office.15
 
 # ADO code examples in Microsoft Visual Basic Scripting Edition
 
-
 **Applies to**: Access 2013, Office 2013
 
 Use the following code examples to learn about how to use the ADO methods when writing in Visual Basic Scripting Edition (VBScript).
 
-
 > [!NOTE]
 > Paste the entire code example, from beginning to end, into your code editor. The example may not run correctly if partial examples are used or if paragraph formatting is lost.
 
+## Methods
 
-
-**Methods**
-
-  - [AddNew Method Example](addnew-method-example-vbscript.md)
-
-  - [Clone Method Example](clone-method-example-vbscript.md)
-
-  - [Delete Method Example](delete-method-example-vbscript.md)
-
-  - [Execute, Requery, and Clear Methods Example](execute-requery-and-clear-methods-example-vbscript.md)
-
-  - [Move Method Example](move-method-example-vbscript.md)
-
-  - [MoveFirst, MoveLast, MoveNext, and MovePrevious Methods Example](movefirst-movelast-movenext-and-moveprevious-methods-example-vbscript.md)
-
-  - [Open and Close Methods Example](open-and-close-methods-example-vbscript.md)
+- [AddNew method example](addnew-method-example-vbscript.md)
+- [Clone method example](clone-method-example-vbscript.md)
+- [Delete method example](delete-method-example-vbscript.md)
+- [Execute, Requery, and Clear methods example](execute-requery-and-clear-methods-example-vbscript.md)
+- [Move method example](move-method-example-vbscript.md)
+- [MoveFirst, MoveLast, MoveNext, and MovePrevious methods example](movefirst-movelast-movenext-and-moveprevious-methods-example-vbscript.md)
+- [Open and Close methods example](open-and-close-methods-example-vbscript.md)
 

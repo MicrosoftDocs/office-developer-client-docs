@@ -1,6 +1,6 @@
 ﻿---
-title: ActiveX Data Objects (ADO) Collections
-TOCTitle: ADO Collections
+title: ActiveX Data Objects (ADO) collections
+TOCTitle: ADO collections
 ms:assetid: a57e4c0c-d043-edb8-1bbe-5b7b437a8150
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249769(v=office.15)
 ms:contentKeyID: 48546833
@@ -8,12 +8,13 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ADO Collections
-
+# ADO collections
 
 **Applies to**: Access 2013, Office 2013
 
-Each collection can contain its corresponding object. For example, an [Error](error-object-ado.md) object can be contained in an [Errors](errors-collection-ado.md) collection. For more information about objects, see [ADO Objects](ado-objects-and-interfaces.md) or a specific object topic.
+Each collection can contain its corresponding object. For example, an [Error](error-object-ado.md) object can be contained in an [Errors](errors-collection-ado.md) collection. For more information about objects, see [ADO objects](ado-objects-and-interfaces.md) or a specific object topic.
+
+<br/>
 
 <table>
 <colgroup>
@@ -21,6 +22,10 @@ Each collection can contain its corresponding object. For example, an [Error](er
 <col style="width: 50%" />
 </colgroup>
 <tbody>
+<tr class="even">
+<th>Collection</th>
+<th>Description</th>
+</tr>
 <tr class="odd">
 <td><p><a href="errors-collection-ado.md">Errors</a></p></td>
 <td><p>Contains all the <strong>Error</strong> objects created in response to a single provider-related failure.</p></td>
@@ -39,4 +44,6 @@ Each collection can contain its corresponding object. For example, an [Error](er
 </tr>
 </tbody>
 </table>
+
+<br/>
 
