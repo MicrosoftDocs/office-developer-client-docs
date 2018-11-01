@@ -1,6 +1,6 @@
 ﻿---
-title: ADOX Collections (Access desktop database reference)
-TOCTitle: ADOX Collections
+title: ADOX collections (Access desktop database reference)
+TOCTitle: ADOX collections
 ms:assetid: bff37fcc-3099-a4a7-b01f-8de1467bf96b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249933(v=office.15)
 ms:contentKeyID: 48547500
@@ -8,16 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ADOX Collections
-
+# ADOX collections
 
 **Applies to**: Access 2013, Office 2013
+
+<br/>
 
 <table>
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
+<thead>
+<tr class="header">
+<th><p>Collection</p></th>
+<th><p>Description</p></th>
+</tr>
+</thead>
 <tbody>
 <tr class="odd">
 <td><p><a href="columns-collection-adox.md">Columns</a></p></td>
@@ -54,3 +61,4 @@ mtps_version: v=office.15
 </tbody>
 </table>
 
+<br/>

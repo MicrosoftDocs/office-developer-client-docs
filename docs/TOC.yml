@@ -3321,187 +3321,177 @@
                   - name: MemberTypeEnum
                     href: access/desktop-database-reference/membertypeenum.md
               - name: ADOX API reference
-                href: access/desktop-database-reference/adox-api-reference-topics.md
+                href: access/desktop-database-reference/adox-api-reference.md
                 items:
-                - name: ADOX API reference
-                  href: access/desktop-database-reference/adox-api-reference.md
-                - name: ADOX Objects
-                  href: access/desktop-database-reference/adox-objects-reference.md
+                - name: ADOX objects
+                  href: access/desktop-database-reference/adox-objects.md
                   items:
-                  - name: ADOX Objects
-                    href: access/desktop-database-reference/adox-objects.md
-                  - name: Catalog object (ADOX)
+                  - name: Catalog
                     href: access/desktop-database-reference/catalog-object-adox-reference.md
                     items:
-                    - name: Catalog object (ADOX)
+                    - name: Catalog object
                       href: access/desktop-database-reference/catalog-object-adox.md
-                    - name: Catalog properties, methods, and events (ADOX)
+                    - name: Properties, methods, and events
                       href: access/desktop-database-reference/catalog-properties-methods-and-events-adox.md
-                  - name: Column object (ADOX)
+                  - name: Column
                     href: access/desktop-database-reference/column-object-adox-reference.md
                     items:
-                    - name: Column object (ADOX)
+                    - name: Column object
                       href: access/desktop-database-reference/column-object-adox.md
                     - name: Properties, methods, and events
                       href: access/desktop-database-reference/column-properties-methods-and-events-adox.md
-                  - name: Group object (ADOX)
+                  - name: Group
                     href: access/desktop-database-reference/group-object-adox-reference.md
                     items:
-                    - name: Group object (ADOX)
+                    - name: Group object
                       href: access/desktop-database-reference/group-object-adox.md
                     - name: Properties, methods, and events
                       href: access/desktop-database-reference/group-properties-methods-and-events-adox.md
-                  - name: Index object (ADOX)
+                  - name: Index
                     href: access/desktop-database-reference/index-object-adox-reference.md
                     items:
-                    - name: Index object (ADOX)
+                    - name: Index object
                       href: access/desktop-database-reference/index-object-adox.md
                     - name: Properties, methods, and events
                       href: access/desktop-database-reference/index-properties-methods-and-events-adox.md
-                  - name: Key object (ADOX)
+                  - name: Key
                     href: access/desktop-database-reference/key-object-adox-reference.md
                     items:
-                    - name: Key object (ADOX)
+                    - name: Key object
                       href: access/desktop-database-reference/key-object-adox.md
                     - name: Properties, methods, and events
                       href: access/desktop-database-reference/key-properties-methods-and-events-adox.md
-                  - name: Procedure object (ADOX)
+                  - name: Procedure
                     href: access/desktop-database-reference/procedure-object-adox-reference.md
                     items:
-                    - name: Procedure object (ADOX)
+                    - name: Procedure object
                       href: access/desktop-database-reference/procedure-object-adox.md
                     - name: Properties, methods, and events
                       href: access/desktop-database-reference/procedure-properties-methods-and-events-adox.md
-                  - name: Table object (ADOX)
+                  - name: Table
                     href: access/desktop-database-reference/table-object-adox-reference.md
                     items:
-                    - name: Table object (ADOX)
+                    - name: Table object
                       href: access/desktop-database-reference/table-object-adox.md
                     - name: Properties, methods, and events
                       href: access/desktop-database-reference/table-properties-methods-and-events-adox.md
-                  - name: User object (ADOX)
+                  - name: User
                     href: access/desktop-database-reference/user-object-adox-reference.md
                     items:
-                    - name: User object (ADOX)
+                    - name: User object
                       href: access/desktop-database-reference/user-object-adox.md
                     - name: Properties, methods, and events
                       href: access/desktop-database-reference/user-properties-methods-and-events-adox.md
-                  - name: View object (ADOX)
+                  - name: View
                     href: access/desktop-database-reference/view-object-adox-reference.md
                     items:
-                    - name: View object (ADOX)
+                    - name: View object
                       href: access/desktop-database-reference/view-object-adox.md
                     - name: Properties, methods, and events
                       href: access/desktop-database-reference/view-properties-methods-and-events-adox.md
                 - name: ADOX collections
-                  href: access/desktop-database-reference/adox-collections-reference.md
+                  href: access/desktop-database-reference/adox-collections.md
                   items:
-                  - name: ADOX collections
-                    href: access/desktop-database-reference/adox-collections.md
-                  - name: Columns collection (ADOX)
+                  - name: Columns
                     href: access/desktop-database-reference/columns-collection-adox-reference.md
                     items:
-                    - name: Columns collection (ADOX)
+                    - name: Columns collection
                       href: access/desktop-database-reference/columns-collection-adox.md
-                    - name: Columns collection properties, methods, and events (ADOX)
+                    - name: Columns collection properties, methods, and events
                       href: access/desktop-database-reference/columns-collection-properties-methods-and-events-adox.md
-                  - name: Groups collection (ADOX)
+                  - name: Groups
                     href: access/desktop-database-reference/groups-collection-adox-reference.md
                     items:
-                    - name: Groups collection (ADOX)
+                    - name: Groups collection
                       href: access/desktop-database-reference/groups-collection-adox.md
-                    - name: Groups collection properties, methods, and events (ADOX)
+                    - name: Groups collection properties, methods, and events
                       href: access/desktop-database-reference/groups-collection-properties-methods-and-events-adox.md
-                  - name: Indexes collection (ADOX)
+                  - name: Indexes
                     href: access/desktop-database-reference/indexes-collection-adox-reference.md
                     items:
-                    - name: Indexes collection (ADOX)
+                    - name: Indexes collection
                       href: access/desktop-database-reference/indexes-collection-adox.md
-                    - name: Indexes collection properties, methods, and events (ADOX)
+                    - name: Indexes collection properties, methods, and events
                       href: access/desktop-database-reference/indexes-collection-properties-methods-and-events-adox.md
-                  - name: Keys collection (ADOX)
+                  - name: Keys
                     href: access/desktop-database-reference/keys-collection-adox-reference.md
                     items:
-                    - name: Keys collection (ADOX)
+                    - name: Keys collection
                       href: access/desktop-database-reference/keys-collection-adox.md
-                    - name: Keys collection properties, methods, and events (ADOX)
+                    - name: Keys collection properties, methods, and events
                       href: access/desktop-database-reference/keys-collection-properties-methods-and-events-adox.md
-                  - name: Procedures collection (ADOX)
+                  - name: Procedures
                     href: access/desktop-database-reference/procedures-collection-adox-reference.md
                     items:
-                    - name: Procedures collection (ADOX)
+                    - name: Procedures collection
                       href: access/desktop-database-reference/procedures-collection-adox.md
-                    - name: Procedures collection properties, methods, and events (ADOX)
+                    - name: Procedures collection properties, methods, and events
                       href: access/desktop-database-reference/procedures-collection-properties-methods-and-events-adox.md
-                  - name: Tables collection (ADOX)
+                  - name: Tables
                     href: access/desktop-database-reference/tables-collection-adox-reference.md
                     items:
-                    - name: Tables collection (ADOX)
+                    - name: Tables collection
                       href: access/desktop-database-reference/tables-collection-adox.md
-                    - name: Tables collection properties, methods, and events (ADOX)
+                    - name: Tables collection properties, methods, and events
                       href: access/desktop-database-reference/tables-collection-properties-methods-and-events-adox.md
-                  - name: Users collection (ADOX)
+                  - name: Users
                     href: access/desktop-database-reference/users-collection-adox-reference.md
                     items:
-                    - name: Users collection (ADOX)
+                    - name: Users collection
                       href: access/desktop-database-reference/users-collection-adox.md
-                    - name: Users collection properties, methods, and events (ADOX)
+                    - name: Users collection properties, methods, and events
                       href: access/desktop-database-reference/users-collection-properties-methods-and-events-adox.md
-                  - name: Views collection (ADOX)
+                  - name: Views
                     href: access/desktop-database-reference/views-collection-adox-reference.md
                     items:
-                    - name: Views collection (ADOX)
+                    - name: Views collection
                       href: access/desktop-database-reference/views-collection-adox.md
-                    - name: Views collection properties, methods, and events (ADOX)
+                    - name: Views collection properties, methods, and events
                       href: access/desktop-database-reference/views-collection-properties-methods-and-events-adox.md
                 - name: ADOX properties
-                  href: access/desktop-database-reference/adox-properties-reference.md
+                  href: access/desktop-database-reference/adox-properties.md
                   items:
-                  - name: ADOX properties
-                    href: access/desktop-database-reference/adox-properties.md
-                  - name: ActiveConnection property (ADOX)
+                  - name: ActiveConnection property
                     href: access/desktop-database-reference/activeconnection-property-adox.md
-                  - name: Attributes property (ADOX)
+                  - name: Attributes property
                     href: access/desktop-database-reference/attributes-property-adox.md
-                  - name: Clustered property (ADOX)
+                  - name: Clustered property
                     href: access/desktop-database-reference/clustered-property-adox.md
-                  - name: Command property (ADOX)
+                  - name: Command property
                     href: access/desktop-database-reference/command-property-adox.md
-                  - name: DateCreated property (ADOX)
+                  - name: DateCreated property
                     href: access/desktop-database-reference/datecreated-property-adox.md
-                  - name: DateModified property (ADOX)
+                  - name: DateModified property
                     href: access/desktop-database-reference/datemodified-property-adox.md
-                  - name: DefinedSize property (ADOX)
+                  - name: DefinedSize property
                     href: access/desktop-database-reference/definedsize-property-adox.md
-                  - name: DeleteRule property (ADOX)
+                  - name: DeleteRule property
                     href: access/desktop-database-reference/deleterule-property-adox.md
-                  - name: IndexNulls property (ADOX)
+                  - name: IndexNulls property
                     href: access/desktop-database-reference/indexnulls-property-adox.md
-                  - name: Name property (ADOX)
+                  - name: Name property
                     href: access/desktop-database-reference/name-property-adox.md
-                  - name: NumericScale property (ADOX)
+                  - name: NumericScale property
                     href: access/desktop-database-reference/numericscale-property-adox.md
-                  - name: ParentCatalog property (ADOX)
+                  - name: ParentCatalog property
                     href: access/desktop-database-reference/parentcatalog-property-adox.md
-                  - name: Precision property (ADOX)
+                  - name: Precision property
                     href: access/desktop-database-reference/precision-property-adox.md
-                  - name: PrimaryKey property (ADOX)
+                  - name: PrimaryKey property
                     href: access/desktop-database-reference/primarykey-property-adox.md
-                  - name: RelatedColumn property (ADOX)
+                  - name: RelatedColumn property
                     href: access/desktop-database-reference/relatedcolumn-property-adox.md
-                  - name: RelatedTable property (ADOX)
+                  - name: RelatedTable property
                     href: access/desktop-database-reference/relatedtable-property-adox.md
-                  - name: SortOrder property (ADOX)
+                  - name: SortOrder property
                     href: access/desktop-database-reference/sortorder-property-adox.md
-                  - name: Unique property (ADOX)
+                  - name: Unique property
                     href: access/desktop-database-reference/unique-property-adox.md
-                  - name: UpdateRule property (ADOX)
+                  - name: UpdateRule property
                     href: access/desktop-database-reference/updaterule-property-adox.md
                 - name: ADOX methods
-                  href: access/desktop-database-reference/adox-methods-reference.md
+                  href: access/desktop-database-reference/adox-methods.md
                   items:
-                  - name: ADOX methods
-                    href: access/desktop-database-reference/adox-methods.md
                   - name: Append method (ADOX Columns)
                     href: access/desktop-database-reference/append-method-adox-columns.md
                   - name: Append method (ADOX Groups)
@@ -3518,23 +3508,21 @@
                     href: access/desktop-database-reference/append-method-adox-users.md
                   - name: Append method (ADOX Views)
                     href: access/desktop-database-reference/append-method-adox-views.md
-                  - name: ChangePassword method (ADOX)
+                  - name: ChangePassword method
                     href: access/desktop-database-reference/changepassword-method-adox.md
-                  - name: Create method (ADOX)
+                  - name: Create method
                     href: access/desktop-database-reference/create-method-adox.md
                   - name: Delete method (ADOX collections)
                     href: access/desktop-database-reference/delete-method-adox-collections.md
-                  - name: GetObjectOwner method (ADOX)
+                  - name: GetObjectOwner method
                     href: access/desktop-database-reference/getobjectowner-method-adox.md
-                  - name: GetPermissions method (ADOX)
+                  - name: GetPermissions method
                     href: access/desktop-database-reference/getpermissions-method-adox.md
-                  - name: SetPermissions method (ADOX)
+                  - name: SetPermissions method
                     href: access/desktop-database-reference/setpermissions-method-adox.md
-                - name: ADOX Enumerated Constants
-                  href: access/desktop-database-reference/adox-enumerated-constants-reference.md
+                - name: ADOX enumerated constants
+                  href: access/desktop-database-reference/adox-enumerated-constants.md
                   items:
-                  - name: ADOX Enumerated Constants
-                    href: access/desktop-database-reference/adox-enumerated-constants.md
                   - name: ActionEnum
                     href: access/desktop-database-reference/actionenum.md
                   - name: AllowNullsEnum
@@ -3551,16 +3539,12 @@
                     href: access/desktop-database-reference/ruleenum.md
                   - name: SortOrderEnum
                     href: access/desktop-database-reference/sortorderenum.md
-                - name: ADOX Code examples
-                  href: access/desktop-database-reference/adox-code-example-topics.md
+                - name: ADOX code examples
+                  href: access/desktop-database-reference/adox-code-examples.md
                   items:
-                  - name: ADOX Code examples
-                    href: access/desktop-database-reference/adox-code-examples.md
-                  - name: ADOX Code examples in Microsoft Visual Basic
-                    href: access/desktop-database-reference/adox-code-examples-in-microsoft-visual-basic-topics.md
+                  - name: ADOX code examples in Microsoft Visual Basic
+                    href: access/desktop-database-reference/adox-code-examples-in-microsoft-visual-basic.md
                     items:
-                    - name: ADOX Code examples in Microsoft Visual Basic
-                      href: access/desktop-database-reference/adox-code-examples-in-microsoft-visual-basic.md
                     - name: Attributes property example (VB)
                       href: access/desktop-database-reference/attributes-property-example-vb.md
                     - name: Catalog ActiveConnection property example (VB)
@@ -3619,11 +3603,9 @@
                       href: access/desktop-database-reference/views-delete-method-example-vb.md
                     - name: Views Refresh method example (VB)
                       href: access/desktop-database-reference/views-refresh-method-example-vb.md
-                  - name: ADOX Code examples in Microsoft Visual C++
-                    href: access/desktop-database-reference/adox-code-examples-in-microsoft-visual-c-topics.md
+                  - name: ADOX code examples in Microsoft Visual C++
+                    href: access/desktop-database-reference/adox-code-examples-in-microsoft-visual-c.md
                     items:
-                    - name: ADOX Code examples in Microsoft Visual C++
-                      href: access/desktop-database-reference/adox-code-examples-in-microsoft-visual-c.md
                     - name: Attributes property example (VC++)
                       href: access/desktop-database-reference/attributes-property-example-vc.md
                     - name: Catalog ActiveConnection property example (VC++)
