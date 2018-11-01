@@ -1,6 +1,6 @@
 ﻿---
-title: ADO Dynamic Properties
-TOCTitle: ADO Dynamic Properties
+title: ADO dynamic properties
+TOCTitle: ADO dynamic properties
 ms:assetid: a908bc52-2cb0-89c7-a997-2cde93477e4d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249782(v=office.15)
 ms:contentKeyID: 48546915
@@ -8,8 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ADO Dynamic Properties
-
+# ADO dynamic properties
 
 **Applies to**: Access 2013, Office 2013
 
@@ -19,12 +18,18 @@ The [ADO Dynamic Property Index](ado-dynamic-property-index.md) provides a cross
 
 The following dynamic properties are of special interest, and are also documented in the sources mentioned above. Special functionality with ADO is documented in the ADO help topics listed below.
 
+<br/>
+
 <table>
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
 <tbody>
+<tr class="even">
+<th>Dynamic property</th>
+<th>Description</th>
+</tr>
 <tr class="odd">
 <td><p><a href="optimize-property-dynamic-ado.md">Optimize</a></p></td>
 <td><p>Specifies whether an index should be created on this field.</p></td>
@@ -43,7 +48,7 @@ The following dynamic properties are of special interest, and are also documente
 </tr>
 <tr class="odd">
 <td><p><a href="unique-table-unique-schema-unique-catalog-properties-dynamic-ado.md">Unique Table, Unique Schema, Unique Catalog</a></p></td>
-<td><p><strong>Unique Table</strong> — specifies the name of the base table upon which updates, insertions, and deletions are allowed. <strong>Unique Schema</strong> — specifies the schema, or name of the owner of the table. <strong>Unique Catalog</strong> — specifies the catalog, or name of the database containing the table.</p></td>
+<td><p><strong>Unique Table</strong> — specifies the name of the base table upon which updates, insertions, and deletions are allowed.<br/><br/><strong>Unique Schema</strong> — specifies the schema, or name of the owner of the table.<br/><br/><strong>Unique Catalog</strong> — specifies the catalog, or name of the database containing the table.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="update-resync-property-dynamic-ado.md">Update Resync</a></p></td>
@@ -51,4 +56,6 @@ The following dynamic properties are of special interest, and are also documente
 </tr>
 </tbody>
 </table>
+
+<br/>
 

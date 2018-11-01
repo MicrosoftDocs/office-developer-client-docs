@@ -1,6 +1,6 @@
 ﻿---
-title: ActiveX Data Objects (ADO) Events
-TOCTitle: ADO Events
+title: ActiveX Data Objects (ADO) events
+TOCTitle: ADO events
 ms:assetid: 84ca9525-99cb-4ba6-2a4d-172414b8f0cc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249576(v=office.15)
 ms:contentKeyID: 48546041
@@ -8,10 +8,11 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ADO Events
-
+# ADO events
 
 **Applies to**: Access 2013, Office 2013
+
+<br/>
 
 <table>
 <colgroup>
@@ -19,6 +20,10 @@ mtps_version: v=office.15
 <col style="width: 50%" />
 </colgroup>
 <tbody>
+<tr class="even">
+<th>Event</th>
+<th>Description</th>
+</tr>
 <tr class="odd">
 <td><p><a href="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado.md">BeginTransComplete</a></p></td>
 <td><p>Called after the <strong>BeginTrans</strong> operation.</p></td>
@@ -102,3 +107,4 @@ mtps_version: v=office.15
 </tbody>
 </table>
 
+<br/>

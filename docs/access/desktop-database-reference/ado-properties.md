@@ -1,6 +1,6 @@
 ﻿---
-title: ActiveX Data Objects (ADO) Properties
-TOCTitle: ADO Properties
+title: ActiveX Data Objects (ADO) properties
+TOCTitle: ADO properties
 ms:assetid: 04f08f22-6327-c603-229e-d06a9f1c0d83
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248809(v=office.15)
 ms:contentKeyID: 48543020
@@ -8,10 +8,11 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ADO Properties
-
+# ADO properties
 
 **Applies to**: Access 2013, Office 2013
+
+<br/>
 
 <table>
 <colgroup>
@@ -19,6 +20,10 @@ mtps_version: v=office.15
 <col style="width: 50%" />
 </colgroup>
 <tbody>
+<tr class="even">
+<th>Property</th>
+<th>Description</th>
+</tr>
 <tr class="odd">
 <td><p><a href="absolutepage-property-ado.md">AbsolutePage</a></p></td>
 <td><p>Indicates on which page the current record resides.</p></td>
@@ -244,7 +249,7 @@ mtps_version: v=office.15
 <td><p>Indicates the maximum size, in bytes or characters, of a <strong>Parameter</strong> object.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/jj250128(v=office.15)">Size (ADO Stream)</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream">Size (ADO Stream)</a></p></td>
 <td><p>Indicates the total size of the stream in number of bytes.</p></td>
 </tr>
 <tr class="even">
@@ -306,3 +311,4 @@ mtps_version: v=office.15
 </tbody>
 </table>
 
+<br/>

@@ -1,6 +1,6 @@
 ﻿---
-title: RDS Objects (Access desktop database reference)
-TOCTitle: RDS Objects
+title: RDS objects (Access desktop database reference)
+TOCTitle: RDS objects
 ms:assetid: f675369d-26da-fd96-6a52-4a333be57bef
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250254(v=office.15)
 ms:contentKeyID: 48548740
@@ -8,10 +8,11 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# RDS Objects
-
+# RDS objects
 
 **Applies to**: Access 2013, Office 2013
+
+<br/>
 
 <table>
 <colgroup>
@@ -19,6 +20,10 @@ mtps_version: v=office.15
 <col style="width: 50%" />
 </colgroup>
 <tbody>
+<tr class="even">
+<th>Object</th>
+<th>Description</th>
+</tr>
 <tr class="odd">
 <td><p><a href="datacontrol-object-rds.md">DataControl (RDS)</a></p></td>
 <td><p>Binds a data query <strong>Recordset</strong> to one or more controls (for example, a text box, grid control, or combo box) to display the <strong>Recordset</strong> data on a webpage.</p></td>
@@ -34,3 +39,4 @@ mtps_version: v=office.15
 </tbody>
 </table>
 
+<br/>

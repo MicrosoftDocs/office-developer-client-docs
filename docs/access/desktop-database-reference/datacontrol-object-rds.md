@@ -1,6 +1,6 @@
 ﻿---
-title: DataControl Object (RDS)
-TOCTitle: DataControl Object (RDS)
+title: DataControl object (RDS)
+TOCTitle: DataControl object (RDS)
 ms:assetid: ac430669-7628-696c-c036-b5d35405d788
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249801(v=office.15)
 ms:contentKeyID: 48547001
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# DataControl Object (RDS)
+# DataControl object (RDS)
 
 **Applies to**: Access 2013, Office 2013
 
