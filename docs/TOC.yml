@@ -3044,102 +3044,92 @@
                     - name: GetRows method example (JScript)
                       href: access/desktop-database-reference/getrows-method-example-jscript.md
               - name: RDS API reference
-                href: access/desktop-database-reference/rds-api-reference-topics.md
+                href: access/desktop-database-reference/rds-api-reference.md
                 items:
-                - name: RDS API reference
-                  href: access/desktop-database-reference/rds-api-reference.md
-                - name: RDS Objects
-                  href: access/desktop-database-reference/rds-objects-access.md
+                - name: RDS objects
+                  href: access/desktop-database-reference/rds-objects.md
                   items:
-                  - name: RDS Objects
-                    href: access/desktop-database-reference/rds-objects.md
-                  - name: DataControl object (RDS)
+                  - name: DataControl
                     href: access/desktop-database-reference/datacontrol-object-rds-ado.md
                     items:
-                    - name: DataControl object (RDS)
+                    - name: DataControl object
                       href: access/desktop-database-reference/datacontrol-object-rds.md
                     - name: Properties, methods, and events
                       href: access/desktop-database-reference/datacontrol-properties-methods-and-events-rds.md
-                  - name: DataFactoryObject (RDSServer)
+                  - name: DataFactory (RDSServer)
                     href: access/desktop-database-reference/datafactoryobject-rdsserver.md
                     items:
-                    - name: DataFactory object (RDSServer)
+                    - name: DataFactory object
                       href: access/desktop-database-reference/datafactory-object-rdsserver.md
                     - name: Properties, methods, and events
                       href: access/desktop-database-reference/datafactoryobject-properties-methods-and-events-rds.md
-                  - name: DataSpace object (RDS)
+                  - name: DataSpace
                     href: access/desktop-database-reference/dataspace-object-rds-ado.md
                     items:
-                    - name: DataSpace object (RDS)
+                    - name: DataSpace object
                       href: access/desktop-database-reference/dataspace-object-rds.md
                     - name: Properties, methods, and events
                       href: access/desktop-database-reference/dataspace-properties-methods-and-events-rds.md
                 - name: RDS properties
-                  href: access/desktop-database-reference/rds-properties-access.md
+                  href: access/desktop-database-reference/rds-properties.md
                   items:
-                  - name: RDS properties
-                    href: access/desktop-database-reference/rds-properties.md
-                  - name: Connect property (RDS)
+                  - name: Connect property
                     href: access/desktop-database-reference/connect-property-rds.md
-                  - name: ExecuteOptions property (RDS)
+                  - name: ExecuteOptions property
                     href: access/desktop-database-reference/executeoptions-property-rds.md
-                  - name: FetchOptions property (RDS)
+                  - name: FetchOptions property
                     href: access/desktop-database-reference/fetchoptions-property-rds.md
-                  - name: FilterColumn property (RDS)
+                  - name: FilterColumn property
                     href: access/desktop-database-reference/filtercolumn-property-rds.md
-                  - name: FilterCriterion property (RDS)
+                  - name: FilterCriterion property
                     href: access/desktop-database-reference/filtercriterion-property-rds.md
-                  - name: FilterValue property (RDS)
+                  - name: FilterValue property
                     href: access/desktop-database-reference/filtervalue-property-rds.md
-                  - name: Handler property (RDS)
+                  - name: Handler property
                     href: access/desktop-database-reference/handler-property-rds.md
-                  - name: InternetTimeout property (RDS)
+                  - name: InternetTimeout property
                     href: access/desktop-database-reference/internettimeout-property-rds.md
-                  - name: ReadyState property (RDS)
+                  - name: ReadyState property
                     href: access/desktop-database-reference/readystate-property-rds.md
-                  - name: Recordset, SourceRecordset properties (RDS)
+                  - name: Recordset, SourceRecordset properties
                     href: access/desktop-database-reference/recordset-sourcerecordset-properties-rds.md
-                  - name: Server property (RDS)
+                  - name: Server property
                     href: access/desktop-database-reference/server-property-rds.md
-                  - name: SortColumn property (RDS)
+                  - name: SortColumn property
                     href: access/desktop-database-reference/sortcolumn-property-rds.md
-                  - name: SortDirection property (RDS)
+                  - name: SortDirection property
                     href: access/desktop-database-reference/sortdirection-property-rds.md
-                  - name: URL property (RDS)
+                  - name: URL property
                     href: access/desktop-database-reference/url-property-rds.md
                 - name: RDS methods
-                  href: access/desktop-database-reference/rds-methods-access.md
+                  href: access/desktop-database-reference/rds-methods.md
                   items:
-                  - name: RDS methods
-                    href: access/desktop-database-reference/rds-methods.md
-                  - name: Cancel method (RDS)
+                  - name: Cancel method
                     href: access/desktop-database-reference/cancel-method-rds.md
-                  - name: CancelUpdate method (RDS)
+                  - name: CancelUpdate method
                     href: access/desktop-database-reference/cancelupdate-method-rds.md
-                  - name: ConvertToString method (RDS)
+                  - name: ConvertToString method
                     href: access/desktop-database-reference/converttostring-method-rds.md
-                  - name: CreateObject method (RDS)
+                  - name: CreateObject method
                     href: access/desktop-database-reference/createobject-method-rds.md
-                  - name: CreateRecordset method (RDS)
+                  - name: CreateRecordset method
                     href: access/desktop-database-reference/createrecordset-method-rds.md
-                  - name: MoveFirst, MoveLast, MoveNext, and MovePrevious methods (RDS)
+                  - name: MoveFirst, MoveLast, MoveNext, and MovePrevious methods
                     href: access/desktop-database-reference/movefirst-movelast-movenext-and-moveprevious-methods-rds.md
-                  - name: Query method (RDS)
+                  - name: Query method
                     href: access/desktop-database-reference/query-method-rds.md
-                  - name: Refresh method (RDS)
+                  - name: Refresh method
                     href: access/desktop-database-reference/refresh-method-rds.md
-                  - name: Reset method (RDS)
+                  - name: Reset method
                     href: access/desktop-database-reference/reset-method-rds.md
-                  - name: SubmitChanges method (RDS)
+                  - name: SubmitChanges method
                     href: access/desktop-database-reference/submitchanges-method-rds.md
                 - name: RDS events
-                  href: access/desktop-database-reference/rds-events-access.md
+                  href: access/desktop-database-reference/rds-events.md
                   items:
-                  - name: RDS events
-                    href: access/desktop-database-reference/rds-events.md
-                  - name: onError event (RDS)
+                  - name: onError event
                     href: access/desktop-database-reference/onerror-event-rds.md
-                  - name: onReadyStateChange event (RDS)
+                  - name: onReadyStateChange event
                     href: access/desktop-database-reference/onreadystatechange-event-rds.md
               - name: ADO MD API reference
                 href: access/desktop-database-reference/ado-md-api-reference-topics.md
