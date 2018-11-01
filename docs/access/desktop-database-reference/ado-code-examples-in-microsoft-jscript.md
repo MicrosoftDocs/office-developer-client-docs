@@ -17,31 +17,21 @@ Use the following code examples to learn how to use the ADO methods, properties,
 > [!NOTE]
 > Paste the entire code example, from beginning to end, into your code editor. The example may not run correctly if partial examples are used or if paragraph formatting is lost.
 
-**Methods**
+## Methods
 
-  - [AddNew Method Example](addnew-method-example-jscript.md)
+- [AddNew method example](addnew-method-example-jscript.md)
+- [Append and CreateParameter methods example](append-and-createparameter-methods-example-jscript.md)
+- [Execute, Requery, and Clear methods example](execute-requery-and-clear-methods-example-jscript.md)
+- [Find method example](find-method-example-jscript.md)
+- [GetRows method example](getrows-method-example-vb.md)
 
-  - [Append and CreateParameter Methods Example](append-and-createparameter-methods-example-jscript.md)
+## Properties
 
-  - [Execute, Requery, and Clear Methods Example](execute-requery-and-clear-methods-example-jscript.md)
-
-  - [Find Method Example](find-method-example-jscript.md)
-
-  - [GetRows Method Example](getrows-method-example-vb.md)
-
-**Properties**
-
-  - [AbsolutePage, PageCount, and PageSize properties example](absolutepage-pagecount-and-pagesize-properties-example-jscript.md)
-
-  - [AbsolutePosition and CursorLocation properties example](absoluteposition-and-cursorlocation-properties-example-jscript.md)
-
-  - [ActiveCommand property example](activecommand-property-example-jscript.md)
-
-  - [ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-jscript.md)
-
-  - [ActualSize and DefinedSize properties example](actualsize-and-definedsize-properties-example-jscript.md)
-
-  - [CacheSize property example](cachesize-property-example-jscript.md)
-
-  - [Filter and RecordCount properties example](filter-and-recordcount-properties-example-jscript.md)
+- [AbsolutePage, PageCount, and PageSize properties example](absolutepage-pagecount-and-pagesize-properties-example-jscript.md)
+- [AbsolutePosition and CursorLocation properties example](absoluteposition-and-cursorlocation-properties-example-jscript.md)
+- [ActiveCommand property example](activecommand-property-example-jscript.md)
+- [ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-jscript.md)
+- [ActualSize and DefinedSize properties example](actualsize-and-definedsize-properties-example-jscript.md)
+- [CacheSize property example](cachesize-property-example-jscript.md)
+- [Filter and RecordCount properties example](filter-and-recordcount-properties-example-jscript.md)
 

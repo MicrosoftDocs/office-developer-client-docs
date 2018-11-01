@@ -1,6 +1,6 @@
 ﻿---
-title: ActiveX Data Objects (ADO) MD Properties
-TOCTitle: ADO MD Properties
+title: ActiveX Data Objects (ADO) MD properties
+TOCTitle: ADO MD properties
 ms:assetid: 401085e7-758e-92c8-6f8d-cc8af3ce954c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249180(v=office.15)
 ms:contentKeyID: 48544416
@@ -8,10 +8,11 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ADO MD Properties
-
+# ADO MD properties
 
 **Applies to**: Access 2013, Office 2013
+
+<br/>
 
 <table>
 <colgroup>
@@ -19,6 +20,10 @@ mtps_version: v=office.15
 <col style="width: 50%" />
 </colgroup>
 <tbody>
+<tr class="even">
+<th>Property</th>
+<th>Description</th>
+</tr>
 <tr class="odd">
 <td><p><a href="activeconnection-property-ado-md.md">ActiveConnection</a></p></td>
 <td><p>Indicates to which ADO <strong>Connection</strong> object the current cellset or catalog currently belongs.</p></td>
@@ -122,3 +127,4 @@ mtps_version: v=office.15
 </tbody>
 </table>
 
+<br/>

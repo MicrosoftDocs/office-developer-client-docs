@@ -1,6 +1,6 @@
 ﻿---
-title: ADOX Enumerated Constants
-TOCTitle: ADOX Enumerated Constants
+title: ADOX enumerated constants
+TOCTitle: ADOX enumerated constants
 ms:assetid: 0ad716a0-8801-50cb-024a-85c308c65c78
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248840(v=office.15)
 ms:contentKeyID: 48543163
@@ -8,14 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ADOX Enumerated Constants
-
+# ADOX enumerated constants
 
 **Applies to**: Access 2013, Office 2013
 
 To assist debugging, the ADOX enumerated constants list a value for each constant. However, this value is purely advisory, and may change from one release of ADOX to another. Your code should only depend on the name, not the actual value, of enumerated constants.
 
 The following enumerated constants are defined.
+
+<br/>
 
 <table>
 <colgroup>

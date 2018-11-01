@@ -1,6 +1,6 @@
 ﻿---
-title: DataControl Properties, Methods, and Events (RDS)
-TOCTitle: Properties, Methods, and Events
+title: DataControl properties, methods, and events (RDS)
+TOCTitle: Properties, methods, and events
 ms:assetid: 93590783-2102-534c-6639-212ae9d63fe0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249652(v=office.15)
 ms:contentKeyID: 48546397
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# DataControl Properties, Methods, and Events (RDS)
+# DataControl properties, methods, and events (RDS)
 
 **Applies to**: Access 2013, Office 2013
 

@@ -1,6 +1,6 @@
 ﻿---
-title: ActiveX Data Objects (ADO) Methods
-TOCTitle: ADO Methods
+title: ActiveX Data Objects (ADO) methods
+TOCTitle: ADO methods
 ms:assetid: 1fd965a0-711c-e199-822c-b9575c5034bd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248984(v=office.15)
 ms:contentKeyID: 48543651
@@ -8,10 +8,11 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ADO Methods
-
+# ADO methods
 
 **Applies to**: Access 2013, Office 2013
+
+<br/>
 
 <table>
 <colgroup>
@@ -19,6 +20,10 @@ mtps_version: v=office.15
 <col style="width: 50%" />
 </colgroup>
 <tbody>
+<tr class="even">
+<th>Method</th>
+<th>Description</th>
+</tr>
 <tr class="odd">
 <td><p><a href="addnew-method-ado.md">AddNew</a></p></td>
 <td><p>Creates a new record for an updatable <strong>Recordset</strong> object.</p></td>
@@ -33,8 +38,8 @@ mtps_version: v=office.15
 </tr>
 <tr class="even">
 <td><p><a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">BeginTrans, CommitTrans, and RollbackTrans</a></p></td>
-<td><p>Manages transaction processing within a <strong>Connection</strong> object as follows: <strong>BeginTrans</strong> — Begins a new transaction.<br />
-<strong>CommitTrans</strong> — Saves any changes and ends the current transaction. It may also start a new transaction.<br />
+<td><p>Manages transaction processing within a <strong>Connection</strong> object as follows:<br/><br/><strong>BeginTrans</strong> — Begins a new transaction.<br/><br/>
+<strong>CommitTrans</strong> — Saves any changes and ends the current transaction. It may also start a new transaction.<br/><br/>
 <strong>RollbackTrans</strong> — Cancels any changes and ends the current transaction. It may also start a new transaction.</p></td>
 </tr>
 <tr class="odd">
@@ -232,3 +237,4 @@ mtps_version: v=office.15
 </tbody>
 </table>
 
+<br/>

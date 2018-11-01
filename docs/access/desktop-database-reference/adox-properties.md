@@ -1,6 +1,6 @@
 ﻿---
-title: ADOX Properties (Access desktop database reference)
-TOCTitle: ADOX Properties
+title: ADOX properties (Access desktop database reference)
+TOCTitle: ADOX properties
 ms:assetid: 7559af18-83a4-dc7f-015f-6a7c55c520d8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249480(v=office.15)
 ms:contentKeyID: 48545675
@@ -8,16 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ADOX Properties
-
+# ADOX properties
 
 **Applies to**: Access 2013, Office 2013
+
+<br/>
 
 <table>
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
+<thead>
+<tr class="header">
+<th><p>Property</p></th>
+<th><p>Description</p></th>
+</tr>
+</thead>
 <tbody>
 <tr class="odd">
 <td><p><a href="activeconnection-property-adox.md">ActiveConnection</a></p></td>

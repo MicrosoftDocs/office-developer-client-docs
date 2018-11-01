@@ -1,6 +1,6 @@
 ﻿---
-title: DataFactoryObject Properties, Methods, and Events (RDS)
-TOCTitle: Properties, Methods, and Events
+title: DataFactory properties, methods, and events (RDS)
+TOCTitle: Properties, methods, and events
 ms:assetid: d5df9160-2931-7773-f75a-8065881d9487
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250075(v=office.15)
 ms:contentKeyID: 48547971
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# DataFactoryObject Properties, Methods, and Events (RDS)
+# DataFactory properties, methods, and events (RDS)
 
 
 **Applies to**: Access 2013, Office 2013

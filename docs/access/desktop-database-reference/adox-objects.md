@@ -1,6 +1,6 @@
 ﻿---
-title: ADOX Objects (Access desktop database reference)
-TOCTitle: ADOX Objects
+title: ADOX objects (Access desktop database reference)
+TOCTitle: ADOX objects
 ms:assetid: d7db1aed-251b-888b-bc44-f61caeeac403
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250087(v=office.15)
 ms:contentKeyID: 48548018
@@ -8,12 +8,13 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ADOX Objects
-
+# ADOX objects
 
 **Applies to**: Access 2013, Office 2013
 
-**ADOX Object Summary**
+Each object can be contained in its corresponding collection. For example, a **Table** object can be contained in a [Tables](tables-collection-adox.md) collection. For more information, see [ADOX collections](adox-collections.md) or a specific collection topic.
+
+<br/>
 
 <table>
 <colgroup>
@@ -66,6 +67,7 @@ mtps_version: v=office.15
 </tbody>
 </table>
 
+<br/>
 
-Each object can be contained in its corresponding collection. For example, a **Table** object can be contained in a [Tables](tables-collection-adox.md) collection. For more information, see [ADOX Collections](adox-collections.md) or a specific collection topic.
+
 
