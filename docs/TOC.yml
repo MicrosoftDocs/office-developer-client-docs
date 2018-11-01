@@ -2652,7 +2652,7 @@
                 - name: ADO code examples
                   href: access/desktop-database-reference/ado-code-examples.md
                   items:
-                  - method exampleMicrosoft Visual Basic
+                  - name: ADO code examples in Microsoft Visual Basic 
                     href: access/desktop-database-reference/ado-code-examples-in-microsoft-visual-basic.md
                     items:
                     - name: AbsolutePage, PageCount, and PageSize properties example (VB)
