@@ -19,7 +19,7 @@ mtps_version: v=office.15
 - [Data import/export](data-import-export.md)
 - [Data macro events](data-macro-events.md)
 - [Database objects](database-objects.md)
-- [Filter/Query/Search](filter-query-search.md)
+- [Filter/query/search](filter-query-search.md)
 - [Macro commands](macro-commands.md)
 - [Program flow](program-flow.md)
 - [System commands](system-commands.md)

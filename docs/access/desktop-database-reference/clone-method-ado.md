@@ -27,15 +27,15 @@ Returns a **Recordset** object reference.
 
 ## Parameters
 
-  - *rstDuplicate*
+- *rstDuplicate*
 
   - An object variable that identifies the duplicate **Recordset** object to be created.
 
-  - *rstOriginal*
+- *rstOriginal*
 
   - An object variable that identifies the **Recordset** object to be duplicated.
 
-  - *LockType*
+- *LockType*
 
   - Optional. A [LockTypeEnum](locktypeenum.md) value that specifies either the lock type of the original **Recordset**, or a read-only **Recordset**. Valid values are **adLockUnspecified** or **adLockReadOnly**.
 

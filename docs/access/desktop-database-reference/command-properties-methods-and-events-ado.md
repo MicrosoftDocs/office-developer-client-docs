@@ -15,31 +15,21 @@ mtps_version: v=office.15
 
 ## Properties/Collections
 
-- [ActiveConnection Property](activeconnection-property-ado.md)
-
-- [CommandText Property](commandtext-property-ado.md)
-
-- [CommandTimeout Property](commandtimeout-property-ado.md)
-
-- [CommandType Property](commandtype-property-ado.md)
-
-- [Name Property](name-property-ado.md)
-
-- [Parameters Collection](parameters-collection-ado.md)
-
-- [Prepared Property](prepared-property-ado.md)
-
-- [Properties Collection](properties-collection-ado.md)
-
-- [State Property](state-property-ado.md)
+- [ActiveConnection property](activeconnection-property-ado.md)
+- [CommandText property](commandtext-property-ado.md)
+- [CommandTimeout property](commandtimeout-property-ado.md)
+- [CommandType property](commandtype-property-ado.md)
+- [Name property](name-property-ado.md)
+- [Parameters collection](parameters-collection-ado.md)
+- [Prepared property](prepared-property-ado.md)
+- [Properties collection](properties-collection-ado.md)
+- [State property](state-property-ado.md)
 
 ## Methods
 
-- [Cancel Method](cancel-method-ado.md)
-
-- [CreateParameter Method](createparameter-method-ado.md)
-
-- [Execute Method (ADO Command)](https://msdn.microsoft.com/library/jj248785\(v=office.15\))
+- [Cancel method](cancel-method-ado.md)
+- [CreateParameter method](createparameter-method-ado.md)
+- [Execute method (ADO Command)](https://msdn.microsoft.com/library/jj248785\(v=office.15\))
 
 ## Events
 

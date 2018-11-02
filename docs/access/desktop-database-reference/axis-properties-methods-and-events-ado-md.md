@@ -16,13 +16,10 @@ mtps_version: v=office.15
 
 ## Properties/Collections
 
-- [DimensionCount Property](dimensioncount-property-ado-md.md)
-
-- [Name Property](name-property-ado-md.md)
-
-- [Positions Collection](positions-collection-ado-md.md)
-
-- [Properties Collection](properties-collection-ado.md)
+- [DimensionCount property](dimensioncount-property-ado-md.md)
+- [Name property](name-property-ado-md.md)
+- [Positions collection](positions-collection-ado-md.md)
+- [Properties collection](properties-collection-ado.md)
 
 ## Methods
 

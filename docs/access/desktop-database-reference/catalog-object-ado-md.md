@@ -19,9 +19,9 @@ Contains multidimensional schema information (that is, cubes and underlying dime
 
 With the collections and properties of a **Catalog** object, you can do the following:
 
-  - Open the catalog by setting the [ActiveConnection](activeconnection-property-ado-md.md) property to a standard ADO [Connection](connection-object-ado.md) object or to a valid connection string.
+- Open the catalog by setting the [ActiveConnection](activeconnection-property-ado-md.md) property to a standard ADO [Connection](connection-object-ado.md) object or to a valid connection string.
 
-  - Identify the **Catalog** with the [Name](name-property-ado-md.md) property.
+- Identify the **Catalog** with the [Name](name-property-ado-md.md) property.
 
-  - Iterate through the cubes in a catalog using the [CubeDefs](cubedefs-collection-ado-md.md) collection.
+- Iterate through the cubes in a catalog using the [CubeDefs](cubedefs-collection-ado-md.md) collection.
 

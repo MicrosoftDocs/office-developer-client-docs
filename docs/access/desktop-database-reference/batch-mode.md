@@ -1,6 +1,6 @@
 ﻿---
-title: Batch Mode (Access desktop database reference)
-TOCTitle: Batch Mode
+title: Batch mode (Access desktop database reference)
+TOCTitle: Batch mode
 ms:assetid: b73921f6-5a12-9b26-ea65-99b32dd763f6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249883(v=office.15)
 ms:contentKeyID: 48547294
@@ -8,8 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Batch Mode
-
+# Batch mode
 
 **Applies to**: Access 2013, Office 2013
 
@@ -19,15 +18,10 @@ The **UpdateBatch** method is used to send **Recordset** changes held in the cop
 
 This section includes the following topics:
 
-- [Sending the Updates: UpdateBatch](sending-the-updates-updatebatch.md)
-
-- [Filtering for Updated Records](filtering-for-updated-records.md)
-
-- [Dealing with Failed Updates](dealing-with-failed-updates.md)
-
-- [Detecting and Resolving Conflicts](detecting-and-resolving-conflicts.md)
-
-- [Disconnecting and Reconnecting the Recordset](disconnecting-and-reconnecting-the-recordset.md)
-
-- [Updating JOINed Results: Unique Table](updating-joined-results-unique-table.md)
+- [Sending the updates: UpdateBatch](sending-the-updates-updatebatch.md)
+- [Filtering for updated records](filtering-for-updated-records.md)
+- [Dealing with failed updates](dealing-with-failed-updates.md)
+- [Detecting and resolving conflicts](detecting-and-resolving-conflicts.md)
+- [Disconnecting and reconnecting the Recordset](disconnecting-and-reconnecting-the-recordset.md)
+- [Updating JOINed results: Unique Table](updating-joined-results-unique-table.md)
 

@@ -15,25 +15,16 @@ mtps_version: v=office.15
 
 ## Properties/Collections
 
-- [Attributes Property](attributes-property-adox.md)
-
-- [DefinedSize Property](definedsize-property-adox.md)
-
-- [Name Property](name-property-adox.md)
-
-- [NumericScale Property](numericscale-property-adox.md)
-
-- [ParentCatalog Property](parentcatalog-property-adox.md)
-
-- [Precision Property](precision-property-adox.md)
-
-- [Properties Collection](properties-collection-ado.md)
-
-- [RelatedColumn Property](relatedcolumn-property-adox.md)
-
-- [SortOrder Property](sortorder-property-adox.md)
-
-- [Type Property (Column)](https://msdn.microsoft.com/library/jj249169\(v=office.15\))
+- [Attributes property](attributes-property-adox.md)
+- [DefinedSize property](definedsize-property-adox.md)
+- [Name property](name-property-adox.md)
+- [NumericScale property](numericscale-property-adox.md)
+- [ParentCatalog property](parentcatalog-property-adox.md)
+- [Precision property](precision-property-adox.md)
+- [Properties collection](properties-collection-ado.md)
+- [RelatedColumn property](relatedcolumn-property-adox.md)
+- [SortOrder property](sortorder-property-adox.md)
+- [Type property (Column)](https://msdn.microsoft.com/library/jj249169\(v=office.15\))
 
 ## Methods
 

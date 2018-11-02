@@ -23,11 +23,11 @@ Changes the password for a user account.
 
 ## Parameters
 
-  - *OldPassword*
+- *OldPassword*
 
   - A **String** value that specifies the user's existing password. If the user doesn't currently have a password, use an empty string ("") for *OldPassword*.
 
-  - *NewPassword*
+- *NewPassword*
 
   - A **String** value that specifies the new password.
 

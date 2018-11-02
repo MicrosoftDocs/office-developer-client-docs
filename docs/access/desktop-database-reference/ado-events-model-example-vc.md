@@ -10,34 +10,33 @@ mtps_version: v=office.15
 
 # ADO Events Model example (VC++)
 
-
 **Applies to**: Access 2013, Office 2013
 
 The Visual C++ section of [ADO Event Instantiation by Language](https://msdn.microsoft.com/library/jj250244\(v=office.15\)) gives a general description of how to instantiate the ADO event model. The following is a specific example of instantiating the event model within the environment created by the **\#import** directive.
 
 The general description uses **adoint.h** as a reference for method signatures. However, a few details in the general description change slightly as a result of using the **\#import** directive:
 
-  - The **\#import** directive resolves **typedef**'s, and method signature data types and modifiers to their fundamental forms.
+- The **\#import** directive resolves **typedef**'s, and method signature data types and modifiers to their fundamental forms.
 
-  - The pure virtual methods that must be overwritten are all prefixed by "**raw\_**".
+- The pure virtual methods that must be overwritten are all prefixed by "**raw\_**".
 
 Some of the code simply reflects coding style.
 
-  - The pointer to **IUnknown** used by the **Advise** method is obtained explicitly with a call to **QueryInterface**.
+- The pointer to **IUnknown** used by the **Advise** method is obtained explicitly with a call to **QueryInterface**.
 
-  - You don't need to explicitly code a destructor in the class definitions.
+- You don't need to explicitly code a destructor in the class definitions.
 
-  - You may want to code more robust implementations of QueryInterface, AddRef, and Release.
+- You may want to code more robust implementations of QueryInterface, AddRef, and Release.
 
-  - The **\_\_uuidof()** directive is used extensively to obtain interface IDs.
+- The **\_\_uuidof()** directive is used extensively to obtain interface IDs.
 
 Finally, the example contains some working code.
 
-  - The example is written as a console application.
+- The example is written as a console application.
 
-  - You should insert your own code under the comment, "// Do some work ".
+- You should insert your own code under the comment, "// Do some work ".
 
-  - All the event handlers default to doing nothing, and canceling further notifications. You should insert the appropriate code for your application, and allow notifications if required.
+- All the event handlers default to doing nothing, and canceling further notifications. You should insert the appropriate code for your application, and allow notifications if required.
 
 <!-- end list -->
 

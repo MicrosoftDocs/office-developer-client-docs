@@ -1,6 +1,6 @@
 ﻿---
-title: ADO Java Class Wrappers
-TOCTitle: ADO Java Class Wrappers
+title: ADO Java class wrappers
+TOCTitle: ADO Java class wrappers
 ms:assetid: de50faf0-80f3-f295-3d9e-3f70f86c3ede
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250126(v=office.15)
 ms:contentKeyID: 48548183
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ADO Java Class Wrappers
+# ADO Java class wrappers
 
 
 **Applies to**: Access 2013, Office 2013

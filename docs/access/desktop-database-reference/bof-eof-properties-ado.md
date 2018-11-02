@@ -13,9 +13,9 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013, Office 2013
 
-  - **BOF** — Indicates that the current record position is before the first record in a [Recordset](recordset-object-ado.md) object.
+**BOF** — Indicates that the current record position is before the first record in a [Recordset](recordset-object-ado.md) object.
 
-  - **EOF** — Indicates that the current record position is after the last record in a **Recordset** object.
+**EOF** — Indicates that the current record position is after the last record in a **Recordset** object.
 
 ## Return value
 

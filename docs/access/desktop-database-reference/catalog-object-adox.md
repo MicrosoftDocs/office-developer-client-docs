@@ -21,9 +21,9 @@ You can modify the **Catalog** object by adding or removing objects or by modify
 
 With the properties and methods of a **Catalog** object, you can:
 
-  - Open the catalog by setting the [ActiveConnection](activeconnection-property-adox.md) property to an ADO [Connection](connection-object-ado.md) object or a valid connection string.
+- Open the catalog by setting the [ActiveConnection](activeconnection-property-adox.md) property to an ADO [Connection](connection-object-ado.md) object or a valid connection string.
 
-  - Create a new catalog with the [Create](create-method-adox.md) method.
+- Create a new catalog with the [Create](create-method-adox.md) method.
 
-  - Determine the owners of the objects in a **Catalog** with the [GetObjectOwner](getobjectowner-method-adox.md) and [SetObjectOwner](https://msdn.microsoft.com/library/jj249006\(v=office.15\)) methods.
+- Determine the owners of the objects in a **Catalog** with the [GetObjectOwner](getobjectowner-method-adox.md) and [SetObjectOwner](https://msdn.microsoft.com/library/jj249006\(v=office.15\)) methods.
 

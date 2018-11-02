@@ -14,25 +14,18 @@ mtps_version: v=office.15
 
 ## Properties/Collections
 
-- [ActiveConnection Property](activeconnection-property-adox.md)
-
-- [Groups Collection](groups-collection-adox.md)
-
-- [Procedures Collection](procedures-collection-adox.md)
-
-- [Tables Collection](tables-collection-adox.md)
-
-- [Users Collection](users-collection-adox.md)
-
-- [Views Collection](views-collection-adox.md)
+- [ActiveConnection property](activeconnection-property-adox.md)
+- [Groups collection](groups-collection-adox.md)
+- [Procedures collection](procedures-collection-adox.md)
+- [Tables collection](tables-collection-adox.md)
+- [Users collection](users-collection-adox.md)
+- [Views collection](views-collection-adox.md)
 
 ## Methods
 
-- [Create Method](create-method-adox.md)
-
-- [GetObjectOwner Method](getobjectowner-method-adox.md)
-
-- [SetObjectOwner Method](https://msdn.microsoft.com/library/jj249006\(v=office.15\))
+- [Create method](create-method-adox.md)
+- [GetObjectOwner method](getobjectowner-method-adox.md)
+- [SetObjectOwner method](https://msdn.microsoft.com/library/jj249006\(v=office.15\))
 
 ## Events
 

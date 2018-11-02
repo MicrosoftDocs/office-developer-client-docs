@@ -24,11 +24,11 @@ HRESULT put\_Chapter(\[in\] long lChapter);
 
 ## Parameters
 
-  - *plChapter*
+- *plChapter*
 
   - Pointer to the handle of a chapter.
 
-  - *LChapter*
+- *LChapter*
 
   - Handle of a chapter.
 
