@@ -10,18 +10,11 @@ mtps_version: v=office.15
 
 # TableDef methods (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
-
-
-  - [TableDef.CreateField method (DAO)](tabledef-createfield-method-dao.md)
-
-  - [TableDef.CreateIndex method (DAO)](tabledef-createindex-method-dao.md)
-
-  - [TableDef.CreateProperty method (DAO)](tabledef-createproperty-method-dao.md)
-
-  - [TableDef.OpenRecordset method (DAO)](tabledef-openrecordset-method-dao.md)
-
-  - [TableDef.RefreshLink method (DAO)](tabledef-refreshlink-method-dao.md)
+- [TableDef.CreateField method (DAO)](tabledef-createfield-method-dao.md)
+- [TableDef.CreateIndex method (DAO)](tabledef-createindex-method-dao.md)
+- [TableDef.CreateProperty method (DAO)](tabledef-createproperty-method-dao.md)
+- [TableDef.OpenRecordset method (DAO)](tabledef-openrecordset-method-dao.md)
+- [TableDef.RefreshLink method (DAO)](tabledef-refreshlink-method-dao.md)
 

@@ -10,12 +10,8 @@ mtps_version: v=office.15
 
 # Index methods (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
-
-
-  - [Index.CreateField method (DAO)](index-createfield-method-dao.md)
-
-  - [Index.CreateProperty method (DAO)](index-createproperty-method-dao.md)
+- [Index.CreateField method (DAO)](index-createfield-method-dao.md)
+- [Index.CreateProperty method (DAO)](index-createproperty-method-dao.md)
 

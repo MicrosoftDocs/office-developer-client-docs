@@ -10,14 +10,9 @@ mtps_version: v=office.15
 
 # TableDefs methods (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
-
-
-  - [TableDefs.Append method (DAO)](tabledefs-append-method-dao.md)
-
-  - [TableDefs.Delete method (DAO)](tabledefs-delete-method-dao.md)
-
-  - [TableDefs.Refresh method (DAO)](tabledefs-refresh-method-dao.md)
+- [TableDefs.Append method (DAO)](tabledefs-append-method-dao.md)
+- [TableDefs.Delete method (DAO)](tabledefs-delete-method-dao.md)
+- [TableDefs.Refresh method (DAO)](tabledefs-refresh-method-dao.md)
 

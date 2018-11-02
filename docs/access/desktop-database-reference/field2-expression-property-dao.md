@@ -14,9 +14,9 @@ mtps_version: v=office.15
 
 Gets or sets an expression that represents the formula for a calculated field. Read/write **String**.
 
-## Version Information
+## Version information
 
-Version Added: Access 2010
+Version added: Access 2010
 
 ## Syntax
 

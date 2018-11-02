@@ -10,10 +10,7 @@ mtps_version: v=office.15
 
 # Containers methods (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
-
-
-  - [Containers.Refresh method (DAO)](containers-refresh-method-dao.md)
+- [Containers.Refresh method (DAO)](containers-refresh-method-dao.md)
 

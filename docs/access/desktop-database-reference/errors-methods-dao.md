@@ -10,10 +10,7 @@ mtps_version: v=office.15
 
 # Errors methods (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
-
-
-  - [Errors.Refresh method (DAO)](errors-refresh-method-dao.md)
+- [Errors.Refresh method (DAO)](errors-refresh-method-dao.md)
 

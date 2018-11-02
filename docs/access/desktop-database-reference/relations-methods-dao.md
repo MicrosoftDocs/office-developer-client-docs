@@ -10,14 +10,9 @@ mtps_version: v=office.15
 
 # Relations methods (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
-
-
-  - [Relations.Append method (DAO)](relations-append-method-dao.md)
-
-  - [Relations.Delete method (DAO)](relations-delete-method-dao.md)
-
-  - [Relations.Refresh method (DAO)](relations-refresh-method-dao.md)
+- [Relations.Append method (DAO)](relations-append-method-dao.md)
+- [Relations.Delete method (DAO)](relations-delete-method-dao.md)
+- [Relations.Refresh method (DAO)](relations-refresh-method-dao.md)
 

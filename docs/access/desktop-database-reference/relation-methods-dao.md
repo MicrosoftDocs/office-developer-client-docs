@@ -10,10 +10,7 @@ mtps_version: v=office.15
 
 # Relation methods (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
-
-
-  - [Relation.CreateField method (DAO)](relation-createfield-method-dao.md)
+- [Relation.CreateField method (DAO)](relation-createfield-method-dao.md)
 

@@ -10,14 +10,9 @@ mtps_version: v=office.15
 
 # Workspaces methods (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
-
-
-  - [Workspaces.Append method (DAO)](workspaces-append-method-dao.md)
-
-  - [Workspaces.Delete method (DAO)](workspaces-delete-method-dao.md)
-
-  - [Workspaces.Refresh method (DAO)](workspaces-refresh-method-dao.md)
+- [Workspaces.Append method (DAO)](workspaces-append-method-dao.md)
+- [Workspaces.Delete method (DAO)](workspaces-delete-method-dao.md)
+- [Workspaces.Refresh method (DAO)](workspaces-refresh-method-dao.md)
 

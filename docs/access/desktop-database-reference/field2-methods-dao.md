@@ -10,18 +10,11 @@ mtps_version: v=office.15
 
 # Field2 methods (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
-
-
-  - [Field2.AppendChunk method (DAO)](field2-appendchunk-method-dao.md)
-
-  - [Field2.CreateProperty method (DAO)](field2-createproperty-method-dao.md)
-
-  - [Field2.GetChunk method (DAO)](field2-getchunk-method-dao.md)
-
-  - [Field2.LoadFromFile method (DAO)](field2-loadfromfile-method-dao.md)
-
-  - [Field2.SaveToFile method (DAO)](field2-savetofile-method-dao.md)
+- [Field2.AppendChunk method (DAO)](field2-appendchunk-method-dao.md)
+- [Field2.CreateProperty method (DAO)](field2-createproperty-method-dao.md)
+- [Field2.GetChunk method (DAO)](field2-getchunk-method-dao.md)
+- [Field2.LoadFromFile method (DAO)](field2-loadfromfile-method-dao.md)
+- [Field2.SaveToFile method (DAO)](field2-savetofile-method-dao.md)
 

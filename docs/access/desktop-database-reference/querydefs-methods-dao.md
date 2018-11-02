@@ -10,14 +10,9 @@ mtps_version: v=office.15
 
 # QueryDefs methods (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
-
-
-  - [QueryDefs.Append method (DAO)](querydefs-append-method-dao.md)
-
-  - [QueryDefs.Delete method (DAO)](querydefs-delete-method-dao.md)
-
-  - [QueryDefs.Refresh method (DAO)](querydefs-refresh-method-dao.md)
+- [QueryDefs.Append method (DAO)](querydefs-append-method-dao.md)
+- [QueryDefs.Delete method (DAO)](querydefs-delete-method-dao.md)
+- [QueryDefs.Refresh method (DAO)](querydefs-refresh-method-dao.md)
 

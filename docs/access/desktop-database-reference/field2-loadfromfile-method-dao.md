@@ -18,9 +18,9 @@ f1_categories:
 
 Loads the specified file from disk.
 
-## Version Information
+## Version information
 
-Version Added: Access 2007
+Version added: Access 2007
 
 ## Syntax
 

@@ -15,9 +15,9 @@ mtps_version: v=office.15
 
 Gets or sets a **Boolean** that indicates whether the spcified field is set to append new values to the existing contents of the field as they are added. Read/write.
 
-## Version Information
+## Version information
 
-Version Added: Access 2007
+Version added: Access 2007
 
 ## Syntax
 
