@@ -53,7 +53,7 @@ ADO directly supports five arguments in a connection string. Other arguments are
 
 
 > [!NOTE]
-> In the following examples and throughout the ADO Programmer's Guide, the user id "MyId" with a password of "123aBc" is used to authenticate against the server. You should substitute these values with valid login credentials for your server. Also, substitute the name of your server for "MySqlServer".
+> In the following examples and throughout the ADO programmer's guide, the user id "MyId" with a password of "123aBc" is used to authenticate against the server. You should substitute these values with valid login credentials for your server. Also, substitute the name of your server for "MySqlServer".
 
 The HelloData application in Chapter 1 used the following connection string:
 

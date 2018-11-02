@@ -1,5 +1,5 @@
 ﻿---
-title: ActiveX Data Objects (ADO) Glossary
+title: ActiveX Data Objects (ADO) glossary
 TOCTitle: ADO Glossary
 ms:assetid: 40f00876-7525-4117-8f57-f3d87c54be99
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249184(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ADO Glossary
+# ADO glossary
 
 **Applies to**: Access 2013, Office 2013
 
@@ -414,11 +414,11 @@ A structure representing a hierarchical relationship between elements (nodes). T
 
 Specifies the location of a resource residing on the Internet or an intranet. A complete URL consists of a scheme (such as FTP, HTTP, mailto, file, and so on), followed by a colon, a server name, and the full path of a resource (such as a document, graphic, or other file). Some examples of URLs are:  
   
-https://www.domain.com/default.html  
-ftp://ftp.server.somewhere/ftp.file  
+- https://www.domain.com/default.html  
+- ftp://ftp.server.somewhere/ftp.file  
   
-ftp://ftp.server.somewhere/ftp.file  
-file://Server/Share/File.doc
+- ftp://ftp.server.somewhere/ftp.file  
+- file://Server/Share/File.doc
 
 See also **absolute URL** and **relative URL**.
 
@@ -426,5 +426,5 @@ See also **absolute URL** and **relative URL**.
 
 A computer that provides web services and pages to intranet and Internet users.
 
-Return to top
+
 

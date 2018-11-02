@@ -1,6 +1,6 @@
 ﻿---
-title: 'Chapter 7: Handling ADO Events'
-TOCTitle: 'Chapter 7: Handling ADO Events'
+title: 'Chapter 7: Handling ADO events'
+TOCTitle: 'Chapter 7: Handling ADO events'
 ms:assetid: 22924fe2-d00d-8a0c-52f5-2dc6039537ff
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249004(v=office.15)
 ms:contentKeyID: 48543709
@@ -8,8 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Chapter 7: Handling ADO Events
-
+# Chapter 7: Handling ADO events
 
 **Applies to**: Access 2013, Office 2013
 
@@ -23,12 +22,8 @@ Using the ADO event model adds some overhead to your application but provides fa
 
 This chapter covers the following topics:
 
-- [ADO Event Handler Summary](ado-event-handler-summary.md)
-
-- [Types of Events](types-of-events.md)
-
-- [Event Parameters](event-parameters.md)
-
-- [How Event Handlers Work Together](how-event-handlers-work-together.md)
-
-- [ADO Event Instantiation by Language (ADO)](ado-event-instantiation-by-language-ado.md)
+- [ADO event handler summary](ado-event-handler-summary.md)
+- [Types of events](types-of-events.md)
+- [Event parameters](event-parameters.md)
+- [How event handlers work together](how-event-handlers-work-together.md)
+- [ADO event instantiation by language (ADO)](ado-event-instantiation-by-language-ado.md)

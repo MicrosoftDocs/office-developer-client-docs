@@ -1611,44 +1611,44 @@
                   href: access/desktop-database-reference/what-s-new-in-ado.md
                 - name: Prerequisites
                   href: access/desktop-database-reference/prerequisites-ado-introduction.md
-                - name: ADO Family of Libraries
+                - name: ADO family of libraries
                   href: access/desktop-database-reference/the-ado-family-of-libraries.md
                 - name: Role of ADO in Microsoft Data Access
                   href: access/desktop-database-reference/the-role-of-ado-in-microsoft-data-access.md
-                - name: ADO Task Table
+                - name: ADO task table
                   href: access/desktop-database-reference/ado-task-table.md
-                - name: ADO Technology Table
+                - name: ADO technology table
                   href: access/desktop-database-reference/ado-technology-table.md
-                - name: ADO Glossary
+                - name: ADO glossary
                   href: access/desktop-database-reference/ado-glossary.md
               - name: 'Section I: ActiveX Data Objects'
                 href: access/desktop-database-reference/section-i-activex-data-objects.md
                 items:
-                - name: 'Chapter 1: ADO Fundamentals'
+                - name: 'Chapter 1: ADO fundamentals'
                   href: access/desktop-database-reference/chapter-1-ado-fundamentals.md
                   items:
-                  - name: What You Can Do with ADO
+                  - name: What you can do with ADO
                     href: access/desktop-database-reference/what-you-can-do-with-ado.md
                   - name: Errors
                     href: access/desktop-database-reference/errors.md
-                  - name: 'HelloData: A Simple ADO Application'
+                  - name: 'HelloData: A simple ADO application'
                     href: access/desktop-database-reference/hellodata-a-simple-ado-application.md
                     items:
-                    - name: HelloData Details
+                    - name: HelloData details
                       href: access/desktop-database-reference/hellodata-details.md
-                    - name: HelloData Code
+                    - name: HelloData code
                       href: access/desktop-database-reference/hellodata-code.md
-                  - name: OLE DB Providers
+                  - name: OLE DB providers
                     href: access/desktop-database-reference/ole-db-providers.md
                     items:
-                    - name: Data Providers
+                    - name: Data providers
                       href: access/desktop-database-reference/data-providers.md
-                    - name: Service Providers and Components
+                    - name: Service providers and components
                       href: access/desktop-database-reference/service-providers-and-components.md
                 - name: 'Chapter 2: Getting data'
                   href: access/desktop-database-reference/chapter-2-getting-data.md
                   items:
-                  - name: Making a Connection
+                  - name: Making a connection
                     href: access/desktop-database-reference/making-a-connection.md
                   - name: Using the Connection object
                     href: access/desktop-database-reference/using-the-connection-object-access.md
@@ -1672,28 +1672,28 @@
                       href: access/desktop-database-reference/named-commands.md
                   - name: Adding data to a Recordset
                     href: access/desktop-database-reference/adding-data-to-a-recordset.md
-                - name: 'Chapter 3: Examining Data'
+                - name: 'Chapter 3: Examining data'
                   href: access/desktop-database-reference/chapter-3-examining-data.md
                   items:
-                  - name: Locating the Current Record
+                  - name: Locating the current record
                     href: access/desktop-database-reference/locating-the-current-record.md
                     items:
-                    - name: Counting Rows
+                    - name: Counting rows
                       href: access/desktop-database-reference/counting-rows.md
                     - name: Limits of a Recordset
                       href: access/desktop-database-reference/the-limits-of-a-recordset.md
-                  - name: Navigating Through the Data
+                  - name: Navigating through the data
                     href: access/desktop-database-reference/navigating-through-the-data.md
                     items:
-                    - name: Jumping to a Record
+                    - name: Jumping to a record
                       href: access/desktop-database-reference/jumping-to-a-record.md
-                    - name: More Ways to Move in a Recordset
+                    - name: More ways to move in a Recordset
                       href: access/desktop-database-reference/more-ways-to-move-in-a-recordset.md
-                    - name: Using Bookmarks
+                    - name: Using bookmarks
                       href: access/desktop-database-reference/using-bookmarks.md
-                    - name: Using Pages
+                    - name: Using pages
                       href: access/desktop-database-reference/using-pages.md
-                    - name: Recordset Positioning
+                    - name: Recordset positioning
                       href: access/desktop-database-reference/recordset-positioning.md
                   - name: Understanding Recordset structure
                     href: access/desktop-database-reference/understanding-recordset-structure.md
@@ -1704,126 +1704,126 @@
                       href: access/desktop-database-reference/the-field-object.md
                     - name: Working with Recordsets
                       href: access/desktop-database-reference/working-with-recordsets.md
-                - name: 'Chapter 4: Editing Data'
+                - name: 'Chapter 4: Editing data'
                   href: access/desktop-database-reference/chapter-4-editing-data.md
                   items:
-                  - name: Editing Existing Records
+                  - name: Editing existing records
                     href: access/desktop-database-reference/editing-existing-records.md
-                  - name: Determining What is Supported
+                  - name: Determining what is supported
                     href: access/desktop-database-reference/determining-what-is-supported.md
-                  - name: Deleting Records Using the Delete method
+                  - name: Deleting records using the Delete method
                     href: access/desktop-database-reference/deleting-records-using-the-delete-method.md
-                  - name: 'Alternatives: Using SQL Statements'
+                  - name: 'Alternatives: Using SQL statements'
                     href: access/desktop-database-reference/alternatives-using-sql-statements.md
-                  - name: Adding Records
+                  - name: Adding records
                     href: access/desktop-database-reference/adding-records.md
                     items:
-                    - name: Adding Multiple Fields
+                    - name: Adding multiple fields
                       href: access/desktop-database-reference/adding-multiple-fields.md
-                    - name: Determining Edit Mode
+                    - name: Determining edit mode
                       href: access/desktop-database-reference/determining-edit-mode.md
-                    - name: Using AddNew in Immediate and Batch Modes
+                    - name: Using AddNew in immediate and batch modes
                       href: access/desktop-database-reference/using-addnew-in-immediate-and-batch-modes.md
-                - name: 'Chapter 5: Updating and Persisting Data'
+                - name: 'Chapter 5: Updating and persisting data'
                   href: access/desktop-database-reference/chapter-5-updating-and-persisting-data.md
                   items:
-                  - name: Updating Data
+                  - name: Updating data
                     href: access/desktop-database-reference/updating-data.md
                     items:
-                    - name: Immediate Mode
+                    - name: Immediate mode
                       href: access/desktop-database-reference/immediate-mode.md
-                    - name: Transaction Processing
+                    - name: Transaction processing
                       href: access/desktop-database-reference/transaction-processing.md
-                    - name: Batch Mode
+                    - name: Batch mode
                       href: access/desktop-database-reference/batch-mode.md
                       items:
-                      - name: 'Sending the Updates: UpdateBatch'
+                      - name: 'Sending the updates: UpdateBatch'
                         href: access/desktop-database-reference/sending-the-updates-updatebatch.md
-                      - name: Filtering for Updated Records
+                      - name: Filtering for updated records
                         href: access/desktop-database-reference/filtering-for-updated-records.md
-                      - name: Dealing with Failed Updates
+                      - name: Dealing with failed updates
                         href: access/desktop-database-reference/dealing-with-failed-updates.md
-                      - name: Detecting and Resolving Conflicts
+                      - name: Detecting and resolving conflicts
                         href: access/desktop-database-reference/detecting-and-resolving-conflicts.md
-                      - name: Disconnecting and Reconnecting the Recordset
+                      - name: Disconnecting and reconnecting the Recordset
                         href: access/desktop-database-reference/disconnecting-and-reconnecting-the-recordset.md
-                      - name: 'Updating JOINed Results: Unique Table'
+                      - name: 'Updating JOINed results: Unique Table'
                         href: access/desktop-database-reference/updating-joined-results-unique-table.md
-                  - name: Persisting Data
+                  - name: Persisting data
                     href: access/desktop-database-reference/persisting-data.md
                     items:
-                    - name: More About Recordset Persistence
+                    - name: More about Recordset persistence
                       href: access/desktop-database-reference/more-about-recordset-persistence.md
-                    - name: Persisting Filtered and Hierarchical Recordsets
+                    - name: Persisting filtered and hierarchical Recordsets
                       href: access/desktop-database-reference/persisting-filtered-and-hierarchical-recordsets.md
-                    - name: Persisting Records in XML Format
+                    - name: Persisting records in XML format
                       href: access/desktop-database-reference/persisting-records-in-xml-format.md
                       items:
-                      - name: XML Persistence Format
+                      - name: XML persistence format
                         href: access/desktop-database-reference/xml-persistence-format.md
                       - name: Namespaces
                         href: access/desktop-database-reference/namespaces.md
-                      - name: Schema Section
+                      - name: Schema section
                         href: access/desktop-database-reference/schema-section.md
-                      - name: Data Section
+                      - name: Data section
                         href: access/desktop-database-reference/data-section.md
                       - name: Hierarchical Recordsets in XML
                         href: access/desktop-database-reference/hierarchical-recordsets-in-xml.md
                       - name: Recordset dynamic properties in XML
                         href: access/desktop-database-reference/recordset-dynamic-properties-in-xml.md
-                      - name: XSLT Transformations
+                      - name: XSLT transformations
                         href: access/desktop-database-reference/xslt-transformations.md
                       - name: Saving to the XML DOM object
                         href: access/desktop-database-reference/saving-to-the-xml-dom-object.md
-                      - name: XML Security Considerations
+                      - name: XML security considerations
                         href: access/desktop-database-reference/xml-security-considerations.md
-                      - name: XML Recordset Persistence Scenario
+                      - name: XML Recordset persistence scenario
                         href: access/desktop-database-reference/xml-recordset-persistence-scenario.md
                         items:
-                        - name: 'Step 1: Set Up the Application'
+                        - name: 'Step 1: Set up the application'
                           href: access/desktop-database-reference/step-1-set-up-the-application.md
-                        - name: 'Step 2: Get the Data'
+                        - name: 'Step 2: Get the data'
                           href: access/desktop-database-reference/step-2-get-the-data.md
-                        - name: 'Step 3: Send the Data'
+                        - name: 'Step 3: Send the data'
                           href: access/desktop-database-reference/step-3-send-the-data.md
-                        - name: 'Step 4: Receive and Display the Data'
+                        - name: 'Step 4: Receive and display the data'
                           href: access/desktop-database-reference/step-4-receive-and-display-the-data.md
-                - name: 'Chapter 6: Error Handling'
+                - name: 'Chapter 6: Error handling'
                   href: access/desktop-database-reference/chapter-6-error-handling.md
                   items:
-                  - name: ADO Errors
+                  - name: ADO errors
                     href: access/desktop-database-reference/ado-errors.md
-                  - name: ADO Error reference
+                  - name: ADO error reference
                     href: access/desktop-database-reference/ado-error-reference.md
-                  - name: Provider Errors
+                  - name: Provider errors
                     href: access/desktop-database-reference/provider-errors.md
-                  - name: Field-Related Error Information
+                  - name: Field-related error information
                     href: access/desktop-database-reference/field-related-error-information.md
-                  - name: Recordset-Related Error Information
+                  - name: Recordset-related error information
                     href: access/desktop-database-reference/recordset-related-error-information.md
-                  - name: Anticipating Errors
+                  - name: Anticipating errors
                     href: access/desktop-database-reference/anticipating-errors.md
-                  - name: Handling Errors in Other Languages
+                  - name: Handling errors in other languages
                     href: access/desktop-database-reference/handling-errors-in-other-languages.md
                     items:
-                    - name: Handling Errors in JScript
+                    - name: Handling errors in JScript
                       href: access/desktop-database-reference/handling-errors-in-jscript.md
-                    - name: Handling Errors in VBScript
+                    - name: Handling errors in VBScript
                       href: access/desktop-database-reference/handling-errors-in-vbscript.md
-                    - name: Handling Errors in Visual C++
+                    - name: Handling errors in Visual C++
                       href: access/desktop-database-reference/handling-errors-in-visual-c.md
                 - name: 'Chapter 7: Handling ADO events'
                   href: access/desktop-database-reference/chapter-7-handling-ado-events.md
                   items:
-                  - name: ADO Event Handler Summary
+                  - name: ADO event handler summary
                     href: access/desktop-database-reference/ado-event-handler-summary.md
                   - name: Types of events
                     href: access/desktop-database-reference/types-of-events.md
-                  - name: Event Parameters
+                  - name: Event parameters
                     href: access/desktop-database-reference/event-parameters.md
-                  - name: How Event Handlers Work Together
+                  - name: How event handlers work together
                     href: access/desktop-database-reference/how-event-handlers-work-together.md
-                  - name: ADO Event Instantiation by Language
+                  - name: ADO event instantiation by language
                     href: access/desktop-database-reference/ado-event-instantiation-by-language-ado.md
                     items:
                     - name: Visual Basic
@@ -1838,218 +1838,218 @@
                       href: access/desktop-database-reference/jscript.md
                     - name: ADO/WFC
                       href: access/desktop-database-reference/ado-wfc.md
-                - name: 'Chapter 8: Understanding Cursors and Locks'
+                - name: 'Chapter 8: Understanding cursors and locks'
                   href: access/desktop-database-reference/chapter-8-understanding-cursors-and-locks.md
                   items:
-                  - name: What is a Cursor?
+                  - name: What is a cursor?
                     href: access/desktop-database-reference/what-is-a-cursor.md
-                  - name: Significance of Cursor Location
+                  - name: Significance of cursor location
                     href: access/desktop-database-reference/the-significance-of-cursor-location.md
                   - name: Microsoft Cursor Service for OLE DB
                     href: access/desktop-database-reference/the-microsoft-cursor-service-for-ole-db.md
                   - name: Using CacheSize
                     href: access/desktop-database-reference/using-cachesize.md
-                  - name: Cursor and Lock Characteristics
+                  - name: Cursor and lock characteristics
                     href: access/desktop-database-reference/cursor-and-lock-characteristics.md
-                  - name: Types of Cursors
+                  - name: Types of cursors
                     href: access/desktop-database-reference/types-of-cursors.md
                     items:
-                    - name: Forward-Only Cursors
+                    - name: Forward-only cursors
                       href: access/desktop-database-reference/forward-only-cursors.md
-                    - name: Dynamic Cursors
+                    - name: Dynamic cursors
                       href: access/desktop-database-reference/dynamic-cursors.md
-                    - name: Static Cursors
+                    - name: Static cursors
                       href: access/desktop-database-reference/static-cursors.md
-                    - name: Keyset Cursors
+                    - name: Keyset cursors
                       href: access/desktop-database-reference/keyset-cursors.md
-                  - name: What is a Lock?
+                  - name: What is a lock?
                     href: access/desktop-database-reference/what-is-a-lock.md
-                  - name: Types of Locks
+                  - name: Types of locks
                     href: access/desktop-database-reference/types-of-locks.md                      
-                - name: 'Chapter 9: Data Shaping'
+                - name: 'Chapter 9: Data shaping'
                   href: access/desktop-database-reference/chapter-9-data-shaping.md
                   items:
-                  - name: Required Providers for Data Shaping
+                  - name: Required providers for data shaping
                     href: access/desktop-database-reference/required-providers-for-data-shaping.md
-                  - name: Shape Compute Clause
+                  - name: Shape Compute clause
                     href: access/desktop-database-reference/shape-compute-clause.md
-                  - name: Fabricating Hierarchical Recordsets
+                  - name: Fabricating hierarchical Recordsets
                     href: access/desktop-database-reference/fabricating-hierarchical-recordsets.md
-                  - name: Accessing Rows in a Hierarchical Recordset
+                  - name: Accessing rows in a hierarchical Recordset
                     href: access/desktop-database-reference/accessing-rows-in-a-hierarchical-recordset.md
-                  - name: Formal Shape Grammar
+                  - name: Formal shape grammar
                     href: access/desktop-database-reference/formal-shape-grammar.md
                   - name: Visual Basic for Applications functions
                     href: access/desktop-database-reference/visual-basic-for-applications-functions.md
-                  - name: Shape Append Clause
+                  - name: Shape Append clause
                     href: access/desktop-database-reference/shape-append-clause.md
                     items:
-                    - name: Operation of Non-Parameterized Commands
+                    - name: Operation of non-parameterized commands
                       href: access/desktop-database-reference/operation-of-non-parameterized-commands.md
-                    - name: Operation of Parameterized Commands
+                    - name: Operation of parameterized commands
                       href: access/desktop-database-reference/operation-of-parameterized-commands.md
-                    - name: Hybrid Commands
+                    - name: Hybrid commands
                       href: access/desktop-database-reference/hybrid-commands.md
-                    - name: Intervening Shape COMPUTE Clauses
+                    - name: Intervening shape COMPUTE clauses
                       href: access/desktop-database-reference/intervening-shape-compute-clauses.md
-                  - name: Data Shaping
+                  - name: Data shaping
                     href: access/desktop-database-reference/data-shaping.md
                     items:
                     - name: Reshaping
                       href: access/desktop-database-reference/reshaping.md
-                    - name: Grandchild Aggregates
+                    - name: Grandchild aggregates
                       href: access/desktop-database-reference/grandchild-aggregates.md
-                    - name: Parameterized Commands with Intervening COMPUTE Commands
+                    - name: Parameterized commands with intervening COMPUTE commands
                       href: access/desktop-database-reference/parameterized-commands-with-intervening-compute-commands.md
-                    - name: Persisting Hierarchical Recordsets
+                    - name: Persisting hierarchical Recordsets
                       href: access/desktop-database-reference/persisting-hierarchical-recordsets.md
-                  - name: Shape Commands in General
+                  - name: Shape commands in general
                     href: access/desktop-database-reference/shape-commands-in-general.md
                     items:
-                    - name: Aggregate Functions, the CALC Function, and the NEW Keyword
+                    - name: Aggregate functions, the CALC function, and the NEW keyword
                       href: access/desktop-database-reference/aggregate-functions-the-calc-function-and-the-new-keyword.md
-                    - name: Issuing Commands to the Underlying Data Provider
+                    - name: Issuing commands to the underlying data provider
                       href: access/desktop-database-reference/issuing-commands-to-the-underlying-data-provider.md
-                - name: 'Chapter 10: Records and Streams'
+                - name: 'Chapter 10: Records and streams'
                   href: access/desktop-database-reference/chapter-10-records-and-streams.md
                   items:
-                  - name: Streams and Persistence
+                  - name: Streams and persistence
                     href: access/desktop-database-reference/streams-and-persistence.md
-                  - name: Records and Provider-Supplied Fields
+                  - name: Records and provider-supplied fields
                     href: access/desktop-database-reference/records-and-provider-supplied-fields.md
-                  - name: Absolute and Relative URLs
+                  - name: Absolute and relative URLs
                     href: access/desktop-database-reference/absolute-and-relative-urls.md
-                  - name: Using ADO for Internet Publishing
+                  - name: Using ADO for Internet publishing
                     href: access/desktop-database-reference/using-ado-for-internet-publishing.md
                     items:
-                    - name: OLE DB Provider for Internet Publishing
+                    - name: OLE DB provider for Internet publishing
                       href: access/desktop-database-reference/the-ole-db-provider-for-internet-publishing.md
-                    - name: Internet Publishing Scenario
+                    - name: Internet publishing scenario
                       href: access/desktop-database-reference/internet-publishing-scenario.md
                       items:
-                      - name: 'Step 1: Set Up the Visual Basic Project'
+                      - name: 'Step 1: Set up the Visual Basic project'
                         href: access/desktop-database-reference/step-1-set-up-the-visual-basic-project.md
-                      - name: 'Step 2: Initialize the Main List Box'
+                      - name: 'Step 2: Initialize the Main list box'
                         href: access/desktop-database-reference/step-2-initialize-the-main-list-box.md
-                      - name: 'Step 3: Populate the Fields List Box'
+                      - name: 'Step 3: Populate the Fields list box'
                         href: access/desktop-database-reference/step-3-populate-the-fields-list-box.md
-                      - name: 'Step 4: Populate the Details Text Box'
+                      - name: 'Step 4: Populate the Details text box'
                         href: access/desktop-database-reference/step-4-populate-the-details-text-box.md
               - name: 'Section II: Remote Data Service'
                 href: access/desktop-database-reference/section-ii-remote-data-service.md
                 items:
-                - name: 'Chapter 11: RDS Fundamentals'
+                - name: 'Chapter 11: RDS fundamentals'
                   href: access/desktop-database-reference/chapter-11-rds-fundamentals.md
                   items:
                   - name: Solutions for Remote Data Access
                     href: access/desktop-database-reference/solutions-for-remote-data-access.md
-                  - name: Basic RDS Programming Model
+                  - name: Basic RDS programming model
                     href: access/desktop-database-reference/basic-rds-programming-model.md
-                  - name: RDS Programming Model in Detail
+                  - name: RDS programming model in detail
                     href: access/desktop-database-reference/rds-programming-model-in-detail.md
-                  - name: RDS Programming Model with Objects
+                  - name: RDS programming model with objects
                     href: access/desktop-database-reference/rds-programming-model-with-objects.md
                   - name: RDS object model summary
                     href: access/desktop-database-reference/rds-object-model-summary.md
-                  - name: RDS Scenario
+                  - name: RDS scenario
                     href: access/desktop-database-reference/rds-scenario.md
                     items:
-                    - name: System Requirements for the Address Book Application
+                    - name: System requirements for the Address Book application
                       href: access/desktop-database-reference/system-requirements-for-the-address-book-application.md
-                    - name: Running the Address Book Sample Application
+                    - name: Running the Address Book sample application
                       href: access/desktop-database-reference/running-the-address-book-sample-application.md
                     - name: Address Book Data-Binding object
                       href: access/desktop-database-reference/address-book-data-binding-object.md
-                    - name: Address Book Command Buttons
+                    - name: Address Book command buttons
                       href: access/desktop-database-reference/address-book-command-buttons.md
-                    - name: Address Book Navigation Buttons
+                    - name: Address Book navigation buttons
                       href: access/desktop-database-reference/address-book-navigation-buttons.md
-                - name: 'Chapter 12: RDS Tutorial'
+                - name: 'Chapter 12: RDS tutorial'
                   href: access/desktop-database-reference/chapter-12-rds-tutorial.md
                   items:
-                  - name: 'Step 1: Specify a Server Program (RDS Tutorial)'
+                  - name: 'Step 1: Specify a server program'
                     href: access/desktop-database-reference/step-1-specify-a-server-program-rds-tutorial.md
-                  - name: 'Step 2: Invoke the Server Program (RDS Tutorial)'
+                  - name: 'Step 2: Invoke the server program'
                     href: access/desktop-database-reference/step-2-invoke-the-server-program-rds-tutorial.md
-                  - name: 'Step 3: Server Obtains a Recordset (RDS Tutorial)'
+                  - name: 'Step 3: Server obtains a Recordset'
                     href: access/desktop-database-reference/step-3-server-obtains-a-recordset-rds-tutorial.md
-                  - name: 'Step 4: Server Returns the Recordset (RDS Tutorial)'
+                  - name: 'Step 4: Server returns the Recordset'
                     href: access/desktop-database-reference/step-4-server-returns-the-recordset-rds-tutorial.md
-                  - name: 'Step 5: DataControl is Made Usable (RDS Tutorial)'
+                  - name: 'Step 5: DataControl is made usable'
                     href: access/desktop-database-reference/step-5-datacontrol-is-made-usable-rds-tutorial.md
-                  - name: 'Step 6: Changes are Sent to the Server (RDS Tutorial)'
+                  - name: 'Step 6: Changes are sent to the server'
                     href: access/desktop-database-reference/step-6-changes-are-sent-to-the-server-rds-tutorial.md
-                  - name: RDS Tutorial (VBScript)
+                  - name: RDS tutorial (VBScript)
                     href: access/desktop-database-reference/rds-tutorial-vbscript.md
-                  - name: RDS Tutorial (Visual J++)
+                  - name: RDS tutorial (Visual J++)
                     href: access/desktop-database-reference/rds-tutorial-visual-j.md
-                - name: 'Chapter 13: RDS Usage and Security'
+                - name: 'Chapter 13: RDS usage and security'
                   href: access/desktop-database-reference/chapter-13-rds-usage-and-security.md
                   items:
                   - name: Configuring RDS
                     href: access/desktop-database-reference/configuring-rds.md
-                  - name: Granting Guest Privileges to a Web Server Computer; RDS guest privileges [ADO]
+                  - name: Granting guest privileges to a web server computer; RDS guest privileges [ADO]
                     href: access/desktop-database-reference/granting-guest-privileges-to-a-web-server-computer;-rds-guest-privileges.md
-                  - name: Marking Business Objects as Safe for Scripting
+                  - name: Marking business objects as safe for scripting
                     href: access/desktop-database-reference/marking-business-objects-as-safe-for-scripting.md
-                  - name: Registering Business Objects on the Client for Use with DCOM
+                  - name: Registering business objects on the client for use with DCOM
                     href: access/desktop-database-reference/registering-business-objects-on-the-client-for-use-with-dcom.md
-                  - name: Setting DCOM Stream Marshaling Format
+                  - name: Setting DCOM stream marshaling format
                     href: access/desktop-database-reference/setting-dcom-stream-marshaling-format.md
-                  - name: Enabling a DLL to Run on DCOM
+                  - name: Enabling a DLL to run on DCOM
                     href: access/desktop-database-reference/enabling-a-dll-to-run-on-dcom.md
-                  - name: Configuring Virtual Servers on IIS
+                  - name: Configuring virtual servers on IIS
                     href: access/desktop-database-reference/configuring-virtual-servers-on-iis.md
-                  - name: Specifying Threads Per Processor on IIS
+                  - name: Specifying threads per processor on IIS
                     href: access/desktop-database-reference/specifying-threads-per-processor-on-iis.md
-                  - name: Securing RDS Applications
+                  - name: Securing RDS applications
                     href: access/desktop-database-reference/securing-rds-applications.md
-                  - name: Configuring DataFactory for Safe or Unrestricted Modes
+                  - name: Configuring DataFactory for safe or unrestricted modes
                     href: access/desktop-database-reference/configuring-datafactory-for-safe-or-unrestricted-modes.md
-                  - name: Using Related Technologies with RDS
+                  - name: Using related technologies with RDS
                     href: access/desktop-database-reference/using-related-technologies-with-rds.md
                     items:
-                    - name: Using RDS with ODBC Connection Pooling
+                    - name: Using RDS with ODBC connection pooling
                       href: access/desktop-database-reference/using-rds-with-odbc-connection-pooling.md
-                    - name: Running Business Objects in Component Services
+                    - name: Running business objects in component services
                       href: access/desktop-database-reference/running-business-objects-in-component-services.md
-                  - name: DataFactory Customization
+                  - name: DataFactory customization
                     href: access/desktop-database-reference/datafactory-customization.md
                     items:
-                    - name: Understanding the Customization File
+                    - name: Understanding the customization file
                       href: access/desktop-database-reference/understanding-the-customization-file.md
-                    - name: Customization File Connect Section
+                    - name: Customization File Connect section
                       href: access/desktop-database-reference/customization-file-connect-section.md
-                    - name: Customization File SQL Section
+                    - name: Customization File SQL section
                       href: access/desktop-database-reference/customization-file-sql-section.md
-                    - name: Customization File UserList Section
+                    - name: Customization File UserList section
                       href: access/desktop-database-reference/customization-file-userlist-section.md
-                    - name: Customization File Logs Section
+                    - name: Customization File Logs section
                       href: access/desktop-database-reference/customization-file-logs-section.md
                   - name: Troubleshooting RDS
                     href: access/desktop-database-reference/troubleshooting-rds.md
                     items:
                     - name: Configuring RDS on Windows 2000
                       href: access/desktop-database-reference/configuring-rds-on-windows-2000.md
-                    - name: 'Internet Server Error: Access Denied'
+                    - name: 'Internet Server error: Access Denied'
                       href: access/desktop-database-reference/internet-server-error-access-denied.md
-                    - name: RDS Returns "Stream Not Read" Error
+                    - name: RDS returns "Stream Not Read" error
                       href: access/desktop-database-reference/rds-returns-stream-not-read-error.md
-                    - name: Deadlocks with Read Repeatable Isolation Level
+                    - name: Deadlocks with Read Repeatable Isolation level
                       href: access/desktop-database-reference/deadlocks-with-read-repeatable-isolation-level.md
-                    - name: Ensuring Sufficient TempDB Space
+                    - name: Ensuring sufficient TempDB space
                       href: access/desktop-database-reference/ensuring-sufficient-tempdb-space.md
-                    - name: Minimizing Log File Space Usage
+                    - name: Minimizing log file space usage
                       href: access/desktop-database-reference/minimizing-log-file-space-usage.md
-              - name: 'Section III: ADO (multidimensional) (ADO MD)'
+              - name: 'Section III: ADO (Multidimensional) (ADO MD)'
                 href: access/desktop-database-reference/section-iii-ado-multidimensional-ado-md.md
                 items:
-                - name: 'Chapter 14: ADO MD Fundamentals'
+                - name: 'Chapter 14: ADO MD fundamentals'
                   href: access/desktop-database-reference/chapter-14-ado-md-fundamentals.md
                   items:
-                  - name: Overview of Multidimensional Schemas and Data
+                  - name: Overview of multidimensional schemas and data
                     href: access/desktop-database-reference/overview-of-multidimensional-schemas-and-data.md
-                  - name: Working with Multidimensional Data
+                  - name: Working with multidimensional data
                     href: access/desktop-database-reference/working-with-multidimensional-data.md
                   - name: Using ADO with ADO MD
                     href: access/desktop-database-reference/using-ado-with-ado-md.md
@@ -2058,12 +2058,12 @@
               - name: 'Section IV: ADO extensions for data definition language and security (ADOX)'
                 href: access/desktop-database-reference/section-iv-ado-extensions-for-data-definition-language-and-security-adox.md
                 items:
-                - name: 'Chapter 15: ADOX Fundamentals'
+                - name: 'Chapter 15: ADOX fundamentals'
                   href: access/desktop-database-reference/chapter-15-adox-fundamentals.md
                   items:
-                  - name: Provider Support for ADOX
+                  - name: Provider support for ADOX
                     href: access/desktop-database-reference/provider-support-for-adox.md
-              - name: 'Section V: appendixes'
+              - name: 'Section V: Appendixes'
                 href: access/desktop-database-reference/section-v-appendixes.md
                 items:
                 - name: 'Appendix A: Providers'
@@ -2091,54 +2091,54 @@
                     href: access/desktop-database-reference/microsoft-ole-db-remoting-provider-ado-service-provider.md
                   - name: Microsoft Cursor Service for OLE DB (ADO Service Component)
                     href: access/desktop-database-reference/microsoft-cursor-service-for-ole-db-ado-service-component.md
-                - name: 'Appendix B: ADO Errors'
+                - name: 'Appendix B: ADO errors'
                   href: access/desktop-database-reference/appendix-b-ado-errors.md
                   items:
-                  - name: ADO Error Codes
+                  - name: ADO error codes
                     href: access/desktop-database-reference/ado-error-codes.md
-                  - name: DataControl Error Codes
+                  - name: DataControl error codes
                     href: access/desktop-database-reference/datacontrol-error-codes.md
-                  - name: Internet Explorer Error Codes
+                  - name: Internet Explorer error codes
                     href: access/desktop-database-reference/internet-explorer-error-codes.md
-                  - name: Internet Information Services Error Codes
+                  - name: Internet Information Services error codes
                     href: access/desktop-database-reference/internet-information-services-error-codes.md
                 - name: 'Appendix C: Programming with ADO'
                   href: access/desktop-database-reference/appendix-c-programming-with-ado.md
                   items:
                   - name: Using ADO with Microsoft Visual Basic
                     href: access/desktop-database-reference/using-ado-with-microsoft-visual-basic.md
-                  - name: Using ADO with Scripting Languages
+                  - name: Using ADO with scripting languages
                     href: access/desktop-database-reference/using-ado-with-scripting-languages.md
                     items:
-                    - name: JScript ADO Programming
+                    - name: JScript ADO programming
                       href: access/desktop-database-reference/jscript-ado-programming.md
-                    - name: VBScript ADO Programming
+                    - name: VBScript ADO programming
                       href: access/desktop-database-reference/vbscript-ado-programming.md
                   - name: Using ADO with Microsoft Visual C++
                     href: access/desktop-database-reference/using-ado-with-microsoft-visual-c.md
                     items:
-                    - name: Visual C++ ADO Programming
+                    - name: Visual C++ ADO programming
                       href: access/desktop-database-reference/visual-c-ado-programming.md
                     - name: Visual C++ Extensions for ADO
                       href: access/desktop-database-reference/visual-c-extensions-for-ado.md
                     - name: Using Visual C++ Extensions
                       href: access/desktop-database-reference/using-visual-c-extensions.md
-                    - name: Visual C++ Extensions Header
+                    - name: Visual C++ Extensions header
                       href: access/desktop-database-reference/visual-c-extensions-header.md
                     - name: Visual C++ Extensions example
                       href: access/desktop-database-reference/visual-c-extensions-example.md
                   - name: Using ADO with Microsoft Visual J++
                     href: access/desktop-database-reference/using-ado-with-microsoft-visual-j.md
                     items:
-                    - name: ADO/WFC Programming
+                    - name: ADO/WFC programming
                       href: access/desktop-database-reference/ado-wfc-programming.md
                     - name: Using the Java Type Library Wizard
                       href: access/desktop-database-reference/using-the-java-type-library-wizard.md
                     - name: Using the Microsoft SDK for Java
                       href: access/desktop-database-reference/using-the-microsoft-sdk-for-java.md
-                    - name: ADO Java Class Wrappers
+                    - name: ADO Java Class wrappers
                       href: access/desktop-database-reference/ado-java-class-wrappers.md
-                - name: 'Appendix D: ADO Samples'
+                - name: 'Appendix D: ADO samples'
                   href: access/desktop-database-reference/appendix-d-ado-samples.md
                   items:
             - name: ADO programmer's reference
@@ -10324,7 +10324,7 @@
              href: visio/open-the-shapesheet-for-a-shape-page-or-document.md
            - name: Reference a cell in a formula
              href: visio/reference-a-cell-in-a-formula.md
-           - name: Run in Developer Mode (display the Developer tab)
+           - name: Run in Developer mode (display the Developer tab)
              href: visio/run-in-developer-mode-display-the-developer-tab.md
            - name: Show an object in the ShapeSheet window
              href: visio/show-an-object-in-the-shapesheet-window.md

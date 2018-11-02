@@ -14,10 +14,9 @@ f1_categories:
 
 # Customizing Windows Registry Settings for the Microsoft Access Database Engine
 
-
 **Applies to**: Access 2013, Office 2013
 
-If your application cannot work correctly with the default functionality of the Microsoft Access database engine, you may have to change the settings in the Microsoft Windows® Registry to suit your needs. The Windows Registry can also be used to tune the operation of the installable ISAM and ODBC driver.
+If your application cannot work correctly with the default functionality of the Microsoft Access database engine, you may have to change the settings in the Microsoft Windows Registry to suit your needs. The Windows Registry can also be used to tune the operation of the installable ISAM and ODBC driver.
 
 You can customize the settings in the Windows Registry in four different ways:
 

@@ -1,6 +1,6 @@
 ﻿---
-title: ADO Programmer's Guide
-TOCTitle: ADO Programmer's Guide
+title: ADO programmer's guide
+TOCTitle: ADO programmer's guide
 ms:assetid: b68a982e-17b6-7dd6-ca9d-3a5960d815da
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249876(v=office.15)
 ms:contentKeyID: 48547278
@@ -8,13 +8,13 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ADO Programmer's Guide
+# ADO programmer's guide
 
 **Applies to**: Access 2013, Office 2013
 
-The ADO Programmer's Guide has been created to assist developers who are new to ADO by giving them a thorough introduction to the technology. This guide describes the libraries of the ADO family and uses sample code in a variety of languages to explain how to use the libraries, best practices for using the libraries, and tips and tricks for maximizing the performance of your ADO application.
+The ADO programmer's guide has been created to assist developers who are new to ADO by giving them a thorough introduction to the technology. This guide describes the libraries of the ADO family and uses sample code in a variety of languages to explain how to use the libraries, best practices for using the libraries, and tips and tricks for maximizing the performance of your ADO application.
 
-The ADO Programmer's Guide contains the following sections and chapters:
+The ADO programmer's guide contains the following sections and chapters:
 
 - [Introduction](introduction-to-ado-programming.md)
   

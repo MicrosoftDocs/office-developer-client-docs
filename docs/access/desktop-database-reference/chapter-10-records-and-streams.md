@@ -1,6 +1,6 @@
 ﻿---
-title: 'Chapter 10: Records and Streams'
-TOCTitle: 'Chapter 10: Records and Streams'
+title: 'Chapter 10: Records and streams'
+TOCTitle: 'Chapter 10: Records and streams'
 ms:assetid: 74862096-2273-3b61-f89c-06554ccf42cd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249477(v=office.15)
 ms:contentKeyID: 48545663
@@ -8,8 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Chapter 10: Records and Streams
-
+# Chapter 10: Records and streams
 
 **Applies to**: Access 2013, Office 2013
 
@@ -31,28 +30,25 @@ For more information about using the **Record** object for processing this heter
 
 The **Stream** object provides the means to read, write, and manage a stream of bytes. This byte stream may be text or binary and is limited in size only by system resources. Typically, ADO **Stream** objects are used for the following purposes:
 
-  - To contain the text or bytes that comprise a file or message, typically used with providers such as the Microsoft OLE DB Provider for Internet Publishing. For more information about this use of **Stream** objects, see [Using ADO for Internet Publishing](using-ado-for-internet-publishing.md).
+- To contain the text or bytes that comprise a file or message, typically used with providers such as the Microsoft OLE DB Provider for Internet Publishing. For more information about this use of **Stream** objects, see [Using ADO for Internet Publishing](using-ado-for-internet-publishing.md).
 
 A **Stream** object can be opened on:
 
-  - A simple file specified with a URL.
+- A simple file specified with a URL.
 
-  - A field of a **Record** or **Recordset** containing a **Stream** object.
+- A field of a **Record** or **Recordset** containing a **Stream** object.
 
-  - The default stream of a **Record** or **Recordset** object representing a directory or compound file.
+- The default stream of a **Record** or **Recordset** object representing a directory or compound file.
 
-  - A resource field containing the URL of a simple file.
+- A resource field containing the URL of a simple file.
 
-  - No particular source at all. In this case, a **Stream** object is opened in memory. Data can be written to it and then saved in another **Stream** or file.
+- No particular source at all. In this case, a **Stream** object is opened in memory. Data can be written to it and then saved in another **Stream** or file.
 
-  - A BLOB field in a **Recordset**.
+- A BLOB field in a **Recordset**.
 
 This chapter covers the following topics:
 
-- [Streams and Persistence](streams-and-persistence.md)
-
-- [Records and Provider-Supplied Fields](records-and-provider-supplied-fields.md)
-
-- [Absolute and Relative URLs](absolute-and-relative-urls.md)
-
-- [Using ADO for Internet Publishing (ADO)](using-ado-for-internet-publishing.md)
+- [Streams and persistence](streams-and-persistence.md)
+- [Records and provider-supplied fields](records-and-provider-supplied-fields.md)
+- [Absolute and relative URLs](absolute-and-relative-urls.md)
+- [Using ADO for Internet publishing (ADO)](using-ado-for-internet-publishing.md)

@@ -1,6 +1,6 @@
 ﻿---
-title: 'Chapter 2: Getting Data'
-TOCTitle: 'Chapter 2: Getting Data'
+title: 'Chapter 2: Getting data'
+TOCTitle: 'Chapter 2: Getting data'
 ms:assetid: 72d097e1-9284-cc27-fd48-e6bbb6a2a543
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249465(v=office.15)
 ms:contentKeyID: 48545619
@@ -8,8 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Chapter 2: Getting Data
-
+# Chapter 2: Getting data
 
 **Applies to**: Access 2013, Office 2013
 
@@ -21,20 +20,17 @@ To get data, your application must be in communication with a data source, such 
 
 The ADO object model represents the concept of a connection with the **Connection** object — the foundation upon which much ADO functionality is built. The purpose of a **Connection** object is to:
 
-  - Define the information ADO needs to communicate with data sources and create sessions.
+- Define the information ADO needs to communicate with data sources and create sessions.
 
-  - Define the transactional capabilities of the session.
+- Define the transactional capabilities of the session.
 
-  - Allow you to create and execute commands against the data source.
+- Allow you to create and execute commands against the data source.
 
-  - Provide information about the design of the underlying data source in the form of schema rowsets. For more information about schema rowsets, see [OpenSchema Method](openschema-method-ado.md).
+- Provide information about the design of the underlying data source in the form of schema rowsets. For more information about schema rowsets, see [OpenSchema Method](openschema-method-ado.md).
 
 This chapter covers the following topics:
 
-  - [Making a Connection](making-a-connection.md)
-
-  - [Using the Connection Object Reference (ADO)](using-the-connection-object-access.md)
-
-  - [Using the Command Object Reference (ADO)](using-the-command-object-access.md)
-
-  - [Adding Data to a Recordset (ADO)](adding-data-to-a-recordset.md)
+- [Making a connection](making-a-connection.md)
+- [Using the connection object reference (ADO)](using-the-connection-object-access.md)
+- [Using the command object reference (ADO)](using-the-command-object-access.md)
+- [Adding data to a Recordset (ADO)](adding-data-to-a-recordset.md)

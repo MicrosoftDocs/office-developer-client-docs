@@ -10,14 +10,11 @@ mtps_version: v=office.15
 
 # Section II: Remote Data Service
 
-
 **Applies to**: Access 2013, Office 2013
 
 This section contains the following chapters:
 
-  - [Chapter 11: RDS Fundamentals](chapter-11-rds-fundamentals.md)
-
-  - [Chapter 12: RDS Tutorial](chapter-12-rds-tutorial.md)
-
-  - [Chapter 13: RDS Usage and Security](chapter-13-rds-usage-and-security.md)
+- [Chapter 11: RDS fundamentals](chapter-11-rds-fundamentals.md)
+- [Chapter 12: RDS tutorial](chapter-12-rds-tutorial.md)
+- [Chapter 13: RDS usage and security](chapter-13-rds-usage-and-security.md)
 

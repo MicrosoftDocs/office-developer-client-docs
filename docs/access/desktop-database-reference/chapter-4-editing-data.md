@@ -1,6 +1,6 @@
 ﻿---
-title: 'Chapter 4: Editing Data'
-TOCTitle: 'Chapter 4: Editing Data'
+title: 'Chapter 4: Editing data'
+TOCTitle: 'Chapter 4: Editing data'
 ms:assetid: 822b7365-0926-6411-6fb4-30de032570f8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249563(v=office.15)
 ms:contentKeyID: 48545974
@@ -8,8 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Chapter 4: Editing Data
-
+# Chapter 4: Editing data
 
 **Applies to**: Access 2013, Office 2013
 
@@ -68,12 +67,8 @@ End Function
 
 This chapter covers the following topics:
 
-- [Editing Existing Records](editing-existing-records.md)
-
-- [Determining What is Supported](determining-what-is-supported.md)
-
-- [Deleting Records Using the Delete Method](deleting-records-using-the-delete-method.md)
-
-- [Alternatives: Using SQL Statements](alternatives-using-sql-statements.md)
-
-- [Adding Records (ADO)](adding-records.md)
+- [Editing existing records](editing-existing-records.md)
+- [Determining what is supported](determining-what-is-supported.md)
+- [Deleting records using the Delete method](deleting-records-using-the-delete-method.md)
+- [Alternatives: using SQL statements](alternatives-using-sql-statements.md)
+- [Adding records (ADO)](adding-records.md)
