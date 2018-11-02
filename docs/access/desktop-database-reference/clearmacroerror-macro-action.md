@@ -1,6 +1,6 @@
 ﻿---
-title: ClearMacroError Macro Action
-TOCTitle: ClearMacroError Macro Action
+title: ClearMacroError macro action
+TOCTitle: ClearMacroError macro action
 ms:assetid: 1091747e-e957-38c6-6454-5169f091323e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845338(v=office.15)
 ms:contentKeyID: 48543296
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# ClearMacroError Macro Action
+# ClearMacroError macro action
 
 
 **Applies to**: Access 2013, Office 2013

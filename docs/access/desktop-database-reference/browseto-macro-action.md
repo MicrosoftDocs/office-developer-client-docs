@@ -1,6 +1,6 @@
 ﻿---
-title: BrowseTo Macro Action
-TOCTitle: BrowseTo Macro Action
+title: BrowseTo macro action
+TOCTitle: BrowseTo macro action
 ms:assetid: b25e1cc6-c4ed-abd6-0285-94fc7dae0bdf
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822020(v=office.15)
 ms:contentKeyID: 48547167
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# BrowseTo Macro Action
+# BrowseTo macro action
 
 **Applies to**: Access 2013, Office 2013
 

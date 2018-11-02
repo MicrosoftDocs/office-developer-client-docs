@@ -1,6 +1,6 @@
 ﻿---
-title: SetMenuItem Macro Action
-TOCTitle: SetMenuItem Macro Action
+title: SetMenuItem macro action
+TOCTitle: SetMenuItem macro action
 ms:assetid: 503b3635-e721-1b99-3249-626e5dccdb8a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193803(v=office.15)
 ms:contentKeyID: 48544789
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# SetMenuItem Macro Action
+# SetMenuItem macro action
 
 
 **Applies to**: Access 2013, Office 2013

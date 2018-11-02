@@ -1,6 +1,6 @@
 ﻿---
-title: SetValue Macro Action
-TOCTitle: SetValue Macro Action
+title: SetValue macro action
+TOCTitle: SetValue macro action
 ms:assetid: a08be0c1-a053-45f9-b4ae-709fedc58e8b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff820771(v=office.15)
 ms:contentKeyID: 48546712
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# SetValue Macro Action
+# SetValue macro action
 
 
 **Applies to**: Access 2013, Office 2013

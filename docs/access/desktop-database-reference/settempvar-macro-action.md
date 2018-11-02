@@ -1,6 +1,6 @@
 ﻿---
-title: SetTempVar Macro Action
-TOCTitle: SetTempVar Macro Action
+title: SetTempVar macro action
+TOCTitle: SetTempVar macro action
 ms:assetid: 9c3b7bee-02c5-efbf-1276-4c4a1f7802d9
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198102(v=office.15)
 ms:contentKeyID: 48546593
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# SetTempVar Macro Action
+# SetTempVar macro action
 
 
 **Applies to**: Access 2013, Office 2013

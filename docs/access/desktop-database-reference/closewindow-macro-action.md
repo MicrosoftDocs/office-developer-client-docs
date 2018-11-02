@@ -1,6 +1,6 @@
 ﻿---
-title: CloseWindow Macro Action
-TOCTitle: CloseWindow Macro Action
+title: CloseWindow macro action
+TOCTitle: CloseWindow macro action
 ms:assetid: ba96bc26-7f3f-fd3d-8d3a-e18bfe90cdf0
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822510(v=office.15)
 ms:contentKeyID: 48547377
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# CloseWindow Macro Action
+# CloseWindow macro action
 
 
 **Applies to**: Access 2013, Office 2013

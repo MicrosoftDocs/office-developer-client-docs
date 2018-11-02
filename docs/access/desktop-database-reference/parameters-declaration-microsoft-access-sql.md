@@ -1,6 +1,6 @@
 ﻿---
-title: PARAMETERS Declaration (Microsoft Access SQL)
-TOCTitle: PARAMETERS Declaration (Microsoft Access SQL)
+title: PARAMETERS declaration (Microsoft Access SQL)
+TOCTitle: PARAMETERS declaration (Microsoft Access SQL)
 ms:assetid: 0dcaad68-6a5f-93dc-e62a-b82b36e1e69c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845220(v=office.15)
 ms:contentKeyID: 48543230
@@ -14,7 +14,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# PARAMETERS Declaration (Microsoft Access SQL)
+# PARAMETERS declaration (Microsoft Access SQL)
 
 
 **Applies to**: Access 2013, Office 2013

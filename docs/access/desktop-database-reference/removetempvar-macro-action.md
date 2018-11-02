@@ -1,6 +1,6 @@
 ﻿---
-title: RemoveTempVar Macro Action
-TOCTitle: RemoveTempVar Macro Action
+title: RemoveTempVar macro action
+TOCTitle: RemoveTempVar macro action
 ms:assetid: 7bcc5010-3e30-ecef-2c5d-a35e73c8e325
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196352(v=office.15)
 ms:contentKeyID: 48545822
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# RemoveTempVar Macro Action
+# RemoveTempVar macro action
 
 
 **Applies to**: Access 2013, Office 2013

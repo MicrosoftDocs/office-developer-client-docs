@@ -1,6 +1,6 @@
 ﻿---
-title: RaiseError Macro Action
-TOCTitle: RaiseError Macro Action
+title: RaiseError macro action
+TOCTitle: RaiseError macro action
 ms:assetid: c8c57685-b373-67d6-cea6-8f2c334547d3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823192(v=office.15)
 ms:contentKeyID: 48547661
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# RaiseError Macro Action
+# RaiseError macro action
 
 **Applies to**: Access 2013, Office 2013 
 

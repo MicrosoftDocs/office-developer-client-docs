@@ -1,6 +1,6 @@
 ﻿---
-title: SearchForRecord Macro Action
-TOCTitle: SearchForRecord Macro Action
+title: SearchForRecord macro action
+TOCTitle: SearchForRecord macro action
 ms:assetid: a3483c41-adb5-5923-55f4-1a3c4f60cb2f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821023(v=office.15)
 ms:contentKeyID: 48546781
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# SearchForRecord Macro Action
+# SearchForRecord macro action
 
 
 **Applies to**: Access 2013, Office 2013

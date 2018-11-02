@@ -1,6 +1,6 @@
 ﻿---
-title: UNION Operation (Microsoft Access SQL)
-TOCTitle: UNION Operation (Microsoft Access SQL)
+title: UNION operation (Microsoft Access SQL)
+TOCTitle: UNION operation (Microsoft Access SQL)
 ms:assetid: a5139921-51e5-7d96-74e3-11c3fd5f7eaa
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821131(v=office.15)
 ms:contentKeyID: 48546826
@@ -14,7 +14,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# UNION Operation (Microsoft Access SQL)
+# UNION operation (Microsoft Access SQL)
 
 
 **Applies to**: Access 2013, Office 2013

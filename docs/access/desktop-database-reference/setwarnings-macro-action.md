@@ -1,6 +1,6 @@
 ﻿---
-title: SetWarnings Macro Action
-TOCTitle: SetWarnings Macro Action
+title: SetWarnings macro action
+TOCTitle: SetWarnings macro action
 ms:assetid: ff95b919-b1ee-c0a0-851d-71894851bb1d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837313(v=office.15)
 ms:contentKeyID: 48548965
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# SetWarnings Macro Action
+# SetWarnings macro action
 
 
 **Applies to**: Access 2013, Office 2013

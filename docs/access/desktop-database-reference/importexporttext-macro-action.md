@@ -1,6 +1,6 @@
 ﻿---
-title: ImportExportText Macro Action
-TOCTitle: ImportExportText Macro Action
+title: ImportExportText macro action
+TOCTitle: ImportExportText macro action
 ms:assetid: 366fa095-6f09-7c22-e734-bfa585cfe79e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192475(v=office.15)
 ms:contentKeyID: 48544171
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# ImportExportText Macro Action
+# ImportExportText macro action
 
 **Applies to**: Access 2013, Office 2013
 

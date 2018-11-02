@@ -1,6 +1,6 @@
 ﻿---
-title: MoveAndSizeWindow Macro Action
-TOCTitle: MoveAndSizeWindow Macro Action
+title: MoveAndSizeWindow macro action
+TOCTitle: MoveAndSizeWindow macro action
 ms:assetid: 86bcf45f-90ce-4ca2-a7fb-efbe5347d137
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197001(v=office.15)
 ms:contentKeyID: 48546090
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# MoveAndSizeWindow Macro Action
+# MoveAndSizeWindow macro action
 
 
 **Applies to**: Access 2013, Office 2013

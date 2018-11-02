@@ -1,6 +1,6 @@
 ﻿---
-title: ShowToolbar Macro Action
-TOCTitle: ShowToolbar Macro Action
+title: ShowToolbar macro action
+TOCTitle: ShowToolbar macro action
 ms:assetid: 9e53009b-1e5e-1bee-3bcc-f82dc1b0dc48
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198288(v=office.15)
 ms:contentKeyID: 48546649
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# ShowToolbar Macro Action
+# ShowToolbar macro action
 
 
 **Applies to**: Access 2013, Office 2013

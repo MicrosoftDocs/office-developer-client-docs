@@ -1,6 +1,6 @@
 ﻿---
-title: SingleStep Macro Action
-TOCTitle: SingleStep Macro Action
+title: SingleStep macro action
+TOCTitle: SingleStep macro action
 ms:assetid: 2836fe1d-fb9b-6b42-acfd-c52e468161d4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191989(v=office.15)
 ms:contentKeyID: 48543855
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# SingleStep Macro Action
+# SingleStep macro action
 
 
 **Applies to**: Access 2013, Office 2013

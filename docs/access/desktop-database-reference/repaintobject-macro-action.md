@@ -1,6 +1,6 @@
 ﻿---
-title: RepaintObject Macro Action
-TOCTitle: RepaintObject Macro Action
+title: RepaintObject macro action
+TOCTitle: RepaintObject macro action
 ms:assetid: e8fa7d0b-578c-5071-2bd5-b772b48637a5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836055(v=office.15)
 ms:contentKeyID: 48548431
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# RepaintObject Macro Action
+# RepaintObject macro action
 
 
 **Applies to**: Access 2013, Office 2013

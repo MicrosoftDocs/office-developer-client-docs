@@ -1,6 +1,6 @@
 ﻿---
-title: Echo Macro Action (Access desktop database reference)
-TOCTitle: Echo Macro Action
+title: Echo macro action (Access desktop database reference)
+TOCTitle: Echo macro action
 ms:assetid: 38dfb2cf-8db5-44b3-91fa-e490932b940b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192516(v=office.15)
 ms:contentKeyID: 48544227
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Echo Macro Action
+# Echo macro action
 
 
 **Applies to**: Access 2013, Office 2013

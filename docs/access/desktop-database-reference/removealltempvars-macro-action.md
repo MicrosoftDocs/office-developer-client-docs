@@ -1,6 +1,6 @@
 ﻿---
-title: RemoveAllTempVars Macro Action
-TOCTitle: RemoveAllTempVars Macro Action
+title: RemoveAllTempVars macro action
+TOCTitle: RemoveAllTempVars macro action
 ms:assetid: 409fd836-4a53-cefd-4264-8cee0fa8ac52
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192877(v=office.15)
 ms:contentKeyID: 48544430
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# RemoveAllTempVars Macro Action
+# RemoveAllTempVars macro action
 
 
 **Applies to**: Access 2013, Office 2013

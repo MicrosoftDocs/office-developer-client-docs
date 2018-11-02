@@ -1,6 +1,6 @@
 ﻿---
-title: RunDataMacro Macro Action
-TOCTitle: RunDataMacro Macro Action
+title: RunDataMacro macro action
+TOCTitle: RunDataMacro macro action
 ms:assetid: fe4ac2f4-7851-7797-ce91-5f2dd3ba4d22
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837269(v=office.15)
 ms:contentKeyID: 48548933
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# RunDataMacro Macro Action
+# RunDataMacro macro action
 
 **Applies to**: Access 2013, Office 2013
 
@@ -44,7 +44,7 @@ The **RunDataMacro** action has the following argument.
 
 ## Remarks
 
-You can use the **RunDataMacro** action in macros, named data macros, and the following macro events: **[After Delete Macro Event](after-delete-macro-event.md)**, **[After Insert Macro Event](after-insert-macro-event.md)** and **[After Update Macro Event](after-update-macro-event.md)**.
+You can use the **RunDataMacro** action in macros, named data macros, and the following macro events: **[After Delete macro event](after-delete-macro-event.md)**, **[After Insert macro event](after-insert-macro-event.md)** and **[After Update macro event](after-update-macro-event.md)**.
 
 The name of the data macro must include the table to which it is attached (for example, **Comments.AddComment**, not just **AddComment**).
 

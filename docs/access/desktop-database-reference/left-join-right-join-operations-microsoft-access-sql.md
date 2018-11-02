@@ -1,6 +1,6 @@
 ﻿---
-title: LEFT JOIN, RIGHT JOIN Operations (Microsoft Access SQL)
-TOCTitle: LEFT JOIN, RIGHT JOIN Operations (Microsoft Access SQL)
+title: LEFT JOIN, RIGHT JOIN operations (Microsoft Access SQL)
+TOCTitle: LEFT JOIN, RIGHT JOIN operations (Microsoft Access SQL)
 ms:assetid: 9c10525f-98b1-fd4f-8b40-07a32c5c6502
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198084(v=office.15)
 ms:contentKeyID: 48546586
@@ -10,7 +10,7 @@ dev_langs:
 - sql
 ---
 
-# LEFT JOIN, RIGHT JOIN Operations (Microsoft Access SQL)
+# LEFT JOIN, RIGHT JOIN operations (Microsoft Access SQL)
 
 **Applies to**: Access 2013, Office 2013
 

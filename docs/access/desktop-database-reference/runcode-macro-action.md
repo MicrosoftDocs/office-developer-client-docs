@@ -1,6 +1,6 @@
 ﻿---
-title: RunCode Macro Action
-TOCTitle: RunCode Macro Action
+title: RunCode macro action
+TOCTitle: RunCode macro action
 ms:assetid: cb0625be-4b5d-4927-9b0e-59a6e411b5bb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834373(v=office.15)
 ms:contentKeyID: 48547706
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# RunCode Macro Action
+# RunCode macro action
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,6 +1,6 @@
 ﻿---
-title: Requery Macro Action
-TOCTitle: Requery Macro Action
+title: Requery macro action
+TOCTitle: Requery macro action
 ms:assetid: 6dbdcae5-81b6-9925-4cad-64b178c23060
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195544(v=office.15)
 ms:contentKeyID: 48545499
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Requery Macro Action
+# Requery macro action
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,6 +1,6 @@
 ﻿---
-title: After Insert Macro Event
-TOCTitle: After Insert Macro Event
+title: After Insert macro event
+TOCTitle: After Insert macro event
 ms:assetid: 78013896-ee07-6979-96f7-fa0f3490419e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196099(v=office.15)
 ms:contentKeyID: 48545742
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# After Insert Macro Event
+# After Insert macro event
 
 
 **Applies to**: Access 2013, Office 2013
@@ -57,83 +57,83 @@ The following table lists macro commands that can be used in the**After Insert**
 <tbody>
 <tr class="odd">
 <td><p>Program Flow</p></td>
-<td><p><a href="comment-macro-statement.md">Comment Macro Statement</a></p></td>
+<td><p><a href="comment-macro-statement.md">Comment macro statement</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Program Flow</p></td>
-<td><p><a href="group-macro-statement.md">Group Macro Statement</a></p></td>
+<td><p><a href="group-macro-statement.md">Group macro statement</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Program Flow</p></td>
-<td><p><a href="if-then-else-macro-block.md">If...Then...Else Macro Block</a></p></td>
+<td><p><a href="if-then-else-macro-block.md">If...Then...Else macro block</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Data Block</p></td>
-<td><p><a href="createrecord-data-block.md">CreateRecord Macro Action</a></p></td>
+<td><p><a href="createrecord-data-block.md">CreateRecord macro action</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Data Block</p></td>
-<td><p><a href="editrecord-data-block.md">EditRecord Macro Action</a></p></td>
+<td><p><a href="editrecord-data-block.md">EditRecord macro action</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Data Block</p></td>
-<td><p><a href="foreachrecord-data-block.md">ForEachRecord Macro Action</a></p></td>
+<td><p><a href="foreachrecord-data-block.md">ForEachRecord macro action</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Data Block</p></td>
-<td><p><a href="lookuprecord-data-block.md">LookupRecord Data Block</a></p></td>
+<td><p><a href="lookuprecord-data-block.md">LookupRecord data block</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Data Action</p></td>
-<td><p><a href="cancelrecordchange-macro-action.md">CancelRecordChange Macro Action</a></p></td>
+<td><p><a href="cancelrecordchange-macro-action.md">CancelRecordChange macro action</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Data Action</p></td>
-<td><p><a href="clearmacroerror-macro-action.md">ClearMacroError Macro Action</a></p></td>
+<td><p><a href="clearmacroerror-macro-action.md">ClearMacroError macro action</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Data Action</p></td>
-<td><p><a href="deleterecord-macro-action.md">DeleteRecord Macro Action</a></p></td>
+<td><p><a href="deleterecord-macro-action.md">DeleteRecord macro action</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Data Action</p></td>
-<td><p><a href="exitforeachrecord-macro-action.md">ExitForEachRecord Macro Action</a></p></td>
+<td><p><a href="exitforeachrecord-macro-action.md">ExitForEachRecord macro action</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Data Action</p></td>
-<td><p><a href="logevent-macro-action.md">LogEvent Macro Action</a></p></td>
+<td><p><a href="logevent-macro-action.md">LogEvent macro action</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Data Action</p></td>
-<td><p><a href="onerror-macro-action.md">OnError Macro Action</a></p></td>
+<td><p><a href="onerror-macro-action.md">OnError macro action</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Data Action</p></td>
-<td><p><a href="raiseerror-macro-action.md">RaiseError Macro Action</a></p></td>
+<td><p><a href="raiseerror-macro-action.md">RaiseError macro action</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Data Action</p></td>
-<td><p><a href="rundatamacro-macro-action.md">RunDataMacro Macro Action</a></p></td>
+<td><p><a href="rundatamacro-macro-action.md">RunDataMacro macro action</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Data Action</p></td>
-<td><p><a href="sendemail-macro-action.md">SendEmail Macro Action</a></p></td>
+<td><p><a href="sendemail-macro-action.md">SendEmail macro action</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Data Action</p></td>
-<td><p><a href="setfield-macro-action.md">SetField Macro Action</a></p></td>
+<td><p><a href="setfield-macro-action.md">SetField macro action</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Data Action</p></td>
-<td><p><a href="setlocalvar-macro-action.md">SetLocalVar Macro Action</a></p></td>
+<td><p><a href="setlocalvar-macro-action.md">SetLocalVar macro action</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Data Action</p></td>
-<td><p><a href="stopallmacros-macro-action.md">StopAllMacros Macro Action</a></p></td>
+<td><p><a href="stopallmacros-macro-action.md">StopAllMacros macro action</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Data Action</p></td>
-<td><p><a href="stopmacro-macro-action.md">StopMacro Macro Action</a></p></td>
+<td><p><a href="stopmacro-macro-action.md">StopMacro macro action</a></p></td>
 </tr>
 </tbody>
 </table>

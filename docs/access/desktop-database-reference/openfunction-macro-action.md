@@ -1,6 +1,6 @@
 ﻿---
-title: OpenFunction Macro Action
-TOCTitle: OpenFunction Macro Action
+title: OpenFunction macro action
+TOCTitle: OpenFunction macro action
 ms:assetid: 0446dbb9-c342-9225-27ba-b8a6892030e1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844833(v=office.15)
 ms:contentKeyID: 48543005
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# OpenFunction Macro Action
+# OpenFunction macro action
 
 
 **Applies to**: Access 2013, Office 2013

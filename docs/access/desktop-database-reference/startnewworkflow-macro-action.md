@@ -1,6 +1,6 @@
 ﻿---
-title: StartNewWorkflow Macro Action
-TOCTitle: StartNewWorkflow Macro Action
+title: StartNewWorkflow macro action
+TOCTitle: StartNewWorkflow macro action
 ms:assetid: b3e81a11-b816-0eef-fc70-6d6da7a5a845
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822054(v=office.15)
 ms:contentKeyID: 48547206
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# StartNewWorkflow Macro Action
+# StartNewWorkflow macro action
 
 
 **Applies to**: Access 2013, Office 2013

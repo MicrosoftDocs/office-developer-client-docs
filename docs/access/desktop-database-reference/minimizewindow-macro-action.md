@@ -1,6 +1,6 @@
 ﻿---
-title: MinimizeWindow Macro Action
-TOCTitle: MinimizeWindow Macro Action
+title: MinimizeWindow macro action
+TOCTitle: MinimizeWindow macro action
 ms:assetid: 3a92b654-15ce-1ed1-63e0-eed927dbe26c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192648(v=office.15)
 ms:contentKeyID: 48544265
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# MinimizeWindow Macro Action
+# MinimizeWindow macro action
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,6 +1,6 @@
 ﻿---
-title: MessageBox Macro Action
-TOCTitle: MessageBox Macro Action
+title: MessageBox macro action
+TOCTitle: MessageBox macro action
 ms:assetid: 326a0e68-38fb-4f81-b319-5a70caa5aec4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192304(v=office.15)
 ms:contentKeyID: 48544077
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# MessageBox Macro Action
+# MessageBox macro action
 
 
 **Applies to**: Access 2013, Office 2013

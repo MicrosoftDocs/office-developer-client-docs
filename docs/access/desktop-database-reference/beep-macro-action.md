@@ -1,6 +1,6 @@
 ﻿---
-title: Beep Macro Action (Access desktop database reference)
-TOCTitle: Beep Macro Action
+title: Beep macro action (Access desktop database reference)
+TOCTitle: Beep macro action
 ms:assetid: 5ca1600f-7934-3b3d-19fd-f305cda0e5d8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194572(v=office.15)
 ms:contentKeyID: 48545092
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Beep Macro Action
+# Beep macro action
 
 
 **Applies to**: Access 2013, Office 2013

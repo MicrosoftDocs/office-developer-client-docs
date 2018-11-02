@@ -10,18 +10,11 @@ mtps_version: v=office.15
 
 # Data Macro Events
 
-
 **Applies to**: Access 2013, Office 2013
 
-
-
-  - [After Delete Macro Event](after-delete-macro-event.md)
-
-  - [After Insert Macro Event](after-insert-macro-event.md)
-
-  - [After Update Macro Event](after-update-macro-event.md)
-
-  - [Before Change Macro Event](before-change-macro-event.md)
-
-  - [Before Delete Macro Event](before-delete-macro-event.md)
+- [After Delete macro event](after-delete-macro-event.md)
+- [After Insert macro event](after-insert-macro-event.md)
+- [After Update macro event](after-update-macro-event.md)
+- [Before Change macro event](before-change-macro-event.md)
+- [Before Delete macro event](before-delete-macro-event.md)
 

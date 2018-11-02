@@ -1,6 +1,6 @@
 ﻿---
-title: OpenQuery Macro Action
-TOCTitle: OpenQuery Macro Action
+title: OpenQuery macro action
+TOCTitle: OpenQuery macro action
 ms:assetid: 64bfce73-aeaf-9a78-895c-492e5da43ded
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195094(v=office.15)
 ms:contentKeyID: 48545298
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# OpenQuery Macro Action
+# OpenQuery macro action
 
 
 **Applies to**: Access 2013, Office 2013

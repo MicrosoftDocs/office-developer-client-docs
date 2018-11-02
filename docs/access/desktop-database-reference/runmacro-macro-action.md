@@ -1,6 +1,6 @@
 ﻿---
-title: RunMacro Macro Action
-TOCTitle: RunMacro Macro Action
+title: RunMacro macro action
+TOCTitle: RunMacro macro action
 ms:assetid: 25966f20-8160-0821-b88a-ed08b7786fdc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191868(v=office.15)
 ms:contentKeyID: 48543787
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# RunMacro Macro Action
+# RunMacro macro action
 
 
 **Applies to**: Access 2013, Office 2013

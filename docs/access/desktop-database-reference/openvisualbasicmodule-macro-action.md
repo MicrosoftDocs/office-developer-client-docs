@@ -1,6 +1,6 @@
 ﻿---
-title: OpenVisualBasicModule Macro Action
-TOCTitle: OpenVisualBasicModule Macro Action
+title: OpenVisualBasicModule macro action
+TOCTitle: OpenVisualBasicModule macro action
 ms:assetid: 26eb31c8-3c65-b17d-46cd-c8967434a7a0
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191906(v=office.15)
 ms:contentKeyID: 48543826
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# OpenVisualBasicModule Macro Action
+# OpenVisualBasicModule macro action
 
 
 **Applies to**: Access 2013, Office 2013

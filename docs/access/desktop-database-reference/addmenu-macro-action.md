@@ -1,6 +1,6 @@
 ﻿---
-title: AddMenu Macro Action
-TOCTitle: AddMenu Macro Action
+title: AddMenu macro action
+TOCTitle: AddMenu macro action
 ms:assetid: 4eb2afa0-ed1f-41b1-d27f-b3ce7a73d2bb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193760(v=office.15)
 ms:contentKeyID: 48544762
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# AddMenu Macro Action
+# AddMenu macro action
 
 
 **Applies to**: Access 2013, Office 2013

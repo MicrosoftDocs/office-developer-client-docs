@@ -1,6 +1,6 @@
 ﻿---
-title: CloseDatabase Macro Action
-TOCTitle: CloseDatabase Macro Action
+title: CloseDatabase macro action
+TOCTitle: CloseDatabase macro action
 ms:assetid: c4b4278d-932c-99f6-da2d-8953109b44b3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823085(v=office.15)
 ms:contentKeyID: 48547598
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# CloseDatabase Macro Action
+# CloseDatabase macro action
 
 
 **Applies to**: Access 2013, Office 2013

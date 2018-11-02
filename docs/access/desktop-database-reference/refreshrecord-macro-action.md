@@ -1,6 +1,6 @@
 ﻿---
-title: RefreshRecord Macro Action
-TOCTitle: RefreshRecord Macro Action
+title: RefreshRecord macro action
+TOCTitle: RefreshRecord macro action
 ms:assetid: 68c90d7d-f59c-9e83-bc30-8f37cf5a3696
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195261(v=office.15)
 ms:contentKeyID: 48545396
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# RefreshRecord Macro Action
+# RefreshRecord macro action
 
 
 **Applies to**: Access 2013, Office 2013

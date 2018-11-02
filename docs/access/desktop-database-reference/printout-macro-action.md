@@ -1,6 +1,6 @@
 ﻿---
-title: PrintOut Macro Action
-TOCTitle: PrintOut Macro Action
+title: PrintOut macro action
+TOCTitle: PrintOut macro action
 ms:assetid: 13688158-1cf1-4b2e-d90a-271c8890e413
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845432(v=office.15)
 ms:contentKeyID: 48543368
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# PrintOut Macro Action
+# PrintOut macro action
 
 
 **Applies to**: Access 2013, Office 2013

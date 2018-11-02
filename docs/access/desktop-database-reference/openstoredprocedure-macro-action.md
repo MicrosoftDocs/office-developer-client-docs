@@ -1,6 +1,6 @@
 ﻿---
-title: OpenStoredProcedure Macro Action
-TOCTitle: OpenStoredProcedure Macro Action
+title: OpenStoredProcedure macro action
+TOCTitle: OpenStoredProcedure macro action
 ms:assetid: b14dbb82-7c8a-0ace-e251-46599551a490
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822003(v=office.15)
 ms:contentKeyID: 48547142
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# OpenStoredProcedure Macro Action
+# OpenStoredProcedure macro action
 
 
 **Applies to**: Access 2013, Office 2013

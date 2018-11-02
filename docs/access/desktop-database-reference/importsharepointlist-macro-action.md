@@ -1,6 +1,6 @@
 ﻿---
-title: ImportSharePointList Macro Action
-TOCTitle: ImportSharePointList Macro Action
+title: ImportSharePointList macro action
+TOCTitle: ImportSharePointList macro action
 ms:assetid: 6a633d7d-d81d-0e2e-6c1c-706a552c1bf2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195403(v=office.15)
 ms:contentKeyID: 48545429
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# ImportSharePointList Macro Action
+# ImportSharePointList macro action
 
 **Applies to**: Access 2013, Office 2013
 

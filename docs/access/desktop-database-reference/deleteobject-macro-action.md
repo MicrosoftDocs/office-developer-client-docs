@@ -1,6 +1,6 @@
 ﻿---
-title: DeleteObject Macro Action
-TOCTitle: DeleteObject Macro Action
+title: DeleteObject macro action
+TOCTitle: DeleteObject macro action
 ms:assetid: a8deb2a7-4e73-8696-b8c1-3a3939d813f7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821415(v=office.15)
 ms:contentKeyID: 48546912
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# DeleteObject Macro Action
+# DeleteObject macro action
 
 
 **Applies to**: Access 2013, Office 2013

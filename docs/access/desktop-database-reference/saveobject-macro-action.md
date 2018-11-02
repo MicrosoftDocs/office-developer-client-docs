@@ -1,6 +1,6 @@
 ﻿---
-title: SaveObject Macro Action
-TOCTitle: SaveObject Macro Action
+title: SaveObject macro action
+TOCTitle: SaveObject macro action
 ms:assetid: 85716dfc-f76f-ca47-cc40-f8f88162f85a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196789(v=office.15)
 ms:contentKeyID: 48546060
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# SaveObject Macro Action
+# SaveObject macro action
 
 
 **Applies to**: Access 2013, Office 2013

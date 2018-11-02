@@ -1,6 +1,6 @@
 ﻿---
-title: EMailDatabaseObject Macro Action
-TOCTitle: EMailDatabaseObject Macro Action
+title: EMailDatabaseObject macro action
+TOCTitle: EMailDatabaseObject macro action
 ms:assetid: 7fd80596-5c08-dab9-5343-c0edc38a1af9
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196469(v=office.15)
 ms:contentKeyID: 48545915
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# EMailDatabaseObject Macro Action
+# EMailDatabaseObject macro action
 
 **Applies to:** Access 2013 | Office 2013
 

@@ -1,6 +1,6 @@
 ﻿---
-title: WITH OWNERACCESS OPTION Declaration (Microsoft Access SQL)
-TOCTitle: WITH OWNERACCESS OPTION Declaration (Microsoft Access SQL)
+title: WITH OWNERACCESS OPTION declaration (Microsoft Access SQL)
+TOCTitle: WITH OWNERACCESS OPTION declaration (Microsoft Access SQL)
 ms:assetid: 82e51071-12b2-e97e-07b4-27ffceda831e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196724(v=office.15)
 ms:contentKeyID: 48545993
@@ -14,7 +14,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# WITH OWNERACCESS OPTION Declaration (Microsoft Access SQL)
+# WITH OWNERACCESS OPTION declaration (Microsoft Access SQL)
 
 
 **Applies to**: Access 2013, Office 2013

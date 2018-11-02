@@ -1,6 +1,6 @@
 ﻿---
-title: ApplyFilter Macro Action
-TOCTitle: ApplyFilter Macro Action
+title: ApplyFilter macro action
+TOCTitle: ApplyFilter macro action
 ms:assetid: c63988c4-4506-cc51-98f7-478d1f3fe668
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823130(v=office.15)
 ms:contentKeyID: 48547623
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# ApplyFilter Macro Action
+# ApplyFilter macro action
 
 **Applies to**: Access 2013, Office 2013
 
