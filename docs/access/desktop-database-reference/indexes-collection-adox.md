@@ -1,6 +1,6 @@
 ﻿---
-title: Indexes Collection (ADOX)
-TOCTitle: Indexes Collection (ADOX)
+title: Indexes collection (ADOX)
+TOCTitle: Indexes collection (ADOX)
 ms:assetid: ab04bdd1-7c4a-44cb-dfc6-add3a52f502f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249793(v=office.15)
 ms:contentKeyID: 48546963
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Indexes Collection (ADOX)
+# Indexes collection (ADOX)
 
 
 **Applies to**: Access 2013, Office 2013

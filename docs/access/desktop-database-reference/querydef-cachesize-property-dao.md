@@ -1,5 +1,5 @@
 ﻿---
-title: QueryDef.CacheSize Property (DAO)
+title: QueryDef.CacheSize property (DAO)
 TOCTitle: CacheSize Property
 ms:assetid: a84d990e-8180-daa3-7640-47d2be8fd28b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821397(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# QueryDef.CacheSize Property (DAO)
+# QueryDef.CacheSize property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

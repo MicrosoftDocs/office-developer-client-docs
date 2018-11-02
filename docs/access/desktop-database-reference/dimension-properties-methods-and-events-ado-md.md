@@ -1,5 +1,5 @@
 ﻿---
-title: Dimension Properties, Methods, and Events (ADO MD)
+title: Dimension properties, methods, and events (ADO MD)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 6aae3565-aeaf-582d-2a5a-c8202b788dfe
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249419(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Dimension Properties, Methods, and Events (ADO MD)
+# Dimension properties, methods, and events (ADO MD)
 
 
 **Applies to**: Access 2013, Office 2013

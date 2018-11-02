@@ -1,6 +1,6 @@
 ﻿---
-title: Procedure Object (ADOX)
-TOCTitle: Procedure Object (ADOX)
+title: Procedure object (ADOX)
+TOCTitle: Procedure object (ADOX)
 ms:assetid: d5fcf0fe-f59f-e114-dc11-515f11c2a2c1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250076(v=office.15)
 ms:contentKeyID: 48547972
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Procedure Object (ADOX)
+# Procedure object (ADOX)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,5 +1,5 @@
 ﻿---
-title: Field.ValidationRule Property (DAO)
+title: Field.ValidationRule property (DAO)
 TOCTitle: ValidationRule Property
 ms:assetid: b07e644d-54d3-7199-6f99-178774e54398
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821784(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Field.ValidationRule Property (DAO)
+# Field.ValidationRule property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

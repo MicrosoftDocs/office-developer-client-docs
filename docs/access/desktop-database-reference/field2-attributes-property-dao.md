@@ -1,5 +1,5 @@
 ﻿---
-title: Field2.Attributes Property (DAO)
+title: Field2.Attributes property (DAO)
 TOCTitle: Attributes Property
 ms:assetid: 08ae9b6b-21e4-9b7e-0852-cfc6639027a7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845025(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Field2.Attributes Property (DAO)
+# Field2.Attributes property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

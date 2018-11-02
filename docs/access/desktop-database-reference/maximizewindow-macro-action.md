@@ -1,6 +1,6 @@
 ﻿---
-title: MaximizeWindow Macro Action
-TOCTitle: MaximizeWindow Macro Action
+title: MaximizeWindow macro action
+TOCTitle: MaximizeWindow macro action
 ms:assetid: 79c9e430-07a7-02b2-ff5a-c6b9ec32c5b6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196171(v=office.15)
 ms:contentKeyID: 48545778
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# MaximizeWindow Macro Action
+# MaximizeWindow macro action
 
 
 **Applies to**: Access 2013, Office 2013

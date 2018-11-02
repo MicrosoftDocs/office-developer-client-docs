@@ -1,5 +1,5 @@
 ﻿---
-title: TableDef.ValidationRule Property (DAO)
+title: TableDef.ValidationRule property (DAO)
 TOCTitle: ValidationRule Property
 ms:assetid: 7dcd6f2c-45bc-a50b-727d-589371d5803f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196425(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# TableDef.ValidationRule Property (DAO)
+# TableDef.ValidationRule property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

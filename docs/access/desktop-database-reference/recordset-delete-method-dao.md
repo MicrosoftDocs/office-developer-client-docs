@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset.Delete Method (DAO)
+title: Recordset.Delete method (DAO)
 TOCTitle: Delete Method
 ms:assetid: 310c0370-6f48-9e6b-ed1f-8d8133c52ed3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192282(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Recordset.Delete Method (DAO)
+# Recordset.Delete method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

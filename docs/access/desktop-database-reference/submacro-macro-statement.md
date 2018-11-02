@@ -1,6 +1,6 @@
 ---
-title: Submacro Macro Statement
-TOCTitle: Submacro Macro Statement
+title: Submacro macro statement
+TOCTitle: Submacro macro statement
 ms:assetid: fb580c19-52cd-c0bd-9117-4fa721eead6b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837173(v=office.15)
 ms:contentKeyID: 48548867
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Submacro Macro Statement
+# Submacro macro statement
 
 **Applies to**: Access 2013, Office 2013
 

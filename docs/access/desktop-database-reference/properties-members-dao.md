@@ -1,5 +1,5 @@
 ﻿---
-title: Properties Members (DAO)
+title: Properties members (DAO)
 TOCTitle: Properties Members
 ms:assetid: 04cd45ae-3a1e-6090-534d-de10363744c4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844853(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Properties Members (DAO)
+# Properties members (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

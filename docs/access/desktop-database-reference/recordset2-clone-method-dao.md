@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset2.Clone Method (DAO)
+title: Recordset2.Clone method (DAO)
 TOCTitle: Clone Method
 ms:assetid: f0d32cb1-03f6-395d-2509-b2139a5fdc68
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836567(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Recordset2.Clone Method (DAO)
+# Recordset2.Clone method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

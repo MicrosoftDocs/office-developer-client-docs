@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset.Edit Method (DAO)
+title: Recordset.Edit method (DAO)
 TOCTitle: Edit Method
 ms:assetid: a64d601b-f446-da40-0020-b99110a72872
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821175(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Recordset.Edit Method (DAO)
+# Recordset.Edit method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

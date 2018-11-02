@@ -1,6 +1,6 @@
 ﻿---
-title: Recordset Object (ADO)
-TOCTitle: Recordset Object (ADO)
+title: Recordset object (ADO)
+TOCTitle: Recordset object (ADO)
 ms:assetid: 0f963bf8-f066-dc8a-b754-f427de712df1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248865(v=office.15)
 ms:contentKeyID: 48543267
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Recordset Object (ADO)
+# Recordset object (ADO)
 
 **Applies to**: Access 2013, Office 2013
 

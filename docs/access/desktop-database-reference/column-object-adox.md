@@ -1,6 +1,6 @@
 ﻿---
-title: Column Object (ADOX)
-TOCTitle: Column Object (ADOX)
+title: Column object (ADOX)
+TOCTitle: Column object (ADOX)
 ms:assetid: ad38c2df-f704-0599-4b7a-8556e430ba46
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249811(v=office.15)
 ms:contentKeyID: 48547034
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Column Object (ADOX)
+# Column object (ADOX)
 
 
 **Applies to**: Access 2013, Office 2013

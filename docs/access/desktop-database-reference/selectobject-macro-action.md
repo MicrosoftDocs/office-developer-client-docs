@@ -1,6 +1,6 @@
 ﻿---
-title: SelectObject Macro Action
-TOCTitle: SelectObject Macro Action
+title: SelectObject macro action
+TOCTitle: SelectObject macro action
 ms:assetid: a90539a0-c5a0-e997-9c25-e0972d28f2a6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821420(v=office.15)
 ms:contentKeyID: 48546914
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# SelectObject Macro Action
+# SelectObject macro action
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,6 +1,6 @@
 ﻿---
-title: NavigateTo Macro Action
-TOCTitle: NavigateTo Macro Action
+title: NavigateTo macro action
+TOCTitle: NavigateTo macro action
 ms:assetid: 6594d614-3ea6-7851-b70e-1661d24f8ba0
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195165(v=office.15)
 ms:contentKeyID: 48545324
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# NavigateTo Macro Action
+# NavigateTo macro action
 
 
 **Applies to**: Access 2013, Office 2013

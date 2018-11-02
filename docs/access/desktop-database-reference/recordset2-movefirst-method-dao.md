@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset2.MoveFirst Method (DAO)
+title: Recordset2.MoveFirst method (DAO)
 TOCTitle: MoveFirst Method
 ms:assetid: 74b186d0-8f6a-d136-a563-04f58d67b122
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195879(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Recordset2.MoveFirst Method (DAO)
+# Recordset2.MoveFirst method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

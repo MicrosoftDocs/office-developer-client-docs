@@ -1,5 +1,5 @@
 ﻿---
-title: Field.GetChunk Method (DAO)
+title: Field.GetChunk method (DAO)
 TOCTitle: GetChunk Method
 ms:assetid: b8984e79-54f7-8052-85a3-d12033daf7a1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822448(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Field.GetChunk Method (DAO)
+# Field.GetChunk method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

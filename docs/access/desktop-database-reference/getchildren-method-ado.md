@@ -1,6 +1,6 @@
 ﻿---
-title: GetChildren Method (ADO)
-TOCTitle: GetChildren Method (ADO)
+title: GetChildren method (ADO)
+TOCTitle: GetChildren method (ADO)
 ms:assetid: 998cf640-ffc7-51e1-4d1e-4797f7cdea4a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249687(v=office.15)
 ms:contentKeyID: 48546515
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# GetChildren Method (ADO)
+# GetChildren method (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

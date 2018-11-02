@@ -1,6 +1,6 @@
 ﻿---
-title: Hierarchy Object (ADO MD)
-TOCTitle: Hierarchy Object (ADO MD)
+title: Hierarchy object (ADO MD)
+TOCTitle: Hierarchy object (ADO MD)
 ms:assetid: 26e4e690-59ad-fb87-66b0-f3310df42d0c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249031(v=office.15)
 ms:contentKeyID: 48543825
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Hierarchy Object (ADO MD)
+# Hierarchy object (ADO MD)
 
 
 **Applies to**: Access 2013, Office 2013

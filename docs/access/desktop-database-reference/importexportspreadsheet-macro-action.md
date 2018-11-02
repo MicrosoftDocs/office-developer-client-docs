@@ -1,6 +1,6 @@
 ﻿---
-title: ImportExportSpreadsheet Macro Action
-TOCTitle: ImportExportSpreadsheet Macro Action
+title: ImportExportSpreadsheet macro action
+TOCTitle: ImportExportSpreadsheet macro action
 ms:assetid: 526aef41-8329-5335-9d16-4d332542a297
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193927(v=office.15)
 ms:contentKeyID: 48544846
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# ImportExportSpreadsheet Macro Action
+# ImportExportSpreadsheet macro action
 
 
 **Applies to**: Access 2013, Office 2013

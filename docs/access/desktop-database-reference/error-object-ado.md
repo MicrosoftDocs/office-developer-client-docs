@@ -1,6 +1,6 @@
 ﻿---
 title: Error Object - ActiveX Data Objects (ADO)
-TOCTitle: Error Object (ADO)
+TOCTitle: Error object (ADO)
 ms:assetid: 97e478bf-8b25-03a8-9358-abba5069cba3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249678(v=office.15)
 ms:contentKeyID: 48546477
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Error Object (ADO)
+# Error object (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

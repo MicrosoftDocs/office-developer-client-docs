@@ -1,6 +1,6 @@
 ﻿---
-title: FilterColumn Property (RDS)
-TOCTitle: FilterColumn Property (RDS)
+title: FilterColumn property (RDS)
+TOCTitle: FilterColumn property (RDS)
 ms:assetid: fb5d9f23-b62a-8131-d6ff-8b7ed8bb825c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250287(v=office.15)
 ms:contentKeyID: 48548868
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# FilterColumn Property (RDS)
+# FilterColumn property (RDS)
 
 
 **Applies to**: Access 2013, Office 2013

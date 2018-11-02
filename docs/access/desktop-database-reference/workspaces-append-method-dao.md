@@ -1,5 +1,5 @@
 ﻿---
-title: Workspaces.Append Method (DAO)
+title: Workspaces.Append method (DAO)
 TOCTitle: Append Method
 ms:assetid: 195c26a6-a1d1-40a8-7e7e-13cd632008b6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845644(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Workspaces.Append Method (DAO)
+# Workspaces.Append method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

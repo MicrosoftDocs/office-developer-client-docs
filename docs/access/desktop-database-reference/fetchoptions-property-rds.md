@@ -1,6 +1,6 @@
 ﻿---
-title: FetchOptions Property (RDS)
-TOCTitle: FetchOptions Property (RDS)
+title: FetchOptions property (RDS)
+TOCTitle: FetchOptions property (RDS)
 ms:assetid: 0d86c5e4-9abc-5c0e-dc04-4183f4c278cc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248856(v=office.15)
 ms:contentKeyID: 48543221
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# FetchOptions Property (RDS)
+# FetchOptions property (RDS)
 
 
 **Applies to**: Access 2013, Office 2013

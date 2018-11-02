@@ -1,6 +1,6 @@
 ﻿---
-title: PROCEDURE Clause (Microsoft Access SQL)
-TOCTitle: PROCEDURE Clause (Microsoft Access SQL)
+title: PROCEDURE clause (Microsoft Access SQL)
+TOCTitle: PROCEDURE clause (Microsoft Access SQL)
 ms:assetid: a718802c-9260-88d5-ec29-d5e5594927b0
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821342(v=office.15)
 ms:contentKeyID: 48546872
@@ -14,7 +14,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# PROCEDURE Clause (Microsoft Access SQL)
+# PROCEDURE clause (Microsoft Access SQL)
 
 **Applies to**: Access 2013, Office 2013
 

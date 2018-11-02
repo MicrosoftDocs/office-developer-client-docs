@@ -1,6 +1,6 @@
 ﻿---
-title: SortColumn Property (RDS)
-TOCTitle: SortColumn Property (RDS)
+title: SortColumn property (RDS)
+TOCTitle: SortColumn property (RDS)
 ms:assetid: 0a5d157c-9261-960d-6f89-33d9c94b3940
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248835(v=office.15)
 ms:contentKeyID: 48543151
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# SortColumn Property (RDS)
+# SortColumn property (RDS)
 
 
 **Applies to**: Access 2013, Office 2013

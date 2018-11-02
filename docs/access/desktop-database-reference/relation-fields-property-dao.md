@@ -1,5 +1,5 @@
 ﻿---
-title: Relation.Fields Property (DAO)
+title: Relation.Fields property (DAO)
 TOCTitle: Fields Property
 ms:assetid: 6f0aafcc-3fc9-a5ef-2ffb-dea71c413128
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195574(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Relation.Fields Property (DAO)
+# Relation.Fields property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

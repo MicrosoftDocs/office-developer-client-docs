@@ -1,6 +1,6 @@
 ﻿---
-title: INNER JOIN Operation (Microsoft Access SQL)
-TOCTitle: INNER JOIN Operation (Microsoft Access SQL)
+title: INNER JOIN operation (Microsoft Access SQL)
+TOCTitle: INNER JOIN operation (Microsoft Access SQL)
 ms:assetid: 8d16c74c-02c6-12b7-b180-3e7744ef65f3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197346(v=office.15)
 ms:contentKeyID: 48546247
@@ -14,7 +14,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# INNER JOIN Operation (Microsoft Access SQL)
+# INNER JOIN operation (Microsoft Access SQL)
 
 
 **Applies to**: Access 2013, Office 2013

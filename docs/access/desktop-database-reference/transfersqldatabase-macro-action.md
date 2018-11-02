@@ -1,6 +1,6 @@
 ﻿---
-title: TransferSQLDatabase Macro Action
-TOCTitle: TransferSQLDatabase Macro Action
+title: TransferSQLDatabase macro action
+TOCTitle: TransferSQLDatabase macro action
 ms:assetid: 8cb95e22-f1f0-6c70-7dcb-3a3e9aafdc57
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197344(v=office.15)
 ms:contentKeyID: 48546244
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# TransferSQLDatabase Macro Action
+# TransferSQLDatabase macro action
 
 
 **Applies to**: Access 2013, Office 2013

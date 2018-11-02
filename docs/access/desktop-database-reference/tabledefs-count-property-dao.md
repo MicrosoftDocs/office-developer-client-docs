@@ -1,5 +1,5 @@
 ﻿---
-title: TableDefs.Count Property (DAO)
+title: TableDefs.Count property (DAO)
 TOCTitle: Count Property
 ms:assetid: 6e2cf3e5-524f-a643-b1dc-99a4b2bb2e63
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195561(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# TableDefs.Count Property (DAO)
+# TableDefs.Count property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

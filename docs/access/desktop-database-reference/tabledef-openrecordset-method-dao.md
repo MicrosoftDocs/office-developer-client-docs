@@ -1,5 +1,5 @@
 ﻿---
-title: TableDef.OpenRecordset Method (DAO)
+title: TableDef.OpenRecordset method (DAO)
 TOCTitle: OpenRecordset Method
 ms:assetid: f4c9c89c-3348-d3c9-ce76-dd11e5ee11a7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836703(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# TableDef.OpenRecordset Method (DAO)
+# TableDef.OpenRecordset method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

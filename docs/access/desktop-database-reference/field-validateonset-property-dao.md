@@ -1,5 +1,5 @@
 ﻿---
-title: Field.ValidateOnSet Property (DAO)
+title: Field.ValidateOnSet property (DAO)
 TOCTitle: ValidateOnSet Property
 ms:assetid: 00245a8a-a78f-b0a8-3eb3-11dd27873984
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844720(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Field.ValidateOnSet Property (DAO)
+# Field.ValidateOnSet property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

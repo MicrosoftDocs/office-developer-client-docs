@@ -1,6 +1,6 @@
 ﻿---
-title: RunSQL Macro Action
-TOCTitle: RunSQL Macro Action
+title: RunSQL macro action
+TOCTitle: RunSQL macro action
 ms:assetid: 3692142d-f8a8-e194-0b38-051167f46319
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192476(v=office.15)
 ms:contentKeyID: 48544174
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# RunSQL Macro Action
+# RunSQL macro action
 
 
 **Applies to**: Access 2013, Office 2013

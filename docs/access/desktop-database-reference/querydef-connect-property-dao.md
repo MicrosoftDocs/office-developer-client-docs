@@ -1,5 +1,5 @@
 ﻿---
-title: QueryDef.Connect Property (DAO)
+title: QueryDef.Connect property (DAO)
 TOCTitle: Connect Property
 ms:assetid: 14f19205-e92e-acc6-5677-b6d88772d5da
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845479(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# QueryDef.Connect Property (DAO)
+# QueryDef.Connect property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

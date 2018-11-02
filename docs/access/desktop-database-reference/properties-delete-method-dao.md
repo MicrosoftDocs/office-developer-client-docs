@@ -1,5 +1,5 @@
 ﻿---
-title: Properties.Delete Method (DAO)
+title: Properties.Delete method (DAO)
 TOCTitle: Delete Method
 ms:assetid: dc2493c6-337c-cb56-7c0d-36762528fa43
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835356(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Properties.Delete Method (DAO)
+# Properties.Delete method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

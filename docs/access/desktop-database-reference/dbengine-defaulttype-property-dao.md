@@ -1,5 +1,5 @@
 ﻿---
-title: DBEngine.DefaultType Property (DAO)
+title: DBEngine.DefaultType property (DAO)
 TOCTitle: DefaultType Property
 ms:assetid: b4371f3e-1ce0-1d0f-93a8-0c5329b510ab
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822060(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# DBEngine.DefaultType Property (DAO)
+# DBEngine.DefaultType property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

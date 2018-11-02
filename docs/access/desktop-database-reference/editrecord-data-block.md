@@ -1,6 +1,6 @@
 ﻿---
-title: EditRecord Data Block
-TOCTitle: EditRecord Data Block
+title: EditRecord data block
+TOCTitle: EditRecord data block
 ms:assetid: fe9f55eb-d7ed-1914-65a9-fa2fcb332b98
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837277(v=office.15)
 ms:contentKeyID: 48548940
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# EditRecord Data Block
+# EditRecord data block
 
 **Applies to**: Access 2013, Office 2013
 
@@ -51,22 +51,22 @@ After **EditRecord** statement, you can insert a block of commands that will exe
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="cancelrecordchange-macro-action.md">CancelRecordChange Macro Action</a></p></td>
+<td><p><a href="cancelrecordchange-macro-action.md">CancelRecordChange macro action</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="comment-macro-statement.md">Comment Macro Statement</a></p></td>
+<td><p><a href="comment-macro-statement.md">Comment macro statement</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="group-macro-statement.md">Group Macro Statement</a></p></td>
+<td><p><a href="group-macro-statement.md">Group macro statement</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="if-then-else-macro-block.md">If...Then...Else Macro Statement</a></p></td>
+<td><p><a href="if-then-else-macro-block.md">If...Then...Else macro statement</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="setfield-macro-action.md">SetField Macro Action</a></p></td>
+<td><p><a href="setfield-macro-action.md">SetField macro action</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="setlocalvar-macro-action.md">SetLocalVar Macro Action</a></p></td>
+<td><p><a href="setlocalvar-macro-action.md">SetLocalVar macro action</a></p></td>
 </tr>
 </tbody>
 </table>

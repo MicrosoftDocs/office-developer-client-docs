@@ -1,6 +1,6 @@
 ﻿---
-title: LevelName Property (ADO MD)
-TOCTitle: LevelName Property (ADO MD)
+title: LevelName property (ADO MD)
+TOCTitle: LevelName property (ADO MD)
 ms:assetid: 94be7298-f0fc-dace-e47d-9e99a61457af
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249662(v=office.15)
 ms:contentKeyID: 48546421
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# LevelName Property (ADO MD)
+# LevelName property (ADO MD)
 
 
 **Applies to**: Access 2013, Office 2013

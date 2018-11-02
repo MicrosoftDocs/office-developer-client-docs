@@ -1,5 +1,5 @@
 ﻿---
-title: TableDef.DateCreated Property (DAO)
+title: TableDef.DateCreated property (DAO)
 TOCTitle: DateCreated Property
 ms:assetid: fedd28e9-41a4-db7f-9ba9-6ada350d594a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837292(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# TableDef.DateCreated Property (DAO)
+# TableDef.DateCreated property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

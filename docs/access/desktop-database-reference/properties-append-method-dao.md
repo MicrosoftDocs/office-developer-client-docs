@@ -1,5 +1,5 @@
 ﻿---
-title: Properties.Append Method (DAO)
+title: Properties.Append method (DAO)
 TOCTitle: Append Method
 ms:assetid: 47f1e24f-975c-3fdc-5c3c-8c91f2920c81
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193232(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Properties.Append Method (DAO)
+# Properties.Append method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,6 +1,6 @@
 ﻿---
-title: SetProperty Macro Action
-TOCTitle: SetProperty Macro Action
+title: SetProperty macro action
+TOCTitle: SetProperty macro action
 ms:assetid: 58d2eac3-35b2-e9f8-47e0-62c9b52f2c24
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194340(v=office.15)
 ms:contentKeyID: 48545004
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# SetProperty Macro Action
+# SetProperty macro action
 
 **Applies to**: Access 2013, Office 2013
 

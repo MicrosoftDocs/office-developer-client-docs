@@ -1,5 +1,5 @@
 ﻿---
-title: Relations.Append Method (DAO)
+title: Relations.Append method (DAO)
 TOCTitle: Append Method
 ms:assetid: dafcc7b8-b30d-2ba2-631d-eca0f882fc2d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835334(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Relations.Append Method (DAO)
+# Relations.Append method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

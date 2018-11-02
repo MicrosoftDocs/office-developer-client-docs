@@ -1,5 +1,5 @@
 ﻿---
-title: Connection.StillExecuting Property (DAO)
+title: Connection.StillExecuting property (DAO)
 TOCTitle: StillExecuting Property
 ms:assetid: 0121f98a-cc23-5b5e-9a75-28307404a9a3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844743(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Connection.StillExecuting Property (DAO)
+# Connection.StillExecuting property (DAO)
 
 **Applies to**: Access 2013, Office 2013
 

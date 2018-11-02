@@ -1,5 +1,5 @@
 ﻿---
-title: Relation.ForeignTable Property (DAO)
+title: Relation.ForeignTable property (DAO)
 TOCTitle: ForeignTable Property
 ms:assetid: 3f896433-2962-1c7c-f5a2-4e030ba8d4a0
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192853(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Relation.ForeignTable Property (DAO)
+# Relation.ForeignTable property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

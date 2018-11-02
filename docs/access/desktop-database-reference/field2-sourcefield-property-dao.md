@@ -1,5 +1,5 @@
 ﻿---
-title: Field2.SourceField Property (DAO)
+title: Field2.SourceField property (DAO)
 TOCTitle: SourceField Property
 ms:assetid: f89146c1-d4a4-1129-636a-c22cf7921a4e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836948(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Field2.SourceField Property (DAO)
+# Field2.SourceField property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

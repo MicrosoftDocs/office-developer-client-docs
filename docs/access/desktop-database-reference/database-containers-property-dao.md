@@ -1,5 +1,5 @@
 ﻿---
-title: Database.Containers Property (DAO)
+title: Database.Containers property (DAO)
 TOCTitle: Containers Property
 ms:assetid: d6b13bae-461c-fe5e-692b-0e04fcd5df2a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835049(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Database.Containers Property (DAO)
+# Database.Containers property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

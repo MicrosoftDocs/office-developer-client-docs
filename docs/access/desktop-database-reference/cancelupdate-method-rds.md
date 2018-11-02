@@ -1,6 +1,6 @@
 ﻿---
-title: CancelUpdate Method (RDS)
-TOCTitle: CancelUpdate Method (RDS)
+title: CancelUpdate method (RDS)
+TOCTitle: CancelUpdate method (RDS)
 ms:assetid: 373a3feb-125d-915a-fd56-d4b04b20db54
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249130(v=office.15)
 ms:contentKeyID: 48544188
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# CancelUpdate Method (RDS)
+# CancelUpdate method (RDS)
 
 
 **Applies to**: Access 2013, Office 2013

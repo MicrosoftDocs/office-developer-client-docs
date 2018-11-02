@@ -1,5 +1,5 @@
 ﻿---
-title: Connection.RecordsAffected Property (DAO)
+title: Connection.RecordsAffected property (DAO)
 TOCTitle: RecordsAffected Property
 ms:assetid: abce8e96-9ed4-b162-207f-52605d7af8ee
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821486(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Connection.RecordsAffected Property (DAO)
+# Connection.RecordsAffected property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

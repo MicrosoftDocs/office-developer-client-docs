@@ -1,6 +1,6 @@
 ﻿---
-title: Database Objects (Access desktop database reference)
-TOCTitle: Database Objects
+title: Database objects (Access desktop database reference)
+TOCTitle: Database objects
 ms:assetid: 7356a454-238a-4c16-b33c-d0c9385cfc9c
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn161006(v=office.15)
 ms:contentKeyID: 52072968
@@ -8,38 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Database Objects
-
+# Database objects
 
 **Applies to**: Access 2013, Office 2013
 
+- [CopyObject macro action](copyobject-macro-action.md)
+- [DeleteObject macro action](deleteobject-macro-action.md)
+- [GoToControl macro action](gotocontrol-macro-action.md)
+- [GoToPage macro action](gotopage-macro-action.md)
+- [GoToRecord macro action](gotorecord-macro-action.md)
+- [OpenForm macro action](openform-macro-action.md)
+- [OpenReport macro action](openreport-macro-action.md)
+- [OpenTable macro action](opentable-macro-action.md)
+- [RenameObject macro action](renameobject-macro-action.md)
+- [RepaintObject macro action](repaintobject-macro-action.md)
+- [SaveObject macro action](saveobject-macro-action.md)
+- [SelectObject macro action](selectobject-macro-action.md)
+- [SetProperty macro action](setproperty-macro-action.md)
+- [SetValue macro action](setvalue-macro-action.md)
 
-
-  - [CopyObject Macro Action](copyobject-macro-action.md)
-
-  - [DeleteObject Macro Action](deleteobject-macro-action.md)
-
-  - [GoToControl Macro Action](gotocontrol-macro-action.md)
-
-  - [GoToPage Macro Action](gotopage-macro-action.md)
-
-  - [GoToRecord Macro Action](gotorecord-macro-action.md)
-
-  - [OpenForm Macro Action](openform-macro-action.md)
-
-  - [OpenReport Macro Action](openreport-macro-action.md)
-
-  - [OpenTable Macro Action](opentable-macro-action.md)
-
-  - [RenameObject Macro Action](renameobject-macro-action.md)
-
-  - [SaveObject Macro Action](saveobject-macro-action.md)
-
-  - [SelectObject Macro Action](selectobject-macro-action.md)
-
-  - [SetProperty Macro Action](setproperty-macro-action.md)
-
-  - [RepaintObject Macro Action](repaintobject-macro-action.md)
-
-  - [SetValue Macro Action](setvalue-macro-action.md)
 

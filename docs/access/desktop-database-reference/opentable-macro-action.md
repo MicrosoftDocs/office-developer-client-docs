@@ -1,6 +1,6 @@
 ﻿---
-title: OpenTable Macro Action
-TOCTitle: OpenTable Macro Action
+title: OpenTable macro action
+TOCTitle: OpenTable macro action
 ms:assetid: 4220ad3a-d064-0034-2806-ec1a447cebac
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192909(v=office.15)
 ms:contentKeyID: 48544469
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# OpenTable Macro Action
+# OpenTable macro action
 
 
 **Applies to**: Access 2013, Office 2013

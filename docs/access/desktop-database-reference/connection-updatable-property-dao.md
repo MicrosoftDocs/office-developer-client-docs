@@ -1,5 +1,5 @@
 ﻿---
-title: Connection.Updatable Property (DAO)
+title: Connection.Updatable property (DAO)
 TOCTitle: Updatable Property
 ms:assetid: dc3c021e-f6df-c256-b655-8d36317e0b68
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835360(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Connection.Updatable Property (DAO)
+# Connection.Updatable property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,6 +1,6 @@
 ﻿---
-title: RunMenuCommand Macro Action
-TOCTitle: RunMenuCommand Macro Action
+title: RunMenuCommand macro action
+TOCTitle: RunMenuCommand macro action
 ms:assetid: cc4a4f72-0c73-91b7-8cec-6cbcda7e5b1c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834420(v=office.15)
 ms:contentKeyID: 48547735
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# RunMenuCommand Macro Action
+# RunMenuCommand macro action
 
 
 **Applies to**: Access 2013, Office 2013

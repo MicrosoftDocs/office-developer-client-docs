@@ -1,5 +1,5 @@
 ﻿---
-title: TableDef.Properties Property (DAO)
+title: TableDef.Properties property (DAO)
 TOCTitle: Properties Property
 ms:assetid: e6eefc5f-498c-77c1-79e1-e4d0b8cc2133
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835993(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# TableDef.Properties Property (DAO)
+# TableDef.Properties property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

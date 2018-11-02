@@ -1,6 +1,6 @@
 ﻿---
-title: FindNextRecord Macro Action
-TOCTitle: FindNextRecord Macro Action
+title: FindNextRecord macro action
+TOCTitle: FindNextRecord macro action
 ms:assetid: 57fb6457-9098-4e81-c693-78ccd262ce0b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194307(v=office.15)
 ms:contentKeyID: 48544985
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# FindNextRecord Macro Action
+# FindNextRecord macro action
 
 
 **Applies to**: Access 2013, Office 2013

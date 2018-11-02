@@ -1,5 +1,5 @@
 ﻿---
-title: Errors.Refresh Method (DAO)
+title: Errors.Refresh method (DAO)
 TOCTitle: Refresh Method
 ms:assetid: dc352c5f-09d0-bfb3-b24a-4c3454dbf5aa
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835359(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Errors.Refresh Method (DAO)
+# Errors.Refresh method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,5 +1,5 @@
 ﻿---
-title: QueryDef.ReturnsRecords Property (DAO)
+title: QueryDef.ReturnsRecords property (DAO)
 TOCTitle: ReturnsRecords Property
 ms:assetid: 3d1e538b-4d60-588f-4a20-89f1e2b434e6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192701(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# QueryDef.ReturnsRecords Property (DAO)
+# QueryDef.ReturnsRecords property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,5 +1,5 @@
 ﻿---
-title: Property.Inherited Property (DAO)
+title: Property.Inherited property (DAO)
 TOCTitle: Inherited Property
 ms:assetid: 10e624db-2301-b9be-beca-6e8caccf7274
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845349(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Property.Inherited Property (DAO)
+# Property.Inherited property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013 

@@ -1,6 +1,6 @@
 ﻿---
-title: SetDisplayedCategories Macro Action
-TOCTitle: SetDisplayedCategories Macro Action
+title: SetDisplayedCategories macro action
+TOCTitle: SetDisplayedCategories macro action
 ms:assetid: e8bf39a6-c639-2232-7b21-3b0badf37e4b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836053(v=office.15)
 ms:contentKeyID: 48548429
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# SetDisplayedCategories Macro Action
+# SetDisplayedCategories macro action
 
 
 **Applies to**: Access 2013, Office 2013

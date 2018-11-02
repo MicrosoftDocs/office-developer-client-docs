@@ -1,5 +1,5 @@
 ﻿---
-title: Container Object (DAO)
+title: Container object (DAO)
 TOCTitle: Container Object
 ms:assetid: 22e487cd-e966-fe68-fff3-c680b460cbeb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191764(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Container Object (DAO)
+# Container object (DAO)
 
 **Applies to**: Access 2013, Office 2013
 

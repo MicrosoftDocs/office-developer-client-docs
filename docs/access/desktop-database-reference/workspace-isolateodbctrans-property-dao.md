@@ -1,5 +1,5 @@
 ﻿---
-title: Workspace.IsolateODBCTrans Property (DAO)
+title: Workspace.IsolateODBCTrans property (DAO)
 TOCTitle: IsolateODBCTrans Property
 ms:assetid: f7a48358-870b-cad3-d4ef-e46b50428e12
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836924(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Workspace.IsolateODBCTrans Property (DAO)
+# Workspace.IsolateODBCTrans property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

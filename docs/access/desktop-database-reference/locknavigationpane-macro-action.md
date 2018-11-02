@@ -1,6 +1,6 @@
 ﻿---
-title: LockNavigationPane Macro Action
-TOCTitle: LockNavigationPane Macro Action
+title: LockNavigationPane macro action
+TOCTitle: LockNavigationPane macro action
 ms:assetid: abf7a989-c7cf-3efa-8df4-3c5b075d0e5f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821487(v=office.15)
 ms:contentKeyID: 48546986
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# LockNavigationPane Macro Action
+# LockNavigationPane macro action
 
 
 **Applies to**: Access 2013, Office 2013

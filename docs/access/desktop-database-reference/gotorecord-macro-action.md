@@ -1,6 +1,6 @@
 ﻿---
-title: GoToRecord Macro Action
-TOCTitle: GoToRecord Macro Action
+title: GoToRecord macro action
+TOCTitle: GoToRecord macro action
 ms:assetid: 76f936de-739b-63be-9b28-5b0e111408e6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196037(v=office.15)
 ms:contentKeyID: 48545712
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# GoToRecord Macro Action
+# GoToRecord macro action
 
 
 **Applies to**: Access 2013, Office 2013

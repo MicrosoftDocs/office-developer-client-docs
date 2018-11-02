@@ -1,5 +1,5 @@
 ﻿---
-title: Index.Unique Property (DAO)
+title: Index.Unique property (DAO)
 TOCTitle: Unique Property
 ms:assetid: a4486da5-8a1a-b4fc-0e07-e65cd2e726f6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821087(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Index.Unique Property (DAO)
+# Index.Unique property (DAO)
 
 **Applies to**: Access 2013, Office 2013
 

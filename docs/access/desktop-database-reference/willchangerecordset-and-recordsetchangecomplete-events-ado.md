@@ -1,6 +1,6 @@
 ﻿---
-title: WillChangeRecordset and RecordsetChangeComplete Events (ADO)
-TOCTitle: WillChangeRecordset and RecordsetChangeComplete Events (ADO)
+title: WillChangeRecordset and RecordsetChangeComplete events (ADO)
+TOCTitle: WillChangeRecordset and RecordsetChangeComplete events (ADO)
 ms:assetid: 2cec4cf9-a4e9-c386-5202-04e86f4cf8ad
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249068(v=office.15)
 ms:contentKeyID: 48543963
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# WillChangeRecordset and RecordsetChangeComplete Events (ADO)
+# WillChangeRecordset and RecordsetChangeComplete events (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

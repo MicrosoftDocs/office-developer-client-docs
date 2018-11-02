@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset2.FillCache Method (DAO)
+title: Recordset2.FillCache method (DAO)
 TOCTitle: FillCache Method
 ms:assetid: 28a70997-a8d4-73e6-171a-61286e3d3485
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192007(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Recordset2.FillCache Method (DAO)
+# Recordset2.FillCache method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

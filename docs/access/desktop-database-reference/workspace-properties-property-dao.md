@@ -1,5 +1,5 @@
 ﻿---
-title: Workspace.Properties Property (DAO)
+title: Workspace.Properties property (DAO)
 TOCTitle: Properties Property
 ms:assetid: fe2e8d83-5081-4a2c-d2bb-53fbcbd13210
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837262(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Workspace.Properties Property (DAO)
+# Workspace.Properties property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

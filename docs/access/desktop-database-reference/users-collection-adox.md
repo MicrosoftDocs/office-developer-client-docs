@@ -1,6 +1,6 @@
 ﻿---
-title: Users Collection (ADOX)
-TOCTitle: Users Collection (ADOX)
+title: Users collection (ADOX)
+TOCTitle: Users collection (ADOX)
 ms:assetid: bc61c862-1637-02e7-4b56-5ad984bdbcb0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249905(v=office.15)
 ms:contentKeyID: 48547413
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Users Collection (ADOX)
+# Users collection (ADOX)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,5 +1,5 @@
 ﻿---
-title: Field2 Members (DAO)
+title: Field2 members (DAO)
 TOCTitle: Field2 Members
 ms:assetid: 27829bbc-8b4e-c7eb-f29b-bcbef341f9fd
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191913(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Field2 Members (DAO)
+# Field2 members (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

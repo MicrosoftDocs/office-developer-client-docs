@@ -1,5 +1,5 @@
 ﻿---
-title: Workspace.Rollback Method (DAO)
+title: Workspace.Rollback method (DAO)
 TOCTitle: Rollback Method
 ms:assetid: 10775fcc-7db2-9e14-5625-048db5c50466
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845335(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Workspace.Rollback Method (DAO)
+# Workspace.Rollback method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

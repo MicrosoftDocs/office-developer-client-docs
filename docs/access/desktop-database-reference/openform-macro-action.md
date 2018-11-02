@@ -1,6 +1,6 @@
 ﻿---
-title: OpenForm Macro Action
-TOCTitle: OpenForm Macro Action
+title: OpenForm macro action
+TOCTitle: OpenForm macro action
 ms:assetid: c519a9d7-99d4-4765-ad96-59c3fe1be9e3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823095(v=office.15)
 ms:contentKeyID: 48547604
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# OpenForm Macro Action
+# OpenForm macro action
 
 
 **Applies to**: Access 2013, Office 2013

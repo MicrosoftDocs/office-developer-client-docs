@@ -1,5 +1,5 @@
 ﻿---
-title: Parameter.Direction Property (DAO)
+title: Parameter.Direction property (DAO)
 TOCTitle: Direction Property
 ms:assetid: b78c87ff-1181-21ef-7126-92d309751005
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822422(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Parameter.Direction Property (DAO)
+# Parameter.Direction property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

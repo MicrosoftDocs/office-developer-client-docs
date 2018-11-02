@@ -1,6 +1,6 @@
 ﻿---
-title: Append Method (ADO)
-TOCTitle: Append Method (ADO)
+title: Append method (ADO)
+TOCTitle: Append method (ADO)
 ms:assetid: cca133af-2b95-877d-0488-0d99631623f2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250014(v=office.15)
 ms:contentKeyID: 48547742
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Append Method (ADO)
+# Append method (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

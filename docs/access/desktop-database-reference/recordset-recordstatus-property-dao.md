@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset.RecordStatus Property (DAO)
+title: Recordset.RecordStatus property (DAO)
 TOCTitle: RecordStatus Property
 ms:assetid: 6fbd6909-6191-d7be-9a3a-1e9908dacc2b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195591(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Recordset.RecordStatus Property (DAO)
+# Recordset.RecordStatus property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

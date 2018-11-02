@@ -1,6 +1,6 @@
 ﻿---
-title: Connections Collection (DAO)
-TOCTitle: Connections Collection
+title: Connections collection (DAO)
+TOCTitle: Connections collection
 ms:assetid: 65d073be-a84b-e3f2-cb43-b87ffa60e497
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195178(v=office.15)
 ms:contentKeyID: 48545330
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Connections Collection (DAO)
+# Connections collection (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

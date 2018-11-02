@@ -1,5 +1,5 @@
 ﻿---
-title: QueryDef.StillExecuting Property (DAO)
+title: QueryDef.StillExecuting property (DAO)
 TOCTitle: StillExecuting Property
 ms:assetid: 98e85d37-de50-afe1-dcca-01623546e0ad
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197953(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# QueryDef.StillExecuting Property (DAO)
+# QueryDef.StillExecuting property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

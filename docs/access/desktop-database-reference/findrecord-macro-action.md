@@ -1,6 +1,6 @@
 ﻿---
-title: FindRecord Macro Action
-TOCTitle: FindRecord Macro Action
+title: FindRecord macro action
+TOCTitle: FindRecord macro action
 ms:assetid: 379e3dda-cb7d-a294-29b1-c6ce9a62ba8a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192494(v=office.15)
 ms:contentKeyID: 48544199
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# FindRecord Macro Action
+# FindRecord macro action
 
 
 **Applies to**: Access 2013, Office 2013

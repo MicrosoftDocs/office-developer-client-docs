@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset2.LastUpdated Property (DAO)
+title: Recordset2.LastUpdated property (DAO)
 TOCTitle: LastUpdated Property
 ms:assetid: 45043329-2a0a-e9ec-ba19-746910617f85
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193168(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Recordset2.LastUpdated Property (DAO)
+# Recordset2.LastUpdated property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

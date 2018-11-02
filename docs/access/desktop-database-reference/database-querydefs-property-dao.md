@@ -1,5 +1,5 @@
 ﻿---
-title: Database.QueryDefs Property (DAO)
+title: Database.QueryDefs property (DAO)
 TOCTitle: QueryDefs Property
 ms:assetid: f589eb3c-658f-9bd1-423a-5a641f19b9fa
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836728(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Database.QueryDefs Property (DAO)
+# Database.QueryDefs property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

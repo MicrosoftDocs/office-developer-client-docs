@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset.Sort Property (DAO)
+title: Recordset.Sort property (DAO)
 TOCTitle: Sort Property
 ms:assetid: 9be9bf62-f713-537e-4df0-3a54d485a523
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198077(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Recordset.Sort Property (DAO)
+# Recordset.Sort property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

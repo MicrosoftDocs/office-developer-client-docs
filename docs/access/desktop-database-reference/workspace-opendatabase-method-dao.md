@@ -1,5 +1,5 @@
 ﻿---
-title: Workspace.OpenDatabase Method (DAO)
+title: Workspace.OpenDatabase method (DAO)
 TOCTitle: OpenDatabase Method
 ms:assetid: dbb93908-ec3e-f3ee-c4ea-cca48340b4d3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835343(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Workspace.OpenDatabase Method (DAO)
+# Workspace.OpenDatabase method (DAO)
 
 **Applies to**: Access 2013, Office 2013
 

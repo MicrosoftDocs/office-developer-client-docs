@@ -1,6 +1,6 @@
 ﻿---
-title: ConnectComplete and Disconnect Events (ADO)
-TOCTitle: ConnectComplete and Disconnect Events (ADO)
+title: ConnectComplete and Disconnect events (ADO)
+TOCTitle: ConnectComplete and Disconnect events (ADO)
 ms:assetid: 8ecb080b-7fc9-7565-25bd-bd57b983750d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249629(v=office.15)
 ms:contentKeyID: 48546293
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ConnectComplete and Disconnect Events (ADO)
+# ConnectComplete and Disconnect events (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

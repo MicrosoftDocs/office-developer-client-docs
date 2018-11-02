@@ -1,6 +1,6 @@
 ﻿---
-title: RunApplication Macro Action
-TOCTitle: RunApplication Macro Action
+title: RunApplication macro action
+TOCTitle: RunApplication macro action
 ms:assetid: 29967e6e-c441-b115-3ee6-2299b8a3bc25
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192038(v=office.15)
 ms:contentKeyID: 48543885
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# RunApplication Macro Action
+# RunApplication macro action
 
 
 **Applies to**: Access 2013, Office 2013

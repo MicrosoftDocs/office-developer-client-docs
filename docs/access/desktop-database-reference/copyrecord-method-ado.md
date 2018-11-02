@@ -1,6 +1,6 @@
 ﻿---
-title: CopyRecord Method (ADO)
-TOCTitle: CopyRecord Method (ADO)
+title: CopyRecord method (ADO)
+TOCTitle: CopyRecord method (ADO)
 ms:assetid: 724e4358-f216-8e47-5bab-c72770ece5a4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249459(v=office.15)
 ms:contentKeyID: 48545605
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# CopyRecord Method (ADO)
+# CopyRecord method (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

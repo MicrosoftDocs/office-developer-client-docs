@@ -1,5 +1,5 @@
 ﻿---
-title: QueryDef.Prepare Property (DAO)
+title: QueryDef.Prepare property (DAO)
 TOCTitle: Prepare Property
 ms:assetid: d5a285c4-bd00-028b-b785-f1890db29bab
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835035(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# QueryDef.Prepare Property (DAO)
+# QueryDef.Prepare property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

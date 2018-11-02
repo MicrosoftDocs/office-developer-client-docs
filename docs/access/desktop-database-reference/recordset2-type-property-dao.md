@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset2.Type Property (DAO)
+title: Recordset2.Type property (DAO)
 TOCTitle: Type Property
 ms:assetid: 9bec543e-7f59-ea59-dc79-41d0e08b5ab6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198080(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Recordset2.Type Property (DAO)
+# Recordset2.Type property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

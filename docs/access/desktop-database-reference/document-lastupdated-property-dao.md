@@ -1,5 +1,5 @@
 ﻿---
-title: Document.LastUpdated Property (DAO)
+title: Document.LastUpdated property (DAO)
 TOCTitle: LastUpdated Property
 ms:assetid: 9307ceee-095f-0364-fd5b-905bc523b9c0
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197661(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Document.LastUpdated Property (DAO)
+# Document.LastUpdated property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

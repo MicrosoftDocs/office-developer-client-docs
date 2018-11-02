@@ -1,5 +1,5 @@
 ﻿---
-title: DBEngine.CompactDatabase Method (DAO)
+title: DBEngine.CompactDatabase method (DAO)
 TOCTitle: CompactDatabase Method
 ms:assetid: 03f3a156-005a-4b71-81b0-598f326f7d42
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844821(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# DBEngine.CompactDatabase Method (DAO)
+# DBEngine.CompactDatabase method (DAO)
 
 **Applies to**: Access 2013 | Access 2016
 

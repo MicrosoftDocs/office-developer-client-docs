@@ -1,6 +1,6 @@
 ﻿---
-title: Update Method (ADO)
-TOCTitle: Update Method (ADO)
+title: Update method (ADO)
+TOCTitle: Update method (ADO)
 ms:assetid: fc88cab6-c379-bb4f-530c-da08107924e0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250294(v=office.15)
 ms:contentKeyID: 48548893
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Update Method (ADO)
+# Update method (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

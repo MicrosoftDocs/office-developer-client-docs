@@ -1,6 +1,6 @@
 ﻿---
-title: Stream Object (ADO)
-TOCTitle: Stream Object (ADO)
+title: Stream object (ADO)
+TOCTitle: Stream object (ADO)
 ms:assetid: d49b1514-e0b4-0aca-d5c2-8266f3f4fe65
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250065(v=office.15)
 ms:contentKeyID: 48547945
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Stream Object (ADO)
+# Stream object (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

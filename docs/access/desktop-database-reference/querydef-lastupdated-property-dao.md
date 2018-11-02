@@ -1,5 +1,5 @@
 ﻿---
-title: QueryDef.LastUpdated Property (DAO)
+title: QueryDef.LastUpdated property (DAO)
 TOCTitle: LastUpdated Property
 ms:assetid: 3b7818d4-054e-54e2-bf63-58b340bb4a90
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192665(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# QueryDef.LastUpdated Property (DAO)
+# QueryDef.LastUpdated property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

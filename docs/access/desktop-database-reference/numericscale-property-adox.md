@@ -1,6 +1,6 @@
 ﻿---
-title: NumericScale Property (ADOX)
-TOCTitle: NumericScale Property (ADOX)
+title: NumericScale property (ADOX)
+TOCTitle: NumericScale property (ADOX)
 ms:assetid: ebe73bdc-2570-f54a-3d2f-85a2a4634c9a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250197(v=office.15)
 ms:contentKeyID: 48548501
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# NumericScale Property (ADOX)
+# NumericScale property (ADOX)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,6 +1,6 @@
 ﻿---
-title: CopyObject Macro Action
-TOCTitle: CopyObject Macro Action
+title: CopyObject macro action
+TOCTitle: CopyObject macro action
 ms:assetid: 746f61df-d5db-284a-0897-75820c2be11f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195876(v=office.15)
 ms:contentKeyID: 48545661
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# CopyObject Macro Action
+# CopyObject macro action
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,5 +1,5 @@
 ﻿---
-title: QueryDef Object (DAO)
+title: QueryDef object (DAO)
 TOCTitle: QueryDef Object
 ms:assetid: 0b3d901c-345d-42a2-f5f1-fb09cc562e27
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845129(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# QueryDef Object (DAO)
+# QueryDef object (DAO)
 
 **Applies to:** Access 2013 | Office 2013 
 

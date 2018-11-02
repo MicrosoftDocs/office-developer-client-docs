@@ -1,6 +1,6 @@
 ﻿---
-title: CancelUpdate Method (ADO)
-TOCTitle: CancelUpdate Method (ADO)
+title: CancelUpdate method (ADO)
+TOCTitle: CancelUpdate method (ADO)
 ms:assetid: 2bd4d168-ba52-7786-5046-44febeda88e1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249065(v=office.15)
 ms:contentKeyID: 48543938
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# CancelUpdate Method (ADO)
+# CancelUpdate method (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

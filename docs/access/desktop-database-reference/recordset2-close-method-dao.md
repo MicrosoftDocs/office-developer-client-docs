@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset2.Close Method (DAO)
+title: Recordset2.Close method (DAO)
 TOCTitle: Close Method
 ms:assetid: ef816969-9857-37cf-9562-d5c80d2815ea
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836412(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Recordset2.Close Method (DAO)
+# Recordset2.Close method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

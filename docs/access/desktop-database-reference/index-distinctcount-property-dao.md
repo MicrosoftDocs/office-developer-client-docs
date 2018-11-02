@@ -1,5 +1,5 @@
 ﻿---
-title: Index.DistinctCount Property (DAO)
+title: Index.DistinctCount property (DAO)
 TOCTitle: DistinctCount Property
 ms:assetid: 24cb7247-76b4-1fce-c3c4-892f16634eff
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191836(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Index.DistinctCount Property (DAO)
+# Index.DistinctCount property (DAO)
 
 **Applies to**: Access 2013, Office 2013
 

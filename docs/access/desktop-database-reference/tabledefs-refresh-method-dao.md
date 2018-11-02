@@ -1,5 +1,5 @@
 ﻿---
-title: TableDefs.Refresh Method (DAO)
+title: TableDefs.Refresh method (DAO)
 TOCTitle: Refresh Method
 ms:assetid: f76c1a3f-1561-ce1f-a535-a5a2179ea739
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836915(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# TableDefs.Refresh Method (DAO)
+# TableDefs.Refresh method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

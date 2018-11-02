@@ -1,6 +1,6 @@
 ﻿---
-title: BeginTransComplete, CommitTransComplete, RollbackTransComplete Events (ADO)
-TOCTitle: BeginTransComplete, CommitTransComplete, and RollbackTransComplete Events (ADO)
+title: BeginTransComplete, CommitTransComplete, RollbackTransComplete events (ADO)
+TOCTitle: BeginTransComplete, CommitTransComplete, and RollbackTransComplete events (ADO)
 ms:assetid: 9d0ae38e-530a-7a89-a344-f3ab401c2e35
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249713(v=office.15)
 ms:contentKeyID: 48546615
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# BeginTransComplete, CommitTransComplete, and RollbackTransComplete Events (ADO)
+# BeginTransComplete, CommitTransComplete, and RollbackTransComplete events (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

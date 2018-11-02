@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset.Bookmarkable Property (DAO)
+title: Recordset.Bookmarkable property (DAO)
 TOCTitle: Bookmarkable Property
 ms:assetid: 6323f162-75c4-7cfe-c918-0b9454560f97
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194950(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Recordset.Bookmarkable Property (DAO)
+# Recordset.Bookmarkable property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

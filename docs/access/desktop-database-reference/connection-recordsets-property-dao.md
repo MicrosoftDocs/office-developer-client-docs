@@ -1,5 +1,5 @@
 ﻿---
-title: Connection.Recordsets Property (DAO)
+title: Connection.Recordsets property (DAO)
 TOCTitle: Recordsets Property
 ms:assetid: 3f8c8932-d404-ef54-a869-f77dc1325794
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192854(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Connection.Recordsets Property (DAO)
+# Connection.Recordsets property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

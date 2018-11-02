@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset2.EditMode Property (DAO)
+title: Recordset2.EditMode property (DAO)
 TOCTitle: EditMode Property
 ms:assetid: fd61ea2b-e7d7-195f-4114-87e54eba2451
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837240(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Recordset2.EditMode Property (DAO)
+# Recordset2.EditMode property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,5 +1,5 @@
 ﻿---
-title: Database.QueryTimeout Property (DAO)
+title: Database.QueryTimeout property (DAO)
 TOCTitle: QueryTimeout Property
 ms:assetid: c83ca852-715a-c853-429b-80a15c3fc39b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823170(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Database.QueryTimeout Property (DAO)
+# Database.QueryTimeout property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

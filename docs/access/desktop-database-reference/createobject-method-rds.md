@@ -1,6 +1,6 @@
 ﻿---
-title: CreateObject Method (RDS)
-TOCTitle: CreateObject Method (RDS)
+title: CreateObject method (RDS)
+TOCTitle: CreateObject method (RDS)
 ms:assetid: 130debe5-31cf-4ab0-5f78-9adaec7d7126
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248905(v=office.15)
 ms:contentKeyID: 48543360
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# CreateObject Method (RDS)
+# CreateObject method (RDS)
 
 
 **Applies to**: Access 2013, Office 2013

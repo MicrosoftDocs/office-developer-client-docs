@@ -1,6 +1,6 @@
 ﻿---
-title: User Interface Commands
-TOCTitle: User Interface Commands
+title: User interface commands
+TOCTitle: User interface commands
 ms:assetid: e52bac01-4784-4c20-b387-d18228008104
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125921(v=office.15)
 ms:contentKeyID: 52074792
@@ -8,26 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# User Interface Commands
-
+# User interface commands
 
 **Applies to**: Access 2013, Office 2013
 
-
-
-  - [AddMenu Macro Action](addmenu-macro-action.md)
-
-  - [BrowseTo Macro Action](browseto-macro-action.md)
-
-  - [LockNavigationPane Macro Action](locknavigationpane-macro-action.md)
-
-  - [MessageBox Macro Action](messagebox-macro-action.md)
-
-  - [NavigateTo Macro Action](navigateto-macro-action.md)
-
-  - [SetDisplayedCategories Macro Action](setdisplayedcategories-macro-action.md)
-
-  - [SetMenuItem Macro Action](setmenuitem-macro-action.md)
-
-  - [ShowToolbar Macro Action](showtoolbar-macro-action.md)
+- [AddMenu macro action](addmenu-macro-action.md)
+- [BrowseTo macro action](browseto-macro-action.md)
+- [LockNavigationPane macro action](locknavigationpane-macro-action.md)
+- [MessageBox macro action](messagebox-macro-action.md)
+- [NavigateTo macro action](navigateto-macro-action.md)
+- [SetDisplayedCategories macro action](setdisplayedcategories-macro-action.md)
+- [SetMenuItem macro action](setmenuitem-macro-action.md)
+- [ShowToolbar macro action](showtoolbar-macro-action.md)
 

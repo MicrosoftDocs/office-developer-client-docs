@@ -1,6 +1,6 @@
 ﻿---
-title: Properties Collection (ADO)
-TOCTitle: Properties Collection (ADO)
+title: Properties collection (ADO)
+TOCTitle: Properties collection (ADO)
 ms:assetid: 4d662790-1252-c930-e6f9-edf6a38636af
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249245(v=office.15)
 ms:contentKeyID: 48544729
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Properties Collection (ADO)
+# Properties collection (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

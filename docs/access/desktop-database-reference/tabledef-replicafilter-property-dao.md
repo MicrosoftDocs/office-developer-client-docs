@@ -1,5 +1,5 @@
 ﻿---
-title: TableDef.ReplicaFilter Property (DAO)
+title: TableDef.ReplicaFilter property (DAO)
 TOCTitle: ReplicaFilter Property
 ms:assetid: f44273de-2b6a-750f-cb7c-12c3ac2da503
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836681(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# TableDef.ReplicaFilter Property (DAO)
+# TableDef.ReplicaFilter property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

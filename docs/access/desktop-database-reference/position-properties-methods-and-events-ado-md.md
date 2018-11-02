@@ -1,5 +1,5 @@
 ﻿---
-title: Position Properties, Methods, and Events (ADO MD)
+title: Position properties, methods, and events (ADO MD)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: b1d770c4-82ae-1536-ff60-638c11882087
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249848(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Position Properties, Methods, and Events (ADO MD)
+# Position properties, methods, and events (ADO MD)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,6 +1,6 @@
 ﻿---
-title: SendKeys Macro Action
-TOCTitle: SendKeys Macro Action
+title: SendKeys macro action
+TOCTitle: SendKeys macro action
 ms:assetid: 3b06fcfc-ea64-c780-b5fc-6fc72853f524
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192656(v=office.15)
 ms:contentKeyID: 48544275
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# SendKeys Macro Action
+# SendKeys macro action
 
 
 **Applies to**: Access 2013, Office 2013

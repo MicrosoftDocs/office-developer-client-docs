@@ -1,5 +1,5 @@
 ﻿---
-title: Relations.Refresh Method (DAO)
+title: Relations.Refresh method (DAO)
 TOCTitle: Refresh Method
 ms:assetid: d71cecf2-da90-5f62-9e51-f994e660ad34
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835058(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Relations.Refresh Method (DAO)
+# Relations.Refresh method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

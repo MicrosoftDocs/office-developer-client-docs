@@ -1,6 +1,6 @@
 ﻿---
-title: Open Method (ADO MD)
-TOCTitle: Open Method (ADO MD)
+title: Open method (ADO MD)
+TOCTitle: Open method (ADO MD)
 ms:assetid: 12395ff6-fe07-325a-2b69-007aa0b11ee6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248894(v=office.15)
 ms:contentKeyID: 48543335
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Open Method (ADO MD)
+# Open method (ADO MD)
 
 
 **Applies to**: Access 2013, Office 2013

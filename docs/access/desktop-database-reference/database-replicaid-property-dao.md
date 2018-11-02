@@ -1,5 +1,5 @@
 ﻿---
-title: Database.ReplicaID Property (DAO)
+title: Database.ReplicaID property (DAO)
 TOCTitle: ReplicaID Property
 ms:assetid: cf2ca8a1-d13f-30e0-2ca1-dd32ac736c56
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834672(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Database.ReplicaID Property (DAO)
+# Database.ReplicaID property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

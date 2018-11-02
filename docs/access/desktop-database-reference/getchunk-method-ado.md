@@ -1,6 +1,6 @@
 ﻿---
-title: GetChunk Method (ADO)
-TOCTitle: GetChunk Method (ADO)
+title: GetChunk method (ADO)
+TOCTitle: GetChunk method (ADO)
 ms:assetid: 1ef1c37a-8453-8d3b-251a-d16e0d519fd7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248979(v=office.15)
 ms:contentKeyID: 48543629
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# GetChunk Method (ADO)
+# GetChunk method (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

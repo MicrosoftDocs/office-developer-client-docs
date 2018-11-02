@@ -1,5 +1,5 @@
 ﻿---
-title: QueryDefs Members (DAO)
+title: QueryDefs members (DAO)
 TOCTitle: QueryDefs Members
 ms:assetid: d178fa87-cf01-cb5b-357d-45d8b4e1b0ed
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834754(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# QueryDefs Members (DAO)
+# QueryDefs members (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

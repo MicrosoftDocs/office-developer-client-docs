@@ -1,6 +1,6 @@
 ﻿---
-title: Requery Macro Action
-TOCTitle: Requery Macro Action
+title: Requery macro action
+TOCTitle: Requery macro action
 ms:assetid: 6dbdcae5-81b6-9925-4cad-64b178c23060
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195544(v=office.15)
 ms:contentKeyID: 48545499
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Requery Macro Action
+# Requery macro action
 
 
 **Applies to**: Access 2013, Office 2013
@@ -77,5 +77,5 @@ If you leave the **Control Name** argument blank, the **Requery** action has the
 
 
 
-If you want to requery a control that isn't on the active object, you must use the **Requery** method in a Visual Basic for Applications (VBA) module, not the **Requery** action or its corresponding **Requery** method of the **DoCmd** object. The **Requery** method in VBA is faster than the **Requery** action or the **DoCmd.Requery** method. In addition, when you use the **Requery** action or the **DoCmd.Requery** method, Microsoft Access closes the query and reloads it from the database, but when you use the **Requery** method, Access reruns the query without closing and reloading it. Note that the ActiveX Data Object (ADO) **Requery** method works the same way as the Access **Requery** method.
+If you want to requery a control that isn't on the active object, you must use the **Requery** method in a Visual Basic for Applications (VBA) module, not the **Requery** action or its corresponding **Requery** method of the **DoCmd** object. The **Requery** method in VBA is faster than the **Requery** action or the **DoCmd.Requery** method. In addition, when you use the **Requery** action or the **DoCmd.Requery** method, Microsoft Access closes the query and reloads it from the database, but when you use the **Requery** method, Access reruns the query without closing and reloading it. Note that the ActiveX Data object (ADO) **Requery** method works the same way as the Access **Requery** method.
 

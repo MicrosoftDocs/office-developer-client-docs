@@ -1,6 +1,6 @@
 ﻿---
-title: OpenSchema Method (ADO)
-TOCTitle: OpenSchema Method (ADO)
+title: OpenSchema method (ADO)
+TOCTitle: OpenSchema method (ADO)
 ms:assetid: 57771163-a14e-207a-2942-849acb79a9a1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249294(v=office.15)
 ms:contentKeyID: 48544970
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# OpenSchema Method (ADO)
+# OpenSchema method (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

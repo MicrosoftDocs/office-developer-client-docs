@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset.Bookmark Property (DAO)
+title: Recordset.Bookmark property (DAO)
 TOCTitle: Bookmark Property
 ms:assetid: c4b1c2d9-668e-e365-544c-efb4ae4efcc9
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823084(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Recordset.Bookmark Property (DAO)
+# Recordset.Bookmark property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

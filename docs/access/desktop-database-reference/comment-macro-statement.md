@@ -1,6 +1,6 @@
 ﻿---
-title: Comment Macro Statement
-TOCTitle: Comment Macro Statement
+title: Comment macro statement
+TOCTitle: Comment macro statement
 ms:assetid: 474f9410-8099-9b72-01d8-08c07f736c9f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193209(v=office.15)
 ms:contentKeyID: 48544594
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Comment Macro Statement
+# Comment macro statement
 
 
 **Applies to**: Access 2013, Office 2013

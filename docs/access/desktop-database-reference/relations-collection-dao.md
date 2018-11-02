@@ -1,5 +1,5 @@
 ﻿---
-title: Relations Collection (DAO)
+title: Relations collection (DAO)
 TOCTitle: Relations Collection
 ms:assetid: 8929b5cc-cf52-03f2-8cf5-7f45276d258e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197067(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Relations Collection (DAO)
+# Relations collection (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

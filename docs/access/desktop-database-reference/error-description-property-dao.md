@@ -1,5 +1,5 @@
 ﻿---
-title: Error.Description Property (DAO)
+title: Error.Description property (DAO)
 TOCTitle: Description Property
 ms:assetid: 47a84bec-3258-f2c7-e1af-239da39844dc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193218(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Error.Description Property (DAO)
+# Error.Description property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

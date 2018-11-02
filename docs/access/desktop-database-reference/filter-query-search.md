@@ -10,30 +10,18 @@ mtps_version: v=office.15
 
 # Filter/Query/Search
 
-
 **Applies to**: Access 2013, Office 2013
 
+- [ApplyFilter macro action](applyfilter-macro-action.md)
+- [FindNextRecord macro action](findnextrecord-macro-action.md)
+- [FindRecord macro action](findrecord-macro-action.md)
+- [OpenQuery macro action](openquery-macro-action.md)
+- [RefreshRecord macro action](refreshrecord-macro-action.md)
+- [Requery macro action](requery-macro-action.md)
+- [RunSQL macro action](runsql-macro-action.md)
+- [SearchForRecord macro action](searchforrecord-macro-action.md)
+- [SetFilter macro action](setfilter-macro-action.md)
+- [SetOrderBy macro action](setorderby-macro-action.md)
+- [ShowAllRecords macro action](showallrecords-macro-action.md)
 
-
-  - [ApplyFilter Macro Action](applyfilter-macro-action.md)
-
-  - [FindNextRecord Macro Action](findnextrecord-macro-action.md)
-
-  - [FindRecord Macro Action](findrecord-macro-action.md)
-
-  - [OpenQuery Macro Action](openquery-macro-action.md)
-
-  - [RefreshRecord Macro Action](refreshrecord-macro-action.md)
-
-  - [Requery Macro Action](requery-macro-action.md)
-
-  - [RunSQL Macro Action](runsql-macro-action.md)
-
-  - [SearchForRecord Macro Action](searchforrecord-macro-action.md)
-
-  - [SetFilter Macro Action](setfilter-macro-action.md)
-
-  - [SetOrderBy Macro Action](setorderby-macro-action.md)
-
-  - [ShowAllRecords Macro Action](showallrecords-macro-action.md)
 

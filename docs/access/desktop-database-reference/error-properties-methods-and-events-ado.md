@@ -1,5 +1,5 @@
 ﻿---
-title: Error Properties, Methods, and Events (ADO)
+title: Error properties, methods, and events (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 8a1180b3-e8bf-c13d-a295-9caad7dad259
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249607(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Error Properties, Methods, and Events (ADO)
+# Error properties, methods, and events (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

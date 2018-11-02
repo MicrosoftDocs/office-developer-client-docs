@@ -1,6 +1,6 @@
 ﻿---
-title: SetLocalVar Macro Action
-TOCTitle: SetLocalVar Macro Action
+title: SetLocalVar macro action
+TOCTitle: SetLocalVar macro action
 ms:assetid: 8a6af395-0f76-72e2-37f3-2cff22a38b3c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197097(v=office.15)
 ms:contentKeyID: 48546190
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# SetLocalVar Macro Action
+# SetLocalVar macro action
 
 
 **Applies to**: Access 2013, Office 2013

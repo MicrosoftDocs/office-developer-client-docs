@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset2.RecordCount Property (DAO)
+title: Recordset2.RecordCount property (DAO)
 TOCTitle: RecordCount Property
 ms:assetid: 77852966-11e9-1773-6e58-53927b84c03b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196071(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Recordset2.RecordCount Property (DAO)
+# Recordset2.RecordCount property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

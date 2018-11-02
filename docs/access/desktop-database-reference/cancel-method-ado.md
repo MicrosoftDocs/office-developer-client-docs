@@ -1,6 +1,6 @@
 ﻿---
-title: Cancel Method (ADO)
-TOCTitle: Cancel Method (ADO)
+title: Cancel method (ADO)
+TOCTitle: Cancel method (ADO)
 ms:assetid: 747edc04-a5cc-3631-2d0b-82e7e41a76b7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249476(v=office.15)
 ms:contentKeyID: 48545662
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Cancel Method (ADO)
+# Cancel method (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

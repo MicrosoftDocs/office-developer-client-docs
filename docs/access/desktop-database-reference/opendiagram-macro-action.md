@@ -1,6 +1,6 @@
 ﻿---
-title: OpenDiagram Macro Action
-TOCTitle: OpenDiagram Macro Action
+title: OpenDiagram macro action
+TOCTitle: OpenDiagram macro action
 ms:assetid: 408e7224-02bb-335a-b1b9-cbccbf6e36ec
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192875(v=office.15)
 ms:contentKeyID: 48544427
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# OpenDiagram Macro Action
+# OpenDiagram macro action
 
 
 **Applies to**: Access 2013, Office 2013

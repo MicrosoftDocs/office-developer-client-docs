@@ -1,5 +1,5 @@
 ﻿---
-title: Field.ValidationText Property (DAO)
+title: Field.ValidationText property (DAO)
 TOCTitle: ValidationText Property
 ms:assetid: 6d9ec790-a9d2-84d7-ccba-57d738491e36
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195540(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Field.ValidationText Property (DAO)
+# Field.ValidationText property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

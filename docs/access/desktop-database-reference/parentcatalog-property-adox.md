@@ -1,6 +1,6 @@
 ﻿---
-title: ParentCatalog Property (ADOX)
-TOCTitle: ParentCatalog Property (ADOX)
+title: ParentCatalog property (ADOX)
+TOCTitle: ParentCatalog property (ADOX)
 ms:assetid: 7eef4ef5-1fa4-73ea-a710-fc8767c9ea21
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249535(v=office.15)
 ms:contentKeyID: 48545891
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ParentCatalog Property (ADOX)
+# ParentCatalog property (ADOX)
 
 
 **Applies to**: Access 2013, Office 2013

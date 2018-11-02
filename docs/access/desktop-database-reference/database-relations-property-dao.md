@@ -1,5 +1,5 @@
 ﻿---
-title: Database.Relations Property (DAO)
+title: Database.Relations property (DAO)
 TOCTitle: Relations Property
 ms:assetid: 7b2f9cfb-72f2-4641-8af9-3a4d1cd887ce
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196193(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Database.Relations Property (DAO)
+# Database.Relations property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,5 +1,5 @@
 ﻿---
-title: DBEngine.DefaultPassword Property (DAO)
+title: DBEngine.DefaultPassword property (DAO)
 TOCTitle: DefaultPassword Property
 ms:assetid: 189e34f3-d573-c75f-8be2-d98c50df8a52
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845616(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# DBEngine.DefaultPassword Property (DAO)
+# DBEngine.DefaultPassword property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,5 +1,5 @@
 ﻿---
-title: Member Properties, Methods, and Events (ADO MD)
+title: Member properties, methods, and events (ADO MD)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 67d28214-2805-010b-eb10-4995fb69506c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249404(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Member Properties, Methods, and Events (ADO MD)
+# Member properties, methods, and events (ADO MD)
 
 
 **Applies to**: Access 2013, Office 2013

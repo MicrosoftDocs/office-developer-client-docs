@@ -1,6 +1,6 @@
 ﻿---
-title: Resync Command Property--Dynamic (ADO)
-TOCTitle: Resync Command Property--Dynamic (ADO)
+title: Resync Command dynamic property (ADO)
+TOCTitle: Resync Command dynamic property (ADO)
 ms:assetid: 5c0c0819-620a-6eb0-a217-69113ec8d094
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249322(v=office.15)
 ms:contentKeyID: 48545081
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Resync Command Property--Dynamic (ADO)
+# Resync Command dynamic property (ADO)
 
 **Applies to**: Access 2013, Office 2013
 

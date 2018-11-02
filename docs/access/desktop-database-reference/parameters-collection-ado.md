@@ -1,6 +1,6 @@
 ﻿---
-title: Parameters Collection (ADO)
-TOCTitle: Parameters Collection (ADO)
+title: Parameters collection (ADO)
+TOCTitle: Parameters collection (ADO)
 ms:assetid: 554387c3-3572-5391-3b24-c7d3443844cd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249283(v=office.15)
 ms:contentKeyID: 48544923
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Parameters Collection (ADO)
+# Parameters collection (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,6 +1,6 @@
 ﻿---
-title: RenameObject Macro Action
-TOCTitle: RenameObject Macro Action
+title: RenameObject macro action
+TOCTitle: RenameObject macro action
 ms:assetid: fee04eb0-23c0-5d57-b903-e1ae54f2d25e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837293(v=office.15)
 ms:contentKeyID: 48548948
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# RenameObject Macro Action
+# RenameObject macro action
 
 
 **Applies to**: Access 2013, Office 2013

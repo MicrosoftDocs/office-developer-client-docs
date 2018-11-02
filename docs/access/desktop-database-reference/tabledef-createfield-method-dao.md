@@ -1,5 +1,5 @@
 ﻿---
-title: TableDef.CreateField Method (DAO)
+title: TableDef.CreateField method (DAO)
 TOCTitle: CreateField Method
 ms:assetid: a83d797f-ea42-4a07-dd9e-b254755f0891
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821396(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# TableDef.CreateField Method (DAO)
+# TableDef.CreateField method (DAO)
 
 **Applies to:** Access 2013 | Office 2013
 

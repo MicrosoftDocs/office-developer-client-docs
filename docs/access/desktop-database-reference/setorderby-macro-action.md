@@ -1,6 +1,6 @@
 ﻿---
-title: SetOrderBy Macro Action
-TOCTitle: SetOrderBy Macro Action
+title: SetOrderBy macro action
+TOCTitle: SetOrderBy macro action
 ms:assetid: 78f65ce9-b56f-f476-3bd6-f3307bc22a08
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196152(v=office.15)
 ms:contentKeyID: 48545765
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# SetOrderBy Macro Action
+# SetOrderBy macro action
 
 
 **Applies to**: Access 2013, Office 2013

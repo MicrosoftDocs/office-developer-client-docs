@@ -1,5 +1,5 @@
 ﻿---
-title: Recordsets Collection (DAO)
+title: Recordsets collection (DAO)
 TOCTitle: Recordsets Collection
 ms:assetid: 246d9a78-4ce8-6393-982b-77ac00cd85bb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191819(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Recordsets Collection (DAO)
+# Recordsets collection (DAO)
 
 **Applies to**: Access 2013, Office 2013
 

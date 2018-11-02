@@ -1,6 +1,6 @@
 ﻿---
-title: GoToControl Macro Action
-TOCTitle: GoToControl Macro Action
+title: GoToControl macro action
+TOCTitle: GoToControl macro action
 ms:assetid: caff76dc-7ca8-4f87-8144-89445ed4600d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834370(v=office.15)
 ms:contentKeyID: 48547705
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# GoToControl Macro Action
+# GoToControl macro action
 
 
 **Applies to**: Access 2013, Office 2013

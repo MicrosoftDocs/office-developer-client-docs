@@ -1,5 +1,5 @@
 ﻿---
-title: DBEngine.Rollback Method (DAO)
+title: DBEngine.Rollback method (DAO)
 TOCTitle: Rollback Method
 ms:assetid: da7e2fe0-c837-7b1e-d35c-98e6cb0a7bbe
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835327(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# DBEngine.Rollback Method (DAO)
+# DBEngine.Rollback method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,5 +1,5 @@
 ﻿---
-title: DBEngine.Version Property (DAO)
+title: DBEngine.Version property (DAO)
 TOCTitle: Version Property
 ms:assetid: b2807dc1-604f-4423-289a-ff38a3d9f31b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822024(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# DBEngine.Version Property (DAO)
+# DBEngine.Version property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

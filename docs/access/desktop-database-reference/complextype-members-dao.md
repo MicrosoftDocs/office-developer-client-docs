@@ -1,5 +1,5 @@
 ﻿---
-title: ComplexType Members (DAO)
+title: ComplexType members (DAO)
 TOCTitle: ComplexType Members
 ms:assetid: 5f0001fb-f46b-8e4c-0bd9-613c831eca96
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194740(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ComplexType Members (DAO)
+# ComplexType members (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

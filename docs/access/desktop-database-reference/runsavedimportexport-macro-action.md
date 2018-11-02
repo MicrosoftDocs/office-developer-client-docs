@@ -1,6 +1,6 @@
 ﻿---
-title: RunSavedImportExport Macro Action
-TOCTitle: RunSavedImportExport Macro Action
+title: RunSavedImportExport macro action
+TOCTitle: RunSavedImportExport macro action
 ms:assetid: b2449c51-ee20-6e50-87f3-a45adc0b0dde
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822018(v=office.15)
 ms:contentKeyID: 48547165
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# RunSavedImportExport Macro Action
+# RunSavedImportExport macro action
 
 
 **Applies to**: Access 2013, Office 2013

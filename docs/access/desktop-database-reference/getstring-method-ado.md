@@ -1,6 +1,6 @@
 ﻿---
-title: GetString Method (ADO)
-TOCTitle: GetString Method (ADO)
+title: GetString method (ADO)
+TOCTitle: GetString method (ADO)
 ms:assetid: f496305e-a1f5-7014-7808-7e4961e5f0fa
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250242(v=office.15)
 ms:contentKeyID: 48548693
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# GetString Method (ADO)
+# GetString method (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

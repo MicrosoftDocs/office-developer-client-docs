@@ -1,6 +1,6 @@
 ﻿---
-title: LoadFromFile Method (ADO)
-TOCTitle: LoadFromFile Method (ADO)
+title: LoadFromFile method (ADO)
+TOCTitle: LoadFromFile method (ADO)
 ms:assetid: 33fd543f-bd24-9199-7540-2889b69221c8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249107(v=office.15)
 ms:contentKeyID: 48544123
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# LoadFromFile Method (ADO)
+# LoadFromFile method (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

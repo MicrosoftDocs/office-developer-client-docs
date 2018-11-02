@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset.Properties Property (DAO)
+title: Recordset.Properties property (DAO)
 TOCTitle: Properties Property
 ms:assetid: ea971737-8d2e-c31e-953f-72d1dea1afd2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836240(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Recordset.Properties Property (DAO)
+# Recordset.Properties property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

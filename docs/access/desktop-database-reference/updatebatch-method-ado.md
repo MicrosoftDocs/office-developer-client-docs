@@ -1,6 +1,6 @@
 ﻿---
-title: UpdateBatch Method (ADO)
-TOCTitle: UpdateBatch Method (ADO)
+title: UpdateBatch method (ADO)
+TOCTitle: UpdateBatch method (ADO)
 ms:assetid: 69e72a65-b637-36fd-d09f-7f81050f71ad
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249416(v=office.15)
 ms:contentKeyID: 48545420
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# UpdateBatch Method (ADO)
+# UpdateBatch method (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

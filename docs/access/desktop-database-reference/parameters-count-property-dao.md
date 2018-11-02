@@ -1,5 +1,5 @@
 ﻿---
-title: Parameters.Count Property (DAO)
+title: Parameters.Count property (DAO)
 TOCTitle: Count Property
 ms:assetid: bc8c814b-da55-22b7-431f-a0f7e6cac994
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822720(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Parameters.Count Property (DAO)
+# Parameters.Count property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

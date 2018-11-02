@@ -1,6 +1,6 @@
 ﻿---
-title: ImportExportData Macro Action
-TOCTitle: ImportExportData Macro Action
+title: ImportExportData macro action
+TOCTitle: ImportExportData macro action
 ms:assetid: 2cbde873-8a3d-b15c-4aab-405cddf44cea
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192107(v=office.15)
 ms:contentKeyID: 48543961
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# ImportExportData Macro Action
+# ImportExportData macro action
 
 **Applies to**: Access 2013, Office 2013
 

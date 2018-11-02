@@ -1,5 +1,5 @@
 ﻿---
-title: View Properties, Methods, and Events (ADOX)
+title: View properties, methods, and events (ADOX)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 1c2cd5af-e471-5e71-6eb0-cdb8b46315c1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248960(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# View Properties, Methods, and Events (ADOX)
+# View properties, methods, and events (ADOX)
 
 
 **Applies to**: Access 2013, Office 2013

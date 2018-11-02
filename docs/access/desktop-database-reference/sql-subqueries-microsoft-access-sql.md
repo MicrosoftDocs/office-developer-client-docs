@@ -1,6 +1,6 @@
 ﻿---
-title: SQL Subqueries (Microsoft Access SQL)
-TOCTitle: SQL Subqueries (Microsoft Access SQL)
+title: SQL subqueries (Microsoft Access SQL)
+TOCTitle: SQL subqueries (Microsoft Access SQL)
 ms:assetid: 3b6c0a5d-ab24-e1cf-0175-3f8e68c2dfbf
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192664(v=office.15)
 ms:contentKeyID: 48544285
@@ -14,7 +14,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# SQL Subqueries (Microsoft Access SQL)
+# SQL subqueries (Microsoft Access SQL)
 
 
 **Applies to**: Access 2013, Office 2013

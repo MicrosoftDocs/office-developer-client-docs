@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset.FindPrevious Method (DAO)
+title: Recordset.FindPrevious method (DAO)
 TOCTitle: FindPrevious Method
 ms:assetid: 62f26b0b-f3f1-a6fe-e84d-f93623e1f7f9
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194940(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Recordset.FindPrevious Method (DAO)
+# Recordset.FindPrevious method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

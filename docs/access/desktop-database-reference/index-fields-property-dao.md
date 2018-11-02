@@ -1,5 +1,5 @@
 ﻿---
-title: Index.Fields Property (DAO)
+title: Index.Fields property (DAO)
 TOCTitle: Fields Property
 ms:assetid: c79adede-361f-c0eb-13a1-18625bd9141f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823154(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Index.Fields Property (DAO)
+# Index.Fields property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

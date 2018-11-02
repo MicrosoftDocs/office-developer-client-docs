@@ -1,5 +1,5 @@
 ﻿---
-title: Workspace.Type Property (DAO)
+title: Workspace.Type property (DAO)
 TOCTitle: Type Property
 ms:assetid: 89e59280-d2cd-b6a2-16c5-9f14f42fdd99
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197086(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Workspace.Type Property (DAO)
+# Workspace.Type property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

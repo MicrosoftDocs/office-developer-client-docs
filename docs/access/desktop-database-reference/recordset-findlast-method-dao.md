@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset.FindLast Method (DAO)
+title: Recordset.FindLast method (DAO)
 TOCTitle: FindLast Method
 ms:assetid: 65236519-3474-a760-99bc-2e8f6bfeee7a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195128(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Recordset.FindLast Method (DAO)
+# Recordset.FindLast method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

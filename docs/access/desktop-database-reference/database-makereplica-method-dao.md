@@ -1,5 +1,5 @@
 ﻿---
-title: Database.MakeReplica Method (DAO)
+title: Database.MakeReplica method (DAO)
 TOCTitle: MakeReplica Method
 ms:assetid: b6bf4982-0804-12ce-849f-d2b4ac2e48a5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822413(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Database.MakeReplica Method (DAO)
+# Database.MakeReplica method (DAO)
 
 **Applies to**: Access 2013, Office 2013
 

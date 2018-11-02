@@ -1,6 +1,6 @@
 ﻿---
 title: Find Method - ActiveX Data Objects (ADO)
-TOCTitle: Find Method (ADO)
+TOCTitle: Find method (ADO)
 ms:assetid: a7cc9ceb-fdb9-73e2-8328-70b174f93cda
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249776(v=office.15)
 ms:contentKeyID: 48546887
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Find Method (ADO)
+# Find method (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

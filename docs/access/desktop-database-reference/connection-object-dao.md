@@ -1,5 +1,5 @@
 ﻿---
-title: Connection Object (DAO)
+title: Connection object (DAO)
 TOCTitle: Connection Object
 ms:assetid: f469b04e-2539-6b53-31f2-85fe22fcc2fc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836694(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Connection Object (DAO)
+# Connection object (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

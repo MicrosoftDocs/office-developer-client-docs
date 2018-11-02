@@ -1,6 +1,6 @@
 ﻿---
-title: SetFilter Macro Action
-TOCTitle: SetFilter Macro Action
+title: SetFilter macro action
+TOCTitle: SetFilter macro action
 ms:assetid: dee699e2-0840-1612-23ce-199ef8d30566
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835438(v=office.15)
 ms:contentKeyID: 48548203
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# SetFilter Macro Action
+# SetFilter macro action
 
 **Applies to**: Access 2013, Office 2013
 

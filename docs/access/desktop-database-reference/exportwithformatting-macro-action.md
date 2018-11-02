@@ -1,6 +1,6 @@
 ﻿---
-title: ExportWithFormatting Macro Action
-TOCTitle: ExportWithFormatting Macro Action
+title: ExportWithFormatting macro action
+TOCTitle: ExportWithFormatting macro action
 ms:assetid: 8926dfa3-bf11-30ab-0f85-46f0a4961784
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197066(v=office.15)
 ms:contentKeyID: 48546152
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# ExportWithFormatting Macro Action
+# ExportWithFormatting macro action
 
 
 **Applies to**: Access 2013, Office 2013

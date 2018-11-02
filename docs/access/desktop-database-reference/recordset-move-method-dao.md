@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset.Move Method (DAO)
+title: Recordset.Move method (DAO)
 TOCTitle: Move Method
 ms:assetid: 21ca5ab5-ff71-1ae8-21b3-8991d5f795cf
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191697(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Recordset.Move Method (DAO)
+# Recordset.Move method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

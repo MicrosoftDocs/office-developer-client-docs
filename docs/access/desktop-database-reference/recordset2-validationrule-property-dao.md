@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset2.ValidationRule Property (DAO)
+title: Recordset2.ValidationRule property (DAO)
 TOCTitle: ValidationRule Property
 ms:assetid: d46cc255-e588-e9e6-66d7-31fc26ae45b8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835002(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Recordset2.ValidationRule Property (DAO)
+# Recordset2.ValidationRule property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

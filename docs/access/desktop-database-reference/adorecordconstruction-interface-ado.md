@@ -1,6 +1,6 @@
 ﻿---
-title: ADORecordConstruction Interface (ADO)
-TOCTitle: ADORecordConstruction Interface (ADO)
+title: ADORecordConstruction interface (ADO)
+TOCTitle: ADORecordConstruction interface (ADO)
 ms:assetid: 3f0afbdb-f1c4-e44e-7c0f-a0c4cee554a7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249175(v=office.15)
 ms:contentKeyID: 48544387
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ADORecordConstruction Interface (ADO)
+# ADORecordConstruction interface (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

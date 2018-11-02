@@ -1,6 +1,6 @@
 ﻿---
-title: CopyDatabaseFile Macro Action
-TOCTitle: CopyDatabaseFile Macro Action
+title: CopyDatabaseFile macro action
+TOCTitle: CopyDatabaseFile macro action
 ms:assetid: e6320b55-946b-9efc-9b64-b86513801a37
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835963(v=office.15)
 ms:contentKeyID: 48548373
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# CopyDatabaseFile Macro Action
+# CopyDatabaseFile macro action
 
 
 **Applies to**: Access 2013, Office 2013

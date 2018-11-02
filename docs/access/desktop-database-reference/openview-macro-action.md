@@ -1,6 +1,6 @@
 ﻿---
-title: OpenView Macro Action
-TOCTitle: OpenView Macro Action
+title: OpenView macro action
+TOCTitle: OpenView macro action
 ms:assetid: 4d3b7e6d-4b81-4fbe-7222-24d745350321
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193569(v=office.15)
 ms:contentKeyID: 48544726
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# OpenView Macro Action
+# OpenView macro action
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,6 +1,6 @@
 ﻿---
-title: StopAllMacros Macro Action
-TOCTitle: StopAllMacros Macro Action
+title: StopAllMacros macro action
+TOCTitle: StopAllMacros macro action
 ms:assetid: 6afbf906-03b8-6e68-bbc9-7a4b141cf1c5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195440(v=office.15)
 ms:contentKeyID: 48545442
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# StopAllMacros Macro Action
+# StopAllMacros macro action
 
 
 **Applies to**: Access 2013, Office 2013

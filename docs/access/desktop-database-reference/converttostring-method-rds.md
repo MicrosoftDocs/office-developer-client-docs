@@ -1,6 +1,6 @@
 ﻿---
-title: ConvertToString Method (RDS)
-TOCTitle: ConvertToString Method (RDS)
+title: ConvertToString method (RDS)
+TOCTitle: ConvertToString method (RDS)
 ms:assetid: dc6381e4-98c8-badc-ad8c-87c70574a8a4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250113(v=office.15)
 ms:contentKeyID: 48548136
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ConvertToString Method (RDS)
+# ConvertToString method (RDS)
 
 
 **Applies to**: Access 2013, Office 2013 

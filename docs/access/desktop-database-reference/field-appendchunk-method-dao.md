@@ -1,5 +1,5 @@
 ﻿---
-title: Field.AppendChunk Method (DAO)
+title: Field.AppendChunk method (DAO)
 TOCTitle: AppendChunk Method
 ms:assetid: f98c6862-fecf-06cb-a7c0-42b0d3150a06
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837014(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Field.AppendChunk Method (DAO)
+# Field.AppendChunk method (DAO)
 
 **Applies to**: Access 2013, Office 2013
 

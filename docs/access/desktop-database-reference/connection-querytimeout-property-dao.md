@@ -1,5 +1,5 @@
 ﻿---
-title: Connection.QueryTimeout Property (DAO)
+title: Connection.QueryTimeout property (DAO)
 TOCTitle: QueryTimeout Property
 ms:assetid: 97853412-d5ae-7a71-ccaa-595c68919654
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197804(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Connection.QueryTimeout Property (DAO)
+# Connection.QueryTimeout property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

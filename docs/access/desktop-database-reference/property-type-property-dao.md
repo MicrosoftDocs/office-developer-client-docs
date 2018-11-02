@@ -1,5 +1,5 @@
 ﻿---
-title: Property.Type Property (DAO)
+title: Property.Type property (DAO)
 TOCTitle: Type Property
 ms:assetid: bf8258ca-08b5-c4f9-e6d7-114e4300b2ef
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822796(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Property.Type Property (DAO)
+# Property.Type property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

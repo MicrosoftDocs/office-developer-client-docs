@@ -1,6 +1,6 @@
 ﻿---
-title: Parameters Collection (ADO) Reference
-TOCTitle: Parameters Collection (ADO)
+title: Parameters collection (ADO) reference
+TOCTitle: Parameters collection (ADO)
 ms:assetid: ac05170e-6add-4eb1-bfd1-52594359882f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249799(v=office.15)
 ms:contentKeyID: 48546990
@@ -8,14 +8,14 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Parameters Collection (ADO) Reference
+# Parameters collection (ADO) reference
 
 
 **Applies to**: Access 2013, Office 2013
 
 
 
-  - [Parameters Collection (ADO)](parameters-collection-ado.md)
+  - [Parameters collection (ADO)](parameters-collection-ado.md)
 
-  - [Parameters Collection Properties, Methods, and Events](parameters-collection-properties-methods-and-events.md)
+  - [Parameters collection properties, methods, and events](parameters-collection-properties-methods-and-events.md)
 

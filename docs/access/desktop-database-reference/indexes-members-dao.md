@@ -1,5 +1,5 @@
 ﻿---
-title: Indexes Members (DAO)
+title: Indexes members (DAO)
 TOCTitle: Indexes Members
 ms:assetid: 7b145a20-5cc9-57c3-7c6f-89cebdab7ea2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196191(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Indexes Members (DAO)
+# Indexes members (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,6 +1,6 @@
 ﻿---
-title: Connection Object (ADO)
-TOCTitle: Connection Object (ADO)
+title: Connection object (ADO)
+TOCTitle: Connection object (ADO)
 ms:assetid: c16023aa-0321-2513-ee71-255d6ffba03d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249940(v=office.15)
 ms:contentKeyID: 48547528
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Connection Object (ADO)
+# Connection object (ADO)
 
 **Applies to**: Access 2013, Office 2013
 

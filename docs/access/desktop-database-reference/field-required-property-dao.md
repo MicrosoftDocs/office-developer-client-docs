@@ -1,5 +1,5 @@
 ﻿---
-title: Field.Required Property (DAO)
+title: Field.Required property (DAO)
 TOCTitle: Required Property
 ms:assetid: 2f1dbdeb-a37a-59b2-fdc2-f16c7ae1a575
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192247(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Field.Required Property (DAO)
+# Field.Required property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

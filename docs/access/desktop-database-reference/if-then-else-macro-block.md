@@ -1,6 +1,6 @@
 ﻿---
-title: If...Then...Else Macro Block
-TOCTitle: If...Then...Else Macro Block
+title: If...Then...Else macro block
+TOCTitle: If...Then...Else macro block
 ms:assetid: 0c4a4b7a-4fdb-9dbc-a94e-939a2ff1c0e5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845158(v=office.15)
 ms:contentKeyID: 48543188
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# If...Then...Else Macro Block
+# If...Then...Else macro block
 
 
 **Applies to**: Access 2013, Office 2013

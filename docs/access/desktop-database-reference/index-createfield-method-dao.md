@@ -1,5 +1,5 @@
 ﻿---
-title: Index.CreateField Method (DAO)
+title: Index.CreateField method (DAO)
 TOCTitle: CreateField Method
 ms:assetid: fc82b785-8768-b144-a2a4-c1f1798865a6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837208(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Index.CreateField Method (DAO)
+# Index.CreateField method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

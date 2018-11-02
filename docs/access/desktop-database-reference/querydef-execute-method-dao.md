@@ -1,5 +1,5 @@
 ﻿---
-title: QueryDef.Execute Method (DAO)
+title: QueryDef.Execute method (DAO)
 TOCTitle: Execute Method
 ms:assetid: ad9e859e-c6fe-496c-a1f2-a000cf4bebcc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821728(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# QueryDef.Execute Method (DAO)
+# QueryDef.Execute method (DAO)
 
 **Applies to**: Access 2013, Office 2013
 

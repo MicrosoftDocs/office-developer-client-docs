@@ -1,5 +1,5 @@
 ﻿---
-title: Field2.CreateProperty Method (DAO)
+title: Field2.CreateProperty method (DAO)
 TOCTitle: CreateProperty Method
 ms:assetid: bdbd6bec-216f-138e-78df-9c3221692aa4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822737(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Field2.CreateProperty Method (DAO)
+# Field2.CreateProperty method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

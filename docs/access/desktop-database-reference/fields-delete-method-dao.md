@@ -1,5 +1,5 @@
 ﻿---
-title: Fields.Delete Method (DAO)
+title: Fields.Delete method (DAO)
 TOCTitle: Delete Method
 ms:assetid: a8e249e7-7526-3eff-a5cf-70cab2081970
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821417(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Fields.Delete Method (DAO)
+# Fields.Delete method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

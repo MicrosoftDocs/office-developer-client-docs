@@ -1,5 +1,5 @@
 ﻿---
-title: Connection.Name Property (DAO)
+title: Connection.Name property (DAO)
 TOCTitle: Name Property
 ms:assetid: 5f4a95cd-63a3-aedf-df64-793158b2283d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194764(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Connection.Name Property (DAO)
+# Connection.Name property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

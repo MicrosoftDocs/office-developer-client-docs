@@ -1,5 +1,5 @@
 ﻿---
-title: TableDef.RefreshLink Method (DAO)
+title: TableDef.RefreshLink method (DAO)
 TOCTitle: RefreshLink Method
 ms:assetid: 9f0059c6-3b7b-57e3-7527-ef674ad9417d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198349(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# TableDef.RefreshLink Method (DAO)
+# TableDef.RefreshLink method (DAO)
 
 **Applies to**: Access 2013, Office 2013
  

@@ -1,6 +1,6 @@
 ﻿---
-title: CancelBatch Method (ADO)
-TOCTitle: CancelBatch Method (ADO)
+title: CancelBatch method (ADO)
+TOCTitle: CancelBatch method (ADO)
 ms:assetid: be7bf073-ed0b-e24c-7ec0-b7379236782a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249925(v=office.15)
 ms:contentKeyID: 48547463
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# CancelBatch Method (ADO)
+# CancelBatch method (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

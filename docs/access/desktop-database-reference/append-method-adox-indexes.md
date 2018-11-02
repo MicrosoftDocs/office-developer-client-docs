@@ -1,6 +1,6 @@
 ﻿---
-title: Append Method (ADOX Indexes)
-TOCTitle: Append Method (ADOX Indexes)
+title: Append method (ADOX Indexes)
+TOCTitle: Append method (ADOX Indexes)
 ms:assetid: 015ebab4-5e9d-8777-ac82-4d20e957c274
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248784(v=office.15)
 ms:contentKeyID: 48542933
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Append Method (ADOX Indexes)
+# Append method (ADOX Indexes)
 
 
 **Applies to**: Access 2013, Office 2013

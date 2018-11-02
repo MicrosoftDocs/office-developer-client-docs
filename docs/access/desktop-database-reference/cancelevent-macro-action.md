@@ -1,6 +1,6 @@
 ﻿---
-title: CancelEvent Macro Action
-TOCTitle: CancelEvent Macro Action
+title: CancelEvent macro action
+TOCTitle: CancelEvent macro action
 ms:assetid: d9d3ea99-c9fb-2524-c570-e3ee6d20af98
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835110(v=office.15)
 ms:contentKeyID: 48548066
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# CancelEvent Macro Action
+# CancelEvent macro action
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,5 +1,5 @@
 ﻿---
-title: Database.Version Property (DAO)
+title: Database.Version property (DAO)
 TOCTitle: Version Property
 ms:assetid: 40faaa0c-e764-e968-f606-7e06ded80c3f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192887(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Database.Version Property (DAO)
+# Database.Version property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

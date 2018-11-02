@@ -1,6 +1,6 @@
 ﻿---
-title: OpenReport Macro Action
-TOCTitle: OpenReport Macro Action
+title: OpenReport macro action
+TOCTitle: OpenReport macro action
 ms:assetid: cd35faf2-190d-ac48-cf59-81c1599eb764
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834462(v=office.15)
 ms:contentKeyID: 48547758
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# OpenReport Macro Action
+# OpenReport macro action
 
 **Applies to**: Access 2013, Office 2013
 

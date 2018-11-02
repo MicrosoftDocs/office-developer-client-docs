@@ -1,5 +1,5 @@
 ﻿---
-title: Database.TableDefs Property (DAO)
+title: Database.TableDefs property (DAO)
 TOCTitle: TableDefs Property
 ms:assetid: 022d20d2-36f5-7711-c6fb-3a0f2cfb76d3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844763(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Database.TableDefs Property (DAO)
+# Database.TableDefs property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

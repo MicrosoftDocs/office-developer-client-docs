@@ -1,5 +1,5 @@
 ﻿---
-title: QueryDef.MaxRecords Property (DAO)
+title: QueryDef.MaxRecords property (DAO)
 TOCTitle: MaxRecords Property
 ms:assetid: 7492cde9-be30-3473-dabc-9602465910d1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195877(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# QueryDef.MaxRecords Property (DAO)
+# QueryDef.MaxRecords property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

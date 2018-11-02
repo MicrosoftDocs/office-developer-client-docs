@@ -3762,7 +3762,7 @@
               items:
               - name: DeleteRecord macro action
                 href: access/desktop-database-reference/deleterecord-macro-action.md
-            - name: Data Import/Export
+            - name: Data import/export
               href: access/desktop-database-reference/data-import-export.md
               items:
               - name: RunSavedImportExport macro action
@@ -3810,7 +3810,7 @@
                 href: access/desktop-database-reference/repaintobject-macro-action.md
               - name: SetValue macro action
                 href: access/desktop-database-reference/setvalue-macro-action.md
-            - name: Filter/Query/Search
+            - name: Filter/query/search
               href: access/desktop-database-reference/filter-query-search.md
               items:
               - name: ApplyFilter macro action

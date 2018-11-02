@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset.Transactions Property (DAO)
+title: Recordset.Transactions property (DAO)
 TOCTitle: Transactions Property
 ms:assetid: 7830c056-8d6a-7942-7993-aa04b29cd77f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196110(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Recordset.Transactions Property (DAO)
+# Recordset.Transactions property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

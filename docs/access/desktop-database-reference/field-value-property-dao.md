@@ -1,5 +1,5 @@
 ﻿---
-title: Field.Value Property (DAO)
+title: Field.Value property (DAO)
 TOCTitle: Value Property
 ms:assetid: 6c0f9a8d-f51a-b8cf-8830-f8d960a1d08c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195493(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Field.Value Property (DAO)
+# Field.Value property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

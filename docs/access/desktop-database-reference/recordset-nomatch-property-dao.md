@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset.NoMatch Property (DAO)
+title: Recordset.NoMatch property (DAO)
 TOCTitle: NoMatch Property
 ms:assetid: 47d03575-f570-89b5-a20f-a3bd8b8b5c6d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193226(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Recordset.NoMatch Property (DAO)
+# Recordset.NoMatch property (DAO)
 
 **Applies to**: Access 2013, Office 2013
 

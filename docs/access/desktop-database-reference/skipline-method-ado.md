@@ -1,6 +1,6 @@
 ﻿---
-title: SkipLine Method (ADO)
-TOCTitle: SkipLine Method (ADO)
+title: SkipLine method (ADO)
+TOCTitle: SkipLine method (ADO)
 ms:assetid: 419c24c3-6b84-eed0-5884-f2dcd485dc3d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249187(v=office.15)
 ms:contentKeyID: 48544456
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# SkipLine Method (ADO)
+# SkipLine method (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,6 +1,6 @@
 ﻿---
-title: FilterCriterion Property (RDS)
-TOCTitle: FilterCriterion Property (RDS)
+title: FilterCriterion property (RDS)
+TOCTitle: FilterCriterion property (RDS)
 ms:assetid: 51e6cb64-a404-114e-8e1a-0744cceeec3e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249267(v=office.15)
 ms:contentKeyID: 48544834
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# FilterCriterion Property (RDS)
+# FilterCriterion property (RDS)
 
 
 **Applies to**: Access 2013, Office 2013

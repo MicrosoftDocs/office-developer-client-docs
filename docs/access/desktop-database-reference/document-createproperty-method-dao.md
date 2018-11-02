@@ -1,5 +1,5 @@
 ﻿---
-title: Document.CreateProperty Method (DAO)
+title: Document.CreateProperty method (DAO)
 TOCTitle: CreateProperty Method
 ms:assetid: 834fda60-1edf-38df-a9a5-d9d15e55e425
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196739(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Document.CreateProperty Method (DAO)
+# Document.CreateProperty method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

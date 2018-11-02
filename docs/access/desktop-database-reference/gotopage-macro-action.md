@@ -1,6 +1,6 @@
 ﻿---
-title: GoToPage Macro Action
-TOCTitle: GoToPage Macro Action
+title: GoToPage macro action
+TOCTitle: GoToPage macro action
 ms:assetid: 611aadff-83b7-e74d-4093-93fb5ce6e3ab
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194858(v=office.15)
 ms:contentKeyID: 48545199
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# GoToPage Macro Action
+# GoToPage macro action
 
 
 **Applies to**: Access 2013, Office 2013

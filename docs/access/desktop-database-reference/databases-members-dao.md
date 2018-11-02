@@ -1,5 +1,5 @@
 ﻿---
-title: Databases Members (DAO)
+title: Databases members (DAO)
 TOCTitle: Databases Members
 ms:assetid: 26590849-6530-7e10-9a2c-1a9a5b2bfac6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191890(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Databases Members (DAO)
+# Databases members (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

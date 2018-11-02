@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset2.Updatable Property (DAO)
+title: Recordset2.Updatable property (DAO)
 TOCTitle: Updatable Property
 ms:assetid: ad8184b6-ffe3-dde6-ddee-4b23cdaa9c59
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821726(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Recordset2.Updatable Property (DAO)
+# Recordset2.Updatable property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

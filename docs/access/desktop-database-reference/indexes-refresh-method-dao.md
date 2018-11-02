@@ -1,5 +1,5 @@
 ﻿---
-title: Indexes.Refresh Method (DAO)
+title: Indexes.Refresh method (DAO)
 TOCTitle: Refresh Method
 ms:assetid: ffe1bc79-5a56-2a70-c5ac-2f80b683adbb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837325(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Indexes.Refresh Method (DAO)
+# Indexes.Refresh method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

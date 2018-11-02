@@ -1,5 +1,5 @@
 ﻿---
-title: Field2.CollatingOrder Property (DAO)
+title: Field2.CollatingOrder property (DAO)
 TOCTitle: CollatingOrder Property
 ms:assetid: cb1d6fc9-a2a6-54c2-abf5-48b609e38738
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834380(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Field2.CollatingOrder Property (DAO)
+# Field2.CollatingOrder property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

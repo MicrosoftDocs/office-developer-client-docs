@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset2.BatchCollisions Property (DAO)
+title: Recordset2.BatchCollisions property (DAO)
 TOCTitle: BatchCollisions Property
 ms:assetid: 07d6c25f-baf5-f7d6-d225-0447e0f78fe6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844993(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Recordset2.BatchCollisions Property (DAO)
+# Recordset2.BatchCollisions property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

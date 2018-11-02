@@ -1,6 +1,6 @@
 ﻿---
-title: WorkflowTasks Macro Action
-TOCTitle: WorkflowTasks Macro Action
+title: WorkflowTasks macro action
+TOCTitle: WorkflowTasks macro action
 ms:assetid: 4b299681-b45b-f6d1-2cfe-ebf01712bfc1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193503(v=office.15)
 ms:contentKeyID: 48544684
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# WorkflowTasks Macro Action
+# WorkflowTasks macro action
 
 
 **Applies to**: Access 2013, Office 2013

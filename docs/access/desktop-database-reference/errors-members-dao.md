@@ -1,5 +1,5 @@
 ﻿---
-title: Errors Members (DAO)
+title: Errors members (DAO)
 TOCTitle: Errors Members
 ms:assetid: 7e7eb080-16dc-c873-af80-6286222cd5b3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196446(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Errors Members (DAO)
+# Errors members (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

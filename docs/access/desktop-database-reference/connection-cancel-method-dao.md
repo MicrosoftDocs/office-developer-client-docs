@@ -1,5 +1,5 @@
 ﻿---
-title: Connection.Cancel Method (DAO)
+title: Connection.Cancel method (DAO)
 TOCTitle: Cancel Method
 ms:assetid: 43ad7b64-823d-3fac-e4d4-5e9514f60011
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192953(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Connection.Cancel Method (DAO)
+# Connection.Cancel method (DAO)
 
 **Applies to**: Access 2013, Office 2013
 

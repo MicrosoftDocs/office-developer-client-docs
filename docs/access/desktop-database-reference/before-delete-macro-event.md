@@ -1,6 +1,6 @@
 ﻿---
-title: Before Delete Macro Event
-TOCTitle: Before Delete Macro Event
+title: Before Delete macro event
+TOCTitle: Before Delete macro event
 ms:assetid: 1a8d3457-5c59-d13e-ada9-6ecd33dfd5b3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845672(v=office.15)
 ms:contentKeyID: 48543520
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Before Delete Macro Event
+# Before Delete macro event
 
 **Applies to**: Access 2013, Office 2013
 
@@ -53,39 +53,39 @@ The following table lists macro commands that can be used in the **Before Delete
 <tbody>
 <tr class="odd">
 <td><p>Program Flow</p></td>
-<td><p><a href="comment-macro-statement.md">Comment Macro Statement</a></p></td>
+<td><p><a href="comment-macro-statement.md">Comment macro statement</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Program Flow</p></td>
-<td><p><a href="group-macro-statement.md">Group Macro Statement</a></p></td>
+<td><p><a href="group-macro-statement.md">Group macro statement</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Program Flow</p></td>
-<td><p><a href="if-then-else-macro-block.md">If...Then...Else Macro Block</a></p></td>
+<td><p><a href="if-then-else-macro-block.md">If...Then...Else macro block</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Data Block</p></td>
-<td><p><a href="lookuprecord-data-block.md">LookupRecord Macro Action</a></p></td>
+<td><p><a href="lookuprecord-data-block.md">LookupRecord macro action</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Data Action</p></td>
-<td><p><a href="clearmacroerror-macro-action.md">ClearMacroError Macro Action</a></p></td>
+<td><p><a href="clearmacroerror-macro-action.md">ClearMacroError macro action</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Data Action</p></td>
-<td><p><a href="onerror-macro-action.md">OnError Macro Action</a></p></td>
+<td><p><a href="onerror-macro-action.md">OnError macro action</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Data Action</p></td>
-<td><p><a href="raiseerror-macro-action.md">RaiseError Macro Action</a></p></td>
+<td><p><a href="raiseerror-macro-action.md">RaiseError macro action</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Data Action</p></td>
-<td><p><a href="setlocalvar-macro-action.md">SetLocalVar Macro Action</a></p></td>
+<td><p><a href="setlocalvar-macro-action.md">SetLocalVar macro action</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Data Action</p></td>
-<td><p><a href="stopmacro-macro-action.md">StopMacro Macro Action</a></p></td>
+<td><p><a href="stopmacro-macro-action.md">StopMacro macro action</a></p></td>
 </tr>
 </tbody>
 </table>

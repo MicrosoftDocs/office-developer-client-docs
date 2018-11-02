@@ -1,5 +1,5 @@
 ﻿---
-title: Parameter Properties, Methods, and Events (ADO)
+title: Parameter properties, methods, and events (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 3689904e-be91-ce15-1784-72f862033828
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249125(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Parameter Properties, Methods, and Events (ADO)
+# Parameter properties, methods, and events (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,6 +1,6 @@
 ﻿---
-title: DisplayHourglassPointer Macro Action
-TOCTitle: DisplayHourglassPointer Macro Action
+title: DisplayHourglassPointer macro action
+TOCTitle: DisplayHourglassPointer macro action
 ms:assetid: 2c93039a-f75c-abeb-1dfa-e632a5bdf6f2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192103(v=office.15)
 ms:contentKeyID: 48543957
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# DisplayHourglassPointer Macro Action
+# DisplayHourglassPointer macro action
 
 
 **Applies to**: Access 2013, Office 2013

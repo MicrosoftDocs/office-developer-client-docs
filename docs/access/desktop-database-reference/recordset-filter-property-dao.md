@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset.Filter Property (DAO)
+title: Recordset.Filter property (DAO)
 TOCTitle: Filter Property
 ms:assetid: feffa23b-c348-9718-ba4b-65db0f739789
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837300(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Recordset.Filter Property (DAO)
+# Recordset.Filter property (DAO)
 
 **Applies to**: Access 2013, Office 2013
 
