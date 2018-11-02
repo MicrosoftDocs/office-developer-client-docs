@@ -10,20 +10,14 @@ mtps_version: v=office.15
 
 # GoToControl macro action
 
-
 **Applies to**: Access 2013, Office 2013
-
-
 
 You can use the **GoToControl** action to move the focus to the specified field or control in the current record of the open form, form datasheet, table datasheet, or query datasheet. You can use this action when you want a particular field or control to have the focus. This field or control can then be used for comparisons or **FindRecord** actions. You can also use this action to navigate in a form according to certain conditions. For example, if the user enters No in a Married control on a health insurance form, the focus can automatically skip the Spouse/partner Name control and move to the next control.
 
 ## Setting
 
-
 > [!NOTE]
-> <P>This action is not available for use with data access pages.</P>
-
-
+> This action is not available for use with data access pages.
 
 The **GoToControl** action has the following argument.
 
@@ -44,7 +38,7 @@ The **GoToControl** action has the following argument.
 <td><p>The name of the field or control where you want the focus. Enter the field or control name in the <strong>Control Name</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane. This is a required argument.</p>
 
 > [!NOTE]
-> <P>Enter only the name of the field or control in the <STRONG>Control Name</STRONG> argument, not the fully qualified identifier, such as Forms!Products![Product ID].</P>
+> Enter only the name of the field or control in the **Control Name** argument, not the fully qualified identifier, such as Forms!Products![Product ID].
 
 
 <p></p></td>
@@ -57,11 +51,8 @@ The **GoToControl** action has the following argument.
 
 You cannot use the **GoToControl** action to move the focus to a control on a hidden form.
 
-
 > [!TIP]
-> <P>You can use the <STRONG>GoToControl</STRONG> action to move to a subform, which is a type of control. You can then use the <STRONG>GoToRecord</STRONG> action to move to a particular record in the subform. You can also move to a control on a subform by using the <STRONG>GoToControl</STRONG> action to move first to the subform and then to the control on the subform.</P>
-
-
+> You can use the **GoToControl** action to move to a subform, which is a type of control. You can then use the **GoToRecord** action to move to a particular record in the subform. You can also move to a control on a subform by using the **GoToControl** action to move first to the subform and then to the control on the subform.
 
 To run the **GoToControl** action in a Visual Basic for Applications (VBA) module, use the **GoToControl** method of the **DoCmd** object. You can also use the **SetFocus** method to move the focus to a control on a form or any of its subforms, or to a field in an open table, query, or form datasheet.
 

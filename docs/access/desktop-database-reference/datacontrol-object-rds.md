@@ -88,7 +88,7 @@ When you define the **RDS.DataControl** object on a webpage, use nonzero **Heigh
 
 Remote Data Service client components are already included as part of Internet Explorer 4.0; therefore, you don't need to include a CODEBASE parameter in your **RDS.DataControl** object tag.
 
-With Internet Explorer 4.0 or later, you can bind to data by using HTML controls and ActiveX® controls only if they are marked as apartment model controls.
+With Internet Explorer 4.0 or later, you can bind to data by using HTML controls and ActiveX controls only if they are marked as apartment model controls.
 
 **Microsoft Visual Basic Users** The **RDS.DataControl** is used only in web-based applications. A Visual Basic client application has no need for it.
 

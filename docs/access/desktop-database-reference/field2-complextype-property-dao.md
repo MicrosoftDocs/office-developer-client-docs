@@ -19,9 +19,9 @@ f1_categories:
 
 Returns a **[ComplexType](complextype-object-dao.md)** object that represents a multi-valued field. Read-only.
 
-## Version Information
+## Version information
 
-Version Added: Access 2007
+Version added: Access 2007
 
 ## Syntax
 

@@ -54,11 +54,7 @@ Changes the password of an existing Microsoft Access database engine database (M
 <td><p>Required</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>The new setting of the <strong>Password</strong> property of the <strong>Database</strong> object.</p>
-
-> [!NOTE]
-> Use strong passwords that combine upper- and lowercase letters, numbers, and symbols. Weak passwords don't mix these elements. Strong password: Y6dh!et5. Weak password: House27. Use a strong password that you can remember so that you don't have to write it down.
-
-
+<p><strong>NOTE</strong>Use strong passwords that combine upper- and lowercase letters, numbers, and symbols. Weak passwords don't mix these elements. Strong password: Y6dh!et5. Weak password: House27. Use a strong password that you can remember so that you don't have to write it down.</p>
 </td>
 </tr>
 </tbody>

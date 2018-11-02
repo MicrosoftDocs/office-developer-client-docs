@@ -10,14 +10,9 @@ mtps_version: v=office.15
 
 # Fields methods (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
-
-
-  - [Fields.Append method (DAO)](fields-append-method-dao.md)
-
-  - [Fields.Delete method (DAO)](fields-delete-method-dao.md)
-
-  - [Fields.Refresh method (DAO)](fields-refresh-method-dao.md)
+- [Fields.Append method (DAO)](fields-append-method-dao.md)
+- [Fields.Delete method (DAO)](fields-delete-method-dao.md)
+- [Fields.Refresh method (DAO)](fields-refresh-method-dao.md)
 

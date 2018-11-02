@@ -10,14 +10,9 @@ mtps_version: v=office.15
 
 # Field methods (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
-
-
-  - [Field.AppendChunk method (DAO)](field-appendchunk-method-dao.md)
-
-  - [Field.CreateProperty method (DAO)](field-createproperty-method-dao.md)
-
-  - [Field.GetChunk method (DAO)](field-getchunk-method-dao.md)
+- [Field.AppendChunk method (DAO)](field-appendchunk-method-dao.md)
+- [Field.CreateProperty method (DAO)](field-createproperty-method-dao.md)
+- [Field.GetChunk method (DAO)](field-getchunk-method-dao.md)
 

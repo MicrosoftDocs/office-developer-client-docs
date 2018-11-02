@@ -67,11 +67,8 @@ If offset is 0, **GetChunk** begins copying from the first byte of the field.
 
 If numbytes is greater than the number of bytes in the field, **GetChunk** returns the actual number of remaining bytes in the field.
 
-
 > [!NOTE]
-> <P>Use a <STRONG>Memo</STRONG> field for text, and put binary data only in <STRONG>Long Binary</STRONG> fields. Doing otherwise will cause undesirable results.</P>
-
-
+> Use a **Memo** field for text, and put binary data only in **Long Binary** fields. Doing otherwise will cause undesirable results.
 
 ## Example
 

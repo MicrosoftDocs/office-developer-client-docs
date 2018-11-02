@@ -39,7 +39,7 @@ The criteria string is made up of clauses in the form *FieldName-Operator-Value*
     
 
     > [!NOTE]
-    > <P>To include single quotation marks (') in the filter Value, use two single quotation marks to represent one. For example, to filter on O'Malley, the criteria string should be "col1 = 'O''Malley'". To include single quotation marks at both the beginning and the end of the filter value, enclose the string with pound signs (#). For example, to filter on '1', the criteria string should be "col1 = #'1'#".</P>
+    > To include single quotation marks (') in the filter Value, use two single quotation marks to represent one. For example, to filter on O'Malley, the criteria string should be "col1 = 'O''Malley'". To include single quotation marks at both the beginning and the end of the filter value, enclose the string with pound signs (#). For example, to filter on '1', the criteria string should be "col1 = #'1'#".
 
 
 
@@ -61,19 +61,12 @@ See the [Bookmark](bookmark-property-ado.md) property for an explanation of book
 
 Only **Filters** in the form of Criteria Strings (e.g. OrderDate \> '12/31/1999') affect the contents of a persisted **Recordset**. **Filters** created with an Array of **Bookmarks** or using a value from the **FilterGroupEnum** will not affect the contents of the persisted Recordset. These rules apply to **Recordsets** created with either client-side or server-side cursors.
 
-
 > [!NOTE]
-> <P>When you apply the <STRONG>adFilterPendingRecords</STRONG> flag to a filtered and modified <STRONG>Recordset</STRONG> in the batch update mode, the resultant <STRONG>Recordset</STRONG> is empty if the filtering was based on the key field of a single-keyed table and the modification was made on the key field values. The resultant <STRONG>Recordset</STRONG> will be non-empty if one of the following is true:</P>
-
-
-
-  - The filtering was based on non-key fields in a single-keyed table.
-
-  - The filtering was based on any fields in a multiple-keyed table.
-
-  - Modifications were made on non-key fields in a single-keyed table.
-
-  - Modifications were made on any fields in a multiple-keyed table.
+> When you apply the **adFilterPendingRecords** flag to a filtered and modified **Recordset** in the batch update mode, the resultant **Recordset** is empty if the filtering was based on the key field of a single-keyed table and the modification was made on the key field values. The resultant **Recordset** will be non-empty if one of the following is true:
+> - The filtering was based on non-key fields in a single-keyed table.
+> - The filtering was based on any fields in a multiple-keyed table.
+> - Modifications were made on non-key fields in a single-keyed table.
+> - Modifications were made on any fields in a multiple-keyed table.
 
 The following table summarizes the effects of **adFilterPendingRecords** in different combinations of filtering and modifications. The left column shows the possible modifications; modifications can be made on any of the non-keyed fields, on the key field in a single-keyed table, or on any of the key fields in a multiple-keyed table. The top row shows the filtering criterion; filtering can be based on any of the non-keyed fields, the key field in a single-keyed table, or any of the key fields in a multiple-keyed table. The intersecting cells show the results: + means that applying **adFilterPendingRecords** results in a non-empty **Recordset**; **-** means an empty **Recordset**.
 

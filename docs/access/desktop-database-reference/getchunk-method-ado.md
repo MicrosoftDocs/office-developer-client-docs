@@ -44,6 +44,6 @@ If there is no current record when you use the **GetChunk** method on a **Field*
 
 
 > [!NOTE]
-> <P>The <STRONG>GetChunk</STRONG> method does not operate on <STRONG>Field</STRONG> objects of a <A href="record-object-ado.md">Record</A> object. It does not perform any operation and will produce a run-time error.</P>
+> The **GetChunk** method does not operate on **Field** objects of a [Record](record-object-ado.md) object. It does not perform any operation and will produce a run-time error.
 
 

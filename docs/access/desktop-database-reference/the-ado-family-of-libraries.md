@@ -1,6 +1,6 @@
 ﻿---
-title: The ADO Family of Libraries
-TOCTitle: The ADO Family of Libraries
+title: The ADO family of libraries
+TOCTitle: The ADO family of libraries
 ms:assetid: 9e794509-d0a8-2e5b-02a8-65e26f059c4e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249724(v=office.15)
 ms:contentKeyID: 48546656
@@ -8,12 +8,9 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# The ADO Family of Libraries
-
+# The ADO family of libraries
 
 **Applies to**: Access 2013, Office 2013
-
-
 
 Three major libraries make up the ADO family: ADO (including RDS), ADO MD, and ADOX.
 

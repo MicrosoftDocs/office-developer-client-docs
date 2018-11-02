@@ -46,7 +46,7 @@ For a **Recordset** object, the possible settings and return values are as follo
 <td><p>Dynamic (ODBCDirect workspaces only)</p>
 
 > [!NOTE]
-> <P>ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</P>
+> ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.
 
 
 <p></p></td>

@@ -76,9 +76,7 @@ Use aliases only in the first SELECT statement because they are ignored in any o
 
 ## Example
 
-This example retrieves the names and cities of all suppliers and customers in Brazil.
-
-This example calls the EnumFields procedure, which you can find in the SELECT statement example.
+This example retrieves the names and cities of all suppliers and customers in Brazil. It calls the EnumFields procedure, which you can find in the SELECT statement example.
 
 ```vb
     Sub UnionX() 

@@ -16,7 +16,7 @@ Returns **Boolean** that indicates whether the specified field is a multi-valued
 
 ## Version information
 
-Version Added: Access 2007
+Version added: Access 2007
 
 ## Syntax
 

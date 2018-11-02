@@ -14,9 +14,7 @@ f1_categories:
 
 # Field2.DefaultValue property (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 Sets or returns the default value of a **Field2** object. For a **Field2** object not yet appended to the **[Fields](fields-collection-dao.md)** collection, this property is read/write (Microsoft Access workspaces only).
 
@@ -30,11 +28,8 @@ Sets or returns the default value of a **Field2** object. For a **Field2** objec
 
 The setting or return value is a **String** data type that can contain a maximum of 255 characters. It can be either text or an expression. If the property setting is an expression, it can't contain user-defined functions, Microsoft Access database engine SQL aggregate functions, or references to queries, forms, or other **Field2** objects.
 
-
 > [!NOTE]
-> <P>You can also set the <STRONG>DefaultValue</STRONG> property of a <STRONG>Field2</STRONG> object on a <STRONG>TableDef</STRONG> object to a special value called "GenUniqueID( )". This causes a random number to be assigned to this field whenever a new record is added or created, thereby giving each record a unique identifier. The field's <STRONG>Type</STRONG> property must be <STRONG>Long</STRONG>.</P>
-
-
+> You can also set the **DefaultValue** property of a **Field2** object on a **TableDef** object to a special value called "GenUniqueID( )". This causes a random number to be assigned to this field whenever a new record is added or created, thereby giving each record a unique identifier. The field's **Type** property must be **Long**.
 
 The availability of the **DefaultValue** property depends on the object that contains the **Fields** collection, as shown in the following table.
 

@@ -106,9 +106,7 @@ Some subqueries are allowed in crosstab queries— specifically, as predicates (
 
 ## Example
 
-This example lists the name and contact of every customer who placed an order in the second quarter of 1995.
-
-This example calls the EnumFields procedure, which you can find in the SELECT statement example.
+This example lists the name and contact of every customer who placed an order in the second quarter of 1995. It calls the EnumFields procedure, which you can find in the SELECT statement example.
 
 ```vb
     Sub SubQueryX() 

@@ -33,6 +33,6 @@ Trying to set or return the **Value** property in an inappropriate context (for 
 
 
 > [!NOTE]
-> <P>When reading decimal values from a Microsoft SQL Server database, they will be formatted using scientific notation through a Microsoft Access workspace, but will appear as normal decimal values through an ODBCDirect workspace.</P>
+> When reading decimal values from a Microsoft SQL Server database, they will be formatted using scientific notation through a Microsoft Access workspace, but will appear as normal decimal values through an ODBCDirect workspace.
 
 

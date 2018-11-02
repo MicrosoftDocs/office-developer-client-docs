@@ -10,14 +10,9 @@ mtps_version: v=office.15
 
 # Properties methods (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
-
-
-  - [Properties.Append method (DAO)](properties-append-method-dao.md)
-
-  - [Properties.Delete method (DAO)](properties-delete-method-dao.md)
-
-  - [Properties.Refresh method (DAO)](properties-refresh-method-dao.md)
+- [Properties.Append method (DAO)](properties-append-method-dao.md)
+- [Properties.Delete method (DAO)](properties-delete-method-dao.md)
+- [Properties.Refresh method (DAO)](properties-refresh-method-dao.md)
 

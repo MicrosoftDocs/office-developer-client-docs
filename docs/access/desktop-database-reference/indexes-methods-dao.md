@@ -10,14 +10,9 @@ mtps_version: v=office.15
 
 # Indexes methods (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
-
-
-  - [Indexes.Append method (DAO)](indexes-append-method-dao.md)
-
-  - [Indexes.Delete method (DAO)](indexes-delete-method-dao.md)
-
-  - [Indexes.Refresh method (DAO)](indexes-refresh-method-dao.md)
+- [Indexes.Append method (DAO)](indexes-append-method-dao.md)
+- [Indexes.Delete method (DAO)](indexes-delete-method-dao.md)
+- [Indexes.Refresh method (DAO)](indexes-refresh-method-dao.md)
 

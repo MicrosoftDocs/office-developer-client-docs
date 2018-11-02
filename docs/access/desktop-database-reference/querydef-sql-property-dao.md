@@ -1,6 +1,6 @@
 ﻿---
 title: QueryDef.SQL property (DAO)
-TOCTitle: SQL Property
+TOCTitle: SQL property
 ms:assetid: 16446789-c8be-bff0-eddd-b5f6a8530128
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845522(v=office.15)
 ms:contentKeyID: 48543429
@@ -35,7 +35,7 @@ If the SQL statement includes parameters for the query, you must set these befor
 In a Microsoft Access workspace, using a **QueryDef** object is the preferred way to perform SQL pass-through operations on Microsoft Access database engine-connected ODBC data sources. By setting the **QueryDef** object's **[Connect](querydef-connect-property-dao.md)** property to an ODBC data source, you can use non–Microsoft–Access–database SQL in the query to be passed to the external server. For example, you can use TRANSACT SQL statements (with Microsoft SQL Server or Sybase SQL Server databases), which the Microsoft Access database engine would otherwise not process.
 
 > [!NOTE]
-> If you set the property to a string concatenated with a non-integer value, and the system parameters specify a non-U.S. decimal character such as a comma (for example, strSQL = "PRICE &gt; " &amp; lngPrice, and lngPrice = 125,50), an error will result when you try to execute the **QueryDef** object in a Microsoft Access database engine database. This is because during concatenation, the number will be converted to a string using your system's default decimal character, and Microsoft Access SQL only accepts U.S. decimal characters.
+> If you set the property to a string concatenated with a non-integer value, and the system parameters specify a non-U.S. decimal character such as a comma (for example, `strSQL = "PRICE > " & lngPrice, and lngPrice = 125,50`), an error will result when you try to execute the **QueryDef** object in a Microsoft Access database engine database. This is because during concatenation, the number will be converted to a string using your system's default decimal character, and Microsoft Access SQL only accepts U.S. decimal characters.
 
 ## Example
 
@@ -116,9 +116,13 @@ This example uses the **CopyQueryDef** method to create a copy of a **QueryDef**
        End With 
      
     End Function 
+```
+
+<br/>
+
+This example shows a possible use of CopyQueryNew(). 
      
-    This example shows a possible use of CopyQueryNew(). 
-     
+```vb
     Sub CopyQueryDefX() 
      
        Dim dbsNorthwind As Database 

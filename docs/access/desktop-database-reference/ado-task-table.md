@@ -1,6 +1,6 @@
 ﻿---
-title: ActiveX Data Objects (ADO) Task Table
-TOCTitle: ADO Task Table
+title: ActiveX Data Objects (ADO) task table
+TOCTitle: ADO task table
 ms:assetid: 39671d86-72ac-a7b0-53d2-7a17429b15ad
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249141(v=office.15)
 ms:contentKeyID: 48544245
@@ -8,8 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ADO Task Table
-
+# ADO task table
 
 **Applies to**: Access 2013, Office 2013
 
@@ -22,7 +21,7 @@ The following table lists programming tasks contained in the *ADO Programmer's G
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>ADO Task</p></th>
+<th><p>ADO task</p></th>
 <th><p>References</p></th>
 </tr>
 </thead>

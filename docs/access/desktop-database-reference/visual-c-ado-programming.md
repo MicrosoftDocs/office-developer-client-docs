@@ -466,7 +466,7 @@ This Visual C++ example demonstrates the **Get**/**Put**/**PutRef***Property*.
 
 
 > [!NOTE]
-> <P>The following notes correspond to commented sections in the code example.</P>
+> The following notes correspond to commented sections in the code example.
 
 
 

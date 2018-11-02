@@ -15,11 +15,8 @@ mtps_version: v=office.15
 
 A **ForEachRecord** data block repeats a set of statements for each record in a domain.
 
-
 > [!NOTE]
-> <P>The <STRONG>ForEachRecord</STRONG> data block is available only in Data Macros.</P>
-
-
+> The **ForEachRecord** data block is available only in Data Macros.
 
 ## Setting
 
@@ -45,7 +42,7 @@ The **ForEachRecord** action has the following arguments.
 <td><p>A string that identifies the domain of records to operate on. The <em>In</em> argument can contain the name of the table, a select query, or a SQL statement.</p>
 
 > [!NOTE]
-> <P>The specified domain cannot include data stored in a linked table or ODBC data source.</P>
+> The specified domain cannot include data stored in a linked table or ODBC data source.
 
 
 <p></p></td>

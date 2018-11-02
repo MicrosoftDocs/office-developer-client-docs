@@ -65,6 +65,6 @@ These properties indicate the original field and table names associated with a *
 
 
 > [!NOTE]
-> <P>The <STRONG>SourceTable</STRONG> property will not return a meaningful table name if used on a <STRONG>Field2</STRONG> object in the <STRONG>Fields</STRONG> collection of a table-type <STRONG>Recordset</STRONG> object.</P>
+> The **SourceTable** property will not return a meaningful table name if used on a **Field2** object in the **Fields** collection of a table-type **Recordset** object.
 
 

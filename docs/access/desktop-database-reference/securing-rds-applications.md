@@ -14,7 +14,7 @@ mtps_version: v=office.15
 
 ## Microsoft Internet Explorer Security Issues
 
-With new security enhancements added to Microsoft® Internet Explorer, some ADO and RDS objects are restricted to running only in a "safe" mode environment. This requires that you are aware of these issues, including different zones, security levels, restrictive behavior, unsafe operations, and customized security settings.
+With new security enhancements added to Microsoft Internet Explorer, some ADO and RDS objects are restricted to running only in a "safe" mode environment. This requires that you are aware of these issues, including different zones, security levels, restrictive behavior, unsafe operations, and customized security settings.
 
 For more information about these issues, see ADO and RDS Security Issues in Microsoft Internet Explorer under ActiveX Data Objects (ADO) Technical Articles.
 

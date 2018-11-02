@@ -33,8 +33,7 @@ Specifies which records are affected by an operation.
 <tr class="odd">
 <td><p><strong>adAffectAll</strong></p></td>
 <td><p>3</p></td>
-<td><p>If there is not a <a href="filter-property-ado.md">Filter</a> applied to the <strong>Recordset</strong>, affects all records. If the <strong>Filter</strong> property is set to a string criteria (such as &quot;Author='Smith'&quot;), the operation affects visible records in the current chapter. If the <strong>Filter</strong> property is set to a member of the <a href="filtergroupenum.md">FilterGroupEnum</a> or an array of Bookmarks, the operation will affect all rows of the <strong>Recordset</strong>.</p>
-<p><strong>NOTE</strong>: adAffectAll is hidden in the Visual Basic Object Browser.</p>
+<td><p>If there is not a <a href="filter-property-ado.md">Filter</a> applied to the <strong>Recordset</strong>, affects all records. If the <strong>Filter</strong> property is set to a string criteria (such as &quot;Author='Smith'&quot;), the operation affects visible records in the current chapter. If the <strong>Filter</strong> property is set to a member of the <a href="filtergroupenum.md">FilterGroupEnum</a> or an array of Bookmarks, the operation will affect all rows of the <strong>Recordset</strong>.</p><p><strong>NOTE</strong>: adAffectAll is hidden in the Visual Basic Object Browser.</p>
 </td>
 </tr>
 <tr class="even">

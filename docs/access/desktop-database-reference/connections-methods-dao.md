@@ -10,10 +10,7 @@ mtps_version: v=office.15
 
 # Connections methods (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
-
-
-  - [Connections.Refresh method (DAO)](connections-refresh-method-dao.md)
+- [Connections.Refresh method (DAO)](connections-refresh-method-dao.md)
 

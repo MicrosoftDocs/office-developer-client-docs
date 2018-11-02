@@ -122,6 +122,8 @@ End Sub
  
 ```
 
+<br/>
+
 This example uses the **OpenConnection** method with different parameters to open three different **Connection** objects.
 
 ```vb 

@@ -19,9 +19,9 @@ f1_categories:
 
 Returns the parent **Recordset** of the specified recordset. Read-only.
 
-## Version Information
+## Version information
 
-Version Added: Access 2007
+Version added: Access 2007
 
 ## Syntax
 

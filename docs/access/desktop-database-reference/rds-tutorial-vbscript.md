@@ -1,6 +1,6 @@
 ﻿---
-title: RDS Tutorial (VBScript)
-TOCTitle: RDS Tutorial (VBScript)
+title: RDS tutorial (VBScript)
+TOCTitle: RDS tutorial (VBScript)
 ms:assetid: 7a6596fd-00b9-a637-7d00-fb55a621305f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249506(v=office.15)
 ms:contentKeyID: 48545792
@@ -8,14 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# RDS Tutorial (VBScript)
-
+# RDS tutorial (VBScript)
 
 **Applies to**: Access 2013, Office 2013
 
-This is the RDS Tutorial, written in Microsoft Visual Basic Scripting Edition. For a description of the purpose of this tutorial, see the [RDS Tutorial](chapter-12-rds-tutorial.md).
+This is the RDS tutorial, written in Microsoft Visual Basic Scripting Edition. For a description of the purpose of this tutorial, see the [RDS tutorial](chapter-12-rds-tutorial.md).
 
-In this tutorial, [RDS.DataControl](datacontrol-object-rds.md) and [RDS.DataSpace](dataspace-object-rds.md) are created at design time — that is, they are defined with object tags, like this: . Alternatively, they could be created at run time with the **Server.CreateObject** method. For example, the **RDS.DataControl** object could be created like this:
+In this tutorial, [RDS.DataControl](datacontrol-object-rds.md) and [RDS.DataSpace](dataspace-object-rds.md) are created at design time; that is, they are defined with object tags. Alternatively, they could be created at run time with the **Server.CreateObject** method. 
+
+For example, the **RDS.DataControl** object could be created like this:
 
 ```vb
     Set DC = Server.CreateObject("RDS.DataControl") 
@@ -36,7 +37,7 @@ In this tutorial, [RDS.DataControl](datacontrol-object-rds.md) and [RDS.DataSpac
      Dim DF1 
 ```
 
-**Step 1 — Specify a server program**
+## Step 1 — Specify a server program
 
 VBScript can discover the name of the IIS web server it is running on by accessing the VBScript **Request.ServerVariables** method available to Active Server Pages:
 
@@ -45,8 +46,7 @@ VBScript can discover the name of the IIS web server it is running on by accessi
 "https://<%=Request.ServerVariables("SERVER_NAME")%>" 
 ```
 
-However, for this tutorial, use the imaginary server, "yourServer".
-
+However, for this tutorial, use the imaginary server, "yourServer."
 
 > [!NOTE]
 > <P>Pay attention to the data type of <STRONG>ByRef</STRONG> arguments. VBScript does not let you specify the variable type, so you must always pass a Variant. When using HTTP, RDS will allow you to pass a Variant to a method that expects a non-Variant if you invoke it with the <STRONG>RDS.DataSpace</STRONG> object <A href="createobject-method-rds.md">CreateObject</A> method. When using DCOM or an in-process server, match the parameter types on the client and server sides or you will receive a "Type Mismatch" error.</P>
@@ -56,7 +56,7 @@ However, for this tutorial, use the imaginary server, "yourServer".
 Set DF1 = DS1.CreateObject("RDSServer.DataFactory", "https://yourServer") 
 ```
 
-**Step 2a — Invoke the server program with RDS.DataControl**
+## Step 2a — Invoke the server program with RDS.DataControl
 
 This example is merely a comment demonstrating that the default behavior of the **RDS.DataControl** is to perform the specified query.
 
@@ -77,18 +77,18 @@ Sub RDSTutorial2A()
 ... 
 ```
 
-**Step 2b — Invoke the server program with RDSServer.DataFactory**
+## Step 2b — Invoke the server program with RDSServer.DataFactory
 
-**Step 3 — Server obtains a Recordset**
+## Step 3 — Server obtains a Recordset
 
-**Step 4 — Server returns the Recordset**
+## Step 4 — Server returns the Recordset
 
 ```vb
  
 Set RS = DF1.Query("DSN=Pubs;", "SELECT * FROM Authors") 
 ```
 
-**Step 5 — DataControl is made usable by visual controls**
+## Step 5 — DataControl is made usable by visual controls
 
 ```vb
  
@@ -97,7 +97,7 @@ Set RS = DF1.Query("DSN=Pubs;", "SELECT * FROM Authors")
 DC1.SourceRecordset = RS 
 ```
 
-**Step 6a — Changes are sent to the server with RDS.DataControl**
+## Step 6a — Changes are sent to the server with RDS.DataControl*
 
 This example is merely a comment demonstrating how the **RDS.DataControl** performs updates.
 
@@ -123,7 +123,7 @@ Set DC1.SourceRecordset = RS
 DC1.SubmitChanges 
 ```
 
-**Step 6b — Changes are sent to the server with RDSServer.DataFactory**
+## Step 6b — Changes are sent to the server with RDSServer.DataFactory
 
 ```vb
  

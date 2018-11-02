@@ -19,7 +19,7 @@ f1_categories:
 Creates a new table.
 
 > [!NOTE]
-> The Microsoft Access database engine does not support the use of CREATE TABLE, or any of the DDL statements, with non-Microsoft Access database engine databases. Use the **DAO Create** methods instead.
+> The Microsoft Access database engine does not support the use of CREATE TABLE, or any of the DDL statements, with non-Microsoft Access database engine databases. Use the DAO **Create** methods instead.
 
 ## Syntax
 

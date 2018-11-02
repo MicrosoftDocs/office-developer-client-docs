@@ -10,10 +10,7 @@ mtps_version: v=office.15
 
 # Recordsets methods (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
-
-
-  - [Recordsets.Refresh method (DAO)](recordsets-refresh-method-dao.md)
+- [Recordsets.Refresh method (DAO)](recordsets-refresh-method-dao.md)
 

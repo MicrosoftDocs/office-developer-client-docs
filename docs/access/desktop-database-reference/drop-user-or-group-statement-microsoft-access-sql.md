@@ -16,11 +16,11 @@ Deletes one or more existing *users* or *groups*, or removes one or more existin
 
 ## Syntax
 
-**Delete one or more _users_ or remove one or more _users_ from a _group_**:
+### Delete one or more users or remove one or more users from a group
 
 DROP USER *user*\[, *user*, …\] \[FROM *group*\]
 
-**Delete one or more _groups_**:
+### Delete one or more groups
 
 DROP GROUP *group*\[, *group*, …\]
 

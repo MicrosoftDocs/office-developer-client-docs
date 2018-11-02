@@ -27,7 +27,7 @@ Categories\{7DD95802-9882-11CF-9FA9-00AA006C42C4}]
 
 where \<*MyActiveXGUID*\> is the hexadecimal GUID number of your business object. Save it and merge it into your registry by using the Registry Editor or double-clicking the .reg file in Windows Explorer.
 
-Business objects created in Microsoft® Visual Basic can be automatically marked as "safe for scripting" with the Package and Deployment Wizard. When the wizard asks you to specify safety settings, select **Safe for initialization** and **Safe for scripting**.
+Business objects created in Microsoft Visual Basic can be automatically marked as "safe for scripting" with the Package and Deployment Wizard. When the wizard asks you to specify safety settings, select **Safe for initialization** and **Safe for scripting**.
 
 On the last step, the Application Setup Wizard creates an .htm and a .cab file. You can then copy these two files to the target computer and double-click the .htm file to load the page and correctly register the server.
 

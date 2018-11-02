@@ -12,8 +12,9 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013, Office 2013
 
-- [Field2 object (DAO)](field2-object-dao.md)
 - [Field2 members (DAO)](field2-members-dao.md)
-- [Field2 properties (DAO)](field2-properties-dao.md)
 - [Field2 methods (DAO)](field2-methods-dao.md)
+- [Field2 object (DAO)](field2-object-dao.md)
+- [Field2 properties (DAO)](field2-properties-dao.md)
+
 

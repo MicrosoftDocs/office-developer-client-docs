@@ -10,14 +10,13 @@ mtps_version: v=office.15
 
 # ComplexType object (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Represents a multi-valued field.
 
-## Version Information
+## Version information
 
-Version Added: Access 2007
+Version added: Access 2007
 
 ## Remarks
 

@@ -15,7 +15,6 @@ mtps_version: v=office.15
 > [!NOTE]
 > ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine. A Connection object represents a connection to an ODBC database (ODBCDirect workspaces only).
  
-
 ## Methods
 
 <table>
@@ -32,12 +31,7 @@ mtps_version: v=office.15
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="connection-cancel-method-dao.md">Cancel</a></strong></p></td>
-<td><p></p>
-
-<br/>
-
-
-<p>Cancels execution of a pending asynchronous method call (ODBCDirect workspaces only).</p></td>
+<td><p>Cancels execution of a pending asynchronous method call (ODBCDirect workspaces only).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="connection-close-method-dao.md">Close</a></strong></p></td>
@@ -79,12 +73,7 @@ mtps_version: v=office.15
 </tr>
 <tr class="even">
 <td><p><strong><a href="connection-database-property-dao.md">Database</a></strong></p></td>
-<td><p></p>
-
-<br/>
-
-
-<p>Returns the <strong><a href="database-object-dao.md">Database</a></strong> object that corresponds to this connection (ODBCDirect workspaces only).</p></td>
+<td><p>Returns the <strong><a href="database-object-dao.md">Database</a></strong> object that corresponds to this connection (ODBCDirect workspaces only).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="connection-name-property-dao.md">Name</a></strong></p></td>
@@ -108,12 +97,7 @@ mtps_version: v=office.15
 </tr>
 <tr class="even">
 <td><p><strong><a href="connection-stillexecuting-property-dao.md">StillExecuting</a></strong></p></td>
-<td><p></p>
-
-<br/>
-
-
-<p>Indicates whether or not an asynchronous operation (that is, a method called with the <strong>dbRunAsync</strong> option) has finished executing (ODBCDirect workspaces only).</p></td>
+<td><p>Indicates whether or not an asynchronous operation (that is, a method called with the <strong>dbRunAsync</strong> option) has finished executing (ODBCDirect workspaces only).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="connection-transactions-property-dao.md">Transactions</a></strong></p></td>
