@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset2.Name Property (DAO)
+title: Recordset2.Name property (DAO)
 TOCTitle: Name Property
 ms:assetid: adce493c-b038-fa83-d292-5ebb8dd60cd7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821731(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Recordset2.Name Property (DAO)
+# Recordset2.Name property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

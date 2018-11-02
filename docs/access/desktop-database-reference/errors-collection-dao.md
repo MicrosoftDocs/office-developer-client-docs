@@ -1,5 +1,5 @@
 ﻿---
-title: Errors Collection (DAO)
+title: Errors collection (DAO)
 TOCTitle: Errors Collection
 ms:assetid: d42007b5-6410-14e9-baf9-9306fdef38f9
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834805(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Errors Collection (DAO)
+# Errors collection (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,5 +1,5 @@
 ﻿---
-title: Index.Primary Property (DAO)
+title: Index.Primary property (DAO)
 TOCTitle: Primary Property
 ms:assetid: 90eda1cb-cf7f-9682-9b74-81c27a37af16
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197416(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Index.Primary Property (DAO)
+# Index.Primary property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

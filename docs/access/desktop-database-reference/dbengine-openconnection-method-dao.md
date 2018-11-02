@@ -1,5 +1,5 @@
 ﻿---
-title: DBEngine.OpenConnection Method (DAO)
+title: DBEngine.OpenConnection method (DAO)
 TOCTitle: OpenConnection Method
 ms:assetid: 778a581f-be42-94ee-e5c6-4cbc1843450d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196074(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# DBEngine.OpenConnection Method (DAO)
+# DBEngine.OpenConnection method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

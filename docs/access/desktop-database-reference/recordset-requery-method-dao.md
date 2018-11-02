@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset.Requery Method (DAO)
+title: Recordset.Requery method (DAO)
 TOCTitle: Requery Method
 ms:assetid: a5d66eb5-499c-4133-f6c3-c7a1619a8a11
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821155(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Recordset.Requery Method (DAO)
+# Recordset.Requery method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

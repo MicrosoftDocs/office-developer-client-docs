@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset.MoveLast Method (DAO)
+title: Recordset.MoveLast method (DAO)
 TOCTitle: MoveLast Method
 ms:assetid: fc0f7a33-1f55-9f5b-b00d-1b81f49b1c3e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837192(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Recordset.MoveLast Method (DAO)
+# Recordset.MoveLast method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,5 +1,5 @@
 ﻿---
-title: Database.Synchronize Method (DAO)
+title: Database.Synchronize method (DAO)
 TOCTitle: Synchronize Method
 ms:assetid: 5e716a4a-2430-8106-5c34-a02dd28bc4f6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194659(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Database.Synchronize Method (DAO)
+# Database.Synchronize method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,5 +1,5 @@
 ﻿---
-title: Field.VisibleValue Property (DAO)
+title: Field.VisibleValue property (DAO)
 TOCTitle: VisibleValue Property
 ms:assetid: e40fcb43-9a1d-69e7-1544-8f15ef21daf4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835776(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Field.VisibleValue Property (DAO)
+# Field.VisibleValue property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

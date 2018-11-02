@@ -1,5 +1,5 @@
 ﻿---
-title: Errors Object Reference (DAO)
+title: Errors object reference (DAO)
 TOCTitle: Errors Object
 ms:assetid: 5ec58b69-652b-4e5d-9f3f-33be1c83dfcd
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn142155(v=office.15)
@@ -8,18 +8,12 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Errors Object Reference (DAO)
-
+# Errors object reference (DAO)
 
 **Applies to**: Access 2013, Office 2013
 
-
-
-  - [Errors Collection (DAO)](errors-collection-dao.md)
-
-  - [Errors Members (DAO)](errors-members-dao.md)
-
-  - [Errors Properties (DAO)](errors-properties-dao.md)
-
-  - [Errors Methods (DAO)](errors-methods-dao.md)
+- [Errors collection (DAO)](errors-collection-dao.md)
+- [Errors members (DAO)](errors-members-dao.md)
+- [Errors properties (DAO)](errors-properties-dao.md)
+- [Errors methods (DAO)](errors-methods-dao.md)
 

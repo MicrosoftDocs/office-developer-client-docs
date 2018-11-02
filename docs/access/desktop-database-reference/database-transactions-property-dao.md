@@ -1,5 +1,5 @@
 ﻿---
-title: Database.Transactions Property (DAO)
+title: Database.Transactions property (DAO)
 TOCTitle: Transactions Property
 ms:assetid: 317334dc-0ed4-ccaa-cd04-4b8f5a0c32b2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192293(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Database.Transactions Property (DAO)
+# Database.Transactions property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

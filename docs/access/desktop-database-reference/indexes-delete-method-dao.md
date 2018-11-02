@@ -1,5 +1,5 @@
 ﻿---
-title: Indexes.Delete Method (DAO)
+title: Indexes.Delete method (DAO)
 TOCTitle: Delete Method
 ms:assetid: 8d3c3221-3b2e-15ba-32ff-f2dfc592d82c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197351(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Indexes.Delete Method (DAO)
+# Indexes.Delete method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

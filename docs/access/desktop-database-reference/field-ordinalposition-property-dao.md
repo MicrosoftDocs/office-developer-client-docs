@@ -1,5 +1,5 @@
 ﻿---
-title: Field.OrdinalPosition Property (DAO)
+title: Field.OrdinalPosition property (DAO)
 TOCTitle: OrdinalPosition Property
 ms:assetid: 07f2344e-2a72-33d8-be47-b37d76ecca47
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845002(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Field.OrdinalPosition Property (DAO)
+# Field.OrdinalPosition property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

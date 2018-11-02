@@ -1,5 +1,5 @@
 ﻿---
-title: DBEngine.CreateWorkspace Method (DAO)
+title: DBEngine.CreateWorkspace method (DAO)
 TOCTitle: CreateWorkspace Method
 ms:assetid: a7d73771-9420-0448-99e6-d6c4aa78683a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821374(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# DBEngine.CreateWorkspace Method (DAO)
+# DBEngine.CreateWorkspace method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

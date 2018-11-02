@@ -1,5 +1,5 @@
 ﻿---
-title: Index.Required Property (DAO)
+title: Index.Required property (DAO)
 TOCTitle: Required Property
 ms:assetid: ec8fafc4-8155-c48e-b3c8-2d9be425175a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836310(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Index.Required Property (DAO)
+# Index.Required property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

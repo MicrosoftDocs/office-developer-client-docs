@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset.FindFirst Method (DAO)
+title: Recordset.FindFirst method (DAO)
 TOCTitle: FindFirst Method
 ms:assetid: 5fcf78cd-7d2c-2e47-14e5-996f2e14ff51
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194787(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Recordset.FindFirst Method (DAO)
+# Recordset.FindFirst method (DAO)
 
 **Applies to**: Access 2013, Office 2013
 

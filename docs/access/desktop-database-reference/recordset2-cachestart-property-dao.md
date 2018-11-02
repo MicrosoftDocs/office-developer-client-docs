@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset2.CacheStart Property (DAO)
+title: Recordset2.CacheStart property (DAO)
 TOCTitle: CacheStart Property
 ms:assetid: 2e9c2b0d-b382-e4d6-9406-ace0e538a7b7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192239(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Recordset2.CacheStart Property (DAO)
+# Recordset2.CacheStart property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

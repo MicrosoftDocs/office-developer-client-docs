@@ -1,5 +1,5 @@
 ﻿---
-title: QueryDef.Close Method (DAO)
+title: QueryDef.Close method (DAO)
 TOCTitle: Close Method
 ms:assetid: b2b63462-453d-9e2b-0bb3-69a4a7a6ecef
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822031(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# QueryDef.Close Method (DAO)
+# QueryDef.Close method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

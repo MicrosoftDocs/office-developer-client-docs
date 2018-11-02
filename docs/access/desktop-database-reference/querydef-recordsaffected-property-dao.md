@@ -1,5 +1,5 @@
 ﻿---
-title: QueryDef.RecordsAffected Property (DAO)
+title: QueryDef.RecordsAffected property (DAO)
 TOCTitle: RecordsAffected Property
 ms:assetid: 29a864b5-305c-d33f-b2ca-fc9a08baaa5c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192040(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# QueryDef.RecordsAffected Property (DAO)
+# QueryDef.RecordsAffected property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

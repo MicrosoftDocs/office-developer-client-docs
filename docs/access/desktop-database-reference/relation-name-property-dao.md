@@ -1,5 +1,5 @@
 ﻿---
-title: Relation.Name Property (DAO)
+title: Relation.Name property (DAO)
 TOCTitle: Name Property
 ms:assetid: 7ad17dcd-9fe2-a4b0-2fab-c5b13e66fedc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196187(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Relation.Name Property (DAO)
+# Relation.Name property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

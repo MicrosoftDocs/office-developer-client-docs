@@ -1,5 +1,5 @@
 ﻿---
-title: QueryDef.ODBCTimeout Property (DAO)
+title: QueryDef.ODBCTimeout property (DAO)
 TOCTitle: ODBCTimeout Property
 ms:assetid: b251c4fb-64a8-aa95-deed-64425df3e00c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822019(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# QueryDef.ODBCTimeout Property (DAO)
+# QueryDef.ODBCTimeout property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,5 +1,5 @@
 ﻿---
-title: Field2.DataUpdatable Property (DAO)
+title: Field2.DataUpdatable property (DAO)
 TOCTitle: DataUpdatable Property
 ms:assetid: e6619c4e-26b1-777b-f0de-78fed3dbc890
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835966(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Field2.DataUpdatable Property (DAO)
+# Field2.DataUpdatable property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

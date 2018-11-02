@@ -1,5 +1,5 @@
 ﻿---
-title: Database.NewPassword Method (DAO)
+title: Database.NewPassword method (DAO)
 TOCTitle: NewPassword Method
 ms:assetid: 01c1c454-d651-222c-225a-2b02734a1b7a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844754(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Database.NewPassword Method (DAO)
+# Database.NewPassword method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

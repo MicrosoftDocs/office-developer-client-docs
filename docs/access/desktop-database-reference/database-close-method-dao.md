@@ -1,5 +1,5 @@
 ﻿---
-title: Database.Close Method (DAO)
+title: Database.Close method (DAO)
 TOCTitle: Close Method
 ms:assetid: b777ee92-172a-3342-31fc-76e7361c47fd
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822418(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Database.Close Method (DAO)
+# Database.Close method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

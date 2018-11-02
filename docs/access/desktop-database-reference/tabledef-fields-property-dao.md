@@ -1,5 +1,5 @@
 ﻿---
-title: TableDef.Fields Property (DAO)
+title: TableDef.Fields property (DAO)
 TOCTitle: Fields Property
 ms:assetid: ca85be33-c872-309d-b1f0-d1ffb6951547
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834348(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# TableDef.Fields Property (DAO)
+# TableDef.Fields property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,5 +1,5 @@
 ﻿---
-title: Database.CreateTableDef Method (DAO)
+title: Database.CreateTableDef method (DAO)
 TOCTitle: CreateTableDef Method
 ms:assetid: d919b44e-ffae-dc4a-f1cc-d01df49987a3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835094(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Database.CreateTableDef Method (DAO)
+# Database.CreateTableDef method (DAO)
 
 **Applies to**: Access 2013, Office 2013
 

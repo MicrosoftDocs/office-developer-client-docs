@@ -1,5 +1,5 @@
 ﻿---
-title: Workspace Object (DAO)
+title: Workspace object (DAO)
 TOCTitle: Workspace Object
 ms:assetid: bf3ab863-5e9a-4842-1f82-2ccf958d9779
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822782(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Workspace Object (DAO)
+# Workspace object (DAO)
 
 **Applies to**: Access 2013, Office 2013
 

@@ -1,5 +1,5 @@
 ﻿---
-title: Field2.ForeignName Property (DAO)
+title: Field2.ForeignName property (DAO)
 TOCTitle: ForeignName Property
 ms:assetid: 76da233a-efb4-63cd-a2a2-d18d9e2fb2fb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196027(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Field2.ForeignName Property (DAO)
+# Field2.ForeignName property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

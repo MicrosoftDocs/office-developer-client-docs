@@ -1,5 +1,5 @@
 ﻿---
-title: DBEngine.CreateDatabase Method (DAO)
+title: DBEngine.CreateDatabase method (DAO)
 TOCTitle: CreateDatabase Method
 ms:assetid: d5821a4b-483a-b8fa-e929-5f036057d8c4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835033(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# DBEngine.CreateDatabase Method (DAO)
+# DBEngine.CreateDatabase method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

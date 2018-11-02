@@ -1,5 +1,5 @@
 ﻿---
-title: Workspace.OpenConnection Method (DAO)
+title: Workspace.OpenConnection method (DAO)
 TOCTitle: OpenConnection Method
 ms:assetid: 9d97f298-a2d5-3b91-2efd-57f06fbd4654
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198249(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Workspace.OpenConnection Method (DAO)
+# Workspace.OpenConnection method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,5 +1,5 @@
 ﻿---
-title: Field2.Expression Property (DAO)
+title: Field2.Expression property (DAO)
 TOCTitle: Expression Property
 ms:assetid: 8ae9db2c-7460-5bfc-0dc4-3f87e5ab30ff
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197109(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Field2.Expression Property (DAO)
+# Field2.Expression property (DAO)
 
 **Applies to**: Access 2013, Office 2013
 

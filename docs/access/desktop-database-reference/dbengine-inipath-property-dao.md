@@ -1,5 +1,5 @@
 ﻿---
-title: DBEngine.IniPath Property (DAO)
+title: DBEngine.IniPath property (DAO)
 TOCTitle: IniPath Property
 ms:assetid: b18cace5-4e53-d011-6373-f4ac64556fd4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822009(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# DBEngine.IniPath Property (DAO)
+# DBEngine.IniPath property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

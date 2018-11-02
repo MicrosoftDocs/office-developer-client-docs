@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset Object (DAO)
+title: Recordset object (DAO)
 TOCTitle: Recordset Object
 ms:assetid: 9774232c-e6da-175b-fc7f-ed2ab7908fa0
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197799(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Recordset Object (DAO)
+# Recordset object (DAO)
 
 **Applies to**: Access 2013, Office 2013
 

@@ -1,5 +1,5 @@
 ﻿---
-title: Field.SourceTable Property (DAO)
+title: Field.SourceTable property (DAO)
 TOCTitle: SourceTable Property
 ms:assetid: 9564ea1c-eafd-0b72-fd68-d88fcc3ea189
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197694(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Field.SourceTable Property (DAO)
+# Field.SourceTable property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

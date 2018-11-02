@@ -1,5 +1,5 @@
 ﻿---
-title: Field2.SaveToFile Method (DAO)
+title: Field2.SaveToFile method (DAO)
 TOCTitle: SaveToFile Method
 ms:assetid: 250f9596-1a03-471d-96f9-718cd57dc94f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191852(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Field2.SaveToFile Method (DAO)
+# Field2.SaveToFile method (DAO)
 
 **Applies to**: Access 2013, Office 2013
 

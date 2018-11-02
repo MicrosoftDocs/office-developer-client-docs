@@ -1,5 +1,5 @@
 ﻿---
-title: Documents.Refresh Method (DAO)
+title: Documents.Refresh method (DAO)
 TOCTitle: Refresh Method
 ms:assetid: 33405192-f23c-e2a2-feb6-9d641439cbc5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192321(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Documents.Refresh Method (DAO)
+# Documents.Refresh method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

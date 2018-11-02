@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset2.AbsolutePosition Property (DAO)
+title: Recordset2.AbsolutePosition property (DAO)
 TOCTitle: AbsolutePosition Property
 ms:assetid: 91ca203f-0c80-67f4-e180-415b6af05030
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197637(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Recordset2.AbsolutePosition Property (DAO)
+# Recordset2.AbsolutePosition property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

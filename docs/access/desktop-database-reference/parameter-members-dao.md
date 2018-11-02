@@ -1,5 +1,5 @@
 ﻿---
-title: Parameter Members (DAO)
+title: Parameter members (DAO)
 TOCTitle: Parameter Members
 ms:assetid: 38e19de8-5318-6077-13b1-10653069aaeb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192517(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Parameter Members (DAO)
+# Parameter members (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

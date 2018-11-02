@@ -1,5 +1,5 @@
 ﻿---
-title: Field2 Object (DAO)
+title: Field2 object (DAO)
 TOCTitle: Field2 Object
 ms:assetid: 585aa163-402b-2c2b-d8d7-733a6d55d104
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194326(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Field2 Object (DAO)
+# Field2 object (DAO)
 
 **Applies to**: Access 2013, Office 2013
 

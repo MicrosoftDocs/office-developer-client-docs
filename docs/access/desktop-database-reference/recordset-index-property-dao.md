@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset.Index Property (DAO)
+title: Recordset.Index property (DAO)
 TOCTitle: Index Property
 ms:assetid: 54626de0-eb51-31f2-bf24-e29cbfbbaa02
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194103(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Recordset.Index Property (DAO)
+# Recordset.Index property (DAO)
 
 **Applies to**: Access 2013, Office 2013
 

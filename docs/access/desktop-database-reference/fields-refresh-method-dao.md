@@ -1,5 +1,5 @@
 ﻿---
-title: Fields.Refresh Method (DAO)
+title: Fields.Refresh method (DAO)
 TOCTitle: Refresh Method
 ms:assetid: d08597d8-bad6-523b-a083-d824f85b64bc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834723(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Fields.Refresh Method (DAO)
+# Fields.Refresh method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,5 +1,5 @@
 ﻿---
-title: Database.PopulatePartial Method (DAO)
+title: Database.PopulatePartial method (DAO)
 TOCTitle: PopulatePartial Method
 ms:assetid: fa3227a2-c961-6a98-32b3-5b6e5329a21d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837034(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Database.PopulatePartial Method (DAO)
+# Database.PopulatePartial method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

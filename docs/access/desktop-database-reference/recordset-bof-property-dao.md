@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset.BOF Property (DAO)
+title: Recordset.BOF property (DAO)
 TOCTitle: BOF Property
 ms:assetid: c50a0c5f-1b26-33ea-4cf2-311f9514a94a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823092(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Recordset.BOF Property (DAO)
+# Recordset.BOF property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset2.FindNext Method (DAO)
+title: Recordset2.FindNext method (DAO)
 TOCTitle: FindNext Method
 ms:assetid: dc1d9fdf-36ae-cb23-4949-f7b98cb5d4e2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835354(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Recordset2.FindNext Method (DAO)
+# Recordset2.FindNext method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

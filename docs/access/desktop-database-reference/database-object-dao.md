@@ -1,5 +1,5 @@
 ﻿---
-title: Database Object (DAO)
+title: Database object (DAO)
 TOCTitle: Database Object
 ms:assetid: 6cf2ddf8-3957-a15e-5eeb-85f81c1e415e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195520(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Database Object (DAO)
+# Database object (DAO)
 
 **Applies to**: Access 2013, Office 2013
 

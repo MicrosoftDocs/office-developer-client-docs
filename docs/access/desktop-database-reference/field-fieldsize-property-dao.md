@@ -1,5 +1,5 @@
 ﻿---
-title: Field.FieldSize Property (DAO)
+title: Field.FieldSize property (DAO)
 TOCTitle: FieldSize Property
 ms:assetid: c81bd5cb-6b7c-5390-2d6b-049143f2f3b6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823165(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Field.FieldSize Property (DAO)
+# Field.FieldSize property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

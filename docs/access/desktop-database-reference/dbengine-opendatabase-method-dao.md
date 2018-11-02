@@ -1,5 +1,5 @@
 ﻿---
-title: DBEngine.OpenDatabase Method (DAO)
+title: DBEngine.OpenDatabase method (DAO)
 TOCTitle: OpenDatabase Method
 ms:assetid: 49fca321-5955-3e69-64ea-da191536eadb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193474(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# DBEngine.OpenDatabase Method (DAO)
+# DBEngine.OpenDatabase method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

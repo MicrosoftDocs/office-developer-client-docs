@@ -1,5 +1,5 @@
 ﻿---
-title: Database.Name Property (DAO)
+title: Database.Name property (DAO)
 TOCTitle: Name Property
 ms:assetid: cef334d4-007d-1144-0309-664c31104e6d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834513(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Database.Name Property (DAO)
+# Database.Name property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

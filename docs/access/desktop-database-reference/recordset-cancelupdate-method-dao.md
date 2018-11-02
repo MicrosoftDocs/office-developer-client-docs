@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset.CancelUpdate Method (DAO)
+title: Recordset.CancelUpdate method (DAO)
 TOCTitle: CancelUpdate Method
 ms:assetid: efc4f60b-876f-5e11-37fd-0fbbf225b15b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836421(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Recordset.CancelUpdate Method (DAO)
+# Recordset.CancelUpdate method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

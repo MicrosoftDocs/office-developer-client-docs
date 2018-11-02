@@ -1,5 +1,5 @@
 ﻿---
-title: TableDef.CreateProperty Method (DAO)
+title: TableDef.CreateProperty method (DAO)
 TOCTitle: CreateProperty Method
 ms:assetid: 8a92cc64-414e-f33c-1c3e-d1b62c1688c2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197102(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# TableDef.CreateProperty Method (DAO)
+# TableDef.CreateProperty method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

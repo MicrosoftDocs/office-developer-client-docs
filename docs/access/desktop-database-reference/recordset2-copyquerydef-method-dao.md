@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset2.CopyQueryDef Method (DAO)
+title: Recordset2.CopyQueryDef method (DAO)
 TOCTitle: CopyQueryDef Method
 ms:assetid: 36689ac0-f8a6-1f3e-4170-799141373777
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192474(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Recordset2.CopyQueryDef Method (DAO)
+# Recordset2.CopyQueryDef method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013 

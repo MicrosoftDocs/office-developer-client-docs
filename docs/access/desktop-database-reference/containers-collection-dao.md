@@ -1,5 +1,5 @@
 ﻿---
-title: Containers Collection (DAO)
+title: Containers collection (DAO)
 TOCTitle: Containers Object
 ms:assetid: 4996ee39-ea13-f560-3069-dd7bc6022119
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193464(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Containers Collection (DAO)
+# Containers collection (DAO)
 
 **Applies to**: Access 2013, Office 2013
 

@@ -1,5 +1,5 @@
 ﻿---
-title: QueryDef.OpenRecordset Method (DAO)
+title: QueryDef.OpenRecordset method (DAO)
 TOCTitle: OpenRecordset Method
 ms:assetid: b4908c36-c156-e269-e2ad-b1fa20ec4884
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822070(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# QueryDef.OpenRecordset Method (DAO)
+# QueryDef.OpenRecordset method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

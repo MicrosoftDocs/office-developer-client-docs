@@ -1,5 +1,5 @@
 ﻿---
-title: Relation.CreateField Method (DAO)
+title: Relation.CreateField method (DAO)
 TOCTitle: CreateField Method
 ms:assetid: bc60c91e-acef-1c90-7303-12f77cce15b8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822717(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Relation.CreateField Method (DAO)
+# Relation.CreateField method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

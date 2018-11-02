@@ -1,5 +1,5 @@
 ﻿---
-title: TableDef.Connect Property (DAO)
+title: TableDef.Connect property (DAO)
 TOCTitle: Connect Property
 ms:assetid: 4fbb324c-a358-8fad-60f2-fb8005cf74d9
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193791(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# TableDef.Connect Property (DAO)
+# TableDef.Connect property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

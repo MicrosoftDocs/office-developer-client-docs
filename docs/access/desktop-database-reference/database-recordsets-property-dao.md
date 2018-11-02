@@ -1,5 +1,5 @@
 ﻿---
-title: Database.Recordsets Property (DAO)
+title: Database.Recordsets property (DAO)
 TOCTitle: Recordsets Property
 ms:assetid: e2ee02bc-d53a-2bec-2c5b-227979b92332
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835730(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Database.Recordsets Property (DAO)
+# Database.Recordsets property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

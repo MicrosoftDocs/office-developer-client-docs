@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset.Connection Property (DAO)
+title: Recordset.Connection property (DAO)
 TOCTitle: Connection Property
 ms:assetid: 3d757283-761c-dc79-bb1e-5e607edbb0db
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192710(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Recordset.Connection Property (DAO)
+# Recordset.Connection property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

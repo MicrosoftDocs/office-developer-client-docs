@@ -1,5 +1,5 @@
 ﻿---
-title: TableDef.Indexes Property (DAO)
+title: TableDef.Indexes property (DAO)
 TOCTitle: Indexes Property
 ms:assetid: b168ff75-0a5f-2bc0-9180-2add520a12c6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822007(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# TableDef.Indexes Property (DAO)
+# TableDef.Indexes property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

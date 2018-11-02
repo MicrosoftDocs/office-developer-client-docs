@@ -1,5 +1,5 @@
 ﻿---
-title: Index.CreateProperty Method (DAO)
+title: Index.CreateProperty method (DAO)
 TOCTitle: CreateProperty Method
 ms:assetid: 712bccd2-c8a8-cc96-6f77-6d93d92320d9
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195775(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Index.CreateProperty Method (DAO)
+# Index.CreateProperty method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

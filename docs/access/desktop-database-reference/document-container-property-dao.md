@@ -1,5 +1,5 @@
 ﻿---
-title: Document.Container Property (DAO)
+title: Document.Container property (DAO)
 TOCTitle: Container Property
 ms:assetid: aa1ace1d-f0b8-e0b0-20b6-d3e296254c51
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821451(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Document.Container Property (DAO)
+# Document.Container property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset2.Restartable Property (DAO)
+title: Recordset2.Restartable property (DAO)
 TOCTitle: Restartable Property
 ms:assetid: 9b1c40f8-5a33-2527-a7b6-bef4cb991d7e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198019(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Recordset2.Restartable Property (DAO)
+# Recordset2.Restartable property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,5 +1,5 @@
 ﻿---
-title: Documents.Count Property (DAO)
+title: Documents.Count property (DAO)
 TOCTitle: Count Property
 ms:assetid: 3fc0b1e6-f7be-cd43-711f-5cf5763fe7f6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192858(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Documents.Count Property (DAO)
+# Documents.Count property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

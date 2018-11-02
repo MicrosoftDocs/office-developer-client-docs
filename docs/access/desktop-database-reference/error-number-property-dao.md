@@ -1,5 +1,5 @@
 ﻿---
-title: Error.Number Property (DAO)
+title: Error.Number property (DAO)
 TOCTitle: Number Property
 ms:assetid: 2fb94dca-f990-04f8-bbd2-9919d28de75a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192259(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Error.Number Property (DAO)
+# Error.Number property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

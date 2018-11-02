@@ -1,5 +1,5 @@
 ﻿---
-title: TableDef.ConflictTable Property (DAO)
+title: TableDef.ConflictTable property (DAO)
 TOCTitle: ConflictTable Property
 ms:assetid: 0db8b975-eb6d-19c6-cfb7-6ce01230ebe4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845218(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# TableDef.ConflictTable Property (DAO)
+# TableDef.ConflictTable property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

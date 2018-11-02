@@ -1,5 +1,5 @@
 ﻿---
-title: QueryDef.Fields Property (DAO)
+title: QueryDef.Fields property (DAO)
 TOCTitle: Fields Property
 ms:assetid: 72b60c04-fd20-cfa3-d5f6-d0472ea5478b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195834(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# QueryDef.Fields Property (DAO)
+# QueryDef.Fields property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

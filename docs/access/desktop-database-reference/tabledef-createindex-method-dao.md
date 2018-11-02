@@ -1,5 +1,5 @@
 ﻿---
-title: TableDef.CreateIndex Method (DAO)
+title: TableDef.CreateIndex method (DAO)
 TOCTitle: CreateIndex Method
 ms:assetid: 857b25c1-01fa-b926-0c74-7105e71b7505
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196791(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# TableDef.CreateIndex Method (DAO)
+# TableDef.CreateIndex method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013 

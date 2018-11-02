@@ -1,5 +1,5 @@
 ﻿---
-title: Error.Source Property (DAO)
+title: Error.Source property (DAO)
 TOCTitle: Source Property
 ms:assetid: 3c101cac-278e-025e-55a4-8a9d1ee7db3c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192677(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Error.Source Property (DAO)
+# Error.Source property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

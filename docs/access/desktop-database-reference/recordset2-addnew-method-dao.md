@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset2.AddNew Method (DAO)
+title: Recordset2.AddNew method (DAO)
 TOCTitle: AddNew Method
 ms:assetid: 25c7d207-185c-943b-405e-b138ffb8b3e2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191874(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Recordset2.AddNew Method (DAO)
+# Recordset2.AddNew method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

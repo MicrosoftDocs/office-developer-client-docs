@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset2.NextRecordset Method (DAO)
+title: Recordset2.NextRecordset method (DAO)
 TOCTitle: NextRecordset Method
 ms:assetid: 33288131-d4f3-0159-1736-f401346087f3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192318(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Recordset2.NextRecordset Method (DAO)
+# Recordset2.NextRecordset method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

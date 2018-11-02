@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset Members (DAO)
+title: Recordset members (DAO)
 TOCTitle: Recordset Members
 ms:assetid: cfaae9ec-1b88-4285-1ebe-637564e99dc8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834683(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Recordset Members (DAO)
+# Recordset members (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

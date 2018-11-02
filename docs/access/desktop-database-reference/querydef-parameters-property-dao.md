@@ -1,5 +1,5 @@
 ﻿---
-title: QueryDef.Parameters Property (DAO)
+title: QueryDef.Parameters property (DAO)
 TOCTitle: Parameters Property
 ms:assetid: 0a83f4b8-24b6-8d61-1c15-d16919272e57
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845106(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# QueryDef.Parameters Property (DAO)
+# QueryDef.Parameters property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

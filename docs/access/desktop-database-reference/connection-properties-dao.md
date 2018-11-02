@@ -1,5 +1,5 @@
 ﻿---
-title: Connection Properties (DAO)
+title: Connection properties (DAO)
 TOCTitle: Properties
 ms:assetid: 599272da-bdce-408f-9e79-700a8d084cde
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124934(v=office.15)
@@ -8,30 +8,30 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Connection Properties (DAO)
+# Connection properties (DAO)
 
 
 **Applies to**: Access 2013, Office 2013
 
 
 
-  - [Connection.Connect Property (DAO)](connection-connect-property-dao.md)
+  - [Connection.Connect property (DAO)](connection-connect-property-dao.md)
 
-  - [Connection.Database Property (DAO)](connection-database-property-dao.md)
+  - [Connection.Database property (DAO)](connection-database-property-dao.md)
 
-  - [Connection.Name Property (DAO)](connection-name-property-dao.md)
+  - [Connection.Name property (DAO)](connection-name-property-dao.md)
 
-  - [Connection.QueryDefs Property (DAO)](connection-querydefs-property-dao.md)
+  - [Connection.QueryDefs property (DAO)](connection-querydefs-property-dao.md)
 
-  - [Connection.QueryTimeout Property (DAO)](connection-querytimeout-property-dao.md)
+  - [Connection.QueryTimeout property (DAO)](connection-querytimeout-property-dao.md)
 
-  - [Connection.RecordsAffected Property (DAO)](connection-recordsaffected-property-dao.md)
+  - [Connection.RecordsAffected property (DAO)](connection-recordsaffected-property-dao.md)
 
-  - [Connection.Recordsets Property (DAO)](connection-recordsets-property-dao.md)
+  - [Connection.Recordsets property (DAO)](connection-recordsets-property-dao.md)
 
-  - [Connection.StillExecuting Property (DAO)](connection-stillexecuting-property-dao.md)
+  - [Connection.StillExecuting property (DAO)](connection-stillexecuting-property-dao.md)
 
-  - [Connection.Transactions Property (DAO)](connection-transactions-property-dao.md)
+  - [Connection.Transactions property (DAO)](connection-transactions-property-dao.md)
 
-  - [Connection.Updatable Property (DAO)](connection-updatable-property-dao.md)
+  - [Connection.Updatable property (DAO)](connection-updatable-property-dao.md)
 

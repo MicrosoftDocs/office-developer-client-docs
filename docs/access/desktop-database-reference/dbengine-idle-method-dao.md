@@ -1,5 +1,5 @@
 ﻿---
-title: DBEngine.Idle Method (DAO)
+title: DBEngine.Idle method (DAO)
 TOCTitle: Idle Method
 ms:assetid: c90b565e-626e-139d-102a-0386601ce0c8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823202(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# DBEngine.Idle Method (DAO)
+# DBEngine.Idle method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

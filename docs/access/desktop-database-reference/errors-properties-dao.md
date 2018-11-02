@@ -1,5 +1,5 @@
 ﻿---
-title: Errors Properties (DAO)
+title: Errors properties (DAO)
 TOCTitle: Properties
 ms:assetid: 0e6577ae-d9d2-4d25-8329-3651b3ce75a3
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn123703(v=office.15)
@@ -8,12 +8,12 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Errors Properties (DAO)
+# Errors properties (DAO)
 
 
 **Applies to**: Access 2013, Office 2013
 
 
 
-  - [Errors.Count Property (DAO)](errors-count-property-dao.md)
+  - [Errors.Count property (DAO)](errors-count-property-dao.md)
 

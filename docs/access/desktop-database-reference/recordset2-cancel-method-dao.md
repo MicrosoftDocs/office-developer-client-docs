@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset2.Cancel Method (DAO)
+title: Recordset2.Cancel method (DAO)
 TOCTitle: Cancel Method
 ms:assetid: cae49f36-3aad-80d8-c15f-a7a584aa2e9b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834366(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Recordset2.Cancel Method (DAO)
+# Recordset2.Cancel method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

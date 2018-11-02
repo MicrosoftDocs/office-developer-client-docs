@@ -1,5 +1,5 @@
 ﻿---
-title: TableDef Object (DAO)
+title: TableDef object (DAO)
 TOCTitle: TableDef Object
 ms:assetid: 715146b6-c62a-abff-28ee-e6bbe3c08adf
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195790(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# TableDef Object (DAO)
+# TableDef object (DAO)
 
 **Applies to**: Access 2013, Office 2013
 

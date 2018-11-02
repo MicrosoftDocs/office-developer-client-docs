@@ -1,5 +1,5 @@
 ﻿---
-title: Database.CreateRelation Method (DAO)
+title: Database.CreateRelation method (DAO)
 TOCTitle: CreateRelation Method
 ms:assetid: e240c7e3-c293-5e19-afcc-34d9a5549c64
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835692(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Database.CreateRelation Method (DAO)
+# Database.CreateRelation method (DAO)
 
 **Applies to**: Access 2013, Office 2013
 

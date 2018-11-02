@@ -1,5 +1,5 @@
 ﻿---
-title: Index.IgnoreNulls Property (DAO)
+title: Index.IgnoreNulls property (DAO)
 TOCTitle: IgnoreNulls Property
 ms:assetid: f49f17b8-d7c1-18ab-07a8-e1be61488519
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836698(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Index.IgnoreNulls Property (DAO)
+# Index.IgnoreNulls property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

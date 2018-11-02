@@ -1,5 +1,5 @@
 ﻿---
-title: Document.Name Property (DAO)
+title: Document.Name property (DAO)
 TOCTitle: Name Property
 ms:assetid: 7810a441-2d85-fa9e-a27f-9db464cb9cce
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196102(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Document.Name Property (DAO)
+# Document.Name property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

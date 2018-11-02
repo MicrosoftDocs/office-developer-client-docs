@@ -1,5 +1,5 @@
 ﻿---
-title: DBEngine.SetOption Method (DAO)
+title: DBEngine.SetOption method (DAO)
 TOCTitle: SetOption Method
 ms:assetid: ea55c10c-2385-1b7e-0cba-32982c9b6643
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836236(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# DBEngine.SetOption Method (DAO)
+# DBEngine.SetOption method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

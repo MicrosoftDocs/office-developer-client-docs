@@ -1,5 +1,5 @@
 ﻿---
-title: Workspace.Connections Property (DAO)
+title: Workspace.Connections property (DAO)
 TOCTitle: Connections Property
 ms:assetid: 7b4f905c-4bc1-8fa7-b608-516edfef3d8f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196195(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Workspace.Connections Property (DAO)
+# Workspace.Connections property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

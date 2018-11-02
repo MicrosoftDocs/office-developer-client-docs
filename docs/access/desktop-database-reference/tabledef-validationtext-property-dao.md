@@ -1,5 +1,5 @@
 ﻿---
-title: TableDef.ValidationText Property (DAO)
+title: TableDef.ValidationText property (DAO)
 TOCTitle: ValidationText Property
 ms:assetid: 9f38616a-41ee-cbd1-9e29-da436b258e08
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198366(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# TableDef.ValidationText Property (DAO)
+# TableDef.ValidationText property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

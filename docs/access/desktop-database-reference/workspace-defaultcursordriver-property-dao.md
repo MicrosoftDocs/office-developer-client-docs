@@ -1,5 +1,5 @@
 ﻿---
-title: Workspace.DefaultCursorDriver Property (DAO)
+title: Workspace.DefaultCursorDriver property (DAO)
 TOCTitle: DefaultCursorDriver Property
 ms:assetid: 15a8356d-7ae0-3c8e-fbb7-2d8ad6d9a582
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845499(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Workspace.DefaultCursorDriver Property (DAO)
+# Workspace.DefaultCursorDriver property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

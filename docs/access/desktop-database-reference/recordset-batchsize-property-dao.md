@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset.BatchSize Property (DAO)
+title: Recordset.BatchSize property (DAO)
 TOCTitle: BatchSize Property
 ms:assetid: f03dc505-682f-4b60-62f2-1bd088d873c4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836544(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Recordset.BatchSize Property (DAO)
+# Recordset.BatchSize property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

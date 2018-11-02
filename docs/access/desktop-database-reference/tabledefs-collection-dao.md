@@ -1,5 +1,5 @@
 ﻿---
-title: TableDefs Collection (DAO)
+title: TableDefs collection (DAO)
 TOCTitle: TableDefs Collection
 ms:assetid: a2986b02-0437-d6ac-7bbb-c43f5225c3fc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff820997(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# TableDefs Collection (DAO)
+# TableDefs collection (DAO)
 
 **Applies to:** Access 2013 | Office 2013
 

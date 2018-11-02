@@ -1,5 +1,5 @@
 ﻿---
-title: Properties.Refresh Method (DAO)
+title: Properties.Refresh method (DAO)
 TOCTitle: Refresh Method
 ms:assetid: 71ba18fb-55a5-6a5f-3631-1c81c20f3369
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195805(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Properties.Refresh Method (DAO)
+# Properties.Refresh method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

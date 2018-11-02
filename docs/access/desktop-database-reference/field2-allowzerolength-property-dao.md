@@ -1,5 +1,5 @@
 ﻿---
-title: Field2.AllowZeroLength Property (DAO)
+title: Field2.AllowZeroLength property (DAO)
 TOCTitle: AllowZeroLength Property
 ms:assetid: d3795634-527f-b4c5-b606-50f9945cac12
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834791(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Field2.AllowZeroLength Property (DAO)
+# Field2.AllowZeroLength property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

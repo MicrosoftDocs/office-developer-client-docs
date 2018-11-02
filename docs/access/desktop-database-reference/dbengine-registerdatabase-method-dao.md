@@ -1,5 +1,5 @@
 ﻿---
-title: DBEngine.RegisterDatabase Method (DAO)
+title: DBEngine.RegisterDatabase method (DAO)
 TOCTitle: RegisterDatabase Method
 ms:assetid: ed87a694-2c89-0a78-5d8b-0cc7e09fadff
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836347(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# DBEngine.RegisterDatabase Method (DAO)
+# DBEngine.RegisterDatabase method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

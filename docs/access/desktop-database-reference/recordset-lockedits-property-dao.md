@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset.LockEdits Property (DAO)
+title: Recordset.LockEdits property (DAO)
 TOCTitle: LockEdits Property
 ms:assetid: baa11b24-a330-eaa4-bd03-b8b9739d209e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822514(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Recordset.LockEdits Property (DAO)
+# Recordset.LockEdits property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

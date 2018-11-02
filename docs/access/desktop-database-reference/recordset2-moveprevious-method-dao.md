@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset2.MovePrevious Method (DAO)
+title: Recordset2.MovePrevious method (DAO)
 TOCTitle: MovePrevious Method
 ms:assetid: 8c433810-4b19-e7c1-3cee-a0bc50b23e8a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197336(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Recordset2.MovePrevious Method (DAO)
+# Recordset2.MovePrevious method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

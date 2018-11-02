@@ -1,5 +1,5 @@
 ﻿---
-title: Relations Members (DAO)
+title: Relations members (DAO)
 TOCTitle: Relations Members
 ms:assetid: b885db68-cee2-c5d7-1f1b-1f53eeae8308
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822446(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Relations Members (DAO)
+# Relations members (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

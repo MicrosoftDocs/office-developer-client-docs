@@ -1,5 +1,5 @@
 ﻿---
-title: DBEngine Members (DAO)
+title: DBEngine members (DAO)
 TOCTitle: DBEngine Members
 ms:assetid: 740b6a85-585f-0e1d-710b-84ba24825325
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195868(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# DBEngine Members (DAO)
+# DBEngine members (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

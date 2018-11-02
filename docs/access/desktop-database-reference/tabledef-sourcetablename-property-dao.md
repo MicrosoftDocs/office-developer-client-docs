@@ -1,5 +1,5 @@
 ﻿---
-title: TableDef.SourceTableName Property (DAO)
+title: TableDef.SourceTableName property (DAO)
 TOCTitle: SourceTableName Property
 ms:assetid: 3c02f5f6-70ae-39ec-0984-8d6b81992418
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192675(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# TableDef.SourceTableName Property (DAO)
+# TableDef.SourceTableName property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013 

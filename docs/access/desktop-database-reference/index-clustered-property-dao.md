@@ -1,5 +1,5 @@
 ﻿---
-title: Index.Clustered Property (DAO)
+title: Index.Clustered property (DAO)
 TOCTitle: Clustered Property
 ms:assetid: dd0876a9-b7fe-c8c8-e675-5ed758ce5bd3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835375(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Index.Clustered Property (DAO)
+# Index.Clustered property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

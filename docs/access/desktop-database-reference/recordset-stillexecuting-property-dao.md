@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset.StillExecuting Property (DAO)
+title: Recordset.StillExecuting property (DAO)
 TOCTitle: StillExecuting Property
 ms:assetid: 0e53c98f-17ac-3569-d780-540a6932013e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845245(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Recordset.StillExecuting Property (DAO)
+# Recordset.StillExecuting property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

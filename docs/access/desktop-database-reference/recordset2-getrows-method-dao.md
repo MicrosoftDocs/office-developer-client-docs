@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset2.GetRows Method (DAO)
+title: Recordset2.GetRows method (DAO)
 TOCTitle: GetRows Method
 ms:assetid: e5c0a082-e9d2-359f-fed5-835ab91d2311
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835959(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Recordset2.GetRows Method (DAO)
+# Recordset2.GetRows method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

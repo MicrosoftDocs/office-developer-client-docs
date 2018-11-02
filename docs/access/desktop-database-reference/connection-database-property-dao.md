@@ -1,5 +1,5 @@
 ﻿---
-title: Connection.Database Property (DAO)
+title: Connection.Database property (DAO)
 TOCTitle: Database Property
 ms:assetid: cf871353-0ea4-f995-6e0e-812af443daf9
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834675(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Connection.Database Property (DAO)
+# Connection.Database property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

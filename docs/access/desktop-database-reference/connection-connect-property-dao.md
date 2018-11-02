@@ -1,5 +1,5 @@
 ﻿---
-title: Connection.Connect Property (DAO)
+title: Connection.Connect property (DAO)
 TOCTitle: Connect Property
 ms:assetid: 58b514a2-91cd-7918-cba5-15d71c2457a6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194335(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Connection.Connect Property (DAO)
+# Connection.Connect property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

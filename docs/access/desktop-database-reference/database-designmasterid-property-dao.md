@@ -1,5 +1,5 @@
 ﻿---
-title: Database.DesignMasterID Property (DAO)
+title: Database.DesignMasterID property (DAO)
 TOCTitle: DesignMasterID Property
 ms:assetid: c0545561-d44f-5479-8ae0-e3955db91761
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822824(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Database.DesignMasterID Property (DAO)
+# Database.DesignMasterID property (DAO)
 
 **Applies to**: Access 2013, Office 2013
 

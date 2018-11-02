@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset.Fields Property (DAO)
+title: Recordset.Fields property (DAO)
 TOCTitle: Fields Property
 ms:assetid: ba6bbc10-41e0-87af-4372-f81205e7a320
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822496(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Recordset.Fields Property (DAO)
+# Recordset.Fields property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,5 +1,5 @@
 ﻿---
-title: Field2.ComplexType Property (DAO)
+title: Field2.ComplexType property (DAO)
 TOCTitle: ComplexType Property
 ms:assetid: 9b4ebabf-22de-0ab8-73ea-10c496eedf97
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198034(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Field2.ComplexType Property (DAO)
+# Field2.ComplexType property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

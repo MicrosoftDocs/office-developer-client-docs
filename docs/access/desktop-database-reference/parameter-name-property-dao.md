@@ -1,5 +1,5 @@
 ﻿---
-title: Parameter.Name Property (DAO)
+title: Parameter.Name property (DAO)
 TOCTitle: Name Property
 ms:assetid: 5ad1d2be-de1a-81e8-9d97-959f4cc577ba
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194497(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Parameter.Name Property (DAO)
+# Parameter.Name property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

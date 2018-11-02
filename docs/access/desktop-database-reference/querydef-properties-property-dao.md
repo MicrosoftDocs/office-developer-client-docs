@@ -1,5 +1,5 @@
 ﻿---
-title: QueryDef.Properties Property (DAO)
+title: QueryDef.Properties property (DAO)
 TOCTitle: Properties Property
 ms:assetid: 91d724bf-8e63-a517-c5be-2b8b382608e0
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197640(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# QueryDef.Properties Property (DAO)
+# QueryDef.Properties property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

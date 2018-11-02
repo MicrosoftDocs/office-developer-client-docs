@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset2.MoveNext Method (DAO)
+title: Recordset2.MoveNext method (DAO)
 TOCTitle: MoveNext Method
 ms:assetid: 0eeb917e-f76a-03ec-9e1e-aa8d501db031
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845265(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Recordset2.MoveNext Method (DAO)
+# Recordset2.MoveNext method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,5 +1,5 @@
 ﻿---
-title: QueryDef.Type Property (DAO)
+title: QueryDef.Type property (DAO)
 TOCTitle: Type Property
 ms:assetid: 03db891d-b958-7cf9-56c1-524d9ff2b9b5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844814(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# QueryDef.Type Property (DAO)
+# QueryDef.Type property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

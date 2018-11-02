@@ -1,5 +1,5 @@
 ﻿---
-title: Relations.Count Property (DAO)
+title: Relations.Count property (DAO)
 TOCTitle: Count Property
 ms:assetid: 7cb3885f-6896-8402-8b18-12769473f051
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196377(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Relations.Count Property (DAO)
+# Relations.Count property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset.Update Method (DAO)
+title: Recordset.Update method (DAO)
 TOCTitle: Update Method
 ms:assetid: aad4171a-da95-ed72-86b3-714615ea0ac8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821467(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Recordset.Update Method (DAO)
+# Recordset.Update method (DAO)
 
 **Applies to**: Access 2013, Office 2013
 

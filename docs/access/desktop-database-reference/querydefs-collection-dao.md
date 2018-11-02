@@ -1,5 +1,5 @@
 ﻿---
-title: QueryDefs Collection (DAO)
+title: QueryDefs collection (DAO)
 TOCTitle: QueryDefs Collection
 ms:assetid: 6178c3a6-8301-16bf-4657-0fb113de0a36
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194892(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# QueryDefs Collection (DAO)
+# QueryDefs collection (DAO)
 
 **Applies to**: Access 2013, Office 2013 
 

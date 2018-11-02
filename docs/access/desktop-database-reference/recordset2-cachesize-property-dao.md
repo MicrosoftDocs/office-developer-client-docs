@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset2.CacheSize Property (DAO)
+title: Recordset2.CacheSize property (DAO)
 TOCTitle: CacheSize Property
 ms:assetid: d8d195cc-6696-0583-31eb-b9988f8b7c6f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835090(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Recordset2.CacheSize Property (DAO)
+# Recordset2.CacheSize property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

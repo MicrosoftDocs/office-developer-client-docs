@@ -1,5 +1,5 @@
 ﻿---
-title: Field2.DefaultValue Property (DAO)
+title: Field2.DefaultValue property (DAO)
 TOCTitle: DefaultValue Property
 ms:assetid: 709c9580-520e-46ce-7d70-e409872184bb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195744(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Field2.DefaultValue Property (DAO)
+# Field2.DefaultValue property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

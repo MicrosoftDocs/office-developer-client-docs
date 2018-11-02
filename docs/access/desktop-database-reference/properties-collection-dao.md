@@ -1,5 +1,5 @@
 ﻿---
-title: Properties Collection (DAO)
+title: Properties collection (DAO)
 TOCTitle: Properties Collection
 ms:assetid: cd07184a-a261-29c9-542f-bc2eff6f4af6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834455(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Properties Collection (DAO)
+# Properties collection (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

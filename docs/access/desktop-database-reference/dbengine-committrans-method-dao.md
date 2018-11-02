@@ -1,5 +1,5 @@
 ﻿---
-title: DBEngine.CommitTrans Method (DAO)
+title: DBEngine.CommitTrans method (DAO)
 TOCTitle: CommitTrans Method
 ms:assetid: 0c9d345f-13ff-7fe6-789d-fbdb43fa54b8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845171(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# DBEngine.CommitTrans Method (DAO)
+# DBEngine.CommitTrans method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

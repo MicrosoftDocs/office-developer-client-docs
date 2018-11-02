@@ -1,5 +1,5 @@
 ﻿---
-title: Indexes Collection (DAO)
+title: Indexes collection (DAO)
 TOCTitle: Indexes Collection
 ms:assetid: 26450e85-c79d-b12a-d760-dfc89c37f36c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191889(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Indexes Collection (DAO)
+# Indexes collection (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

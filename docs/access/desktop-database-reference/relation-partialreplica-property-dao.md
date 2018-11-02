@@ -1,5 +1,5 @@
 ﻿---
-title: Relation.PartialReplica Property (DAO)
+title: Relation.PartialReplica property (DAO)
 TOCTitle: PartialReplica Property
 ms:assetid: 3cb15639-371e-06e3-e2ba-30466ce09a72
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192692(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Relation.PartialReplica Property (DAO)
+# Relation.PartialReplica property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

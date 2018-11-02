@@ -1,5 +1,5 @@
 ﻿---
-title: Field2.IsComplex Property (DAO)
+title: Field2.IsComplex property (DAO)
 TOCTitle: IsComplex Property
 ms:assetid: ffc90e6e-e3ee-4f9b-ca6b-615199300d45
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837318(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Field2.IsComplex Property (DAO)
+# Field2.IsComplex property (DAO)
 
 **Applies to**: Access 2013, Office 2013 
 

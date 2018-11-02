@@ -1,5 +1,5 @@
 ﻿---
-title: Fields.Append Method (DAO)
+title: Fields.Append method (DAO)
 TOCTitle: Append Method
 ms:assetid: a0e553ba-6a57-09af-3436-4f6ca3cbe561
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff820791(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Fields.Append Method (DAO)
+# Fields.Append method (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

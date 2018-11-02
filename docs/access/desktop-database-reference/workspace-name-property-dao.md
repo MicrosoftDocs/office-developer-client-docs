@@ -1,5 +1,5 @@
 ﻿---
-title: Workspace.Name Property (DAO)
+title: Workspace.Name property (DAO)
 TOCTitle: Name Property
 ms:assetid: 6bfdf1e3-b396-ba30-0453-92624a433624
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195490(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Workspace.Name Property (DAO)
+# Workspace.Name property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

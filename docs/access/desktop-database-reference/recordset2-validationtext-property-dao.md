@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset2.ValidationText Property (DAO)
+title: Recordset2.ValidationText property (DAO)
 TOCTitle: ValidationText Property
 ms:assetid: 3997e385-dbeb-8b2b-9090-f3b8a2ab9cef
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192638(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Recordset2.ValidationText Property (DAO)
+# Recordset2.ValidationText property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

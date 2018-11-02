@@ -1,5 +1,5 @@
 ﻿---
-title: Field2.OriginalValue Property (DAO)
+title: Field2.OriginalValue property (DAO)
 TOCTitle: OriginalValue Property
 ms:assetid: 10fed55e-c938-2ae6-8fd2-996745a63da3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845353(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Field2.OriginalValue Property (DAO)
+# Field2.OriginalValue property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

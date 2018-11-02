@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset2.UpdateOptions Property (DAO)
+title: Recordset2.UpdateOptions property (DAO)
 TOCTitle: UpdateOptions Property
 ms:assetid: 2692480e-c472-dd8e-f91a-939776822ece
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191899(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Recordset2.UpdateOptions Property (DAO)
+# Recordset2.UpdateOptions property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

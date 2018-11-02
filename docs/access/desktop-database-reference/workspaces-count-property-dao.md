@@ -1,5 +1,5 @@
 ﻿---
-title: Workspaces.Count Property (DAO)
+title: Workspaces.Count property (DAO)
 TOCTitle: Count Property
 ms:assetid: bc7c5a11-13d3-27bd-1be4-5d069e888ac2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822719(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Workspaces.Count Property (DAO)
+# Workspaces.Count property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,5 +1,5 @@
 ﻿---
-title: DBEngine.Workspaces Property (DAO)
+title: DBEngine.Workspaces property (DAO)
 TOCTitle: Workspaces Property
 ms:assetid: 7b4b2a61-b61a-c442-3000-d2fb1419bfd5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196194(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# DBEngine.Workspaces Property (DAO)
+# DBEngine.Workspaces property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

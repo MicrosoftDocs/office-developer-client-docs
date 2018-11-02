@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset2.PercentPosition Property (DAO)
+title: Recordset2.PercentPosition property (DAO)
 TOCTitle: PercentPosition Property
 ms:assetid: 830a7d26-6817-233f-ce24-80b572c1c100
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196732(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Recordset2.PercentPosition Property (DAO)
+# Recordset2.PercentPosition property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

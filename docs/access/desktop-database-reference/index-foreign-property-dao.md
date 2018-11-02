@@ -1,5 +1,5 @@
 ﻿---
-title: Index.Foreign Property (DAO)
+title: Index.Foreign property (DAO)
 TOCTitle: Foreign Property
 ms:assetid: 81272436-a506-4b72-fd28-2d68e76d6d9b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196489(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Index.Foreign Property (DAO)
+# Index.Foreign property (DAO)
 
 **Applies to**: Access 2013, Office 2013
 

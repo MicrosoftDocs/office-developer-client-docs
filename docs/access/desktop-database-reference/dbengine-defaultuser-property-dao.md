@@ -1,5 +1,5 @@
 ﻿---
-title: DBEngine.DefaultUser Property (DAO)
+title: DBEngine.DefaultUser property (DAO)
 TOCTitle: DefaultUser Property
 ms:assetid: 41ee0211-0794-6026-7341-3698a0b2c588
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192905(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# DBEngine.DefaultUser Property (DAO)
+# DBEngine.DefaultUser property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

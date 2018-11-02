@@ -1,5 +1,5 @@
 ﻿---
-title: Database.CreateQueryDef Method (DAO)
+title: Database.CreateQueryDef method (DAO)
 TOCTitle: CreateQueryDef Method
 ms:assetid: 75ee7cac-dcd0-b4c5-b55b-9cbaaae2cbf0
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195966(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Database.CreateQueryDef Method (DAO)
+# Database.CreateQueryDef method (DAO)
 
 **Applies to**: Access 2013, Office 2013
 

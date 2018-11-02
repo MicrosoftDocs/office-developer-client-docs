@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset2.EOF Property (DAO)
+title: Recordset2.EOF property (DAO)
 TOCTitle: EOF Property
 ms:assetid: 9d4e1ee2-e866-3ebf-e08b-b31b0cb47ed9
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198245(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Recordset2.EOF Property (DAO)
+# Recordset2.EOF property (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

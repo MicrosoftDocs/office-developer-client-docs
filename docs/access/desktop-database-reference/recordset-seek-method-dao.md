@@ -1,5 +1,5 @@
 ﻿---
-title: Recordset.Seek Method (DAO)
+title: Recordset.Seek method (DAO)
 TOCTitle: Seek Method
 ms:assetid: ef83d909-c962-b016-7d33-36eacdc25c2c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836416(v=office.15)
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Recordset.Seek Method (DAO)
+# Recordset.Seek method (DAO)
 
 **Applies to**: Access 2013, Office 2013
 

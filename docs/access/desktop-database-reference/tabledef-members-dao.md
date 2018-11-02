@@ -1,5 +1,5 @@
 ﻿---
-title: TableDef Members (DAO)
+title: TableDef members (DAO)
 TOCTitle: TableDef Members
 ms:assetid: bc55315e-bafe-d89e-ad31-fd4c9bb6486e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822714(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# TableDef Members (DAO)
+# TableDef members (DAO)
 
 
 **Applies to**: Access 2013, Office 2013
