@@ -41,7 +41,7 @@ The topics that follow will discuss properties of the [Field](field-object-ado.m
 
 ## Discovering the Data Type
 
-The **Type** property indicates the data type of the field. The data type enumerated constants that are supported by ADO are described in [DataTypeEnum](datatypeenum.md) in the *ADO Programmer's Reference*.
+The **Type** property indicates the data type of the field. The data type enumerated constants that are supported by ADO are described in [DataTypeEnum](datatypeenum.md) in the *ADO programmer's reference*.
 
 For floating point numeric types such **adNumeric**, you can obtain more information. The **NumericScale** property indicates how many digits to the right of the decimal point will be used to represent values for the **Field**. The **Precision** property specifies the maximum number of digits used to represent values for the **Field**.
 
@@ -120,5 +120,5 @@ If the **adFldLong** bit in the **Attributes** property of a **Field** object is
 
 If there is no current record when you use the **GetChunk** or **AppendChunk** method on a **Field** object, error 3021 (no current record) occurs.
 
-For an example of using these methods to manipulate binary data, see the [AppendChunk Method](appendchunk-method-ado.md) and [GetChunk Method](getchunk-method-ado.md) examples in the *ADO Programmer's Reference*.
+For an example of using these methods to manipulate binary data, see the [AppendChunk Method](appendchunk-method-ado.md) and [GetChunk Method](getchunk-method-ado.md) examples in the *ADO programmer's reference*.
 

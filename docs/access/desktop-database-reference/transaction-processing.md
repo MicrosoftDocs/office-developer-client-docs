@@ -29,7 +29,7 @@ Depending on the **Connection** object's [Attributes](attributes-property-ado.md
 
 ## Transaction Isolation Level
 
-Use the **IsolationLevel** property to set the isolation level of a transaction on a **Connection** object. The setting does not take effect until the next time you call the [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method. If the level of isolation you request is unavailable, the provider may return the next greater level of isolation. Refer to the **IsolationLevel** property in the ADO Programmer's Reference for more details on valid values.
+Use the **IsolationLevel** property to set the isolation level of a transaction on a **Connection** object. The setting does not take effect until the next time you call the [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method. If the level of isolation you request is unavailable, the provider may return the next greater level of isolation. Refer to the **IsolationLevel** property in the ADO programmer's reference for more details on valid values.
 
 ## Nested Transactions
 

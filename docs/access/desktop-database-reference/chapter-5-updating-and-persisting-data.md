@@ -1,6 +1,6 @@
 ﻿---
-title: 'Chapter 5: Updating and Persisting Data'
-TOCTitle: 'Chapter 5: Updating and Persisting Data'
+title: 'Chapter 5: Updating and persisting data'
+TOCTitle: 'Chapter 5: Updating and persisting data'
 ms:assetid: 77acb763-1c60-1945-791d-3e83d684fb0d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249493(v=office.15)
 ms:contentKeyID: 48545732
@@ -8,8 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Chapter 5: Updating and Persisting Data
-
+# Chapter 5: Updating and persisting data
 
 **Applies to**: Access 2013, Office 2013
 
@@ -25,6 +24,5 @@ In immediate mode, each invocation of the **Update** method propagates the chang
 
 This chapter covers the following topics:
 
-- [Updating Data (ADO)](updating-data.md)
-
-- [Persisting Data (ADO)](persisting-data.md)
+- [Updating data (ADO)](updating-data.md)
+- [Persisting data (ADO)](persisting-data.md)

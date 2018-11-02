@@ -12,7 +12,7 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013, Office 2013
 
-The following table lists the Microsoft products, tools, and technologies discussed in the *ADO Programmer's Guide*. It provides links, wherever possible, to relevant topics in the guide.
+The following table lists the Microsoft products, tools, and technologies discussed in the *ADO programmer's guide*. It provides links, wherever possible, to relevant topics in the guide.
 
 <table>
 <colgroup>
@@ -28,7 +28,7 @@ The following table lists the Microsoft products, tools, and technologies discus
 <tbody>
 <tr class="odd">
 <td><p>Access/Jet</p></td>
-<td><p><a href="working-with-recordsets.md">Working with Recordsets</a><br/><br/><a href="chapter-15-adox-fundamentals.md">Chapter 15: ADOX Fundamentals</a><br/><br/>Microsoft Jet and Replication Objects <a href="microsoft-ole-db-provider-for-microsoft-jet.md">OLE DB Provider for Microsoft Jet</a><br/><br/></p></td>
+<td><p><a href="working-with-recordsets.md">Working with Recordsets</a><br/><br/><a href="chapter-15-adox-fundamentals.md">Chapter 15: ADOX Fundamentals</a><br/><br/><a href="microsoft-ole-db-provider-for-microsoft-jet.md">OLE DB Provider for Microsoft Jet</a><br/><br/></p></td>
 </tr>
 <tr class="even">
 <td><p>Active Directory Service Interfaces</p></td>

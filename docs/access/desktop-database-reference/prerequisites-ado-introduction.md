@@ -12,7 +12,7 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013, Office 2013
 
-The *ADO Programmer's Guide* will prove useful to developers with a wide variety of backgrounds. At a minimum, readers should have an intermediate level of experience in developing applications with Microsoft Visual Basic, because most of the examples in the guide are written in this language. Other examples are written in Microsoft Visual C++, Java, Visual Basic, Scripting Edition (VBScript), and Microsoft JScript.
+The *ADO programmer's guide* will prove useful to developers with a wide variety of backgrounds. At a minimum, readers should have an intermediate level of experience in developing applications with Microsoft Visual Basic, because most of the examples in the guide are written in this language. Other examples are written in Microsoft Visual C++, Java, Visual Basic, Scripting Edition (VBScript), and Microsoft JScript.
 
 Because ADO is used for accessing data from a variety of sources, readers might also need some understanding of fundamental relational database management system concepts, online analytical processing (OLAP) concepts, and basic familiarity with the Internet and Internet protocols.
 

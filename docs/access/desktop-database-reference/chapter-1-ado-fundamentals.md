@@ -1,6 +1,6 @@
 ﻿---
-title: 'Chapter 1: ADO Fundamentals'
-TOCTitle: 'Chapter 1: ADO Fundamentals'
+title: 'Chapter 1: ADO fundamentals'
+TOCTitle: 'Chapter 1: ADO fundamentals'
 ms:assetid: d9834665-062b-c469-77a6-7fd9ea2a848e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250096(v=office.15)
 ms:contentKeyID: 48548054
@@ -8,8 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Chapter 1: ADO Fundamentals
-
+# Chapter 1: ADO fundamentals
 
 **Applies to**: Access 2013, Office 2013
 
@@ -17,10 +16,7 @@ This chapter is an introduction to the ADO library. It discusses what you can do
 
 This chapter covers the following topics:
 
-- [What You Can Do With ADO](what-you-can-do-with-ado.md)
-
+- [What you can do with ADO](what-you-can-do-with-ado.md)
 - [Errors](errors.md)
-
-- [HelloData: A Simple ADO Application (ADO)](hellodata-a-simple-ado-application.md)
-
-- [OLE DB Providers (ADO)](ole-db-providers.md)
+- [HelloData: A Simple ADO application (ADO)](hellodata-a-simple-ado-application.md)
+- [OLE DB providers (ADO)](ole-db-providers.md)

@@ -10,16 +10,12 @@ mtps_version: v=office.15
 
 # Section V: Appendixes
 
-
 **Applies to**: Access 2013, Office 2013
 
-The ADO Programmer's Guide contains the following appendixes:
+The ADO programmer's guide contains the following appendixes:
 
-  - [Appendix A: Providers](appendix-a-providers.md)
-
-  - [Appendix B: ADO Errors](appendix-b-ado-errors.md)
-
-  - [Appendix C: Programming with ADO](appendix-c-programming-with-ado.md)
-
-  - [Appendix D: ADO Samples](appendix-d-ado-samples.md)
+- [Appendix A: Providers](appendix-a-providers.md)
+- [Appendix B: ADO errors](appendix-b-ado-errors.md)
+- [Appendix C: Programming with ADO](appendix-c-programming-with-ado.md)
+- [Appendix D: ADO samples](appendix-d-ado-samples.md)
 

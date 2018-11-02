@@ -1,6 +1,6 @@
 ﻿---
-title: 'Chapter 3: Examining Data'
-TOCTitle: 'Chapter 3: Examining Data'
+title: 'Chapter 3: Examining data'
+TOCTitle: 'Chapter 3: Examining data'
 ms:assetid: 73c69134-3127-3344-d5c3-5ecb9e0e958b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249474(v=office.15)
 ms:contentKeyID: 48545648
@@ -8,8 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Chapter 3: Examining Data
-
+# Chapter 3: Examining data
 
 **Applies to**: Access 2013, Office 2013
 
@@ -49,6 +48,8 @@ ErrHandler:
 End Sub 
 'EndRsTour 
 ```
+
+<br/>
 
 This SQL query returns a **Recordset** with five rows (records) and three columns (fields). The values for each row are shown in the following table.
 
@@ -102,8 +103,6 @@ The next section explains how to locate the current position of the cursor in th
 
 This chapter covers the following topics:
 
-  - [Locating the Current Record (ADO)](locating-the-current-record.md)
-
-  - [Navigating Through the Data (ADO)](navigating-through-the-data.md)
-
-  - [Understanding Recordset Structure (ADO)](understanding-recordset-structure.md)
+- [Locating the current record (ADO)](locating-the-current-record.md)
+- [Navigating through the data (ADO)](navigating-through-the-data.md)
+- [Understanding Recordset structure (ADO)](understanding-recordset-structure.md)
