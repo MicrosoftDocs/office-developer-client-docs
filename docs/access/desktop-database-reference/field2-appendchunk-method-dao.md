@@ -14,9 +14,7 @@ f1_categories:
 
 # Field2.AppendChunk method (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 Appends data from a string expression to a Memo or Long Binary **Field2** object in a **[Recordset](recordset-object-dao.md)**.
 
@@ -62,11 +60,8 @@ You can also use these methods to conserve string space when you work with Memo 
 
 If there is no current record when you use **AppendChunk**, an error occurs.
 
-
 > [!NOTE]
-> <P>The initial <STRONG>AppendChunk</STRONG> operation (after an <STRONG><A href="recordset-edit-method-dao.md">Edit</A></STRONG> or <STRONG><A href="recordset-addnew-method-dao.md">AddNew</A></STRONG> call) will simply place the data in the field, overwriting any existing data. Subsequent <STRONG>AppendChunk</STRONG> calls within the same <STRONG>Edit</STRONG> or <STRONG>AddNew</STRONG> session will then add to the existing data.</P>
-
-
+> The initial **AppendChunk** operation (after an **[Edit](recordset-edit-method-dao.md)** or **[AddNew](recordset-addnew-method-dao.md)** call) will simply place the data in the field, overwriting any existing data. Subsequent **AppendChunk** calls within the same **Edit** or **AddNew** session will then add to the existing data.
 
 ## Example
 

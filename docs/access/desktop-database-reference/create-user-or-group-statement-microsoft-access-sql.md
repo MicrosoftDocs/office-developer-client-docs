@@ -16,11 +16,11 @@ Creates one or more new users or groups.
 
 ## Syntax
 
-**Create a user**:
+### Create a user
 
 CREATE USER *user* *password pid* \[, *user* *password pid*, …\]
 
-**Create a group**:
+### Create a group
 
 CREATE GROUP *group* *pid*\[, *group* *pid*, …\]
 

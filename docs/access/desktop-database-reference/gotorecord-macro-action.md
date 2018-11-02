@@ -56,7 +56,7 @@ The **GoToRecord** action has the following arguments.
 </ul>
 
 > [!NOTE]
-> <P>If you use the <STRONG>First</STRONG>, <STRONG>Last</STRONG>, or <STRONG>New</STRONG> setting for the <STRONG>Record</STRONG> argument, Access ignores the <STRONG>Offset</STRONG> argument. If you enter an <STRONG>Offset</STRONG> argument that is too large, Access displays an error message. You can't enter negative numbers for the <STRONG>Offset</STRONG> argument.</P>
+> If you use the **First**, **Last**, or **New** setting for the **Record** argument, Access ignores the **Offset** argument. If you enter an **Offset** argument that is too large, Access displays an error message. You can't enter negative numbers for the **Offset** argument.
 
 
 <p></p>

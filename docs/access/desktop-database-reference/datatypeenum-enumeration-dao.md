@@ -112,12 +112,7 @@ Specifies the operational data type of an object.
 <tr class="odd">
 <td><p>dbDecimal</p></td>
 <td><p>20</p></td>
-<td><p>Decimal data (ODBCDirect only)</p>
-
-> [!NOTE]
-> ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.
-
-
+<td><p>Decimal data (ODBCDirect only)</p><p><strong>NOTE</strong>: ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</p>
 </td>
 </tr>
 <tr class="even">

@@ -68,7 +68,7 @@ You can use the **Required** property along with the **AllowZeroLength**, **Vali
 
 
 > [!NOTE]
-> <P>When you can set this property for either an <STRONG>Index</STRONG> object or a <STRONG>Field2</STRONG> object, set it for the <STRONG>Field2</STRONG> object. The validity of the property setting for a <STRONG>Field2</STRONG> object is checked before that of an <STRONG>Index</STRONG> object.</P>
+> When you can set this property for either an **Index** object or a **Field2** object, set it for the **Field2** object. The validity of the property setting for a **Field2** object is checked before that of an **Index** object.
 
 
 

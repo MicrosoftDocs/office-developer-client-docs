@@ -83,6 +83,6 @@ To remove a user-defined **Property** object from the collection, use the **[Del
 
 
 > [!NOTE]
-> <P>If you omit the DDL argument, it defaults to False (non-DDL). Because no corresponding DDL property is exposed, you must delete and re-create a <STRONG>Property</STRONG> object you want to change from DDL to non-DDL.</P>
+> If you omit the DDL argument, it defaults to False (non-DDL). Because no corresponding DDL property is exposed, you must delete and re-create a **Property** object you want to change from DDL to non-DDL.
 
 

@@ -20,11 +20,11 @@ Adds a record or multiple records to a table. This is referred to as an append q
 
 ## Syntax
 
-**Multiple-record append query**:
+### Multiple-record append query
 
 INSERT INTO *target* \[(*field1*\[, *field2*\[, …\]\])\] \[IN *externaldatabase*\] SELECT \[*source*.\]*field1*\[, *field2*\[, …\] FROM *tableexpression*
 
-**Single-record append query**:
+### Single-record append query
 
 INSERT INTO *target* \[(*field1*\[, *field2*\[, …\]\])\] VALUES (*value1*\[, *value2*\[, …\])
 

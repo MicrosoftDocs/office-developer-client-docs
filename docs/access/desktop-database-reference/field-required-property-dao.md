@@ -67,7 +67,7 @@ You can use the **Required** property along with the **[AllowZeroLength](field-a
 
 
 > [!NOTE]
-> <P>When you can set this property for either an <STRONG>Index</STRONG> object or a <STRONG>Field</STRONG> object, set it for the <STRONG>Field</STRONG> object. The validity of the property setting for a <STRONG>Field</STRONG> object is checked before that of an <STRONG>Index</STRONG> object.</P>
+> When you can set this property for either an **Index** object or a **Field** object, set it for the **Field** object. The validity of the property setting for a **Field** object is checked before that of an **Index** object.
 
 
 

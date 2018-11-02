@@ -34,7 +34,7 @@ A QueryDef object is a stored definition of a query in a Microsoft Access databa
 <td><p></p>
 
 > [!NOTE]
-> <P>ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</P>
+> ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.
 
 
 <p>Cancels execution of a pending asynchronous method call (ODBCDirect workspaces only).</p></td>
@@ -114,7 +114,7 @@ A QueryDef object is a stored definition of a query in a Microsoft Access databa
 <td><p></p>
 
 > [!NOTE]
-> <P>ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</P>
+> ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.
 
 
 <p>Sets or returns a value that indicates whether the query should be prepared on the server as a temporary stored procedure, using the ODBC <strong>SQLPrepare</strong> API function, prior to execution, or just executed using the ODBC <strong>SQLExecDirect</strong> API function (ODBCDirect workspaces only). Read/Write <strong><a href="querydefstateenum-enumeration-dao.md">QueryDefStateEnum</a></strong>.</p></td>
@@ -140,7 +140,7 @@ A QueryDef object is a stored definition of a query in a Microsoft Access databa
 <td><p></p>
 
 > [!NOTE]
-> <P>ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</P>
+> ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.
 
 
 <p>Indicates whether or not an asynchronous operation (that is, a method called with the <a href="recordsetoptionenum-enumeration-dao.md">dbRunAsync</a> option) has finished executing (ODBCDirect workspaces only).</p></td>

@@ -19,11 +19,8 @@ Contains all the [Field](field-object-ado.md) objects of a [Recordset](recordset
 
 A **Recordset** object has a **Fields** collection made up of **Field** objects. Each **Field** object corresponds to a column in the **Recordset**. You can populate the **Fields** collection before opening the **Recordset** by calling the [Refresh](refresh-method-ado.md) method on the collection.
 
-
 > [!NOTE]
-> <P>See the <STRONG>Field</STRONG> object topic for a more detailed explanation of how to use <STRONG>Field</STRONG> objects.</P>
-
-
+> See the **Field** object topic for a more detailed explanation of how to use **Field** objects.
 
 The **Fields** collection has an [Append](append-method-ado.md) method, which provisionally creates and adds a **Field** object to the collection, and an **Update** method, which finalizes any additions or deletions.
 

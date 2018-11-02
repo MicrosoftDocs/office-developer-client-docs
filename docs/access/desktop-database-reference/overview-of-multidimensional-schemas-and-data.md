@@ -70,17 +70,14 @@ Each level has a set of members, as follows:
 
 Members at the leaf level of a hierarchy have no children, and members at the root level have no parent. All other members have at least one parent and at least one child. For example, a partial traversal of the hierarchy tree in the Geography dimension yields the following parent-child relationships:
 
-  - {All} (parent of) {Europe, North America}
-
-  - {North America} (parent of) {Canada, USA}
-
-  - {USA} (parent of) {USA-NE, USA-NW, USA-SE, USA-SW}
-
-  - {USA-NW} (parent of) {Boise, Seattle}
+- {All} (parent of) {Europe, North America}
+- {North America} (parent of) {Canada, USA}
+- {USA} (parent of) {USA-NE, USA-NW, USA-SE, USA-SW}
+- {USA-NW} (parent of) {Boise, Seattle}
 
 Members can be consolidated along one or more hierarchies per dimension.
 
-This example also illustrates another characteristic: Some members of the Week level of the Year-Week hierarchy do not appear in any level of the Year-Quarter hierarchy. Thus, a hierarchy need not include all members of a dimension.
+This example also illustrates another characteristic: some members of the Week level of the Year-Week hierarchy do not appear in any level of the Year-Quarter hierarchy. Thus, a hierarchy need not include all members of a dimension.
 
 ## Understanding Multidimensional Schemas
 
@@ -149,5 +146,5 @@ Members at the leaf level of a hierarchy have no children, and members at the ro
 
 Members can be consolidated along one or more hierarchies per dimension.
 
-This example also illustrates another characteristic: Some members of the Week level of the Year-Week hierarchy do not appear in any level of the Year-Quarter hierarchy. Thus, a hierarchy need not include all members of a dimension.
+This example also illustrates another characteristic: some members of the Week level of the Year-Week hierarchy do not appear in any level of the Year-Quarter hierarchy. Thus, a hierarchy need not include all members of a dimension.
 

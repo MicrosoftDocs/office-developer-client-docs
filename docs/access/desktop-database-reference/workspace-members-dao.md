@@ -47,12 +47,7 @@ A Workspace object defines a named session for a user. It contains open database
 </tr>
 <tr class="odd">
 <td><p><strong><a href="workspace-openconnection-method-dao.md">OpenConnection</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> <P>ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</P>
-
-
+<td><p><strong>NOTE</strong>: ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</p>
 <p>Opens a <strong><a href="connection-object-dao.md">Connection</a></strong> object on an ODBC data source (ODBCDirect workspaces only).</p></td>
 </tr>
 <tr class="even">
@@ -91,12 +86,7 @@ A Workspace object defines a named session for a user. It contains open database
 </tr>
 <tr class="odd">
 <td><p><strong><a href="workspace-defaultcursordriver-property-dao.md">DefaultCursorDriver</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> <P>ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</P>
-
-
+<td><p><strong>NOTE</strong>: ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</p>
 <p>Sets or returns the type of cursor driver used on the connection created by the <strong><a href="dbengine-openconnection-method-dao.md">OpenConnection</a></strong> or <strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong> methods (ODBCDirect workspaces only).</p></td>
 </tr>
 <tr class="even">

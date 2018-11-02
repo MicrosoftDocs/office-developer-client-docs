@@ -19,7 +19,7 @@ f1_categories:
 Creates a new index on an existing table.
 
 > [!NOTE]
-> For non-Microsoft Access database engine databases, the Microsoft Access database engine does not support the use of CREATE INDEX (except to create a pseudo index on an ODBC linked table) or any of the data definition language (DDL) statements. Use the **DAO Create** methods instead. For more information, see the Remarks section.
+> For non-Microsoft Access database engine databases, the Microsoft Access database engine does not support the use of CREATE INDEX (except to create a pseudo index on an ODBC linked table) or any of the data definition language (DDL) statements. Use the DAO **Create** methods instead. For more information, see the Remarks section.
 
 ## Syntax
 

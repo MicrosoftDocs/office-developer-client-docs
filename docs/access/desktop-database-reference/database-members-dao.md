@@ -101,12 +101,7 @@ A Database object represents an open database.
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-connection-property-dao.md">Connection</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.
-
-
+<td><p><strong>NOTE</strong>: ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</p>
 <p>Returns the <strong><a href="connection-object-dao.md">Connection</a></strong> object that corresponds to the database (ODBCDirect workspaces only).</p></td>
 </tr>
 <tr class="even">

@@ -14,9 +14,7 @@ f1_categories:
 
 # CancelEvent macro action
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 You can use the **CancelEvent** action to cancel the event that caused Access to run the macro containing this action. The macro name is the setting of an event property such as **BeforeUpdate**, **OnOpen**, **OnUnload**, or **OnPrint**.
 
@@ -71,8 +69,6 @@ The following events can be canceled by the **CancelEvent** action.
 </tr>
 </tbody>
 </table>
-
-
 
 > [!NOTE]
 > You can use the **CancelEvent** action with the **MouseDown** event only to cancel the event that occurs when you right-click an object.

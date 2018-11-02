@@ -21,7 +21,7 @@ f1_categories:
 Modifies the design of a table after it has been created with the [CREATE TABLE](create-table-statement-microsoft-access-sql.md) statement.
 
 > [!NOTE]
-> The Microsoft Access database engine does not support the use of ALTER TABLE, or any of the data definition language (DDL) statements, with non-Microsoft Access databases. Use the **DAO Create** methods instead.
+> The Microsoft Access database engine does not support the use of ALTER TABLE, or any of the data definition language (DDL) statements, with non-Microsoft Access databases. Use the DAO **Create** methods instead.
 
 ## Syntax
 

@@ -78,7 +78,7 @@ AND OrderDate >= [Beginning date];
 
 This example requires the user to provide a job title and then uses that job title as the criteria for the query.
 
-This example calls the EnumFields procedure, which you can find in the [SELECT statement](select-statement-microsoft-access-sql.md) example.
+It calls the EnumFields procedure, which you can find in the [SELECT statement](select-statement-microsoft-access-sql.md) example.
 
 ```vb
     Sub ParametersX() 

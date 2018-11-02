@@ -13,10 +13,7 @@ mtps_version: v=office.15
 **Applies to**: Access 2013, Office 2013
 
 - [Overview of the Access SQL reference](overview-of-the-access-sql-reference.md)
-
-- [Data Definition Language](data-definition-language.md)
-
-- [Data Manipulation Language](data-manipulation-language.md)
-
+- [Data definition language (DDL)](data-definition-language.md)
+- [Data manipulation language](data-manipulation-language.md)
 - [Windows registry settings for external data sources](windows-registry-settings-for-external-data-sources.md)
 

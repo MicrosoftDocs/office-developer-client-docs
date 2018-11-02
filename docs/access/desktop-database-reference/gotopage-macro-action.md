@@ -50,12 +50,8 @@ The **GoToPage** action has the following arguments.
 </tbody>
 </table>
 
-
-
 > [!NOTE]
-> <P>The <STRONG>Right</STRONG> and <STRONG>Down</STRONG> arguments are measured in inches or centimeters, depending on the regional settings in Windows Control Panel.</P>
-
-
+> >The **Right** and **Down** arguments are measured in inches or centimeters, depending on the regional settings in Windows Control Panel.
 
 ## Remarks
 
