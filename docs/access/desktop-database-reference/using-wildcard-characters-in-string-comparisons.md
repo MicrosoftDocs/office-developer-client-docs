@@ -55,7 +55,7 @@ You can use a group of one or more characters (*charlist*) enclosed in brackets 
 
 In addition to a simple list of characters enclosed in brackets, *charlist* can specify a range of characters by using a hyphen (-) to separate the upper and lower bounds of the range. For example, using \[A-Z\] in *pattern* results in a match if the corresponding character position in *expression* contains any of the uppercase letters in the range A through Z. You can include multiple ranges within the brackets without delimiting the ranges. For example, \[a-zA-Z0-9\] matches any alphanumeric character.
 
-It is important to note that the ANSI SQL wildcards (%) and (\_) are only available with Microsoft® Jet version 4.X and the Microsoft OLE DB Provider for Jet. They will be treated as literals if used through Microsoft Access or DAO.
+It is important to note that the ANSI SQL wildcards (%) and (\_) are only available with Microsoft Jet version 4.X and the Microsoft OLE DB Provider for Jet. They will be treated as literals if used through Microsoft Access or DAO.
 
 Other important rules for pattern matching include the following:
 

@@ -25,7 +25,7 @@ If errors occur while handling [Recordset](recordset-object-ado.md) objects that
 
 **To increase the TempDB space on SQL Server 6.5**
 
-1.  Start Microsoft® SQL Server Enterprise Manager, open the tree for the Server, and then open the Database Devices tree.
+1.  Start Microsoft SQL Server Enterprise Manager, open the tree for the Server, and then open the Database Devices tree.
 
 2.  Select a (physical) device to expand, such as Master, and double-click the device to open the **Edit Database Device** dialog box. This dialog box shows how much space the current databases are using.
 

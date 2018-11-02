@@ -1,6 +1,6 @@
 ﻿---
-title: What's New in ActiveX Data Objects (ADO)
-TOCTitle: What's New in ADO
+title: What's new in ActiveX Data Objects (ADO)
+TOCTitle: What's new in ADO
 ms:assetid: fd3d0f9c-e9df-d130-13e3-757620e9400c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250297(v=office.15)
 ms:contentKeyID: 48548905
@@ -8,33 +8,33 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# What's New in ADO
-
+# What's new in ADO
 
 **Applies to**: Access 2013, Office 2013 
  
-
 The following new features and enhanced documentation are included in the ADO 2.5 release. This list covers ADO, ADO MD, and ADOX.
 
-## New Features
+## New features
 
-**[Records and Streams](chapter-10-records-and-streams.md)**
+- **[Records and streams](chapter-10-records-and-streams.md)**
 
-This release of ADO introduces the [Record](record-object-ado.md) object, which can represent and manage things like directories and files in a file system, and folders and messages in an e-mail system. A **Record** can also represent a row in a [Recordset](recordset-object-ado.md), although **Record** and **Recordset** objects have different methods and properties.
+  This release of ADO introduces the [Record](record-object-ado.md) object, which can represent and manage things like directories and files in a file system, and folders and messages in an e-mail system. A **Record** can also represent a row in a [Recordset](recordset-object-ado.md), although **Record** and **Recordset** objects have different methods and properties.
 
-The new [Stream](stream-object-ado.md) object provides the means to read, write, and manage the binary stream of bytes or text that comprise a file or message stream.
+  The new [Stream](stream-object-ado.md) object provides the means to read, write, and manage the binary stream of bytes or text that comprise a file or message stream.
 
-**[URL Usage](absolute-and-relative-urls.md)**
+- **[URL usage](absolute-and-relative-urls.md)**
 
-This release also introduces the use of Uniform Resource Locators (URLs), as an alternative to connection strings and command text, to name data store objects. URLs may be used with the existing [Connection](connection-object-ado.md) and **Recordset** objects, as well as with the new **Record** and **Stream** objects.
+  This release also introduces the use of Uniform Resource Locators (URLs), as an alternative to connection strings and command text, to name data store objects. URLs may be used with the existing [Connection](connection-object-ado.md) and **Recordset** objects, as well as with the new **Record** and **Stream** objects.
 
-With this release, ADO supports OLE DB providers that recognize their own URL schemes. For example, the [OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md)*,* which accesses the Windows 2000 file system, recognizes the existing HTTP scheme.
+  With this release, ADO supports OLE DB providers that recognize their own URL schemes. For example, the [OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md)*,* which accesses the Windows 2000 file system, recognizes the existing HTTP scheme.
 
-**[Special Fields for Document Source Providers](records-and-provider-supplied-fields.md)**
+- **[Special fields for document source providers](records-and-provider-supplied-fields.md)**
 
-A special class of providers, called *document source* providers, manage folders and documents. When a **Record** object represents a document, or a **Recordset** object represents a folder of documents, the document source provider populates those objects with a unique set of fields that describe characteristics of the document. These fields constitute a *resource* **Record** or **Recordset**.
+  A special class of providers, called *document source* providers, manage folders and documents. When a **Record** object represents a document, or a **Recordset** object represents a folder of documents, the document source provider populates those objects with a unique set of fields that describe characteristics of the document. These fields constitute a *resource* **Record** or **Recordset**.
 
-## New Reference Topics
+## New reference topics
+
+### Properties
 
 The following new properties are included in this release.
 
@@ -97,6 +97,7 @@ The following new properties are included in this release.
 </tbody>
 </table>
 
+### Methods
 
 The following new methods are included in this release.
 
@@ -180,17 +181,17 @@ The following new methods are included in this release.
 </table>
 
 
-## New and Enhanced Documentation
+## New and enhanced documentation
 
-**[Code Example Topics](ado-code-examples.md)**
+- **[Code example topics](ado-code-examples.md)**
 
-The examples have been expanded to contain code examples written in Microsoft Visual C++® and Microsoft Visual J++®. You can copy and paste these code examples into your editor.
+  The examples have been expanded to contain code examples written in Microsoft Visual C++ and Microsoft Visual J++. You can copy and paste these code examples into your editor.
 
-**[Provider Topics](appendix-a-providers.md)**
+- **[Provider topics](appendix-a-providers.md)**
 
-A new topic is included that explains how to use ADO with the [OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md).
+  A new topic is included that explains how to use ADO with the [OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md).
 
-**[Programming with ADO](appendix-c-programming-with-ado.md)**
+- **[Programming with ADO](appendix-c-programming-with-ado.md)**
 
-This new section contains tips and tricks for using ADO with various programming languages. It contains the existing syntax indexes for the Visual C++ Extensions for ADO and ADO/WFC, as well as new information specific to developers using Microsoft Visual Basic®, Microsoft Visual Basic® Scripting Edition, Microsoft JScript®, Microsoft Visual C++, or Microsoft Visual J++.
+  This new section contains tips and tricks for using ADO with various programming languages. It contains the existing syntax indexes for the Visual C++ Extensions for ADO and ADO/WFC, as well as new information specific to developers using Microsoft Visual Basic, Microsoft Visual Basic Scripting Edition, Microsoft JScript, Microsoft Visual C++, or Microsoft Visual J++.
 

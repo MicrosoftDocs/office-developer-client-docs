@@ -17,7 +17,7 @@ f1_categories:
 
 **Applies to**: Access 2013, Office 2013
 
-Microsoft® Access SQL supports the use of the ODBC defined syntax for scalar functions. For example, the query:
+Microsoft Access SQL supports the use of the ODBC defined syntax for scalar functions. For example, the query:
 
 SELECT DAILYCLOSE, DAILYCHANGE FROM DAILYQUOTE WHERE {fn ABS(DAILYCHANGE)} \> 5
 

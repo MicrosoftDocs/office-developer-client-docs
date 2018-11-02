@@ -17,7 +17,7 @@ The anonymous web server account (IUSR\_*ComputerName*) must be added to the Gue
 
 **To grant guest privileges to a web server computer**
 
-1.  On your Microsoft Windows® 2000 Server computer, click **Start**, point to **Programs**, point to **Administrative Tools**, and then click **Computer Management**.
+1.  On your Microsoft Windows 2000 Server computer, click **Start**, point to **Programs**, point to **Administrative Tools**, and then click **Computer Management**.
 
 2.  In the console tree, in **Local Users and Groups**, click **Groups**.
 

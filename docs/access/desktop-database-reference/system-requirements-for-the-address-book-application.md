@@ -19,7 +19,7 @@ To set up the Address Book sample application, you need to meet the following so
 
 The server computer software requirements for running this web application include:
 
-  - Microsoft Windows NT® Server 4.0, with Service Pack 3 or later, or Microsoft Windows® 2000 Server.
+  - Microsoft Windows NT Server 4.0, with Service Pack 3 or later, or Microsoft Windows 2000 Server.
 
   - Microsoft Internet Information Services (IIS) version 3.0 or later, with Active Server Pages.
 
@@ -33,7 +33,7 @@ The client computer software requirements for running this web application inclu
 
 To use this sample, you must have:
 
-  - An operational Microsoft® SQL Server version 6.5 or later database server.
+  - An operational Microsoft SQL Server version 6.5 or later database server.
 
   - Privileges to create the database and populate it with the sample data.
 
