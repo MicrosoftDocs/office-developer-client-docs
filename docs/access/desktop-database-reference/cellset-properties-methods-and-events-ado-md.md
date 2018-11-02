@@ -1,5 +1,5 @@
 ﻿---
-title: Cellset Properties, Methods, and Events (ADO MD)
+title: Cellset properties, methods, and events (ADO MD)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 7745f93c-5cc7-e6f8-143a-3470be0c1c0a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249488(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Cellset Properties, Methods, and Events (ADO MD)
+# Cellset properties, methods, and events (ADO MD)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,6 +1,6 @@
 ﻿---
-title: Append Method (ADOX Groups)
-TOCTitle: Append Method (ADOX Groups)
+title: Append method (ADOX Groups)
+TOCTitle: Append method (ADOX Groups)
 ms:assetid: c3245a24-55b8-3f3f-1c4a-43a119d84dc8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249954(v=office.15)
 ms:contentKeyID: 48547567
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Append Method (ADOX Groups)
+# Append method (ADOX Groups)
 
 
 **Applies to**: Access 2013, Office 2013

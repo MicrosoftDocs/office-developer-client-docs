@@ -1,6 +1,6 @@
 ﻿---
-title: Close Method (ADO MD)
-TOCTitle: Close Method (ADO MD)
+title: Close method (ADO MD)
+TOCTitle: Close method (ADO MD)
 ms:assetid: 683788b0-0a96-a165-6b49-8d7036850756
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249406(v=office.15)
 ms:contentKeyID: 48545382
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Close Method (ADO MD)
+# Close method (ADO MD)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,6 +1,6 @@
 ﻿---
-title: Catalog Object (ADOX)
-TOCTitle: Catalog Object (ADOX)
+title: Catalog object (ADOX)
+TOCTitle: Catalog object (ADOX)
 ms:assetid: d9e8d94b-9161-3eb6-abaf-00d1244d1f2d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250097(v=office.15)
 ms:contentKeyID: 48548068
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Catalog Object (ADOX)
+# Catalog object (ADOX)
 
 
 **Applies to**: Access 2013, Office 2013

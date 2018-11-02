@@ -1,6 +1,6 @@
 ﻿---
-title: WillExecute Event (ADO)
-TOCTitle: WillExecute Event (ADO)
+title: WillExecute event (ADO)
+TOCTitle: WillExecute event (ADO)
 ms:assetid: 9f516bfd-246d-9817-4ca3-64598ab466f7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249732(v=office.15)
 ms:contentKeyID: 48546686
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# WillExecute Event (ADO)
+# WillExecute event (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

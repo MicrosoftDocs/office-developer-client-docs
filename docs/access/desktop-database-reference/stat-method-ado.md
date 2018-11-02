@@ -1,6 +1,6 @@
 ﻿---
 title: Stat Method - ActiveX Data Objects (ADO)
-TOCTitle: Stat Method (ADO)
+TOCTitle: Stat method (ADO)
 ms:assetid: d3d3976b-14d4-dee0-412d-a37bc72fbfd3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250056(v=office.15)
 ms:contentKeyID: 48547916
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Stat Method (ADO)
+# Stat method (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

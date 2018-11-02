@@ -1,6 +1,6 @@
 ﻿---
-title: SubmitChanges Method (RDS)
-TOCTitle: SubmitChanges Method (RDS)
+title: SubmitChanges method (RDS)
+TOCTitle: SubmitChanges method (RDS)
 ms:assetid: ecaea12d-7e1a-095d-17e7-d631ef230b90
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250201(v=office.15)
 ms:contentKeyID: 48548521
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# SubmitChanges Method (RDS)
+# SubmitChanges method (RDS)
 
 
 **Applies to**: Access 2013, Office 2013

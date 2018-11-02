@@ -1,6 +1,6 @@
 ﻿---
-title: FilterValue Property (RDS)
-TOCTitle: FilterValue Property (RDS)
+title: FilterValue property (RDS)
+TOCTitle: FilterValue property (RDS)
 ms:assetid: 66dc14cd-cc14-78cb-cb05-91eefb17ea47
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249399(v=office.15)
 ms:contentKeyID: 48545350
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# FilterValue Property (RDS)
+# FilterValue property (RDS)
 
 
 **Applies to**: Access 2013, Office 2013

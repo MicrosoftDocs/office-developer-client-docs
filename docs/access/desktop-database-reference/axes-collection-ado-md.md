@@ -1,6 +1,6 @@
 ﻿---
-title: Axes Collection (ADO MD)
-TOCTitle: Axes Collection (ADO MD)
+title: Axes collection (ADO MD)
+TOCTitle: Axes collection (ADO MD)
 ms:assetid: 7c719197-45f1-a5b9-665d-25cb693b1eb0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249520(v=office.15)
 ms:contentKeyID: 48545836
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Axes Collection (ADO MD)
+# Axes collection (ADO MD)
 
 
 **Applies to**: Access 2013, Office 2013

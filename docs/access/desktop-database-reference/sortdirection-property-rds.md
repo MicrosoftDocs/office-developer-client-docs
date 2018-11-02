@@ -1,6 +1,6 @@
 ﻿---
-title: SortDirection Property (RDS)
-TOCTitle: SortDirection Property (RDS)
+title: SortDirection property (RDS)
+TOCTitle: SortDirection property (RDS)
 ms:assetid: 33de0dce-f371-6a54-d179-0627939f5b14
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249106(v=office.15)
 ms:contentKeyID: 48544119
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# SortDirection Property (RDS)
+# SortDirection property (RDS)
 
 
 **Applies to**: Access 2013, Office 2013

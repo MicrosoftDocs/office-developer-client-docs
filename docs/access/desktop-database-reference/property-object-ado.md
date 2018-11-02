@@ -1,6 +1,6 @@
 ﻿---
-title: Property Object (ADO)
-TOCTitle: Property Object (ADO)
+title: Property object (ADO)
+TOCTitle: Property object (ADO)
 ms:assetid: eec318fd-f5ed-d9ef-9830-848439a8914d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250210(v=office.15)
 ms:contentKeyID: 48548567
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Property Object (ADO)
+# Property object (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

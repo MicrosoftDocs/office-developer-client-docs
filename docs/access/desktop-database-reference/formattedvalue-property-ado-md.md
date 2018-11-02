@@ -1,6 +1,6 @@
 ﻿---
-title: FormattedValue Property (ADO MD)
-TOCTitle: FormattedValue Property (ADO MD)
+title: FormattedValue property (ADO MD)
+TOCTitle: FormattedValue property (ADO MD)
 ms:assetid: ea7962f2-b08b-52c9-34e5-c5490c72662f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250189(v=office.15)
 ms:contentKeyID: 48548464
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# FormattedValue Property (ADO MD)
+# FormattedValue property (ADO MD)
 
 
 **Applies to**: Access 2013, Office 2013

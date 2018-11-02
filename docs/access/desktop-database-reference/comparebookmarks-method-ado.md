@@ -1,6 +1,6 @@
 ﻿---
-title: CompareBookmarks Method (ADO)
-TOCTitle: CompareBookmarks Method (ADO)
+title: CompareBookmarks method (ADO)
+TOCTitle: CompareBookmarks method (ADO)
 ms:assetid: 826cb3c7-2f5c-284f-421d-6b7b07f14dec
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249564(v=office.15)
 ms:contentKeyID: 48545977
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# CompareBookmarks Method (ADO)
+# CompareBookmarks method (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

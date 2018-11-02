@@ -1,5 +1,5 @@
 ﻿---
-title: Key Properties, Methods, and Events (ADOX)
+title: Key properties, methods, and events (ADOX)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 35639116-c8ec-103d-88f6-c0560efef2c0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249115(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Key Properties, Methods, and Events (ADOX)
+# Key properties, methods, and events (ADOX)
 
 
 **Applies to**: Access 2013, Office 2013 

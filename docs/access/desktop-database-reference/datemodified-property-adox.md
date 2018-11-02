@@ -1,6 +1,6 @@
 ﻿---
-title: DateModified Property (ADOX)
-TOCTitle: DateModified Property (ADOX)
+title: DateModified property (ADOX)
+TOCTitle: DateModified property (ADOX)
 ms:assetid: aebe8818-82e7-84a4-24d7-d97afa32e193
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249827(v=office.15)
 ms:contentKeyID: 48547078
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# DateModified Property (ADOX)
+# DateModified property (ADOX)
 
 
 **Applies to**: Access 2013, Office 2013

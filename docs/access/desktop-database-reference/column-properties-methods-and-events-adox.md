@@ -1,5 +1,5 @@
 ﻿---
-title: Column Properties, Methods, and Events (ADOX)
+title: Column properties, methods, and events (ADOX)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 3cfb6eaf-399a-1678-45bd-6fe692d8bd81
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249162(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Column Properties, Methods, and Events (ADOX)
+# Column properties, methods, and events (ADOX)
 
 **Applies to**: Access 2013, Office 2013
 

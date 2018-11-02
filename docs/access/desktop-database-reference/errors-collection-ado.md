@@ -1,6 +1,6 @@
 ﻿---
-title: Errors Collection (ADO)
-TOCTitle: Errors Collection (ADO)
+title: Errors collection (ADO)
+TOCTitle: Errors collection (ADO)
 ms:assetid: 76c234b8-7fec-11c5-275e-864d5d880ee7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249486(v=office.15)
 ms:contentKeyID: 48545706
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Errors Collection (ADO)
+# Errors collection (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

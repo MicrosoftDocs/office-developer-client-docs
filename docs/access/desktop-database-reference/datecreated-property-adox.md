@@ -1,6 +1,6 @@
 ﻿---
-title: DateCreated Property (ADOX)
-TOCTitle: DateCreated Property (ADOX)
+title: DateCreated property (ADOX)
+TOCTitle: DateCreated property (ADOX)
 ms:assetid: ee975bf5-7d44-a993-d1c0-077993515698
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250209(v=office.15)
 ms:contentKeyID: 48548564
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# DateCreated Property (ADOX)
+# DateCreated property (ADOX)
 
 
 **Applies to**: Access 2013, Office 2013

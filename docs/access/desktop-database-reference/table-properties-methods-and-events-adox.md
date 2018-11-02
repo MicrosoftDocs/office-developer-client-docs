@@ -1,5 +1,5 @@
 ﻿---
-title: Table Properties, Methods, and Events (ADOX)
+title: Table properties, methods, and events (ADOX)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: c1bb1a4b-92dc-25ee-5ab2-be6bbe713e8a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249942(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Table Properties, Methods, and Events (ADOX)
+# Table properties, methods, and events (ADOX)
 
 
 **Applies to**: Access 2013, Office 2013

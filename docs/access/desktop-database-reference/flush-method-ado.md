@@ -1,6 +1,6 @@
 ﻿---
 title: Flush Method - ActiveX Data Objects (ADO)
-TOCTitle: Flush Method (ADO)
+TOCTitle: Flush method (ADO)
 ms:assetid: c167e3b1-c133-ce45-6cee-5a1280a1568f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249941(v=office.15)
 ms:contentKeyID: 48547529
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Flush Method (ADO)
+# Flush method (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -14,51 +14,51 @@ mtps_version: v=office.15
 
 ## Properties
 
-- [Connect Property (RDS)](connect-property-rds.md)
+- [Connect property (RDS)](connect-property-rds.md)
 
-- [ExecuteOptions Property (RDS)](executeoptions-property-rds.md)
+- [ExecuteOptions property (RDS)](executeoptions-property-rds.md)
 
-- [FetchOptions Property (RDS)](fetchoptions-property-rds.md)
+- [FetchOptions property (RDS)](fetchoptions-property-rds.md)
 
-- [FilterColumn Property (RDS)](filtercolumn-property-rds.md)
+- [FilterColumn property (RDS)](filtercolumn-property-rds.md)
 
-- [FilterCriterion Property (RDS)](filtercriterion-property-rds.md)
+- [FilterCriterion property (RDS)](filtercriterion-property-rds.md)
 
-- [FilterValue Property (RDS)](filtervalue-property-rds.md)
+- [FilterValue property (RDS)](filtervalue-property-rds.md)
 
-- [Handler Property (RDS)](handler-property-rds.md)
+- [Handler property (RDS)](handler-property-rds.md)
 
-- [InternetTimeout Property (RDS)](internettimeout-property-rds.md)
+- [InternetTimeout property (RDS)](internettimeout-property-rds.md)
 
-- [ReadyState Property (RDS)](readystate-property-rds.md)
+- [ReadyState property (RDS)](readystate-property-rds.md)
 
 - [Recordset, SourceRecordset Properties (RDS)](recordset-sourcerecordset-properties-rds.md)
 
-- [Server Property (RDS)](server-property-rds.md)
+- [Server property (RDS)](server-property-rds.md)
 
-- [SortColumn Property (RDS)](sortcolumn-property-rds.md)
+- [SortColumn property (RDS)](sortcolumn-property-rds.md)
 
-- [SortDirection Property (RDS)](sortdirection-property-rds.md)
+- [SortDirection property (RDS)](sortdirection-property-rds.md)
 
-- [SQL Property (RDS)](https://msdn.microsoft.com/library/jj248989\(v=office.15\))
+- [SQL property (RDS)](https://msdn.microsoft.com/library/jj248989\(v=office.15\))
 
-- [URL Property (RDS)](url-property-rds.md)
+- [URL property (RDS)](url-property-rds.md)
 
 ## Methods
 
-- [Cancel Method (RDS)](cancel-method-rds.md)
+- [Cancel method (RDS)](cancel-method-rds.md)
 
-- [CancelUpdate Method (RDS)](cancelupdate-method-rds.md)
+- [CancelUpdate method (RDS)](cancelupdate-method-rds.md)
 
-- [CreateRecordset Method (RDS)](createrecordset-method-rds.md)
+- [CreateRecordset method (RDS)](createrecordset-method-rds.md)
 
 - [MoveFirst, MoveLast, MoveNext, and MovePrevious Methods (RDS)](movefirst-movelast-movenext-and-moveprevious-methods-rds.md)
 
-- [Refresh Method (RDS)](refresh-method-rds.md)
+- [Refresh method (RDS)](refresh-method-rds.md)
 
-- [Reset Method (RDS)](reset-method-rds.md)
+- [Reset method (RDS)](reset-method-rds.md)
 
-- [SubmitChanges Method (RDS)](submitchanges-method-rds.md)
+- [SubmitChanges method (RDS)](submitchanges-method-rds.md)
 
 ## Events
 

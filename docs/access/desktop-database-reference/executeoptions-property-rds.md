@@ -1,6 +1,6 @@
 ﻿---
-title: ExecuteOptions Property (RDS)
-TOCTitle: ExecuteOptions Property (RDS)
+title: ExecuteOptions property (RDS)
+TOCTitle: ExecuteOptions property (RDS)
 ms:assetid: fb244cbd-9a03-9128-1373-694c9061c9da
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250285(v=office.15)
 ms:contentKeyID: 48548864
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ExecuteOptions Property (RDS)
+# ExecuteOptions property (RDS)
 
 
 **Applies to**: Access 2013, Office 2013

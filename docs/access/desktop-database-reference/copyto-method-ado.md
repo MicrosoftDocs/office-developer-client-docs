@@ -1,6 +1,6 @@
 ﻿---
-title: CopyTo Method (ADO)
-TOCTitle: CopyTo Method (ADO)
+title: CopyTo method (ADO)
+TOCTitle: CopyTo method (ADO)
 ms:assetid: 1c1ab950-51f7-7ecc-ccd8-e689db02f06a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248958(v=office.15)
 ms:contentKeyID: 48543558
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# CopyTo Method (ADO)
+# CopyTo method (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

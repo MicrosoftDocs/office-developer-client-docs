@@ -1,6 +1,6 @@
 ﻿---
-title: Axis Object (ADO MD)
-TOCTitle: Axis Object (ADO MD)
+title: Axis object (ADO MD)
+TOCTitle: Axis object (ADO MD)
 ms:assetid: a4332b69-8900-08f1-a4e2-9395d005ed42
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249763(v=office.15)
 ms:contentKeyID: 48546807
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Axis Object (ADO MD)
+# Axis object (ADO MD)
 
 
 **Applies to**: Access 2013, Office 2013

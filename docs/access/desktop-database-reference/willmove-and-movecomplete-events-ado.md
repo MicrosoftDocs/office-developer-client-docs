@@ -1,6 +1,6 @@
 ﻿---
-title: WillMove and MoveComplete Events (ADO)
-TOCTitle: WillMove and MoveComplete Events (ADO)
+title: WillMove and MoveComplete events (ADO)
+TOCTitle: WillMove and MoveComplete events (ADO)
 ms:assetid: fe7eb823-b388-6b3d-1ae9-056018032ef5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250307(v=office.15)
 ms:contentKeyID: 48548937
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# WillMove and MoveComplete Events (ADO)
+# WillMove and MoveComplete events (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,6 +1,6 @@
 ﻿---
-title: CreateRecordset Method (RDS)
-TOCTitle: CreateRecordset Method (RDS)
+title: CreateRecordset method (RDS)
+TOCTitle: CreateRecordset method (RDS)
 ms:assetid: 19524509-31da-9af1-4062-cd3c59b51278
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248940(v=office.15)
 ms:contentKeyID: 48543497
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# CreateRecordset Method (RDS)
+# CreateRecordset method (RDS)
 
 
 **Applies to**: Access 2013, Office 2013

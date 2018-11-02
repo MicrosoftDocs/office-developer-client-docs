@@ -1,6 +1,6 @@
 ﻿---
-title: ExecuteComplete Event (ADO)
-TOCTitle: ExecuteComplete Event (ADO)
+title: ExecuteComplete event (ADO)
+TOCTitle: ExecuteComplete event (ADO)
 ms:assetid: 47317d97-e373-32f4-9438-2dff46b8d367
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249219(v=office.15)
 ms:contentKeyID: 48544589
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ExecuteComplete Event (ADO)
+# ExecuteComplete event (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

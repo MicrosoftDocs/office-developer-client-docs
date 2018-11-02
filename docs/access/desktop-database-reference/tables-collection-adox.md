@@ -1,6 +1,6 @@
 ﻿---
-title: Tables Collection (ADOX)
-TOCTitle: Tables Collection (ADOX)
+title: Tables collection (ADOX)
+TOCTitle: Tables collection (ADOX)
 ms:assetid: 07bc0541-c528-1c25-c8c4-05736836eda3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248821(v=office.15)
 ms:contentKeyID: 48543082
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Tables Collection (ADOX)
+# Tables collection (ADOX)
 
 
 **Applies to**: Access 2013, Office 2013

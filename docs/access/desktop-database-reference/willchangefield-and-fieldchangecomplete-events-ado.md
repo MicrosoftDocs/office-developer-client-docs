@@ -1,6 +1,6 @@
 ﻿---
-title: WillChangeField and FieldChangeComplete Events (ADO)
-TOCTitle: WillChangeField and FieldChangeComplete Events (ADO)
+title: WillChangeField and FieldChangeComplete events (ADO)
+TOCTitle: WillChangeField and FieldChangeComplete events (ADO)
 ms:assetid: bc4455a6-2925-33dc-d04f-8ea570e5e370
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249904(v=office.15)
 ms:contentKeyID: 48547407
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# WillChangeField and FieldChangeComplete Events (ADO)
+# WillChangeField and FieldChangeComplete events (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

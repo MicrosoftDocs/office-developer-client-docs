@@ -1,6 +1,6 @@
 ﻿---
-title: Parameter Object (ADO)
-TOCTitle: Parameter Object (ADO)
+title: Parameter object (ADO)
+TOCTitle: Parameter object (ADO)
 ms:assetid: 7577598e-3d0c-30c6-5f24-1cfe98791798
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249481(v=office.15)
 ms:contentKeyID: 48545676
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Parameter Object (ADO)
+# Parameter object (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

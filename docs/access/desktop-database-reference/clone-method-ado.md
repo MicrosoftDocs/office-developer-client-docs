@@ -1,6 +1,6 @@
 ﻿---
 title: Clone Method - ActiveX Data Objects (ADO)
-TOCTitle: Clone Method (ADO)
+TOCTitle: Clone method (ADO)
 ms:assetid: ca9b2b76-90bf-9a60-2611-3cb4977d5591
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249984(v=office.15)
 ms:contentKeyID: 48547693
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Clone Method (ADO)
+# Clone method (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

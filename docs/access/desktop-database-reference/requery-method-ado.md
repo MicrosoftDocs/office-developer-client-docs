@@ -1,6 +1,6 @@
 ﻿---
-title: Requery Method (ADO)
-TOCTitle: Requery Method (ADO)
+title: Requery method (ADO)
+TOCTitle: Requery method (ADO)
 ms:assetid: 1062d907-979f-020a-b2ed-94e11c0e7d08
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248871(v=office.15)
 ms:contentKeyID: 48543292
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Requery Method (ADO)
+# Requery method (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

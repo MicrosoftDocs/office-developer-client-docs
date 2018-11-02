@@ -1,6 +1,6 @@
 ﻿---
-title: Handler Property (RDS)
-TOCTitle: Handler Property (RDS)
+title: Handler property (RDS)
+TOCTitle: Handler property (RDS)
 ms:assetid: aaf8c8c6-f95b-3cf3-b3f6-203f37464c87
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249792(v=office.15)
 ms:contentKeyID: 48546962
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Handler Property (RDS)
+# Handler property (RDS)
 
 
 **Applies to**: Access 2013, Office 2013

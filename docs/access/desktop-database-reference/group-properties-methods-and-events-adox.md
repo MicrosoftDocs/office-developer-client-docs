@@ -1,5 +1,5 @@
 ﻿---
-title: Group Properties, Methods, and Events (ADOX)
+title: Group properties, methods, and events (ADOX)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: c1597b02-a9db-662e-3842-3444c63406cc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249939(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Group Properties, Methods, and Events (ADOX)
+# Group properties, methods, and events (ADOX)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,5 +1,5 @@
 ﻿---
-title: Hierarchy Properties, Methods, and Events (ADO MD)
+title: Hierarchy properties, methods, and events (ADO MD)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 4661738f-86c5-a944-2884-baed66c1a9d9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249217(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Hierarchy Properties, Methods, and Events (ADO MD)
+# Hierarchy properties, methods, and events (ADO MD)
 
 
 **Applies to**: Access 2013, Office 2013

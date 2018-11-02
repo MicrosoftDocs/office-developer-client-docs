@@ -1,6 +1,6 @@
 ﻿---
 title: Seek Method - ActiveX Data Objects (ADO)
-TOCTitle: Seek Method (ADO)
+TOCTitle: Seek method (ADO)
 ms:assetid: cf0f133b-31f2-a2df-6cf3-1b5fa73b516c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250027(v=office.15)
 ms:contentKeyID: 48547802
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Seek Method (ADO)
+# Seek method (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

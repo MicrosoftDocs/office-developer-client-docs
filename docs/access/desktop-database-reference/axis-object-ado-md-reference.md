@@ -1,6 +1,6 @@
 ﻿---
-title: Axis Object (ADO MD Reference)
-TOCTitle: Axis Object (ADO MD)
+title: Axis object (ADO MD reference)
+TOCTitle: Axis object (ADO MD)
 ms:assetid: 4ba92ac6-fa67-4eea-8231-3fc5168f342c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249239(v=office.15)
 ms:contentKeyID: 48544698
@@ -8,14 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Axis Object (ADO MD Reference)
-
+# Axis object (ADO MD reference)
 
 **Applies to**: Access 2013, Office 2013
 
-
-
-  - [Axis Object (ADO MD)](axis-object-ado-md.md)
-
-  - [Axis Properties, Methods, and Events (ADO MD)](axis-properties-methods-and-events-ado-md.md)
+- [Axis object (ADO MD)](axis-object-ado-md.md)
+- [Axis properties, methods, and events (ADO MD)](axis-properties-methods-and-events-ado-md.md)
 

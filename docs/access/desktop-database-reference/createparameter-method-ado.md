@@ -1,6 +1,6 @@
 ﻿---
-title: CreateParameter Method (ADO)
-TOCTitle: CreateParameter Method (ADO)
+title: CreateParameter method (ADO)
+TOCTitle: CreateParameter method (ADO)
 ms:assetid: cf080a0b-75d2-dcdf-2715-10af147358e9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250026(v=office.15)
 ms:contentKeyID: 48547799
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# CreateParameter Method (ADO)
+# CreateParameter method (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

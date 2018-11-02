@@ -1,6 +1,6 @@
 ﻿---
-title: ChildCount Property (ADO MD)
-TOCTitle: ChildCount Property (ADO MD)
+title: ChildCount property (ADO MD)
+TOCTitle: ChildCount property (ADO MD)
 ms:assetid: ff1872f0-d5f6-174e-0473-7997a462ca81
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250309(v=office.15)
 ms:contentKeyID: 48548956
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ChildCount Property (ADO MD)
+# ChildCount property (ADO MD)
 
 
 **Applies to**: Access 2013, Office 2013

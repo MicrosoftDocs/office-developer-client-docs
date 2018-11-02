@@ -1,6 +1,6 @@
 ﻿---
-title: Users Collection Properties, Methods, and Events (ADOX)
-TOCTitle: Users Collection Properties, Methods, and Events (ADOX)
+title: Users collection properties, methods, and events (ADOX)
+TOCTitle: Users collection properties, methods, and events (ADOX)
 ms:assetid: b15b153c-6234-514e-29c5-831801b5259b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249845(v=office.15)
 ms:contentKeyID: 48547146
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Users Collection Properties, Methods, and Events (ADOX)
+# Users collection properties, methods, and events (ADOX)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -28,19 +28,19 @@ None.
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="converttostring-method-rds.md">ConvertToString Method (RDS)</a></p></td>
+<td><p><a href="converttostring-method-rds.md">ConvertToString method (RDS)</a></p></td>
 <td><p>Converts a recordset into a MIME64 string.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="createrecordset-method-rds.md">CreateRecordset Method (RDS)</a></p></td>
+<td><p><a href="createrecordset-method-rds.md">CreateRecordset method (RDS)</a></p></td>
 <td><p>Creates and returns an empty recordset.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="query-method-rds.md">Query Method (RDS)</a></p></td>
+<td><p><a href="query-method-rds.md">Query method (RDS)</a></p></td>
 <td><p>Execute the request and create an advanced data rowset.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="submitchanges-method-rds.md">SubmitChanges Method (RDS)</a></p></td>
+<td><p><a href="submitchanges-method-rds.md">SubmitChanges method (RDS)</a></p></td>
 <td><p>Given a recordset with pending changes, this method submits them to the database identified in the connection string.</p></td>
 </tr>
 </tbody>

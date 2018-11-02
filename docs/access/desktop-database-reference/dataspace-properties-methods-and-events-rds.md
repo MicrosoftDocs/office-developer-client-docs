@@ -15,11 +15,11 @@ mtps_version: v=office.15
 
 ## Properties
 
-- [InternetTimeout Property (RDS)](internettimeout-property-rds.md)
+- [InternetTimeout property (RDS)](internettimeout-property-rds.md)
 
 ## Methods
 
-- [CreateObject Method (RDS)](createobject-method-rds.md)
+- [CreateObject method (RDS)](createobject-method-rds.md)
 
 ## Events
 

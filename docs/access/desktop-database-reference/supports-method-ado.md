@@ -1,6 +1,6 @@
 ﻿---
-title: Supports Method (ADO)
-TOCTitle: Supports Method (ADO)
+title: Supports method (ADO)
+TOCTitle: Supports method (ADO)
 ms:assetid: 2b4062ce-44df-4e84-1ce9-d6618c10c2af
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249059(v=office.15)
 ms:contentKeyID: 48543924
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Supports Method (ADO)
+# Supports method (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

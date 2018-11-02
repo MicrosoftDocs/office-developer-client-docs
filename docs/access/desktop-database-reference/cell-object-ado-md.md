@@ -1,6 +1,6 @@
 ﻿---
-title: Cell Object (ADO MD)
-TOCTitle: Cell Object (ADO MD)
+title: Cell object (ADO MD)
+TOCTitle: Cell object (ADO MD)
 ms:assetid: b9d00b71-1f40-5bd1-4b89-fbdb59c552ba
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249892(v=office.15)
 ms:contentKeyID: 48547356
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Cell Object (ADO MD)
+# Cell object (ADO MD)
 
 
 **Applies to**: Access 2013, Office 2013

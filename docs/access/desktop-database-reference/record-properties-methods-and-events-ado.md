@@ -1,5 +1,5 @@
 ﻿---
-title: Record Properties, Methods, and Events (ADO)
+title: Record properties, methods, and events (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: c38c915c-da8f-ce52-cf36-7463829d2278
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249956(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Record Properties, Methods, and Events (ADO)
+# Record properties, methods, and events (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

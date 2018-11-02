@@ -1,6 +1,6 @@
 ﻿---
 title: Clear Method - ActiveX Data Objects (ADO)
-TOCTitle: Clear Method (ADO)
+TOCTitle: Clear method (ADO)
 ms:assetid: 5d51f42c-147b-1fcf-d05b-123e5714ecb7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249329(v=office.15)
 ms:contentKeyID: 48545110
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Clear Method (ADO)
+# Clear method (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

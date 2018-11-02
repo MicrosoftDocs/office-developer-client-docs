@@ -1,6 +1,6 @@
 ﻿---
-title: Hierarchies Collection (ADO MD)
-TOCTitle: Hierarchies Collection (ADO MD)
+title: Hierarchies collection (ADO MD)
+TOCTitle: Hierarchies collection (ADO MD)
 ms:assetid: 5f8d4231-9d00-66d3-d7b0-f2a0b6b714cc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249348(v=office.15)
 ms:contentKeyID: 48545165
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Hierarchies Collection (ADO MD)
+# Hierarchies collection (ADO MD)
 
 
 **Applies to**: Access 2013, Office 2013

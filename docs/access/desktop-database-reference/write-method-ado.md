@@ -1,6 +1,6 @@
 ﻿---
 title: Write Method - ActiveX Data Objects (ADO)
-TOCTitle: Write Method (ADO)
+TOCTitle: Write method (ADO)
 ms:assetid: cabe4581-409f-7f05-bd59-d495bfb2c6fd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249986(v=office.15)
 ms:contentKeyID: 48547697
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Write Method (ADO)
+# Write method (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

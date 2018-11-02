@@ -1,5 +1,5 @@
 ﻿---
-title: Stream Properties, Methods, and Events (ADO)
+title: Stream properties, methods, and events (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 12542605-9520-f0a9-09e4-9eac6b37c35e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248897(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Stream Properties, Methods, and Events (ADO)
+# Stream properties, methods, and events (ADO)
 
 
 **Applies to**: Access 2013, Office 2013

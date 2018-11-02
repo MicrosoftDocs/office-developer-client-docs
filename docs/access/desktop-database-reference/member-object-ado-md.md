@@ -1,6 +1,6 @@
 ﻿---
-title: Member Object (ADO MD)
-TOCTitle: Member Object (ADO MD)
+title: Member object (ADO MD)
+TOCTitle: Member object (ADO MD)
 ms:assetid: d80c024a-07dc-7a35-f8f2-b4d5b19d89e4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250088(v=office.15)
 ms:contentKeyID: 48548025
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Member Object (ADO MD)
+# Member object (ADO MD)
 
 
 **Applies to**: Access 2013, Office 2013
