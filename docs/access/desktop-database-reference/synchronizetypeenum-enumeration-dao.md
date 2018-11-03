@@ -1,5 +1,5 @@
 ﻿---
-title: SynchronizeTypeEnum Enumeration (DAO)
+title: SynchronizeTypeEnum enumeration (DAO)
 TOCTitle: SynchronizeTypeEnum Enumeration
 ms:assetid: f9546171-283d-e9bd-5178-41bd4f41c9a6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837004(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# SynchronizeTypeEnum Enumeration (DAO)
+# SynchronizeTypeEnum enumeration (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

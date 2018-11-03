@@ -8,12 +8,9 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Step 2: Get the Data
-
+# Step 2: Get the data
 
 **Applies to**: Access 2013, Office 2013
-
-## Step 2: Get the Data
 
 In this step, you will write the code to open an ADO **Recordset** and prepare to send it to the client. Open the file XMLResponse.asp with a text editor, such as Windows Notepad, and insert the following code:
 

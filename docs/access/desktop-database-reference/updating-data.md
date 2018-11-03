@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Updating Data
+# Updating data
 
 
 **Applies to**: Access 2013, Office 2013
@@ -23,9 +23,7 @@ The current record remains current after you call the **Update** or **UpdateBatc
 
 This section includes the following topics:
 
-- [Immediate Mode](immediate-mode.md)
-
-- [Transaction Processing](transaction-processing.md)
-
-- [Batch Mode (ADO)](batch-mode.md)
+- [Immediate mode](immediate-mode.md)
+- [Transaction processing](transaction-processing.md)
+- [Batch mode (ADO)](batch-mode.md)
 

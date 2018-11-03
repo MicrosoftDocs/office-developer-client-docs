@@ -1,6 +1,6 @@
 ﻿---
-title: OLE DB Providers (Access desktop database reference)
-TOCTitle: OLE DB Providers
+title: OLE DB providers (Access desktop database reference)
+TOCTitle: OLE DB providers
 ms:assetid: ef412198-eac5-bf86-73fd-574e67276408
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250215(v=office.15)
 ms:contentKeyID: 48548576
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# OLE DB Providers
+# OLE DB providers
 
 
 **Applies to**: Access 2013, Office 2013

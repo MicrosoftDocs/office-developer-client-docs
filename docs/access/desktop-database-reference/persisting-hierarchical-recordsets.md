@@ -1,6 +1,6 @@
 ﻿---
-title: Persisting Hierarchical Recordsets
-TOCTitle: Persisting Hierarchical Recordsets
+title: Persisting hierarchical Recordsets
+TOCTitle: Persisting hierarchical Recordsets
 ms:assetid: 28f48d4a-1c32-7b60-cd65-51fb87c5380e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249048(v=office.15)
 ms:contentKeyID: 48543872
@@ -8,8 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Persisting Hierarchical Recordsets
-
+# Persisting hierarchical Recordsets
 
 **Applies to**: Access 2013, Office 2013
 

@@ -1,6 +1,6 @@
 ﻿---
-title: Initializing the Text Data Source Driver
-TOCTitle: Initializing the Text Data Source Driver
+title: Initializing the Text Data Source driver
+TOCTitle: Initializing the Text Data Source driver
 ms:assetid: cba0864e-5f94-bf43-4708-b1981e3acaff
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834391(v=office.15)
 ms:contentKeyID: 48547718
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Initializing the Text Data Source Driver
+# Initializing the Text Data Source driver
 
 
 **Applies to**: Access 2013, Office 2013

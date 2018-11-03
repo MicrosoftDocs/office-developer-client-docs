@@ -1,6 +1,6 @@
 ﻿---
-title: Making a Connection
-TOCTitle: Making a Connection
+title: Making a connection
+TOCTitle: Making a connection
 ms:assetid: 188f6794-f4ec-8e8d-5adc-bdee36f4c9ae
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248932(v=office.15)
 ms:contentKeyID: 48543472
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Making a Connection
+# Making a connection
 
 **Applies to**: Access 2013, Office 2013
 

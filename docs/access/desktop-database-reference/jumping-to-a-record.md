@@ -1,6 +1,6 @@
 ﻿---
-title: Jumping to a Record
-TOCTitle: Jumping to a Record
+title: Jumping to a record
+TOCTitle: Jumping to a record
 ms:assetid: 27177bbe-066c-aeb0-6dfd-45d8c2a87487
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249033(v=office.15)
 ms:contentKeyID: 48543829
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Jumping to a Record
+# Jumping to a record
 
 
 **Applies to**: Access 2013, Office 2013

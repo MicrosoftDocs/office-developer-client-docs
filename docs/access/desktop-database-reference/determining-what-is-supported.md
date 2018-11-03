@@ -1,6 +1,6 @@
 ﻿---
-title: Determining What is Supported
-TOCTitle: Determining What is Supported
+title: Determining what is supported
+TOCTitle: Determining what is supported
 ms:assetid: 47b44dc9-e0fd-f204-0c68-e0de9247ee2c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249221(v=office.15)
 ms:contentKeyID: 48544602
@@ -8,8 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Determining What is Supported
-
+# Determining what is supported
 
 **Applies to**: Access 2013, Office 2013
 

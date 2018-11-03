@@ -1,6 +1,6 @@
 ﻿---
-title: Initializing the Microsoft Exchange Data Source Driver
-TOCTitle: Initializing the Microsoft Exchange Data Source Driver
+title: Initializing the Microsoft Exchange Data Source driver
+TOCTitle: Initializing the Microsoft Exchange Data Source driver
 ms:assetid: cf87a746-f846-1a01-f4ec-20a25e335193
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834677(v=office.15)
 ms:contentKeyID: 48547810
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Initializing the Microsoft Exchange Data Source Driver
+# Initializing the Microsoft Exchange Data Source driver
 
 **Applies to**: Access 2013, Office 2013
 

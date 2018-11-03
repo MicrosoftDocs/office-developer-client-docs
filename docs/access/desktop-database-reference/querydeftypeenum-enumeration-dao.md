@@ -1,5 +1,5 @@
 ﻿---
-title: QueryDefTypeEnum Enumeration (DAO)
+title: QueryDefTypeEnum enumeration (DAO)
 TOCTitle: QueryDefTypeEnum Enumeration
 ms:assetid: 4327af31-daa1-88a2-fef5-8894181eee8c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192931(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# QueryDefTypeEnum Enumeration (DAO)
+# QueryDefTypeEnum enumeration (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

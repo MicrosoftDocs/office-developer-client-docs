@@ -10,10 +10,7 @@ mtps_version: v=office.15
 
 # Indexes properties (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
-
-
-  - [Indexes.Count property (DAO)](indexes-count-property-dao.md)
+- [Indexes.Count property (DAO)](indexes-count-property-dao.md)
 

@@ -10,18 +10,11 @@ mtps_version: v=office.15
 
 # Parameter properties (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
-
-
-  - [Parameter.Direction property (DAO)](parameter-direction-property-dao.md)
-
-  - [Parameter.Name property (DAO)](parameter-name-property-dao.md)
-
-  - [Parameter.Properties property (DAO)](parameter-properties-property-dao.md)
-
-  - [Parameter.Type property (DAO)](parameter-type-property-dao.md)
-
-  - [Parameter.Value property (DAO)](parameter-value-property-dao.md)
+- [Parameter.Direction property (DAO)](parameter-direction-property-dao.md)
+- [Parameter.Name property (DAO)](parameter-name-property-dao.md)
+- [Parameter.Properties property (DAO)](parameter-properties-property-dao.md)
+- [Parameter.Type property (DAO)](parameter-type-property-dao.md)
+- [Parameter.Value property (DAO)](parameter-value-property-dao.md)
 

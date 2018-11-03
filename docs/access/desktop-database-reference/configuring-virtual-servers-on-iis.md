@@ -1,6 +1,6 @@
 ﻿---
-title: Configuring Virtual Servers on IIS
-TOCTitle: Configuring Virtual Servers on IIS
+title: Configuring virtual servers on IIS
+TOCTitle: Configuring virtual servers on IIS
 ms:assetid: 0a8057a2-c90b-d0b5-21c8-5343e80708ce
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248837(v=office.15)
 ms:contentKeyID: 48543154
@@ -8,8 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Configuring Virtual Servers on IIS
-
+# Configuring virtual servers on IIS
 
 **Applies to**: Access 2013, Office 2013
 

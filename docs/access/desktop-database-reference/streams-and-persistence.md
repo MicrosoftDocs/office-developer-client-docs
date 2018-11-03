@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Streams and Persistence
+# Streams and persistence
 
 
 **Applies to**: Access 2013, Office 2013

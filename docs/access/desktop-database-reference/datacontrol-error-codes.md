@@ -1,6 +1,6 @@
 ﻿---
-title: DataControl Error Codes
-TOCTitle: DataControl Error Codes
+title: DataControl error codes
+TOCTitle: DataControl error codes
 ms:assetid: d81446e2-aae6-b460-08a3-eae9920dc767
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250089(v=office.15)
 ms:contentKeyID: 48548027
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# DataControl Error Codes
+# DataControl error codes
 
 
 **Applies to**: Access 2013, Office 2013

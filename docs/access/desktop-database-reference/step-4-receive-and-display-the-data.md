@@ -8,12 +8,9 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Step 4: Receive and Display the Data
-
+# Step 4: Receive and display the data
 
 **Applies to**: Access 2013, Office 2013
-
-## Step 4: Receive and Display the Data
 
 In this step you will create an HTML file with an embedded [RDS.DataControl](datacontrol-object-rds.md) object that points at the XMLResponse.asp file to get the **Recordset**. Open default.htm with a text editor, such as Windows Notepad, and add the code below. Replace "sqlserver" in the URL with the name of your server computer.
 

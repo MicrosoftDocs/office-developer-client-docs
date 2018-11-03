@@ -1,6 +1,6 @@
 ﻿---
-title: Data Shaping (Access desktop database reference)
-TOCTitle: Data Shaping
+title: Data shaping (Access desktop database reference)
+TOCTitle: Data shaping
 ms:assetid: 650571cc-6874-2cdb-dd76-0804d1cc4e38
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249390(v=office.15)
 ms:contentKeyID: 48545305
@@ -8,8 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Data Shaping
-
+# Data shaping
 
 **Applies to**: Access 2013, Office 2013
 
@@ -36,9 +35,6 @@ For examples of shape commands and their resulting hierarchies, see Using the Da
 This section includes the following topics:
 
 - [Reshaping](reshaping.md)
-
-- [Grandchild Aggregates](grandchild-aggregates.md)
-
-- [Parameterized Commands with Intervening COMPUTE Commands](parameterized-commands-with-intervening-compute-commands.md)
-
-- [Persisting Hierarchical Recordsets](persisting-hierarchical-recordsets.md)
+- [Grandchild aggregates](grandchild-aggregates.md)
+- [Parameterized commands with intervening COMPUTE commands](parameterized-commands-with-intervening-compute-commands.md)
+- [Persisting hierarchical Recordsets](persisting-hierarchical-recordsets.md)

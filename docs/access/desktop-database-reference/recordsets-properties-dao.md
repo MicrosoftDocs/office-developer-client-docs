@@ -10,10 +10,7 @@ mtps_version: v=office.15
 
 # Recordsets properties (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
-
-
-  - [Recordsets.Count property (DAO)](recordsets-count-property-dao.md)
+- [Recordsets.Count property (DAO)](recordsets-count-property-dao.md)
 

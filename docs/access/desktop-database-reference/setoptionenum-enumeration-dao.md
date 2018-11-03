@@ -1,5 +1,5 @@
 ﻿---
-title: SetOptionEnum Enumeration (DAO)
+title: SetOptionEnum enumeration (DAO)
 TOCTitle: SetOptionEnum Enumeration
 ms:assetid: 0a26b7f7-b6cd-cf0f-1071-d872beeefaa5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845094(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# SetOptionEnum Enumeration (DAO)
+# SetOptionEnum enumeration (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

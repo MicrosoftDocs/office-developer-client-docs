@@ -10,18 +10,16 @@ mtps_version: v=office.15
 
 # Levels collection properties, methods, and events (ADO MD)
 
-
 **Applies to**: Access 2013, Office 2013
 
 ## Properties
 
-- [Count Property](count-property-ado.md)
-
-- [Item Property](item-property-ado.md)
+- [Count property](count-property-ado.md)
+- [Item property](item-property-ado.md)
 
 ## Methods
 
-- [Refresh Method](refresh-method-ado.md)
+- [Refresh method](refresh-method-ado.md)
 
 ## Events
 

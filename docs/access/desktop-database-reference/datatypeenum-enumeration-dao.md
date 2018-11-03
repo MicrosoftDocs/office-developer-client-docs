@@ -1,5 +1,5 @@
 ﻿---
-title: DataTypeEnum Enumeration (DAO)
+title: DataTypeEnum enumeration (DAO)
 TOCTitle: DataTypeEnum Enumeration
 ms:assetid: 59ead483-52fc-53cd-02e6-084814f961ac
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194420(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# DataTypeEnum Enumeration (DAO)
+# DataTypeEnum enumeration (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

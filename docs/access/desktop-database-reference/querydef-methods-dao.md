@@ -10,18 +10,11 @@ mtps_version: v=office.15
 
 # QueryDef methods (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
-
-
-  - [QueryDef.Cancel method (DAO)](querydef-cancel-method-dao.md)
-
-  - [QueryDef.Close method (DAO)](querydef-close-method-dao.md)
-
-  - [QueryDef.CreateProperty method (DAO)](querydef-createproperty-method-dao.md)
-
-  - [QueryDef.Execute method (DAO)](querydef-execute-method-dao.md)
-
-  - [QueryDef.OpenRecordset method (DAO)](querydef-openrecordset-method-dao.md)
+- [QueryDef.Cancel method (DAO)](querydef-cancel-method-dao.md)
+- [QueryDef.Close method (DAO)](querydef-close-method-dao.md)
+- [QueryDef.CreateProperty method (DAO)](querydef-createproperty-method-dao.md)
+- [QueryDef.Execute method (DAO)](querydef-execute-method-dao.md)
+- [QueryDef.OpenRecordset method (DAO)](querydef-openrecordset-method-dao.md)
 

@@ -1,6 +1,6 @@
 ﻿---
-title: Recordset-Related Error Information
-TOCTitle: Recordset-Related Error Information
+title: Recordset-related error information
+TOCTitle: Recordset-related error information
 ms:assetid: 388308c7-e121-bd12-228a-312c897b8c55
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249136(v=office.15)
 ms:contentKeyID: 48544222
@@ -8,8 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Recordset-Related Error Information
-
+# Recordset-related error information
 
 **Applies to**: Access 2013, Office 2013
 

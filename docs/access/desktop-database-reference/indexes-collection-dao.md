@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Indexes collection (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 An **Indexes** collection contains all the stored **Index** objects of a **TableDef** object (Microsoft Access workspaces only).
@@ -21,9 +20,7 @@ When you access a table-type Recordset object, use the object's **Index** proper
 
 
 > [!NOTE]
-> <P>You can use the <STRONG>Append</STRONG> or <STRONG>Delete</STRONG> method on an <STRONG>Indexes</STRONG> collection only if the <STRONG><A href="connection-updatable-property-dao.md">Updatable</A></STRONG> property setting of the containing <STRONG>TableDef</STRONG> object is <STRONG>True</STRONG>.</P>
-
-
+> You can use the **Append** or **Delete** method on an **Indexes** collection only if the **[Updatable](connection-updatable-property-dao.md)** property setting of the containing **TableDef** object is **True**.
 
 After you create a new **Index** object, you should use the **Append** method to add it to the **TableDef** object's **Indexes** collection.
 

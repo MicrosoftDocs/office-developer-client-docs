@@ -1,6 +1,6 @@
 ﻿---
-title: Operation of Non-Parameterized Commands
-TOCTitle: Operation of Non-Parameterized Commands
+title: Operation of non-parameterized commands
+TOCTitle: Operation of non-parameterized commands
 ms:assetid: 934740b1-07d0-140e-7c83-00feb34c01d1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249651(v=office.15)
 ms:contentKeyID: 48546395
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Operation of Non-Parameterized Commands
+# Operation of non-parameterized commands
 
 
 **Applies to**: Access 2013, Office 2013

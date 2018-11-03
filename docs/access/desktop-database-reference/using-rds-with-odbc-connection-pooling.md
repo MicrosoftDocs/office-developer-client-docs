@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Using RDS with ODBC Connection Pooling
+# Using RDS with ODBC connection pooling
 
 
 **Applies to**: Access 2013, Office 2013

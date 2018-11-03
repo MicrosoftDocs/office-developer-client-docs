@@ -1,6 +1,6 @@
 ﻿---
-title: Disconnecting and Reconnecting the Recordset
-TOCTitle: Disconnecting and Reconnecting the Recordset
+title: Disconnecting and reconnecting the Recordset
+TOCTitle: Disconnecting and reconnecting the Recordset
 ms:assetid: d608d95d-9a4e-17a1-107a-b88b77f3774c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250077(v=office.15)
 ms:contentKeyID: 48547975
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Disconnecting and Reconnecting the Recordset
+# Disconnecting and reconnecting the Recordset
 
 
 **Applies to**: Access 2013, Office 2013

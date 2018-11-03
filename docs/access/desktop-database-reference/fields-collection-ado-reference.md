@@ -10,12 +10,8 @@ mtps_version: v=office.15
 
 # Fields collection (ADO) reference
 
-
 **Applies to**: Access 2013, Office 2013
 
-
-
-  - [Fields collection (ADO)](fields-collection-ado.md)
-
-  - [Fields collection properties, methods, and events](fields-collection-properties-methods-and-events.md)
+- [Fields collection (ADO)](fields-collection-ado.md)
+- [Fields collection properties, methods, and events](fields-collection-properties-methods-and-events.md)
 

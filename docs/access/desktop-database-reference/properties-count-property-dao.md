@@ -27,9 +27,6 @@ You can use the **Count** property to determine the number of items in a specifi
 
 ## See also
 
-#### Other resources
-
-[Properties Collection](https://msdn.microsoft.com/library/ff196448\(v=office.15\))
-
-[Properties Members](https://msdn.microsoft.com/library/ff836991\(v=office.15\))
+- [Properties collection](https://msdn.microsoft.com/library/ff196448\(v=office.15\))
+- [Properties members](https://msdn.microsoft.com/library/ff836991\(v=office.15\))
 

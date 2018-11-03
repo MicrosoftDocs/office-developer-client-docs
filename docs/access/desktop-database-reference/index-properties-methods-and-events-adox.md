@@ -15,19 +15,14 @@ mtps_version: v=office.15
 
 ## Properties/Collections
 
-- [Clustered Property](clustered-property-adox.md)
+- [Clustered property](clustered-property-adox.md)
+- [Columns collection](columns-collection-adox.md)
+- [IndexNulls property](indexnulls-property-adox.md)
+- [Name property](name-property-adox.md)
+- [PrimaryKey property](primarykey-property-adox.md)
+- [Properties collection](properties-collection-ado.md)
+- [Unique property](unique-property-adox.md)
 
-- [Columns Collection](columns-collection-adox.md)
-
-- [IndexNulls Property](indexnulls-property-adox.md)
-
-- [Name Property](name-property-adox.md)
-
-- [PrimaryKey Property](primarykey-property-adox.md)
-
-- [Properties Collection](properties-collection-ado.md)
-
-- [Unique Property](unique-property-adox.md)
 
 ## Methods
 

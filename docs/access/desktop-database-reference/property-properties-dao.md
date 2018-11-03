@@ -10,18 +10,11 @@ mtps_version: v=office.15
 
 # Property properties (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
-
-
-  - [Property.Inherited property (DAO)](property-inherited-property-dao.md)
-
-  - [Property.Name property (DAO)](property-name-property-dao.md)
-
-  - [Property.Properties property (DAO)](property-properties-property-dao.md)
-
-  - [Property.Type property (DAO)](property-type-property-dao.md)
-
-  - [Property.Value property (DAO)](property-value-property-dao.md)
+- [Property.Inherited property (DAO)](property-inherited-property-dao.md)
+- [Property.Name property (DAO)](property-name-property-dao.md)
+- [Property.Properties property (DAO)](property-properties-property-dao.md)
+- [Property.Type property (DAO)](property-type-property-dao.md)
+- [Property.Value property (DAO)](property-value-property-dao.md)
 

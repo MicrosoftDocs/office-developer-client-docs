@@ -1,6 +1,6 @@
 ﻿---
-title: Provider Support for ADOX
-TOCTitle: Provider Support for ADOX
+title: Provider support for ADOX
+TOCTitle: Provider support for ADOX
 ms:assetid: 32ea3236-d69f-df94-1685-d8791aeb9e0f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249100(v=office.15)
 ms:contentKeyID: 48544091
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Provider Support for ADOX
+# Provider support for ADOX
 
 
 **Applies to**: Access 2013, Office 2013

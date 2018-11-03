@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Understanding Recordset Structure
+# Understanding Recordset structure
 
 **Applies to**: Access 2013, Office 2013
 
@@ -16,9 +16,7 @@ Every **Recordset** has a **Fields** collection consisting of one or more **Fiel
 
 The following topics explain how to navigate through the **Fields** collection and get information about each field. They then discuss what kind of information is available to you via the **Field** object and how to use it.
 
-- [The Fields Collection](the-fields-collection.md)
-
-- [The Field Object](the-field-object.md)
-
+- [Fields collection](the-fields-collection.md)
+- [Field object](the-field-object.md)
 - [Working with Recordsets](working-with-recordsets.md)
 

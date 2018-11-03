@@ -8,12 +8,9 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Step 1: Set Up the Application
-
+# Step 1: Set up the application
 
 **Applies to**: Access 2013, Office 2013
-
-## Step 1: Set Up the Application
 
 Create an IIS virtual directory named "XMLPersist" with script permissions. Create two new text files in the folder to which the virtual directory points, one named "XMLResponse.asp," the other named "Default.htm."
 

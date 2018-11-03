@@ -1,5 +1,5 @@
 ﻿---
-title: UpdateTypeEnum Enumeration (DAO)
+title: UpdateTypeEnum enumeration (DAO)
 TOCTitle: UpdateTypeEnum Enumeration
 ms:assetid: 7ac38bae-27fc-f3d0-5b75-569bce547954
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196186(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# UpdateTypeEnum Enumeration (DAO)
+# UpdateTypeEnum enumeration (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

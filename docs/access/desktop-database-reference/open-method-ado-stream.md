@@ -1,6 +1,6 @@
 ﻿---
-title: Open Method (ADO Stream)
-TOCTitle: Open Method (ADO Stream)
+title: Open method (ADO Stream)
+TOCTitle: Open method (ADO Stream)
 ms:assetid: fa2e6aaa-e9f5-009c-f3a0-050a00abf9b0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250275(v=office.15)
 ms:contentKeyID: 48548833
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Open Method (ADO Stream)
+# Open method (ADO Stream)
 
 
 **Applies to**: Access 2013, Office 2013

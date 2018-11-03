@@ -13,7 +13,7 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013, Office 2013
 
-## Updating JOINed Results: Unique Table
+## Updating JOINed results: Unique Table
 
 ADO enables you to closely control modifications to a particular base table in a **Recordset** that was formed by a JOIN operation on multiple base tables using the **Unique Table** dynamic property. For details on using **Unique Table**, refer to the ADO programmer's reference topics on the **Unique Table** and **Update Resynch** dynamic properties.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: UpdateCriteriaEnum Enumeration (DAO)
+title: UpdateCriteriaEnum enumeration (DAO)
 TOCTitle: UpdateCriteriaEnum Enumeration
 ms:assetid: 1f83a0c6-bdc8-9c3e-380b-524f611f6476
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845853(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# UpdateCriteriaEnum Enumeration (DAO)
+# UpdateCriteriaEnum enumeration (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

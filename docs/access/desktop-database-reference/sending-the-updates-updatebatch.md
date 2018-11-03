@@ -1,6 +1,6 @@
 ﻿---
-title: 'Sending the Updates: UpdateBatch'
-TOCTitle: 'Sending the Updates: UpdateBatch'
+title: 'Sending the updates: UpdateBatch'
+TOCTitle: 'Sending the updates: UpdateBatch'
 ms:assetid: a840b9a7-7ccd-9c31-7951-8921dadf381e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249778(v=office.15)
 ms:contentKeyID: 48546898
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Sending the Updates: UpdateBatch
+# Sending the updates: UpdateBatch
 
 
 **Applies to**: Access 2013, Office 2013

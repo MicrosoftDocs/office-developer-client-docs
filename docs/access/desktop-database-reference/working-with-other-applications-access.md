@@ -13,9 +13,7 @@ mtps_version: v=office.15
 **Applies to**: Access 2013, Office 2013
 
 - [Automation with Microsoft Access](automation-with-microsoft-access.md)
-
 - [Use ActiveX Data Objects](using-activex-data-objects.md)
-
 - [Use Microsoft Access as a DDE server](use-microsoft-access-as-a-dde-server.md)
 
 

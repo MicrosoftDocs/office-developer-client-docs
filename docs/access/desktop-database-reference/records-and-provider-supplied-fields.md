@@ -1,6 +1,6 @@
 ﻿---
-title: Records and Provider-Supplied Fields
-TOCTitle: Records and Provider-Supplied Fields
+title: Records and provider-supplied fields
+TOCTitle: Records and provider-supplied fields
 ms:assetid: cde72d6a-b9b0-9636-581d-68239a3f522d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250022(v=office.15)
 ms:contentKeyID: 48547776
@@ -8,8 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Records and Provider-Supplied Fields
-
+# Records and provider-supplied fields
 
 **Applies to**: Access 2013, Office 2013
 

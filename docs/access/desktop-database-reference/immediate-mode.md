@@ -1,6 +1,6 @@
 ﻿---
-title: Immediate Mode (Access desktop database reference)
-TOCTitle: Immediate Mode
+title: Immediate mode (Access desktop database reference)
+TOCTitle: Immediate mode
 ms:assetid: 61bd3645-6e84-2e3a-7814-37d8c1247df0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249362(v=office.15)
 ms:contentKeyID: 48545220
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Immediate Mode
+# Immediate mode
 
 
 **Applies to**: Access 2013, Office 2013

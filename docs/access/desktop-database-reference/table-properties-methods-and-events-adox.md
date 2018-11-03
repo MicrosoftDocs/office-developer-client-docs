@@ -10,24 +10,18 @@ mtps_version: v=office.15
 
 # Table properties, methods, and events (ADOX)
 
-
 **Applies to**: Access 2013, Office 2013
 
 ## Properties/Collections
 
-- [DateCreated Property](datecreated-property-adox.md)
+- [DateCreated property](datecreated-property-adox.md)
+- [DateModified property](datemodified-property-adox.md)
+- [Indexes collection](indexes-collection-adox.md)
+- [Keys collection](keys-collection-adox.md)
+- [Name property](name-property-adox.md)
+- [ParentCatalog property](parentcatalog-property-adox.md)
+- [Type property (Table)](https://msdn.microsoft.com/library/jj250042\(v=office.15\))
 
-- [DateModified Property](datemodified-property-adox.md)
-
-- [Indexes Collection](indexes-collection-adox.md)
-
-- [Keys Collection](keys-collection-adox.md)
-
-- [Name Property](name-property-adox.md)
-
-- [ParentCatalog Property](parentcatalog-property-adox.md)
-
-- [Type Property (Table)](https://msdn.microsoft.com/library/jj250042\(v=office.15\))
 
 ## Methods
 

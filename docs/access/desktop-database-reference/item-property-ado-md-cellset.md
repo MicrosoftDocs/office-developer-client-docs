@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Item Property (ADO MD Cellset)
+# Item property (ADO MD Cellset)
 
 **Applies to**: Access 2013, Office 2013
 

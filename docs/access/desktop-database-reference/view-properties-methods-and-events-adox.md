@@ -15,13 +15,10 @@ mtps_version: v=office.15
 
 ## Properties
 
-- [Command Property](command-property-adox.md)
-
-- [DateCreated Property](datecreated-property-adox.md)
-
-- [DateModified Property](datemodified-property-adox.md)
-
-- [Name Property](name-property-adox.md)
+- [Command property](command-property-adox.md)
+- [DateCreated property](datecreated-property-adox.md)
+- [DateModified property](datemodified-property-adox.md)
+- [Name property](name-property-adox.md)
 
 ## Methods
 

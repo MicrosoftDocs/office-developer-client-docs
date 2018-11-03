@@ -10,12 +10,8 @@ mtps_version: v=office.15
 
 # Errors collection (ADO) reference
 
-
 **Applies to**: Access 2013, Office 2013
 
-
-
-  - [Errors collection (ADO)](errors-collection-ado.md)
-
-  - [Errors collection properties, methods, and events](errors-collection-properties-methods-and-events.md)
+- [Errors collection (ADO)](errors-collection-ado.md)
+- [Errors collection properties, methods, and events](errors-collection-properties-methods-and-events.md)
 

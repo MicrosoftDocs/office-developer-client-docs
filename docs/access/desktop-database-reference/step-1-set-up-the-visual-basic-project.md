@@ -8,12 +8,9 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Step 1: Set Up the Visual Basic Project
-
+# Step 1: Set up the Visual Basic project
 
 **Applies to**: Access 2013, Office 2013
-
-## Step 1: Set Up the Visual Basic Project
 
 In this scenario, it is assumed that you have Microsoft Visual Basic 6.0 or later, ADO 2.5 or later, and the Microsoft OLE DB Provider for Internet Publishing installed on your system.
 

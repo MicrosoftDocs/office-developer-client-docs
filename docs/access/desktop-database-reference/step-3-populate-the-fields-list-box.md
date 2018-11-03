@@ -8,12 +8,9 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Step 3: Populate the Fields List Box
-
+# Step 3: Populate the Fields list box
 
 **Applies to**: Access 2013, Office 2013
-
-## Step 3: Populate the Fields List Box
 
 **To populate the Fields list box**
 

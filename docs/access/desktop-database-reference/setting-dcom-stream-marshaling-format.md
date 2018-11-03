@@ -1,6 +1,6 @@
 ﻿---
-title: Setting DCOM Stream Marshaling Format
-TOCTitle: Setting DCOM Stream Marshaling Format
+title: Setting DCOM stream marshaling format
+TOCTitle: Setting DCOM stream marshaling format
 ms:assetid: 5f75fc59-a9f8-6686-07f9-de292e4da787
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249346(v=office.15)
 ms:contentKeyID: 48545162
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Setting DCOM Stream Marshaling Format
+# Setting DCOM stream marshaling format
 
 
 **Applies to**: Access 2013, Office 2013

@@ -8,12 +8,9 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Step 4: Populate the Details Text Box
-
+# Step 4: Populate the Details text box
 
 **Applies to**: Access 2013, Office 2013
-
-## Step 4: Populate the Details Text Box
 
 **To populate the Details text box**
 

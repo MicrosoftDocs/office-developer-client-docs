@@ -14,23 +14,17 @@ mtps_version: v=office.15
 
 ## Properties
 
-- [Count Property](count-property-ado.md)
-
-- [Item Property](item-property-ado.md)
+- [Count property](count-property-ado.md)
+- [Item property](item-property-ado.md)
 
 ## Methods
 
-- [Append Method](append-method-ado.md)
-
-- [CancelUpdate Method](cancelupdate-method-ado.md)
-
-- [Delete Method (ADO Fields Collection)](delete-method-ado-fields-collection.md)
-
-- [Refresh Method](refresh-method-ado.md)
-
-- [Resync Method](resync-method-ado.md)
-
-- [Update Method](update-method-ado.md)
+- [Append method](append-method-ado.md)
+- [CancelUpdate method](cancelupdate-method-ado.md)
+- [Delete method (ADO Fields Collection)](delete-method-ado-fields-collection.md)
+- [Refresh method](refresh-method-ado.md)
+- [Resync method](resync-method-ado.md)
+- [Update method](update-method-ado.md)
 
 ## Events
 

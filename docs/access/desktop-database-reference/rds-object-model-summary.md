@@ -1,6 +1,6 @@
 ﻿---
-title: RDS Object Model Summary
-TOCTitle: RDS Object Model Summary
+title: RDS object model summary
+TOCTitle: RDS object model summary
 ms:assetid: 0355d62a-dabb-8643-5c43-1e98ccf7f3b0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248800(v=office.15)
 ms:contentKeyID: 48542981
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# RDS Object Model Summary
+# RDS object model summary
 
 
 **Applies to**: Access 2013, Office 2013

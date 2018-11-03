@@ -10,56 +10,37 @@ mtps_version: v=office.15
 
 # Stream properties, methods, and events (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 ## Properties
 
-- [Charset Property](charset-property-ado.md)
+- [Charset property](charset-property-ado.md)
+- [EOS property](eos-property-ado.md)
+- [LineSeparator property](lineseparator-property-ado.md)
+- [Mode property](mode-property-ado.md)
+- [Position property](position-property-ado.md)
+- [Size property (ADO Stream)](https://msdn.microsoft.com/library/jj250128\(v=office.15\))
+- [State property](state-property-ado.md)
+- [Type property (ADO Stream)](type-property-ado-stream.md)
 
-- [EOS Property](eos-property-ado.md)
-
-- [LineSeparator Property](lineseparator-property-ado.md)
-
-- [Mode Property](mode-property-ado.md)
-
-- [Position Property](position-property-ado.md)
-
-- [Size Property (ADO Stream)](https://msdn.microsoft.com/library/jj250128\(v=office.15\))
-
-- [State Property](state-property-ado.md)
-
-- [Type Property (ADO Stream)](type-property-ado-stream.md)
 
 ## Methods
 
-- [Cancel Method](cancel-method-ado.md)
+- [Cancel method](cancel-method-ado.md)
+- [Close method](close-method-ado.md)
+- [CopyTo method](copyto-method-ado.md)
+- [Flush method](flush-method-ado.md)
+- [LoadFromFile method](loadfromfile-method-ado.md)
+- [Open method (ADO Stream)](open-method-ado-stream.md)
+- [Read method](read-method-ado.md)
+- [ReadText method](readtext-method-ado.md)
+- [SaveToFile method](savetofile-method-ado.md)
+- [SetEOS method](seteos-method-ado.md)
+- [SkipLine method](skipline-method-ado.md)
+- [Stat method](stat-method-ado.md)
+- [Write method](write-method-ado.md)
+- [WriteText method](writetext-method-ado.md)
 
-- [Close Method](close-method-ado.md)
-
-- [CopyTo Method](copyto-method-ado.md)
-
-- [Flush Method](flush-method-ado.md)
-
-- [LoadFromFile Method](loadfromfile-method-ado.md)
-
-- [Open Method (ADO Stream)](open-method-ado-stream.md)
-
-- [Read Method](read-method-ado.md)
-
-- [ReadText Method](readtext-method-ado.md)
-
-- [SaveToFile Method](savetofile-method-ado.md)
-
-- [SetEOS Method](seteos-method-ado.md)
-
-- [SkipLine Method](skipline-method-ado.md)
-
-- [Stat Method](stat-method-ado.md)
-
-- [Write Method](write-method-ado.md)
-
-- [WriteText Method](writetext-method-ado.md)
 
 ## Events
 

@@ -10,10 +10,7 @@ mtps_version: v=office.15
 
 # Errors properties (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
-
-
-  - [Errors.Count property (DAO)](errors-count-property-dao.md)
+- [Errors.Count property (DAO)](errors-count-property-dao.md)
 

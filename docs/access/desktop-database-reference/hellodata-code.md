@@ -1,6 +1,6 @@
 ﻿---
-title: HelloData Code (Access desktop database reference)
-TOCTitle: HelloData Code
+title: HelloData code (Access desktop database reference)
+TOCTitle: HelloData code
 ms:assetid: b413a72a-fb85-177a-2d93-27c2bde935b3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249860(v=office.15)
 ms:contentKeyID: 48547213
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# HelloData Code
+# HelloData code
 
 
 **Applies to**: Access 2013, Office 2013

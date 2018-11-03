@@ -1,6 +1,6 @@
 ﻿---
-title: Running Business Objects in Component Services
-TOCTitle: Running Business Objects in Component Services
+title: Running business objects in component services
+TOCTitle: Running business objects in component services
 ms:assetid: 12103458-b1dd-10fc-37e8-883fd6c6b9d1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248893(v=office.15)
 ms:contentKeyID: 48543328
@@ -8,8 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Running Business Objects in Component Services
-
+# Running business objects in component services
 
 **Applies to**: Access 2013, Office 2013
 

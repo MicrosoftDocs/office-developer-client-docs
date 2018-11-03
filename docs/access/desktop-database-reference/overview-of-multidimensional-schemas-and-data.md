@@ -1,6 +1,6 @@
 ﻿---
-title: Overview of Multidimensional Schemas and Data
-TOCTitle: Overview of Multidimensional Schemas and Data
+title: Overview of multidimensional schemas and data
+TOCTitle: Overview of multidimensional schemas and data
 ms:assetid: a963e993-b7bf-eeb4-ecd5-d6fe43cf4bb5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249784(v=office.15)
 ms:contentKeyID: 48546923
@@ -8,8 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Overview of Multidimensional Schemas and Data
-
+# Overview of multidimensional schemas and data
 
 **Applies to**: Access 2013, Office 2013
 

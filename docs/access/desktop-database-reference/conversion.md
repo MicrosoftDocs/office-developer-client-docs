@@ -13,9 +13,7 @@ mtps_version: v=office.15
 **Applies to**: Access 2013, Office 2013
 
 - [Changes in Access](changes-in-access.md)
-
 - [Convert DAO code to ADO](converting-dao-code-to-ado.md)
-
 - [Convert tables, forms, and reports](convert-microsoft-access-tables-forms-and-reports.md)
 
 

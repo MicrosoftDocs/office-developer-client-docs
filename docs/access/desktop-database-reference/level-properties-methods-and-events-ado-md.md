@@ -10,24 +10,17 @@ mtps_version: v=office.15
 
 # Level properties, methods, and events (ADO MD)
 
-
 **Applies to**: Access 2013, Office 2013
 
 ## Properties/Collections
 
-- [Caption Property](caption-property-ado-md.md)
-
-- [Depth Property](depth-property-ado-md.md)
-
-- [Description Property](description-property-ado-md.md)
-
-- [Members Collection](members-collection-ado-md.md)
-
-- [Name Property](name-property-ado-md.md)
-
-- [Properties Collection](properties-collection-ado.md)
-
-- [UniqueName Property](uniquename-property-ado-md.md)
+- [Caption property](caption-property-ado-md.md)
+- [Depth property](depth-property-ado-md.md)
+- [Description property](description-property-ado-md.md)
+- [Members collection](members-collection-ado-md.md)
+- [Name property](name-property-ado-md.md)
+- [Properties collection](properties-collection-ado.md)
+- [UniqueName property](uniquename-property-ado-md.md)
 
 ## Methods
 

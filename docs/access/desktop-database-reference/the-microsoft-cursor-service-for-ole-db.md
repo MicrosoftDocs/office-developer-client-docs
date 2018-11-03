@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# The Microsoft Cursor Service for OLE DB
+# Microsoft Cursor Service for OLE DB
 
 
 **Applies to**: Access 2013, Office 2013

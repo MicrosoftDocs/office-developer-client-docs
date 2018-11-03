@@ -1,6 +1,6 @@
 ﻿---
-title: 'HelloData: A Simple ADO Application'
-TOCTitle: 'HelloData: A Simple ADO Application'
+title: 'HelloData: A simple ADO application'
+TOCTitle: 'HelloData: A simple ADO application'
 ms:assetid: c271abeb-8865-81f9-db8e-47d3db87ad30
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249950(v=office.15)
 ms:contentKeyID: 48547554
@@ -8,8 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# HelloData: A Simple ADO Application
-
+# HelloData: A simple ADO application
 
 **Applies to**: Access 2013, Office 2013
 

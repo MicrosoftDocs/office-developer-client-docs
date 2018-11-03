@@ -22,19 +22,19 @@ FetchProgress*Progress*, *MaxProgress*, *adStatus*, *pRecordset*
 
 ## Parameters
 
-  - *Progress*
+- *Progress*
 
   - A **Long** value indicating the number of records that have currently been retrieved by the fetch operation.
 
-  - *MaxProgress*
+- *MaxProgress*
 
   - A **Long** value indicating the maximum number of records expected to be retrieved.
 
-  - *adStatus*
+- *adStatus*
 
   - An [EventStatusEnum](eventstatusenum.md) status value.
 
-  - *pRecordset*
+- *pRecordset*
 
   - A **Recordset** object that is the object for which the records are being retrieved.
 

@@ -8,8 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# The Significance of Cursor Location
-
+# Significance of cursor location
 
 **Applies to**: Access 2013, Office 2013
 

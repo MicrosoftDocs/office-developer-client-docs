@@ -13,8 +13,6 @@ mtps_version: v=office.15
 **Applies to**: Access 2013, Office 2013
 
 - [Apply a custom ribbon to a form or report](how-to-apply-a-custom-ribbon-to-a-form-or-report.md)
-
 - [Apply a custom ribbon when starting Access](how-to-apply-a-custom-ribbon-when-starting-access.md)
-
 - [Hide the ribbon when Access starts](how-to-hide-the-ribbon-when-access-starts.md)
 

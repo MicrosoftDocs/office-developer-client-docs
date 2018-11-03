@@ -23,7 +23,7 @@ Removes an object from a collection.
 
 ## Parameters
 
-  - *Name*
+- *Name*
 
   - A **Variant** that specifies the name or ordinal position (index) of the object to delete.
 

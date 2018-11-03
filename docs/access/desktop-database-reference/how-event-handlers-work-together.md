@@ -1,6 +1,6 @@
 ﻿---
-title: How Event Handlers Work Together
-TOCTitle: How Event Handlers Work Together
+title: How event handlers work together
+TOCTitle: How event handlers work together
 ms:assetid: 02122824-881e-0bb8-cba1-c963024790ae
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248788(v=office.15)
 ms:contentKeyID: 48542951
@@ -8,12 +8,9 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# How Event Handlers Work Together
-
+# How event handlers work together
 
 **Applies to**: Access 2013, Office 2013
-
-
 
 Unless you are programming in Visual Basic, all event handlers for **Connection** and **Recordset** events must be implemented, regardless of whether you actually process all of the events. The amount of implementation work you have to do depends on your programming language. For more information, see [ADO Event Instantiation by Language](https://msdn.microsoft.com/library/jj250244\(v=office.15\)).
 

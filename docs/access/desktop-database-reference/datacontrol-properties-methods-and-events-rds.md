@@ -15,54 +15,35 @@ mtps_version: v=office.15
 ## Properties
 
 - [Connect property (RDS)](connect-property-rds.md)
-
 - [ExecuteOptions property (RDS)](executeoptions-property-rds.md)
-
 - [FetchOptions property (RDS)](fetchoptions-property-rds.md)
-
 - [FilterColumn property (RDS)](filtercolumn-property-rds.md)
-
 - [FilterCriterion property (RDS)](filtercriterion-property-rds.md)
-
 - [FilterValue property (RDS)](filtervalue-property-rds.md)
-
 - [Handler property (RDS)](handler-property-rds.md)
-
 - [InternetTimeout property (RDS)](internettimeout-property-rds.md)
-
 - [ReadyState property (RDS)](readystate-property-rds.md)
-
 - [Recordset, SourceRecordset Properties (RDS)](recordset-sourcerecordset-properties-rds.md)
-
 - [Server property (RDS)](server-property-rds.md)
-
 - [SortColumn property (RDS)](sortcolumn-property-rds.md)
-
 - [SortDirection property (RDS)](sortdirection-property-rds.md)
-
 - [SQL property (RDS)](https://msdn.microsoft.com/library/jj248989\(v=office.15\))
-
 - [URL property (RDS)](url-property-rds.md)
+
 
 ## Methods
 
 - [Cancel method (RDS)](cancel-method-rds.md)
-
 - [CancelUpdate method (RDS)](cancelupdate-method-rds.md)
-
 - [CreateRecordset method (RDS)](createrecordset-method-rds.md)
-
-- [MoveFirst, MoveLast, MoveNext, and MovePrevious Methods (RDS)](movefirst-movelast-movenext-and-moveprevious-methods-rds.md)
-
+- [MoveFirst, MoveLast, MoveNext, and MovePrevious methods (RDS)](movefirst-movelast-movenext-and-moveprevious-methods-rds.md)
 - [Refresh method (RDS)](refresh-method-rds.md)
-
 - [Reset method (RDS)](reset-method-rds.md)
-
 - [SubmitChanges method (RDS)](submitchanges-method-rds.md)
+
 
 ## Events
 
-- [OnError Event](onerror-event-rds.md)
-
-- [OnReadyStateChange Event](onreadystatechange-event-rds.md)
+- [OnError event](onerror-event-rds.md)
+- [OnReadyStateChange event](onreadystatechange-event-rds.md)
 

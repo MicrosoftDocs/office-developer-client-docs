@@ -8,12 +8,9 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Step 3: Send the Data
-
+# Step 3: Send the data
 
 **Applies to**: Access 2013, Office 2013
-
-## Step 3: Send the Data
 
 Now that you have a **Recordset**, you need to send it to the client by saving it as XML to the ASP **Response** object. Add the following code to the bottom of XMLResponse.asp:
 

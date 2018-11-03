@@ -10,21 +10,17 @@ mtps_version: v=office.15
 
 # Errors collection properties, methods, and events
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 ## Properties
 
-- [Count Property](count-property-ado.md)
-
-- [Item Property](item-property-ado.md)
+- [Count property](count-property-ado.md)
+- [Item property](item-property-ado.md)
 
 ## Methods
 
-- [Clear Method](clear-method-ado.md)
-
-- [Refresh Method](refresh-method-ado.md)
+- [Clear method](clear-method-ado.md)
+- [Refresh method](refresh-method-ado.md)
 
 ## Events
 

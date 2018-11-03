@@ -10,12 +10,8 @@ mtps_version: v=office.15
 
 # Properties collection (ADO) reference
 
-
 **Applies to**: Access 2013, Office 2013
 
-
-
-  - [Properties collection (ADO)](properties-collection-ado.md)
-
-  - [Properties collection properties, methods, and events](properties-collection-properties-methods-and-events.md)
+- [Properties collection (ADO)](properties-collection-ado.md)
+- [Properties collection properties, methods, and events](properties-collection-properties-methods-and-events.md)
 

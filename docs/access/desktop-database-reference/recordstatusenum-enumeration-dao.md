@@ -1,5 +1,5 @@
 ﻿---
-title: RecordStatusEnum Enumeration (DAO)
+title: RecordStatusEnum enumeration (DAO)
 TOCTitle: RecordStatusEnum Enumeration
 ms:assetid: bf4492f2-8d8f-f10f-7a3c-d6296d2ce96b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822784(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# RecordStatusEnum Enumeration (DAO)
+# RecordStatusEnum enumeration (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,6 +1,6 @@
 ﻿---
-title: RDS Tutorial (Visual J++)
-TOCTitle: RDS Tutorial (Visual J++)
+title: RDS tutorial (Visual J++)
+TOCTitle: RDS tutorial (Visual J++)
 ms:assetid: b5679bfe-e830-05df-8a1c-0744c96abe90
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249870(v=office.15)
 ms:contentKeyID: 48547248
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# RDS Tutorial (Visual J++)
+# RDS tutorial (Visual J++)
 
 
 **Applies to**: Access 2013, Office 2013

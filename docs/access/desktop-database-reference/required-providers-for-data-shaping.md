@@ -1,6 +1,6 @@
 ﻿---
-title: Required Providers for Data Shaping
-TOCTitle: Required Providers for Data Shaping
+title: Required providers for data shaping
+TOCTitle: Required providers for data shaping
 ms:assetid: eb8933fb-d533-3ea7-e045-35c1ca585765
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250194(v=office.15)
 ms:contentKeyID: 48548488
@@ -8,8 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Required Providers for Data Shaping
-
+# Required providers for data shaping
 
 **Applies to**: Access 2013, Office 2013
 

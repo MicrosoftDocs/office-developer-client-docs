@@ -8,12 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Step 2: Initialize the Main List Box
-
+# Step 2: Initialize the Main list box
 
 **Applies to**: Access 2013, Office 2013
 
-## Step 2: Initialize the Main List Box
 
 **To declare global Record and Recordset objects**
 

@@ -1,6 +1,6 @@
 ﻿---
-title: Internet Explorer Error Codes
-TOCTitle: Internet Explorer Error Codes
+title: Internet Explorer error codes
+TOCTitle: Internet Explorer error codes
 ms:assetid: 776580d5-05fc-aa7a-d066-530d887a2a64
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249489(v=office.15)
 ms:contentKeyID: 48545726
@@ -8,8 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Internet Explorer Error Codes
-
+# Internet Explorer error codes
 
 **Applies to**: Access 2013, Office 2013
 

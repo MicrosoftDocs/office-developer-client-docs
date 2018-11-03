@@ -10,22 +10,14 @@ mtps_version: v=office.15
 
 # Relation properties (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
+- [Relation.Attributes property (DAO)](relation-attributes-property-dao.md)
+- [Relation.Fields property (DAO)](relation-fields-property-dao.md)
+- [Relation.ForeignTable property (DAO)](relation-foreigntable-property-dao.md)
+- [Relation.Name property (DAO)](relation-name-property-dao.md)
+- [Relation.PartialReplica property (DAO)](relation-partialreplica-property-dao.md)
+- [Relation.Properties property (DAO)](relation-properties-property-dao.md)
+- [Relation.Table property (DAO)](relation-table-property-dao.md)
 
-
-  - [Relation.Attributes property (DAO)](relation-attributes-property-dao.md)
-
-  - [Relation.Fields property (DAO)](relation-fields-property-dao.md)
-
-  - [Relation.ForeignTable property (DAO)](relation-foreigntable-property-dao.md)
-
-  - [Relation.Name property (DAO)](relation-name-property-dao.md)
-
-  - [Relation.PartialReplica property (DAO)](relation-partialreplica-property-dao.md)
-
-  - [Relation.Properties property (DAO)](relation-properties-property-dao.md)
-
-  - [Relation.Table property (DAO)](relation-table-property-dao.md)
 
