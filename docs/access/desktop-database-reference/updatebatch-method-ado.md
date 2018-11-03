@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # UpdateBatch method (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Writes all pending batch updates to disk.
@@ -21,9 +20,9 @@ Writes all pending batch updates to disk.
 
 ## Parameters
 
-  - *AffectRecords*
-
-  - Optional. An [AffectEnum](affectenum.md) value that indicates how many records the **UpdateBatch** method will affect.
+|Parameter|Description|
+|:--------|:----------|
+|*AffectRecords* |Optional. An [AffectEnum](affectenum.md) value that indicates how many records the **UpdateBatch** method will affect.|
 
 ## Remarks
 
@@ -31,11 +30,8 @@ Use the **UpdateBatch** method when modifying a **Recordset** object in batch up
 
 If the **Recordset** object supports batch updating, you can cache multiple changes to one or more records locally until you call the **UpdateBatch** method. If you are editing the current record or adding a new record when you call the **UpdateBatch** method, ADO will automatically call the [Update](update-method-ado.md) method to save any pending changes to the current record before transmitting the batched changes to the provider. You should use batch updating with either a keyset or static cursor only.
 
-
 > [!NOTE]
-> <P>Specifying <STRONG>adAffectGroup</STRONG> as the value for this parameter will result in an error when there are no visible records in the current <STRONG>Recordset</STRONG> (such as a filter for which no records match).</P>
-
-
+> Specifying **adAffectGroup** as the value for this parameter will result in an error when there are no visible records in the current **Recordset** (such as a filter for which no records match).
 
 If the attempt to transmit changes fails for any or all records because of a conflict with the underlying data (for example, a record has already been deleted by another user), the provider returns warnings to the [Errors](errors-collection-ado.md) collection and a run-time error occurs. Use the [Filter](filter-property-ado.md) property (**adFilterAffectedRecords**) and the [Status](status-property-ado-recordset.md) property to locate records with conflicts.
 

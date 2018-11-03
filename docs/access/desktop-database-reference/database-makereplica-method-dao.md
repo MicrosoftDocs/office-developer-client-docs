@@ -24,7 +24,7 @@ Makes a new replica from another database replica (Microsoft Access workspaces o
 
 *expression* A variable that represents a **Database** object.
 
-### Parameters
+## Parameters
 
 <table>
 <colgroup>
@@ -43,19 +43,19 @@ Makes a new replica from another database replica (Microsoft Access workspaces o
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>PathName</p></td>
+<td><p><em>PathName</em></p></td>
 <td><p>Required</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>The path and file name of the new replica. If replica is an existing file name, then an error occurs.</p></td>
 </tr>
 <tr class="even">
-<td><p>Description</p></td>
+<td><p><em>Description</em></p></td>
 <td><p>Required</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>A <strong>String</strong> that describes the replica that you are creating</p></td>
 </tr>
 <tr class="odd">
-<td><p>Options</p></td>
+<td><p><em>Options</em></p></td>
 <td><p>Optional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>A <strong><a href="replicatypeenum-enumeration-dao.md">ReplicaTypeEnum</a></strong> constant that specifies characteristics of the replica you are creating.</p></td>

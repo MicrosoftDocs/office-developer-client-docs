@@ -10,9 +10,7 @@ mtps_version: v=office.15
 
 # GetRows method (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 Retrieves multiple records of a [Recordset](recordset-object-ado.md) object into an array.
 
@@ -26,17 +24,11 @@ Returns a **Variant** whose value is a two-dimensional array.
 
 ## Parameters
 
-  - *Rows*
-
-  - Optional. A [GetRowsOptionEnum](getrowsoptionenum.md) value that indicates the number of records to retrieve. The default is **adGetRowsRest**.
-
-  - *Start*
-
-  - Optional. A **String** value or **Variant** that evaluates to the bookmark for the record from which the **GetRows** operation should begin. You can also use a [BookmarkEnum](bookmarkenum.md) value.
-
-  - *Fields*
-
-  - Optional. A **Variant** that represents a single field name or ordinal position, or an array of field names or ordinal position numbers. ADO returns only the data in these fields.
+|Parameter|Description|
+|:--------|:----------|
+|*Rows* |Optional. A [GetRowsOptionEnum](getrowsoptionenum.md) value that indicates the number of records to retrieve. The default is **adGetRowsRest**.|
+|*Start* |Optional. A **String** value or **Variant** that evaluates to the bookmark for the record from which the **GetRows** operation should begin. You can also use a [BookmarkEnum](bookmarkenum.md) value.|
+|*Fields* |Optional. A **Variant** that represents a single field name or ordinal position, or an array of field names or ordinal position numbers. ADO returns only the data in these fields.|
 
 ## Remarks
 

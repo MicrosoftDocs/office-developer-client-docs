@@ -10,9 +10,7 @@ mtps_version: v=office.15
 
 # ParentRow property (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 Sets the container of an OLE DB **Row** object on an **ADORecordConstruction** object, so that the parent of the row is turned into an ADO **Record** object.
 
@@ -24,15 +22,15 @@ HRESULT put\_ParentRow(\[in\] IUnknown\* pParent);
 
 ## Parameters
 
-  - *pParent*
-
-  - A container of a row.
+|Parameter|Description|
+|:--------|:----------|
+|*pParent* |A container of a row.|
 
 ## Return values
 
 This property method returns the standard HRESULT values, including S\_OK and E\_FAIL.
 
-## Applies To
+## Applies to
 
 [ADORecordConstruction](adorecordconstruction-interface-ado.md)
 

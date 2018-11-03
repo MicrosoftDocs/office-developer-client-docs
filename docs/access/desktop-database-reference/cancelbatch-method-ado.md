@@ -10,9 +10,7 @@ mtps_version: v=office.15
 
 # CancelBatch method (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 Cancels a pending batch update.
 
@@ -22,9 +20,9 @@ Cancels a pending batch update.
 
 ## Parameters
 
-  - *AffectRecords*
-
-  - Optional. An [AffectEnum](affectenum.md) value that indicates how many records the **CancelBatch** method will affect.
+|Parameter|Description|
+|:--------|:----------|
+|*AffectRecords* |Optional. An [AffectEnum](affectenum.md) value that indicates how many records the **CancelBatch** method will affect. |
 
 ## Remarks
 

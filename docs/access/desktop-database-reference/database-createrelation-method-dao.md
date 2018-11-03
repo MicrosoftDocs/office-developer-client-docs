@@ -24,7 +24,7 @@ Creates a new **[Relation](relation-object-dao.md)** object (Microsoft Access wo
 
 *expression* A variable that represents a **Database** object.
 
-### Parameters
+## Parameters
 
 <table>
 <colgroup>
@@ -43,25 +43,25 @@ Creates a new **[Relation](relation-object-dao.md)** object (Microsoft Access wo
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Name</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Optional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>A <strong>Variant</strong> (<strong>String</strong> subtype) that uniquely names the new <strong>Relation</strong> object. See the <strong><a href="connection-name-property-dao.md">Name</a></strong> property for details on valid <strong>Relation</strong> names.</p></td>
 </tr>
 <tr class="even">
-<td><p>Table</p></td>
+<td><p><em>Table</em></p></td>
 <td><p>Optional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>A <strong>Variant</strong> (<strong>String</strong> subtype) that names the primary table in the relation. If the table doesn't exist before you append the <strong>Relation</strong> object, a run-time error occurs.</p></td>
 </tr>
 <tr class="odd">
-<td><p>ForeignTable</p></td>
+<td><p><em>ForeignTable</em></p></td>
 <td><p>Optional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>A <strong>Variant</strong> (<strong>String</strong> subtype) that names the foreign table in the relation. If the table doesn't exist before you append the <strong>Relation</strong> object, a run-time error occurs.</p></td>
 </tr>
 <tr class="even">
-<td><p>Attributes</p></td>
+<td><p><em>Attributes</em></p></td>
 <td><p>Optional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>A constant or combination of constants that contains information about the relationship type. See the <strong><a href="field-attributes-property-dao.md">Attributes</a></strong> property for details.</p></td>
@@ -70,7 +70,7 @@ Creates a new **[Relation](relation-object-dao.md)** object (Microsoft Access wo
 </table>
 
 
-### Return value
+## Return value
 
 Relation
 

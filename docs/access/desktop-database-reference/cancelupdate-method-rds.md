@@ -10,10 +10,7 @@ mtps_version: v=office.15
 
 # CancelUpdate method (RDS)
 
-
 **Applies to**: Access 2013, Office 2013
-
-
 
 Cancels any changes made to the current or new row of a [Recordset](recordset-object-ado.md) object.
 
@@ -23,9 +20,9 @@ Cancels any changes made to the current or new row of a [Recordset](recordset-ob
 
 ## Parameters
 
-  - *DataControl*
-
-  - An object variable that represents an [RDS.DataControl](datacontrol-object-rds.md) object.
+|Parameter|Description|
+|:--------|:----------|
+|*DataControl* |An object variable that represents an [RDS.DataControl](datacontrol-object-rds.md) object.|
 
 ## Remarks
 

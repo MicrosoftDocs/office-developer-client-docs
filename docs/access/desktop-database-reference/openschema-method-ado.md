@@ -10,9 +10,7 @@ mtps_version: v=office.15
 
 # OpenSchema method (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 Obtains database schema information from the provider .
 
@@ -26,17 +24,11 @@ Returns a [Recordset](recordset-object-ado.md) object that contains schema infor
 
 ## Parameters
 
-  - *QueryType*
-
-  - Any [SchemaEnum](schemaenum.md) value that represents the type of schema query to run.
-
-  - *Criteria*
-
-  - Optional. An array of query constraints for each *QueryType* option, as listed in **SchemaEnum**.
-
-  - *SchemaID*
-
-  - The GUID for a provider-schema query not defined by the OLE DB specification. This parameter is required if *QueryType* is set to **adSchemaProviderSpecific**; otherwise, it is not used.
+|Parameter|Description|
+|:--------|:----------|
+|*QueryType* |Any [SchemaEnum](schemaenum.md) value that represents the type of schema query to run.|
+|*Criteria* |Optional. An array of query constraints for each *QueryType* option, as listed in **SchemaEnum**.|
+|*SchemaID* |The GUID for a provider-schema query not defined by the OLE DB specification. This parameter is required if *QueryType* is set to **adSchemaProviderSpecific**; otherwise, it is not used.|
 
 ## Remarks
 

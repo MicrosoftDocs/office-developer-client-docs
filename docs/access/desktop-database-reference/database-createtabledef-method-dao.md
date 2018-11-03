@@ -24,7 +24,7 @@ Creates a new **[TableDef](tabledef-object-dao.md)** object (Microsoft Access wo
 
 *expression* A variable that represents a **Database** object.
 
-### Parameters
+## Parameters
 
 <table>
 <colgroup>
@@ -43,25 +43,25 @@ Creates a new **[TableDef](tabledef-object-dao.md)** object (Microsoft Access wo
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Name</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Optional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>A <strong>Variant</strong> (<strong>String</strong> subtype) that uniquely names the new <strong>TableDef</strong> object. See the <strong><a href="tabledef-name-property-dao.md">Name</a></strong> property for details on valid <strong>TableDef</strong> names.</p></td>
 </tr>
 <tr class="even">
-<td><p>Attributes</p></td>
+<td><p><em>Attributes</em></p></td>
 <td><p>Optional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>A constant or combination of constants that indicates one or more characteristics of the new <strong>TableDef</strong> object. See the <strong><a href="tabledef-attributes-property-dao.md">Attributes</a></strong> property for more information.</p></td>
 </tr>
 <tr class="odd">
-<td><p>SourceTableName</p></td>
+<td><p><em>SourceTableName</em></p></td>
 <td><p>Optional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>A <strong>Variant</strong> (<strong>String</strong> subtype) containing the name of a table in an external database that is the original source of the data. The source string becomes the <strong><a href="tabledef-sourcetablename-property-dao.md">SourceTableName</a></strong> property setting of the new <strong>TableDef</strong> object.</p></td>
 </tr>
 <tr class="even">
-<td><p>Connect</p></td>
+<td><p><em>Connect</em></p></td>
 <td><p>Optional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>A <strong>Variant</strong> (<strong>String</strong> subtype) containing information about the source of an open database, a database used in a pass-through query, or a linked table. See the <strong><a href="tabledef-connect-property-dao.md">Connect</a></strong> property for more information about valid connection strings.</p></td>
@@ -70,7 +70,7 @@ Creates a new **[TableDef](tabledef-object-dao.md)** object (Microsoft Access wo
 </table>
 
 
-### Return value
+## Return value
 
 TableDef
 

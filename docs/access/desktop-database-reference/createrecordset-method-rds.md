@@ -10,9 +10,7 @@ mtps_version: v=office.15
 
 # CreateRecordset method (RDS)
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 Creates an empty, disconnected [Recordset](recordset-object-ado.md).
 
@@ -22,50 +20,20 @@ Creates an empty, disconnected [Recordset](recordset-object-ado.md).
 
 ## Parameters
 
-  - *Object*
+|Parameter|Description|
+|:--------|:----------|
+|*Object* |An object variable that represents an [RDSServer.DataFactory](datafactory-object-rdsserver.md) or [RDS.DataControl](datacontrol-object-rds.md) object.|
+|*ColumnsInfos* |A **Variant** array of attributes that defines each column in the **Recordset** created. Each column definition contains an array of four required attributes and one optional attribute. The set of column arrays is then grouped into an array, which defines the **Recordset**. For a list of attributes, see the following table.|
 
-  - An object variable that represents an [RDSServer.DataFactory](datafactory-object-rdsserver.md) or [RDS.DataControl](datacontrol-object-rds.md) object.
+### Variant array attributes
 
-  - *ColumnsInfos*
-
-  - A **Variant** array of attributes that defines each column in the **Recordset** created. Each column definition contains an array of four required attributes and one optional attribute. The set of column arrays is then grouped into an array, which defines the **Recordset**.
-    
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th><p>Attribute</p></th>
-    <th><p>Description</p></th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><p>Name</p></td>
-    <td><p>Name of the column header.</p></td>
-    </tr>
-    <tr class="even">
-    <td><p>Type</p></td>
-    <td><p>Integer of the data type.</p></td>
-    </tr>
-    <tr class="odd">
-    <td><p>Size</p></td>
-    <td><p>Integer of the width in characters, regardless of data type.</p></td>
-    </tr>
-    <tr class="even">
-    <td><p>Nullability</p></td>
-    <td><p>Boolean value.</p></td>
-    </tr>
-    <tr class="odd">
-    <td><p>Scale<br />
-    (Optional)</p></td>
-    <td><p>This optional attribute defines the scale for numeric fields. If this value is not specified, numeric values will be truncated to a scale of three. Precision is not affected, but the number of digits following the decimal point will be truncated to three.</p></td>
-    </tr>
-    </tbody>
-    </table>
-
+|Attribute|Description|
+|:--------|:----------|
+|Name |Name of the column header.|
+|Type |Integer of the data type.|
+|Size |Integer of the width in characters, regardless of data type.|
+|Nullability |Boolean value.|
+|Scale (optional) |This optional attribute defines the scale for numeric fields. If this value is not specified, numeric values will be truncated to a scale of three. Precision is not affected, but the number of digits following the decimal point will be truncated to three.|
 
 ## Remarks
 

@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # CompareBookmarks method (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Compares two bookmarks and returns an indication of their relative values.
@@ -25,13 +24,10 @@ Returns a [CompareEnum](compareenum.md) value that indicates the relative row po
 
 ## Parameters
 
-- *Bookmark1*
-
-  - The bookmark of the first row.
-
-- *Bookmark2*
-
-  - The bookmark of the second row.
+|Parameter|Description|
+|:--------|:----------|
+|*Bookmark1* |The bookmark of the first row.|
+|*Bookmark2* |The bookmark of the second row.|
 
 ## Remarks
 

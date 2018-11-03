@@ -14,9 +14,7 @@ f1_categories:
 
 # DBEngine.Idle method (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 Suspends data processing, enabling the Microsoft Access database engine to complete any pending tasks, such as memory optimization or page timeouts (Microsoft Access workspaces only).
 
@@ -26,7 +24,7 @@ Suspends data processing, enabling the Microsoft Access database engine to compl
 
 *expression* A variable that represents a **DBEngine** object.
 
-### Parameters
+## Parameters
 
 <table>
 <colgroup>
@@ -45,7 +43,7 @@ Suspends data processing, enabling the Microsoft Access database engine to compl
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Action</p></td>
+<td><p><em>Action</em></p></td>
 <td><p>Optional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Specifies the action to take. Can be one of the <strong><a href="idleenum-enumeration-dao.md">IdleEnum</a></strong> constants.</p></td>

@@ -1,6 +1,6 @@
 ﻿---
-title: Open Method (ADO Connection)
-TOCTitle: Open Method (ADO Connection)
+title: Open method (ADO Connection)
+TOCTitle: Open method (ADO Connection)
 ms:assetid: 1adaa17d-dfe1-22e0-3415-720516d138f8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248951(v=office.15)
 ms:contentKeyID: 48543525
@@ -8,12 +8,10 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Open Method (ADO Connection)
-
+# Open method (ADO Connection)
 
 **Applies to**: Access 2013, Office 2013
  
-
 Opens a connection to a data source.
 
 ## Syntax
@@ -22,21 +20,12 @@ Opens a connection to a data source.
 
 ## Parameters
 
-  - *ConnectionString*
-
-  - Optional. A **String** value that contains connection information. See the [ConnectionString](connectionstring-property-ado.md) property for details on valid settings.
-
-  - *UserID*
-
-  - Optional. A **String** value that contains a user name to use when establishing the connection.
-
-  - *Password*
-
-  - Optional. A **String** value that contains a password to use when establishing the connection.
-
-  - *Options*
-
-  - Optional. A [ConnectOptionEnum](connectoptionenum.md) value that determines whether this method should return after (synchronously) or before (asynchronously) the connection is established.
+|Parameter|Description|
+|:--------|:----------|
+|*ConnectionString* |Optional. A **String** value that contains connection information. See the [ConnectionString](connectionstring-property-ado.md) property for details on valid settings.|
+|*UserID* |Optional. A **String** value that contains a user name to use when establishing the connection.|
+|*Password* |Optional. A **String** value that contains a password to use when establishing the connection.|
+|*Options* |Optional. A [ConnectOptionEnum](connectoptionenum.md) value that determines whether this method should return after (synchronously) or before (asynchronously) the connection is established.|
 
 ## Remarks
 
@@ -49,7 +38,6 @@ If you pass user and password information both in the *ConnectionString* argumen
 When you have concluded your operations over an open **Connection**, use the [Close](close-method-ado.md) method to free any associated system resources. Closing an object does not remove it from memory; you can change its property settings and use the **Open** method to open it again later. To completely eliminate an object from memory, set the object variable to *Nothing*.
 
 **Remote Data Service Usage**When used on a client-side **Connection** object, the **Open** method doesn't actually establish a connection to the server until a [Recordset](recordset-object-ado.md) is opened on the **Connection** object.
-
 
 > [!NOTE]
 > URLs using the http scheme will automatically invoke the [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). For more information, see [Absolute and relative URLs](absolute-and-relative-urls.md).

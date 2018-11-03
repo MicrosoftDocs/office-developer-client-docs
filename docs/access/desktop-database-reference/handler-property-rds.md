@@ -10,9 +10,7 @@ mtps_version: v=office.15
 
 # Handler property (RDS)
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 Indicates the name of a server-side customization program (handler) that extends the functionality of the [RDSServer.DataFactory](datafactory-object-rdsserver.md), and any parameters used by the *handler*.
 
@@ -22,13 +20,10 @@ Indicates the name of a server-side customization program (handler) that extends
 
 ## Parameters
 
-  - *DataControl*
-
-  - An object variable that represents an [RDS.DataControl](datacontrol-object-rds.md) object.
-
-  - *String*
-
-  - A **String** value that contains the name of the handler and any parameters, all separated by commas (for example, "handlerName,parm1,parm2,...,parm *N*" ).
+|Parameter|Description|
+|:--------|:----------|
+|*DataControl* |An object variable that represents an [RDS.DataControl](datacontrol-object-rds.md) object.|
+|*String* |A **String** value that contains the name of the handler and any parameters, all separated by commas (for example, "handlerName,parm1,parm2,...,parm *N*" ).|
 
 ## Remarks
 

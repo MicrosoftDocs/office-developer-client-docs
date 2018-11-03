@@ -10,10 +10,7 @@ mtps_version: v=office.15
 
 # Row property (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
-
-
 
 Gets or sets an OLE DB **Row** object from/on an **ADORecordConstruction** object. When you use **put\_Row** to set a **Row** object, a row is turned into an ADO **Record** object. Read/write.
 
@@ -25,19 +22,16 @@ HRESULT put\_Row(\[in\] IUnknown\* pRow);
 
 ## Parameters
 
-  - *ppRow*
-
-  - Pointer to an OLE DB **Row** object.
-
-  - *PRow*
-
-  - An OLE DB **Row** object.
+|Parameter|Description|
+|:--------|:----------|
+|*ppRow* |Pointer to an OLE DB **Row** object.|
+|*PRow* |An OLE DB **Row** object.|
 
 ## Return values
 
 This property method returns the standard HRESULT values, including S\_OK and E\_FAIL.
 
-## Applies To
+## Applies to
 
 [ADORecordConstruction](adorecordconstruction-interface-ado.md)
 

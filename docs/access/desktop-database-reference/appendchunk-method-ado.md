@@ -10,9 +10,7 @@ mtps_version: v=office.15
 
 # AppendChunk method (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 Appends data to a large text or binary data [Field](field-object-ado.md), or to a [Parameter](parameter-object-ado.md) object.
 
@@ -22,13 +20,10 @@ Appends data to a large text or binary data [Field](field-object-ado.md), or to 
 
 ## Parameters
 
-  - *object*
-
-  - A **Field** or **Parameter** object.
-
-  - *Data*
-
-  - A **Variant** that contains the data to append to the object.
+|Parameter|Description|
+|:--------|:----------|
+|*object* |A **Field** or **Parameter** object.|
+|*Data* |A **Variant** that contains the data to append to the object.|
 
 ## Remarks
 

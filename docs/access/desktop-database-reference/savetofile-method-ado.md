@@ -10,10 +10,7 @@ mtps_version: v=office.15
 
 # SaveToFile method (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
-
-
 
 Saves the binary contents of a [Stream](stream-object-ado.md) to a file.
 
@@ -23,19 +20,13 @@ Saves the binary contents of a [Stream](stream-object-ado.md) to a file.
 
 ## Parameters
 
-  - *FileName*
-
-  - A **String** value that contains the fully-qualified name of the file to which the contents of the **Stream** will be saved. You can save to any valid local location, or any location you have access to via a UNC value.
-
-  - *SaveOptions*
-
-  - A [SaveOptionsEnum](saveoptionsenum.md) value that specifies whether a new file should be created by **SaveToFile**, if it does not already exist. Default value is **adSaveCreateNotExists**. With these options you can specify that an error occurs if the specified file does not exist. You can also specify that **SaveToFile** overwrites the current contents of an existing file.
-
+|Parameter|Description|
+|:--------|:----------|
+|*FileName* |A **String** value that contains the fully-qualified name of the file to which the contents of the **Stream** will be saved. You can save to any valid local location, or any location you have access to via a UNC value.|
+|*SaveOptions* |A [SaveOptionsEnum](saveoptionsenum.md) value that specifies whether a new file should be created by **SaveToFile**, if it does not already exist. Default value is **adSaveCreateNotExists**. With these options you can specify that an error occurs if the specified file does not exist. You can also specify that **SaveToFile** overwrites the current contents of an existing file.|
 
 > [!NOTE]
-> <P>If you overwrite an existing file (when <STRONG>adSaveCreateOverwrite</STRONG> is set), <STRONG>SaveToFile</STRONG> truncates any bytes from the original existing file that follow the new <A href="eos-property-ado.md">EOS</A>.</P>
-
-
+> If you overwrite an existing file (when **adSaveCreateOverwrite** is set), **SaveToFile** truncates any bytes from the original existing file that follow the new [EOS](eos-property-ado.md).
 
 ## Remarks
 

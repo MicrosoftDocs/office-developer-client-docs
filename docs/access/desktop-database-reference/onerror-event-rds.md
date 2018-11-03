@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # onError event (RDS)
 
-
 **Applies to**: Access 2013, Office 2013
 
 The **onError** event is called whenever an error occurs during an operation.
@@ -21,19 +20,10 @@ onError*SCode*, *Description*, *Source*, *CancelDisplay*
 
 ## Parameters
 
-  - *SCode*
-
-  - An integer that indicates the status code of the error.
-
-  - *Description*
-
-  - A **String** that indicates a description of the error.
-
-  - *Source*
-
-  - A **String** that indicates the query or command that caused the error.
-
-  - *CancelDisplay*
-
-  - A **Boolean** value, which if set to **True**, that prevents the error from being displayed in a dialog box.
+|Parameter|Description|
+|:--------|:----------|
+|*SCode* |An integer that indicates the status code of the error.|
+|*Description* |A **String** that indicates a description of the error.|
+|*Source* |A **String** that indicates the query or command that caused the error.|
+|*CancelDisplay* |A **Boolean** value, which if set to **True**, that prevents the error from being displayed in a dialog box.|
 

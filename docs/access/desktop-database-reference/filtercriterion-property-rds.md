@@ -10,10 +10,7 @@ mtps_version: v=office.15
 
 # FilterCriterion property (RDS)
 
-
 **Applies to**: Access 2013, Office 2013
-
-
 
 Indicates the evaluation operator to use in the filter value.
 
@@ -23,13 +20,10 @@ Indicates the evaluation operator to use in the filter value.
 
 ## Parameters
 
-  - *DataControl*
-
-  - An object variable that represents an [RDS.DataControl](datacontrol-object-rds.md) object.
-
-  - *String*
-
-  - A **String** value that specifies the evaluation operator of the [FilterValue](filtervalue-property-rds.md) to the records. Can be any one of the following: \<, \<=, \>, \>=, =, or \<\>.
+|Parameter|Description|
+|:--------|:----------|
+|*DataControl* |An object variable that represents an [RDS.DataControl](datacontrol-object-rds.md) object.|
+|*String* |A **String** value that specifies the evaluation operator of the [FilterValue](filtervalue-property-rds.md) to the records. Can be any one of the following: \<, \<=, \>, \>=, =, or \<\>.|
 
 ## Remarks
 

@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # CopyRecord method (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Copies a entity represented by a **Record** to another location.
@@ -21,29 +20,14 @@ Copies a entity represented by a **Record** to another location.
 
 ## Parameters
 
-  - *Source*
-
-  - Optional. A **String** value that contains a URL specifying the entity to be copied (for example, a file or directory). If *Source* is omitted or specifies an empty string, the file or directory represented by the current [Record](record-object-ado.md) will be copied.
-
-  - *Destination*
-
-  - Optional. A **String** value that contains a URL specifying the location where *Source* will be copied.
-
-  - *UserName*
-
-  - Optional. A **String** value that contains the user ID that, if needed, authorizes access to *Destination*.
-
-  - *Password*
-
-  - Optional. A **String** value that contains the password that, if needed, verifies *UserName*.
-
-  - *Options*
-
-  - Optional. A [CopyRecordOptionsEnum](copyrecordoptionsenum.md) value that has a default value of **adCopyUnspecified**. Specifies the behavior of this method.
-
-  - *Async*
-
-  - Optional. A **Boolean** value that, when **True**, specifies that this operation should be asynchronous.
+|Parameter|Description|
+|:--------|:----------|
+|*Source* |Optional. A **String** value that contains a URL specifying the entity to be copied (for example, a file or directory). If *Source* is omitted or specifies an empty string, the file or directory represented by the current [Record](record-object-ado.md) will be copied.|
+|*Destination* |Optional. A **String** value that contains a URL specifying the location where *Source* will be copied.|
+|*UserName* |Optional. A **String** value that contains the user ID that, if needed, authorizes access to *Destination*.|
+|*Password* |Optional. A **String** value that contains the password that, if needed, verifies *UserName*.|
+|*Options* |Optional. A [CopyRecordOptionsEnum](copyrecordoptionsenum.md) value that has a default value of **adCopyUnspecified**. Specifies the behavior of this method.|
+|*Async* |Optional. A **Boolean** value that, when **True**, specifies that this operation should be asynchronous.|
 
 ## Return value
 
@@ -57,11 +41,8 @@ All children (for example, subdirectories) of *Source* are copied recursively, u
 
 This method fails if *Destination* identifies an existing entity (for example, a file or directory), unless **adCopyOverWrite** is specified.
 
-
 > [!IMPORTANT]
 > Use the **adCopyOverWrite** option judiciously. For example, specifying this option when copying a file to a directory will *delete* the directory and replace it with the file.
-
-
 
 
 > [!NOTE]

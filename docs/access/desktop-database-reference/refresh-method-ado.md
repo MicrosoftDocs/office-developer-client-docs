@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Refresh method (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Updates the objects in a collection to reflect objects available from, and specific to, the provider.
@@ -31,17 +30,14 @@ You should set the [ActiveConnection](activeconnection-property-ado.md) property
 
 If you access the **Parameters** collection before calling the **Refresh** method, ADO will automatically call the method and populate the collection for you.
 
-
 > [!NOTE]
-> <P>If you use the <STRONG>Refresh</STRONG> method to obtain parameter information from the provider and it returns one or more variable-length data type <A href="parameter-object-ado.md">Parameter</A> objects, ADO may allocate memory for the parameters based on their maximum potential size, which will cause an error during execution. You should explicitly set the <A href="size-property-ado.md">Size</A> property for these parameters before calling the <A href="https://msdn.microsoft.com/library/jj248785(v=office.15)">Execute</A> method to prevent errors.</P>
+> If you use the **Refresh** method to obtain parameter information from the provider and it returns one or more variable-length data type [Parameter](parameter-object-ado.md) objects, ADO may allocate memory for the parameters based on their maximum potential size, which will cause an error during execution. You should explicitly set the [Size](size-property-ado.md) property for these parameters before calling the [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) method to prevent errors.
 
-
-
-**Fields**
+### Fields
 
 Using the **Refresh** method on the **Fields** collection has no visible effect. To retrieve changes from the underlying database structure, you must use either the [Requery](requery-method-ado.md) method or, if the [Recordset](recordset-object-ado.md) object does not support bookmarks, the [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) method.
 
-**Properties**
+### Properties
 
 Using the **Refresh** method on a **Properties** collection of some objects populates the collection with the dynamic properties that the provider exposes. These properties provide information about functionality specific to the provider, beyond the built-in properties ADO supports.
 

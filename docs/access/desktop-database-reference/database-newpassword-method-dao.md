@@ -14,7 +14,6 @@ f1_categories:
 
 # Database.NewPassword method (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Changes the password of an existing Microsoft Access database engine database (Microsoft Access workspaces only).
@@ -25,7 +24,7 @@ Changes the password of an existing Microsoft Access database engine database (M
 
 *expression* An expression that returns a **Database** object.
 
-### Parameters
+## Parameters
 
 <table>
 <colgroup>
@@ -44,17 +43,17 @@ Changes the password of an existing Microsoft Access database engine database (M
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>bstrOld</p></td>
+<td><p><em>bstrOld</em></p></td>
 <td><p>Required</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>The current setting of the <strong>Password</strong> property of the <strong>Database</strong> object.</p></td>
 </tr>
 <tr class="even">
-<td><p>bstrNew</p></td>
+<td><p><em>bstrNew</em></p></td>
 <td><p>Required</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>The new setting of the <strong>Password</strong> property of the <strong>Database</strong> object.</p>
-<p><strong>NOTE</strong>Use strong passwords that combine upper- and lowercase letters, numbers, and symbols. Weak passwords don't mix these elements. Strong password: Y6dh!et5. Weak password: House27. Use a strong password that you can remember so that you don't have to write it down.</p>
+<p><strong>NOTE</strong>: Use strong passwords that combine upper- and lowercase letters, numbers, and symbols. Weak passwords don't mix these elements. Strong password: Y6dh!et5. Weak password: House27. Use a strong password that you can remember so that you don't have to write it down.</p>
 </td>
 </tr>
 </tbody>

@@ -1,5 +1,5 @@
 ﻿---
-title: Seek Method - ActiveX Data Objects (ADO)
+title: Seek method - ActiveX Data Objects (ADO)
 TOCTitle: Seek method (ADO)
 ms:assetid: cf0f133b-31f2-a2df-6cf3-1b5fa73b516c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250027(v=office.15)
@@ -10,10 +10,7 @@ mtps_version: v=office.15
 
 # Seek method (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
-
-
 
 Searches the index of a [Recordset](recordset-object-ado.md) to quickly locate the row that matches the specified values, and changes the current row position to that row.
 
@@ -23,13 +20,10 @@ Searches the index of a [Recordset](recordset-object-ado.md) to quickly locate t
 
 ## Parameters
 
-  - *KeyValues*
-
-  - An array of **Variant** values. An index consists of one or more columns and the array contains a value to compare against each corresponding column.
-
-  - *SeekOption*
-
-  - A [SeekEnum](seekenum.md) value that specifies the type of comparison to be made between the columns of the index and the corresponding *KeyValues*.
+|Parameter|Description|
+|:--------|:----------|
+|*KeyValues* |An array of **Variant** values. An index consists of one or more columns and the array contains a value to compare against each corresponding column.|
+|*SeekOption* |A [SeekEnum](seekenum.md) value that specifies the type of comparison to be made between the columns of the index and the corresponding *KeyValues*.|
 
 ## Remarks
 

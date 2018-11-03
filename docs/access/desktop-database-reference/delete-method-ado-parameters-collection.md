@@ -10,9 +10,7 @@ mtps_version: v=office.15
 
 # Delete method (ADO Parameters Collection)
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 Deletes an object from the [Parameters](parameters-collection-ado.md) collection.
 
@@ -22,9 +20,9 @@ Deletes an object from the [Parameters](parameters-collection-ado.md) collection
 
 ## Parameters
 
-- *Index*
-
-  - A **String** value that contains the name of the object you want to delete, or the objects ordinal position (index) in the collection.
+|Parameter|Description|
+|:--------|:----------|
+|*Index* |A **String** value that contains the name of the object you want to delete, or the objects ordinal position (index) in the collection.|
 
 ## Remarks
 

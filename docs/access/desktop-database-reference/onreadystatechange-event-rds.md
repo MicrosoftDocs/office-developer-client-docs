@@ -10,9 +10,7 @@ mtps_version: v=office.15
 
 # onReadyStateChange event (RDS)
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 The **onReadyStateChange** event is called whenever the value of the [ReadyState](readystate-property-rds.md) property changes.
 

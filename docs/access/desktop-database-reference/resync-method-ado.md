@@ -10,10 +10,7 @@ mtps_version: v=office.15
 
 # Resync method (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
-
-
 
 Refreshes the data in the current [Recordset](recordset-object-ado.md) object, or [Fields](fields-collection-ado.md) collection of a [Record](record-object-ado.md) object, from the underlying database.
 
@@ -25,17 +22,14 @@ Refreshes the data in the current [Recordset](recordset-object-ado.md) object, o
 
 ## Parameters
 
-  - *AffectRecords*
-
-  - Optional. An [AffectEnum](affectenum.md) value that determines how many records the **Resync** method will affect. The default value is **adAffectAll**. This value is not available with the **Resync** method of the **Fields** collection of a **Record** object.
-
-  - *ResyncValues*
-
-  - Optional. A [ResyncEnum](resyncenum.md) value that specifies whether underlying values are overwritten. The default value is **adResyncAllValues**.
+|Parameter|Description|
+|:--------|:----------|
+|*AffectRecords* |Optional. An [AffectEnum](affectenum.md) value that determines how many records the **Resync** method will affect. The default value is **adAffectAll**. This value is not available with the **Resync** method of the **Fields** collection of a **Record** object.|
+|*ResyncValues* |Optional. A [ResyncEnum](resyncenum.md) value that specifies whether underlying values are overwritten. The default value is **adResyncAllValues**.|
 
 ## Remarks
 
-**Recordset**
+### Recordset
 
 Use the **Resync** method to resynchronize records in the current **Recordset** with the underlying database. This is useful if you are using either a static or forward-only cursor, but you want to see any changes in the underlying database.
 
@@ -47,7 +41,7 @@ If the attempt to resynchronize fails because of a conflict with the underlying 
 
 If the [Unique Table](unique-table-unique-schema-unique-catalog-properties-dynamic-ado.md) and [Resync Command](resync-command-property-dynamic-ado.md) dynamic properties are set, and the **Recordset** is the result of executing a JOIN operation on multiple tables, then the **Resync** method will execute the command given in the **Resync Command** property only on the table named in the **Unique Table** property.
 
-**Fields**
+### Fields
 
 Use the **Resync** method to resynchronize the values of the **Fields** collection of a **Record** object with the underlying data source. The [Count](count-property-ado.md) property is not affected by this method.
 

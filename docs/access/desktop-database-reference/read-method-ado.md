@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Read method (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Reads a specified number of bytes from a binary [Stream](stream-object-ado.md) object.
@@ -21,9 +20,9 @@ Reads a specified number of bytes from a binary [Stream](stream-object-ado.md) o
 
 ## Parameters
 
-  - *NumBytes*
-
-  - Optional. A **Long** value that specifies the number of bytes to read from the file or the [StreamReadEnum](streamreadenum.md) value **adReadAll**, which is the default.
+|Parameter|Description|
+|:--------|:----------|
+|*NumBytes* |Optional. A **Long** value that specifies the number of bytes to read from the file or the [StreamReadEnum](streamreadenum.md) value **adReadAll**, which is the default.|
 
 ## Return value
 
@@ -33,8 +32,7 @@ The **Read** method reads a specified number of bytes or the entire stream from 
 
 If *NumBytes* is more than the number of bytes left in the **Stream**, only the bytes remaining are returned. The data read is not padded to match the length specified by *NumBytes*. If there are no bytes left to read, a variant with a null value is returned. **Read** cannot be used to read backwards.
 
-
 > [!NOTE]
-> <P><EM>NumBytes</EM> always measures bytes. For text <STRONG>Stream</STRONG> objects (<A href="type-property-ado-stream.md">Type</A> is <STRONG>adTypeText</STRONG>), use <A href="readtext-method-ado.md">ReadText</A>.</P>
+> *NumBytes* always measures bytes. For text **Stream** objects ([Type](type-property-ado-stream.md) is **adTypeText**), use [ReadText](readtext-method-ado.md).
 
 

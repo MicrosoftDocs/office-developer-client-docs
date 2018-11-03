@@ -10,10 +10,7 @@ mtps_version: v=office.15
 
 # Move method (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
-
-
 
 Moves the position of the current record in a [Recordset](recordset-object-ado.md) object.
 
@@ -23,13 +20,10 @@ Moves the position of the current record in a [Recordset](recordset-object-ado.m
 
 ## Parameters
 
-  - *NumRecords*
-
-  - A signed **Long** expression that specifies the number of records that the current record position moves.
-
-  - *Start*
-
-  - Optional. A **String** value or **Variant** that evaluates to a bookmark. You can also use a [BookmarkEnum](bookmarkenum.md) value.
+|Parameter|Description|
+|:--------|:----------|
+|*NumRecords* |A signed **Long** expression that specifies the number of records that the current record position moves.|
+|*Start* |Optional. A **String** value or **Variant** that evaluates to a bookmark. You can also use a [BookmarkEnum](bookmarkenum.md) value.|
 
 ## Remarks
 

@@ -10,9 +10,7 @@ mtps_version: v=office.15
 
 # FetchComplete event (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 The **FetchComplete** event is called after all the records in a lengthy asynchronous operation have been retrieved into the [Recordset](recordset-object-ado.md).
 
@@ -22,19 +20,11 @@ FetchComplete*pError*, *adStatus*, *pRecordset*
 
 ## Parameters
 
-- *pError*
-
-  - An [Error](error-object-ado.md) object. It describes the error that occurred if the value of **adStatus** is **adStatusErrorsOccurred**; otherwise it is not set.
-
-- *adStatus*
-
-  - [EventStatusEnum](eventstatusenum.md)
-    
-    Before this event returns, set this parameter to **adStatusUnwantedEvent** to prevent subsequent notifications.
-
-- *pRecordset*
-
-  - A **Recordset** object. The object for which the records were retrieved.
+|Parameter|Description|
+|:--------|:----------|
+|*pError* |An [Error](error-object-ado.md) object. It describes the error that occurred if the value of **adStatus** is **adStatusErrorsOccurred**; otherwise it is not set.|
+|*adStatus* |[EventStatusEnum](eventstatusenum.md). Before this event returns, set this parameter to **adStatusUnwantedEvent** to prevent subsequent notifications.|
+|*pRecordset* |A **Recordset** object. The object for which the records were retrieved.|
 
 ## Remarks
 

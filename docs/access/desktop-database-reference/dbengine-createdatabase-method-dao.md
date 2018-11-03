@@ -14,7 +14,6 @@ f1_categories:
 
 # DBEngine.CreateDatabase method (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Creates a new **[Database](database-object-dao.md)** object, saves the database to disk, and returns an opened **Database** object (Microsoft Access workspaces only). .
@@ -25,7 +24,7 @@ Creates a new **[Database](database-object-dao.md)** object, saves the database 
 
 *expression* A variable that represents a **DBEngine** object.
 
-### Parameters
+## Parameters
 
 <table>
 <colgroup>
@@ -44,13 +43,13 @@ Creates a new **[Database](database-object-dao.md)** object, saves the database 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Name</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Required</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>A String up to 255 characters long that is the name of the database file that you're creating. It can be the full path and file name. If your network supports it, you can also specify a network path, such as &quot;\\server1\share1\dir1\db1&quot;. You can only create Microsoft Access database files with this method.</p></td>
 </tr>
 <tr class="even">
-<td><p>Locale</p></td>
+<td><p><em>Locale</em></p></td>
 <td><p>Required</p></td>
 <td><p><strong>String</strong></p></td>
 <td><ul>
@@ -63,7 +62,7 @@ Creates a new **[Database](database-object-dao.md)** object, saves the database 
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Option</p></td>
+<td><p><em>Option</em></p></td>
 <td><p>Optional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>A constant or combination of constants that indicates one or more options, as specified in Settings. You can combine options by summing the corresponding constants.</p></td>

@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Recordset, SourceRecordset properties (RDS)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Indicates the **Recordset** object returned from a custom business object.
@@ -23,13 +22,10 @@ Indicates the **Recordset** object returned from a custom business object.
 
 ## Parameters
 
-- *DataControl*
-
-  - An object variable that represents an [RDS.DataControl](datacontrol-object-rds.md) object.
-
-- *Recordset*
-
-  - An object variable that represents a **Recordset** object.
+|Parameter|Description|
+|:--------|:----------|
+|*DataControl* |An object variable that represents an [RDS.DataControl](datacontrol-object-rds.md) object.|
+|*Recordset* |An object variable that represents a **Recordset** object.|
 
 ## Remarks
 

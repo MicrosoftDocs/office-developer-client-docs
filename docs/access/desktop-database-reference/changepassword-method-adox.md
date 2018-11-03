@@ -10,10 +10,7 @@ mtps_version: v=office.15
 
 # ChangePassword method (ADOX)
 
-
 **Applies to**: Access 2013, Office 2013
-
-
 
 Changes the password for a user account.
 
@@ -23,13 +20,10 @@ Changes the password for a user account.
 
 ## Parameters
 
-- *OldPassword*
-
-  - A **String** value that specifies the user's existing password. If the user doesn't currently have a password, use an empty string ("") for *OldPassword*.
-
-- *NewPassword*
-
-  - A **String** value that specifies the new password.
+|Parameter|Description|
+|:--------|:----------|
+|*OldPassword* |A **String** value that specifies the user's existing password. If the user doesn't currently have a password, use an empty string ("") for *OldPassword*.|
+|*NewPassword* |A **String** value that specifies the new password.|
 
 ## Remarks
 

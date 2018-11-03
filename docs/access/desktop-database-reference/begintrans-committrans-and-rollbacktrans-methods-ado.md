@@ -36,16 +36,16 @@ These transaction methods manage transaction processing within a [Connection](co
 
 ## Parameters
 
-- *object*
-
-  - A **Connection** object.
+|Parameter|Description|
+|:--------|:----------|
+|*object* |A **Connection** object.|
 
 ### Connection
 
 Use these methods with a **Connection** object when you want to save or cancel a series of changes made to the source data as a single unit. For example, to transfer money between accounts, you subtract an amount from one and add the same amount to the other. If either update fails, the accounts no longer balance. Making these changes within an open transaction ensures that either all or none of the changes go through.
 
 > [!NOTE]
-> Not all providers support transactions. Verify that the provider-defined property "**Transaction DDL**" appears in the **Connection** object's [Properties](properties-collection-ado.md) collection, indicating that the provider supports transactions. If the provider does not support transactions, calling one of these methods will return an error.
+> Not all providers support transactions. Verify that the provider-defined property **Transaction DDL** appears in the **Connection** object's [Properties](properties-collection-ado.md) collection, indicating that the provider supports transactions. If the provider does not support transactions, calling one of these methods will return an error.
 
 After you call the **BeginTrans** method, the provider will no longer instantaneously commit changes you make until you call **CommitTrans** or **RollbackTrans** to end the transaction.
 

@@ -1,6 +1,6 @@
 ﻿---
 title: Database.Execute method (DAO)
-TOCTitle: Execute Method
+TOCTitle: Execute method
 ms:assetid: 9294d530-f70f-e1ed-3990-ce128de4378b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197654(v=office.15)
 ms:contentKeyID: 48546378
@@ -20,7 +20,7 @@ Runs an action query or executes an SQL statement on the specified object.
 
 *expression* A variable that represents a **Database** object.
 
-### Parameters
+## Parameters
 
 <table>
 <colgroup>
@@ -39,13 +39,13 @@ Runs an action query or executes an SQL statement on the specified object.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Query</p></td>
+<td><p><em>Query</em></p></td>
 <td><p>Required</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>Options</p></td>
+<td><p><em>Options</em></p></td>
 <td><p>Optional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p></p></td>
@@ -56,7 +56,7 @@ Runs an action query or executes an SQL statement on the specified object.
 
 ## Remarks
 
-You can use the following **[RecordsetOptionEnum](recordsetoptionenum-enumeration-dao.md)**constants for options.
+You can use the following **[RecordsetOptionEnum](recordsetoptionenum-enumeration-dao.md)** constants for options.
 
 <table>
 <colgroup>

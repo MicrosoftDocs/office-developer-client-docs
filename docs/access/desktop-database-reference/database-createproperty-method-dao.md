@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Database.CreateProperty method (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Creates a new user-defined **[Property](property-object-dao.md)** object (Microsoft Access workspaces only). .
@@ -21,7 +20,7 @@ Creates a new user-defined **[Property](property-object-dao.md)** object (Micros
 
 *expression* A variable that represents a **Database** object.
 
-### Parameters
+## Parameters
 
 <table>
 <colgroup>
@@ -40,25 +39,25 @@ Creates a new user-defined **[Property](property-object-dao.md)** object (Micros
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Name</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Optional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>A <strong>String</strong> that uniquely names the new <strong>Property</strong> object. See the <strong>Name</strong> property for details on valid <strong>Property</strong> names.</p></td>
 </tr>
 <tr class="even">
-<td><p>Type</p></td>
+<td><p><em>Type</em></p></td>
 <td><p>Optional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>A constant that defines the data type of the new <strong>Property</strong> object. See the <strong><a href="field-type-property-dao.md">Type</a></strong> property for valid data types.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Value</p></td>
+<td><p><em>Value</em></p></td>
 <td><p>Optional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>A <strong>Variant</strong> containing the initial property value. See the <strong><a href="field-value-property-dao.md">Value</a></strong> property for details.</p></td>
 </tr>
 <tr class="even">
-<td><p>DDL</p></td>
+<td><p><em>DDL</em></p></td>
 <td><p>Optional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>A <strong>Variant</strong> (<strong>Boolean</strong> subtype) that indicates whether or not the <strong>Property</strong> is a DDL object. The default is False. If DDL is True, users can't change or delete this <strong>Property</strong> object unless they have dbSecWriteDef permission.</p></td>
@@ -67,7 +66,7 @@ Creates a new user-defined **[Property](property-object-dao.md)** object (Micros
 </table>
 
 
-### Return value
+## Return value
 
 Property
 

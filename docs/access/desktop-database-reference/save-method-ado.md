@@ -1,5 +1,5 @@
 ﻿---
-title: Save Method - ActiveX Data Objects (ADO)
+title: Save method - ActiveX Data Objects (ADO)
 TOCTitle: Save method (ADO)
 ms:assetid: 02dab13b-f947-b96d-46ea-0def3ed8f28f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248793(v=office.15)
@@ -9,7 +9,6 @@ mtps_version: v=office.15
 ---
 
 # Save method (ADO)
-
 
 **Applies to**: Access 2013, Office 2013
 
@@ -21,13 +20,10 @@ Saves the [Recordset](recordset-object-ado.md) in a file or [Stream](stream-obje
 
 ## Parameters
 
-  - *Destination*
-
-  - Optional. A **Variant** that represents the complete path name of the file where the **Recordset** is to be saved, or a reference to a **Stream** object.
-
-  - *PersistFormat*
-
-  - Optional. A [PersistFormatEnum](persistformatenum.md) value that specifies the format in which the **Recordset** is to be saved (XML or ADTG). The default value is **adPersistADTG**.
+|Parameter|Description|
+|:--------|:----------|
+|*Destination* |Optional. A **Variant** that represents the complete path name of the file where the **Recordset** is to be saved, or a reference to a **Stream** object.|
+|*PersistFormat* |Optional. A [PersistFormatEnum](persistformatenum.md) value that specifies the format in which the **Recordset** is to be saved (XML or ADTG). The default value is **adPersistADTG**.|
 
 ## Remarks
 
@@ -51,11 +47,8 @@ For best results, set the [CursorLocation](cursorlocation-property-ado.md) prope
 
 When a **Recordset** is persisted with the **CursorLocation** property set to **adUseServer**, the update capability for the **Recordset** is limited. Typically, only single-table updates, insertions, and deletions are allowed (dependant upon provider functionality). The [Resync](resync-method-ado.md) method is also unavailable in this configuration.
 
-
 > [!NOTE]
-> <P>Saving a <STRONG>Recordset</STRONG> with <STRONG>Fields</STRONG> of type <STRONG>adVariant</STRONG>, <STRONG>adIDispatch</STRONG>, or <STRONG>adIUnknown</STRONG> is not supported by ADO and can cause unpredictable results.</P>
-
-
+> Saving a **Recordset** with **Fields** of type **adVariant**, **adIDispatch**, or **adIUnknown** is not supported by ADO and can cause unpredictable results.
 
 Only **Filters** in the form of Criteria Strings (e.g. OrderDate \> '12/31/1999') affect the contents of a persisted **Recordset**. Filters created with an Array of **Bookmarks** or using a value from the **FilterGroupEnum** will not affect the contents of the persisted **Recordset**. These rules apply to **Recordsets** created with either client-side or server-side cursors.
 
@@ -63,11 +56,8 @@ Because the *Destination* parameter can accept any object that supports the OLE 
 
 You can also save a **Recordset** in XML format to an instance of an MSXML DOM object, as is shown in the following Visual Basic code:
 
-
 > [!NOTE]
-> <P>Two limitations apply when saving hierarchical <STRONG>Recordsets</STRONG> (data shapes) in XML format. You cannot save into XML if the hierarchical <STRONG>Recordset</STRONG> contains pending updates, and you cannot save a parameterized hierarchical <STRONG>Recordset</STRONG>.</P>
-
-
+> Two limitations apply when saving hierarchical **Recordsets** (data shapes) in XML format. You cannot save into XML if the hierarchical **Recordset** contains pending updates, and you cannot save a parameterized hierarchical **Recordset**.
 
 A Recordset saved in XML format is saved using UTF-8 format. When such a file is loaded into an ADO Stream, the Stream object will not attempt to open a Recordset from the stream unless the Charset property of the stream is set to the appropriate value for UTF-8 format.
 

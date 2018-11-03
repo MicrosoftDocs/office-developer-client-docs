@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Supports method (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Determines whether a specified [Recordset](recordset-object-ado.md) object supports a particular type of functionality.
@@ -25,9 +24,9 @@ Returns a **Boolean** value that indicates whether all of the features identifie
 
 ## Parameters
 
-  - *CursorOptions*
-
-  - A **Long** expression that consists of one or more [CursorOptionEnum](cursoroptionenum.md) values.
+|Parameter|Description|
+|:--------|:----------|
+|*CursorOptions* |A **Long** expression that consists of one or more [CursorOptionEnum](cursoroptionenum.md) values.|
 
 ## Remarks
 
@@ -35,6 +34,6 @@ Use the **Supports** method to determine what types of functionality a **Records
 
 
 > [!NOTE]
-> <P>Although the <STRONG>Supports</STRONG> method may return <STRONG>True</STRONG> for a given functionality, it does not guarantee that the provider can make the feature available under all circumstances. The <STRONG>Supports</STRONG> method simply returns whether the provider can support the specified functionality, assuming certain conditions are met. For example, the <STRONG>Supports</STRONG> method may indicate that a <STRONG>Recordset</STRONG> object supports updates even though the cursor is based on a multiple table join, some columns of which are not updatable.</P>
+> Although the **Supports** method may return **True** for a given functionality, it does not guarantee that the provider can make the feature available under all circumstances. The **Supports** method simply returns whether the provider can support the specified functionality, assuming certain conditions are met. For example, the **Supports** method may indicate that a **Recordset** object supports updates even though the cursor is based on a multiple table join, some columns of which are not updatable.
 
 

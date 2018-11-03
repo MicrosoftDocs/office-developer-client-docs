@@ -25,7 +25,7 @@ Synchronizes two replicas. (Microsoft Access workspaces only).
 
 *expression* A variable that represents a **Database** object.
 
-### Parameters
+## Parameters
 
 <table>
 <colgroup>
@@ -44,13 +44,13 @@ Synchronizes two replicas. (Microsoft Access workspaces only).
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>DbPathName</p></td>
+<td><p><em>DbPathName</em></p></td>
 <td><p>Required</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>The path to the target replica with which database will be synchronized.</p></td>
 </tr>
 <tr class="even">
-<td><p>ExchangeType</p></td>
+<td><p><em>ExchangeType</em></p></td>
 <td><p>Optional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>A <strong><a href="synchronizetypeenum-enumeration-dao.md">SynchronizeTypeEnum</a></strong> constant indicating which direction to synchronize changes between the two databases.</p></td>

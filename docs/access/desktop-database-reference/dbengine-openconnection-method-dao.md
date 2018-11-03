@@ -14,7 +14,6 @@ f1_categories:
 
 # DBEngine.OpenConnection method (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 ## Syntax
@@ -23,7 +22,7 @@ f1_categories:
 
 *expression* A variable that represents a **DBEngine** object.
 
-### Parameters
+## Parameters
 
 <table>
 <colgroup>
@@ -42,25 +41,25 @@ f1_categories:
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Name</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Required</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>A string expression. See the discussion under Remarks.</p></td>
 </tr>
 <tr class="even">
-<td><p>Options</p></td>
+<td><p><em>Options</em></p></td>
 <td><p>Optional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>sets various options for the connection, as specified in Remarks. Based on this value, the ODBC driver manager prompts the user for connection information such as data source name (DSN), user name, and password.</p></td>
 </tr>
 <tr class="odd">
-<td><p>ReadOnly</p></td>
+<td><p><em>ReadOnly</em></p></td>
 <td><p>Optional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p><strong>True</strong> if the connection is to be opened for read-only access and <strong>False</strong> if the connection is to be opened for read/write access (default).</p></td>
 </tr>
 <tr class="even">
-<td><p>Connect</p></td>
+<td><p><em>Connect</em></p></td>
 <td><p>Optional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>An ODBC connection string. See the <strong><a href="connection-connect-property-dao.md">Connect</a></strong> property for the specific elements and syntax of this string. A prepended &quot;ODBC;&quot; is required.</p></td>
@@ -69,7 +68,7 @@ f1_categories:
 </table>
 
 
-### Return value
+## Return value
 
 Connection
 

@@ -10,10 +10,8 @@ mtps_version: v=office.15
 
 # MoveRecord method (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
  
-
 Moves the entity represent by a [Record](record-object-ado.md) to another location.
 
 ## Syntax
@@ -22,29 +20,14 @@ Moves the entity represent by a [Record](record-object-ado.md) to another locati
 
 ## Parameters
 
-  - *Source*
-
-  - Optional. A **String** value that contains a URL identifying the **Record** to be moved. If *Source* is omitted or specifies an empty string, the object represented by this **Record** is moved. For example, if the **Record** represents a file, the contents of the file are moved to the location specified by *Destination*.
-
-  - *Destination*
-
-  - Optional. A **String** value that contains a URL specifying the location where *Source* will be moved.
-
-  - *UserName*
-
-  - Optional. A **String** value that contains the user ID that, if needed, authorizes access to *Destination*.
-
-  - *Password*
-
-  - Optional. A **String** that contains the password that, if needed, verifies *UserName*.
-
-  - *Options*
-
-  - Optional. A [MoveRecordOptionsEnum](moverecordoptionsenum.md) value whose default value is **adMoveUnspecified**. Specifies the behavior of this method.
-
-  - *Async*
-
-  - Optional. A **Boolean** value that, when **True**, specifies this operation should be asynchronous .
+|Parameter|Description|
+|:--------|:----------|
+|*Source* |Optional. A **String** value that contains a URL identifying the **Record** to be moved. If *Source* is omitted or specifies an empty string, the object represented by this **Record** is moved. For example, if the **Record** represents a file, the contents of the file are moved to the location specified by *Destination*.|
+|*Destination* |Optional. A **String** value that contains a URL specifying the location where *Source* will be moved.|
+|*UserName* |Optional. A **String** value that contains the user ID that, if needed, authorizes access to *Destination*.|
+|*Password* |Optional. A **String** that contains the password that, if needed, verifies *UserName*.|
+|*Options* |Optional. A [MoveRecordOptionsEnum](moverecordoptionsenum.md) value whose default value is **adMoveUnspecified**. Specifies the behavior of this method.|
+|*Async* |Optional. A **Boolean** value that, when **True**, specifies this operation should be asynchronous.|
 
 ## Return value
 

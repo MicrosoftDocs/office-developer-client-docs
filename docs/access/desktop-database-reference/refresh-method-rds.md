@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Refresh method (RDS)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Requeries the data source specified in the [Connect](connect-property-rds.md) property and updates the query results.
@@ -21,9 +20,9 @@ Requeries the data source specified in the [Connect](connect-property-rds.md) pr
 
 ## Parameters
 
-  - *DataControl*
-
-  - An object variable that represents an [RDS.DataControl](datacontrol-object-rds.md) object.
+|Parameter|Description|
+|:--------|:----------|
+|*DataControl* |An object variable that represents an [RDS.DataControl](datacontrol-object-rds.md) object.|
 
 ## Remarks
 

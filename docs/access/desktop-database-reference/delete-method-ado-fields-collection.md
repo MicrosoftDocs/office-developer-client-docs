@@ -10,9 +10,7 @@ mtps_version: v=office.15
 
 # Delete method (ADO Fields Collection)
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 
 Deletes an object from the [Fields](fields-collection-ado.md) collection.
@@ -23,9 +21,9 @@ Deletes an object from the [Fields](fields-collection-ado.md) collection.
 
 ## Parameters
 
-- *Field*
-
-  - A **Variant** that designates the [Field](field-object-ado.md) object to delete. This parameter can be the name of the **Field** object or the ordinal position of the **Field** object itself.
+|Parameter|Description|
+|:--------|:----------|
+|*Field* |A **Variant** that designates the [Field](field-object-ado.md) object to delete. This parameter can be the name of the **Field** object or the ordinal position of the **Field** object itself.|
 
 ## Remarks
 
