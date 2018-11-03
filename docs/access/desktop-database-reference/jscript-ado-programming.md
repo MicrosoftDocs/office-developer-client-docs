@@ -1,6 +1,6 @@
 ﻿---
-title: JScript ADO Programming
-TOCTitle: JScript ADO Programming
+title: JScript ADO programming
+TOCTitle: JScript ADO programming
 ms:assetid: 2254f111-e6c2-1ad7-eb65-ee0550056d89
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249002(v=office.15)
 ms:contentKeyID: 48543706
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# JScript ADO Programming
+# JScript ADO programming
 
 
 **Applies to**: Access 2013, Office 2013

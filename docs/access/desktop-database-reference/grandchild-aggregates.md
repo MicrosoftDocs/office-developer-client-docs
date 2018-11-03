@@ -1,6 +1,6 @@
 ﻿---
-title: Grandchild Aggregates
-TOCTitle: Grandchild Aggregates
+title: Grandchild aggregates
+TOCTitle: Grandchild aggregates
 ms:assetid: ea5e2e1f-f3d5-f851-623a-a5d1385fe206
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250188(v=office.15)
 ms:contentKeyID: 48548462
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Grandchild Aggregates
+# Grandchild aggregates
 
 
 **Applies to**: Access 2013, Office 2013

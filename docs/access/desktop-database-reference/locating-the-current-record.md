@@ -1,6 +1,6 @@
 ﻿---
-title: Locating the Current Record
-TOCTitle: Locating the Current Record
+title: Locating the current record
+TOCTitle: Locating the current record
 ms:assetid: b47fa9d6-0381-3d95-fb85-6bf1dd1071c9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249865(v=office.15)
 ms:contentKeyID: 48547228
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Locating the Current Record
+# Locating the current record
 
 **Applies to**: Access 2013, Office 2013
 
@@ -16,6 +16,5 @@ The current position of the cursor in the **Recordset** delineates the current r
 
 This section includes the following topics:
 
-- [Counting Rows](counting-rows.md)
-
-- [The Limits of a Recordset](the-limits-of-a-recordset.md)
+- [Counting rows](counting-rows.md)
+- [The limits of a Recordset](the-limits-of-a-recordset.md)

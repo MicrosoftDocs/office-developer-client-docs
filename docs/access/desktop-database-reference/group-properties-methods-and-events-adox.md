@@ -10,22 +10,18 @@ mtps_version: v=office.15
 
 # Group properties, methods, and events (ADOX)
 
-
 **Applies to**: Access 2013, Office 2013
 
 ## Properties/Collections
 
-- [Name Property](name-property-adox.md)
-
-- [Properties Collection](properties-collection-ado.md)
-
-- [Users Collection](users-collection-adox.md)
+- [Name property](name-property-adox.md)
+- [Properties collection](properties-collection-ado.md)
+- [Users collection](users-collection-adox.md)
 
 ## Methods
 
-- [GetPermissions Method](getpermissions-method-adox.md)
-
-- [SetPermissions Method](setpermissions-method-adox.md)
+- [GetPermissions method](getpermissions-method-adox.md)
+- [SetPermissions method](setpermissions-method-adox.md)
 
 ## Events
 

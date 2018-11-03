@@ -1,6 +1,6 @@
 ﻿---
-title: Source Property (ADO Recordset)
-TOCTitle: Source Property (ADO Recordset)
+title: Source property (ADO Recordset)
+TOCTitle: Source property (ADO Recordset)
 ms:assetid: 523ea81e-d011-8d87-436e-084b6eba0908
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249269(v=office.15)
 ms:contentKeyID: 48544843
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Source Property (ADO Recordset)
+# Source property (ADO Recordset)
 
 
 **Applies to**: Access 2013, Office 2013

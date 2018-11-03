@@ -10,23 +10,18 @@ mtps_version: v=office.15
 
 # Procedures collection properties, methods, and events (ADOX)
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 ## Properties
 
-- [Count Property](count-property-ado.md)
-
-- [Item Property](item-property-ado.md)
+- [Count property](count-property-ado.md)
+- [Item property](item-property-ado.md)
 
 ## Methods
 
-- [Append Method (Procedures)](append-method-adox-procedures.md)
-
-- [Delete Method (Collections)](delete-method-adox-collections.md)
-
-- [Refresh Method](refresh-method-ado.md)
+- [Append method (Procedures)](append-method-adox-procedures.md)
+- [Delete method (Collections)](delete-method-adox-collections.md)
+- [Refresh method](refresh-method-ado.md)
 
 ## Events
 

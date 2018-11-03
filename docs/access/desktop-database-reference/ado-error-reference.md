@@ -1,6 +1,6 @@
 ﻿---
-title: ADO Error Reference
-TOCTitle: ADO Error Reference
+title: ADO error reference
+TOCTitle: ADO error reference
 ms:assetid: 21cec161-664a-4c18-4458-8117f4f63845
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248997(v=office.15)
 ms:contentKeyID: 48543690
@@ -8,8 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ADO Error Reference
-
+# ADO error reference
 
 **Applies to**: Access 2013, Office 2013
 

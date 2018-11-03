@@ -10,36 +10,24 @@ mtps_version: v=office.15
 
 # Member properties, methods, and events (ADO MD)
 
-
 **Applies to**: Access 2013, Office 2013
 
 ## Properties/Collections
 
-- [Caption Property](caption-property-ado-md.md)
+- [Caption property](caption-property-ado-md.md)
+- [ChildCount property](childcount-property-ado-md.md)
+- [Children property](children-property-ado-md.md)
+- [Description property](description-property-ado-md.md)
+- [DrilledDown property](drilleddown-property-ado-md.md)
+- [LevelDepth property](leveldepth-property-ado-md.md)
+- [LevelName property](levelname-property-ado-md.md)
+- [Name property](name-property-ado-md.md)
+- [Parent property](parent-property-ado-md.md)
+- [ParentSameAsPrev property](parentsameasprev-property-ado-md.md)
+- [Properties collection](properties-collection-ado.md)
+- [Type property](type-property-ado-md.md)
+- [UniqueName property](uniquename-property-ado-md.md)
 
-- [ChildCount Property](childcount-property-ado-md.md)
-
-- [Children Property](children-property-ado-md.md)
-
-- [Description Property](description-property-ado-md.md)
-
-- [DrilledDown Property](drilleddown-property-ado-md.md)
-
-- [LevelDepth Property](leveldepth-property-ado-md.md)
-
-- [LevelName Property](levelname-property-ado-md.md)
-
-- [Name Property](name-property-ado-md.md)
-
-- [Parent Property](parent-property-ado-md.md)
-
-- [ParentSameAsPrev Property](parentsameasprev-property-ado-md.md)
-
-- [Properties Collection](properties-collection-ado.md)
-
-- [Type Property](type-property-ado-md.md)
-
-- [UniqueName Property](uniquename-property-ado-md.md)
 
 ## Methods
 

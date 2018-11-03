@@ -1,6 +1,6 @@
 ﻿---
-title: Address Book Command Buttons
-TOCTitle: Address Book Command Buttons
+title: Address Book command buttons
+TOCTitle: Address Book command buttons
 ms:assetid: bcea6f53-3e36-b067-03c2-b157ed02d41d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249908(v=office.15)
 ms:contentKeyID: 48547422
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Address Book Command Buttons
+# Address Book command buttons
 
 
 **Applies to**: Access 2013, Office 2013
@@ -16,13 +16,13 @@ mtps_version: v=office.15
 
 The Address Book application includes the following command buttons:
 
-  - A Find button to submit a query to the database.
+- A **Find** button to submit a query to the database.
 
-  - A **Clear** button to clear the text boxes before starting a new search.
+- A **Clear** button to clear the text boxes before starting a new search.
 
-  - An Update Profile button to save changes to an employee record.
+- An **Update Profile** button to save changes to an employee record.
 
-  - A Cancel Changes button to discard changes.
+- A **Cancel Changes** button to discard changes.
 
 ## Find Button
 

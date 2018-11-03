@@ -12,19 +12,13 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013, Office 2013
 
-- [SQL aggregate functions](sql-aggregate-functions-sql.md)
-
-- [SQL expressions](sql-expressions.md)
-
-- [SQL reserved words](sql-reserved-words.md)
-
-- [SQL data types](sql-data-types.md)
-
-- [ODBC scalar functions](odbc-scalar-functions.md)
-
 - [Comparison of Microsoft Access SQL and ANSI SQL](comparison-of-microsoft-access-sql-and-ansi-sql.md)
-
 - [Equivalent ANSI SQL data types](equivalent-ansi-sql-data-types.md)
-
+- [ODBC scalar functions](odbc-scalar-functions.md)
+- [SQL aggregate functions](sql-aggregate-functions-sql.md)
+- [SQL data types](sql-data-types.md)
+- [SQL expressions](sql-expressions.md)
+- [SQL reserved words](sql-reserved-words.md)
 - [Using wildcard characters in string comparisons](using-wildcard-characters-in-string-comparisons.md)
+
 

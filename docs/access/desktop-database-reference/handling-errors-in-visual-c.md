@@ -1,6 +1,6 @@
 ﻿---
-title: Handling Errors in Visual C++
-TOCTitle: Handling Errors in Visual C++
+title: Handling errors in Visual C++
+TOCTitle: Handling errors in Visual C++
 ms:assetid: 75e15699-0c84-1dca-654e-f9ac465c2a30
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249483(v=office.15)
 ms:contentKeyID: 48545684
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Handling Errors in Visual C++
+# Handling errors in Visual C++
 
 
 **Applies to**: Access 2013, Office 2013

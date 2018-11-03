@@ -14,15 +14,11 @@ mtps_version: v=office.15
 
 ## Properties/Collections
 
-- [FormattedValue Property](formattedvalue-property-ado-md.md)
-
-- [Ordinal Property (Cell)](ordinal-property-ado-md-cell.md)
-
-- [Positions Collection](positions-collection-ado-md.md)
-
-- [Properties Collection](properties-collection-ado.md)
-
-- [Value Property](value-property-ado-md.md)
+- [FormattedValue property](formattedvalue-property-ado-md.md)
+- [Ordinal property (cell)](ordinal-property-ado-md-cell.md)
+- [Positions collection](positions-collection-ado-md.md)
+- [Properties collection](properties-collection-ado.md)
+- [Value property](value-property-ado-md.md)
 
 ## Methods
 

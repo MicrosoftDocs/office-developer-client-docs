@@ -8,8 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Step 2: Invoke the Server Program (RDS Tutorial)
-
+# Step 2: Invoke the server program (RDS Tutorial)
 
 **Applies to**: Access 2013, Office 2013
 

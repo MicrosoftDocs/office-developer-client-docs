@@ -1,6 +1,6 @@
 ﻿---
-title: Keyset Cursors (Access desktop database reference)
-TOCTitle: Keyset Cursors
+title: Keyset cursors (Access desktop database reference)
+TOCTitle: Keyset cursors
 ms:assetid: 4b6e5f90-4413-4fb3-0a08-2cb89d3c61f7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249236(v=office.15)
 ms:contentKeyID: 48544690
@@ -8,8 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Keyset Cursors
-
+# Keyset cursors
 
 **Applies to**: Access 2013, Office 2013
 

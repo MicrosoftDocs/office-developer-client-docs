@@ -12,7 +12,6 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013, Office 2013
 
-  - [ActiveX control custom properties dialog box](the-activex-control-s-custom-properties-dialog-box.md)
-
-  - [View an ActiveX control About box](view-an-activex-control-s-about-box.md)
+- [ActiveX control custom properties dialog box](the-activex-control-s-custom-properties-dialog-box.md)
+- [View an ActiveX control About box](view-an-activex-control-s-about-box.md)
 

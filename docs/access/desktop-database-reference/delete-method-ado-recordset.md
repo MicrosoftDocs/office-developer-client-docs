@@ -1,6 +1,6 @@
 ﻿---
-title: Delete Method (ADO Recordset)
-TOCTitle: Delete Method (ADO Recordset)
+title: Delete method (ADO Recordset)
+TOCTitle: Delete method (ADO Recordset)
 ms:assetid: 62c39b4d-223e-7b48-6780-6cd272e3114e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249374(v=office.15)
 ms:contentKeyID: 48545246
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Delete Method (ADO Recordset)
+# Delete method (ADO Recordset)
 
 
 **Applies to**: Access 2013, Office 2013
@@ -23,7 +23,7 @@ Deletes the current record or a group of records.
 
 ## Parameters
 
-  - *AffectRecords*
+- *AffectRecords*
 
   - An [AffectEnum](affectenum.md) value that determines how many records the **Delete** method will affect. The default value is **adAffectCurrent**.
 

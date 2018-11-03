@@ -13,10 +13,7 @@ mtps_version: v=office.15
 **Applies to**: Access 2013, Office 2013
 
 - [Customizing Windows registry settings for the Microsoft Access database engine](customizing-windows-registry-settings-for-the-microsoft-access-database-engine.md)
-
 - [Initializing the Microsoft Excel driver](initializing-the-microsoft-excel-driver.md)
-
-- [Initializing the Microsoft Exchange data source driver](initializing-the-microsoft-exchange-data-source-driver.md)
-
-- [Initializing the Text data source driver](initializing-the-text-data-source-driver.md)
+- [Initializing the Microsoft Exchange Data Source driver](initializing-the-microsoft-exchange-data-source-driver.md)
+- [Initializing the Text Data Source driver](initializing-the-text-data-source-driver.md)
 

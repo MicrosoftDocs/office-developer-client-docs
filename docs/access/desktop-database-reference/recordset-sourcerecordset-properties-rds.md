@@ -1,6 +1,6 @@
 ﻿---
-title: Recordset, SourceRecordset Properties (RDS)
-TOCTitle: Recordset, SourceRecordset Properties (RDS)
+title: Recordset, SourceRecordset properties (RDS)
+TOCTitle: Recordset, SourceRecordset properties (RDS)
 ms:assetid: 5f4bb72d-ddfa-41c0-c353-b3a6632b4a91
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249345(v=office.15)
 ms:contentKeyID: 48545160
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Recordset, SourceRecordset Properties (RDS)
+# Recordset, SourceRecordset properties (RDS)
 
 
 **Applies to**: Access 2013, Office 2013
@@ -23,11 +23,11 @@ Indicates the **Recordset** object returned from a custom business object.
 
 ## Parameters
 
-  - *DataControl*
+- *DataControl*
 
   - An object variable that represents an [RDS.DataControl](datacontrol-object-rds.md) object.
 
-  - *Recordset*
+- *Recordset*
 
   - An object variable that represents a **Recordset** object.
 

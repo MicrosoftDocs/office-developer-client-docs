@@ -14,7 +14,6 @@ f1_categories:
 
 # Cancel method (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Cancels execution of a pending, asynchronous method call.

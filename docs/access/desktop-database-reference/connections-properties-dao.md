@@ -10,10 +10,7 @@ mtps_version: v=office.15
 
 # Connections properties (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
-
-
-  - [Connections.Count property (DAO)](connections-count-property-dao.md)
+- [Connections.Count property (DAO)](connections-count-property-dao.md)
 

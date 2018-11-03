@@ -25,11 +25,11 @@ Returns a [CompareEnum](compareenum.md) value that indicates the relative row po
 
 ## Parameters
 
-  - *Bookmark1*
+- *Bookmark1*
 
   - The bookmark of the first row.
 
-  - *Bookmark2*
+- *Bookmark2*
 
   - The bookmark of the second row.
 

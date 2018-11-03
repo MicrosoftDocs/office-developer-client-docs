@@ -23,11 +23,11 @@ Disconnect*adStatus*, *pConnection*
 
 ## Parameters
 
-  - *pError*
+- *pError*
 
   - An [Error](error-object-ado.md) object. It describes the error that occurred if the value of *adStatus* is **adStatusErrorsOccurred**; otherwise it is not set.
 
-  - *adStatus*
+- *adStatus*
 
   - [EventStatusEnum](eventstatusenum.md)
     
@@ -35,7 +35,7 @@ Disconnect*adStatus*, *pConnection*
     
     Before either event returns, set this parameter to **adStatusUnwantedEvent** to prevent subsequent notifications. However, closing and reopening the [Connection](connection-object-ado.md) causes these events to occur again.
 
-  - *pConnection*
+- *pConnection*
 
   - The **Connection** object for which this event applies.
 

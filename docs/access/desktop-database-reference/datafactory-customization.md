@@ -1,6 +1,6 @@
 ﻿---
-title: DataFactory Customization
-TOCTitle: DataFactory Customization
+title: DataFactory customization
+TOCTitle: DataFactory customization
 ms:assetid: 43cd7416-1f05-87ee-22f0-6cf0d2d1b39f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249205(v=office.15)
 ms:contentKeyID: 48544511
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# DataFactory Customization
+# DataFactory customization
 
 
 **Applies to**: Access 2013, Office 2013
@@ -25,16 +25,10 @@ The parameters the handler uses to modify client parameters and access rights ar
 
 See the following topics for more information about customizing the **DataFactory** object:
 
-  - [Understanding the Customization File](understanding-the-customization-file.md)
-
-  - [Customization File Connect Section](customization-file-connect-section.md)
-
-  - [Customization File SQL Section](customization-file-sql-section.md)
-
-  - [Customization File UserList Section](customization-file-userlist-section.md)
-
-  - [Customization File Logs Section](customization-file-logs-section.md)
-
-  - [Required Client Settings](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/required-client-settings)
-
-  - [Writing Your Own Customized Handler](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/writing-your-own-customized-handler)
+- [Understanding the Customization File](understanding-the-customization-file.md)
+- [Customization File Connect section](customization-file-connect-section.md)
+- [Customization File SQL section](customization-file-sql-section.md)
+- [Customization File UserList section](customization-file-userlist-section.md)
+- [Customization File Logs section](customization-file-logs-section.md)
+- [Required client settings](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/required-client-settings)
+- [Writing your own customized handler](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/writing-your-own-customized-handler)

@@ -8,8 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Chapter 12: RDS Tutorial
-
+# Chapter 12: RDS tutorial
 
 **Applies to**: Access 2013, Office 2013
 

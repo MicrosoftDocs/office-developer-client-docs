@@ -1779,15 +1779,6 @@
                         href: access/desktop-database-reference/xml-security-considerations.md
                       - name: XML Recordset persistence scenario
                         href: access/desktop-database-reference/xml-recordset-persistence-scenario.md
-                        items:
-                        - name: 'Step 1: Set up the application'
-                          href: access/desktop-database-reference/step-1-set-up-the-application.md
-                        - name: 'Step 2: Get the data'
-                          href: access/desktop-database-reference/step-2-get-the-data.md
-                        - name: 'Step 3: Send the data'
-                          href: access/desktop-database-reference/step-3-send-the-data.md
-                        - name: 'Step 4: Receive and display the data'
-                          href: access/desktop-database-reference/step-4-receive-and-display-the-data.md
                 - name: 'Chapter 6: Error handling'
                   href: access/desktop-database-reference/chapter-6-error-handling.md
                   items:
@@ -1926,15 +1917,6 @@
                       href: access/desktop-database-reference/the-ole-db-provider-for-internet-publishing.md
                     - name: Internet publishing scenario
                       href: access/desktop-database-reference/internet-publishing-scenario.md
-                      items:
-                      - name: 'Step 1: Set up the Visual Basic project'
-                        href: access/desktop-database-reference/step-1-set-up-the-visual-basic-project.md
-                      - name: 'Step 2: Initialize the Main list box'
-                        href: access/desktop-database-reference/step-2-initialize-the-main-list-box.md
-                      - name: 'Step 3: Populate the Fields list box'
-                        href: access/desktop-database-reference/step-3-populate-the-fields-list-box.md
-                      - name: 'Step 4: Populate the Details text box'
-                        href: access/desktop-database-reference/step-4-populate-the-details-text-box.md
               - name: 'Section II: Remote Data Service'
                 href: access/desktop-database-reference/section-ii-remote-data-service.md
                 items:

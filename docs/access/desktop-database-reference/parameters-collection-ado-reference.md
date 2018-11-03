@@ -10,12 +10,8 @@ mtps_version: v=office.15
 
 # Parameters collection (ADO) reference
 
-
 **Applies to**: Access 2013, Office 2013
 
-
-
-  - [Parameters collection (ADO)](parameters-collection-ado.md)
-
-  - [Parameters collection properties, methods, and events](parameters-collection-properties-methods-and-events.md)
+- [Parameters collection (ADO)](parameters-collection-ado.md)
+- [Parameters collection properties, methods, and events](parameters-collection-properties-methods-and-events.md)
 

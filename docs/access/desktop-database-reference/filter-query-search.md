@@ -1,6 +1,6 @@
 ﻿---
-title: Filter/Query/Search
-TOCTitle: Filter/Query/Search
+title: Filter/query/search
+TOCTitle: Filter/query/search
 ms:assetid: 383df639-4a9b-4741-add2-e6e36e1bdde5
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124363(v=office.15)
 ms:contentKeyID: 52071997
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Filter/Query/Search
+# Filter/query/search
 
 **Applies to**: Access 2013, Office 2013
 

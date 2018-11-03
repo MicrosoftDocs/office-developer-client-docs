@@ -10,10 +10,7 @@ mtps_version: v=office.15
 
 # QueryDefs properties (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
-
-
-  - [QueryDefs.Count property (DAO)](querydefs-count-property-dao.md)
+- [QueryDefs.Count property (DAO)](querydefs-count-property-dao.md)
 

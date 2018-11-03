@@ -10,10 +10,7 @@ mtps_version: v=office.15
 
 # Relations properties (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
-
-
-  - [Relations.Count property (DAO)](relations-count-property-dao.md)
+- [Relations.Count property (DAO)](relations-count-property-dao.md)
 

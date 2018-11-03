@@ -10,14 +10,12 @@ mtps_version: v=office.15
 
 # Position properties, methods, and events (ADO MD)
 
-
 **Applies to**: Access 2013, Office 2013
 
 ## Properties/Collections
 
-- [Members Collection](members-collection-ado-md.md)
-
-- [Ordinal Property (Position)](ordinal-property-ado-md-position.md)
+- [Members collection](members-collection-ado-md.md)
+- [Ordinal property (Position)](ordinal-property-ado-md-position.md)
 
 ## Methods
 

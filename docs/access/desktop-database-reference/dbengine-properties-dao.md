@@ -10,26 +10,16 @@ mtps_version: v=office.15
 
 # DBEngine properties (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
+- [DBEngine.DefaultPassword property (DAO)](dbengine-defaultpassword-property-dao.md)
+- [DBEngine.DefaultType property (DAO)](dbengine-defaulttype-property-dao.md)
+- [DBEngine.DefaultUser property (DAO)](dbengine-defaultuser-property-dao.md)
+- [DBEngine.Errors property (DAO)](dbengine-errors-property-dao.md)
+- [DBEngine.IniPath property (DAO)](dbengine-inipath-property-dao.md)
+- [DBEngine.LoginTimeout property (DAO)](dbengine-logintimeout-property-dao.md)
+- [DBEngine.Properties property (DAO)](dbengine-properties-property-dao.md)
+- [DBEngine.Version property (DAO)](dbengine-version-property-dao.md)
+- [DBEngine.Workspaces property (DAO)](dbengine-workspaces-property-dao.md)
 
-
-  - [DBEngine.DefaultPassword property (DAO)](dbengine-defaultpassword-property-dao.md)
-
-  - [DBEngine.DefaultType property (DAO)](dbengine-defaulttype-property-dao.md)
-
-  - [DBEngine.DefaultUser property (DAO)](dbengine-defaultuser-property-dao.md)
-
-  - [DBEngine.Errors property (DAO)](dbengine-errors-property-dao.md)
-
-  - [DBEngine.IniPath property (DAO)](dbengine-inipath-property-dao.md)
-
-  - [DBEngine.LoginTimeout property (DAO)](dbengine-logintimeout-property-dao.md)
-
-  - [DBEngine.Version property (DAO)](dbengine-version-property-dao.md)
-
-  - [DBEngine.Properties property (DAO)](dbengine-properties-property-dao.md)
-
-  - [DBEngine.Workspaces property (DAO)](dbengine-workspaces-property-dao.md)
 

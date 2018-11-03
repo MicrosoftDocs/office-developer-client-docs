@@ -1,5 +1,5 @@
 ﻿---
-title: PermissionEnum Enumeration (DAO)
+title: PermissionEnum enumeration (DAO)
 TOCTitle: PermissionEnum Enumeration
 ms:assetid: dcce9940-f8a7-e915-1b69-05c341bea8cd
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835373(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# PermissionEnum Enumeration (DAO)
+# PermissionEnum enumeration (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Recordset.StillExecuting property (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 ## Syntax

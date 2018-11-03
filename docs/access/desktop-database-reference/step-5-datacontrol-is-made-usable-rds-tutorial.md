@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Step 5: DataControl is Made Usable (RDS Tutorial)
+# Step 5: DataControl is made usable (RDS Tutorial)
 
 
 **Applies to**: Access 2013, Office 2013

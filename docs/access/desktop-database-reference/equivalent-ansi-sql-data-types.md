@@ -1,6 +1,6 @@
 ﻿---
-title: Equivalent ANSI SQL Data Types
-TOCTitle: Equivalent ANSI SQL Data Types
+title: Equivalent ANSI SQL data types
+TOCTitle: Equivalent ANSI SQL data types
 ms:assetid: 720abf59-f9ef-4e14-4223-c873f604ad58
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195814(v=office.15)
 ms:contentKeyID: 48545599
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Equivalent ANSI SQL Data Types
+# Equivalent ANSI SQL data types
 
 
 **Applies to**: Access 2013, Office 2013

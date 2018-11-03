@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Appendix C: Programming with ADO
 
-
 **Applies to**: Access 2013, Office 2013
 
 ADO is a COM automation interface component that can be used with many programming languages, including Microsoft Visual Basic, VBScript, JScript, Visual C++, and Visual J++. A version of ADO is installed with each of these tools and other applications, such as Microsoft Office and Microsoft SQL Server. See the [Data Platform Developer Center](https://msdn.microsoft.com/data/default.aspx) for more information.
@@ -20,11 +19,8 @@ The library for ADO is msado15.dll and the program ID (ProgID) prefix is "ADODB.
 For more information about programming with ADO in various development environments, see the following topics:
 
 - [Using ADO with Microsoft Visual Basic](using-ado-with-microsoft-visual-basic.md)
-
-- [Using ADO with Scripting Languages](using-ado-with-scripting-languages.md)
-
+- [Using ADO with scripting languages](using-ado-with-scripting-languages.md)
 - [Using ADO with Microsoft Visual C++](using-ado-with-microsoft-visual-c.md)
-
 - [Using ADO with Microsoft Visual J++](using-ado-with-microsoft-visual-j.md)
 
 

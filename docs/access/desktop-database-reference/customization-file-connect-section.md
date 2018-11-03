@@ -1,6 +1,6 @@
 ﻿---
-title: Customization File Connect Section
-TOCTitle: Customization File Connect Section
+title: Customization File Connect section
+TOCTitle: Customization File Connect section
 ms:assetid: 037abfb4-798d-4b09-6133-356969aee95c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248802(v=office.15)
 ms:contentKeyID: 48542985
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Customization File Connect Section
+# Customization File Connect section
 
 **Applies to**: Access 2013, Office 2013
 

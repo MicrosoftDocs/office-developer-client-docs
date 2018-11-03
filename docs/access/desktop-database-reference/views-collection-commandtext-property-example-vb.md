@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Views Collection, CommandText property example (VB)
+# Views collection, CommandText property example (VB)
 
 
 **Applies to**: Access 2013, Office 2013

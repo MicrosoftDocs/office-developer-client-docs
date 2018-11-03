@@ -1,6 +1,6 @@
 ﻿---
-title: Customization File UserList Section
-TOCTitle: Customization File UserList Section
+title: Customization File UserList section
+TOCTitle: Customization File UserList section
 ms:assetid: b60ba3b0-37d4-bb59-d3cd-2ab44d178b8a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249873(v=office.15)
 ms:contentKeyID: 48547263
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Customization File UserList Section
+# Customization File UserList section
 
 
 **Applies to**: Access 2013, Office 2013

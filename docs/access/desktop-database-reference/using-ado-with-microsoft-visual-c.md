@@ -10,20 +10,15 @@ mtps_version: v=office.15
 
 # Using ADO with Microsoft Visual C++
 
-
 **Applies to**: Access 2013, Office 2013
 
 For information about using ADO with Visual C++, see the following sections:
 
-- [Visual C++ ADO Programming](visual-c-ado-programming.md)
-
-- [Visual C++ Extensions for ADO](visual-c-extensions-for-ado.md)
-
-- [Using Visual C++ Extensions](using-visual-c-extensions.md)
-
-- [Visual C++ Extensions Header](visual-c-extensions-header.md)
-
-- [Visual C++ Extensions Example](visual-c-extensions-example.md)
+- [Visual C++ ADO programming](visual-c-ado-programming.md)
+- [Visual C++ extensions for ADO](visual-c-extensions-for-ado.md)
+- [Using Visual C++ extensions](using-visual-c-extensions.md)
+- [Visual C++ extensions header](visual-c-extensions-header.md)
+- [Visual C++ extensions example](visual-c-extensions-example.md)
 
 
 ## See also

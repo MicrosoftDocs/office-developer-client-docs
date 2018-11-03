@@ -10,42 +10,29 @@ mtps_version: v=office.15
 
 # Record properties, methods, and events (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 ## Properties/Collections
 
-- [ActiveConnection Property](activeconnection-property-ado.md)
+- [ActiveConnection property](activeconnection-property-ado.md)
+- [Fields collection](fields-collection-ado.md)
+- [Mode property](mode-property-ado.md)
+- [ParentURL property](parenturl-property-ado.md)
+- [Properties collection](properties-collection-ado.md)
+- [RecordType property](recordtype-property-ado.md)
+- [Source property (ADO Record)](source-property-ado-record.md)
+- [State property](state-property-ado.md)
 
-- [Fields Collection](fields-collection-ado.md)
-
-- [Mode Property](mode-property-ado.md)
-
-- [ParentURL Property](parenturl-property-ado.md)
-
-- [Properties Collection](properties-collection-ado.md)
-
-- [RecordType Property](recordtype-property-ado.md)
-
-- [Source Property (ADO Record)](source-property-ado-record.md)
-
-- [State Property](state-property-ado.md)
 
 ## Methods
 
-- [Cancel Method](cancel-method-ado.md)
-
-- [Close Method](close-method-ado.md)
-
-- [CopyRecord Method](copyrecord-method-ado.md)
-
-- [DeleteRecord Method](deleterecord-method-ado.md)
-
-- [GetChildren Method](getchildren-method-ado.md)
-
-- [MoveRecord Method](moverecord-method-ado.md)
-
-- [Open Method (ADO Record)](open-method-ado-record.md)
+- [Cancel method](cancel-method-ado.md)
+- [Close method](close-method-ado.md)
+- [CopyRecord method](copyrecord-method-ado.md)
+- [DeleteRecord method](deleterecord-method-ado.md)
+- [GetChildren method](getchildren-method-ado.md)
+- [MoveRecord method](moverecord-method-ado.md)
+- [Open method (ADO Record)](open-method-ado-record.md)
 
 ## Events
 

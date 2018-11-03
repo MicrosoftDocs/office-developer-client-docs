@@ -1,6 +1,6 @@
 ﻿---
-title: Deleting Records Using the Delete Method
-TOCTitle: Deleting Records Using the Delete Method
+title: Deleting records using the Delete method
+TOCTitle: Deleting records using the Delete method
 ms:assetid: 22917c33-4d14-ebab-d85c-2cbe7f68c560
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249003(v=office.15)
 ms:contentKeyID: 48543708
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Deleting Records Using the Delete Method
+# Deleting records using the Delete method
 
 
 **Applies to**: Access 2013, Office 2013

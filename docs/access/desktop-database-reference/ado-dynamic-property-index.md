@@ -1,6 +1,6 @@
 ﻿---
-title: ADO Dynamic Property Index
-TOCTitle: ADO Dynamic Property Index
+title: ADO dynamic property index
+TOCTitle: ADO dynamic property index
 ms:assetid: 437beced-b97a-894d-b08f-4a322629a5a6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249202(v=office.15)
 ms:contentKeyID: 48544502
@@ -8,8 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ADO Dynamic Property Index
-
+# ADO dynamic property index
 
 **Applies to**: Access 2013, Office 2013
 
@@ -19,13 +18,13 @@ The table below is a cross-index of the ADO and OLE DB names for each standard O
 
 The OLE DB Programmer's Reference refers to an ADO property name by the term, "Description." You can find more information about these standard properties in the OLE DB Programmer's Reference. Search for the OLE DB property name in the Index or see the following topics:
 
-  - Appendix C: OLE DB Properties
+- Appendix C: OLE DB Properties
 
-  - Supported Properties of the Cursor Service
+- Supported Properties of the Cursor Service
 
-  - Supported Properties of the Persistence Provider
+- Supported Properties of the Persistence Provider
 
-  - Supported OLE DB Properties of the Remoting Provider
+- Supported OLE DB Properties of the Remoting Provider
 
 ## Remarks
 

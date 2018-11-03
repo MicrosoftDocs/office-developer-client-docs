@@ -1,6 +1,6 @@
 ﻿---
-title: ADO Error Codes
-TOCTitle: ADO Error Codes
+title: ADO error codes
+TOCTitle: ADO error codes
 ms:assetid: d7cad7f6-9b95-a521-9947-32658f503e3b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250086(v=office.15)
 ms:contentKeyID: 48548016
@@ -8,8 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ADO Error Codes
-
+# ADO error codes
 
 **Applies to**: Access 2013, Office 2013
 

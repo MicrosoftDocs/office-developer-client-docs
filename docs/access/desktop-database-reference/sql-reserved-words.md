@@ -1,6 +1,6 @@
 ﻿---
-title: SQL Reserved Words (Access desktop database reference)
-TOCTitle: SQL Reserved Words
+title: SQL reserved words (Access desktop database reference)
+TOCTitle: SQL reserved words
 ms:assetid: 1a074927-64df-d645-99ce-95d9826c5a46
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845663(v=office.15)
 ms:contentKeyID: 48543512
@@ -12,8 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# SQL Reserved Words
-
+# SQL reserved words
 
 **Applies to**: Access 2013, Office 2013
 

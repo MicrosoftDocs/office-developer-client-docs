@@ -1,6 +1,6 @@
 ﻿---
-title: Marking Business Objects as Safe for Scripting
-TOCTitle: Marking Business Objects as Safe for Scripting
+title: Marking business objects as safe for scripting
+TOCTitle: Marking business objects as safe for scripting
 ms:assetid: 8ee49aec-672d-96f7-baa6-9261317a4d90
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249630(v=office.15)
 ms:contentKeyID: 48546295
@@ -8,8 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Marking Business Objects as Safe for Scripting
-
+# Marking business objects as safe for scripting
 
 **Applies to**: Access 2013, Office 2013
 

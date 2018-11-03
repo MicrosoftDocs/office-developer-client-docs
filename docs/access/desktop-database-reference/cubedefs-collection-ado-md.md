@@ -19,9 +19,9 @@ Contains the [CubeDef](cubedef-object-ado-md.md) objects that represent a cube f
 
 **CubeDefs** is a standard ADO collection. With the properties and methods of a collection, you can do the following:
 
-  - Obtain the number of objects in the collection with the [Count](count-property-ado.md) property.
+- Obtain the number of objects in the collection with the [Count](count-property-ado.md) property.
 
-  - Return an object from the collection with the default [Item](item-property-ado.md) property.
+- Return an object from the collection with the default [Item](item-property-ado.md) property.
 
-  - Update the objects in the collection from the provider with the [Refresh](refresh-method-ado.md) method.
+- Update the objects in the collection from the provider with the [Refresh](refresh-method-ado.md) method.
 

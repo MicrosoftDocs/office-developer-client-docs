@@ -1,5 +1,5 @@
 ﻿---
-title: ParameterDirectionEnum Enumeration (DAO)
+title: ParameterDirectionEnum enumeration (DAO)
 TOCTitle: ParameterDirectionEnum Enumeration
 ms:assetid: 3f2b91f4-a932-aca5-34a0-4002c27d6b3b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192844(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ParameterDirectionEnum Enumeration (DAO)
+# ParameterDirectionEnum enumeration (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

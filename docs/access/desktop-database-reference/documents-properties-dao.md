@@ -10,10 +10,7 @@ mtps_version: v=office.15
 
 # Documents properties (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
-
-
-  - [Documents.Count property (DAO)](documents-count-property-dao.md)
+- [Documents.Count property (DAO)](documents-count-property-dao.md)
 

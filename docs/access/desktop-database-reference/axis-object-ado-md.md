@@ -21,11 +21,11 @@ An **Axis** object can be contained by an [Axes](axes-collection-ado-md.md) coll
 
 With the collections and properties of an **Axis** object, you can do the following:
 
-  - Identify the **Axis** with the [Name](name-property-ado-md.md) property.
+- Identify the **Axis** with the [Name](name-property-ado-md.md) property.
 
-  - Iterate through each position along an **Axis** using the [Positions](positions-collection-ado-md.md) collection.
+- Iterate through each position along an **Axis** using the [Positions](positions-collection-ado-md.md) collection.
 
-  - Obtain the number of dimensions on the **Axis** with the [DimensionCount](dimensioncount-property-ado-md.md) property.
+- Obtain the number of dimensions on the **Axis** with the [DimensionCount](dimensioncount-property-ado-md.md) property.
 
-  - Obtain provider-specific attributes of the **Axis** with the standard ADO [Properties](properties-collection-ado.md) collection.
+- Obtain provider-specific attributes of the **Axis** with the standard ADO [Properties](properties-collection-ado.md) collection.
 

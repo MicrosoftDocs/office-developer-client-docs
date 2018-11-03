@@ -1,6 +1,6 @@
 ﻿---
-title: More Ways to Move in a Recordset
-TOCTitle: More Ways to Move in a Recordset
+title: More ways to move in a Recordset
+TOCTitle: More ways to move in a Recordset
 ms:assetid: ae49b20e-0050-c44b-67e9-7e39de5098c4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249822(v=office.15)
 ms:contentKeyID: 48547067
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# More Ways to Move in a Recordset
+# More ways to move in a Recordset
 
 **Applies to**: Access 2013, Office 2013
 

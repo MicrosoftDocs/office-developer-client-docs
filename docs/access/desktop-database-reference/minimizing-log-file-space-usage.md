@@ -1,6 +1,6 @@
 ﻿---
-title: Minimizing Log File Space Usage
-TOCTitle: Minimizing Log File Space Usage
+title: Minimizing log file space usage
+TOCTitle: Minimizing log file space usage
 ms:assetid: d527c313-35ad-c30e-6ea1-ddfeff1fe890
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250073(v=office.15)
 ms:contentKeyID: 48547960
@@ -8,8 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Minimizing Log File Space Usage
-
+# Minimizing log file space usage
 
 **Applies to**: Access 2013, Office 2013
 

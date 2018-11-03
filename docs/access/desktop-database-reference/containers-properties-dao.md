@@ -10,10 +10,7 @@ mtps_version: v=office.15
 
 # Containers properties (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
-
-
-  - [Containers.Count property (DAO)](containers-count-property-dao.md)
+- [Containers.Count property (DAO)](containers-count-property-dao.md)
 

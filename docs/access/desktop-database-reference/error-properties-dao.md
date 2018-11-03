@@ -10,14 +10,9 @@ mtps_version: v=office.15
 
 # Error properties (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
-
-
-  - [Error.Description property (DAO)](error-description-property-dao.md)
-
-  - [Error.Number property (DAO)](error-number-property-dao.md)
-
-  - [Error.Source property (DAO)](error-source-property-dao.md)
+- [Error.Description property (DAO)](error-description-property-dao.md)
+- [Error.Number property (DAO)](error-number-property-dao.md)
+- [Error.Source property (DAO)](error-source-property-dao.md)
 

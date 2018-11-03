@@ -1,6 +1,6 @@
 ﻿---
-title: Saving to the XML DOM Object
-TOCTitle: Saving to the XML DOM Object
+title: Saving to the XML DOM object
+TOCTitle: Saving to the XML DOM object
 ms:assetid: 3c61fc30-9862-347b-c215-08597eccfead
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249160(v=office.15)
 ms:contentKeyID: 48544318
@@ -8,8 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Saving to the XML DOM Object
-
+# Saving to the XML DOM object
 
 **Applies to**: Access 2013, Office 2013
 

@@ -1,6 +1,6 @@
 ﻿---
-title: Internet Information Services Error Codes
-TOCTitle: Internet Information Services Error Codes
+title: Internet Information Services error codes
+TOCTitle: Internet Information Services error codes
 ms:assetid: 1ed57b89-b471-88e5-e5af-85323dec18d3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248978(v=office.15)
 ms:contentKeyID: 48543625
@@ -8,8 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Internet Information Services Error Codes
-
+# Internet Information Services error codes
 
 **Applies to**: Access 2013, Office 2013
 

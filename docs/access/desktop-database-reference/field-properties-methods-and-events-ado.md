@@ -10,40 +10,28 @@ mtps_version: v=office.15
 
 # Field properties, methods, and events (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 ## Properties/Collections
 
-- [ActualSize Property](actualsize-property-ado.md)
+- [ActualSize property](actualsize-property-ado.md)
+- [Attributes property](attributes-property-ado.md)
+- [DefinedSize property](definedsize-property-ado.md)
+- [Name property](name-property-ado.md)
+- [NumericScale property](numericscale-property-ado.md)
+- [OriginalValue property](originalvalue-property-ado.md)
+- [Precision property](precision-property-ado.md)
+- [Properties collection](properties-collection-ado.md)
+- [Status property (ADO Field)](status-property-ado-field.md)
+- [Type property](type-property-ado.md)
+- [UnderlyingValue property](underlyingvalue-property-ado.md)
+- [Value property](value-property-ado.md)
 
-- [Attributes Property](attributes-property-ado.md)
-
-- [DefinedSize Property](definedsize-property-ado.md)
-
-- [Name Property](name-property-ado.md)
-
-- [NumericScale Property](numericscale-property-ado.md)
-
-- [OriginalValue Property](originalvalue-property-ado.md)
-
-- [Precision Property](precision-property-ado.md)
-
-- [Properties Collection](properties-collection-ado.md)
-
-- [Status Property (ADO Field)](status-property-ado-field.md)
-
-- [Type Property](type-property-ado.md)
-
-- [UnderlyingValue Property](underlyingvalue-property-ado.md)
-
-- [Value Property](value-property-ado.md)
 
 ## Methods
 
-- [AppendChunk Method](appendchunk-method-ado.md)
-
-- [GetChunk Method](getchunk-method-ado.md)
+- [AppendChunk method](appendchunk-method-ado.md)
+- [GetChunk method](getchunk-method-ado.md)
 
 ## Events
 

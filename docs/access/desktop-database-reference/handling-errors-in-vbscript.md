@@ -1,6 +1,6 @@
 ﻿---
-title: Handling Errors in VBScript
-TOCTitle: Handling Errors in VBScript
+title: Handling errors in VBScript
+TOCTitle: Handling errors in VBScript
 ms:assetid: df8f96d5-b917-ddac-d274-6345b2499bf1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250135(v=office.15)
 ms:contentKeyID: 48548222
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Handling Errors in VBScript
+# Handling errors in VBScript
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,5 +1,5 @@
 ﻿---
-title: EditModeEnum Enumeration (DAO)
+title: EditModeEnum enumeration (DAO)
 TOCTitle: EditModeEnum Enumeration
 ms:assetid: 738ab5b7-75dc-2e45-45f2-eb64cc7e9527
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195860(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# EditModeEnum Enumeration (DAO)
+# EditModeEnum enumeration (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Internet Server Error: Access Denied'
+title: 'Internet Server error: Access Denied'
 TOCTitle: 'Internet Server Error: Access Denied'
 ms:assetid: 65f4608b-afec-2867-dae3-e29bae03a6fd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249395(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Internet Server Error: Access Denied
+# Internet Server error: Access Denied
 
 
 **Applies to**: Access 2013, Office 2013

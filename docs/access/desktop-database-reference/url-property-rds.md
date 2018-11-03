@@ -27,11 +27,11 @@ Run time: DataControl.URL="Server"
 
 ## Parameters
 
-  - *Server*
+- *Server*
 
   - A **String** value that contains a valid URL.
 
-  - *DataControl*
+- *DataControl*
 
   - An object variable that represents a **DataControl** object.
 

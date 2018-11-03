@@ -10,124 +10,73 @@ mtps_version: v=office.15
 
 # Recordset properties, methods, and events (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 ## Properties/Collections
 
-- [AbsolutePage Property](absolutepage-property-ado.md)
+- [AbsolutePage property](absolutepage-property-ado.md)
+- [AbsolutePosition property](absoluteposition-property-ado.md)
+- [ActiveCommand property](activecommand-property-ado.md)
+- [ActiveConnection property](activeconnection-property-ado.md)
+- [BOF, EOF properties](bof-eof-properties-ado.md)
+- [Bookmark property](bookmark-property-ado.md)
+- [CacheSize property](cachesize-property-ado.md)
+- [CursorLocation property](cursorlocation-property-ado.md)
+- [CursorType property](cursortype-property-ado.md)
+- [DataMember property](datamember-property-ado.md)
+- [DataSource property](datasource-property-ado.md)
+- [EditMode property](editmode-property-ado.md)
+- [Fields collection](fields-collection-ado.md)
+- [Filter property](filter-property-ado.md)
+- [Index property](index-property-ado.md)
+- [LockType property](locktype-property-ado.md)
+- [MarshalOptions property](marshaloptions-property-ado.md)
+- [MaxRecords property](maxrecords-property-ado.md)
+- [PageCount property](pagecount-property-ado.md)
+- [PageSize property](pagesize-property-ado.md)
+- [Properties collection](properties-collection-ado.md)
+- [RecordCount property](recordcount-property-ado.md)
+- [Sort property](sort-property-ado.md)
+- [Source property (ADO Recordset)](source-property-ado-recordset.md)
+- [State property](state-property-ado.md)
+- [Status property (ADO Recordset)](status-property-ado-recordset.md)
+- [StayInSync property](stayinsync-property-ado.md)
 
-- [AbsolutePosition Property](absoluteposition-property-ado.md)
-
-- [ActiveCommand Property](activecommand-property-ado.md)
-
-- [ActiveConnection Property](activeconnection-property-ado.md)
-
-- [BOF, EOF Properties](bof-eof-properties-ado.md)
-
-- [Bookmark Property](bookmark-property-ado.md)
-
-- [CacheSize Property](cachesize-property-ado.md)
-
-- [CursorLocation Property](cursorlocation-property-ado.md)
-
-- [CursorType Property](cursortype-property-ado.md)
-
-- [DataMember Property](datamember-property-ado.md)
-
-- [DataSource Property](datasource-property-ado.md)
-
-- [EditMode Property](editmode-property-ado.md)
-
-- [Fields Collection](fields-collection-ado.md)
-
-- [Filter Property](filter-property-ado.md)
-
-- [Index Property](index-property-ado.md)
-
-- [LockType Property](locktype-property-ado.md)
-
-- [MarshalOptions Property](marshaloptions-property-ado.md)
-
-- [MaxRecords Property](maxrecords-property-ado.md)
-
-- [PageCount Property](pagecount-property-ado.md)
-
-- [PageSize Property](pagesize-property-ado.md)
-
-- [Properties Collection](properties-collection-ado.md)
-
-- [RecordCount Property](recordcount-property-ado.md)
-
-- [Sort Property](sort-property-ado.md)
-
-- [Source Property (ADO Recordset)](source-property-ado-recordset.md)
-
-- [State Property](state-property-ado.md)
-
-- [Status Property (ADO Recordset)](status-property-ado-recordset.md)
-
-- [StayInSync Property](stayinsync-property-ado.md)
 
 ## Methods
 
-- [AddNew Method](addnew-method-ado.md)
+- [AddNew method](addnew-method-ado.md)
+- [Cancel method](cancel-method-ado.md)
+- [CancelBatch method](cancelbatch-method-ado.md)
+- [CancelUpdate method](cancelupdate-method-ado.md)
+- [Clone method](clone-method-ado.md)
+- [Close method](close-method-ado.md)
+- [CompareBookmarks method](comparebookmarks-method-ado.md)
+- [Delete method (ADO Recordset)](delete-method-ado-recordset.md)
+- [Find method](find-method-ado.md)
+- [GetRows method](getrows-method-ado.md)
+- [GetString method](getstring-method-ado.md)
+- [Move method](move-method-ado.md)
+- [MoveFirst, MoveLast, MoveNext, and MovePrevious methods](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)
+- [NextRecordset method](nextrecordset-method-ado.md)
+- [Open method (ADO Recordset)](open-method-ado-recordset.md)
+- [Requery method](requery-method-ado.md)
+- [Resync method](resync-method-ado.md)
+- [Save method](save-method-ado.md)
+- [Seek method](seek-method-ado.md)
+- [Supports method](supports-method-ado.md)
+- [Update method](update-method-ado.md)
+- [UpdateBatch method](updatebatch-method-ado.md)
 
-- [Cancel Method](cancel-method-ado.md)
-
-- [CancelBatch Method](cancelbatch-method-ado.md)
-
-- [CancelUpdate Method](cancelupdate-method-ado.md)
-
-- [Clone Method](clone-method-ado.md)
-
-- [Close Method](close-method-ado.md)
-
-- [CompareBookmarks Method](comparebookmarks-method-ado.md)
-
-- [Delete Method (ADO Recordset)](delete-method-ado-recordset.md)
-
-- [Find Method](find-method-ado.md)
-
-- [GetRows Method](getrows-method-ado.md)
-
-- [GetString Method](getstring-method-ado.md)
-
-- [Move Method](move-method-ado.md)
-
-- [MoveFirst, MoveLast, MoveNext, and MovePrevious Methods](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)
-
-- [NextRecordset Method](nextrecordset-method-ado.md)
-
-- [Open Method (ADO Recordset)](open-method-ado-recordset.md)
-
-- [Requery Method](requery-method-ado.md)
-
-- [Resync Method](resync-method-ado.md)
-
-- [Save Method](save-method-ado.md)
-
-- [Seek Method](seek-method-ado.md)
-
-- [Supports Method](supports-method-ado.md)
-
-- [Update Method](update-method-ado.md)
-
-- [UpdateBatch Method](updatebatch-method-ado.md)
 
 ## Events
 
-- [EndOfRecordset Event](endofrecordset-event-ado.md)
+- [EndOfRecordset event](endofrecordset-event-ado.md)
+- [FetchComplete event](fetchcomplete-event-ado.md)
+- [FetchProgress event](fetchprogress-event-ado.md)
+- [WillChangeField and FieldChangeComplete events](willchangefield-and-fieldchangecomplete-events-ado.md)
+- [WillChangeRecord and RecordChangeComplete events](willchangerecord-and-recordchangecomplete-events-ado.md)
+- [WillChangeRecordset and RecordsetChangeComplete events](willchangerecordset-and-recordsetchangecomplete-events-ado.md)
+- [WillMove and MoveComplete events](willmove-and-movecomplete-events-ado.md)
 
-- [FetchComplete Event](fetchcomplete-event-ado.md)
-
-- [FetchProgress Event](fetchprogress-event-ado.md)
-
-- [WillChangeField and FieldChangeComplete Events](willchangefield-and-fieldchangecomplete-events-ado.md)
-
-- [WillChangeRecord and RecordChangeComplete Events](willchangerecord-and-recordchangecomplete-events-ado.md)
-
-- [WillChangeRecordset and RecordsetChangeComplete Events](willchangerecordset-and-recordsetchangecomplete-events-ado.md)
-
-- [WillMove and MoveComplete Events](willmove-and-movecomplete-events-ado.md)
 

@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Using AddNew in Immediate and Batch Modes
+# Using AddNew in Immediate and Batch modes
 
 
 **Applies to**: Access 2013, Office 2013

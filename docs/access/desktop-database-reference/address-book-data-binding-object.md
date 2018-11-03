@@ -1,6 +1,6 @@
 ﻿---
-title: Address Book Data-Binding Object
-TOCTitle: Address Book Data-Binding Object
+title: Address Book Data-Binding object
+TOCTitle: Address Book Data-Binding object
 ms:assetid: cf43f645-1ee1-8655-eb70-86d601e9f3f7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250030(v=office.15)
 ms:contentKeyID: 48547807
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Address Book Data-Binding Object
+# Address Book Data-Binding object
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,6 +1,6 @@
 ﻿---
-title: RDS Programming Model in Detail
-TOCTitle: RDS Programming Model in Detail
+title: RDS programming model in detail
+TOCTitle: RDS programming model in detail
 ms:assetid: 133fc059-9b51-52e2-2e61-339716d8d965
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248906(v=office.15)
 ms:contentKeyID: 48543364
@@ -8,22 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# RDS Programming Model in Detail
-
+# RDS programming model in detail
 
 **Applies to**: Access 2013, Office 2013
 
-
-
 The following are key elements of the RDS programming model:
 
-  - RDS.DataSpace
-
-  - RDSServer.DataFactory
-
-  - RDS.DataControl
-
-  - Event
+- RDS.DataSpace
+- RDSServer.DataFactory
+- RDS.DataControl
+- Event
 
 ## RDS.DataSpace
 

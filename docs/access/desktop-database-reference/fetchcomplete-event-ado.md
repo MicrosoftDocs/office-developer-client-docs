@@ -22,17 +22,17 @@ FetchComplete*pError*, *adStatus*, *pRecordset*
 
 ## Parameters
 
-  - *pError*
+- *pError*
 
   - An [Error](error-object-ado.md) object. It describes the error that occurred if the value of **adStatus** is **adStatusErrorsOccurred**; otherwise it is not set.
 
-  - *adStatus*
+- *adStatus*
 
   - [EventStatusEnum](eventstatusenum.md)
     
     Before this event returns, set this parameter to **adStatusUnwantedEvent** to prevent subsequent notifications.
 
-  - *pRecordset*
+- *pRecordset*
 
   - A **Recordset** object. The object for which the records were retrieved.
 

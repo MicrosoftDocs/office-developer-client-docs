@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Using Related Technologies with RDS
+# Using related technologies with RDS
 
 **Applies to**: Access 2013, Office 2013
 
 This section contains specific information about using RDS with aspects of the following technologies:
 
-- [Using RDS with ODBC Connection Pooling](using-rds-with-odbc-connection-pooling.md)
+- [Using RDS with ODBC connection pooling](using-rds-with-odbc-connection-pooling.md)
 
-- [Running Business Objects in Component Services](running-business-objects-in-component-services.md)
+- [Running business objects in component services](running-business-objects-in-component-services.md)
 
 **Internet Information Services** For more information about Microsoft Internet Information Services (IIS), see the Microsoft Internet Information Services website.
 

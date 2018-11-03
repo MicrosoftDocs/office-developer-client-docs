@@ -10,28 +10,19 @@ mtps_version: v=office.15
 
 # Configuring RDS
 
-
 **Applies to**: Access 2013, Office 2013
 
 To implement RDS efficiently, be sure you are familiar with the various configurations available to you. This section includes important information about security and scalability in your implementation of RDS. See the following topics for information about configuring your computers to use RDS.
 
-  - [Granting Guest Privileges to a Web Server Computer](granting-guest-privileges-to-a-web-server-computer;-rds-guest-privileges.md)
+- [Configuring DataFactory for safe or unrestricted modes](configuring-datafactory-for-safe-or-unrestricted-modes.md)
+- [Configuring virtual servers on IIS](configuring-virtual-servers-on-iis.md)
+- [Enabling a DLL to run on DCOM](enabling-a-dll-to-run-on-dcom.md)
+- [Granting guest privileges to a web server computer](granting-guest-privileges-to-a-web-server-computer;-rds-guest-privileges.md)
+- [Marking business objects as safe for scripting](marking-business-objects-as-safe-for-scripting.md)
+- [Registering a custom business object](https://msdn.microsoft.com/library/ff836389\(v=office.15\))
+- [Registering business objects on the client for use with DCOM](registering-business-objects-on-the-client-for-use-with-dcom.md)
+- [Securing RDS applications](securing-rds-applications.md)
+- [Setting DCOM stream marshaling format](setting-dcom-stream-marshaling-format.md)
+- [Specifying threads per processor on IIS](specifying-threads-per-processor-on-iis.md)
 
-  - [Registering a Custom Business Object](https://msdn.microsoft.com/library/ff836389\(v=office.15\))
-
-  - [Marking Business Objects as Safe for Scripting](marking-business-objects-as-safe-for-scripting.md)
-
-  - [Registering Business Objects on the Client for Use with DCOM](registering-business-objects-on-the-client-for-use-with-dcom.md)
-
-  - [Setting DCOM Stream Marshaling Format](setting-dcom-stream-marshaling-format.md)
-
-  - [Enabling a DLL to Run on DCOM](enabling-a-dll-to-run-on-dcom.md)
-
-  - [Configuring Virtual Servers on IIS](configuring-virtual-servers-on-iis.md)
-
-  - [Specifying Threads Per Processor on IIS](specifying-threads-per-processor-on-iis.md)
-
-  - [Securing RDS Applications](securing-rds-applications.md)
-
-  - [Configuring DataFactory for Safe or Unrestricted Modes](configuring-datafactory-for-safe-or-unrestricted-modes.md)
 

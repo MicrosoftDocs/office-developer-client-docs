@@ -1,6 +1,6 @@
 ﻿---
-title: Adding Records (Access desktop database reference)
-TOCTitle: Adding Records
+title: Adding records (Access desktop database reference)
+TOCTitle: Adding records
 ms:assetid: 7a5b27bc-7b28-4f43-b55e-a21edfb9e1b3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249505(v=office.15)
 ms:contentKeyID: 48545791
@@ -8,8 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Adding Records
-
+# Adding records
 
 **Applies to**: Access 2013, Office 2013
 
@@ -21,9 +20,7 @@ If you call **AddNew** while editing the current record or while adding a new re
 
 This section includes the following topics:
 
-- [Adding Multiple Fields](adding-multiple-fields.md)
-
-- [Determining Edit Mode](determining-edit-mode.md)
-
-- [Using AddNew in Immediate and Batch Modes](using-addnew-in-immediate-and-batch-modes.md)
+- [Adding multiple fields](adding-multiple-fields.md)
+- [Determining Edit mode](determining-edit-mode.md)
+- [Using AddNew in Immediate and Batch modes](using-addnew-in-immediate-and-batch-modes.md)
 

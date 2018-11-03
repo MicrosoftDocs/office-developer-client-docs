@@ -21,17 +21,11 @@ Creates a new record for an updatable [Recordset](recordset-object-ado.md) objec
 
 ## Parameters
 
-  - *recordset*
-
-  - A **Recordset** object.
-
-  - *FieldList*
-
-  - Optional. A single name, or an array of names or ordinal positions of the fields in the new record.
-
-  - *Values*
-
-  - Optional. A single value, or an array of values for the fields in the new record. If *Fieldlist* is an array, *Values* must also be an array with the same number of members; otherwise, an error occurs. The order of field names must match the order of field values in each array.
+|Parameter|Description|
+|:--------|:----------|
+|*recordset* |A **Recordset** object.|
+|*FieldList* |Optional. A single name, or an array of names or ordinal positions of the fields in the new record.|
+|*Values* |Optional. A single value, or an array of values for the fields in the new record. If *Fieldlist* is an array, *Values* must also be an array with the same number of members; otherwise, an error occurs. The order of field names must match the order of field values in each array.|
 
 ## Remarks
 

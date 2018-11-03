@@ -1,6 +1,6 @@
 ﻿---
-title: ODBC Scalar Functions
-TOCTitle: ODBC Scalar Functions
+title: ODBC scalar functions
+TOCTitle: ODBC scalar functions
 ms:assetid: dc1096bf-8241-036a-14c6-b19afae45454
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835353(v=office.15)
 ms:contentKeyID: 48548120
@@ -12,7 +12,7 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# ODBC Scalar Functions
+# ODBC scalar functions
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,6 +1,6 @@
 ﻿---
-title: Data Section (Access desktop database reference)
-TOCTitle: Data Section
+title: Data section (Access desktop database reference)
+TOCTitle: Data section
 ms:assetid: fd8d31aa-af13-a52f-5e91-20225b8df175
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250303(v=office.15)
 ms:contentKeyID: 48548920
@@ -8,11 +8,9 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Data Section
+# Data section
 
 **Applies to**: Access 2013, Office 2013
- 
-## Data Section
 
 The data section defines the data of the rowset along with any pending updates, insertions, or deletions. The data section may contain zero or more rows. It may only contain data from one rowset where the row is defined by the schema. Also, as noted before, columns without any data may be omitted. If an attribute or subelement is used in the data section and that construct has not been defined in the schema section, it is silently ignored.
 
@@ -38,7 +36,7 @@ For more information about date formats specified by XML, see [W3C XMLData Note]
 
 When the XML-Data specification defines two equivalent data types (for example, i4 == int), ADO will write out the friendly name but read in both.
 
-## Managing Pending Changes
+## Managing pending changes
 
 A **Recordset** can be opened in immediate or batch update mode. When opened in batch update mode with client-side cursors, all changes made to the **Recordset** are in a pending state until the **UpdateBatch** method is called. Pending changes are also persisted when the **Recordset** is saved. In XML, they are represented by the use of the "update" elements defined in urn:schemas-microsoft-com:rowset. In addition, if a rowset can be updated, the updatable property must be set to true in the definition of the row. For example, to define that the Shippers table contains pending changes, the row definition would look like the following:
 

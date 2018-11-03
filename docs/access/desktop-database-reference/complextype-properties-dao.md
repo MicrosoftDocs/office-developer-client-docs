@@ -10,10 +10,7 @@ mtps_version: v=office.15
 
 # ComplexType properties (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
-
-
-  - [ComplexType.Fields property (DAO)](complextype-fields-property-dao.md)
+- [ComplexType.Fields property (DAO)](complextype-fields-property-dao.md)
 

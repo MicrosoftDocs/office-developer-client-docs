@@ -1,5 +1,5 @@
 ﻿---
-title: LanguageConstants Enumeration (DAO)
+title: LanguageConstants enumeration (DAO)
 TOCTitle: LanguageConstants Enumeration
 ms:assetid: a39c2628-0b87-2e7e-93fc-a56c5f4956bf
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821047(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# LanguageConstants Enumeration (DAO)
+# LanguageConstants enumeration (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

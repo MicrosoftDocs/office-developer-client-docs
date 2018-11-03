@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Using Wildcard Characters in String Comparisons
+# Using Wildcard characters in string comparisons
 
 
 **Applies to**: Access 2013, Office 2013

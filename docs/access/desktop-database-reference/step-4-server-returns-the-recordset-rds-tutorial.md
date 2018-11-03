@@ -8,8 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Step 4: Server Returns the Recordset (RDS Tutorial)
-
+# Step 4: Server returns the Recordset (RDS Tutorial)
 
 **Applies to**: Access 2013, Office 2013
 

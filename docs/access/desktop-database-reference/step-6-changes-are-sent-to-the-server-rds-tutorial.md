@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Step 6: Changes are Sent to the Server (RDS Tutorial)
+# Step 6: Changes are sent to the server (RDS Tutorial)
 
 
 **Applies to**: Access 2013, Office 2013

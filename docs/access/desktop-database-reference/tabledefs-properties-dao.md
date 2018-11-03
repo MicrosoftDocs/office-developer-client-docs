@@ -10,10 +10,7 @@ mtps_version: v=office.15
 
 # TableDefs properties (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
-
-
-  - [TableDefs.Count property (DAO)](tabledefs-count-property-dao.md)
+- [TableDefs.Count property (DAO)](tabledefs-count-property-dao.md)
 

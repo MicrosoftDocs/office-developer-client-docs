@@ -1,6 +1,6 @@
 ﻿---
-title: ADO/WFC Programming
-TOCTitle: ADO/WFC Programming
+title: ADO/WFC programming
+TOCTitle: ADO/WFC programming
 ms:assetid: fc438cc2-00b9-9590-6e0d-a865001ccf2f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250293(v=office.15)
 ms:contentKeyID: 48548887
@@ -8,8 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# ADO/WFC Programming
-
+# ADO/WFC programming
 
 **Applies to**: Access 2013, Office 2013
 
@@ -19,7 +18,7 @@ ADO for Windows Foundation Classes (ADO/WFC) supports all the standard ADO metho
 
 For more detailed information within the ADO documentation about ADO/WFC packages, see [the ADO/WFC Syntax Index](https://msdn.microsoft.com/library/jj250066\(v=office.15\)).
 
-## Referencing the Library
+## Referencing the library
 
 To import the ADO/WFC data classes into your project, include the following line in your code:
 

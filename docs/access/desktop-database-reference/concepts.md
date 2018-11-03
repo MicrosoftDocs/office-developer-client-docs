@@ -16,7 +16,7 @@ This section provides important concepts for developing custom Access solutions.
 
 If you are viewing the content on docs.microsoft.com, you can use the table of contents located to the left of the topic to navigate through the documentation.
 
-- [ActiveX Controls](activex-controls-access.md)
+- [ActiveX controls](activex-controls-access.md)
 - [Conversion](conversion.md)
 - [Ribbon](ribbon.md)
 - [Working with other applications](working-with-other-applications-access.md)

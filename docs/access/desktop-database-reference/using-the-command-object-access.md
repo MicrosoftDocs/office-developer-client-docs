@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Using the Command Object (Access)
+# Using the Command object (Access)
 
 
 **Applies to**: Access 2013, Office 2013

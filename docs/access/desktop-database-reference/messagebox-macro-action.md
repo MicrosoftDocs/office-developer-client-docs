@@ -10,11 +10,7 @@ mtps_version: v=office.15
 
 # MessageBox macro action
 
-
 **Applies to**: Access 2013, Office 2013
-
-
-
 
 You can use the **MessageBox** action to display a message box containing a warning or an informational message. For example, you can use the **MessageBox** action with validation macros. When a control or record fails a validation condition in the macro, a message box can display an error message and provide instructions about the kind of data that should be entered.
 

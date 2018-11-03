@@ -1,5 +1,5 @@
 ﻿---
-title: TableDefAttributeEnum Enumeration (DAO)
+title: TableDefAttributeEnum enumeration (DAO)
 TOCTitle: TableDefAttributeEnum Enumeration
 ms:assetid: 5a0dea24-9092-1642-a3d9-29f0de0a4ee4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194433(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# TableDefAttributeEnum Enumeration (DAO)
+# TableDefAttributeEnum enumeration (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

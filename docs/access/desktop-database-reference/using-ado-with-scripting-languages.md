@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Using ADO with Scripting Languages
+# Using ADO with scripting languages
 
 
 **Applies to**: Access 2013, Office 2013

@@ -10,18 +10,11 @@ mtps_version: v=office.15
 
 # Document properties (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
-
-
-  - [Document.Container property (DAO)](document-container-property-dao.md)
-
-  - [Document.DateCreated property (DAO)](document-datecreated-property-dao.md)
-
-  - [Document.LastUpdated property (DAO)](document-lastupdated-property-dao.md)
-
-  - [Document.Name property (DAO)](document-name-property-dao.md)
-
-  - [Document.Properties property (DAO)](document-properties-property-dao.md)
+- [Document.Container property (DAO)](document-container-property-dao.md)
+- [Document.DateCreated property (DAO)](document-datecreated-property-dao.md)
+- [Document.LastUpdated property (DAO)](document-lastupdated-property-dao.md)
+- [Document.Name property (DAO)](document-name-property-dao.md)
+- [Document.Properties property (DAO)](document-properties-property-dao.md)
 

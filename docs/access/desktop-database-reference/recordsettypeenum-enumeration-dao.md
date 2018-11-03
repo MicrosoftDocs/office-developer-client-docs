@@ -1,5 +1,5 @@
 ﻿---
-title: RecordsetTypeEnum Enumeration (DAO)
+title: RecordsetTypeEnum enumeration (DAO)
 TOCTitle: RecordsetTypeEnum Enumeration
 ms:assetid: 674020f3-bcf3-884d-1c6a-7db794a6606a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195231(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# RecordsetTypeEnum Enumeration (DAO)
+# RecordsetTypeEnum enumeration (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

@@ -1,6 +1,6 @@
 ﻿---
-title: Enabling a DLL to Run on DCOM
-TOCTitle: Enabling a DLL to Run on DCOM
+title: Enabling a DLL to run on DCOM
+TOCTitle: Enabling a DLL to run on DCOM
 ms:assetid: b405f767-91f0-c869-d34e-7a953de49106
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249859(v=office.15)
 ms:contentKeyID: 48547211
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Enabling a DLL to Run on DCOM
+# Enabling a DLL to run on DCOM
 
 
 **Applies to**: Access 2013, Office 2013

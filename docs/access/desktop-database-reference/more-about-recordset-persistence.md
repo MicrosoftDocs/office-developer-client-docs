@@ -1,6 +1,6 @@
 ﻿---
-title: More About Recordset Persistence
-TOCTitle: More About Recordset Persistence
+title: More about Recordset persistence
+TOCTitle: More about Recordset persistence
 ms:assetid: f3248de7-6eef-1dd0-ff96-557b411789e7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250232(v=office.15)
 ms:contentKeyID: 48548666
@@ -8,8 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# More About Recordset Persistence
-
+# More about Recordset persistence
 
 **Applies to**: Access 2013, Office 2013
 

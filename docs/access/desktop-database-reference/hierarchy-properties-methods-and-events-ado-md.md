@@ -10,21 +10,15 @@ mtps_version: v=office.15
 
 # Hierarchy properties, methods, and events (ADO MD)
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 ## Properties/Collections
 
-- [Description Property](description-property-ado-md.md)
-
-- [Levels Collection](levels-collection-ado-md.md)
-
-- [Name Property](name-property-ado-md.md)
-
-- [Properties Collection](properties-collection-ado.md)
-
-- [UniqueName Property](uniquename-property-ado-md.md)
+- [Description property](description-property-ado-md.md)
+- [Levels collection](levels-collection-ado-md.md)
+- [Name property](name-property-ado-md.md)
+- [Properties collection](properties-collection-ado.md)
+- [UniqueName property](uniquename-property-ado-md.md)
 
 ## Methods
 

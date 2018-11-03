@@ -1,5 +1,5 @@
 ﻿---
-title: DriverPromptEnum Enumeration (DAO)
+title: DriverPromptEnum enumeration (DAO)
 TOCTitle: DriverPromptEnum Enumeration
 ms:assetid: 8dda5e9f-a58f-a62d-eb49-5966d4a1e086
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197361(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# DriverPromptEnum Enumeration (DAO)
+# DriverPromptEnum enumeration (DAO)
 
 
 **Applies to**: Access 2013, Office 2013

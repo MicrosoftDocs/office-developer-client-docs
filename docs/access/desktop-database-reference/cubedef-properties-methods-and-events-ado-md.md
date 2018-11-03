@@ -10,18 +10,14 @@ mtps_version: v=office.15
 
 # CubeDef properties, methods, and events (ADO MD)
 
-
 **Applies to**: Access 2013, Office 2013
 
 ## Properties/Collections
 
-[Description Property](description-property-ado-md.md)
-
-[Dimensions Collection](dimensions-collection-ado-md.md)
-
-[Name Property](name-property-ado-md.md)
-
-[Properties Collection](properties-collection-ado.md)
+- [Description property](description-property-ado-md.md)
+- [Dimensions collection](dimensions-collection-ado-md.md)
+- [Name property](name-property-ado-md.md)
+- [Properties collection](properties-collection-ado.md)
 
 ## Events
 

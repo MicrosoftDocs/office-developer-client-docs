@@ -1,6 +1,6 @@
 ﻿---
-title: 'Alternatives: Using SQL Statements'
-TOCTitle: 'Alternatives: Using SQL Statements'
+title: 'Alternatives: Using SQL statements'
+TOCTitle: 'Alternatives: Using SQL statements'
 ms:assetid: 9ed787da-7099-2ef5-b2c6-c4f6bce5ddfe
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249727(v=office.15)
 ms:contentKeyID: 48546668
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Alternatives: Using SQL Statements
+# Alternatives: Using SQL statements
 
 
 **Applies to**: Access 2013, Office 2013

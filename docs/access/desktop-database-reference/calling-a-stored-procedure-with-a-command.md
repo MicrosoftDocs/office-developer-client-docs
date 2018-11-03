@@ -1,6 +1,6 @@
 ﻿---
-title: Calling a Stored Procedure with a Command
-TOCTitle: Calling a Stored Procedure with a Command
+title: Calling a stored procedure with a command
+TOCTitle: Calling a stored procedure with a command
 ms:assetid: 19d600d7-f717-39df-11a0-951e3ed0f812
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248944(v=office.15)
 ms:contentKeyID: 48543509
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Calling a Stored Procedure with a Command
+# Calling a stored procedure with a command
 
 
 **Applies to**: Access 2013, Office 2013

@@ -14,11 +14,9 @@ mtps_version: v=office.15
 
 ## Properties/Collections
 
-- [ActiveConnection Property](activeconnection-property-ado-md.md)
-
-- [CubeDefs Collection](cubedefs-collection-ado-md.md)
-
-- [Name Property](name-property-ado-md.md)
+- [ActiveConnection property](activeconnection-property-ado-md.md)
+- [CubeDefs collection](cubedefs-collection-ado-md.md)
+- [Name property](name-property-ado-md.md)
 
 ## Methods
 

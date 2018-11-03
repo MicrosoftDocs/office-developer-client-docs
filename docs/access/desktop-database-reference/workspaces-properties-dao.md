@@ -10,10 +10,7 @@ mtps_version: v=office.15
 
 # Workspaces properties (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
-
-
-  - [Workspaces.Count property (DAO)](workspaces-count-property-dao.md)
+- [Workspaces.Count property (DAO)](workspaces-count-property-dao.md)
 

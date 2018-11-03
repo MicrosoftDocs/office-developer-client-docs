@@ -10,32 +10,24 @@ mtps_version: v=office.15
 
 # Parameter properties, methods, and events (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 ## Properties/Collections
 
-- [Attributes Property](attributes-property-ado.md)
+- [Attributes property](attributes-property-ado.md)
+- [Direction property](direction-property-ado.md)
+- [Name property](name-property-ado.md)
+- [NumericScale property](numericscale-property-ado.md)
+- [Precision property](precision-property-ado.md)
+- [Properties collection](properties-collection-ado.md)
+- [Size property](size-property-ado.md)
+- [Type property](type-property-ado.md)
+- [Value property](value-property-ado.md)
 
-- [Direction Property](direction-property-ado.md)
-
-- [Name Property](name-property-ado.md)
-
-- [NumericScale Property](numericscale-property-ado.md)
-
-- [Precision Property](precision-property-ado.md)
-
-- [Properties Collection](properties-collection-ado.md)
-
-- [Size Property](size-property-ado.md)
-
-- [Type Property](type-property-ado.md)
-
-- [Value Property](value-property-ado.md)
 
 ## Methods
 
-- [AppendChunk Method](appendchunk-method-ado.md)
+- [AppendChunk method](appendchunk-method-ado.md)
 
 ## Events
 
