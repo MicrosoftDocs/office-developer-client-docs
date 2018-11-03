@@ -24,9 +24,9 @@ Returns an object reference.
 
 ## Parameters
 
-- *Index*
-
-- A **Variant** expression that evaluates either to the name or to the ordinal number of an object in a collection.
+|Parameter|Description|
+|:--------|:----------|
+|*Index* |A **Variant** expression that evaluates either to the name or to the ordinal number of an object in a collection.|
 
 ## Remarks
 

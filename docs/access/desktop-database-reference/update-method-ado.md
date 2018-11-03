@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Update method (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Saves any changes you make to the current row of a [Recordset](recordset-object-ado.md) object, or the [Fields](fields-collection-ado.md) collection of a [Record](record-object-ado.md) object.
@@ -23,27 +22,24 @@ Saves any changes you make to the current row of a [Recordset](recordset-object-
 
 ## Parameters
 
-  - *Fields*
-
-  - Optional. A **Variant** that represents a single name, or a **Variant** array that represents names or ordinal positions of the field or fields you wish to modify.
-
-  - *Values*
-
-  - Optional. A **Variant** that represents a single value, or a **Variant** array that represents values for the field or fields in the new record.
+|Parameter|Description|
+|:--------|:----------|
+|*Fields* |Optional. A **Variant** that represents a single name, or a **Variant** array that represents names or ordinal positions of the field or fields you wish to modify.|
+|*Values* |Optional. A **Variant** that represents a single value, or a **Variant** array that represents values for the field or fields in the new record.|
 
 ## Remarks
 
-**Recordset**
+### Recordset
 
 Use the **Update** method to save any changes you make to the current record of a **Recordset** object since calling the [AddNew](addnew-method-ado.md) method or since changing any field values in an existing record. The **Recordset** object must support updates.
 
 To set field values, do one of the following:
 
-  - Assign values to a [Field](field-object-ado.md) object's [Value](value-property-ado.md) property and call the **Update** method.
+- Assign values to a [Field](field-object-ado.md) object's [Value](value-property-ado.md) property and call the **Update** method.
 
-  - Pass a field name and a value as arguments with the **Update** call.
+- Pass a field name and a value as arguments with the **Update** call.
 
-  - Pass an array of field names and an array of values with the **Update** call.
+- Pass an array of field names and an array of values with the **Update** call.
 
 When you use arrays of fields and values, there must be an equal number of elements in both arrays. Also, the order of field names must match the order of field values. If the number and order of fields and values do not match, an error occurs.
 
@@ -53,7 +49,7 @@ If you move from the record you are adding or editing before calling the **Updat
 
 The current record remains current after you call the **Update** method.
 
-**Record**
+### Record
 
 The **Update** method finalizes additions, deletions, and updates to fields in the [Fields](fields-collection-ado.md) collection of a **Record** object.
 

@@ -10,9 +10,7 @@ mtps_version: v=office.15
 
 # GetString method (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 Returns the [Recordset](recordset-object-ado.md) as a string.
 
@@ -26,25 +24,13 @@ Returns the **Recordset** as a string-valued **Variant** (BSTR).
 
 ## Parameters
 
-  - *StringFormat*
-
-  - A [StringFormatEnum](stringformatenum.md) value that specifies how the **Recordset** should be converted to a string. The *RowDelimiter*, *ColumnDelimiter*, and *NullExpr* parameters are used only with a *StringFormat* of **adClipString**.
-
-  - *NumRows*
-
-  - Optional. The number of rows to be converted in the **Recordset**. If *NumRows* is not specified, or if it is greater than the total number of rows in the **Recordset**, then all the rows in the **Recordset** are converted.
-
-  - *ColumnDelimiter*
-
-  - Optional. A delimiter used between columns, if specified, otherwise the TAB character.
-
-  - *RowDelimiter*
-
-  - Optional. A delimiter used between rows, if specified, otherwise the CARRIAGE RETURN character.
-
-  - *NullExpr*
-
-  - Optional. An expression used in place of a null value, if specified, otherwise the empty string.
+|Parameter|Description|
+|:--------|:----------|
+|*StringFormat* |A [StringFormatEnum](stringformatenum.md) value that specifies how the **Recordset** should be converted to a string. The *RowDelimiter*, *ColumnDelimiter*, and *NullExpr* parameters are used only with a *StringFormat* of **adClipString**.|
+|*NumRows* |Optional. The number of rows to be converted in the **Recordset**. If *NumRows* is not specified, or if it is greater than the total number of rows in the **Recordset**, then all the rows in the **Recordset** are converted.|
+|*ColumnDelimiter* |Optional. A delimiter used between columns, if specified, otherwise the TAB character.|
+|*RowDelimiter* |Optional. A delimiter used between rows, if specified, otherwise the CARRIAGE RETURN character.|
+|*NullExpr* |Optional. An expression used in place of a null value, if specified, otherwise the empty string.|
 
 ## Remarks
 

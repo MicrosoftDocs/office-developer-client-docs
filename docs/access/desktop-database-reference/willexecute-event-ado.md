@@ -10,9 +10,7 @@ mtps_version: v=office.15
 
 # WillExecute event (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 The **WillExecute** event is called just before a pending command executes on a connection.
 
@@ -22,39 +20,16 @@ WillExecute*Source*, *CursorType*, *LockType*, *Options*, *adStatus*, *pCommand*
 
 ## Parameters
 
-  - *Source*
-
-  - A **String** that contains an SQL command or a stored procedure name.
-
-  - *CursorType*
-
-  - A [CursorTypeEnum](cursortypeenum.md) that contains the type of cursor for the **Recordset** that will be opened. With this parameter, you can change the cursor to any type during a **Recordset** [Open](open-method-ado-recordset.md) operation. *CursorType* will be ignored for any other operation.
-
-  - *LockType*
-
-  - A [LockTypeEnum](locktypeenum.md) that contains the lock type for the **Recordset** that will be opened. With this parameter, you can change the lock to any type during a **Recordset** **Open** operation. *LockType* will be ignored for any other operation.
-
-  - *Options*
-
-  - A **Long** value that indicates options that can be used to execute the command or open the **Recordset**.
-
-  - *adStatus*
-
-  - [EventStatusEnum](eventstatusenum.md)
-    
-    Before this event returns, set this parameter to **adStatusUnwantedEvent** to prevent subsequent notifications, or **adStatusCancel** to request cancellation of the operation that caused this event.
-
-  - *pCommand*
-
-  - The [Command](command-object-ado.md) object for which this event notification applies.
-
-  - *pRecordset*
-
-  - The [Recordset](recordset-object-ado.md) object for which this event notification applies.
-
-  - *pConnection*
-
-  - The [Connection](connection-object-ado.md) object for which this event notification applies.
+|Parameter|Description|
+|:--------|:----------|
+|*Source* |A **String** that contains an SQL command or a stored procedure name.|
+|*CursorType* |A [CursorTypeEnum](cursortypeenum.md) that contains the type of cursor for the **Recordset** that will be opened. With this parameter, you can change the cursor to any type during a **Recordset** [Open](open-method-ado-recordset.md) operation. *CursorType* will be ignored for any other operation.|
+|*LockType* |A [LockTypeEnum](locktypeenum.md) that contains the lock type for the **Recordset** that will be opened. With this parameter, you can change the lock to any type during a **Recordset** **Open** operation. *LockType* will be ignored for any other operation.|
+|*Options* |A **Long** value that indicates options that can be used to execute the command or open the **Recordset**.|
+|*adStatus* |[EventStatusEnum](eventstatusenum.md). Before this event returns, set this parameter to **adStatusUnwantedEvent** to prevent subsequent notifications, or **adStatusCancel** to request cancellation of the operation that caused this event.|
+|*pCommand* |The [Command](command-object-ado.md) object for which this event notification applies.|
+|*pRecordset* |The [Recordset](recordset-object-ado.md) object for which this event notification applies.|
+|*pConnection* |The [Connection](connection-object-ado.md) object for which this event notification applies.|
 
 ## Remarks
 

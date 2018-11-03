@@ -1,6 +1,6 @@
 ﻿---
-title: Item Property (ADO MD Cellset)
-TOCTitle: Item Property (ADO MD Cellset)
+title: Item property (ADO MD Cellset)
+TOCTitle: Item property (ADO MD Cellset)
 ms:assetid: 47510643-47af-0bfd-dc1f-ab984057bcd3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249220(v=office.15)
 ms:contentKeyID: 48544595
@@ -20,15 +20,9 @@ Set*Cell* = *Cellset*.Item (*Positions*)
 
 ## Parameters
 
-- *Positions*
-
-- A **Variant** **Array** of values that uniquely specify a cell. *Positions* can be one of the following:
-    
-  - An array of position numbers
-    
-  - An array of member names
-    
-  - The ordinal position
+|Parameter|Description|
+|:--------|:----------|
+|*Positions* |A **Variant array** of values that uniquely specify a cell. *Positions* can be one of the following:<br/><br/>- An array of position numbers<br/>- An array of member names<br/>- The ordinal position |
 
 ## Remarks
 

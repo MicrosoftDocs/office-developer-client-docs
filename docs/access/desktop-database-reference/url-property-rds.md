@@ -10,10 +10,7 @@ mtps_version: v=office.15
 
 # URL property (RDS)
 
-
 **Applies to**: Access 2013, Office 2013
-
-
 
 Indicates a string that contains a relative or absolute URL.
 
@@ -27,13 +24,10 @@ Run time: DataControl.URL="Server"
 
 ## Parameters
 
-- *Server*
-
-  - A **String** value that contains a valid URL.
-
-- *DataControl*
-
-  - An object variable that represents a **DataControl** object.
+|Parameter|Description|
+|:--------|:----------|
+|*Server* |A **String** value that contains a valid URL.|
+|*DataControl* |An object variable that represents a **DataControl** object.|
 
 ## Remarks
 

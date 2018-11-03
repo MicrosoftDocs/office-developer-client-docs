@@ -10,9 +10,7 @@ mtps_version: v=office.15
 
 # Open method (ADO Recordset)
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 Opens a cursor.
 
@@ -22,31 +20,16 @@ Opens a cursor.
 
 ## Parameters
 
-  - *Source*
-
-  - Optional. A **Variant** that evaluates to a valid [Command](command-object-ado.md) object, an SQL statement, a table name, a stored procedure call, a URL, or the name of a file or [Stream](stream-object-ado.md) object containing a persistently stored [Recordset](recordset-object-ado.md).
-
-  - *ActiveConnection*
-
-  - Optional. Either a **Variant** that evaluates to a valid [Connection](connection-object-ado.md) object variable name, or a **String** that contains [ConnectionString](connectionstring-property-ado.md) parameters.
-
-  - *CursorType*
-
-  - Optional. A [CursorTypeEnum](cursortypeenum.md) value that determines the type of cursor that the provider should use when opening the **Recordset**. The default value is **adOpenForwardOnly**.
-
-  - *LockType*
-
-  - Optional. A [LockTypeEnum](locktypeenum.md) value that determines what type of locking (concurrency) the provider should use when opening the **Recordset**. The default value is **adLockReadOnly**.
-
-  - *Options*
-
-  - Optional. A **Long** value that indicates how the provider should evaluate the *Source* argument if it represents something other than a **Command** object, or that the **Recordset** should be restored from a file where it was previously saved. Can be one or more [CommandTypeEnum](commandtypeenum.md) or [ExecuteOptionEnum](executeoptionenum.md) values, which can be combined with a bitwise AND operator.
-
+|Parameter|Description|
+|:--------|:----------|
+|*Source* |Optional. A **Variant** that evaluates to a valid [Command](command-object-ado.md) object, an SQL statement, a table name, a stored procedure call, a URL, or the name of a file or [Stream](stream-object-ado.md) object containing a persistently stored [Recordset](recordset-object-ado.md).|
+|*ActiveConnection* |Optional. Either a **Variant** that evaluates to a valid [Connection](connection-object-ado.md) object variable name, or a **String** that contains [ConnectionString](connectionstring-property-ado.md) parameters.|
+|*CursorType* |Optional. A [CursorTypeEnum](cursortypeenum.md) value that determines the type of cursor that the provider should use when opening the **Recordset**. The default value is **adOpenForwardOnly**.|
+|*LockType* |Optional. A [LockTypeEnum](locktypeenum.md) value that determines what type of locking (concurrency) the provider should use when opening the **Recordset**. The default value is **adLockReadOnly**.|
+|*Options* |Optional. A **Long** value that indicates how the provider should evaluate the *Source* argument if it represents something other than a **Command** object, or that the **Recordset** should be restored from a file where it was previously saved. Can be one or more [CommandTypeEnum](commandtypeenum.md) or [ExecuteOptionEnum](executeoptionenum.md) values, which can be combined with a bitwise AND operator.|
 
 > [!NOTE]
-> <P>If you open a <STRONG>Recordset</STRONG> from a <STRONG>Stream</STRONG> containing a persisted <STRONG>Recordset</STRONG>, using an <STRONG>ExecuteOptionEnum</STRONG> value of <STRONG>adAsyncFetchNonBlocking</STRONG> will not have an effect; the fetch will be synchronous and blocking.</P>
-
-
+> If you open a **Recordset** from a **Stream** containing a persisted **Recordset**, using an **ExecuteOptionEnum** value of **adAsyncFetchNonBlocking** will not have an effect; the fetch will be synchronous and blocking.
 
 The **ExecuteOpenEnum** values of **adExecuteNoRecords** or **adExecuteStream** should not be used with **Open**.
 
@@ -64,17 +47,14 @@ The *ActiveConnection* argument corresponds to the [ActiveConnection](activeconn
 
 For the other arguments that correspond directly to properties of a **Recordset** object (*Source*, *CursorType*, and *LockType*), the relationship of the arguments to the properties is as follows:
 
-  - The property is read/write before the **Recordset** object is opened.
+- The property is read/write before the **Recordset** object is opened.
 
-  - The property settings are used unless you pass the corresponding arguments when executing the **Open** method. If you pass an argument, it overrides the corresponding property setting, and the property setting is updated with the argument value.
+- The property settings are used unless you pass the corresponding arguments when executing the **Open** method. If you pass an argument, it overrides the corresponding property setting, and the property setting is updated with the argument value.
 
-  - After you open the **Recordset** object, these properties become read-only.
-
+- After you open the **Recordset** object, these properties become read-only.
 
 > [!NOTE]
-> <P>The <STRONG>ActiveConnection</STRONG> property is read only for <STRONG>Recordset</STRONG> objects whose <A href="source-property-ado-recordset.md">Source</A> property is set to a valid <STRONG>Command</STRONG> object, even if the <STRONG>Recordset</STRONG> object isn't open.</P>
-
-
+> The **ActiveConnection** property is read only for **Recordset** objects whose [Source](source-property-ado-recordset.md) property is set to a valid **Command** object, even if the **Recordset** object isn't open.
 
 If you pass a **Command** object in the *Source* argument and also pass an *ActiveConnection* argument, an error occurs. The **ActiveConnection** property of the **Command** object must already be set to a valid **Connection** object or connection string.
 
@@ -92,10 +72,8 @@ Before the **ActiveConnection** property is set, call **Open** with no operands 
 
 If you have set the [CursorLocation](cursorlocation-property-ado.md) property to **adUseClient**, you can retrieve rows asynchronously in one of two ways. The recommended method is to set *Options* to **adAsyncFetch**. Alternatively, you can use the "Asynchronous Rowset Processing" dynamic property in the [Properties](properties-collection-ado.md) collection, but related retrieved events can be lost if you do not set the **Options** parameter to **adAsyncFetch**.
 
-
 > [!NOTE]
-> <P>Background fetching in the MS Remote provider is supported only through the <STRONG>Open</STRONG> method's <EM>Options</EM> parameter.</P>
-
+> Background fetching in the MS Remote provider is supported only through the **Open** method's *Options* parameter.
 
 > [!NOTE]
 > URLs using the http scheme will automatically invoke the [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). For more information, see [Absolute and relative URLs](absolute-and-relative-urls.md).

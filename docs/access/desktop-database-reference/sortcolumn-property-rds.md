@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # SortColumn property (RDS)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Indicates by which column to sort the records.
@@ -21,13 +20,10 @@ Indicates by which column to sort the records.
 
 ## Parameters
 
-  - *DataControl*
-
-  - An object variable that represents an [RDS.DataControl](datacontrol-object-rds.md) object.
-
-  - *String*
-
-  - A **String** value that represents the name or alias of the column by which to sort the records.
+|Parameter|Description|
+|:--------|:----------|
+|*DataControl* |An object variable that represents an [RDS.DataControl](datacontrol-object-rds.md) object.|
+|*String* |A **String** value that represents the name or alias of the column by which to sort the records.|
 
 ## Remarks
 

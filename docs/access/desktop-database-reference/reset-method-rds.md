@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Reset method (RDS)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Executes the sort or filter on a client-side **Recordset** based on the specified sort and filter properties.
@@ -21,13 +20,10 @@ Executes the sort or filter on a client-side **Recordset** based on the specifie
 
 ## Parameters
 
-  - *DataControl*
-
-  - An object variable that represents an [RDS.DataControl](datacontrol-object-rds.md) object.
-
-  - *value*
-
-  - Optional. A **Boolean** value that is **True** (default) if you want to filter on the current "filtered" rowset. **False** indicates that you filter on the original rowset, removing any previous filter options.
+|Parameter|Description|
+|:--------|:----------|
+|*DataControl* |An object variable that represents an [RDS.DataControl](datacontrol-object-rds.md) object.|
+|*value* |Optional. A **Boolean** value that is **True** (default) if you want to filter on the current "filtered" rowset. **False** indicates that you filter on the original rowset, removing any previous filter options.|
 
 ## Remarks
 

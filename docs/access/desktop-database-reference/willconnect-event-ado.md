@@ -10,9 +10,7 @@ mtps_version: v=office.15
 
 # WillConnect event (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 The **WillConnect** event is called before a connection starts.
 
@@ -22,33 +20,14 @@ WillConnect*ConnectionString*, *UserID*, *Password*, *Options*, *adStatus*, *pCo
 
 ## Parameters
 
-  - *ConnectionString*
-
-  - A **String** that contains connection information for the pending connection.
-
-  - *UserID*
-
-  - A **String** that contains a user name for the pending connection.
-
-  - *Password*
-
-  - A **String** that contains a password for the pending connection.
-
-  - *Options*
-
-  - A **Long** value that indicates how the provider should evaluate the *ConnectionString*. Your only option is **adAsyncOpen**.
-
-  - *adStatus*
-
-  - [EventStatusEnum](eventstatusenum.md)
-    
-    When this event is called, this parameter is set to **adStatusOK** by default. It is set to **adStatusCantDeny** if the event cannot request cancellation of the pending operation.
-    
-    Before this event returns, set this parameter to **adStatusUnwantedEvent** to prevent subsequent notifications. Set this parameter to **adStatusCancel** to request the connection operation that caused cancellation of this notification.
-
-  - *pConnection*
-
-  - The [Connection](connection-object-ado.md) object for which this event notification applies. Changes to the parameters of the **Connection** by the **WillConnect** event handler will have no effect on the **Connection**.
+|Parameter|Description|
+|:--------|:----------|
+|*ConnectionString* |A **String** that contains connection information for the pending connection.|
+|*UserID* |A **String** that contains a user name for the pending connection.|
+|*Password* |A **String** that contains a password for the pending connection.|
+|*Options* |A **Long** value that indicates how the provider should evaluate the *ConnectionString*. Your only option is **adAsyncOpen**.|
+|*adStatus* |[EventStatusEnum](eventstatusenum.md). When this event is called, this parameter is set to **adStatusOK** by default. It is set to **adStatusCantDeny** if the event cannot request cancellation of the pending operation.<br/><br/>Before this event returns, set this parameter to **adStatusUnwantedEvent** to prevent subsequent notifications. Set this parameter to **adStatusCancel** to request the connection operation that caused cancellation of this notification.|
+|*pConnection* |The [Connection](connection-object-ado.md) object for which this event notification applies. Changes to the parameters of the **Connection** by the **WillConnect** event handler will have no effect on the **Connection**.|
 
 ## Remarks
 

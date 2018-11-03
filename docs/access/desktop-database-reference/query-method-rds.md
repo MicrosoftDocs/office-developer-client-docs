@@ -10,9 +10,7 @@ mtps_version: v=office.15
 
 # Query method (RDS)
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 Uses a valid SQL query string to return a [Recordset](recordset-object-ado.md).
 
@@ -22,21 +20,12 @@ Set*Recordset* = *DataFactory*.Query(*Connection*, *Query*)
 
 ## Parameters
 
-  - *Recordset*
-
-  - An object variable that represents a **Recordset** object.
-
-  - *DataFactory*
-
-  - An object variable that represents an [RDSServer.DataFactory](datafactory-object-rdsserver.md) object.
-
-  - *Connection*
-
-  - A **String** value that contains the server connection information. This is similar to the [Connect](connect-property-rds.md) property.
-
-  - *Query*
-
-  - A **String** that contains the SQL query.
+|Parameter|Description|
+|:--------|:----------|
+|*Recordset* |An object variable that represents a **Recordset** object.|
+|*DataFactory* |An object variable that represents an [RDSServer.DataFactory](datafactory-object-rdsserver.md) object.|
+|*Connection* |A **String** value that contains the server connection information. This is similar to the [Connect](connect-property-rds.md) property.|
+|*Query* |A **String** that contains the SQL query.|
 
 ## Remarks
 

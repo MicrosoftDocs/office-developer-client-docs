@@ -10,10 +10,8 @@ mtps_version: v=office.15
 
 # NextRecordset method (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
  
-
 Clears the current [Recordset](recordset-object-ado.md) object and returns the next **Recordset** by advancing through a series of commands.
 
 ## Syntax
@@ -26,15 +24,12 @@ Returns a **Recordset** object. In the syntax model, *recordset1* and *recordset
 
 ## Parameters
 
-- *RecordsAffected*
-
-- Optional. A **Long** variable to which the provider returns the number of records that the current operation affected.
-
+|Parameter|Description|
+|:--------|:----------|
+|*RecordsAffected* |Optional. A **Long** variable to which the provider returns the number of records that the current operation affected.|
 
 > [!NOTE]
-> <P>This parameter only returns the number of records affected by an operation; it does not return a count of records from a select statement used to generate the <STRONG>Recordset</STRONG>.</P>
-
-
+> This parameter only returns the number of records affected by an operation; it does not return a count of records from a select statement used to generate the **Recordset**.
 
 ## Remarks
 

@@ -10,10 +10,7 @@ mtps_version: v=office.15
 
 # Delete method (ADOX Collections)
 
-
 **Applies to**: Access 2013, Office 2013
-
-
 
 Removes an object from a collection.
 
@@ -23,9 +20,9 @@ Removes an object from a collection.
 
 ## Parameters
 
-- *Name*
-
-  - A **Variant** that specifies the name or ordinal position (index) of the object to delete.
+|Parameter|Description|
+|:--------|:----------|
+|*Name* |A **Variant** that specifies the name or ordinal position (index) of the object to delete.|
 
 ## Remarks
 

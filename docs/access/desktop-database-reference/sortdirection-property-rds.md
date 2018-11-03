@@ -10,9 +10,7 @@ mtps_version: v=office.15
 
 # SortDirection property (RDS)
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 Indicates whether a sort order is ascending or descending.
 
@@ -22,13 +20,10 @@ Indicates whether a sort order is ascending or descending.
 
 ## Parameters
 
-  - *DataControl*
-
-  - An object variable that represents an [RDS.DataControl](datacontrol-object-rds.md) object.
-
-  - *Value*
-
-  - A **Boolean** value that, when set to **True**, indicates the sort direction is ascending. **False** indicates descending order.
+|Parameter|Description|
+|:--------|:----------|
+|*DataControl* |An object variable that represents an [RDS.DataControl](datacontrol-object-rds.md) object.|
+|*Value* |A **Boolean** value that, when set to **True**, indicates the sort direction is ascending. **False** indicates descending order.|
 
 ## Remarks
 

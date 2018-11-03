@@ -10,10 +10,7 @@ mtps_version: v=office.15
 
 # Rowset property (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
-
-
 
 Gets or sets an OLE DB **Rowset** object from/on an **ADORecordsetConstruction** object. When you use put\_Rowset, the rowset is turned into an ADO **Recordset** object.
 
@@ -27,19 +24,16 @@ HRESULT put\_Rowset(\[in\] IUnknown\* pRowset);
 
 ## Parameters
 
-  - *ppRowset*
-
-  - Pointer to an OLE DB **Rowset** object.
-
-  - *PRowset*
-
-  - An OLE DB **Rowset** object.
+|Parameter|Description|
+|:--------|:----------|
+|*ppRowset* |Pointer to an OLE DB **Rowset** object.|
+|*PRowset* |An OLE DB **Rowset** object.|
 
 ## Return values
 
 This property method returns the standard HRESULT values, including S\_OK and E\_FAIL.
 
-## Applies To
+## Applies to
 
 [ADORecordsetConstruction](adorecordsetconstruction-interface-ado.md)
 

@@ -10,10 +10,7 @@ mtps_version: v=office.15
 
 # Delete method (ADO Recordset)
 
-
 **Applies to**: Access 2013, Office 2013
-
-
 
 Deletes the current record or a group of records.
 
@@ -23,10 +20,9 @@ Deletes the current record or a group of records.
 
 ## Parameters
 
-- *AffectRecords*
-
-  - An [AffectEnum](affectenum.md) value that determines how many records the **Delete** method will affect. The default value is **adAffectCurrent**.
-
+|Parameter|Description|
+|:--------|:----------|
+|*AffectRecords* |An [AffectEnum](affectenum.md) value that determines how many records the **Delete** method will affect. The default value is **adAffectCurrent**.|
 
 > [!NOTE]
 > **adAffectAll** and **adAffectAllChapters** are not valid arguments to **Delete**.

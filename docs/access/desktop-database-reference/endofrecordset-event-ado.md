@@ -10,10 +10,7 @@ mtps_version: v=office.15
 
 # EndOfRecordset event (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
-
-
 
 The **EndOfRecordset** event is called when there is an attempt to move to a row past the end of the [Recordset](recordset-object-ado.md).
 
@@ -23,21 +20,11 @@ EndOfRecordset*fMoreData*, *adStatus*, *pRecordset*
 
 ## Parameters
 
-  - *fMoreData*
-
-  - A **VARIANT\_BOOL** value that, if set to VARIANT\_TRUE, indicates more rows have been added to the **Recordset**.
-
-  - *adStatus*
-
-  - [EventStatusEnum](eventstatusenum.md)
-    
-    When **EndOfRecordset** is called, this parameter is set to **adStatusOK** if the operation that caused the event was successful. It is set to **adStatusCantDeny** if this event cannot request cancellation of the operation that caused this event.
-    
-    Before **EndOfRecordset** returns, set this parameter to **adStatusUnwantedEvent** to prevent subsequent notifications.
-
-  - *pRecordset*
-
-  - A **Recordset** object. The **Recordset** for which this event occurred.
+|Parameter|Description|
+|:--------|:----------|
+|*fMoreData* |A **VARIANT\_BOOL** value that, if set to VARIANT\_TRUE, indicates more rows have been added to the **Recordset**.|
+|*adStatus* |[EventStatusEnum](eventstatusenum.md). When **EndOfRecordset** is called, this parameter is set to **adStatusOK** if the operation that caused the event was successful. It is set to **adStatusCantDeny** if this event cannot request cancellation of the operation that caused this event.<br/><br/>Before **EndOfRecordset** returns, set this parameter to **adStatusUnwantedEvent** to prevent subsequent notifications.|
+|*pRecordset* | A **Recordset** object. The **Recordset** for which this event occurred.|
 
 ## Remarks
 

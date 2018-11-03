@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Server property (RDS)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Indicates the Internet Information Services (IIS) name and communication protocol.
@@ -37,17 +36,11 @@ You can set the **Server** property at design time in the [RDS.DataControl](data
 
 ## Parameters
 
-*awebsrvr* or *computername*
-
-- A **String** value that contains an Internet or intranet path, or computer name, if the server is on a remote computer; or, an empty string if the server is on the local computer.
-
-*port*
-
-- Optional. A port that is used to connect to an IIS server. The port number is set in Internet Explorer (on the **Tools** menu, click **Internet Options**, and then select the **Connection** tab) or in IIS.
-
-*DataControl*
-
-- An object variable that represents an **RDS.DataControl** object.
+|Parameter|Description|
+|:--------|:----------|
+|*awebsrvr* or *computername* |A **String** value that contains an Internet or intranet path, or computer name, if the server is on a remote computer; or, an empty string if the server is on the local computer.|
+|*port* |Optional. A port that is used to connect to an IIS server. The port number is set in Internet Explorer (on the **Tools** menu, click **Internet Options**, and then select the **Connection** tab) or in IIS.|
+|*DataControl* |An object variable that represents an **RDS.DataControl** object.|
 
 ## Remarks
 

@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # SubmitChanges method (RDS)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Submits pending changes of the locally cached and updatable [Recordset](recordset-object-ado.md) to the data source specified in the [Connect](connect-property-rds.md) property or the [URL](url-property-rds.md) property.
@@ -23,21 +22,12 @@ Submits pending changes of the locally cached and updatable [Recordset](recordse
 
 ## Parameters
 
-  - *DataControl*
-
-  - An object variable that represents an [RDS.DataControl](datacontrol-object-rds.md) object.
-
-  - *DataFactory*
-
-  - An object variable that represents an [RDSServer.DataFactory](datafactory-object-rdsserver.md) object.
-
-  - *Connection*
-
-  - A **String** value that represents the connection created with the **RDS.DataControl** object's **Connect** property.
-
-  - *Recordset*
-
-  - An object variable that represents a **Recordset** object.
+|Parameter|Description|
+|:--------|:----------|
+|*DataControl* |An object variable that represents an [RDS.DataControl](datacontrol-object-rds.md) object.|
+|*DataFactory* |An object variable that represents an [RDSServer.DataFactory](datafactory-object-rdsserver.md) object.|
+|*Connection* |A **String** value that represents the connection created with the **RDS.DataControl** object's **Connect** property.|
+|*Recordset* |An object variable that represents a **Recordset** object.|
 
 ## Remarks
 
