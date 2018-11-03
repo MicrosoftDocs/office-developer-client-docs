@@ -10,9 +10,7 @@ mtps_version: v=office.15
 
 # Append method (ADOX Tables)
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 Adds a new [Table](table-object-adox.md) object to the [Tables](tables-collection-adox.md) collection.
 
@@ -22,9 +20,9 @@ Adds a new [Table](table-object-adox.md) object to the [Tables](tables-collectio
 
 ## Parameters
 
-  - *Table*
-
-  - A **Variant** value that contains a reference to the **Table** to append or the name of the table to create and append.
+|Parameter|Description|
+|:--------|:----------|
+|*Table* | A **Variant** value that contains a reference to the **Table** to append or the name of the table to create and append.|
 
 ## Remarks
 

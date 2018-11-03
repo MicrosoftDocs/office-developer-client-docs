@@ -14,7 +14,6 @@ f1_categories:
 
 # DBEngine.SetOption method (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Temporarily overrides values for the Microsoft Access database engine keys in the Windows Registry (Microsoft Access workspaces only).
@@ -25,7 +24,7 @@ Temporarily overrides values for the Microsoft Access database engine keys in th
 
 *expression* An expression that returns a **DBEngine** object.
 
-### Parameters
+## Parameters
 
 <table>
 <colgroup>
@@ -44,13 +43,13 @@ Temporarily overrides values for the Microsoft Access database engine keys in th
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Option</p></td>
+<td><p><em>Option</em></p></td>
 <td><p>Required</p></td>
 <td><p><strong>Long</strong></p></td>
 <td><p>A constant as described in Remarks.</p></td>
 </tr>
 <tr class="even">
-<td><p>Value</p></td>
+<td><p><em>Value</em></p></td>
 <td><p>Required</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>The value that you want to set option to.</p></td>

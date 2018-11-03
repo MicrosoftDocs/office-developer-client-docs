@@ -20,7 +20,7 @@ Creates a new **[QueryDef](querydef-object-dao.md)** object.
 
 *expression* A variable that represents a **Database** object.
 
-### Parameters
+## Parameters
 
 <table>
 <colgroup>
@@ -39,13 +39,13 @@ Creates a new **[QueryDef](querydef-object-dao.md)** object.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Name</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Optional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>A <strong>Variant</strong> (<strong>String</strong> subtype) that uniquely names the new <strong>QueryDef</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p>SQLText</p></td>
+<td><p><em>SQLText</em></p></td>
 <td><p>Optional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>A <strong>Variant</strong> (<strong>String</strong> subtype) that is an SQL statement defining the <strong>QueryDef</strong>. If you omit this argument, you can define the <strong>QueryDef</strong> by setting its <strong><a href="querydef-sql-property-dao.md">SQL</a></strong> property before or after you append it to a collection.</p></td>
@@ -54,7 +54,7 @@ Creates a new **[QueryDef](querydef-object-dao.md)** object.
 </table>
 
 
-### Return value
+## Return value
 
 QueryDef
 

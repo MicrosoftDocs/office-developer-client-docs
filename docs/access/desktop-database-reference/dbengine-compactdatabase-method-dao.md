@@ -27,7 +27,7 @@ Copies and compacts a closed database, and gives you the option of changing its 
 
 *expression* An expression that returns a **DBEngine** object.
 
-### Parameters
+## Parameters
 
 <table>
 <colgroup>
@@ -46,19 +46,19 @@ Copies and compacts a closed database, and gives you the option of changing its 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>SrcName</p></td>
+<td><p><em>SrcName</em></p></td>
 <td><p>Required</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>Identifies an existing, closed database. It can be a full path and file name, such as &quot;C:\db1.mdb&quot;. If the file name has an extension, you must specify it. If your network supports it, you can also specify a network path, such as &quot;\\server1\share1\dir1\db1.mdb&quot;</p></td>
 </tr>
 <tr class="even">
-<td><p>DstName</p></td>
+<td><p><em>DstName</em></p></td>
 <td><p>Required</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>the file name (and path) of the compacted database that you're creating. You can also specify a network path. You can't use this argument to specify the same database file as SrcName.</p></td>
 </tr>
 <tr class="odd">
-<td><p>DstLocale</p></td>
+<td><p><em>DstLocale</em></p></td>
 <td><p>Optional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>A string expression that specifies a collating order for creating DstName, as specified in Remarks.</p>
@@ -69,21 +69,16 @@ Copies and compacts a closed database, and gives you the option of changing its 
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Options</p></td>
+<td><p><em>Options</em></p></td>
 <td><p>Optional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Optional. A constant or combination of constants that indicates one or more options, as specified in Remarks. You can combine options by summing the corresponding constants.</p></td>
 </tr>
 <tr class="odd">
-<td><p>password</p></td>
+<td><p><em>password</em></p></td>
 <td><p>Optional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>A string expression containing an encryption key, if the database is encrypted. The string &quot;;pwd=&quot; must precede the actual password. If you include a password setting in DstLocale, this setting is ignored.</p>
-
-> [!NOTE]
-> This is deprecated parameter and is not supported in .ACCDB format. To encrypt an .ACCDB file, use the "pwd=" option string. Use strong passwords that combine upper- and lowercase letters, numbers, and symbols. Weak passwords don't mix these elements. Strong password: Y6dh!et5. Weak password: House27. Use a strong password that you can remember so that you don't have to write it down.
-
-
+<td><p>A string expression containing an encryption key, if the database is encrypted. The string &quot;;pwd=&quot; must precede the actual password. If you include a password setting in DstLocale, this setting is ignored.</p><p><strong>NOTE</strong>: This is deprecated parameter and is not supported in .ACCDB format. To encrypt an .ACCDB file, use the "pwd=" option string. Use strong passwords that combine upper- and lowercase letters, numbers, and symbols. Weak passwords don't mix these elements. Strong password: Y6dh!et5. Weak password: House27. Use a strong password that you can remember so that you don't have to write it down.</p>
 </td>
 </tr>
 </tbody>

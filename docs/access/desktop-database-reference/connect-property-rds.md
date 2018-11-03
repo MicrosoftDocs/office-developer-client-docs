@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Connect property (RDS)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Indicates the database name from which the query and update operations are run.
@@ -25,14 +24,8 @@ Run time: DataControl.Connect = "ConnectionString"
 
 ## Parameters
 
-- *ConnectionString*
-
-  - A valid connection string. For more general information about connection strings, see the [ConnectionString](connectionstring-property-ado.md) property or your provider documentation.
-    
-    > [!NOTE]
-    > Specifying MS Remote as the provider for the **RDS.DataControl** would create a four-tier scenario. Scenarios greater than three tiers have not been tested and should not be needed.
-
-- *DataControl*
-
-  - An object variable that represents an **RDS.DataControl** object.
+|Parameter|Description|
+|:--------|:----------|
+|*ConnectionString* |A valid connection string. For more general information about connection strings, see the [ConnectionString](connectionstring-property-ado.md) property or your provider documentation.<br/><br/>**NOTE**: Specifying MS Remote as the provider for the **RDS.DataControl** would create a four-tier scenario. Scenarios greater than three tiers have not been tested and should not be needed.|
+|*DataControl* |An object variable that represents an **RDS.DataControl** object.|
 

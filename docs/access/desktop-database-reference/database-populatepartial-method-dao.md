@@ -14,9 +14,7 @@ f1_categories:
 
 # Database.PopulatePartial method (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 Synchronizes any changes in a partial replica with the full replica, clears all records in the partial replica, and then repopulates the partial replica based on the current replica filters. (Microsoft Access database engine databases only.).
 
@@ -26,7 +24,7 @@ Synchronizes any changes in a partial replica with the full replica, clears all 
 
 *expression* A variable that represents a **Database** object.
 
-### Parameters
+## Parameters
 
 <table>
 <colgroup>
@@ -45,7 +43,7 @@ Synchronizes any changes in a partial replica with the full replica, clears all 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>DbPathName</p></td>
+<td><p><em>DbPathName</em></p></td>
 <td><p>Required</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>The path and name of the full replica from which to populate records.</p></td>

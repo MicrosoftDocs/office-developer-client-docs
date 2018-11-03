@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Connection.Execute method (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Runs an action query or executes an SQL statement on the specified object.
@@ -21,7 +20,7 @@ Runs an action query or executes an SQL statement on the specified object.
 
 *expression* A variable that represents a **Connection** object.
 
-### Parameters
+## Parameters
 
 <table>
 <colgroup>
@@ -40,13 +39,13 @@ Runs an action query or executes an SQL statement on the specified object.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Query</p></td>
+<td><p><em>Query</em></p></td>
 <td><p>Required</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>A <strong>String</strong> that is an SQL statement or the <strong>Name</strong> property value of a <strong>QueryDef</strong> object.</p></td>
 </tr>
 <tr class="even">
-<td><p>Options</p></td>
+<td><p><em>Options</em></p></td>
 <td><p>Optional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>A constant or combination of constants that determines the data integrity characteristics of the query, as specified in Settings.</p></td>
@@ -57,7 +56,7 @@ Runs an action query or executes an SQL statement on the specified object.
 
 ## Remarks
 
-You can use the following **[RecordsetOptionEnum](recordsetoptionenum-enumeration-dao.md)**constants for options.
+You can use the following **[RecordsetOptionEnum](recordsetoptionenum-enumeration-dao.md)** constants for options.
 
 <table>
 <colgroup>

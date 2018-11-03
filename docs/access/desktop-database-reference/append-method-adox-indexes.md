@@ -23,13 +23,10 @@ Adds a new [Index](index-object-adox.md) object to the [Indexes](indexes-collect
 
 ## Parameters
 
-  - *Index*
-
-  - The **Index** object to append or the name of the index to create and append.
-
-  - *Columns*
-
-  - Optional. A **Variant** value that specifies the name(s) of the column(s) to be indexed. The *Columns* parameter corresponds to the value(s) of the [Name](name-property-adox.md) property of a [Column](column-object-adox.md) object or objects.
+|Parameter|Description|
+|:--------|:----------|
+|*Index* |The **Index** object to append or the name of the index to create and append.|
+|*Columns* |Optional. A **Variant** value that specifies the name(s) of the column(s) to be indexed. The *Columns* parameter corresponds to the value(s) of the [Name](name-property-adox.md) property of a [Column](column-object-adox.md) object or objects.|
 
 ## Remarks
 

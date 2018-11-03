@@ -10,17 +10,15 @@ mtps_version: v=office.15
 
 # BeginTransComplete, CommitTransComplete, and RollbackTransComplete events (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 These events will be called after the associated operation on the [Connection](connection-object-ado.md) object finishes executing.
 
-  - **BeginTransComplete** is called after the [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) operation.
+- **BeginTransComplete** is called after the [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) operation.
 
-  - **CommitTransComplete** is called after the [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) operation.
+- **CommitTransComplete** is called after the [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) operation.
 
-  - **RollbackTransComplete** is called after the [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) operation.
+- **RollbackTransComplete** is called after the [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) operation.
 
 ## Syntax
 
@@ -32,23 +30,12 @@ RollbackTransComplete*pError*, *adStatus*, *pConnection*
 
 ## Parameters
 
-  - *TransactionLevel*
-
-  - A **Long** value that contains the new transaction level of the **BeginTrans** that caused this event.
-
-  - *pError*
-
-  - An [Error](error-object-ado.md) object. It describes the error that occurred if the value of EventStatusEnum is **adStatusErrorsOccurred**; otherwise it is not set.
-
-  - *adStatus*
-
-  - [EventStatusEnum](eventstatusenum.md)
-    
-    These events can prevent subsequent notifications by setting this parameter to **adStatusUnwantedEvent** before the event returns.
-
-  - *pConnection*
-
-  - The **Connection** object for which this event occurred.
+|Parameter|Description|
+|:--------|:----------|
+|*TransactionLevel* |A **Long** value that contains the new transaction level of the **BeginTrans** that caused this event.|
+|*pError* |An [Error](error-object-ado.md) object. It describes the error that occurred if the value of EventStatusEnum is **adStatusErrorsOccurred**; otherwise, it is not set.|
+|*adStatus* |[EventStatusEnum](eventstatusenum.md). These events can prevent subsequent notifications by setting this parameter to **adStatusUnwantedEvent** before the event returns.|
+|*pConnection* |The **Connection** object for which this event occurred.|
 
 ## Remarks
 

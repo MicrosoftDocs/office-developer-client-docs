@@ -10,9 +10,7 @@ mtps_version: v=office.15
 
 # CopyTo method (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 Copies the specified number of characters or bytes (depending on [Type](type-property-ado-stream.md)) in the [Stream](stream-object-ado.md) to another **Stream** object.
 
@@ -22,16 +20,10 @@ Copies the specified number of characters or bytes (depending on [Type](type-pro
 
 ## Parameters
 
-  - *DestStream*
-
-  - An object variable value that contains a reference to an open **Stream** object. The current **Stream** is copied to the destination **Stream** specified by *DestStream*. The destination **Stream** must already be open. If not, a run-time error occurs.   
-
-    > [!NOTE]
-    > The *DestStream* parameter may not be a proxy of the **Stream** object because this requires access to a private interface on the **Stream** object that cannot be remoted to the client.
-
-  - *NumChars*
-
-  - Optional. An **Integer** value that specifies the number of bytes or characters to be copied from the current position in the source **Stream** to the destination **Stream**. The default value is –1, which specifies that all characters or bytes are copied from the current position to [EOS](eos-property-ado.md).
+|Parameter|Description|
+|:--------|:----------|
+|*DestStream* |An object variable value that contains a reference to an open **Stream** object. The current **Stream** is copied to the destination **Stream** specified by *DestStream*. The destination **Stream** must already be open. If not, a run-time error occurs.<br/><br/>**NOTE**: The *DestStream* parameter may not be a proxy of the **Stream** object because this requires access to a private interface on the **Stream** object that cannot be remoted to the client.|
+|*NumChars* |Optional. An **Integer** value that specifies the number of bytes or characters to be copied from the current position in the source **Stream** to the destination **Stream**. The default value is –1, which specifies that all characters or bytes are copied from the current position to [EOS](eos-property-ado.md).|
 
 ## Remarks
 

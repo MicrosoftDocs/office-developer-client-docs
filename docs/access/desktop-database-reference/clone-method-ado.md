@@ -1,5 +1,5 @@
 ﻿---
-title: Clone Method - ActiveX Data Objects (ADO)
+title: Clone method - ActiveX Data Objects (ADO)
 TOCTitle: Clone method (ADO)
 ms:assetid: ca9b2b76-90bf-9a60-2611-3cb4977d5591
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249984(v=office.15)
@@ -10,10 +10,7 @@ mtps_version: v=office.15
 
 # Clone method (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
-
-
 
 Creates a duplicate [Recordset](recordset-object-ado.md) object from an existing **Recordset** object. Optionally, specifies that the clone be read-only.
 
@@ -27,17 +24,11 @@ Returns a **Recordset** object reference.
 
 ## Parameters
 
-- *rstDuplicate*
-
-  - An object variable that identifies the duplicate **Recordset** object to be created.
-
-- *rstOriginal*
-
-  - An object variable that identifies the **Recordset** object to be duplicated.
-
-- *LockType*
-
-  - Optional. A [LockTypeEnum](locktypeenum.md) value that specifies either the lock type of the original **Recordset**, or a read-only **Recordset**. Valid values are **adLockUnspecified** or **adLockReadOnly**.
+|Parameter|Description|
+|:--------|:----------|
+|*rstDuplicate* |An object variable that identifies the duplicate **Recordset** object to be created.|
+|*rstOriginal* |An object variable that identifies the **Recordset** object to be duplicated.|
+|*LockType* |Optional. A [LockTypeEnum](locktypeenum.md) value that specifies either the lock type of the original **Recordset**, or a read-only **Recordset**. Valid values are **adLockUnspecified** or **adLockReadOnly**.|
 
 ## Remarks
 

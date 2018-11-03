@@ -14,9 +14,7 @@ f1_categories:
 
 # DBEngine.CreateWorkspace method (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 Creates a new **[Workspace](workspace-object-dao.md)** object.
 
@@ -26,7 +24,7 @@ Creates a new **[Workspace](workspace-object-dao.md)** object.
 
 *expression* A variable that represents a **DBEngine** object.
 
-### Parameters
+## Parameters
 
 <table>
 <colgroup>
@@ -45,38 +43,38 @@ Creates a new **[Workspace](workspace-object-dao.md)** object.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Name</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Required</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>A <strong>String</strong> that uniquely names the new <strong>Workspace</strong> object. See the <strong><a href="connection-name-property-dao.md">Name</a></strong> property for details on valid <strong>Workspace</strong> names.</p></td>
 </tr>
 <tr class="even">
-<td><p>UserName</p></td>
+<td><p><em>UserName</em></p></td>
 <td><p>Required</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>A <strong>String</strong> that identifies the owner of the new <strong>Workspace</strong> object. See the <strong>UserName</strong> property for more information.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Password</p></td>
+<td><p><em>Password</em></p></td>
 <td><p>Required</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>A <strong>String</strong> containing the password for the new <strong>Workspace</strong> object. The password can be up to 20 characters long and can include any characters except ASCII character 0 (null).</p>
-<td><p><strong>NOTE</strong>: Use strong passwords that combine upper- and lowercase letters, numbers, and symbols. Weak passwords don't mix these elements. Strong password: Y6dh!et5. Weak password: House27. Use a strong password that you can remember so that you don't have to write it down.</p>
+<p><strong>NOTE</strong>: Use strong passwords that combine upper- and lowercase letters, numbers, and symbols. Weak passwords don't mix these elements. Strong password: Y6dh!et5. Weak password: House27. Use a strong password that you can remember so that you don't have to write it down.</p>
 </td>
 </tr>
 <tr class="even">
-<td><p>UseType</p></td>
+<td><p><em>UseType</em></p></td>
 <td><p>Optional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>One of the <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> values.</p>
-<td><p><strong>NOTE</strong>: ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</p>
+<p><strong>NOTE</strong>: ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
 
-### Return value
+## Return value
 
 Workspace
 

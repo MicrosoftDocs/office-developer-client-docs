@@ -10,9 +10,7 @@ mtps_version: v=office.15
 
 # Create method (ADOX)
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 Creates a new catalog.
 
@@ -22,9 +20,9 @@ Creates a new catalog.
 
 ## Parameters
 
-  - *ConnectString*
-
-  - A **String** value used to connect to the data source.
+|Parameter|Description|
+|:--------|:----------|
+|*ConnectString* |A **String** value used to connect to the data source.|
 
 ## Remarks
 

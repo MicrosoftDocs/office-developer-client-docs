@@ -10,9 +10,7 @@ mtps_version: v=office.15
 
 # CreateObject method (RDS)
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 Creates the proxy for the target business object and returns a pointer to it. The proxy packages and marshals data to the server-side stub for communications with the business object to send requests and data over the Internet. For in-process component objects, no proxies are used, just a pointer to the object is provided.
 
@@ -54,21 +52,12 @@ Remote Data Service supports the following protocols: HTTP, HTTPS (HTTP over Sec
 
 ## Parameters
 
-  - *Object*
-
-  - An object variable that evaluates to an object that is the type specified in *ProgID*.
-
-  - *DataSpace*
-
-  - An object variable that represents an [RDS.DataSpace](dataspace-object-rds.md) object used to create an instance of the new object.
-
-  - *ProgID*
-
-  - A **String** value that contains the programmatic identifier specifying a server-side business object that implements your application's business rules.
-
-  - *awebsrvr* or *computername*
-
-  - A **String** value that represents a URL identifying the Internet Information Services (IIS) web server where an instance of the server business object is created.
+|Parameter|Description|
+|:--------|:----------|
+|*Object* |An object variable that evaluates to an object that is the type specified in *ProgID*.|
+|*DataSpace* |An object variable that represents an [RDS.DataSpace](dataspace-object-rds.md) object used to create an instance of the new object.|
+|*ProgID* |A **String** value that contains the programmatic identifier specifying a server-side business object that implements your application's business rules.|
+|*awebsrvr* or *computername* |A **String** value that represents a URL identifying the Internet Information Services (IIS) web server where an instance of the server business object is created.|
 
 ## Remarks
 

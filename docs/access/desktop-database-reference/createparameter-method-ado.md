@@ -14,9 +14,7 @@ f1_categories:
 
 # CreateParameter method (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 Creates a new [Parameter](parameter-object-ado.md) object with the specified properties.
 
@@ -30,25 +28,13 @@ Returns a **Parameter** object.
 
 ## Parameters
 
-  - *Name*
-
-  - Optional. A **String** value that contains the name of the **Parameter** object.
-
-  - *Type*
-
-  - Optional. A [DataTypeEnum](datatypeenum.md) value that specifies the data type of the **Parameter** object.
-
-  - *Direction*
-
-  - Optional. A [ParameterDirectionEnum](parameterdirectionenum.md) value that specifies the type of **Parameter** object.
-
-  - *Size*
-
-  - Optional. A **Long** value that specifies the maximum length for the parameter value in characters or bytes.
-
-  - *Value*
-
-  - Optional. A **Variant** that specifies the value for the **Parameter** object.
+|Parameter|Description|
+|:--------|:----------|
+|*Name* |Optional. A **String** value that contains the name of the **Parameter** object.|
+|*Type* |Optional. A [DataTypeEnum](datatypeenum.md) value that specifies the data type of the **Parameter** object.|
+|*Direction* |Optional. A [ParameterDirectionEnum](parameterdirectionenum.md) value that specifies the type of **Parameter** object.|
+|*Size* |Optional. A **Long** value that specifies the maximum length for the parameter value in characters or bytes.|
+|*Value* |Optional. A **Variant** that specifies the value for the **Parameter** object.|
 
 ## Remarks
 

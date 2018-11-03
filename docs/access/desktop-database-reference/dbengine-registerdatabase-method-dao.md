@@ -14,9 +14,7 @@ f1_categories:
 
 # DBEngine.RegisterDatabase method (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 Enters connection information for an ODBC data source in the Windows Registry. The ODBC driver needs connection information when the ODBC data source is opened during a session.
 
@@ -26,7 +24,7 @@ Enters connection information for an ODBC data source in the Windows Registry. T
 
 *expression* A variable that represents a **DBEngine** object.
 
-### Parameters
+## Parameters
 
 <table>
 <colgroup>
@@ -45,25 +43,25 @@ Enters connection information for an ODBC data source in the Windows Registry. T
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Dsn</p></td>
+<td><p><em>Dsn</em></p></td>
 <td><p>Required</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>the name used in the <strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong> method. It refers to a block of descriptive information about the data source. For example, if the data source is an ODBC remote database, it could be the name of the server.</p></td>
 </tr>
 <tr class="even">
-<td><p>Driver</p></td>
+<td><p><em>Driver</em></p></td>
 <td><p>Required</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>The name of the ODBC driver. This isn't the name of the ODBC driver DLL file.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Silent</p></td>
+<td><p><em>Silent</em></p></td>
 <td><p>Required</p></td>
 <td><p><strong>Boolean</strong></p></td>
 <td><p><strong>True</strong> if you don't want to display the ODBC driver dialog boxes that prompt for driver-specific information; or <strong>False</strong> if you want to display the ODBC driver dialog boxes. If silent is <strong>True</strong>, attributes must contain all the necessary driver-specific information or the dialog boxes are displayed anyway.</p></td>
 </tr>
 <tr class="even">
-<td><p>Attributes</p></td>
+<td><p><em>Attributes</em></p></td>
 <td><p>Required</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>A list of keywords to be added to the Windows Registry. The keywords are in a carriage-return–delimited string.</p></td>

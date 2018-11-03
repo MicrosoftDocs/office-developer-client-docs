@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Append method (ADOX Columns)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Adds a new [Column](column-object-adox.md) object to the [Columns](columns-collection-adox.md) collection.
@@ -21,17 +20,11 @@ Adds a new [Column](column-object-adox.md) object to the [Columns](columns-colle
 
 ## Parameters
 
-  - *Column*
-
-  - The **Column** object to append or the name of the column to create and append.
-
-  - *Type*
-
-  - Optional. A **Long** value that specifies the data type of the column. The *Type* parameter corresponds to the [Type](https://msdn.microsoft.com/library/jj249169\(v=office.15\)) property of a **Column** object.
-
-  - *DefinedSize*
-
-  - Optional. A **Long** value that specifies the size of the column. The *DefinedSize* parameter corresponds to the [DefinedSize](definedsize-property-adox.md) property of a **Column** object.
+|Parameter|Description|
+|:--------|:----------|
+|*Column* |The **Column** object to append or the name of the column to create and append.|
+|*Type* |Optional. A **Long** value that specifies the data type of the column. The *Type* parameter corresponds to the [Type](https://msdn.microsoft.com/library/jj249169\(v=office.15\)) property of a **Column** object.|
+|*DefinedSize* |Optional. A **Long** value that specifies the size of the column. The *DefinedSize* parameter corresponds to the [DefinedSize](definedsize-property-adox.md) property of a **Column** object.|
 
 
 > [!NOTE]
