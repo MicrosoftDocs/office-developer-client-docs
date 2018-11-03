@@ -10,10 +10,7 @@ mtps_version: v=office.15
 
 # LoadFromFile method (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
-
-
 
 Loads the contents of an existing file into a [Stream](stream-object-ado.md).
 
@@ -21,11 +18,11 @@ Loads the contents of an existing file into a [Stream](stream-object-ado.md).
 
 *Stream*.LoadFromFile *FileName*
 
-## Parameter
+## Parameters
 
-  - *FileName*
-
-  - A **String** value that contains the name of a file to be loaded into the **Stream**. *FileName* can contain any valid path and name in UNC format. If the specified file does not exist, a run-time error occurs.
+|Name |Description|
+|:----|:----------|
+|*FileName* |A **String** value that contains the name of a file to be loaded into the **Stream**. *FileName* can contain any valid path and name in UNC format. If the specified file does not exist, a run-time error occurs.|
 
 ## Remarks
 

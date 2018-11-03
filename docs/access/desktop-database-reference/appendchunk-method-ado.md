@@ -29,7 +29,7 @@ Appends data to a large text or binary data [Field](field-object-ado.md), or to 
 
 Use the **AppendChunk** method on a **Field** or **Parameter** object to fill it with long binary or character data. In situations where system memory is limited, you can use the **AppendChunk** method to manipulate long values in portions rather than in their entirety.
 
-**Field**
+### Field
 
 If the **adFldLong** bit in the [Attributes](attributes-property-ado.md) property of a **Field** object is set to true, you can use the **AppendChunk** method for that field.
 
@@ -37,13 +37,10 @@ The first **AppendChunk** call on a **Field** object writes data to the field, o
 
 If there is no current record when you call **AppendChunk** on a **Field** object, an error occurs.
 
-
 > [!NOTE]
 > The **AppendChunk** method does not operate on **Field** objects of a [Record](record-object-ado.md) object. It does not perform any operation and will produce a run-time error.
 
-
-
-**Parameter**
+### Parameter
 
 If the **adParamLong** bit in the **Attributes** property of a **Parameter** object is set to true, you can use the **AppendChunk** method for that parameter.
 
