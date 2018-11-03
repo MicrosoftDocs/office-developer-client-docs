@@ -355,6 +355,38 @@
   {
     "source_path": "docs/access/desktop-database-reference/adox-code-examples-in-microsoft-visual-c-topics.md",
     "redirect_url": "/office/client-developer/access/desktop-database-reference/adox-code-examples-in-microsoft-visual-c"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/step-1-set-up-the-application.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/xml-recordset-persistence-scenario"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/step-2-get-the-data.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/xml-recordset-persistence-scenario"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/step-3-send-the-data.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/xml-recordset-persistence-scenario"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/step-4-receive-and-display-the-data.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/xml-recordset-persistence-scenario"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/step-1-set-up-the-visual-basic-project.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/internet-publishing-scenario"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/step-2-initialize-the-main-list-box.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/internet-publishing-scenario"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/step-3-populate-the-fields-list-box.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/internet-publishing-scenario"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/step-4-populate-the-details-text-box.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/internet-publishing-scenario"
   }
 ]
 }
