@@ -14,7 +14,6 @@ f1_categories:
 
 # TableDef.Connect property (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Sets or returns a value that provides information about a linked table. Read/write **String**.
@@ -154,12 +153,6 @@ For data in Microsoft Exchange, the required MAPILEVEL key should be set to a fu
 
 For base tables in a Micorosoft Access database, the **Connect** property setting is a zero-length string ("").
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>You must set the <STRONG>Connect</STRONG> property before you set the <STRONG>ReturnsRecords</STRONG> property.</P>
-> <LI>
-> <P>You must have access permissions to the computer that contains the database server you're trying to access.</P></LI></UL>
-
-
+> - You must set the **Connect** property before you set the **ReturnsRecords** property.
+> - You must have access permissions to the computer that contains the database server you're trying to access.

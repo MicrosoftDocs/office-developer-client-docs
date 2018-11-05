@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Recordset2.Sort property (DAO)
 
-
 **Applies to**: Access 2013, Office 2013 
 
 Sets or returns the sort order for records in a **[Recordset](recordset-object-dao.md)** object (Microsoft Access workspaces only).
@@ -31,11 +30,8 @@ The default sort order is ascending (A to Z or 0 to 100).
 
 The **Sort** property doesn't apply to table– or forward–only–type **Recordset** objects. To sort a table–type **Recordset** object, use the **[Index](recordset2-index-property-dao.md)** property.
 
-
 > [!NOTE]
-> <P>In many cases, it's faster to open a new <STRONG>Recordset</STRONG> object by using an SQL statement that includes the sorting criteria.</P>
-
-
+> In many cases, it's faster to open a new **Recordset** object by using an SQL statement that includes the sorting criteria.
 
 ## Example
 

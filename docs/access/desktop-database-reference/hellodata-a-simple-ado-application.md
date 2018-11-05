@@ -28,11 +28,8 @@ The application queries the Northwind sample database that is included with Micr
 
 5.  Finally, copy the code listed in [HelloData Code](hellodata-code.md) and paste it into the code editor window of the form. Press **F5** to run the code.
 
-
 > [!NOTE]
-> <P>In the following example, and throughout the guide, the user id "MyId" with a password of "123aBc" is used to authenticate against the server. You should substitute these values with valid logon credentials for your server. Also, substitute the "MyServer" value with the name of your server.</P>
-
-
+> In the following example, and throughout the guide, the user id "MyId" with a password of "123aBc" is used to authenticate against the server. You should substitute these values with valid logon credentials for your server. Also, substitute the "MyServer" value with the name of your server.
 
 For a detailed description of the code, see [HelloData Details](hellodata-details.md).
 

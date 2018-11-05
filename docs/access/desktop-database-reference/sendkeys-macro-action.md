@@ -14,7 +14,6 @@ f1_categories:
 
 # SendKeys macro action
 
-
 **Applies to**: Access 2013, Office 2013
 
 <table>
@@ -30,14 +29,10 @@ f1_categories:
 </tbody>
 </table>
 
-
 You can use the **SendKeys** action to send keystrokes directly to Microsoft Access or to an active Windows-based application.
 
-
 > [!NOTE]
-> <P>This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</P>
-
-
+> This action will not be allowed if the database is not trusted. 
 
 ## Setting
 
@@ -73,23 +68,14 @@ Access processes the keystrokes it receives through the **SendKeys** action exac
 
 To specify the keystrokes, use the same syntax as you would for the **SendKeys** statement.
 
-
 > [!NOTE]
-> <P>An error can occur if the <STRONG>Keystrokes</STRONG> argument contains incorrect syntax, misspelled text, or other values that aren't appropriate for the window the keystrokes are sent to.</P>
-
-
+> An error can occur if the **Keystrokes** argument contains incorrect syntax, misspelled text, or other values that aren't appropriate for the window the keystrokes are sent to.
 
 You can use this action to enter information in a dialog box, particularly if you don't want to interrupt the macro to respond manually to the dialog box. Some Access actions, such as **PrintOut** and **FindRecord**, automatically select the options in certain frequently used dialog boxes. You can use the **SendKeys** action to select the options in less commonly used dialog boxes.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Because the dialog box suspends the macro, you must put the <STRONG>SendKeys</STRONG> action before the action that causes the dialog box to open and set the <STRONG>Wait</STRONG> argument to <STRONG>No</STRONG>.</P>
-> <LI>
-> <P>The timing of the keystrokes reaching Access or another application can be tricky. As a result, it's recommended that if there's some other method (such as the <STRONG>FindRecord</STRONG> action) you can use to achieve a desired task, use that method rather than using the <STRONG>SendKeys</STRONG> action to fill in the options in a dialog box.</P></LI></UL>
-
-
+> - Because the dialog box suspends the macro, you must put the **SendKeys** action before the action that causes the dialog box to open and set the **Wait** argument to **No**.
+> - The timing of the keystrokes reaching Access or another application can be tricky. As a result, it's recommended that if there's some other method (such as the **FindRecord** action) you can use to achieve a desired task, use that method rather than using the **SendKeys** action to fill in the options in a dialog box.
 
 If you want to send more than 255 characters to Access or another Windows-based application, you can use several **SendKeys** actions in succession in a macro.
 

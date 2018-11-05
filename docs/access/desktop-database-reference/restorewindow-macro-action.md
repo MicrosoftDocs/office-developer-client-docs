@@ -14,16 +14,12 @@ f1_categories:
 
 # RestoreWindow macro action
 
-
 **Applies to**: Access 2013, Office 2013
 
 You can use the **RestoreWindow** action to restore a maximized or minimized window to its previous size.
 
-
 > [!NOTE]
-> <P>This action can't be applied to code windows in the Visual Basic Editor. For information about how to affect code windows, see the <STRONG>WindowState</STRONG> property topic.</P>
-
-
+> This action can't be applied to code windows in the Visual Basic Editor. For information about how to affect code windows, see the **WindowState** property topic.
 
 ## Setting
 

@@ -29,11 +29,8 @@ SHAPE {SELECT * FROM customer}
 
 The parent and child tables have a column name in common, cust\_id*.* The *child-command* has a "?" placeholder, to which the RELATE clause refers (that is, "...PARAMETER 0").
 
-
 > [!NOTE]
-> <P>The PARAMETER clause pertains solely to the shape command syntax. It is not associated with either the ADO <A href="parameter-object-ado.md">Parameter</A> object or the <A href="parameters-collection-ado.md">Parameters</A> collection.</P>
-
-
+> The PARAMETER clause pertains solely to the shape command syntax. It is not associated with either the ADO [Parameter](parameter-object-ado.md) object or the [Parameters](parameters-collection-ado.md) collection.
 
 When the parameterized shape command is executed, the following occurs:
 
@@ -51,8 +48,7 @@ When the parameterized shape command is executed, the following occurs:
 
 The **Cache Child Rows** dynamic property is set to **True** by default. The caching behavior varies depending upon the parameter values of the query. In a query with a single parameter, the child **Recordset** for a given parameter value will be cached between requests for a child with that value. The following code demonstrates this:
 
-```vb 
- 
+```vb
 ... 
 SCmd = "SHAPE {select * from customer} " & _ 
  "APPEND({select * from orders where cust_id = ?} " & _ 
@@ -67,7 +63,7 @@ Rst1.MovePrevious ' RstChild now holds cached rs, saving round trip.
 
 In a query with two or more parameters, a cached child is used only if all the parameter values match the cached values.
 
-## Parameterized Commands and Complex Parent Child Relations
+## Parameterized commands and complex parent child relations
 
 In addition to using parameterized commands to improve performance of an equi-join type hierarchy, parameterized commands can be used to support more complex parent-child relationships. For example, consider a Little League database with two tables: one consisting of the teams (team\_id, team\_name) and the other of games (date, home\_team, visiting\_team).
 

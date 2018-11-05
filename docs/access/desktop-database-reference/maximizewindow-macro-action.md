@@ -14,16 +14,12 @@ f1_categories:
 
 # MaximizeWindow macro action
 
-
 **Applies to**: Access 2013, Office 2013
 
 If Access is configured to use overlapping windows instead of tabbed documents, you can use the **MaximizeWindow** action to enlarge the active window so that it fills the Access window. This action will allow you to see as much of the object in the active window as possible.
 
-
 > [!NOTE]
-> <P>This action can't be applied to code windows in the Visual Basic Editor. For information about how to affect code windows, see the <STRONG>WindowState</STRONG> property topic.</P>
-
-
+> This action can't be applied to code windows in the Visual Basic Editor. For information about how to affect code windows, see the **WindowState** property topic.
 
 ## Setting
 
@@ -35,11 +31,9 @@ This action has the same effect as clicking the **Maximize** button in the windo
 
 You can use the **RestoreWindow** action to restore a maximized window to its previous size.
 
-**Tips**
-
-  - You may need to use the **SelectObject** action if the window you want to maximize isn't the active window.
-
-  - When you maximize a window in Access, all other windows are also maximized when you open them or switch to them. However, pop-up forms aren't maximized. If you want a form to maintain its size when other windows are maximized, set its **PopUp** property to **Yes**.
+> [!TIP]
+> - You may need to use the **SelectObject** action if the window you want to maximize isn't the active window.
+> - When you maximize a window in Access, all other windows are also maximized when you open them or switch to them. However, pop-up forms aren't maximized. If you want a form to maintain its size when other windows are maximized, set its **PopUp** property to **Yes**.
 
 To run the **MaximizeWindow** action in a Visual Basic for Applications module, use the **Maximize** method of the **DoCmd** object.
 

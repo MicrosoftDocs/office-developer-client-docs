@@ -14,7 +14,6 @@ f1_categories:
 
 # RunCode macro action
 
-
 **Applies to**: Access 2013, Office 2013
 
 You can use the **RunCode** action to call a Visual Basic for Applications (VBA) Function procedure.
@@ -37,13 +36,7 @@ The **RunCode** action has the following argument.
 <tbody>
 <tr class="odd">
 <td><p><strong>Function Name</strong></p></td>
-<td><p>The name of the VBA Function procedure to call. Enclose any function arguments in parentheses. Enter the function name in the <strong>Function Name</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane. This is a required argument.</p>
-
-> [!NOTE]
-> <P>In an Access database (.mdb or .accdb), click the <STRONG>Build</STRONG> button to use the Expression Builder to select a function for this argument. Click the desired function in the list in the Expression Builder.</P>
-
-
-<p></p></td>
+<td><p>The name of the VBA Function procedure to call. Enclose any function arguments in parentheses. Enter the function name in the <strong>Function Name</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane. This is a required argument.</p><p><strong>NOTE</strong>: In an Access database (.mdb or .accdb), click the <strong>Build</strong> button to use the Expression Builder to select a function for this argument. Click the desired function in the list in the Expression Builder.</p></td>
 </tr>
 </tbody>
 </table>
@@ -61,17 +54,11 @@ Unlike user-defined function names used for event property settings, the functio
 
 Access ignores the return value of the function.
 
-
 > [!NOTE]
-> <P>You can't call a Function procedure from a macro if the function name is the same as the module name.</P>
-
-
-
+> You can't call a Function procedure from a macro if the function name is the same as the module name.
 
 > [!TIP]
-> <P>To run a Sub procedure or event procedure written in Visual Basic, create a Function procedure that calls the Sub procedure or event procedure. Then use the <STRONG>RunCode</STRONG> action to run the Function procedure.</P>
-
-
+> To run a Sub procedure or event procedure written in Visual Basic, create a Function procedure that calls the Sub procedure or event procedure. Then use the **RunCode** action to run the Function procedure.
 
 If you use the **RunCode** action to call a function, Access looks for the function with the name specified by the **Function Name** argument in the standard modules for the database. However, when this action runs in response to clicking a menu command on a form or report or in response to an event on a form or report, Access first looks for the function in the form's or report's class module and then in the standard modules. Access doesn't search the class modules that appear in the **Modules** area of the Navigation Pane for the function specified by the **Function Name** argument.
 

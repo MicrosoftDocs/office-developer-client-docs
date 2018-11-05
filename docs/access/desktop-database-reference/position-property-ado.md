@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Position property (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Indicates the current position within a [Stream](stream-object-ado.md) object.
@@ -21,13 +20,10 @@ Sets or returns a **Long** value that specifies the offset, in number of bytes, 
 
 ## Remarks
 
-The current position can be moved to a point after the end of the stream. If you specify the current position beyond the end of the stream, the [Size](https://msdn.microsoft.com/library/jj250128\(v=office.15\)) of the **Stream** object will be increased accordingly. Any new bytes added in this way will be null.
-
+The current position can be moved to a point after the end of the stream. If you specify the current position beyond the end of the stream, the [Size](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream) of the **Stream** object will be increased accordingly. Any new bytes added in this way will be null.
 
 > [!NOTE]
-> <P><STRONG>Position</STRONG> always measures bytes. For text streams using multibyte character sets, multiply the position by the character size to determine the character number. For example, for a two-byte character set, the first character is at position 0, the second character at position 2, the third character at position 4, and so on.</P>
-
-
+> **Position** always measures bytes. For text streams using multibyte character sets, multiply the position by the character size to determine the character number. For example, for a two-byte character set, the first character is at position 0, the second character at position 2, the third character at position 4, and so on.
 
 Negative values cannot be used to change the current position in a **Stream**. Only positive numbers can be used for **Position**.
 

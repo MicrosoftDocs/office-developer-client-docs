@@ -10,12 +10,11 @@ mtps_version: v=office.15
 
 # Working with Recordsets
 
-
 **Applies to**: Access 2013, Office 2013 
 
 The **Recordset** object has built-in features that make it possible for you to rearrange the order of the data in the result set, to search for a specific record based on criteria that you supply, and even to optimize those search operations using indexes. Whether these features are available for use depends on the provider and in some cases — such as that of the [Index](index-property-ado.md) property — the structure of the data source itself.
 
-## Arranging Data
+## Arranging data
 
 Often, the most efficient way to order the data in your **Recordset** is by specifying an ORDER BY clause in the SQL command used to return results to it. However, you might need to change the order of the data in a **Recordset** that has already been created. You can use the **Sort** property to establish the order in which rows of a **Recordset** are traversed. Furthermore, the **Filter** property determines which rows are accessible when traversing rows.
 
@@ -33,7 +32,7 @@ No field referenced in a sort criteria string can be named "ASC" or "DESC" becau
 
 For more details about **Recordset** filtering, see Filtering the Results later in this topic.
 
-## Finding a Specific Record
+## Finding a specific record
 
 ADO provides the [Find](find-method-ado.md) and [Seek](seek-method-ado.md) methods for locating a particular record in a **Recordset**. The **Find** method is supported by a variety of providers but is limited to a single search criterion. The **Seek** method supports searching on multiple criteria, but is not supported by many providers.
 
@@ -43,7 +42,7 @@ The **Find** method quickly locates a value within a column (field) of a **Recor
 
 The **Find** method limits your search to the contents of one field. The **Seek** method requires that you have an index and has other limitations as well. If you need to search on multiple fields that aren't the basis of an index, or if your provider does not support indexes, you can limit your results using the **Filter** property of the **Recordset** object.
 
-## Find
+### Find
 
 The **Find** method searches a **Recordset** for the row that satisfies a specified criterion. Optionally, the direction of the search, starting row, and offset from the starting row may be specified. If the criterion is met, the current row position is set on the found record; otherwise, the position is set to the end (or start) of the **Recordset**, depending on search direction.
 
@@ -57,7 +56,7 @@ If the comparison operator is "like", the string value may contain an asterisk (
 
 Asterisks can be used only at the end of a criteria string or together at both the beginning and end of a criteria string, as shown above. You cannot use the asterisk as a leading wildcard ('\*str') or embedded wildcard ('s\*r'). This will cause an error.
 
-## Seek and Index
+### Seek and Index
 
 Use the **Seek** method in conjunction with the **Index** property if the underlying provider supports indexes on the **Recordset** object. Use the [Supports](supports-method-ado.md)**(adSeek)** method to determine whether the underlying provider supports **Seek**, and the **Supports(adIndex)** method to determine whether the provider supports indexes. (For example, the [OLE DB Provider for Microsoft Jet](microsoft-ole-db-provider-for-microsoft-jet.md) supports **Seek** and **Index**.)
 
@@ -67,7 +66,7 @@ This method is supported only with server-side cursors. Seek is not supported wh
 
 This method can be used only when the **Recordset** object has been opened with a [CommandTypeEnum](commandtypeenum.md) value of **adCmdTableDirect**.
 
-## Filtering the Results
+## Filtering the results
 
 The **Find** method limits your search to the contents of one field. The **Seek** method requires that you have an index and has other limitations as well. If you need to search on multiple fields that are not the basis of an index or if your provider does not support indexes, you can limit your results using the **Filter** property of the **Recordset** object.
 
@@ -75,29 +74,25 @@ Use the **Filter** property to selectively screen out records in a **Recordset**
 
 The **Filter** property takes a variant argument. This value represents one of three methods for using the **Filter** property: a criteria string, a **FilterGroupEnum** constant, or an array of bookmarks. For more information, see Filtering with a Criteria String, Filtering with a Constant, and Filtering with Bookmarks later in this topic.
 
-
 > [!NOTE]
-> <P>When you know the data you want to select, it is usually more efficient to open a <STRONG>Recordset</STRONG> with a SQL statement that effectively filters the result set, rather than relying on the <STRONG>Filter</STRONG> property.</P>
-
-
+> When you know the data you want to select, it is usually more efficient to open a **Recordset** with a SQL statement that effectively filters the result set, rather than relying on the **Filter** property.
 
 To remove a filter from a **Recordset**, use the **adFilterNone** constant. Setting the **Filter** property to a zero-length string ("") has the same effect as using the **adFilterNone** constant.
 
-## Filtering with a Criteria String
+### Filtering with a criteria string
 
 The criteria string is made up of clauses in the form *FieldName Operator Value* (for example, "LastName = 'Smith'"). You can create compound clauses by concatenating individual clauses with AND (for example, "LastName = 'Smith' AND FirstName = 'John'") and OR (for example, ). You can create compound clauses by concatenating individual clauses with AND (for example, "LastName = 'Smith' AND FirstName = 'John'") and OR (for example, "LastName = 'Smith' OR LastName = 'Jones'"). Use the following guidelines for criteria strings:
 
-  - *FieldName* must be a valid field name from the **Recordset**. If the field name contains spaces, you must enclose the name in square brackets.
+- *FieldName* must be a valid field name from the **Recordset**. If the field name contains spaces, you must enclose the name in square brackets.
 
-  - *Operator* must be one of the following: \<, \>, \<=, \>=, \<\>, =, or LIKE.
+- *Operator* must be one of the following: \<, \>, \<=, \>=, \<\>, =, or LIKE.
 
-  - *Value* is the value with which you will compare the field values (for example, 'Smith', \#8/24/95\#, 12.345, or $50.00). Use single quotation marks (') with strings and pound signs (\#) with dates. For numbers, you can use decimal points, dollar signs, and scientific notation. If *Operator* is LIKE, *Value* can use wildcards. Only the asterisk (\*) and percent sign (%) wildcards are allowed, and they must be the last character in the string. *Value* cannot be null.
+- *Value* is the value with which you will compare the field values (for example, 'Smith', \#8/24/95\#, 12.345, or $50.00). Use single quotation marks (') with strings and pound signs (\#) with dates. For numbers, you can use decimal points, dollar signs, and scientific notation. If *Operator* is LIKE, *Value* can use wildcards. Only the asterisk (\*) and percent sign (%) wildcards are allowed, and they must be the last character in the string. *Value* cannot be null.
     
-
-    > [!NOTE]
-    > <P>To include single quotation marks (') in the filter <EM>Value</EM>, use two single quotation marks to represent one. For example, to filter on <EM>O'Malley</EM>, the criteria string should be "col1 = 'O''Malley'". To include single quotation marks at both the beginning and the end of the filter value, enclose the string in pound signs (#). For example, to filter on <EM>'1'</EM>, the criteria string should be "col1 = #'1'#".</P>
-
-
+  > [!NOTE]
+  > To include single quotation marks (') in the filter *Value*, use two single quotation marks to represent one. For example, to filter on *O'Malley*, the criteria string should be "col1 = 'O''Malley'". 
+  > 
+  > To include single quotation marks at both the beginning and the end of the filter value, enclose the string in pound signs (#). For example, to filter on *'1'*, the criteria string should be "col1 = #'1'#".
 
 There is no precedence between AND and OR. Clauses can be grouped within parentheses. However, you cannot group clauses joined by an OR and then join the group to another clause with an AND, like this:
 
@@ -115,7 +110,7 @@ Instead, you would construct this filter as:
 
 In a LIKE clause, you can use a wildcard at the beginning and end of the pattern (for example, LastName Like '\*mit\*') or only at the end of the pattern (for example, ) or only at the end of the pattern (for example, LastName Like 'Smit\*').
 
-## Filtering with a Constant
+### Filtering with a constant
 
 The following constants are available for filtering **Recordsets**.
 
@@ -154,6 +149,7 @@ The following constants are available for filtering **Recordsets**.
 </tbody>
 </table>
 
+<br/>
 
 The filter constants make it easier to resolve individual record conflicts during batch update mode by allowing you to view, for example, only those records that were effected during the last **UpdateBatch** method call, as shown in the following example:
 
@@ -188,7 +184,7 @@ The filter constants make it easier to resolve individual record conflicts durin
 'EndDeleteGroup 
 ```
 
-## Filtering with Bookmarks
+### Filtering with bookmarks
 
 Finally, you can pass a variant array of bookmarks to the **Filter** property. The resulting cursor will contain only those records whose bookmark was passed in to the property. The following code example creates an array of bookmarks from the records in a **Recordset** which have a "B" in the *ProductName* field. It then passes the array to the **Filter** property and displays information about the resulting filtered **Recordset**.
 
@@ -223,7 +219,7 @@ Finally, you can pass a variant array of bookmarks to the **Filter** property. T
     'EndFilterBkmk 
 ```
 
-## Creating a Clone of a Recordset
+## Creating a clone of a Recordset
 
 Use the **Clone** method to create multiple, duplicate **Recordset** objects, particularly if you want to maintain more than one current record in a given set of records. Using the **Clone** method is more efficient than creating and opening a new **Recordset** object with the same definition as the original.
 

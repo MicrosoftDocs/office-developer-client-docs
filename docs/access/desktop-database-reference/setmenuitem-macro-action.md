@@ -14,16 +14,12 @@ f1_categories:
 
 # SetMenuItem macro action
 
-
 **Applies to**: Access 2013, Office 2013
 
 You can use the **SetMenuItem** action to set the state of menu items (enabled or disabled, selected or unselected) on custom or global menus on the **Add-Ins** tab.
 
-
 > [!NOTE]
-> <P>The <STRONG>SetMenuItem</STRONG> action works only with custom and global menus created by using menu macros. The <STRONG>SetMenuItem</STRONG> action is included in Microsoft Access only for compatibility with previous versions. It does not work with the command bar functionality. However, you can use the <STRONG>Enabled</STRONG> and <STRONG>State</STRONG> properties in a Visual Basic for Applications (VBA) module to disable or enable and select or unselect items on shortcut menus or custom or global menus.</P>
-
-
+> The **SetMenuItem** action works only with custom and global menus created by using menu macros. The **SetMenuItem** action is included in Microsoft Access only for compatibility with previous versions. It does not work with the command bar functionality. However, you can use the **Enabled** and **State** properties in a Visual Basic for Applications (VBA) module to disable or enable and select or unselect items on shortcut menus or custom or global menus.
 
 ## Setting
 

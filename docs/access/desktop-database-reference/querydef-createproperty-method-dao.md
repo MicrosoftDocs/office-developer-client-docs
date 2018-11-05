@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # QueryDef.CreateProperty method (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Creates a new user-defined **[Property](property-object-dao.md)** object (Microsoft Access workspaces only).
@@ -81,8 +80,7 @@ If name refers to an object that is already a member of the collection, a run-ti
 
 To remove a user-defined **Property** object from the collection, use the **[Delete](fields-delete-method-dao.md)** method on the **[Properties](properties-collection-dao.md)** collection. You can't delete built-in properties.
 
-
 > [!NOTE]
-> <P>If you omit the DDL argument, it defaults to False (non-DDL). Because no corresponding DDL property is exposed, you must delete and re-create a <STRONG>Property</STRONG> object you want to change from DDL to non-DDL.</P>
+> If you omit the DDL argument, it defaults to False (non-DDL). Because no corresponding DDL property is exposed, you must delete and re-create a **Property** object that you want to change from DDL to non-DDL.
 
 

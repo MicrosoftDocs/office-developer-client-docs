@@ -10,9 +10,7 @@ mtps_version: v=office.15
 
 # MoveAndSizeWindow macro action
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 If you have set your document window options to use overlapping windows instead of tabbed documents, you can use the **MoveAndSizeWindow** action to move or resize the active window. For information on how to set document window options, see the Remarks section.
 
@@ -56,17 +54,14 @@ If you leave an argument blank, Microsoft Access uses the window's current setti
 
 You must enter a value for at least one argument.
 
-
 > [!NOTE]
-> <P>Each measurement is in inches or centimeters, depending on the regional settings in Windows Control Panel.</P>
-
-
+> Each measurement is in inches or centimeters, depending on the regional settings in Windows Control Panel.
 
 ## Remarks
 
 To set up an application to use overlapping windows instead of tabbed documents, use the following procedure:
 
-1.  and then click **Options**
+1.  Click **Options**
 
 2.  Click **Current Database**.
 
@@ -78,11 +73,9 @@ This action is similar to clicking **Move** or **Size** on the window's **Contro
 
 You can use this action on any window, in any view.
 
-**Tips**
-
-  - To move a window without resizing it, enter values for the **Right** and **Down** arguments but leave the **Width** and **Height** arguments blank.
-
-  - To resize a window without moving it, enter values for the **Width** and **Height** arguments but leave the **Right** and **Down** arguments blank.
+> [!TIP]
+> - To move a window without resizing it, enter values for the **Right** and **Down** arguments but leave the **Width** and **Height** arguments blank.
+> - To resize a window without moving it, enter values for the **Width** and **Height** arguments but leave the **Right** and **Down** arguments blank.
 
 To run the **MoveAndSizeWindow** action in a Visual Basic for Applications (VBA) module, use the **MoveSize** method of the **DoCmd** object.
 

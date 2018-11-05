@@ -14,16 +14,12 @@ f1_categories:
 
 # RunSavedImportExport macro action
 
-
 **Applies to**: Access 2013, Office 2013
 
 You can use the **RunSavedImportExport** action to run a saved import or export specification that you created by using the Import Wizard or the Export Wizard.
 
-
 > [!NOTE]
-> <P>This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</P>
-
-
+> This action will not be allowed if the database is not trusted.
 
 ## Setting
 
@@ -51,17 +47,17 @@ The **RunSavedImportExport** action has the following argument.
 
 ## Remarks
 
-  - This macro action has the same effect as performing the following procedure in Access:
+- This macro action has the same effect as performing the following procedure in Access:
     
-    1.  On the **External Data** tab, click either **Saved Imports** or **Saved Exports**.
+  1.  On the **External Data** tab, click either **Saved Imports** or **Saved Exports**.
     
-    2.  In the **Manage Data Tasks** dialog box, on the **Saved Imports** or **Saved Exports** tab (depending on your choice in the preceding step), click the specification that you want to run.
+  2.  In the **Manage Data Tasks** dialog box, on the **Saved Imports** or **Saved Exports** tab (depending on your choice in the preceding step), click the specification that you want to run.
     
-    3.  Click **Run**.
+  3.  Click **Run**.
 
-  - Before running the **RunSavedImportExport** action, make sure that the source and destination files exist, the source data is ready for importing, and that the operation will not accidentally overwrite any data in your destination file.
+- Before running the **RunSavedImportExport** action, make sure that the source and destination files exist, the source data is ready for importing, and that the operation will not accidentally overwrite any data in your destination file.
 
-  - Find links to more information about saving and running import and export specifications in the **See Also** section.
+- Find links to more information about saving and running import and export specifications in the **See Also** section.
 
-  - If the saved import or export specification you choose for the **Saved Import Export Name** argument is deleted after the macro is created, Access displays the following error message when the macro is run: **The specification with the specified index does not exist. Specify a different index. '*****specification name*****'.**
+- If the saved import or export specification you choose for the **Saved Import Export Name** argument is deleted after the macro is created, Access displays the following error message when the macro is run: **The specification with the specified index does not exist. Specify a different index. '*****specification name*****'.**
 

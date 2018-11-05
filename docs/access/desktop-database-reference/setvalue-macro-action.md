@@ -10,23 +10,13 @@ mtps_version: v=office.15
 
 # SetValue macro action
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 You can use the **SetValue** action to set the value of a Microsoft Access field, control, or property on a form, a form datasheet, or a report.
 
-
 > [!NOTE]
-> <P>You cannot use the <STRONG>SetValue</STRONG> action to set the value of an Access property that returns an object.</P>
-
-
-
-
-> [!NOTE]
-> <P>This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</P>
-
-
+> - You cannot use the **SetValue** action to set the value of an Access property that returns an object.
+> - This action will not be allowed if the database is not trusted. 
 
 ## Setting
 
@@ -50,23 +40,14 @@ The **SetValue** action has the following arguments.
 </tr>
 <tr class="even">
 <td><p><strong>Expression</strong></p></td>
-<td><p>The expression Access uses to set the value for this item. You must always use the full syntax to refer to any objects in the expression. For example, to increase the value in a Salary control on an Employees form by 10 percent, use Forms!Employees!Salary*1.1. This is a required argument.</p>
-
-> [!NOTE]
-> <P>You shouldn't use an equal sign (<STRONG>=</STRONG>) before the expression in this argument. If you do, Access evaluates the expression and then uses this value as the expression in this argument. This can produce unexpected results if the expression is a string.</P>
-
-
+<td><p>The expression Access uses to set the value for this item. You must always use the full syntax to refer to any objects in the expression. For example, to increase the value in a Salary control on an Employees form by 10 percent, use Forms!Employees!Salary*1.1. This is a required argument.</p><p><strong>NOTE</strong>: You shouldn't use an equal sign (=) before the expression in this argument. If you do, Access evaluates the expression and then uses this value as the expression in this argument. This can produce unexpected results if the expression is a string.</p>
 <p>For example, if you type <strong>=&quot;String1&quot;</strong> for this argument, Access first evaluates the expression as String1. Then it uses String1 as the expression in this argument, expecting to find a control or property named String1 on the form or report that called the macro.</p></td>
 </tr>
 </tbody>
 </table>
 
-
-
 > [!NOTE]
-> <P>In an Access database (.mdb or .accdb), click the <STRONG>Build</STRONG> button to use the Expression Builder to create an expression for either of these arguments.</P>
-
-
+> In an Access database (.mdb or .accdb), click the **Build** button to use the Expression Builder to create an expression for either of these arguments.
 
 ## Remarks
 
@@ -78,22 +59,13 @@ If you set the value of a control on a form, the **SetValue** action doesn't tri
 
 To change the value of a control, you can use the **SetValue** action in a macro specified by the control's **AfterUpdate** event property. However, you can't use the **SetValue** action in a macro specified by a control's **BeforeUpdate** event property to change the value of the control (although you can use the **SetValue** action to change the value of other controls). You can also use the **SetValue** action in a macro specified by the **BeforeUpdate** or **AfterUpdate** property of a form to change the value of any controls in the current record.
 
-
 > [!NOTE]
-> <P>You can't use the <STRONG>SetValue</STRONG> action to set the value of the following controls:</P>
-> <UL>
-> <LI>
-> <P>Bound controls and calculated controls on reports.</P>
-> <LI>
-> <P>Calculated controls on forms.</P></LI></UL>
-
-
-
+> You can't use the **SetValue** action to set the value of the following controls:
+> - Bound controls and calculated controls on reports.
+> - Calculated controls on forms.
 
 > [!TIP]
-> <P>You can use the <STRONG>SetValue</STRONG> action to hide or show a form in Form view. Enter <STRONG>Forms</STRONG>!<EM>formname</EM><STRONG>.Visible</STRONG> in the <STRONG>Item</STRONG> box and <STRONG>No</STRONG> or <STRONG>Yes</STRONG> in the <STRONG>Expression</STRONG> box. Setting a modal form's <STRONG>Visible</STRONG> property to <STRONG>No</STRONG> hides the form and makes it modeless. Setting the property to <STRONG>Yes</STRONG> displays the form and makes it modal again.</P>
-
-
+> You can use the **SetValue** action to hide or show a form in Form view. Enter **Forms**!*formname***.Visible** in the **Item** box, and **No** or **Yes** in the **Expression** box. Setting a modal form's **Visible** property to **No** hides the form and makes it modeless. Setting the property to **Yes** displays the form and makes it modal again.
 
 Changing the value of or adding new data in a control by using the **SetValue** action in a macro doesn't trigger events such as **BeforeUpdate**, **BeforeInsert**, or **Change** that occur when you change or enter data in these controls in the user interface. These events also don't occur if you set the value of the control by using a Visual Basic for Applications (VBA) module.
 

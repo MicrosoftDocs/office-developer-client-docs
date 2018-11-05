@@ -14,7 +14,6 @@ f1_categories:
 
 # SelectObject macro action
 
-
 **Applies to**: Access 2013, Office 2013
 
 You can use the **SelectObject** action to select a specified database object.
@@ -41,13 +40,7 @@ The **SelectObject** action has the following arguments.
 </tr>
 <tr class="even">
 <td><p><strong>Object Name</strong></p></td>
-<td><p>The name of the object to select. The <strong>Object Name</strong> box shows all objects in the database of the type selected by the <strong>Object Type</strong> argument. This is a required argument, unless you set the In Navigation Pane argument to <strong>Yes</strong>.</p>
-
-> [!NOTE]
-> <P>The object names for <STRONG>Server View</STRONG>, <STRONG>Diagram</STRONG>, or <STRONG>Stored Procedure</STRONG> objects are not displayed in the <STRONG>Object Name</STRONG> box of an Access project (.adp).</P>
-
-
-<p></p></td>
+<td><p>The name of the object to select. The <strong>Object Name</strong> box shows all objects in the database of the type selected by the <strong>Object Type</strong> argument. This is a required argument, unless you set the In Navigation Pane argument to <strong>Yes</strong>.</p><p><strong>NOTE</strong>: The object names for <STRONG>Server View</STRONG>, <STRONG>Diagram</STRONG>, or <STRONG>Stored Procedure</STRONG> objects are not displayed in the <STRONG>Object Name</STRONG> box of an Access project (.adp).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>In Navigation Pane</strong></p></td>

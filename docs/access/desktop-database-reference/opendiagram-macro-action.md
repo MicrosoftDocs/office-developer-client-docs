@@ -14,16 +14,12 @@ f1_categories:
 
 # OpenDiagram macro action
 
-
 **Applies to**: Access 2013, Office 2013
 
 In an Access project, you can use the **OpenDiagram** action to open a database diagram in Design view.
 
-
 > [!NOTE]
-> <P>This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</P>
-
-
+> This action will not be allowed if the database is not trusted. 
 
 ## Setting
 
@@ -48,16 +44,12 @@ The **OpenDiagram** action has the following argument.
 </tbody>
 </table>
 
-
 ## Remarks
 
 This action is similar to double-clicking a database diagram in the Navigation Pane, or right-clicking the database diagram in the Navigation Pane and then clicking **Design View**.
 
-
 > [!TIP]
-> <P>You can drag a database diagram from the Navigation Pane to a macro action row. This automatically creates an <STRONG>OpenDiagram</STRONG> action that opens the database diagram in Design view.</P>
-
-
+> You can drag a database diagram from the Navigation Pane to a macro action row. This automatically creates an **OpenDiagram** action that opens the database diagram in Design view.
 
 To run the **OpenDiagram** action in a Visual Basic for Applications (VBA) module, use the **OpenDiagram** method of the **DoCmd** object.
 

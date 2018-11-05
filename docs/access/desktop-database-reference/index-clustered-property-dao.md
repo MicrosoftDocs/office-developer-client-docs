@@ -14,7 +14,6 @@ f1_categories:
 
 # Index.Clustered property (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Sets or returns a value that indicates whether an **Index** object represents a clustered index for a table (Microsoft Access workspaces only). Read/write **Boolean**.
@@ -33,12 +32,8 @@ Some IISAM desktop database formats use clustered indexes. A clustered index con
 
 The **Clustered** property is read/write for a new **Index** object not yet appended to a collection and read-only for an existing **Index** object in an **Indexes** collection.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Microsoft Access database engine databases ignore the <STRONG>Clustered</STRONG> property because the Microsoft Access database engine doesn't support clustered indexes.</P>
-> <LI>
-> <P>For ODBC data sources the <STRONG>Clustered</STRONG> property always returns <STRONG>False</STRONG>; it does not detect whether or not the ODBC data source has a clustered index.</P></LI></UL>
+> - Microsoft Access database engine databases ignore the **Clustered** property because the Microsoft Access database engine doesn't support clustered indexes.
+> - For ODBC data sources, the **Clustered** property always returns **False**; it does not detect whether or not the ODBC data source has a clustered index.
 
 

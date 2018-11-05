@@ -1,6 +1,6 @@
 ﻿---
 title: Index.Primary property (DAO)
-TOCTitle: Primary Property
+TOCTitle: Primary property
 ms:assetid: 90eda1cb-cf7f-9682-9b74-81c27a37af16
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197416(v=office.15)
 ms:contentKeyID: 48546336
@@ -14,9 +14,7 @@ f1_categories:
 
 # Index.Primary property (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 Sets or returns a value that indicates whether an **[Index](index-object-dao.md)** object represents a primary key index for a table (Microsoft Access workspaces only).
 
@@ -32,11 +30,8 @@ The **Primary** property setting is read/write for a new **Index** object not ye
 
 A primary key index consists of one or more fields that uniquely identify all records in a table in a predefined order. Because the index field must be unique, the **[Unique](index-unique-property-dao.md)** property of the **Index** object is set to **True**. If the primary key index consists of more than one field, each field can contain duplicate values, but each combination of values from all the indexed fields must be unique. A primary key index consists of a key for the table and usually contains the same fields as the primary key.
 
-
 > [!NOTE]
-> <P>You don't have to create indexes for tables, but in large, unindexed tables, accessing a specific record can take a long time. The <STRONG><A href="field-attributes-property-dao.md">Attributes</A></STRONG> property of each <STRONG><A href="field-object-dao.md">Field</A></STRONG> object in the <STRONG>Index</STRONG> object determines the order of records and consequently determines the access techniques to use for that index. When you create a new table in your database, it's a good idea to create an index on one or more fields that uniquely identify each record, and then set the <STRONG>Primary</STRONG> property of the <STRONG>Index</STRONG> object to <STRONG>True</STRONG>.</P>
-
-
+> You don't have to create indexes for tables, but in large, unindexed tables, accessing a specific record can take a long time. The **[Attributes](field-attributes-property-dao.md)** property of each **[Field](field-object-dao.md)** object in the **Index** object determines the order of records and consequently determines the access techniques to use for that index. When you create a new table in your database, it's a good idea to create an index on one or more fields that uniquely identify each record, and then set the **Primary** property of the **Index** object to **True**.
 
 When you set a primary key for a table, the primary key is automatically defined as the primary key index for the table.
 

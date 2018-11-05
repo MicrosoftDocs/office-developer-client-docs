@@ -10,10 +10,9 @@ mtps_version: v=office.15
 
 # Solutions for Remote Data Access
 
-
 **Applies to**: Access 2013, Office 2013
 
-## The Issue
+## The issue
 
 ADO enables your application to directly gain access to and modify data sources (sometimes called a two-tier system). For example, if your connection is to the data source that contains your data, that is a direct connection in a two-tier system.
 
@@ -23,17 +22,14 @@ For example, your intranet webpage contains an application written in Microsoft 
 
 In this example, your application never directly connected to the data source; IIS did. And IIS accessed the data by means of ADO.
 
-
 > [!NOTE]
-> <P>The client/server application does not have to be based on the Internet or an intranet (that is, Web-based) — it could consist solely of compiled programs on a local area network. However, the typical case is a Web-based application.</P>
-
-
+> The client/server application does not have to be based on the Internet or an intranet (that is, web-based)—it could consist solely of compiled programs on a local area network. However, the typical case is a web-based application.
 
 Because some visual control, such as a grid, check box, or list, may use the returned information, the returned information must be easily used by a visual control.
 
 You want a simple and efficient application-programming interface that supports three-tier systems, and returns information as easily as if it had been retrieved on a two-tier system. Remote Data Service (RDS) is this interface.
 
-## The Solution
+## The solution
 
-RDS defines a programming model — the sequence of activities necessary to gain access to and update a data source — to gain access to data through an intermediary, such as Internet Information Services (IIS). The programming model summarizes the entire functionality of RDS.
+RDS defines a programming model—the sequence of activities necessary to gain access to and update a data source — to gain access to data through an intermediary, such as Internet Information Services (IIS). The programming model summarizes the entire functionality of RDS.
 

@@ -10,9 +10,7 @@ mtps_version: v=office.15
 
 # OpenForm macro action
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 You can use the **OpenForm** action to open a form in Form view, Design view, Print Preview, or Datasheet view. You can select data entry and window modes for the form and restrict the records that the form displays.
 
@@ -38,13 +36,7 @@ The **OpenForm** action has the following arguments.
 </tr>
 <tr class="even">
 <td><p><strong>View</strong></p></td>
-<td><p>The view in which the form will open. Click <strong>Form</strong>, <strong>Design</strong>, <strong>Print Preview</strong>, <strong>Datasheet</strong>, <strong>PivotTable</strong>, or <strong>PivotChart</strong> in the <strong>View</strong> box. The default is <strong>Form</strong>.</p>
-
-> [!NOTE]
-> <P>The <STRONG>View</STRONG> argument setting overrides the settings of the form's <STRONG>DefaultView</STRONG> and <STRONG>ViewsAllowed</STRONG> properties. For example, if a form's <STRONG>ViewsAllowed</STRONG> property is set to <STRONG>Datasheet</STRONG>, you can still use the <STRONG>OpenForm</STRONG> action to open the form in Form view.</P>
-
-
-<p></p></td>
+<td><p>The view in which the form will open. Click <strong>Form</strong>, <strong>Design</strong>, <strong>Print Preview</strong>, <strong>Datasheet</strong>, <strong>PivotTable</strong>, or <strong>PivotChart</strong> in the <strong>View</strong> box. The default is <strong>Form</strong>.</p><p><strong>NOTE</strong>: The <STRONG>View</STRONG> argument setting overrides the settings of the form's <STRONG>DefaultView</STRONG> and <STRONG>ViewsAllowed</STRONG> properties. For example, if a form's <STRONG>ViewsAllowed</STRONG> property is set to <STRONG>Datasheet</STRONG>, you can still use the <STRONG>OpenForm</STRONG> action to open the form in Form view.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Filter Name</strong></p></td>
@@ -52,13 +44,7 @@ The **OpenForm** action has the following arguments.
 </tr>
 <tr class="even">
 <td><p><strong>Where Condition</strong></p></td>
-<td><p>A valid SQL WHERE clause (without the word WHERE) or expression that Access uses to select records from the form's underlying table or query. If you select a filter with the <strong>Filter Name</strong> argument, Access applies this WHERE clause to the results of the filter. To open a form and restrict its records to those specified by the value of a control on another form, use the following expression: <strong>[</strong><em>fieldname</em><strong>] = Forms![</strong><em>formname</em><strong>]![</strong><em>controlname on other form</em><strong>]</strong> Replace <em>fieldname</em> with the name of a field in the underlying table or query of the form you want to open. Replace <em>formname</em> and <em>controlname on other form</em> with the name of the other form and the control on the other form that contains the value you want records in the first form to match.</p>
-
-> [!NOTE]
-> <P>The maximum length of the <STRONG>Where Condition</STRONG> argument is 255 characters. If you need to enter a more complex SQL WHERE clause longer than this, use the <STRONG>OpenForm</STRONG> method of the <STRONG>DoCmd</STRONG> object in a Visual Basic for Applications (VBA) module instead. You can enter SQL WHERE clause statements of up to 32,768 characters in VBA.</P>
-
-
-<p></p></td>
+<td><p>A valid SQL WHERE clause (without the word WHERE) or expression that Access uses to select records from the form's underlying table or query. If you select a filter with the <strong>Filter Name</strong> argument, Access applies this WHERE clause to the results of the filter. To open a form and restrict its records to those specified by the value of a control on another form, use the following expression: <strong>[</strong><em>fieldname</em><strong>] = Forms![</strong><em>formname</em><strong>]![</strong><em>controlname on other form</em><strong>]</strong> Replace <em>fieldname</em> with the name of a field in the underlying table or query of the form you want to open. Replace <em>formname</em> and <em>controlname on other form</em> with the name of the other form and the control on the other form that contains the value you want records in the first form to match.</p><p><strong>NOTE</strong>: The maximum length of the <STRONG>Where Condition</STRONG> argument is 255 characters. If you need to enter a more complex SQL WHERE clause longer than this, use the <STRONG>OpenForm</STRONG> method of the <STRONG>DoCmd</STRONG> object in a Visual Basic for Applications (VBA) module instead. You can enter SQL WHERE clause statements of up to 32,768 characters in VBA.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Data Mode</strong></p></td>
@@ -71,13 +57,7 @@ The **OpenForm** action has the following arguments.
 </tr>
 <tr class="even">
 <td><p><strong>Window Mode</strong></p></td>
-<td><p>The window mode in which the form opens. Click <strong>Normal</strong> (the form opens in the mode set by its properties), <strong>Hidden</strong> (the form is hidden), <strong>Icon</strong> (the form opens minimized as a small title bar at the bottom of the screen), or <strong>Dialog</strong> (the form's <strong>Modal</strong> and <strong>PopUp</strong> properties are set to <strong>Yes</strong>). The default is <strong>Normal</strong>.</p>
-
-> [!NOTE]
-> <P>Some <STRONG>Window Mode</STRONG> argument settings do not apply when using tabbed documents. To switch to overlapping windows:</P>
-
-
-<p></p>
+<td><p>The window mode in which the form opens. Click <strong>Normal</strong> (the form opens in the mode set by its properties), <strong>Hidden</strong> (the form is hidden), <strong>Icon</strong> (the form opens minimized as a small title bar at the bottom of the screen), or <strong>Dialog</strong> (the form's <strong>Modal</strong> and <strong>PopUp</strong> properties are set to <strong>Yes</strong>). The default is <strong>Normal</strong>.</p><p><strong>NOTE</strong>: Some <STRONG>Window Mode</STRONG> argument settings do not apply when using tabbed documents. To switch to overlapping windows:</p>
 <ol>
 <li><p>Click the File tab and then click <strong>Options</strong>.</p></li>
 <li><p>In the <strong>Access Options</strong> dialog box, click <strong>Current Database</strong>.</p></li>
@@ -97,11 +77,8 @@ A form can be modal (it must be closed or hidden before the user can perform any
 
 When you open a form with the **Window Mode** argument set to **Dialog**, Access suspends the macro until the form is closed or hidden. You can hide a form by setting its **Visible** property to **No** by using the **SetValue** action.
 
-
 > [!TIP]
-> <P>You can select a form in the Navigation Pane and drag it to a macro action row. This automatically creates an <STRONG>OpenForm</STRONG> action that opens the form in Form view.</P>
-
-
+> You can select a form in the Navigation Pane and drag it to a macro action row. This automatically creates an **OpenForm** action that opens the form in Form view.
 
 The filter and WHERE condition you apply become the setting of the form's **Filter** property.
 

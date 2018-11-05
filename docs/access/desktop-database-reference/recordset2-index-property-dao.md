@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Recordset2.Index property (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Sets or returns a value that indicates the name of the current **[Index](index-object-dao.md)** object in a table-type **[Recordset](recordset-object-dao.md)** object (Microsoft Access workspaces only).
@@ -33,21 +32,12 @@ You can create a new index for the table by creating a new **Index** object, set
 
 Records returned from a table-type **Recordset** object can be ordered only by the indexes defined for the underlying **TableDef** object. To sort records in some other order, you can open a dynaset–, snapshot–, or forward–only–type **Recordset** object by using an SQL statement with an ORDER BY clause.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>You don't have to create indexes for tables. With large, unindexed tables, accessing a specific record or creating a <STRONG>Recordset</STRONG> object can take a long time. On the other hand, creating too many indexes slows down update, append, and delete operations because all indexes are automatically updated.</P>
-> <LI>
-> <P>Records read from tables without indexes are returned in no particular sequence.</P>
-> <LI>
-> <P>The <STRONG><A href="field-attributes-property-dao.md">Attributes</A></STRONG> property of each <STRONG><A href="field-object-dao.md">Field</A></STRONG> object in the <STRONG>Index</STRONG> object determines the order of records and consequently determines the access techniques to use for that index.</P>
-> <LI>
-> <P>A unique index helps optimize finding records.</P>
-> <LI>
-> <P>Indexes don't affect the physical order of a base tableindexes affect only how the records are accessed by the table-type <STRONG>Recordset</STRONG> object when a particular index is chosen or when <STRONG>Recordset</STRONG> is opened.</P></LI></UL>
-
-
+> - You don't have to create indexes for tables. With large, unindexed tables, accessing a specific record or creating a **Recordset** object can take a long time. On the other hand, creating too many indexes slows down update, append, and delete operations because all indexes are automatically updated.
+> - Records read from tables without indexes are returned in no particular sequence.
+> - The **[Attributes](field-attributes-property-dao.md)** property of each **[Field](field-object-dao.md)** object in the **Index** object determines the order of records and consequently determines the access techniques to use for that index.
+> - A unique index helps optimize finding records.
+> - Indexes don't affect the physical order of a base tableindexes affect only how the records are accessed by the table-type **Recordset** object when a particular index is chosen or when **Recordset** is opened.
 
 ## Example
 

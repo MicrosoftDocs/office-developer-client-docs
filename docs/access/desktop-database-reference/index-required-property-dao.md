@@ -14,7 +14,6 @@ f1_categories:
 
 # Index.Required property (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Sets or returns a value that indicates whether a **[Field](field-object-dao.md)** object requires a non-Null value.
@@ -27,11 +26,8 @@ Sets or returns a value that indicates whether a **[Field](field-object-dao.md)*
 
 ## Remarks
 
-
 > [!NOTE]
-> <P>When you can set this property for either an <STRONG>Index</STRONG> object or a <STRONG>Field</STRONG> object, set it for the <STRONG>Field</STRONG> object. The validity of the property setting for a <STRONG>Field</STRONG> object is checked before that of an <STRONG>Index</STRONG> object.</P>
-
-
+> When you can set this property for either an **Index** object or a **Field** object, set it for the **Field** object. The validity of the property setting for a **Field** object is checked before that of an **Index** object.
 
 The availability of the **Required** property depends on the object that contains the [Fields](fields-collection-dao.md) collection, as shown in the following table.
 

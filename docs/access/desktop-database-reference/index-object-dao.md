@@ -1,6 +1,6 @@
 ﻿---
-title: Index Object - Data Access Objects (DAO)
-TOCTitle: Index Object
+title: Index object - Data Access Objects (DAO)
+TOCTitle: Index object
 ms:assetid: 92c32cad-ec8a-1243-1d18-83f50b269ecb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197655(v=office.15)
 ms:contentKeyID: 48546380
@@ -29,14 +29,14 @@ The Microsoft Access database engine maintains all base table indexes automatica
 When accessing a table-type **Recordset** object, you specify the order of records using the object's **Index** property. Set this property to the **Name** property setting of an existing **Index** object in the **Indexes** collection. This collection is contained by the **[TableDef](tabledef-object-dao.md)** object underlying the **Recordset** object that you're populating.
 
 > [!NOTE]
-> <P>You don't have to create indexes for a table, but for large, unindexed tables, accessing a specific record or processing joins can take a long time. Conversely, having too many indexes can slow down updates to the database as each of the table indexes is amended.</P>
+> You don't have to create indexes for a table, but for large, unindexed tables, accessing a specific record or processing joins can take a long time. Conversely, having too many indexes can slow down updates to the database as each of the table indexes is amended.
 
 The **[Attributes](field-attributes-property-dao.md)** property of each **Field** object in the index determines the order of records returned and consequently determines which access techniques to use for that index.
 
 Each **Field** object in the **Fields** collection of an **Index** object is a component of the index. To define a new **Index** object, set its properties before you append it to a collection, making the **Index** object available for subsequent use.
 
 > [!NOTE]
-> <P>You can modify the <STRONG>Name</STRONG> property setting of an existing <STRONG>Index</STRONG> object only if the <STRONG><A href="connection-updatable-property-dao.md">Updatable</A></STRONG> property setting of the containing <STRONG>TableDef</STRONG> object is <STRONG>True</STRONG>.</P>
+> You can modify the **Name** property setting of an existing **Index** object only if the **[Updatable](connection-updatable-property-dao.md)** property setting of the containing **TableDef** object is **True**.
 
 When you set a primary key for a table, the Microsoft Access database engine automatically defines it as the primary index. A primary index consists of one or more fields that uniquely identify all records in a table in a predefined order. Because the primary index field must be unique, the Microsoft Access database engine automatically sets the **Unique** property of the primary **Index** object to **True**. If the primary index consists of more than one field, each field can contain duplicate values, but the combination of values from all the indexed fields must be unique. A primary index consists of a key for the table and is always made up of the same fields as the primary key.
 
@@ -54,12 +54,9 @@ When you create a relationship that enforces referential integrity, the Microsof
 4.  Append the **Field** object to the **Fields** collection.
 
 5.  Append the **Index** object to the **Indexes** collection.
-    
 
     > [!NOTE]
-    > <P>The <STRONG>Clustered</STRONG> property is ignored for databases that use the Microsoft Access database engine, which doesn't support clustered indexes.</P>
-
-
+    > The **Clustered** property is ignored for databases that use the Microsoft Access database engine, which doesn't support clustered indexes.
 
 ## Example
 

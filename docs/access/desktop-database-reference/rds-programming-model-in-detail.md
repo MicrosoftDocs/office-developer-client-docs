@@ -57,8 +57,7 @@ The **RDS.DataControl** object also has its own methods for navigating, sorting,
 
 RDS supports two of its own events, which are independent of the ADO event model. The [onReadyStateChange](onreadystatechange-event-rds.md) event is called whenever the **RDS.DataControl** [ReadyState](readystate-property-rds.md) property changes, thus notifying you when an asynchronous operation has successfully completed, terminated, or experienced an error. The [onError](onerror-event-rds.md) event is called whenever an error occurs, even if the error occurs during an asynchronous operation.
 
-
 > [!NOTE]
-> <P>Microsoft Internet Explorer provides two additional events to RDS — <STRONG>onDataSetChanged</STRONG> (the <STRONG>Recordset</STRONG> is functional but still retrieving rows) and <STRONG>onDataSetComplete</STRONG> (the <STRONG>Recordset</STRONG> has finished retrieving rows).</P>
+> Microsoft Internet Explorer provides two additional events to RDS — **onDataSetChanged** (the **Recordset** is functional but still retrieving rows) and **onDataSetComplete** (the **Recordset** has finished retrieving rows).
 
 

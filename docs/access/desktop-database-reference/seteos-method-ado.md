@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # SetEOS method (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Sets the position that is the end of the stream.
@@ -25,8 +24,5 @@ Sets the position that is the end of the stream.
 
 Since [Write](write-method-ado.md), [WriteText](writetext-method-ado.md), and [CopyTo](copyto-method-ado.md) do not truncate any extra values in existing **Stream** objects, you can truncate these bytes or characters by setting the new end-of-stream position with **SetEOS**.
 
-
 > [!WARNING]
-> <P>If you set <STRONG>EOS</STRONG> to a position before the actual end of the stream, you will lose all data after the new <STRONG>EOS</STRONG> position.</P>
-
-
+> If you set **EOS** to a position before the actual end of the stream, you will lose all data after the new **EOS** position.

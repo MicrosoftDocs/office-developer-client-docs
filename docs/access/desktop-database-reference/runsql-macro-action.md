@@ -14,16 +14,12 @@ f1_categories:
 
 # RunSQL macro action
 
-
 **Applies to**: Access 2013, Office 2013
 
 You can use the **RunSQL** action to run a Access action query by using the corresponding SQL statement. You can also run a data-definition query.
 
-
 > [!NOTE]
-> <P>This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</P>
-
-
+> This action will not be allowed if the database is not trusted. 
 
 ## Setting
 
@@ -120,11 +116,7 @@ Access queries are actually SQL statements that are created when you design a qu
 </tbody>
 </table>
 
-
 You can also use an IN clause with these statements to modify data in another database.
 
-
 > [!NOTE]
-> <P>To run a select query or crosstab query from a macro, use the View argument of the <STRONG>OpenQuery</STRONG> action to open an existing select query or crosstab query in Datasheet view. You can also run existing action queries and SQL-specific queries in the same way.</P>
-
-
+> To run a select query or crosstab query from a macro, use the View argument of the **OpenQuery** action to open an existing select query or crosstab query in Datasheet view. You can also run existing action queries and SQL-specific queries in the same way.

@@ -14,16 +14,12 @@ f1_categories:
 
 # RenameObject macro action
 
-
 **Applies to**: Access 2013, Office 2013
 
 You can use the **RenameObject** action to rename a specified database object.
 
-
 > [!NOTE]
-> <P>This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</P>
-
-
+> This action will not be allowed if the database is not trusted.
 
 ## Setting
 
@@ -51,13 +47,7 @@ The **RenameObject** action has the following arguments.
 </tr>
 <tr class="odd">
 <td><p><strong>Old Name</strong></p></td>
-<td><p>The name of the object to be renamed. The <strong>Old Name</strong> box shows all objects in the database of the type selected by the <strong>Object Type</strong> argument. If you leave the <strong>Object Type</strong> argument blank, leave this argument blank also.</p>
-
-> [!NOTE]
-> <P>If you run a macro containing the <STRONG>Rename</STRONG> action in a library database, Microsoft Access first looks for the object with this name in the library database, and then in the current database.</P>
-
-
-<p></p></td>
+<td><p>The name of the object to be renamed. The <strong>Old Name</strong> box shows all objects in the database of the type selected by the <strong>Object Type</strong> argument. If you leave the <strong>Object Type</strong> argument blank, leave this argument blank also.</p><p><strong>NOTE</strong>: If you run a macro containing the <STRONG>Rename</STRONG> action in a library database, Microsoft Access first looks for the object with this name in the library database, and then in the current database.</p></td>
 </tr>
 </tbody>
 </table>

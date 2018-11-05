@@ -14,16 +14,12 @@ f1_categories:
 
 # QuitAccess macro action
 
-
 **Applies to**: Access 2013, Office 2013
 
 You can use the **QuitAccess** action to exit Microsoft Access. The **QuitAccess** action can also specify one of several options for saving database objects prior to exiting Access.
 
-
 > [!NOTE]
-> <P>This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</P>
-
-
+> This action will not be allowed if the database is not trusted. 
 
 ## Setting
 

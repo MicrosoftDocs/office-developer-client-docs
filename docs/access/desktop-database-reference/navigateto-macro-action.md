@@ -14,7 +14,6 @@ f1_categories:
 
 # NavigateTo macro action
 
-
 **Applies to**: Access 2013, Office 2013
 
 You can use the **NavigateTo** action to control the display of database objects in the Navigation Pane. For example, you can change how the database objects are categorized, and you can filter the objects so that only certain ones are displayed.
@@ -49,50 +48,48 @@ The **NavigateTo** action has the following arguments.
 
 ## Remarks
 
-  - This action is similar to selecting categories and groups from the title bar of the Navigation Pane.
+- This action is similar to selecting categories and groups from the title bar of the navigation pane.
 
-  - Valid **Group** arguments depend on which **Category** argument is used. If you enter an invalid **Group** argument, an error message appears.The following table contains examples of valid **Group** arguments for each **Category** argument.
+- Valid **Group** arguments depend on which **Category** argument is used. If you enter an invalid **Group** argument, an error message appears.The following table contains examples of valid **Group** arguments for each **Category** argument.
     
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th><p>Category argument</p></th>
-    <th><p>Example Group arguments</p></th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><p>Object Type</p></td>
-    <td><p>Tables; Forms; Queries; Pages; Macros; Modules</p></td>
-    </tr>
-    <tr class="even">
-    <td><p>Tables and Views</p></td>
-    <td><p>Names of specific tables in your database</p></td>
-    </tr>
-    <tr class="odd">
-    <td><p>Modified Date</p></td>
-    <td><p>Today; Yesterday; Last Month; Older</p></td>
-    </tr>
-    <tr class="even">
-    <td><p>Created Date</p></td>
-    <td><p>Today; Yesterday; Last Month; Older</p></td>
-    </tr>
-    <tr class="odd">
-    <td><p>Custom category</p></td>
-    <td><p>Names of groups you have created for the specified custom category</p></td>
-    </tr>
-    </tbody>
-    </table>
+  <table>
+  <colgroup>
+  <col style="width: 50%" />
+  <col style="width: 50%" />
+  </colgroup>
+  <thead>
+  <tr class="header">
+  <th><p>Category argument</p></th>
+  <th><p>Example Group arguments</p></th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td><p>Object Type</p></td>
+  <td><p>Tables; Forms; Queries; Pages; Macros; Modules</p></td>
+  </tr>
+  <tr class="even">
+  <td><p>Tables and Views</p></td>
+  <td><p>Names of specific tables in your database</p></td>
+  </tr>
+  <tr class="odd">
+  <td><p>Modified Date</p></td>
+  <td><p>Today; Yesterday; Last Month; Older</p></td>
+  </tr>
+  <tr class="even">
+  <td><p>Created Date</p></td>
+  <td><p>Today; Yesterday; Last Month; Older</p></td>
+  </tr>
+  <tr class="odd">
+  <td><p>Custom category</p></td>
+  <td><p>Names of groups you have created for the specified custom category</p></td>
+  </tr>
+  </tbody>
+  </table>
 
-
-  - To run the **NavigateTo** action in a VBA module, use the **NavigateTo** method of the **DoCmd** object.
-
+- To run the **NavigateTo** action in a VBA module, use the **NavigateTo** method of the **DoCmd** object.
 
 > [!NOTE]
-> <P>To navigate to the top level of a category (for example, <STRONG>All Tables</STRONG>, <STRONG>All Access Objects</STRONG>, or <STRONG>All Dates</STRONG>), you must leave the Group argument blank. For example, when the <STRONG>Category</STRONG> argument is <STRONG>Object Type</STRONG>, entering <STRONG>All Access Objects</STRONG> as a <STRONG>Group</STRONG> argument results in an error.</P>
+> To navigate to the top level of a category (for example, **All Tables**, **All Access Objects**, or **All Dates**), you must leave the Group argument blank. For example, when the **Category** argument is **Object Type**, entering **All Access Objects** as a **Group** argument results in an error.
 
 

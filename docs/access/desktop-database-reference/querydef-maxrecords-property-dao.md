@@ -14,9 +14,7 @@ f1_categories:
 
 # QueryDef.MaxRecords property (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 Sets or returns the maximum number of records to return from a query against an ODBC data source.
 
@@ -32,11 +30,8 @@ The default value is 0, indicating no limit on the number of records returned.
 
 Once the number of rows specified by **MaxRecords** is returned to your application in a **[Recordset](recordset-object-dao.md)**, the query processor will stop returning additional records even if more records would qualify for inclusion in the **Recordset**. This property is useful in situations where limited client resources prohibit management of large numbers of records.
 
-
 > [!NOTE]
-> <P>The <STRONG>MaxRecords</STRONG> property can only be used with an ODBC data source.</P>
-
-
+> The **MaxRecords** property can only be used with an ODBC data source.
 
 ## Example
 
