@@ -20,5 +20,5 @@ To run the Address Book application, follow this procedure.
 
 2.  In Microsoft Internet Explorer 4.0 or later, type the following address: **https://***webserver***/RDS/AddressBook/AddrBook.asp** where *webserver* is the name of the web server where the RDS server components are installed.
 
-3.  You can then try various scenarios in the Address Book sample application, such as searching for a person based on his or her e-mail name, listing all people with the title "Program Manager," or editing existing records. Click **Find** to fill the data grid with all the available names.
+3.  You can then try various scenarios in the Address Book sample application, such as searching for a person based on his or her email name, listing all people with the title "Program Manager," or editing existing records. Click **Find** to fill the data grid with all the available names.
 

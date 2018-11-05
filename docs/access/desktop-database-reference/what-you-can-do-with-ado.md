@@ -15,31 +15,31 @@ mtps_version: v=office.15
 
 ADO is designed to provide developers with a powerful, logical object model for programmatically accessing, editing, and updating a wide variety of data sources through OLE DB system interfaces. The most common usage of ADO is to query a table or tables in a relational database, retrieve and display the results in an application, and perhaps allow users to make and save changes to the data. Other things that can be done programmatically with ADO include:
 
-  - Querying a database using SQL and displaying the results.
+- Querying a database using SQL and displaying the results.
 
-  - Accessing information in a file store over the Internet.
+- Accessing information in a file store over the Internet.
 
-  - Manipulating messages and folders in an e-mail system.
+- Manipulating messages and folders in an email system.
 
-  - Saving data from a database into an XML file.
+- Saving data from a database into an XML file.
 
-  - Allowing a user to review and make changes to data in database tables.
+- Allowing a user to review and make changes to data in database tables.
 
-  - Creating and reusing parameterized database commands.
+- Creating and reusing parameterized database commands.
 
-  - Executing stored procedures.
+- Executing stored procedures.
 
-  - Dynamically creating a flexible structure, called a **Recordset**, to hold, navigate, and manipulate data.
+- Dynamically creating a flexible structure, called a **Recordset**, to hold, navigate, and manipulate data.
 
-  - Performing transactional database operations.
+- Performing transactional database operations.
 
-  - Filtering and sorting local copies of database information based on run-time criteria.
+- Filtering and sorting local copies of database information based on run-time criteria.
 
-  - Creating and manipulating hierarchical results from databases.
+- Creating and manipulating hierarchical results from databases.
 
-  - Binding database fields to data-aware components.
+- Binding database fields to data-aware components.
 
-  - Creating remote, disconnected **Recordsets**.
+- Creating remote, disconnected **Recordsets**.
 
 ADO must expose a wide variety of options and settings in order to provide such flexibility. Therefore it's important to take a methodical approach to learning how to use ADO in an application, breaking down each of your goals into manageable pieces.
 

@@ -10,18 +10,14 @@ mtps_version: v=office.15
 
 # Echo macro action
 
-
 **Applies to**: Access 2013, Office 2013
 
 You can use the **Echo** action to specify whether echo is turned on. For example, you can use this action to hide or show the results of a macro while it runs.
 
 ## Setting
 
-
 > [!NOTE]
-> This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.
-
-
+> This action will not be allowed if the database is not trusted.
 
 The **Echo** action has the following arguments.
 
@@ -49,7 +45,7 @@ The **Echo** action has the following arguments.
 </table>
 
 
-When runs a macro, screen updating often shows information not essential to the functioning of the macro. When you set the **Echo On** argument to **No**, the macro runs without updating the screen. When the macro finishes, Access automatically turns echo back on and repaints the window. The **No** setting for the **Echo On** argument doesn't affect the functionality of the macro or its results.
+When a macro runs, screen updating often shows information not essential to the functioning of the macro. When you set the **Echo On** argument to **No**, the macro runs without updating the screen. When the macro finishes, Access automatically turns echo back on and repaints the window. The **No** setting for the **Echo On** argument doesn't affect the functionality of the macro or its results.
 
 The **Echo** action doesn't suppress the display of modal dialog boxes, such as error messages, or pop-up forms, such as property sheets. You can use dialog boxes and pop-up forms to gather or display information, even if echo is turned off. To suppress all message or dialog boxes except error message boxes and dialog boxes that require the user to enter information, use the **SetWarnings** action.
 
@@ -61,7 +57,7 @@ To run the **Echo** action in a Visual Basic for Applications (VBA) module, use 
 
 ## Examples
 
-**Set the value of a control by using a macro**
+### Set the value of a control by using a macro
 
 The following macro opens the Add Products form from a button on the Suppliers form. It shows the use of the **Echo**, **CloseWindow**, **OpenForm**, **SetValue**, and **GoToControl** actions. The **SetValue** action sets the Supplier ID control on the Products form to the current supplier on the Suppliers form. The **GoToControl** action then moves the focus to the Category ID field, where you can begin to enter data for the new product. This macro should be attached to the Add Products button on the Suppliers form.
 
@@ -108,7 +104,7 @@ The following macro opens the Add Products form from a button on the Suppliers f
 </table>
 
 
-**Synchronize forms by using a macro**
+### Synchronize forms by using a macro
 
 The following macro opens the Product List form in the lower-right corner of the Suppliers form, displaying the current supplier's products. It shows the use of the **Echo**, **MessageBox**, **GoToControl**, **StopMacro**, **OpenForm**, and **MoveAndSizeWindow** actions. It also shows the use of a conditional expression with the **MessageBox**, **GoToControl**, and **StopMacro** actions. This macro should be attached to the Review Products button on the Suppliers form.
 
