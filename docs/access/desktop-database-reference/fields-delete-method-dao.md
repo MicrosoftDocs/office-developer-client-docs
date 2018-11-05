@@ -14,7 +14,6 @@ f1_categories:
 
 # Fields.Delete method (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Deletes a **[Field](field-object-dao.md)** from the **[Fields](fields-collection-dao.md)** collection.
@@ -25,7 +24,7 @@ Deletes a **[Field](field-object-dao.md)** from the **[Fields](fields-collection
 
 *expression* A variable that represents a **Fields** object.
 
-### Parameters
+## Parameters
 
 <table>
 <colgroup>
@@ -37,14 +36,14 @@ Deletes a **[Field](field-object-dao.md)** from the **[Fields](fields-collection
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Required/Optional</p></th>
-<th><p>Data Type</p></th>
+<th><p>Required/optional</p></th>
+<th><p>Data type</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Name</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Required</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>The field to delete.</p></td>

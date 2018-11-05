@@ -40,7 +40,7 @@ If there is no current record when you call **AppendChunk** on a **Field** objec
 > [!NOTE]
 > The **AppendChunk** method does not operate on **Field** objects of a [Record](record-object-ado.md) object. It does not perform any operation and will produce a run-time error.
 
-### Parameter
+### Parameters
 
 If the **adParamLong** bit in the **Attributes** property of a **Parameter** object is set to true, you can use the **AppendChunk** method for that parameter.
 

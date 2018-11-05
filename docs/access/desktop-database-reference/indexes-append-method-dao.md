@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Indexes.Append method (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Adds a new **Index** to the **Indexes** collection.
@@ -21,7 +20,7 @@ Adds a new **Index** to the **Indexes** collection.
 
 *expression* A variable that represents an **Indexes** object.
 
-### Parameters
+## Parameters
 
 <table>
 <colgroup>
@@ -33,14 +32,14 @@ Adds a new **Index** to the **Indexes** collection.
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Required/Optional</p></th>
-<th><p>Data Type</p></th>
+<th><p>Required/optional</p></th>
+<th><p>Data type</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Object</p></td>
+<td><p><em>Object</em></p></td>
 <td><p>Required</p></td>
 <td><p><strong>Object</strong></p></td>
 <td><p>An object variable that represents the item being appended to the collection.</p></td>

@@ -20,7 +20,7 @@ Locates the next record in a dynaset- or snapshot-type **[Recordset](recordset-o
 
 *expression* A variable that represents a **Recordset** object.
 
-### Parameters
+## Parameters
 
 <table>
 <colgroup>
@@ -32,14 +32,14 @@ Locates the next record in a dynaset- or snapshot-type **[Recordset](recordset-o
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Required/Optional</p></th>
-<th><p>Data Type</p></th>
+<th><p>Required/optional</p></th>
+<th><p>Data type</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Criteria</p></td>
+<td><p><em>Criteria</em></p></td>
 <td><p>Required</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>A String used to locate the record. It is like the WHERE clause in an SQL statement, but without the word WHERE.</p></td>
@@ -114,7 +114,7 @@ You should use the U.S. date format (month-day-year) when you search for fields 
 If criteria is composed of a string concatenated with a non-integer value, and the system parameters specify a non-U.S. decimal character such as a comma (for example, strSQL = "PRICE \> " & lngPrice, and lngPrice = 125,50), an error occurs when you try to call the method. This is because during concatenation, the number will be converted to a string using your system's default decimal character, and Microsoft Access SQL only accepts U.S. decimal characters.
 
 > [!NOTE]
-> - For best performance, the *criteria* should be in either the form "*field* = *value*" where *field* is an indexed field in the underlying base table, or "*field* LIKE *prefix*" where *field* is an indexed field in the underlying base table and *prefix* is a prefix search string (for example, "ART*" ).
+> - For best performance, the *criteria* should be in either the form "*field* = *value*" where *field* is an indexed field in the underlying base table, or "*field* LIKE *prefix*" where *field* is an indexed field in the underlying base table and *prefix* is a prefix search string (for example, "ART*").
 > 
 > - In general, for equivalent types of searches, the **Seek** method provides better performance than the **Find** methods. This assumes that table-type **Recordset** objects alone can satisfy your needs.
 

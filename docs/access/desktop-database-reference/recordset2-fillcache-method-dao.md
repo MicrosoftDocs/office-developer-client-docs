@@ -24,7 +24,7 @@ Fills all or a part of a local cache for a **Recordset** object that contains da
 
 *expression* A variable that represents a **Recordset2** object.
 
-### Parameters
+## Parameters
 
 <table>
 <colgroup>
@@ -36,20 +36,20 @@ Fills all or a part of a local cache for a **Recordset** object that contains da
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Required/Optional</p></th>
-<th><p>Data Type</p></th>
+<th><p>Required/optional</p></th>
+<th><p>Data type</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Rows</p></td>
+<td><p><em>Rows</em></p></td>
 <td><p>Optional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>A <strong>Variant</strong> (<strong>Integer</strong> subtype) that specifies the number of rows to store in the cache. If you omit this argument, the value is determined by the <strong><a href="recordset2-cachesize-property-dao.md">CacheSize</a></strong> property setting.</p></td>
 </tr>
 <tr class="even">
-<td><p>StartBookmark</p></td>
+<td><p><em>StartBookmark</em></p></td>
 <td><p>Optional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>A <strong>Variant</strong> (<strong>String</strong> subtype) that specifies a bookmark. The cache is filled starting from the record indicated by this bookmark. If you omit this argument, the cache is filled starting from the record indicated by the <strong><a href="recordset2-cachestart-property-dao.md">CacheStart</a></strong> property.</p></td>
@@ -70,15 +70,9 @@ If rows and startbookmark create a range of records that is partially or entirel
 
 If **FillCache** requests more records than the number remaining in the remote data source, the Microsoft Access database engine retrieves only the remaining records, and no error occurs.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Records retrieved from the cache don't reflect concurrent changes that other users made to the source data.</P>
-> <LI>
-> <P><STRONG>FillCache</STRONG> only retrieves records not already cached. To force an update of all the cached data, set the <STRONG>CacheSize</STRONG> property of the <STRONG>Recordset</STRONG> to 0, reset it to the size of the cache you originally requested, and then use <STRONG>FillCache</STRONG>.</P></LI></UL>
-
-
+> - Records retrieved from the cache don't reflect concurrent changes that other users made to the source data.
+> - **FillCache** only retrieves records not already cached. To force an update of all the cached data, set the **CacheSize** property of the **Recordset** to 0, reset it to the size of the cache you originally requested, and then use **FillCache**.
 
 ## Example
 

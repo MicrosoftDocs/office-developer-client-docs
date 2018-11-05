@@ -24,7 +24,7 @@ Creates a new **[Field](field-object-dao.md)** object (Microsoft Access workspac
 
 *expression* A variable that represents a **TableDef** object.
 
-### Parameters
+## Parameters
 
 <table>
 <colgroup>
@@ -36,26 +36,26 @@ Creates a new **[Field](field-object-dao.md)** object (Microsoft Access workspac
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Required/Optional</p></th>
-<th><p>Data Type</p></th>
+<th><p>Required/optional</p></th>
+<th><p>Data type</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Name</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Optional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>A String that uniquely names the new <strong>Field</strong> object. See the <strong><a href="connection-name-property-dao.md">Name</a></strong> property for details on valid <strong>Field</strong> names.</p></td>
 </tr>
 <tr class="even">
-<td><p>Type</p></td>
+<td><p><em>Type</em></p></td>
 <td><p>Optional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>A constant that determines the data type of the new <strong>Field</strong> object. See the <strong><a href="field-type-property-dao.md">Type</a></strong> property for valid data types.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Size</p></td>
+<td><p><em>Size</em></p></td>
 <td><p>Optional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>An Integer that indicates the maximum size, in bytes, of a <strong>Field</strong> object that contains text. See the <strong><a href="field-size-property-dao.md">Size</a></strong> property for valid size values. This argument is ignored for numeric and fixed-width fields.</p></td>
@@ -64,7 +64,7 @@ Creates a new **[Field](field-object-dao.md)** object (Microsoft Access workspac
 </table>
 
 
-### Return value
+## Return value
 
 Field
 

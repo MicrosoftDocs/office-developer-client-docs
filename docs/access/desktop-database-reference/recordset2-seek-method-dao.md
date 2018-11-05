@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Recordset2.Seek method (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Locates the record in an indexed table-type **Recordset** object that satisfies the specified criteria for the current index and makes that record the current record (Microsoft Access workspaces only).
@@ -21,7 +20,7 @@ Locates the record in an indexed table-type **Recordset** object that satisfies 
 
 *expression* A variable that represents a **Recordset2** object.
 
-### Parameters
+## Parameters
 
 <table>
 <colgroup>
@@ -33,20 +32,20 @@ Locates the record in an indexed table-type **Recordset** object that satisfies 
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Required/Optional</p></th>
-<th><p>Data Type</p></th>
+<th><p>Required/optional</p></th>
+<th><p>Data type</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Comparison</p></td>
+<td><p><em>Comparison</em></p></td>
 <td><p>Required</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>One of the following string expressions: &lt;, &lt;=, =, &gt;=, or &gt;.</p></td>
 </tr>
 <tr class="even">
-<td><p>Key1, Key2...Key13</p></td>
+<td><p><em>Key1, Key2...Key13</em></p></td>
 <td><p>Required</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>One or more values corresponding to fields in the <strong>Recordset</strong> object's current index, as specified by its <strong>Index</strong> property setting. You can use up to 13 key arguments.</p></td>

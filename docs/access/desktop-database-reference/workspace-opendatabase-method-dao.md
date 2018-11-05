@@ -20,7 +20,7 @@ Opens a specified database in a **[Workspace](workspace-object-dao.md)** object 
 
 *expression* A variable that represents a **Workspace** object.
 
-### Parameters
+## Parameters
 
 <table>
 <colgroup>
@@ -32,32 +32,32 @@ Opens a specified database in a **[Workspace](workspace-object-dao.md)** object 
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Required/Optional</p></th>
-<th><p>Data Type</p></th>
+<th><p>Required/optional</p></th>
+<th><p>Data type</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Name</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Required</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>the name of an existing Microsoft Access database engine database file, or the data source name (DSN) of an ODBC data source. See the <strong><a href="connection-name-property-dao.md">Name</a></strong> property for more information about setting this value.</p></td>
 </tr>
 <tr class="even">
-<td><p>Options</p></td>
+<td><p><em>Options</em></p></td>
 <td><p>Optional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Sets various options for the database, as specified in Remarks.</p></td>
 </tr>
 <tr class="odd">
-<td><p>ReadOnly</p></td>
+<td><p><em>ReadOnly</em></p></td>
 <td><p>Optional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p><strong>True</strong> if you want to open the database with read-only access, or <strong>False</strong> (default) if you want to open the database with read/write access.</p></td>
 </tr>
 <tr class="even">
-<td><p>Connect</p></td>
+<td><p><em>Connect</em></p></td>
 <td><p>Optional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Specifies various connection information, including passwords.</p></td>
@@ -66,7 +66,7 @@ Opens a specified database in a **[Workspace](workspace-object-dao.md)** object 
 </table>
 
 
-### Return value
+## Return value
 
 Database
 
@@ -97,6 +97,7 @@ You can use the following values for the options argument.
 </tbody>
 </table>
 
+<br/>
 
 When you open a database, it is automatically added to the **Databases** collection.
 

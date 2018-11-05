@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Recordset2.CancelUpdate method (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Cancels any pending updates for a **[Recordset](recordset-object-dao.md)** object.
@@ -21,7 +20,7 @@ Cancels any pending updates for a **[Recordset](recordset-object-dao.md)** objec
 
 *expression* A variable that represents a **Recordset2** object.
 
-### Parameters
+## Parameters
 
 <table>
 <colgroup>
@@ -33,22 +32,17 @@ Cancels any pending updates for a **[Recordset](recordset-object-dao.md)** objec
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Required/Optional</p></th>
-<th><p>Data Type</p></th>
+<th><p>Required/optional</p></th>
+<th><p>Data type</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>UpdateType</p></td>
+<td><p><em>UpdateType</em></p></td>
 <td><p>Optional</p></td>
 <td><p><strong>Long</strong></p></td>
-<td><p>Set to one of the <strong><a href="updatetypeenum-enumeration-dao.md">UpdateTypeEnum</a></strong> values.</p>
-
-> [!NOTE]
-> <P>The <EM>dbUpdateRegular</EM> and <EM>dbUpdateBatch</EM> values are valid only if batch updating is enabled.</P>
-
-
+<td><p>Set to one of the <strong><a href="updatetypeenum-enumeration-dao.md">UpdateTypeEnum</a></strong> values.</p><p><strong>NOTE</strong>: The <EM>dbUpdateRegular</EM> and <EM>dbUpdateBatch</EM> values are valid only if batch updating is enabled.</p>
 </td>
 </tr>
 </tbody>
@@ -61,11 +55,8 @@ You can use the **CancelUpdate** method to cancel any pending updates resulting 
 
 Check the **[EditMode](recordset2-editmode-property-dao.md)** property of the **Recordset** to determine if there is a pending operation that can be canceled.
 
-
 > [!NOTE]
-> <P>Using the <STRONG>CancelUpdate</STRONG> method has the same effect as moving to another record without using the <STRONG><A href="recordset2-update-method-dao.md">Update</A></STRONG> method, except that the current record doesn't change, and various properties, such as <STRONG><A href="recordset2-bof-property-dao.md">BOF</A></STRONG> and <STRONG><A href="recordset2-eof-property-dao.md">EOF</A></STRONG>, aren't updated.</P>
-
-
+> Using the **CancelUpdate** method has the same effect as moving to another record without using the **[Update](recordset2-update-method-dao.md)** method, except that the current record doesn't change, and various properties, such as **[BOF](recordset2-bof-property-dao.md)** and **[EOF](recordset2-eof-property-dao.md)**, aren't updated.
 
 ## Example
 

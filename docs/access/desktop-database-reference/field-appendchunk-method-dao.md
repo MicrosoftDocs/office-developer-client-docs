@@ -20,7 +20,7 @@ Appends data from a string expression to a Memo or Long Binary **[Field](field-o
 
 *expression* A variable that represents a **Field** object.
 
-### Parameters
+## Parameters
 
 <table>
 <colgroup>
@@ -32,14 +32,14 @@ Appends data from a string expression to a Memo or Long Binary **[Field](field-o
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Required/Optional</p></th>
-<th><p>Data Type</p></th>
+<th><p>Required/optional</p></th>
+<th><p>Data type</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Val</p></td>
+<td><p><em>Val</em></p></td>
 <td><p>Required</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>A Variant (String subtype) expression or variable containing the data you want to append to the <strong>Field</strong> object.</p></td>

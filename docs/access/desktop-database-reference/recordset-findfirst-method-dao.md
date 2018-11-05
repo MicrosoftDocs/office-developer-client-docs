@@ -20,7 +20,7 @@ Locates the first record in a dynaset- or snapshot-type **Recordset** object tha
 
 *expression* A variable that represents a **Recordset** object.
 
-### Parameters
+## Parameters
 
 <table>
 <colgroup>
@@ -32,14 +32,14 @@ Locates the first record in a dynaset- or snapshot-type **Recordset** object tha
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Required/Optional</p></th>
-<th><p>Data Type</p></th>
+<th><p>Required/optional</p></th>
+<th><p>Data type</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Criteria</p></td>
+<td><p><em>Criteria</em></p></td>
 <td><p>Required</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>A String used to locate the record. It is like the WHERE clause in an SQL statement, but without the word WHERE.</p></td>

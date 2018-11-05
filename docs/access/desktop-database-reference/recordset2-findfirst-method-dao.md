@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Recordset2.FindFirst method (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Locates the first record in a dynaset- or snapshot-type **Recordset** object that satisfies the specified criteria and makes that record the current record (Microsoft Access workspaces only).
@@ -21,7 +20,7 @@ Locates the first record in a dynaset- or snapshot-type **Recordset** object tha
 
 *expression* A variable that represents a **Recordset2** object.
 
-### Parameters
+## Parameters
 
 <table>
 <colgroup>
@@ -33,14 +32,14 @@ Locates the first record in a dynaset- or snapshot-type **Recordset** object tha
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Required/Optional</p></th>
-<th><p>Data Type</p></th>
+<th><p>Required/optional</p></th>
+<th><p>Data type</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Criteria</p></td>
+<td><p><em>Criteria</em></p></td>
 <td><p>Required</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>A String used to locate the record. It is like the WHERE clause in an SQL statement, but without the word WHERE.</p></td>
@@ -112,12 +111,8 @@ rstEmployees.FindFirst "HireDate > #" _
 
 If criteria is composed of a string concatenated with a non-integer value, and the system parameters specify a non-U.S. decimal character such as a comma (for example, strSQL = "PRICE \> " & lngPrice, and lngPrice = 125,50), an error occurs when you try to call the method. This is because during concatenation, the number will be converted to a string using your system's default decimal character, and Microsoft Access SQL only accepts U.S. decimal characters.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>For best performance, the <EM>criteria</EM> should be in either the form "<EM>field</EM> = <EM>value</EM>" where <EM>field</EM> is an indexed field in the underlying base table, or "<EM>field</EM> LIKE <EM>prefix</EM>" where <EM>field</EM> is an indexed field in the underlying base table and <EM>prefix</EM> is a prefix search string (for example, "ART*" ).</P>
-> <LI>
-> <P>In general, for equivalent types of searches, the <STRONG>Seek</STRONG> method provides better performance than the <STRONG>Find</STRONG> methods. This assumes that table-type <STRONG>Recordset</STRONG> objects alone can satisfy your needs.</P></LI></UL>
+> - For best performance, the *criteria** should be in either the form "*field* = *value*" where *field* is an indexed field in the underlying base table, or "*field* LIKE *prefix*" where *field* is an indexed field in the underlying base table and *prefix* is a prefix search string (for example, "ART*").
+> - In general, for equivalent types of searches, the **Seek** method provides better performance than the **Find** methods. This assumes that table-type **Recordset** objects alone can satisfy your needs.
 
 

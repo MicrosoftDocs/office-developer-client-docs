@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Recordset2.GetRows method (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Retrieves multiple rows from a **[Recordset](recordset-object-dao.md)** object.
@@ -21,7 +20,7 @@ Retrieves multiple rows from a **[Recordset](recordset-object-dao.md)** object.
 
 *expression* A variable that represents a **Recordset2** object.
 
-### Parameters
+## Parameters
 
 <table>
 <colgroup>
@@ -33,14 +32,14 @@ Retrieves multiple rows from a **[Recordset](recordset-object-dao.md)** object.
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Required/Optional</p></th>
-<th><p>Data Type</p></th>
+<th><p>Required/optional</p></th>
+<th><p>Data type</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>NumRows</p></td>
+<td><p><em>NumRows</em></p></td>
 <td><p>Optional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>The number of rows to retrieve.</p></td>
@@ -49,29 +48,29 @@ Retrieves multiple rows from a **[Recordset](recordset-object-dao.md)** object.
 </table>
 
 
-### Return value
+## Return value
 
 Variant
 
 ## Remarks
 
-Use the **GetRows** method to copy records from a **Recordset**. **GetRows** returns a two-dimensional array. The first subscript identifies the field and the second identifies the row number. For example, intField represents the field, and intRecord identifies the row number:
+Use the **GetRows** method to copy records from a **Recordset**. **GetRows** returns a two-dimensional array. The first subscript identifies the field and the second identifies the row number. For example, `intField` represents the field, and `intRecord` identifies the row number:
 
-avarRecords(intField, intRecord)
+`avarRecords(intField, intRecord)`
 
 To get the first field value in the second row returned, use code like the following:
 
-field1 = avarRecords(0,1)
+`field1 = avarRecords(0,1)`
 
 To get the second field value in the first row, use code like the following:
 
-field2 = avarRecords(1,0)
+`field2 = avarRecords(1,0)`
 
 The avarRecords variable automatically becomes a two-dimensional array when **GetRows** returns data.
 
 If you request more rows than are available, then **GetRows** returns only the number of available rows. You can use the Visual Basic for Applications **UBound** function to determine how many rows **GetRows** actually retrieved, because the array is sized to fit the number of returned rows. For example, if you returned the results into a **Variant** called varA, you could use the following code to determine how many rows were actually returned:
 
-numReturned = UBound(varA,2) + 1
+`numReturned = UBound(varA,2) + 1`
 
 You need to use "+ 1" because the first row returned is in the 0 element of the array. The number of rows that you can retrieve is constrained by the amount of available memory. You shouldn't use **GetRows** to retrieve an entire table into an array if it is large.
 

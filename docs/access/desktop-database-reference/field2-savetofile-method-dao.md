@@ -28,7 +28,7 @@ Version added: Access 2007
 
 *expression* A variable that represents a **Field2** object.
 
-### Parameters
+## Parameters
 
 <table>
 <colgroup>
@@ -40,14 +40,14 @@ Version added: Access 2007
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Required/Optional</p></th>
-<th><p>Data Type</p></th>
+<th><p>Required/optional</p></th>
+<th><p>Data type</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>FileName</p></td>
+<td><p><em>FileName</em></p></td>
 <td><p>Required</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>The fully qualified path of the file to which you want to save the attachment.</p></td>
