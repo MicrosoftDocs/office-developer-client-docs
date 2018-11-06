@@ -16,7 +16,7 @@ f1_categories:
 
 **Applies to**: Access 2013, Office 2013
 
-The same database driver is used for both Text Data sources and for HTML data sources.
+The same database driver is used for both text data sources and for HTML data sources.
 
 When you install the Text Data Source database driver, the Setup program writes a set of default values to the Microsoft Windows Registry in the Engines and ISAM Formats subkeys. You should not modify these settings directly; use the setup program for your application to add, remove, or change these settings. The following sections describe initialization and ISAM Format settings for the Text Data Source database driver.
 
@@ -39,6 +39,8 @@ The **Access Connectivity Engine\\ISAM Formats\\Text folder** includes initializ
     
     ExportCurrencySymbols=Yes
 ```
+
+<br/>
 
 The Microsoft Access database engine uses the Text folder entries as follows.
 

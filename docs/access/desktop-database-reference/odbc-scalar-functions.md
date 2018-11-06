@@ -14,20 +14,17 @@ f1_categories:
 
 # ODBC scalar functions
 
-
 **Applies to**: Access 2013, Office 2013
 
-Microsoft Access SQL supports the use of the ODBC defined syntax for scalar functions. For example, the query:
+Microsoft Access SQL supports the use of the ODBC defined syntax for scalar functions. 
 
-SELECT DAILYCLOSE, DAILYCHANGE FROM DAILYQUOTE WHERE {fn ABS(DAILYCHANGE)} \> 5
-
-Would return all rows where the absolute value of the change in the price of a stock was greater than five.
+For example, the query `SELECT DAILYCLOSE, DAILYCHANGE FROM DAILYQUOTE WHERE {fn ABS(DAILYCHANGE)} > 5` would return all rows where the absolute value of the change in the price of a stock was greater than five.
 
 A subset of the ODBC defined scalar functions is supported. The following table lists the functions that are supported.
 
 For a description of the arguments and a complete explanation of the escape syntax for including functions in a SQL statement, see the ODBC documentation.
 
-## String Functions
+## String functions
 
 <table>
 <colgroup>
@@ -65,7 +62,7 @@ For a description of the arguments and a complete explanation of the escape synt
 </table>
 
 
-## Numeric Functions
+## Numeric functions
 
 <table>
 <colgroup>
@@ -103,7 +100,7 @@ For a description of the arguments and a complete explanation of the escape synt
 </table>
 
 
-## Time & Date Functions
+## Time & Date functions
 
 <table>
 <colgroup>
@@ -141,7 +138,7 @@ For a description of the arguments and a complete explanation of the escape synt
 </table>
 
 
-## Data Type Conversion
+## Data type conversion
 
 <table>
 <colgroup>

@@ -1,6 +1,6 @@
 ﻿---
-title: Initializing the Microsoft Excel Driver
-TOCTitle: Initializing the Microsoft Excel Driver
+title: Initializing the Microsoft Excel driver
+TOCTitle: Initializing the Microsoft Excel driver
 ms:assetid: 06c7f823-8e74-0811-cc00-e6b32075ef11
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844939(v=office.15)
 ms:contentKeyID: 48543054
@@ -12,14 +12,13 @@ f1_categories:
 - Office.Version=v15
 ---
 
-# Initializing the Microsoft Excel Driver
-
+# Initializing the Microsoft Excel driver
 
 **Applies to**: Access 2013 | Office 2013
 
 When you install the Excel driver, the Setup program writes a set of default values to the Windows Registry in the Engines and ISAM Formats subkeys. You should not modify these settings directly; use the setup program for your application to add, remove, or change these settings. The following sections describe initialization and ISAM Format settings for the Microsoft Excel database driver.
 
-## Excel Initialization Settings
+## Excel initialization settings
 
 The **Access Connectivity Engine\\Engines\\Excel** folder includes initialization settings for the Aceexcl.dll driver, used for external access to Microsoft Excel worksheets. Typical settings for the entries in this folder are shown in the following example.
 
@@ -72,6 +71,7 @@ The Microsoft Access database engine uses the Excel folder entries as follows.
 </tbody>
 </table>
 
+<br/>
 
 The **Access Connectivity Engine\\Engines\\Excel 8.0** folder contains the following entries, which apply to Microsoft Excel 97.
 
