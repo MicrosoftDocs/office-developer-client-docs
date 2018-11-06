@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # ForEachRecord data block
 
-
 **Applies to**: Access 2013, Office 2013
 
 A **ForEachRecord** data block repeats a set of statements for each record in a domain.
@@ -39,13 +38,7 @@ The **ForEachRecord** action has the following arguments.
 <tr class="odd">
 <td><p><strong>In</strong></p></td>
 <td><p>Yes</p></td>
-<td><p>A string that identifies the domain of records to operate on. The <em>In</em> argument can contain the name of the table, a select query, or a SQL statement.</p>
-
-> [!NOTE]
-> The specified domain cannot include data stored in a linked table or ODBC data source.
-
-
-<p></p></td>
+<td><p>A string that identifies the domain of records to operate on. The <em>In</em> argument can contain the name of the table, a select query, or a SQL statement.</p><p><strong>NOTE</strong>: The specified domain cannot include data stored in a linked table or ODBC data source.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Where Condition</strong></p></td>

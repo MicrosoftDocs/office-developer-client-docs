@@ -31,7 +31,7 @@ In this scenario, it is assumed that you have Microsoft Visual Basic 6.0 or late
 
 2.  From the **Project** menu, choose **References**.
 
-3.  Select **"Microsoft ActiveX Data Objects 2.5 Library**" and click **OK**.
+3.  Select **Microsoft ActiveX Data Objects 2.5 Library**, and then click **OK**.
 
 ### Insert controls on the main form
 

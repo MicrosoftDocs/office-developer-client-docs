@@ -24,7 +24,7 @@ A chapter-alias may be fully qualified, consisting of each chapter column name l
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Aggregate Functions</p></th>
+<th><p>Aggregate functions</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -55,17 +55,12 @@ A chapter-alias may be fully qualified, consisting of each chapter column name l
 </tr>
 <tr class="odd">
 <td><p>ANY(<em>chapter-alias</em>.<em>column-name</em>)</p></td>
-<td><p>A value of the specified column. ANY has a predictable value only when the value of the column is the same for all rows in the chapter.</p>
-
-> [!NOTE]
-> If the column does not contain the same value for all of the rows in the chapter, the SHAPE command arbitrarily returns one of the values to be the value of the ANY function.
-
-
-<p></p></td>
+<td><p>A value of the specified column. ANY has a predictable value only when the value of the column is the same for all rows in the chapter.</p><p><strong>NOTE</strong>: If the column does not contain the same value for all of the rows in the chapter, the SHAPE command arbitrarily returns one of the values to be the value of the ANY function.</p></td>
 </tr>
 </tbody>
 </table>
 
+<br/>
 
 <table>
 <colgroup>
@@ -86,6 +81,7 @@ A chapter-alias may be fully qualified, consisting of each chapter column name l
 </tbody>
 </table>
 
+<br/>
 
 <table>
 <colgroup>
@@ -106,6 +102,7 @@ A chapter-alias may be fully qualified, consisting of each chapter column name l
 </tbody>
 </table>
 
+<br/>
 
 The *field-type* passed with the NEW keyword can be any of the following data types.
 

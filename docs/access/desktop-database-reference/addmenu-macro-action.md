@@ -50,12 +50,7 @@ The **AddMenu** action has the following arguments.
 <tr class="even">
 <td><p><strong>Menu Macro Name</strong></p></td>
 <td><p>The name of the macro group that contains the macros for the menu's commands. This is a required argument.</p>
-
-> [!NOTE]
-> If you run a macro containing the **AddMenu** action in a library database, Microsoft Office Access 2007 looks for the macro group with this name in the current database only.
-
-
-<p></p></td>
+<p><strong>NOTE</strong>: If you run a macro containing the <strong>AddMenu</strong> action in a library database, Microsoft Office Access 2007 looks for the macro group with this name in the current database only.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Status Bar Text</strong></p></td>

@@ -14,16 +14,12 @@ f1_categories:
 
 # After Delete macro event
 
-
 **Applies to**: Access 2013, Office 2013
 
 The **After Delete** event occurs after a record is deleted.
 
-
 > [!NOTE]
 > The **After Delete** event is available only in Data Macros.
-
-
 
 ## Remarks
 

@@ -39,13 +39,7 @@ The **ApplyFilter** action has the following arguments.
 <tbody>
 <tr class="odd">
 <td><p>Filter Name</p></td>
-<td><p>The name of a filter or query that restricts or sorts the records of the table, form, or report. You can enter the name of either an existing query or a filter that has been saved as a query in the <strong>Filter Name</strong> box in the <strong>Action Arguments</strong> section of the <strong>Macro Builder</strong> pane.</p>
-
-> [!NOTE]
-> When you are using this action to apply a server filter, the Filter Name argument must be blank.
-
-
-<p></p></td>
+<td><p>The name of a filter or query that restricts or sorts the records of the table, form, or report. You can enter the name of either an existing query or a filter that has been saved as a query in the <strong>Filter Name</strong> box in the <strong>Action Arguments</strong> section of the <strong>Macro Builder</strong> pane.</p><p><strong>NOTE</strong>: When you are using this action to apply a server filter, the Filter Name argument must be blank.</p></td>
 </tr>
 <tr class="even">
 <td><p>Where Condition</p></td>

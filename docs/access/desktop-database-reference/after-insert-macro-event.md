@@ -14,16 +14,12 @@ f1_categories:
 
 # After Insert macro event
 
-
 **Applies to**: Access 2013, Office 2013
 
 The **After Insert** event occurs after a record is added.
 
-
 > [!NOTE]
 > The **After Insert** event is available only in Data Macros.
-
-
 
 ## Remarks
 
