@@ -20,8 +20,8 @@ If your application cannot work correctly with the default functionality of the 
 
 You can customize the settings in the Windows Registry in four different ways:
 
-- [Using Regedit.exe to overwrite the default settings](https://msdn.microsoft.com/library/ff193205\(v=office.15\))
-- [Creating a portion in your application's registry tree to manage the settings](https://msdn.microsoft.com/library/ff836342\(v=office.15\))
-- [Using the SetOption method from DAO](https://msdn.microsoft.com/library/ff194471\(v=office.15\))
-- [Using the Connection properties in the Microsoft OLE DB Provider for Access](https://msdn.microsoft.com/library/ff196356\(v=office.15\))
+- [Using Regedit.exe to overwrite the default settings](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/using-regedit-exe-to-overwrite-the-default-settings)
+- [Creating a portion in your application's registry tree to manage the settings](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/creating-a-portion-in-your-application-s-registry-tree-to-manage-the-settings)
+- [Using the SetOption method from DAO](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/using-the-setoption-method-from-dao)
+- [Using the Connection properties in the Microsoft OLE DB Provider for Access](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/using-the-connection-properties-in-the-microsoft-ole-db-provider-for-access)
 

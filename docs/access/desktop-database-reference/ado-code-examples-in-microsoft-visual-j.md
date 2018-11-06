@@ -71,8 +71,8 @@ Use the following code examples to learn how to use the ADO methods and properti
 - [State property example](state-property-example-vj.md)
 - [Status property example](status-property-example-vj.md)
 - [StayInSync property example](stayinsync-property-example-vj.md)
-- [Type property example (Fields)](https://msdn.microsoft.com/library/jj250207\(v=office.15\))
-- [Type property example (Property)](https://msdn.microsoft.com/library/jj249182\(v=office.15\))
+- [Type property example (Fields)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-example-fieldvj-plus-plus)
+- [Type property example (Property)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-example-propertyvj-plus-plus)
 - [Value property example](value-property-example-vj.md)
 - [Version property example](version-property-example-vj.md)
 

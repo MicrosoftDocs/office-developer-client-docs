@@ -67,13 +67,7 @@ For a **QueryDef** object, the possible settings and return values are shown in 
 </tr>
 <tr class="even">
 <td><p><strong>dbQProcedure</strong></p></td>
-<td><p>Procedure (ODBCDirect workspaces only)</p>
-
-> [!NOTE]
-> ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.
-
-
-<p></p></td>
+<td><p>Procedure (ODBCDirect workspaces only)</p><p><strong>NOTE</strong>: ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbQSelect</strong></p></td>

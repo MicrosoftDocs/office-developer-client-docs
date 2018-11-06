@@ -12,7 +12,7 @@ mtps_version: v=office.15
 
 **Applies to**: Access 2013, Office 2013
 
-The Visual C++ section of [ADO Event Instantiation by Language](https://msdn.microsoft.com/library/jj250244\(v=office.15\)) gives a general description of how to instantiate the ADO event model. The following is a specific example of instantiating the event model within the environment created by the **\#import** directive.
+The Visual C++ section of [ADO Event Instantiation by Language](https://docs.microsoft.com/office/client-developer/access/desktop-database-reference/ado-event-instantiation-by-language-ado) gives a general description of how to instantiate the ADO event model. The following is a specific example of instantiating the event model within the environment created by the **\#import** directive.
 
 The general description uses **adoint.h** as a reference for method signatures. However, a few details in the general description change slightly as a result of using the **\#import** directive:
 

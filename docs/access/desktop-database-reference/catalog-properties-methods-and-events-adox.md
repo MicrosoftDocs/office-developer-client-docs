@@ -25,7 +25,7 @@ mtps_version: v=office.15
 
 - [Create method](create-method-adox.md)
 - [GetObjectOwner method](getobjectowner-method-adox.md)
-- [SetObjectOwner method](https://msdn.microsoft.com/library/jj249006\(v=office.15\))
+- [SetObjectOwner method](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox)
 
 ## Events
 

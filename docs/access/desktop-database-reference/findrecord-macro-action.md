@@ -53,11 +53,7 @@ The **FindRecord** action has the following arguments.
 <tr class="odd">
 <td><p><strong>Search As Formatted</strong></p></td>
 <td><p>Specifies whether the search includes formatted data. Click <strong>Yes</strong> (Microsoft Office Access 2007 searches for the data as it is formatted and displayed in the field) or <strong>No</strong> (Access searches for the data as it is stored in the database, which isn't always the same as it's displayed). The default is <strong>No</strong>. You can use this feature to restrict the search to data in a particular format. For example, click <strong>Yes</strong> and type <strong>1,234</strong> in the <strong>Find What</strong> argument to find a value of 1,234 in a field formatted to include commas. Click <strong>No</strong> if you want to type <strong>1234</strong> to search for the data in this field. To search for dates, click <strong>Yes</strong> to find a date exactly as it is formatted, such as 08-July-2003. If you click <strong>No</strong>, enter the date for the <strong>Find What</strong> argument in the format that is set in the regional settings in Windows Control Panel. This format is shown in the <strong>Short date format</strong> box found on the <strong>Date</strong> tab in the regional settings. For example, if the <strong>Short date format</strong> box is set to <strong>M/d/yy</strong>, you can enter 7/8/03, and Access will find all entries in a Date field that correspond to July 8, 2003, regardless of how this field is formatted.</p>
-
-> [!NOTE]
-> The **Search As Formatted** argument takes effect only if the current field is a bound control, the **Match** argument is set to **Whole Field**, the **Only Current Field** argument is set to **Yes**, and the **Match Case** argument is set to **No**.
-
-
+<p><strong>NOTE</strong>: The <strong>Search As Formatted</strong> argument takes effect only if the current field is a bound control, the <strong>Match</strong> argument is set to <strong>Whole Field</strong>, the <strong>Only Current Field</strong> argument is set to <strong>Yes</strong>, and the <strong>Match Case</strong> argument is set to <strong>No</strong>.</p>
 <p>If you set <strong>Match Case</strong> to <strong>Yes</strong> or <strong>Only Current Field</strong> to <strong>No</strong>, you must also set <strong>Search As Formatted</strong> to <strong>Yes</strong>.</p></td>
 </tr>
 <tr class="even">

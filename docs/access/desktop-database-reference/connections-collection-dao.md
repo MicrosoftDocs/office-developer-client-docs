@@ -10,14 +10,10 @@ mtps_version: v=office.15
 
 # Connections collection (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 > [!NOTE]
 > ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.
-
-
 
 A **Connections** collection contains the current **Connection** objects of a **Workspace** object. (ODBCDirect workspaces only).
 
@@ -29,16 +25,15 @@ At the same time you open a **Connection** object, a corresponding **[Database](
 
 The **Name** property setting of a **Connection** is a string that specifies the path of the database file. To refer to a **Connection** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:
 
-  - **Connections**(0)
+- **Connections**(0)
 
-  - **Connections**("*name*")
+- **Connections**("*name*")
 
-  - **Connections**\!\[*name*\]
+- **Connections**\!\[*name*\]
 
 
 > [!NOTE]
 > You can open the same data source more than once, creating duplicate names in the **Connections** collection. You should assign **Connection** objects to object variables and refer to them by variable name.
-
 
 
 ## Example

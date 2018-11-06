@@ -38,13 +38,7 @@ The **SetField** action has the following arguments.
 <tr class="odd">
 <td><p>In</p></td>
 <td><p>Yes</p></td>
-<td><p>A string that identifies the record to operate on. The <em>In</em> argument can contain the name of the table, a select query, or a SQL statement.</p>
-
-> [!NOTE]
-> The specified record cannot include data stored in a linked table or ODBC data source.
-
-
-<p></p></td>
+<td><p>A string that identifies the record to operate on. The <em>In</em> argument can contain the name of the table, a select query, or a SQL statement.</p><p><strong>NOTE</strong>: The specified record cannot include data stored in a linked table or ODBC data source.</p></td>
 </tr>
 <tr class="even">
 <td><p>Where Condition</p></td>

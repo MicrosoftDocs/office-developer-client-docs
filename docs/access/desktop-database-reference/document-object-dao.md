@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Document object (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 A **Document** object includes information about one instance of an object. The object can be a database, saved table, query, or relationship (Microsoft Access database engine databases only).
@@ -54,27 +53,25 @@ Each **Container** object has a **Documents** collection containing **Document**
 > [!NOTE]
 > Don't confuse the **Container** objects listed in the preceding table with the collections of the same name. The Databases **Container** object refers to all saved database objects, but the **Databases** collection refers only to database objects that are open in a particular workspace.
 
-
-
 With a **Document** object, you can:
 
-  - Use the **Name** property to return the name that a user or the Microsoft Access database engine gave to the object when it was created.
+- Use the **Name** property to return the name that a user or the Microsoft Access database engine gave to the object when it was created.
 
-  - Use the **Container** property to return the name of the **Container** object that contains the **Document** object.
+- Use the **Container** property to return the name of the **Container** object that contains the **Document** object.
 
-  - Use the **Owner** property to set or return the owner of the object. To set the **Owner** property, you must have write permission for the **Document** object, and you must set the property to the name of an existing **User** or **Group** object.
+- Use the **Owner** property to set or return the owner of the object. To set the **Owner** property, you must have write permission for the **Document** object, and you must set the property to the name of an existing **User** or **Group** object.
 
-  - Use the **UserName** or **Permissions** properties to set or return the access permissions of a user or group for the object. To set these properties, you must have write permission for the **Document** object, and you must set the **UserName** property to the name of an existing **User** or **Group** object.
+- Use the **UserName** or **Permissions** properties to set or return the access permissions of a user or group for the object. To set these properties, you must have write permission for the **Document** object, and you must set the **UserName** property to the name of an existing **User** or **Group** object.
 
-  - Use the **DateCreated** and **LastUpdated** properties to return the date and time when the **Document** object was created and last modified.
+- Use the **DateCreated** and **LastUpdated** properties to return the date and time when the **Document** object was created and last modified.
 
 Because a **Document** object corresponds to an existing object, you can't create new **Document** objects or delete existing ones. To refer to a **Document** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:
 
-  - **Documents**(0)
+- **Documents**(0)
 
-  - **Documents**("*name*")
+- **Documents**("*name*")
 
-  - **Documents**\!\[*name*\]
+- **Documents**\!\[*name*\]
 
 ## Example
 

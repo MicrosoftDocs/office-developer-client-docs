@@ -60,12 +60,8 @@ The **RecordsetType** property uses the following settings in a Microsoft Access
 </tbody>
 </table>
 
-
-
 > [!NOTE]
 > If you don't want data in bound controls to be edited when a form is in Form view or Datasheet view, you can set the **RecordsetType** property to 2.
-
-
 
 The **RecordsetType** property uses the following settings in a Microsoft Access project (.adp).
 
@@ -96,12 +92,8 @@ The **RecordsetType** property uses the following settings in a Microsoft Access
 </tbody>
 </table>
 
-
-
 > [!NOTE]
 > Changing the **RecordsetType** property of an open form or report causes an automatic recreation of the recordset.
-
-
 
 You can create forms based on multiple underlying tables with fields bound to controls on the forms. Depending on the **RecordsetType** property setting, you can limit which of these bound controls can be edited.
 

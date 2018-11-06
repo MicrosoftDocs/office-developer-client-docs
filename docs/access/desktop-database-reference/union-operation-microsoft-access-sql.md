@@ -57,7 +57,7 @@ FROM Customers
 WHERE OrderAmount > 1000;
 ```
 
-By default, no duplicate records are returned when you use a UNION operation; however, you can include the [ALL](https://msdn.microsoft.com/library/ff195711\(v=office.15\)) predicate to ensure that all records are returned. This also makes the query run faster.
+By default, no duplicate records are returned when you use a UNION operation; however, you can include the [ALL](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/all-distinct-distinctrow-top-predicates-microsoft-access-sql) predicate to ensure that all records are returned. This also makes the query run faster.
 
 All queries in a UNION operation must request the same number of fields; however, the fields do not have to be of the same size or data type.
 

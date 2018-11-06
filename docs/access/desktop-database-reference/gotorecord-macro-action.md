@@ -52,18 +52,12 @@ The **GoToRecord** action has the following arguments.
 <td><p>An integer or expression that evaluates to an integer. An expression must be preceded by an equal sign (<strong>=</strong>). This argument specifies the record to make the current record. You can use the <strong>Offset</strong> argument in two ways:</p>
 <ul>
 <li><p>When the <strong>Record</strong> argument is <strong>Next</strong> or <strong>Previous</strong>, Microsoft Office Access 2007 moves the number of records forward or backward specified in the <strong>Offset</strong> argument.</p></li>
-<li><p>When the <strong>Record</strong> argument is <strong>Go To</strong>, Access moves to the record with the number equal to the <strong>Offset</strong> argument. The record number is shown in the record number box at the bottom of the window.</p></li>
-</ul>
-
-> [!NOTE]
-> If you use the **First**, **Last**, or **New** setting for the **Record** argument, Access ignores the **Offset** argument. If you enter an **Offset** argument that is too large, Access displays an error message. You can't enter negative numbers for the **Offset** argument.
-
-
-<p></p>
-<ul>
+<li><p>When the <strong>Record</strong> argument is <strong>Go To</strong>, Access moves to the record with the number equal to the <strong>Offset</strong> argument. The record number is shown in the record number box at the bottom of the window.</p>
+<p><strong>NOTE</strong>: If you use the <strong>First</strong>, <strong>Last</strong>, or <strong>New</strong> setting for the <strong>Record</strong> argument, Access ignores the <strong>Offset</strong> argument. If you enter an <strong>Offset</strong> argument that is too large, Access displays an error message. You can't enter negative numbers for the <strong>Offset</strong> argument.</p></li>
 <li><p>When the <strong>Record</strong> argument is <strong>Next</strong> or <strong>Previous</strong>, Microsoft Office Access 2007 moves the number of records forward or backward specified in the <strong>Offset</strong> argument.</p></li>
 <li><p>When the <strong>Record</strong> argument is <strong>Go To</strong>, Access moves to the record with the number equal to the <strong>Offset</strong> argument. The record number is shown in the record number box at the bottom of the window.</p></li>
-</ul></td>
+</ul>
+</td>
 </tr>
 </tbody>
 </table>

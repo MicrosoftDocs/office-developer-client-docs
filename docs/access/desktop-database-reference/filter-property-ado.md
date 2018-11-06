@@ -36,12 +36,9 @@ The criteria string is made up of clauses in the form *FieldName-Operator-Value*
   - *Operator* must be one of the following: \<, \>, \<=, \>=, \<\>, =, or **LIKE**.
 
   - *Value* is the value with which you will compare the field values (for example, 'Smith', \#8/24/95\#, 12.345, or $50.00). Use single quotes with strings and pound signs (\#) with dates. For numbers, you can use decimal points, dollar signs, and scientific notation. If *Operator* is **LIKE**, *Value* can use wildcards. Only the asterisk (\*) and percent sign (%) wild cards are allowed, and they must be the last character in the string. *Value* cannot be null.
-    
 
     > [!NOTE]
     > To include single quotation marks (') in the filter Value, use two single quotation marks to represent one. For example, to filter on O'Malley, the criteria string should be "col1 = 'O''Malley'". To include single quotation marks at both the beginning and the end of the filter value, enclose the string with pound signs (#). For example, to filter on '1', the criteria string should be "col1 = #'1'#".
-
-
 
   - There is no precedence between **AND** and **OR**. Clauses can be grouped within parentheses. However, you cannot group clauses joined by an **OR** and then join the group to another clause with an **AND**, like this:
 

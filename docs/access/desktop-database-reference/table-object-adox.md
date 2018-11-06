@@ -24,7 +24,7 @@ With the properties and collections of a **Table** object, you can:
 
 - Identify the table with the [Name](name-property-adox.md) property.
 
-- Determine the type of table with the [Type](https://msdn.microsoft.com/library/jj250042\(v=office.15\)) property.
+- Determine the type of table with the [Type](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-tableadox) property.
 
 - Access the database columns of the table with the [Columns](columns-collection-adox.md) collection.
 

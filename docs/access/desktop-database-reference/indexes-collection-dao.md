@@ -18,17 +18,13 @@ An **Indexes** collection contains all the stored **Index** objects of a **Table
 
 When you access a table-type Recordset object, use the object's **Index** property to specify the order of records. Set this property to the **Name** property setting of an existing **Index** object in the **Indexes** collection of the **[TableDef](tabledef-object-dao.md)** object underlying the **[Recordset](recordset-object-dao.md)** object.
 
-
 > [!NOTE]
 > You can use the **Append** or **Delete** method on an **Indexes** collection only if the **[Updatable](connection-updatable-property-dao.md)** property setting of the containing **TableDef** object is **True**.
 
 After you create a new **Index** object, you should use the **Append** method to add it to the **TableDef** object's **Indexes** collection.
 
-
 > [!IMPORTANT]
 > Make sure your data complies with the attributes of your new index. If your index requires unique values, make sure that there are no duplicates in existing data records. If duplicates exist, the Microsoft Access database engine can't create the index; a trappable error results when you attempt to use the Append method on the new index.
-
-
 
 ## Example
 

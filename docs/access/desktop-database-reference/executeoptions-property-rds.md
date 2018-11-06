@@ -42,12 +42,8 @@ Sets or returns one of the following values.
 </tbody>
 </table>
 
-
-
 > [!NOTE]
 > Each client-side executable file that uses these constants must provide declarations for them. You can cut and paste the constant declarations that you want from the file Adcvbs.inc, located in the C:\Program Files\Common Files\System\MSADC folder.
-
-
 
 ## Remarks
 

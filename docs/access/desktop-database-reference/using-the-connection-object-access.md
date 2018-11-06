@@ -22,6 +22,5 @@ Before opening a **Connection** object, you must define certain information abou
 
 This section includes the following topics:
 
-- [Creating the Connection String](creating-the-connection-string.md)
-
-- [Controlling Transactions](controlling-transactions.md)
+- [Creating the connection string](creating-the-connection-string.md)
+- [Controlling transactions](controlling-transactions.md)

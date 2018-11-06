@@ -77,7 +77,7 @@ mtps_version: v=office.15
 <td><p>Indicates whether a sort order is ascending or descending.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/jj248989(v=office.15)">SQL</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado">SQL</a></p></td>
 <td><p>Indicates the query string used to retrieve the <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="odd">

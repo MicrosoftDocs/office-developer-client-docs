@@ -24,12 +24,8 @@ It is not always necessary to create a **Command** object to execute a command a
 
 This section includes the following topics:
 
-- [Command Object Overview](command-object-overview.md)
-
-- [Creating and Executing a Simple Command](creating-and-executing-a-simple-command.md)
-
-- [Command Object Parameters](command-object-parameters.md)
-
-- [Calling a Stored Procedure with a Command](calling-a-stored-procedure-with-a-command.md)
-
-- [Named Commands](named-commands.md)
+- [Command object overview](command-object-overview.md)
+- [Creating and executing a simple command](creating-and-executing-a-simple-command.md)
+- [Command object parameters](command-object-parameters.md)
+- [Calling a stored procedure with a command](calling-a-stored-procedure-with-a-command.md)
+- [Named commands](named-commands.md)
