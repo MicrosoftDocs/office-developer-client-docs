@@ -1948,23 +1948,6 @@
                       href: access/desktop-database-reference/address-book-navigation-buttons.md
                 - name: 'Chapter 12: RDS tutorial'
                   href: access/desktop-database-reference/chapter-12-rds-tutorial.md
-                  items:
-                  - name: 'Step 1: Specify a server program'
-                    href: access/desktop-database-reference/step-1-specify-a-server-program-rds-tutorial.md
-                  - name: 'Step 2: Invoke the server program'
-                    href: access/desktop-database-reference/step-2-invoke-the-server-program-rds-tutorial.md
-                  - name: 'Step 3: Server obtains a Recordset'
-                    href: access/desktop-database-reference/step-3-server-obtains-a-recordset-rds-tutorial.md
-                  - name: 'Step 4: Server returns the Recordset'
-                    href: access/desktop-database-reference/step-4-server-returns-the-recordset-rds-tutorial.md
-                  - name: 'Step 5: DataControl is made usable'
-                    href: access/desktop-database-reference/step-5-datacontrol-is-made-usable-rds-tutorial.md
-                  - name: 'Step 6: Changes are sent to the server'
-                    href: access/desktop-database-reference/step-6-changes-are-sent-to-the-server-rds-tutorial.md
-                  - name: RDS tutorial (VBScript)
-                    href: access/desktop-database-reference/rds-tutorial-vbscript.md
-                  - name: RDS tutorial (Visual J++)
-                    href: access/desktop-database-reference/rds-tutorial-visual-j.md
                 - name: 'Chapter 13: RDS usage and security'
                   href: access/desktop-database-reference/chapter-13-rds-usage-and-security.md
                   items:

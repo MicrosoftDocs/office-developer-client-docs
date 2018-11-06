@@ -387,6 +387,38 @@
   {
     "source_path": "docs/access/desktop-database-reference/step-4-populate-the-details-text-box.md",
     "redirect_url": "/office/client-developer/access/desktop-database-reference/internet-publishing-scenario"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/step-1-specify-a-server-program-rds-tutorial.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-12-rds-tutorial"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/step-2-invoke-the-server-program-rds-tutorial.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-12-rds-tutorial"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/step-3-server-obtains-a-recordset-rds-tutorial.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-12-rds-tutorial"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/step-4-server-returns-the-recordset-rds-tutorial.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-12-rds-tutorial"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/step-5-datacontrol-is-made-usable-rds-tutorial.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-12-rds-tutorial"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/step-6-changes-are-sent-to-the-server-rds-tutorial.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-12-rds-tutorial"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/rds-tutorial-vbscript.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-12-rds-tutorial"
+  },
+  {
+    "source_path": "docs/access/desktop-database-reference/rds-tutorial-visual-j.md",
+    "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-12-rds-tutorial"
   }
 ]
 }
